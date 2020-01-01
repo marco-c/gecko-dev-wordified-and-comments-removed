@@ -548,10 +548,6 @@ eAutoDetect
 eCoalesceMutationTextChange
 )
 {
-mNode
-=
-aTargetNode
-;
 mParent
 =
 mAccessible
