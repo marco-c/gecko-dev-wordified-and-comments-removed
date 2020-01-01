@@ -9296,11 +9296,6 @@ iter
 +
 )
 {
-D2D1_LAYER_OPTIONS
-options
-=
-D2D1_LAYER_OPTIONS_NONE
-;
 if
 (
 iter
@@ -10582,6 +10577,9 @@ Draw
 4
 0
 )
+;
+return
+true
 ;
 }
 TemporaryRef
