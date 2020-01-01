@@ -441,9 +441,6 @@ returnType
 )
 "
 TestEnum
-(
-Wrapper
-)
 "
 "
 Method
@@ -590,9 +587,6 @@ type
 )
 "
 TestEnum
-(
-Wrapper
-)
 "
 "
 Attr
