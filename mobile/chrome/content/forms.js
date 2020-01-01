@@ -2966,7 +2966,17 @@ return
 isVisible
 &
 &
+(
 isOpaque
+|
+|
+this
+.
+_isSelectElement
+(
+aElement
+)
+)
 &
 &
 (
