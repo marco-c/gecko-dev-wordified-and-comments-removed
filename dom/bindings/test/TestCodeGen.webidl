@@ -2985,6 +2985,17 @@ arg
 )
 ;
 void
+passNullableSequenceOfObject
+(
+sequence
+<
+object
+>
+?
+arg
+)
+;
+void
 passOptionalNullableSequenceOfNullableSequenceOfObject
 (
 optional
