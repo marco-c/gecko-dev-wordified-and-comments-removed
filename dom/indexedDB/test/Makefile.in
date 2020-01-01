@@ -525,6 +525,12 @@ test_lowDiskSpace
 .
 html
 disabled
+for
+perma
+-
+orange
+bug
+861903
 ifeq
 (
 browser
