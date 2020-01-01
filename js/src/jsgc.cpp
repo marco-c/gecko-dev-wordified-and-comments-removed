@@ -1125,7 +1125,14 @@ isTenured
 const
 {
 return
-true
+!
+IsInsideNursery
+(
+runtime
+(
+)
+this
+)
 ;
 }
 #
