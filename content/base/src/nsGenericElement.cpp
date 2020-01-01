@@ -15937,6 +15937,7 @@ isMeta
 event
 .
 flags
+|
 =
 aFlags
 ;
