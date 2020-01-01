@@ -52,11 +52,9 @@ bool
 hasQPC
 )
 ;
-bool
+uint64_t
 CheckQPC
 (
-int64_t
-aDuration
 const
 TimeStampValue
 &
