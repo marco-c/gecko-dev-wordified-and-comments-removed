@@ -512,7 +512,7 @@ const
 Value
 &
 rval
-JSBool
+bool
 *
 equal
 )
@@ -532,7 +532,7 @@ const
 Value
 &
 rval
-JSBool
+bool
 *
 equal
 )
@@ -552,7 +552,7 @@ const
 Value
 &
 v2
-JSBool
+bool
 *
 same
 )
