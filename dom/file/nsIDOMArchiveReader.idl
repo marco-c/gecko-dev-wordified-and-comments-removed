@@ -137,6 +137,11 @@ DOMString
 filename
 )
 ;
+nsIDOMArchiveRequest
+getFiles
+(
+)
+;
 }
 ;
 /
