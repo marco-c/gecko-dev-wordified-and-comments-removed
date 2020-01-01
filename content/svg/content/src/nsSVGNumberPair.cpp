@@ -96,7 +96,7 @@ nsISupports
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
-SVGAnimatedNumberPair
+SVGAnimatedNumber
 )
 NS_INTERFACE_MAP_END
 static
