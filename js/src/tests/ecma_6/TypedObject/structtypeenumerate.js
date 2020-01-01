@@ -7,7 +7,7 @@ var
 summary
 =
 '
-BinaryData
+TypedObjects
 StructType
 propery
 enumeration

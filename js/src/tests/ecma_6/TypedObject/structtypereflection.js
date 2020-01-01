@@ -7,7 +7,7 @@ var
 summary
 =
 '
-BinaryData
+TypedObjects
 :
 check
 reflection

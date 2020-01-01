@@ -646,7 +646,7 @@ ArgumentsObject
 cpp
 '
 '
-BinaryData
+TypedObject
 .
 cpp
 '

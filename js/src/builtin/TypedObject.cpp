@@ -3,7 +3,7 @@ include
 "
 builtin
 /
-BinaryData
+TypedObject
 .
 h
 "
@@ -1139,7 +1139,7 @@ JS_ReportErrorNumber
 cx
 js_GetErrorMessage
 NULL
-JSMSG_BINARYDATA_NOT_TYPE_OBJECT
+JSMSG_TYPEDOBJECT_NOT_TYPE_OBJECT
 )
 ;
 return
@@ -3504,7 +3504,7 @@ JS_ReportErrorNumber
 cx
 js_GetErrorMessage
 NULL
-JSMSG_BINARYDATA_SUBARRAY_INTEGER_ARG
+JSMSG_TYPEDOBJECT_SUBARRAY_INTEGER_ARG
 "
 1
 "
@@ -3635,7 +3635,7 @@ JS_ReportErrorNumber
 cx
 js_GetErrorMessage
 NULL
-JSMSG_BINARYDATA_SUBARRAY_INTEGER_ARG
+JSMSG_TYPEDOBJECT_SUBARRAY_INTEGER_ARG
 "
 2
 "
@@ -4621,7 +4621,7 @@ JS_ReportErrorNumber
 cx
 js_GetErrorMessage
 NULL
-JSMSG_BINARYDATA_ARRAYTYPE_BAD_ARGS
+JSMSG_TYPEDOBJECT_ARRAYTYPE_BAD_ARGS
 )
 ;
 return
@@ -4669,7 +4669,7 @@ JS_ReportErrorNumber
 cx
 js_GetErrorMessage
 NULL
-JSMSG_BINARYDATA_ARRAYTYPE_BAD_ARGS
+JSMSG_TYPEDOBJECT_ARRAYTYPE_BAD_ARGS
 )
 ;
 return
@@ -4694,7 +4694,7 @@ JS_ReportErrorNumber
 cx
 js_GetErrorMessage
 NULL
-JSMSG_BINARYDATA_ARRAYTYPE_BAD_ARGS
+JSMSG_TYPEDOBJECT_ARRAYTYPE_BAD_ARGS
 )
 ;
 return
@@ -4725,7 +4725,7 @@ JS_ReportErrorNumber
 cx
 js_GetErrorMessage
 NULL
-JSMSG_BINARYDATA_ARRAYTYPE_BAD_ARGS
+JSMSG_TYPEDOBJECT_ARRAYTYPE_BAD_ARGS
 )
 ;
 return
@@ -5949,7 +5949,7 @@ JS_ReportErrorNumber
 cx
 js_GetErrorMessage
 NULL
-JSMSG_BINARYDATA_STRUCTTYPE_BAD_ARGS
+JSMSG_TYPEDOBJECT_STRUCTTYPE_BAD_ARGS
 )
 ;
 return
@@ -7608,7 +7608,7 @@ true
 }
 JSObject
 *
-js_InitBinaryDataClasses
+js_InitTypedObjectClasses
 (
 JSContext
 *
@@ -8276,7 +8276,7 @@ if
 typeObj
 -
 >
-addBinaryDataAddendum
+addTypedObjectAddendum
 (
 cx
 typeRepr
@@ -10181,7 +10181,7 @@ JS_ReportErrorNumber
 cx
 js_GetErrorMessage
 NULL
-JSMSG_BINARYDATA_BINARYARRAY_BAD_INDEX
+JSMSG_TYPEDOBJECT_BINARYARRAY_BAD_INDEX
 )
 ;
 return

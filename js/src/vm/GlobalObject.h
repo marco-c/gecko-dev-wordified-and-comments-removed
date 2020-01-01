@@ -114,7 +114,7 @@ obj
 extern
 JSObject
 *
-js_InitBinaryDataClasses
+js_InitTypedObjectClasses
 (
 JSContext
 *

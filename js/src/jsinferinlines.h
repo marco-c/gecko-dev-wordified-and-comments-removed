@@ -7900,10 +7900,10 @@ asNewScript
 )
 ;
 case
-BinaryData
+TypedObject
 :
 return
-TypeBinaryData
+TypeTypedObject
 :
 :
 writeBarrierPre
@@ -7911,7 +7911,7 @@ writeBarrierPre
 type
 -
 >
-asNewScript
+asTypedObject
 (
 )
 )
