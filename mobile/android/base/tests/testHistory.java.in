@@ -50,7 +50,7 @@ public
 class
 testHistory
 extends
-PixelTest
+AboutHomeTest
 {
 private
 View
@@ -122,7 +122,7 @@ html
 "
 )
 ;
-loadAndPaint
+loadUrl
 (
 url
 )
@@ -137,7 +137,7 @@ Page
 "
 )
 ;
-loadAndPaint
+loadUrl
 (
 url2
 )
@@ -152,7 +152,7 @@ Page
 "
 )
 ;
-loadAndPaint
+loadUrl
 (
 url3
 )

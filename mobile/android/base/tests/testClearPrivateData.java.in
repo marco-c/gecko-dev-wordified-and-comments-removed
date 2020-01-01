@@ -22,7 +22,7 @@ public
 class
 testClearPrivateData
 extends
-PixelTest
+AboutHomeTest
 {
 Override
 protected
@@ -88,7 +88,7 @@ html
 "
 )
 ;
-loadAndPaint
+loadUrl
 (
 url
 )
