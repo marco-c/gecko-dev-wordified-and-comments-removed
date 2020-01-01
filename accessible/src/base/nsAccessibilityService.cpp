@@ -7508,7 +7508,7 @@ roleMapEntry
 nsARIAMap
 :
 :
-gEmptyRoleMap
+gLandmarkRoleMap
 ;
 }
 break
@@ -7556,7 +7556,7 @@ roleMapEntry
 nsARIAMap
 :
 :
-gEmptyRoleMap
+gLandmarkRoleMap
 ;
 break
 ;
