@@ -8119,6 +8119,8 @@ false
 for
 iface
 in
+sorted
+(
 self
 .
 descriptor
@@ -8126,6 +8128,18 @@ descriptor
 interface
 .
 interfacesImplementingSelf
+                            
+key
+=
+lambda
+iface
+:
+iface
+.
+identifier
+.
+name
+)
 :
             
 hasInstanceCode
