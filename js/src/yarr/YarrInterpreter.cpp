@@ -3879,6 +3879,9 @@ ByteTerm
 TypeParenthesesSubpatternOnceBegin
 )
 ;
+#
+if
+0
 ASSERT
 (
 (
@@ -3901,6 +3904,8 @@ term
 inputPosition
 )
 ;
+#
+endif
 unsigned
 subpatternId
 =
@@ -3924,8 +3929,18 @@ getPos
 (
 )
 +
+(
+&
+term
+-
 term
 .
+atom
+.
+parenthesesWidth
+)
+-
+>
 inputPosition
 ;
 }
