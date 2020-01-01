@@ -1151,15 +1151,6 @@ ffi_closure
 *
 closure
 ;
-#
-ifdef
-DEBUG
-PRThread
-*
-thread
-;
-#
-endif
 }
 ;
 JSBool
