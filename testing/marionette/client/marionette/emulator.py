@@ -2965,7 +2965,7 @@ restart_b2g
 )
         
 if
-load_early
+True
 :
             
 self
