@@ -324,15 +324,6 @@ aHeight
 )
 ;
 void
-DrawEllipse
-(
-const
-nsRect
-&
-aRect
-)
-;
-void
 FillRect
 (
 const
