@@ -224,7 +224,7 @@ waitForText
 (
 "
 Share
-Via
+via
 "
 )
 ;
@@ -729,7 +729,7 @@ waitForText
 (
 "
 Share
-Via
+via
 "
 )
 ;

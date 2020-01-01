@@ -1324,7 +1324,7 @@ waitForText
 (
 "
 Bookmark
-Removed
+removed
 "
 )
 ;
@@ -1549,7 +1549,7 @@ waitForText
 (
 "
 Bookmark
-Updated
+updated
 "
 )
 ;
