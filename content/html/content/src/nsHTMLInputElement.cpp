@@ -2032,6 +2032,12 @@ nsHTMLInputElement
 Disabled
 disabled
 )
+NS_IMPL_STRING_ATTR
+(
+nsHTMLInputElement
+FormTarget
+formtarget
+)
 NS_IMPL_BOOL_ATTR
 (
 nsHTMLInputElement
