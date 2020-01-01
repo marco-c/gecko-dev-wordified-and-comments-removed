@@ -55,9 +55,9 @@ ASANFLAGS
 =
 "
 -
-faddress
--
-sanitizer
+fsanitize
+=
+address
 -
 Dxmalloc
 =
@@ -82,9 +82,9 @@ LDFLAGS
 =
 "
 -
-faddress
--
-sanitizer
+fsanitize
+=
+address
 "
 #
 Enable
