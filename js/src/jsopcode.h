@@ -2033,6 +2033,7 @@ JS_NEW_PRINTER
 (
 cx
 name
+fun
 indent
 pretty
 )
@@ -2041,6 +2042,7 @@ js_NewPrinter
 (
 cx
 name
+fun
 indent
 pretty
 )
@@ -2052,6 +2054,7 @@ JS_NEW_PRINTER
 (
 cx
 name
+fun
 indent
 pretty
 )
@@ -2059,6 +2062,7 @@ pretty
 js_NewPrinter
 (
 cx
+fun
 indent
 pretty
 )
@@ -2076,6 +2080,9 @@ const
 char
 *
 name
+JSFunction
+*
+fun
 uintN
 indent
 JSBool
@@ -2394,9 +2401,6 @@ js_DecompileFunctionBody
 JSPrinter
 *
 jp
-JSFunction
-*
-fun
 )
 ;
 extern
@@ -2406,9 +2410,6 @@ js_DecompileFunction
 JSPrinter
 *
 jp
-JSFunction
-*
-fun
 )
 ;
 extern
