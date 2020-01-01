@@ -2313,6 +2313,13 @@ BINPATH
 /
 components
 /
+nsUrlClassifierHashCompleter
+.
+js
+BINPATH
+/
+components
+/
 nsUrlClassifierListManager
 .
 js
