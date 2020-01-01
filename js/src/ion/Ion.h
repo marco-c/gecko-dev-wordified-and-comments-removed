@@ -134,6 +134,9 @@ eagerCompilation
 uint32
 slowCallLimit
 ;
+uint32
+slowCallIncUseCount
+;
 void
 setEagerCompilation
 (
@@ -255,6 +258,10 @@ false
 slowCallLimit
 (
 512
+)
+slowCallIncUseCount
+(
+5
 )
 {
 }
