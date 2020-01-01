@@ -57,13 +57,6 @@ h
 #
 include
 "
-jscntxt
-.
-h
-"
-#
-include
-"
 jsfriendapi
 .
 h
@@ -7398,7 +7391,7 @@ obj
 JSVAL_NULL
 }
 ;
-js
+JS
 :
 :
 AutoArrayRooter
