@@ -502,6 +502,10 @@ browser_scratchpad_bug_669612_unsaved
 .
 js
 \
+head
+.
+js
+\
 libs
 :
 :
