@@ -19067,6 +19067,12 @@ previousState
 TAB_STATE_RESTORING
 )
 {
+if
+(
+this
+.
+_tabsRestoringCount
+)
 this
 .
 _tabsRestoringCount
