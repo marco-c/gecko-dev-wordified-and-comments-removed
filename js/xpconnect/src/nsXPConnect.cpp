@@ -4741,7 +4741,6 @@ XPCWrappedNative
 :
 WrapNewGlobal
 (
-ccx
 helper
 aPrincipal
 aFlags
@@ -6071,7 +6070,6 @@ XPCNativeInterface
 :
 GetNewOrUsed
 (
-ccx
 &
 aIID
 )
@@ -6096,7 +6094,6 @@ XPCWrappedNative
 :
 GetUsedOnly
 (
-ccx
 aCOMObj
 scope
 iface
@@ -6232,7 +6229,6 @@ XPCWrappedNative
 :
 ReparentWrapperIfFound
 (
-ccx
 scope
 scope2
 newParent
@@ -6476,7 +6472,6 @@ i
 >
 RescueOrphans
 (
-ccx
 )
 ;
 NS_ENSURE_SUCCESS
@@ -6984,7 +6979,6 @@ XPCJSObjectHolder
 :
 newHolder
 (
-ccx
 JSVAL_TO_OBJECT
 (
 rval
@@ -7207,7 +7201,6 @@ XPCWrappedNativeProto
 :
 GetNewOrUsed
 (
-ccx
 scope
 aClassInfo
 &
@@ -7239,7 +7232,6 @@ XPCJSObjectHolder
 :
 newHolder
 (
-ccx
 proto
 -
 >
@@ -9287,7 +9279,6 @@ XPCJSObjectHolder
 :
 newHolder
 (
-ccx
 aObject
 )
 ;

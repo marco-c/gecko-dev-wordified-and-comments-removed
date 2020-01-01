@@ -199,7 +199,6 @@ wrapper
 ToString
 (
 ccx
-ccx
 .
 GetTearOff
 (
@@ -870,7 +869,6 @@ XPCNativeInterface
 :
 GetNewOrUsed
 (
-ccx
 &
 NS_GET_IID
 (
@@ -1433,7 +1431,6 @@ XPCNativeInterface
 :
 GetNewOrUsed
 (
-ccx
 name
 .
 ptr
@@ -1455,7 +1452,6 @@ wrapperToReflectInterfaceNames
 >
 FindTearOff
 (
-ccx
 iface2
 true
 &
@@ -1714,7 +1710,6 @@ wrapperToReflectInterfaceNames
 >
 FindTearOff
 (
-ccx
 iface
 true
 )
@@ -5649,9 +5644,6 @@ XPCNativeScriptableInfo
 :
 Construct
 (
-XPCCallContext
-&
-ccx
 const
 XPCNativeScriptableCreateInfo
 *
@@ -5748,9 +5740,10 @@ XPCJSRuntime
 *
 rt
 =
-ccx
-.
-GetRuntime
+XPCJSRuntime
+:
+:
+Get
 (
 )
 ;

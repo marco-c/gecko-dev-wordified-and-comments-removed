@@ -1143,7 +1143,6 @@ XPCNativeSet
 :
 GetNewOrUsed
 (
-ccx
 newwn
 -
 >

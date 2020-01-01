@@ -1123,8 +1123,6 @@ mWrapper
 >
 FindTearOff
 (
-*
-this
 mInterface
 false
 &

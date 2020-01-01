@@ -1527,7 +1527,6 @@ XPCNativeInterface
 :
 GetNewOrUsed
 (
-ccx
 iid
 )
 ;
@@ -1679,7 +1678,6 @@ XPCNativeInterface
 :
 GetNewOrUsed
 (
-ccx
 iid
 )
 ;
@@ -2172,7 +2170,6 @@ XPCNativeInterface
 :
 GetNewOrUsed
 (
-ccx
 iid
 )
 ;
@@ -2191,7 +2188,6 @@ other_wrapper
 >
 FindTearOff
 (
-ccx
 iface
 false
 &

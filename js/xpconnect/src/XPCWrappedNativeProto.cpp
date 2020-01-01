@@ -6,6 +6,17 @@ xpcprivate
 h
 "
 #
+include
+"
+nsCxPusher
+.
+h
+"
+using
+namespace
+mozilla
+;
+#
 if
 defined
 (
@@ -156,9 +167,6 @@ XPCWrappedNativeProto
 :
 Init
 (
-XPCCallContext
-&
-ccx
 const
 XPCNativeScriptableCreateInfo
 *
@@ -167,6 +175,9 @@ bool
 callPostCreatePrototype
 )
 {
+AutoJSContext
+cx
+;
 nsIXPCScriptable
 *
 callback
@@ -194,7 +205,6 @@ XPCNativeScriptableInfo
 :
 Construct
 (
-ccx
 scriptableCreateInfo
 )
 ;
@@ -288,7 +298,7 @@ JS
 RootedObject
 parent
 (
-ccx
+cx
 mScope
 -
 >
@@ -303,10 +313,10 @@ JS
 RootedObject
 proto
 (
-ccx
+cx
 JS_GetObjectPrototype
 (
-ccx
+cx
 parent
 )
 )
@@ -315,7 +325,7 @@ mJSProtoObject
 =
 JS_NewObjectWithUniqueType
 (
-ccx
+cx
 js
 :
 :
@@ -353,7 +363,6 @@ success
 =
 CallPostCreatePrototype
 (
-ccx
 )
 ;
 }
@@ -374,11 +383,11 @@ XPCWrappedNativeProto
 :
 CallPostCreatePrototype
 (
-XPCCallContext
-&
-ccx
 )
 {
+AutoJSContext
+cx
+;
 nsIXPCScriptable
 *
 callback
@@ -410,7 +419,7 @@ callback
 >
 PostCreatePrototype
 (
-ccx
+cx
 mJSProtoObject
 )
 ;
@@ -438,7 +447,7 @@ XPCThrower
 Throw
 (
 rv
-ccx
+cx
 )
 ;
 return
@@ -636,9 +645,6 @@ XPCWrappedNativeProto
 :
 GetNewOrUsed
 (
-XPCCallContext
-&
-ccx
 XPCWrappedNativeScope
 *
 scope
@@ -656,6 +662,9 @@ bool
 callPostCreatePrototype
 )
 {
+AutoJSContext
+cx
+;
 NS_ASSERTION
 (
 scope
@@ -677,7 +686,7 @@ param
 AutoMarkingWrappedNativeProtoPtr
 proto
 (
-ccx
+cx
 )
 ;
 ClassInfo2WrappedNativeProtoMap
@@ -783,7 +792,7 @@ proto
 AutoMarkingNativeSetPtr
 set
 (
-ccx
+cx
 )
 ;
 set
@@ -793,7 +802,6 @@ XPCNativeSet
 :
 GetNewOrUsed
 (
-ccx
 classInfo
 )
 ;
@@ -829,7 +837,6 @@ proto
 >
 Init
 (
-ccx
 scriptableCreateInfo
 callPostCreatePrototype
 )
