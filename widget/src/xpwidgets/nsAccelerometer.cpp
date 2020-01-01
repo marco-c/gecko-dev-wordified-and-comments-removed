@@ -262,10 +262,6 @@ mStarted
 (
 PR_FALSE
 )
-mEnabled
-(
-PR_TRUE
-)
 mNewListener
 (
 PR_FALSE
@@ -273,6 +269,10 @@ PR_FALSE
 mUpdateInterval
 (
 50
+)
+mEnabled
+(
+PR_TRUE
 )
 {
 nsCOMPtr
