@@ -236,10 +236,8 @@ aForceEvent
 PR_FALSE
 )
 ;
-already_AddRefed
-<
 nsCaretAccessible
->
+*
 GetCaretAccessible
 (
 )
