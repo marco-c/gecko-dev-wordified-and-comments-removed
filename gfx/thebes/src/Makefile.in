@@ -125,6 +125,13 @@ cpp
 (
 NULL
 )
+ifeq
+(
+(
+MOZ_WIDGET_TOOLKIT
+)
+qt
+)
 CPPSRCS
 +
 =
@@ -136,6 +143,7 @@ cpp
 (
 NULL
 )
+endif
 EXTRA_DSO_LDOPTS
 +
 =
