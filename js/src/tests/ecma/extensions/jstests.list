@@ -342,6 +342,6 @@ script
 .
 js
 script
-testflatclosure
+trapflatclosure
 .
 js
