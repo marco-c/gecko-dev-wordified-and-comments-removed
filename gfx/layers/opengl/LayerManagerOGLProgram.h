@@ -139,7 +139,9 @@ RGBAExternalLayerProgramType
 ColorLayerProgramType
 YCbCrLayerProgramType
 ComponentAlphaPass1ProgramType
+ComponentAlphaPass1RGBProgramType
 ComponentAlphaPass2ProgramType
+ComponentAlphaPass2RGBProgramType
 Copy2DProgramType
 Copy2DRectProgramType
 NumProgramTypes

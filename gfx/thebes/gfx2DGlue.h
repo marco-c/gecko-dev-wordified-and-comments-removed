@@ -954,6 +954,9 @@ FORMAT_R5G6B5
 case
 FORMAT_B8G8R8X8
 :
+case
+FORMAT_R8G8B8X8
+:
 return
 gfxASurface
 :
@@ -971,6 +974,9 @@ CONTENT_ALPHA
 ;
 case
 FORMAT_B8G8R8A8
+:
+case
+FORMAT_R8G8B8A8
 :
 default
 :
