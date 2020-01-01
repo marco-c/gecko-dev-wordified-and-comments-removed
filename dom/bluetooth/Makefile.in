@@ -113,6 +113,10 @@ BluetoothAdapter
 .
 cpp
 \
+BluetoothDevice
+.
+cpp
+\
 (
 NULL
 )
@@ -124,6 +128,10 @@ nsIDOMNavigatorBluetooth
 idl
 \
 nsIDOMBluetoothAdapter
+.
+idl
+\
+nsIDOMBluetoothDevice
 .
 idl
 \
