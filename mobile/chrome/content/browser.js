@@ -12059,9 +12059,9 @@ getNotificationBox
 function
 importDialog
 (
-parent
-src
-arguments
+aParent
+aSrc
+aArguments
 )
 {
 let
@@ -12093,7 +12093,7 @@ open
 "
 GET
 "
-src
+aSrc
 false
 )
 ;
@@ -12238,7 +12238,7 @@ container
 )
 ;
 let
-parent
+parentNode
 =
 selectContainer
 .
@@ -12270,7 +12270,7 @@ false
 let
 dispatcher
 =
-parent
+aParent
 |
 |
 getBrowser
@@ -12325,7 +12325,7 @@ true
 )
 )
 ;
-parent
+parentNode
 .
 insertBefore
 (
@@ -12337,13 +12337,13 @@ dialog
 .
 arguments
 =
-arguments
+aArguments
 ;
 dialog
 .
 parent
 =
-parent
+aParent
 ;
 return
 dialog
