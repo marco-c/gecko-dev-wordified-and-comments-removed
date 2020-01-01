@@ -106,6 +106,13 @@ h
 #
 include
 "
+nsNPAPIPlugin
+.
+h
+"
+#
+include
+"
 mozilla
 /
 TimeStamp

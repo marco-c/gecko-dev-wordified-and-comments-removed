@@ -19,6 +19,13 @@ mozStorage
 .
 h
 "
+#
+include
+"
+nsPluginError
+.
+h
+"
 static
 struct
 ResultMap

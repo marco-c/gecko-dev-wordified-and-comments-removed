@@ -670,6 +670,10 @@ test_redirect_handling
 .
 html
 \
+test_clear_site_data
+.
+html
+\
 (
 NULL
 )

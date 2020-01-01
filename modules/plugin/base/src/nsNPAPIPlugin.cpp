@@ -1857,7 +1857,7 @@ CreatePlugin
 nsPluginTag
 *
 aPluginTag
-nsIPlugin
+nsNPAPIPlugin
 *
 *
 aResult
