@@ -43349,13 +43349,6 @@ emitted
 false
 )
 ;
-if
-(
-barrier
-)
-return
-true
-;
 MSetPropertyCache
 *
 ins
@@ -43374,6 +43367,7 @@ script
 -
 >
 strict
+barrier
 )
 ;
 RootedId
