@@ -442,6 +442,10 @@ aDest
 =
 UCS2_NO_MAPPING
 ;
+iDestlen
++
++
+;
 }
 aSrc
 -
@@ -454,9 +458,9 @@ aSrcLength
 -
 -
 ;
-iDestlen
-+
-+
+i
+-
+-
 ;
 break
 ;
