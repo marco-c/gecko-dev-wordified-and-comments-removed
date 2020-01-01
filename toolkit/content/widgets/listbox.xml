@@ -7493,7 +7493,8 @@ value
 label
 flex
 =
-flexlabelcrop
+flexlabel
+crop
 disabled
 "
 flex
@@ -7623,7 +7624,8 @@ value
 label
 flex
 =
-flexlabelcrop
+flexlabel
+crop
 disabled
 "
 flex
