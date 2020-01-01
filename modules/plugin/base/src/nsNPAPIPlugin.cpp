@@ -8057,7 +8057,10 @@ obj
 JSVAL_NULL
 }
 ;
-JSAutoTempValueRooter
+js
+:
+:
+AutoArrayRooter
 tvr
 (
 cx

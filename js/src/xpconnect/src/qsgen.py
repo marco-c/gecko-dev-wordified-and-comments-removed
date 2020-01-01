@@ -5408,7 +5408,10 @@ f
 write
 (
 "
-JSAutoTempValueRooter
+js
+:
+:
+AutoValueRooter
 tvr
 (
 cx
