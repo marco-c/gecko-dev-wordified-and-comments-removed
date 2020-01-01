@@ -1456,7 +1456,9 @@ closed
 "
 )
 ;
-ensureSocialUrlNotRemembered
+gURLsNotRemembered
+.
+push
 (
 chatUrl
 )

@@ -390,7 +390,9 @@ message
 "
 )
 ;
-ensureSocialUrlNotRemembered
+gURLsNotRemembered
+.
+push
 (
 e
 .
