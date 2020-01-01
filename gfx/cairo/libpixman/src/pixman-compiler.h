@@ -238,7 +238,7 @@ endif
 endif
 #
 ifdef
-cairo_public
+MOZ_ENABLE_LIBXUL
 #
 define
 PIXMAN_EXPORT
