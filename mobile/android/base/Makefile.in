@@ -648,6 +648,13 @@ xml
 sync_authenticator
 .
 xml
+res
+/
+xml
+/
+sync_options
+.
+xml
 SYNC_PP_RES_XML
 =
 res
