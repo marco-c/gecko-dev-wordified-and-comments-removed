@@ -2135,9 +2135,10 @@ eStyleUnit_Percent
 {
 result
 =
-NSCoordSaturatingMultiply
+NSToCoordFloorClamped
 (
 mPercentageBasis
+*
 aValue
 .
 GetPercentValue
