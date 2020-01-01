@@ -9471,9 +9471,6 @@ asm
 js
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 asmJSHeap
 "
@@ -9528,9 +9525,6 @@ asm
 js
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_NONHEAP
 asmJSNonHeap
 "
@@ -10571,9 +10565,6 @@ malloc
 heap
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 otherSundries
 "
@@ -13259,9 +13250,6 @@ runtime
 runtime
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_OTHER
 rtTotal
 "
@@ -13307,9 +13295,6 @@ unused
 chunks
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_OTHER
 rtStats
 .
@@ -13359,9 +13344,6 @@ unused
 arenas
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_OTHER
 rtStats
 .
@@ -13411,9 +13393,6 @@ chunk
 admin
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_OTHER
 rtStats
 .
@@ -13465,9 +13444,6 @@ unused
 chunks
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_OTHER
 rtStats
 .
@@ -13519,9 +13495,6 @@ unused
 arenas
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_OTHER
 rtStats
 .
@@ -13575,9 +13548,6 @@ gc
 things
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_OTHER
 rtStats
 .
@@ -13635,9 +13605,6 @@ chunk
 admin
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_OTHER
 rtStats
 .
@@ -13691,9 +13658,6 @@ arena
 admin
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_OTHER
 rtStats
 .
@@ -13749,9 +13713,6 @@ gc
 things
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_OTHER
 rtStats
 .
@@ -13790,9 +13751,6 @@ explicit
 xpconnect
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 xpconnect
 "
