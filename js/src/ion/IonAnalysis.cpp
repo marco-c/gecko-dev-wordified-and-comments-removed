@@ -1008,7 +1008,7 @@ first
 =
 info
 .
-firstActualArgSlot
+firstArgSlot
 (
 )
 ;
@@ -1031,15 +1031,16 @@ nargs
 )
 )
 {
-JS_ASSERT
+if
 (
-!
 info
 .
 argsObjAliasesFormals
 (
 )
 )
+return
+false
 ;
 return
 true
