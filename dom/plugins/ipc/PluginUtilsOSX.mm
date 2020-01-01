@@ -1961,6 +1961,8 @@ size_t
 aWidth
 size_t
 aHeight
+AllowOfflineRendererEnum
+aAllowOfflineRenderer
 )
 {
 if
@@ -2081,6 +2083,7 @@ ioSurface
 GetHeight
 (
 )
+aAllowOfflineRenderer
 )
 ;
 return

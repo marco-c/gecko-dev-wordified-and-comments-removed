@@ -6970,6 +6970,7 @@ SetupRenderer
 caLayer
 aWidth
 aHeight
+DISALLOW_OFFLINE_RENDERER
 )
 ;
 FixUpPluginWindow

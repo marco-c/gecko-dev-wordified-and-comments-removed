@@ -191,6 +191,8 @@ size_t
 aWidth
 size_t
 aHeight
+AllowOfflineRendererEnum
+aAllowOfflineRenderer
 )
 ;
 void
