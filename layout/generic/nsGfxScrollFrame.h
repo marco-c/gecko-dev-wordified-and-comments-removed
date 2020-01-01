@@ -689,6 +689,11 @@ aMode
 nsIntPoint
 *
 aOverflow
+nsIAtom
+*
+aOrigin
+=
+nsnull
 )
 ;
 void
@@ -1814,6 +1819,11 @@ aMode
 nsIntPoint
 *
 aOverflow
+nsIAtom
+*
+aOrigin
+=
+nsnull
 )
 {
 mInner
@@ -1824,6 +1834,7 @@ aDelta
 aUnit
 aMode
 aOverflow
+aOrigin
 )
 ;
 }
@@ -2811,6 +2822,11 @@ aMode
 nsIntPoint
 *
 aOverflow
+nsIAtom
+*
+aOrigin
+=
+nsnull
 )
 {
 mInner
@@ -2821,6 +2837,7 @@ aDelta
 aUnit
 aMode
 aOverflow
+aOrigin
 )
 ;
 }

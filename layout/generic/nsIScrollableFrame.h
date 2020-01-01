@@ -222,6 +222,11 @@ nsIntPoint
 aOverflow
 =
 nsnull
+nsIAtom
+*
+aOrigin
+=
+nsnull
 )
 =
 0

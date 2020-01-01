@@ -11970,6 +11970,9 @@ aAllowScrollSpeedOverride
 nsQueryContentEvent
 *
 aQueryEvent
+nsIAtom
+*
+aOrigin
 )
 {
 nsIScrollableFrame
@@ -12648,6 +12651,7 @@ aScrollQuantity
 mode
 &
 overflow
+aOrigin
 )
 ;
 aMouseEvent
@@ -12713,6 +12717,7 @@ aMouseEvent
 aScrollQuantity
 aAllowScrollSpeedOverride
 aQueryEvent
+aOrigin
 )
 ;
 }
@@ -14174,6 +14179,11 @@ nsIScrollableFrame
 :
 LINES
 useSysNumLines
+nsnull
+nsGkAtoms
+:
+:
+mouseWheel
 )
 ;
 break
