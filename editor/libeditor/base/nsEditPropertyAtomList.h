@@ -666,6 +666,13 @@ kbd
 )
 EDITOR_ATOM
 (
+keygen
+"
+keygen
+"
+)
+EDITOR_ATOM
+(
 label
 "
 label
