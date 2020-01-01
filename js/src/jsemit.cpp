@@ -21938,7 +21938,7 @@ cg
 stackDepth
 >
 =
-3
+2
 )
 ;
 #
@@ -22225,7 +22225,7 @@ js_Emit1
 (
 cx
 cg
-JSOP_NEXTITER
+JSOP_MOREITER
 )
 <
 0
@@ -22905,19 +22905,6 @@ pn_type
 TOK_IN
 )
 {
-JS_ASSERT
-(
-js_CodeSpec
-[
-JSOP_ENDITER
-]
-.
-nuses
-=
-=
-2
-)
-;
 if
 (
 !
