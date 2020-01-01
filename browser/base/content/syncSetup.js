@@ -1950,6 +1950,14 @@ this
 .
 wizard
 .
+canAdvance
+=
+false
+;
+this
+.
+wizard
+.
 canRewind
 =
 true
