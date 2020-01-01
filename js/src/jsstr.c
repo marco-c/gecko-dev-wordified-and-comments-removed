@@ -27849,14 +27849,6 @@ DEBUG
 )
 |
 |
-\
-defined
-(
-DUMP_CALL_TABLE
-)
-|
-|
-\
 defined
 (
 DUMP_SCOPE_STATS
