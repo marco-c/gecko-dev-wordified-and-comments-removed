@@ -4192,7 +4192,9 @@ data
 if
 (
 !
-gExceptionHandler
+GetEnabled
+(
+)
 )
 return
 NS_ERROR_NOT_INITIALIZED
@@ -4341,7 +4343,9 @@ data
 if
 (
 !
-gExceptionHandler
+GetEnabled
+(
+)
 )
 return
 NS_ERROR_NOT_INITIALIZED
