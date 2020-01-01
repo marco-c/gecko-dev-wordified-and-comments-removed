@@ -835,6 +835,10 @@ SVGFEMergeNodeElement
 .
 webidl
 \
+SVGFEOffsetElement
+.
+webidl
+\
 SVGFEPointLightElement
 .
 webidl
