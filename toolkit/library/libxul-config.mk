@@ -1272,15 +1272,12 @@ COMPONENT_LIBS
 =
 zipwriter
 endif
-ifdef
-MOZ_SERVICES_SYNC
 COMPONENT_LIBS
 +
 =
 services
 -
 crypto
-endif
 ifdef
 MOZ_DEBUG
 ifdef
