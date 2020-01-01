@@ -1726,7 +1726,7 @@ pn
 )
 )
 return
-NULL
+false
 ;
 if
 (
