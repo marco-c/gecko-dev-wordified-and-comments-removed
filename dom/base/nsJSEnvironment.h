@@ -123,9 +123,6 @@ public
 :
 nsJSContext
 (
-JSRuntime
-*
-aRuntime
 bool
 aGCOnDestruction
 nsIScriptGlobalObject
@@ -384,6 +381,11 @@ IsIncremental
 IncrementalGC
 NonIncrementalGC
 }
+;
+void
+EnsureStatics
+(
+)
 ;
 static
 void
@@ -721,11 +723,6 @@ nsIJSRuntimeService
 namespace
 nsJSRuntime
 {
-extern
-JSRuntime
-*
-sRuntime
-;
 void
 Startup
 (
@@ -733,11 +730,6 @@ Startup
 ;
 void
 Shutdown
-(
-)
-;
-nsresult
-Init
 (
 )
 ;
