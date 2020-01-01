@@ -535,12 +535,10 @@ bool
 aDiscard
 )
 {
-if
+NS_ENSURE_TRUE_VOID
 (
-!
 sTsfTextStore
 )
-return
 ;
 sTsfTextStore
 -
