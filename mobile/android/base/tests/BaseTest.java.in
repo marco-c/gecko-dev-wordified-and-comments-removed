@@ -1248,7 +1248,7 @@ hitEnterAndWait
 )
 ;
 }
-protected
+public
 final
 void
 verifyUrl
