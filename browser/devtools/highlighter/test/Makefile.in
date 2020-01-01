@@ -499,12 +499,6 @@ js
 NULL
 )
 #
-Disabled
-due
-to
-constant
-failures
-#
 browser_inspector_treePanel_click
 .
 js

@@ -433,10 +433,6 @@ mk
 EXTRA_JS_MODULES
 =
 \
-inspector
-.
-jsm
-\
 domplate
 .
 jsm

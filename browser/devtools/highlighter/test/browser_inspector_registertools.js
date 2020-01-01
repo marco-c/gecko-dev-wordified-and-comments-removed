@@ -413,8 +413,6 @@ obs
 addObserver
 (
 inspectorOpen
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -457,8 +455,6 @@ obs
 removeObserver
 (
 inspectorOpen
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -495,8 +491,6 @@ obs
 addObserver
 (
 startToolTests
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING
@@ -524,8 +518,6 @@ obs
 removeObserver
 (
 startToolTests
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING
@@ -1069,8 +1061,6 @@ obs
 addObserver
 (
 testOriginalTab
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -1096,8 +1086,6 @@ obs
 removeObserver
 (
 testOriginalTab
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -1211,8 +1199,6 @@ obs
 addObserver
 (
 unregisterTools
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 CLOSED
@@ -1239,8 +1225,6 @@ obs
 removeObserver
 (
 unregisterTools
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 CLOSED

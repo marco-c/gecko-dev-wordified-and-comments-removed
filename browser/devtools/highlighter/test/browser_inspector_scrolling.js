@@ -159,8 +159,6 @@ obs
 addObserver
 (
 inspectNode
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -186,8 +184,6 @@ obs
 removeObserver
 (
 inspectNode
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -201,8 +197,6 @@ obs
 addObserver
 (
 performScrollingTest
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING
@@ -238,8 +232,6 @@ obs
 removeObserver
 (
 performScrollingTest
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING
