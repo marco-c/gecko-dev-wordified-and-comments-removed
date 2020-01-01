@@ -72,12 +72,17 @@ nsString
 h
 "
 #
+ifndef
+XP_MACOSX
+#
 include
 "
 prproces
 .
 h
 "
+#
+endif
 #
 if
 defined
@@ -159,7 +164,7 @@ ProcessComplete
 (
 )
 ;
-NS_IMETHOD
+nsresult
 CopyArgsAndRunProcess
 (
 PRBool
@@ -178,7 +183,7 @@ PRBool
 holdWeak
 )
 ;
-NS_IMETHOD
+nsresult
 CopyArgsAndRunProcessw
 (
 PRBool
@@ -197,7 +202,7 @@ PRBool
 holdWeak
 )
 ;
-NS_IMETHOD
+nsresult
 RunProcess
 (
 PRBool
@@ -206,8 +211,6 @@ char
 *
 *
 args
-PRUint32
-count
 nsIObserver
 *
 observer
@@ -274,7 +277,12 @@ HANDLE
 mProcess
 ;
 #
-else
+elif
+!
+defined
+(
+XP_MACOSX
+)
 PRProcess
 *
 mProcess
