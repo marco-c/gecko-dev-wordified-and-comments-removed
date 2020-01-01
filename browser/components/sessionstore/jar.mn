@@ -2,6 +2,7 @@ browser
 .
 jar
 :
+*
 content
 /
 browser
