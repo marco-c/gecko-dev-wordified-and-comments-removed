@@ -5135,9 +5135,7 @@ i
 .
 native
 3
-JSPROP_READONLY
-|
-JSPROP_PERMANENT
+0
 )
 ;
 if
