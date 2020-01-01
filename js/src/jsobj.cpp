@@ -6766,9 +6766,10 @@ JS_TRUE
 #
 ifdef
 JS_TRACER
+static
 int32
 FASTCALL
-js_Object_p_hasOwnProperty
+Object_p_hasOwnProperty
 (
 JSContext
 *
@@ -6969,9 +6970,10 @@ vp
 #
 ifdef
 JS_TRACER
+static
 int32
 FASTCALL
-js_Object_p_propertyIsEnumerable
+Object_p_propertyIsEnumerable
 (
 JSContext
 *
@@ -7990,6 +7992,7 @@ ifdef
 JS_TRACER
 JS_DEFINE_CALLINFO_3
 (
+static
 INT32
 Object_p_hasOwnProperty
 CONTEXT
@@ -8000,6 +8003,7 @@ STRING
 )
 JS_DEFINE_CALLINFO_3
 (
+static
 INT32
 Object_p_propertyIsEnumerable
 CONTEXT
@@ -8019,7 +8023,10 @@ obj_hasOwnProperty_trcinfo
 {
 obj_hasOwnProperty
 &
-ci_Object_p_hasOwnProperty
+_JS_CALLINFO
+(
+Object_p_hasOwnProperty
+)
 "
 TC
 "
@@ -8041,7 +8048,10 @@ obj_propertyIsEnumerable_trcinfo
 {
 obj_propertyIsEnumerable
 &
-ci_Object_p_propertyIsEnumerable
+_JS_CALLINFO
+(
+Object_p_propertyIsEnumerable
+)
 "
 TC
 "
