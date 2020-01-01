@@ -614,6 +614,8 @@ InitWithFuncCallback
 TimerCallback
 nsnull
 sMinDiscardTimeoutMs
+/
+2
 nsITimer
 :
 :
