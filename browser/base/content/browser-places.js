@@ -793,7 +793,7 @@ this
 _batching
 )
 {
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -1184,7 +1184,7 @@ beginBatch
 (
 )
 ;
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -1679,7 +1679,7 @@ endBatch
 (
 )
 ;
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -1713,7 +1713,7 @@ this
 _batching
 )
 {
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -1721,7 +1721,7 @@ endBatch
 (
 )
 ;
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -1893,7 +1893,7 @@ i
 var
 txn
 =
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -1905,7 +1905,7 @@ i
 ]
 )
 ;
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -1949,7 +1949,7 @@ endBatch
 (
 )
 ;
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -1992,7 +1992,7 @@ this
 _batching
 )
 {
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -2022,7 +2022,7 @@ this
 _batching
 )
 {
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -2116,7 +2116,7 @@ spec
 ;
 description
 =
-PlacesUIUtils
+PlacesUtils
 .
 getDescriptionFromDocument
 (
@@ -2173,7 +2173,7 @@ description
 var
 txn
 =
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -2190,7 +2190,7 @@ descAnno
 ]
 )
 ;
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -2365,7 +2365,7 @@ beginBatch
 var
 txn
 =
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -2378,7 +2378,7 @@ aParent
 aTitle
 )
 ;
-PlacesUIUtils
+PlacesUtils
 .
 ptm
 .
@@ -2521,7 +2521,7 @@ _getUniqueTabInfo
 (
 )
 ;
-PlacesUIUtils
+PlacesUtils
 .
 showMinimalAddMultiBookmarkUI
 (
@@ -2620,7 +2620,7 @@ feedSubtitle
 else
 description
 =
-PlacesUIUtils
+PlacesUtils
 .
 getDescriptionFromDocument
 (
@@ -2642,7 +2642,7 @@ toolbarFolder
 1
 )
 ;
-PlacesUIUtils
+PlacesUtils
 .
 showMinimalAddLivemarkUI
 (
@@ -2910,7 +2910,7 @@ originalTarget
 var
 view
 =
-PlacesUIUtils
+PlacesUtils
 .
 getViewForNode
 (
@@ -3117,7 +3117,7 @@ target
 .
 node
 )
-PlacesUIUtils
+PlacesUtils
 .
 openNodeWithEvent
 (
@@ -3435,7 +3435,7 @@ setAttribute
 "
 label
 "
-PlacesUIUtils
+PlacesUtils
 .
 getFormattedString
 (
@@ -3504,7 +3504,7 @@ setAttribute
 oncommand
 "
 "
-PlacesUIUtils
+PlacesUtils
 .
 openContainerNodeInTabs
 (
@@ -3733,7 +3733,7 @@ bookmarksMenuPopup
 var
 types
 =
-PlacesUIUtils
+PlacesUtils
 .
 GENERIC_VIEW_DROP_TYPES
 for

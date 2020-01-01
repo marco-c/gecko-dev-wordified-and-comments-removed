@@ -1176,7 +1176,7 @@ oncommand
 "
 PlacesOrganizer
 .
-onRestoreBookmarksFromFile
+restoreFromFile
 (
 )
 ;
