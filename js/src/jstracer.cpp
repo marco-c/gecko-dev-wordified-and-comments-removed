@@ -38506,7 +38506,7 @@ r
 R_MISMATCH_EXIT
 ;
 return
-false
+MONITOR_NOT_RECORDING
 ;
 case
 OOM_EXIT
@@ -38518,7 +38518,7 @@ r
 R_OOM_EXIT
 ;
 return
-false
+MONITOR_NOT_RECORDING
 ;
 case
 TIMEOUT_EXIT
@@ -38530,7 +38530,7 @@ r
 R_TIMEOUT_EXIT
 ;
 return
-false
+MONITOR_NOT_RECORDING
 ;
 case
 DEEP_BAIL_EXIT
@@ -38542,7 +38542,7 @@ r
 R_DEEP_BAIL_EXIT
 ;
 return
-false
+MONITOR_NOT_RECORDING
 ;
 case
 STATUS_EXIT
@@ -38554,7 +38554,7 @@ r
 R_STATUS_EXIT
 ;
 return
-false
+MONITOR_NOT_RECORDING
 ;
 #
 endif
