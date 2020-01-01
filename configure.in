@@ -67149,6 +67149,9 @@ AC_DEFINE
 (
 UNIX_ASYNC_DNS
 )
+MOZ_MOVEMAIL
+=
+1
 elif
 test
 "
