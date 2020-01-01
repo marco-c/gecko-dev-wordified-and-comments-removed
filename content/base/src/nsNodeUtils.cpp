@@ -1175,9 +1175,15 @@ aNode
 )
 )
 ;
+nsDOMNodeAllocator
+*
+tmpAlloc
+=
+allocator
+;
 NS_RELEASE
 (
-allocator
+tmpAlloc
 )
 ;
 }
