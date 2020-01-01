@@ -221,6 +221,12 @@ Probe
 >
 mSessionWindowRestoredProbe
 ;
+nsRefPtr
+<
+Probe
+>
+mXPCOMShutdownProbe
+;
 #
 endif
 }
