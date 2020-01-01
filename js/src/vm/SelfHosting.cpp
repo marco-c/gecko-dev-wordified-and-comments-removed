@@ -228,7 +228,7 @@ rval
 (
 )
 .
-setBoolean
+setDouble
 (
 result
 )
