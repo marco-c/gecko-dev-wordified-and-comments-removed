@@ -3396,8 +3396,8 @@ NS_GEOLOCATION_SERVICE_CID
 }
 NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (
-nsGeolocatorService
-nsGeolocatorService
+nsGeolocationService
+nsGeolocationService
 :
 :
 GetGeolocationService
@@ -5162,7 +5162,7 @@ service
 ;
 1
 "
-nsGeolocatorServiceConstructor
+nsGeolocationServiceConstructor
 }
 }
 ;

@@ -405,7 +405,7 @@ interface
 nsIDOMWindow
 ;
 interface
-nsIDOMGeolocation
+nsIDOMGeoPosition
 ;
 interface
 nsIGeolocationPrompt
@@ -541,7 +541,8 @@ UI
 prompts
 associated
 with
-geolocation
+geo
+position
 .
 *
 /
@@ -671,8 +672,8 @@ void
 update
 (
 in
-nsIDOMGeolocation
-location
+nsIDOMGeoPosition
+position
 )
 ;
 }
@@ -840,8 +841,8 @@ null
 /
 readonly
 attribute
-nsIDOMGeolocation
-currentLocation
+nsIDOMGeoPosition
+currentPosition
 ;
 /
 *

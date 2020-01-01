@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsIDOMGeolocation
+nsIDOMGeoPosition
 .
 h
 "
@@ -96,9 +96,9 @@ MaemoLocationProvider
 void
 Update
 (
-nsIDOMGeolocation
+nsIDOMGeoPosition
 *
-aLocation
+aPosition
 )
 ;
 private
@@ -110,9 +110,9 @@ MaemoLocationProvider
 ;
 nsCOMPtr
 <
-nsIDOMGeolocation
+nsIDOMGeoPosition
 >
-mLastLocation
+mLastPosition
 ;
 nsIGeolocationUpdate
 *
