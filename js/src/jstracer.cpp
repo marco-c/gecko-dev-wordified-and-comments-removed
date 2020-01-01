@@ -13257,7 +13257,7 @@ fp
 script
 -
 >
-nfixed
+nslots
 )
 ;
 return
