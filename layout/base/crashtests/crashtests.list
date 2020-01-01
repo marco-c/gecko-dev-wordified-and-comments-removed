@@ -2744,8 +2744,7 @@ skip
 -
 if
 (
-!
-gtk2Widget
+1
 )
 load
 813372
