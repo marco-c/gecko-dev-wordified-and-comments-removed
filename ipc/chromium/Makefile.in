@@ -873,10 +873,6 @@ base_paths_linux
 .
 cc
 \
-file_util_linux
-.
-cc
-\
 file_version_info_linux
 .
 cc
