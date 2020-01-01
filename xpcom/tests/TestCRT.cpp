@@ -26,6 +26,9 @@ stdlib
 .
 h
 >
+namespace
+TestCRT
+{
 PRIntn
 sign
 (
@@ -352,6 +355,11 @@ tests
 )
 )
 )
+}
+using
+namespace
+TestCRT
+;
 int
 main
 (

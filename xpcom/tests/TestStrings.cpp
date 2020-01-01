@@ -33,6 +33,9 @@ nsCRT
 .
 h
 "
+namespace
+TestStrings
+{
 void
 test_assign_helper
 (
@@ -4997,6 +5000,11 @@ nsnull
 nsnull
 }
 }
+;
+}
+using
+namespace
+TestStrings
 ;
 int
 main

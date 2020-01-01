@@ -39,6 +39,9 @@ NS_IFOO_IID
 0x5a
 }
 }
+namespace
+TestArray
+{
 static
 const
 PRBool
@@ -542,6 +545,11 @@ foo
 ;
 }
 }
+}
+using
+namespace
+TestArray
+;
 int
 main
 (

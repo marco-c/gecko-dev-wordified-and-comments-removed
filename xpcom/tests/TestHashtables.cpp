@@ -61,6 +61,9 @@ stdio
 .
 h
 >
+namespace
+TestHashtables
+{
 class
 TestUniChar
 {
@@ -1939,6 +1942,11 @@ return
 PL_DHASH_NEXT
 ;
 }
+}
+using
+namespace
+TestHashtables
+;
 int
 main
 (

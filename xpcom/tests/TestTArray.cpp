@@ -82,6 +82,9 @@ nsILocalFile
 .
 h
 "
+namespace
+TestTArray
+{
 template
 <
 class
@@ -3106,6 +3109,11 @@ nsnull
 nsnull
 }
 }
+;
+}
+using
+namespace
+TestTArray
 ;
 int
 main
