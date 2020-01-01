@@ -595,7 +595,6 @@ path
 enable
 expect
 random
-slow
 )
 :
         
@@ -624,12 +623,6 @@ self
 random
 =
 random
-        
-self
-.
-slow
-=
-slow
     
 def
 __str__
@@ -683,19 +676,6 @@ ans
 =
 '
 random
-'
-        
-if
-self
-.
-slow
-:
-            
-ans
-+
-=
-'
-slow
 '
         
 return

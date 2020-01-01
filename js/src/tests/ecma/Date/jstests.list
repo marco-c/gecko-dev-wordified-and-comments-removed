@@ -1883,7 +1883,6 @@ script
 5
 .
 js
-slow
 script
 dst
 -
@@ -1898,7 +1897,6 @@ of
 8
 .
 js
-slow
 script
 dst
 -
@@ -1913,7 +1911,6 @@ of
 8
 .
 js
-slow
 script
 dst
 -
@@ -1928,7 +1925,6 @@ of
 8
 .
 js
-slow
 script
 dst
 -
@@ -1943,7 +1939,6 @@ of
 8
 .
 js
-slow
 script
 dst
 -
@@ -1958,7 +1953,6 @@ of
 8
 .
 js
-slow
 script
 dst
 -
@@ -1973,7 +1967,6 @@ of
 8
 .
 js
-slow
 script
 dst
 -
@@ -1988,7 +1981,6 @@ of
 8
 .
 js
-slow
 script
 dst
 -
