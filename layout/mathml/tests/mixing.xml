@@ -979,7 +979,7 @@ msup
 >
 <
 mi
-fontstyle
+mathvariant
 =
 "
 italic
@@ -992,7 +992,7 @@ mi
 >
 <
 mi
-fontstyle
+mathvariant
 =
 "
 italic
@@ -1523,7 +1523,7 @@ mo
 >
 <
 mo
-fontweight
+mathvariant
 =
 "
 bold

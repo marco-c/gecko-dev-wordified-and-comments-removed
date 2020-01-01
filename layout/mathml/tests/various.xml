@@ -1031,7 +1031,7 @@ mn
 >
 <
 mo
-fontweight
+mathvariant
 =
 "
 bold
@@ -1411,7 +1411,7 @@ mfrac
 >
 <
 mo
-fontweight
+mathvariant
 =
 "
 bold
@@ -1773,7 +1773,7 @@ mo
 >
 <
 mo
-fontweight
+mathvariant
 =
 "
 bold
@@ -1898,15 +1898,15 @@ mmultiscripts
 >
 <
 mi
-fontweight
+mathvariant
 =
 "
 bold
 "
-fontsize
+mathsize
 =
 "
-large
+big
 "
 >
 A
@@ -1990,7 +1990,7 @@ mmultiscripts
 >
 <
 mi
-fontweight
+mathvariant
 =
 "
 bold
@@ -5432,7 +5432,7 @@ msup
 >
 <
 mi
-fontweight
+mathvariant
 =
 '
 bold
@@ -5492,7 +5492,7 @@ true
 >
 <
 mi
-fontweight
+mathvariant
 =
 '
 bold
@@ -5576,7 +5576,7 @@ true
 >
 <
 mi
-fontweight
+mathvariant
 =
 '
 bold
@@ -5711,7 +5711,7 @@ mo
 >
 <
 mi
-fontweight
+mathvariant
 =
 '
 bold
@@ -5732,7 +5732,7 @@ mo
 >
 <
 mi
-fontweight
+mathvariant
 =
 '
 bold
@@ -5803,7 +5803,7 @@ msup
 >
 <
 mi
-fontweight
+mathvariant
 =
 '
 bold
@@ -6003,7 +6003,7 @@ msup
 >
 <
 mi
-fontweight
+mathvariant
 =
 '
 bold
@@ -6114,7 +6114,7 @@ true
 >
 <
 mi
-fontweight
+mathvariant
 =
 '
 bold
@@ -6157,7 +6157,7 @@ true
 >
 <
 mi
-fontweight
+mathvariant
 =
 '
 bold
@@ -6773,7 +6773,7 @@ mo
 >
 <
 mi
-fontweight
+mathvariant
 =
 '
 bold
@@ -6794,7 +6794,7 @@ mo
 >
 <
 mi
-fontweight
+mathvariant
 =
 '
 bold
@@ -6865,7 +6865,7 @@ msup
 >
 <
 mi
-fontweight
+mathvariant
 =
 '
 bold
