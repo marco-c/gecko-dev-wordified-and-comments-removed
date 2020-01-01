@@ -25,12 +25,11 @@ jsscope
 .
 h
 "
-using
-namespace
-js
-;
 JS_ALWAYS_INLINE
 void
+js
+:
+:
 PropertyCache
 :
 :
@@ -251,6 +250,9 @@ misses
 }
 JS_ALWAYS_INLINE
 bool
+js
+:
+:
 PropertyCache
 :
 :
