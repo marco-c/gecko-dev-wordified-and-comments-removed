@@ -494,6 +494,14 @@ test_timeoutWatch
 .
 html
 \
+test_windowClose
+.
+html
+\
+windowTest
+.
+html
+\
 geolocation_common
 .
 js

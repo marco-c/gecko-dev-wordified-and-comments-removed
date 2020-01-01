@@ -409,9 +409,16 @@ nsGeolocation
 )
 nsGeolocation
 (
+)
+;
+nsresult
+Init
+(
 nsIDOMWindow
 *
 contentDom
+=
+nsnull
 )
 ;
 void
@@ -461,7 +468,7 @@ mOwner
 ;
 }
 PRBool
-OwnerStillExists
+WindowOwnerStillExists
 (
 )
 ;
