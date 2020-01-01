@@ -3327,14 +3327,6 @@ title
 ;
 separator
 .
-className
-=
-"
-unselectable
-"
-;
-separator
-.
 textContent
 =
 "
@@ -3998,14 +3990,6 @@ add
 (
 propertyColor
 )
-;
-separator
-.
-className
-=
-"
-unselectable
-"
 ;
 separator
 .
@@ -5078,7 +5062,6 @@ className
 =
 "
 name
-unselectable
 "
 ;
 name
