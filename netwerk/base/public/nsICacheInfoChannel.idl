@@ -617,16 +617,6 @@ has
 been
 called
 .
-Must
-be
-acquired
-no
-later
-than
-during
-*
-onStopRequest
-.
 *
 /
 readonly
