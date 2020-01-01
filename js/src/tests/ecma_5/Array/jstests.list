@@ -18,6 +18,12 @@ ecma_5
 Array
 /
 script
+sort
+-
+01
+.
+js
+script
 toString
 -
 01
