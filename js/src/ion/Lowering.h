@@ -311,6 +311,14 @@ ins
 )
 ;
 bool
+visitTableSwitch
+(
+MTableSwitch
+*
+tableswitch
+)
+;
+bool
 visitNewSlots
 (
 MNewSlots
