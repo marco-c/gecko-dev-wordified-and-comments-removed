@@ -71,9 +71,6 @@ ErrorResult
 .
 h
 "
-class
-nsIDOMSVGPoint
-;
 namespace
 mozilla
 {
@@ -97,6 +94,13 @@ nsWrapperCache
 {
 friend
 class
+nsISVGPoint
+;
+friend
+class
+mozilla
+:
+:
 DOMSVGPoint
 ;
 public
@@ -524,7 +528,7 @@ aIndex
 ;
 nsTArray
 <
-DOMSVGPoint
+nsISVGPoint
 *
 >
 mItems

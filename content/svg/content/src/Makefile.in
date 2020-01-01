@@ -165,6 +165,10 @@ nsDOMSVGEvent
 .
 cpp
 \
+nsISVGPoint
+.
+cpp
+\
 nsSVGAngle
 .
 cpp
