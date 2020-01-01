@@ -19,6 +19,13 @@ Components
 .
 utils
 ;
+const
+Cr
+=
+Components
+.
+results
+;
 Cu
 .
 import
@@ -417,6 +424,11 @@ js
 #
 include
 trench
+.
+js
+#
+include
+thumbnailStorage
 .
 js
 #
