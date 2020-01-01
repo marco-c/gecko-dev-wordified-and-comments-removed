@@ -6929,9 +6929,6 @@ nsIPluginInstance
 >
 instance
 ;
-nsresult
-rv
-=
 frame
 -
 >

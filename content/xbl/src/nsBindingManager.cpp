@@ -3908,11 +3908,6 @@ mProcessingAttachedStack
 =
 PR_TRUE
 ;
-PRUint32
-currentIndex
-=
-aSkipSize
-;
 while
 (
 mAttachedStack
