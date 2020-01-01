@@ -4565,6 +4565,16 @@ nsUrlClassifierTable
 js
 res
 /
+charsetalias
+.
+properties
+res
+/
+charsetData
+.
+properties
+res
+/
 cmessage
 .
 txt
