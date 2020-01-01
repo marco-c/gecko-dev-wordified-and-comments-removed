@@ -400,6 +400,16 @@ dat
 components
 /
 DLL_PREFIX
+browserdirprovider
+DLL_SUFFIX
+components
+/
+DLL_PREFIX
+brwsrdir
+DLL_SUFFIX
+components
+/
+DLL_PREFIX
 myspell
 DLL_SUFFIX
 components
