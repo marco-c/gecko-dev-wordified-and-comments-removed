@@ -1672,6 +1672,14 @@ e
 SystemExit
 )
 and
+(
+e
+.
+code
+=
+=
+0
+or
 e
 .
 code
@@ -1680,6 +1688,7 @@ code
 '
 0
 '
+)
 :
                 
 pass
