@@ -520,6 +520,15 @@ ShapeTable
 *
 table_
 ;
+BaseShape
+(
+const
+BaseShape
+&
+base
+)
+MOZ_DELETE
+;
 public
 :
 void
