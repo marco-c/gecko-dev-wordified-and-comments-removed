@@ -53,7 +53,7 @@ self
         
 self
 .
-_rules
+_statements
 =
 [
 ]
@@ -106,7 +106,7 @@ targets
         
 self
 .
-_rules
+_statements
 .
 append
 (
@@ -115,6 +115,50 @@ rule
         
 return
 rule
+    
+def
+add_statement
+(
+self
+statement
+)
+:
+        
+'
+'
+'
+        
+Add
+a
+raw
+statement
+in
+the
+makefile
+.
+Meant
+to
+be
+used
+for
+        
+simple
+variable
+assignments
+.
+        
+'
+'
+'
+        
+self
+.
+_statements
+.
+append
+(
+statement
+)
     
 def
 dump
@@ -182,40 +226,65 @@ set
 )
         
 for
-rule
+statement
 in
 self
 .
-_rules
+_statements
 :
             
-rule
+if
+isinstance
+(
+statement
+Rule
+)
+:
+                
+statement
 .
 dump
 (
 fh
 )
-            
+                
 all_deps
 .
 update
 (
-rule
+statement
 .
 dependencies
 (
 )
 )
-            
+                
 all_targets
 .
 update
 (
-rule
+statement
 .
 targets
 (
 )
+)
+            
+else
+:
+                
+fh
+.
+write
+(
+'
+%
+s
+\
+n
+'
+%
+statement
 )
         
 if
@@ -226,9 +295,12 @@ guard
 =
 Rule
 (
+sorted
+(
 all_deps
 -
 all_targets
+)
 )
             
 guard
@@ -295,17 +367,15 @@ self
 .
 _targets
 =
-set
-(
-)
+[
+]
         
 self
 .
 _dependencies
 =
-set
-(
-)
+[
+]
         
 self
 .
@@ -361,7 +431,7 @@ self
 .
 _targets
 .
-update
+extend
 (
 t
 .
@@ -378,6 +448,14 @@ for
 t
 in
 targets
+                             
+if
+not
+t
+in
+self
+.
+_targets
 )
         
 return
@@ -422,7 +500,7 @@ self
 .
 _dependencies
 .
-update
+extend
 (
 d
 .
@@ -439,6 +517,14 @@ for
 d
 in
 deps
+                                  
+if
+not
+d
+in
+self
+.
+_dependencies
 )
         
 return
@@ -631,12 +717,9 @@ s
 .
 join
 (
-sorted
-(
 self
 .
 _targets
-)
 )
 )
         
@@ -660,12 +743,9 @@ s
 .
 join
 (
-sorted
-(
 self
 .
 _dependencies
-)
 )
 )
         
