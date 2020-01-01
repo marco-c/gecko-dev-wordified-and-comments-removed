@@ -369,6 +369,10 @@ zero
 .
 html
 \
+test_toBlob
+.
+html
+\
 test_toDataURL_alpha
 .
 html
