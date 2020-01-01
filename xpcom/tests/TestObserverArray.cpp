@@ -294,6 +294,8 @@ DO_TEST
 (
 ForwardIterator
 test1Expected
+{
+}
 )
 ;
 static
@@ -332,6 +334,8 @@ DO_TEST
 (
 ForwardIterator
 test2Expected
+{
+}
 )
 ;
 DO_TEST
@@ -371,6 +375,8 @@ DO_TEST
 (
 ForwardIterator
 test5Expected
+{
+}
 )
 ;
 DO_TEST
@@ -409,6 +415,8 @@ DO_TEST
 (
 ForwardIterator
 test7Expected
+{
+}
 )
 ;
 static
@@ -446,6 +454,8 @@ DO_TEST
 (
 ForwardIterator
 test8Expected
+{
+}
 )
 ;
 arr
@@ -479,6 +489,8 @@ DO_TEST
 (
 ForwardIterator
 test10Expected
+{
+}
 )
 ;
 arr
@@ -492,6 +504,8 @@ DO_TEST
 (
 ForwardIterator
 test10Expected
+{
+}
 )
 ;
 static
@@ -530,6 +544,8 @@ DO_TEST
 (
 ForwardIterator
 test12Expected
+{
+}
 )
 ;
 static
@@ -577,6 +593,8 @@ DO_TEST
 (
 ForwardIterator
 test14Expected
+{
+}
 )
 ;
 arr
@@ -603,6 +621,8 @@ DO_TEST
 (
 ForwardIterator
 test16Expected
+{
+}
 )
 ;
 static
@@ -663,6 +683,8 @@ DO_TEST
 (
 ForwardIterator
 test18Expected
+{
+}
 )
 ;
 arr
@@ -690,6 +712,8 @@ DO_TEST
 (
 ForwardIterator
 test19Expected
+{
+}
 )
 ;
 arr
@@ -703,6 +727,8 @@ DO_TEST
 (
 ForwardIterator
 test19Expected
+{
+}
 )
 ;
 return
