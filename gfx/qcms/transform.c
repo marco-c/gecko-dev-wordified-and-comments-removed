@@ -7757,7 +7757,7 @@ type
 "
 )
 ;
-free
+transform_free
 (
 transform
 )
@@ -7967,7 +7967,7 @@ type
 "
 )
 ;
-free
+transform_free
 (
 transform
 )
@@ -8464,7 +8464,7 @@ type
 "
 )
 ;
-free
+transform_free
 (
 transform
 )
@@ -8578,6 +8578,14 @@ unexpected
 colorspace
 "
 )
+;
+qcms_transform_release
+(
+transform
+)
+;
+return
+NO_MEM_TRANSFORM
 ;
 }
 return
