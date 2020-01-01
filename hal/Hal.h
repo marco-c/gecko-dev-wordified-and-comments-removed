@@ -282,6 +282,16 @@ NetworkInformation
 aNetworkInfo
 )
 ;
+void
+Reboot
+(
+)
+;
+void
+PowerOff
+(
+)
+;
 }
 }
 #

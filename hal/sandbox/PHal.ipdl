@@ -612,6 +612,14 @@ double
 brightness
 )
 ;
+Reboot
+(
+)
+;
+PowerOff
+(
+)
+;
 __delete__
 (
 )

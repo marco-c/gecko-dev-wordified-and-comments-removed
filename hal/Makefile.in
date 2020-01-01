@@ -540,6 +540,9 @@ CPPSRCS
 GonkHal
 .
 cpp
+Power
+.
+cpp
 else
 ifeq
 (
@@ -552,6 +555,9 @@ CPPSRCS
 +
 =
 LinuxHal
+.
+cpp
+Power
 .
 cpp
 ifdef
