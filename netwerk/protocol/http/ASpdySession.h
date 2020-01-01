@@ -176,6 +176,9 @@ enum
 SPDY_VERSION_2
 =
 2
+SPDY_VERSION_3
+=
+3
 }
 ;
 PRUint8

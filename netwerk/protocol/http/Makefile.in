@@ -328,6 +328,14 @@ SpdyStream2
 .
 cpp
 \
+SpdySession3
+.
+cpp
+\
+SpdyStream3
+.
+cpp
+\
 (
 NULL
 )
