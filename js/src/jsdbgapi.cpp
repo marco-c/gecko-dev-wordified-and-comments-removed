@@ -4006,7 +4006,9 @@ wrapper
 ;
 }
 static
-bool
+const
+Shape
+*
 UpdateWatchpointShape
 (
 JSContext
@@ -4016,9 +4018,6 @@ JSWatchPoint
 *
 wp
 const
-js
-:
-:
 Shape
 *
 newShape
@@ -4055,9 +4054,6 @@ newShape
 )
 )
 ;
-js
-:
-:
 StrictPropertyOp
 watchingSetter
 =
@@ -4088,11 +4084,8 @@ if
 watchingSetter
 )
 return
-false
+NULL
 ;
-js
-:
-:
 StrictPropertyOp
 originalSetter
 =
@@ -4104,9 +4097,6 @@ setter
 )
 ;
 const
-js
-:
-:
 Shape
 *
 watchingShape
@@ -4141,7 +4131,7 @@ if
 watchingShape
 )
 return
-false
+NULL
 ;
 wp
 -
@@ -4158,10 +4148,12 @@ shape
 watchingShape
 ;
 return
-true
+watchingShape
 ;
 }
-bool
+const
+Shape
+*
 js_SlowPathUpdateWatchpointsForShape
 (
 JSContext
@@ -4171,9 +4163,6 @@ JSObject
 *
 obj
 const
-js
-:
-:
 Shape
 *
 newShape
@@ -4188,7 +4177,7 @@ newShape
 )
 )
 return
-true
+newShape
 ;
 JSWatchPoint
 *
@@ -4213,7 +4202,7 @@ if
 wp
 )
 return
-true
+newShape
 ;
 return
 UpdateWatchpointShape

@@ -31,7 +31,12 @@ defined
 __cplusplus
 )
 extern
-bool
+const
+js
+:
+:
+Shape
+*
 js_SlowPathUpdateWatchpointsForShape
 (
 JSContext
@@ -51,7 +56,12 @@ newShape
 ;
 static
 inline
-bool
+const
+js
+:
+:
+Shape
+*
 js_UpdateWatchpointsForShape
 (
 JSContext
@@ -84,7 +94,7 @@ watchPointList
 )
 )
 return
-true
+newShape
 ;
 return
 js_SlowPathUpdateWatchpointsForShape
