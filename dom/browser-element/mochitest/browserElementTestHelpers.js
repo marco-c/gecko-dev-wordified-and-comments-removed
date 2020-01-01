@@ -1051,9 +1051,9 @@ set
 "
 browser
 .
-pageThumbs
+pagethumbnails
 .
-enabled
+capturing_disabled
 "
 false
 ]
