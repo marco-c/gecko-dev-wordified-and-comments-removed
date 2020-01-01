@@ -321,7 +321,7 @@ Get
 )
 ;
 }
-PRInt32
+int32_t
 message_loop_id_seq
 =
 0

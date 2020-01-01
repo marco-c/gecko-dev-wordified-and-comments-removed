@@ -462,7 +462,7 @@ AllocTable
 void
 *
 pool
-PRSize
+size_t
 size
 )
 {
@@ -532,7 +532,7 @@ pool
 PLHashEntry
 *
 he
-PRUintn
+unsigned
 flag
 )
 {

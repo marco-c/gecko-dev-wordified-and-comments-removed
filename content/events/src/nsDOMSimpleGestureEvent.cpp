@@ -185,7 +185,7 @@ nsDOMSimpleGestureEvent
 :
 GetAllowedDirections
 (
-PRUint32
+uint32_t
 *
 aAllowedDirections
 )
@@ -220,7 +220,7 @@ nsDOMSimpleGestureEvent
 :
 SetAllowedDirections
 (
-PRUint32
+uint32_t
 aAllowedDirections
 )
 {

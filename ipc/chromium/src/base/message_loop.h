@@ -422,7 +422,7 @@ return
 type_
 ;
 }
-PRInt32
+int32_t
 id
 (
 )
@@ -861,7 +861,7 @@ DoIdleWork
 Type
 type_
 ;
-PRInt32
+int32_t
 id_
 ;
 TaskQueue

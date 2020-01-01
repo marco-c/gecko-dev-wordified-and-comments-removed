@@ -777,7 +777,7 @@ BOOL
 *
 mCancelSwipeAnimation
 ;
-PRUint32
+uint32_t
 mCurrentSwipeDir
 ;
 #

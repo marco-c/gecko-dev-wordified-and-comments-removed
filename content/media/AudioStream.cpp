@@ -1751,10 +1751,10 @@ static
 void
 SetUint16LE
 (
-PRUint8
+uint8_t
 *
 aDest
-PRUint16
+uint16_t
 aValue
 )
 {
@@ -1782,10 +1782,10 @@ static
 void
 SetUint32LE
 (
-PRUint8
+uint8_t
 *
 aDest
-PRUint32
+uint32_t
 aValue
 )
 {
@@ -1878,7 +1878,7 @@ nullptr
 +
 gDumpedAudioCount
 ;
-PRUint8
+uint8_t
 header
 [
 ]
@@ -2017,7 +2017,7 @@ aDumpFile
 AudioStream
 *
 aStream
-PRUint32
+uint32_t
 aFrames
 void
 *
@@ -2031,7 +2031,7 @@ aDumpFile
 )
 return
 ;
-PRUint32
+uint32_t
 samples
 =
 aStream
@@ -2076,7 +2076,7 @@ format
 ;
 nsAutoTArray
 <
-PRUint8
+uint8_t
 1024
 *
 2
@@ -2105,7 +2105,7 @@ float
 aBuffer
 )
 ;
-PRUint8
+uint8_t
 *
 output
 =
@@ -2117,7 +2117,7 @@ Elements
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2138,7 +2138,7 @@ output
 i
 *
 2
-PRInt16
+int16_t
 (
 input
 [
