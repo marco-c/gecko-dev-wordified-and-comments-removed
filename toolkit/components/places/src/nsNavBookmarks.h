@@ -273,6 +273,11 @@ InitRoots
 )
 ;
 nsresult
+InitDefaults
+(
+)
+;
+nsresult
 InitToolbarFolder
 (
 )
