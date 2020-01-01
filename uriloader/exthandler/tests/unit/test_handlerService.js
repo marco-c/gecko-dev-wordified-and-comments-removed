@@ -173,7 +173,7 @@ getBranch
 )
 ;
 let
-isWin7OrHigher
+isWin7
 =
 false
 ;
@@ -239,14 +239,14 @@ version
 "
 )
 ;
-isWin7OrHigher
+isWin7
 =
 (
 parseFloat
 (
 version
 )
->
+=
 =
 6
 .
@@ -750,7 +750,7 @@ length
 ;
 if
 (
-isWin7OrHigher
+isWin7
 )
 do_check_true
 (
@@ -807,7 +807,7 @@ length
 ;
 if
 (
-isWin7OrHigher
+isWin7
 )
 do_check_true
 (
