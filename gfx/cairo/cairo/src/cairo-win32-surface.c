@@ -7879,10 +7879,9 @@ surface
 >
 initial_clip_rgn
 )
+<
 =
-=
--
-1
+0
 )
 {
 DeleteObject
