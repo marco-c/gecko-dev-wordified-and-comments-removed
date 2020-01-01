@@ -16,3 +16,14 @@ mozilla
 sh
 #
 endif
+#
+ifdef
+XP_WIN
+mozcrt19
+.
+dll
+mozcpp19
+.
+dll
+#
+endif
