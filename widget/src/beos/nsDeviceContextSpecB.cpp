@@ -135,10 +135,11 @@ aInx
 )
 {
 return
+&
 mGlobalPrinterList
 -
 >
-StringAt
+ElementAt
 (
 aInx
 )
