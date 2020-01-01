@@ -2595,6 +2595,8 @@ WINCE_SDK_DIR
 TOPSRCDIR
 =
 "
+_pwd
+/
 srcdir
 "
 OBJDIR
@@ -55721,6 +55723,18 @@ AC_DEFINE
 (
 MOZ_MEMORY_WINDOWS
 )
+if
+test
+"
+WINCE_WINDOWS_MOBILE
+"
+;
+then
+AC_DEFINE
+(
+MOZ_MEMORY_WINCE6
+)
+fi
 ;
 ;
 *
