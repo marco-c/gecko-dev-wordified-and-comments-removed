@@ -294,6 +294,16 @@ cairo_device_t
 device
 )
 ;
+struct
+ID3D10Device1
+*
+cairo_d2d_device_get_device
+(
+cairo_device_t
+*
+device
+)
+;
 cairo_public
 cairo_surface_t
 *
