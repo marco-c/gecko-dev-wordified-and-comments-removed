@@ -73,7 +73,7 @@ Util
 .
 h
 "
-class
+struct
 JSContext
 ;
 class

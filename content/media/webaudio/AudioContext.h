@@ -48,7 +48,7 @@ nsAutoPtr
 .
 h
 "
-class
+struct
 JSContext
 ;
 class

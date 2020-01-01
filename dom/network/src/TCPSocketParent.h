@@ -37,10 +37,10 @@ nsIDOMTCPSocket
 .
 h
 "
-class
+struct
 JSContext
 ;
-class
+struct
 JSObject
 ;
 namespace
