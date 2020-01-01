@@ -271,11 +271,6 @@ ResourceLoaded
 (
 )
 ;
-void
-NetworkError
-(
-)
-;
 virtual
 PRBool
 IsSeeking
