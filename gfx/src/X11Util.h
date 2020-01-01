@@ -294,16 +294,6 @@ ev
 nullptr
 )
 ;
-bool
-GetError
-(
-XErrorEvent
-*
-ev
-=
-nullptr
-)
-;
 }
 ;
 }
