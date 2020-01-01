@@ -476,7 +476,7 @@ obj
 JSObject
 *
 receiver
-uint32
+JSUint32
 index
 Value
 *
