@@ -264,6 +264,9 @@ width
 height
 }
 ;
+#
+if
+0
 switch
 (
 instanceData
@@ -278,6 +281,8 @@ drawMode
 case
 DM_DEFAULT
 :
+#
+endif
 {
 HBRUSH
 brush
@@ -504,6 +509,9 @@ font
 }
 }
 }
+#
+if
+0
 break
 ;
 case
@@ -613,6 +621,8 @@ brush
 break
 ;
 }
+#
+endif
 BLENDFUNCTION
 blendFunc
 ;
