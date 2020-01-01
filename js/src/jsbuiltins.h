@@ -436,6 +436,10 @@ name
 argtypes
 cse
 fold
+nanojit
+:
+:
+ABI_FASTCALL
 _JS_CI_NAME
 (
 name

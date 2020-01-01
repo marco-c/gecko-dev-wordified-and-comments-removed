@@ -325,6 +325,13 @@ SavedFpRegs
 endif
 static
 const
+int
+NumSavedRegs
+=
+7
+;
+static
+const
 RegisterMask
 SavedRegs
 =

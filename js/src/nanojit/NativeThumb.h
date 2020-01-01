@@ -155,6 +155,13 @@ FragInfo
 ;
 static
 const
+int
+NumSavedRegs
+=
+4
+;
+static
+const
 RegisterMask
 SavedRegs
 =

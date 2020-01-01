@@ -20,6 +20,9 @@ h
 "
 #
 ifdef
+FEATURE_NANOJIT
+#
+ifdef
 AVMPLUS_IA32
 #
 define
@@ -149,6 +152,12 @@ avmplus
 LIST_GCObjects
 >
 StringList
+;
+const
+uint32_t
+MAXARGS
+=
+8
 ;
 #
 if
@@ -497,9 +506,11 @@ _verbose
 define
 verbose_only
 (
-x
+.
+.
+.
 )
-x
+__VA_ARGS__
 #
 else
 #
@@ -517,7 +528,9 @@ verbose_enabled
 define
 verbose_only
 (
-x
+.
+.
+.
 )
 #
 endif
@@ -1016,5 +1029,7 @@ TraceTreeDrawer
 .
 h
 "
+#
+endif
 #
 endif
