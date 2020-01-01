@@ -17544,6 +17544,15 @@ if
 access
 .
 script
+&
+&
+!
+access
+.
+script
+-
+>
+typesPurged
 )
 {
 TypeSet

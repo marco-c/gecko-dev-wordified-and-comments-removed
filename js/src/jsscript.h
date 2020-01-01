@@ -1317,6 +1317,11 @@ reentrantOuterFunction
 :
 1
 ;
+bool
+typesPurged
+:
+1
+;
 #
 ifdef
 JS_METHODJIT
