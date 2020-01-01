@@ -221,6 +221,11 @@ void
 userArg
 )
 ;
+DWRITE_MEASURING_MODE
+GetMeasuringMode
+(
+)
+;
 nsRefPtr
 <
 IDWriteFontFace
