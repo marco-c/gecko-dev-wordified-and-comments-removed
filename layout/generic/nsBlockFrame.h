@@ -790,6 +790,16 @@ nsIFrame
 aBlock
 )
 ;
+static
+nsBlockFrame
+*
+GetNearestAncestorBlock
+(
+nsIFrame
+*
+aCandidate
+)
+;
 protected
 :
 nsBlockFrame
