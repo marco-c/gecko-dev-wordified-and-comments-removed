@@ -248,7 +248,7 @@ DefaultHasher
 JSObject
 *
 >
-CCWReferentKeyMarkPolicy
+CrossCompartmentMarkPolicy
 >
 ObjectWeakMap
 ;
@@ -787,6 +787,15 @@ fromChildJSObject
 JSObject
 *
 obj
+)
+;
+static
+void
+markCrossCompartmentDebugObjectReferents
+(
+JSTracer
+*
+tracer
 )
 ;
 static

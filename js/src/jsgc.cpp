@@ -11613,6 +11613,15 @@ markCrossCompartmentWrappers
 gcmarker
 )
 ;
+Debug
+:
+:
+markCrossCompartmentDebugObjectReferents
+(
+&
+gcmarker
+)
+;
 }
 else
 {
