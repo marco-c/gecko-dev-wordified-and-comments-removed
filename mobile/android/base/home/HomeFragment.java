@@ -907,7 +907,9 @@ home_edit_bookmark
 new
 EditBookmarkDialog
 (
-context
+getActivity
+(
+)
 )
 .
 show
