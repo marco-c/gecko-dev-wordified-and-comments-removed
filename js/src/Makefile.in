@@ -1081,6 +1081,10 @@ jsscript
 .
 h
 \
+jsscriptinlines
+.
+h
+\
 jsstaticcheck
 .
 h

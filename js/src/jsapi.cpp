@@ -19788,8 +19788,6 @@ JSUpvarArray
 *
 uva
 =
-JS_SCRIPT_UPVARS
-(
 fun
 -
 >
@@ -19798,6 +19796,10 @@ u
 i
 .
 script
+-
+>
+upvars
+(
 )
 ;
 JS_ASSERT
