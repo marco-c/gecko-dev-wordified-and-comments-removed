@@ -873,6 +873,7 @@ d3d9
 .
 lib
 "
+\
 "
 (
 MOZ_DIRECTX_SDK_PATH
@@ -886,6 +887,13 @@ dxguid
 .
 lib
 "
+\
+"
+dwmapi
+.
+lib
+"
+\
 (
 DIST
 )

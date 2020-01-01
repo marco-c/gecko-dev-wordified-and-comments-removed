@@ -198,11 +198,6 @@ hasStencil
 (
 )
 ;
-bool
-isMultisample
-(
-)
-;
 int
 getSamples
 (

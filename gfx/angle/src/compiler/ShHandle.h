@@ -278,6 +278,13 @@ attribs
 TVariableInfoList
 uniforms
 ;
+TMap
+<
+TString
+TString
+>
+varyingLongNameMap
+;
 }
 ;
 TCompiler
