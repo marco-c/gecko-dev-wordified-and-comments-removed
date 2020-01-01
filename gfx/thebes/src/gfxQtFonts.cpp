@@ -676,6 +676,9 @@ AppendString
 fontName
 )
 ;
+#
+ifdef
+DEBUG_pavlov
 printf
 (
 "
@@ -695,6 +698,8 @@ get
 )
 )
 ;
+#
+endif
 }
 return
 PR_TRUE
@@ -872,6 +877,9 @@ families
 aStyle
 )
 {
+#
+ifdef
+DEBUG_pavlov
 printf
 (
 "
@@ -892,6 +900,8 @@ get
 )
 )
 ;
+#
+endif
 nsStringArray
 familyArray
 ;
@@ -3780,16 +3790,6 @@ mScaledFont
 nsnull
 ;
 }
-printf
-(
-"
-deleting
-gfxQtFont
-\
-n
-"
-)
-;
 }
 #
 define
