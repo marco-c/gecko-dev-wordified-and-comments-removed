@@ -486,10 +486,6 @@ View
 ;
 Tabs
 .
-getInstance
-(
-)
-.
 registerOnTabsChangedListener
 (
 this
