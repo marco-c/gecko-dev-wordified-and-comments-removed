@@ -438,16 +438,6 @@ pref
 "
 browser
 .
-show_about_as_stupid_modal_window
-"
-false
-)
-;
-pref
-(
-"
-browser
-.
 download
 .
 progressDnldDialog
