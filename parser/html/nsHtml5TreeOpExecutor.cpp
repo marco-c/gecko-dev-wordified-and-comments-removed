@@ -268,6 +268,12 @@ cycle
 "
 )
 ;
+if
+(
+!
+aTerminated
+)
+{
 EndDocUpdate
 (
 )
@@ -281,6 +287,7 @@ mParser
 return
 NS_OK
 ;
+}
 }
 static_cast
 <
@@ -920,6 +927,12 @@ if
 mParser
 )
 {
+mOpQueue
+.
+Clear
+(
+)
+;
 return
 ;
 }
