@@ -296,6 +296,16 @@ BluetoothSocket
 .
 cpp
 '
+'
+MediaMetaData
+.
+cpp
+'
+'
+MediaPlayStatus
+.
+cpp
+'
 ]
 if
 CONFIG

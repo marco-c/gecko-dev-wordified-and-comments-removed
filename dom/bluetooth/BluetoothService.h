@@ -622,11 +622,11 @@ const
 nsAString
 &
 aAlbum
-uint32_t
+int64_t
 aMediaNumber
-uint32_t
+int64_t
 aTotalMediaCount
-uint32_t
+int64_t
 aDuration
 BluetoothReplyRunnable
 *
@@ -639,9 +639,9 @@ virtual
 void
 SendPlayStatus
 (
-uint32_t
+int64_t
 aDuration
-uint32_t
+int64_t
 aPosition
 const
 nsAString
