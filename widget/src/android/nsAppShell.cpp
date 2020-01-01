@@ -978,6 +978,9 @@ Type
 (
 )
 ;
+#
+ifndef
+MOZ_JAVA_COMPOSITOR
 while
 (
 nextType
@@ -1041,6 +1044,8 @@ Type
 )
 ;
 }
+#
+endif
 if
 (
 nextType
