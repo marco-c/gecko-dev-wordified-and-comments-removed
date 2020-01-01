@@ -2278,14 +2278,6 @@ aKidsAllInline
 )
 ;
 PRBool
-AreAllKidsInline
-(
-nsIFrame
-*
-aFrameList
-)
-;
-PRBool
 WipeContainingBlock
 (
 nsFrameConstructorState
