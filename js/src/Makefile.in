@@ -1185,6 +1185,10 @@ jsstaticcheck
 .
 h
 \
+jsstdint
+.
+h
+\
 jsstr
 .
 h
