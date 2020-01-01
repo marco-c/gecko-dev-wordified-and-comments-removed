@@ -639,7 +639,7 @@ JaegerTrampolineReturn
 :
 movl
 %
-edx
+esi
 0x18
 (
 %
@@ -647,7 +647,7 @@ ebp
 )
 movl
 %
-ecx
+edi
 0x1C
 (
 %

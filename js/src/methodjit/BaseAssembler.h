@@ -556,7 +556,7 @@ JSC
 X86Registers
 :
 :
-ecx
+edi
 ;
 static
 const
@@ -575,7 +575,7 @@ JSC
 X86Registers
 :
 :
-edx
+esi
 ;
 static
 const
@@ -619,7 +619,7 @@ JSC
 ARMRegisters
 :
 :
-r2
+r4
 ;
 static
 const
@@ -638,7 +638,7 @@ JSC
 ARMRegisters
 :
 :
-r1
+r5
 ;
 static
 const
@@ -682,7 +682,7 @@ JSC
 SparcRegisters
 :
 :
-i0
+l2
 ;
 static
 const
@@ -701,7 +701,7 @@ JSC
 SparcRegisters
 :
 :
-i1
+l3
 ;
 static
 const

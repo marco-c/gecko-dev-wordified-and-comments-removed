@@ -501,6 +501,12 @@ JS_ASSERT
 isCopy
 (
 )
+&
+&
+type_
+!
+=
+JSVAL_TYPE_UNKNOWN
 )
 ;
 type
@@ -939,9 +945,6 @@ copied
 ;
 bool
 tracked
-;
-bool
-inlined
 ;
 bool
 temporary

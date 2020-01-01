@@ -997,9 +997,9 @@ n
 "
 or
 %
-rdx
+rdi
 %
-rcx
+rsi
 "
 "
 \
@@ -1602,7 +1602,7 @@ n
 "
 movl
 %
-edx
+esi
 0x18
 (
 %
@@ -1616,7 +1616,7 @@ n
 "
 movl
 %
-ecx
+edi
 0x1C
 (
 %
@@ -2361,7 +2361,7 @@ n
 "
 "
 str
-r1
+r5
 [
 r11
 #
@@ -2374,7 +2374,7 @@ n
 "
 "
 str
-r2
+r4
 [
 r11
 #
@@ -2833,7 +2833,7 @@ ebp
 +
 0x18
 ]
-edx
+esi
 ;
 mov
 [
@@ -2841,7 +2841,7 @@ ebp
 +
 0x1C
 ]
-ecx
+edi
 ;
 mov
 ebp
