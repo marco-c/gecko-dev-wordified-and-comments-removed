@@ -700,6 +700,11 @@ nsRect
 aBGClipRect
 =
 nullptr
+int32_t
+aLayer
+=
+-
+1
 )
 ;
 static
@@ -737,6 +742,11 @@ nsRect
 aBGClipRect
 =
 nullptr
+int32_t
+aLayer
+=
+-
+1
 )
 ;
 static
