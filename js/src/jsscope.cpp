@@ -223,10 +223,11 @@ shape
 =
 SHAPE_OVERFLOW_BIT
 ;
-js_TriggerGC
-(
 cx
-gcLocked
+-
+>
+triggerGC
+(
 )
 ;
 }
@@ -747,6 +748,9 @@ false
 ;
 }
 cx
+-
+>
+runtime
 -
 >
 updateMallocCounter
@@ -2186,6 +2190,9 @@ table
 newtable
 ;
 cx
+-
+>
+runtime
 -
 >
 updateMallocCounter
