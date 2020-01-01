@@ -44,11 +44,6 @@ void
 )
 DOMCI_DATA
 (
-WebGLTexture
-void
-)
-DOMCI_DATA
-(
 WebGLProgram
 void
 )

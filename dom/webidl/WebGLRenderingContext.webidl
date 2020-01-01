@@ -405,6 +405,8 @@ WebGLShader
 ;
 interface
 WebGLTexture
+{
+}
 ;
 interface
 WebGLUniformLocation
@@ -2640,6 +2642,9 @@ getSupportedExtensions
 (
 )
 ;
+[
+Throws
+]
 object
 ?
 getExtension
