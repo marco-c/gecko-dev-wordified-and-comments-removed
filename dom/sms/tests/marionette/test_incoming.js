@@ -163,6 +163,16 @@ is
 (
 message
 .
+deliveryStatus
+"
+success
+"
+)
+;
+is
+(
+message
+.
 sender
 sender
 )
