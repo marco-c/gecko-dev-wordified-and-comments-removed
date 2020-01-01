@@ -22,15 +22,6 @@ h
 #
 include
 "
-mozilla
--
-config
-.
-h
-"
-#
-include
-"
 CanvasLayerOGL
 .
 h

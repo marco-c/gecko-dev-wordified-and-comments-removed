@@ -7,15 +7,6 @@ MOZILLA_GFX_COMPOSITINGRENDERTARGETOGL_H
 #
 include
 "
-mozilla
--
-config
-.
-h
-"
-#
-include
-"
 GLContextTypes
 .
 h

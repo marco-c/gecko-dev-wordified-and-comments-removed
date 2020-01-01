@@ -8,15 +8,6 @@ h
 #
 include
 "
-mozilla
--
-config
-.
-h
-"
-#
-include
-"
 CompositableHost
 .
 h

@@ -30,15 +30,6 @@ h
 #
 include
 "
-mozilla
--
-config
-.
-h
-"
-#
-include
-"
 FrameMetrics
 .
 h

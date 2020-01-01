@@ -21,15 +21,6 @@ h
 #
 include
 "
-mozilla
--
-config
-.
-h
-"
-#
-include
-"
 gfxPoint
 .
 h

@@ -20,15 +20,6 @@ algorithm
 #
 include
 "
-mozilla
--
-config
-.
-h
-"
-#
-include
-"
 GLContext
 .
 h

@@ -7,15 +7,6 @@ MOZILLA_GFX_COMPOSITOR_H
 #
 include
 "
-mozilla
--
-config
-.
-h
-"
-#
-include
-"
 Units
 .
 h

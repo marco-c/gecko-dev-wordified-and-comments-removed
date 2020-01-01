@@ -32,15 +32,6 @@ utility
 #
 include
 "
-mozilla
--
-config
-.
-h
-"
-#
-include
-"
 AutoOpenSurface
 .
 h
