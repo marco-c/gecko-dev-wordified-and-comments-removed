@@ -231,7 +231,8 @@ alert
 window
 "
 "
-client
+internal
+frame
 "
 "
 menupopup
