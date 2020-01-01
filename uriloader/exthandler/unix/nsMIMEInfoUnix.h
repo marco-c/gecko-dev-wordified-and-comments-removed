@@ -147,11 +147,9 @@ aPossibleAppHandlers
 endif
 #
 if
+defined
 (
-MOZ_PLATFORM_MAEMO
-=
-=
-6
+MOZ_ENABLE_CONTENTACTION
 )
 NS_IMETHOD
 GetPossibleApplicationHandlers

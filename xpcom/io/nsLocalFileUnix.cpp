@@ -151,6 +151,11 @@ include
 QString
 >
 #
+if
+(
+MOZ_ENABLE_CONTENTACTION
+)
+#
 include
 <
 contentaction
@@ -159,6 +164,8 @@ contentaction
 .
 h
 >
+#
+endif
 #
 endif
 #
@@ -8036,11 +8043,9 @@ NS_ERROR_FAILURE
 endif
 #
 elif
+defined
 (
-MOZ_PLATFORM_MAEMO
-=
-=
-6
+MOZ_ENABLE_CONTENTACTION
 )
 QUrl
 uri

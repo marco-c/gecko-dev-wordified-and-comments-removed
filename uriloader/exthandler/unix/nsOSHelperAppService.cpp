@@ -18,11 +18,9 @@ h
 >
 #
 if
+defined
 (
-MOZ_PLATFORM_MAEMO
-=
-=
-6
+MOZ_ENABLE_CONTENTACTION
 )
 #
 include
@@ -5401,11 +5399,9 @@ PR_FALSE
 ;
 #
 if
+defined
 (
-MOZ_PLATFORM_MAEMO
-=
-=
-6
+MOZ_ENABLE_CONTENTACTION
 )
 ContentAction
 :

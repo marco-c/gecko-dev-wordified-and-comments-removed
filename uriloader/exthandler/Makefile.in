@@ -954,13 +954,8 @@ MOZ_GIO_LIBS
 )
 endif
 endif
-ifeq
-(
-(
-MOZ_PLATFORM_MAEMO
-)
-6
-)
+ifdef
+MOZ_ENABLE_CONTENTACTION
 CPPSRCS
 +
 =
