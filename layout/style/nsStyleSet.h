@@ -1094,6 +1094,15 @@ mRuleProcessors
 eSheetTypeCount
 ]
 ;
+nsTArray
+<
+nsCOMPtr
+<
+nsIStyleRuleProcessor
+>
+>
+mScopedDocSheetRuleProcessors
+;
 nsCOMPtr
 <
 nsIStyleSheet
