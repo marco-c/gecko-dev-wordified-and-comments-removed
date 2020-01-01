@@ -3020,4 +3020,14 @@ onWipeSucceeded
 ;
 }
 }
+public
+AndroidBrowserRepositoryDataAccessor
+getDBHelper
+(
+)
+{
+return
+dbHelper
+;
+}
 }
