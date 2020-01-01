@@ -202,6 +202,14 @@ event
 )
 ;
 nsresult
+HandlePopupShowingEvent
+(
+nsIDOMEvent
+*
+event
+)
+;
+nsresult
 LogBookmarkInfo
 (
 const
