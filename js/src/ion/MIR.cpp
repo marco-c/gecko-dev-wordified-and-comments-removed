@@ -2193,6 +2193,12 @@ size_t
 numActualArgs
 bool
 construct
+types
+:
+:
+StackTypeSet
+*
+calleeTypes
 )
 {
 JS_ASSERT
@@ -2213,6 +2219,7 @@ MCall
 target
 numActualArgs
 construct
+calleeTypes
 )
 ;
 if
