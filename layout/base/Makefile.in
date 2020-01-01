@@ -662,7 +662,7 @@ nsGenConList
 .
 cpp
 \
-nsImageLoader
+nsImageLoadNotifier
 .
 cpp
 \

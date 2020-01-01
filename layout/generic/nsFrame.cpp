@@ -487,7 +487,7 @@ h
 #
 include
 "
-nsImageLoader
+nsImageLoadNotifier
 .
 h
 "
@@ -2041,9 +2041,9 @@ DidSetStyleContext
 {
 nsRefPtr
 <
-nsImageLoader
+nsImageLoadNotifier
 >
-loaderChain
+notifierChain
 ;
 const
 nsStyleBackground
@@ -2068,9 +2068,9 @@ if
 newBackgroundImage
 )
 {
-loaderChain
+notifierChain
 =
-nsImageLoader
+nsImageLoadNotifier
 :
 :
 Create
@@ -2078,7 +2078,7 @@ Create
 this
 newBackgroundImage
 PR_FALSE
-loaderChain
+notifierChain
 )
 ;
 }
@@ -2107,9 +2107,9 @@ if
 newBorderImage
 )
 {
-loaderChain
+notifierChain
 =
-nsImageLoader
+nsImageLoadNotifier
 :
 :
 Create
@@ -2122,7 +2122,7 @@ border
 ImageBorderDiffers
 (
 )
-loaderChain
+notifierChain
 )
 ;
 }
@@ -2131,10 +2131,10 @@ PresContext
 )
 -
 >
-SetImageLoaders
+SetImageNotifiers
 (
 this
-loaderChain
+notifierChain
 )
 ;
 return
