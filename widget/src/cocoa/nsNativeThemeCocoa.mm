@@ -5453,7 +5453,7 @@ aResult
 SizeTo
 (
 kAquaDropdownLeftBorder
-0
+1
 kAquaDropdownRightBorder
 1
 )
