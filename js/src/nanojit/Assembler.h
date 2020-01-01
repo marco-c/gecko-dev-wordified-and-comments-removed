@@ -386,6 +386,10 @@ StringList
 *
 _outputCache
 ;
+LabelMap
+*
+_labelMap
+;
 LogControl
 *
 _logc

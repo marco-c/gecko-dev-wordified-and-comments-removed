@@ -248,11 +248,8 @@ mergeCounts
 )
 verbose_only
 (
-DWB
-(
 LabelMap
 *
-)
 labels
 ;
 )
