@@ -2137,7 +2137,7 @@ uintN
 noteCount
 ;
 uintN
-noteMask
+noteLimit
 ;
 ptrdiff_t
 lastNoteOffset
@@ -2748,7 +2748,7 @@ noteCount
 )
 #
 define
-CG_NOTE_MASK
+CG_NOTE_LIMIT
 (
 cg
 )
@@ -2761,7 +2761,7 @@ cg
 current
 -
 >
-noteMask
+noteLimit
 )
 #
 define
