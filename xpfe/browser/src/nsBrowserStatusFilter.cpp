@@ -765,9 +765,16 @@ if
 !
 listener
 )
+{
+*
+allowRefresh
+=
+PR_TRUE
+;
 return
 NS_OK
 ;
+}
 return
 listener
 -
