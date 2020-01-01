@@ -363,11 +363,8 @@ nsContentUtils
 :
 TYPE_CONTENT
 :
-bool
-isImage
-=
-false
-;
+if
+(
 imgLoader
 :
 :
@@ -378,13 +375,7 @@ aType
 get
 (
 )
-&
-isImage
 )
-;
-if
-(
-isImage
 )
 {
 *

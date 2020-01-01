@@ -817,16 +817,13 @@ aContentType
 )
 ;
 static
-nsresult
+bool
 SupportImageWithMimeType
 (
 const
 char
 *
 aMimeType
-bool
-*
-_retval
 )
 ;
 static
