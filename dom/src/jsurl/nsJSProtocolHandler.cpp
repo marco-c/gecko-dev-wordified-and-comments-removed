@@ -2655,6 +2655,7 @@ cv
 >
 PermitUnload
 (
+PR_FALSE
 &
 okToUnload
 )
