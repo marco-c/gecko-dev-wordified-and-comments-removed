@@ -280,6 +280,10 @@ serverURL
 server
 .
 baseURI
++
+"
+/
+"
 ;
 Service
 .
@@ -288,6 +292,10 @@ clusterURL
 server
 .
 baseURI
++
+"
+/
+"
 ;
 setBasicCredentials
 (
@@ -434,6 +442,7 @@ server
 new
 SyncTestingInfrastructure
 (
+server
 "
 johndoe
 "
@@ -708,6 +717,7 @@ server
 new
 SyncTestingInfrastructure
 (
+server
 "
 johndoe
 "
