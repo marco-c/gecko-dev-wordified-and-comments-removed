@@ -179,7 +179,7 @@ finished
 const
 EXPECTED_SYNCS
 =
-5
+4
 ;
 function
 add_fake_livemark
