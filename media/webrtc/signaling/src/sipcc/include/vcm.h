@@ -600,7 +600,7 @@ int
 port_allocated
 )
 ;
-void
+short
 vcmRxAllocICE
 (
 cc_mcapid_t
@@ -634,7 +634,7 @@ int
 candidate_ct
 )
 ;
-void
+short
 vcmGetIceParams
 (
 const
@@ -927,7 +927,7 @@ char
 protocol
 )
 ;
-void
+short
 vcmRxClose
 (
 cc_mcapid_t
@@ -940,7 +940,7 @@ cc_call_handle_t
 call_handle
 )
 ;
-void
+short
 vcmTxClose
 (
 cc_mcapid_t
