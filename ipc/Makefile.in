@@ -433,6 +433,17 @@ ril
 endif
 #
 }
+ifdef
+MOZ_B2G_BT
+#
+{
+DIRS
++
+=
+dbus
+endif
+#
+}
 TOOL_DIRS
 =
 app
