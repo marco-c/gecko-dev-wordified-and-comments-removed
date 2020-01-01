@@ -426,9 +426,9 @@ nsIDocShell
 ;
 docShell
 .
-isBrowserFrame
-=
-true
+setIsBrowser
+(
+)
 ;
 docShell
 .
