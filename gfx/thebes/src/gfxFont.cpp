@@ -3796,6 +3796,10 @@ mSyntheticBoldOffset
 (
 0
 )
+mShaper
+(
+nsnull
+)
 {
 #
 ifdef
@@ -9229,6 +9233,10 @@ utf16
 ;
 InitTextRun
 (
+aParams
+-
+>
+mContext
 textRun
 utf16
 .
@@ -9335,6 +9343,10 @@ aString
 ;
 InitTextRun
 (
+aParams
+-
+>
+mContext
 textRun
 aString
 aLength
@@ -9379,6 +9391,9 @@ gfxFontGroup
 :
 InitTextRun
 (
+gfxContext
+*
+aContext
 gfxTextRun
 *
 aTextRun
@@ -9524,6 +9539,7 @@ matchedFont
 >
 InitTextRun
 (
+aContext
 aTextRun
 aString
 runStart

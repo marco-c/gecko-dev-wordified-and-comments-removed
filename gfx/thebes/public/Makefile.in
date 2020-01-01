@@ -419,10 +419,6 @@ gfxQuartzNativeDrawing
 .
 h
 \
-gfxCoreTextFonts
-.
-h
-\
 (
 NULL
 )

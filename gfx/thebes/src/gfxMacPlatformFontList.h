@@ -28,13 +28,6 @@ h
 #
 include
 "
-gfxCoreTextFonts
-.
-h
-"
-#
-include
-"
 gfxPlatform
 .
 h

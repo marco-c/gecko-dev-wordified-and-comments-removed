@@ -679,7 +679,11 @@ gfxPlatformMac
 .
 cpp
 \
-gfxCoreTextFonts
+gfxMacFont
+.
+cpp
+\
+gfxCoreTextShaper
 .
 cpp
 \

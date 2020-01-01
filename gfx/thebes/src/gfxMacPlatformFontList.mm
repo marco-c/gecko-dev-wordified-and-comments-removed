@@ -440,6 +440,13 @@ h
 #
 include
 "
+gfxMacFont
+.
+h
+"
+#
+include
+"
 gfxUserFontSet
 .
 h
@@ -1930,7 +1937,7 @@ aNeedsBold
 {
 return
 new
-gfxCoreTextFont
+gfxMacFont
 (
 this
 aFontStyle
