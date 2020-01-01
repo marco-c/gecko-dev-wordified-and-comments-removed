@@ -5439,7 +5439,7 @@ PlacesUtils
 .
 bookmarks
 .
-bookmarksMenuFolder
+unfiledBookmarksFolder
 ;
 this
 .
@@ -6887,7 +6887,7 @@ PlacesUtils
 .
 bookmarks
 .
-bookmarksMenuFolder
+unfiledBookmarksFolder
 ;
 aLevel
 =

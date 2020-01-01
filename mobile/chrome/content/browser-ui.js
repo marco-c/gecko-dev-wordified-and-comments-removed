@@ -3162,7 +3162,7 @@ PlacesUtils
 .
 bookmarks
 .
-bookmarksMenuFolder
+unfiledBookmarksFolder
 bookmarkURI
 PlacesUtils
 .
