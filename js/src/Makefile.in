@@ -467,15 +467,6 @@ LIBS
 NSPR_LIBS
 )
 ifdef
-WINCE
-EXTRA_LIBS
-+
-=
-(
-JEMALLOC_LIBS
-)
-endif
-ifdef
 GNU_CXX
 ifdef
 INTEL_CXX
