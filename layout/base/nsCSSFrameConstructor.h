@@ -3288,7 +3288,7 @@ ContentInfo
 aAnonContent
 )
 ;
-nsresult
+void
 FlushAccumulatedBlock
 (
 nsFrameConstructorState

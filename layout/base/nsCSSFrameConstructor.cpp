@@ -15084,8 +15084,6 @@ if
 wrapFrame
 )
 {
-rv
-=
 FlushAccumulatedBlock
 (
 aState
@@ -15094,15 +15092,6 @@ newFrame
 currentBlockItems
 newItems
 )
-;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-break
 ;
 }
 childItems
@@ -15136,8 +15125,6 @@ f
 ;
 }
 }
-rv
-=
 FlushAccumulatedBlock
 (
 aState
@@ -18441,7 +18428,7 @@ aParentStyleContext
 )
 ;
 }
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -18474,7 +18461,6 @@ IsEmpty
 )
 {
 return
-NS_OK
 ;
 }
 nsIAtom
@@ -18596,9 +18582,6 @@ AddChild
 (
 blockFrame
 )
-;
-return
-NS_OK
 ;
 }
 #
