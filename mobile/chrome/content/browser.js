@@ -1782,19 +1782,6 @@ _selectedTab
 =
 tab
 ;
-this
-.
-_currentViewportBounds
-=
-{
-width
-:
-0
-height
-:
-0
-}
-;
 ws
 .
 beginUpdateBatch
@@ -1949,6 +1936,7 @@ ws
 .
 endUpdateBatch
 (
+true
 )
 ;
 }
