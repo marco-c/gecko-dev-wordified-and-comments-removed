@@ -29,8 +29,9 @@ const
 CSP_VIOLATION_MSG
 =
 "
-CSP
-WARN
+Content
+Security
+Policy
 :
 Directive
 default
