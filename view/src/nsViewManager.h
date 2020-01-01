@@ -415,6 +415,14 @@ aDoInvalidate
 )
 ;
 void
+FlushDirtyRegionToWidget
+(
+nsView
+*
+aView
+)
+;
+void
 CallWillPaintOnObservers
 (
 bool
