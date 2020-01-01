@@ -1081,6 +1081,10 @@ mOutlineRadius
 nsCSSValue
 mFloatEdge
 ;
+nsCSSValueList
+*
+mBoxShadow
+;
 private
 :
 nsCSSMargin

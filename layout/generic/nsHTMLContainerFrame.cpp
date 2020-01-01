@@ -1298,7 +1298,7 @@ if
 textStyle
 -
 >
-mShadowArray
+mTextShadow
 )
 {
 for
@@ -1309,7 +1309,7 @@ i
 textStyle
 -
 >
-mShadowArray
+mTextShadow
 -
 >
 Length
@@ -1325,14 +1325,14 @@ i
 i
 )
 {
-nsTextShadowItem
+nsCSSShadowItem
 *
 shadow
 =
 textStyle
 -
 >
-mShadowArray
+mTextShadow
 -
 >
 ShadowAt
