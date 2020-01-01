@@ -4,6 +4,8 @@ org
 mozilla
 .
 gecko
+.
+util
 ;
 import
 java
@@ -19,6 +21,8 @@ util
 .
 Map
 ;
+public
+final
 class
 ActivityResultHandlerMap
 {
@@ -45,6 +49,7 @@ mCounter
 =
 0
 ;
+public
 synchronized
 int
 put
@@ -67,6 +72,7 @@ mCounter
 +
 ;
 }
+public
 synchronized
 ActivityResultHandler
 getAndRemove

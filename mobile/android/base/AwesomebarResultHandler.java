@@ -6,6 +6,17 @@ mozilla
 gecko
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
+ActivityResultHandler
+;
+import
 android
 .
 content
