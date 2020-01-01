@@ -535,6 +535,11 @@ MOZ_COMPONENT_LIBS
 (
 NULL
 )
+DEFINES
++
+=
+-
+DIMPL_THEBES
 include
 (
 topsrcdir
