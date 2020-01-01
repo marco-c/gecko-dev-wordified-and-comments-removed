@@ -5937,35 +5937,6 @@ timeout
 0
     
 if
-Automation
-.
-IS_DEBUG_BUILD
-and
-not
-options
-.
-webapprtChrome
-:
-      
-logger
-=
-ShutdownLeakLogger
-(
-self
-.
-automation
-.
-log
-)
-    
-else
-:
-      
-logger
-=
-None
-    
-if
 options
 .
 vmwareRecording
@@ -6061,10 +6032,6 @@ symbolsPath
 options
 .
 symbolsPath
-                                  
-logger
-=
-logger
                                   
 timeout
 =
@@ -6173,16 +6140,6 @@ leak_report_file
 options
 .
 leakThreshold
-)
-    
-if
-logger
-:
-      
-logger
-.
-parse
-(
 )
     
 self

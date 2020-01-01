@@ -2833,6 +2833,10 @@ browser
 .
 safebrowsing
 .
+provider
+.
+0
+.
 gethashURL
 "
 "
@@ -2861,6 +2865,10 @@ browser
 .
 safebrowsing
 .
+provider
+.
+0
+.
 keyURL
 "
 "
@@ -2888,6 +2896,10 @@ user_pref
 browser
 .
 safebrowsing
+.
+provider
+.
+0
 .
 updateURL
 "
@@ -6800,7 +6812,6 @@ maxTime
 startTime
 debuggerInfo
 symbolsPath
-logger
 )
 :
 "
@@ -7159,15 +7170,6 @@ UTF
 ignore
 "
 )
-)
-if
-logger
-:
-logger
-.
-log
-(
-line
 )
 if
 "
@@ -8045,9 +8047,6 @@ None
 certPath
 =
 None
-logger
-=
-None
 debuggerInfo
 =
 None
@@ -8515,7 +8514,6 @@ maxTime
 startTime
 debuggerInfo
 symbolsPath
-logger
 )
 self
 .
