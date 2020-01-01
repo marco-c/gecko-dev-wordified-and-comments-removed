@@ -4463,6 +4463,13 @@ if
 (
 mBoundContentSet
 .
+IsInitialized
+(
+)
+&
+&
+mBoundContentSet
+.
 Contains
 (
 aContent
