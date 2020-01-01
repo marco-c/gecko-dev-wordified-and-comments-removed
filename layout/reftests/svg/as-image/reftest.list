@@ -595,12 +595,7 @@ values
 in
 play
 .
-fails
--
-if
-(
-Android
-)
+random
 =
 =
 img
@@ -623,6 +618,9 @@ image
 ref
 .
 svg
+#
+bug
+645267
 #
 More
 complex
