@@ -668,7 +668,7 @@ label
 &
 certmgr
 .
-certsite
+certserver
 ;
 "
 persist

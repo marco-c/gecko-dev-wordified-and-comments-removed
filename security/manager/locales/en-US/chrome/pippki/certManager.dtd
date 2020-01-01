@@ -1197,9 +1197,9 @@ Name
 ENTITY
 certmgr
 .
-certsite
+certserver
 "
-Site
+Server
 "
 >
 <
