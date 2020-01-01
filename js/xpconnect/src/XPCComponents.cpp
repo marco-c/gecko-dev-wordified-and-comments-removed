@@ -10878,17 +10878,6 @@ JSVAL_VOID
 JSPropertyDescriptor
 desc
 ;
-memset
-(
-&
-desc
-0
-sizeof
-(
-desc
-)
-)
-;
 if
 (
 !
