@@ -177,6 +177,10 @@ browser_scratchpad_bug740948_reload_and_run
 .
 js
 \
+browser_scratchpad_bug_661762_wrong_window_focus
+.
+js
+\
 head
 .
 js
