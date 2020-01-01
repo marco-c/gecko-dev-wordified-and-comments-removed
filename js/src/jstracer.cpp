@@ -1,13 +1,6 @@
 #
 include
 "
-jsstdint
-.
-h
-"
-#
-include
-"
 jsbit
 .
 h
@@ -40488,7 +40481,10 @@ LIns
 *
 args
 [
-5
+nanojit
+:
+:
+MAXARGS
 ]
 ;
 do
