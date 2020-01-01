@@ -825,6 +825,10 @@ test_networkState
 .
 html
 \
+test_new_audio
+.
+html
+\
 test_paused
 .
 html
