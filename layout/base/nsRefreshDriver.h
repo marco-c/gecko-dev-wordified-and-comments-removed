@@ -346,6 +346,13 @@ Thaw
 (
 )
 ;
+void
+SetThrottled
+(
+bool
+aThrottled
+)
+;
 nsPresContext
 *
 PresContext
@@ -435,8 +442,11 @@ nsPresContext
 *
 mPresContext
 ;
-PRBool
+bool
 mFrozen
+;
+bool
+mThrottled
 ;
 ObserverArray
 mObservers
