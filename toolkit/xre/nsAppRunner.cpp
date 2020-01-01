@@ -5457,7 +5457,7 @@ return
 rv
 ;
 #
-elif
+else
 #
 error
 Oops
