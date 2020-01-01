@@ -4022,6 +4022,12 @@ newphrase
 ;
 this
 .
+persistLogin
+(
+)
+;
+this
+.
 login
 (
 )
