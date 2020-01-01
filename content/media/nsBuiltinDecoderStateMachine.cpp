@@ -1966,6 +1966,15 @@ seeking
 &
 &
 mAudioStream
+&
+&
+!
+mAudioStream
+-
+>
+IsPaused
+(
+)
 )
 {
 mAudioStream
