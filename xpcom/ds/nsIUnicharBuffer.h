@@ -19,6 +19,13 @@ nsISupports
 h
 "
 #
+include
+"
+prlog
+.
+h
+"
+#
 define
 NS_IUNICHARBUFFER_IID
 \

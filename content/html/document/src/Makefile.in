@@ -531,6 +531,11 @@ cpp
 (
 NULL
 )
+GQI_SRCS
+=
+htmldocument
+.
+gqi
 EXPORTS
 =
 \

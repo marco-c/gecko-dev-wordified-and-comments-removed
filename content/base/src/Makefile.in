@@ -808,6 +808,11 @@ cpp
 (
 NULL
 )
+GQI_SRCS
+=
+contentbase
+.
+gqi
 #
 we
 don

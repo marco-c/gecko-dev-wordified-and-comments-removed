@@ -12,6 +12,13 @@ nsISupports
 h
 "
 #
+include
+"
+nsCoord
+.
+h
+"
+#
 define
 NS_IFRAMESETELEMENT_IID
 \

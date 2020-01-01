@@ -48,12 +48,6 @@ void
 aClosure
 )
 ;
-NS_IMPL_ISUPPORTS2
-(
-nsArray
-nsIArray
-nsIMutableArray
-)
 nsArray
 :
 :

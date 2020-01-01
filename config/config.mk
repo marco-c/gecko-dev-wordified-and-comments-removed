@@ -2825,6 +2825,14 @@ mozilla
 interfaces
 REQ_INCLUDES
 =
+-
+I
+(
+srcdir
+)
+-
+I
+.
 (
 foreach
 d
