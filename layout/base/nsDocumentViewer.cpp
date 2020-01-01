@@ -3970,9 +3970,9 @@ GetInternalNSEvent
 )
 -
 >
-flags
-&
-NS_EVENT_FLAG_NO_DEFAULT
+mFlags
+.
+mDefaultPrevented
 |
 |
 !

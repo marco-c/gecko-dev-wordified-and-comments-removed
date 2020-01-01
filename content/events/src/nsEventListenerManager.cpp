@@ -4463,10 +4463,11 @@ nsEventStatus_eConsumeNoDefault
 aEvent
 -
 >
-flags
-|
+mFlags
+.
+mDefaultPrevented
 =
-NS_EVENT_FLAG_NO_DEFAULT
+true
 ;
 }
 nsAutoTObserverArray
@@ -4768,9 +4769,9 @@ if
 aEvent
 -
 >
-flags
-&
-NS_EVENT_FLAG_NO_DEFAULT
+mFlags
+.
+mDefaultPrevented
 )
 {
 *

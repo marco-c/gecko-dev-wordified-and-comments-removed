@@ -8423,10 +8423,11 @@ nsEventStatus_eConsumeNoDefault
 {
 pressEvent
 .
-flags
-|
+mFlags
+.
+mDefaultPrevented
 =
-NS_EVENT_FLAG_NO_DEFAULT
+true
 ;
 }
 #
