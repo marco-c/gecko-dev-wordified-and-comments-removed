@@ -4438,6 +4438,14 @@ lineContainer
 ;
 irs
 .
+mLineLayout
+=
+aReflowState
+.
+mLineLayout
+;
+irs
+.
 mNextInFlow
 =
 (
