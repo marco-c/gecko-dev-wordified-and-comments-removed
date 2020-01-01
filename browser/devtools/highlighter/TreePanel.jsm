@@ -2396,6 +2396,15 @@ TP_closeEditor
 (
 )
 {
+if
+(
+!
+this
+.
+treeBrowserDocument
+)
+return
+;
 let
 editor
 =
