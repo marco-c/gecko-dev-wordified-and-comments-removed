@@ -14182,6 +14182,10 @@ sCCLockedOutTime
 0
 )
 {
+sCCTimerFireCount
+=
+0
+;
 sCCLockedOutTime
 =
 now
