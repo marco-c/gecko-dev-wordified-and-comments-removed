@@ -183,6 +183,14 @@ ins
 )
 ;
 bool
+isBeforeLoop
+(
+MDefinition
+*
+ins
+)
+;
+bool
 isLoopInvariant
 (
 MInstruction
