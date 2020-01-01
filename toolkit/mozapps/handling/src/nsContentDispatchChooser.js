@@ -69,7 +69,7 @@ chrome
 /
 mozapps
 /
-content
+locale
 /
 handling
 /
