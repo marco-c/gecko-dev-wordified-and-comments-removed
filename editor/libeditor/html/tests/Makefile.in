@@ -467,6 +467,10 @@ test_bug432225
 .
 html
 \
+test_bug439808
+.
+html
+\
 test_bug455992
 .
 html
