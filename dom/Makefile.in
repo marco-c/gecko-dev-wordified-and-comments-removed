@@ -537,10 +537,6 @@ plugins
 /
 ipc
 \
-plugins
-/
-test
-\
 indexedDB
 \
 system
