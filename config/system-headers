@@ -675,11 +675,6 @@ fontconfig
 fontconfig
 .
 h
-fontconfig
-/
-fcfreetype
-.
-h
 Font
 .
 h
