@@ -1142,13 +1142,7 @@ gre
 /
 modules
 /
-wintaskbar
-/
-preview
--
-per
--
-tab
+WindowsPreviewPerTab
 .
 jsm
 "
