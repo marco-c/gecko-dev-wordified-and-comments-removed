@@ -18015,7 +18015,7 @@ _isRendering
 false
 ;
 let
-enabled
+disabled
 =
 gPrefService
 .
@@ -18024,13 +18024,14 @@ getBoolPref
 "
 plugin
 .
-load_plugins
+disable
 "
 )
 ;
 if
 (
-enabled
+!
+disabled
 )
 this
 .
