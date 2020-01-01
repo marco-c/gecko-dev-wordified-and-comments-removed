@@ -96,6 +96,14 @@ port
 "
 :
 2828
+                     
+"
+browser
+.
+warnOnQuit
+"
+:
+False
 }
             
 profile

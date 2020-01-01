@@ -912,7 +912,7 @@ close
 if
 self
 .
-bin
+instance
 :
             
 self
