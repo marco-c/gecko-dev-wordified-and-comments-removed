@@ -633,6 +633,14 @@ EnsureSocketThreadTargetIfOnline
 (
 )
 ;
+void
+ClosePersistentConnections
+(
+nsConnectionEntry
+*
+ent
+)
+;
 nsresult
 CreateTransport
 (
