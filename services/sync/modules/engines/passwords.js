@@ -940,6 +940,7 @@ countLogins
 var
 score
 =
+(
 Math
 .
 abs
@@ -952,6 +953,9 @@ count
 )
 *
 15
+)
++
+30
 ;
 if
 (
@@ -966,8 +970,6 @@ return
 else
 return
 score
-+
-30
 ;
 }
 resetScore
