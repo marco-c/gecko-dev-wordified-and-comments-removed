@@ -53,6 +53,13 @@ nsCategoryCache
 .
 h
 "
+#
+include
+"
+nsWeakReference
+.
+h
+"
 class
 IdleListener
 {
@@ -113,6 +120,8 @@ nsIdleServiceDaily
 :
 public
 nsIObserver
+public
+nsSupportsWeakReference
 {
 public
 :
@@ -168,6 +177,9 @@ nsCategoryCache
 nsIObserver
 >
 mCategoryObservers
+;
+bool
+mShutdownInProgress
 ;
 }
 ;
