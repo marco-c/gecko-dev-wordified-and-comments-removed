@@ -181,7 +181,7 @@ class
 CanvasSurface
 ;
 class
-TextureClientShmem
+DeprecatedTextureClientShmem
 ;
 class
 ContentClientRemote
@@ -210,7 +210,7 @@ AutoOpenSurface
 ;
 friend
 class
-TextureClientShmem
+DeprecatedTextureClientShmem
 ;
 friend
 class

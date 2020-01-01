@@ -179,7 +179,7 @@ GetCompositableHost
 compositable
 -
 >
-EnsureTextureHost
+EnsureDeprecatedTextureHost
 (
 op
 .
@@ -269,7 +269,7 @@ GetCompositableHost
 compositable
 -
 >
-EnsureTextureHostIncremental
+EnsureDeprecatedTextureHostIncremental
 (
 compositableParent
 -
@@ -550,7 +550,7 @@ image
 compositable
 -
 >
-EnsureTextureHost
+EnsureDeprecatedTextureHost
 (
 op
 .
@@ -574,7 +574,7 @@ MOZ_ASSERT
 compositable
 -
 >
-GetTextureHost
+GetDeprecatedTextureHost
 (
 )
 )

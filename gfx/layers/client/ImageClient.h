@@ -193,9 +193,9 @@ aContentFlags
 )
 ;
 bool
-EnsureTextureClient
+EnsureDeprecatedTextureClient
 (
-TextureClientType
+DeprecatedTextureClientType
 aType
 )
 ;
@@ -218,7 +218,7 @@ aDescriptor
 )
 MOZ_OVERRIDE
 {
-mTextureClient
+mDeprecatedTextureClient
 -
 >
 SetDescriptorFromReply
@@ -243,9 +243,9 @@ private
 :
 RefPtr
 <
-TextureClient
+DeprecatedTextureClient
 >
-mTextureClient
+mDeprecatedTextureClient
 ;
 TextureInfo
 mTextureInfo

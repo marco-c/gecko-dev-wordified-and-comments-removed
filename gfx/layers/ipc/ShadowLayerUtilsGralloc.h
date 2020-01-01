@@ -229,11 +229,11 @@ why
 MOZ_OVERRIDE
 ;
 void
-SetTextureHost
+SetDeprecatedTextureHost
 (
-TextureHost
+DeprecatedTextureHost
 *
-aTextureHost
+aDeprecatedTextureHost
 )
 ;
 private
@@ -263,9 +263,9 @@ mGraphicBuffer
 size_t
 mAllocBytes
 ;
-TextureHost
+DeprecatedTextureHost
 *
-mTextureHost
+mDeprecatedTextureHost
 ;
 friend
 class

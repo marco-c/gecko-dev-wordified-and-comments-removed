@@ -80,7 +80,7 @@ OwnByClient
 0x80
 ;
 enum
-TextureClientType
+DeprecatedTextureClientType
 {
 TEXTURE_CONTENT
 TEXTURE_SHMEM
@@ -105,7 +105,7 @@ BUFFER_COUNT
 }
 ;
 enum
-TextureHostFlags
+DeprecatedTextureHostFlags
 {
 TEXTURE_HOST_DEFAULT
 =
@@ -214,7 +214,7 @@ CompositableType
 mCompositableType
 ;
 uint32_t
-mTextureHostFlags
+mDeprecatedTextureHostFlags
 ;
 uint32_t
 mTextureFlags
@@ -227,7 +227,7 @@ mCompositableType
 (
 BUFFER_UNKNOWN
 )
-mTextureHostFlags
+mDeprecatedTextureHostFlags
 (
 0
 )
@@ -247,7 +247,7 @@ mCompositableType
 (
 aType
 )
-mTextureHostFlags
+mDeprecatedTextureHostFlags
 (
 0
 )
@@ -278,12 +278,12 @@ aOther
 mCompositableType
 &
 &
-mTextureHostFlags
+mDeprecatedTextureHostFlags
 =
 =
 aOther
 .
-mTextureHostFlags
+mDeprecatedTextureHostFlags
 &
 &
 mTextureFlags

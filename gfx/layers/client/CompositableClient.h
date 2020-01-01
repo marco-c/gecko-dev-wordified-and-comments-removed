@@ -48,7 +48,7 @@ class
 CompositableClient
 ;
 class
-TextureClient
+DeprecatedTextureClient
 ;
 class
 ImageBridgeChild
@@ -131,12 +131,12 @@ const
 ;
 TemporaryRef
 <
-TextureClient
+DeprecatedTextureClient
 >
-CreateTextureClient
+CreateDeprecatedTextureClient
 (
-TextureClientType
-aTextureClientType
+DeprecatedTextureClientType
+aDeprecatedTextureClientType
 )
 ;
 virtual

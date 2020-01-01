@@ -122,7 +122,7 @@ aDescriptor
 )
 MOZ_OVERRIDE
 {
-mTextureClient
+mDeprecatedTextureClient
 -
 >
 SetDescriptorFromReply
@@ -135,9 +135,9 @@ protected
 :
 RefPtr
 <
-TextureClient
+DeprecatedTextureClient
 >
-mTextureClient
+mDeprecatedTextureClient
 ;
 TextureInfo
 mTextureInfo

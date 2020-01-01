@@ -102,10 +102,10 @@ GetSurface
 }
 ;
 class
-TextureHostBasic
+DeprecatedTextureHostBasic
 :
 public
-TextureHost
+DeprecatedTextureHost
 public
 TextureSourceBasic
 {
@@ -176,7 +176,7 @@ Name
 {
 return
 "
-TextureHostBasic
+DeprecatedTextureHostBasic
 "
 ;
 }
@@ -495,10 +495,10 @@ GetYSize
 ;
 }
 class
-YCbCrTextureHostBasic
+YCbCrDeprecatedTextureHostBasic
 :
 public
-TextureHostBasic
+DeprecatedTextureHostBasic
 {
 public
 :
@@ -769,9 +769,9 @@ FORMAT_B8G8R8X8
 ;
 TemporaryRef
 <
-TextureHost
+DeprecatedTextureHost
 >
-CreateBasicTextureHost
+CreateBasicDeprecatedTextureHost
 (
 SurfaceDescriptorType
 aDescriptorType
@@ -794,7 +794,7 @@ TYCbCrImage
 {
 return
 new
-YCbCrTextureHostBasic
+YCbCrDeprecatedTextureHostBasic
 (
 )
 ;
@@ -829,7 +829,7 @@ currently
 ;
 return
 new
-TextureHostBasic
+DeprecatedTextureHostBasic
 (
 )
 ;

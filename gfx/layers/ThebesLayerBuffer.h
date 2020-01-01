@@ -766,7 +766,7 @@ forget
 void
 SetBufferProvider
 (
-TextureClient
+DeprecatedTextureClient
 *
 aClient
 )
@@ -810,7 +810,7 @@ nullptr
 void
 SetBufferProviderOnWhite
 (
-TextureClient
+DeprecatedTextureClient
 *
 aClient
 )
@@ -926,11 +926,11 @@ HaveBufferOnWhite
 )
 const
 ;
-TextureClient
+DeprecatedTextureClient
 *
 mBufferProvider
 ;
-TextureClient
+DeprecatedTextureClient
 *
 mBufferProviderOnWhite
 ;

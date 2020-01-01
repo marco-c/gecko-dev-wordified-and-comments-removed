@@ -93,7 +93,7 @@ class
 Layer
 ;
 class
-TextureHost
+DeprecatedTextureHost
 ;
 class
 SurfaceDescriptor
@@ -324,7 +324,7 @@ used
 }
 virtual
 void
-EnsureTextureHost
+EnsureDeprecatedTextureHost
 (
 TextureIdentifier
 aTextureId
@@ -345,7 +345,7 @@ aTextureInfo
 ;
 virtual
 void
-EnsureTextureHostIncremental
+EnsureDeprecatedTextureHostIncremental
 (
 ISurfaceAllocator
 *
@@ -375,9 +375,9 @@ used
 ;
 }
 virtual
-TextureHost
+DeprecatedTextureHost
 *
-GetTextureHost
+GetDeprecatedTextureHost
 (
 )
 {
@@ -554,12 +554,12 @@ false
 }
 static
 void
-DumpTextureHost
+DumpDeprecatedTextureHost
 (
 FILE
 *
 aFile
-TextureHost
+DeprecatedTextureHost
 *
 aTexture
 )

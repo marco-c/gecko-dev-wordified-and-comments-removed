@@ -79,21 +79,21 @@ layers
 {
 TemporaryRef
 <
-TextureHost
+DeprecatedTextureHost
 >
-CreateTextureHostD3D11
+CreateDeprecatedTextureHostD3D11
 (
 SurfaceDescriptorType
 aDescriptorType
 uint32_t
-aTextureHostFlags
+aDeprecatedTextureHostFlags
 uint32_t
 aTextureFlags
 )
 {
 RefPtr
 <
-TextureHost
+DeprecatedTextureHost
 >
 result
 ;
@@ -111,7 +111,7 @@ TYCbCrImage
 result
 =
 new
-TextureHostYCbCrD3D11
+DeprecatedTextureHostYCbCrD3D11
 (
 )
 ;
@@ -131,7 +131,7 @@ TSurfaceDescriptorD3D10
 result
 =
 new
-TextureHostDXGID3D11
+DeprecatedTextureHostDXGID3D11
 (
 )
 ;
@@ -141,7 +141,7 @@ else
 result
 =
 new
-TextureHostShmemD3D11
+DeprecatedTextureHostShmemD3D11
 (
 )
 ;
@@ -266,10 +266,10 @@ GetSize
 )
 ;
 }
-TextureClientD3D11
+DeprecatedTextureClientD3D11
 :
 :
-TextureClientD3D11
+DeprecatedTextureClientD3D11
 (
 CompositableForwarder
 *
@@ -280,7 +280,7 @@ TextureInfo
 aTextureInfo
 )
 :
-TextureClient
+DeprecatedTextureClient
 (
 aCompositableForwarder
 aTextureInfo
@@ -295,11 +295,11 @@ mTextureInfo
 aTextureInfo
 ;
 }
-TextureClientD3D11
+DeprecatedTextureClientD3D11
 :
 :
 ~
-TextureClientD3D11
+DeprecatedTextureClientD3D11
 (
 )
 {
@@ -315,7 +315,7 @@ ClearDT
 ;
 }
 void
-TextureClientD3D11
+DeprecatedTextureClientD3D11
 :
 :
 EnsureAllocated
@@ -552,7 +552,7 @@ aType
 }
 gfxASurface
 *
-TextureClientD3D11
+DeprecatedTextureClientD3D11
 :
 :
 LockSurface
@@ -577,7 +577,7 @@ get
 }
 DrawTarget
 *
-TextureClientD3D11
+DeprecatedTextureClientD3D11
 :
 :
 LockDrawTarget
@@ -601,7 +601,7 @@ get
 ;
 }
 void
-TextureClientD3D11
+DeprecatedTextureClientD3D11
 :
 :
 Unlock
@@ -614,7 +614,7 @@ ReleaseTexture
 ;
 }
 void
-TextureClientD3D11
+DeprecatedTextureClientD3D11
 :
 :
 SetDescriptor
@@ -749,7 +749,7 @@ mTexture
 ;
 }
 void
-TextureClientD3D11
+DeprecatedTextureClientD3D11
 :
 :
 EnsureSurface
@@ -783,7 +783,7 @@ ReleaseTexture
 ;
 }
 void
-TextureClientD3D11
+DeprecatedTextureClientD3D11
 :
 :
 EnsureDrawTarget
@@ -870,7 +870,7 @@ ReleaseTexture
 ;
 }
 void
-TextureClientD3D11
+DeprecatedTextureClientD3D11
 :
 :
 LockTexture
@@ -914,7 +914,7 @@ true
 ;
 }
 void
-TextureClientD3D11
+DeprecatedTextureClientD3D11
 :
 :
 ReleaseTexture
@@ -979,7 +979,7 @@ false
 ;
 }
 void
-TextureClientD3D11
+DeprecatedTextureClientD3D11
 :
 :
 ClearDT
@@ -1006,7 +1006,7 @@ ReleaseTexture
 }
 }
 IntSize
-TextureHostShmemD3D11
+DeprecatedTextureHostShmemD3D11
 :
 :
 GetSize
@@ -1055,7 +1055,7 @@ GetSize
 ;
 }
 nsIntRect
-TextureHostShmemD3D11
+DeprecatedTextureHostShmemD3D11
 :
 :
 GetTileRect
@@ -1122,7 +1122,7 @@ requiredTiles
 ;
 }
 void
-TextureHostShmemD3D11
+DeprecatedTextureHostShmemD3D11
 :
 :
 SetCompositor
@@ -1160,7 +1160,7 @@ nullptr
 ;
 }
 void
-TextureHostShmemD3D11
+DeprecatedTextureHostShmemD3D11
 :
 :
 UpdateImpl
@@ -1556,7 +1556,7 @@ i
 }
 }
 IntRect
-TextureHostShmemD3D11
+DeprecatedTextureHostShmemD3D11
 :
 :
 GetTileRect
@@ -1658,7 +1658,7 @@ maxSize
 ;
 }
 void
-TextureHostDXGID3D11
+DeprecatedTextureHostDXGID3D11
 :
 :
 SetCompositor
@@ -1696,7 +1696,7 @@ nullptr
 ;
 }
 IntSize
-TextureHostDXGID3D11
+DeprecatedTextureHostDXGID3D11
 :
 :
 GetSize
@@ -1714,7 +1714,7 @@ GetSize
 ;
 }
 bool
-TextureHostDXGID3D11
+DeprecatedTextureHostDXGID3D11
 :
 :
 Lock
@@ -1730,7 +1730,7 @@ true
 ;
 }
 void
-TextureHostDXGID3D11
+DeprecatedTextureHostDXGID3D11
 :
 :
 Unlock
@@ -1743,7 +1743,7 @@ ReleaseTexture
 ;
 }
 void
-TextureHostDXGID3D11
+DeprecatedTextureHostDXGID3D11
 :
 :
 UpdateImpl
@@ -1860,7 +1860,7 @@ Height
 ;
 }
 void
-TextureHostDXGID3D11
+DeprecatedTextureHostDXGID3D11
 :
 :
 LockTexture
@@ -1903,7 +1903,7 @@ INFINITE
 ;
 }
 void
-TextureHostDXGID3D11
+DeprecatedTextureHostDXGID3D11
 :
 :
 ReleaseTexture
@@ -1945,7 +1945,7 @@ ReleaseSync
 ;
 }
 void
-TextureHostYCbCrD3D11
+DeprecatedTextureHostYCbCrD3D11
 :
 :
 SetCompositor
@@ -1983,7 +1983,7 @@ nullptr
 ;
 }
 IntSize
-TextureHostYCbCrD3D11
+DeprecatedTextureHostYCbCrD3D11
 :
 :
 GetSize
@@ -2001,7 +2001,7 @@ GetSize
 ;
 }
 void
-TextureHostYCbCrD3D11
+DeprecatedTextureHostYCbCrD3D11
 :
 :
 UpdateImpl

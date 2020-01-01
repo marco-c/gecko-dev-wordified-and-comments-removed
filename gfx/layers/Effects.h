@@ -772,12 +772,12 @@ TexturedEffect
 >
 CreateTexturedEffect
 (
-TextureHost
+DeprecatedTextureHost
 *
-aTextureHost
-TextureHost
+aDeprecatedTextureHost
+DeprecatedTextureHost
 *
-aTextureHostOnWhite
+aDeprecatedTextureHostOnWhite
 const
 gfx
 :
@@ -789,12 +789,12 @@ aFilter
 {
 if
 (
-aTextureHostOnWhite
+aDeprecatedTextureHostOnWhite
 )
 {
 MOZ_ASSERT
 (
-aTextureHost
+aDeprecatedTextureHost
 -
 >
 GetFormat
@@ -808,7 +808,7 @@ gfx
 FORMAT_R8G8B8X8
 |
 |
-aTextureHost
+aDeprecatedTextureHost
 -
 >
 GetFormat
@@ -826,8 +826,8 @@ return
 new
 EffectComponentAlpha
 (
-aTextureHost
-aTextureHostOnWhite
+aDeprecatedTextureHost
+aDeprecatedTextureHostOnWhite
 aFilter
 )
 ;
@@ -840,7 +840,7 @@ result
 ;
 switch
 (
-aTextureHost
+aDeprecatedTextureHost
 -
 >
 GetFormat
@@ -859,7 +859,7 @@ result
 new
 EffectBGRA
 (
-aTextureHost
+aDeprecatedTextureHost
 true
 aFilter
 )
@@ -877,7 +877,7 @@ result
 new
 EffectBGRX
 (
-aTextureHost
+aDeprecatedTextureHost
 true
 aFilter
 )
@@ -895,7 +895,7 @@ result
 new
 EffectRGBX
 (
-aTextureHost
+aDeprecatedTextureHost
 true
 aFilter
 )
@@ -913,7 +913,7 @@ result
 new
 EffectRGBX
 (
-aTextureHost
+aDeprecatedTextureHost
 true
 aFilter
 )
@@ -931,7 +931,7 @@ result
 new
 EffectRGBA
 (
-aTextureHost
+aDeprecatedTextureHost
 true
 aFilter
 )
@@ -949,7 +949,7 @@ result
 new
 EffectYCbCr
 (
-aTextureHost
+aDeprecatedTextureHost
 aFilter
 )
 ;
@@ -978,9 +978,9 @@ TexturedEffect
 >
 CreateTexturedEffect
 (
-TextureHost
+DeprecatedTextureHost
 *
-aTextureHost
+aDeprecatedTextureHost
 const
 gfx
 :
@@ -993,7 +993,7 @@ aFilter
 return
 CreateTexturedEffect
 (
-aTextureHost
+aDeprecatedTextureHost
 nullptr
 aFilter
 )
