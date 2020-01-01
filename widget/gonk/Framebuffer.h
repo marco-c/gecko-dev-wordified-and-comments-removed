@@ -26,6 +26,14 @@ Close
 (
 )
 ;
+bool
+GetSize
+(
+nsIntSize
+*
+aScreenSize
+)
+;
 gfxASurface
 *
 BackBuffer
