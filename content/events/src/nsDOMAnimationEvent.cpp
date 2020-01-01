@@ -103,10 +103,6 @@ PR_Now
 )
 ;
 }
-SetIsDOMBinding
-(
-)
-;
 }
 nsDOMAnimationEvent
 :
@@ -201,9 +197,12 @@ aElapsedTime
 *
 aElapsedTime
 =
-ElapsedTime
+AnimationEvent
 (
 )
+-
+>
+elapsedTime
 ;
 return
 NS_OK
