@@ -1066,7 +1066,7 @@ pc
 JSOP_CALL
 )
 ;
-uintN
+int
 callerArgc
 =
 GET_ARGC
