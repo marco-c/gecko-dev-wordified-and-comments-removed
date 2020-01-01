@@ -7773,7 +7773,7 @@ this
 .
 _faviconService
 .
-setAndLoadFaviconForPage
+setAndFetchFaviconForPage
 (
 readerURI
 faviconURI
