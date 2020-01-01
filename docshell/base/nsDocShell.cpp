@@ -1386,12 +1386,8 @@ if
 content
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsINode
-:
-:
-eHTML
 )
 )
 return
@@ -17546,6 +17542,14 @@ PRInt32
 cy
 )
 {
+if
+(
+cx
+|
+|
+cy
+)
+{
 nsCOMPtr
 <
 nsIDOMDocument
@@ -17586,6 +17590,7 @@ FlushPendingNotifications
 Flush_Layout
 )
 ;
+}
 }
 DoGetPositionAndSize
 (
