@@ -167,6 +167,11 @@ return
 peer_
 ;
 }
+void
+destroy_peer_ctx
+(
+)
+;
 RefPtr
 <
 NrIceMediaStream
