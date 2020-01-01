@@ -19542,6 +19542,9 @@ jschar
 *
 messageArgs
 ;
+int16_t
+exnType
+;
 }
 ;
 #

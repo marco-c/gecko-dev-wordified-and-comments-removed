@@ -1988,13 +1988,13 @@ PRUnichar
 js
 :
 :
-GetErrorTypeNameFromNumber
+GetErrorTypeName
 (
 cx
 report
 -
 >
-errorNumber
+exnType
 )
 )
 ;
