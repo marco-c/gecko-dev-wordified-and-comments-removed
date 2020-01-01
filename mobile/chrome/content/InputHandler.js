@@ -3464,13 +3464,6 @@ this
 _clickTimeout
 )
 ;
-this
-.
-clickTimeout
-=
--
-1
-;
 }
 break
 ;
@@ -3571,7 +3564,7 @@ _clickTimeout
 ;
 this
 .
-clickTimeout
+_clickTimeout
 =
 -
 1
