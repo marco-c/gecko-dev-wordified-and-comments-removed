@@ -2781,14 +2781,6 @@ vp
 )
 ;
 }
-typedef
-Vector
-<
-uint32
-8
->
-ShapeVector
-;
 static
 inline
 void

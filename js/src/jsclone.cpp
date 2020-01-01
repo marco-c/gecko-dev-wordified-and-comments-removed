@@ -2193,11 +2193,7 @@ isObject
 )
 )
 ;
-HashSet
-<
-JSObject
-*
->
+MemorySet
 :
 :
 AddPtr

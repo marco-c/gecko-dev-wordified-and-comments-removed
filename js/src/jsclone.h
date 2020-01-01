@@ -748,6 +748,7 @@ js
 AutoIdVector
 ids
 ;
+typedef
 js
 :
 :
@@ -756,6 +757,9 @@ HashSet
 JSObject
 *
 >
+MemorySet
+;
+MemorySet
 memory
 ;
 const
