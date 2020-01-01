@@ -3133,6 +3133,15 @@ aManifestURL
 )
 ;
 nsresult
+GetApp
+(
+mozIDOMApplication
+*
+*
+aApplication
+)
+;
+nsresult
 GetTopImpl
 (
 nsIDOMWindow
