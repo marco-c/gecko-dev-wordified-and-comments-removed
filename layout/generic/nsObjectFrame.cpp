@@ -1013,13 +1013,6 @@ namespace
 mozilla
 :
 :
-plugins
-;
-using
-namespace
-mozilla
-:
-:
 layers
 ;
 class
