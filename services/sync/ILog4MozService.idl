@@ -678,7 +678,7 @@ message
 )
 ;
 void
-warning
+warn
 (
 in
 AString
