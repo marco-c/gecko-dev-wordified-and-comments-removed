@@ -10319,7 +10319,7 @@ move
 )
 BMDS
 .
-beginUpdateBatch
+endUpdateBatch
 (
 )
 ;
