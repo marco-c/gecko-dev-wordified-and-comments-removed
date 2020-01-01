@@ -3946,6 +3946,8 @@ nsnull
 }
 nsresult
 rv
+=
+NS_OK
 ;
 if
 (

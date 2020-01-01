@@ -4374,6 +4374,14 @@ NS_EVENT_STATE_TYPE_UNSUPPORTED
 ;
 break
 ;
+case
+ePluginOutdated
+:
+case
+ePluginOtherState
+:
+break
+;
 }
 return
 state

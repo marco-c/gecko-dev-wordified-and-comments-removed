@@ -3046,6 +3046,8 @@ GetOwnerDoc
 nsIScriptContext
 *
 context
+=
+NULL
 ;
 nsXULPrototypeElement
 *

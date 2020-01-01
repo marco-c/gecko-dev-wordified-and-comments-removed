@@ -13046,8 +13046,10 @@ mEditingState
 =
 eOff
 ;
-PRBool
+bool
 updateState
+=
+false
 ;
 PRBool
 spellRecheckAll
@@ -13361,7 +13363,7 @@ rv
 ;
 updateState
 =
-PR_TRUE
+true
 ;
 spellRecheckAll
 =
@@ -13419,14 +13421,7 @@ rv
 ;
 updateState
 =
-PR_TRUE
-;
-}
-else
-{
-updateState
-=
-PR_FALSE
+true
 ;
 }
 rv

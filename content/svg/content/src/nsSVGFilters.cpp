@@ -2530,7 +2530,10 @@ if
 (
 aStartMinor
 +
+PRInt32
+(
 boxSize
+)
 <
 =
 aEndMinor
@@ -23634,7 +23637,11 @@ pointsAt
 3
 ]
 specularExponent
+;
+float
 cosConeAngle
+=
+0
 ;
 if
 (
@@ -23780,13 +23787,6 @@ radPerDeg
 .
 0
 )
-;
-}
-else
-{
-cosConeAngle
-=
-0
 ;
 }
 }

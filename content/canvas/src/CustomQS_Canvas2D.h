@@ -131,6 +131,8 @@ JS_FALSE
 ;
 nsresult
 rv
+=
+NS_OK
 ;
 if
 (

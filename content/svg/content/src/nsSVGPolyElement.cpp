@@ -283,6 +283,10 @@ py
 .
 0
 prevAngle
+=
+0
+.
+0
 ;
 for
 (

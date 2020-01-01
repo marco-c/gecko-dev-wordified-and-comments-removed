@@ -5742,7 +5742,10 @@ Length
 )
 >
 =
+PRUint32
+(
 mMaxColumn
+)
 -
 MIN_INDENTED_LINE_LENGTH
 )
@@ -6909,7 +6912,10 @@ mIsIndentationAddedOnCurrentLine
 sequenceStartAfterAWhitespace
 &
 &
+PRUint32
+(
 mColPos
+)
 =
 =
 mIndent
