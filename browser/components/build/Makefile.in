@@ -583,7 +583,7 @@ LIB_PREFIX
 thebes
 .
 (
-LIB_SUFFIX
+IMPORT_LIB_SUFFIX
 )
 endif
 endif
