@@ -7460,6 +7460,13 @@ buffer
 )
 )
 {
+selected
+=
+true
+;
+#
+if
+0
 if
 (
 !
@@ -7476,6 +7483,8 @@ selected
 =
 true
 ;
+#
+endif
 if
 (
 !
