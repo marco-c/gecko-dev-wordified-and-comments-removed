@@ -2823,6 +2823,8 @@ transformedClipRect
 )
 ;
 }
+return
+;
 }
 for
 (
