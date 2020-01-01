@@ -4220,11 +4220,6 @@ JS_TRUE
 ;
 }
 }
-js_LeaveTrace
-(
-cx
-)
-;
 arg
 =
 (
