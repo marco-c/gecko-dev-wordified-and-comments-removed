@@ -12749,6 +12749,7 @@ tcr
 .
 x
 >
+=
 aTexSize
 .
 width
@@ -12768,6 +12769,7 @@ tcr
 .
 y
 >
+=
 aTexSize
 .
 height
