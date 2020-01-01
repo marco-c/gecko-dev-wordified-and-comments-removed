@@ -30,7 +30,7 @@ USE_INLINE
 1
 #
 ifdef
-CMS_DEBUG
+DEBUG
 #
 include
 <
