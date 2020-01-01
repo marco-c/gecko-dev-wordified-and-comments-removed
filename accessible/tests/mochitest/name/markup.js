@@ -26,6 +26,7 @@ enableLogging
 (
 "
 tree
+stack
 "
 )
 ;
