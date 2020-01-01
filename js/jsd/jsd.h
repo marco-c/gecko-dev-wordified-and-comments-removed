@@ -1115,6 +1115,9 @@ callbacks
 void
 *
 user
+JSObject
+*
+scopeobj
 )
 ;
 extern
