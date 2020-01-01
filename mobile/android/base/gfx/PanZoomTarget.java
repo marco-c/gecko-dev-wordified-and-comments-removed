@@ -5,7 +5,7 @@ mozilla
 .
 gecko
 .
-ui
+gfx
 ;
 import
 org
@@ -15,17 +15,6 @@ mozilla
 gecko
 .
 ZoomConstraints
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-gfx
-.
-ImmutableViewportMetrics
 ;
 import
 android
