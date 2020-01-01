@@ -10159,6 +10159,14 @@ msvcr110
 .
 dll
 #
+ifdef
+MOZ_METRO
+vccorlib110
+.
+dll
+#
+endif
+#
 endif
 plugins
 /

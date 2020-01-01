@@ -497,6 +497,16 @@ msvcr110
 .
 dll
 #
+ifdef
+MOZ_METRO
+BINPATH
+/
+vccorlib110
+.
+dll
+#
+endif
+#
 endif
 #
 endif
