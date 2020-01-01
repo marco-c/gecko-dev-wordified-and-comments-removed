@@ -147,6 +147,10 @@ gzputc
 MOZ_Z_gzputc
 #
 define
+gzgetc
+MOZ_Z_gzgetc
+#
+define
 gzungetc
 MOZ_Z_gzungetc
 #
@@ -399,11 +403,11 @@ inflateResetKeep
 MOZ_Z_inflateResetKeep
 #
 define
-gzflags
-MOZ_Z_gzflags
-#
-define
 gzgetc_
 MOZ_Z_gzgetc_
+#
+define
+gzopen_w
+MOZ_Z_gzopen_w
 #
 endif

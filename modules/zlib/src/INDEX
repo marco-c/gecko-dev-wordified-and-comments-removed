@@ -152,6 +152,17 @@ pkg
 -
 config
 descriptor
+zlib
+.
+pc
+.
+cmakein
+zlib
+.
+pc
+template
+for
+cmake
 zlib2ansi
 perl
 script

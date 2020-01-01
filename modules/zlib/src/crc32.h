@@ -1,6 +1,6 @@
 local
 const
-crc_table_t
+z_crc_t
 FAR
 crc_table
 [
