@@ -252,8 +252,11 @@ static
 sDb
 =
 new
-AndroidBrowserDB
+LocalBrowserDB
 (
+BrowserContract
+.
+DEFAULT_PROFILE
 )
 ;
 }
