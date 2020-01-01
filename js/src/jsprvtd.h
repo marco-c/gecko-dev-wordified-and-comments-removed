@@ -329,6 +329,9 @@ struct
 Definition
 ;
 class
+FullParseHandler
+;
+class
 FunctionBox
 ;
 class

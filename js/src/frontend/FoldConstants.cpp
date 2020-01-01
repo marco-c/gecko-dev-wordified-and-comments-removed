@@ -533,12 +533,6 @@ pn2
 ParseNode
 *
 pn
-Parser
-<
-FullParseHandler
->
-*
-parser
 )
 {
 double
@@ -3179,7 +3173,6 @@ op
 pn1
 pn2
 pn
-parser
 )
 )
 return
@@ -3214,7 +3207,6 @@ op
 pn
 pn2
 pn
-parser
 )
 )
 return
@@ -3295,7 +3287,6 @@ getOp
 pn1
 pn2
 pn
-parser
 )
 )
 return

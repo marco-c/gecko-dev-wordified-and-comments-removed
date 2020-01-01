@@ -36,15 +36,6 @@ h
 #
 include
 "
-frontend
-/
-BytecodeEmitter
-.
-h
-"
-#
-include
-"
 jsscriptinlines
 .
 h
