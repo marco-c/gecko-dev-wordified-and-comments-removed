@@ -9542,6 +9542,14 @@ script
 hasAnyIonScript
 (
 )
+|
+|
+script
+-
+>
+isIonCompilingOffThread
+(
+)
 )
 return
 false
