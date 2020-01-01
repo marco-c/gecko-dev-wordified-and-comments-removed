@@ -221,7 +221,7 @@ mImageBufferStart
 mozilla
 :
 :
-imagelib
+image
 :
 :
 BMPFILEHEADER
@@ -230,7 +230,7 @@ mBMPFileHeader
 mozilla
 :
 :
-imagelib
+image
 :
 :
 BMPINFOHEADER

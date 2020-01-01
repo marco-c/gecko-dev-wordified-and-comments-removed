@@ -80,7 +80,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 typedef
 struct

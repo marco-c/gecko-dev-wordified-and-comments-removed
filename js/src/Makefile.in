@@ -936,6 +936,10 @@ LifoAlloc
 .
 cpp
 \
+MapObject
+.
+cpp
+\
 MemoryMetrics
 .
 cpp

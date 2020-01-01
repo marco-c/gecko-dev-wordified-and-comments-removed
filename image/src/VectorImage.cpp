@@ -125,7 +125,7 @@ namespace
 dom
 ;
 namespace
-imagelib
+image
 {
 class
 SVGRootRenderingObserver

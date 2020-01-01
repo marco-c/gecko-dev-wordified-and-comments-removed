@@ -498,6 +498,9 @@ using
 RequestHeaderTuples
 ;
 using
+nsHttpHeaderArray
+;
+using
 nsHttpResponseHead
 ;
 using
@@ -1012,7 +1015,7 @@ nsHttpResponseHead
 responseHead
 bool
 useResponseHead
-RequestHeaderTuples
+nsHttpHeaderArray
 requestHeaders
 bool
 isFromCache

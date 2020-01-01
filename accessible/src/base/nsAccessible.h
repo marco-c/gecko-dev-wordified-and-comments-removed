@@ -348,6 +348,17 @@ ARIARoleInternal
 ;
 }
 inline
+bool
+HasARIARole
+(
+)
+const
+{
+return
+mRoleMapEntry
+;
+}
+inline
 mozilla
 :
 :

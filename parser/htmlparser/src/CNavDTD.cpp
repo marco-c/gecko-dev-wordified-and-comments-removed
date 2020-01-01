@@ -745,8 +745,6 @@ nsITokenizer
 *
 aTokenizer
 bool
-aCanInterrupt
-bool
 aCountLines
 const
 nsCString
@@ -1119,9 +1117,6 @@ DidProcessAToken
 {
 if
 (
-aCanInterrupt
-&
-&
 NS_SUCCEEDED
 (
 result
@@ -1233,7 +1228,6 @@ return
 BuildModel
 (
 mTokenizer
-false
 mCountLines
 0
 )

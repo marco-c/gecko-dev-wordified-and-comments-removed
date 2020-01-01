@@ -218,7 +218,7 @@ namespace
 mozilla
 :
 :
-imagelib
+image
 ;
 static
 bool

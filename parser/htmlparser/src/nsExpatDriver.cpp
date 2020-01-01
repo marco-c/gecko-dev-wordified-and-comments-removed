@@ -5708,7 +5708,6 @@ nsITokenizer
 *
 aTokenizer
 bool
-bool
 const
 nsCString
 *

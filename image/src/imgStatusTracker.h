@@ -26,7 +26,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 class
 Image
@@ -111,7 +111,7 @@ imgStatusTracker
 mozilla
 :
 :
-imagelib
+image
 :
 :
 Image
@@ -133,7 +133,7 @@ SetImage
 mozilla
 :
 :
-imagelib
+image
 :
 :
 Image
@@ -448,7 +448,7 @@ mRequestRunnable
 mozilla
 :
 :
-imagelib
+image
 :
 :
 Image

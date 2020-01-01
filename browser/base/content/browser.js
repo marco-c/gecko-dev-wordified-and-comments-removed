@@ -16140,6 +16140,7 @@ tipElement
 ownerDocument
 |
 |
+(
 tipElement
 .
 ownerDocument
@@ -16148,11 +16149,11 @@ compareDocumentPosition
 (
 tipElement
 )
-=
-=
+&
 document
 .
 DOCUMENT_POSITION_DISCONNECTED
+)
 )
 return
 retVal

@@ -39,7 +39,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 static
 bool

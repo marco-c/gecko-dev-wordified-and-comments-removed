@@ -5534,6 +5534,11 @@ fp_
 }
 private
 :
+void
+settle
+(
+)
+;
 StackSegment
 *
 seg_

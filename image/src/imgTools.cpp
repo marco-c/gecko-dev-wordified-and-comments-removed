@@ -115,7 +115,7 @@ namespace
 mozilla
 :
 :
-imagelib
+image
 ;
 NS_IMPL_ISUPPORTS1
 (

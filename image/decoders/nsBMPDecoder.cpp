@@ -51,7 +51,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 #
 ifdef

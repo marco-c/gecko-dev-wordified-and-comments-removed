@@ -65,7 +65,7 @@ namespace
 mozilla
 {
 namespace
-imagelib
+image
 {
 #
 define
