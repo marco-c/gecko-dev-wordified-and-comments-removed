@@ -1072,6 +1072,12 @@ gDumpFile
 =
 nsnull
 ;
+static
+PRUint64
+gNextWindowID
+=
+0
+;
 #
 ifdef
 DEBUG
@@ -2728,6 +2734,12 @@ PR_FALSE
 mCallCleanUpAfterModalDialogCloses
 (
 PR_FALSE
+)
+mWindowID
+(
+gNextWindowID
++
++
 )
 {
 memset
