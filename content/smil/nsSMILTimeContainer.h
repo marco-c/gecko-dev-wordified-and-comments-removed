@@ -165,6 +165,11 @@ aParentTime
 const
 ;
 void
+SyncPauseTime
+(
+)
+;
+void
 Sample
 (
 )
@@ -286,6 +291,11 @@ aChild
 }
 void
 UpdateCurrentTime
+(
+)
+;
+void
+NotifyTimeChange
 (
 )
 ;
