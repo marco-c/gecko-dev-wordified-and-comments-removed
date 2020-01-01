@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsIDOMSVGMatrix
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
@@ -83,7 +76,7 @@ DOMSVGMatrix
 MOZ_FINAL
 :
 public
-nsIDOMSVGMatrix
+nsISupports
 public
 nsWrapperCache
 {
@@ -98,7 +91,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 DOMSVGMatrix
 )
-NS_DECL_NSIDOMSVGMATRIX
 DOMSVGMatrix
 (
 DOMSVGTransform

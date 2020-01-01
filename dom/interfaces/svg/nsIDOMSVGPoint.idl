@@ -98,9 +98,6 @@ domstubs
 .
 idl
 "
-interface
-nsIDOMSVGMatrix
-;
 [
 scriptable
 uuid
@@ -141,11 +138,14 @@ raises
 DOMException
 on
 setting
+/
+/
+SVGMatrix
 nsIDOMSVGPoint
 matrixTransform
 (
 in
-nsIDOMSVGMatrix
+nsISupports
 matrix
 )
 ;

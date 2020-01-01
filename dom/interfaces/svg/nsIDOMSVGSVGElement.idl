@@ -116,9 +116,6 @@ nsIDOMSVGNumber
 interface
 nsIDOMSVGLength
 ;
-interface
-nsIDOMSVGMatrix
-;
 /
 /
 undef
@@ -445,7 +442,10 @@ createSVGPoint
 (
 )
 ;
-nsIDOMSVGMatrix
+/
+/
+SVGMatrix
+nsISupports
 createSVGMatrix
 (
 )
@@ -466,11 +466,12 @@ createSVGTransform
 /
 /
 SVGTransform
+SVGMatrix
 nsISupports
 createSVGTransformFromMatrix
 (
 in
-nsIDOMSVGMatrix
+nsISupports
 matrix
 )
 ;

@@ -240,10 +240,6 @@ nsIDOMSVGMaskElement
 .
 idl
 \
-nsIDOMSVGMatrix
-.
-idl
-\
 nsIDOMSVGMetadataElement
 .
 idl

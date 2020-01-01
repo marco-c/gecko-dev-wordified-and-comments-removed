@@ -109,9 +109,6 @@ nsIDOMSVGAnimatedEnumeration
 interface
 nsIDOMSVGAnimatedRect
 ;
-interface
-nsIDOMSVGMatrix
-;
 /
 *
 *

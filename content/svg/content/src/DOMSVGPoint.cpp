@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIDOMSVGMatrix
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -621,7 +614,7 @@ DOMSVGPoint
 :
 MatrixTransform
 (
-nsIDOMSVGMatrix
+nsISupports
 *
 matrix
 nsIDOMSVGPoint

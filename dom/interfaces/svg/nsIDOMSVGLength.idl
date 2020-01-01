@@ -98,9 +98,6 @@ domstubs
 .
 idl
 "
-interface
-nsIDOMSVGMatrix
-;
 [
 scriptable
 uuid
