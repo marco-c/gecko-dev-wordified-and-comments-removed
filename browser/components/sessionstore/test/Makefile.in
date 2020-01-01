@@ -152,6 +152,14 @@ bug
 809123
 797263
 )
+XPCSHELL_TESTS
+=
+\
+unit
+\
+(
+NULL
+)
 MOCHITEST_BROWSER_FILES
 =
 \
@@ -715,6 +723,7 @@ browser_248970_b
 .
 js
 \
++
 browser_248970_b_perwindowpb
 .
 js
