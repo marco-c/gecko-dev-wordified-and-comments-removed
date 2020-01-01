@@ -589,6 +589,16 @@ return
 NS_OK
 ;
 }
+virtual
+nsresult
+GetClipboardEventTarget
+(
+nsIDOMNode
+*
+*
+aEventTarget
+)
+;
 protected
 :
 nsCOMPtr

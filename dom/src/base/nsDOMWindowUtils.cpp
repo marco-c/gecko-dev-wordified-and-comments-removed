@@ -919,8 +919,10 @@ hasCap
 return
 NS_ERROR_DOM_SECURITY_ERR
 ;
+nsCOMPtr
+<
 nsIWidget
-*
+>
 widget
 =
 GetWidget
