@@ -6,6 +6,13 @@ define
 CLIENT_LINUX_HANDLER_MINIDUMP_GENERATOR_H__
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 google_breakpad
 /
@@ -53,9 +60,11 @@ char
 file_pathname
 int
 signo
-const
+uintptr_t
+sighandler_ebp
 struct
 sigcontext
+*
 *
 sig_ctx
 )

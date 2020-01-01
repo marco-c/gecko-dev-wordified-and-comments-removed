@@ -373,6 +373,16 @@ src
 /
 google_breakpad
 /
+common
+/
+minidump_size
+.
+h
+\
+src
+/
+google_breakpad
+/
 processor
 /
 basic_source_line_resolver

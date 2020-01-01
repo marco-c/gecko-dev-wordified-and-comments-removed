@@ -490,6 +490,9 @@ HTTP_ADDREQ_FLAG_ADD
 string
 request_body
 ;
+if
+(
+!
 GenerateRequestBody
 (
 parameters
@@ -499,7 +502,12 @@ boundary
 &
 request_body
 )
+)
+{
+return
+false
 ;
+}
 if
 (
 !
