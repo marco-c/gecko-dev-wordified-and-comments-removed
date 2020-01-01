@@ -79,11 +79,11 @@ modules
 :
 =
 \
-collector
+dataprovider
 .
 jsm
 \
-dataprovider
+providermanager
 .
 jsm
 \
@@ -225,7 +225,7 @@ jsm
 Metrics
 .
 jsm
-collector
+providermanager
 .
 jsm
 dataprovider

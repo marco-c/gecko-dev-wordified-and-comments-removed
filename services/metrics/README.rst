@@ -283,7 +283,7 @@ state
 .
 Metrics
 .
-Collector
+ProviderManager
 High
 -
 level

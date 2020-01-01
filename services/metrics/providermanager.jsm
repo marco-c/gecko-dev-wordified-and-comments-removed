@@ -12,7 +12,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-Collector
+ProviderManager
 "
 ]
 ;
@@ -134,7 +134,7 @@ js
 ;
 this
 .
-Collector
+ProviderManager
 =
 function
 (
@@ -156,7 +156,7 @@ Services
 .
 Metrics
 .
-Collector
+ProviderManager
 "
 )
 ;
@@ -189,7 +189,9 @@ _providerInitializing
 false
 ;
 }
-Collector
+this
+.
+ProviderManager
 .
 prototype
 =

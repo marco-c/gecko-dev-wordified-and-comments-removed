@@ -43,7 +43,7 @@ define
 MERGED_COMPARTMENT
 #
 include
-collector
+providermanager
 .
 jsm
 ;
@@ -64,9 +64,9 @@ this
 Metrics
 =
 {
-Collector
+ProviderManager
 :
-Collector
+ProviderManager
 DailyValues
 :
 DailyValues

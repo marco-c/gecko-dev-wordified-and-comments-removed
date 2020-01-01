@@ -548,13 +548,13 @@ false
 ;
 this
 .
-_collector
+_providerManager
 =
 null
 ;
 this
 .
-_collectorInProgress
+_providerManagerInProgress
 =
 false
 ;
@@ -963,7 +963,7 @@ spawn
 (
 this
 .
-_initializeCollector
+_initializeProviderManager
 .
 bind
 (
@@ -975,7 +975,7 @@ then
 (
 this
 .
-_onCollectorInitialized
+_onProviderManagerInitialized
 .
 bind
 (
@@ -992,7 +992,7 @@ this
 )
 ;
 }
-_initializeCollector
+_initializeProviderManager
 :
 function
 (
@@ -1010,7 +1010,8 @@ new
 Error
 (
 "
-Collector
+Provider
+manager
 has
 already
 been
@@ -1028,19 +1029,20 @@ info
 (
 "
 Initializing
-collector
+provider
+manager
 .
 "
 )
 ;
 this
 .
-_collector
+_providerManager
 =
 new
 Metrics
 .
-Collector
+ProviderManager
 (
 this
 .
@@ -1049,7 +1051,7 @@ _storage
 ;
 this
 .
-_collector
+_providerManager
 .
 onProviderError
 =
@@ -1064,7 +1066,7 @@ this
 ;
 this
 .
-_collectorInProgress
+_providerManagerInProgress
 =
 true
 ;
@@ -1120,7 +1122,7 @@ category
 }
 }
 }
-_onCollectorInitialized
+_onProviderManagerInitialized
 :
 function
 (
@@ -1148,7 +1150,8 @@ _log
 debug
 (
 "
-Collector
+Provider
+manager
 initialized
 .
 "
@@ -1156,7 +1159,7 @@ initialized
 ;
 this
 .
-_collectorInProgress
+_providerManagerInProgress
 =
 false
 ;
@@ -1416,7 +1419,7 @@ if
 (
 this
 .
-_collectorInProgress
+_providerManagerInProcess
 )
 {
 this
@@ -1426,13 +1429,17 @@ _log
 warn
 (
 "
-Collector
+Provider
+manager
 is
 in
 progress
 of
 initializing
 .
+"
++
+"
 Waiting
 to
 finish
@@ -1531,7 +1538,7 @@ if
 (
 this
 .
-_collector
+_providerManager
 )
 {
 let
@@ -1539,7 +1546,7 @@ onShutdown
 =
 this
 .
-_onCollectorShutdown
+_onProviderManagerShutdown
 .
 bind
 (
@@ -1552,7 +1559,7 @@ spawn
 (
 this
 .
-_shutdownCollector
+_shutdownProviderManager
 .
 bind
 (
@@ -1580,7 +1587,8 @@ Don
 '
 t
 have
-collector
+provider
+manager
 .
 Proceeding
 to
@@ -1597,7 +1605,7 @@ _shutdownStorage
 )
 ;
 }
-_shutdownCollector
+_shutdownProviderManager
 :
 function
 (
@@ -1612,7 +1620,8 @@ info
 "
 Shutting
 down
-collector
+provider
+manager
 .
 "
 )
@@ -1624,7 +1633,7 @@ provider
 of
 this
 .
-_collector
+_providerManager
 .
 providers
 )
@@ -1670,7 +1679,7 @@ ex
 }
 }
 }
-_onCollectorShutdown
+_onProviderManagerShutdown
 :
 function
 (
@@ -1683,7 +1692,8 @@ _log
 info
 (
 "
-Collector
+Provider
+manager
 shut
 down
 .
@@ -1692,7 +1702,7 @@ down
 ;
 this
 .
-_collector
+_providerManager
 =
 null
 ;
@@ -2091,7 +2101,7 @@ name
 return
 this
 .
-_collector
+_providerManager
 .
 getProvider
 (
@@ -2109,7 +2119,7 @@ provider
 return
 this
 .
-_collector
+_providerManager
 .
 registerProvider
 (
@@ -2656,7 +2666,7 @@ provider
 of
 this
 .
-_collector
+_providerManager
 .
 providers
 )
@@ -2732,7 +2742,7 @@ finally
 {
 this
 .
-_collector
+_providerManager
 .
 unregisterProvider
 (
@@ -3039,7 +3049,7 @@ this
 yield
 this
 .
-_collector
+_providerManager
 .
 collectConstantData
 (
@@ -3133,7 +3143,7 @@ Date
 yield
 this
 .
-_collector
+_providerManager
 .
 collectDailyData
 (
@@ -3539,7 +3549,7 @@ provider
 of
 this
 .
-_collector
+_providerManager
 .
 providers
 )
