@@ -4293,10 +4293,6 @@ js
 ObjectSet
 cycleDetectorSet
 ;
-char
-*
-lastMessage
-;
 JSErrorReporter
 errorReporter
 ;
