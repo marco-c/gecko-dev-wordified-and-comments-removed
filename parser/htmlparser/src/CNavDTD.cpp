@@ -3629,6 +3629,17 @@ TagAt
 theIndex
 )
 ;
+if
+(
+theParentTag
+=
+=
+eHTMLTag_userdefined
+)
+{
+continue
+;
+}
 static
 eHTMLTags
 sTableElements
