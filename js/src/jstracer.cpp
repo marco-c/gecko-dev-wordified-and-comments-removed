@@ -14751,6 +14751,16 @@ r
 )
 )
 {
+jsval
+temp_r
+=
+r
+;
+jsval
+temp_l
+=
+l
+;
 LIns
 *
 l_ins
@@ -14866,7 +14876,7 @@ js_ValueToNumber
 (
 cx
 &
-l
+temp_l
 )
 ;
 args
@@ -14954,7 +14964,7 @@ js_ValueToNumber
 (
 cx
 &
-r
+temp_r
 )
 ;
 x
