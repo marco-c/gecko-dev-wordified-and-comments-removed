@@ -4006,6 +4006,10 @@ mNativeKeyEvent
 (
 nullptr
 )
+mUniqueId
+(
+0
+)
 {
 }
 uint32_t
@@ -4038,6 +4042,9 @@ mKeyNameIndex
 void
 *
 mNativeKeyEvent
+;
+uint32_t
+mUniqueId
 ;
 void
 GetDOMKeyName
@@ -4187,6 +4194,12 @@ mKeyNameIndex
 mNativeKeyEvent
 =
 nullptr
+;
+mUniqueId
+=
+aEvent
+.
+mUniqueId
 ;
 }
 }

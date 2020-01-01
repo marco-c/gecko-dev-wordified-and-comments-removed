@@ -323,6 +323,16 @@ aEvent
 MOZ_OVERRIDE
 ;
 virtual
+bool
+DispatchKeyboardEvent
+(
+nsGUIEvent
+*
+aEvent
+)
+MOZ_OVERRIDE
+;
+virtual
 nsWindowBase
 *
 GetParentWindowBase

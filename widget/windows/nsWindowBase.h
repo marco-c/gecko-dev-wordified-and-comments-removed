@@ -108,6 +108,17 @@ aEvent
 ;
 virtual
 bool
+DispatchKeyboardEvent
+(
+nsGUIEvent
+*
+aEvent
+)
+=
+0
+;
+virtual
+bool
 DispatchPluginEvent
 (
 const
@@ -115,7 +126,6 @@ MSG
 &
 aMsg
 )
-MOZ_FINAL
 {
 if
 (
