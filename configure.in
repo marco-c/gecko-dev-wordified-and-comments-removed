@@ -31076,7 +31076,7 @@ AM_PATH_NSPR
 .
 9
 .
-2
+3
 [
 MOZ_NATIVE_NSPR
 =
@@ -31898,9 +31898,7 @@ AM_PATH_NSS
 (
 3
 .
-13
-.
-2
+14
 [
 MOZ_NATIVE_NSS
 =
