@@ -1,0 +1,17 @@
+function
+setupModule
+(
+module
+)
+{
+module
+.
+controller
+=
+mozmill
+.
+getBrowserController
+(
+)
+;
+}
