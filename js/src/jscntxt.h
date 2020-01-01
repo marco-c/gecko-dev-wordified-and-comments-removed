@@ -2971,7 +2971,7 @@ js
 :
 SystemAllocPolicy
 >
-WrapperVector
+CompartmentVector
 ;
 }
 struct
@@ -2992,7 +2992,7 @@ endif
 js
 :
 :
-WrapperVector
+CompartmentVector
 compartments
 ;
 JSRuntimeState
