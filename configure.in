@@ -15677,6 +15677,12 @@ fno
 reorder
 -
 functions
+-
+fomit
+-
+frame
+-
+pointer
 MOZ_OPTIMIZE_SIZE_TWEAK
 "
 MOZ_DEBUG_FLAGS
