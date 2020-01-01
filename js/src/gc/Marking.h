@@ -294,6 +294,11 @@ JSFunction
 )
 DeclMarker
 (
+Object
+ScopeObject
+)
+DeclMarker
+(
 Script
 JSScript
 )

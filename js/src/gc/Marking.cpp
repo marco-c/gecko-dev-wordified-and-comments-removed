@@ -1100,6 +1100,11 @@ JSFunction
 )
 DeclMarkerImpl
 (
+Object
+ScopeObject
+)
+DeclMarkerImpl
+(
 Script
 JSScript
 )

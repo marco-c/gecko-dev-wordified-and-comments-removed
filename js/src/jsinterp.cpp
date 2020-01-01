@@ -3888,6 +3888,7 @@ ScopeIter
 si
 (
 fp
+cx
 )
 ;
 !
@@ -3897,13 +3898,9 @@ done
 (
 )
 ;
++
++
 si
-=
-si
-.
-enclosing
-(
-)
 )
 {
 switch
