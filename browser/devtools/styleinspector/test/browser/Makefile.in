@@ -457,10 +457,6 @@ browser_styleinspector
 .
 js
 \
-browser_styleinspector_webconsole
-.
-js
-\
 browser_bug683672
 .
 js
@@ -514,10 +510,6 @@ NULL
 )
 _BROWSER_TEST_PAGES
 =
-\
-browser_styleinspector_webconsole
-.
-htm
 \
 browser_bug683672
 .
