@@ -2671,6 +2671,9 @@ rv
 return
 rv
 ;
+#
+if
+0
 PRInt64
 dataSize
 =
@@ -2684,9 +2687,6 @@ PredictedDataSize
 (
 )
 ;
-#
-if
-0
 if
 (
 dataSize
