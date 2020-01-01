@@ -449,6 +449,13 @@ table
 )
 ACCESSIBILITY_ATOM
 (
+tabpanels
+"
+tabpanels
+"
+)
+ACCESSIBILITY_ATOM
+(
 tbody
 "
 tbody
@@ -655,6 +662,13 @@ ACCESSIBILITY_ATOM
 lang
 "
 lang
+"
+)
+ACCESSIBILITY_ATOM
+(
+linkedPanel
+"
+linkedpanel
 "
 )
 ACCESSIBILITY_ATOM
