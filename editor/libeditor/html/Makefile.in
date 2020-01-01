@@ -186,10 +186,6 @@ ENABLE_EDITOR_API_LOG
 CPPSRCS
 +
 =
-nsHTMLEditorLog
-.
-cpp
-\
 nsEditorTxnLog
 .
 cpp
