@@ -1342,6 +1342,10 @@ M_PI
 *
 normalizedAzimuth
 )
+*
+aInput
+.
+mVolume
 ;
 gainR
 =
@@ -1355,6 +1359,10 @@ M_PI
 *
 normalizedAzimuth
 )
+*
+aInput
+.
+mVolume
 ;
 if
 (
