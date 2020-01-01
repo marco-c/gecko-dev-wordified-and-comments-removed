@@ -740,10 +740,6 @@ test_bug548828
 .
 html
 \
-test_bug564208
-.
-html
-\
 test_DOMWindowCreated_chromeonly
 .
 html
