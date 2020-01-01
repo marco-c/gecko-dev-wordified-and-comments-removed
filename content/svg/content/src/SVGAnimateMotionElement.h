@@ -18,13 +18,6 @@ h
 #
 include
 "
-nsIDOMSVGAnimateMotionElement
-.
-h
-"
-#
-include
-"
 SVGMotionSMILAnimationFunction
 .
 h
@@ -56,7 +49,7 @@ MOZ_FINAL
 public
 SVGAnimationElement
 public
-nsIDOMSVGAnimateMotionElement
+nsIDOMSVGAnimationElement
 {
 protected
 :
@@ -111,7 +104,6 @@ MOZ_OVERRIDE
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGANIMATEMOTIONELEMENT
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 NS_FORWARD_NSIDOMSVGELEMENT
@@ -195,13 +187,6 @@ MpathChanged
 )
 ;
 }
-virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
-;
 virtual
 nsIDOMNode
 *
