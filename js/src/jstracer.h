@@ -384,9 +384,6 @@ TreeInfo
 public
 :
 unsigned
-entryStackDepth
-;
-unsigned
 entryNativeStackSlots
 ;
 unsigned
