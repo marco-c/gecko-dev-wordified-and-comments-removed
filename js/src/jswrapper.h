@@ -187,13 +187,6 @@ static
 Wrapper
 singletonWithPrototype
 ;
-static
-void
-*
-getWrapperFamily
-(
-)
-;
 }
 ;
 class

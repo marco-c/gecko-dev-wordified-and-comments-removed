@@ -43,6 +43,13 @@ h
 #
 include
 "
+jswrapper
+.
+h
+"
+#
+include
+"
 vm
 /
 GlobalObject
