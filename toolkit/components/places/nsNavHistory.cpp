@@ -5448,6 +5448,10 @@ int64_t
 aVisitID
 )
 {
+PLACES_WARN_DEPRECATED
+(
+)
+;
 NS_ASSERTION
 (
 NS_IsMainThread
@@ -14497,6 +14501,10 @@ nsIURI
 aReferrer
 )
 {
+PLACES_WARN_DEPRECATED
+(
+)
+;
 NS_ASSERTION
 (
 NS_IsMainThread
@@ -14960,6 +14968,10 @@ bool
 _retval
 )
 {
+PLACES_WARN_DEPRECATED
+(
+)
+;
 NS_ASSERTION
 (
 NS_IsMainThread
@@ -15058,6 +15070,10 @@ nsAString
 aTitle
 )
 {
+PLACES_WARN_DEPRECATED
+(
+)
+;
 NS_ASSERTION
 (
 NS_IsMainThread
