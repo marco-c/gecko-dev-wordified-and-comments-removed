@@ -1863,6 +1863,8 @@ html
 asserts
 (
 15
+-
+80
 )
 asserts
 -
@@ -1875,6 +1877,8 @@ MOZ_WIDGET_TOOLKIT
 windows
 "
 18
+-
+96
 )
 asserts
 -
