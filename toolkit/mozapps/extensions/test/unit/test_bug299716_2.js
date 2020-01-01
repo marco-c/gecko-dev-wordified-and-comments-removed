@@ -1,3 +1,15 @@
+gPrefs
+.
+setBoolPref
+(
+"
+extensions
+.
+checkUpdateSecurity
+"
+false
+)
+;
 const
 checkListener
 =
