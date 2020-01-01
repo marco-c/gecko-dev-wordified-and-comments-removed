@@ -12885,6 +12885,17 @@ WM_MOUSEMOVE
 ;
 break
 ;
+case
+NS_MOUSE_EXIT
+:
+pluginEvent
+.
+event
+=
+WM_MOUSELEAVE
+;
+break
+;
 default
 :
 pluginEvent

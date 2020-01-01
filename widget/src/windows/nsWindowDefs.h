@@ -78,6 +78,15 @@ WM_MOUSEHWHEEL
 endif
 #
 ifndef
+WM_MOUSELEAVE
+#
+define
+WM_MOUSELEAVE
+0x02A3
+#
+endif
+#
+ifndef
 SPI_GETWHEELSCROLLCHARS
 #
 define
