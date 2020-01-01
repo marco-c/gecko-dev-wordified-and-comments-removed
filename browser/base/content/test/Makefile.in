@@ -643,10 +643,6 @@ browser_typeAheadFind
 .
 js
 \
-browser_bug567306
-.
-js
-\
 browser_NetworkPrioritizer
 .
 js

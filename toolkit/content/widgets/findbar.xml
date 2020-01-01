@@ -3192,17 +3192,6 @@ the
 /
 browser
 property
-if
-(
-this
-.
-getAttribute
-(
-"
-browserid
-"
-)
-)
 setTimeout
 (
 function
