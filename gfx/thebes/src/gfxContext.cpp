@@ -302,6 +302,7 @@ gfxContext
 CopyPath
 (
 )
+const
 {
 nsRefPtr
 <
