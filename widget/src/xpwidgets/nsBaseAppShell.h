@@ -131,6 +131,9 @@ mFavorPerf
 PRInt32
 mNativeEventPending
 ;
+PRUint32
+mEventloopNestingLevel
+;
 PRIntervalTime
 mStarvationDelay
 ;
