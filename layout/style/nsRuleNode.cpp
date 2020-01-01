@@ -14194,7 +14194,12 @@ AppUnitsPerCSSPixel
 aPresContext
 -
 >
-AppUnitsPerDevPixel
+DeviceContext
+(
+)
+-
+>
+UnscaledAppUnitsPerDevPixel
 (
 )
 ;
