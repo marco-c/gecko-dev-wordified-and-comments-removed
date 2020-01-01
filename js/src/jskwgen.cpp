@@ -65,6 +65,7 @@ KEYWORD_STRING
 keyword
 name
 type
+op
 version
 )
 #
