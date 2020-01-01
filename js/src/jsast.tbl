@@ -617,6 +617,13 @@ YieldExpression
 )
 ASTDEF
 (
+AST_LET_EXPR
+"
+LetExpression
+"
+)
+ASTDEF
+(
 AST_EMPTY_STMT
 "
 EmptyStatement
@@ -732,6 +739,13 @@ ASTDEF
 AST_DEBUGGER_STMT
 "
 DebuggerStatement
+"
+)
+ASTDEF
+(
+AST_LET_STMT
+"
+LetStatement
 "
 )
 ASTDEF
