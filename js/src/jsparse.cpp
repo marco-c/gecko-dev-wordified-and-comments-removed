@@ -32436,6 +32436,15 @@ ts
 TOK_DBLCOLON
 )
 )
+{
+tc
+-
+>
+flags
+|
+=
+TCF_FUN_HEAVYWEIGHT
+;
 pn
 =
 QualifiedSuffix
@@ -32446,6 +32455,7 @@ pn
 tc
 )
 ;
+}
 return
 pn
 ;
