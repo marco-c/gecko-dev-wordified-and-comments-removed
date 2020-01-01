@@ -376,6 +376,13 @@ Noise
 public
 :
 virtual
+~
+Noise
+(
+)
+{
+}
+virtual
 uint32_t
 getValue
 (
