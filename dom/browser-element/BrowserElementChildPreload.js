@@ -3652,7 +3652,7 @@ visibility
 change
 '
 {
-visibility
+visible
 :
 visible
 }
