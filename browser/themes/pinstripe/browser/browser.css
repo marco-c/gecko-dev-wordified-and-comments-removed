@@ -13046,12 +13046,6 @@ tab
 -
 text
 {
-font
-:
-message
--
-box
-;
 margin
 -
 top
@@ -13072,6 +13066,12 @@ text
 -
 shadow
 {
+font
+:
+message
+-
+box
+;
 font
 -
 weight
