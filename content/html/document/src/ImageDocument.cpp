@@ -915,6 +915,10 @@ ImageDocument
 (
 )
 :
+MediaDocument
+(
+true
+)
 mOriginalZoomLevel
 (
 1
