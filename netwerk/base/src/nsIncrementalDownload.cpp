@@ -85,13 +85,6 @@ h
 #
 include
 "
-nsInt64
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h
@@ -299,11 +292,11 @@ void
 MakeRangeSpec
 (
 const
-nsInt64
+PRInt64
 &
 size
 const
-nsInt64
+PRInt64
 &
 maxSize
 PRInt32
@@ -350,12 +343,12 @@ fetchRemaining
 )
 return
 ;
-nsInt64
+PRInt64
 end
 =
 size
 +
-nsInt64
+PRInt64
 (
 chunkSize
 )
@@ -365,7 +358,7 @@ if
 maxSize
 !
 =
-nsInt64
+PRInt64
 (
 -
 1
@@ -545,10 +538,10 @@ mChunkSize
 PRInt32
 mInterval
 ;
-nsInt64
+PRInt64
 mTotalSize
 ;
-nsInt64
+PRInt64
 mCurrentSize
 ;
 PRUint32
@@ -659,7 +652,7 @@ NS_ASSERTION
 mTotalSize
 !
 =
-nsInt64
+PRInt64
 (
 -
 1
@@ -706,7 +699,7 @@ rv
 mCurrentSize
 +
 =
-nsInt64
+PRInt64
 (
 mChunkLen
 )
@@ -1001,7 +994,7 @@ NS_ASSERTION
 mCurrentSize
 !
 =
-nsInt64
+PRInt64
 (
 -
 1
@@ -1044,7 +1037,7 @@ mInterval
 mCurrentSize
 !
 =
-nsInt64
+PRInt64
 (
 0
 )
@@ -1130,7 +1123,7 @@ ReadCurrentSize
 (
 )
 {
-nsInt64
+PRInt64
 size
 ;
 nsresult
@@ -1844,7 +1837,7 @@ code
 mTotalSize
 =
 =
-nsInt64
+PRInt64
 (
 -
 1
@@ -1945,7 +1938,7 @@ if
 mTotalSize
 =
 =
-nsInt64
+PRInt64
 (
 -
 1
@@ -2126,7 +2119,7 @@ if
 mTotalSize
 =
 =
-nsInt64
+PRInt64
 (
 -
 1
@@ -2185,7 +2178,7 @@ return
 rv
 ;
 }
-nsInt64
+PRInt64
 diff
 =
 mTotalSize
@@ -2197,7 +2190,7 @@ if
 diff
 <
 =
-nsInt64
+PRInt64
 (
 0
 )
@@ -2227,7 +2220,7 @@ if
 (
 diff
 <
-nsInt64
+PRInt64
 (
 mChunkSize
 )

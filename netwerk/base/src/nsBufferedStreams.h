@@ -56,13 +56,6 @@ h
 #
 include
 "
-nsInt64
-.
-h
-"
-#
-include
-"
 nsIIPCSerializable
 .
 h
@@ -125,7 +118,7 @@ char
 *
 mBuffer
 ;
-nsInt64
+PRInt64
 mBufferStartOffset
 ;
 PRUint32

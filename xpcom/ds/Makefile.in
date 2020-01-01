@@ -602,10 +602,6 @@ nsIUnicharBuffer
 .
 h
 \
-nsInt64
-.
-h
-\
 nsMathUtils
 .
 h

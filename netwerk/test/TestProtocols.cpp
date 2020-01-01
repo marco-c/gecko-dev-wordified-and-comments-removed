@@ -256,13 +256,6 @@ prtime
 .
 h
 "
-#
-include
-"
-nsInt64
-.
-h
-"
 namespace
 TestProtocols
 {
@@ -721,7 +714,7 @@ get
 )
 ;
 }
-nsInt64
+PRInt64
 mBytesRead
 ;
 PRTime
@@ -2618,7 +2611,7 @@ info
 mBytesRead
 =
 =
-nsInt64
+PRInt64
 (
 0
 )
@@ -2659,7 +2652,7 @@ info
 >
 mBytesRead
 *
-nsInt64
+PRInt64
 (
 8
 )

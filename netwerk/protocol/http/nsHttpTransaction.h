@@ -42,13 +42,6 @@ h
 #
 include
 "
-nsInt64
-.
-h
-"
-#
-include
-"
 nsIPipe
 .
 h
@@ -512,10 +505,10 @@ mWriter
 nsCString
 mLineBuf
 ;
-nsInt64
+PRInt64
 mContentLength
 ;
-nsInt64
+PRInt64
 mContentRead
 ;
 PRUint32

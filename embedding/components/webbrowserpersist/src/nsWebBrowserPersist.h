@@ -119,13 +119,6 @@ h
 #
 include
 "
-nsInt64
-.
-h
-"
-#
-include
-"
 nsCWebBrowserPersist
 .
 h
@@ -1043,10 +1036,10 @@ mPersistFlags
 PRUint32
 mPersistResult
 ;
-nsInt64
+PRInt64
 mTotalCurrentProgress
 ;
-nsInt64
+PRInt64
 mTotalMaxProgress
 ;
 PRInt16

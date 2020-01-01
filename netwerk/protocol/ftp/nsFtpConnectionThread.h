@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsInt64
-.
-h
-"
-#
-include
-"
 nsIThread
 .
 h
