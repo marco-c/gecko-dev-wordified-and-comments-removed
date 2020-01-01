@@ -12734,6 +12734,15 @@ GetScaledFontForFont
 font
 )
 ;
+if
+(
+!
+scaledFont
+)
+{
+return
+;
+}
 GlyphBuffer
 buffer
 ;
