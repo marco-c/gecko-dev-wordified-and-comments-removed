@@ -2730,9 +2730,6 @@ nsIFrame
 aOldFrame
 )
 {
-#
-ifdef
-DEBUG
 PRBool
 wasDestroyingFrames
 =
@@ -2742,8 +2739,6 @@ mIsDestroyingFrames
 =
 PR_TRUE
 ;
-#
-endif
 aOldFrame
 -
 >
@@ -2769,15 +2764,10 @@ aListName
 aOldFrame
 )
 ;
-#
-ifdef
-DEBUG
 mIsDestroyingFrames
 =
 wasDestroyingFrames
 ;
-#
-endif
 return
 rv
 ;
