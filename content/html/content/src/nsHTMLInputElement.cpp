@@ -13322,12 +13322,6 @@ mMultipleActionsPrevented
 =
 true
 ;
-aVisitor
-.
-mEventStatus
-=
-nsEventStatus_eConsumeNoDefault
-;
 }
 break
 ;
@@ -13396,12 +13390,6 @@ mFlags
 mMultipleActionsPrevented
 =
 true
-;
-aVisitor
-.
-mEventStatus
-=
-nsEventStatus_eConsumeNoDefault
 ;
 break
 ;
