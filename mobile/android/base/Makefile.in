@@ -616,6 +616,10 @@ TextSelectionHandle
 .
 java
 \
+ThumbnailHelper
+.
+java
+\
 WebAppAllocator
 .
 java

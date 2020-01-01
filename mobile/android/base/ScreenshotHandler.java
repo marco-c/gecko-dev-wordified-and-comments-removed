@@ -1996,9 +1996,11 @@ tab
 null
 )
 {
-GeckoApp
+ThumbnailHelper
 .
-mAppContext
+getInstance
+(
+)
 .
 handleThumbnailData
 (
