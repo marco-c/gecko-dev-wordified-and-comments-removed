@@ -49,9 +49,6 @@ aPseudoType
 nsRuleNode
 *
 aRuleNode
-nsPresContext
-*
-aPresContext
 )
 ;
 ~
@@ -905,9 +902,6 @@ aChild
 void
 ApplyStyleFixups
 (
-nsPresContext
-*
-aPresContext
 )
 ;
 void
@@ -1236,9 +1230,6 @@ aPseudoType
 nsRuleNode
 *
 aRuleNode
-nsPresContext
-*
-aPresContext
 )
 ;
 #
