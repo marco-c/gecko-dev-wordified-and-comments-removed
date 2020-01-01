@@ -16894,7 +16894,10 @@ uintN
 JS_MIN
 (
 callArgc
-JS_ARGS_LENGTH_MAX
+StackSpace
+:
+:
+ARGS_LENGTH_MAX
 )
 )
 ;
@@ -16950,7 +16953,10 @@ JS_MIN
 argc
 -
 1
-JS_ARGS_LENGTH_MAX
+StackSpace
+:
+:
+ARGS_LENGTH_MAX
 )
 )
 :

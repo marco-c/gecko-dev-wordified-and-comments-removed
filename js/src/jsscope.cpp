@@ -97,13 +97,6 @@ h
 #
 include
 "
-jsfun
-.
-h
-"
-#
-include
-"
 jslock
 .
 h

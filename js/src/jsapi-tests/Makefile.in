@@ -585,6 +585,10 @@ testExternalStrings
 .
 cpp
 \
+testChromeBuffer
+.
+cpp
+\
 (
 NULL
 )

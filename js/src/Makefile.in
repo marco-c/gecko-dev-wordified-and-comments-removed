@@ -858,6 +858,10 @@ jsgcstats
 .
 cpp
 \
+jscrashreport
+.
+cpp
+\
 jshash
 .
 cpp
@@ -1099,6 +1103,10 @@ jscntxt
 h
 \
 jscompat
+.
+h
+\
+jscrashreport
 .
 h
 \
