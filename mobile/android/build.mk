@@ -206,6 +206,8 @@ adb
 install
 -
 r
+-
+d
 (
 DIST
 )
