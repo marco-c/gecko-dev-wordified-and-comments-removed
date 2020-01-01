@@ -330,14 +330,11 @@ s
 Array
 :
 function
-Array
 (
 dummy
 )
 {
 return
-GLOBAL
-.
 Array
 .
 apply

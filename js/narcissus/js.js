@@ -27,6 +27,15 @@ js
 my_load
 (
 '
+jslex
+.
+js
+'
+)
+;
+my_load
+(
+'
 jsparse
 .
 js
