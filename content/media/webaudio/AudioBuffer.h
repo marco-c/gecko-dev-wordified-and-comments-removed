@@ -210,6 +210,11 @@ const
 ;
 private
 :
+void
+ClearJSChannels
+(
+)
+;
 nsRefPtr
 <
 AudioContext
