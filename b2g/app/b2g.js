@@ -19,7 +19,7 @@ content
 /
 shell
 .
-html
+xul
 "
 )
 ;
