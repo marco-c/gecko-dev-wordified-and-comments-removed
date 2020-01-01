@@ -190,7 +190,7 @@ union
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 observedTypes
 ;
@@ -234,7 +234,7 @@ pendingValues
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 pushedTypes
 ;
@@ -2215,7 +2215,7 @@ SSAPhiNode
 types
 :
 :
-TypeSet
+StackTypeSet
 types
 ;
 uint32_t
@@ -2475,6 +2475,9 @@ codeArray
 uint32_t
 numSlots
 ;
+uint32_t
+numPropertyReads_
+;
 bool
 outOfMemory
 ;
@@ -2729,6 +2732,16 @@ jaegerCompileable
 {
 return
 isJaegerCompileable
+;
+}
+uint32_t
+numPropertyReads
+(
+)
+const
+{
+return
+numPropertyReads_
 ;
 }
 bool
@@ -3034,7 +3047,7 @@ pc
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 bytecodeTypes
 (
@@ -3206,7 +3219,7 @@ code
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 pushedTypes
 (
@@ -3258,7 +3271,7 @@ offset
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 array
 =
@@ -3283,7 +3296,7 @@ which
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 pushedTypes
 (
@@ -3497,7 +3510,7 @@ type
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 getValueTypes
 (
@@ -3633,7 +3646,7 @@ NULL
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 poppedTypes
 (
@@ -3657,7 +3670,7 @@ which
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 poppedTypes
 (
@@ -4486,9 +4499,15 @@ hasHole
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 forTypes
+;
+bool
+hasPropertyReadTypes
+;
+uint32_t
+propertyReadIndex
 ;
 TypeInferenceState
 (
@@ -4512,6 +4531,14 @@ false
 forTypes
 (
 NULL
+)
+hasPropertyReadTypes
+(
+false
+)
+propertyReadIndex
+(
+0
 )
 {
 }
@@ -4968,7 +4995,7 @@ res
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 getValueTypes
 (
