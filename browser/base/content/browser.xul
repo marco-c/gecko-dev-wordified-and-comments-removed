@@ -2425,6 +2425,16 @@ close
 "
 true
 "
+onpopuphiding
+=
+"
+InspectorUI
+.
+closeInspectorUI
+(
+)
+;
+"
 label
 =
 "

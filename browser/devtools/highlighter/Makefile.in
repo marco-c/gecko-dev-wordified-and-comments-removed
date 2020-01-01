@@ -437,14 +437,6 @@ domplate
 .
 jsm
 \
-InsideOutBox
-.
-jsm
-\
-TreePanel
-.
-jsm
-\
 (
 NULL
 )

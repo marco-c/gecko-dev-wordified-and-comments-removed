@@ -498,11 +498,6 @@ js
 (
 NULL
 )
-#
-browser_inspector_treePanel_click
-.
-js
-\
 libs
 :
 :
