@@ -707,6 +707,10 @@ test_videocontrols_audio_direction
 .
 html
 \
+test_richlist_direction
+.
+xul
+\
 videocontrols_direction
 -
 1
