@@ -469,6 +469,13 @@ AddonManager
 SCOPE_PROFILE
 )
 ;
+do_check_false
+(
+a1
+.
+foreignInstall
+)
+;
 run_test_2
 (
 )
@@ -618,6 +625,13 @@ scope
 AddonManager
 .
 SCOPE_PROFILE
+)
+;
+do_check_false
+(
+a1
+.
+foreignInstall
 )
 ;
 run_test_4

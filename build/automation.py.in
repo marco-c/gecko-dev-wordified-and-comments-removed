@@ -8446,6 +8446,9 @@ profileDir
 "
 extensions
 "
+"
+staged
+"
 )
 if
 not
@@ -8460,7 +8463,7 @@ extensionsRootDir
 :
 os
 .
-mkdir
+makedirs
 (
 extensionsRootDir
 )
