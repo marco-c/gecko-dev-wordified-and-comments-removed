@@ -12388,7 +12388,7 @@ childItems
 aStyleDisplay
 -
 >
-IsBlockOutside
+IsBlockInside
 (
 )
 )
