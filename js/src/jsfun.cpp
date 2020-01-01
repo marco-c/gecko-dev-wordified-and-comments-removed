@@ -6022,9 +6022,12 @@ fun
 >
 object
 )
+JSID_HIDE_NAME
+(
 ATOM_TO_JSID
 (
 propAtom
+)
 )
 )
 ?
