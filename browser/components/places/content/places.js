@@ -4872,7 +4872,17 @@ if
 (
 column
 .
+getAttribute
+(
+"
 primary
+"
+)
+=
+=
+"
+true
+"
 )
 menuitem
 .
