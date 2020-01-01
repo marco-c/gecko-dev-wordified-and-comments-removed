@@ -2175,7 +2175,7 @@ nsDependentCString
 (
 aMIMEType
 )
-nsDependentCString
+NullableString
 (
 aWindow
 )

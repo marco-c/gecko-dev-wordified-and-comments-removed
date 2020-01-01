@@ -485,13 +485,7 @@ void
 *
 notifyData
 )
-{
-_MOZ_LOG
-(
-__FUNCTION__
-)
 ;
-}
 private
 :
 NPP
