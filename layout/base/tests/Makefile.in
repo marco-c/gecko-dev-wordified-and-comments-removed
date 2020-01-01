@@ -649,6 +649,10 @@ test_flush_on_paint
 .
 html
 \
+test_scroll_selection_into_view
+.
+html
+\
 test_scrolling
 .
 html

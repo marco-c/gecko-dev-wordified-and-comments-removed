@@ -463,9 +463,9 @@ aEndColumnIndex
 nsresult
 StartAutoScrollTimer
 (
-nsIView
+nsIFrame
 *
-aView
+aFrame
 nsPoint
 aPoint
 PRUint32
