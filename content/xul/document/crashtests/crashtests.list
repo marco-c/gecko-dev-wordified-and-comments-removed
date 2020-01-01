@@ -28,16 +28,12 @@ load
 1
 .
 xul
-skip
 load
 468211
 -
 2
 .
 xul
-#
-Bug
-509269
 load
 468211
 -

@@ -3336,6 +3336,10 @@ if
 (
 !
 contentRootElement
+|
+|
+!
+contentRootElement
 .
 hasAttribute
 (
@@ -3456,6 +3460,9 @@ shouldWait
 {
 return
 contentRootElement
+&
+&
+contentRootElement
 .
 hasAttribute
 (
@@ -3503,6 +3510,9 @@ doPrintMode
 )
 {
 return
+contentRootElement
+&
+&
 contentRootElement
 .
 hasAttribute
