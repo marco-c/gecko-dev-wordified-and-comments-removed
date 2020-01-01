@@ -12526,7 +12526,7 @@ if
 gfxFontUtils
 :
 :
-IsJoinCauser
+IsJoinControl
 (
 aCh
 )
