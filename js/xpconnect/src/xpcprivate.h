@@ -1935,12 +1935,6 @@ FinishTraverse
 )
 ;
 virtual
-nsresult
-FinishCycleCollection
-(
-)
-;
-virtual
 nsCycleCollectionParticipant
 *
 ToParticipant
