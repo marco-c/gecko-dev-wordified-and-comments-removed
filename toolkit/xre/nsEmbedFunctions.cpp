@@ -2291,6 +2291,9 @@ aArgv
 ]
 )
 ;
+ScopedXREEmbed
+embed
+;
 gArgc
 =
 aArgc
@@ -2317,9 +2320,6 @@ rv
 )
 return
 NS_ERROR_FAILURE
-;
-ScopedXREEmbed
-embed
 ;
 {
 embed
