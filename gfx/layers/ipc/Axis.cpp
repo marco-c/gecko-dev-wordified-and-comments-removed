@@ -708,7 +708,7 @@ Axis
 :
 DisplacementWillOverscrollAmount
 (
-PRInt32
+int32_t
 aDisplacement
 )
 {
@@ -770,7 +770,7 @@ ScaleWillOverscroll
 (
 float
 aScale
-PRInt32
+int32_t
 aFocus
 )
 {
@@ -872,7 +872,7 @@ ScaleWillOverscrollAmount
 (
 float
 aScale
-PRInt32
+int32_t
 aFocus
 )
 {

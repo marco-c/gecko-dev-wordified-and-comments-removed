@@ -261,13 +261,13 @@ nsIFile
 >
 mFiles
 ;
-PRInt16
+int16_t
 mMode
 ;
-PRInt16
+int16_t
 mSelectedType
 ;
-PRInt16
+int16_t
 mResult
 ;
 bool
