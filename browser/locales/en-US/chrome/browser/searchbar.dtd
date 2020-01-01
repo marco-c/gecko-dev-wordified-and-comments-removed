@@ -13,16 +13,6 @@ Engines
 <
 !
 ENTITY
-cmd_engineManager
-.
-accesskey
-"
-M
-"
->
-<
-!
-ENTITY
 searchEndCap
 .
 label
