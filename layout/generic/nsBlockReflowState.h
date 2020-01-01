@@ -263,6 +263,12 @@ nsSize
 aFloatSize
 PRUint8
 aFloats
+const
+nsRect
+&
+aFloatAvailableSpace
+PRBool
+aBandHasFloats
 PRBool
 aForceFit
 )
