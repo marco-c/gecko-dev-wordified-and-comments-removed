@@ -33,6 +33,7 @@ AB
 ;
 Copyright
 2009
+2012
 D
 .
 R
@@ -2676,7 +2677,7 @@ short
 .
 column_st7
 movq
-MMWORD
+XMM_MMWORD
 [
 rdi
 ]
@@ -2722,7 +2723,7 @@ short
 .
 column_st3
 movd
-DWORD
+XMM_DWORD
 [
 rdi
 ]
@@ -3718,7 +3719,7 @@ short
 .
 nextrow
 movd
-DWORD
+XMM_DWORD
 [
 rdi
 ]

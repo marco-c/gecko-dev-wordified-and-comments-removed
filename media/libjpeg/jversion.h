@@ -8,12 +8,12 @@ JPEG_LIB_VERSION
 define
 JVERSION
 "
-8b
-16
+8d
+15
 -
-May
+Jan
 -
-2010
+2012
 "
 #
 elif
@@ -57,7 +57,7 @@ C
 )
 1991
 -
-2010
+2012
 Thomas
 G
 .
@@ -104,7 +104,7 @@ C
 )
 2009
 -
-2012
+2013
 D
 .
 R

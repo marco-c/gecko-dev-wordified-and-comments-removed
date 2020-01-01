@@ -1807,6 +1807,12 @@ JPEG_LIB_VERSION
 >
 =
 80
+|
+|
+defined
+(
+MEM_SRCDST_SUPPORTED
+)
 #
 define
 jpeg_mem_dest
@@ -2180,6 +2186,12 @@ JPEG_LIB_VERSION
 >
 =
 80
+|
+|
+defined
+(
+MEM_SRCDST_SUPPORTED
+)
 EXTERN
 (
 void

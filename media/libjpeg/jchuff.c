@@ -1269,16 +1269,6 @@ cinfo
 >
 dest
 ;
-dest
--
->
-free_in_buffer
-=
-state
--
->
-free_in_buffer
-;
 if
 (
 !

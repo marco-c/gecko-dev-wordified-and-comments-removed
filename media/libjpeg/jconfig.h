@@ -7,7 +7,7 @@ define
 LIBJPEG_TURBO_VERSION
 1
 .
-2
+3
 .
 0
 #

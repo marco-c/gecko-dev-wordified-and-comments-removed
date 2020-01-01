@@ -29,6 +29,14 @@ for
 Cendio
 AB
 ;
+Copyright
+2012
+D
+.
+R
+.
+Commander
+;
 ;
 Based
 on
@@ -2955,7 +2963,7 @@ short
 .
 column_st7
 movq
-MMWORD
+XMM_MMWORD
 [
 edi
 ]
@@ -3001,7 +3009,7 @@ short
 .
 column_st3
 movd
-DWORD
+XMM_DWORD
 [
 edi
 ]
@@ -3951,7 +3959,7 @@ short
 .
 column_st7
 movq
-MMWORD
+XMM_MMWORD
 [
 edi
 ]
@@ -4008,7 +4016,7 @@ short
 .
 endcolumn
 movd
-DWORD
+XMM_DWORD
 [
 edi
 ]

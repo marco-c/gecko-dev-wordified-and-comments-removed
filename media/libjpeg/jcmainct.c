@@ -467,7 +467,7 @@ in_rows_avail
 )
 {
 my_main_ptr
-main
+main_ptr
 =
 (
 my_main_ptr
