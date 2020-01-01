@@ -704,6 +704,12 @@ browser_dbg_source_maps
 .
 js
 \
+browser_dbg_step
+-
+out
+.
+js
+\
 head
 .
 js
@@ -921,6 +927,14 @@ location
 changes
 -
 bp
+.
+html
+\
+test
+-
+step
+-
+out
 .
 html
 \
