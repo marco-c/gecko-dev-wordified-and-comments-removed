@@ -95,10 +95,6 @@ TelemetryTimestamps
 .
 jsm
 \
-Timer
-.
-jsm
-\
 (
 NULL
 )
