@@ -3126,12 +3126,6 @@ String
 type
 )
 {
-WebAppAllocator
-.
-getInstance
-(
-)
-;
 Looper
 .
 prepare
