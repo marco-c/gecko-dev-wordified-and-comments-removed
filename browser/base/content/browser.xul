@@ -3720,9 +3720,6 @@ button
 urlbar
 -
 container
-go
--
-container
 splitter
 search
 -
@@ -3752,9 +3749,6 @@ home
 -
 button
 urlbar
--
-container
-go
 -
 container
 splitter
