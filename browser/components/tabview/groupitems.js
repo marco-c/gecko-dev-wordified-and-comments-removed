@@ -12027,6 +12027,7 @@ else
 shouldHideTab
 =
 true
+;
 }
 if
 (
