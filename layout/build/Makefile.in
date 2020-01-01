@@ -2828,6 +2828,16 @@ extensions
 /
 cookie
 \
+-
+I
+(
+topsrcdir
+)
+/
+netwerk
+/
+cookie
+\
 (
 NULL
 )

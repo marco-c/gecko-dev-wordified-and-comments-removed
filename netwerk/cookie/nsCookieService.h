@@ -724,6 +724,12 @@ Init
 (
 )
 ;
+static
+void
+AppUninstallObserverInit
+(
+)
+;
 protected
 :
 void

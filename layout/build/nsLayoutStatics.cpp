@@ -590,6 +590,13 @@ nsPermissionManager
 .
 h
 "
+#
+include
+"
+nsCookieService
+.
+h
+"
 extern
 void
 NS_ShutdownChainItemPool
@@ -1287,6 +1294,13 @@ InitProcessPriorityManager
 )
 ;
 nsPermissionManager
+:
+:
+AppUninstallObserverInit
+(
+)
+;
+nsCookieService
 :
 :
 AppUninstallObserverInit
