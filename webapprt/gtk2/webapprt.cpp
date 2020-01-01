@@ -1468,7 +1468,7 @@ requires
 that
 Firefox
 version
-15
+16
 or
 above
 is
@@ -1477,7 +1477,7 @@ installed
 "
 "
 Firefox
-15
+16
 +
 has
 not
