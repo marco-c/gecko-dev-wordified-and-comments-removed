@@ -5638,7 +5638,10 @@ JS_ASSERT
 obj
 -
 >
-isTypedArray
+is
+<
+TypedArrayObject
+>
 (
 )
 )
@@ -7115,7 +7118,10 @@ if
 obj
 -
 >
-isTypedArray
+is
+<
+TypedArrayObject
+>
 (
 )
 &
@@ -12669,7 +12675,10 @@ attachedStub
 obj
 -
 >
-isTypedArray
+is
+<
+TypedArrayObject
+>
 (
 )
 )

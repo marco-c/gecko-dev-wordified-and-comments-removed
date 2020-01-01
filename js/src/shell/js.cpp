@@ -18465,7 +18465,10 @@ v
 )
 -
 >
-isTypedArray
+is
+<
+TypedArrayObject
+>
 (
 )
 )

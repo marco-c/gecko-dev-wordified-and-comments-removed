@@ -5155,13 +5155,6 @@ isProxy
 ;
 inline
 bool
-isTypedArray
-(
-)
-const
-;
-inline
-bool
 isWrapper
 (
 )

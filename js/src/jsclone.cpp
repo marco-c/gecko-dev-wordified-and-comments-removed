@@ -3242,7 +3242,10 @@ if
 obj
 -
 >
-isTypedArray
+is
+<
+TypedArrayObject
+>
 (
 )
 )
