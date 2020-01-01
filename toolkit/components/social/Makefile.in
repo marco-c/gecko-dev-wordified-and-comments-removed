@@ -105,6 +105,10 @@ WorkerAPI
 .
 jsm
 \
+MozSocialAPI
+.
+jsm
+\
 (
 NULL
 )
