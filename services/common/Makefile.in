@@ -149,17 +149,6 @@ js
 (
 NULL
 )
-EXTRA_COMPONENTS
-:
-=
-\
-servicesComponents
-.
-manifest
-\
-(
-NULL
-)
 TEST_DIRS
 +
 =
