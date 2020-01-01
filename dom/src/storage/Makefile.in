@@ -451,6 +451,8 @@ widget
 \
 xpconnect
 \
+prefetch
+\
 (
 NULL
 )

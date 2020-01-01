@@ -122,6 +122,9 @@ nsAString
 aOwner
 PRInt32
 aQuota
+PRInt32
+*
+aNewUsage
 )
 ;
 nsresult
