@@ -664,15 +664,6 @@ plugin
 /
 hc
 '
-'
-media
-/
-omx
--
-plugin
-/
-sony
-'
 ]
 )
 if

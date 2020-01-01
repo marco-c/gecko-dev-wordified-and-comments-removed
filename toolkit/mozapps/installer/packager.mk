@@ -2335,9 +2335,6 @@ so
 libomxpluginhc
 .
 so
-libomxpluginsony
-.
-so
 libomxpluginfroyo
 .
 so
