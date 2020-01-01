@@ -123,6 +123,11 @@ mShouldGoAway
 mClosed
 ;
 }
+void
+DontReuse
+(
+)
+;
 bool
 RoomForMoreStreams
 (

@@ -148,11 +148,6 @@ CL_ALLOW_UNKNOWN_CL
 0x10
 ;
 const
-CL_EXPECT_LATE_FAILURE
-=
-0x20
-;
-const
 SUSPEND_DELAY
 =
 3000
@@ -757,11 +752,7 @@ this
 .
 _flags
 &
-(
 CL_EXPECT_FAILURE
-|
-CL_EXPECT_LATE_FAILURE
-)
 )
 &
 &
@@ -802,11 +793,7 @@ this
 .
 _flags
 &
-(
 CL_EXPECT_FAILURE
-|
-CL_EXPECT_LATE_FAILURE
-)
 )
 &
 &
@@ -887,11 +874,7 @@ this
 .
 _flags
 &
-(
 CL_EXPECT_FAILURE
-|
-CL_EXPECT_LATE_FAILURE
-)
 )
 &
 &
