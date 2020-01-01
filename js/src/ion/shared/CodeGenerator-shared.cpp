@@ -1552,7 +1552,7 @@ gcRegs
 safepoint
 -
 >
-liveRegs
+spillRegs
 (
 )
 .
