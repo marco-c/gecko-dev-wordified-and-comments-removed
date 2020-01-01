@@ -1531,9 +1531,15 @@ NS_FAILED
 rv
 )
 )
+{
+mCallbacks
+=
+nsnull
+;
 return
 rv
 ;
+}
 mListener
 =
 listener
@@ -1565,6 +1571,10 @@ mListener
 nsnull
 ;
 mListenerContext
+=
+nsnull
+;
+mCallbacks
 =
 nsnull
 ;
