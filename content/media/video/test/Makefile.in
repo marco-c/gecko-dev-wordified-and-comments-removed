@@ -548,6 +548,14 @@ test_wav_ended1
 .
 html
 \
+test_wav_seek_past_end
+.
+html
+\
+test_wav_seek_then_play
+.
+html
+\
 320x240
 .
 ogg
