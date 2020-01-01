@@ -1070,7 +1070,9 @@ JOF_BYTE
 )
 /
 *
-Longstanding
+Long
+-
+standing
 JavaScript
 bytecodes
 .
@@ -1278,7 +1280,9 @@ JOF_FOR
 /
 *
 More
-longstanding
+long
+-
+standing
 bytecodes
 .
 *
