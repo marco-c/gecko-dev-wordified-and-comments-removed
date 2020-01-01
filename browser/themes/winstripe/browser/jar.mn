@@ -1561,6 +1561,13 @@ browser
 pageInfo
 .
 png
+(
+pageInfo
+-
+aero
+.
+png
+)
 skin
 /
 classic
