@@ -1216,10 +1216,6 @@ WebApps
 .
 java
 \
-GeckoAppInfo
-.
-java
-\
 db
 /
 BrowserContract
