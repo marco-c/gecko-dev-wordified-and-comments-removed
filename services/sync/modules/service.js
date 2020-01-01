@@ -1552,14 +1552,6 @@ return
 ok
 ;
 }
-onWindowOpened
-:
-function
-WeaveSvc__onWindowOpened
-(
-)
-{
-}
 onStartup
 :
 function
