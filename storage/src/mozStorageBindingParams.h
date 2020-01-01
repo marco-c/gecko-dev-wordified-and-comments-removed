@@ -73,6 +73,11 @@ lock
 (
 )
 ;
+void
+unlock
+(
+)
+;
 const
 BindingParamsArray
 *
