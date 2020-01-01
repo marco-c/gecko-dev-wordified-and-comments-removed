@@ -10027,7 +10027,6 @@ if
 (
 ObjectClassIs
 (
-*
 obj
 ESClass_Array
 cx
