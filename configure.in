@@ -25890,6 +25890,7 @@ D_GNU_SOURCE
 AC_CHECK_FUNCS
 (
 dladdr
+memmem
 )
 CFLAGS
 =
