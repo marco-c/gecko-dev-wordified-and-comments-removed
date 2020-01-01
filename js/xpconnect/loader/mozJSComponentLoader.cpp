@@ -268,13 +268,6 @@ nsIStringStream
 h
 "
 #
-include
-"
-prmem
-.
-h
-"
-#
 if
 defined
 (

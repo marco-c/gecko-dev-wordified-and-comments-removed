@@ -190,13 +190,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsIDOMXULDocument
 .
 h

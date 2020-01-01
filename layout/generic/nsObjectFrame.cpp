@@ -96,13 +96,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

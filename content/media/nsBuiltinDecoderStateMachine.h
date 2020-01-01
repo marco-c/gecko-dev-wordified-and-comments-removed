@@ -11,13 +11,6 @@ nsBuiltinDecoderStateMachine_h__
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

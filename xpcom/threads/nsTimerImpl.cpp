@@ -36,13 +36,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 sampler
 .
 h

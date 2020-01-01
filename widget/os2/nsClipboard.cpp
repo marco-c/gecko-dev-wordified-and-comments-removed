@@ -36,13 +36,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsOS2Uni
 .
 h

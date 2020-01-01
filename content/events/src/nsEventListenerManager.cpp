@@ -92,13 +92,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsIScriptGlobalObject
 .
 h

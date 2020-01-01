@@ -23,13 +23,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsISecureBrowserUI
 .
 h

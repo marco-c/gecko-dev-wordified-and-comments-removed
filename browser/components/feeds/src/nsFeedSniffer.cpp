@@ -8,13 +8,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsNetCID
 .
 h

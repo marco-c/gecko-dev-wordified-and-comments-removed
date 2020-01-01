@@ -128,13 +128,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 nsIContent
 .
 h

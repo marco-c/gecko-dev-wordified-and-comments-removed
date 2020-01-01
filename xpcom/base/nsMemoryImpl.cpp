@@ -50,13 +50,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 prcvar
 .
 h
