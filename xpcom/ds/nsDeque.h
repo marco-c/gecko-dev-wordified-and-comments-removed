@@ -50,6 +50,8 @@ nsDeque
 nsDequeFunctor
 *
 aDeallocator
+=
+nsnull
 )
 ;
 ~
@@ -207,10 +209,6 @@ mData
 ;
 private
 :
-nsDeque
-(
-)
-;
 nsDeque
 (
 const
