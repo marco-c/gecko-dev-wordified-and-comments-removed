@@ -5278,13 +5278,6 @@ public
 :
 AutoSuppressGC
 (
-JSRuntime
-*
-rt
-)
-;
-AutoSuppressGC
-(
 ExclusiveContext
 *
 cx
