@@ -157,7 +157,7 @@ aNotify
 void
 SetDirectionFromNewTextNode
 (
-nsTextNode
+nsIContent
 *
 aTextNode
 )
