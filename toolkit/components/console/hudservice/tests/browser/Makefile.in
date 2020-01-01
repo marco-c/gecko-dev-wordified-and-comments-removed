@@ -497,6 +497,10 @@ browser_webconsole_bug_581231_close_button
 .
 js
 \
+browser_webconsole_consoleonpage
+.
+js
+\
 (
 NULL
 )
@@ -632,6 +636,14 @@ console
 replaced
 -
 api
+.
+html
+\
+test
+-
+own
+-
+console
 .
 html
 \
