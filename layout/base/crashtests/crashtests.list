@@ -2201,9 +2201,16 @@ load
 670226
 .
 html
+asserts
+(
+2
+)
 load
 675246
 -
 1
 .
 xhtml
+#
+Bug
+675713
