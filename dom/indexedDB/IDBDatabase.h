@@ -314,16 +314,13 @@ nsIDocument
 >
 doc
 =
-do_QueryInterface
-(
 GetOwner
 (
 )
 -
 >
-GetExtantDocument
+GetExtantDoc
 (
-)
 )
 ;
 return

@@ -236,14 +236,11 @@ nsIDocument
 >
 doc
 =
-do_QueryInterface
-(
 pWindow
 -
 >
-GetExtantDocument
+GetExtantDoc
 (
-)
 )
 ;
 nsCOMPtr

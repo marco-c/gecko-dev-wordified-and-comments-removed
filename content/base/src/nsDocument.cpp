@@ -49318,14 +49318,11 @@ nsIDocument
 >
 doc
 =
-do_QueryInterface
-(
 top
 -
 >
-GetExtantDocument
+GetExtantDoc
 (
-)
 )
 ;
 MarkDocumentTreeToBeInSyncOperation

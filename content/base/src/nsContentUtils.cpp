@@ -8119,7 +8119,7 @@ return
 nullptr
 ;
 }
-nsIDOMDocument
+nsIDocument
 *
 nsContentUtils
 :
@@ -8204,12 +8204,12 @@ return
 win
 -
 >
-GetExtantDocument
+GetExtantDoc
 (
 )
 ;
 }
-nsIDOMDocument
+nsIDocument
 *
 nsContentUtils
 :
@@ -8275,7 +8275,7 @@ return
 pwin
 -
 >
-GetExtantDocument
+GetExtantDoc
 (
 )
 ;

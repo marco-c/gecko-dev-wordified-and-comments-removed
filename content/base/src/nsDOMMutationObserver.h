@@ -1773,14 +1773,11 @@ nsIDocument
 >
 d
 =
-do_QueryInterface
-(
 mOwner
 -
 >
-GetExtantDocument
+GetExtantDoc
 (
-)
 )
 ;
 return

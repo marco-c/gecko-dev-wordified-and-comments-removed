@@ -628,17 +628,6 @@ UpdateTouchState
 )
 {
 }
-nsIDOMDocument
-*
-GetExtantDocument
-(
-)
-const
-{
-return
-mDocument
-;
-}
 nsIDocument
 *
 GetExtantDoc

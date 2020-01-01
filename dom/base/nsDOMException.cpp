@@ -745,14 +745,11 @@ nsIDocument
 >
 doc
 =
-do_QueryInterface
-(
 nsContentUtils
 :
 :
 GetDocumentFromCaller
 (
-)
 )
 ;
 if
