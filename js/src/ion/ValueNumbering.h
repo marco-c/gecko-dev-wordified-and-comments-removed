@@ -127,6 +127,9 @@ MIRGraph
 &
 graph_
 ;
+ValueMap
+values
+;
 bool
 pessimisticPass_
 ;
@@ -136,9 +139,6 @@ count_
 uint32
 lookupValue
 (
-ValueMap
-&
-values
 MDefinition
 *
 ins

@@ -63,9 +63,6 @@ ValueNumberer
 :
 lookupValue
 (
-ValueMap
-&
-values
 MDefinition
 *
 ins
@@ -210,6 +207,17 @@ ins
 >
 toInstruction
 (
+)
+)
+;
+ins
+-
+>
+setValueNumber
+(
+lookupValue
+(
+ins
 )
 )
 ;
@@ -486,9 +494,6 @@ Numbering
 instructions
 "
 )
-;
-ValueMap
-values
 ;
 if
 (
@@ -850,7 +855,6 @@ value
 =
 lookupValue
 (
-values
 ins
 )
 ;
