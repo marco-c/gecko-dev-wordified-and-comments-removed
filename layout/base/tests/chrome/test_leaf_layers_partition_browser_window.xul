@@ -475,7 +475,7 @@ time
 setTimeout
 (
 nextStep
-25
+0
 )
 ;
 return
