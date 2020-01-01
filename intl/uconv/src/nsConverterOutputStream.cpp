@@ -286,6 +286,9 @@ Length
 )
 !
 =
+(
+PRUint32
+)
 maxLen
 )
 return
@@ -339,6 +342,9 @@ NS_ERROR_LOSS_OF_SIGNIFICANT_DATA
 }
 NS_ASSERTION
 (
+(
+PRUint32
+)
 inLen
 =
 =

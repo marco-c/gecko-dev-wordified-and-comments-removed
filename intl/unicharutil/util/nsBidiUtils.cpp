@@ -4121,6 +4121,9 @@ bCat
 {
 NS_ASSERTION
 (
+(
+PRUint32
+)
 bCat
 <
 (
@@ -4142,6 +4145,9 @@ mismatch
 ;
 if
 (
+(
+PRUint32
+)
 bCat
 <
 (
