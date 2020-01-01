@@ -822,12 +822,6 @@ undim
 (
 )
 ;
-this
-.
-update
-(
-)
-;
 }
 else
 {
@@ -838,6 +832,12 @@ dim
 )
 ;
 }
+this
+.
+update
+(
+)
+;
 }
 onHighlighterLocked
 :
