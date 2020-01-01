@@ -8867,6 +8867,8 @@ drop_property
 JSObject
 *
 desc
+;
+desc
 =
 js_NewObject
 (
