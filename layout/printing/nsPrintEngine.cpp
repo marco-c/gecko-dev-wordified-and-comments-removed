@@ -7655,7 +7655,7 @@ endPage
 }
 if
 (
-mIsDoingPrintPreview
+mIsCreatingPrintPreview
 )
 {
 nsIPageSequenceFrame
