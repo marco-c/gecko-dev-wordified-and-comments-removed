@@ -9066,6 +9066,13 @@ if
 chromeWindow
 )
 {
+:
+:
+JS_FlagSystemContext
+(
+mContext
+)
+;
 flags
 =
 nsIXPConnect

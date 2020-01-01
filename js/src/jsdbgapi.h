@@ -1445,14 +1445,11 @@ JS_PUBLIC_API
 (
 void
 )
-JS_FlagSystemObject
+JS_FlagSystemContext
 (
 JSContext
 *
 cx
-JSObject
-*
-obj
 )
 ;
 extern
