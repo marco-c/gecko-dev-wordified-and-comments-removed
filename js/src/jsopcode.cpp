@@ -1347,7 +1347,7 @@ JS_ASSERT
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 ;
 jsbytecode
@@ -31471,7 +31471,7 @@ NULL
 ;
 }
 ScriptAndCounts
-sac
+info
 =
 (
 *
@@ -31488,7 +31488,7 @@ JSScript
 *
 script
 =
-sac
+info
 .
 script
 ;
@@ -31763,7 +31763,7 @@ PCCounts
 &
 counts
 =
-sac
+info
 .
 getPCCounts
 (
@@ -32151,7 +32151,7 @@ cx
 const
 ScriptAndCounts
 &
-sac
+info
 StringBuffer
 &
 buf
@@ -32161,7 +32161,7 @@ JSScript
 *
 script
 =
-sac
+info
 .
 script
 ;
@@ -32760,7 +32760,7 @@ PCCounts
 &
 counts
 =
-sac
+info
 .
 getPCCounts
 (
@@ -32971,7 +32971,7 @@ NULL
 const
 ScriptAndCounts
 &
-sac
+info
 =
 (
 *
@@ -32988,7 +32988,7 @@ JSScript
 *
 script
 =
-sac
+info
 .
 script
 ;
@@ -33069,7 +33069,7 @@ if
 GetPCCountJSON
 (
 cx
-sac
+info
 buf
 )
 )

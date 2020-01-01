@@ -1992,7 +1992,7 @@ profilingScripts
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 script
 -
@@ -2870,7 +2870,7 @@ if
 outerScript
 -
 >
-hasScriptCounts
+scriptCounts
 |
 |
 Probes
@@ -13036,7 +13036,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 &
 &
 !
@@ -13170,7 +13170,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 &
 &
 JOF_OPTYPE
@@ -13341,7 +13341,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 updatePCCounts
 (
@@ -13850,7 +13850,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 {
 updateArithCounts
@@ -13932,7 +13932,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 updatePCCounts
 (
@@ -15038,7 +15038,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 updateElemCounts
 (
@@ -15095,7 +15095,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 updateElemCounts
 (
@@ -15358,7 +15358,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 {
 updatePCCounts
@@ -15785,7 +15785,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 updatePCCounts
 (
@@ -15883,7 +15883,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 updatePCCounts
 (
@@ -16004,7 +16004,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 {
 updateArithCounts
@@ -16061,7 +16061,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 updatePCCounts
 (
@@ -16852,7 +16852,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 {
 restoreVarType
@@ -16912,7 +16912,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 {
 FrameEntry
@@ -16967,7 +16967,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 {
 restoreVarType
@@ -17027,7 +17027,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 {
 FrameEntry
@@ -17875,7 +17875,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 updatePCCounts
 (
@@ -18251,7 +18251,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 {
 size_t
@@ -18567,7 +18567,7 @@ JS_ASSERT
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 ;
 uint32_t
@@ -18897,7 +18897,7 @@ JS_ASSERT
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 ;
 RegisterID
@@ -19635,7 +19635,7 @@ JS_ASSERT
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 ;
 RegisterID
@@ -19831,7 +19831,7 @@ JS_ASSERT
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 ;
 RegisterID
@@ -26279,7 +26279,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 bumpPropCount
 (
@@ -26385,7 +26385,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 bumpPropCount
 (
@@ -26832,7 +26832,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 bumpPropCount
 (
@@ -27039,7 +27039,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 bumpPropCount
 (
@@ -27218,7 +27218,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 bumpPropCount
 (
@@ -27287,7 +27287,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 bumpPropCount
 (
@@ -27455,7 +27455,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 &
 &
 cx
@@ -27588,7 +27588,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 bumpPropCount
 (
@@ -27915,7 +27915,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 bumpPropCount
 (
@@ -28009,7 +28009,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 bumpPropCount
 (
@@ -29936,7 +29936,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 bumpPropCount
 (
@@ -30697,7 +30697,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 bumpPropCount
 (
@@ -30718,7 +30718,7 @@ if
 script
 -
 >
-hasScriptCounts
+scriptCounts
 )
 bumpPropCount
 (
