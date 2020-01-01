@@ -13345,6 +13345,17 @@ if
 citeNode
 )
 {
+nsCOMPtr
+<
+nsINode
+>
+cite
+=
+do_QueryInterface
+(
+citeNode
+)
+;
 bool
 isEmpty
 =
@@ -13358,7 +13369,7 @@ mHTMLEditor
 >
 IsEmptyNodeImpl
 (
-citeNode
+cite
 &
 isEmpty
 true
