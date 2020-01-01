@@ -554,6 +554,10 @@ browser_bug703210
 .
 js
 \
+browser_bug706743
+.
+js
+\
 (
 NULL
 )
