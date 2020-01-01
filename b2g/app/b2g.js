@@ -3907,7 +3907,7 @@ processPriorityManager
 .
 gonk
 .
-masterOomAdjust
+masterOomScoreAdjust
 "
 0
 )
@@ -3921,9 +3921,9 @@ processPriorityManager
 .
 gonk
 .
-foregroundOomAdjust
+foregroundOomScoreAdjust
 "
-1
+67
 )
 ;
 pref
@@ -3935,9 +3935,9 @@ processPriorityManager
 .
 gonk
 .
-backgroundOomAdjust
+backgroundOomScoreAdjust
 "
-6
+400
 )
 ;
 pref
