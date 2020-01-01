@@ -380,6 +380,10 @@ MozBuild
 '
 )
 ]
+tag
+=
+>
+patcherToolsRev
 logFile
 =
 >
