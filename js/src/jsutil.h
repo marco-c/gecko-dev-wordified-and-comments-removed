@@ -152,12 +152,9 @@ JS_STATIC_ASSERT
 condition
 )
 \
-extern
-void
-js_static_assert
-(
+typedef
 int
-arg
+js_static_assert
 [
 (
 condition
@@ -168,7 +165,6 @@ condition
 -
 1
 ]
-)
 #
 endif
 extern
