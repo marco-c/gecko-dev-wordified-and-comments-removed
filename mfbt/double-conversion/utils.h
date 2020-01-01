@@ -134,6 +134,12 @@ __sparc__
 |
 defined
 (
+__sparc
+)
+|
+|
+defined
+(
 __s390__
 )
 |
@@ -171,6 +177,12 @@ _M_IX86
 defined
 (
 __i386__
+)
+|
+|
+defined
+(
+__i386
 )
 #
 if
