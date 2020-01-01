@@ -13301,11 +13301,7 @@ scrollPt
 aScrollFrame
 -
 >
-GetScrollPortRect
-(
-)
-.
-Size
+GetScrollPositionClampingScrollPortSize
 (
 )
 )
