@@ -47,6 +47,13 @@ h
 #
 include
 "
+nsCycleCollectionJSRuntime
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h

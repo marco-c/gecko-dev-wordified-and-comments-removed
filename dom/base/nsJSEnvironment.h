@@ -98,6 +98,9 @@ Attributes
 h
 "
 class
+nsICycleCollectorListener
+;
+class
 nsIXPConnectJSObjectHolder
 ;
 class

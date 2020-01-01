@@ -549,13 +549,6 @@ h
 #
 include
 "
-nsCycleCollector
-.
-h
-"
-#
-include
-"
 nsJSEnvironment
 .
 h

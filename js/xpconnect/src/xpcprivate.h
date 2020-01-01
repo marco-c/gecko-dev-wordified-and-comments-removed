@@ -164,7 +164,7 @@ h
 #
 include
 "
-nsCycleCollector
+nsCycleCollectionJSRuntime
 .
 h
 "

@@ -54,6 +54,13 @@ h
 #
 include
 "
+nsCycleCollector
+.
+h
+"
+#
+include
+"
 nsObserverList
 .
 h
