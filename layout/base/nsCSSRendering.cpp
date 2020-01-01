@@ -8273,7 +8273,7 @@ imageSize
 .
 width
 =
-NSCoordSaturatingMultiply
+NSCoordSaturatingNonnegativeMultiply
 (
 imageSize
 .
@@ -8285,7 +8285,7 @@ imageSize
 .
 height
 =
-NSCoordSaturatingMultiply
+NSCoordSaturatingNonnegativeMultiply
 (
 imageSize
 .
