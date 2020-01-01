@@ -13184,8 +13184,10 @@ AsDOMNode
 }
 for
 (
+nsCOMPtr
+<
 nsIContent
-*
+>
 child
 =
 aNode
