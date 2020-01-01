@@ -2405,6 +2405,7 @@ Sanitize
 "
 chrome
 titlebar
+dialog
 centerscreen
 modal
 "
