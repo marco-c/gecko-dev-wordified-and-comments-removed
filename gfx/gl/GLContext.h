@@ -8598,7 +8598,11 @@ mSymbols
 fReadPixels
 (
 x
+FixYValue
+(
 y
+height
+)
 width
 height
 format
