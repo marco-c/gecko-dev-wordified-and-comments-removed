@@ -957,10 +957,7 @@ forget
 length
 0
 length
-nsAudioStream
-:
-:
-FORMAT_S16
+AUDIO_FORMAT_S16
 )
 ;
 mSource
