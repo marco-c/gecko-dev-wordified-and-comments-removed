@@ -250,7 +250,11 @@ sIsVistaOrLater
 ;
 static
 PRBool
-sTitlebarInfoPopulated
+sTitlebarInfoPopulatedAero
+;
+static
+PRBool
+sTitlebarInfoPopulatedThemed
 ;
 static
 SIZE

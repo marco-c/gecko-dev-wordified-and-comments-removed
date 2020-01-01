@@ -700,15 +700,6 @@ nsIFrame
 aFrame
 )
 {
-if
-(
-nsUXThemeData
-:
-:
-sTitlebarInfoPopulated
-)
-return
-;
 nsIWidget
 *
 widget
