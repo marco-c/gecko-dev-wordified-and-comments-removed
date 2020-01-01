@@ -57,7 +57,6 @@ browser
 .
 jar
 :
-*
 content
 /
 browser
@@ -149,7 +148,6 @@ splitview
 .
 css
 )
-*
 content
 /
 browser
@@ -226,7 +224,6 @@ styleinspector
 .
 css
 )
-*
 content
 /
 browser
