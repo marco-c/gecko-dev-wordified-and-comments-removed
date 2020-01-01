@@ -17,7 +17,7 @@ const
 int
 NJ_LOG2_CACHE_SIZE
 =
-24
+17
 ;
 const
 int
