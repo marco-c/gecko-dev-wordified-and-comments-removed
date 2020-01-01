@@ -419,8 +419,12 @@ GRE_MODULE
 1
 EXPORTS_NAMESPACES
 =
-IPC
-EXPORTS_IPC
+mozilla
+/
+widget
+EXPORTS_mozilla
+/
+widget
 =
 \
 nsGUIEventIPC
