@@ -474,7 +474,9 @@ if
 !
 pageSize
 )
-intializePageSize
+pageSize
+=
+determinePageSize
 (
 )
 ;
@@ -1737,8 +1739,8 @@ SmallExecPoolVector
 m_smallAllocationPools
 ;
 static
-void
-intializePageSize
+size_t
+determinePageSize
 (
 )
 ;
