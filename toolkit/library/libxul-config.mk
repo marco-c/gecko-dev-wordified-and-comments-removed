@@ -644,8 +644,6 @@ imglib2
 \
 gklayout
 \
-xmlextras
-\
 docshell
 \
 embedcomponents
@@ -669,6 +667,18 @@ pipnss
 (
 NULL
 )
+ifdef
+MOZ_XMLEXTRAS
+COMPONENT_LIBS
++
+=
+\
+xmlextras
+\
+(
+NULL
+)
+endif
 ifdef
 MOZ_PLUGINS
 DEFINES
