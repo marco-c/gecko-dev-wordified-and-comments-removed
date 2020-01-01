@@ -1324,6 +1324,7 @@ widget
 return
 NS_ERROR_FAILURE
 ;
+return
 widget
 -
 >
@@ -1335,9 +1336,6 @@ aModifiers
 aCharacters
 aUnmodifiedCharacters
 )
-;
-return
-NS_OK
 ;
 }
 nsIWidget
