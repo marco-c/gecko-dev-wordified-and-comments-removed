@@ -1165,6 +1165,10 @@ bug282547
 .
 sjs
 \
+test_domparser_null_char
+.
+html
+\
 (
 NULL
 )
