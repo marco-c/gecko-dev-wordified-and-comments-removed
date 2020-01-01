@@ -299,4 +299,10 @@ mozStorage
 profile
 db
 #
+define
+NS_APP_INDEXEDDB_PARENT_DIR
+"
+indexedDBPDir
+"
+#
 endif
