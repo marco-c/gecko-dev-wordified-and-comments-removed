@@ -1456,12 +1456,17 @@ nsIPrefBranch
 >
 mPrefService
 ;
+#
+ifdef
+XP_WIN
 nsRefPtr
 <
 nsPluginDirServiceProvider
 >
 mPrivateDirServiceProvider
 ;
+#
+endif
 nsWeakPtr
 mCurrentDocument
 ;

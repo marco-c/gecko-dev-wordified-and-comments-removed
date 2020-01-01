@@ -536,10 +536,6 @@ nsPluginInstancePeer
 .
 cpp
 \
-nsPluginDirServiceProvider
-.
-cpp
-\
 nsJSNPRuntime
 .
 cpp
@@ -588,6 +584,12 @@ CPPSRCS
 +
 =
 nsPluginNativeWindowWin
+.
+cpp
+CPPSRCS
++
+=
+nsPluginDirServiceProvider
 .
 cpp
 else

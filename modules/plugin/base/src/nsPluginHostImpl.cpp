@@ -12916,6 +12916,9 @@ sPluginTempDir
 )
 ;
 }
+#
+ifdef
+XP_WIN
 if
 (
 mPrivateDirServiceProvider
@@ -12949,6 +12952,8 @@ mPrivateDirServiceProvider
 nsnull
 ;
 }
+#
+endif
 nsCOMPtr
 <
 nsIPrefBranch2
@@ -21334,6 +21339,9 @@ LoadXPCOMPlugins
 compManager
 )
 ;
+#
+ifdef
+XP_WIN
 rv
 =
 EnsurePrivateDirServiceProvider
@@ -21357,6 +21365,8 @@ provider
 "
 )
 ;
+#
+endif
 nsCOMPtr
 <
 nsIProperties
@@ -21460,11 +21470,8 @@ mPluginsLoaded
 PR_TRUE
 ;
 #
-if
-defined
-(
+ifdef
 XP_WIN
-)
 PRBool
 bScanPLIDs
 =
@@ -23692,6 +23699,9 @@ mNext
 ;
 }
 }
+#
+ifdef
+XP_WIN
 nsresult
 nsPluginHostImpl
 :
@@ -23773,6 +23783,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 NS_IMETHODIMP
 nsPluginHostImpl
 :
