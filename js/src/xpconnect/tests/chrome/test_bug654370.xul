@@ -315,6 +315,7 @@ var
 script
 =
 "
+(
 function
 (
 obj
@@ -327,6 +328,7 @@ instanceof
 type
 ;
 }
+)
 "
 ;
 var
