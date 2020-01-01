@@ -502,6 +502,14 @@ PRBool
 aLeftOfParent
 )
 ;
+PRBool
+IsRegularMenuItem
+(
+nsIFrame
+*
+aFrame
+)
+;
 nsIPresShell
 *
 GetPresShell
