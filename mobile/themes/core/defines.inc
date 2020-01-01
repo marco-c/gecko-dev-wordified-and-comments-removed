@@ -309,8 +309,8 @@ urlbar_edit_indent
 85mozmm
 %
 define
-urlbar_max_width
-96mozmm
+identity_popup_tablet_width
+72mozmm
 %
 define
 scroller_thickness
