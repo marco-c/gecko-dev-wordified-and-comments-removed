@@ -1636,10 +1636,8 @@ nsCString
 uri
 )
 ;
-UpdateDimensions
+Move
 (
-nsRect
-rect
 nsIntSize
 size
 )

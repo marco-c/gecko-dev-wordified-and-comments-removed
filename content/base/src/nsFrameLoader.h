@@ -684,14 +684,6 @@ nsIFrame
 aIFrame
 )
 ;
-nsresult
-GetWindowDimensions
-(
-nsRect
-&
-aRect
-)
-;
 NS_HIDDEN_
 (
 nsresult

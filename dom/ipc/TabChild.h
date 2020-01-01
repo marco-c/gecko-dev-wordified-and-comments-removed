@@ -578,12 +578,8 @@ size
 ;
 virtual
 bool
-RecvUpdateDimensions
+RecvMove
 (
-const
-nsRect
-&
-rect
 const
 nsIntSize
 &
@@ -1090,9 +1086,6 @@ mTabChildGlobal
 ;
 PRUint32
 mChromeFlags
-;
-nsIntRect
-mOuterRect
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (
