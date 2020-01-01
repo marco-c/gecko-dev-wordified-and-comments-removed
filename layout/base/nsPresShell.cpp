@@ -16768,11 +16768,12 @@ if
 root
 )
 {
-root
--
->
-InvalidateFrameSubtree
+FrameLayerBuilder
+:
+:
+InvalidateAllLayersForFrame
 (
+root
 )
 ;
 if
