@@ -920,11 +920,6 @@ main
 xul
 #
 include
-tabs
-.
-xul
-#
-include
 privacy
 .
 xul
