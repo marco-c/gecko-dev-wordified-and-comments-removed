@@ -2606,14 +2606,6 @@ IsEmpty
 return
 ;
 rect
-.
-UnionRect
-(
-rect
-mRect
-)
-;
-rect
 =
 nsSVGUtils
 :
