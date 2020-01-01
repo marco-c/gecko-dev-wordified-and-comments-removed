@@ -455,6 +455,10 @@ test_colorpicker_popup
 .
 xul
 \
+test_deck
+.
+xul
+\
 test_menulist_keynav
 .
 xul
@@ -524,6 +528,14 @@ window_tooltip
 xul
 \
 test_progressmeter
+.
+xul
+\
+test_props
+.
+xul
+\
+test_statusbar
 .
 xul
 \
