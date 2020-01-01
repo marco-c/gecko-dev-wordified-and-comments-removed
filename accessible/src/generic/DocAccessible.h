@@ -718,6 +718,7 @@ nsINode
 *
 aNode
 )
+const
 ;
 Accessible
 *
@@ -727,6 +728,7 @@ nsINode
 *
 aNode
 )
+const
 {
 return
 aNode
@@ -744,6 +746,16 @@ GetParentNode
 nullptr
 ;
 }
+Accessible
+*
+GetAccessibleOrDescendant
+(
+nsINode
+*
+aNode
+)
+const
+;
 bool
 IsDependentID
 (
