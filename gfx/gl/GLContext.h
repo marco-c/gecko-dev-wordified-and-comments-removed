@@ -412,6 +412,7 @@ RendererAdrenoTM320
 RendererSGX530
 RendererSGX540
 RendererTegra
+RendererAndroidEmulator
 RendererOther
 }
 ;
