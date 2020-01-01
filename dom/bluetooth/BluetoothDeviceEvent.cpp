@@ -31,6 +31,13 @@ h
 #
 include
 "
+nsIDOMDOMRequest
+.
+h
+"
+#
+include
+"
 nsDOMClassInfo
 .
 h
