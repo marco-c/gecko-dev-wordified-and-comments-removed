@@ -11813,7 +11813,13 @@ UpdateReadyStateForData
 (
 mBlocked
 ?
+nsMediaDecoder
+:
+:
 NEXT_FRAME_UNAVAILABLE_BUFFERING
+:
+nsMediaDecoder
+:
 :
 NEXT_FRAME_AVAILABLE
 )
@@ -13622,6 +13628,9 @@ nsHTMLMediaElement
 :
 UpdateReadyStateForData
 (
+nsMediaDecoder
+:
+:
 NextFrameStatus
 aNextFrame
 )
@@ -13680,6 +13689,9 @@ if
 aNextFrame
 !
 =
+nsMediaDecoder
+:
+:
 NEXT_FRAME_AVAILABLE
 )
 {
@@ -13700,6 +13712,9 @@ mWaitingFired
 aNextFrame
 =
 =
+nsMediaDecoder
+:
+:
 NEXT_FRAME_UNAVAILABLE_BUFFERING
 )
 {

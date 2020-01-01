@@ -6448,7 +6448,7 @@ mPositionChangeQueued
 false
 ;
 }
-nsHTMLMediaElement
+nsMediaDecoder
 :
 :
 NextFrameStatus
@@ -6483,7 +6483,7 @@ IsSeeking
 )
 {
 return
-nsHTMLMediaElement
+nsMediaDecoder
 :
 :
 NEXT_FRAME_UNAVAILABLE_BUFFERING
@@ -6498,14 +6498,14 @@ HaveNextFrameData
 )
 {
 return
-nsHTMLMediaElement
+nsMediaDecoder
 :
 :
 NEXT_FRAME_AVAILABLE
 ;
 }
 return
-nsHTMLMediaElement
+nsMediaDecoder
 :
 :
 NEXT_FRAME_UNAVAILABLE
@@ -12129,7 +12129,7 @@ GetNextFrameStatus
 )
 {
 case
-nsHTMLMediaElement
+nsMediaDecoder
 :
 :
 NEXT_FRAME_UNAVAILABLE_BUFFERING
@@ -12149,7 +12149,7 @@ NextFrameUnavailableBuffering
 break
 ;
 case
-nsHTMLMediaElement
+nsMediaDecoder
 :
 :
 NEXT_FRAME_AVAILABLE
@@ -12169,7 +12169,7 @@ NextFrameAvailable
 break
 ;
 case
-nsHTMLMediaElement
+nsMediaDecoder
 :
 :
 NEXT_FRAME_UNAVAILABLE

@@ -924,6 +924,14 @@ GetImageContainer
 nullptr
 ;
 }
+enum
+NextFrameStatus
+{
+NEXT_FRAME_AVAILABLE
+NEXT_FRAME_UNAVAILABLE_BUFFERING
+NEXT_FRAME_UNAVAILABLE
+}
+;
 protected
 :
 nsresult
