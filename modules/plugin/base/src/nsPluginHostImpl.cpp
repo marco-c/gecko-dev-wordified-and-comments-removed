@@ -23323,7 +23323,7 @@ NS_CheckContentLoadPolicy
 nsIContentPolicy
 :
 :
-TYPE_OTHER
+TYPE_OBJECT_SUBREQUEST
 url
 (
 doc

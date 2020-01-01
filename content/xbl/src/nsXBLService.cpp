@@ -2369,7 +2369,7 @@ PR_TRUE
 nsIContentPolicy
 :
 :
-TYPE_OTHER
+TYPE_XBL
 document
 )
 ;
@@ -4325,7 +4325,7 @@ PR_TRUE
 nsIContentPolicy
 :
 :
-TYPE_OTHER
+TYPE_XBL
 aBoundDocument
 )
 ;
