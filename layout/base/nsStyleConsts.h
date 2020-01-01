@@ -114,7 +114,14 @@ int
 NS_PRECONDITION
 (
 side
+>
+=
+NS_SIDE_TOP
+&
+&
+side
 <
+=
 NS_SIDE_LEFT
 "
 Out

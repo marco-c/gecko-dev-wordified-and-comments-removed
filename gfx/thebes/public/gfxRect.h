@@ -169,8 +169,14 @@ int
 NS_PRECONDITION
 (
 corner
-<
+>
+=
 NS_CORNER_TOP_LEFT
+&
+&
+corner
+<
+NS_NUM_CORNERS
 "
 Out
 of
