@@ -790,6 +790,11 @@ inGenexpLambda
 1
 ;
 bool
+hasDestructuringArgs
+:
+1
+;
+bool
 useAsm
 :
 1
