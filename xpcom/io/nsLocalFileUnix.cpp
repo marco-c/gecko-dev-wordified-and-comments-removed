@@ -5216,13 +5216,9 @@ fs_buf
 .
 F_BSIZE
 *
-(
 fs_buf
 .
 f_bavail
--
-1
-)
 ;
 #
 ifdef
