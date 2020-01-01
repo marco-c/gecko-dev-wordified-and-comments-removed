@@ -53,3 +53,11 @@ String
 "
 }
 ;
+bool
+AvmCore
+:
+:
+sse2_available
+=
+false
+;

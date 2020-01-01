@@ -1204,6 +1204,10 @@ k_str
 ]
 ;
 static
+bool
+sse2_available
+;
+static
 inline
 bool
 use_sse2
@@ -1211,7 +1215,7 @@ use_sse2
 )
 {
 return
-true
+sse2_available
 ;
 }
 static
