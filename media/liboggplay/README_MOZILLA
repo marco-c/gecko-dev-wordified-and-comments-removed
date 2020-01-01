@@ -115,6 +115,16 @@ config
 .
 h
 .
+bug481921
+:
+fix
+a
+crash
+in
+oggplay_callback_info_prepare
+(
+)
+.
 trac466
 :
 Fix

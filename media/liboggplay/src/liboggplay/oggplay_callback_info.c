@@ -566,6 +566,15 @@ p
 next
 )
 {
+if
+(
+!
+p
+-
+>
+has_been_presented
+)
+{
 track_info
 -
 >
@@ -611,6 +620,7 @@ has_been_presented
 =
 1
 ;
+}
 }
 }
 if
