@@ -8132,6 +8132,8 @@ i
 {
 ok
 =
+!
+!
 JS_XDRUint32
 (
 xdr
@@ -8210,6 +8212,8 @@ JSXDR_DECODE
 {
 ok
 =
+!
+!
 js_AddLocal
 (
 xdr
@@ -8270,6 +8274,8 @@ i
 ;
 ok
 =
+!
+!
 js_XDRStringAtom
 (
 xdr
@@ -8343,6 +8349,8 @@ JSLOCAL_UPVAR
 ;
 ok
 =
+!
+!
 js_AddLocal
 (
 xdr
