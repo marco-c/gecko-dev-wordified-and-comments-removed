@@ -862,6 +862,7 @@ presContext
 i
 PR_TRUE
 PR_FALSE
+PR_FALSE
 )
 ;
 }
@@ -2957,6 +2958,8 @@ aIndex
 PRBool
 aSelected
 PRBool
+aChangeOptionState
+PRBool
 aNotify
 )
 {
@@ -3003,6 +3006,11 @@ aIndex
 )
 ;
 }
+if
+(
+aChangeOptionState
+)
+{
 nsCOMPtr
 <
 nsIDOMNode
@@ -3044,6 +3052,7 @@ aSelected
 aNotify
 )
 ;
+}
 }
 if
 (
@@ -3493,6 +3502,7 @@ selectFrame
 presContext
 optIndex
 PR_TRUE
+PR_TRUE
 aNotify
 )
 ;
@@ -3630,6 +3640,7 @@ selectFrame
 presContext
 optIndex
 PR_FALSE
+PR_TRUE
 aNotify
 )
 ;
@@ -3755,6 +3766,7 @@ selectFrame
 presContext
 optIndex
 PR_FALSE
+PR_TRUE
 aNotify
 )
 ;

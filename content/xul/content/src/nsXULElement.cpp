@@ -4306,6 +4306,9 @@ nsGkAtoms
 :
 window
 )
+&
+&
+aValue
 )
 {
 HideWindowChrome
