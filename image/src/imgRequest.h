@@ -309,16 +309,6 @@ nsIRequest
 aRequest
 )
 ;
-bool
-GetMultipart
-(
-)
-const
-{
-return
-mIsMultiPartChannel
-;
-}
 PRInt32
 GetCORSMode
 (

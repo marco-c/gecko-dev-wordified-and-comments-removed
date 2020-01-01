@@ -713,10 +713,6 @@ SourceDataComplete
 nsresult
 NewSourceData
 (
-const
-char
-*
-aMimeType
 )
 ;
 nsresult
