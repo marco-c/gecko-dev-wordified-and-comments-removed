@@ -655,6 +655,14 @@ browserBundle
 bundle_browser
 "
 ]
+[
+"
+contentShowing
+"
+"
+bcast_contentShowing
+"
+]
 ]
 .
 forEach
