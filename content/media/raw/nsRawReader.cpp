@@ -788,7 +788,7 @@ sizeof
 nsRawPacketHeader
 )
 ;
-nsAutoPtr
+nsAutoArrayPtr
 <
 PRUint8
 >
