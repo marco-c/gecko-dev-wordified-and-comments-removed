@@ -1106,6 +1106,17 @@ block
 )
 ;
 bool
+allocateInstruction
+(
+LBlock
+*
+block
+LInstruction
+*
+ins
+)
+;
+bool
 mergePhiState
 (
 LBlock
