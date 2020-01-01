@@ -69,9 +69,7 @@ places
 .
 js
 )
-#
-ifdef
-PLACES_QUERY_BUILDER
+*
 content
 /
 browser
@@ -88,8 +86,6 @@ places
 .
 xml
 )
-#
-endif
 content
 /
 browser

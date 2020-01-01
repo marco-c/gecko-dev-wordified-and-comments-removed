@@ -858,6 +858,9 @@ handlers
 /
 binding
 >
+#
+ifdef
+PLACES_QUERY_BUILDER
 <
 binding
 id
@@ -5312,6 +5315,8 @@ calendar
 -
 -
 >
+#
+endif
 <
 /
 bindings
