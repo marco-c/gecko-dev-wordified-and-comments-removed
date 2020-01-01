@@ -24,6 +24,9 @@ arch
 '
 x86
 '
+noWindow
+=
+False
 )
 :
     
@@ -37,6 +40,9 @@ homedir
 arch
 =
 arch
+noWindow
+=
+noWindow
 )
     
 qemu
@@ -296,6 +302,42 @@ pid
 '
 )
     
+parser
+.
+add_option
+(
+'
+-
+-
+no
+-
+window
+'
+dest
+=
+'
+noWindow
+'
+action
+=
+'
+store_true
+'
+                      
+help
+=
+'
+pass
+-
+no
+-
+window
+to
+the
+emulator
+'
+)
+    
 options
 args
 =
@@ -359,4 +401,10 @@ arch
 options
 .
 arch
+                
+noWindow
+=
+options
+.
+noWindow
 )
