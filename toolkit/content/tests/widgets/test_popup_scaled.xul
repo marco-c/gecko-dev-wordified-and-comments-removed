@@ -708,12 +708,6 @@ if
 screenTest
 )
 {
-setScale
-(
-window
-1
-)
-;
 SimpleTest
 .
 finish
