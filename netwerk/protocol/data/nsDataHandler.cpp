@@ -205,7 +205,7 @@ nsDataHandler
 :
 GetDefaultPort
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -226,7 +226,7 @@ nsDataHandler
 :
 GetProtocolFlags
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -562,7 +562,7 @@ nsDataHandler
 :
 AllowPort
 (
-PRInt32
+int32_t
 port
 const
 char

@@ -4178,7 +4178,7 @@ ContainerParameters
 aContainerParameters
 )
 {
-PRInt32
+int32_t
 appUnitsPerDevPixel
 =
 mFrame

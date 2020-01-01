@@ -151,14 +151,14 @@ EPSILON
 ;
 static
 const
-PRInt32
+int32_t
 PAN_REPAINT_INTERVAL
 =
 250
 ;
 static
 const
-PRInt32
+int32_t
 FLING_REPAINT_INTERVAL
 =
 75
@@ -589,7 +589,7 @@ touches
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -1290,7 +1290,7 @@ touch
 .
 mScreenPoint
 ;
-PRInt32
+int32_t
 xPos
 =
 point
@@ -2545,7 +2545,7 @@ touch
 .
 mScreenPoint
 ;
-PRInt32
+int32_t
 xPos
 =
 point
@@ -2671,7 +2671,7 @@ mResolution
 .
 width
 ;
-PRInt32
+int32_t
 xDisplacement
 =
 mX
@@ -2682,7 +2682,7 @@ inverseScale
 timeDelta
 )
 ;
-PRInt32
+int32_t
 yDisplacement
 =
 mY

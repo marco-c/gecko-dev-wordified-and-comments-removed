@@ -168,7 +168,7 @@ mSpanChange
 float
 mPreviousSpan
 ;
-PRUint64
+uint64_t
 mTapStartTime
 ;
 MultiTouchInput

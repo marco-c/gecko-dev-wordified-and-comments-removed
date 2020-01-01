@@ -140,7 +140,7 @@ START_SCROLL_ID
 =
 2
 ;
-PRUint8
+uint8_t
 gLayerManagerLayerBuilder
 ;
 #
@@ -470,7 +470,7 @@ d
 g
 )
 "
-PRUint8
+uint8_t
 (
 c
 .
@@ -480,7 +480,7 @@ r
 .
 0
 )
-PRUint8
+uint8_t
 (
 c
 .
@@ -490,7 +490,7 @@ g
 .
 0
 )
-PRUint8
+uint8_t
 (
 c
 .
@@ -1604,7 +1604,7 @@ result
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2706,7 +2706,7 @@ Clear
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
@@ -2769,7 +2769,7 @@ segments
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -2994,7 +2994,7 @@ mEndValues
 ;
 for
 (
-PRUint32
+uint32_t
 j
 =
 0
@@ -4349,7 +4349,7 @@ HasMultipleChildren
 (
 )
 {
-PRUint32
+uint32_t
 count
 =
 0
@@ -5233,7 +5233,7 @@ string
 AppendInt
 (
 (
-PRUint64
+uint64_t
 )
 aObj
 )
@@ -5307,7 +5307,7 @@ string
 AppendInt
 (
 (
-PRUint64
+uint64_t
 )
 aObj
 )

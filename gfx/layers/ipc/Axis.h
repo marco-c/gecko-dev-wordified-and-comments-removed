@@ -66,7 +66,7 @@ OVERSCROLL_BOTH
 void
 UpdateWithTouchAtDevicePoint
 (
-PRInt32
+int32_t
 aPos
 const
 TimeDuration
@@ -77,7 +77,7 @@ aTimeDelta
 void
 StartTouch
 (
-PRInt32
+int32_t
 aPos
 )
 ;
@@ -139,7 +139,7 @@ GetVelocity
 Overscroll
 DisplacementWillOverscroll
 (
-PRInt32
+int32_t
 aDisplacement
 )
 ;
@@ -155,7 +155,7 @@ ScaleWillOverscroll
 (
 float
 aScale
-PRInt32
+int32_t
 aFocus
 )
 ;
@@ -252,16 +252,16 @@ aRect
 ;
 protected
 :
-PRInt32
+int32_t
 mPos
 ;
-PRInt32
+int32_t
 mStartPos
 ;
 float
 mVelocity
 ;
-PRInt32
+int32_t
 mAcceleration
 ;
 nsRefPtr

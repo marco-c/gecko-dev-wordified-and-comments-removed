@@ -114,7 +114,7 @@ Axis
 :
 UpdateWithTouchAtDevicePoint
 (
-PRInt32
+int32_t
 aPos
 const
 TimeDuration
@@ -274,7 +274,7 @@ Axis
 :
 StartTouch
 (
-PRInt32
+int32_t
 aPos
 )
 {
@@ -638,7 +638,7 @@ Axis
 :
 DisplacementWillOverscroll
 (
-PRInt32
+int32_t
 aDisplacement
 )
 {
