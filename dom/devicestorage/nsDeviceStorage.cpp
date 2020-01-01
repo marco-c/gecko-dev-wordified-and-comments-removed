@@ -105,6 +105,15 @@ DictionaryHelpers
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -121,6 +130,7 @@ h
 "
 class
 DeviceStorageFile
+MOZ_FINAL
 :
 public
 nsISupports
