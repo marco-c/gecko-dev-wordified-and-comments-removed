@@ -22631,14 +22631,14 @@ PR_FALSE
 }
 static
 void
-ConvertCocoaKeyEventToMacEvent
+ConvertCocoaKeyEventToCarbonEvent
 (
 NSEvent
 *
 cocoaEvent
 EventRecord
 &
-macEvent
+pluginEvent
 PRUint32
 keyType
 =
@@ -22663,7 +22663,7 @@ type
 NSFlagsChanged
 )
 {
-macEvent
+pluginEvent
 .
 what
 =
@@ -22713,7 +22713,7 @@ type
 =
 NSKeyDown
 )
-macEvent
+pluginEvent
 .
 what
 =
@@ -22727,7 +22727,7 @@ autoKey
 keyDown
 ;
 else
-macEvent
+pluginEvent
 .
 what
 =
@@ -22831,7 +22831,7 @@ break
 ;
 }
 }
-macEvent
+pluginEvent
 .
 message
 =
@@ -22854,7 +22854,7 @@ cocoaEvent
 8
 )
 ;
-macEvent
+pluginEvent
 .
 when
 =
@@ -22869,12 +22869,12 @@ TickCount
 GetGlobalMouse
 (
 &
-macEvent
+pluginEvent
 .
 where
 )
 ;
-macEvent
+pluginEvent
 .
 modifiers
 =
@@ -29185,7 +29185,7 @@ event
 .
 .
 .
-ConvertCocoaKeyEventToMacEvent
+ConvertCocoaKeyEventToCarbonEvent
 (
 mCurKeyEvent
 macEvent
@@ -31728,7 +31728,7 @@ plugins
 EventRecord
 macEvent
 ;
-ConvertCocoaKeyEventToMacEvent
+ConvertCocoaKeyEventToCarbonEvent
 (
 theEvent
 macEvent
@@ -32064,7 +32064,7 @@ plugins
 EventRecord
 macEvent
 ;
-ConvertCocoaKeyEventToMacEvent
+ConvertCocoaKeyEventToCarbonEvent
 (
 theEvent
 macEvent
@@ -32336,7 +32336,7 @@ plugins
 EventRecord
 macEvent
 ;
-ConvertCocoaKeyEventToMacEvent
+ConvertCocoaKeyEventToCarbonEvent
 (
 theEvent
 macEvent
@@ -33494,7 +33494,7 @@ keyUpEvent
 EventRecord
 macKeyUpEvent
 ;
-ConvertCocoaKeyEventToMacEvent
+ConvertCocoaKeyEventToCarbonEvent
 (
 theEvent
 macKeyUpEvent
@@ -33727,7 +33727,7 @@ plugins
 EventRecord
 macEvent
 ;
-ConvertCocoaKeyEventToMacEvent
+ConvertCocoaKeyEventToCarbonEvent
 (
 nativeKeyDownEvent
 macEvent
@@ -33890,7 +33890,7 @@ plugins
 EventRecord
 macEvent
 ;
-ConvertCocoaKeyEventToMacEvent
+ConvertCocoaKeyEventToCarbonEvent
 (
 nativeKeyDownEvent
 macEvent
@@ -33950,7 +33950,7 @@ plugins
 EventRecord
 macEvent
 ;
-ConvertCocoaKeyEventToMacEvent
+ConvertCocoaKeyEventToCarbonEvent
 (
 theEvent
 macEvent
@@ -35208,7 +35208,7 @@ plugins
 EventRecord
 macEvent
 ;
-ConvertCocoaKeyEventToMacEvent
+ConvertCocoaKeyEventToCarbonEvent
 (
 theEvent
 macEvent

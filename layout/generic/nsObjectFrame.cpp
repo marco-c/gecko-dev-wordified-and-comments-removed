@@ -12903,17 +12903,6 @@ nsIDOMNodeList
 >
 allParams
 ;
-nsINodeInfo
-*
-ni
-=
-mContent
--
->
-NodeInfo
-(
-)
-;
 nsCOMPtr
 <
 nsIPluginInstanceOwner
