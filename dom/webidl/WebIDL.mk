@@ -1477,6 +1477,10 @@ URLUtils
 .
 webidl
 \
+URLUtilsReadOnly
+.
+webidl
+\
 ValidityState
 .
 webidl
@@ -1506,6 +1510,10 @@ WheelEvent
 webidl
 \
 Window
+.
+webidl
+\
+WorkerLocation
 .
 webidl
 \
