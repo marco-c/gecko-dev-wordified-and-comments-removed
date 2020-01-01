@@ -448,6 +448,14 @@ inner
 .
 html
 \
+bug92773_helper
+.
+html
+\
+test_bug92773
+.
+html
+\
 test_bug361111
 .
 xul
