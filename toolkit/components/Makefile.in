@@ -603,15 +603,6 @@ DIRS
 +
 =
 passwordmgr
-ifndef
-MOZ_PLACES
-DIRS
-+
-=
-history
-endif
-#
-MOZ_PLACES
 endif
 #
 MOZ_SUITE
