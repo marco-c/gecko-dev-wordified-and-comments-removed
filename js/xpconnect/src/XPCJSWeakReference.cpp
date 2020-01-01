@@ -91,7 +91,7 @@ supports
 nsXPConnect
 :
 :
-GetXPConnect
+XPConnect
 (
 )
 -
