@@ -252,6 +252,17 @@ PRUint32
 aDir
 )
 ;
+PRUnichar
+HandleNumberInChar
+(
+PRUnichar
+aChar
+PRBool
+aPrevCharArabic
+PRUint32
+aNumFlag
+)
+;
 nsresult
 HandleNumbers
 (

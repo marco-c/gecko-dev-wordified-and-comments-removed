@@ -4140,6 +4140,9 @@ DEBUG
 PRUint32
 mCachedWords
 ;
+PRUint32
+mCacheGeneration
+;
 void
 Dump
 (
