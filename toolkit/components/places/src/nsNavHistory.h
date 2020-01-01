@@ -2046,9 +2046,6 @@ PRInt64
 mTagRoot
 ;
 PRInt64
-nsNavHistory
-:
-:
 GetTagRoot
 (
 )
