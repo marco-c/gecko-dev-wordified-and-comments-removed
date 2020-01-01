@@ -15950,7 +15950,7 @@ argv
 )
 &
 &
-JS_ObjectIsCallable
+JS_ObjectIsFunction
 (
 cx
 JSVAL_TO_OBJECT
