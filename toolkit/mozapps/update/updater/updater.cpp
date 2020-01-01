@@ -6814,6 +6814,14 @@ argv
 #
 ifdef
 XP_WIN
+UACHelper
+:
+:
+DisablePrivileges
+(
+NULL
+)
+;
 bool
 useService
 =
