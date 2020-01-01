@@ -591,7 +591,7 @@ Shader
 ifdef
 GL_ES
 precision
-mediump
+lowp
 float
 ;
 #
