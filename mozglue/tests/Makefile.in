@@ -77,7 +77,7 @@ autoconf
 mk
 ifdef
 MOZ_LINKER
-SIMPLE_PROGRAMS
+DISABLE_SIMPLE_PROGRAMS
 :
 =
 TestZip
