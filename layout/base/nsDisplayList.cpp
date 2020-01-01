@@ -2746,6 +2746,11 @@ container
 )
 )
 ;
+if
+(
+container
+)
+{
 PRUint32
 nframes
 ;
@@ -2783,6 +2788,11 @@ imgFrame
 )
 )
 ;
+if
+(
+imgFrame
+)
+{
 nsCOMPtr
 <
 nsIImage
@@ -2809,6 +2819,8 @@ return
 !
 hasMask
 ;
+}
+}
 }
 }
 }
