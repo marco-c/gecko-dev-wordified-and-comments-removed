@@ -5322,7 +5322,7 @@ chrome
 :
 /
 /
-passwordmgr
+browser
 /
 locale
 /

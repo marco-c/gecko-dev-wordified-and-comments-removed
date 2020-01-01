@@ -261,7 +261,7 @@ chrome
 :
 /
 /
-passwordmgr
+browser
 /
 locale
 /
@@ -1394,7 +1394,7 @@ this
 _getLocalizedString
 (
 "
-notifyBarDontChangeButtonText
+notifyBarDontChangeButtonText2
 "
 )
 ;
