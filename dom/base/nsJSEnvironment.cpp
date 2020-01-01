@@ -13239,7 +13239,7 @@ Reason
 (
 reason
 )
-nsGCNormal
+nsGCIncremental
 false
 )
 ;
