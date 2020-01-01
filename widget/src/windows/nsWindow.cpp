@@ -10245,6 +10245,14 @@ QS_INPUT
 return
 PR_TRUE
 ;
+#
+ifdef
+WINCE
+return
+PR_FALSE
+;
+#
+else
 GUITHREADINFO
 guiInfo
 ;
@@ -10284,6 +10292,8 @@ flags
 GUI_INMOVESIZE
 )
 ;
+#
+endif
 }
 gfxASurface
 *
