@@ -93,17 +93,3 @@ MPL
 0
 /
 .
-DIRS
-+
-=
-[
-'
-applets
-/
-org
-/
-w3c
-/
-domts
-'
-]
