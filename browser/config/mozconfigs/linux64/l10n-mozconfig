@@ -50,6 +50,12 @@ CC
 tools
 /
 gcc
+-
+4
+.
+5
+-
+0moz2
 /
 bin
 /
@@ -60,6 +66,12 @@ CXX
 tools
 /
 gcc
+-
+4
+.
+5
+-
+0moz2
 /
 bin
 /
