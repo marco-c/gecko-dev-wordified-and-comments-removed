@@ -843,6 +843,10 @@ alghmac
 .
 c
 \
+mgf1
+.
+c
+\
 rawhash
 .
 c

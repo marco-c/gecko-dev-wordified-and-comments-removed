@@ -1400,9 +1400,6 @@ N
 mp_digit
 n0prime
 ;
-mp_size
-b
-;
 }
 mp_mont_modulus
 ;

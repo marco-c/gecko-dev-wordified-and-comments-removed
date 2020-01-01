@@ -528,9 +528,6 @@ c
 (
 NULL
 )
-REQUIRES
-=
-dbm
 LIBRARY_NAME
 =
 pkixchecker

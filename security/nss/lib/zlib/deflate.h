@@ -420,6 +420,9 @@ bi_buf
 int
 bi_valid
 ;
+ulg
+high_water
+;
 }
 FAR
 deflate_state
@@ -476,7 +479,12 @@ w_size
 -
 MIN_LOOKAHEAD
 )
+#
+define
+WIN_INIT
+MAX_MATCH
 void
+ZLIB_INTERNAL
 _tr_init
 OF
 (
@@ -488,6 +496,7 @@ s
 )
 ;
 int
+ZLIB_INTERNAL
 _tr_tally
 OF
 (
@@ -503,6 +512,7 @@ lc
 )
 ;
 void
+ZLIB_INTERNAL
 _tr_flush_block
 OF
 (
@@ -516,11 +526,12 @@ buf
 ulg
 stored_len
 int
-eof
+last
 )
 )
 ;
 void
+ZLIB_INTERNAL
 _tr_align
 OF
 (
@@ -532,6 +543,7 @@ s
 )
 ;
 void
+ZLIB_INTERNAL
 _tr_stored_block
 OF
 (
@@ -545,7 +557,7 @@ buf
 ulg
 stored_len
 int
-eof
+last
 )
 )
 ;
@@ -600,12 +612,14 @@ STDC
 )
 extern
 uch
+ZLIB_INTERNAL
 _length_code
 [
 ]
 ;
 extern
 uch
+ZLIB_INTERNAL
 _dist_code
 [
 ]
@@ -615,6 +629,7 @@ else
 extern
 const
 uch
+ZLIB_INTERNAL
 _length_code
 [
 ]
@@ -622,6 +637,7 @@ _length_code
 extern
 const
 uch
+ZLIB_INTERNAL
 _dist_code
 [
 ]

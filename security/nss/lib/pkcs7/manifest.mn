@@ -459,9 +459,6 @@ c
 (
 NULL
 )
-REQUIRES
-=
-dbm
 LIBRARY_NAME
 =
 pkcs7

@@ -523,6 +523,10 @@ NULL
 PRIVATE_EXPORTS
 =
 \
+errstrs
+.
+h
+\
 templates
 .
 c
@@ -554,6 +558,10 @@ dersubr
 c
 \
 dertime
+.
+c
+\
+errstrs
 .
 c
 \

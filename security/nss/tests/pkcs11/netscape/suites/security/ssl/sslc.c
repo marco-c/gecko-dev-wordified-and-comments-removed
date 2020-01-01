@@ -980,11 +980,8 @@ s
 \
 n
 "
-SECU_ErrorString
+SECU_Strerror
 (
-(
-int16
-)
 PR_GetError
 (
 )

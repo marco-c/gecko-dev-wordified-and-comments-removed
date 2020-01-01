@@ -397,9 +397,6 @@ CORE_DEPTH
 MODULE
 =
 nss
-REQUIRES
-=
-dbm
 LIBRARY_NAME
 =
 cryptohi
@@ -439,7 +436,7 @@ PRIVATE_EXPORTS
 (
 NULL
 )
-LIBSRCS
+CSRCS
 =
 \
 sechash
@@ -464,11 +461,6 @@ c
 \
 (
 NULL
-)
-CSRCS
-=
-(
-LIBSRCS
 )
 #
 This

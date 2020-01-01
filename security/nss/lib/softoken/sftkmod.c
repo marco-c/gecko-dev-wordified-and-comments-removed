@@ -2593,6 +2593,11 @@ PORT_Free
 name
 )
 ;
+PORT_Free
+(
+block
+)
+;
 return
 SECSuccess
 ;

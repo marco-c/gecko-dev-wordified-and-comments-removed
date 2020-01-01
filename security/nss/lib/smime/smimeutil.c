@@ -2609,3 +2609,15 @@ importedVersion
 )
 ;
 }
+const
+char
+*
+NSSSMIME_GetVersion
+(
+void
+)
+{
+return
+NSS_VERSION
+;
+}

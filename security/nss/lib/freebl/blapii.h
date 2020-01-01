@@ -23,11 +23,11 @@ XP_UNIX
 !
 defined
 (
-NO_CHECK_FORK
+NO_FORK_CHECK
 )
 extern
 PRBool
-parentForkedAfterC_Initialize
+bl_parentForkedAfterC_Initialize
 ;
 #
 define
@@ -38,7 +38,7 @@ x
 if
 (
 !
-parentForkedAfterC_Initialize
+bl_parentForkedAfterC_Initialize
 )
 x
 #

@@ -532,9 +532,6 @@ c
 (
 NULL
 )
-REQUIRES
-=
-dbm
 LIBRARY_NAME
 =
 smime

@@ -649,9 +649,6 @@ signerinfo
 >
 cert
 ;
-if
-(
-(
 privkey
 =
 PK11_FindKeyByAnyCert
@@ -665,7 +662,10 @@ cmsg
 >
 pwfn_arg
 )
-)
+;
+if
+(
+privkey
 =
 =
 NULL
@@ -1002,6 +1002,10 @@ PORT_FreeArena
 tmppoolp
 PR_FALSE
 )
+;
+tmppoolp
+=
+0
 ;
 }
 else

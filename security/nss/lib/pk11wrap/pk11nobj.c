@@ -425,7 +425,7 @@ if
 serverAuth
 =
 =
-CKT_NETSCAPE_TRUSTED
+CKT_NSS_TRUSTED
 )
 {
 trust
@@ -434,7 +434,7 @@ trust
 sslFlags
 |
 =
-CERTDB_VALID_PEER
+CERTDB_TERMINAL_RECORD
 |
 CERTDB_TRUSTED
 ;
@@ -444,7 +444,7 @@ if
 serverAuth
 =
 =
-CKT_NETSCAPE_TRUSTED_DELEGATOR
+CKT_NSS_TRUSTED_DELEGATOR
 )
 {
 trust
@@ -465,7 +465,7 @@ if
 clientAuth
 =
 =
-CKT_NETSCAPE_TRUSTED_DELEGATOR
+CKT_NSS_TRUSTED_DELEGATOR
 )
 {
 trust
@@ -482,7 +482,7 @@ if
 emailProtection
 =
 =
-CKT_NETSCAPE_TRUSTED
+CKT_NSS_TRUSTED
 )
 {
 trust
@@ -491,7 +491,7 @@ trust
 emailFlags
 |
 =
-CERTDB_VALID_PEER
+CERTDB_TERMINAL_RECORD
 |
 CERTDB_TRUSTED
 ;
@@ -501,7 +501,7 @@ if
 emailProtection
 =
 =
-CKT_NETSCAPE_TRUSTED_DELEGATOR
+CKT_NSS_TRUSTED_DELEGATOR
 )
 {
 trust
@@ -522,7 +522,7 @@ if
 codeSigning
 =
 =
-CKT_NETSCAPE_TRUSTED
+CKT_NSS_TRUSTED
 )
 {
 trust
@@ -531,7 +531,7 @@ trust
 objectSigningFlags
 |
 =
-CERTDB_VALID_PEER
+CERTDB_TERMINAL_RECORD
 |
 CERTDB_TRUSTED
 ;
@@ -541,7 +541,7 @@ if
 codeSigning
 =
 =
-CKT_NETSCAPE_TRUSTED_DELEGATOR
+CKT_NSS_TRUSTED_DELEGATOR
 )
 {
 trust

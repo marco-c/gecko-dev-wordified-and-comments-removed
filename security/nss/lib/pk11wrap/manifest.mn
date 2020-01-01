@@ -535,9 +535,6 @@ c
 (
 NULL
 )
-REQUIRES
-=
-dbm
 LIBRARY_NAME
 =
 pk11wrap

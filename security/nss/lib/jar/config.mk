@@ -458,6 +458,7 @@ ifeq
 filter
 -
 out
+i386
 x386
 x86
 x86_64

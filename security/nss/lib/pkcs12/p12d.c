@@ -7087,9 +7087,6 @@ cert
 sec_PKCS12SafeBag
 *
 key
-void
-*
-wincx
 )
 {
 SECItem
@@ -7182,9 +7179,6 @@ key
 SECItem
 *
 nickname
-void
-*
-wincx
 )
 {
 if
@@ -7728,9 +7722,6 @@ sec_pkcs12_get_existing_nick_for_dn
 sec_PKCS12SafeBag
 *
 cert
-void
-*
-wincx
 )
 {
 struct
@@ -8133,9 +8124,9 @@ sec_PKCS12SafeBag
 key
 SEC_PKCS12NicknameCollisionCallback
 nicknameCb
-void
+CERTCertificate
 *
-wincx
+leafCert
 )
 {
 SECItem
@@ -8247,7 +8238,6 @@ sec_pkcs12_get_nickname_for_cert
 (
 cert
 key
-wincx
 )
 ;
 existingDNNick
@@ -8255,7 +8245,6 @@ existingDNNick
 sec_pkcs12_get_existing_nick_for_dn
 (
 cert
-wincx
 )
 ;
 if
@@ -8290,7 +8279,6 @@ sec_pkcs12_set_nickname_for_cert
 cert
 key
 existingDNNick
-wincx
 )
 ;
 goto
@@ -8338,7 +8326,6 @@ sec_pkcs12_set_nickname_for_cert
 cert
 key
 certNickname
-wincx
 )
 ;
 }
@@ -8359,7 +8346,7 @@ nicknameCb
 certNickname
 &
 cancel
-wincx
+leafCert
 )
 ;
 if
@@ -8473,9 +8460,6 @@ sec_PKCS12SafeBag
 key
 SEC_PKCS12NicknameCollisionCallback
 nicknameCb
-void
-*
-wincx
 )
 {
 CERTCertificate
@@ -8658,10 +8642,6 @@ sec_pkcs12_validate_cert_nickname
 cert
 key
 nicknameCb
-(
-void
-*
-)
 leafCert
 )
 ;
@@ -10302,7 +10282,6 @@ sec_pkcs12_validate_cert
 cert
 key
 nicknameCb
-wincx
 )
 ;
 if
@@ -10397,7 +10376,6 @@ sec_pkcs12_validate_cert
 bag
 NULL
 nicknameCb
-wincx
 )
 ;
 break
@@ -11034,7 +11012,6 @@ certList
 0
 ]
 key
-wincx
 )
 ;
 }

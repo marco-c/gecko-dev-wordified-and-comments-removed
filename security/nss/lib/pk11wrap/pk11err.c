@@ -474,7 +474,7 @@ sec_error
 }
 }
 return
-SEC_ERROR_IO
+SEC_ERROR_UNKNOWN_PKCS11_ERROR
 ;
 }
 #
@@ -485,7 +485,7 @@ break
 ;
 }
 return
-SEC_ERROR_IO
+SEC_ERROR_UNKNOWN_PKCS11_ERROR
 ;
 }
 #

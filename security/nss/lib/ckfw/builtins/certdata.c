@@ -22,11 +22,7 @@ Revision
 :
 1
 .
-67
-.
-2
-.
-10
+78
 Date
 :
 2011
@@ -36,9 +32,9 @@ Date
 01
 06
 :
-40
+33
 :
-03
+46
 "
 "
 ;
@@ -55,11 +51,7 @@ Revision
 :
 1
 .
-67
-.
-2
-.
-10
+78
 Date
 :
 2011
@@ -69,9 +61,9 @@ Date
 01
 06
 :
-40
+33
 :
-03
+46
 "
 ;
 #
@@ -126,44 +118,44 @@ CKO_DATA
 static
 const
 CK_OBJECT_CLASS
-cko_netscape_builtin_root_list
+cko_nss_builtin_root_list
 =
-CKO_NETSCAPE_BUILTIN_ROOT_LIST
+CKO_NSS_BUILTIN_ROOT_LIST
 ;
 static
 const
 CK_OBJECT_CLASS
-cko_netscape_trust
+cko_nss_trust
 =
-CKO_NETSCAPE_TRUST
+CKO_NSS_TRUST
 ;
 static
 const
 CK_TRUST
-ckt_netscape_trust_unknown
+ckt_nss_must_verify_trust
 =
-CKT_NETSCAPE_TRUST_UNKNOWN
+CKT_NSS_MUST_VERIFY_TRUST
 ;
 static
 const
 CK_TRUST
-ckt_netscape_trusted_delegator
+ckt_nss_not_trusted
 =
-CKT_NETSCAPE_TRUSTED_DELEGATOR
+CKT_NSS_NOT_TRUSTED
 ;
 static
 const
 CK_TRUST
-ckt_netscape_untrusted
+ckt_nss_trust_unknown
 =
-CKT_NETSCAPE_UNTRUSTED
+CKT_NSS_TRUST_UNKNOWN
 ;
 static
 const
 CK_TRUST
-ckt_netscape_valid
+ckt_nss_trusted_delegator
 =
-CKT_NETSCAPE_VALID
+CKT_NSS_TRUSTED_DELEGATOR
 ;
 #
 ifdef
@@ -7535,11 +7527,7 @@ Revision
 :
 1
 .
-67
-.
-2
-.
-10
+78
 Date
 :
 2011
@@ -7549,9 +7537,9 @@ Date
 01
 06
 :
-40
+33
 :
-03
+46
 "
 "
 ;
@@ -7568,11 +7556,7 @@ Revision
 :
 1
 .
-67
-.
-2
-.
-10
+78
 Date
 :
 2011
@@ -7582,14 +7566,14 @@ Date
 01
 06
 :
-40
+33
 :
-03
+46
 "
 (
 PRUint32
 )
-164
+160
 }
 }
 ;
@@ -7609,7 +7593,7 @@ void
 *
 )
 &
-cko_netscape_builtin_root_list
+cko_nss_builtin_root_list
 (
 PRUint32
 )
@@ -9654,7 +9638,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -10112,7 +10096,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -10127,7 +10111,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -10142,7 +10126,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -12873,7 +12857,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -13498,7 +13482,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -13513,7 +13497,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -13528,7 +13512,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -16346,7 +16330,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -16994,7 +16978,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -17009,7 +16993,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -17024,7 +17008,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -19281,7 +19265,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -19658,7 +19642,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -19673,7 +19657,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -19688,7 +19672,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -21936,7 +21920,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -22302,7 +22286,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -22317,7 +22301,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -22332,7 +22316,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -24580,7 +24564,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -24946,7 +24930,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -24961,7 +24945,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -24976,7 +24960,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -26859,7 +26843,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -27306,7 +27290,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -27321,7 +27305,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -27336,7 +27320,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -29213,7 +29197,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -29658,7 +29642,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -29673,7 +29657,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -29688,7 +29672,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -31565,7 +31549,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -32010,7 +31994,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -32025,7 +32009,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -32040,7 +32024,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -34761,7 +34745,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -35418,7 +35402,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -35433,7 +35417,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -35448,7 +35432,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -38173,7 +38157,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -38832,7 +38816,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -38847,7 +38831,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -38862,7 +38846,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -41583,7 +41567,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -42240,7 +42224,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -42255,7 +42239,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -42270,7 +42254,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -44991,7 +44975,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -45648,7 +45632,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -45663,7 +45647,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -45678,7 +45662,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -48169,7 +48153,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -48580,7 +48564,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -48595,7 +48579,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -48610,7 +48594,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -51201,7 +51185,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -51590,7 +51574,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -51605,7 +51589,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -51620,7 +51604,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -54218,7 +54202,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -54824,7 +54808,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -54839,7 +54823,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -54854,7 +54838,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -57452,7 +57436,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -58058,7 +58042,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -58073,7 +58057,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -58088,7 +58072,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -60686,7 +60670,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -61292,7 +61276,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -61307,7 +61291,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -61322,7 +61306,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -64675,7 +64659,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -65352,7 +65336,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -65367,7 +65351,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -65382,7 +65366,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -68731,7 +68715,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -69406,7 +69390,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -69421,7 +69405,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -69436,7 +69420,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -72789,7 +72773,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -73466,7 +73450,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -73481,7 +73465,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -73496,7 +73480,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -76849,7 +76833,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -77526,7 +77510,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -77541,7 +77525,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -77556,7 +77540,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -81254,7 +81238,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -81886,7 +81870,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -81901,7 +81885,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -81916,7 +81900,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -85288,7 +85272,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -85890,7 +85874,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -85905,7 +85889,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -85920,7 +85904,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -88413,7 +88397,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -88816,7 +88800,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -88831,7 +88815,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -88846,7 +88830,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -90845,7 +90829,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -91244,7 +91228,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -91259,7 +91243,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -91274,7 +91258,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -93215,7 +93199,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -93600,7 +93584,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -93615,7 +93599,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -93630,7 +93614,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -95889,7 +95873,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -96268,7 +96252,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -96283,7 +96267,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -96298,7 +96282,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -99178,7 +99162,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -99602,7 +99586,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -99617,7 +99601,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -99632,7 +99616,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -102617,7 +102601,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -103060,7 +103044,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -103075,7 +103059,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -103090,7 +103074,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -105958,7 +105942,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -106378,7 +106362,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -106393,7 +106377,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -106408,7 +106392,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -109308,7 +109292,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -109734,7 +109718,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -109749,7 +109733,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -109764,7 +109748,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -113230,7 +113214,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -113820,7 +113804,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -113835,7 +113819,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -113850,7 +113834,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -116188,7 +116172,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -116550,7 +116534,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -116565,7 +116549,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -116580,7 +116564,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -118897,7 +118881,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -119248,7 +119232,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -119263,7 +119247,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -119278,7 +119262,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -121638,7 +121622,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -121990,7 +121974,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -122005,7 +121989,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -122020,7 +122004,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -125475,7 +125459,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -125828,7 +125812,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -125843,7 +125827,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -125858,7 +125842,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -129330,7 +129314,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -129688,7 +129672,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -129703,7 +129687,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -129718,7 +129702,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -133061,7 +133045,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -133652,7 +133636,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -133667,7 +133651,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -133682,7 +133666,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -136308,7 +136292,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -136728,7 +136712,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -136743,7 +136727,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -136758,7 +136742,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -140472,7 +140456,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -140892,7 +140876,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -140907,7 +140891,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -140922,7 +140906,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -143605,7 +143589,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -144070,7 +144054,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -144085,7 +144069,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -144100,7 +144084,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -146954,7 +146938,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -147566,7 +147550,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -147581,7 +147565,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -147596,7 +147580,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -150450,7 +150434,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -151062,7 +151046,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -151077,7 +151061,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -151092,7 +151076,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -153235,7 +153219,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -153576,7 +153560,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -153591,7 +153575,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -153606,7 +153590,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -156632,7 +156616,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -157100,7 +157084,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -157115,7 +157099,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -157130,7 +157114,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -160196,7 +160180,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -160670,7 +160654,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -160685,7 +160669,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -160700,7 +160684,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -163782,7 +163766,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -164260,7 +164244,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -164275,7 +164259,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -164290,7 +164274,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -168221,7 +168205,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -168704,7 +168688,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -168719,7 +168703,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -168734,7 +168718,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -172360,7 +172344,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -172716,7 +172700,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -172731,7 +172715,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -172746,7 +172730,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -176862,7 +176846,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -177218,7 +177202,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -177233,7 +177217,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -177248,7 +177232,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -179634,7 +179618,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -180012,7 +179996,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -180027,7 +180011,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -180042,7 +180026,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -182207,7 +182191,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -182536,7 +182520,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -182551,7 +182535,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -182566,7 +182550,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -184731,7 +184715,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -185060,7 +185044,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -185075,7 +185059,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -185090,7 +185074,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -187707,7 +187691,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -188102,7 +188086,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -188117,7 +188101,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -188132,7 +188116,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -190912,7 +190896,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -191268,7 +191252,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -191283,7 +191267,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -191298,7 +191282,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -194508,7 +194492,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -194826,7 +194810,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -194841,7 +194825,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -194856,7 +194840,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -198117,7 +198101,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -198672,7 +198656,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -198687,7 +198671,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -198702,7 +198686,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -202223,7 +202207,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -202836,7 +202820,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -202851,7 +202835,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -202866,7 +202850,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -206189,7 +206173,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -206752,7 +206736,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -206767,7 +206751,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -206782,7 +206766,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -210067,7 +210051,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -210626,7 +210610,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -210641,7 +210625,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -210656,7 +210640,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -213999,7 +213983,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -214478,7 +214462,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -214493,7 +214477,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -214508,7 +214492,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -217854,7 +217838,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -218326,7 +218310,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -218341,7 +218325,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -218356,7 +218340,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -223147,7 +223131,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -223786,7 +223770,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -223801,7 +223785,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -223816,7 +223800,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -228323,7 +228307,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -228910,7 +228894,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -228925,7 +228909,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -228940,7 +228924,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -232697,7 +232681,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -233234,7 +233218,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -233249,7 +233233,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -233264,7 +233248,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -237039,7 +237023,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -237580,7 +237564,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -237595,7 +237579,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -237610,7 +237594,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -240700,7 +240684,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -241218,7 +241202,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -241233,7 +241217,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -241248,7 +241232,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -244069,7 +244053,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -244488,7 +244472,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -244503,7 +244487,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -244518,7 +244502,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -247390,7 +247374,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -247818,7 +247802,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -247833,7 +247817,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -247848,7 +247832,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -252833,7 +252817,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -253304,7 +253288,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -253319,7 +253303,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -253334,7 +253318,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -256818,7 +256802,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -257190,7 +257174,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -257205,7 +257189,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -257220,7 +257204,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -260471,7 +260455,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -261012,7 +260996,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -261027,7 +261011,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -261042,7 +261026,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -263946,7 +263930,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -264438,7 +264422,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -264453,7 +264437,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -264468,7 +264452,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -268328,7 +268312,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -268780,7 +268764,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -268795,7 +268779,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -268810,7 +268794,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -271515,7 +271499,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -271970,7 +271954,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -271985,7 +271969,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -272000,7 +271984,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -274672,7 +274656,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -275118,7 +275102,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -275133,7 +275117,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -275148,7 +275132,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -277912,7 +277896,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -278382,7 +278366,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -278397,7 +278381,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -278412,7 +278396,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -280869,7 +280853,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -281240,7 +281224,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -281255,7 +281239,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -281270,7 +281254,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -283582,7 +283566,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -283956,7 +283940,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -283971,7 +283955,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -283986,7 +283970,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -286820,7 +286804,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -287252,7 +287236,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -287267,7 +287251,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -287282,7 +287266,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -290452,7 +290436,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -291052,7 +291036,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -291067,7 +291051,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -291082,7 +291066,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -294422,7 +294406,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -295038,7 +295022,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -295053,7 +295037,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -295068,7 +295052,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -298745,7 +298729,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -299122,7 +299106,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -299137,7 +299121,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -299152,7 +299136,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -302799,7 +302783,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -303170,7 +303154,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -303185,7 +303169,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -303200,7 +303184,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -306861,7 +306845,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -307234,7 +307218,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -307249,7 +307233,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -307264,7 +307248,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -309786,7 +309770,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -310212,7 +310196,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -310227,7 +310211,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -310242,7 +310226,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -313462,7 +313446,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -314062,7 +314046,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -314077,7 +314061,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -314092,7 +314076,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -317837,7 +317821,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -318512,7 +318496,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -318527,7 +318511,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -318542,7 +318526,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -321122,7 +321106,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -321512,7 +321496,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -321527,7 +321511,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -321542,7 +321526,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -324139,7 +324123,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -324534,7 +324518,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -324549,7 +324533,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -324564,7 +324548,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -327609,7 +327593,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -328124,7 +328108,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -328139,7 +328123,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -328154,7 +328138,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -331825,7 +331809,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -332266,7 +332250,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -332281,7 +332265,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -332296,7 +332280,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -335088,7 +335072,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -335536,7 +335520,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -335551,7 +335535,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -335566,7 +335550,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -338937,7 +338921,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -339430,7 +339414,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -339445,7 +339429,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -339460,7 +339444,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -341662,7 +341646,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -342186,7 +342170,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -342201,7 +342185,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -342216,7 +342200,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -345040,7 +345024,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -345440,7 +345424,7 @@ void
 *
 )
 &
-ckt_netscape_untrusted
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -345455,7 +345439,7 @@ void
 *
 )
 &
-ckt_netscape_untrusted
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -345470,7 +345454,7 @@ void
 *
 )
 &
-ckt_netscape_untrusted
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -348449,7 +348433,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -348948,7 +348932,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -348963,7 +348947,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -348978,7 +348962,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -351508,7 +351492,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -351920,7 +351904,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -351935,7 +351919,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -351950,7 +351934,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -354940,7 +354924,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -355476,7 +355460,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -355491,7 +355475,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -355506,7 +355490,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -358948,7 +358932,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -359566,7 +359550,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -359581,7 +359565,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -359596,7 +359580,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -364504,7 +364488,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -364990,7 +364974,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -365005,7 +364989,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -365020,7 +365004,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -367465,7 +367449,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -367796,7 +367780,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -367811,7 +367795,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -367826,7 +367810,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -372091,7 +372075,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -372600,7 +372584,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -372615,7 +372599,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -372630,7 +372614,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -375918,7 +375902,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -376404,7 +376388,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -376419,7 +376403,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -376434,7 +376418,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -379722,7 +379706,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -380208,7 +380192,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -380223,7 +380207,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -380238,7 +380222,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -383103,7 +383087,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -383594,7 +383578,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -383609,7 +383593,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -383624,7 +383608,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -386299,7 +386283,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -386748,7 +386732,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -386763,7 +386747,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -386778,7 +386762,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -389196,7 +389180,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -389544,7 +389528,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -389559,7 +389543,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -389574,7 +389558,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -392077,7 +392061,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -392444,7 +392428,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -392459,7 +392443,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -392474,7 +392458,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -394939,7 +394923,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -395290,7 +395274,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -395305,7 +395289,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -395320,7 +395304,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -399066,7 +399050,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -399504,7 +399488,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -399519,7 +399503,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -399534,7 +399518,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -403847,7 +403831,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -404738,7 +404722,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -404753,7 +404737,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -404768,7 +404752,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -407117,7 +407101,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -407484,7 +407468,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -407499,7 +407483,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -407514,7 +407498,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -409863,7 +409847,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -410230,7 +410214,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -410245,7 +410229,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -410260,7 +410244,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -414275,7 +414259,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -414790,7 +414774,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -414805,7 +414789,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -414820,7 +414804,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -417051,7 +417035,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -417392,7 +417376,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -417407,7 +417391,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -417422,7 +417406,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -419674,7 +419658,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -419992,7 +419976,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -420007,7 +419991,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -420022,7 +420006,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -422502,7 +422486,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -422852,7 +422836,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -422867,7 +422851,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -422882,7 +422866,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -425960,7 +425944,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -426526,7 +426510,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -426541,7 +426525,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -426556,7 +426540,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -428754,7 +428738,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -429278,7 +429262,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -429293,7 +429277,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -429308,7 +429292,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -432574,7 +432558,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -433188,7 +433172,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -433203,7 +433187,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -433218,7 +433202,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -435582,7 +435566,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -436148,7 +436132,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -436163,7 +436147,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -436178,7 +436162,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -439807,7 +439791,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -440450,7 +440434,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -440465,7 +440449,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -440480,7 +440464,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -443513,7 +443497,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -444188,7 +444172,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -444203,7 +444187,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -444218,7 +444202,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -447391,7 +447375,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -447972,7 +447956,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -447987,7 +447971,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -448002,7 +447986,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -451763,7 +451747,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -452170,7 +452154,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -452185,7 +452169,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -452200,7 +452184,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -454942,7 +454926,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -455304,7 +455288,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -455319,7 +455303,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -455334,7 +455318,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -458619,7 +458603,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -459028,7 +459012,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -459043,7 +459027,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -459058,7 +459042,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -461319,7 +461303,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -461680,7 +461664,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -461695,7 +461679,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -461710,7 +461694,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -464168,7 +464152,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -464560,7 +464544,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -464575,7 +464559,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -464590,7 +464574,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -468218,7 +468202,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -468582,7 +468566,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -468597,7 +468581,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -468612,7 +468596,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -470489,7 +470473,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -470934,7 +470918,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -470949,7 +470933,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -470964,7 +470948,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -472841,7 +472825,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -473286,7 +473270,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -473301,7 +473285,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -473316,7 +473300,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -476311,7 +476295,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -476816,7 +476800,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -476831,7 +476815,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -476846,7 +476830,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -479620,7 +479604,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -480112,7 +480096,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -480127,7 +480111,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -480142,7 +480126,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -482541,7 +482525,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -482930,7 +482914,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -482945,7 +482929,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -482960,7 +482944,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -485841,7 +485825,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -486336,7 +486320,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -486351,7 +486335,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -486366,7 +486350,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -490256,7 +490240,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -490652,7 +490636,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -490667,7 +490651,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -490682,7 +490666,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -494405,7 +494389,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -494762,7 +494746,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -494777,7 +494761,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -494792,7 +494776,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -499754,7 +499738,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -500352,7 +500336,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -500367,7 +500351,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -500382,7 +500366,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -505317,7 +505301,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -505908,7 +505892,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -505923,7 +505907,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -505938,7 +505922,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -510245,7 +510229,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -510808,7 +510792,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -510823,7 +510807,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -510838,7 +510822,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -515635,7 +515619,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -516198,7 +516182,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -516213,7 +516197,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -516228,7 +516212,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -520506,7 +520490,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -521066,7 +521050,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -521081,7 +521065,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -521096,7 +521080,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -525352,7 +525336,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -525914,7 +525898,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -525929,7 +525913,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -525944,7 +525928,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -530226,7 +530210,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -530788,7 +530772,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -530803,7 +530787,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -530818,7 +530802,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -535101,7 +535085,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -535664,7 +535648,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -535679,7 +535663,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -535694,7 +535678,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -539927,7 +539911,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -540488,7 +540472,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -540503,7 +540487,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -540518,7 +540502,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -544751,7 +544735,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -545312,7 +545296,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -545327,7 +545311,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -545342,7 +545326,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -549616,7 +549600,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -550180,7 +550164,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -550195,7 +550179,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -550210,7 +550194,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -554250,7 +554234,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -554812,7 +554796,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -554827,7 +554811,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -554842,7 +554826,7 @@ void
 *
 )
 &
-ckt_netscape_valid
+ckt_nss_not_trusted
 (
 PRUint32
 )
@@ -557679,7 +557663,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -558170,7 +558154,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -558185,7 +558169,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -558200,7 +558184,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -561140,7 +561124,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -561656,7 +561640,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -561671,7 +561655,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -561686,7 +561670,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -564701,7 +564685,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -565236,7 +565220,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -565251,7 +565235,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -565266,7 +565250,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -567582,7 +567566,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -567946,7 +567930,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -567961,7 +567945,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -567976,7 +567960,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -570292,7 +570276,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -570656,7 +570640,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -570671,7 +570655,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -570686,7 +570670,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -574066,7 +574050,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -574424,7 +574408,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -574439,7 +574423,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -574454,7 +574438,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -576067,7 +576051,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -576434,7 +576418,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -576449,7 +576433,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -576464,7 +576448,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_trust_unknown
 (
 PRUint32
 )
@@ -579252,7 +579236,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -579730,7 +579714,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -579745,7 +579729,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -579760,7 +579744,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -583454,7 +583438,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -583872,7 +583856,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -583887,7 +583871,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_must_verify_trust
 (
 PRUint32
 )
@@ -583902,7 +583886,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_must_verify_trust
 (
 PRUint32
 )
@@ -588130,7 +588114,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -588564,7 +588548,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -588579,7 +588563,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -588594,7 +588578,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -591497,7 +591481,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -592012,7 +591996,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -592027,7 +592011,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_must_verify_trust
 (
 PRUint32
 )
@@ -592042,7 +592026,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_must_verify_trust
 (
 PRUint32
 )
@@ -594562,7 +594546,7 @@ void
 *
 )
 &
-cko_netscape_trust
+cko_nss_trust
 (
 PRUint32
 )
@@ -594972,7 +594956,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -594987,7 +594971,7 @@ void
 *
 )
 &
-ckt_netscape_trusted_delegator
+ckt_nss_trusted_delegator
 (
 PRUint32
 )
@@ -595002,7 +594986,7 @@ void
 *
 )
 &
-ckt_netscape_trust_unknown
+ckt_nss_must_verify_trust
 (
 PRUint32
 )

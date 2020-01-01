@@ -450,7 +450,7 @@ EXPORT
 ret_cr16
 ENTRY
 .
-ENTER
+ENTRY
 ;
 BV
 %
@@ -470,8 +470,16 @@ MFCTL
 cr16
 %
 ret0
+BV
+%
+r0
+(
+%
+rp
+)
 .
-LEAVE
+EXIT
+NOP
 .
 PROCEND
 .

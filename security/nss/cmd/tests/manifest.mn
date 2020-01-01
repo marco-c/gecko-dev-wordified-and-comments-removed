@@ -423,6 +423,10 @@ dertimetest
 .
 c
 \
+encodeinttest
+.
+c
+\
 nonspr10
 .
 c

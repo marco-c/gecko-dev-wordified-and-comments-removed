@@ -1602,11 +1602,8 @@ outFile
 %
 s
 "
-SECU_ErrorString
+SECU_Strerror
 (
-(
-int16
-)
 PORT_GetError
 (
 )

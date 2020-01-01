@@ -2554,7 +2554,7 @@ p12u_DoPKCS12ExportErrors
 (
 )
 {
-int
+PRErrorCode
 error_value
 ;
 error_value
@@ -2591,11 +2591,8 @@ SEC_ERROR_PKCS12_UNABLE_TO_WRITE
 {
 fputs
 (
-SECU_ErrorStringRaw
+SECU_Strerror
 (
-(
-int16
-)
 error_value
 )
 stderr
@@ -2617,7 +2614,7 @@ else
 {
 fputs
 (
-SECU_ErrorStringRaw
+SECU_Strerror
 (
 SEC_ERROR_EXPORTING_CERTIFICATES
 )

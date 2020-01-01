@@ -418,6 +418,8 @@ certutil
 \
 checkcert
 \
+chktest
+\
 crlutil
 \
 crmftest

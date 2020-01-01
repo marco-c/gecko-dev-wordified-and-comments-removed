@@ -34,10 +34,9 @@ h
 #
 define
 PHASH_STATE_MAX_LEN
-SHA1_LENGTH
-static
+HASH_LENGTH_MAX
 SECStatus
-sftk_P_hash
+TLS_P_hash
 (
 HASH_HashType
 hashType
@@ -697,7 +696,7 @@ len
 ;
 status
 =
-sftk_P_hash
+TLS_P_hash
 (
 HASH_AlgMD5
 &
@@ -720,7 +719,7 @@ loser
 ;
 status
 =
-sftk_P_hash
+TLS_P_hash
 (
 HASH_AlgSHA1
 &

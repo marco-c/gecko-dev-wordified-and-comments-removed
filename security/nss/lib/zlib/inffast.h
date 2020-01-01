@@ -1,4 +1,5 @@
 void
+ZLIB_INTERNAL
 inflate_fast
 OF
 (

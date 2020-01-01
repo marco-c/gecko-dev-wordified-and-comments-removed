@@ -213,6 +213,15 @@ bytes
 /
 #
 define
+SHA224_BLOCK_LENGTH
+64
+/
+*
+bytes
+*
+/
+#
+define
 SHA256_BLOCK_LENGTH
 64
 /
@@ -520,6 +529,11 @@ typedef
 struct
 SHA256ContextStr
 SHA256Context
+;
+typedef
+struct
+SHA256ContextStr
+SHA224Context
 ;
 typedef
 struct

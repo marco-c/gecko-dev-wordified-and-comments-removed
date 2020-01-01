@@ -3607,7 +3607,7 @@ PROC
 .
 CALLINFO
 .
-ENTER
+ENTRY
 fldd
 0
 (
@@ -5770,8 +5770,13 @@ module
 =
 *
 /
+bve
+(
+rp
+)
 .
-LEAVE
+EXIT
+nop
 .
 PROCEND
 .

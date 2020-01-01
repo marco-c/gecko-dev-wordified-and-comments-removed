@@ -4257,13 +4257,6 @@ goto
 loser
 ;
 }
-if
-(
-dbkey
-.
-data
-)
-{
 PORT_Free
 (
 dbkey
@@ -4271,7 +4264,6 @@ dbkey
 data
 )
 ;
-}
 return
 (
 SECSuccess

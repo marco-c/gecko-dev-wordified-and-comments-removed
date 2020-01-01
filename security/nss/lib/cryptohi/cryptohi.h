@@ -215,6 +215,7 @@ arena
 SECItem
 *
 result
+const
 unsigned
 char
 *

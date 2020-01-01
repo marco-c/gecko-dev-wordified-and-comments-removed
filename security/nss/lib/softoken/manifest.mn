@@ -400,9 +400,6 @@ nss
 DIRS
 =
 legacydb
-REQUIRES
-=
-dbm
 LIBRARY_NAME
 =
 softokn

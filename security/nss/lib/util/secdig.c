@@ -98,6 +98,9 @@ case
 SEC_OID_SHA1
 :
 case
+SEC_OID_SHA224
+:
+case
 SEC_OID_SHA256
 :
 case

@@ -17,6 +17,13 @@ h
 #
 include
 <
+prerror
+.
+h
+>
+#
+include
+<
 prlock
 .
 h
@@ -124,7 +131,8 @@ char
 *
 mySECU_ErrorString
 (
-int16
+PRErrorCode
+errnum
 )
 ;
 extern
@@ -1579,9 +1587,6 @@ PK11_INSTALL_JAR_ERROR
 jarFile
 mySECU_ErrorString
 (
-(
-int16
-)
 PORT_GetError
 (
 )
@@ -1794,9 +1799,6 @@ PK11_INSTALL_JAR_EXTRACT
 installer
 mySECU_ErrorString
 (
-(
-int16
-)
 PORT_GetError
 (
 )
@@ -2741,9 +2743,6 @@ file
 jarPath
 mySECU_ErrorString
 (
-(
-int16
-)
 PORT_GetError
 (
 )

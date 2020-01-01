@@ -3249,17 +3249,6 @@ PR_FALSE
 )
 ;
 }
-if
-(
-pms
-)
-{
-PK11_FreeSymKey
-(
-pms
-)
-;
-}
 #
 ifdef
 NSS_ENABLE_ECC

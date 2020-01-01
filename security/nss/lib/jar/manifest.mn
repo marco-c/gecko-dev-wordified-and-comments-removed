@@ -431,9 +431,6 @@ c
 (
 NULL
 )
-REQUIRES
-=
-dbm
 EXPORTS
 =
 jar

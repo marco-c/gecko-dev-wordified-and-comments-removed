@@ -829,7 +829,7 @@ LG_PUBLIC
 0
 )
 ;
-nsslowkey_DestroyPrivateKey
+lg_nsslowkey_DestroyPrivateKey
 (
 privKey
 )
@@ -1194,7 +1194,7 @@ if
 privKey
 )
 {
-nsslowkey_DestroyPrivateKey
+lg_nsslowkey_DestroyPrivateKey
 (
 privKey
 )
@@ -1385,7 +1385,7 @@ found
 PR_TRUE
 ;
 }
-nsslowkey_DestroyPrivateKey
+lg_nsslowkey_DestroyPrivateKey
 (
 privKey
 )

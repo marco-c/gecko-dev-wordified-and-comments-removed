@@ -19068,3 +19068,15 @@ importedVersion
 )
 ;
 }
+const
+char
+*
+NSSSSL_GetVersion
+(
+void
+)
+{
+return
+NSS_VERSION
+;
+}
