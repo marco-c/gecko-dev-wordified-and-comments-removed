@@ -1292,10 +1292,6 @@ hsuccess
 add
 (
 success
-?
-1
-:
-0
 )
 ;
 hping
