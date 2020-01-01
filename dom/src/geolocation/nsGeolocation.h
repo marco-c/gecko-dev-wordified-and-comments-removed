@@ -50,6 +50,13 @@ h
 #
 include
 "
+nsWeakPtr
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h
@@ -424,7 +431,7 @@ return
 mURI
 ;
 }
-nsIDOMWindow
+nsIWeakReference
 *
 GetOwner
 (
@@ -467,8 +474,7 @@ mWatchingCallbacks
 PRBool
 mUpdateInProgress
 ;
-nsPIDOMWindow
-*
+nsWeakPtr
 mOwner
 ;
 nsCOMPtr
