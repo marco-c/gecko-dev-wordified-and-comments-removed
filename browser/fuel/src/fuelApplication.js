@@ -6205,6 +6205,7 @@ addCategoryEntry
 "
 JavaScript
 global
+privileged
 property
 "
 "
