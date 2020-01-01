@@ -110,9 +110,6 @@ nsIDocShellTreeNode
 h
 "
 class
-nsAccDocManager
-;
-class
 nsAccessiblePivot
 ;
 class
@@ -130,6 +127,9 @@ mozilla
 namespace
 a11y
 {
+class
+DocManager
+;
 class
 NotificationController
 ;
@@ -875,9 +875,7 @@ aIsReloading
 ;
 friend
 class
-:
-:
-nsAccDocManager
+DocManager
 ;
 virtual
 void

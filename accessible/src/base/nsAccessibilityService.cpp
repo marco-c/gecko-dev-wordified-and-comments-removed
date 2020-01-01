@@ -632,7 +632,7 @@ nsAccessibilityService
 (
 )
 :
-nsAccDocManager
+DocManager
 (
 )
 FocusManager
@@ -669,7 +669,7 @@ nullptr
 NS_IMPL_ISUPPORTS_INHERITED3
 (
 nsAccessibilityService
-nsAccDocManager
+DocManager
 nsIAccessibilityService
 nsIAccessibleRetrieval
 nsIObserver
@@ -4879,7 +4879,7 @@ Init
 if
 (
 !
-nsAccDocManager
+DocManager
 :
 :
 Init
@@ -5103,7 +5103,7 @@ kShutdownIndicator
 )
 ;
 }
-nsAccDocManager
+DocManager
 :
 :
 Shutdown
