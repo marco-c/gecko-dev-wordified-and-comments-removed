@@ -451,6 +451,10 @@ test_aria
 .
 html
 \
+test_aria_imagemap
+.
+html
+\
 test_doc
 .
 html
