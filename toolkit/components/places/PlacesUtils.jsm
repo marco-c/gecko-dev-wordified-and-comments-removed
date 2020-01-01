@@ -6107,8 +6107,6 @@ charset
 {
 this
 .
-history
-.
 setCharsetForURI
 (
 this
