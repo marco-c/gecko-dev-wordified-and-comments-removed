@@ -145,12 +145,6 @@ CompositableType
 aType
 )
 ;
-gfxPattern
-:
-:
-GraphicsFilter
-mFilter
-;
 CompositableType
 mType
 ;
