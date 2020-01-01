@@ -4570,6 +4570,9 @@ MANIFEST
 content
 mochikit
 chrometest_dir
+contentaccessible
+=
+yes
 \
 n
 "

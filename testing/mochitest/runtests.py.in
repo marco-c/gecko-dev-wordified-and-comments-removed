@@ -3697,6 +3697,9 @@ mochikit
 chrometestDir
 +
 "
+contentaccessible
+=
+yes
 \
 n
 "
