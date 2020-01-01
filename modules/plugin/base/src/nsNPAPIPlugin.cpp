@@ -313,7 +313,7 @@ mozilla
 /
 plugins
 /
-NPAPIPluginParent
+PluginModuleParent
 .
 h
 "
@@ -324,7 +324,7 @@ mozilla
 plugins
 :
 :
-NPAPIPluginParent
+PluginModuleParent
 ;
 #
 endif
@@ -2030,7 +2030,7 @@ OOPPluginsEnabled
 )
 {
 return
-NPAPIPluginParent
+PluginModuleParent
 :
 :
 LoadModule

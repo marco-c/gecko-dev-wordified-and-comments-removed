@@ -52,7 +52,7 @@ mozilla
 /
 plugins
 /
-NPAPIPluginChild
+PluginModuleChild
 .
 h
 "
@@ -119,7 +119,7 @@ CleanUp
 (
 )
 ;
-NPAPIPluginChild
+PluginModuleChild
 mPlugin
 ;
 IPC

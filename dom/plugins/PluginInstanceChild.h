@@ -1,9 +1,9 @@
 #
 ifndef
-dom_plugins_NPPInstanceChild_h
+dom_plugins_PluginInstanceChild_h
 #
 define
-dom_plugins_NPPInstanceChild_h
+dom_plugins_PluginInstanceChild_h
 1
 #
 include
@@ -12,7 +12,7 @@ mozilla
 /
 plugins
 /
-NPPProtocolChild
+PPluginInstanceProtocolChild
 .
 h
 "
@@ -23,7 +23,7 @@ mozilla
 /
 plugins
 /
-NPObjectChild
+PluginScriptableObjectChild
 .
 h
 "
@@ -47,7 +47,7 @@ printf
 (
 "
 [
-NPPInstanceChild
+PluginInstanceChild
 ]
 %
 s
@@ -63,10 +63,10 @@ namespace
 plugins
 {
 class
-NPPInstanceChild
+PluginInstanceChild
 :
 public
-NPPProtocolChild
+PPluginInstanceProtocolChild
 {
 #
 ifdef
@@ -92,7 +92,7 @@ protected
 :
 friend
 class
-NPBrowserStreamChild
+PluginStreamChild
 ;
 virtual
 nsresult
@@ -121,9 +121,9 @@ value
 )
 ;
 virtual
-NPObjectProtocolChild
+PPluginScriptableObjectProtocolChild
 *
-NPObjectConstructor
+PPluginScriptableObjectConstructor
 (
 NPError
 *
@@ -132,9 +132,9 @@ _retval
 ;
 virtual
 nsresult
-NPObjectDestructor
+PPluginScriptableObjectDestructor
 (
-NPObjectProtocolChild
+PPluginScriptableObjectProtocolChild
 *
 aObject
 NPError
@@ -143,9 +143,9 @@ _retval
 )
 ;
 virtual
-NPBrowserStreamProtocolChild
+PPluginStreamProtocolChild
 *
-NPBrowserStreamConstructor
+PPluginStreamConstructor
 (
 const
 nsCString
@@ -181,9 +181,9 @@ stype
 ;
 virtual
 nsresult
-NPBrowserStreamDestructor
+PPluginStreamDestructor
 (
-NPBrowserStreamProtocolChild
+PPluginStreamProtocolChild
 *
 stream
 const
@@ -198,7 +198,7 @@ artificial
 ;
 public
 :
-NPPInstanceChild
+PluginInstanceChild
 (
 const
 NPPluginFuncs
@@ -284,7 +284,7 @@ endif
 }
 virtual
 ~
-NPPInstanceChild
+PluginInstanceChild
 (
 )
 ;
