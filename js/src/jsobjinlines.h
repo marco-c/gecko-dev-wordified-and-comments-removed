@@ -3552,11 +3552,6 @@ extra
 ;
 }
 }
-template
-<
-typename
-MallocProviderType
->
 JSObject
 :
 :
@@ -3566,9 +3561,12 @@ JSObject
 :
 extendDenseElements
 (
-MallocProviderType
+js
+:
+:
+ThreadSafeContext
 *
-cx
+tcx
 uint32_t
 requiredCapacity
 uint32_t
@@ -3634,7 +3632,7 @@ if
 !
 growElements
 (
-cx
+tcx
 requiredCapacity
 )
 )
@@ -3658,9 +3656,9 @@ parExtendDenseElements
 js
 :
 :
-Allocator
+ThreadSafeContext
 *
-alloc
+tcx
 js
 :
 :
@@ -3738,7 +3736,7 @@ edr
 =
 extendDenseElements
 (
-alloc
+tcx
 requiredCapacity
 extra
 )

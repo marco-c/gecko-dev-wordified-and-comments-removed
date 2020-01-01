@@ -480,6 +480,9 @@ endif
 namespace
 js
 {
+struct
+ThreadSafeContext
+;
 class
 Allocator
 ;

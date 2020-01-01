@@ -218,13 +218,11 @@ ForkJoinShared
 ;
 struct
 ForkJoinSlice
+:
+ThreadSafeContext
 {
 public
 :
-PerThreadData
-*
-perThreadData
-;
 const
 uint32_t
 sliceId
@@ -275,6 +273,7 @@ bool
 isMainThread
 (
 )
+const
 ;
 void
 requestGC
