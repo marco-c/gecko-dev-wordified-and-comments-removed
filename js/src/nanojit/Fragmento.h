@@ -510,6 +510,9 @@ Page
 *
 _pageList
 ;
+uint32_t
+_pageGrowth
+;
 AllocList
 _allocList
 ;
