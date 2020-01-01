@@ -295,10 +295,6 @@ CopyOnWriteArrayList
 public
 class
 LayerRenderer
-implements
-GLSurfaceView
-.
-Renderer
 {
 private
 static
@@ -1043,7 +1039,6 @@ finalize
 ;
 }
 }
-public
 void
 onSurfaceCreated
 (
@@ -1350,15 +1345,6 @@ layer
 ;
 }
 }
-public
-void
-onDrawFrame
-(
-GL10
-gl
-)
-{
-}
 private
 void
 printCheckerboardStats
@@ -1594,7 +1580,6 @@ mCoordBuffer
 )
 ;
 }
-public
 void
 onSurfaceChanged
 (
