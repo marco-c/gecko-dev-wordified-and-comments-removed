@@ -92,10 +92,10 @@ public
 :
 GeckoChildProcessHost
 (
-GeckoChildProcessType
+GeckoProcessType
 aProcessType
 =
-GeckoChildProcess_Default
+GeckoProcessType_Default
 )
 ;
 bool
@@ -225,7 +225,7 @@ GetProcessEvent
 }
 protected
 :
-GeckoChildProcessType
+GeckoProcessType
 mProcessType
 ;
 Monitor

@@ -71,7 +71,7 @@ nsnull
 ;
 XRE_ChildProcessTypeToString
 (
-GeckoChildProcess_Default
+GeckoProcessType_Default
 )
 ;
 XRE_StringToChildProcessType
@@ -84,7 +84,7 @@ XRE_InitChildProcess
 (
 0
 nsnull
-GeckoChildProcess_Default
+GeckoProcessType_Default
 )
 ;
 XRE_InitParentProcess
@@ -99,6 +99,10 @@ XRE_RunTestShell
 (
 0
 nsnull
+)
+;
+XRE_GetProcessType
+(
 )
 ;
 }

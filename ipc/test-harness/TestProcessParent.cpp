@@ -33,7 +33,7 @@ TestProcessParent
 :
 GeckoChildProcessHost
 (
-GeckoChildProcess_TestHarness
+GeckoProcessType_TestHarness
 )
 {
 }

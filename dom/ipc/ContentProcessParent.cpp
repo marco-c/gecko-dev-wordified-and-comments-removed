@@ -137,7 +137,7 @@ ContentProcessParent
 :
 mSubprocess
 (
-GeckoChildProcess_Tab
+GeckoProcessType_Content
 )
 {
 mSubprocess

@@ -78,7 +78,7 @@ MB_OK
 ;
 #
 endif
-GeckoChildProcessType
+GeckoProcessType
 proctype
 =
 XRE_StringToChildProcessType
