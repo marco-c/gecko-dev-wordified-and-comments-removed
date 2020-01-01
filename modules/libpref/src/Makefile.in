@@ -453,10 +453,6 @@ nsPrefBranch
 .
 cpp
 \
-nsPrefService
-.
-cpp
-\
 nsPrefsFactory
 .
 cpp
@@ -466,6 +462,10 @@ prefapi
 cpp
 \
 prefread
+.
+cpp
+\
+Preferences
 .
 cpp
 \
