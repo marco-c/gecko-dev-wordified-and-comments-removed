@@ -1852,6 +1852,10 @@ file_csp_redirects_resource
 .
 sjs
 \
+test_bug346485
+.
+html
+\
 (
 NULL
 )
