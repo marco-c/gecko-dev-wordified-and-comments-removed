@@ -931,6 +931,13 @@ MOZ_COUNT_CTOR
 nsDisplayPlugin
 )
 ;
+aBuilder
+-
+>
+SetContainsPluginItem
+(
+)
+;
 }
 #
 ifdef

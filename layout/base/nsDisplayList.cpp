@@ -2896,6 +2896,10 @@ mIsCompositingCheap
 (
 false
 )
+mContainsPluginItem
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
