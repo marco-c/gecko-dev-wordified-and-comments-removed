@@ -519,10 +519,6 @@ nsVariant
 .
 cpp
 \
-nsTextFormatter
-.
-cpp
-\
 nsTimelineService
 .
 cpp
@@ -630,10 +626,6 @@ nsUnitConversion
 h
 \
 nsVariant
-.
-h
-\
-nsTextFormatter
 .
 h
 \

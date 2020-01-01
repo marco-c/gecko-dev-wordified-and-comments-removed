@@ -580,6 +580,10 @@ nsStringAPI
 .
 h
 \
+nsTextFormatter
+.
+h
+\
 nsTHashtable
 .
 h

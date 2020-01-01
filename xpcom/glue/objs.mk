@@ -505,6 +505,10 @@ nsDeque
 .
 cpp
 \
+nsTextFormatter
+.
+cpp
+\
 (
 NULL
 )
