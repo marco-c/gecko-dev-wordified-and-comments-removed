@@ -289,6 +289,9 @@ void
 aClosure
 )
 ;
+bool
+mPolledIdleTimeIsValid
+;
 }
 ;
 #
