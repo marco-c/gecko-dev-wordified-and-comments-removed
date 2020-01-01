@@ -477,7 +477,7 @@ AddRef
 )
 ;
 return
-NS_OK
+S_OK
 ;
 }
 if
