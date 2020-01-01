@@ -958,7 +958,7 @@ launch
 )
 {
 new
-PlacesTask
+PlacesRunnable
 (
 )
 .
@@ -969,7 +969,7 @@ run
 }
 private
 class
-PlacesTask
+PlacesRunnable
 implements
 Runnable
 {
