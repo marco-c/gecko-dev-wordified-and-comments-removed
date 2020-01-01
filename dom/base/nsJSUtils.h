@@ -117,6 +117,15 @@ JSContext
 aContext
 )
 ;
+static
+void
+ReportPendingException
+(
+JSContext
+*
+aContext
+)
+;
 }
 ;
 class

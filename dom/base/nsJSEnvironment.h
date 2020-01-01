@@ -861,11 +861,13 @@ mContext
 bool
 mActive
 ;
-protected
+public
 :
 struct
 TerminationFuncHolder
 ;
+protected
+:
 friend
 struct
 TerminationFuncHolder
@@ -923,6 +925,8 @@ mNext
 ;
 }
 ;
+public
+:
 struct
 TerminationFuncHolder
 {
@@ -1014,6 +1018,8 @@ mTerminations
 ;
 }
 ;
+protected
+:
 TerminationFuncClosure
 *
 mTerminations

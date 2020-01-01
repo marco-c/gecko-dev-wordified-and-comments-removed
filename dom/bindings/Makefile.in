@@ -285,6 +285,10 @@ BindingUtils
 .
 cpp
 \
+CallbackFunction
+.
+cpp
+\
 DOMJSProxyHandler
 .
 cpp
@@ -315,6 +319,10 @@ binding_include_path
 =
 \
 BindingUtils
+.
+h
+\
+CallbackFunction
 .
 h
 \
