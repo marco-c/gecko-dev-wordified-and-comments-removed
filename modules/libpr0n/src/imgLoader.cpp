@@ -8277,7 +8277,7 @@ pl
 ;
 PutIntoCache
 (
-uri
+originalURI
 entry
 )
 ;
@@ -9589,7 +9589,7 @@ sImgLoader
 .
 PutIntoCache
 (
-uri
+originalURI
 entry
 )
 ;
