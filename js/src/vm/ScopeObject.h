@@ -7,6 +7,13 @@ ScopeObject_h___
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 jsobj
 .
 h

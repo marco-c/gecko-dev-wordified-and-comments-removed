@@ -168,15 +168,6 @@ include
 "
 frontend
 /
-BytecodeEmitter
-.
-h
-"
-#
-include
-"
-frontend
-/
 TokenStream
 .
 h
