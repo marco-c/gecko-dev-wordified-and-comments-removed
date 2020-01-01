@@ -1454,6 +1454,10 @@ PanZoomState
 .
 NOTHING
 ;
+cancelTouch
+(
+)
+;
 bounce
 (
 )
@@ -3928,7 +3932,7 @@ return
 true
 ;
 }
-public
+private
 void
 cancelTouch
 (

@@ -11323,11 +11323,10 @@ disableNotifications
 public
 static
 void
-setPreventPanning
+notifyDefaultPrevented
 (
-final
 boolean
-aPreventPanning
+defaultPrevented
 )
 {
 }

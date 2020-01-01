@@ -1177,6 +1177,12 @@ java
 \
 gfx
 /
+TouchEventHandler
+.
+java
+\
+gfx
+/
 ViewTransform
 .
 java
