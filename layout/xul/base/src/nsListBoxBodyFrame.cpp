@@ -704,12 +704,13 @@ fm
 )
 )
 ;
+mRowHeight
+=
 fm
 -
 >
-GetMaxHeight
+MaxHeight
 (
-mRowHeight
 )
 ;
 return

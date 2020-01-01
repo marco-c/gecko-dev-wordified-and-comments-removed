@@ -553,16 +553,12 @@ nsCOMPtr
 nsIAtom
 >
 language
-;
+=
 fm
 -
 >
 GetLanguage
 (
-getter_AddRefs
-(
-language
-)
 )
 ;
 if

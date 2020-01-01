@@ -741,14 +741,11 @@ FontMetrics
 nscoord
 xHeight
 =
-0
-;
 fm
 -
 >
-GetXHeight
+XHeight
 (
-xHeight
 )
 ;
 nscoord

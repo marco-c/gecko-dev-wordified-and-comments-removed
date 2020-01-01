@@ -9574,12 +9574,13 @@ if
 fm
 )
 {
+fontHeight
+=
 fm
 -
 >
-GetMaxHeight
+MaxHeight
 (
-fontHeight
 )
 ;
 }
