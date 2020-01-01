@@ -3107,6 +3107,10 @@ gcEmptyArenaPoolLifespan
 (
 0
 )
+gcNumFreeArenas
+(
+0
+)
 gcNumber
 (
 0
