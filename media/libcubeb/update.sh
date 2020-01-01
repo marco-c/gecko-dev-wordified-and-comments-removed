@@ -61,6 +61,15 @@ src
 cp
 1
 /
+src
+/
+cubeb_sndio
+.
+c
+src
+cp
+1
+/
 LICENSE
 .
 cp
