@@ -260,6 +260,12 @@ bidi
 :
 inherit
 ;
+vector
+-
+effect
+:
+inherit
+;
 }
 *
 [
