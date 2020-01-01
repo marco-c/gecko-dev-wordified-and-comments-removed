@@ -129,6 +129,10 @@ test_object_actor_native_getters
 .
 html
 \
+test_object_actor_native_getters_lenient_this
+.
+html
+\
 network_requests_iframe
 .
 html

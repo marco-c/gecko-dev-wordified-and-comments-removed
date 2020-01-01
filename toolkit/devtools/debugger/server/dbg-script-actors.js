@@ -6291,6 +6291,15 @@ result
 yield
 ;
 }
+if
+(
+getterValue
+!
+=
+=
+undefined
+)
+{
 safeGetterValues
 [
 name
@@ -6329,6 +6338,7 @@ writable
 true
 }
 ;
+}
 }
 }
 obj
