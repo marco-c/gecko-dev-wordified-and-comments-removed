@@ -12227,14 +12227,8 @@ container
 container
 -
 >
-GetImageContainer
+ClearCurrentFrame
 (
-)
--
->
-SetCurrentImage
-(
-nullptr
 )
 ;
 }

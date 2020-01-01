@@ -313,6 +313,10 @@ SetCurrentImage
 nullptr
 )
 ;
+mNeedInvalidation
+=
+true
+;
 }
 ImageContainer
 *
@@ -389,6 +393,14 @@ mImageContainer
 -
 >
 IsAsync
+(
+)
+&
+&
+mImageContainer
+-
+>
+HasCurrentImage
 (
 )
 )
