@@ -21846,11 +21846,6 @@ xbl
 javascript
 "
 :
-case
-"
-FrameConstructor
-"
-:
 return
 ;
 default

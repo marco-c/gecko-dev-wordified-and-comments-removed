@@ -1,0 +1,11 @@
+onmessage
+=
+function
+(
+)
+{
+fooBarWorker
+(
+)
+;
+}
