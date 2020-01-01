@@ -4598,6 +4598,14 @@ if
 (
 !
 unicodeDecoder
+&
+&
+!
+aHintCharset
+.
+IsEmpty
+(
+)
 )
 {
 CopyUTF16toUTF8
