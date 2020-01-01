@@ -956,15 +956,6 @@ the
 client
 region
 .
-var
-doc
-=
-this
-.
-_content
-.
-contentDocument
-;
 if
 (
 doc
