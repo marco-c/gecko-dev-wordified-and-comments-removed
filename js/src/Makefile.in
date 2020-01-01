@@ -636,6 +636,10 @@ ObjectImpl
 .
 cpp
 \
+PropertyKey
+.
+cpp
+\
 ScopeObject
 .
 cpp
@@ -1185,6 +1189,10 @@ LegacyIntTypes
 h
 \
 MemoryMetrics
+.
+h
+\
+PropertyKey
 .
 h
 \
