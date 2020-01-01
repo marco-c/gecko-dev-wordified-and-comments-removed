@@ -275,8 +275,7 @@ runTest
 debugDump
 (
 "
-Entering
-runTest
+entering
 "
 )
 ;
@@ -294,17 +293,6 @@ noUpdates
 ;
 setUpdateURLOverride
 (
-url
-)
-;
-debugDump
-(
-"
-Update
-URL
-:
-"
-+
 url
 )
 ;

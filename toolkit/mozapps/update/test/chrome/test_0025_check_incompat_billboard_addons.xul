@@ -371,8 +371,7 @@ runTest
 debugDump
 (
 "
-Entering
-runTest
+entering
 "
 )
 ;
@@ -404,17 +403,6 @@ getNewerPlatformVersion
 ;
 setUpdateURLOverride
 (
-url
-)
-;
-debugDump
-(
-PREF_APP_UPDATE_URL_OVERRIDE
-+
-"
-:
-"
-+
 url
 )
 ;

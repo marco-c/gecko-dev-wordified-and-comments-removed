@@ -288,8 +288,7 @@ runTest
 debugDump
 (
 "
-Entering
-runTest
+entering
 "
 )
 ;
@@ -315,17 +314,6 @@ getVersionParams
 ;
 setUpdateURLOverride
 (
-url
-)
-;
-debugDump
-(
-"
-Update
-URL
-:
-"
-+
 url
 )
 ;

@@ -277,8 +277,7 @@ runTest
 debugDump
 (
 "
-Entering
-runTest
+entering
 "
 )
 ;
@@ -296,17 +295,6 @@ xmlMalformed
 ;
 setUpdateURLOverride
 (
-url
-)
-;
-debugDump
-(
-"
-Update
-URL
-:
-"
-+
 url
 )
 ;
