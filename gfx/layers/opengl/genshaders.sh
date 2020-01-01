@@ -1,0 +1,10 @@
+python
+genshaders
+.
+py
+LayerManagerOGLShaders
+.
+txt
+LayerManagerOGLShaders
+.
+h

@@ -388,6 +388,7 @@ fp
 write
 (
 "
+static
 const
 char
 %
@@ -704,6 +705,12 @@ write
 *
 AUTOMATICALLY
 GENERATED
+from
+"
++
+infile
++
+"
 *
 /
 \
