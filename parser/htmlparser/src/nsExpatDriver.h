@@ -319,9 +319,6 @@ HandleToken
 CToken
 *
 aToken
-nsIParser
-*
-aParser
 )
 ;
 nsresult

@@ -156,9 +156,6 @@ HandleToken
 CToken
 *
 aToken
-nsIParser
-*
-aParser
 )
 ;
 nsresult
@@ -427,9 +424,8 @@ fallback
 ;
 protected
 :
-nsParser
-*
-mParser
+nsCString
+mCharset
 ;
 nsIHTMLContentSink
 *
