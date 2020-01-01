@@ -1958,9 +1958,6 @@ nsIRequest
 aNewRequest
 )
 {
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsIApplicationCache
@@ -1970,12 +1967,6 @@ newAppCache
 GetApplicationCache
 (
 aNewRequest
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-true
 )
 ;
 if
@@ -1996,6 +1987,9 @@ newAppCache
 mApplicationCache
 )
 {
+nsresult
+rv
+;
 nsAutoCString
 oldAppCacheClientId
 newAppCacheClientId
