@@ -610,6 +610,10 @@ nsDOMCustomEvent
 .
 cpp
 \
+nsDOMCompositionEvent
+.
+cpp
+\
 (
 NULL
 )
