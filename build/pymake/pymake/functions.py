@@ -114,6 +114,17 @@ strings
 "
 "
     
+__slots__
+=
+(
+'
+_arguments
+'
+'
+loc
+'
+)
+    
 def
 __init__
 (
@@ -289,6 +300,17 @@ VariableRef
 Function
 )
 :
+    
+__slots__
+=
+(
+'
+vname
+'
+'
+loc
+'
+)
     
 def
 __init__
@@ -490,6 +512,23 @@ o
 "
 "
 "
+    
+__slots__
+=
+(
+'
+loc
+'
+'
+vname
+'
+'
+substfrom
+'
+'
+substto
+'
+)
     
 def
 __init__
@@ -767,6 +806,12 @@ maxargs
 =
 3
     
+__slots__
+=
+Function
+.
+__slots__
+    
 def
 resolve
 (
@@ -858,6 +903,12 @@ minargs
 maxargs
 =
 3
+    
+__slots__
+=
+Function
+.
+__slots__
     
 def
 resolve
@@ -970,6 +1021,12 @@ maxargs
 =
 1
     
+__slots__
+=
+Function
+.
+__slots__
+    
 def
 resolve
 (
@@ -1020,6 +1077,12 @@ minargs
 maxargs
 =
 2
+    
+__slots__
+=
+Function
+.
+__slots__
     
 def
 resolve
@@ -1105,6 +1168,12 @@ minargs
 maxargs
 =
 2
+    
+__slots__
+=
+Function
+.
+__slots__
     
 def
 resolve
@@ -1217,6 +1286,12 @@ maxargs
 =
 2
     
+__slots__
+=
+Function
+.
+__slots__
+    
 def
 resolve
 (
@@ -1327,6 +1402,12 @@ maxargs
 =
 1
     
+__slots__
+=
+Function
+.
+__slots__
+    
 def
 resolve
 (
@@ -1390,6 +1471,12 @@ minargs
 maxargs
 =
 2
+    
+__slots__
+=
+Function
+.
+__slots__
     
 def
 resolve
@@ -1490,6 +1577,12 @@ minargs
 maxargs
 =
 3
+    
+__slots__
+=
+Function
+.
+__slots__
     
 def
 resolve
@@ -1622,6 +1715,12 @@ maxargs
 =
 1
     
+__slots__
+=
+Function
+.
+__slots__
+    
 def
 resolve
 (
@@ -1677,6 +1776,12 @@ minargs
 maxargs
 =
 1
+    
+__slots__
+=
+Function
+.
+__slots__
     
 def
 resolve
@@ -1741,6 +1846,12 @@ minargs
 maxargs
 =
 1
+    
+__slots__
+=
+Function
+.
+__slots__
     
 def
 resolve
@@ -1950,6 +2061,12 @@ maxargs
 =
 1
     
+__slots__
+=
+Function
+.
+__slots__
+    
 def
 resolve
 (
@@ -2018,6 +2135,12 @@ minargs
 maxargs
 =
 1
+    
+__slots__
+=
+Function
+.
+__slots__
     
 staticmethod
     
@@ -2124,6 +2247,12 @@ minargs
 maxargs
 =
 1
+    
+__slots__
+=
+Function
+.
+__slots__
     
 staticmethod
     
@@ -2236,6 +2365,12 @@ minargs
 maxargs
 =
 2
+    
+__slots__
+=
+Function
+.
+__slots__
     
 def
 resolve
@@ -2397,6 +2532,12 @@ maxargs
 =
 2
     
+__slots__
+=
+Function
+.
+__slots__
+    
 staticmethod
     
 def
@@ -2549,6 +2690,12 @@ maxargs
 =
 1
     
+__slots__
+=
+Function
+.
+__slots__
+    
 def
 resolve
 (
@@ -2617,6 +2764,12 @@ p
 ]
 )
 )
+    
+__slots__
+=
+Function
+.
+__slots__
 class
 RealpathFunction
 (
@@ -2729,6 +2882,12 @@ maxargs
 =
 1
     
+__slots__
+=
+Function
+.
+__slots__
+    
 def
 resolve
 (
@@ -2824,6 +2983,12 @@ minargs
 maxargs
 =
 3
+    
+__slots__
+=
+Function
+.
+__slots__
     
 def
 setup
@@ -2957,6 +3122,12 @@ maxargs
 =
 0
     
+__slots__
+=
+Function
+.
+__slots__
+    
 def
 resolve
 (
@@ -3023,6 +3194,12 @@ minargs
 maxargs
 =
 0
+    
+__slots__
+=
+Function
+.
+__slots__
     
 def
 resolve
@@ -3095,6 +3272,12 @@ minargs
 maxargs
 =
 3
+    
+__slots__
+=
+Function
+.
+__slots__
     
 def
 resolve
@@ -3231,6 +3414,12 @@ minargs
 maxargs
 =
 0
+    
+__slots__
+=
+Function
+.
+__slots__
     
 def
 resolve
@@ -3461,6 +3650,12 @@ maxargs
 =
 1
     
+__slots__
+=
+Function
+.
+__slots__
+    
 def
 resolve
 (
@@ -3642,6 +3837,12 @@ maxargs
 =
 1
     
+__slots__
+=
+Function
+.
+__slots__
+    
 def
 resolve
 (
@@ -3805,6 +4006,12 @@ maxargs
 =
 1
     
+__slots__
+=
+Function
+.
+__slots__
+    
 def
 resolve
 (
@@ -3915,6 +4122,12 @@ minargs
 maxargs
 =
 1
+    
+__slots__
+=
+Function
+.
+__slots__
     
 def
 resolve
@@ -4043,24 +4256,15 @@ n
 )
         
 if
-len
+stdout
+.
+endswith
 (
-stdout
-)
->
-1
-and
-stdout
-[
--
-1
-]
-=
-=
 '
 \
 n
 '
+)
 :
             
 stdout
@@ -4112,6 +4316,12 @@ minargs
 maxargs
 =
 1
+    
+__slots__
+=
+Function
+.
+__slots__
     
 def
 resolve
@@ -4171,6 +4381,12 @@ maxargs
 =
 1
     
+__slots__
+=
+Function
+.
+__slots__
+    
 def
 resolve
 (
@@ -4224,6 +4440,12 @@ minargs
 maxargs
 =
 1
+    
+__slots__
+=
+Function
+.
+__slots__
     
 def
 resolve

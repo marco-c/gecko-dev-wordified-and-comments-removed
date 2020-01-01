@@ -44,5 +44,11 @@ fd
 f
 )
     
+fd
+.
+close
+(
+)
+    
 print
 stmts

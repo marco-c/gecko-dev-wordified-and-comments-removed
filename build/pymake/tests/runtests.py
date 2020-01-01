@@ -130,6 +130,18 @@ win32
 :
 2
 }
+#
+T
+environment
+:
+{
+'
+VAR
+'
+:
+'
+VALUE
+}
 "
 "
 "
@@ -535,6 +547,15 @@ returncode
 =
 0
     
+env
+=
+dict
+(
+os
+.
+environ
+)
+    
 mdata
 =
 open
@@ -640,6 +661,33 @@ sys
 platform
 ]
         
+elif
+key
+=
+=
+'
+environment
+'
+:
+            
+for
+k
+v
+in
+data
+.
+iteritems
+(
+)
+:
+                
+env
+[
+k
+]
+=
+v
+        
 else
 :
             
@@ -685,6 +733,9 @@ PIPE
 stderr
 =
 STDOUT
+env
+=
+env
 )
     
 stdout
