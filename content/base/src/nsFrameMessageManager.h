@@ -1292,7 +1292,7 @@ nsFrameScriptExecutor
 ;
 }
 void
-DidCreateCx
+DidCreateGlobal
 (
 )
 ;
