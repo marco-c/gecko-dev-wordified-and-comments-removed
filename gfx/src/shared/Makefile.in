@@ -446,10 +446,6 @@ NULL
 CPPSRCS
 =
 \
-nsRenderingContextImpl
-.
-cpp
-\
 gfxImageFrame
 .
 cpp
