@@ -387,6 +387,12 @@ InputHandler
 (
 )
 ;
+BrowserUI
+.
+init
+(
+)
+;
 this
 .
 newTab
@@ -630,12 +636,6 @@ download
 started
 "
 false
-)
-;
-BrowserUI
-.
-init
-(
 )
 ;
 window
