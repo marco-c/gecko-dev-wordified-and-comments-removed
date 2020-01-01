@@ -28,6 +28,10 @@ h
 JS_BEGIN_EXTERN_C
 #
 define
+ARRAY_CAPACITY_MIN
+7
+#
+define
 ARRAY_INIT_LIMIT
 JS_BIT
 (
@@ -251,10 +255,6 @@ jsval
 capacity
 ;
 }
-#
-define
-ARRAY_GROWBY
-8
 extern
 JSBool
 js_GetLengthProperty
