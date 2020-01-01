@@ -10972,9 +10972,6 @@ CompartmentOptions
 ZoneSpecifier
 zoneSpec
 ;
-bool
-hasVersion
-;
 JSVersion
 version
 ;
@@ -10989,10 +10986,6 @@ JS
 :
 :
 FreshZone
-)
-hasVersion
-(
-false
 )
 version
 (
@@ -11025,9 +11018,13 @@ JSVersion
 version_
 )
 {
-hasVersion
+JS_ASSERT
+(
+version_
+!
 =
-true
+JSVERSION_UNKNOWN
+)
 ;
 version
 =
