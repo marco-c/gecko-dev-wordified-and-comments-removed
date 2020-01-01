@@ -54,9 +54,9 @@ err
 )
 {
 throw
-new
-Error
-(
+{
+message
+:
 "
 Port
 "
@@ -70,7 +70,12 @@ failed
 "
 +
 err
-)
+.
+message
+__proto__
+:
+err
+}
 ;
 }
 }
