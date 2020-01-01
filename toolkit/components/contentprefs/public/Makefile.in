@@ -428,10 +428,6 @@ XPIDL_MODULE
 contentprefs
 XPIDLSRCS
 =
-nsIContentPrefService
-.
-idl
-\
 nsIContentURIGrouper
 .
 idl

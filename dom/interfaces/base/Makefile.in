@@ -458,6 +458,10 @@ nsIBrowserDOMWindow
 .
 idl
 \
+nsIContentPrefService
+.
+idl
+\
 nsIDOMClientInformation
 .
 idl
