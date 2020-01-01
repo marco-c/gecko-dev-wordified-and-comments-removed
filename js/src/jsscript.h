@@ -25,6 +25,7 @@ JSTryNoteKind
 {
 JSTN_CATCH
 JSTN_FINALLY
+JSTN_ITER
 }
 JSTryNoteKind
 ;

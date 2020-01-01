@@ -97,9 +97,6 @@ body
 uint32
 flags
 ;
-uint32
-tryCount
-;
 }
 func
 ;
@@ -243,14 +240,6 @@ pn_u
 func
 .
 flags
-#
-define
-pn_tryCount
-pn_u
-.
-func
-.
-tryCount
 #
 define
 pn_head
