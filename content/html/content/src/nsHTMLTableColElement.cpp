@@ -242,7 +242,7 @@ nsHTMLTableColElement
 ChOff
 charoff
 )
-NS_IMPL_UINT_ATTR_NON_ZERO_DEFAULT_VALUE
+NS_IMPL_INT_ATTR_DEFAULT_VALUE
 (
 nsHTMLTableColElement
 Span
