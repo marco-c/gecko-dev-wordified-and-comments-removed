@@ -183,7 +183,7 @@ Ci
 nsITelephonyWorker
 Ci
 .
-nsIRadioInterface
+nsITelephone
 ]
 }
 )
@@ -199,7 +199,7 @@ Ci
 nsITelephonyWorker
 Ci
 .
-nsIRadioInterface
+nsITelephone
 ]
 )
 onerror

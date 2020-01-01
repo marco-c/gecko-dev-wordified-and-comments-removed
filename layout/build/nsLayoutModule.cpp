@@ -1529,14 +1529,14 @@ NS_ERROR_NO_AGGREGATION
 }
 nsCOMPtr
 <
-nsIRadioInterface
+nsITelephone
 >
 inst
 =
 RadioManager
 :
 :
-GetRadioInterface
+GetTelephone
 (
 )
 ;

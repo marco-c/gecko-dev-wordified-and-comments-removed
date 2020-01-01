@@ -60,7 +60,7 @@ h
 #
 include
 "
-nsIRadioInterface
+nsITelephone
 .
 h
 "
@@ -220,9 +220,9 @@ FactoryCreate
 static
 already_AddRefed
 <
-nsIRadioInterface
+nsITelephone
 >
-GetRadioInterface
+GetTelephone
 (
 )
 ;
@@ -239,9 +239,9 @@ RadioManager
 ;
 nsCOMPtr
 <
-nsIRadioInterface
+nsITelephone
 >
-mRadioInterface
+mTelephone
 ;
 bool
 mShutdown

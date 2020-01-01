@@ -588,7 +588,7 @@ generateQI
 [
 Ci
 .
-nsIRadioCallback
+nsITelephoneCallback
 ]
 )
 onsignalstrengthchange
@@ -836,7 +836,7 @@ createInstance
 (
 Ci
 .
-nsIRadioInterface
+nsITelephone
 )
 ;
 this
