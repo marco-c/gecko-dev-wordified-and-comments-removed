@@ -1832,7 +1832,7 @@ android
 jar
 include
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 config
@@ -2039,7 +2039,7 @@ unaligned
 apk
 include
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 ipc
