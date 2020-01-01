@@ -1383,6 +1383,10 @@ browser_tabMatchesInAwesomebar_perwindowpb
 .
 js
 \
+browser_tab_drag_drop_perwindow
+.
+js
+\
 (
 NULL
 )

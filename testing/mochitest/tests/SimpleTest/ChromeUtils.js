@@ -21,7 +21,7 @@ utils
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -61,7 +61,7 @@ utils
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -102,7 +102,7 @@ utils
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -141,7 +141,7 @@ utils
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -182,7 +182,7 @@ utils
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -638,6 +638,7 @@ dragData
 dropEffect
 aWindow
 eventUtils
+aDestWindow
 )
 {
 if
@@ -648,6 +649,15 @@ aWindow
 aWindow
 =
 window
+;
+if
+(
+!
+aDestWindow
+)
+aDestWindow
+=
+aWindow
 ;
 var
 synthesizeMouseAtCenter
@@ -937,7 +947,7 @@ true
 ;
 event
 =
-aWindow
+aDestWindow
 .
 document
 .
@@ -957,7 +967,7 @@ dragenter
 "
 true
 true
-aWindow
+aDestWindow
 0
 0
 0
@@ -984,7 +994,7 @@ true
 var
 event
 =
-aWindow
+aDestWindow
 .
 document
 .
@@ -1004,7 +1014,7 @@ dragover
 "
 true
 true
-aWindow
+aDestWindow
 0
 0
 0
@@ -1041,7 +1051,7 @@ type
 mouseup
 "
 }
-aWindow
+aDestWindow
 )
 ;
 return
@@ -1064,7 +1074,7 @@ none
 {
 event
 =
-aWindow
+aDestWindow
 .
 document
 .
@@ -1084,7 +1094,7 @@ drop
 "
 true
 true
-aWindow
+aDestWindow
 0
 0
 0
@@ -1119,7 +1129,7 @@ type
 mouseup
 "
 }
-aWindow
+aDestWindow
 )
 ;
 return
