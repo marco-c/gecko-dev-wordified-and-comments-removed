@@ -186,7 +186,7 @@ void
 nsXPCOMCycleCollectionParticipant
 :
 :
-UnmarkPurple
+UnmarkIfPurple
 (
 nsISupports
 *

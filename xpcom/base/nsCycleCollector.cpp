@@ -3005,7 +3005,7 @@ cp
 cp
 -
 >
-UnmarkPurple
+UnmarkIfPurple
 (
 e
 -
@@ -8608,7 +8608,7 @@ false
 cp
 -
 >
-UnmarkPurple
+UnmarkIfPurple
 (
 root
 )
@@ -8791,7 +8791,7 @@ continue
 cp
 -
 >
-UnmarkPurple
+UnmarkIfPurple
 (
 o
 )

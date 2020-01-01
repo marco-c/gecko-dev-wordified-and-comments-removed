@@ -358,7 +358,7 @@ NS_IMETHOD_
 (
 void
 )
-UnmarkPurple
+UnmarkIfPurple
 (
 nsISupports
 *
@@ -373,7 +373,7 @@ p
 )
 -
 >
-UnmarkPurple
+UnmarkIfPurple
 (
 )
 ;
