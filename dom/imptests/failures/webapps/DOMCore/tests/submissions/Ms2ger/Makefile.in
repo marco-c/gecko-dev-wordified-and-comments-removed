@@ -139,14 +139,6 @@ html
 .
 json
 \
-test_Event
--
-initEvent
-.
-html
-.
-json
-\
 test_EventTarget
 -
 dispatchEvent
