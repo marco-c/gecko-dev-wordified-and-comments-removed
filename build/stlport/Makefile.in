@@ -120,7 +120,7 @@ VPATH
 +
 =
 (
-STLPORT_SOURCES
+srcdir
 )
 /
 src
@@ -131,7 +131,7 @@ notdir
 (
 wildcard
 (
-STLPORT_SOURCES
+srcdir
 )
 /
 src
@@ -171,7 +171,7 @@ INCLUDES
 -
 I
 (
-STLPORT_SOURCES
+srcdir
 )
 /
 stlport
