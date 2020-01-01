@@ -1697,6 +1697,9 @@ int64_t
 aContentLength
 OptionalURIParams
 aReferrer
+nullable
+PBrowser
+aBrowser
 )
 ;
 AddGeolocationListener
