@@ -1,12 +1,5 @@
 #
 include
-"
-jsstddef
-.
-h
-"
-#
-include
 <
 string
 .
@@ -3233,11 +3226,7 @@ wp
 setter
 (
 cx
-OBJ_THIS_OBJECT
-(
-cx
 obj
-)
 userid
 vp
 )
