@@ -193,7 +193,7 @@ props
 =
 WCU
 .
-namesAndValuesOf
+inspectObject
 (
 content
 .
@@ -202,6 +202,11 @@ wrappedJSObject
 document
 .
 body
+function
+(
+)
+{
+}
 )
 ;
 is
