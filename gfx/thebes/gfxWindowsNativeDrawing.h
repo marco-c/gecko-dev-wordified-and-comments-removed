@@ -136,17 +136,6 @@ IsDoublePass
 (
 )
 ;
-bool
-IsSecondPass
-(
-)
-;
-gfxWindowsSurface
-*
-GetCurrentSurface
-(
-)
-;
 void
 PaintToContext
 (
