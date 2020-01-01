@@ -483,10 +483,8 @@ automation
 py
 \
 (
-topsrcdir
+CURDIR
 )
-/
-build
 /
 automationutils
 .
