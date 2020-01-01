@@ -568,11 +568,16 @@ targetBrowser
 selectedTab
 ;
 let
-win
+browser
 =
 tab
 .
 linkedBrowser
+;
+let
+win
+=
+browser
 .
 contentWindow
 ;
@@ -617,9 +622,7 @@ function
 {
 if
 (
-tab
-.
-linkedBrowser
+browser
 .
 currentURI
 .
@@ -654,7 +657,7 @@ readyState
 return
 ;
 }
-tab
+browser
 .
 removeEventListener
 (
@@ -662,7 +665,7 @@ removeEventListener
 load
 "
 handler
-false
+true
 )
 ;
 executeSoon
@@ -671,7 +674,7 @@ aOnload
 )
 ;
 }
-tab
+browser
 .
 addEventListener
 (
@@ -679,7 +682,7 @@ addEventListener
 load
 "
 handler
-false
+true
 )
 ;
 }
