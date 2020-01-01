@@ -105,7 +105,7 @@ h
 define
 LOW_MEMORY_THRESHOLD_KB
 (
-256
+512
 *
 1024
 )
@@ -365,13 +365,13 @@ sLowMemory
 =
 (
 mem
->
+<
 LOW_MEMORY_THRESHOLD_KB
 )
 ?
-0
-:
 1
+:
+0
 ;
 }
 *
