@@ -343,8 +343,6 @@ sendContextMenuClickToElement
 (
 win
 span
-85
-10
 )
 ;
 yield
@@ -525,8 +523,6 @@ sendContextMenuClickToElement
 (
 win
 link
-40
-10
 )
 ;
 yield
@@ -637,8 +633,6 @@ sendContextMenuClickToElement
 (
 win
 link
-40
-10
 )
 ;
 yield
@@ -741,8 +735,6 @@ sendContextMenuClickToElement
 (
 win
 input
-20
-10
 )
 ;
 yield
@@ -886,7 +878,6 @@ sendContextMenuClickToElement
 win
 input
 20
-10
 )
 ;
 yield
@@ -1055,7 +1046,6 @@ sendContextMenuClickToElement
 win
 input
 20
-10
 )
 ;
 yield
@@ -1154,7 +1144,6 @@ sendContextMenuClickToElement
 win
 input
 20
-10
 )
 ;
 yield
@@ -1274,7 +1263,6 @@ sendContextMenuClickToElement
 win
 input
 20
-10
 )
 ;
 yield
@@ -1490,7 +1478,6 @@ sendContextMenuClickToElement
 win
 input
 20
-10
 )
 ;
 yield
@@ -1588,7 +1575,6 @@ sendContextMenuClickToElement
 win
 input
 20
-10
 )
 ;
 yield
