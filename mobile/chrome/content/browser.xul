@@ -1844,7 +1844,7 @@ id
 "
 key_newTab
 "
-keycode
+key
 =
 "
 T
@@ -1868,7 +1868,7 @@ id
 "
 key_closeTab
 "
-keycode
+key
 =
 "
 W
