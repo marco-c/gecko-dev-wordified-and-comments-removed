@@ -103,7 +103,7 @@ PropertyName
 ParseNode
 :
 :
-atom
+name
 (
 )
 const

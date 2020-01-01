@@ -9080,7 +9080,7 @@ localNames
 slot
 ]
 .
-maybeName
+name
 ;
 #
 if
@@ -31410,13 +31410,6 @@ getArg
 slot
 )
 ;
-if
-(
-!
-atom
-)
-break
-;
 return
 write
 (
@@ -32351,7 +32344,7 @@ localNames
 slot
 ]
 .
-maybeName
+name
 ;
 }
 JSAtom
@@ -32401,7 +32394,7 @@ localNames
 slot
 ]
 .
-maybeName
+name
 ;
 }
 bool

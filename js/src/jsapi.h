@@ -3906,10 +3906,14 @@ REGEXPSTATICS
 =
 -
 25
-HASHABLEVALUE
+NAMEVECTOR
 =
 -
 26
+HASHABLEVALUE
+=
+-
+27
 }
 ;
 private
@@ -4571,6 +4575,10 @@ vector
 JS_GUARD_OBJECT_NOTIFIER_INIT
 ;
 }
+typedef
+T
+ElementType
+;
 size_t
 length
 (

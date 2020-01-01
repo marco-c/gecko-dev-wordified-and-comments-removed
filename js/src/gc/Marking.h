@@ -329,6 +329,11 @@ JSLinearString
 )
 DeclMarker
 (
+String
+PropertyName
+)
+DeclMarker
+(
 TypeObject
 types
 :

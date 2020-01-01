@@ -22,9 +22,6 @@ AnalyzeFunctions
 Parser
 *
 parser
-StackFrame
-*
-callerFrame
 )
 ;
 }

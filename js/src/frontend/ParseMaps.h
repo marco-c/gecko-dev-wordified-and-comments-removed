@@ -1299,6 +1299,7 @@ JSAtom
 *
 atom
 )
+const
 ;
 inline
 DefinitionList
@@ -1311,6 +1312,7 @@ JSAtom
 *
 atom
 )
+const
 ;
 inline
 bool
@@ -1455,6 +1457,7 @@ Range
 all
 (
 )
+const
 {
 JS_ASSERT
 (

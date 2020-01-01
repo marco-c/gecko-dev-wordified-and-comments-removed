@@ -181,6 +181,7 @@ JSAtom
 *
 atom
 )
+const
 {
 JS_ASSERT
 (
@@ -232,6 +233,7 @@ JSAtom
 *
 atom
 )
+const
 {
 JS_ASSERT
 (
