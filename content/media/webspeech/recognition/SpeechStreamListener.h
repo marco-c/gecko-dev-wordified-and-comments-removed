@@ -87,9 +87,13 @@ SampleFormatType
 void
 ConvertAndDispatchAudioChunk
 (
-AudioChunk
-&
-aChunk
+int
+aDuration
+float
+aVolume
+SampleFormatType
+*
+aData
 )
 ;
 nsRefPtr
