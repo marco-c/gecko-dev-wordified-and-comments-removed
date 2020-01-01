@@ -16604,6 +16604,15 @@ v
 isString
 (
 )
+&
+&
+js_CheckForStringIndex
+(
+id
+)
+=
+=
+id
 )
 return
 attachGetProp
