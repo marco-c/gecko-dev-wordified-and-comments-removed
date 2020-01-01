@@ -3327,7 +3327,7 @@ const
 {
 return
 mFormat
-!
+=
 =
 gfxASurface
 :
