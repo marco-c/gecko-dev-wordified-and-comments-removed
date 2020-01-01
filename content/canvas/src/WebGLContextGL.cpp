@@ -11280,6 +11280,7 @@ IsCallerTrustedForRead
 {
 LogMessage
 (
+mVerbose
 "
 ReadPixels
 :

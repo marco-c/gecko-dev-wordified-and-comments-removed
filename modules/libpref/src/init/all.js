@@ -30632,6 +30632,16 @@ osmesalib
 "
 )
 ;
+pref
+(
+"
+webgl
+.
+verbose
+"
+false
+)
+;
 #
 ifdef
 XP_WIN
