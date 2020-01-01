@@ -1896,7 +1896,7 @@ ev
 handleMozAfterSizeChange
 :
 function
-handleMozAfterPaint
+handleMozAfterSizeChange
 (
 ev
 )
