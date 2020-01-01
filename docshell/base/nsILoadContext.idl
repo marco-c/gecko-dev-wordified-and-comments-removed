@@ -571,7 +571,7 @@ usingPB
 *
 Returns
 true
-iff
+iif
 the
 load
 is
