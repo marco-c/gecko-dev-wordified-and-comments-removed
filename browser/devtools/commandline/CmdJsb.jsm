@@ -127,9 +127,6 @@ returnValue
 '
 string
 '
-hidden
-:
-true
 params
 :
 [
@@ -300,9 +297,6 @@ lookup
 jsbPreserveNewlinesManual
 '
 )
-defaultValue
-:
-true
 }
 {
 name
@@ -371,9 +365,6 @@ lookup
 jsbJslintHappyManual
 '
 )
-defaultValue
-:
-false
 }
 {
 name
@@ -467,9 +458,6 @@ lookup
 jsbSpaceBeforeConditionalManual
 '
 )
-defaultValue
-:
-true
 }
 {
 name
@@ -502,9 +490,6 @@ lookup
 jsbUnescapeStringsManual
 '
 )
-defaultValue
-:
-false
 }
 ]
 exec
