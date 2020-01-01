@@ -59,6 +59,15 @@ following
 this
 sentence
 .
+This
+code
+is
+released
+under
+the
+libpng
+license
+.
 libpng
 versions
 1
@@ -74,9 +83,9 @@ through
 .
 2
 .
-35
-February
-14
+40
+September
+10
 2009
 are
 Copyright
@@ -86,7 +95,7 @@ c
 2004
 2006
 -
-2008
+2009
 Glenn
 Randers
 -
@@ -758,6 +767,6 @@ users
 sourceforge
 .
 net
-February
-14
+September
+10
 2009

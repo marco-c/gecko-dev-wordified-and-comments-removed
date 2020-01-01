@@ -12,8 +12,8 @@ png
 h
 "
 typedef
-version_1_2_35
-Your_png_h_is_not_version_1_2_35
+version_1_2_40
+Your_png_h_is_not_version_1_2_40
 ;
 #
 ifdef
@@ -92,12 +92,6 @@ PNG_tIME
 PNG_tRNS
 ;
 PNG_zTXt
-;
-PNG_acTL
-;
-PNG_fcTL
-;
-PNG_fdAT
 ;
 #
 ifdef
@@ -2496,7 +2490,7 @@ PNG_FREE_ALL
 if
 defined
 (
-PNG_UNKNOWN_CHUNKS_SUPPORTED
+PNG_HANDLE_AS_UNKNOWN_SUPPORTED
 )
 if
 (
@@ -3054,10 +3048,10 @@ version
 .
 2
 .
-35
+40
 -
-February
-14
+September
+10
 2009
 \
 n
@@ -3068,7 +3062,7 @@ c
 )
 1998
 -
-2008
+2009
 Glenn
 Randers
 -

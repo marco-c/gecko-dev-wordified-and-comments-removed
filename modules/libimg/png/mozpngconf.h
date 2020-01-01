@@ -44,6 +44,9 @@ define
 PNG_NO_READ_FILLER
 #
 define
+PNG_NO_READ_SWAP
+#
+define
 PNG_NO_READ_SWAP_ALPHA
 #
 define
@@ -131,6 +134,9 @@ PNG_NO_WRITE_PACKSWAP
 #
 define
 PNG_NO_WRITE_FILLER
+#
+define
+PNG_NO_WRITE_SWAP
 #
 define
 PNG_NO_WRITE_SWAP_ALPHA
@@ -223,9 +229,6 @@ PNG_NO_MNG_FEATURES
 #
 define
 PNG_NO_USER_TRANSFORM_PTR
-#
-define
-PNG_NO_HANDLE_AS_UNKNOWN
 #
 define
 PNG_NO_CONSOLE_IO
@@ -1351,9 +1354,7 @@ MOZ_PNG_set_text
 #
 define
 png_set_text_2
-MOZ_PNG_set_text
--
-2
+MOZ_PNG_set_text_2
 #
 define
 png_set_unknown_chunk_location
