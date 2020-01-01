@@ -509,11 +509,11 @@ nullptr
 if
 (
 aSampleRate
-!
+<
 =
-IdealAudioRate
-(
-)
+0
+.
+0f
 )
 {
 aRv
