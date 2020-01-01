@@ -313,6 +313,12 @@ aStreamListener
 ;
 virtual
 void
+ResourceLoaded
+(
+)
+;
+virtual
+void
 NetworkError
 (
 )
@@ -1650,6 +1656,9 @@ mPlayState
 ;
 PlayState
 mNextState
+;
+bool
+mCalledResourceLoaded
 ;
 bool
 mIgnoreProgressData
