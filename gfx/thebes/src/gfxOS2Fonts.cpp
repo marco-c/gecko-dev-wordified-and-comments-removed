@@ -1906,7 +1906,7 @@ FC_FAMILY
 FcChar8
 *
 )
-NS_LossyConvertUTF16toASCII
+NS_ConvertUTF16toUTF8
 (
 GetName
 (
