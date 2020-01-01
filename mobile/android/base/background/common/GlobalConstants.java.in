@@ -185,6 +185,7 @@ long
 BUILD_TIMESTAMP_SECONDS
 =
 MOZ_BUILD_TIMESTAMP
+L
 ;
 public
 static
@@ -192,9 +193,10 @@ final
 long
 BUILD_TIMESTAMP_MSEC
 =
-1000
+1000L
 *
 MOZ_BUILD_TIMESTAMP
+L
 ;
 public
 static
