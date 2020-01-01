@@ -1052,14 +1052,6 @@ browser_inspector_highlighter
 .
 js
 \
-browser_inspector_stylePanel
-.
-js
-\
-browser_inspector_domPanel
-.
-js
-\
 browser_inspector_iframeTest
 .
 js
@@ -1117,10 +1109,6 @@ browser_scratchpad_bug_646070_chrome_context_pref
 js
 \
 browser_overflowScroll
-.
-js
-\
-browser_locationBarExternalLoad
 .
 js
 \
