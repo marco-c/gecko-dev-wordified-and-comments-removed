@@ -13504,14 +13504,6 @@ nsIDOMFileReader
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
-nsIXMLHttpRequestEventTarget
-)
-DOM_CLASSINFO_MAP_ENTRY
-(
-nsIDOMEventTarget
-)
-DOM_CLASSINFO_MAP_ENTRY
-(
 nsIInterfaceRequestor
 )
 DOM_CLASSINFO_MAP_END
