@@ -95,10 +95,6 @@ canvas
 moz
 -
 opaque
-=
-'
-true
-'
 /
 >
 <
@@ -3836,7 +3832,8 @@ moz
 -
 opaque
 '
-true
+'
+'
 )
 ;
 canvas
