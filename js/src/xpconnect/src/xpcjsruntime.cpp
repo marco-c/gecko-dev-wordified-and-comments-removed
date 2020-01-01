@@ -5456,7 +5456,7 @@ JS_GC_HEAP_KIND
 nsIMemoryReporter
 :
 :
-KIND_MAPPED
+KIND_NONHEAP
 #
 endif
 NS_MEMORY_REPORTER_IMPLEMENT
@@ -5571,7 +5571,7 @@ js
 /
 stack
 "
-KIND_MAPPED
+KIND_NONHEAP
 nsIMemoryReporter
 :
 :
@@ -7459,7 +7459,7 @@ code
 nsIMemoryReporter
 :
 :
-KIND_MAPPED
+KIND_NONHEAP
 stats
 -
 >
@@ -7542,7 +7542,7 @@ code
 nsIMemoryReporter
 :
 :
-KIND_MAPPED
+KIND_NONHEAP
 stats
 -
 >

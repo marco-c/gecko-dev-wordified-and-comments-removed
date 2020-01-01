@@ -2746,7 +2746,7 @@ aKind
 nsIMemoryReporter
 :
 :
-KIND_MAPPED
+KIND_NONHEAP
 &
 &
 aAmount
@@ -2889,7 +2889,7 @@ InfallibleTArray
 <
 MemoryReport
 >
-mapped
+nonheap
 ;
 PRInt64
 heapUsed
@@ -2981,7 +2981,7 @@ kind
 nsIMemoryReporter
 :
 :
-KIND_MAPPED
+KIND_NONHEAP
 )
 {
 nsCString
@@ -3042,7 +3042,7 @@ path
 amount
 )
 ;
-mapped
+nonheap
 .
 AppendElement
 (
@@ -3155,7 +3155,7 @@ new
 MemoryReportsWrapper
 (
 &
-mapped
+nonheap
 )
 ;
 nsRefPtr
@@ -3223,7 +3223,7 @@ i
 ;
 i
 <
-mapped
+nonheap
 .
 Length
 (
@@ -3239,7 +3239,7 @@ nsCString
 &
 iPath
 =
-mapped
+nonheap
 [
 i
 ]
@@ -3257,7 +3257,7 @@ i
 ;
 j
 <
-mapped
+nonheap
 .
 Length
 (
@@ -3273,7 +3273,7 @@ nsCString
 &
 jPath
 =
-mapped
+nonheap
 [
 j
 ]
@@ -3289,7 +3289,7 @@ jPath
 )
 )
 {
-mapped
+nonheap
 [
 j
 ]
@@ -3309,7 +3309,7 @@ iPath
 )
 )
 {
-mapped
+nonheap
 [
 i
 ]
@@ -3335,7 +3335,7 @@ i
 ;
 i
 <
-mapped
+nonheap
 .
 Length
 (
@@ -3350,7 +3350,7 @@ i
 aExplicit
 +
 =
-mapped
+nonheap
 [
 i
 ]

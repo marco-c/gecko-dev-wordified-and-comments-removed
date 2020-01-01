@@ -552,13 +552,13 @@ kUnknown
 1
 ;
 const
-MAPPED
+NONHEAP
 =
 Ci
 .
 nsIMemoryReporter
 .
-KIND_MAPPED
+KIND_NONHEAP
 ;
 const
 HEAP
@@ -779,7 +779,7 @@ explicit
 /
 c
 "
-MAPPED
+NONHEAP
 100
 *
 MB
@@ -795,7 +795,7 @@ c
 /
 d
 "
-MAPPED
+NONHEAP
 13
 *
 MB
@@ -951,7 +951,7 @@ c
 /
 d
 "
-MAPPED
+NONHEAP
 BYTES
 10
 *
@@ -970,7 +970,7 @@ explicit
 /
 cc
 "
-MAPPED
+NONHEAP
 BYTES
 13
 *
@@ -984,7 +984,7 @@ explicit
 /
 cc
 "
-MAPPED
+NONHEAP
 BYTES
 10
 *
@@ -1001,7 +1001,7 @@ explicit
 /
 d
 "
-MAPPED
+NONHEAP
 BYTES
 499
 *
@@ -1018,7 +1018,7 @@ explicit
 /
 e
 "
-MAPPED
+NONHEAP
 BYTES
 100
 *
@@ -1203,7 +1203,7 @@ and
 all
 the
 appropriate
-MAPPED
+NONHEAP
 ones
 :
 /
@@ -1635,7 +1635,7 @@ explicit
 /
 b
 "
-MAPPED
+NONHEAP
 kUnknown
 )
 f
