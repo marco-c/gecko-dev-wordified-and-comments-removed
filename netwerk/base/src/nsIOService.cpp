@@ -540,6 +540,10 @@ mContentSniffers
 (
 NS_CONTENT_SNIFFER_CATEGORY
 )
+mAutoDialEnabled
+(
+PR_FALSE
+)
 {
 }
 nsresult
@@ -1045,6 +1049,14 @@ service
 init
 failed
 "
+)
+;
+mSocketTransportService
+-
+>
+SetAutodialEnabled
+(
+mAutoDialEnabled
 )
 ;
 }
@@ -3436,6 +3448,10 @@ AUTODIAL_PREF
 &
 enableAutodial
 )
+;
+mAutoDialEnabled
+=
+enableAutodial
 ;
 if
 (

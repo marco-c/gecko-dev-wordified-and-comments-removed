@@ -511,6 +511,9 @@ PRInt32
 >
 mRestrictedPortList
 ;
+PRPackedBool
+mAutoDialEnabled
+;
 public
 :
 static
