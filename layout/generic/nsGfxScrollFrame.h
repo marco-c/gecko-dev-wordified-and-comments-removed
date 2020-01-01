@@ -597,7 +597,7 @@ GetScrollRange
 const
 ;
 nsPoint
-RestrictToDevPixels
+ClampAndRestrictToDevPixels
 (
 const
 nsPoint
@@ -606,8 +606,6 @@ aPt
 nsIntPoint
 *
 aPtDevPx
-bool
-aShouldClamp
 )
 const
 ;
