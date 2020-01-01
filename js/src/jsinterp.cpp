@@ -1232,6 +1232,7 @@ entry
 }
 static
 inline
+JS_REQUIRES_STACK
 JSAtom
 *
 GetAtomFromBytecode
