@@ -51,7 +51,7 @@ len
 *
 sizeof
 (
-WebRtc_Word16
+int16_t
 )
 )
 ;
@@ -263,7 +263,7 @@ len
 *
 sizeof
 (
-WebRtc_Word16
+int16_t
 )
 +
 1
