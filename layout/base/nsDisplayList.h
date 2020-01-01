@@ -308,6 +308,16 @@ return
 mPaintAllFrames
 ;
 }
+void
+IgnorePaintSuppression
+(
+)
+{
+mIsBackgroundOnly
+=
+PR_FALSE
+;
+}
 nsresult
 DisplayCaret
 (

@@ -3386,6 +3386,8 @@ nsIFrame
 aFrame
 nsPoint
 aPt
+PRBool
+aShouldIgnoreSuppression
 )
 {
 nsDisplayListBuilder
@@ -3408,6 +3410,16 @@ nsSize
 1
 1
 )
+)
+;
+if
+(
+aShouldIgnoreSuppression
+)
+builder
+.
+IgnorePaintSuppression
+(
 )
 ;
 builder

@@ -574,6 +574,10 @@ nsIFrame
 aFrame
 nsPoint
 aPt
+PRBool
+aShouldIgnoreSuppression
+=
+PR_FALSE
 )
 ;
 static
