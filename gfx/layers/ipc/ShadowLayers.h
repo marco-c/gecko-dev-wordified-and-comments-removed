@@ -317,8 +317,8 @@ aSize
 gfxASurface
 :
 :
-gfxImageFormat
-aFormat
+gfxContentType
+aContent
 gfxSharedImageSurface
 *
 *
