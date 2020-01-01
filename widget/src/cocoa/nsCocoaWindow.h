@@ -857,6 +857,13 @@ Configuration
 aConfigurations
 )
 ;
+virtual
+LayerManager
+*
+GetLayerManager
+(
+)
+;
 NS_IMETHOD
 DispatchEvent
 (

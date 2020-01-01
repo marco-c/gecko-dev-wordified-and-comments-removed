@@ -1809,6 +1809,16 @@ return
 mIsOpaque
 ;
 }
+enum
+{
+PAINT_DEFAULT
+=
+0
+PAINT_USE_WIDGET_LAYERS
+=
+0x01
+}
+;
 void
 Paint
 (
@@ -1818,6 +1828,8 @@ aBuilder
 nsIRenderingContext
 *
 aCtx
+PRUint32
+aFlags
 )
 const
 ;
