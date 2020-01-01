@@ -15245,6 +15245,15 @@ kind
 CrossCompartmentKey
 :
 :
+DebuggerSource
+|
+|
+kind
+=
+=
+CrossCompartmentKey
+:
+:
 DebuggerObject
 |
 |
