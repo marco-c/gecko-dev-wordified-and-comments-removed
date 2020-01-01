@@ -86,6 +86,10 @@ browser_eventemitter_basic
 .
 js
 \
+browser_observableobject
+.
+js
+\
 browser_layoutHelpers
 .
 js
