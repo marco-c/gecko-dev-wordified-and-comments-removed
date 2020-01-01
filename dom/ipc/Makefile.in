@@ -493,6 +493,10 @@ TabChild
 .
 h
 \
+TabMessageUtils
+.
+h
+\
 (
 NULL
 )
@@ -512,6 +516,10 @@ ContentChild
 cpp
 \
 CrashReporterParent
+.
+cpp
+\
+CrashReporterChild
 .
 cpp
 \
