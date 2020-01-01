@@ -130,7 +130,12 @@ click
 "
 }
 button
+XPCNativeWrapper
+.
+unwrap
+(
 content
+)
 )
 ;
 waitForSuccess

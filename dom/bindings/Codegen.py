@@ -7183,6 +7183,27 @@ false
   
 }
   
+/
+/
+FIXME
+Limit
+this
+to
+chrome
+by
+checking
+xpc
+:
+:
+AccessCheck
+:
+:
+isChrome
+(
+obj
+)
+.
+  
 nsISupports
 *
 native

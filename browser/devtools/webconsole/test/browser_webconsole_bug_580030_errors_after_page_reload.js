@@ -173,6 +173,8 @@ click
 }
 button
 content
+.
+wrappedJSObject
 )
 ;
 }
