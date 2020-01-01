@@ -4931,7 +4931,6 @@ buf
 +
 len
 )
-{
 return
 JSONParseError
 (
@@ -4939,7 +4938,6 @@ cx
 jp
 )
 ;
-}
 return
 PushPrimitive
 (
