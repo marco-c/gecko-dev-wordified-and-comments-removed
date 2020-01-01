@@ -173,12 +173,11 @@ if
 aContainer
 )
 {
+NS_NEWXPCOM
+(
 *
 aContainer
-=
-new
 imgContainer
-(
 )
 ;
 if

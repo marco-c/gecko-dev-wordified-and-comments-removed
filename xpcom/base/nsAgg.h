@@ -690,8 +690,10 @@ stabilize
 *
 /
 \
-delete
+NS_DELETEXPCOM
+(
 agg
+)
 ;
 \
 return
@@ -948,8 +950,10 @@ this
 )
 ;
 \
-delete
+NS_DELETEXPCOM
+(
 agg
+)
 ;
 \
 return

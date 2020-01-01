@@ -8455,10 +8455,11 @@ StartClone
 nsStandardURL
 *
 clone
-=
-new
-nsStandardURL
+;
+NS_NEWXPCOM
 (
+clone
+nsStandardURL
 )
 ;
 return

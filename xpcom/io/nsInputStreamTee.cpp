@@ -1200,10 +1200,11 @@ nsCOMPtr
 nsIInputStreamTee
 >
 tee
-=
-new
-nsInputStreamTee
+;
+NS_NEWXPCOM
 (
+tee
+nsInputStreamTee
 )
 ;
 if

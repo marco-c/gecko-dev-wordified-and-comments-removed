@@ -123,8 +123,10 @@ mRefCnt
 0
 )
 {
-delete
+NS_DELETEXPCOM
+(
 this
+)
 ;
 return
 0

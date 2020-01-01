@@ -1267,10 +1267,11 @@ nsCOMPtr
 nsIChannel
 >
 channel
-=
-new
-nsExtProtocolChannel
+;
+NS_NEWXPCOM
 (
+channel
+nsExtProtocolChannel
 )
 ;
 if
