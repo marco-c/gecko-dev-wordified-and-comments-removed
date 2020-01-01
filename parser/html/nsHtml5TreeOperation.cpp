@@ -1842,7 +1842,6 @@ getter_AddRefs
 (
 newContent
 )
-ns
 nodeInfo
 .
 forget
@@ -2099,12 +2098,6 @@ NS_NewElement
 getter_AddRefs
 (
 optionElt
-)
-optionNodeInfo
--
->
-NamespaceID
-(
 )
 ni
 .

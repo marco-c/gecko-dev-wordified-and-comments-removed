@@ -57,8 +57,6 @@ nsIContent
 *
 *
 aResult
-PRInt32
-aElementType
 already_AddRefed
 <
 nsINodeInfo

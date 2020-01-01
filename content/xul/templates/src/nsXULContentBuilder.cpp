@@ -4519,9 +4519,6 @@ doc
 return
 NS_ERROR_NOT_INITIALIZED
 ;
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsIContent
@@ -4532,8 +4529,6 @@ nsCOMPtr
 <
 nsINodeInfo
 >
-nodeInfo
-;
 nodeInfo
 =
 doc
@@ -4555,6 +4550,7 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
+nsresult
 rv
 =
 NS_NewElement
@@ -4563,7 +4559,6 @@ getter_AddRefs
 (
 result
 )
-aNameSpaceID
 nodeInfo
 .
 forget
@@ -4582,14 +4577,10 @@ rv
 return
 rv
 ;
-*
-aResult
-=
 result
-;
-NS_ADDREF
+.
+forget
 (
-*
 aResult
 )
 ;

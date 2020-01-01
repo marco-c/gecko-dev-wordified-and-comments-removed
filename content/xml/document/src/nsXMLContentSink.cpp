@@ -2005,12 +2005,6 @@ getter_AddRefs
 (
 content
 )
-aNodeInfo
--
->
-NamespaceID
-(
-)
 ni
 .
 forget

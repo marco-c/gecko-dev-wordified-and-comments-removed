@@ -2314,8 +2314,6 @@ nsCOMPtr
 nsINodeInfo
 >
 ni
-;
-ni
 =
 mNodeInfoManager
 -
@@ -2343,7 +2341,6 @@ getter_AddRefs
 (
 mOpenedElement
 )
-aNsID
 ni
 .
 forget
