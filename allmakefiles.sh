@@ -547,13 +547,6 @@ ENABLE_TESTS
 then
 add_makefiles
 "
-build
-/
-autoconf
-/
-test
-/
-Makefile
 config
 /
 makefiles

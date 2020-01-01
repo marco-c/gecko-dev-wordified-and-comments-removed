@@ -117,12 +117,6 @@ DIRS
 +
 =
 pgo
-TEST_DIRS
-+
-=
-autoconf
-/
-test
 ifeq
 (
 android
