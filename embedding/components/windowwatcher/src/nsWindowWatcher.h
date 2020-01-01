@@ -219,7 +219,7 @@ aResult
 )
 ;
 nsresult
-OpenWindowJSInternal
+OpenWindowInternal
 (
 nsIDOMWindow
 *
