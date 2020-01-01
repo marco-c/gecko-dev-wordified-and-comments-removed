@@ -1665,6 +1665,14 @@ remoteLog
 options
 .
 remoteLogFile
+        
+self
+.
+localLog
+=
+options
+.
+logFile
     
 def
 cleanup
@@ -3775,7 +3783,7 @@ robocopPath
           
 dm
 .
-checkCmd
+_checkCmd
 (
 [
 "
