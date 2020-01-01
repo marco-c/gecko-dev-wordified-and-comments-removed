@@ -89,12 +89,6 @@ anAAOption
 )
 ;
 virtual
-nsString
-GetUniqueName
-(
-)
-;
-virtual
 const
 gfxFont
 :
