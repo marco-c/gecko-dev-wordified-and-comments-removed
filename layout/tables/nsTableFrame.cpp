@@ -1511,10 +1511,6 @@ FirstChild
 ;
 if
 (
-!
-aChildList
-&
-&
 IsBorderCollapse
 (
 )
