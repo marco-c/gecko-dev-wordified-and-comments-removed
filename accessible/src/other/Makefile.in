@@ -486,10 +486,6 @@ nsAccessNodeWrap
 .
 h
 \
-nsARIAGridAccessibleWrap
-.
-h
-\
 nsTextAccessibleWrap
 .
 h
