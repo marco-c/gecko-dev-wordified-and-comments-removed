@@ -1633,8 +1633,7 @@ SHT_PROGBITS
 getFlags
 (
 )
-=
-=
+&
 SHF_ALLOC
 )
 )
