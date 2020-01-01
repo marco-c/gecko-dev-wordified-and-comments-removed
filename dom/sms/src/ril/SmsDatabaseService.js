@@ -901,6 +901,7 @@ self
 .
 upgradeSchema3
 (
+db
 event
 .
 target
@@ -1477,8 +1478,9 @@ continue
 upgradeSchema3
 :
 function
-upgradeSchema2
+upgradeSchema3
 (
+db
 transaction
 )
 {
