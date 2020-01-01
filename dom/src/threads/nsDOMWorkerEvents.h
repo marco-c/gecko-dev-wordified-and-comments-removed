@@ -782,6 +782,11 @@ nsnull
 )
 {
 }
+~
+nsDOMWorkerMessageEvent
+(
+)
+;
 nsresult
 SetJSData
 (
