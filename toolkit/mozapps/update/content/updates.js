@@ -1377,7 +1377,7 @@ CERT_ATTR_CHECK_FAILED_HAS_UPDATE
 aCallback
 (
 "
-errorcertcheck
+errorextra
 "
 )
 ;
@@ -2544,7 +2544,7 @@ wiz
 goTo
 (
 "
-errorcertcheck
+errorextra
 "
 )
 ;
@@ -6797,7 +6797,7 @@ manualURL
 }
 ;
 var
-gErrorCertCheckPage
+gErrorExtraPage
 =
 {
 onPageShow

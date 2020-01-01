@@ -253,7 +253,7 @@ TESTS
 {
 pageid
 :
-PAGEID_ERROR_CERT_CHECK
+PAGEID_ERROR_EXTRA
 extraDelayedCheckFunction
 :
 checkCertErrorPage
