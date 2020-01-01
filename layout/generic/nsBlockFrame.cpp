@@ -2725,7 +2725,7 @@ aListName
 nsGkAtoms
 :
 :
-floatContinuationsList
+pushedFloatsList
 )
 {
 const
@@ -2923,7 +2923,7 @@ return
 nsGkAtoms
 :
 :
-floatContinuationsList
+pushedFloatsList
 ;
 default
 :
