@@ -676,6 +676,10 @@ nsnull
 baseURI
 )
 ;
+mExternal
+=
+PR_TRUE
+;
 }
 mFrozen
 =
@@ -708,9 +712,7 @@ return
 (
 mFrozen
 ?
-!
-!
-mUri
+mExternal
 :
 !
 src

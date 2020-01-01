@@ -1739,6 +1739,10 @@ mUri
 src
 )
 ;
+mExternal
+=
+PR_TRUE
+;
 PRBool
 defer
 async
@@ -1785,9 +1789,7 @@ return
 (
 mFrozen
 ?
-!
-!
-mUri
+mExternal
 :
 HasAttr
 (
