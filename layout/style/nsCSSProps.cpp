@@ -2772,6 +2772,8 @@ kDisplayKTable
 ]
 =
 {
+eCSSKeyword_none
+NS_STYLE_DISPLAY_NONE
 eCSSKeyword_inline
 NS_STYLE_DISPLAY_INLINE
 eCSSKeyword_block
@@ -3490,6 +3492,8 @@ kPointerEventsKTable
 ]
 =
 {
+eCSSKeyword_none
+NS_STYLE_POINTER_EVENTS_NONE
 eCSSKeyword_visiblepainted
 NS_STYLE_POINTER_EVENTS_VISIBLEPAINTED
 eCSSKeyword_visiblefill
@@ -3716,6 +3720,8 @@ kTextDecorationKTable
 ]
 =
 {
+eCSSKeyword_none
+NS_STYLE_TEXT_DECORATION_NONE
 eCSSKeyword_underline
 NS_STYLE_TEXT_DECORATION_UNDERLINE
 eCSSKeyword_overline
@@ -4160,6 +4166,8 @@ kDominantBaselineKTable
 ]
 =
 {
+eCSSKeyword_auto
+NS_STYLE_DOMINANT_BASELINE_AUTO
 eCSSKeyword_use_script
 NS_STYLE_DOMINANT_BASELINE_USE_SCRIPT
 eCSSKeyword_no_change
@@ -4216,6 +4224,8 @@ kImageRenderingKTable
 ]
 =
 {
+eCSSKeyword_auto
+NS_STYLE_IMAGE_RENDERING_AUTO
 eCSSKeyword_optimizespeed
 NS_STYLE_IMAGE_RENDERING_OPTIMIZESPEED
 eCSSKeyword_optimizequality
@@ -4237,6 +4247,8 @@ kShapeRenderingKTable
 ]
 =
 {
+eCSSKeyword_auto
+NS_STYLE_SHAPE_RENDERING_AUTO
 eCSSKeyword_optimizespeed
 NS_STYLE_SHAPE_RENDERING_OPTIMIZESPEED
 eCSSKeyword_crispedges
@@ -4321,6 +4333,8 @@ kTextRenderingKTable
 ]
 =
 {
+eCSSKeyword_auto
+NS_STYLE_TEXT_RENDERING_AUTO
 eCSSKeyword_optimizespeed
 NS_STYLE_TEXT_RENDERING_OPTIMIZESPEED
 eCSSKeyword_optimizelegibility
@@ -4342,6 +4356,8 @@ kColorInterpolationKTable
 ]
 =
 {
+eCSSKeyword_auto
+NS_STYLE_COLOR_INTERPOLATION_AUTO
 eCSSKeyword_srgb
 NS_STYLE_COLOR_INTERPOLATION_SRGB
 eCSSKeyword_linearrgb

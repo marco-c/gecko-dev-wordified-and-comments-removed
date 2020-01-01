@@ -25137,7 +25137,7 @@ return
 ParseVariant
 (
 aValue
-VARIANT_AHK
+VARIANT_HK
 nsCSSProps
 :
 :
@@ -25151,7 +25151,7 @@ return
 ParseVariant
 (
 aValue
-VARIANT_AHK
+VARIANT_HK
 nsCSSProps
 :
 :
@@ -25223,7 +25223,7 @@ return
 ParseVariant
 (
 aValue
-VARIANT_AHK
+VARIANT_HK
 nsCSSProps
 :
 :
@@ -25276,7 +25276,7 @@ return
 ParseVariant
 (
 aValue
-VARIANT_AHK
+VARIANT_HK
 nsCSSProps
 :
 :
@@ -25422,7 +25422,7 @@ return
 ParseVariant
 (
 aValue
-VARIANT_AHK
+VARIANT_HK
 nsCSSProps
 :
 :
@@ -25556,7 +25556,7 @@ if
 ParseVariant
 (
 aValue
-VARIANT_HOK
+VARIANT_HK
 nsCSSProps
 :
 :
@@ -26170,7 +26170,7 @@ return
 ParseVariant
 (
 aValue
-VARIANT_HOK
+VARIANT_HK
 nsCSSProps
 :
 :
@@ -36593,7 +36593,7 @@ if
 ParseVariant
 (
 aValue
-VARIANT_HOK
+VARIANT_HK
 nsCSSProps
 :
 :
@@ -36622,6 +36622,14 @@ GetIntValue
 (
 )
 ;
+if
+(
+intValue
+!
+=
+NS_STYLE_TEXT_DECORATION_NONE
+)
+{
 nsCSSValue
 keyword
 ;
@@ -36667,6 +36675,12 @@ GetIntValue
 if
 (
 newValue
+=
+=
+NS_STYLE_TEXT_DECORATION_NONE
+|
+|
+newValue
 &
 intValue
 )
@@ -36695,6 +36709,7 @@ intValue
 eCSSUnit_Enumerated
 )
 ;
+}
 }
 return
 PR_TRUE
