@@ -794,3 +794,16 @@ separator
 }
 }
 ;
+Utils
+.
+deferGetSet
+(
+BookmarkSeparator
+"
+cleartext
+"
+"
+pos
+"
+)
+;
