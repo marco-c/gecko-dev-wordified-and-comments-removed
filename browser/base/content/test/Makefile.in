@@ -1008,6 +1008,10 @@ browser_bug655584
 .
 js
 \
+browser_bug664672
+.
+js
+\
 browser_findbarClose
 .
 js
