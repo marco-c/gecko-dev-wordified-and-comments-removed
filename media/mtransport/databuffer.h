@@ -25,6 +25,13 @@ m_cpp_utils
 .
 h
 >
+#
+include
+<
+nsISupportsImpl
+.
+h
+>
 namespace
 mozilla
 {
