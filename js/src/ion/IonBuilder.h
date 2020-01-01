@@ -2364,14 +2364,6 @@ discards
 )
 ;
 InliningStatus
-inlineThrowError
-(
-CallInfo
-&
-callInfo
-)
-;
-InliningStatus
 inlineIsCallable
 (
 CallInfo
