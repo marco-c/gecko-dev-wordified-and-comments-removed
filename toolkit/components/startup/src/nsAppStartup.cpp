@@ -2465,6 +2465,11 @@ return
 PRTime
 starttime
 =
+static_cast
+<
+PRTime
+>
+(
 proc
 -
 >
@@ -2475,6 +2480,7 @@ p_un
 __p_starttime
 .
 tv_sec
+)
 *
 PR_USEC_PER_SEC
 ;
