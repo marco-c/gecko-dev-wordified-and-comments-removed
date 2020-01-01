@@ -45,9 +45,9 @@ querySelector
 (
 "
 .
-strip
+newtab
 -
-button
+control
 -
 block
 "

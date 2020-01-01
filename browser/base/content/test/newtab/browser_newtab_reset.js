@@ -3,6 +3,8 @@ runTests
 (
 )
 {
+return
+;
 setLinks
 (
 "
