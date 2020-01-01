@@ -506,10 +506,6 @@ _TEST_FILES
 +
 =
 \
-dynamic_redirect
-.
-sjs
-\
 test_access_control
 .
 html
@@ -591,10 +587,6 @@ test_onloadedmetadata
 html
 \
 test_load_candidates
-.
-html
-\
-test_mixed_principals
 .
 html
 \
