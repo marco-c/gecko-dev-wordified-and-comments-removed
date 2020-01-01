@@ -822,6 +822,15 @@ isParentProcess
 )
 &
 &
+typeof
+window
+=
+=
+"
+object
+"
+&
+&
 window
 [
 "
