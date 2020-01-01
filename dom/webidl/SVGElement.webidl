@@ -241,9 +241,6 @@ xmlspace
 ;
 *
 /
-[
-Throws
-]
 readonly
 attribute
 SVGSVGElement
