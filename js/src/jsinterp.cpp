@@ -3627,7 +3627,7 @@ script
 JSFrameRegs
 regs
 ;
-ExecuteFrameGuard
+FrameGuard
 frame
 ;
 if

@@ -926,7 +926,7 @@ private
 :
 LazilyConstructed
 <
-ExecuteFrameGuard
+FrameGuard
 >
 frame
 ;
