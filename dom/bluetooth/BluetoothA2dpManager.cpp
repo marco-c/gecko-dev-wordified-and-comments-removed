@@ -140,10 +140,12 @@ NS_XPCOM_SHUTDOWN_OBSERVER_ID
 )
 )
 {
-return
 HandleShutdown
 (
 )
+;
+return
+NS_OK
 ;
 }
 MOZ_ASSERT
@@ -521,7 +523,7 @@ return
 gBluetoothA2dpManager
 ;
 }
-nsresult
+void
 BluetoothA2dpManager
 :
 :
@@ -547,9 +549,6 @@ Disconnect
 gBluetoothA2dpManager
 =
 nullptr
-;
-return
-NS_OK
 ;
 }
 bool
@@ -1060,7 +1059,7 @@ NS_IsMainThread
 NS_NAMED_LITERAL_STRING
 (
 type
-BLUETOOTH_A2DP_STATUS_CHANGED
+BLUETOOTH_A2DP_STATUS_CHANGED_ID
 )
 ;
 InfallibleTArray
@@ -1198,7 +1197,7 @@ obs
 NotifyObservers
 (
 this
-BLUETOOTH_A2DP_STATUS_CHANGED
+BLUETOOTH_A2DP_STATUS_CHANGED_ID
 data
 .
 BeginReading
