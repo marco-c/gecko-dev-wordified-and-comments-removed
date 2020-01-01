@@ -3135,6 +3135,10 @@ sweepBreakpoints
 fop
 )
 ;
+sweepCallsiteClones
+(
+)
+;
 if
 (
 global_
