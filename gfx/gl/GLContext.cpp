@@ -15293,7 +15293,7 @@ if
 newScreen
 -
 >
-Resize
+PublishFrame
 (
 size
 )
@@ -15351,7 +15351,7 @@ return
 mScreen
 -
 >
-Resize
+PublishFrame
 (
 size
 )
