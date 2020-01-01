@@ -9070,12 +9070,6 @@ width
 :
 7em
 ;
-min
--
-width
-:
-7em
-;
 -
 moz
 -
@@ -10393,6 +10387,12 @@ padding
 3px
 0
 2px
+;
+min
+-
+width
+:
+4em
 ;
 }
 .
