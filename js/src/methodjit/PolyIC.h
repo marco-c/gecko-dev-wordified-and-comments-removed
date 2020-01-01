@@ -142,7 +142,7 @@ hasTypeCheck
 :
 1
 ;
-uint32
+int32
 typeCheckOffset
 ;
 uint32
