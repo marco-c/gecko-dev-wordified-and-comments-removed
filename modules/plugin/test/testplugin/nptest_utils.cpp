@@ -19,6 +19,13 @@ string
 .
 h
 >
+#
+include
+<
+assert
+.
+h
+>
 NPUTF8
 *
 createCStringFromNPVariant
@@ -191,7 +198,7 @@ variant
 )
 )
 ;
-int32
+int32_t
 integer
 =
 NPVARIANT_TO_INT32
@@ -229,12 +236,12 @@ NPVARIANT_TO_DOUBLE
 variant
 )
 ;
-int32
+int32_t
 integer
 =
 static_cast
 <
-int32
+int32_t
 >
 (
 value
