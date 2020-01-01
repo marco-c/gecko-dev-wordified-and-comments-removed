@@ -1710,7 +1710,10 @@ target
 )
 {
 return
-true
+!
+target
+.
+isApp
 ;
 }
 build
