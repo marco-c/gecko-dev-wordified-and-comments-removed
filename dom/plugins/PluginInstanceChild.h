@@ -764,13 +764,6 @@ InitPopupMenuHook
 )
 ;
 void
-InternalCallSetNestedEventState
-(
-bool
-aState
-)
-;
-void
 SetupFlashMsgThrottle
 (
 )
@@ -1094,9 +1087,6 @@ mNestedEventHook
 ;
 int
 mNestedEventLevelDepth
-;
-bool
-mNestedEventState
 ;
 HWND
 mCachedWinlessPluginHWND

@@ -1088,11 +1088,9 @@ PluginGotFocus
 (
 )
 ;
-sync
-SetNestedEventState
+async
+ProcessNativeEventsInRPCCall
 (
-bool
-aState
 )
 ;
 child
