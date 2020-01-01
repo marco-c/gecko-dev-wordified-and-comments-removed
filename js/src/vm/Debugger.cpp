@@ -5351,7 +5351,7 @@ bool
 Debugger
 :
 :
-mark
+markAllIteratively
 (
 GCMarker
 *

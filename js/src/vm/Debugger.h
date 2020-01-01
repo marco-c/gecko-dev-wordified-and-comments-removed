@@ -927,7 +927,7 @@ tracer
 ;
 static
 bool
-mark
+markAllIteratively
 (
 GCMarker
 *
