@@ -3009,6 +3009,26 @@ obj
 parallel_external_make_dirs
 )
 )
+        
+if
+obj
+.
+is_tool_dir
+:
+            
+fh
+.
+write
+(
+'
+IS_TOOL_DIR
+:
+=
+1
+\
+n
+'
+)
     
 def
 _process_exports
