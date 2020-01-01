@@ -891,9 +891,6 @@ get
 (
 )
 ;
-PRUint32
-pid
-;
 return
 process
 -
@@ -904,8 +901,6 @@ PR_FALSE
 &
 strPath
 1
-&
-pid
 )
 ;
 }
