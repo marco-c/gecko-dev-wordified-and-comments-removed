@@ -74,7 +74,7 @@ Test
 let
 request
 =
-indexedDB
+mozIndexedDB
 .
 open
 (
