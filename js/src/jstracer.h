@@ -495,7 +495,7 @@ exitType
 nanojit
 :
 :
-BRANCH_EXIT
+DONT_GROW
 )
 ;
 nanojit
