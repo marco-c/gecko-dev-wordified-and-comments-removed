@@ -352,6 +352,13 @@ h
 #
 include
 "
+nsWrapperCacheInlines
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
