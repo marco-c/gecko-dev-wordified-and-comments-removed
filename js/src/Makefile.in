@@ -1573,6 +1573,10 @@ FastArithmetic
 .
 cpp
 \
+FastBuiltins
+.
+cpp
+\
 FastOps
 .
 cpp

@@ -13714,6 +13714,13 @@ handler
 =
 handler
 ;
+type
+-
+>
+singleton
+=
+funobj
+;
 }
 }
 JS_ASSERT
