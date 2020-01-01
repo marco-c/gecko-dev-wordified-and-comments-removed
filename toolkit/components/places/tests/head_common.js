@@ -2046,6 +2046,16 @@ test_browserGlue_distribution
 .
 js
 "
+"
+test_331487
+.
+js
+"
+"
+test_tags
+.
+js
+"
 ]
 )
 {
