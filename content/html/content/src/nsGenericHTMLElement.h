@@ -1280,14 +1280,7 @@ IsDisabled
 const
 {
 return
-HasAttr
-(
-kNameSpaceID_None
-nsGkAtoms
-:
-:
-disabled
-)
+false
 ;
 }
 bool
