@@ -133,6 +133,9 @@ mUnicodeFont
 |
 |
 mSymbolFont
+|
+|
+mIsType1
 )
 ;
 }

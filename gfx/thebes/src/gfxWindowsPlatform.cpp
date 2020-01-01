@@ -982,10 +982,11 @@ mIsType1
 aFontEntry
 -
 >
-mSymbolFont
+mUnicodeFont
 =
 PR_TRUE
 ;
+else
 aFontEntry
 -
 >
