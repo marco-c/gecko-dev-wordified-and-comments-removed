@@ -537,7 +537,7 @@ null
 setText
 (
 "
-explainations
+explanations
 "
 bundle
 .
@@ -570,7 +570,7 @@ TRUSTED_SSL
 setText
 (
 "
-explainations
+explanations
 "
 bundle
 .
@@ -588,7 +588,7 @@ else
 setText
 (
 "
-explainations
+explanations
 "
 bundle
 .
@@ -830,7 +830,7 @@ null
 setText
 (
 "
-explainations
+explanations
 "
 bundle
 .
@@ -863,7 +863,7 @@ TRUSTED_EMAIL
 setText
 (
 "
-explainations
+explanations
 "
 bundle
 .
@@ -881,7 +881,7 @@ else
 setText
 (
 "
-explainations
+explanations
 "
 bundle
 .
