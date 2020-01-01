@@ -2098,9 +2098,6 @@ nsIFrame
 aFloat
 nscoord
 aAvailableWidth
-nsReflowStatus
-&
-aReflowStatus
 )
 {
 NS_PRECONDITION
@@ -2300,10 +2297,6 @@ aFloat
 )
 ;
 }
-aReflowStatus
-=
-NS_FRAME_COMPLETE
-;
 nscoord
 ox
 oy
@@ -2393,7 +2386,6 @@ placed
 FlowAndPlaceFloat
 (
 aFloat
-aReflowStatus
 )
 ;
 if
@@ -2662,15 +2654,8 @@ FlowAndPlaceFloat
 nsIFrame
 *
 aFloat
-nsReflowStatus
-&
-aReflowStatus
 )
 {
-aReflowStatus
-=
-NS_FRAME_COMPLETE
-;
 AutoRestore
 <
 nscoord
@@ -3951,9 +3936,6 @@ n
 }
 #
 endif
-nsReflowStatus
-reflowStatus
-;
 PRBool
 placed
 =
@@ -3963,7 +3945,6 @@ fc
 -
 >
 mFloat
-reflowStatus
 )
 ;
 nsFloatCache

@@ -506,9 +506,6 @@ nsIFrame
 aFloat
 nscoord
 aAvailableWidth
-nsReflowStatus
-&
-aReflowStatus
 )
 {
 return
@@ -520,7 +517,6 @@ AddFloat
 this
 aFloat
 aAvailableWidth
-aReflowStatus
 )
 ;
 }

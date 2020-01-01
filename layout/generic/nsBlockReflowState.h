@@ -198,9 +198,6 @@ nsIFrame
 aFloat
 nscoord
 aAvailableWidth
-nsReflowStatus
-&
-aReflowStatus
 )
 ;
 private
@@ -224,9 +221,6 @@ FlowAndPlaceFloat
 nsIFrame
 *
 aFloat
-nsReflowStatus
-&
-aReflowStatus
 )
 ;
 private

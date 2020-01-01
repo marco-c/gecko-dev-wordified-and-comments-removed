@@ -26370,17 +26370,11 @@ GetOverflowRect
 (
 )
 ;
-nsReflowStatus
-fStatus
-=
-NS_FRAME_COMPLETE
-;
 aState
 .
 FlowAndPlaceFloat
 (
 f
-fStatus
 )
 ;
 nsRect
