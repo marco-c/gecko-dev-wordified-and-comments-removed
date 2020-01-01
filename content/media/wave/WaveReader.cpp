@@ -2319,6 +2319,9 @@ rate
 96000
 |
 |
+(
+(
+(
 channels
 <
 1
@@ -2327,6 +2330,7 @@ channels
 channels
 >
 MAX_CHANNELS
+)
 |
 |
 (
@@ -2346,6 +2350,12 @@ frameSize
 !
 =
 4
+)
+)
+&
+&
+!
+mIgnoreAudioOutputFormat
 )
 |
 |
