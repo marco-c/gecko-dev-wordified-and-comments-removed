@@ -7658,6 +7658,14 @@ gen
 cx
 )
 ;
+if
+(
+!
+thunk
+)
+return
+false
+;
 masm
 .
 branch
