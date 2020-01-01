@@ -15,7 +15,7 @@ document
 cookie
 )
 ;
-todoSecurityState
+isSecurityState
 (
 "
 broken
