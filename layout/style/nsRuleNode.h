@@ -2646,7 +2646,15 @@ aCoord
 nscoord
 aPercentageBasis
 )
+{
+return
+ComputeComputedCalc
+(
+aCoord
+aPercentageBasis
+)
 ;
+}
 PRBool
 TreeHasCachedData
 (
