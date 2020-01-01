@@ -670,6 +670,16 @@ return
 mPageSequenceFrame
 ;
 }
+nsIFrame
+*
+GetDocElementContainingBlock
+(
+)
+{
+return
+mDocElementContainingBlock
+;
+}
 private
 :
 nsresult
