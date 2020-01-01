@@ -279,9 +279,6 @@ format
 =
 CF_UNICODETEXT
 ;
-#
-ifndef
-WINCE
 else
 if
 (
@@ -334,8 +331,6 @@ format
 =
 CF_HDROP
 ;
-#
-endif
 else
 if
 (
@@ -783,9 +778,6 @@ kURLMime
 shortcutFE
 )
 ;
-#
-ifndef
-WINCE
 SET_FORMATETC
 (
 shortcutFE
@@ -811,8 +803,6 @@ kURLMime
 shortcutFE
 )
 ;
-#
-endif
 SET_FORMATETC
 (
 shortcutFE
@@ -931,9 +921,6 @@ imageFE
 )
 ;
 }
-#
-ifndef
-WINCE
 else
 if
 (
@@ -976,8 +963,6 @@ shortcutFE
 )
 ;
 }
-#
-endif
 }
 }
 return
@@ -1776,9 +1761,6 @@ RegisterClipboardFormat
 CFSTR_FILEDESCRIPTORW
 )
 ;
-#
-ifndef
-WINCE
 static
 CLIPFORMAT
 fileFlavor
@@ -1790,8 +1772,6 @@ RegisterClipboardFormat
 CFSTR_FILECONTENTS
 )
 ;
-#
-endif
 switch
 (
 stm
@@ -1913,9 +1893,6 @@ NS_OK
 }
 break
 ;
-#
-ifndef
-WINCE
 case
 CF_DIB
 :
@@ -2170,14 +2147,9 @@ hGlobal
 }
 break
 ;
-#
-endif
 default
 :
 {
-#
-ifndef
-WINCE
 if
 (
 fe
@@ -2226,8 +2198,6 @@ flavor
 ;
 }
 else
-#
-endif
 {
 PRUint32
 allocLen

@@ -1,7 +1,4 @@
 #
-ifndef
-WINCE
-#
 include
 "
 nsError
@@ -220,5 +217,3 @@ aColorMask
 ;
 }
 ;
-#
-endif

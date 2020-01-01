@@ -41,9 +41,6 @@ h
 >
 #
 ifndef
-WINCE
-#
-ifndef
 IDropTargetHelper
 #
 ifndef
@@ -55,8 +52,6 @@ shobjidl
 .
 h
 >
-#
-endif
 #
 endif
 #
@@ -227,15 +222,10 @@ nsIDragService
 *
 mDragService
 ;
-#
-ifndef
-WINCE
 IDropTargetHelper
 *
 mDropTargetHelper
 ;
-#
-endif
 }
 ;
 #

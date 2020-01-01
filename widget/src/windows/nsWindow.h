@@ -1143,9 +1143,6 @@ BlurEventsSuppressed
 ;
 protected
 :
-#
-ifndef
-WINCE
 static
 LRESULT
 CALLBACK
@@ -1232,8 +1229,6 @@ char
 aNotification
 )
 ;
-#
-endif
 static
 BOOL
 DealWithPopups
@@ -2130,6 +2125,10 @@ mOldIMC
 ;
 PRUint32
 mIMEEnabled
+;
+static
+HKL
+gKeyboardLayout
 ;
 static
 PRBool

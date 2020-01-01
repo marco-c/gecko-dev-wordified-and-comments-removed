@@ -1016,6 +1016,9 @@ GetLastError
 =
 =
 ERROR_INVALID_PARAMETER
+#
+ifndef
+WINCE
 |
 |
 :
@@ -1026,6 +1029,8 @@ CommDlgExtendedError
 =
 =
 FNERR_INVALIDFILENAME
+#
+endif
 )
 {
 ofn
@@ -1830,7 +1835,7 @@ if
 (
 nameLength
 >
-_MAX_FNAME
+MAX_PATH
 )
 {
 PRInt32
@@ -1865,7 +1870,7 @@ charsToRemove
 =
 nameLength
 -
-_MAX_FNAME
+MAX_PATH
 ;
 if
 (
