@@ -2865,6 +2865,7 @@ aPublishTime
 aChannels
 aRate
 aHasAudio
+aHasVideo
 aTags
 )
 ;
@@ -2927,6 +2928,8 @@ int
 aRate
 bool
 aHasAudio
+bool
+aHasVideo
 MetadataTags
 *
 aTags
@@ -3007,6 +3010,7 @@ MetadataLoaded
 aChannels
 aRate
 aHasAudio
+aHasVideo
 aTags
 )
 ;

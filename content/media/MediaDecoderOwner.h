@@ -111,6 +111,8 @@ int
 aRate
 bool
 aHasAudio
+bool
+aHasVideo
 const
 MetadataTags
 *

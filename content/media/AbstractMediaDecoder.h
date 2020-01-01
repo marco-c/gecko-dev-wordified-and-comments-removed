@@ -247,6 +247,8 @@ int
 aRate
 bool
 aHasAudio
+bool
+aHasVideo
 MetadataTags
 *
 aTags
@@ -266,6 +268,8 @@ int
 aRate
 bool
 aHasAudio
+bool
+aHasVideo
 MetadataTags
 *
 aTags
@@ -393,6 +397,8 @@ int
 aRate
 bool
 aHasAudio
+bool
+aHasVideo
 MetadataTags
 *
 aTags
@@ -414,6 +420,10 @@ mHasAudio
 (
 aHasAudio
 )
+mHasVideo
+(
+aHasVideo
+)
 mTags
 (
 aTags
@@ -433,6 +443,7 @@ MetadataLoaded
 mChannels
 mRate
 mHasAudio
+mHasVideo
 mTags
 )
 ;
@@ -448,6 +459,9 @@ mRate
 ;
 bool
 mHasAudio
+;
+bool
+mHasVideo
 ;
 MetadataTags
 *

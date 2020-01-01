@@ -438,6 +438,8 @@ int
 aRate
 bool
 aHasAudio
+bool
+aHasVideo
 const
 MetadataTags
 *
@@ -1140,6 +1142,11 @@ SelectResourceWrapper
 ;
 void
 QueueSelectResourceTask
+(
+)
+;
+void
+ResetState
 (
 )
 ;
