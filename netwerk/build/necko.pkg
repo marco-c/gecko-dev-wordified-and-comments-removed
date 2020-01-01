@@ -174,15 +174,6 @@ necko_socket
 xpt
 #
 endif
-dist
-/
-bin
-/
-res
-/
-effective_tld_names
-.
-dat
 [
 gecko
 -

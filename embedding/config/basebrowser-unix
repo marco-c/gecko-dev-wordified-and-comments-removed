@@ -1051,11 +1051,3 @@ components
 libucvmath
 .
 so
-;
-Effective
-TLD
-res
-/
-effective_tld_names
-.
-dat

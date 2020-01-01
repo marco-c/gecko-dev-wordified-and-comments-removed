@@ -1230,11 +1230,3 @@ fonts
 mathfontSymbol
 .
 properties
-;
-Effective
-TLD
-res
-\
-effective_tld_names
-.
-dat

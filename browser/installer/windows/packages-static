@@ -304,13 +304,6 @@ npnul32
 dll
 bin
 \
-res
-\
-effective_tld_names
-.
-dat
-bin
-\
 LICENSE
 bin
 \

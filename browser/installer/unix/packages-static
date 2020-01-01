@@ -294,13 +294,6 @@ libnullplugin
 so
 bin
 /
-res
-/
-effective_tld_names
-.
-dat
-bin
-/
 libsqlite3
 .
 so
