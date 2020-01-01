@@ -4394,8 +4394,7 @@ if
 ToNumber
 (
 cx
-*
-slot
+v
 &
 d
 )
