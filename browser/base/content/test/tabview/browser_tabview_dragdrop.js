@@ -507,6 +507,17 @@ function
 (
 )
 {
+window
+.
+removeEventListener
+(
+"
+tabviewhidden
+"
+onTabViewHidden
+false
+)
+;
 groupTwo
 .
 closeAll

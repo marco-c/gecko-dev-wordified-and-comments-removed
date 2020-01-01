@@ -982,10 +982,14 @@ browser_tabs_owner
 .
 js
 \
+tabview
+/
 browser_tabview_dragdrop
 .
 js
 \
+tabview
+/
 browser_visibleTabs
 .
 js
