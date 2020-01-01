@@ -1784,17 +1784,6 @@ EndSeekingForMetadata
 )
 ;
 }
-else
-{
-mDecoder
--
->
-SetTransportSeekable
-(
-false
-)
-;
-}
 }
 else
 {
