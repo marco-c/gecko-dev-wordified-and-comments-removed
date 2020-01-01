@@ -10,7 +10,7 @@ browser
 .
 cachePixelX
 "
-500
+800
 )
 ;
 pref

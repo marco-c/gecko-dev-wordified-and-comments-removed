@@ -110,7 +110,7 @@ if
 (
 this
 .
-zoomFrom
+zoomRect
 )
 {
 this
@@ -294,6 +294,11 @@ setVisibleRect
 this
 .
 zoomTo
+|
+|
+this
+.
+zoomRect
 )
 ;
 this
