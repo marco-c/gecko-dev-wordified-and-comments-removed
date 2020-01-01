@@ -450,7 +450,7 @@ WifiGeoAddressObject
 (
 address
 .
-streetNumber
+street_number
 address
 .
 street
@@ -468,13 +468,13 @@ address
 region
 address
 .
-county
+country
 address
 .
-countryCode
+country_code
 address
 .
-postalCode
+postal_code
 )
 ;
 }
