@@ -50,6 +50,7 @@ REFILL
 }
 ;
 static
+const
 int
 NUM_REASONS
 =

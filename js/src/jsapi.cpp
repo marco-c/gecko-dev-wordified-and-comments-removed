@@ -3254,7 +3254,9 @@ NULL
 )
 gcHelperThread
 (
-this
+thisFromCtor
+(
+)
 )
 rtLock
 (
