@@ -2388,7 +2388,7 @@ dist
 /
 bin
 /
-libmozjs
+libgkgfx
 .
 so
 is
@@ -2398,18 +2398,18 @@ link
 to
 #
 #
-js
+gfx
 /
 src
 /
-libmozjs
+libgkgfx
 .
 so
 ORIGIN
 will
 be
 "
-js
+gfx
 /
 src
 "
@@ -2430,7 +2430,7 @@ linker
 will
 use
 "
-js
+gfx
 /
 src
 "
@@ -2449,7 +2449,7 @@ other
 shared
 libraries
 that
-libmozjs
+libgkgfx
 .
 so
 depends
@@ -2506,7 +2506,7 @@ Note
 #
 We
 choose
-libmozjs
+libgkgfx
 .
 so
 as
@@ -2549,7 +2549,7 @@ h
 "
 MOZ_DIST_BIN
 /
-libmozjs
+libgkgfx
 .
 so
 "
