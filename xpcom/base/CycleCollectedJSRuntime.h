@@ -645,13 +645,6 @@ aPossibleJSHolder
 ;
 #
 endif
-static
-nsCycleCollectionParticipant
-*
-JSContextParticipant
-(
-)
-;
 nsCycleCollectionParticipant
 *
 GCThingParticipant

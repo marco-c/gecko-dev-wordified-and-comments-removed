@@ -114,6 +114,13 @@ BindingDeclarations
 .
 h
 "
+#
+include
+"
+nsDOMJSUtils
+.
+h
+"
 class
 nsIPrincipal
 ;
@@ -566,6 +573,13 @@ cx
 if
 (
 cx
+&
+&
+!
+GetScriptContextFromJSContext
+(
+cx
+)
 )
 {
 JSObject
