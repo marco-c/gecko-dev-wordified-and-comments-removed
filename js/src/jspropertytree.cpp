@@ -863,7 +863,7 @@ parent
 JS_ASSERT
 (
 !
-JSVAL_IS_NULL
+JSID_IS_VOID
 (
 parent
 -
@@ -875,7 +875,7 @@ id
 JS_ASSERT
 (
 !
-JSVAL_IS_NULL
+JSID_IS_VOID
 (
 child
 -
@@ -1344,7 +1344,7 @@ parent
 JS_ASSERT
 (
 !
-JSVAL_IS_NULL
+JSID_IS_VOID
 (
 parent
 -
@@ -2010,7 +2010,7 @@ else
 JS_ASSERT
 (
 !
-JSVAL_IS_NULL
+JSID_IS_VOID
 (
 parent
 -
@@ -2674,7 +2674,7 @@ fp
 JS_ASSERT
 (
 !
-JSVAL_IS_NULL
+JSID_IS_VOID
 (
 id
 )
@@ -2744,7 +2744,7 @@ str
 js_ValueToString
 (
 cx
-ID_TO_VALUE
+IdToValue
 (
 id
 )
@@ -3324,7 +3324,7 @@ break
 if
 (
 !
-JSVAL_IS_NULL
+JSID_IS_VOID
 (
 kid
 -
@@ -3382,7 +3382,7 @@ kids
 if
 (
 !
-JSVAL_IS_NULL
+JSID_IS_VOID
 (
 kid
 -
@@ -3987,7 +3987,7 @@ sprop
 {
 if
 (
-JSVAL_IS_NULL
+JSID_IS_VOID
 (
 sprop
 -

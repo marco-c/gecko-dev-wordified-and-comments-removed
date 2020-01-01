@@ -360,7 +360,7 @@ InternalGetOrSet
 cx
 proxy
 id
-CastAsObjectJSVal
+CastAsObjectJsval
 (
 desc
 .
@@ -483,7 +483,7 @@ InternalGetOrSet
 cx
 proxy
 id
-CastAsObjectJSVal
+CastAsObjectJsval
 (
 desc
 .
@@ -598,7 +598,7 @@ InternalGetOrSet
 cx
 proxy
 id
-CastAsObjectJSVal
+CastAsObjectJsval
 (
 desc
 .
@@ -893,6 +893,18 @@ OperationInProgress
 cx
 proxy
 )
+)
+;
+JS_ASSERT
+(
+(
+flags
+&
+JSITER_FOREACH
+)
+=
+=
+0
 )
 ;
 JSIdArray
@@ -1208,7 +1220,7 @@ str
 js_ValueToString
 (
 cx
-ID_TO_VALUE
+IdToValue
 (
 id
 )
@@ -1270,7 +1282,7 @@ str
 js_ValueToString
 (
 cx
-ID_TO_VALUE
+IdToValue
 (
 id
 )
@@ -1502,7 +1514,7 @@ attrs
 JSPROP_GETTER
 )
 ?
-CastAsObjectJSVal
+CastAsObjectJsval
 (
 desc
 -
@@ -1523,7 +1535,7 @@ attrs
 JSPROP_SETTER
 )
 ?
-CastAsObjectJSVal
+CastAsObjectJsval
 (
 desc
 -
@@ -3014,7 +3026,7 @@ str
 js_ValueToString
 (
 cx
-ID_TO_VALUE
+IdToValue
 (
 id
 )
@@ -3162,7 +3174,7 @@ str
 js_ValueToString
 (
 cx
-ID_TO_VALUE
+IdToValue
 (
 id
 )
@@ -4979,7 +4991,7 @@ propp
 JSProperty
 *
 )
-id
+0x1
 ;
 *
 objp

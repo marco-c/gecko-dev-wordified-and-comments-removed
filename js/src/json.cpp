@@ -1395,7 +1395,7 @@ if
 js_ValueToStringId
 (
 cx
-ID_TO_VALUE
+IdToValue
 (
 ida
 [
@@ -1611,7 +1611,7 @@ s
 js_ValueToString
 (
 cx
-ID_TO_VALUE
+IdToValue
 (
 id
 )
@@ -2041,7 +2041,7 @@ vec
 ]
 =
 {
-ID_TO_JSVAL
+IdToJsval
 (
 id
 )
@@ -3323,7 +3323,7 @@ key
 js_ValueToString
 (
 cx
-ID_TO_VALUE
+IdToValue
 (
 id
 )

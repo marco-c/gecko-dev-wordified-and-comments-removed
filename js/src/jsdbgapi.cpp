@@ -3864,7 +3864,7 @@ if
 js_ValueToStringId
 (
 cx
-ID_TO_VALUE
+IdToValue
 (
 id
 )
@@ -4049,7 +4049,7 @@ if
 js_ValueToStringId
 (
 cx
-ID_TO_VALUE
+IdToValue
 (
 id
 )
@@ -4071,7 +4071,7 @@ idroot
 .
 set
 (
-ID_TO_VALUE
+IdToValue
 (
 propid
 )
@@ -6996,7 +6996,7 @@ pd
 >
 id
 =
-ID_TO_JSVAL
+IdToJsval
 (
 sprop
 -
@@ -7337,7 +7337,7 @@ pd
 >
 alias
 =
-ID_TO_JSVAL
+IdToJsval
 (
 aprop
 -
@@ -10327,11 +10327,11 @@ XP_WIN
 )
 #
 include
-"
-jswin
+<
+windows
 .
 h
-"
+>
 #
 else
 #

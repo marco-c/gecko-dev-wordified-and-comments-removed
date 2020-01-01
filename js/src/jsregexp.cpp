@@ -25477,7 +25477,7 @@ native
 ;
 if
 (
-REGEX_JIT_ENABLED
+TRACING_ENABLED
 (
 gData
 -
@@ -27163,7 +27163,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -27375,7 +27375,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -27744,7 +27744,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -28098,7 +28098,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *

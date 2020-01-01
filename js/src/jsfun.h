@@ -494,7 +494,6 @@ uint16
 flags
 ;
 union
-U
 {
 struct
 {
@@ -525,7 +524,6 @@ trcinfo
 n
 ;
 struct
-Scripted
 {
 uint16
 nvars
@@ -980,22 +978,13 @@ VALUE_IS_FUNCTION
 cx
 v
 )
-\
 (
-!
-JSVAL_IS_PRIMITIVE
+Valueify
 (
 v
 )
-&
-&
-JSVAL_TO_OBJECT
-(
-v
-)
--
->
-isFunction
+.
+isFunObj
 (
 )
 )
@@ -1528,7 +1517,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 js
 :
@@ -1548,7 +1537,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 js
 :
@@ -1568,7 +1557,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 js
 :
@@ -1588,7 +1577,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 js
 :
@@ -1650,7 +1639,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 js
 :
