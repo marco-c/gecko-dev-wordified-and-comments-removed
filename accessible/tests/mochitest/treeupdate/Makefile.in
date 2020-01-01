@@ -479,6 +479,10 @@ test_hidden
 .
 html
 \
+test_imagemap
+.
+html
+\
 test_list_editabledoc
 .
 html
