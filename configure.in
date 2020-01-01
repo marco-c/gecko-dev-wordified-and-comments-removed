@@ -2997,6 +2997,15 @@ include
 I
 gonkdir
 /
+hardware
+/
+libhardware_legacy
+/
+include
+-
+I
+gonkdir
+/
 system
 /
 core
