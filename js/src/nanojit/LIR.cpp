@@ -9881,6 +9881,11 @@ isCall
 )
 )
 {
+#
+if
+!
+defined
+NANOJIT_64BIT
 if
 (
 ref
@@ -9904,6 +9909,8 @@ oprnd1
 }
 else
 {
+#
+endif
 copyName
 (
 ref
@@ -9931,7 +9938,14 @@ fid
 )
 )
 ;
+#
+if
+!
+defined
+NANOJIT_64BIT
 }
+#
+endif
 }
 else
 {
