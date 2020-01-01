@@ -135,7 +135,7 @@ NULL
 EXTRA_JS_MODULES
 =
 \
-ClearRecentHistory
+ForgetAboutSite
 .
 jsm
 \

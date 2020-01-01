@@ -13,7 +13,7 @@ gre
 /
 modules
 /
-ClearRecentHistory
+ForgetAboutSite
 .
 jsm
 "
@@ -518,7 +518,7 @@ testState
 )
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (

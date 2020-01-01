@@ -13,7 +13,7 @@ gre
 /
 modules
 /
-ClearRecentHistory
+ForgetAboutSite
 .
 jsm
 "
@@ -381,7 +381,7 @@ sites
 "
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -474,7 +474,7 @@ com
 "
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -510,7 +510,7 @@ com
 "
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
@@ -556,7 +556,7 @@ for
 "
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (

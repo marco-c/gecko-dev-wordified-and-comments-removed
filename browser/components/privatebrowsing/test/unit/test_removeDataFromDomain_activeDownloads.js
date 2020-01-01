@@ -34,7 +34,7 @@ gre
 /
 modules
 /
-ClearRecentHistory
+ForgetAboutSite
 .
 jsm
 "
@@ -562,7 +562,7 @@ source
 true
 )
 ;
-ClearRecentHistory
+ForgetAboutSite
 .
 removeDataFromDomain
 (
