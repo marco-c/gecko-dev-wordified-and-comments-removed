@@ -15,6 +15,15 @@ ModuleUtils
 h
 "
 #
+include
+<
+glib
+-
+object
+.
+h
+>
+#
 ifdef
 MOZ_ENABLE_GCONF
 #
