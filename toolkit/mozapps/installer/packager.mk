@@ -4963,7 +4963,7 @@ upload
 PYTHON
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 build
