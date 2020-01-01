@@ -38,17 +38,6 @@ DECODE_COMPLETE
 =
 0x10
 ;
-const
-ALL_BITS
-=
-SIZE_AVAILABLE
-|
-FRAME_COMPLETE
-|
-DECODE_COMPLETE
-|
-LOAD_COMPLETE
-;
 function
 ImageListener
 (
