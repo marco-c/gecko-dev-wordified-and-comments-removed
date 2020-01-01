@@ -1631,7 +1631,7 @@ TabParent
 AllocPGeolocationRequest
 (
 const
-URI
+IPC
 :
 :
 URI
