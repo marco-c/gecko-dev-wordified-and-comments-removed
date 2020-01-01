@@ -14174,6 +14174,7 @@ m
 =
 JSVAL_DOUBLE
 )
+{
 lir
 -
 >
@@ -14193,6 +14194,18 @@ vp
 )
 )
 ;
+oracle
+.
+markGlobalSlotUndemotable
+(
+cx
+gslots
+[
+n
+]
+)
+;
+}
 JS_ASSERT
 (
 !
