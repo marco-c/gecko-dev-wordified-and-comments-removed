@@ -537,6 +537,9 @@ mk
 INSTALL_SDK
 =
 1
+GENERATE_CACHE
+=
+1
 include
 (
 topsrcdir
