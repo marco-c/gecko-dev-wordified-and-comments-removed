@@ -801,8 +801,6 @@ wsock32
 gdi32
 )
 endif
-ifdef
-MOZ_ENABLE_CAIRO_GFX
 STATIC_EXTRA_LIBS
 +
 =
@@ -811,7 +809,6 @@ call
 EXPAND_LIBNAME
 usp10
 )
-endif
 endif
 ifeq
 (
