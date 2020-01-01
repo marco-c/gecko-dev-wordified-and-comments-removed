@@ -626,10 +626,6 @@ nsPrintJobGTK
 .
 cpp
 \
-nsTempfilePS
-.
-cpp
-\
 nsIdleServiceGTK
 .
 cpp
