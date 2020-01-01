@@ -5437,9 +5437,6 @@ DefineJavaProperties
 (
 )
 {
-#
-ifdef
-OJI
 NPObject
 *
 plugin_obj
@@ -5607,8 +5604,6 @@ _releaseobject
 java_obj
 )
 ;
-#
-endif
 }
 nsresult
 ns4xPluginInstance

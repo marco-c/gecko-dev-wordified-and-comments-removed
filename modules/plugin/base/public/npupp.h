@@ -46,13 +46,6 @@ npruntime
 .
 h
 "
-#
-include
-"
-jri
-.
-h
-"
 typedef
 void
 (
@@ -1895,7 +1888,7 @@ ARG1
 )
 )
 typedef
-JRIEnv
+void
 *
 (
 *
@@ -1937,7 +1930,8 @@ FUNC
 (
 )
 typedef
-jref
+void
+*
 (
 *
 NP_LOADDS
@@ -3559,7 +3553,8 @@ event
 NPP_URLNotifyUPP
 urlnotify
 ;
-JRIGlobalRef
+void
+*
 javaClass
 ;
 NPP_GetValueUPP

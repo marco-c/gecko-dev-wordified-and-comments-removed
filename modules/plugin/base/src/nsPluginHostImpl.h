@@ -1461,14 +1461,6 @@ nsPluginTag
 aPluginTag
 )
 ;
-PRBool
-IsUnwantedJavaPlugin
-(
-nsPluginTag
-*
-aPluginTag
-)
-;
 nsresult
 EnsurePrivateDirServiceProvider
 (

@@ -717,6 +717,9 @@ return
 0
 ;
 }
+#
+ifdef
+OJI
 static
 PRBool
 TryToUseNPRuntimeJavaPlugIn
@@ -853,6 +856,8 @@ PR_FALSE
 PR_TRUE
 ;
 }
+#
+endif
 nsPluginDirServiceProvider
 :
 :
@@ -1212,9 +1217,6 @@ NS_WIN_JRE_SCAN_KEY
 nsXPIDLCString
 strVer
 ;
-#
-ifdef
-OJI
 if
 (
 NS_FAILED
@@ -1232,8 +1234,6 @@ strVer
 )
 )
 )
-#
-endif
 return
 NS_ERROR_FAILURE
 ;
@@ -1352,8 +1352,17 @@ _MAX_PATH
 PRBool
 tryNPRuntimeJavaPlugIn
 =
+#
+ifdef
+OJI
 PR_FALSE
 ;
+#
+else
+PR_TRUE
+;
+#
+endif
 newestPath
 [
 0
@@ -1595,6 +1604,9 @@ newestPath
 path
 )
 ;
+#
+ifdef
+OJI
 tryNPRuntimeJavaPlugIn
 =
 TryToUseNPRuntimeJavaPlugIn
@@ -1602,6 +1614,8 @@ TryToUseNPRuntimeJavaPlugIn
 curKey
 )
 ;
+#
+endif
 :
 :
 RegCloseKey
@@ -1638,6 +1652,9 @@ maxVer
 curVer
 )
 ;
+#
+ifdef
+OJI
 tryNPRuntimeJavaPlugIn
 =
 TryToUseNPRuntimeJavaPlugIn
@@ -1645,6 +1662,8 @@ TryToUseNPRuntimeJavaPlugIn
 curKey
 )
 ;
+#
+endif
 }
 }
 }
