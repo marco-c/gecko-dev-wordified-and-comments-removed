@@ -534,6 +534,13 @@ reportWizard
 title
 ;
 "
+onload
+=
+"
+initPrivacyNotice
+(
+)
+"
 style
 =
 "
@@ -643,13 +650,6 @@ id
 =
 "
 privacyNotice
-"
-onpageshow
-=
-"
-initPrivacyNotice
-(
-)
 "
 onpageadvanced
 =
