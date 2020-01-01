@@ -622,7 +622,7 @@ color_management
 .
 mode
 "
-0
+1
 )
 ;
 pref
