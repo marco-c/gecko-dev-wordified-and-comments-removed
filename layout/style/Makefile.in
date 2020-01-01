@@ -674,10 +674,6 @@ nsCSSPseudoElements
 .
 cpp
 \
-nsCSSRule
-.
-cpp
-\
 nsCSSRuleProcessor
 .
 cpp
