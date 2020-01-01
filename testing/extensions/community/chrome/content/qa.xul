@@ -462,6 +462,9 @@ qa
 /
 skin
 /
+qa
+.
+css
 "
 type
 =
@@ -1072,10 +1075,14 @@ title
 >
 <
 spacer
-width
+id
 =
 "
-30
+qa
+-
+tab
+-
+spacer
 "
 /
 >
