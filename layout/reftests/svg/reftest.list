@@ -785,6 +785,7 @@ svg
 pass
 .
 svg
+random
 =
 =
 dynamic
@@ -807,6 +808,9 @@ nested
 ref
 .
 svg
+#
+bug
+467498
 =
 =
 dynamic
