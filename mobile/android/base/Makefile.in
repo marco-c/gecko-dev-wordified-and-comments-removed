@@ -3379,6 +3379,14 @@ preferences_vendor
 .
 xml
 \
+res
+/
+xml
+/
+preferences_devtools
+.
+xml
+\
 (
 SYNC_RES_XML
 )
