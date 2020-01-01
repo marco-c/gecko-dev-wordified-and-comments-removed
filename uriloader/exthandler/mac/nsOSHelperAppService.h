@@ -140,17 +140,6 @@ bool
 aHandlerExists
 )
 ;
-protected
-:
-virtual
-void
-FixFilePermissions
-(
-nsIFile
-*
-aFile
-)
-;
 private
 :
 uint32_t

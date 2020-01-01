@@ -351,15 +351,6 @@ nsACString
 aMIMEType
 )
 ;
-virtual
-void
-FixFilePermissions
-(
-nsIFile
-*
-aFile
-)
-;
 #
 ifdef
 PR_LOGGING
@@ -373,10 +364,6 @@ endif
 friend
 class
 nsExternalAppHandler
-;
-friend
-class
-nsExternalLoadRequest
 ;
 static
 void
