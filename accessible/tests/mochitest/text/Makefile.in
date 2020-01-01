@@ -94,6 +94,10 @@ test_doc
 .
 html
 \
+test_gettext
+.
+html
+\
 test_hypertext
 .
 html
