@@ -921,6 +921,14 @@ EXTRA_DSO_LDOPTS
 (
 TK_LIBS
 )
+\
+-
+framework
+AddressBook
+\
+(
+NULL
+)
 endif
 ifeq
 (
