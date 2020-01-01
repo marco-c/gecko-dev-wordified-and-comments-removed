@@ -4284,7 +4284,7 @@ endif
 ifeq
 (
 (
-OS_TARGET
+OS_ARCH
 )
 WINCE
 )
