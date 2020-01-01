@@ -2787,7 +2787,6 @@ canOverflow
 (
 )
 )
-{
 c
 =
 masm
@@ -2809,9 +2808,7 @@ dest
 c
 )
 ;
-}
 else
-{
 masm
 .
 ma_mul
@@ -2830,7 +2827,6 @@ dest
 )
 )
 ;
-}
 if
 (
 mul
