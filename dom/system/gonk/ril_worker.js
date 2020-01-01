@@ -6977,6 +6977,14 @@ onerror
 }
 else
 {
+if
+(
+!
+this
+.
+_isCdma
+)
+{
 let
 mmi
 =
@@ -7021,6 +7029,7 @@ _getCLIRMode
 mmi
 )
 ;
+}
 }
 this
 .
