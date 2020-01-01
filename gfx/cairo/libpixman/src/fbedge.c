@@ -1,12 +1,5 @@
 #
 include
-"
-pixmanint
-.
-h
-"
-#
-include
 <
 string
 .
@@ -291,7 +284,7 @@ rasterizeEdges
 undef
 N_BITS
 static
-inline
+INLINE
 CARD8
 clip255
 (
@@ -313,7 +306,7 @@ x
 ;
 }
 static
-inline
+INLINE
 void
 add_saturate_8
 (

@@ -443,7 +443,7 @@ cairo_output_stream_t
 *
 )
 &
-_cairo_output_stream_nil
+cairo_output_stream_nil
 ;
 _cairo_output_stream_init
 (

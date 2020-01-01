@@ -1,5 +1,12 @@
 #
 include
+<
+stdlib
+.
+h
+>
+#
+include
 "
 cairoint
 .
@@ -1381,10 +1388,6 @@ num_points
 {
 if
 (
-(
-unsigned
-int
-)
 path
 -
 >
@@ -1398,10 +1401,6 @@ num_ops
 CAIRO_PATH_BUF_SIZE
 |
 |
-(
-unsigned
-int
-)
 path
 -
 >

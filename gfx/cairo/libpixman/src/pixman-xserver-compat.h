@@ -7,7 +7,7 @@ _PIXMAN_XSERVER_COMPAT_H_
 #
 include
 "
-pixmanint
+icint
 .
 h
 "
