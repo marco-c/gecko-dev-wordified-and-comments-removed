@@ -1,6 +1,6 @@
 #
 ifndef
-nsProxyRelease_h_
+nsProxyRelease_h__
 #
 define
 nsProxyRelease_h__

@@ -3,7 +3,7 @@ ifndef
 macieprofilemigrator___h___
 #
 define
-maciebprofilemigrator___h___
+macieprofilemigrator___h___
 #
 include
 "

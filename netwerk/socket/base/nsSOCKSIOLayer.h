@@ -3,7 +3,7 @@ ifndef
 nsSOCKSIOLayer_h__
 #
 define
-NSSOCKSIOLayer_h__
+nsSOCKSIOLayer_h__
 #
 include
 "
