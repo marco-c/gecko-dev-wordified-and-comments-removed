@@ -623,6 +623,11 @@ skia
 npapi
 /
 Makefile
+mozglue
+/
+android
+/
+Makefile
 "
 fi
 fi
