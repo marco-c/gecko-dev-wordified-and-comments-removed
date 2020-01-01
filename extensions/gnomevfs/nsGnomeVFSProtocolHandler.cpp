@@ -1241,7 +1241,7 @@ nsIInputStream
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIINPUTSTREAM
 nsGnomeVFSInputStream
 (
@@ -2412,7 +2412,7 @@ return
 rv
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsGnomeVFSInputStream
 nsIInputStream
