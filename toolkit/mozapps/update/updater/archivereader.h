@@ -67,6 +67,11 @@ NS_tchar
 path
 )
 ;
+int
+VerifySignature
+(
+)
+;
 void
 Close
 (
