@@ -331,10 +331,7 @@ if
 (
 PR_sscanf
 (
-PromiseFlatCString
-(
 value
-)
 .
 get
 (
