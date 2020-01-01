@@ -2396,6 +2396,7 @@ return
 NS_OK
 ;
 }
+{
 nsCOMPtr
 <
 nsIContent
@@ -2524,6 +2525,7 @@ doRemoveChild
 (
 )
 ;
+}
 nsString
 nullString
 ;
