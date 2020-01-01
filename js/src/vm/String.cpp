@@ -73,6 +73,11 @@ gc
 :
 FINALIZE_SHORT_STRING
 )
+&
+&
+isInline
+(
+)
 ;
 JS_ASSERT_IF
 (
