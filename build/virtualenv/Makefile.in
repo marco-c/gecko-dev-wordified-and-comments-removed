@@ -153,6 +153,12 @@ mozbase
 /
 mozrunner
 \
+build
+/
+pylib
+/
+blessings
+\
 (
 NULL
 )

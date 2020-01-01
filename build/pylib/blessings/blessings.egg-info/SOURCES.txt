@@ -7,6 +7,9 @@ README
 rst
 setup
 .
+cfg
+setup
+.
 py
 tox
 .
