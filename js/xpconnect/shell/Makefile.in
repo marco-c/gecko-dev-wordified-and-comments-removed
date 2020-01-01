@@ -139,6 +139,8 @@ MOZ_APP_PROFILE
 "
 '
 else
+ifdef
+MOZ_APP_VENDOR
 DEFINES
 +
 =
@@ -152,6 +154,9 @@ MOZ_APP_VENDOR
 )
 "
 '
+endif
+ifdef
+MOZ_APP_BASENAME
 DEFINES
 +
 =
@@ -165,6 +170,7 @@ MOZ_APP_BASENAME
 )
 "
 '
+endif
 DEFINES
 +
 =
