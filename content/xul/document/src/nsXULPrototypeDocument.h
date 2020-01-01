@@ -263,12 +263,7 @@ MarkInCCGeneration
 uint32_t
 aCCGeneration
 )
-{
-mCCGeneration
-=
-aCCGeneration
 ;
-}
 NS_DECL_CYCLE_COLLECTION_CLASS
 (
 nsXULPrototypeDocument
