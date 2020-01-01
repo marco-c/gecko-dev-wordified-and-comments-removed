@@ -600,6 +600,7 @@ volume
 =
 int32_t
 (
+(
 1
 <
 <
@@ -607,6 +608,7 @@ int32_t
 )
 *
 aScale
+)
 ;
 for
 (
