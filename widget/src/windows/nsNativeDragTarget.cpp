@@ -1347,6 +1347,13 @@ aPT
 pdwEffect
 )
 ;
+winDragService
+-
+>
+SetDroppedLocal
+(
+)
+;
 serv
 -
 >

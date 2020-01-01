@@ -129,6 +129,11 @@ PRUint32
 aActionType
 )
 ;
+void
+SetDroppedLocal
+(
+)
+;
 protected
 :
 nsDataObjCollection
@@ -178,6 +183,9 @@ mNativeDragTarget
 IDataObject
 *
 mDataObject
+;
+PRPackedBool
+mSentLocalDropEvent
 ;
 }
 ;
