@@ -102,10 +102,10 @@ class
 nsIAtom
 ;
 class
-nsIDocument
+nsIDOMCharacterData
 ;
 class
-nsIDOMCharacterData
+nsIDOMDocument
 ;
 class
 nsIDOMElement
@@ -1474,7 +1474,7 @@ CreateStyleForInsertText
 nsISelection
 *
 aSelection
-nsIDocument
+nsIDOMDocument
 *
 aDoc
 )
