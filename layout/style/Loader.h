@@ -83,6 +83,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+CORSMode
+.
+h
+"
 class
 nsIAtom
 ;
@@ -523,6 +532,11 @@ nsAString
 aMedia
 bool
 aHasAlternateRel
+mozilla
+:
+:
+CORSMode
+aCORSMode
 nsICSSLoaderObserver
 *
 aObserver

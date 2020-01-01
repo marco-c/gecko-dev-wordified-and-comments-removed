@@ -7994,6 +7994,8 @@ nsAString
 aMedia
 bool
 aHasAlternateRel
+CORSMode
+aCORSMode
 nsICSSLoaderObserver
 *
 aObserver
