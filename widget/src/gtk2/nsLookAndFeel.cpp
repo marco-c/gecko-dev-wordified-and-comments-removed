@@ -3062,6 +3062,11 @@ gtk_entry_new
 (
 )
 ;
+g_object_ref_sink
+(
+entry
+)
+;
 guint
 value
 ;
@@ -3101,6 +3106,11 @@ NULL
 )
 ;
 gtk_widget_destroy
+(
+entry
+)
+;
+g_object_unref
 (
 entry
 )
