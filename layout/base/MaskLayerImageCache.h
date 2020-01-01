@@ -343,6 +343,8 @@ gfxFloat
 )
 )
 ;
+hash
+=
 AddToHash
 (
 hash
@@ -464,6 +466,8 @@ Length
 i
 )
 {
+hash
+=
 AddToHash
 (
 hash
