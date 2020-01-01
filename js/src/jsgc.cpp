@@ -20723,8 +20723,6 @@ cx
 rootingUnnecessary
 )
 ;
-return
-;
 AutoCopyFreeListToArenas
 copy
 (
