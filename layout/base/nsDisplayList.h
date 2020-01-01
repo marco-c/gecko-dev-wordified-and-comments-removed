@@ -305,7 +305,7 @@ return
 aFrame
 -
 >
-GetOffsetTo
+GetOffsetToCrossDoc
 (
 ReferenceFrame
 (
