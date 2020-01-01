@@ -724,7 +724,11 @@ AB_CD
 langpack
 PKG_LANGPACK_PATH
 =
-install
+(
+MOZ_PKG_PLATFORM
+)
+/
+xpi
 /
 LANGPACK
 =
