@@ -8519,6 +8519,10 @@ aOpener
 NS_ASSERTION
 (
 mOpener
+|
+|
+!
+aOpener
 "
 Opener
 must
