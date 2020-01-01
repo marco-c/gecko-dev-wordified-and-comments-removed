@@ -381,6 +381,15 @@ NS_AUTHOR_SPECIFIED_PADDING
 <
 2
 )
+#
+define
+NS_AUTHOR_SPECIFIED_BOX_SHADOW
+(
+1
+<
+<
+3
+)
 class
 nsPresContext
 :
