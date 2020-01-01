@@ -117,10 +117,7 @@ style
 .
 display
 "
--
-moz
--
-box
+inline
 "
 "
 Ignore
@@ -130,10 +127,7 @@ should
 be
 display
 :
--
-moz
--
-box
+inline
 for
 malware
 "
@@ -239,10 +233,7 @@ style
 .
 display
 "
--
-moz
--
-box
+inline
 "
 "
 Ignore
@@ -252,10 +243,7 @@ should
 be
 display
 :
--
-moz
--
-box
+inline
 for
 phishing
 "
