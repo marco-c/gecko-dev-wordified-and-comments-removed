@@ -552,6 +552,10 @@ browser_tabview_launch
 .
 js
 \
+browser_tabview_layout
+.
+js
+\
 browser_tabview_orphaned_tabs
 .
 js
