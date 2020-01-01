@@ -212,7 +212,8 @@ name
 ;
 private
 :
-void
+unsigned
+*
 pin
 (
 )
@@ -226,6 +227,9 @@ v
 =
 &
 reg_
+;
+return
+v
 ;
 }
 }

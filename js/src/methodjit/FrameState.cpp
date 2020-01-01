@@ -13417,11 +13417,6 @@ backing
 =
 top
 ;
-bool
-copied
-=
-false
-;
 if
 (
 top
@@ -13589,7 +13584,6 @@ copyOf
 =
 backing
 )
-{
 fe
 -
 >
@@ -13598,11 +13592,6 @@ setCopyOf
 target
 )
 ;
-copied
-=
-true
-;
-}
 }
 }
 if
