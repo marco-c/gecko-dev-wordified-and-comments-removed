@@ -1402,6 +1402,10 @@ SkGradientShader
 .
 cpp
 \
+SkGradientTileProc
+.
+cpp
+\
 SkGraphics
 .
 cpp
