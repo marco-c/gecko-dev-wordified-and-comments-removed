@@ -513,6 +513,10 @@ nsCoreUtils
 .
 cpp
 \
+nsAccUtils
+.
+cpp
+\
 nsAccessibilityService
 .
 cpp

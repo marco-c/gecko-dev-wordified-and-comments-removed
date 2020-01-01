@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsAccUtils
+.
+h
+"
+#
+include
+"
 nsARIAMap
 .
 h
@@ -2213,7 +2220,7 @@ nsRoleMapEntry
 *
 roleMapEntry
 =
-nsCoreUtils
+nsAccUtils
 :
 :
 GetRoleMapEntry
@@ -7602,7 +7609,7 @@ nsRoleMapEntry
 *
 roleMapEntry
 =
-nsCoreUtils
+nsAccUtils
 :
 :
 GetRoleMapEntry
@@ -7931,7 +7938,7 @@ nsRoleMapEntry
 *
 tableRoleMapEntry
 =
-nsCoreUtils
+nsAccUtils
 :
 :
 GetRoleMapEntry

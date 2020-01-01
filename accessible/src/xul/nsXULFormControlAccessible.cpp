@@ -2054,7 +2054,7 @@ rv
 rv
 )
 ;
-nsCoreUtils
+nsAccUtils
 :
 :
 SetAccAttrsForXULSelectControlItem
@@ -2382,7 +2382,7 @@ tempSibling
 ;
 }
 }
-nsCoreUtils
+nsAccUtils
 :
 :
 SetAccGroupAttrs

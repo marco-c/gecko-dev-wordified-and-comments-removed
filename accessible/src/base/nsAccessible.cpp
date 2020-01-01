@@ -9542,7 +9542,7 @@ oldValueUnused
 if
 (
 !
-nsCoreUtils
+nsAccUtils
 :
 :
 HasAccGroupAttrs
@@ -9963,7 +9963,7 @@ nextParent
 ;
 }
 }
-nsCoreUtils
+nsAccUtils
 :
 :
 SetAccGroupAttrs
@@ -10071,7 +10071,7 @@ continue
 if
 (
 !
-nsCoreUtils
+nsAccUtils
 :
 :
 IsARIAPropForObjectAttr
@@ -10224,7 +10224,7 @@ _class
 _class
 )
 )
-nsCoreUtils
+nsAccUtils
 :
 :
 SetAccAttr
@@ -10302,10 +10302,10 @@ NS_ENSURE_STATE
 topContent
 )
 ;
-nsCoreUtils
+nsAccUtils
 :
 :
-GetLiveContainerAttributes
+SetLiveContainerAttributes
 (
 aAttributes
 startContent
@@ -10433,7 +10433,7 @@ NS_SUCCEEDED
 rv
 )
 )
-nsCoreUtils
+nsAccUtils
 :
 :
 SetAccAttr
@@ -10535,7 +10535,7 @@ level
 posInSet
 setSize
 ;
-nsCoreUtils
+nsAccUtils
 :
 :
 GetAccGroupAttrs
@@ -13213,7 +13213,7 @@ nsIAccessibleRole
 ROLE_OUTLINEITEM
 )
 {
-nsCoreUtils
+nsAccUtils
 :
 :
 GetARIATreeItemParent

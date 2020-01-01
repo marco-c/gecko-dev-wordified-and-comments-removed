@@ -2372,7 +2372,7 @@ mDOMNode
 {
 }
 }
-nsCoreUtils
+nsAccUtils
 :
 :
 SetAccGroupAttrs
@@ -3755,7 +3755,7 @@ optionAccessible
 return
 ;
 }
-nsCoreUtils
+nsAccUtils
 :
 :
 FireAccEvent
@@ -3806,7 +3806,7 @@ nsIAccessibleEvent
 EVENT_SELECTION_REMOVE
 ;
 }
-nsCoreUtils
+nsAccUtils
 :
 :
 FireAccEvent

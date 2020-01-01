@@ -5152,7 +5152,7 @@ value
 )
 )
 {
-nsCoreUtils
+nsAccUtils
 :
 :
 SetAccAttr
@@ -5350,7 +5350,7 @@ AppendInt
 headLevel
 )
 ;
-nsCoreUtils
+nsAccUtils
 :
 :
 SetAccAttr
@@ -5448,7 +5448,7 @@ AppendInt
 lineNumber
 )
 ;
-nsCoreUtils
+nsAccUtils
 :
 :
 SetAccAttr
@@ -5594,7 +5594,7 @@ boundsRect
 height
 ;
 return
-nsCoreUtils
+nsAccUtils
 :
 :
 ConvertScreenCoordsTo
@@ -5683,7 +5683,7 @@ coords
 nsresult
 rv
 =
-nsCoreUtils
+nsAccUtils
 :
 :
 ConvertToScreenCoords
@@ -8731,7 +8731,7 @@ coords
 nsresult
 rv
 =
-nsCoreUtils
+nsAccUtils
 :
 :
 ConvertToScreenCoords
@@ -9998,7 +9998,7 @@ if
 aAttributes
 )
 {
-nsCoreUtils
+nsAccUtils
 :
 :
 SetAccAttr
@@ -10157,7 +10157,7 @@ lang
 rootLang
 )
 )
-nsCoreUtils
+nsAccUtils
 :
 :
 SetAccAttr
@@ -10365,7 +10365,7 @@ value
 )
 )
 {
-nsCoreUtils
+nsAccUtils
 :
 :
 SetAccAttr

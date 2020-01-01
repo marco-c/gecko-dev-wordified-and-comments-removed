@@ -959,7 +959,7 @@ nsRoleMapEntry
 *
 roleMapEntry
 =
-nsCoreUtils
+nsAccUtils
 :
 :
 GetRoleMapEntry
@@ -3943,7 +3943,7 @@ accEvent
 )
 ;
 }
-nsCoreUtils
+nsAccUtils
 :
 :
 FireAccEvent
@@ -4005,7 +4005,7 @@ mScrollPositionChangedTicks
 2
 )
 {
-nsCoreUtils
+nsAccUtils
 :
 :
 FireAccEvent
@@ -7155,7 +7155,7 @@ accForFocus
 )
 )
 ;
-nsCoreUtils
+nsAccUtils
 :
 :
 FireAccEvent
@@ -7211,7 +7211,7 @@ if
 selectionCount
 )
 {
-nsCoreUtils
+nsAccUtils
 :
 :
 FireAccEvent
@@ -7603,7 +7603,7 @@ if
 popup
 )
 {
-nsCoreUtils
+nsAccUtils
 :
 :
 FireAccEvent
@@ -8684,7 +8684,7 @@ nsRoleMapEntry
 *
 roleMapEntry
 =
-nsCoreUtils
+nsAccUtils
 :
 :
 GetRoleMapEntry
@@ -8812,7 +8812,7 @@ break
 }
 roleMapEntry
 =
-nsCoreUtils
+nsAccUtils
 :
 :
 GetRoleMapEntry

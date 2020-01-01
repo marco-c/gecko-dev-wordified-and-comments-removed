@@ -830,7 +830,7 @@ count
 ;
 }
 }
-nsCoreUtils
+nsAccUtils
 :
 :
 SetAccGroupAttrs

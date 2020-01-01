@@ -714,7 +714,7 @@ focusNode
 PR_TRUE
 )
 ;
-nsCoreUtils
+nsAccUtils
 :
 :
 FireAccEvent

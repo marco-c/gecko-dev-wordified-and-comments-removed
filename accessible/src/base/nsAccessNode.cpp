@@ -1882,7 +1882,7 @@ coords
 nsresult
 rv
 =
-nsCoreUtils
+nsAccUtils
 :
 :
 ConvertToScreenCoords
