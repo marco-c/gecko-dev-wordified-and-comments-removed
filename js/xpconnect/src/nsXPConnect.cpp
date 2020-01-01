@@ -504,13 +504,6 @@ GetJSRuntime
 )
 ;
 }
-XPCPerThreadData
-:
-:
-CleanupAllThreads
-(
-)
-;
 mRuntime
 -
 >

@@ -17,9 +17,6 @@ class
 XPCCallContext
 ;
 class
-XPCPerThreadData
-;
-class
 XPCJSThrower
 ;
 class

@@ -5233,13 +5233,6 @@ mJSRuntime
 #
 endif
 }
-XPCPerThreadData
-:
-:
-ShutDown
-(
-)
-;
 }
 static
 void
