@@ -480,6 +480,14 @@ OS_ARCH
 )
 WINNT
 )
+ifdef
+GNU_CXX
+LDFLAGS
++
+=
+-
+mconsole
+else
 LDFLAGS
 +
 =
@@ -487,6 +495,7 @@ LDFLAGS
 SUBSYSTEM
 :
 CONSOLE
+endif
 ifdef
 MOZ_NO_DEBUG_RTL
 DEFINES
