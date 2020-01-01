@@ -143,7 +143,7 @@ ObjectMap
 objects
 ;
 bool
-addDebuggee
+addDebuggeeGlobal
 (
 JSContext
 *
@@ -154,7 +154,7 @@ obj
 )
 ;
 void
-removeDebuggee
+removeDebuggeeGlobal
 (
 GlobalObject
 *
