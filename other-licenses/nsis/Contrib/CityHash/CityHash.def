@@ -1,0 +1,5 @@
+LIBRARY
+CityHash
+EXPORTS
+GetCityHash64
+1
