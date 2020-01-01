@@ -2529,6 +2529,17 @@ ServerURL
 "
 )
 ;
+queryParameters
+[
+"
+Throttleable
+"
+]
+=
+"
+1
+"
+;
 const
 char
 *
