@@ -927,6 +927,11 @@ GetGlobalForObjectCrossCompartment
 (
 aProto
 )
+js
+:
+:
+ProxyNotCallable
+true
 )
 ;
 if

@@ -17573,6 +17573,8 @@ JSObject
 parent_
 ProxyCallable
 callable
+bool
+singleton
 )
 {
 Rooted
@@ -17684,6 +17686,10 @@ proto
 isObject
 (
 )
+&
+&
+!
+singleton
 )
 {
 RootedObject
@@ -17717,6 +17723,7 @@ NULL
 NewObjectKind
 newKind
 =
+(
 clasp
 =
 =
@@ -17725,6 +17732,10 @@ OuterWindowProxyObject
 :
 :
 class_
+|
+|
+singleton
+)
 ?
 SingletonObject
 :
@@ -17868,6 +17879,8 @@ JSObject
 parent_
 ProxyCallable
 callable
+bool
+singleton
 )
 {
 return
@@ -17885,6 +17898,7 @@ proto_
 )
 parent_
 callable
+singleton
 )
 ;
 }
