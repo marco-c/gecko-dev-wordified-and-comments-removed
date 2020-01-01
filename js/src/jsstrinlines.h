@@ -32,9 +32,11 @@ UNIT_STRING_LIMIT
 )
 ;
 return
-js_UnitStrings
-+
+&
+unitStringTable
+[
 c
+]
 ;
 }
 inline

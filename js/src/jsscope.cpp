@@ -6731,6 +6731,8 @@ getProto
 ;
 uint32
 newShape
+=
+0
 ;
 if
 (
