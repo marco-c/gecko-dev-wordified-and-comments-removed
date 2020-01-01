@@ -77,6 +77,14 @@ py
 '
 mozboot
 /
+debian
+.
+py
+'
+    
+'
+mozboot
+/
 fedora
 .
 py

@@ -15,6 +15,12 @@ CentOSBootstrapper
 from
 mozboot
 .
+debian
+import
+DebianBootstrapper
+from
+mozboot
+.
 fedora
 import
 FedoraBootstrapper
@@ -192,6 +198,23 @@ CentOS
 cls
 =
 CentOSBootstrapper
+            
+elif
+distro
+in
+(
+'
+Debian
+'
+'
+debian
+'
+)
+:
+                
+cls
+=
+DebianBootstrapper
             
 elif
 distro
