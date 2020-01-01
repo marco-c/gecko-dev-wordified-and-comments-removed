@@ -314,6 +314,10 @@ test_bug784131
 .
 html
 \
+test_bug854082
+.
+html
+\
 test_enumerate
 .
 html
