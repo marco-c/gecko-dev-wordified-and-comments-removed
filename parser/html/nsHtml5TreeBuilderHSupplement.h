@@ -133,6 +133,11 @@ StartPlainText
 (
 )
 ;
+void
+StartPlainTextBody
+(
+)
+;
 bool
 HasScript
 (

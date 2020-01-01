@@ -217,6 +217,10 @@ nsHtml5OwningUTF16Buffer
 .
 h
 \
+nsHtml5PlainTextUtils
+.
+h
+\
 nsHtml5ViewSourceUtils
 .
 h
@@ -348,6 +352,10 @@ nsHtml5SVGLoadDispatcher
 cpp
 \
 nsHtml5Highlighter
+.
+cpp
+\
+nsHtml5PlainTextUtils
 .
 cpp
 \

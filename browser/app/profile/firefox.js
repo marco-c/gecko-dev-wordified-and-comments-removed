@@ -11007,3 +11007,13 @@ enabled
 false
 )
 ;
+pref
+(
+"
+plain_text
+.
+wrap_long_lines
+"
+true
+)
+;

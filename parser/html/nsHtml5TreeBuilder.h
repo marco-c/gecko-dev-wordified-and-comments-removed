@@ -147,6 +147,13 @@ h
 #
 include
 "
+nsHtml5PlainTextUtils
+.
+h
+"
+#
+include
+"
 nsHtml5ViewSourceUtils
 .
 h
