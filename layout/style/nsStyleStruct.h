@@ -981,6 +981,9 @@ mColor
 PRPackedBool
 mHasColor
 ;
+PRPackedBool
+mInset
+;
 nsCSSShadowItem
 (
 )
@@ -1058,6 +1061,14 @@ mSpread
 aOther
 .
 mSpread
+&
+&
+mInset
+=
+=
+aOther
+.
+mInset
 &
 &
 (

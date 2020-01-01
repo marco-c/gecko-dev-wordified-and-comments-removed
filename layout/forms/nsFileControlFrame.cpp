@@ -2362,7 +2362,7 @@ new
 (
 aBuilder
 )
-nsDisplayBoxShadow
+nsDisplayBoxShadowOuter
 (
 this
 )

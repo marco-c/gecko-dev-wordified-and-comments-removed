@@ -331,7 +331,7 @@ nscolor
 &
 aDefaultColor
 PRBool
-aUsesSpread
+aIsBoxShadow
 nsIDOMCSSValue
 *
 *

@@ -2521,7 +2521,7 @@ CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Margin
 mBoxShadow
 eCSSType_ValueList
-nsnull
+kBoxShadowTypeKTable
 )
 CSS_PROP_POSITION
 (
