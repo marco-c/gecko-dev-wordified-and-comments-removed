@@ -271,6 +271,11 @@ WriteToDisk
 (
 )
 ;
+nsresult
+ResetStartupWriteTimer
+(
+)
+;
 static
 nsresult
 InitSingleton
@@ -295,12 +300,6 @@ nsCStringHashKey
 CacheEntry
 >
 mTable
-;
-nsCOMPtr
-<
-nsIZipWriter
->
-mZipW
 ;
 nsAutoPtr
 <
