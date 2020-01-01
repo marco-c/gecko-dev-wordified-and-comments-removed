@@ -166,7 +166,7 @@ frame
 callee
 .
 name
-null
+undefined
 )
 ;
 frame
