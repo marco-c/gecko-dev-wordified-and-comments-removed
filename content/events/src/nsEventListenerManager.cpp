@@ -1709,6 +1709,14 @@ typeCount
 =
 0
 ;
+bool
+deviceType
+=
+IsDeviceType
+(
+aType
+)
+;
 for
 (
 PRUint32
@@ -1803,11 +1811,7 @@ nsnull
 ;
 if
 (
-!
-IsDeviceType
-(
-aType
-)
+deviceType
 )
 {
 return
@@ -1822,6 +1826,9 @@ typeCount
 }
 if
 (
+deviceType
+&
+&
 typeCount
 =
 =
