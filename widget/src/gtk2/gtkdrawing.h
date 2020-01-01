@@ -320,6 +320,17 @@ indicator_spacing
 )
 ;
 gint
+moz_gtk_button_get_inner_border
+(
+GtkWidget
+*
+widget
+GtkBorder
+*
+inner_border
+)
+;
+gint
 moz_gtk_widget_get_focus
 (
 GtkWidget
