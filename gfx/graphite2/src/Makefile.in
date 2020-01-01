@@ -150,9 +150,6 @@ OS_TARGET
 )
 VISIBILITY_FLAGS
 =
-FORCE_STATIC_LIB
-=
-1
 else
 LIBXUL_LIBRARY
 =
@@ -178,6 +175,9 @@ and
 leave
 bare
 filenames
+FORCE_STATIC_LIB
+=
+1
 FORCE_USE_PIC
 =
 1

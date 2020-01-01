@@ -79,6 +79,9 @@ mk
 LIBRARY_NAME
 =
 gfxipc_s
+FORCE_STATIC_LIB
+=
+1
 LIBXUL_LIBRARY
 =
 1

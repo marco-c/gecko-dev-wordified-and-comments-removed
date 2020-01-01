@@ -265,6 +265,9 @@ maltivec
 endif
 endif
 endif
+FORCE_STATIC_LIB
+=
+1
 include
 (
 topsrcdir

@@ -82,6 +82,9 @@ mk
 LIBRARY_NAME
 =
 mozipcunixsocket_s
+FORCE_STATIC_LIB
+=
+1
 LIBXUL_LIBRARY
 =
 1

@@ -182,6 +182,9 @@ dombluetooth_s
 LIBXUL_LIBRARY
 =
 1
+FORCE_STATIC_LIB
+=
+1
 ifeq
 (
 gonk
