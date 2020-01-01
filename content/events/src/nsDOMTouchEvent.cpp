@@ -541,6 +541,13 @@ AppendElements
 aTouches
 )
 ;
+nsJSContext
+:
+:
+LikelyShortLivingObjectCreated
+(
+)
+;
 }
 DOMCI_DATA
 (

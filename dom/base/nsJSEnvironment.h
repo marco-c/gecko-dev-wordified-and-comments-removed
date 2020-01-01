@@ -622,6 +622,12 @@ KillInterSliceGCTimer
 (
 )
 ;
+static
+void
+LikelyShortLivingObjectCreated
+(
+)
+;
 virtual
 void
 GC
