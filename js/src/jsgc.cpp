@@ -10191,15 +10191,6 @@ StackFrame
 fp
 )
 {
-if
-(
-fp
--
->
-isScriptFrame
-(
-)
-)
 fp
 -
 >

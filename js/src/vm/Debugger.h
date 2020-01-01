@@ -1737,15 +1737,6 @@ fp
 const
 {
 return
-!
-fp
--
->
-isDummyFrame
-(
-)
-&
-&
 observesGlobal
 (
 &
