@@ -1505,6 +1505,11 @@ onFolderTreeSelect
 )
 ;
 "
+showRoot
+=
+"
+true
+"
 place
 =
 "
