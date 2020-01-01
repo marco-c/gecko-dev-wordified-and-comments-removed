@@ -48,12 +48,9 @@ aMapElm
 ;
 NS_DECL_ISUPPORTS_INHERITED
 virtual
-nsresult
-GetRoleInternal
-(
 PRUint32
-*
-aRole
+NativeRole
+(
 )
 ;
 virtual

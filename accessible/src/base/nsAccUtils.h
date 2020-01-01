@@ -582,15 +582,6 @@ role
 }
 static
 PRUint32
-RoleInternal
-(
-nsIAccessible
-*
-aAcc
-)
-;
-static
-PRUint32
 State
 (
 nsIAccessible
