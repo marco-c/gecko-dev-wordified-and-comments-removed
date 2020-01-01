@@ -436,10 +436,6 @@ nsIDOMEventListener
 .
 idl
 \
-nsIDOM3DocumentEvent
-.
-idl
-\
 nsIDOM3EventTarget
 .
 idl
