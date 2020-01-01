@@ -2421,6 +2421,9 @@ eIntID_WindowsDefaultTheme
 case
 eIntID_WindowsThemeIdentifier
 :
+case
+eIntID_OperatingSystemVersionIdentifier
+:
 aResult
 =
 0

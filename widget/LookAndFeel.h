@@ -193,6 +193,7 @@ eIntID_ImagesInMenus
 eIntID_ImagesInButtons
 eIntID_MenuBarDrag
 eIntID_WindowsThemeIdentifier
+eIntID_OperatingSystemVersionIdentifier
 eIntID_ScrollbarButtonAutoRepeatBehavior
 eIntID_TooltipDelay
 eIntID_SwipeAnimationEnabled
@@ -213,6 +214,18 @@ eWindowsTheme_LunaSilver
 eWindowsTheme_Royale
 eWindowsTheme_Zune
 eWindowsTheme_AeroLite
+}
+;
+enum
+OperatingSystemVersion
+{
+eOperatingSystemVersion_WindowsXP
+=
+0
+eOperatingSystemVersion_WindowsVista
+eOperatingSystemVersion_Windows7
+eOperatingSystemVersion_Windows8
+eOperatingSystemVersion_Unknown
 }
 ;
 enum

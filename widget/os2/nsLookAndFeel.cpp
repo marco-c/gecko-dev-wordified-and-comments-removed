@@ -993,6 +993,9 @@ eIntID_TouchEnabled
 case
 eIntID_WindowsThemeIdentifier
 :
+case
+eIntID_OperatingSystemVersionIdentifier
+:
 aResult
 =
 0

@@ -1874,6 +1874,9 @@ eIntID_MaemoClassic
 case
 eIntID_WindowsThemeIdentifier
 :
+case
+eIntID_OperatingSystemVersionIdentifier
+:
 aResult
 =
 0
