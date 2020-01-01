@@ -1107,9 +1107,13 @@ taskbar
 1
 "
 ;
-let
-taskbar
-=
+if
+(
+WINTASKBAR_CONTRACTID
+in
+Cc
+&
+&
 Cc
 [
 WINTASKBAR_CONTRACTID
@@ -1121,10 +1125,6 @@ Ci
 .
 nsIWinTaskbar
 )
-;
-if
-(
-taskbar
 .
 available
 )
