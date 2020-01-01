@@ -1,13 +1,6 @@
 #
 include
 <
-signal
-.
-h
->
-#
-include
-<
 pthread
 .
 h
