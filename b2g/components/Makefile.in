@@ -458,6 +458,15 @@ js
 (
 NULL
 )
+ifdef
+MOZ_UPDATER
+EXTRA_PP_COMPONENTS
++
+=
+UpdatePrompt
+.
+js
+endif
 include
 (
 topsrcdir
