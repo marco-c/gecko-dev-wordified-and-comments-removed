@@ -461,7 +461,7 @@ DIRS
 build
 ifdef
 ENABLE_TESTS
-DIRS
+TOOL_DIRS
 +
 =
 tools
