@@ -36,6 +36,12 @@ js
 :
 ion
 ;
+using
+mozilla
+:
+:
+DebugOnly
+;
 bool
 SetElemICInspector
 :
