@@ -1573,8 +1573,7 @@ TypeInferenceOracle
 :
 inObjectIsDenseArray
 (
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -2422,8 +2421,7 @@ TypeInferenceOracle
 :
 elementWriteIsDenseArray
 (
-JSScript
-*
+HandleScript
 script
 jsbytecode
 *
@@ -2966,8 +2964,7 @@ TypeInferenceOracle
 :
 propertyWriteCanSpecialize
 (
-JSScript
-*
+UnrootedScript
 script
 jsbytecode
 *
