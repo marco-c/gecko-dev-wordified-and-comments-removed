@@ -491,12 +491,6 @@ limit
 )
 ;
 }
-mCache
-.
-Init
-(
-)
-;
 }
 ~
 ImageCache

@@ -295,12 +295,6 @@ mWindow
 =
 aWindow
 ;
-mObserversTable
-.
-Init
-(
-)
-;
 return
 NS_OK
 ;

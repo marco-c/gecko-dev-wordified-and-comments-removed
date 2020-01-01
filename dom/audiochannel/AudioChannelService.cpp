@@ -279,12 +279,6 @@ mActiveContentChildIDsFrozen
 false
 )
 {
-mAgents
-.
-Init
-(
-)
-;
 if
 (
 XRE_GetProcessType
@@ -1263,13 +1257,6 @@ props
 =
 new
 nsHashPropertyBag
-(
-)
-;
-props
--
->
-Init
 (
 )
 ;

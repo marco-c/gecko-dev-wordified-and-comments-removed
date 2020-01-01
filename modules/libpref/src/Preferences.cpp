@@ -1141,13 +1141,6 @@ ValueObserver
 (
 )
 ;
-gObserverTable
--
->
-Init
-(
-)
-;
 nsRefPtr
 <
 AddPreferencesMemoryReporterRunnable

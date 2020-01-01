@@ -97,12 +97,6 @@ MOZ_COUNT_CTOR
 nsHtml5StringParser
 )
 ;
-mAtomTable
-.
-Init
-(
-)
-;
 mTokenizer
 -
 >

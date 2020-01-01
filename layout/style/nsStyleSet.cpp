@@ -1425,12 +1425,6 @@ return
 ScopeDepthCache
 cache
 ;
-cache
-.
-Init
-(
-)
-;
 nsTArray
 <
 ScopedSheetOrder

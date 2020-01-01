@@ -3104,10 +3104,6 @@ NS_STYLE_TEXT_OVERFLOW_CLIP
 ;
 FrameHashtable
 framesToHide
-;
-framesToHide
-.
-Init
 (
 100
 )

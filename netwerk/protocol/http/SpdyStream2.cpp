@@ -1212,10 +1212,6 @@ nsCStringHashKey
 nsCString
 >
 hdrHash
-;
-hdrHash
-.
-Init
 (
 1
 +

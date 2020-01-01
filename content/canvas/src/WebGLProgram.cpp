@@ -698,13 +698,6 @@ mIdentifierMap
 new
 CStringMap
 ;
-mIdentifierMap
--
->
-Init
-(
-)
-;
 for
 (
 size_t
@@ -976,13 +969,6 @@ mIdentifierReverseMap
 =
 new
 CStringMap
-;
-mIdentifierReverseMap
--
->
-Init
-(
-)
 ;
 for
 (

@@ -574,12 +574,6 @@ thread
 "
 )
 ;
-mFileManagers
-.
-Init
-(
-)
-;
 }
 IndexedDatabaseManager
 :

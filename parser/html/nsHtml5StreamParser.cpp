@@ -729,12 +729,6 @@ SetTarget
 mThread
 )
 ;
-mAtomTable
-.
-Init
-(
-)
-;
 #
 ifdef
 DEBUG

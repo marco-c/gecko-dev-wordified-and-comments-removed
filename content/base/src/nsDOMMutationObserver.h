@@ -1510,12 +1510,6 @@ mId
 sCount
 )
 {
-mTransientReceivers
-.
-Init
-(
-)
-;
 SetIsDOMBinding
 (
 )

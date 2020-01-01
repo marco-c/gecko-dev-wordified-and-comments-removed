@@ -396,8 +396,7 @@ NS_DECL_NSIEFFECTIVETLDSERVICE
 nsEffectiveTLDService
 (
 )
-{
-}
+;
 nsresult
 Init
 (

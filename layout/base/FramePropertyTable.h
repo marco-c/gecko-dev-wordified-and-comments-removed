@@ -99,12 +99,6 @@ mLastEntry
 nullptr
 )
 {
-mEntries
-.
-Init
-(
-)
-;
 }
 ~
 FramePropertyTable

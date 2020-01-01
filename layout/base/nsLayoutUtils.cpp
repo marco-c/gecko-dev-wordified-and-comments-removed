@@ -727,13 +727,6 @@ ContentMap
 (
 )
 ;
-sContentMap
--
->
-Init
-(
-)
-;
 }
 return
 *

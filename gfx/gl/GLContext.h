@@ -8496,12 +8496,6 @@ mWorkAroundDriverBugs
 true
 )
 {
-mUserData
-.
-Init
-(
-)
-;
 mOwningThread
 =
 NS_GetCurrentThread

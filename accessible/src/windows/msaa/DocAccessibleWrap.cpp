@@ -914,7 +914,8 @@ nsWinUtils
 :
 :
 sHWNDCache
-.
+-
+>
 Remove
 (
 mHWND
@@ -1225,7 +1226,8 @@ nsWinUtils
 :
 :
 sHWNDCache
-.
+-
+>
 Put
 (
 mHWND

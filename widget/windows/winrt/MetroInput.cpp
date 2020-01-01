@@ -688,12 +688,6 @@ value
 =
 0
 ;
-mTouches
-.
-Init
-(
-)
-;
 ActivateGenericInstance
 (
 RuntimeClass_Windows_UI_Input_GestureRecognizer

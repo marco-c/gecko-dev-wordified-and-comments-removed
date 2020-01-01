@@ -1388,12 +1388,6 @@ Init
 nsresult
 rv
 ;
-mPermissionTable
-.
-Init
-(
-)
-;
 mObserverService
 =
 do_GetService

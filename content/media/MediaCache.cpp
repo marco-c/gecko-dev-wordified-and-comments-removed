@@ -3619,12 +3619,6 @@ MediaCacheStream
 >
 visitedStreams
 ;
-visitedStreams
-.
-Init
-(
-)
-;
 for
 (
 int32_t

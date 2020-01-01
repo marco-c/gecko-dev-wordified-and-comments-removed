@@ -77,12 +77,6 @@ mConnection
 aConnection
 )
 {
-mCachedStatements
-.
-Init
-(
-)
-;
 }
 inline
 already_AddRefed

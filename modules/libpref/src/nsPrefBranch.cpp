@@ -306,12 +306,6 @@ mFreeingObserverList
 =
 false
 ;
-mObservers
-.
-Init
-(
-)
-;
 nsCOMPtr
 <
 nsIObserverService

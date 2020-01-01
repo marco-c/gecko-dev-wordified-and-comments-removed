@@ -4084,6 +4084,10 @@ RememberCertErrorsTable
 (
 )
 :
+mErrorHosts
+(
+16
+)
 mMutex
 (
 "
@@ -4094,13 +4098,6 @@ mMutex
 "
 )
 {
-mErrorHosts
-.
-Init
-(
-16
-)
-;
 }
 static
 nsresult

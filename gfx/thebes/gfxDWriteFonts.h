@@ -359,10 +359,13 @@ Metrics
 *
 mMetrics
 ;
+nsAutoPtr
+<
 nsDataHashtable
 <
 nsUint32HashKey
 int32_t
+>
 >
 mGlyphWidths
 ;

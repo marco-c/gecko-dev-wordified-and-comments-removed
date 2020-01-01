@@ -192,12 +192,6 @@ this
 )
 ;
 }
-mNamedItemEntries
-.
-Init
-(
-)
-;
 }
 HTMLPropertiesCollection
 :

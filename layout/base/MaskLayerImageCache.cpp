@@ -34,12 +34,6 @@ MOZ_COUNT_CTOR
 MaskLayerImageCache
 )
 ;
-mMaskImageContainers
-.
-Init
-(
-)
-;
 }
 MaskLayerImageCache
 :

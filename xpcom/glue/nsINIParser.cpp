@@ -432,12 +432,6 @@ FILE
 fd
 )
 {
-mSections
-.
-Init
-(
-)
-;
 if
 (
 fseek

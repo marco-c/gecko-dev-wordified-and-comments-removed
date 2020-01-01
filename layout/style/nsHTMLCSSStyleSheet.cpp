@@ -172,12 +172,6 @@ nsHTMLCSSStyleSheet
 (
 )
 {
-mCachedStyleAttrs
-.
-Init
-(
-)
-;
 }
 nsHTMLCSSStyleSheet
 :

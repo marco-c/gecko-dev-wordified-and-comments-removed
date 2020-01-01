@@ -722,12 +722,6 @@ mEnabled
 false
 )
 {
-mBluetoothSignalObserverTable
-.
-Init
-(
-)
-;
 }
 virtual
 ~

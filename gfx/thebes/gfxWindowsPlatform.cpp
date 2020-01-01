@@ -1581,14 +1581,11 @@ mD3D11DeviceInitialized
 (
 false
 )
-{
 mPrefFonts
-.
-Init
 (
 50
 )
-;
+{
 mUseClearTypeForDownloadableFonts
 =
 UNINITIALIZED_VALUE

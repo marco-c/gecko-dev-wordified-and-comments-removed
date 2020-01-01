@@ -169,13 +169,6 @@ OptionalURIParams
 aReferrer
 )
 {
-nsHashPropertyBag
-:
-:
-Init
-(
-)
-;
 nsCOMPtr
 <
 nsIExternalHelperAppService

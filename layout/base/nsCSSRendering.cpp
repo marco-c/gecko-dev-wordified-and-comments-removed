@@ -1914,12 +1914,6 @@ GradientCacheData
 MAX_GENERATION_MS
 )
 {
-mHashEntries
-.
-Init
-(
-)
-;
 srand
 (
 time

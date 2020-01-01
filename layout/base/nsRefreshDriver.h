@@ -583,12 +583,6 @@ ImageStartData
 (
 )
 {
-mEntries
-.
-Init
-(
-)
-;
 }
 mozilla
 :

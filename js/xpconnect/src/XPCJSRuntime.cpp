@@ -12656,12 +12656,6 @@ ObjectPrivateVisitor
 aGetISupports
 )
 {
-mAlreadyMeasuredOrphanTrees
-.
-Init
-(
-)
-;
 }
 virtual
 size_t

@@ -725,12 +725,6 @@ mRestyleManager
 =
 aRestyleManager
 ;
-mPendingRestyles
-.
-Init
-(
-)
-;
 }
 uint32_t
 Count

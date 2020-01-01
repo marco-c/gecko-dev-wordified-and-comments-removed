@@ -165,12 +165,6 @@ mRootContextLineNumber
 1
 )
 {
-mAtomTable
-.
-Init
-(
-)
-;
 mTokenizer
 -
 >

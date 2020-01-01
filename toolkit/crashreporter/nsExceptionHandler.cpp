@@ -4008,13 +4008,6 @@ crashReporterAPIData_Hash
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-crashReporterAPIData_Hash
--
->
-Init
-(
-)
-;
 notesField
 =
 new
@@ -10279,13 +10272,6 @@ pidToMinidump
 =
 new
 ChildMinidumpMap
-(
-)
-;
-pidToMinidump
--
->
-Init
 (
 )
 ;

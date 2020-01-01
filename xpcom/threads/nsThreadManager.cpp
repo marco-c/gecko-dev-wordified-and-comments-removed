@@ -227,12 +227,6 @@ Init
 (
 )
 {
-mThreadsByPRThread
-.
-Init
-(
-)
-;
 if
 (
 PR_NewThreadPrivateIndex

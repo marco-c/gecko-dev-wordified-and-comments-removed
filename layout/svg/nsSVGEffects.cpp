@@ -1678,13 +1678,6 @@ URIObserverHashtable
 (
 )
 ;
-hashtable
--
->
-Init
-(
-)
-;
 props
 .
 Set

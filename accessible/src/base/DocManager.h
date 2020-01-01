@@ -192,8 +192,7 @@ protected
 DocManager
 (
 )
-{
-}
+;
 bool
 Init
 (

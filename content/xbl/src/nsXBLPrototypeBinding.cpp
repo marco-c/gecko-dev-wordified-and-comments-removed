@@ -484,12 +484,6 @@ MOZ_COUNT_CTOR
 nsXBLPrototypeBinding
 )
 ;
-mInterfaceTable
-.
-Init
-(
-)
-;
 }
 nsresult
 nsXBLPrototypeBinding

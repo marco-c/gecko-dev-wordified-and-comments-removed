@@ -198,6 +198,10 @@ AccessibleWrap
 aContent
 aDoc
 )
+mAccessibleCache
+(
+kDefaultTreeCacheSize
+)
 {
 mType
 =
@@ -287,13 +291,6 @@ mGenericTypes
 eAutoCompletePopup
 ;
 }
-mAccessibleCache
-.
-Init
-(
-kDefaultTreeCacheSize
-)
-;
 }
 NS_IMPL_CYCLE_COLLECTION_INHERITED_2
 (

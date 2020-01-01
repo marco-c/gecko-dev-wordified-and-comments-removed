@@ -1218,11 +1218,6 @@ UpdateRefcountFunction
 )
 {
 }
-nsresult
-Init
-(
-)
-;
 void
 ClearFileInfoEntries
 (

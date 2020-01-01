@@ -2313,13 +2313,6 @@ nsIAtom
 (
 )
 ;
-gStaticAtomTable
--
->
-Init
-(
-)
-;
 }
 for
 (

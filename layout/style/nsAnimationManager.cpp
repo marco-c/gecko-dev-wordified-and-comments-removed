@@ -3231,14 +3231,12 @@ public
 ResolvedStyleCache
 (
 )
-{
+:
 mCache
-.
-Init
 (
 16
 )
-;
+{
 }
 nsStyleContext
 *

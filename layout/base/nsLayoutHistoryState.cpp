@@ -55,12 +55,6 @@ mScrollPositionOnly
 false
 )
 {
-mStates
-.
-Init
-(
-)
-;
 }
 NS_DECL_ISUPPORTS
 virtual

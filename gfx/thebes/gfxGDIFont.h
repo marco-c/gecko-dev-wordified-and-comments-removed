@@ -325,10 +325,13 @@ mSpaceGlyph
 bool
 mNeedsBold
 ;
+nsAutoPtr
+<
 nsDataHashtable
 <
 nsUint32HashKey
 int32_t
+>
 >
 mGlyphWidths
 ;

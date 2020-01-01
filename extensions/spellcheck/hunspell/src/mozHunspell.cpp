@@ -366,12 +366,6 @@ Init
 (
 )
 {
-mDictionaries
-.
-Init
-(
-)
-;
 LoadDictionaryList
 (
 )

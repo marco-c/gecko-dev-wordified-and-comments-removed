@@ -101,12 +101,6 @@ mPresShell
 aPresShell
 )
 {
-mTextHash
-.
-Init
-(
-)
-;
 ScheduleProcessing
 (
 )

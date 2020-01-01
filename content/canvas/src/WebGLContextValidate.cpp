@@ -436,13 +436,6 @@ mUniformInfoMap
 new
 CStringToUniformInfoMap
 ;
-mUniformInfoMap
--
->
-Init
-(
-)
-;
 for
 (
 size_t

@@ -439,12 +439,6 @@ mSpeechSynthChild
 nullptr
 )
 {
-mUriVoiceMap
-.
-Init
-(
-)
-;
 if
 (
 XRE_GetProcessType

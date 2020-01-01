@@ -1872,12 +1872,6 @@ nsStringHashKey
 >
 hash
 ;
-hash
-.
-Init
-(
-)
-;
 int32_t
 i
 len

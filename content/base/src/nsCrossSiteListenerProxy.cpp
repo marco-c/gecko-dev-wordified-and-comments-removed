@@ -313,12 +313,6 @@ Initialize
 (
 )
 {
-mTable
-.
-Init
-(
-)
-;
 return
 true
 ;

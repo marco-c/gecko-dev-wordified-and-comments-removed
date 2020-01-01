@@ -40,12 +40,6 @@ nsFontFaceList
 (
 )
 {
-mFontFaces
-.
-Init
-(
-)
-;
 }
 nsFontFaceList
 :

@@ -2674,13 +2674,6 @@ ContentParent
 (
 )
 ;
-sAppContentParents
--
->
-Init
-(
-)
-;
 }
 nsAutoString
 manifestURL
@@ -4870,13 +4863,6 @@ props
 =
 new
 nsHashPropertyBag
-(
-)
-;
-props
--
->
-Init
 (
 )
 ;

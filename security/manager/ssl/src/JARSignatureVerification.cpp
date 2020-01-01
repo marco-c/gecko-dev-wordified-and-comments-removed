@@ -2286,12 +2286,6 @@ nsCStringHashKey
 >
 items
 ;
-items
-.
-Init
-(
-)
-;
 rv
 =
 ParseMF

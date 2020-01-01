@@ -50,12 +50,6 @@ sqlite3_stmt
 aStatement
 )
 {
-mNameHashtable
-.
-Init
-(
-)
-;
 mNumCols
 =
 :

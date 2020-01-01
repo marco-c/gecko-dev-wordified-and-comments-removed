@@ -384,13 +384,6 @@ gEnvHash
 return
 false
 ;
-gEnvHash
--
->
-Init
-(
-)
-;
 return
 true
 ;

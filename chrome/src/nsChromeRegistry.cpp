@@ -572,12 +572,6 @@ Init
 (
 )
 {
-mOverrideTable
-.
-Init
-(
-)
-;
 gChromeRegistry
 =
 this

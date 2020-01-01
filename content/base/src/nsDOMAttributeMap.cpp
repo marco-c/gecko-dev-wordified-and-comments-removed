@@ -136,12 +136,6 @@ mContent
 aContent
 )
 {
-mAttributeCache
-.
-Init
-(
-)
-;
 SetIsDOMBinding
 (
 )

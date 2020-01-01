@@ -1071,10 +1071,6 @@ Layer
 uint32_t
 >
 oldIndexMap
-;
-oldIndexMap
-.
-Init
 (
 mChildren
 .

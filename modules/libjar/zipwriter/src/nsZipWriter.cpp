@@ -117,12 +117,6 @@ nsZipWriter
 (
 )
 {
-mEntryHash
-.
-Init
-(
-)
-;
 mInQueue
 =
 false

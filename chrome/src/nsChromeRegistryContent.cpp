@@ -47,12 +47,6 @@ nsChromeRegistryContent
 (
 )
 {
-mPackagesHash
-.
-Init
-(
-)
-;
 }
 void
 nsChromeRegistryContent

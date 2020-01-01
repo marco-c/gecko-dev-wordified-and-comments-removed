@@ -206,12 +206,6 @@ MOZ_COUNT_CTOR
 FrameLayerBuilder
 )
 ;
-mThebesLayerItems
-.
-Init
-(
-)
-;
 }
 ~
 FrameLayerBuilder

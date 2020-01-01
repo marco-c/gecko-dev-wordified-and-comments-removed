@@ -1170,12 +1170,6 @@ rdf_atoms
 )
 ;
 }
-mNodeIDMap
-.
-Init
-(
-)
-;
 #
 ifdef
 PR_LOGGING

@@ -142,13 +142,6 @@ nsCStringHashKey
 DataInfo
 >
 ;
-gDataTable
--
->
-Init
-(
-)
-;
 }
 DataInfo
 *

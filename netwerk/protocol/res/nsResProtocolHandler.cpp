@@ -349,6 +349,11 @@ nsResProtocolHandler
 nsResProtocolHandler
 (
 )
+:
+mSubstitutions
+(
+32
+)
 {
 #
 if
@@ -406,13 +411,6 @@ Init
 (
 )
 {
-mSubstitutions
-.
-Init
-(
-32
-)
-;
 nsresult
 rv
 ;

@@ -695,12 +695,6 @@ pdata
 =
 nullptr
 ;
-mAsyncBitmaps
-.
-Init
-(
-)
-;
 #
 if
 defined
@@ -18025,13 +18019,6 @@ nsTHashtable
 <
 DeletingObjectEntry
 >
-;
-mDeletingHash
--
->
-Init
-(
-)
 ;
 PluginModuleChild
 :

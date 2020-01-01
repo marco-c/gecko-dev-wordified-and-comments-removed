@@ -4138,6 +4138,10 @@ mSelectorDocumentStates
 (
 0
 )
+mKeyframesRuleTable
+(
+16
+)
 mCacheKey
 (
 aMedium
@@ -4250,13 +4254,6 @@ RuleHashTagTableEntry
 ;
 #
 endif
-mKeyframesRuleTable
-.
-Init
-(
-16
-)
-;
 }
 ~
 RuleCascadeData

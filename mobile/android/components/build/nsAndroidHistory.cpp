@@ -99,12 +99,6 @@ nsAndroidHistory
 (
 )
 {
-mListeners
-.
-Init
-(
-)
-;
 }
 NS_IMETHODIMP
 nsAndroidHistory

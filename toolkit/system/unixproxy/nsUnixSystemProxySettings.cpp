@@ -128,6 +128,11 @@ NS_DECL_NSISYSTEMPROXYSETTINGS
 nsUnixSystemProxySettings
 (
 )
+:
+mSchemeProxySettings
+(
+5
+)
 {
 }
 nsresult
@@ -280,13 +285,6 @@ Init
 (
 )
 {
-mSchemeProxySettings
-.
-Init
-(
-5
-)
-;
 mGSettings
 =
 do_GetService

@@ -388,11 +388,8 @@ mWindow
 ;
 static
 WindowTable
+*
 sActiveWindows
-;
-static
-bool
-sActiveWindowsInitialized
 ;
 }
 ;

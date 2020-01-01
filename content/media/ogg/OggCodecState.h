@@ -1316,13 +1316,6 @@ const
 return
 mIndex
 .
-IsInitialized
-(
-)
-&
-&
-mIndex
-.
 Count
 (
 )

@@ -481,6 +481,14 @@ txXSLKey
 aKeys
 )
 :
+mKeyValues
+(
+8
+)
+mIndexedKeys
+(
+1
+)
 mKeys
 (
 aKeys

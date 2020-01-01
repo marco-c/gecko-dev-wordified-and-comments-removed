@@ -168,12 +168,7 @@ Init
 )
 {
 return
-nsHashPropertyBag
-:
-:
-Init
-(
-)
+NS_OK
 ;
 }
 protected

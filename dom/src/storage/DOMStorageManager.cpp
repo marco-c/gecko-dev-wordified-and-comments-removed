@@ -399,6 +399,10 @@ StorageType
 aType
 )
 :
+mCaches
+(
+10
+)
 mType
 (
 aType
@@ -408,13 +412,6 @@ mLowDiskSpace
 false
 )
 {
-mCaches
-.
-Init
-(
-10
-)
-;
 DOMStorageObserver
 *
 observer

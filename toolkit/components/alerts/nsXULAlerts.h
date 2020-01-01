@@ -49,12 +49,6 @@ nsXULAlerts
 (
 )
 {
-mNamedWindows
-.
-Init
-(
-)
-;
 }
 virtual
 ~

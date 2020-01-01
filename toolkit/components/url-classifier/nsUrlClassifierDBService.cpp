@@ -4735,12 +4735,6 @@ UrlClassifierDBServiceWorkerProxy
 mWorker
 )
 ;
-mCompleters
-.
-Init
-(
-)
-;
 nsCOMPtr
 <
 nsIObserverService

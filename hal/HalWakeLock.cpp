@@ -650,13 +650,6 @@ LockTable
 (
 )
 ;
-sLockTable
--
->
-Init
-(
-)
-;
 sInitialized
 =
 true
@@ -875,13 +868,6 @@ table
 =
 new
 ProcessLockTable
-(
-)
-;
-table
--
->
-Init
 (
 )
 ;

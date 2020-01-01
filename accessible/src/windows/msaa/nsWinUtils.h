@@ -153,6 +153,7 @@ void
 >
 DocAccessible
 >
+*
 sHWNDCache
 ;
 }

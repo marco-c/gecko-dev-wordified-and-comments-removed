@@ -2632,14 +2632,12 @@ gfxGDIFontList
 gfxGDIFontList
 (
 )
-{
+:
 mFontSubstitutes
-.
-Init
 (
 50
 )
-;
+{
 }
 static
 void
@@ -3340,6 +3338,9 @@ if
 (
 lookup
 =
+mExtraNames
+-
+>
 mPostscriptNames
 .
 GetWeak
@@ -3353,6 +3354,9 @@ aFullname
 (
 lookup
 =
+mExtraNames
+-
+>
 mFullnames
 .
 GetWeak

@@ -3109,13 +3109,6 @@ HTMLMediaElement
 :
 MetadataTags
 ;
-aTags
--
->
-Init
-(
-)
-;
 while
 (
 p

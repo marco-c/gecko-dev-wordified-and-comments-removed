@@ -1260,12 +1260,6 @@ nsUserFontSet
 "
 )
 ;
-mLoaders
-.
-Init
-(
-)
-;
 }
 nsUserFontSet
 :

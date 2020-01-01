@@ -144,12 +144,6 @@ Init
 (
 )
 {
-mFileStorageInfos
-.
-Init
-(
-)
-;
 nsresult
 rv
 ;

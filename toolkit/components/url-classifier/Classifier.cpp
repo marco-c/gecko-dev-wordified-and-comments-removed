@@ -529,12 +529,6 @@ rv
 rv
 )
 ;
-mTableFreshness
-.
-Init
-(
-)
-;
 RegenActiveTables
 (
 )

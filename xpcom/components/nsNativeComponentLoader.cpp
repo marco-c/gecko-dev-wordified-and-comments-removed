@@ -244,12 +244,6 @@ Init
 )
 )
 ;
-mLibraries
-.
-Init
-(
-)
-;
 return
 NS_OK
 ;

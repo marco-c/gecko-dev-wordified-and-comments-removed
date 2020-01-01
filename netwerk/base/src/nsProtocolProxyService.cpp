@@ -1637,12 +1637,6 @@ Init
 (
 )
 {
-mFailedProxies
-.
-Init
-(
-)
-;
 nsCOMPtr
 <
 nsIPrefBranch
