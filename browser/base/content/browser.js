@@ -32341,13 +32341,13 @@ false
 }
 if
 (
-!
-isPBWindow
-&
-&
 nonPopupPresent
 )
+{
 return
+isPBWindow
+|
+|
 gBrowser
 .
 warnAboutClosingTabs
@@ -32355,6 +32355,7 @@ warnAboutClosingTabs
 true
 )
 ;
+}
 let
 os
 =
