@@ -132,16 +132,6 @@ service
 js
 "
 "
-stores
-.
-js
-"
-"
-trackers
-.
-js
-"
-"
 util
 .
 js
