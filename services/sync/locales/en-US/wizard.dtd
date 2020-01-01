@@ -827,9 +827,6 @@ label
 "
 Saved
 Passwords
-[
-experimental
-]
 "
 >
 <
@@ -845,16 +842,13 @@ Tabs
 <
 !
 ENTITY
-formdata
+forms
 .
 label
 "
 Saved
 Form
 Data
-[
-experimental
-]
 "
 >
 <
