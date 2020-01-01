@@ -241,6 +241,14 @@ shutdown
 "
 #
 define
+TOPIC_PLACES_TEARDOWN
+"
+places
+-
+teardown
+"
+#
+define
 TOPIC_DATABASE_LOCKED
 "
 places

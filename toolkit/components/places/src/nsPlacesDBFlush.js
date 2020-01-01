@@ -32,7 +32,7 @@ kTopicShutdown
 "
 places
 -
-shutdown
+teardown
 "
 ;
 const
