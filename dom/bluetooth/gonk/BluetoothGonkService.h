@@ -39,12 +39,6 @@ StopInternal
 (
 )
 ;
-virtual
-int
-IsEnabledInternal
-(
-)
-;
 }
 ;
 END_BLUETOOTH_NAMESPACE
