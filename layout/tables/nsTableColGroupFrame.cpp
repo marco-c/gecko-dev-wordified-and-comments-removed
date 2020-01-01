@@ -828,7 +828,7 @@ colCount
 )
 return
 ;
-nsRect
+nsIntRect
 damageArea
 (
 GetFirstColumn
