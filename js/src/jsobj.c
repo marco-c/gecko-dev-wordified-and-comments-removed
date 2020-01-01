@@ -4087,6 +4087,8 @@ vlength
 vchars
 -
 start
++
+1
 ;
 }
 #
