@@ -388,6 +388,9 @@ copy
 (
 self
 dest
+skip_if_older
+=
+True
 )
 :
         
@@ -442,6 +445,17 @@ than
 the
 original
 file
+.
+This
+latter
+behaviour
+is
+        
+disabled
+when
+skip_if_older
+is
+False
 .
         
 Returns
@@ -528,6 +542,8 @@ None
 :
             
 if
+skip_if_older
+and
 int
 (
 os
@@ -938,6 +954,9 @@ copy
 (
 self
 dest
+skip_if_older
+=
+True
 )
 :
         
@@ -954,6 +973,7 @@ copy
 (
 self
 dest
+skip_if_older
 )
         
 try
@@ -1323,6 +1343,9 @@ copy
 (
 self
 dest
+skip_if_older
+=
+True
 )
 :
         
@@ -1375,6 +1398,11 @@ individual
 XPTs
 to
 link
+.
+        
+skip_if_older
+is
+ignored
 .
         
 '

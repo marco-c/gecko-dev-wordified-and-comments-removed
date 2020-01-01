@@ -872,6 +872,9 @@ copy
 (
 self
 destination
+skip_if_older
+=
+True
 )
 :
         
@@ -1060,6 +1063,7 @@ file
 copy
 (
 destfile
+skip_if_older
 )
         
 actual_dest_files
@@ -1273,6 +1277,9 @@ copy
 (
 self
 dest
+skip_if_older
+=
+True
 )
 :
         
@@ -1710,6 +1717,7 @@ file
 copy
 (
 deflater
+skip_if_older
 )
                 
 jar
