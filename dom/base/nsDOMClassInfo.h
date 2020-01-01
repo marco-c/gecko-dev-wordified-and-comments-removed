@@ -717,6 +717,12 @@ id
 =
 =
 sSelf_id
+|
+|
+id
+=
+=
+sURL_id
 )
 ;
 }
@@ -1350,6 +1356,10 @@ sOnafterscriptexecute_id
 static
 jsid
 sWrappedJSObject_id
+;
+static
+jsid
+sURL_id
 ;
 static
 JSPropertyOp
