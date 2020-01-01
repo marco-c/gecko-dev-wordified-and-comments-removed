@@ -179,17 +179,6 @@ mIsAnimated
 mIsBaseSet
 ;
 }
-already_AddRefed
-<
-nsIDOMSVGAnimatedInteger
->
-ToDOMAnimatedInteger
-(
-nsSVGElement
-*
-aSVGElement
-)
-;
 nsresult
 ToDOMAnimatedInteger
 (
