@@ -16,6 +16,13 @@ h
 #
 include
 "
+Gamepad
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
@@ -24,13 +31,6 @@ h
 include
 "
 nsCOMArray
-.
-h
-"
-#
-include
-"
-nsDOMGamepad
 .
 h
 "
@@ -107,6 +107,12 @@ GetService
 (
 )
 ;
+static
+bool
+IsAPIEnabled
+(
+)
+;
 void
 BeginShutdown
 (
@@ -175,7 +181,7 @@ SyncGamepadState
 (
 uint32_t
 aIndex
-nsDOMGamepad
+Gamepad
 *
 aGamepad
 )
@@ -214,7 +220,7 @@ FireAxisMoveEvent
 EventTarget
 *
 aTarget
-nsDOMGamepad
+Gamepad
 *
 aGamepad
 uint32_t
@@ -229,7 +235,7 @@ FireButtonEvent
 EventTarget
 *
 aTarget
-nsDOMGamepad
+Gamepad
 *
 aGamepad
 uint32_t
@@ -244,7 +250,7 @@ FireConnectionEvent
 EventTarget
 *
 aTarget
-nsDOMGamepad
+Gamepad
 *
 aGamepad
 bool
@@ -306,7 +312,7 @@ nsTArray
 <
 nsRefPtr
 <
-nsDOMGamepad
+Gamepad
 >
 >
 mGamepads

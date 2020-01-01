@@ -397,7 +397,7 @@ nsIStyleSheet
 nsIDOMGamepad
 '
 '
-nsDOMGamepad
+Gamepad
 '
 '
 nsIDOMGamepad
