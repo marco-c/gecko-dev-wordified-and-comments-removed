@@ -1516,11 +1516,9 @@ visibleTabCount
 =
 Tabbar
 .
-getVisibleTabs
+getVisibleTabCount
 (
 )
-.
-length
 ;
 if
 (
