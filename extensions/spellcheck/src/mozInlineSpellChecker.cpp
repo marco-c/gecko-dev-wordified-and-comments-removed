@@ -2729,7 +2729,7 @@ NS_IMETHODIMP
 mozInlineSpellChecker
 :
 :
-GetMispelledWord
+GetMisspelledWord
 (
 nsIDOMNode
 *
@@ -2837,7 +2837,7 @@ range
 nsresult
 res
 =
-GetMispelledWord
+GetMisspelledWord
 (
 aNode
 aOffset

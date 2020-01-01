@@ -19166,7 +19166,7 @@ Docshell
 doesn
 '
 t
-implenent
+implement
 nsIDocShellTreeItem
 ?
 "
