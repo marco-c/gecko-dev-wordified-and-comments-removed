@@ -674,6 +674,13 @@ permissions
 -
 content
 "
+class
+=
+"
+main
+-
+content
+"
 >
 <
 vbox
