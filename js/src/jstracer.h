@@ -2142,11 +2142,13 @@ CONSTRUCTING_FLAG
 0
 ;
 }
+const
 JSTraceType
 *
 get_typemap
 (
 )
+const
 {
 return
 (
