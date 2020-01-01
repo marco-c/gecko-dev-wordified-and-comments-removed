@@ -6247,3 +6247,17 @@ Type
 descriptor
 "
 )
+MSG_DEF
+(
+JSMSG_ES6_UNIMPLEMENTED
+359
+0
+JSEXN_ERR
+"
+ES6
+functionality
+not
+yet
+implemented
+"
+)

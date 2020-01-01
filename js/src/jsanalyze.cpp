@@ -8368,6 +8368,8 @@ script_
 -
 >
 isGenerator
+(
+)
 )
 return
 true
