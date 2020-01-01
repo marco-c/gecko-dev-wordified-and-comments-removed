@@ -801,6 +801,10 @@ test_table_indexes_ariagrid
 .
 html
 \
+test_table_layoutguess
+.
+html
+\
 test_table_sels
 .
 html
