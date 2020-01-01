@@ -1915,13 +1915,16 @@ target
 =
 target
 ;
-aTarget
+target
 =
+do_QueryInterface
+(
 win
 -
 >
 GetChromeEventHandler
 (
+)
 )
 ;
 }
