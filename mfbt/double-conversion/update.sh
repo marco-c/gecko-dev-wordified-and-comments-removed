@@ -89,6 +89,8 @@ patch
 -
 p3
 <
-useStandardInteger
+use
+-
+StandardInteger
 .
 patch

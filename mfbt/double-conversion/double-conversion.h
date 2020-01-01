@@ -179,10 +179,7 @@ EcmaScriptConverter
 (
 )
 ;
-MFBT_API
-(
 bool
-)
 ToShortest
 (
 double
@@ -202,10 +199,7 @@ SHORTEST
 )
 ;
 }
-MFBT_API
-(
 bool
-)
 ToShortestSingle
 (
 float
