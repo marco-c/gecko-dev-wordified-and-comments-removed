@@ -345,11 +345,13 @@ aSync
 ;
 static
 void
-FirePluginNotFound
+FirePluginError
 (
 nsIContent
 *
 thisContent
+PRBool
+blocklisted
 )
 ;
 ObjectType
@@ -421,6 +423,7 @@ PluginSupportState
 {
 ePluginUnsupported
 ePluginDisabled
+ePluginBlocklisted
 ePluginOtherState
 }
 ;
