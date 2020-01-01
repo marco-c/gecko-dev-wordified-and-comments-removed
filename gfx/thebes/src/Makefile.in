@@ -604,6 +604,12 @@ AGL
 framework
 QuickTime
 endif
+CSRCS
++
+=
+woff
+.
+c
 EXTRA_DSO_LDOPTS
 +
 =
@@ -615,6 +621,8 @@ DEFINES
 =
 -
 DIMPL_THEBES
+-
+DWOFF_MOZILLA_CLIENT
 include
 (
 topsrcdir

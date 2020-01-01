@@ -192,9 +192,6 @@ const
 gfxProxyFontEntry
 &
 aProxyEntry
-nsISupports
-*
-aLoader
 const
 PRUint8
 *

@@ -174,9 +174,6 @@ const
 gfxProxyFontEntry
 &
 aProxyEntry
-nsISupports
-*
-aLoader
 const
 PRUint8
 *
@@ -192,6 +189,12 @@ CreateFontEntryFromFace
 (
 FT_Face
 aFace
+const
+PRUint8
+*
+aFontData
+=
+nsnull
 )
 ;
 cairo_font_face_t

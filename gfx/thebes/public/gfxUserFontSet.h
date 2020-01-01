@@ -536,9 +536,6 @@ OnLoadComplete
 gfxFontEntry
 *
 aFontToLoad
-nsISupports
-*
-aLoader
 const
 PRUint8
 *

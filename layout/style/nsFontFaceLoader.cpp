@@ -477,7 +477,6 @@ userFontSet
 OnLoadComplete
 (
 mFontEntry
-aLoader
 aString
 aStringLen
 aStatus
@@ -514,7 +513,7 @@ this
 ;
 }
 return
-aStatus
+NS_SUCCESS_ADOPTED_DATA
 ;
 }
 void
