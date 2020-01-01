@@ -1958,6 +1958,8 @@ selection
 bookmark
 |
 folder
+|
+query
 "
 forcehideselection
 =
