@@ -126,12 +126,12 @@ another
 time
 .
 if
-toolkit
-=
-=
+CONFIG
+[
 '
-gtk2
+MOZ_WIDGET_GTK
 '
+]
 :
 DIRS
 +

@@ -2900,6 +2900,7 @@ ifneq
 (
 filter
 gtk2
+gtk3
 windows
 (
 MOZ_WIDGET_TOOLKIT
