@@ -453,10 +453,6 @@ browser_console_clear
 .
 js
 \
-browser_privatebrowsing_beforeunload
-.
-js
-\
 browser_privatebrowsing_certexceptionsui
 .
 js
