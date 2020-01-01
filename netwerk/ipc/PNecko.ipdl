@@ -573,6 +573,14 @@ PCookieService
 (
 )
 ;
+HTMLDNSPrefetch
+(
+nsString
+hostname
+PRUint16
+flags
+)
+;
 }
 ;
 }
