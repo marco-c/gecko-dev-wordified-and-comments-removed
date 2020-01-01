@@ -6276,7 +6276,7 @@ stream
 -
 deflate
 "
-true
+false
 )
 ;
 pref
@@ -31306,7 +31306,7 @@ mem
 .
 decodeondraw
 "
-false
+true
 )
 ;
 pref

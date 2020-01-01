@@ -2877,11 +2877,8 @@ regs
 )
 .
 pc
-Jsvalify
-(
 &
 rval
-)
 cx
 -
 >
@@ -6944,9 +6941,6 @@ case
 JSOP_GETGNAME
 :
 case
-JSOP_GETGLOBAL
-:
-case
 JSOP_GETFCSLOT
 :
 case
@@ -7016,9 +7010,6 @@ nextpc
 ;
 break
 ;
-case
-JSOP_CALLGLOBAL
-:
 case
 JSOP_CALLFCSLOT
 :

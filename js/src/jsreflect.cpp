@@ -134,13 +134,6 @@ h
 #
 include
 "
-jsvalue
-.
-h
-"
-#
-include
-"
 jsinferinlines
 .
 h
@@ -16084,8 +16077,6 @@ src
 js_ValueToString
 (
 cx
-Valueify
-(
 JS_ARGV
 (
 cx
@@ -16094,7 +16085,6 @@ vp
 [
 0
 ]
-)
 )
 ;
 if
@@ -16141,8 +16131,6 @@ argc
 >
 1
 ?
-Valueify
-(
 JS_ARGV
 (
 cx
@@ -16151,7 +16139,6 @@ vp
 [
 1
 ]
-)
 :
 UndefinedValue
 (
@@ -16629,10 +16616,7 @@ JS_SET_RVAL
 (
 cx
 vp
-Jsvalify
-(
 val
-)
 )
 ;
 return

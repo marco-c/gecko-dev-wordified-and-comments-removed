@@ -440,12 +440,9 @@ value
 #
 endif
 return
-Valueify
-(
-JSVAL_FROM_LAYOUT
+IMPL_TO_JSVAL
 (
 layout
-)
 )
 ;
 }

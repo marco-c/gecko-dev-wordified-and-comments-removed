@@ -4745,8 +4745,8 @@ cx
 globalObj
 id
 rval
-PropertyStub
-StrictPropertyStub
+JS_PropertyStub
+JS_StrictPropertyStub
 JSPROP_ENUMERATE
 |
 JSPROP_PERMANENT
