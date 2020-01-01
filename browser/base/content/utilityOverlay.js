@@ -1586,6 +1586,12 @@ window
 fm
 .
 activeWindow
+|
+|
+isBlankPageURL
+(
+url
+)
 )
 w
 .
