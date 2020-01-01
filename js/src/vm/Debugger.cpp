@@ -3020,9 +3020,7 @@ compartment
 )
 -
 >
-crossCompartmentWrappers
-.
-put
+putWrapper
 (
 key
 ObjectValue
@@ -3275,9 +3273,7 @@ compartment
 )
 -
 >
-crossCompartmentWrappers
-.
-put
+putWrapper
 (
 key
 ObjectValue
@@ -13589,9 +13585,7 @@ compartment
 )
 -
 >
-crossCompartmentWrappers
-.
-put
+putWrapper
 (
 key
 ObjectValue
