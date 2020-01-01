@@ -1,6 +1,10 @@
 #
-ifndef
+if
+!
+defined
+(
 NESTEGG_671cac2a_365d_ed69_d7a3_4491d3538d79
+)
 #
 define
 NESTEGG_671cac2a_365d_ed69_d7a3_4491d3538d79
@@ -16,8 +20,11 @@ stdint
 h
 >
 #
-ifdef
+if
+defined
+(
 __cplusplus
+)
 extern
 "
 C
@@ -750,8 +757,11 @@ length
 )
 ;
 #
-ifdef
+if
+defined
+(
 __cplusplus
+)
 }
 #
 endif
