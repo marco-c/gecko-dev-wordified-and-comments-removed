@@ -13812,7 +13812,10 @@ rt
 >
 shapeGen
 =
-0
+JSScope
+:
+:
+LAST_RESERVED_SHAPE
 ;
 rt
 -
