@@ -13291,6 +13291,8 @@ PRInt32
 aChildOffset
 PRUint32
 loadType
+PRBool
+aCloneChildren
 )
 {
 nsresult
@@ -13480,10 +13482,7 @@ currentEntry
 this
 cloneID
 aNewEntry
-loadType
-=
-=
-LOAD_PUSHSTATE
+aCloneChildren
 getter_AddRefs
 (
 nextEntry
@@ -13564,6 +13563,7 @@ aCloneRef
 aNewEntry
 aChildOffset
 loadType
+aCloneChildren
 )
 ;
 }
@@ -13583,6 +13583,8 @@ nsISHEntry
 aNewEntry
 PRInt32
 aChildOffset
+PRBool
+aCloneChildren
 )
 {
 nsCOMPtr
@@ -13649,6 +13651,7 @@ mOSHE
 aNewEntry
 aChildOffset
 mLoadType
+aCloneChildren
 )
 ;
 }
@@ -23202,6 +23205,7 @@ AddToSessionHistory
 uri
 wcwgChannel
 nsnull
+PR_FALSE
 getter_AddRefs
 (
 mLSHE
@@ -28948,6 +28952,7 @@ nsnull
 mLoadType
 PR_TRUE
 PR_FALSE
+PR_FALSE
 )
 ;
 }
@@ -32011,6 +32016,7 @@ aURI
 nsnull
 owner
 mLoadType
+PR_TRUE
 PR_TRUE
 PR_TRUE
 )
@@ -35411,6 +35417,8 @@ PRBool
 aFireOnLocationChange
 PRBool
 aAddToGlobalHistory
+PRBool
+aCloneSHChildren
 )
 {
 NS_PRECONDITION
@@ -36110,6 +36118,7 @@ AddToSessionHistory
 aURI
 aChannel
 aOwner
+aCloneSHChildren
 getter_AddRefs
 (
 mLSHE
@@ -36329,6 +36338,7 @@ nsnull
 mLoadType
 aFireOnLocationChange
 aAddToGlobalHistory
+PR_FALSE
 )
 ;
 }
@@ -37155,6 +37165,7 @@ AddToSessionHistory
 newURI
 nsnull
 nsnull
+PR_TRUE
 getter_AddRefs
 (
 newSHEntry
@@ -37478,6 +37489,8 @@ aChannel
 nsISupports
 *
 aOwner
+PRBool
+aCloneChildren
 nsISHEntry
 *
 *
@@ -38059,10 +38072,7 @@ mSessionHistory
 {
 if
 (
-mLoadType
-=
-=
-LOAD_PUSHSTATE
+aCloneChildren
 &
 &
 mOSHE
@@ -38270,6 +38280,7 @@ DoAddChildSHEntry
 (
 entry
 mChildOffset
+aCloneChildren
 )
 ;
 }

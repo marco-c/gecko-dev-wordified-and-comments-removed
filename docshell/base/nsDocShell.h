@@ -1028,8 +1028,8 @@ PRBool
 aFireOnLocationChange
 PRBool
 aAddToGlobalHistory
-=
-PR_TRUE
+PRBool
+aCloneSHChildren
 )
 ;
 virtual
@@ -1063,6 +1063,8 @@ aChannel
 nsISupports
 *
 aOwner
+PRBool
+aCloneChildren
 nsISHEntry
 *
 *
@@ -1077,6 +1079,8 @@ nsISHEntry
 aNewEntry
 PRInt32
 aChildOffset
+PRBool
+aCloneChildren
 )
 ;
 NS_IMETHOD
