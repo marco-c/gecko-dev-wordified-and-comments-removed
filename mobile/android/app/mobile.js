@@ -5971,7 +5971,7 @@ reader
 color_scheme
 "
 "
-light
+auto
 "
 )
 ;
