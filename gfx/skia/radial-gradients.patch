@@ -61,10 +61,10 @@ SkGradientShader
 .
 cpp
 -
-1652
+1665
 17
 +
-1652
+1665
 20
 public
 :
@@ -88,6 +88,7 @@ dstC
 int
 count
 )
+SK_OVERRIDE
 {
 SkASSERT
 (
