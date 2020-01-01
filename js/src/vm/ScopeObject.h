@@ -314,6 +314,11 @@ JSContext
 cx
 HandleScript
 script
+gc
+:
+:
+InitialHeap
+heap
 )
 ;
 static
@@ -463,6 +468,11 @@ JSContext
 cx
 HandleFunction
 fun
+gc
+:
+:
+InitialHeap
+heap
 )
 ;
 static

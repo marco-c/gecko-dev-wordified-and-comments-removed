@@ -20453,6 +20453,10 @@ createTemplateObject
 (
 cx
 fun
+gc
+:
+:
+TenuredHeap
 )
 )
 ;
@@ -20610,6 +20614,10 @@ createTemplateObject
 (
 cx
 scriptRoot
+gc
+:
+:
+TenuredHeap
 )
 )
 ;
