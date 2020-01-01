@@ -392,6 +392,17 @@ height
 )
 ;
 gint
+moz_gtk_get_downarrow_size
+(
+gint
+*
+width
+gint
+*
+height
+)
+;
+gint
 moz_gtk_get_toolbar_separator_width
 (
 gint
