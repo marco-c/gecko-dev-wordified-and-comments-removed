@@ -12699,6 +12699,10 @@ mGeckoChild
 =
 nsnull
 ;
+mWindow
+=
+nil
+;
 /
 /
 Just
