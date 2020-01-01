@@ -5848,6 +5848,12 @@ NS_ENSURE_ARG_POINTER
 aPrincipal
 )
 ;
+AutoPushJSContext
+cx
+(
+mContext
+)
+;
 JS
 :
 :
@@ -5858,12 +5864,12 @@ JSObject
 >
 scopeObject
 (
-mContext
+cx
 :
 :
 JS_GetGlobalObject
 (
-mContext
+cx
 )
 )
 ;
@@ -5885,7 +5891,7 @@ sSecurityManager
 >
 CanExecuteScripts
 (
-mContext
+cx
 aPrincipal
 &
 ok
@@ -5930,7 +5936,7 @@ NS_OK
 XPCAutoRequest
 ar
 (
-mContext
+cx
 )
 ;
 JS
@@ -5939,7 +5945,7 @@ JS
 CompileOptions
 options
 (
-mContext
+cx
 )
 ;
 JS
@@ -6007,7 +6013,7 @@ JS
 RootedObject
 rootedScope
 (
-mContext
+cx
 scopeObject
 )
 ;
@@ -6020,7 +6026,7 @@ JS
 :
 Compile
 (
-mContext
+cx
 rootedScope
 options
 static_cast
