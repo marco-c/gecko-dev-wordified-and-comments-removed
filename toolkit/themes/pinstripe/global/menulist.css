@@ -77,6 +77,12 @@ moz
 -
 DialogText
 ;
+text
+-
+shadow
+:
+none
+;
 }
 listbox
 menulist
