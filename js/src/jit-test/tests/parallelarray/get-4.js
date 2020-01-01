@@ -29,6 +29,14 @@ undefined
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testGetBounds
 (
 )

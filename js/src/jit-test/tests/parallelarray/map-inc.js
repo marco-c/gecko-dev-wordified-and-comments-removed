@@ -11,6 +11,14 @@ js
 "
 )
 ;
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 compareAgainstArray
 (
 range

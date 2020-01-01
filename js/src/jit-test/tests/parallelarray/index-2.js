@@ -120,6 +120,14 @@ j
 }
 }
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 test
 (
 )

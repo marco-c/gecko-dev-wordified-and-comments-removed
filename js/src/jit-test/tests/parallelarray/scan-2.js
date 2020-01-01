@@ -70,6 +70,14 @@ f
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testScanOne
 (
 )

@@ -63,6 +63,14 @@ ParallelArray
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testScatterDefault
 (
 )

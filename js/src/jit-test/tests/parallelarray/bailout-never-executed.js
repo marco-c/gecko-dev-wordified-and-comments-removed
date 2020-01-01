@@ -50,6 +50,14 @@ return
 v
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 compareAgainstArray
 (
 range

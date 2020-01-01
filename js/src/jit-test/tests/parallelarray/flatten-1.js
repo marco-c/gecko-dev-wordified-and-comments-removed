@@ -108,6 +108,14 @@ flatShape
 ;
 }
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testFlatten
 (
 )

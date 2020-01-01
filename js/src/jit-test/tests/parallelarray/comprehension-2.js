@@ -88,6 +88,14 @@ a
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 buildMultidim
 (
 )

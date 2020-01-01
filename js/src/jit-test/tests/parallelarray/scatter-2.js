@@ -54,6 +54,14 @@ r
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testScatterIdentity
 (
 )

@@ -37,6 +37,14 @@ return
 obj
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 compareAgainstArray
 (
 range

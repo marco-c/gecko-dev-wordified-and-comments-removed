@@ -38,6 +38,14 @@ n
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 compareAgainstArray
 (
 range

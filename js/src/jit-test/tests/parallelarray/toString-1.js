@@ -23,6 +23,14 @@ toString
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testToString
 (
 )

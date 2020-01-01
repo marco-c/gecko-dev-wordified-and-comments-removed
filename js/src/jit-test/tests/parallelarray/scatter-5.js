@@ -77,6 +77,14 @@ ParallelArray
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testScatterConflict
 (
 )

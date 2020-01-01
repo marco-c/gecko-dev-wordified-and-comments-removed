@@ -24,6 +24,14 @@ a
 b
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testScan
 (
 range

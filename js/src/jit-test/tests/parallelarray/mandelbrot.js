@@ -214,6 +214,14 @@ cols
 =
 4
 ;
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 assertParallelArrayModesEq
 (
 [

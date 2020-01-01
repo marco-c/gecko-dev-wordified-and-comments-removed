@@ -40,6 +40,14 @@ undefined
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testGetNoCraziness
 (
 )

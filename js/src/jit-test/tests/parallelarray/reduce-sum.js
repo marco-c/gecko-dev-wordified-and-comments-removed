@@ -43,6 +43,14 @@ sum
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testReduce
 (
 )

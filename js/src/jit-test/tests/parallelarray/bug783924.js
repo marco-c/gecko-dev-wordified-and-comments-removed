@@ -17,6 +17,14 @@ ParallelArray
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 bug783924
 (
 )

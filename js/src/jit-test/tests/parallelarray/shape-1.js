@@ -45,6 +45,14 @@ length
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testShape
 (
 )

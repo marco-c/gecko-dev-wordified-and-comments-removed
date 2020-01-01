@@ -83,6 +83,14 @@ truthy
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testFilterMisc
 (
 )

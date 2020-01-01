@@ -93,6 +93,14 @@ p2
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testMap
 (
 )

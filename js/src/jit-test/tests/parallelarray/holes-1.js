@@ -251,6 +251,14 @@ NaN
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testHoles
 (
 )

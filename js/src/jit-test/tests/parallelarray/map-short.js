@@ -44,6 +44,14 @@ makeadd1
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 test
 (
 )

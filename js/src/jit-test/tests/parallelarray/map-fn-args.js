@@ -145,6 +145,14 @@ p
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testMap
 (
 )

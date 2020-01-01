@@ -79,6 +79,14 @@ p2
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testScatter
 (
 )

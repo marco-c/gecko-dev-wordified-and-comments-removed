@@ -128,6 +128,14 @@ r
 ;
 }
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testScatter
 (
 )

@@ -100,6 +100,14 @@ true
 ;
 }
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 buildComprehension
 (
 )

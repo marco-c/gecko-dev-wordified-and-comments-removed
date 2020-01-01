@@ -181,6 +181,14 @@ toString
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testPartition
 (
 )

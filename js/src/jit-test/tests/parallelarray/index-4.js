@@ -222,6 +222,14 @@ l
 }
 }
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 test
 (
 )

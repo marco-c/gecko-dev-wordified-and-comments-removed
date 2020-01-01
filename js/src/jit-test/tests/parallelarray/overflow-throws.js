@@ -65,6 +65,14 @@ RangeError
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testOverflow
 (
 )

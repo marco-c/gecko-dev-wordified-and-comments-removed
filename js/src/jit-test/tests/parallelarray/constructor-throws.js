@@ -37,6 +37,14 @@ RangeError
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testThrows
 (
 )

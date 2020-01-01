@@ -71,6 +71,14 @@ Error
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testPartitionDivisible
 (
 )

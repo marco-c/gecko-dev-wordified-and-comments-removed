@@ -94,6 +94,14 @@ get
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testClosureCreation
 (
 )

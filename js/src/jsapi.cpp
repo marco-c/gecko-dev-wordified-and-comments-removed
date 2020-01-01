@@ -8094,6 +8094,9 @@ SetObject
 :
 class_
 }
+#
+ifdef
+ENABLE_PARALLEL_JS
 {
 js_InitParallelArrayClass
 EAGER_CLASS_ATOM
@@ -8109,6 +8112,8 @@ ParallelArrayObject
 :
 class_
 }
+#
+endif
 {
 js_InitProxyClass
 EAGER_ATOM_AND_CLASP

@@ -147,6 +147,14 @@ undefined
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testGet
 (
 )

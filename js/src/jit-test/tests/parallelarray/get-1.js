@@ -55,6 +55,14 @@ i
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testGet
 (
 )

@@ -206,6 +206,14 @@ k
 }
 }
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 test
 (
 )

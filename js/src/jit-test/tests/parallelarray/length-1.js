@@ -59,6 +59,14 @@ length
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testLength
 (
 )

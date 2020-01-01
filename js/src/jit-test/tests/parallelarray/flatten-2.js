@@ -65,6 +65,14 @@ p2
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testFlatten
 (
 )

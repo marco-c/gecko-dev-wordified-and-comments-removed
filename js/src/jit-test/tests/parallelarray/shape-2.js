@@ -84,6 +84,14 @@ true
 ;
 }
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 testShape
 (
 )

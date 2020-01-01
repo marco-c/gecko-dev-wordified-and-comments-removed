@@ -101,6 +101,14 @@ z
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 buildSimple
 (
 )
