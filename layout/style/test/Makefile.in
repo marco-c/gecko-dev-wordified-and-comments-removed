@@ -571,6 +571,10 @@ test_bug379741
 .
 html
 \
+test_bug383075
+.
+html
+\
 test_dont_use_document_colors
 .
 html
