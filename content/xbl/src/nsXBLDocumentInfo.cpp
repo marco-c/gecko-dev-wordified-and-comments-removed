@@ -1154,7 +1154,7 @@ kDOMScriptObjectFactoryCID
 NS_ENSURE_TRUE
 (
 factory
-nsnull
+NS_OK
 )
 ;
 nsresult
@@ -1258,7 +1258,7 @@ compartment
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+NS_OK
 )
 ;
 :
