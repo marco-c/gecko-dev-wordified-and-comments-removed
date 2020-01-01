@@ -886,7 +886,7 @@ return
 nsIContent
 :
 :
-IME_STATUS_ENABLE
+IME_STATUS_PLUGIN
 ;
 }
 return

@@ -12573,6 +12573,12 @@ nsIWidget
 :
 IME_STATUS_ENABLED
 :
+case
+nsIWidget
+:
+:
+IME_STATUS_PLUGIN
+:
 nsTSMManager
 :
 :
