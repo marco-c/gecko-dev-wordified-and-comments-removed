@@ -187,6 +187,10 @@ CommandLineHandler
 .
 js
 \
+ContentPermission
+.
+js
+\
 ContentPolicy
 .
 js

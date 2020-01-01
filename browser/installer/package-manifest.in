@@ -3847,6 +3847,15 @@ webapprt
 /
 components
 /
+ContentPermission
+.
+js
+BINPATH
+/
+webapprt
+/
+components
+/
 ContentPolicy
 .
 js
