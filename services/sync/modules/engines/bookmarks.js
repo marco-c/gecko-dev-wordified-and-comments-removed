@@ -3485,6 +3485,17 @@ bookmarks
 ;
 }
 get
+displayName
+(
+)
+{
+return
+"
+Bookmarks
+"
+;
+}
+get
 logName
 (
 )
