@@ -343,7 +343,7 @@ const
 char
 *
 pass
-RegisterAllocator
+LinearScanAllocator
 *
 ra
 )

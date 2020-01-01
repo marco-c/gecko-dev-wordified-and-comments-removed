@@ -1141,7 +1141,7 @@ JSONSpewer
 :
 spewIntervals
 (
-RegisterAllocator
+LinearScanAllocator
 *
 regalloc
 )

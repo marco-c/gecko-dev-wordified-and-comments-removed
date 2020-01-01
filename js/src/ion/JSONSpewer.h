@@ -190,7 +190,7 @@ mir
 void
 spewIntervals
 (
-RegisterAllocator
+LinearScanAllocator
 *
 regalloc
 )

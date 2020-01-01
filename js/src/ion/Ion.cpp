@@ -605,7 +605,7 @@ registers
 ;
 #
 else
-RegisterAllocator
+LinearScanAllocator
 regalloc
 (
 &
