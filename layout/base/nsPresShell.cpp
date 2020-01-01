@@ -1,13 +1,6 @@
 #
 include
 "
-nsAlgorithm
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h
@@ -510,6 +503,13 @@ h
 include
 "
 prenv
+.
+h
+"
+#
+include
+"
+nsAlgorithm
 .
 h
 "

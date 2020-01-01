@@ -3462,7 +3462,7 @@ Substring
 (
 text
 start
-PR_MIN
+NS_MIN
 (
 end
 endLine
@@ -3520,7 +3520,7 @@ Substring
 (
 text
 start
-PR_MIN
+NS_MIN
 (
 end
 endLine
