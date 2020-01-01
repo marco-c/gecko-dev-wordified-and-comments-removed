@@ -1,6 +1,16 @@
 #
-ifndef
+if
+!
+defined
+(
 jsion_frame_iterator_inl_h__
+)
+&
+&
+defined
+(
+JS_ION
+)
 #
 define
 jsion_frame_iterator_inl_h__

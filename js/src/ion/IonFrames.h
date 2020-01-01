@@ -1,6 +1,16 @@
 #
-ifndef
+if
+!
+defined
+(
 jsion_frames_h__
+)
+&
+&
+defined
+(
+JS_ION
+)
 #
 define
 jsion_frames_h__

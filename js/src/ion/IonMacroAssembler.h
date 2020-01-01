@@ -1,6 +1,16 @@
 #
-ifndef
+if
+!
+defined
+(
 jsion_macro_assembler_h__
+)
+&
+&
+defined
+(
+JS_ION
+)
 #
 define
 jsion_macro_assembler_h__
