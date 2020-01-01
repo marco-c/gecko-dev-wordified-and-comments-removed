@@ -1,7 +1,7 @@
 #
 include
 "
-nsXULTabAccessible
+XULTabAccessible
 .
 h
 "
@@ -89,10 +89,10 @@ mozilla
 :
 a11y
 ;
-nsXULTabAccessible
+XULTabAccessible
 :
 :
-nsXULTabAccessible
+XULTabAccessible
 (
 nsIContent
 *
@@ -110,7 +110,7 @@ aDoc
 {
 }
 PRUint8
-nsXULTabAccessible
+XULTabAccessible
 :
 :
 ActionCount
@@ -122,7 +122,7 @@ return
 ;
 }
 NS_IMETHODIMP
-nsXULTabAccessible
+XULTabAccessible
 :
 :
 GetActionName
@@ -160,7 +160,7 @@ NS_ERROR_INVALID_ARG
 ;
 }
 NS_IMETHODIMP
-nsXULTabAccessible
+XULTabAccessible
 :
 :
 DoAction
@@ -214,7 +214,7 @@ NS_ERROR_INVALID_ARG
 ;
 }
 role
-nsXULTabAccessible
+XULTabAccessible
 :
 :
 NativeRole
@@ -229,7 +229,7 @@ PAGETAB
 ;
 }
 PRUint64
-nsXULTabAccessible
+XULTabAccessible
 :
 :
 NativeState
@@ -299,7 +299,7 @@ state
 ;
 }
 PRUint64
-nsXULTabAccessible
+XULTabAccessible
 :
 :
 NativeInteractiveState
@@ -338,7 +338,7 @@ SELECTABLE
 ;
 }
 Relation
-nsXULTabAccessible
+XULTabAccessible
 :
 :
 RelationByType
@@ -456,10 +456,10 @@ return
 rel
 ;
 }
-nsXULTabsAccessible
+XULTabsAccessible
 :
 :
-nsXULTabsAccessible
+XULTabsAccessible
 (
 nsIContent
 *
@@ -477,7 +477,7 @@ aDoc
 {
 }
 role
-nsXULTabsAccessible
+XULTabsAccessible
 :
 :
 NativeRole
@@ -492,7 +492,7 @@ PAGETABLIST
 ;
 }
 PRUint8
-nsXULTabsAccessible
+XULTabsAccessible
 :
 :
 ActionCount
@@ -504,7 +504,7 @@ return
 ;
 }
 void
-nsXULTabsAccessible
+XULTabsAccessible
 :
 :
 Value
@@ -522,7 +522,7 @@ Truncate
 ;
 }
 nsresult
-nsXULTabsAccessible
+XULTabsAccessible
 :
 :
 GetNameInternal
@@ -536,10 +536,10 @@ return
 NS_OK
 ;
 }
-nsXULTabpanelsAccessible
+XULTabpanelsAccessible
 :
 :
-nsXULTabpanelsAccessible
+XULTabpanelsAccessible
 (
 nsIContent
 *
@@ -557,7 +557,7 @@ aDoc
 {
 }
 role
-nsXULTabpanelsAccessible
+XULTabpanelsAccessible
 :
 :
 NativeRole
@@ -571,10 +571,10 @@ roles
 PANE
 ;
 }
-nsXULTabpanelAccessible
+XULTabpanelAccessible
 :
 :
-nsXULTabpanelAccessible
+XULTabpanelAccessible
 (
 nsIContent
 *
@@ -592,7 +592,7 @@ aDoc
 {
 }
 role
-nsXULTabpanelAccessible
+XULTabpanelAccessible
 :
 :
 NativeRole
@@ -607,7 +607,7 @@ PROPERTYPAGE
 ;
 }
 Relation
-nsXULTabpanelAccessible
+XULTabpanelAccessible
 :
 :
 RelationByType

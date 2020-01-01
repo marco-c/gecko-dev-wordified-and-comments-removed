@@ -1,7 +1,7 @@
 #
 include
 "
-nsXULSliderAccessible
+XULSliderAccessible
 .
 h
 "
@@ -40,10 +40,10 @@ mozilla
 :
 a11y
 ;
-nsXULSliderAccessible
+XULSliderAccessible
 :
 :
-nsXULSliderAccessible
+XULSliderAccessible
 (
 nsIContent
 *
@@ -62,12 +62,12 @@ aDoc
 }
 NS_IMPL_ISUPPORTS_INHERITED1
 (
-nsXULSliderAccessible
+XULSliderAccessible
 AccessibleWrap
 nsIAccessibleValue
 )
 role
-nsXULSliderAccessible
+XULSliderAccessible
 :
 :
 NativeRole
@@ -82,7 +82,7 @@ SLIDER
 ;
 }
 PRUint64
-nsXULSliderAccessible
+XULSliderAccessible
 :
 :
 NativeInteractiveState
@@ -150,7 +150,7 @@ return
 ;
 }
 bool
-nsXULSliderAccessible
+XULSliderAccessible
 :
 :
 NativelyUnavailable
@@ -178,7 +178,7 @@ eCaseMatters
 ;
 }
 void
-nsXULSliderAccessible
+XULSliderAccessible
 :
 :
 Value
@@ -199,7 +199,7 @@ aValue
 ;
 }
 PRUint8
-nsXULSliderAccessible
+XULSliderAccessible
 :
 :
 ActionCount
@@ -211,7 +211,7 @@ return
 ;
 }
 NS_IMETHODIMP
-nsXULSliderAccessible
+XULSliderAccessible
 :
 :
 GetActionName
@@ -251,7 +251,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULSliderAccessible
+XULSliderAccessible
 :
 :
 DoAction
@@ -290,7 +290,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULSliderAccessible
+XULSliderAccessible
 :
 :
 GetMaximumValue
@@ -333,7 +333,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsXULSliderAccessible
+XULSliderAccessible
 :
 :
 GetMinimumValue
@@ -376,7 +376,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsXULSliderAccessible
+XULSliderAccessible
 :
 :
 GetMinimumIncrement
@@ -419,7 +419,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsXULSliderAccessible
+XULSliderAccessible
 :
 :
 GetCurrentValue
@@ -462,7 +462,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsXULSliderAccessible
+XULSliderAccessible
 :
 :
 SetCurrentValue
@@ -504,7 +504,7 @@ aValue
 ;
 }
 bool
-nsXULSliderAccessible
+XULSliderAccessible
 :
 :
 CanHaveAnonChildren
@@ -517,7 +517,7 @@ false
 }
 nsIContent
 *
-nsXULSliderAccessible
+XULSliderAccessible
 :
 :
 GetSliderElement
@@ -562,7 +562,7 @@ mSliderNode
 ;
 }
 nsresult
-nsXULSliderAccessible
+XULSliderAccessible
 :
 :
 GetSliderAttr
@@ -617,7 +617,7 @@ NS_OK
 ;
 }
 nsresult
-nsXULSliderAccessible
+XULSliderAccessible
 :
 :
 SetSliderAttr
@@ -668,7 +668,7 @@ NS_OK
 ;
 }
 nsresult
-nsXULSliderAccessible
+XULSliderAccessible
 :
 :
 GetSliderAttr
@@ -753,7 +753,7 @@ NS_OK
 ;
 }
 nsresult
-nsXULSliderAccessible
+XULSliderAccessible
 :
 :
 SetSliderAttr
@@ -783,10 +783,10 @@ value
 )
 ;
 }
-nsXULThumbAccessible
+XULThumbAccessible
 :
 :
-nsXULThumbAccessible
+XULThumbAccessible
 (
 nsIContent
 *
@@ -804,7 +804,7 @@ aDoc
 {
 }
 role
-nsXULThumbAccessible
+XULThumbAccessible
 :
 :
 NativeRole

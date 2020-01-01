@@ -1,7 +1,7 @@
 #
 include
 "
-nsXULComboboxAccessible
+XULComboboxAccessible
 .
 h
 "
@@ -77,10 +77,10 @@ mozilla
 :
 a11y
 ;
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
-nsXULComboboxAccessible
+XULComboboxAccessible
 (
 nsIContent
 *
@@ -128,7 +128,7 @@ eComboboxAccessible
 ;
 }
 role
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 NativeRole
@@ -152,7 +152,7 @@ COMBOBOX
 ;
 }
 PRUint64
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 NativeState
@@ -232,7 +232,7 @@ HASPOPUP
 ;
 }
 void
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 Description
@@ -330,7 +330,7 @@ aDescription
 }
 }
 void
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 Value
@@ -372,7 +372,7 @@ aValue
 ;
 }
 bool
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 CanHaveAnonChildren
@@ -426,7 +426,7 @@ false
 ;
 }
 PRUint8
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 ActionCount
@@ -438,7 +438,7 @@ return
 ;
 }
 NS_IMETHODIMP
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 DoAction
@@ -452,7 +452,7 @@ if
 aIndex
 !
 =
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 eAction_Click
@@ -517,7 +517,7 @@ isDroppedDown
 ;
 }
 NS_IMETHODIMP
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 GetActionName
@@ -534,7 +534,7 @@ if
 aIndex
 !
 =
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 eAction_Click
@@ -615,7 +615,7 @@ NS_OK
 ;
 }
 bool
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 IsActiveWidget
@@ -731,7 +731,7 @@ mContent
 ;
 }
 bool
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 :
 AreItemsOperable

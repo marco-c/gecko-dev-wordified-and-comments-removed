@@ -121,7 +121,7 @@ h
 #
 include
 "
-nsXULTabAccessible
+XULTabAccessible
 .
 h
 "

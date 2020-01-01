@@ -1,7 +1,7 @@
 #
 include
 "
-nsXULAlertAccessible
+XULAlertAccessible
 .
 h
 "
@@ -26,10 +26,10 @@ mozilla
 :
 a11y
 ;
-nsXULAlertAccessible
+XULAlertAccessible
 :
 :
-nsXULAlertAccessible
+XULAlertAccessible
 (
 nsIContent
 *
@@ -48,11 +48,11 @@ aDoc
 }
 NS_IMPL_ISUPPORTS_INHERITED0
 (
-nsXULAlertAccessible
+XULAlertAccessible
 Accessible
 )
 role
-nsXULAlertAccessible
+XULAlertAccessible
 :
 :
 NativeRole
@@ -67,7 +67,7 @@ ALERT
 ;
 }
 PRUint64
-nsXULAlertAccessible
+XULAlertAccessible
 :
 :
 NativeState
@@ -89,7 +89,7 @@ ALERT
 ;
 }
 ENameValueFlag
-nsXULAlertAccessible
+XULAlertAccessible
 :
 :
 Name
@@ -110,7 +110,7 @@ eNameOK
 ;
 }
 bool
-nsXULAlertAccessible
+XULAlertAccessible
 :
 :
 IsWidget
@@ -124,7 +124,7 @@ true
 }
 Accessible
 *
-nsXULAlertAccessible
+XULAlertAccessible
 :
 :
 ContainerWidget

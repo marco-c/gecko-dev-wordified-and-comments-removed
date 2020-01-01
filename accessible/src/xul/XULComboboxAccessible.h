@@ -1,9 +1,9 @@
 #
 ifndef
-__nsXULComboboxAccessible_h__
+mozilla_a11y_XULComboboxAccessible_h__
 #
 define
-__nsXULComboboxAccessible_h__
+mozilla_a11y_XULComboboxAccessible_h__
 #
 include
 "
@@ -11,8 +11,14 @@ XULMenuAccessible
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
-nsXULComboboxAccessible
+XULComboboxAccessible
 :
 public
 AccessibleWrap
@@ -26,7 +32,7 @@ eAction_Click
 0
 }
 ;
-nsXULComboboxAccessible
+XULComboboxAccessible
 (
 nsIContent
 *
@@ -72,9 +78,6 @@ aValue
 )
 ;
 virtual
-mozilla
-:
-:
 a11y
 :
 :
@@ -117,5 +120,7 @@ const
 ;
 }
 ;
+}
+}
 #
 endif

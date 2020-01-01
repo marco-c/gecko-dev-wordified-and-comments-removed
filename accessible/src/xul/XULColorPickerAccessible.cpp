@@ -1,7 +1,7 @@
 #
 include
 "
-nsXULColorPickerAccessible
+XULColorPickerAccessible
 .
 h
 "
@@ -77,10 +77,10 @@ mozilla
 :
 a11y
 ;
-nsXULColorPickerTileAccessible
+XULColorPickerTileAccessible
 :
 :
-nsXULColorPickerTileAccessible
+XULColorPickerTileAccessible
 (
 nsIContent
 *
@@ -98,7 +98,7 @@ aDoc
 {
 }
 void
-nsXULColorPickerTileAccessible
+XULColorPickerTileAccessible
 :
 :
 Value
@@ -129,7 +129,7 @@ aValue
 ;
 }
 role
-nsXULColorPickerTileAccessible
+XULColorPickerTileAccessible
 :
 :
 NativeRole
@@ -144,7 +144,7 @@ PUSHBUTTON
 ;
 }
 PRUint64
-nsXULColorPickerTileAccessible
+XULColorPickerTileAccessible
 :
 :
 NativeState
@@ -188,7 +188,7 @@ state
 ;
 }
 PRUint64
-nsXULColorPickerTileAccessible
+XULColorPickerTileAccessible
 :
 :
 NativeInteractiveState
@@ -219,7 +219,7 @@ SELECTABLE
 }
 Accessible
 *
-nsXULColorPickerTileAccessible
+XULColorPickerTileAccessible
 :
 :
 ContainerWidget
@@ -271,10 +271,10 @@ return
 nsnull
 ;
 }
-nsXULColorPickerAccessible
+XULColorPickerAccessible
 :
 :
-nsXULColorPickerAccessible
+XULColorPickerAccessible
 (
 nsIContent
 *
@@ -284,7 +284,7 @@ DocAccessible
 aDoc
 )
 :
-nsXULColorPickerTileAccessible
+XULColorPickerTileAccessible
 (
 aContent
 aDoc
@@ -297,7 +297,7 @@ eMenuButtonAccessible
 ;
 }
 PRUint64
-nsXULColorPickerAccessible
+XULColorPickerAccessible
 :
 :
 NativeState
@@ -324,7 +324,7 @@ HASPOPUP
 ;
 }
 role
-nsXULColorPickerAccessible
+XULColorPickerAccessible
 :
 :
 NativeRole
@@ -339,7 +339,7 @@ BUTTONDROPDOWNGRID
 ;
 }
 bool
-nsXULColorPickerAccessible
+XULColorPickerAccessible
 :
 :
 IsWidget
@@ -352,7 +352,7 @@ true
 ;
 }
 bool
-nsXULColorPickerAccessible
+XULColorPickerAccessible
 :
 :
 IsActiveWidget
@@ -373,7 +373,7 @@ mContent
 ;
 }
 bool
-nsXULColorPickerAccessible
+XULColorPickerAccessible
 :
 :
 AreItemsOperable
@@ -429,7 +429,7 @@ false
 ;
 }
 void
-nsXULColorPickerAccessible
+XULColorPickerAccessible
 :
 :
 CacheChildren
