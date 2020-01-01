@@ -923,7 +923,7 @@ weave
 .
 enabled
 .
-label
+title
 "
 Enable
 Weave
@@ -954,7 +954,7 @@ weave
 .
 username
 .
-label
+title
 "
 User
 name
@@ -991,7 +991,7 @@ weave
 .
 password
 .
-label
+title
 "
 Password
 "
@@ -1027,7 +1027,7 @@ weave
 .
 passphrase
 .
-label
+title
 "
 Passphrase
 "
@@ -1064,7 +1064,7 @@ client
 .
 name
 .
-label
+title
 "
 Client
 name
@@ -1100,7 +1100,7 @@ weave
 .
 serverURL
 .
-label
+title
 "
 Server
 URL
