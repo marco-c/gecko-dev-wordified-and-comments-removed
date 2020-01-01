@@ -445,6 +445,13 @@ init
 cx
 )
 ;
+static
+const
+size_t
+ARENA_HEADER_SIZE_HACK
+=
+40
+;
 JS_InitArenaPool
 (
 &
@@ -453,6 +460,8 @@ pool
 analysis
 "
 4096
+-
+ARENA_HEADER_SIZE_HACK
 8
 )
 ;

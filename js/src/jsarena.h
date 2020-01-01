@@ -72,7 +72,7 @@ JSArena
 current
 ;
 size_t
-netsize
+arenasize
 ;
 jsuword
 mask
@@ -1098,13 +1098,6 @@ JS_END_EXTERN_C
 #
 ifdef
 __cplusplus
-#
-include
-"
-jstl
-.
-h
-"
 namespace
 js
 {
@@ -1598,13 +1591,10 @@ JS_InitArenaPool
 (
 oldPool
 NULL
-RoundUpPow2
-(
 newPool
 -
 >
-netsize
-)
+arenasize
 newPool
 -
 >
