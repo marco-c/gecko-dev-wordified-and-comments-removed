@@ -75,6 +75,17 @@ config
 autoconf
 .
 mk
+PYTHON_UNIT_TESTS
+:
+=
+\
+test
+.
+py
+\
+(
+NULL
+)
 include
 (
 topsrcdir
@@ -91,7 +102,6 @@ packages
 from
 the
 srcdir
-;
 MOZBASE_PACKAGES
 =
 \
