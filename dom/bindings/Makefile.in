@@ -492,6 +492,16 @@ I
 topsrcdir
 )
 /
+dom
+/
+indexedDB
+\
+-
+I
+(
+topsrcdir
+)
+/
 content
 /
 xslt

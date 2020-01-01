@@ -503,6 +503,10 @@ HTMLUListElement
 .
 webidl
 \
+IDBVersionChangeEvent
+.
+webidl
+\
 ImageData
 .
 webidl
