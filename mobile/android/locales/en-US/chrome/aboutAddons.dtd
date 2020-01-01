@@ -130,8 +130,8 @@ Uninstall
 ENTITY
 addonAction
 .
-cancel
+undo
 "
-Cancel
+Undo
 "
 >
