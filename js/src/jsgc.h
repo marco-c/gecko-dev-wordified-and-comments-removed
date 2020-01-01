@@ -3234,9 +3234,6 @@ StackTagMask
 gc
 :
 :
-Cell
-:
-:
 CellMask
 )
 ;
