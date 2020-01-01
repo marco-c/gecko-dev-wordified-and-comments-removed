@@ -32292,13 +32292,16 @@ chain
 chain
 -
 >
-enclosingScope
+getParent
 (
 )
 ;
 }
 while
 (
+chain
+&
+&
 chain
 -
 >
