@@ -101,6 +101,9 @@ class
 nsIDOMSVGLength
 ;
 class
+nsIDOMSVGNumberList
+;
+class
 nsIURI
 ;
 class
@@ -1417,6 +1420,17 @@ aVal
 )
 ;
 }
+static
+float
+GetNumberListValue
+(
+nsIDOMSVGNumberList
+*
+aList
+PRUint32
+aIndex
+)
+;
 private
 :
 static
