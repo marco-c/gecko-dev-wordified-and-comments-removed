@@ -801,14 +801,6 @@ SwitchState
 aState
 )
 ;
-SetProcessPriority
-(
-int
-aPid
-ProcessPriority
-aPriority
-)
-;
 FactoryReset
 (
 )

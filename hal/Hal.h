@@ -819,6 +819,11 @@ hal
 :
 ProcessPriority
 aPriority
+hal
+:
+:
+ProcessCPUPriority
+aCPUPriority
 )
 ;
 void

@@ -25,6 +25,8 @@ int
 aPid
 ProcessPriority
 aPriority
+ProcessCPUPriority
+aCPUPriority
 )
 {
 HAL_LOG
@@ -38,13 +40,17 @@ SetProcessPriority
 %
 d
 %
-d
+s
 )
 \
 n
 "
 aPid
+ProcessPriorityToString
+(
 aPriority
+aCPUPriority
+)
 )
 )
 ;
