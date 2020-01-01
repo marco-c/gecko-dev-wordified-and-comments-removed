@@ -7359,6 +7359,7 @@ void
 Run
 (
 )
+MOZ_OVERRIDE
 {
 mStream
 -
@@ -7377,6 +7378,18 @@ mStream
 -
 >
 Init
+(
+)
+;
+}
+virtual
+void
+RunDuringShutdown
+(
+)
+MOZ_OVERRIDE
+{
+Run
 (
 )
 ;
