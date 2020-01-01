@@ -167,6 +167,7 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 let
 oldScrollTop
@@ -325,6 +326,7 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 isnot
 (
@@ -386,6 +388,7 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }
 function

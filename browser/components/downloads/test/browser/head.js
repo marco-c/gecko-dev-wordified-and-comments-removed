@@ -401,6 +401,7 @@ continueTest
 )
 ;
 yield
+undefined
 ;
 }
 finally
@@ -457,6 +458,7 @@ continueTest
 )
 ;
 yield
+undefined
 ;
 }
 function
@@ -682,6 +684,7 @@ continueTest
 )
 ;
 yield
+undefined
 ;
 gDownloadRowTemplate
 .
@@ -764,6 +767,7 @@ continueTest
 )
 ;
 yield
+undefined
 ;
 DownloadsPanel
 .
@@ -772,6 +776,7 @@ showPanel
 )
 ;
 yield
+undefined
 ;
 }
 function

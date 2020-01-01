@@ -167,6 +167,7 @@ window
 )
 )
 yield
+undefined
 ;
 for
 (
@@ -179,6 +180,7 @@ DownloadData
 )
 )
 yield
+undefined
 ;
 for
 (
@@ -196,6 +198,7 @@ window
 )
 )
 yield
+undefined
 ;
 let
 richlistbox
@@ -346,6 +349,7 @@ window
 )
 )
 yield
+undefined
 ;
 }
 }

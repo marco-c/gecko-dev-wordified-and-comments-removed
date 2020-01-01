@@ -926,6 +926,7 @@ testNext
 )
 ;
 yield
+undefined
 ;
 let
 outputItem
@@ -1091,6 +1092,7 @@ testNext
 )
 ;
 yield
+undefined
 ;
 outputItem
 =
@@ -1251,6 +1253,7 @@ testNext
 )
 ;
 yield
+undefined
 ;
 outputItem
 =
@@ -1522,6 +1525,7 @@ showsVariablesView
 )
 {
 yield
+undefined
 ;
 }
 testNext
@@ -1529,6 +1533,7 @@ testNext
 )
 ;
 yield
+undefined
 ;
 }
 function

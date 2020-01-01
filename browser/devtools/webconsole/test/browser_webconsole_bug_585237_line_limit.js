@@ -227,6 +227,7 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 is
 (
@@ -313,6 +314,7 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 is
 (
@@ -427,6 +429,7 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 is
 (
@@ -483,6 +486,7 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }
 function

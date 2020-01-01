@@ -883,6 +883,7 @@ i
 )
 ;
 yield
+undefined
 ;
 }
 doNextTest
@@ -1766,6 +1767,7 @@ iter
 ]
 ;
 yield
+undefined
 ;
 doNextTest
 (
@@ -2326,6 +2328,7 @@ iter
 ]
 ;
 yield
+undefined
 ;
 doNextTest
 (

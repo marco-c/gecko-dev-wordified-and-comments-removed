@@ -184,6 +184,7 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 let
 msg
@@ -300,6 +301,7 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 msg
 =
@@ -430,6 +432,7 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 msg
 =
@@ -538,6 +541,7 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 msg
 =
@@ -662,6 +666,7 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 msg
 =
@@ -727,5 +732,6 @@ finishTest
 )
 ;
 yield
+undefined
 ;
 }

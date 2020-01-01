@@ -21,6 +21,7 @@ window
 )
 )
 yield
+undefined
 ;
 DownloadsCommon
 .
@@ -52,6 +53,7 @@ start
 )
 ;
 yield
+undefined
 ;
 DownloadsPanel
 .
@@ -139,6 +141,7 @@ window
 )
 )
 yield
+undefined
 ;
 }
 }

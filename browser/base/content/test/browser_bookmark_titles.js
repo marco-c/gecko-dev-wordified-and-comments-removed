@@ -278,6 +278,7 @@ location
 uri
 ;
 yield
+undefined
 ;
 checkBookmark
 (
@@ -388,6 +389,7 @@ location
 uri
 ;
 yield
+undefined
 ;
 is
 (
