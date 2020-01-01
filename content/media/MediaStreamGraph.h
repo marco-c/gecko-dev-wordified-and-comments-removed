@@ -1882,10 +1882,6 @@ AudioNodeEngine
 aEngine
 AudioNodeStreamKind
 aKind
-uint32_t
-aNumberOfInputChannels
-=
-0
 )
 ;
 int64_t
