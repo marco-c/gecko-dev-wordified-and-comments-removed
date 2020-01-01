@@ -3869,6 +3869,9 @@ const
 OptionalURIParams
 &
 aReferrer
+PBrowserChild
+*
+aBrowser
 )
 {
 ExternalHelperAppChild

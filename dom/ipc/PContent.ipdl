@@ -1682,6 +1682,8 @@ int64_t
 aContentLength
 OptionalURIParams
 aReferrer
+PBrowser
+aBrowser
 )
 ;
 AddGeolocationListener
@@ -1925,15 +1927,6 @@ aElementHidden
 async
 AudioChannelChangedNotification
 (
-)
-;
-async
-AudioChannelChangeDefVolChannel
-(
-AudioChannelType
-aType
-bool
-aHidden
 )
 ;
 async
