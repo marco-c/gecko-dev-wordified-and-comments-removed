@@ -2453,6 +2453,10 @@ file_html_in_xhr
 .
 sjs
 \
+test_bug647518
+.
+html
+\
 test_bug664916
 .
 html
