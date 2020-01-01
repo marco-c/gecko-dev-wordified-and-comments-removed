@@ -6283,6 +6283,9 @@ Value
 v
 )
 {
+AutoAssertNoGC
+nogc
+;
 if
 (
 !

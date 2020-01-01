@@ -300,6 +300,9 @@ JSContext
 cx
 )
 {
+AutoAssertNoGC
+nogc
+;
 IonJSFrameLayout
 *
 frame
@@ -405,6 +408,9 @@ SnapshotIterator
 iter
 )
 {
+AutoAssertNoGC
+nogc
+;
 uint32_t
 exprStackSlots
 =
@@ -978,6 +984,9 @@ StackFrame
 callerFrame
 )
 {
+AutoAssertNoGC
+nogc
+;
 FrameRegs
 &
 regs
@@ -1240,6 +1249,9 @@ IonBailoutIterator
 it
 )
 {
+AutoAssertNoGC
+nogc
+;
 IonSpew
 (
 IonSpew_Bailouts
@@ -1812,6 +1824,9 @@ BailoutStack
 sp
 )
 {
+AutoAssertNoGC
+nogc
+;
 JSContext
 *
 cx
@@ -1914,6 +1929,9 @@ size_t
 frameSizeOut
 )
 {
+AutoAssertNoGC
+nogc
+;
 sp
 -
 >
@@ -2663,6 +2681,9 @@ RecompileForInlining
 (
 )
 {
+AutoAssertNoGC
+nogc
+;
 JSContext
 *
 cx

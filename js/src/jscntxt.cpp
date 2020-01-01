@@ -2491,6 +2491,9 @@ JSErrorReport
 report
 )
 {
+AutoAssertNoGC
+nogc
+;
 NonBuiltinScriptFrameIter
 iter
 (
@@ -2568,6 +2571,9 @@ JSContext
 cx
 )
 {
+AutoAssertNoGC
+nogc
+;
 cx
 -
 >

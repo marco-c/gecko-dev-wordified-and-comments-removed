@@ -45,6 +45,9 @@ TwoByteChars
 tbchars
 )
 {
+AutoAssertNoGC
+nogc
+;
 JS_ASSERT
 (
 cx
@@ -739,6 +742,9 @@ TwoByteChars
 tbchars
 )
 {
+AutoAssertNoGC
+nogc
+;
 JS_ASSERT
 (
 cx

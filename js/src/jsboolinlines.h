@@ -124,6 +124,9 @@ RawObject
 obj
 )
 {
+AutoAssertNoGC
+nogc
+;
 RawObject
 actual
 =

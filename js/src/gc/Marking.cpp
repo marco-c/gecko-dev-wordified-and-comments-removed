@@ -696,6 +696,9 @@ T
 thingp
 )
 {
+AutoAssertNoGC
+nogc
+;
 JS_ASSERT
 (
 thingp

@@ -685,6 +685,9 @@ StackTypeSet
 calleeTypes
 )
 {
+AutoAssertNoGC
+nogc
+;
 if
 (
 !
@@ -25262,6 +25265,9 @@ StackTypeSet
 observed
 )
 {
+AutoAssertNoGC
+nogc
+;
 if
 (
 !

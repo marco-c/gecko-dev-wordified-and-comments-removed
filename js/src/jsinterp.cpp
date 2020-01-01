@@ -4377,6 +4377,9 @@ FrameRegs
 regs
 )
 {
+AutoAssertNoGC
+nogc
+;
 for
 (
 TryNoteIter
