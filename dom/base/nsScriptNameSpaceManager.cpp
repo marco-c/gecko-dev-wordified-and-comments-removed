@@ -159,10 +159,6 @@ NS_DOM_INTERFACE_PREFIX
 "
 nsIDOM
 "
-using
-namespace
-mozilla
-;
 class
 GlobalNameMapEntry
 :

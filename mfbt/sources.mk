@@ -6,10 +6,6 @@ Assertions
 .
 cpp
 \
-HashFunctions
-.
-cpp
-\
 (
 NULL
 )

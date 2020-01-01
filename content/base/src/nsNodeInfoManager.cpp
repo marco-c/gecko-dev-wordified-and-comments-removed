@@ -110,10 +110,6 @@ nsCCUncollectableMarker
 .
 h
 "
-using
-namespace
-mozilla
-;
 #
 ifdef
 MOZ_LOGGING

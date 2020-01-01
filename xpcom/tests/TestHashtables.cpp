@@ -376,9 +376,6 @@ aEntity
 )
 {
 return
-mozilla
-:
-:
 HashString
 (
 aEntity
