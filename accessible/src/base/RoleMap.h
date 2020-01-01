@@ -44,7 +44,7 @@ ATK_ROLE_SCROLL_BAR
 NSAccessibilityScrollBarRole
 ROLE_SYSTEM_SCROLLBAR
 ROLE_SYSTEM_SCROLLBAR
-eNoNameRule
+eNameFromValueRule
 )
 ROLE
 (
@@ -630,7 +630,7 @@ ATK_ROLE_SLIDER
 NSAccessibilitySliderRole
 ROLE_SYSTEM_SLIDER
 ROLE_SYSTEM_SLIDER
-eNoNameRule
+eNameFromValueRule
 )
 ROLE
 (
@@ -642,7 +642,7 @@ ATK_ROLE_SPIN_BUTTON
 NSAccessibilityIncrementorRole
 ROLE_SYSTEM_SPINBUTTON
 ROLE_SYSTEM_SPINBUTTON
-eNoNameRule
+eNameFromValueRule
 )
 ROLE
 (
