@@ -471,7 +471,7 @@ lib
 endif
 ifdef
 MOZ_TREE_FREETYPE
-tier_platform_dirs
+tier_platform_staticdirs
 +
 =
 modules
