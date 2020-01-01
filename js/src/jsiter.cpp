@@ -4167,7 +4167,7 @@ v
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSBool
@@ -5468,7 +5468,7 @@ obj
 #
 endif
 return
-JS_TRUE
+true
 ;
 }
 bool
@@ -6743,7 +6743,7 @@ v
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 Class
@@ -7574,7 +7574,7 @@ JSMSG_NESTING_GENERATOR
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 GeneratorWriteBarrierPre
@@ -7724,7 +7724,7 @@ gen
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 gen
@@ -7845,22 +7845,6 @@ isYielding
 {
 JS_ASSERT
 (
-ok
-)
-;
-JS_ASSERT
-(
-!
-cx
--
->
-isExceptionPending
-(
-)
-)
-;
-JS_ASSERT
-(
 gen
 -
 >
@@ -7896,7 +7880,7 @@ state
 JSGEN_OPEN
 ;
 return
-JS_TRUE
+ok
 ;
 }
 gen
@@ -7928,7 +7912,7 @@ op
 JSGENOP_CLOSE
 )
 return
-JS_TRUE
+true
 ;
 return
 js_ThrowStopIteration
@@ -7938,7 +7922,7 @@ cx
 ;
 }
 return
-JS_FALSE
+false
 ;
 }
 static
@@ -7984,7 +7968,7 @@ gen
 )
 {
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -7998,7 +7982,7 @@ state
 JSGEN_CLOSED
 )
 return
-JS_TRUE
+true
 ;
 return
 SendToGenerator
