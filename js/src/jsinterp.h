@@ -2065,6 +2065,7 @@ idp
 ;
 extern
 jsval
+&
 js_GetUpvar
 (
 JSContext
