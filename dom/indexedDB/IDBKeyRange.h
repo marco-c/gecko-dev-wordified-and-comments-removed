@@ -564,6 +564,11 @@ T
 aKeyRange
 )
 ;
+void
+DropJSObjects
+(
+)
+;
 private
 :
 ~

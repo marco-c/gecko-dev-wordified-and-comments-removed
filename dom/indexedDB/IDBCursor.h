@@ -415,6 +415,11 @@ IDBCursor
 (
 )
 ;
+void
+DropJSObjects
+(
+)
+;
 static
 already_AddRefed
 <

@@ -181,6 +181,12 @@ AudioBuffer
 (
 )
 {
+mChannels
+.
+Clear
+(
+)
+;
 NS_DROP_JS_OBJECTS
 (
 this

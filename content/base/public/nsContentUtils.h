@@ -4615,10 +4615,6 @@ nsIWordBreaker
 *
 sWordBreaker
 ;
-static
-uint32_t
-sJSGCThingRootCount
-;
 #
 ifdef
 IBMBIDI

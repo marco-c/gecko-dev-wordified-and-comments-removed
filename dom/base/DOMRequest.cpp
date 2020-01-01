@@ -205,13 +205,6 @@ mRooted
 tmp
 -
 >
-mResult
-=
-JSVAL_VOID
-;
-tmp
--
->
 UnrootResultVal
 (
 )
@@ -837,6 +830,10 @@ rooted
 !
 "
 )
+;
+mResult
+=
+JSVAL_VOID
 ;
 NS_DROP_JS_OBJECTS
 (

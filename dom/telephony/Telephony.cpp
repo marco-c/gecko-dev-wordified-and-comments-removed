@@ -217,6 +217,10 @@ if
 mRooted
 )
 {
+mCallsArray
+=
+nullptr
+;
 NS_DROP_JS_OBJECTS
 (
 this
