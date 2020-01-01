@@ -141,6 +141,9 @@ namespace
 plugins
 {
 class
+BrowserStreamParent
+;
+class
 PluginModuleParent
 :
 public
@@ -196,9 +199,6 @@ DeallocPPluginInstance
 PPluginInstanceParent
 *
 aActor
-NPError
-*
-_retval
 )
 ;
 public

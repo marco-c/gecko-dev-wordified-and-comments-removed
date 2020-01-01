@@ -68,6 +68,15 @@ mClosure
 aClosure
 ;
 }
+bool
+Answer__delete__
+(
+const
+NPReason
+&
+reason
+)
+;
 private
 :
 nsCString

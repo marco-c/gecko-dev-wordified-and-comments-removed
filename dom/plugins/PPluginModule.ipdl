@@ -537,17 +537,6 @@ rv
 )
 ;
 rpc
-~
-PPluginInstance
-(
-)
-returns
-(
-NPError
-rv
-)
-;
-rpc
 NP_Shutdown
 (
 )

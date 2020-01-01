@@ -4280,15 +4280,10 @@ SetOwnerElement
 nsnull
 )
 ;
-ContentProcessParent
+PIFrameEmbeddingParent
 :
 :
-GetSingleton
-(
-)
--
->
-SendPIFrameEmbeddingDestructor
+Send__delete__
 (
 mChildProcess
 )

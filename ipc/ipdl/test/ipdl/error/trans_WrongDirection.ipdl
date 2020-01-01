@@ -7,6 +7,10 @@ Msg
 (
 )
 ;
+delete
+(
+)
+;
 state
 S1
 :
@@ -14,6 +18,15 @@ recv
 Msg
 goto
 S1
+;
+start
+state
+_
+:
+send
+delete
+(
+)
 ;
 }
 ;

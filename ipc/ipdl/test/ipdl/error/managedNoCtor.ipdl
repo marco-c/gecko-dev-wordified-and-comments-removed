@@ -15,5 +15,11 @@ managerNoCtor
 /
 /
 empty
+child
+:
+delete
+(
+)
+;
 }
 ;

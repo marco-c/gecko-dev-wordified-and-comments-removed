@@ -1264,10 +1264,10 @@ instance
 &
 &
 !
-instance
--
->
-CallPPluginScriptableObjectDestructor
+PPluginScriptableObjectParent
+:
+:
+Call__delete__
 (
 actor
 )

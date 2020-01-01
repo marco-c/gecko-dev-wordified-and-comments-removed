@@ -11,6 +11,10 @@ FARGEL
 p
 )
 ;
+delete
+(
+)
+;
 state
 S1
 :
@@ -18,6 +22,9 @@ send
 Msg
 goto
 S1
+;
+send
+delete
 ;
 }
 ;

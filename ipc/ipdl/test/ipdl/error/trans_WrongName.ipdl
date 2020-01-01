@@ -7,6 +7,10 @@ Msg
 (
 )
 ;
+delete
+(
+)
+;
 state
 S1
 :
@@ -14,6 +18,11 @@ call
 Msg
 goto
 S1
+;
+send
+delete
+(
+)
 ;
 }
 ;

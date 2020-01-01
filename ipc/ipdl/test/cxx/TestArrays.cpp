@@ -294,7 +294,7 @@ bool
 TestArraysParent
 :
 :
-RecvPTestArraysSubDestructor
+DeallocPTestArraysSub
 (
 PTestArraysSubParent
 *
@@ -335,6 +335,9 @@ RemoveElementAt
 (
 0
 )
+;
+delete
+actor
 ;
 if
 (
@@ -1990,7 +1993,10 @@ i
 if
 (
 !
-SendPTestArraysSubDestructor
+PTestArraysSubChild
+:
+:
+Send__delete__
 (
 mKids
 [

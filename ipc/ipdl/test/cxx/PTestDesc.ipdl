@@ -32,11 +32,6 @@ PTestDescSub
 (
 )
 ;
-~
-PTestDescSub
-(
-)
-;
 Test
 (
 PTestDescSubsub

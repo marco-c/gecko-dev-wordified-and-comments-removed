@@ -9,6 +9,10 @@ PTestLatency
 {
 child
 :
+__delete__
+(
+)
+;
 Ping
 (
 )
@@ -78,13 +82,9 @@ Ping5
 goto
 PING4
 ;
-/
-/
 send
-delete
+__delete__
 ;
-SOMEDAY
-!
 state
 PING4
 :

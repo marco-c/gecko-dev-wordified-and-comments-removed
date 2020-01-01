@@ -18,9 +18,12 @@ PTestDescSubsub
 manager
 PTestDescSub
 ;
-/
-/
-empty
+child
+:
+__delete__
+(
+)
+;
 }
 ;
 }

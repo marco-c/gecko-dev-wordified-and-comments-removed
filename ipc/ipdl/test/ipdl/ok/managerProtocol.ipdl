@@ -29,12 +29,5 @@ int
 i
 )
 ;
-~
-managedProtocol
-(
-int
-i
-)
-;
 }
 ;

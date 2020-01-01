@@ -10,13 +10,11 @@ an
 error
 to
 use
+old
+-
+style
 dtor
 syntax
-for
-non
--
-dtor
-messages
 child
 :
 ~

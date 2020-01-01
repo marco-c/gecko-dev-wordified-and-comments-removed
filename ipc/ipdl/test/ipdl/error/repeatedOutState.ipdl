@@ -7,6 +7,10 @@ Msg
 (
 )
 ;
+delete
+(
+)
+;
 /
 /
 error
@@ -50,9 +54,12 @@ state
 S4
 :
 send
-Msg
+Mesg
 goto
 S4
+;
+send
+delete
 ;
 }
 ;

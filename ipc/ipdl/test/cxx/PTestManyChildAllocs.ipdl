@@ -28,11 +28,6 @@ Go
 /
 start
 allocating
-~
-PTestManyChildAllocsSub
-(
-)
-;
 parent
 :
 Done

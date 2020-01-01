@@ -18,9 +18,12 @@ PTestArraysSub
 manager
 PTestArrays
 ;
-/
-/
-empty
+parent
+:
+__delete__
+(
+)
+;
 }
 ;
 }

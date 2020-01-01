@@ -18,6 +18,12 @@ PTestManyChildAllocsSub
 manager
 PTestManyChildAllocs
 ;
+child
+:
+__delete__
+(
+)
+;
 parent
 :
 Hello
