@@ -29,11 +29,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-SVGPathElement
+nsSVGPathElement
 .
 h
 "
@@ -683,7 +679,7 @@ return
 return
 static_cast
 <
-SVGPathElement
+nsSVGPathElement
 *
 >
 (
@@ -698,7 +694,7 @@ GetContent
 >
 GetPathLengthScale
 (
-SVGPathElement
+nsSVGPathElement
 :
 :
 eForTextPath

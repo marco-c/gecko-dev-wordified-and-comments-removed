@@ -115,10 +115,6 @@ nsIDocument
 .
 h
 \
-nsIDocumentInlines
-.
-h
-\
 nsDeprecatedOperationList
 .
 h

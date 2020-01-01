@@ -120,6 +120,10 @@ nsIDOMSVGAnimatedPathData
 .
 idl
 \
+nsIDOMSVGAnimatedPoints
+.
+idl
+\
 nsIDOMSVGAnimatedRect
 .
 idl

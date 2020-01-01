@@ -370,17 +370,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-HTMLBodyElement
-.
-h
-"
-#
-include
-"
 nsTextFragment
 .
 h

@@ -7,6 +7,13 @@ NS_SVGPOLYELEMENT_H_
 #
 include
 "
+nsIDOMSVGAnimatedPoints
+.
+h
+"
+#
+include
+"
 nsSVGPathGeometryElement
 .
 h
@@ -37,6 +44,8 @@ nsSVGPolyElement
 :
 public
 nsSVGPolyElementBase
+public
+nsIDOMSVGAnimatedPoints
 {
 protected
 :
@@ -52,6 +61,7 @@ aNodeInfo
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_NSIDOMSVGANIMATEDPOINTS
 NS_IMETHOD_
 (
 bool

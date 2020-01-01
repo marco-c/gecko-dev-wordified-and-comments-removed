@@ -35,11 +35,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-SVGAnimateMotionElement
+nsSVGPathElement
 .
 h
 "
@@ -50,7 +46,7 @@ mozilla
 /
 dom
 /
-SVGPathElement
+SVGAnimateMotionElement
 .
 h
 "
@@ -698,7 +694,7 @@ GetParent
 }
 }
 }
-SVGPathElement
+nsSVGPathElement
 *
 SVGMPathElement
 :
@@ -789,7 +785,7 @@ path
 return
 static_cast
 <
-SVGPathElement
+nsSVGPathElement
 *
 >
 (
