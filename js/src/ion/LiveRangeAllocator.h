@@ -2486,8 +2486,6 @@ forLSRA
 StackSlotAllocator
 stackSlotAllocator
 ;
-public
-:
 LiveRangeAllocator
 (
 MIRGenerator
@@ -2528,8 +2526,6 @@ buildLivenessInfo
 (
 )
 ;
-protected
-:
 bool
 init
 (

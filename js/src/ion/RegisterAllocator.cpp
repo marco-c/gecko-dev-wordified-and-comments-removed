@@ -3365,12 +3365,7 @@ insData
 .
 init
 (
-lir
--
->
 mir
-(
-)
 graph
 .
 numInstructions
