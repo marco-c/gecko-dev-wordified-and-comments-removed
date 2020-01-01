@@ -317,7 +317,7 @@ PRBool
 aAllowPartialMatch
 )
 ;
-void
+nsresult
 ParseLine
 (
 char

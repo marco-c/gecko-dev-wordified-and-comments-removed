@@ -41,6 +41,13 @@ nsHttpRequestHead
 (
 )
 :
+mHeaders
+(
+nsHttpHeaderArray
+:
+:
+HTTP_REQUEST_HEADERS
+)
 mMethod
 (
 nsHttp
