@@ -3580,9 +3580,8 @@ lm
 return
 ;
 }
-NS_ASSERTION
+NS_WARNING
 (
-false
 "
 Failed
 to
