@@ -1532,6 +1532,12 @@ denied
 .
 html
 \
+file_fullscreen
+-
+hidden
+.
+html
+\
 test_li_attributes_reflection
 .
 html

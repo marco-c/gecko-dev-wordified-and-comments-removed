@@ -35932,6 +35932,12 @@ HasPluginWithUncontrolledEventDispatch
 (
 this
 )
+|
+|
+!
+IsVisible
+(
+)
 )
 {
 return
