@@ -523,6 +523,7 @@ Action
 GET
 SET
 CALL
+PUNCTURE
 }
 ;
 virtual
