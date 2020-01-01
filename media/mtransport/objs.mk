@@ -513,6 +513,8 @@ DEFINES
 =
 -
 DLINUX
+-
+DUSE_INTERFACE_PRIORITIZER
 endif
 ifeq
 (
@@ -701,6 +703,10 @@ nriceresolver
 .
 cpp
 \
+nrinterfaceprioritizer
+.
+cpp
+\
 nr_socket_prsock
 .
 cpp
@@ -758,6 +764,11 @@ cpp
 (
 NULL
 )
+DEFINES
++
+=
+-
+DUSE_INTERFACE_PRIORITIZER
 endif
 MTRANSPORT_CPPSRCS
 =
