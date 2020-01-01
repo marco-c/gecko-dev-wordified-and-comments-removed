@@ -7022,7 +7022,6 @@ resource
 :
 /
 /
-app
 /
 modules
 /

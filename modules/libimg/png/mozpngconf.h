@@ -86,9 +86,6 @@ define
 PNG_NO_READ_tIME
 #
 define
-PNG_NO_READ_UNKNOWN_CHUNKS
-#
-define
 PNG_NO_READ_USER_CHUNKS
 #
 define
