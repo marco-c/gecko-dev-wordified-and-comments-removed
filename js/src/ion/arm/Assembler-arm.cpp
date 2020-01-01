@@ -1855,6 +1855,7 @@ uint8
 *
 off_
 )
+const
 {
 return
 (
@@ -1882,6 +1883,7 @@ actualOffset
 BufferOffset
 off_
 )
+const
 {
 return
 BufferOffset

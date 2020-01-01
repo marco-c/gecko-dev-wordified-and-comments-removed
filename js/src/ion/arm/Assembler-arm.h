@@ -4554,12 +4554,14 @@ actualOffset
 uint8
 *
 )
+const
 ;
 BufferOffset
 actualOffset
 (
 BufferOffset
 )
+const
 ;
 protected
 :
