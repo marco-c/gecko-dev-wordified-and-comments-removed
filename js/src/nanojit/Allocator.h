@@ -157,6 +157,15 @@ p
 size_t
 getBytesAllocated
 (
+size_t
+(
+*
+my_malloc_usable_size
+)
+(
+void
+*
+)
 )
 ;
 protected
