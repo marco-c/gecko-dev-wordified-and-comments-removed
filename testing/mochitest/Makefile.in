@@ -414,12 +414,6 @@ pywebsocket_wrapper
 .
 py
 \
-plain
--
-loop
-.
-html
-\
 android
 .
 json

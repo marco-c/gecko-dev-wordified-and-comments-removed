@@ -4367,16 +4367,6 @@ redirect
 html
 "
   
-PLAIN_LOOP_PATH
-=
-"
-plain
--
-loop
-.
-html
-"
-  
 urlOpts
 =
 [
@@ -4637,7 +4627,17 @@ join
 testHost
 self
 .
-PLAIN_LOOP_PATH
+TEST_PATH
+os
+.
+path
+.
+dirname
+(
+options
+.
+testPath
+)
 ]
 )
     
