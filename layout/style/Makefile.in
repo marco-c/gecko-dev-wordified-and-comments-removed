@@ -645,6 +645,10 @@ nsStyleStruct
 .
 h
 \
+nsStyleStructFwd
+.
+h
+\
 nsStyleStructList
 .
 h

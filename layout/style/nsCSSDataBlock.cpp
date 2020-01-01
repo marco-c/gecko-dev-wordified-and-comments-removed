@@ -19,6 +19,13 @@ nsRuleData
 .
 h
 "
+#
+include
+"
+nsRuleNode
+.
+h
+"
 struct
 CDBValueStorage
 {

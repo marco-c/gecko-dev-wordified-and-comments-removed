@@ -61,6 +61,13 @@ nsRuleData
 .
 h
 "
+#
+include
+"
+nsStyleConsts
+.
+h
+"
 class
 nsHTMLIFrameElement
 :
