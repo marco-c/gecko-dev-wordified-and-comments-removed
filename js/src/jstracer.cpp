@@ -227,6 +227,13 @@ h
 #
 include
 "
+jsscopeinlines
+.
+h
+"
+#
+include
+"
 jsscriptinlines
 .
 h

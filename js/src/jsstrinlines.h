@@ -1,9 +1,9 @@
 #
 ifndef
-jsstr_inlines_h___
+jsstrinlines_h___
 #
 define
-jsstr_inlines_h___
+jsstrinlines_h___
 #
 include
 "
