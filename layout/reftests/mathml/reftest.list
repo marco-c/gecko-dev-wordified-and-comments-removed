@@ -130,12 +130,6 @@ html
 #
 Bug
 787215
-fails
--
-if
-(
-smallScreen
-)
 fuzzy
 (
 255

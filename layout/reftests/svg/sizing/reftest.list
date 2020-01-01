@@ -135,12 +135,6 @@ CSS21
 visudet
 .
 html
-fails
--
-if
-(
-smallScreen
-)
 !
 =
 scrollbars

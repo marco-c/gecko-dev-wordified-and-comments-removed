@@ -229,12 +229,6 @@ svg
 lime
 .
 svg
-fails
--
-if
-(
-smallScreen
-)
 =
 =
 translate
