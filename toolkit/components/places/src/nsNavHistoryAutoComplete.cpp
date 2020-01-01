@@ -243,11 +243,11 @@ NS_LITERAL_CSTRING
 "
 name
 )
-const
-nsCString
-&
-kBookTagSQL
-=
+#
+define
+BOOK_TAG_SQL
+(
+\
 SQL_STR_FRAGMENT_GET_BOOK_TAG
 (
 "
@@ -265,6 +265,7 @@ parent
 PR_TRUE
 )
 +
+\
 SQL_STR_FRAGMENT_GET_BOOK_TAG
 (
 "
@@ -282,6 +283,7 @@ title
 PR_TRUE
 )
 +
+\
 SQL_STR_FRAGMENT_GET_BOOK_TAG
 (
 "
@@ -302,7 +304,7 @@ title
 "
 PR_FALSE
 )
-;
+)
 inline
 PRBool
 StartsWithJS
@@ -683,7 +685,7 @@ url
 "
 )
 +
-kBookTagSQL
+BOOK_TAG_SQL
 +
 NS_LITERAL_CSTRING
 (
@@ -799,7 +801,7 @@ url
 "
 )
 +
-kBookTagSQL
+BOOK_TAG_SQL
 +
 NS_LITERAL_CSTRING
 (
@@ -1629,7 +1631,7 @@ url
 "
 )
 +
-kBookTagSQL
+BOOK_TAG_SQL
 +
 NS_LITERAL_CSTRING
 (
