@@ -1050,6 +1050,10 @@ sOnhashchange_id
 ;
 static
 jsval
+sOnreadystatechange_id
+;
+static
+jsval
 sOnpageshow_id
 ;
 static

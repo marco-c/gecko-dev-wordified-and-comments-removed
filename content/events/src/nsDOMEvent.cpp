@@ -189,6 +189,9 @@ unload
 hashchange
 "
 "
+readystatechange
+"
+"
 abort
 "
 "
@@ -4905,6 +4908,15 @@ return
 sEventNames
 [
 eDOMEvents_hashchange
+]
+;
+case
+NS_READYSTATECHANGE
+:
+return
+sEventNames
+[
+eDOMEvents_readystatechange
 ]
 ;
 case

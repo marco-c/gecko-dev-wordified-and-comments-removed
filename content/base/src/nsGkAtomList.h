@@ -4440,6 +4440,13 @@ onpopupshown
 )
 GK_ATOM
 (
+onreadystatechange
+"
+onreadystatechange
+"
+)
+GK_ATOM
+(
 onRequest
 "
 onRequest

@@ -1928,6 +1928,10 @@ test_bug571390
 .
 xul
 \
+test_bug300992
+.
+html
+\
 test_websocket_hello
 .
 html
