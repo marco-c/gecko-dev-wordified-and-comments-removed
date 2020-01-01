@@ -2372,15 +2372,8 @@ is
 None
 :
         
-filenames
+filename
 =
-(
-'
-jstests
-.
-list
-'
-                 
 os
 .
 path
@@ -2401,14 +2394,7 @@ jstests
 list
 '
 )
-)
         
-for
-filename
-in
-filenames
-:
-            
 if
 os
 .
@@ -2419,21 +2405,14 @@ isfile
 filename
 )
 :
-                
+            
 OPTIONS
 .
 manifest
 =
 filename
-                
-break
         
-if
-OPTIONS
-.
-manifest
-is
-None
+else
 :
             
 print
@@ -2837,6 +2816,32 @@ getcwd
 (
 )
         
+manifest_dir
+=
+os
+.
+path
+.
+dirname
+(
+OPTIONS
+.
+manifest
+)
+        
+if
+manifest_dir
+not
+in
+(
+'
+'
+'
+.
+'
+)
+:
+            
 os
 .
 chdir
