@@ -331,7 +331,7 @@ DeveloperToolbar
 .
 tooltipPanel
 .
-_frame
+_panel
 .
 style
 .
