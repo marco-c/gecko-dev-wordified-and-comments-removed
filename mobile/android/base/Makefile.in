@@ -739,6 +739,12 @@ java
 \
 ui
 /
+PanZoomTarget
+.
+java
+\
+ui
+/
 SimpleScaleGestureDetector
 .
 java
