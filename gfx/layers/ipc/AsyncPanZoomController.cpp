@@ -1111,6 +1111,10 @@ mLastChild
 =
 nullptr
 ;
+mParent
+=
+nullptr
+;
 }
 float
 AsyncPanZoomController
