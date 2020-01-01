@@ -11786,13 +11786,6 @@ stop
 (
 )
 ;
-tabbrowser
-.
-updateIcon
-(
-tab
-)
-;
 let
 activeIndex
 =

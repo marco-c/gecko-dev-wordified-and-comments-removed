@@ -310,6 +310,7 @@ function
 onLinkIconAvailable
 (
 aBrowser
+aIconURL
 )
 {
 if
@@ -320,6 +321,16 @@ aBrowser
 tab
 .
 linkedBrowser
+&
+&
+aIconURL
+=
+=
+"
+about
+:
+logo
+"
 )
 record
 (
