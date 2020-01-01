@@ -1,7 +1,7 @@
 #
 include
 "
-sampler
+GeckoProfiler
 .
 h
 "
@@ -332,7 +332,7 @@ Now
 )
 )
 ;
-SAMPLER_RESPONSIVENESS
+profiler_responsiveness
 (
 start
 )

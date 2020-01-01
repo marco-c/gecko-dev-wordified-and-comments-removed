@@ -61,7 +61,7 @@ h
 #
 include
 "
-sps_sampler
+GeckoProfilerImpl
 .
 h
 "
@@ -4617,7 +4617,9 @@ sResponsivenessLoc
 void
 mozilla_sampler_responsiveness2
 (
+const
 TimeStamp
+&
 aTime
 )
 {

@@ -178,7 +178,7 @@ h
 #
 include
 "
-sps_sampler
+GeckoProfilerImpl
 .
 h
 "
