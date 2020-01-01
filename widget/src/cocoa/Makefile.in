@@ -506,6 +506,14 @@ nsChangeObserver
 .
 h
 \
+nsIMenu
+.
+h
+\
+nsIMenuItem
+.
+h
+\
 (
 NULL
 )
@@ -533,10 +541,6 @@ nsMenuItemX
 mm
 \
 nsMenuItemIconX
-.
-mm
-\
-nsMenuUtilsX
 .
 mm
 \

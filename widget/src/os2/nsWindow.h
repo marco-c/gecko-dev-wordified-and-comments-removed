@@ -47,6 +47,9 @@ gfxContext
 h
 "
 class
+nsIMenuBar
+;
+class
 imgIContainer
 ;
 #
@@ -531,7 +534,7 @@ aIconSpec
 NS_IMETHOD
 SetMenuBar
 (
-void
+nsIMenuBar
 *
 aMenuBar
 )
@@ -1084,6 +1087,10 @@ mPreferredWidth
 nsToolkit
 *
 mOS2Toolkit
+;
+nsIMenuBar
+*
+mMenuBar
 ;
 PRInt32
 mWindowState
