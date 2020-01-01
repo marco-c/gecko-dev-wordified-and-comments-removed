@@ -179,11 +179,14 @@ nsWebBrowserPersist
 )
 ;
 nsresult
-CloneNodeWithFixedUpURIAttributes
+CloneNodeWithFixedUpAttributes
 (
 nsIDOMNode
 *
 aNodeIn
+PRBool
+*
+aSerializeCloneKids
 nsIDOMNode
 *
 *
@@ -1052,6 +1055,9 @@ FixupNode
 nsIDOMNode
 *
 aNode
+PRBool
+*
+aSerializeCloneKids
 nsIDOMNode
 *
 *
