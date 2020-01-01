@@ -2475,17 +2475,6 @@ s
 auto
 .
 html
-fails
--
-if
-(
-MOZ_WIDGET_TOOLKIT
-=
-=
-"
-cocoa
-"
-)
 !
 =
 367247
@@ -2502,9 +2491,6 @@ s
 scroll
 .
 html
-#
-bug
-369293
 !
 =
 367247
