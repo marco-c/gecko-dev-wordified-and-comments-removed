@@ -1025,7 +1025,7 @@ if
 (
 r
 )
-error
+warning
 (
 "
 constructed
