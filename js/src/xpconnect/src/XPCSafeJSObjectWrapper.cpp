@@ -2137,6 +2137,7 @@ arguments
 ;
 "
 "
+return
 this
 [
 arguments
