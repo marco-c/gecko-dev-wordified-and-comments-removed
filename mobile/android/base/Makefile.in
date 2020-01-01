@@ -2396,14 +2396,6 @@ res
 /
 layout
 /
-menu_item
-.
-xml
-\
-res
-/
-layout
-/
 menu_popup
 .
 xml
