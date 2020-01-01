@@ -455,6 +455,14 @@ bin
 /
 activate
 else
+echo
+"
+Creating
+marionette_venv
+folder
+in
+pwd
+"
 curl
 https
 :
