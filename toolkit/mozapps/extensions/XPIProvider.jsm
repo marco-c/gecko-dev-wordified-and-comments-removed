@@ -6079,6 +6079,17 @@ if
 aMigrateData
 )
 {
+if
+(
+newAddon
+.
+type
+!
+=
+"
+theme
+"
+)
 newAddon
 .
 userDisabled
