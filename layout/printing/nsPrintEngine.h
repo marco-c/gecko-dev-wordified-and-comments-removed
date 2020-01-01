@@ -1051,6 +1051,9 @@ mLoadCounter
 bool
 mDidLoadDataForPrinting
 ;
+bool
+mIsDestroying
+;
 nsresult
 AfterNetworkPrint
 (
