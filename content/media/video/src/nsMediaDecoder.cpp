@@ -809,7 +809,7 @@ mRGBWidth
 gfxASurface
 :
 :
-ImageFormatARGB32
+ImageFormatRGB24
 )
 ;
 if
