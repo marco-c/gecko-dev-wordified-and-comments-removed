@@ -471,6 +471,9 @@ mShouldResize
 PRPackedBool
 mFirstResize
 ;
+PRPackedBool
+mObservingImageLoader
+;
 }
 ;
 ImageListener
@@ -730,6 +733,13 @@ AddObserver
 imgDoc
 )
 ;
+imgDoc
+-
+>
+mObservingImageLoader
+=
+PR_TRUE
+;
 imageLoader
 -
 >
@@ -815,6 +825,13 @@ if
 imageLoader
 )
 {
+imgDoc
+-
+>
+mObservingImageLoader
+=
+PR_FALSE
+;
 imageLoader
 -
 >
@@ -1183,6 +1200,11 @@ this
 PR_FALSE
 )
 ;
+if
+(
+mObservingImageLoader
+)
+{
 nsCOMPtr
 <
 nsIImageLoadingContent
@@ -1207,6 +1229,7 @@ RemoveObserver
 this
 )
 ;
+}
 }
 mImageContent
 =
