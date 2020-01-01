@@ -126,7 +126,6 @@ XPCShell
 ;
 startupManager
 (
-1
 )
 ;
 AddonManager
@@ -686,7 +685,6 @@ exists
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -1013,7 +1011,6 @@ uninstall
 ;
 restartManager
 (
-0
 )
 ;
 do_check_not_in_crash_annotation
@@ -1395,7 +1392,6 @@ null
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -2190,7 +2186,6 @@ uninstall
 ;
 restartManager
 (
-0
 )
 ;
 run_test_6
@@ -2632,7 +2627,6 @@ uninstall
 ;
 restartManager
 (
-0
 )
 ;
 run_test_8
@@ -2749,7 +2743,6 @@ check_test_8
 {
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -2856,7 +2849,6 @@ uninstall
 ;
 restartManager
 (
-0
 )
 ;
 run_test_9

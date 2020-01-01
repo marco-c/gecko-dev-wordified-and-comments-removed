@@ -472,7 +472,6 @@ dest
 ;
 startupManager
 (
-1
 )
 ;
 AddonManager
@@ -895,7 +894,6 @@ check_test_1
 {
 restartManager
 (
-0
 )
 ;
 do_check_eq
@@ -1125,7 +1123,6 @@ true
 ;
 restartManager
 (
-1
 )
 ;
 do_check_eq
@@ -1371,7 +1368,6 @@ dest
 ;
 restartManager
 (
-1
 )
 ;
 prepare_test
@@ -2675,7 +2671,6 @@ check_test_5
 {
 restartManager
 (
-0
 )
 ;
 AddonManager
@@ -3020,7 +3015,6 @@ check_test_6
 {
 restartManager
 (
-0
 )
 ;
 AddonManager
@@ -3475,7 +3469,6 @@ ensure_test_completed
 ;
 restartManager
 (
-0
 )
 ;
 AddonManager
@@ -3601,7 +3594,6 @@ gLWThemeChanged
 ;
 restartManager
 (
-0
 )
 ;
 run_test_11
@@ -4104,7 +4096,6 @@ ensure_test_completed
 ;
 restartManager
 (
-0
 )
 ;
 prepare_test
@@ -4236,7 +4227,6 @@ check_test_13
 {
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -4679,7 +4669,6 @@ isActive
 ;
 restartManager
 (
-1
 "
 2
 "
@@ -4800,7 +4789,6 @@ run_test_16
 {
 restartManager
 (
-1
 "
 3
 "
@@ -4912,7 +4900,6 @@ run_test_17
 {
 restartManager
 (
-1
 "
 2
 "
@@ -4940,7 +4927,6 @@ theme1
 ;
 restartManager
 (
-1
 "
 3
 "

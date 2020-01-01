@@ -615,7 +615,6 @@ theme1
 ;
 startupManager
 (
-1
 )
 ;
 AddonManager

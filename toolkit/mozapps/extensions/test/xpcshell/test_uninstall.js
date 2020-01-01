@@ -107,7 +107,6 @@ do_test_pending
 ;
 startupManager
 (
-1
 )
 ;
 AddonManager
@@ -164,7 +163,6 @@ dest
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -391,7 +389,6 @@ check_test_1
 {
 restartManager
 (
-0
 )
 ;
 AddonManager
@@ -483,7 +480,6 @@ dest
 ;
 restartManager
 (
-1
 )
 ;
 run_test_2
@@ -651,7 +647,6 @@ check_test_2
 {
 restartManager
 (
-0
 )
 ;
 AddonManager
@@ -906,7 +901,6 @@ ensure_test_completed
 ;
 restartManager
 (
-0
 )
 ;
 run_test_4

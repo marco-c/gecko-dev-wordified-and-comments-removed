@@ -135,9 +135,6 @@ mAttemptingQuit
 PRPackedBool
 mRestart
 ;
-PRPackedBool
-mNeedsRestart
-;
 }
 ;
 #

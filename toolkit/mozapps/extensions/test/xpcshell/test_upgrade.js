@@ -300,7 +300,6 @@ run_test_1
 {
 startupManager
 (
-1
 )
 ;
 AddonManager
@@ -408,7 +407,6 @@ run_test_2
 {
 restartManager
 (
-1
 "
 2
 "
@@ -546,7 +544,6 @@ true
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager

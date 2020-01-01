@@ -136,7 +136,6 @@ lastModifiedTime
 ;
 startupManager
 (
-1
 )
 ;
 AddonManager
@@ -263,7 +262,6 @@ dest
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager

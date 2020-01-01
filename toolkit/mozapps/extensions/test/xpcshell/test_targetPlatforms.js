@@ -524,7 +524,6 @@ dest
 ;
 restartManager
 (
-1
 )
 ;
 AddonManager

@@ -214,7 +214,6 @@ dest
 ;
 startupManager
 (
-1
 )
 ;
 do_test_pending

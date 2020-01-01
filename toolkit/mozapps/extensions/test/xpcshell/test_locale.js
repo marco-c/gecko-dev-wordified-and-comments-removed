@@ -183,7 +183,6 @@ run_test_2
 {
 restartManager
 (
-1
 )
 ;
 AddonManager
@@ -243,7 +242,6 @@ true
 ;
 restartManager
 (
-0
 )
 ;
 run_test_3
@@ -387,7 +385,6 @@ Contributor
 ;
 restartManager
 (
-0
 )
 ;
 AddonManager
@@ -509,7 +506,6 @@ DE
 ;
 restartManager
 (
-0
 )
 ;
 AddonManager
@@ -585,7 +581,6 @@ NL
 ;
 restartManager
 (
-0
 )
 ;
 AddonManager
@@ -641,7 +636,6 @@ false
 ;
 restartManager
 (
-0
 )
 ;
 run_test_7
@@ -721,7 +715,6 @@ FR
 ;
 restartManager
 (
-0
 )
 ;
 AddonManager

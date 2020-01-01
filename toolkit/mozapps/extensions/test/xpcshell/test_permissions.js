@@ -578,7 +578,6 @@ com
 ;
 restartManager
 (
-1
 "
 2
 "

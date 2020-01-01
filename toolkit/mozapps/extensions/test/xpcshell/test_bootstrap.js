@@ -207,7 +207,6 @@ XPCShell
 ;
 startupManager
 (
-1
 )
 ;
 run_test_1
@@ -908,7 +907,6 @@ ADDON_DISABLE
 ;
 startupManager
 (
-0
 false
 )
 ;
@@ -1274,7 +1272,6 @@ org
 ;
 startupManager
 (
-0
 false
 )
 ;
@@ -1796,7 +1793,6 @@ null
 ;
 restartManager
 (
-0
 )
 ;
 AddonManager
@@ -1976,7 +1972,6 @@ close
 ;
 startupManager
 (
-0
 false
 )
 ;
@@ -2126,7 +2121,6 @@ true
 ;
 startupManager
 (
-0
 false
 )
 ;
@@ -3088,7 +3082,6 @@ close
 ;
 startupManager
 (
-1
 true
 )
 ;
@@ -3197,7 +3190,6 @@ uninstall
 ;
 restartManager
 (
-0
 )
 ;
 run_test_13
@@ -3567,7 +3559,6 @@ uninstall
 ;
 restartManager
 (
-0
 )
 ;
 run_test_14
@@ -3727,7 +3718,6 @@ close
 ;
 startupManager
 (
-0
 false
 )
 ;
