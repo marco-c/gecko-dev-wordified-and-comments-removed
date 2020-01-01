@@ -2421,6 +2421,10 @@ this
 .
 canvas
 ;
+hideSearch
+(
+)
+;
 UI
 .
 setActive
