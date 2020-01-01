@@ -8470,6 +8470,7 @@ NS_STYLE_DISPLAY_INLINE_TABLE
 !
 flexContainerFrame
 )
+{
 CalculateBlockSideMargins
 (
 availableWidth
@@ -8477,6 +8478,7 @@ mComputedWidth
 aFrameType
 )
 ;
+}
 }
 }
 }
