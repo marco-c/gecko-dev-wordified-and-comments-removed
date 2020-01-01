@@ -246,6 +246,14 @@ test_nonAnimStrings
 .
 xhtml
 \
+test_non
+-
+scaling
+-
+stroke
+.
+html
+\
 test_pathAnimInterpolation
 .
 xhtml
