@@ -937,7 +937,7 @@ _BitScanReverse
 )
 static
 inline
-int
+unsigned
 msbSet32
 (
 uint32_t
@@ -969,7 +969,7 @@ idx
 }
 static
 inline
-int
+unsigned
 lsbSet32
 (
 uint32_t
@@ -1059,7 +1059,7 @@ _BitScanReverse64
 )
 static
 inline
-int
+unsigned
 msbSet64
 (
 uint64_t
@@ -1091,7 +1091,7 @@ idx
 }
 static
 inline
-int
+unsigned
 lsbSet64
 (
 uint64_t
@@ -1124,7 +1124,7 @@ idx
 #
 else
 static
-int
+unsigned
 msbSet64
 (
 uint64_t
@@ -1161,7 +1161,7 @@ x
 ;
 }
 static
-int
+unsigned
 lsbSet64
 (
 uint64_t
@@ -1223,7 +1223,7 @@ __GNUC_MINOR__
 )
 static
 inline
-int
+unsigned
 msbSet32
 (
 uint32_t
@@ -1243,7 +1243,7 @@ x
 }
 static
 inline
-int
+unsigned
 lsbSet32
 (
 uint32_t
@@ -1261,7 +1261,7 @@ x
 }
 static
 inline
-int
+unsigned
 msbSet64
 (
 uint64_t
@@ -1281,7 +1281,7 @@ x
 }
 static
 inline
-int
+unsigned
 lsbSet64
 (
 uint64_t
@@ -1300,7 +1300,7 @@ x
 #
 else
 static
-int
+unsigned
 msbSet32
 (
 uint32_t
@@ -1342,7 +1342,7 @@ return
 ;
 }
 static
-int
+unsigned
 lsbSet32
 (
 uint32_t
@@ -1383,7 +1383,7 @@ return
 ;
 }
 static
-int
+unsigned
 msbSet64
 (
 uint64_t
@@ -1425,7 +1425,7 @@ return
 ;
 }
 static
-int
+unsigned
 lsbSet64
 (
 uint64_t
