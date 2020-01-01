@@ -27211,14 +27211,12 @@ elm
 bce
 )
 ;
-#
-if
-JS_HAS_SHARP_VARS
 jsint
 sharpnum
+=
+-
+1
 ;
-#
-endif
 JS_CHECK_RECURSION
 (
 cx
