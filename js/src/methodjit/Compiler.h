@@ -708,6 +708,9 @@ Label
 arityLabel
 ;
 bool
+debugMode
+;
+bool
 addTraceHints
 ;
 public
