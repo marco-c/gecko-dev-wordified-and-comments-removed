@@ -3484,8 +3484,9 @@ HandleValue
 value
 bool
 strict
-int
-jsop
+jsbytecode
+*
+pc
 )
 ;
 bool
