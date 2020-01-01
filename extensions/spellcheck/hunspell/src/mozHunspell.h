@@ -153,10 +153,6 @@ mHunspell
 (
 nullptr
 )
-mHunspellReporter
-(
-nullptr
-)
 {
 }
 virtual
@@ -234,9 +230,11 @@ Hunspell
 *
 mHunspell
 ;
+nsCOMPtr
+<
 nsIMemoryReporter
-*
-mHunspellReporter
+>
+mReporter
 ;
 }
 ;
