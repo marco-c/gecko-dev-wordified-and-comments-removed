@@ -308,7 +308,6 @@ aboutDialog
 .
 js
 )
-*
 content
 /
 browser
@@ -323,7 +322,6 @@ aboutDialog
 .
 css
 )
-*
 content
 /
 browser
@@ -338,7 +336,6 @@ aboutRobots
 .
 xhtml
 )
-*
 content
 /
 browser
@@ -357,7 +354,6 @@ aboutHome
 .
 xhtml
 )
-*
 content
 /
 browser
@@ -737,7 +733,6 @@ tabPreviews
 .
 xml
 )
-*
 content
 /
 browser
@@ -752,7 +747,6 @@ content
 .
 js
 )
-*
 content
 /
 browser
@@ -846,7 +840,6 @@ pageInfo
 .
 js
 )
-*
 content
 /
 browser
@@ -865,7 +858,6 @@ pageInfo
 .
 css
 )
-*
 content
 /
 browser
@@ -884,7 +876,6 @@ pageInfo
 .
 xml
 )
-*
 content
 /
 browser
@@ -903,7 +894,6 @@ feeds
 .
 js
 )
-*
 content
 /
 browser
@@ -922,7 +912,6 @@ feeds
 .
 xml
 )
-*
 content
 /
 browser
@@ -941,7 +930,6 @@ permissions
 .
 js
 )
-*
 content
 /
 browser
@@ -963,7 +951,6 @@ js
 #
 ifdef
 MOZ_SERVICES_SYNC
-*
 content
 /
 browser
@@ -1018,7 +1005,6 @@ aboutSyncTabs
 .
 css
 )
-*
 content
 /
 browser
@@ -1041,7 +1027,6 @@ bindings
 .
 xml
 )
-*
 content
 /
 browser
@@ -1078,7 +1063,6 @@ addDevice
 .
 js
 )
-*
 content
 /
 browser
@@ -1115,7 +1099,6 @@ setup
 .
 js
 )
-*
 content
 /
 browser
@@ -1152,7 +1135,6 @@ genericChange
 .
 js
 )
-*
 content
 /
 browser
@@ -1171,7 +1153,6 @@ key
 .
 xhtml
 )
-*
 content
 /
 browser
@@ -1190,7 +1171,6 @@ notification
 .
 xml
 )
-*
 content
 /
 browser
@@ -1263,7 +1243,6 @@ progress
 .
 js
 )
-*
 content
 /
 browser
@@ -1284,7 +1263,6 @@ xhtml
 )
 #
 endif
-*
 content
 /
 browser
@@ -1299,7 +1277,6 @@ openLocation
 .
 js
 )
-*
 content
 /
 browser
@@ -1314,7 +1291,6 @@ openLocation
 .
 xul
 )
-*
 content
 /
 browser
@@ -1329,7 +1305,6 @@ safeMode
 .
 css
 )
-*
 content
 /
 browser
@@ -1344,7 +1319,6 @@ safeMode
 .
 js
 )
-*
 content
 /
 browser
@@ -1418,7 +1392,6 @@ sanitizeDialog
 .
 css
 )
-*
 content
 /
 browser
@@ -1478,7 +1451,6 @@ utilityOverlay
 .
 js
 )
-*
 content
 /
 browser
@@ -1658,7 +1630,6 @@ xul
 #
 ifdef
 XP_WIN
-*
 content
 /
 browser

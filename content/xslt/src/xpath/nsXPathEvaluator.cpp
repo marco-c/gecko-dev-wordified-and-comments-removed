@@ -71,7 +71,7 @@ h
 #
 include
 "
-nsDOMError
+nsError
 .
 h
 "
@@ -107,13 +107,6 @@ h
 include
 "
 nsINameSpaceManager
-.
-h
-"
-#
-include
-"
-txError
 .
 h
 "

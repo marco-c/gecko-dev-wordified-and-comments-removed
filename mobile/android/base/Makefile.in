@@ -468,6 +468,10 @@ RemoteTabs
 .
 java
 \
+RobocopAPI
+.
+java
+\
 SetupScreen
 .
 java

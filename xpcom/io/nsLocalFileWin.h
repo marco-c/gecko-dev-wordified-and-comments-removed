@@ -70,6 +70,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 windows
 .
 h
@@ -92,6 +101,7 @@ h
 >
 class
 nsLocalFile
+MOZ_FINAL
 :
 public
 nsILocalFileWin

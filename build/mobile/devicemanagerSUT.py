@@ -6,13 +6,10 @@ import
 SocketServer
 import
 time
-datetime
 import
 os
 import
 re
-import
-hashlib
 import
 posixpath
 import
@@ -22,16 +19,11 @@ threading
 import
 Thread
 import
-traceback
-import
-sys
-import
 StringIO
 from
 devicemanager
 import
 DeviceManager
-DMError
 FileError
 NetworkTools
 _pop_last_line
@@ -764,10 +756,6 @@ transmission
 '
 '
     
-done
-=
-False
-    
 while
 self
 .
@@ -1267,8 +1255,8 @@ cmd
 data
 '
 ]
-sent
 )
+sent
 )
 )
         
@@ -3294,8 +3282,6 @@ None
 try
 :
       
-data
-=
 self
 .
 runCmds
@@ -3553,8 +3539,6 @@ SUT
 try
 :
       
-data
-=
 self
 .
 runCmds
@@ -4037,8 +4021,6 @@ buffer
 try
 :
       
-data
-=
 self
 .
 runCmds
@@ -5224,10 +5206,6 @@ sending
 rebt
 command
 "
-    
-callbacksvrstatus
-=
-None
     
 if
 (

@@ -423,7 +423,7 @@ h
 #
 include
 "
-nsLayoutErrors
+nsError
 .
 h
 "
@@ -466,13 +466,6 @@ h
 include
 "
 nsIObjectLoadingContent
-.
-h
-"
-#
-include
-"
-nsContentErrors
 .
 h
 "

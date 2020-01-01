@@ -11,9 +11,13 @@ nsError
 .
 h
 "
-class
-nsAString
-;
+#
+include
+"
+nsStringGlue
+.
+h
+"
 #
 define
 ENSURE_MATCHED

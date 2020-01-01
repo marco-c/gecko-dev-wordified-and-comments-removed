@@ -415,6 +415,11 @@ GetSkipSides
 const
 ;
 void
+HideViewer
+(
+)
+;
+void
 ShowViewer
 (
 )

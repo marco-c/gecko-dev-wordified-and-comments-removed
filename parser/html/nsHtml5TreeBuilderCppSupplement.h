@@ -1,7 +1,7 @@
 #
 include
 "
-nsContentErrors
+nsError
 .
 h
 "

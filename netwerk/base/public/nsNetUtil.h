@@ -7,7 +7,7 @@ nsNetUtil_h__
 #
 include
 "
-nsNetError
+nsError
 .
 h
 "

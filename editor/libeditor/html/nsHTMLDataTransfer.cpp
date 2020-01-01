@@ -660,14 +660,6 @@ kInsertCookie
 _moz_Insert
 Here_moz_
 "
-#
-define
-NS_FOUND_TARGET
-NS_ERROR_GENERATE_FAILURE
-(
-NS_ERROR_MODULE_EDITOR
-3
-)
 static
 bool
 FindIntegerAfterString
