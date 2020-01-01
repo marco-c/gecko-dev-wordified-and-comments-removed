@@ -452,5 +452,17 @@ MOZ_APP_NAME
 "
 ;
 }
+public
+String
+getContentProcessName
+(
+)
+{
+return
+"
+MOZ_CHILD_PROCESS_NAME
+"
+;
+}
 }
 ;
