@@ -121,11 +121,6 @@ jumpFallthrough
 1
 ;
 bool
-switchTarget
-:
-1
-;
-bool
 unconditional
 :
 1
