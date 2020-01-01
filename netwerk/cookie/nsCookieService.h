@@ -726,7 +726,7 @@ Init
 ;
 static
 void
-AppUninstallObserverInit
+AppClearDataObserverInit
 (
 )
 ;
