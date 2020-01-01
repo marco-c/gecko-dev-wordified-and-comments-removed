@@ -3891,6 +3891,7 @@ _createMiniRecord
 child
 .
 itemId
+true
 )
 ;
 items
@@ -4024,6 +4025,7 @@ _createMiniRecord
 child
 .
 itemId
+true
 )
 ;
 items
