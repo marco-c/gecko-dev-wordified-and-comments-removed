@@ -6471,7 +6471,6 @@ getElementById
 downloadsRichListBox
 "
 )
-aQueryString
 )
 ;
 this
