@@ -73,11 +73,6 @@ testRunner
 js
 "
 "
-mockFilePicker
-.
-js
-"
-"
 mockTransferForContinuing
 .
 js
