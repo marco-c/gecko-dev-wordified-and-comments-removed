@@ -238,7 +238,7 @@ firefox
 .
 0
 .
-4
+6
 /
 batch1
 /
