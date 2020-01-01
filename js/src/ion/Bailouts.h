@@ -165,14 +165,6 @@ Value
 vp
 )
 ;
-uint32
-HandleException
-(
-JSContext
-*
-cx
-)
-;
 }
 }
 #
