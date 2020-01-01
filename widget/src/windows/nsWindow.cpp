@@ -30492,6 +30492,14 @@ DispatchAccessibleEvent
 NS_GETACCESSIBLE
 )
 ;
+if
+(
+!
+docAcc
+)
+return
+nsnull
+;
 nsCOMPtr
 <
 nsIAccessibleDocument
