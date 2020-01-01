@@ -3483,7 +3483,7 @@ aWidth
 PRInt32
 *
 aHeight
-nsAccessibleCoordType
+PRUint32
 aCoordType
 )
 {
@@ -3524,7 +3524,7 @@ aWidth
 PRInt32
 *
 aHeight
-nsAccessibleCoordType
+PRUint32
 aCoordType
 )
 {
@@ -3587,7 +3587,10 @@ if
 aCoordType
 =
 =
-COORD_TYPE_WINDOW
+nsIAccessibleCoordinateType
+:
+:
+COORDTYPE_WINDOW_RELATIVE
 )
 {
 nsCOMPtr
@@ -3741,7 +3744,7 @@ PRInt32
 aX
 PRInt32
 aY
-nsAccessibleCoordType
+PRUint32
 aCoordType
 PRInt32
 *
@@ -3807,7 +3810,10 @@ if
 aCoordType
 =
 =
-COORD_TYPE_WINDOW
+nsIAccessibleCoordinateType
+:
+:
+COORDTYPE_WINDOW_RELATIVE
 )
 {
 nsCOMPtr
