@@ -1332,6 +1332,11 @@ base
 bool
 overflows
 =
+record_size
+>
+0
+&
+&
 len
 >
 =
