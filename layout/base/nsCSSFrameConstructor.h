@@ -410,6 +410,8 @@ ProcessPendingRestyles
 void
 RebuildAllStyleData
 (
+nsChangeHint
+aExtraHint
 )
 ;
 void

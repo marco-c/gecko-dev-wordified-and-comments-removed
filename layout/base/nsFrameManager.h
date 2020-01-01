@@ -431,7 +431,7 @@ aFrame
 ;
 NS_HIDDEN_
 (
-nsChangeHint
+void
 )
 ComputeStyleChangeFor
 (

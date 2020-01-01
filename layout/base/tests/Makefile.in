@@ -551,6 +551,10 @@ test_bug388019
 .
 html
 \
+test_bug394057
+.
+html
+\
 test_bug396024
 .
 html
