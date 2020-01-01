@@ -593,6 +593,10 @@ mChromeFlags
 (
 aChromeFlags
 )
+mIgnoreXULSizeMode
+(
+PR_FALSE
+)
 mAppPerDev
 (
 nsPresContext
@@ -5004,6 +5008,11 @@ nsSizeMode_Normal
 ;
 if
 (
+!
+mIgnoreXULSizeMode
+&
+&
+(
 stateString
 .
 Equals
@@ -5017,6 +5026,7 @@ stateString
 Equals
 (
 SIZEMODE_FULLSCREEN
+)
 )
 )
 {
