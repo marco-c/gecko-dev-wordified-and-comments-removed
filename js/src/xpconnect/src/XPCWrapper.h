@@ -499,9 +499,8 @@ wrapper
 {
 if
 (
-JS_GET_CLASS
+STOBJ_GET_CLASS
 (
-cx
 wrapper
 )
 !
