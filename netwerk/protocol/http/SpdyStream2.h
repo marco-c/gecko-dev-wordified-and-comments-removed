@@ -390,6 +390,11 @@ mSentWaitingFor
 :
 1
 ;
+uint32_t
+mSetTCPSocketBuffer
+:
+1
+;
 nsAutoArrayPtr
 <
 char
