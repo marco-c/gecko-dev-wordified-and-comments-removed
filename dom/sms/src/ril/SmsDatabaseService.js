@@ -596,7 +596,7 @@ request
 =
 GLOBAL_SCOPE
 .
-mozIndexedDB
+indexedDB
 .
 open
 (

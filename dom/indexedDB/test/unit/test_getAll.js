@@ -63,7 +63,7 @@ null
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -125,7 +125,7 @@ request
 =
 objectStore
 .
-getAll
+mozGetAll
 (
 )
 ;
@@ -271,7 +271,7 @@ foo
 "
 )
 .
-getAll
+mozGetAll
 (
 )
 ;
@@ -378,7 +378,7 @@ foo
 "
 )
 .
-getAll
+mozGetAll
 (
 null
 5
@@ -496,7 +496,7 @@ foo
 "
 )
 .
-getAll
+mozGetAll
 (
 keyRange
 )
@@ -604,7 +604,7 @@ foo
 "
 )
 .
-getAll
+mozGetAll
 (
 keyRange
 0
@@ -713,7 +713,7 @@ foo
 "
 )
 .
-getAll
+mozGetAll
 (
 keyRange
 null
@@ -822,7 +822,7 @@ foo
 "
 )
 .
-getAll
+mozGetAll
 (
 keyRange
 undefined
@@ -941,7 +941,7 @@ foo
 "
 )
 .
-getAll
+mozGetAll
 (
 keyRange
 )
@@ -1126,7 +1126,7 @@ foo
 "
 )
 .
-getAll
+mozGetAll
 (
 keyRange
 2
@@ -1248,7 +1248,7 @@ foo
 "
 )
 .
-getAll
+mozGetAll
 (
 keyRange
 50
@@ -1370,7 +1370,7 @@ foo
 "
 )
 .
-getAll
+mozGetAll
 (
 keyRange
 0
@@ -1456,7 +1456,7 @@ foo
 "
 )
 .
-getAll
+mozGetAll
 (
 keyRange
 )

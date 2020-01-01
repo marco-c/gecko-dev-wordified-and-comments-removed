@@ -13,7 +13,7 @@ testSteps
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

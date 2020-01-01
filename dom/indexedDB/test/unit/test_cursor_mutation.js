@@ -126,7 +126,7 @@ objectStoreDataNameSort
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

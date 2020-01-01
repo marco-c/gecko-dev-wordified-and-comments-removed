@@ -45,7 +45,7 @@ entryCount
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

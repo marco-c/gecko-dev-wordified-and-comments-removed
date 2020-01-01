@@ -40,7 +40,7 @@ Database
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -300,7 +300,7 @@ false
 ;
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -600,7 +600,7 @@ false
 ;
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -670,7 +670,7 @@ result
 ;
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -865,7 +865,7 @@ close
 ;
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

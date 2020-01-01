@@ -109,7 +109,7 @@ setup
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

@@ -49,7 +49,7 @@ names
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

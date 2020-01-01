@@ -58,7 +58,7 @@ Index
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

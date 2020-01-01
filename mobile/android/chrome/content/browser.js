@@ -37350,7 +37350,7 @@ request
 =
 window
 .
-mozIndexedDB
+indexedDB
 .
 open
 (

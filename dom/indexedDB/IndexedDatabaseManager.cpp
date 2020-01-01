@@ -8879,7 +8879,7 @@ chrome
 )
 ;
 jsval
-mozIndexedDBVal
+indexedDBVal
 ;
 rv
 =
@@ -8892,7 +8892,7 @@ aCx
 obj
 factory
 &
-mozIndexedDBVal
+indexedDBVal
 )
 ;
 NS_ENSURE_SUCCESS
@@ -8909,9 +8909,9 @@ JS_DefineProperty
 aCx
 obj
 "
-mozIndexedDB
+indexedDB
 "
-mozIndexedDBVal
+indexedDBVal
 nsnull
 nsnull
 JSPROP_ENUMERATE

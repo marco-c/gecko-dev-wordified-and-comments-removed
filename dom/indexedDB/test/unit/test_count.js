@@ -285,7 +285,7 @@ weightSort
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

@@ -376,7 +376,7 @@ aURI
 *
 *
 Defines
-mozIndexedDB
+indexedDB
 and
 IDBKeyrange
 with
@@ -401,7 +401,7 @@ aObject
 *
 The
 object
-mozIndexedDB
+indexedDB
 and
 IDBKeyrange
 should

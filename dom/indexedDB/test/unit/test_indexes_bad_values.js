@@ -450,7 +450,7 @@ weight
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

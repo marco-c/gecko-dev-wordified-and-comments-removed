@@ -18,7 +18,7 @@ dataCount
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

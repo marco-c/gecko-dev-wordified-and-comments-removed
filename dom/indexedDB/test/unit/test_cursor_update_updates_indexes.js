@@ -193,7 +193,7 @@ true
 ;
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

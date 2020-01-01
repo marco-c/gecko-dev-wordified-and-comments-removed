@@ -33530,7 +33530,7 @@ NS_IMETHODIMP
 nsGlobalWindow
 :
 :
-GetMozIndexedDB
+GetIndexedDB
 (
 nsIIDBFactory
 *

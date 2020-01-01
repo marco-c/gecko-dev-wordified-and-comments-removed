@@ -888,7 +888,7 @@ try
 {
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

@@ -47,7 +47,7 @@ Objects
 var
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

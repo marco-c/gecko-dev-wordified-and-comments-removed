@@ -219,7 +219,7 @@ weightSort
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -8633,7 +8633,7 @@ openKeyCursor
 ;
 objectStore
 .
-getAll
+mozGetAll
 (
 data
 [
@@ -8712,7 +8712,7 @@ result
 ;
 objectStore
 .
-getAll
+mozGetAll
 (
 null
 )
@@ -8801,7 +8801,7 @@ value
 }
 objectStore
 .
-getAll
+mozGetAll
 (
 undefined
 )
@@ -8890,7 +8890,7 @@ value
 }
 objectStore
 .
-getAll
+mozGetAll
 (
 )
 .
@@ -8987,7 +8987,7 @@ lowerBound
 ;
 objectStore
 .
-getAll
+mozGetAll
 (
 keyRange
 )
@@ -9076,7 +9076,7 @@ value
 }
 index
 .
-getAll
+mozGetAll
 (
 )
 .
@@ -9167,7 +9167,7 @@ value
 }
 index
 .
-getAll
+mozGetAll
 (
 undefined
 )
@@ -9259,7 +9259,7 @@ value
 }
 index
 .
-getAll
+mozGetAll
 (
 null
 )
@@ -9351,7 +9351,7 @@ value
 }
 index
 .
-getAll
+mozGetAll
 (
 data
 [
@@ -9445,7 +9445,7 @@ lowerBound
 ;
 index
 .
-getAll
+mozGetAll
 (
 keyRange
 )
@@ -9537,7 +9537,7 @@ value
 }
 index
 .
-getAllKeys
+mozGetAllKeys
 (
 )
 .
@@ -9626,7 +9626,7 @@ value
 }
 index
 .
-getAllKeys
+mozGetAllKeys
 (
 undefined
 )
@@ -9716,7 +9716,7 @@ value
 }
 index
 .
-getAllKeys
+mozGetAllKeys
 (
 null
 )
@@ -9806,7 +9806,7 @@ value
 }
 index
 .
-getAllKeys
+mozGetAllKeys
 (
 data
 [
@@ -9898,7 +9898,7 @@ lowerBound
 ;
 index
 .
-getAllKeys
+mozGetAllKeys
 (
 keyRange
 )

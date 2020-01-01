@@ -63,7 +63,7 @@ true
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -134,7 +134,7 @@ yield
 ;
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

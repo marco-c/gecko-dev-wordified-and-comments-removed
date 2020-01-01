@@ -52,7 +52,7 @@ bar
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

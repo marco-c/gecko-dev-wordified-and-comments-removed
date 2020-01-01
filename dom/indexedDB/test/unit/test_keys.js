@@ -47,7 +47,7 @@ c2
 let
 openRequest
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -887,7 +887,7 @@ i
 ;
 is
 (
-mozIndexedDB
+indexedDB
 .
 cmp
 (
@@ -939,7 +939,7 @@ j
 {
 is
 (
-mozIndexedDB
+indexedDB
 .
 cmp
 (
@@ -962,7 +962,7 @@ j
 ;
 is
 (
-mozIndexedDB
+indexedDB
 .
 cmp
 (
@@ -1008,7 +1008,7 @@ e
 {
 is
 (
-mozIndexedDB
+indexedDB
 .
 cmp
 (
@@ -1219,7 +1219,7 @@ result
 ;
 is
 (
-mozIndexedDB
+indexedDB
 .
 cmp
 (
@@ -1440,7 +1440,7 @@ i
 {
 try
 {
-mozIndexedDB
+indexedDB
 .
 cmp
 (
@@ -1511,7 +1511,7 @@ code
 }
 try
 {
-mozIndexedDB
+indexedDB
 .
 cmp
 (

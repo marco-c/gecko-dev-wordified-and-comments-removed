@@ -199,7 +199,7 @@ this
 .
 dbGlobal
 .
-mozIndexedDB
+indexedDB
 .
 open
 (

@@ -40,7 +40,7 @@ Database
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (
@@ -136,7 +136,7 @@ i
 let
 request
 =
-mozIndexedDB
+indexedDB
 .
 open
 (

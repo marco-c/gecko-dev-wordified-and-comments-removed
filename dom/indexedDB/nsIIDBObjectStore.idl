@@ -270,9 +270,13 @@ keys
 [
 implicit_jscontext
 optional_argc
+binaryname
+(
+GetAll
+)
 ]
 nsIIDBRequest
-getAll
+mozGetAll
 (
 [
 optional
