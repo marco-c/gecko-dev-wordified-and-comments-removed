@@ -5317,6 +5317,9 @@ mutationEvent
 break
 ;
 }
+#
+ifdef
+ACCESSIBILITY
 case
 NS_ACCESSIBLE_EVENT
 :
@@ -5338,6 +5341,8 @@ PR_TRUE
 break
 ;
 }
+#
+endif
 case
 NS_FORM_EVENT
 :
