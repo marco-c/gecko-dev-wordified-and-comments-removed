@@ -44,7 +44,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -101,7 +101,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -152,7 +152,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -400,7 +400,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -512,7 +512,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -608,7 +608,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -710,7 +710,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -812,7 +812,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -919,7 +919,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -1026,7 +1026,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -1144,7 +1144,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -1292,7 +1292,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -1421,7 +1421,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -1517,7 +1517,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -1621,7 +1621,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -1724,7 +1724,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -1828,7 +1828,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -1931,7 +1931,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -2035,7 +2035,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -2138,7 +2138,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -2236,7 +2236,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -2319,7 +2319,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -2406,7 +2406,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -2489,7 +2489,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -2564,7 +2564,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -2660,7 +2660,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
@@ -2767,7 +2767,7 @@ document
 <
 !
 DOCTYPE
-html
+HTML
 >
 |
 <
