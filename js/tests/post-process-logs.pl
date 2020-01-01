@@ -3469,10 +3469,10 @@ system
 (
 "
 sort
+-
+u
 <
 temp
-|
-uniq
 "
 )
 ;
