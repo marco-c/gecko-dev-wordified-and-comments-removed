@@ -2846,6 +2846,9 @@ nsCompressedCharMap
 NS_ASSERTION
 (
 otherPlaneObj
+[
+i
+]
 "
 unable
 to
@@ -2858,6 +2861,9 @@ nsCompressedCharMap
 if
 (
 otherPlaneObj
+[
+i
+]
 )
 {
 otherPlaneObj
