@@ -678,10 +678,7 @@ destroy
 (
 )
 ;
-Foreground
-:
-:
-free_
+js_delete
 (
 threads
 )
@@ -740,10 +737,7 @@ destroy
 (
 )
 ;
-Foreground
-:
-:
-free_
+js_delete
 (
 threads
 )
