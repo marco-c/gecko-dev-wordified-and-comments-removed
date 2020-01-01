@@ -625,6 +625,13 @@ nsInlineFrame
 (
 aContext
 )
+mAbsoluteContainer
+(
+nsGkAtoms
+:
+:
+absoluteList
+)
 {
 }
 virtual
