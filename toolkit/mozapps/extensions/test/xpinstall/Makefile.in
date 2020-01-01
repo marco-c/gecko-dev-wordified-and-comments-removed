@@ -580,6 +580,10 @@ browser_auth3
 .
 js
 \
+browser_auth4
+.
+js
+\
 browser_offline
 .
 js
