@@ -1068,29 +1068,15 @@ in
 dumps
 :
       
-log
-.
-info
-(
-"
-PROCESS
--
-CRASH
-|
-%
-s
-|
-application
-crashed
-(
-minidump
-found
-)
-"
-testName
-)
+stackwalkOutput
+=
+[
+]
       
-print
+stackwalkOutput
+.
+append
+(
 "
 Crash
 dump
@@ -1099,6 +1085,7 @@ filename
 "
 +
 d
+)
       
 if
 symbolsPath
@@ -1160,22 +1147,34 @@ out
 3
 :
           
-print
+stackwalkOutput
+.
+append
+(
 out
+)
         
 else
 :
           
-print
+stackwalkOutput
+.
+append
+(
 "
 stderr
 from
 minidump_stackwalk
 :
 "
+)
           
-print
+stackwalkOutput
+.
+append
+(
 err
+)
         
 if
 p
@@ -1186,7 +1185,10 @@ returncode
 0
 :
           
-print
+stackwalkOutput
+.
+append
+(
 "
 minidump_stackwalk
 exited
@@ -1200,6 +1202,7 @@ d
 p
 .
 returncode
+)
       
 else
 :
@@ -1209,7 +1212,10 @@ not
 symbolsPath
 :
           
-print
+stackwalkOutput
+.
+append
+(
 "
 No
 symbols
@@ -1222,13 +1228,17 @@ process
 dump
 .
 "
+)
         
 if
 not
 stackwalkPath
 :
           
-print
+stackwalkOutput
+.
+append
+(
 "
 MINIDUMP_STACKWALK
 not
@@ -1240,6 +1250,7 @@ process
 dump
 .
 "
+)
         
 elif
 stackwalkPath
@@ -1255,7 +1266,10 @@ stackwalkPath
 )
 :
           
-print
+stackwalkOutput
+.
+append
+(
 "
 MINIDUMP_STACKWALK
 binary
@@ -1267,6 +1281,40 @@ s
 "
 %
 stackwalkPath
+)
+      
+log
+.
+info
+(
+"
+PROCESS
+-
+CRASH
+|
+%
+s
+|
+application
+crashed
+(
+minidump
+found
+)
+"
+testName
+)
+      
+print
+'
+\
+n
+'
+.
+join
+(
+stackwalkOutput
+)
       
 dumpSavePath
 =
