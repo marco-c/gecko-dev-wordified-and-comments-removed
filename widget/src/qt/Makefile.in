@@ -446,6 +446,10 @@ LIBXUL_LIBRARY
 MOCSRCS
 =
 \
+moc_moziqwidget
+.
+cpp
+\
 moc_mozqwidget
 .
 cpp
