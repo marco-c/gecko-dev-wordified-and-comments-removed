@@ -982,11 +982,12 @@ scale
 .
 xml
 (
-resources
+/
+toolkit
 /
 content
 /
-bindings
+widgets
 /
 scale
 .
