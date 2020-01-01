@@ -625,6 +625,10 @@ nsIdentityChecking
 .
 cpp
 \
+nsDataSignatureVerifier
+.
+cpp
+\
 (
 NULL
 )
