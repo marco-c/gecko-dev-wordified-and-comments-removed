@@ -1267,7 +1267,7 @@ _allocator
 ;
 #
 ifdef
-WIN32
+_MSC_VER
 _asm
 {
 mov
