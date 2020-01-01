@@ -259,7 +259,8 @@ server
 .
 start
 (
-4444
+-
+1
 )
 ;
 channel
@@ -301,7 +302,15 @@ http
 /
 localhost
 :
-4444
+"
++
+server
+.
+identity
+.
+primaryPort
++
+"
 /
 bug
 "

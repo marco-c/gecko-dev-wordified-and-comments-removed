@@ -587,7 +587,15 @@ http
 /
 localhost
 :
-4444
+"
++
+httpserv
+.
+identity
+.
+primaryPort
++
+"
 /
 failtest
 "
@@ -683,7 +691,8 @@ httpserv
 .
 start
 (
-4444
+-
+1
 )
 ;
 execute_test

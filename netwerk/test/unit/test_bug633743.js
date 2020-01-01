@@ -138,7 +138,15 @@ http
 /
 localhost
 :
-4444
+"
++
+httpserver
+.
+identity
+.
+primaryPort
++
+"
 /
 bug633743
 "
@@ -913,7 +921,8 @@ httpserver
 .
 start
 (
-4444
+-
+1
 )
 ;
 run_next_test

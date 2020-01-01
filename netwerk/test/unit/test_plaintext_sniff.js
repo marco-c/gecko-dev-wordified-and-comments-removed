@@ -558,7 +558,15 @@ http
 /
 localhost
 :
-4444
+"
++
+httpserv
+.
+identity
+.
+primaryPort
++
+"
 /
 "
 +
@@ -1154,7 +1162,8 @@ httpserv
 .
 start
 (
-4444
+-
+1
 )
 ;
 doTest

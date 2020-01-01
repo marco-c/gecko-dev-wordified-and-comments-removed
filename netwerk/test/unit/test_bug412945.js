@@ -115,7 +115,8 @@ httpserv
 .
 start
 (
-4444
+-
+1
 )
 ;
 var
@@ -158,7 +159,15 @@ http
 /
 localhost
 :
-4444
+"
++
+httpserv
+.
+identity
+.
+primaryPort
++
+"
 /
 bug412945
 "

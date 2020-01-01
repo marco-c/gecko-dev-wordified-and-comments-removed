@@ -146,7 +146,8 @@ server
 .
 start
 (
-4444
+-
+1
 )
 ;
 var
@@ -189,7 +190,15 @@ http
 /
 localhost
 :
-4444
+"
++
+server
+.
+identity
+.
+primaryPort
++
+"
 /
 bug
 "
