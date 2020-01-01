@@ -3887,6 +3887,7 @@ PRUint32
 aLangID
 )
 {
+return
 AddNode
 (
 s
