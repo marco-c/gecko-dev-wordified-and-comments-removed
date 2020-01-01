@@ -431,11 +431,7 @@ BLOCK
 /
 include
 protocol
-"
 PPluginModule
-.
-ipdl
-"
 ;
 namespace
 mozilla

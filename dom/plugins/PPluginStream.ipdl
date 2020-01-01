@@ -433,11 +433,7 @@ BLOCK
 /
 include
 protocol
-"
 PPluginInstance
-.
-ipdl
-"
 ;
 include
 "

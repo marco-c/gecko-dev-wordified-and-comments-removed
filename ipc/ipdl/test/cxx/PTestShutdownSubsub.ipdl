@@ -1,10 +1,6 @@
 include
 protocol
-"
 PTestShutdownSub
-.
-ipdl
-"
 ;
 namespace
 mozilla

@@ -1,0 +1,13 @@
+include
+protocol
+"
+Foo
+.
+ipdl
+"
+;
+protocol
+oldIncludeSyntax
+{
+}
+;

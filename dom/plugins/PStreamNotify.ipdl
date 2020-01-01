@@ -37,11 +37,7 @@ width
 /
 include
 protocol
-"
 PPluginInstance
-.
-ipdl
-"
 ;
 include
 "

@@ -1,10 +1,6 @@
 include
 protocol
-"
 PTestManyChildAllocsSub
-.
-ipdl
-"
 ;
 namespace
 mozilla

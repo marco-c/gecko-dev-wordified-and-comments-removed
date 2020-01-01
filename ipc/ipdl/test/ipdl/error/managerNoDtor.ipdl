@@ -1,10 +1,6 @@
 include
 protocol
-"
 managedNoDtor
-.
-ipdl
-"
 ;
 protocol
 managerNoDtor
