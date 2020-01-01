@@ -2177,8 +2177,8 @@ dir
 "
 \
 \
-Hard
-Disk
+Storage
+Card
 "
 )
 ;
