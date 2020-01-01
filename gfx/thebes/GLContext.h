@@ -711,8 +711,8 @@ gfxContext
 >
 mUpdateContext
 ;
-nsIntRect
-mUpdateRect
+nsIntRegion
+mUpdateRegion
 ;
 nsIntPoint
 mUpdateOffset
@@ -1747,9 +1747,9 @@ gfxASurface
 *
 aSurface
 const
-nsIntRect
+nsIntRegion
 &
-aSrcRect
+aDstRegion
 GLuint
 &
 aTexture
@@ -1760,7 +1760,7 @@ false
 const
 nsIntPoint
 &
-aDstPoint
+aSrcPoint
 =
 nsIntPoint
 (
