@@ -294,9 +294,6 @@ nsILoadGroup
 aLoadGroup
 )
 ;
-PRInt32
-mOrdinal
-;
 nsMargin
 mPadding
 ;
@@ -317,6 +314,9 @@ mIntrinsicSize
 ;
 nsSize
 mComputedSize
+;
+PRInt32
+mOrdinal
 ;
 PRBool
 mTextIsRTL

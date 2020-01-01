@@ -430,13 +430,13 @@ nsLeafBoxFrame
 aShell
 aContext
 )
-mCropType
-(
-CropRight
-)
 mAccessKeyInfo
 (
 nsnull
+)
+mCropType
+(
+CropRight
 )
 mNeedsReflowCallback
 (
