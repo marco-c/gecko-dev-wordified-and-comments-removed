@@ -130,6 +130,14 @@ charset
 =
 0
 ;
+virtual
+PRBool
+GetScriptDeferred
+(
+)
+=
+0
+;
 void
 SetScriptLineNumber
 (

@@ -1036,6 +1036,14 @@ test_NodeIterator_mutations_2
 .
 html
 \
+test_bug28293
+.
+html
+\
+file_bug28293
+.
+sjs
+\
 (
 NULL
 )
