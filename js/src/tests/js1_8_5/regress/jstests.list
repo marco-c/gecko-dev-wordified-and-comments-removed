@@ -234,6 +234,12 @@ js
 script
 regress
 -
+576847
+.
+js
+script
+regress
+-
 577648
 -
 1
