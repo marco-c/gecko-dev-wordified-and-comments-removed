@@ -247,10 +247,12 @@ get_ArrayOfBluetoothNamedValue
 (
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
-BluetoothAdapter
+nsIDOMBluetoothAdapter
 >
+adapter
+;
 adapter
 =
 BluetoothAdapter

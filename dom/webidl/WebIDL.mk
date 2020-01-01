@@ -1865,10 +1865,6 @@ webidl_files
 +
 =
 \
-BluetoothAdapter
-.
-webidl
-\
 BluetoothDeviceEvent
 .
 webidl
