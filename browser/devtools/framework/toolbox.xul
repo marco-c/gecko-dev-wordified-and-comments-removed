@@ -423,6 +423,13 @@ toolbox
 -
 close
 "
+class
+=
+"
+devtools
+-
+closebutton
+"
 tooltiptext
 =
 "
@@ -535,6 +542,13 @@ id
 toolbox
 -
 close
+"
+class
+=
+"
+devtools
+-
+closebutton
 "
 tooltiptext
 =
