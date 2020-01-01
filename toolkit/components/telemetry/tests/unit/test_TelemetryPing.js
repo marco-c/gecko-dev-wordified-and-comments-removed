@@ -325,6 +325,12 @@ enableLoadSaveNotifications
 ;
 TelemetryPing
 .
+cacheProfileDirectory
+(
+)
+;
+TelemetryPing
+.
 testPing
 (
 SERVER
