@@ -409,6 +409,8 @@ entry
 mData
 ;
 }
+protected
+:
 virtual
 PRBool
 InitTextRun
@@ -435,8 +437,6 @@ aPreferPlatformShaping
 PR_FALSE
 )
 ;
-protected
-:
 void
 FillGlyphDataForChar
 (
