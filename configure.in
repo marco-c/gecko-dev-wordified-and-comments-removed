@@ -66734,6 +66734,15 @@ OS_ARCH
 "
 WINNT
 "
+-
+o
+"
+OS_ARCH
+"
+=
+"
+OS2
+"
 ;
 then
 MOZ_CHROME_FILE_FORMAT
