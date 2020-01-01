@@ -2119,8 +2119,8 @@ rt
 JSString
 *
 str
-intN
-type
+uintN
+gctype
 JSContext
 *
 cx

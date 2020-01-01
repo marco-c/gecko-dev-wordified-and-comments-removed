@@ -1244,7 +1244,15 @@ JSTracer
 aClosure
 )
 aScriptThing
-js_GetGCThingTraceKind
+nsXPConnect
+:
+:
+GetXPConnect
+(
+)
+-
+>
+GetTraceKind
 (
 aScriptThing
 )
