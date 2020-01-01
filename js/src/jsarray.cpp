@@ -4587,9 +4587,6 @@ array_typeOf
 array_trace
 NULL
 NULL
-NULL
-js_HasInstance
-NULL
 }
 ;
 static
