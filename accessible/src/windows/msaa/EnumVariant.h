@@ -11,6 +11,13 @@ AccessibleWrap
 .
 h
 "
+#
+include
+"
+IUnknownImpl
+.
+h
+"
 namespace
 mozilla
 {
@@ -33,10 +40,6 @@ AccessibleWrap
 aAnchor
 )
 :
-mRefCnt
-(
-0
-)
 mAnchorAcc
 (
 aAnchor
@@ -126,10 +129,6 @@ ChildrenEnumVariant
 aEnumVariant
 )
 :
-mRefCnt
-(
-0
-)
 mAnchorAcc
 (
 aEnumVariant

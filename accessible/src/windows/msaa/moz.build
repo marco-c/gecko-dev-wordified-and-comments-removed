@@ -103,6 +103,11 @@ EXPORTS
 =
 [
 '
+IUnknownImpl
+.
+h
+'
+'
 nsAccessNodeWrap
 .
 h

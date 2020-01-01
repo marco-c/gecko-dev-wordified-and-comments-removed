@@ -18,6 +18,13 @@ AccessibleWrap
 .
 h
 "
+#
+include
+"
+IUnknownImpl
+.
+h
+"
 namespace
 mozilla
 {
@@ -40,10 +47,6 @@ AccessibleWrap
 aAcc
 )
 :
-mRefCnt
-(
-0
-)
 mAccessible
 (
 aAcc

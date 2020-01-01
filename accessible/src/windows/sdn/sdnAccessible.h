@@ -21,6 +21,13 @@ h
 #
 include
 "
+IUnknownImpl
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
