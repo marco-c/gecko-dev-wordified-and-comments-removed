@@ -6730,6 +6730,9 @@ ctor
 return
 NULL
 ;
+if
+(
+!
 obj
 -
 >
@@ -6753,7 +6756,12 @@ ctor
 0
 0
 )
+)
+{
+return
+NULL
 ;
+}
 }
 if
 (
