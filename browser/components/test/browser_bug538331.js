@@ -823,6 +823,8 @@ gOriginalMStone
 var
 gOriginalOverrideURL
 ;
+this
+.
 __defineGetter__
 (
 "

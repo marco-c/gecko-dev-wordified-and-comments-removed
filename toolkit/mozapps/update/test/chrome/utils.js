@@ -361,6 +361,8 @@ include
 shared
 .
 js
+this
+.
 __defineGetter__
 (
 "
@@ -379,6 +381,8 @@ gTestCounter
 }
 )
 ;
+this
+.
 __defineGetter__
 (
 "
@@ -402,6 +406,8 @@ defaultCallback
 }
 )
 ;
+this
+.
 __defineGetter__
 (
 "
@@ -455,6 +461,8 @@ null
 }
 )
 ;
+this
+.
 __defineGetter__
 (
 "
@@ -486,6 +494,8 @@ null
 }
 )
 ;
+this
+.
 __defineGetter__
 (
 "
@@ -510,6 +520,8 @@ acceptDeclineLicense
 }
 )
 ;
+this
+.
 __defineGetter__
 (
 "

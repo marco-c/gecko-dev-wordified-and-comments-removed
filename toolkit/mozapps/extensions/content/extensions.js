@@ -541,6 +541,8 @@ gPendingInitializations
 =
 1
 ;
+this
+.
 __defineGetter__
 (
 "

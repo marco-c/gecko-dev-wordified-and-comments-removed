@@ -927,6 +927,8 @@ aTooltipText
 )
 ;
 }
+this
+.
 __defineGetter__
 (
 "

@@ -137,6 +137,8 @@ return
 gBrowser
 ;
 }
+this
+.
 __defineGetter__
 (
 "

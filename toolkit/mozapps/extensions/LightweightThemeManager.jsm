@@ -285,6 +285,8 @@ jsm
 "
 )
 ;
+this
+.
 __defineGetter__
 (
 "
@@ -320,6 +322,8 @@ lightweightThemes
 }
 )
 ;
+this
+.
 __defineGetter__
 (
 "
@@ -371,6 +375,8 @@ _maxUsedThemes
 }
 )
 ;
+this
+.
 __defineSetter__
 (
 "

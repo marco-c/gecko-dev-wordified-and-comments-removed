@@ -30,6 +30,8 @@ jsm
 "
 )
 ;
+this
+.
 __defineGetter__
 (
 "

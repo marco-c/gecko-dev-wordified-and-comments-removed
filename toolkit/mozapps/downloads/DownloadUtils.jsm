@@ -29,6 +29,8 @@ Components
 .
 utils
 ;
+this
+.
 __defineGetter__
 (
 "
@@ -68,6 +70,8 @@ PluralForm
 }
 )
 ;
+this
+.
 __defineGetter__
 (
 "
@@ -236,6 +240,8 @@ days
 ]
 }
 ;
+this
+.
 __defineGetter__
 (
 "

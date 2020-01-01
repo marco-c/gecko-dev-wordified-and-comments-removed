@@ -19,6 +19,8 @@ Components
 .
 utils
 ;
+this
+.
 __defineGetter__
 (
 "
