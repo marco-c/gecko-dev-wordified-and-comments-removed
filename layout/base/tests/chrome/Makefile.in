@@ -483,6 +483,10 @@ bug551434_childframe
 .
 html
 \
+test_bug708062
+.
+html
+\
 test_chrome_content_integration
 .
 xul
