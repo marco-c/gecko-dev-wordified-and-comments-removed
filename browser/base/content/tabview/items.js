@@ -3046,6 +3046,9 @@ handleMouseUp
 ;
 if
 (
+startSent
+&
+&
 dropTarget
 )
 {
