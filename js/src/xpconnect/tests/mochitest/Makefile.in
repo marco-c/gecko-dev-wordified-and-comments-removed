@@ -630,14 +630,6 @@ file_bug650273
 .
 html
 \
-test_bug657267
-.
-html
-\
-bug657267
-.
-jar
-\
 (
 NULL
 )
