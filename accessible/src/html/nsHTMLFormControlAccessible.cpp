@@ -1,13 +1,6 @@
 #
 include
 "
-nsAccessibleTreeWalker
-.
-h
-"
-#
-include
-"
 nsAccessibilityAtoms
 .
 h

@@ -46,13 +46,6 @@ nsIDOMNode
 .
 h
 "
-#
-include
-"
-nsAccessibleTreeWalker
-.
-h
-"
 class
 nsIMutableArray
 ;

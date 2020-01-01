@@ -484,7 +484,7 @@ nsAccessibleRelation
 .
 cpp
 \
-nsAccessibleTreeWalker
+nsAccTreeWalker
 .
 cpp
 \

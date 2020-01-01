@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsAccessibleTreeWalker
-.
-h
-"
-#
-include
-"
 nsIAccessibleSelectable
 .
 h

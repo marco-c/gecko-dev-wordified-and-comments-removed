@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsAccessibleTreeWalker
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h

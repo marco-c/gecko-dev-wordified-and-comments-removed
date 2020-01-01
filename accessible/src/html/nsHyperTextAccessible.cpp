@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsAccessibleTreeWalker
-.
-h
-"
-#
-include
-"
 nsTextAttrs
 .
 h
