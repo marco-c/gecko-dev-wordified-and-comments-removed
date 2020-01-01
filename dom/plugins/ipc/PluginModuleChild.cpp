@@ -4,6 +4,13 @@ MOZ_WIDGET_QT
 #
 include
 <
+unistd
+.
+h
+>
+#
+include
+<
 QtCore
 /
 QTimer
