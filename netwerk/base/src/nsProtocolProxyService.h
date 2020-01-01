@@ -478,6 +478,17 @@ int32_t
 defaultPort
 )
 ;
+NS_HIDDEN_
+(
+void
+)
+MaybeDisableDNSPrefetch
+(
+nsIProxyInfo
+*
+aProxy
+)
+;
 private
 :
 nsresult
