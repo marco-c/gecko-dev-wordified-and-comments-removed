@@ -832,7 +832,7 @@ THROW
 if
 (
 !
-InvokeKernel
+Invoke
 (
 f
 .
@@ -933,7 +933,7 @@ THROW
 if
 (
 !
-InvokeConstructorKernel
+InvokeConstructor
 (
 f
 .
@@ -2169,7 +2169,7 @@ else
 if
 (
 !
-InvokeConstructorKernel
+InvokeConstructor
 (
 cx
 args
@@ -2332,7 +2332,7 @@ calleev
 if
 (
 !
-InvokeKernel
+Invoke
 (
 f
 .
@@ -2661,7 +2661,7 @@ return
 if
 (
 !
-InvokeKernel
+Invoke
 (
 f
 .
@@ -5491,7 +5491,7 @@ dynamicArgc
 if
 (
 !
-InvokeKernel
+Invoke
 (
 cx
 CallArgsFromSp

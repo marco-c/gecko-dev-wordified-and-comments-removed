@@ -10106,7 +10106,7 @@ JSContext
 cx
 HandleFunction
 fun
-CallArgsList
+CallArgs
 &
 args
 )
@@ -10321,12 +10321,6 @@ cx
 RESOLVE_INFER
 )
 ;
-args
-.
-setActive
-(
-)
-;
 enter
 (
 jitcode
@@ -10353,12 +10347,6 @@ result
 address
 (
 )
-)
-;
-args
-.
-setInactive
-(
 )
 ;
 if
