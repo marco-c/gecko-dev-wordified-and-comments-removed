@@ -472,6 +472,10 @@ mTileTextures
 [
 mCurrentTile
 ]
+.
+get
+(
+)
 :
 TextureSourceD3D11
 :
