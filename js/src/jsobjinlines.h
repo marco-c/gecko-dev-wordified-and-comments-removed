@@ -6452,6 +6452,7 @@ cx
 AutoGCRooter
 (
 cx
+DESCRIPTORS
 )
 descriptors
 (
@@ -6517,10 +6518,11 @@ i
 ]
 ;
 }
-private
-:
-virtual
+friend
 void
+AutoGCRooter
+:
+:
 trace
 (
 JSTracer
@@ -6528,6 +6530,8 @@ JSTracer
 trc
 )
 ;
+private
+:
 PropDescArray
 descriptors
 ;
@@ -6553,6 +6557,7 @@ cx
 AutoGCRooter
 (
 cx
+DESCRIPTOR
 )
 {
 obj
@@ -6597,6 +6602,7 @@ desc
 AutoGCRooter
 (
 cx
+DESCRIPTOR
 )
 {
 obj
@@ -6635,10 +6641,11 @@ desc
 value
 ;
 }
-private
-:
-virtual
+friend
 void
+AutoGCRooter
+:
+:
 trace
 (
 JSTracer

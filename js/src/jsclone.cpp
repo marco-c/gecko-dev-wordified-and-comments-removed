@@ -43,9 +43,9 @@ js
 ;
 JS_FRIEND_API
 (
-JSUint64
+uint64_t
 )
-JS_GetSCOffset
+js_GetSCOffset
 (
 JSStructuredCloneWriter
 *

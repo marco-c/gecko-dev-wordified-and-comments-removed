@@ -57,6 +57,13 @@ h
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 jsfriendapi
 .
 h

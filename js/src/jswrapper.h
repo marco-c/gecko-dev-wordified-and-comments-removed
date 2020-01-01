@@ -22,9 +22,6 @@ namespace
 js
 {
 class
-DummyFrameGuard
-;
-class
 JS_FRIEND_API
 (
 Wrapper

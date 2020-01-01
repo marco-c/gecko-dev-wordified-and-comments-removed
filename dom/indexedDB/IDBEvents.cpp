@@ -22,14 +22,7 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
-jsfriendapi
+jscntxt
 .
 h
 "

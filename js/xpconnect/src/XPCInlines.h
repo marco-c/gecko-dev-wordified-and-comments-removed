@@ -430,13 +430,10 @@ scope
 )
 =
 =
-js
-:
-:
-GetContextCompartment
-(
 mJSContext
-)
+-
+>
+compartment
 "
 wrong
 compartment

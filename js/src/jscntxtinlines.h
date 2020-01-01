@@ -271,6 +271,7 @@ cx
 AutoGCRooter
 (
 cx
+NAMESPACES
 )
 {
 array
@@ -305,10 +306,13 @@ array
 length
 ;
 }
-protected
+public
 :
-virtual
+friend
 void
+AutoGCRooter
+:
+:
 trace
 (
 JSTracer
@@ -316,8 +320,6 @@ JSTracer
 trc
 )
 ;
-public
-:
 JSXMLArray
 array
 ;
