@@ -265,6 +265,13 @@ nsIReflowCallback
 h
 "
 #
+include
+"
+nsBindingManager
+.
+h
+"
+#
 ifdef
 XP_WIN
 #
