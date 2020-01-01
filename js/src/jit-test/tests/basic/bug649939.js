@@ -95,7 +95,7 @@ assertEq
 (
 e
 instanceof
-InternalError
+StopIteration
 true
 )
 ;
