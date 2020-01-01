@@ -183,6 +183,15 @@ GetUnignoredParent
 ;
 protected
 :
+virtual
+nsresult
+FirePlatformEvent
+(
+nsIAccessibleEvent
+*
+aEvent
+)
+;
 PRBool
 AncestorIsFlat
 (

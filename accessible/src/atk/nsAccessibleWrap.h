@@ -223,6 +223,15 @@ get
 }
 protected
 :
+virtual
+nsresult
+FirePlatformEvent
+(
+nsIAccessibleEvent
+*
+aEvent
+)
+;
 nsresult
 FireAtkStateChangeEvent
 (

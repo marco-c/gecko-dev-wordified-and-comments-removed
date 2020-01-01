@@ -856,6 +856,17 @@ double
 aValue
 )
 ;
+virtual
+nsresult
+FirePlatformEvent
+(
+nsIAccessibleEvent
+*
+aEvent
+)
+=
+0
+;
 nsCOMPtr
 <
 nsIAccessible
