@@ -1797,6 +1797,7 @@ mRuntime
 JS_NewRuntime
 (
 sRuntimeHeapSize
+JS_NO_HELPER_THREADS
 )
 ;
 NS_ENSURE_TRUE

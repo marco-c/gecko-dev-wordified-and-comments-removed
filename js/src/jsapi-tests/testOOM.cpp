@@ -111,6 +111,7 @@ rt
 JS_NewRuntime
 (
 0
+JS_USE_HELPER_THREADS
 )
 ;
 JS_SetGCParameter

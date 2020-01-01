@@ -1502,6 +1502,7 @@ JS_NewRuntime
 1024
 *
 1024
+JS_USE_HELPER_THREADS
 )
 ;
 if
