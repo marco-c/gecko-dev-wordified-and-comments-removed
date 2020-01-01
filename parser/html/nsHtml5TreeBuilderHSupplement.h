@@ -116,6 +116,11 @@ nsHtml5TreeBuilder
 (
 )
 ;
+void
+StartPlainText
+(
+)
+;
 bool
 HasScript
 (
