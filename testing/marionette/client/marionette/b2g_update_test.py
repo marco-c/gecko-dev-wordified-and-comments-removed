@@ -430,7 +430,7 @@ device
 =
 self
 .
-device
+device_serial
 )
     
 def
