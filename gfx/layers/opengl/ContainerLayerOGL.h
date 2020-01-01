@@ -107,11 +107,6 @@ nsIntPoint
 aOffset
 )
 ;
-private
-:
-GLuint
-mTexture
-;
 }
 ;
 }
