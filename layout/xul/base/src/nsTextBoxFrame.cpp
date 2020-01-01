@@ -769,6 +769,12 @@ if
 labelElement
 )
 {
+nsCxPusher
+cx
+(
+mContent
+)
+;
 labelElement
 -
 >
