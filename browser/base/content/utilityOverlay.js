@@ -2201,6 +2201,16 @@ getNext
 (
 )
 ;
+if
+(
+win
+.
+closed
+)
+{
+continue
+;
+}
 win
 .
 focus

@@ -6337,6 +6337,12 @@ getNext
 ;
 if
 (
+!
+win
+.
+closed
+&
+&
 win
 !
 =

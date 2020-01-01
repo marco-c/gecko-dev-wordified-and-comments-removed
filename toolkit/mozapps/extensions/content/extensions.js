@@ -5006,6 +5006,16 @@ if
 (
 win
 .
+closed
+)
+{
+continue
+;
+}
+if
+(
+win
+.
 document
 .
 documentURI

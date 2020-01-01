@@ -510,6 +510,12 @@ getNext
 ;
 if
 (
+!
+aWindow
+.
+closed
+&
+&
 aWindow
 .
 getHelpFileURI
