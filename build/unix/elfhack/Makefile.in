@@ -699,6 +699,9 @@ DLL_SUFFIX
 (
 CC
 )
+(
+LDFLAGS
+)
 -
 o
 ^
@@ -894,3 +897,14 @@ DEFINES
 =
 -
 DNOINIT
+test
+.
+(
+OBJ_SUFFIX
+)
+:
+CFLAGS
+:
+=
+-
+O0
