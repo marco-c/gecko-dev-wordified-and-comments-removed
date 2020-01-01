@@ -12,6 +12,13 @@ nsThreadUtils
 .
 h
 "
+#
+include
+"
+nsProxyRelease
+.
+h
+"
 using
 namespace
 mozilla
@@ -40,8 +47,12 @@ public
 :
 DispatchCertVerificationResult
 (
+const
+nsMainThreadPtrHandle
+<
 nsICertVerificationListener
-*
+>
+&
 aListener
 nsIX509Cert3
 *
@@ -85,7 +96,7 @@ NS_OK
 }
 private
 :
-nsCOMPtr
+nsMainThreadPtrHandle
 <
 nsICertVerificationListener
 >
