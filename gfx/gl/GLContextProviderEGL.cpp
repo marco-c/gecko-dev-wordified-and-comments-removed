@@ -3078,6 +3078,10 @@ CreateTextureForOffscreen
 ChooseGLFormats
 (
 fmt
+GLContext
+:
+:
+ForceRGBA
 )
 mOffscreenSize
 texture

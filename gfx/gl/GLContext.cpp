@@ -7434,6 +7434,8 @@ ChooseGLFormats
 ContextFormat
 &
 aCF
+ColorByteOrder
+aByteOrder
 )
 {
 GLFormats
@@ -7455,6 +7457,12 @@ IsExtensionSupported
 (
 EXT_texture_format_BGRA8888
 )
+&
+&
+aByteOrder
+!
+=
+ForceRGBA
 )
 {
 formats
