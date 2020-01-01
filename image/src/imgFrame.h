@@ -538,6 +538,14 @@ PaletteDataLength
 )
 const
 {
+if
+(
+!
+mPaletteDepth
+)
+return
+0
+;
 return
 (
 (
