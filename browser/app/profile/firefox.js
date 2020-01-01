@@ -7716,7 +7716,7 @@ identity
 .
 ssl_domain_display
 "
-1
+0
 )
 ;
 pref
@@ -10262,5 +10262,17 @@ startup
 max_resumed_crashes
 "
 2
+)
+;
+pref
+(
+"
+image
+.
+mem
+.
+max_decoded_image_kb
+"
+256000
 )
 ;
