@@ -132,14 +132,14 @@ nsIDocument
 h
 "
 class
-nsChannelStreamStrategy
+nsMediaChannelStream
 :
 public
 nsMediaStream
 {
 public
 :
-nsChannelStreamStrategy
+nsMediaChannelStream
 (
 nsMediaDecoder
 *
@@ -283,7 +283,7 @@ mCancelled
 }
 ;
 nsresult
-nsChannelStreamStrategy
+nsMediaChannelStream
 :
 :
 Open
@@ -303,7 +303,7 @@ aStreamListener
 ;
 }
 nsresult
-nsChannelStreamStrategy
+nsMediaChannelStream
 :
 :
 OpenAtOffset
@@ -635,7 +635,7 @@ NS_OK
 ;
 }
 nsresult
-nsChannelStreamStrategy
+nsMediaChannelStream
 :
 :
 Close
@@ -706,7 +706,7 @@ NS_OK
 ;
 }
 nsresult
-nsChannelStreamStrategy
+nsMediaChannelStream
 :
 :
 Read
@@ -765,7 +765,7 @@ rv
 ;
 }
 nsresult
-nsChannelStreamStrategy
+nsMediaChannelStream
 :
 :
 Seek
@@ -781,7 +781,7 @@ NS_ERROR_FAILURE
 ;
 }
 PRInt64
-nsChannelStreamStrategy
+nsMediaChannelStream
 :
 :
 Tell
@@ -793,7 +793,7 @@ mPosition
 ;
 }
 void
-nsChannelStreamStrategy
+nsMediaChannelStream
 :
 :
 Cancel
@@ -818,7 +818,7 @@ Cancel
 }
 nsIPrincipal
 *
-nsChannelStreamStrategy
+nsMediaChannelStream
 :
 :
 GetCurrentPrincipal
@@ -843,7 +843,7 @@ GetCurrentPrincipal
 ;
 }
 void
-nsChannelStreamStrategy
+nsMediaChannelStream
 :
 :
 Suspend
@@ -859,7 +859,7 @@ Suspend
 ;
 }
 void
-nsChannelStreamStrategy
+nsMediaChannelStream
 :
 :
 Resume
@@ -875,14 +875,14 @@ Resume
 ;
 }
 class
-nsFileStreamStrategy
+nsMediaFileStream
 :
 public
 nsMediaStream
 {
 public
 :
-nsFileStreamStrategy
+nsMediaFileStream
 (
 nsMediaDecoder
 *
@@ -1106,7 +1106,7 @@ mDecoder
 }
 ;
 nsresult
-nsFileStreamStrategy
+nsMediaFileStream
 :
 :
 Open
@@ -1396,7 +1396,7 @@ NS_OK
 ;
 }
 nsresult
-nsFileStreamStrategy
+nsMediaFileStream
 :
 :
 Close
@@ -1440,7 +1440,7 @@ NS_OK
 ;
 }
 nsresult
-nsFileStreamStrategy
+nsMediaFileStream
 :
 :
 Read
@@ -1482,7 +1482,7 @@ aBytes
 ;
 }
 nsresult
-nsFileStreamStrategy
+nsMediaFileStream
 :
 :
 Seek
@@ -1594,7 +1594,7 @@ rv
 ;
 }
 PRInt64
-nsFileStreamStrategy
+nsMediaFileStream
 :
 :
 Tell
@@ -1635,7 +1635,7 @@ offset
 }
 nsIPrincipal
 *
-nsFileStreamStrategy
+nsMediaFileStream
 :
 :
 GetCurrentPrincipal
@@ -1647,7 +1647,7 @@ mPrincipal
 ;
 }
 void
-nsFileStreamStrategy
+nsMediaFileStream
 :
 :
 Suspend
@@ -1663,7 +1663,7 @@ Suspend
 ;
 }
 void
-nsFileStreamStrategy
+nsMediaFileStream
 :
 :
 Resume
@@ -1679,14 +1679,14 @@ Resume
 ;
 }
 class
-nsHttpStreamStrategy
+nsMediaHttpStream
 :
 public
-nsChannelStreamStrategy
+nsMediaChannelStream
 {
 public
 :
-nsHttpStreamStrategy
+nsMediaHttpStream
 (
 nsMediaDecoder
 *
@@ -1699,7 +1699,7 @@ nsIURI
 aURI
 )
 :
-nsChannelStreamStrategy
+nsMediaChannelStream
 (
 aDecoder
 aChannel
@@ -1745,7 +1745,7 @@ mAtEOF
 }
 ;
 nsresult
-nsHttpStreamStrategy
+nsMediaHttpStream
 :
 :
 OpenInternal
@@ -1793,7 +1793,7 @@ public
 :
 nsByteRangeEvent
 (
-nsHttpStreamStrategy
+nsMediaHttpStream
 *
 aStrategy
 nsIURI
@@ -1923,7 +1923,7 @@ NS_OK
 }
 private
 :
-nsHttpStreamStrategy
+nsMediaHttpStream
 *
 mStrategy
 ;
@@ -1944,7 +1944,7 @@ mResult
 }
 ;
 nsresult
-nsHttpStreamStrategy
+nsMediaHttpStream
 :
 :
 Seek
@@ -2310,7 +2310,7 @@ rv
 ;
 }
 PRInt64
-nsHttpStreamStrategy
+nsMediaHttpStream
 :
 :
 Tell
@@ -2443,7 +2443,7 @@ hc
 stream
 =
 new
-nsHttpStreamStrategy
+nsMediaHttpStream
 (
 aDecoder
 channel
@@ -2472,7 +2472,7 @@ fc
 stream
 =
 new
-nsFileStreamStrategy
+nsMediaFileStream
 (
 aDecoder
 channel
@@ -2485,7 +2485,7 @@ else
 stream
 =
 new
-nsChannelStreamStrategy
+nsMediaChannelStream
 (
 aDecoder
 channel
