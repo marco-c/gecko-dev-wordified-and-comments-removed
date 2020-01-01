@@ -1073,6 +1073,15 @@ op
 JSOP_DIV
 &
 &
+knownPushedType
+(
+0
+)
+!
+=
+JSVAL_TYPE_DOUBLE
+&
+&
 !
 (
 (

@@ -2146,7 +2146,6 @@ getFixedTypeObject
 (
 TYPE_OBJECT_NEW_ITERATOR
 )
-true
 )
 ;
 }
@@ -6478,7 +6477,6 @@ cx
 yieldpc
 0
 arg
-true
 )
 ;
 }
