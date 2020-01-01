@@ -45,6 +45,13 @@ h
 #
 include
 "
+nsCDefaultURIFixup
+.
+h
+"
+#
+include
+"
 nsURILoader
 .
 h

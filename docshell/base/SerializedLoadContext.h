@@ -22,13 +22,9 @@ IPCMessageUtils
 .
 h
 "
-#
-include
-"
+class
 nsILoadContext
-.
-h
-"
+;
 class
 nsIChannel
 ;

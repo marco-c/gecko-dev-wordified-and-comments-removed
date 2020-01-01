@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 nsIURIContentListener
 .
 h
@@ -40,6 +33,9 @@ nsIWebNavigationInfo
 ;
 class
 nsIHttpChannel
+;
+class
+nsAString
 ;
 class
 nsDSURIContentListener
