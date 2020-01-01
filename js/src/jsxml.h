@@ -697,8 +697,6 @@ finalize
 JSContext
 *
 cx
-unsigned
-thingKind
 )
 {
 if

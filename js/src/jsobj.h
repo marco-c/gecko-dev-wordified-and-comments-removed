@@ -3493,8 +3493,6 @@ finalize
 JSContext
 *
 cx
-unsigned
-thindKind
 )
 ;
 inline

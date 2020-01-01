@@ -233,6 +233,13 @@ jsobjinlines
 h
 "
 #
+include
+"
+jsstrinlines
+.
+h
+"
+#
 ifdef
 DEBUG
 #
