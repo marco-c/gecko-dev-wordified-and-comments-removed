@@ -602,6 +602,10 @@ gSearchEngine
 .
 image
 )
+{
+let
+logoElt
+=
 document
 .
 getElementById
@@ -610,6 +614,8 @@ getElementById
 searchEngineLogo
 "
 )
+;
+logoElt
 .
 src
 =
@@ -617,6 +623,15 @@ gSearchEngine
 .
 image
 ;
+logoElt
+.
+alt
+=
+gSearchEngine
+.
+name
+;
+}
 if
 (
 gSearchEngine
