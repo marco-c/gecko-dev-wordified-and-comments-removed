@@ -1883,7 +1883,6 @@ PRUint32
 aLineNo
 PRUint32
 aVersion
-;
 nsScriptObjectHolder
 &
 aHandler
