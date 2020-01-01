@@ -129,6 +129,10 @@ CameraControlImpl
 .
 cpp
 \
+CameraRecorderProfiles
+.
+cpp
+\
 (
 NULL
 )
@@ -168,6 +172,10 @@ GonkCameraSource
 cpp
 \
 AudioParameter
+.
+cpp
+\
+GonkRecorderProfiles
 .
 cpp
 \
