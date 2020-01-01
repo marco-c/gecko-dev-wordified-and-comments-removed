@@ -563,6 +563,9 @@ js
 class
 AutoDebugModeGC
 ;
+struct
+DebugScopes
+;
 }
 struct
 JSCompartment
@@ -1919,6 +1922,13 @@ js
 DebugScriptMap
 *
 debugScriptMap
+;
+js
+:
+:
+DebugScopes
+*
+debugScopes
 ;
 #
 ifdef

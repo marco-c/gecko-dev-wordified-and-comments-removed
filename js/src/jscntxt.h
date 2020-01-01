@@ -381,9 +381,6 @@ class
 InterpreterFrames
 ;
 class
-DebugScopes
-;
-class
 WorkerThreadState
 ;
 struct
@@ -2616,13 +2613,6 @@ debuggerList
 ;
 JSCList
 onNewGlobalObjectWatchers
-;
-js
-:
-:
-DebugScopes
-*
-debugScopes
 ;
 void
 *
