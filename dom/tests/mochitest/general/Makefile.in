@@ -488,14 +488,9 @@ test_focusrings
 .
 xul
 \
-(
-warning
 test_nodesFromRect
 .
 html
-temporarily
-disabled
-)
 \
 (
 NULL
