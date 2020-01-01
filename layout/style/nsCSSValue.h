@@ -103,6 +103,9 @@ eCSSUnit_System_Font
 eCSSUnit_Dummy
 =
 7
+eCSSUnit_DummyInherit
+=
+8
 eCSSUnit_String
 =
 10
@@ -270,7 +273,7 @@ NS_ASSERTION
 aUnit
 <
 =
-eCSSUnit_Dummy
+eCSSUnit_DummyInherit
 "
 not
 a
@@ -1130,6 +1133,14 @@ NS_HIDDEN_
 void
 )
 SetDummyValue
+(
+)
+;
+NS_HIDDEN_
+(
+void
+)
+SetDummyInheritValue
 (
 )
 ;
