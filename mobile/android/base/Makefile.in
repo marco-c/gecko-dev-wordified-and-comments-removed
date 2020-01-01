@@ -10076,10 +10076,8 @@ java
 .
 aidl
 (
-ANDROID_PLATFORM_TOOLS
+AIDL
 )
-/
-aidl
 -
 I
 (
