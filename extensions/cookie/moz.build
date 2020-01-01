@@ -156,3 +156,6 @@ nsPopupWindowManager
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True

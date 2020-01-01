@@ -118,3 +118,6 @@ MODULE
 '
 dom
 '
+LIBXUL_LIBRARY
+=
+True

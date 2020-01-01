@@ -148,3 +148,6 @@ LIBRARY_NAME
 '
 spellchecker
 '
+LIBXUL_LIBRARY
+=
+True

@@ -123,3 +123,6 @@ LIBRARY_NAME
 '
 peerconnection
 '
+LIBXUL_LIBRARY
+=
+True

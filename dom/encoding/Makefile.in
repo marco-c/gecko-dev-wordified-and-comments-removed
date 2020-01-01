@@ -78,9 +78,6 @@ mk
 LIBRARY_NAME
 =
 domencoding_s
-LIBXUL_LIBRARY
-=
-1
 LOCAL_INCLUDES
 =
 \

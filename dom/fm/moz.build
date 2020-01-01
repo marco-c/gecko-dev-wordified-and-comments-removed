@@ -158,3 +158,6 @@ DOMFMRadioChild
 js
 '
 ]
+LIBXUL_LIBRARY
+=
+True

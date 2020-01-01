@@ -81,9 +81,6 @@ mk
 LIBRARY_NAME
 =
 dom_indexeddb_ipc_s
-LIBXUL_LIBRARY
-=
-1
 LOCAL_INCLUDES
 +
 =

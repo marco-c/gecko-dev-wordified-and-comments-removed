@@ -118,3 +118,6 @@ LIBRARY_NAME
 '
 permissions
 '
+LIBXUL_LIBRARY
+=
+True

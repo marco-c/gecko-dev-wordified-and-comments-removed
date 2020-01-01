@@ -123,3 +123,6 @@ LIBRARY_NAME
 '
 docshell
 '
+LIBXUL_LIBRARY
+=
+True

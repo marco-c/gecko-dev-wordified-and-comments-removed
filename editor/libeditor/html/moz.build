@@ -204,3 +204,6 @@ htmleditor_s
 FAIL_ON_WARNINGS
 =
 True
+LIBXUL_LIBRARY
+=
+True

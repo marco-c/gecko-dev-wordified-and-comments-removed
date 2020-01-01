@@ -78,9 +78,6 @@ mk
 LIBRARY_NAME
 =
 dom_time_s
-LIBXUL_LIBRARY
-=
-1
 include
 (
 topsrcdir

@@ -71,9 +71,6 @@ relativesrcdir
 LIBRARY_NAME
 =
 dombindings_test_s
-LIBXUL_LIBRARY
-=
-1
 #
 Do
 NOT

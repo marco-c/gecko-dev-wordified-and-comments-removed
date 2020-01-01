@@ -163,3 +163,6 @@ wifi_worker
 js
 '
 ]
+LIBXUL_LIBRARY
+=
+True
