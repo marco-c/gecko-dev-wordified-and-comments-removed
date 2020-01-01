@@ -636,7 +636,7 @@ pn
 pn_funbox
 -
 >
-fun
+function
 (
 )
 )

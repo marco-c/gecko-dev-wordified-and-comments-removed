@@ -377,7 +377,7 @@ Definition
 class
 FunctionBox
 ;
-struct
+class
 ObjectBox
 ;
 struct

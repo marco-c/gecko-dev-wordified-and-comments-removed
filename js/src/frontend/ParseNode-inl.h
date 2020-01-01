@@ -111,7 +111,7 @@ PNK_FUNCTION
 pn_funbox
 -
 >
-fun
+function
 (
 )
 -
