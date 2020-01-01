@@ -567,6 +567,26 @@ browser_results
 "
 "
     
+if
+'
+timeout
+'
+in
+test_config
+:
+      
+timeout
+=
+test_config
+[
+'
+timeout
+'
+]
+    
+else
+:
+      
 timeout
 =
 28800
