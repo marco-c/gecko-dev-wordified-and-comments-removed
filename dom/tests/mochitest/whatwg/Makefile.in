@@ -519,6 +519,10 @@ postMessage_idn_helper
 .
 html
 \
+test_postMessage_basehref
+.
+html
+\
 (
 NULL
 )
