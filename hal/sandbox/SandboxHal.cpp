@@ -91,6 +91,13 @@ unused
 .
 h
 "
+#
+include
+"
+WindowIdentifier
+.
+h
+"
 using
 namespace
 mozilla

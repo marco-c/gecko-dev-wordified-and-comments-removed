@@ -500,6 +500,10 @@ SandboxHal
 .
 cpp
 \
+WindowIdentifier
+.
+cpp
+\
 (
 NULL
 )

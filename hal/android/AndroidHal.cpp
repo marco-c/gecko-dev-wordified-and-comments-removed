@@ -8,6 +8,13 @@ h
 #
 include
 "
+WindowIdentifier
+.
+h
+"
+#
+include
+"
 AndroidBridge
 .
 h
