@@ -674,6 +674,16 @@ I
 srcdir
 )
 \
+-
+I
+(
+topsrcdir
+)
+/
+toolkit
+/
+xre
+\
 (
 NULL
 )
