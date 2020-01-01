@@ -6124,7 +6124,7 @@ undisplayedParent
 ;
 for
 (
-AncestorFilter
+TreeMatchContext
 :
 :
 AutoAncestorPusher
@@ -6132,8 +6132,6 @@ pushAncestor
 (
 undisplayed
 aTreeMatchContext
-.
-mAncestorFilter
 undisplayedParent
 ?
 undisplayedParent
@@ -6781,7 +6779,7 @@ aFrame
 ;
 for
 (
-AncestorFilter
+TreeMatchContext
 :
 :
 AutoAncestorPusher
@@ -6794,8 +6792,6 @@ IsDone
 (
 )
 aTreeMatchContext
-.
-mAncestorFilter
 content
 &
 &
@@ -7426,9 +7422,7 @@ nullptr
 ;
 treeMatchContext
 .
-mAncestorFilter
-.
-Init
+InitAncestors
 (
 parentElement
 )
