@@ -5650,6 +5650,7 @@ if
 (
 mDocument
 )
+{
 mDocument
 -
 >
@@ -5658,6 +5659,7 @@ SetContainer
 nsnull
 )
 ;
+}
 if
 (
 mPresContext

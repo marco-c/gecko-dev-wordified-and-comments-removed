@@ -132,6 +132,8 @@ public
 nsISHContainer
 public
 nsIMutationObserver
+public
+nsISHEntryInternal
 {
 public
 :
@@ -150,6 +152,7 @@ other
 NS_DECL_ISUPPORTS
 NS_DECL_NSIHISTORYENTRY
 NS_DECL_NSISHENTRY
+NS_DECL_NSISHENTRYINTERNAL
 NS_DECL_NSISHCONTAINER
 NS_DECL_NSIMUTATIONOBSERVER
 void
@@ -189,11 +192,6 @@ private
 :
 ~
 nsSHEntry
-(
-)
-;
-void
-DocumentMutated
 (
 )
 ;
