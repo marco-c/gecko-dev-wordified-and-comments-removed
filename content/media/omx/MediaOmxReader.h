@@ -81,10 +81,6 @@ mVideoSeekTimeUs
 int64_t
 mAudioSeekTimeUs
 ;
-VideoData
-*
-mLastVideoFrame
-;
 int32_t
 mSkipCount
 ;
