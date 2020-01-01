@@ -219,7 +219,7 @@ if
 frame
 )
 {
-nsIView
+nsView
 *
 view
 =

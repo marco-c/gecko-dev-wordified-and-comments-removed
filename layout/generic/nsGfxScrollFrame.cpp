@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -7155,7 +7155,7 @@ nsIFrame
 aFrame
 )
 {
-nsIView
+nsView
 *
 view
 =

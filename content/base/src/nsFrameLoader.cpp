@@ -332,7 +332,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -3363,7 +3363,7 @@ true
 ;
 }
 }
-nsIView
+nsView
 *
 view
 =
@@ -11001,7 +11001,7 @@ nsFrameLoader
 :
 SetDetachedSubdocView
 (
-nsIView
+nsView
 *
 aDetachedViews
 nsIDocument
@@ -11018,7 +11018,7 @@ mContainerDocWhileDetached
 aContainerDoc
 ;
 }
-nsIView
+nsView
 *
 nsFrameLoader
 :

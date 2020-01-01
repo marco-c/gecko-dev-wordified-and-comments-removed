@@ -532,7 +532,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "

@@ -409,7 +409,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -20836,7 +20836,7 @@ vm
 NS_ERROR_FAILURE
 )
 ;
-nsIView
+nsView
 *
 view
 =
@@ -29146,7 +29146,7 @@ Destroy
 ;
 }
 }
-nsIView
+nsView
 *
 rootViewSibling
 =
@@ -29203,7 +29203,7 @@ if
 vm
 )
 {
-nsIView
+nsView
 *
 oldRootView
 =
@@ -30159,7 +30159,7 @@ GetViewManager
 :
 nullptr
 ;
-nsIView
+nsView
 *
 newRootView
 =

@@ -82,7 +82,7 @@ view
 EXPORTS
 =
 \
-nsIView
+nsView
 .
 h
 \

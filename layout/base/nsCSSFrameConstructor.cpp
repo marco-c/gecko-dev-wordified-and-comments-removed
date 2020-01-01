@@ -10364,7 +10364,7 @@ nullptr
 nullptr
 )
 ;
-nsIView
+nsView
 *
 rootView
 =
@@ -30889,7 +30889,7 @@ ApplyRenderingChangeToTree
 "
 )
 ;
-nsIView
+nsView
 *
 view
 =

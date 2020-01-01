@@ -290,7 +290,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -2860,7 +2860,7 @@ framePos
 ;
 do
 {
-nsIView
+nsView
 *
 view
 =
@@ -9195,7 +9195,7 @@ if
 frame
 )
 {
-nsIView
+nsView
 *
 view
 =

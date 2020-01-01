@@ -2195,7 +2195,7 @@ viewOffset
 0
 )
 ;
-nsIView
+nsView
 *
 view
 =

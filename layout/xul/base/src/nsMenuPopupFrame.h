@@ -174,7 +174,7 @@ class
 nsIViewManager
 ;
 class
-nsIView
+nsView
 ;
 class
 nsMenuPopupFrame
@@ -418,7 +418,7 @@ EnsureWidget
 nsresult
 CreateWidgetForView
 (
-nsIView
+nsView
 *
 aView
 )
@@ -459,7 +459,7 @@ bool
 aSizedToPopup
 )
 ;
-nsIView
+nsView
 *
 GetRootViewForPopup
 (

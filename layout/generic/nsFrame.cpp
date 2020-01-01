@@ -103,7 +103,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -1427,7 +1427,7 @@ while
 frame
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -2655,7 +2655,7 @@ InvalidateDirectRenderingObservers
 this
 )
 ;
-nsIView
+nsView
 *
 view
 =
@@ -20122,7 +20122,7 @@ NS_DECLARE_FRAME_PROPERTY
 ViewProperty
 nullptr
 )
-nsIView
+nsView
 *
 nsIFrame
 :
@@ -20181,7 +20181,7 @@ view
 return
 static_cast
 <
-nsIView
+nsView
 *
 >
 (
@@ -20189,7 +20189,7 @@ value
 )
 ;
 }
-nsIView
+nsView
 *
 nsIFrame
 :
@@ -20211,7 +20211,7 @@ nsIFrame
 :
 SetView
 (
-nsIView
+nsView
 *
 aView
 )
@@ -21182,7 +21182,7 @@ GetOffsetFromView
 nsPoint
 &
 aOffset
-nsIView
+nsView
 *
 *
 aView
@@ -24442,7 +24442,7 @@ GetSize
 )
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -27512,7 +27512,7 @@ firstFrame
 nsPoint
 offset
 ;
-nsIView
+nsView
 *
 view
 ;
@@ -27678,7 +27678,7 @@ GetRect
 nsPoint
 offset
 ;
-nsIView
+nsView
 *
 view
 ;
@@ -27944,7 +27944,7 @@ HasView
 )
 )
 {
-nsIView
+nsView
 *
 view
 ;
@@ -28146,7 +28146,7 @@ mDesiredX
 0
 )
 ;
-nsIView
+nsView
 *
 view
 ;
@@ -31951,7 +31951,7 @@ return
 NS_OK
 ;
 }
-nsIView
+nsView
 *
 nsIFrame
 :

@@ -10282,7 +10282,7 @@ return
 false
 ;
 }
-nsIView
+nsView
 *
 view
 =

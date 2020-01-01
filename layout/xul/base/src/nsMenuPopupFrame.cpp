@@ -567,7 +567,7 @@ rv
 rv
 )
 ;
-nsIView
+nsView
 *
 ourView
 =
@@ -1043,7 +1043,7 @@ EnsureWidget
 (
 )
 {
-nsIView
+nsView
 *
 ourView
 =
@@ -1095,7 +1095,7 @@ nsMenuPopupFrame
 :
 CreateWidgetForView
 (
-nsIView
+nsView
 *
 aView
 )
@@ -2024,7 +2024,7 @@ PresContext
 (
 )
 ;
-nsIView
+nsView
 *
 view
 =
@@ -3572,7 +3572,7 @@ mVFlip
 =
 false
 ;
-nsIView
+nsView
 *
 view
 =
@@ -3726,7 +3726,7 @@ NS_FRAME_NO_MOVE_VIEW
 NS_FRAME_NO_VISIBILITY
 ;
 }
-nsIView
+nsView
 *
 nsMenuPopupFrame
 :
@@ -3738,7 +3738,7 @@ nsIFrame
 aStartFrame
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -3808,7 +3808,7 @@ view
 ;
 }
 }
-nsIView
+nsView
 *
 temp
 =
@@ -5609,7 +5609,7 @@ viewPoint
 y
 )
 ;
-nsIView
+nsView
 *
 view
 =
@@ -7733,7 +7733,7 @@ GetWidget
 (
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -7885,7 +7885,7 @@ nsGkAtoms
 label
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -8556,7 +8556,7 @@ manager
 "
 )
 ;
-nsIView
+nsView
 *
 parentView
 =
@@ -8592,7 +8592,7 @@ view
 "
 )
 ;
-nsIView
+nsView
 *
 view
 =

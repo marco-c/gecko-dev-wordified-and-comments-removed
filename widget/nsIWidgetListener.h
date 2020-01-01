@@ -26,7 +26,7 @@ nsIXULWindow
 h
 "
 class
-nsIView
+nsView
 ;
 class
 nsIPresShell
@@ -48,7 +48,7 @@ nullptr
 ;
 }
 virtual
-nsIView
+nsView
 *
 GetView
 (

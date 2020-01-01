@@ -3130,11 +3130,11 @@ if
 win
 )
 {
-nsIView
+nsView
 *
 view
 =
-nsIView
+nsView
 :
 :
 GetViewFor

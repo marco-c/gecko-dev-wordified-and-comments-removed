@@ -881,7 +881,7 @@ nsPluginInstanceOwner
 *
 mInstanceOwner
 ;
-nsIView
+nsView
 *
 mInnerView
 ;

@@ -1225,7 +1225,7 @@ ePopupOpenAndVisible
 return
 NS_OK
 ;
-nsIView
+nsView
 *
 view
 =

@@ -155,7 +155,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -15008,11 +15008,11 @@ GetHoverGeneration
 nsEventStatus
 status
 ;
-nsIView
+nsView
 *
 targetView
 =
-nsIView
+nsView
 :
 :
 GetViewFor
@@ -15068,7 +15068,7 @@ PresShell
 :
 ClearMouseCaptureOnView
 (
-nsIView
+nsView
 *
 aView
 )
@@ -15103,7 +15103,7 @@ if
 frame
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -18503,7 +18503,7 @@ aFlags
 RENDER_USE_WIDGET_LAYERS
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -21339,7 +21339,7 @@ PresShell
 :
 ComputeBackstopColor
 (
-nsIView
+nsView
 *
 aDisplayRoot
 )
@@ -21425,7 +21425,7 @@ manager
 "
 )
 ;
-nsIView
+nsView
 *
 rootView
 =
@@ -21829,11 +21829,11 @@ ev
 }
 }
 static
-nsIView
+nsView
 *
 FindFloatingViewContaining
 (
-nsIView
+nsView
 *
 aView
 nsPoint
@@ -21912,7 +21912,7 @@ nullptr
 }
 for
 (
-nsIView
+nsView
 *
 v
 =
@@ -21935,7 +21935,7 @@ GetNextSibling
 )
 )
 {
-nsIView
+nsView
 *
 r
 =
@@ -21997,11 +21997,11 @@ nullptr
 ;
 }
 static
-nsIView
+nsView
 *
 FindViewContaining
 (
-nsIView
+nsView
 *
 aView
 nsPoint
@@ -22096,7 +22096,7 @@ nullptr
 }
 for
 (
-nsIView
+nsView
 *
 v
 =
@@ -22119,7 +22119,7 @@ GetNextSibling
 )
 )
 {
-nsIView
+nsView
 *
 r
 =
@@ -22196,7 +22196,7 @@ Forget
 )
 ;
 }
-nsIView
+nsView
 *
 rootView
 =
@@ -22324,7 +22324,7 @@ AppUnitsPerDevPixel
 (
 )
 ;
-nsIView
+nsView
 *
 view
 =
@@ -22364,7 +22364,7 @@ view
 =
 rootView
 ;
-nsIView
+nsView
 *
 pointView
 =
@@ -22679,7 +22679,7 @@ PresShell
 :
 Paint
 (
-nsIView
+nsView
 *
 aViewToPaint
 const
@@ -24233,7 +24233,7 @@ if
 rootFrame
 )
 {
-nsIView
+nsView
 *
 rootView
 =
@@ -24780,7 +24780,7 @@ nsIPresShell
 aPresShell
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -30023,7 +30023,7 @@ if
 rootFrame
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -30517,7 +30517,7 @@ false
 nsPoint
 viewOffset
 ;
-nsIView
+nsView
 *
 view
 =
@@ -31077,7 +31077,7 @@ frameOrigin
 0
 )
 ;
-nsIView
+nsView
 *
 view
 =
@@ -31479,7 +31479,7 @@ mViewManager
 return
 false
 ;
-nsIView
+nsView
 *
 view
 =
@@ -33497,7 +33497,7 @@ GetVerifyReflowEnable
 )
 )
 {
-nsIView
+nsView
 *
 rootView
 =
@@ -35518,7 +35518,7 @@ nsIntRect
 r1
 r2
 ;
-nsIView
+nsView
 *
 v1
 *
@@ -37098,7 +37098,7 @@ rv
 false
 )
 ;
-nsIView
+nsView
 *
 rootView
 =
@@ -37174,7 +37174,7 @@ GetVisibleArea
 (
 )
 ;
-nsIView
+nsView
 *
 view
 =

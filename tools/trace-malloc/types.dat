@@ -23339,7 +23339,7 @@ AddToDisplayList
 (
 int
 *
-nsIView
+nsView
 *
 nsRect
 &

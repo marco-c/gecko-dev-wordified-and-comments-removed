@@ -2069,7 +2069,7 @@ if
 vm
 )
 {
-nsIView
+nsView
 *
 root
 =
@@ -2601,7 +2601,7 @@ vm
 )
 return
 ;
-nsIView
+nsView
 *
 root
 =

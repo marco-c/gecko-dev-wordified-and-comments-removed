@@ -80,7 +80,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -509,11 +509,11 @@ aFrame
 )
 ;
 static
-nsIView
+nsView
 *
 FindSiblingViewFor
 (
-nsIView
+nsView
 *
 aParentView
 nsIFrame
@@ -798,7 +798,7 @@ nsIWidget
 aWidget
 nsIntPoint
 aPt
-nsIView
+nsView
 *
 aView
 )

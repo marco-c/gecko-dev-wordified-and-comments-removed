@@ -1,9 +1,9 @@
 #
 ifndef
-nsIView_h___
+nsView_h__
 #
 define
-nsIView_h___
+nsView_h__
 #
 include
 "
@@ -131,7 +131,7 @@ define
 NS_VIEW_FLAG_TOPMOST
 0x0010
 class
-nsIView
+nsView
 MOZ_FINAL
 :
 public
@@ -174,7 +174,7 @@ mViewManager
 ;
 }
 static
-nsIView
+nsView
 *
 GetViewFor
 (
@@ -277,7 +277,7 @@ nsPoint
 GetOffsetTo
 (
 const
-nsIView
+nsView
 *
 aOther
 )
@@ -327,7 +327,7 @@ NS_VIEW_FLAG_FLOATING
 0
 ;
 }
-nsIView
+nsView
 *
 GetParent
 (
@@ -338,7 +338,7 @@ return
 mParent
 ;
 }
-nsIView
+nsView
 *
 GetFirstChild
 (
@@ -349,7 +349,7 @@ return
 mFirstChild
 ;
 }
-nsIView
+nsView
 *
 GetNextSibling
 (
@@ -633,7 +633,7 @@ mZIndex
 void
 SetParent
 (
-nsIView
+nsView
 *
 aParent
 )
@@ -646,7 +646,7 @@ aParent
 void
 SetNextSibling
 (
-nsIView
+nsView
 *
 aSibling
 )
@@ -760,7 +760,7 @@ GetPresShell
 MOZ_OVERRIDE
 ;
 virtual
-nsIView
+nsView
 *
 GetView
 (
@@ -863,7 +863,7 @@ MOZ_OVERRIDE
 ;
 virtual
 ~
-nsIView
+nsView
 (
 )
 ;
@@ -871,7 +871,7 @@ nsPoint
 GetOffsetTo
 (
 const
-nsIView
+nsView
 *
 aOther
 const
@@ -895,7 +895,7 @@ const
 ;
 private
 :
-nsIView
+nsView
 (
 nsViewManager
 *
@@ -1003,10 +1003,10 @@ IsEmpty
 void
 InsertChild
 (
-nsIView
+nsView
 *
 aChild
-nsIView
+nsView
 *
 aSibling
 )
@@ -1014,7 +1014,7 @@ aSibling
 void
 RemoveChild
 (
-nsIView
+nsView
 *
 aChild
 )
@@ -1091,7 +1091,7 @@ nsViewManager
 *
 mViewManager
 ;
-nsIView
+nsView
 *
 mParent
 ;
@@ -1099,11 +1099,11 @@ nsIWidget
 *
 mWindow
 ;
-nsIView
+nsView
 *
 mNextSibling
 ;
-nsIView
+nsView
 *
 mFirstChild
 ;

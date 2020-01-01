@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -84,7 +84,7 @@ aContext
 ;
 NS_IMETHOD_
 (
-nsIView
+nsView
 *
 )
 CreateView
@@ -94,7 +94,7 @@ nsRect
 &
 aBounds
 const
-nsIView
+nsView
 *
 aParent
 nsViewVisibility
@@ -107,7 +107,7 @@ nsViewVisibility_kShow
 ;
 NS_IMETHOD_
 (
-nsIView
+nsView
 *
 )
 GetRootView
@@ -119,7 +119,7 @@ GetRootView
 NS_IMETHOD
 SetRootView
 (
-nsIView
+nsView
 *
 aView
 )
@@ -162,7 +162,7 @@ aDoReflow
 NS_IMETHOD
 InvalidateView
 (
-nsIView
+nsView
 *
 aView
 )
@@ -172,7 +172,7 @@ aView
 NS_IMETHOD
 InvalidateViewNoSuppression
 (
-nsIView
+nsView
 *
 aView
 const
@@ -196,7 +196,7 @@ DispatchEvent
 nsGUIEvent
 *
 aEvent
-nsIView
+nsView
 *
 aViewTarget
 nsEventStatus
@@ -209,13 +209,13 @@ aStatus
 NS_IMETHOD
 InsertChild
 (
-nsIView
+nsView
 *
 aParent
-nsIView
+nsView
 *
 aChild
-nsIView
+nsView
 *
 aSibling
 bool
@@ -227,7 +227,7 @@ aAfter
 NS_IMETHOD
 RemoveChild
 (
-nsIView
+nsView
 *
 aChild
 )
@@ -237,7 +237,7 @@ aChild
 NS_IMETHOD
 MoveViewTo
 (
-nsIView
+nsView
 *
 aView
 nscoord
@@ -251,7 +251,7 @@ aY
 NS_IMETHOD
 ResizeView
 (
-nsIView
+nsView
 *
 aView
 const
@@ -269,7 +269,7 @@ false
 NS_IMETHOD
 SetViewVisibility
 (
-nsIView
+nsView
 *
 aView
 nsViewVisibility
@@ -281,7 +281,7 @@ aVisible
 NS_IMETHOD
 SetViewZIndex
 (
-nsIView
+nsView
 *
 aView
 bool
@@ -299,7 +299,7 @@ false
 NS_IMETHOD
 SetViewFloating
 (
-nsIView
+nsView
 *
 aView
 bool
@@ -474,11 +474,11 @@ aTime
 0
 ;
 static
-nsIView
+nsView
 *
 GetDisplayRootFor
 (
-nsIView
+nsView
 *
 aView
 )

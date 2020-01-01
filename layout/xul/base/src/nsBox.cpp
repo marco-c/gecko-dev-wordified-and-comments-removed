@@ -2335,7 +2335,7 @@ VisualOverflow
 )
 ;
 }
-nsIView
+nsView
 *
 view
 =

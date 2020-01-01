@@ -149,7 +149,7 @@ class
 nsIViewManager
 ;
 class
-nsIView
+nsView
 ;
 class
 nsRenderingContext
@@ -2391,7 +2391,7 @@ virtual
 nscolor
 ComputeBackstopColor
 (
-nsIView
+nsView
 *
 aDisplayRoot
 )
@@ -2664,7 +2664,7 @@ virtual
 void
 Paint
 (
-nsIView
+nsView
 *
 aViewToPaint
 const
@@ -2744,7 +2744,7 @@ virtual
 void
 ClearMouseCaptureOnView
 (
-nsIView
+nsView
 *
 aView
 )

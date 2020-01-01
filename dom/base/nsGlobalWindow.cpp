@@ -700,7 +700,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -45053,7 +45053,7 @@ vm
 NS_ERROR_FAILURE
 )
 ;
-nsIView
+nsView
 *
 rootView
 =

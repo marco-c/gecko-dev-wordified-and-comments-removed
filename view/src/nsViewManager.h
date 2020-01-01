@@ -98,7 +98,7 @@ aContext
 ;
 NS_IMETHOD_
 (
-nsIView
+nsView
 *
 )
 CreateView
@@ -108,7 +108,7 @@ nsRect
 &
 aBounds
 const
-nsIView
+nsView
 *
 aParent
 nsViewVisibility
@@ -119,7 +119,7 @@ nsViewVisibility_kShow
 ;
 NS_IMETHOD_
 (
-nsIView
+nsView
 *
 )
 GetRootView
@@ -129,7 +129,7 @@ GetRootView
 NS_IMETHOD
 SetRootView
 (
-nsIView
+nsView
 *
 aView
 )
@@ -164,7 +164,7 @@ aDoReflow
 NS_IMETHOD
 InvalidateView
 (
-nsIView
+nsView
 *
 aView
 )
@@ -172,7 +172,7 @@ aView
 NS_IMETHOD
 InvalidateViewNoSuppression
 (
-nsIView
+nsView
 *
 aView
 const
@@ -192,7 +192,7 @@ DispatchEvent
 nsGUIEvent
 *
 aEvent
-nsIView
+nsView
 *
 aTargetView
 nsEventStatus
@@ -203,13 +203,13 @@ aStatus
 NS_IMETHOD
 InsertChild
 (
-nsIView
+nsView
 *
 parent
-nsIView
+nsView
 *
 child
-nsIView
+nsView
 *
 sibling
 bool
@@ -219,10 +219,10 @@ above
 NS_IMETHOD
 InsertChild
 (
-nsIView
+nsView
 *
 parent
-nsIView
+nsView
 *
 child
 int32_t
@@ -232,7 +232,7 @@ zindex
 NS_IMETHOD
 RemoveChild
 (
-nsIView
+nsView
 *
 parent
 )
@@ -240,7 +240,7 @@ parent
 NS_IMETHOD
 MoveViewTo
 (
-nsIView
+nsView
 *
 aView
 nscoord
@@ -252,7 +252,7 @@ aY
 NS_IMETHOD
 ResizeView
 (
-nsIView
+nsView
 *
 aView
 const
@@ -268,7 +268,7 @@ false
 NS_IMETHOD
 SetViewFloating
 (
-nsIView
+nsView
 *
 aView
 bool
@@ -278,7 +278,7 @@ aFloating
 NS_IMETHOD
 SetViewVisibility
 (
-nsIView
+nsView
 *
 aView
 nsViewVisibility
@@ -288,7 +288,7 @@ aVisible
 NS_IMETHOD
 SetViewZIndex
 (
-nsIView
+nsView
 *
 aView
 bool
@@ -412,7 +412,7 @@ FlushPendingInvalidates
 void
 ProcessPendingUpdatesForView
 (
-nsIView
+nsView
 *
 aView
 bool
@@ -424,7 +424,7 @@ true
 void
 FlushDirtyRegionToWidget
 (
-nsIView
+nsView
 *
 aView
 )
@@ -439,7 +439,7 @@ aWillSendDidPaint
 void
 ReparentChildWidgets
 (
-nsIView
+nsView
 *
 aView
 nsIWidget
@@ -450,10 +450,10 @@ aNewWidget
 void
 ReparentWidgets
 (
-nsIView
+nsView
 *
 aView
-nsIView
+nsView
 *
 aParent
 )
@@ -461,7 +461,7 @@ aParent
 void
 InvalidateWidgetArea
 (
-nsIView
+nsView
 *
 aWidgetView
 const
@@ -473,7 +473,7 @@ aDamagedRegion
 void
 InvalidateViews
 (
-nsIView
+nsView
 *
 aView
 )
@@ -481,7 +481,7 @@ aView
 void
 Refresh
 (
-nsIView
+nsView
 *
 aView
 const
@@ -495,7 +495,7 @@ aWillSendDidPaint
 void
 InvalidateRectDifference
 (
-nsIView
+nsView
 *
 aView
 const
@@ -511,7 +511,7 @@ aCutOut
 void
 InvalidateHorizontalBandDifference
 (
-nsIView
+nsView
 *
 aView
 const
@@ -533,7 +533,7 @@ aInCutOut
 bool
 IsViewInserted
 (
-nsIView
+nsView
 *
 aView
 )
@@ -541,7 +541,7 @@ aView
 nsIntRect
 ViewToWidget
 (
-nsIView
+nsView
 *
 aView
 const
@@ -595,7 +595,7 @@ aPainting
 nsresult
 InvalidateView
 (
-nsIView
+nsView
 *
 aView
 const
@@ -606,7 +606,7 @@ aRect
 ;
 public
 :
-nsIView
+nsView
 *
 GetRootViewImpl
 (
@@ -722,7 +722,7 @@ mPresShell
 nsSize
 mDelayedResize
 ;
-nsIView
+nsView
 *
 mRootView
 ;

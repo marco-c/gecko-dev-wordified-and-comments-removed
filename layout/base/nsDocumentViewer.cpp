@@ -248,7 +248,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -1177,7 +1177,7 @@ const
 nsSize
 &
 aSize
-nsIView
+nsView
 *
 aContainerView
 )
@@ -1185,7 +1185,7 @@ aContainerView
 nsresult
 CreateDeviceContext
 (
-nsIView
+nsView
 *
 aContainerView
 )
@@ -2711,7 +2711,7 @@ nsPresContext
 :
 nsPresContextType
 aType
-nsIView
+nsView
 *
 aContainerView
 )
@@ -2793,7 +2793,7 @@ mDocument
 NS_ERROR_NULL_POINTER
 )
 ;
-nsIView
+nsView
 *
 containerView
 =
@@ -5120,7 +5120,7 @@ manager
 "
 )
 ;
-nsIView
+nsView
 *
 v
 =
@@ -5660,7 +5660,7 @@ if
 vm
 )
 {
-nsIView
+nsView
 *
 rootView
 =
@@ -5697,7 +5697,7 @@ GetPosition
 )
 )
 ;
-nsIView
+nsView
 *
 rootViewParent
 =
@@ -7145,7 +7145,7 @@ Release
 ;
 }
 }
-nsIView
+nsView
 *
 containerView
 =
@@ -8329,7 +8329,7 @@ const
 nsSize
 &
 aSize
-nsIView
+nsView
 *
 aContainerView
 )
@@ -8424,7 +8424,7 @@ nsPoint
 aSize
 )
 ;
-nsIView
+nsView
 *
 view
 =
@@ -8601,7 +8601,7 @@ if
 mViewManager
 )
 {
-nsIView
+nsView
 *
 oldView
 =
@@ -8639,7 +8639,7 @@ mAttachedToParent
 false
 ;
 }
-nsIView
+nsView
 *
 nsDocumentViewer
 :
@@ -8648,7 +8648,7 @@ FindContainerView
 (
 )
 {
-nsIView
+nsView
 *
 containerView
 =
@@ -8886,7 +8886,7 @@ views
 "
 )
 ;
-nsIView
+nsView
 *
 innerView
 =
@@ -8953,7 +8953,7 @@ nsDocumentViewer
 :
 CreateDeviceContext
 (
-nsIView
+nsView
 *
 aContainerView
 )

@@ -6294,7 +6294,7 @@ doBeginTransaction
 =
 true
 ;
-nsIView
+nsView
 *
 view
 =

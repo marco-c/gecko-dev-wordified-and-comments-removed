@@ -93,7 +93,7 @@ class
 nsPresContext
 ;
 class
-nsIView
+nsView
 ;
 class
 nsDOMNavigationTiming
@@ -149,9 +149,9 @@ nsPresContext
 ptr
 ]
 native
-nsIViewPtr
+nsViewPtr
 (
-nsIView
+nsView
 )
 ;
 [
@@ -1157,7 +1157,7 @@ noscript
 notxpcom
 nostdcall
 ]
-nsIViewPtr
+nsViewPtr
 findContainerView
 (
 )

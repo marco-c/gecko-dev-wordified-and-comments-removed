@@ -777,7 +777,7 @@ GetOffsetFromView
 nsPoint
 &
 aOffset
-nsIView
+nsView
 *
 *
 aView

@@ -103,7 +103,7 @@ h
 #
 include
 "
-nsIView
+nsView
 .
 h
 "
@@ -3817,7 +3817,7 @@ p
 return
 p
 ;
-nsIView
+nsView
 *
 v
 =
@@ -4910,14 +4910,14 @@ return
 aFrame
 ;
 }
-nsIView
+nsView
 *
 nsLayoutUtils
 :
 :
 FindSiblingViewFor
 (
-nsIView
+nsView
 *
 aParentView
 nsIFrame
@@ -4953,7 +4953,7 @@ nullptr
 ;
 for
 (
-nsIView
+nsView
 *
 insertBefore
 =
@@ -4995,7 +4995,7 @@ f
 {
 for
 (
-nsIView
+nsView
 *
 searchView
 =
@@ -6089,7 +6089,7 @@ NS_UNCONSTRAINEDSIZE
 )
 ;
 }
-nsIView
+nsView
 *
 view
 =
@@ -6222,7 +6222,7 @@ rootFrame
 f
 ;
 }
-nsIView
+nsView
 *
 rootView
 =
@@ -7804,7 +7804,7 @@ nsIWidget
 aWidget
 nsIntPoint
 aPt
-nsIView
+nsView
 *
 aView
 )
@@ -8577,7 +8577,7 @@ aFlags
 PAINT_WIDGET_LAYERS
 )
 {
-nsIView
+nsView
 *
 view
 =
@@ -9422,7 +9422,7 @@ PAINT_WIDGET_LAYERS
 willFlushRetainedLayers
 )
 {
-nsIView
+nsView
 *
 view
 =

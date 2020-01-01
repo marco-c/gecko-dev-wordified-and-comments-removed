@@ -406,7 +406,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-nsIView
+nsView
 *
 aView
 const
@@ -429,7 +429,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-nsIView
+nsView
 *
 aView
 nsRenderingContext
@@ -452,7 +452,7 @@ aFrame
 nsStyleContext
 *
 aStyleContext
-nsIView
+nsView
 *
 aView
 uint32_t

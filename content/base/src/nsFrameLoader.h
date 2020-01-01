@@ -101,7 +101,7 @@ class
 nsSubDocumentFrame
 ;
 class
-nsIView
+nsView
 ;
 class
 nsIInProcessContentFrameMessageManager
@@ -799,7 +799,7 @@ aTabParent
 void
 SetDetachedSubdocView
 (
-nsIView
+nsView
 *
 aDetachedView
 nsIDocument
@@ -807,7 +807,7 @@ nsIDocument
 aContainerDoc
 )
 ;
-nsIView
+nsView
 *
 GetDetachedSubdocView
 (
@@ -1042,7 +1042,7 @@ mChildMessageManager
 ;
 private
 :
-nsIView
+nsView
 *
 mDetachedSubdocViews
 ;
