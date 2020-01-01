@@ -1320,12 +1320,6 @@ generateOutOfLineCode
 (
 )
 ;
-void
-linkAbsoluteLabels
-(
-)
-{
-}
 private
 :
 void

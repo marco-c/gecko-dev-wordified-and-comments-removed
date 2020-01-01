@@ -358,6 +358,15 @@ public
 :
 virtual
 bool
+visitDouble
+(
+LDouble
+*
+ins
+)
+;
+virtual
+bool
 visitMinMaxD
 (
 LMinMaxD
