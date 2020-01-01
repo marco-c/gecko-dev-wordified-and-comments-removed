@@ -4391,6 +4391,7 @@ mNextSibling
 =
 mNextSibling
 ;
+}
 ob
 -
 >
@@ -4398,7 +4399,6 @@ ScheduleForRun
 (
 )
 ;
-}
 }
 nsDOMMutationObserver
 :
