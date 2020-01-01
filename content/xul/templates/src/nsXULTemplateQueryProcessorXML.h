@@ -95,6 +95,13 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+nsIXMLHttpRequest
+.
+h
+"
 class
 nsXULTemplateQueryProcessorXML
 ;
@@ -419,6 +426,12 @@ nsCOMPtr
 nsIXULTemplateBuilder
 >
 mTemplateBuilder
+;
+nsCOMPtr
+<
+nsIXMLHttpRequest
+>
+mRequest
 ;
 }
 ;
