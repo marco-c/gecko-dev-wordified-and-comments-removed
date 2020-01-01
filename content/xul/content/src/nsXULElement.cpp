@@ -13510,11 +13510,13 @@ NS_ERROR_UNEXPECTED
 nsCAutoString
 urlspec
 ;
-aURI
--
->
-GetSpec
+nsContentUtils
+:
+:
+GetWrapperSafeScriptFilename
 (
+aDocument
+aURI
 urlspec
 )
 ;
