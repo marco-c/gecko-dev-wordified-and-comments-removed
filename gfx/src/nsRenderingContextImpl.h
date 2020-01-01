@@ -1030,11 +1030,6 @@ mPenMode
 private
 :
 static
-nsIDrawingSurface
-*
-gBackbuffer
-;
-static
 nsSize
 gLargestRequestedSize
 ;
