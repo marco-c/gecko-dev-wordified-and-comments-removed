@@ -1934,7 +1934,7 @@ GeckoApp
 .
 surfaceView
 .
-setupEditable
+setEditable
 (
 text
 )
