@@ -212,15 +212,6 @@ hovered
 <
 !
 ENTITY
-title
-"
-Box
-Model
-"
->
-<
-!
-ENTITY
 margins
 .
 tooltip

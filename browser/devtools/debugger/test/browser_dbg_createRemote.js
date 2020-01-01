@@ -67,7 +67,7 @@ gDebugger
 =
 gWindow
 .
-panelWin
+contentWindow
 ;
 info
 (

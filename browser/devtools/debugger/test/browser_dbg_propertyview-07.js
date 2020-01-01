@@ -53,7 +53,7 @@ gDebugger
 =
 gPane
 .
-panelWin
+contentWindow
 ;
 testFrameParameters
 (

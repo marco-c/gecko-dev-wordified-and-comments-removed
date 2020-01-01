@@ -67,7 +67,7 @@ gDebugger
 =
 gPane
 .
-panelWin
+contentWindow
 ;
 testInitialLoad
 (

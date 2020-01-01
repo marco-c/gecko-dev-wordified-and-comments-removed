@@ -95,10 +95,6 @@ AutocompletePopup
 .
 jsm
 \
-WebConsolePanel
-.
-jsm
-\
 (
 NULL
 )

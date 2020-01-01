@@ -123,7 +123,7 @@ gDebugger
 =
 gPane
 .
-panelWin
+contentWindow
 ;
 gScripts
 =

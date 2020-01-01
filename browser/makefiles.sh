@@ -349,7 +349,7 @@ browser
 /
 devtools
 /
-inspector
+highlighter
 /
 Makefile
 browser
@@ -845,7 +845,7 @@ browser
 /
 devtools
 /
-inspector
+highlighter
 /
 test
 /

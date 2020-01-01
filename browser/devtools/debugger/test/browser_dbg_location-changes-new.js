@@ -59,7 +59,7 @@ gDebugger
 =
 gPane
 .
-panelWin
+contentWindow
 ;
 gDebugger
 .
