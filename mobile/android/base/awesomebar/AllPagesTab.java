@@ -837,10 +837,11 @@ null
 int
 visibility
 =
-searchTerm
+TextUtils
 .
 isEmpty
 (
+searchTerm
 )
 ?
 View
