@@ -326,6 +326,11 @@ dom
 =
 [
 '
+BarProps
+.
+h
+'
+'
 DOMCursor
 .
 h
@@ -361,6 +366,11 @@ CPP_SOURCES
 =
 [
 '
+BarProps
+.
+cpp
+'
+'
 Crypto
 .
 cpp
@@ -387,11 +397,6 @@ cpp
 '
 '
 URL
-.
-cpp
-'
-'
-nsBarProps
 .
 cpp
 '
