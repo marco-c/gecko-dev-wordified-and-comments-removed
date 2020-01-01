@@ -515,7 +515,14 @@ export
 PERSONAL_MAILCAP
 =
 (
+shell
+cd
+(
 srcdir
+)
+&
+&
+pwd
 )
 /
 mailcap
