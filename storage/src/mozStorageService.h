@@ -35,6 +35,13 @@ h
 #
 include
 "
+prlock
+.
+h
+"
+#
+include
+"
 mozIStorageService
 .
 h
@@ -75,6 +82,10 @@ virtual
 mozStorageService
 (
 )
+;
+PRLock
+*
+mLock
 ;
 protected
 :
