@@ -217,6 +217,10 @@ mMaxPersistConnsPerProxy
 (
 0
 )
+mIsShuttingDown
+(
+PR_FALSE
+)
 mNumActiveConns
 (
 0
@@ -228,10 +232,6 @@ mNumIdleConns
 mTimeOfNextWakeUp
 (
 LL_MAXUINT
-)
-mIsShuttingDown
-(
-PR_FALSE
 )
 {
 LOG
