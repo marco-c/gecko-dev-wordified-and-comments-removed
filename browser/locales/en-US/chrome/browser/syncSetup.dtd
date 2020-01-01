@@ -622,11 +622,14 @@ K
 <
 !
 ENTITY
-syncKeyGenerate
+syncGenerateNewKey
 .
 label
 "
 Generate
+a
+new
+key
 "
 >
 <

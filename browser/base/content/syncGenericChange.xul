@@ -1003,7 +1003,7 @@ value
 =
 "
 &
-syncKeyGenerate
+syncGenerateNewKey
 .
 label
 ;
