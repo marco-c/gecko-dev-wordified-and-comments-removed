@@ -10699,7 +10699,9 @@ tm
 >
 recorder
 )
-return
+{
+if
+(
 js_ContinueRecording
 (
 cx
@@ -10710,7 +10712,11 @@ recorder
 oldpc
 inlineCallCount
 )
+)
+return
+true
 ;
+}
 jsbytecode
 *
 pc
