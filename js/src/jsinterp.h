@@ -628,7 +628,10 @@ rval
 js_InternalInvoke
 (
 cx
+OBJECT_TO_JSVAL
+(
 obj
+)
 fval
 0
 argc
@@ -650,7 +653,10 @@ rval
 js_InternalInvoke
 (
 cx
+OBJECT_TO_JSVAL
+(
 obj
+)
 fval
 JSINVOKE_CONSTRUCT
 argc
@@ -664,9 +670,8 @@ js_InternalInvoke
 JSContext
 *
 cx
-JSObject
-*
-obj
+jsval
+thisv
 jsval
 fval
 uintN
