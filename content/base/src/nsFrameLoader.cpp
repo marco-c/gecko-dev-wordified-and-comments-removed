@@ -5921,6 +5921,11 @@ do_QueryInterface
 container
 )
 ;
+NS_ENSURE_STATE
+(
+parentAsWebNav
+)
+;
 mDocShell
 =
 do_CreateInstance
@@ -6159,6 +6164,11 @@ getter_AddRefs
 (
 parentTreeOwner
 )
+)
+;
+NS_ENSURE_STATE
+(
+parentTreeOwner
 )
 ;
 mIsTopLevelContent
