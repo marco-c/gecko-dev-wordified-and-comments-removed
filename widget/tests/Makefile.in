@@ -562,6 +562,10 @@ test_input_events_on_deactive_window
 .
 xul
 \
+test_position_on_resize
+.
+xul
+\
 (
 NULL
 )
