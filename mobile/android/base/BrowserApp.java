@@ -4157,6 +4157,7 @@ getPageHeight
 (
 )
 <
+=
 aMetrics
 .
 getHeight
