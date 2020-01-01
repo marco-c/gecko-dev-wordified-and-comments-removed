@@ -208,6 +208,8 @@ includes
 image
 |
 deck
+|
+stack
 "
 >
 <
@@ -315,6 +317,15 @@ userAction
 xul
 :
 hbox
+>
+<
+children
+includes
+=
+"
+hbox
+"
+/
 >
 <
 /
