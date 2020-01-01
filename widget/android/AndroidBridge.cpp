@@ -8262,7 +8262,7 @@ FireAndWaitForTracerEvent
 ;
 mHasRun
 =
-PR_TRUE
+true
 ;
 mTracerCondVar
 -
@@ -8301,7 +8301,7 @@ mTracerLock
 ;
 mHasRun
 =
-PR_FALSE
+false
 ;
 mMainThread
 -
@@ -8342,7 +8342,7 @@ mTracerLock
 ;
 mHasRun
 =
-PR_TRUE
+true
 ;
 mTracerCondVar
 -
@@ -8362,7 +8362,7 @@ CondVar
 *
 mTracerCondVar
 ;
-PRBool
+bool
 mHasRun
 ;
 nsCOMPtr

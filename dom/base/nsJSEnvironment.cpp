@@ -14897,7 +14897,7 @@ void
 aClosure
 )
 {
-PRBool
+bool
 enableCompartmentGC
 =
 Preferences
@@ -14916,7 +14916,7 @@ gc_per_compartment
 "
 )
 ;
-PRBool
+bool
 enableIncrementalGC
 =
 Preferences

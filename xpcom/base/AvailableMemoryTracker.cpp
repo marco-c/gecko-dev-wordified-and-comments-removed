@@ -985,10 +985,10 @@ DWORD
 aOffset
 )
 {
-PRBool
+bool
 doCheck
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1083,7 +1083,7 @@ size
 ;
 doCheck
 =
-PR_TRUE
+true
 ;
 }
 }

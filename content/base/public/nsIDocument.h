@@ -3634,7 +3634,7 @@ aWindowSizes
 )
 const
 ;
-PRBool
+bool
 MayHaveDOMMutationObservers
 (
 )

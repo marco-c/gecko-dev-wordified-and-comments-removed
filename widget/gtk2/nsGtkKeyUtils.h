@@ -341,7 +341,7 @@ aGdkKeyEvent
 )
 ;
 static
-PRBool
+bool
 IsBasicLatinLetterOrNumeral
 (
 PRUint32

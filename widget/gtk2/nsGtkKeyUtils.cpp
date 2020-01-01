@@ -3407,7 +3407,7 @@ return
 level
 ;
 }
-PRBool
+bool
 KeymapWrapper
 :
 :
@@ -3745,7 +3745,7 @@ aGdkKeyEvent
 group
 )
 ;
-PRBool
+bool
 isLatin
 =
 (
@@ -3812,7 +3812,7 @@ altCharCodes
 )
 ;
 }
-PRBool
+bool
 needLatinKeyCodes
 =
 !
