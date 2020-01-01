@@ -6234,7 +6234,6 @@ else
 SetCheckedChangedInternal
 (
 aCheckedChanged
-aNotify
 )
 ;
 }
@@ -6247,8 +6246,6 @@ SetCheckedChangedInternal
 (
 PRBool
 aCheckedChanged
-PRBool
-aNotify
 )
 {
 PRBool
@@ -6267,9 +6264,6 @@ aCheckedChanged
 ;
 if
 (
-aNotify
-&
-&
 checkedChangedBefore
 !
 =
@@ -6294,7 +6288,7 @@ upd
 (
 document
 UPDATE_CONTENT_STATE
-aNotify
+PR_TRUE
 )
 ;
 document
@@ -13596,15 +13590,11 @@ nsHTMLInputElement
 :
 AddedToRadioGroup
 (
-PRBool
-aNotify
 )
 {
-aNotify
+PRBool
+notify
 =
-aNotify
-&
-&
 !
 GET_BOOLBIT
 (
@@ -13643,7 +13633,7 @@ GetChecked
 {
 RadioSetChecked
 (
-aNotify
+notify
 )
 ;
 }
@@ -13690,13 +13680,12 @@ return
 VisitGroup
 (
 visitor
-aNotify
+notify
 )
 ;
 SetCheckedChangedInternal
 (
 checkedChanged
-aNotify
 )
 ;
 nsCOMPtr
@@ -16537,7 +16526,6 @@ radio
 SetCheckedChangedInternal
 (
 mCheckedChanged
-PR_TRUE
 )
 ;
 return

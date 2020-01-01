@@ -832,8 +832,6 @@ SetCheckedChangedInternal
 (
 PRBool
 aCheckedChanged
-PRBool
-aNotify
 )
 ;
 PRBool
@@ -853,10 +851,6 @@ BF_CHECKED_CHANGED
 void
 AddedToRadioGroup
 (
-PRBool
-aNotify
-=
-PR_TRUE
 )
 ;
 void
