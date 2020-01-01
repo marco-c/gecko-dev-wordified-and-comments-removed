@@ -3617,6 +3617,13 @@ HB_DIRECTION_LTR
 hb_buffer_set_script
 (
 buffer
+aRunScript
+<
+=
+HB_SCRIPT_INHERITED
+?
+HB_SCRIPT_LATIN
+:
 hb_script_t
 (
 aRunScript
