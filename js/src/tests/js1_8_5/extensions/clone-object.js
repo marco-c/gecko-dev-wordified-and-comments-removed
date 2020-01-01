@@ -1408,7 +1408,7 @@ Object
 defineProperty
 (
 b
-AttributeName
+QName
 (
 uri
 "

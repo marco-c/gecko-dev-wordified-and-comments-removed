@@ -44,7 +44,7 @@ defineProperty
 this
 \
 new
-AttributeName
+QName
 \
 (
 {

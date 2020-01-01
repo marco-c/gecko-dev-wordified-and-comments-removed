@@ -12641,14 +12641,9 @@ if
 obj
 -
 >
-getClass
+isGlobal
 (
 )
--
->
-flags
-&
-JSCLASS_IS_GLOBAL
 )
 {
 JSObject

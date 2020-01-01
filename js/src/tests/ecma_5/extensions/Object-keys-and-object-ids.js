@@ -15,7 +15,7 @@ defineProperty
 (
 o
 new
-AttributeName
+QName
 {
 enumerable
 :
@@ -64,7 +64,7 @@ defineProperty
 (
 o
 new
-AttributeName
+QName
 {
 enumerable
 :
