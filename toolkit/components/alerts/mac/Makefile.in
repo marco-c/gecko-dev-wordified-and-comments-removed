@@ -90,11 +90,15 @@ FORCE_SHARED_LIB
 CMMSRCS
 =
 \
-nsGrowlAlertsService
+nsMacAlertsService
 .
 mm
 \
 mozGrowlDelegate
+.
+mm
+\
+mozNotificationCenterDelegate
 .
 mm
 \
@@ -103,6 +107,10 @@ nsAlertsImageLoadListener
 mm
 \
 nsNotificationsList
+.
+mm
+\
+ObserverPair
 .
 mm
 \
@@ -151,7 +159,7 @@ NULL
 EXPORTS
 =
 \
-nsGrowlAlertsService
+nsMacAlertsService
 .
 h
 \
