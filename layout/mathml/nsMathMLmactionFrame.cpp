@@ -477,6 +477,11 @@ StyleSet
 ResolveStyleFor
 (
 aContent
+-
+>
+AsElement
+(
+)
 parentStyleContext
 )
 ;

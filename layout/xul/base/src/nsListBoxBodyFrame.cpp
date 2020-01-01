@@ -2619,6 +2619,11 @@ StyleSet
 ResolveStyleFor
 (
 firstRowContent
+-
+>
+AsElement
+(
+)
 nsnull
 )
 ;

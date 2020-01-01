@@ -1411,6 +1411,11 @@ mFrame
 GetContent
 (
 )
+-
+>
+AsElement
+(
+)
 nsCSSPseudoElements
 :
 :
@@ -1429,6 +1434,11 @@ mFrame
 -
 >
 GetContent
+(
+)
+-
+>
+AsElement
 (
 )
 nsCSSPseudoElements

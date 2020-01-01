@@ -571,6 +571,11 @@ StyleSet
 ResolvePseudoElementStyle
 (
 aContent
+-
+>
+AsElement
+(
+)
 pseudoType
 aParentStyleContext
 )
