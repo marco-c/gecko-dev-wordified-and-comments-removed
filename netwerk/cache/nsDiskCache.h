@@ -113,6 +113,15 @@ kBlockFileEstimatedSizeError
 kFlushHeaderError
 =
 22
+kCacheCleanFilePathError
+=
+23
+kCacheCleanOpenFileError
+=
+24
+kCacheCleanTimerError
+=
+25
 }
 ;
 static
