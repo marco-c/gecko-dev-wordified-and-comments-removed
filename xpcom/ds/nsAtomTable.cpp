@@ -1928,7 +1928,7 @@ aMallocSizeOf
 ;
 }
 return
-0
+n
 ;
 }
 #
