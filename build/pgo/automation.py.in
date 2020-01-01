@@ -2195,6 +2195,7 @@ testURL
 env
 app
 profileDir
+extraArgs
 )
 :
 "
@@ -2332,6 +2333,12 @@ profile
 profileDirectory
 testURL
 )
+)
+args
+.
+extend
+(
+extraArgs
 )
 proc
 =
