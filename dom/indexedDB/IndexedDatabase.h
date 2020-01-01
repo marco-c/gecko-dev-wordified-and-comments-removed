@@ -137,6 +137,13 @@ IDBDatabase
 class
 IDBTransaction
 ;
+enum
+FactoryPrivilege
+{
+Content
+Chrome
+}
+;
 template
 <
 class
