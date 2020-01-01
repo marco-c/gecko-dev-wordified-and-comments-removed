@@ -8970,9 +8970,9 @@ event
 }
 nsCOMPtr
 <
-nsIContent
+nsINode
 >
-content
+node
 (
 do_QueryInterface
 (
@@ -8983,7 +8983,7 @@ aDOMNode
 PRUint32
 count
 =
-content
+node
 -
 >
 GetChildCount
@@ -9014,7 +9014,7 @@ childNode
 =
 do_QueryInterface
 (
-content
+node
 -
 >
 GetChildAt
