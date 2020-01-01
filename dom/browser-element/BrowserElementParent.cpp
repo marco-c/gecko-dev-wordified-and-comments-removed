@@ -84,6 +84,10 @@ CreateIframe
 Element
 *
 aOpenerFrameElement
+const
+nsAString
+&
+aName
 )
 {
 nsNodeInfoManager
@@ -208,6 +212,20 @@ false
 )
 ;
 }
+popupFrameElement
+-
+>
+SetAttr
+(
+kNameSpaceID_None
+nsGkAtoms
+:
+:
+name
+aName
+false
+)
+;
 return
 popupFrameElement
 .
@@ -504,6 +522,7 @@ popupFrameElement
 CreateIframe
 (
 openerFrameElement
+aName
 )
 ;
 popupFrameElement
@@ -653,6 +672,7 @@ popupFrameElement
 CreateIframe
 (
 openerFrameElement
+aName
 )
 ;
 NS_ENSURE_TRUE
