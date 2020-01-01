@@ -2732,11 +2732,14 @@ nsIDocument
 >
 doc
 =
+do_QueryInterface
+(
 win
 -
 >
-GetExtantDoc
+GetExtantDocument
 (
+)
 )
 ;
 if

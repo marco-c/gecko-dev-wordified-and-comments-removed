@@ -1646,11 +1646,14 @@ nsIDocument
 >
 callingDoc
 =
+do_QueryInterface
+(
 nsContentUtils
 :
 :
 GetDocumentFromContext
 (
+)
 )
 ;
 nsIURI

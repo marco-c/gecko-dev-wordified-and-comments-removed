@@ -1071,14 +1071,14 @@ GetWindowFromCaller
 )
 ;
 static
-nsIDocument
+nsIDOMDocument
 *
 GetDocumentFromCaller
 (
 )
 ;
 static
-nsIDocument
+nsIDOMDocument
 *
 GetDocumentFromContext
 (

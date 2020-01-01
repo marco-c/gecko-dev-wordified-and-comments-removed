@@ -6567,11 +6567,14 @@ nsIDocument
 >
 callerDoc
 =
+do_QueryInterface
+(
 nsContentUtils
 :
 :
 GetDocumentFromContext
 (
+)
 )
 ;
 if

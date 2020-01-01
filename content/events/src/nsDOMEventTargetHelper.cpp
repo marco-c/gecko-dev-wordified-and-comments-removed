@@ -133,7 +133,7 @@ tmp
 mOwnerWindow
 -
 >
-GetExtantDoc
+GetExtantDocument
 (
 )
 )
@@ -144,7 +144,7 @@ tmp
 mOwnerWindow
 -
 >
-GetExtantDoc
+GetExtantDocument
 (
 )
 -
