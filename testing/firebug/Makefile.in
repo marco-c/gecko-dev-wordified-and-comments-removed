@@ -555,6 +555,14 @@ fb_run
 .
 py
 \
+fb
+-
+test
+-
+runner
+.
+config
+\
 (
 NULL
 )
