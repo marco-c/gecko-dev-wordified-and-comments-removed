@@ -181,7 +181,7 @@ manifest
 (
 NULL
 )
-EXTRA_COMPONENTS
+DISABLED_EXTRA_COMPONENTS
 =
 \
 addonManager

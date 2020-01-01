@@ -153,3 +153,13 @@ nsFileView
 cpp
 '
 ]
+EXTRA_COMPONENTS
++
+=
+[
+'
+nsFilePicker
+.
+js
+'
+]

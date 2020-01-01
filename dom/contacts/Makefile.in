@@ -83,7 +83,7 @@ srcdir
 )
 /
 fallback
-EXTRA_COMPONENTS
+DISABLED_EXTRA_COMPONENTS
 =
 \
 ContactManager

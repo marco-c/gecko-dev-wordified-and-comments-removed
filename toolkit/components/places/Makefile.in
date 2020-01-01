@@ -109,7 +109,7 @@ srcdir
 .
 /
 build
-EXTRA_COMPONENTS
+DISABLED_EXTRA_COMPONENTS
 =
 \
 toolkitplaces
@@ -141,7 +141,7 @@ NULL
 )
 ifdef
 MOZ_XUL
-EXTRA_COMPONENTS
+DISABLED_EXTRA_COMPONENTS
 +
 =
 nsPlacesAutoComplete

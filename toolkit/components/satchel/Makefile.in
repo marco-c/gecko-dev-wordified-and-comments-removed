@@ -107,7 +107,7 @@ build
 (
 NULL
 )
-EXTRA_COMPONENTS
+DISABLED_EXTRA_COMPONENTS
 =
 \
 nsFormAutoComplete

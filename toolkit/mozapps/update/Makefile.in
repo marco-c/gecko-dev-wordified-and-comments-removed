@@ -75,7 +75,7 @@ config
 autoconf
 .
 mk
-EXTRA_COMPONENTS
+DISABLED_EXTRA_COMPONENTS
 =
 \
 nsUpdateTimerManager
@@ -106,7 +106,7 @@ js
 (
 NULL
 )
-EXTRA_COMPONENTS
+DISABLED_EXTRA_COMPONENTS
 +
 =
 \

@@ -76,7 +76,7 @@ config
 config
 .
 mk
-EXTRA_COMPONENTS
+DISABLED_EXTRA_COMPONENTS
 =
 nsHelperAppDlg
 .

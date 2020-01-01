@@ -153,3 +153,13 @@ Telemetry
 cpp
 '
 ]
+EXTRA_COMPONENTS
++
+=
+[
+'
+TelemetryPing
+.
+manifest
+'
+]

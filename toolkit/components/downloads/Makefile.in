@@ -131,7 +131,7 @@ toolkit
 '
 s
 .
-EXTRA_COMPONENTS
+DISABLED_EXTRA_COMPONENTS
 =
 \
 nsDownloadManagerUI
