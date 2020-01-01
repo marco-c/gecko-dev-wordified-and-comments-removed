@@ -11342,6 +11342,13 @@ QuoteNodeProperty
 )
 GK_ATOM
 (
+labelMouseDownPtProperty
+"
+LabelMouseDownPtProperty
+"
+)
+GK_ATOM
+(
 Japanese
 "
 ja
