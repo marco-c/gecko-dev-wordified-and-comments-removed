@@ -33,11 +33,6 @@ function
 {
 }
 ;
-dumpObject
-(
-obj
-)
-;
 return
 newval
 ;
