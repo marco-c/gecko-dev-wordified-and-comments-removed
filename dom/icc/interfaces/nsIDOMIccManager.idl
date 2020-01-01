@@ -1497,6 +1497,12 @@ MozStkLocationEvent
 -
 MozStkCallEvent
 *
+-
+MozStkLanguageSelectionEvent
+*
+-
+MozStkGeneralEvent
+*
 /
 void
 sendStkEventDownload
