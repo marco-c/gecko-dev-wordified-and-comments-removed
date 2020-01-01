@@ -788,8 +788,6 @@ OK
 )
 ;
 }
-yield
-;
 self
 .
 done
