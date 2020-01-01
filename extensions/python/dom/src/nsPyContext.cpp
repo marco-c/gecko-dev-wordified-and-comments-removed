@@ -1991,7 +1991,7 @@ mDelegate
 CompileEventHandler
 "
 "
-sNNsi
+sNNsii
 "
 AtomToEventHandlerName
 (
