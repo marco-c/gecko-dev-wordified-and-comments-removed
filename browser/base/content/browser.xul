@@ -2921,6 +2921,15 @@ disabled
 "
 true
 "
+tooltiptext
+=
+"
+&
+backForwardMenu
+.
+tooltip
+;
+"
 >
 <
 !
