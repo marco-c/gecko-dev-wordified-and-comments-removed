@@ -6862,7 +6862,7 @@ format
 )
 <
 =
-CAIRO_FORMAT_A1
+CAIRO_FORMAT_RGB16_565
 )
 #
 define
