@@ -350,6 +350,9 @@ uint16
 SlotList
 ;
 struct
+TypeMap
+;
+struct
 REFragment
 ;
 typedef
@@ -670,6 +673,10 @@ reservedObjects
 REHashMap
 *
 reFragments
+;
+TypeMap
+*
+cachedTempTypeMap
 ;
 #
 ifdef
