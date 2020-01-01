@@ -2685,7 +2685,7 @@ nsISupports
 data
 )
 ;
-uint32_t
+int32_t
 counter
 =
 0
