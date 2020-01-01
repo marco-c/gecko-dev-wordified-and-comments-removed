@@ -160,7 +160,7 @@ equals
 (
 Ci
 .
-nsINavHistoryResultObserver
+nsINavHistoryResultViewer
 )
 |
 |
@@ -4356,6 +4356,16 @@ if
 this
 .
 _result
+!
+=
+val
+)
+{
+if
+(
+this
+.
+_result
 )
 this
 .
@@ -4398,6 +4408,7 @@ _finishInit
 (
 )
 ;
+}
 return
 val
 ;
@@ -6173,10 +6184,9 @@ this
 .
 _result
 .
-removeObserver
-(
-this
-)
+viewer
+=
+null
 ;
 }
 if
