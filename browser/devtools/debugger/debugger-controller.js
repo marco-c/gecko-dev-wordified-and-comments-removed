@@ -5262,12 +5262,6 @@ _hideBreakpoint
 aBreakpointClient
 )
 ;
-aBreakpointClient
-.
-remove
-(
-)
-;
 return
 ;
 }
