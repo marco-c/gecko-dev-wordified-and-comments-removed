@@ -144,6 +144,8 @@ SetDocumentCharset
 nsACString
 &
 aCharset
+PRInt32
+aCharsetSource
 )
 ;
 void

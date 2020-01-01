@@ -3597,6 +3597,8 @@ SetDocumentCharset
 nsACString
 &
 aCharset
+PRInt32
+aCharsetSource
 )
 {
 nsHtml5TreeOperation
@@ -3628,6 +3630,7 @@ Init
 (
 eTreeOpSetDocumentCharset
 aCharset
+aCharsetSource
 )
 ;
 }

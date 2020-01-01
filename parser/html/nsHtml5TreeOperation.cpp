@@ -2963,6 +2963,11 @@ mOne
 .
 charPtr
 ;
+PRInt32
+charsetSource
+=
+mInt
+;
 nsDependentCString
 dependentString
 (
@@ -2972,9 +2977,10 @@ str
 aBuilder
 -
 >
-SetDocumentCharset
+SetDocumentCharsetAndSource
 (
 dependentString
+charsetSource
 )
 ;
 return
