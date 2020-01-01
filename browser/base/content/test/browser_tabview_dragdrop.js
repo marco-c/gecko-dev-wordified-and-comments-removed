@@ -97,7 +97,7 @@ groupOne
 new
 contentWindow
 .
-Group
+GroupItem
 (
 [
 ]
@@ -129,7 +129,7 @@ groupTwo
 new
 contentWindow
 .
-Group
+GroupItem
 (
 [
 ]
@@ -284,7 +284,7 @@ groupOne
 =
 contentWindow
 .
-Groups
+GroupItems
 .
 group
 (
@@ -296,7 +296,7 @@ groupTwo
 =
 contentWindow
 .
-Groups
+GroupItems
 .
 group
 (
@@ -330,7 +330,7 @@ is
 groupOneTabItemCount
 1
 "
-Group
+GroupItem
 one
 has
 a
@@ -343,7 +343,7 @@ is
 groupTwoTabItemCount
 1
 "
-Group
+GroupItem
 two
 has
 two
