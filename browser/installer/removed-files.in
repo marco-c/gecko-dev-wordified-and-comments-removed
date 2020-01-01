@@ -2776,11 +2776,6 @@ install
 rdf
 modules
 /
-ISO8601DateUtils
-.
-jsm
-modules
-/
 JSON
 .
 jsm
@@ -7572,6 +7567,11 @@ jsm
 modules
 /
 InlineSpellChecker
+.
+jsm
+modules
+/
+ISO8601DateUtils
 .
 jsm
 modules
