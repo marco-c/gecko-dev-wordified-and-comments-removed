@@ -338,6 +338,12 @@ moz
 -
 buttonhovertext
 ;
+text
+-
+shadow
+:
+none
+;
 }
 checkbox
 :
