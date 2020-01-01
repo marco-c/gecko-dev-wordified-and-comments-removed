@@ -248,7 +248,7 @@ nsCOMPtr
 <
 nsIAccessibleHyperText
 >
-accHyperlink
+hyperText
 ;
 accWrap
 -
@@ -261,13 +261,13 @@ nsIAccessibleHyperText
 )
 getter_AddRefs
 (
-accHyperlink
+hyperText
 )
 )
 ;
 NS_ENSURE_TRUE
 (
-accHyperlink
+hyperText
 -
 1
 )
@@ -281,7 +281,7 @@ count
 nsresult
 rv
 =
-accHyperlink
+hyperText
 -
 >
 GetLinks
@@ -336,7 +336,7 @@ nsCOMPtr
 <
 nsIAccessibleHyperText
 >
-accHyperlink
+hyperText
 ;
 accWrap
 -
@@ -349,13 +349,13 @@ nsIAccessibleHyperText
 )
 getter_AddRefs
 (
-accHyperlink
+hyperText
 )
 )
 ;
 NS_ENSURE_TRUE
 (
-accHyperlink
+hyperText
 -
 1
 )
@@ -369,7 +369,7 @@ index
 nsresult
 rv
 =
-accHyperlink
+hyperText
 -
 >
 GetLinkIndex

@@ -241,11 +241,6 @@ nsnull
 ;
 protected
 :
-PRBool
-IsHyperText
-(
-)
-;
 nsresult
 GetTextHelper
 (
