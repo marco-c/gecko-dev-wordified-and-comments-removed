@@ -3838,7 +3838,7 @@ if
 readSuccess
 )
 return
-true
+false
 ;
 try
 {
