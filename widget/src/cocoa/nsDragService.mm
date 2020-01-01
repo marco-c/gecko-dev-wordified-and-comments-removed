@@ -1212,6 +1212,10 @@ gfxASurface
 >
 surface
 ;
+nsPresContext
+*
+pc
+;
 nsresult
 rv
 =
@@ -1236,6 +1240,8 @@ getter_AddRefs
 (
 surface
 )
+&
+pc
 )
 ;
 if
