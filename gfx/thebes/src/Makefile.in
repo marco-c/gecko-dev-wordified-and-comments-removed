@@ -514,6 +514,9 @@ cpp
 gfxQPainterSurface
 .
 cpp
+gfxSharedImageSurface
+.
+cpp
 CPPSRCS
 +
 =
