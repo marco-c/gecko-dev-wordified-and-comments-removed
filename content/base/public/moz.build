@@ -358,11 +358,6 @@ nsIStyleSheetLinkingElement
 h
 '
 '
-nsIXPathEvaluatorInternal
-.
-h
-'
-'
 nsLineBreaker
 .
 h
