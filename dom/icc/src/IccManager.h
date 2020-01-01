@@ -124,15 +124,6 @@ this
 )
 ;
 }
-nsresult
-InternalDispatchEvent
-(
-const
-nsAString
-&
-aType
-)
-;
 }
 ;
 }

@@ -153,15 +153,6 @@ hal
 SwitchState
 mHeadphoneState
 ;
-nsresult
-DispatchTrustedEventToSelf
-(
-const
-nsAString
-&
-aEventName
-)
-;
 }
 ;
 }

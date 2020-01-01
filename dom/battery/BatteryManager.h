@@ -132,15 +132,6 @@ HasSupport
 ;
 private
 :
-nsresult
-DispatchTrustedEventToSelf
-(
-const
-nsAString
-&
-aEventName
-)
-;
 void
 UpdateFromBatteryInfo
 (

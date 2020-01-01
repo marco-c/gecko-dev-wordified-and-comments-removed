@@ -113,15 +113,6 @@ nsDOMEventTargetHelper
 )
 private
 :
-nsresult
-DispatchTrustedEventToSelf
-(
-const
-nsAString
-&
-aEventName
-)
-;
 void
 UpdateFromNetworkInfo
 (
