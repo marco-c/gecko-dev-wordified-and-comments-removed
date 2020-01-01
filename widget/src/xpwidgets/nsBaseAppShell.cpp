@@ -310,6 +310,10 @@ thread
 THREAD_EVENT_STARVATION_LIMIT
 )
 ;
+mProcessedGeckoEvents
+=
+PR_TRUE
+;
 mEventloopNestingState
 =
 prevVal
@@ -740,6 +744,10 @@ needEvent
 =
 mayWait
 ;
+mProcessedGeckoEvents
+=
+PR_FALSE
+;
 if
 (
 mFavorPerf
@@ -827,6 +835,10 @@ NS_HasPendingEvents
 (
 thr
 )
+&
+&
+!
+mProcessedGeckoEvents
 )
 {
 if

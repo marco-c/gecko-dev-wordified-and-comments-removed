@@ -180,6 +180,9 @@ mExiting
 PRPackedBool
 mBlockNativeEvent
 ;
+PRPackedBool
+mProcessedGeckoEvents
+;
 }
 ;
 #
