@@ -1216,13 +1216,12 @@ i
 {
 if
 (
-!
 retval
 [
 i
 ]
 .
-Length
+IsEmpty
 (
 )
 )

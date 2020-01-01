@@ -614,6 +614,15 @@ bits
 ;
 virtual
 bool
+RecvGetShowPasswordSetting
+(
+PRBool
+*
+showPassword
+)
+;
+virtual
+bool
 RecvStartVisitedQuery
 (
 const
