@@ -1007,6 +1007,9 @@ eq
 then
 dpath
 =
+LC_MESSAGES
+=
+C
 type
 {
 d
@@ -1218,6 +1221,9 @@ eq
 then
 crc_prog
 =
+LC_MESSAGES
+=
+C
 type
 md5sum
 2
@@ -1642,6 +1648,9 @@ eq
 then
 debugger
 =
+LC_MESSAGES
+=
+C
 type
 moz_debugger
 |
