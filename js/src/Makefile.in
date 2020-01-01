@@ -1760,6 +1760,10 @@ MoveResolver
 .
 cpp
 \
+RangeAnalysis
+.
+cpp
+\
 Snapshots
 .
 cpp

@@ -77,6 +77,9 @@ lsra
 bool
 inlining
 ;
+bool
+rangeAnalysis
+;
 uint32
 usesBeforeCompile
 ;
@@ -126,6 +129,10 @@ lsra
 true
 )
 inlining
+(
+true
+)
+rangeAnalysis
 (
 true
 )
