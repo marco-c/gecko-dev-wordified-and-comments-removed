@@ -107,8 +107,3 @@ DOMCI_DATA
 WebGLExtensionLoseContext
 void
 )
-DOMCI_DATA
-(
-WebGLExtensionCompressedTextureS3TC
-void
-)

@@ -2856,13 +2856,6 @@ nsIWebGLExtensionLoseContext
 nsIDOMWebGLRenderingContext
 '
 '
-nsIWebGLExtensionCompressedTextureS3TC
-'
-:
-'
-nsIDOMWebGLRenderingContext
-'
-'
 nsIIndexedDatabaseUsageCallback
 '
 :
