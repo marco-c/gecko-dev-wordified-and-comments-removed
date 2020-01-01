@@ -16927,10 +16927,9 @@ JS_FALSE
 )
 ;
 return
-prop
 !
-=
-NULL
+!
+prop
 ;
 }
 template
