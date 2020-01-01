@@ -463,9 +463,14 @@ template
 <
 class
 E
+class
+A
 >
 class
 nsTArray
+;
+struct
+nsTArrayDefaultAllocator
 ;
 %
 }
@@ -478,6 +483,7 @@ nsPreferencesArrayPtr
 nsTArray
 <
 PrefTuple
+nsTArrayDefaultAllocator
 >
 )
 ;

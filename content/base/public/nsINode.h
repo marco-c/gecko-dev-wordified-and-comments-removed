@@ -1228,7 +1228,10 @@ aMutationObserver
 )
 =
 =
-nsTArray_base
+nsTArray
+<
+int
+>
 :
 :
 NoIndex

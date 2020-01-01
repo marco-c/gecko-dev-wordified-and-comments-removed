@@ -93,6 +93,8 @@ template
 <
 class
 E
+class
+A
 >
 class
 nsTArray

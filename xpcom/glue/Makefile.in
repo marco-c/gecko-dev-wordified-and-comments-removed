@@ -640,6 +640,12 @@ nsTArray
 .
 h
 \
+nsTArray
+-
+inl
+.
+h
+\
 nsTHashtable
 .
 h

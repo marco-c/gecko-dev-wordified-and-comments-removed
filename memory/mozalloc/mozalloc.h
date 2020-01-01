@@ -32,6 +32,9 @@ new
 #
 endif
 #
+define
+MOZALLOC_HAVE_XMALLOC
+#
 if
 defined
 (

@@ -15,6 +15,10 @@ template
 <
 class
 E
+class
+Alloc
+=
+nsTArrayDefaultAllocator
 >
 class
 nsTPtrArray
@@ -24,6 +28,7 @@ nsTArray
 <
 E
 *
+Alloc
 >
 {
 public
@@ -32,6 +37,7 @@ typedef
 nsTPtrArray
 <
 E
+Alloc
 >
 self_type
 ;
@@ -40,6 +46,7 @@ nsTArray
 <
 E
 *
+Alloc
 >
 base_type
 ;
@@ -176,6 +183,10 @@ class
 E
 PRUint32
 N
+class
+Alloc
+=
+nsTArrayDefaultAllocator
 >
 class
 nsAutoTPtrArray
@@ -184,6 +195,7 @@ public
 nsTPtrArray
 <
 E
+Alloc
 >
 {
 public
@@ -192,6 +204,7 @@ typedef
 nsTPtrArray
 <
 E
+Alloc
 >
 base_type
 ;
@@ -215,10 +228,13 @@ nsAutoTPtrArray
 (
 )
 {
+*
 base_type
 :
 :
-mHdr
+PtrToHdr
+(
+)
 =
 reinterpret_cast
 <
@@ -233,7 +249,9 @@ mAutoBuf
 base_type
 :
 :
-mHdr
+Hdr
+(
+)
 -
 >
 mLength
@@ -243,7 +261,9 @@ mLength
 base_type
 :
 :
-mHdr
+Hdr
+(
+)
 -
 >
 mCapacity
@@ -253,7 +273,9 @@ N
 base_type
 :
 :
-mHdr
+Hdr
+(
+)
 -
 >
 mIsAutoArray
