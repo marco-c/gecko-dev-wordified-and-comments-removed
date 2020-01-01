@@ -1,5 +1,3 @@
-import
-WebIDL
 def
 WebIDLTest
 (
@@ -241,9 +239,9 @@ c
     
 parser
 =
-WebIDL
+parser
 .
-Parser
+reset
 (
 )
     
@@ -318,9 +316,9 @@ dictionary
     
 parser
 =
-WebIDL
+parser
 .
-Parser
+reset
 (
 )
     
@@ -423,9 +421,9 @@ ancestor
     
 parser
 =
-WebIDL
+parser
 .
-Parser
+reset
 (
 )
     
@@ -503,9 +501,9 @@ dictionaries
     
 parser
 =
-WebIDL
+parser
 .
-Parser
+reset
 (
 )
     
