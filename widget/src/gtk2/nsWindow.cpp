@@ -8576,6 +8576,12 @@ gdkWin
 if
 (
 kid
+&
+&
+gdk_window_is_visible
+(
+gdkWin
+)
 )
 {
 nsAutoTArray
