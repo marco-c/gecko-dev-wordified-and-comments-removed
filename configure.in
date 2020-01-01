@@ -42110,6 +42110,16 @@ ACCESSIBILITY
 "
 ;
 then
+case
+"
+target
+"
+in
+*
+-
+mingw
+*
+)
 if
 test
 -
@@ -42203,6 +42213,7 @@ details
 )
 fi
 fi
+esac
 AC_DEFINE
 (
 ACCESSIBILITY
