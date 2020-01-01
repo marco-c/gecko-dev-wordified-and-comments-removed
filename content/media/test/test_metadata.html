@@ -251,9 +251,9 @@ early
 mozGetMetadata
 (
 )
-threw
-incorrect
-exception
+should
+throw
+InvalidStateError
 "
 )
 ;
@@ -317,7 +317,11 @@ tags
 mozGetMetadata
 (
 )
-failed
+should
+return
+a
+truthy
+value
 "
 )
 ;
@@ -644,9 +648,7 @@ tag
 +
 "
 '
-doesn
-'
-t
+should
 match
 "
 )
@@ -688,9 +690,7 @@ tag
 +
 "
 '
-doesn
-'
-t
+should
 match
 "
 )
