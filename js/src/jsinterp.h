@@ -796,6 +796,10 @@ enableInterrupts
 )
 ;
 }
+InterpreterFrames
+*
+older
+;
 private
 :
 JSContext
@@ -810,10 +814,6 @@ const
 InterruptEnablerBase
 &
 enabler
-;
-InterpreterFrames
-*
-older
 ;
 }
 ;
