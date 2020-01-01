@@ -99,7 +99,14 @@ false
 )
 mEventQ
 (
+static_cast
+<
+nsIFTPChannel
+*
+>
+(
 this
+)
 )
 mCanceled
 (

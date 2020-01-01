@@ -19,7 +19,7 @@ nsAutoPtr
 h
 >
 class
-nsIChannel
+nsISupports
 ;
 namespace
 mozilla
@@ -74,7 +74,7 @@ public
 :
 ChannelEventQueue
 (
-nsIChannel
+nsISupports
 *
 owner
 )
@@ -173,7 +173,7 @@ mSuspended
 bool
 mFlushing
 ;
-nsIChannel
+nsISupports
 *
 mOwner
 ;

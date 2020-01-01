@@ -1,7 +1,7 @@
 #
 include
 "
-nsIChannel
+nsISupports
 .
 h
 "
@@ -32,7 +32,7 @@ FlushQueue
 {
 nsCOMPtr
 <
-nsIChannel
+nsISupports
 >
 kungFuDeathGrip
 (
