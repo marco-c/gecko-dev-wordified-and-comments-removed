@@ -871,9 +871,6 @@ nsCString
 mOscpu
 ;
 nsCString
-mLanguage
-;
-nsCString
 mMisc
 ;
 nsCString
