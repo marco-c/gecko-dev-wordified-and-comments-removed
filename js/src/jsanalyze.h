@@ -442,9 +442,6 @@ case
 JSOP_SETLOCAL
 :
 case
-JSOP_SETLOCALPOP
-:
-case
 JSOP_INCLOCAL
 :
 case
@@ -892,9 +889,6 @@ case
 JSOP_SETLOCAL
 :
 case
-JSOP_SETLOCALPOP
-:
-case
 JSOP_INCLOCAL
 :
 case
@@ -959,9 +953,6 @@ JSOP_SETARG
 :
 case
 JSOP_SETLOCAL
-:
-case
-JSOP_SETLOCALPOP
 :
 case
 JSOP_INCARG
