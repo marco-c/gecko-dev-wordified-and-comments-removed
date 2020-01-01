@@ -10321,6 +10321,13 @@ SVGStopFrame
 )
 GK_ATOM
 (
+svgSwitchFrame
+"
+SVGSwitchFrame
+"
+)
+GK_ATOM
+(
 svgTextFrame
 "
 SVGTextFrame

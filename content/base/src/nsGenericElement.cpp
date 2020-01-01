@@ -589,12 +589,12 @@ h
 ifdef
 MOZ_SVG
 PRBool
-NS_SVG_TestFeature
+NS_SVG_HaveFeature
 (
 const
 nsAString
 &
-fstr
+aFeature
 )
 ;
 #
@@ -5798,7 +5798,7 @@ SVGZoomEvents
 0
 |
 |
-NS_SVG_TestFeature
+NS_SVG_HaveFeature
 (
 aFeature
 )
