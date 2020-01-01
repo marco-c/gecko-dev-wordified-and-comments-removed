@@ -1090,6 +1090,11 @@ singleStepMode
 :
 1
 ;
+bool
+inlineParents
+:
+1
+;
 #
 endif
 jsbytecode
