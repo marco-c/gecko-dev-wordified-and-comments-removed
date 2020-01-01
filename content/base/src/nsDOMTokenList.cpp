@@ -33,13 +33,6 @@ nsGenericElement
 .
 h
 "
-#
-include
-"
-nsHashSets
-.
-h
-"
 nsDOMTokenList
 :
 :
