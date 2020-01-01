@@ -664,6 +664,7 @@ deps
 )
 {
 print
+STDERR
 "
 add
 obj
@@ -753,6 +754,7 @@ dep_mtime
 )
 {
 print
+STDERR
 "
 Skipping
 dep_file
@@ -783,6 +785,7 @@ next
 ;
 }
 print
+STDERR
 "
 Found
 dep_file
@@ -805,6 +808,7 @@ mtime
 )
 {
 print
+STDERR
 "
 dep_file
 (
@@ -833,6 +837,7 @@ dep_mtime
 )
 {
 print
+STDERR
 "
 Couldn
 '
@@ -851,6 +856,7 @@ DEBUG
 else
 {
 print
+STDERR
 "
 dep_file
 (
@@ -906,6 +912,7 @@ not_in_cache
 )
 {
 print
+STDERR
 "
 STAT
 dep_file
@@ -948,6 +955,7 @@ mtime
 )
 {
 print
+STDERR
 "
 dep_file
 (
@@ -976,6 +984,7 @@ dep_mtime
 )
 {
 print
+STDERR
 "
 Couldn
 '
@@ -994,6 +1003,7 @@ DEBUG
 else
 {
 print
+STDERR
 "
 dep_file
 (
@@ -1065,6 +1075,31 @@ needed
 )
 .
 if
+(
+outfile
+eq
+'
+-
+'
+)
+{
+if
+(
+objs
+)
+{
+print
+"
+objs
+:
+FORCE
+\
+n
+"
+;
+}
+}
+elsif
 (
 objs
 )
