@@ -165,6 +165,13 @@ jsautooplen
 h
 "
 #
+include
+"
+jsstaticcheck
+.
+h
+"
+#
 define
 BYTECODE_CHUNK
 256
@@ -13470,6 +13477,13 @@ pc
 INDEX_LEN
 ;
 }
+MUST_FLOW_THROUGH
+(
+"
+out
+"
+)
+;
 if
 (
 cg

@@ -167,6 +167,13 @@ jsexn
 h
 "
 #
+include
+"
+jsstaticcheck
+.
+h
+"
+#
 if
 JS_HAS_GENERATORS
 #
@@ -3045,6 +3052,13 @@ cx
 -
 >
 tempPool
+)
+;
+MUST_FLOW_THROUGH
+(
+"
+out
+"
 )
 ;
 names

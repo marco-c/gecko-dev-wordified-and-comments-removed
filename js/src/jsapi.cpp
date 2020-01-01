@@ -258,6 +258,13 @@ prmjtime
 h
 "
 #
+include
+"
+jsstaticcheck
+.
+h
+"
+#
 ifdef
 JS_TRACER
 #
@@ -21784,6 +21791,13 @@ fun
 )
 goto
 out2
+;
+MUST_FLOW_THROUGH
+(
+"
+out
+"
+)
 ;
 JS_PUSH_TEMP_ROOT_OBJECT
 (

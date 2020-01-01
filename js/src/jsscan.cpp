@@ -186,6 +186,13 @@ jsscript
 h
 "
 #
+include
+"
+jsstaticcheck
+.
+h
+"
+#
 if
 JS_HAS_XML_SUPPORT
 #
@@ -2715,6 +2722,13 @@ NULL
 linebytes
 =
 NULL
+;
+MUST_FLOW_THROUGH
+(
+"
+out
+"
+)
 ;
 va_start
 (

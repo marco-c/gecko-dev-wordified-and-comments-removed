@@ -174,6 +174,13 @@ jsstr
 h
 "
 #
+include
+"
+jsstaticcheck
+.
+h
+"
+#
 if
 JS_HAS_XML_SUPPORT
 #
@@ -2316,6 +2323,13 @@ pc
 tokenStream
 .
 lineno
+)
+;
+MUST_FLOW_THROUGH
+(
+"
+out
+"
 )
 ;
 cg
