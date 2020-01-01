@@ -7086,7 +7086,10 @@ if
 (
 config
 .
-arm_thumb2
+arm_arch
+>
+=
+7
 &
 &
 (
