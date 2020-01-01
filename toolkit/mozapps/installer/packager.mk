@@ -1852,6 +1852,9 @@ DIST
 bin
 /
 shlibsign
+(
+BIN_SUFFIX
+)
 -
 v
 -

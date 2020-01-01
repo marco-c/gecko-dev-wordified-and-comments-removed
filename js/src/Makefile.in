@@ -1924,6 +1924,8 @@ build
 endif
 ifdef
 ENABLE_TRACEJIT
+ifndef
+CROSS_COMPILE
 check
 :
 :
@@ -2031,6 +2033,7 @@ js
 (
 BIN_SUFFIX
 )
+endif
 endif
 DIST_GARBAGE
 =

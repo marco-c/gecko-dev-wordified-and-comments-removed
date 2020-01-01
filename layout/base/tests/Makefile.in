@@ -1371,6 +1371,9 @@ subst
 .
 cpp
 (
+BIN_SUFFIX
+)
+(
 BARE_UNIT_TESTS
 )
 )

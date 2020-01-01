@@ -516,6 +516,8 @@ topsrcdir
 /
 build
 /
+mobile
+/
 devicemanager
 .
 py

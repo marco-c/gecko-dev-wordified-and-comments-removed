@@ -1656,6 +1656,9 @@ subst
 .
 cpp
 (
+BIN_SUFFIX
+)
+(
 CPP_UNIT_TESTS
 )
 )
@@ -7114,7 +7117,7 @@ nologo
 -
 entry
 :
-main
+mainACRTStartup
 -
 out
 :

@@ -499,6 +499,8 @@ EXTRA_BUILD_FILES
 :
 =
 \
+mobile
+/
 devicemanager
 .
 py

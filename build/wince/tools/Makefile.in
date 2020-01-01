@@ -479,6 +479,9 @@ export
 tools
 :
 :
+check
+:
+:
 .
 NOTPARALLEL
 :
