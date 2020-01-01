@@ -192,6 +192,9 @@ mForegroundCount
 uint32_t
 mLoadFlags
 ;
+uint32_t
+mDefaultLoadFlags
+;
 nsCOMPtr
 <
 nsILoadGroup
