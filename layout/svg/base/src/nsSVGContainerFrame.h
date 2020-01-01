@@ -79,7 +79,7 @@ aContext
 }
 public
 :
-NS_DECL_QUERYFRAME_TARGET
+NS_DECLARE_FRAME_ACCESSOR
 (
 nsSVGContainerFrame
 )
@@ -205,7 +205,7 @@ aContext
 }
 public
 :
-NS_DECL_QUERYFRAME_TARGET
+NS_DECLARE_FRAME_ACCESSOR
 (
 nsSVGDisplayContainerFrame
 )
