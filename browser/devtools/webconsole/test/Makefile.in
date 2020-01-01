@@ -497,6 +497,10 @@ browser_console_log_inspectable_object
 .
 js
 \
+browser_bug_638949_copy_link_location
+.
+js
+\
 head
 .
 js
