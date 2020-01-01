@@ -3252,12 +3252,6 @@ getNewQuery
 ;
 query
 .
-onlyBookmarked
-=
-true
-;
-query
-.
 searchTerms
 =
 "
@@ -3389,12 +3383,6 @@ histsvc
 getNewQuery
 (
 )
-;
-query
-.
-onlyBookmarked
-=
-true
 ;
 query
 .
