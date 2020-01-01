@@ -11311,10 +11311,6 @@ val
 )
 ;
 }
-CleanRedirectCacheChainIfNecessary
-(
-)
-;
 }
 LOG
 (
