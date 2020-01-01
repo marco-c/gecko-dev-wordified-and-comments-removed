@@ -14448,10 +14448,10 @@ JSFunction
 return
 true
 ;
-JSFunction
-*
+RootedFunction
 fun
-=
+(
+cx
 &
 lambda
 .
@@ -14460,6 +14460,7 @@ as
 JSFunction
 >
 (
+)
 )
 ;
 if

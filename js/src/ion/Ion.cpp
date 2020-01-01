@@ -8206,6 +8206,13 @@ return
 Method_CantCompile
 ;
 }
+RootedScript
+rscript
+(
+cx
+script
+)
+;
 if
 (
 js_IonOptions
@@ -8214,7 +8221,7 @@ eagerCompilation
 &
 &
 !
-script
+rscript
 -
 >
 hasBaselineScript
@@ -8242,13 +8249,6 @@ return
 status
 ;
 }
-RootedScript
-rscript
-(
-cx
-script
-)
-;
 bool
 constructing
 =
@@ -8301,7 +8301,7 @@ Method_CantCompile
 ForbidCompilation
 (
 cx
-script
+rscript
 )
 ;
 return

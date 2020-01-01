@@ -8258,9 +8258,11 @@ NewObjectKind
 newKind
 )
 {
-JSObject
-*
+RootedObject
 res
+(
+cx
+)
 ;
 if
 (
