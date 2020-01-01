@@ -501,7 +501,7 @@ mFBOTextureTarget
 ;
 for
 (
-int
+PRUint32
 i
 =
 0
