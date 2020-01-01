@@ -3630,9 +3630,6 @@ IUI_initTools
 {
 if
 (
-false
-&
-&
 Services
 .
 prefs
