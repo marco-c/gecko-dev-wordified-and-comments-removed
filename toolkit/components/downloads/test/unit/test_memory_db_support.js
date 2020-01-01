@@ -123,6 +123,13 @@ dm
 .
 DBConnection
 ;
+let
+oldFile
+=
+connDisk
+.
+databaseFile
+;
 observer
 .
 observe
@@ -232,9 +239,7 @@ null
 ;
 do_check_true
 (
-connDisk
-.
-databaseFile
+oldFile
 .
 equals
 (
