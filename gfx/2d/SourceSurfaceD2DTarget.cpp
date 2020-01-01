@@ -392,6 +392,12 @@ GetDesc
 desc
 )
 ;
+desc
+.
+MiscFlags
+=
+0
+;
 Factory
 :
 :
