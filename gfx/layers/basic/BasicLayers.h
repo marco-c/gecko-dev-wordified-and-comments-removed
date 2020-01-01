@@ -1098,6 +1098,15 @@ true
 ;
 }
 bool
+GetRepeatTransaction
+(
+)
+{
+return
+mRepeatTransaction
+;
+}
+bool
 IsRepeatTransaction
 (
 )
