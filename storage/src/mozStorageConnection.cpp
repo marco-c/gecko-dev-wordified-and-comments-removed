@@ -2519,6 +2519,13 @@ stmts
 aNumStatements
 )
 ;
+{
+SQLiteMutexAutoLock
+lockedScope
+(
+mDBMutex
+)
+;
 for
 (
 PRUint32
@@ -2721,6 +2728,7 @@ break
 ;
 }
 }
+}
 nsresult
 rv
 =
@@ -2807,6 +2815,13 @@ rc
 )
 ;
 }
+{
+SQLiteMutexAutoLock
+lockedScope
+(
+mDBMutex
+)
+;
 for
 (
 PRUint32
@@ -2835,6 +2850,7 @@ Reset
 (
 )
 ;
+}
 return
 rv
 ;
