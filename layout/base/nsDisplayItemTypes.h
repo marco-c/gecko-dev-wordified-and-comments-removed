@@ -120,3 +120,10 @@ endif
 TYPE_MAX
 }
 ;
+enum
+{
+TYPE_BITS
+=
+8
+}
+;
