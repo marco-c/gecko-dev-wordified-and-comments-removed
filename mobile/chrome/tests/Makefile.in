@@ -458,6 +458,10 @@ remote_forms
 .
 js
 \
+browser_awesomescreen
+.
+js
+\
 browser_blank_01
 .
 html
