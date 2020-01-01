@@ -13189,7 +13189,7 @@ this
 .
 _browser
 .
-_viewportWidthInCSSPx
+_widthInCSSPx
 ;
 return
 this
