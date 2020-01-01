@@ -122,6 +122,10 @@ nsRoleMapEntry
 gLandmarkRoleMap
 ;
 static
+nsRoleMapEntry
+gEmptyRoleMap
+;
+static
 nsStateMapEntry
 gWAIUnivStateMap
 [
