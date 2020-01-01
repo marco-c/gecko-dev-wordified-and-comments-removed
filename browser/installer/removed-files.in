@@ -411,6 +411,11 @@ components
 xptitemp
 .
 dat
+components
+/
+nsMicrosummaryService
+.
+js
 defaults
 /
 pref
@@ -6892,11 +6897,6 @@ js
 components
 /
 nsLoginManagerPrompter
-.
-js
-components
-/
-nsMicrosummaryService
 .
 js
 components
