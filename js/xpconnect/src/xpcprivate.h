@@ -14542,9 +14542,6 @@ mInnerWindowID
 int64_t
 mTimeStamp
 ;
-bool
-mIsFromPrivateWindow
-;
 }
 ;
 class
