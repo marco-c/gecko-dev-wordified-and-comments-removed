@@ -36336,6 +36336,14 @@ SetStateData
 dataStr
 )
 ;
+newSHEntry
+-
+>
+SetPostData
+(
+nsnull
+)
+;
 if
 (
 !
