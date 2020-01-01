@@ -2198,14 +2198,8 @@ PR_TRUE
 aOldFrame
 -
 >
-Invalidate
+InvalidateOverflowRect
 (
-aOldFrame
--
->
-GetOverflowRect
-(
-)
 )
 ;
 NS_ASSERTION

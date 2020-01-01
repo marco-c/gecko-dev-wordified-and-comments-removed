@@ -1684,6 +1684,11 @@ DestroyRect
 )
 NS_DECLARE_FRAME_PROPERTY
 (
+PreTransformBBoxProperty
+DestroyRect
+)
+NS_DECLARE_FRAME_PROPERTY
+(
 UsedMarginProperty
 DestroyMargin
 )
