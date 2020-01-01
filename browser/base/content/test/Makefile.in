@@ -721,6 +721,10 @@ browser_bug521216
 .
 js
 \
+browser_bug537474
+.
+js
+\
 browser_discovery
 .
 js
