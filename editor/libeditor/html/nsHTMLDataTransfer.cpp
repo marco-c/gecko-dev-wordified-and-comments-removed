@@ -604,12 +604,6 @@ mozilla
 :
 dom
 ;
-const
-PRUnichar
-nbsp
-=
-160
-;
 #
 define
 kInsertCookie
