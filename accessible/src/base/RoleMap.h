@@ -8,7 +8,7 @@ ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 USE_ROLE_STRING
 IA2_ROLE_UNKNOWN
-eFromSubtreeIfRec
+eNameFromSubtreeIfReqRule
 )
 ROLE
 (
@@ -20,7 +20,7 @@ ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_TITLEBAR
 ROLE_SYSTEM_TITLEBAR
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -32,7 +32,7 @@ ATK_ROLE_MENU_BAR
 NSAccessibilityMenuBarRole
 ROLE_SYSTEM_MENUBAR
 ROLE_SYSTEM_MENUBAR
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -44,7 +44,7 @@ ATK_ROLE_SCROLL_BAR
 NSAccessibilityScrollBarRole
 ROLE_SYSTEM_SCROLLBAR
 ROLE_SYSTEM_SCROLLBAR
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -56,7 +56,7 @@ ATK_ROLE_UNKNOWN
 NSAccessibilitySplitterRole
 ROLE_SYSTEM_GRIP
 ROLE_SYSTEM_GRIP
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -68,7 +68,7 @@ ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_SOUND
 ROLE_SYSTEM_SOUND
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -80,7 +80,7 @@ ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_CURSOR
 ROLE_SYSTEM_CURSOR
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -92,7 +92,7 @@ ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_CARET
 ROLE_SYSTEM_CARET
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -104,7 +104,7 @@ ATK_ROLE_ALERT
 NSAccessibilityWindowRole
 ROLE_SYSTEM_ALERT
 ROLE_SYSTEM_ALERT
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -116,7 +116,7 @@ ATK_ROLE_WINDOW
 NSAccessibilityWindowRole
 ROLE_SYSTEM_WINDOW
 ROLE_SYSTEM_WINDOW
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -129,7 +129,7 @@ ATK_ROLE_INTERNAL_FRAME
 NSAccessibilityScrollAreaRole
 USE_ROLE_STRING
 IA2_ROLE_INTERNAL_FRAME
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -141,7 +141,7 @@ ATK_ROLE_MENU
 NSAccessibilityMenuRole
 ROLE_SYSTEM_MENUPOPUP
 ROLE_SYSTEM_MENUPOPUP
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -153,7 +153,7 @@ ATK_ROLE_MENU_ITEM
 NSAccessibilityMenuItemRole
 ROLE_SYSTEM_MENUITEM
 ROLE_SYSTEM_MENUITEM
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -167,7 +167,7 @@ AXHelpTag
 "
 ROLE_SYSTEM_TOOLTIP
 ROLE_SYSTEM_TOOLTIP
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -179,7 +179,7 @@ ATK_ROLE_EMBEDDED
 NSAccessibilityGroupRole
 ROLE_SYSTEM_APPLICATION
 ROLE_SYSTEM_APPLICATION
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -193,7 +193,7 @@ AXWebArea
 "
 ROLE_SYSTEM_DOCUMENT
 ROLE_SYSTEM_DOCUMENT
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -205,7 +205,7 @@ ATK_ROLE_PANEL
 NSAccessibilityGroupRole
 ROLE_SYSTEM_GROUPING
 ROLE_SYSTEM_GROUPING
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -217,7 +217,7 @@ ATK_ROLE_CHART
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_CHART
 ROLE_SYSTEM_CHART
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -229,7 +229,7 @@ ATK_ROLE_DIALOG
 NSAccessibilityWindowRole
 ROLE_SYSTEM_DIALOG
 ROLE_SYSTEM_DIALOG
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -241,7 +241,7 @@ ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_BORDER
 ROLE_SYSTEM_BORDER
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -253,7 +253,7 @@ ATK_ROLE_PANEL
 NSAccessibilityGroupRole
 ROLE_SYSTEM_GROUPING
 ROLE_SYSTEM_GROUPING
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -265,7 +265,7 @@ ATK_ROLE_SEPARATOR
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_SEPARATOR
 ROLE_SYSTEM_SEPARATOR
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -277,7 +277,7 @@ ATK_ROLE_TOOL_BAR
 NSAccessibilityToolbarRole
 ROLE_SYSTEM_TOOLBAR
 ROLE_SYSTEM_TOOLBAR
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -289,7 +289,7 @@ ATK_ROLE_STATUSBAR
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_STATUSBAR
 ROLE_SYSTEM_STATUSBAR
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -301,7 +301,7 @@ ATK_ROLE_TABLE
 NSAccessibilityGroupRole
 ROLE_SYSTEM_TABLE
 ROLE_SYSTEM_TABLE
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -313,7 +313,7 @@ ATK_ROLE_COLUMN_HEADER
 NSAccessibilityGroupRole
 ROLE_SYSTEM_COLUMNHEADER
 ROLE_SYSTEM_COLUMNHEADER
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -325,7 +325,7 @@ ATK_ROLE_ROW_HEADER
 NSAccessibilityGroupRole
 ROLE_SYSTEM_ROWHEADER
 ROLE_SYSTEM_ROWHEADER
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -337,7 +337,7 @@ ATK_ROLE_UNKNOWN
 NSAccessibilityColumnRole
 ROLE_SYSTEM_COLUMN
 ROLE_SYSTEM_COLUMN
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -349,7 +349,7 @@ ATK_ROLE_LIST_ITEM
 NSAccessibilityRowRole
 ROLE_SYSTEM_ROW
 ROLE_SYSTEM_ROW
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -361,7 +361,7 @@ ATK_ROLE_TABLE_CELL
 NSAccessibilityGroupRole
 ROLE_SYSTEM_CELL
 ROLE_SYSTEM_CELL
-eFromSubtreeIfRec
+eNameFromSubtreeIfReqRule
 )
 ROLE
 (
@@ -375,7 +375,7 @@ AXLink
 "
 ROLE_SYSTEM_LINK
 ROLE_SYSTEM_LINK
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -389,7 +389,7 @@ AXHelpTag
 "
 ROLE_SYSTEM_HELPBALLOON
 ROLE_SYSTEM_HELPBALLOON
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -401,7 +401,7 @@ ATK_ROLE_IMAGE
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_CHARACTER
 ROLE_SYSTEM_CHARACTER
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -413,7 +413,7 @@ ATK_ROLE_LIST
 NSAccessibilityListRole
 ROLE_SYSTEM_LIST
 ROLE_SYSTEM_LIST
-eFromSubtreeIfRec
+eNameFromSubtreeIfReqRule
 )
 ROLE
 (
@@ -425,7 +425,7 @@ ATK_ROLE_LIST_ITEM
 NSAccessibilityGroupRole
 ROLE_SYSTEM_LISTITEM
 ROLE_SYSTEM_LISTITEM
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -437,7 +437,7 @@ ATK_ROLE_TREE
 NSAccessibilityOutlineRole
 ROLE_SYSTEM_OUTLINE
 ROLE_SYSTEM_OUTLINE
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -449,7 +449,7 @@ ATK_ROLE_LIST_ITEM
 NSAccessibilityRowRole
 ROLE_SYSTEM_OUTLINEITEM
 ROLE_SYSTEM_OUTLINEITEM
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -461,7 +461,7 @@ ATK_ROLE_PAGE_TAB
 NSAccessibilityRadioButtonRole
 ROLE_SYSTEM_PAGETAB
 ROLE_SYSTEM_PAGETAB
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -473,7 +473,7 @@ ATK_ROLE_SCROLL_PANE
 NSAccessibilityGroupRole
 ROLE_SYSTEM_PROPERTYPAGE
 ROLE_SYSTEM_PROPERTYPAGE
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -485,7 +485,7 @@ ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_INDICATOR
 ROLE_SYSTEM_INDICATOR
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -497,7 +497,7 @@ ATK_ROLE_IMAGE
 NSAccessibilityImageRole
 ROLE_SYSTEM_GRAPHIC
 ROLE_SYSTEM_GRAPHIC
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -509,7 +509,7 @@ ATK_ROLE_UNKNOWN
 NSAccessibilityStaticTextRole
 ROLE_SYSTEM_STATICTEXT
 ROLE_SYSTEM_STATICTEXT
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -522,7 +522,7 @@ ATK_ROLE_UNKNOWN
 NSAccessibilityStaticTextRole
 ROLE_SYSTEM_TEXT
 ROLE_SYSTEM_TEXT
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -534,7 +534,7 @@ ATK_ROLE_PUSH_BUTTON
 NSAccessibilityButtonRole
 ROLE_SYSTEM_PUSHBUTTON
 ROLE_SYSTEM_PUSHBUTTON
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -546,7 +546,7 @@ ATK_ROLE_CHECK_BOX
 NSAccessibilityCheckBoxRole
 ROLE_SYSTEM_CHECKBUTTON
 ROLE_SYSTEM_CHECKBUTTON
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -558,7 +558,7 @@ ATK_ROLE_RADIO_BUTTON
 NSAccessibilityRadioButtonRole
 ROLE_SYSTEM_RADIOBUTTON
 ROLE_SYSTEM_RADIOBUTTON
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -570,7 +570,7 @@ ATK_ROLE_COMBO_BOX
 NSAccessibilityPopUpButtonRole
 ROLE_SYSTEM_COMBOBOX
 ROLE_SYSTEM_COMBOBOX
-eFromValue
+eNameFromValueRule
 )
 ROLE
 (
@@ -582,7 +582,7 @@ ATK_ROLE_COMBO_BOX
 NSAccessibilityPopUpButtonRole
 ROLE_SYSTEM_DROPLIST
 ROLE_SYSTEM_DROPLIST
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -594,7 +594,7 @@ ATK_ROLE_PROGRESS_BAR
 NSAccessibilityProgressIndicatorRole
 ROLE_SYSTEM_PROGRESSBAR
 ROLE_SYSTEM_PROGRESSBAR
-eFromValue
+eNameFromValueRule
 )
 ROLE
 (
@@ -606,7 +606,7 @@ ATK_ROLE_DIAL
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_DIAL
 ROLE_SYSTEM_DIAL
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -618,7 +618,7 @@ ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_HOTKEYFIELD
 ROLE_SYSTEM_HOTKEYFIELD
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -630,7 +630,7 @@ ATK_ROLE_SLIDER
 NSAccessibilitySliderRole
 ROLE_SYSTEM_SLIDER
 ROLE_SYSTEM_SLIDER
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -642,7 +642,7 @@ ATK_ROLE_SPIN_BUTTON
 NSAccessibilityIncrementorRole
 ROLE_SYSTEM_SPINBUTTON
 ROLE_SYSTEM_SPINBUTTON
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -654,7 +654,7 @@ ATK_ROLE_IMAGE
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_DIAGRAM
 ROLE_SYSTEM_DIAGRAM
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -666,7 +666,7 @@ ATK_ROLE_ANIMATION
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_ANIMATION
 ROLE_SYSTEM_ANIMATION
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -678,7 +678,7 @@ ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_EQUATION
 ROLE_SYSTEM_EQUATION
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -690,7 +690,7 @@ ATK_ROLE_PUSH_BUTTON
 NSAccessibilityPopUpButtonRole
 ROLE_SYSTEM_BUTTONDROPDOWN
 ROLE_SYSTEM_BUTTONDROPDOWN
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -702,7 +702,7 @@ ATK_ROLE_PUSH_BUTTON
 NSAccessibilityMenuButtonRole
 ROLE_SYSTEM_BUTTONMENU
 ROLE_SYSTEM_BUTTONMENU
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -714,7 +714,7 @@ ATK_ROLE_UNKNOWN
 NSAccessibilityGroupRole
 ROLE_SYSTEM_BUTTONDROPDOWNGRID
 ROLE_SYSTEM_BUTTONDROPDOWNGRID
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -726,7 +726,7 @@ ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_WHITESPACE
 ROLE_SYSTEM_WHITESPACE
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -738,7 +738,7 @@ ATK_ROLE_PAGE_TAB_LIST
 NSAccessibilityTabGroupRole
 ROLE_SYSTEM_PAGETABLIST
 ROLE_SYSTEM_PAGETABLIST
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -750,7 +750,7 @@ ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_CLOCK
 ROLE_SYSTEM_CLOCK
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -762,7 +762,7 @@ ATK_ROLE_PUSH_BUTTON
 NSAccessibilityButtonRole
 ROLE_SYSTEM_SPLITBUTTON
 ROLE_SYSTEM_SPLITBUTTON
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -774,7 +774,7 @@ ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_IPADDRESS
 ROLE_SYSTEM_IPADDRESS
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -787,7 +787,7 @@ ATK_ROLE_ACCEL_LABEL
 NSAccessibilityStaticTextRole
 ROLE_SYSTEM_STATICTEXT
 ROLE_SYSTEM_STATICTEXT
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -799,7 +799,7 @@ ATK_ROLE_ARROW
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_INDICATOR
 ROLE_SYSTEM_INDICATOR
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -811,7 +811,7 @@ ATK_ROLE_CANVAS
 NSAccessibilityImageRole
 USE_ROLE_STRING
 IA2_ROLE_CANVAS
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -825,7 +825,7 @@ ATK_ROLE_CHECK_MENU_ITEM
 NSAccessibilityMenuItemRole
 ROLE_SYSTEM_MENUITEM
 IA2_ROLE_CHECK_MENU_ITEM
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -838,7 +838,7 @@ ATK_ROLE_COLOR_CHOOSER
 NSAccessibilityColorWellRole
 ROLE_SYSTEM_DIALOG
 IA2_ROLE_COLOR_CHOOSER
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -851,7 +851,7 @@ ATK_ROLE_DATE_EDITOR
 NSAccessibilityUnknownRole
 USE_ROLE_STRING
 IA2_ROLE_DATE_EDITOR
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -864,7 +864,7 @@ ATK_ROLE_DESKTOP_ICON
 NSAccessibilityImageRole
 USE_ROLE_STRING
 IA2_ROLE_DESKTOP_ICON
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -877,7 +877,7 @@ ATK_ROLE_DESKTOP_FRAME
 NSAccessibilityUnknownRole
 USE_ROLE_STRING
 IA2_ROLE_DESKTOP_PANE
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -890,7 +890,7 @@ ATK_ROLE_DIRECTORY_PANE
 NSAccessibilityBrowserRole
 USE_ROLE_STRING
 IA2_ROLE_DIRECTORY_PANE
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -903,7 +903,7 @@ ATK_ROLE_FILE_CHOOSER
 NSAccessibilityUnknownRole
 USE_ROLE_STRING
 IA2_ROLE_FILE_CHOOSER
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -916,7 +916,7 @@ ATK_ROLE_FONT_CHOOSER
 NSAccessibilityUnknownRole
 USE_ROLE_STRING
 IA2_ROLE_FONT_CHOOSER
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -929,7 +929,7 @@ ATK_ROLE_FRAME
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_APPLICATION
 IA2_ROLE_FRAME
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -942,7 +942,7 @@ ATK_ROLE_GLASS_PANE
 NSAccessibilityGroupRole
 USE_ROLE_STRING
 IA2_ROLE_GLASS_PANE
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -955,7 +955,7 @@ ATK_ROLE_HTML_CONTAINER
 NSAccessibilityUnknownRole
 USE_ROLE_STRING
 IA2_ROLE_UNKNOWN
-eFromSubtreeIfRec
+eNameFromSubtreeIfReqRule
 )
 ROLE
 (
@@ -967,7 +967,7 @@ ATK_ROLE_ICON
 NSAccessibilityImageRole
 ROLE_SYSTEM_PUSHBUTTON
 IA2_ROLE_ICON
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -979,7 +979,7 @@ ATK_ROLE_LABEL
 NSAccessibilityGroupRole
 ROLE_SYSTEM_STATICTEXT
 IA2_ROLE_LABEL
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -992,7 +992,7 @@ ATK_ROLE_LAYERED_PANE
 NSAccessibilityGroupRole
 USE_ROLE_STRING
 IA2_ROLE_LAYERED_PANE
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1005,7 +1005,7 @@ ATK_ROLE_OPTION_PANE
 NSAccessibilityGroupRole
 USE_ROLE_STRING
 IA2_ROLE_OPTION_PANE
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1018,7 +1018,7 @@ ATK_ROLE_PASSWORD_TEXT
 NSAccessibilityTextFieldRole
 ROLE_SYSTEM_TEXT
 ROLE_SYSTEM_TEXT
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1031,7 +1031,7 @@ ATK_ROLE_POPUP_MENU
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_MENUPOPUP
 ROLE_SYSTEM_MENUPOPUP
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1045,7 +1045,7 @@ ATK_ROLE_RADIO_MENU_ITEM
 NSAccessibilityMenuItemRole
 ROLE_SYSTEM_MENUITEM
 IA2_ROLE_RADIO_MENU_ITEM
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -1058,7 +1058,7 @@ ATK_ROLE_ROOT_PANE
 NSAccessibilityGroupRole
 USE_ROLE_STRING
 IA2_ROLE_ROOT_PANE
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1071,7 +1071,7 @@ ATK_ROLE_SCROLL_PANE
 NSAccessibilityScrollAreaRole
 USE_ROLE_STRING
 IA2_ROLE_SCROLL_PANE
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1084,7 +1084,7 @@ ATK_ROLE_SPLIT_PANE
 NSAccessibilitySplitGroupRole
 USE_ROLE_STRING
 IA2_ROLE_SPLIT_PANE
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1098,7 +1098,7 @@ ATK_ROLE_TABLE_COLUMN_HEADER
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_COLUMNHEADER
 ROLE_SYSTEM_COLUMNHEADER
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -1112,7 +1112,7 @@ ATK_ROLE_TABLE_ROW_HEADER
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_ROWHEADER
 ROLE_SYSTEM_ROWHEADER
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -1127,7 +1127,7 @@ ATK_ROLE_TEAR_OFF_MENU_ITEM
 NSAccessibilityMenuItemRole
 ROLE_SYSTEM_MENUITEM
 IA2_ROLE_TEAR_OFF_MENU
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -1139,7 +1139,7 @@ ATK_ROLE_TERMINAL
 NSAccessibilityUnknownRole
 USE_ROLE_STRING
 IA2_ROLE_TERMINAL
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1152,7 +1152,7 @@ ATK_ROLE_TEXT
 NSAccessibilityGroupRole
 USE_ROLE_STRING
 IA2_ROLE_TEXT_FRAME
-eFromSubtreeIfRec
+eNameFromSubtreeIfReqRule
 )
 ROLE
 (
@@ -1165,7 +1165,7 @@ ATK_ROLE_TOGGLE_BUTTON
 NSAccessibilityButtonRole
 ROLE_SYSTEM_PUSHBUTTON
 IA2_ROLE_TOGGLE_BUTTON
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -1178,7 +1178,7 @@ ATK_ROLE_TREE_TABLE
 NSAccessibilityTableRole
 ROLE_SYSTEM_OUTLINE
 ROLE_SYSTEM_OUTLINE
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1190,7 +1190,7 @@ ATK_ROLE_VIEWPORT
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_PANE
 IA2_ROLE_VIEW_PORT
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1202,7 +1202,7 @@ ATK_ROLE_HEADER
 NSAccessibilityGroupRole
 USE_ROLE_STRING
 IA2_ROLE_HEADER
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1214,7 +1214,7 @@ ATK_ROLE_FOOTER
 NSAccessibilityGroupRole
 USE_ROLE_STRING
 IA2_ROLE_FOOTER
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1226,7 +1226,7 @@ ATK_ROLE_PARAGRAPH
 NSAccessibilityGroupRole
 USE_ROLE_STRING
 IA2_ROLE_PARAGRAPH
-eFromSubtreeIfRec
+eNameFromSubtreeIfReqRule
 )
 ROLE
 (
@@ -1240,7 +1240,7 @@ AXRuler
 "
 USE_ROLE_STRING
 IA2_ROLE_RULER
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1252,7 +1252,7 @@ ATK_ROLE_AUTOCOMPLETE
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_COMBOBOX
 ROLE_SYSTEM_COMBOBOX
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1264,7 +1264,7 @@ ATK_ROLE_EDITBAR
 NSAccessibilityTextFieldRole
 ROLE_SYSTEM_TEXT
 IA2_ROLE_EDITBAR
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1276,7 +1276,7 @@ ATK_ROLE_ENTRY
 NSAccessibilityTextFieldRole
 ROLE_SYSTEM_TEXT
 ROLE_SYSTEM_TEXT
-eFromValue
+eNameFromValueRule
 )
 ROLE
 (
@@ -1288,7 +1288,7 @@ ATK_ROLE_CAPTION
 NSAccessibilityStaticTextRole
 USE_ROLE_STRING
 IA2_ROLE_CAPTION
-eFromSubtreeIfRec
+eNameFromSubtreeIfReqRule
 )
 ROLE
 (
@@ -1301,7 +1301,7 @@ ATK_ROLE_DOCUMENT_FRAME
 NSAccessibilityScrollAreaRole
 USE_ROLE_STRING
 IA2_ROLE_UNKNOWN
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1315,7 +1315,7 @@ AXHeading
 "
 USE_ROLE_STRING
 IA2_ROLE_HEADING
-eFromSubtreeIfRec
+eNameFromSubtreeIfReqRule
 )
 ROLE
 (
@@ -1327,7 +1327,7 @@ ATK_ROLE_PAGE
 NSAccessibilityGroupRole
 USE_ROLE_STRING
 IA2_ROLE_PAGE
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1339,7 +1339,7 @@ ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 USE_ROLE_STRING
 IA2_ROLE_SECTION
-eFromSubtreeIfRec
+eNameFromSubtreeIfReqRule
 )
 ROLE
 (
@@ -1352,7 +1352,7 @@ ATK_ROLE_REDUNDANT_OBJECT
 NSAccessibilityUnknownRole
 USE_ROLE_STRING
 IA2_ROLE_REDUNDANT_OBJECT
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1364,7 +1364,7 @@ ATK_ROLE_FORM
 NSAccessibilityGroupRole
 USE_ROLE_STRING
 IA2_ROLE_FORM
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1376,7 +1376,7 @@ ATK_ROLE_INPUT_METHOD_WINDOW
 NSAccessibilityUnknownRole
 USE_ROLE_STRING
 IA2_ROLE_INPUT_METHOD_WINDOW
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1389,7 +1389,7 @@ ATK_ROLE_APPLICATION
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_APPLICATION
 ROLE_SYSTEM_APPLICATION
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1402,7 +1402,7 @@ ATK_ROLE_MENU
 NSAccessibilityMenuItemRole
 ROLE_SYSTEM_MENUITEM
 ROLE_SYSTEM_MENUITEM
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -1414,7 +1414,7 @@ ATK_ROLE_CALENDAR
 NSAccessibilityGroupRole
 ROLE_SYSTEM_CLIENT
 ROLE_SYSTEM_CLIENT
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1427,7 +1427,7 @@ ATK_ROLE_MENU
 NSAccessibilityMenuRole
 ROLE_SYSTEM_LIST
 ROLE_SYSTEM_LIST
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1440,7 +1440,7 @@ ATK_ROLE_MENU_ITEM
 NSAccessibilityMenuItemRole
 ROLE_SYSTEM_LISTITEM
 ROLE_SYSTEM_LISTITEM
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -1453,7 +1453,7 @@ ATK_ROLE_IMAGE
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_GRAPHIC
 ROLE_SYSTEM_GRAPHIC
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1466,7 +1466,7 @@ ATK_ROLE_LIST_ITEM
 NSAccessibilityRowRole
 ROLE_SYSTEM_LISTITEM
 ROLE_SYSTEM_LISTITEM
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -1480,7 +1480,7 @@ ATK_ROLE_LIST_ITEM
 NSAccessibilityRowRole
 ROLE_SYSTEM_LISTITEM
 ROLE_SYSTEM_LISTITEM
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -1492,7 +1492,7 @@ ATK_ROLE_LIST
 NSAccessibilityListRole
 ROLE_SYSTEM_LIST
 ROLE_SYSTEM_LIST
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1505,7 +1505,7 @@ ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
 ROLE_SYSTEM_EQUATION
 ROLE_SYSTEM_EQUATION
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1517,7 +1517,7 @@ ATK_ROLE_TABLE_CELL
 NSAccessibilityGroupRole
 ROLE_SYSTEM_CELL
 ROLE_SYSTEM_CELL
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -1530,7 +1530,7 @@ ATK_ROLE_PANEL
 NSAccessibilityGroupRole
 USE_ROLE_STRING
 IA2_ROLE_EMBEDDED_OBJECT
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1542,7 +1542,7 @@ ATK_ROLE_SECTION
 NSAccessibilityGroupRole
 USE_ROLE_STRING
 IA2_ROLE_NOTE
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -1554,7 +1554,7 @@ ATK_ROLE_PANEL
 NSAccessibilityGroupRole
 ROLE_SYSTEM_GROUPING
 ROLE_SYSTEM_GROUPING
-eNoRule
+eNoNameRule
 )
 ROLE
 (
@@ -1568,7 +1568,7 @@ ATK_ROLE_CHECK_BOX
 NSAccessibilityCheckBoxRole
 ROLE_SYSTEM_CHECKBUTTON
 ROLE_SYSTEM_CHECKBUTTON
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -1580,7 +1580,7 @@ ATK_ROLE_LIST
 NSAccessibilityListRole
 ROLE_SYSTEM_LIST
 ROLE_SYSTEM_LIST
-eFromSubtreeIfRec
+eNameFromSubtreeIfReqRule
 )
 ROLE
 (
@@ -1592,7 +1592,7 @@ ATK_ROLE_LIST_ITEM
 NSAccessibilityGroupRole
 ROLE_SYSTEM_LISTITEM
 ROLE_SYSTEM_LISTITEM
-eFromSubtree
+eNameFromSubtreeRule
 )
 ROLE
 (
@@ -1604,5 +1604,5 @@ ATK_ROLE_PARAGRAPH
 NSAccessibilityGroupRole
 USE_ROLE_STRING
 IA2_ROLE_PARAGRAPH
-eFromSubtree
+eNameFromSubtreeRule
 )

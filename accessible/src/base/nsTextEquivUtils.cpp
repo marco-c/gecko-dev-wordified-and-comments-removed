@@ -107,7 +107,7 @@ Role
 )
 =
 =
-eFromSubtree
+eNameFromSubtreeRule
 )
 {
 if
@@ -874,7 +874,7 @@ if
 (
 nameRule
 &
-eFromSubtreeIfRec
+eNameFromSubtreeIfReqRule
 )
 {
 rv
@@ -958,7 +958,7 @@ Role
 )
 !
 =
-eFromValue
+eNameFromValueRule
 )
 return
 NS_OK_NO_NAME_CLAUSE_HANDLED
