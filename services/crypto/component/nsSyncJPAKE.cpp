@@ -761,7 +761,7 @@ NS_ENSURE_STATE
 key
 =
 =
-NULL
+nullptr
 )
 ;
 static
@@ -787,7 +787,7 @@ NUM_ELEM
 (
 mechanisms
 )
-NULL
+nullptr
 )
 ;
 NS_ENSURE_STATE
@@ -795,7 +795,7 @@ NS_ENSURE_STATE
 slot
 !
 =
-NULL
+nullptr
 )
 ;
 CK_BYTE
@@ -1079,7 +1079,7 @@ NUM_ELEM
 (
 keyTemplate
 )
-NULL
+nullptr
 )
 ;
 nsresult
@@ -1088,7 +1088,7 @@ rv
 key
 !
 =
-NULL
+nullptr
 ?
 NS_OK
 :
@@ -1274,7 +1274,7 @@ NS_ENSURE_STATE
 key
 !
 =
-NULL
+nullptr
 )
 ;
 NS_ENSURE_ARG
@@ -1902,7 +1902,7 @@ if
 newKey
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -2033,7 +2033,7 @@ if
 base64
 !
 =
-NULL
+nullptr
 )
 {
 size_t
@@ -2144,7 +2144,7 @@ rv
 value
 !
 =
-NULL
+nullptr
 &
 &
 value
@@ -2153,7 +2153,7 @@ value
 data
 !
 =
-NULL
+nullptr
 &
 &
 value
@@ -2251,7 +2251,7 @@ if
 key
 =
 =
-NULL
+nullptr
 )
 return
 mapErrno
@@ -2353,7 +2353,7 @@ NS_ENSURE_STATE
 key
 !
 =
-NULL
+nullptr
 )
 ;
 CK_BYTE
@@ -2550,14 +2550,14 @@ PK11SymKey
 *
 keyBlock
 =
-NULL
+nullptr
 ;
 if
 (
 keyMaterial
 =
 =
-NULL
+nullptr
 )
 rv
 =
@@ -2586,7 +2586,7 @@ hkdfParams
 .
 pSalt
 =
-NULL
+nullptr
 ;
 hkdfParams
 .
@@ -2663,7 +2663,7 @@ if
 keyBlock
 =
 =
-NULL
+nullptr
 )
 rv
 =
@@ -2751,7 +2751,7 @@ NS_ENSURE_TRUE
 keyMaterialBytes
 !
 =
-NULL
+nullptr
 NS_ERROR_UNEXPECTED
 )
 ;
@@ -2761,7 +2761,7 @@ if
 keyBlock
 !
 =
-NULL
+nullptr
 )
 PK11_FreeSymKey
 (
@@ -2773,7 +2773,7 @@ if
 keyMaterial
 !
 =
-NULL
+nullptr
 )
 PK11_FreeSymKey
 (
@@ -2806,7 +2806,7 @@ JPAKENotStarted
 )
 key
 (
-NULL
+nullptr
 )
 {
 }
@@ -2823,7 +2823,7 @@ if
 key
 !
 =
-NULL
+nullptr
 )
 PK11_FreeSymKey
 (
@@ -2849,11 +2849,11 @@ kServicesCryptoCIDs
 &
 kNS_SYNCJPAKE_CID
 false
-NULL
+nullptr
 nsSyncJPAKEConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -2877,7 +2877,7 @@ NS_SYNCJPAKE_CONTRACTID
 kNS_SYNCJPAKE_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;
