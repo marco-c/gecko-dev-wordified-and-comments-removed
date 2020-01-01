@@ -21680,10 +21680,7 @@ docShellWin
 >
 SetTitle
 (
-PromiseFlatString
-(
 title
-)
 .
 get
 (

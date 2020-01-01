@@ -1160,10 +1160,7 @@ curVer
 ;
 TranslateVersionStr
 (
-PromiseFlatString
-(
 childName
-)
 .
 get
 (
@@ -1539,10 +1536,7 @@ rv
 {
 GetFileVersion
 (
-PromiseFlatString
-(
 path
-)
 .
 get
 (
@@ -1809,10 +1803,7 @@ rv
 {
 GetFileVersion
 (
-PromiseFlatString
-(
 path
-)
 .
 get
 (
@@ -2131,10 +2122,7 @@ curVer
 ;
 TranslateVersionStr
 (
-PromiseFlatString
-(
 childName
-)
 .
 get
 (
