@@ -40302,6 +40302,16 @@ prompter
 )
 )
 ;
+if
+(
+!
+prompter
+)
+{
+return
+NS_ERROR_NOT_AVAILABLE
+;
+}
 nsCOMPtr
 <
 nsIStringBundleService
