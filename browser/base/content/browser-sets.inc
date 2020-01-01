@@ -2816,13 +2816,13 @@ key
 id
 =
 "
-key_hudConsole
+key_webConsole
 "
 key
 =
 "
 &
-hudConsoleCmd
+webConsoleCmd
 .
 commandkey
 ;
