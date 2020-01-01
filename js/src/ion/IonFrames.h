@@ -401,7 +401,7 @@ safepointOffset_
 void
 adjustDisplacement
 (
-int32
+uint32
 offset
 )
 {
