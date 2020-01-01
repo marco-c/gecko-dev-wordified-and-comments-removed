@@ -61,6 +61,16 @@ testRestoreFromFileUnsaved
 (
 )
 ;
+gBrowser
+.
+selectedTab
+=
+gBrowser
+.
+addTab
+(
+)
+;
 content
 .
 location

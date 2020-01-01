@@ -168,6 +168,16 @@ testSavedFile
 (
 )
 ;
+gBrowser
+.
+selectedTab
+=
+gBrowser
+.
+addTab
+(
+)
+;
 content
 .
 location
