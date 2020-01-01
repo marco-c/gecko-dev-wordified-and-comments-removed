@@ -1346,9 +1346,9 @@ ycbcr
 ifeq
 (
 (
-MOZ_WIDGET_TOOLKIT
+OS_TARGET
 )
-android
+Android
 )
 STATIC_LIBS
 +
