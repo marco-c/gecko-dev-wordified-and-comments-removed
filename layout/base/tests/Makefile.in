@@ -543,6 +543,10 @@ test_bug66619
 .
 html
 \
+test_bug386575
+.
+xhtml
+\
 test_bug388019
 .
 html

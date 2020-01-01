@@ -6224,7 +6224,7 @@ NS_ASSERTION
 pos
 -
 >
-mMaxHeight
+mMinHeight
 .
 GetUnit
 (
