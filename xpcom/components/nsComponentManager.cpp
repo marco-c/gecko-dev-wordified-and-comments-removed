@@ -1994,7 +1994,7 @@ RegisterContractID
 entry
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 entry
@@ -5580,7 +5580,7 @@ PR_GetCurrentThread
 (
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 currentPRThread
 "
@@ -5654,7 +5654,7 @@ NS_GetCurrentThread
 (
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 currentThread
 "
@@ -5799,7 +5799,7 @@ GetPendingServiceThread
 aClass
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 pendingPRThread
 =
@@ -6406,7 +6406,7 @@ PR_GetCurrentThread
 (
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 currentPRThread
 "
@@ -6487,7 +6487,7 @@ NS_GetCurrentThread
 (
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 currentThread
 "
@@ -6649,7 +6649,7 @@ mCIDEntry
 cid
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 pendingPRThread
 =

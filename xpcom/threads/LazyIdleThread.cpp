@@ -94,7 +94,7 @@ mOwningThread
 )
 ;
 \
-NS_ASSERTION
+MOZ_ASSERT
 (
 current
 =
@@ -197,14 +197,13 @@ mName
 aName
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mOwningThread
 "
-This
-should
-never
-fail
+Need
+owning
+thread
 !
 "
 )
@@ -330,7 +329,7 @@ lock
 mMutex
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mPendingEventCount
 <
@@ -379,7 +378,7 @@ lock
 mMutex
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mPendingEventCount
 "
@@ -453,7 +452,7 @@ lock
 mMutex
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mPendingEventCount
 <
@@ -501,7 +500,7 @@ return
 NS_OK
 ;
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mPendingEventCount
@@ -516,7 +515,7 @@ yet
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mIdleNotificationCount
@@ -532,7 +531,7 @@ yet
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mIdleTimer
@@ -547,7 +546,7 @@ ago
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mThreadIsShuttingDown
@@ -709,7 +708,7 @@ NS_GetCurrentThread
 )
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 thread
 "
@@ -771,7 +770,7 @@ NS_GetCurrentThread
 )
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 thread
 "
@@ -816,7 +815,7 @@ lock
 mMutex
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mThreadIsShuttingDown
@@ -858,7 +857,7 @@ lock
 mMutex
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mIdleNotificationCount
 "
@@ -1087,7 +1086,7 @@ lock
 mMutex
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mThreadIsShuttingDown
@@ -1190,7 +1189,7 @@ lock
 mMutex
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mPendingEventCount
@@ -1201,7 +1200,7 @@ Huh
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mIdleNotificationCount
@@ -1212,7 +1211,7 @@ Huh
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mThreadIsShuttingDown
 "
@@ -1321,7 +1320,7 @@ index
 ]
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 runnable
 "
@@ -1472,7 +1471,7 @@ runnable
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -1670,7 +1669,7 @@ ShutdownThread
 (
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mThread
@@ -1819,7 +1818,7 @@ nsIThreadInternal
 *
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_GetCurrentThread
 (
@@ -1875,7 +1874,7 @@ lock
 mMutex
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mPendingEventCount
 "
@@ -1911,7 +1910,7 @@ if
 shouldNotifyIdle
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mIdleNotificationCount
 <
@@ -1997,7 +1996,7 @@ PRUnichar
 *
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -2009,7 +2008,7 @@ thread
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mShutdownMethod
 =
@@ -2027,7 +2026,7 @@ AutomaticShutdown
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 strcmp

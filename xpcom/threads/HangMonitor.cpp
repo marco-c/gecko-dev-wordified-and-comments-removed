@@ -828,7 +828,7 @@ XRE_GetProcessType
 )
 return
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 gMonitor
@@ -933,7 +933,7 @@ XRE_GetProcessType
 )
 return
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 gMonitor
 "
@@ -1074,7 +1074,7 @@ ActivityType
 activityType
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -1225,7 +1225,7 @@ Suspend
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_IsMainThread
 (

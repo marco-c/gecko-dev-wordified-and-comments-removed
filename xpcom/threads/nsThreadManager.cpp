@@ -381,7 +381,7 @@ Shutdown
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -533,7 +533,7 @@ nsThread
 thread
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 thread
 -
@@ -595,7 +595,7 @@ nsThread
 thread
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 thread
 -

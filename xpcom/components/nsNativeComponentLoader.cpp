@@ -214,7 +214,7 @@ Init
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -1057,7 +1057,7 @@ UnloadLibraries
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_IsMainThread
 (

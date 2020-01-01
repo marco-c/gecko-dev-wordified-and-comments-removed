@@ -1537,7 +1537,7 @@ AddRef
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -1563,7 +1563,7 @@ Release
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -1618,7 +1618,7 @@ aAtom
 )
 CPP_THROW_NEW
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 aAtom
@@ -1998,7 +1998,7 @@ uint32_t
 aLength
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -2060,7 +2060,7 @@ uint32_t
 aLength
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_IsMainThread
 (

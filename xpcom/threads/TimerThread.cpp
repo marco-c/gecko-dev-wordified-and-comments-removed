@@ -1141,7 +1141,7 @@ timer
 rc
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 rc
 !
