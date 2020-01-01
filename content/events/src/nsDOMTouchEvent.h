@@ -326,6 +326,11 @@ nsIDOMTouch
 aTouch
 )
 ;
+protected
+:
+bool
+mPointsInitialized
+;
 PRInt32
 mIdentifier
 ;
@@ -346,11 +351,6 @@ mRotationAngle
 ;
 float
 mForce
-;
-protected
-:
-bool
-mPointsInitialized
 ;
 }
 ;
