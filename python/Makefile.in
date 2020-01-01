@@ -94,6 +94,14 @@ mozbuild
 /
 test
 /
+backend
+\
+mozbuild
+/
+mozbuild
+/
+test
+/
 compilation
 \
 mozbuild

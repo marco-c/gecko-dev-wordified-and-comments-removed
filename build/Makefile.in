@@ -574,14 +574,6 @@ PYTHON_UNIT_TESTS
 \
 tests
 /
-unit
--
-ConfigStatus
-.
-py
-\
-tests
-/
 test
 .
 py
