@@ -2907,14 +2907,14 @@ JSOP_IFEQ
 ;
 frame
 .
-forgetConstantData
+forgetMismatchedObject
 (
 lhs
 )
 ;
 frame
 .
-forgetConstantData
+forgetMismatchedObject
 (
 rhs
 )
@@ -6987,7 +6987,7 @@ true
 }
 frame
 .
-forgetConstantData
+forgetMismatchedObject
 (
 obj
 )
@@ -8837,7 +8837,7 @@ true
 }
 frame
 .
-forgetConstantData
+forgetMismatchedObject
 (
 obj
 )

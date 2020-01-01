@@ -912,7 +912,7 @@ const
 ;
 inline
 void
-forgetConstantData
+forgetMismatchedObject
 (
 FrameEntry
 *
