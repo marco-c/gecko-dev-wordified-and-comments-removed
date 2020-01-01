@@ -4202,6 +4202,7 @@ NS_ERROR_FAILURE
 nsPluginMode
 mode
 ;
+const
 char
 *
 mimetype
@@ -7095,6 +7096,7 @@ nsNPAPIPluginInstance
 :
 GetMIMEType
 (
+const
 char
 *
 *

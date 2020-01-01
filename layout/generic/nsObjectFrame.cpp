@@ -7849,6 +7849,7 @@ if
 aPluginInstance
 )
 {
+const
 char
 *
 mime
