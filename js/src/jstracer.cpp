@@ -6786,12 +6786,6 @@ typeChar
 [
 type
 ]
-vp
-(
-uint32
-)
-*
-vp
 )
 ;
 )
