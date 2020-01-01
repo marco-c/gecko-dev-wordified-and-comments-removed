@@ -496,11 +496,6 @@ _xpidl
 todo_
 #
 {
-(
-call
-requiredfunction
-install_cmd
-)
 #
 #
 Logic
