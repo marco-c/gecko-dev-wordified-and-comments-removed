@@ -219,8 +219,15 @@ a
 shared
 library
 .
-ifdef
+ifneq
+(
+(
 JS_SHARED_LIBRARY
+)
+(
+MOZ_NATIVE_ZLIB
+)
+)
 DEFINES
 +
 =
