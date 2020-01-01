@@ -38,7 +38,7 @@ char
 *
 suffix
 PRBool
-ignoreOcsp
+localOnly
 PRUint32
 outArraySize
 PRUint32

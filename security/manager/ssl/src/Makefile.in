@@ -461,6 +461,10 @@ LIBXUL_LIBRARY
 CPPSRCS
 =
 \
+nsCERTValInParamWrapper
+.
+cpp
+\
 nsNSSCleaner
 .
 cpp
