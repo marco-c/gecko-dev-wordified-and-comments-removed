@@ -195,10 +195,8 @@ testURL_02
 true
 )
 ;
-var
-handleEvent
-=
 function
+handleEvent
 (
 )
 {
