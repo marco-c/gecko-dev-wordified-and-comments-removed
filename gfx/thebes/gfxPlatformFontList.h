@@ -470,6 +470,16 @@ PRUint32
 aCmapCount
 )
 ;
+virtual
+bool
+UsesSystemFallback
+(
+)
+{
+return
+false
+;
+}
 void
 InitOtherFamilyNames
 (

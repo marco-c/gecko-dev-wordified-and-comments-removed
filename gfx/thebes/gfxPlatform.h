@@ -866,6 +866,11 @@ return
 true
 ;
 }
+bool
+UseCmapsDuringSystemFallback
+(
+)
+;
 #
 ifdef
 MOZ_GRAPHITE
@@ -1207,6 +1212,9 @@ mGraphiteShapingEnabled
 endif
 PRInt8
 mBidiNumeralOption
+;
+PRInt8
+mFallbackUsesCmaps
 ;
 PRInt32
 mUseHarfBuzzScripts
