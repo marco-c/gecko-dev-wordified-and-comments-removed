@@ -329,7 +329,9 @@ SetStringProperty
 NS_LITERAL_CSTRING
 (
 "
-static
+auto
+-
+generated
 "
 )
 NS_LITERAL_STRING
