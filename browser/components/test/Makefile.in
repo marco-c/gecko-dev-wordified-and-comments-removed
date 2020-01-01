@@ -407,9 +407,6 @@ DEPTH
 /
 .
 .
-/
-.
-.
 topsrcdir
 =
 top_srcdir
@@ -426,8 +423,6 @@ browser
 components
 /
 test
-/
-browser
 include
 (
 DEPTH
