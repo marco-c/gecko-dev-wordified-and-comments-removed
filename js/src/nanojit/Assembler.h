@@ -415,7 +415,7 @@ ImmDPoolMap
 endif
 #
 ifdef
-VTUNE
+VMCFG_VTUNE
 class
 avmplus
 :
@@ -620,13 +620,10 @@ public
 :
 #
 ifdef
-VTUNE
-avmplus
-:
-:
-CodegenLIR
+VMCFG_VTUNE
+void
 *
-cgen
+vtuneHandle
 ;
 #
 endif
