@@ -930,6 +930,12 @@ moveToFirst
 return
 ;
 }
+mHistorySections
+.
+clear
+(
+)
+;
 final
 Date
 now
