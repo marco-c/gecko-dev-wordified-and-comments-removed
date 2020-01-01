@@ -1524,10 +1524,6 @@ aType
 const
 nsString
 &
-aStorageName
-const
-nsString
-&
 aFilePath
 const
 nsCString

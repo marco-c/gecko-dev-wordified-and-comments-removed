@@ -5060,15 +5060,11 @@ RecvFilePathUpdate
 const
 nsString
 &
-aStorageType
+type
 const
 nsString
 &
-aStorageName
-const
-nsString
-&
-aPath
+path
 const
 nsCString
 &
@@ -5084,9 +5080,8 @@ dsf
 new
 DeviceStorageFile
 (
-aStorageType
-aStorageName
-aPath
+type
+path
 )
 ;
 nsString
@@ -5151,7 +5146,7 @@ aFsName
 const
 nsString
 &
-aVolumeName
+aName
 const
 int32_t
 &
@@ -5175,7 +5170,7 @@ new
 nsVolume
 (
 aFsName
-aVolumeName
+aName
 aState
 aMountGeneration
 )
@@ -5231,7 +5226,7 @@ aFsName
 unused
 <
 <
-aVolumeName
+aName
 ;
 unused
 <

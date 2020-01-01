@@ -7016,10 +7016,6 @@ mStorageType
 file
 -
 >
-mStorageName
-file
--
->
 mPath
 creason
 )
@@ -10730,10 +10726,6 @@ aType
 const
 nsString
 &
-aStorageName
-const
-nsString
-&
 aFilePath
 const
 nsCString
@@ -10751,7 +10743,6 @@ new
 DeviceStorageFile
 (
 aType
-aStorageName
 aFilePath
 )
 ;
