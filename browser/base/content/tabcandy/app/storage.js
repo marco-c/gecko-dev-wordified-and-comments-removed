@@ -252,8 +252,6 @@ self
 saveTab
 (
 tab
-.
-raw
 null
 )
 ;
