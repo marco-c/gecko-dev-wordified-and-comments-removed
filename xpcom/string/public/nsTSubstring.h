@@ -2008,7 +2008,7 @@ sEmptyBuffer
 ;
 }
 NS_COM
-void
+PRBool
 NS_FASTCALL
 SetCapacity
 (
