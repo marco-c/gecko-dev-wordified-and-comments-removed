@@ -1581,6 +1581,11 @@ nsSSLSocketThreadData
 :
 ssl_state
 my_ssl_state
+=
+nsSSLSocketThreadData
+:
+:
+ssl_invalid
 ;
 PRFileDesc
 *
@@ -2302,6 +2307,11 @@ nsSSLSocketThreadData
 :
 ssl_state
 my_ssl_state
+=
+nsSSLSocketThreadData
+:
+:
+ssl_invalid
 ;
 PRFileDesc
 *
