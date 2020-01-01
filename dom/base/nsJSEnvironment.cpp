@@ -8662,6 +8662,12 @@ mContext
 NS_ScriptErrorReporter
 )
 ;
+JSOptionChangedCallback
+(
+js_options_dot_str
+this
+)
+;
 return
 NS_OK
 ;
@@ -11703,12 +11709,6 @@ DMDFunctions
 ;
 #
 endif
-JSOptionChangedCallback
-(
-js_options_dot_str
-this
-)
-;
 return
 rv
 ;
