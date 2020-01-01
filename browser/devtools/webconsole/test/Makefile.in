@@ -493,6 +493,10 @@ browser_netpanel_longstring_expand
 .
 js
 \
+browser_repeated_messages_accuracy
+.
+js
+\
 head
 .
 js
@@ -1347,6 +1351,14 @@ bug
 737873
 -
 mixedcontent
+.
+html
+\
+test
+-
+repeated
+-
+messages
 .
 html
 \
