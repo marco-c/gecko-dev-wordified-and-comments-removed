@@ -481,18 +481,6 @@ false
 ;
 #
 endif
-if
-(
-!
-toSourceCache
-.
-init
-(
-)
-)
-return
-false
-;
 #
 if
 ENABLE_YARR_JIT
@@ -2540,7 +2528,7 @@ purge
 ;
 toSourceCache
 .
-clear
+destroyIfConstructed
 (
 )
 ;
