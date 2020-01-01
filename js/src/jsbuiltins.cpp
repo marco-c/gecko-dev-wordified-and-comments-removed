@@ -1517,7 +1517,9 @@ if
 fp
 -
 >
-hookData
+hasHookData
+(
+)
 )
 return
 JS_FALSE
@@ -1533,7 +1535,9 @@ version
 fp
 -
 >
-callerVersion
+getCallerVersion
+(
+)
 )
 return
 JS_FALSE

@@ -6292,7 +6292,9 @@ if
 fp
 -
 >
-annotation
+hasAnnotation
+(
+)
 &
 &
 fp
@@ -6330,7 +6332,9 @@ return
 fp
 -
 >
-annotation
+getAnnotation
+(
+)
 ;
 }
 }
@@ -6358,9 +6362,10 @@ annotation
 fp
 -
 >
+setAnnotation
+(
 annotation
-=
-annotation
+)
 ;
 }
 JS_PUBLIC_API
