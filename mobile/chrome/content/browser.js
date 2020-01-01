@@ -13102,7 +13102,7 @@ strings
 formatStringFromName
 (
 "
-xpinstallDisabledMessage
+xpinstallDisabledMessage2
 "
 [
 brandShortName
