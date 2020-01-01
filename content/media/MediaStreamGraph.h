@@ -1833,6 +1833,13 @@ DOMMediaStream
 aWrapper
 )
 ;
+enum
+AudioNodeStreamKind
+{
+INTERNAL_STREAM
+EXTERNAL_STREAM
+}
+;
 AudioNodeStream
 *
 CreateAudioNodeStream
@@ -1840,6 +1847,8 @@ CreateAudioNodeStream
 AudioNodeEngine
 *
 aEngine
+AudioNodeStreamKind
+aKind
 )
 ;
 int64_t

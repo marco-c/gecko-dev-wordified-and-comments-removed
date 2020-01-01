@@ -555,6 +555,10 @@ Graph
 CreateAudioNodeStream
 (
 engine
+MediaStreamGraph
+:
+:
+INTERNAL_STREAM
 )
 ;
 engine

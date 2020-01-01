@@ -10645,6 +10645,8 @@ CreateAudioNodeStream
 AudioNodeEngine
 *
 aEngine
+AudioNodeStreamKind
+aKind
 )
 {
 AudioNodeStream
@@ -10655,6 +10657,7 @@ new
 AudioNodeStream
 (
 aEngine
+aKind
 )
 ;
 NS_ADDREF

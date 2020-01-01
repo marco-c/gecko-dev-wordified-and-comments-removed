@@ -583,6 +583,10 @@ new
 PannerNodeEngine
 (
 )
+MediaStreamGraph
+:
+:
+INTERNAL_STREAM
 )
 ;
 Context

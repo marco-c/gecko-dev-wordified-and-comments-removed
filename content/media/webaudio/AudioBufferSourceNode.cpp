@@ -986,6 +986,10 @@ new
 AudioBufferSourceNodeEngine
 (
 )
+MediaStreamGraph
+:
+:
+INTERNAL_STREAM
 )
 ;
 mStream
