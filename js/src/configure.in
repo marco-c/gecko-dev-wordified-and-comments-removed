@@ -44182,9 +44182,6 @@ Makefile
 shell
 /
 Makefile
-lirasm
-/
-Makefile
 jsapi
 -
 tests
