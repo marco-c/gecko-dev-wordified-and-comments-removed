@@ -7724,6 +7724,8 @@ address
 script
 -
 >
+types
+.
 thisTypes
 (
 )
@@ -7780,6 +7782,8 @@ address
 script
 -
 >
+types
+.
 argTypes
 (
 i

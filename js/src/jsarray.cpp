@@ -15269,6 +15269,9 @@ if
 site
 -
 >
+script
+-
+>
 hasGlobal
 (
 )
@@ -15485,6 +15488,9 @@ FILTER
 if
 (
 site
+-
+>
+script
 -
 >
 hasGlobal
@@ -16275,6 +16281,9 @@ if
 (
 !
 site
+-
+>
+script
 -
 >
 hasGlobal

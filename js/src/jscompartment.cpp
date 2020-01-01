@@ -2742,6 +2742,8 @@ ok
 script
 -
 >
+types
+.
 condenseTypes
 (
 cx
