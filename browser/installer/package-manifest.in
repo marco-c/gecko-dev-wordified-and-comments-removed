@@ -449,11 +449,6 @@ DLL_SUFFIX
 endif
 BINPATH
 /
-README
-.
-txt
-BINPATH
-/
 blocklist
 .
 xml
