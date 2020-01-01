@@ -519,6 +519,10 @@ nsSVGCircleElement
 .
 cpp
 \
+nsSVGClassValue
+.
+cpp
+\
 nsSVGClipPathElement
 .
 cpp
