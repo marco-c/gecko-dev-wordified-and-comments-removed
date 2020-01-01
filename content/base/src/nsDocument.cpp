@@ -35367,9 +35367,15 @@ const
 PRInt64
 size
 =
-sizeof
+MemoryReporter
+:
+:
+GetBasicSize
+<
+nsIDocument
+nsINode
+>
 (
-*
 this
 )
 ;

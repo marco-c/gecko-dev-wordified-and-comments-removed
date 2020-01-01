@@ -527,6 +527,12 @@ return
 mMayHaveTouchEventListener
 ;
 }
+PRInt64
+SizeOf
+(
+)
+const
+;
 protected
 :
 nsresult
