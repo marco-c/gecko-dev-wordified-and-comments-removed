@@ -427,3 +427,13 @@ script
 n
 .
 js
+script
+0x
+-
+without
+-
+following
+-
+hexdigits
+.
+js
