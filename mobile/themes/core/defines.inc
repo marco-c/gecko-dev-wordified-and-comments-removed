@@ -201,6 +201,12 @@ padding_tiny
 11mozmm
 %
 define
+border_width_xxlarge
+0
+.
+64mozmm
+%
+define
 border_width_xlarge
 0
 .
