@@ -2515,11 +2515,6 @@ noautohide
 "
 true
 "
-level
-=
-"
-top
-"
 titlebar
 =
 "
@@ -2934,11 +2929,6 @@ noautohide
 =
 "
 true
-"
-level
-=
-"
-top
 "
 titlebar
 =
