@@ -4520,7 +4520,7 @@ disable
 )
 ;
 return
-false
+true
 ;
 }
 linker
