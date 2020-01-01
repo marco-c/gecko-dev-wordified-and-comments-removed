@@ -1184,7 +1184,7 @@ thingp
 )
 -
 >
-zone
+tenuredZone
 (
 )
 ;
@@ -1256,7 +1256,7 @@ thingp
 )
 -
 >
-zone
+tenuredZone
 (
 )
 -
@@ -3375,7 +3375,7 @@ zone
 cell
 -
 >
-zone
+tenuredZone
 (
 )
 ;
@@ -8326,12 +8326,9 @@ thing
 )
 -
 >
-zone
+runtime
 (
 )
--
->
-rt
 ;
 UnmarkGrayTracer
 trc
