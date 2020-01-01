@@ -118,12 +118,17 @@ nsISupportsPrimitives
 h
 "
 #
+ifdef
+MOZ_XUL
+#
 include
 "
 nsITreeColumns
 .
 h
 "
+#
+endif
 #
 include
 "
