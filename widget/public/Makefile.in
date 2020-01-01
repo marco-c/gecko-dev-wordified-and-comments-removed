@@ -568,6 +568,10 @@ nsISound
 .
 idl
 \
+nsISystemSoundService
+.
+idl
+\
 nsITransferable
 .
 idl

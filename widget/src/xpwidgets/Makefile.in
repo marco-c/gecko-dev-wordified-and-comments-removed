@@ -490,6 +490,10 @@ nsAccelerometer
 .
 cpp
 \
+nsSound
+.
+cpp
+\
 (
 NULL
 )

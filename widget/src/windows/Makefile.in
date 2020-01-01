@@ -475,7 +475,7 @@ nsIdleServiceWin
 .
 cpp
 \
-nsSound
+nsSystemSoundService
 .
 cpp
 \

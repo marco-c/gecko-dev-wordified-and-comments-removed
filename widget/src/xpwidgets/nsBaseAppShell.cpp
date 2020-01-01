@@ -27,6 +27,13 @@ nsServiceManagerUtils
 h
 "
 #
+include
+"
+nsSound
+.
+h
+"
+#
 define
 THREAD_EVENT_STARVATION_LIMIT
 PR_MillisecondsToInterval
@@ -164,6 +171,13 @@ AddObserver
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
 PR_FALSE
+)
+;
+nsSystemSoundServiceBase
+:
+:
+InitService
+(
 )
 ;
 return

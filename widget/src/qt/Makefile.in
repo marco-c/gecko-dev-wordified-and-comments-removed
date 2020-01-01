@@ -530,7 +530,7 @@ mozqwidget
 .
 cpp
 \
-nsSound
+nsSystemSoundService
 .
 cpp
 \

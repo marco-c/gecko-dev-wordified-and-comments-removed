@@ -2887,6 +2887,14 @@ aAllowWrapping
 )
 ;
 }
+static
+nsresult
+PlayEventSound
+(
+PRUint32
+aEventID
+)
+;
 private
 :
 static

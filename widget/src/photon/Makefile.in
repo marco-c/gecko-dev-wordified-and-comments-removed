@@ -472,7 +472,7 @@ nsFilePicker
 .
 cpp
 \
-nsSound
+nsSystemSoundService
 .
 cpp
 \

@@ -532,7 +532,7 @@ nsScreenManagerCocoa
 .
 mm
 \
-nsSound
+nsSystemSoundService
 .
 mm
 \
