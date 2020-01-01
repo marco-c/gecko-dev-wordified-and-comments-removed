@@ -19616,8 +19616,10 @@ return
 blocked
 ;
 }
-static
 void
+nsGlobalWindow
+:
+:
 FirePopupBlockedEvent
 (
 nsIDOMDocument
