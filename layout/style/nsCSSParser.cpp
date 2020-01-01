@@ -10806,6 +10806,16 @@ AddSelector
 empty
 )
 ;
+weight
++
+=
+listSel
+-
+>
+CalcWeight
+(
+)
+;
 listSel
 =
 list
@@ -10861,6 +10871,10 @@ pseudoElementArgs
 forget
 (
 )
+;
+havePseudoElement
+=
+PR_TRUE
 ;
 }
 combinator

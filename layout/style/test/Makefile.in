@@ -984,6 +984,10 @@ bug453896_iframe
 .
 html
 \
+test_bug524175
+.
+html
+\
 (
 NULL
 )
