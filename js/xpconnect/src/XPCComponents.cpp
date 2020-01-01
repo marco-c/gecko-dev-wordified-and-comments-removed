@@ -13825,7 +13825,7 @@ rv
 secman
 -
 >
-GetCodebasePrincipal
+GetNoAppCodebasePrincipal
 (
 uri
 principal
