@@ -475,10 +475,10 @@ DEFINES
 +
 =
 -
-DWRAP_MALLOC
+DWRAP_MALLOC_WITH_JEMALLOC
 CSRCS
 =
-wraps
+ld_malloc_wrappers
 .
 c
 ifeq

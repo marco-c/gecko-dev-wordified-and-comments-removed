@@ -34473,6 +34473,14 @@ wrap
 -
 Wl
 strndup
+-
+Wl
+-
+-
+wrap
+-
+Wl
+posix_memalign
 "
 MKSHLIB
 =
