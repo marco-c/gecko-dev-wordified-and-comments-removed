@@ -311,9 +311,6 @@ promise
 '
 wappush
 '
-'
-telephony
-'
 ]
 if
 CONFIG
@@ -352,6 +349,9 @@ PARALLEL_DIRS
 +
 =
 [
+'
+telephony
+'
 '
 wifi
 '
