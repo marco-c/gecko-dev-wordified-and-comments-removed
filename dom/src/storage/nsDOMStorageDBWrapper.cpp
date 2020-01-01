@@ -348,7 +348,7 @@ nsDOMStorageDBWrapper
 :
 EnsureLoadTemporaryTableForStorage
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 )
@@ -412,7 +412,7 @@ nsDOMStorageDBWrapper
 :
 FlushAndDeleteTemporaryTableForStorage
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 )
@@ -476,7 +476,7 @@ nsDOMStorageDBWrapper
 :
 GetAllKeys
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 nsTHashtable
@@ -560,7 +560,7 @@ nsDOMStorageDBWrapper
 :
 GetKeyValue
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -656,7 +656,7 @@ nsDOMStorageDBWrapper
 :
 SetKey
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -771,7 +771,7 @@ nsDOMStorageDBWrapper
 :
 SetSecure
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -860,7 +860,7 @@ nsDOMStorageDBWrapper
 :
 RemoveKey
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -954,7 +954,7 @@ nsDOMStorageDBWrapper
 :
 ClearStorage
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 )
@@ -1314,7 +1314,7 @@ nsDOMStorageDBWrapper
 :
 GetUsage
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 PRBool

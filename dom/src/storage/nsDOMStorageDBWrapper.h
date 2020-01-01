@@ -73,7 +73,7 @@ Init
 nsresult
 EnsureLoadTemporaryTableForStorage
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 )
@@ -81,7 +81,7 @@ aStorage
 nsresult
 FlushAndDeleteTemporaryTableForStorage
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 )
@@ -89,7 +89,7 @@ aStorage
 nsresult
 GetAllKeys
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 nsTHashtable
@@ -103,7 +103,7 @@ aKeys
 nsresult
 GetKeyValue
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -121,7 +121,7 @@ aSecure
 nsresult
 SetKey
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -146,7 +146,7 @@ aNewUsage
 nsresult
 SetSecure
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -161,7 +161,7 @@ aSecure
 nsresult
 RemoveKey
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -177,7 +177,7 @@ aKeyUsage
 nsresult
 ClearStorage
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 )
@@ -231,7 +231,7 @@ RemoveAll
 nsresult
 GetUsage
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 PRBool

@@ -186,7 +186,7 @@ nsDOMStorageMemoryDB
 :
 GetItemsTable
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 nsInMemoryStorage
@@ -346,7 +346,7 @@ nsSessionStorageEntry
 *
 mTarget
 ;
-nsDOMStorage
+DOMStorageImpl
 *
 mStorage
 ;
@@ -447,7 +447,7 @@ nsDOMStorageMemoryDB
 :
 GetAllKeys
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 nsTHashtable
@@ -517,7 +517,7 @@ nsDOMStorageMemoryDB
 :
 GetKeyValue
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -634,7 +634,7 @@ nsDOMStorageMemoryDB
 :
 SetKey
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -884,7 +884,7 @@ nsDOMStorageMemoryDB
 :
 SetSecure
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -957,7 +957,7 @@ nsDOMStorageMemoryDB
 :
 RemoveKey
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 const
@@ -1118,7 +1118,7 @@ nsDOMStorageMemoryDB
 :
 ClearStorage
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 )
@@ -1166,7 +1166,7 @@ nsDOMStorageMemoryDB
 :
 DropStorage
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 )
@@ -1484,7 +1484,7 @@ nsDOMStorageMemoryDB
 :
 GetUsage
 (
-nsDOMStorage
+DOMStorageImpl
 *
 aStorage
 PRBool
