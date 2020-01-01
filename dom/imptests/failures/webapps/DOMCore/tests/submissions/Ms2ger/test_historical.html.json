@@ -148,17 +148,6 @@ must
 be
 nuked
 :
-isSupported
-"
-:
-true
-"
-Node
-member
-must
-be
-nuked
-:
 getUserData
 "
 :
