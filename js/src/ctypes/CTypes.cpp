@@ -23979,7 +23979,7 @@ isEllipsis
 )
 )
 return
-false
+NULL
 ;
 if
 (

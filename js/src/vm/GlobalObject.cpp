@@ -827,7 +827,7 @@ JSProto_LIMIT
 )
 )
 return
-false
+NULL
 ;
 if
 (
@@ -845,7 +845,7 @@ JSProto_LIMIT
 )
 )
 return
-false
+NULL
 ;
 jsid
 id
