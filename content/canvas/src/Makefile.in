@@ -452,6 +452,10 @@ nsCanvasRenderingContext2D
 .
 cpp
 \
+nsCanvasRenderingContext2DAzure
+.
+cpp
+\
 DocumentRendererParent
 .
 cpp
