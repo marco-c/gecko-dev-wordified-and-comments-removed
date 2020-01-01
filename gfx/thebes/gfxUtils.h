@@ -136,6 +136,17 @@ nsIntRegion
 aRegion
 )
 ;
+static
+int
+ImageFormatToDepth
+(
+gfxASurface
+:
+:
+gfxImageFormat
+aFormat
+)
+;
 }
 ;
 #

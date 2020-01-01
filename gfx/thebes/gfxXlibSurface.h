@@ -168,12 +168,13 @@ return
 TEXT_QUALITY_OK_OVER_OPAQUE_PIXELS
 ;
 }
+virtual
 const
 gfxIntSize
-&
 GetSize
 (
 )
+const
 {
 return
 mSize

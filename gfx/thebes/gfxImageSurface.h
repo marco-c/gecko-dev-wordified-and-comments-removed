@@ -76,9 +76,9 @@ return
 mFormat
 ;
 }
+virtual
 const
 gfxIntSize
-&
 GetSize
 (
 )

@@ -98,10 +98,13 @@ GetPS
 (
 )
 ;
+virtual
+const
 gfxIntSize
 GetSize
 (
 )
+const
 {
 return
 mSize
