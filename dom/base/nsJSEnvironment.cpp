@@ -16439,7 +16439,7 @@ nsJSRuntime
 :
 sRuntime
 JSGC_MAX_MALLOC_BYTES
-80L
+128L
 *
 1024L
 *
