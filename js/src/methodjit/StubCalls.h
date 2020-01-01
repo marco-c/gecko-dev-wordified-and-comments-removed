@@ -20,6 +20,15 @@ mjit
 namespace
 stubs
 {
+void
+JS_FASTCALL
+This
+(
+VMFrame
+&
+f
+)
+;
 JSObject
 *
 JS_FASTCALL
