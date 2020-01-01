@@ -219,6 +219,10 @@ NULL
 EXTRA_JS_MODULES
 =
 \
+Startup
+.
+jsm
+\
 WebappRT
 .
 jsm

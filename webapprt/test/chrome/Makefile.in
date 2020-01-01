@@ -85,10 +85,6 @@ head
 .
 js
 \
-install
-.
-html
-\
 browser_sample
 .
 js
