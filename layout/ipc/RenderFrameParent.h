@@ -109,6 +109,11 @@ RenderFrameParent
 )
 ;
 void
+Destroy
+(
+)
+;
+void
 ShadowLayersUpdated
 (
 )

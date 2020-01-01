@@ -59,6 +59,11 @@ Layer
 layer
 )
 ;
+void
+Destroy
+(
+)
+;
 Layer
 *
 AsLayer

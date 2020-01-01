@@ -271,6 +271,12 @@ DestroyFrontBuffer
 (
 )
 ;
+virtual
+void
+Disconnect
+(
+)
+;
 void
 Destroy
 (

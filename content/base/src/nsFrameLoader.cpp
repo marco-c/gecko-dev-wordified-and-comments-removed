@@ -4557,13 +4557,10 @@ SetOwnerElement
 nsnull
 )
 ;
-unused
-<
-<
 mRemoteBrowser
 -
 >
-SendDestroy
+Destroy
 (
 )
 ;

@@ -190,6 +190,11 @@ mBrowserDOMWindow
 aBrowserDOMWindow
 ;
 }
+void
+Destroy
+(
+)
+;
 virtual
 bool
 RecvMoveFocus
