@@ -903,7 +903,7 @@ GetUserFontSet
 )
 )
 ;
-nsIFontMetrics
+nsFontMetrics
 *
 fm
 =

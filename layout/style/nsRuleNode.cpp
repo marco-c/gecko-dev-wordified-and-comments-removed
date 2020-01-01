@@ -50,7 +50,7 @@ h
 #
 include
 "
-nsIFontMetrics
+nsFontMetrics
 .
 h
 "
@@ -1053,9 +1053,9 @@ size
 =
 aFontSize
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fm
 =
@@ -1108,9 +1108,9 @@ size
 =
 aFontSize
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fm
 =

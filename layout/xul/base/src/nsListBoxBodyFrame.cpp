@@ -141,7 +141,7 @@ h
 #
 include
 "
-nsIFontMetrics
+nsFontMetrics
 .
 h
 "
@@ -686,9 +686,9 @@ GetContent
 ;
 }
 }
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fm
 ;

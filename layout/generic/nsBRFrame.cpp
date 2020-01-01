@@ -460,7 +460,7 @@ rendContext
 mStyleContext
 )
 ;
-nsIFontMetrics
+nsFontMetrics
 *
 fm
 =
@@ -734,9 +734,9 @@ ascent
 =
 0
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fm
 ;

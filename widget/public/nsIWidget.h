@@ -116,7 +116,7 @@ class
 nsIToolkit
 ;
 class
-nsIFontMetrics
+nsFontMetrics
 ;
 class
 nsRenderingContext

@@ -7262,7 +7262,7 @@ GetFontGroupForFrame
 nsIFrame
 *
 aFrame
-nsIFontMetrics
+nsFontMetrics
 *
 *
 aOutFontMetrics
@@ -7279,9 +7279,9 @@ aOutFontMetrics
 =
 nsnull
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 metrics
 ;
@@ -12336,7 +12336,7 @@ return
 mFontGroup
 ;
 }
-nsIFontMetrics
+nsFontMetrics
 *
 GetFontMetrics
 (
@@ -12407,9 +12407,9 @@ gfxFontGroup
 *
 mFontGroup
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 mFontMetrics
 ;
@@ -20813,7 +20813,7 @@ nscoord
 fontAscent
 fontHeight
 ;
-nsIFontMetrics
+nsFontMetrics
 *
 fm
 =
@@ -25497,9 +25497,9 @@ givenRect
 =
 aRect
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fm
 ;
@@ -32804,7 +32804,7 @@ textMetrics
 mDescent
 )
 {
-nsIFontMetrics
+nsFontMetrics
 *
 fm
 =
@@ -33290,7 +33290,7 @@ nscoord
 fontAscent
 fontDescent
 ;
-nsIFontMetrics
+nsFontMetrics
 *
 fm
 =

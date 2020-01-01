@@ -2556,9 +2556,9 @@ NS_RGB
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fontMet
 ;

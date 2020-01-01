@@ -1473,9 +1473,9 @@ GetFontXHeight
 "
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fontMetrics
 ;

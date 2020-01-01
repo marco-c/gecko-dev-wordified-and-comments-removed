@@ -1817,9 +1817,9 @@ decorMask
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fontMet
 ;
@@ -2722,7 +2722,7 @@ nscoord
 offset
 baseline
 ;
-nsIFontMetrics
+nsFontMetrics
 *
 metrics
 =
@@ -4129,9 +4129,9 @@ nscoord
 aAscent
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fontMet
 ;

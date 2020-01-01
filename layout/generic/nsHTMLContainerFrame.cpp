@@ -356,9 +356,9 @@ nsRenderingContext
 aCtx
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fm
 ;
@@ -784,9 +784,9 @@ nsRenderingContext
 aCtx
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fm
 ;
@@ -1623,9 +1623,9 @@ aBuilder
 return
 NS_OK
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fm
 ;

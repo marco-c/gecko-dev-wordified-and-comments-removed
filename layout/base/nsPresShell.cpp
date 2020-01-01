@@ -580,7 +580,7 @@ MOZ_REFLOW_PERF
 #
 include
 "
-nsIFontMetrics
+nsFontMetrics
 .
 h
 "
@@ -38276,9 +38276,9 @@ CSSPixelsToAppUnits
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fm
 =

@@ -5580,7 +5580,7 @@ aMode
 }
 already_AddRefed
 <
-nsIFontMetrics
+nsFontMetrics
 >
 nsPresContext
 :
@@ -5595,7 +5595,7 @@ PRBool
 aUseUserFontSet
 )
 {
-nsIFontMetrics
+nsFontMetrics
 *
 metrics
 =

@@ -225,7 +225,7 @@ h
 #
 include
 "
-nsIFontMetrics
+nsFontMetrics
 .
 h
 "
@@ -6703,9 +6703,9 @@ rowHeight
 =
 0
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fontMet
 ;

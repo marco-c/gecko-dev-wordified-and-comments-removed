@@ -9022,7 +9022,7 @@ const
 nsIFrame
 *
 aFrame
-nsIFontMetrics
+nsFontMetrics
 *
 *
 aFontMetrics
@@ -9053,7 +9053,7 @@ GetFontMetricsForStyleContext
 nsStyleContext
 *
 aStyleContext
-nsIFontMetrics
+nsFontMetrics
 *
 *
 aFontMetrics
@@ -13751,7 +13751,7 @@ nsLayoutUtils
 :
 GetCenteredFontBaseline
 (
-nsIFontMetrics
+nsFontMetrics
 *
 aFontMetrics
 nscoord

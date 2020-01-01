@@ -561,7 +561,7 @@ h
 #
 include
 "
-nsIFontMetrics
+nsFontMetrics
 .
 h
 "

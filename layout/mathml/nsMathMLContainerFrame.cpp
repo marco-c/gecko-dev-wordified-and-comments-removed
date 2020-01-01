@@ -245,7 +245,7 @@ Length
 )
 )
 ;
-nsIFontMetrics
+nsFontMetrics
 *
 fm
 =

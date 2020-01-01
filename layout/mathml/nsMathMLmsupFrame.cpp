@@ -378,9 +378,9 @@ xHeight
 =
 0
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fm
 =

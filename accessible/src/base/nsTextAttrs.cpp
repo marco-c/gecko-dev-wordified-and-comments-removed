@@ -43,7 +43,7 @@ h
 #
 include
 "
-nsIFontMetrics
+nsFontMetrics
 .
 h
 "
@@ -2219,9 +2219,9 @@ GetUserFontSet
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fm
 ;

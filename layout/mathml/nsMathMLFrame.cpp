@@ -1026,7 +1026,7 @@ GetRuleThickness
 nsRenderingContext
 &
 aRenderingContext
-nsIFontMetrics
+nsFontMetrics
 *
 aFontMetrics
 nscoord
@@ -1131,7 +1131,7 @@ GetAxisHeight
 nsRenderingContext
 &
 aRenderingContext
-nsIFontMetrics
+nsFontMetrics
 *
 aFontMetrics
 nscoord
@@ -1377,9 +1377,9 @@ GetStyleFont
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fm
 =

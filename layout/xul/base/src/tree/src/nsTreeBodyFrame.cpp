@@ -5525,9 +5525,9 @@ nsCSSAnonBoxes
 moztreecelltext
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fm
 ;
@@ -16304,9 +16304,9 @@ Deflate
 bp
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fontMet
 ;

@@ -4090,7 +4090,7 @@ aRenderingContext
 mStyleContext
 )
 ;
-nsIFontMetrics
+nsFontMetrics
 *
 fm
 =

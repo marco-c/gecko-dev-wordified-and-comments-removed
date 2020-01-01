@@ -366,7 +366,7 @@ nscoord
 aIndexWidth
 nscoord
 aSqrWidth
-nsIFontMetrics
+nsFontMetrics
 *
 aFontMetrics
 nscoord
@@ -798,7 +798,7 @@ GetUserFontSet
 )
 )
 ;
-nsIFontMetrics
+nsFontMetrics
 *
 fm
 =

@@ -725,9 +725,9 @@ childSize
 mBoundingMetrics
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-nsIFontMetrics
+nsFontMetrics
 >
 fm
 =

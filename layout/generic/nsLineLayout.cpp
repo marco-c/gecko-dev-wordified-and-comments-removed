@@ -7337,7 +7337,7 @@ rendContext
 styleContext
 )
 ;
-nsIFontMetrics
+nsFontMetrics
 *
 fm
 =
