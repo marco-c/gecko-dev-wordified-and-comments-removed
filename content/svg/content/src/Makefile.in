@@ -374,6 +374,10 @@ SVGFEMergeNodeElement
 .
 cpp
 \
+SVGFEOffsetElement
+.
+cpp
+\
 SVGFEPointLightElement
 .
 cpp
@@ -796,6 +800,10 @@ SVGFEMergeElement
 h
 \
 SVGFEMergeNodeElement
+.
+h
+\
+SVGFEOffsetElement
 .
 h
 \
