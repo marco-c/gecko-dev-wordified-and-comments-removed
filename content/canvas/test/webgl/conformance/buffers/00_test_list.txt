@@ -62,14 +62,8 @@ resized
 buffer
 .
 html
-#
 index
 -
 validation
 .
 html
-#
-reenable
-me
-ASAP
-!
