@@ -439,6 +439,14 @@ test_bug393970
 .
 xul
 \
+test_resizer
+.
+xul
+\
+window_resizer
+.
+xul
+\
 (
 NULL
 )
