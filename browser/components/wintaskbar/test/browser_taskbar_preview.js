@@ -3,10 +3,6 @@ test
 (
 )
 {
-waitForExplicitFinish
-(
-)
-;
 ok
 (
 (
@@ -43,6 +39,10 @@ window
 )
 )
 return
+;
+waitForExplicitFinish
+(
+)
 ;
 gPrefService
 .
