@@ -2202,6 +2202,15 @@ MATCH_BOUNDARY
 MATCH_BEGINNING
 }
 ;
+enum
+SearchSource
+{
+SEARCH_NONE
+SEARCH_HISTORY
+SEARCH_BOOKMARK
+SEARCH_BOTH
+}
+;
 nsresult
 InitAutoComplete
 (
@@ -2217,6 +2226,9 @@ mAutoCompleteOnlyTyped
 ;
 MatchType
 mAutoCompleteMatchBehavior
+;
+SearchSource
+mAutoCompleteSearchSources
 ;
 PRBool
 mAutoCompleteFilterJavascript
