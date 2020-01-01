@@ -385,6 +385,10 @@ if
 (
 !
 reply
+|
+|
+!
+call
 )
 {
 goto
