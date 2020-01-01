@@ -6276,7 +6276,7 @@ nsIPrincipal
 aPrincipal
 bool
 aLoadedAsData
-nsIScriptGlobalObject
+nsIGlobalObject
 *
 aEventObject
 DocumentFlavor

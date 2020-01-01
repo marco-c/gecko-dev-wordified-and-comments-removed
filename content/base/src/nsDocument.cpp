@@ -18337,6 +18337,11 @@ here
 "
 )
 ;
+if
+(
+aScriptObject
+)
+{
 mScopeObject
 =
 do_GetWeakReference
@@ -18344,11 +18349,6 @@ do_GetWeakReference
 aScriptObject
 )
 ;
-if
-(
-aScriptObject
-)
-{
 mHasHadScriptHandlingObject
 =
 true
@@ -20105,6 +20105,12 @@ DOMImplementation
 (
 this
 scriptObject
+?
+scriptObject
+:
+GetScopeObject
+(
+)
 uri
 uri
 )
