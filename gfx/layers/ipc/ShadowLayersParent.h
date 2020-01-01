@@ -118,6 +118,16 @@ reply
 ;
 NS_OVERRIDE
 virtual
+bool
+RecvGetParentType
+(
+LayersBackend
+*
+aBackend
+)
+;
+NS_OVERRIDE
+virtual
 PLayerParent
 *
 AllocPLayer

@@ -85,6 +85,13 @@ ShadowLayerForwarder
 {
 public
 :
+typedef
+LayerManager
+:
+:
+LayersBackend
+LayersBackend
+;
 virtual
 ~
 ShadowLayerForwarder
@@ -406,6 +413,11 @@ ShadowableLayer
 aLayer
 )
 ;
+LayersBackend
+GetParentBackendType
+(
+)
+;
 protected
 :
 ShadowLayerForwarder
@@ -468,6 +480,9 @@ PlatformSyncBeforeUpdate
 Transaction
 *
 mTxn
+;
+LayersBackend
+mParentBackend
 ;
 }
 ;
