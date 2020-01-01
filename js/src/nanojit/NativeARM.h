@@ -4467,7 +4467,7 @@ LDR_chk
 _d
 _b
 _off
-0
+1
 )
 #
 define
@@ -4482,7 +4482,7 @@ LDR_chk
 _d
 _b
 _off
-1
+0
 )
 #
 define
