@@ -970,6 +970,7 @@ DeleteSignon
 (
 )
 {
+var
 syncNeeded
 =
 (
@@ -1100,6 +1101,7 @@ dummy
 )
 return
 ;
+var
 syncNeeded
 =
 (
