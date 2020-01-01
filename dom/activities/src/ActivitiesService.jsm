@@ -1017,6 +1017,8 @@ if
 (
 aResults
 .
+options
+.
 length
 =
 =
