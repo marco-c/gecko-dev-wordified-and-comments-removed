@@ -303,6 +303,13 @@ FrameDestroyed
 this
 )
 ;
+imageLoader
+-
+>
+DecrementVisibleCount
+(
+)
+;
 }
 SVGFEImageFrameBase
 :
@@ -400,6 +407,13 @@ imageLoader
 FrameCreated
 (
 this
+)
+;
+imageLoader
+-
+>
+IncrementVisibleCount
+(
 )
 ;
 }
