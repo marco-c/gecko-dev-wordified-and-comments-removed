@@ -435,8 +435,6 @@ const
 char
 *
 aPipe
-=
-0
 )
 )
 #
