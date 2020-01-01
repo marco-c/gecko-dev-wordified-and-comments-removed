@@ -100,9 +100,10 @@ gTestBrowser
 addEventListener
 (
 "
-PluginNotFound
+PluginBindingAttached
 "
-pluginNotFound
+pluginBindingAttached
+true
 true
 )
 ;
@@ -178,9 +179,9 @@ gTestBrowser
 removeEventListener
 (
 "
-PluginNotFound
+PluginBindingAttached
 "
-pluginNotFound
+pluginBindingAttached
 true
 )
 ;
@@ -222,7 +223,7 @@ html
 ;
 }
 function
-pluginNotFound
+pluginBindingAttached
 (
 )
 {
