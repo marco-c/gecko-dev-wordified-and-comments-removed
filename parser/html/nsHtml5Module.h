@@ -80,6 +80,10 @@ static
 PRBool
 sOffMainThread
 ;
+static
+PRBool
+sHotmailWorkaround
+;
 private
 :
 #
