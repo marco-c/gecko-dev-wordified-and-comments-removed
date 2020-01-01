@@ -1460,6 +1460,8 @@ aForward
 PRInt32
 *
 aOffset
+PRBool
+aRespectClusters
 )
 {
 NS_ASSERTION
