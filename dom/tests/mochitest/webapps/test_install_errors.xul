@@ -718,7 +718,7 @@ onInstall
 (
 )
 {
-todo
+ok
 (
 false
 "
@@ -727,7 +727,8 @@ with
 bad
 content
 type
-fails
+should
+fail
 "
 )
 ;
