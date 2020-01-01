@@ -479,14 +479,6 @@ PluginUtils
 .
 js
 \
-specialpowersAPI
-.
-js
-\
-SpecialPowersObserverAPI
-.
-js
-\
 (
 DEPTH
 )

@@ -676,6 +676,10 @@ redirect
 .
 html
 \
+redirect
+.
+js
+\
 (
 topsrcdir
 )
