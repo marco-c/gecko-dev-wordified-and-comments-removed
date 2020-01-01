@@ -192,6 +192,12 @@ tabs
 "
 browser
 .
+urlbar
+.
+"
+"
+browser
+.
 zoom
 .
 "
