@@ -541,11 +541,11 @@ i
 )
 ;
 let
-systemSheet
+contentSheet
 =
 CssLogic
 .
-isSystemStyleSheet
+isContentStylesheet
 (
 domRule
 .
@@ -554,7 +554,8 @@ parentStyleSheet
 ;
 if
 (
-systemSheet
+!
+contentSheet
 )
 {
 continue
