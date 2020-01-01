@@ -340,6 +340,9 @@ static
 char
 *
 sBuf1
+;
+static
+char
 *
 sBuf2
 ;
