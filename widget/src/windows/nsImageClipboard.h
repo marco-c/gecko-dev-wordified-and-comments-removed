@@ -157,6 +157,10 @@ unsigned
 char
 *
 aClipboardData
+const
+char
+*
+aMIMEFormat
 nsIInputStream
 *
 *
