@@ -795,6 +795,10 @@ OfflineAudioContext
 .
 webidl
 \
+OfflineResourceList
+.
+webidl
+\
 PaintRequest
 .
 webidl

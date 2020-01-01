@@ -98,6 +98,16 @@ MODULE
 '
 dom
 '
+EXPORTS
++
+=
+[
+'
+nsDOMOfflineResourceList
+.
+h
+'
+]
 CPP_SOURCES
 +
 =
