@@ -630,7 +630,7 @@ kFontNameFmtSerif
 type
 :
 "
-unichar
+fontname
 "
 element
 :
@@ -650,7 +650,7 @@ kFontNameFmtSansSerif
 type
 :
 "
-unichar
+fontname
 "
 element
 :
@@ -674,7 +674,7 @@ kFontNameFmtMonospace
 type
 :
 "
-unichar
+fontname
 "
 element
 :
