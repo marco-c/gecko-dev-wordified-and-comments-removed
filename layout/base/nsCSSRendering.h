@@ -80,6 +80,10 @@ const
 nsPoint
 &
 aForFramePt
+const
+nsRect
+&
+aDirtyRect
 )
 ;
 static
@@ -397,6 +401,10 @@ aAppUnitsPerDevPixel
 gfxContext
 *
 aDestinationCtx
+const
+gfxRect
+&
+aDirtyRect
 )
 ;
 void
@@ -424,6 +432,9 @@ mContext
 gfxContext
 *
 mDestinationCtx
+;
+gfxRect
+mRequiredShadowArea
 ;
 }
 ;

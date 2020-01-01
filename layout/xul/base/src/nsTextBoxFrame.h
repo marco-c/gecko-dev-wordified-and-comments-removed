@@ -357,6 +357,10 @@ const
 nscolor
 &
 aForegroundColor
+const
+nsRect
+&
+aDirtyRect
 )
 ;
 CroppingStyle

@@ -3472,6 +3472,7 @@ PresContext
 aCtx
 mFrame
 offset
+aDirtyRect
 )
 ;
 }
