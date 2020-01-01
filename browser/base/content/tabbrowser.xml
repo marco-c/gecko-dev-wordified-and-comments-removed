@@ -24901,7 +24901,7 @@ scrollClientRect
 var
 rect
 =
-this
+tabStrip
 .
 getBoundingClientRect
 (
