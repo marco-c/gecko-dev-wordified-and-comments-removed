@@ -2592,6 +2592,9 @@ TypeConsensus_Bad
 class
 TraceRecorder
 {
+VMAllocator
+tempAlloc
+;
 JSContext
 *
 cx
@@ -4979,6 +4982,11 @@ outerArgc
 ;
 ~
 TraceRecorder
+(
+)
+;
+bool
+outOfMemory
 (
 )
 ;

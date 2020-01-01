@@ -439,7 +439,7 @@ CLS
 (
 VMAllocator
 )
-allocator
+dataAlloc
 ;
 CLS
 (
