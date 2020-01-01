@@ -1608,6 +1608,7 @@ if
 (
 selectedIndex
 >
+=
 0
 )
 {
