@@ -44,6 +44,13 @@ __linux__
 )
 &
 &
+!
+defined
+(
+__OpenBSD__
+)
+&
+&
 \
 (
 __cplusplus
