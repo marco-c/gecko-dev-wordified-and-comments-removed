@@ -518,12 +518,12 @@ MOZ_WIDGET_TOOLKIT
 )
 )
 )
-CMMSRCS
+CPPSRCS
 +
 =
 nsUserInfoMac
 .
-mm
+cpp
 else
 CPPSRCS
 +
