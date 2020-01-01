@@ -438,13 +438,6 @@ false
 )
 ;
 var
-root
-=
-bmsvc
-.
-bookmarksMenuFolder
-;
-var
 bmStartIndex
 =
 0
@@ -454,6 +447,13 @@ run_test
 (
 )
 {
+var
+root
+=
+bmsvc
+.
+bookmarksMenuFolder
+;
 const
 DESCRIPTION_ANNO
 =
@@ -774,6 +774,13 @@ root
 bmStartIndex
 )
 ;
+ptSvc
+.
+doTransaction
+(
+txn2a
+)
+;
 var
 fldrId
 =
@@ -891,7 +898,7 @@ com
 )
 )
 ;
-txn2
+txn2b
 .
 undoTransaction
 (
@@ -1101,7 +1108,7 @@ do_check_eq
 observer
 .
 _itemMovedOldIndex
-0
+1
 )
 ;
 do_check_eq
@@ -1117,7 +1124,7 @@ do_check_eq
 observer
 .
 _itemMovedNewIndex
-1
+2
 )
 ;
 txn3
@@ -1147,7 +1154,7 @@ do_check_eq
 observer
 .
 _itemMovedOldIndex
-1
+2
 )
 ;
 do_check_eq
@@ -1163,7 +1170,7 @@ do_check_eq
 observer
 .
 _itemMovedNewIndex
-0
+1
 )
 ;
 var
@@ -1206,7 +1213,7 @@ do_check_eq
 observer
 .
 _itemMovedOldIndex
-0
+1
 )
 ;
 do_check_eq
@@ -1222,7 +1229,7 @@ do_check_eq
 observer
 .
 _itemMovedNewIndex
-2
+1
 )
 ;
 txn3
@@ -1252,7 +1259,7 @@ do_check_eq
 observer
 .
 _itemMovedOldIndex
-2
+1
 )
 ;
 do_check_eq
@@ -1268,7 +1275,7 @@ do_check_eq
 observer
 .
 _itemMovedNewIndex
-0
+1
 )
 ;
 ptSvc
@@ -1338,7 +1345,7 @@ do_check_eq
 observer
 .
 _itemRemovedIndex
-2
+3
 )
 ;
 txn4
@@ -1368,7 +1375,7 @@ do_check_eq
 observer
 .
 _itemAddedIndex
-2
+3
 )
 ;
 var
@@ -1408,7 +1415,7 @@ do_check_eq
 observer
 .
 _itemRemovedIndex
-0
+1
 )
 ;
 txn5
@@ -1430,7 +1437,7 @@ do_check_eq
 observer
 .
 _itemAddedIndex
-0
+1
 )
 ;
 var
