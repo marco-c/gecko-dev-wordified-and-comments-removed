@@ -192,7 +192,6 @@ nsACString
 aOutput
 )
 ;
-static
 nsresult
 OptimizeFaviconImage
 (
@@ -294,6 +293,9 @@ mDefaultIcon
 ;
 bool
 mExpirationRunning
+;
+PRInt32
+mOptimizedIconDimension
 ;
 PRUint32
 mFailedFaviconSerial
