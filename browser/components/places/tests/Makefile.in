@@ -443,7 +443,6 @@ DIRS
 =
 browser
 chrome
-perf
 include
 (
 topsrcdir
