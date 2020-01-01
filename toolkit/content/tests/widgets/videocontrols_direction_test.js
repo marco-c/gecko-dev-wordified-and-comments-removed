@@ -170,7 +170,7 @@ m
 addEventListener
 (
 "
-suspend
+progress
 "
 function
 (
@@ -179,16 +179,6 @@ aEvent
 {
 if
 (
-m
-.
-readyState
-=
-=
-m
-.
-HAVE_ENOUGH_DATA
-&
-&
 aEvent
 .
 loaded
@@ -204,7 +194,7 @@ m
 removeEventListener
 (
 "
-suspend
+progress
 "
 arguments
 .
