@@ -380,8 +380,10 @@ size
 float
 sizeAdjust
 ;
+nsRefPtr
+<
 nsIAtom
-*
+>
 language
 ;
 PRUint32

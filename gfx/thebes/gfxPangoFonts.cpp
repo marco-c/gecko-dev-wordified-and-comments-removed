@@ -7577,6 +7577,10 @@ langGroup
 mStyle
 .
 language
+.
+get
+(
+)
 )
 ;
 nsAutoRef
