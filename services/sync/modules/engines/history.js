@@ -2392,6 +2392,12 @@ HistoryRec
 (
 )
 ;
+record
+.
+id
+=
+guid
+;
 if
 (
 foo
