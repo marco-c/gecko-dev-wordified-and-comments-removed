@@ -6346,11 +6346,6 @@ elements
 push
 (
 node
-.
-wrappedJSObject
-|
-|
-node
 )
 ;
 }
@@ -6842,11 +6837,6 @@ this
 setCurrentElement
 (
 aElement
-.
-wrappedJSObject
-|
-|
-aElement
 )
 ;
 return
@@ -7279,11 +7269,6 @@ this
 _control
 =
 aControl
-.
-wrappedJSObject
-|
-|
-aControl
 ;
 }
 SelectWrapper
@@ -7496,11 +7481,6 @@ this
 .
 _control
 =
-aControl
-.
-wrappedJSObject
-|
-|
 aControl
 ;
 }
