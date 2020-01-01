@@ -776,6 +776,10 @@ browser_webconsole_bug_621644_jsterm_dollar
 .
 js
 \
+browser_webconsole_bug_632817
+.
+js
+\
 head
 .
 js
