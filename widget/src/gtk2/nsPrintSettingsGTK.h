@@ -429,6 +429,17 @@ SetupSilentPrinting
 (
 )
 ;
+NS_IMETHOD
+GetPageRanges
+(
+nsTArray
+<
+PRInt32
+>
+&
+aPages
+)
+;
 protected
 :
 nsPrintSettingsGTK

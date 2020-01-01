@@ -430,6 +430,12 @@ mFromPageNum
 PRInt32
 mToPageNum
 ;
+nsTArray
+<
+PRInt32
+>
+mPageRanges
+;
 nscoord
 mSelectionHeight
 ;
