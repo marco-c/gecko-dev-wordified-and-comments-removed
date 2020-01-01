@@ -23,6 +23,12 @@ jstests
 .
 list
 include
+Global
+/
+jstests
+.
+list
+include
 JSON
 /
 jstests

@@ -160,6 +160,12 @@ protochange
 .
 js
 script
+parseInt
+-
+octal
+.
+js
+script
 proxy
 -
 enumerateOwn
