@@ -129,14 +129,6 @@ head
 >
 <
 body
-onload
-=
-"
-doTest
-(
-)
-;
-"
 >
 <
 a
@@ -239,8 +231,11 @@ waitForExplicitFinish
 (
 )
 ;
+SimpleTest
+.
+waitForFocus
+(
 function
-doTest
 (
 )
 {
@@ -326,6 +321,8 @@ finish
 )
 ;
 }
+)
+;
 <
 /
 script
