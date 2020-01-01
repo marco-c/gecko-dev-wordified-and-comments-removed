@@ -2413,6 +2413,10 @@ js_NumberToString
 )
 JS_DECLARE_CALLINFO
 (
+js_String_tn
+)
+JS_DECLARE_CALLINFO
+(
 js_CompareStrings
 )
 JS_DECLARE_CALLINFO
