@@ -321,12 +321,6 @@ len
 ;
 if
 (
-mTokenPos
-!
-=
-0
-&
-&
 (
 len
 =
