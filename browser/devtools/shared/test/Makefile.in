@@ -121,10 +121,6 @@ head
 .
 js
 \
-helpers
-.
-js
-\
 leakhunt
 .
 js
