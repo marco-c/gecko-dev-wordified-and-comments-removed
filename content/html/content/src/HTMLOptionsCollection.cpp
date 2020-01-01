@@ -216,17 +216,6 @@ nsStyleConsts
 .
 h
 "
-DOMCI_DATA
-(
-HTMLOptionsCollection
-mozilla
-:
-:
-dom
-:
-:
-HTMLOptionsCollection
-)
 namespace
 mozilla
 {

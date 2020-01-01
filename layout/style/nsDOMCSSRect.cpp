@@ -30,13 +30,6 @@ nsDOMCSSRect
 .
 h
 "
-#
-include
-"
-nsDOMClassInfoID
-.
-h
-"
 using
 namespace
 mozilla
@@ -92,11 +85,6 @@ void
 )
 {
 }
-DOMCI_DATA
-(
-CSSRect
-nsDOMCSSRect
-)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsDOMCSSRect
@@ -108,10 +96,6 @@ nsIDOMRect
 NS_INTERFACE_MAP_ENTRY
 (
 nsISupports
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-CSSRect
 )
 NS_WRAPPERCACHE_INTERFACE_MAP_ENTRY
 NS_INTERFACE_MAP_END

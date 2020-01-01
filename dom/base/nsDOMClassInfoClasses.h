@@ -139,10 +139,6 @@ Crypto
 )
 DOMCI_CLASS
 (
-CSSRect
-)
-DOMCI_CLASS
-(
 ChromeWindow
 )
 #
