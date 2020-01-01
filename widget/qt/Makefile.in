@@ -226,6 +226,10 @@ nsDeviceContextSpecQt
 .
 cpp
 \
+mozqglwidgetwrapper
+.
+cpp
+\
 (
 NULL
 )
