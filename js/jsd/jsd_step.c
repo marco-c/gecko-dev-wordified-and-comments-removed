@@ -350,14 +350,6 @@ flags
 &
 JSD_COLLECT_PROFILE_DATA
 )
-&
-&
-jsdc
--
->
-flags
-&
-JSD_DISABLE_OBJECT_TRACE
 )
 {
 return
