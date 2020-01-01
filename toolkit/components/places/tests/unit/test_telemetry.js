@@ -122,6 +122,7 @@ do_check_true
 (
 val
 >
+=
 0
 )
 PLACES_DATABASE_PAGESIZE_B
