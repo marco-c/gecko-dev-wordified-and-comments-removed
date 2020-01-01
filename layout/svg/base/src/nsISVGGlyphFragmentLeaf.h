@@ -260,6 +260,17 @@ IsAbsolutelyPositioned
 ;
 NS_IMETHOD_
 (
+PRBool
+)
+IsEmpty
+(
+)
+const
+=
+0
+;
+NS_IMETHOD_
+(
 void
 )
 SetTrimLeadingWhitespace
