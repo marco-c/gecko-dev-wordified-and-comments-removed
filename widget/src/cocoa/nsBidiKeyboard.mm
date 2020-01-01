@@ -453,10 +453,17 @@ h
 #
 include
 "
-nsCocoaTextInputHandler
+TextInputHandler
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+widget
+;
 NS_IMPL_ISUPPORTS1
 (
 nsBidiKeyboard
@@ -497,7 +504,7 @@ aIsRTL
 *
 aIsRTL
 =
-nsTISInputSource
+TISInputSourceWrapper
 :
 :
 CurrentKeyboardLayout

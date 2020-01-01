@@ -782,6 +782,13 @@ mozilla
 :
 gl
 ;
+using
+namespace
+mozilla
+:
+:
+widget
+;
 #
 undef
 DEBUG_IME
@@ -2129,7 +2136,7 @@ DebugPrintAllKeyboardLayouts
 (
 )
 {
-nsCocoaTextInputHandler
+TextInputHandler
 :
 :
 DebugPrintAllKeyboardLayouts
@@ -2137,7 +2144,7 @@ DebugPrintAllKeyboardLayouts
 sCocoaLog
 )
 ;
-nsCocoaIMEHandler
+IMEInputHandler
 :
 :
 DebugPrintAllIMEModes
@@ -25451,7 +25458,7 @@ if
 sUSLayout
 )
 {
-nsTISInputSource
+TISInputSourceWrapper
 tis
 (
 "
@@ -25849,7 +25856,7 @@ kt
 PRBool
 isRomanKeyboardLayout
 ;
-nsTISInputSource
+TISInputSourceWrapper
 tis
 ;
 if
