@@ -253,6 +253,10 @@ test_bug812817
 .
 xul
 \
+test_bug847890_paintFlashing
+.
+html
+\
 (
 NULL
 )
