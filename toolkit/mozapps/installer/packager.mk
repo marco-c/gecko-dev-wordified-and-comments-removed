@@ -2384,7 +2384,7 @@ UPLOAD_EXTRA_FILES
 =
 robocop
 .
-apk
+zip
 ROBOCOP_PATH
 =
 (
@@ -2484,7 +2484,7 @@ _ABS_DIST
 /
 robocop
 .
-apk
+zip
 endif
 PKG_SUFFIX
 =
