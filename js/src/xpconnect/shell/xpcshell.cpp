@@ -385,6 +385,9 @@ h
 "
 #
 endif
+#
+ifdef
+MOZ_IPC
 using
 mozilla
 :
@@ -403,6 +406,8 @@ ipc
 :
 TestShellParent
 ;
+#
+endif
 class
 XPCShellDirProvider
 :
