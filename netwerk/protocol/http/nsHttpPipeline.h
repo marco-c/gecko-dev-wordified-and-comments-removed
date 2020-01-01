@@ -207,10 +207,6 @@ nsAHttpSegmentReader
 *
 mReader
 ;
-nsAHttpSegmentWriter
-*
-mWriter
-;
 nsCOMPtr
 <
 nsIInputStream

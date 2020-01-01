@@ -2374,6 +2374,8 @@ aResult
 {
 int64_t
 tell
+=
+0
 ;
 nsresult
 rv
@@ -2420,6 +2422,8 @@ aResult
 {
 uint64_t
 available
+=
+0
 ;
 nsresult
 rv

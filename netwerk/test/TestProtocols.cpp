@@ -1708,6 +1708,7 @@ if
 (
 gVerbose
 )
+{
 LOG
 (
 (
@@ -1737,6 +1738,7 @@ URL
 )
 )
 ;
+}
 nsCAutoString
 value
 ;
@@ -1913,6 +1915,7 @@ length
 )
 )
 )
+{
 LOG
 (
 (
@@ -1931,7 +1934,9 @@ length
 )
 )
 ;
+}
 else
+{
 LOG
 (
 (
@@ -1948,6 +1953,7 @@ n
 )
 )
 ;
+}
 }
 nsCOMPtr
 <
@@ -2112,6 +2118,7 @@ NS_SUCCEEDED
 rv
 )
 )
+{
 LOG
 (
 (
@@ -2131,6 +2138,7 @@ len
 )
 )
 ;
+}
 }
 nsCOMPtr
 <
@@ -2174,6 +2182,7 @@ NS_SUCCEEDED
 rv
 )
 )
+{
 LOG
 (
 (
@@ -2195,6 +2204,7 @@ minorVer
 )
 )
 ;
+}
 }
 nsCOMPtr
 <
@@ -2717,6 +2727,7 @@ if
 (
 bHTTPURL
 )
+{
 LOG
 (
 (
@@ -2734,6 +2745,7 @@ httpStatus
 )
 )
 ;
+}
 if
 (
 NS_ERROR_UNKNOWN_HOST
@@ -3386,6 +3398,7 @@ NS_SUCCEEDED
 rv
 )
 )
+{
 LOG
 (
 (
@@ -3403,6 +3416,7 @@ n
 )
 )
 ;
+}
 }
 nsCOMPtr
 <

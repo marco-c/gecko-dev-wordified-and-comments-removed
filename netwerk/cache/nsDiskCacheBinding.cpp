@@ -653,6 +653,9 @@ table
 void
 *
 )
+(
+uintptr_t
+)
 hashNumber
 PL_DHASH_LOOKUP
 )
@@ -777,6 +780,9 @@ table
 (
 void
 *
+)
+(
+uintptr_t
 )
 binding
 -
@@ -1081,6 +1087,9 @@ key
 void
 *
 )
+(
+uintptr_t
+)
 binding
 -
 >
@@ -1103,6 +1112,9 @@ table
 (
 void
 *
+)
+(
+uintptr_t
 )
 key
 PL_DHASH_LOOKUP
@@ -1156,9 +1168,6 @@ binding
 )
 )
 {
-(
-void
-)
 PL_DHashTableOperate
 (
 &
@@ -1166,6 +1175,9 @@ table
 (
 void
 *
+)
+(
+uintptr_t
 )
 binding
 -
