@@ -3267,6 +3267,16 @@ g_object_ref
 childAtkObj
 )
 ;
+if
+(
+aAtkObj
+!
+=
+childAtkObj
+-
+>
+accessible_parent
+)
 atk_object_set_parent
 (
 childAtkObj
