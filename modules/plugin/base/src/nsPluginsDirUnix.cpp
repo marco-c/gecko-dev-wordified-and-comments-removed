@@ -1742,7 +1742,7 @@ plugin
 >
 GetValue
 (
-nsPluginVariable_NameString
+NPPVpluginNameString
 &
 name
 )
@@ -1786,7 +1786,7 @@ plugin
 >
 GetValue
 (
-nsPluginVariable_DescriptionString
+NPPVpluginDescriptionString
 &
 description
 )

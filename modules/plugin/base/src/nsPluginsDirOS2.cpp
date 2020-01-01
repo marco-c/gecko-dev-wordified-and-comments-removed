@@ -49,7 +49,7 @@ h
 #
 include
 "
-nsPluginDefs
+npapi
 .
 h
 "

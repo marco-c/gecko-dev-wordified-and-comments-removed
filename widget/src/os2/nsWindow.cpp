@@ -141,7 +141,7 @@ h
 #
 include
 "
-nsplugindefs
+npapi
 .
 h
 "

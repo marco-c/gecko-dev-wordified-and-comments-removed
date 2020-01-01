@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsplugindefs
+npapi
 .
 h
 "
@@ -50,7 +50,7 @@ class
 nsPluginNativeWindow
 :
 public
-nsPluginWindow
+NPWindow
 {
 public
 :
@@ -58,7 +58,7 @@ nsPluginNativeWindow
 (
 )
 :
-nsPluginWindow
+NPWindow
 (
 )
 {

@@ -476,13 +476,6 @@ nsPluginNativeWindow
 h
 "
 #
-include
-"
-nsplugindefs
-.
-h
-"
-#
 ifdef
 MOZILLA_INTERNAL_API
 #

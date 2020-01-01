@@ -252,7 +252,7 @@ mWsInfo
 ;
 type
 =
-nsPluginWindowType_Window
+NPWindowTypeWindow
 ;
 mSocketWidget
 =
@@ -485,7 +485,7 @@ None
 None
 )
 ;
-nsPluginRect
+NPRect
 rect
 ;
 rect
@@ -595,7 +595,7 @@ if
 type
 =
 =
-nsPluginWindowType_Window
+NPWindowTypeWindow
 )
 {
 nsresult
@@ -625,11 +625,8 @@ rv
 aPluginInstance
 -
 >
-GetValue
+GetValueFromPlugin
 (
-(
-nsPluginInstanceVariable
-)
 NPPVpluginNeedsXEmbed
 &
 needXEmbed
@@ -730,7 +727,7 @@ height
 window
 =
 (
-nsPluginPort
+void
 *
 )
 GTK_XTBIN
@@ -751,7 +748,7 @@ SetAllocation
 window
 =
 (
-nsPluginPort
+void
 *
 )
 gtk_socket_get_id
@@ -943,7 +940,7 @@ gdk_flush
 window
 =
 (
-nsPluginPort
+void
 *
 )
 gtk_socket_get_id
@@ -1181,7 +1178,7 @@ gdk_flush
 window
 =
 (
-nsPluginPort
+void
 *
 )
 gtk_socket_get_id

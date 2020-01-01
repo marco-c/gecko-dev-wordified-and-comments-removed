@@ -423,10 +423,6 @@ GRE_MODULE
 EXPORTS
 =
 \
-nsplugindefs
-.
-h
-\
 nsPluginLogging
 .
 h

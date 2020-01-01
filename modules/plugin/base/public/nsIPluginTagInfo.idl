@@ -440,13 +440,6 @@ idl
 C
 +
 +
-#
-include
-"
-nsplugindefs
-.
-h
-"
 enum
 nsPluginTagType
 {

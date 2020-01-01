@@ -1295,8 +1295,11 @@ mPluginDrawing
 PRPackedBool
 mPluginIsCG
 ;
-nsPluginPort
-mPluginPort
+NP_CGContext
+mPluginCGContext
+;
+NP_Port
+mPluginQDPort
 ;
 nsIPluginInstanceOwner
 *

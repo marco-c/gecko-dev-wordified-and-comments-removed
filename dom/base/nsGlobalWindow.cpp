@@ -1924,7 +1924,7 @@ ShowNativeContextMenu
 NPMenu
 *
 menu
-nsPluginEvent
+void
 *
 event
 )
@@ -2080,7 +2080,7 @@ nsDummyJavaPluginOwner
 :
 GetWindow
 (
-nsPluginWindow
+NPWindow
 *
 &
 aWindow
@@ -2100,7 +2100,7 @@ nsDummyJavaPluginOwner
 :
 GetMode
 (
-nsPluginMode
+PRInt32
 *
 aMode
 )
@@ -2108,7 +2108,7 @@ aMode
 *
 aMode
 =
-nsPluginMode_Embedded
+NP_EMBED
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -2200,7 +2200,7 @@ ShowNativeContextMenu
 NPMenu
 *
 menu
-nsPluginEvent
+void
 *
 event
 )
@@ -2265,7 +2265,7 @@ nsDummyJavaPluginOwner
 :
 InvalidateRect
 (
-nsPluginRect
+NPRect
 *
 invalidRect
 )
@@ -2280,7 +2280,7 @@ nsDummyJavaPluginOwner
 :
 InvalidateRegion
 (
-nsPluginRegion
+NPRegion
 invalidRegion
 )
 {

@@ -175,7 +175,7 @@ mStreamBufferSize
 PRInt32
 mStreamBufferByteCount
 ;
-nsPluginStreamType
+PRInt32
 mStreamType
 ;
 PRPackedBool
