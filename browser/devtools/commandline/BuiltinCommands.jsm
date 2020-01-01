@@ -10689,11 +10689,14 @@ manual
 :
 gcli
 .
-lookup
+lookupFormat
 (
 "
-listenManual
+listenManual2
 "
+[
+BRAND_SHORT_NAME
+]
 )
 params
 :
