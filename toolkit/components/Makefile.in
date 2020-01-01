@@ -455,6 +455,8 @@ contentprefs
 \
 microformats
 \
+places
+\
 (
 NULL
 )
@@ -524,13 +526,6 @@ DIRS
 +
 =
 help
-endif
-ifdef
-MOZ_PLACES
-DIRS
-+
-=
-places
 endif
 ifdef
 NS_PRINTING

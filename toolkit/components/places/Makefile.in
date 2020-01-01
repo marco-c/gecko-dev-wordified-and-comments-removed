@@ -419,6 +419,11 @@ mk
 DIRS
 =
 public
+ifdef
+MOZ_PLACES
+DIRS
++
+=
 src
 ifdef
 ENABLE_TESTS
@@ -426,6 +431,7 @@ DIRS
 +
 =
 tests
+endif
 endif
 include
 (
