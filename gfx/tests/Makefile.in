@@ -409,6 +409,9 @@ config
 autoconf
 .
 mk
+MODULE
+=
+gfx
 MOZILLA_INTERNAL_API
 =
 1
@@ -481,6 +484,9 @@ NSPR_LIBS
 (
 NULL
 )
+XPCSHELL_TESTS
+=
+unit
 include
 (
 topsrcdir
