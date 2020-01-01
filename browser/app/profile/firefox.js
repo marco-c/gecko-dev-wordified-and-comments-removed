@@ -3167,7 +3167,7 @@ sanitize
 .
 timeSpan
 "
-0
+1
 )
 ;
 pref
