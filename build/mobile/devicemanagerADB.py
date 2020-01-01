@@ -1783,6 +1783,34 @@ False
 )
 :
     
+if
+cmd
+[
+0
+]
+=
+=
+"
+am
+"
+:
+      
+self
+.
+checkCmd
+(
+[
+"
+shell
+"
+]
++
+cmd
+)
+      
+return
+outputFile
+    
 acmd
 =
 [
@@ -2037,7 +2065,6 @@ acmd
     
 return
 outputFile
-;
   
 def
 killProcess
