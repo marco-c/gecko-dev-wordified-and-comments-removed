@@ -1435,6 +1435,14 @@ return
 JITScript_Valid
 ;
 }
+JS_FRIEND_API
+(
+size_t
+)
+jitDataSize
+(
+)
+;
 #
 endif
 JS_FRIEND_API
