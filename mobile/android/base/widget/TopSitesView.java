@@ -3616,6 +3616,11 @@ DATA
 )
 )
 ;
+Bitmap
+bitmap
+=
+null
+;
 if
 (
 b
@@ -3624,7 +3629,8 @@ b
 null
 )
 {
-return
+bitmap
+=
 BitmapFactory
 .
 decodeByteArray
@@ -3637,8 +3643,14 @@ length
 )
 ;
 }
+c
+.
+close
+(
+)
+;
 return
-null
+bitmap
 ;
 }
 Override
