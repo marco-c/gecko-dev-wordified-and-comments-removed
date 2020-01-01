@@ -226,7 +226,7 @@ size
 >
 static_cast
 <
-WebRtc_UWord32
+uint32_t
 >
 (
 _maxLen
@@ -1473,7 +1473,7 @@ const
 char
 *
 name
-WebRtc_Word64
+int64_t
 refTimeMs
 )
 :
@@ -1608,7 +1608,7 @@ rbegin
 (
 )
 ;
-WebRtc_UWord32
+uint32_t
 removeCount
 =
 0
@@ -1685,7 +1685,7 @@ removeCount
 ;
 }
 }
-WebRtc_Word64
+int64_t
 MatlabTimeLine
 :
 :
@@ -1942,7 +1942,7 @@ const
 char
 *
 name
-WebRtc_Word64
+int64_t
 refTimeMs
 )
 {
@@ -4551,7 +4551,7 @@ DonePlotting
 (
 )
 ;
-WebRtc_Word64
+int64_t
 start
 =
 TickTime

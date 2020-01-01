@@ -124,7 +124,7 @@ load
 s
 :
 %
-d
+s
 "
 dll_name
 GetDllError
@@ -166,7 +166,7 @@ kTraceAudioDevice
 1
 "
 %
-d
+s
 "
 GetDllError
 (

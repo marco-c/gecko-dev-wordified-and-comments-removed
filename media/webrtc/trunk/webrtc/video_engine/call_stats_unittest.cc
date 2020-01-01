@@ -99,7 +99,7 @@ class
 MockStatsObserver
 :
 public
-StatsObserver
+CallStatsObserver
 {
 public
 :

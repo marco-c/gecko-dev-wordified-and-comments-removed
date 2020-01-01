@@ -123,7 +123,7 @@ num_csrcs
 =
 0
 const
-WebRtc_UWord32
+uint32_t
 CSRC
 [
 kRtpCsrcSize
@@ -595,10 +595,10 @@ ViEFileImpl
 ;
 private
 :
-WebRtc_Word32
+int32_t
 GetNextCapturedFrame
 (
-WebRtc_Word32
+int32_t
 capture_id
 I420VideoFrame
 *

@@ -74,6 +74,15 @@ frame
 )
 ;
 void
+CopyFrom
+(
+const
+VCMDecodingState
+&
+state
+)
+;
+void
 SetStateOneBack
 (
 const
@@ -125,7 +134,7 @@ sequence_num
 const
 ;
 bool
-init
+in_initial_state
 (
 )
 const
@@ -202,7 +211,7 @@ bool
 full_sync_
 ;
 bool
-init_
+in_initial_state_
 ;
 }
 ;

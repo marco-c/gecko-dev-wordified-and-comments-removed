@@ -77,7 +77,7 @@ Perform
 ;
 private
 :
-WebRtc_Word16
+int16_t
 SetUp
 (
 )
@@ -213,7 +213,7 @@ side
 void
 Wait
 (
-WebRtc_UWord32
+uint32_t
 waitLengthMs
 )
 ;
@@ -299,10 +299,10 @@ _outFileB
 PCMFile
 _inFileB
 ;
-WebRtc_Word32
+int32_t
 _outFreqHzA
 ;
-WebRtc_Word32
+int32_t
 _outFreqHzB
 ;
 bool
@@ -340,10 +340,10 @@ EventWrapper
 *
 _apiEventB
 ;
-WebRtc_UWord8
+uint8_t
 _codecCntrA
 ;
-WebRtc_UWord8
+uint8_t
 _codecCntrB
 ;
 bool
@@ -376,10 +376,10 @@ _sendDTXB
 ACMVADMode
 _sendVADModeB
 ;
-WebRtc_Word32
+int32_t
 _minDelayA
 ;
-WebRtc_Word32
+int32_t
 _minDelayB
 ;
 bool

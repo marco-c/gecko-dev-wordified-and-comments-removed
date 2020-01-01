@@ -45,7 +45,7 @@ tmp
 "
 ;
 const
-int
+size_t
 kFrameLength
 =
 1000
@@ -176,7 +176,7 @@ FrameWriterTest
 WriteFrame
 )
 {
-WebRtc_UWord8
+uint8_t
 buffer
 [
 kFrameLength
@@ -215,15 +215,9 @@ Close
 ASSERT_EQ
 (
 kFrameLength
-static_cast
-<
-int
->
-(
 GetFileSize
 (
 kOutputFilename
-)
 )
 )
 ;
@@ -234,7 +228,7 @@ FrameWriterTest
 WriteFrameUninitialized
 )
 {
-WebRtc_UWord8
+uint8_t
 buffer
 [
 3

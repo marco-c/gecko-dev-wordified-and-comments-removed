@@ -47,13 +47,13 @@ NETEQTEST_Decoder
 enum
 WebRtcNetEQDecoder
 type
-WebRtc_UWord16
+uint16_t
 fs
 const
 char
 *
 name
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -108,7 +108,7 @@ return
 void
 setPT
 (
-WebRtc_UWord8
+uint8_t
 pt
 )
 {
@@ -118,7 +118,7 @@ pt
 ;
 }
 ;
-WebRtc_UWord16
+uint16_t
 getFs
 (
 )
@@ -145,7 +145,7 @@ _decoderType
 ;
 }
 ;
-WebRtc_UWord8
+uint8_t
 getPT
 (
 )
@@ -179,10 +179,10 @@ enum
 WebRtcNetEQDecoder
 _decoderType
 ;
-WebRtc_UWord8
+uint8_t
 _pt
 ;
-WebRtc_UWord16
+uint16_t
 _fs
 ;
 std
@@ -205,7 +205,7 @@ public
 :
 decoder_iSAC
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -237,7 +237,7 @@ public
 :
 decoder_iSACSWB
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -269,7 +269,7 @@ public
 :
 decoder_iSACFB
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -301,7 +301,7 @@ public
 :
 decoder_PCMU
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -335,7 +335,7 @@ public
 :
 decoder_PCMA
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -369,7 +369,7 @@ public
 :
 decoder_PCM16B_NB
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -417,7 +417,7 @@ public
 :
 decoder_PCM16B_WB
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -465,7 +465,7 @@ public
 :
 decoder_PCM16B_SWB32
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -513,7 +513,7 @@ public
 :
 decoder_PCM16B_SWB48
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -561,7 +561,7 @@ public
 :
 decoder_ILBC
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -593,7 +593,7 @@ public
 :
 decoder_G729
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -625,7 +625,7 @@ public
 :
 decoder_G729_1
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -657,7 +657,7 @@ public
 :
 decoder_G722
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -689,7 +689,7 @@ public
 :
 decoder_G722_1_16
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -721,7 +721,7 @@ public
 :
 decoder_G722_1_24
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -753,7 +753,7 @@ public
 :
 decoder_G722_1_32
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -785,7 +785,7 @@ public
 :
 decoder_G722_1C_24
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -817,7 +817,7 @@ public
 :
 decoder_G722_1C_32
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -849,7 +849,7 @@ public
 :
 decoder_G722_1C_48
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -881,7 +881,7 @@ public
 :
 decoder_AMR
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -913,7 +913,7 @@ public
 :
 decoder_AMRWB
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -945,7 +945,7 @@ public
 :
 decoder_GSMFR
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -984,7 +984,7 @@ const
 char
 *
 name
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -1019,7 +1019,7 @@ public
 :
 decoder_G726_16
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -1062,7 +1062,7 @@ public
 :
 decoder_G726_24
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -1105,7 +1105,7 @@ public
 :
 decoder_G726_32
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -1148,7 +1148,7 @@ public
 :
 decoder_G726_40
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -1191,11 +1191,11 @@ public
 :
 decoder_SPEEX
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
-WebRtc_UWord16
+uint16_t
 fs
 =
 8000
@@ -1227,11 +1227,11 @@ public
 :
 decoder_CELT
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
-WebRtc_UWord16
+uint16_t
 fs
 =
 32000
@@ -1263,11 +1263,11 @@ public
 :
 decoder_CELTslave
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
-WebRtc_UWord16
+uint16_t
 fs
 =
 32000
@@ -1299,7 +1299,7 @@ public
 :
 decoder_RED
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -1345,7 +1345,7 @@ public
 :
 decoder_AVT
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
@@ -1391,11 +1391,11 @@ public
 :
 decoder_CNG
 (
-WebRtc_UWord8
+uint8_t
 pt
 =
 0
-WebRtc_UWord16
+uint16_t
 fs
 =
 8000

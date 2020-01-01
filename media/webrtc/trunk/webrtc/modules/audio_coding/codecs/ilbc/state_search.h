@@ -20,13 +20,13 @@ iLBCenc_inst
 iLBC_bits
 *
 iLBC_encbits
-WebRtc_Word16
+int16_t
 *
 residual
-WebRtc_Word16
+int16_t
 *
 syntDenum
-WebRtc_Word16
+int16_t
 *
 weightDenum
 )

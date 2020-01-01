@@ -100,7 +100,7 @@ FileRecorder
 CreateFileRecorder
 (
 const
-WebRtc_UWord32
+uint32_t
 instanceID
 const
 FileFormats
@@ -117,7 +117,7 @@ recorder
 )
 ;
 virtual
-WebRtc_Word32
+int32_t
 RegisterModuleFileCallback
 (
 FileCallback
@@ -137,7 +137,7 @@ const
 0
 ;
 virtual
-WebRtc_Word32
+int32_t
 StartRecordingAudioFile
 (
 const
@@ -148,7 +148,7 @@ const
 CodecInst
 &
 codecInst
-WebRtc_UWord32
+uint32_t
 notification
 ACMAMRPackingFormat
 amrFormat
@@ -159,7 +159,7 @@ AMRFileStorage
 0
 ;
 virtual
-WebRtc_Word32
+int32_t
 StartRecordingAudioFile
 (
 OutStream
@@ -169,7 +169,7 @@ const
 CodecInst
 &
 codecInst
-WebRtc_UWord32
+uint32_t
 notification
 ACMAMRPackingFormat
 amrFormat
@@ -180,7 +180,7 @@ AMRFileStorage
 0
 ;
 virtual
-WebRtc_Word32
+int32_t
 StopRecording
 (
 )
@@ -197,7 +197,7 @@ const
 0
 ;
 virtual
-WebRtc_Word32
+int32_t
 codec_info
 (
 CodecInst
@@ -209,7 +209,7 @@ const
 0
 ;
 virtual
-WebRtc_Word32
+int32_t
 RecordAudioToFile
 (
 const
@@ -227,7 +227,7 @@ NULL
 0
 ;
 virtual
-WebRtc_Word32
+int32_t
 StartRecordingVideoFile
 (
 const
@@ -255,7 +255,7 @@ false
 0
 ;
 virtual
-WebRtc_Word32
+int32_t
 RecordVideoToFile
 (
 const

@@ -20,10 +20,10 @@ iLBCdec_inst
 iLBC_bits
 *
 iLBC_encbits
-WebRtc_Word16
+int16_t
 *
 decresidual
-WebRtc_Word16
+int16_t
 *
 syntdenum
 )

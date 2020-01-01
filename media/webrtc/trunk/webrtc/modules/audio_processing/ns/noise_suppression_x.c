@@ -144,7 +144,7 @@ WebRtcNsx_Init
 NsxHandle
 *
 nsxInst
-WebRtc_UWord32
+uint32_t
 fs
 )
 {

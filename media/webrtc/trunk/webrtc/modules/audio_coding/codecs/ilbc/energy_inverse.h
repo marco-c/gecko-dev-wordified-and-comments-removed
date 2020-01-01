@@ -14,7 +14,7 @@ h
 void
 WebRtcIlbcfix_EnergyInverse
 (
-WebRtc_Word16
+int16_t
 *
 energy
 int

@@ -17,6 +17,8 @@ string
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -51,7 +53,7 @@ virtual
 bool
 WriteFrame
 (
-WebRtc_UWord8
+uint8_t
 *
 frame_buffer
 )
@@ -67,7 +69,7 @@ Close
 0
 ;
 virtual
-int
+size_t
 FrameLength
 (
 )
@@ -91,7 +93,7 @@ std
 :
 string
 output_filename
-int
+size_t
 frame_length_in_bytes
 )
 ;
@@ -109,7 +111,7 @@ Init
 bool
 WriteFrame
 (
-WebRtc_UWord8
+uint8_t
 *
 frame_buffer
 )
@@ -119,7 +121,7 @@ Close
 (
 )
 ;
-int
+size_t
 FrameLength
 (
 )
@@ -136,7 +138,7 @@ std
 string
 output_filename_
 ;
-int
+size_t
 frame_length_in_bytes_
 ;
 FILE

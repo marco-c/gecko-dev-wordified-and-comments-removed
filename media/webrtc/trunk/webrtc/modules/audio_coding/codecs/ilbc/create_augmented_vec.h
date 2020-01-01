@@ -14,12 +14,12 @@ h
 void
 WebRtcIlbcfix_CreateAugmentedVec
 (
-WebRtc_Word16
+int16_t
 index
-WebRtc_Word16
+int16_t
 *
 buffer
-WebRtc_Word16
+int16_t
 *
 cbVec
 )

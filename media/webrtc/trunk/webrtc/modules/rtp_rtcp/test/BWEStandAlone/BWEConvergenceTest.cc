@@ -110,7 +110,7 @@ std
 :
 string
 ip
-WebRtc_UWord16
+uint16_t
 port
 )
 {

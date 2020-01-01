@@ -17,6 +17,8 @@ string
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -51,7 +53,7 @@ virtual
 bool
 ReadFrame
 (
-WebRtc_UWord8
+uint8_t
 *
 source_buffer
 )
@@ -67,7 +69,7 @@ Close
 0
 ;
 virtual
-int
+size_t
 FrameLength
 (
 )
@@ -99,7 +101,7 @@ std
 :
 string
 input_filename
-int
+size_t
 frame_length_in_bytes
 )
 ;
@@ -117,7 +119,7 @@ Init
 bool
 ReadFrame
 (
-WebRtc_UWord8
+uint8_t
 *
 source_buffer
 )
@@ -127,7 +129,7 @@ Close
 (
 )
 ;
-int
+size_t
 FrameLength
 (
 )
@@ -153,7 +155,7 @@ std
 string
 input_filename_
 ;
-int
+size_t
 frame_length_in_bytes_
 ;
 int

@@ -53,7 +53,7 @@ JpegEncoder
 (
 )
 ;
-WebRtc_Word32
+int32_t
 SetFileName
 (
 const
@@ -62,7 +62,7 @@ char
 fileName
 )
 ;
-WebRtc_Word32
+int32_t
 Encode
 (
 const

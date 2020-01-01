@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -57,6 +59,13 @@ else
 #
 include
 <
+unistd
+.
+h
+>
+#
+include
+<
 sys
 /
 sysinfo
@@ -68,6 +77,10 @@ endif
 #
 include
 "
+system_wrappers
+/
+interface
+/
 trace
 .
 h
@@ -75,7 +88,7 @@ h
 namespace
 webrtc
 {
-WebRtc_UWord32
+uint32_t
 CpuInfo
 :
 :
@@ -83,7 +96,7 @@ number_of_cores_
 =
 0
 ;
-WebRtc_UWord32
+uint32_t
 CpuInfo
 :
 :
@@ -116,7 +129,7 @@ number_of_cores_
 =
 static_cast
 <
-WebRtc_UWord32
+uint32_t
 >
 (
 si
@@ -154,13 +167,6 @@ WEBRTC_LINUX
 defined
 (
 WEBRTC_ANDROID
-)
-&
-&
-!
-defined
-(
-WEBRTC_GONK
 )
 number_of_cores_
 =
@@ -235,7 +241,7 @@ number_of_cores_
 =
 static_cast
 <
-WebRtc_UWord32
+uint32_t
 >
 (
 ncpu

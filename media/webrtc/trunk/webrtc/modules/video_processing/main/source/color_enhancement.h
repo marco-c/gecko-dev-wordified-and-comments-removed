@@ -24,7 +24,7 @@ webrtc
 namespace
 VideoProcessing
 {
-WebRtc_Word32
+int32_t
 ColorEnhancement
 (
 I420VideoFrame

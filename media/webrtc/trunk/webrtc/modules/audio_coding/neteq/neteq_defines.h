@@ -210,9 +210,6 @@ define
 NETEQ_ILBC_CODEC
 #
 define
-NETEQ_OPUS_CODEC
-#
-define
 NETEQ_G729_CODEC
 #
 define
@@ -239,9 +236,6 @@ NETEQ_ALL_WB_CODECS
 #
 define
 NETEQ_ISAC_CODEC
-#
-define
-NETEQ_OPUS_CODEC
 #
 define
 NETEQ_G722_CODEC
@@ -276,9 +270,6 @@ NETEQ_ALL_WB32_CODECS
 #
 define
 NETEQ_ISAC_SWB_CODEC
-#
-define
-NETEQ_OPUS_CODEC
 #
 define
 NETEQ_32KHZ_WIDEBAND
@@ -372,12 +363,6 @@ define
 NETEQ_OPUS_CODEC
 #
 define
-NETEQ_48KHZ_WIDEBAND
-#
-define
-NETEQ_OPUS_CODEC
-#
-define
 NETEQ_ISAC_FB_CODEC
 #
 endif
@@ -415,9 +400,6 @@ define
 NETEQ_ILBC_CODEC
 #
 define
-NETEQ_OPUS_CODEC
-#
-define
 NETEQ_G729_CODEC
 #
 define
@@ -434,9 +416,6 @@ NETEQ_WIDEBAND
 #
 define
 NETEQ_ISAC_CODEC
-#
-define
-NETEQ_OPUS_CODEC
 #
 define
 NETEQ_G722_CODEC
@@ -457,9 +436,6 @@ define
 NETEQ_ISAC_SWB_CODEC
 #
 define
-NETEQ_OPUS_CODEC
-#
-define
 NETEQ_32KHZ_WIDEBAND
 #
 define
@@ -467,12 +443,6 @@ NETEQ_G722_1C_CODEC
 #
 define
 NETEQ_CELT_CODEC
-#
-define
-NETEQ_OPUS_CODEC
-#
-define
-NETEQ_48KHZ_WIDEBAND
 #
 define
 NETEQ_48KHZ_WIDEBAND
@@ -484,9 +454,6 @@ define
 NETEQ_ISAC_FB
 #
 endif
-#
-define
-NETEQ_48KHZ_WIDEBAND
 #
 if
 defined

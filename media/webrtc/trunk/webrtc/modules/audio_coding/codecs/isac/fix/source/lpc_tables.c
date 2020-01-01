@@ -13,7 +13,7 @@ lpc_tables
 h
 "
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kSelIndGain
 [
 12
@@ -35,7 +35,7 @@ WebRtcIsacfix_kSelIndGain
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kSelIndShape
 [
 108
@@ -153,7 +153,7 @@ WebRtcIsacfix_kSelIndShape
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kModelCdf
 [
 4
@@ -167,7 +167,7 @@ WebRtcIsacfix_kModelCdf
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsacfix_kModelCdfPtr
 [
@@ -179,7 +179,7 @@ WebRtcIsacfix_kModelCdf
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kModelInitIndex
 [
 1
@@ -190,7 +190,7 @@ WebRtcIsacfix_kModelInitIndex
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kQuantMinGain
 [
 12
@@ -212,7 +212,7 @@ WebRtcIsacfix_kQuantMinGain
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kQuantMinShape
 [
 108
@@ -330,7 +330,7 @@ WebRtcIsacfix_kQuantMinShape
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kMaxIndGain
 [
 12
@@ -352,7 +352,7 @@ WebRtcIsacfix_kMaxIndGain
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kMaxIndShape
 [
 108
@@ -470,7 +470,7 @@ WebRtcIsacfix_kMaxIndShape
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kOffsetGain
 [
 3
@@ -525,7 +525,7 @@ WebRtcIsacfix_kOffsetGain
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kOffsetShape
 [
 3
@@ -868,7 +868,7 @@ WebRtcIsacfix_kOffsetShape
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kInitIndexGain
 [
 3
@@ -923,7 +923,7 @@ WebRtcIsacfix_kInitIndexGain
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kInitIndexShape
 [
 3
@@ -1266,7 +1266,7 @@ WebRtcIsacfix_kInitIndexShape
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kOfLevelsGain
 [
 3
@@ -1279,7 +1279,7 @@ WebRtcIsacfix_kOfLevelsGain
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kOfLevelsShape
 [
 3
@@ -1292,7 +1292,7 @@ WebRtcIsacfix_kOfLevelsShape
 }
 ;
 const
-WebRtc_Word32
+int32_t
 WebRtcIsacfix_kLevelsGainQ17
 [
 1176
@@ -3070,7 +3070,7 @@ WebRtcIsacfix_kLevelsGainQ17
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kLevelsShapeQ10
 [
 1735
@@ -5632,7 +5632,7 @@ WebRtcIsacfix_kLevelsShapeQ10
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kCdfGain
 [
 1212
@@ -6854,7 +6854,7 @@ WebRtcIsacfix_kCdfGain
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kCdfShape
 [
 2059
@@ -8923,7 +8923,7 @@ WebRtcIsacfix_kCdfShape
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsacfix_kCdfGainPtr
 [
@@ -9123,7 +9123,7 @@ WebRtcIsacfix_kCdfGain
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsacfix_kCdfShapePtr
 [
@@ -10763,7 +10763,7 @@ WebRtcIsacfix_kCdfShape
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kCodeLenGainQ11
 [
 392
@@ -11165,7 +11165,7 @@ WebRtcIsacfix_kCodeLenGainQ11
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kCodeLenShapeQ11
 [
 577
@@ -11752,7 +11752,7 @@ WebRtcIsacfix_kCodeLenShapeQ11
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kT1GainQ15
 [
 3
@@ -11786,7 +11786,7 @@ WebRtcIsacfix_kT1GainQ15
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kT1ShapeQ15
 [
 3
@@ -13265,7 +13265,7 @@ WebRtcIsacfix_kT1ShapeQ15
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kT2GainQ15
 [
 3
@@ -13435,7 +13435,7 @@ WebRtcIsacfix_kT2GainQ15
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kT2ShapeQ15
 [
 3
@@ -13605,7 +13605,7 @@ WebRtcIsacfix_kT2ShapeQ15
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kMeansGainQ8
 [
 3
@@ -13696,7 +13696,7 @@ WebRtcIsacfix_kMeansGainQ8
 }
 ;
 const
-WebRtc_Word32
+int32_t
 WebRtcIsacfix_kMeansShapeQ17
 [
 3

@@ -12,13 +12,13 @@ signal_processing_library
 .
 h
 "
-WebRtc_Word16
+int16_t
 WebRtcSpl_get_version
 (
 char
 *
 version
-WebRtc_Word16
+int16_t
 length_in_bytes
 )
 {

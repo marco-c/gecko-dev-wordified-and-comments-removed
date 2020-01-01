@@ -93,7 +93,7 @@ VoiceEngineImpl
 *
 s
 =
-reinterpret_cast
+static_cast
 <
 VoiceEngineImpl
 *
@@ -512,7 +512,7 @@ ResetRTCPStatistics
 }
 else
 {
-WebRtc_Word32
+int32_t
 numOfChannels
 =
 _shared
@@ -538,12 +538,12 @@ return
 0
 ;
 }
-WebRtc_Word32
+int32_t
 *
 channelsArray
 =
 new
-WebRtc_Word32
+int32_t
 [
 numOfChannels
 ]
@@ -2073,7 +2073,7 @@ n
 "
 )
 ;
-WebRtc_Word32
+int32_t
 numOfChannels
 =
 _shared
@@ -2099,12 +2099,12 @@ return
 0
 ;
 }
-WebRtc_Word32
+int32_t
 *
 channelsArray
 =
 new
-WebRtc_Word32
+int32_t
 [
 numOfChannels
 ]

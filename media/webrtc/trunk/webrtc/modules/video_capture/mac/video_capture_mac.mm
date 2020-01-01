@@ -220,7 +220,7 @@ else
 #
 include
 "
-qtkit
+QTKit
 /
 video_capture_qtkit
 .
@@ -229,7 +229,7 @@ h
 #
 include
 "
-qtkit
+QTKit
 /
 video_capture_qtkit_info
 .
@@ -708,7 +708,7 @@ remainingBufferInBytes
 remaining
 number
 of
-WebRtc_Word8
+int8_t
 in
 the
 version
@@ -722,7 +722,7 @@ of
 the
 next
 empty
-WebRtc_Word8
+int8_t
 in
 the
 *
@@ -738,7 +738,7 @@ VideoCaptureImpl
 Create
 (
 const
-WebRtc_Word32
+int32_t
 id
 const
 char
@@ -1413,7 +1413,7 @@ VideoCaptureImpl
 CreateDeviceInfo
 (
 const
-WebRtc_Word32
+int32_t
 id
 )
 {

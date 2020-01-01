@@ -100,10 +100,7 @@ type
 '
 :
 '
-<
-(
-library
-)
+static_library
 '
 '
 dependencies
@@ -513,10 +510,7 @@ type
 '
 :
 '
-<
-(
-library
-)
+static_library
 '
 '
 includes
@@ -574,6 +568,11 @@ sources
 '
 :
 [
+'
+entropy_coding_neon
+.
+c
+'
 '
 filterbanks_neon
 .

@@ -14,10 +14,10 @@ h
 void
 WebRtcIlbcfix_Poly2Lsf
 (
-WebRtc_Word16
+int16_t
 *
 lsf
-WebRtc_Word16
+int16_t
 *
 a
 )

@@ -14,7 +14,7 @@ h
 "
 static
 const
-WebRtc_UWord8
+uint8_t
 ulaw_to_alaw_table
 [
 256
@@ -281,7 +281,7 @@ ulaw_to_alaw_table
 ;
 static
 const
-WebRtc_UWord8
+uint8_t
 alaw_to_ulaw_table
 [
 256
@@ -546,10 +546,10 @@ alaw_to_ulaw_table
 209
 }
 ;
-WebRtc_UWord8
+uint8_t
 alaw_to_ulaw
 (
-WebRtc_UWord8
+uint8_t
 alaw
 )
 {
@@ -560,10 +560,10 @@ alaw
 ]
 ;
 }
-WebRtc_UWord8
+uint8_t
 ulaw_to_alaw
 (
-WebRtc_UWord8
+uint8_t
 ulaw
 )
 {

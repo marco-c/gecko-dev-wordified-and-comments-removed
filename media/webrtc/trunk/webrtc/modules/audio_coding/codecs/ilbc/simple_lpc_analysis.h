@@ -14,10 +14,10 @@ h
 void
 WebRtcIlbcfix_SimpleLpcAnalysis
 (
-WebRtc_Word16
+int16_t
 *
 lsf
-WebRtc_Word16
+int16_t
 *
 data
 iLBC_Enc_Inst_t

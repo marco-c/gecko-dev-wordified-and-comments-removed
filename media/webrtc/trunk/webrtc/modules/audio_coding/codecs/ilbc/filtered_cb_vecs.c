@@ -15,15 +15,15 @@ h
 void
 WebRtcIlbcfix_FilteredCbVecs
 (
-WebRtc_Word16
+int16_t
 *
 cbvectors
-WebRtc_Word16
+int16_t
 *
 CBmem
 int
 lMem
-WebRtc_Word16
+int16_t
 samples
 )
 {
@@ -69,7 +69,7 @@ lMem
 -
 samples
 (
-WebRtc_Word16
+int16_t
 *
 )
 WebRtcIlbcfix_kCbFiltersRev

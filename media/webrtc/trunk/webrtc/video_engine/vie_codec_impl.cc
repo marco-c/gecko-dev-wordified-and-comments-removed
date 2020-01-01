@@ -239,7 +239,7 @@ this
 -
 -
 ;
-WebRtc_Word32
+int32_t
 ref_count
 =
 GetCount
@@ -500,7 +500,7 @@ VideoCodec
 )
 )
 ;
-strncpy
+strcpy
 (
 video_codec
 .
@@ -508,7 +508,6 @@ plName
 "
 red
 "
-3
 )
 ;
 video_codec
@@ -551,7 +550,7 @@ VideoCodec
 )
 )
 ;
-strncpy
+strcpy
 (
 video_codec
 .
@@ -559,7 +558,6 @@ plName
 "
 ulpfec
 "
-6
 )
 ;
 video_codec
@@ -835,6 +833,11 @@ numberOfTemporalLayers
 %
 u
 "
+"
+keyFrameInterval
+%
+d
+"
 video_codec
 .
 codecSpecific
@@ -870,6 +873,13 @@ codecSpecific
 VP8
 .
 numberOfTemporalLayers
+video_codec
+.
+codecSpecific
+.
+VP8
+.
+keyFrameInterval
 )
 ;
 }
@@ -3164,7 +3174,7 @@ CodecTargetBitrate
 (
 static_cast
 <
-WebRtc_UWord32
+uint32_t
 *
 >
 (
@@ -4720,6 +4730,15 @@ I420
 {
 }
 else
+if
+(
+video_codec
+.
+codecType
+!
+=
+kVideoCodecGeneric
+)
 {
 WEBRTC_TRACE
 (
@@ -4753,8 +4772,8 @@ plType
 =
 =
 0
-&
-&
+|
+|
 video_codec
 .
 plType

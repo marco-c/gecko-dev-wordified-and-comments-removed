@@ -13,7 +13,7 @@ settings
 h
 "
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kRc1Cdf
 [
 12
@@ -35,7 +35,7 @@ WebRtcIsacfix_kRc1Cdf
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kRc2Cdf
 [
 12
@@ -57,7 +57,7 @@ WebRtcIsacfix_kRc2Cdf
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kRc3Cdf
 [
 12
@@ -79,7 +79,7 @@ WebRtcIsacfix_kRc3Cdf
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kRc4Cdf
 [
 12
@@ -101,7 +101,7 @@ WebRtcIsacfix_kRc4Cdf
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kRc5Cdf
 [
 12
@@ -123,7 +123,7 @@ WebRtcIsacfix_kRc5Cdf
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kRc6Cdf
 [
 12
@@ -145,7 +145,7 @@ WebRtcIsacfix_kRc6Cdf
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kRc1Levels
 [
 11
@@ -172,7 +172,7 @@ WebRtcIsacfix_kRc1Levels
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kRc2Levels
 [
 11
@@ -199,7 +199,7 @@ WebRtcIsacfix_kRc2Levels
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kRc3Levels
 [
 11
@@ -226,7 +226,7 @@ WebRtcIsacfix_kRc3Levels
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kRc4Levels
 [
 11
@@ -253,7 +253,7 @@ WebRtcIsacfix_kRc4Levels
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kRc5Levels
 [
 11
@@ -280,7 +280,7 @@ WebRtcIsacfix_kRc5Levels
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kRc6Levels
 [
 11
@@ -307,7 +307,7 @@ WebRtcIsacfix_kRc6Levels
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kRcBound
 [
 12
@@ -335,7 +335,7 @@ WebRtcIsacfix_kRcBound
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kRcInitInd
 [
 6
@@ -351,7 +351,7 @@ WebRtcIsacfix_kRcInitInd
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsacfix_kRcCdfPtr
 [
@@ -368,7 +368,7 @@ WebRtcIsacfix_kRc6Cdf
 }
 ;
 const
-WebRtc_Word16
+int16_t
 *
 WebRtcIsacfix_kRcLevPtr
 [
@@ -385,7 +385,7 @@ WebRtcIsacfix_kRc6Levels
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kGainCdf
 [
 19
@@ -414,7 +414,7 @@ WebRtcIsacfix_kGainCdf
 }
 ;
 const
-WebRtc_Word32
+int32_t
 WebRtcIsacfix_kGain2Lev
 [
 18
@@ -442,7 +442,7 @@ WebRtcIsacfix_kGain2Lev
 }
 ;
 const
-WebRtc_Word32
+int32_t
 WebRtcIsacfix_kGain2Bound
 [
 19
@@ -471,7 +471,7 @@ WebRtcIsacfix_kGain2Bound
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsacfix_kGainPtr
 [
@@ -483,7 +483,7 @@ WebRtcIsacfix_kGainCdf
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsacfix_kGainInitInd
 [
 1
@@ -494,7 +494,7 @@ WebRtcIsacfix_kGainInitInd
 }
 ;
 const
-WebRtc_Word16
+int16_t
 WebRtcIsacfix_kCos
 [
 6

@@ -97,7 +97,7 @@ private
 HANDLE
 event_
 ;
-WebRtc_UWord32
+uint32_t
 timerID_
 ;
 }

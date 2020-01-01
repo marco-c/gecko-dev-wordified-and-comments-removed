@@ -89,11 +89,11 @@ VideoRenderCallback
 public
 :
 virtual
-WebRtc_Word32
+int32_t
 RenderFrame
 (
 const
-WebRtc_UWord32
+uint32_t
 streamId
 I420VideoFrame
 &
@@ -123,7 +123,7 @@ void
 OnRenderError
 (
 const
-WebRtc_Word32
+int32_t
 streamId
 const
 VideoRenderError

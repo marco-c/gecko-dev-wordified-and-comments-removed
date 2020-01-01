@@ -92,7 +92,7 @@ timestamp_
 (
 (
 (
-WebRtc_UWord32
+uint32_t
 )
 rand
 (
@@ -107,7 +107,7 @@ rand
 |
 (
 (
-WebRtc_UWord32
+uint32_t
 )
 rand
 (
@@ -122,7 +122,7 @@ PCMFile
 :
 PCMFile
 (
-WebRtc_UWord32
+uint32_t
 timestamp
 )
 :
@@ -164,7 +164,7 @@ timestamp_
 timestamp
 ;
 }
-WebRtc_Word16
+int16_t
 PCMFile
 :
 :
@@ -176,7 +176,7 @@ std
 string
 *
 file_name
-WebRtc_Word16
+int16_t
 max_len
 )
 {
@@ -211,7 +211,7 @@ MAX_FILE_NAME_LENGTH_BYTE
 0
 '
 ;
-WebRtc_Word16
+int16_t
 n
 =
 0
@@ -285,7 +285,7 @@ n
 n
 =
 (
-WebRtc_Word16
+int16_t
 )
 (
 strlen
@@ -361,11 +361,11 @@ n
 '
 ;
 }
-WebRtc_Word16
+int16_t
 len
 =
 (
-WebRtc_Word16
+int16_t
 )
 strlen
 (
@@ -413,7 +413,7 @@ return
 0
 ;
 }
-WebRtc_Word16
+int16_t
 PCMFile
 :
 :
@@ -425,9 +425,9 @@ std
 string
 *
 file_name
-WebRtc_Word16
+int16_t
 max_len
-WebRtc_UWord16
+uint16_t
 *
 frequency_hz
 )
@@ -463,7 +463,7 @@ MAX_FILE_NAME_LENGTH_BYTE
 0
 '
 ;
-WebRtc_Word16
+int16_t
 n
 =
 0
@@ -537,7 +537,7 @@ n
 n
 =
 (
-WebRtc_Word16
+int16_t
 )
 (
 strlen
@@ -613,11 +613,11 @@ n
 '
 ;
 }
-WebRtc_Word16
+int16_t
 len
 =
 (
-WebRtc_Word16
+int16_t
 )
 strlen
 (
@@ -699,11 +699,11 @@ stdin
 NULL
 )
 ;
-WebRtc_UWord16
+uint16_t
 tmp_frequency
 =
 (
-WebRtc_UWord16
+uint16_t
 )
 atoi
 (
@@ -740,7 +740,7 @@ std
 string
 &
 file_name
-WebRtc_UWord16
+uint16_t
 frequency
 const
 char
@@ -809,7 +809,7 @@ frequency
 samples_10ms_
 =
 (
-WebRtc_UWord16
+uint16_t
 )
 (
 frequency_
@@ -830,7 +830,7 @@ rewinded_
 false
 ;
 }
-WebRtc_Word32
+int32_t
 PCMFile
 :
 :
@@ -843,7 +843,7 @@ return
 frequency_
 ;
 }
-WebRtc_UWord16
+uint16_t
 PCMFile
 :
 :
@@ -856,7 +856,7 @@ return
 samples_10ms_
 ;
 }
-WebRtc_Word32
+int32_t
 PCMFile
 :
 :
@@ -867,7 +867,7 @@ AudioFrame
 audio_frame
 )
 {
-WebRtc_UWord16
+uint16_t
 channels
 =
 1
@@ -882,11 +882,11 @@ channels
 2
 ;
 }
-WebRtc_Word32
+int32_t
 payload_size
 =
 (
-WebRtc_Word32
+int32_t
 )
 fread
 (
@@ -895,7 +895,7 @@ audio_frame
 data_
 sizeof
 (
-WebRtc_UWord16
+uint16_t
 )
 samples_10ms_
 *
@@ -1032,7 +1032,7 @@ audio_frame
 data_
 sizeof
 (
-WebRtc_UWord16
+uint16_t
 )
 audio_frame
 .
@@ -1058,12 +1058,12 @@ return
 }
 else
 {
-WebRtc_Word16
+int16_t
 *
 stereo_audio
 =
 new
-WebRtc_Word16
+int16_t
 [
 2
 *
@@ -1134,7 +1134,7 @@ fwrite
 stereo_audio
 sizeof
 (
-WebRtc_Word16
+int16_t
 )
 2
 *
@@ -1179,7 +1179,7 @@ audio_frame
 data_
 sizeof
 (
-WebRtc_Word16
+int16_t
 )
 audio_frame
 .
@@ -1218,10 +1218,10 @@ PCMFile
 :
 Write10MsData
 (
-WebRtc_Word16
+int16_t
 *
 playout_buffer
-WebRtc_UWord16
+uint16_t
 length_smpls
 )
 {
@@ -1232,7 +1232,7 @@ fwrite
 playout_buffer
 sizeof
 (
-WebRtc_UWord16
+uint16_t
 )
 length_smpls
 pcm_file_

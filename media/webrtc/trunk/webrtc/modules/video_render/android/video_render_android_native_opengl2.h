@@ -48,7 +48,7 @@ public
 :
 AndroidNativeOpenGl2Channel
 (
-WebRtc_UWord32
+uint32_t
 streamId
 JavaVM
 *
@@ -65,10 +65,10 @@ AndroidNativeOpenGl2Channel
 (
 )
 ;
-WebRtc_Word32
+int32_t
 Init
 (
-WebRtc_Word32
+int32_t
 zOrder
 const
 float
@@ -85,11 +85,11 @@ bottom
 )
 ;
 virtual
-WebRtc_Word32
+int32_t
 RenderFrame
 (
 const
-WebRtc_UWord32
+uint32_t
 streamId
 I420VideoFrame
 &
@@ -149,7 +149,7 @@ DrawNative
 (
 )
 ;
-WebRtc_UWord32
+uint32_t
 _id
 ;
 CriticalSectionWrapper
@@ -195,7 +195,7 @@ public
 AndroidNativeOpenGl2Renderer
 (
 const
-WebRtc_Word32
+int32_t
 id
 const
 VideoRenderType
@@ -222,7 +222,7 @@ void
 window
 )
 ;
-WebRtc_Word32
+int32_t
 Init
 (
 )
@@ -232,9 +232,9 @@ AndroidStream
 *
 CreateAndroidRenderChannel
 (
-WebRtc_Word32
+int32_t
 streamId
-WebRtc_Word32
+int32_t
 zOrder
 const
 float

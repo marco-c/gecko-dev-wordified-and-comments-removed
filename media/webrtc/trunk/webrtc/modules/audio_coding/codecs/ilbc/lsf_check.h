@@ -14,7 +14,7 @@ h
 int
 WebRtcIlbcfix_LsfCheck
 (
-WebRtc_Word16
+int16_t
 *
 lsf
 int

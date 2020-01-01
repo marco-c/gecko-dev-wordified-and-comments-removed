@@ -34,7 +34,7 @@ namespace
 webrtc
 {
 class
-RtpRtcpClock
+Clock
 ;
 class
 CriticalSectionWrapper
@@ -46,7 +46,7 @@ public
 :
 RTPPacketHistory
 (
-RtpRtcpClock
+Clock
 *
 clock
 )
@@ -172,8 +172,8 @@ const
 ;
 private
 :
-RtpRtcpClock
-&
+Clock
+*
 clock_
 ;
 CriticalSectionWrapper

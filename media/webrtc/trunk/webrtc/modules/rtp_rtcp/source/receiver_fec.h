@@ -39,7 +39,7 @@ public
 ReceiverFEC
 (
 const
-WebRtc_Word32
+int32_t
 id
 RTPReceiverVideo
 *
@@ -52,7 +52,7 @@ ReceiverFEC
 (
 )
 ;
-WebRtc_Word32
+int32_t
 AddReceivedFECPacket
 (
 const
@@ -60,18 +60,18 @@ WebRtcRTPHeader
 *
 rtpHeader
 const
-WebRtc_UWord8
+uint8_t
 *
 incomingRtpPacket
 const
-WebRtc_UWord16
+uint16_t
 payloadDataLength
 bool
 &
 FECpacket
 )
 ;
-WebRtc_Word32
+int32_t
 ProcessReceivedFEC
 (
 )
@@ -80,7 +80,7 @@ void
 SetPayloadTypeFEC
 (
 const
-WebRtc_Word8
+int8_t
 payloadType
 )
 ;
@@ -121,7 +121,7 @@ ForwardErrorCorrection
 RecoveredPacketList
 _recoveredPacketList
 ;
-WebRtc_Word8
+int8_t
 _payloadTypeFEC
 ;
 }

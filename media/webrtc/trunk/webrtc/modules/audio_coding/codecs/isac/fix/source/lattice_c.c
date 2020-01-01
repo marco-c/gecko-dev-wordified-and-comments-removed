@@ -180,7 +180,7 @@ k
 tmpAR
 =
 (
-WebRtc_Word16
+int16_t
 )
 WebRtcSpl_SatW32ToW16
 (
@@ -195,7 +195,7 @@ k
 ]
 =
 (
-WebRtc_Word16
+int16_t
 )
 WebRtcSpl_SatW32ToW16
 (

@@ -109,13 +109,13 @@ CriticalSectionWrapper
 *
 mutex_
 ;
-WebRtc_UWord32
+uint32_t
 frame_length_
 ;
-WebRtc_UWord32
+uint32_t
 width_
 ;
-WebRtc_UWord32
+uint32_t
 height_
 ;
 }

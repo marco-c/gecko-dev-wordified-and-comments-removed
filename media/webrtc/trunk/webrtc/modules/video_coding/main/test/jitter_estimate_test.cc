@@ -339,12 +339,12 @@ _counter
 +
 ;
 }
-WebRtc_Word64
+int64_t
 jitter
 =
 static_cast
 <
-WebRtc_Word64
+int64_t
 >
 (
 _jitter
@@ -371,7 +371,7 @@ _prevWallClock
 =
 static_cast
 <
-WebRtc_Word64
+int64_t
 >
 (
 1000

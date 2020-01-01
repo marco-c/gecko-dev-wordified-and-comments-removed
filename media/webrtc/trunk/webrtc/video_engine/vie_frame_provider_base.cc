@@ -219,7 +219,7 @@ video_frame
 int
 num_csrcs
 const
-WebRtc_UWord32
+uint32_t
 CSRC
 [
 kRtpCsrcSize

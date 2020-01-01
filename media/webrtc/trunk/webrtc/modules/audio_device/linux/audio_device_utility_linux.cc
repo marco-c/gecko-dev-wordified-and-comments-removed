@@ -35,7 +35,7 @@ AudioDeviceUtilityLinux
 AudioDeviceUtilityLinux
 (
 const
-WebRtc_Word32
+int32_t
 id
 )
 :
@@ -103,7 +103,7 @@ delete
 _critSect
 ;
 }
-WebRtc_Word32
+int32_t
 AudioDeviceUtilityLinux
 :
 :

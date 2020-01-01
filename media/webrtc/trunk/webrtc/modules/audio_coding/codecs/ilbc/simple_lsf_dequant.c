@@ -15,13 +15,13 @@ h
 void
 WebRtcIlbcfix_SimpleLsfDeQ
 (
-WebRtc_Word16
+int16_t
 *
 lsfdeq
-WebRtc_Word16
+int16_t
 *
 index
-WebRtc_Word16
+int16_t
 lpc_n
 )
 {

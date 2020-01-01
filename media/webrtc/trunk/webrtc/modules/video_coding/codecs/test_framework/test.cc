@@ -145,7 +145,7 @@ std
 :
 string
 description
-WebRtc_UWord32
+uint32_t
 bitRate
 )
 :
@@ -574,9 +574,9 @@ int
 width
 int
 height
-WebRtc_UWord32
+uint32_t
 frameRate
-WebRtc_UWord32
+uint32_t
 bitRate
 )
 {

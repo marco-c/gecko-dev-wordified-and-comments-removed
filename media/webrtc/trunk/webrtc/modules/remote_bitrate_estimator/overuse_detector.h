@@ -116,6 +116,12 @@ RateControlRegion
 region
 )
 ;
+int64_t
+time_of_last_received_packet
+(
+)
+const
+;
 private
 :
 struct
@@ -356,6 +362,9 @@ over_use_counter_
 ;
 BandwidthUsage
 hypothesis_
+;
+int64_t
+time_of_last_received_packet_
 ;
 #
 ifdef

@@ -16,7 +16,7 @@ webrtc
 {
 static
 const
-WebRtc_UWord8
+uint8_t
 colorTable
 [
 256

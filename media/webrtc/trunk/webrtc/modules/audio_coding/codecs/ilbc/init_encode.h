@@ -11,13 +11,13 @@ defines
 .
 h
 "
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_InitEncode
 (
 iLBC_Enc_Inst_t
 *
 iLBCenc_inst
-WebRtc_Word16
+int16_t
 mode
 )
 ;

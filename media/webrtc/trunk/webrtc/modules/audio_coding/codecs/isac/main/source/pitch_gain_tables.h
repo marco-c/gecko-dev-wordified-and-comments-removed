@@ -13,7 +13,7 @@ h
 "
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQPitchGainCdf
 [
 255
@@ -21,7 +21,7 @@ WebRtcIsac_kQPitchGainCdf
 ;
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kIndexLowerLimitGain
 [
 3
@@ -29,7 +29,7 @@ WebRtcIsac_kIndexLowerLimitGain
 ;
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kIndexUpperLimitGain
 [
 3
@@ -37,7 +37,7 @@ WebRtcIsac_kIndexUpperLimitGain
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kIndexMultsGain
 [
 2
@@ -45,7 +45,7 @@ WebRtcIsac_kIndexMultsGain
 ;
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kQMeanGain1Q12
 [
 144
@@ -53,7 +53,7 @@ WebRtcIsac_kQMeanGain1Q12
 ;
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kQMeanGain2Q12
 [
 144
@@ -61,7 +61,7 @@ WebRtcIsac_kQMeanGain2Q12
 ;
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kQMeanGain3Q12
 [
 144
@@ -69,7 +69,7 @@ WebRtcIsac_kQMeanGain3Q12
 ;
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kQMeanGain4Q12
 [
 144
@@ -77,7 +77,7 @@ WebRtcIsac_kQMeanGain4Q12
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQCdfTableSizeGain
 [
 1

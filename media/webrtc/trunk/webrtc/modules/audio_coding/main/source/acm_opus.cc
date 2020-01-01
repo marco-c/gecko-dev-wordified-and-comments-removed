@@ -1056,11 +1056,14 @@ NULL
 {
 WebRtcOpus_EncoderFree
 (
-(
+reinterpret_cast
+<
 OpusEncInst
 *
-)
+>
+(
 ptr_inst
+)
 )
 ;
 }

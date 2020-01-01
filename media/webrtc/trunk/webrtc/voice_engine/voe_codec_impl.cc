@@ -86,7 +86,7 @@ VoiceEngineImpl
 *
 s
 =
-reinterpret_cast
+static_cast
 <
 VoiceEngineImpl
 *
@@ -218,7 +218,7 @@ NumOfCodecs
 "
 )
 ;
-WebRtc_UWord8
+uint8_t
 nSupportedCodecs
 =
 AudioCodingModule
@@ -315,10 +315,7 @@ AudioCodingModule
 Codec
 (
 index
-(
-CodecInst
 &
-)
 acmCodec
 )
 =
