@@ -4562,9 +4562,9 @@ sendMessageToJava
 type
 :
 "
-Wallpaper
+Image
 :
-Set
+SetAs
 "
 url
 :
