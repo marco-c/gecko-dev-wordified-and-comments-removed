@@ -466,6 +466,19 @@ DIRS
 =
 shell
 endif
+#
+FIXME
+:
+bug
+515383
+covers
+getting
+these
+working
+on
+wince
+ifndef
+WINCE
 ifdef
 ENABLE_TESTS
 DIRS
@@ -474,6 +487,7 @@ DIRS
 jsapi
 -
 tests
+endif
 endif
 MODULE
 =
