@@ -174,6 +174,11 @@ LOG_RESULTS
 false
 ;
 let
+WARN_ON_SET_NULL
+=
+false
+;
+let
 func_filter
 ;
 if
@@ -3679,6 +3684,11 @@ warning
 '
 )
 ;
+if
+(
+WARN_ON_SET_NULL
+)
+{
 this
 .
 warn
@@ -3735,6 +3745,7 @@ here
 ]
 )
 ;
+}
 }
 else
 {
