@@ -2479,11 +2479,10 @@ wp
 >
 setter
 )
-{
 JS_CALL_OBJECT_TRACER
 (
 trc
-js_CastAsObject
+CastAsObject
 (
 wp
 -
@@ -2498,7 +2497,6 @@ setter
 "
 )
 ;
-}
 JS_SET_TRACING_NAME
 (
 trc
@@ -3669,7 +3667,7 @@ js_InternalCall
 (
 cx
 obj
-js_CastAsObjectJSVal
+CastAsObjectJSVal
 (
 wp
 -
@@ -3872,6 +3870,10 @@ if
 (
 !
 funobj
+|
+|
+!
+funobj
 -
 >
 isFunction
@@ -4016,7 +4018,7 @@ js_watch_set_wrapper
 0
 setter
 ?
-js_CastAsObject
+CastAsObject
 (
 setter
 )
@@ -4039,7 +4041,7 @@ return
 NULL
 ;
 return
-js_CastAsPropertyOp
+CastAsPropertyOp
 (
 FUN_OBJECT
 (

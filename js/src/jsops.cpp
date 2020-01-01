@@ -15278,7 +15278,7 @@ JSPROP_GETTER
 )
 getter
 =
-js_CastAsPropertyOp
+CastAsPropertyOp
 (
 obj
 )
@@ -15286,7 +15286,7 @@ obj
 else
 setter
 =
-js_CastAsPropertyOp
+CastAsPropertyOp
 (
 obj
 )
@@ -15712,7 +15712,7 @@ flags
 JSPROP_GETTER
 )
 ?
-js_CastAsPropertyOp
+CastAsPropertyOp
 (
 obj
 )
@@ -15724,7 +15724,7 @@ flags
 JSPROP_SETTER
 )
 ?
-js_CastAsPropertyOp
+CastAsPropertyOp
 (
 obj
 )
@@ -16718,7 +16718,7 @@ JSOP_GETTER
 {
 getter
 =
-js_CastAsPropertyOp
+CastAsPropertyOp
 (
 JSVAL_TO_OBJECT
 (
@@ -16743,7 +16743,7 @@ JS_PropertyStub
 ;
 setter
 =
-js_CastAsPropertyOp
+CastAsPropertyOp
 (
 JSVAL_TO_OBJECT
 (
