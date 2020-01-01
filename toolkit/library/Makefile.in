@@ -354,11 +354,6 @@ OS_ARCH
 )
 WINNT
 )
-REQUIRES
-+
-=
-widget
-gfx
 CPPSRCS
 +
 =
@@ -460,11 +455,6 @@ OS_ARCH
 )
 OS2
 )
-REQUIRES
-+
-=
-widget
-gfx
 CPPSRCS
 +
 =

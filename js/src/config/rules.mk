@@ -14925,14 +14925,6 @@ MODULE
 )
 echo
 -
-requires
-:
-echo
-(
-REQUIRES
-)
-echo
--
 depth
 -
 path
@@ -15763,8 +15755,6 @@ DIRS
 LIBRARY
 \
 MODULE
-\
-REQUIRES
 \
 SHORT_LIBNAME
 \
