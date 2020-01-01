@@ -3017,7 +3017,7 @@ JSON_PARSE_STATE_FINISHED
 ;
 jsval
 *
-v
+vp
 =
 jp
 -
@@ -3035,6 +3035,7 @@ if
 !
 ok
 )
+{
 JS_ReportErrorNumber
 (
 cx
@@ -3043,6 +3044,10 @@ NULL
 JSMSG_JSON_BAD_PARSE
 )
 ;
+return
+JS_FALSE
+;
+}
 if
 (
 !
@@ -3067,7 +3072,7 @@ Revive
 (
 cx
 reviver
-v
+vp
 )
 ;
 return
