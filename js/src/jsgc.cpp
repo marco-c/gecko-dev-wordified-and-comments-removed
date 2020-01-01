@@ -14300,14 +14300,6 @@ gcIncrementalState
 =
 NO_INCREMENTAL
 ;
-WeakMapBase
-:
-:
-resetWeakMapList
-(
-rt
-)
-;
 JS_ASSERT
 (
 gcmarker
