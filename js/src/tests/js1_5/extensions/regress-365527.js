@@ -155,11 +155,6 @@ catch
 e
 )
 {
-print
-(
-e
-)
-;
 }
 }
 getter

@@ -87,14 +87,6 @@ catch
 ex
 )
 {
-print
-(
-ex
-+
-'
-'
-)
-;
 }
 __proto__
 =

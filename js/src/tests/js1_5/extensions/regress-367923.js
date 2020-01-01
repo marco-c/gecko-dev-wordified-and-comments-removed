@@ -169,11 +169,6 @@ ex
 '
 '
 ;
-print
-(
-ex
-)
-;
 }
 reportCompare
 (

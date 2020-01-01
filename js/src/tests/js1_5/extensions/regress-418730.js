@@ -113,11 +113,6 @@ PASS
 "
 )
 ;
-print
-(
-e
-)
-;
 }
 actual
 =

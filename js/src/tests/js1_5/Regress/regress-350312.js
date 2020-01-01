@@ -112,11 +112,6 @@ actual
 =
 e2
 ;
-print
-(
-e2
-)
-;
 if
 (
 +

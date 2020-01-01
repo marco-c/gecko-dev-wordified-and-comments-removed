@@ -107,11 +107,6 @@ actual
 =
 3
 ;
-print
-(
-e
-)
-;
 }
 actual
 =

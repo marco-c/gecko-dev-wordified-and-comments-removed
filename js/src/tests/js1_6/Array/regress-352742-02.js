@@ -98,10 +98,6 @@ catch
 e
 )
 {
-print
-(
-e
-)
 }
 actual
 =
