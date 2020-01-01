@@ -451,6 +451,10 @@ test_treeview_date
 .
 xul
 \
+test_editBookmarkOverlay
+.
+xul
+\
 (
 NULL
 )
