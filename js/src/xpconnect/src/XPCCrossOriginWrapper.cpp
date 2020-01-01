@@ -1640,6 +1640,11 @@ return
 JS_TRUE
 ;
 }
+CheckWindow
+(
+wn
+)
+;
 parent
 =
 JS_GetGlobalForObject
