@@ -414,6 +414,13 @@ autoconf
 mk
 DIRS
 =
+ifdef
+MOZ_LINKER
+DIRS
++
+=
+linker
+endif
 ifeq
 (
 android
