@@ -338,7 +338,7 @@ document
 =
 do_QueryInterface
 (
-mDocument
+mDocumentNode
 )
 ;
 NS_ENSURE_TRUE
@@ -374,7 +374,7 @@ Element
 *
 rootElm
 =
-mDocument
+mDocumentNode
 -
 >
 GetRootElement
@@ -452,7 +452,7 @@ nsCoreUtils
 :
 GetDocShellTreeItemFor
 (
-mDocument
+mDocumentNode
 )
 ;
 NS_ENSURE_TRUE
@@ -641,7 +641,7 @@ GetActiveWindow
 )
 =
 =
-mDocument
+mDocumentNode
 -
 >
 GetWindow
@@ -740,7 +740,7 @@ nstarget
 (
 do_QueryInterface
 (
-mDocument
+mDocumentNode
 )
 )
 ;
@@ -845,7 +845,7 @@ target
 (
 do_QueryInterface
 (
-mDocument
+mDocumentNode
 )
 )
 ;
@@ -2221,7 +2221,7 @@ aType
 if
 (
 !
-mDocument
+mDocumentNode
 |
 |
 aType
@@ -2245,7 +2245,7 @@ nsIDOMWindow
 *
 rootWindow
 =
-mDocument
+mDocumentNode
 -
 >
 GetWindow

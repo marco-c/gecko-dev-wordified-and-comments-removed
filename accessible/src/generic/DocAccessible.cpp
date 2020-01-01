@@ -381,7 +381,7 @@ HyperTextAccessibleWrap
 aRootContent
 this
 )
-mDocument
+mDocumentNode
 (
 aDocument
 )
@@ -457,10 +457,10 @@ kDefaultCacheSize
 ;
 if
 (
-mDocument
+mDocumentNode
 &
 &
-mDocument
+mDocumentNode
 -
 >
 IsXUL
@@ -476,7 +476,7 @@ eHyperTextAccessible
 if
 (
 !
-mDocument
+mDocumentNode
 )
 return
 ;
@@ -489,7 +489,7 @@ mIsCursorable
 (
 !
 (
-mDocument
+mDocumentNode
 -
 >
 GetParentDocument
@@ -503,7 +503,7 @@ nsCoreUtils
 :
 IsTabDocument
 (
-mDocument
+mDocumentNode
 )
 )
 ;
@@ -543,7 +543,7 @@ Accessible
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mDocument
+mDocumentNode
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -616,7 +616,7 @@ Accessible
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mDocument
+mDocumentNode
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -878,7 +878,7 @@ nsCoreUtils
 :
 GetDocShellTreeItemFor
 (
-mDocument
+mDocumentNode
 )
 ;
 if
@@ -961,7 +961,7 @@ xulDoc
 (
 do_QueryInterface
 (
-mDocument
+mDocumentNode
 )
 )
 ;
@@ -1424,7 +1424,7 @@ fm
 >
 MoveFocus
 (
-mDocument
+mDocumentNode
 -
 >
 GetWindow
@@ -1469,7 +1469,7 @@ nsISupports
 >
 container
 =
-mDocument
+mDocumentNode
 -
 >
 GetContainer
@@ -1555,7 +1555,7 @@ domDocument
 =
 do_QueryInterface
 (
-mDocument
+mDocumentNode
 )
 ;
 if
@@ -1597,7 +1597,7 @@ domDocument
 =
 do_QueryInterface
 (
-mDocument
+mDocumentNode
 )
 ;
 if
@@ -1639,7 +1639,7 @@ domDoc
 (
 do_QueryInterface
 (
-mDocument
+mDocumentNode
 )
 )
 ;
@@ -1660,7 +1660,7 @@ xulDoc
 (
 do_QueryInterface
 (
-mDocument
+mDocumentNode
 )
 )
 ;
@@ -1737,7 +1737,7 @@ aNameSpaceURI
 {
 if
 (
-mDocument
+mDocumentNode
 )
 {
 nsCOMPtr
@@ -1818,7 +1818,7 @@ nullptr
 if
 (
 !
-mDocument
+mDocumentNode
 )
 {
 return
@@ -1828,7 +1828,7 @@ NS_ERROR_FAILURE
 *
 aDOMWin
 =
-mDocument
+mDocumentNode
 -
 >
 GetWindow
@@ -1878,11 +1878,11 @@ nullptr
 ;
 if
 (
-mDocument
+mDocumentNode
 )
 CallQueryInterface
 (
-mDocument
+mDocumentNode
 aDOMDocument
 )
 ;
@@ -2112,7 +2112,7 @@ const
 if
 (
 !
-mDocument
+mDocumentNode
 -
 >
 HasFlag
@@ -2145,7 +2145,7 @@ nsISupports
 >
 container
 =
-mDocument
+mDocumentNode
 -
 >
 GetContainer
@@ -2183,7 +2183,7 @@ editingSession
 >
 GetEditorForWindow
 (
-mDocument
+mDocumentNode
 -
 >
 GetWindow
@@ -2351,7 +2351,7 @@ DocCreate
 document
 initialize
 "
-mDocument
+mDocumentNode
 this
 )
 ;
@@ -2368,7 +2368,7 @@ mPresShell
 ;
 if
 (
-mDocument
+mDocumentNode
 -
 >
 GetReadyStateEnum
@@ -2431,7 +2431,7 @@ DocDestroy
 document
 shutdown
 "
-mDocument
+mDocumentNode
 this
 )
 ;
@@ -2477,9 +2477,9 @@ nsIDocument
 >
 kungFuDeathGripDoc
 =
-mDocument
+mDocumentNode
 ;
-mDocument
+mDocumentNode
 =
 nullptr
 ;
@@ -2679,7 +2679,7 @@ nsIDocument
 *
 document
 =
-mDocument
+mDocumentNode
 ;
 nsIDocument
 *
@@ -2827,7 +2827,7 @@ nsISupports
 >
 container
 =
-mDocument
+mDocumentNode
 -
 >
 GetContainer
@@ -2978,7 +2978,7 @@ mPresShell
 ;
 }
 }
-mDocument
+mDocumentNode
 -
 >
 AddObserver
@@ -3004,7 +3004,7 @@ RemoveScrollListener
 ;
 NS_ASSERTION
 (
-mDocument
+mDocumentNode
 "
 No
 document
@@ -3018,10 +3018,10 @@ listeners
 ;
 if
 (
-mDocument
+mDocumentNode
 )
 {
-mDocument
+mDocumentNode
 -
 >
 RemoveObserver
@@ -3035,7 +3035,7 @@ nsISupports
 >
 container
 =
-mDocument
+mDocumentNode
 -
 >
 GetContainer
@@ -5957,7 +5957,7 @@ TreeWalker
 walker
 (
 this
-mDocument
+mDocumentNode
 -
 >
 GetRootElement
@@ -6091,7 +6091,7 @@ nsCoreUtils
 :
 GetRoleContent
 (
-mDocument
+mDocumentNode
 )
 ;
 if
@@ -7041,7 +7041,7 @@ nsCoreUtils
 :
 GetRoleContent
 (
-mDocument
+mDocumentNode
 )
 ;
 if
@@ -8128,7 +8128,7 @@ nsISupports
 >
 container
 =
-mDocument
+mDocumentNode
 -
 >
 GetContainer

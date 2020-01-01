@@ -963,7 +963,7 @@ nsCoreUtils
 :
 IsTabDocument
 (
-mDocument
+mDocumentNode
 )
 )
 {
@@ -1056,7 +1056,7 @@ nsCoreUtils
 :
 IsTabDocument
 (
-mDocument
+mDocumentNode
 )
 )
 {
@@ -1078,7 +1078,7 @@ dom
 :
 GetTabChildFrom
 (
-mDocument
+mDocumentNode
 -
 >
 GetShell
@@ -1224,7 +1224,7 @@ nsISupports
 >
 container
 =
-mDocument
+mDocumentNode
 -
 >
 GetContainer
