@@ -81,6 +81,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+Devices
+.
+jsm
+'
+'
 Simulator
 .
 jsm
