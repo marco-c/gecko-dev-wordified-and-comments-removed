@@ -432,8 +432,6 @@ xpcom
 \
 plugin
 \
-java
-\
 (
 NULL
 )

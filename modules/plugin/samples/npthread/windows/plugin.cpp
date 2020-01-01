@@ -424,13 +424,13 @@ wrapperNPNFuncs
 .
 getJavaEnv
 =
-NPN_GetJavaEnv
+NULL
 ;
 wrapperNPNFuncs
 .
 getJavaPeer
 =
-NPN_GetJavaPeer
+NULL
 ;
 wrapperNPNFuncs
 .

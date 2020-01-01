@@ -431,8 +431,6 @@ LIBRARY_NAME
 npSDKscriptable
 REQUIRES
 =
-java
-\
 idl
 \
 xpcom

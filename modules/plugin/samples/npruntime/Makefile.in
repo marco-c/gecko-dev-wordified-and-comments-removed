@@ -415,8 +415,6 @@ REQUIRES
 \
 plugin
 \
-java
-\
 (
 NULL
 )

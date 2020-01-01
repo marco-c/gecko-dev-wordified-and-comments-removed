@@ -88,13 +88,6 @@ ToolUtils
 h
 >
 #
-include
-"
-jri
-.
-h
-"
-#
 ifdef
 __MWERKS__
 #
@@ -336,12 +329,6 @@ reason
 void
 *
 notifyData
-)
-;
-jref
-Private_GetJavaClass
-(
-void
 )
 ;
 NPError

@@ -425,8 +425,6 @@ LIBRARY_NAME
 plcommon_s
 REQUIRES
 =
-java
-\
 plugin
 \
 (

@@ -434,8 +434,6 @@ npapi
 res
 REQUIRES
 =
-java
-\
 plugin
 \
 (

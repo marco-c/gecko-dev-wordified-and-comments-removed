@@ -430,8 +430,6 @@ REQUIRES
 =
 plugin
 \
-java
-\
 (
 NULL
 )
