@@ -282,6 +282,14 @@ file_bug500328_2
 html
 )
 \
+test_postMessage_transfer
+.
+html
+\
+postMessage_transfer_helper
+.
+html
+\
 (
 NULL
 )
