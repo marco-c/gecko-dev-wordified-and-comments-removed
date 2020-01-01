@@ -1562,6 +1562,9 @@ cxCallback
 JSDestroyCompartmentCallback
 destroyCompartmentCallback
 ;
+JSCompartmentNameCallback
+compartmentNameCallback
+;
 js
 :
 :
