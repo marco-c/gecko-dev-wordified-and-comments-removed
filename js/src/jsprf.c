@@ -2905,6 +2905,9 @@ dolPt
 =
 NULL
 ;
+#
+ifdef
+JS_C_STRINGS_ARE_UTF8
 uint8
 utf8buf
 [
@@ -2914,6 +2917,8 @@ utf8buf
 int
 utf8len
 ;
+#
+endif
 nas
 =
 BuildArgArray
@@ -4155,11 +4160,9 @@ type
 case
 TYPE_INT16
 :
-if
-(
-js_CStringsAreUTF8
-)
-{
+#
+ifdef
+JS_C_STRINGS_ARE_UTF8
 u
 .
 wch
@@ -4201,7 +4204,8 @@ utf8len
 ;
 break
 ;
-}
+#
+endif
 case
 TYPE_INTN
 :
