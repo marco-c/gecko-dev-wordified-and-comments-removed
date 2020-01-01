@@ -184,7 +184,6 @@ SCOPED_TEMPLATE
 ScopedXFree
 ScopedXFreePtrTraits
 )
-;
 class
 NS_GFX
 ScopedXErrorHandler
