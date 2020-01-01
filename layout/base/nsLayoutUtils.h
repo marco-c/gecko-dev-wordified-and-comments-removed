@@ -236,6 +236,15 @@ aId
 )
 ;
 static
+nsIScrollableFrame
+*
+FindScrollableFrameFor
+(
+ViewID
+aId
+)
+;
+static
 bool
 GetDisplayPort
 (
