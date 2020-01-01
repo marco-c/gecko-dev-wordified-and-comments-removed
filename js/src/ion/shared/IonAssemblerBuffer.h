@@ -155,6 +155,7 @@ bool
 assigned
 (
 )
+const
 {
 return
 offset
