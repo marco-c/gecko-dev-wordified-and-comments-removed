@@ -3164,12 +3164,6 @@ eCSSKeyword_inline_block
 NS_STYLE_DISPLAY_INLINE_BLOCK
 eCSSKeyword_list_item
 NS_STYLE_DISPLAY_LIST_ITEM
-eCSSKeyword__moz_run_in
-NS_STYLE_DISPLAY_RUN_IN
-eCSSKeyword__moz_compact
-NS_STYLE_DISPLAY_COMPACT
-eCSSKeyword__moz_marker
-NS_STYLE_DISPLAY_MARKER
 eCSSKeyword_table
 NS_STYLE_DISPLAY_TABLE
 eCSSKeyword_inline_table
