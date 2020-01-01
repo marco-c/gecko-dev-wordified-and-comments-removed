@@ -320,7 +320,7 @@ Unlock
 ;
 }
 void
-CanvasClient2D
+CanvasClientWebGL
 :
 :
 Updated
