@@ -292,6 +292,7 @@ function
 (
 a
 )
+{
 onTransferComplete
 (
 aWindow
@@ -300,6 +301,15 @@ destFile
 destDir
 )
 ;
+mockTransferCallback
+=
+function
+(
+)
+{
+}
+;
+}
 var
 saveLinkCommand
 =
