@@ -75,7 +75,7 @@ h
 "
 #
 ifdef
-OS_MACOSX
+MOZ_WIDGET_COCOA
 #
 include
 "
