@@ -41,6 +41,11 @@ LayerManagerOGL
 aManager
 )
 ;
+~
+ContainerLayerOGL
+(
+)
+;
 const
 nsIntRect
 &
@@ -103,6 +108,11 @@ RenderLayer
 (
 int
 aPreviousFrameBuffer
+DrawThebesLayerCallback
+aCallback
+void
+*
+aCallbackData
 )
 ;
 private
