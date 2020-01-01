@@ -34967,6 +34967,16 @@ retrieveItem
 length
 )
 {
+if
+(
+!
+length
+)
+{
+return
+null
+;
+}
 let
 item
 =
