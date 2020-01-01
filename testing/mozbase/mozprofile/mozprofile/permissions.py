@@ -87,7 +87,7 @@ ws
 '
 :
 '
-9988
+4443
 '
                    
 '
@@ -1303,10 +1303,6 @@ mozprofile
 "
 "
     
-_num_permissions
-=
-0
-    
 def
 __init__
 (
@@ -1567,13 +1563,6 @@ iteritems
 )
 :
                 
-self
-.
-_num_permissions
-+
-=
-1
-                
 if
 allow
 :
@@ -1630,7 +1619,7 @@ INTO
 moz_hosts
 values
 (
-?
+NULL
 ?
 ?
 ?
@@ -1665,7 +1654,7 @@ INTO
 moz_hosts
 values
 (
-?
+NULL
 ?
 ?
 ?
@@ -1694,14 +1683,10 @@ execute
 statement
                                
 (
-self
-.
-_num_permissions
 location
 .
 host
 perm
-                               
 permission_type
 )
 )

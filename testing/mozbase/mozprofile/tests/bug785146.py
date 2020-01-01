@@ -1,7 +1,19 @@
 import
+mozfile
+import
 os
 import
 shutil
+import
+tempfile
+import
+unittest
+from
+mozprofile
+.
+permissions
+import
+Permissions
 try
 :
     
@@ -17,16 +29,6 @@ import
 dbapi2
 as
 sqlite3
-import
-tempfile
-import
-unittest
-from
-mozprofile
-.
-permissions
-import
-Permissions
 class
 PermissionsTest
 (
@@ -84,14 +86,6 @@ privileged
 "
 "
     
-profile_dir
-=
-None
-    
-locations_file
-=
-None
-    
 def
 setUp
 (
@@ -113,7 +107,7 @@ self
 .
 locations_file
 =
-tempfile
+mozfile
 .
 NamedTemporaryFile
 (

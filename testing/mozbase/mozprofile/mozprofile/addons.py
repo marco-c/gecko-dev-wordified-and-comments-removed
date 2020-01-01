@@ -1916,7 +1916,7 @@ path
 join
 (
 extensions_path
-addon
+backup
 )
                 
 shutil

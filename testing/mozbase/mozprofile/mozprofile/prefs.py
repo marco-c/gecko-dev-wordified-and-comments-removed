@@ -17,6 +17,8 @@ Preferences
 '
 )
 import
+mozfile
+import
 os
 import
 re
@@ -508,6 +510,14 @@ exists
 (
 path
 )
+and
+not
+mozfile
+.
+is_url
+(
+path
+)
 :
             
 raise
@@ -663,9 +673,14 @@ ConfigParser
         
 parser
 .
-read
+readfp
+(
+mozfile
+.
+load
 (
 path
+)
 )
         
 if
@@ -778,7 +793,9 @@ json
 .
 loads
 (
-file
+mozfile
+.
+load
 (
 path
 )
@@ -1066,7 +1083,9 @@ strip
 for
 i
 in
-file
+mozfile
+.
+load
 (
 path
 )

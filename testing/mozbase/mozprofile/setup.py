@@ -9,7 +9,7 @@ PACKAGE_VERSION
 '
 0
 .
-7
+9
 '
 assert
 sys
@@ -33,6 +33,15 @@ ManifestDestiny
 5
 .
 4
+"
+        
+"
+mozfile
+>
+=
+0
+.
+6
 "
 ]
 try
@@ -238,7 +247,7 @@ tools
 /
 Projects
 /
-MozBase
+Mozbase
 '
       
 license
@@ -269,6 +278,17 @@ False
 install_requires
 =
 deps
+      
+tests_require
+=
+[
+'
+mozhttpd
+'
+'
+mozfile
+'
+]
       
 entry_points
 =
