@@ -795,7 +795,7 @@ LDefinition
 BOX
 LGeneralReg
 (
-JSCReturnReg
+JSReturnReg
 )
 )
 )

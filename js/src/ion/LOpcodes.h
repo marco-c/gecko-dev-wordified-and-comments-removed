@@ -280,6 +280,11 @@ _
 (
 StoreElementT
 )
+\
+_
+(
+LoadPropertyGeneric
+)
 #
 if
 defined

@@ -559,6 +559,15 @@ LGuardClass
 guard
 )
 ;
+virtual
+bool
+visitLoadPropertyGeneric
+(
+LLoadPropertyGeneric
+*
+ins
+)
+;
 bool
 visitOutOfLineBailout
 (

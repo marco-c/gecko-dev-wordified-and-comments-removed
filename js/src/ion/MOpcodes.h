@@ -236,6 +236,11 @@ _
 (
 StoreElement
 )
+\
+_
+(
+LoadProperty
+)
 #
 define
 FORWARD_DECLARE

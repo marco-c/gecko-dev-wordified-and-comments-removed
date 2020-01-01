@@ -1012,6 +1012,14 @@ jsop_setelem_dense
 )
 ;
 bool
+jsop_getprop
+(
+JSAtom
+*
+atom
+)
+;
+bool
 jsop_newarray
 (
 uint32
