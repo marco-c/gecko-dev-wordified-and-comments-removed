@@ -1054,7 +1054,7 @@ gComboBoxButtonWidget
 ;
 if
 (
-GTK_IS_HBOX
+GTK_IS_BOX
 (
 buttonChild
 )
@@ -1281,7 +1281,9 @@ gComboBoxEntryWidget
 {
 gComboBoxEntryWidget
 =
-NULL
+gtk_combo_box_new_with_entry
+(
+)
 ;
 setup_widget_prototype
 (
@@ -1331,7 +1333,7 @@ gComboBoxEntryButtonWidget
 ;
 if
 (
-GTK_IS_HBOX
+GTK_IS_BOX
 (
 buttonChild
 )
