@@ -527,7 +527,7 @@ postForm
 action
 =
 "
-post_form_inner
+bug471962_testpage_inner
 .
 sjs
 "
