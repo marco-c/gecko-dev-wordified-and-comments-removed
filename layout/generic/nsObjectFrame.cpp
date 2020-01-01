@@ -8185,10 +8185,11 @@ nsPluginDOMContextMenuListener
 )
 {
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS3
 (
 nsPluginDOMContextMenuListener
 nsIDOMContextMenuListener
+nsIDOMEventListener
 nsIEventListener
 )
 NS_IMETHODIMP
