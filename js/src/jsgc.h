@@ -218,10 +218,6 @@ in
 API
 *
 /
-#
-define
-GCF_DONT_BLOCK
-0x100
 extern
 intN
 js_GetExternalStringGCType
