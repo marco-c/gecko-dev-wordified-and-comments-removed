@@ -1322,7 +1322,7 @@ gfxD2DSurface
 >
 mD2DWindowSurface
 ;
-Rect
+nsIntRect
 mWindowBounds
 ;
 float

@@ -634,6 +634,12 @@ HasPendingInputEvent
 (
 )
 ;
+virtual
+double
+GetDefaultScaleInternal
+(
+)
+;
 float
 GetDPI
 (
