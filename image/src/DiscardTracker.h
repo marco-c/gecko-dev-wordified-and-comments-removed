@@ -174,12 +174,6 @@ DiscardNow
 )
 ;
 static
-void
-EnsureMainThread
-(
-)
-;
-static
 LinkedList
 <
 Node
