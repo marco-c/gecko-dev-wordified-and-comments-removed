@@ -7097,6 +7097,14 @@ Float64Array
 NULL
 }
 {
+js_InitTypedArrayClasses
+EAGER_CLASS_ATOM
+(
+Uint8ClampedArray
+)
+NULL
+}
+{
 NULL
 0
 NULL
