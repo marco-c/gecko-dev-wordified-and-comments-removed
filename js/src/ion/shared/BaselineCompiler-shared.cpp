@@ -44,8 +44,7 @@ BaselineCompilerShared
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 )
 :

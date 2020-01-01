@@ -38,8 +38,7 @@ BaselineCompilerX64
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 )
 ;

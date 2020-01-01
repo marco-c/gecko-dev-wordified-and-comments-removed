@@ -1619,6 +1619,8 @@ const
 class
 BaselineFrame
 {
+protected
+:
 uint32_t
 loScratchValue
 ;

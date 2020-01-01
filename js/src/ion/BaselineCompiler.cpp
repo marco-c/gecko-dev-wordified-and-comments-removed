@@ -82,8 +82,7 @@ BaselineCompiler
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 )
 :

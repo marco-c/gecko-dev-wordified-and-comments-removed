@@ -36,8 +36,7 @@ BaselineCompilerX86Shared
 JSContext
 *
 cx
-JSScript
-*
+HandleScript
 script
 )
 ;
