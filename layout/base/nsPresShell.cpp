@@ -24430,7 +24430,7 @@ PL_DHASH_NEXT
 }
 nsIFrame
 *
-GetRootFrameThroughViews
+GetNearestFrameContainingPresShell
 (
 nsIPresShell
 *
@@ -24785,7 +24785,7 @@ NS_OK
 }
 frame
 =
-GetRootFrameThroughViews
+GetNearestFrameContainingPresShell
 (
 presShell
 )
@@ -24938,7 +24938,7 @@ Flush_Layout
 ;
 frame
 =
-GetRootFrameThroughViews
+GetNearestFrameContainingPresShell
 (
 this
 )
