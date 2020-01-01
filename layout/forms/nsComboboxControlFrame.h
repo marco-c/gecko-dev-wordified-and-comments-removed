@@ -775,10 +775,6 @@ nsIFrame
 *
 mDropdownFrame
 ;
-nsIFrame
-*
-mTextFrame
-;
 nsIListControlFrame
 *
 mListControlFrame
