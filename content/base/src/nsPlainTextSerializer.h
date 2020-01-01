@@ -506,6 +506,14 @@ bool
 aStack
 )
 ;
+bool
+ShouldReplaceContainerWithPlaceholder
+(
+nsIAtom
+*
+aTag
+)
+;
 protected
 :
 nsString
@@ -640,6 +648,9 @@ mLineBreaker
 const
 nsString
 kSpace
+;
+uint32_t
+mIgnoredChildNodeLevel
 ;
 }
 ;
