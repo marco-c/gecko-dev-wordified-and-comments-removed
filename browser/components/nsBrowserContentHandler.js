@@ -632,7 +632,11 @@ nsICommandLineValidator
 const
 NS_BINDING_ABORTED
 =
-0x804b0002
+Components
+.
+results
+.
+NS_BINDING_ABORTED
 ;
 const
 NS_ERROR_WONT_HANDLE_CONTENT
