@@ -310,7 +310,7 @@ cx
 JSObject
 *
 obj
-jsuint
+jsdouble
 length
 )
 ;
