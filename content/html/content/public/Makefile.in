@@ -442,6 +442,10 @@ NULL
 EXPORTS
 =
 \
+nsIConstraintValidation
+.
+h
+\
 nsIFormControl
 .
 h

@@ -111,7 +111,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsIConstraintValidation
 :
 :
