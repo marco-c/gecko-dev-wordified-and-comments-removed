@@ -13,3 +13,6 @@ mozilla
 firefox_beta
 MOZ_UPDATER
 =
+MOZ_MOBILE_COMPAT
+=
+Tablets

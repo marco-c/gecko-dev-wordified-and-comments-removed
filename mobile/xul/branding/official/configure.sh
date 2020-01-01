@@ -10,3 +10,6 @@ mozilla
 firefox
 MOZ_UPDATER
 =
+MOZ_MOBILE_COMPAT
+=
+Tablets

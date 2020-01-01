@@ -4,3 +4,6 @@ Nightly
 MOZ_UPDATER
 =
 1
+MOZ_MOBILE_COMPAT
+=
+All
