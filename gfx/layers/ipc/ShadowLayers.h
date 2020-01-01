@@ -211,6 +211,17 @@ aChild
 )
 ;
 void
+SetMask
+(
+ShadowableLayer
+*
+aLayer
+ShadowableLayer
+*
+aMaskLayer
+)
+;
+void
 PaintedThebesBuffer
 (
 ShadowableLayer

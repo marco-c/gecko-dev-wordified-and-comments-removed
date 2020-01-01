@@ -1155,6 +1155,9 @@ DeviceManagerD3D9
 :
 :
 COMPONENTLAYERPASS1
+GetMaskLayer
+(
+)
 )
 ;
 device
@@ -1215,6 +1218,9 @@ DeviceManagerD3D9
 :
 :
 COMPONENTLAYERPASS2
+GetMaskLayer
+(
+)
 )
 ;
 device
@@ -1289,6 +1295,9 @@ DeviceManagerD3D9
 :
 :
 RGBALAYER
+GetMaskLayer
+(
+)
 )
 ;
 device

@@ -754,6 +754,10 @@ clipRect
 bool
 isFixedPosition
 ;
+nullable
+PLayer
+maskLayer
+;
 }
 ;
 struct

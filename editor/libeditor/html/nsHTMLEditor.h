@@ -2023,7 +2023,6 @@ nsIDOMNode
 aNode
 )
 ;
-virtual
 void
 IsTextPropertySetByContent
 (
@@ -2044,10 +2043,6 @@ aValue
 bool
 &
 aIsSet
-nsIDOMNode
-*
-*
-aStyleNode
 nsAString
 *
 outValue

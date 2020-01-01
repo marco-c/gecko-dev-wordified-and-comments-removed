@@ -10891,14 +10891,14 @@ mResizerImage
 LOCAL_GL_TEXTURE0
 )
 ;
-ColorTextureLayerProgram
+ShaderProgramOGL
 *
 program
 =
 manager
 -
 >
-GetColorTextureLayerProgram
+GetProgram
 (
 mResizerImage
 -

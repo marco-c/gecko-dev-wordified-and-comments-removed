@@ -1114,7 +1114,13 @@ mFlags
 eRootAccessible
 ;
 }
-nsRootAccessible
+mozilla
+:
+:
+a11y
+:
+:
+RootAccessible
 *
 AsRoot
 (

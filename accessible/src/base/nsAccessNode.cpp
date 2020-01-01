@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsRootAccessible
+RootAccessible
 .
 h
 "
@@ -140,6 +140,13 @@ Services
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 nsIStringBundle
 *
 nsAccessNode
@@ -213,15 +220,6 @@ mDoc
 aDoc
 )
 {
-#
-ifdef
-DEBUG_A11Y
-mIsInitialized
-=
-false
-;
-#
-endif
 }
 nsAccessNode
 :
@@ -637,7 +635,7 @@ false
 )
 ;
 }
-nsRootAccessible
+RootAccessible
 *
 nsAccessNode
 :

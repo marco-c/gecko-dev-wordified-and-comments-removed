@@ -5106,10 +5106,6 @@ FunctionBox
 *
 parent
 ;
-ParseNode
-*
-methods
-;
 Bindings
 bindings
 ;

@@ -2653,6 +2653,12 @@ UseBackgroundNearestFiltering
 )
 ;
 static
+bool
+GPUImageScalingEnabled
+(
+)
+;
+static
 void
 UnionChildOverflow
 (

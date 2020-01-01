@@ -2278,9 +2278,6 @@ index
 PRInt32
 inLength
 =
-nsCRT
-:
-:
 strlen
 (
 wlst

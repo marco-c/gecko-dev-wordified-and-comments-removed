@@ -75,9 +75,7 @@ mozilla
 /
 dom
 /
-bindings
-/
-Utils
+BindingUtils
 .
 h
 "
@@ -87,9 +85,6 @@ mozilla
 :
 :
 dom
-:
-:
-bindings
 ;
 namespace
 xpc

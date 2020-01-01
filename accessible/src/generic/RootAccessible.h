@@ -14,7 +14,7 @@ h
 #
 include
 "
-DocAccessibleWrap
+nsDocAccessibleWrap
 .
 h
 "
@@ -46,6 +46,12 @@ nsIDOMEventListener
 .
 h
 "
+class
+nsXULTreeAccessible
+;
+class
+Relation
+;
 namespace
 mozilla
 {
@@ -56,7 +62,7 @@ class
 RootAccessible
 :
 public
-DocAccessibleWrap
+nsDocAccessibleWrap
 public
 nsIDOMEventListener
 {
@@ -115,7 +121,7 @@ virtual
 Relation
 RelationByType
 (
-uint32_t
+PRUint32
 aType
 )
 ;
@@ -132,7 +138,7 @@ NativeRole
 )
 ;
 virtual
-uint64_t
+PRUint64
 NativeState
 (
 )
@@ -147,7 +153,7 @@ virtual
 void
 DocumentActivated
 (
-DocAccessible
+nsDocAccessible
 *
 aDocument
 )
@@ -177,7 +183,7 @@ aEvent
 void
 HandlePopupShownEvent
 (
-Accessible
+nsAccessible
 *
 aAccessible
 )
@@ -199,7 +205,7 @@ HandleTreeRowCountChangedEvent
 nsIDOMEvent
 *
 aEvent
-XULTreeAccessible
+nsXULTreeAccessible
 *
 aAccessible
 )
@@ -210,12 +216,12 @@ HandleTreeInvalidatedEvent
 nsIDOMEvent
 *
 aEvent
-XULTreeAccessible
+nsXULTreeAccessible
 *
 aAccessible
 )
 ;
-uint32_t
+PRUint32
 GetChromeFlags
 (
 )
@@ -241,7 +247,7 @@ a11y
 :
 RootAccessible
 *
-Accessible
+nsAccessible
 :
 :
 AsRoot
@@ -268,7 +274,7 @@ RootAccessible
 this
 )
 :
-nullptr
+nsnull
 ;
 }
 #

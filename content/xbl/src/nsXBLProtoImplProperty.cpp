@@ -1280,10 +1280,6 @@ JSPROP_GETTER
 {
 aCallback
 (
-nsIProgrammingLanguage
-:
-:
-JAVASCRIPT
 mJSGetterObject
 "
 mJSGetterObject
@@ -1301,10 +1297,6 @@ JSPROP_SETTER
 {
 aCallback
 (
-nsIProgrammingLanguage
-:
-:
-JAVASCRIPT
 mJSSetterObject
 "
 mJSSetterObject

@@ -152,7 +152,9 @@ endif
 #
 include
 "
-jsgcmark
+gc
+/
+Marking
 .
 h
 "
@@ -503,7 +505,7 @@ cx
 runtime
 -
 >
-getExecutableAllocator
+getExecAlloc
 (
 cx
 )

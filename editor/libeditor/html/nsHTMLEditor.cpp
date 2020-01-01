@@ -17073,10 +17073,6 @@ aValue
 bool
 &
 aIsSet
-nsIDOMNode
-*
-*
-aStyleNode
 nsAString
 *
 outValue

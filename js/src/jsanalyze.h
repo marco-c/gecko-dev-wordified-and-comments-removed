@@ -2708,7 +2708,7 @@ isInlineable
 1
 ;
 bool
-isCompileable
+isJaegerCompileable
 :
 1
 ;
@@ -2901,12 +2901,12 @@ nargs
 ;
 }
 bool
-compileable
+jaegerCompileable
 (
 )
 {
 return
-isCompileable
+isJaegerCompileable
 ;
 }
 bool

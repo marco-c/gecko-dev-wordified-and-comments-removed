@@ -317,9 +317,6 @@ if
 (
 len
 =
-nsCRT
-:
-:
 strlen
 (
 mTokenPos

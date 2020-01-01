@@ -1365,12 +1365,12 @@ flags
 cx
 -
 >
-compartment
+runtime
 -
 >
 newObjectCache
 .
-reset
+purge
 (
 )
 ;

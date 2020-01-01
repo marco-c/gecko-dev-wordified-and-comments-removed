@@ -1901,7 +1901,10 @@ cx
 AtomIndexMap
 *
 indices
-HeapPtrAtom
+HeapPtr
+<
+JSAtom
+>
 *
 atoms
 )

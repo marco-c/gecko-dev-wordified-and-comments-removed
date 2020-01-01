@@ -751,8 +751,14 @@ js_InitSetClass
 )
 JS_PROTO
 (
-ParallelArray
+DataView
 39
+js_InitTypedArrayClasses
+)
+JS_PROTO
+(
+ParallelArray
+40
 js_InitParallelArrayClass
 )
 #

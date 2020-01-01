@@ -188,7 +188,7 @@ Init
 )
 ;
 bool
-IsValid
+IsExplicitlySet
 (
 )
 const

@@ -468,8 +468,6 @@ mozilla
 /
 dom
 /
-bindings
-/
 Nullable
 .
 h
@@ -479,9 +477,6 @@ mozilla
 :
 :
 dom
-:
-:
-bindings
 :
 :
 Nullable

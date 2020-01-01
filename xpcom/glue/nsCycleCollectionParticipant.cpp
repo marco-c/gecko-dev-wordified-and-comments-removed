@@ -16,8 +16,6 @@ static
 void
 NoteChild
 (
-PRUint32
-aLangID
 void
 *
 aScriptThing
@@ -53,9 +51,8 @@ name
 cb
 -
 >
-NoteScriptChild
+NoteJSChild
 (
-aLangID
 aScriptThing
 )
 ;

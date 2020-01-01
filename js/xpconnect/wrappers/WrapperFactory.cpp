@@ -61,9 +61,7 @@ mozilla
 /
 dom
 /
-bindings
-/
-Utils
+BindingUtils
 .
 h
 "
@@ -985,9 +983,6 @@ mozilla
 dom
 :
 :
-bindings
-:
-:
 IsDOMClass
 (
 Jsvalify
@@ -1588,9 +1583,6 @@ mozilla
 :
 :
 dom
-:
-:
-bindings
 :
 :
 IsDOMClass

@@ -352,6 +352,13 @@ aBuilder
 LayerManager
 *
 aManager
+const
+FrameLayerBuilder
+:
+:
+ContainerParameters
+&
+aParameters
 )
 {
 if

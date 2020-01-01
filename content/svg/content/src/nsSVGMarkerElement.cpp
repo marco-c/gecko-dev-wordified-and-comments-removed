@@ -1332,7 +1332,7 @@ if
 (
 mViewBox
 .
-IsValid
+IsExplicitlySet
 (
 )
 )

@@ -87,13 +87,6 @@ h
 #
 include
 "
-jsgcmark
-.
-h
-"
-#
-include
-"
 jsinterp
 .
 h
@@ -181,6 +174,15 @@ include
 frontend
 /
 TokenStream
+.
+h
+"
+#
+include
+"
+gc
+/
+Marking
 .
 h
 "
@@ -3494,7 +3496,7 @@ last
 cx
 -
 >
-compartment
+runtime
 -
 >
 nativeIterCache
@@ -3770,7 +3772,7 @@ iterobj
 cx
 -
 >
-compartment
+runtime
 -
 >
 nativeIterCache
@@ -3889,7 +3891,7 @@ length
 cx
 -
 >
-compartment
+runtime
 -
 >
 nativeIterCache
@@ -4108,7 +4110,7 @@ length
 cx
 -
 >
-compartment
+runtime
 -
 >
 nativeIterCache
@@ -4133,7 +4135,7 @@ length
 cx
 -
 >
-compartment
+runtime
 -
 >
 nativeIterCache

@@ -1442,7 +1442,7 @@ if
 (
 thisViewBox
 .
-IsValid
+IsExplicitlySet
 (
 )
 )
@@ -2282,7 +2282,7 @@ if
 !
 viewBox
 .
-IsValid
+IsExplicitlySet
 (
 )
 )

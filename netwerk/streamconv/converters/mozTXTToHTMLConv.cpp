@@ -3836,9 +3836,6 @@ false
 PRInt32
 tagLen
 =
-nsCRT
-:
-:
 strlen
 (
 tagTXT

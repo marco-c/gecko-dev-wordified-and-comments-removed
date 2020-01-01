@@ -492,7 +492,6 @@ nsDisplayItem
 aItem
 )
 ;
-virtual
 LayerState
 GetLayerState
 (
@@ -881,9 +880,6 @@ aBuilder
 bool
 *
 aSnap
-bool
-*
-aForceTransparentSurface
 )
 ;
 virtual
@@ -986,6 +982,10 @@ aBuilder
 LayerManager
 *
 aManager
+const
+ContainerParameters
+&
+aParameters
 )
 {
 return

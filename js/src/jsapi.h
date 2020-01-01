@@ -11742,6 +11742,7 @@ JSCLASS_HAS_CACHED_PROTO
 key
 )
 (
+uint32_t
 (
 key
 )

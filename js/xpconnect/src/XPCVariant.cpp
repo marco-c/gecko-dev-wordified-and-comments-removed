@@ -361,12 +361,8 @@ mJSVal
 ;
 cb
 .
-NoteScriptChild
+NoteJSChild
 (
-nsIProgrammingLanguage
-:
-:
-JAVASCRIPT
 JSVAL_TO_OBJECT
 (
 val
