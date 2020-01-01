@@ -225,6 +225,9 @@ SyncScheduler
 "
 ErrorHandler
 "
+"
+SendCredentialsController
+"
 ]
 "
 resource
