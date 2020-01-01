@@ -272,7 +272,7 @@ status
 ;
 virtual
 bool
-RecvRedirect2Result
+RecvRedirect2Verify
 (
 const
 nsresult
