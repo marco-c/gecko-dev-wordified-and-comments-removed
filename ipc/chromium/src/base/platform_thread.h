@@ -81,6 +81,15 @@ defined
 (
 OS_BSD
 )
+#
+include
+<
+sys
+/
+types
+.
+h
+>
 typedef
 lwpid_t
 PlatformThreadId
