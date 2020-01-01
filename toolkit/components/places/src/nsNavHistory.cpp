@@ -18872,6 +18872,11 @@ nsIURI
 aURI
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aURI
+)
+;
 nsCAutoString
 utf8URISpec
 ;
