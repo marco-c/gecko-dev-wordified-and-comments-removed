@@ -197,6 +197,7 @@ sendMessage
 (
 aType
 aMessage
+aPageURI
 aManifestURI
 )
 {
@@ -271,6 +272,16 @@ manifest
 !
 =
 aManifestURI
+.
+spec
+|
+|
+aPage
+.
+uri
+!
+=
+aPageURI
 .
 spec
 )
