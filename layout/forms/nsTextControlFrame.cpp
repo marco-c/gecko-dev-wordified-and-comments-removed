@@ -6050,7 +6050,7 @@ else
 textEditor
 -
 >
-SetWrapWidth
+SetWrapColumn
 (
 -
 1
