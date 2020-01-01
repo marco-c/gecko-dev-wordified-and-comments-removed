@@ -17467,6 +17467,16 @@ nodeIndex
 if
 (
 aParentNode
+&
+&
+aParentNode
+-
+>
+mItemId
+!
+=
+-
+1
 )
 {
 if
@@ -17485,8 +17495,10 @@ nodeIndex
 >
 mItemId
 )
+{
 continue
 ;
+}
 }
 if
 (
