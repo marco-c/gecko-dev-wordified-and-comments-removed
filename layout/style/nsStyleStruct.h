@@ -6980,9 +6980,6 @@ uint8_t
 mRules
 ;
 int32_t
-mCols
-;
-int32_t
 mSpan
 ;
 }
