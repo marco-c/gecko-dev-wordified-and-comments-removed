@@ -214,7 +214,7 @@ XP_WIN
 |
 JSDOUBLE_IS_NaN
 (
-a
+b
 )
 #
 endif
@@ -222,7 +222,6 @@ endif
 return
 js_NaN
 ;
-else
 if
 (
 JSDOUBLE_IS_NEG
@@ -239,7 +238,6 @@ b
 return
 js_NegativeInfinity
 ;
-else
 return
 js_PositiveInfinity
 ;
