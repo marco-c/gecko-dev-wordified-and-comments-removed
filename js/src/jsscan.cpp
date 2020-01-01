@@ -3980,6 +3980,17 @@ ungetChar
 c
 )
 ;
+tp
+-
+>
+pos
+.
+end
+.
+lineno
+=
+lineno
+;
 tt
 =
 TOK_XMLSPACE
