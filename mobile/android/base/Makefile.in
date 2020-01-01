@@ -735,6 +735,12 @@ ViewportMetrics
 .
 java
 \
+gfx
+/
+WidgetTileLayer
+.
+java
+\
 ui
 /
 PanZoomController
@@ -1291,6 +1297,14 @@ res
 layout
 /
 notification_progress_text
+.
+xml
+\
+res
+/
+layout
+/
+site_setting_title
 .
 xml
 \
