@@ -7500,10 +7500,6 @@ NS_OK
 ;
 }
 }
-mMayStartLayout
-=
-PR_FALSE
-;
 nsCOMPtr
 <
 nsIWebNavigation
@@ -7530,13 +7526,6 @@ STOP_NETWORK
 EnsureOnloadBlocker
 (
 )
-;
-}
-else
-{
-mMayStartLayout
-=
-PR_FALSE
 ;
 }
 nsCOMPtr
