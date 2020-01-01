@@ -101,6 +101,12 @@ deck
 "
 scrollbox
 "
+"
+arrowscrollbox
+"
+"
+tabs
+"
 ]
 handleEvent
 :
