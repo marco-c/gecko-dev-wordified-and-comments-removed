@@ -1703,16 +1703,6 @@ lastChild
 =
 child
 ;
-layerItems
-[
-i
-]
--
->
-mLayer
-=
-nsnull
-;
 }
 container
 -
