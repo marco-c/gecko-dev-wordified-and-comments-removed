@@ -2114,6 +2114,10 @@ NotifyAutoplayDataReady
 )
 ;
 }
+UpdateReadyStateForData
+(
+)
+;
 }
 void
 nsBuiltinDecoder
