@@ -1989,6 +1989,12 @@ resumeReconnecting
 (
 )
 ;
+GroupItems
+.
+resumeUpdatingTabBar
+(
+)
+;
 }
 }
 Services
@@ -2160,6 +2166,12 @@ _privateBrowsing
 transitionMode
 =
 aData
+;
+GroupItems
+.
+pauseUpdatingTabBar
+(
+)
 ;
 TabItems
 .
