@@ -6473,14 +6473,13 @@ function
 aId
 )
 {
+delete
 this
 .
 items
 [
 aId
 ]
-=
-null
 ;
 }
 SelectorContext
