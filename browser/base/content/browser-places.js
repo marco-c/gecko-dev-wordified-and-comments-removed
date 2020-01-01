@@ -775,13 +775,6 @@ starIcon
 )
 )
 {
-var
-dockTo
-=
-starIcon
-.
-parentNode
-;
 this
 .
 bookmarkPage
@@ -793,7 +786,7 @@ getBrowser
 selectedBrowser
 aParent
 aShowEditUI
-dockTo
+starIcon
 "
 after_start
 "
