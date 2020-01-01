@@ -674,15 +674,6 @@ Workers
 ]
 attribute
 boolean
-multipart
-;
-[
-SetterThrows
-=
-Workers
-]
-attribute
-boolean
 mozBackgroundRequest
 ;
 [
