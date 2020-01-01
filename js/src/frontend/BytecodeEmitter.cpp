@@ -1909,8 +1909,6 @@ cx
 BytecodeEmitter
 *
 bce
-JSOp
-op
 ptrdiff_t
 *
 lastp
@@ -1953,7 +1951,7 @@ EmitJump
 (
 cx
 bce
-op
+JSOP_BACKPATCH
 delta
 )
 ;
@@ -2918,7 +2916,6 @@ EmitBackPatchOp
 (
 cx
 bce
-JSOP_BACKPATCH
 &
 stmt
 -
@@ -3282,7 +3279,6 @@ EmitBackPatchOp
 (
 cx
 bce
-JSOP_BACKPATCH
 lastp
 )
 ;
@@ -18057,7 +18053,6 @@ EmitBackPatchOp
 (
 cx
 bce
-JSOP_BACKPATCH
 &
 stmtInfo
 .
@@ -18092,7 +18087,6 @@ EmitBackPatchOp
 (
 cx
 bce
-JSOP_BACKPATCH
 &
 catchJump
 )
@@ -18347,7 +18341,6 @@ EmitBackPatchOp
 (
 cx
 bce
-JSOP_BACKPATCH
 &
 stmtInfo
 .
@@ -18393,7 +18386,6 @@ EmitBackPatchOp
 (
 cx
 bce
-JSOP_BACKPATCH
 &
 catchJump
 )
