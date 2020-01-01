@@ -956,12 +956,6 @@ PRBool
 aWasAnchor
 PRUint32
 aLoadType
-nscoord
-*
-cx
-nscoord
-*
-cy
 PRBool
 *
 aDoHashchange
