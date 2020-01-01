@@ -3026,6 +3026,16 @@ jsop_instanceof
 )
 ;
 void
+jsop_intrinsicname
+(
+PropertyName
+*
+name
+JSValueType
+type
+)
+;
+void
 jsop_name
 (
 PropertyName
