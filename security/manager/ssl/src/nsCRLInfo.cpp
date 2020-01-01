@@ -183,7 +183,7 @@ nextUpdateLocale
 nsAutoString
 lastUpdateLocale
 ;
-nsCAutoString
+nsAutoCString
 lastFetchURL
 ;
 PRTime

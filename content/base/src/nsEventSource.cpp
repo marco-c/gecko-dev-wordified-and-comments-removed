@@ -1180,7 +1180,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv
@@ -1869,7 +1869,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 contentType
 ;
 rv
@@ -4546,7 +4546,7 @@ ConsoleError
 (
 )
 {
-nsCAutoString
+nsAutoCString
 targetSpec
 ;
 nsresult
@@ -5111,7 +5111,7 @@ NS_CP_ACCEPTED
 shouldLoad
 )
 ;
-nsCAutoString
+nsAutoCString
 targetURIScheme
 ;
 rv

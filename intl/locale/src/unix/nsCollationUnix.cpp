@@ -459,7 +459,7 @@ res
 )
 )
 {
-nsCAutoString
+nsAutoCString
 mappedCharset
 ;
 res

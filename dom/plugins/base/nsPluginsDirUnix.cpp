@@ -1182,7 +1182,7 @@ nsIFile
 file
 )
 {
-nsCAutoString
+nsAutoCString
 filename
 ;
 if
@@ -1373,7 +1373,7 @@ NS_ERROR_FILE_NOT_FOUND
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -1731,7 +1731,7 @@ return
 rv
 ;
 }
-nsCAutoString
+nsAutoCString
 path
 ;
 if
@@ -1765,7 +1765,7 @@ get
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 fileName
 ;
 if

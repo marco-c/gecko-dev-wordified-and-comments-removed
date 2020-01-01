@@ -424,7 +424,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 name
 ;
 nsresult

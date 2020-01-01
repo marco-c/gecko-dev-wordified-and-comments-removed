@@ -10005,7 +10005,7 @@ GetDocumentURI
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 documentURI

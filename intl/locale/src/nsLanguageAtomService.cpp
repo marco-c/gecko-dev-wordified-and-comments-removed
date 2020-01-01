@@ -163,7 +163,7 @@ nsresult
 aError
 )
 {
-nsCAutoString
+nsAutoCString
 lowered
 (
 aLanguage

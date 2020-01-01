@@ -172,7 +172,7 @@ get_spec_test
 (
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 test_url
@@ -190,7 +190,7 @@ resolve_test
 (
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 test_url
@@ -240,7 +240,7 @@ get_scheme_test
 (
 )
 {
-nsCAutoString
+nsAutoCString
 scheme
 ;
 test_url
@@ -258,7 +258,7 @@ host_test
 (
 )
 {
-nsCAutoString
+nsAutoCString
 host
 ;
 test_url
@@ -344,7 +344,7 @@ get_path_test
 (
 )
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 test_url
@@ -362,7 +362,7 @@ query_test
 (
 )
 {
-nsCAutoString
+nsAutoCString
 query
 ;
 test_url
@@ -423,7 +423,7 @@ ref_test
 (
 )
 {
-nsCAutoString
+nsAutoCString
 ref
 ;
 test_url

@@ -2722,7 +2722,7 @@ aByteLength
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 if

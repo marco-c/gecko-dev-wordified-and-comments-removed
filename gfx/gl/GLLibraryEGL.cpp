@@ -153,7 +153,7 @@ trace
 "
 ;
 }
-nsCAutoString
+nsAutoCString
 logPath
 ;
 logPath

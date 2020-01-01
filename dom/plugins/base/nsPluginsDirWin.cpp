@@ -856,7 +856,7 @@ nsIFile
 file
 )
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 if

@@ -93,7 +93,7 @@ event
 >
 serial
 ;
-nsCAutoString
+nsAutoCString
 message
 ;
 if
@@ -332,7 +332,7 @@ buffer
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 notes
 ;
 if

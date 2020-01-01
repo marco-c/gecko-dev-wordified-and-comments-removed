@@ -1540,7 +1540,7 @@ return
 rv
 ;
 }
-nsCAutoString
+nsAutoCString
 ref
 ;
 nsAutoString
@@ -1586,7 +1586,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 charset
 ;
 uri
@@ -1854,7 +1854,7 @@ if
 uri
 )
 {
-nsCAutoString
+nsAutoCString
 hostport
 ;
 result
@@ -1995,7 +1995,7 @@ if
 uri
 )
 {
-nsCAutoString
+nsAutoCString
 host
 ;
 result
@@ -2135,7 +2135,7 @@ if
 uri
 )
 {
-nsCAutoString
+nsAutoCString
 uriString
 ;
 result
@@ -2407,7 +2407,7 @@ mDocShell
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 docCharset
 ;
 if
@@ -2638,7 +2638,7 @@ if
 url
 )
 {
-nsCAutoString
+nsAutoCString
 file
 ;
 result
@@ -3005,7 +3005,7 @@ if
 uri
 )
 {
-nsCAutoString
+nsAutoCString
 protocol
 ;
 result
@@ -3172,7 +3172,7 @@ if
 url
 )
 {
-nsCAutoString
+nsAutoCString
 search
 ;
 result

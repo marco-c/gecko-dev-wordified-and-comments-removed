@@ -4244,7 +4244,7 @@ rv
 =
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 formatType
 (
 NS_DOC_ENCODER_CONTRACTID_BASE

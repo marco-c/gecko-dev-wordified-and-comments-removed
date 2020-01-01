@@ -1323,7 +1323,7 @@ sspi_cbt_ptr
 =
 end_point_length
 ;
-nsCAutoString
+nsAutoCString
 hashString
 ;
 nsresult

@@ -574,7 +574,7 @@ uri
 return
 NS_ERROR_UNEXPECTED
 ;
-nsCAutoString
+nsAutoCString
 uriStr
 ;
 rv

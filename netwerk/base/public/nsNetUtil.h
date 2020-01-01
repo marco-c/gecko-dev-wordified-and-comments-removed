@@ -1477,7 +1477,7 @@ nullptr
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 resultBuf
 ;
 rv
@@ -1582,7 +1582,7 @@ NS_OK
 }
 else
 {
-nsCAutoString
+nsAutoCString
 resultBuf
 ;
 if
@@ -1842,7 +1842,7 @@ port
 return
 port
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 rv
@@ -3239,7 +3239,7 @@ port
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 uri
@@ -3829,7 +3829,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 (
 scheme
@@ -6819,7 +6819,7 @@ NS_GetInnermostURI
 aURI
 )
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 uint32_t
@@ -6896,7 +6896,7 @@ news
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 uint32_t
@@ -6931,7 +6931,7 @@ return
 specHash
 ;
 }
-nsCAutoString
+nsAutoCString
 host
 ;
 uint32_t
@@ -7106,7 +7106,7 @@ targetBaseURI
 return
 false
 ;
-nsCAutoString
+nsAutoCString
 targetScheme
 ;
 bool
@@ -7311,10 +7311,10 @@ news
 )
 )
 {
-nsCAutoString
+nsAutoCString
 targetSpec
 ;
-nsCAutoString
+nsAutoCString
 sourceSpec
 ;
 return
@@ -7352,10 +7352,10 @@ sourceSpec
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 targetHost
 ;
-nsCAutoString
+nsAutoCString
 sourceHost
 ;
 if
@@ -8078,7 +8078,7 @@ nsIChannel
 :
 DISPOSITION_ATTACHMENT
 ;
-nsCAutoString
+nsAutoCString
 fallbackCharset
 ;
 if
@@ -8231,7 +8231,7 @@ do_QueryInterface
 aURI
 )
 ;
-nsCAutoString
+nsAutoCString
 fallbackCharset
 ;
 if
@@ -8413,7 +8413,7 @@ return
 false
 ;
 }
-nsCAutoString
+nsAutoCString
 str
 ;
 uri

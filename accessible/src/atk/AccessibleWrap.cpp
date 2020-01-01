@@ -2754,7 +2754,7 @@ propElem
 objAttributeSet
 )
 ;
-nsCAutoString
+nsAutoCString
 name
 ;
 rv

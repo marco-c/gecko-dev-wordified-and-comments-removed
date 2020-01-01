@@ -1625,7 +1625,7 @@ char
 hash
 )
 {
-nsCAutoString
+nsAutoCString
 passbuf
 ;
 NS_CopyUnicodeToNative
@@ -2436,7 +2436,7 @@ endif
 nsAutoString
 ucsHostBuf
 ;
-nsCAutoString
+nsAutoCString
 oemDomainBuf
 oemUserBuf
 oemHostBuf

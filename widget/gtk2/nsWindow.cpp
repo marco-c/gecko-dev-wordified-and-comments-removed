@@ -1863,7 +1863,7 @@ aEvent
 >
 widget
 aEvent
-nsCAutoString
+nsAutoCString
 (
 "
 something
@@ -5026,7 +5026,7 @@ GTKToolkit
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 desktopStartupID
 ;
 GTKToolkit
@@ -6733,7 +6733,7 @@ mShell
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 iconName
 ;
 if
@@ -6783,7 +6783,7 @@ nsIFile
 >
 iconFile
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 gint

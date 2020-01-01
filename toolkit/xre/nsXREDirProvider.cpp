@@ -2399,7 +2399,7 @@ appended
 )
 continue
 ;
-nsCAutoString
+nsAutoCString
 leaf
 ;
 appended
@@ -2663,7 +2663,7 @@ i
 ;
 do
 {
-nsCAutoString
+nsAutoCString
 buf
 (
 "
@@ -2680,7 +2680,7 @@ i
 +
 )
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -3169,7 +3169,7 @@ n
 key
 )
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 for
@@ -6173,7 +6173,7 @@ rv
 #
 ifdef
 DEBUG_jungshik
-nsCAutoString
+nsAutoCString
 cwd
 ;
 localDir
@@ -6272,7 +6272,7 @@ if
 exists
 )
 {
-nsCAutoString
+nsAutoCString
 cwd
 ;
 aDirectory
@@ -6396,7 +6396,7 @@ exists
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 leafName
 ;
 rv
@@ -6830,13 +6830,13 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCAutoString
+nsAutoCString
 profile
 ;
-nsCAutoString
+nsAutoCString
 appName
 ;
-nsCAutoString
+nsAutoCString
 vendor
 ;
 if
@@ -7098,7 +7098,7 @@ defined
 (
 XP_UNIX
 )
-nsCAutoString
+nsAutoCString
 folder
 (
 "
@@ -7325,7 +7325,7 @@ path
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 pathDup
 (
 aPath

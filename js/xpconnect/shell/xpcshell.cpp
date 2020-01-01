@@ -7436,7 +7436,7 @@ defined
 (
 XP_UNIX
 )
-nsCAutoString
+nsAutoCString
 cwd
 ;
 size_t

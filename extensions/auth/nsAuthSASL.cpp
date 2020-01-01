@@ -273,7 +273,7 @@ uint32_t
 unwrappedTokenLen
 messageLen
 ;
-nsCAutoString
+nsAutoCString
 userbuf
 ;
 if

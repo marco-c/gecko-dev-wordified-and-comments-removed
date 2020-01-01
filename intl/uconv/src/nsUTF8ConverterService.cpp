@@ -431,7 +431,7 @@ Truncate
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 unescapedSpec
 ;
 bool

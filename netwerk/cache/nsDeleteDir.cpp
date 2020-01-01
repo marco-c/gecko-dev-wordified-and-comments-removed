@@ -945,7 +945,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 origLeaf
 ;
 rv
@@ -975,7 +975,7 @@ PR_Now
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 leaf
 ;
 for
@@ -1276,7 +1276,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 leaf
 ;
 rv
@@ -1330,7 +1330,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 leaf
 ;
 rv

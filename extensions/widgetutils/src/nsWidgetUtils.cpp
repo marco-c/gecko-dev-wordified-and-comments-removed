@@ -1351,7 +1351,7 @@ aContentLocation
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 rv
@@ -1364,7 +1364,7 @@ GetScheme
 scheme
 )
 ;
-nsCAutoString
+nsAutoCString
 lscheme
 ;
 ToLowerCase

@@ -1377,7 +1377,7 @@ eMATHVARIANT_COUNT
 i
 )
 {
-nsCAutoString
+nsAutoCString
 key
 (
 NS_LITERAL_CSTRING
@@ -1478,7 +1478,7 @@ index
 =
 0
 ;
-nsCAutoString
+nsAutoCString
 name
 ;
 nsAutoString

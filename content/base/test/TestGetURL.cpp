@@ -298,7 +298,7 @@ failed
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 responseUTF8
 =
 NS_ConvertUTF16toUTF8
@@ -402,7 +402,7 @@ failed
 return
 1
 ;
-nsCAutoString
+nsAutoCString
 targetURL
 (
 argv

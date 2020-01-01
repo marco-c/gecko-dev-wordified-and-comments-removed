@@ -1158,7 +1158,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 linkHeader
 ;
 nsresult
@@ -1718,7 +1718,7 @@ rv
 return
 false
 ;
-nsCAutoString
+nsAutoCString
 asciiValue
 ;
 const
@@ -1791,7 +1791,7 @@ encstart
 nsAutoString
 decoded
 ;
-nsCAutoString
+nsAutoCString
 language
 ;
 rv
@@ -3702,7 +3702,7 @@ uri
 return
 ;
 }
-nsCAutoString
+nsAutoCString
 host
 ;
 uri
@@ -3804,7 +3804,7 @@ if
 aLoadApplicationCache
 )
 {
-nsCAutoString
+nsAutoCString
 groupID
 ;
 rv
@@ -3886,7 +3886,7 @@ else
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 docURISpec
 clientID
 ;
@@ -4051,7 +4051,7 @@ nsIApplicationCacheContainer
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 docURISpec
 clientID
 ;
@@ -4122,7 +4122,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 groupID
 ;
 rv
@@ -4499,7 +4499,7 @@ if
 httpChannel
 )
 {
-nsCAutoString
+nsAutoCString
 method
 ;
 rv

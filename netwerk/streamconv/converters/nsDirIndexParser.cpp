@@ -745,7 +745,7 @@ aFormatStr
 )
 break
 ;
-nsCAutoString
+nsAutoCString
 name
 ;
 int32_t
@@ -920,7 +920,7 @@ rv
 =
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 filename
 ;
 for

@@ -313,7 +313,7 @@ char
 *
 convname
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 if

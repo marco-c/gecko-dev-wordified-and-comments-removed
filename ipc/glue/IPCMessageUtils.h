@@ -1406,7 +1406,7 @@ template
 struct
 ParamTraits
 <
-nsCAutoString
+nsAutoCString
 >
 :
 ParamTraits
@@ -1415,7 +1415,7 @@ nsCString
 >
 {
 typedef
-nsCAutoString
+nsAutoCString
 paramType
 ;
 }

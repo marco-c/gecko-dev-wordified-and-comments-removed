@@ -301,7 +301,7 @@ n
 return
 ;
 }
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri

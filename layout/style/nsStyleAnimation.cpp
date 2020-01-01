@@ -1879,7 +1879,7 @@ nsIURI
 aUri
 )
 {
-nsCAutoString
+nsAutoCString
 utf8String
 ;
 nsresult

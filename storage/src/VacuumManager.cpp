@@ -242,7 +242,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 message
 ;
 rv
@@ -261,7 +261,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 warnMsg
 ;
 warnMsg
@@ -673,7 +673,7 @@ PR_USEC_PER_SEC
 int32_t
 lastVacuum
 ;
-nsCAutoString
+nsAutoCString
 prefName
 (
 PREF_VACUUM_BRANCH
@@ -816,7 +816,7 @@ mozIStorageAsyncStatement
 >
 pageSizeStmt
 ;
-nsCAutoString
+nsAutoCString
 pageSizeQuery
 (
 MOZ_STORAGE_UNIQUIFY_QUERY_STR
@@ -981,7 +981,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 message
 ;
 rv
@@ -1000,7 +1000,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 warnMsg
 ;
 warnMsg
@@ -1090,7 +1090,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 message
 ;
 rv
@@ -1234,7 +1234,7 @@ empty
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 prefName
 (
 PREF_VACUUM_BRANCH

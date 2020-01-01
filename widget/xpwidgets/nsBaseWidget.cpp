@@ -4109,7 +4109,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 factorPrefName
 (
 "
@@ -5819,7 +5819,7 @@ nsGUIEvent
 *
 aGuiEvent
 const
-nsCAutoString
+nsAutoCString
 &
 aWidgetName
 int32_t
@@ -6014,7 +6014,7 @@ nsIntRegion
 &
 aRegion
 const
-nsCAutoString
+nsAutoCString
 &
 aWidgetName
 int32_t
@@ -6170,7 +6170,7 @@ nsIntRect
 *
 aRect
 const
-nsCAutoString
+nsAutoCString
 &
 aWidgetName
 int32_t

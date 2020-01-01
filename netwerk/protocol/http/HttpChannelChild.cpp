@@ -1411,7 +1411,7 @@ code
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 mURI
@@ -2200,7 +2200,7 @@ LOAD_BACKGROUND
 )
 )
 {
-nsCAutoString
+nsAutoCString
 host
 ;
 mURI

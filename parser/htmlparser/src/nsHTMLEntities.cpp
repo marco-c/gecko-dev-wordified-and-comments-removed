@@ -671,7 +671,7 @@ Last
 )
 )
 {
-nsCAutoString
+nsAutoCString
 temp
 (
 aEntity
@@ -757,7 +757,7 @@ nsAString
 aEntity
 )
 {
-nsCAutoString
+nsAutoCString
 theEntity
 ;
 theEntity
@@ -1019,7 +1019,7 @@ nsHTMLEntities
 :
 EntityToUnicode
 (
-nsCAutoString
+nsAutoCString
 (
 "
 "
@@ -1045,7 +1045,7 @@ nsHTMLEntities
 :
 EntityToUnicode
 (
-nsCAutoString
+nsAutoCString
 (
 "
 zzzzz

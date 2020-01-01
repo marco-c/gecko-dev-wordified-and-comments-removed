@@ -900,7 +900,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsCAutoString
+nsAutoCString
 urlFilter
 ;
 rv
@@ -929,7 +929,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsCAutoString
+nsAutoCString
 dn
 ;
 rv

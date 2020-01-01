@@ -643,7 +643,7 @@ i
 +
 )
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 str
@@ -958,7 +958,7 @@ numRead
 break
 ;
 }
-nsCAutoString
+nsAutoCString
 pathStr
 ;
 pathStr
@@ -968,7 +968,7 @@ Append
 path
 )
 ;
-nsCAutoString
+nsAutoCString
 basename
 ;
 GetBasename
@@ -1247,7 +1247,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCAutoString
+nsAutoCString
 name
 description
 ;
@@ -1325,7 +1325,7 @@ Truncate
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 absPath
 ;
 absPath
@@ -1343,7 +1343,7 @@ StripChars
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 basename
 ;
 GetBasename
@@ -1618,7 +1618,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 dirname
 ;
 GetDirname
@@ -2341,7 +2341,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 path
 ;
 path

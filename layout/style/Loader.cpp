@@ -723,7 +723,7 @@ LOG_ENABLED
 )
 {
 \
-nsCAutoString
+nsAutoCString
 _logURISpec
 ;
 \
@@ -2337,7 +2337,7 @@ pos
 step
 ;
 }
-nsCAutoString
+nsAutoCString
 charset
 ;
 while
@@ -3429,7 +3429,7 @@ NS_OK
 ;
 }
 }
-nsCAutoString
+nsAutoCString
 contentType
 ;
 if
@@ -3576,7 +3576,7 @@ nsIScriptError
 errorFlag
 ;
 }
-nsCAutoString
+nsAutoCString
 spec
 ;
 channelURI
@@ -5552,7 +5552,7 @@ now
 #
 ifdef
 NS_FUNCTION_TIMER
-nsCAutoString
+nsAutoCString
 spec__
 (
 "
@@ -6789,7 +6789,7 @@ into
 #
 ifdef
 NS_FUNCTION_TIMER
-nsCAutoString
+nsAutoCString
 spec__
 (
 "

@@ -247,7 +247,7 @@ factory
 )
 )
 {
-nsCAutoString
+nsAutoCString
 xtf_contract_id
 (
 NS_XTF_ELEMENT_FACTORY_CONTRACTID_PREFIX

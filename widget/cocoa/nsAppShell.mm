@@ -1782,7 +1782,7 @@ nib
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 nibPath
 ;
 rv

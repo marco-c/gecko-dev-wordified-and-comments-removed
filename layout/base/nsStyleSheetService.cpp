@@ -278,7 +278,7 @@ nsISupportsCStrings
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 name
 ;
 icStr

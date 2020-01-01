@@ -1475,7 +1475,7 @@ IsEmpty
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 bindingURI
 ;
 mPrototypeBinding
@@ -2680,7 +2680,7 @@ nsAString
 aKeyName
 )
 {
-nsCAutoString
+nsAutoCString
 keyName
 ;
 keyName

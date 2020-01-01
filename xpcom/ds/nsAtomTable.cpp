@@ -893,7 +893,7 @@ uint32_t
 arg
 )
 ;
-nsCAutoString
+nsAutoCString
 str
 ;
 atom

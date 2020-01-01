@@ -157,7 +157,7 @@ trans
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 int32_t

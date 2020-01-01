@@ -761,7 +761,7 @@ Sheet
 out
 )
 ;
-nsCAutoString
+nsAutoCString
 urlSpec
 ;
 mURL

@@ -550,7 +550,7 @@ void
 *
 mFrom
 ;
-nsCAutoString
+nsAutoCString
 mFunc
 ;
 }

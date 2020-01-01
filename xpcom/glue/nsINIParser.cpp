@@ -297,7 +297,7 @@ READ_BINARYMODE
 ;
 #
 else
-nsCAutoString
+nsAutoCString
 path
 ;
 aFile

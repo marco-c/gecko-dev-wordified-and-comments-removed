@@ -1217,7 +1217,7 @@ s
 ]
 "
 ;
-nsCAutoString
+nsAutoCString
 location
 ;
 if

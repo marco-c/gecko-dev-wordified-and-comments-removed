@@ -1187,7 +1187,7 @@ http
 }
 else
 {
-nsCAutoString
+nsAutoCString
 scheme
 ;
 (
@@ -1262,7 +1262,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 hostport
 ;
 nsresult
@@ -1333,7 +1333,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 host
 ;
 nsresult
@@ -1416,7 +1416,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 file
 ;
 nsresult
@@ -1496,7 +1496,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 search
 ;
 nsresult
@@ -1673,7 +1673,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 ref
 ;
 nsresult
@@ -1993,7 +1993,7 @@ illegal
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 href
 ;
 (

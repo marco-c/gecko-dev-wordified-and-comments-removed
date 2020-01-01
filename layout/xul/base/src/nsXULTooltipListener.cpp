@@ -1456,7 +1456,7 @@ nsITreeColumn
 >
 col
 ;
-nsCAutoString
+nsAutoCString
 obj
 ;
 int32_t

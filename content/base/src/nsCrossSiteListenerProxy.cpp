@@ -1286,7 +1286,7 @@ rv
 false
 )
 ;
-nsCAutoString
+nsAutoCString
 scheme
 host
 port
@@ -1323,7 +1323,7 @@ uri
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 cred
 ;
 if
@@ -1353,7 +1353,7 @@ nocred
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv
@@ -2244,7 +2244,7 @@ http
 NS_ERROR_DOM_BAD_URI
 )
 ;
-nsCAutoString
+nsAutoCString
 allowedOriginHeader
 ;
 rv
@@ -2291,7 +2291,7 @@ EqualsLiteral
 )
 )
 {
-nsCAutoString
+nsAutoCString
 origin
 ;
 rv
@@ -2332,7 +2332,7 @@ if
 mWithCredentials
 )
 {
-nsCAutoString
+nsAutoCString
 allowCredentialsHeader
 ;
 rv
@@ -2416,7 +2416,7 @@ return
 NS_ERROR_DOM_BAD_URI
 ;
 }
-nsCAutoString
+nsAutoCString
 headerVal
 ;
 http
@@ -3396,7 +3396,7 @@ IsEmpty
 NS_ERROR_DOM_BAD_URI
 )
 ;
-nsCAutoString
+nsAutoCString
 origin
 ;
 rv
@@ -3500,7 +3500,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 headers
 ;
 for
@@ -3785,7 +3785,7 @@ http
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 headerVal
 ;
 http
@@ -4604,7 +4604,7 @@ aPreflightChannel
 =
 nullptr
 ;
-nsCAutoString
+nsAutoCString
 method
 ;
 nsCOMPtr

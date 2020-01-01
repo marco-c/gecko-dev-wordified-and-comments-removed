@@ -439,7 +439,7 @@ nsCSSProps
 :
 LookupProperty
 (
-nsCAutoString
+nsAutoCString
 (
 tag
 )
@@ -901,7 +901,7 @@ nsCSSKeywords
 :
 LookupKeyword
 (
-nsCAutoString
+nsAutoCString
 (
 tag
 )

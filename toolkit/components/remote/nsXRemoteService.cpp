@@ -427,7 +427,7 @@ nsACString
 aValue
 )
 {
-nsCAutoString
+nsAutoCString
 searchFor
 ;
 searchFor
@@ -1123,7 +1123,7 @@ internal
 error
 "
 ;
-nsCAutoString
+nsAutoCString
 command
 (
 aCommand
@@ -1224,7 +1224,7 @@ ping
 )
 )
 {
-nsCAutoString
+nsAutoCString
 desktopStartupID
 ;
 nsDependentCString
@@ -1498,7 +1498,7 @@ internal
 error
 "
 ;
-nsCAutoString
+nsAutoCString
 desktopStartupID
 ;
 char

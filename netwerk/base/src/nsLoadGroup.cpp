@@ -1057,7 +1057,7 @@ defined
 (
 PR_LOGGING
 )
-nsCAutoString
+nsAutoCString
 nameStr
 ;
 request
@@ -1341,7 +1341,7 @@ defined
 (
 PR_LOGGING
 )
-nsCAutoString
+nsAutoCString
 nameStr
 ;
 request
@@ -1565,7 +1565,7 @@ defined
 (
 PR_LOGGING
 )
-nsCAutoString
+nsAutoCString
 nameStr
 ;
 request
@@ -1862,7 +1862,7 @@ defined
 PR_LOGGING
 )
 {
-nsCAutoString
+nsAutoCString
 nameStr
 ;
 request
@@ -2307,7 +2307,7 @@ defined
 PR_LOGGING
 )
 {
-nsCAutoString
+nsAutoCString
 nameStr
 ;
 request

@@ -122,7 +122,7 @@ if
 mDocumentURI
 )
 {
-nsCAutoString
+nsAutoCString
 domain
 ;
 nsresult
@@ -185,7 +185,7 @@ if
 mDocumentURI
 )
 {
-nsCAutoString
+nsAutoCString
 url
 ;
 nsresult

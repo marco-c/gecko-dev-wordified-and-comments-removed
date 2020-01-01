@@ -83,7 +83,7 @@ PRUnichar
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 escPath
 ;
 NS_NAMED_LITERAL_CSTRING
@@ -218,7 +218,7 @@ nsACString
 *
 specPtr
 ;
-nsCAutoString
+nsAutoCString
 buf
 ;
 if
@@ -240,7 +240,7 @@ specPtr
 &
 aURL
 ;
-nsCAutoString
+nsAutoCString
 directory
 fileBaseName
 fileExtension
@@ -266,7 +266,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 if

@@ -190,7 +190,7 @@ gconf
 bool
 isEnabled
 ;
-nsCAutoString
+nsAutoCString
 handler
 ;
 if
@@ -334,7 +334,7 @@ giovfs
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 name
 ;
 if
@@ -491,7 +491,7 @@ nsACString
 aFileExt
 )
 {
-nsCAutoString
+nsAutoCString
 mimeType
 ;
 nsCOMPtr
@@ -637,10 +637,10 @@ mimeInfo
 nullptr
 )
 ;
-nsCAutoString
+nsAutoCString
 name
 ;
-nsCAutoString
+nsAutoCString
 description
 ;
 nsCOMPtr
@@ -797,7 +797,7 @@ af
 desktop
 "
 ;
-nsCAutoString
+nsAutoCString
 realName
 (
 dgettext

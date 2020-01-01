@@ -11026,7 +11026,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsCAutoString
+nsAutoCString
 urlspec
 ;
 nsContentUtils

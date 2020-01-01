@@ -3127,7 +3127,7 @@ relURI
 )
 )
 {
-nsCAutoString
+nsAutoCString
 uri
 ;
 rv
@@ -3203,10 +3203,10 @@ aIsAnonymous
 =
 false
 ;
-nsCAutoString
+nsAutoCString
 name
 ;
-nsCAutoString
+nsAutoCString
 ref
 (
 '
@@ -3463,7 +3463,7 @@ relURI
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 uri
 ;
 rv

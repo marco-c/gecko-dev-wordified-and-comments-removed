@@ -700,7 +700,7 @@ offset
 =
 0
 ;
-nsCAutoString
+nsAutoCString
 encodedBuf
 ;
 nsAString
@@ -927,7 +927,7 @@ offset
 =
 0
 ;
-nsCAutoString
+nsAutoCString
 decodedBuf
 ;
 nsACString
@@ -1445,7 +1445,7 @@ _retval
 )
 )
 {
-nsCAutoString
+nsAutoCString
 temp
 (
 _retval
@@ -2797,7 +2797,7 @@ utf16
 out
 )
 ;
-nsCAutoString
+nsAutoCString
 ace
 ;
 nsresult
@@ -2853,7 +2853,7 @@ if
 mIDNWhitelistPrefBranch
 )
 {
-nsCAutoString
+nsAutoCString
 tld
 (
 host

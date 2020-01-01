@@ -468,7 +468,7 @@ n
 stderr
 )
 ;
-nsCAutoString
+nsAutoCString
 out
 (
 "

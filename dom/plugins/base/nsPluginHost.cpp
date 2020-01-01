@@ -1212,7 +1212,7 @@ nsCString
 aTypeList
 )
 {
-nsCAutoString
+nsAutoCString
 searchStr
 ;
 searchStr
@@ -1259,7 +1259,7 @@ EndReading
 end
 )
 ;
-nsCAutoString
+nsAutoCString
 commaSeparated
 ;
 commaSeparated
@@ -2384,7 +2384,7 @@ res
 return
 res
 ;
-nsCAutoString
+nsAutoCString
 uaString
 ;
 res
@@ -3501,7 +3501,7 @@ res
 return
 res
 ;
-nsCAutoString
+nsAutoCString
 host
 type
 ;
@@ -4163,7 +4163,7 @@ aOwner
 #
 ifdef
 PLUGIN_LOGGING
-nsCAutoString
+nsAutoCString
 urlSpec
 ;
 if
@@ -4548,7 +4548,7 @@ bCanHandleInternally
 =
 false
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 if
@@ -4568,7 +4568,7 @@ scheme
 )
 )
 {
-nsCAutoString
+nsAutoCString
 contractID
 (
 NS_NETWORK_PROTOCOL_CONTRACTID_PREFIX
@@ -4778,7 +4778,7 @@ aOwner
 #
 ifdef
 PLUGIN_LOGGING
-nsCAutoString
+nsAutoCString
 urlSpec2
 ;
 if
@@ -4874,7 +4874,7 @@ aStreamListener
 #
 ifdef
 PLUGIN_LOGGING
-nsCAutoString
+nsAutoCString
 urlSpec
 ;
 aURI
@@ -5393,7 +5393,7 @@ aOwner
 #
 ifdef
 PLUGIN_LOGGING
-nsCAutoString
+nsAutoCString
 urlSpec
 ;
 if
@@ -5498,7 +5498,7 @@ url
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 fileExtension
 ;
 url
@@ -5688,7 +5688,7 @@ Cancel
 #
 ifdef
 PLUGIN_LOGGING
-nsCAutoString
+nsAutoCString
 urlSpec2
 ;
 if
@@ -8065,7 +8065,7 @@ nsACString
 mimeType
 )
 {
-nsCAutoString
+nsAutoCString
 mimeTypeToRemove
 (
 mimeType
@@ -9031,7 +9031,7 @@ false
 #
 ifdef
 PLUGIN_LOGGING
-nsCAutoString
+nsAutoCString
 dirPath
 ;
 pluginsDir
@@ -11605,7 +11605,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 filename
 (
 kPluginRegistryFilename
@@ -11699,7 +11699,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCAutoString
+nsAutoCString
 arch
 ;
 rv
@@ -12717,7 +12717,7 @@ return
 rv
 ;
 }
-nsCAutoString
+nsAutoCString
 arch
 ;
 if
@@ -12834,7 +12834,7 @@ char
 *
 fullpath
 ;
-nsCAutoString
+nsAutoCString
 derivedFileName
 ;
 if
@@ -14571,16 +14571,16 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
-nsCAutoString
+nsAutoCString
 headersString
 ;
-nsCAutoString
+nsAutoCString
 oneHeader
 ;
-nsCAutoString
+nsAutoCString
 headerName
 ;
-nsCAutoString
+nsAutoCString
 headerValue
 ;
 int32_t
@@ -16880,7 +16880,7 @@ rv
 int64_t
 fileSize
 ;
-nsCAutoString
+nsAutoCString
 filename
 ;
 nsCOMPtr
@@ -17050,7 +17050,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 inFileName
 ;
 inFile

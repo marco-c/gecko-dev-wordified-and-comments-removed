@@ -457,7 +457,7 @@ aHostURI
 uriParams
 )
 ;
-nsCAutoString
+nsAutoCString
 result
 ;
 SendGetCookieString

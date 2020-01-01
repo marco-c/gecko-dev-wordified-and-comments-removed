@@ -1297,7 +1297,7 @@ nsString
 deviceID
 vendorID
 ;
-nsCAutoString
+nsAutoCString
 narrowDeviceID
 narrowVendorID
 ;
@@ -1383,7 +1383,7 @@ socorro
 db
 *
 /
-nsCAutoString
+nsAutoCString
 note
 ;
 /

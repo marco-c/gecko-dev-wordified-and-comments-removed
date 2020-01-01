@@ -4556,7 +4556,7 @@ MarkedForDeath
 return
 PL_DHASH_NEXT
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 aBinding

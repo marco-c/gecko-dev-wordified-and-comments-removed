@@ -720,7 +720,7 @@ popupFrameElement
 false
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 if

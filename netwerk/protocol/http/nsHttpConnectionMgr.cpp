@@ -2720,7 +2720,7 @@ nsISSLSocketControl
 >
 sslSocketControl
 ;
-nsCAutoString
+nsAutoCString
 negotiatedNPN
 ;
 activeSpdy
@@ -4663,7 +4663,7 @@ precondition
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 int32_t

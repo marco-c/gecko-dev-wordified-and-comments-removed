@@ -1963,7 +1963,7 @@ if
 runtime
 )
 {
-nsCAutoString
+nsAutoCString
 os
 ;
 DebugOnly

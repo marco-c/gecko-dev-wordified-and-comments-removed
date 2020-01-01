@@ -4133,7 +4133,7 @@ info
 h
 )
 {
-nsCAutoString
+nsAutoCString
 actualName
 ;
 AddonHistogramName
@@ -5352,7 +5352,7 @@ pcCount
 pcIndex
 )
 {
-nsCAutoString
+nsAutoCString
 pcString
 ;
 const
@@ -5576,7 +5576,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCAutoString
+nsAutoCString
 addressString
 ;
 addressString
@@ -6811,7 +6811,7 @@ mCanRecord
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 fullSQL
 (
 sql
@@ -6854,7 +6854,7 @@ if
 isFirefoxDB
 )
 {
-nsCAutoString
+nsAutoCString
 sanitizedSQL
 (
 SanitizeSQL
@@ -6873,7 +6873,7 @@ Sanitized
 }
 else
 {
-nsCAutoString
+nsAutoCString
 aggregate
 ;
 aggregate

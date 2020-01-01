@@ -129,7 +129,7 @@ NS_ENSURE_ARG
 aFile
 )
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 aFile
@@ -214,7 +214,7 @@ pathName
 ;
 #
 else
-nsCAutoString
+nsAutoCString
 pathName
 leafName
 rootName

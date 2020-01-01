@@ -899,7 +899,7 @@ AsSharedUTF8String
 valueLen
 )
 ;
-nsCAutoString
+nsAutoCString
 fullKey
 (
 clientID
@@ -1083,7 +1083,7 @@ defined
 (
 PR_LOGGING
 )
-nsCAutoString
+nsAutoCString
 path
 ;
 mItems
@@ -1307,7 +1307,7 @@ char
 usageReport
 )
 {
-nsCAutoString
+nsAutoCString
 buffer
 ;
 buffer
@@ -1645,7 +1645,7 @@ file
 return
 nullptr
 ;
-nsCAutoString
+nsAutoCString
 keyBuf
 ;
 const
@@ -3570,7 +3570,7 @@ nsCacheEntry
 entry
 )
 {
-nsCAutoString
+nsAutoCString
 keyBuf
 ;
 const
@@ -3996,7 +3996,7 @@ uint32_t
 newSize
 )
 {
-nsCAutoString
+nsAutoCString
 keyBuf
 ;
 const
@@ -4181,7 +4181,7 @@ return
 rv
 ;
 }
-nsCAutoString
+nsAutoCString
 keyBuf
 ;
 const
@@ -5651,7 +5651,7 @@ while
 hasRows
 )
 {
-nsCAutoString
+nsAutoCString
 group
 ;
 statement
@@ -6215,7 +6215,7 @@ get
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 keyBuf
 ;
 const
@@ -6747,7 +6747,7 @@ Data
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 keyBuf
 ;
 const
@@ -10622,7 +10622,7 @@ clientID
 )
 )
 {
-nsCAutoString
+nsAutoCString
 groupID
 ;
 nsresult
@@ -10812,7 +10812,7 @@ ITEM_FOREIGN
 )
 )
 {
-nsCAutoString
+nsAutoCString
 clientID
 ;
 rv
@@ -10947,7 +10947,7 @@ NAMESPACE_BYPASS
 )
 )
 {
-nsCAutoString
+nsAutoCString
 clientID
 ;
 rv
@@ -11030,7 +11030,7 @@ cache
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 clientID
 ;
 rv
@@ -11511,7 +11511,7 @@ RemoveCustomOfflineDevice
 this
 )
 ;
-nsCAutoString
+nsAutoCString
 clientID
 ;
 aAppCache

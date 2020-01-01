@@ -1097,7 +1097,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 NS_CopyUnicodeToNative
@@ -1242,7 +1242,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 nativeArg
 ;
 NS_CopyUnicodeToNative
@@ -1251,7 +1251,7 @@ aArgument
 nativeArg
 )
 ;
-nsCAutoString
+nsAutoCString
 newpath
 ;
 mWorkingDir
@@ -1498,7 +1498,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 fullPath
 ;
 mWorkingDir
@@ -1509,7 +1509,7 @@ GetNativePath
 fullPath
 )
 ;
-nsCAutoString
+nsAutoCString
 carg
 ;
 NS_CopyUnicodeToNative
@@ -1706,7 +1706,7 @@ Normalize
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 url
 ;
 resolveShortcutURL
@@ -2381,7 +2381,7 @@ strenum
 NS_ERROR_UNEXPECTED
 )
 ;
-nsCAutoString
+nsAutoCString
 entry
 ;
 bool
@@ -2636,7 +2636,7 @@ strenum
 NS_ERROR_UNEXPECTED
 )
 ;
-nsCAutoString
+nsAutoCString
 entry
 ;
 bool

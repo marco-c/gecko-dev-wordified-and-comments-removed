@@ -212,7 +212,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 hashed
 ;
 rv

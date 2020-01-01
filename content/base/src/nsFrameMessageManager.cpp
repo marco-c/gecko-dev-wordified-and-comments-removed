@@ -3296,7 +3296,7 @@ scriptError
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 error
 ;
 error
@@ -4278,7 +4278,7 @@ if
 script
 )
 {
-nsCAutoString
+nsAutoCString
 scheme
 ;
 uri

@@ -715,7 +715,7 @@ IsEmpty
 mURI
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 if

@@ -255,7 +255,7 @@ httpChannel
 return
 NS_ERROR_NO_INTERFACE
 ;
-nsCAutoString
+nsAutoCString
 contentEncoding
 ;
 httpChannel
@@ -752,7 +752,7 @@ channel
 return
 NS_ERROR_NO_INTERFACE
 ;
-nsCAutoString
+nsAutoCString
 method
 ;
 channel
@@ -803,7 +803,7 @@ originalURI
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 originalURI
@@ -838,7 +838,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 contentType
 ;
 channel
@@ -873,7 +873,7 @@ if
 noSniff
 )
 {
-nsCAutoString
+nsAutoCString
 sniffHeader
 ;
 nsresult

@@ -2385,7 +2385,7 @@ nsNSSSocketInfo
 socketInfo
 )
 {
-nsCAutoString
+nsAutoCString
 key
 ;
 getSiteKey
@@ -2468,7 +2468,7 @@ IsTLSEnabled
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 key
 ;
 getSiteKey
@@ -9596,7 +9596,7 @@ true
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 key
 ;
 key

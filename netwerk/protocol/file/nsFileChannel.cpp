@@ -857,7 +857,7 @@ nsIURI
 >
 targetURI
 ;
-nsCAutoString
+nsAutoCString
 fileTarget
 ;
 nsCOMPtr
@@ -1418,7 +1418,7 @@ APPLICATION_OCTET_STREAM
 }
 else
 {
-nsCAutoString
+nsAutoCString
 contentType
 ;
 rv

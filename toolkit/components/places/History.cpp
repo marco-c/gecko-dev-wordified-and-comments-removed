@@ -5009,7 +5009,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 destinationURISpec
 ;
 rv
@@ -6206,7 +6206,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 guid
 (
 aPlace

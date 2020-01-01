@@ -10386,7 +10386,7 @@ result
 =
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 key
 ;
 nsCOMPtr
@@ -10606,7 +10606,7 @@ nsIFormControl
 aControl
 )
 {
-nsCAutoString
+nsAutoCString
 key
 ;
 nsCOMPtr
@@ -14253,7 +14253,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -14609,7 +14609,7 @@ if
 attrURI
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 attrURI

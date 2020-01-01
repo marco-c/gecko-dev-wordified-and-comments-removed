@@ -288,7 +288,7 @@ nsCString
 >
 ;
 }
-nsCAutoString
+nsAutoCString
 featureString
 ;
 featureString

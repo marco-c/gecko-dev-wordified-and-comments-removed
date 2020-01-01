@@ -1604,7 +1604,7 @@ LOG_ENABLED
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 mCurrentNode
@@ -2201,7 +2201,7 @@ LOG_ENABLED
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 aURI
@@ -2446,7 +2446,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 query
 ;
 rv
@@ -2825,7 +2825,7 @@ nsAString
 aURI
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsresult

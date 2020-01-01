@@ -3296,7 +3296,7 @@ uri
 uri
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 if

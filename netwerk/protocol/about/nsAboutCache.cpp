@@ -1530,7 +1530,7 @@ rv
 uint32_t
 bytesWritten
 ;
-nsCAutoString
+nsAutoCString
 key
 ;
 nsXPIDLCString
@@ -1603,7 +1603,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 url
 ;
 url
@@ -2075,7 +2075,7 @@ Truncate
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 rv

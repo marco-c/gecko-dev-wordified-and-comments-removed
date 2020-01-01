@@ -337,7 +337,7 @@ height
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -348,7 +348,7 @@ GetSpec
 spec
 )
 ;
-nsCAutoString
+nsAutoCString
 type
 ;
 nsRefPtr
@@ -432,7 +432,7 @@ frameLimit
 =
 1
 ;
-nsCAutoString
+nsAutoCString
 buffer
 ;
 extractAttributeValue
@@ -634,7 +634,7 @@ captureVideo
 =
 true
 ;
-nsCAutoString
+nsAutoCString
 buffer
 ;
 extractAttributeValue

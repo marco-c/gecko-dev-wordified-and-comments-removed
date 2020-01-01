@@ -1000,7 +1000,7 @@ a
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 addList
 ;
 adds
@@ -1058,7 +1058,7 @@ s
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 subList
 ;
 subs
@@ -1290,7 +1290,7 @@ LOG_ENABLED
 )
 )
 {
-nsCAutoString
+nsAutoCString
 checking
 ;
 lookupHash

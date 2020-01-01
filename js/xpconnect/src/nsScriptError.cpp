@@ -94,7 +94,7 @@ result
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 message
 ;
 rv

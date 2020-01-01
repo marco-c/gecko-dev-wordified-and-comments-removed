@@ -4740,7 +4740,7 @@ eCSSUnit_EnumColor
 unit
 )
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 if

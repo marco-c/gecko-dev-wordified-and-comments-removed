@@ -664,7 +664,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 ranges
 ;
 hc
@@ -703,7 +703,7 @@ mOffset
 0
 )
 {
-nsCAutoString
+nsAutoCString
 durationText
 ;
 nsresult
@@ -1997,7 +1997,7 @@ if
 hc
 )
 {
-nsCAutoString
+nsAutoCString
 rangeString
 (
 "

@@ -820,7 +820,7 @@ cname
 mName
 )
 ;
-nsCAutoString
+nsAutoCString
 functionUri
 (
 aClassStr

@@ -306,7 +306,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 uriSpec
 ;
 aURI

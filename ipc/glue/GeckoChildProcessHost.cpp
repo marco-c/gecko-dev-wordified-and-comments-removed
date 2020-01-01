@@ -1637,7 +1637,7 @@ arch
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 setChildLogName
 (
 "
@@ -2511,7 +2511,7 @@ IsInitialized
 )
 )
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 nsCOMPtr

@@ -1374,7 +1374,7 @@ index
 +
 )
 {
-nsCAutoString
+nsAutoCString
 contractID
 (
 contractPrefix

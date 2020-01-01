@@ -1424,7 +1424,7 @@ kCharsetUninitialized
 requestCharsetSource
 )
 {
-nsCAutoString
+nsAutoCString
 requestCharset
 ;
 rv
@@ -1521,7 +1521,7 @@ aCharsetSource
 return
 true
 ;
-nsCAutoString
+nsAutoCString
 forceCharsetFromDocShell
 ;
 if
@@ -2039,7 +2039,7 @@ aCharsetSource
 return
 true
 ;
-nsCAutoString
+nsAutoCString
 defaultCharsetFromDocShell
 ;
 if
@@ -2239,7 +2239,7 @@ return
 NS_ERROR_DOM_INVALID_STATE_ERR
 ;
 }
-nsCAutoString
+nsAutoCString
 contentType
 ;
 aChannel
@@ -2549,7 +2549,7 @@ isAbout
 isAbout
 )
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 uri
@@ -2970,7 +2970,7 @@ true
 ;
 }
 }
-nsCAutoString
+nsAutoCString
 urlSpec
 ;
 uri
@@ -3007,13 +3007,13 @@ endif
 int32_t
 charsetSource
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 int32_t
 parserCharsetSource
 ;
-nsCAutoString
+nsAutoCString
 parserCharset
 ;
 nsCOMPtr
@@ -3236,7 +3236,7 @@ if
 httpChannel
 )
 {
-nsCAutoString
+nsAutoCString
 methodStr
 ;
 rv
@@ -3282,7 +3282,7 @@ kCharsetFromHintPrevDoc
 charsetSource
 )
 {
-nsCAutoString
+nsAutoCString
 requestCharset
 ;
 muCV
@@ -3336,7 +3336,7 @@ kCharsetFromChannel
 :
 charsetSource
 ;
-nsCAutoString
+nsAutoCString
 cachedCharset
 ;
 int32_t
@@ -3987,7 +3987,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCAutoString
+nsAutoCString
 hostName
 ;
 if
@@ -4070,7 +4070,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCAutoString
+nsAutoCString
 newURIString
 ;
 if
@@ -4089,7 +4089,7 @@ newURIString
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 if
@@ -4155,7 +4155,7 @@ newURIString
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 current
 domain
 ;
@@ -4273,7 +4273,7 @@ tldService
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-nsCAutoString
+nsAutoCString
 currentBaseDomain
 ;
 ok
@@ -4382,7 +4382,7 @@ nsAString
 aURL
 )
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 if
@@ -5658,7 +5658,7 @@ return
 NS_ERROR_DOM_INVALID_STATE_ERR
 ;
 }
-nsCAutoString
+nsAutoCString
 contentType
 ;
 contentType
@@ -5691,7 +5691,7 @@ aContentTypeOrUrl
 type
 )
 ;
-nsCAutoString
+nsAutoCString
 actualType
 dummy
 ;
@@ -5988,10 +5988,10 @@ GetDocumentURI
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 callerSpec
 ;
-nsCAutoString
+nsAutoCString
 thisSpec
 ;
 if
@@ -9130,7 +9130,7 @@ rv
 =
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 url
 originalSpec
 ;
@@ -13092,7 +13092,7 @@ nsACString
 outCommandID
 )
 {
-nsCAutoString
+nsAutoCString
 dummyCString
 ;
 nsAutoString
@@ -13378,7 +13378,7 @@ _retval
 =
 false
 ;
-nsCAutoString
+nsAutoCString
 cmdToDispatch
 paramStr
 ;
@@ -13838,7 +13838,7 @@ _retval
 =
 false
 ;
-nsCAutoString
+nsAutoCString
 cmdToDispatch
 ;
 if
@@ -13938,7 +13938,7 @@ _retval
 =
 false
 ;
-nsCAutoString
+nsAutoCString
 cmdToDispatch
 ;
 if
@@ -14081,7 +14081,7 @@ _retval
 =
 false
 ;
-nsCAutoString
+nsAutoCString
 cmdToDispatch
 paramToCheck
 ;
@@ -14333,7 +14333,7 @@ NS_ENSURE_ARG_POINTER
 _retval
 )
 ;
-nsCAutoString
+nsAutoCString
 cmdToDispatch
 ;
 *
@@ -14371,7 +14371,7 @@ SetLength
 0
 )
 ;
-nsCAutoString
+nsAutoCString
 cmdToDispatch
 paramStr
 ;

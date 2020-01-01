@@ -1170,7 +1170,7 @@ channel
 NS_ERROR_UNEXPECTED
 )
 ;
-nsCAutoString
+nsAutoCString
 contentType
 ;
 nsresult
@@ -2860,7 +2860,7 @@ channel
 mChannel
 ;
 }
-nsCAutoString
+nsAutoCString
 charsetVal
 ;
 nsresult
@@ -3665,7 +3665,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 contentType
 ;
 if
@@ -5435,7 +5435,7 @@ mChannel
 return
 ;
 }
-nsCAutoString
+nsAutoCString
 value
 ;
 if
@@ -6008,7 +6008,7 @@ if
 safeHeader
 )
 {
-nsCAutoString
+nsAutoCString
 headerVal
 ;
 httpChannel
@@ -6697,7 +6697,7 @@ httpChannel
 NS_ERROR_DOM_BAD_URI
 )
 ;
-nsCAutoString
+nsAutoCString
 method
 ;
 httpChannel
@@ -7283,7 +7283,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 userpass
 ;
 CopyUTF16toUTF8
@@ -8045,7 +8045,7 @@ if
 file
 )
 {
-nsCAutoString
+nsAutoCString
 contentType
 ;
 mChannel
@@ -8756,7 +8756,7 @@ parseBody
 httpChannel
 )
 {
-nsCAutoString
+nsAutoCString
 method
 ;
 httpChannel
@@ -8803,7 +8803,7 @@ status
 )
 )
 {
-nsCAutoString
+nsAutoCString
 type
 ;
 channel
@@ -9492,7 +9492,7 @@ nullptr
 }
 else
 {
-nsCAutoString
+nsAutoCString
 contentType
 ;
 mChannel
@@ -11423,7 +11423,7 @@ loadFlags
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 method
 ;
 nsCOMPtr
@@ -11750,10 +11750,10 @@ GET
 )
 )
 {
-nsCAutoString
+nsAutoCString
 charset
 ;
-nsCAutoString
+nsAutoCString
 defaultContentType
 ;
 nsCOMPtr
@@ -11787,7 +11787,7 @@ if
 postDataStream
 )
 {
-nsCAutoString
+nsAutoCString
 contentType
 ;
 if
@@ -11834,7 +11834,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 specifiedCharset
 ;
 bool
@@ -11934,7 +11934,7 @@ nsCaseInsensitiveCStringComparator
 )
 )
 {
-nsCAutoString
+nsAutoCString
 newCharset
 (
 "
@@ -12130,7 +12130,7 @@ if
 httpChannel
 )
 {
-nsCAutoString
+nsAutoCString
 contentTypeHeader
 ;
 rv
@@ -12159,7 +12159,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 contentType
 charset
 ;
@@ -12485,7 +12485,7 @@ LOAD_BYPASS_LOCAL_CACHE_IF_BUSY
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 contentType
 ;
 if

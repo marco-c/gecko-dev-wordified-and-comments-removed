@@ -1027,7 +1027,7 @@ uint32_t
 bitmapDataLength
 strideSize
 ;
-nsCAutoString
+nsAutoCString
 encoderCID
 (
 NS_LITERAL_CSTRING

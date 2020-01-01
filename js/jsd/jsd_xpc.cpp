@@ -1188,7 +1188,7 @@ rv
 return
 false
 ;
-nsCAutoString
+nsAutoCString
 urlPattern
 ;
 rv
@@ -2417,7 +2417,7 @@ jsdv
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 fileName
 ;
 uint32_t

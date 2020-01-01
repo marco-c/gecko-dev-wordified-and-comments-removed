@@ -1895,7 +1895,7 @@ mLangGroup
 =
 langGroupAtom
 ;
-nsCAutoString
+nsAutoCString
 langGroup
 ;
 langGroupAtom
@@ -1930,7 +1930,7 @@ CSSPixelsToAppUnits
 13
 )
 ;
-nsCAutoString
+nsAutoCString
 pref
 ;
 enum
@@ -2171,7 +2171,7 @@ correct
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 generic_dot_langGroup
 ;
 for

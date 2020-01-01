@@ -909,7 +909,7 @@ get
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 filteredSpec
 ;
 int32_t
@@ -950,7 +950,7 @@ Length
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 NS_EscapeURL
@@ -2096,7 +2096,7 @@ nsACString
 result
 )
 {
-nsCAutoString
+nsAutoCString
 buf
 ;
 nsresult

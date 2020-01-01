@@ -1711,7 +1711,7 @@ MOZ_DEBUG_SHADERS
 endif
 )
 {
-nsCAutoString
+nsAutoCString
 log
 ;
 log
@@ -2017,7 +2017,7 @@ MOZ_DEBUG_SHADERS
 endif
 )
 {
-nsCAutoString
+nsAutoCString
 log
 ;
 log

@@ -2595,7 +2595,7 @@ hasMore
 hasMore
 )
 {
-nsCAutoString
+nsAutoCString
 entryString
 ;
 if

@@ -40654,7 +40654,7 @@ aResult
 int32_t
 totalContentLength
 ;
-nsCAutoString
+nsAutoCString
 tmp
 ;
 ToCString

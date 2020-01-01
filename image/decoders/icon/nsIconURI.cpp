@@ -233,7 +233,7 @@ if
 mIconURL
 )
 {
-nsCAutoString
+nsAutoCString
 fileIconSpec
 ;
 nsresult
@@ -636,7 +636,7 @@ mIconState
 -
 1
 ;
-nsCAutoString
+nsAutoCString
 iconSpec
 (
 aSpec
@@ -714,7 +714,7 @@ contentType
 mContentType
 )
 ;
-nsCAutoString
+nsAutoCString
 sizeString
 ;
 extractAttributeValue
@@ -815,7 +815,7 @@ mSize
 sizeValue
 ;
 }
-nsCAutoString
+nsAutoCString
 stateString
 ;
 extractAttributeValue
@@ -931,7 +931,7 @@ pathLength
 return
 NS_ERROR_MALFORMED_URI
 ;
-nsCAutoString
+nsAutoCString
 iconPath
 (
 Substring
@@ -1452,10 +1452,10 @@ pointer
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 spec1
 ;
-nsCAutoString
+nsAutoCString
 spec2
 ;
 other
@@ -1950,7 +1950,7 @@ if
 mIconURL
 )
 {
-nsCAutoString
+nsAutoCString
 fileExt
 ;
 if

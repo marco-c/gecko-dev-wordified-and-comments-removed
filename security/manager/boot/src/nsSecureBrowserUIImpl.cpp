@@ -5931,7 +5931,7 @@ if
 aURI
 )
 {
-nsCAutoString
+nsAutoCString
 temp
 ;
 aURI

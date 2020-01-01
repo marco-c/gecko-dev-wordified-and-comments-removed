@@ -1046,7 +1046,7 @@ exists
 exists
 )
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 if

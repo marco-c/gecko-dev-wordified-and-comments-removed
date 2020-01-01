@@ -11214,7 +11214,7 @@ IsValid
 return
 false
 ;
-nsCAutoString
+nsAutoCString
 result
 ;
 if
@@ -11354,7 +11354,7 @@ IsValid
 return
 false
 ;
-nsCAutoString
+nsAutoCString
 result
 ;
 if

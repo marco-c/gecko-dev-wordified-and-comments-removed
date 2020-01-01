@@ -6049,7 +6049,7 @@ kDefaultIsSmoothEnabled
 =
 true
 ;
-nsCAutoString
+nsAutoCString
 originName
 ;
 aOrigin
@@ -6060,7 +6060,7 @@ ToUTF8String
 originName
 )
 ;
-nsCAutoString
+nsAutoCString
 prefBase
 =
 NS_LITERAL_CSTRING
@@ -6095,7 +6095,7 @@ if
 isOriginSmoothnessEnabled
 )
 {
-nsCAutoString
+nsAutoCString
 prefMin
 =
 prefBase
@@ -6108,7 +6108,7 @@ durationMinMS
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 prefMax
 =
 prefBase

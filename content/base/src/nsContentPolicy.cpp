@@ -181,7 +181,7 @@ uri
 )
 {
 \
-nsCAutoString
+nsAutoCString
 spec
 ;
 \
@@ -589,7 +589,7 @@ ptr
 \
 }
 \
-nsCAutoString
+nsAutoCString
 spec
 (
 "
@@ -615,7 +615,7 @@ spec
 \
 }
 \
-nsCAutoString
+nsAutoCString
 refSpec
 (
 "

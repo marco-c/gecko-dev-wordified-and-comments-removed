@@ -1211,7 +1211,7 @@ txt
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 nativePath
 ;
 nsresult

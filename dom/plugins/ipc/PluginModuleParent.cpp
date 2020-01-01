@@ -2062,7 +2062,7 @@ nsIFile
 >
 dumpFile
 ;
-nsCAutoString
+nsAutoCString
 flashProcessType
 ;
 TakeMinidump

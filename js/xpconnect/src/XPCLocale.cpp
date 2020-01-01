@@ -589,7 +589,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 charset
 ;
 rv

@@ -155,7 +155,7 @@ nsIToolkitProfile
 >
 newProfile
 ;
-nsCAutoString
+nsAutoCString
 newProfileName
 (
 "

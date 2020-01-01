@@ -2742,7 +2742,7 @@ GetDocumentURI
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 asciiSpec
 ;
 uri
@@ -3746,7 +3746,7 @@ aRequest
 >
 mElement
 ;
-nsCAutoString
+nsAutoCString
 url
 ;
 nsContentUtils
@@ -4520,7 +4520,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 characterSet
 ;
 nsresult

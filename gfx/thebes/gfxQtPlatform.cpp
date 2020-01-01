@@ -1763,7 +1763,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 utf8Name
 =
 NS_ConvertUTF16toUTF8

@@ -254,7 +254,7 @@ if
 uri
 )
 {
-nsCAutoString
+nsAutoCString
 uriSpec
 ;
 uri

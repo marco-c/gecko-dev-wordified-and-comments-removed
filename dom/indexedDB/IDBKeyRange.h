@@ -311,7 +311,7 @@ lowerKey
 }
 else
 {
-nsCAutoString
+nsAutoCString
 clause
 ;
 if

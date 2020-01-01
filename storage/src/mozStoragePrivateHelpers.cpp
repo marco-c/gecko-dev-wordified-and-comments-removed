@@ -243,7 +243,7 @@ NS_ERROR_STORAGE_CONSTRAINT
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 message
 ;
 message
@@ -355,7 +355,7 @@ bug
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 message
 ;
 message

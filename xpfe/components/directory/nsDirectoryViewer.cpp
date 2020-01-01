@@ -1243,7 +1243,7 @@ uri
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 entryuriC
 ;
 uri
@@ -1620,7 +1620,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsCAutoString
+nsAutoCString
 entryuriC
 (
 baseStr

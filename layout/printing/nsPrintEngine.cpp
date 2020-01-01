@@ -5007,7 +5007,7 @@ exposableURI
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 urlCStr
 ;
 exposableURI
@@ -6348,7 +6348,7 @@ aIsPrinting
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 stringName
 ;
 switch

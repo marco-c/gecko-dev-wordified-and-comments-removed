@@ -4954,7 +4954,7 @@ IsEmpty
 )
 continue
 ;
-nsCAutoString
+nsAutoCString
 fullURI
 ;
 fullURI
@@ -5018,7 +5018,7 @@ escLeafStr
 )
 continue
 ;
-nsCAutoString
+nsAutoCString
 leaf
 (
 escLeafStr
@@ -6246,7 +6246,7 @@ rv
 nsAutoString
 line
 ;
-nsCAutoString
+nsAutoCString
 cLine
 ;
 while

@@ -733,7 +733,7 @@ NS_ENSURE_ARG_POINTER
 aTarget
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 aTarget
@@ -1000,7 +1000,7 @@ GetDesktopWindow
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 rootSpec
 ;
 nsCOMPtr
@@ -1110,7 +1110,7 @@ uri
 )
 continue
 ;
-nsCAutoString
+nsAutoCString
 subURI
 ;
 if
@@ -1271,7 +1271,7 @@ nsIFile
 aTarget
 )
 {
-nsCAutoString
+nsAutoCString
 curi
 ;
 if
@@ -1320,7 +1320,7 @@ info
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 asciiAppName
 ;
 if

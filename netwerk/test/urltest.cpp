@@ -312,7 +312,7 @@ do_QueryInterface
 pURL
 )
 ;
-nsCAutoString
+nsAutoCString
 temp
 ;
 int32_t
@@ -1181,7 +1181,7 @@ status
 return
 status
 ;
-nsCAutoString
+nsAutoCString
 newURL
 ;
 status
@@ -1208,7 +1208,7 @@ status
 return
 status
 ;
-nsCAutoString
+nsAutoCString
 temp
 ;
 baseURL

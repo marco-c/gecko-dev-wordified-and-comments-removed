@@ -365,7 +365,7 @@ mCaps
 =
 aCaps
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 int32_t
@@ -547,7 +547,7 @@ nsHttp
 Get
 )
 ;
-nsCAutoString
+nsAutoCString
 hostLine
 ;
 rv
@@ -1105,7 +1105,7 @@ mResponseHead
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-nsCAutoString
+nsAutoCString
 contentTypeBuf
 charsetBuf
 ;
@@ -1532,7 +1532,7 @@ if
 stream
 )
 {
-nsCAutoString
+nsAutoCString
 method
 ;
 bool
@@ -1714,7 +1714,7 @@ if
 aStreamHasHeaders
 )
 {
-nsCAutoString
+nsAutoCString
 contentLengthStr
 ;
 contentLengthStr
@@ -1916,7 +1916,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 contentEncoding
 ;
 char
@@ -2093,7 +2093,7 @@ nsIStreamListener
 >
 converter
 ;
-nsCAutoString
+nsAutoCString
 from
 (
 val
@@ -3032,7 +3032,7 @@ if
 match
 )
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -3097,7 +3097,7 @@ kNotFound
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 referrer
@@ -3311,10 +3311,10 @@ SendSecureXSiteReferrer
 )
 )
 {
-nsCAutoString
+nsAutoCString
 referrerHost
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 rv
@@ -3423,7 +3423,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv
@@ -5090,7 +5090,7 @@ size
 =
 LL_MAXUINT
 ;
-nsCAutoString
+nsAutoCString
 etag
 lastmod
 ;

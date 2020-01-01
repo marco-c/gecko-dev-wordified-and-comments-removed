@@ -1066,7 +1066,7 @@ nsIRDFDataSource
 >
 ds
 ;
-nsCAutoString
+nsAutoCString
 uristrC
 ;
 uri
@@ -1106,7 +1106,7 @@ rv
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 msg
 ;
 msg
@@ -4327,7 +4327,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 targetstrC
 ;
 targetstrC
@@ -5252,7 +5252,7 @@ ToString
 tagstr
 )
 ;
-nsCAutoString
+nsAutoCString
 tagstrC
 ;
 tagstrC

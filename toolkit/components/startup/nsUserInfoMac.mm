@@ -197,7 +197,7 @@ aUsername
 )
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
-nsCAutoString
+nsAutoCString
 username
 (
 [
@@ -362,7 +362,7 @@ char
 aEmailAddress
 )
 {
-nsCAutoString
+nsAutoCString
 email
 ;
 if
@@ -399,7 +399,7 @@ char
 aDomain
 )
 {
-nsCAutoString
+nsAutoCString
 email
 ;
 if

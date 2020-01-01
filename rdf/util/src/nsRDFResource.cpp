@@ -600,7 +600,7 @@ entry
 mNext
 ;
 }
-nsCAutoString
+nsAutoCString
 contractID
 (
 NS_RDF_DELEGATEFACTORY_CONTRACTID_PREFIX

@@ -2592,7 +2592,7 @@ NSGetFactory_val
 JSTYPE_FUNCTION
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -3164,7 +3164,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCAutoString
+nsAutoCString
 nativePath
 ;
 rv
@@ -3246,7 +3246,7 @@ GetSingleton
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 cachePath
 (
 kJSCachePrefix
@@ -5139,7 +5139,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 key
 ;
 rv
@@ -5506,7 +5506,7 @@ get
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 logBuffer
 ;
 #
@@ -5951,7 +5951,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 key
 ;
 rv

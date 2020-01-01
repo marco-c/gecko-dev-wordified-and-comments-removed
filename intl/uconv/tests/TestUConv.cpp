@@ -90,7 +90,7 @@ char
 *
 kTraceDelimiter
 ;
-nsCAutoString
+nsAutoCString
 mTrace
 ;
 public
@@ -562,7 +562,7 @@ HasMore
 hasMore
 )
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 while
@@ -868,7 +868,7 @@ while
 hasMore
 )
 {
-nsCAutoString
+nsAutoCString
 detectorName
 ;
 res
@@ -1196,7 +1196,7 @@ nsCString
 >
 allCharsets
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 bool

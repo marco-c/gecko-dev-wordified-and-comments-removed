@@ -818,7 +818,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 omniJarSpec
 ;
 if

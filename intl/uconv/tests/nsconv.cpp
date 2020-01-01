@@ -312,7 +312,7 @@ f
 0
 )
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 res
@@ -439,7 +439,7 @@ t
 0
 )
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 res

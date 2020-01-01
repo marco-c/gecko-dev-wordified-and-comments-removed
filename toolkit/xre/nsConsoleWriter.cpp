@@ -363,7 +363,7 @@ datetime
 nsXPIDLString
 msg
 ;
-nsCAutoString
+nsAutoCString
 nativemsg
 ;
 for

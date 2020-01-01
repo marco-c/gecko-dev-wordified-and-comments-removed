@@ -400,7 +400,7 @@ if
 mURI
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 mURI
@@ -991,7 +991,7 @@ PR_LOGGING
 )
 else
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 mURI
@@ -1612,7 +1612,7 @@ SizeOfData
 #
 ifdef
 DEBUG_joe
-nsCAutoString
+nsAutoCString
 url
 ;
 mURI
@@ -1816,7 +1816,7 @@ if
 bMustRevalidate
 )
 {
-nsCAutoString
+nsAutoCString
 cacheHeader
 ;
 httpChannel
@@ -4396,7 +4396,7 @@ contentType
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 disposition
 ;
 if
@@ -4627,7 +4627,7 @@ Image
 :
 INIT_FLAG_MULTIPART
 ;
-nsCAutoString
+nsAutoCString
 uriString
 ;
 rv
@@ -4729,7 +4729,7 @@ if
 httpChannel
 )
 {
-nsCAutoString
+nsAutoCString
 contentLength
 ;
 rv
@@ -5597,7 +5597,7 @@ defined
 (
 PR_LOGGING
 )
-nsCAutoString
+nsAutoCString
 oldspec
 ;
 if

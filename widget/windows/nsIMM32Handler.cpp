@@ -5385,7 +5385,7 @@ if
 useA_API
 )
 {
-nsCAutoString
+nsAutoCString
 compANSIStr
 ;
 if

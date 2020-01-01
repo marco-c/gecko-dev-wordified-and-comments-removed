@@ -2366,7 +2366,7 @@ mIOService
 return
 false
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 nsresult

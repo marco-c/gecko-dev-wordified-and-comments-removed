@@ -1413,7 +1413,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 leafName
 ;
 rv
@@ -1436,7 +1436,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 newName
 (
 leafName

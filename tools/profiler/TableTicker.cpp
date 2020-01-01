@@ -1720,7 +1720,7 @@ ofstream
 data
 )
 ;
-nsCAutoString
+nsAutoCString
 profile
 =
 NS_ConvertUTF16toUTF8
@@ -1816,7 +1816,7 @@ nsIFile
 >
 tmpFile
 ;
-nsCAutoString
+nsAutoCString
 tmpPath
 ;
 if
@@ -2326,7 +2326,7 @@ res
 )
 )
 {
-nsCAutoString
+nsAutoCString
 string
 ;
 res
@@ -2455,7 +2455,7 @@ if
 runtime
 )
 {
-nsCAutoString
+nsAutoCString
 string
 ;
 res
@@ -2553,7 +2553,7 @@ if
 appInfo
 )
 {
-nsCAutoString
+nsAutoCString
 string
 ;
 res

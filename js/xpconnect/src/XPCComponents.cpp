@@ -416,7 +416,7 @@ list
 ]
 )
 {
-nsCAutoString
+nsAutoCString
 asciiName
 ;
 CopyUTF16toUTF8
@@ -3515,7 +3515,7 @@ if
 holder
 )
 {
-nsCAutoString
+nsAutoCString
 name
 ;
 if
@@ -16073,7 +16073,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCAutoString
+nsAutoCString
 filenameBuf
 ;
 if

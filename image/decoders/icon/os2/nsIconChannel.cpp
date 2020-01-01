@@ -905,7 +905,7 @@ desiredImageSize
 nsXPIDLCString
 contentType
 ;
-nsCAutoString
+nsAutoCString
 filePath
 ;
 nsresult
@@ -2013,7 +2013,7 @@ file
 return
 0
 ;
-nsCAutoString
+nsAutoCString
 pathStr
 ;
 tempPath

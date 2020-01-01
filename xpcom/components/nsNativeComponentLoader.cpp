@@ -427,7 +427,7 @@ return
 NULL
 ;
 }
-nsCAutoString
+nsAutoCString
 filePath
 ;
 file
@@ -607,7 +607,7 @@ NULL
 #
 ifdef
 IMPLEMENT_BREAK_AFTER_LOAD
-nsCAutoString
+nsAutoCString
 leafName
 ;
 file
@@ -930,7 +930,7 @@ aHashedFile
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 filePath
 ;
 file

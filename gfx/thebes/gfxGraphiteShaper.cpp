@@ -818,7 +818,7 @@ mLanguageOverride
 }
 else
 {
-nsCAutoString
+nsAutoCString
 langString
 ;
 style

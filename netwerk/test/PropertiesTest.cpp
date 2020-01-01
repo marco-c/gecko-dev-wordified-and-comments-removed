@@ -593,7 +593,7 @@ return
 1
 ;
 }
-nsCAutoString
+nsAutoCString
 key
 ;
 nsAutoString

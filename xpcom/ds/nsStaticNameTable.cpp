@@ -661,7 +661,7 @@ index
 ifdef
 DEBUG
 {
-nsCAutoString
+nsAutoCString
 temp1
 (
 raw

@@ -2369,7 +2369,7 @@ DBOperationType
 aDBOperation
 )
 {
-nsCAutoString
+nsAutoCString
 host
 ;
 nsresult
@@ -3769,7 +3769,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 rv
@@ -4700,7 +4700,7 @@ nsIScriptSecurityManager
 NO_APP_ID
 )
 ;
-nsCAutoString
+nsAutoCString
 sql
 ;
 sql
@@ -4778,13 +4778,13 @@ Count
 i
 )
 {
-nsCAutoString
+nsAutoCString
 host
 ;
 bool
 isInBrowserElement
 ;
-nsCAutoString
+nsAutoCString
 type
 ;
 data
@@ -5272,7 +5272,7 @@ rv
 int64_t
 id
 ;
-nsCAutoString
+nsAutoCString
 host
 type
 ;
@@ -5616,7 +5616,7 @@ mDBConn
 true
 )
 ;
-nsCAutoString
+nsAutoCString
 buffer
 ;
 bool

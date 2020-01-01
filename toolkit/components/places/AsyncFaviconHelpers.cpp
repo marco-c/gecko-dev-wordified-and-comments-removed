@@ -1608,7 +1608,7 @@ NS_ENSURE_STATE
 snifferCIDSupports
 )
 ;
-nsCAutoString
+nsAutoCString
 snifferCID
 ;
 rv
@@ -1843,7 +1843,7 @@ thread
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 newData
 newMimeType
 ;
@@ -2773,7 +2773,7 @@ uint32_t
 aCount
 )
 {
-nsCAutoString
+nsAutoCString
 buffer
 ;
 nsresult
@@ -3609,7 +3609,7 @@ thread
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 pageSpec
 ;
 nsresult
@@ -3747,7 +3747,7 @@ thread
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 iconSpec
 ;
 nsresult
@@ -3865,7 +3865,7 @@ thread
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 pageSpec
 ;
 nsresult
@@ -4003,7 +4003,7 @@ thread
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 iconSpec
 ;
 nsresult

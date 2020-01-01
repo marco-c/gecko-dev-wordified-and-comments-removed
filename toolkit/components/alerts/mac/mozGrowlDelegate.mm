@@ -747,7 +747,7 @@ rv
 nil
 )
 ;
-nsCAutoString
+nsAutoCString
 appName
 ;
 rv

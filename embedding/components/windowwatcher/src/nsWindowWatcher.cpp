@@ -1885,7 +1885,7 @@ chromeFlags
 nsAutoString
 name
 ;
-nsCAutoString
+nsAutoCString
 features
 ;
 nsCOMPtr
@@ -3274,7 +3274,7 @@ if
 parentMuCV
 )
 {
-nsCAutoString
+nsAutoCString
 charset
 ;
 nsresult
@@ -6695,7 +6695,7 @@ found
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 options
 (
 aOptions

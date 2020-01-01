@@ -491,7 +491,7 @@ uri
 return
 NS_ERROR_INVALID_ARG
 ;
-nsCAutoString
+nsAutoCString
 utf8spec
 ;
 uri

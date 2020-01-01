@@ -2419,7 +2419,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 charXferString
 ;
 if
@@ -2582,7 +2582,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 entString
 (
 "
@@ -4477,7 +4477,7 @@ if
 mSerializer
 )
 {
-nsCAutoString
+nsAutoCString
 progId
 (
 NS_CONTENTSERIALIZER_CONTRACTID_PREFIX

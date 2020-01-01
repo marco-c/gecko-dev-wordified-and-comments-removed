@@ -319,7 +319,7 @@ data
 aData
 )
 ;
-nsCAutoString
+nsAutoCString
 binaryData
 ;
 nsresult
@@ -521,7 +521,7 @@ Truncate
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 binaryData
 (
 reinterpret_cast
@@ -535,7 +535,7 @@ mData
 mSize
 )
 ;
-nsCAutoString
+nsAutoCString
 base64Data
 ;
 nsresult

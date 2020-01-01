@@ -2984,7 +2984,7 @@ AdapterDeviceID
 narrowDeviceID
 )
 ;
-nsCAutoString
+nsAutoCString
 note
 ;
 note

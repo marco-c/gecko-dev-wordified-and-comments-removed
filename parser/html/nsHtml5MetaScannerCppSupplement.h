@@ -138,7 +138,7 @@ return
 false
 ;
 }
-nsCAutoString
+nsAutoCString
 encoding
 ;
 CopyUTF16toUTF8
@@ -262,7 +262,7 @@ return
 true
 ;
 }
-nsCAutoString
+nsAutoCString
 preferred
 ;
 res

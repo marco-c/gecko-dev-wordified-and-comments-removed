@@ -168,7 +168,7 @@ iter
 aEnd
 )
 ;
-nsCAutoString
+nsAutoCString
 element
 (
 Substring
@@ -602,7 +602,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 clientMAC
 ;
 mHMAC
@@ -875,7 +875,7 @@ aDone
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 line
 ;
 *
@@ -1946,7 +1946,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 chunk
 ;
 chunk

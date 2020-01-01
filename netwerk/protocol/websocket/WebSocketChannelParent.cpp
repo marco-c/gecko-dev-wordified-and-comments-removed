@@ -690,7 +690,7 @@ this
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 protocol
 extensions
 ;

@@ -249,7 +249,7 @@ dat
 struct
 nsProtocolInfo
 {
-nsCAutoString
+nsAutoCString
 scheme
 ;
 uint32_t
@@ -2172,7 +2172,7 @@ true
 int32_t
 port
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 nsresult
@@ -3249,7 +3249,7 @@ nsProxyInfo
 pi
 )
 {
-nsCAutoString
+nsAutoCString
 key
 ;
 GetProxyKey
@@ -3277,7 +3277,7 @@ nsProxyInfo
 pi
 )
 {
-nsCAutoString
+nsAutoCString
 key
 ;
 GetProxyKey
@@ -3342,7 +3342,7 @@ nsProxyInfo
 pi
 )
 {
-nsCAutoString
+nsAutoCString
 key
 ;
 GetProxyKey
@@ -4876,7 +4876,7 @@ portLocation
 :
 endhost
 ;
-nsCAutoString
+nsAutoCString
 str
 (
 starthost
@@ -5803,7 +5803,7 @@ if
 mSystemProxySettings
 )
 {
-nsCAutoString
+nsAutoCString
 PACURI
 ;
 if
@@ -5827,7 +5827,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 proxy
 ;
 nsresult

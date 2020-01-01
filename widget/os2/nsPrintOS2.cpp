@@ -1176,7 +1176,7 @@ mQueueCount
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 pName
 (
 mPQBuf

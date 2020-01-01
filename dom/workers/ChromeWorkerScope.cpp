@@ -74,7 +74,7 @@ aSource
 aSourceLen
 )
 ;
-nsCAutoString
+nsAutoCString
 native
 ;
 if

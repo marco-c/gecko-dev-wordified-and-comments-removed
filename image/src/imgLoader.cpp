@@ -2664,7 +2664,7 @@ uri
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -3482,7 +3482,7 @@ uri
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -4560,7 +4560,7 @@ imgCacheEntry
 >
 entry
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 imgCacheTable
@@ -4751,7 +4751,7 @@ GetCache
 key
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 key
@@ -5041,7 +5041,7 @@ defined
 (
 PR_LOGGING
 )
-nsCAutoString
+nsAutoCString
 spec
 ;
 key
@@ -5180,7 +5180,7 @@ GetCache
 key
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 key
@@ -5452,7 +5452,7 @@ uri
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -6229,7 +6229,7 @@ if
 key
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 aURI
@@ -6476,7 +6476,7 @@ GetCacheQueue
 aKey
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 aKey
@@ -6718,7 +6718,7 @@ GetCacheQueue
 key
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 key
@@ -7179,7 +7179,7 @@ aURI
 return
 NS_ERROR_NULL_POINTER
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 aURI
@@ -8443,7 +8443,7 @@ GetCache
 uri
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -8875,7 +8875,7 @@ _retval
 =
 false
 ;
-nsCAutoString
+nsAutoCString
 mimeType
 (
 aMimeType
@@ -9476,7 +9476,7 @@ if
 channel
 )
 {
-nsCAutoString
+nsAutoCString
 contentType
 ;
 nsresult
@@ -10064,7 +10064,7 @@ defined
 (
 PR_LOGGING
 )
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri

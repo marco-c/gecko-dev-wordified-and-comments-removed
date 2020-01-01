@@ -519,7 +519,7 @@ aDocViewer
 #
 ifdef
 NS_FUNCTION_TIMER
-nsCAutoString
+nsAutoCString
 channelURL__
 (
 "
@@ -592,7 +592,7 @@ get
 ;
 #
 endif
-nsCAutoString
+nsAutoCString
 type
 ;
 nsCOMPtr

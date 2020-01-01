@@ -565,7 +565,7 @@ nsIMozIconURI
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 stockIcon
 ;
 iconURI
@@ -576,7 +576,7 @@ GetStockIcon
 stockIcon
 )
 ;
-nsCAutoString
+nsAutoCString
 iconSizeString
 ;
 iconURI
@@ -599,7 +599,7 @@ GetImageSize
 desiredImageSize
 )
 ;
-nsCAutoString
+nsAutoCString
 iconStateString
 ;
 iconURI

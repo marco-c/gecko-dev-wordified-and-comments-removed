@@ -1077,7 +1077,7 @@ percent100
 false
 )
 ;
-nsCAutoString
+nsAutoCString
 src
 ;
 mDocumentURI

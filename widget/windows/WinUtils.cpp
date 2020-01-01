@@ -3233,7 +3233,7 @@ aUri
 return
 NS_ERROR_INVALID_ARG
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsresult
@@ -3369,7 +3369,7 @@ bool
 aURLShortcut
 )
 {
-nsCAutoString
+nsAutoCString
 inputURIHash
 ;
 nsCOMPtr

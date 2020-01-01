@@ -2306,7 +2306,7 @@ Init
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 out
 ;
 nsDependentCString

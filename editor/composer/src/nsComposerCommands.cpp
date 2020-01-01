@@ -2703,7 +2703,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 tOutStateString
 ;
 tOutStateString
@@ -3191,7 +3191,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 tOutStateString
 ;
 tOutStateString
@@ -3477,7 +3477,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 tOutStateString
 ;
 tOutStateString
@@ -3692,7 +3692,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 tOutStateString
 ;
 tOutStateString
@@ -3958,7 +3958,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 tOutStateString
 ;
 tOutStateString
@@ -4208,7 +4208,7 @@ justify
 break
 ;
 }
-nsCAutoString
+nsAutoCString
 tOutStateString
 ;
 tOutStateString

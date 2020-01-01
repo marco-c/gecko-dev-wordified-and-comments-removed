@@ -21,7 +21,7 @@ nsFixedCString
 #
 define
 nsTAutoString_CharT
-nsCAutoString
+nsAutoCString
 #
 define
 nsTSubstring_CharT

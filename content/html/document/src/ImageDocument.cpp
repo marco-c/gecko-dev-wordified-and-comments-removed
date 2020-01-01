@@ -738,7 +738,7 @@ channelURI
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 mimeType
 ;
 channel
@@ -2267,7 +2267,7 @@ mStringBundle
 mImageContent
 )
 {
-nsCAutoString
+nsAutoCString
 src
 ;
 mDocumentURI
@@ -2791,7 +2791,7 @@ imageLoader
 NS_ERROR_UNEXPECTED
 )
 ;
-nsCAutoString
+nsAutoCString
 src
 ;
 mDocumentURI
@@ -3040,7 +3040,7 @@ UpdateTitleAndCharset
 (
 )
 {
-nsCAutoString
+nsAutoCString
 typeStr
 ;
 nsCOMPtr

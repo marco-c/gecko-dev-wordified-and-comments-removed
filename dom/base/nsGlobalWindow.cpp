@@ -3983,7 +3983,7 @@ MOZ_QUIET
 )
 )
 {
-nsCAutoString
+nsAutoCString
 url
 ;
 if
@@ -9417,7 +9417,7 @@ GetDocumentURI
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -19003,7 +19003,7 @@ rv
 fixedURI
 )
 {
-nsCAutoString
+nsAutoCString
 host
 ;
 fixedURI
@@ -19024,7 +19024,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 prepath
 ;
 fixedURI
@@ -32392,7 +32392,7 @@ aNewURI
 NS_OK
 )
 ;
-nsCAutoString
+nsAutoCString
 oldBeforeHash
 oldHash
 newBeforeHash
@@ -32439,7 +32439,7 @@ newHash
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 oldSpec
 newSpec
 ;
@@ -41390,7 +41390,7 @@ cx
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 charset
 (
 NS_LITERAL_CSTRING
@@ -45080,6 +45080,8 @@ name_
 cx
 obj
 v
+\
+true
 )
 ;
 \

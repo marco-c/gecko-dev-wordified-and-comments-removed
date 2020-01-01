@@ -1053,7 +1053,7 @@ error
 =
 NULL
 ;
-nsCAutoString
+nsAutoCString
 contentType
 (
 "
@@ -1156,7 +1156,7 @@ nsACString
 aMimeType
 )
 {
-nsCAutoString
+nsAutoCString
 fileExtToUse
 (
 "
@@ -1516,7 +1516,7 @@ nsIURI
 aURI
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 aURI

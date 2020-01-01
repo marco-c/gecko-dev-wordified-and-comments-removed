@@ -453,7 +453,7 @@ uint32_t
 version
 )
 {
-nsCAutoString
+nsAutoCString
 url
 (
 NS_LITERAL_CSTRING

@@ -2767,7 +2767,7 @@ if
 port
 )
 {
-nsCAutoString
+nsAutoCString
 buf
 (
 colon

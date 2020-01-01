@@ -869,7 +869,7 @@ thread
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 targetSpec
 ;
 rv
@@ -4122,7 +4122,7 @@ rv
 NS_ERROR_DOM_SYNTAX_ERR
 )
 ;
-nsCAutoString
+nsAutoCString
 fragment
 ;
 rv
@@ -4151,7 +4151,7 @@ IsEmpty
 NS_ERROR_DOM_SYNTAX_ERR
 )
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 rv
@@ -4181,7 +4181,7 @@ IsEmpty
 NS_ERROR_DOM_SYNTAX_ERR
 )
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 rv
@@ -4249,7 +4249,7 @@ rv
 NS_ERROR_DOM_SYNTAX_ERR
 )
 ;
-nsCAutoString
+nsAutoCString
 filePath
 ;
 rv
@@ -4287,7 +4287,7 @@ rv
 NS_ERROR_DOM_SYNTAX_ERR
 )
 ;
-nsCAutoString
+nsAutoCString
 query
 ;
 rv
@@ -4853,7 +4853,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv
@@ -5889,7 +5889,7 @@ closeCode
 code
 ;
 }
-nsCAutoString
+nsAutoCString
 closeReason
 ;
 if

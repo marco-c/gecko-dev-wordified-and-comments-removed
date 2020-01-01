@@ -450,7 +450,7 @@ private
 nsAutoString
 mIconPath
 ;
-nsCAutoString
+nsAutoCString
 mMimeTypeOfInputData
 ;
 nsAutoArrayPtr

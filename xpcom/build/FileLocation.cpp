@@ -175,7 +175,7 @@ defined
 (
 XP_OS2
 )
-nsCAutoString
+nsAutoCString
 pathStr
 (
 path

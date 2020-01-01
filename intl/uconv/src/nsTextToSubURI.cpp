@@ -1035,7 +1035,7 @@ nsAString
 _retval
 )
 {
-nsCAutoString
+nsAutoCString
 unescapedSpec
 ;
 NS_UnescapeURL
@@ -1095,7 +1095,7 @@ nsAString
 _retval
 )
 {
-nsCAutoString
+nsAutoCString
 unescapedSpec
 ;
 NS_UnescapeURL

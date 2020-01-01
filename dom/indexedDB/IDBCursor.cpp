@@ -3469,7 +3469,7 @@ mozIStorageConnection
 aConnection
 )
 {
-nsCAutoString
+nsAutoCString
 query
 ;
 if

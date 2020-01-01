@@ -1252,7 +1252,7 @@ aListener
 #
 ifdef
 PLUGIN_LOGGING
-nsCAutoString
+nsAutoCString
 urlSpec
 ;
 if
@@ -1374,7 +1374,7 @@ aContent
 #
 ifdef
 PLUGIN_LOGGING
-nsCAutoString
+nsAutoCString
 urlSpec
 ;
 aURL
@@ -1845,7 +1845,7 @@ url
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 filename
 ;
 url
@@ -2313,7 +2313,7 @@ mLength
 length
 ;
 }
-nsCAutoString
+nsAutoCString
 aContentType
 ;
 rv
@@ -2751,7 +2751,7 @@ requestCnt
 =
 0
 ;
-nsCAutoString
+nsAutoCString
 string
 (
 "
@@ -2877,7 +2877,7 @@ NPByteRange
 rangeList
 )
 {
-nsCAutoString
+nsAutoCString
 rangeString
 ;
 int32_t
@@ -4137,7 +4137,7 @@ channel
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 aContentType
 ;
 rv
@@ -4649,7 +4649,7 @@ mSeekable
 =
 false
 ;
-nsCAutoString
+nsAutoCString
 contentEncoding
 ;
 if
@@ -4695,7 +4695,7 @@ if
 length
 )
 {
-nsCAutoString
+nsAutoCString
 range
 ;
 if
@@ -4743,7 +4743,7 @@ true
 }
 }
 }
-nsCAutoString
+nsAutoCString
 lastModified
 ;
 if
@@ -4958,7 +4958,7 @@ mPStreamListener
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -5515,7 +5515,7 @@ responseStatus
 307
 )
 {
-nsCAutoString
+nsAutoCString
 method
 ;
 rv

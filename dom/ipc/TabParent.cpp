@@ -939,7 +939,7 @@ if
 mShown
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -4268,7 +4268,7 @@ if
 ww
 )
 {
-nsCAutoString
+nsAutoCString
 url
 ;
 if

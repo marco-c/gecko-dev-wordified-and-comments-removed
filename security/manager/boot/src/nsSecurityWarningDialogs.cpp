@@ -654,7 +654,7 @@ SECURITY_UI
 mBucket
 )
 ;
-nsCAutoString
+nsAutoCString
 showOncePref
 (
 mPrefName
@@ -1132,7 +1132,7 @@ SECURITY_UI
 aBucket
 )
 ;
-nsCAutoString
+nsAutoCString
 showOncePref
 (
 prefName

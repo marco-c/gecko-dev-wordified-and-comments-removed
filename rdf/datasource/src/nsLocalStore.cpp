@@ -1655,7 +1655,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv

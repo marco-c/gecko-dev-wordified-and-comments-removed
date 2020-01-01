@@ -822,7 +822,7 @@ array
 uint32_t
 bytesWritten
 ;
-nsCAutoString
+nsAutoCString
 utf8Key
 ;
 for

@@ -1285,7 +1285,7 @@ nsIFile
 >
 resDir
 ;
-nsCAutoString
+nsAutoCString
 resPath
 ;
 NSString

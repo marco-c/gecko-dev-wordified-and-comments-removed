@@ -751,7 +751,7 @@ if
 existsBefore
 )
 {
-nsCAutoString
+nsAutoCString
 leafName
 ;
 rv
@@ -2259,7 +2259,7 @@ file
 return
 false
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 nsresult
@@ -2354,7 +2354,7 @@ normalization
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 basePath
 ;
 rv

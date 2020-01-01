@@ -171,7 +171,7 @@ gResHandler
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv
@@ -195,7 +195,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 rv
@@ -437,7 +437,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 appURI
 greURI
 ;
@@ -838,7 +838,7 @@ NS_ADDREF
 resURL
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 const
@@ -1126,7 +1126,7 @@ uri
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv
@@ -1275,7 +1275,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 scheme
 ;
 nsresult
@@ -1323,7 +1323,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 newBase
 ;
 rv
@@ -1414,7 +1414,7 @@ result
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 key
 ;
 key
@@ -1543,10 +1543,10 @@ result
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -1589,7 +1589,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 unescapedPath
 (
 path
@@ -1751,7 +1751,7 @@ PR_LOG_DEBUG
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri

@@ -442,7 +442,7 @@ nsIURI
 uri
 )
 {
-nsCAutoString
+nsAutoCString
 host
 ;
 PRNetAddr
@@ -533,7 +533,7 @@ prefs
 return
 false
 ;
-nsCAutoString
+nsAutoCString
 scheme
 host
 ;
@@ -1464,7 +1464,7 @@ NTLM
 0
 )
 {
-nsCAutoString
+nsAutoCString
 serviceName
 host
 ;

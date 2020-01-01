@@ -782,7 +782,7 @@ else
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 log
 (
 "
@@ -1302,7 +1302,7 @@ if
 appInfo
 )
 {
-nsCAutoString
+nsAutoCString
 appName
 ;
 if

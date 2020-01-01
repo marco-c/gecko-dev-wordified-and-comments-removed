@@ -439,7 +439,7 @@ wcc
 }
 else
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 rv

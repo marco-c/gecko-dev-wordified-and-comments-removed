@@ -1280,7 +1280,7 @@ gfxFontEntry
 >
 fonts
 ;
-nsCAutoString
+nsAutoCString
 key
 ;
 aLangGroup
@@ -1472,7 +1472,7 @@ GetPlatform
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 key
 (
 "
@@ -1653,7 +1653,7 @@ p
 kComma
 )
 ;
-nsCAutoString
+nsAutoCString
 lang
 (
 Substring

@@ -2024,7 +2024,7 @@ nsIURI
 aURI
 )
 {
-nsCAutoString
+nsAutoCString
 scheme
 ;
 if
@@ -2330,7 +2330,7 @@ nsCString
 mimeType
 )
 {
-nsCAutoString
+nsAutoCString
 ext
 ;
 GetExtensionFromURI
@@ -4613,10 +4613,10 @@ aContentPolicy
 )
 )
 {
-nsCAutoString
+nsAutoCString
 uri
 ;
-nsCAutoString
+nsAutoCString
 baseUri
 ;
 mURI
@@ -4971,7 +4971,7 @@ this
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 newMime
 ;
 nsCOMPtr
@@ -5790,7 +5790,7 @@ caseOne
 caseTwo
 )
 {
-nsCAutoString
+nsAutoCString
 typeHint
 dummy
 ;
@@ -9131,7 +9131,7 @@ this
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 pluginName
 ;
 aPluginTag
@@ -9142,7 +9142,7 @@ GetName
 pluginName
 )
 ;
-nsCAutoString
+nsAutoCString
 pluginFilename
 ;
 aPluginTag

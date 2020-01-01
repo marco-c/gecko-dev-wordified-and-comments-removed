@@ -105,7 +105,7 @@ nsILocale
 >
 locale
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 nsAutoString

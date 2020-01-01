@@ -576,7 +576,7 @@ bool
 resolveSymlinks
 )
 {
-nsCAutoString
+nsAutoCString
 dirPath
 ;
 if
@@ -1219,7 +1219,7 @@ nsIFile
 >
 homeDir
 ;
-nsCAutoString
+nsAutoCString
 homePath
 ;
 if
@@ -2629,7 +2629,7 @@ nameBegin
 nameEnd
 )
 ;
-nsCAutoString
+nsAutoCString
 dirName
 ;
 if
@@ -2811,7 +2811,7 @@ rv
 }
 else
 {
-nsCAutoString
+nsAutoCString
 leafName
 ;
 if
@@ -3067,7 +3067,7 @@ DEBUG
 nsresult
 rv2
 ;
-nsCAutoString
+nsAutoCString
 pathName
 ;
 if
@@ -3151,7 +3151,7 @@ DEBUG
 nsresult
 rv2
 ;
-nsCAutoString
+nsAutoCString
 pathName
 ;
 if
@@ -3307,7 +3307,7 @@ isDirectory
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 newPathName
 ;
 if
@@ -3825,7 +3825,7 @@ CHECK_mPath
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 newPathName
 ;
 rv
@@ -6430,7 +6430,7 @@ _retval
 =
 false
 ;
-nsCAutoString
+nsAutoCString
 inPath
 ;
 nsresult
@@ -6506,7 +6506,7 @@ NS_ENSURE_ARG_POINTER
 _retval
 )
 ;
-nsCAutoString
+nsAutoCString
 inPath
 ;
 nsresult
@@ -7581,7 +7581,7 @@ nsIFile
 >
 parentDir
 ;
-nsCAutoString
+nsAutoCString
 dirPath
 ;
 if
@@ -7924,7 +7924,7 @@ MOZ_WIDGET_ANDROID
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 type
 ;
 nsCOMPtr
@@ -8175,7 +8175,7 @@ ucsArg
 \
 {
 \
-nsCAutoString
+nsAutoCString
 buf
 ;
 \
@@ -8221,7 +8221,7 @@ ucsArg
 \
 {
 \
-nsCAutoString
+nsAutoCString
 buf
 ;
 \
@@ -8267,7 +8267,7 @@ ucsArg
 \
 {
 \
-nsCAutoString
+nsAutoCString
 buf
 ;
 \
@@ -8591,7 +8591,7 @@ nsIFile
 result
 )
 {
-nsCAutoString
+nsAutoCString
 buf
 ;
 nsresult
@@ -10230,7 +10230,7 @@ aLastModTime
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 infoPlistPath
 (
 mPath
@@ -10334,7 +10334,7 @@ NS_ENSURE_ARG
 aFile
 )
 ;
-nsCAutoString
+nsAutoCString
 nativePath
 ;
 nsresult

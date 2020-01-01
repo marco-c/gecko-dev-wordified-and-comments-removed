@@ -2268,7 +2268,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 mimeType
 ;
 rv
@@ -2927,7 +2927,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 narrowUrl
 ;
 CopyUTF16toUTF8

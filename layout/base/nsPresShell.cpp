@@ -986,7 +986,7 @@ NS_FUNCTION_TIMER
 define
 NS_TIME_FUNCTION_DECLARE_DOCURL
 \
-nsCAutoString
+nsAutoCString
 docURL__
 (
 "
@@ -7264,7 +7264,7 @@ if
 uri
 )
 {
-nsCAutoString
+nsAutoCString
 url
 ;
 uri
@@ -10506,7 +10506,7 @@ ifdef
 NS_FUNCTION_TIMER
 NS_TIME_FUNCTION_DECLARE_DOCURL
 ;
-nsCAutoString
+nsAutoCString
 frameType__
 (
 "
@@ -32023,7 +32023,7 @@ aInterruptible
 {
 NS_TIME_FUNCTION_WITH_DOCURL
 ;
-nsCAutoString
+nsAutoCString
 docURL
 (
 "
@@ -37037,7 +37037,7 @@ if
 mReflowCountMgr
 )
 {
-nsCAutoString
+nsAutoCString
 uriStr
 ;
 if

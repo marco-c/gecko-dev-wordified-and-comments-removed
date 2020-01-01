@@ -313,7 +313,7 @@ return
 rv
 ;
 }
-nsCAutoString
+nsAutoCString
 host
 ;
 rv
@@ -461,7 +461,7 @@ PR_REMOVE_LINK
 this
 )
 ;
-nsCAutoString
+nsAutoCString
 pacString
 ;
 status
@@ -660,7 +660,7 @@ mPAC
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-nsCAutoString
+nsAutoCString
 spec
 host
 ;
@@ -1494,7 +1494,7 @@ loader
 )
 )
 {
-nsCAutoString
+nsAutoCString
 pacURI
 ;
 {

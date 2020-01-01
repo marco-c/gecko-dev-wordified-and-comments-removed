@@ -105,7 +105,7 @@ nsACString
 oResult
 )
 {
-nsCAutoString
+nsAutoCString
 key
 (
 aAlias
@@ -270,7 +270,7 @@ oResult
 =
 false
 ;
-nsCAutoString
+nsAutoCString
 name1
 ;
 res
@@ -291,7 +291,7 @@ res
 return
 res
 ;
-nsCAutoString
+nsAutoCString
 name2
 ;
 res

@@ -1450,7 +1450,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 warnMsg
 ;
 warnMsg
@@ -1552,10 +1552,10 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 faviconScheme
 ;
-nsCAutoString
+nsAutoCString
 faviconSpec
 ;
 rv
@@ -2536,7 +2536,7 @@ RESULT_TYPE_SEPARATOR
 return
 NS_ERROR_INVALID_ARG
 ;
-nsCAutoString
+nsAutoCString
 title
 ;
 rv
@@ -2819,7 +2819,7 @@ nsIOutputStream
 aOutput
 )
 {
-nsCAutoString
+nsAutoCString
 uri
 ;
 nsresult
@@ -2865,7 +2865,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 warnMsg
 ;
 warnMsg
@@ -3632,7 +3632,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 title
 ;
 rv
@@ -4237,7 +4237,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 title
 ;
 rv
@@ -4430,7 +4430,7 @@ nsIOutputStream
 aOutput
 )
 {
-nsCAutoString
+nsAutoCString
 escaped
 (
 aString
@@ -4524,7 +4524,7 @@ nsIOutputStream
 aOutput
 )
 {
-nsCAutoString
+nsAutoCString
 myIndent
 (
 aIndent
@@ -5205,7 +5205,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 indent
 ;
 indent

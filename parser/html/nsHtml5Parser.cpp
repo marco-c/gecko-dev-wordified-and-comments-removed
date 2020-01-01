@@ -429,7 +429,7 @@ parser
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 trimmed
 ;
 trimmed

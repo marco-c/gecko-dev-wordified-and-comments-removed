@@ -968,7 +968,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 detectorContractID
 ;
 detectorContractID

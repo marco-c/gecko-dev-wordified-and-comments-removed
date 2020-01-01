@@ -1740,7 +1740,7 @@ aResult
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 charsetGuess
 ;
 if
@@ -1779,7 +1779,7 @@ rv
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 charset
 ;
 rv

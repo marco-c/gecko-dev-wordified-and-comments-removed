@@ -147,7 +147,7 @@ i
 domain
 )
 ;
-nsCAutoString
+nsAutoCString
 normalizedName
 (
 gEntries
@@ -266,7 +266,7 @@ NS_ENSURE_ARG_POINTER
 innerURI
 )
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 nsresult
@@ -336,7 +336,7 @@ NS_ENSURE_ARG_POINTER
 innerURI
 )
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 nsresult
@@ -386,7 +386,7 @@ nsACString
 aPublicSuffix
 )
 {
-nsCAutoString
+nsAutoCString
 normHostname
 (
 aHostname
@@ -436,7 +436,7 @@ nsACString
 aBaseDomain
 )
 {
-nsCAutoString
+nsAutoCString
 normHostname
 (
 aHostname

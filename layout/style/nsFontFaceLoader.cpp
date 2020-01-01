@@ -779,7 +779,7 @@ LOG_ENABLED
 )
 )
 {
-nsCAutoString
+nsAutoCString
 fontURI
 ;
 mFontURI
@@ -1598,7 +1598,7 @@ LOG_ENABLED
 )
 )
 {
-nsCAutoString
+nsAutoCString
 fontURI
 referrerURI
 ;
@@ -3520,7 +3520,7 @@ FamilyName
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 fontURI
 ;
 if
@@ -4619,7 +4619,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 mimeType
 ;
 rv

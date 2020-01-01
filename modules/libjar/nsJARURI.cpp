@@ -301,7 +301,7 @@ spec
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 fileSpec
 ;
 nsresult
@@ -413,7 +413,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-nsCAutoString
+nsAutoCString
 spec
 (
 NS_BOGUS_ENTRY_SCHEME
@@ -821,7 +821,7 @@ nsACString
 aSpec
 )
 {
-nsCAutoString
+nsAutoCString
 entrySpec
 ;
 mJAREntry
@@ -851,7 +851,7 @@ nsACString
 aSpec
 )
 {
-nsCAutoString
+nsAutoCString
 entrySpec
 ;
 mJAREntry
@@ -948,7 +948,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 rv
@@ -1485,7 +1485,7 @@ nsACString
 aPath
 )
 {
-nsCAutoString
+nsAutoCString
 entrySpec
 ;
 mJAREntry
@@ -1965,7 +1965,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 rv
@@ -1995,7 +1995,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 resolvedPath
 ;
 mJAREntry
@@ -2452,7 +2452,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 common
 ;
 rv
@@ -2486,7 +2486,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 otherEntry
 ;
 rv
@@ -2509,7 +2509,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 otherCharset
 ;
 rv
@@ -2564,7 +2564,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 common
 ;
 rv
@@ -2711,7 +2711,7 @@ return
 rv
 ;
 }
-nsCAutoString
+nsAutoCString
 otherEntry
 ;
 rv
@@ -2734,7 +2734,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 otherCharset
 ;
 rv
@@ -2789,7 +2789,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 relativeEntrySpec
 ;
 rv
@@ -2862,7 +2862,7 @@ nsACString
 entryPath
 )
 {
-nsCAutoString
+nsAutoCString
 filePath
 ;
 mJAREntry

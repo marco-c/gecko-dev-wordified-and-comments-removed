@@ -3170,7 +3170,7 @@ only
 /
 ASCII
 .
-nsCAutoString
+nsAutoCString
 utf8Data
 =
 NS_ConvertUTF16toUTF8
@@ -3187,7 +3187,7 @@ Length
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 escData
 ;
 NS_EscapeURL

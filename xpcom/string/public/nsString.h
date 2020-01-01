@@ -203,7 +203,7 @@ class
 NS_LossyConvertUTF16toASCII
 :
 public
-nsCAutoString
+nsAutoCString
 {
 public
 :
@@ -349,7 +349,7 @@ class
 NS_ConvertUTF16toUTF8
 :
 public
-nsCAutoString
+nsAutoCString
 {
 public
 :

@@ -4410,7 +4410,7 @@ NS_ERROR_OUT_OF_MEMORY
 }
 else
 {
-nsCAutoString
+nsAutoCString
 cid
 (
 NS_QUERY_PROCESSOR_CONTRACTID_PREFIX

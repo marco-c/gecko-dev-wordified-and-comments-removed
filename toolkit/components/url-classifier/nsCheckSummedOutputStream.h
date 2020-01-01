@@ -151,7 +151,7 @@ nsICryptoHash
 >
 mHash
 ;
-nsCAutoString
+nsAutoCString
 mCheckSum
 ;
 }

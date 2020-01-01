@@ -716,7 +716,7 @@ i
 +
 )
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 mCompletions
@@ -1883,7 +1883,7 @@ host
 )
 )
 {
-nsCAutoString
+nsAutoCString
 key
 ;
 key
@@ -1958,7 +1958,7 @@ Length
 -
 1
 ;
-nsCAutoString
+nsAutoCString
 lookupHost
 ;
 if
@@ -2126,7 +2126,7 @@ iter
 +
 )
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 path
@@ -2249,7 +2249,7 @@ nsCString
 >
 paths
 ;
-nsCAutoString
+nsAutoCString
 pathToAdd
 ;
 path

@@ -245,10 +245,10 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 service
 ;
-nsCAutoString
+nsAutoCString
 method
 ;
 nsresult
@@ -342,7 +342,7 @@ nsIInterfaceRequestor
 aWindowContext
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsresult

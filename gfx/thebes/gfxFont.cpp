@@ -15448,7 +15448,7 @@ groupAtom
 =
 nullptr
 ;
-nsCAutoString
+nsAutoCString
 groupString
 ;
 if
@@ -15544,7 +15544,7 @@ p_end
 nsAutoString
 family
 ;
-nsCAutoString
+nsAutoCString
 lcFamily
 ;
 nsAutoString
@@ -15802,7 +15802,7 @@ family
 lcFamily
 )
 ;
-nsCAutoString
+nsAutoCString
 prefName
 (
 "
@@ -16072,7 +16072,7 @@ generic
 aResolveGeneric
 )
 {
-nsCAutoString
+nsAutoCString
 prefName
 (
 "
@@ -17062,7 +17062,7 @@ log
 )
 )
 {
-nsCAutoString
+nsAutoCString
 lang
 ;
 mStyle
@@ -27825,7 +27825,7 @@ GetName
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 lang
 ;
 style

@@ -151,7 +151,7 @@ index
 index
 )
 {
-nsCAutoString
+nsAutoCString
 temp1
 (
 kCSSRawKeywords
@@ -160,7 +160,7 @@ index
 ]
 )
 ;
-nsCAutoString
+nsAutoCString
 temp2
 (
 kCSSRawKeywords

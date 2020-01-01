@@ -7896,7 +7896,7 @@ event
 >
 widget
 event
-nsCAutoString
+nsAutoCString
 (
 "
 something

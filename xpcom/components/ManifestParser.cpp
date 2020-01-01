@@ -1780,7 +1780,7 @@ if
 xapp
 )
 {
-nsCAutoString
+nsAutoCString
 s
 ;
 rv

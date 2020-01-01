@@ -402,7 +402,7 @@ AsElement
 )
 ;
 \
-nsCAutoString
+nsAutoCString
 tag
 ;
 \
@@ -420,7 +420,7 @@ tag
 )
 ;
 \
-nsCAutoString
+nsAutoCString
 id
 ;
 \
@@ -525,7 +525,7 @@ GetDocumentURI
 )
 ;
 \
-nsCAutoString
+nsAutoCString
 spec
 ;
 \

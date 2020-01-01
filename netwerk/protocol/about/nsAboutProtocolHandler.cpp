@@ -363,7 +363,7 @@ if
 isSafe
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv

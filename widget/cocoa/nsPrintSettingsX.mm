@@ -428,7 +428,7 @@ ReadPageFormatFromPrefs
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
 ;
-nsCAutoString
+nsAutoCString
 encodedData
 ;
 nsresult
@@ -607,7 +607,7 @@ noErr
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 encodedData
 ;
 encodedData

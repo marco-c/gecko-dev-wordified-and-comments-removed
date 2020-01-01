@@ -1183,7 +1183,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
 nsXPIDLCString
 contentType
 ;
-nsCAutoString
+nsAutoCString
 fileExt
 ;
 nsCOMPtr

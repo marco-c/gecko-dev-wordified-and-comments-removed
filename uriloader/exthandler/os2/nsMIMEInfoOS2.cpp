@@ -266,7 +266,7 @@ nsACString
 aPath
 )
 {
-nsCAutoString
+nsAutoCString
 leafName
 ;
 aFile
@@ -584,7 +584,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsCAutoString
+nsAutoCString
 filePath
 ;
 aFile
@@ -711,7 +711,7 @@ return
 rv
 ;
 }
-nsCAutoString
+nsAutoCString
 appPath
 ;
 if
@@ -1156,7 +1156,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCAutoString
+nsAutoCString
 urlSpec
 ;
 aURL
@@ -1175,7 +1175,7 @@ SetSpec
 urlSpec
 )
 ;
-nsCAutoString
+nsAutoCString
 uProtocol
 ;
 uri
@@ -1186,7 +1186,7 @@ GetScheme
 uProtocol
 )
 ;
-nsCAutoString
+nsAutoCString
 branchName
 =
 NS_LITERAL_CSTRING
@@ -1199,7 +1199,7 @@ applications
 +
 uProtocol
 ;
-nsCAutoString
+nsAutoCString
 prefName
 =
 branchName
@@ -1221,10 +1221,10 @@ get
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 applicationName
 ;
-nsCAutoString
+nsAutoCString
 parameters
 ;
 if
@@ -1289,7 +1289,7 @@ NS_ERROR_FAILURE
 ;
 }
 }
-nsCAutoString
+nsAutoCString
 uURL
 uUsername
 uPassword
@@ -1297,7 +1297,7 @@ uHost
 uPort
 uPath
 ;
-nsCAutoString
+nsAutoCString
 uEmail
 uGroup
 ;
@@ -1607,7 +1607,7 @@ pos
 kNotFound
 )
 {
-nsCAutoString
+nsAutoCString
 uURL
 ;
 aURL
@@ -2931,7 +2931,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 fileURLSpec
 ;
 if
@@ -2966,7 +2966,7 @@ moztmp
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 iconURLSpec
 (
 NS_LITERAL_CSTRING

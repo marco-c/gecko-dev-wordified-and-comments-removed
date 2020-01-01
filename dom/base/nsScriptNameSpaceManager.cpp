@@ -1142,7 +1142,7 @@ rv
 nsXPIDLCString
 IID_string
 ;
-nsCAutoString
+nsAutoCString
 category_entry
 ;
 const
@@ -3075,7 +3075,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 categoryEntry
 ;
 nsresult

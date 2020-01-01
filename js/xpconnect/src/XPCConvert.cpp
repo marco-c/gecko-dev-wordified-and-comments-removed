@@ -5529,7 +5529,7 @@ nullptr
 nsXPIDLString
 xmsg
 ;
-nsCAutoString
+nsAutoCString
 sxmsg
 ;
 nsCOMPtr
@@ -6656,7 +6656,7 @@ if
 data
 )
 {
-nsCAutoString
+nsAutoCString
 formattedMsg
 ;
 data

@@ -445,7 +445,7 @@ mVolumeArray
 volIndex
 ]
 ;
-nsCAutoString
+nsAutoCString
 volMountPointSlash
 =
 NS_ConvertUTF16toUTF8

@@ -8498,7 +8498,7 @@ this
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 extensions
 ;
 NS_ABORT_IF_FALSE
@@ -9070,7 +9070,7 @@ uint8_t
 *
 secKey
 ;
-nsCAutoString
+nsAutoCString
 secKeyString
 ;
 rv
@@ -10064,7 +10064,7 @@ uriEqual
 )
 )
 {
-nsCAutoString
+nsAutoCString
 newSpec
 ;
 rv
@@ -10121,7 +10121,7 @@ mEncrypted
 newuriIsHttps
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -12751,7 +12751,7 @@ return
 NS_ERROR_CONNECTION_REFUSED
 ;
 }
-nsCAutoString
+nsAutoCString
 respUpgrade
 ;
 rv
@@ -12887,7 +12887,7 @@ return
 rv
 ;
 }
-nsCAutoString
+nsAutoCString
 respConnection
 ;
 rv
@@ -13025,7 +13025,7 @@ return
 rv
 ;
 }
-nsCAutoString
+nsAutoCString
 respAccept
 ;
 rv
@@ -13149,7 +13149,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 respProtocol
 ;
 rv
