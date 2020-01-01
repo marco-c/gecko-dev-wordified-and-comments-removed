@@ -31582,15 +31582,6 @@ tiltY
 =
 0
 ;
-if
-(
-!
-outPointer
-.
-touchMajor
-)
-continue
-;
 outPointer
 .
 toolType
