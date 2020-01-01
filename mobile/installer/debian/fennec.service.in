@@ -6,11 +6,9 @@ Service
 ]
 Name
 =
-org
+Mozilla
 .
-mozilla
-.
-fennec
+Fennec
 Exec
 =
 /
