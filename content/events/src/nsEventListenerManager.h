@@ -830,6 +830,15 @@ GetInnerWindowForTarget
 (
 )
 ;
+already_AddRefed
+<
+nsPIDOMWindow
+>
+GetTargetAsInnerWindow
+(
+)
+const
+;
 uint32_t
 mMayHavePaintEventListener
 :
