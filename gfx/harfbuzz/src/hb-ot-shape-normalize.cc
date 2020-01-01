@@ -452,7 +452,8 @@ return
 }
 static
 inline
-bool
+unsigned
+int
 decompose_compatibility
 (
 const
@@ -1470,13 +1471,6 @@ glyph
 ;
 if
 (
-(
-mode
-=
-=
-HB_OT_SHAPE_NORMALIZATION_MODE_COMPOSED_FULL
-|
-|
 HB_UNICODE_GENERAL_CATEGORY_IS_MARK
 (
 _hb_glyph_info_get_general_category
@@ -1487,7 +1481,6 @@ buffer
 >
 cur
 (
-)
 )
 )
 )

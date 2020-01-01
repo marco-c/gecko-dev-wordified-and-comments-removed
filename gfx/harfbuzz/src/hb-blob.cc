@@ -370,10 +370,7 @@ length
 -
 offset
 )
-parent
--
->
-mode
+HB_MEMORY_MODE_READONLY
 hb_blob_reference
 (
 parent
