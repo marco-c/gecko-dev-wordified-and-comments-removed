@@ -1142,6 +1142,10 @@ readStringsFromFile
 String
 filePath
 Map
+<
+String
+String
+>
 stringMap
 )
 {
@@ -1202,6 +1206,10 @@ readStringsFromReader
 BufferedReader
 reader
 Map
+<
+String
+String
+>
 stringMap
 )
 throws

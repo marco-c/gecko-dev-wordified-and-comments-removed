@@ -460,7 +460,7 @@ reload
 LinearLayout
 >
 <
-AbsoluteLayout
+RelativeLayout
 android
 :
 id
