@@ -6615,6 +6615,12 @@ lastServerVersion
 )
 )
 ;
+collection
+.
+timestamp
+=
+lastServerVersion
+;
 do_check_eq
 (
 collection
