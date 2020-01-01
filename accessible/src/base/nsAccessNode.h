@@ -363,17 +363,6 @@ IsPrimaryForNode
 )
 const
 ;
-static
-nsIStringBundle
-*
-GetStringBundle
-(
-)
-{
-return
-gStringBundle
-;
-}
 void
 Language
 (
