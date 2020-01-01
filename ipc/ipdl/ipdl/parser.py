@@ -62,19 +62,6 @@ f_code
 .
 co_filename
 )
-_thisdir
-_
-=
-os
-.
-path
-.
-split
-(
-_getcallerpath
-(
-)
-)
 class
 ParseError
 (
@@ -358,10 +345,6 @@ lextab
 "
 ipdl_lextab
 "
-                             
-outputdir
-=
-_thisdir
 )
         
 self
@@ -390,10 +373,6 @@ tabmodule
 "
 ipdl_yacctab
 "
-                                
-outputdir
-=
-_thisdir
 )
         
 self
