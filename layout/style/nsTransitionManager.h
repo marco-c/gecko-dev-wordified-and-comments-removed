@@ -196,7 +196,7 @@ aTime
 private
 :
 friend
-class
+struct
 ElementTransitions
 ;
 void
