@@ -72,7 +72,7 @@ h
 if
 defined
 (
-NS_WIN32
+XP_WIN
 )
 #
 include
