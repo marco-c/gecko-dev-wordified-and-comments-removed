@@ -357,7 +357,7 @@ aHeight
 =
 0
 ;
-nscoord
+PRInt32
 x
 y
 width
@@ -453,7 +453,7 @@ docWidth
 docHeight
 )
 ;
-nsRect
+nsIntRect
 unclippedRect
 (
 x
@@ -462,7 +462,7 @@ width
 height
 )
 ;
-nsRect
+nsIntRect
 docRect
 (
 docX
@@ -471,7 +471,7 @@ docWidth
 docHeight
 )
 ;
-nsRect
+nsIntRect
 clippedRect
 ;
 clippedRect
