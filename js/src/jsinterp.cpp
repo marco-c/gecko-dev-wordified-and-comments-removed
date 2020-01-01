@@ -32346,6 +32346,9 @@ forced_return
 interpReturnOK
 &
 =
+(
+JSBool
+)
 UnwindScope
 (
 cx
