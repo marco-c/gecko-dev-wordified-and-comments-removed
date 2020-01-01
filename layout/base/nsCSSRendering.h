@@ -196,16 +196,6 @@ aColor
 )
 ;
 static
-nsIFrame
-*
-FindRootFrame
-(
-nsIFrame
-*
-aForFrame
-)
-;
-static
 PRBool
 IsCanvasFrame
 (
