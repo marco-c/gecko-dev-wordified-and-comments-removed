@@ -654,6 +654,10 @@ mRedirectionLimit
 (
 10
 )
+mInPrivateBrowsingMode
+(
+PR_FALSE
+)
 mPhishyUserPassLength
 (
 1
