@@ -390,6 +390,12 @@ BluetoothEventObserverList
 *
 ol
 ;
+NS_ENSURE_TRUE
+(
+sBluetoothEventObserverTable
+NS_ERROR_FAILURE
+)
+;
 if
 (
 !
@@ -461,6 +467,12 @@ NS_IsMainThread
 BluetoothEventObserverList
 *
 ol
+;
+NS_ENSURE_TRUE
+(
+sBluetoothEventObserverTable
+NS_ERROR_FAILURE
+)
 ;
 if
 (
