@@ -217,15 +217,6 @@ include
 "
 vm
 /
-MethodGuard
-.
-h
-"
-#
-include
-"
-vm
-/
 StringBuffer
 .
 h
