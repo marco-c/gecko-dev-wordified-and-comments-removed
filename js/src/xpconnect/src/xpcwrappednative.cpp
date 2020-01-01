@@ -8032,13 +8032,6 @@ qiresult
 =
 nsnull
 ;
-{
-AutoJSSuspendRequest
-req
-(
-ccx
-)
-;
 invokeResult
 =
 callee
@@ -8057,7 +8050,6 @@ void
 qiresult
 )
 ;
-}
 xpcc
 -
 >
@@ -9598,13 +9590,6 @@ done
 }
 }
 }
-{
-AutoJSSuspendRequest
-req
-(
-ccx
-)
-;
 invokeResult
 =
 NS_InvokeByIndex
@@ -9615,7 +9600,6 @@ paramCount
 dispatchParams
 )
 ;
-}
 xpcc
 -
 >

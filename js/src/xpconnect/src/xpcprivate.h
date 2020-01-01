@@ -11416,9 +11416,9 @@ mDetails
 }
 ;
 struct
-JSContextAndFrame
+XPCJSContextInfo
 {
-JSContextAndFrame
+XPCJSContextInfo
 (
 JSContext
 *
@@ -11433,6 +11433,10 @@ frame
 (
 nsnull
 )
+requestDepth
+(
+0
+)
 {
 }
 JSContext
@@ -11442,6 +11446,9 @@ cx
 JSStackFrame
 *
 frame
+;
+jsrefcount
+requestDepth
 ;
 }
 ;
@@ -11478,7 +11485,7 @@ endif
 const
 nsTArray
 <
-JSContextAndFrame
+XPCJSContextInfo
 >
 *
 GetStack
@@ -11501,7 +11508,7 @@ private
 :
 nsAutoTArray
 <
-JSContextAndFrame
+XPCJSContextInfo
 16
 >
 mStack
@@ -11551,7 +11558,7 @@ private
 const
 nsTArray
 <
-JSContextAndFrame
+XPCJSContextInfo
 >
 *
 mStack
