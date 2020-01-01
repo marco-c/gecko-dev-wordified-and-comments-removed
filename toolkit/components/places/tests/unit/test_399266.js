@@ -72,7 +72,7 @@ Date
 now
 (
 )
-0
+null
 aType
 false
 0

@@ -66,7 +66,7 @@ addVisit
 (
 aURI
 aWhen
-0
+null
 aType
 false
 0

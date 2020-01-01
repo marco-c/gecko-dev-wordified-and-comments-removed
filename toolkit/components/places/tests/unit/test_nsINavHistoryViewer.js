@@ -126,7 +126,7 @@ addVisit
 (
 aURI
 date
-0
+null
 histsvc
 .
 TRANSITION_TYPED
