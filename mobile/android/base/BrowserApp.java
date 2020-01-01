@@ -551,6 +551,16 @@ hideAboutHome
 (
 )
 ;
+SiteIdentityPopup
+.
+getInstance
+(
+)
+.
+dismiss
+(
+)
+;
 final
 TabsPanel
 .

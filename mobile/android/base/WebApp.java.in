@@ -318,15 +318,6 @@ R
 import
 org
 .
-mozilla
-.
-gecko
-.
-DoorHangerPopup
-;
-import
-org
-.
 json
 .
 JSONObject
