@@ -736,6 +736,9 @@ nsIPrefServiceInternal
 >
 mPrefService
 ;
+time_t
+mProcessStartTime
+;
 }
 ;
 }
