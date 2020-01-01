@@ -4040,9 +4040,8 @@ bool
 aIsSynchronous
 )
 {
-PC_AUTO_ENTER_API_CALL
+PC_AUTO_ENTER_API_CALL_NO_CHECK
 (
-true
 )
 ;
 if
