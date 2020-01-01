@@ -999,12 +999,6 @@ mEmptyCells
 nsCSSValue
 mLayout
 ;
-nsCSSValue
-mSpan
-;
-nsCSSValue
-mCols
-;
 private
 :
 nsCSSTable
@@ -1028,6 +1022,12 @@ nsRuleDataTable
 )
 {
 }
+nsCSSValue
+mSpan
+;
+nsCSSValue
+mCols
+;
 private
 :
 nsRuleDataTable
