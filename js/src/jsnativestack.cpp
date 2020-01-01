@@ -76,6 +76,12 @@ defined
 (
 __FreeBSD__
 )
+|
+|
+defined
+(
+__OpenBSD__
+)
 #
 include
 <
