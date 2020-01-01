@@ -186,6 +186,7 @@ SUBTIERS
 IPDL
 WebIDL
 XPIDL
+XPIDLParser
 )
 export
 :
