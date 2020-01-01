@@ -210,9 +210,13 @@ d
 ;
 '
 %
+(
 options
 .
 timeout
+*
+1000
+)
 )
   
 prefsFile
@@ -478,8 +482,6 @@ default
 5
 *
 60
-*
-1000
                     
 help
 =
@@ -491,13 +493,13 @@ in
 specified
 number
 of
-milleseconds
+seconds
 .
 [
 default
 %
 default
-ms
+s
 ]
 .
 "
