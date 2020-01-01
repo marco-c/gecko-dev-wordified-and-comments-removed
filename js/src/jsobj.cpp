@@ -20147,7 +20147,7 @@ if
 cx
 -
 >
-hasStrictOption
+hasExtraWarningsOption
 (
 )
 |
@@ -21183,7 +21183,7 @@ strict
 cx
 -
 >
-hasStrictOption
+hasExtraWarningsOption
 (
 )
 )
@@ -21283,7 +21283,7 @@ strict
 cx
 -
 >
-hasStrictOption
+hasExtraWarningsOption
 (
 )
 )
@@ -21798,7 +21798,7 @@ if
 cx
 -
 >
-hasStrictOption
+hasExtraWarningsOption
 (
 )
 )
@@ -22009,7 +22009,7 @@ if
 cx
 -
 >
-hasStrictOption
+hasExtraWarningsOption
 (
 )
 )
@@ -22319,7 +22319,7 @@ if
 cx
 -
 >
-hasStrictOption
+hasExtraWarningsOption
 (
 )
 )
