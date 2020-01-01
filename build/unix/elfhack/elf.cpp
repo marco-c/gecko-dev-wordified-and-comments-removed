@@ -29,7 +29,6 @@ R
 typename
 T
 >
-inline
 void
 Elf_Ehdr_Traits
 :
@@ -252,7 +251,6 @@ R
 typename
 T
 >
-inline
 void
 Elf_Phdr_Traits
 :
@@ -389,7 +387,6 @@ R
 typename
 T
 >
-inline
 void
 Elf_Shdr_Traits
 :
@@ -554,7 +551,6 @@ R
 typename
 T
 >
-inline
 void
 Elf_Dyn_Traits
 :
@@ -611,7 +607,6 @@ R
 typename
 T
 >
-inline
 void
 Elf_Sym_Traits
 :
@@ -834,7 +829,6 @@ R
 typename
 T
 >
-inline
 void
 Elf_Rel_Traits
 :
@@ -889,7 +883,6 @@ R
 typename
 T
 >
-inline
 void
 Elf_Rela_Traits
 :
