@@ -2257,11 +2257,6 @@ iterObject
 break
 ;
 }
-case
-JSTRY_LOOP
-:
-break
-;
 default
 :
 JS_NOT_REACHED
