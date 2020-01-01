@@ -4,6 +4,15 @@ MOZILLA_GFX_BASESIZE_H_
 #
 define
 MOZILLA_GFX_BASESIZE_H_
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -24,6 +33,7 @@ T
 width
 height
 ;
+MOZ_CONSTEXPR
 BaseSize
 (
 )
@@ -38,6 +48,7 @@ height
 )
 {
 }
+MOZ_CONSTEXPR
 BaseSize
 (
 T
