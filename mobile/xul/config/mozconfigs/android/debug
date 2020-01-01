@@ -23,6 +23,14 @@ enable
 application
 =
 mobile
+ac_add_options
+-
+-
+disable
+-
+elf
+-
+hack
 #
 Android
 ac_add_options
