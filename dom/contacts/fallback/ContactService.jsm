@@ -926,6 +926,11 @@ Return
 KO
 "
 {
+requestID
+:
+msg
+.
+cursorId
 errorMsg
 :
 aErrorMsg

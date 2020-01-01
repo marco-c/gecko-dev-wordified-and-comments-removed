@@ -196,6 +196,7 @@ aFullContacts
 aCallback
 aNewTxn
 aClearDispatcher
+aFailureCb
 )
 {
 let
@@ -432,6 +433,18 @@ length
 }
 }
 }
+}
+null
+function
+(
+errorMsg
+)
+{
+aFailureCb
+(
+errorMsg
+)
+;
 }
 )
 ;
@@ -3918,6 +3931,7 @@ CDB_removeObjectFromCache
 (
 aObjectId
 aCallback
+aFailureCb
 )
 {
 if
@@ -4094,6 +4108,18 @@ bind
 (
 this
 )
+null
+function
+(
+errorMsg
+)
+{
+aFailureCb
+(
+errorMsg
+)
+;
+}
 )
 ;
 }
@@ -4102,6 +4128,7 @@ invalidateCache
 function
 CDB_invalidateCache
 (
+aErrorCb
 )
 {
 if
@@ -4137,6 +4164,7 @@ clear
 )
 ;
 }
+aErrorCb
 )
 ;
 }
@@ -4427,6 +4455,7 @@ this
 .
 invalidateCache
 (
+errorCb
 )
 ;
 }
@@ -4543,6 +4572,7 @@ bind
 (
 this
 )
+aErrorCb
 )
 ;
 }
@@ -4691,6 +4721,8 @@ aQuery
 )
 ;
 }
+null
+aFailureCb
 )
 ;
 aSuccessCb
@@ -4743,6 +4775,7 @@ CDB_getCacheForQuery
 (
 aQuery
 aSuccessCb
+aFailureCb
 )
 {
 if
@@ -4861,8 +4894,18 @@ onerror
 =
 function
 (
+e
 )
 {
+aFailureCb
+(
+e
+.
+target
+.
+errorMessage
+)
+;
 }
 ;
 }
@@ -4871,6 +4914,8 @@ bind
 (
 this
 )
+null
+aFailureCb
 )
 ;
 }
@@ -5039,6 +5084,7 @@ aFullContacts
 aSuccessCb
 newTxnFn
 clearDispatcherFn
+aFailureCb
 )
 ;
 this
@@ -5081,6 +5127,7 @@ bind
 (
 this
 )
+aFailureCb
 )
 ;
 }
