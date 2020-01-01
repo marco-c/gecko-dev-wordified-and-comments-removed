@@ -416,8 +416,6 @@ return
 hb_ot_layout_would_substitute_lookup
 (
 face
-glyphs
-len
 strtol
 (
 argv
@@ -427,6 +425,9 @@ argv
 NULL
 0
 )
+glyphs
+len
+false
 )
 ;
 }

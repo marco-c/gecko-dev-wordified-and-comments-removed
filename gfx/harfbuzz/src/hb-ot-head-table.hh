@@ -17,6 +17,9 @@ private
 .
 hh
 "
+namespace
+OT
+{
 #
 define
 HB_OT_TAG_head
@@ -176,5 +179,6 @@ DEFINE_SIZE_STATIC
 ;
 }
 ;
+}
 #
 endif

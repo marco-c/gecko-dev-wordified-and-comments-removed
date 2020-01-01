@@ -17,6 +17,9 @@ private
 .
 hh
 "
+namespace
+OT
+{
 #
 define
 HB_OT_TAG_name
@@ -539,5 +542,6 @@ nameRecord
 ;
 }
 ;
+}
 #
 endif

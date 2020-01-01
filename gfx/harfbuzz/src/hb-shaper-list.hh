@@ -51,6 +51,15 @@ old
 )
 #
 endif
+#
+ifdef
+HAVE_ICU_LE
+HB_SHAPER_IMPLEMENT
+(
+icu_le
+)
+#
+endif
 HB_SHAPER_IMPLEMENT
 (
 fallback

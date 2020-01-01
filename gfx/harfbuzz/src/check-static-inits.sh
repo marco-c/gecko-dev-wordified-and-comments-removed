@@ -180,6 +180,10 @@ C
 constructors
 /
 destructors
+or
+other
+such
+stuff
 "
 for
 obj
@@ -214,6 +218,10 @@ C
 constructors
 /
 destructors
+or
+other
+such
+stuff
 "
 stat
 =

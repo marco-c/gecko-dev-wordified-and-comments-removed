@@ -78,6 +78,10 @@ stdio
 .
 h
 >
+using
+namespace
+OT
+;
 int
 main
 (

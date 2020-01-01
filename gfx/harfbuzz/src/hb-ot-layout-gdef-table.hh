@@ -30,6 +30,9 @@ private
 .
 hh
 "
+namespace
+OT
+{
 typedef
 ArrayOf
 <
@@ -1741,5 +1744,6 @@ markGlyphSetsDef
 ;
 }
 ;
+}
 #
 endif

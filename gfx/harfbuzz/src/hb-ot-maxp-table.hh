@@ -17,6 +17,9 @@ private
 .
 hh
 "
+namespace
+OT
+{
 #
 define
 HB_OT_TAG_maxp
@@ -130,5 +133,6 @@ DEFINE_SIZE_STATIC
 ;
 }
 ;
+}
 #
 endif

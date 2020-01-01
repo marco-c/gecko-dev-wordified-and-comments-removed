@@ -146,9 +146,9 @@ echo
 "
 check
 -
-internal
--
-symbols
+libstdc
++
++
 .
 sh
 :

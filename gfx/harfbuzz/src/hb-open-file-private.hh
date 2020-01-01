@@ -17,6 +17,9 @@ private
 .
 hh
 "
+namespace
+OT
+{
 struct
 OpenTypeFontFile
 ;
@@ -961,5 +964,6 @@ tag
 ;
 }
 ;
+}
 #
 endif
