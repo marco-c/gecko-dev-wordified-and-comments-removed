@@ -1263,7 +1263,7 @@ NotifyAll
 ;
 }
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 XPCAutoLock
 {
 public
@@ -1410,7 +1410,7 @@ void
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 XPCAutoUnlock
 {
 public
@@ -8768,7 +8768,7 @@ mShared
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 XPCNativeScriptableCreateInfo
 {
 public
@@ -14357,7 +14357,7 @@ mIsFromPrivateWindow
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 AutoScriptEvaluate
 {
 public
@@ -14455,7 +14455,7 @@ MOZ_DELETE
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 AutoResolveName
 {
 public
