@@ -181,6 +181,7 @@ eMetric_DWMCompositor
 eMetric_WindowsClassic
 eMetric_TouchEnabled
 eMetric_MacGraphiteTheme
+eMetric_MacLionTheme
 eMetric_MaemoClassic
 eMetric_AlertNotificationOrigin
 eMetric_ScrollToClick
