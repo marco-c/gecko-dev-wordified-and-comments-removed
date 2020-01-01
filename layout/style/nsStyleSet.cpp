@@ -6667,7 +6667,7 @@ CurrentNode
 uint32_t
 flags
 =
-eNoFlags
+eSkipFlexItemStyleFixup
 ;
 if
 (
@@ -6970,7 +6970,7 @@ CurrentNode
 uint32_t
 flags
 =
-eNoFlags
+eSkipFlexItemStyleFixup
 ;
 if
 (
