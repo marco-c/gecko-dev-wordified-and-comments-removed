@@ -841,6 +841,10 @@ CancelFMRadioSeek
 (
 )
 ;
+FactoryReset
+(
+)
+;
 child
 :
 NotifySensorChange

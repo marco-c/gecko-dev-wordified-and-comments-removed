@@ -131,6 +131,9 @@ hal
 LIBRARY_NAME
 =
 hal_s
+XPIDL_MODULE
+=
+hal
 FORCE_STATIC_LIB
 =
 1
@@ -172,6 +175,16 @@ h
 HalWakeLock
 .
 h
+\
+(
+NULL
+)
+XPIDLSRCS
+=
+\
+nsIRecoveryService
+.
+idl
 \
 (
 NULL
@@ -544,6 +557,10 @@ FallbackProcessPriority
 cpp
 \
 FallbackFMRadio
+.
+cpp
+\
+FallbackFactoryReset
 .
 cpp
 \

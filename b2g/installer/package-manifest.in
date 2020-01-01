@@ -1220,6 +1220,13 @@ BINPATH
 /
 components
 /
+hal
+.
+xpt
+BINPATH
+/
+components
+/
 html5
 .
 xpt

@@ -879,6 +879,11 @@ int32_t
 aTimeoutSecs
 )
 ;
+void
+FactoryReset
+(
+)
+;
 }
 }
 #
