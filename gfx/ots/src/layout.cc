@@ -720,7 +720,7 @@ static_cast
 unsigned
 >
 (
-num_lookups
+lookup_count
 )
 +
 4
