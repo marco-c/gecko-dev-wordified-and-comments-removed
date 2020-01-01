@@ -2891,6 +2891,10 @@ nsnull
 ;
 }
 }
+mGlobalObjectOwner
+=
+nsnull
+;
 }
 void
 nsXULPDGlobalObject
