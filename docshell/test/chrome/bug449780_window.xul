@@ -132,12 +132,6 @@ isnot
 ok
 "
 "
-snapshotWindow
-"
-"
-compareSnapshots
-"
-"
 onerror
 "
 ]

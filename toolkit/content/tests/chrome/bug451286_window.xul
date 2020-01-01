@@ -1011,6 +1011,7 @@ compareSnapshots
 (
 findSnapshot
 manualSnapshot
+true
 )
 ;
 ok
