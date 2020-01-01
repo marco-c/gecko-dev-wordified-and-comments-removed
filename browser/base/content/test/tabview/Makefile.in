@@ -456,6 +456,10 @@ browser_tabview_search
 .
 js
 \
+browser_tabview_snapping
+.
+js
+\
 browser_tabview_bug591706
 .
 js
