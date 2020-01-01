@@ -2393,6 +2393,13 @@ new
 ValidateWriter
 (
 mLir
+mFragment
+-
+>
+lirbuf
+-
+>
+printer
 "
 end
 of
@@ -2513,6 +2520,13 @@ new
 ValidateWriter
 (
 mLir
+mFragment
+-
+>
+lirbuf
+-
+>
+printer
 "
 start
 of
@@ -3037,6 +3051,7 @@ mTokens
 1
 ]
 )
+ACC_LOAD_ANY
 )
 ;
 }
@@ -5349,6 +5364,7 @@ mTokens
 2
 ]
 )
+ACC_STORE_ANY
 )
 ;
 break
@@ -8833,6 +8849,7 @@ size
 (
 )
 )
+ACC_LOAD_ANY
 )
 ;
 addOrReplace
@@ -8895,6 +8912,7 @@ size
 (
 )
 )
+ACC_LOAD_ANY
 )
 ;
 addOrReplace
@@ -8955,6 +8973,7 @@ size
 (
 )
 )
+ACC_LOAD_ANY
 )
 ;
 addOrReplace
@@ -9036,6 +9055,7 @@ size
 (
 )
 )
+ACC_STORE_ANY
 )
 ;
 n
@@ -9098,6 +9118,7 @@ size
 (
 )
 )
+ACC_STORE_ANY
 )
 ;
 n
@@ -9158,6 +9179,7 @@ size
 (
 )
 )
+ACC_STORE_ANY
 )
 ;
 n
