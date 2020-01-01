@@ -4500,7 +4500,7 @@ gonk
 .
 backgroundHomescreenNice
 "
-20
+18
 )
 ;
 pref
@@ -4514,7 +4514,7 @@ gonk
 .
 backgroundNice
 "
-20
+18
 )
 ;
 #
