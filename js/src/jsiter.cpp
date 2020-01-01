@@ -2084,6 +2084,16 @@ return
 false
 ;
 }
+if
+(
+!
+(
+flags
+&
+JSITER_OWNONLY
+)
+)
+{
 JS_ASSERT
 (
 JSOp
@@ -2139,6 +2149,7 @@ TYPE_OBJECT_NEW_ITERATOR
 true
 )
 ;
+}
 return
 true
 ;
