@@ -1491,7 +1491,7 @@ IPDL_SOURCES
 '
 ipc
 /
-LayerTransaction
+LayersMessages
 .
 ipdlh
 '
