@@ -4451,6 +4451,17 @@ height
 ;
 background
 -
+clip
+:
+padding
+-
+box
+border
+-
+box
+;
+background
+-
 color
 :
 rgb
@@ -4493,6 +4504,7 @@ rgba
 transparent
 2px
 )
+none
 ;
 border
 :
