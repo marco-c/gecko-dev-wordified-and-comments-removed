@@ -705,6 +705,13 @@ aPropID
 )
 ;
 void
+ClearLonghandProperty
+(
+nsCSSProperty
+aPropID
+)
+;
+void
 AssertInitialState
 (
 )

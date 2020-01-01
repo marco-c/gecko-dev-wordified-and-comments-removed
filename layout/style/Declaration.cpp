@@ -329,7 +329,7 @@ aProperty
 {
 data
 .
-ClearProperty
+ClearLonghandProperty
 (
 *
 p
@@ -349,7 +349,7 @@ else
 {
 data
 .
-ClearProperty
+ClearLonghandProperty
 (
 aProperty
 )
