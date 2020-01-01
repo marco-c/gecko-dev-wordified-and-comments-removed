@@ -9,6 +9,17 @@ request
 )
 :
   
+request
+.
+ws_protocol
+=
+request
+.
+ws_requested_protocols
+[
+0
+]
+  
 if
 (
 request

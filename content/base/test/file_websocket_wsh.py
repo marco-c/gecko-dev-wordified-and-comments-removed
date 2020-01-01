@@ -13,6 +13,17 @@ request
 )
 :
   
+request
+.
+ws_protocol
+=
+request
+.
+ws_requested_protocols
+[
+0
+]
+  
 if
 request
 .
@@ -340,6 +351,13 @@ utf
 '
 )
 )
+    
+msgutil
+.
+close_connection
+(
+request
+)
   
 elif
 request
@@ -525,6 +543,32 @@ utf
 '
 )
 )
+    
+msgutil
+.
+close_connection
+(
+request
+)
+  
+elif
+request
+.
+ws_protocol
+=
+=
+"
+test
+12
+"
+:
+    
+msgutil
+.
+close_connection
+(
+request
+)
   
 elif
 request
@@ -589,18 +633,11 @@ test
 "
 :
     
-request
+msgutil
 .
-connection
-.
-write
+close_connection
 (
-'
-\
-xff
-\
-x00
-'
+request
 )
     
 msgutil
