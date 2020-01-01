@@ -663,7 +663,8 @@ OnUnknownMethod
 JSContext
 *
 cx
-HandleObject
+JSObject
+*
 obj
 Value
 idval

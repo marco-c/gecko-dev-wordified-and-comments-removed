@@ -452,7 +452,8 @@ add
 JSContext
 *
 cx
-HandleAtom
+JSAtom
+*
 name
 BindingKind
 kind
@@ -464,7 +465,8 @@ addVariable
 JSContext
 *
 cx
-HandleAtom
+JSAtom
+*
 name
 )
 {
@@ -483,7 +485,8 @@ addConstant
 JSContext
 *
 cx
-HandleAtom
+JSAtom
+*
 name
 )
 {
@@ -502,7 +505,8 @@ addArgument
 JSContext
 *
 cx
-HandleAtom
+JSAtom
+*
 name
 uint16_t
 *
@@ -551,10 +555,7 @@ return
 add
 (
 cx
-RootedVarAtom
-(
-cx
-)
+NULL
 ARGUMENT
 )
 ;

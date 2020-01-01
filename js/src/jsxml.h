@@ -1116,10 +1116,8 @@ js_GetXMLMethod
 JSContext
 *
 cx
-js
-:
-:
-HandleObject
+JSObject
+*
 obj
 jsid
 id

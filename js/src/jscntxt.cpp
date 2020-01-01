@@ -4122,7 +4122,7 @@ thingGCRooters
 #
 ifdef
 DEBUG
-skipGCRooters
+checkGCRooters
 =
 NULL
 ;

@@ -1323,9 +1323,11 @@ js_ConcatStrings
 JSContext
 *
 cx
-HandleString
+JSString
+*
 left
-HandleString
+JSString
+*
 right
 )
 {
