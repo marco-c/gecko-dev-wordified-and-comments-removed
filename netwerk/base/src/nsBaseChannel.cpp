@@ -888,6 +888,11 @@ here
 "
 )
 ;
+PRBool
+doNotify
+=
+PR_TRUE
+;
 if
 (
 NS_SUCCEEDED
@@ -921,6 +926,11 @@ Cancel
 rv
 )
 ;
+else
+doNotify
+=
+PR_FALSE
+;
 }
 mWaitingOnAsyncRedirect
 =
@@ -928,10 +938,7 @@ PR_FALSE
 ;
 if
 (
-NS_FAILED
-(
-mStatus
-)
+doNotify
 )
 {
 mListener
