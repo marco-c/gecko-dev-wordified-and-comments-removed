@@ -4712,6 +4712,11 @@ nsIPermissionManager
 :
 :
 DENY_ACTION
+nsIPermissionManager
+:
+:
+EXPIRE_NEVER
+0
 )
 ;
 mCurrHandlingInfo
