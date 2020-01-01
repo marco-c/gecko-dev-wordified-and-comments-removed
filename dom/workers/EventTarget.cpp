@@ -146,10 +146,6 @@ aObj
 ;
 if
 (
-classPtr
-&
-&
-(
 ClassIsWorker
 (
 classPtr
@@ -165,7 +161,6 @@ classPtr
 ClassIsXMLHttpRequest
 (
 classPtr
-)
 )
 )
 {
@@ -184,15 +179,9 @@ EventTarget
 "
 aFunctionName
 classPtr
-?
-classPtr
 -
 >
 name
-:
-"
-object
-"
 )
 ;
 return
