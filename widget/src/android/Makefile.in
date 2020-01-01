@@ -483,6 +483,10 @@ nsIdleServiceAndroid
 .
 cpp
 \
+nsClipboard
+.
+cpp
+\
 (
 NULL
 )
@@ -490,10 +494,6 @@ NOT_THERE_YET_CPPSRCS
 =
 \
 nsQtKeyUtils
-.
-cpp
-\
-nsClipboard
 .
 cpp
 \
