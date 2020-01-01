@@ -2047,7 +2047,7 @@ if
 info
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 An
