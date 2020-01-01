@@ -673,15 +673,6 @@ return
 mDocElementContainingBlock
 ;
 }
-PRBool
-IsDestroyingFrameTree
-(
-)
-{
-return
-mIsDestroyingFrameTree
-;
-}
 private
 :
 struct
