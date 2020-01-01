@@ -4625,8 +4625,8 @@ SetCond
 )
 ;
 }
-DePooler
-dp
+AutoForbidPools
+afp
 (
 &
 masm
