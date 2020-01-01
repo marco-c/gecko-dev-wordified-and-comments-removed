@@ -636,6 +636,12 @@ nsWidgetInitData
 aInitData
 )
 ;
+gfxASurface
+*
+ConfirmThebesSurface
+(
+)
+;
 HWND
 GetMainWindow
 (
@@ -1017,6 +1023,9 @@ mIsDestroying
 ;
 PRBool
 mInSetFocus
+;
+PRBool
+mNoPaint
 ;
 HPS
 mDragHps
