@@ -1438,10 +1438,10 @@ void
 DASHRepDecoder
 :
 :
-SetSeekable
+SetMediaSeekable
 (
 bool
-aSeekable
+aMediaSeekable
 )
 {
 NS_ASSERTION
@@ -1467,9 +1467,9 @@ mMainDecoder
 mMainDecoder
 -
 >
-SetSeekable
+SetMediaSeekable
 (
-aSeekable
+aMediaSeekable
 )
 ;
 }

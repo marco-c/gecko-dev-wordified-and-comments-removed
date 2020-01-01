@@ -93,7 +93,7 @@ mResourceID
 (
 0
 )
-mIsSeekable
+mIsTransportSeekable
 (
 false
 )
@@ -155,10 +155,10 @@ aOriginal
 )
 ;
 void
-SetSeekable
+SetTransportSeekable
 (
 bool
-aIsSeekable
+aIsTransportSeekable
 )
 ;
 void
@@ -332,7 +332,7 @@ aBytesPerSecond
 )
 ;
 bool
-IsSeekable
+IsTransportSeekable
 (
 )
 ;
@@ -666,7 +666,7 @@ int64_t
 mResourceID
 ;
 bool
-mIsSeekable
+mIsTransportSeekable
 ;
 bool
 mCacheSuspended

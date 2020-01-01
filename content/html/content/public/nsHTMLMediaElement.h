@@ -145,6 +145,13 @@ DecoderTraits
 .
 h
 "
+#
+include
+"
+MediaMetadataManager
+.
+h
+"
 typedef
 uint16_t
 nsMediaNetworkState
@@ -432,9 +439,9 @@ virtual
 void
 MetadataLoaded
 (
-uint32_t
+int
 aChannels
-uint32_t
+int
 aRate
 bool
 aHasAudio

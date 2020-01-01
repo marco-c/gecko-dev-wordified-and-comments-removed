@@ -3087,7 +3087,7 @@ if
 stream
 -
 >
-mIsSeekable
+mIsTransportSeekable
 )
 {
 AppendMostReusableBlock
@@ -4831,7 +4831,7 @@ if
 stream
 -
 >
-mIsSeekable
+mIsTransportSeekable
 )
 {
 nonSeekableReadaheadBlockCount
@@ -4957,7 +4957,7 @@ if
 stream
 -
 >
-mIsSeekable
+mIsTransportSeekable
 )
 {
 if
@@ -5170,7 +5170,7 @@ if
 stream
 -
 >
-mIsSeekable
+mIsTransportSeekable
 &
 &
 nonSeekableReadaheadBlockCount
@@ -5500,7 +5500,7 @@ NS_ASSERTION
 stream
 -
 >
-mIsSeekable
+mIsTransportSeekable
 |
 |
 desiredOffset
@@ -8268,10 +8268,10 @@ void
 MediaCacheStream
 :
 :
-SetSeekable
+SetTransportSeekable
 (
 bool
-aIsSeekable
+aIsTransportSeekable
 )
 {
 ReentrantMonitorAutoEnter
@@ -8287,10 +8287,10 @@ GetReentrantMonitor
 ;
 NS_ASSERTION
 (
-mIsSeekable
+mIsTransportSeekable
 |
 |
-aIsSeekable
+aIsTransportSeekable
 |
 |
 mChannelOffset
@@ -8312,9 +8312,9 @@ seekable
 "
 )
 ;
-mIsSeekable
+mIsTransportSeekable
 =
-aIsSeekable
+aIsTransportSeekable
 ;
 gMediaCache
 -
@@ -8328,7 +8328,7 @@ bool
 MediaCacheStream
 :
 :
-IsSeekable
+IsTransportSeekable
 (
 )
 {
@@ -8344,7 +8344,7 @@ GetReentrantMonitor
 )
 ;
 return
-mIsSeekable
+mIsTransportSeekable
 ;
 }
 bool
@@ -10268,12 +10268,12 @@ aOriginal
 >
 mStreamLength
 ;
-mIsSeekable
+mIsTransportSeekable
 =
 aOriginal
 -
 >
-mIsSeekable
+mIsTransportSeekable
 ;
 mCacheSuspended
 =

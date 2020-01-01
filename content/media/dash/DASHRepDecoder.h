@@ -243,7 +243,7 @@ aInfinite
 )
 ;
 void
-SetSeekable
+SetMediaSeekable
 (
 bool
 aSeekable

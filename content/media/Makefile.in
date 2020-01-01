@@ -179,6 +179,10 @@ VorbisUtils
 .
 h
 \
+MediaMetadataManager
+.
+h
+\
 (
 NULL
 )
