@@ -122,6 +122,9 @@ size_t
 mDOMCommentNodes
 ;
 size_t
+mDOMEventTargets
+;
+size_t
 mDOMOther
 ;
 size_t
