@@ -631,7 +631,17 @@ OS_TARGET
 )
 )
 WRAP_LDFLAGS
+:
 =
+(
+filter
+-
+Wl
+%
+(
+WRAP_LDFLAGS
+)
+)
 endif
 include
 (
