@@ -442,7 +442,10 @@ aMessageArgs
 Logger
 .
 log
+.
+apply
 (
+Logger
 [
 "
 test

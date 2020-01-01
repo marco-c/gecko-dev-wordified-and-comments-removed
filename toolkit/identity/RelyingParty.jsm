@@ -157,7 +157,10 @@ aMessageArgs
 Logger
 .
 log
+.
+apply
 (
+Logger
 [
 "
 RP
@@ -183,7 +186,10 @@ aMessageArgs
 Logger
 .
 reportError
+.
+apply
 (
+Logger
 [
 "
 RP

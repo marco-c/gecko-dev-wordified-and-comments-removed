@@ -137,16 +137,6 @@ changed
 "
 )
 {
-dump
-(
-"
-WOOT
-!
-it
-changed
-"
-)
-;
 do_check_eq
 (
 Logger
@@ -230,7 +220,7 @@ reportErrorAlias
 args
 )
 {
-Loggerl
+Logger
 .
 reportError
 .

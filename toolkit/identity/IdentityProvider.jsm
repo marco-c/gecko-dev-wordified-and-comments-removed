@@ -166,7 +166,10 @@ aMessageArgs
 Logger
 .
 log
+.
+apply
 (
+Logger
 [
 "
 IDP
@@ -192,7 +195,10 @@ aMessageArgs
 Logger
 .
 reportError
+.
+apply
 (
+Logger
 [
 "
 IDP
@@ -858,7 +864,6 @@ ERROR
 genKeyPair
 :
 "
-+
 err
 )
 ;
