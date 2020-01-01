@@ -7422,6 +7422,14 @@ togglePause
 false
 )
 ;
+if
+(
+!
+this
+.
+isAudioOnly
+)
+{
 this
 .
 muteButton
@@ -7522,6 +7530,7 @@ e
 false
 )
 ;
+}
 this
 .
 videocontrols
