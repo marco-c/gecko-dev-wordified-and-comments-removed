@@ -434,10 +434,6 @@ test_text_2
 .
 html
 \
-test_text_dirty
-.
-html
-\
 test_text_scaled
 .
 html
