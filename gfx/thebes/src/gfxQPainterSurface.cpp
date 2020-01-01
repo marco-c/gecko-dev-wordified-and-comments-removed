@@ -24,7 +24,7 @@ include
 "
 cairo
 -
-qpainter
+qt
 .
 h
 "
@@ -42,7 +42,7 @@ cairo_surface_t
 *
 csurf
 =
-cairo_qpainter_surface_create
+cairo_qt_surface_create
 (
 painter
 )
@@ -74,7 +74,7 @@ cairo_surface_t
 *
 csurf
 =
-cairo_qpainter_surface_create_with_qimage
+cairo_qt_surface_create_with_qimage
 (
 (
 cairo_format_t
@@ -90,7 +90,7 @@ height
 ;
 mPainter
 =
-cairo_qpainter_surface_get_qpainter
+cairo_qt_surface_get_qpainter
 (
 csurf
 )
@@ -118,7 +118,7 @@ cairo_surface_t
 *
 csurf
 =
-cairo_qpainter_surface_create_with_qpixmap
+cairo_qt_surface_create_with_qpixmap
 (
 (
 cairo_content_t
@@ -134,7 +134,7 @@ height
 ;
 mPainter
 =
-cairo_qpainter_surface_get_qpainter
+cairo_qt_surface_get_qpainter
 (
 csurf
 )
@@ -157,7 +157,7 @@ csurf
 {
 mPainter
 =
-cairo_qpainter_surface_get_qpainter
+cairo_qt_surface_get_qpainter
 (
 csurf
 )
@@ -196,7 +196,7 @@ return
 nsnull
 ;
 return
-cairo_qpainter_surface_get_qimage
+cairo_qt_surface_get_qimage
 (
 CairoSurface
 (
@@ -227,7 +227,7 @@ cairo_surface_t
 *
 isurf
 =
-cairo_qpainter_surface_get_image
+cairo_qt_surface_get_image
 (
 CairoSurface
 (

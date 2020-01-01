@@ -1387,7 +1387,7 @@ CPPSRCS
 =
 cairo
 -
-qpainter
+qt
 -
 surface
 .
@@ -1397,7 +1397,7 @@ EXPORTS_cairo
 =
 cairo
 -
-qpainter
+qt
 .
 h
 OS_INCLUDES
