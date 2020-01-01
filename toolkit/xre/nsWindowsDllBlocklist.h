@@ -224,6 +224,14 @@ MAKE_VERSION
 }
 {
 "
+psicon
+.
+dll
+"
+ALL_VERSIONS
+}
+{
+"
 mozdllblockingtest
 .
 dll
