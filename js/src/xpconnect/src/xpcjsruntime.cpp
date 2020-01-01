@@ -12,6 +12,15 @@ dom_quickstubs
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
 const
 char
 *
@@ -4451,6 +4460,8 @@ JSDHashEntryStub
 ;
 #
 endif
+NS_TIME_FUNCTION
+;
 DOM_InitInterfaces
 (
 )
@@ -4741,6 +4752,8 @@ JSContext
 cx
 )
 {
+NS_TIME_FUNCTION
+;
 JSBool
 ok
 =
