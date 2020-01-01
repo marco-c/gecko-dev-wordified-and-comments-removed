@@ -393,7 +393,6 @@ _messages
 .
 forEach
 (
-(
 function
 (
 msgName
@@ -408,12 +407,7 @@ this
 )
 ;
 }
-)
-.
-bind
-(
 this
-)
 )
 ;
 }
@@ -514,7 +508,6 @@ _messages
 .
 forEach
 (
-(
 function
 (
 msgName
@@ -529,12 +522,7 @@ this
 )
 ;
 }
-)
-.
-bind
-(
 this
-)
 )
 ;
 this
