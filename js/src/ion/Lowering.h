@@ -791,6 +791,14 @@ ins
 )
 ;
 bool
+visitArrayPopShift
+(
+MArrayPopShift
+*
+ins
+)
+;
+bool
 visitLoadTypedArrayElement
 (
 MLoadTypedArrayElement

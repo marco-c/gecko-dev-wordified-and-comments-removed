@@ -448,6 +448,16 @@ StoreElementT
 \
 _
 (
+ArrayPopShiftV
+)
+\
+_
+(
+ArrayPopShiftT
+)
+\
+_
+(
 StoreElementHoleV
 )
 \
