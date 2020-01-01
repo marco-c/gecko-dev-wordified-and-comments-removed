@@ -587,6 +587,10 @@ xul_selectcontrol
 .
 js
 \
+test_popupincontent
+.
+xul
+\
 test_panelfrommenu
 .
 xul
