@@ -12,13 +12,6 @@ others
 include
 core
 /
-stacktrace
-.
-js
-#
-include
-core
-/
 iq
 .
 js
