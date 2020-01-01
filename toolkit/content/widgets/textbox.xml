@@ -1534,6 +1534,17 @@ if
 !
 this
 .
+hasAttribute
+(
+"
+focused
+"
+)
+&
+&
+!
+this
+.
 value
 &
 &

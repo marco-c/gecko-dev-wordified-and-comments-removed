@@ -3051,6 +3051,11 @@ timeout
 "
 500
 "
+clickSelectsAll
+=
+"
+true
+"
 oncommand
 =
 "
@@ -3073,9 +3078,6 @@ onPlaceSelected
 (
 false
 )
-;
-return
-true
 ;
 "
 collection
