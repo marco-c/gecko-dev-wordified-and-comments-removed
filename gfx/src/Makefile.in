@@ -564,9 +564,12 @@ NULL
 )
 ifeq
 (
+(
+filter
 cocoa
 (
 MOZ_WIDGET_TOOLKIT
+)
 )
 )
 EXTRA_DSO_LDOPTS
