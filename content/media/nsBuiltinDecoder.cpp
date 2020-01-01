@@ -633,7 +633,7 @@ GetInstance
 )
 -
 >
-CreateInputStream
+CreateSourceStream
 (
 nullptr
 )

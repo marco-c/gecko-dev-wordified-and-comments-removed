@@ -1699,7 +1699,7 @@ GetInstance
 ;
 SourceMediaStream
 *
-CreateInputStream
+CreateSourceStream
 (
 nsDOMMediaStream
 *

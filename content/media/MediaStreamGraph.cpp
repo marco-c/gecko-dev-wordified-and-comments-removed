@@ -10480,7 +10480,7 @@ SourceMediaStream
 MediaStreamGraph
 :
 :
-CreateInputStream
+CreateSourceStream
 (
 nsDOMMediaStream
 *

@@ -868,7 +868,7 @@ stream
 nsDOMLocalMediaStream
 :
 :
-CreateInputStream
+CreateSourceStream
 (
 hints
 )

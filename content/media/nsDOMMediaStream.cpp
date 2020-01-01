@@ -218,7 +218,7 @@ nsDOMMediaStream
 nsDOMMediaStream
 :
 :
-CreateInputStream
+CreateSourceStream
 (
 uint32_t
 aHintContents
@@ -262,7 +262,7 @@ mStream
 gm
 -
 >
-CreateInputStream
+CreateSourceStream
 (
 stream
 )
@@ -282,7 +282,7 @@ nsDOMLocalMediaStream
 nsDOMLocalMediaStream
 :
 :
-CreateInputStream
+CreateSourceStream
 (
 uint32_t
 aHintContents
@@ -326,7 +326,7 @@ mStream
 gm
 -
 >
-CreateInputStream
+CreateSourceStream
 (
 stream
 )
