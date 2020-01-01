@@ -374,12 +374,6 @@ test_bug667919
 .
 html
 \
-test_bug667919
--
-2
-.
-html
-\
 test_bug667612
 .
 html
