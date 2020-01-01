@@ -101,10 +101,10 @@ true
 if
 (
 !
+JS_GetErrorReporter
+(
 mJSContext
--
->
-errorReporter
+)
 )
 {
 JS_SetErrorReporter
@@ -4051,10 +4051,10 @@ reportable
 is_js_exception
 &
 &
+JS_GetErrorReporter
+(
 cx
--
->
-errorReporter
+)
 !
 =
 xpcWrappedJSErrorReporter
