@@ -1043,7 +1043,7 @@ indexedDB
 (
 LIB_PREFIX
 )
-domindexedDB_s
+dom_indexeddb_s
 .
 (
 LIB_SUFFIX
