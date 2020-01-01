@@ -7135,7 +7135,10 @@ return
 mSuppressThisNode
 ;
 }
+NS_METHOD_
+(
 void
+)
 DescribeNode
 (
 nsrefcnt
@@ -7162,7 +7165,10 @@ nsnull
 )
 ;
 }
+NS_METHOD_
+(
 void
+)
 NoteXPCOMChild
 (
 nsISupports
@@ -7171,7 +7177,10 @@ child
 )
 {
 }
+NS_METHOD_
+(
 void
+)
 NoteScriptChild
 (
 PRUint32
@@ -7182,7 +7191,10 @@ child
 )
 {
 }
+NS_METHOD_
+(
 void
+)
 NoteNativeChild
 (
 void
