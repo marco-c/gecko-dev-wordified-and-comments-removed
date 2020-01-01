@@ -2186,6 +2186,8 @@ aBrowser
 .
 __SS_data
 ;
+try
+{
 data
 .
 extData
@@ -2194,6 +2196,13 @@ aBrowser
 .
 __SS_extdata
 ;
+}
+catch
+(
+e
+)
+{
+}
 this
 .
 _windows
