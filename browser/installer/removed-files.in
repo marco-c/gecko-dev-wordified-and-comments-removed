@@ -7745,11 +7745,6 @@ util
 js
 modules
 /
-SpatialNavigation
-.
-js
-modules
-/
 stylePanel
 .
 jsm
