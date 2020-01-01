@@ -2744,6 +2744,7 @@ Invalidate
 (
 cx
 scripts
+false
 )
 ;
 JS_ASSERT
