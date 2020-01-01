@@ -4297,7 +4297,7 @@ cairo_glyph_t
 glyphs
 int
 num_glyphs
-cairo_rectangle_int16_t
+cairo_rectangle_int_t
 *
 extents
 )

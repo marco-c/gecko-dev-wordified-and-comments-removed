@@ -12882,7 +12882,7 @@ BAIL0
 }
 else
 {
-cairo_rectangle_int16_t
+cairo_rectangle_int_t
 glyph_extents
 ;
 status

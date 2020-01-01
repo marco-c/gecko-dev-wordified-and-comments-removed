@@ -2509,6 +2509,9 @@ _cairo_analysis_surface_stroke
 _cairo_analysis_surface_fill
 _cairo_analysis_surface_show_glyphs
 NULL
+NULL
+NULL
+NULL
 }
 ;
 cairo_surface_t
