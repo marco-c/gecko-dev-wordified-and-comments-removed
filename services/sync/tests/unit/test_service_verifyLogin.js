@@ -315,6 +315,16 @@ DumpAppender
 )
 )
 ;
+Weave
+.
+Svc
+.
+Login
+.
+removeAllLogins
+(
+)
+;
 do_test_pending
 (
 )
