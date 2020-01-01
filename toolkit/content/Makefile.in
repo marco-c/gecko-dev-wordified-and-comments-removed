@@ -422,6 +422,10 @@ tests
 EXTRA_JS_MODULES
 =
 \
+debug
+.
+js
+\
 Geometry
 .
 jsm
@@ -435,6 +439,10 @@ PopupNotifications
 jsm
 \
 Dict
+.
+jsm
+\
+PageMenu
 .
 jsm
 \
@@ -452,10 +460,6 @@ NULL
 EXTRA_PP_JS_MODULES
 =
 \
-debug
-.
-js
-\
 LightweightThemeConsumer
 .
 jsm
@@ -465,10 +469,6 @@ Services
 jsm
 \
 WindowDraggingUtils
-.
-jsm
-\
-PageMenu
 .
 jsm
 \

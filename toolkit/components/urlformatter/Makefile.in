@@ -103,12 +103,6 @@ nsURLFormatter
 .
 manifest
 \
-(
-NULL
-)
-EXTRA_PP_COMPONENTS
-=
-\
 nsURLFormatter
 .
 js
