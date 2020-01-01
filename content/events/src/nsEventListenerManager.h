@@ -576,8 +576,10 @@ aEvent
 ;
 nsAutoTObserverArray
 <
+nsAutoPtr
+<
 nsListenerStruct
-*
+>
 2
 >
 mListeners
