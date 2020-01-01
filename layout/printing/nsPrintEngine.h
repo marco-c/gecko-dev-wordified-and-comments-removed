@@ -473,6 +473,11 @@ aNumPages
 )
 ;
 void
+PromoteReflowsToReframeRoot
+(
+)
+;
+void
 ShowPrintProgress
 (
 bool
