@@ -698,8 +698,7 @@ sIsGeckoReady
 =
 false
 ;
-public
-static
+private
 int
 mOrientation
 ;
