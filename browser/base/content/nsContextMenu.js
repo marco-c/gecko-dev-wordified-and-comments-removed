@@ -2073,7 +2073,9 @@ shell
 )
 haveSetDesktopBackground
 =
-true
+shell
+.
+canSetDesktopBackground
 ;
 #
 endif
