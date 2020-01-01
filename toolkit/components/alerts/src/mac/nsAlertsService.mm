@@ -929,6 +929,14 @@ aAlertCookie
 ind
 )
 ;
+if
+(
+!
+listener
+)
+return
+NS_ERROR_OUT_OF_MEMORY
+;
 nsCOMPtr
 <
 nsIStreamLoader
