@@ -4525,6 +4525,7 @@ PRUint8
 minor
 )
 {
+unsigned
 int
 i
 ;
