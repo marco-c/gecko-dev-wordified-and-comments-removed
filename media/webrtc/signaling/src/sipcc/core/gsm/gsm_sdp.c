@@ -844,6 +844,13 @@ support_direction
 =
 SDP_DIRECTION_FLAG_RECV
 ;
+cap
+-
+>
+enabled
+=
+TRUE
+;
 }
 }
 void
