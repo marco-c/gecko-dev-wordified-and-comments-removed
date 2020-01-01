@@ -9852,14 +9852,6 @@ false
 ;
 if
 (
-GetCompatibilityMode
-(
-)
-=
-=
-eCompatibility_NavQuirks
-&
-&
 aName
 .
 EqualsLiteral
