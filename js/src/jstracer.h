@@ -1664,6 +1664,10 @@ mReserve
 (
 reserve
 )
+mReserveSize
+(
+reserveSize
+)
 mReserveCurr
 (
 uintptr_t
@@ -1899,6 +1903,9 @@ mSize
 char
 *
 mReserve
+;
+size_t
+mReserveSize
 ;
 uintptr_t
 mReserveCurr

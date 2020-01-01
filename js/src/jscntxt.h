@@ -1711,12 +1711,12 @@ preWrapObjectCallback
 #
 ifdef
 JS_METHODJIT
-uint32
-mjitMemoryUsed
+size_t
+mjitDataSize
 ;
 #
 endif
-uint32
+size_t
 stringMemoryUsed
 ;
 JSRuntime

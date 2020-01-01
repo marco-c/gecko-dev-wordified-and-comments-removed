@@ -258,9 +258,9 @@ strdup
 (
 "
 gfx
-/
+-
 d2d
-/
+-
 surfacecache
 "
 )
@@ -287,6 +287,7 @@ strdup
 Memory
 used
 by
+the
 Direct2D
 internal
 surface
@@ -355,9 +356,9 @@ strdup
 (
 "
 gfx
-/
+-
 d2d
-/
+-
 surfacevram
 "
 )
