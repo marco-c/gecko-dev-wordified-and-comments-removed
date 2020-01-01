@@ -8,6 +8,9 @@ null
 jpake
 :
 null
+_bundle
+:
+null
 init
 :
 function
@@ -15,6 +18,14 @@ init
 (
 )
 {
+if
+(
+this
+.
+_bundle
+)
+return
+;
 this
 .
 _bundle
