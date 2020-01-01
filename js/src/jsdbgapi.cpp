@@ -2881,6 +2881,16 @@ return
 ok
 ;
 }
+SwitchToCompartment
+sc
+(
+cx
+wp
+-
+>
+object
+)
+;
 +
 +
 rt
