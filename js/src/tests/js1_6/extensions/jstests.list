@@ -231,3 +231,9 @@ regress
 js
 #
 NS_ERROR_DOM_NOT_SUPPORTED_ERR
+script
+regress
+-
+479567
+.
+js

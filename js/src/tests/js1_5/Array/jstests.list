@@ -300,6 +300,12 @@ slow
 script
 regress
 -
+474529
+.
+js
+script
+regress
+-
 94257
 .
 js

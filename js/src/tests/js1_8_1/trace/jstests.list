@@ -230,6 +230,12 @@ regress
 .
 js
 script
+regress
+-
+489682
+.
+js
+script
 trace
 -
 test
