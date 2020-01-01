@@ -949,9 +949,9 @@ app
 .
 update
 .
-timer
+timerMinimumDelay
 "
-600000
+120
 )
 ;
 pref
