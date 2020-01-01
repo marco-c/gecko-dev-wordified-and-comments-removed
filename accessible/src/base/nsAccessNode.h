@@ -462,17 +462,6 @@ IsPrimaryForNode
 )
 const
 ;
-static
-nsIStringBundle
-*
-GetStringBundle
-(
-)
-{
-return
-gStringBundle
-;
-}
 protected
 :
 nsPresContext
