@@ -89,6 +89,14 @@ FrameWorker
 .
 jsm
 \
+MessagePortBase
+.
+jsm
+\
+MessagePortWorker
+.
+js
+\
 SocialService
 .
 jsm
