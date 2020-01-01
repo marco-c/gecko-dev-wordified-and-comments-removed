@@ -31,12 +31,12 @@ nsConsoleMessage
 (
 )
 :
-mMessage
-(
-)
 mTimeStamp
 (
 0
+)
+mMessage
+(
 )
 {
 }
