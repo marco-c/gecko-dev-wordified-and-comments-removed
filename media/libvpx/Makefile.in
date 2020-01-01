@@ -1441,6 +1441,8 @@ sources
 android
 /
 cpufeatures
+ifndef
+MOZ_WEBRTC
 #
 For
 cpu
@@ -1468,6 +1470,7 @@ cpu
 features
 .
 c
+endif
 endif
 CSRCS
 +

@@ -175,7 +175,7 @@ const
 WebRtc_UWord16
 N_REC_QUEUE_BUFFERS
 =
-8
+16
 ;
 class
 ThreadWrapper

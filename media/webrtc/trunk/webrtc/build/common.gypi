@@ -1351,14 +1351,9 @@ defines
 '
 WEBRTC_ARCH_ARM_NEON
 '
-]
-}
-{
 '
-defines
+WEBRTC_BUILD_NEON_LIBS
 '
-:
-[
 '
 WEBRTC_DETECT_ARM_NEON
 '

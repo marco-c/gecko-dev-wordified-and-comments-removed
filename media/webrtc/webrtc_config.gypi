@@ -151,6 +151,11 @@ include_tests
 '
 :
 0
+'
+enable_android_opensl
+'
+:
+1
 #
 use_system_lib
 *
