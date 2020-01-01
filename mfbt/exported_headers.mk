@@ -438,6 +438,10 @@ EXPORTS_mozilla
 +
 =
 \
+Assertions
+.
+h
+\
 Attributes
 .
 h
