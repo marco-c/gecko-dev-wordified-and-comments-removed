@@ -361,9 +361,17 @@ CHROMIUM_MOZILLA_BUILD
 )
 &
 &
+(
 defined
 (
 OS_LINUX
+)
+|
+|
+defined
+(
+OS_MACOSX
+)
 )
 typedef
 std
