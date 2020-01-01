@@ -733,6 +733,14 @@ WorkerTest_badworker
 .
 js
 \
+test_xpcom
+.
+html
+\
+xpcom_worker
+.
+js
+\
 (
 NULL
 )

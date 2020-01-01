@@ -16662,6 +16662,9 @@ uint32
 tag
 uint32
 data
+void
+*
+closure
 )
 {
 nsDOMClassInfo
@@ -16690,6 +16693,9 @@ writer
 JSObject
 *
 obj
+void
+*
+closure
 )
 {
 nsDOMClassInfo
