@@ -409,9 +409,7 @@ picker
 .
 defaultExtension
 =
-this
-.
-mLauncher
+aLauncher
 .
 MIMEInfo
 .
@@ -426,7 +424,7 @@ e
 }
 }
 var
-wildCardExt
+wildCardExtension
 =
 "
 *
@@ -446,9 +444,7 @@ picker
 .
 appendFilter
 (
-this
-.
-mLauncher
+aLauncher
 .
 MIMEInfo
 .
