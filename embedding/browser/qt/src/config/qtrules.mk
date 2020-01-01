@@ -11,7 +11,7 @@ Makefile
 .
 in
 (
-UIC
+UICEX
 )
 <
 -
@@ -33,7 +33,7 @@ Makefile
 .
 in
 (
-UIC
+UICEX
 )
 <
 -
@@ -65,7 +65,7 @@ Makefile
 .
 in
 (
-UIC
+UICEX
 )
 -
 embed

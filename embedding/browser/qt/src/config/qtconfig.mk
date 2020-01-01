@@ -42,15 +42,12 @@ OS_ARCH
 )
 )
 )
-UIC
+UICEX
 =
 (
-QTDIR
+UIC
 )
-/
-bin
-/
-uic
+#
 -
 L
 (
@@ -64,7 +61,7 @@ OS_ARCH
 )
 WINNT
 )
-UIC
+UICEX
 =
 (
 CYGWIN_WRAPPER
@@ -101,6 +98,7 @@ h
 )
 UI_CPPSRCS
 =
+#
 (
 UICSRCS
 :
@@ -115,6 +113,7 @@ cpp
 )
 MOCUI_CPPSRCS
 =
+#
 (
 UI_CPPSRCS
 :

@@ -697,10 +697,12 @@ OnDataAvailable
 (
 request
 NULL
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIInputStream
 *
+>
+(
 this
 )
 mOffset
