@@ -1368,9 +1368,14 @@ getAttribute
 value
 "
 )
+L10N
+.
+getStr
+(
 "
-JSON
+jsonScopeName
 "
+)
 "
 The
 json
