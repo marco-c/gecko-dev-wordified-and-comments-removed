@@ -3049,6 +3049,14 @@ onError
 (
 )
 {
+this
+.
+savePing
+(
+data
+true
+)
+;
 finishPings
 (
 reason
