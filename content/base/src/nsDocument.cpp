@@ -34369,9 +34369,6 @@ Clear
 (
 )
 ;
-nsContentUtils
-:
-:
 ReleaseWrapper
 (
 static_cast
@@ -34382,7 +34379,6 @@ nsINode
 (
 this
 )
-this
 )
 ;
 }

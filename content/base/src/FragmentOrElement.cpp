@@ -4437,12 +4437,8 @@ ClearBoxObjectFor
 this
 )
 ;
-nsContentUtils
-:
-:
 ReleaseWrapper
 (
-this
 this
 )
 ;

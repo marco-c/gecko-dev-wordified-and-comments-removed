@@ -87,12 +87,8 @@ mScriptOwner
 =
 nullptr
 ;
-nsContentUtils
-:
-:
 ReleaseWrapper
 (
-this
 this
 )
 ;

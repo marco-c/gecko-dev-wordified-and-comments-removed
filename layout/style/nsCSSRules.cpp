@@ -7154,9 +7154,11 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsCSSFontFaceRule
 )
-nsContentUtils
-:
-:
+tmp
+-
+>
+mDecl
+.
 ReleaseWrapper
 (
 static_cast
@@ -7167,11 +7169,6 @@ nsISupports
 (
 p
 )
-&
-tmp
--
->
-mDecl
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END

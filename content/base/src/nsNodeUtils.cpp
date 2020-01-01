@@ -1366,12 +1366,11 @@ ownerDoc
 ;
 }
 }
-nsContentUtils
-:
-:
+aNode
+-
+>
 ReleaseWrapper
 (
-aNode
 aNode
 )
 ;

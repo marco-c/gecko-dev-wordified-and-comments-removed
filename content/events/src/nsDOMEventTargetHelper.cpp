@@ -373,12 +373,8 @@ Disconnect
 )
 ;
 }
-nsContentUtils
-:
-:
 ReleaseWrapper
 (
-this
 this
 )
 ;
