@@ -582,6 +582,9 @@ fomit
 frame
 -
 pointer
+(
+MOZ_OPTIMIZE_SIZE_TWEAK
+)
 #
 Special
 optimization
