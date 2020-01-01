@@ -1436,6 +1436,12 @@ GetJunkScope
 (
 )
 ;
+nsIGlobalObject
+*
+GetJunkScopeGlobal
+(
+)
+;
 }
 namespace
 mozilla
