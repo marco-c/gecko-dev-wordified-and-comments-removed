@@ -199,10 +199,10 @@ aOutStr
 protected
 :
 CFURLRef
-mBaseRef
+mBaseURL
 ;
 CFURLRef
-mTargetRef
+mTargetURL
 ;
 PRPackedBool
 mFollowLinks
