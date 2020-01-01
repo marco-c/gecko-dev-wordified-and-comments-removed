@@ -344,7 +344,7 @@ gTableRefCount
 +
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 !
 gPropertyTable
@@ -356,7 +356,7 @@ array
 "
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 !
 gFontDescTable
@@ -423,7 +423,7 @@ ToLowerCase
 temp1
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 temp1
 .
@@ -441,7 +441,7 @@ table
 "
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 -
 1
@@ -533,7 +533,7 @@ ToLowerCase
 temp1
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 temp1
 .
@@ -551,7 +551,7 @@ table
 "
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 -
 1
@@ -728,7 +728,7 @@ eCSSProperty_UNKNOWN
 subprops
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 0
 <
@@ -921,7 +921,7 @@ lastTerminator
 ;
 }
 }
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 poolCursor
 =
@@ -1261,7 +1261,7 @@ shorthand
 count
 ;
 }
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 count
 =
@@ -1376,7 +1376,7 @@ longhand
 count
 ;
 }
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 count
 =
@@ -1466,7 +1466,7 @@ nsACString
 aProperty
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 gPropertyTable
 "
@@ -1508,7 +1508,7 @@ nsAString
 aProperty
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 gPropertyTable
 "
@@ -1550,7 +1550,7 @@ nsACString
 aFontDesc
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 gFontDescTable
 "
@@ -1587,7 +1587,7 @@ nsAString
 aFontDesc
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 gFontDescTable
 "
@@ -1624,7 +1624,7 @@ nsCSSProperty
 aProperty
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 gPropertyTable
 "
@@ -1681,7 +1681,7 @@ nsCSSFontDesc
 aFontDescID
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 gFontDescTable
 "
@@ -4924,7 +4924,7 @@ PRInt32
 aValue
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 aProp
 >

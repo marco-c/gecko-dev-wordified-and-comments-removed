@@ -515,7 +515,7 @@ mUnit
 aUnit
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 aUnit
 <
@@ -864,7 +864,7 @@ GetIntValue
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -902,7 +902,7 @@ GetPercentValue
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -928,7 +928,7 @@ GetFloatValue
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 eCSSUnit_Number
 <
@@ -954,7 +954,7 @@ GetAngleValue
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 eCSSUnit_Degree
 <
@@ -996,7 +996,7 @@ aBuffer
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 UnitHasStringValue
 (
@@ -1051,7 +1051,7 @@ GetStringBufferValue
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 UnitHasStringValue
 (
@@ -1079,7 +1079,7 @@ GetColorValue
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 (
 mUnit
@@ -1114,7 +1114,7 @@ GetArrayValue
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 UnitHasArrayValue
 (
@@ -1140,7 +1140,7 @@ GetURLValue
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -1188,7 +1188,7 @@ GetGradientValue
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -1279,7 +1279,7 @@ GetURLStructValue
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -1307,7 +1307,7 @@ GetOriginalURLValue
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -1897,7 +1897,7 @@ size_t
 aIndex
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 aIndex
 <
@@ -1928,7 +1928,7 @@ aIndex
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 aIndex
 <
@@ -2886,7 +2886,7 @@ GetRectValue
 (
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -2919,7 +2919,7 @@ GetRectValue
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -3220,7 +3220,7 @@ GetPairValue
 (
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -3253,7 +3253,7 @@ GetPairValue
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mUnit
 =

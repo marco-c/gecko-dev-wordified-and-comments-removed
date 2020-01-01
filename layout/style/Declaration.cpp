@@ -222,7 +222,7 @@ ExpandTo
 data
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 !
 mData
@@ -486,7 +486,7 @@ ValueFor
 p
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 !
 val
@@ -710,7 +710,7 @@ SubpropertyEntryFor
 aProperty
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 nsCSSProps
 :
@@ -742,7 +742,7 @@ top
 "
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 nsCSSProps
 :
@@ -774,7 +774,7 @@ right
 "
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 nsCSSProps
 :
@@ -806,7 +806,7 @@ bottom
 "
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 nsCSSProps
 :
@@ -906,7 +906,7 @@ subprops
 ]
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 topValue
 .
@@ -964,7 +964,7 @@ PRUnichar
 )
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 rightValue
 .
@@ -1016,7 +1016,7 @@ PRUnichar
 )
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 bottomValue
 .
@@ -1062,7 +1062,7 @@ PRUnichar
 )
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 leftValue
 .
@@ -1564,7 +1564,7 @@ SubpropertyEntryFor
 aProperty
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 StringEndsWith
 (
@@ -1809,7 +1809,7 @@ SubpropertyEntryFor
 aProperty
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 subprops
 [
@@ -2115,7 +2115,7 @@ eCSSProperty_background_position
 aValue
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 clip
 -
@@ -3818,8 +3818,9 @@ break
 }
 default
 :
-NS_NOTREACHED
+NS_ABORT_IF_FALSE
 (
+false
 "
 no
 other
@@ -3963,7 +3964,7 @@ aResult
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 0
 <
@@ -3983,7 +3984,7 @@ range
 "
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 (
 aProperty
@@ -4339,7 +4340,7 @@ PR_TRUE
 break
 ;
 }
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 shorthand
 !
@@ -4465,7 +4466,7 @@ doneProperty
 )
 continue
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 value
 .
@@ -4663,7 +4664,7 @@ InitializeEmpty
 (
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 !
 mData
@@ -4696,7 +4697,7 @@ EnsureMutable
 (
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mData
 "

@@ -71,7 +71,7 @@ mUnit
 aUnit
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 aUnit
 =
@@ -154,7 +154,7 @@ mUnit
 aUnit
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 eCSSUnit_Percent
 <
@@ -215,7 +215,7 @@ mUnit
 aUnit
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 UnitHasStringValue
 (
@@ -295,7 +295,7 @@ mUnit
 aUnit
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 UnitHasArrayValue
 (
@@ -815,8 +815,9 @@ mPairListDependent
 }
 else
 {
-NS_NOTREACHED
+NS_ABORT_IF_FALSE
 (
+false
 "
 unknown
 unit
@@ -1299,8 +1300,9 @@ M_PI
 ;
 default
 :
-NS_NOTREACHED
+NS_ABORT_IF_FALSE
 (
+false
 "
 unrecognized
 angular
@@ -1325,7 +1327,7 @@ GetImageValue
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -1360,7 +1362,7 @@ aPresContext
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mUnit
 =
@@ -1409,7 +1411,7 @@ GetPixelLength
 )
 const
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 IsPixelLengthUnit
 (
@@ -1732,7 +1734,7 @@ nsCSSUnit
 aUnit
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 aUnit
 =
@@ -1831,7 +1833,7 @@ nsCSSUnit
 aUnit
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 eCSSUnit_Number
 <
@@ -1891,7 +1893,7 @@ mUnit
 =
 aUnit
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 UnitHasStringValue
 (
@@ -1992,7 +1994,7 @@ mUnit
 =
 aUnit
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 UnitHasArrayValue
 (
@@ -2726,7 +2728,7 @@ aDocument
 )
 const
 {
-NS_PRECONDITION
+NS_ABORT_IF_FALSE
 (
 eCSSUnit_URL
 =
@@ -3812,7 +3814,7 @@ GetArrayValue
 (
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 array
 -
@@ -4327,8 +4329,9 @@ aResult
 }
 else
 {
-NS_NOTREACHED
+NS_ABORT_IF_FALSE
 (
+false
 "
 bad
 color
@@ -5019,7 +5022,7 @@ GetUnit
 eCSSUnit_None
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 gradient
 -
@@ -5054,7 +5057,7 @@ GetIntValue
 (
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 intValue
 !
@@ -5111,7 +5114,7 @@ GetUnit
 eCSSUnit_None
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 gradient
 -
@@ -5500,8 +5503,9 @@ eCSSUnit_Dummy
 case
 eCSSUnit_DummyInherit
 :
-NS_NOTREACHED
+NS_ABORT_IF_FALSE
 (
+false
 "
 should
 never
@@ -6984,7 +6988,7 @@ mOriginPrincipal
 aOriginPrincipal
 )
 {
-NS_PRECONDITION
+NS_ABORT_IF_FALSE
 (
 aOriginPrincipal
 "

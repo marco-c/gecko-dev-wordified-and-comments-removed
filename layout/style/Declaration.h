@@ -218,7 +218,7 @@ nsCSSExpandedDataBlock
 aExpandedData
 )
 {
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 !
 mData
@@ -227,7 +227,7 @@ oops
 "
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 !
 mImportantData
@@ -278,7 +278,7 @@ AssertInitialState
 (
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mData
 "
