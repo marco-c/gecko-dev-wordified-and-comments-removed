@@ -419,8 +419,6 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-PRInt32
-aNewIndexInContainer
 PRBool
 aAllowLazyConstruction
 )
