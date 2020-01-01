@@ -320,6 +320,11 @@ bool
 aIsFirstPaint
 )
 ;
+uint64_t
+RootLayerTreeId
+(
+)
+;
 static
 CompositorParent
 *
@@ -347,10 +352,6 @@ void
 ShutDown
 (
 )
-;
-static
-uint64_t
-ROOT_LAYER_TREE_ID
 ;
 static
 uint64_t
@@ -664,6 +665,9 @@ mResumeCompositionMonitor
 ;
 uint64_t
 mCompositorID
+;
+uint64_t
+mRootLayerTreeID
 ;
 bool
 mOverrideComposeReadiness
