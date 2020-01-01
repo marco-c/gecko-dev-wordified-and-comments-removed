@@ -101,7 +101,7 @@ FLAG_SYSV_SMST_R4
 (
 31
 -
-16
+26
 )
 FLAG_SYSV_SMST_R3
 =
@@ -111,7 +111,7 @@ FLAG_SYSV_SMST_R3
 (
 31
 -
-15
+25
 )
 FLAG_ARG_NEEDS_COPY
 =
@@ -2794,7 +2794,7 @@ size
 )
 <
 <
-4
+8
 ;
 break
 ;
@@ -2810,6 +2810,8 @@ size
 flags
 |
 =
+FLAG_SYSV_SMST_R3
+|
 FLAG_SYSV_SMST_R4
 ;
 flags
@@ -2824,7 +2826,7 @@ size
 )
 <
 <
-4
+8
 ;
 break
 ;
