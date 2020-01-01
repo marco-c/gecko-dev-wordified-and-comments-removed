@@ -2017,7 +2017,7 @@ template
 class
 T
 >
-inline
+MOZ_ALWAYS_INLINE
 bool
 WrapNewBindingObject
 (

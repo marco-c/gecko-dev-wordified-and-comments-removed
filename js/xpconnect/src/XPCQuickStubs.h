@@ -1695,7 +1695,7 @@ return
 rv
 ;
 }
-inline
+MOZ_ALWAYS_INLINE
 nsISupports
 *
 castNativeArgFromWrapper

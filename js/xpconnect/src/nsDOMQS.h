@@ -343,7 +343,7 @@ template
 <
 >
 \
-inline
+MOZ_ALWAYS_INLINE
 nsresult
 \
 xpc_qsUnwrapArg
