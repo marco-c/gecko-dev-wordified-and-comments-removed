@@ -152,7 +152,7 @@ NULL
 EXPORTS
 =
 \
-nsDeviceStorage
+DeviceStorage
 .
 h
 \

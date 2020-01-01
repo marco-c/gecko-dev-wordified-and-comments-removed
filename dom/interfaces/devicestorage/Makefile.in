@@ -123,6 +123,10 @@ idl
 nsIDOMNavigatorDeviceStorage
 .
 idl
+\
+nsIDOMDeviceStorageChangeEvent
+.
+idl
 include
 (
 topsrcdir
