@@ -2171,6 +2171,9 @@ DBUS_HANDLER_RESULT_HANDLED
 }
 else
 {
+#
+ifdef
+DEBUG
 LOG
 (
 "
@@ -2187,6 +2190,11 @@ Ignore
 "
 __FUNCTION__
 )
+;
+#
+endif
+return
+DBUS_HANDLER_RESULT_NOT_YET_HANDLED
 ;
 }
 if
@@ -4631,6 +4639,9 @@ get
 ;
 #
 endif
+return
+DBUS_HANDLER_RESULT_NOT_YET_HANDLED
+;
 }
 if
 (
@@ -4984,12 +4995,6 @@ return
 NS_OK
 ;
 }
-RemoveReservedServicesInternal
-(
-sDefaultAdapterPath
-sServiceHandles
-)
-;
 DBusError
 err
 ;
@@ -5347,11 +5352,6 @@ path
 )
 ;
 RegisterAgent
-(
-path
-)
-;
-AddReservedServices
 (
 path
 )
