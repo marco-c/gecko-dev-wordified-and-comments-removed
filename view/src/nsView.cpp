@@ -1343,13 +1343,13 @@ p2a
 ;
 mViewToWidgetOffset
 =
+roundedOffset
+-
 viewBounds
 .
 TopLeft
 (
 )
--
-roundedOffset
 ;
 return
 newBounds
