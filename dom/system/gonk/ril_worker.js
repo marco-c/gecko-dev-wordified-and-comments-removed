@@ -12507,6 +12507,10 @@ catch
 e
 )
 {
+if
+(
+DEBUG
+)
 debug
 (
 "
@@ -13656,6 +13660,10 @@ catch
 e
 )
 {
+if
+(
+DEBUG
+)
 debug
 (
 "
@@ -36297,6 +36305,10 @@ break
 ;
 default
 :
+if
+(
+DEBUG
+)
 debug
 (
 "
@@ -38173,6 +38185,10 @@ length
 ;
 default
 :
+if
+(
+DEBUG
+)
 debug
 (
 "
