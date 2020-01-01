@@ -12212,8 +12212,11 @@ BEGIN_CASE
 JSOP_CALLPROP
 )
 {
-Value
+RootedValue
 rval
+(
+cx
+)
 ;
 if
 (
@@ -12231,8 +12234,11 @@ sp
 -
 1
 ]
-&
 rval
+.
+address
+(
+)
 )
 )
 goto
@@ -12249,6 +12255,10 @@ regs
 .
 pc
 rval
+.
+reference
+(
+)
 )
 ;
 regs

@@ -9591,11 +9591,15 @@ obj
 obj2
 )
 ;
+Rooted
+<
 const
 Shape
 *
+>
 shape
-=
+(
+cx
 reinterpret_cast
 <
 Shape
@@ -9603,6 +9607,7 @@ Shape
 >
 (
 current
+)
 )
 ;
 do
@@ -24830,7 +24835,7 @@ propertyRemovals
 if
 (
 !
-shape
+shapeRoot
 -
 >
 set

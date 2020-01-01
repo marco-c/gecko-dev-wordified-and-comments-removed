@@ -1387,10 +1387,12 @@ rval
 }
 else
 {
-Value
+RootedValue
 rref
-=
+(
+cx
 rval
+)
 ;
 bool
 strict
@@ -1417,8 +1419,11 @@ obj
 shape
 false
 strict
-&
 rref
+.
+address
+(
+)
 )
 )
 return
