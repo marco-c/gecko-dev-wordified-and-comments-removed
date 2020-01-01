@@ -631,7 +631,7 @@ GetFontID
 }
 static
 void
-DisableUncommonLigatures
+DisableUncommonLigaturesAndLineBoundarySwashes
 (
 ATSUStyle
 aStyle
@@ -651,6 +651,8 @@ kLigaturesType
 kLigaturesType
 kLigaturesType
 kLigaturesType
+kSmartSwashType
+kSmartSwashType
 }
 ;
 static
@@ -671,6 +673,8 @@ kRebusPicturesOffSelector
 kDiphthongLigaturesOffSelector
 kSquaredLigaturesOffSelector
 kAbbrevSquaredLigaturesOffSelector
+kLineInitialSwashesOffSelector
+kLineFinalSwashesOffSelector
 }
 ;
 ATSUSetFontFeatures
@@ -905,7 +909,7 @@ styleArgSizes
 styleArgs
 )
 ;
-DisableUncommonLigatures
+DisableUncommonLigaturesAndLineBoundarySwashes
 (
 mATSUStyle
 )
