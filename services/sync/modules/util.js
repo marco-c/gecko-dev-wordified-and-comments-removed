@@ -2898,7 +2898,7 @@ Utils_openStatus
 {
 Utils
 .
-openDialog
+openWindow
 (
 "
 Status
