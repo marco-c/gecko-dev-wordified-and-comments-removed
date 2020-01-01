@@ -258,6 +258,17 @@ state
 mRoot
 )
 {
+ContainerLayer
+*
+referentAsContainer
+=
+referent
+-
+>
+AsContainerLayer
+(
+)
+;
 if
 (
 !
@@ -338,6 +349,11 @@ referent
 ;
 if
 (
+referentAsContainer
+)
+{
+if
+(
 AsyncPanZoomController
 *
 apzc
@@ -348,7 +364,7 @@ state
 mController
 )
 {
-referent
+referentAsContainer
 -
 >
 SetAsyncPanZoomController
@@ -356,6 +372,7 @@ SetAsyncPanZoomController
 apzc
 )
 ;
+}
 }
 }
 else
@@ -368,7 +385,12 @@ DetachReferentLayer
 referent
 )
 ;
-referent
+if
+(
+referentAsContainer
+)
+{
+referentAsContainer
 -
 >
 SetAsyncPanZoomController
@@ -376,6 +398,7 @@ SetAsyncPanZoomController
 nullptr
 )
 ;
+}
 }
 }
 }
@@ -1816,7 +1839,7 @@ AsyncPanZoomController
 *
 controller
 =
-aLayer
+container
 -
 >
 GetAsyncPanZoomController

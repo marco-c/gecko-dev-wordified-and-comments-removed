@@ -11564,6 +11564,11 @@ controller
 targetLayer
 -
 >
+AsContainerLayer
+(
+)
+-
+>
 SetAsyncPanZoomController
 (
 controller
