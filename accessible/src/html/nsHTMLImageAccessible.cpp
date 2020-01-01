@@ -274,6 +274,12 @@ aState
 aExtraState
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 nsCOMPtr
 <
 nsIImageLoadingContent
