@@ -820,6 +820,10 @@ randseed
 .
 c
 \
+reinit
+.
+c
+\
 rmdir
 .
 c

@@ -1,20 +1,4 @@
 #
-ifdef
-XP_MAC
-#
-error
-"
-This
-test
-does
-not
-run
-on
-Macintosh
-"
-#
-else
-#
 include
 "
 prcmon
@@ -1051,5 +1035,3 @@ return
 1
 ;
 }
-#
-endif

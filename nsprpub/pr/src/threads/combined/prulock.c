@@ -73,13 +73,6 @@ _PR_MD_CURRENT_THREAD
 (
 )
 ;
-#
-if
-!
-defined
-(
-XP_MAC
-)
 PR_ASSERT
 (
 !
@@ -93,8 +86,6 @@ _PR_IDLE_THREAD
 )
 )
 ;
-#
-endif
 for
 (
 i
@@ -179,9 +170,6 @@ it
 missed_bit
 )
 {
-#
-ifndef
-XP_MAC
 PR_LOG
 (
 _pr_sched_lm
@@ -204,8 +192,6 @@ name
 )
 )
 ;
-#
-endif
 (
 *
 it
@@ -653,13 +639,6 @@ me
 suspendAllThread
 )
 ;
-#
-if
-!
-defined
-(
-XP_MAC
-)
 PR_ASSERT
 (
 !
@@ -673,8 +652,6 @@ _PR_IDLE_THREAD
 )
 )
 ;
-#
-endif
 PR_ASSERT
 (
 lock
@@ -1136,13 +1113,6 @@ me
 suspendAllThread
 )
 ;
-#
-if
-!
-defined
-(
-XP_MAC
-)
 PR_ASSERT
 (
 !
@@ -1156,8 +1126,6 @@ _PR_IDLE_THREAD
 )
 )
 ;
-#
-endif
 if
 (
 lock

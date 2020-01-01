@@ -2096,6 +2096,9 @@ ranfile
 randseed
 "
 "
+reinit
+"
+"
 rwlocktest
 "
 "

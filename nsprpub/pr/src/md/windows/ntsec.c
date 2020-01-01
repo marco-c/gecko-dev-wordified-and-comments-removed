@@ -43,10 +43,15 @@ hToken
 =
 NULL
 ;
-UCHAR
+PSID
 infoBuffer
 [
 1024
+/
+sizeof
+(
+PSID
+)
 ]
 ;
 PTOKEN_OWNER

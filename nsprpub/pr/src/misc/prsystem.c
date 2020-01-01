@@ -758,16 +758,6 @@ dwNumberOfProcessors
 elif
 defined
 (
-XP_MAC
-)
-numCpus
-=
-1
-;
-#
-elif
-defined
-(
 BEOS
 )
 system_info

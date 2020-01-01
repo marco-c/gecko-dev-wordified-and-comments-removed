@@ -1194,17 +1194,6 @@ defined
 _PR_LOCAL_THREADS_ONLY
 )
 #
-ifdef
-XP_MAC
-#
-pragma
-unused
-(
-numCPUs
-)
-#
-endif
-#
 else
 PRUintn
 newCPU

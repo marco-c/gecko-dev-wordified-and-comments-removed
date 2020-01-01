@@ -1049,9 +1049,6 @@ cvar
 condQ
 )
 {
-#
-ifndef
-XP_MAC
 PR_LOG
 (
 _pr_cvar_lm
@@ -1069,8 +1066,6 @@ cvar
 )
 )
 ;
-#
-endif
 if
 (
 _PR_THREAD_CONDQ_PTR
@@ -1281,9 +1276,6 @@ last_clock
 =
 now
 ;
-#
-ifndef
-XP_MAC
 PR_LOG
 (
 _pr_clock_lm
@@ -1302,8 +1294,6 @@ elapsed
 )
 )
 ;
-#
-endif
 while
 (
 1

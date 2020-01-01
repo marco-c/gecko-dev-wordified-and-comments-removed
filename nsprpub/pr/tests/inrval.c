@@ -13,18 +13,6 @@ prinit
 h
 "
 #
-ifdef
-XP_MAC
-#
-include
-"
-pralarm
-.
-h
-"
-#
-else
-#
 include
 "
 obsolete
@@ -33,8 +21,6 @@ pralarm
 .
 h
 "
-#
-endif
 #
 include
 "

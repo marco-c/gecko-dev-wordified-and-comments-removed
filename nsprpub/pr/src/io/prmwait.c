@@ -5912,17 +5912,6 @@ PRInt32
 size
 )
 {
-#
-ifdef
-XP_MAC
-#
-pragma
-unused
-(
-size
-)
-#
-endif
 PRWaitGroup
 *
 wg

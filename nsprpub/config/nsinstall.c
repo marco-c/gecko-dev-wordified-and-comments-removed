@@ -147,13 +147,6 @@ defined
 (
 NEXTSTEP
 )
-&
-&
-!
-defined
-(
-VMS
-)
 #
 define
 GETCWD_CAN_MALLOC
