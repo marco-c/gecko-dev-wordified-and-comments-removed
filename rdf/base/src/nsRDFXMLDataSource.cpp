@@ -2557,7 +2557,7 @@ file
 PR_WRONLY
 |
 PR_CREATE_FILE
-0600
+0666
 0
 )
 ;
