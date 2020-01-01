@@ -13896,6 +13896,9 @@ case
 JSOP_TRACE
 :
 case
+JSOP_NOTRACE
+:
+case
 JSOP_GOTO
 :
 case
