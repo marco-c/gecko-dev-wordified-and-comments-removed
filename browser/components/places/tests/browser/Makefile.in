@@ -515,6 +515,10 @@ browser_library_views_liveupdate
 .
 js
 \
+browser_views_liveupdate
+.
+js
+\
 (
 NULL
 )
