@@ -13305,16 +13305,6 @@ false
 pref
 (
 "
-plugin
-.
-expose_full_path
-"
-false
-)
-;
-pref
-(
-"
 browser
 .
 popups
