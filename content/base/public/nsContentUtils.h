@@ -2008,6 +2008,13 @@ nsIWidget
 aWidget
 )
 ;
+static
+const
+nsDependentString
+GetLocalizedEllipsis
+(
+)
+;
 private
 :
 static
