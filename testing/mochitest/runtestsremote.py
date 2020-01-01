@@ -1602,6 +1602,10 @@ logLines
 [
 ]
     
+_reuseProfile
+=
+False
+    
 def
 __init__
 (
@@ -1705,6 +1709,48 @@ self
 .
 remoteLog
 )
+        
+if
+self
+.
+_reuseProfile
+:
+            
+print
+"
+Not
+removing
+profile
+since
+we
+need
+it
+in
+the
+next
+run
+!
+"
+            
+self
+.
+_dm
+.
+removeFile
+(
+self
+.
+remoteProfile
++
+'
+/
+.
+parentlock
+'
+)
+;
+            
+return
         
 self
 .
@@ -2393,6 +2439,13 @@ options
 .
 profilePath
         
+if
+not
+self
+.
+_reuseProfile
+:
+            
 self
 .
 _dm
@@ -2403,7 +2456,7 @@ self
 .
 remoteProfile
 )
-        
+            
 if
 self
 .
@@ -2422,7 +2475,7 @@ remoteProfile
 =
 None
 :
-            
+                
 raise
 devicemanager
 .
@@ -2495,6 +2548,13 @@ env
 )
         
 if
+not
+self
+.
+_reuseProfile
+:
+            
+if
 self
 .
 _dm
@@ -2512,7 +2572,7 @@ remoteProfile
 =
 None
 :
-            
+                
 raise
 devicemanager
 .
@@ -3873,6 +3933,12 @@ mochitest
 addLogData
 (
 )
+                
+mochitest
+.
+_reuseProfile
+=
+True
             
 except
 :
@@ -3920,10 +3986,16 @@ stopWebSocketServer
 options
 )
                 
+mochitest
+.
+_reuseProfile
+=
+False
+                
 try
 :
                     
-self
+mochitest
 .
 cleanup
 (
@@ -3974,6 +4046,20 @@ mochitest
 .
 printLog
 (
+)
+        
+mochitest
+.
+_reuseProfile
+=
+False
+        
+mochitest
+.
+cleanup
+(
+None
+options
 )
     
 else
@@ -4039,7 +4125,7 @@ options
 try
 :
             
-self
+mochitest
 .
 cleanup
 (
