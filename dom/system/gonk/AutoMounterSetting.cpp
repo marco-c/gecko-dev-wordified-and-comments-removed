@@ -416,9 +416,13 @@ SettingsServiceCallback
 lock
 -
 >
-Get
+Set
 (
 UMS_MODE
+INT_TO_JSVAL
+(
+AUTOMOUNTER_DISABLE
+)
 callback
 )
 ;
