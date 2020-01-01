@@ -17162,15 +17162,6 @@ gfxFont
 *
 font
 ;
-if
-(
-aCh
->
-0xFFFF
-)
-return
-nsnull
-;
 PRUint32
 unicodeRange
 =

@@ -328,6 +328,18 @@ kRangeSpecials
 ;
 const
 PRUint8
+kRangeSMP
+=
+53
+;
+const
+PRUint8
+kRangeHigherPlanes
+=
+54
+;
+const
+PRUint8
 kRangeTableBase
 =
 128
@@ -341,7 +353,7 @@ kRangeTertiaryTable
 PRUint32
 FindCharUnicodeRange
 (
-PRUnichar
+PRUint32
 ch
 )
 ;
