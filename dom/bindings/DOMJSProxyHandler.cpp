@@ -10,6 +10,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 DOMJSProxyHandler
 .
 h

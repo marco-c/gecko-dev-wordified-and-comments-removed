@@ -78,7 +78,7 @@ mozilla
 /
 dom
 /
-DOMJSClass
+JSSlots
 .
 h
 "
