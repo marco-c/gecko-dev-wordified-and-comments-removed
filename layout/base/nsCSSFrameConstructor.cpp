@@ -5091,10 +5091,6 @@ aNewFrame
 nsFrameItems
 &
 aFrameItems
-const
-nsStyleDisplay
-*
-aStyleDisplay
 nsIContent
 *
 aContent
@@ -5746,10 +5742,6 @@ aNewFrame
 nsFrameItems
 &
 aFrameItems
-const
-nsStyleDisplay
-*
-aStyleDisplay
 nsIContent
 *
 aContent
@@ -5772,23 +5764,16 @@ nsIFrame
 aInsertAfterFrame
 )
 {
-NS_PRECONDITION
-(
-aStyleDisplay
-=
+const
+nsStyleDisplay
+*
+disp
 =
 aNewFrame
 -
 >
 GetStyleDisplay
 (
-)
-"
-Wrong
-display
-struct
-?
-"
 )
 ;
 PRBool
@@ -5875,7 +5860,7 @@ if
 aCanBeFloated
 &
 &
-aStyleDisplay
+disp
 -
 >
 IsFloating
@@ -5933,7 +5918,7 @@ aCanBePositioned
 {
 if
 (
-aStyleDisplay
+disp
 -
 >
 mPosition
@@ -5988,7 +5973,7 @@ mAbsoluteItems
 }
 if
 (
-aStyleDisplay
+disp
 -
 >
 mPosition
@@ -16381,18 +16366,6 @@ tableOuterFrame
 }
 }
 }
-const
-nsStyleDisplay
-*
-disp
-=
-outerStyleContext
--
->
-GetStyleDisplay
-(
-)
-;
 nsIFrame
 *
 geometricParent
@@ -16403,7 +16376,12 @@ aState
 .
 GetGeometricParent
 (
-disp
+outerStyleContext
+-
+>
+GetStyleDisplay
+(
+)
 parentFrame
 )
 :
@@ -16490,7 +16468,6 @@ AddChild
 aNewOuterFrame
 *
 frameItems
-disp
 aContent
 aStyleContext
 parentFrame
@@ -20914,7 +20891,6 @@ AddChild
 (
 buttonFrame
 aFrameItems
-aStyleDisplay
 aContent
 aStyleContext
 aParentFrame
@@ -21297,7 +21273,6 @@ AddChild
 (
 comboboxFrame
 aFrameItems
-aStyleDisplay
 aContent
 aStyleContext
 aParentFrame
@@ -21751,7 +21726,6 @@ AddChild
 (
 scrollFrame
 aFrameItems
-display
 aContent
 aStyleContext
 aParentFrame
@@ -22163,7 +22137,6 @@ AddChild
 (
 newFrame
 aFrameItems
-aStyleDisplay
 aContent
 aStyleContext
 aParentFrame
@@ -23979,7 +23952,6 @@ AddChild
 (
 newFrame
 aFrameItems
-display
 aContent
 aStyleContext
 aParentFrame
@@ -24127,7 +24099,6 @@ AddChild
 (
 newFrame
 aFrameItems
-display
 aContent
 aStyleContext
 aParentFrame
@@ -26232,7 +26203,6 @@ AddChild
 (
 topFrame
 aFrameItems
-display
 aContent
 aStyleContext
 origParentFrame
@@ -27424,7 +27394,6 @@ AddChild
 (
 newFrame
 aFrameItems
-aDisplay
 aContent
 aStyleContext
 aParentFrame
@@ -28414,7 +28383,6 @@ AddChild
 (
 newFrame
 aFrameItems
-aDisplay
 aContent
 aStyleContext
 aParentFrame
@@ -29868,7 +29836,6 @@ AddChild
 (
 newFrame
 aFrameItems
-disp
 aContent
 aStyleContext
 aParentFrame
@@ -31865,7 +31832,6 @@ AddChild
 (
 newFrame
 aFrameItems
-disp
 aContent
 aStyleContext
 aParentFrame
@@ -49383,12 +49349,6 @@ AddChild
 (
 letterFrame
 aResult
-letterFrame
--
->
-GetStyleDisplay
-(
-)
 letterContent
 aStyleContext
 aParentFrame
@@ -51576,7 +51536,6 @@ AddChild
 *
 aNewFrame
 aFrameItems
-aDisplay
 aContent
 aStyleContext
 aContentParentFrame
