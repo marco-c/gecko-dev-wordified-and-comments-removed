@@ -333,6 +333,10 @@ CFStringCreateWithCharacters
 (
 NULL
 aTitle
+.
+BeginReading
+(
+)
 aTitle
 .
 Length
