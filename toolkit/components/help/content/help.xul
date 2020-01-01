@@ -2510,14 +2510,7 @@ subheading
 /
 >
 <
-/
-conditions
->
-<
-bindings
->
-<
-binding
+triple
 subject
 =
 "
@@ -2553,7 +2546,7 @@ name
 >
 <
 /
-bindings
+conditions
 >
 <
 action
