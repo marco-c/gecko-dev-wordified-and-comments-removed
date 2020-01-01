@@ -269,16 +269,11 @@ platform
 specific
 path
 separator
-'
-%
-s
-'
 \
 n
 "
 UNEXPECTED_FAIL_PREFIX
 TEST_NAME
-PATH_SEPARATOR_CHAR
 )
 ;
 return
@@ -666,8 +661,6 @@ printf
 %
 s
 |
-%
-s
 %
 s
 ReadStrings
