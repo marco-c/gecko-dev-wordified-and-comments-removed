@@ -414,15 +414,6 @@ nsnull
 ;
 }
 static
-PRBool
-HasAccessibleChildren
-(
-nsINode
-*
-aNode
-)
-;
-static
 nsAccessible
 *
 GetAncestorWithRole
