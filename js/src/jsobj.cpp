@@ -21964,8 +21964,7 @@ JSObject
 *
 >
 receiver
-Shape
-*
+HandleShape
 shape
 bool
 added
@@ -22072,17 +22071,6 @@ cx
 )
 ;
 }
-Rooted
-<
-Shape
-*
->
-shapeRoot
-(
-cx
-shape
-)
-;
 RootedValue
 nvp
 (
@@ -22105,7 +22093,7 @@ propertyRemovals
 if
 (
 !
-shapeRoot
+shape
 -
 >
 set
@@ -22123,7 +22111,7 @@ false
 ;
 if
 (
-shapeRoot
+shape
 -
 >
 hasSlot
@@ -22153,7 +22141,7 @@ obj
 nativeContains
 (
 cx
-shapeRoot
+shape
 )
 )
 )
@@ -22177,7 +22165,7 @@ obj
 >
 setSlot
 (
-shapeRoot
+shape
 -
 >
 slot
