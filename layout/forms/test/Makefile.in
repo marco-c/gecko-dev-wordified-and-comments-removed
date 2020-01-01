@@ -506,10 +506,6 @@ test_bug534785
 .
 html
 \
-bug536567_subframe
-.
-html
-\
 test_bug549170
 .
 html
@@ -573,6 +569,10 @@ _CHROME_FILES
 =
 \
 test_bug536567
+.
+html
+\
+bug536567_subframe
 .
 html
 \
