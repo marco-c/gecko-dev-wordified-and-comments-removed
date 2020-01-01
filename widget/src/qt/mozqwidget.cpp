@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsCommonWidget
+nsWindow
 .
 h
 "
@@ -24,7 +24,7 @@ MozQWidget
 :
 MozQWidget
 (
-nsCommonWidget
+nsWindow
 *
 receiver
 QWidget
@@ -114,7 +114,7 @@ ignore
 mReceiver
 -
 >
-mousePressEvent
+OnButtonPressEvent
 (
 ms
 )
@@ -146,7 +146,7 @@ ignore
 mReceiver
 -
 >
-mouseReleaseEvent
+OnButtonReleaseEvent
 (
 ms
 )
@@ -210,7 +210,7 @@ ignore
 mReceiver
 -
 >
-mouseMoveEvent
+OnMotionNotifyEvent
 (
 ms
 )
@@ -242,7 +242,7 @@ ignore
 mReceiver
 -
 >
-keyPressEvent
+OnKeyPressEvent
 (
 kev
 )
@@ -274,7 +274,7 @@ ignore
 mReceiver
 -
 >
-keyReleaseEvent
+OnKeyReleaseEvent
 (
 kev
 )
@@ -304,7 +304,7 @@ e
 mReceiver
 -
 >
-focusInEvent
+OnContainerFocusInEvent
 (
 fev
 )
@@ -337,7 +337,7 @@ e
 mReceiver
 -
 >
-focusOutEvent
+OnContainerFocusOutEvent
 (
 fev
 )
@@ -360,7 +360,7 @@ ignore
 mReceiver
 -
 >
-enterEvent
+OnEnterNotifyEvent
 (
 e
 )
@@ -380,7 +380,7 @@ ignore
 mReceiver
 -
 >
-enterEvent
+OnLeaveNotifyEvent
 (
 e
 )
@@ -410,7 +410,7 @@ e
 mReceiver
 -
 >
-paintEvent
+OnExposeEvent
 (
 ev
 )
@@ -442,7 +442,7 @@ ignore
 mReceiver
 -
 >
-moveEvent
+OnConfigureEvent
 (
 mev
 )
@@ -474,7 +474,7 @@ ignore
 mReceiver
 -
 >
-resizeEvent
+OnSizeAllocate
 (
 rev
 )
@@ -568,7 +568,7 @@ ignore
 mReceiver
 -
 >
-closeEvent
+OnDeleteEvent
 (
 cev
 )
@@ -600,7 +600,7 @@ ignore
 mReceiver
 -
 >
-wheelEvent
+OnScrollEvent
 (
 wev
 )
@@ -664,7 +664,7 @@ ignore
 mReceiver
 -
 >
-dragEnterEvent
+OnDragEnter
 (
 dev
 )
@@ -696,7 +696,7 @@ ignore
 mReceiver
 -
 >
-dragMoveEvent
+OnDragMotionEvent
 (
 dev
 )
@@ -728,7 +728,7 @@ ignore
 mReceiver
 -
 >
-dragLeaveEvent
+OnDragLeaveEvent
 (
 dev
 )
@@ -760,7 +760,7 @@ ignore
 mReceiver
 -
 >
-dropEvent
+OnDragDropEvent
 (
 dev
 )

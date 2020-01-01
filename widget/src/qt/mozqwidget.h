@@ -15,7 +15,7 @@ class
 QEvent
 ;
 class
-nsCommonWidget
+nsWindow
 ;
 class
 MozQWidget
@@ -28,7 +28,7 @@ public
 :
 MozQWidget
 (
-nsCommonWidget
+nsWindow
 *
 receiver
 QWidget
@@ -59,6 +59,17 @@ mReceiver
 ;
 }
 ;
+nsWindow
+*
+getReciever
+(
+)
+{
+return
+mReceiver
+;
+}
+;
 protected
 :
 virtual
@@ -72,7 +83,7 @@ ev
 ;
 private
 :
-nsCommonWidget
+nsWindow
 *
 mReceiver
 ;
