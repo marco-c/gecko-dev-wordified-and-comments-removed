@@ -925,6 +925,11 @@ so
 "
 ;
 #
+else
+return
+nullptr
+;
+#
 endif
 }
 MediaPluginHost
