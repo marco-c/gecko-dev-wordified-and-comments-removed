@@ -2567,7 +2567,7 @@ that
 .
 _log
 .
-debug
+trace
 (
 "
 Loading
@@ -2712,7 +2712,7 @@ that
 .
 _log
 .
-debug
+trace
 (
 "
 Saving
