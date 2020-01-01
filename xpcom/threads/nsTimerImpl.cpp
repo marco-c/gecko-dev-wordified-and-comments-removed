@@ -1737,6 +1737,9 @@ Fire
 "
 )
 ;
+#
+ifdef
+DEBUG_TIMERS
 TimeStamp
 now
 =
@@ -1747,9 +1750,6 @@ Now
 (
 )
 ;
-#
-ifdef
-DEBUG_TIMERS
 if
 (
 PR_LOG_TEST
