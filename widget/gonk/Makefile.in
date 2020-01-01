@@ -464,10 +464,6 @@ nsScreenManagerGonk
 .
 cpp
 \
-nsIdleServiceGonk
-.
-cpp
-\
 (
 NULL
 )
