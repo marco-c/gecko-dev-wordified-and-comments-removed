@@ -167,6 +167,10 @@ EventTarget
 .
 webidl
 \
+FileHandle
+.
+webidl
+\
 FileList
 .
 webidl
