@@ -1285,6 +1285,11 @@ arrayType
 )
 ;
 bool
+jsop_getelem_string
+(
+)
+;
+bool
 jsop_setelem
 (
 )
