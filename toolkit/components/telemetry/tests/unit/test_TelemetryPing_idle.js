@@ -91,7 +91,7 @@ Components
 .
 interfaces
 .
-nsIObserver
+nsITelemetryPing
 )
 .
 observe
