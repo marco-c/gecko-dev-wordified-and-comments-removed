@@ -637,7 +637,7 @@ ContentMap
 *
 sContentMap
 =
-NULL
+nullptr
 ;
 static
 ContentMap
@@ -842,9 +842,6 @@ s3DTransformPrefCached
 =
 true
 ;
-mozilla
-:
-:
 Preferences
 :
 :
@@ -1065,9 +1062,6 @@ true
 ;
 sUseBackgroundNearestFilteringEnabled
 =
-mozilla
-:
-:
 Preferences
 :
 :
@@ -1122,9 +1116,6 @@ true
 ;
 sGPUImageScalingEnabled
 =
-mozilla
-:
-:
 Preferences
 :
 :
@@ -19051,9 +19042,6 @@ IsCornerAdjacentToSide
 (
 uint8_t
 aCorner
-mozilla
-:
-:
 css
 :
 :
@@ -19212,9 +19200,6 @@ const
 nsStyleCorners
 &
 aCorners
-mozilla
-:
-:
 css
 :
 :
@@ -22661,9 +22646,6 @@ Initialize
 (
 )
 {
-mozilla
-:
-:
 Preferences
 :
 :
@@ -22682,9 +22664,6 @@ emPerLine
 "
 )
 ;
-mozilla
-:
-:
 Preferences
 :
 :
@@ -22703,9 +22682,6 @@ minTwips
 "
 )
 ;
-mozilla
-:
-:
 Preferences
 :
 :
@@ -22724,9 +22700,6 @@ lineThreshold
 "
 )
 ;
-mozilla
-:
-:
 Preferences
 :
 :
@@ -22764,7 +22737,7 @@ sContentMap
 ;
 sContentMap
 =
-NULL
+nullptr
 ;
 }
 }
