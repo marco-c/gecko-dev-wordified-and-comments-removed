@@ -16157,6 +16157,10 @@ UnsetExceptionHandler
 ;
 #
 endif
+XRE_DeinitCommandLine
+(
+)
+;
 return
 NS_FAILED
 (

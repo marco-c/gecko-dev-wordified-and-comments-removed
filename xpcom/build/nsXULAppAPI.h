@@ -509,6 +509,13 @@ aArgv
 ]
 )
 )
+XRE_API
+(
+nsresult
+XRE_DeinitCommandLine
+(
+)
+)
 class
 MessageLoop
 ;
