@@ -14028,7 +14028,6 @@ WinQueryQueueStatus
 HWND_DESKTOP
 )
 ;
-*
 aHasPending
 =
 !
