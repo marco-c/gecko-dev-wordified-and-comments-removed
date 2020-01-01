@@ -516,6 +516,9 @@ argArray
 (
 )
 {
+#
+ifdef
+DEBUG
 JSFunction
 &
 fun
@@ -535,6 +538,8 @@ nargs
 )
 )
 ;
+#
+endif
 return
 HeapSlotArray
 (
