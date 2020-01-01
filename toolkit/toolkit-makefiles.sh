@@ -4986,13 +4986,6 @@ src
 /
 Makefile
 "
-MAKEFILES_startupcache
-=
-"
-startupcache
-/
-Makefile
-"
 add_makefiles
 "
 MAKEFILES_db
@@ -5035,7 +5028,6 @@ MAKEFILES_zlib
 MAKEFILES_libmar
 MAKEFILES_lib7z
 MAKEFILES_extensions
-MAKEFILES_startupcache
 "
 #
 #
@@ -6024,11 +6016,6 @@ rdf
 tests
 /
 triplescat
-/
-Makefile
-startupcache
-/
-tests
 /
 Makefile
 testing

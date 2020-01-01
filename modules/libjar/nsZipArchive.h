@@ -311,17 +311,6 @@ nsZipItem
 aItem
 )
 ;
-PRBool
-CheckCRC
-(
-nsZipItem
-*
-aItem
-PRUint8
-*
-aData
-)
-;
 private
 :
 nsZipItem
