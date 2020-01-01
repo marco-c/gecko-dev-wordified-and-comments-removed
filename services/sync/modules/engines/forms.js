@@ -195,6 +195,13 @@ FormTracker
 _recordObj
 :
 FormRec
+get
+prefName
+(
+)
+"
+history
+"
 _syncStartup
 :
 function
