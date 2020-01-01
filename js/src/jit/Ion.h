@@ -266,7 +266,7 @@ exceptionBailoutThreshold
 )
 compileTryCatch
 (
-false
+true
 )
 maxStackArgs
 (
