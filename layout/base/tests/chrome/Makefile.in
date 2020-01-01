@@ -435,10 +435,6 @@ mk
 _CHROME_FILES
 =
 \
-paint_listener
-.
-js
-\
 test_bug370436
 .
 html
@@ -528,10 +524,6 @@ no_clip_iframe_window
 xul
 \
 no_clip_iframe_subdoc
-.
-html
-\
-test_prerendered_transforms
 .
 html
 \
