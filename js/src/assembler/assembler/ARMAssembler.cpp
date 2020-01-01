@@ -992,6 +992,17 @@ return
 1
 ;
 }
+#
+ifdef
+__GNUC__
+__attribute__
+(
+(
+warn_unused_result
+)
+)
+#
+endif
 ARMWord
 ARMAssembler
 :
