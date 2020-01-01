@@ -572,6 +572,10 @@ test_browserFrame4
 .
 html
 \
+test_browserFrame5
+.
+html
+\
 (
 NULL
 )

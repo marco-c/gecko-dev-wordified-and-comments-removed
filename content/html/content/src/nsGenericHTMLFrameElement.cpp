@@ -1423,6 +1423,16 @@ PRUint32
 aFlags
 )
 {
+if
+(
+!
+aURI
+)
+{
+return
+NS_OK
+;
+}
 nsCAutoString
 spec
 ;
