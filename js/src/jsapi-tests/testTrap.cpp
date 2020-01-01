@@ -230,15 +230,6 @@ cx
 JSOPTION_JIT
 )
 ;
-CHECK
-(
-JS_SetDebugMode
-(
-cx
-JS_TRUE
-)
-)
-;
 jsbytecode
 *
 line2
