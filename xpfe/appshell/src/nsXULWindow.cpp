@@ -8122,17 +8122,11 @@ NS_ERROR_FAILURE
 nsCxPusher
 pusher
 ;
-if
-(
-!
 pusher
 .
 PushNull
 (
 )
-)
-return
-NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
