@@ -150,7 +150,7 @@ bool
 mCharging
 ;
 double
-mDischargingTime
+mRemainingTime
 ;
 nsRefPtr
 <
@@ -169,6 +169,12 @@ nsRefPtr
 nsDOMEventListenerWrapper
 >
 mOnDischargingTimeChangeListener
+;
+nsRefPtr
+<
+nsDOMEventListenerWrapper
+>
+mOnChargingTimeChangeListener
 ;
 }
 ;
