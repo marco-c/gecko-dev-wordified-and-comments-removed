@@ -643,12 +643,6 @@ GetParent
 void
 )
 ;
-nsIWidget
-*
-GetTopLevelWidget
-(
-)
-;
 NS_IMETHOD
 ModalEventFilter
 (
