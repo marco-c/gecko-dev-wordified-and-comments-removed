@@ -11,7 +11,7 @@ _cairo_box_round_to_rectangle
 cairo_box_t
 *
 box
-cairo_rectangle_int16_t
+cairo_rectangle_int_t
 *
 rectangle
 )
@@ -90,10 +90,10 @@ y
 void
 _cairo_rectangle_intersect
 (
-cairo_rectangle_int16_t
+cairo_rectangle_int_t
 *
 dest
-cairo_rectangle_int16_t
+cairo_rectangle_int_t
 *
 src
 )
