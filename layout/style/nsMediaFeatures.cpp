@@ -507,12 +507,6 @@ Create
 2
 )
 ;
-NS_ENSURE_TRUE
-(
-a
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 a
 -
 >
