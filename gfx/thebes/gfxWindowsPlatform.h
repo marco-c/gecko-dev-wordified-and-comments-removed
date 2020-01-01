@@ -658,6 +658,11 @@ static
 PRInt32
 WindowsOSVersion
 (
+PRInt32
+*
+aBuildNum
+=
+nsnull
 )
 ;
 static
