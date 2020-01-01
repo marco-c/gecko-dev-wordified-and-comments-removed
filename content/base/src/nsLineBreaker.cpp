@@ -258,7 +258,7 @@ breakState
 Elements
 (
 )
-0
+PR_FALSE
 mCurrentWord
 .
 Length
@@ -434,7 +434,8 @@ PRUint32
 skipSet
 =
 i
->
+=
+=
 0
 ?
 1
