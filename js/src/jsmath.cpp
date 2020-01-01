@@ -486,10 +486,6 @@ JS_FALSE
 ;
 #
 if
-!
-JS_USE_FDLIBM_MATH
-&
-&
 defined
 (
 SOLARIS
@@ -620,10 +616,6 @@ JS_FALSE
 ;
 #
 if
-!
-JS_USE_FDLIBM_MATH
-&
-&
 defined
 (
 SOLARIS
@@ -917,10 +909,6 @@ vp
 endif
 #
 if
-!
-JS_USE_FDLIBM_MATH
-&
-&
 defined
 (
 SOLARIS
@@ -1488,10 +1476,6 @@ JS_FALSE
 ;
 #
 if
-!
-JS_USE_FDLIBM_MATH
-&
-&
 defined
 (
 SOLARIS
@@ -2999,10 +2983,6 @@ d
 {
 #
 if
-!
-JS_USE_FDLIBM_MATH
-&
-&
 defined
 (
 SOLARIS
