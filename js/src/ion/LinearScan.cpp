@@ -3577,7 +3577,7 @@ hint
 ;
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Processing
 %
@@ -3999,7 +3999,7 @@ NONE
 {
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Eagerly
 spilling
@@ -4045,7 +4045,7 @@ continue
 }
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Attempting
 free
@@ -4093,7 +4093,7 @@ bestCode
 ;
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Decided
 best
@@ -4154,7 +4154,7 @@ continue
 }
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Unable
 to
@@ -4203,7 +4203,7 @@ isPhi
 {
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Can
 '
@@ -4232,7 +4232,7 @@ continue
 }
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Attempting
 blocked
@@ -4302,7 +4302,7 @@ bestCode
 ;
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Decided
 best
@@ -4337,7 +4337,7 @@ continue
 }
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 No
 registers
@@ -5357,7 +5357,7 @@ false
 ;
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Split
 interval
@@ -5468,7 +5468,7 @@ isRegister
 )
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Assigning
 register
@@ -5618,7 +5618,7 @@ allocation
 {
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Splitting
 active
@@ -5816,7 +5816,7 @@ allocation
 {
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Splitting
 inactive
@@ -6016,7 +6016,7 @@ spill
 {
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Decided
 to
@@ -6053,7 +6053,7 @@ canonicalSpill
 {
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Allocating
 canonical
@@ -6342,7 +6342,7 @@ freeUntil
 {
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Computing
 freeUntilPos
@@ -6490,7 +6490,7 @@ toRegister
 ;
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Register
 %
@@ -6625,7 +6625,7 @@ pos
 ;
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Register
 %
@@ -6957,7 +6957,7 @@ nextUsed
 {
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Computing
 nextUsePos
@@ -7145,7 +7145,7 @@ MIN
 ;
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Disqualifying
 %
@@ -7210,7 +7210,7 @@ start
 ;
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Register
 %
@@ -7366,7 +7366,7 @@ pos
 ;
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Register
 %
@@ -8463,7 +8463,7 @@ go
 {
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Beginning
 register
@@ -8473,7 +8473,7 @@ allocation
 ;
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Beginning
 creation
@@ -8496,7 +8496,7 @@ false
 ;
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Creation
 of
@@ -8509,7 +8509,7 @@ completed
 ;
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Beginning
 liveness
@@ -8529,7 +8529,7 @@ false
 ;
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Liveness
 analysis
@@ -8539,7 +8539,7 @@ complete
 ;
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Beginning
 preliminary
@@ -8560,7 +8560,7 @@ false
 ;
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Preliminary
 register
@@ -8571,7 +8571,7 @@ complete
 ;
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Beginning
 control
@@ -8592,7 +8592,7 @@ false
 ;
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Control
 flow
@@ -8603,7 +8603,7 @@ complete
 ;
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Beginning
 register
@@ -8624,7 +8624,7 @@ false
 ;
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Register
 allocation
@@ -8635,7 +8635,7 @@ complete
 ;
 IonSpew
 (
-IonSpew_LSRA
+IonSpew_RegAlloc
 "
 Register
 allocation

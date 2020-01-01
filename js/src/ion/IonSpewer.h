@@ -107,7 +107,7 @@ LSRA
 \
 _
 (
-LSRA
+RegAlloc
 )
 \
 /
