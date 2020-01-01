@@ -628,7 +628,7 @@ force
 -
 tiles
 "
-false
+true
 )
 ;
 pref
@@ -4040,18 +4040,6 @@ endif
 pref
 (
 "
-webapps
-.
-update
-.
-interval
-"
-86400
-)
-;
-pref
-(
-"
 extensions
 .
 update
@@ -4562,7 +4550,7 @@ BACKGROUND_PERCEIVABLE
 .
 OomScoreAdjust
 "
-400
+200
 )
 ;
 pref
@@ -4610,7 +4598,7 @@ BACKGROUND_HOMESCREEN
 .
 OomScoreAdjust
 "
-534
+267
 )
 ;
 pref
@@ -4658,7 +4646,7 @@ BACKGROUND
 .
 OomScoreAdjust
 "
-667
+400
 )
 ;
 pref
