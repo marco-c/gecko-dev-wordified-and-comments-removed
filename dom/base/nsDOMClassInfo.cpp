@@ -22161,7 +22161,7 @@ mClassName
 thisAsVal
 nsnull
 nsnull
-JSPROP_PERMANENT
+0
 )
 ;
 return
