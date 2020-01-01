@@ -1310,14 +1310,6 @@ test_bug456262
 .
 html
 \
-test_bug482935
-.
-html
-\
-bug482935
-.
-sjs
-\
 test_bug590870
 .
 html
