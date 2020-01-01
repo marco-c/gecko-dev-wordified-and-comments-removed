@@ -1029,7 +1029,9 @@ left
 let
 otherright
 =
-otherright
+other
+.
+right
 ;
 let
 xok
@@ -2465,7 +2467,9 @@ left
 let
 otherright
 =
-otherright
+other
+.
+right
 ;
 let
 xok
