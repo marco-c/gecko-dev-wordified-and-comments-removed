@@ -1597,9 +1597,9 @@ Equal
 pic
 .
 shapeReg
-Imm32
+ImmTag
 (
-JSVAL_MASK32_FUNOBJ
+JSVAL_TAG_FUNOBJ
 )
 )
 ;
@@ -1669,7 +1669,7 @@ s
 .
 type
 .
-mask
+tag
 )
 address
 )
@@ -2719,7 +2719,7 @@ move
 (
 ImmTag
 (
-JSVAL_MASK32_INT32
+JSVAL_TAG_INT32
 )
 pic
 .
@@ -3143,9 +3143,9 @@ pic
 typeReg
 (
 )
-Imm32
+ImmTag
 (
-JSVAL_MASK32_STRING
+JSVAL_TAG_STRING
 )
 )
 ;
@@ -3195,7 +3195,7 @@ storeTypeTag
 (
 ImmTag
 (
-JSVAL_MASK32_STRING
+JSVAL_TAG_STRING
 )
 thisv
 )
@@ -3512,9 +3512,9 @@ pic
 typeReg
 (
 )
-Imm32
+ImmTag
 (
-JSVAL_MASK32_STRING
+JSVAL_TAG_STRING
 )
 )
 ;
@@ -3544,7 +3544,7 @@ move
 (
 ImmTag
 (
-JSVAL_MASK32_INT32
+JSVAL_TAG_INT32
 )
 pic
 .
@@ -6489,10 +6489,7 @@ isFunObj
 |
 |
 !
-PrimitiveValue
-:
-:
-test
+PrimitiveThisTest
 (
 GET_FUNCTION_PRIVATE
 (

@@ -136,7 +136,7 @@ isConstant
 )
 ;
 }
-JSValueMask32
+JSValueTag
 getTypeTag
 (
 )
@@ -147,9 +147,7 @@ v_
 .
 s
 .
-u
-.
-mask32
+tag
 ;
 }
 uint32
@@ -173,7 +171,7 @@ private
 void
 setTypeTag
 (
-JSValueMask32
+JSValueTag
 u32
 )
 {
@@ -187,9 +185,7 @@ v_
 .
 s
 .
-u
-.
-mask32
+tag
 =
 u32
 ;

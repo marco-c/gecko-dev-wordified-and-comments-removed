@@ -7607,7 +7607,7 @@ format
 &
 JOF_TMPSLOT_MASK
 )
-=
+>
 =
 JOF_TMPSLOT2
 )
