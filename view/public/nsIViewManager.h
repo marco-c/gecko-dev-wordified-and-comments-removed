@@ -556,13 +556,6 @@ UpdateViewBatch
 &
 aOther
 )
-:
-mRootVM
-(
-aOther
-.
-mRootVM
-)
 ;
 const
 UpdateViewBatch
