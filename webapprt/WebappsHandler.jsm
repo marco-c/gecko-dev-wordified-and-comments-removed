@@ -214,7 +214,7 @@ Services
 .
 wm
 .
-getOuterWindowById
+getOuterWindowWithId
 (
 data
 .
