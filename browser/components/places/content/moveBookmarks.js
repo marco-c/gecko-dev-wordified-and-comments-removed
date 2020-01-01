@@ -127,9 +127,12 @@ set
 var
 selectedFolderID
 =
-selectedNode
+PlacesUtils
 .
-itemId
+getConcreteItemId
+(
+selectedNode
+)
 ;
 var
 transactions
