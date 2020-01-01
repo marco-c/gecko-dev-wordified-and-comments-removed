@@ -2316,6 +2316,10 @@ ReleaseStatics
 ;
 protected
 :
+friend
+class
+nsRefreshDriver
+;
 nsIDocument
 *
 mDocument
@@ -2400,6 +2404,12 @@ mIsAccessibilityActive
 ;
 PRPackedBool
 mObservesMutationsForPrint
+;
+PRPackedBool
+mReflowScheduled
+;
+PRPackedBool
+mSuppressInterruptibleReflows
 ;
 nsWeakFrame
 *
