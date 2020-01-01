@@ -6868,7 +6868,7 @@ disp
 (
 StackPointer
 argcreg
-ScaleFromShift
+ScaleFromElemWidth
 (
 sizeof
 (
@@ -6967,7 +6967,7 @@ Imm32
 :
 ShiftOf
 (
-ScaleFromShift
+ScaleFromElemWidth
 (
 sizeof
 (
@@ -21276,7 +21276,7 @@ argPtr
 (
 StackPointer
 i
-ScaleFromShift
+ScaleFromElemWidth
 (
 sizeof
 (
@@ -26791,7 +26791,7 @@ arrayType
 )
 ;
 int
-shift
+width
 =
 TypedArray
 :
@@ -26833,7 +26833,7 @@ index
 )
 )
 *
-shift
+width
 )
 ;
 masm
@@ -26864,9 +26864,9 @@ index
 (
 )
 )
-ScaleFromShift
+ScaleFromElemWidth
 (
-shift
+width
 )
 )
 ;
@@ -27115,7 +27115,7 @@ arrayType
 )
 ;
 int
-shift
+width
 =
 TypedArray
 :
@@ -27147,7 +27147,7 @@ constant
 (
 )
 *
-shift
+width
 )
 ;
 masm
@@ -27184,9 +27184,9 @@ key
 reg
 (
 )
-ScaleFromShift
+ScaleFromElemWidth
 (
-shift
+width
 )
 )
 ;
@@ -27583,7 +27583,7 @@ arrayType
 )
 ;
 int
-shift
+width
 =
 TypedArray
 :
@@ -27622,7 +27622,7 @@ index
 )
 )
 *
-shift
+width
 )
 ;
 StoreToTypedArray
@@ -27649,9 +27649,9 @@ index
 (
 )
 )
-ScaleFromShift
+ScaleFromElemWidth
 (
-shift
+width
 )
 )
 ;
