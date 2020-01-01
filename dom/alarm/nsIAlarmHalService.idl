@@ -116,7 +116,7 @@ void
 onTimezoneChanged
 (
 in
-long
+PRInt32
 aTimezoneOffset
 )
 ;
@@ -184,10 +184,10 @@ bool
 setAlarm
 (
 in
-long
+PRInt32
 aSeconds
 in
-long
+PRInt32
 aNanoseconds
 )
 ;
