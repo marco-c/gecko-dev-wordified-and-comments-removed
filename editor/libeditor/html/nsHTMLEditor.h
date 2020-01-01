@@ -2699,6 +2699,7 @@ const
 nsAString
 *
 aAttribute
+const
 bool
 aChildrenOnly
 =
@@ -3846,10 +3847,6 @@ nsTextEditRules
 friend
 class
 nsWSRunObject
-;
-friend
-class
-nsHTMLEditorEventListener
 ;
 }
 ;
