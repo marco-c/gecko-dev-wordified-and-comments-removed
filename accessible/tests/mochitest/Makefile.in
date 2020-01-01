@@ -446,6 +446,10 @@ test_bug368835
 .
 xul
 \
+test_groupattrs
+.
+xul
+\
 (
 NULL
 )
