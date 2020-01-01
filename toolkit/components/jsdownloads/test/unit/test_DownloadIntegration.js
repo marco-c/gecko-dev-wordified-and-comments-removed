@@ -1374,9 +1374,13 @@ let
 privateList
 =
 yield
-promiseNewList
+Downloads
+.
+getList
 (
-true
+Downloads
+.
+PRIVATE
 )
 ;
 let
