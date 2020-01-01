@@ -5437,6 +5437,21 @@ a
 [
 file
 ]
+                        
+stdout
+=
+open
+(
+"
+/
+dev
+/
+null
+"
+"
+w
+"
+)
 )
         
 if
