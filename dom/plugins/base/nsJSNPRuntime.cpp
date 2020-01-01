@@ -4330,6 +4330,14 @@ obj
 ;
 if
 (
+!
+npobj
+)
+return
+nsnull
+;
+if
+(
 LookupNPP
 (
 npobj
