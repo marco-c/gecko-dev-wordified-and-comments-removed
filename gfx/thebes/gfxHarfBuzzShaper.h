@@ -204,7 +204,10 @@ mutable
 PRUint32
 mUVSTableOffset
 ;
-PRBool
+PRPackedBool
+mUseFontGetGlyph
+;
+PRPackedBool
 mUseHintedWidths
 ;
 }
