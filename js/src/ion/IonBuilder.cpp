@@ -16716,9 +16716,6 @@ jsop_getelem_dense
 (
 )
 ;
-#
-ifndef
-JS_CPU_ARM
 int
 arrayType
 =
@@ -16746,8 +16743,6 @@ jsop_getelem_typed
 arrayType
 )
 ;
-#
-endif
 MDefinition
 *
 rhs

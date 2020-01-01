@@ -934,7 +934,7 @@ fail
 ;
 }
 void
-load8
+load8ZeroExtend
 (
 const
 Address
@@ -957,7 +957,7 @@ dest
 ;
 }
 void
-load8
+load8ZeroExtend
 (
 const
 BaseIndex
@@ -1056,7 +1056,7 @@ dest
 ;
 }
 void
-load16
+load16ZeroExtend
 (
 const
 Address
@@ -1079,7 +1079,7 @@ dest
 ;
 }
 void
-load16
+load16ZeroExtend
 (
 const
 BaseIndex
@@ -1132,7 +1132,7 @@ dest
 ;
 }
 void
-load16_mask
+load16ZeroExtend_mask
 (
 const
 Address
@@ -1412,7 +1412,7 @@ dest
 ;
 }
 void
-loadFloat
+loadFloatAsDouble
 (
 const
 Address
@@ -1439,7 +1439,7 @@ dest
 ;
 }
 void
-loadFloat
+loadFloatAsDouble
 (
 const
 BaseIndex

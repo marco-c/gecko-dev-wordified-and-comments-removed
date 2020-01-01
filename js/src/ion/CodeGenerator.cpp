@@ -2668,7 +2668,7 @@ flags
 ;
 masm
 .
-load16_mask
+load16ZeroExtend_mask
 (
 flags
 Imm32
@@ -2845,7 +2845,7 @@ else
 {
 masm
 .
-load16
+load16ZeroExtend
 (
 Address
 (
@@ -6973,7 +6973,7 @@ output
 ;
 masm
 .
-load16
+load16ZeroExtend
 (
 BaseIndex
 (

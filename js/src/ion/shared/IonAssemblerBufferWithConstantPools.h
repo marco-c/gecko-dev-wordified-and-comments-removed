@@ -3050,6 +3050,7 @@ getOffset
 (
 )
 >
+=
 perforation
 .
 getOffset

@@ -6435,6 +6435,14 @@ ls
 IsStore
 )
 ;
+extra_bits1
+=
+0x1
+;
+extra_bits2
+=
+0x2
+;
 break
 ;
 case
