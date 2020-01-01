@@ -2004,7 +2004,10 @@ GetAtomCount
 (
 )
 >
+PRUint32
+(
 aIndex
+)
 "
 aIndex
 out
