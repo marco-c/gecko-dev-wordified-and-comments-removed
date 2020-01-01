@@ -1005,12 +1005,6 @@ Connection
 sharedAsyncExecutionMutex
 "
 )
-threadOpenedOn
-(
-do_GetCurrentThread
-(
-)
-)
 mDBConn
 (
 nsnull
@@ -1071,6 +1065,12 @@ ProgressHandlerMutex
 mProgressHandler
 (
 nsnull
+)
+mOpenedThread
+(
+do_GetCurrentThread
+(
+)
 )
 mStorageService
 (
@@ -2042,7 +2042,7 @@ onOpenedThread
 nsresult
 rv
 =
-threadOpenedOn
+mOpenedThread
 -
 >
 IsOnCurrentThread
@@ -2161,7 +2161,7 @@ PR_FALSE
 (
 void
 )
-threadOpenedOn
+mOpenedThread
 -
 >
 IsOnCurrentThread
