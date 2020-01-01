@@ -1181,7 +1181,6 @@ ReadCMAP
 cmap
 size
 mCharacterMap
-mUnicodeRanges
 unicodeFont
 symbolFont
 )
