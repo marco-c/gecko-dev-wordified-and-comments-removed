@@ -76,6 +76,13 @@ nsImageFrame
 h
 "
 #
+include
+"
+nsRenderingContext
+.
+h
+"
+#
 ifdef
 DEBUG
 #

@@ -232,13 +232,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsIDeviceContext
 .
 h

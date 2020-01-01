@@ -43,6 +43,13 @@ h
 #
 include
 "
+nsRenderingContext
+.
+h
+"
+#
+include
+"
 prprf
 .
 h

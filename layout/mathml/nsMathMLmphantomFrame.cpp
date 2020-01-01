@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsIFontMetrics
 .
 h

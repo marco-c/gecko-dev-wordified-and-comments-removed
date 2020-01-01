@@ -374,6 +374,13 @@ nsPLDOMEvent
 .
 h
 "
+#
+include
+"
+nsRenderingContext
+.
+h
+"
 namespace
 dom
 =

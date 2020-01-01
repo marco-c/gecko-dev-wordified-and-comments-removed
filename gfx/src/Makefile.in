@@ -555,6 +555,10 @@ nsIThebesFontMetrics
 .
 h
 \
+nsBoundingMetrics
+.
+h
+\
 (
 NULL
 )

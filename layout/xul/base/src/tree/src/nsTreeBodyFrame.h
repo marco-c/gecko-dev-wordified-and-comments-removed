@@ -1386,13 +1386,6 @@ PRInt32
 aY
 )
 ;
-nsLineStyle
-ConvertBorderStyleToLineStyle
-(
-PRUint8
-aBorderStyle
-)
-;
 void
 EnsureBoxObject
 (

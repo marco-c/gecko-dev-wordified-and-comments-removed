@@ -565,6 +565,13 @@ h
 #
 include
 "
+nsRenderingContext
+.
+h
+"
+#
+include
+"
 nsIPrompt
 .
 h

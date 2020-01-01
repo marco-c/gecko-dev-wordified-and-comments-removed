@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsRenderingContext
+nsBoundingMetrics
 .
 h
 "

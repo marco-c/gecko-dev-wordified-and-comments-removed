@@ -134,6 +134,13 @@ h
 #
 include
 "
+nsRenderingContext
+.
+h
+"
+#
+include
+"
 nsWidgetAtoms
 .
 h

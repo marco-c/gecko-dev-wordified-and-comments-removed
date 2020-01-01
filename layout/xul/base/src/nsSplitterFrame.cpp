@@ -43,6 +43,13 @@ h
 #
 include
 "
+nsRenderingContext
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h

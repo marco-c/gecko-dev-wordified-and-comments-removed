@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 gfxContext
 .
 h

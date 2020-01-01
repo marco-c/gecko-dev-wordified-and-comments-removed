@@ -7,13 +7,6 @@ nsCSSRendering_h___
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsStyleConsts
 .
 h
@@ -47,6 +40,9 @@ nsStyleContext
 ;
 class
 nsPresContext
+;
+class
+nsRenderingContext
 ;
 struct
 nsCSSRendering

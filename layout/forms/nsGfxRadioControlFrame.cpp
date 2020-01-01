@@ -27,6 +27,13 @@ nsCSSRendering
 h
 "
 #
+include
+"
+nsRenderingContext
+.
+h
+"
+#
 ifdef
 ACCESSIBILITY
 #

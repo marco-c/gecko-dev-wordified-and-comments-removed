@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsCSSRendering
 .
 h

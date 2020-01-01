@@ -291,6 +291,13 @@ FrameLayerBuilder
 h
 "
 #
+include
+"
+nsRenderingContext
+.
+h
+"
+#
 ifdef
 IBMBIDI
 #

@@ -74,13 +74,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsICanvasRenderingContextInternal
 .
 h

@@ -273,13 +273,6 @@ h
 #
 include
 "
-nsRenderingContext
-.
-h
-"
-#
-include
-"
 nsIDOMNSHTMLDocument
 .
 h

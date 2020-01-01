@@ -505,6 +505,13 @@ h
 #
 include
 "
+nsRenderingContext
+.
+h
+"
+#
+include
+"
 nsIPageSequenceFrame
 .
 h
