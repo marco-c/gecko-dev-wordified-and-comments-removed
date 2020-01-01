@@ -535,6 +535,7 @@ GARBAGE_DIRS
 =
 dist
 _javagen
+_profile
 _tests
 staticlib
 DIST_GARBAGE

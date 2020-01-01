@@ -587,3 +587,15 @@ installer
 make
 -
 sdk
+distclean
+:
+:
+(
+MAKE
+)
+-
+C
+xulrunner
+/
+installer
+distclean
