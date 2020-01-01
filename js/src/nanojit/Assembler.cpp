@@ -6059,6 +6059,9 @@ ins
 ;
 }
 }
+#
+ifdef
+NJ_VERBOSE
 if
 (
 _logc
@@ -6141,6 +6144,8 @@ oprnd1
 ;
 }
 }
+#
+endif
 if
 (
 error
