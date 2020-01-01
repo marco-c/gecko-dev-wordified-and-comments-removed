@@ -1177,7 +1177,7 @@ imeOptions
 =
 EditorInfo
 .
-IME_ACTION_GO
+IME_ACTION_NONE
 ;
 mKeyListener
 =
