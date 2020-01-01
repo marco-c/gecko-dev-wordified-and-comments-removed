@@ -3834,7 +3834,11 @@ forget
 get
 (
 )
+IPCTabContext
+(
 context
+mScrolling
+)
 0
 )
 ;

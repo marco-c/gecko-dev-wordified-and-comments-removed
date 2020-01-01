@@ -1386,6 +1386,9 @@ bool
 mIsAlive
 ;
 bool
+mIsDestroyed
+;
+bool
 mSendPermissionUpdates
 ;
 bool
