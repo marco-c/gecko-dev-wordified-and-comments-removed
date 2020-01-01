@@ -18738,9 +18738,6 @@ tabstrip
 /
 0
 -
-activetab
-=
-close
 button
 on
 active
@@ -18750,8 +18747,6 @@ only
 /
 1
 -
-alltabs
-=
 close
 buttons
 on
@@ -18761,8 +18756,6 @@ tabs
 /
 2
 -
-noclose
-=
 no
 close
 buttons
@@ -18772,8 +18765,6 @@ all
 /
 3
 -
-closeatend
-=
 close
 button
 at
@@ -18816,7 +18807,7 @@ setAttribute
 closebuttons
 "
 "
-noclose
+hidden
 "
 )
 ;
@@ -18864,7 +18855,7 @@ setAttribute
 closebuttons
 "
 "
-noclose
+hidden
 "
 )
 ;
@@ -18959,7 +18950,7 @@ setAttribute
 closebuttons
 "
 "
-noclose
+never
 "
 )
 ;
