@@ -250,15 +250,6 @@ NULL
 )
 endif
 ifdef
-MOZ_METRO
-REDIST_FILES
-+
-=
-vccorlib110
-.
-dll
-endif
-ifdef
 REDIST_FILES
 libs
 -
