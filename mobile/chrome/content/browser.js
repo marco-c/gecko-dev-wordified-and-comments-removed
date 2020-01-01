@@ -5127,6 +5127,16 @@ indexOf
 tab
 )
 ;
+if
+(
+tabIndex
+=
+=
+-
+1
+)
+return
+;
 let
 nextTab
 =
