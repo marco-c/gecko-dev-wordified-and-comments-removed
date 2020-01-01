@@ -157,6 +157,10 @@ GainNode
 .
 cpp
 \
+MediaBufferDecoder
+.
+cpp
+\
 PannerNode
 .
 cpp

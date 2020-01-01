@@ -96,6 +96,14 @@ WMFDecoder
 .
 h
 \
+WMFReader
+.
+h
+\
+WMF
+.
+h
+\
 (
 NULL
 )
