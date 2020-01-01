@@ -418,6 +418,13 @@ bool_valueOf
 0
 JSFUN_THISP_BOOLEAN
 )
+JS_FN
+(
+js_toJSON_str
+bool_valueOf
+0
+JSFUN_THISP_BOOLEAN
+)
 JS_FS_END
 }
 ;
