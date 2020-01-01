@@ -83,6 +83,10 @@ HashFunctions
 .
 cpp
 \
+Poison
+.
+cpp
+\
 SHA1
 .
 cpp

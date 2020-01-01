@@ -101,13 +101,3 @@ TEST_DIRS
 chrome
 '
 ]
-TEST_TOOL_DIRS
-+
-=
-[
-'
-cpp
--
-tests
-'
-]

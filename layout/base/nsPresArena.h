@@ -244,12 +244,6 @@ nsArenaMemoryStats
 aArenaStats
 )
 ;
-static
-uintptr_t
-GetPoisonValue
-(
-)
-;
 private
 :
 NS_HIDDEN_
