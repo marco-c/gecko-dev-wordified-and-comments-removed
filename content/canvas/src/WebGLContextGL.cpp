@@ -3888,6 +3888,17 @@ target
 "
 )
 ;
+WebGLint
+face
+=
+WebGLTexture
+:
+:
+FaceForTarget
+(
+target
+)
+;
 WebGLsizei
 texWidth
 =
@@ -3897,7 +3908,7 @@ tex
 ImageInfoAt
 (
 level
-0
+face
 )
 .
 mWidth
@@ -3911,7 +3922,7 @@ tex
 ImageInfoAt
 (
 level
-0
+face
 )
 .
 mHeight
@@ -3985,7 +3996,7 @@ tex
 ImageInfoAt
 (
 level
-0
+face
 )
 .
 mFormat
