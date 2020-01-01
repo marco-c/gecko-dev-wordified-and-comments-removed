@@ -153,6 +153,10 @@ browser_privatebrowsing_openlocation
 .
 js
 \
+browser_privatebrowsing_popupblocker
+.
+js
+\
 browser_privatebrowsing_theming
 .
 js
@@ -160,6 +164,10 @@ js
 browser_privatebrowsing_zoomrestore
 .
 js
+\
+popup
+.
+html
 \
 (
 NULL
