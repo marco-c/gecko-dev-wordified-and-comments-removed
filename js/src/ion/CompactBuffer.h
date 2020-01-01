@@ -16,6 +16,13 @@ h
 #
 include
 "
+jsalloc
+.
+h
+"
+#
+include
+"
 IonTypes
 .
 h
