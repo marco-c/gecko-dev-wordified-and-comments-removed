@@ -373,7 +373,7 @@ JS_ASSERT
 ion
 :
 :
-IsEnabled
+IsBaselineEnabled
 (
 cx
 )
@@ -988,6 +988,17 @@ StackFrame
 fp
 )
 {
+JS_ASSERT
+(
+ion
+:
+:
+IsBaselineEnabled
+(
+cx
+)
+)
+;
 if
 (
 script
