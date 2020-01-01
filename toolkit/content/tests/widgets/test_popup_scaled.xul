@@ -737,6 +737,12 @@ screenTest
 =
 true
 ;
+setScale
+(
+window
+2
+)
+;
 screenx
 =
 document
@@ -760,12 +766,6 @@ boxObject
 screenY
 +
 50
-;
-setScale
-(
-window
-2
-)
 ;
 (
 "
