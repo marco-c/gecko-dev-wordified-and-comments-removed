@@ -1342,6 +1342,7 @@ PR_FALSE
 }
 if
 (
+!
 CanEnableSpellCheck
 (
 )
