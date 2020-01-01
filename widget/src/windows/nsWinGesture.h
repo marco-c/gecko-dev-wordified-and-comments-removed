@@ -451,11 +451,6 @@ nsWinGesture
 (
 )
 ;
-~
-nsWinGesture
-(
-)
-;
 public
 :
 PRBool
@@ -804,11 +799,6 @@ updatePanningFeedback
 ;
 PRBool
 InitLibrary
-(
-)
-;
-void
-ShutdownLibrary
 (
 )
 ;
