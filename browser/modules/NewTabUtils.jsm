@@ -679,6 +679,13 @@ indexOf
 aPage
 )
 ;
+if
+(
+index
+>
+-
+1
+)
 this
 .
 _pages
