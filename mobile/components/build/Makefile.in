@@ -489,10 +489,6 @@ idl
 CPPSRCS
 =
 \
-nsSSLCertErrorDialog
-.
-cpp
-\
 nsBrowserModule
 .
 cpp
