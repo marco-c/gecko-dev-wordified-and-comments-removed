@@ -1330,6 +1330,10 @@ test_w3element_traversal
 .
 xhtml
 \
+test_bug469020
+.
+html
+\
 test_w3element_traversal_svg
 .
 html
