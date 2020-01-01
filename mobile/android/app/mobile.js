@@ -4368,9 +4368,6 @@ warn_viewing_mixed
 false
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -4383,8 +4380,6 @@ block_active_content
 true
 )
 ;
-#
-endif
 pref
 (
 "
