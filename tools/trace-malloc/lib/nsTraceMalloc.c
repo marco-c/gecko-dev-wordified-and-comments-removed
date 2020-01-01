@@ -1351,6 +1351,8 @@ strlen
 (
 str
 )
++
+1
 ;
 while
 (
@@ -1379,7 +1381,7 @@ len
 -
 rem
 ;
-strncpy
+memcpy
 (
 &
 fp
@@ -1419,7 +1421,7 @@ len
 rem
 ;
 }
-strncpy
+memcpy
 (
 &
 fp
@@ -1443,15 +1445,6 @@ pos
 +
 =
 len
-;
-log_byte
-(
-fp
-'
-\
-0
-'
-)
 ;
 }
 static
