@@ -2518,6 +2518,16 @@ ionJSContext
 uintptr_t
 ionStackLimit
 ;
+void
+resetIonStackLimit
+(
+)
+{
+ionStackLimit
+=
+nativeStackLimit
+;
+}
 js
 :
 :

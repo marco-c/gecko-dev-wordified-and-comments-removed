@@ -6700,14 +6700,14 @@ JSContext
 static
 const
 VMFunction
-ReportOverRecursedInfo
+CheckOverRecursedInfo
 =
 FunctionInfo
 <
 pf
 >
 (
-ReportOverRecursed
+CheckOverRecursed
 )
 ;
 saveLive
@@ -6725,7 +6725,7 @@ if
 !
 callVM
 (
-ReportOverRecursedInfo
+CheckOverRecursedInfo
 ool
 -
 >

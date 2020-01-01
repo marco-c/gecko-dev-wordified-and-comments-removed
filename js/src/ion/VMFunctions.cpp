@@ -418,7 +418,7 @@ thingSize
 ;
 }
 bool
-ReportOverRecursed
+CheckOverRecursed
 (
 JSContext
 *
@@ -448,13 +448,8 @@ InterruptCheck
 cx
 )
 ;
-js_ReportOverRecursed
-(
-cx
-)
-;
 return
-false
+true
 ;
 }
 bool
