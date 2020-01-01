@@ -462,7 +462,7 @@ mode
 ENTITY
 netOffline
 .
-longDesc
+longDesc2
 "
 <
 ul
@@ -479,10 +479,6 @@ Offline
 &
 quot
 ;
-in
-the
-File
-menu
 then
 try
 again
