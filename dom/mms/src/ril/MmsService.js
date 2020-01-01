@@ -4627,7 +4627,7 @@ address
 }
 else
 {
-record
+intermediate
 .
 sender
 =
