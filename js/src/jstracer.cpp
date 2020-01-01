@@ -27437,6 +27437,9 @@ ifdef
 JS_JIT_SPEW
 if
 (
+js_verboseDebug
+&
+&
 jitstats
 .
 recorderStarted
