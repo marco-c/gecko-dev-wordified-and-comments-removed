@@ -3075,7 +3075,7 @@ Length
 NS_ENSURE_TRUE
 (
 JsData
-NS_ERROR_OUT_OF_MEMORY
+false
 )
 ;
 v

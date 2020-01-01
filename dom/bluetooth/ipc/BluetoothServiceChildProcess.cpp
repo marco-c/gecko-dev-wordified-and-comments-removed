@@ -598,7 +598,7 @@ aDevicePath
 path
 ;
 return
-NS_OK
+true
 ;
 }
 nsresult
