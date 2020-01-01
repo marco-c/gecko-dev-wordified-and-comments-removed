@@ -962,7 +962,7 @@ visibleBounds
 =
 ws
 .
-viewingRect
+viewportVisibleRect
 ;
 pageBounds
 .
