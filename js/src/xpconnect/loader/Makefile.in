@@ -454,9 +454,6 @@ EXTRA_JS_MODULES
 XPCOMUtils
 .
 jsm
-JSON
-.
-jsm
 ISO8601DateUtils
 .
 jsm
