@@ -1425,6 +1425,14 @@ nsIURI
 aURI
 )
 ;
+PRBool
+IsOKToLoadURI
+(
+nsIURI
+*
+aURI
+)
+;
 protected
 :
 virtual
@@ -1699,6 +1707,12 @@ nsRefPtr
 nsClassifierCallback
 >
 mClassifier
+;
+nsCOMPtr
+<
+nsIURI
+>
+mLoadingURI
 ;
 nsIDocShellTreeOwner
 *
