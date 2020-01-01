@@ -173,6 +173,9 @@ certs
 .
 xul
 )
+#
+ifndef
+MOZ_PHOENIX
 content
 /
 pippki
@@ -187,6 +190,8 @@ PageInfoOverlay
 .
 xul
 )
+#
+endif
 content
 /
 pippki
