@@ -729,6 +729,10 @@ jsbool
 .
 cpp
 \
+jsclone
+.
+cpp
+\
 jscntxt
 .
 cpp
@@ -950,6 +954,10 @@ jsbool
 h
 \
 jsclist
+.
+h
+\
+jsclone
 .
 h
 \

@@ -3939,6 +3939,11 @@ JSSecurityCallbacks
 *
 securityCallbacks
 ;
+const
+JSStructuredCloneCallbacks
+*
+structuredCloneCallbacks
+;
 js
 :
 :
