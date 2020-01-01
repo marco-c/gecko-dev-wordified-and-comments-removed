@@ -1915,6 +1915,13 @@ pAcc
 ;
 #
 endif
+void
+UpdateWindowInternal
+(
+HWND
+aWnd
+)
+;
 protected
 :
 nsIntSize
