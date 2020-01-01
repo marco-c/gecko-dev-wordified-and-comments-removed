@@ -11132,6 +11132,9 @@ Length
 )
 ;
 }
+PRInt32
+shift
+=
 ReplaceSegment
 (
 mRef
@@ -11149,13 +11152,7 @@ mPath
 mLen
 +
 =
-(
-refLen
--
-mRef
-.
-mLen
-)
+shift
 ;
 mRef
 .
