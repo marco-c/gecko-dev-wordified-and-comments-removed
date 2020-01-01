@@ -70,7 +70,7 @@ true
 ;
 browserElementTestHelpers
 .
-addToWhitelist
+addPermission
 (
 )
 ;
