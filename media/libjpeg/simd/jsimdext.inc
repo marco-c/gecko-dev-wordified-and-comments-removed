@@ -720,10 +720,6 @@ align
 16
 %
 endif
-%
-define
-STRICT_MEMORY_ACCESS
-1
 ;
 To
 make
