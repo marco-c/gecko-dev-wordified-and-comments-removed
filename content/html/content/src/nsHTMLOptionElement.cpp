@@ -1318,9 +1318,14 @@ argv
 ;
 if
 (
+!
 jsstr
 )
 {
+return
+NS_ERROR_FAILURE
+;
+}
 nsCOMPtr
 <
 nsIContent
@@ -1398,7 +1403,6 @@ result
 return
 result
 ;
-}
 }
 if
 (
