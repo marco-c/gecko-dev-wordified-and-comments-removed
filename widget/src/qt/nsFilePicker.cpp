@@ -68,15 +68,6 @@ qstringlist
 .
 h
 >
-#
-include
-<
-Qt3Support
-/
-q3cstring
-.
-h
->
 NS_IMPL_ISUPPORTS1
 (
 nsFilePicker
@@ -797,7 +788,7 @@ files
 ]
 ;
 }
-Q3CString
+QString
 path
 =
 QFile
@@ -830,6 +821,10 @@ mFile
 Assign
 (
 path
+.
+toUtf8
+(
+)
 .
 data
 (
