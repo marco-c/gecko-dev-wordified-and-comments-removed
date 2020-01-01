@@ -380,6 +380,10 @@ test_src_url_change
 .
 html
 \
+test_secondPlugin
+.
+html
+\
 (
 NULL
 )

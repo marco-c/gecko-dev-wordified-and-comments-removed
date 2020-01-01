@@ -956,6 +956,11 @@ Test
 .
 plugin
 /
+\
+SecondTest
+.
+plugin
+/
 else
 TEST_HARNESS_PLUGINS
 :
@@ -965,6 +970,14 @@ TEST_HARNESS_PLUGINS
 DLL_PREFIX
 )
 nptest
+(
+DLL_SUFFIX
+)
+\
+(
+DLL_PREFIX
+)
+npsecondtest
 (
 DLL_SUFFIX
 )
