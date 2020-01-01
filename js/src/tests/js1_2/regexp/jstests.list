@@ -21,14 +21,6 @@ script
 RegExp_dollar_number
 .
 js
-script
-RegExp_input
-.
-js
-script
-RegExp_input_as_array
-.
-js
 skip
 script
 RegExp_lastIndex

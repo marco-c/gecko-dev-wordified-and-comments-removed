@@ -170,6 +170,16 @@ message
 .
 js
 script
+regexp
+-
+functions
+-
+with
+-
+undefined
+.
+js
+script
 unnamed
 -
 function

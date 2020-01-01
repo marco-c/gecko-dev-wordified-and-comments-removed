@@ -219,8 +219,7 @@ call
 abc
 "
 )
--
-1
+0
 )
 ;
 assertEq
@@ -303,8 +302,7 @@ apply
 abc
 "
 )
--
-1
+0
 )
 ;
 assertEq
