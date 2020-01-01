@@ -1216,7 +1216,7 @@ nsHttpConnectionInfo
 *
 )
 ;
-bool
+nsresult
 MakeNewConnection
 (
 nsConnectionEntry

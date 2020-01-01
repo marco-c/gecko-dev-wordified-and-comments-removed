@@ -1274,7 +1274,7 @@ aArgc
 1
 )
 return
-1
+NS_ERROR_FAILURE
 ;
 const
 char
@@ -1330,7 +1330,7 @@ failed
 )
 ;
 return
-1
+NS_ERROR_FAILURE
 ;
 }
 ReceivePort
@@ -1368,7 +1368,7 @@ failed
 )
 ;
 return
-1
+NS_ERROR_FAILURE
 ;
 }
 MachPortSender
@@ -1408,7 +1408,7 @@ failed
 )
 ;
 return
-1
+NS_ERROR_FAILURE
 ;
 }
 MachReceiveMessage
@@ -1445,7 +1445,7 @@ failed
 )
 ;
 return
-1
+NS_ERROR_FAILURE
 ;
 }
 if
@@ -1474,7 +1474,7 @@ failed
 )
 ;
 return
-1
+NS_ERROR_FAILURE
 ;
 }
 err
@@ -1512,7 +1512,7 @@ failed
 )
 ;
 return
-1
+NS_ERROR_FAILURE
 ;
 }
 #
@@ -1538,7 +1538,7 @@ aArgc
 1
 )
 return
-1
+NS_ERROR_FAILURE
 ;
 const
 char

@@ -291,7 +291,7 @@ mozInlineSpellStatus
 :
 InitForEditorChange
 (
-PRInt32
+OperationID
 aAction
 nsIDOMNode
 *
@@ -364,10 +364,10 @@ if
 aAction
 =
 =
-nsEditor
+OperationID
 :
 :
-kOpDeleteSelection
+deleteSelection
 )
 {
 mOp
@@ -493,10 +493,10 @@ if
 aAction
 =
 =
-nsEditor
+OperationID
 :
 :
-kOpInsertText
+insertText
 )
 mCreatedRange
 =
@@ -2504,6 +2504,9 @@ status
 .
 InitForEditorChange
 (
+(
+OperationID
+)
 aAction
 anchorNode
 anchorOffset

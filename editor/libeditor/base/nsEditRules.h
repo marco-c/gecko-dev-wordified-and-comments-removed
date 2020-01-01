@@ -44,9 +44,6 @@ public
 :
 nsRulesInfo
 (
-nsEditor
-:
-:
 OperationID
 aAction
 )
@@ -64,9 +61,6 @@ nsRulesInfo
 )
 {
 }
-nsEditor
-:
-:
 OperationID
 action
 ;
@@ -104,9 +98,6 @@ DetachEditor
 NS_IMETHOD
 BeforeEdit
 (
-nsEditor
-:
-:
 OperationID
 action
 nsIEditor
@@ -121,9 +112,6 @@ aDirection
 NS_IMETHOD
 AfterEdit
 (
-nsEditor
-:
-:
 OperationID
 action
 nsIEditor

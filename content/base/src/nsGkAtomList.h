@@ -1757,6 +1757,13 @@ dir
 )
 GK_ATOM
 (
+directionality
+"
+directionality
+"
+)
+GK_ATOM
+(
 disableOutputEscaping
 "
 disable
