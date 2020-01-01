@@ -17127,6 +17127,9 @@ needsHoleCheck_
 bool
 loadDoubles_
 ;
+bool
+knownImmutable_
+;
 MLoadElement
 (
 MDefinition
@@ -17139,6 +17142,8 @@ bool
 needsHoleCheck
 bool
 loadDoubles
+bool
+knownImmutable
 )
 :
 MBinaryInstruction
@@ -17153,6 +17158,10 @@ needsHoleCheck
 loadDoubles_
 (
 loadDoubles
+)
+knownImmutable_
+(
+knownImmutable
 )
 {
 setResultType
@@ -17212,6 +17221,8 @@ bool
 needsHoleCheck
 bool
 loadDoubles
+bool
+knownImmutable
 )
 {
 return
@@ -17222,6 +17233,7 @@ elements
 index
 needsHoleCheck
 loadDoubles
+knownImmutable
 )
 ;
 }
@@ -17301,6 +17313,18 @@ getAliasSet
 )
 const
 {
+if
+(
+knownImmutable_
+)
+return
+AliasSet
+:
+:
+None
+(
+)
+;
 return
 AliasSet
 :
