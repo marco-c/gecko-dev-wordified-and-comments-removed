@@ -15014,11 +15014,12 @@ ac
 ;
 if
 (
-sobj
--
->
+JSCrossCompartmentWrapper
+:
+:
 isCrossCompartmentWrapper
 (
+sobj
 )
 )
 {
