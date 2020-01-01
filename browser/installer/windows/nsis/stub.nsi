@@ -1305,10 +1305,6 @@ different
 by
 design
 .
-Click
-to
-install
-.
 "
 !
 define
@@ -1414,7 +1410,7 @@ define
 INTRO_BLURB
 "
 (
-INTRO_BLURB
+INTRO_BLURB1
 )
 "
 !
