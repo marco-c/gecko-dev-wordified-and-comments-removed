@@ -2809,6 +2809,7 @@ content
 "
 )
 ;
+return
 browser
 .
 loadOneTab
@@ -2903,6 +2904,7 @@ documentURIObject
 :
 aReferrer
 ;
+return
 window
 .
 openDialog
