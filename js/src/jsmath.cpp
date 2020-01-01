@@ -985,7 +985,7 @@ vp
 static
 inline
 jsdouble
-FASTCALL
+JS_FASTCALL
 math_ceil_kernel
 (
 jsdouble
