@@ -5498,12 +5498,6 @@ if
 isArray
 )
 {
-XPCLazyCallContext
-lccx
-(
-ccx
-)
-;
 if
 (
 !
