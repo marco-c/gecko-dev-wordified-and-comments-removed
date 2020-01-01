@@ -4218,6 +4218,13 @@ math_constants
 return
 NULL
 ;
+MarkStandardClassInitializedNoProto
+(
+obj
+&
+js_MathClass
+)
+;
 return
 Math
 ;

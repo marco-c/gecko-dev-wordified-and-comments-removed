@@ -16904,6 +16904,15 @@ Reflect
 if
 (
 !
+IsStandardClassResolved
+(
+obj
+&
+js_ReflectClass
+)
+&
+&
+!
 js_InitReflectClass
 (
 cx

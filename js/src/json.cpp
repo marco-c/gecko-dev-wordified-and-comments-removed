@@ -7387,6 +7387,13 @@ json_static_methods
 return
 NULL
 ;
+MarkStandardClassInitializedNoProto
+(
+obj
+&
+js_JSONClass
+)
+;
 return
 JSON
 ;
