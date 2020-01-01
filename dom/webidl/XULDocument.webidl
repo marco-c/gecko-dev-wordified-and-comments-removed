@@ -120,6 +120,13 @@ MozBoxObject
 interface
 MozObserver
 ;
+[
+Func
+=
+"
+IsChromeOrXBL
+"
+]
 interface
 XULDocument
 :

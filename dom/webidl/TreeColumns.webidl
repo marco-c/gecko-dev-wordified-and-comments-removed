@@ -63,7 +63,11 @@ interface
 MozTreeColumn
 ;
 [
-ChromeOnly
+Func
+=
+"
+IsChromeOrXBL
+"
 ]
 interface
 TreeColumns

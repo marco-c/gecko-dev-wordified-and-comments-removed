@@ -94,6 +94,13 @@ MPL
 interface
 WindowProxy
 ;
+[
+Func
+=
+"
+IsChromeOrXBL
+"
+]
 interface
 XULCommandEvent
 :
