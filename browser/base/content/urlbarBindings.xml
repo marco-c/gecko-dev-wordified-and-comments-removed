@@ -8334,6 +8334,11 @@ inherits
 =
 "
 disabled
+_moz
+-
+menuactive
+=
+active
 "
 oncommand
 =
