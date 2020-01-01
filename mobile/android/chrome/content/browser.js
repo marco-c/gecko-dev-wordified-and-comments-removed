@@ -2337,7 +2337,7 @@ GetStringFromName
 "
 contextmenu
 .
-openInNewPrivateTab
+openInPrivateTab
 "
 )
 NativeWindow
