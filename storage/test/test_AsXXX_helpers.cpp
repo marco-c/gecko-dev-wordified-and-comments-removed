@@ -132,7 +132,7 @@ AsSharedUTF8String
 &
 len
 )
-nsnull
+NULL
 )
 ;
 do_check_eq
@@ -156,7 +156,7 @@ AsSharedWString
 &
 len
 )
-nsnull
+NULL
 )
 ;
 do_check_eq
@@ -180,7 +180,7 @@ AsSharedBlob
 &
 len
 )
-nsnull
+NULL
 )
 ;
 do_check_eq
@@ -339,7 +339,7 @@ AsSharedUTF8String
 &
 len
 )
-nsnull
+NULL
 )
 ;
 do_check_eq
@@ -363,7 +363,7 @@ AsSharedWString
 &
 len
 )
-nsnull
+NULL
 )
 ;
 do_check_eq
@@ -387,7 +387,7 @@ AsSharedBlob
 &
 len
 )
-nsnull
+NULL
 )
 ;
 do_check_eq
@@ -461,7 +461,7 @@ AsSharedUTF8String
 &
 len
 )
-nsnull
+NULL
 )
 ;
 do_check_eq
@@ -485,7 +485,7 @@ AsSharedWString
 &
 len
 )
-nsnull
+NULL
 )
 ;
 do_check_eq
@@ -509,7 +509,7 @@ AsSharedBlob
 &
 len
 )
-nsnull
+NULL
 )
 ;
 do_check_eq

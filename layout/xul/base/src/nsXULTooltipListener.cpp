@@ -2125,7 +2125,7 @@ currentTooltip
 >
 SetAttr
 (
-nsnull
+kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -2147,7 +2147,7 @@ currentTooltip
 >
 UnsetAttr
 (
-nsnull
+kNameSpaceID_None
 nsGkAtoms
 :
 :

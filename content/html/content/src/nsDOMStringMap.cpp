@@ -285,7 +285,6 @@ aProp
 nsAString
 &
 aResult
-NS_OUTPARAM
 )
 {
 nsAutoString

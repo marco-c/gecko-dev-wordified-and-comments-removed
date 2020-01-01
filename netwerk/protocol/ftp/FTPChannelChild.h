@@ -172,7 +172,6 @@ bool
 result
 )
 ;
-NS_OVERRIDE
 nsresult
 OpenContentStream
 (
@@ -187,6 +186,7 @@ nsIChannel
 *
 channel
 )
+MOZ_OVERRIDE
 ;
 bool
 IsSuspended
@@ -195,7 +195,6 @@ IsSuspended
 ;
 protected
 :
-NS_OVERRIDE
 bool
 RecvOnStartRequest
 (
@@ -223,8 +222,8 @@ URI
 &
 aURI
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 bool
 RecvOnDataAvailable
 (
@@ -241,8 +240,8 @@ PRUint32
 &
 count
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 bool
 RecvOnStopRequest
 (
@@ -251,8 +250,8 @@ nsresult
 &
 statusCode
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 bool
 RecvFailedAsyncOpen
 (
@@ -261,12 +260,13 @@ nsresult
 &
 statusCode
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 bool
 RecvDeleteSelf
 (
 )
+MOZ_OVERRIDE
 ;
 void
 DoOnStartRequest

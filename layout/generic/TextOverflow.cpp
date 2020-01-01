@@ -1105,10 +1105,6 @@ Init
 nsDisplayListBuilder
 *
 aBuilder
-const
-nsDisplayListSet
-&
-aLists
 nsIFrame
 *
 aBlockFrame
@@ -1121,14 +1117,6 @@ aBuilder
 mBlock
 =
 aBlockFrame
-;
-mMarkerList
-=
-aLists
-.
-PositionedDescendants
-(
-)
 ;
 mContentArea
 =
@@ -1349,10 +1337,6 @@ WillProcessLines
 nsDisplayListBuilder
 *
 aBuilder
-const
-nsDisplayListSet
-&
-aLists
 nsIFrame
 *
 aBlockFrame
@@ -1388,7 +1372,6 @@ textOverflow
 Init
 (
 aBuilder
-aLists
 aBlockFrame
 )
 ;
@@ -3752,7 +3735,6 @@ nsRect
 &
 aInsideMarkersArea
 )
-const
 {
 if
 (
@@ -3851,8 +3833,7 @@ markerRect
 ;
 }
 mMarkerList
--
->
+.
 AppendNewToTop
 (
 marker
@@ -3954,8 +3935,7 @@ markerRect
 ;
 }
 mMarkerList
--
->
+.
 AppendNewToTop
 (
 marker

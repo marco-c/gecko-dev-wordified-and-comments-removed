@@ -578,9 +578,6 @@ sent
 :
     
 *
-push
-    
-*
 rebt
     
 *
@@ -596,18 +593,6 @@ quit
 socketClosingCmds
 =
 [
-re
-.
-compile
-(
-'
-^
-push
-.
-*
-'
-)
-                         
 re
 .
 compile

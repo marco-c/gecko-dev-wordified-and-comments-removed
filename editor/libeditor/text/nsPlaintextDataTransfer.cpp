@@ -1566,7 +1566,7 @@ InsertTextFromTransferable
 (
 trans
 nsnull
-nsnull
+0
 true
 )
 ;
@@ -1639,7 +1639,7 @@ InsertTextFromTransferable
 (
 aTransferable
 nsnull
-nsnull
+0
 true
 )
 ;

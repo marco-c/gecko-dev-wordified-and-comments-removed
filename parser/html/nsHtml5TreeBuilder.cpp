@@ -3211,7 +3211,7 @@ currentPtr
 }
 stack
 =
-nsnull
+0
 ;
 }
 if
@@ -3253,12 +3253,12 @@ listPtr
 }
 listOfActiveFormattingElements
 =
-nsnull
+0
 ;
 }
 charBuffer
 =
-nsnull
+0
 ;
 end
 (

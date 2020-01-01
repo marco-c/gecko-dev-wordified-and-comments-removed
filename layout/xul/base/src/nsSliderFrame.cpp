@@ -2658,9 +2658,10 @@ nsIntPoint
 aPoint
 )
 {
-NS_ENSURE_ARG_POINTER
+NS_ENSURE_TRUE
 (
 aEvent
+false
 )
 ;
 if

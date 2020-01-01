@@ -431,9 +431,6 @@ mSameDocDirtyRegion
 nsRegion
 mSubDocDirtyRegion
 ;
-nsRect
-mCoveredRegion
-;
 bool
 mInReflow
 ;

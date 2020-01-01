@@ -5816,7 +5816,7 @@ PR_USER_THREAD
 compressorThread
 this
 PR_PRIORITY_NORMAL
-PR_LOCAL_THREAD
+PR_GLOBAL_THREAD
 PR_JOINABLE_THREAD
 0
 )
@@ -6917,6 +6917,9 @@ JS_THREADSAFE
 if
 (
 tok
+&
+&
+0
 )
 {
 tok
@@ -7038,6 +7041,9 @@ memlen
 >
 =
 COMPRESS_THRESHOLD
+&
+&
+0
 &
 &
 TryCompressString

@@ -3496,7 +3496,7 @@ aUVSTableOffset
 *
 aUVSTableOffset
 =
-nsnull
+0
 ;
 }
 if

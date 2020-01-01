@@ -18767,7 +18767,10 @@ convertedString
 *
 aOutChar
 =
-nsnull
+'
+\
+0
+'
 ;
 OSStatus
 err

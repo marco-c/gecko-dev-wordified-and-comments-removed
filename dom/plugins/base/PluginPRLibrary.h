@@ -545,12 +545,12 @@ nsIntSize
 aSize
 )
 ;
-NS_OVERRIDE
 virtual
 bool
 UseAsyncPainting
 (
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -575,7 +575,6 @@ aDrawing
 ;
 #
 endif
-NS_OVERRIDE
 virtual
 nsresult
 SetBackgroundUnknown
@@ -583,8 +582,8 @@ SetBackgroundUnknown
 NPP
 instance
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 nsresult
 BeginUpdateBackground
@@ -599,8 +598,8 @@ gfxContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 nsresult
 EndUpdateBackground
@@ -614,6 +613,7 @@ const
 nsIntRect
 &
 )
+MOZ_OVERRIDE
 ;
 #
 if

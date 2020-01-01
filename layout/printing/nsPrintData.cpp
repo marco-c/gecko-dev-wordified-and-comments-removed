@@ -153,7 +153,7 @@ nsnull
 )
 mPrintDocList
 (
-nsnull
+0
 )
 mIsIFrameSelected
 (

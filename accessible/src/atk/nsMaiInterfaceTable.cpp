@@ -1592,7 +1592,7 @@ MEMORY
 )
 ;
 return
-nsnull
+0
 ;
 }
 for
@@ -1783,7 +1783,7 @@ MEMORY
 )
 ;
 return
-nsnull
+0
 ;
 }
 for

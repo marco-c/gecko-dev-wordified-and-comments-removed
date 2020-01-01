@@ -1769,7 +1769,7 @@ nsnull
 event
 .
 lineNr
-nsnull
+0
 0
 "
 IndexedDB

@@ -1262,7 +1262,10 @@ return
 aASCIIString
 =
 =
-nsnull
+'
+\
+0
+'
 ;
 }
 bool
@@ -1347,7 +1350,10 @@ return
 aASCIIString
 =
 =
-nsnull
+'
+\
+0
+'
 ;
 }
 PRInt32

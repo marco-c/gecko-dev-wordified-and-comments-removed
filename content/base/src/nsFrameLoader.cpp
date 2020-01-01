@@ -8750,7 +8750,7 @@ available
 )
 ;
 return
-NS_ERROR_FAILURE
+false
 ;
 }
 appsService

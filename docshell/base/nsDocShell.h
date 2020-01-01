@@ -766,6 +766,17 @@ SetUsePrivateBrowsing
 bool
 )
 ;
+NS_IMETHOD
+GetExtendedOrigin
+(
+nsIURI
+*
+uri
+nsACString
+&
+retval
+)
+;
 nsresult
 RestoreFromHistory
 (

@@ -779,7 +779,7 @@ NS_ConvertUTF8toUTF16
 (
 mURL
 )
-nsnull
+0
 )
 ;
 return

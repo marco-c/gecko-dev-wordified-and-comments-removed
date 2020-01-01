@@ -317,7 +317,7 @@ _flags
 *
 _flags
 =
-nsnull
+0
 ;
 return
 NS_OK

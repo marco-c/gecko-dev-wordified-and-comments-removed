@@ -361,7 +361,6 @@ nsISimpleEnumerator
 *
 *
 result
-NS_OUTPARAM
 nsISupportsArray
 *
 array

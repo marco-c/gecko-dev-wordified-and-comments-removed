@@ -1093,7 +1093,6 @@ lccx
 nsresult
 *
 rv
-NS_OUTPARAM
 )
 {
 XPCWrappedNative
@@ -1568,7 +1567,6 @@ vp
 nsresult
 *
 rv
-NS_OUTPARAM
 )
 {
 JSObject

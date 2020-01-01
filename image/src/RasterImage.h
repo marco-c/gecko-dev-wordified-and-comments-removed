@@ -212,7 +212,6 @@ DEBUG
 NS_DECL_IMGICONTAINERDEBUG
 #
 endif
-NS_SCRIPTABLE
 NS_IMETHOD
 GetWidth
 (
@@ -221,7 +220,6 @@ PRInt32
 aWidth
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 GetHeight
 (
@@ -230,7 +228,6 @@ PRInt32
 aHeight
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 GetType
 (
@@ -248,7 +245,6 @@ GetType
 void
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 GetAnimated
 (
@@ -257,7 +253,6 @@ bool
 aAnimated
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 GetCurrentFrameIsOpaque
 (
@@ -277,7 +272,6 @@ gfxASurface
 *
 *
 _retval
-NS_OUTPARAM
 )
 ;
 NS_IMETHOD
@@ -293,7 +287,6 @@ ImageContainer
 *
 *
 _retval
-NS_OUTPARAM
 )
 ;
 NS_IMETHOD
@@ -307,7 +300,6 @@ gfxImageSurface
 *
 *
 _retval
-NS_OUTPARAM
 )
 ;
 NS_IMETHOD
@@ -325,7 +317,6 @@ imgIContainer
 *
 *
 _retval
-NS_OUTPARAM
 )
 ;
 NS_IMETHOD
@@ -369,35 +360,30 @@ GetRootLayoutFrame
 void
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 RequestDecode
 (
 void
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 LockImage
 (
 void
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 UnlockImage
 (
 void
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 RequestDiscard
 (
 void
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 ResetAnimation
 (

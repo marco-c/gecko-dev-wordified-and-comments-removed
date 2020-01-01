@@ -347,6 +347,7 @@ gStrings
 brand
 "
 function
+brandLazyGetter
 (
 )
 {
@@ -384,6 +385,7 @@ gStrings
 ext
 "
 function
+extLazyGetter
 (
 )
 {
@@ -423,6 +425,7 @@ gStrings
 dl
 "
 function
+dlLazyGetter
 (
 )
 {
@@ -462,6 +465,7 @@ gStrings
 brandShortName
 "
 function
+brandShortNameLazyGetter
 (
 )
 {
@@ -489,6 +493,7 @@ gStrings
 appVersion
 "
 function
+appVersionLazyGetter
 (
 )
 {
@@ -535,6 +540,7 @@ __defineGetter__
 gIsInitializing
 "
 function
+gIsInitializingGetter
 (
 )
 gPendingInitializations
@@ -956,6 +962,7 @@ canGoForward
 back
 :
 function
+HTML5History_back
 (
 )
 {
@@ -989,6 +996,7 @@ cmd_forward
 forward
 :
 function
+HTML5History_forward
 (
 )
 {
@@ -1022,6 +1030,7 @@ cmd_forward
 pushState
 :
 function
+HTML5History_pushState
 (
 aState
 )
@@ -1042,6 +1051,7 @@ title
 replaceState
 :
 function
+HTML5History_replaceState
 (
 aState
 )
@@ -1062,6 +1072,7 @@ title
 popState
 :
 function
+HTML5History_popState
 (
 )
 {
@@ -1197,6 +1208,7 @@ length
 back
 :
 function
+FakeHistory_back
 (
 )
 {
@@ -1265,6 +1277,7 @@ cmd_forward
 forward
 :
 function
+FakeHistory_forward
 (
 )
 {
@@ -1341,6 +1354,7 @@ cmd_forward
 pushState
 :
 function
+FakeHistory_pushState
 (
 aState
 )
@@ -1380,6 +1394,7 @@ aState
 replaceState
 :
 function
+FakeHistory_replaceState
 (
 aState
 )
@@ -1399,6 +1414,7 @@ aState
 popState
 :
 function
+FakeHistory_popState
 (
 )
 {
@@ -1530,6 +1546,7 @@ _installListeners
 initialize
 :
 function
+gEM_initialize
 (
 )
 {
@@ -1590,6 +1607,7 @@ aEvent
 ]
 =
 function
+initialize_delegateAddonEvent
 (
 .
 .
@@ -1659,6 +1677,7 @@ aEvent
 ]
 =
 function
+initialize_delegateInstallEvent
 (
 .
 .
@@ -1734,6 +1753,7 @@ addEventListener
 popupshowing
 "
 function
+contextMenu_onPopupshowing
 (
 )
 {
@@ -1836,6 +1856,7 @@ false
 shutdown
 :
 function
+gEM_shutdown
 (
 )
 {
@@ -1864,6 +1885,7 @@ this
 registerAddonListener
 :
 function
+gEM_registerAddonListener
 (
 aListener
 aAddonId
@@ -1927,6 +1949,7 @@ aListener
 unregisterAddonListener
 :
 function
+gEM_unregisterAddonListener
 (
 aListener
 aAddonId
@@ -1987,6 +2010,7 @@ index
 registerInstallListener
 :
 function
+gEM_registerInstallListener
 (
 aListener
 )
@@ -2021,6 +2045,7 @@ aListener
 unregisterInstallListener
 :
 function
+gEM_unregisterInstallListener
 (
 aListener
 )
@@ -2061,6 +2086,7 @@ i
 delegateAddonEvent
 :
 function
+gEM_delegateAddonEvent
 (
 aEvent
 aParams
@@ -2153,6 +2179,7 @@ e
 delegateInstallEvent
 :
 function
+gEM_delegateInstallEvent
 (
 aEvent
 aParams
@@ -2252,6 +2279,7 @@ e
 refreshGlobalWarning
 :
 function
+gEM_refreshGlobalWarning
 (
 )
 {
@@ -2357,6 +2385,7 @@ warning
 refreshAutoUpdateDefault
 :
 function
+gEM_refreshAutoUpdateDefault
 (
 )
 {
@@ -2431,6 +2460,7 @@ autoUpdateDefault
 onCompatibilityModeChanged
 :
 function
+gEM_onCompatibilityModeChanged
 (
 )
 {
@@ -2444,6 +2474,7 @@ refreshGlobalWarning
 onCheckUpdateSecurityChanged
 :
 function
+gEM_onCheckUpdateSecurityChanged
 (
 )
 {
@@ -2457,6 +2488,7 @@ refreshGlobalWarning
 onUpdateModeChanged
 :
 function
+gEM_onUpdateModeChanged
 (
 )
 {
@@ -2503,6 +2535,7 @@ lastHistoryIndex
 initialize
 :
 function
+gVC_initialize
 (
 )
 {
@@ -2609,6 +2642,7 @@ addEventListener
 popstate
 "
 function
+window_onStatePopped
 (
 e
 )
@@ -2630,6 +2664,7 @@ false
 shutdown
 :
 function
+gVC_shutdown
 (
 )
 {
@@ -2710,6 +2745,7 @@ this
 updateState
 :
 function
+gVC_updateState
 (
 state
 )
@@ -2803,6 +2839,7 @@ VIEW_DEFAULT
 parseViewId
 :
 function
+gVC_parseViewId
 (
 aViewId
 )
@@ -2894,6 +2931,7 @@ loading
 loadView
 :
 function
+gVC_loadView
 (
 aViewId
 )
@@ -3005,6 +3043,7 @@ state
 replaceView
 :
 function
+gVC_replaceView
 (
 aViewId
 )
@@ -3052,6 +3091,7 @@ state
 loadInitialView
 :
 function
+gVC_loadInitialView
 (
 aViewId
 )
@@ -3098,6 +3138,7 @@ notifyInitialized
 loadViewInternal
 :
 function
+gVC_loadViewInternal
 (
 aViewId
 aPreviousView
@@ -3360,6 +3401,7 @@ aState
 popState
 :
 function
+gVC_popState
 (
 aCallback
 )
@@ -3380,6 +3422,7 @@ popState
 notifyViewChanged
 :
 function
+gVC_notifyViewChanged
 (
 )
 {
@@ -3460,6 +3503,7 @@ cmd_back
 isEnabled
 :
 function
+cmd_back_isEnabled
 (
 )
 {
@@ -3472,6 +3516,7 @@ canGoBack
 doCommand
 :
 function
+cmd_back_doCommand
 (
 )
 {
@@ -3489,6 +3534,7 @@ cmd_forward
 isEnabled
 :
 function
+cmd_forward_isEnabled
 (
 )
 {
@@ -3501,6 +3547,7 @@ canGoForward
 doCommand
 :
 function
+cmd_forward_doCommand
 (
 )
 {
@@ -3518,12 +3565,14 @@ cmd_restartApp
 isEnabled
 :
 function
+cmd_restartApp_isEnabled
 (
 )
 true
 doCommand
 :
 function
+cmd_restartApp_doCommand
 (
 )
 {
@@ -3631,12 +3680,14 @@ cmd_enableCheckCompatibility
 isEnabled
 :
 function
+cmd_enableCheckCompatibility_isEnabled
 (
 )
 true
 doCommand
 :
 function
+cmd_enableCheckCompatibility_doCommand
 (
 )
 {
@@ -3654,12 +3705,14 @@ cmd_enableUpdateSecurity
 isEnabled
 :
 function
+cmd_enableUpdateSecurity_isEnabled
 (
 )
 true
 doCommand
 :
 function
+cmd_enableUpdateSecurity_doCommand
 (
 )
 {
@@ -3677,12 +3730,14 @@ cmd_pluginCheck
 isEnabled
 :
 function
+cmd_pluginCheck_isEnabled
 (
 )
 true
 doCommand
 :
 function
+cmd_pluginCheck_doCommand
 (
 )
 {
@@ -3712,12 +3767,14 @@ cmd_toggleAutoUpdateDefault
 isEnabled
 :
 function
+cmd_toggleAutoUpdateDefault_isEnabled
 (
 )
 true
 doCommand
 :
 function
+cmd_toggleAutoUpdateDefault_doCommand
 (
 )
 {
@@ -3765,12 +3822,14 @@ cmd_resetAddonAutoUpdate
 isEnabled
 :
 function
+cmd_resetAddonAutoUpdate_isEnabled
 (
 )
 true
 doCommand
 :
 function
+cmd_resetAddonAutoUpdate_doCommand
 (
 )
 {
@@ -3779,6 +3838,7 @@ AddonManager
 getAllAddons
 (
 function
+cmd_resetAddonAutoUpdate_getAllAddons
 (
 aAddonList
 )
@@ -3822,6 +3882,7 @@ cmd_goToDiscoverPane
 isEnabled
 :
 function
+cmd_goToDiscoverPane_isEnabled
 (
 )
 {
@@ -3834,6 +3895,7 @@ enabled
 doCommand
 :
 function
+cmd_goToDiscoverPane_doCommand
 (
 )
 {
@@ -3859,12 +3921,14 @@ cmd_goToRecentUpdates
 isEnabled
 :
 function
+cmd_goToRecentUpdates_isEnabled
 (
 )
 true
 doCommand
 :
 function
+cmd_goToRecentUpdates_doCommand
 (
 )
 {
@@ -3891,12 +3955,14 @@ cmd_goToAvailableUpdates
 isEnabled
 :
 function
+cmd_goToAvailableUpdates_isEnabled
 (
 )
 true
 doCommand
 :
 function
+cmd_goToAvailableUpdates_doCommand
 (
 )
 {
@@ -3923,6 +3989,7 @@ cmd_showItemDetails
 isEnabled
 :
 function
+cmd_showItemDetails_isEnabled
 (
 aAddon
 )
@@ -3946,6 +4013,7 @@ gDetailView
 doCommand
 :
 function
+cmd_showItemDetails_doCommand
 (
 aAddon
 aScrollToPreferences
@@ -3995,6 +4063,7 @@ false
 isEnabled
 :
 function
+cmd_findAllUpdates_isEnabled
 (
 )
 !
@@ -4004,6 +4073,7 @@ inProgress
 doCommand
 :
 function
+cmd_findAllUpdates_doCommand
 (
 )
 {
@@ -4266,6 +4336,7 @@ updateInstallListener
 onDownloadFailed
 :
 function
+cmd_findAllUpdates_downloadFailed
 (
 )
 {
@@ -4281,6 +4352,7 @@ updateStatus
 onInstallFailed
 :
 function
+cmd_findAllUpdates_installFailed
 (
 )
 {
@@ -4296,6 +4368,7 @@ updateStatus
 onInstallEnded
 :
 function
+cmd_findAllUpdates_installEnded
 (
 aInstall
 aAddon
@@ -4339,6 +4412,7 @@ updateCheckListener
 onUpdateAvailable
 :
 function
+cmd_findAllUpdates_updateAvailable
 (
 aAddon
 aInstall
@@ -4400,6 +4474,7 @@ updateStatus
 onNoUpdateAvailable
 :
 function
+cmd_findAllUpdates_noUpdateAvailable
 (
 aAddon
 )
@@ -4416,6 +4491,7 @@ updateStatus
 onUpdateFinished
 :
 function
+cmd_findAllUpdates_updateFinished
 (
 aAddon
 aError
@@ -4443,6 +4519,7 @@ getAddonsByTypes
 (
 null
 function
+cmd_findAllUpdates_getAddonsByTypes
 (
 aAddonList
 )
@@ -4507,6 +4584,7 @@ cmd_findItemUpdates
 isEnabled
 :
 function
+cmd_findItemUpdates_isEnabled
 (
 aAddon
 )
@@ -4532,6 +4610,7 @@ upgrade
 doCommand
 :
 function
+cmd_findItemUpdates_doCommand
 (
 aAddon
 )
@@ -4543,6 +4622,7 @@ listener
 onUpdateAvailable
 :
 function
+cmd_findItemUpdates_updateAvailable
 (
 aAddon
 aInstall
@@ -4580,6 +4660,7 @@ install
 onNoUpdateAvailable
 :
 function
+cmd_findItemUpdates_noUpdateAvailable
 (
 aAddon
 )
@@ -4629,6 +4710,7 @@ cmd_showItemPreferences
 isEnabled
 :
 function
+cmd_showItemPreferences_isEnabled
 (
 aAddon
 )
@@ -4684,6 +4766,7 @@ true
 doCommand
 :
 function
+cmd_showItemPreferences_doCommand
 (
 aAddon
 )
@@ -4870,6 +4953,7 @@ cmd_showItemAbout
 isEnabled
 :
 function
+cmd_showItemAbout_isEnabled
 (
 aAddon
 )
@@ -4883,6 +4967,7 @@ aAddon
 doCommand
 :
 function
+cmd_showItemAbout_doCommand
 (
 aAddon
 )
@@ -4947,6 +5032,7 @@ cmd_enableItem
 isEnabled
 :
 function
+cmd_enableItem_isEnabled
 (
 aAddon
 )
@@ -4972,6 +5058,7 @@ enable
 doCommand
 :
 function
+cmd_enableItem_doCommand
 (
 aAddon
 )
@@ -4986,6 +5073,7 @@ false
 getTooltip
 :
 function
+cmd_enableItem_getTooltip
 (
 aAddon
 )
@@ -5041,6 +5129,7 @@ cmd_disableItem
 isEnabled
 :
 function
+cmd_disableItem_isEnabled
 (
 aAddon
 )
@@ -5066,6 +5155,7 @@ disable
 doCommand
 :
 function
+cmd_disableItem_doCommand
 (
 aAddon
 )
@@ -5080,6 +5170,7 @@ true
 getTooltip
 :
 function
+cmd_disableItem_getTooltip
 (
 aAddon
 )
@@ -5135,6 +5226,7 @@ cmd_installItem
 isEnabled
 :
 function
+cmd_installItem_isEnabled
 (
 aAddon
 )
@@ -5168,6 +5260,7 @@ STATE_AVAILABLE
 doCommand
 :
 function
+cmd_installItem_doCommand
 (
 aAddon
 )
@@ -5224,6 +5317,7 @@ cmd_purchaseItem
 isEnabled
 :
 function
+cmd_purchaseItem_isEnabled
 (
 aAddon
 )
@@ -5247,6 +5341,7 @@ purchaseURL
 doCommand
 :
 function
+cmd_purchaseItem_doCommand
 (
 aAddon
 )
@@ -5266,6 +5361,7 @@ cmd_uninstallItem
 isEnabled
 :
 function
+cmd_uninstallItem_isEnabled
 (
 aAddon
 )
@@ -5291,6 +5387,7 @@ uninstall
 doCommand
 :
 function
+cmd_uninstallItem_doCommand
 (
 aAddon
 )
@@ -5319,6 +5416,7 @@ gViewController
 popState
 (
 function
+cmd_uninstallItem_popState
 (
 )
 {
@@ -5344,6 +5442,7 @@ uninstall
 getTooltip
 :
 function
+cmd_uninstallItem_getTooltip
 (
 aAddon
 )
@@ -5399,6 +5498,7 @@ cmd_cancelUninstallItem
 isEnabled
 :
 function
+cmd_cancelUninstallItem_isEnabled
 (
 aAddon
 )
@@ -5424,6 +5524,7 @@ uninstall
 doCommand
 :
 function
+cmd_cancelUninstallItem_doCommand
 (
 aAddon
 )
@@ -5442,12 +5543,14 @@ cmd_installFromFile
 isEnabled
 :
 function
+cmd_installFromFile_isEnabled
 (
 )
 true
 doCommand
 :
 function
+cmd_installFromFile_doCommand
 (
 )
 {
@@ -5633,6 +5736,7 @@ getInstallForFile
 (
 file
 function
+cmd_installFromFile_getInstallForFile
 (
 aInstall
 )
@@ -5664,6 +5768,7 @@ cmd_cancelOperation
 isEnabled
 :
 function
+cmd_cancelOperation_isEnabled
 (
 aAddon
 )
@@ -5690,6 +5795,7 @@ PENDING_NONE
 doCommand
 :
 function
+cmd_cancelOperation_doCommand
 (
 aAddon
 )
@@ -5802,6 +5908,7 @@ cmd_contribute
 isEnabled
 :
 function
+cmd_contribute_isEnabled
 (
 aAddon
 )
@@ -5832,6 +5939,7 @@ contributionURL
 doCommand
 :
 function
+cmd_contribute_doCommand
 (
 aAddon
 )
@@ -5849,6 +5957,7 @@ contributionURL
 supportsCommand
 :
 function
+gVC_supportsCommand
 (
 aCommand
 )
@@ -5866,6 +5975,7 @@ commands
 isCommandEnabled
 :
 function
+gVC_isCommandEnabled
 (
 aCommand
 )
@@ -5911,6 +6021,7 @@ addon
 updateCommands
 :
 function
+gVC_updateCommands
 (
 )
 {
@@ -5955,6 +6066,7 @@ addon
 updateCommand
 :
 function
+gVC_updateCommand
 (
 aCommandId
 aAddon
@@ -6064,6 +6176,7 @@ tooltiptext
 doCommand
 :
 function
+gVC_doCommand
 (
 aCommand
 aAddon
@@ -6129,6 +6242,7 @@ aAddon
 onEvent
 :
 function
+gVC_onEvent
 (
 )
 {
@@ -6981,6 +7095,7 @@ aElements
 sort
 (
 function
+elementsSort
 (
 a
 b
@@ -7215,6 +7330,7 @@ getAddonsByTypes
 (
 types
 function
+getAddonsAndInstalls_getAddonsByTypes
 (
 aAddonsList
 )
@@ -7245,6 +7361,7 @@ getInstallsByTypes
 (
 types
 function
+getAddonsAndInstalls_getInstallsByTypes
 (
 aInstallsList
 )
@@ -7256,6 +7373,7 @@ aInstallsList
 filter
 (
 function
+installsFilter
 (
 aInstall
 )
@@ -7396,6 +7514,7 @@ null
 initialize
 :
 function
+gCategories_initialize
 (
 )
 {
@@ -7529,6 +7648,7 @@ addEventListener
 select
 "
 function
+node_onSelected
 (
 )
 {
@@ -7565,6 +7685,7 @@ addEventListener
 click
 "
 function
+node_onClicked
 (
 aEvent
 )
@@ -7651,6 +7772,7 @@ false
 shutdown
 :
 function
+gCategories_shutdown
 (
 )
 {
@@ -7665,6 +7787,7 @@ this
 _insertCategory
 :
 function
+gCategories_insertCategory
 (
 aId
 aName
@@ -7863,6 +7986,7 @@ node
 _removeCategory
 :
 function
+gCategories_removeCategory
 (
 aId
 )
@@ -7920,6 +8044,7 @@ category
 onTypeAdded
 :
 function
+gCategories_onTypeAdded
 (
 aType
 )
@@ -8033,6 +8158,7 @@ aType
 .
 id
 function
+onTypeAdded_getAddonsAndInstalls
 (
 aAddonsList
 aInstallsList
@@ -8134,6 +8260,7 @@ registerInstallListener
 onDownloadStarted
 :
 function
+gCategories_onDownloadStarted
 (
 aInstall
 )
@@ -8149,6 +8276,7 @@ aInstall
 onInstallStarted
 :
 function
+gCategories_onInstallStarted
 (
 aInstall
 )
@@ -8164,6 +8292,7 @@ aInstall
 onInstallEnded
 :
 function
+gCategories_onInstallEnded
 (
 aInstall
 aAddon
@@ -8180,6 +8309,7 @@ aAddon
 onExternalInstall
 :
 function
+gCategories_onExternalInstall
 (
 aAddon
 aExistingAddon
@@ -8197,6 +8327,7 @@ aAddon
 _maybeShowCategory
 :
 function
+gCategories_maybeShowCategory
 (
 aAddon
 )
@@ -8275,6 +8406,7 @@ startHidden
 onTypeRemoved
 :
 function
+gCategories_onTypeRemoved
 (
 aType
 )
@@ -8315,6 +8447,7 @@ null
 select
 :
 function
+gCategories_select
 (
 aId
 aPreviousView
@@ -8503,6 +8636,7 @@ maybeHideSearch
 get
 :
 function
+gCategories_get
 (
 aId
 )
@@ -8539,6 +8673,7 @@ null
 setBadge
 :
 function
+gCategories_setBadge
 (
 aId
 aCount
@@ -8568,6 +8703,7 @@ aCount
 maybeHideSearch
 :
 function
+gCategories_maybeHideSearch
 (
 )
 {
@@ -8619,6 +8755,7 @@ _dest
 initialize
 :
 function
+gHeader_initialize
 (
 )
 {
@@ -8647,6 +8784,7 @@ addEventListener
 command
 "
 function
+search_onCommand
 (
 aEvent
 )
@@ -8748,6 +8886,7 @@ addEventListener
 focus
 "
 function
+window_onFocus
 (
 aEvent
 )
@@ -8777,6 +8916,7 @@ updateNavButtonVisibility
 focusSearchBox
 :
 function
+gHeader_focusSearchBox
 (
 )
 {
@@ -8792,6 +8932,7 @@ focus
 onKeyPress
 :
 function
+gHeader_onKeyPress
 (
 aEvent
 )
@@ -9035,6 +9176,7 @@ _loadListeners
 initialize
 :
 function
+gDiscoverView_initialize
 (
 )
 {
@@ -9339,6 +9481,7 @@ AddonManager
 getAllAddons
 (
 function
+initialize_getAllAddons
 (
 aAddons
 )
@@ -9470,6 +9613,7 @@ list
 destroy
 :
 function
+gDiscoverView_destroy
 (
 )
 {
@@ -9495,6 +9639,7 @@ e
 show
 :
 function
+gDiscoverView_show
 (
 aParam
 aRequest
@@ -9652,6 +9797,7 @@ gViewController
 canRefresh
 :
 function
+gDiscoverView_canRefresh
 (
 )
 {
@@ -9689,6 +9835,7 @@ true
 refresh
 :
 function
+gDiscoverView_refresh
 (
 aParam
 aRequest
@@ -9709,6 +9856,7 @@ true
 hide
 :
 function
+gDiscoverView_hide
 (
 )
 {
@@ -9716,6 +9864,7 @@ function
 showError
 :
 function
+gDiscoverView_showError
 (
 )
 {
@@ -9733,6 +9882,7 @@ _error
 _loadURL
 :
 function
+gDiscoverView_loadURL
 (
 aURL
 aKeepHistory
@@ -9810,6 +9960,7 @@ flags
 onLocationChange
 :
 function
+gDiscoverView_onLocationChange
 (
 aWebProgress
 aRequest
@@ -9978,6 +10129,7 @@ NS_BINDING_ABORTED
 onSecurityChange
 :
 function
+gDiscoverView_onSecurityChange
 (
 aWebProgress
 aRequest
@@ -10027,6 +10179,7 @@ NS_BINDING_ABORTED
 onStateChange
 :
 function
+gDiscoverView_onStateChange
 (
 aWebProgress
 aRequest
@@ -10253,6 +10406,7 @@ aListener
 onProgressChange
 :
 function
+gDiscoverView_onProgressChange
 (
 )
 {
@@ -10260,6 +10414,7 @@ function
 onStatusChange
 :
 function
+gDiscoverView_onStatusChange
 (
 )
 {
@@ -10282,6 +10437,7 @@ nsISupportsWeakReference
 getSelectedAddon
 :
 function
+gDiscoverView_getSelectedAddon
 (
 )
 null
@@ -10330,6 +10486,7 @@ _pendingSearches
 initialize
 :
 function
+gSearchView_initialize
 (
 )
 {
@@ -10467,6 +10624,7 @@ addEventListener
 keydown
 "
 function
+listbox_onKeydown
 (
 aEvent
 )
@@ -10527,6 +10685,7 @@ addEventListener
 command
 "
 function
+filter_onCommand
 (
 )
 self
@@ -10541,6 +10700,7 @@ false
 shutdown
 :
 function
+gSearchView_shutdown
 (
 )
 {
@@ -10573,6 +10733,7 @@ _pendingSearches
 show
 :
 function
+gSearchView_show
 (
 aQuery
 aRequest
@@ -10952,6 +11113,7 @@ getAddonsAndInstalls
 (
 null
 function
+show_getAddonsAndInstalls
 (
 aAddons
 aInstalls
@@ -11043,6 +11205,7 @@ maxRemoteResults
 searchFailed
 :
 function
+show_SearchFailed
 (
 )
 {
@@ -11075,6 +11238,7 @@ finishSearch
 searchSucceeded
 :
 function
+show_SearchSucceeded
 (
 aAddonsList
 aAddonCount
@@ -11137,6 +11301,7 @@ createdCount
 showLoading
 :
 function
+gSearchView_showLoading
 (
 aLoading
 )
@@ -11162,6 +11327,7 @@ aLoading
 updateView
 :
 function
+gSearchView_updateView
 (
 )
 {
@@ -11326,6 +11492,7 @@ updateCommands
 hide
 :
 function
+gSearchView_hide
 (
 )
 {
@@ -11347,6 +11514,7 @@ _listBox
 getMatchScore
 :
 function
+gSearchView_getMatchScore
 (
 aObj
 aQuery
@@ -11392,6 +11560,7 @@ score
 calculateMatchScore
 :
 function
+gSearchView_calculateMatchScore
 (
 aStr
 aQuery
@@ -11564,6 +11733,7 @@ aMultiplier
 showEmptyNotice
 :
 function
+gSearchView_showEmptyNotice
 (
 aShow
 )
@@ -11589,6 +11759,7 @@ aShow
 showAllResultsLink
 :
 function
+gSearchView_showAllResultsLink
 (
 aTotalResults
 )
@@ -11692,6 +11863,7 @@ false
 updateListAttributes
 :
 function
+gSearchView_updateListAttributes
 (
 )
 {
@@ -11977,6 +12149,7 @@ true
 onSortChanged
 :
 function
+gSearchView_onSortChanged
 (
 aSortBy
 aAscending
@@ -12028,6 +12201,7 @@ footer
 onDownloadCancelled
 :
 function
+gSearchView_onDownloadCancelled
 (
 aInstall
 )
@@ -12043,6 +12217,7 @@ aInstall
 onInstallCancelled
 :
 function
+gSearchView_onInstallCancelled
 (
 aInstall
 )
@@ -12058,6 +12233,7 @@ aInstall
 removeInstall
 :
 function
+gSearchView_removeInstall
 (
 aInstall
 )
@@ -12101,6 +12277,7 @@ return
 getSelectedAddon
 :
 function
+gSearchView_getSelectedAddon
 (
 )
 {
@@ -12129,6 +12306,7 @@ null
 getListItemForID
 :
 function
+gSearchView_getListItemForID
 (
 aId
 )
@@ -12205,6 +12383,7 @@ null
 initialize
 :
 function
+gListView_initialize
 (
 )
 {
@@ -12270,6 +12449,7 @@ addEventListener
 keydown
 "
 function
+listbox_onKeydown
 (
 aEvent
 )
@@ -12324,6 +12504,7 @@ false
 show
 :
 function
+gListView_show
 (
 aType
 aRequest
@@ -12408,6 +12589,7 @@ getAddonsAndInstalls
 (
 aType
 function
+show_getAddonsAndInstalls
 (
 aAddonsList
 aInstallsList
@@ -12551,6 +12733,7 @@ notifyViewChanged
 hide
 :
 function
+gListView_hide
 (
 )
 {
@@ -12572,6 +12755,7 @@ _listBox
 showEmptyNotice
 :
 function
+gListView_showEmptyNotice
 (
 aShow
 )
@@ -12589,6 +12773,7 @@ aShow
 onSortChanged
 :
 function
+gListView_onSortChanged
 (
 aSortBy
 aAscending
@@ -12607,6 +12792,7 @@ aAscending
 onExternalInstall
 :
 function
+gListView_onExternalInstall
 (
 aAddon
 aExistingAddon
@@ -12630,6 +12816,7 @@ aAddon
 onDownloadStarted
 :
 function
+gListView_onDownloadStarted
 (
 aInstall
 )
@@ -12646,6 +12833,7 @@ true
 onInstallStarted
 :
 function
+gListView_onInstallStarted
 (
 aInstall
 )
@@ -12662,6 +12850,7 @@ true
 onDownloadCancelled
 :
 function
+gListView_onDownloadCancelled
 (
 aInstall
 )
@@ -12678,6 +12867,7 @@ true
 onInstallCancelled
 :
 function
+gListView_onInstallCancelled
 (
 aInstall
 )
@@ -12694,6 +12884,7 @@ true
 onInstallEnded
 :
 function
+gListView_onInstallEnded
 (
 aInstall
 )
@@ -12716,6 +12907,7 @@ true
 addItem
 :
 function
+gListView_addItem
 (
 aObj
 aIsInstall
@@ -12837,6 +13029,7 @@ false
 removeItem
 :
 function
+gListView_removeItem
 (
 aObj
 aIsInstall
@@ -12929,6 +13122,7 @@ return
 getSelectedAddon
 :
 function
+gListView_getSelectedAddon
 (
 )
 {
@@ -12957,6 +13151,7 @@ null
 getListItemForID
 :
 function
+gListView_getListItemForID
 (
 aId
 )
@@ -13033,6 +13228,7 @@ null
 initialize
 :
 function
+gDetailView_initialize
 (
 )
 {
@@ -13081,6 +13277,7 @@ addEventListener
 command
 "
 function
+autoUpdate_onCommand
 (
 )
 {
@@ -13104,6 +13301,7 @@ true
 shutdown
 :
 function
+gDetailView_shutdown
 (
 )
 {
@@ -13118,6 +13316,7 @@ this
 onUpdateModeChanged
 :
 function
+gDetailView_onUpdateModeChanged
 (
 )
 {
@@ -13136,6 +13335,7 @@ applyBackgroundUpdates
 _updateView
 :
 function
+gDetailView_updateView
 (
 aAddon
 aIsRemote
@@ -14565,6 +14765,7 @@ notifyViewChanged
 show
 :
 function
+gDetailView_show
 (
 aAddonId
 aRequest
@@ -14623,6 +14824,7 @@ _loadingTimer
 setTimeout
 (
 function
+loadTimeOutTimer
 (
 )
 {
@@ -14657,6 +14859,7 @@ getAddonByID
 (
 aAddonId
 function
+show_getAddonByID
 (
 aAddon
 )
@@ -14697,6 +14900,7 @@ AddonManager
 getAllInstalls
 (
 function
+show_getAllInstalls
 (
 aInstalls
 )
@@ -14783,6 +14987,7 @@ VIEW_DEFAULT
 hide
 :
 function
+gDetailView_hide
 (
 )
 {
@@ -14896,6 +15101,7 @@ null
 updateState
 :
 function
+gDetailView_updateState
 (
 )
 {
@@ -15540,6 +15746,7 @@ isActive
 clearLoading
 :
 function
+gDetailView_clearLoading
 (
 )
 {
@@ -15581,6 +15788,7 @@ extended
 emptySettingsRows
 :
 function
+gDetailView_emptySettingsRows
 (
 )
 {
@@ -15624,6 +15832,7 @@ lastChild
 fillSettingsRows
 :
 function
+gDetailView_fillSettingsRows
 (
 aScrollToPreferences
 )
@@ -16091,6 +16300,7 @@ scrollToPreferencesRows
 scrollToPreferencesRows
 :
 function
+gDetailView_scrollToPreferencesRows
 (
 )
 {
@@ -16192,6 +16402,7 @@ top
 getSelectedAddon
 :
 function
+gDetailView_getSelectedAddon
 (
 )
 {
@@ -16204,6 +16415,7 @@ _addon
 onEnabling
 :
 function
+gDetailView_onEnabling
 (
 )
 {
@@ -16217,6 +16429,7 @@ updateState
 onEnabled
 :
 function
+gDetailView_onEnabled
 (
 )
 {
@@ -16236,6 +16449,7 @@ fillSettingsRows
 onDisabling
 :
 function
+gDetailView_onDisabling
 (
 aNeedsRestart
 )
@@ -16290,6 +16504,7 @@ id
 onDisabled
 :
 function
+gDetailView_onDisabled
 (
 )
 {
@@ -16309,6 +16524,7 @@ emptySettingsRows
 onUninstalling
 :
 function
+gDetailView_onUninstalling
 (
 )
 {
@@ -16322,6 +16538,7 @@ updateState
 onUninstalled
 :
 function
+gDetailView_onUninstalled
 (
 )
 {
@@ -16335,6 +16552,7 @@ popState
 onOperationCancelled
 :
 function
+gDetailView_onOperationCancelled
 (
 )
 {
@@ -16348,6 +16566,7 @@ updateState
 onPropertyChanged
 :
 function
+gDetailView_onPropertyChanged
 (
 aProperties
 )
@@ -16435,6 +16654,7 @@ updateState
 onExternalInstall
 :
 function
+gDetailView_onExternalInstall
 (
 aAddon
 aExistingAddon
@@ -16484,6 +16704,7 @@ updateState
 onInstallCancelled
 :
 function
+gDetailView_onInstallCancelled
 (
 aInstall
 )
@@ -16537,6 +16758,7 @@ null
 initialize
 :
 function
+gUpdatesView_initialize
 (
 )
 {
@@ -16656,6 +16878,7 @@ addEventListener
 command
 "
 function
+updateSelected_onCommand
 (
 )
 {
@@ -16694,6 +16917,7 @@ this
 shutdown
 :
 function
+gUpdatesView_shutdown
 (
 )
 {
@@ -16715,6 +16939,7 @@ this
 show
 :
 function
+gUpdatesView_show
 (
 aType
 aRequest
@@ -16831,6 +17056,7 @@ aRequest
 hide
 :
 function
+gUpdatesView_hide
 (
 )
 {
@@ -16868,6 +17094,7 @@ _listBox
 _showRecentUpdates
 :
 function
+gUpdatesView_showRecentUpdates
 (
 aRequest
 )
@@ -16882,6 +17109,7 @@ AddonManager
 getAllAddons
 (
 function
+showRecentUpdates_getAllAddons
 (
 aAddonsList
 )
@@ -17032,6 +17260,7 @@ notifyViewChanged
 _showAvailableUpdates
 :
 function
+gUpdatesView_showAvailableUpdates
 (
 aIsRefresh
 aRequest
@@ -17055,6 +17284,7 @@ AddonManager
 getAllInstalls
 (
 function
+showAvailableUpdates_getAllInstalls
 (
 aInstallsList
 )
@@ -17175,6 +17405,7 @@ addEventListener
 IncludeUpdateChanged
 "
 function
+item_onIncludeUpdateChanged
 (
 )
 {
@@ -17291,6 +17522,7 @@ notifyViewChanged
 showEmptyNotice
 :
 function
+gUpdatesView_showEmptyNotice
 (
 aShow
 )
@@ -17308,6 +17540,7 @@ aShow
 isManualUpdate
 :
 function
+gUpdatesView_isManualUpdate
 (
 aInstall
 aOnlyAvailable
@@ -17354,6 +17587,7 @@ isManual
 maybeRefresh
 :
 function
+gUpdatesView_maybeRefresh
 (
 )
 {
@@ -17391,6 +17625,7 @@ updateAvailableCount
 updateAvailableCount
 :
 function
+gUpdatesView_updateAvailableCount
 (
 aInitializing
 )
@@ -17413,6 +17648,7 @@ AddonManager
 getAllInstalls
 (
 function
+updateAvailableCount_getAllInstalls
 (
 aInstallsList
 )
@@ -17425,6 +17661,7 @@ aInstallsList
 filter
 (
 function
+installListFilter
 (
 aInstall
 )
@@ -17493,6 +17730,7 @@ notifyInitialized
 maybeDisableUpdateSelected
 :
 function
+gUpdatesView_maybeDisableUpdateSelected
 (
 )
 {
@@ -17539,6 +17777,7 @@ true
 installSelected
 :
 function
+gUpdatesView_installSelected
 (
 )
 {
@@ -17579,6 +17818,7 @@ true
 getSelectedAddon
 :
 function
+gUpdatesView_getSelectedAddon
 (
 )
 {
@@ -17607,6 +17847,7 @@ null
 getListItemForID
 :
 function
+gUpdatesView_getListItemForID
 (
 aId
 )
@@ -17653,6 +17894,7 @@ null
 onSortChanged
 :
 function
+gUpdatesView_onSortChanged
 (
 aSortBy
 aAscending
@@ -17671,6 +17913,7 @@ aAscending
 onNewInstall
 :
 function
+gUpdatesView_onNewInstall
 (
 aInstall
 )
@@ -17697,6 +17940,7 @@ maybeRefresh
 onInstallStarted
 :
 function
+gUpdatesView_onInstallStarted
 (
 aInstall
 )
@@ -17711,6 +17955,7 @@ updateAvailableCount
 onInstallCancelled
 :
 function
+gUpdatesView_onInstallCancelled
 (
 aInstall
 )
@@ -17737,6 +17982,7 @@ maybeRefresh
 onPropertyChanged
 :
 function
+gUpdatesView_onPropertyChanged
 (
 aAddon
 aProperties
@@ -17773,6 +18019,7 @@ gDragDrop
 onDragOver
 :
 function
+gDragDrop_onDragOver
 (
 aEvent
 )
@@ -17843,6 +18090,7 @@ preventDefault
 onDrop
 :
 function
+gDragDrop_onDrop
 (
 aEvent
 )
@@ -18064,6 +18312,7 @@ pos
 +
 ]
 function
+onDrop_getInstallForURL
 (
 aInstall
 )

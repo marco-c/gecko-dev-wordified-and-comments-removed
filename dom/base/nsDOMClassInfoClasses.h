@@ -1555,10 +1555,6 @@ MozSettingsEvent
 )
 DOMCI_CLASS
 (
-MozContactChangeEvent
-)
-DOMCI_CLASS
-(
 MozApplicationEvent
 )
 #

@@ -1226,15 +1226,12 @@ inValue
 PRUint16
 *
 outType
-NS_OUTPARAM
 nsIID
 *
 outIID
-NS_OUTPARAM
 PRUint32
 *
 outCount
-NS_OUTPARAM
 void
 *
 *

@@ -2277,6 +2277,7 @@ cb
 }
 ;
 static
+const
 CCParticipantVTable
 <
 nsXPConnectParticipant
@@ -4403,6 +4404,7 @@ NS_OK
 }
 ;
 static
+const
 CCParticipantVTable
 <
 JSContextParticipant
@@ -4666,6 +4668,11 @@ JSCompartment
 compartment
 )
 {
+MOZ_ASSERT
+(
+priv
+)
+;
 nsAutoPtr
 <
 xpc

@@ -22055,7 +22055,6 @@ mSupportsPRUint32
 -
 >
 )
-NS_SCRIPTABLE
 NS_IMETHOD
 GetData
 (
@@ -22074,7 +22073,6 @@ aData
 )
 ;
 }
-NS_SCRIPTABLE
 NS_IMETHOD
 SetData
 (

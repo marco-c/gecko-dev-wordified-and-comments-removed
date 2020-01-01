@@ -157,6 +157,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsWildCard
 .
 h
@@ -203,6 +212,7 @@ file
 "
 class
 nsFileResult
+MOZ_FINAL
 :
 public
 nsIAutoCompleteResult
@@ -826,6 +836,7 @@ NS_OK
 }
 class
 nsFileComplete
+MOZ_FINAL
 :
 public
 nsIAutoCompleteSearch

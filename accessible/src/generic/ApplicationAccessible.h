@@ -53,7 +53,6 @@ ApplicationAccessible
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
-NS_SCRIPTABLE
 NS_IMETHOD
 GetDOMNode
 (
@@ -63,7 +62,6 @@ nsIDOMNode
 aDOMNode
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 GetDocument
 (
@@ -73,7 +71,6 @@ nsIAccessibleDocument
 aDocument
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 GetRootDocument
 (
@@ -83,7 +80,6 @@ nsIAccessibleDocument
 aRootDocument
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 ScrollTo
 (
@@ -91,7 +87,6 @@ PRUint32
 aScrollType
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 ScrollToPoint
 (
@@ -103,7 +98,6 @@ PRInt32
 aY
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 GetLanguage
 (

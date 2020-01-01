@@ -3895,7 +3895,7 @@ resource
 !
 =
 nsnull
-nsnull
+0
 )
 ;
 nsresult
@@ -3916,7 +3916,7 @@ aOffset
 NS_ENSURE_SUCCESS
 (
 res
-nsnull
+0
 )
 ;
 PRInt64

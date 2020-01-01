@@ -3979,7 +3979,6 @@ NS_FORWARD_NSIDOMHTMLELEMENT_BASIC
 _to
 )
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetId
 (
@@ -3999,7 +3998,6 @@ aId
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 SetId
 (
@@ -4020,7 +4018,6 @@ aId
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetTitle
 (
@@ -4040,7 +4037,6 @@ aTitle
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 SetTitle
 (
@@ -4061,7 +4057,6 @@ aTitle
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetLang
 (
@@ -4081,7 +4076,6 @@ aLang
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 SetLang
 (
@@ -4102,7 +4096,6 @@ aLang
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetDir
 (
@@ -4122,7 +4115,6 @@ aDir
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 SetDir
 (
@@ -4143,7 +4135,6 @@ aDir
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetClassName
 (
@@ -4163,7 +4154,6 @@ aClassName
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 SetClassName
 (
@@ -4184,7 +4174,6 @@ aClassName
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetDataset
 (
@@ -4205,7 +4194,6 @@ aDataset
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetHidden
 (
@@ -4225,7 +4213,6 @@ aHidden
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 SetHidden
 (
@@ -4244,7 +4231,6 @@ aHidden
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 Blur
 (
@@ -4260,7 +4246,6 @@ Blur
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetItemScope
 (
@@ -4280,7 +4265,6 @@ aItemScope
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 SetItemScope
 (
@@ -4299,7 +4283,6 @@ aItemScope
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetItemType
 (
@@ -4320,7 +4303,6 @@ aType
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 SetItemType
 (
@@ -4340,7 +4322,6 @@ aType
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetItemId
 (
@@ -4360,7 +4341,6 @@ aId
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 SetItemId
 (
@@ -4381,7 +4361,6 @@ aId
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetProperties
 (
@@ -4402,7 +4381,6 @@ aReturn
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetItemValue
 (
@@ -4423,7 +4401,6 @@ aValue
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 SetItemValue
 (
@@ -4443,7 +4420,6 @@ aValue
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetItemRef
 (
@@ -4464,7 +4440,6 @@ aRef
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 SetItemRef
 (
@@ -4484,7 +4459,6 @@ aRef
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetItemProp
 (
@@ -4505,7 +4479,6 @@ aProp
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 SetItemProp
 (
@@ -4525,7 +4498,6 @@ aProp
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetAccessKey
 (
@@ -4545,7 +4517,6 @@ aAccessKey
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 SetAccessKey
 (
@@ -4566,7 +4537,6 @@ aAccessKey
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetAccessKeyLabel
 (
@@ -4586,7 +4556,6 @@ aAccessKeyLabel
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 SetDraggable
 (
@@ -4605,7 +4574,6 @@ aDraggable
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetContentEditable
 (
@@ -4625,7 +4593,6 @@ aContentEditable
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 SetContentEditable
 (
@@ -4646,7 +4613,6 @@ aContentEditable
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetIsContentEditable
 (
@@ -4666,7 +4632,6 @@ aIsContentEditable
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetContextMenu
 (
@@ -4687,7 +4652,6 @@ aContextMenu
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetSpellcheck
 (
@@ -4707,7 +4671,6 @@ aSpellcheck
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 SetSpellcheck
 (
@@ -4726,7 +4689,6 @@ aSpellcheck
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetOuterHTML
 (
@@ -4746,7 +4708,6 @@ aOuterHTML
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 SetOuterHTML
 (
@@ -4767,7 +4728,6 @@ aOuterHTML
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 InsertAdjacentHTML
 (
@@ -4793,7 +4753,6 @@ text
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 ScrollIntoView
 (
@@ -4815,7 +4774,6 @@ _argc
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetOffsetParent
 (
@@ -4836,7 +4794,6 @@ aOffsetParent
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetOffsetTop
 (
@@ -4856,7 +4813,6 @@ aOffsetTop
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetOffsetLeft
 (
@@ -4876,7 +4832,6 @@ aOffsetLeft
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetOffsetWidth
 (
@@ -4896,7 +4851,6 @@ aOffsetWidth
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 GetOffsetHeight
 (

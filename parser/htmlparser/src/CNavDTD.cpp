@@ -4255,7 +4255,7 @@ result
 PRInt32
 theIndex
 =
-nsnull
+0
 ;
 theToken
 =

@@ -496,15 +496,14 @@ PRUint32
 processType
 )
 ;
-NS_OVERRIDE
 virtual
 PHalParent
 *
 AllocPHal
 (
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 DeallocPHal
@@ -512,6 +511,7 @@ DeallocPHal
 PHalParent
 *
 )
+MOZ_OVERRIDE
 ;
 virtual
 PIndexedDBParent

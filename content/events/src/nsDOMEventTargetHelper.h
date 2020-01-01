@@ -1023,7 +1023,6 @@ NS_FORWARD_NSIDOMEVENTTARGET_NOPREHANDLEEVENT
 _to
 )
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 AddEventListener
 (
@@ -1090,7 +1089,6 @@ _argc
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 RemoveEventListener
 (
@@ -1145,7 +1143,6 @@ aUseCapture
 \
 }
 \
-NS_SCRIPTABLE
 NS_IMETHOD
 DispatchEvent
 (
@@ -1155,7 +1152,6 @@ evt
 bool
 *
 _retval
-NS_OUTPARAM
 )
 {
 \
@@ -1306,7 +1302,6 @@ GetContextForEventHandlers
 nsresult
 *
 aRv
-NS_OUTPARAM
 )
 {
 \
