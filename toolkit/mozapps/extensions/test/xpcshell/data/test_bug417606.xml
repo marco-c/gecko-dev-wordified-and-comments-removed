@@ -1504,6 +1504,11 @@ os
 "
 Windows
 "
+size
+=
+"
+123
+"
 >
 http
 :
@@ -1527,6 +1532,11 @@ os
 "
 XPCShell
 "
+size
+=
+"
+456
+"
 >
 http
 :
@@ -1549,6 +1559,11 @@ os
 =
 "
 Darwin
+"
+size
+=
+"
+789
 "
 >
 http

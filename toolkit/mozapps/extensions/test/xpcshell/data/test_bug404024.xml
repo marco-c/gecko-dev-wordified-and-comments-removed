@@ -935,6 +935,11 @@ learnmore
 >
 <
 install
+size
+=
+"
+234
+"
 hash
 =
 "
@@ -1523,6 +1528,11 @@ compatible_os
 >
 <
 install
+size
+=
+"
+1204
+"
 >
 http
 :

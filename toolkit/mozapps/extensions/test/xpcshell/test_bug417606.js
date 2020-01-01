@@ -291,6 +291,9 @@ test
 .
 xpi
 "
+size
+:
+null
 }
 {
 id
@@ -389,6 +392,9 @@ XPCShell
 .
 xpi
 "
+size
+:
+456
 }
 ]
 ;
