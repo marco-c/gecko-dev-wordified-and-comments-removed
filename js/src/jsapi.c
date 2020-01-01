@@ -3740,6 +3740,11 @@ js_FinishAtomState
 rt
 )
 ;
+js_FinishUnitStrings
+(
+rt
+)
+;
 js_FinishDeflatedStringCache
 (
 rt

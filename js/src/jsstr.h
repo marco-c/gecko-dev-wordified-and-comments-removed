@@ -1974,6 +1974,15 @@ c
 ;
 extern
 void
+js_FinishUnitStrings
+(
+JSRuntime
+*
+rt
+)
+;
+extern
+void
 js_FinishRuntimeStringState
 (
 JSContext
