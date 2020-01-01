@@ -9948,6 +9948,16 @@ tabbrowser
 .
 addTab
 (
+"
+about
+:
+blank
+"
+{
+skipAnimation
+:
+true
+}
 )
 )
 ;
