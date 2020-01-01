@@ -356,8 +356,6 @@ instanceData
 window
 .
 width
--
-1
 ;
 int
 height
@@ -368,8 +366,6 @@ instanceData
 window
 .
 height
--
-1
 ;
 Rect
 rect
