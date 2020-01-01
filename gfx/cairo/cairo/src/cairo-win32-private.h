@@ -493,12 +493,6 @@ cairo_scaled_font_t
 scaled_font
 )
 ;
-BYTE
-_cairo_win32_get_system_text_quality
-(
-void
-)
-;
 #
 ifdef
 WINCE

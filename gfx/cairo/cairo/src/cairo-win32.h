@@ -128,6 +128,12 @@ cairo_bool_t
 can_convert
 )
 ;
+BYTE
+cairo_win32_get_system_text_quality
+(
+void
+)
+;
 #
 if
 CAIRO_HAS_WIN32_FONT
@@ -274,6 +280,11 @@ int
 geometry
 int
 mode
+)
+;
+int
+cairo_dwrite_get_cleartype_rendering_mode
+(
 )
 ;
 #
