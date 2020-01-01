@@ -939,6 +939,13 @@ PRBool
 aActive
 )
 ;
+void
+DispatchSizeModeEvent
+(
+nsSizeMode
+aSizeMode
+)
+;
 virtual
 gfxASurface
 *
