@@ -3170,17 +3170,7 @@ public
 Makefile
 xpinstall
 /
-res
-/
-Makefile
-xpinstall
-/
 src
-/
-Makefile
-xpinstall
-/
-stub
 /
 Makefile
 "
