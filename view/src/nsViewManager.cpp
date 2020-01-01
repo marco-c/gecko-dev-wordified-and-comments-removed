@@ -2433,17 +2433,6 @@ children
 "
 )
 ;
-nsViewManager
-*
-viewManager
-=
-view
--
->
-GetViewManager
-(
-)
-;
 #
 ifndef
 XP_MACOSX
