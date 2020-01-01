@@ -435,6 +435,12 @@ described
 in
 bug
 466572
+fails
+-
+if
+(
+Android
+)
 =
 =
 clipping
@@ -462,6 +468,11 @@ object
 '
 s
 background
+Android
+failure
+is
+bug
+650569
 #
 Tests
 for
