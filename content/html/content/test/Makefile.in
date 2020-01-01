@@ -1570,6 +1570,14 @@ test_formData
 .
 html
 \
+test_audio_wakelock
+.
+html
+\
+wakelock
+.
+ogg
+\
 (
 NULL
 )
