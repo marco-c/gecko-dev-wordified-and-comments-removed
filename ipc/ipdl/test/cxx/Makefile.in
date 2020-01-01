@@ -502,6 +502,8 @@ TestLatency
 \
 TestRPCRaces
 \
+TestRacyRPCReplies
+\
 TestManyChildAllocs
 \
 TestDesc
