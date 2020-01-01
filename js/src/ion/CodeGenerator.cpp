@@ -4841,7 +4841,7 @@ invoke
 ;
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -4875,7 +4875,7 @@ executionMode
 ;
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -5003,7 +5003,7 @@ thunk
 ;
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -5020,7 +5020,7 @@ objreg
 ;
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -5073,7 +5073,7 @@ objreg
 ;
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -5453,7 +5453,7 @@ true
 }
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -5473,7 +5473,7 @@ objreg
 ;
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -5505,7 +5505,7 @@ invoke
 ;
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -5522,7 +5522,7 @@ objreg
 ;
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -6538,7 +6538,7 @@ isNative
 }
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -6558,7 +6558,7 @@ objreg
 ;
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -6727,7 +6727,7 @@ underflow
 {
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -6744,7 +6744,7 @@ objreg
 ;
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -6820,7 +6820,7 @@ objreg
 ;
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -6876,7 +6876,7 @@ false
 ;
 masm
 .
-movePtr
+loadPtr
 (
 Address
 (
@@ -18088,7 +18088,7 @@ offsetOfNumActualArgs
 ;
 masm
 .
-movePtr
+loadPtr
 (
 ptr
 argc

@@ -2531,7 +2531,7 @@ scratch
 Label
 osrRemoved
 ;
-movePtr
+loadPtr
 (
 Address
 (
