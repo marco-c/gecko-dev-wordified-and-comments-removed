@@ -78,7 +78,7 @@ exists
 )
 )
 ;
-startAUS
+standardInit
 (
 )
 ;

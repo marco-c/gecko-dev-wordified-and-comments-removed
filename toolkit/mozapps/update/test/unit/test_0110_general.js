@@ -681,11 +681,7 @@ mar
 copyTo
 (
 updatesDir
-"
-update
-.
-mar
-"
+FILE_UPDATE_ARCHIVE
 )
 ;
 var
@@ -757,11 +753,7 @@ testFile
 .
 append
 (
-"
-update
-.
-status
-"
+FILE_UPDATE_STATUS
 )
 ;
 do_check_eq
