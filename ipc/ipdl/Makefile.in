@@ -249,6 +249,12 @@ ipc
 \
 dom
 /
+bluetooth
+/
+ipc
+\
+dom
+/
 plugins
 /
 ipc
