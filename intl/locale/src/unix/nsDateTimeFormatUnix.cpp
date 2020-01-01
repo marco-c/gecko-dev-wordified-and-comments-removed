@@ -512,10 +512,7 @@ tt
 =
 time
 (
-(
-time_t
-)
-0
+nullptr
 )
 ;
 tmc
