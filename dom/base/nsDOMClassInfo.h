@@ -1302,6 +1302,10 @@ jsid
 sOnafterscriptexecute_id
 ;
 static
+jsid
+sWrappedJSObject_id
+;
+static
 JSPropertyOp
 sXPCNativeWrapperGetPropertyOp
 ;
