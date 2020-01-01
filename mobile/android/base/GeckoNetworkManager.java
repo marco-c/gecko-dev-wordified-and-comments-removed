@@ -6,13 +6,6 @@ mozilla
 gecko
 ;
 import
-java
-.
-lang
-.
-Math
-;
-import
 android
 .
 util

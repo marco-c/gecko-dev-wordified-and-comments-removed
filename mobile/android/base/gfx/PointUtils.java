@@ -22,13 +22,6 @@ graphics
 PointF
 ;
 import
-android
-.
-util
-.
-FloatMath
-;
-import
 org
 .
 json
@@ -50,13 +43,6 @@ mozilla
 gecko
 .
 FloatUtils
-;
-import
-java
-.
-lang
-.
-Math
 ;
 public
 final

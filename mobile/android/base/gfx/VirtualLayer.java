@@ -7,13 +7,6 @@ gecko
 .
 gfx
 ;
-import
-android
-.
-graphics
-.
-Rect
-;
 final
 class
 VirtualLayer

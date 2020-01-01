@@ -10,13 +10,6 @@ android
 .
 content
 .
-Context
-;
-import
-android
-.
-content
-.
 res
 .
 Resources
@@ -57,13 +50,6 @@ android
 widget
 .
 PopupWindow
-;
-import
-android
-.
-widget
-.
-LinearLayout
 ;
 import
 android

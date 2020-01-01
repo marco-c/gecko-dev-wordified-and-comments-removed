@@ -17,13 +17,6 @@ android
 .
 app
 .
-Activity
-;
-import
-android
-.
-app
-.
 Application
 ;
 public

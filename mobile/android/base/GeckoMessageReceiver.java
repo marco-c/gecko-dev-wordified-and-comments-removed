@@ -26,13 +26,6 @@ content
 .
 Intent
 ;
-import
-android
-.
-util
-.
-Log
-;
 final
 class
 GeckoMessageReceiver
