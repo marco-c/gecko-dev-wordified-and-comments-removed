@@ -1918,6 +1918,12 @@ InitRules
 (
 )
 {
+MOZ_ASSERT
+(
+!
+mRules
+)
+;
 mRules
 =
 new
