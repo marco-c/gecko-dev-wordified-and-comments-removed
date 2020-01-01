@@ -762,15 +762,6 @@ KeyEvent
 .
 DOM_VK_RETURN
 )
-{
-window
-.
-content
-.
-focus
-(
-)
-;
 this
 .
 panel
@@ -779,7 +770,6 @@ hidePopup
 (
 )
 ;
-}
 break
 ;
 }
