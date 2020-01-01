@@ -3790,7 +3790,7 @@ else
 {
 reg
 =
-alloc
+allocReg
 (
 )
 ;
@@ -3901,7 +3901,7 @@ inMemory
 ;
 reg
 =
-alloc
+allocReg
 (
 )
 ;
