@@ -565,6 +565,8 @@ SHARED_LIBRARY_LIBS
 MOZ_SKIA_LIBS
 )
 endif
+ifdef
+MOZ_WEBVTT
 SHARED_LIBRARY_LIBS
 +
 =
@@ -589,6 +591,7 @@ LIB_SUFFIX
 (
 NULL
 )
+endif
 ifdef
 MOZ_WEBRTC
 ifndef
