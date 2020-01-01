@@ -13368,7 +13368,13 @@ tableswitch
 >
 addCase
 (
+tableswitch
+-
+>
+addSuccessor
+(
 caseblock
+)
 )
 ;
 if
