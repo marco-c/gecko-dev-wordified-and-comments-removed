@@ -1378,7 +1378,7 @@ SQLITE_VERSION
 .
 7
 .
-4
+5
 LIBNOTIFY_VERSION
 =
 0
@@ -8340,6 +8340,16 @@ PATH
 ]
 )
 fi
+MOZ_PATH_PROG
+(
+RPMBUILD
+rpmbuild
+:
+)
+AC_SUBST
+(
+RPMBUILD
+)
 if
 test
 "
