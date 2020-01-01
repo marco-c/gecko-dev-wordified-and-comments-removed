@@ -663,7 +663,16 @@ MAX_ARGS_AND_VARS
 =
 2
 *
-UINT16_MAX
+(
+(
+1U
+<
+<
+16
+)
+-
+1
+)
 }
 ;
 uintN
