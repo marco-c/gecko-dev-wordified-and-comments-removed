@@ -10383,6 +10383,7 @@ function
 URLBarSetURI
 (
 aURI
+aMustUseURI
 )
 {
 var
@@ -10405,6 +10406,9 @@ if
 (
 !
 value
+|
+|
+aMustUseURI
 )
 {
 if

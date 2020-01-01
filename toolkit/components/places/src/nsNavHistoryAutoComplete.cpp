@@ -2155,7 +2155,7 @@ mCurrentResult
 >
 AppendMatch
 (
-entryURL
+escapedEntryURL
 title
 faviconURI
 style
