@@ -1409,16 +1409,6 @@ OnDecodeThreadFinish
 )
 {
 }
-void
-SetIgnoreAudioOutputFormat
-(
-)
-{
-mIgnoreAudioOutputFormat
-=
-true
-;
-}
 protected
 :
 MediaQueue
@@ -1682,9 +1672,6 @@ mDecoder
 ;
 VideoInfo
 mInfo
-;
-bool
-mIgnoreAudioOutputFormat
 ;
 }
 ;

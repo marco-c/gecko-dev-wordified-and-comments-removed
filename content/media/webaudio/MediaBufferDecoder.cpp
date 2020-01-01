@@ -1643,13 +1643,6 @@ NS_GetCurrentThread
 mDecoderReader
 -
 >
-SetIgnoreAudioOutputFormat
-(
-)
-;
-mDecoderReader
--
->
 OnDecodeThreadStart
 (
 )
