@@ -13732,9 +13732,6 @@ rv
 }
 else
 {
-#
-if
-0
 rv
 =
 mDBConn
@@ -13757,8 +13754,6 @@ rv
 rv
 )
 ;
-#
-endif
 }
 }
 return
