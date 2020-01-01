@@ -713,6 +713,15 @@ function
 {
 if
 (
+typeof
+document
+!
+=
+"
+object
+"
+|
+|
 !
 document
 .
