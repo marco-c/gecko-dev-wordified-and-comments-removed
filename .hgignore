@@ -35,6 +35,9 @@ TAGS
 \
 .
 DS_Store
+\
+.
+class
 #
 User
 files
