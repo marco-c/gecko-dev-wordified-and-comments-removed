@@ -4684,7 +4684,8 @@ GetSingletonShape
 JSContext
 *
 cx
-RawObject
+JSObject
+*
 obj
 jsid
 idArg
@@ -5701,7 +5702,8 @@ GetSingletonPropertyType
 JSContext
 *
 cx
-RawObject
+JSObject
+*
 rawObjArg
 HandleId
 id
@@ -10537,7 +10539,8 @@ nclasp
 ;
 if
 (
-RawObject
+JSObject
+*
 object
 =
 getSingleObject
@@ -10689,7 +10692,8 @@ clasp
 ;
 if
 (
-RawObject
+JSObject
+*
 object
 =
 getSingleObject
@@ -10800,7 +10804,8 @@ nproto
 ;
 if
 (
-RawObject
+JSObject
+*
 object
 =
 getSingleObject
@@ -17963,7 +17968,8 @@ cx
 TypeSet
 *
 types
-RawObject
+JSObject
+*
 obj
 Shape
 *
@@ -26645,7 +26651,8 @@ cx
 )
 ;
 {
-RawObject
+JSObject
+*
 funcallObj
 =
 funcallTypes
@@ -26655,7 +26662,8 @@ getSingleton
 (
 )
 ;
-RawObject
+JSObject
+*
 scriptObj
 =
 scriptTypes

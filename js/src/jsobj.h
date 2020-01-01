@@ -68,11 +68,6 @@ String
 .
 h
 "
-ForwardDeclareJS
-(
-Object
-)
-;
 namespace
 JS
 {
@@ -5530,10 +5525,8 @@ js_GetClassObject
 JSContext
 *
 cx
-js
-:
-:
-RawObject
+JSObject
+*
 obj
 JSProtoKey
 key

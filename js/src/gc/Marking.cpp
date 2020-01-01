@@ -1939,7 +1939,8 @@ MarkInternal
 trc
 reinterpret_cast
 <
-RawObject
+JSObject
+*
 *
 >
 (
@@ -3509,7 +3510,8 @@ ShouldMarkCrossCompartment
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 src
 Cell
 *
@@ -3668,7 +3670,8 @@ MarkCrossCompartmentObjectUnbarriered
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 src
 JSObject
 *
@@ -3707,7 +3710,8 @@ MarkCrossCompartmentScriptUnbarriered
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 src
 JSScript
 *
@@ -3746,7 +3750,8 @@ MarkCrossCompartmentSlot
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 src
 HeapSlot
 *
@@ -8077,7 +8082,8 @@ MarkChildren
 trc
 static_cast
 <
-RawObject
+JSObject
+*
 >
 (
 thing

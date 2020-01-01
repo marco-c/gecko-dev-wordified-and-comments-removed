@@ -15219,7 +15219,8 @@ js_GetClassObject
 JSContext
 *
 cx
-RawObject
+JSObject
+*
 obj
 JSProtoKey
 key
@@ -16078,7 +16079,8 @@ PurgeProtoChain
 JSContext
 *
 cx
-RawObject
+JSObject
+*
 objArg
 HandleId
 id

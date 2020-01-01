@@ -111,7 +111,8 @@ HeapSlot
 &
 GetCall
 (
-RawObject
+JSObject
+*
 proxy
 )
 {
@@ -138,7 +139,8 @@ inline
 Value
 GetConstruct
 (
-RawObject
+JSObject
+*
 proxy
 )
 {
@@ -175,7 +177,8 @@ HeapSlot
 &
 GetFunctionProxyConstruct
 (
-RawObject
+JSObject
+*
 proxy
 )
 {
@@ -16021,7 +16024,8 @@ proxy_TraceObject
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -16201,7 +16205,8 @@ proxy_TraceFunction
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -16244,7 +16249,8 @@ JSObject
 *
 proxy_WeakmapKeyDelegate
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -16316,7 +16322,8 @@ proxy_Finalize
 FreeOp
 *
 fop
-RawObject
+JSObject
+*
 obj
 )
 {

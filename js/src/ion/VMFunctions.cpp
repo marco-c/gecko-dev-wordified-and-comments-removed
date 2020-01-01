@@ -1138,7 +1138,8 @@ res
 JSBool
 ObjectEmulatesUndefined
 (
-RawObject
+JSObject
+*
 obj
 )
 {

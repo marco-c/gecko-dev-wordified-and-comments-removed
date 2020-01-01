@@ -2744,7 +2744,8 @@ mozilla
 :
 DebugOnly
 <
-RawObject
+JSObject
+*
 >
 key
 =
@@ -2760,7 +2761,8 @@ MarkObjectRoot
 (
 trc
 (
-RawObject
+JSObject
+*
 *
 )
 &
@@ -2871,7 +2873,8 @@ mozilla
 :
 DebugOnly
 <
-RawObject
+JSObject
+*
 >
 key
 =
@@ -2887,7 +2890,8 @@ MarkObjectRoot
 (
 trc
 (
-RawObject
+JSObject
+*
 *
 )
 &
@@ -2981,7 +2985,8 @@ mozilla
 :
 DebugOnly
 <
-RawObject
+JSObject
+*
 >
 obj
 =
@@ -2995,7 +3000,8 @@ MarkObjectRoot
 (
 trc
 (
-RawObject
+JSObject
+*
 *
 )
 &

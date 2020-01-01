@@ -216,7 +216,8 @@ obj
 return
 true
 ;
-RawObject
+JSObject
+*
 nobj
 =
 JSObject

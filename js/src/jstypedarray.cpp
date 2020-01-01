@@ -1707,7 +1707,8 @@ releaseAsmJSArrayBuffer
 FreeOp
 *
 fop
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -1921,7 +1922,8 @@ releaseAsmJSArrayBuffer
 FreeOp
 *
 fop
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -2228,7 +2230,8 @@ ArrayBufferObject
 :
 addView
 (
-RawObject
+JSObject
+*
 view
 )
 {
@@ -3038,7 +3041,8 @@ obj_trace
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -5575,7 +5579,8 @@ TypedArray
 :
 neuter
 (
-RawObject
+JSObject
+*
 tarray
 )
 {
@@ -6748,7 +6753,8 @@ obj_trace
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -9317,7 +9323,8 @@ maybeGlobal
 )
 )
 ;
-RawObject
+JSObject
+*
 getter
 =
 NewFunction
@@ -19107,7 +19114,8 @@ JSPROP_GETTER
 |
 JSPROP_PERMANENT
 ;
-RawObject
+JSObject
+*
 getter
 =
 NewFunction

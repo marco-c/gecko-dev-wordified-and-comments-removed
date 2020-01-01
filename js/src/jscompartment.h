@@ -957,10 +957,8 @@ sweepCallsiteClones
 unsigned
 gcIndex
 ;
-js
-:
-:
-RawObject
+JSObject
+*
 gcIncomingGrayPointers
 ;
 JSObject

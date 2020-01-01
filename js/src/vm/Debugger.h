@@ -1079,7 +1079,8 @@ traceObject
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 obj
 )
 ;
@@ -1098,7 +1099,8 @@ finalize
 FreeOp
 *
 fop
-RawObject
+JSObject
+*
 obj
 )
 ;
@@ -1837,7 +1839,8 @@ static
 bool
 isDebugWrapper
 (
-RawObject
+JSObject
+*
 o
 )
 ;

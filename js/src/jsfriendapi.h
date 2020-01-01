@@ -1503,7 +1503,8 @@ Class
 *
 GetObjectClass
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -1533,7 +1534,8 @@ JSClass
 *
 GetObjectJSClass
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -1602,7 +1604,8 @@ bool
 )
 IsScopeObject
 (
-RawObject
+JSObject
+*
 obj
 )
 ;
@@ -1611,7 +1614,8 @@ JSObject
 *
 GetObjectParent
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -1688,7 +1692,8 @@ JSObject
 )
 GetObjectParentMaybeScope
 (
-RawObject
+JSObject
+*
 obj
 )
 ;
@@ -1699,7 +1704,8 @@ JSObject
 )
 GetGlobalForObjectCrossCompartment
 (
-RawObject
+JSObject
+*
 obj
 )
 ;
@@ -1709,7 +1715,8 @@ void
 )
 NotifyAnimationActivity
 (
-RawObject
+JSObject
+*
 obj
 )
 ;
@@ -1858,7 +1865,8 @@ Value
 )
 GetFunctionNativeReserved
 (
-RawObject
+JSObject
+*
 fun
 size_t
 which
@@ -1870,7 +1878,8 @@ void
 )
 SetFunctionNativeReserved
 (
-RawObject
+JSObject
+*
 fun
 size_t
 which
@@ -1980,7 +1989,8 @@ void
 *
 GetObjectPrivate
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -2045,7 +2055,8 @@ Value
 &
 GetReservedSlot
 (
-RawObject
+JSObject
+*
 obj
 size_t
 slot
@@ -2091,7 +2102,8 @@ void
 )
 SetReservedSlotWithBarrier
 (
-RawObject
+JSObject
+*
 obj
 size_t
 slot
@@ -2105,7 +2117,8 @@ inline
 void
 SetReservedSlot
 (
-RawObject
+JSObject
+*
 obj
 size_t
 slot
@@ -2202,7 +2215,8 @@ uint32_t
 )
 GetObjectSlotSpan
 (
-RawObject
+JSObject
+*
 obj
 )
 ;
@@ -2212,7 +2226,8 @@ Value
 &
 GetObjectSlot
 (
-RawObject
+JSObject
+*
 obj
 size_t
 slot
@@ -2306,7 +2321,8 @@ js
 PropertyOp
 CastAsJSPropertyOp
 (
-RawObject
+JSObject
+*
 object
 )
 {
@@ -2329,7 +2345,8 @@ js
 StrictPropertyOp
 CastAsJSStrictPropertyOp
 (
-RawObject
+JSObject
+*
 object
 )
 {
@@ -2353,7 +2370,8 @@ GetPropertyNames
 JSContext
 *
 cx
-RawObject
+JSObject
+*
 obj
 unsigned
 flags
@@ -2437,7 +2455,8 @@ bool
 )
 IsObjectInContextCompartment
 (
-RawObject
+JSObject
+*
 obj
 const
 JSContext

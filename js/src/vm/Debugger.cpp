@@ -2345,7 +2345,8 @@ DebuggerFrame_freeStackIterData
 FreeOp
 *
 fop
-RawObject
+JSObject
+*
 obj
 )
 ;
@@ -7184,7 +7185,8 @@ Debugger
 :
 isDebugWrapper
 (
-RawObject
+JSObject
+*
 o
 )
 {
@@ -7969,7 +7971,8 @@ traceObject
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -8531,7 +8534,8 @@ finalize
 FreeOp
 *
 fop
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -14007,7 +14011,8 @@ DebuggerScript_trace
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -18329,7 +18334,8 @@ DebuggerFrame_freeStackIterData
 FreeOp
 *
 fop
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -18369,7 +18375,8 @@ DebuggerFrame_finalize
 FreeOp
 *
 fop
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -21896,7 +21903,8 @@ DebuggerObject_trace
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -26619,7 +26627,8 @@ DebuggerEnv_trace
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 obj
 )
 {

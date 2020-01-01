@@ -3643,10 +3643,8 @@ js
 Debugger
 *
 dbg
-js
-:
-:
-RawObject
+JSObject
+*
 handler
 )
 ;

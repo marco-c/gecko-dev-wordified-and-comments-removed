@@ -3377,7 +3377,8 @@ frame
 endif
 }
 inline
-RawObject
+JSObject
+*
 AbstractFramePtr
 :
 :

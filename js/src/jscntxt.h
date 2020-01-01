@@ -7225,7 +7225,8 @@ AutoObjectVector
 public
 AutoVectorRooter
 <
-RawObject
+JSObject
+*
 >
 {
 public
@@ -7241,7 +7242,8 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 :
 AutoVectorRooter
 <
-RawObject
+JSObject
+*
 >
 (
 cx
@@ -7468,8 +7470,10 @@ AutoObjectObjectHashMap
 public
 AutoHashMapRooter
 <
-RawObject
-RawObject
+JSObject
+*
+JSObject
+*
 >
 {
 public
@@ -7485,8 +7489,10 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 :
 AutoHashMapRooter
 <
-RawObject
-RawObject
+JSObject
+*
+JSObject
+*
 >
 (
 cx
@@ -7505,7 +7511,8 @@ AutoObjectUnsigned32HashMap
 public
 AutoHashMapRooter
 <
-RawObject
+JSObject
+*
 uint32_t
 >
 {
@@ -7522,7 +7529,8 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 :
 AutoHashMapRooter
 <
-RawObject
+JSObject
+*
 uint32_t
 >
 (
@@ -7542,7 +7550,8 @@ AutoObjectHashSet
 public
 AutoHashSetRooter
 <
-RawObject
+JSObject
+*
 >
 {
 public
@@ -7558,7 +7567,8 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 :
 AutoHashSetRooter
 <
-RawObject
+JSObject
+*
 >
 (
 cx

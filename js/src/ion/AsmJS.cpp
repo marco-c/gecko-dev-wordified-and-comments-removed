@@ -11999,7 +11999,8 @@ AsmJSModuleObject_finalize
 FreeOp
 *
 fop
-RawObject
+JSObject
+*
 obj
 )
 ;
@@ -12196,7 +12197,8 @@ AsmJSModuleObject_finalize
 FreeOp
 *
 fop
-RawObject
+JSObject
+*
 obj
 )
 {

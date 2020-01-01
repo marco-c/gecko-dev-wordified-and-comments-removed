@@ -1804,7 +1804,8 @@ depth
 )
 )
 ;
-RawObject
+JSObject
+*
 thisp
 =
 JSObject
@@ -8083,7 +8084,8 @@ isDeclEnv
 bool
 js_IsDebugScopeSlow
 (
-RawObject
+JSObject
+*
 obj
 )
 {

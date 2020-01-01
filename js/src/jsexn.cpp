@@ -191,7 +191,8 @@ exn_trace
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 obj
 )
 ;
@@ -202,7 +203,8 @@ exn_finalize
 FreeOp
 *
 fop
-RawObject
+JSObject
+*
 obj
 )
 ;
@@ -1135,7 +1137,8 @@ static
 void
 SetExnPrivate
 (
-RawObject
+JSObject
+*
 exnObject
 JSExnPrivate
 *
@@ -1707,7 +1710,8 @@ JSExnPrivate
 *
 GetExnPrivate
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -1741,7 +1745,8 @@ exn_trace
 JSTracer
 *
 trc
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -1859,7 +1864,8 @@ static
 void
 SetExnPrivate
 (
-RawObject
+JSObject
+*
 exnObject
 JSExnPrivate
 *
@@ -1932,7 +1938,8 @@ exn_finalize
 FreeOp
 *
 fop
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -2392,7 +2399,8 @@ exn
 return
 NULL
 ;
-RawObject
+JSObject
+*
 obj
 =
 JSVAL_TO_OBJECT

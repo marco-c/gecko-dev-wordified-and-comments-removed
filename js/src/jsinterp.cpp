@@ -3040,7 +3040,8 @@ false
 #
 ifdef
 DEBUG
-RawObject
+JSObject
+*
 s
 =
 scopeChain

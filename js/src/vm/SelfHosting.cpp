@@ -3161,7 +3161,8 @@ true
 ;
 }
 static
-RawObject
+JSObject
+*
 CloneObject
 (
 JSContext

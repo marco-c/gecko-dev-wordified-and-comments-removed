@@ -889,11 +889,6 @@ MutableHandleValue
 namespace
 js
 {
-typedef
-JSObject
-*
-RawObject
-;
 template
 <
 typename
@@ -3242,10 +3237,5 @@ ptr_
 }
 ;
 }
-ForwardDeclareJS
-(
-Object
-)
-;
 #
 endif

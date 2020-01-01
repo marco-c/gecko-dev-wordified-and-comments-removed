@@ -6126,7 +6126,8 @@ resultTypeSet
 (
 )
 ;
-RawObject
+JSObject
+*
 targetObj
 =
 ctorTypes

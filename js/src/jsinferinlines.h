@@ -852,7 +852,8 @@ Type
 :
 ObjectType
 (
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -2393,7 +2394,8 @@ TrackPropertyTypes
 JSContext
 *
 cx
-RawObject
+JSObject
+*
 obj
 jsid
 id
@@ -2472,7 +2474,8 @@ EnsureTrackPropertyTypes
 JSContext
 *
 cx
-RawObject
+JSObject
+*
 obj
 jsid
 id
@@ -2796,7 +2799,8 @@ MarkTypeObjectFlags
 JSContext
 *
 cx
-RawObject
+JSObject
+*
 obj
 TypeObjectFlags
 flags
@@ -2985,7 +2989,8 @@ MarkObjectStateChange
 JSContext
 *
 cx
-RawObject
+JSObject
+*
 obj
 )
 {
@@ -6492,7 +6497,8 @@ data
 ;
 }
 inline
-RawObject
+JSObject
+*
 Type
 :
 :
@@ -7366,7 +7372,8 @@ i
 ;
 }
 inline
-RawObject
+JSObject
+*
 TypeSet
 :
 :
