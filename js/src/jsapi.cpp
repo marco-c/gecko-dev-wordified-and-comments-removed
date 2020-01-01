@@ -26705,7 +26705,7 @@ setNoScriptRval
 rval
 )
 ;
-SourceCompressionToken
+SourceCompressionTask
 sct
 (
 cx

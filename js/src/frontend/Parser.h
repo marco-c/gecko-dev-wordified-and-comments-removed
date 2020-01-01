@@ -881,7 +881,7 @@ ParseHandler
 *
 pc
 ;
-SourceCompressionToken
+SourceCompressionTask
 *
 sct
 ;

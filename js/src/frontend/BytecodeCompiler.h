@@ -27,7 +27,7 @@ class
 LifoAlloc
 ;
 struct
-SourceCompressionToken
+SourceCompressionTask
 ;
 namespace
 frontend
@@ -65,7 +65,7 @@ unsigned
 staticLevel
 =
 0
-SourceCompressionToken
+SourceCompressionTask
 *
 extraSct
 =
