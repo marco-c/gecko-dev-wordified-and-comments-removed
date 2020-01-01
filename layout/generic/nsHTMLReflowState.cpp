@@ -1955,12 +1955,6 @@ aPresContext
 bool
 dirty
 =
-!
-mFlags
-.
-mDummyParentReflowState
-&
-&
 nsFontInflationData
 :
 :
@@ -1969,6 +1963,12 @@ UpdateFontInflationDataWidthFor
 *
 this
 )
+&
+&
+!
+mFlags
+.
+mDummyParentReflowState
 ;
 if
 (
