@@ -131,6 +131,10 @@ MAX_SIGNATURE_LENGTH
 2048
 #
 define
+PRODUCT_INFO_BLOCK_ID
+1
+#
+define
 MAR_ITEM_SIZE
 (
 namelen
@@ -149,6 +153,14 @@ namelen
 +
 1
 )
+#
+define
+PIB_MAX_MAR_CHANNEL_ID_SIZE
+63
+#
+define
+PIB_MAX_PRODUCT_VERSION_SIZE
+31
 #
 ifdef
 XP_WIN
