@@ -29732,7 +29732,7 @@ serif
 el
 "
 "
-Clear
+Open
 Sans
 "
 )
@@ -29771,7 +29771,7 @@ serif
 el
 "
 "
-Clear
+Open
 Sans
 Roboto
 Droid
@@ -29810,7 +29810,7 @@ serif
 he
 "
 "
-Clear
+Open
 Sans
 "
 )
@@ -29852,7 +29852,7 @@ he
 Droid
 Sans
 Hebrew
-Clear
+Open
 Sans
 Droid
 Sans
@@ -29891,7 +29891,7 @@ serif
 ja
 "
 "
-Clear
+Open
 Sans
 "
 )
@@ -29928,7 +29928,7 @@ serif
 ja
 "
 "
-Clear
+Open
 Sans
 Roboto
 Droid
@@ -29995,7 +29995,7 @@ serif
 ko
 "
 "
-Clear
+Open
 Sans
 "
 )
@@ -30093,7 +30093,7 @@ serif
 th
 "
 "
-Clear
+Open
 Sans
 "
 )
@@ -30135,7 +30135,7 @@ th
 Droid
 Sans
 Thai
-Clear
+Open
 Sans
 Droid
 Sans
@@ -30174,7 +30174,7 @@ serif
 tr
 "
 "
-Clear
+Open
 Sans
 "
 )
@@ -30213,7 +30213,7 @@ serif
 tr
 "
 "
-Clear
+Open
 Sans
 Roboto
 Droid
@@ -30257,7 +30257,7 @@ x
 baltic
 "
 "
-Clear
+Open
 Sans
 "
 )
@@ -30300,7 +30300,7 @@ x
 baltic
 "
 "
-Clear
+Open
 Sans
 Roboto
 Droid
@@ -30348,7 +30348,7 @@ central
 euro
 "
 "
-Clear
+Open
 Sans
 "
 )
@@ -30395,7 +30395,7 @@ central
 euro
 "
 "
-Clear
+Open
 Sans
 Roboto
 Droid
@@ -30439,7 +30439,7 @@ x
 cyrillic
 "
 "
-Clear
+Open
 Sans
 "
 )
@@ -30482,7 +30482,7 @@ x
 cyrillic
 "
 "
-Clear
+Open
 Sans
 Roboto
 Droid
@@ -30526,7 +30526,7 @@ x
 unicode
 "
 "
-Clear
+Open
 Sans
 "
 )
@@ -30569,7 +30569,7 @@ x
 unicode
 "
 "
-Clear
+Open
 Sans
 Roboto
 Droid
@@ -30617,7 +30617,7 @@ user
 def
 "
 "
-Clear
+Open
 Sans
 "
 )
@@ -30664,7 +30664,7 @@ user
 def
 "
 "
-Clear
+Open
 Sans
 Roboto
 Droid
@@ -30708,7 +30708,7 @@ x
 western
 "
 "
-Clear
+Open
 Sans
 "
 )
@@ -30751,7 +30751,7 @@ x
 western
 "
 "
-Clear
+Open
 Sans
 Roboto
 Droid
@@ -30795,7 +30795,7 @@ zh
 CN
 "
 "
-Clear
+Open
 Sans
 "
 )
@@ -30927,7 +30927,7 @@ zh
 HK
 "
 "
-Clear
+Open
 Sans
 "
 )
@@ -31059,7 +31059,7 @@ zh
 TW
 "
 "
-Clear
+Open
 Sans
 "
 )
