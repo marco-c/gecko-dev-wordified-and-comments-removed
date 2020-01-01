@@ -506,7 +506,7 @@ uint32_t
 newlength
 )
 ;
-rpc
+async
 NPP_StreamAsFile
 (
 nsCString

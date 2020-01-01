@@ -158,6 +158,12 @@ NPStream
 *
 mStream
 ;
+nsCOMPtr
+<
+nsISupports
+>
+mStreamPeer
+;
 enum
 {
 ALIVE
