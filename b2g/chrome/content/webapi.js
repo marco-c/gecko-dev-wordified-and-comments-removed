@@ -192,11 +192,6 @@ MozKeyboard
 }
 )
 ;
-updateApplicationCache
-(
-window
-)
-;
 }
 ;
 let
