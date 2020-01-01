@@ -201,9 +201,6 @@ RegExpPrivate
 class
 RegExpPrivateCode
 ;
-class
-RegExpPrivateCacheValue
-;
 }
 enum
 RegExpFlag
@@ -508,7 +505,8 @@ JSAtom
 detail
 :
 :
-RegExpPrivateCacheValue
+RegExpPrivate
+*
 DefaultHasher
 <
 JSAtom
