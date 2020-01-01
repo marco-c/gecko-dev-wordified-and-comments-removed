@@ -199,6 +199,10 @@ browser_computedview_bug835808_keyboard_nav
 .
 js
 \
+browser_bug913014_matched_expand
+.
+js
+\
 head
 .
 js
