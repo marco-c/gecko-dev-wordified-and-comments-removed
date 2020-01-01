@@ -567,6 +567,10 @@ test_crash_submit
 .
 xul
 \
+test_hang_submit
+.
+xul
+\
 (
 NULL
 )
