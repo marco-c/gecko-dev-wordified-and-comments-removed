@@ -7010,6 +7010,14 @@ strLength
 ;
 gfxPoint
 position
+(
+0
+.
+0
+0
+.
+0
+)
 ;
 gfxFloat
 x
