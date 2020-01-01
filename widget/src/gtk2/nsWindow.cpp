@@ -19742,6 +19742,9 @@ existingRegion
 ;
 if
 (
+mClipRects
+&
+&
 pixman_region32_equal
 (
 &
@@ -19750,8 +19753,10 @@ intersectRegion
 existingRegion
 )
 )
+{
 return
 ;
+}
 if
 (
 !
