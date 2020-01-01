@@ -1375,15 +1375,6 @@ COLOR_3DDKSHADOW
 ;
 break
 ;
-case
-eColor__moz_nativehyperlinktext
-:
-idx
-=
-COLOR_HOTLIGHT
-;
-break
-;
 default
 :
 idx
