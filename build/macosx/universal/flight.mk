@@ -256,8 +256,10 @@ OBJDIR_ARCH_1
 )
 /
 (
-INSTALLER_DIR
+MOZ_BUILD_APP
 )
+/
+installer
 \
 PKG_SKIP_STRIP
 =
