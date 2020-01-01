@@ -3446,8 +3446,12 @@ gdk_window_reparent
 (
 mGdkWindow
 newParentWindow
-0
-0
+mBounds
+.
+x
+mBounds
+.
+y
 )
 ;
 }
