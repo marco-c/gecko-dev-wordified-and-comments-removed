@@ -1088,8 +1088,7 @@ xpc_qsStringToJsstring
 JSContext
 *
 cx
-const
-nsAString
+nsString
 &
 str
 JSString

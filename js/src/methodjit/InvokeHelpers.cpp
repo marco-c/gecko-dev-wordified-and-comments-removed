@@ -1825,7 +1825,13 @@ toObject
 NULL
 ;
 return
-NewObject
+NewNonFunction
+<
+WithProto
+:
+:
+Class
+>
 (
 cx
 &

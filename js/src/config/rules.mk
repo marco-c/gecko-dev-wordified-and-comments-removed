@@ -5643,9 +5643,6 @@ IFLAGS1
 LIBRARY
 )
 (
-FAKE_LIBRARY
-)
-(
 DIST
 )
 /
@@ -8450,7 +8447,7 @@ ifeq
 (
 WINNT_
 (
-OS_ARCH
+HOST_OS_ARCH
 )
 _
 (

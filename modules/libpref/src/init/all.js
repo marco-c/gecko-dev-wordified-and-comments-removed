@@ -30459,7 +30459,7 @@ webgl
 .
 shader_validator
 "
-false
+true
 )
 ;
 pref

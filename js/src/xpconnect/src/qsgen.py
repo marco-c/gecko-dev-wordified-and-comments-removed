@@ -12164,6 +12164,13 @@ endif
 #
 include
 "
+qsWinUndefs
+.
+h
+"
+#
+include
+"
 prtypes
 .
 h
