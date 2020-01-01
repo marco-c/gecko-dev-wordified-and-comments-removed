@@ -86,3 +86,7 @@ zoom
 in
 -
 button
+#
+sync
+-
+buttons
