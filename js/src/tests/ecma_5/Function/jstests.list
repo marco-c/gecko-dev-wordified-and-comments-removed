@@ -30,6 +30,14 @@ script
 .
 js
 script
+arguments
+-
+caller
+-
+callee
+.
+js
+script
 function
 -
 caller

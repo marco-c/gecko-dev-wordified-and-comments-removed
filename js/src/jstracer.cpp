@@ -84062,7 +84062,10 @@ LIR_andi
 len_ins
 INS_CONST
 (
-2
+JSObject
+:
+:
+ARGS_LENGTH_OVERRIDDEN_BIT
 )
 )
 ;
@@ -87525,7 +87528,10 @@ ins2ImmI
 (
 LIR_rshi
 slot_ins
-1
+JSObject
+:
+:
+ARGS_PACKED_BITS_COUNT
 )
 )
 ;
