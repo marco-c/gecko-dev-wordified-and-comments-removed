@@ -292,12 +292,6 @@ return
 ;
 #
 endif
-this
-.
-_sessionType
-=
-null
-;
 _SessionFile
 .
 read
