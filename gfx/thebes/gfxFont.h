@@ -1188,7 +1188,7 @@ gfxMacPlatformFontList
 ;
 friend
 class
-gfxFcFontEntry
+gfxUserFcFontEntry
 ;
 friend
 class
