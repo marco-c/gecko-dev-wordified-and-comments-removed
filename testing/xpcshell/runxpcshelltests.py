@@ -11315,12 +11315,6 @@ exit
 1
 )
     
-options
-.
-sequential
-=
-True
-    
 if
 not
 xpcsh
