@@ -1679,7 +1679,6 @@ aKeyCode
 ]
 ;
 }
-;
 PRBool
 IsKeyDown
 (
@@ -1715,7 +1714,6 @@ mask
 0
 ;
 }
-;
 void
 SetKeyDownFlag
 (
@@ -1744,7 +1742,6 @@ flag
 mask
 ;
 }
-;
 void
 ClearKeyDownFlag
 (
@@ -1774,7 +1771,6 @@ flag
 mask
 ;
 }
-;
 }
 ;
 class
