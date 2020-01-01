@@ -158,7 +158,9 @@ static
 void
 UpdateIMEState
 (
-PRUint32
+const
+IMEState
+&
 aNewIMEState
 nsIContent
 *
@@ -185,7 +187,9 @@ static
 void
 SetIMEState
 (
-PRUint32
+const
+IMEState
+&
 aState
 nsIContent
 *
@@ -198,7 +202,7 @@ aAction
 )
 ;
 static
-PRUint32
+IMEState
 GetNewIMEState
 (
 nsPresContext

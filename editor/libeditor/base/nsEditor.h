@@ -249,6 +249,17 @@ nsKeyEvent
 class
 nsIDOMNSEvent
 ;
+namespace
+mozilla
+{
+namespace
+widget
+{
+struct
+IMEState
+;
+}
+}
 #
 define
 kMOZEditorBogusNodeAttrAtom
