@@ -1174,7 +1174,7 @@ NSGetFactory
 =
 XPCOMUtils
 .
-generateNSGetModule
+generateNSGetFactory
 (
 [
 GPSDProvider
