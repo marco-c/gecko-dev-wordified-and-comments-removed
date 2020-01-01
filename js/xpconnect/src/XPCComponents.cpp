@@ -11432,11 +11432,12 @@ kScriptSecurityManagerContractID
 =
 NS_SCRIPTSECURITYMANAGER_CONTRACTID
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_THREADSAFE_ISUPPORTS3
 (
 SandboxPrivate
 nsIScriptObjectPrincipal
 nsIGlobalObject
+nsISupportsWeakReference
 )
 static
 JSBool
