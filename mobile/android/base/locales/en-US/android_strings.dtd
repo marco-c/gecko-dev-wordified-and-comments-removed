@@ -1082,6 +1082,16 @@ text
 <
 !
 ENTITY
+pref_restore_session
+"
+Always
+restore
+tabs
+"
+>
+<
+!
+ENTITY
 pref_font_size_tiny
 "
 Tiny
