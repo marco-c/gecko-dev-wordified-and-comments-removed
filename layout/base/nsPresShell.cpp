@@ -21610,11 +21610,12 @@ while
 ancestorFrame
 &
 &
-ancestorFrame
--
->
-GetNextInFlow
+nsLayoutUtils
+:
+:
+GetNextContinuationOrSpecialSibling
 (
+ancestorFrame
 )
 )
 ancestorFrame

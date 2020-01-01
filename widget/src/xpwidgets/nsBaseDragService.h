@@ -65,6 +65,12 @@ h
 "
 #
 endif
+#
+define
+DRAG_TRANSLUCENCY
+0
+.
+65
 class
 nsIDOMNode
 ;

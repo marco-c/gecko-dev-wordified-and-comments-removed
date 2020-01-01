@@ -717,6 +717,16 @@ aKnownCommonAncestorHint
 )
 ;
 static
+nsIFrame
+*
+GetNextContinuationOrSpecialSibling
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 PRBool
 IsViewportScrollbarFrame
 (
