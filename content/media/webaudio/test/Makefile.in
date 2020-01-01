@@ -147,6 +147,10 @@ test_audioBufferSourceNode
 .
 html
 \
+test_audioBufferSourceNodeLazyLoopParam
+.
+html
+\
 test_audioBufferSourceNodeLoop
 .
 html
@@ -207,11 +211,11 @@ test_scriptProcessorNode
 .
 html
 \
-test_singleSourceDest
+test_scriptProcessorNodeChannelCount
 .
 html
 \
-test_audioBufferSourceNodeLazyLoopParam
+test_singleSourceDest
 .
 html
 \
