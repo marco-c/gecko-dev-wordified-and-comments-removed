@@ -122,6 +122,7 @@ char
 *
 jsdtrace_fun_classname
 (
+const
 JSFunction
 *
 fun
@@ -223,6 +224,7 @@ jsdtrace_fun_linenumber
 JSContext
 *
 cx
+const
 JSFunction
 *
 fun
@@ -298,6 +300,7 @@ jsdtrace_jsvaltovoid
 JSContext
 *
 cx
+const
 jsval
 argval
 )
@@ -406,6 +409,7 @@ jsdtrace_fun_name
 JSContext
 *
 cx
+const
 JSFunction
 *
 fun
@@ -476,6 +480,7 @@ cx
 JSStackFrame
 *
 fp
+const
 JSFunction
 *
 fun
@@ -557,6 +562,7 @@ cx
 JSStackFrame
 *
 fp
+const
 JSFunction
 *
 fun
