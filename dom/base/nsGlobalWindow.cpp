@@ -33657,9 +33657,6 @@ FirePendingStorageEvents
 this
 )
 ;
-delete
-mPendingStorageEventsObsolete
-;
 mPendingStorageEventsObsolete
 =
 nsnull
