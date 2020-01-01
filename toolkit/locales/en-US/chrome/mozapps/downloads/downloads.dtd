@@ -26,9 +26,6 @@ starting
 label
 "
 Starting
-.
-.
-.
 "
 >
 <
@@ -41,9 +38,6 @@ label
 Scanning
 for
 viruses
-.
-.
-.
 "
 >
 <
@@ -215,9 +209,6 @@ label
 "
 Open
 With
-.
-.
-.
 "
 >
 <
@@ -489,8 +480,5 @@ searchBox
 label
 "
 Search
-.
-.
-.
 "
 >

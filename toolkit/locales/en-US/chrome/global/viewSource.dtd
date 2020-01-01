@@ -136,9 +136,6 @@ label
 Save
 Page
 As
-.
-.
-.
 "
 >
 <
@@ -170,9 +167,6 @@ label
 "
 Page
 Setup
-.
-.
-.
 "
 >
 <
@@ -214,9 +208,6 @@ printCmd
 label
 "
 Print
-.
-.
-.
 "
 >
 <
@@ -319,9 +310,6 @@ label
 Go
 to
 Line
-.
-.
-.
 "
 >
 <
@@ -529,9 +517,6 @@ Find
 in
 This
 Page
-.
-.
-.
 "
 >
 <

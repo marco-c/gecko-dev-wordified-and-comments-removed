@@ -772,9 +772,6 @@ DL_SUBTITLE
 Downloading
 required
 components
-.
-.
-.
 #
 define
 DL_BLURB
@@ -809,9 +806,6 @@ define
 INSTALL_SUBTITLE
 Installing
 ProductShortName
-.
-.
-.
 #
 define
 INSTALL_BLURB
@@ -981,9 +975,6 @@ ProductNameInternal
 .
 Please
 wait
-.
-.
-.
 #
 define
 XPCOM_SHORT
@@ -1064,9 +1055,6 @@ Preparing
 Install
 please
 wait
-.
-.
-.
 #
 define
 INST_UNINST
@@ -1075,9 +1063,6 @@ the
 uninstaller
 please
 wait
-.
-.
-.
 #
 define
 MSG_UNFINISHED_DL
@@ -1288,9 +1273,6 @@ of
 archives
 please
 wait
-.
-.
-.
 #
 define
 MSG_UNDEFINED
@@ -1346,9 +1328,6 @@ Canceling
 Setup
 please
 wait
-.
-.
-.
 #
 define
 MSG_ERROR_UNCOMPRESS
@@ -1996,9 +1975,6 @@ ProductNameInternal
 .
 Please
 wait
-.
-.
-.
 #
 define
 UNINST_FONT
@@ -2306,9 +2282,6 @@ required
 !
 Exiting
 Uninstall
-.
-.
-.
 #
 define
 MB_WARNING_STR

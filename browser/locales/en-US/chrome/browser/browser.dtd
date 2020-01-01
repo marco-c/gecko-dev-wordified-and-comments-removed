@@ -154,9 +154,6 @@ label
 "
 Open
 Location
-.
-.
-.
 "
 >
 <
@@ -178,9 +175,6 @@ label
 "
 Open
 File
-.
-.
-.
 "
 >
 <
@@ -212,9 +206,6 @@ label
 "
 Page
 Setup
-.
-.
-.
 "
 >
 <
@@ -256,9 +247,6 @@ printCmd
 label
 "
 Print
-.
-.
-.
 "
 >
 <
@@ -289,9 +277,6 @@ import
 label
 "
 Import
-.
-.
-.
 "
 >
 <
@@ -564,9 +549,6 @@ label
 Bookmark
 This
 Page
-.
-.
-.
 "
 >
 <
@@ -603,9 +585,6 @@ Subscribe
 to
 This
 Page
-.
-.
-.
 "
 >
 <
@@ -618,9 +597,6 @@ label
 Bookmark
 All
 Tabs
-.
-.
-.
 "
 >
 <
@@ -633,9 +609,6 @@ label
 Show
 All
 Bookmarks
-.
-.
-.
 "
 >
 <
@@ -648,9 +621,6 @@ label
 Bookmark
 All
 Tabs
-.
-.
-.
 "
 >
 <
@@ -1045,9 +1015,6 @@ Keyword
 for
 this
 Search
-.
-.
-.
 "
 >
 <
@@ -1485,9 +1452,6 @@ preferencesCmd
 label
 "
 Options
-.
-.
-.
 "
 >
 <
@@ -1610,9 +1574,6 @@ viewCustomizeToolbar
 label
 "
 Customize
-.
-.
-.
 "
 >
 <
@@ -1677,9 +1638,6 @@ label
 Show
 All
 History
-.
-.
-.
 "
 >
 <
@@ -2246,9 +2204,6 @@ Set
 As
 Desktop
 Background
-.
-.
-.
 "
 >
 <
@@ -2271,9 +2226,6 @@ label
 Bookmark
 This
 Page
-.
-.
-.
 "
 >
 <
@@ -2296,9 +2248,6 @@ label
 Bookmark
 This
 Link
-.
-.
-.
 "
 >
 <
@@ -2321,9 +2270,6 @@ label
 Bookmark
 This
 Frame
-.
-.
-.
 "
 >
 <
@@ -2345,9 +2291,6 @@ label
 "
 Send
 Link
-.
-.
-.
 "
 >
 <
@@ -2370,9 +2313,6 @@ label
 Save
 Page
 As
-.
-.
-.
 "
 >
 <
@@ -2428,9 +2368,6 @@ label
 Save
 Frame
 As
-.
-.
-.
 "
 >
 <
@@ -2452,9 +2389,6 @@ label
 "
 Print
 Frame
-.
-.
-.
 "
 >
 <
@@ -2477,9 +2411,6 @@ label
 Save
 Link
 As
-.
-.
-.
 "
 >
 <
@@ -2501,9 +2432,6 @@ label
 "
 Send
 Link
-.
-.
-.
 "
 >
 <
@@ -2526,9 +2454,6 @@ label
 Save
 Image
 As
-.
-.
-.
 "
 >
 <
@@ -2550,9 +2475,6 @@ label
 "
 Send
 Image
-.
-.
-.
 "
 >
 <
@@ -3173,9 +3095,6 @@ Edit
 Popup
 Blocker
 Preferences
-.
-.
-.
 "
 >
 <
@@ -3189,9 +3108,6 @@ Edit
 Popup
 Blocker
 Options
-.
-.
-.
 "
 >
 <
@@ -3279,9 +3195,6 @@ Find
 in
 This
 Page
-.
-.
-.
 "
 >
 <
@@ -3354,9 +3267,6 @@ label
 "
 Add
 dictionaries
-.
-.
-.
 "
 >
 <
@@ -3407,8 +3317,5 @@ about
 this
 web
 site
-.
-.
-.
 "
 >

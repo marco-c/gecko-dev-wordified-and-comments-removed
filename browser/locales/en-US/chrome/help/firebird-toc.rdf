@@ -5329,9 +5329,6 @@ name
 =
 "
 Preferences
-.
-.
-.
 "
 nc
 :
@@ -5561,9 +5558,6 @@ name
 "
 Open
 Location
-.
-.
-.
 "
 nc
 :
@@ -5611,9 +5605,6 @@ name
 "
 Open
 File
-.
-.
-.
 "
 nc
 :
@@ -5758,9 +5749,6 @@ name
 Save
 Page
 As
-.
-.
-.
 "
 nc
 :
@@ -5808,9 +5796,6 @@ name
 "
 Send
 Link
-.
-.
-.
 "
 nc
 :
@@ -5858,9 +5843,6 @@ name
 "
 Page
 Setup
-.
-.
-.
 "
 nc
 :
@@ -5961,9 +5943,6 @@ name
 =
 "
 Print
-.
-.
-.
 "
 nc
 :
@@ -6008,9 +5987,6 @@ name
 =
 "
 Import
-.
-.
-.
 "
 nc
 :
@@ -6570,9 +6546,6 @@ Find
 in
 This
 Page
-.
-.
-.
 "
 nc
 :
@@ -8194,9 +8167,6 @@ name
 Bookmark
 This
 Page
-.
-.
-.
 "
 nc
 :
@@ -8244,9 +8214,6 @@ Subscribe
 to
 This
 Page
-.
-.
-.
 "
 nc
 :
@@ -8297,9 +8264,6 @@ name
 Bookmark
 All
 Tabs
-.
-.
-.
 "
 nc
 :
@@ -8347,9 +8311,6 @@ name
 "
 Organize
 Bookmarks
-.
-.
-.
 "
 nc
 :
@@ -8674,9 +8635,6 @@ name
 Clear
 Private
 Data
-.
-.
-.
 "
 nc
 :
@@ -9220,9 +9178,6 @@ Report
 Broken
 Web
 Site
-.
-.
-.
 "
 nc
 :
@@ -9273,9 +9228,6 @@ name
 Report
 Web
 Forgery
-.
-.
-.
 "
 nc
 :
@@ -9326,9 +9278,6 @@ name
 Check
 for
 Updates
-.
-.
-.
 "
 nc
 :

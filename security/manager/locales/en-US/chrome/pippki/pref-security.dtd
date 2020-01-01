@@ -425,9 +425,6 @@ label
 "
 Reset
 Preferences
-.
-.
-.
 "
 >
 <
@@ -479,9 +476,6 @@ button
 "
 Manage
 Certificates
-.
-.
-.
 "
 >
 <
@@ -538,9 +532,6 @@ button
 Manage
 Security
 Devices
-.
-.
-.
 "
 >
 <

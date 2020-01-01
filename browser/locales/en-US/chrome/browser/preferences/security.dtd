@@ -291,9 +291,6 @@ addonExceptions
 label
 "
 Exceptions
-.
-.
-.
 "
 >
 <
@@ -347,9 +344,6 @@ passwordExceptions
 label
 "
 Exceptions
-.
-.
-.
 "
 >
 <
@@ -395,9 +389,6 @@ label
 Change
 Master
 Password
-.
-.
-.
 "
 >
 <
@@ -419,9 +410,6 @@ label
 "
 Show
 Passwords
-.
-.
-.
 "
 >
 <
@@ -474,9 +462,6 @@ warningSettings
 label
 "
 Settings
-.
-.
-.
 "
 >
 <

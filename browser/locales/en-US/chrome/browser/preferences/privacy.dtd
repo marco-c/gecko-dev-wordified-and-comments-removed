@@ -244,9 +244,6 @@ cookieExceptions
 label
 "
 Exceptions
-.
-.
-.
 "
 >
 <
@@ -268,9 +265,6 @@ label
 "
 Show
 Cookies
-.
-.
-.
 "
 >
 <
@@ -357,9 +351,6 @@ clearDataSettings
 label
 "
 Settings
-.
-.
-.
 "
 >
 <
@@ -381,9 +372,6 @@ label
 "
 Clear
 Now
-.
-.
-.
 "
 >
 <

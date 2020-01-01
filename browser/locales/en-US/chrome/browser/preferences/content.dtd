@@ -30,9 +30,6 @@ popupExceptions
 label
 "
 Exceptions
-.
-.
-.
 "
 >
 <
@@ -75,9 +72,6 @@ exceptions
 label
 "
 Exceptions
-.
-.
-.
 "
 >
 <
@@ -119,9 +113,6 @@ advancedJS
 label
 "
 Advanced
-.
-.
-.
 "
 >
 <
@@ -220,9 +211,6 @@ advancedFonts
 label
 "
 Advanced
-.
-.
-.
 "
 >
 <
@@ -243,9 +231,6 @@ colors
 label
 "
 Colors
-.
-.
-.
 "
 >
 <
@@ -292,9 +277,6 @@ chooseButton
 label
 "
 Choose
-.
-.
-.
 "
 >
 <

@@ -407,9 +407,6 @@ ENTITY
 hfCustom
 "
 Custom
-.
-.
-.
 "
 >
 <
@@ -420,9 +417,6 @@ customPrompt
 title
 "
 Custom
-.
-.
-.
 "
 >
 <

@@ -229,9 +229,6 @@ installLocalFile
 label
 "
 Install
-.
-.
-.
 "
 >
 <
@@ -1657,9 +1654,6 @@ installWaiting
 label
 "
 Waiting
-.
-.
-.
 "
 >
 <
@@ -1671,9 +1665,6 @@ label
 "
 Checking
 compatibility
-.
-.
-.
 "
 >
 <
@@ -1684,9 +1675,6 @@ installFinishing
 label
 "
 Installing
-.
-.
-.
 "
 >
 <

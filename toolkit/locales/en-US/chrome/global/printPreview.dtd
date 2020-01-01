@@ -408,9 +408,6 @@ print
 label
 "
 Print
-.
-.
-.
 "
 >
 <
@@ -432,9 +429,6 @@ label
 "
 Page
 Setup
-.
-.
-.
 "
 >
 <
@@ -735,9 +729,6 @@ Custom
 label
 "
 Custom
-.
-.
-.
 "
 >
 <
@@ -761,9 +752,6 @@ title
 "
 Custom
 Scale
-.
-.
-.
 "
 >
 <
