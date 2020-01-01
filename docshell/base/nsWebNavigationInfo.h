@@ -28,13 +28,6 @@ h
 #
 include
 "
-imgILoader
-.
-h
-"
-#
-include
-"
 nsStringFwd
 .
 h
@@ -113,12 +106,6 @@ nsCOMPtr
 nsICategoryManager
 >
 mCategoryManager
-;
-nsCOMPtr
-<
-imgILoader
->
-mImgLoader
 ;
 }
 ;
