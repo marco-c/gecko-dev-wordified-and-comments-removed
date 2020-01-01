@@ -548,6 +548,10 @@ nsTextAttrs
 .
 cpp
 \
+TextUpdater
+.
+cpp
+\
 (
 NULL
 )
