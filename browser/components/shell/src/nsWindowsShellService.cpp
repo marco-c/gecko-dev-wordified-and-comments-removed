@@ -344,14 +344,17 @@ NS_OK
 typedef
 struct
 {
+const
 char
 *
 keyName
 ;
+const
 char
 *
 valueData
 ;
+const
 char
 *
 oldValueData
@@ -1196,6 +1199,7 @@ dwMajorVersion
 6
 |
 |
+(
 osInfo
 .
 dwMajorVersion
@@ -1210,6 +1214,7 @@ dwMinorVersion
 >
 =
 2
+)
 ;
 }
 static

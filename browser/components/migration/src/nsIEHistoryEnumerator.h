@@ -14,6 +14,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsISimpleEnumerator
 .
 h
@@ -34,6 +43,7 @@ h
 "
 class
 nsIEHistoryEnumerator
+MOZ_FINAL
 :
 public
 nsISimpleEnumerator
