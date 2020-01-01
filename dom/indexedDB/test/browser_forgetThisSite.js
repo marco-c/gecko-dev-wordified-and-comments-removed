@@ -137,9 +137,6 @@ testPageURL1
 "
 indexedDB
 "
-"
-unknown
-"
 )
 ;
 setPermission
@@ -147,9 +144,6 @@ setPermission
 testPageURL2
 "
 indexedDB
-"
-"
-unknown
 "
 )
 ;
@@ -407,9 +401,6 @@ setPermission
 testPageURL4
 "
 indexedDB
-"
-"
-unknown
 "
 )
 ;

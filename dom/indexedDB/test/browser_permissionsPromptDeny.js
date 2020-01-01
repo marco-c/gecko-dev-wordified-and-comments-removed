@@ -48,14 +48,11 @@ waitForExplicitFinish
 (
 )
 ;
-setPermission
+removePermission
 (
 testPageURL
 "
 indexedDB
-"
-"
-allow
 "
 )
 ;
