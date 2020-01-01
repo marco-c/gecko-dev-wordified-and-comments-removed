@@ -39274,6 +39274,9 @@ bundle
 MOZ_WEBGL
 =
 1
+MOZ_INSTRUMENT_EVENT_LOOP
+=
+1
 ;
 ;
 cairo

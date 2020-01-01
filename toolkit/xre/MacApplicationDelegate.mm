@@ -720,6 +720,9 @@ sProcessedGetURLEvent
 =
 PR_FALSE
 ;
+class
+GeckoNSApplication
+;
 /
 /
 Methods
@@ -781,7 +784,7 @@ EnsureUseCocoaDockAPI
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 [
-NSApplication
+GeckoNSApplication
 sharedApplication
 ]
 ;
@@ -841,7 +844,7 @@ bug
 377166
 .
 [
-NSApplication
+GeckoNSApplication
 sharedApplication
 ]
 ;
