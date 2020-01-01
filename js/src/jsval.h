@@ -2745,7 +2745,7 @@ uint64
 jsval
 ;
 typedef
-size_t
+ptrdiff_t
 jsid
 ;
 #
