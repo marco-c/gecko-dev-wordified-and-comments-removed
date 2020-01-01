@@ -2489,6 +2489,11 @@ norestorefocus
 "
 true
 "
+ignorekeys
+=
+"
+true
+"
 #
 ifdef
 XP_WIN
