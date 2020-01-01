@@ -6703,6 +6703,15 @@ i
 ;
 if
 (
+child
+.
+viewIndex
+!
+=
+-
+1
+&
+&
 this
 .
 nodeIsURI
