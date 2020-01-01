@@ -4819,7 +4819,7 @@ return
 JS_TRUE
 ;
 }
-int
+jsint
 js_BoyerMooreHorspool
 (
 const
