@@ -3129,9 +3129,6 @@ PR_FALSE
 nsresult
 rv
 =
-mozilla
-:
-:
 Preferences
 :
 :
