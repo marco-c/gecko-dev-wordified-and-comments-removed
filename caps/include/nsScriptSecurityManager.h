@@ -117,9 +117,6 @@ class
 nsIIOService
 ;
 class
-nsIXPConnect
-;
-class
 nsIStringBundle
 ;
 class
@@ -1475,11 +1472,6 @@ static
 nsIIOService
 *
 sIOService
-;
-static
-nsIXPConnect
-*
-sXPConnect
 ;
 static
 nsIStringBundle
