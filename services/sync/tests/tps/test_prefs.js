@@ -82,9 +82,9 @@ name
 "
 browser
 .
-tabs
+link
 .
-autoHide
+open_newwindow
 "
 value
 :
@@ -140,9 +140,9 @@ name
 "
 browser
 .
-tabs
+link
 .
-autoHide
+open_newwindow
 "
 value
 :
