@@ -27867,9 +27867,6 @@ cx
 JSRegExpStatics
 *
 statics
-AutoStringRooter
-*
-tvr
 )
 {
 cx

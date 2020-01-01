@@ -550,6 +550,9 @@ undef
 GetClassName
 #
 endif
+class
+qsObjectHelper
+;
 #
 if
 defined
@@ -8749,9 +8752,12 @@ ccx
 nsISupports
 *
 p
+qsObjectHelper
+*
+aHelper
 nsWrapperCache
 *
-cache
+aCache
 XPCWrappedNativeScope
 *
 xpcScope
@@ -12096,6 +12102,11 @@ isGlobal
 nsresult
 *
 pErr
+qsObjectHelper
+*
+aHelper
+=
+nsnull
 )
 {
 XPCLazyCallContext
@@ -12118,6 +12129,7 @@ scope
 allowNativeWrapper
 isGlobal
 pErr
+aHelper
 )
 ;
 }
@@ -12159,6 +12171,11 @@ isGlobal
 nsresult
 *
 pErr
+qsObjectHelper
+*
+aHelper
+=
+nsnull
 )
 ;
 static

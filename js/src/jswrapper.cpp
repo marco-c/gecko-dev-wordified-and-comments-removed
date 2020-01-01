@@ -2608,8 +2608,6 @@ js_RestoreRegExpStatics
 context
 &
 statics
-&
-input
 )
 ;
 frame
