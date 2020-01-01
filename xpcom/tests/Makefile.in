@@ -523,6 +523,10 @@ TestProxies
 .
 cpp
 \
+TestThreadPoolListener
+.
+cpp
+\
 (
 NULL
 )
@@ -719,6 +723,8 @@ TestPipe
 TestServMgr
 \
 TestTextFormatter
+\
+TestThreadPoolListener
 \
 (
 NULL
