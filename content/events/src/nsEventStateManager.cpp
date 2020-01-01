@@ -12733,7 +12733,7 @@ action
 ;
 dropEffect
 =
-nsDOMDragEvent
+nsContentUtils
 :
 :
 FilterDropEffect

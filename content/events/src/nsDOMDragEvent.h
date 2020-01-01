@@ -60,16 +60,6 @@ nsDOMDragEvent
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMDRAGEVENT
 NS_FORWARD_TO_NSDOMMOUSEEVENT
-static
-PRUint32
-FilterDropEffect
-(
-PRUint32
-aAction
-PRUint32
-aEffectAllowed
-)
-;
 }
 ;
 nsresult

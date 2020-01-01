@@ -1322,6 +1322,9 @@ PRInt32
 index
 PRInt32
 orientation
+nsIDOMDataTransfer
+*
+aDataTransfer
 PRBool
 *
 _retval
@@ -1351,6 +1354,9 @@ PRInt32
 row
 PRInt32
 orient
+nsIDOMDataTransfer
+*
+aDataTransfer
 )
 {
 return
