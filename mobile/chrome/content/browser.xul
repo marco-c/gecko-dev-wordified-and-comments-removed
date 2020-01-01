@@ -5352,6 +5352,15 @@ menupopup
 >
 <
 menuitem
+id
+=
+"
+prefs
+-
+languages
+-
+auto
+"
 label
 =
 "
