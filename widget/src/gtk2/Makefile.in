@@ -818,6 +818,3 @@ shared
 /
 x11
 endif
-/
-/
-MOZ_X11
