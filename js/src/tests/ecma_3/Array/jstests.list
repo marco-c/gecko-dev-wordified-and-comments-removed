@@ -157,3 +157,9 @@ regress
 488989
 .
 js
+script
+regress
+-
+619970
+.
+js
