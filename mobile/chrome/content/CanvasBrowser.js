@@ -953,6 +953,7 @@ true
 viewportHandler
 :
 function
+viewportHandler
 (
 bounds
 boundsSizeChanged
