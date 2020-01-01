@@ -47,10 +47,6 @@ ShutdownAccessibility
 (
 )
 ;
-static
-PRBool
-gHaveNewTextSignals
-;
 }
 ;
 #
