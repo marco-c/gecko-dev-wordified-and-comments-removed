@@ -225,7 +225,7 @@ PR_FALSE
 ;
 mShaderValidation
 =
-PR_FALSE
+PR_TRUE
 ;
 mMapBuffers
 .
