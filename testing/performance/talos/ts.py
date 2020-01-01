@@ -121,6 +121,8 @@ ffprocess
 import
 ffprofile
 import
+ffinfo
+import
 config
 TS_REGEX
 =
@@ -561,6 +563,17 @@ config
 ffprofile
 .
 InitializeNewProfile
+(
+config
+[
+2
+]
+profile_dir
+)
+    
+ffinfo
+.
+GetMetricsFromBrowser
 (
 config
 [
