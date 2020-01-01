@@ -2660,6 +2660,8 @@ aWhen
 ErrorResult
 &
 aRv
+bool
+aShuttingDown
 )
 {
 if
@@ -2682,6 +2684,9 @@ if
 (
 !
 mBuffer
+|
+|
+aShuttingDown
 )
 {
 mPlayingRef

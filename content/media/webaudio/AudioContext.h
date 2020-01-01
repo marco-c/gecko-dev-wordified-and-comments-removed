@@ -617,6 +617,16 @@ IdealAudioRate
 )
 ;
 }
+bool
+IsOffline
+(
+)
+const
+{
+return
+mIsOffline
+;
+}
 MediaStreamGraph
 *
 Graph

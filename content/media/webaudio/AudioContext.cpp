@@ -1858,6 +1858,7 @@ Stop
 .
 0
 rv
+true
 )
 ;
 }
@@ -1901,6 +1902,19 @@ i
 -
 >
 Stop
+(
+)
+;
+}
+if
+(
+mIsOffline
+)
+{
+mDestination
+-
+>
+DestroyGraph
 (
 )
 ;

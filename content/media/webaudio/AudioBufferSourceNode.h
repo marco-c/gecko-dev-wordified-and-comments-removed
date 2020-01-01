@@ -235,6 +235,10 @@ aWhen
 ErrorResult
 &
 aRv
+bool
+aShuttingDown
+=
+false
 )
 ;
 void
