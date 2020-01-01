@@ -1439,6 +1439,17 @@ nsHTMLMediaElement
 (
 )
 {
+if
+(
+mDecoder
+)
+mDecoder
+-
+>
+Stop
+(
+)
+;
 }
 NS_IMETHODIMP
 nsHTMLMediaElement

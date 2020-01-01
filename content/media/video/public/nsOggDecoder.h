@@ -439,6 +439,9 @@ mLoadInProgress
 PRPackedBool
 mPlayAfterLoad
 ;
+PRPackedBool
+mNotifyOnShutdown
+;
 nsCOMPtr
 <
 nsIThread
