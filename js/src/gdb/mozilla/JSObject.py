@@ -45,6 +45,18 @@ cache
 )
 :
         
+gdb
+.
+lookup_type
+(
+'
+js
+:
+:
+BaseShape
+'
+)
+        
 baseshape_flags
 =
 gdb
