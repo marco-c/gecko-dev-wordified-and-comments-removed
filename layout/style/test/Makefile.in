@@ -733,6 +733,10 @@ test_parse_rule
 .
 html
 \
+test_parse_url
+.
+html
+\
 test_property_database
 .
 html
