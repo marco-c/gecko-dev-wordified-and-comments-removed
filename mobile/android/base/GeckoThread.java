@@ -338,16 +338,6 @@ args
 "
 )
 ;
-if
-(
-!
-(
-app
-instanceof
-BrowserApp
-)
-)
-{
 String
 profile
 =
@@ -378,7 +368,6 @@ P
 +
 profile
 ;
-}
 Log
 .
 i
