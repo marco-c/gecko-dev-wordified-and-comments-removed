@@ -297,6 +297,15 @@ mNetworkState
 nsMediaReadyState
 mReadyState
 ;
+float
+mMutedVolume
+;
+float
+mDefaultPlaybackRate
+;
+float
+mPlaybackRate
+;
 PRPackedBool
 mBegun
 ;
@@ -317,9 +326,6 @@ mSeeking
 ;
 PRPackedBool
 mMuted
-;
-float
-mMutedVolume
 ;
 PRPackedBool
 mIsDoneAddingChildren
