@@ -485,10 +485,6 @@ xultmpl
 \
 util
 \
-appshell
-\
-shistory
-\
 (
 NULL
 )
@@ -566,10 +562,6 @@ nsAttrAndChildArray
 cpp
 \
 nsAttrValue
-.
-cpp
-\
-nsCCUncollectableMarker
 .
 cpp
 \
