@@ -60,13 +60,6 @@ unit
 html
 conformance
 /
-is
--
-object
-.
-html
-conformance
-/
 tex
 -
 image

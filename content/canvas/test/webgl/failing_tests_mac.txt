@@ -32,15 +32,6 @@ conformance
 /
 gl
 -
-get
--
-calls
-.
-html
-conformance
-/
-gl
--
 object
 -
 get
