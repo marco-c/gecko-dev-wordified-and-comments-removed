@@ -116,6 +116,10 @@ SkAdvancedTypefaceMetrics
 :
 PerGlyphInfo
 perGlyphInfo
+const
+uint32_t
+*
+uint32_t
 )
 {
 SkDEBUGFAIL
