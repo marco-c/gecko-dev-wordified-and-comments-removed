@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsIAsyncVerifyRedirectCallback
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestor
 .
 h
@@ -1203,7 +1210,7 @@ NS_IMETHODIMP
 nsSyncLoader
 :
 :
-OnChannelRedirect
+AsyncOnChannelRedirect
 (
 nsIChannel
 *
@@ -1213,6 +1220,9 @@ nsIChannel
 aNewChannel
 PRUint32
 aFlags
+nsIAsyncVerifyRedirectCallback
+*
+callback
 )
 {
 NS_PRECONDITION
@@ -1230,6 +1240,14 @@ channel
 mChannel
 =
 aNewChannel
+;
+callback
+-
+>
+OnRedirectVerifyCallback
+(
+NS_OK
+)
 ;
 return
 NS_OK

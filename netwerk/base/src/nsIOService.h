@@ -133,6 +133,13 @@ nsINetworkLinkService
 h
 "
 #
+include
+"
+nsAsyncRedirectVerifyHelper
+.
+h
+"
+#
 define
 NS_N
 (
@@ -259,7 +266,7 @@ hdlrResult
 )
 ;
 nsresult
-OnChannelRedirect
+AsyncOnChannelRedirect
 (
 nsIChannel
 *
@@ -269,6 +276,9 @@ nsIChannel
 newChan
 PRUint32
 flags
+nsAsyncRedirectVerifyHelper
+*
+helper
 )
 ;
 const

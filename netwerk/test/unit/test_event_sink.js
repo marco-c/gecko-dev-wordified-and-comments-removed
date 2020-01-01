@@ -164,7 +164,7 @@ results
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-onChannelRedirect
+asyncOnChannelRedirect
 :
 function
 eventsink_onredir
@@ -172,6 +172,7 @@ eventsink_onredir
 oldChan
 newChan
 flags
+callback
 )
 {
 this

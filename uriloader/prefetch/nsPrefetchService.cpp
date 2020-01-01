@@ -174,6 +174,13 @@ plstr
 h
 "
 #
+include
+"
+nsIAsyncVerifyRedirectCallback
+.
+h
+"
+#
 if
 defined
 (
@@ -1129,7 +1136,7 @@ NS_IMETHODIMP
 nsPrefetchNode
 :
 :
-OnChannelRedirect
+AsyncOnChannelRedirect
 (
 nsIChannel
 *
@@ -1139,6 +1146,9 @@ nsIChannel
 aNewChannel
 PRUint32
 aFlags
+nsIAsyncVerifyRedirectCallback
+*
+callback
 )
 {
 nsCOMPtr
@@ -1303,6 +1313,14 @@ PR_FALSE
 mChannel
 =
 aNewChannel
+;
+callback
+-
+>
+OnRedirectVerifyCallback
+(
+NS_OK
+)
 ;
 return
 NS_OK

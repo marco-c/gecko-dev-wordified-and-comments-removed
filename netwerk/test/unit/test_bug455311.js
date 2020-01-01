@@ -256,13 +256,14 @@ iid
 )
 ;
 }
-onChannelRedirect
+asyncOnChannelRedirect
 :
 function
 (
 oldChan
 newChan
 flags
+callback
 )
 {
 do_check_eq
