@@ -421,7 +421,7 @@ dest
 void
 add32
 (
-TrustedImm32
+Imm32
 imm
 Address
 address
@@ -446,7 +446,7 @@ base
 void
 add32
 (
-TrustedImm32
+Imm32
 imm
 RegisterID
 dest
@@ -794,27 +794,6 @@ dest
 ;
 }
 void
-idiv
-(
-RegisterID
-reg
-)
-{
-m_assembler
-.
-cdq
-(
-)
-;
-m_assembler
-.
-idivl_r
-(
-reg
-)
-;
-}
-void
 neg32
 (
 RegisterID
@@ -905,7 +884,7 @@ dest
 void
 or32
 (
-TrustedImm32
+Imm32
 imm
 RegisterID
 dest
@@ -971,7 +950,7 @@ dest
 void
 or32
 (
-TrustedImm32
+Imm32
 imm
 Address
 address
@@ -1236,7 +1215,7 @@ dest
 void
 sub32
 (
-TrustedImm32
+Imm32
 imm
 RegisterID
 dest
@@ -1256,7 +1235,7 @@ dest
 void
 sub32
 (
-TrustedImm32
+Imm32
 imm
 Address
 address
@@ -1345,7 +1324,7 @@ dest
 void
 xor32
 (
-TrustedImm32
+Imm32
 imm
 Address
 dest
@@ -1370,7 +1349,7 @@ base
 void
 xor32
 (
-TrustedImm32
+Imm32
 imm
 RegisterID
 dest
@@ -1944,7 +1923,7 @@ scale
 void
 store32
 (
-TrustedImm32
+Imm32
 imm
 BaseIndex
 address
@@ -2037,7 +2016,7 @@ scale
 void
 store32
 (
-TrustedImm32
+Imm32
 imm
 ImplicitAddress
 address
@@ -3050,6 +3029,14 @@ isSSE2Present
 )
 )
 ;
+ASSERT
+(
+src
+!
+=
+fpTemp
+)
+;
 m_assembler
 .
 cvttsd2si_rr
@@ -3199,7 +3186,7 @@ m_value
 void
 move
 (
-TrustedImm32
+Imm32
 imm
 RegisterID
 dest
@@ -3263,7 +3250,7 @@ dest
 void
 move
 (
-TrustedImmPtr
+ImmPtr
 imm
 RegisterID
 dest
@@ -3391,7 +3378,7 @@ dest
 void
 move
 (
-TrustedImmPtr
+ImmPtr
 imm
 RegisterID
 dest
@@ -3553,7 +3540,7 @@ Condition
 cond
 RegisterID
 left
-TrustedImm32
+Imm32
 right
 )
 {
@@ -3623,7 +3610,7 @@ Condition
 cond
 RegisterID
 left
-TrustedImm32
+Imm32
 right
 )
 {
@@ -3659,7 +3646,7 @@ Condition
 cond
 RegisterID
 left
-TrustedImm32
+Imm32
 right
 DataLabel32
 &
@@ -3705,7 +3692,7 @@ Condition
 cond
 Address
 left
-TrustedImm32
+Imm32
 right
 DataLabel32
 &
@@ -3834,7 +3821,7 @@ Condition
 cond
 Address
 left
-TrustedImm32
+Imm32
 right
 )
 {
@@ -3875,7 +3862,7 @@ Condition
 cond
 BaseIndex
 left
-TrustedImm32
+Imm32
 right
 )
 {
@@ -3922,7 +3909,7 @@ Condition
 cond
 BaseIndex
 left
-TrustedImm32
+Imm32
 right
 )
 {
@@ -6487,7 +6474,7 @@ edx
 endif
 #
 elif
-WTF_COMPILER_SUNCC
+WTF_COMPILER_SUNPRO
 #
 if
 WTF_CPU_X86_64
@@ -6790,7 +6777,7 @@ if
 WTF_CPU_X86
 #
 if
-WTF_OS_MAC_OS_X
+WTF_PLATFORM_MAC
 static
 bool
 isSSEPresent
