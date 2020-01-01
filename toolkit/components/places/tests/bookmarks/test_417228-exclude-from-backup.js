@@ -595,7 +595,9 @@ try
 {
 PlacesUtils
 .
-backupBookmarksToFile
+backups
+.
+saveBookmarksToJSONFile
 (
 jsonFile
 )
@@ -625,6 +627,8 @@ ex
 try
 {
 PlacesUtils
+.
+backups
 .
 restoreBookmarksFromJSONFile
 (
@@ -679,6 +683,8 @@ _excludeRootId
 try
 {
 PlacesUtils
+.
+backups
 .
 restoreBookmarksFromJSONFile
 (

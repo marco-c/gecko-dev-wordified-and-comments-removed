@@ -170,7 +170,9 @@ addBookmarks
 ;
 PlacesUtils
 .
-backupBookmarksToFile
+backups
+.
+saveBookmarksToJSONFile
 (
 this
 .
@@ -184,6 +186,8 @@ remove_all_bookmarks
 try
 {
 PlacesUtils
+.
+backups
 .
 restoreBookmarksFromJSONFile
 (
@@ -260,6 +264,8 @@ json
 try
 {
 PlacesUtils
+.
+backups
 .
 restoreBookmarksFromJSONFile
 (
@@ -357,6 +363,8 @@ it
 try
 {
 PlacesUtils
+.
+backups
 .
 restoreBookmarksFromJSONFile
 (

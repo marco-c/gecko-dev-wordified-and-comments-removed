@@ -767,7 +767,17 @@ SMART_BOOKMARKS_ON_TOOLBAR
 const
 SMART_BOOKMARKS_ON_MENU
 =
+3
+;
+const
+DEFAULT_BOOKMARKS_ON_TOOLBAR
+=
 2
+;
+const
+DEFAULT_BOOKMARKS_ON_MENU
+=
+3
 ;
 function
 create_bookmarks_html
