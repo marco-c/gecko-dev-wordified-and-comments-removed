@@ -438,6 +438,9 @@ nsITokenizer
 *
 mTokenizer
 ;
+PRInt32
+mTabSize
+;
 PRPackedBool
 mSyntaxHighlight
 ;
