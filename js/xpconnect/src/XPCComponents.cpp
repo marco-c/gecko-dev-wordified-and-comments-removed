@@ -15884,7 +15884,10 @@ JSFunction
 *
 fun
 =
-JS_NewFunctionById
+js
+:
+:
+NewFunctionByIdWithReserved
 (
 cx
 FunctionWrapper
