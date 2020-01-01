@@ -154,8 +154,6 @@ setup_development
 .
 py
 \
-README
-\
 (
 NULL
 )
