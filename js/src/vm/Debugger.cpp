@@ -764,7 +764,7 @@ if
 script
 -
 >
-hasMJITInfo
+hasJITInfo
 (
 )
 )
