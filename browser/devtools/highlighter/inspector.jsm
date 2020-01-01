@@ -4953,7 +4953,11 @@ obs
 .
 notifyObservers
 (
-null
+{
+wrappedJSObject
+:
+this
+}
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
