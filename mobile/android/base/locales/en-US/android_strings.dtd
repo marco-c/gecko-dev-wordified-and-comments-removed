@@ -163,6 +163,16 @@ History
 <
 !
 ENTITY
+awesomebar_switch_to_tab
+"
+Switch
+to
+tab
+"
+>
+<
+!
+ENTITY
 crash_reporter_title
 "
 &

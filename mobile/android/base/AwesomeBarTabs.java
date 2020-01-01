@@ -219,6 +219,15 @@ String
 suggestion
 )
 ;
+public
+void
+onSwitchToTab
+(
+final
+int
+tabId
+)
+;
 }
 private
 class
