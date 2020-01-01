@@ -27174,6 +27174,6 @@ html5
 .
 enable
 "
-true
+false
 )
 ;
