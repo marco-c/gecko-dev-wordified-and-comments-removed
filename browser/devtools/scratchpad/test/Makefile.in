@@ -498,6 +498,10 @@ browser_scratchpad_bug_699130_edit_ui_updates
 .
 js
 \
+browser_scratchpad_bug_669612_unsaved
+.
+js
+\
 libs
 :
 :
