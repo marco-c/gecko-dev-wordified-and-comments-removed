@@ -333,6 +333,10 @@ WebGLContextOptions
 (
 )
 :
+alpha
+(
+true
+)
 depth
 (
 true
@@ -354,8 +358,8 @@ preserveDrawingBuffer
 false
 )
 {
-alpha
-=
+if
+(
 Preferences
 :
 :
@@ -372,11 +376,10 @@ alpha
 "
 false
 )
-?
-0
-:
-1
-;
+)
+alpha
+=
+false
 }
 WebGLContext
 :
