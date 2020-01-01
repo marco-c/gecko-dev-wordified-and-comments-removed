@@ -9476,6 +9476,8 @@ nsIWebNavigation
 LOAD_FLAGS_ALLOW_THIRD_PARTY_FIXUP
 ;
 }
+try
+{
 b
 .
 loadURIWithFlags
@@ -9487,6 +9489,13 @@ aCharset
 aPostData
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 }
 /
 /
