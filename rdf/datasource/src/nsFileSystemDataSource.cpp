@@ -3854,9 +3854,6 @@ nsISimpleEnumerator
 aResult
 )
 {
-nsresult
-rv
-;
 nsCOMArray
 <
 nsIRDFResource
@@ -3966,6 +3963,7 @@ A
 '
 )
 ;
+nsresult
 rv
 =
 mRDFService
@@ -4047,6 +4045,7 @@ ulDriveMap
 =
 0
 ;
+nsresult
 rv
 =
 DosQueryCurrentDisk
