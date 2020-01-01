@@ -2263,7 +2263,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Local
@@ -2284,7 +2284,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Local
