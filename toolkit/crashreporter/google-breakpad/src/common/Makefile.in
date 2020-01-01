@@ -463,6 +463,10 @@ string_conversion
 .
 cc
 \
+md5
+.
+cc
+\
 (
 NULL
 )
@@ -470,10 +474,6 @@ CSRCS
 =
 \
 convert_UTF
-.
-c
-\
-md5
 .
 c
 \
