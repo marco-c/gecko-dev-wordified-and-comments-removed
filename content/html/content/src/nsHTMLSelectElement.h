@@ -1059,6 +1059,9 @@ mDisabledChanged
 PRPackedBool
 mMutating
 ;
+PRPackedBool
+mInhibitStateRestoration
+;
 PRUint32
 mNonOptionChildren
 ;
