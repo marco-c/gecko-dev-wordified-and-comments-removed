@@ -4257,6 +4257,15 @@ nsAccessibilityAtoms
 :
 :
 aria_hidden
+|
+|
+aAttribute
+=
+=
+nsAccessibilityAtoms
+:
+:
+aria_sort
 )
 {
 FireDelayedAccessibleEvent
