@@ -83,6 +83,8 @@ int
 exception_type
 int
 exception_code
+int
+exception_subcode
 mach_port_t
 thread_name
 )
@@ -214,6 +216,8 @@ int
 exception_type
 int
 exception_code
+int
+exception_subcode
 mach_port_t
 thread_name
 )

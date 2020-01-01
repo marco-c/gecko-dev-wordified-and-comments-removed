@@ -717,8 +717,10 @@ fd
 ;
 if
 (
-!
 base
+=
+=
+MAP_FAILED
 )
 return
 false
