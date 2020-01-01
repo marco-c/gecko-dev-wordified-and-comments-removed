@@ -62,8 +62,8 @@ background
 -
 color
 :
-#
-00f
+%
+2300f
 ;
 "
 >
@@ -77,8 +77,8 @@ style
 "
 background
 :
-#
-fff
+%
+23fff
 ;
 width
 :
@@ -129,8 +129,8 @@ background
 -
 color
 :
-#
-00f
+%
+2300f
 ;
 "
 >
