@@ -2870,8 +2870,14 @@ MarkScriptsInGC
 nsIURI
 *
 aKey
+JS
+:
+:
+Heap
+<
 JSScript
 *
+>
 &
 aScript
 void
@@ -2892,7 +2898,7 @@ JSTracer
 aClosure
 )
 ;
-JS_CallScriptTracer
+JS_CallHeapScriptTracer
 (
 trc
 &

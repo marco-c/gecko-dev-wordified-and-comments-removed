@@ -12624,8 +12624,14 @@ aGlobal
 Argument
 (
 '
+JS
+:
+:
+Heap
+<
 JSObject
 *
+>
 *
 '
 '
@@ -14272,8 +14278,14 @@ installed
 *
 /
   
+JS
+:
+:
+Heap
+<
 JSObject
 *
+>
 *
 protoAndIfaceArray
 =
@@ -14329,11 +14341,7 @@ Handle
 JSObject
 *
 >
-:
-:
-fromMarkedLocation
 (
-&
 protoAndIfaceArray
 [
 %
