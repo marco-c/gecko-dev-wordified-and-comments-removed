@@ -12981,13 +12981,6 @@ body
 [
 CDATA
 [
-if
-(
-aDragSession
-.
-sourceNode
-)
-{
 var
 tabStrip
 =
@@ -13140,6 +13133,11 @@ var
 isTabDrag
 =
 (
+aDragSession
+.
+sourceNode
+&
+&
 aDragSession
 .
 sourceNode
@@ -13921,7 +13919,6 @@ newMarginRight
 px
 '
 ;
-}
 }
 ]
 ]
