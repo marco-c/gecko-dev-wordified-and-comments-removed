@@ -221,9 +221,6 @@ EntryType
 *
 ent
 =
-this
--
->
 GetEntry
 (
 aKey
@@ -265,9 +262,6 @@ EntryType
 *
 ent
 =
-this
--
->
 GetEntry
 (
 aKey
@@ -301,9 +295,6 @@ EntryType
 *
 ent
 =
-this
--
->
 PutEntry
 (
 aKey
@@ -335,9 +326,6 @@ KeyType
 aKey
 )
 {
-this
--
->
 RemoveEntry
 (
 aKey
