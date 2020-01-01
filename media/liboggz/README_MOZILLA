@@ -135,3 +135,17 @@ for
 bug
 487519
 .
+bug496063
+.
+patch
+:
+Fix
+for
+infinite
+loop
+during
+seek
+while
+shutting
+down
+.

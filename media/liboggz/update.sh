@@ -1740,3 +1740,10 @@ p3
 bug487519
 .
 patch
+patch
+-
+p3
+<
+bug496063
+.
+patch
