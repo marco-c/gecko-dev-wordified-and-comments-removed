@@ -12495,10 +12495,9 @@ PR_FALSE
 ;
 size
 =
-NSToCoordRound
+NSCoordSaturatingMultiply
 (
 mParentSize
-*
 aValue
 .
 GetPercentValue
