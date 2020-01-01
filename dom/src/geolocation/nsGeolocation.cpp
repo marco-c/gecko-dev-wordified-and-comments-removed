@@ -5389,7 +5389,7 @@ callback
 ;
 if
 (
-mPendingCallbacks
+mWatchingCallbacks
 .
 Length
 (
