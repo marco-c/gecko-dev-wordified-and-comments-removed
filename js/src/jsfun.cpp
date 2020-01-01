@@ -12454,7 +12454,10 @@ lineno
 namespace
 js
 {
+JS_FRIEND_API
+(
 bool
+)
 IsBuiltinFunctionConstructor
 (
 JSFunction

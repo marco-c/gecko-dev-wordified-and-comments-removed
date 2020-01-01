@@ -5810,7 +5810,10 @@ return
 ok
 ;
 }
+JS_FRIEND_API
+(
 bool
+)
 IsBuiltinEvalFunction
 (
 JSFunction
