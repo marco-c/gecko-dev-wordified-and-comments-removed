@@ -985,9 +985,8 @@ StackFrame
 callerFrame
 )
 {
-AssertCanGC
-(
-)
+AutoAssertNoGC
+nogc
 ;
 FrameRegs
 &
@@ -1218,9 +1217,8 @@ IonBailoutIterator
 it
 )
 {
-AssertCanGC
-(
-)
+AutoAssertNoGC
+nogc
 ;
 IonSpew
 (
@@ -1863,9 +1861,8 @@ BailoutStack
 sp
 )
 {
-AssertCanGC
-(
-)
+AutoAssertNoGC
+nogc
 ;
 JSContext
 *
@@ -1968,9 +1965,8 @@ size_t
 frameSizeOut
 )
 {
-AssertCanGC
-(
-)
+AutoAssertNoGC
+nogc
 ;
 sp
 -
