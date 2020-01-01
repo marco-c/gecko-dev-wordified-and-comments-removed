@@ -3418,11 +3418,6 @@ mParentPtrBits
 =
 PARENT_BIT_INDOCUMENT
 ;
-UnsetFlags
-(
-NODE_HAS_FAKED_INDOC
-)
-;
 }
 nsresult
 rv
