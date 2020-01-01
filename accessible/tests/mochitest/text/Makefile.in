@@ -461,6 +461,10 @@ test_passwords
 .
 html
 \
+test_selection
+.
+html
+\
 test_singleline
 .
 html
