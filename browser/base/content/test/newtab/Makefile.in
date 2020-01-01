@@ -176,6 +176,10 @@ browser_newtab_bug735987
 .
 js
 \
+browser_newtab_bug765628
+.
+js
+\
 head
 .
 js

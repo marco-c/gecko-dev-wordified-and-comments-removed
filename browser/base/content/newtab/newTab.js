@@ -122,6 +122,9 @@ gLinks
 allPages
 :
 gAllPages
+linkChecker
+:
+gLinkChecker
 pinnedLinks
 :
 gPinnedLinks
@@ -306,6 +309,11 @@ js
 #
 include
 drag
+.
+js
+#
+include
+dragDataHelper
 .
 js
 #
