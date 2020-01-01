@@ -2074,8 +2074,6 @@ matchCount
 )
 this
 .
-popup
-.
 setAttribute
 (
 "
@@ -2088,8 +2086,6 @@ true
 ;
 else
 this
-.
-popup
 .
 removeAttribute
 (
