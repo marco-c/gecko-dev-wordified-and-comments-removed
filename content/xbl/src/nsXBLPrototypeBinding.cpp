@@ -1347,6 +1347,14 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NATIVE_PTR
 (
 entry
 nsXBLInsertionPointEntry
+"
+[
+insertion
+point
+table
+]
+value
+"
 )
 return
 kHashEnumerateNext

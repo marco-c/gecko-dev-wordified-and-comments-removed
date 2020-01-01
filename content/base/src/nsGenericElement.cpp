@@ -14660,6 +14660,18 @@ i
 +
 +
 )
+{
+NS_CYCLE_COLLECTION_NOTE_EDGE_NAME
+(
+cb
+"
+mAttrsAndChildren
+[
+i
+]
+"
+)
+;
 cb
 .
 NoteXPCOMChild
@@ -14675,6 +14687,7 @@ i
 )
 )
 ;
+}
 }
 {
 nsDOMSlots
