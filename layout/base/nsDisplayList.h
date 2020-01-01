@@ -1165,6 +1165,9 @@ nsRegion
 *
 mFinalTransparentRegion
 ;
+nsRect
+mDisplayPort
+;
 nsRegion
 mExcludedGlassRegion
 ;
@@ -1206,9 +1209,6 @@ mSnappingEnabled
 ;
 PRPackedBool
 mHasDisplayPort
-;
-nsRect
-mDisplayPort
 ;
 PRPackedBool
 mHasFixedItems
