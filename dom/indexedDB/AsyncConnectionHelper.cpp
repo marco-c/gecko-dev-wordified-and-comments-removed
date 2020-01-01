@@ -1058,9 +1058,14 @@ mDatabase
 IndexedDatabaseManager
 :
 :
-SetCurrentDatabase
+SetCurrentWindow
 (
 mDatabase
+-
+>
+Owner
+(
+)
 )
 ;
 if
@@ -1112,7 +1117,7 @@ mDatabase
 IndexedDatabaseManager
 :
 :
-SetCurrentDatabase
+SetCurrentWindow
 (
 nsnull
 )
