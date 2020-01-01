@@ -4540,6 +4540,25 @@ UnionConversions
 h
 "
 )
+                
+if
+dictionary
+:
+                    
+declareIncludes
+.
+add
+(
+"
+mozilla
+/
+dom
+/
+UnionTypes
+.
+h
+"
+)
             
 elif
 unrolled
