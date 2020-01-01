@@ -14251,15 +14251,6 @@ prev
 {
 if
 (
-!
-fp
--
->
-isDummyFrame
-(
-)
-&
-&
 dbg
 -
 >
