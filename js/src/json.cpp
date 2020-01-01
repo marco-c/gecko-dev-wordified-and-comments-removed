@@ -150,6 +150,13 @@ h
 #
 include
 "
+jsboolinlines
+.
+h
+"
+#
+include
+"
 jsinferinlines
 .
 h
