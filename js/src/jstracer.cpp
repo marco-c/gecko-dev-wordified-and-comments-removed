@@ -12817,7 +12817,6 @@ nGlobalTypes
 ;
 }
 static
-JS_REQUIRES_STACK
 void
 ResetJITImpl
 (
@@ -12831,7 +12830,6 @@ ifdef
 MOZ_TRACEVIS
 static
 JS_INLINE
-JS_REQUIRES_STACK
 void
 ResetJIT
 (
@@ -12870,6 +12868,21 @@ cx
 )
 #
 endif
+void
+js_FlushJITCache
+(
+JSContext
+*
+cx
+)
+{
+ResetJIT
+(
+cx
+FR_OOM
+)
+;
+}
 static
 void
 TrashTree
@@ -23493,7 +23506,6 @@ false
 ;
 }
 static
-JS_REQUIRES_STACK
 void
 ResetJITImpl
 (
@@ -23541,6 +23553,12 @@ tm
 >
 recorder
 )
+{
+JS_ASSERT_NOT_ON_TRACE
+(
+cx
+)
+;
 js_AbortRecording
 (
 cx
@@ -23550,6 +23568,7 @@ cache
 "
 )
 ;
+}
 if
 (
 ProhibitFlush
