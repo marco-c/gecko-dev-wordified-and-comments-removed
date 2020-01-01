@@ -411,16 +411,6 @@ content
 listmanager
 .
 js
-#
-include
-.
-.
-/
-content
-/
-wireformat
-.
-js
 var
 modScope
 =

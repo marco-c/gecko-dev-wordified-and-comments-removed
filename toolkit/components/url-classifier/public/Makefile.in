@@ -50,10 +50,6 @@ nsIUrlClassifierStreamUpdater
 .
 idl
 \
-nsIUrlClassifierTable
-.
-idl
-\
 nsIUrlClassifierUtils
 .
 idl
