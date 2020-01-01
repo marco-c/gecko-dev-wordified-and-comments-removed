@@ -351,6 +351,12 @@ TypeObject
 type
 )
 ;
+const
+uint32
+MIN_SPARSE_INDEX
+=
+256
+;
 extern
 JSBool
 js_GetLengthProperty

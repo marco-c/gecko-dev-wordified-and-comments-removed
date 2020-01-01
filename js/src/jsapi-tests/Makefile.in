@@ -537,6 +537,10 @@ testUTF8
 .
 cpp
 \
+testVersion
+.
+cpp
+\
 testXDR
 .
 cpp

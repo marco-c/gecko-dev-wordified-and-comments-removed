@@ -3102,10 +3102,6 @@ js_NewPreallocatedArray
 )
 JS_DECLARE_CALLINFO
 (
-js_InitializerArray
-)
-JS_DECLARE_CALLINFO
-(
 js_ArrayCompPush_tn
 )
 JS_DECLARE_CALLINFO
