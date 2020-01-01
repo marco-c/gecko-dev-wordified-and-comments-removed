@@ -36,6 +36,9 @@ socket
 h
 >
 #
+define
+__USE_GNU
+#
 include
 <
 netinet
@@ -44,6 +47,9 @@ in
 .
 h
 >
+#
+undef
+__USE_GNU
 #
 include
 <
