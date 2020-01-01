@@ -403,6 +403,11 @@ pos
 size
 ;
 }
+void
+Condition
+(
+)
+;
 }
 ;
 #
