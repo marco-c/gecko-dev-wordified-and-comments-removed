@@ -201,6 +201,14 @@ name
 )
 )
         
+except
+psutil
+.
+NoSuchProcess
+:
+            
+continue
+        
 else
 :
             
@@ -228,13 +236,13 @@ s
 (
 c
 .
-local_address
+laddr
 )
                 
 if
 c
 .
-remote_address
+raddr
 :
                     
 raddr
@@ -250,7 +258,7 @@ s
 (
 c
 .
-remote_address
+raddr
 )
                 
 print_

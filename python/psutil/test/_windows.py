@@ -28,10 +28,6 @@ signal
 import
 time
 import
-warnings
-import
-atexit
-import
 sys
 import
 subprocess
@@ -54,10 +50,7 @@ long
 from
 test_psutil
 import
-reap_children
-get_test_subprocess
-wait_for_pid
-warn
+*
 try
 :
     
@@ -78,11 +71,8 @@ exc_info
 1
 ]
     
-atexit
-.
-register
+register_warning
 (
-warn
 "
 Couldn
 '
@@ -127,11 +117,8 @@ exc_info
 1
 ]
     
-atexit
-.
-register
+register_warning
 (
-warn
 "
 Couldn
 '
@@ -429,7 +416,7 @@ nics
 =
 psutil
 .
-network_io_counters
+net_io_counters
 (
 pernic
 =
@@ -1064,6 +1051,28 @@ assertEqual
 (
 wmic_create
 psutil_create
+)
+        
+unittest
+.
+skipUnless
+(
+hasattr
+(
+os
+'
+NUMBER_OF_PROCESSORS
+'
+)
+                             
+'
+NUMBER_OF_PROCESSORS
+env
+var
+is
+not
+available
+'
 )
         
 def
@@ -2067,12 +2076,13 @@ in
 obj
 :
                     
-assert
+self
+.
+assertGreaterEqual
+(
 value
->
-=
 0
-value
+)
             
 elif
 isinstance
@@ -2086,12 +2096,13 @@ float
 )
 :
                 
-assert
+self
+.
+assertGreaterEqual
+(
 obj
->
-=
 0
-obj
+)
             
 else
 :
@@ -2141,12 +2152,13 @@ ret1
 ret2
 )
                     
-assert
+self
+.
+assertLessEqual
+(
 diff
-<
-=
 tolerance
-diff
+)
                 
 elif
 isinstance
@@ -2176,12 +2188,13 @@ a
 b
 )
                         
-assert
+self
+.
+assertLessEqual
+(
 diff
-<
-=
 tolerance
-diff
+)
         
 failures
 =
@@ -2232,6 +2245,28 @@ process_iter
 (
 )
 :
+                
+if
+name
+=
+=
+'
+get_process_memory_info
+'
+and
+p
+.
+pid
+=
+=
+os
+.
+getpid
+(
+)
+:
+                    
+continue
                 
 try
 :
@@ -2456,13 +2491,10 @@ NoSuchProcess
 meth
 ZOMBIE_PID
 )
-if
-__name__
-=
-=
-'
-__main__
-'
+def
+test_main
+(
+)
 :
     
 test_suite
@@ -2497,6 +2529,8 @@ TestDualProcessImplementation
 )
 )
     
+result
+=
 unittest
 .
 TextTestRunner
@@ -2509,4 +2543,33 @@ verbosity
 run
 (
 test_suite
+)
+    
+return
+result
+.
+wasSuccessful
+(
+)
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+if
+not
+test_main
+(
+)
+:
+        
+sys
+.
+exit
+(
+1
 )
