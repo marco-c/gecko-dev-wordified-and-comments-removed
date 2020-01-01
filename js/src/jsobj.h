@@ -3367,7 +3367,7 @@ vp
 extern
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_CheckUndeclaredVarAssignment
 (
