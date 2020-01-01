@@ -467,7 +467,7 @@ case
 "
 Webapps
 :
-IsInstalled
+CheckInstalled
 :
 Return
 :
@@ -483,7 +483,7 @@ fireSuccess
 req
 msg
 .
-installed
+app
 )
 ;
 break
@@ -1231,7 +1231,7 @@ return
 request
 ;
 }
-isInstalled
+checkInstalled
 :
 function
 (
@@ -1289,7 +1289,7 @@ sendAsyncMessage
 "
 Webapps
 :
-IsInstalled
+CheckInstalled
 "
 {
 origin
@@ -1967,7 +1967,7 @@ OK
 "
 Webapps
 :
-IsInstalled
+CheckInstalled
 :
 Return
 :

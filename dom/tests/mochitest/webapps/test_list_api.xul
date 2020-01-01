@@ -272,7 +272,7 @@ QueryInterface
 "
 function
 "
-isInstalled
+checkInstalled
 :
 "
 function
