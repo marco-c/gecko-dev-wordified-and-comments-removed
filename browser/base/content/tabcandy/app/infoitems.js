@@ -244,11 +244,9 @@ this
 _init
 (
 container
-.
-get
-(
+[
 0
-)
+]
 )
 ;
 if
