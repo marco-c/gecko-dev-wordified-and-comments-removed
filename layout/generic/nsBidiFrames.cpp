@@ -23,17 +23,11 @@ nsDirectionalFrame
 nsStyleContext
 *
 aContext
-PRUnichar
-aChar
 )
 :
 nsFrame
 (
 aContext
-)
-mChar
-(
-aChar
 )
 {
 }
@@ -103,8 +97,6 @@ aPresShell
 nsStyleContext
 *
 aContext
-PRUnichar
-aChar
 )
 {
 return
@@ -115,7 +107,6 @@ aPresShell
 nsDirectionalFrame
 (
 aContext
-aChar
 )
 ;
 }
