@@ -787,6 +787,16 @@ mCaretOffset
 }
 ;
 class
+AccSelectionChangeEvent
+:
+public
+AccEvent
+{
+public
+:
+}
+;
+class
 AccTableChangeEvent
 :
 public

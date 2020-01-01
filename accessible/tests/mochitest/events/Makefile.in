@@ -567,6 +567,10 @@ test_focus_selects
 .
 html
 \
+test_focus_tabbox
+.
+xul
+\
 test_focus_tree
 .
 xul
