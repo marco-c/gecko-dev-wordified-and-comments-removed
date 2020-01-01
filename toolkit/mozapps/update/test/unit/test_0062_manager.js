@@ -122,14 +122,6 @@ updateCount
 0
 )
 ;
-do_check_eq
-(
-gUpdateManager
-.
-activeUpdate
-null
-)
-;
 }
 else
 {
@@ -141,6 +133,7 @@ updateCount
 1
 )
 ;
+}
 do_check_eq
 (
 gUpdateManager
@@ -151,7 +144,6 @@ state
 STATE_DOWNLOADING
 )
 ;
-}
 do_test_finished
 (
 )
