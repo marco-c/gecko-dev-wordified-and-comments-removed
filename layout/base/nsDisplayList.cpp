@@ -1832,10 +1832,10 @@ aFrame
 float
 scale
 =
-presContext
--
->
-AppUnitsPerDevPixel
+nsDeviceContext
+:
+:
+AppUnitsPerCSSPixel
 (
 )
 ;
