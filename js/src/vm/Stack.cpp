@@ -3492,11 +3492,13 @@ slots
 gc
 :
 :
-MarkValueRootRange
+MarkValueRootRangeMaybeNullPayload
 (
 trc
-slotsBegin
 slotsEnd
+-
+slotsBegin
+slotsBegin
 "
 vm_stack
 "

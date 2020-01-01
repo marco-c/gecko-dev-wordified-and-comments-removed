@@ -128,15 +128,6 @@ mozilla
 :
 a11y
 ;
-AccTextChangeEvent
-*
-nsAccessNodeWrap
-:
-:
-gTextEvent
-=
-nullptr
-;
 nsAccessNodeWrap
 :
 :
