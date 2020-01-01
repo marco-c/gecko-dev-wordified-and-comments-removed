@@ -693,6 +693,11 @@ nsIDOMStorage
 .
 clear
 '
+'
+nsIDOMStorageItem
+.
+value
+'
 #
 dom
 /

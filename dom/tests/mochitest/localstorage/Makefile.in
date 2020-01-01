@@ -86,6 +86,10 @@ frameAppIsolation
 .
 html
 \
+frameBug624047
+.
+html
+\
 frameChromeSlave
 .
 html
@@ -138,10 +142,6 @@ interOriginTest2
 .
 js
 \
-localStorageCommon
-.
-js
-\
 test_appIsolation
 .
 html
@@ -152,9 +152,7 @@ test_brokenUTF
 .
 html
 \
-test_bug600307
--
-DBOps
+test_bug624047
 .
 html
 \

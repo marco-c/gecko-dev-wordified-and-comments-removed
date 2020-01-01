@@ -81,6 +81,13 @@ h
 #
 include
 "
+nsDOMStorage
+.
+h
+"
+#
+include
+"
 GeckoProfiler
 .
 h

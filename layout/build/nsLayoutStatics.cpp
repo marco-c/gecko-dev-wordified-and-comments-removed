@@ -270,6 +270,13 @@ h
 #
 include
 "
+nsDOMStorage
+.
+h
+"
+#
+include
+"
 nsTreeSanitizer
 .
 h
@@ -393,7 +400,7 @@ h
 #
 include
 "
-DOMStorageObserver
+nsDOMStorageBaseDB
 .
 h
 "
@@ -1139,10 +1146,10 @@ rv
 }
 rv
 =
-DOMStorageObserver
+nsDOMStorageManager
 :
 :
-Init
+Initialize
 (
 )
 ;
@@ -1160,7 +1167,7 @@ NS_ERROR
 Could
 not
 initialize
-DOMStorageObserver
+nsDOMStorageManager
 "
 )
 ;
@@ -1396,6 +1403,13 @@ AppClearDataObserverInit
 (
 )
 ;
+nsDOMStorageBaseDB
+:
+:
+Init
+(
+)
+;
 InitializeDateCacheCleaner
 (
 )
@@ -1438,7 +1452,7 @@ Shutdown
 ;
 #
 endif
-DOMStorageObserver
+nsDOMStorageManager
 :
 :
 Shutdown
