@@ -2746,6 +2746,16 @@ ErrorResult
 &
 )
 ;
+void
+PassDictContainingDict
+(
+const
+DictContainingDict
+&
+ErrorResult
+&
+)
+;
 bool
 GetImplementedProperty
 (
