@@ -1537,6 +1537,12 @@ double
 mInitialVolume
 ;
 double
+mInitialPlaybackRate
+;
+bool
+mInitialPreservesPitch
+;
+double
 mRequestedSeekTime
 ;
 int64_t
