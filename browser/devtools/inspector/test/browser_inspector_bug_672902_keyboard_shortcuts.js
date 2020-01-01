@@ -164,6 +164,7 @@ function
 findAndHighlightNode
 (
 aInspector
+aToolbox
 )
 {
 inspector

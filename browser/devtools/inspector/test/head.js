@@ -175,6 +175,7 @@ toolbox
 getCurrentPanel
 (
 )
+toolbox
 )
 ;
 }
