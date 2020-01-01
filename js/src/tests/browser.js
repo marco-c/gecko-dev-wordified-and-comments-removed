@@ -2567,7 +2567,7 @@ setBoolPref
 '
 chrome
 '
-false
+true
 )
 ;
 }
