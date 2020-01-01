@@ -950,7 +950,7 @@ parser
 return
 NULL
 ;
-sc
+tc
 .
 functionList
 =

@@ -222,10 +222,6 @@ FunctionBox
 *
 funbox
 ;
-FunctionBox
-*
-functionList
-;
 Bindings
 bindings
 ;
@@ -586,6 +582,10 @@ decls
 ParseNode
 *
 yieldNode
+;
+FunctionBox
+*
+functionList
 ;
 private
 :

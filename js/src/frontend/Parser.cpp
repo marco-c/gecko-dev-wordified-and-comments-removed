@@ -771,9 +771,6 @@ siblings
 tc
 -
 >
-sc
--
->
 functionList
 )
 kids
@@ -1026,9 +1023,6 @@ NULL
 traceListHead
 =
 tc
--
->
-sc
 -
 >
 functionList
@@ -8501,7 +8495,7 @@ funbox
 >
 kids
 =
-funsc
+funtc
 .
 functionList
 ;
@@ -23712,9 +23706,6 @@ tc
 -
 >
 parent
--
->
-sc
 -
 >
 functionList

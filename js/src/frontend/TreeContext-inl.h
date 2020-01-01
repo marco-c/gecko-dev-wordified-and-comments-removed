@@ -89,10 +89,6 @@ funbox
 (
 NULL
 )
-functionList
-(
-NULL
-)
 bindings
 (
 cx
@@ -283,6 +279,10 @@ prs
 context
 )
 yieldNode
+(
+NULL
+)
+functionList
 (
 NULL
 )
