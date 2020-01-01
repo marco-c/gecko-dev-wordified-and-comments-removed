@@ -32,6 +32,16 @@ isnot
 "
 )
 ;
+ise
+(
+true
+true
+"
+pass
+ise
+"
+)
+;
 todo
 (
 false
@@ -77,7 +87,7 @@ is
 func
 (
 true
-true
+1
 "
 pass
 indirect

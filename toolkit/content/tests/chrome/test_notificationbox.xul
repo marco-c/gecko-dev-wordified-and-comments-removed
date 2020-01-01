@@ -278,39 +278,6 @@ javascript
 [
 CDATA
 [
-/
-/
-ise
--
-is
-exact
--
-compares
-using
-=
-=
-=
-function
-ise
-(
-left
-right
-name
-)
-{
-SimpleTest
-.
-ok
-(
-left
-=
-=
-=
-right
-name
-)
-;
-}
 SimpleTest
 .
 waitForExplicitFinish
@@ -367,6 +334,8 @@ null
 0
 )
 ;
+SimpleTest
+.
 ise
 (
 nb
@@ -379,6 +348,8 @@ notificationsHidden
 "
 )
 ;
+SimpleTest
+.
 ise
 (
 nb
@@ -405,6 +376,8 @@ null
 0
 )
 ;
+SimpleTest
+.
 ise
 (
 nb
@@ -552,6 +525,8 @@ PRIORITY_INFO_LOW
 testtag_notificationbox_buttons
 )
 ;
+SimpleTest
+.
 ise
 (
 ntf
@@ -635,6 +610,8 @@ note
 "
 )
 ;
+SimpleTest
+.
 ise
 (
 ntf
@@ -657,6 +634,8 @@ notenone
 "
 )
 ;
+SimpleTest
+.
 ise
 (
 none_found
@@ -757,6 +736,8 @@ exh
 true
 ;
 }
+SimpleTest
+.
 ise
 (
 exh
@@ -826,6 +807,8 @@ testtag_notificationbox_buttons
 notification_eventCallback
 )
 ;
+SimpleTest
+.
 ise
 (
 ntf
@@ -1003,6 +986,8 @@ PRIORITY_INFO_LOW
 testtag_notificationbox_buttons
 )
 ;
+SimpleTest
+.
 ise
 (
 ntf
@@ -1125,6 +1110,8 @@ nb
 PRIORITY_INFO_LOW
 )
 ;
+SimpleTest
+.
 ise
 (
 ntf
@@ -1183,6 +1170,8 @@ nb
 PRIORITY_INFO_LOW
 )
 ;
+SimpleTest
+.
 ise
 (
 ntf
@@ -1266,6 +1255,8 @@ PRIORITY_INFO_MEDIUM
 testtag_notificationbox_buttons
 )
 ;
+SimpleTest
+.
 ise
 (
 ntf
@@ -1460,6 +1451,8 @@ ntf
 1
 )
 ;
+SimpleTest
+.
 ise
 (
 ntf
@@ -1479,6 +1472,8 @@ nb
 PRIORITY_INFO_HIGH
 )
 ;
+SimpleTest
+.
 ise
 (
 nb
@@ -1704,6 +1699,8 @@ nb
 ntf
 )
 {
+SimpleTest
+.
 ise
 (
 nb
@@ -1905,6 +1902,8 @@ is
 testindex
 expectedvalue
 ]
+SimpleTest
+.
 ise
 (
 nb
@@ -1930,6 +1929,8 @@ arr
 ]
 )
 ;
+SimpleTest
+.
 ise
 (
 nb
@@ -2028,6 +2029,8 @@ exh
 true
 ;
 }
+SimpleTest
+.
 ise
 (
 exh
@@ -2074,6 +2077,8 @@ exh
 true
 ;
 }
+SimpleTest
+.
 ise
 (
 exh
@@ -2146,6 +2151,8 @@ priority
 testtag_notificationbox_buttons
 )
 ;
+SimpleTest
+.
 ise
 (
 ntf
@@ -2183,6 +2190,8 @@ nb
 obj
 )
 {
+SimpleTest
+.
 ise
 (
 obj
@@ -2312,6 +2321,8 @@ expecteditem
 expectedcount
 )
 {
+SimpleTest
+.
 ise
 (
 nb
@@ -2325,6 +2336,8 @@ currentNotification
 "
 )
 ;
+SimpleTest
+.
 ise
 (
 nb
@@ -2362,6 +2375,8 @@ image
 priority
 )
 {
+SimpleTest
+.
 ise
 (
 ntf
@@ -2377,6 +2392,8 @@ control
 "
 )
 ;
+SimpleTest
+.
 ise
 (
 ntf
@@ -2392,6 +2409,8 @@ label
 "
 )
 ;
+SimpleTest
+.
 ise
 (
 ntf
@@ -2407,6 +2426,8 @@ value
 "
 )
 ;
+SimpleTest
+.
 ise
 (
 ntf
@@ -2422,6 +2443,8 @@ image
 "
 )
 ;
+SimpleTest
+.
 ise
 (
 ntf
@@ -2520,6 +2543,8 @@ critical
 break
 ;
 }
+SimpleTest
+.
 ise
 (
 ntf
