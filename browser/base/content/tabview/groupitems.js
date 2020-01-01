@@ -8902,6 +8902,11 @@ false
 if
 (
 otherTab
+&
+&
+otherTab
+.
+tabItem
 )
 {
 if
