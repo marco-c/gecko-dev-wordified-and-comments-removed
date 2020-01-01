@@ -10134,7 +10134,6 @@ argc
 &
 js_IsCallable
 (
-cx
 vp
 [
 3
