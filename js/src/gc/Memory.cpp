@@ -1712,10 +1712,6 @@ return
 return
 usage
 .
-ru_minflt
-+
-usage
-.
 ru_majflt
 ;
 }
