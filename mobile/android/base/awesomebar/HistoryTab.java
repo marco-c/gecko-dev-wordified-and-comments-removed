@@ -1060,8 +1060,6 @@ url
 updateUrl
 (
 viewHolder
-.
-urlView
 url
 )
 ;

@@ -326,6 +326,10 @@ TextView
 titleView
 ;
 public
+String
+url
+;
+public
 TextView
 urlView
 ;
@@ -883,8 +887,8 @@ protected
 void
 updateUrl
 (
-TextView
-urlView
+AwesomeEntryViewHolder
+holder
 Cursor
 cursor
 )
@@ -913,7 +917,7 @@ urlIndex
 ;
 updateUrl
 (
-urlView
+holder
 url
 )
 ;
@@ -922,8 +926,8 @@ protected
 void
 updateUrl
 (
-TextView
-urlView
+AwesomeEntryViewHolder
+holder
 String
 url
 )
@@ -940,6 +944,12 @@ get
 url
 )
 ;
+holder
+.
+url
+=
+url
+;
 if
 (
 tabId
@@ -948,6 +958,8 @@ tabId
 null
 )
 {
+holder
+.
 urlView
 .
 setText
@@ -959,6 +971,8 @@ string
 awesomebar_switch_to_tab
 )
 ;
+holder
+.
 urlView
 .
 setCompoundDrawablesWithIntrinsicBounds
@@ -976,6 +990,8 @@ ic_awesomebar_tab
 }
 else
 {
+holder
+.
 urlView
 .
 setText
@@ -983,6 +999,8 @@ setText
 url
 )
 ;
+holder
+.
 urlView
 .
 setCompoundDrawablesWithIntrinsicBounds
