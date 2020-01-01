@@ -196,7 +196,7 @@ Code
 is
 *
 Mozilla
-Corporation
+Foundation
 *
 *
 Portions
@@ -540,15 +540,6 @@ static_init
 (
 )
 {
-printf
-(
-"
-test
-\
-n
-"
-)
-;
 TriggerQuirks
 (
 )
