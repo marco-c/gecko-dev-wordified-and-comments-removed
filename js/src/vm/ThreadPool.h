@@ -144,9 +144,6 @@ workers_
 size_t
 numWorkers_
 ;
-uint32_t
-nextId_
-;
 bool
 lazyStartWorkers
 (
@@ -196,17 +193,6 @@ return
 numWorkers_
 ;
 }
-bool
-submitOne
-(
-JSContext
-*
-cx
-TaskExecutor
-*
-executor
-)
-;
 bool
 submitAll
 (
