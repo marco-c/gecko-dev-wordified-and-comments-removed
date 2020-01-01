@@ -169,8 +169,14 @@ count
 =
 NS_MIN
 (
+NS_MIN
+(
 count
 aCount
+)
+PR_UINT32_MAX
+-
+1
 )
 ;
 buffer
