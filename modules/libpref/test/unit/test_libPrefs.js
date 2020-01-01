@@ -479,12 +479,6 @@ hasUserValue
 false
 )
 ;
-do_check_throws
-(
-function
-(
-)
-{
 pb
 .
 clearUserPref
@@ -496,12 +490,6 @@ nonexistent
 .
 clearUserPref
 "
-)
-;
-}
-Cr
-.
-NS_ERROR_UNEXPECTED
 )
 ;
 do_check_eq

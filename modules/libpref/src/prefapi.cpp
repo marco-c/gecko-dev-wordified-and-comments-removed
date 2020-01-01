@@ -2524,11 +2524,6 @@ ops
 return
 NS_ERROR_NOT_INITIALIZED
 ;
-nsresult
-rv
-=
-NS_ERROR_UNEXPECTED
-;
 PrefHashEntry
 *
 pref
@@ -2649,13 +2644,9 @@ gDirty
 =
 PR_TRUE
 ;
-rv
-=
-NS_OK
-;
 }
 return
-rv
+NS_OK
 ;
 }
 static

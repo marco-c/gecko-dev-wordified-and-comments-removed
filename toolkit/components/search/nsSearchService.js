@@ -17728,15 +17728,6 @@ this
 defaultEngine
 )
 {
-if
-(
-gPrefSvc
-.
-prefHasUserValue
-(
-currentEnginePref
-)
-)
 gPrefSvc
 .
 clearUserPref

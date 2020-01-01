@@ -135,15 +135,6 @@ reset
 (
 )
 ;
-if
-(
-gPrefService
-.
-prefHasUserValue
-(
-kPrefName
-)
-)
 gPrefService
 .
 clearUserPref
