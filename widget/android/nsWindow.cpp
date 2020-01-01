@@ -340,7 +340,7 @@ static
 bool
 sHasDirectTexture
 =
-true
+false
 ;
 #
 endif
