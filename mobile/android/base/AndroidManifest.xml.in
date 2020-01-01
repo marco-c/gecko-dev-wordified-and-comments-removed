@@ -144,6 +144,9 @@ SyncAndroidManifest_permissions
 xml
 .
 in
+#
+ifndef
+RELEASE_BUILD
 <
 uses
 -
@@ -178,6 +181,8 @@ ACCESS_WIFI_STATE
 "
 /
 >
+#
+endif
 <
 uses
 -
