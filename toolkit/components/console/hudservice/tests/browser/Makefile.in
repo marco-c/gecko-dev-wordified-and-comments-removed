@@ -572,6 +572,10 @@ browser_webconsole_network_panel
 .
 js
 \
+browser_webconsole_jsterm
+.
+js
+\
 browser_webconsole_null_and_undefined_output
 .
 js
