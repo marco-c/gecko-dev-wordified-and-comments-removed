@@ -1707,10 +1707,6 @@ protected
 :
 friend
 class
-nsNodeUtils
-;
-friend
-class
 nsNSElementTearoff
 ;
 nsresult

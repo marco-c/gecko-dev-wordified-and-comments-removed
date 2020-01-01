@@ -2593,6 +2593,15 @@ mLoadedAsData
 ;
 }
 bool
+IsLoadedAsInteractiveData
+(
+)
+{
+return
+mLoadedAsInteractiveData
+;
+}
+bool
 MayStartLayout
 (
 )
@@ -4075,6 +4084,9 @@ mAllowXULXBL
 ;
 bool
 mLoadedAsData
+;
+bool
+mLoadedAsInteractiveData
 ;
 bool
 mMayStartLayout
