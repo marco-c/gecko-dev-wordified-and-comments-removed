@@ -216,6 +216,13 @@ nsContentUtils
 h
 "
 #
+include
+"
+nsEditor
+.
+h
+"
+#
 define
 INLINESPELL_CHECK_TIMEOUT
 50
@@ -357,7 +364,7 @@ if
 aAction
 =
 =
-mozInlineSpellChecker
+nsEditor
 :
 :
 kOpDeleteSelection
@@ -486,7 +493,7 @@ if
 aAction
 =
 =
-mozInlineSpellChecker
+nsEditor
 :
 :
 kOpInsertText
