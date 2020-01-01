@@ -98,6 +98,13 @@ ExtractTemp1
 =
 InvalidReg
 ;
+static
+const
+Register
+BaselineSecondScratchReg
+=
+r6
+;
 }
 }
 #
