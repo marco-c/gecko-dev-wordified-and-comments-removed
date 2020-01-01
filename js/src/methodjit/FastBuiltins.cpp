@@ -252,6 +252,7 @@ stubs
 :
 :
 SlowCall
+REJOIN_FALLTHROUGH
 )
 ;
 frame
@@ -590,6 +591,7 @@ stubs
 :
 :
 SlowCall
+REJOIN_FALLTHROUGH
 )
 ;
 frame
@@ -945,6 +947,7 @@ stubs
 :
 :
 SlowCall
+REJOIN_FALLTHROUGH
 )
 ;
 frame
@@ -1453,6 +1456,7 @@ stubs
 :
 :
 SlowCall
+REJOIN_FALLTHROUGH
 )
 ;
 frame

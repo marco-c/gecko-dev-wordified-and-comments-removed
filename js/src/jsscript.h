@@ -1096,11 +1096,6 @@ singleStepMode
 1
 ;
 bool
-inlineParents
-:
-1
-;
-bool
 failedBoundsCheck
 :
 1
@@ -1513,7 +1508,7 @@ isArray
 )
 ;
 inline
-bool
+void
 typeMonitorResult
 (
 JSContext
@@ -1534,7 +1529,7 @@ type
 )
 ;
 inline
-bool
+void
 typeMonitorResult
 (
 JSContext
@@ -1554,7 +1549,7 @@ val
 )
 ;
 inline
-bool
+void
 typeMonitorUndefined
 (
 JSContext
@@ -1567,7 +1562,7 @@ pc
 )
 ;
 inline
-bool
+void
 typeMonitorOverflow
 (
 JSContext
@@ -1580,7 +1575,7 @@ pc
 )
 ;
 inline
-bool
+void
 typeMonitorString
 (
 JSContext
@@ -1593,7 +1588,7 @@ pc
 )
 ;
 inline
-bool
+void
 typeMonitorUnknown
 (
 JSContext
@@ -1606,7 +1601,7 @@ pc
 )
 ;
 inline
-bool
+void
 typeSetThis
 (
 JSContext
@@ -1623,7 +1618,7 @@ type
 )
 ;
 inline
-bool
+void
 typeSetThis
 (
 JSContext
@@ -1639,7 +1634,7 @@ value
 )
 ;
 inline
-bool
+void
 typeSetThis
 (
 JSContext
@@ -1657,7 +1652,7 @@ types
 )
 ;
 inline
-bool
+void
 typeSetNewCalled
 (
 JSContext
@@ -1666,7 +1661,7 @@ cx
 )
 ;
 inline
-bool
+void
 typeSetLocal
 (
 JSContext
@@ -1685,7 +1680,7 @@ type
 )
 ;
 inline
-bool
+void
 typeSetLocal
 (
 JSContext
@@ -1703,7 +1698,7 @@ value
 )
 ;
 inline
-bool
+void
 typeSetLocal
 (
 JSContext
@@ -1723,7 +1718,7 @@ types
 )
 ;
 inline
-bool
+void
 typeSetArgument
 (
 JSContext
@@ -1742,7 +1737,7 @@ type
 )
 ;
 inline
-bool
+void
 typeSetArgument
 (
 JSContext
@@ -1760,7 +1755,7 @@ value
 )
 ;
 inline
-bool
+void
 typeSetArgument
 (
 JSContext
@@ -1780,7 +1775,7 @@ types
 )
 ;
 inline
-bool
+void
 typeSetUpvar
 (
 JSContext

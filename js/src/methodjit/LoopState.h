@@ -153,9 +153,6 @@ entry
 unsigned
 patchIndex
 ;
-bool
-patchCall
-;
 Vector
 <
 TemporaryCopy
@@ -495,8 +492,6 @@ bool
 entry
 unsigned
 patchIndex
-bool
-patchCall
 )
 ;
 uint32

@@ -3064,7 +3064,7 @@ isPackedDenseArray
 )
 ;
 inline
-bool
+void
 setDenseArrayNotPacked
 (
 JSContext
@@ -7182,7 +7182,6 @@ defineHow
 0
 )
 {
-return
 JS_AddTypePropertyById
 (
 cx
@@ -7193,8 +7192,8 @@ Jsvalify
 value
 )
 )
-&
-&
+;
+return
 js_DefineNativeProperty
 (
 cx

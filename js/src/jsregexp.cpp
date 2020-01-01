@@ -4204,9 +4204,6 @@ argv
 0
 ]
 ;
-if
-(
-!
 cx
 -
 >
@@ -4215,9 +4212,6 @@ markTypeCallerUnexpected
 *
 vp
 )
-)
-return
-false
 ;
 return
 true
@@ -4743,9 +4737,6 @@ FINALIZE_OBJECT0
 return
 NULL
 ;
-if
-(
-!
 cx
 -
 >
@@ -4757,9 +4748,7 @@ source
 "
 TYPE_STRING
 )
-|
-|
-!
+;
 cx
 -
 >
@@ -4771,9 +4760,7 @@ global
 "
 TYPE_BOOLEAN
 )
-|
-|
-!
+;
 cx
 -
 >
@@ -4785,9 +4772,7 @@ ignoreCase
 "
 TYPE_BOOLEAN
 )
-|
-|
-!
+;
 cx
 -
 >
@@ -4799,9 +4784,7 @@ multiline
 "
 TYPE_BOOLEAN
 )
-|
-|
-!
+;
 cx
 -
 >
@@ -4813,9 +4796,7 @@ sticky
 "
 TYPE_BOOLEAN
 )
-|
-|
-!
+;
 cx
 -
 >
@@ -4827,12 +4808,7 @@ lastIndex
 "
 TYPE_INT32
 )
-)
-{
-return
-NULL
 ;
-}
 if
 (
 !

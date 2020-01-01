@@ -1986,12 +1986,6 @@ JSVAL_TYPE_MAGIC
 }
 else
 {
-loadPayload
-(
-address
-dataReg
-)
-;
 if
 (
 holeCheck
@@ -2022,6 +2016,12 @@ JSVAL_TYPE_MAGIC
 )
 ;
 }
+loadPayload
+(
+address
+dataReg
+)
+;
 }
 return
 notHole

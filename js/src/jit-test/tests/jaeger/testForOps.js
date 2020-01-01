@@ -88,10 +88,6 @@ forName
 obj
 )
 {
-assertJit
-(
-)
-;
 eval
 (
 '

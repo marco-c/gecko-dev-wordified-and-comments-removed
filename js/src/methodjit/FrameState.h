@@ -1440,8 +1440,6 @@ storeTop
 FrameEntry
 *
 target
-bool
-popGuaranteed
 )
 ;
 void
@@ -2150,6 +2148,11 @@ int32
 n
 )
 ;
+void
+swap
+(
+)
+;
 inline
 void
 setInTryBlock
@@ -2713,15 +2716,6 @@ FrameEntry
 *
 fe
 )
-;
-bool
-isEntryCopied
-(
-FrameEntry
-*
-fe
-)
-const
 ;
 void
 forgetEntry

@@ -6753,9 +6753,6 @@ construct
 ;
 }
 }
-if
-(
-!
 cx
 -
 >
@@ -6768,9 +6765,6 @@ getType
 (
 )
 )
-)
-return
-NULL
 ;
 return
 obj

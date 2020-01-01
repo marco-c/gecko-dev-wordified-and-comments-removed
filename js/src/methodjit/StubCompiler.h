@@ -393,8 +393,8 @@ emitStubCall
 void
 *
 ptr
-bool
-needsRejoin
+RejoinState
+rejoin
 )
 ;
 Call
@@ -403,8 +403,8 @@ emitStubCall
 void
 *
 ptr
-bool
-needsRejoin
+RejoinState
+rejoin
 int32
 slots
 )
