@@ -421,7 +421,7 @@ i
 ]
 =
 "
--
+/
 ENTRY
 :
 mainACRTStartup
@@ -466,7 +466,7 @@ i
 ]
 =
 "
--
+/
 LIBPATH
 :
 \
@@ -486,7 +486,7 @@ i
 ]
 =
 "
--
+/
 LIBPATH
 :
 \
@@ -558,7 +558,7 @@ i
 ]
 =
 "
--
+/
 OPT
 :
 REF
@@ -572,7 +572,7 @@ i
 ]
 =
 "
--
+/
 OPT
 :
 ICF
@@ -586,7 +586,7 @@ i
 ]
 =
 "
--
+/
 NODEFAULTLIB
 :
 LIBC
@@ -600,7 +600,7 @@ i
 ]
 =
 "
--
+/
 NODEFAULTLIB
 :
 OLDNAMES
@@ -621,12 +621,10 @@ dumpargs
 args
 )
 ;
+return
 run
 (
 args
 )
-;
-return
-0
 ;
 }

@@ -51,12 +51,10 @@ i
 ]
 )
 ;
+return
 run
 (
 args
 )
-;
-return
-0
 ;
 }

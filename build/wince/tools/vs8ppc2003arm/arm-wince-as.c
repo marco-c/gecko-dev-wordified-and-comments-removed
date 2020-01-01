@@ -78,12 +78,10 @@ dumpargs
 args
 )
 ;
+return
 run
 (
 args
 )
-;
-return
-0
 ;
 }
