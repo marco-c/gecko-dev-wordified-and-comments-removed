@@ -10755,7 +10755,7 @@ if
 image
 -
 >
-mHasBeenDecoded
+mHasSourceData
 )
 {
 image
