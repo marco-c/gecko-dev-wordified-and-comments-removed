@@ -539,7 +539,7 @@ srcBegin
 0000
 srcEnd
 =
-007E
+007F
 destBegin
 =
 0000
@@ -1497,7 +1497,7 @@ Array
 *
 /
 0x0000
-0x007E
+0x007F
 0x0000
 /
 *
