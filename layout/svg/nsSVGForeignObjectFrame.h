@@ -353,6 +353,11 @@ uint32_t
 aFor
 )
 ;
+nsRect
+GetInvalidRegion
+(
+)
+;
 protected
 :
 void
