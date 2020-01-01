@@ -222,6 +222,13 @@ if
 win
 .
 closed
+&
+&
+win
+.
+Scratchpad
+.
+initialized
 )
 {
 this

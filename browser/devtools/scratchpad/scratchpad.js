@@ -203,6 +203,9 @@ Scratchpad
 executionContext
 :
 SCRATCHPAD_CONTEXT_CONTENT
+initialized
+:
+false
 get
 notificationBox
 (
@@ -2653,6 +2656,12 @@ getCharCount
 )
 )
 ;
+this
+.
+initialized
+=
+true
+;
 if
 (
 this
@@ -2935,6 +2944,12 @@ if
 (
 !
 document
+|
+|
+!
+this
+.
+initialized
 )
 {
 return
@@ -3080,6 +3095,12 @@ this
 editor
 =
 null
+;
+this
+.
+initialized
+=
+false
 ;
 }
 promptSave
@@ -3454,7 +3475,7 @@ SCRATCHPAD_L10N
 addEventListener
 (
 "
-DOMContentLoaded
+load
 "
 Scratchpad
 .

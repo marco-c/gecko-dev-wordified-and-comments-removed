@@ -2908,7 +2908,7 @@ editor
 getCaretOffset
 (
 )
-7
+9
 "
 Ctrl
 -
@@ -2939,7 +2939,7 @@ editor
 getCaretOffset
 (
 )
-0
+2
 "
 Ctrl
 -
@@ -2971,7 +2971,7 @@ editor
 getCaretOffset
 (
 )
-13
+9
 "
 Ctrl
 -
@@ -3002,7 +3002,7 @@ editor
 getCaretOffset
 (
 )
-20
+16
 "
 Ctrl
 -
