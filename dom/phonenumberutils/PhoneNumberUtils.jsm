@@ -139,7 +139,7 @@ defineLazyServiceGetter
 (
 this
 "
-ril
+mobileConnection
 "
 "
 mozilla
@@ -155,7 +155,7 @@ helper
 1
 "
 "
-nsIRILContentHelper
+nsIMobileConnectionProvider
 "
 )
 ;
@@ -188,12 +188,12 @@ ifdef
 MOZ_B2G_RIL
 if
 (
-ril
+mobileConnection
 .
 voiceConnectionInfo
 &
 &
-ril
+mobileConnection
 .
 voiceConnectionInfo
 .
@@ -202,7 +202,7 @@ network
 {
 mcc
 =
-ril
+mobileConnection
 .
 voiceConnectionInfo
 .
@@ -219,7 +219,7 @@ mcc
 {
 mcc
 =
-ril
+mobileConnection
 .
 iccInfo
 .
@@ -232,14 +232,14 @@ if
 mcc
 &
 &
-ril
+mobileConnection
 .
 voiceConnectionInfo
 )
 {
 mcc
 =
-ril
+mobileConnection
 .
 voiceConnectionInfo
 .
