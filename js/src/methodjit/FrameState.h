@@ -653,6 +653,14 @@ const
 Value
 &
 v
+types
+:
+:
+TypeSet
+*
+typeSet
+=
+NULL
 )
 ;
 inline
