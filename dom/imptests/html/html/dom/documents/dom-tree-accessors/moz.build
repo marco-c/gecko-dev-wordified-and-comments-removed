@@ -15,9 +15,4 @@ DIRS
 +
 =
 [
-'
-document
-.
-getElementsByName
-'
 ]
