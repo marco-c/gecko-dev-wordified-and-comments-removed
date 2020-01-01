@@ -4395,6 +4395,9 @@ JSContext
 cx
 )
 {
+#
+ifdef
+JS_THREADSAFE
 AssertCanGC
 (
 )
@@ -4417,6 +4420,16 @@ if
 (
 !
 ion
+|
+|
+!
+cx
+-
+>
+runtime
+-
+>
+workerThreadState
 )
 return
 ;
@@ -4616,6 +4629,8 @@ clear
 (
 )
 ;
+#
+endif
 }
 static
 const
