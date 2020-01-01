@@ -665,6 +665,10 @@ submit
 .
 js
 \
+test_bug482659
+.
+html
+\
 (
 NULL
 )
