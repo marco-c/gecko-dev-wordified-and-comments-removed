@@ -36107,6 +36107,12 @@ outputStream
 length
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 uint32_t
 numWritten
 ;
