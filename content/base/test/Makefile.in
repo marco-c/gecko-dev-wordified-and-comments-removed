@@ -2222,7 +2222,7 @@ test_bug647518
 .
 html
 \
-test_bug654352
+test_caretPositionFromPoint
 .
 html
 \

@@ -2560,12 +2560,6 @@ float
 y
 )
 ;
-/
-/
-(
-Not
-implemented
-)
 CaretPosition
 ?
 caretPositionFromPoint
