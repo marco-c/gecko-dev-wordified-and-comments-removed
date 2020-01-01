@@ -8455,7 +8455,7 @@ hint
 NS_CombineHint
 (
 nsChangeHint_ReflowFrame
-nsChangeHint_RepaintFrame
+nsChangeHint_UpdateTransformLayer
 )
 )
 ;
@@ -8525,6 +8525,8 @@ nsChangeHint
 NS_STYLE_HINT_FRAMECHANGE
 |
 nsChangeHint_UpdateOpacityLayer
+|
+nsChangeHint_UpdateTransformLayer
 )
 ;
 }

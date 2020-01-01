@@ -41,9 +41,12 @@ nsChangeHint_UpdateEffects
 nsChangeHint_UpdateOpacityLayer
 =
 0x100
-nsChangeHint_ReconstructFrame
+nsChangeHint_UpdateTransformLayer
 =
 0x200
+nsChangeHint_ReconstructFrame
+=
+0x400
 }
 ;
 inline
