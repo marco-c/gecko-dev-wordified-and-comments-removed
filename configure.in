@@ -16374,9 +16374,6 @@ frame
 pointer
 "
 fi
-MOZ_MEMORY
-=
-1
 _PEDANTIC
 =
 CFLAGS
