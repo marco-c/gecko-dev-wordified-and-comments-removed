@@ -524,6 +524,8 @@ aVertex
 .
 vTexCoords
 )
+*
+fLayerOpacity
 ;
 result
 .
@@ -535,8 +537,6 @@ a
 ;
 return
 result
-*
-fLayerOpacity
 ;
 }
 float4
