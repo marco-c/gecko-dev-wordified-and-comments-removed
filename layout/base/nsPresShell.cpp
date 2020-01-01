@@ -692,6 +692,13 @@ endif
 #
 include
 "
+nsRefreshDriver
+.
+h
+"
+#
+include
+"
 nsWidgetsCID
 .
 h

@@ -676,6 +676,13 @@ h
 "
 #
 endif
+#
+include
+"
+nsRefreshDriver
+.
+h
+"
 using
 namespace
 mozilla

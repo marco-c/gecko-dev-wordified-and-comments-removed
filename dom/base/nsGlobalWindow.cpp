@@ -1054,6 +1054,13 @@ IDBFactory
 h
 "
 #
+include
+"
+nsRefreshDriver
+.
+h
+"
+#
 ifdef
 PR_LOGGING
 static

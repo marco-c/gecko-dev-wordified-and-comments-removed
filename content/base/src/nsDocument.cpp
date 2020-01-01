@@ -838,6 +838,13 @@ endif
 #
 include
 "
+nsRefreshDriver
+.
+h
+"
+#
+include
+"
 nsIContentSecurityPolicy
 .
 h
