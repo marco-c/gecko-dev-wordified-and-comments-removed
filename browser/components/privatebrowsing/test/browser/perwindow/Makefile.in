@@ -85,6 +85,10 @@ head
 .
 js
 \
+browser_privatebrowsing_certexceptionsui
+.
+js
+\
 browser_privatebrowsing_concurrent
 .
 js
