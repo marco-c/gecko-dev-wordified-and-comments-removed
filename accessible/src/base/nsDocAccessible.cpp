@@ -7476,7 +7476,7 @@ count
 aRoot
 -
 >
-GetChildCount
+ContentChildCount
 (
 )
 ;
@@ -7503,7 +7503,7 @@ child
 aRoot
 -
 >
-GetChildAt
+ContentChildAt
 (
 idx
 )
@@ -7573,7 +7573,7 @@ count
 aRoot
 -
 >
-GetCachedChildCount
+ContentChildCount
 (
 )
 ;
@@ -7597,7 +7597,7 @@ UncacheChildrenInSubtree
 aRoot
 -
 >
-GetCachedChildAt
+ContentChildAt
 (
 idx
 )
@@ -7658,7 +7658,7 @@ count
 aAccessible
 -
 >
-GetCachedChildCount
+ContentChildCount
 (
 )
 ;
@@ -7688,7 +7688,7 @@ child
 aAccessible
 -
 >
-GetCachedChildAt
+ContentChildAt
 (
 jdx
 )

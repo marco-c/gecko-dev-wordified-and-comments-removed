@@ -581,7 +581,7 @@ aChild
 )
 ;
 PRUint32
-GetCachedChildCount
+ContentChildCount
 (
 )
 const
@@ -596,7 +596,7 @@ Length
 }
 nsAccessible
 *
-GetCachedChildAt
+ContentChildAt
 (
 PRUint32
 aIndex

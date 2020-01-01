@@ -3802,7 +3802,7 @@ mParent
 mParent
 -
 >
-GetCachedChildCount
+ContentChildCount
 (
 )
 +
