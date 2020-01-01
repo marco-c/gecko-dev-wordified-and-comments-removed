@@ -217,11 +217,14 @@ zoomValues
 pref
 (
 "
-zoom
+browser
 .
-dpiScale
+viewport
+.
+scaleRatio
 "
-150
+-
+1
 )
 ;
 pref
