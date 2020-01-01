@@ -196,6 +196,14 @@ browser_styleinspector_bug_677930_urls_clickable
 .
 js
 \
+browser_bug893965_css_property_completion_new_property
+.
+js
+\
+browser_bug893965_css_property_completion_existing_property
+.
+js
+\
 head
 .
 js
