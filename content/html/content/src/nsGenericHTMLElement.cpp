@@ -15071,7 +15071,7 @@ element
 nsHTMLMenuElement
 :
 :
-FromContent
+FromContentOrNull
 (
 doc
 -

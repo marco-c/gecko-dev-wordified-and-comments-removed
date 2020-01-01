@@ -1446,14 +1446,6 @@ GetContent
 (
 )
 ;
-if
-(
-!
-content
-)
-return
-NS_ERROR_FAILURE
-;
 nsHTMLInputElement
 *
 inputElement
@@ -1461,7 +1453,7 @@ inputElement
 nsHTMLInputElement
 :
 :
-FromContent
+FromContentOrNull
 (
 content
 )
