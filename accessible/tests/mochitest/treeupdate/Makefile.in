@@ -451,6 +451,10 @@ test_ariadialog
 .
 html
 \
+test_canvas
+.
+html
+\
 test_colorpicker
 .
 xul
