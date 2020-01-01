@@ -554,6 +554,10 @@ test_nsIAccessible_applicationAccessible
 .
 html
 \
+test_nsIAccessible_comboboxes
+.
+xul
+\
 test_nsIAccessible_editablebody
 .
 html
