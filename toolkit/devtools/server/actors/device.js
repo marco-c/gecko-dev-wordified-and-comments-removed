@@ -3,6 +3,7 @@ const
 Cc
 Ci
 Cu
+CC
 }
 =
 require
@@ -1104,13 +1105,6 @@ blob
 =
 >
 {
-let
-CC
-=
-Components
-.
-Constructor
-;
 let
 FileReader
 =
