@@ -268,7 +268,7 @@ return
 nsITimer
 :
 :
-TYPE_REPEATING_PRECISE
+TYPE_REPEATING_PRECISE_CAN_SKIP
 ;
 }
 return
@@ -606,7 +606,7 @@ timerType
 nsITimer
 :
 :
-TYPE_REPEATING_PRECISE
+TYPE_REPEATING_PRECISE_CAN_SKIP
 )
 ;
 nsresult
@@ -1492,7 +1492,7 @@ GetRefreshTimerType
 nsITimer
 :
 :
-TYPE_REPEATING_PRECISE
+TYPE_REPEATING_PRECISE_CAN_SKIP
 )
 )
 )
