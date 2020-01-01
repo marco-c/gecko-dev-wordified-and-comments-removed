@@ -79,9 +79,6 @@ mk
 MODULE
 =
 dom
-XPIDL_MODULE
-=
-dom_offline
 GRE_MODULE
 =
 1

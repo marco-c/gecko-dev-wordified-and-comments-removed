@@ -91,3 +91,8 @@ nsITreeView
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+layout_xul_tree
+'

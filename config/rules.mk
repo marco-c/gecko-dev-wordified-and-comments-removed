@@ -152,6 +152,8 @@ TIERS
 \
 TOOL_DIRS
 \
+XPIDL_MODULE
+\
 (
 NULL
 )

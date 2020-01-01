@@ -81,3 +81,8 @@ nsIWifiMonitor
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+necko_wifi
+'

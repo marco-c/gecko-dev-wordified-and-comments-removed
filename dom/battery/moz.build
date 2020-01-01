@@ -79,3 +79,8 @@ nsINavigatorBattery
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_battery
+'

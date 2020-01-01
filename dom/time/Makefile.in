@@ -85,9 +85,6 @@ dom
 LIBRARY_NAME
 =
 dom_time_s
-XPIDL_MODULE
-=
-dom_time
 LIBXUL_LIBRARY
 =
 1

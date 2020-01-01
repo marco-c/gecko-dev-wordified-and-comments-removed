@@ -78,9 +78,6 @@ mk
 MODULE
 =
 xpcom
-XPIDL_MODULE
-=
-xpcom_system
 include
 (
 topsrcdir

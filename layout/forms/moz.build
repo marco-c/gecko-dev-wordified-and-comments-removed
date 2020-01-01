@@ -79,3 +79,8 @@ nsICapturePicker
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+layout_forms
+'

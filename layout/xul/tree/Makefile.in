@@ -79,9 +79,6 @@ mk
 MODULE
 =
 layout
-XPIDL_MODULE
-=
-layout_xul_tree
 LIBRARY_NAME
 =
 gkxultree_s

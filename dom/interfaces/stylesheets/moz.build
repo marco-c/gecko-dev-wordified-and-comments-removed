@@ -86,3 +86,8 @@ nsIDOMStyleSheetList
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_stylesheets
+'

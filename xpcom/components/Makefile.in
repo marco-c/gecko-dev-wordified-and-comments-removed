@@ -79,9 +79,6 @@ mk
 MODULE
 =
 xpcom
-XPIDL_MODULE
-=
-xpcom_components
 LIBRARY_NAME
 =
 xpcomcomponents_s

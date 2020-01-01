@@ -78,9 +78,6 @@ mk
 MODULE
 =
 dom
-XPIDL_MODULE
-=
-dom_alarm
 LIBRARY_NAME
 =
 domalarm_s

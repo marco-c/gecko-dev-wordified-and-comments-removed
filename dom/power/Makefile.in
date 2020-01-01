@@ -78,9 +78,6 @@ mk
 LIBRARY_NAME
 =
 dom_power_s
-XPIDL_MODULE
-=
-dom_power
 LIBXUL_LIBRARY
 =
 1

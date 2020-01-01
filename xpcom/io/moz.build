@@ -267,3 +267,8 @@ nsILocalFileMac
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+xpcom_io
+'

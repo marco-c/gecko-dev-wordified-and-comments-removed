@@ -78,9 +78,6 @@ mk
 MODULE
 =
 xml
-XPIDL_MODULE
-=
-saxparser
 include
 (
 topsrcdir

@@ -78,9 +78,6 @@ mk
 MODULE
 =
 dom
-XPIDL_MODULE
-=
-dom_notification
 GRE_MODULE
 =
 1

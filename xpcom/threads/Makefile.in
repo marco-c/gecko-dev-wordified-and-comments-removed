@@ -79,9 +79,6 @@ mk
 MODULE
 =
 xpcom
-XPIDL_MODULE
-=
-xpcom_threads
 LIBRARY_NAME
 =
 xpcomthreads_s

@@ -79,9 +79,6 @@ mk
 MODULE
 =
 appcomps
-XPIDL_MODULE
-=
-windowds
 LIBRARY_NAME
 =
 windowds

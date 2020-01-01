@@ -299,3 +299,8 @@ nsIDOMWindowB2G
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_base
+'

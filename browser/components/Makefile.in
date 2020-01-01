@@ -78,9 +78,6 @@ mk
 MODULE
 =
 browsercomps
-XPIDL_MODULE
-=
-browsercompsbase
 EXTRA_COMPONENTS
 =
 \

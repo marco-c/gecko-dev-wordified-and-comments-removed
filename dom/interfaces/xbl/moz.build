@@ -71,3 +71,8 @@ nsIDOMDocumentXBL
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_xbl
+'

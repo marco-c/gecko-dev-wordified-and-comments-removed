@@ -144,3 +144,8 @@ nsIDOMCFStateChangeEvent
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_network
+'

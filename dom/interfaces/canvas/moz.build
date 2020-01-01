@@ -76,3 +76,8 @@ nsIDOMWebGLRenderingContext
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_canvas
+'

@@ -79,9 +79,6 @@ mk
 MODULE
 =
 webbrwsr
-XPIDL_MODULE
-=
-webBrowser_core
 LIBRARY_NAME
 =
 nsWebBrowser_s

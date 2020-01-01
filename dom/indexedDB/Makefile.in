@@ -81,9 +81,6 @@ dom
 LIBRARY_NAME
 =
 dom_indexeddb_s
-XPIDL_MODULE
-=
-dom_indexeddb
 LIBXUL_LIBRARY
 =
 1

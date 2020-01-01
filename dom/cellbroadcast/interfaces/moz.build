@@ -91,3 +91,8 @@ nsINavigatorCellBroadcast
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_cellbroadcast
+'

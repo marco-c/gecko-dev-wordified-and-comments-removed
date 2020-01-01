@@ -86,3 +86,8 @@ nsIDOMNavigatorDeviceStorage
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_devicestorage
+'

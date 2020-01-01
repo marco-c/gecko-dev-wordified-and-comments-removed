@@ -71,3 +71,8 @@ nsIImageDocument
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+content_htmldoc
+'

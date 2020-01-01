@@ -76,3 +76,8 @@ nsIUserInfo
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+appstartup
+'

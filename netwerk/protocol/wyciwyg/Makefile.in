@@ -84,9 +84,6 @@ nkwyciwyg_s
 LIBXUL_LIBRARY
 =
 1
-XPIDL_MODULE
-=
-necko_wyciwyg
 GRE_MODULE
 =
 1

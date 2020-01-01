@@ -91,3 +91,8 @@ nsITransportSecurityInfo
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+necko_socket
+'

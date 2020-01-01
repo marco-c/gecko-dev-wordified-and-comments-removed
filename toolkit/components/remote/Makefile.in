@@ -79,9 +79,6 @@ mk
 MODULE
 =
 toolkitcomps
-XPIDL_MODULE
-=
-toolkitremote
 LIBRARY_NAME
 =
 remoteservice

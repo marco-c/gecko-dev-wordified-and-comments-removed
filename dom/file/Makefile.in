@@ -81,9 +81,6 @@ dom
 LIBRARY_NAME
 =
 domfile_s
-XPIDL_MODULE
-=
-dom_file
 LIBXUL_LIBRARY
 =
 1

@@ -71,3 +71,8 @@ nsIWorkerTest
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+WorkerTest
+'

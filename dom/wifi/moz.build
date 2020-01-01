@@ -81,3 +81,8 @@ nsIWifi
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_wifi
+'

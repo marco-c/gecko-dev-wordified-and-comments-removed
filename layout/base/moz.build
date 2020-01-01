@@ -98,3 +98,8 @@ nsIBoxObject
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+layout_base
+'

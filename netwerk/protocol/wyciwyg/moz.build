@@ -71,3 +71,8 @@ nsIWyciwygChannel
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+necko_wyciwyg
+'

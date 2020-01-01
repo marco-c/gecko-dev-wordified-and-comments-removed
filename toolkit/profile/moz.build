@@ -89,3 +89,8 @@ nsIToolkitProfileService
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+toolkitprofile
+'

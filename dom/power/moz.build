@@ -94,3 +94,8 @@ nsIPowerManagerService
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_power
+'

@@ -119,3 +119,8 @@ nsIAppleFileDecoder
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+necko_strconv
+'

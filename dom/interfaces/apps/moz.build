@@ -96,3 +96,8 @@ nsIDOMMozApplicationEvent
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_apps
+'

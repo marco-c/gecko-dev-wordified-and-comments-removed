@@ -84,9 +84,6 @@ nkwebsocket_s
 LIBXUL_LIBRARY
 =
 1
-XPIDL_MODULE
-=
-necko_websocket
 GRE_MODULE
 =
 1

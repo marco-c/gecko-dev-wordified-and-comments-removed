@@ -140,6 +140,11 @@ MOZ_B2G_BT
 '
 ]
 :
+XPIDL_MODULE
+=
+'
+dom_bluetooth
+'
 XPIDL_SOURCES
 +
 =

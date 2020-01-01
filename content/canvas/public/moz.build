@@ -71,3 +71,8 @@ nsICanvasGLPrivate
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+content_canvas
+'

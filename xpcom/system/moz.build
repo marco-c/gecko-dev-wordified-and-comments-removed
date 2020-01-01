@@ -134,3 +134,8 @@ nsICrashReporter
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+xpcom_system
+'

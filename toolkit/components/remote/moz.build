@@ -71,3 +71,8 @@ nsIRemoteService
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+toolkitremote
+'

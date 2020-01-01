@@ -171,3 +171,8 @@ nsIInlineEventHandlers
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_core
+'

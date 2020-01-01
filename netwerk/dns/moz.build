@@ -96,3 +96,8 @@ nsPIDNSService
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+necko_dns
+'

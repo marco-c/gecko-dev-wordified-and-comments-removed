@@ -71,3 +71,8 @@ nsIResProtocolHandler
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+necko_res
+'

@@ -71,3 +71,8 @@ nsPIWidgetCocoa
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+widget_cocoa
+'

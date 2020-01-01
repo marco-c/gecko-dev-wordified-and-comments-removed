@@ -78,9 +78,6 @@ mk
 MODULE
 =
 content
-XPIDL_MODULE
-=
-content_base
 GRE_MODULE
 =
 1

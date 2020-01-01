@@ -78,9 +78,6 @@ mk
 MODULE
 =
 dom
-XPIDL_MODULE
-=
-dom_xpath
 include
 (
 topsrcdir

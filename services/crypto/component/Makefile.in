@@ -85,14 +85,6 @@ MODULE
 services
 -
 crypto
-XPIDL_MODULE
-:
-=
-services
--
-crypto
--
-component
 LIBRARY_NAME
 :
 =

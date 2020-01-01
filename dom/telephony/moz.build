@@ -91,3 +91,8 @@ nsITelephonyProvider
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_telephony
+'

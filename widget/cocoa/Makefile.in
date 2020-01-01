@@ -91,9 +91,6 @@ IS_COMPONENT
 MODULE_NAME
 =
 nsWidgetMacModule
-XPIDL_MODULE
-=
-widget_cocoa
 GRE_MODULE
 =
 1

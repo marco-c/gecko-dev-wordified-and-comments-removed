@@ -91,3 +91,8 @@ nsIVoicemailProvider
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_voicemail
+'

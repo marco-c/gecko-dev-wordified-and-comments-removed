@@ -121,3 +121,8 @@ nsIHttpProtocolHandler
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+necko_http
+'

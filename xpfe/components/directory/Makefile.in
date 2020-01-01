@@ -79,9 +79,6 @@ mk
 MODULE
 =
 appcomps
-XPIDL_MODULE
-=
-directory
 LIBRARY_NAME
 =
 directory_s

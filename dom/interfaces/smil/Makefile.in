@@ -82,9 +82,6 @@ mk
 MODULE
 =
 dom
-XPIDL_MODULE
-=
-dom_smil
 include
 (
 topsrcdir

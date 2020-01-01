@@ -116,3 +116,8 @@ nsISAXXMLReader
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+saxparser
+'

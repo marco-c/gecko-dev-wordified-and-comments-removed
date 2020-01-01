@@ -76,3 +76,8 @@ nsIDOMNavigatorDesktopNotification
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_notification
+'

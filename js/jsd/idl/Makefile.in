@@ -79,9 +79,6 @@ mk
 MODULE
 =
 jsdebug
-XPIDL_MODULE
-=
-jsdservice
 include
 (
 topsrcdir

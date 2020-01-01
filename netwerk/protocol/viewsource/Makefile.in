@@ -88,9 +88,6 @@ nkviewsource_s
 LIBXUL_LIBRARY
 =
 1
-XPIDL_MODULE
-=
-necko_viewsource
 GRE_MODULE
 =
 1

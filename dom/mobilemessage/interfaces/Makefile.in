@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-XPIDL_MODULE
-=
-dom_mobilemessage
 include
 (
 topsrcdir

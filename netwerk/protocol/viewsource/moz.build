@@ -71,3 +71,8 @@ nsIViewSourceChannel
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+necko_viewsource
+'

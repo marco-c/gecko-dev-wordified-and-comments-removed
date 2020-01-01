@@ -86,3 +86,8 @@ nsIPaymentUIGlue
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_payment
+'

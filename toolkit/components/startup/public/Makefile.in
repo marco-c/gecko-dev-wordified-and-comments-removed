@@ -103,9 +103,6 @@ logical
 MODULE
 =
 appcomps
-XPIDL_MODULE
-=
-appstartup
 include
 (
 topsrcdir

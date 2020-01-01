@@ -155,3 +155,8 @@ nsIOSFileConstantsService
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_system
+'

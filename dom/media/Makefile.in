@@ -81,9 +81,6 @@ mk
 MODULE
 =
 dom
-XPIDL_MODULE
-=
-dom_media
 LIBRARY_NAME
 =
 dom_media_s

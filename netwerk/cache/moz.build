@@ -96,3 +96,8 @@ nsICacheVisitor
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+necko_cache
+'

@@ -71,3 +71,8 @@ nsIXULAppInstall
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+xulapp_setup
+'

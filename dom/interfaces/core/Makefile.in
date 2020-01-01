@@ -79,9 +79,6 @@ mk
 MODULE
 =
 dom
-XPIDL_MODULE
-=
-dom_core
 GRE_MODULE
 =
 1

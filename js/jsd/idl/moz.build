@@ -71,3 +71,8 @@ jsdIDebuggerService
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+jsdservice
+'

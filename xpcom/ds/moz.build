@@ -209,3 +209,8 @@ nsIWindowsRegKey
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+xpcom_ds
+'

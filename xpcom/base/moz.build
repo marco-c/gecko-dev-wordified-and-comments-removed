@@ -204,3 +204,8 @@ nsIMacUtils
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+xpcom_base
+'

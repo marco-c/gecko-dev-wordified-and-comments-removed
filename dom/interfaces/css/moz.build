@@ -181,3 +181,8 @@ nsIDOMRect
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_css
+'

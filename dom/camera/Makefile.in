@@ -81,9 +81,6 @@ dom
 LIBRARY_NAME
 =
 domcamera_s
-XPIDL_MODULE
-=
-dom_camera
 LIBXUL_LIBRARY
 =
 1

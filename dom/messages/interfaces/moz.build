@@ -76,3 +76,8 @@ nsISystemMessagesInternal
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_messages
+'

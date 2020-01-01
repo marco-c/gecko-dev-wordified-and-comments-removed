@@ -76,3 +76,8 @@ nsIInterfaceInfoManager
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+xpcom_xpti
+'

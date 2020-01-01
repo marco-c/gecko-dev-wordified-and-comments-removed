@@ -81,9 +81,6 @@ dom
 LIBRARY_NAME
 =
 domwifi_s
-XPIDL_MODULE
-=
-dom_wifi
 LIBXUL_LIBRARY
 =
 1

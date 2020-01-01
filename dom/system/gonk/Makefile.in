@@ -155,9 +155,6 @@ dom
 LIBRARY_NAME
 =
 domsystemgonk_s
-XPIDL_MODULE
-=
-dom_system_gonk
 LIBXUL_LIBRARY
 =
 1

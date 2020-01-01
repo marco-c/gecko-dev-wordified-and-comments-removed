@@ -96,3 +96,8 @@ nsIDOMXPathResult
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_xpath
+'

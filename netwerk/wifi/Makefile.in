@@ -84,9 +84,6 @@ neckowifi_s
 LIBXUL_LIBRARY
 =
 1
-XPIDL_MODULE
-=
-necko_wifi
 GRE_MODULE
 =
 1

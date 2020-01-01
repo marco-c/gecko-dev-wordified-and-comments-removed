@@ -431,3 +431,8 @@ nsIMozBrowserFrame
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_html
+'

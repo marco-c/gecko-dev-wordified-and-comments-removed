@@ -79,9 +79,6 @@ mk
 MODULE
 =
 appcomps
-XPIDL_MODULE
-=
-xpautocomplete
 include
 (
 topsrcdir

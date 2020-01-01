@@ -187,3 +187,8 @@ nsIWorkerHolder
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_system_gonk
+'

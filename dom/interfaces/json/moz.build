@@ -71,3 +71,8 @@ nsIJSON
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_json
+'

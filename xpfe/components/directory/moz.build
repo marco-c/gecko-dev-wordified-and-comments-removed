@@ -71,3 +71,8 @@ nsIHTTPIndex
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+directory
+'

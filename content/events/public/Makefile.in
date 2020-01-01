@@ -79,9 +79,6 @@ mk
 MODULE
 =
 content
-XPIDL_MODULE
-=
-content_events
 EXPORTS
 =
 \

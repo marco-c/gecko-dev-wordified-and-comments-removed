@@ -169,3 +169,8 @@ nsIWebBrowserPrint
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+webBrowser_core
+'

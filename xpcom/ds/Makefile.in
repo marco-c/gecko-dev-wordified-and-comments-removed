@@ -79,9 +79,6 @@ mk
 MODULE
 =
 xpcom
-XPIDL_MODULE
-=
-xpcom_ds
 LIBRARY_NAME
 =
 xpcomds_s

@@ -105,9 +105,6 @@ nksctp_s
 LIBXUL_LIBRARY
 =
 1
-XPIDL_MODULE
-=
-necko_sctp
 GRE_MODULE
 =
 1

@@ -71,3 +71,8 @@ nsIWindowDataSource
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+windowds
+'

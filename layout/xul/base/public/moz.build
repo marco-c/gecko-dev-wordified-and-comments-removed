@@ -116,3 +116,8 @@ nsISliderListener
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+layout_xul
+'

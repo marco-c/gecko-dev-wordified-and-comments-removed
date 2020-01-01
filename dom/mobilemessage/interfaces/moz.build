@@ -139,3 +139,8 @@ nsIRilMobileMessageDatabaseService
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_mobilemessage
+'

@@ -81,9 +81,6 @@ widget
 LIBRARY_NAME
 =
 widget_android
-XPIDL_MODULE
-=
-widget_android
 EXPORT_LIBRARY
 =
 1

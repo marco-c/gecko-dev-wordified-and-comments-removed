@@ -166,3 +166,8 @@ nsIDOMXULTreeElement
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_xul
+'

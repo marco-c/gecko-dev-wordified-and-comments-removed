@@ -78,9 +78,6 @@ mk
 XPI_NAME
 =
 worker
-XPIDL_MODULE
-=
-WorkerTest
 EXTRA_COMPONENTS
 =
 \

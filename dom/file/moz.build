@@ -94,3 +94,8 @@ nsIDOMLockedFile
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+dom_file
+'

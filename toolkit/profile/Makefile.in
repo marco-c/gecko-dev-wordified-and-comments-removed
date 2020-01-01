@@ -79,9 +79,6 @@ mk
 MODULE
 =
 xulapp
-XPIDL_MODULE
-=
-toolkitprofile
 LIBRARY_NAME
 =
 profile_s

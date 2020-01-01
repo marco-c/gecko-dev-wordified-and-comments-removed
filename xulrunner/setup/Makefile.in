@@ -78,9 +78,6 @@ mk
 MODULE
 =
 xulrunner
-XPIDL_MODULE
-=
-xulapp_setup
 EXTRA_COMPONENTS
 =
 nsXULAppInstall

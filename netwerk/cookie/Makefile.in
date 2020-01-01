@@ -96,9 +96,6 @@ given
 MODULE
 =
 necko
-XPIDL_MODULE
-=
-necko_cookie
 GRE_MODULE
 =
 1

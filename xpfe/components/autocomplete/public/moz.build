@@ -81,3 +81,8 @@ nsIAutoCompleteSession
 idl
 '
 ]
+XPIDL_MODULE
+=
+'
+xpautocomplete
+'
