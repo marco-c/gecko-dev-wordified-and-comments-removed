@@ -125,6 +125,10 @@ ImageFactory
 .
 cpp
 \
+ImageWrapper
+.
+cpp
+\
 Decoder
 .
 cpp
