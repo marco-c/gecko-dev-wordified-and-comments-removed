@@ -972,7 +972,10 @@ aDest
 {
 if
 (
+PRUint32
+(
 aNumber
+)
 >
 =
 4000
