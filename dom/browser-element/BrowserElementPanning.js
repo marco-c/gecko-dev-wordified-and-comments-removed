@@ -1229,6 +1229,11 @@ if
 (
 !
 isPan
+&
+&
+this
+.
+detectingScrolling
 )
 {
 return
