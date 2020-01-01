@@ -23762,8 +23762,11 @@ failif
 addifstmt
 (
 StmtReturn
+(
+ExprLiteral
 .
-FALSE
+NULL
+)
 )
             
 createshmem
