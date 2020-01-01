@@ -10541,6 +10541,12 @@ if
 mState
 =
 =
+DECODER_STATE_DECODING_METADATA
+|
+|
+mState
+=
+=
 DECODER_STATE_DORMANT
 |
 |
@@ -10549,8 +10555,10 @@ mState
 =
 DECODER_STATE_SHUTDOWN
 )
+{
 return
 ;
+}
 LOG
 (
 PR_LOG_DEBUG
