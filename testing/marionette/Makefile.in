@@ -85,12 +85,6 @@ DIRS
 +
 =
 components
-\
-atoms
-\
-(
-NULL
-)
 ifdef
 ENABLE_TESTS
 DIRS
