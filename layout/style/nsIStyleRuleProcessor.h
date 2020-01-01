@@ -32,6 +32,9 @@ struct
 ElementRuleProcessorData
 ;
 struct
+PseudoElementRuleProcessorData
+;
+struct
 PseudoRuleProcessorData
 ;
 struct
@@ -92,6 +95,16 @@ NS_IMETHOD
 RulesMatching
 (
 ElementRuleProcessorData
+*
+aData
+)
+=
+0
+;
+NS_IMETHOD
+RulesMatching
+(
+PseudoElementRuleProcessorData
 *
 aData
 )
