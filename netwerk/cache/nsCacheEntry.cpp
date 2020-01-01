@@ -180,6 +180,10 @@ SetStoragePolicy
 storagePolicy
 )
 ;
+MarkPublic
+(
+)
+;
 }
 nsCacheEntry
 :
