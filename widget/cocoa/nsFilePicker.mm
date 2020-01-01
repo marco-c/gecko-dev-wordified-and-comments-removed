@@ -3388,15 +3388,10 @@ set
 NSCharacterSet
 characterSetWithCharactersInString
 :
-[
-NSString
-stringWithString
-:
 "
 .
 *
 "
-]
 ]
 ;
 NSRange
