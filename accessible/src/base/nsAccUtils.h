@@ -531,7 +531,7 @@ static
 PRBool
 IsTextInterfaceSupportCorrect
 (
-nsIAccessible
+nsAccessible
 *
 aAccessible
 )
