@@ -355,13 +355,13 @@ GetStyleContext
 ;
 }
 static
-nsStyleContext
+nsIFrame
 *
-FindNonTransparentBackground
+FindNonTransparentBackgroundFrame
 (
-nsStyleContext
+nsIFrame
 *
-aContext
+aFrame
 PRBool
 aStartAtParent
 =
