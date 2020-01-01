@@ -1202,7 +1202,7 @@ Max
 mozilla
 :
 :
-Abs
+DeprecatedAbs
 <
 int64_t
 >
@@ -1214,7 +1214,7 @@ lower
 mozilla
 :
 :
-Abs
+DeprecatedAbs
 <
 int64_t
 >

@@ -5850,7 +5850,7 @@ scale
 }
 if
 (
-Abs
+DeprecatedAbs
 (
 listX
 -
@@ -5861,7 +5861,7 @@ aRequestedX
 kSlop
 &
 &
-Abs
+DeprecatedAbs
 (
 listY
 -

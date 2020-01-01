@@ -17721,7 +17721,7 @@ sh
 uint32_t
 w
 =
-Abs
+DeprecatedAbs
 (
 wi
 )
@@ -17729,7 +17729,7 @@ wi
 uint32_t
 h
 =
-Abs
+DeprecatedAbs
 (
 hi
 )

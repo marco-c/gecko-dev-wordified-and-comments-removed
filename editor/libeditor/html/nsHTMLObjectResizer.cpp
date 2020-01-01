@@ -4014,7 +4014,7 @@ eIntID_DragThresholdY
 ;
 if
 (
-Abs
+DeprecatedAbs
 (
 clientX
 -
@@ -4027,7 +4027,7 @@ mOriginalX
 xThreshold
 |
 |
-Abs
+DeprecatedAbs
 (
 clientY
 -

@@ -408,7 +408,7 @@ return
 ;
 count
 =
-Abs
+DeprecatedAbs
 (
 count
 )
@@ -705,7 +705,7 @@ return
 ;
 count
 =
-Abs
+DeprecatedAbs
 (
 count
 )

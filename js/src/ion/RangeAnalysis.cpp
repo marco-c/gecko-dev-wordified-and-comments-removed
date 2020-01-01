@@ -87,7 +87,7 @@ using
 mozilla
 :
 :
-Abs
+DeprecatedAbs
 ;
 RangeAnalysis
 :
@@ -3527,7 +3527,7 @@ Range
 0
 Max
 (
-Abs
+DeprecatedAbs
 <
 int64_t
 >
@@ -3538,7 +3538,7 @@ lower
 (
 )
 )
-Abs
+DeprecatedAbs
 <
 int64_t
 >
@@ -3827,7 +3827,7 @@ getOperand
 int64_t
 a
 =
-Abs
+DeprecatedAbs
 <
 int64_t
 >
@@ -3842,7 +3842,7 @@ lower
 int64_t
 b
 =
-Abs
+DeprecatedAbs
 <
 int64_t
 >

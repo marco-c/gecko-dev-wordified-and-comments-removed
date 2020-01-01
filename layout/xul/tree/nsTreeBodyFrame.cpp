@@ -8327,7 +8327,7 @@ endif
 int32_t
 count
 =
-Abs
+DeprecatedAbs
 (
 aCount
 )

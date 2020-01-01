@@ -35,7 +35,7 @@ b
 mozilla
 :
 :
-Abs
+DeprecatedAbs
 (
 NS_GetLuminosity
 (

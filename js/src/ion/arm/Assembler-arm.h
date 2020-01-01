@@ -3208,7 +3208,7 @@ Imm12Data
 mozilla
 :
 :
-Abs
+DeprecatedAbs
 (
 imm
 )
@@ -3604,7 +3604,7 @@ Imm8Data
 mozilla
 :
 :
-Abs
+DeprecatedAbs
 (
 imm
 )
@@ -3759,7 +3759,7 @@ Imm8VFPOffData
 mozilla
 :
 :
-Abs
+DeprecatedAbs
 (
 imm
 )

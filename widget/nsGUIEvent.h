@@ -4448,12 +4448,12 @@ return
 }
 return
 (
-Abs
+DeprecatedAbs
 (
 lineOrPageDeltaX
 )
 >
-Abs
+DeprecatedAbs
 (
 lineOrPageDeltaY
 )

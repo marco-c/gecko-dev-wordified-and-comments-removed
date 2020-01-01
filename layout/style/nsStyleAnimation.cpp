@@ -2010,7 +2010,7 @@ GetIntValue
 ;
 aDistance
 =
-Abs
+DeprecatedAbs
 (
 endInt
 -
@@ -2119,7 +2119,7 @@ GetIntValue
 ;
 aDistance
 =
-Abs
+DeprecatedAbs
 (
 endInt
 -
@@ -2154,7 +2154,7 @@ GetCoordValue
 ;
 aDistance
 =
-Abs
+DeprecatedAbs
 <
 double
 >
@@ -2192,7 +2192,7 @@ GetPercentValue
 ;
 aDistance
 =
-Abs
+DeprecatedAbs
 <
 double
 >
@@ -2295,7 +2295,7 @@ GetFloatValue
 ;
 aDistance
 =
-Abs
+DeprecatedAbs
 <
 double
 >
@@ -6829,7 +6829,7 @@ NS_ASSERTION
 .
 99
 <
-Abs
+DeprecatedAbs
 (
 A
 *
@@ -6841,7 +6841,7 @@ C
 )
 &
 &
-Abs
+DeprecatedAbs
 (
 A
 *

@@ -868,7 +868,7 @@ false
 ;
 aDuration
 =
-Abs
+DeprecatedAbs
 (
 aDuration
 )

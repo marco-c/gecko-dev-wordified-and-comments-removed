@@ -2586,7 +2586,7 @@ NS_OK
 double
 distanceLeft
 =
-Abs
+DeprecatedAbs
 (
 leftBound
 -
@@ -2596,7 +2596,7 @@ aTime
 double
 distanceRight
 =
-Abs
+DeprecatedAbs
 (
 rightBound
 -
@@ -2613,7 +2613,7 @@ distanceRight
 {
 distanceLeft
 =
-Abs
+DeprecatedAbs
 (
 leftBound
 -
@@ -2622,7 +2622,7 @@ mCurrentTime
 ;
 distanceRight
 =
-Abs
+DeprecatedAbs
 (
 rightBound
 -

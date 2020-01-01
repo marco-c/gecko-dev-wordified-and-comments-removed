@@ -2507,7 +2507,7 @@ bool
 (
 float
 (
-Abs
+DeprecatedAbs
 (
 a
 -
@@ -2579,7 +2579,7 @@ bool
 (
 float
 (
-Abs
+DeprecatedAbs
 (
 b
 -
@@ -2757,14 +2757,14 @@ b
 )
 ;
 return
-Abs
+DeprecatedAbs
 (
 a
 -
 b
 )
 <
-Abs
+DeprecatedAbs
 (
 olda
 -

@@ -3341,7 +3341,7 @@ rank
 =
 9
 -
-Abs
+DeprecatedAbs
 (
 aFontEntry
 -
@@ -14416,7 +14416,7 @@ aMetrics
 .
 xHeight
 =
-Abs
+DeprecatedAbs
 (
 aMetrics
 .
