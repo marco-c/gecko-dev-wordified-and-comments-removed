@@ -116,9 +116,6 @@ JSContext
 const
 context
 ;
-PartialTokenizingContext
-partialTokenizingContext
-;
 TokenStream
 tokenStream
 ;
