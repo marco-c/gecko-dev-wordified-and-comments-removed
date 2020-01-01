@@ -1059,9 +1059,11 @@ if
 !
 doc
 )
+{
 return
-NS_OK
+NS_ERROR_FAILURE
 ;
+}
 nsIPresShell
 *
 shell
@@ -1079,7 +1081,7 @@ if
 shell
 )
 return
-NS_OK
+NS_ERROR_FAILURE
 ;
 shell
 -
@@ -1102,6 +1104,7 @@ GetPresContext
 (
 )
 ;
+return
 presContext
 -
 >
@@ -1115,9 +1118,6 @@ ShiftFocus
 aForward
 content
 )
-;
-return
-NS_OK
 ;
 }
 nsresult
