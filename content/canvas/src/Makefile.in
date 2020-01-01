@@ -103,6 +103,10 @@ WebGLContext
 .
 h
 \
+WebGLElementArrayCache
+.
+h
+\
 (
 NULL
 )
@@ -204,6 +208,10 @@ WebGLExtensionCompressedTextureS3TC
 cpp
 \
 WebGLExtensionDepthTexture
+.
+cpp
+\
+WebGLElementArrayCache
 .
 cpp
 \

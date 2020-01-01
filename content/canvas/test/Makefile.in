@@ -74,6 +74,10 @@ DIRS
 =
 webgl
 crossorigin
+TOOLS_DIRS
++
+=
+compiled
 include
 (
 DEPTH
