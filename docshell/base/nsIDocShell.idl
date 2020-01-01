@@ -3690,6 +3690,9 @@ frame
 .
 *
 /
+[
+infallible
+]
 readonly
 attribute
 boolean
@@ -3713,6 +3716,9 @@ frame
 .
 *
 /
+[
+infallible
+]
 readonly
 attribute
 boolean
@@ -3742,6 +3748,9 @@ boundary
 .
 *
 /
+[
+infallible
+]
 readonly
 attribute
 boolean
@@ -3764,6 +3773,9 @@ element
 .
 *
 /
+[
+infallible
+]
 readonly
 attribute
 boolean
@@ -3952,6 +3964,9 @@ method
 .
 *
 /
+[
+infallible
+]
 readonly
 attribute
 boolean
@@ -3982,6 +3997,9 @@ hierarchy
 .
 *
 /
+[
+infallible
+]
 readonly
 attribute
 boolean
@@ -4129,6 +4147,9 @@ app
 .
 *
 /
+[
+infallible
+]
 readonly
 attribute
 unsigned
