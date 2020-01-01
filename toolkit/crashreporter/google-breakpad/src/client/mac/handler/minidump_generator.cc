@@ -2688,8 +2688,6 @@ list
 CopyIndexAfterObject
 (
 i
-+
-+
 &
 memory_blocks_
 [
