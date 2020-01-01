@@ -194,6 +194,9 @@ myTrustedEVInfos
 ]
 =
 {
+#
+ifdef
+DEBUG
 {
 "
 1
@@ -293,6 +296,8 @@ FPSJmJkky
 "
 nullptr
 }
+#
+endif
 {
 "
 1
@@ -5873,6 +5878,9 @@ nullptr
 ias
 )
 ;
+#
+ifdef
+DEBUG
 if
 (
 iEV
@@ -5899,6 +5907,8 @@ storage
 )
 ;
 }
+#
+endif
 SECITEM_FreeItem
 (
 &
