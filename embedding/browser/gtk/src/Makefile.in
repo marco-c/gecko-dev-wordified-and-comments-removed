@@ -775,6 +775,17 @@ source
 -
 body
 >
+gtkmozembed2
+.
+(
+OBJ_SUFFIX
+)
+:
+(
+MARSHAL_FILE
+)
+.
+h
 GARBAGE
 +
 =
