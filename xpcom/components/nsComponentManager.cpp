@@ -1981,7 +1981,6 @@ value
 ;
 }
 }
-;
 void
 nsComponentManagerImpl
 :
@@ -5634,11 +5633,12 @@ nsAutoPtr
 nsFactoryEntry
 >
 f
-=
+(
 new
 nsFactoryEntry
 (
 aFactory
+)
 )
 ;
 nsAutoMonitor
