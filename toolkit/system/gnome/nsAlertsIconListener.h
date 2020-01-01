@@ -153,6 +153,9 @@ NotifyNotification
 *
 mNotification
 ;
+gulong
+mClosureHandler
+;
 nsresult
 StartRequest
 (
