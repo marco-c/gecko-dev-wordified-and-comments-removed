@@ -63,6 +63,17 @@ Kind
 kind
 )
 {
+JS_ASSERT
+(
+!
+(
+from
+=
+=
+to
+)
+)
+;
 PendingMove
 *
 pm
