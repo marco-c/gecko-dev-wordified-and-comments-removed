@@ -1130,6 +1130,15 @@ close
 "
 )
 ;
+if
+(
+mDocumentClosed
+)
+{
+return
+NS_OK
+;
+}
 mDocumentClosed
 =
 true
