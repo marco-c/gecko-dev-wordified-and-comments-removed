@@ -563,6 +563,10 @@ test_ccbeginfail
 .
 xul
 \
+test_ccdump
+.
+xul
+\
 (
 NULL
 )
