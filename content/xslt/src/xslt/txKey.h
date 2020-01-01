@@ -127,13 +127,6 @@ nsnull
 )
 {
 }
-const
-void
-*
-GetKey
-(
-)
-;
 PRBool
 MatchEntry
 (
@@ -234,13 +227,6 @@ PR_FALSE
 )
 {
 }
-const
-void
-*
-GetKey
-(
-)
-;
 PRBool
 MatchEntry
 (
