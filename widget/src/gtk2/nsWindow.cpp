@@ -26925,8 +26925,10 @@ ShouldA11yBeEnabled
 (
 )
 )
+{
 return
 ;
+}
 nsCOMPtr
 <
 nsIAccessibilityService
