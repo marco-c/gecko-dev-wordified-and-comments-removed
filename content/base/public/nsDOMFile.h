@@ -468,6 +468,10 @@ aBlob
 ;
 protected
 :
+friend
+class
+DataOwnerAdapter
+;
 class
 DataOwner
 {
