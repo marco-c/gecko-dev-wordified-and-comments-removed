@@ -801,6 +801,10 @@ browser_bug304198
 .
 js
 \
+browser_drag
+.
+js
+\
 (
 NULL
 )

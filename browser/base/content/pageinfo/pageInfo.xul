@@ -2470,7 +2470,7 @@ contextmenu
 "
 picontext
 "
-ondraggesture
+ondragstart
 =
 "
 onBeginLinkDrag
