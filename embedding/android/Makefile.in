@@ -1106,6 +1106,14 @@ themes
 .
 xml
 \
+res
+/
+values
+/
+arrays
+.
+xml
+\
 (
 NULL
 )
