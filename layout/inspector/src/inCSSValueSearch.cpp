@@ -480,7 +480,7 @@ KillSearch
 inISearchObserver
 :
 :
-INTERRUPTED
+IN_INTERRUPTED
 )
 ;
 return

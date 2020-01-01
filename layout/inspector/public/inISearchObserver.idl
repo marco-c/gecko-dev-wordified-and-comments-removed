@@ -438,7 +438,7 @@ to
 onSearchEnd
 const
 short
-SUCCESS
+IN_SUCCESS
 =
 1
 ;
@@ -449,7 +449,7 @@ completed
 successfully
 const
 short
-INTERRUPTED
+IN_INTERRUPTED
 =
 2
 ;
@@ -463,7 +463,7 @@ user
 interruption
 const
 short
-ERROR
+IN_ERROR
 =
 3
 ;
