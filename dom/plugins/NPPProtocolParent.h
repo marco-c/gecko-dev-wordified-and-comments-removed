@@ -425,12 +425,15 @@ MsgPayloadError
 }
 if
 (
+NS_FAILED
+(
 AnswerNPN_GetValue
 (
 key
 &
 (
 value
+)
 )
 )
 )

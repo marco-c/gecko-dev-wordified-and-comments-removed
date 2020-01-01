@@ -81,10 +81,15 @@ NPPProtocol
 enum
 State
 {
+StateStart
+=
+0
+StateError
+StateLast
 }
 ;
 enum
-NPPProtocolMsgType
+MessageType
 {
 NPPProtocolStart
 =

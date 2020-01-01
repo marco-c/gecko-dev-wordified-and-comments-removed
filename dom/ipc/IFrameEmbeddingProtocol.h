@@ -57,10 +57,15 @@ IFrameEmbeddingProtocol
 enum
 State
 {
+StateStart
+=
+0
+StateError
+StateLast
 }
 ;
 enum
-IFrameEmbeddingProtocolMsgType
+MessageType
 {
 IFrameEmbeddingProtocolStart
 =
