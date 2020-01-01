@@ -53,7 +53,7 @@ script
 type
 =
 "
-text
+application
 /
 javascript
 "
@@ -77,7 +77,7 @@ script
 type
 =
 "
-text
+application
 /
 javascript
 "
@@ -214,15 +214,10 @@ test
 >
 <
 script
-class
-=
-"
-testbody
-"
 type
 =
 "
-text
+application
 /
 javascript
 "
