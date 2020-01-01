@@ -211,9 +211,9 @@ nsIScriptSecurityManager
 var
 secMan
 =
-Components
+SpecialPowers
 .
-classes
+Cc
 [
 "
 mozilla
@@ -236,10 +236,12 @@ principal
 =
 SpecialPowers
 .
-getNodePrincipal
+wrap
 (
 document
 )
+.
+nodePrincipal
 ;
 isnot
 (

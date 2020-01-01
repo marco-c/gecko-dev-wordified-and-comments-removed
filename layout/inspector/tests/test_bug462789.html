@@ -566,15 +566,13 @@ getBindingURLs
 docElement
 )
 ;
-is
+ok
 (
 SpecialPowers
 .
-unwrap
+call_Instanceof
 (
 res
-)
-instanceof
 SpecialPowers
 .
 Ci
@@ -583,7 +581,7 @@ Ci
 nsIArray
 "
 ]
-true
+)
 "
 getBindingURLs
 result
