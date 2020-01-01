@@ -203,12 +203,14 @@ PRUint32
 aFlags
 )
 ;
-NS_IMETHOD
+virtual
+void
 NotifyRedrawSuspended
 (
 )
 ;
-NS_IMETHOD
+virtual
+void
 NotifyRedrawUnsuspended
 (
 )

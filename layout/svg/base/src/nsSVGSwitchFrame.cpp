@@ -164,7 +164,8 @@ InitialUpdate
 (
 )
 ;
-NS_IMETHOD
+virtual
+void
 NotifyRedrawUnsuspended
 (
 )
@@ -566,7 +567,7 @@ InitialUpdate
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsSVGSwitchFrame
 :
 :
@@ -574,6 +575,11 @@ NotifyRedrawUnsuspended
 (
 )
 {
+RemoveStateBits
+(
+NS_STATE_SVG_REDRAW_SUSPENDED
+)
+;
 if
 (
 GetStateBits
@@ -590,7 +596,6 @@ UpdateGraphic
 this
 )
 ;
-return
 nsSVGSwitchFrameBase
 :
 :

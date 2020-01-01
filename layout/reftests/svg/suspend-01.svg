@@ -64,16 +64,7 @@ title
 Test
 that
 suspendRedraw
-doesn
-'
-t
-apply
-after
-the
-end
-of
-a
-script
+works
 <
 /
 title
@@ -98,7 +89,7 @@ cgi
 ?
 id
 =
-734079
+615146
 -
 -
 >
@@ -119,7 +110,7 @@ height
 fill
 =
 "
-lime
+red
 "
 /
 >

@@ -886,7 +886,7 @@ this
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsSVGPathGeometryFrame
 :
 :
@@ -894,11 +894,13 @@ NotifyRedrawSuspended
 (
 )
 {
-return
-NS_OK
+AddStateBits
+(
+NS_STATE_SVG_REDRAW_SUSPENDED
+)
 ;
 }
-NS_IMETHODIMP
+void
 nsSVGPathGeometryFrame
 :
 :
@@ -906,6 +908,11 @@ NotifyRedrawUnsuspended
 (
 )
 {
+RemoveStateBits
+(
+NS_STATE_SVG_REDRAW_SUSPENDED
+)
+;
 if
 (
 GetStateBits
@@ -921,9 +928,6 @@ UpdateGraphic
 (
 this
 )
-;
-return
-NS_OK
 ;
 }
 gfxRect
