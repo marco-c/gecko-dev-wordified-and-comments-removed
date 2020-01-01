@@ -1,0 +1,10 @@
+throw
+new
+Error
+(
+"
+foo
+!
+"
+)
+;
