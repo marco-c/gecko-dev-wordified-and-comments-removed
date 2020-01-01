@@ -133,6 +133,11 @@ GfxInfoBase
 cpp
 '
 '
+GfxInfoCollector
+.
+cpp
+'
+'
 GfxInfoWebGL
 .
 cpp
