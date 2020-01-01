@@ -942,6 +942,8 @@ mValue
 .
 mInt32
 ;
+break
+;
 case
 nsIForeignLibrary
 :
@@ -1111,6 +1113,8 @@ aResult
 mValue
 .
 mUint32
+;
+break
 ;
 case
 nsIForeignLibrary
