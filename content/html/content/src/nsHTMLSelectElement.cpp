@@ -2320,6 +2320,15 @@ nsIDataType
 :
 :
 VTYPE_EMPTY
+|
+|
+dataType
+=
+=
+nsIDataType
+:
+:
+VTYPE_VOID
 )
 {
 return
