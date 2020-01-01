@@ -705,7 +705,7 @@ nsMenuX
 :
 sIndexingMenuLevel
 =
-nsnull
+0
 ;
 nsMenuX
 :
