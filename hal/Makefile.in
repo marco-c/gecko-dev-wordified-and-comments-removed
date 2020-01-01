@@ -500,6 +500,10 @@ HalTypes
 .
 h
 \
+HalWakeLock
+.
+h
+\
 (
 NULL
 )
@@ -515,6 +519,10 @@ SandboxHal
 cpp
 \
 WindowIdentifier
+.
+cpp
+\
+HalWakeLock
 .
 cpp
 \

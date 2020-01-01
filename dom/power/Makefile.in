@@ -462,6 +462,10 @@ PowerManagerService
 .
 h
 \
+Types
+.
+h
+\
 (
 NULL
 )
@@ -476,6 +480,10 @@ PowerManagerService
 .
 cpp
 \
+WakeLock
+.
+cpp
+\
 (
 NULL
 )
@@ -483,6 +491,14 @@ XPIDLSRCS
 =
 \
 nsIDOMPowerManager
+.
+idl
+\
+nsIDOMWakeLock
+.
+idl
+\
+nsIDOMWakeLockListener
 .
 idl
 \
