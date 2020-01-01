@@ -530,7 +530,7 @@ nsIAtom
 aUnit
 )
 ;
-nsresult
+void
 SetCSSEnabled
 (
 bool

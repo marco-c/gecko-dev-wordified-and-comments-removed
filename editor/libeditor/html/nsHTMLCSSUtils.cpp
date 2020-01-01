@@ -7106,7 +7106,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsHTMLCSSUtils
 :
 :
@@ -7119,9 +7119,6 @@ aIsCSSPrefChecked
 mIsCSSPrefChecked
 =
 aIsCSSPrefChecked
-;
-return
-NS_OK
 ;
 }
 bool

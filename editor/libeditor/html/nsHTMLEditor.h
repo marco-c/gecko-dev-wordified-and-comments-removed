@@ -314,6 +314,11 @@ nsHTMLEditor
 (
 )
 ;
+bool
+GetReturnInParagraphCreatesNewParagraph
+(
+)
+;
 NS_IMETHOD
 GetIsDocumentEditable
 (
@@ -936,7 +941,7 @@ IterDirection
 aDir
 )
 ;
-nsresult
+void
 IsNextCharWhitespace
 (
 nsIDOMNode
@@ -965,7 +970,7 @@ outOffset
 0
 )
 ;
-nsresult
+void
 IsPrevCharWhitespace
 (
 nsIDOMNode

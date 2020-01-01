@@ -2959,8 +2959,6 @@ visType
 =
 0
 ;
-rv
-=
 wsRunObj
 .
 PriorVisibleNode
@@ -2975,12 +2973,6 @@ visNode
 outVisOffset
 &
 visType
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if
@@ -3028,8 +3020,6 @@ selNode
 selOffset
 )
 ;
-rv
-=
 wsRunObj
 .
 PriorVisibleNode
@@ -3044,12 +3034,6 @@ visNode
 outVisOffset
 &
 visType
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if

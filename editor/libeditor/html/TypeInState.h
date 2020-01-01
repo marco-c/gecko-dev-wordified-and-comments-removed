@@ -186,7 +186,7 @@ TakeRelativeFontSize
 (
 )
 ;
-nsresult
+void
 GetTypingState
 (
 bool
@@ -200,7 +200,7 @@ nsIAtom
 aProp
 )
 ;
-nsresult
+void
 GetTypingState
 (
 bool
@@ -249,7 +249,7 @@ outIndex
 ;
 protected
 :
-nsresult
+void
 RemovePropFromSetList
 (
 nsIAtom
@@ -261,7 +261,7 @@ nsAString
 aAttr
 )
 ;
-nsresult
+void
 RemovePropFromClearedList
 (
 nsIAtom

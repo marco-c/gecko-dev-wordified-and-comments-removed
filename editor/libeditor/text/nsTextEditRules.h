@@ -154,7 +154,7 @@ DocumentModified
 ;
 public
 :
-nsresult
+void
 ResetIMETextPWBuf
 (
 )
@@ -171,7 +171,7 @@ aNewLineHandling
 )
 ;
 static
-nsresult
+void
 FillBufWithPWChars
 (
 nsAString
@@ -479,7 +479,7 @@ bool
 aTruncated
 )
 ;
-nsresult
+void
 RemoveIMETextFromPWBuf
 (
 PRUint32

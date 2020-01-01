@@ -1142,7 +1142,7 @@ ArePreservingSelection
 (
 )
 ;
-nsresult
+void
 PreserveSelectionAcrossActions
 (
 nsISelection
@@ -1682,12 +1682,9 @@ nsINode
 aRoot
 )
 ;
-nsresult
+PRInt32
 GetIMEBufferLength
 (
-PRInt32
-*
-length
 )
 ;
 bool
@@ -1967,7 +1964,7 @@ nsAString
 value
 )
 ;
-nsresult
+void
 BeginUpdateViewBatch
 (
 void
