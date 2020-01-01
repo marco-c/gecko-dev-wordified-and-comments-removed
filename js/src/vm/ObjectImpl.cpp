@@ -51,7 +51,7 @@ emptyElementsHeader
 0
 )
 ;
-HeapValue
+HeapSlot
 *
 js
 :
@@ -60,7 +60,7 @@ emptyObjectElements
 =
 reinterpret_cast
 <
-HeapValue
+HeapSlot
 *
 >
 (

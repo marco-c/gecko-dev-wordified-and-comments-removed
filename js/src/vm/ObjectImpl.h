@@ -133,7 +133,7 @@ length
 )
 {
 }
-HeapValue
+HeapSlot
 *
 elements
 (
@@ -141,7 +141,7 @@ elements
 {
 return
 (
-HeapValue
+HeapSlot
 *
 )
 (
@@ -162,7 +162,7 @@ ObjectElements
 *
 fromElements
 (
-HeapValue
+HeapSlot
 *
 elems
 )
@@ -270,7 +270,7 @@ VALUES_PER_HEADER
 }
 ;
 extern
-HeapValue
+HeapSlot
 *
 emptyObjectElements
 ;
@@ -306,11 +306,11 @@ shape_
 HeapPtrTypeObject
 type_
 ;
-HeapValue
+HeapSlot
 *
 slots
 ;
-HeapValue
+HeapSlot
 *
 elements
 ;
@@ -520,7 +520,7 @@ SLOT_CAPACITY_MIN
 =
 8
 ;
-HeapValue
+HeapSlot
 *
 fixedSlots
 (
@@ -530,7 +530,7 @@ const
 return
 reinterpret_cast
 <
-HeapValue
+HeapSlot
 *
 >
 (
@@ -747,7 +747,7 @@ elements
 ;
 }
 inline
-HeapValue
+HeapSlot
 *
 fixedElements
 (

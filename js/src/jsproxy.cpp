@@ -111,7 +111,7 @@ gc
 ;
 static
 inline
-HeapValue
+HeapSlot
 &
 GetCall
 (
@@ -177,7 +177,7 @@ JSSLOT_PROXY_CONSTRUCT
 }
 static
 inline
-HeapValue
+HeapSlot
 &
 GetFunctionProxyConstruct
 (
@@ -7315,7 +7315,7 @@ trc
 obj
 )
 ;
-MarkCrossCompartmentValue
+MarkCrossCompartmentSlot
 (
 trc
 &
@@ -7331,7 +7331,7 @@ private
 "
 )
 ;
-MarkCrossCompartmentValue
+MarkCrossCompartmentSlot
 (
 trc
 &
@@ -7349,7 +7349,7 @@ extra0
 "
 )
 ;
-MarkCrossCompartmentValue
+MarkCrossCompartmentSlot
 (
 trc
 &
@@ -7375,7 +7375,7 @@ obj
 )
 )
 {
-MarkCrossCompartmentValue
+MarkCrossCompartmentSlot
 (
 trc
 &
@@ -7388,7 +7388,7 @@ call
 "
 )
 ;
-MarkCrossCompartmentValue
+MarkCrossCompartmentSlot
 (
 trc
 &
@@ -7421,7 +7421,7 @@ trc
 obj
 )
 ;
-MarkCrossCompartmentValue
+MarkCrossCompartmentSlot
 (
 trc
 &
@@ -7434,7 +7434,7 @@ call
 "
 )
 ;
-MarkCrossCompartmentValue
+MarkCrossCompartmentSlot
 (
 trc
 &

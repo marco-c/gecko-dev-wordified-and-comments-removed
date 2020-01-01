@@ -297,7 +297,7 @@ inline
 js
 :
 :
-HeapValueArray
+HeapSlotArray
 argArray
 (
 )
@@ -306,7 +306,7 @@ inline
 js
 :
 :
-HeapValueArray
+HeapSlotArray
 varArray
 (
 )
@@ -514,7 +514,7 @@ const
 protected
 :
 inline
-HeapValue
+HeapSlot
 &
 slotValue
 (

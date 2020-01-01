@@ -176,7 +176,7 @@ type
 return
 NULL
 ;
-HeapValue
+HeapSlot
 *
 slots
 ;
@@ -1942,7 +1942,7 @@ type
 return
 NULL
 ;
-HeapValue
+HeapSlot
 *
 slots
 ;

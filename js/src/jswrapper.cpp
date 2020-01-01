@@ -1743,7 +1743,7 @@ JSObject
 wrapper
 )
 {
-MarkValue
+MarkSlot
 (
 trc
 &
@@ -4634,7 +4634,7 @@ JSObject
 wrapper
 )
 {
-MarkCrossCompartmentValue
+MarkCrossCompartmentSlot
 (
 trc
 &
