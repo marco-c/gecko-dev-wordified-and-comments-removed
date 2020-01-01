@@ -922,10 +922,7 @@ off
 ;
 JS_ASSERT
 (
-size_t
-(
 off
-)
 <
 =
 srcScript
