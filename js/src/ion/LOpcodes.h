@@ -1103,6 +1103,11 @@ IsCallable
 \
 _
 (
+HaveSameClass
+)
+\
+_
+(
 AsmJSLoadHeap
 )
 \

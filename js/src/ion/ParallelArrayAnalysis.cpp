@@ -1220,6 +1220,10 @@ SAFE_OP
 (
 IsCallable
 )
+SAFE_OP
+(
+HaveSameClass
+)
 UNSAFE_OP
 (
 EffectiveAddress

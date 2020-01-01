@@ -26184,6 +26184,7 @@ MNewObject
 New
 (
 templateObject
+false
 )
 ;
 current
