@@ -8561,9 +8561,6 @@ ElementRestyler
 :
 Restyle
 (
-nsPresContext
-*
-aPresContext
 nsIContent
 *
 aParentContent
@@ -8649,7 +8646,7 @@ nsStyleSet
 *
 styleSet
 =
-aPresContext
+mPresContext
 -
 >
 StyleSet
@@ -8972,7 +8969,6 @@ providerRestyler
 .
 Restyle
 (
-aPresContext
 aParentContent
 aChangeList
 nsChangeHint_Hints_NotHandledForDescendants
@@ -9678,7 +9674,7 @@ copyFromContinuation
 {
 TryStartingTransition
 (
-aPresContext
+mPresContext
 mFrame
 -
 >
@@ -10444,7 +10440,7 @@ nsCSSPseudoElements
 :
 :
 ePseudo_before
-aPresContext
+mPresContext
 )
 )
 {
@@ -10548,7 +10544,7 @@ nsCSSPseudoElements
 :
 :
 ePseudo_after
-aPresContext
+mPresContext
 )
 &
 &
@@ -11001,7 +10997,6 @@ oofRestyler
 .
 Restyle
 (
-aPresContext
 content
 aChangeList
 nonInheritedHints
@@ -11039,7 +11034,6 @@ phRestyler
 .
 Restyle
 (
-aPresContext
 content
 aChangeList
 nonInheritedHints
@@ -11073,7 +11067,6 @@ childRestyler
 .
 Restyle
 (
-aPresContext
 content
 aChangeList
 nonInheritedHints
@@ -11487,7 +11480,6 @@ restyler
 .
 Restyle
 (
-mPresContext
 nullptr
 aChangeList
 nsChangeHint

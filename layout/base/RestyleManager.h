@@ -606,9 +606,6 @@ public
 void
 Restyle
 (
-nsPresContext
-*
-aPresContext
 nsIContent
 *
 aParentContent
