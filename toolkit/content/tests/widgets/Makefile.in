@@ -447,6 +447,10 @@ test_bug365773
 .
 xul
 \
+test_colorpicker_popup
+.
+xul
+\
 (
 NULL
 )
