@@ -1238,7 +1238,9 @@ camera
 PRUint32
 maxNumCameras
 =
-2
+getNumberOfCameras
+(
+)
 ;
 if
 (
