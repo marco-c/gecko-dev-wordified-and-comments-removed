@@ -813,6 +813,14 @@ window_bug617528
 .
 xul
 \
+test_bug679494
+.
+xul
+\
+file_bug679494
+.
+html
+\
 (
 NULL
 )
