@@ -84,9 +84,11 @@ JSClass
 *
 clasp
 =
-STOBJ_GET_CLASS
-(
 wrapper
+-
+>
+getClass
+(
 )
 ;
 if

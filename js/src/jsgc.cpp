@@ -12118,9 +12118,11 @@ pobj
 =
 JSVAL_TO_OBJECT
 (
-STOBJ_GET_SLOT
-(
 pobj
+-
+>
+getSlot
+(
 slot
 )
 )

@@ -1521,10 +1521,14 @@ JSClass
 *
 clasp
 =
-STOBJ_GET_CLASS
 (
 *
 objp
+)
+-
+>
+getClass
+(
 )
 ;
 JS_ASSERT

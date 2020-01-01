@@ -5932,9 +5932,11 @@ scope
 >
 freeslot
 =
-STOBJ_NSLOTS
-(
 obj
+-
+>
+numSlots
+(
 )
 +
 JS_INITIAL_NSLOTS
@@ -5960,9 +5962,11 @@ scope
 >
 freeslot
 =
-STOBJ_NSLOTS
-(
 obj
+-
+>
+numSlots
+(
 )
 ;
 }

@@ -3463,9 +3463,11 @@ vp
 }
 if
 (
-STOBJ_GET_CLASS
-(
 obj
+-
+>
+getClass
+(
 )
 =
 =
@@ -3576,9 +3578,11 @@ cx
 ;
 if
 (
-STOBJ_GET_CLASS
-(
 obj
+-
+>
+getClass
+(
 )
 =
 =
