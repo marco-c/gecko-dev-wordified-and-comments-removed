@@ -132,7 +132,7 @@ API_VERSION
 "
 1
 .
-1
+2
 "
 ;
 function
@@ -761,7 +761,10 @@ TERMS
 g
 encodeURIComponent
 (
+encodeURIComponent
+(
 aSearchTerms
+)
 )
 )
 ;
