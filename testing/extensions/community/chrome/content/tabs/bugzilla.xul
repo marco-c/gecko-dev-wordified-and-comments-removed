@@ -23,9 +23,6 @@ HTML
 -
 *
 -
--
--
->
 #
 *
 *
@@ -428,7 +425,7 @@ stylesheet
 href
 =
 "
-chome
+chrome
 :
 /
 /
