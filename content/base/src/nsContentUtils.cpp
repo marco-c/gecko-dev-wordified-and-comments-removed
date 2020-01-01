@@ -30707,7 +30707,7 @@ mCx
 nsCxPusher
 :
 :
-REQUIRE_SCRIPT_CONTEXT
+ALWAYS_PUSH
 )
 ;
 if
