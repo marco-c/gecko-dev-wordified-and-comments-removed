@@ -6122,7 +6122,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-_moz_type
+moztype
 mozType
 )
 &
