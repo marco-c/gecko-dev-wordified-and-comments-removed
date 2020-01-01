@@ -26,7 +26,7 @@ pluginSupportsAsyncBitmapDrawing
 (
 )
 ;
-static
+inline
 bool
 pluginSupportsAsyncDXGIDrawing
 (
