@@ -8622,6 +8622,7 @@ cx
 >
 triggerGC
 (
+true
 )
 ;
 a

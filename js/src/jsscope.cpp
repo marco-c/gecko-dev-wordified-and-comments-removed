@@ -228,6 +228,7 @@ cx
 >
 triggerGC
 (
+gcLocked
 )
 ;
 }
