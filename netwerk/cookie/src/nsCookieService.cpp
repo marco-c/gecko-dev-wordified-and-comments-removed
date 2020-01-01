@@ -4080,6 +4080,9 @@ AsInt64
 PRBool
 isSecure
 =
+0
+!
+=
 stmt
 -
 >
@@ -4090,6 +4093,9 @@ AsInt32
 ;
 PRBool
 isHttpOnly
+=
+0
+!
 =
 stmt
 -
