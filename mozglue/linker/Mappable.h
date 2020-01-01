@@ -839,7 +839,13 @@ char
 >
 chunkAvail
 ;
+mozilla
+:
+:
+Atomic
+<
 size_t
+>
 chunkAvailNum
 ;
 pthread_mutex_t
