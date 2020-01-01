@@ -15,13 +15,6 @@ h
 #
 include
 <
-errno
-.
-h
->
-#
-include
-<
 iostream
 >
 #
