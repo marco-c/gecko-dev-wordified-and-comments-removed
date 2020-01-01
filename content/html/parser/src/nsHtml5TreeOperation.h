@@ -28,6 +28,7 @@ eTreeOpDoneAddingChildren
 eTreeOpDoneCreatingElement
 eTreeOpUpdateStyleSheet
 eTreeOpProcessBase
+eTreeOpProcessMeta
 eTreeOpStartLayout
 }
 ;
