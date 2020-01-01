@@ -566,6 +566,13 @@ visibility
 "
 gone
 "
+android
+:
+focusable
+=
+"
+true
+"
 /
 >
 <
