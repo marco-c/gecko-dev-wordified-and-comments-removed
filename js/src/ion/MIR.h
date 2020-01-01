@@ -13259,6 +13259,11 @@ MRound
 :
 public
 MUnaryInstruction
+public
+DoublePolicy
+<
+0
+>
 {
 public
 :
@@ -13333,7 +13338,6 @@ return
 mode_
 ;
 }
-virtual
 AliasSet
 getAliasSet
 (
@@ -13347,6 +13351,16 @@ AliasSet
 None
 (
 )
+;
+}
+TypePolicy
+*
+typePolicy
+(
+)
+{
+return
+this
 ;
 }
 }
