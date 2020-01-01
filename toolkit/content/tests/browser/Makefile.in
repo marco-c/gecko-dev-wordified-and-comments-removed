@@ -466,6 +466,10 @@ browser_save_resend_postdata
 .
 js
 \
+browser_browserDrop
+.
+js
+\
 browser_Services
 .
 js

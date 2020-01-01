@@ -1414,6 +1414,10 @@ redirect_bug623155
 .
 sjs
 \
+browser_tabDrop
+.
+js
+\
 (
 NULL
 )
