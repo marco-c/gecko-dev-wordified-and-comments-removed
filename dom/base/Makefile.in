@@ -556,6 +556,10 @@ nsContentPermissionHelper
 .
 h
 \
+nsStructuredCloneContainer
+.
+h
+\
 (
 NULL
 )
@@ -643,6 +647,10 @@ nsQueryContentEventResult
 cpp
 \
 nsContentPermissionHelper
+.
+cpp
+\
+nsStructuredCloneContainer
 .
 cpp
 \

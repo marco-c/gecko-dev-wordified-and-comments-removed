@@ -976,7 +976,7 @@ aLoadType
 )
 ;
 nsresult
-StringifyJSValVariant
+SerializeJSValVariant
 (
 JSContext
 *

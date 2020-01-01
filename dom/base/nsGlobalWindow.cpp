@@ -30792,7 +30792,7 @@ rv
 mDoc
 -
 >
-GetMozCurrentStateObject
+GetStateObject
 (
 getter_AddRefs
 (

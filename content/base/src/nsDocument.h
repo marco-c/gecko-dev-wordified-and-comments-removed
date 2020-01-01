@@ -3567,7 +3567,7 @@ aLocked
 ;
 virtual
 nsresult
-GetMozCurrentStateObject
+GetStateObject
 (
 nsIVariant
 *

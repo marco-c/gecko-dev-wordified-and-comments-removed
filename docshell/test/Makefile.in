@@ -586,6 +586,10 @@ file_bug540462
 .
 html
 \
+test_bug551225
+.
+html
+\
 test_bug580069
 .
 html

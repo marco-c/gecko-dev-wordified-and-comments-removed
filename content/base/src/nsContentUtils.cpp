@@ -6533,9 +6533,11 @@ root
 )
 ;
 }
-static
 JSContext
 *
+nsContentUtils
+:
+:
 GetContextFromDocument
 (
 nsIDocument

@@ -521,6 +521,16 @@ Init
 )
 ;
 static
+JSContext
+*
+GetContextFromDocument
+(
+nsIDocument
+*
+aDocument
+)
+;
+static
 nsresult
 GetContextAndScope
 (
