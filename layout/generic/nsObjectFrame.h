@@ -423,11 +423,7 @@ Cursor
 &
 aCursor
 )
-{
-return
-NS_ERROR_NOT_IMPLEMENTED
 ;
-}
 void
 GetEmptyClipConfiguration
 (

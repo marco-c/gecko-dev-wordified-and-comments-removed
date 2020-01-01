@@ -722,6 +722,9 @@ NPPVpluginCancelSrcStream
 NPPVSupportsAdvancedKeyHandling
 =
 21
+NPPVpluginUsesDOMForCursorBool
+=
+22
 #
 if
 defined
