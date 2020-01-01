@@ -12329,9 +12329,6 @@ svgUseFrame
 SVGUseFrame
 "
 )
-#
-ifdef
-MOZ_MEDIA
 GK_ATOM
 (
 HTMLVideoFrame
@@ -12619,8 +12616,6 @@ volumechange
 volumechange
 "
 )
-#
-endif
 GK_ATOM
 (
 animationsProperty

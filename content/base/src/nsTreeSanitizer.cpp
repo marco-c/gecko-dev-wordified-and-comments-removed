@@ -5972,6 +5972,9 @@ i
 ac
 ;
 }
+#
+ifdef
+MOZ_MEDIA
 if
 (
 aElement
@@ -6015,6 +6018,8 @@ PR_FALSE
 )
 ;
 }
+#
+endif
 }
 PRBool
 nsTreeSanitizer
