@@ -2101,7 +2101,9 @@ GetAccumulate
 mRepeatIteration
 )
 {
+const
 nsSMILValue
+&
 lastValue
 =
 aValues
