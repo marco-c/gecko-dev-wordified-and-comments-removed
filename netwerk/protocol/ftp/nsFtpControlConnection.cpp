@@ -369,6 +369,7 @@ mSocket
 >
 IsAlive
 (
+PR_FALSE
 &
 isAlive
 )
