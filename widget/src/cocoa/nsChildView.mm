@@ -24797,6 +24797,14 @@ if
 (
 !
 isKeyEquiv
+&
+&
+nsTSMManager
+:
+:
+IsIMEEnabled
+(
+)
 )
 [
 super
