@@ -1,7 +1,5 @@
 import
 os
-.
-path
 import
 unittest
 from
@@ -690,7 +688,7 @@ db
 for
 i
 in
-xrange
+range
 (
 10
 )
@@ -769,6 +767,11 @@ temp
 =
 NamedTemporaryFile
 (
+mode
+=
+'
+wt
+'
 )
         
 temp
@@ -906,7 +909,7 @@ source_files
 for
 i
 in
-xrange
+range
 (
 1
 21
@@ -917,6 +920,11 @@ temp
 =
 NamedTemporaryFile
 (
+mode
+=
+'
+wt
+'
 )
             
 temp
@@ -1159,11 +1167,14 @@ source_files
 .
 name
         
-del
 source_files
 [
 0
 ]
+.
+close
+(
+)
         
 self
 .
