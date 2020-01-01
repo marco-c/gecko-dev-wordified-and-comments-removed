@@ -906,6 +906,11 @@ ErrorResult
 aRv
 )
 ;
+bool
+Default
+(
+)
+;
 static
 void
 CreateDeviceStorageFor
