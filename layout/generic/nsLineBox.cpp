@@ -53,6 +53,13 @@ h
 #
 endif
 #
+include
+"
+nsStyleStructInlines
+.
+h
+"
+#
 ifdef
 DEBUG
 static
@@ -172,11 +179,6 @@ aIsBlock
 =
 =
 f
--
->
-GetStyleDisplay
-(
-)
 -
 >
 IsBlockOutside

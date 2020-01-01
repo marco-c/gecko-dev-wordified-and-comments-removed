@@ -329,7 +329,7 @@ Shutdown
 )
 ;
 virtual
-bool
+void
 Init
 (
 )

@@ -1068,7 +1068,7 @@ mRoleMapEntry
 aRoleMapEntry
 ;
 }
-bool
+void
 Accessible
 :
 :
@@ -1076,9 +1076,6 @@ Init
 (
 )
 {
-return
-true
-;
 }
 NS_IMETHODIMP
 Accessible

@@ -2926,7 +2926,7 @@ digits
 result
 s
 i
-JS_MIN
+Min
 (
 limit
 init

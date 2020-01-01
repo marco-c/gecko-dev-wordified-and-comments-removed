@@ -2245,6 +2245,10 @@ isIdle
 =
 true
 ;
+mAnyObserverIdle
+=
+true
+;
 }
 else
 {
@@ -2295,10 +2299,6 @@ numberOfPendingNotifications
 return
 ;
 }
-mAnyObserverIdle
-=
-true
-;
 nsAutoString
 timeStr
 ;

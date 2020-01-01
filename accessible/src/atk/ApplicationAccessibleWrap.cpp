@@ -2470,7 +2470,7 @@ return
 TRUE
 ;
 }
-bool
+void
 ApplicationAccessibleWrap
 :
 :
@@ -2677,7 +2677,6 @@ NULL
 ;
 }
 }
-return
 ApplicationAccessible
 :
 :

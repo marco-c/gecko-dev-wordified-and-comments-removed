@@ -1754,6 +1754,9 @@ gcNumber
 uint64_t
 gcStartNumber
 ;
+int
+gcIsIncremental
+;
 bool
 gcIsFull
 ;

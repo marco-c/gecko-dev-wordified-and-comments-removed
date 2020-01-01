@@ -78,6 +78,13 @@ h
 #
 include
 "
+nsStyleStructInlines
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Util
@@ -249,11 +256,6 @@ aFrame
 |
 !
 aFrame
--
->
-GetStyleDisplay
-(
-)
 -
 >
 IsBlockOutside

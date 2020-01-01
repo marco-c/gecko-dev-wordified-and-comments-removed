@@ -915,7 +915,7 @@ return
 NS_OK
 ;
 }
-bool
+void
 ApplicationAccessible
 :
 :
@@ -941,9 +941,6 @@ info
 1
 "
 )
-;
-return
-true
 ;
 }
 void

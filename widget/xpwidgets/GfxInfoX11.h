@@ -280,6 +280,7 @@ mIsMesa
 mIsNVIDIA
 mIsFGLRX
 mIsNouveau
+mIsIntel
 ;
 bool
 mHasTextureFromPixmap

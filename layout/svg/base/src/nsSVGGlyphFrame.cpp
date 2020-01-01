@@ -11014,12 +11014,10 @@ GetTextRunFlagsForStyle
 GetStyleContext
 (
 )
-GetStyleText
-(
-)
 GetStyleFont
 (
 )
+0
 )
 ;
 /
