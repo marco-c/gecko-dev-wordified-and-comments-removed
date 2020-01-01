@@ -230,6 +230,10 @@ HTMLModElement
 .
 h
 \
+HTMLOptionElement
+.
+h
+\
 HTMLOptGroupElement
 .
 h
@@ -468,7 +472,7 @@ nsHTMLSharedObjectElement
 .
 cpp
 \
-nsHTMLOptionElement
+HTMLOptionElement
 .
 cpp
 \
