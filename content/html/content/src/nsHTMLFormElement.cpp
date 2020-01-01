@@ -1648,6 +1648,8 @@ PR_TRUE
 nsEventStates
 states
 =
+NS_EVENT_STATE_MOZ_UI_VALID
+|
 NS_EVENT_STATE_MOZ_UI_INVALID
 ;
 if
@@ -6088,6 +6090,8 @@ mElements
 i
 ]
 nsnull
+NS_EVENT_STATE_MOZ_UI_VALID
+|
 NS_EVENT_STATE_MOZ_UI_INVALID
 )
 ;
@@ -6131,6 +6135,8 @@ mNotInElements
 i
 ]
 nsnull
+NS_EVENT_STATE_MOZ_UI_VALID
+|
 NS_EVENT_STATE_MOZ_UI_INVALID
 )
 ;
