@@ -2901,6 +2901,15 @@ aItem
 parent
 &
 &
+aItem
+.
+viewIndex
+!
+=
+-
+1
+&
+&
 prevChild
 .
 viewIndex
