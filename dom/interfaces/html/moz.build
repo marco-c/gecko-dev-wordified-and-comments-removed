@@ -153,11 +153,6 @@ nsIDOMHTMLCollection
 idl
 '
 '
-nsIDOMHTMLCommandElement
-.
-idl
-'
-'
 nsIDOMHTMLDListElement
 .
 idl
