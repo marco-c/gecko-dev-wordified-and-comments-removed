@@ -3975,9 +3975,8 @@ logTag
 __FUNCTION__
 )
 ;
-PC_AUTO_ENTER_API_CALL
+PC_AUTO_ENTER_API_CALL_NO_CHECK
 (
-false
 )
 ;
 return
