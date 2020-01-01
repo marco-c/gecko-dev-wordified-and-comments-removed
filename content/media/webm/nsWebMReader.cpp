@@ -906,6 +906,8 @@ nestegg_init
 mContext
 io
 NULL
+-
+1
 )
 ;
 if
