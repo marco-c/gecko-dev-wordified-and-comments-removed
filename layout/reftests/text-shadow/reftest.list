@@ -329,6 +329,9 @@ scrollable
 ref
 .
 html
+needs
+-
+focus
 !
 =
 text
@@ -351,6 +354,9 @@ selected
 notref
 .
 html
+needs
+-
+focus
 =
 =
 text
@@ -373,6 +379,9 @@ selected
 ref
 .
 html
+needs
+-
+focus
 !
 =
 text
@@ -395,6 +404,9 @@ selected
 notref
 .
 html
+needs
+-
+focus
 =
 =
 text
