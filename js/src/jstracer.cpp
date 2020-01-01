@@ -12143,12 +12143,14 @@ fip2
 -
 >
 spdist
++
+1
 ;
 nativeStackFramePos
 -
 =
 (
-2
+3
 +
 (
 *
