@@ -79,7 +79,7 @@ doTest
 {
 setTimeAndSnapshot
 (
-1
+101
 false
 )
 ;
@@ -146,6 +146,11 @@ type
 =
 "
 translate
+"
+begin
+=
+"
+100s
 "
 dur
 =
