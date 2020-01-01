@@ -385,7 +385,7 @@ GetDesiredIMEState
 )
 ;
 virtual
-nsresult
+void
 DoneAddingChildren
 (
 bool
@@ -717,7 +717,7 @@ return
 mIsDoneAddingChildren
 ;
 }
-nsresult
+void
 nsHTMLSharedObjectElement
 :
 :
@@ -751,9 +751,6 @@ aHaveNotified
 ;
 }
 }
-return
-NS_OK
-;
 }
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (

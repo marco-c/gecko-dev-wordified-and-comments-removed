@@ -417,7 +417,7 @@ false
 ;
 }
 virtual
-nsresult
+void
 DoneAddingChildren
 (
 bool
@@ -636,7 +636,7 @@ return
 mIsDoneAddingChildren
 ;
 }
-nsresult
+void
 nsHTMLObjectElement
 :
 :
@@ -663,9 +663,6 @@ aHaveNotified
 )
 ;
 }
-return
-NS_OK
-;
 }
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (

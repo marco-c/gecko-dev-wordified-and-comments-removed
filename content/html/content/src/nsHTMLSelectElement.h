@@ -1021,7 +1021,7 @@ aNotify
 )
 ;
 virtual
-nsresult
+void
 DoneAddingChildren
 (
 bool

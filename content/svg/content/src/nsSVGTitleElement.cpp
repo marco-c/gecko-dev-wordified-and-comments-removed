@@ -129,7 +129,7 @@ true
 )
 ;
 virtual
-nsresult
+void
 DoneAddingChildren
 (
 bool
@@ -410,7 +410,7 @@ aNullParent
 )
 ;
 }
-nsresult
+void
 nsSVGTitleElement
 :
 :
@@ -432,9 +432,6 @@ false
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 nsSVGTitleElement

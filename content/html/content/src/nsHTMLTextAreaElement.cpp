@@ -941,7 +941,7 @@ aTabIndex
 )
 ;
 virtual
-nsresult
+void
 DoneAddingChildren
 (
 bool
@@ -2895,7 +2895,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsHTMLTextAreaElement
 :
 :
@@ -2939,9 +2939,6 @@ this
 mDoneAddingChildren
 =
 true
-;
-return
-NS_OK
 ;
 }
 bool

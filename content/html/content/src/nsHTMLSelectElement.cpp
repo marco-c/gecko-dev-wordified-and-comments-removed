@@ -5048,7 +5048,7 @@ return
 rv
 ;
 }
-nsresult
+void
 nsHTMLSelectElement
 :
 :
@@ -5134,9 +5134,6 @@ aHaveNotified
 mDefaultSelectionSet
 =
 true
-;
-return
-NS_OK
 ;
 }
 bool
