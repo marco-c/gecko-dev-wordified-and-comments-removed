@@ -11957,7 +11957,12 @@ MGuardShape
 New
 (
 global
-shape
+globalObj
+-
+>
+lastProperty
+(
+)
 )
 ;
 current
@@ -12360,7 +12365,12 @@ MGuardShape
 New
 (
 global
-shape
+globalObj
+-
+>
+lastProperty
+(
+)
 )
 ;
 current
