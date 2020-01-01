@@ -1588,7 +1588,7 @@ NP_GetValue
 ;
 #
 ifdef
-OS_WINDOWS
+OS_WIN
 if
 (
 !
