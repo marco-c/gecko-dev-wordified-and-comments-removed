@@ -1591,7 +1591,7 @@ if
 (
 el
 .
-getAttribute
+hasAttribute
 (
 "
 collapsed
@@ -1600,12 +1600,11 @@ collapsed
 )
 el
 .
-setAttribute
+removeAttribute
 (
 "
 collapsed
 "
-false
 )
 ;
 else
@@ -1885,6 +1884,11 @@ true
 >
 <
 h2
+class
+=
+"
+expander
+"
 onclick
 =
 "
@@ -1941,6 +1945,11 @@ true
 >
 <
 h2
+class
+=
+"
+expander
+"
 onclick
 =
 "
