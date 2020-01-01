@@ -58,6 +58,13 @@ string
 h
 >
 #
+include
+<
+errno
+.
+h
+>
+#
 ifndef
 _MSC_VER
 #
