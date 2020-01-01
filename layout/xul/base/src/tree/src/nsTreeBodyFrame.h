@@ -130,6 +130,9 @@ nsThreadUtils
 .
 h
 "
+class
+nsOverflowChecker
+;
 struct
 nsTreeImageCacheEntry
 {
@@ -781,6 +784,10 @@ mTreeBoxObject
 }
 protected
 :
+friend
+class
+nsOverflowChecker
+;
 void
 PaintColumn
 (
