@@ -1339,7 +1339,9 @@ response
 headers
 .
 *
-NULL
+The
+empty
+string
 if
 the
 response
@@ -1351,7 +1353,7 @@ received
 .
 *
 /
-string
+DOMString
 getAllResponseHeaders
 (
 )
