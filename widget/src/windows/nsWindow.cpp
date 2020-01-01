@@ -858,6 +858,10 @@ if
 didCheck
 )
 {
+didCheck
+=
+PR_TRUE
+;
 OSVERSIONINFOEX
 osInfo
 ;
