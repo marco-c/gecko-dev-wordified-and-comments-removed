@@ -13452,6 +13452,9 @@ PRBool
 mRunning
 ;
 PRBool
+mShutdown
+;
+PRBool
 mCollected
 ;
 public
@@ -13529,6 +13532,13 @@ autoLock
 (
 mLock
 )
+;
+if
+(
+mShutdown
+)
+return
+NS_OK
 ;
 mRunning
 =
@@ -13627,6 +13637,10 @@ condvar
 "
 )
 mRunning
+(
+PR_FALSE
+)
+mShutdown
 (
 PR_FALSE
 )
@@ -13796,6 +13810,10 @@ autoLock
 (
 mLock
 )
+;
+mShutdown
+=
+PR_TRUE
 ;
 if
 (
