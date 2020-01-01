@@ -599,9 +599,6 @@ CPPSRCS
 nsLocalFileWin
 .
 cpp
-nsMediaCacheRemover
-.
-cpp
 else
 CPPSRCS
 +
