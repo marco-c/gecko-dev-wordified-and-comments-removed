@@ -4689,6 +4689,10 @@ _nIns
 ;
 verbose_only
 (
+_nInsAfter
++
++
+;
 asm_output
 (
 "
@@ -4871,6 +4875,10 @@ _nIns
 ;
 verbose_only
 (
+_nInsAfter
++
++
+;
 asm_output
 (
 "
