@@ -67,10 +67,9 @@ MaemoLocationProvider
 )
 userdata
 ;
-nsRefCnt
+nsRefPtr
 <
 nsGeolocation
-*
 >
 somewhere
 =
