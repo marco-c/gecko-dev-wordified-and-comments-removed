@@ -1219,9 +1219,6 @@ case
 eIntID_WindowsDefaultTheme
 :
 case
-eIntID_MaemoClassic
-:
-case
 eIntID_WindowsThemeIdentifier
 :
 case

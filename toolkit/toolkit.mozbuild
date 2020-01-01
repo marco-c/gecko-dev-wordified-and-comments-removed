@@ -1181,8 +1181,6 @@ gnome
 )
 #
 if
-libconic
-or
 QtNetwork
 is
 present
@@ -1194,14 +1192,6 @@ own
 network
 monitoring
 if
-not
-CONFIG
-[
-'
-MOZ_ENABLE_LIBCONIC
-'
-]
-and
 not
 CONFIG
 [

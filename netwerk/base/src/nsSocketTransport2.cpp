@@ -203,12 +203,6 @@ defined
 (
 XP_WIN
 )
-|
-|
-defined
-(
-MOZ_PLATFORM_MAEMO
-)
 #
 include
 "
@@ -5460,12 +5454,6 @@ if
 defined
 (
 XP_WIN
-)
-|
-|
-defined
-(
-MOZ_PLATFORM_MAEMO
 )
 if
 (

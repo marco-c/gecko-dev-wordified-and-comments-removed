@@ -411,9 +411,6 @@ INSTALL_SDK
 =
 1
 endif
-GENERATE_CACHE
-=
-1
 include
 (
 topsrcdir

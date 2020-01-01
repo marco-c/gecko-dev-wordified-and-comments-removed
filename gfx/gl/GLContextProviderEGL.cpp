@@ -533,12 +533,6 @@ gfx
 if
 defined
 (
-MOZ_PLATFORM_MAEMO
-)
-|
-|
-defined
-(
 MOZ_WIDGET_GONK
 )
 static

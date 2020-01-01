@@ -1458,9 +1458,6 @@ eIntID_MacGraphiteTheme
 case
 eIntID_MacLionTheme
 :
-case
-eIntID_MaemoClassic
-:
 aResult
 =
 0

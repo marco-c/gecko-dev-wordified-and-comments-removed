@@ -1896,9 +1896,6 @@ case
 eIntID_TouchEnabled
 :
 case
-eIntID_MaemoClassic
-:
-case
 eIntID_WindowsThemeIdentifier
 :
 case

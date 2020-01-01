@@ -1239,15 +1239,6 @@ gtk_widget_set_default_direction
 GTK_TEXT_DIR_RTL
 )
 ;
-#
-ifndef
-MOZ_PLATFORM_MAEMO
-TryInitGnome
-(
-)
-;
-#
-endif
 return
 true
 ;

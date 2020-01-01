@@ -206,12 +206,6 @@ mk
 INSTALL_SDK
 =
 1
-ifndef
-MOZ_PLATFORM_MAEMO
-GENERATE_CACHE
-=
-1
-endif
 include
 (
 topsrcdir
