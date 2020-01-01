@@ -4108,6 +4108,9 @@ ImmPtr
 void
 *
 )
+(
+size_t
+)
 script
 -
 >
