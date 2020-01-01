@@ -437,10 +437,6 @@ nsIDOMGeoPosition
 .
 idl
 \
-nsIDOMGeoPositionAddress
-.
-idl
-\
 nsIDOMGeoPositionCoords
 .
 idl
