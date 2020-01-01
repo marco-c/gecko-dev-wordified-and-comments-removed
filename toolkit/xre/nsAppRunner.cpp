@@ -48,13 +48,6 @@ include
 <
 QtGui
 /
-QApplication
->
-#
-include
-<
-QtGui
-/
 QInputContextFactory
 >
 #
@@ -71,6 +64,13 @@ MOZ_ENABLE_MEEGOTOUCH
 include
 <
 MComponentData
+>
+#
+include
+<
+MozMeegoAppService
+.
+h
 >
 #
 endif
