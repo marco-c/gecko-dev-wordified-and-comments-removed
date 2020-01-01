@@ -1729,11 +1729,11 @@ js_InvokeConstructor
 JSContext
 *
 cx
+uintN
+argc
 jsval
 *
 vp
-uintN
-argc
 )
 ;
 extern
