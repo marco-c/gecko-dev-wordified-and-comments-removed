@@ -518,9 +518,14 @@ BookmarkFolder
 "
 cleartext
 "
+[
+"
+description
+"
 "
 title
 "
+]
 )
 ;
 function
