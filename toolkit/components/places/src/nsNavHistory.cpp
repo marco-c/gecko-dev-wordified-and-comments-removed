@@ -8818,7 +8818,7 @@ equals
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+PR_FALSE
 )
 ;
 if
@@ -10113,7 +10113,7 @@ rv
 rv
 )
 ;
-PRInt32
+PRBool
 oldHiddenState
 =
 0
@@ -20451,7 +20451,7 @@ aURISpec
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+PR_FALSE
 )
 ;
 rv
@@ -20468,7 +20468,7 @@ aTag
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+PR_FALSE
 )
 ;
 rv
@@ -20487,7 +20487,7 @@ GetTagsFolder
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+PR_FALSE
 )
 ;
 PRBool
@@ -20509,7 +20509,7 @@ hasTag
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+PR_FALSE
 )
 ;
 return
@@ -20884,7 +20884,7 @@ uriHasAnyTagQuery
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+PR_FALSE
 )
 ;
 rv
@@ -20901,7 +20901,7 @@ aURISpec
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+PR_FALSE
 )
 ;
 rv
@@ -20920,7 +20920,7 @@ GetTagsFolder
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+PR_FALSE
 )
 ;
 for
@@ -20963,7 +20963,7 @@ i
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+PR_FALSE
 )
 ;
 }
@@ -20986,7 +20986,7 @@ hasAnyTag
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+PR_FALSE
 )
 ;
 return
