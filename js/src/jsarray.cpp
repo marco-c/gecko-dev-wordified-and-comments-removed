@@ -6223,9 +6223,11 @@ vector
 [
 i
 ]
-!
-=
-JSVAL_HOLE
+.
+isMagic
+(
+JS_ARRAY_HOLE
+)
 )
 ;
 jsdouble
