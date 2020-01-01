@@ -2672,7 +2672,7 @@ if
 fun
 -
 >
-isInterpreted
+isInterpretedConstructor
 (
 )
 )
