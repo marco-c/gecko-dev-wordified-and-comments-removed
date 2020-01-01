@@ -124,9 +124,7 @@ codecs
 /
 vp8
 /
-main
-/
-interface
+include
 /
 vp8
 .

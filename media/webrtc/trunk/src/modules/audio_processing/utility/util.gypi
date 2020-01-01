@@ -156,6 +156,11 @@ delay_estimator
 h
 '
 '
+delay_estimator_internal
+.
+h
+'
+'
 delay_estimator_wrapper
 .
 c

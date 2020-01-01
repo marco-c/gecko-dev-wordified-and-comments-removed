@@ -14,11 +14,15 @@ h
 void
 WebRtcIlbcfix_SwapBytes
 (
+const
 WebRtc_UWord16
 *
-sequence
+input
 WebRtc_Word16
 wordLength
+WebRtc_UWord16
+*
+output
 )
 ;
 #

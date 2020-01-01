@@ -121,6 +121,7 @@ TestEventListener
 {
 public
 :
+explicit
 EventRecordingListener
 (
 const

@@ -702,7 +702,7 @@ Get10msAudioFromFile
 (
 audioFrame
 .
-_payloadData
+data_
 decodedDataLengthInSamples
 audioCodec
 .
@@ -719,7 +719,7 @@ else
 {
 audioFrame
 .
-_frequencyInHz
+sample_rate_hz_
 =
 filePlayer
 .
@@ -729,7 +729,7 @@ Frequency
 ;
 audioFrame
 .
-_payloadDataLengthInSamples
+samples_per_channel_
 =
 (
 WebRtc_UWord16
@@ -1087,7 +1087,7 @@ audioFrame
 ;
 audioFrame
 .
-_payloadDataLengthInSamples
+samples_per_channel_
 =
 audioCodec
 .
@@ -1099,18 +1099,18 @@ memset
 (
 audioFrame
 .
-_payloadData
+data_
 0
 2
 *
 audioFrame
 .
-_payloadDataLengthInSamples
+samples_per_channel_
 )
 ;
 audioFrame
 .
-_frequencyInHz
+sample_rate_hz_
 =
 8000
 ;
@@ -1923,7 +1923,7 @@ Get10msAudioFromFile
 (
 audioFrame
 .
-_payloadData
+data_
 decodedDataLengthInSamples
 audioCodec
 .
@@ -1947,7 +1947,7 @@ Sleep
 ;
 audioFrame
 .
-_frequencyInHz
+sample_rate_hz_
 =
 filePlayer
 .
@@ -1957,7 +1957,7 @@ Frequency
 ;
 audioFrame
 .
-_payloadDataLengthInSamples
+samples_per_channel_
 =
 (
 WebRtc_UWord16

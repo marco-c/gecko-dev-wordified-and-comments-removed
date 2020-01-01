@@ -91,6 +91,15 @@ PAREN_VALUE
 3
 )
 '
+'
+HASH_VALUE
+=
+"
+a
+#
+1
+"
+'
 ]
 }
 ]

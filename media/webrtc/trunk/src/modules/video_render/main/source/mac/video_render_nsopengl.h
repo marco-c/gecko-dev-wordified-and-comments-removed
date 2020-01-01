@@ -307,12 +307,6 @@ _oldStretchedHeight
 int
 _oldStretchedWidth
 ;
-int
-_xOldWidth
-;
-int
-_yOldHeight
-;
 unsigned
 char
 *
@@ -339,9 +333,6 @@ _pixelDataType
 unsigned
 int
 _texture
-;
-bool
-_bVideoSizeStartedChanging
 ;
 }
 ;

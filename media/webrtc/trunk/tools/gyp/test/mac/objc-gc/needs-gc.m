@@ -1,0 +1,6 @@
+void
+objc_fun
+(
+)
+{
+}

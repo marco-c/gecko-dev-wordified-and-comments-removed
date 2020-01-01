@@ -119,7 +119,7 @@ false
 )
 _paSpeakerVolume
 (
-0
+PA_VOLUME_NORM
 )
 _paChannels
 (
@@ -557,10 +557,6 @@ return
 _paOutputDeviceIndex
 =
 deviceIndex
-;
-_paSpeakerVolume
-=
-PA_VOLUME_NORM
 ;
 WEBRTC_TRACE
 (

@@ -74,9 +74,7 @@ include
 "
 voice_engine
 /
-main
-/
-interface
+include
 /
 voe_codec
 .

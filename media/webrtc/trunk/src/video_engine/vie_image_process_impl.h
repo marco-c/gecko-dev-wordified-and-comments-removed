@@ -154,6 +154,7 @@ enable
 ;
 protected
 :
+explicit
 ViEImageProcessImpl
 (
 ViESharedData

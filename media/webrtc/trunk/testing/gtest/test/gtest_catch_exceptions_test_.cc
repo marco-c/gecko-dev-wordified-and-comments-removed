@@ -436,6 +436,18 @@ unexpectedly
 "
 ;
 }
+#
+if
+!
+defined
+(
+__GXX_EXPERIMENTAL_CXX0X__
+)
+&
+&
+__cplusplus
+<
+201103L
 class
 CxxExceptionInDestructorTest
 :
@@ -510,6 +522,8 @@ ThrowsExceptionInDestructor
 )
 {
 }
+#
+endif
 class
 CxxExceptionInSetUpTestCaseTest
 :

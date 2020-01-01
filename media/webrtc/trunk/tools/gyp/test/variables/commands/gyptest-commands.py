@@ -75,18 +75,13 @@ debug
 '
 variables
 '
-'
--
--
-debug
-'
-'
-general
-'
              
 stdout
 =
 expect
+ignore_line_numbers
+=
+False
 )
 contents
 =

@@ -169,6 +169,16 @@ rtp_header_length
 )
 ;
 bool
+ExcessOverheadBelowMax
+(
+)
+;
+bool
+MinimumMediaPacketsReached
+(
+)
+;
+bool
 FecAvailable
 (
 )
@@ -184,6 +194,8 @@ int
 fec_pl_type
 uint16_t
 seq_num
+int
+rtp_header_length
 )
 ;
 private
@@ -237,6 +249,9 @@ incomplete_frame_
 ;
 int
 num_first_partition_
+;
+int
+minimum_media_packets_fec_
 ;
 FecProtectionParams
 params_

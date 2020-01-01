@@ -34,7 +34,7 @@ s
 *
 '
 )
-quote_re_str
+QUOTE_RE_STR
 =
 r
 '

@@ -174,6 +174,9 @@ make
 '
 ninja
 '
+'
+android
+'
 )
 :
   
@@ -269,6 +272,12 @@ SHARED_LIB
 chdir
 =
 chdir
+                           
+subdir
+=
+'
+dir1
+'
 )
 test
 .

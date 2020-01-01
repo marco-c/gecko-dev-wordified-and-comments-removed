@@ -328,15 +328,9 @@ void
 *
 _ptrWindow
 ;
-bool
-_fullscreen
-;
 VideoX11Render
 *
 _ptrX11Render
-;
-VideoRenderType
-_renderType
 ;
 }
 ;

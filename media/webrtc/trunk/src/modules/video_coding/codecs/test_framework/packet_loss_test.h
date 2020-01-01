@@ -71,7 +71,7 @@ const
 webrtc
 :
 :
-RawImage
+VideoFrame
 &
 decodedImage
 )

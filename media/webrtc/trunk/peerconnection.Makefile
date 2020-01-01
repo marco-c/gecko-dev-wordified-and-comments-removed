@@ -26,5 +26,4 @@ all
 (
 MAKE
 )
-peerconnection_server
 peerconnection_client

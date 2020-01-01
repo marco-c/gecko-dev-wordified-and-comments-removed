@@ -122,4 +122,6 @@ ROOT
 .
 .
 bb_compile
+bb_reboot_phones
 bb_run_tests
+bb_run_content_shell_instrumentation_test

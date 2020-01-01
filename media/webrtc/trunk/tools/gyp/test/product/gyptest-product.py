@@ -31,6 +31,14 @@ TestGyp
 .
 TestGyp
 (
+formats
+=
+[
+'
+!
+android
+'
+]
 )
 test
 .

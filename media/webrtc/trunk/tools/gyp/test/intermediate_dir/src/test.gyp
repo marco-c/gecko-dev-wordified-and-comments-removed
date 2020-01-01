@@ -150,6 +150,11 @@ inputs
 '
 :
 [
+'
+shared_infile
+.
+txt
+'
 ]
 '
 outputs

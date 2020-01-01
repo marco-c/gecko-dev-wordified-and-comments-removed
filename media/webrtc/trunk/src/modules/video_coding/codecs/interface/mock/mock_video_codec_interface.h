@@ -115,7 +115,7 @@ Encode
 WebRtc_Word32
 (
 const
-RawImage
+VideoFrame
 &
 inputImage
 const
@@ -215,7 +215,7 @@ MOCK_METHOD1
 Decoded
 WebRtc_Word32
 (
-RawImage
+VideoFrame
 &
 decodedImage
 )

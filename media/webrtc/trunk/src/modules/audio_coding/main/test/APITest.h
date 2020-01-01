@@ -346,12 +346,6 @@ _codecCntrA
 WebRtc_UWord8
 _codecCntrB
 ;
-WebRtc_UWord8
-_testCntrA
-;
-WebRtc_UWord8
-_testCntrB
-;
 bool
 _thereIsEncoderA
 ;

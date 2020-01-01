@@ -75,17 +75,9 @@ _ptrWindow
 (
 window
 )
-_fullscreen
-(
-fullscreen
-)
 _ptrX11Render
 (
 NULL
-)
-_renderType
-(
-videoRenderType
 )
 {
 }

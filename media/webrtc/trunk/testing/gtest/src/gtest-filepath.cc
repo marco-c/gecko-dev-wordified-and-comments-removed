@@ -61,9 +61,6 @@ h
 #
 elif
 GTEST_OS_SYMBIAN
-|
-|
-GTEST_OS_NACL
 #
 include
 <

@@ -91,6 +91,15 @@ gyp
 '
 subdir2
 /
+no_action
+.
+gyp
+:
+*
+'
+'
+subdir2
+/
 none
 .
 gyp

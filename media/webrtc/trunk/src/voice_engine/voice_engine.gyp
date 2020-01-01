@@ -98,10 +98,6 @@ common
 gypi
 '
 '
-main
-/
-source
-/
 voice_engine_core
 .
 gypi
@@ -123,10 +119,10 @@ conditions
 [
 [
 '
-build_with_chromium
+include_tests
 =
 =
-0
+1
 '
 {
 '
@@ -135,8 +131,6 @@ includes
 :
 [
 '
-main
-/
 test
 /
 voice_engine_tests

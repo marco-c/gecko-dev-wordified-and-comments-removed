@@ -293,9 +293,6 @@ _packetLoss
 bool
 _useFECTestWithPacketLoss
 ;
-WebRtc_Word16
-_chID
-;
 WebRtc_UWord64
 _beginTime
 ;

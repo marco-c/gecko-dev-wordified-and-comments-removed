@@ -47,14 +47,13 @@ Factorial
 )
 )
 ;
-EXPECT_TRUE
+EXPECT_GT
 (
 Factorial
 (
 -
 10
 )
->
 0
 )
 ;

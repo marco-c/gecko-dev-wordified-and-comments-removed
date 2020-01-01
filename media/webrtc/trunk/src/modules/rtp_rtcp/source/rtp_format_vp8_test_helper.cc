@@ -45,6 +45,10 @@ buffer_
 (
 NULL
 )
+data_ptr_
+(
+NULL
+)
 fragmentation_
 (
 NULL
@@ -300,6 +304,8 @@ send_bytes
 ;
 bool
 last
+=
+false
 ;
 for
 (

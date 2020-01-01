@@ -55,6 +55,10 @@ formats
 !
 ninja
 '
+'
+!
+android
+'
 ]
 )
 test

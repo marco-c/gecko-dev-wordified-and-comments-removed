@@ -19,13 +19,10 @@ void
 handle
 )
 ;
-int
-WebRtc_CreateDelayEstimator
-(
 void
 *
-*
-handle
+WebRtc_CreateDelayEstimator
+(
 int
 spectrum_size
 int

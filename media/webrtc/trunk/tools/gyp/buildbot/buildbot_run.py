@@ -502,6 +502,16 @@ retcode
 GypTestFormat
 (
 '
+ninja
+'
+)
+    
+retcode
++
+=
+GypTestFormat
+(
+'
 msvs
 -
 2008

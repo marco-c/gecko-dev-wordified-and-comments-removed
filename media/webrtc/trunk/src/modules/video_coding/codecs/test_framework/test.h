@@ -34,11 +34,11 @@ include
 cstdlib
 >
 class
-Test
+CodecTest
 {
 public
 :
-Test
+CodecTest
 (
 std
 :
@@ -52,7 +52,7 @@ string
 description
 )
 ;
-Test
+CodecTest
 (
 std
 :
@@ -70,7 +70,7 @@ bitRate
 ;
 virtual
 ~
-Test
+CodecTest
 (
 )
 {
@@ -210,7 +210,7 @@ videoBuffer
 webrtc
 :
 :
-RawImage
+VideoFrame
 &
 image
 )

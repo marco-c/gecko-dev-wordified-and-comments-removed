@@ -12,8 +12,6 @@ works
 import
 TestGyp
 import
-os
-import
 re
 import
 subprocess
@@ -188,9 +186,6 @@ r
 search
 (
 o
-re
-.
-MULTILINE
 )
     
 n

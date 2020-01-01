@@ -1,10 +1,10 @@
 #
 include
-"
+<
 assert
 .
 h
-"
+>
 #
 include
 "
@@ -181,13 +181,12 @@ ViEManagerWriteScoped
 ViEManagerWriteScoped
 (
 ViEManagerBase
-&
+*
 vie_manager
 )
 :
 vie_manager_
 (
-&
 vie_manager
 )
 {
@@ -221,7 +220,7 @@ ViEManagedItemScopedBase
 ViEManagedItemScopedBase
 (
 ViEManagerScopedBase
-&
+*
 vie_scoped_manager
 )
 :
@@ -231,7 +230,8 @@ vie_scoped_manager
 )
 {
 vie_scoped_manager_
-.
+-
+>
 ref_count_
 +
 +
@@ -246,7 +246,8 @@ ViEManagedItemScopedBase
 )
 {
 vie_scoped_manager_
-.
+-
+>
 ref_count_
 -
 -

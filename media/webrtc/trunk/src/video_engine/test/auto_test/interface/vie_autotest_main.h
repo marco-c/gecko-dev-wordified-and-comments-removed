@@ -57,7 +57,7 @@ kInvalidChoice
 -
 1
 ;
-bool
+int
 RunInteractiveMode
 (
 )

@@ -116,9 +116,6 @@ rtp_rtcp
 webrtc_root
 )
 /
-.
-.
-/
 test
 /
 test

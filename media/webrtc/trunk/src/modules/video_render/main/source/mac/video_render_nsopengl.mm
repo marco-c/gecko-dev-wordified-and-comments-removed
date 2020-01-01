@@ -142,7 +142,7 @@ libyuv
 /
 include
 /
-libyuv
+webrtc_libyuv
 .
 h
 "
@@ -224,14 +224,6 @@ _oldStretchedWidth
 (
 0
 )
-_xOldWidth
-(
-0
-)
-_yOldHeight
-(
-0
-)
 _buffer
 (
 0
@@ -263,10 +255,6 @@ GL_UNSIGNED_INT_8_8_8_8
 _texture
 (
 0
-)
-_bVideoSizeStartedChanging
-(
-false
 )
 {
 }

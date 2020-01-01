@@ -111,8 +111,12 @@ replace
 '
 \
 r
+\
+n
 '
 '
+\
+n
 '
 )
 test
@@ -133,14 +137,6 @@ debug
 '
 variables
 '
-'
--
--
-debug
-'
-'
-general
-'
              
 '
 -
@@ -153,6 +149,9 @@ environment
 stdout
 =
 expect
+ignore_line_numbers
+=
+True
 )
 contents
 =

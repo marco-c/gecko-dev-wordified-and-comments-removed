@@ -68,7 +68,7 @@ DEPTH
 \
 \
 builddir
-\
+/
 Default
 '
 }

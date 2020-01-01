@@ -687,9 +687,7 @@ LOCAL_PATH
 /
 voice_engine
 /
-main
-/
-interface
+include
 \
 (
 LOCAL_PATH

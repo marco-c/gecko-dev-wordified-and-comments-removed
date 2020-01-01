@@ -15,7 +15,7 @@ class
 NormalTest
 :
 public
-Test
+CodecTest
 {
 public
 :

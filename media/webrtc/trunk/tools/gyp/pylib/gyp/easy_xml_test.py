@@ -258,9 +258,8 @@ test
 &
 gt
 ;
-&
-apos
-;
+\
+'
 &
 quot
 ;
@@ -277,6 +276,22 @@ xA
 ;
 foo
 '
+    
+converted_apos
+=
+converted
+.
+replace
+(
+"
+'
+"
+'
+&
+apos
+;
+'
+)
     
 self
 .
@@ -342,7 +357,7 @@ test3
       
 (
 converted
-converted
+converted_apos
 )
 )
   
@@ -625,9 +640,8 @@ PropertyGroup
 Condition
 =
 "
-&
-apos
-;
+\
+'
 (
 Configuration
 )
@@ -635,23 +649,20 @@ Configuration
 (
 Platform
 )
-&
-apos
-;
+\
+'
 =
 =
 '
                        
 '
-&
-apos
-;
+\
+'
 Debug
 |
 Win32
-&
-apos
-;
+\
+'
 "
 Label
 =

@@ -66,6 +66,10 @@ const
 *
 ptr
 )
+GTEST_LOCK_EXCLUDED_
+(
+g_linked_ptr_mutex
+)
 {
 MutexLock
 lock
@@ -113,6 +117,10 @@ ptr
 bool
 depart
 (
+)
+GTEST_LOCK_EXCLUDED_
+(
+g_linked_ptr_mutex
 )
 {
 MutexLock

@@ -1072,6 +1072,15 @@ const
 =
 0
 ;
+virtual
+float
+speech_probability
+(
+)
+const
+=
+0
+;
 protected
 :
 virtual

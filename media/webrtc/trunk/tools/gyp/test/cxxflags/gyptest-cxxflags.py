@@ -90,6 +90,9 @@ formats
 '
 make
 '
+'
+android
+'
 ]
 )
 try

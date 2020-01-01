@@ -36,7 +36,7 @@ h
 #
 include
 "
-atomic32_wrapper
+atomic32
 .
 h
 "
@@ -418,10 +418,10 @@ CriticalSectionWrapper
 *
 _pCrit
 ;
-Atomic32Wrapper
+Atomic32
 _outstandingCalls
 ;
-Atomic32Wrapper
+Atomic32
 _outstandingCallComplete
 ;
 volatile
@@ -513,7 +513,7 @@ _gtc
 int
 _pcp
 ;
-Atomic32Wrapper
+Atomic32
 _receiveBuffers
 ;
 }

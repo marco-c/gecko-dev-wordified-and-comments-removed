@@ -188,10 +188,10 @@ conditions
 [
 [
 '
-build_with_chromium
+include_tests
 =
 =
-0
+1
 '
 {
 '
@@ -225,11 +225,8 @@ CNG
 '
 <
 (
-webrtc_root
+DEPTH
 )
-/
-.
-.
 /
 testing
 /
@@ -244,9 +241,6 @@ gtest
 (
 webrtc_root
 )
-/
-.
-.
 /
 test
 /
@@ -277,7 +271,7 @@ targets
 }
 ]
 #
-build_with_chromium
+include_tests
 ]
 #
 conditions

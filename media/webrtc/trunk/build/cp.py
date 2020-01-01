@@ -1,12 +1,9 @@
-import
-shutil
-sys
-;
 "
 "
 "
 Copy
-File
+a
+file
 .
 This
 module
@@ -44,6 +41,10 @@ dst
 "
 "
 "
+import
+shutil
+import
+sys
 def
 Main
 (
@@ -55,7 +56,7 @@ dst
 return
 shutil
 .
-copyfile
+copy
 (
 src
 dst

@@ -177,7 +177,7 @@ capture_id
 int
 engine_id
 VideoCaptureModule
-&
+*
 capture_module
 ProcessThread
 &
@@ -244,11 +244,9 @@ video_frame
 unsigned
 int
 video_frame_length
-unsigned
-short
+uint16_t
 width
-unsigned
-short
+uint16_t
 height
 RawVideoType
 video_type
@@ -362,7 +360,7 @@ WebRtc_Word32
 RegisterObserver
 (
 ViECaptureObserver
-&
+*
 observer
 )
 ;
@@ -410,7 +408,7 @@ WebRtc_Word32
 Init
 (
 VideoCaptureModule
-&
+*
 capture_module
 )
 ;
@@ -503,7 +501,7 @@ WebRtc_Word32
 Encode
 (
 const
-RawImage
+VideoFrame
 &
 input_image
 const
@@ -607,7 +605,7 @@ void
 DeliverI420Frame
 (
 VideoFrame
-&
+*
 video_frame
 )
 ;
@@ -615,7 +613,7 @@ void
 DeliverCodedFrame
 (
 VideoFrame
-&
+*
 video_frame
 )
 ;

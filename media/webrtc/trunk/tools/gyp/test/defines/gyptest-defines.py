@@ -61,6 +61,11 @@ is
 PAREN_VALUE
 is
 12
+HASH_VALUE
+is
+a
+#
+1
 "
 "
 "

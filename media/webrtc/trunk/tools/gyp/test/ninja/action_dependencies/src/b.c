@@ -23,6 +23,10 @@ char
 argv
 )
 {
+FILE
+*
+f
+;
 if
 (
 argc
@@ -32,8 +36,6 @@ argc
 return
 1
 ;
-FILE
-*
 f
 =
 fopen

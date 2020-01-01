@@ -4579,7 +4579,7 @@ atomic_code
 output
 )
 def
-IsComment
+IsSingleLineComment
 (
 cur_line
 )
@@ -4593,7 +4593,7 @@ return
 in
 cur_line
 def
-IsInPreprocessorDirevative
+IsInPreprocessorDirective
 (
 prev_lines
 cur_line
@@ -4620,10 +4620,6 @@ True
   
 return
 prev_lines
-!
-=
-[
-]
 and
 prev_lines
 [
@@ -5140,7 +5136,7 @@ strip
 )
 )
 def
-WrapPreprocessorDirevative
+WrapPreprocessorDirective
 (
 line
 output
@@ -5172,7 +5168,30 @@ line
 output
 )
 def
-IsHeaderGuardOrInclude
+IsMultiLineIWYUPragma
+(
+line
+)
+:
+  
+return
+re
+.
+search
+(
+r
+'
+/
+\
+*
+IWYU
+pragma
+:
+'
+line
+)
+def
+IsHeaderGuardIncludeOrOneLineIWYUPragma
 (
 line
 )
@@ -5230,6 +5249,22 @@ s
 '
 line
 )
+or
+          
+re
+.
+search
+(
+r
+'
+/
+/
+IWYU
+pragma
+:
+'
+line
+)
 )
 def
 WrapLongLine
@@ -5265,14 +5300,14 @@ line
 )
   
 elif
-IsComment
+IsSingleLineComment
 (
 line
 )
 :
     
 if
-IsHeaderGuardOrInclude
+IsHeaderGuardIncludeOrOneLineIWYUPragma
 (
 line
 )
@@ -5295,7 +5330,7 @@ output
 )
   
 elif
-IsInPreprocessorDirevative
+IsInPreprocessorDirective
 (
 output
 line
@@ -5303,7 +5338,7 @@ line
 :
     
 if
-IsHeaderGuardOrInclude
+IsHeaderGuardIncludeOrOneLineIWYUPragma
 (
 line
 )
@@ -5319,10 +5354,24 @@ line
 else
 :
       
-WrapPreprocessorDirevative
+WrapPreprocessorDirective
 (
 line
 output
+)
+  
+elif
+IsMultiLineIWYUPragma
+(
+line
+)
+:
+    
+output
+.
+append
+(
+line
 )
   
 else

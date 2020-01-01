@@ -119,6 +119,7 @@ WebRtcIlbcfix_Encode
 iLBC_encinst_t
 *
 iLBCenc_inst
+const
 WebRtc_Word16
 *
 speechIn
@@ -161,6 +162,7 @@ WebRtcIlbcfix_Decode
 iLBC_decinst_t
 *
 iLBCdec_inst
+const
 WebRtc_Word16
 *
 encoded
@@ -180,6 +182,7 @@ WebRtcIlbcfix_Decode20Ms
 iLBC_decinst_t
 *
 iLBCdec_inst
+const
 WebRtc_Word16
 *
 encoded
@@ -199,6 +202,7 @@ WebRtcIlbcfix_Decode30Ms
 iLBC_decinst_t
 *
 iLBCdec_inst
+const
 WebRtc_Word16
 *
 encoded

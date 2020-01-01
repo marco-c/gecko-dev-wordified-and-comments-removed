@@ -15,8 +15,6 @@ SCons
 "
 "
 import
-common
-import
 os
 import
 random
@@ -853,6 +851,12 @@ self
 fixpath_prefix
 =
 fixpath_prefix
+    
+self
+.
+msbuild_toolset
+=
+None
   
 def
 set_dependencies
@@ -904,6 +908,20 @@ return
 self
 .
 guid
+  
+def
+set_msbuild_toolset
+(
+self
+msbuild_toolset
+)
+:
+    
+self
+.
+msbuild_toolset
+=
+msbuild_toolset
 class
 MSVSSolution
 :
@@ -1104,6 +1122,8 @@ Write
 self
 writer
 =
+gyp
+.
 common
 .
 WriteOnDiff

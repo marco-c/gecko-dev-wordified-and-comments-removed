@@ -25,6 +25,8 @@ h
 #
 include
 "
+video_engine
+/
 vie_defines
 .
 h
@@ -33,10 +35,10 @@ namespace
 webrtc
 {
 class
-CriticalSectionWrapper
+CpuWrapper
 ;
 class
-CpuWrapper
+CriticalSectionWrapper
 ;
 class
 EventWrapper
@@ -115,12 +117,6 @@ monitor_thread_
 EventWrapper
 &
 monitor_event_
-;
-int
-average_application_cpu_
-;
-int
-average_system_cpu_
 ;
 CpuWrapper
 *

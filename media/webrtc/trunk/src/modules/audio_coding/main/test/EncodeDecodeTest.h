@@ -190,12 +190,6 @@ _pcmFile
 AudioFrame
 _audioFrame
 ;
-WebRtc_UWord16
-_payloadSize
-;
-WebRtc_UWord32
-_timeStamp
-;
 TestPacketization
 *
 _packetization
@@ -253,9 +247,6 @@ private
 AudioCodingModule
 *
 _acm
-;
-bool
-_rtpEOF
 ;
 RTPStream
 *

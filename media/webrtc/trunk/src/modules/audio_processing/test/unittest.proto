@@ -171,6 +171,12 @@ rms_level
 =
 13
 ;
+optional
+float
+ns_speech_probability_average
+=
+14
+;
 }
 message
 OutputData

@@ -113,11 +113,6 @@ CreateRWLock
 (
 )
 )
-_prevTS
-(
--
-1
-)
 {
 }
 ~
@@ -175,9 +170,6 @@ FrameQueueTuple
 *
 >
 _frameBufferQueue
-;
-WebRtc_Word64
-_prevTS
 ;
 }
 ;
@@ -322,7 +314,7 @@ const
 webrtc
 :
 :
-RawImage
+VideoFrame
 &
 decodedImage
 )
@@ -717,7 +709,7 @@ Decoded
 webrtc
 :
 :
-RawImage
+VideoFrame
 &
 decodedImage
 )

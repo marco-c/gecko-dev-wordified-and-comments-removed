@@ -329,8 +329,16 @@ id
 private
 :
 bool
-stream_data_changed
+is_data_processed
 (
+)
+const
+;
+bool
+interleave_needed
+(
+bool
+is_data_processed
 )
 const
 ;
@@ -338,7 +346,7 @@ bool
 synthesis_needed
 (
 bool
-stream_data_changed
+is_data_processed
 )
 const
 ;
@@ -346,7 +354,7 @@ bool
 analysis_needed
 (
 bool
-stream_data_changed
+is_data_processed
 )
 const
 ;

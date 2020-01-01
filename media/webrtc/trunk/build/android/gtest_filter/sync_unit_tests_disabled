@@ -1,0 +1,12 @@
+SyncHttpBridgeTest
+.
+*
+#
+crbug
+.
+com
+/
+144422
+OnDiskSyncableDirectory
+.
+FailInitialWrite

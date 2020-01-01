@@ -322,6 +322,7 @@ wait
 ;
 protected
 :
+explicit
 ViECodecImpl
 (
 ViESharedData

@@ -578,9 +578,6 @@ cc
 .
 .
 /
-.
-.
-/
 test
 /
 testsupport

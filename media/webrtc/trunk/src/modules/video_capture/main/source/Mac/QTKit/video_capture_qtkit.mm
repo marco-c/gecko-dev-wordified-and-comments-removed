@@ -924,6 +924,10 @@ capability
 .
 maxFPS
 ;
+_captureDelay
+=
+120
+;
 if
 (
 -

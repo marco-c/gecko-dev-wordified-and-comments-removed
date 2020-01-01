@@ -138,7 +138,7 @@ void
 SetModuleProcessThread
 (
 ProcessThread
-&
+*
 module_process_thread
 )
 ;
@@ -239,7 +239,7 @@ int
 CreateCaptureDevice
 (
 VideoCaptureModule
-&
+*
 capture_module
 int
 &
@@ -299,7 +299,7 @@ bool
 GetFreeCaptureId
 (
 int
-&
+*
 freecapture_id
 )
 ;
@@ -314,7 +314,7 @@ bool
 GetFreeFileId
 (
 int
-&
+*
 free_file_id
 )
 ;
@@ -353,14 +353,6 @@ int
 capture_id
 )
 const
-;
-void
-GetViECaptures
-(
-MapWrapper
-&
-vie_capture_map
-)
 ;
 ViEFilePlayer
 *

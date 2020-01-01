@@ -3473,8 +3473,7 @@ data
     
 if
 hash
-=
-=
+is
 None
 :
       
@@ -3545,8 +3544,7 @@ or
 self
 .
 id
-=
-=
+is
 None
 :
       
@@ -5267,8 +5265,7 @@ added
     
 if
 properties
-=
-=
+is
 None
 :
       
@@ -6542,8 +6539,7 @@ source_tree
 None
 and
 path
-=
-=
+is
 None
 and
 \
@@ -7420,8 +7416,7 @@ and
           
 (
 path
-=
-=
+is
 None
 or
 \
@@ -8180,7 +8175,7 @@ is_dir
 =
 True
     
-normpath
+path
 =
 posixpath
 .
@@ -8193,20 +8188,13 @@ if
 is_dir
 :
       
-normpath
+path
 =
 path
 +
 '
 /
 '
-    
-else
-:
-      
-normpath
-=
-path
     
 variant_name
 =
@@ -8282,8 +8270,7 @@ not
 is_dir
 or
 variant_name
-=
-=
+is
 None
     
 path_split
@@ -8335,8 +8322,7 @@ hierarchical
       
 if
 variant_name
-=
-=
+is
 None
 :
         
@@ -8346,7 +8332,7 @@ self
 .
 GetChildByPath
 (
-normpath
+path
 )
         
 if
@@ -10733,8 +10719,7 @@ key
       
 if
 has
-=
-=
+is
 None
 :
         
@@ -10768,8 +10753,7 @@ key
         
 if
 value
-=
-=
+is
 None
 :
           
@@ -10872,8 +10856,7 @@ key
       
 if
 value
-=
-=
+is
 None
 :
         
@@ -12664,8 +12647,7 @@ path_tree
         
 if
 relative_path
-=
-=
+is
 None
 :
           
@@ -14465,8 +14447,7 @@ DYLIB_COMPATIBILITY_VERSION
           
 if
 force_extension
-=
-=
+is
 None
 :
             
@@ -14819,8 +14800,7 @@ type
         
 assert
 the_phase
-=
-=
+is
 None
         
 the_phase
@@ -14848,8 +14828,7 @@ PBXHeadersBuildPhase
     
 if
 headers_phase
-=
-=
+is
 None
 :
       
@@ -14979,8 +14958,7 @@ PBXResourcesBuildPhase
     
 if
 resources_phase
-=
-=
+is
 None
 :
       
@@ -15102,8 +15080,7 @@ PBXSourcesBuildPhase
     
 if
 sources_phase
-=
-=
+is
 None
 :
       
@@ -15144,8 +15121,7 @@ PBXFrameworksBuildPhase
     
 if
 frameworks_phase
-=
-=
+is
 None
 :
       
@@ -15873,8 +15849,7 @@ name
     
 if
 group
-=
-=
+is
 None
 :
       
@@ -17056,8 +17031,7 @@ GetChildByRemoteObject
 (
 other_fileref
 )
-=
-=
+is
 None
 :
         

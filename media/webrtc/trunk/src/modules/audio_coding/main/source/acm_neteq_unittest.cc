@@ -396,7 +396,7 @@ ASSERT_EQ
 expected_num_samples
 out_frame
 .
-_payloadDataLengthInSamples
+samples_per_channel_
 )
 ;
 }

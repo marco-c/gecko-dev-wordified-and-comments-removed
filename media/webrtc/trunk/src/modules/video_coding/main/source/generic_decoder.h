@@ -103,7 +103,7 @@ virtual
 WebRtc_Word32
 Decoded
 (
-RawImage
+VideoFrame
 &
 decodedImage
 )

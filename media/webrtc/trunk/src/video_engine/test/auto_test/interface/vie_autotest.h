@@ -173,6 +173,11 @@ ViECustomCall
 (
 )
 ;
+int
+ViERecordCall
+(
+)
+;
 void
 ViEStandardTest
 (

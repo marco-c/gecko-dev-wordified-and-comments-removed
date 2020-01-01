@@ -158,10 +158,10 @@ conditions
 [
 [
 '
-build_with_chromium
+include_tests
 =
 =
-0
+1
 '
 {
 '
@@ -198,9 +198,6 @@ PCM16B
 webrtc_root
 )
 /
-.
-.
-/
 test
 /
 test
@@ -212,11 +209,8 @@ test_support_main
 '
 <
 (
-webrtc_root
+DEPTH
 )
-/
-.
-.
 /
 testing
 /
@@ -247,7 +241,7 @@ targets
 }
 ]
 #
-build_with_chromium
+include_tests
 ]
 #
 conditions

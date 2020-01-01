@@ -67,6 +67,9 @@ kWbInHz
 kSwbInHz
 =
 32000
+kFbInHz
+=
+48000
 kLowestPossible
 =
 -

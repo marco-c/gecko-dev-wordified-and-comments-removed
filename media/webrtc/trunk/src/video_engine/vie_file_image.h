@@ -52,7 +52,7 @@ char
 *
 file_nameUTF8
 VideoFrame
-&
+*
 video_frame
 )
 ;
@@ -67,7 +67,7 @@ ViEPicture
 &
 picture
 VideoFrame
-&
+*
 video_frame
 )
 ;

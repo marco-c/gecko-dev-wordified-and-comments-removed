@@ -44,7 +44,7 @@ class
 UnitTest
 :
 public
-Test
+CodecTest
 {
 public
 :
@@ -193,6 +193,7 @@ char
 *
 _refDecFrame
 ;
+unsigned
 int
 _refEncFrameLength
 ;
@@ -255,14 +256,6 @@ _encodedVideoBuffer
 (
 buffer
 )
-_decoderSpecificInfo
-(
-decoderSpecificInfo
-)
-_decoderSpecificSize
-(
-decoderSpecificSize
-)
 _encodeComplete
 (
 false
@@ -316,13 +309,6 @@ TestVideoEncodedBuffer
 *
 _encodedVideoBuffer
 ;
-void
-*
-_decoderSpecificInfo
-;
-WebRtc_UWord32
-_decoderSpecificSize
-;
 bool
 _encodeComplete
 ;
@@ -368,7 +354,7 @@ Decoded
 webrtc
 :
 :
-RawImage
+VideoFrame
 &
 image
 )

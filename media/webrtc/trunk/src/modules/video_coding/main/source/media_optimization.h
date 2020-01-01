@@ -349,9 +349,6 @@ VCMLossProtectionLogic
 _lossProtLogic
 ;
 WebRtc_UWord8
-_packetLossEnc
-;
-WebRtc_UWord8
 _fractionLost
 ;
 WebRtc_UWord32

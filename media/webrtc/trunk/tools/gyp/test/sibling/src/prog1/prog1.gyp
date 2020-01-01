@@ -47,7 +47,7 @@ target_name
 '
 :
 '
-prog1
+program1
 '
 '
 type

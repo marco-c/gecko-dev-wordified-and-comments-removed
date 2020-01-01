@@ -70,8 +70,9 @@ s
 kHelloString
 )
 ;
-EXPECT_TRUE
+EXPECT_EQ
 (
+0
 strcmp
 (
 s
@@ -81,9 +82,6 @@ c_string
 )
 kHelloString
 )
-=
-=
-0
 )
 ;
 EXPECT_EQ
@@ -129,8 +127,9 @@ s2
 =
 s1
 ;
-EXPECT_TRUE
+EXPECT_EQ
 (
+0
 strcmp
 (
 s2
@@ -140,9 +139,6 @@ c_string
 )
 kHelloString
 )
-=
-=
-0
 )
 ;
 }
@@ -162,8 +158,9 @@ Set
 kHelloString
 )
 ;
-EXPECT_TRUE
+EXPECT_EQ
 (
+0
 strcmp
 (
 s
@@ -173,9 +170,6 @@ c_string
 )
 kHelloString
 )
-=
-=
-0
 )
 ;
 s
@@ -189,8 +183,9 @@ c_string
 )
 )
 ;
-EXPECT_TRUE
+EXPECT_EQ
 (
+0
 strcmp
 (
 s
@@ -200,9 +195,6 @@ c_string
 )
 kHelloString
 )
-=
-=
-0
 )
 ;
 s

@@ -295,7 +295,7 @@ ViERenderManager
 RegisterVideoRenderModule
 (
 VideoRender
-&
+*
 render_module
 )
 {
@@ -306,7 +306,8 @@ current_module
 FindRenderModule
 (
 render_module
-.
+-
+>
 Window
 (
 )
@@ -360,12 +361,12 @@ p
 .
 "
 render_module
-.
+-
+>
 Window
 (
 )
 current_module
-&
 render_module
 )
 ;
@@ -384,7 +385,6 @@ void
 *
 >
 (
-&
 render_module
 )
 )
@@ -404,7 +404,7 @@ ViERenderManager
 DeRegisterVideoRenderModule
 (
 VideoRender
-&
+*
 render_module
 )
 {
@@ -412,7 +412,8 @@ WebRtc_UWord32
 n_streams
 =
 render_module
-.
+-
+>
 GetNumIncomingRenderStreams
 (
 )
@@ -502,7 +503,6 @@ list_item
 {
 if
 (
-&
 render_module
 =
 =
@@ -815,8 +815,8 @@ render_id
 )
 {
 ViEManagerWriteScoped
+scope
 (
-*
 this
 )
 ;

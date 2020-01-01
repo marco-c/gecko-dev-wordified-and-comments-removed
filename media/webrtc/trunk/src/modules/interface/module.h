@@ -34,9 +34,11 @@ const
 int32_t
 id
 )
-=
+{
+return
 0
 ;
+}
 virtual
 int32_t
 TimeUntilNextProcess

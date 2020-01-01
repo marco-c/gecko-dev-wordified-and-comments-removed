@@ -822,11 +822,17 @@ for
 j
 [
 [
+static_cast
+<
+T
+>
+(
 v
 (
 j
 )
 _
+)
 ]
 ]
 }

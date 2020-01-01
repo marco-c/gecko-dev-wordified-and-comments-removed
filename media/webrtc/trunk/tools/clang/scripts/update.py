@@ -93,9 +93,23 @@ argv
       
 stderr
 =
+os
+.
+fdopen
+(
+os
+.
+dup
+(
 sys
 .
 stdin
+.
+fileno
+(
+)
+)
+)
 )
 if
 __name__

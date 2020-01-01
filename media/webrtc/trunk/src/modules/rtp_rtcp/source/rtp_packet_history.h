@@ -82,6 +82,8 @@ uint16_t
 packet_length
 uint16_t
 max_packet_length
+int64_t
+capture_time_ms
 StorageType
 type
 )
@@ -99,7 +101,7 @@ packet
 uint16_t
 *
 packet_length
-uint32_t
+int64_t
 *
 stored_time_ms
 StorageType
@@ -212,7 +214,7 @@ std
 :
 vector
 <
-uint32_t
+int64_t
 >
 stored_times_
 ;
@@ -221,7 +223,7 @@ std
 :
 vector
 <
-uint32_t
+int64_t
 >
 stored_resend_times_
 ;

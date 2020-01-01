@@ -342,7 +342,6 @@ kExpectedPart
 0
 ]
 )
-kExpectedPart_wrong_size
 )
 ;
 COMPILE_ASSERT
@@ -362,7 +361,6 @@ kExpectedFragStart
 0
 ]
 )
-kExpectedFragStart_wrong_size
 )
 ;
 helper_
@@ -537,7 +535,6 @@ kExpectedPart
 0
 ]
 )
-kExpectedPart_wrong_size
 )
 ;
 COMPILE_ASSERT
@@ -557,7 +554,6 @@ kExpectedFragStart
 0
 ]
 )
-kExpectedFragStart_wrong_size
 )
 ;
 helper_
@@ -738,7 +734,6 @@ kExpectedPart
 0
 ]
 )
-kExpectedPart_wrong_size
 )
 ;
 COMPILE_ASSERT
@@ -758,7 +753,6 @@ kExpectedFragStart
 0
 ]
 )
-kExpectedFragStart_wrong_size
 )
 ;
 helper_
@@ -945,7 +939,6 @@ kExpectedPart
 0
 ]
 )
-kExpectedPart_wrong_size
 )
 ;
 COMPILE_ASSERT
@@ -965,7 +958,6 @@ kExpectedFragStart
 0
 ]
 )
-kExpectedFragStart_wrong_size
 )
 ;
 helper_
@@ -1139,7 +1131,6 @@ kExpectedPart
 0
 ]
 )
-kExpectedPart_wrong_size
 )
 ;
 COMPILE_ASSERT
@@ -1159,7 +1150,6 @@ kExpectedFragStart
 0
 ]
 )
-kExpectedFragStart_wrong_size
 )
 ;
 helper_
@@ -1324,7 +1314,6 @@ kExpectedPart
 0
 ]
 )
-kExpectedPart_wrong_size
 )
 ;
 COMPILE_ASSERT
@@ -1344,7 +1333,6 @@ kExpectedFragStart
 0
 ]
 )
-kExpectedFragStart_wrong_size
 )
 ;
 helper_
@@ -1511,7 +1499,6 @@ kExpectedPart
 0
 ]
 )
-kExpectedPart_wrong_size
 )
 ;
 COMPILE_ASSERT
@@ -1531,7 +1518,6 @@ kExpectedFragStart
 0
 ]
 )
-kExpectedFragStart_wrong_size
 )
 ;
 helper_
@@ -1732,7 +1718,6 @@ kExpectedPart
 0
 ]
 )
-kExpectedPart_wrong_size
 )
 ;
 COMPILE_ASSERT
@@ -1752,7 +1737,6 @@ kExpectedFragStart
 0
 ]
 )
-kExpectedFragStart_wrong_size
 )
 ;
 helper_
@@ -1933,7 +1917,6 @@ kExpectedPart
 0
 ]
 )
-kExpectedPart_wrong_size
 )
 ;
 COMPILE_ASSERT
@@ -1953,7 +1936,6 @@ kExpectedFragStart
 0
 ]
 )
-kExpectedFragStart_wrong_size
 )
 ;
 helper_
@@ -2140,7 +2122,6 @@ kExpectedPart
 0
 ]
 )
-kExpectedPart_wrong_size
 )
 ;
 COMPILE_ASSERT
@@ -2160,7 +2141,6 @@ kExpectedFragStart
 0
 ]
 )
-kExpectedFragStart_wrong_size
 )
 ;
 helper_

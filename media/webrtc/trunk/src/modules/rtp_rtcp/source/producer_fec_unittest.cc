@@ -299,7 +299,7 @@ FecProtectionParams
 params
 =
 {
-5
+15
 false
 3
 }
@@ -437,6 +437,7 @@ GetFecPacket
 kRedPayloadType
 kFecPayloadType
 seq_num
+kRtpHeaderSize
 )
 ;
 EXPECT_FALSE
@@ -517,7 +518,7 @@ FecProtectionParams
 params
 =
 {
-5
+15
 0
 3
 }
@@ -676,6 +677,7 @@ GetFecPacket
 kRedPayloadType
 kFecPayloadType
 seq_num
+kRtpHeaderSize
 )
 ;
 EXPECT_FALSE

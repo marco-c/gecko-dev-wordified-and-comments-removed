@@ -867,10 +867,10 @@ conditions
 [
 [
 '
-build_with_chromium
+include_tests
 =
 =
-0
+1
 '
 {
 '
@@ -924,7 +924,7 @@ targets
 }
 ]
 #
-build_with_chromium
+include_tests
 ]
 #
 conditions

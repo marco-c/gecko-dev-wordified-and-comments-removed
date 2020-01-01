@@ -1359,14 +1359,14 @@ fwrite
 (
 audioFrame
 .
-_payloadData
+data_
 sizeof
 (
 WebRtc_Word16
 )
 audioFrame
 .
-_payloadDataLengthInSamples
+samples_per_channel_
 _file
 )
 ;
@@ -1376,7 +1376,7 @@ written
 =
 audioFrame
 .
-_payloadDataLengthInSamples
+samples_per_channel_
 ;
 }
 FileReader
@@ -1557,7 +1557,7 @@ buffer
 AudioFrame
 :
 :
-kMaxAudioFrameSizeSamples
+kMaxDataSizeSamples
 ]
 ;
 LoopedFileRead
@@ -1566,7 +1566,7 @@ buffer
 AudioFrame
 :
 :
-kMaxAudioFrameSizeSamples
+kMaxDataSizeSamples
 _sampleSize
 _file
 )

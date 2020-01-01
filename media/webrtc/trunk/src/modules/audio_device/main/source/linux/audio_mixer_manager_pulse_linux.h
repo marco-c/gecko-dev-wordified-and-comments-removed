@@ -554,12 +554,6 @@ mutable
 bool
 _callbackValues
 ;
-WebRtc_UWord8
-_micVolChannels
-;
-WebRtc_UWord8
-_spkVolChannels
-;
 }
 ;
 }

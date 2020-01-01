@@ -621,8 +621,8 @@ ConvertSpatialFractionalToWhole
 (
 )
 ;
-void
-CheckForEvenFrameSize
+bool
+EvenFrameSize
 (
 )
 ;

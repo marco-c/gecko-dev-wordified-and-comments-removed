@@ -13,6 +13,8 @@ errno
 import
 os
 import
+sys
+import
 posixpath
 import
 re
@@ -654,9 +656,6 @@ xccl
     
 except
 :
-      
-import
-sys
       
 sys
 .
@@ -2335,6 +2334,7 @@ def
 AddSourceToTarget
 (
 source
+type
 pbxp
 xct
 )
@@ -2406,10 +2406,6 @@ basename
   
 if
 ext
-!
-=
-'
-'
 :
     
 ext
@@ -2428,6 +2424,13 @@ if
 ext
 in
 source_extensions
+and
+type
+!
+=
+'
+none
+'
 :
     
 xct
@@ -2445,6 +2448,13 @@ elif
 ext
 in
 library_extensions
+and
+type
+!
+=
+'
+none
+'
 :
     
 xct
@@ -3037,6 +3047,18 @@ SetXcodeVersion
 project_version
 )
     
+if
+not
+generator_flags
+.
+get
+(
+'
+standalone
+'
+)
+:
+      
 main_group
 =
 pbxp
@@ -3047,7 +3069,7 @@ GetProperty
 mainGroup
 '
 )
-    
+      
 build_group
 =
 gyp
@@ -3066,14 +3088,14 @@ Build
 '
 }
 )
-    
+      
 main_group
 .
 AppendChild
 (
 build_group
 )
-    
+      
 for
 included_file
 in
@@ -3084,7 +3106,7 @@ included_files
 '
 ]
 :
-      
+        
 build_group
 .
 AddOrGetFileByPath
@@ -4007,6 +4029,7 @@ outputs
 AddSourceToTarget
 (
 output
+type
 pbxp
 xct
 )
@@ -4271,6 +4294,7 @@ concrete_outputs_for_this_rule_source
 AddSourceToTarget
 (
 output
+type
 pbxp
 xct
 )
@@ -4398,11 +4422,36 @@ makefile_name
 =
 '
 %
-s_
-%
 s
 .
 make
+'
+%
+re
+.
+sub
+(
+            
+'
+[
+^
+a
+-
+zA
+-
+Z0
+-
+9_
+]
+'
+'
+_
+'
+'
+%
+s_
+%
+s
 '
 %
 (
@@ -4413,6 +4462,7 @@ rule
 rule_name
 '
 ]
+)
 )
         
 makefile_path
@@ -5103,6 +5153,7 @@ rules_by_ext
 AddSourceToTarget
 (
 source
+type
 pbxp
 xct
 )
@@ -5175,29 +5226,6 @@ spec
 get
 (
 '
-mac_framework_headers
-'
-[
-]
-)
-:
-        
-AddHeaderToTarget
-(
-header
-pbxp
-xct
-True
-)
-      
-for
-header
-in
-spec
-.
-get
-(
-'
 mac_framework_private_headers
 '
 [
@@ -5211,6 +5239,40 @@ header
 pbxp
 xct
 False
+)
+    
+if
+is_bundle
+or
+type
+=
+=
+'
+static_library
+'
+:
+      
+for
+header
+in
+spec
+.
+get
+(
+'
+mac_framework_headers
+'
+[
+]
+)
+:
+        
+AddHeaderToTarget
+(
+header
+pbxp
+xct
+True
 )
     
 for

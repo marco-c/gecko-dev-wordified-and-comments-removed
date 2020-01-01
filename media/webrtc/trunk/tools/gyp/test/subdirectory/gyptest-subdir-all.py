@@ -42,8 +42,6 @@ point
 "
 import
 TestGyp
-import
-errno
 test
 =
 TestGyp
@@ -56,6 +54,10 @@ formats
 '
 !
 ninja
+'
+'
+!
+android
 '
 ]
 )

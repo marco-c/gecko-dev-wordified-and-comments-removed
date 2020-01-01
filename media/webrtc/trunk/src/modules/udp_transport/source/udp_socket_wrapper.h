@@ -89,12 +89,6 @@ UdpSocketWrapper
 {
 public
 :
-virtual
-~
-UdpSocketWrapper
-(
-)
-;
 static
 UdpSocketWrapper
 *
@@ -304,6 +298,12 @@ return
 ;
 protected
 :
+UdpSocketWrapper
+(
+)
+;
+virtual
+~
 UdpSocketWrapper
 (
 )

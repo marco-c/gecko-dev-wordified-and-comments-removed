@@ -76,6 +76,7 @@ video_channel
 ;
 protected
 :
+explicit
 ViEEncryptionImpl
 (
 ViESharedData

@@ -135,7 +135,7 @@ fPIC
 '
 ]
 '
-ldflags
+libraries
 '
 :
 [

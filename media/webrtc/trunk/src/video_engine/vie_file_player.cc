@@ -91,7 +91,7 @@ include
 "
 video_engine
 /
-vie_input_manager
+vie_defines
 .
 h
 "
@@ -100,9 +100,7 @@ include
 "
 voice_engine
 /
-main
-/
-interface
+include
 /
 voe_base
 .
@@ -113,9 +111,7 @@ include
 "
 voice_engine
 /
-main
-/
-interface
+include
 /
 voe_file
 .
@@ -126,9 +122,7 @@ include
 "
 voice_engine
 /
-main
-/
-interface
+include
 /
 voe_video_sync
 .
@@ -164,9 +158,6 @@ loop
 const
 FileFormats
 file_format
-ViEInputManager
-&
-input_manager
 VoiceEngine
 *
 voe_ptr
@@ -181,7 +172,6 @@ ViEFilePlayer
 (
 file_id
 engine_id
-input_manager
 )
 ;
 if
@@ -226,9 +216,6 @@ int
 Id
 int
 engine_id
-ViEInputManager
-&
-input_manager
 )
 :
 ViEFrameProviderBase
@@ -239,10 +226,6 @@ engine_id
 play_back_started_
 (
 false
-)
-input_manager_
-(
-input_manager
 )
 feedback_cs_
 (
@@ -1224,6 +1207,7 @@ audio_delay
 }
 DeliverFrame
 (
+&
 decoded_video_
 )
 ;
@@ -1773,7 +1757,7 @@ ViEFilePlayer
 RegisterObserver
 (
 ViEFileObserver
-&
+*
 observer
 )
 {
@@ -1796,7 +1780,6 @@ return
 }
 observer_
 =
-&
 observer
 ;
 return

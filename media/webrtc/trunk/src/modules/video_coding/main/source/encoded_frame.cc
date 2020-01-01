@@ -857,6 +857,14 @@ return
 kVideoFrameAltRef
 ;
 }
+case
+kSkipFrame
+:
+{
+return
+kFrameEmpty
+;
+}
 default
 :
 {

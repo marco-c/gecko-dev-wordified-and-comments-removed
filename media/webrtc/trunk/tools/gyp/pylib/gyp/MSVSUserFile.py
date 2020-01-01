@@ -12,13 +12,15 @@ writer
 "
 "
 import
-common
-import
 os
 import
 re
 import
 socket
+import
+gyp
+.
+common
 import
 gyp
 .

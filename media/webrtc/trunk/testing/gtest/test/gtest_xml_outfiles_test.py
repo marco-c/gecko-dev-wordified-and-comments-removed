@@ -104,6 +104,11 @@ time
 "
 *
 "
+timestamp
+=
+"
+*
+"
 name
 =
 "
@@ -243,6 +248,11 @@ errors
 0
 "
 time
+=
+"
+*
+"
+timestamp
 =
 "
 *

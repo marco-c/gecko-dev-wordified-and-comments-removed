@@ -206,11 +206,9 @@ allocated
 -
 initially_allocated_
 ;
-EXPECT_TRUE
+EXPECT_LE
 (
 difference
-<
-=
 0
 )
 <

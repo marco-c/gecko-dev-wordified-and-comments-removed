@@ -67,6 +67,12 @@ is_enabled
 )
 const
 ;
+float
+speech_probability
+(
+)
+const
+;
 private
 :
 virtual

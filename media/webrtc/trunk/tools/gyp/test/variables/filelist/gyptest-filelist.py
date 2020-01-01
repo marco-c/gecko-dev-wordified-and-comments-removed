@@ -87,8 +87,12 @@ replace
 '
 \
 r
+\
+n
 '
 '
+\
+n
 '
 )
 test
@@ -111,18 +115,13 @@ debug
 '
 variables
 '
-'
--
--
-debug
-'
-'
-general
-'
              
 stdout
 =
 expect
+ignore_line_numbers
+=
+True
 )
 contents
 =

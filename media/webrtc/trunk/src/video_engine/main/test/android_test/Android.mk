@@ -110,7 +110,7 @@ webrtc
 /
 videoengineapp
 /
-ViEAndroidDemo
+WebRTCDemo
 .
 java
 \

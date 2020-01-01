@@ -92,12 +92,6 @@ _alphaCountMax
 (
 400
 )
-_beta
-(
-0
-.
-9994
-)
 _thetaLow
 (
 0

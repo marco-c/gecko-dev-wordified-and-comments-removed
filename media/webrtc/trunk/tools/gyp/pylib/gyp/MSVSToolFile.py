@@ -12,6 +12,8 @@ writer
 "
 "
 import
+gyp
+.
 common
 import
 gyp

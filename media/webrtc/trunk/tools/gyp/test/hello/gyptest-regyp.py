@@ -30,6 +30,9 @@ formats
 '
 make
 '
+'
+android
+'
 ]
 )
 test

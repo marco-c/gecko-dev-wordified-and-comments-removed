@@ -1,6 +1,8 @@
 #
 include
 "
+video_engine
+/
 vie_ref_count
 .
 h
@@ -8,6 +10,10 @@ h
 #
 include
 "
+system_wrappers
+/
+interface
+/
 critical_section_wrapper
 .
 h

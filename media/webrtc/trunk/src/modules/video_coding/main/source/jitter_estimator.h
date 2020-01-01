@@ -182,10 +182,6 @@ _alphaCountMax
 ;
 const
 double
-_beta
-;
-const
-double
 _thetaLow
 ;
 const

@@ -72,6 +72,7 @@ next_
 }
 private
 :
+explicit
 QueueNode
 (
 const

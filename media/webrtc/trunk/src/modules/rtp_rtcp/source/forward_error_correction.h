@@ -293,6 +293,8 @@ int
 numImportantPackets
 bool
 useUnequalProtection
+FecMaskType
+fec_mask_type
 PacketList
 *
 fecPacketList
@@ -307,6 +309,15 @@ receivedPacketList
 RecoveredPacketList
 *
 recoveredPacketList
+)
+;
+int
+GetNumberOfFecPackets
+(
+int
+numMediaPackets
+int
+protectionFactor
 )
 ;
 static
@@ -348,7 +359,7 @@ uint8_t
 packetMask
 bool
 lBit
-uint32_t
+int
 numFecPackets
 )
 ;
@@ -362,9 +373,9 @@ media_packets
 uint8_t
 *
 packet_mask
-uint16_t
+int
 num_mask_bytes
-uint32_t
+int
 num_fec_packets
 )
 ;
@@ -417,7 +428,7 @@ mediaPacketList
 uint8_t
 *
 packetMask
-uint32_t
+int
 numFecPackets
 bool
 lBit

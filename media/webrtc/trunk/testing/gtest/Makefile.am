@@ -1732,6 +1732,8 @@ gtest
 gtest_main
 .
 cc
+if
+HAVE_PYTHON
 TESTS
 +
 =
@@ -1973,6 +1975,7 @@ fused
 -
 src
 "
+endif
 #
 Death
 tests

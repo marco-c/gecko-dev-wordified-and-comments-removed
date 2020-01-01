@@ -114,6 +114,7 @@ pl_type
 ;
 protected
 :
+explicit
 ViEExternalCodecImpl
 (
 ViESharedData

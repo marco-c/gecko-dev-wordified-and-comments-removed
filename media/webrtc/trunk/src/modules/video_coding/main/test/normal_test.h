@@ -79,6 +79,8 @@ payloadType
 const
 WebRtc_UWord32
 timeStamp
+int64_t
+capture_time_ms
 const
 WebRtc_UWord8
 *
@@ -148,10 +150,6 @@ webrtc
 :
 FrameType
 _frameType
-;
-WebRtc_UWord8
-*
-_payloadData
 ;
 WebRtc_UWord16
 _seqNo

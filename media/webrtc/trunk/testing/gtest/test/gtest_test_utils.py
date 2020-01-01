@@ -1068,6 +1068,10 @@ for
 key
 in
 dest
+.
+keys
+(
+)
 :
           
 del

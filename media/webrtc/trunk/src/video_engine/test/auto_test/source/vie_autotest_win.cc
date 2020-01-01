@@ -60,14 +60,6 @@ disable
 :
 4355
 )
-#
-pragma
-warning
-(
-disable
-:
-4351
-)
 LRESULT
 CALLBACK
 ViEAutoTestWinProc

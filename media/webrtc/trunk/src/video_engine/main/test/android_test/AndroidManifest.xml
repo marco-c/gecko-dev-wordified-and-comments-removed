@@ -102,7 +102,7 @@ name
 =
 "
 .
-ViEAndroidDemo
+WebRTCDemo
 "
 android
 :
@@ -215,7 +215,7 @@ android
 minSdkVersion
 =
 "
-9
+10
 "
 /
 >

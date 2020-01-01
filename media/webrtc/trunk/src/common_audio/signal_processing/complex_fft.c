@@ -1947,7 +1947,7 @@ j
 ;
 #
 ifdef
-WEBRTC_ARCH_ARM_V7A
+WEBRTC_ARCH_ARM_V7
 WebRtc_Word32
 wri
 ;
@@ -2023,7 +2023,7 @@ l
 ;
 #
 ifdef
-WEBRTC_ARCH_ARM_V7A
+WEBRTC_ARCH_ARM_V7
 __asm__
 (
 "
@@ -2826,7 +2826,7 @@ j
 ;
 #
 ifdef
-WEBRTC_ARCH_ARM_V7A
+WEBRTC_ARCH_ARM_V7
 WebRtc_Word32
 wri
 ;
@@ -2902,7 +2902,7 @@ l
 ;
 #
 ifdef
-WEBRTC_ARCH_ARM_V7A
+WEBRTC_ARCH_ARM_V7
 __asm__
 (
 "

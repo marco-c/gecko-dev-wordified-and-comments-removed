@@ -66,10 +66,6 @@ WebRtc_UWord32
 instanceID
 )
 :
-_instanceID
-(
-instanceID
-)
 _acm
 (
 AudioCodingModule
@@ -378,7 +374,7 @@ audio
 ;
 audioFrame
 .
-_timeStamp
+timestamp_
 =
 _encodeTimestamp
 ;
@@ -387,7 +383,7 @@ _encodeTimestamp
 =
 audioFrame
 .
-_payloadDataLengthInSamples
+samples_per_channel_
 ;
 _encodedLengthInBytes
 =

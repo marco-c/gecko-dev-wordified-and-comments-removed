@@ -332,6 +332,7 @@ capture_id
 ;
 protected
 :
+explicit
 ViECaptureImpl
 (
 ViESharedData

@@ -415,8 +415,6 @@ remote_file_renderer
 {
 TbInterfaces
 interfaces
-=
-TbInterfaces
 (
 "
 TestCodecs
@@ -601,8 +599,6 @@ frame_drop_detector
 {
 TbInterfaces
 interfaces
-=
-TbInterfaces
 (
 "
 TestFullStack

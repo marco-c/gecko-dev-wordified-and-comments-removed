@@ -83,6 +83,14 @@ short
 outframe_H
 )
 ;
+float
+WebRtcNs_prior_speech_probability
+(
+NsHandle
+*
+handle
+)
+;
 #
 ifdef
 __cplusplus

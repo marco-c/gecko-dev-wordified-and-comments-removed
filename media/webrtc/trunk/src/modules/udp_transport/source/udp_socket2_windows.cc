@@ -2951,9 +2951,6 @@ f
 QOS
 Qos
 ;
-WebRtc_Word32
-result
-;
 DWORD
 BytesRet
 ;
@@ -3287,11 +3284,17 @@ QosDestaddr
 }
 if
 (
+!
 AquireSocket
 (
 )
 )
 {
+return
+false
+;
+}
+WebRtc_Word32
 result
 =
 WSAIoctl
@@ -3318,7 +3321,6 @@ ReleaseSocket
 (
 )
 ;
-}
 if
 (
 result

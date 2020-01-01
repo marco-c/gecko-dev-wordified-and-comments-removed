@@ -68,11 +68,15 @@ if
 test
 .
 format
-=
-=
+in
+[
 '
 ninja
 '
+'
+android
+'
+]
 :
   
 test

@@ -6,15 +6,6 @@ vector
 #
 include
 "
-gflags
-/
-gflags
-.
-h
-"
-#
-include
-"
 gtest
 /
 gtest
@@ -905,7 +896,7 @@ return
 TEST_F
 (
 ViEVideoVerificationTest
-RunsFullStackWithoutErrors
+DISABLED_RunsFullStackWithoutErrors
 )
 {
 FrameDropDetector

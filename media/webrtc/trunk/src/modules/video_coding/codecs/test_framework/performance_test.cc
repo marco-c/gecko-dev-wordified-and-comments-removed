@@ -1371,7 +1371,7 @@ Encode
 (
 )
 {
-RawImage
+VideoFrame
 rawImage
 ;
 VideoBufferToRawImage

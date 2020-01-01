@@ -48,7 +48,7 @@ ViEBaseAPITest
 TEST_F
 (
 ViEApiIntegrationTest
-RunsCaptureTestWithoutErrors
+DISABLED_RunsCaptureTestWithoutErrors
 )
 {
 tests_

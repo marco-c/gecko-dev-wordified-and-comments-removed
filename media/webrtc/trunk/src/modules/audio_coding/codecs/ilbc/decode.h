@@ -17,6 +17,7 @@ WebRtcIlbcfix_DecodeImpl
 WebRtc_Word16
 *
 decblock
+const
 WebRtc_UWord16
 *
 bytes

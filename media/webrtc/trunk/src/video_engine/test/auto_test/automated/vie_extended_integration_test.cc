@@ -48,7 +48,7 @@ ViEBaseExtendedTest
 TEST_F
 (
 ViEExtendedIntegrationTest
-RunsCaptureTestWithoutErrors
+DISABLED_RunsCaptureTestWithoutErrors
 )
 {
 tests_

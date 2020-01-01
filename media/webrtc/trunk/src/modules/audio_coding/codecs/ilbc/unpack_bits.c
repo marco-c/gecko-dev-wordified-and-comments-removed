@@ -8,6 +8,7 @@ h
 WebRtc_Word16
 WebRtcIlbcfix_UnpackBits
 (
+const
 WebRtc_UWord16
 *
 bitstream
@@ -18,6 +19,7 @@ WebRtc_Word16
 mode
 )
 {
+const
 WebRtc_UWord16
 *
 bitstreamPtr

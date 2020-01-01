@@ -341,10 +341,6 @@ _moduleFile
 ;
 private
 :
-OutStream
-*
-_stream
-;
 CodecInst
 codec_info_
 ;

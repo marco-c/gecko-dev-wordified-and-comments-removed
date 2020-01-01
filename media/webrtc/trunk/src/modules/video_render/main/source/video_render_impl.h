@@ -483,9 +483,6 @@ void
 *
 _ptrWindow
 ;
-VideoRenderType
-_renderType
-;
 bool
 _fullScreen
 ;

@@ -268,6 +268,8 @@ t1
 -
 t0
 ;
+if
+(
 fwrite
 (
 _videoFrame
@@ -279,7 +281,14 @@ Buffer
 _frameLength
 modFile
 )
+!
+=
+_frameLength
+)
+{
+return
 ;
+}
 }
 ASSERT_NE
 (

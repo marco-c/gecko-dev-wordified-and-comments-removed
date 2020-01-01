@@ -624,6 +624,10 @@ write_target
 (
 self
 fp
+src_dir
+=
+'
+'
 pre
 =
 '

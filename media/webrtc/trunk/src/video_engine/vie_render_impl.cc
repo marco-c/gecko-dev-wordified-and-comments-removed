@@ -439,6 +439,7 @@ render_manager
 >
 RegisterVideoRenderModule
 (
+&
 render_module
 )
 !
@@ -515,6 +516,7 @@ render_manager
 >
 DeRegisterVideoRenderModule
 (
+&
 render_module
 )
 !

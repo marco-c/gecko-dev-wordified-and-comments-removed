@@ -27,14 +27,6 @@ GetTimeInMS
 ;
 static
 void
-Sleep
-(
-WebRtc_UWord32
-milliseconds
-)
-;
-static
-void
 WaitForKey
 (
 )

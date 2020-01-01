@@ -231,9 +231,6 @@ _decodedLengthInMS
 (
 0
 )
-_decodedAudioBuffer
-(
-)
 _audioDecoder
 (
 instanceID
@@ -402,13 +399,13 @@ FilePlayerImpl
 :
 Get10msAudioFromFile
 (
-WebRtc_Word16
+int16_t
 *
 outBuffer
-WebRtc_UWord32
+int
 &
 lengthInSamples
-WebRtc_UWord32
+int
 frequencyInHz
 )
 {
@@ -480,7 +477,7 @@ L16
 {
 unresampledAudioFrame
 .
-_frequencyInHz
+sample_rate_hz_
 =
 _codec
 .
@@ -493,7 +490,7 @@ sizeof
 (
 unresampledAudioFrame
 .
-_payloadData
+data_
 )
 ;
 if
@@ -508,7 +505,7 @@ WebRtc_Word8
 )
 unresampledAudioFrame
 .
-_payloadData
+data_
 lengthInBytes
 )
 =
@@ -540,7 +537,7 @@ return
 }
 unresampledAudioFrame
 .
-_payloadDataLengthInSamples
+samples_per_channel_
 =
 (
 WebRtc_UWord16
@@ -655,7 +652,7 @@ ResetIfNeeded
 (
 unresampledAudioFrame
 .
-_frequencyInHz
+sample_rate_hz_
 frequencyInHz
 kResamplerSynchronous
 )
@@ -706,10 +703,10 @@ Push
 (
 unresampledAudioFrame
 .
-_payloadData
+data_
 unresampledAudioFrame
 .
-_payloadDataLengthInSamples
+samples_per_channel_
 outBuffer
 MAX_AUDIO_BUFFER_IN_SAMPLES
 outLen

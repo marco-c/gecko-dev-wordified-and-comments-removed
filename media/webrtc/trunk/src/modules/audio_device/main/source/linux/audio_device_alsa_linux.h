@@ -948,9 +948,6 @@ _recordingFramesLeft
 WebRtc_UWord32
 _playoutFramesLeft
 ;
-WebRtc_UWord32
-_playbackBufferSize
-;
 AudioDeviceModule
 :
 :
@@ -982,9 +979,6 @@ _recordingDelay
 ;
 snd_pcm_sframes_t
 _playoutDelay
-;
-WebRtc_Word32
-_writeErrors
 ;
 WebRtc_UWord16
 _playWarning

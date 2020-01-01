@@ -162,16 +162,6 @@ void
 ptrInst
 )
 ;
-WebRtc_Word16
-UnregisterFromNetEqSafe
-(
-ACMNetEQ
-*
-netEq
-WebRtc_Word16
-payloadType
-)
-;
 void
 SplitStereoPacket
 (

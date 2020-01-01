@@ -78,9 +78,7 @@ INP
 .
 .
 /
-test
-/
-data
+resources
 /
 audio_coding
 EXEP

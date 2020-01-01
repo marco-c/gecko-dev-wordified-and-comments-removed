@@ -989,10 +989,10 @@ WEBRTC_INCLUDE_INTERNAL_VIDEO_RENDER
 ]
 [
 '
-build_with_chromium
+include_tests
 =
 =
-0
+1
 '
 {
 '
@@ -1241,7 +1241,7 @@ targets
 }
 ]
 #
-build_with_chromium
+include_tests
 =
 =
 0

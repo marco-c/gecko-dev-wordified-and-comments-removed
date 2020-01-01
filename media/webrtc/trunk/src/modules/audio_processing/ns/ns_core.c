@@ -4745,6 +4745,12 @@ probSpeechFinal
 [
 HALF_ANAL_BLOCKL
 ]
+=
+{
+0
+}
+;
+float
 previousEstimateStsa
 [
 HALF_ANAL_BLOCKL

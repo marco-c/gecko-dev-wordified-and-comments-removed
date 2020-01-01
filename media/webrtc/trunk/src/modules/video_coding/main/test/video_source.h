@@ -13,7 +13,7 @@ libyuv
 /
 include
 /
-libyuv
+webrtc_libyuv
 .
 h
 "

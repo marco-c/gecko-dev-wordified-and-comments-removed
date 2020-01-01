@@ -34,10 +34,6 @@ include
 "
 voice_engine
 /
-main
-/
-source
-/
 voice_engine_defines
 .
 h
@@ -134,8 +130,6 @@ ProjectRootPath
 )
 +
 "
-test
-/
 data
 /
 voice_engine

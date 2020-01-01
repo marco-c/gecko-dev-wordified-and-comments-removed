@@ -45,7 +45,7 @@ typedef
 struct
 VadInstT_
 {
-int16_t
+int
 vad
 ;
 int32_t
@@ -175,7 +175,7 @@ int
 mode
 )
 ;
-int16_t
+int
 WebRtcVad_CalcVad32khz
 (
 VadInstT
@@ -188,7 +188,7 @@ int
 frame_length
 )
 ;
-int16_t
+int
 WebRtcVad_CalcVad16khz
 (
 VadInstT
@@ -201,7 +201,7 @@ int
 frame_length
 )
 ;
-int16_t
+int
 WebRtcVad_CalcVad8khz
 (
 VadInstT

@@ -52,7 +52,6 @@ ACMResampler
 :
 _resamplerCritSect
 (
-*
 CriticalSectionWrapper
 :
 :
@@ -71,7 +70,6 @@ ACMResampler
 )
 {
 delete
-&
 _resamplerCritSect
 ;
 }

@@ -362,7 +362,7 @@ complex_bit_reverse_arm
 .
 s
 \
-spl_sqrt_floor
+spl_sqrt_floor_arm
 .
 s
 else

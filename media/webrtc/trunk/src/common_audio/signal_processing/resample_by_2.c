@@ -7,7 +7,7 @@ h
 "
 #
 ifdef
-WEBRTC_ARCH_ARM_V7A
+WEBRTC_ARCH_ARM_V7
 static
 const
 WebRtc_UWord32

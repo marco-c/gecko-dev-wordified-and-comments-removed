@@ -22,6 +22,9 @@ namespace
 webrtc
 {
 class
+CriticalSectionWrapper
+;
+class
 EventWrapper
 ;
 class
@@ -128,6 +131,10 @@ _runFunction
 ;
 ThreadObj
 _obj
+;
+CriticalSectionWrapper
+*
+_crit_state
 ;
 bool
 _alive

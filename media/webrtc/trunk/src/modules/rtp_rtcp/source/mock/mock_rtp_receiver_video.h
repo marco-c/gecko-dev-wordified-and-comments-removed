@@ -1,4 +1,10 @@
 #
+ifndef
+WEBRTC_MODULES_RTP_RTCP_SOURCE_MOCK_MOCK_RTP_RECEIVER_VIDEO_H_
+#
+define
+WEBRTC_MODULES_RTP_RTCP_SOURCE_MOCK_MOCK_RTP_RECEIVER_VIDEO_H_
+#
 include
 "
 modules
@@ -22,6 +28,18 @@ RTPReceiverVideo
 {
 public
 :
+MockRTPReceiverVideo
+(
+)
+:
+RTPReceiverVideo
+(
+0
+NULL
+NULL
+)
+{
+}
 MOCK_METHOD1
 (
 ChangeUniqueId
@@ -129,3 +147,5 @@ WebRtc_Word8
 }
 ;
 }
+#
+endif

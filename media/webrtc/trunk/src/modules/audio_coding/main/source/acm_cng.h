@@ -154,16 +154,6 @@ return
 1
 ;
 }
-WebRtc_Word16
-UnregisterFromNetEqSafe
-(
-ACMNetEQ
-*
-netEq
-WebRtc_Word16
-payloadType
-)
-;
 WebRtcCngEncInst
 *
 _encoderInstPtr

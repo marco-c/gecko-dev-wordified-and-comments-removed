@@ -28,7 +28,7 @@ h
 #
 include
 "
-atomic32_wrapper
+atomic32
 .
 h
 "
@@ -165,10 +165,10 @@ CreateMemory
 PSLIST_HEADER
 _pListHead
 ;
-Atomic32Wrapper
+Atomic32
 _createdMemory
 ;
-Atomic32Wrapper
+Atomic32
 _outstandingMemory
 ;
 }

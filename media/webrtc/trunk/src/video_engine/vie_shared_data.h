@@ -82,6 +82,15 @@ LastErrorInternal
 )
 const
 ;
+void
+SetOverUseDetectorOptions
+(
+const
+OverUseDetectorOptions
+&
+options
+)
+;
 int
 NumberOfCores
 (
@@ -157,6 +166,9 @@ initialized_
 const
 int
 number_cores_
+;
+OverUseDetectorOptions
+over_use_detector_options_
 ;
 ViEPerformanceMonitor
 vie_performance_monitor_

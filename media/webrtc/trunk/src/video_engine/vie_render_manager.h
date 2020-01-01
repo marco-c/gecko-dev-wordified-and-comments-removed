@@ -99,7 +99,7 @@ WebRtc_Word32
 RegisterVideoRenderModule
 (
 VideoRender
-&
+*
 render_module
 )
 ;
@@ -107,7 +107,7 @@ WebRtc_Word32
 DeRegisterVideoRenderModule
 (
 VideoRender
-&
+*
 render_module
 )
 ;

@@ -1392,8 +1392,6 @@ resample
 kAecTrue
 )
 {
-newNrOfSamples
-=
 WebRtcAec_ResampleLinear
 (
 aecpc
@@ -1404,6 +1402,8 @@ farend
 nrOfSamples
 skew
 newFarend
+&
+newNrOfSamples
 )
 ;
 farend_ptr
@@ -2017,6 +2017,9 @@ maxSkewEst
 #
 ifdef
 WEBRTC_AEC_DEBUG_DUMP
+(
+void
+)
 fwrite
 (
 &
@@ -2621,6 +2624,9 @@ mult
 )
 )
 ;
+(
+void
+)
 fwrite
 (
 &
@@ -2633,15 +2639,16 @@ aecpc
 bufFile
 )
 ;
+(
+void
+)
 fwrite
 (
 &
-(
 aecpc
 -
 >
 knownDelay
-)
 sizeof
 (
 aecpc
@@ -3977,7 +3984,7 @@ l1_norm
 ;
 if
 (
-self
+handle
 =
 =
 NULL

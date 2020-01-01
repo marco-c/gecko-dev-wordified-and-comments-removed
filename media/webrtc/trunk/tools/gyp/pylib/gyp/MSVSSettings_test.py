@@ -4223,7 +4223,7 @@ true
 }
          
 '
-Mt
+Manifest
 '
 :
 {
@@ -4516,18 +4516,21 @@ Warning
 :
 unrecognized
 setting
-Mt
+Manifest
 /
 notgood3
 '
         
-"
+'
 Warning
 :
 for
-Mt
+Manifest
 /
 GenerateCatalogFiles
+'
+        
+"
 expected
 bool
 ;
@@ -4557,7 +4560,7 @@ MachineX86i
 Warning
 :
 for
-Mt
+Manifest
 /
 EnableDPIAwareness
 expected
@@ -8699,7 +8702,7 @@ true
 }
         
 '
-Mt
+Manifest
 '
 :
 {
@@ -9261,7 +9264,7 @@ PreprocessorDefinitions
 )
 '
         
-Mt
+Manifest
 :
             
 AdditionalManifestFiles
@@ -11959,7 +11962,7 @@ true
 }
         
 '
-Mt
+Manifest
 '
 :
 {

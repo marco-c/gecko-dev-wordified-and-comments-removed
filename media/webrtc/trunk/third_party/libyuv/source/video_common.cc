@@ -8,11 +8,6 @@ video_common
 h
 "
 #
-include
-<
-sstream
->
-#
 ifdef
 __cplusplus
 namespace

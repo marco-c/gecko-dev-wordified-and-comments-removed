@@ -39,6 +39,8 @@ h
 #
 include
 "
+video_engine
+/
 vie_defines
 .
 h
@@ -66,11 +68,11 @@ Transport
 {
 public
 :
+explicit
 ViESender
 (
-int
-engine_id
-int
+const
+int32_t
 channel_id
 )
 ;
@@ -151,10 +153,8 @@ len
 ;
 private
 :
-int
-engine_id_
-;
-int
+const
+int32_t
 channel_id_
 ;
 scoped_ptr

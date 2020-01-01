@@ -64,7 +64,7 @@ Resampler
 _resampler
 ;
 CriticalSectionWrapper
-&
+*
 _resamplerCritSect
 ;
 }

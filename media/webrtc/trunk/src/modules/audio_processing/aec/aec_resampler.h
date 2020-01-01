@@ -67,7 +67,7 @@ float
 skewEst
 )
 ;
-int
+void
 WebRtcAec_ResampleLinear
 (
 void
@@ -84,6 +84,9 @@ skew
 short
 *
 outspeech
+int
+*
+size_out
 )
 ;
 #

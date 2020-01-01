@@ -31,8 +31,8 @@ string
 h
 "
 #
-ifdef
-__GLIBCXX__
+if
+GTEST_HAS_CXXABI_H_
 #
 include
 <
@@ -91,10 +91,7 @@ name
 ;
 #
 if
-defined
-(
-__GLIBCXX__
-)
+GTEST_HAS_CXXABI_H_
 |
 |
 defined
@@ -107,8 +104,8 @@ status
 0
 ;
 #
-ifdef
-__GLIBCXX__
+if
+GTEST_HAS_CXXABI_H_
 using
 abi
 :

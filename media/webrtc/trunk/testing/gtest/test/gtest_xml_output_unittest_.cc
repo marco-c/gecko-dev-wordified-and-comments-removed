@@ -53,14 +53,6 @@ using
 testing
 :
 :
-Types
-;
-using
-:
-:
-testing
-:
-:
 Values
 ;
 class
@@ -526,6 +518,9 @@ Values
 )
 )
 ;
+#
+if
+GTEST_HAS_TYPED_TEST
 template
 <
 typename
@@ -540,6 +535,9 @@ Test
 }
 ;
 typedef
+testing
+:
+:
 Types
 <
 int
@@ -560,6 +558,11 @@ HasTypeParamAttribute
 )
 {
 }
+#
+endif
+#
+if
+GTEST_HAS_TYPED_TEST_P
 template
 <
 typename
@@ -592,6 +595,9 @@ HasTypeParamAttribute
 )
 ;
 typedef
+testing
+:
+:
 Types
 <
 int
@@ -606,6 +612,8 @@ TypeParameterizedTestCase
 TypeParameterizedTestCaseTypes
 )
 ;
+#
+endif
 int
 main
 (

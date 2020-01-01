@@ -199,6 +199,7 @@ renderer
 ;
 protected
 :
+explicit
 ViERenderImpl
 (
 ViESharedData

@@ -89,9 +89,9 @@ dst_v
 int
 dst_stride_v
 int
-width
+src_width
 int
-height
+src_height
 RotationMode
 mode
 )
@@ -127,9 +127,9 @@ dst_v
 int
 dst_stride_v
 int
-width
+src_width
 int
-height
+src_height
 RotationMode
 mode
 )

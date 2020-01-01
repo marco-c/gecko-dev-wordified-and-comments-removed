@@ -14,6 +14,10 @@ h
 #
 include
 "
+modules
+/
+interface
+/
 module_common_types
 .
 h

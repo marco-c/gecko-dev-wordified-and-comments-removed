@@ -183,16 +183,6 @@ DisableDTX
 (
 )
 ;
-WebRtc_Word16
-UnregisterFromNetEqSafe
-(
-ACMNetEQ
-*
-netEq
-WebRtc_Word16
-payloadType
-)
-;
 AMR_encinst_t_
 *
 _encoderInstPtr

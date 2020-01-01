@@ -564,6 +564,11 @@ display
 false
 )
 ;
+XCloseDisplay
+(
+display
+)
+;
 return
 0
 ;
