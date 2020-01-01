@@ -36,7 +36,7 @@ endif
 #
 define
 SK_SUPPORT_GPU
-0
+1
 #
 define
 SK_DISABLE_DITHER_32BIT_GRADIENT
