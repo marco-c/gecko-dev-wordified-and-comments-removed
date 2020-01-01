@@ -1011,7 +1011,7 @@ OBJ_SUFFIX
 dom_quickstubs
 .
 h
-xpcjsruntime
+XPCJSRuntime
 .
 (
 OBJ_SUFFIX
