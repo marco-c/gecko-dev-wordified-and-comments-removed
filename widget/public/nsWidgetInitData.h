@@ -184,6 +184,9 @@ mRTL
 PRPackedBool
 mNoAutoHide
 ;
+PRPackedBool
+mIsDragPopup
+;
 }
 ;
 #

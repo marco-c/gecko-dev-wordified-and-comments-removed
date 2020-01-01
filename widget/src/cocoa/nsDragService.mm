@@ -2163,6 +2163,13 @@ StartDragSession
 (
 )
 ;
+nsBaseDragService
+:
+:
+OpenDragPopup
+(
+)
+;
 /
 /
 We
