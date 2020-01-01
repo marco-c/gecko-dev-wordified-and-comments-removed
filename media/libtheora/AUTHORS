@@ -40,6 +40,11 @@ Monty
 MMX
 optimized
 functions
+David
+Schleef
+-
+C64x
+port
 Aaron
 Colwell
 Thomas
@@ -110,6 +115,12 @@ Ortalo
 -
 Bug
 fixes
+Robin
+Watts
+-
+ARM
+code
+optimisations
 and
 other
 Xiph
