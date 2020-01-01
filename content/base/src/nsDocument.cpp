@@ -38722,7 +38722,7 @@ LogFullScreenDenied
 (
 aLogFailure
 "
-FullScreenDeniedIframeDisallowed
+FullScreenDeniedIframeNotAllowed
 "
 this
 )
