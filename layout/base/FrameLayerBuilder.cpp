@@ -15787,6 +15787,13 @@ presContext
 commonClipCount
 )
 ;
+aContext
+-
+>
+NewPath
+(
+)
+;
 }
 }
 if
