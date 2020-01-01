@@ -8220,10 +8220,9 @@ compartment
 ;
 if
 (
-visited
-.
-find
+Find
 (
+visited
 next
 )
 =
