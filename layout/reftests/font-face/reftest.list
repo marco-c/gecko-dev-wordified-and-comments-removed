@@ -343,6 +343,17 @@ MOZ_WIDGET_TOOLKIT
 gtk2
 "
 )
+random
+-
+if
+(
+MOZ_WIDGET_TOOLKIT
+=
+=
+"
+cocoa
+"
+)
 HTTP
 (
 .
