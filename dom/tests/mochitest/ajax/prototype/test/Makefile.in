@@ -398,6 +398,9 @@ DEPTH
 /
 .
 .
+/
+.
+.
 topsrcdir
 =
 top_srcdir
@@ -418,6 +421,8 @@ mochitest
 ajax
 /
 prototype
+/
+test
 include
 (
 DEPTH
@@ -431,9 +436,9 @@ mk
 DIRS
 =
 \
-dist
+unit
 \
-test
+lib
 \
 (
 NULL
@@ -451,13 +456,9 @@ mk
 _TEST_FILES
 =
 \
-test_Prototype
+test
 .
-html
-\
-manifest
-.
-json
+css
 \
 (
 NULL
