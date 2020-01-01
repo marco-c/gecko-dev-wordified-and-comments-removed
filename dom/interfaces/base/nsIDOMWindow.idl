@@ -994,6 +994,12 @@ prompts
 void
 alert
 (
+[
+Null
+(
+Stringify
+)
+]
 in
 DOMString
 text
