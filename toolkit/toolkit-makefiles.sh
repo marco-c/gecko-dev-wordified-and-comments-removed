@@ -4666,7 +4666,7 @@ xre
 /
 Makefile
 "
-MAKEFILES_ctypes
+MAKEFILES_jsctypes
 =
 "
 toolkit
