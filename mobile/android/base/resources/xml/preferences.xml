@@ -172,7 +172,7 @@ title
 "
 string
 /
-pref_enable_flash
+pref_enable_plugins
 "
 android
 :
@@ -181,7 +181,7 @@ entries
 "
 array
 /
-pref_enable_flash_entries
+pref_enable_plugins_entries
 "
 android
 :
@@ -190,7 +190,7 @@ entryValues
 "
 array
 /
-pref_enable_flash_values
+pref_enable_plugins_values
 "
 android
 :

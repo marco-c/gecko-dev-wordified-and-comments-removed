@@ -564,16 +564,16 @@ deleted
 <
 !
 ENTITY
-pref_enable_flash
+pref_enable_plugins
 "
 Enable
-Flash
+Plugins
 "
 >
 <
 !
 ENTITY
-pref_enable_flash_yes
+pref_enable_plugins_yes
 "
 Yes
 "
@@ -581,7 +581,7 @@ Yes
 <
 !
 ENTITY
-pref_enable_flash_tap_to_play
+pref_enable_plugins_tap_to_play
 "
 Tap
 To
@@ -591,7 +591,7 @@ Play
 <
 !
 ENTITY
-pref_enable_flash_no
+pref_enable_plugins_no
 "
 No
 "

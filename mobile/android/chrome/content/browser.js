@@ -19481,7 +19481,7 @@ browser
 GetStringFromName
 (
 "
-clickToPlayFlash
+clickToPlayPlugins
 .
 message
 "
@@ -19501,7 +19501,7 @@ browser
 GetStringFromName
 (
 "
-clickToPlayFlash
+clickToPlayPlugins
 .
 yes
 "
@@ -19531,7 +19531,7 @@ browser
 GetStringFromName
 (
 "
-clickToPlayFlash
+clickToPlayPlugins
 .
 no
 "
