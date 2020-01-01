@@ -816,6 +816,12 @@ INSTALL
 )
 ^
 .
+GARBAGE
++
+=
+nsStringAPI
+.
+cpp
 DEFINES
 +
 =

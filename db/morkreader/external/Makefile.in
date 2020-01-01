@@ -198,6 +198,7 @@ com
 >
 #
 #
+#
 Alternatively
 the
 contents
@@ -473,3 +474,9 @@ INSTALL
 )
 ^
 .
+GARBAGE
++
+=
+nsMorkReader
+.
+cpp

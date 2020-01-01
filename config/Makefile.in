@@ -959,6 +959,13 @@ FINAL_LINK_LIBS
 FINAL_LINK_COMP_NAMES
 )
 buildid
+(
+srcdir
+)
+/
+*
+.
+pyc
 ifndef
 CROSS_COMPILE
 ifdef

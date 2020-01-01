@@ -516,6 +516,7 @@ GARBAGE_DIRS
 dist
 _javagen
 _tests
+staticlib
 DIST_GARBAGE
 =
 config

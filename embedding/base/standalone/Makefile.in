@@ -544,3 +544,9 @@ EMBED_CPPSRCS
 )
 )
 .
+GARBAGE
++
+=
+(
+EMBED_CPPSRCS
+)

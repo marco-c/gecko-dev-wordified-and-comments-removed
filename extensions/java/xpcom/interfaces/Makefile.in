@@ -612,6 +612,10 @@ IFACES_JAR
 (
 IFACES_JAR_SRC
 )
+(
+PACKAGE_DIR
+)
+/
 IXPCOMError
 .
 java
