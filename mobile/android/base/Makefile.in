@@ -981,7 +981,7 @@ SetupScreen
 .
 java
 \
-SurfaceLockInfo
+SurfaceBits
 .
 java
 \
@@ -1116,6 +1116,12 @@ java
 gfx
 /
 LayerView
+.
+java
+\
+gfx
+/
+PluginLayer
 .
 java
 \

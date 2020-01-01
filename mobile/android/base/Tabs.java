@@ -750,7 +750,6 @@ mAppContext
 hidePlugins
 (
 oldTab
-true
 )
 ;
 }
@@ -1047,7 +1046,6 @@ mAppContext
 hidePlugins
 (
 tab
-true
 )
 ;
 tab

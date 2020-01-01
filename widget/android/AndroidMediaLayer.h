@@ -91,8 +91,6 @@ const
 gfxRect
 &
 aRect
-float
-aZoomLevel
 )
 ;
 bool

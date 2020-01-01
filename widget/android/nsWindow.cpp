@@ -4268,6 +4268,12 @@ Bridge
 >
 AcquireNativeWindow
 (
+AndroidBridge
+:
+:
+GetJNIEnv
+(
+)
 surface
 )
 ;
