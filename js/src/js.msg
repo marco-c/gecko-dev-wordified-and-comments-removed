@@ -4840,3 +4840,16 @@ XML
 objects
 "
 )
+MSG_DEF
+(
+JSMSG_BAD_CLONE_VERSION
+264
+0
+JSEXN_ERR
+"
+unsupported
+structured
+clone
+version
+"
+)

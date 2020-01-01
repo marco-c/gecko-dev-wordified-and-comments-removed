@@ -21102,13 +21102,16 @@ array
 -
 >
 byteLength
+JS_STRUCTURED_CLONE_VERSION
 &
 v
 )
 )
+{
 return
 false
 ;
+}
 JS_SET_RVAL
 (
 cx

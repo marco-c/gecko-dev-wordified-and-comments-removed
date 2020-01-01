@@ -1083,6 +1083,7 @@ JS_ReadStructuredClone
 cx
 data
 nbytes
+JS_STRUCTURED_CLONE_VERSION
 vp
 )
 ;
