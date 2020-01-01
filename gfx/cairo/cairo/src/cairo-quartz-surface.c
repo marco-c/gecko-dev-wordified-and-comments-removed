@@ -423,10 +423,7 @@ FALSE
 return
 CGBitmapContextGetBitsPerPixel
 (
-surface
--
->
-cgContext
+cgc
 )
 !
 =
