@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsIPrivateCompositionEvent
-.
-h
-"
-#
-include
-"
 nsDOMEvent
 .
 h
