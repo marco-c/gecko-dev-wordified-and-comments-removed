@@ -55,17 +55,6 @@ expect
 =
 /
 Exception
-.
-.
-.
-"
-Illegal
-operation
-on
-WrappedNative
-prototype
-object
-"
 /
 ;
 try

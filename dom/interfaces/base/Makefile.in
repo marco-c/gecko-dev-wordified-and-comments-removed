@@ -546,10 +546,6 @@ nsIDOMChromeWindow
 .
 idl
 \
-nsIDOMNSFeatureFactory
-.
-idl
-\
 nsIDOMClientRect
 .
 idl

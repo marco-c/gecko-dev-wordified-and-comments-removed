@@ -490,10 +490,6 @@ NULL
 XPIDLSRCS
 =
 \
-nsIDOM3Node
-.
-idl
-\
 nsIDOM3Attr
 .
 idl
