@@ -3405,6 +3405,16 @@ return
 !
 !
 aAddon
+&
+&
+(
+gViewController
+.
+currentViewObj
+!
+=
+gDetailView
+)
 ;
 }
 doCommand
