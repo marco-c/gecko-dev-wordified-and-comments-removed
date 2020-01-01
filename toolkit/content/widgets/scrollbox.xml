@@ -1220,6 +1220,7 @@ function
 processFrame
 (
 self
+scrollAmounts
 )
 {
 self
@@ -1380,11 +1381,13 @@ setInterval
 processFrame
 60
 this
+scrollAmounts
 )
 ;
 processFrame
 (
 this
+scrollAmounts
 )
 ;
 ]
