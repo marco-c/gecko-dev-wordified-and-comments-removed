@@ -714,6 +714,14 @@ ins
 )
 ;
 bool
+visitCallSetElement
+(
+MCallSetElement
+*
+ins
+)
+;
+bool
 visitGenericSetProperty
 (
 MGenericSetProperty
