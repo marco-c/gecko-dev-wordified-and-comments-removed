@@ -64,7 +64,7 @@ h
 #
 include
 "
-jscntxt
+jsfriendapi
 .
 h
 "
@@ -1098,10 +1098,13 @@ JSCompartment
 *
 target
 =
+js
+:
+:
+GetContextCompartment
+(
 cx
--
->
-compartment
+)
 ;
 JSObject
 *
