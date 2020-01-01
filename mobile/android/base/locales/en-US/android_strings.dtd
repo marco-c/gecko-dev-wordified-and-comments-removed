@@ -688,6 +688,15 @@ Share
 <
 !
 ENTITY
+share_title
+"
+Share
+via
+"
+>
+<
+!
+ENTITY
 save_as_pdf
 "
 Save
