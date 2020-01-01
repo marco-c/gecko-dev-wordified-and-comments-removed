@@ -194,3 +194,11 @@ destructure
 accessor
 .
 js
+script
+censor
+-
+strict
+-
+caller
+.
+js
