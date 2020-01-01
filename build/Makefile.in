@@ -660,7 +660,7 @@ autoconf
 .
 mk
 MOZ_SOURCE_STAMP
-?
+:
 =
 (
 firstword
