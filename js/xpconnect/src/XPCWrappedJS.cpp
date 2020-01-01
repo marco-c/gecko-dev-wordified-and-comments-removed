@@ -2693,7 +2693,12 @@ SystemIsBeingShutDown
 (
 )
 {
+*
 mJSObj
+.
+unsafeGet
+(
+)
 =
 nullptr
 ;
