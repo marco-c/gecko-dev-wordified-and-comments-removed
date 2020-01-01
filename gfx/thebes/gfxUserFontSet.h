@@ -650,6 +650,16 @@ bool
 aWaitForUserFont
 )
 ;
+gfxFontFamily
+*
+FindFamilyFor
+(
+gfxFontEntry
+*
+aFontEntry
+)
+const
+;
 virtual
 nsresult
 CheckFontLoad
