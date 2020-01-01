@@ -7142,7 +7142,7 @@ lf
 return
 NS_ERROR_INVALID_ARG
 ;
-XRE_AddComponentLocation
+XRE_AddManifestLocation
 (
 NS_COMPONENT_LOCATION
 lf
@@ -8139,7 +8139,7 @@ EXPORT_XPCOM_API
 (
 nsresult
 )
-XRE_AddComponentLocation
+XRE_AddManifestLocation
 (
 NSLocationType
 aType

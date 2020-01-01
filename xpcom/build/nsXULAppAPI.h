@@ -304,7 +304,7 @@ NS_SKIN_LOCATION
 XRE_API
 (
 nsresult
-XRE_AddComponentLocation
+XRE_AddManifestLocation
 (
 NSLocationType
 aType
