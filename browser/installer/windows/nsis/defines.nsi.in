@@ -75,8 +75,7 @@ APP_VERSION
 #
 ifdef
 HAVE_64BIT_OS
-/
-/
+;
 differentiate
 64
 -
