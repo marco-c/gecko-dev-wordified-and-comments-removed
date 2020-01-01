@@ -1965,11 +1965,8 @@ GetNearestWidget
 )
 )
 {
-Invalidate
+InvalidateFrame
 (
-GetContentRectRelativeToSelf
-(
-)
 )
 ;
 }

@@ -2368,11 +2368,6 @@ GetNextSibling
 )
 ;
 }
-CheckInvalidateSizeChange
-(
-aDesiredSize
-)
-;
 FinishAndStoreOverflow
 (
 &

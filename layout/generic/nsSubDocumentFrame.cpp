@@ -3090,11 +3090,6 @@ offset
 ;
 }
 }
-CheckInvalidateSizeChange
-(
-aDesiredSize
-)
-;
 FinishAndStoreOverflow
 (
 &
