@@ -1359,7 +1359,7 @@ nsIIdleService
 ;
 }
 function
-_execute_test
+_register_protocol_handlers
 (
 )
 {
@@ -1506,6 +1506,16 @@ modulesURI
 ;
 }
 }
+}
+function
+_execute_test
+(
+)
+{
+_register_protocol_handlers
+(
+)
+;
 _fakeIdleService
 .
 activate
