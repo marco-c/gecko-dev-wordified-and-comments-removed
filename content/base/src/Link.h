@@ -68,12 +68,6 @@ Element
 aElement
 )
 ;
-nsLinkState
-GetLinkState
-(
-)
-const
-;
 virtual
 void
 SetLinkState

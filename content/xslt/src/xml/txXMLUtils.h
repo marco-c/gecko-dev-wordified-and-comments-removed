@@ -329,17 +329,6 @@ aLocalName
 )
 ;
 static
-const
-nsDependentSubstring
-getLocalPart
-(
-const
-nsAString
-&
-src
-)
-;
-static
 bool
 isWhitespace
 (
