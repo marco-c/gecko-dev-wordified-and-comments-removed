@@ -990,8 +990,9 @@ const
 Value
 &
 v
-jsid
-id
+PropertyName
+*
+name
 Value
 *
 vp
@@ -1899,9 +1900,9 @@ jsbytecode
 *
 pc
 ;
-JSAtom
+PropertyName
 *
-atom
+name
 ;
 void
 reset

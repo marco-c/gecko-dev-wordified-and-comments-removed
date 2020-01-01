@@ -54,10 +54,10 @@ PropertyCacheEntry
 *
 &
 entry
-JSAtom
+PropertyName
 *
 &
-atom
+name
 )
 {
 JS_ASSERT
@@ -216,7 +216,7 @@ protopchits
 +
 )
 ;
-atom
+name
 =
 NULL
 ;
@@ -224,7 +224,7 @@ return
 ;
 }
 }
-atom
+name
 =
 fullTest
 (
@@ -239,7 +239,7 @@ entry
 ;
 if
 (
-atom
+name
 )
 PCMETER
 (
@@ -273,10 +273,10 @@ JSObject
 *
 *
 obj2p
-JSAtom
+PropertyName
 *
 *
-atomp
+namep
 )
 {
 JS_ASSERT
@@ -365,9 +365,9 @@ kshape
 return
 true
 ;
-JSAtom
+PropertyName
 *
-atom
+name
 =
 fullTest
 (
@@ -381,7 +381,7 @@ entry
 ;
 JS_ASSERT
 (
-atom
+name
 )
 ;
 PCMETER
@@ -399,9 +399,9 @@ setmisses
 )
 ;
 *
-atomp
+namep
 =
-atom
+name
 ;
 return
 false
