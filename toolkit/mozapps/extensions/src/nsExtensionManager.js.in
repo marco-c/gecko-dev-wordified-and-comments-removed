@@ -21368,6 +21368,12 @@ signed
 "
 )
 ;
+zipReader
+.
+close
+(
+)
+;
 entry
 .
 remove
