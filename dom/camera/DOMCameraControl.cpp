@@ -1430,7 +1430,7 @@ AUDIO_CHANNEL_CONTENT
 nullptr
 )
 ;
-bool
+int32_t
 canPlay
 ;
 mAudioChannelAgent
