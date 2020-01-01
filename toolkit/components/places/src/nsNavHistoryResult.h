@@ -221,14 +221,6 @@ const
 nsAString
 &
 aPageTitle
-\
-const
-nsAString
-&
-aUserTitle
-\
-PRBool
-aIsUserTitleChanged
 )
 ;
 \

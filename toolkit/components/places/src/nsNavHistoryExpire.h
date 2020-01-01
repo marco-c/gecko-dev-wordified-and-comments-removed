@@ -32,6 +32,11 @@ aNow
 )
 ;
 void
+OnDeleteURI
+(
+)
+;
+void
 OnQuit
 (
 )
@@ -100,6 +105,14 @@ aNumToExpire
 PRBool
 *
 aKeepGoing
+)
+;
+nsresult
+ExpireAnnotations
+(
+mozIStorageConnection
+*
+aConnection
 )
 ;
 nsresult

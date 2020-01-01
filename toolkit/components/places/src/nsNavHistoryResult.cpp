@@ -9284,12 +9284,6 @@ const
 nsAString
 &
 aPageTitle
-const
-nsAString
-&
-aUserTitle
-PRBool
-aIsUserTitleChanged
 )
 {
 if
@@ -14612,12 +14606,6 @@ const
 nsAString
 &
 aPageTitle
-const
-nsAString
-&
-aUserTitle
-PRBool
-aIsUserTitleChanged
 )
 {
 ENUMERATE_HISTORY_OBSERVERS
@@ -14626,8 +14614,6 @@ OnTitleChanged
 (
 aURI
 aPageTitle
-aUserTitle
-aIsUserTitleChanged
 )
 )
 ;
