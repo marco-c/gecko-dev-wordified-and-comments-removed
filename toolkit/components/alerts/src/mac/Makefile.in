@@ -446,6 +446,16 @@ necko
 \
 intl
 \
+js
+\
+xpconnect
+\
+dom
+\
+content
+\
+widget
+\
 (
 NULL
 )
@@ -551,6 +561,10 @@ XPCOM_GLUE_LDOPTS
 \
 (
 NSPR_LIBS
+)
+\
+(
+MOZ_JS_LIBS
 )
 \
 (
