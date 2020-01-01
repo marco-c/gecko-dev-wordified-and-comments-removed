@@ -494,10 +494,6 @@ nsIDOM3Node
 .
 idl
 \
-nsIDOM3TypeInfo
-.
-idl
-\
 nsIDOM3Attr
 .
 idl
