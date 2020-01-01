@@ -1,0 +1,6 @@
+ContentPrefTest
+.
+deleteDatabase
+(
+)
+;
