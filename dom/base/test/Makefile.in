@@ -111,6 +111,10 @@ test_screen_orientation
 .
 html
 \
+test_window_enumeration
+.
+html
+\
 (
 NULL
 )
