@@ -211,6 +211,9 @@ f
 open
 (
 filename
+"
+rb
+"
 )
         
 while
