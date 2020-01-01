@@ -19,6 +19,9 @@ xpt_struct
 .
 h
 "
+struct
+nsCycleCollectionTraversalCallback
+;
 #
 define
 nsAUTF8String

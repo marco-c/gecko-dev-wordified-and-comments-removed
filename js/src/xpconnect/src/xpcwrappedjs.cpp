@@ -18,9 +18,9 @@ nsXPCWrappedJS
 :
 Traverse
 (
-nsISupports
+void
 *
-s
+p
 nsCycleCollectionTraversalCallback
 &
 cb
@@ -46,7 +46,12 @@ owner
 =
 do_QueryInterface
 (
-s
+NS_STATIC_CAST
+(
+nsISupports
+*
+p
+)
 &
 rv
 )
@@ -281,9 +286,9 @@ nsXPCWrappedJS
 :
 Unlink
 (
-nsISupports
+void
 *
-s
+p
 )
 {
 return
@@ -427,7 +432,7 @@ Equals
 (
 NS_GET_IID
 (
-nsCycleCollectionParticipant
+nsXPCOMCycleCollectionParticipant
 )
 )
 )

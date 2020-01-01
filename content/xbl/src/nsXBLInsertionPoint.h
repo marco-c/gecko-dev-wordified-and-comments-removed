@@ -25,6 +25,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 nsXBLInsertionPoint
 {
@@ -78,6 +85,10 @@ Release
 (
 )
 ;
+NS_DECL_CYCLE_COLLECTION_NATIVE_CLASS
+(
+nsXBLInsertionPoint
+)
 already_AddRefed
 <
 nsIContent

@@ -139,6 +139,16 @@ void
 aClassObject
 )
 ;
+virtual
+void
+Traverse
+(
+nsCycleCollectionTraversalCallback
+&
+cb
+)
+const
+;
 protected
 :
 PRUnichar

@@ -168,6 +168,15 @@ mMembers
 aMemberList
 ;
 }
+void
+Traverse
+(
+nsCycleCollectionTraversalCallback
+&
+cb
+)
+const
+;
 protected
 :
 void
