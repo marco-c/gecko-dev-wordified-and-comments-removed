@@ -741,11 +741,11 @@ aName
 )
 nsDependentString
 (
-aSystemId
+aPublicId
 )
 nsDependentString
 (
-aPublicId
+aSystemId
 )
 )
 ;
