@@ -3202,11 +3202,9 @@ abspath
 "
         
 if
-self
+mozinfo
 .
-automation
-.
-IS_WIN32
+isWin
 :
           
 chrometestDir
