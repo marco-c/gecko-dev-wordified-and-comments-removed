@@ -604,6 +604,10 @@ browser_multipackage
 .
 js
 \
+browser_trigger_redirect
+.
+js
+\
 unsigned
 .
 xpi
@@ -681,6 +685,10 @@ startsoftwareupdate
 html
 \
 installchrome
+.
+html
+\
+triggerredirect
 .
 html
 \
