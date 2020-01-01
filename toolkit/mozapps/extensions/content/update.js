@@ -893,7 +893,7 @@ mozapps
 /
 content
 /
-update
+extensions
 /
 errors
 .

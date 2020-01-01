@@ -186,8 +186,8 @@ Original
 Code
 is
 The
-Update
-Service
+Extension
+Manager
 .
 #
 #
@@ -472,7 +472,7 @@ mozapps
 /
 locale
 /
-update
+extensions
 /
 errors
 .
