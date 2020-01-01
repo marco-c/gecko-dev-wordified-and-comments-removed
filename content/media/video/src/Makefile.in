@@ -505,16 +505,7 @@ nsMediaDecoder
 .
 cpp
 \
-(
-NULL
-)
-ifdef
-MOZ_MEDIA
-CPPSRCS
-+
-=
-\
-nsChannelToPipeListener
+nsMediaCache
 .
 cpp
 \
@@ -525,7 +516,6 @@ cpp
 (
 NULL
 )
-endif
 ifdef
 MOZ_SYDNEYAUDIO
 CPPSRCS
