@@ -351,7 +351,7 @@ COOKIE
 =
 '
 |
-trace
+jit
 -
 test
 |
@@ -525,7 +525,7 @@ warning
 :
 unrecognized
 |
-trace
+jit
 -
 test
 |
@@ -599,7 +599,7 @@ warning
 :
 unrecognized
 |
-trace
+jit
 -
 test
 |
@@ -1627,7 +1627,7 @@ TEST
 -
 PASS
 |
-trace_test
+jit_test
 .
 py
 |
@@ -1713,7 +1713,7 @@ UNEXPECTED
 -
 FAIL
 |
-trace_test
+jit_test
 .
 py
 |
@@ -1796,7 +1796,7 @@ TEST
 -
 UNEXPECTED_FAIL
 |
-trace_test
+jit_test
 .
 py
 |

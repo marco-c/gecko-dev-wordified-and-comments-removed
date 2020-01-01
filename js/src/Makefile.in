@@ -3062,11 +3062,11 @@ u
 srcdir
 )
 /
-trace
+jit
 -
 test
 /
-trace_test
+jit_test
 .
 py
 \
@@ -3113,11 +3113,11 @@ u
 srcdir
 )
 /
-trace
+jit
 -
 test
 /
-trace_test
+jit_test
 .
 py
 \

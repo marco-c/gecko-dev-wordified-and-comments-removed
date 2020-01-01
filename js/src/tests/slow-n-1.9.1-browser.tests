@@ -462,7 +462,7 @@ regress
 js
 js1_8_1
 /
-trace
+jit
 /
 regress
 -

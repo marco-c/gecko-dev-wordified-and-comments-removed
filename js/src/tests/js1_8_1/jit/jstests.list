@@ -15,12 +15,12 @@ test
 =
 js1_8_1
 /
-trace
+jit
 /
 script
 math
 -
-trace
+jit
 -
 tests
 .
