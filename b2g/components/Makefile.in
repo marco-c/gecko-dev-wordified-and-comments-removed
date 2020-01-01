@@ -130,6 +130,10 @@ ProcessGlobal
 .
 js
 \
+PaymentGlue
+.
+js
+\
 (
 NULL
 )
