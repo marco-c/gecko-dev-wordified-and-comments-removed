@@ -1761,6 +1761,10 @@ JSObject
 *
 globalObj
 ;
+Value
+*
+globalSlots
+;
 const
 Vector
 <
