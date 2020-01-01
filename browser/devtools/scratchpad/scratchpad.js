@@ -4896,7 +4896,7 @@ this
 .
 browserWindow
 .
-HUDConsoleUI
+HUDService
 .
 toggleBrowserConsole
 (
