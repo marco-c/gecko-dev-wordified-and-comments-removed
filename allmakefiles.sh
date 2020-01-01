@@ -159,6 +159,11 @@ by
 everyone
 add_makefiles
 "
+mozilla
+-
+config
+.
+h
 Makefile
 build
 /
