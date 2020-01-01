@@ -56,6 +56,13 @@ h
 #
 include
 "
+nsIDOMDataTransfer
+.
+h
+"
+#
+include
+"
 gfxImageSurface
 .
 h
@@ -191,6 +198,12 @@ nsCOMPtr
 nsIDOMDocument
 >
 mSourceDocument
+;
+nsCOMPtr
+<
+nsIDOMDataTransfer
+>
+mDataTransfer
 ;
 nsCOMPtr
 <

@@ -8572,7 +8572,7 @@ CallMethod
 "
 )
 ;
-nsMouseEvent
+nsDragEvent
 event
 (
 PR_TRUE
@@ -8587,10 +8587,6 @@ args
 0
 ]
 this
-nsMouseEvent
-:
-:
-eReal
 )
 ;
 nsPoint
