@@ -575,6 +575,16 @@ PRUint64
 aProcessId
 )
 ;
+NotifyRequestSmsDeleted
+(
+bool
+aDeleted
+PRInt32
+aRequestId
+PRUint64
+aProcessId
+)
+;
 parent
 :
 sync

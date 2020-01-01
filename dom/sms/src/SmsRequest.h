@@ -110,6 +110,13 @@ aMessage
 )
 ;
 void
+SetSuccess
+(
+bool
+aResult
+)
+;
+void
 SetError
 (
 ErrorType

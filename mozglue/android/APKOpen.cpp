@@ -1916,6 +1916,14 @@ jint
 jlong
 )
 ;
+SHELL_WRAPPER3
+(
+notifySmsDeleted
+jboolean
+jint
+jlong
+)
+;
 static
 void
 *
@@ -4240,6 +4248,11 @@ notifyGetSms
 GETFUNC
 (
 notifyGetSmsFailed
+)
+;
+GETFUNC
+(
+notifySmsDeleted
 )
 ;
 #

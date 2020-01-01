@@ -1249,6 +1249,17 @@ PRUint64
 aProcessId
 )
 ;
+void
+DeleteMessage
+(
+PRInt32
+aMessageId
+PRInt32
+aRequestId
+PRUint64
+aProcessId
+)
+;
 bool
 IsTablet
 (
@@ -1492,6 +1503,9 @@ jSaveSentMessage
 ;
 jmethodID
 jGetMessage
+;
+jmethodID
+jDeleteMessage
 ;
 jclass
 jEGLSurfaceImplClass
