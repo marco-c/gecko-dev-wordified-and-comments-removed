@@ -1732,14 +1732,14 @@ GetHrefURIForAnchors
 )
 const
 ;
-private
-:
 PRBool
 IsEditableRoot
 (
 )
 const
 ;
+private
+:
 void
 ChangeEditableState
 (

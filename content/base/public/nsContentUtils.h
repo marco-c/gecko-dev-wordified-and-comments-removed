@@ -3422,6 +3422,15 @@ nsIContent
 aContent
 )
 ;
+static
+bool
+IsSubDocumentTabbable
+(
+nsIContent
+*
+aContent
+)
+;
 private
 :
 static
