@@ -102,6 +102,14 @@ srcdir
 recognition
 \
 (
+srcdir
+)
+/
+recognition
+/
+test
+\
+(
 NULL
 )
 LIBRARY_NAME
@@ -171,6 +179,10 @@ cc
 energy_endpointer_params
 .
 cc
+\
+FakeSpeechRecognitionService
+.
+cpp
 \
 (
 NULL

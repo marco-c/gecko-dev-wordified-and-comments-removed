@@ -69,6 +69,16 @@ int64_t
 time_us
 )
 ;
+int32_t
+FrameSize
+(
+)
+const
+{
+return
+frame_size_
+;
+}
 bool
 DidStartReceivingSpeech
 (
