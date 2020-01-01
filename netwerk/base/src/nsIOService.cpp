@@ -4042,8 +4042,8 @@ aHadCharset
 aCharsetStart
 =
 =
--
-1
+*
+aCharsetEnd
 )
 {
 *

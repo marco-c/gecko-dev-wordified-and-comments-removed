@@ -8606,17 +8606,6 @@ Truncate
 (
 )
 ;
-haveCharset
-=
-PR_FALSE
-;
-}
-if
-(
-!
-haveCharset
-)
-{
 charsetStart
 =
 charsetEnd
