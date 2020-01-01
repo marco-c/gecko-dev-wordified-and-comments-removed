@@ -416,13 +416,6 @@ srcdir
 VPATH
 =
 srcdir
-relativesrcdir
-=
-uriloader
-/
-exthandler
-/
-tests
 DIRS
 +
 =
@@ -551,7 +544,7 @@ _tests
 xpcshell
 /
 (
-relativesrcdir
+MODULE
 )
 /
 unit

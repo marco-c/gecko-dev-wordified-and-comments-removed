@@ -505,13 +505,6 @@ srcdir
 VPATH
 =
 srcdir
-relativesrcdir
-=
-testing
-/
-xpcshell
-/
-example
 include
 (
 DEPTH

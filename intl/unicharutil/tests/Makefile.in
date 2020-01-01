@@ -402,13 +402,6 @@ srcdir
 VPATH
 =
 srcdir
-relativesrcdir
-=
-intl
-/
-unicharutil
-/
-tests
 include
 (
 DEPTH

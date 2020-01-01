@@ -494,13 +494,6 @@ srcdir
 VPATH
 =
 srcdir
-relativesrcdir
-=
-parser
-/
-xml
-/
-test
 include
 (
 DEPTH

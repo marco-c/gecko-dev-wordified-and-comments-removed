@@ -410,15 +410,6 @@ srcdir
 VPATH
 =
 srcdir
-relativesrcdir
-=
-js
-/
-src
-/
-xpconnect
-/
-tests
 include
 (
 DEPTH
