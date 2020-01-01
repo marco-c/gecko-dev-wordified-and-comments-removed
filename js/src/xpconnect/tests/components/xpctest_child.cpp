@@ -95,12 +95,11 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED2
+NS_IMPL_ISUPPORTS_INHERITED1
 (
 xpctestChild
 xpctestOther
 nsIXPCTestChild
-nsIXPCTestParent
 )
 xpctestChild
 :

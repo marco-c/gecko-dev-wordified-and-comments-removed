@@ -2319,11 +2319,10 @@ mPresShellWeak
 ;
 }
 ;
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS2
 (
 nsTextInputSelectionImpl
 nsISelectionController
-nsISelectionDisplay
 nsISupportsWeakReference
 )
 nsTextInputSelectionImpl

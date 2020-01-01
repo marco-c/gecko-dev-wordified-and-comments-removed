@@ -92,12 +92,11 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED3
+NS_IMPL_ISUPPORTS_INHERITED2
 (
 nsGenConImageContent
 nsXMLElement
 nsIImageLoadingContent
-imgIContainerObserver
 imgIDecoderObserver
 )
 nsresult

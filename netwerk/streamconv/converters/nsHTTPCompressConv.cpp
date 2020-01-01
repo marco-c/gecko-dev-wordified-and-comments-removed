@@ -75,12 +75,11 @@ nsComponentManagerUtils
 .
 h
 "
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS2
 (
 nsHTTPCompressConv
 nsIStreamConverter
 nsIStreamListener
-nsIRequestObserver
 )
 nsHTTPCompressConv
 :

@@ -324,11 +324,10 @@ NS_OK
 }
 }
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS1
 (
 EndListener
 nsIStreamListener
-nsIRequestObserver
 )
 nsresult
 SendData

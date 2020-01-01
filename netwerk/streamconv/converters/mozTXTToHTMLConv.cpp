@@ -5088,13 +5088,10 @@ mozTXTToHTMLConv
 )
 {
 }
-NS_IMPL_ISUPPORTS4
+NS_IMPL_ISUPPORTS1
 (
 mozTXTToHTMLConv
 mozITXTToHTMLConv
-nsIStreamConverter
-nsIStreamListener
-nsIRequestObserver
 )
 PRInt32
 mozTXTToHTMLConv

@@ -3278,12 +3278,11 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS5
+NS_IMPL_ISUPPORTS4
 (
 FaviconLoadListener
 nsIRequestObserver
 nsIStreamListener
-nsIRequestObserver
 nsIInterfaceRequestor
 nsIChannelEventSink
 )

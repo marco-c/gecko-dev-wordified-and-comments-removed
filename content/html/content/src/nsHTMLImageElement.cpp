@@ -629,13 +629,12 @@ NS_HTML_CONTENT_INTERFACE_TABLE_HEAD
 nsHTMLImageElement
 nsGenericHTMLElement
 )
-NS_INTERFACE_TABLE_INHERITED6
+NS_INTERFACE_TABLE_INHERITED5
 (
 nsHTMLImageElement
 nsIDOMHTMLImageElement
 nsIDOMNSHTMLImageElement
 nsIJSNativeInitializer
-imgIContainerObserver
 imgIDecoderObserver
 nsIImageLoadingContent
 )

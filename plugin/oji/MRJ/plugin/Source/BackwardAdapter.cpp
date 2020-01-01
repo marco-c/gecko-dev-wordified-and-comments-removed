@@ -7381,11 +7381,10 @@ mStreamInfo
 )
 ;
 }
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS1
 (
 CPluginInputStream
 nsIPluginInputStream
-nsIInputStream
 )
 NS_METHOD
 CPluginInputStream
