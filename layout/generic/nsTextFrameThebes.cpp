@@ -363,13 +363,6 @@ h
 #
 include
 "
-nsBidiFrames
-.
-h
-"
-#
-include
-"
 nsBidiPresUtils
 .
 h
