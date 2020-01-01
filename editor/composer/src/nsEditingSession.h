@@ -330,9 +330,6 @@ nsComposerCommandsUpdater
 >
 mStateMaintainer
 ;
-nsWeakPtr
-mWindowToBeEdited
-;
 nsCString
 mEditorType
 ;
