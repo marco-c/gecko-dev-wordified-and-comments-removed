@@ -27242,7 +27242,7 @@ if
 fun
 -
 >
-hasScript
+isInterpreted
 (
 )
 )
