@@ -201,6 +201,13 @@ PRInt64
 aNewFolder
 )
 ;
+PRBool
+IsRealBookmark
+(
+PRInt64
+aPlaceId
+)
+;
 nsresult
 OnQuit
 (
@@ -650,6 +657,12 @@ nsCOMPtr
 mozIStorageStatement
 >
 mDBIsBookmarkedInDatabase
+;
+nsCOMPtr
+<
+mozIStorageStatement
+>
+mDBIsRealBookmark
 ;
 nsCOMPtr
 <

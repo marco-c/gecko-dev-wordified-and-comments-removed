@@ -6875,7 +6875,7 @@ frecency
 .
 bookmarkVisitBonus
 "
-150
+75
 )
 ;
 pref
