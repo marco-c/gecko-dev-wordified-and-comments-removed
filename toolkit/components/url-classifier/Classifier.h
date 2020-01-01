@@ -231,6 +231,11 @@ DropStores
 )
 ;
 nsresult
+CreateStoreDirectory
+(
+)
+;
+nsresult
 SetupPathNames
 (
 )
