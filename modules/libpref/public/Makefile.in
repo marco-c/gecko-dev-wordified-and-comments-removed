@@ -442,10 +442,6 @@ NULL
 XPIDLSRCS
 =
 \
-nsIPref
-.
-idl
-\
 nsIPrefBranchInternal
 .
 idl

@@ -458,9 +458,6 @@ config
 mk
 CPPSRCS
 =
-nsPref
-.
-cpp
 \
 nsPrefBranch
 .
