@@ -84,11 +84,12 @@ nsSVGTextFrameBase
 (
 aContext
 )
-mPositioningDirty
-(
-true
-)
 {
+AddStateBits
+(
+NS_STATE_SVG_POSITIONING_DIRTY
+)
+;
 }
 public
 :
@@ -365,9 +366,6 @@ nsAutoPtr
 gfxMatrix
 >
 mCanvasTM
-;
-bool
-mPositioningDirty
 ;
 }
 ;
