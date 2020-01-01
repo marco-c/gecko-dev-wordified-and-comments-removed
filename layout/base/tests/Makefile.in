@@ -515,10 +515,6 @@ subframe
 .
 xml
 \
-bug495648
-.
-rdf
-\
 decoration_line_rendering
 .
 js
@@ -632,10 +628,6 @@ test_bug435293
 skew
 .
 html
-\
-test_bug495648
-.
-xul
 \
 test_bug514127
 .
