@@ -672,6 +672,13 @@ R
 (
 topsrcdir
 )
+/
+(
+MOZ_BUILD_APP
+)
+/
+.
+.
 parent
 -
 -
@@ -719,6 +726,13 @@ cd
 (
 topsrcdir
 )
+/
+(
+MOZ_BUILD_APP
+)
+/
+.
+.
 &
 &
 hg
