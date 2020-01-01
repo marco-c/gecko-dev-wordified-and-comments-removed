@@ -3592,6 +3592,13 @@ stream
 calculate_data
 ;
 int
+this_size
+next_size
+;
+ogg_int64_t
+r
+;
+int
 mode
 =
 (
@@ -3648,7 +3655,6 @@ mode_sizes_length
 return
 0
 ;
-int
 this_size
 =
 info
@@ -3668,12 +3674,6 @@ info
 -
 >
 short_size
-;
-int
-next_size
-;
-ogg_int64_t
-r
 ;
 mode
 =
