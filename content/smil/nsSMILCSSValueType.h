@@ -190,6 +190,9 @@ aString
 nsSMILValue
 &
 aValue
+PRBool
+*
+aIsContextSensitive
 )
 ;
 static

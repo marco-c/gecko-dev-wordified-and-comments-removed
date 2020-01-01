@@ -1693,6 +1693,9 @@ nsStyleAnimation
 Value
 &
 aStyleAnimValue
+PRBool
+*
+aIsContextSensitive
 )
 {
 PRBool
@@ -1760,6 +1763,17 @@ aStyleAnimValue
 {
 return
 PR_FALSE
+;
+}
+if
+(
+aIsContextSensitive
+)
+{
+*
+aIsContextSensitive
+=
+PR_TRUE
 ;
 }
 if
@@ -1849,6 +1863,9 @@ aString
 nsSMILValue
 &
 aValue
+PRBool
+*
+aIsContextSensitive
 )
 {
 NS_ABORT_IF_FALSE
@@ -1916,6 +1933,7 @@ aTargetElement
 presContext
 aString
 parsedValue
+aIsContextSensitive
 )
 )
 {
