@@ -330,7 +330,7 @@ AutoDestroyHWND
 HWND
 aWnd
 =
-NULL
+nullptr
 )
 :
 mWnd
@@ -379,7 +379,7 @@ mWnd
 ;
 mWnd
 =
-NULL
+nullptr
 ;
 return
 w
@@ -2224,7 +2224,7 @@ mSurface
 =
 CreateSurfaceForWindow
 (
-NULL
+nullptr
 config
 )
 ;
@@ -2286,7 +2286,7 @@ mSurface
 ;
 mSurface
 =
-NULL
+nullptr
 ;
 }
 }
@@ -4655,7 +4655,7 @@ image
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -5350,7 +5350,7 @@ GLTypeForImage
 (
 mUpdateFormat
 )
-NULL
+nullptr
 )
 ;
 }

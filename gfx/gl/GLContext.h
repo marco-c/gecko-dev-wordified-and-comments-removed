@@ -689,7 +689,7 @@ PR_NewThreadPrivateIndex
 (
 &
 sCurrentGLContextTLS
-NULL
+nullptr
 )
 ;
 }
@@ -868,7 +868,7 @@ aType
 )
 {
 return
-NULL
+nullptr
 ;
 }
 GLContext
@@ -4665,7 +4665,7 @@ GLContext
 *
 currentGLContext
 =
-NULL
+nullptr
 ;
 currentGLContext
 =
