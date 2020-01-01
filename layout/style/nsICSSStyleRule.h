@@ -618,7 +618,6 @@ aOperator
 PRInt32
 CalcWeight
 (
-void
 )
 const
 ;
@@ -688,6 +687,12 @@ CanBeNamespaced
 (
 PRBool
 aIsNegated
+)
+const
+;
+PRInt32
+CalcWeightWithoutNegations
+(
 )
 const
 ;
