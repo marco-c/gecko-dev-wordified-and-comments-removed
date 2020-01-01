@@ -122,7 +122,7 @@ previous
 ;
 void
 *
-unused
+scratch
 ;
 JSFrameRegs
 regs
