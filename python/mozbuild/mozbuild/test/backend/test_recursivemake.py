@@ -122,6 +122,39 @@ built
 )
 )
 )
+        
+self
+.
+assertTrue
+(
+os
+.
+path
+.
+exists
+(
+os
+.
+path
+.
+join
+(
+env
+.
+topobjdir
+            
+'
+backend
+.
+RecursiveMakeBackend
+.
+built
+.
+pp
+'
+)
+)
+)
     
 def
 test_output_files
@@ -604,8 +637,6 @@ readlines
 [
 2
 :
--
-1
 ]
 ]
         
@@ -656,13 +687,6 @@ TEST_DIRS
 :
 =
 dir3
-'
-            
-'
-SUBSTITUTE_FILES
-+
-=
-Makefile
 '
         
 ]
@@ -908,8 +932,6 @@ readlines
 [
 2
 :
--
-1
 ]
 ]
         
@@ -967,13 +989,6 @@ PARALLEL_DIRS
 +
 =
 p_external
-'
-            
-'
-SUBSTITUTE_FILES
-+
-=
-Makefile
 '
         
 ]
@@ -1159,8 +1174,6 @@ readlines
 [
 2
 :
--
-1
 ]
 ]
         
@@ -1390,8 +1403,6 @@ readlines
 [
 2
 :
--
-1
 ]
 ]
         
@@ -1593,8 +1604,6 @@ readlines
 [
 2
 :
--
-1
 ]
 ]
         

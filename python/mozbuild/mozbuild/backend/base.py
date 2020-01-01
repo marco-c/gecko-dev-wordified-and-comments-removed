@@ -464,6 +464,14 @@ BackendConsumeSummary
         
 self
 .
+backend_input_files
+=
+set
+(
+)
+        
+self
+.
 _environments
 =
 {
@@ -789,6 +797,23 @@ time
 )
 -
 obj_start
+            
+if
+isinstance
+(
+obj
+SandboxDerived
+)
+:
+                
+self
+.
+backend_input_files
+|
+=
+obj
+.
+sandbox_all_paths
             
 if
 isinstance
