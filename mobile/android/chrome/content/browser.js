@@ -7738,6 +7738,8 @@ BrowserApp
 getBrowserForWindow
 (
 aOpener
+.
+top
 )
 )
 ;
