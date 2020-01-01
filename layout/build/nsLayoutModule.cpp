@@ -1148,7 +1148,7 @@ h
 #
 include
 "
-nsDeviceMotion
+nsDeviceSensors
 .
 h
 "
@@ -1375,7 +1375,7 @@ AudioManager
 endif
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
-nsDeviceMotion
+nsDeviceSensors
 )
 #
 ifndef
@@ -3530,7 +3530,7 @@ NS_STRUCTUREDCLONECONTAINER_CID
 ;
 NS_DEFINE_NAMED_CID
 (
-NS_DEVICE_MOTION_CID
+NS_DEVICE_SENSORS_CID
 )
 ;
 #
@@ -5008,10 +5008,10 @@ nsSecurityNameSetConstructor
 }
 {
 &
-kNS_DEVICE_MOTION_CID
+kNS_DEVICE_SENSORS_CID
 false
 NULL
-nsDeviceMotionConstructor
+nsDeviceSensorsConstructor
 }
 #
 ifndef
@@ -6241,9 +6241,9 @@ NS_SECURITYNAMESET_CONTRACTID
 kNS_SECURITYNAMESET_CID
 }
 {
-NS_DEVICE_MOTION_CONTRACTID
+NS_DEVICE_SENSORS_CONTRACTID
 &
-kNS_DEVICE_MOTION_CID
+kNS_DEVICE_SENSORS_CID
 }
 #
 ifndef

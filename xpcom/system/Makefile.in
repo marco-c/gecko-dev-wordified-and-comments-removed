@@ -455,7 +455,7 @@ nsIGSettingsService
 .
 idl
 \
-nsIDeviceMotion
+nsIDeviceSensors
 .
 idl
 \

@@ -414,7 +414,7 @@ A470
 )
 ]
 interface
-nsIDeviceMotionData
+nsIDeviceSensorData
 :
 nsISupports
 {
@@ -503,7 +503,7 @@ a9ef
 )
 ]
 interface
-nsIDeviceMotion
+nsIDeviceSensors
 :
 nsISupports
 {
