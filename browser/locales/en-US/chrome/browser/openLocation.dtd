@@ -75,12 +75,12 @@ Tab
 <
 !
 ENTITY
-topWindow
+topTab
 .
 label
 "
 Current
-Window
+Tab
 "
 >
 <
