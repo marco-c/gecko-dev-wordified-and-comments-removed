@@ -193,7 +193,7 @@ false
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 Preferences

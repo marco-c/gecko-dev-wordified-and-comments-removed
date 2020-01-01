@@ -287,7 +287,7 @@ n
 endif
 sInitialized
 =
-PR_TRUE
+true
 ;
 }
 nsIdleServiceGTK

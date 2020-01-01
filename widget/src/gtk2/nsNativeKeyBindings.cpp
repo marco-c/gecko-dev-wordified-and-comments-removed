@@ -105,7 +105,7 @@ copy_clipboard
 ;
 gHandled
 =
-PR_TRUE
+true
 ;
 }
 static
@@ -137,7 +137,7 @@ cut_clipboard
 ;
 gHandled
 =
-PR_TRUE
+true
 ;
 }
 static
@@ -240,7 +240,7 @@ delete_from_cursor
 ;
 gHandled
 =
-PR_TRUE
+true
 ;
 bool
 forward
@@ -625,7 +625,7 @@ move_cursor
 ;
 gHandled
 =
-PR_TRUE
+true
 ;
 bool
 forward
@@ -734,7 +734,7 @@ paste_clipboard
 ;
 gHandled
 =
-PR_TRUE
+true
 ;
 }
 static
@@ -768,7 +768,7 @@ select_all
 ;
 gHandled
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -972,7 +972,7 @@ aCallbackData
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1034,7 +1034,7 @@ keyCode
 )
 )
 return
-PR_TRUE
+true
 ;
 nsKeyEvent
 *
@@ -1075,7 +1075,7 @@ message
 NS_KEY_PRESS
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -1159,12 +1159,12 @@ keyCode
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1234,7 +1234,7 @@ aCallbackData
 ;
 gHandled
 =
-PR_FALSE
+false
 ;
 gtk_bindings_activate
 (
@@ -1279,6 +1279,6 @@ aCallbackData
 )
 {
 return
-PR_FALSE
+false
 ;
 }

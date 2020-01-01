@@ -1443,7 +1443,7 @@ gtk_minor_version
 {
 useNativeSelection
 =
-PR_TRUE
+true
 ;
 g_object_set
 (
@@ -1476,7 +1476,7 @@ else
 {
 useNativeSelection
 =
-PR_FALSE
+false
 ;
 selection_only_toggle
 =
@@ -2887,7 +2887,7 @@ aNSSettings
 >
 SetPrintToFile
 (
-PR_FALSE
+false
 )
 ;
 aNSSettings
@@ -3208,7 +3208,7 @@ i
 ;
 shouldBeCustom
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3659,7 +3659,7 @@ psService
 InitPrintSettingsFromPrefs
 (
 aNSSettings
-PR_TRUE
+true
 nsIPrintSettings
 :
 :
@@ -3723,7 +3723,7 @@ psService
 SavePrintSettingsToPrefs
 (
 aNSSettings
-PR_TRUE
+true
 nsIPrintSettings
 :
 :

@@ -653,7 +653,7 @@ mSelectedType
 )
 mAllowURLs
 (
-PR_FALSE
+false
 )
 {
 }
@@ -697,7 +697,7 @@ char
 filename
 )
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 localfile
@@ -1417,7 +1417,7 @@ rv
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsAutoString
@@ -2207,7 +2207,7 @@ GTK_FILE_CHOOSER
 (
 file_chooser
 )
-PR_TRUE
+TRUE
 )
 ;
 gint

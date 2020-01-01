@@ -277,7 +277,7 @@ sInitialized
 {
 sInitialized
 =
-PR_TRUE
+true
 ;
 InitLookAndFeel
 (
@@ -1375,7 +1375,7 @@ aResult
 gboolean
 value
 =
-PR_FALSE
+FALSE
 ;
 gtk_widget_style_get
 (
@@ -3247,12 +3247,12 @@ GetEchoPasswordImpl
 ifdef
 MOZ_PLATFORM_MAEMO
 return
-PR_TRUE
+true
 ;
 #
 else
 return
-PR_FALSE
+false
 ;
 #
 endif
