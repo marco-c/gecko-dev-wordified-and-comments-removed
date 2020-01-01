@@ -2720,7 +2720,7 @@ if
 !
 winWidget
 )
-random
+fails
 -
 if
 (
