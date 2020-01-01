@@ -3628,8 +3628,11 @@ void
 edge_
 )
 {
+DebugOnly
+<
 CrossChunkEdge
 *
+>
 edge
 =
 (
