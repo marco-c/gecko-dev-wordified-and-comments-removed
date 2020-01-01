@@ -193,7 +193,7 @@ scheduler
 .
 singleDeviceInterval
 "
-86400
+3600
 )
 ;
 pref
