@@ -491,7 +491,7 @@ mozStorageValueArray
 .
 cpp
 \
-mozStorageUnicodeFunctions
+mozStorageSQLFunctions
 .
 cpp
 \

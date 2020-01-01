@@ -1,6 +1,6 @@
 #
 ifndef
-_mozStorageUnicodeFunctions_h_
+_mozStorageSQLFunctions_h_
 #
 define
 _mozStorageUnicodeFunctions_h_
@@ -19,13 +19,16 @@ nscore
 h
 "
 namespace
-StorageUnicodeFunctions
+mozilla
+{
+namespace
+storage
 {
 NS_HIDDEN_
 (
 int
 )
-RegisterFunctions
+registerFunctions
 (
 sqlite3
 *
@@ -40,7 +43,7 @@ caseFunction
 (
 sqlite3_context
 *
-p
+aCtx
 int
 aArgc
 sqlite3_value
@@ -57,7 +60,7 @@ likeFunction
 (
 sqlite3_context
 *
-p
+aCtx
 int
 aArgc
 sqlite3_value
@@ -66,6 +69,7 @@ sqlite3_value
 aArgv
 )
 ;
+}
 }
 #
 endif
