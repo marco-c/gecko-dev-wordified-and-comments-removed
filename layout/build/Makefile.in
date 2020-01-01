@@ -466,7 +466,6 @@ MOZ_ENABLE_LIBXUL
 EXTRA_DSO_LIBS
 =
 gkgfx
-gfxutils
 endif
 EXTRA_DSO_LIBS
 +
