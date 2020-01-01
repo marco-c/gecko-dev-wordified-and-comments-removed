@@ -2233,7 +2233,7 @@ jsop_arguments
 (
 )
 ;
-void
+bool
 jsop_tableswitch
 (
 jsbytecode
