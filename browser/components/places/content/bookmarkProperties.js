@@ -933,17 +933,6 @@ _itemId
 ;
 this
 .
-_hiddenRows
-.
-push
-(
-"
-folderPicker
-"
-)
-;
-this
-.
 _readOnly
 =
 !

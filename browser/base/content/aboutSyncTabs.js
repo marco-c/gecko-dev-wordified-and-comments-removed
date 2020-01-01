@@ -710,9 +710,6 @@ description
 location
 "
 "
-folderPicker
-"
-"
 loadInSidebar
 "
 "

@@ -2101,9 +2101,6 @@ location
 loadInSidebar
 "
 "
-folderPicker
-"
-"
 keyword
 "
 ]

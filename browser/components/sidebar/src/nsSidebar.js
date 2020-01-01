@@ -888,12 +888,6 @@ keyword
 "
 location
 "
-"
-folderPicker
-"
-"
-loadInSidebar
-"
 ]
 uri
 :

@@ -8756,9 +8756,6 @@ location
 loadInSidebar
 "
 "
-folderPicker
-"
-"
 keyword
 "
 ]
