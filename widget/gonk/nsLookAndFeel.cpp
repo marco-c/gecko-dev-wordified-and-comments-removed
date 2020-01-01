@@ -1108,3 +1108,15 @@ return
 true
 ;
 }
+uint32_t
+nsLookAndFeel
+:
+:
+GetPasswordMaskDelayImpl
+(
+)
+{
+return
+1500
+;
+}
