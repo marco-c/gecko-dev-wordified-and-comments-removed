@@ -1345,13 +1345,6 @@ if
 aBorderCollapse
 )
 {
-if
-(
-aReflowState
-.
-frame
-)
-{
 nsTableRowFrame
 *
 rowFrame
@@ -1378,7 +1371,6 @@ GetBCBorderWidth
 collapseBorder
 )
 ;
-}
 }
 }
 aReflowState
