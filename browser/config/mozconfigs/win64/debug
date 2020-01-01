@@ -68,14 +68,10 @@ MOZ_PACKAGE_JSSHELL
 .
 topsrcdir
 /
-browser
-/
-config
-/
-mozconfigs
+build
 /
 win64
 /
-vs2010
--
 mozconfig
+.
+vs2010

@@ -47,14 +47,10 @@ central
 .
 topsrcdir
 /
-browser
-/
-config
-/
-mozconfigs
+build
 /
 win32
 /
-vs2010
--
 mozconfig
+.
+vs2010
