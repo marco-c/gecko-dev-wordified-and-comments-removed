@@ -823,12 +823,6 @@ mTransaction
 IsAborted
 (
 )
-&
-&
-NS_SUCCEEDED
-(
-mResultCode
-)
 )
 {
 mResultCode
