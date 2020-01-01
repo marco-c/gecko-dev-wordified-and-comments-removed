@@ -1946,6 +1946,8 @@ nsINode
 aNode
 PRBool
 aDeep
+PRBool
+aCallUserDataHandlers
 nsIDOMNode
 *
 *
@@ -2004,6 +2006,9 @@ GetOwnerDoc
 if
 (
 ownerDoc
+&
+&
+aCallUserDataHandlers
 )
 {
 rv

@@ -23902,6 +23902,8 @@ CloneNodeImpl
 (
 this
 aDeep
+!
+mCreatingStaticClone
 aReturn
 )
 ;
