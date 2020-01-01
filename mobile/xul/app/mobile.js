@@ -449,18 +449,6 @@ warn
 pref
 (
 "
-browser
-.
-cache
-.
-compression_level
-"
-1
-)
-;
-pref
-(
-"
 network
 .
 protocol
@@ -5082,6 +5070,7 @@ Form
 History
 Password
 Prefs
+Addons
 "
 )
 ;
