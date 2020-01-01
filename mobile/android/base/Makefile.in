@@ -2899,7 +2899,7 @@ drawable
 -
 nodpi
 /
-tabs_tray_selected_bg
+tabs_tray_dark_bg
 .
 png
 \
@@ -9664,7 +9664,7 @@ resources
 /
 drawable
 /
-tabs_tray_selected_bg_repeat
+tabs_tray_dark_bg_repeat
 .
 xml
 \
