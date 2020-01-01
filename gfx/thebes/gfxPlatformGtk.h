@@ -491,6 +491,12 @@ GetPlatformCMSOutputProfile
 (
 )
 ;
+virtual
+bool
+SupportsOffMainThreadCompositing
+(
+)
+;
 #
 ifdef
 MOZ_X11

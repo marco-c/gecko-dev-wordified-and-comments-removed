@@ -374,6 +374,12 @@ GetPlatformCMSOutputProfile
 (
 )
 ;
+virtual
+bool
+SupportsOffMainThreadCompositing
+(
+)
+;
 static
 uint32_t
 ReadAntiAliasingThreshold
