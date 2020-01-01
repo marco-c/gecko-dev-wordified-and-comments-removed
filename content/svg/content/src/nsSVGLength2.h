@@ -409,6 +409,17 @@ nsSVGElement
 aSVGElement
 )
 ;
+already_AddRefed
+<
+nsIDOMSVGAnimatedLength
+>
+ToDOMAnimatedLength
+(
+nsSVGElement
+*
+aSVGElement
+)
+;
 nsISMILAttr
 *
 ToSMILAttr
