@@ -616,6 +616,10 @@ test_plugin_clipping
 .
 xhtml
 \
+test_plugin_position
+.
+xhtml
+\
 test_selection_underline
 .
 html
@@ -626,11 +630,6 @@ NULL
 #
 disabled
 temporarily
-#
-test_plugin_position
-.
-xhtml
-\
 #
 test_bug488417
 .
