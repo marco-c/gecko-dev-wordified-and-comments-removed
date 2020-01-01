@@ -42,6 +42,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

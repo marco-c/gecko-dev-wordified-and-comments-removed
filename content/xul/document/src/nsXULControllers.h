@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsWeakPtr
 .
 h

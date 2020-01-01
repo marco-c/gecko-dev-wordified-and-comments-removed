@@ -7,6 +7,13 @@ FRAMEPROPERTYTABLE_H_
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsTHashtable
 .
 h

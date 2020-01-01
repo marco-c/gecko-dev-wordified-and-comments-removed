@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsDataHashtable
+.
+h
+"
+#
+include
+"
 nsStringGlue
 .
 h
@@ -15,7 +22,7 @@ h
 #
 include
 "
-nsDataHashtable
+nsTArray
 .
 h
 "

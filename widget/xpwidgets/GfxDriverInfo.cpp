@@ -12,6 +12,13 @@ nsIGfxInfo
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 using
 namespace
 mozilla

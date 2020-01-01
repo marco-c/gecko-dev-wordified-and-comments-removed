@@ -73,6 +73,16 @@ nsIHashable
 class
 nsIRemoteOpenFileListener
 ;
+template
+<
+class
+E
+uint32_t
+N
+>
+class
+nsAutoTArray
+;
 class
 nsJARProtocolHandler
 :

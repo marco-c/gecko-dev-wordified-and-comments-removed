@@ -35,6 +35,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 GLContextTypes
 .
 h
