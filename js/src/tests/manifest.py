@@ -45,6 +45,13 @@ tail
 :
             
 break
+        
+dirs
+.
+append
+(
+path
+)
     
 return
 dirs
