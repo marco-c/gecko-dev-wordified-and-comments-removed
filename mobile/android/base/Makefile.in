@@ -206,6 +206,10 @@ AndroidImportPreference
 .
 java
 \
+AnimatorProxy
+.
+java
+\
 AlertNotification
 .
 java
