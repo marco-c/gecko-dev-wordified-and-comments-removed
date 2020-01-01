@@ -967,7 +967,7 @@ self
 .
 _devicemanager
 .
-deviceSerial
+_deviceSerial
         
 status
 =
