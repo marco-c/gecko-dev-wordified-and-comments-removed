@@ -211,6 +211,10 @@ mOwnsData
 (
 PR_FALSE
 )
+mData
+(
+nsnull
+)
 mFormat
 (
 format
@@ -264,13 +268,6 @@ if
 mData
 )
 return
-;
-}
-else
-{
-mData
-=
-nsnull
 ;
 }
 mOwnsData
