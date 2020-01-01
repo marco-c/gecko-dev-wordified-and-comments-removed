@@ -811,17 +811,6 @@ IsScriptExecuting
 (
 )
 ;
-virtual
-void
-ScrollToRef
-(
-)
-{
-ScrollToRefImpl
-(
-)
-;
-}
 NS_IMETHOD
 OpenContainer
 (

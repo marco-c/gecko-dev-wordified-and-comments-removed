@@ -420,17 +420,6 @@ GetTarget
 ;
 virtual
 void
-ScrollToRef
-(
-)
-{
-ScrollToRefImpl
-(
-)
-;
-}
-virtual
-void
 UpdateChildCounts
 (
 )

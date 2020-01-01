@@ -401,13 +401,6 @@ return
 mTargetDocument
 ;
 }
-virtual
-void
-ScrollToRef
-(
-)
-{
-}
 NS_IMETHOD
 BeginContext
 (
