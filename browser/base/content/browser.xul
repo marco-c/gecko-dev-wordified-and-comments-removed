@@ -3032,6 +3032,11 @@ defaulticonsize
 "
 small
 "
+lockiconsize
+=
+"
+true
+"
 #
 ifdef
 XP_WIN
@@ -5523,6 +5528,11 @@ defaulticonsize
 =
 "
 small
+"
+lockiconsize
+=
+"
+true
 "
 class
 =
