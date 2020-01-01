@@ -570,9 +570,6 @@ fragment
 public
 :
 unsigned
-entryNativeStackSlots
-;
-unsigned
 maxNativeStackSlots
 ;
 ptrdiff_t
@@ -780,7 +777,7 @@ p
 const
 ;
 ptrdiff_t
-nativeStackOffset
+nativeGlobalOffset
 (
 jsval
 *
@@ -789,7 +786,7 @@ p
 const
 ;
 ptrdiff_t
-nativeGlobalOffset
+nativeStackOffset
 (
 jsval
 *
