@@ -397,6 +397,8 @@ virtual
 void
 Resume
 (
+PRBool
+aForceBuffering
 )
 =
 0
@@ -437,6 +439,11 @@ aPixelAspectRatio
 Image
 *
 aImage
+)
+;
+PRBool
+CanPlayThrough
+(
 )
 ;
 protected

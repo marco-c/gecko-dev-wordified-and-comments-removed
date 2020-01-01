@@ -288,6 +288,14 @@ aTime
 =
 0
 ;
+virtual
+void
+StartBuffering
+(
+)
+=
+0
+;
 }
 ;
 class
@@ -517,6 +525,8 @@ virtual
 void
 Resume
 (
+PRBool
+aForceBuffering
 )
 ;
 virtual

@@ -216,6 +216,12 @@ aTime
 ;
 virtual
 void
+StartBuffering
+(
+)
+;
+virtual
+void
 LoadMetadata
 (
 )

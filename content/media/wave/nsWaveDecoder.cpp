@@ -5788,6 +5788,8 @@ nsWaveDecoder
 :
 Resume
 (
+PRBool
+aForceBuffering
 )
 {
 if
