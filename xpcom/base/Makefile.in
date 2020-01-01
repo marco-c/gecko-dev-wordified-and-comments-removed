@@ -581,6 +581,10 @@ nsIID
 .
 h
 \
+nsISizeOf
+.
+h
+\
 nsISupportsObsolete
 .
 h
