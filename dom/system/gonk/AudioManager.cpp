@@ -749,6 +749,9 @@ nsCString
 aAddress
 )
 {
+#
+ifdef
+MOZ_B2G_BT
 bool
 status
 ;
@@ -1070,6 +1073,8 @@ get
 )
 ;
 }
+#
+endif
 }
 nsresult
 AudioManager
