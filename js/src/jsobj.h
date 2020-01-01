@@ -1037,6 +1037,12 @@ __parent__
 )
 ;
 }
+JSObject
+*
+getGlobal
+(
+)
+;
 void
 *
 getPrivate

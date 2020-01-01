@@ -1471,9 +1471,6 @@ else
 {
 thisp
 =
-JS_GetGlobalForObject
-(
-cx
 JSVAL_TO_OBJECT
 (
 argv
@@ -1482,6 +1479,10 @@ argv
 2
 ]
 )
+-
+>
+getGlobal
+(
 )
 ;
 }
