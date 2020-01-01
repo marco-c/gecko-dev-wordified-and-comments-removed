@@ -535,6 +535,12 @@ OnIMESelectionChange
 void
 )
 ;
+virtual
+nsIMEUpdatePreference
+GetIMEUpdatePreference
+(
+)
+;
 NS_IMETHOD
 SetCursor
 (
