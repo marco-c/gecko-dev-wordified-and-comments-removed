@@ -4982,10 +4982,6 @@ aForFrame
 nsIFrame
 *
 aViewportFrame
-const
-nsRect
-&
-aDisplayPort
 )
 ;
 NS_DISPLAY_DECL_NAME
@@ -5064,9 +5060,6 @@ private
 nsIFrame
 *
 mViewportFrame
-;
-nsRect
-mDisplayPort
 ;
 }
 ;

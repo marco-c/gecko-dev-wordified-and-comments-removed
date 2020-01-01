@@ -598,6 +598,17 @@ aRootFrameLoader
 AsyncScrollEnabled
 (
 )
+&
+&
+!
+aMetrics
+-
+>
+mDisplayPort
+.
+IsEmpty
+(
+)
 )
 {
 nsIntPoint
