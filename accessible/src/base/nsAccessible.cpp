@@ -11665,8 +11665,9 @@ child
 mParent
 -
 >
-InvalidateChildren
+RemoveChild
 (
+this
 )
 ;
 }
