@@ -911,7 +911,7 @@ uri
 mRequest
 -
 >
-GetURI
+GetKeyURI
 (
 getter_AddRefs
 (
@@ -981,7 +981,7 @@ uri
 mRequest
 -
 >
-GetURI
+GetKeyURI
 (
 getter_AddRefs
 (
@@ -3876,7 +3876,7 @@ NS_SUCCEEDED
 request
 -
 >
-GetURI
+GetKeyURI
 (
 getter_AddRefs
 (
@@ -4545,6 +4545,7 @@ request
 Init
 (
 aURI
+aURI
 loadGroup
 newChannel
 entry
@@ -5157,6 +5158,7 @@ request
 Init
 (
 originalURI
+uri
 channel
 channel
 entry
@@ -6426,6 +6428,7 @@ request
 Init
 (
 originalURI
+uri
 channel
 channel
 entry
