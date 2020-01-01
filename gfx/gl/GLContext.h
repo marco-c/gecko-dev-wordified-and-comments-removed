@@ -3858,6 +3858,7 @@ OES_texture_float
 ARB_texture_float
 EXT_unpack_subimage
 OES_standard_derivatives
+EXT_texture_filter_anisotropic
 EXT_framebuffer_blit
 ANGLE_framebuffer_blit
 EXT_framebuffer_multisample
