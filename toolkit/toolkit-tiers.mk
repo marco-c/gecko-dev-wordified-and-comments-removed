@@ -1087,4 +1087,10 @@ testing
 tools
 /
 screenshot
+tier_platform_dirs
++
+=
+testing
+/
+peptest
 endif
