@@ -10,6 +10,13 @@ process
 )
 mozilla_StartupTimeline_Event
 (
+START
+"
+start
+"
+)
+mozilla_StartupTimeline_Event
+(
 MAIN
 "
 main
