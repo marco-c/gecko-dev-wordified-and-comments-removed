@@ -1626,7 +1626,7 @@ devtools
 /
 tool
 -
-profiler
+network
 .
 png
 "
