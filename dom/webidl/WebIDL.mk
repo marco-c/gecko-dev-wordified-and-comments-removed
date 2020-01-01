@@ -72,6 +72,16 @@ webidl
 (
 NULL
 )
+preprocessed_webidl_files
+=
+\
+Navigator
+.
+webidl
+\
+(
+NULL
+)
 webidl_files
 =
 \
@@ -800,10 +810,6 @@ MutationEvent
 webidl
 \
 MutationObserver
-.
-webidl
-\
-Navigator
 .
 webidl
 \
