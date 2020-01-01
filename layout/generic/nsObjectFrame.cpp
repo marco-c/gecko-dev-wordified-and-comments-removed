@@ -6478,6 +6478,12 @@ NS_RELEASE
 mInstanceOwner
 )
 ;
+mWindowlessRect
+.
+Empty
+(
+)
+;
 }
 void
 nsObjectFrame
