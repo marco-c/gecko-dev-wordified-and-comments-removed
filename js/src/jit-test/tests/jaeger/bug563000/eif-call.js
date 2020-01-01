@@ -8,10 +8,6 @@ callee
 (
 )
 {
-assertJit
-(
-)
-;
 evalInFrame
 (
 1
@@ -30,10 +26,6 @@ caller
 (
 )
 {
-assertJit
-(
-)
-;
 var
 x
 =

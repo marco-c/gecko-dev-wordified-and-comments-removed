@@ -15,10 +15,6 @@ caller
 obj
 )
 {
-assertJit
-(
-)
-;
 var
 x
 =
@@ -33,7 +29,7 @@ x
 trap
 (
 caller
-20
+9
 "
 x
 =
