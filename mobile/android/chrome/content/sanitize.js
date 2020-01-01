@@ -935,6 +935,9 @@ canClear
 (
 )
 {
+let
+count
+=
 Services
 .
 logins
