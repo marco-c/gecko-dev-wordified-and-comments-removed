@@ -287,16 +287,6 @@ AppendElement
 (
 )
 ;
-if
-(
-!
-p
-)
-{
-return
-nsnull
-;
-}
 p
 -
 >
@@ -328,7 +318,7 @@ mValue
 ;
 private
 :
-nsTArray
+InfallibleTArray
 <
 PropertyValuePair
 >
