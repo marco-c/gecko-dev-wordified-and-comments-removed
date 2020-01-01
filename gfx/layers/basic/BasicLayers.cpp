@@ -1883,6 +1883,9 @@ Save
 (
 )
 ;
+gfxUtils
+:
+:
 ClipToRegion
 (
 aTarget
