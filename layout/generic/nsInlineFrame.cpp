@@ -3997,7 +3997,7 @@ return
 a11y
 :
 :
-eImageType
+eHyperTextType
 ;
 if
 (
