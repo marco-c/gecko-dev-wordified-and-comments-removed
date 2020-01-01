@@ -165,6 +165,10 @@ browser_formdata_format_sample
 .
 html
 \
+browser_pageshow
+.
+js
+\
 browser_248970_b_perwindowpb
 .
 js
