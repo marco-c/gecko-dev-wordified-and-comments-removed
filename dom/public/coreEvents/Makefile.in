@@ -442,10 +442,6 @@ nsIDOMMouseMotionListener
 .
 h
 \
-nsIDOMDragListener
-.
-h
-\
 nsIDOMTextListener
 .
 h
