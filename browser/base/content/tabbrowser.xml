@@ -4653,7 +4653,7 @@ this
 .
 mFaviconService
 .
-setAndLoadFaviconForPage
+setAndFetchFaviconForPage
 (
 browser
 .
