@@ -3763,9 +3763,9 @@ AttributeWillChange
 nsIDocument
 *
 aDocument
-Element
+nsIContent
 *
-aElement
+aContent
 PRInt32
 aNameSpaceID
 nsIAtom
@@ -3777,7 +3777,7 @@ aModType
 {
 NS_ABORT_IF_FALSE
 (
-aElement
+aContent
 "
 Null
 content
@@ -3823,7 +3823,7 @@ id
 &
 &
 !
-aElement
+aContent
 -
 >
 GetIDAttributeName
@@ -3843,7 +3843,12 @@ this
 ;
 RemoveElementFromRefMap
 (
-aElement
+aContent
+-
+>
+AsElement
+(
+)
 )
 ;
 }

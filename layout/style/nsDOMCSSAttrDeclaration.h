@@ -1,9 +1,9 @@
 #
 ifndef
-nsDOMCSSAttributeDeclaration_h
+nsDOMCSSAttributeDeclaration_h___
 #
 define
-nsDOMCSSAttributeDeclaration_h
+nsDOMCSSAttributeDeclaration_h___
 #
 include
 "

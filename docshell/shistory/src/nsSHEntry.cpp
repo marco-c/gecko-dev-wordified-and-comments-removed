@@ -2642,10 +2642,7 @@ AttributeWillChange
 nsIDocument
 *
 aDocument
-dom
-:
-:
-Element
+nsIContent
 *
 aContent
 PRInt32
