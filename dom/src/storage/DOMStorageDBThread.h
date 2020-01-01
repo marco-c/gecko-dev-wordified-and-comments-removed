@@ -976,6 +976,11 @@ TryJournalMode
 (
 )
 ;
+nsresult
+ConfigureWALBehavior
+(
+)
+;
 void
 SetHigherPriority
 (
