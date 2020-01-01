@@ -783,9 +783,10 @@ I
 topsrcdir
 )
 /
-toolkit
+xpcom
 /
-xre
+base
+/
 \
 (
 NULL

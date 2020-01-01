@@ -551,9 +551,9 @@ I
 topsrcdir
 )
 /
-toolkit
+xpcom
 /
-xre
+base
 else
 ifeq
 (
