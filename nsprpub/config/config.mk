@@ -455,7 +455,7 @@ example
 :
 #
 #
-BUILD_OPT
+MOZ_OPTIMIZE
 =
 1
 #
