@@ -64,6 +64,10 @@ browser_devtools_api
 .
 js
 \
+browser_dynamic_tool_enabling
+.
+js
+\
 browser_new_activation_workflow
 .
 js
