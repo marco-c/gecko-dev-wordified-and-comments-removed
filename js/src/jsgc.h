@@ -5562,14 +5562,12 @@ ArenaHeader
 *
 unmarkedArenaStackTop
 ;
-#
-ifdef
-DEBUG
+DebugOnly
+<
 size_t
+>
 markLaterArenas
 ;
-#
-endif
 #
 ifdef
 JS_DUMP_CONSERVATIVE_GC_ROOTS
