@@ -597,6 +597,9 @@ PRPackedBool
 mIsRestoringDocument
 ;
 PRPackedBool
+mDontFlushLayout
+;
+PRPackedBool
 mIsFlushingLayout
 ;
 private
