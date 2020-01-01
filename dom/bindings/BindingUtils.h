@@ -7368,7 +7368,7 @@ JSBool
 bp
 )
 ;
-void
+bool
 ReportLenientThisUnwrappingFailure
 (
 JSContext
