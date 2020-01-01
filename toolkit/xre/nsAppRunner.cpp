@@ -17803,8 +17803,9 @@ nsXREAppData
 aAppData
 )
 {
-GeckoProfilerInitRAII
-profilerGuard
+profiler_init
+(
+)
 ;
 PROFILER_LABEL
 (
@@ -18129,6 +18130,10 @@ mGdkDisplay
 ;
 #
 endif
+profiler_shutdown
+(
+)
+;
 rv
 =
 LaunchChild
@@ -18201,6 +18206,10 @@ UnsetExceptionHandler
 #
 endif
 XRE_DeinitCommandLine
+(
+)
+;
+profiler_shutdown
 (
 )
 ;
@@ -18471,8 +18480,9 @@ nsXREAppData
 aAppData
 )
 {
-GeckoProfilerInitRAII
-profilerGuard
+profiler_init
+(
+)
 ;
 PROFILER_LABEL
 (
@@ -18612,6 +18622,10 @@ are
 exiting
 .
 "
+)
+;
+profiler_shutdown
+(
 )
 ;
 return
