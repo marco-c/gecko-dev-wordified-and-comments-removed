@@ -710,7 +710,7 @@ OCSP
 .
 enabled
 "
-0
+1
 )
 ;
 pref
