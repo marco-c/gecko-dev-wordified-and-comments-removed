@@ -609,12 +609,6 @@ frameSize
 JSC
 :
 :
-CodeLocationLabel
-funGuardLabel
-;
-JSC
-:
-:
 CodeLocationDataLabelPtr
 funGuard
 ;
@@ -629,12 +623,6 @@ JSC
 :
 CodeLocationJump
 funJump
-;
-JSC
-:
-:
-CodeLocationLabel
-funJumpTarget
 ;
 bool
 hasIonStub_

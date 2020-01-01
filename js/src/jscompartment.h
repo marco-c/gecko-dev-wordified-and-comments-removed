@@ -1349,17 +1349,6 @@ TaggedProto
 proto
 )
 ;
-js
-:
-:
-CallsiteCloneTable
-callsiteClones
-;
-void
-sweepCallsiteClones
-(
-)
-;
 size_t
 gcMallocAndFreeBytes
 ;
