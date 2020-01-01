@@ -666,13 +666,11 @@ OnSelectionChange
 void
 )
 {
-if
+NS_ENSURE_TRUE
 (
-!
 sTsfTextStore
+NS_ERROR_NOT_AVAILABLE
 )
-return
-NS_OK
 ;
 return
 sTsfTextStore

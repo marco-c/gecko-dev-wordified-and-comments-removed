@@ -901,9 +901,6 @@ aOpaqueRegion
 ;
 #
 endif
-#
-ifdef
-NS_ENABLE_TSF
 NS_IMETHOD
 OnIMEFocusChange
 (
@@ -911,6 +908,9 @@ bool
 aFocus
 )
 ;
+#
+ifdef
+NS_ENABLE_TSF
 NS_IMETHOD
 OnIMETextChange
 (
@@ -922,12 +922,17 @@ uint32_t
 aNewEnd
 )
 ;
+#
+endif
 NS_IMETHOD
 OnIMESelectionChange
 (
 void
 )
 ;
+#
+ifdef
+NS_ENABLE_TSF
 virtual
 nsIMEUpdatePreference
 GetIMEUpdatePreference
