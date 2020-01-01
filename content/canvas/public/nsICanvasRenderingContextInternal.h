@@ -48,9 +48,6 @@ class
 gfxContext
 ;
 class
-gfxASurface
-;
-class
 nsICanvasRenderingContextInternal
 :
 public
@@ -108,17 +105,6 @@ nsIInputStream
 *
 *
 aStream
-)
-=
-0
-;
-NS_IMETHOD
-GetThebesSurface
-(
-gfxASurface
-*
-*
-surface
 )
 =
 0
