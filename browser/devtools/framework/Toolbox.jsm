@@ -2584,6 +2584,9 @@ boundLoad
 true
 )
 ;
+let
+built
+=
 definition
 .
 build
@@ -2592,6 +2595,13 @@ iframe
 .
 contentWindow
 this
+)
+;
+Promise
+.
+resolve
+(
+built
 )
 .
 then
