@@ -3765,6 +3765,15 @@ hildon
 mime
 .
 h
+hildon
+-
+file
+-
+chooser
+-
+dialog
+.
+h
 #
 endif
 #
