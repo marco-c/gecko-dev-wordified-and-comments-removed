@@ -1283,7 +1283,7 @@ rect
 mWidget
 -
 >
-GetBounds
+GetClientBounds
 (
 rect
 )
@@ -1568,7 +1568,7 @@ rect
 mWidget
 -
 >
-GetBounds
+GetClientBounds
 (
 rect
 )
@@ -1755,7 +1755,7 @@ rect
 mWidget
 -
 >
-GetBounds
+GetClientBounds
 (
 rect
 )
