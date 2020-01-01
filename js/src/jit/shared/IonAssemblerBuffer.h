@@ -988,9 +988,6 @@ count
 =
 0
 ;
-char
-sigil
-;
 if
 (
 local_off
