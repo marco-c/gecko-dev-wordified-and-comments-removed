@@ -2156,6 +2156,11 @@ url
 line
 )
 ;
+if
+(
+breakpointClient
+)
+{
 let
 conditionalExpression
 =
@@ -2184,6 +2189,7 @@ true
 ;
 return
 ;
+}
 }
 }
 if
