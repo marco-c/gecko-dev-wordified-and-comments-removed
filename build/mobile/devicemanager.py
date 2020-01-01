@@ -818,6 +818,11 @@ recvGuard
 )
 :
           
+temp
+=
+'
+'
+          
 if
 (
 self
@@ -956,10 +961,19 @@ data
 =
 temp
           
-loopguard
+if
+(
+temp
 =
+=
+'
+'
+)
+:
+            
 loopguard
 +
+=
 1
     
 if
