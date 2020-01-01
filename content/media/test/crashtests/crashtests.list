@@ -113,6 +113,12 @@ load
 1
 .
 html
+skip
+-
+if
+(
+Android
+)
 HTTP
 load
 795892
@@ -120,6 +126,12 @@ load
 1
 .
 html
+skip
+-
+if
+(
+Android
+)
 load
 789075
 -
