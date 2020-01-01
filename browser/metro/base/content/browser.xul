@@ -3416,6 +3416,11 @@ mousethrough
 "
 never
 "
+visible
+=
+"
+true
+"
 >
 <
 hbox
