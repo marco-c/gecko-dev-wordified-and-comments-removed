@@ -10396,7 +10396,7 @@ i
 ;
 #
 ifndef
-ANDROID
+MOZ_WIDGET_GONK
 (
 *
 paintTimes

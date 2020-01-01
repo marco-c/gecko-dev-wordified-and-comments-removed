@@ -3584,7 +3584,7 @@ n
 endif
 #
 ifndef
-ANDROID
+MOZ_WIDGET_GONK
 nsRefPtr
 <
 layers
