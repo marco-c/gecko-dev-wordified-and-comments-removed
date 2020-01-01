@@ -517,6 +517,8 @@ nsIChannel
 *
 PRBool
 preserveMethod
+PRBool
+transferCacheInfo
 )
 ;
 nsresult
