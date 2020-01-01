@@ -37,6 +37,16 @@ Bootstrap
 Config
 ;
 use
+Bootstrap
+:
+:
+Util
+qw
+(
+CvsCatfile
+)
+;
+use
 File
 :
 :
@@ -3129,7 +3139,7 @@ dconfig
 r
 '
 releaseTag
-catfile
+CvsCatfile
 (
 '
 mozilla

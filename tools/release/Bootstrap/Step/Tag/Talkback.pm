@@ -47,6 +47,16 @@ Step
 Tag
 ;
 use
+Bootstrap
+:
+:
+Util
+qw
+(
+CvsCatfile
+)
+;
+use
 File
 :
 :
@@ -322,7 +332,7 @@ branchTag
 D
 '
 pullDate
-catfile
+CvsCatfile
 (
 '
 talkback

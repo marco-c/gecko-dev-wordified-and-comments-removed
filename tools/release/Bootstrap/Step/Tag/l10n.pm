@@ -47,6 +47,16 @@ Step
 Tag
 ;
 use
+Bootstrap
+:
+:
+Util
+qw
+(
+CvsCatfile
+)
+;
+use
 File
 :
 :
@@ -504,7 +514,7 @@ branchTag
 D
 '
 l10n_pullDate
-catfile
+CvsCatfile
 (
 '
 l10n

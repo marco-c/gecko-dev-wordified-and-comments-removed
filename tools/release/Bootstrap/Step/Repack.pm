@@ -47,6 +47,16 @@ Bootstrap
 Config
 ;
 use
+Bootstrap
+:
+:
+Util
+qw
+(
+CvsCatfile
+)
+;
+use
 MozBuild
 :
 :
@@ -584,7 +594,7 @@ co
 d
 '
 dir
-catfile
+CvsCatfile
 (
 '
 mozilla
