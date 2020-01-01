@@ -640,12 +640,6 @@ early
 .
 png
 \
-error
--
-late
-.
-png
-\
 (
 NULL
 )
