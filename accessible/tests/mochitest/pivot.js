@@ -254,13 +254,6 @@ virtualCursor
 .
 position
 ;
-position
-.
-QueryInterface
-(
-nsIAccessNode
-)
-;
 var
 idMatches
 =
