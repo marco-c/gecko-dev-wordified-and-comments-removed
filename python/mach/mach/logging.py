@@ -346,6 +346,9 @@ start_time
 write_interval
 =
 False
+write_times
+=
+True
 )
 :
         
@@ -360,6 +363,12 @@ self
 write_interval
 =
 write_interval
+        
+self
+.
+write_times
+=
+write_times
         
 self
 .
@@ -374,6 +383,27 @@ self
 record
 )
 :
+        
+if
+not
+self
+.
+write_times
+:
+            
+return
+record
+.
+msg
+.
+format
+(
+*
+*
+record
+.
+params
+)
         
 elapsed
 =
