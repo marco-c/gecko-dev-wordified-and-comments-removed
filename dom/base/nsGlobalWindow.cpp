@@ -9418,6 +9418,13 @@ JSObject
 aOuterObject
 )
 {
+JSAutoCompartment
+ac
+(
+aCx
+aOuterObject
+)
+;
 JS_SetGlobalObject
 (
 aCx
