@@ -830,8 +830,6 @@ layout
 \
 docshell
 \
-webshell
-\
 embedding
 \
 xpfe
