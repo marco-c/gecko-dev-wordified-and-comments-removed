@@ -152,7 +152,7 @@ NS_CANVASPATTERNAZURE_PRIVATE_IID
 }
 }
 class
-nsIDOMXULElement
+nsXULElement
 ;
 namespace
 mozilla
@@ -2325,8 +2325,8 @@ error
 void
 AsyncDrawXULElement
 (
-nsIDOMXULElement
-*
+nsXULElement
+&
 elem
 double
 x

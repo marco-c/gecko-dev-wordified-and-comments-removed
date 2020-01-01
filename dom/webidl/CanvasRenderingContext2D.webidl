@@ -177,9 +177,6 @@ TextMetrics
 interface
 Window
 ;
-interface
-XULElement
-;
 enum
 CanvasWindingRule
 {

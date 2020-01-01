@@ -779,6 +779,10 @@ XPathEvaluator
 .
 webidl
 \
+XULElement
+.
+webidl
+\
 (
 NULL
 )
