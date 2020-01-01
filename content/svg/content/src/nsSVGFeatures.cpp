@@ -416,7 +416,10 @@ const
 nsDefaultStringComparator
 defaultComparator
 ;
-nsCharSeparatedTokenizer
+nsCharSeparatedTokenizerTemplate
+<
+IsSVGWhitespace
+>
 attributeTokenizer
 (
 aAttribute
