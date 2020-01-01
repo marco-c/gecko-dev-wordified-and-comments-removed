@@ -4299,6 +4299,8 @@ const
 T
 &
 src
+MIRType
+type
 AnyRegister
 dest
 )
