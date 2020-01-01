@@ -2255,7 +2255,9 @@ sidebar
 .
 push
 (
+[
 box
+]
 {
 attachment
 :
