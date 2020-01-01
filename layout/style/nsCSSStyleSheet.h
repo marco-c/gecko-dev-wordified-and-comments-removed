@@ -654,7 +654,15 @@ nsresult
 aStatus
 )
 ;
-nsresult
+enum
+EnsureUniqueInnerResult
+{
+eUniqueInner_AlreadyUnique
+eUniqueInner_ClonedInner
+eUniqueInner_CloneFailed
+}
+;
+EnsureUniqueInnerResult
 EnsureUniqueInner
 (
 )
