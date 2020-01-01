@@ -2687,9 +2687,11 @@ T
 >
 inline
 T
+*
 GetParentPointer
 (
 T
+*
 aObject
 )
 {
