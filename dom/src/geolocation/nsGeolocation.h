@@ -400,6 +400,15 @@ Init
 )
 ;
 void
+HandleMozsettingChanged
+(
+const
+PRUnichar
+*
+aData
+)
+;
+void
 AddLocator
 (
 nsGeolocation

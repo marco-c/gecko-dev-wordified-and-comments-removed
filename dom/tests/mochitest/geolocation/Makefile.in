@@ -153,6 +153,14 @@ test_windowClose
 .
 html
 \
+test_mozsettings
+.
+html
+\
+test_mozsettingsWatch
+.
+html
+\
 test_timerRestartWatch
 .
 html
