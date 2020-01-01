@@ -253,6 +253,15 @@ return
 mOutgoing
 ;
 }
+void
+NotifyError
+(
+const
+nsAString
+&
+aError
+)
+;
 private
 :
 TelephonyCall
