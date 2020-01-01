@@ -2676,6 +2676,12 @@ ftp_server
 externalStagingServer
 .
 '
+/
+pub
+/
+mozilla
+.
+org
 "
 to
 =
