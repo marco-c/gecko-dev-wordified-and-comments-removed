@@ -1555,6 +1555,14 @@ voidDenseOnlyArraySlots
 (
 )
 ;
+JSBool
+makeDenseArraySlow
+(
+JSContext
+*
+cx
+)
+;
 private
 :
 static
