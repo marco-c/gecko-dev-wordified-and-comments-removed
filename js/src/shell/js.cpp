@@ -410,6 +410,7 @@ gStackChunkSize
 ;
 #
 if
+(
 defined
 (
 DEBUG
@@ -419,6 +420,13 @@ DEBUG
 defined
 (
 __SUNPRO_CC
+)
+)
+|
+|
+defined
+(
+JS_CPU_SPARC
 )
 #
 define
