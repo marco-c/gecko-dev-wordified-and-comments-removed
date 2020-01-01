@@ -198,7 +198,7 @@ already_AddRefed
 <
 nsIURI
 >
-GetAnchorURI
+AnchorURIAt
 (
 PRUint32
 aAnchorIndex

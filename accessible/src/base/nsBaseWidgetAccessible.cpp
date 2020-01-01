@@ -532,7 +532,7 @@ nsIURI
 nsLinkableAccessible
 :
 :
-GetAnchorURI
+AnchorURIAt
 (
 PRUint32
 aAnchorIndex
@@ -574,7 +574,7 @@ return
 mActionAcc
 -
 >
-GetAnchorURI
+AnchorURIAt
 (
 aAnchorIndex
 )

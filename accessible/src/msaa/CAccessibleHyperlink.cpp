@@ -220,7 +220,7 @@ anchor
 thisObj
 -
 >
-GetAnchor
+AnchorAt
 (
 aIndex
 )
@@ -424,7 +424,7 @@ uri
 thisObj
 -
 >
-GetAnchorURI
+AnchorURIAt
 (
 aIndex
 )

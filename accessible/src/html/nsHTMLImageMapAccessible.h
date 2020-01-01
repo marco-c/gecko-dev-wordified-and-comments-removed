@@ -62,7 +62,7 @@ AnchorCount
 virtual
 nsAccessible
 *
-GetAnchor
+AnchorAt
 (
 PRUint32
 aAnchorIndex
@@ -73,7 +73,7 @@ already_AddRefed
 <
 nsIURI
 >
-GetAnchorURI
+AnchorURIAt
 (
 PRUint32
 aAnchorIndex

@@ -11067,7 +11067,7 @@ NS_ERROR_INVALID_ARG
 *
 aURI
 =
-GetAnchorURI
+AnchorURIAt
 (
 aIndex
 )
@@ -11141,7 +11141,7 @@ NS_IF_ADDREF
 *
 aAccessible
 =
-GetAnchor
+AnchorAt
 (
 aIndex
 )
@@ -12524,7 +12524,7 @@ nsAccessible
 nsAccessible
 :
 :
-GetAnchor
+AnchorAt
 (
 PRUint32
 aAnchorIndex
@@ -12565,7 +12565,7 @@ nsIURI
 nsAccessible
 :
 :
-GetAnchorURI
+AnchorURIAt
 (
 PRUint32
 aAnchorIndex
@@ -12577,7 +12577,7 @@ IsHyperLink
 (
 )
 "
-GetAnchorURI
+AnchorURIAt
 is
 called
 on
