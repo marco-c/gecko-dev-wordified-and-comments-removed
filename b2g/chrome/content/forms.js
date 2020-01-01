@@ -1254,6 +1254,13 @@ getListForElement
 (
 element
 )
+"
+value
+"
+:
+element
+.
+value
 }
 ;
 }
