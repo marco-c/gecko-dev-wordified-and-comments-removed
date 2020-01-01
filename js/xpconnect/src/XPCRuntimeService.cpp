@@ -165,15 +165,15 @@ JSContext
 cx
 JSObject
 *
-obj_
+objArg
 jsid
-id_
+idArg
 uint32_t
 flags
 JSObject
 *
 *
-objp_
+objpArg
 bool
 *
 _retval
@@ -186,7 +186,7 @@ RootedObject
 obj
 (
 cx
-obj_
+objArg
 )
 ;
 JS
@@ -196,7 +196,7 @@ RootedId
 id
 (
 cx
-id_
+idArg
 )
 ;
 JSBool
@@ -224,7 +224,7 @@ _retval
 )
 {
 *
-objp_
+objpArg
 =
 nullptr
 ;
@@ -238,7 +238,7 @@ resolved
 )
 {
 *
-objp_
+objpArg
 =
 obj
 ;
@@ -254,7 +254,7 @@ objp
 (
 cx
 *
-objp_
+objpArg
 )
 ;
 *
@@ -273,7 +273,7 @@ objp
 )
 ;
 *
-objp_
+objpArg
 =
 objp
 ;

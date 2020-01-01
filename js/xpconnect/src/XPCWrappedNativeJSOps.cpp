@@ -3379,14 +3379,14 @@ JSContext
 *
 cx
 JSHandleObject
-obj_
+objArg
 )
 {
 JSObject
 *
 obj
 =
-obj_
+objArg
 ;
 XPCWrappedNative
 *
