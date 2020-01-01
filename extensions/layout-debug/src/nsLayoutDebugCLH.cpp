@@ -104,9 +104,6 @@ aCmdLine
 nsresult
 rv
 ;
-PRBool
-found
-;
 PRInt32
 idx
 ;
