@@ -403,7 +403,9 @@ CONFIRM_AGE_PREF
 "
 urlclassifier
 .
-confirm
+max
+-
+complete
 -
 age
 "

@@ -3998,7 +3998,9 @@ setIntPref
 "
 urlclassifier
 .
-confirm
+max
+-
+complete
 -
 age
 "
@@ -4034,7 +4036,9 @@ setIntPref
 "
 urlclassifier
 .
-confirm
+max
+-
+complete
 -
 age
 "
@@ -4170,7 +4174,9 @@ setIntPref
 "
 urlclassifier
 .
-confirm
+max
+-
+complete
 -
 age
 "
@@ -4206,7 +4212,9 @@ setIntPref
 "
 urlclassifier
 .
-confirm
+max
+-
+complete
 -
 age
 "
