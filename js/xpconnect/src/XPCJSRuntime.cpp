@@ -14660,7 +14660,7 @@ jschar
 *
 *
 src
-uint32_t
+size_t
 *
 len
 )
@@ -15086,7 +15086,7 @@ jschar
 *
 *
 src
-uint32_t
+size_t
 *
 length
 )
