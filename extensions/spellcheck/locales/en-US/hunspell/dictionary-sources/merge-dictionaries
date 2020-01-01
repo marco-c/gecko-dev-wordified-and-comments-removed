@@ -365,6 +365,10 @@ sort
 echo
 Combining
 dictionaries
+export
+LC_ALL
+=
+C
 sort
 CHROMIUM_AFFIX_CONVERTED
 HUNSPELL_PATCHED_STRIPPED
