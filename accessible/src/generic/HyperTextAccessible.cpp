@@ -7812,7 +7812,6 @@ range
 new
 nsRange
 (
-mContent
 )
 ;
 else
@@ -8052,7 +8051,6 @@ range
 new
 nsRange
 (
-mContent
 )
 ;
 nsresult
@@ -8142,7 +8140,6 @@ range
 new
 nsRange
 (
-mContent
 )
 ;
 nsresult

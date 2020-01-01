@@ -3817,14 +3817,6 @@ GROUP_TBODY_CONTENT
 )
 ELEM
 (
-time
-true
-false
-GROUP_PHRASE
-GROUP_INLINE_ELEMENT
-)
-ELEM
-(
 title
 true
 false

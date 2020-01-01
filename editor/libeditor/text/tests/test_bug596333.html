@@ -237,10 +237,6 @@ getEditor
 )
 {
 return
-SpecialPowers
-.
-wrap
-(
 document
 .
 getElementById
@@ -249,6 +245,12 @@ getElementById
 edit
 "
 )
+.
+QueryInterface
+(
+Ci
+.
+nsIDOMNSEditableElement
 )
 .
 editor

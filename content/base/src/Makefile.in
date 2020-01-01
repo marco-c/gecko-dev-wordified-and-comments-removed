@@ -221,10 +221,6 @@ Link
 .
 h
 \
-Text
-.
-h
-\
 (
 NULL
 )
@@ -492,10 +488,6 @@ nsStyleLinkElement
 cpp
 \
 nsSyncLoadService
-.
-cpp
-\
-Text
 .
 cpp
 \

@@ -471,14 +471,6 @@ HTMLTableSectionElement
 .
 webidl
 \
-HTMLTextAreaElement
-.
-webidl
-\
-HTMLTimeElement
-.
-webidl
-\
 HTMLTitleElement
 .
 webidl
@@ -548,10 +540,6 @@ PerformanceTiming
 webidl
 \
 ProcessingInstruction
-.
-webidl
-\
-Range
 .
 webidl
 \

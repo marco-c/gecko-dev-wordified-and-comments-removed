@@ -328,6 +328,9 @@ interface
 NodeIterator
 ;
 interface
+Range
+;
+interface
 StyleSheetList
 ;
 interface
@@ -1774,15 +1777,6 @@ Element
 ?
 aImageElement
 )
-;
-[
-ChromeOnly
-]
-readonly
-attribute
-URI
-?
-documentURIObject
 ;
 }
 ;

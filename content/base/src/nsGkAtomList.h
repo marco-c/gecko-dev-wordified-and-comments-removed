@@ -2518,13 +2518,6 @@ each
 )
 GK_ATOM
 (
-forceOwnRefreshDriver
-"
-forceOwnRefreshDriver
-"
-)
-GK_ATOM
-(
 form
 "
 form
