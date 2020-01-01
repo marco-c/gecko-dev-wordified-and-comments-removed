@@ -213,3 +213,17 @@ cpuid
 )
 calls
 .
+win64
+.
+patch
+:
+SSE2
+optimization
+for
+Microsoft
+Visual
+C
++
++
+x64
+version
