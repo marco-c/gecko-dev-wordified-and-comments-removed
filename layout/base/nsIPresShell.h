@@ -685,7 +685,7 @@ aFrame
 IntrinsicDirty
 aIntrinsicDirty
 nsFrameState
-aBitsToAdd
+aBitToAdd
 )
 =
 0
