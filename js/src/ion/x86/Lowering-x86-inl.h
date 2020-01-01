@@ -83,7 +83,7 @@ return
 inner
 -
 >
-id
+virtualRegister
 (
 )
 ;
@@ -92,7 +92,7 @@ return
 mir
 -
 >
-id
+virtualRegister
 (
 )
 +
@@ -120,16 +120,6 @@ JS_ASSERT
 mir
 -
 >
-id
-(
-)
-)
-;
-JS_ASSERT
-(
-mir
--
->
 type
 (
 )
@@ -144,7 +134,7 @@ LUse
 mir
 -
 >
-id
+virtualRegister
 (
 )
 +
@@ -174,7 +164,7 @@ JS_ASSERT
 mir
 -
 >
-id
+virtualRegister
 (
 )
 )
@@ -271,7 +261,7 @@ setVirtualRegister
 mir
 -
 >
-id
+virtualRegister
 (
 )
 +
