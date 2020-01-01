@@ -43,6 +43,12 @@ defined
 (
 MOZILLA_COMPILE_WITH_SSE2
 )
+&
+&
+defined
+(
+_M_IX86
+)
 __declspec
 (
 naked
