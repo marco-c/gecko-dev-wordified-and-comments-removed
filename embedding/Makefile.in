@@ -443,7 +443,8 @@ OS_TARGET
 )
 Android
 )
-TOOL_DIRS
+DIRS
++
 =
 android
 endif
