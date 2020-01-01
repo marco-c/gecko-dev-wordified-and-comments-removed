@@ -319,6 +319,14 @@ ins
 )
 ;
 bool
+visitNewObject
+(
+MNewObject
+*
+ins
+)
+;
+bool
 visitCheckOverRecursed
 (
 MCheckOverRecursed

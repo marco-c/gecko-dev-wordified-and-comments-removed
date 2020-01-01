@@ -244,6 +244,11 @@ NewArray
 \
 _
 (
+NewObject
+)
+\
+_
+(
 Start
 )
 \
