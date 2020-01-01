@@ -1554,6 +1554,10 @@ mShuttingDown
 (
 false
 )
+mClosed
+(
+false
+)
 {
 MOZ_ASSERT
 (
@@ -8867,6 +8871,16 @@ MOZ_ASSERT
 mShuttingDown
 )
 ;
+MOZ_ASSERT
+(
+!
+mClosed
+)
+;
+mShuttingDown
+=
+true
+;
 mMainThreadStatements
 .
 FinalizeStatements
@@ -8937,7 +8951,7 @@ Spin
 (
 )
 ;
-mShuttingDown
+mClosed
 =
 true
 ;
