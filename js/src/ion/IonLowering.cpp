@@ -1642,9 +1642,6 @@ setInWorklist
 #
 endif
 }
-current
--
->
 add
 (
 new
