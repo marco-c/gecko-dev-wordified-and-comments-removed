@@ -184,6 +184,13 @@ using
 namespace
 js
 ;
+using
+namespace
+js
+:
+:
+gc
+;
 static
 const
 jsbytecode
@@ -6564,7 +6571,6 @@ vector
 [
 i
 ]
-JSTRACE_OBJECT
 )
 ;
 }
@@ -6644,7 +6650,6 @@ vector
 [
 i
 ]
-JSTRACE_OBJECT
 )
 ;
 }
@@ -6724,7 +6729,6 @@ script
 u
 .
 object
-JSTRACE_OBJECT
 )
 ;
 }

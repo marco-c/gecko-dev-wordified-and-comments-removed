@@ -127,6 +127,13 @@ using
 namespace
 js
 ;
+using
+namespace
+js
+:
+:
+gc
+;
 static
 void
 resc_finalize
@@ -2613,7 +2620,7 @@ getSource
 (
 )
 )
-JS_CALL_STRING_TRACER
+MarkString
 (
 trc
 re

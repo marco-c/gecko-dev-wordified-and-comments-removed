@@ -390,7 +390,7 @@ toInt32
 return
 argval
 .
-asGCThing
+toGCThing
 (
 )
 ;

@@ -2048,7 +2048,7 @@ data
 JS_ALWAYS_INLINE
 void
 *
-asGCThing
+toGCThing
 (
 )
 const

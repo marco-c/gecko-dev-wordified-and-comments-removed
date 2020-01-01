@@ -163,6 +163,13 @@ using
 namespace
 js
 ;
+using
+namespace
+js
+:
+:
+gc
+;
 #
 ifdef
 _MSC_VER

@@ -202,6 +202,13 @@ using
 namespace
 js
 ;
+using
+namespace
+js
+:
+:
+gc
+;
 typedef
 struct
 JSTrap
@@ -2968,9 +2975,10 @@ wp
 >
 setter
 )
-JS_CALL_OBJECT_TRACER
+MarkObject
 (
 trc
+*
 CastAsObject
 (
 wp
@@ -2986,9 +2994,10 @@ setter
 "
 )
 ;
-JS_CALL_OBJECT_TRACER
+MarkObject
 (
 trc
+*
 wp
 -
 >
@@ -3085,7 +3094,7 @@ next
 ;
 if
 (
-js_IsAboutToBeFinalized
+IsAboutToBeFinalized
 (
 wp
 -

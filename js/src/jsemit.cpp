@@ -276,6 +276,13 @@ using
 namespace
 js
 ;
+using
+namespace
+js
+:
+:
+gc
+;
 static
 JSBool
 NewTryNote

@@ -245,6 +245,13 @@ using
 namespace
 js
 ;
+using
+namespace
+js
+:
+:
+gc
+;
 static
 void
 iterator_finalize

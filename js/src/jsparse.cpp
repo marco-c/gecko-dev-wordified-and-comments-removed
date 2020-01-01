@@ -258,6 +258,13 @@ using
 namespace
 js
 ;
+using
+namespace
+js
+:
+:
+gc
+;
 #
 define
 pn_offsetof
@@ -1300,9 +1307,10 @@ while
 objbox
 )
 {
-JS_CALL_OBJECT_TRACER
+MarkObject
 (
 trc
+*
 objbox
 -
 >

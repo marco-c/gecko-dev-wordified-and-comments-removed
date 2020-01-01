@@ -252,6 +252,13 @@ using
 namespace
 js
 ;
+using
+namespace
+js
+:
+:
+gc
+;
 JS_STATIC_ASSERT
 (
 sizeof
