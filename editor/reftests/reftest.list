@@ -2312,6 +2312,9 @@ if
 (
 Android
 )
+needs
+-
+focus
 !
 =
 spellcheck
