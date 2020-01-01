@@ -43847,6 +43847,14 @@ z
 "
 _CURL_FOUND
 "
+&
+&
+test
+-
+z
+"
+SKIP_LIBRARY_CHECKS
+"
 ;
 then
 AC_MSG_ERROR
