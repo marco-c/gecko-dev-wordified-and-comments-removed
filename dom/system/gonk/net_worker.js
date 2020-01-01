@@ -132,6 +132,14 @@ NETD_COMMAND_BANDWIDTH_CONTROLLER
 =
 601
 ;
+const
+INTERFACE_DELIMIT
+=
+"
+\
+0
+"
+;
 importScripts
 (
 "
@@ -1437,8 +1445,7 @@ gReason
 .
 join
 (
-"
-"
+INTERFACE_DELIMIT
 )
 }
 )
@@ -1968,8 +1975,7 @@ resultReason
 .
 split
 (
-"
-"
+INTERFACE_DELIMIT
 )
 ;
 let
