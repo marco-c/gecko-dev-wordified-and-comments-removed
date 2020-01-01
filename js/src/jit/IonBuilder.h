@@ -2535,6 +2535,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineMathFRound
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineMathFunction
 (
 CallInfo
