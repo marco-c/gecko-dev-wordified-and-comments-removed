@@ -994,9 +994,8 @@ vp
 )
 ;
 }
-static
 JSBool
-math_ceil
+js_math_ceil
 (
 JSContext
 *
@@ -2950,7 +2949,7 @@ JS_FN
 "
 ceil
 "
-math_ceil
+js_math_ceil
 1
 0
 )
