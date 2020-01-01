@@ -471,9 +471,8 @@ nsFormData
 :
 Constructor
 (
-const
-GlobalObject
-&
+nsISupports
+*
 aGlobal
 const
 Optional
@@ -498,10 +497,6 @@ new
 nsFormData
 (
 aGlobal
-.
-Get
-(
-)
 )
 ;
 if

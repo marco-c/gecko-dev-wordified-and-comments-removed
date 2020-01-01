@@ -132,9 +132,11 @@ FileReaderSync
 *
 Constructor
 (
-const
-WorkerGlobalObject
-&
+JSContext
+*
+aCx
+JSObject
+*
 aGlobal
 ErrorResult
 &

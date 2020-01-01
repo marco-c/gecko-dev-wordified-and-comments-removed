@@ -63,9 +63,6 @@ ErrorResult
 namespace
 dom
 {
-class
-GlobalObject
-;
 template
 <
 class
@@ -141,15 +138,8 @@ nsFormData
 >
 Constructor
 (
-const
-mozilla
-:
-:
-dom
-:
-:
-GlobalObject
-&
+nsISupports
+*
 aGlobal
 const
 mozilla

@@ -337,9 +337,6 @@ class
 Element
 ;
 class
-GlobalObject
-;
-class
 HTMLBodyElement
 ;
 class
@@ -4060,15 +4057,8 @@ nsIDocument
 >
 Constructor
 (
-const
-mozilla
-:
-:
-dom
-:
-:
-GlobalObject
-&
+nsISupports
+*
 aGlobal
 mozilla
 :

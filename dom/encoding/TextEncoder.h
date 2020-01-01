@@ -57,9 +57,8 @@ TextEncoder
 >
 Constructor
 (
-const
-GlobalObject
-&
+nsISupports
+*
 aGlobal
 const
 nsAString
@@ -80,10 +79,6 @@ new
 TextEncoder
 (
 aGlobal
-.
-Get
-(
-)
 )
 ;
 txtEncoder

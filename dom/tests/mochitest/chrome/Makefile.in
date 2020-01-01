@@ -270,10 +270,6 @@ file_bug830858
 .
 xul
 \
-test_indexedSetter
-.
-html
-\
 (
 NULL
 )

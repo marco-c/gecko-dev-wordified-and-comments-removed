@@ -66,9 +66,8 @@ URL
 :
 CreateObjectURL
 (
-const
-GlobalObject
-&
+nsISupports
+*
 aGlobal
 nsIDOMBlob
 *
@@ -77,7 +76,7 @@ const
 objectURLOptions
 &
 aOptions
-nsString
+nsAString
 &
 aResult
 ErrorResult
@@ -88,10 +87,6 @@ aError
 CreateObjectURLInternal
 (
 aGlobal
-.
-Get
-(
-)
 aBlob
 NS_LITERAL_CSTRING
 (
@@ -109,9 +104,8 @@ URL
 :
 CreateObjectURL
 (
-const
-GlobalObject
-&
+nsISupports
+*
 aGlobal
 nsIDOMMediaStream
 *
@@ -126,7 +120,7 @@ dom
 objectURLOptions
 &
 aOptions
-nsString
+nsAString
 &
 aResult
 ErrorResult
@@ -137,10 +131,6 @@ aError
 CreateObjectURLInternal
 (
 aGlobal
-.
-Get
-(
-)
 aStream
 NS_LITERAL_CSTRING
 (
@@ -178,7 +168,7 @@ dom
 objectURLOptions
 &
 aOptions
-nsString
+nsAString
 &
 aResult
 ErrorResult
@@ -331,9 +321,8 @@ URL
 :
 RevokeObjectURL
 (
-const
-GlobalObject
-&
+nsISupports
+*
 aGlobal
 const
 nsAString
@@ -350,10 +339,6 @@ w
 do_QueryInterface
 (
 aGlobal
-.
-Get
-(
-)
 )
 ;
 nsGlobalWindow
