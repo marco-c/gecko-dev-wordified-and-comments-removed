@@ -95,10 +95,10 @@ dictionary
 USSDReceivedEventDict
 {
 DOMString
+?
 message
 =
-"
-"
+null
 ;
 boolean
 sessionEnded
