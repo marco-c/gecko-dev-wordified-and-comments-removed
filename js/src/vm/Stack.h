@@ -4902,13 +4902,6 @@ FrameRegs
 regs
 )
 {
-JS_ASSERT
-(
-hasfp
-(
-)
-)
-;
 seg_
 -
 >
