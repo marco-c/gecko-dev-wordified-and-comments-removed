@@ -3551,6 +3551,10 @@ fun
 -
 >
 atom
+.
+get
+(
+)
 :
 NULL
 ;

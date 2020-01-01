@@ -16599,6 +16599,12 @@ FlushResampleRequests
 )
 ;
 }
+if
+(
+!
+mIsDestroying
+)
+{
 nsAutoScriptBlocker
 scriptBlocker
 ;
@@ -16616,6 +16622,7 @@ ProcessPendingRestyles
 (
 )
 ;
+}
 }
 if
 (

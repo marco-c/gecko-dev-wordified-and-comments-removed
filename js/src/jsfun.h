@@ -247,8 +247,10 @@ nativeOrScript
 }
 u
 ;
-JSAtom
-*
+js
+:
+:
+HeapPtrAtom
 atom
 ;
 bool

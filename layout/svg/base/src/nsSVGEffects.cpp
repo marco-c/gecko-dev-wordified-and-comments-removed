@@ -1098,7 +1098,7 @@ eSVG
 nsSVGUtils
 :
 :
-InvalidateCoveredRegion
+InvalidateBounds
 (
 mFrame
 )

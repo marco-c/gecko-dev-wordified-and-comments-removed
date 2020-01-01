@@ -7,7 +7,7 @@ NS_SVGTEXTFRAME_H
 #
 include
 "
-nsSVGTextContainerFrame
+gfxMatrix
 .
 h
 "
@@ -21,7 +21,7 @@ h
 #
 include
 "
-gfxMatrix
+nsSVGTextContainerFrame
 .
 h
 "
@@ -147,12 +147,6 @@ PRUint32
 aFlags
 )
 ;
-virtual
-void
-NotifyRedrawUnsuspended
-(
-)
-;
 NS_IMETHOD
 PaintSVG
 (
@@ -178,13 +172,9 @@ nsPoint
 aPoint
 )
 ;
-NS_IMETHOD
-UpdateCoveredRegion
-(
-)
-;
-NS_IMETHOD
-InitialUpdate
+virtual
+void
+UpdateBounds
 (
 )
 ;

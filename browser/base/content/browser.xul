@@ -1077,6 +1077,11 @@ browsingmode
 "
 normal
 "
+fullscreenbutton
+=
+"
+true
+"
 persist
 =
 "
@@ -10103,7 +10108,7 @@ cx
 cy
 =
 "
-13
+18
 "
 r
 =

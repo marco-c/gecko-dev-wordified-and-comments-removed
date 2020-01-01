@@ -2862,6 +2862,18 @@ aEffectAllowed
 ;
 static
 bool
+CheckForSubFrameDrop
+(
+nsIDragSession
+*
+aDragSession
+nsDragEvent
+*
+aDropEvent
+)
+;
+static
+bool
 URIIsLocalFile
 (
 nsIURI
@@ -3140,7 +3152,7 @@ N
 #
 endif
 static
-void
+nsresult
 ASCIIToLower
 (
 nsAString
@@ -3149,7 +3161,7 @@ aStr
 )
 ;
 static
-void
+nsresult
 ASCIIToLower
 (
 const
@@ -3162,7 +3174,7 @@ aDest
 )
 ;
 static
-void
+nsresult
 ASCIIToUpper
 (
 nsAString
@@ -3171,7 +3183,7 @@ aStr
 )
 ;
 static
-void
+nsresult
 ASCIIToUpper
 (
 const

@@ -1245,6 +1245,15 @@ mRunningSample
 =
 true
 ;
+nsCOMPtr
+<
+nsIDocument
+>
+kungFuDeathGrip
+(
+mDocument
+)
+;
 mDocument
 -
 >

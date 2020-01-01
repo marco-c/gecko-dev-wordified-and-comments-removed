@@ -163,6 +163,8 @@ bool
 aIsExternal
 bool
 aUserCancelled
+bool
+aIsCrossDomainSubFrameDrop
 nsTArray
 <
 nsTArray
@@ -374,6 +376,9 @@ mIsExternal
 ;
 bool
 mUserCancelled
+;
+bool
+mIsCrossDomainSubFrameDrop
 ;
 nsTArray
 <
