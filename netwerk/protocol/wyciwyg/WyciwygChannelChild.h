@@ -73,11 +73,6 @@ public
 PWyciwygChannelChild
 public
 nsIWyciwygChannel
-public
-ChannelEventQueue
-<
-WyciwygChannelChild
->
 {
 public
 :
@@ -315,6 +310,9 @@ mState
 ;
 bool
 mIPCOpen
+;
+ChannelEventQueue
+mEventQ
 ;
 friend
 class

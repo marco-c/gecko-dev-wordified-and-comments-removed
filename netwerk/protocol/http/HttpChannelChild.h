@@ -174,11 +174,6 @@ public
 nsIChildChannel
 public
 nsIHttpChannelChild
-public
-ChannelEventQueue
-<
-HttpChannelChild
->
 {
 public
 :
@@ -547,6 +542,9 @@ mIPCOpen
 ;
 bool
 mKeptAlive
+;
+ChannelEventQueue
+mEventQ
 ;
 void
 OnStartRequest

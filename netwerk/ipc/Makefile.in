@@ -478,6 +478,10 @@ NeckoParent
 .
 cpp
 \
+ChannelEventQueue
+.
+cpp
+\
 (
 NULL
 )
