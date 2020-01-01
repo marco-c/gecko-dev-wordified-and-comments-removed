@@ -5376,10 +5376,6 @@ newContext
 =
 prevContinuationContext
 ;
-nonInheritedHints
-=
-nsChangeHint_Hints_NotHandledForDescendants
-;
 }
 else
 if
