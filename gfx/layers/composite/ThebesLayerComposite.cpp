@@ -538,6 +538,14 @@ tiledLayerProps
 mValidRegion
 ;
 }
+LayerManagerComposite
+:
+:
+RemoveMaskEffect
+(
+mMaskLayer
+)
+;
 mCompositeManager
 -
 >

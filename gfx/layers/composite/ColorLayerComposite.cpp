@@ -226,6 +226,16 @@ y
 )
 )
 ;
+LayerManagerComposite
+:
+:
+RemoveMaskEffect
+(
+GetMaskLayer
+(
+)
+)
+;
 }
 }
 }
