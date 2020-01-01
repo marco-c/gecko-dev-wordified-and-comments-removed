@@ -417,6 +417,11 @@ aInactiveAddonIds
 aCallback
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 var
 variant
 =

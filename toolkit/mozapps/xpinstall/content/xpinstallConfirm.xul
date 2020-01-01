@@ -597,6 +597,13 @@ dialog
 style
 ;
 "
+windowtype
+=
+"
+Addons
+:
+Install
+"
 onload
 =
 "
