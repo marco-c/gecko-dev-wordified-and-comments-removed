@@ -487,6 +487,10 @@ WindowHook
 .
 cpp
 \
+nsAccelerometerWin
+.
+cpp
+\
 (
 NULL
 )
@@ -528,10 +532,6 @@ nsWindowCE
 cpp
 \
 nsClipboardCE
-.
-cpp
-\
-nsAccelerometerCE
 .
 cpp
 \
