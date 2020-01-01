@@ -20922,6 +20922,10 @@ GetChildren
 aContainerParameters
 &
 newTransformMatrix
+FrameLayerBuilder
+:
+:
+CONTAINER_NOT_CLIPPED_BY_ANCESTORS
 )
 ;
 if
