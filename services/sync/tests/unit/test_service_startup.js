@@ -111,6 +111,13 @@ called
 "
 )
 ;
+initTestLogging
+(
+"
+Trace
+"
+)
+;
 Svc
 .
 Prefs
