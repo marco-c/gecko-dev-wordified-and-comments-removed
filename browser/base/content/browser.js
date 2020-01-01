@@ -4952,6 +4952,12 @@ replace
 brandShortName
 )
 ;
+options
+.
+removeOnDismissal
+=
+true
+;
 PopupNotifications
 .
 show
