@@ -430,7 +430,7 @@ GetFaviconService
 NS_ENSURE_TRUE
 (
 faviconService
-NS_ERROR_NO_INTERFACE
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 if
