@@ -2859,11 +2859,6 @@ arg
 bool
 ok
 =
-static_cast
-<
-bool
->
-(
 array
 -
 >
@@ -2874,7 +2869,13 @@ e
 >
 mKey
 )
-)
+=
+=
+NS_OK
+?
+false
+:
+true
 ;
 if
 (
