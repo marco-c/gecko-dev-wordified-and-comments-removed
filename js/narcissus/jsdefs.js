@@ -187,6 +187,15 @@ GROUP
 LIST
 "
 "
+LET_STM
+"
+"
+LET_EXP
+"
+"
+LET_DEF
+"
+"
 IDENTIFIER
 "
 "
@@ -253,6 +262,9 @@ in
 instanceof
 "
 "
+let
+"
+"
 new
 "
 "
@@ -284,6 +296,9 @@ var
 "
 "
 void
+"
+"
+yield
 "
 "
 while
