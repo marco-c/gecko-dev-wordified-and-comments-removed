@@ -452,10 +452,6 @@ amIWebInstaller
 .
 idl
 \
-nsIAddonRepository
-.
-idl
-\
 (
 NULL
 )
@@ -471,10 +467,6 @@ NULL
 )
 EXTRA_PP_COMPONENTS
 =
-\
-nsAddonRepository
-.
-js
 \
 nsBlocklistService
 .
@@ -499,6 +491,10 @@ EXTRA_PP_JS_MODULES
 =
 \
 AddonManager
+.
+jsm
+\
+AddonRepository
 .
 jsm
 \

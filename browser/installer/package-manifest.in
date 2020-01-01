@@ -1510,13 +1510,6 @@ BINPATH
 /
 components
 /
-nsAddonRepository
-.
-js
-BINPATH
-/
-components
-/
 nsBrowserContentHandler
 .
 js
