@@ -174,12 +174,12 @@ define
 NS_RELEASE2
 (
 _ptr
-_rv
+_rc
 )
 \
 PR_BEGIN_MACRO
 \
-_rv
+_rc
 =
 (
 _ptr
@@ -197,7 +197,7 @@ if
 =
 =
 (
-_rv
+_rc
 )
 )
 (
