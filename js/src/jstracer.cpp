@@ -26889,6 +26889,17 @@ setProperty
 "
 )
 ;
+set
+(
+&
+l
+stack
+(
+-
+1
+)
+)
+;
 return
 true
 ;
