@@ -808,11 +808,6 @@ engine
 -
 button
 "
-popup
-=
-"
-_child
-"
 chromedir
 =
 "
@@ -877,11 +872,6 @@ anonid
 searchbar
 -
 popup
-"
-position
-=
-"
-after_start
 "
 >
 <
