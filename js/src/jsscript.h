@@ -730,6 +730,8 @@ uint32
 nobjects
 uint32
 nregexps
+uint32
+nloops
 )
 ;
 extern
