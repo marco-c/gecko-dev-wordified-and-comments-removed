@@ -103,6 +103,10 @@ test_contacts_international
 .
 html
 \
+test_contacts_getall
+.
+html
+\
 (
 NULL
 )
