@@ -131,7 +131,7 @@ len
 )
 ;
 extern
-bool
+JSBool
 js_FinishJSONParse
 (
 JSContext

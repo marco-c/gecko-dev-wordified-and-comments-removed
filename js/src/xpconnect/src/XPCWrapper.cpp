@@ -556,10 +556,7 @@ str
 v
 }
 ;
-js
-:
-:
-AutoArrayRooter
+JSAutoTempValueRooter
 tvr
 (
 cx
@@ -679,10 +676,7 @@ return
 nsnull
 ;
 }
-js
-:
-:
-AutoValueRooter
+JSAutoTempValueRooter
 tvr
 (
 cx
@@ -745,10 +739,7 @@ wrapperObj
 )
 )
 {
-js
-:
-:
-AutoValueRooter
+JSAutoTempValueRooter
 tvr
 (
 cx

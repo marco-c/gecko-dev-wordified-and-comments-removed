@@ -394,10 +394,7 @@ OBJECT_TO_JSVAL
 wrapperObj
 )
 ;
-js
-:
-:
-AutoValueRooter
+JSAutoTempValueRooter
 tvr
 (
 cx
@@ -1578,10 +1575,7 @@ return
 JS_FALSE
 ;
 }
-js
-:
-:
-AutoArrayRooter
+JSAutoTempValueRooter
 tvr
 (
 cx
@@ -2459,10 +2453,7 @@ return
 nsnull
 ;
 }
-js
-:
-:
-AutoValueRooter
+JSAutoTempValueRooter
 tvr
 (
 cx

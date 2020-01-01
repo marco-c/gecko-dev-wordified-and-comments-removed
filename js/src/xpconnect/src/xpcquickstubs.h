@@ -746,10 +746,7 @@ jsval
 )
 ;
 }
-js
-:
-:
-AutoArrayRooter
+JSAutoTempValueRooter
 tvr
 ;
 jsval

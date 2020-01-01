@@ -818,14 +818,6 @@ mBuf
 sInlineBytes
 ]
 ;
-#
-if
-__GNUC__
-jschar
-unused1_
-;
-#
-endif
 }
 u
 ;
