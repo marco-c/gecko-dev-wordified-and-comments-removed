@@ -770,6 +770,10 @@ test_streams_element_capture_reset
 .
 html
 \
+test_streams_element_capture_createObjectURL
+.
+html
+\
 test_timeupdate_small_files
 .
 html
