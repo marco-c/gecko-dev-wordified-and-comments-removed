@@ -3355,7 +3355,7 @@ EnsureReflowFlushAndPaint
 (
 )
 ;
-nsresult
+void
 CheckSecurityWidthAndHeight
 (
 int32_t
@@ -3366,7 +3366,7 @@ int32_t
 height
 )
 ;
-nsresult
+void
 CheckSecurityLeftAndTop
 (
 int32_t
@@ -3377,7 +3377,7 @@ int32_t
 top
 )
 ;
-nsresult
+void
 SetCSSViewportWidthAndHeight
 (
 nscoord
