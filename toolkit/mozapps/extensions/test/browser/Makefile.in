@@ -581,6 +581,14 @@ browser_updatessl
 .
 rdf
 \
+browser_install
+.
+js
+\
+browser_install
+.
+xml
+\
 browser_installssl
 .
 js
