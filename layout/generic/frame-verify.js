@@ -363,6 +363,8 @@ name
 &
 &
 frameIIDRE
+.
+exec
 (
 d
 .
@@ -399,6 +401,8 @@ d
 if
 (
 queryFrameRE
+.
+exec
 (
 d
 .
