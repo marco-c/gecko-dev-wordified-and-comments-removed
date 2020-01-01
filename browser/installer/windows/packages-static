@@ -2320,7 +2320,8 @@ updater
 exe
 ;
 [
-airbag
+Crash
+Reporter
 ]
 bin
 \
