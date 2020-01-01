@@ -410,6 +410,17 @@ aGuid
 ;
 AsyncPanZoomController
 *
+GetAPZCAtPoint
+(
+AsyncPanZoomController
+*
+aApzc
+gfxPoint
+aHitTestPoint
+)
+;
+AsyncPanZoomController
+*
 UpdatePanZoomControllerTree
 (
 CompositorParent
