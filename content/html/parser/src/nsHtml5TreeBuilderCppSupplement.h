@@ -1460,6 +1460,18 @@ PRBool
 fragment
 )
 {
+if
+(
+fragment
+)
+{
+mHasProcessedBase
+=
+PR_TRUE
+;
+}
+else
+{
 mHasProcessedBase
 =
 PR_FALSE
@@ -1483,6 +1495,7 @@ BeginLoad
 (
 )
 ;
+}
 }
 void
 nsHtml5TreeBuilder

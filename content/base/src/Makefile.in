@@ -499,6 +499,8 @@ editor
 \
 windowwatcher
 \
+html5
+\
 (
 NULL
 )
@@ -814,10 +816,6 @@ nsTreeWalker
 .
 cpp
 \
-nsXHTMLContentSerializer
-.
-cpp
-\
 nsXMLContentSerializer
 .
 cpp
@@ -1060,6 +1058,8 @@ srcdir
 .
 /
 dom
+/
+src
 /
 base
 \
