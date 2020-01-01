@@ -655,9 +655,6 @@ XP_WIN
 NPDrawingModelAsyncWindowsDXGISurface
 =
 8
-NPDrawingModelAsyncWindowsDX9ExSurface
-=
-9
 #
 endif
 }
@@ -951,12 +948,9 @@ NPNVsupportsInvalidatingCoreAnimationBool
 2004
 #
 endif
-NPNVsupportsSyncDrawingBool
-=
-2005
 NPNVsupportsAsyncBitmapSurfaceBool
 =
-2006
+2005
 #
 if
 defined
@@ -965,10 +959,7 @@ XP_WIN
 )
 NPNVsupportsAsyncWindowsDXGISurfaceBool
 =
-2007
-NPNVsupportsAsyncWindowsDX9ExSurfaceBool
-=
-2008
+2006
 #
 endif
 #

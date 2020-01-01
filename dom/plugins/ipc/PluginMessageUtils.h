@@ -279,12 +279,6 @@ aModel
 =
 =
 NPDrawingModelAsyncWindowsDXGISurface
-|
-|
-aModel
-=
-=
-NPDrawingModelAsyncWindowsDX9ExSurface
 #
 endif
 ;
