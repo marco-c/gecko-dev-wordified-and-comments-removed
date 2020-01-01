@@ -118,6 +118,10 @@ test_lastModificationFilter
 .
 html
 \
+test_stat
+.
+html
+\
 devicestorage_common
 .
 js

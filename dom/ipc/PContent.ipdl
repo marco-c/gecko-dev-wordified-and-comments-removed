@@ -380,6 +380,14 @@ index
 }
 ;
 struct
+DeviceStorageStatParams
+{
+nsString
+fullpath
+;
+}
+;
+struct
 DeviceStorageAddParams
 {
 PBlob
@@ -433,6 +441,8 @@ DeviceStorageGetParams
 DeviceStorageDeleteParams
 ;
 DeviceStorageEnumerationParams
+;
+DeviceStorageStatParams
 ;
 }
 ;

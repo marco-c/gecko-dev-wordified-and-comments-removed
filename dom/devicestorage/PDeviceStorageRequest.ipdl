@@ -152,6 +152,17 @@ paths
 ;
 }
 ;
+struct
+StatStorageResponse
+{
+PRInt64
+totalBytes
+;
+PRInt64
+freeBytes
+;
+}
+;
 union
 DeviceStorageResponseValue
 {
@@ -162,6 +173,8 @@ SuccessResponse
 BlobResponse
 ;
 EnumerationResponse
+;
+StatStorageResponse
 ;
 }
 ;

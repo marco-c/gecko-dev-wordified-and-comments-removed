@@ -109,6 +109,10 @@ nsIDOMDeviceStorage
 .
 idl
 \
+nsIDOMDeviceStorageStat
+.
+idl
+\
 nsIDOMDeviceStorageCursor
 .
 idl
