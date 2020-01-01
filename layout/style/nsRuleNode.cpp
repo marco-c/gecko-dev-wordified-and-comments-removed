@@ -37771,6 +37771,16 @@ NS_STYLE_PAINT_ORDER_NORMAL
 ;
 break
 ;
+default
+:
+NS_NOTREACHED
+(
+"
+unexpected
+unit
+"
+)
+;
 }
 SetDiscrete
 (
