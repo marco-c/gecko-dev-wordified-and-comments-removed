@@ -551,6 +551,12 @@ java
 \
 gfx
 /
+CairoGLInfo
+.
+java
+\
+gfx
+/
 CairoImage
 .
 java
