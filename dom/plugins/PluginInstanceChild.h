@@ -1276,6 +1276,15 @@ ShowPluginFrame
 void
 )
 ;
+bool
+ReadbackDifferenceRect
+(
+const
+nsIntRect
+&
+rect
+)
+;
 void
 AsyncShowPluginFrame
 (
