@@ -555,7 +555,7 @@ PR_FALSE
 }
 nsAutoTArray
 <
-nsAutoString
+nsString
 2
 >
 tagStack

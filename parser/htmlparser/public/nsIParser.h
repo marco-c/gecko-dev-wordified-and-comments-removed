@@ -493,7 +493,7 @@ void
 aKey
 nsTArray
 <
-nsAutoString
+nsString
 >
 &
 aTagStack

@@ -2291,7 +2291,7 @@ nsAString
 aStr
 nsTArray
 <
-nsAutoString
+nsString
 >
 &
 aTagStack
@@ -2335,7 +2335,7 @@ CreateTagStack
 (
 nsTArray
 <
-nsAutoString
+nsString
 >
 &
 aTagStack
