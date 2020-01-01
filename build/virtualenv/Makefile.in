@@ -99,12 +99,6 @@ setuptools_packages
 :
 =
 \
-build
-/
-pylib
-/
-blessings
-\
 other
 -
 licenses
