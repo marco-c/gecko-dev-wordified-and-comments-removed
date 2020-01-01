@@ -94,9 +94,6 @@ MPL
 interface
 Selection
 ;
-[
-OverrideBuiltins
-]
 interface
 HTMLDocument
 :
