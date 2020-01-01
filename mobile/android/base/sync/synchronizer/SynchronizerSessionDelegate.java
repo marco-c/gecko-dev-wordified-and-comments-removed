@@ -51,6 +51,14 @@ synchronizerSession
 ;
 public
 void
+onSynchronizeSkipped
+(
+SynchronizerSession
+synchronizerSession
+)
+;
+public
+void
 onFetchError
 (
 Exception

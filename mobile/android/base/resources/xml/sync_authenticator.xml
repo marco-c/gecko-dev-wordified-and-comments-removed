@@ -51,9 +51,7 @@ org
 .
 mozilla
 .
-firefox
-.
-sync
+firefox_sync
 "
 android
 :
@@ -81,6 +79,15 @@ label
 string
 /
 sync_account_label
+"
+android
+:
+accountPreferences
+=
+"
+xml
+/
+sync_options
 "
 /
 >

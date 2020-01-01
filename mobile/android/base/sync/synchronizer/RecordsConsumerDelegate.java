@@ -51,6 +51,8 @@ abstract
 void
 consumerIsDone
 (
+boolean
+forced
 )
 ;
 public

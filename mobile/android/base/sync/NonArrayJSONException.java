@@ -9,7 +9,7 @@ sync
 ;
 public
 class
-NonObjectJSONException
+NonArrayJSONException
 extends
 UnexpectedJSONException
 {
@@ -19,10 +19,10 @@ final
 long
 serialVersionUID
 =
-2214238763035650087L
+5582918057432365749L
 ;
 public
-NonObjectJSONException
+NonArrayJSONException
 (
 Object
 object

@@ -43,6 +43,8 @@ handleSuccess
 (
 MetaGlobal
 global
+SyncStorageResponse
+response
 )
 ;
 public
@@ -51,6 +53,8 @@ handleMissing
 (
 MetaGlobal
 global
+SyncStorageResponse
+response
 )
 ;
 public

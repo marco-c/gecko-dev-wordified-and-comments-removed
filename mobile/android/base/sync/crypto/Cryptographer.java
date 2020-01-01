@@ -134,6 +134,17 @@ binary
 .
 Base64
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+sync
+.
+Utils
+;
 public
 class
 Cryptographer

@@ -156,9 +156,13 @@ View
 target
 )
 {
-moveTaskToBack
+setResult
 (
-true
+RESULT_CANCELED
+)
+;
+finish
+(
 )
 ;
 }

@@ -90,7 +90,7 @@ String
 LOG_TAG
 =
 "
-JPAKE_REQUEST
+JPakeRequest
 "
 ;
 private

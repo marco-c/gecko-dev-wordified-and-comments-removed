@@ -101,6 +101,8 @@ handleSuccess
 (
 MetaGlobal
 global
+SyncStorageResponse
+response
 )
 {
 session
@@ -168,6 +170,8 @@ handleMissing
 (
 MetaGlobal
 global
+SyncStorageResponse
+response
 )
 {
 session
