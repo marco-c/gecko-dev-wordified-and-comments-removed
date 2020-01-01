@@ -2002,6 +2002,9 @@ void
 address
 )
 {
+AutoAssertNoGC
+nogc
+;
 if
 (
 !
@@ -2057,6 +2060,11 @@ fun
 >
 script
 (
+)
+.
+get
+(
+nogc
 )
 chunk
 )

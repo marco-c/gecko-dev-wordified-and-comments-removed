@@ -286,6 +286,11 @@ token
 script
 (
 )
+.
+get
+(
+nogc
+)
 ;
 }
 JS_NOT_REACHED

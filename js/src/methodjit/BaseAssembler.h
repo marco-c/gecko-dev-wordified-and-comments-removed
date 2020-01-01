@@ -531,6 +531,11 @@ vmframe
 script
 (
 )
+.
+get
+(
+nogc
+)
 )
 ;
 }

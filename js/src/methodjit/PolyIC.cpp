@@ -6301,6 +6301,11 @@ f
 script
 (
 )
+.
+get
+(
+nogc
+)
 f
 .
 pc
@@ -7034,6 +7039,11 @@ f
 .
 script
 (
+)
+.
+get
+(
+nogc
 )
 f
 .

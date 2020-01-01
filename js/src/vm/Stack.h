@@ -3613,6 +3613,11 @@ fp
 script
 (
 )
+.
+get
+(
+nogc
+)
 ;
 sp
 =

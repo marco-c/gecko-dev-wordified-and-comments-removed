@@ -373,6 +373,11 @@ callee
 script
 (
 )
+.
+get
+(
+nogc
+)
 )
 ;
 ;
@@ -487,6 +492,11 @@ callee
 .
 script
 (
+)
+.
+get
+(
+nogc
 )
 )
 ;

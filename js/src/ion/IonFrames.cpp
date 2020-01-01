@@ -5213,6 +5213,11 @@ callee_
 script
 (
 )
+.
+get
+(
+nogc
+)
 ;
 pc_
 =

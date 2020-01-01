@@ -4957,6 +4957,11 @@ f
 script
 (
 )
+.
+get
+(
+nogc
+)
 f
 .
 pc
@@ -5782,6 +5787,11 @@ toFunction
 >
 script
 (
+)
+.
+get
+(
+nogc
 )
 )
 )
@@ -7267,6 +7277,11 @@ fun
 script
 (
 )
+.
+get
+(
+nogc
+)
 ;
 JS_ASSERT
 (
@@ -8141,6 +8156,11 @@ fun
 >
 script
 (
+)
+.
+get
+(
+nogc
 )
 ;
 if
