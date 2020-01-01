@@ -3094,10 +3094,6 @@ tn3
 endif
 JS_DECLARE_CALLINFO
 (
-js_Array_dense_setelem_hole
-)
-JS_DECLARE_CALLINFO
-(
 js_NewEmptyArray
 )
 JS_DECLARE_CALLINFO
