@@ -731,6 +731,11 @@ uint32
 returnPointOffset
 )
 ;
+void
+ensureOsiSpace
+(
+)
+;
 bool
 emitTruncateDouble
 (
