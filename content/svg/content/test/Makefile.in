@@ -510,6 +510,10 @@ test_isSupported
 .
 xhtml
 \
+test_nonAnimStrings
+.
+xhtml
+\
 test_pathSeg
 .
 xhtml
