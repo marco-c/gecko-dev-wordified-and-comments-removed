@@ -253,6 +253,8 @@ nsIObserver
 public
 nsINetUtil
 public
+nsINetUtil_MOZILLA_1_9_1
+public
 nsSupportsWeakReference
 {
 public
@@ -262,6 +264,7 @@ NS_DECL_NSIIOSERVICE
 NS_DECL_NSIIOSERVICE2
 NS_DECL_NSIOBSERVER
 NS_DECL_NSINETUTIL
+NS_DECL_NSINETUTIL_MOZILLA_1_9_1
 static
 nsIOService
 *
