@@ -598,9 +598,6 @@ widget_shared_x11
 LIB_SUFFIX
 )
 endif
-/
-/
-MOZ_X11
 LOCAL_INCLUDES
 +
 =
