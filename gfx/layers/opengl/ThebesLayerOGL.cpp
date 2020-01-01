@@ -4844,7 +4844,9 @@ mValidRegion
 *
 aReadOnlyFront
 =
-aNewFront
+null_t
+(
+)
 ;
 aFrontUpdatedRegion
 -
