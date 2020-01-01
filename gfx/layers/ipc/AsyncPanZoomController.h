@@ -151,6 +151,11 @@ NotifyDOMTouchListenerAdded
 (
 )
 ;
+void
+CancelDefaultPanZoom
+(
+)
+;
 bool
 SampleContentTransformForFrame
 (
@@ -495,6 +500,9 @@ mContentPainterStatus
 ;
 bool
 mMayHaveTouchListeners
+;
+bool
+mDisableNextTouchBatch
 ;
 friend
 class

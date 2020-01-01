@@ -42,6 +42,11 @@ RenderFrameChild
 {
 }
 void
+CancelDefaultPanZoom
+(
+)
+;
+void
 Destroy
 (
 )
