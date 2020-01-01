@@ -426,12 +426,7 @@ kDwmLibraryName
 ;
 if
 (
-uintptr_t
-(
 sDwmDll
-)
->
-31
 )
 {
 dwmExtendFrameIntoClientAreaPtr
