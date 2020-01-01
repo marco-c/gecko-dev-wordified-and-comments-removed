@@ -290,10 +290,7 @@ nsISiteSecurityService
 .
 HEADER_HSTS
 uri
-privacyFlags
-(
-true
-)
+0
 )
 ;
 }
