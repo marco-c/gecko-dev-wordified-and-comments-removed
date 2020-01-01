@@ -393,10 +393,6 @@ true
 )
 ;
 }
-cleanup
-(
-)
-;
 const
 nsIDownloadManager
 =
