@@ -617,6 +617,10 @@ browser_purchase
 .
 js
 \
+browser_openDialog
+.
+js
+\
 (
 NULL
 )
