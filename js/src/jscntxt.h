@@ -4457,7 +4457,7 @@ generatingError
 JSPackedBool
 insideGCMarkCallback
 ;
-JSPackedBool
+JSBool
 throwing
 ;
 js
