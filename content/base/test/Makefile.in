@@ -992,6 +992,14 @@ test_bug424359
 .
 html
 \
+test_bug499656
+.
+html
+\
+test_bug499656
+.
+xhtml
+\
 file_htmlserializer_1
 .
 html
