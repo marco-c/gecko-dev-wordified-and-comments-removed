@@ -10513,7 +10513,7 @@ nsGlobalWindow
 *
 topWindow
 =
-GetTop
+GetScriptableTop
 (
 )
 ;
@@ -10668,7 +10668,7 @@ nsGlobalWindow
 *
 topWindow
 =
-GetTop
+GetScriptableTop
 (
 )
 ;
@@ -10898,7 +10898,7 @@ nsGlobalWindow
 *
 topWindow
 =
-GetTop
+GetScriptableTop
 (
 )
 ;
@@ -26167,7 +26167,7 @@ nsGlobalWindow
 *
 topWin
 =
-GetTop
+GetScriptableTop
 (
 )
 ;
@@ -26753,7 +26753,7 @@ nsGlobalWindow
 *
 topWin
 =
-GetTop
+GetScriptableTop
 (
 )
 ;
@@ -26968,7 +26968,7 @@ nsGlobalWindow
 *
 topWin
 =
-GetTop
+GetScriptableTop
 (
 )
 ;

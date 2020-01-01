@@ -8504,11 +8504,6 @@ NS_ENSURE_STATE
 window
 )
 ;
-NS_ENSURE_ARG_POINTER
-(
-aWindow
-)
-;
 window
 -
 >
