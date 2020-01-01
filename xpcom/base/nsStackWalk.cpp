@@ -905,7 +905,7 @@ GetLastError
 (
 )
 ;
-FormatMessage
+FormatMessageA
 (
 FORMAT_MESSAGE_ALLOCATE_BUFFER
 |
@@ -920,7 +920,7 @@ LANG_NEUTRAL
 SUBLANG_DEFAULT
 )
 (
-LPTSTR
+LPSTR
 )
 &
 lpMsgBuf
