@@ -2917,6 +2917,10 @@ nsIEditor
 :
 :
 eNext
+nsIEditor
+:
+:
+eStrip
 )
 ;
 }

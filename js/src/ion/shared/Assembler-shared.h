@@ -259,6 +259,17 @@ ptr
 )
 {
 }
+explicit
+ImmWord
+(
+gc
+:
+:
+Cell
+*
+cell
+)
+;
 void
 *
 asPointer

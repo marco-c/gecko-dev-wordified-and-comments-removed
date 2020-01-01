@@ -571,17 +571,11 @@ Init
 (
 )
 {
-if
-(
-!
 mOverrideTable
 .
 Init
 (
 )
-)
-return
-NS_ERROR_FAILURE
 ;
 gChromeRegistry
 =

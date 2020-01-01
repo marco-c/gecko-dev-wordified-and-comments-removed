@@ -293,17 +293,11 @@ Init
 (
 )
 {
-if
-(
-!
 mDictionaries
 .
 Init
 (
 )
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 LoadDictionaryList
 (

@@ -128,6 +128,15 @@ PRInt64
 aStartTime
 )
 ;
+bool
+IsSeekableInBufferedRanges
+(
+)
+{
+return
+true
+;
+}
 private
 :
 bool

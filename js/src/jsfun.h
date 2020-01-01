@@ -1192,7 +1192,10 @@ js
 :
 HandleObject
 obj
-jsid
+js
+:
+:
+HandleId
 id
 JSNative
 native
@@ -1288,6 +1291,12 @@ js
 StackFrame
 *
 fp
+js
+:
+:
+CallObject
+&
+callobj
 )
 ;
 namespace

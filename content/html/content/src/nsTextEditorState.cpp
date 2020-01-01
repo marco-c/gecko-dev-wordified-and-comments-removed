@@ -197,6 +197,13 @@ h
 #
 include
 "
+nsTypedSelection
+.
+h
+"
+#
+include
+"
 nsEventListenerManager
 .
 h
@@ -7140,6 +7147,10 @@ nsIEditor
 :
 :
 eNone
+nsIEditor
+:
+:
+eStrip
 )
 ;
 }

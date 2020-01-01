@@ -182,6 +182,14 @@ JSFunction
 >
 CompilerRootFunction
 ;
+typedef
+CompilerRoot
+<
+PropertyName
+*
+>
+CompilerRootPropertyName
+;
 class
 AutoCompilerRoots
 {

@@ -2373,6 +2373,7 @@ PRUint64
 *
 aState
 )
+const
 {
 nsHyperTextAccessibleWrap
 :

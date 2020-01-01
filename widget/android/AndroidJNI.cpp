@@ -1030,6 +1030,7 @@ aBody
 jenv
 )
 aTimestamp
+false
 )
 ;
 nsCOMPtr
@@ -1361,6 +1362,7 @@ aBody
 jenv
 )
 aTimestamp
+true
 )
 ;
 nsCOMPtr
@@ -1504,6 +1506,7 @@ aBody
 jenv
 )
 aTimestamp
+true
 )
 ;
 nsCOMPtr
@@ -1927,6 +1930,7 @@ aBody
 jenv
 )
 aTimestamp
+true
 )
 ;
 nsCOMPtr
@@ -2894,6 +2898,7 @@ aBody
 jenv
 )
 aTimestamp
+true
 )
 ;
 nsCOMPtr
@@ -3139,6 +3144,7 @@ aBody
 jenv
 )
 aTimestamp
+true
 )
 ;
 nsCOMPtr

@@ -827,6 +827,9 @@ case
 eCSSProperty_text_rendering
 :
 case
+eCSSProperty_vector_effect
+:
+case
 eCSSProperty_visibility
 :
 case

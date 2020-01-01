@@ -454,6 +454,15 @@ return
 mHasVideo
 ;
 }
+bool
+IsSeekableInBufferedRanges
+(
+)
+{
+return
+false
+;
+}
 virtual
 nsresult
 ReadMetadata

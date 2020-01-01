@@ -3866,7 +3866,7 @@ masm
 .
 movePtr
 (
-ImmWord
+ImmGCPtr
 (
 lir
 -
@@ -5075,7 +5075,7 @@ ValueIndex
 ;
 pushArg
 (
-ImmWord
+ImmGCPtr
 (
 lir
 -
@@ -9366,8 +9366,7 @@ pf
 (
 JSContext
 *
-JSObject
-*
+HandleObject
 const
 Value
 &
@@ -12992,7 +12991,7 @@ mir
 )
 -
 >
-atom
+name
 (
 )
 )
@@ -13054,7 +13053,7 @@ mir
 )
 -
 >
-atom
+name
 (
 )
 )
@@ -13118,7 +13117,7 @@ mir
 )
 -
 >
-atom
+name
 (
 )
 )
@@ -13311,8 +13310,7 @@ pf
 (
 JSContext
 *
-JSObject
-*
+HandleObject
 const
 Value
 &
@@ -14261,7 +14259,7 @@ objReg
 mir
 -
 >
-atom
+name
 (
 )
 output
@@ -14322,8 +14320,7 @@ pf
 JSContext
 *
 size_t
-JSObject
-*
+HandleObject
 Value
 *
 )
@@ -15144,7 +15141,7 @@ mir
 )
 -
 >
-atom
+name
 (
 )
 )
@@ -15165,8 +15162,7 @@ pf
 JSContext
 *
 HandleObject
-JSAtom
-*
+HandlePropertyName
 const
 HandleValue
 bool
@@ -15217,8 +15213,7 @@ JSContext
 const
 Value
 &
-PropertyName
-*
+HandlePropertyName
 JSBool
 *
 )
@@ -15432,7 +15427,7 @@ objReg
 mir
 -
 >
-atom
+name
 (
 )
 value

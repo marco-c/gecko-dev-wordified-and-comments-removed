@@ -3634,17 +3634,11 @@ rv
 rv
 )
 ;
-if
-(
-!
 mStorages
 .
 Init
 (
 )
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 nsCOMPtr
 <
@@ -9834,9 +9828,6 @@ rv
 return
 rv
 ;
-if
-(
-!
 mStorages
 .
 Put
@@ -9844,9 +9835,6 @@ Put
 origin
 newstorage
 )
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 newstorage
 .
@@ -10417,9 +10405,6 @@ aStorage
 ;
 #
 endif
-if
-(
-!
 mStorages
 .
 Put
@@ -10427,9 +10412,6 @@ Put
 origin
 aStorage
 )
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 else

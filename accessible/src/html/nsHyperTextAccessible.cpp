@@ -185,6 +185,13 @@ h
 #
 include
 "
+nsTypedSelection
+.
+h
+"
+#
+include
+"
 gfxSkipChars
 .
 h
@@ -6214,6 +6221,10 @@ nsIEditor
 :
 :
 eNone
+nsIEditor
+:
+:
+eStrip
 )
 ;
 }

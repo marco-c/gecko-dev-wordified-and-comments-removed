@@ -89,6 +89,12 @@ GetPaintServerPattern
 nsIFrame
 *
 aSource
+nsStyleSVGPaint
+nsStyleSVG
+:
+:
+*
+aFillOrStroke
 float
 aOpacity
 const
@@ -336,6 +342,12 @@ patternMatrix
 nsIFrame
 *
 aSource
+nsStyleSVGPaint
+nsStyleSVG
+:
+:
+*
+aFillOrStroke
 float
 aGraphicOpacity
 const

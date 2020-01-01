@@ -1177,6 +1177,15 @@ nsGkAtoms
 :
 :
 ondeviceproximity
+|
+|
+aTypeAtom
+=
+=
+nsGkAtoms
+:
+:
+onuserproximity
 )
 {
 EnableDevice
@@ -1525,6 +1534,9 @@ break
 case
 NS_DEVICE_PROXIMITY
 :
+case
+NS_USER_PROXIMITY
+:
 window
 -
 >
@@ -1693,6 +1705,9 @@ break
 ;
 case
 NS_DEVICE_PROXIMITY
+:
+case
+NS_USER_PROXIMITY
 :
 window
 -

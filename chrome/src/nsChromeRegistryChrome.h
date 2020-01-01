@@ -577,12 +577,11 @@ OverlayListHash
 )
 {
 }
-bool
+void
 Init
 (
 )
 {
-return
 mTable
 .
 Init

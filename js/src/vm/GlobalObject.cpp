@@ -800,9 +800,10 @@ JSProto_LIMIT
 return
 NULL
 ;
-jsid
+RootedVarId
 id
-=
+(
+cx
 NameToId
 (
 cx
@@ -814,6 +815,7 @@ runtime
 atomState
 .
 evalAtom
+)
 )
 ;
 JSObject

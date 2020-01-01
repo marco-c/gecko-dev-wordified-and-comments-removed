@@ -681,6 +681,9 @@ atom
 if
 (
 !
+baseops
+:
+:
 GetPropertyDefault
 (
 cx
@@ -12813,7 +12816,7 @@ PNK_LP
 :
 {
 #
-ifdef
+if
 JS_HAS_GENERATOR_EXPRS
 if
 (
@@ -13421,7 +13424,7 @@ dst
 )
 ;
 #
-ifdef
+if
 JS_HAS_XML_SUPPORT
 case
 PNK_XMLUNARY
@@ -13839,7 +13842,7 @@ getKind
 )
 {
 #
-ifdef
+if
 JS_HAS_XML_SUPPORT
 case
 PNK_XMLCURLYEXPR
@@ -15179,7 +15182,7 @@ bool
 isGenerator
 =
 #
-ifdef
+if
 JS_HAS_GENERATORS
 pn
 -
@@ -15187,9 +15190,9 @@ pn
 pn_funbox
 -
 >
-tcflags
-&
-TCF_FUN_IS_GENERATOR
+funIsGenerator
+(
+)
 ;
 #
 else
@@ -15201,7 +15204,7 @@ bool
 isExpression
 =
 #
-ifdef
+if
 JS_HAS_EXPR_CLOSURES
 func
 -
@@ -16064,6 +16067,9 @@ locAtom
 if
 (
 !
+baseops
+:
+:
 GetPropertyDefault
 (
 cx
@@ -16113,6 +16119,9 @@ sourceAtom
 if
 (
 !
+baseops
+:
+:
 GetPropertyDefault
 (
 cx
@@ -16233,6 +16242,9 @@ lineAtom
 if
 (
 !
+baseops
+:
+:
 GetPropertyDefault
 (
 cx
@@ -16283,6 +16295,9 @@ builderAtom
 if
 (
 !
+baseops
+:
+:
 GetPropertyDefault
 (
 cx

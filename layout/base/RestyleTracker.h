@@ -186,12 +186,11 @@ flags
 )
 ;
 }
-bool
+void
 Init
 (
 )
 {
-return
 mPendingRestyles
 .
 Init

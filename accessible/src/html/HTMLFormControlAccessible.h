@@ -304,6 +304,7 @@ PRUint64
 *
 aState
 )
+const
 ;
 virtual
 nsresult

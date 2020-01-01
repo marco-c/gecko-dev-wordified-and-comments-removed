@@ -365,7 +365,7 @@ nsnull
 }
 }
 namespace
-XPCWrapper
+xpc
 {
 JSObject
 *
@@ -424,6 +424,10 @@ return
 nsnull
 ;
 }
+}
+namespace
+XPCWrapper
+{
 JSObject
 *
 UnsafeUnwrapSecurityWrapper

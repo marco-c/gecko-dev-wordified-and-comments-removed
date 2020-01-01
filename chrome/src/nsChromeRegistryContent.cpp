@@ -430,9 +430,6 @@ skinBaseURI
 =
 skin
 ;
-nsresult
-rv
-=
 mPackagesHash
 .
 Put
@@ -442,15 +439,6 @@ aPackage
 package
 entry
 )
-;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-return
 ;
 }
 void

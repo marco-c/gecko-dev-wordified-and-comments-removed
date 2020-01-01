@@ -165,6 +165,9 @@ TRANSFORM_CHANGED
 COORD_CONTEXT_CHANGED
 =
 0x04
+FULL_ZOOM_CHANGED
+=
+0x08
 }
 ;
 virtual
@@ -196,16 +199,6 @@ NS_IMETHOD_
 bool
 )
 IsDisplayContainer
-(
-)
-=
-0
-;
-NS_IMETHOD_
-(
-bool
-)
-HasValidCoveredRect
 (
 )
 =

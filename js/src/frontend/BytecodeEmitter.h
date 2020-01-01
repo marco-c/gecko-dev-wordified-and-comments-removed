@@ -340,9 +340,6 @@ parser
 OwnedAtomIndexMapPtr
 atomIndices
 ;
-AtomDefnMapPtr
-roLexdeps
-;
 unsigned
 firstLine
 ;

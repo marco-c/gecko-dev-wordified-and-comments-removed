@@ -1379,13 +1379,6 @@ rootElm
 presShell
 )
 ;
-if
-(
-!
-docAcc
-|
-|
-!
 mDocAccessibleCache
 .
 Put
@@ -1393,9 +1386,6 @@ Put
 aDocument
 docAcc
 )
-)
-return
-nsnull
 ;
 if
 (

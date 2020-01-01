@@ -3468,8 +3468,10 @@ nsAString
 aOuterHTML
 )
 {
+nsCOMPtr
+<
 nsINode
-*
+>
 parent
 =
 GetNodeParent
@@ -3544,6 +3546,10 @@ nsIContent
 >
 (
 parent
+.
+get
+(
+)
 )
 -
 >
@@ -3560,6 +3566,10 @@ nsIContent
 >
 (
 parent
+.
+get
+(
+)
 )
 -
 >

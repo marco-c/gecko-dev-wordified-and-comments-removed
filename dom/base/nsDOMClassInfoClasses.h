@@ -164,6 +164,10 @@ DeviceProximityEvent
 )
 DOMCI_CLASS
 (
+UserProximityEvent
+)
+DOMCI_CLASS
+(
 DeviceOrientationEvent
 )
 DOMCI_CLASS
@@ -853,6 +857,10 @@ SVGUnknownElement
 DOMCI_CLASS
 (
 SVGUseElement
+)
+DOMCI_CLASS
+(
+SVGViewElement
 )
 DOMCI_CLASS
 (

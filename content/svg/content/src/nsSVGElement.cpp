@@ -4337,6 +4337,13 @@ nsGkAtoms
 stroke_width
 }
 {
+&
+nsGkAtoms
+:
+:
+vector_effect
+}
+{
 nsnull
 }
 }

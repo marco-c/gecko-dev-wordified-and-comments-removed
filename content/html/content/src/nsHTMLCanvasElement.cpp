@@ -2345,10 +2345,9 @@ bag
 )
 ;
 JSObject
-*
+&
 opts
 =
-&
 aContextOptions
 .
 toObject
@@ -2365,6 +2364,7 @@ cx
 JS_Enumerate
 (
 cx
+&
 opts
 )
 )
@@ -2422,6 +2422,7 @@ propname
 JS_GetPropertyById
 (
 cx
+&
 opts
 propid
 &
@@ -2429,7 +2430,8 @@ propval
 )
 )
 {
-continue
+return
+NS_ERROR_FAILURE
 ;
 }
 JSString
