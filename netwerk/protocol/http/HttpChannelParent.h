@@ -95,6 +95,8 @@ public
 nsIProgressEventSink
 public
 nsIInterfaceRequestor
+public
+nsIHttpHeaderVisitor
 {
 public
 :
@@ -105,6 +107,7 @@ NS_DECL_NSIPARENTCHANNEL
 NS_DECL_NSIPARENTREDIRECTINGCHANNEL
 NS_DECL_NSIPROGRESSEVENTSINK
 NS_DECL_NSIINTERFACEREQUESTOR
+NS_DECL_NSIHTTPHEADERVISITOR
 HttpChannelParent
 (
 PBrowserParent
@@ -376,6 +379,10 @@ mStoredProgress
 ;
 PRUint64
 mStoredProgressMax
+;
+RequestHeaderTuples
+*
+mHeadersToSyncToChild
 ;
 }
 ;

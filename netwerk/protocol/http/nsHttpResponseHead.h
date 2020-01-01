@@ -34,13 +34,6 @@ nsHttpResponseHead
 (
 )
 :
-mHeaders
-(
-nsHttpHeaderArray
-:
-:
-HTTP_RESPONSE_HEADERS
-)
 mVersion
 (
 NS_HTTP_VERSION_1_1
