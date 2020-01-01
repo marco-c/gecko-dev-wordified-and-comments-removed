@@ -218,6 +218,9 @@ info
 .
 processInfoLength
 =
+(
+UInt32
+)
 sizeof
 (
 struct
@@ -312,6 +315,11 @@ if
 dict
 )
 {
+CFMakeCollectable
+(
+dict
+)
+;
 pid_t
 pid
 =
