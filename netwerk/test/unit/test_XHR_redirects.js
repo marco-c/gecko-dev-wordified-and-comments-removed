@@ -369,10 +369,8 @@ tests
 "
 DELETE
 "
-"
-GET
-"
-200
+null
+301
 ]
 [
 301
@@ -390,7 +388,7 @@ GET
 HEAD
 "
 "
-GET
+HEAD
 "
 200
 ]
@@ -409,10 +407,8 @@ GET
 "
 PUT
 "
-"
-GET
-"
-200
+null
+301
 ]
 [
 301
@@ -420,7 +416,7 @@ GET
 PROPFIND
 "
 "
-GET
+PROPFIND
 "
 200
 ]
@@ -429,10 +425,8 @@ GET
 "
 DELETE
 "
-"
-GET
-"
-200
+null
+302
 ]
 [
 302
@@ -450,7 +444,7 @@ GET
 HEAD
 "
 "
-GET
+HEAD
 "
 200
 ]
@@ -469,10 +463,8 @@ GET
 "
 PUT
 "
-"
-GET
-"
-200
+null
+302
 ]
 [
 302
@@ -480,7 +472,7 @@ GET
 PROPFIND
 "
 "
-GET
+PROPFIND
 "
 200
 ]
@@ -510,7 +502,7 @@ GET
 HEAD
 "
 "
-GET
+HEAD
 "
 200
 ]
