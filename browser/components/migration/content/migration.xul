@@ -642,6 +642,7 @@ title
 onpageadvanced
 =
 "
+return
 MigrationWizard
 .
 onImportSourcePageAdvanced
