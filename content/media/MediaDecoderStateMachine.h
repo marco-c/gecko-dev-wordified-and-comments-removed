@@ -610,6 +610,8 @@ int
 aRate
 bool
 aHasAudio
+bool
+aHasVideo
 MetadataTags
 *
 aTags

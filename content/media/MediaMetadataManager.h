@@ -70,6 +70,9 @@ mChannels
 bool
 mHasAudio
 ;
+bool
+mHasVideo
+;
 }
 ;
 class
@@ -190,6 +193,10 @@ metadata
 -
 >
 mHasAudio
+metadata
+-
+>
+mHasVideo
 metadata
 -
 >
