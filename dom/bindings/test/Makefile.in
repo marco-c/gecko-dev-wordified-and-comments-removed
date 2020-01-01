@@ -319,13 +319,6 @@ py
 .
 .
 /
-ParserResults
-.
-pkl
-\
-.
-.
-/
 Makefile
 \
 (
