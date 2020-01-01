@@ -587,7 +587,9 @@ fun
 firstFrame
 -
 >
-scopeChain
+getScopeChain
+(
+)
 )
 ;
 if

@@ -186,7 +186,7 @@ void
 *
 ncode
 ;
-public
+private
 :
 JSObject
 *
