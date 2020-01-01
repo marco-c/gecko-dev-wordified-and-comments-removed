@@ -2385,6 +2385,10 @@ NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 nsStyleSheetService
 Init
 )
+NS_GENERIC_FACTORY_CONSTRUCTOR
+(
+nsJSURI
+)
 #
 define
 NS_GENERIC_FACTORY_CONSTRUCTOR_NOREFS
@@ -4813,6 +4817,15 @@ nsJSProtocolHandler
 :
 :
 Create
+}
+{
+"
+JavaScript
+URI
+"
+NS_JSURI_CID
+nsnull
+nsJSURIConstructor
 }
 {
 "
