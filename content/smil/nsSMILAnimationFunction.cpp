@@ -940,15 +940,6 @@ IsIndefinite
 |
 |
 (
-HasAttr
-(
-nsGkAtoms
-:
-:
-values
-)
-&
-&
 values
 .
 Length
@@ -957,6 +948,11 @@ Length
 =
 =
 1
+&
+&
+TreatSingleValueAsStatic
+(
+)
 )
 )
 {
