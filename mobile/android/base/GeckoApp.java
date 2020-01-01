@@ -9289,6 +9289,7 @@ commit
 )
 ;
 }
+protected
 void
 initializeChrome
 (
@@ -9687,12 +9688,6 @@ home
 "
 )
 ;
-initializeChrome
-(
-uri
-isExternalURL
-)
-;
 StartupAction
 startupAction
 ;
@@ -9819,11 +9814,7 @@ null
 ;
 passedUri
 =
-"
-about
-:
-empty
-"
+null
 ;
 }
 else
@@ -9851,6 +9842,12 @@ copy
 ;
 }
 }
+initializeChrome
+(
+passedUri
+isExternalURL
+)
+;
 Telemetry
 .
 HistogramAdd
