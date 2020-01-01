@@ -17,9 +17,7 @@ h
 #
 include
 <
-math
-.
-h
+cmath
 >
 #
 include
@@ -356,6 +354,9 @@ defined
 XP_DARWIN
 )
 return
+std
+:
+:
 isfinite
 (
 d
