@@ -215,6 +215,11 @@ GetAsSurface
 (
 )
 ;
+GLuint
+GetGLTexture
+(
+)
+;
 protected
 :
 CompositorOGL
