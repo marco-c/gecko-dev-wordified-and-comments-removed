@@ -410,6 +410,9 @@ debugMode
 debug
 ;
 }
+#
+ifdef
+JS_METHODJIT
 static
 void
 PurgeCallICs
@@ -422,9 +425,6 @@ JSScript
 start
 )
 {
-#
-ifdef
-JS_METHODJIT
 for
 (
 JSScript
@@ -517,9 +517,9 @@ nukeScriptDependentICs
 )
 ;
 }
+}
 #
 endif
-}
 JS_FRIEND_API
 (
 JSBool

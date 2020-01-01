@@ -3042,6 +3042,9 @@ void
 *
 code
 ;
+#
+ifdef
+JS_METHODJIT
 if
 (
 !
@@ -3066,6 +3069,17 @@ false
 invokeEntry
 )
 )
+#
+else
+if
+(
+!
+optimized
+(
+)
+)
+#
+endif
 return
 Invoke
 (

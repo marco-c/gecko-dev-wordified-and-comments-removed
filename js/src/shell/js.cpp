@@ -21366,6 +21366,9 @@ jsval
 vp
 )
 {
+#
+ifdef
+JS_METHODJIT
 JS_SET_RVAL
 (
 cx
@@ -21382,6 +21385,17 @@ mjitMemoryUsed
 )
 )
 ;
+#
+else
+JS_SET_RVAL
+(
+cx
+vp
+JSVAL_VOID
+)
+;
+#
+endif
 return
 true
 ;
