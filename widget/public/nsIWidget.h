@@ -236,6 +236,10 @@ the
 shell
 GtkWidget
 #
+define
+NS_NATIVE_SHAREABLE_WINDOW
+11
+#
 ifdef
 XP_MACOSX
 #

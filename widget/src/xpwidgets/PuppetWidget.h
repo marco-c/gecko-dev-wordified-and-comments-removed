@@ -347,11 +347,7 @@ GetNativeData
 PRUint32
 aDataType
 )
-{
-return
-nsnull
 ;
-}
 NS_IMETHOD
 ReparentNativeWidget
 (

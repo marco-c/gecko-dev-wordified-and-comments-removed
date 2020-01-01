@@ -2515,7 +2515,7 @@ widget
 >
 GetNativeData
 (
-NS_NATIVE_WINDOW
+NS_NATIVE_SHAREABLE_WINDOW
 )
 )
 ;
