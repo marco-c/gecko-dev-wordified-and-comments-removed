@@ -172,6 +172,14 @@ Last
 )
 )
 #
+ifdef
+LOG
+#
+undef
+LOG
+#
+endif
+#
 if
 defined
 (
