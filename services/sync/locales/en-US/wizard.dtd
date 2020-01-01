@@ -809,6 +809,9 @@ not
 case
 -
 sensitive
+spaces
+are
+optional
 .
 "
 >
