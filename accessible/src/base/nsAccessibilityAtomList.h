@@ -535,6 +535,13 @@ option
 )
 ACCESSIBILITY_ATOM
 (
+output
+"
+output
+"
+)
+ACCESSIBILITY_ATOM
+(
 panel
 "
 panel
