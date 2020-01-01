@@ -1204,6 +1204,9 @@ unused
 bool
 isWrappedNative
 ;
+JSWeakmapKeyDelegateOp
+weakmapKeyDelegateOp
+;
 }
 ;
 #
@@ -1216,6 +1219,7 @@ NULL
 NULL
 NULL
 false
+NULL
 }
 struct
 ObjectOps

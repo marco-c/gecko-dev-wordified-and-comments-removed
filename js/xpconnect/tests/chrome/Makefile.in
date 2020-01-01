@@ -285,6 +285,10 @@ test_weakmaps
 .
 xul
 \
+test_weakmap_keys_preserved
+.
+xul
+\
 test_weakref
 .
 xul
