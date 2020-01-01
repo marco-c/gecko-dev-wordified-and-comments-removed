@@ -557,6 +557,10 @@ test_bug_462172
 .
 xul
 \
+test_close_on_last_window
+.
+xul
+\
 unknownContentType_dialog_layout_data
 .
 txt
