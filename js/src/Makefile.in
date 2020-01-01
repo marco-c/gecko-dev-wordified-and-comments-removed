@@ -467,15 +467,6 @@ LIBS
 NSPR_LIBS
 )
 ifdef
-WINCE
-EXTRA_LIBS
-+
-=
-(
-JEMALLOC_LIBS
-)
-endif
-ifdef
 GNU_CXX
 ifdef
 INTEL_CXX
@@ -3613,6 +3604,9 @@ SYSINSTALL
 )
 ^
 (
+DESTDIR
+)
+(
 includedir
 )
 /
@@ -3629,6 +3623,9 @@ SCRIPTS
 SYSINSTALL
 )
 ^
+(
+DESTDIR
+)
 (
 bindir
 )
@@ -3657,6 +3654,9 @@ SYSINSTALL
 LIBRARY
 )
 (
+DESTDIR
+)
+(
 libdir
 )
 endif
@@ -3673,6 +3673,9 @@ SYSINSTALL
 SHARED_LIBRARY
 )
 (
+DESTDIR
+)
+(
 libdir
 )
 endif
@@ -3687,6 +3690,9 @@ SYSINSTALL
 )
 (
 IMPORT_LIBRARY
+)
+(
+DESTDIR
 )
 (
 libdir
