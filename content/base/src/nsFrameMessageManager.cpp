@@ -3016,16 +3016,6 @@ object
 continue
 ;
 }
-nsCxPusher
-pusher
-;
-pusher
-.
-Push
-(
-ctx
-)
-;
 JSAutoCompartment
 ac
 (
