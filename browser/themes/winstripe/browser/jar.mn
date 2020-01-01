@@ -15,10 +15,14 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
+os
+=
+WINNT
+osversion
+<
+6
 %
 skin
 browser
@@ -43,12 +47,29 @@ osversion
 >
 =
 6
-*
+%
+skin
+browser
+classic
+/
+1
+.
+0
+%
 skin
 /
 classic
 /
-luna
+browser
+/
+os
+!
+=
+WINNT
+*
+skin
+/
+classic
 /
 browser
 /
@@ -80,8 +101,6 @@ css
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -104,8 +123,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 engineManager
@@ -137,8 +154,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 Info
@@ -158,8 +173,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -193,8 +206,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 pageInfo
@@ -215,8 +226,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 pageInfo
@@ -236,8 +245,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -279,8 +286,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 livemark
@@ -320,8 +325,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -363,8 +366,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 Secure
@@ -397,8 +398,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 Secure24
@@ -430,8 +429,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -472,8 +469,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -495,8 +490,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 Throbber
@@ -516,8 +509,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -542,8 +533,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -576,8 +565,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -618,8 +605,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -660,8 +645,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -712,8 +695,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 searchbar
@@ -745,8 +726,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 Search
@@ -770,8 +749,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -801,8 +778,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 Search
@@ -827,8 +802,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 setDesktopBackground
@@ -849,8 +822,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 menu
@@ -891,8 +862,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 menu
@@ -932,8 +901,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -954,8 +921,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -981,8 +946,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 wrench
@@ -1003,8 +966,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 feeds
@@ -1044,8 +1005,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -1087,8 +1046,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 feeds
@@ -1128,8 +1085,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -1171,8 +1126,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 feeds
@@ -1212,8 +1165,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -1255,8 +1206,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 feeds
@@ -1295,8 +1244,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 places
@@ -1334,8 +1281,6 @@ css
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -1375,8 +1320,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 places
@@ -1414,8 +1357,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -1455,8 +1396,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 places
@@ -1495,8 +1434,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 places
@@ -1535,8 +1472,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 places
@@ -1574,8 +1509,6 @@ css
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -1617,8 +1550,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 places
@@ -1658,8 +1589,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -1701,8 +1630,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 places
@@ -1740,8 +1667,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -1783,8 +1708,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 places
@@ -1824,8 +1747,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -1867,8 +1788,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 places
@@ -1908,8 +1827,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -1951,8 +1868,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 places
@@ -1993,8 +1908,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 places
@@ -2035,8 +1948,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 places
@@ -2074,8 +1985,6 @@ css
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -2123,8 +2032,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 preferences
@@ -2165,8 +2072,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 preferences
@@ -2204,8 +2109,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -2247,8 +2150,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 preferences
@@ -2289,8 +2190,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 preferences
@@ -2328,8 +2227,6 @@ css
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -2369,8 +2266,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 tabbrowser
@@ -2449,8 +2344,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 tabbrowser
@@ -2529,8 +2422,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 tabbrowser
@@ -2587,8 +2478,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 tabbrowser
@@ -2644,8 +2533,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -2701,8 +2588,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 tabbrowser
@@ -2743,8 +2628,6 @@ skin
 /
 classic
 /
-luna
-/
 browser
 /
 tabbrowser
@@ -2790,8 +2673,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
@@ -2846,8 +2727,6 @@ png
 skin
 /
 classic
-/
-luna
 /
 browser
 /
