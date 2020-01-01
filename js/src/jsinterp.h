@@ -1255,7 +1255,7 @@ class
 Op
 >
 inline
-void
+bool
 forEachCanonicalActualArg
 (
 Op
@@ -1268,7 +1268,7 @@ class
 Op
 >
 inline
-void
+bool
 forEachFormalArg
 (
 Op
