@@ -90,6 +90,10 @@ Sanitizer
 .
 jsm
 \
+SharedPreferences
+.
+jsm
+\
 (
 NULL
 )
