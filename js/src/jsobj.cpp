@@ -5413,7 +5413,7 @@ vp
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -5437,7 +5437,7 @@ if
 callable
 )
 return
-JS_FALSE
+false
 ;
 jsid
 propid
@@ -5457,7 +5457,7 @@ propid
 )
 )
 return
-JS_FALSE
+false
 ;
 JSObject
 *
@@ -5503,7 +5503,7 @@ attrs
 )
 )
 return
-JS_FALSE
+false
 ;
 vp
 -
@@ -5511,15 +5511,6 @@ vp
 setUndefined
 (
 )
-;
-if
-(
-attrs
-&
-JSPROP_READONLY
-)
-return
-JS_TRUE
 ;
 if
 (
@@ -5541,7 +5532,7 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 return
 JS_SetWatchPoint
@@ -5623,7 +5614,7 @@ id
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 else
