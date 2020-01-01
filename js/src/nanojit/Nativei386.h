@@ -10503,7 +10503,7 @@ ffree
 %
 s
 "
-fpn
+gpn
 (
 r
 )
@@ -11627,7 +11627,7 @@ fstp
 %
 s
 "
-fpn
+gpn
 (
 r
 )
@@ -11735,7 +11735,7 @@ fld
 %
 s
 "
-fpn
+gpn
 (
 r
 )
