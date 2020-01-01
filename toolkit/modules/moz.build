@@ -181,6 +181,11 @@ RemoteSecurityUI
 jsm
 '
 '
+RemoteWebNavigation
+.
+jsm
+'
+'
 RemoteWebProgress
 .
 jsm
