@@ -1,3 +1,17 @@
+let
+SocialUI
+SocialChatBar
+SocialFlyout
+SocialShareButton
+SocialMenu
+SocialToolbar
+SocialSidebar
+;
+(
+function
+(
+)
+{
 const
 PANEL_MIN_HEIGHT
 =
@@ -30,7 +44,6 @@ jsm
 "
 )
 ;
-let
 SocialUI
 =
 {
@@ -2002,7 +2015,6 @@ provider
 ;
 }
 }
-let
 SocialChatBar
 =
 {
@@ -2570,7 +2582,6 @@ null
 }
 }
 }
-let
 SocialFlyout
 =
 {
@@ -3363,7 +3374,6 @@ yOffset
 ;
 }
 }
-let
 SocialShareButton
 =
 {
@@ -4178,7 +4188,6 @@ imageURL
 }
 }
 ;
-var
 SocialMenu
 =
 {
@@ -4408,7 +4417,6 @@ separator
 }
 }
 ;
-var
 SocialToolbar
 =
 {
@@ -6540,7 +6548,6 @@ false
 ;
 }
 }
-var
 SocialSidebar
 =
 {
@@ -7214,3 +7221,8 @@ null
 }
 }
 }
+}
+)
+(
+)
+;
