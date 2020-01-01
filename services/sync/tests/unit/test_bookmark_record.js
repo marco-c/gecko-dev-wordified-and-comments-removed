@@ -32,9 +32,9 @@ services
 -
 sync
 /
-type_records
+engines
 /
-bookmark
+bookmarks
 .
 js
 "
