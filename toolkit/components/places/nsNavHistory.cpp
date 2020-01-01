@@ -708,7 +708,7 @@ PREF_FREC_TEMP_REDIRECT_VISIT_BONUS
 PREF_FREC_DEFAULT_VISIT_BONUS
 PREF_FREC_UNVISITED_BOOKMARK_BONUS
 PREF_FREC_UNVISITED_TYPED_BONUS
-nsnull
+nullptr
 }
 ;
 NS_IMPL_THREADSAFE_ADDREF
@@ -1136,7 +1136,7 @@ mBatchLevel
 )
 mBatchDBTransaction
 (
-nsnull
+nullptr
 )
 mCachedNow
 (
@@ -1144,7 +1144,7 @@ mCachedNow
 )
 mExpireNowTimer
 (
-nsnull
+nullptr
 )
 mLastSessionID
 (
@@ -1243,7 +1243,7 @@ this
 )
 gHistoryService
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -3989,7 +3989,7 @@ Uri
 )
 !
 =
-nsnull
+nullptr
 )
 nonTimeBasedItems
 =
@@ -4295,7 +4295,7 @@ rv
 =
 FilterResultSet
 (
-nsnull
+nullptr
 inputSet
 &
 filteredSet
@@ -4996,7 +4996,7 @@ stmt
 >
 ExecuteAsync
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 ps
@@ -6076,7 +6076,7 @@ aReferringURI
 aTime
 -
 1
-nsnull
+nullptr
 TRANSITION_LINK
 false
 aSessionID
@@ -6181,7 +6181,7 @@ NotifyObservers
 (
 aURI
 NS_LINK_VISITED_EVENT_TOPIC
-nsnull
+nullptr
 )
 ;
 }
@@ -11959,7 +11959,7 @@ mBatchDBTransaction
 ;
 mBatchDBTransaction
 =
-nsnull
+nullptr
 ;
 }
 NOTIFY_OBSERVERS
@@ -19792,7 +19792,7 @@ RowToResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCAutoString
 url
@@ -23366,7 +23366,7 @@ NS_LOCALESERVICE_CONTRACTID
 NS_ENSURE_TRUE
 (
 ls
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -23386,7 +23386,7 @@ locale
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -23403,7 +23403,7 @@ NS_COLLATIONFACTORY_CONTRACTID
 NS_ENSURE_TRUE
 (
 cfact
-nsnull
+nullptr
 )
 ;
 rv
@@ -23423,7 +23423,7 @@ mCollation
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -23461,7 +23461,7 @@ GetStringBundleService
 NS_ENSURE_TRUE
 (
 bundleService
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -23494,7 +23494,7 @@ mBundle
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 }
@@ -23533,7 +23533,7 @@ GetStringBundleService
 NS_ENSURE_TRUE
 (
 bundleService
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -23566,7 +23566,7 @@ mDateFormatBundle
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 }

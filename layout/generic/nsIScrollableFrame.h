@@ -208,7 +208,7 @@ nsRect
 *
 aRange
 =
-nsnull
+nullptr
 )
 =
 0
@@ -246,12 +246,12 @@ nsIntPoint
 *
 aOverflow
 =
-nsnull
+nullptr
 nsIAtom
 *
 aOrigin
 =
-nsnull
+nullptr
 )
 =
 0

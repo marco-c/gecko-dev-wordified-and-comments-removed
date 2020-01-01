@@ -96,7 +96,7 @@ aForDeletion
 )
 mDatabaseId
 (
-nsnull
+nullptr
 )
 mCurrentVersion
 (

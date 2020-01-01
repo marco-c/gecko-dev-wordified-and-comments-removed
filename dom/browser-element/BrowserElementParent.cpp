@@ -117,7 +117,7 @@ nsGkAtoms
 :
 :
 iframe
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :
@@ -336,7 +336,7 @@ nsEventDispatcher
 CreateEvent
 (
 presContext
-nsnull
+nullptr
 NS_LITERAL_STRING
 (
 "
@@ -409,7 +409,7 @@ nsEventDispatcher
 DispatchDOMEvent
 (
 aOpenerFrameElement
-nsnull
+nullptr
 domEvent
 presContext
 &

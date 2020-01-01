@@ -91,7 +91,7 @@ mPixBytesTotal
 )
 mImageData
 (
-nsnull
+nullptr
 )
 mState
 (

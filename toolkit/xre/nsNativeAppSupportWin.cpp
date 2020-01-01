@@ -3518,7 +3518,7 @@ url
 get
 (
 )
-nsnull
+nullptr
 nsICommandLine
 :
 :
@@ -4179,7 +4179,7 @@ url
 get
 (
 )
-nsnull
+nullptr
 nsICommandLine
 :
 :
@@ -5480,7 +5480,7 @@ SafeJSContext
 :
 mContext
 (
-nsnull
+nullptr
 )
 {
 }
@@ -5896,7 +5896,7 @@ Init
 (
 0
 argv
-nsnull
+nullptr
 nsICommandLine
 :
 :

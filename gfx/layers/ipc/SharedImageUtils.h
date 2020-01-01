@@ -232,7 +232,7 @@ false
 *
 aBuffer
 =
-nsnull
+nullptr
 ;
 back
 .

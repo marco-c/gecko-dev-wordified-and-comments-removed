@@ -80,7 +80,7 @@ xptiInterfaceInfoManager
 *
 gInterfaceInfoManager
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -328,7 +328,7 @@ InvalidateInterfaceInfos
 ;
 gInterfaceInfoManager
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -399,7 +399,7 @@ XPTHeader
 *
 header
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -860,7 +860,7 @@ entry
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -1127,7 +1127,7 @@ entry
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -1208,7 +1208,7 @@ entry
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE

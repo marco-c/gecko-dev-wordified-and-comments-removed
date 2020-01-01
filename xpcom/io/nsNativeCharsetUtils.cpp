@@ -1077,7 +1077,7 @@ nsNativeCharsetConverter
 :
 gLock
 =
-nsnull
+nullptr
 ;
 bool
 nsNativeCharsetConverter
@@ -1139,7 +1139,7 @@ if
 native_charset
 =
 =
-nsnull
+nullptr
 )
 {
 NS_ERROR
@@ -1535,7 +1535,7 @@ gLock
 ;
 gLock
 =
-nsnull
+nullptr
 ;
 }
 if

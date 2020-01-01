@@ -978,7 +978,7 @@ mTexture
 ;
 mTexture
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -990,7 +990,7 @@ mTextureOnWhite
 ;
 mTextureOnWhite
 =
-nsnull
+nullptr
 ;
 nsIntRegion
 retainRegion
@@ -1388,7 +1388,7 @@ LayerManagerDestroyed
 {
 mD3DManager
 =
-nsnull
+nullptr
 ;
 }
 Layer
@@ -1491,7 +1491,7 @@ ThebesLayerD3D10
 ;
 mD2DSurface
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -1589,15 +1589,15 @@ mTextureOnWhite
 {
 mD2DSurfaceOnWhite
 =
-nsnull
+nullptr
 ;
 mSRViewOnWhite
 =
-nsnull
+nullptr
 ;
 mTextureOnWhite
 =
-nsnull
+nullptr
 ;
 mValidRegion
 .
@@ -2630,7 +2630,7 @@ else
 {
 mDrawTarget
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2782,7 +2782,7 @@ ThebesLayerD3D10
 ;
 mD2DSurfaceOnWhite
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -2792,7 +2792,7 @@ else
 {
 mDrawTarget
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2873,7 +2873,7 @@ ThebesLayerD3D10
 ;
 mDrawTarget
 =
-nsnull
+nullptr
 ;
 return
 ;

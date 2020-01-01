@@ -114,7 +114,7 @@ AnimationEvent
 ;
 mEvent
 =
-nsnull
+nullptr
 ;
 }
 }

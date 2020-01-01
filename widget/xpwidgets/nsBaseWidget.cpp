@@ -241,7 +241,7 @@ nsBaseWidget
 :
 mLastRollup
 =
-nsnull
+nullptr
 ;
 bool
 gDisableNativeTheme
@@ -307,23 +307,23 @@ nsBaseWidget
 :
 mClientData
 (
-nsnull
+nullptr
 )
 mViewWrapperPtr
 (
-nsnull
+nullptr
 )
 mEventCallback
 (
-nsnull
+nullptr
 )
 mViewCallback
 (
-nsnull
+nullptr
 )
 mContext
 (
-nsnull
+nullptr
 )
 mCursor
 (
@@ -362,7 +362,7 @@ mBounds
 )
 mOriginalBounds
 (
-nsnull
+nullptr
 )
 mClipRectCount
 (
@@ -562,7 +562,7 @@ Destroy
 ;
 mLayerManager
 =
-nsnull
+nullptr
 ;
 }
 DestroyCompositor
@@ -700,13 +700,13 @@ mContext
 >
 Init
 (
-nsnull
+nullptr
 )
 ;
 }
 if
 (
-nsnull
+nullptr
 !
 =
 aInitData
@@ -843,7 +843,7 @@ this
 nsNativeWidget
 nativeParent
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -863,13 +863,13 @@ GetNativeData
 NS_NATIVE_WIDGET
 )
 :
-nsnull
+nullptr
 ;
 parent
 =
 nativeParent
 ?
-nsnull
+nullptr
 :
 parent
 ;
@@ -964,7 +964,7 @@ forget
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -1208,7 +1208,7 @@ void
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIWidget
@@ -1224,7 +1224,7 @@ nsIWidget
 *
 topLevelWidget
 =
-nsnull
+nullptr
 *
 widget
 =
@@ -1264,7 +1264,7 @@ void
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 float
@@ -1521,7 +1521,7 @@ aChild
 >
 SetNextSibling
 (
-nsnull
+nullptr
 )
 ;
 aChild
@@ -1529,7 +1529,7 @@ aChild
 >
 SetPrevSibling
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -2516,7 +2516,7 @@ manager
 >
 SetDefaultTarget
 (
-nsnull
+nullptr
 BasicLayerManager
 :
 :
@@ -3225,7 +3225,7 @@ lm
 ;
 mCompositorChild
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -3276,7 +3276,7 @@ lm
 ;
 mCompositorChild
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -3364,7 +3364,7 @@ NS_ASSERTION
 aShadowManager
 =
 =
-nsnull
+nullptr
 "
 Async
 Compositor
@@ -3523,7 +3523,7 @@ GetThebesSurface
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -4446,7 +4446,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -4704,7 +4704,7 @@ aGuiEvent
 {
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 aGuiEvent
@@ -5239,7 +5239,7 @@ aPrefName
 {
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 aPrefName
@@ -5317,7 +5317,7 @@ aValue
 {
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 aPrefName
@@ -5837,7 +5837,7 @@ aWindowID
 {
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 aFileOut
@@ -5851,7 +5851,7 @@ FILE
 ;
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 aWidget
@@ -5866,7 +5866,7 @@ null
 ;
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 aPaintEvent
@@ -6028,7 +6028,7 @@ return
 ;
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 aFileOut
@@ -6042,7 +6042,7 @@ FILE
 ;
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 aWidget

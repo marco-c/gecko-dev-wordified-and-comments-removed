@@ -1105,7 +1105,7 @@ aFastTable
 &
 tableSize
 u1ByteCharset
-nsnull
+nullptr
 aMappingTable
 )
 ;

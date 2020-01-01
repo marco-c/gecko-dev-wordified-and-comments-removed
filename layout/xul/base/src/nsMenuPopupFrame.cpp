@@ -397,7 +397,7 @@ aContext
 )
 mCurrentMenu
 (
-nsnull
+nullptr
 )
 mPrefSize
 (
@@ -966,7 +966,7 @@ nsGkAtoms
 :
 :
 floating
-nsnull
+nullptr
 }
 ;
 switch
@@ -1278,7 +1278,7 @@ nsIAtom
 *
 tag
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1597,7 +1597,7 @@ event
 (
 true
 NS_XUL_POPUP_SHOWN
-nsnull
+nullptr
 nsMouseEvent
 :
 :
@@ -1998,7 +1998,7 @@ isOpen
 {
 SetPopupPosition
 (
-nsnull
+nullptr
 false
 )
 ;
@@ -2083,7 +2083,7 @@ SyncFrameViewProperties
 (
 pc
 this
-nsnull
+nullptr
 view
 0
 )
@@ -2208,7 +2208,7 @@ parentPopup
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -2229,7 +2229,7 @@ aAlign
 {
 mTriggerContent
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3040,7 +3040,7 @@ ePopupShowing
 ;
 mAnchorContent
 =
-nsnull
+nullptr
 ;
 mTriggerContent
 =
@@ -3161,7 +3161,7 @@ else
 {
 mAnchorContent
 =
-nsnull
+nullptr
 ;
 mPopupAnchor
 =
@@ -3446,7 +3446,7 @@ root
 >
 SetPopupNode
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -3455,11 +3455,11 @@ nsnull
 }
 mTriggerContent
 =
-nsnull
+nullptr
 ;
 mAnchorContent
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -3496,7 +3496,7 @@ IsMenu
 )
 SetCurrentMenuItem
 (
-nsnull
+nullptr
 )
 ;
 mIncrementalString
@@ -3516,7 +3516,7 @@ false
 ;
 mCurrentMenu
 =
-nsnull
+nullptr
 ;
 mHFlip
 =
@@ -3642,7 +3642,7 @@ esm
 >
 SetContentState
 (
-nsnull
+nullptr
 NS_EVENT_STATE_HOVER
 )
 ;
@@ -3833,7 +3833,7 @@ temp
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsPoint
@@ -6523,7 +6523,7 @@ if
 aStart
 )
 return
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -6613,7 +6613,7 @@ currFrame
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -6763,7 +6763,7 @@ CurrentMenuIsBeingDestroyed
 {
 mCurrentMenu
 =
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -6933,7 +6933,7 @@ aEvent
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsMenuFrame
@@ -6981,7 +6981,7 @@ nsIFrame
 *
 immediateParent
 =
-nsnull
+nullptr
 ;
 PresContext
 (
@@ -7001,7 +7001,7 @@ FrameConstructor
 GetInsertionPoint
 (
 this
-nsnull
+nullptr
 &
 immediateParent
 )
@@ -7035,19 +7035,19 @@ nsMenuFrame
 *
 frameBefore
 =
-nsnull
+nullptr
 ;
 nsMenuFrame
 *
 frameAfter
 =
-nsnull
+nullptr
 ;
 nsMenuFrame
 *
 frameShortcut
 =
-nsnull
+nullptr
 ;
 nsIContent
 *
@@ -7146,7 +7146,7 @@ Length
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 else
@@ -7189,7 +7189,7 @@ endif
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 else
@@ -7537,7 +7537,7 @@ currFrame
 }
 else
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -7694,7 +7694,7 @@ Beep
 #
 endif
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -7796,7 +7796,7 @@ if
 view
 )
 return
-nsnull
+nullptr
 ;
 return
 view
@@ -8212,7 +8212,7 @@ rootBox
 >
 SetDefaultTooltip
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -8340,7 +8340,7 @@ top
 ;
 SetPopupPosition
 (
-nsnull
+nullptr
 true
 )
 ;
@@ -8514,7 +8514,7 @@ GetViewManager
 ;
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 viewManager
@@ -8599,7 +8599,7 @@ InsertChild
 (
 parentView
 view
-nsnull
+nullptr
 true
 )
 ;

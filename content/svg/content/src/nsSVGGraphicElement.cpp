@@ -229,7 +229,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -325,7 +325,7 @@ IsSingular
 (
 )
 ?
-nsnull
+nullptr
 :
 new
 DOMSVGMatrix
@@ -376,7 +376,7 @@ IsSingular
 (
 )
 ?
-nsnull
+nullptr
 :
 new
 DOMSVGMatrix
@@ -423,7 +423,7 @@ rv
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -976,7 +976,7 @@ gfxMatrix
 aMatrix
 )
 :
-nsnull
+nullptr
 ;
 DidAnimateTransformList
 (

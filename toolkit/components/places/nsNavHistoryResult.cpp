@@ -366,7 +366,7 @@ aIconURI
 :
 mParent
 (
-nsnull
+nullptr
 )
 mURI
 (
@@ -532,7 +532,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1060,7 +1060,7 @@ OnRemoving
 {
 mParent
 =
-nsnull
+nullptr
 ;
 }
 nsNavHistoryResult
@@ -1148,7 +1148,7 @@ hierarchy
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsNavHistoryQueryOptions
@@ -1208,7 +1208,7 @@ yet
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsNavHistoryContainerResultNode
@@ -1272,7 +1272,7 @@ corrupted
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 NS_IMPL_ISUPPORTS_INHERITED1
@@ -1475,7 +1475,7 @@ aIconURI
 )
 mResult
 (
-nsnull
+nullptr
 )
 mContainerType
 (
@@ -1537,7 +1537,7 @@ aIconURI
 )
 mResult
 (
-nsnull
+nullptr
 )
 mContainerType
 (
@@ -2082,7 +2082,7 @@ false
 }
 mAsyncPendingStmt
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3001,7 +3001,7 @@ type
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -5187,7 +5187,7 @@ SortComparison_TitleLess
 (
 a
 b
-nsnull
+nullptr
 )
 ;
 return
@@ -5633,7 +5633,7 @@ i
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsNavHistoryContainerResultNode
@@ -5724,7 +5724,7 @@ container
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -6190,7 +6190,7 @@ sortAnno
 get
 (
 )
-nsnull
+nullptr
 )
 ;
 mChildren
@@ -7764,7 +7764,7 @@ NS_ERROR_NOT_AVAILABLE
 *
 _retval
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -7970,7 +7970,7 @@ nsNavHistoryResultNode
 :
 RESULT_TYPE_QUERY
 true
-nsnull
+nullptr
 )
 mLiveUpdate
 (
@@ -8985,7 +8985,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -13643,7 +13643,7 @@ true
 ;
 mAsyncPendingStmt
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -14124,7 +14124,7 @@ i
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -16075,7 +16075,7 @@ Enumerate
 (
 &
 RemoveBookmarkFolderObserversCallback
-nsnull
+nullptr
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSTARRAY
@@ -16407,7 +16407,7 @@ Enumerate
 (
 &
 RemoveBookmarkFolderObserversCallback
-nsnull
+nullptr
 )
 ;
 }
@@ -16782,7 +16782,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -17185,7 +17185,7 @@ if
 aCreate
 )
 return
-nsnull
+nullptr
 ;
 list
 =
@@ -17568,7 +17568,7 @@ null
 *
 aRoot
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE

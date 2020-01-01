@@ -136,7 +136,7 @@ aContent
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }

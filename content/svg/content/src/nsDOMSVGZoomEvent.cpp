@@ -364,7 +364,7 @@ aZoomRectScreen
 *
 aZoomRectScreen
 =
-nsnull
+nullptr
 ;
 NS_NOTYETIMPLEMENTED
 (

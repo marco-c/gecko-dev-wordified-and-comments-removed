@@ -2255,7 +2255,7 @@ aContainer
 InsertAfter
 (
 layer
-nsnull
+nullptr
 )
 ;
 }
@@ -2406,7 +2406,7 @@ ClearRenderFrame
 {
 mRenderFrame
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -2843,7 +2843,7 @@ aManager
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 uint64_t
@@ -2889,7 +2889,7 @@ layer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 layer
@@ -2974,10 +2974,10 @@ shadowRoot
 {
 mContainer
 =
-nsnull
+nullptr
 ;
 return
-nsnull
+nullptr
 ;
 }
 NS_ABORT_IF_FALSE
@@ -3059,7 +3059,7 @@ mContainer
 InsertAfter
 (
 shadowRoot
-nsnull
+nullptr
 )
 ;
 AssertInTopLevelChromeDoc
@@ -3085,7 +3085,7 @@ mContainer
 >
 SetClipRect
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -3311,13 +3311,13 @@ mFrameLoader
 >
 SetCurrentRemoteFrame
 (
-nsnull
+nullptr
 )
 ;
 }
 mFrameLoader
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -3355,7 +3355,7 @@ mFrameLoaderDestroyed
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -3655,7 +3655,7 @@ shadowParents
 ]
 )
 :
-nsnull
+nullptr
 ;
 }
 uint64_t
@@ -3699,7 +3699,7 @@ GetRoot
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP

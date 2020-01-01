@@ -331,8 +331,8 @@ i
 ]
 .
 uri
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 RETURN_IF_FAILED
@@ -656,7 +656,7 @@ c
 ;
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 return

@@ -269,7 +269,7 @@ if
 _s
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -5102,7 +5102,7 @@ nsIUnicodeEncoder
 :
 :
 kOnError_Replace
-nsnull
+nullptr
 (
 PRUnichar
 )
@@ -5117,7 +5117,7 @@ char
 *
 buffer
 =
-nsnull
+nullptr
 ;
 PRInt32
 dstLength
@@ -5278,7 +5278,7 @@ buffer
 ;
 buffer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -6139,9 +6139,9 @@ NS_SUCCEEDED
 net_ExtractURLScheme
 (
 utf8UnEscapeSpec
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 )
 )
@@ -6679,7 +6679,7 @@ mDateTime
 >
 FormatPRTime
 (
-nsnull
+nullptr
 kDateFormatShort
 kTimeFormatNone
 t
@@ -6714,7 +6714,7 @@ mDateTime
 >
 FormatPRTime
 (
-nsnull
+nullptr
 kDateFormatNone
 kTimeFormatSeconds
 t

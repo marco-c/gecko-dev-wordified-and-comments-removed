@@ -180,7 +180,7 @@ SECItem
 *
 param
 =
-nsnull
+nullptr
 ;
 param
 =
@@ -247,7 +247,7 @@ return
 InitWithIV_
 (
 aKey
-nsnull
+nullptr
 )
 ;
 }

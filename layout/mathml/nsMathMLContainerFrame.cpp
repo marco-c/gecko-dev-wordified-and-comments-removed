@@ -4825,7 +4825,7 @@ Frame
 PresContext
 (
 )
-nsnull
+nullptr
 child
 .
 ReflowMetrics
@@ -5459,7 +5459,7 @@ grandchild
 DidReflowChildren
 (
 grandchild
-nsnull
+nullptr
 )
 ;
 frame
@@ -5473,7 +5473,7 @@ frame
 PresContext
 (
 )
-nsnull
+nullptr
 NS_FRAME_REFLOW_FINISHED
 )
 ;
@@ -5630,7 +5630,7 @@ mPresentationData
 .
 baseFrame
 =
-nsnull
+nullptr
 ;
 mEmbellishData
 .
@@ -5642,7 +5642,7 @@ mEmbellishData
 .
 coreFrame
 =
-nsnull
+nullptr
 ;
 mEmbellishData
 .

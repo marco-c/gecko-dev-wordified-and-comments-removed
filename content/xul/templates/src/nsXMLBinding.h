@@ -81,7 +81,7 @@ aExpr
 )
 mNext
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR

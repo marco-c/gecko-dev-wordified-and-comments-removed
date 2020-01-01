@@ -690,7 +690,7 @@ NULL
 ;
 sAccelerometer
 =
-nsnull
+nullptr
 ;
 }
 }

@@ -1010,7 +1010,7 @@ LockedInterfaceInfoDeathNotification
 {
 mInfo
 =
-nsnull
+nullptr
 ;
 }
 xptiInterfaceEntry
@@ -2059,7 +2059,7 @@ mParent
 ;
 mEntry
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -2217,7 +2217,7 @@ xptiInterfaceInfoManager
 *
 self
 =
-nsnull
+nullptr
 )
 {
 self

@@ -698,7 +698,7 @@ mObserver
 >
 Observe
 (
-nsnull
+nullptr
 aType
 .
 get
@@ -1957,7 +1957,7 @@ CrashReporterChild
 #
 else
 return
-nsnull
+nullptr
 ;
 #
 endif
@@ -2164,7 +2164,7 @@ child
 #
 else
 return
-nsnull
+nullptr
 ;
 #
 endif
@@ -2438,7 +2438,7 @@ actors
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -2683,7 +2683,7 @@ mConsoleListener
 >
 mChild
 =
-nsnull
+nullptr
 ;
 }
 XRE_ShutdownChildProcess
@@ -3066,8 +3066,8 @@ get
 aMsg
 false
 aJSON
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -3319,7 +3319,7 @@ os
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 memory
 -
@@ -3545,7 +3545,7 @@ obs
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 last
 -
@@ -3555,7 +3555,7 @@ context
 -
 exited
 "
-nsnull
+nullptr
 )
 ;
 return

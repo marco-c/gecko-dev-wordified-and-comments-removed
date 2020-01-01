@@ -178,7 +178,7 @@ nsAutoLineIterator
 :
 mRawPtr
 (
-nsnull
+nullptr
 )
 {
 }

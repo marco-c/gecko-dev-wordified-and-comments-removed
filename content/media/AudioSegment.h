@@ -196,7 +196,7 @@ return
 mBuffer
 =
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -208,7 +208,7 @@ aDuration
 {
 mBuffer
 =
-nsnull
+nullptr
 ;
 mDuration
 =

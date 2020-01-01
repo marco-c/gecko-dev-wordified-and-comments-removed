@@ -1201,7 +1201,7 @@ ReleaseStateMachine
 {
 mDecoderStateMachine
 =
-nsnull
+nullptr
 ;
 }
 virtual

@@ -51,7 +51,7 @@ aListener
 :
 mListener
 (
-nsnull
+nullptr
 )
 mCategory
 (
@@ -349,7 +349,7 @@ ListenerDied
 {
 mListener
 =
-nsnull
+nullptr
 ;
 RemoveObservers
 (
@@ -565,7 +565,7 @@ mHash
 Get
 (
 str
-nsnull
+nullptr
 )
 )
 return

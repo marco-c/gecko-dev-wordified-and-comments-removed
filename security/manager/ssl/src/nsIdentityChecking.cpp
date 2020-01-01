@@ -270,7 +270,7 @@ AQ
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -350,7 +350,7 @@ AA
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -433,7 +433,7 @@ dCBHbG9iYWwgUm9vdA
 BAAAAAABD4WqLUg
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -514,7 +514,7 @@ ALtAHEP1Xk
 +
 w
 "
-nsnull
+nullptr
 }
 {
 "
@@ -597,7 +597,7 @@ AQ
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -688,7 +688,7 @@ GNrRniZ96LtKIVjNzGs7Sg
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -768,7 +768,7 @@ GKy1av1pthU6Y2yv2vrEoQ
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -858,7 +858,7 @@ ON9srbQ
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -947,7 +947,7 @@ grQ
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -1032,7 +1032,7 @@ DrJxhZ0A
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -1116,7 +1116,7 @@ B1YipOjUiolN9BPI8PjqpQ
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -1207,7 +1207,7 @@ H0evqmIAcFBUTAGem2OZKg
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -1296,7 +1296,7 @@ ToEtioJl4AsC7j41AkblPQ
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -1386,7 +1386,7 @@ AQ
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -1478,7 +1478,7 @@ RL4Mi1AAIbQR0ypoBqmtaQ
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -1576,7 +1576,7 @@ Q
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -1662,7 +1662,7 @@ AA
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -1748,7 +1748,7 @@ AA
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -1838,7 +1838,7 @@ AQ
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -1928,7 +1928,7 @@ AQ
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2015,7 +2015,7 @@ AA
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2104,7 +2104,7 @@ AA
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2184,7 +2184,7 @@ AqxcJmoLQJuPC3nyrkYldw
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2271,7 +2271,7 @@ VQQDExJRdW9WYWRpcyBSb290IENBIDI
 BQk
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2363,7 +2363,7 @@ V8szb8JcFuZHFhfjkDFo4A
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2448,7 +2448,7 @@ RWtQVA
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2528,7 +2528,7 @@ VQQLEwdSb290IENBMRswGQYDVQQDExJHbG9iYWxTaWduIFJvb3QgQ0E
 BAAAAAABFUtaw5Q
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2607,7 +2607,7 @@ bG9iYWxTaWduMRMwEQYDVQQDEwpHbG9iYWxTaWdu
 BAAAAAABD4Ym5g0
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2686,7 +2686,7 @@ bG9iYWxTaWduMRMwEQYDVQQDEwpHbG9iYWxTaWdu
 BAAAAAABIVhTCKI
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2767,7 +2767,7 @@ Ag
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2854,7 +2854,7 @@ AIW9S
 PY2uNp9pTXX8OlRCM
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -2945,7 +2945,7 @@ IENoYW1iZXJzIG9mIENvbW1lcmNlIFJvb3QgLSAyMDA4
 "
 AKPaQn6ksa7a
 "
-nsnull
+nullptr
 }
 {
 "
@@ -3040,7 +3040,7 @@ AMnN0
 +
 nVfSPO
 "
-nsnull
+nullptr
 }
 {
 "
@@ -3124,7 +3124,7 @@ IFRydXN0Q2VudGVyIFVuaXZlcnNhbCBDQSBJSUk
 YyUAAQACFI0zFQLkbPQ
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -3206,7 +3206,7 @@ QWZmaXJtVHJ1c3QgQ29tbWVyY2lhbA
 d3cGJyapsXw
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -3288,7 +3288,7 @@ QWZmaXJtVHJ1c3QgTmV0d29ya2luZw
 fE8EORzUmS0
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -3370,7 +3370,7 @@ QWZmaXJtVHJ1c3QgUHJlbWl1bQ
 bYwURrGmCu4
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -3453,7 +3453,7 @@ dJclisc
 elQ
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -3535,7 +3535,7 @@ BgNVBAMTGUNlcnR1bSBUcnVzdGVkIE5ldHdvcmsgQ0E
 "
 BETA
 "
-nsnull
+nullptr
 }
 {
 "
@@ -3624,7 +3624,7 @@ WL1xnmfQ
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -3713,7 +3713,7 @@ WL1xnmfQ
 =
 =
 "
-nsnull
+nullptr
 }
 {
 "
@@ -3794,7 +3794,7 @@ VQQLDBBBLVRydXN0LW5RdWFsLTAzMRkwFwYDVQQDDBBBLVRydXN0LW5RdWFsLTAz
 "
 AWwe
 "
-nsnull
+nullptr
 }
 {
 "
@@ -3859,7 +3859,7 @@ Cg
 =
 =
 "
-nsnull
+nullptr
 }
 }
 ;
@@ -3973,11 +3973,11 @@ nsMyTrustedEVInfoClass
 {
 dotted_oid
 =
-nsnull
+nullptr
 ;
 oid_name
 =
-nsnull
+nullptr
 ;
 oid_tag
 =
@@ -3985,19 +3985,19 @@ SEC_OID_UNKNOWN
 ;
 ev_root_sha1_fingerprint
 =
-nsnull
+nullptr
 ;
 issuer_base64
 =
-nsnull
+nullptr
 ;
 serial_base64
 =
-nsnull
+nullptr
 ;
 cert
 =
-nsnull
+nullptr
 ;
 }
 nsMyTrustedEVInfoClass
@@ -4776,7 +4776,7 @@ cert
 =
 CERT_FindCertByIssuerAndSN
 (
-nsnull
+nullptr
 &
 ias
 )
@@ -4893,7 +4893,7 @@ temp_ev
 >
 cert
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -4905,7 +4905,7 @@ ev_oid_item
 .
 data
 =
-nsnull
+nullptr
 ;
 ev_oid_item
 .
@@ -4918,7 +4918,7 @@ srv
 =
 SEC_StringToOID
 (
-nsnull
+nullptr
 &
 ev_oid_item
 readable_oid
@@ -5469,7 +5469,7 @@ if
 certList
 )
 return
-nsnull
+nullptr
 ;
 for
 (
@@ -5796,7 +5796,7 @@ cert
 =
 CERT_FindCertByIssuerAndSN
 (
-nsnull
+nullptr
 &
 ias
 )
@@ -5907,7 +5907,7 @@ entry
 .
 cert
 =
-nsnull
+nullptr
 ;
 continue
 ;
@@ -5919,7 +5919,7 @@ ev_oid_item
 .
 data
 =
-nsnull
+nullptr
 ;
 ev_oid_item
 .
@@ -5932,7 +5932,7 @@ srv
 =
 SEC_StringToOID
 (
-nsnull
+nullptr
 &
 ev_oid_item
 entry
@@ -6050,7 +6050,7 @@ i
 ]
 !
 =
-nsnull
+nullptr
 ;
 i
 +
@@ -6715,7 +6715,7 @@ pointer
 .
 cert
 =
-nsnull
+nullptr
 ;
 cvout
 [
@@ -6753,7 +6753,7 @@ mCert
 certificateUsageSSLServer
 cvin
 cvout
-nsnull
+nullptr
 )
 ;
 if
@@ -7226,7 +7226,7 @@ entry
 .
 cert
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -7290,7 +7290,7 @@ testEVInfos
 ;
 testEVInfos
 =
-nsnull
+nullptr
 ;
 }
 }

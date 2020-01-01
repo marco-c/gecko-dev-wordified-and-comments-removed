@@ -250,7 +250,7 @@ mCupsLib
 ;
 mCupsLib
 =
-nsnull
+nullptr
 ;
 return
 false

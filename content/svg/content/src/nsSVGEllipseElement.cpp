@@ -537,7 +537,7 @@ y
 rx
 &
 ry
-nsnull
+nullptr
 )
 ;
 if

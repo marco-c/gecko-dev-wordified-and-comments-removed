@@ -621,7 +621,7 @@ objects
 EnumerateForwards
 (
 ReleaseObjects
-nsnull
+nullptr
 )
 ;
 }
@@ -731,7 +731,7 @@ objects
 EnumerateForwards
 (
 ReleaseObjects
-nsnull
+nullptr
 )
 ;
 return

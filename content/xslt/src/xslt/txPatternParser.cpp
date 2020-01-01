@@ -133,7 +133,7 @@ txPattern
 *
 newPattern
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -149,7 +149,7 @@ newPattern
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return

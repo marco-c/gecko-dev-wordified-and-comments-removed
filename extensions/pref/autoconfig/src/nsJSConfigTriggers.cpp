@@ -255,7 +255,7 @@ JSContext
 *
 autoconfig_cx
 =
-nsnull
+nullptr
 ;
 static
 JSObject
@@ -278,7 +278,7 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-nsnull
+nullptr
 }
 ;
 static
@@ -569,7 +569,7 @@ autoconfig_cx
 ;
 autoconfig_cx
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -807,7 +807,7 @@ js_buffer
 length
 filename
 0
-nsnull
+nullptr
 )
 ;
 JS_EndRequest

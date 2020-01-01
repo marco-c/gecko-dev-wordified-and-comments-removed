@@ -919,7 +919,7 @@ nsDirEnumerator
 :
 mDir
 (
-nsnull
+nullptr
 )
 {
 }
@@ -989,7 +989,7 @@ if
 mDir
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_FAILURE
@@ -1018,7 +1018,7 @@ if
 mNext
 =
 =
-nsnull
+nullptr
 &
 &
 mDir
@@ -1039,7 +1039,7 @@ if
 entry
 =
 =
-nsnull
+nullptr
 )
 {
 PRStatus
@@ -1062,7 +1062,7 @@ NS_ERROR_FAILURE
 ;
 mDir
 =
-nsnull
+nullptr
 ;
 *
 result
@@ -1175,7 +1175,7 @@ result
 mNext
 !
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1237,7 +1237,7 @@ result
 ;
 mNext
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1255,7 +1255,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 bool
 hasMore
@@ -1298,7 +1298,7 @@ result
 ;
 mNext
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1346,7 +1346,7 @@ NS_ERROR_FAILURE
 ;
 mDir
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1553,7 +1553,7 @@ mDrives
 *
 aNext
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1683,7 +1683,7 @@ TypeEaEnumerator
 :
 mEaBuf
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1933,7 +1933,7 @@ char
 *
 result
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -3899,7 +3899,7 @@ if
 temp
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_FILE_UNRECOGNIZED_PATH
@@ -3934,7 +3934,7 @@ if
 leaf
 =
 =
-nsnull
+nullptr
 )
 leaf
 =
@@ -3995,7 +3995,7 @@ if
 temp
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_FILE_UNRECOGNIZED_PATH
@@ -7700,7 +7700,7 @@ parentPath
 {
 aParent
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -8774,7 +8774,7 @@ rv
 *
 entries
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -8890,7 +8890,7 @@ if
 dirEnum
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -9143,7 +9143,7 @@ if
 file
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -9816,7 +9816,7 @@ rv
 *
 result
 =
-nsnull
+nullptr
 ;
 return
 rv

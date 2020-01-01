@@ -985,7 +985,7 @@ if
 result
 )
 return
-nsnull
+nullptr
 ;
 nsAString
 :
@@ -1109,7 +1109,7 @@ if
 result
 )
 return
-nsnull
+nullptr
 ;
 ConvertUTF16toUTF8
 converter
@@ -1192,7 +1192,7 @@ if
 result
 )
 return
-nsnull
+nullptr
 ;
 nsACString
 :
@@ -1264,7 +1264,7 @@ if
 result
 )
 return
-nsnull
+nullptr
 ;
 nsAString
 :
@@ -1336,7 +1336,7 @@ if
 result
 )
 return
-nsnull
+nullptr
 ;
 nsACString
 :
@@ -1467,7 +1467,7 @@ if
 result
 )
 return
-nsnull
+nullptr
 ;
 ConvertUTF8toUTF16
 converter

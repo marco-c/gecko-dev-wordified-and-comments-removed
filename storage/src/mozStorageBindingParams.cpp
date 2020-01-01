@@ -374,7 +374,7 @@ aOwningArray
 )
 mOwningStatement
 (
-nsnull
+nullptr
 )
 mParamCount
 (
@@ -434,11 +434,11 @@ true
 ;
 mOwningStatement
 =
-nsnull
+nullptr
 ;
 mOwningArray
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -819,7 +819,7 @@ forget
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -860,7 +860,7 @@ closureThunk
 {
 this
 aStatement
-nsnull
+nullptr
 }
 ;
 (

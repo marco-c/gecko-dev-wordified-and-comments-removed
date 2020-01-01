@@ -66,7 +66,7 @@ PRInt32
 *
 aOutLen
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -90,7 +90,7 @@ PRInt32
 *
 aOutLen
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -126,7 +126,7 @@ PRInt32
 *
 aOutLen
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -149,7 +149,7 @@ PRInt32
 *
 aOutLen
 =
-nsnull
+nullptr
 )
 ;
 }

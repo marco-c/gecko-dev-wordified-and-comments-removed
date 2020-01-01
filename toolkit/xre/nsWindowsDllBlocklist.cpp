@@ -526,7 +526,7 @@ alignedOffset
 )
 )
 :
-nsnull
+nullptr
 ;
 }
 ~
@@ -986,7 +986,7 @@ pathlen
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 wchar_t
@@ -1008,7 +1008,7 @@ full_fname
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 SearchPathW

@@ -20,7 +20,7 @@ SharedDIB
 :
 mShMem
 (
-nsnull
+nullptr
 )
 {
 }
@@ -131,7 +131,7 @@ mShMem
 ;
 mShMem
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

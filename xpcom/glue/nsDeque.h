@@ -51,7 +51,7 @@ nsDequeFunctor
 *
 aDeallocator
 =
-nsnull
+nullptr
 )
 ;
 ~

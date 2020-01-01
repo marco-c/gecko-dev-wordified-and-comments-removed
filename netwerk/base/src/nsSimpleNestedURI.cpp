@@ -535,7 +535,7 @@ refHandlingMode
 NS_ENSURE_TRUE
 (
 mInnerURI
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -583,7 +583,7 @@ rv
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsSimpleNestedURI

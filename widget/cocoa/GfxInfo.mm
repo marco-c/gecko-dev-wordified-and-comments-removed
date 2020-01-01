@@ -1631,7 +1631,7 @@ aOS
 /
 *
 =
-nsnull
+nullptr
 *
 /
 )

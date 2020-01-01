@@ -351,14 +351,14 @@ sSpaceSharedString
 i
 ]
 =
-nsnull
+nullptr
 ;
 sTabSharedString
 [
 i
 ]
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -414,7 +414,7 @@ m2b
 }
 m1b
 =
-nsnull
+nullptr
 ;
 mState
 .

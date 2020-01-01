@@ -448,7 +448,7 @@ nsPresContext
 *
 context
 =
-nsnull
+nullptr
 ;
 nsIDocument
 *
@@ -748,7 +748,7 @@ freeze
 FILL_FREEZE
 }
 {
-nsnull
+nullptr
 0
 }
 }
@@ -784,7 +784,7 @@ never
 RESTART_NEVER
 }
 {
-nsnull
+nullptr
 0
 }
 }
@@ -836,7 +836,7 @@ nsSMILTimedElement
 :
 mAnimationElement
 (
-nsnull
+nullptr
 )
 mFillMode
 (
@@ -852,11 +852,11 @@ mInstanceSerialIndex
 )
 mClient
 (
-nsnull
+nullptr
 )
 mCurrentInterval
 (
-nsnull
+nullptr
 )
 mCurrentRepeatIteration
 (
@@ -1104,7 +1104,7 @@ GetTimeContainer
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -2074,9 +2074,9 @@ mElementState
 =
 GetNextInterval
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 firstInterval
 )
 ?
@@ -2250,8 +2250,8 @@ mElementState
 GetNextInterval
 (
 mCurrentInterval
-nsnull
-nsnull
+nullptr
+nullptr
 newInterval
 )
 ?
@@ -5402,7 +5402,7 @@ Begin
 (
 )
 :
-nsnull
+nullptr
 )
 ;
 RemoveInstanceTimes
@@ -5414,7 +5414,7 @@ resetBegin
 RemoveReset
 resetEnd
 (
-nsnull
+nullptr
 )
 ;
 RemoveInstanceTimes
@@ -5570,7 +5570,7 @@ Begin
 (
 )
 :
-nsnull
+nullptr
 ;
 PRUint32
 count
@@ -6829,7 +6829,7 @@ nsSMILInstanceTime
 *
 result
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -6886,7 +6886,7 @@ nsSMILInstanceTime
 *
 result
 =
-nsnull
+nullptr
 ;
 PRInt32
 count
@@ -7545,7 +7545,7 @@ mRestartMode
 RESTART_ALWAYS
 )
 return
-nsnull
+nullptr
 ;
 PRInt32
 position
@@ -7634,7 +7634,7 @@ nextBegin
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -7752,7 +7752,7 @@ Begin
 (
 )
 :
-nsnull
+nullptr
 ;
 nsSMILInterval
 updatedInterval
@@ -8884,7 +8884,7 @@ case
 STATE_STARTUP
 :
 return
-nsnull
+nullptr
 ;
 case
 STATE_ACTIVE
@@ -8923,7 +8923,7 @@ Begin
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 }
@@ -8955,7 +8955,7 @@ IsEmpty
 (
 )
 ?
-nsnull
+nullptr
 :
 mOldIntervals
 [

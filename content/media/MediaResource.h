@@ -1103,7 +1103,7 @@ Revoke
 {
 mResource
 =
-nsnull
+nullptr
 ;
 }
 private

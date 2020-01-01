@@ -31,7 +31,7 @@ PRUint16
 *
 aCode
 =
-nsnull
+nullptr
 )
 ;
 nsresult

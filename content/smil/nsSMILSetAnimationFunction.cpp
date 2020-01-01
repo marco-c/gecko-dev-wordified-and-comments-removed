@@ -252,7 +252,7 @@ aAttName
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 nsSMILAnimationFunction
@@ -287,7 +287,7 @@ aAttName
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 nsSMILAnimationFunction

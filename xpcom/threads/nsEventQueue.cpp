@@ -76,11 +76,11 @@ mReentrantMonitor
 )
 mHead
 (
-nsnull
+nullptr
 )
 mTail
 (
-nsnull
+nullptr
 )
 mOffsetHead
 (
@@ -172,7 +172,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 return
 false

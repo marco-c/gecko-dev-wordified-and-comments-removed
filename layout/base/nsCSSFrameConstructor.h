@@ -755,7 +755,7 @@ bool
 *
 aMultiple
 =
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -3556,7 +3556,7 @@ nsIFrame
 *
 aPossiblyLeafFrame
 =
-nsnull
+nullptr
 )
 ;
 nsIFrame
@@ -4288,12 +4288,12 @@ nsIContent
 *
 aStartSkipChild
 =
-nsnull
+nullptr
 nsIContent
 *
 aEndSkipChild
 =
-nsnull
+nullptr
 )
 ;
 bool

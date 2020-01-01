@@ -544,7 +544,7 @@ NameSpaceManagerImpl
 *
 sNameSpaceManager
 =
-nsnull
+nullptr
 ;
 NS_IMPL_ISUPPORTS1
 (

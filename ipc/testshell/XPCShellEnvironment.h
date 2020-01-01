@@ -99,7 +99,7 @@ nsString
 *
 aResult
 =
-nsnull
+nullptr
 )
 ;
 JSPrincipals

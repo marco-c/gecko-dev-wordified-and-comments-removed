@@ -181,7 +181,7 @@ bool
 *
 aIsEmpty
 =
-nsnull
+nullptr
 )
 ;
 protected

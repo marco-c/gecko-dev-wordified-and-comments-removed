@@ -191,7 +191,7 @@ nsCSSProps
 :
 gShorthandsContainingPool
 =
-nsnull
+nullptr
 ;
 static
 const
@@ -1258,7 +1258,7 @@ subpropCounts
 ]
 )
 SortPropertyAndCount
-nsnull
+nullptr
 )
 ;
 for
@@ -1741,14 +1741,14 @@ gPropertyTable
 ;
 gPropertyTable
 =
-nsnull
+nullptr
 ;
 delete
 gFontDescTable
 ;
 gFontDescTable
 =
-nsnull
+nullptr
 ;
 delete
 [
@@ -1757,7 +1757,7 @@ gShorthandsContainingPool
 ;
 gShorthandsContainingPool
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -5717,7 +5717,7 @@ PRInt32
 *
 kwtable
 =
-nsnull
+nullptr
 ;
 if
 (

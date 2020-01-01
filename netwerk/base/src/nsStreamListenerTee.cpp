@@ -122,7 +122,7 @@ mInputTee
 >
 SetSink
 (
-nsnull
+nullptr
 )
 ;
 mInputTee
@@ -139,7 +139,7 @@ nsIOutputStream
 *
 sink
 =
-nsnull
+nullptr
 ;
 mSink
 .

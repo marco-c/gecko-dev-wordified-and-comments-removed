@@ -113,7 +113,7 @@ GetDocument
 )
 )
 :
-nsnull
+nullptr
 ;
 }
 Accessible

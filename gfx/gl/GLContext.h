@@ -1489,7 +1489,7 @@ GLContext
 *
 aSharedContext
 =
-nsnull
+nullptr
 )
 :
 mUserBoundDrawFBO
@@ -1853,7 +1853,7 @@ void
 *
 result
 =
-nsnull
+nullptr
 ;
 mUserData
 .
@@ -1905,7 +1905,7 @@ mSymbols
 fUseProgram
 =
 =
-nsnull
+nullptr
 ;
 }
 enum
@@ -2044,7 +2044,7 @@ GetD3DShareHandle
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -2249,7 +2249,7 @@ aWrapMode
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -4029,7 +4029,7 @@ NoFlags
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -8543,7 +8543,7 @@ internalformat
 1
 format
 type
-nsnull
+nullptr
 )
 ;
 }
@@ -11076,7 +11076,7 @@ NamedResource
 :
 origin
 (
-nsnull
+nullptr
 )
 name
 (

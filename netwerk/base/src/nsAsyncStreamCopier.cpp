@@ -62,7 +62,7 @@ PRLogModuleInfo
 *
 gStreamCopierLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -263,7 +263,7 @@ mLock
 ;
 mCopierCtx
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -288,11 +288,11 @@ mObserverContext
 ;
 mObserver
 =
-nsnull
+nullptr
 ;
 mObserverContext
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -611,7 +611,7 @@ aLoadGroup
 *
 aLoadGroup
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

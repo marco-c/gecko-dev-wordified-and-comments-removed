@@ -217,7 +217,7 @@ aNumFormats
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -595,7 +595,7 @@ CairoStatus
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 imgSurface

@@ -267,7 +267,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -1100,7 +1100,7 @@ rv
 &
 &
 (
-nsnull
+nullptr
 !
 =
 ccm
@@ -1144,7 +1144,7 @@ nsIUnicodeEncoder
 :
 :
 kOnError_Replace
-nsnull
+nullptr
 (
 PRUnichar
 )

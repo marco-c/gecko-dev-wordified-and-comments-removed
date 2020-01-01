@@ -970,7 +970,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -991,7 +991,7 @@ NodeInfoManager
 GetNodeInfo
 (
 aName
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :

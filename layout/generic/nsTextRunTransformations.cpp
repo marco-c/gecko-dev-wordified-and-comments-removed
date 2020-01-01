@@ -1020,7 +1020,7 @@ storage
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1834,7 +1834,7 @@ gfxTextRun
 CompressedGlyph
 (
 )
-nsnull
+nullptr
 )
 ;
 }
@@ -1946,9 +1946,9 @@ params
 =
 {
 aRefContext
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 0
 aTextRun
 -
@@ -2135,7 +2135,7 @@ return
 nsCaseTransformTextRunFactory
 uppercaseFactory
 (
-nsnull
+nullptr
 true
 )
 ;
@@ -2769,7 +2769,7 @@ nsIAtom
 *
 lang
 =
-nsnull
+nullptr
 ;
 bool
 capitalizeDutchIJ

@@ -44,7 +44,7 @@ aSession
 )
 mWidget
 (
-nsnull
+nullptr
 )
 {
 }

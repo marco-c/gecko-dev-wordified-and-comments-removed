@@ -220,7 +220,7 @@ nsCString
 *
 stringToFill
 =
-nsnull
+nullptr
 ;
 char
 *
@@ -273,7 +273,7 @@ line
 ;
 stringToFill
 =
-nsnull
+nullptr
 ;
 }
 else

@@ -60,7 +60,7 @@ return
 mDialogParamBlock
 =
 =
-nsnull
+nullptr
 )
 ?
 NS_ERROR_OUT_OF_MEMORY
@@ -268,7 +268,7 @@ if
 mSupports
 =
 =
-nsnull
+nullptr
 )
 {
 return

@@ -89,7 +89,7 @@ ReleaseMembers
 {
 mDOMRequest
 =
-nsnull
+nullptr
 ;
 }
 protected

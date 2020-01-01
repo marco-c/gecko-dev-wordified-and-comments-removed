@@ -1177,7 +1177,7 @@ pathAsCFURL
 :
 CFURLCreateWithFileSystemPath
 (
-nsnull
+nullptr
 pathAsCFString
 kCFURLPOSIXPathStyle
 false
@@ -1316,7 +1316,7 @@ pathAsCFURL
 :
 CFURLCreateWithFileSystemPath
 (
-nsnull
+nullptr
 pathAsCFString
 kCFURLHFSPathStyle
 false
@@ -2207,7 +2207,7 @@ if
 mimeInfoMac
 )
 return
-nsnull
+nullptr
 ;
 NS_ADDREF
 (
@@ -2562,7 +2562,7 @@ cfExt
 kLSRolesAll
 &
 extAppFSRef
-nsnull
+nullptr
 )
 ;
 if
@@ -3493,7 +3493,7 @@ release
 ]
 ;
 return
-nsnull
+nullptr
 ;
 }
 CFStringRef

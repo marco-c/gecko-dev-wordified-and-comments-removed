@@ -195,7 +195,7 @@ nsHttpAuthEntry
 *
 entry
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -450,11 +450,11 @@ aRealm
 get
 (
 )
-nsnull
-nsnull
+nullptr
+nullptr
 &
 ident
-nsnull
+nullptr
 )
 ;
 }

@@ -295,7 +295,7 @@ SetAttr
 (
 aNameSpaceID
 aName
-nsnull
+nullptr
 aValue
 aNotify
 )
@@ -716,7 +716,7 @@ aContent
 {
 UpdateStyleSheetInternal
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -912,7 +912,7 @@ type
 {
 UpdateStyleSheetInternal
 (
-nsnull
+nullptr
 true
 )
 ;
@@ -994,7 +994,7 @@ type
 {
 UpdateStyleSheetInternal
 (
-nsnull
+nullptr
 true
 )
 ;
@@ -1065,7 +1065,7 @@ true
 ;
 UpdateStyleSheetInternal
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -1092,7 +1092,7 @@ aIsInline
 true
 ;
 return
-nsnull
+nullptr
 ;
 }
 void

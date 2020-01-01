@@ -241,7 +241,7 @@ set
 ;
 mRequest
 =
-nsnull
+nullptr
 ;
 mListId
 =
@@ -293,7 +293,7 @@ NS_ERROR_DOM_INVALID_STATE_ERR
 }
 mMessage
 =
-nsnull
+nullptr
 ;
 static_cast
 <

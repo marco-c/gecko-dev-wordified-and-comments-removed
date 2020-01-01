@@ -361,7 +361,7 @@ TabParent
 :
 mIMETabParent
 =
-nsnull
+nullptr
 ;
 NS_IMPL_ISUPPORTS3
 (
@@ -537,7 +537,7 @@ this
 )
 mIMETabParent
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -623,7 +623,7 @@ fm
 >
 MoveFocus
 (
-nsnull
+nullptr
 mFrameElement
 type
 nsIFocusManager
@@ -739,8 +739,8 @@ mBrowserDOMWindow
 >
 OpenURIInFrame
 (
-nsnull
-nsnull
+nullptr
+nullptr
 nsIBrowserDOMWindow
 :
 :
@@ -1509,7 +1509,7 @@ ReceiveMessage
 aMessage
 false
 aJSON
-nsnull
+nullptr
 )
 ;
 }
@@ -1639,7 +1639,7 @@ aFocus
 ?
 this
 :
-nsnull
+nullptr
 ;
 mIMESelectionAnchor
 =
@@ -2331,7 +2331,7 @@ aFrameLoader
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 PBrowserParent
@@ -2386,7 +2386,7 @@ loaderOwner
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -2430,7 +2430,7 @@ IsEmpty
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -2673,7 +2673,7 @@ DISABLED
 ?
 this
 :
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2827,7 +2827,7 @@ observerService
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 ime
 -
@@ -4124,7 +4124,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 POfflineCacheUpdateParent
 *
@@ -4331,7 +4331,7 @@ GetFrameLoader
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 void
@@ -4455,7 +4455,7 @@ if
 content
 )
 return
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -4474,7 +4474,7 @@ if
 frame
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

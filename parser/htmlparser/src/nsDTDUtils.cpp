@@ -450,7 +450,7 @@ mCount
 .
 mParent
 =
-nsnull
+nullptr
 ;
 mEntries
 [
@@ -459,7 +459,7 @@ mCount
 .
 mStyles
 =
-nsnull
+nullptr
 ;
 +
 +
@@ -893,7 +893,7 @@ theStyleEntry
 >
 mParent
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -1103,7 +1103,7 @@ theStyleEntry
 >
 mParent
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -3748,7 +3748,7 @@ theNode
 ;
 theNode
 =
-nsnull
+nullptr
 ;
 }
 #

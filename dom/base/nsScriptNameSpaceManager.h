@@ -192,7 +192,7 @@ PRUnichar
 *
 aClassName
 =
-nsnull
+nullptr
 )
 {
 return
@@ -349,7 +349,7 @@ PRUnichar
 *
 aClassName
 =
-nsnull
+nullptr
 )
 ;
 nsGlobalNameStruct
@@ -369,7 +369,7 @@ PRUnichar
 *
 aClassName
 =
-nsnull
+nullptr
 )
 {
 NS_ConvertASCIItoUTF16
@@ -450,7 +450,7 @@ PRUnichar
 *
 aClassName
 =
-nsnull
+nullptr
 )
 ;
 PLDHashTable

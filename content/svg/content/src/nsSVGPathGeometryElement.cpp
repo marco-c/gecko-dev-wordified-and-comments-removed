@@ -150,6 +150,6 @@ aMatrix
 )
 {
 return
-nsnull
+nullptr
 ;
 }

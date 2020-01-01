@@ -347,7 +347,7 @@ GetContent
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 nsString

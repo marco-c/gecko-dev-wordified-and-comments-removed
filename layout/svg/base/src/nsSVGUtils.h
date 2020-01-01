@@ -939,7 +939,7 @@ nsRect
 *
 aBoundsSubArea
 =
-nsnull
+nullptr
 PRUint32
 aFlags
 =

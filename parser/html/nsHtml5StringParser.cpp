@@ -79,7 +79,7 @@ new
 nsHtml5TreeBuilder
 (
 mExecutor
-nsnull
+nullptr
 )
 )
 mTokenizer
@@ -349,9 +349,9 @@ mTreeBuilder
 >
 setFragmentContext
 (
-nsnull
+nullptr
 kNameSpaceID_None
-nsnull
+nullptr
 false
 )
 ;
@@ -409,8 +409,8 @@ Init
 (
 aDocument
 uri
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 mExecutor

@@ -336,7 +336,7 @@ NS_StackWalk
 (
 PrintStackFrame
 2
-nsnull
+nullptr
 0
 )
 ;
@@ -630,7 +630,7 @@ Divide
 by
 zero
 "
-nsnull
+nullptr
 __FILE__
 __LINE__
 )

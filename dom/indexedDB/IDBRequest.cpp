@@ -131,7 +131,7 @@ JSVAL_VOID
 )
 mActorParent
 (
-nsnull
+nullptr
 )
 mErrorCode
 (
@@ -267,7 +267,7 @@ GetScriptOwner
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 request
@@ -316,7 +316,7 @@ false
 ;
 mError
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -556,7 +556,7 @@ rv
 {
 mError
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -826,7 +826,7 @@ GetSafeJSContext
 NS_ENSURE_TRUE
 (
 cx
-nsnull
+nullptr
 )
 ;
 return
@@ -849,13 +849,13 @@ rv
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
 (
 sc
-nsnull
+nullptr
 )
 ;
 cx
@@ -909,7 +909,7 @@ char
 *
 filename
 =
-nsnull
+nullptr
 ;
 PRUint32
 lineNo
@@ -1456,7 +1456,7 @@ aScriptOwner
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 request

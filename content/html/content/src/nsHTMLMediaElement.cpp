@@ -931,7 +931,7 @@ this
 ;
 mElement
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1756,7 +1756,7 @@ nsGkAtoms
 :
 :
 src
-nsnull
+nullptr
 str
 )
 ;
@@ -1881,7 +1881,7 @@ NS_OK
 }
 mSrcAttrStream
 =
-nsnull
+nullptr
 ;
 JSString
 *
@@ -2229,7 +2229,7 @@ Shutdown
 ;
 mDecoder
 =
-nsnull
+nullptr
 ;
 mOutputStreams
 .
@@ -2295,7 +2295,7 @@ EndMediaStreamPlayback
 }
 mLoadingSrc
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2330,7 +2330,7 @@ abort
 }
 mError
 =
-nsnull
+nullptr
 ;
 mLoadedFirstFrame
 =
@@ -2366,7 +2366,7 @@ false
 ;
 mSourcePointer
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4275,7 +4275,7 @@ Shutdown
 ;
 mAudioStream
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -4293,7 +4293,7 @@ NS_BINDING_ABORTED
 ;
 mChannel
 =
-nsnull
+nullptr
 ;
 }
 mCORSMode
@@ -4377,7 +4377,7 @@ this
 EmptyCString
 (
 )
-nsnull
+nullptr
 &
 shouldLoad
 nsContentUtils
@@ -4510,9 +4510,9 @@ getter_AddRefs
 channel
 )
 mLoadingSrc
-nsnull
+nullptr
 loadGroup
-nsnull
+nullptr
 nsICachingChannel
 :
 :
@@ -4668,7 +4668,7 @@ channel
 AsyncOpen
 (
 listener
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4721,7 +4721,7 @@ aListener
 *
 aListener
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6774,7 +6774,7 @@ gElementTable
 ;
 gElementTable
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -6822,7 +6822,7 @@ if
 gElementTable
 )
 return
-nsnull
+nullptr
 ;
 MediaElementSetForURI
 *
@@ -6842,7 +6842,7 @@ if
 entry
 )
 return
-nsnull
+nullptr
 ;
 for
 (
@@ -6971,7 +6971,7 @@ elem
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsHTMLMediaElement
@@ -6992,7 +6992,7 @@ aNodeInfo
 )
 mStreamListener
 (
-nsnull
+nullptr
 )
 mCurrentLoadID
 (
@@ -8272,7 +8272,7 @@ gRawCodecs
 ]
 =
 {
-nsnull
+nullptr
 }
 ;
 bool
@@ -8420,7 +8420,7 @@ vorbis
 "
 theora
 "
-nsnull
+nullptr
 }
 ;
 char
@@ -8445,7 +8445,7 @@ opus
 "
 theora
 "
-nsnull
+nullptr
 }
 ;
 bool
@@ -8634,7 +8634,7 @@ gWaveCodecs
 "
 1
 "
-nsnull
+nullptr
 }
 ;
 bool
@@ -8781,7 +8781,7 @@ vp8
 "
 vorbis
 "
-nsnull
+nullptr
 }
 ;
 bool
@@ -8954,7 +8954,7 @@ mp4a
 .
 2
 "
-nsnull
+nullptr
 }
 ;
 bool
@@ -9997,7 +9997,7 @@ forget
 #
 endif
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -10028,7 +10028,7 @@ NS_ASSERTION
 mDecoder
 =
 =
-nsnull
+nullptr
 "
 Shouldn
 '
@@ -10236,7 +10236,7 @@ FinishDecoderSetup
 (
 decoder
 resource
-nsnull
+nullptr
 aOriginal
 )
 ;
@@ -10273,7 +10273,7 @@ NS_ASSERTION
 mDecoder
 =
 =
-nsnull
+nullptr
 "
 Shouldn
 '
@@ -10415,7 +10415,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 mChannel
 =
-nsnull
+nullptr
 ;
 return
 FinishDecoderSetup
@@ -10423,7 +10423,7 @@ FinishDecoderSetup
 decoder
 resource
 aListener
-nsnull
+nullptr
 )
 ;
 }
@@ -10588,7 +10588,7 @@ rv
 }
 mChannel
 =
-nsnull
+nullptr
 ;
 mDecoder
 =
@@ -10748,7 +10748,7 @@ Forget
 {
 mElement
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -11269,7 +11269,7 @@ GetImageContainer
 >
 SetCurrentImage
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -11291,7 +11291,7 @@ ChangeExplicitBlockerCount
 }
 mStream
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -11318,7 +11318,7 @@ aURI
 *
 aURI
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -11881,7 +11881,7 @@ ShutdownDecoder
 }
 mLoadingSrc
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -11890,7 +11890,7 @@ mIsLoadingFromSourceChildren
 {
 mError
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -13016,7 +13016,7 @@ if
 mPrintSurface
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -13035,7 +13035,7 @@ if
 video
 )
 return
-nsnull
+nullptr
 ;
 mVideoFrameContainer
 =
@@ -13530,7 +13530,7 @@ forget
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -14134,7 +14134,7 @@ this
 ;
 mSourceLoadCandidate
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -14172,7 +14172,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 rv
 =
@@ -14192,7 +14192,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 }
 while
@@ -14230,7 +14230,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -14269,7 +14269,7 @@ startOffset
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 if
@@ -14285,7 +14285,7 @@ GetChildCount
 )
 )
 return
-nsnull
+nullptr
 ;
 rv
 =
@@ -14303,7 +14303,7 @@ startOffset
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 nsIContent
@@ -14354,7 +14354,7 @@ here
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -14485,7 +14485,7 @@ false
 ;
 mLoadBlockedDoc
 =
-nsnull
+nullptr
 ;
 }
 }

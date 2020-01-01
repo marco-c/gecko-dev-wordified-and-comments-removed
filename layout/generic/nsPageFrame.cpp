@@ -812,7 +812,7 @@ mPD
 mDateTimeStr
 !
 =
-nsnull
+nullptr
 )
 {
 aNewStr
@@ -1002,7 +1002,7 @@ mPD
 mDocTitle
 !
 =
-nsnull
+nullptr
 )
 {
 aNewStr
@@ -1073,7 +1073,7 @@ mPD
 mDocURL
 !
 =
-nsnull
+nullptr
 )
 {
 aNewStr
@@ -2215,7 +2215,7 @@ mPD
 -
 >
 mHeadFootFont
-nsnull
+nullptr
 pc
 -
 >

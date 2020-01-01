@@ -500,7 +500,7 @@ nsOverflowContinuationTracker
 *
 aTracker
 =
-nsnull
+nullptr
 )
 ;
 static

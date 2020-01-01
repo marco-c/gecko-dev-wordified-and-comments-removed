@@ -575,7 +575,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 HashEntry
 *
@@ -1010,7 +1010,7 @@ return
 foundEntry
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsCommandParams
@@ -1099,7 +1099,7 @@ limit
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 PRUint32

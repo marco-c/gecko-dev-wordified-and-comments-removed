@@ -281,7 +281,7 @@ SetAttr
 (
 aNameSpaceID
 aName
-nsnull
+nullptr
 aValue
 aNotify
 )
@@ -476,7 +476,7 @@ GetImageContainer
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 gfxASurface
@@ -997,7 +997,7 @@ PRUnichar
 *
 aParams
 =
-nsnull
+nullptr
 PRUint32
 aParamCount
 =

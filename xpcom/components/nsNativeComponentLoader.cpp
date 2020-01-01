@@ -887,7 +887,7 @@ aLoadData
 .
 module
 =
-nsnull
+nullptr
 ;
 return
 PL_DHASH_NEXT
@@ -1055,7 +1055,7 @@ mLibraries
 Enumerate
 (
 ReleaserFunc
-nsnull
+nullptr
 )
 ;
 mLibraries
@@ -1063,7 +1063,7 @@ mLibraries
 Enumerate
 (
 UnloaderFunc
-nsnull
+nullptr
 )
 ;
 }

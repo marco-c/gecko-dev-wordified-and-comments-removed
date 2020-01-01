@@ -289,7 +289,7 @@ ignored
 (
 should
 be
-nsnull
+nullptr
 )
 if
 an
@@ -346,7 +346,7 @@ these
 is
 not
 available
-nsnull
+nullptr
 should
 be
 passed

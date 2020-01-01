@@ -95,7 +95,7 @@ nsIFile
 *
 aLocalProfileDir
 =
-nsnull
+nullptr
 )
 ;
 virtual

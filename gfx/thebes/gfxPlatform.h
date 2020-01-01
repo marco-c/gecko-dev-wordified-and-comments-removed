@@ -768,7 +768,7 @@ implementation
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 typedef
@@ -858,7 +858,7 @@ aFontName
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual

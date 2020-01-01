@@ -341,7 +341,7 @@ it
 will
 instead
 return
-nsnull
+nullptr
 .
 This
 call
@@ -915,7 +915,7 @@ set
 the
 treeOwner
 to
-nsnull
+nullptr
 .
 Implementers
 of

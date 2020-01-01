@@ -106,7 +106,7 @@ detected
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 AutoMaskReferencer
@@ -299,14 +299,14 @@ height
 0
 )
 return
-nsnull
+nullptr
 ;
 if
 (
 resultOverflows
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -338,7 +338,7 @@ CairoStatus
 )
 )
 return
-nsnull
+nullptr
 ;
 gfxMatrix
 matrix
@@ -480,7 +480,7 @@ PaintFrameWithEffects
 (
 &
 tmpCtx
-nsnull
+nullptr
 kid
 )
 ;

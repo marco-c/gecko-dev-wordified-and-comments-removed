@@ -532,7 +532,7 @@ GetBindingParent
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 inline
@@ -768,7 +768,7 @@ SetAttr
 (
 aNameSpaceID
 aName
-nsnull
+nullptr
 aValue
 aNotify
 )
@@ -1054,7 +1054,7 @@ PRInt32
 *
 aTabIndex
 =
-nsnull
+nullptr
 bool
 aWithMouse
 =
@@ -1144,7 +1144,7 @@ GetHrefURI
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -1201,7 +1201,7 @@ DoGetID
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 const
@@ -1227,7 +1227,7 @@ DoGetClasses
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHOD
@@ -1318,7 +1318,7 @@ IsInDoc
 ?
 mPrimaryFrame
 :
-nsnull
+nullptr
 ;
 }
 void

@@ -264,7 +264,7 @@ GetAtomValue
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 void

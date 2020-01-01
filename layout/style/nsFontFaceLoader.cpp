@@ -304,7 +304,7 @@ mFontEntry
 >
 mLoader
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -321,7 +321,7 @@ Cancel
 ;
 mLoadTimer
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -700,7 +700,7 @@ GetUserFontSet
 )
 !
 =
-nsnull
+nullptr
 )
 {
 fontSet
@@ -1095,11 +1095,11 @@ mFontEntry
 >
 mLoader
 =
-nsnull
+nullptr
 ;
 mFontSet
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1115,7 +1115,7 @@ Cancel
 ;
 mLoadTimer
 =
-nsnull
+nullptr
 ;
 }
 mChannel
@@ -1215,7 +1215,7 @@ aContext
 EmptyCString
 (
 )
-nsnull
+nullptr
 &
 shouldLoad
 nsContentUtils
@@ -1357,14 +1357,14 @@ Destroy
 {
 mPresContext
 =
-nsnull
+nullptr
 ;
 mLoaders
 .
 EnumerateEntries
 (
 DestroyIterator
-nsnull
+nullptr
 )
 ;
 }
@@ -1409,7 +1409,7 @@ nsIPrincipal
 *
 principal
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -1560,9 +1560,9 @@ aFontFaceSrc
 -
 >
 mURI
-nsnull
+nullptr
 loadGroup
-nsnull
+nullptr
 nsIRequest
 :
 :
@@ -1781,7 +1781,7 @@ channel
 AsyncOpen
 (
 streamLoader
-nsnull
+nullptr
 )
 ;
 }
@@ -1840,7 +1840,7 @@ channel
 AsyncOpen
 (
 listener
-nsnull
+nullptr
 )
 ;
 }
@@ -1950,7 +1950,7 @@ mLoaders
 EnumerateEntries
 (
 DestroyIterator
-nsnull
+nullptr
 )
 ;
 nsTArray
@@ -1971,7 +1971,7 @@ mFontFamilies
 Enumerate
 (
 DetachFontEntries
-nsnull
+nullptr
 )
 ;
 mFontFamilies
@@ -2106,7 +2106,7 @@ proxy
 mLoader
 !
 =
-nsnull
+nullptr
 )
 {
 proxy
@@ -2879,7 +2879,7 @@ face
 >
 mURI
 =
-nsnull
+nullptr
 ;
 face
 -
@@ -3479,7 +3479,7 @@ mRule
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -4323,7 +4323,7 @@ nsIPrincipal
 *
 principal
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -4430,9 +4430,9 @@ aFontFaceSrc
 -
 >
 mURI
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 nsIRequest
 :
 :
@@ -4636,7 +4636,7 @@ aBuffer
 ;
 aBuffer
 =
-nsnull
+nullptr
 ;
 aBufferLength
 =

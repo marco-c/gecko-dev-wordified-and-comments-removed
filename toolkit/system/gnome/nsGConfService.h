@@ -67,7 +67,7 @@ nsGConfService
 :
 mClient
 (
-nsnull
+nullptr
 )
 {
 }

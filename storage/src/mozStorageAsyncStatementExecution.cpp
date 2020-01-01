@@ -542,7 +542,7 @@ aConnection
 )
 mTransactionManager
 (
-nsnull
+nullptr
 )
 mCallback
 (
@@ -721,7 +721,7 @@ sqlite3_stmt
 *
 aStatement
 =
-nsnull
+nullptr
 ;
 (
 void
@@ -1510,7 +1510,7 @@ mTransactionManager
 ;
 mTransactionManager
 =
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -1548,7 +1548,7 @@ mStatements
 ;
 mCallback
 =
-nsnull
+nullptr
 ;
 (
 void
@@ -1757,7 +1757,7 @@ rv
 )
 mResultSet
 =
-nsnull
+nullptr
 ;
 return
 rv

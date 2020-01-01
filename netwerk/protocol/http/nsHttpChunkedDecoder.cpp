@@ -411,7 +411,7 @@ buf
 )
 !
 =
-nsnull
+nullptr
 )
 *
 p

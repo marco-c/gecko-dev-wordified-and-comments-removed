@@ -686,7 +686,7 @@ aFile
 *
 aFile
 =
-nsnull
+nullptr
 ;
 #
 ifndef

@@ -219,7 +219,7 @@ get
 )
 =
 =
-nsnull
+nullptr
 "
 nsCountedRef
 instantiation
@@ -262,7 +262,7 @@ get
 )
 =
 =
-nsnull
+nullptr
 "
 nsAutoRef
 :

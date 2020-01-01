@@ -135,9 +135,9 @@ mObserver
 >
 Observe
 (
-nsnull
+nullptr
 mTopic
-nsnull
+nullptr
 )
 ;
 return

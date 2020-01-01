@@ -253,7 +253,7 @@ name
 )
 p
 =
-nsnull
+nullptr
 ;
 else
 {
@@ -369,7 +369,7 @@ nsXPCException
 :
 mMessage
 (
-nsnull
+nullptr
 )
 mResult
 (
@@ -377,19 +377,19 @@ mResult
 )
 mName
 (
-nsnull
+nullptr
 )
 mLocation
 (
-nsnull
+nullptr
 )
 mData
 (
-nsnull
+nullptr
 )
 mFilename
 (
-nsnull
+nullptr
 )
 mLineNumber
 (
@@ -397,7 +397,7 @@ mLineNumber
 )
 mInner
 (
-nsnull
+nullptr
 )
 mInitialized
 (
@@ -523,7 +523,7 @@ mMessage
 ;
 mMessage
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -541,7 +541,7 @@ mName
 ;
 mName
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -559,7 +559,7 @@ mFilename
 ;
 mFilename
 =
-nsnull
+nullptr
 ;
 }
 mLineNumber
@@ -686,7 +686,7 @@ NameAndFormatForNSResult
 mResult
 &
 name
-nsnull
+nullptr
 )
 ;
 XPC_STRING_GETTER_BODY
@@ -1288,7 +1288,7 @@ char
 *
 indicatedLocation
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1327,7 +1327,7 @@ mMessage
 ?
 mMessage
 :
-nsnull
+nullptr
 ;
 const
 char
@@ -1367,7 +1367,7 @@ msg
 &
 msg
 :
-nsnull
+nullptr
 )
 )
 {
@@ -1434,7 +1434,7 @@ char
 *
 final
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1758,10 +1758,10 @@ Initialize
 (
 aMessage
 aResult
-nsnull
+nullptr
 location
 aData
-nsnull
+nullptr
 )
 ;
 NS_IF_RELEASE

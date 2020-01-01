@@ -467,7 +467,7 @@ rv
 =
 JustCreateTopWindow
 (
-nsnull
+nullptr
 url
 chromeMask
 initialWidth
@@ -518,7 +518,7 @@ Destroy
 ;
 mHiddenWindow
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -567,7 +567,7 @@ nsWebShellWindow
 *
 newWindow
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -806,7 +806,7 @@ wm
 >
 GetXULWindowEnumerator
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 windowList
@@ -968,7 +968,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_STATE
 (
@@ -1527,7 +1527,7 @@ center
 ?
 aParent
 :
-nsnull
+nullptr
 aUrl
 aInitialWidth
 aInitialHeight
@@ -1739,12 +1739,12 @@ aJSContext
 *
 aWindow
 =
-nsnull
+nullptr
 ;
 *
 aJSContext
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2142,7 +2142,7 @@ window
 -
 registered
 "
-nsnull
+nullptr
 )
 ;
 return

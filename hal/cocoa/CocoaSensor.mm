@@ -105,7 +105,7 @@ nsITimer
 *
 sUpdateTimer
 =
-nsnull
+nullptr
 ;
 void
 UpdateHandler

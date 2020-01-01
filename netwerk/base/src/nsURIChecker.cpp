@@ -166,11 +166,11 @@ mStatus
 ;
 mObserver
 =
-nsnull
+nullptr
 ;
 mObserverContext
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -599,7 +599,7 @@ mChannel
 AsyncOpen
 (
 this
-nsnull
+nullptr
 )
 ;
 if
@@ -611,7 +611,7 @@ rv
 )
 mChannel
 =
-nsnull
+nullptr
 ;
 else
 {
@@ -984,7 +984,7 @@ request
 {
 mChannel
 =
-nsnull
+nullptr
 ;
 }
 return

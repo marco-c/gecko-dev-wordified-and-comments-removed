@@ -129,7 +129,7 @@ mType
 eStyleSVGPaintType_Server
 )
 return
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -177,7 +177,7 @@ if
 property
 )
 return
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -196,7 +196,7 @@ if
 result
 )
 return
-nsnull
+nullptr
 ;
 nsIAtom
 *
@@ -238,7 +238,7 @@ nsGkAtoms
 svgPatternFrame
 )
 return
-nsnull
+nullptr
 ;
 return
 static_cast

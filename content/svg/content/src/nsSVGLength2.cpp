@@ -225,8 +225,8 @@ unitMap
 ]
 =
 {
-nsnull
-nsnull
+nullptr
+nullptr
 &
 nsGkAtoms
 :

@@ -1582,7 +1582,7 @@ GetBackingSurface
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 protected
@@ -2236,7 +2236,7 @@ SURFACE_COMPONENT_ALPHA
 mTexImageOnWhite
 !
 =
-nsnull
+nullptr
 )
 )
 )
@@ -2260,11 +2260,11 @@ SetEmpty
 ;
 mTexImage
 =
-nsnull
+nullptr
 ;
 mTexImageOnWhite
 =
-nsnull
+nullptr
 ;
 mBufferRect
 .
@@ -3696,7 +3696,7 @@ aManager
 ThebesLayer
 (
 aManager
-nsnull
+nullptr
 )
 LayerOGL
 (
@@ -3704,7 +3704,7 @@ aManager
 )
 mBuffer
 (
-nsnull
+nullptr
 )
 {
 mImplData
@@ -3748,7 +3748,7 @@ mDestroyed
 {
 mBuffer
 =
-nsnull
+nullptr
 ;
 mDestroyed
 =
@@ -4219,7 +4219,7 @@ CleanupResources
 {
 mBuffer
 =
-nsnull
+nullptr
 ;
 }
 class
@@ -4747,7 +4747,7 @@ aManager
 ShadowThebesLayer
 (
 aManager
-nsnull
+nullptr
 )
 LayerOGL
 (
@@ -5116,7 +5116,7 @@ DestroyFrontBuffer
 {
 mBuffer
 =
-nsnull
+nullptr
 ;
 mValidRegionForNextBackBuffer
 .

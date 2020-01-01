@@ -447,7 +447,7 @@ aListener
 OnDataAvailable
 (
 request
-nsnull
+nullptr
 dataStream
 0
 avail
@@ -858,8 +858,8 @@ getter_AddRefs
 (
 servMan
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 nsCOMPtr
@@ -1001,7 +1001,7 @@ getter_AddRefs
 channel
 )
 dummyURI
-nsnull
+nullptr
 "
 text
 /
@@ -1059,7 +1059,7 @@ nsIStreamListener
 *
 converterListener
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -1071,7 +1071,7 @@ AsyncConvertData
 fromStr
 toStr
 dataReceiver
-nsnull
+nullptr
 &
 converterListener
 )
@@ -1099,7 +1099,7 @@ converterListener
 OnStartRequest
 (
 request
-nsnull
+nullptr
 )
 ;
 if
@@ -1158,7 +1158,7 @@ converterListener
 OnStopRequest
 (
 request
-nsnull
+nullptr
 rv
 )
 ;
@@ -1195,7 +1195,7 @@ Convert
 inputData
 fromStr
 toStr
-nsnull
+nullptr
 getter_AddRefs
 (
 convertedData
@@ -1233,7 +1233,7 @@ break
 }
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 return

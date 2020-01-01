@@ -923,7 +923,7 @@ nsAString
 *
 aItemType
 =
-nsnull
+nullptr
 )
 ;
 nsresult

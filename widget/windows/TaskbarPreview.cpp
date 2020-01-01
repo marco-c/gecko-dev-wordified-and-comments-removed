@@ -342,7 +342,7 @@ gCtx
 ;
 gCtx
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -435,7 +435,7 @@ this
 )
 sActivePreview
 =
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -816,7 +816,7 @@ else
 {
 sActivePreview
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1744,7 +1744,7 @@ TaskbarPreview
 :
 sActivePreview
 =
-nsnull
+nullptr
 ;
 }
 }

@@ -378,11 +378,11 @@ aMaxLength
 {
 mExtensionEncoder
 =
-nsnull
+nullptr
 ;
 m4BytesEncoder
 =
-nsnull
+nullptr
 ;
 mUtil
 .
@@ -421,7 +421,7 @@ Create4BytesEncoder
 {
 m4BytesEncoder
 =
-nsnull
+nullptr
 ;
 }
 bool

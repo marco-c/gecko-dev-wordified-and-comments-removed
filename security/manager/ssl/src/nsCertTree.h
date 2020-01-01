@@ -570,7 +570,7 @@ PRInt32
 *
 outAbsoluteCertOffset
 =
-nsnull
+nullptr
 )
 ;
 already_AddRefed
@@ -585,7 +585,7 @@ PRInt32
 *
 outAbsoluteCertOffset
 =
-nsnull
+nullptr
 )
 ;
 void

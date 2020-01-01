@@ -78,7 +78,7 @@ TransactionThreadPool
 *
 gInstance
 =
-nsnull
+nullptr
 ;
 bool
 gShutdown
@@ -313,7 +313,7 @@ instances
 ;
 gInstance
 =
-nsnull
+nullptr
 ;
 }
 TransactionThreadPool
@@ -372,7 +372,7 @@ Init
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 gInstance
@@ -461,7 +461,7 @@ gInstance
 ;
 gInstance
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -623,7 +623,7 @@ rv
 =
 NS_ProcessPendingEvents
 (
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -685,7 +685,7 @@ rv
 =
 NS_ProcessPendingEvents
 (
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1365,7 +1365,7 @@ true
 *
 aExistingQueue
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1562,7 +1562,7 @@ false
 *
 aExistingQueue
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1576,7 +1576,7 @@ true
 *
 aExistingQueue
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1803,7 +1803,7 @@ mTransactionsInProgress
 Get
 (
 databaseId
-nsnull
+nullptr
 )
 "
 Shouldn
@@ -2629,7 +2629,7 @@ index
 Id
 (
 )
-nsnull
+nullptr
 )
 )
 {
@@ -2986,7 +2986,7 @@ Run
 ;
 runnable
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -3162,7 +3162,7 @@ Run
 ;
 mFinishRunnable
 =
-nsnull
+nullptr
 ;
 }
 return

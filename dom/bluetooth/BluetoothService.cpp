@@ -155,7 +155,7 @@ gInShutdown
 {
 gBluetoothService
 =
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -863,7 +863,7 @@ shutdown
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 gBluetoothService
@@ -893,7 +893,7 @@ service
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -1047,7 +1047,7 @@ shutdown
 return
 Stop
 (
-nsnull
+nullptr
 )
 ;
 }

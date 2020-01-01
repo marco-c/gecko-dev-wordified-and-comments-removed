@@ -1322,15 +1322,15 @@ aManager
 )
 mParent
 (
-nsnull
+nullptr
 )
 mNextSibling
 (
-nsnull
+nullptr
 )
 mPrevSibling
 (
-nsnull
+nullptr
 )
 mImplData
 (
@@ -1338,7 +1338,7 @@ aImplData
 )
 mMaskLayer
 (
-nsnull
+nullptr
 )
 mXScale
 (

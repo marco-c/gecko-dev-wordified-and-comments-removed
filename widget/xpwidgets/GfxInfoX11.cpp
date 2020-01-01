@@ -352,7 +352,7 @@ nsCString
 *
 stringToFill
 =
-nsnull
+nullptr
 ;
 char
 *
@@ -407,7 +407,7 @@ line
 ;
 stringToFill
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -938,7 +938,7 @@ char
 *
 whereToReadVersionNumbers
 =
-nsnull
+nullptr
 ;
 const
 char

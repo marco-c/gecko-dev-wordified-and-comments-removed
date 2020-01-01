@@ -280,7 +280,7 @@ aXHRPrivate
 :
 mWorkerPrivate
 (
-nsnull
+nullptr
 )
 mXMLHttpRequestPrivate
 (
@@ -490,7 +490,7 @@ GetBaseURI
 {
 mXHR
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -515,7 +515,7 @@ mXHRUpload
 {
 mXHR
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -533,11 +533,11 @@ true
 {
 mXHRUpload
 =
-nsnull
+nullptr
 ;
 mXHR
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -1154,7 +1154,7 @@ Teardown
 ;
 mProxy
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1568,7 +1568,7 @@ runnable
 >
 Dispatch
 (
-nsnull
+nullptr
 )
 )
 {
@@ -1577,7 +1577,7 @@ mProxy
 >
 mWorkerPrivate
 =
-nsnull
+nullptr
 ;
 mProxy
 -
@@ -1591,15 +1591,15 @@ mOutstandingSendCount
 }
 mProxy
 =
-nsnull
+nullptr
 ;
 mXHR
 =
-nsnull
+nullptr
 ;
 mXMLHttpRequestPrivate
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -3128,7 +3128,7 @@ response
 >
 Dispatch
 (
-nsnull
+nullptr
 )
 )
 {
@@ -4887,7 +4887,7 @@ runnable
 >
 Dispatch
 (
-nsnull
+nullptr
 )
 )
 {
@@ -4910,7 +4910,7 @@ anyways
 }
 mWorkerPrivate
 =
-nsnull
+nullptr
 ;
 mOutstandingSendCount
 =
@@ -4919,11 +4919,11 @@ mOutstandingSendCount
 }
 mXHRUpload
 =
-nsnull
+nullptr
 ;
 mXHR
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -5817,7 +5817,7 @@ mProxy
 ;
 mProxy
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5874,7 +5874,7 @@ mProxy
 ;
 mProxy
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5884,7 +5884,7 @@ runnable
 >
 Dispatch
 (
-nsnull
+nullptr
 )
 )
 {

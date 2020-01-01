@@ -60,7 +60,7 @@ aOther
 )
 mAtom
 (
-nsnull
+nullptr
 )
 {
 NS_NOTREACHED
@@ -201,7 +201,7 @@ entry
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

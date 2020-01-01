@@ -162,7 +162,7 @@ mNumber
 =
 mName
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -675,7 +675,7 @@ string
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsJSID
@@ -764,14 +764,14 @@ idObj
 >
 mName
 =
-nsnull
+nullptr
 ;
 idObj
 -
 >
 mNumber
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -930,7 +930,7 @@ else
 *
 helper
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1387,7 +1387,7 @@ info
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -1412,7 +1412,7 @@ canScript
 canScript
 )
 return
-nsnull
+nullptr
 ;
 nsJSIID
 *
@@ -1566,8 +1566,8 @@ cx
 obj
 id
 val
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 |
 JSPROP_READONLY
@@ -2005,7 +2005,7 @@ else
 {
 identity
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -2248,7 +2248,7 @@ equals
 "
 toString
 "
-nsnull
+nullptr
 }
 ;
 *
@@ -2302,7 +2302,7 @@ number
 "
 valid
 "
-nsnull
+nullptr
 }
 ;
 *
@@ -2341,7 +2341,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2641,7 +2641,7 @@ string
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsJSCID
@@ -2846,7 +2846,7 @@ iidobj
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -3138,7 +3138,7 @@ mDetails
 ID
 (
 )
-nsnull
+nullptr
 *
 iid
 getter_AddRefs
@@ -3198,11 +3198,11 @@ WrapNativeToJSVal
 cx
 obj
 inst
-nsnull
+nullptr
 iid
 true
 retval
-nsnull
+nullptr
 )
 ;
 if
@@ -3588,7 +3588,7 @@ ccx
 JS_CALLER
 cx
 obj
-nsnull
+nullptr
 rt
 -
 >
@@ -3704,7 +3704,7 @@ GetWrappedNativeOfJSObject
 (
 cx
 obj
-nsnull
+nullptr
 &
 obj2
 )
@@ -3806,7 +3806,7 @@ JSObject
 *
 obj
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -3937,7 +3937,7 @@ cx
 obj
 )
 return
-nsnull
+nullptr
 ;
 XPCWrappedNative
 *
@@ -4016,7 +4016,7 @@ GetID
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 JSBool

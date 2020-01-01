@@ -61,7 +61,7 @@ if
 accWrap
 )
 return
-nsnull
+nullptr
 ;
 HyperTextAccessible
 *
@@ -77,7 +77,7 @@ AsHyperText
 NS_ENSURE_TRUE
 (
 hyperText
-nsnull
+nullptr
 )
 ;
 Accessible
@@ -98,7 +98,7 @@ if
 hyperLink
 )
 return
-nsnull
+nullptr
 ;
 AtkObject
 *
@@ -124,7 +124,7 @@ hyperLinkAtkObj
 NS_ENSURE_TRUE
 (
 accChild
-nsnull
+nullptr
 )
 ;
 MaiHyperlink
@@ -141,7 +141,7 @@ GetMaiHyperlink
 NS_ENSURE_TRUE
 (
 maiHyperlink
-nsnull
+nullptr
 )
 ;
 return

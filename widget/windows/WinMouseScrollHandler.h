@@ -191,7 +191,7 @@ nsIntPoint
 *
 aPoint
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -436,7 +436,7 @@ mDelta
 )
 mWnd
 (
-nsnull
+nullptr
 )
 {
 }

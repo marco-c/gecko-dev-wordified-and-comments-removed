@@ -449,7 +449,7 @@ nsStyleSet
 :
 mRuleTree
 (
-nsnull
+nullptr
 )
 mBatching
 (
@@ -926,7 +926,7 @@ mRuleProcessors
 aType
 ]
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2119,7 +2119,7 @@ eAnimationSheet
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -2431,7 +2431,7 @@ aRuleNode
 {
 aVisitedRuleNode
 =
-nsnull
+nullptr
 ;
 }
 nsStyleContext
@@ -2447,7 +2447,7 @@ GetStyleIfVisited
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -2589,7 +2589,7 @@ if
 result
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -2620,7 +2620,7 @@ resultIfVisited
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -2873,7 +2873,7 @@ oldAnimRule
 animRule
 )
 :
-nsnull
+nullptr
 ;
 result
 =
@@ -2887,7 +2887,7 @@ aIsVisitedLink
 aPseudoTag
 aPseudoType
 false
-nsnull
+nullptr
 )
 ;
 }
@@ -4442,7 +4442,7 @@ aTreeMatchContext
 NS_ENSURE_FALSE
 (
 mInShutdown
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION
@@ -4508,7 +4508,7 @@ nsRuleNode
 *
 visitedRuleNode
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4579,7 +4579,7 @@ HasState
 (
 NS_EVENT_STATE_VISITED
 )
-nsnull
+nullptr
 nsCSSPseudoElements
 :
 :
@@ -4613,7 +4613,7 @@ aRules
 NS_ENSURE_FALSE
 (
 mInShutdown
-nsnull
+nullptr
 )
 ;
 nsRuleWalker
@@ -4673,16 +4673,16 @@ ruleWalker
 CurrentNode
 (
 )
-nsnull
+nullptr
 false
 false
-nsnull
+nullptr
 nsCSSPseudoElements
 :
 :
 ePseudo_NotPseudoElement
 false
-nsnull
+nullptr
 )
 ;
 }
@@ -4710,7 +4710,7 @@ aRules
 NS_ENSURE_FALSE
 (
 mInShutdown
-nsnull
+nullptr
 )
 ;
 nsRuleWalker
@@ -4787,7 +4787,7 @@ nsRuleNode
 *
 visitedRuleNode
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4894,7 +4894,7 @@ GetPseudoType
 (
 )
 false
-nsnull
+nullptr
 )
 ;
 }
@@ -4917,7 +4917,7 @@ GetContext
 (
 aParentContext
 mRuleTree
-nsnull
+nullptr
 false
 false
 nsCSSAnonBoxes
@@ -4929,7 +4929,7 @@ nsCSSPseudoElements
 :
 ePseudo_AnonBox
 false
-nsnull
+nullptr
 )
 ;
 }
@@ -5022,7 +5022,7 @@ aParentContext
 NS_ENSURE_FALSE
 (
 mInShutdown
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION
@@ -5122,7 +5122,7 @@ nsRuleNode
 *
 visitedRuleNode
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5286,7 +5286,7 @@ aTreeMatchContext
 NS_ENSURE_FALSE
 (
 mInShutdown
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION
@@ -5404,14 +5404,14 @@ adjustedRoot
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsRuleNode
 *
 visitedRuleNode
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5570,7 +5570,7 @@ ContentCount
 {
 result
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -5602,7 +5602,7 @@ aParentContext
 NS_ENSURE_FALSE
 (
 mInShutdown
-nsnull
+nullptr
 )
 ;
 #
@@ -5670,7 +5670,7 @@ AnonBoxRuleProcessorData
 >
 &
 data
-nsnull
+nullptr
 &
 ruleWalker
 )
@@ -5684,7 +5684,7 @@ ruleWalker
 CurrentNode
 (
 )
-nsnull
+nullptr
 false
 false
 aPseudoTag
@@ -5693,7 +5693,7 @@ nsCSSPseudoElements
 :
 ePseudo_AnonBox
 false
-nsnull
+nullptr
 )
 ;
 }
@@ -5726,7 +5726,7 @@ aComparator
 NS_ENSURE_FALSE
 (
 mInShutdown
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION
@@ -5818,7 +5818,7 @@ nsRuleNode
 *
 visitedRuleNode
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5877,7 +5877,7 @@ nsCSSPseudoElements
 :
 ePseudo_XULTree
 false
-nsnull
+nullptr
 )
 ;
 }
@@ -6102,7 +6102,7 @@ Destroy
 ;
 mRuleTree
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -6520,7 +6520,7 @@ context
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -6630,7 +6630,7 @@ nsRuleNode
 *
 visitedRuleNode
 =
-nsnull
+nullptr
 ;
 nsStyleContext
 *

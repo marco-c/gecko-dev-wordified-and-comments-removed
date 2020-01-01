@@ -126,10 +126,10 @@ if
 str
 =
 =
-nsnull
+nullptr
 )
 return
-nsnull
+nullptr
 ;
 char
 *
@@ -151,7 +151,7 @@ if
 result
 !
 =
-nsnull
+nullptr
 )
 return
 strcpy
@@ -176,7 +176,7 @@ aPluginTag
 :
 mPluginHost
 (
-nsnull
+nullptr
 )
 mName
 (
@@ -215,7 +215,7 @@ mExtensions
 )
 mLibrary
 (
-nsnull
+nullptr
 )
 mIsJavaPlugin
 (
@@ -274,7 +274,7 @@ aPluginInfo
 :
 mPluginHost
 (
-nsnull
+nullptr
 )
 mName
 (
@@ -292,7 +292,7 @@ fDescription
 )
 mLibrary
 (
-nsnull
+nullptr
 )
 mIsJavaPlugin
 (
@@ -410,7 +410,7 @@ aArgsAreUTF8
 :
 mPluginHost
 (
-nsnull
+nullptr
 )
 mName
 (
@@ -422,7 +422,7 @@ aDescription
 )
 mLibrary
 (
-nsnull
+nullptr
 )
 mIsJavaPlugin
 (
@@ -1556,7 +1556,7 @@ mPluginHost
 >
 UpdatePluginInfo
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -1852,7 +1852,7 @@ Shutdown
 ;
 mPlugin
 =
-nsnull
+nullptr
 ;
 }
 }

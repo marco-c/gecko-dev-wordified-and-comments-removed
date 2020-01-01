@@ -230,7 +230,7 @@ NS_ASSERTION
 mSurface
 !
 =
-nsnull
+nullptr
 "
 gfxASurface
 :
@@ -241,7 +241,7 @@ with
 mSurface
 =
 =
-nsnull
+nullptr
 !
 "
 )
@@ -400,7 +400,7 @@ GetAsImageSurface
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 int
@@ -603,7 +603,7 @@ IsEmpty
 {
 mOpaqueRect
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -703,7 +703,7 @@ gfxASurface
 :
 mSurface
 (
-nsnull
+nullptr
 )
 mFloatingRefs
 (
@@ -930,7 +930,7 @@ Void
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 static

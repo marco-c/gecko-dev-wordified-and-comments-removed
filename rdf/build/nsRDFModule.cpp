@@ -192,7 +192,7 @@ aOuter
 *
 aResult
 =
-nsnull
+nullptr
 ;
 \
 return
@@ -234,7 +234,7 @@ rv
 *
 aResult
 =
-nsnull
+nullptr
 ;
 \
 return
@@ -267,7 +267,7 @@ rv
 *
 aResult
 =
-nsnull
+nullptr
 ;
 \
 }
@@ -390,7 +390,7 @@ aOuter
 *
 aResult
 =
-nsnull
+nullptr
 ;
 \
 return
@@ -432,7 +432,7 @@ rv
 *
 aResult
 =
-nsnull
+nullptr
 ;
 \
 return
@@ -465,7 +465,7 @@ rv
 *
 aResult
 =
-nsnull
+nullptr
 ;
 \
 }
@@ -880,7 +880,7 @@ RDFServiceImpl
 :
 gRDFService
 =
-nsnull
+nullptr
 ;
 }
 return

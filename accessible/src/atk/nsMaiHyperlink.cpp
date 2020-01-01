@@ -319,7 +319,7 @@ aHyperLink
 )
 mMaiAtkHyperlink
 (
-nsnull
+nullptr
 )
 {
 }
@@ -344,7 +344,7 @@ mMaiAtkHyperlink
 >
 maiHyperlink
 =
-nsnull
+nullptr
 ;
 g_object_unref
 (
@@ -366,7 +366,7 @@ void
 NS_ENSURE_TRUE
 (
 mHyperlink
-nsnull
+nullptr
 )
 ;
 if
@@ -387,7 +387,7 @@ IsLink
 )
 )
 return
-nsnull
+nullptr
 ;
 mMaiAtkHyperlink
 =
@@ -419,7 +419,7 @@ MEMORY
 NS_ENSURE_TRUE
 (
 mMaiAtkHyperlink
-nsnull
+nullptr
 )
 ;
 MaiHyperlink
@@ -594,7 +594,7 @@ maiAtkHyperlink
 >
 maiHyperlink
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -641,7 +641,7 @@ aLink
 NS_ENSURE_TRUE
 (
 hyperlink
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -664,7 +664,7 @@ if
 uri
 )
 return
-nsnull
+nullptr
 ;
 nsCAutoString
 cautoStr
@@ -683,7 +683,7 @@ cautoStr
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -720,7 +720,7 @@ aLink
 NS_ENSURE_TRUE
 (
 hyperlink
-nsnull
+nullptr
 )
 ;
 Accessible
@@ -738,7 +738,7 @@ aLinkIndex
 NS_ENSURE_TRUE
 (
 anchor
-nsnull
+nullptr
 )
 ;
 AtkObject
@@ -927,7 +927,7 @@ MAI_IS_ATK_HYPERLINK
 (
 aHyperlink
 )
-nsnull
+nullptr
 )
 ;
 MaiHyperlink
@@ -947,8 +947,8 @@ NS_ENSURE_TRUE
 maiHyperlink
 !
 =
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -962,7 +962,7 @@ GetAtkHyperlink
 =
 =
 aHyperlink
-nsnull
+nullptr
 )
 ;
 return

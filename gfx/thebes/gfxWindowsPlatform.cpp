@@ -1420,7 +1420,7 @@ D2DVram
 ;
 mD2DDevice
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -1910,7 +1910,7 @@ else
 {
 mD2DDevice
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -2137,7 +2137,7 @@ return
 }
 mD2DDevice
 =
-nsnull
+nullptr
 ;
 }
 mozilla
@@ -2298,7 +2298,7 @@ __uuidof
 (
 ID3D10Device
 )
-nsnull
+nullptr
 )
 ;
 if
@@ -2740,7 +2740,7 @@ Shutdown
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -2767,7 +2767,7 @@ gfxASurface
 *
 surf
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -2822,7 +2822,7 @@ if
 surf
 =
 =
-nsnull
+nullptr
 )
 surf
 =
@@ -4734,7 +4734,7 @@ if
 ff
 )
 return
-nsnull
+nullptr
 ;
 bool
 aNeedsBold
@@ -4778,7 +4778,7 @@ dc
 =
 GetDC
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -4787,7 +4787,7 @@ if
 dc
 )
 return
-nsnull
+nullptr
 ;
 #
 if
@@ -4844,7 +4844,7 @@ str
 endif
 ReleaseDC
 (
-nsnull
+nullptr
 dc
 )
 ;
@@ -4854,7 +4854,7 @@ if
 res
 )
 return
-nsnull
+nullptr
 ;
 qcms_profile
 *
@@ -5246,7 +5246,7 @@ VS_FIXEDFILEINFO
 *
 fileInfo
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5288,7 +5288,7 @@ len
 fileInfo
 =
 =
-nsnull
+nullptr
 )
 {
 return

@@ -84,7 +84,7 @@ PRLogModuleInfo
 *
 gMouseScrollLog
 =
-nsnull
+nullptr
 ;
 static
 const
@@ -314,7 +314,7 @@ MouseScrollHandler
 :
 sInstance
 =
-nsnull
+nullptr
 ;
 bool
 MouseScrollHandler
@@ -488,7 +488,7 @@ sInstance
 ;
 sInstance
 =
-nsnull
+nullptr
 ;
 }
 MouseScrollHandler
@@ -531,7 +531,7 @@ false
 )
 mSynthesizingEvent
 (
-nsnull
+nullptr
 )
 {
 PR_LOG
@@ -4375,7 +4375,7 @@ ResetTransaction
 ;
 mWnd
 =
-nsnull
+nullptr
 ;
 mRemainingDeltaForScroll
 =

@@ -160,7 +160,7 @@ nsFilePicker
 :
 mPrevDisplayDirectory
 =
-nsnull
+nullptr
 ;
 static
 GtkWindow
@@ -1209,7 +1209,7 @@ aFile
 *
 aFile
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1304,7 +1304,7 @@ aFileURL
 *
 aFileURL
 =
-nsnull
+nullptr
 ;
 return
 NS_NewURI

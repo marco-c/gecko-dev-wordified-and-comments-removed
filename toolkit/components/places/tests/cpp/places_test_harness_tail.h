@@ -457,7 +457,7 @@ void
 )
 NS_ProcessPendingEvents
 (
-nsnull
+nullptr
 )
 ;
 if

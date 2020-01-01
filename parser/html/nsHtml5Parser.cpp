@@ -114,7 +114,7 @@ nsHtml5OwningUTF16Buffer
 void
 *
 )
-nsnull
+nullptr
 )
 )
 mLastBuffer
@@ -134,7 +134,7 @@ new
 nsHtml5TreeBuilder
 (
 mExecutor
-nsnull
+nullptr
 )
 )
 mTokenizer
@@ -523,7 +523,7 @@ aDTD
 *
 aDTD
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1217,7 +1217,7 @@ keyHolder
 ;
 prevSearchBuf
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -1263,7 +1263,7 @@ nsHtml5OwningUTF16Buffer
 void
 *
 )
-nsnull
+nullptr
 )
 ;
 firstLevelMarker
@@ -1699,7 +1699,7 @@ mDocWriteSpeculativeTreeBuilder
 new
 nsHtml5TreeBuilder
 (
-nsnull
+nullptr
 mExecutor
 -
 >

@@ -135,7 +135,7 @@ nsWidgetInitData
 *
 aInitData
 =
-nsnull
+nullptr
 )
 ;
 virtual
@@ -158,7 +158,7 @@ nsWidgetInitData
 *
 aInitData
 =
-nsnull
+nullptr
 bool
 aForceUseIWidgetParent
 =
@@ -406,7 +406,7 @@ nsIntPoint
 *
 aPoint
 =
-nsnull
+nullptr
 )
 ;
 NS_IMETHOD
@@ -445,7 +445,7 @@ PLayersChild
 *
 aShadowManager
 =
-nsnull
+nullptr
 LayersBackend
 aBackendHint
 =
@@ -464,7 +464,7 @@ bool
 *
 aAllowRetaining
 =
-nsnull
+nullptr
 )
 ;
 virtual
@@ -625,7 +625,7 @@ Revoke
 {
 mWidget
 =
-nsnull
+nullptr
 ;
 }
 private

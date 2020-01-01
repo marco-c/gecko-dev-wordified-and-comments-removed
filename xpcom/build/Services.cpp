@@ -138,7 +138,7 @@ g
 #
 NAME
 =
-nsnull
+nullptr
 ;
 \
 \

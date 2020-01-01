@@ -1525,7 +1525,7 @@ if
 aUnknownCol
 )
 return
-nsnull
+nullptr
 ;
 nsTreeColumn
 *
@@ -1662,7 +1662,7 @@ Revoke
 {
 mInner
 =
-nsnull
+nullptr
 ;
 }
 private

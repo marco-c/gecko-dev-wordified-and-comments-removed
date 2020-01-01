@@ -29,7 +29,7 @@ nsManifestLineReader
 :
 mBase
 (
-nsnull
+nullptr
 )
 {
 }

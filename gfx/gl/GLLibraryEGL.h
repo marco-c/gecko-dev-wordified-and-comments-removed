@@ -429,7 +429,7 @@ false
 )
 mEGLLibrary
 (
-nsnull
+nullptr
 )
 mIsANGLE
 (

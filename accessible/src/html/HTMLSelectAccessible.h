@@ -328,7 +328,7 @@ get
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 Accessible
@@ -375,11 +375,11 @@ IsCombobox
 ?
 combobox
 :
-nsnull
+nullptr
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 }

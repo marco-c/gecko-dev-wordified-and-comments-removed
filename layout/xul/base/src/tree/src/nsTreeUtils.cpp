@@ -74,7 +74,7 @@ NS_PRECONDITION
 aPropertiesArray
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -308,7 +308,7 @@ child
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -397,7 +397,7 @@ child
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult

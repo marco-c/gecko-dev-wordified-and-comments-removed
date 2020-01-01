@@ -129,7 +129,7 @@ passwd
 *
 pw
 =
-nsnull
+nullptr
 ;
 pw
 =
@@ -332,7 +332,7 @@ passwd
 *
 pw
 =
-nsnull
+nullptr
 ;
 pw
 =
@@ -422,7 +422,7 @@ char
 *
 domainname
 =
-nsnull
+nullptr
 ;
 if
 (

@@ -183,7 +183,7 @@ NS_MATHML_SIGN_INVALID
 GetAttribute
 (
 mContent
-nsnull
+nullptr
 nsGkAtoms
 :
 :
@@ -217,7 +217,7 @@ NS_MATHML_SIGN_INVALID
 GetAttribute
 (
 mContent
-nsnull
+nullptr
 nsGkAtoms
 :
 :
@@ -251,7 +251,7 @@ NS_MATHML_SIGN_INVALID
 GetAttribute
 (
 mContent
-nsnull
+nullptr
 nsGkAtoms
 :
 :
@@ -285,7 +285,7 @@ NS_MATHML_SIGN_INVALID
 GetAttribute
 (
 mContent
-nsnull
+nullptr
 nsGkAtoms
 :
 :
@@ -319,7 +319,7 @@ NS_MATHML_SIGN_INVALID
 GetAttribute
 (
 mContent
-nsnull
+nullptr
 nsGkAtoms
 :
 :

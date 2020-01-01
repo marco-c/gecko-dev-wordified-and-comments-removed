@@ -162,7 +162,7 @@ mU
 .
 mPtr
 =
-nsnull
+nullptr
 ;
 aValue
 .
@@ -1428,7 +1428,7 @@ float
 *
 startParams
 =
-nsnull
+nullptr
 ;
 if
 (

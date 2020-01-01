@@ -1418,7 +1418,7 @@ NS_OK
 AutoFree
 buffer
 =
-nsnull
+nullptr
 ;
 PRUint32
 bufLen
@@ -1736,7 +1736,7 @@ char
 *
 token
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2229,7 +2229,7 @@ char
 *
 bndry
 =
-nsnull
+nullptr
 ;
 nsCAutoString
 delimiter
@@ -2537,7 +2537,7 @@ mBuffer
 ;
 mBuffer
 =
-nsnull
+nullptr
 ;
 mBufLen
 =
@@ -2606,7 +2606,7 @@ LL_MAXUINT
 ;
 mBuffer
 =
-nsnull
+nullptr
 ;
 mBufLen
 =
@@ -2667,7 +2667,7 @@ mBuffer
 ;
 mBuffer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -3017,7 +3017,7 @@ loadGroup
 AddRequest
 (
 mPartChannel
-nsnull
+nullptr
 )
 ;
 if
@@ -3418,7 +3418,7 @@ aPtr
 *
 newLine
 =
-nsnull
+nullptr
 ;
 PRUint32
 cursorLen
@@ -4006,7 +4006,7 @@ data
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 for
@@ -4116,7 +4116,7 @@ aCursor
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -4133,7 +4133,7 @@ NS_PRECONDITION
 aMultiMixedConv
 !
 =
-nsnull
+nullptr
 "
 null
 ptr

@@ -848,11 +848,11 @@ aSheet
 )
 mNext
 (
-nsnull
+nullptr
 )
 mParentData
 (
-nsnull
+nullptr
 )
 mPendingChildren
 (
@@ -968,7 +968,7 @@ aSheet
 )
 mNext
 (
-nsnull
+nullptr
 )
 mParentData
 (
@@ -1016,7 +1016,7 @@ false
 )
 mOwningElement
 (
-nsnull
+nullptr
 )
 mObserver
 (
@@ -1163,11 +1163,11 @@ aSheet
 )
 mNext
 (
-nsnull
+nullptr
 )
 mParentData
 (
-nsnull
+nullptr
 )
 mPendingChildren
 (
@@ -1211,7 +1211,7 @@ false
 )
 mOwningElement
 (
-nsnull
+nullptr
 )
 mObserver
 (
@@ -1566,7 +1566,7 @@ void
 :
 mDocument
 (
-nsnull
+nullptr
 )
 mDatasToNotifyOn
 (
@@ -1751,7 +1751,7 @@ void
 {
 mDocument
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2508,7 +2508,7 @@ result
 )
 channel
 =
-nsnull
+nullptr
 ;
 aCharset
 .
@@ -3981,7 +3981,7 @@ text
 css
 "
 )
-nsnull
+nullptr
 &
 shouldLoad
 nsContentUtils
@@ -4154,7 +4154,7 @@ NS_OK
 *
 aSheet
 =
-nsnull
+nullptr
 ;
 aSheetState
 =
@@ -4365,7 +4365,7 @@ get
 ;
 sheet
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4387,7 +4387,7 @@ SheetLoadData
 *
 loadData
 =
-nsnull
+nullptr
 ;
 URIAndPrincipalHashKey
 key
@@ -4512,7 +4512,7 @@ SheetLoadData
 *
 loadData
 =
-nsnull
+nullptr
 ;
 mPendingDatas
 .
@@ -4687,10 +4687,10 @@ sheet
 >
 Clone
 (
-nsnull
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
+nullptr
 )
 .
 get
@@ -4768,7 +4768,7 @@ GetDocumentURI
 ;
 originalURI
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -4964,7 +4964,7 @@ mediumParser
 ParseMediaList
 (
 aMediaString
-nsnull
+nullptr
 0
 mediaList
 true
@@ -5800,9 +5800,9 @@ aLoadData
 -
 >
 mURI
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 nsIRequest
 :
 :
@@ -5885,7 +5885,7 @@ SheetLoadData
 *
 existingData
 =
-nsnull
+nullptr
 ;
 URIAndPrincipalHashKey
 key
@@ -6232,9 +6232,9 @@ aLoadData
 -
 >
 mURI
-nsnull
+nullptr
 loadGroup
-nsnull
+nullptr
 nsIChannel
 :
 :
@@ -6493,7 +6493,7 @@ channel
 AsyncOpen
 (
 streamLoader
-nsnull
+nullptr
 )
 ;
 #
@@ -7811,9 +7811,9 @@ rv
 =
 CreateSheet
 (
-nsnull
+nullptr
 aElement
-nsnull
+nullptr
 false
 false
 aTitle
@@ -7870,7 +7870,7 @@ PrepareSheet
 sheet
 aTitle
 aMedia
-nsnull
+nullptr
 *
 aIsAlternate
 )
@@ -7905,13 +7905,13 @@ SheetLoadData
 (
 this
 aTitle
-nsnull
+nullptr
 sheet
 owningElement
 *
 aIsAlternate
 aObserver
-nsnull
+nullptr
 )
 ;
 sheet
@@ -8280,7 +8280,7 @@ PrepareSheet
 sheet
 aTitle
 aMedia
-nsnull
+nullptr
 *
 aIsAlternate
 )
@@ -8851,7 +8851,7 @@ SheetLoadData
 *
 parentData
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -8990,7 +8990,7 @@ rv
 CreateSheet
 (
 aURL
-nsnull
+nullptr
 principal
 parentData
 ?
@@ -9172,12 +9172,12 @@ InternalLoadNonDocumentSheet
 aURL
 aAllowUnsafeRules
 aUseSystemPrincipal
-nsnull
+nullptr
 EmptyCString
 (
 )
 aSheet
-nsnull
+nullptr
 )
 ;
 }
@@ -9301,7 +9301,7 @@ false
 false
 aOriginPrincipal
 aCharset
-nsnull
+nullptr
 aObserver
 )
 ;
@@ -9437,7 +9437,7 @@ aSheet
 *
 aSheet
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -9501,7 +9501,7 @@ syncLoad
 aObserver
 =
 =
-nsnull
+nullptr
 )
 ;
 const
@@ -9518,7 +9518,7 @@ rv
 CreateSheet
 (
 aURL
-nsnull
+nullptr
 aOriginPrincipal
 syncLoad
 false
@@ -9545,7 +9545,7 @@ PrepareSheet
 sheet
 empty
 empty
-nsnull
+nullptr
 isAlternate
 )
 ;
@@ -9595,7 +9595,7 @@ aURL
 sheet
 aObserver
 false
-nsnull
+nullptr
 )
 ;
 }
@@ -9773,7 +9773,7 @@ aSheet
 aElement
 aWasAlternate
 aObserver
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE

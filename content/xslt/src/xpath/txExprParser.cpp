@@ -90,7 +90,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -107,7 +107,7 @@ FunctionCall
 *
 concat
 =
-nsnull
+nullptr
 ;
 nsAutoString
 literalString
@@ -609,7 +609,7 @@ aExpr
 *
 aExpr
 =
-nsnull
+nullptr
 ;
 txExprLexer
 lexer
@@ -761,7 +761,7 @@ Expr
 *
 newExpr
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -836,13 +836,13 @@ error
 *
 aResult
 =
-nsnull
+nullptr
 ;
 Expr
 *
 expr
 =
-nsnull
+nullptr
 ;
 switch
 (
@@ -1191,7 +1191,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1646,7 +1646,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1996,7 +1996,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsAutoPtr
 <
@@ -2246,7 +2246,7 @@ aExpr
 *
 aExpr
 =
-nsnull
+nullptr
 ;
 LocationStep
 :
@@ -3129,7 +3129,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsAutoPtr
 <
@@ -3513,7 +3513,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsAutoPtr
 <

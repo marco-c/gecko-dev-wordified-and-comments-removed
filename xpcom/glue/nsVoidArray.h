@@ -284,7 +284,7 @@ Count
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -867,7 +867,7 @@ Count
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

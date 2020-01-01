@@ -667,7 +667,7 @@ uncompiledMethod
 {
 mJSMethodObject
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -684,7 +684,7 @@ uncompiledMethod
 ;
 mJSMethodObject
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -705,7 +705,7 @@ char
 *
 args
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -844,7 +844,7 @@ JSObject
 *
 methodObject
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -905,7 +905,7 @@ rv
 {
 SetUncompiledMethod
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -990,7 +990,7 @@ rv
 {
 SetUncompiledMethod
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -1337,7 +1337,7 @@ OBJECT_TO_JSVAL
 method
 )
 0
-nsnull
+nullptr
 &
 retval
 )

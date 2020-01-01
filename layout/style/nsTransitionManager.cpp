@@ -839,7 +839,7 @@ ePseudo_after
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_ASSERTION
@@ -978,7 +978,7 @@ GetDuration
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -997,7 +997,7 @@ IsProcessingAnimationStyleChange
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -1024,7 +1024,7 @@ HasPseudoElementData
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -1517,7 +1517,7 @@ Destroy
 ;
 et
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1528,7 +1528,7 @@ startedAny
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_ABORT_IF_FALSE
@@ -2007,7 +2007,7 @@ Destroy
 ;
 aElementTransitions
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2515,7 +2515,7 @@ mElementData
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIAtom
@@ -2609,7 +2609,7 @@ after
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 ElementTransitions
@@ -2661,7 +2661,7 @@ SetProperty
 propName
 et
 ElementTransitionsPropertyDtor
-nsnull
+nullptr
 )
 ;
 if
@@ -2684,7 +2684,7 @@ delete
 et
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -3482,7 +3482,7 @@ Destroy
 ;
 et
 =
-nsnull
+nullptr
 ;
 }
 }

@@ -699,7 +699,7 @@ Image
 *
 aCurrentImage
 =
-nsnull
+nullptr
 )
 ;
 gfxIntSize
@@ -1113,7 +1113,7 @@ mContainer
 {
 mImage
 =
-nsnull
+nullptr
 ;
 mContainer
 -
@@ -1124,7 +1124,7 @@ UnlockCurrentImage
 ;
 mContainer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1324,7 +1324,7 @@ GetLocalTransform
 (
 )
 snap
-nsnull
+nullptr
 )
 *
 SnapTransform
@@ -1337,7 +1337,7 @@ gfxRect
 0
 0
 )
-nsnull
+nullptr
 )
 ;
 ComputeEffectiveTransformForMaskLayer
@@ -2157,7 +2157,7 @@ GetAsSurface
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 void

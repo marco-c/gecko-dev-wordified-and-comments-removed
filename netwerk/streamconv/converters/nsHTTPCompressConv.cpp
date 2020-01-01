@@ -91,7 +91,7 @@ nsHTTPCompressConv
 :
 mListener
 (
-nsnull
+nullptr
 )
 mMode
 (
@@ -444,7 +444,7 @@ iStr
 ReadSegments
 (
 NS_DiscardSegment
-nsnull
+nullptr
 streamLen
 &
 n
@@ -2092,7 +2092,7 @@ NS_PRECONDITION
 aHTTPCompressConv
 !
 =
-nsnull
+nullptr
 "
 null
 ptr

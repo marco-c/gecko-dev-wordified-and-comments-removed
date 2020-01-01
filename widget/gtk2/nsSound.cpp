@@ -149,7 +149,7 @@ PRLibrary
 *
 libcanberra
 =
-nsnull
+nullptr
 ;
 typedef
 struct
@@ -460,7 +460,7 @@ ctx
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 g_static_private_set
@@ -506,7 +506,7 @@ gchar
 *
 sound_theme_name
 =
-nsnull
+nullptr
 ;
 g_object_get
 (
@@ -874,7 +874,7 @@ libcanberra
 ;
 libcanberra
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -997,7 +997,7 @@ libcanberra
 ;
 libcanberra
 =
-nsnull
+nullptr
 ;
 }
 }

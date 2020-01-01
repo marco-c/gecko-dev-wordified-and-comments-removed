@@ -315,7 +315,7 @@ GoodAlignmentLog2
 aSize
 )
 ?
-nsnull
+nullptr
 :
 ptr
 ;
@@ -355,7 +355,7 @@ false
 )
 mData
 (
-nsnull
+nullptr
 )
 mFormat
 (

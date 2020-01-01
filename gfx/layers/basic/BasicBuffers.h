@@ -228,7 +228,7 @@ UnmapBuffer
 {
 SetBuffer
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -349,7 +349,7 @@ oldBuffer
 =
 SetBuffer
 (
-nsnull
+nullptr
 aNewRect
 aNewRotation
 )
@@ -390,7 +390,7 @@ content
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }

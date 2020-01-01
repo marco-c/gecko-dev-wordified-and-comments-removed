@@ -359,7 +359,7 @@ if
 visual
 )
 return
-nsnull
+nullptr
 ;
 surf
 =
@@ -381,7 +381,7 @@ CairoStatus
 (
 )
 ?
-nsnull
+nullptr
 :
 surf
 .
@@ -568,7 +568,7 @@ type
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -755,7 +755,7 @@ GLenum
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 bool

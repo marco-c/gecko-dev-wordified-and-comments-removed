@@ -496,7 +496,7 @@ bool
 *
 aIsNumber
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -1274,7 +1274,7 @@ GetGlobalJSObject
 )
 =
 =
-nsnull
+nullptr
 "
 Multiple
 wrappers
@@ -5347,8 +5347,8 @@ INT_TO_JSVAL
 (
 0x0BA2
 )
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )

@@ -198,7 +198,7 @@ if
 mSurfaceValid
 )
 return
-nsnull
+nullptr
 ;
 return
 cairo_qt_surface_get_qimage
@@ -226,7 +226,7 @@ if
 mSurfaceValid
 )
 return
-nsnull
+nullptr
 ;
 cairo_surface_t
 *
@@ -245,7 +245,7 @@ if
 isurf
 )
 return
-nsnull
+nullptr
 ;
 assert
 (

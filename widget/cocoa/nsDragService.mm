@@ -337,7 +337,7 @@ nsISupportsArray
 *
 gDraggedTransferables
 =
-nsnull
+nullptr
 ;
 NSString
 *
@@ -3449,7 +3449,7 @@ aDoneDrag
 ;
 mDataItems
 =
-nsnull
+nullptr
 ;
 return
 rv

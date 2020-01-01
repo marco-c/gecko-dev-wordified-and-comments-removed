@@ -155,7 +155,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 mem

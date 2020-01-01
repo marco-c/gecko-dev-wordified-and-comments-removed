@@ -130,7 +130,7 @@ if
 aObject
 )
 return
-nsnull
+nullptr
 ;
 jsdIObject
 *
@@ -221,7 +221,7 @@ if
 aProperty
 )
 return
-nsnull
+nullptr
 ;
 jsdIProperty
 *
@@ -324,7 +324,7 @@ if
 aScript
 )
 return
-nsnull
+nullptr
 ;
 void
 *
@@ -1003,7 +1003,7 @@ if
 aCx
 )
 return
-nsnull
+nullptr
 ;
 void
 *
@@ -1164,7 +1164,7 @@ if
 aThreadState
 )
 return
-nsnull
+nullptr
 ;
 jsdIThreadState
 *

@@ -1735,7 +1735,7 @@ aCount
 *
 aIdentifiers
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -2115,11 +2115,11 @@ aType
 :
 mInstance
 (
-nsnull
+nullptr
 )
 mObject
 (
-nsnull
+nullptr
 )
 mInvalidated
 (
@@ -2207,7 +2207,7 @@ mObject
 >
 parent
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -2853,7 +2853,7 @@ object
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -3043,7 +3043,7 @@ mObject
 ;
 mObject
 =
-nsnull
+nullptr
 ;
 SendUnprotect
 (

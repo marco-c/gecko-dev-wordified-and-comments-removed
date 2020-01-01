@@ -501,7 +501,7 @@ GetAnimateMotionTransform
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -999,7 +999,7 @@ GetAnimatedPointList
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -1010,7 +1010,7 @@ GetAnimPathSegList
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -1025,7 +1025,7 @@ aFlags
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -1087,7 +1087,7 @@ GetPointListAttrName
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -1099,7 +1099,7 @@ GetPathDataAttrName
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -1111,7 +1111,7 @@ GetTransformListAttrName
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 protected

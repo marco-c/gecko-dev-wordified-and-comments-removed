@@ -305,7 +305,7 @@ nsGkAtoms
 :
 :
 checkbox
-nsnull
+nullptr
 }
 ;
 if
@@ -1722,7 +1722,7 @@ mParent
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 XULMenuSeparatorAccessible
@@ -2345,7 +2345,7 @@ if
 menuPopup
 )
 return
-nsnull
+nullptr
 ;
 nsMenuFrame
 *
@@ -2364,7 +2364,7 @@ if
 menuFrame
 )
 return
-nsnull
+nullptr
 ;
 nsMenuParent
 *
@@ -2439,7 +2439,7 @@ IsMenu
 )
 )
 return
-nsnull
+nullptr
 ;
 menuPopupFrame
 =
@@ -2468,7 +2468,7 @@ case
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 XULMenubarAccessible
@@ -2639,7 +2639,7 @@ menuItemNode
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void

@@ -277,8 +277,8 @@ Init
 (
 manifestURI
 documentURI
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS

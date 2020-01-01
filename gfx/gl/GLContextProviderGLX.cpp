@@ -2721,7 +2721,7 @@ gfxXlibSurface
 *
 pixmap
 =
-nsnull
+nullptr
 )
 {
 int
@@ -2941,7 +2941,7 @@ shareContext
 {
 shareContext
 =
-nsnull
+nullptr
 ;
 goto
 TRY_AGAIN_NO_SHARING
@@ -2960,7 +2960,7 @@ GLXContext
 ;
 glContext
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -2994,7 +2994,7 @@ xMakeCurrent
 (
 mDisplay
 None
-nsnull
+nullptr
 )
 ;
 NS_ABORT_IF_FALSE
@@ -3202,7 +3202,7 @@ mPixmap
 default
 :
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -4257,7 +4257,7 @@ EnsureInitialized
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 Display
@@ -4375,7 +4375,7 @@ failed
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 NS_ASSERTION
@@ -4420,7 +4420,7 @@ failed
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 const
@@ -4667,7 +4667,7 @@ visual
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 GLContextGLX
@@ -4745,7 +4745,7 @@ EnsureInitialized
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 Display
@@ -4820,7 +4820,7 @@ cfgs
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_ASSERTION
@@ -4991,7 +4991,7 @@ visuals
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 ScopedXErrorHandler
@@ -5168,7 +5168,7 @@ GetGlobalContextGLX
 (
 )
 :
-nsnull
+nullptr
 true
 xsurface
 )
@@ -5223,7 +5223,7 @@ glContext
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -5238,7 +5238,7 @@ GetSharedContext
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -5255,7 +5255,7 @@ true
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -5350,7 +5350,7 @@ Shutdown
 {
 gGlobalContext
 =
-nsnull
+nullptr
 ;
 }
 }

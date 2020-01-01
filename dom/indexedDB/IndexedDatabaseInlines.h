@@ -22,7 +22,7 @@ StructuredCloneWriteInfo
 :
 mTransaction
 (
-nsnull
+nullptr
 )
 mOffsetToKeyProp
 (
@@ -105,7 +105,7 @@ StructuredCloneReadInfo
 :
 mDatabase
 (
-nsnull
+nullptr
 )
 {
 }

@@ -5291,7 +5291,7 @@ PRUnichar
 *
 prtName
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -6932,7 +6932,7 @@ nsIPrintSettings
 kInitSaveAll
 }
 {
-nsnull
+nullptr
 0
 }
 }
@@ -6965,7 +6965,7 @@ i
 mName
 !
 =
-nsnull
+nullptr
 )
 {
 printf

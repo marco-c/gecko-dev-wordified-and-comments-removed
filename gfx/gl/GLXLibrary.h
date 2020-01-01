@@ -61,7 +61,7 @@ false
 )
 mOGLLibrary
 (
-nsnull
+nullptr
 )
 {
 }

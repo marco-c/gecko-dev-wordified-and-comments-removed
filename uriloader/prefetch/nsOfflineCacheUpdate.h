@@ -768,7 +768,7 @@ nsCString
 *
 namespaceFilter
 =
-nsnull
+nullptr
 )
 ;
 nsresult

@@ -379,7 +379,7 @@ nsIURI
 *
 aSrc
 =
-nsnull
+nullptr
 )
 ;
 nsresult

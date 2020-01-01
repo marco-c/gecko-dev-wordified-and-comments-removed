@@ -479,15 +479,15 @@ aChromeFlags
 :
 mChromeTreeOwner
 (
-nsnull
+nullptr
 )
 mContentTreeOwner
 (
-nsnull
+nullptr
 )
 mPrimaryContentTreeOwner
 (
-nsnull
+nullptr
 )
 mModalStatus
 (
@@ -788,7 +788,7 @@ nsIDOMWindow
 *
 domWindow
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -1485,7 +1485,7 @@ aDocShellTreeItem
 *
 aDocShellTreeItem
 =
-nsnull
+nullptr
 ;
 PRUint32
 count
@@ -1539,7 +1539,7 @@ aID
 *
 aDocShellTreeItem
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1677,7 +1677,7 @@ stack
 >
 Push
 (
-nsnull
+nullptr
 )
 )
 )
@@ -1724,7 +1724,7 @@ NS_ASSERTION
 cx
 =
 =
-nsnull
+nullptr
 "
 JSContextStack
 mismatch
@@ -2065,7 +2065,7 @@ true
 endif
 mDOMWindow
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2093,7 +2093,7 @@ Destroy
 ;
 mDocShell
 =
-nsnull
+nullptr
 ;
 }
 PRUint32
@@ -2144,7 +2144,7 @@ Clear
 ;
 mPrimaryContentShell
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2156,7 +2156,7 @@ mContentTreeOwner
 >
 XULWindow
 (
-nsnull
+nullptr
 )
 ;
 NS_RELEASE
@@ -2175,7 +2175,7 @@ mPrimaryContentTreeOwner
 >
 XULWindow
 (
-nsnull
+nullptr
 )
 ;
 NS_RELEASE
@@ -2194,7 +2194,7 @@ mChromeTreeOwner
 >
 XULWindow
 (
-nsnull
+nullptr
 )
 ;
 NS_RELEASE
@@ -2225,7 +2225,7 @@ Destroy
 ;
 mWindow
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -2278,7 +2278,7 @@ obssvc
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 xul
 -
@@ -2286,7 +2286,7 @@ window
 -
 destroyed
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -2365,8 +2365,8 @@ GetPositionAndSize
 (
 aX
 aY
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -2458,8 +2458,8 @@ aCY
 return
 GetPositionAndSize
 (
-nsnull
-nsnull
+nullptr
+nullptr
 aCX
 aCY
 )
@@ -3385,7 +3385,7 @@ obssvc
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 xul
 -
@@ -3393,7 +3393,7 @@ window
 -
 visible
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -6828,7 +6828,7 @@ aDOMElement
 *
 aDOMElement
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -6918,7 +6918,7 @@ nsContentShellInfo
 *
 shellInfo
 =
-nsnull
+nullptr
 ;
 PRUint32
 i
@@ -7005,7 +7005,7 @@ info
 >
 child
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -7084,7 +7084,7 @@ aContentShell
 )
 mPrimaryContentShell
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -7227,7 +7227,7 @@ aContentShell
 {
 mPrimaryContentShell
 =
-nsnull
+nullptr
 ;
 }
 PRInt32
@@ -7618,7 +7618,7 @@ appShell
 CreateTopLevelWindow
 (
 this
-nsnull
+nullptr
 aChromeFlags
 nsIAppShellService
 :
@@ -7760,8 +7760,8 @@ service
 NewURI
 (
 urlStr
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 uri
@@ -7866,7 +7866,7 @@ stack
 >
 Push
 (
-nsnull
+nullptr
 )
 )
 )
@@ -7918,7 +7918,7 @@ NS_ASSERTION
 cx
 =
 =
-nsnull
+nullptr
 "
 JSContextStack
 mismatch

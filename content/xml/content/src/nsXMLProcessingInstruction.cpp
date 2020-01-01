@@ -110,7 +110,7 @@ aData
 *
 aInstancePtrResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -129,7 +129,7 @@ nsGkAtoms
 :
 :
 processingInstructionTagName
-nsnull
+nullptr
 kNameSpaceID_None
 nsIDOMNode
 :

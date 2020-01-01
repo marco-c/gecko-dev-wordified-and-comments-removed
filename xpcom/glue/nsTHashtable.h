@@ -256,7 +256,7 @@ entry
 ?
 entry
 :
-nsnull
+nullptr
 ;
 }
 bool
@@ -499,7 +499,7 @@ PL_DHashTableEnumerate
 &
 mTable
 PL_DHashStubEnumRemove
-nsnull
+nullptr
 )
 ;
 }
@@ -941,7 +941,7 @@ PL_DHashTableInit
 mTable
 &
 sOps
-nsnull
+nullptr
 sizeof
 (
 EntryType

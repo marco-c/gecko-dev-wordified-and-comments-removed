@@ -175,7 +175,7 @@ child
 new
 CompositorChild
 (
-nsnull
+nullptr
 )
 )
 ;
@@ -213,7 +213,7 @@ process
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -252,7 +252,7 @@ channel
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return

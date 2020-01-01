@@ -675,7 +675,7 @@ if
 drawable
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -715,7 +715,7 @@ CairoStatus
 0
 )
 return
-nsnull
+nullptr
 ;
 return
 result
@@ -768,7 +768,7 @@ if
 drawable
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -805,7 +805,7 @@ CairoStatus
 0
 )
 return
-nsnull
+nullptr
 ;
 return
 result
@@ -868,7 +868,7 @@ mSurfaceValid
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -1590,7 +1590,7 @@ sDisplayTable
 ;
 sDisplayTable
 =
-nsnull
+nullptr
 ;
 }
 return

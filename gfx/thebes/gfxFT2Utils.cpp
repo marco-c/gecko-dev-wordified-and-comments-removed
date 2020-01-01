@@ -1827,7 +1827,7 @@ PRLibrary
 *
 lib
 =
-nsnull
+nullptr
 ;
 CharVariantFunction
 function
@@ -1854,7 +1854,7 @@ lib
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 FT_Int
@@ -1913,7 +1913,7 @@ FT_Alloc
 {
 function
 =
-nsnull
+nullptr
 ;
 }
 PR_UnloadLibrary

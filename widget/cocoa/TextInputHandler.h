@@ -136,7 +136,7 @@ TISInputSourceWrapper
 {
 mInputSourceList
 =
-nsnull
+nullptr
 ;
 Clear
 (
@@ -153,7 +153,7 @@ aID
 {
 mInputSourceList
 =
-nsnull
+nullptr
 ;
 InitByInputSourceID
 (
@@ -169,7 +169,7 @@ aLayoutID
 {
 mInputSourceList
 =
-nsnull
+nullptr
 ;
 InitByLayoutID
 (
@@ -185,7 +185,7 @@ aInputSource
 {
 mInputSourceList
 =
-nsnull
+nullptr
 ;
 InitByTISInputSourceRef
 (
@@ -568,7 +568,7 @@ nsAString
 *
 aInsertString
 =
-nsnull
+nullptr
 )
 ;
 PRUint32
@@ -798,7 +798,7 @@ nsAString
 *
 aInsertString
 =
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -911,7 +911,7 @@ KeyEventState
 :
 mKeyEvent
 (
-nsnull
+nullptr
 )
 {
 Clear
@@ -928,7 +928,7 @@ aNativeKeyEvent
 :
 mKeyEvent
 (
-nsnull
+nullptr
 )
 {
 Clear
@@ -951,7 +951,7 @@ aOther
 :
 mKeyEvent
 (
-nsnull
+nullptr
 )
 {
 Clear
@@ -1059,7 +1059,7 @@ release
 ;
 mKeyEvent
 =
-nsnull
+nullptr
 ;
 }
 mKeyDownHandled
@@ -1193,7 +1193,7 @@ KeyEventState
 *
 keyEvent
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1325,7 +1325,7 @@ Length
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

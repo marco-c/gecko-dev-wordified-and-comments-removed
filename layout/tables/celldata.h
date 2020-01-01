@@ -764,7 +764,7 @@ mOrigCell
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 inline
@@ -797,7 +797,7 @@ const
 return
 (
 (
-nsnull
+nullptr
 !
 =
 mOrigCell

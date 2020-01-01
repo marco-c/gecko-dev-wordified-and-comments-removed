@@ -277,7 +277,7 @@ read
 note
 *
 If
-nsnull
+nullptr
 is
 passed
 in
@@ -456,7 +456,7 @@ written
 note
 *
 If
-nsnull
+nullptr
 is
 passed
 in
@@ -659,7 +659,7 @@ or
 homepage_override
 "
 .
-nsnull
+nullptr
 or
 "
 "
@@ -837,7 +837,7 @@ or
 homepage_override
 "
 .
-nsnull
+nullptr
 or
 "
 "

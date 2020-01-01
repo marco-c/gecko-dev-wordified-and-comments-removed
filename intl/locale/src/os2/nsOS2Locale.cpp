@@ -298,7 +298,7 @@ if
 os2Locale
 !
 =
-nsnull
+nullptr
 )
 {
 if

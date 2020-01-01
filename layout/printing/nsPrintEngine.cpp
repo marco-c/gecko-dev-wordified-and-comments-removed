@@ -908,7 +908,7 @@ FILE
 *
 aFD
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -929,7 +929,7 @@ FILE
 *
 aFD
 =
-nsnull
+nullptr
 )
 ;
 #
@@ -1081,7 +1081,7 @@ Disconnect
 {
 mPrintEngine
 =
-nsnull
+nullptr
 ;
 }
 protected
@@ -1140,27 +1140,27 @@ mScreenDPI
 )
 mPrt
 (
-nsnull
+nullptr
 )
 mPagePrintTimer
 (
-nsnull
+nullptr
 )
 mPageSeqFrame
 (
-nsnull
+nullptr
 )
 mPrtPreview
 (
-nsnull
+nullptr
 )
 mOldPrtPreview
 (
-nsnull
+nullptr
 )
 mDebugFile
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1195,7 +1195,7 @@ mPrt
 ;
 mPrt
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -1211,7 +1211,7 @@ mPrtPreview
 ;
 mPrtPreview
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1224,14 +1224,14 @@ mOldPrtPreview
 ;
 mOldPrtPreview
 =
-nsnull
+nullptr
 ;
 }
 #
 endif
 mDocViewerPrint
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -1252,7 +1252,7 @@ mPrt
 ;
 mPrt
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1527,7 +1527,7 @@ else
 {
 aSeqFrame
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1535,7 +1535,7 @@ if
 aSeqFrame
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_FAILURE
@@ -1560,7 +1560,7 @@ while
 pageFrame
 !
 =
-nsnull
+nullptr
 )
 {
 aCount
@@ -1830,7 +1830,7 @@ mPrt
 ;
 mPrt
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1881,7 +1881,7 @@ mProgressDialogIsShown
 pps
 !
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1894,7 +1894,7 @@ mPrtPreview
 ;
 mPrtPreview
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2122,7 +2122,7 @@ if
 aWebProgressListener
 !
 =
-nsnull
+nullptr
 )
 {
 mPrt
@@ -2708,7 +2708,7 @@ devspec
 >
 Init
 (
-nsnull
+nullptr
 mPrt
 -
 >
@@ -3423,7 +3423,7 @@ aIsFramesetFrameSelected
 currentFocusWin
 !
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -3449,7 +3449,7 @@ nsIFrame
 *
 seqFrame
 =
-nsnull
+nullptr
 ;
 *
 aPrintPreviewNumPages
@@ -3519,7 +3519,7 @@ aCount
 *
 aResult
 =
-nsnull
+nullptr
 ;
 PRInt32
 numDocs
@@ -3675,7 +3675,7 @@ docURLStr
 }
 docURLStr
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3892,7 +3892,7 @@ else
 *
 aCurrentPrintSettings
 =
-nsnull
+nullptr
 ;
 }
 NS_IF_ADDREF
@@ -4897,12 +4897,12 @@ null
 *
 aTitle
 =
-nsnull
+nullptr
 ;
 *
 aURLStr
 =
-nsnull
+nullptr
 ;
 nsAutoString
 docTitle
@@ -5470,7 +5470,7 @@ nsPrintObject
 *
 po
 =
-nsnull
+nullptr
 ;
 PRInt32
 cnt
@@ -5890,12 +5890,12 @@ null
 *
 aTitle
 =
-nsnull
+nullptr
 ;
 *
 aURLStr
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5908,13 +5908,13 @@ PRUnichar
 *
 docTitleStrPS
 =
-nsnull
+nullptr
 ;
 PRUnichar
 *
 docURLStrPS
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6185,7 +6185,7 @@ rv
 {
 DonePrintingPages
 (
-nsnull
+nullptr
 rv
 )
 ;
@@ -6658,7 +6658,7 @@ ShowPrintErrorDialog
 wwatch
 =
 =
-nsnull
+nullptr
 \
 n
 "
@@ -6720,7 +6720,7 @@ ShowPrintErrorDialog
 dialog
 =
 =
-nsnull
+nullptr
 \
 n
 "
@@ -7613,7 +7613,7 @@ if
 mPrt
 !
 =
-nsnull
+nullptr
 )
 {
 mPrt
@@ -7628,7 +7628,7 @@ PRUnichar
 *
 fileName
 =
-nsnull
+nullptr
 ;
 bool
 isPrintToFile
@@ -7855,11 +7855,11 @@ docURLStr
 ;
 docTitleStr
 =
-nsnull
+nullptr
 ;
 docURLStr
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -8020,7 +8020,7 @@ GetPrimaryFrame
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -8301,7 +8301,7 @@ nsIView
 *
 parentView
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -8341,7 +8341,7 @@ GetPrimaryFrame
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -10033,7 +10033,7 @@ IsInAnonymousSubtree
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -10050,7 +10050,7 @@ aNode
 NS_ENSURE_TRUE
 (
 node
-nsnull
+nullptr
 )
 ;
 nsTArray
@@ -10068,7 +10068,7 @@ node
 NS_ENSURE_TRUE
 (
 current
-nsnull
+nullptr
 )
 ;
 while
@@ -10113,7 +10113,7 @@ index
 >
 =
 0
-nsnull
+nullptr
 )
 ;
 indexArray
@@ -10140,7 +10140,7 @@ nsINode
 :
 eDOCUMENT
 )
-nsnull
+nullptr
 )
 ;
 current
@@ -10186,7 +10186,7 @@ i
 NS_ENSURE_TRUE
 (
 current
-nsnull
+nullptr
 )
 ;
 }
@@ -10766,7 +10766,7 @@ mPrt
 mPrintSettings
 !
 =
-nsnull
+nullptr
 )
 {
 mPrt
@@ -10795,7 +10795,7 @@ GetPageSequenceFrame
 ;
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 pageSequence
@@ -10816,7 +10816,7 @@ false
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 mPrt
@@ -10930,7 +10930,7 @@ mPrt
 mPrintDocDC
 rootFrame
 docShell
-nsnull
+nullptr
 )
 ;
 if
@@ -10982,13 +10982,13 @@ PRUnichar
 *
 docTitleStr
 =
-nsnull
+nullptr
 ;
 PRUnichar
 *
 docURLStr
 =
-nsnull
+nullptr
 ;
 GetDisplayTitleAndURL
 (
@@ -11663,7 +11663,7 @@ if
 docTitleStr
 !
 =
-nsnull
+nullptr
 )
 nsMemory
 :
@@ -11678,7 +11678,7 @@ if
 docURLStr
 !
 =
-nsnull
+nullptr
 )
 nsMemory
 :
@@ -12412,7 +12412,7 @@ if
 aStartFrame
 =
 =
-nsnull
+nullptr
 )
 {
 aStartFrame
@@ -12770,13 +12770,13 @@ nsIFrame
 *
 startFrame
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
 endFrame
 =
-nsnull
+nullptr
 ;
 nsRect
 r
@@ -12856,7 +12856,7 @@ if
 startFrame
 !
 =
-nsnull
+nullptr
 )
 {
 if
@@ -12864,7 +12864,7 @@ if
 endFrame
 =
 =
-nsnull
+nullptr
 )
 {
 startPageFrame
@@ -12969,7 +12969,7 @@ while
 child
 !
 =
-nsnull
+nullptr
 )
 {
 printf
@@ -13027,7 +13027,7 @@ while
 page
 !
 =
-nsnull
+nullptr
 )
 {
 if
@@ -13410,7 +13410,7 @@ GetFocusManager
 NS_ENSURE_TRUE
 (
 fm
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -13430,7 +13430,7 @@ GetWindow
 NS_ENSURE_TRUE
 (
 window
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -13449,7 +13449,7 @@ GetPrivateRoot
 NS_ENSURE_TRUE
 (
 rootWindow
-nsnull
+nullptr
 )
 ;
 nsPIDOMWindow
@@ -13470,7 +13470,7 @@ focusedWindow
 NS_ENSURE_TRUE
 (
 focusedWindow
-nsnull
+nullptr
 )
 ;
 if
@@ -13491,7 +13491,7 @@ focusedWindow
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -13680,7 +13680,7 @@ if
 aPO
 !
 =
-nsnull
+nullptr
 )
 {
 aPO
@@ -13904,7 +13904,7 @@ aDOMWin
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -14016,7 +14016,7 @@ po
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -14032,7 +14032,7 @@ mPrt
 >
 mSelectedPO
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -14042,7 +14042,7 @@ mPrt
 mPrintSettings
 =
 =
-nsnull
+nullptr
 )
 {
 return
@@ -14486,7 +14486,7 @@ if
 po
 !
 =
-nsnull
+nullptr
 )
 {
 mPrt
@@ -14759,7 +14759,7 @@ if
 po
 !
 =
-nsnull
+nullptr
 )
 {
 mPrt
@@ -14987,7 +14987,7 @@ if
 po
 !
 =
-nsnull
+nullptr
 )
 {
 mPrt
@@ -15153,7 +15153,7 @@ nsPrintObject
 *
 smallestPO
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -15647,8 +15647,8 @@ aWebProgressListener
 >
 OnStateChange
 (
-nsnull
-nsnull
+nullptr
+nullptr
 nsIWebProgressListener
 :
 :
@@ -15737,7 +15737,7 @@ mOldPrtPreview
 ;
 mOldPrtPreview
 =
-nsnull
+nullptr
 ;
 }
 InstallPrintPreviewListener
@@ -15757,7 +15757,7 @@ mPrt
 ;
 mPrt
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -16539,7 +16539,7 @@ while
 child
 !
 =
-nsnull
+nullptr
 )
 {
 for
@@ -16761,7 +16761,7 @@ null
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 aDocShell
@@ -16966,7 +16966,7 @@ FILE
 *
 aFD
 =
-nsnull
+nullptr
 )
 {
 if
@@ -16990,13 +16990,13 @@ if
 aPresContext
 =
 =
-nsnull
+nullptr
 |
 |
 aDC
 =
 =
-nsnull
+nullptr
 )
 {
 return
@@ -17478,7 +17478,7 @@ if
 aFD
 =
 =
-nsnull
+nullptr
 )
 {
 fclose
@@ -17696,7 +17696,7 @@ nsIFrame
 *
 rootFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -17728,7 +17728,7 @@ while
 rootFrame
 !
 =
-nsnull
+nullptr
 )
 {
 nsIPageSequenceFrame
@@ -18210,11 +18210,11 @@ aURLStr
 {
 aDocStr
 =
-nsnull
+nullptr
 ;
 aURLStr
 =
-nsnull
+nullptr
 ;
 PRUnichar
 *
@@ -18378,7 +18378,7 @@ FILE
 *
 fd
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -18559,7 +18559,7 @@ nsIFrame
 *
 rootFrame
 =
-nsnull
+nullptr
 ;
 if
 (

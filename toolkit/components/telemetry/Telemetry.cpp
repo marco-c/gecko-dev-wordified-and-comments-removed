@@ -1703,7 +1703,7 @@ JS_NewArrayObject
 (
 cx
 count
-nsnull
+nullptr
 )
 ;
 if
@@ -2185,9 +2185,9 @@ snapshot
 JS_NewObject
 (
 cx
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -2787,7 +2787,7 @@ JS_NewArrayObject
 (
 cx
 0
-nsnull
+nullptr
 )
 ;
 if
@@ -5104,7 +5104,7 @@ JS_NewArrayObject
 (
 cx
 0
-nsnull
+nullptr
 )
 ;
 if
@@ -5234,7 +5234,7 @@ JS_NewArrayObject
 (
 cx
 0
-nsnull
+nullptr
 )
 ;
 if
@@ -5387,7 +5387,7 @@ JS_NewArrayObject
 (
 cx
 0
-nsnull
+nullptr
 )
 ;
 if
@@ -5490,7 +5490,7 @@ JS_NewArrayObject
 (
 cx
 0
-nsnull
+nullptr
 )
 ;
 if

@@ -22,11 +22,11 @@ aBuffer
 )
 next
 (
-nsnull
+nullptr
 )
 key
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -47,12 +47,12 @@ aKey
 :
 nsHtml5UTF16Buffer
 (
-nsnull
+nullptr
 0
 )
 next
 (
-nsnull
+nullptr
 )
 key
 (
@@ -181,7 +181,7 @@ newBuf
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -211,7 +211,7 @@ delete
 newBuf
 ;
 return
-nsnull
+nullptr
 ;
 }
 return

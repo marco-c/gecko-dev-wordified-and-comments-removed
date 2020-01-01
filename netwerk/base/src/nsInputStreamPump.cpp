@@ -100,7 +100,7 @@ PRLogModuleInfo
 *
 gStreamPumpLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -262,7 +262,7 @@ rv
 *
 result
 =
-nsnull
+nullptr
 ;
 pump
 .
@@ -1251,7 +1251,7 @@ mLoadGroup
 AddRequest
 (
 this
-nsnull
+nullptr
 )
 ;
 mState
@@ -2100,7 +2100,7 @@ mLoadGroup
 RemoveRequest
 (
 this
-nsnull
+nullptr
 mStatus
 )
 ;

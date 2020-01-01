@@ -480,7 +480,7 @@ SHOULD_FAIL
 }
 {
 0
-nsnull
+nullptr
 0
 0
 0

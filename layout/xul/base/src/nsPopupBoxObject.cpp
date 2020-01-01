@@ -165,7 +165,7 @@ frame
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -206,7 +206,7 @@ if
 rootBox
 )
 return
-nsnull
+nullptr
 ;
 return
 rootBox
@@ -930,7 +930,7 @@ aTriggerNode
 *
 aTriggerNode
 =
-nsnull
+nullptr
 ;
 nsIContent
 *
@@ -975,7 +975,7 @@ aAnchor
 *
 aAnchor
 =
-nsnull
+nullptr
 ;
 nsMenuPopupFrame
 *

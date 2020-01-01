@@ -558,7 +558,7 @@ parser
 ParseColorString
 (
 aColor
-nsnull
+nullptr
 0
 value
 )
@@ -584,7 +584,7 @@ ComputeColor
 (
 value
 this
-nsnull
+nullptr
 color
 )
 ?
@@ -625,7 +625,7 @@ instance_data
 ;
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 presContext
@@ -638,7 +638,7 @@ data
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 presContext
@@ -686,7 +686,7 @@ NS_ASSERTION
 presContext
 !
 =
-nsnull
+nullptr
 "
 bad
 instance
@@ -1030,7 +1030,7 @@ document
 ;
 mUserFontSet
 =
-nsnull
+nullptr
 ;
 mUserFontSetDirty
 =
@@ -1068,7 +1068,7 @@ pointer
 ;
 SetShell
 (
-nsnull
+nullptr
 )
 ;
 NS_ABORT_IF_FALSE
@@ -1131,7 +1131,7 @@ mEventManager
 >
 SetPresContext
 (
-nsnull
+nullptr
 )
 ;
 NS_RELEASE
@@ -1154,7 +1154,7 @@ Cancel
 ;
 mPrefChangedTimer
 =
-nsnull
+nullptr
 ;
 }
 Preferences
@@ -1635,7 +1635,7 @@ mEventManager
 >
 SetPresContext
 (
-nsnull
+nullptr
 )
 ;
 NS_RELEASE
@@ -1735,7 +1735,7 @@ tmp
 >
 mPrefChangedTimer
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
@@ -1850,7 +1850,7 @@ nsIAtom
 *
 langGroupAtom
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3846,7 +3846,7 @@ UpdateAfterPreferencesChanged
 {
 mPrefChangedTimer
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -4833,7 +4833,7 @@ Disconnect
 ;
 mTransitionManager
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -4850,7 +4850,7 @@ Disconnect
 ;
 mAnimationManager
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -4909,7 +4909,7 @@ i
 Enumerate
 (
 destroy_loads
-nsnull
+nullptr
 )
 ;
 mImageLoaders
@@ -5221,7 +5221,7 @@ PresContext
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsPresContext
@@ -5240,7 +5240,7 @@ IsChrome
 )
 )
 return
-nsnull
+nullptr
 ;
 nsPresContext
 *
@@ -5348,7 +5348,7 @@ nsRootPresContext
 pc
 )
 :
-nsnull
+nullptr
 ;
 }
 nsRootPresContext
@@ -5483,7 +5483,7 @@ nsRootPresContext
 pc
 )
 :
-nsnull
+nullptr
 ;
 }
 void
@@ -5932,7 +5932,7 @@ if
 mShell
 !
 =
-nsnull
+nullptr
 )
 {
 nsIDocument
@@ -6135,7 +6135,7 @@ default
 :
 font
 =
-nsnull
+nullptr
 ;
 NS_ERROR
 (
@@ -6633,7 +6633,7 @@ SetImageLoaders
 (
 aFrame
 BORDER_IMAGE
-nsnull
+nullptr
 )
 ;
 return
@@ -6661,7 +6661,7 @@ Create
 aFrame
 borderImage
 actions
-nsnull
+nullptr
 )
 ;
 SetImageLoaders
@@ -6705,7 +6705,7 @@ ImageLoadType
 (
 i
 )
-nsnull
+nullptr
 )
 ;
 }
@@ -6758,7 +6758,7 @@ nsISupports
 *
 result
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -8760,7 +8760,7 @@ getter_AddRefs
 event
 )
 this
-nsnull
+nullptr
 NS_AFTERPAINT
 &
 mInvalidateRequests
@@ -8797,10 +8797,10 @@ nsEventDispatcher
 DispatchDOMEvent
 (
 dispatchTarget
-nsnull
+nullptr
 event
 this
-nsnull
+nullptr
 )
 ;
 }
@@ -8856,7 +8856,7 @@ nsEventListenerManager
 *
 manager
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -9335,7 +9335,7 @@ mDocument
 EnumerateSubDocuments
 (
 NotifyDidPaintSubdocumentCallback
-nsnull
+nullptr
 )
 ;
 }
@@ -10079,7 +10079,7 @@ aType
 )
 mUpdatePluginGeometryForFrame
 (
-nsnull
+nullptr
 )
 mDOMGeneration
 (
@@ -11411,7 +11411,7 @@ false
 ;
 mUpdatePluginGeometryForFrame
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -11655,7 +11655,7 @@ false
 ;
 mUpdatePluginGeometryForFrame
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -11709,7 +11709,7 @@ mRegisteredPlugins
 EnumerateEntries
 (
 PluginDidSetGeometryEnumerator
-nsnull
+nullptr
 )
 ;
 }
@@ -11747,7 +11747,7 @@ false
 ;
 mUpdatePluginGeometryForFrame
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -11782,7 +11782,7 @@ false
 ;
 mUpdatePluginGeometryForFrame
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -11931,7 +11931,7 @@ FlushWillPaintObservers
 {
 mWillPaintFallbackEvent
 =
-nsnull
+nullptr
 ;
 nsTArray
 <

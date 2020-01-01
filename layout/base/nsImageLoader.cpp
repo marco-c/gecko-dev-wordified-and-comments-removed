@@ -218,7 +218,7 @@ mNextLoader
 ;
 mNextLoader
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -245,7 +245,7 @@ todestroy
 >
 mNextLoader
 =
-nsnull
+nullptr
 ;
 todestroy
 -
@@ -282,7 +282,7 @@ mRequestRegistered
 }
 mFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -300,7 +300,7 @@ NS_ERROR_FAILURE
 }
 mRequest
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -527,7 +527,7 @@ ACTION_REDRAW_ON_DECODE
 {
 DoRedraw
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -606,7 +606,7 @@ ACTION_REDRAW_ON_LOAD
 {
 DoRedraw
 (
-nsnull
+nullptr
 )
 ;
 }

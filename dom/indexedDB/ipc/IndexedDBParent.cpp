@@ -237,7 +237,7 @@ OpenCommon
 aName
 aVersion
 false
-nsnull
+nullptr
 getter_AddRefs
 (
 request
@@ -328,7 +328,7 @@ OpenCommon
 aName
 0
 true
-nsnull
+nullptr
 getter_AddRefs
 (
 request
@@ -4658,7 +4658,7 @@ mObjectStore
 GetInternal
 (
 keyRange
-nsnull
+nullptr
 getter_AddRefs
 (
 request
@@ -4835,7 +4835,7 @@ aParams
 limit
 (
 )
-nsnull
+nullptr
 getter_AddRefs
 (
 request
@@ -5159,7 +5159,7 @@ mObjectStore
 DeleteInternal
 (
 keyRange
-nsnull
+nullptr
 getter_AddRefs
 (
 request
@@ -5241,7 +5241,7 @@ mObjectStore
 >
 ClearInternal
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 request
@@ -5413,7 +5413,7 @@ mObjectStore
 CountInternal
 (
 keyRange
-nsnull
+nullptr
 getter_AddRefs
 (
 request
@@ -5601,7 +5601,7 @@ OpenCursorInternal
 (
 keyRange
 direction
-nsnull
+nullptr
 getter_AddRefs
 (
 request
@@ -5777,7 +5777,7 @@ mIndex
 GetInternal
 (
 keyRange
-nsnull
+nullptr
 getter_AddRefs
 (
 request
@@ -5888,7 +5888,7 @@ mIndex
 GetKeyInternal
 (
 keyRange
-nsnull
+nullptr
 getter_AddRefs
 (
 request
@@ -6070,7 +6070,7 @@ aParams
 limit
 (
 )
-nsnull
+nullptr
 getter_AddRefs
 (
 request
@@ -6252,7 +6252,7 @@ aParams
 limit
 (
 )
-nsnull
+nullptr
 getter_AddRefs
 (
 request
@@ -6429,7 +6429,7 @@ mIndex
 CountInternal
 (
 keyRange
-nsnull
+nullptr
 getter_AddRefs
 (
 request
@@ -6622,7 +6622,7 @@ OpenCursorInternal
 (
 keyRange
 direction
-nsnull
+nullptr
 getter_AddRefs
 (
 request
@@ -6815,7 +6815,7 @@ OpenKeyCursorInternal
 (
 keyRange
 direction
-nsnull
+nullptr
 getter_AddRefs
 (
 request

@@ -467,7 +467,7 @@ aPos
 {
 \
 return
-nsnull
+nullptr
 ;
 \
 }
@@ -545,7 +545,7 @@ _Expr1
 }
 \
 return
-nsnull
+nullptr
 ;
 \
 }
@@ -654,7 +654,7 @@ break
 }
 \
 return
-nsnull
+nullptr
 ;
 \
 }
@@ -1661,7 +1661,7 @@ new
 NumberResult
 (
 aDbl
-nsnull
+nullptr
 )
 )
 {
@@ -1680,7 +1680,7 @@ new
 StringResult
 (
 aStr
-nsnull
+nullptr
 )
 )
 {

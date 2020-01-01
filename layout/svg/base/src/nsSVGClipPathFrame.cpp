@@ -165,7 +165,7 @@ nsISVGChildFrame
 *
 singleClipPathChild
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -222,7 +222,7 @@ singleClipPathChild
 PaintSVG
 (
 aContext
-nsnull
+nullptr
 )
 ;
 }
@@ -268,7 +268,7 @@ this
 .
 GetClipPathFrame
 (
-nsnull
+nullptr
 )
 ;
 bool
@@ -468,7 +468,7 @@ SVGFrame
 PaintSVG
 (
 aContext
-nsnull
+nullptr
 )
 ;
 if
@@ -715,7 +715,7 @@ this
 .
 GetClipPathFrame
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -829,7 +829,7 @@ this
 .
 GetClipPathFrame
 (
-nsnull
+nullptr
 )
 )
 return
@@ -843,14 +843,14 @@ aSingleChild
 *
 aSingleChild
 =
-nsnull
+nullptr
 ;
 }
 nsISVGChildFrame
 *
 foundChild
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -917,7 +917,7 @@ kid
 .
 GetClipPathFrame
 (
-nsnull
+nullptr
 )
 )
 return

@@ -139,7 +139,7 @@ DEFAULT_REPLACEMENT_CHARACTER
 )
 mLineBuffer
 (
-nsnull
+nullptr
 )
 {
 }

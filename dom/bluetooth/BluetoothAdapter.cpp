@@ -292,7 +292,7 @@ ReleaseMembers
 ;
 mAdapterPtr
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -758,7 +758,7 @@ observer
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return

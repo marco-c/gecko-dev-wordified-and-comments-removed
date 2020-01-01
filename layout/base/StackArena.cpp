@@ -35,7 +35,7 @@ StackBlock
 :
 mNext
 (
-nsnull
+nullptr
 )
 {
 }
@@ -79,7 +79,7 @@ mMarkLength
 ;
 mMarks
 =
-nsnull
+nullptr
 ;
 mBlocks
 =
@@ -424,7 +424,7 @@ mCurBlock
 mNext
 =
 =
-nsnull
+nullptr
 )
 mCurBlock
 -

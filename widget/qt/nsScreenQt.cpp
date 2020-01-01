@@ -110,7 +110,7 @@ ifdef
 MOZ_ENABLE_QMSYSTEM2
 mDisplayState
 (
-nsnull
+nullptr
 )
 #
 endif
@@ -132,7 +132,7 @@ mDisplayState
 ;
 mDisplayState
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -403,7 +403,7 @@ mDisplayState
 ;
 mDisplayState
 =
-nsnull
+nullptr
 ;
 if
 (

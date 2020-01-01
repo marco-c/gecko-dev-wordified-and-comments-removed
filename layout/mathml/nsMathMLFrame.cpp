@@ -176,7 +176,7 @@ nsGkAtoms
 :
 :
 _true
-nsnull
+nullptr
 }
 ;
 switch
@@ -389,7 +389,7 @@ nsGkAtoms
 :
 :
 rtl
-nsnull
+nullptr
 }
 ;
 switch
@@ -457,7 +457,7 @@ mEmbellishData
 .
 coreFrame
 =
-nsnull
+nullptr
 ;
 mEmbellishData
 .
@@ -487,13 +487,13 @@ mPresentationData
 .
 baseFrame
 =
-nsnull
+nullptr
 ;
 mPresentationData
 .
 mstyle
 =
-nsnull
+nullptr
 ;
 nsPresentationData
 parentData
@@ -781,7 +781,7 @@ aEmbellishData
 .
 coreFrame
 =
-nsnull
+nullptr
 ;
 aEmbellishData
 .
@@ -869,13 +869,13 @@ aPresentationData
 .
 baseFrame
 =
-nsnull
+nullptr
 ;
 aPresentationData
 .
 mstyle
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -1157,7 +1157,7 @@ mstyleParentData
 .
 mstyle
 =
-nsnull
+nullptr
 ;
 if
 (

@@ -43,7 +43,7 @@ nsHttpChunkedDecoder
 :
 mTrailers
 (
-nsnull
+nullptr
 )
 mChunkRemaining
 (
@@ -117,7 +117,7 @@ mTrailers
 ;
 mTrailers
 =
-nsnull
+nullptr
 ;
 return
 h

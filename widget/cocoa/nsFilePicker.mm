@@ -3641,7 +3641,7 @@ aFile
 *
 aFile
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -3702,7 +3702,7 @@ aFileURL
 *
 aFileURL
 =
-nsnull
+nullptr
 ;
 if
 (

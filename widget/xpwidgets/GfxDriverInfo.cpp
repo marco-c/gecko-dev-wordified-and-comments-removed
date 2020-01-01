@@ -49,7 +49,7 @@ GfxDriverInfo
 :
 allDevices
 =
-nsnull
+nullptr
 ;
 GfxDeviceFamily
 *
@@ -125,7 +125,7 @@ mDriverVersionMax
 )
 mSuggestedVersion
 (
-nsnull
+nullptr
 )
 {
 }

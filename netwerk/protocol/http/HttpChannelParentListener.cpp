@@ -315,7 +315,7 @@ aStatusCode
 ;
 mActiveChannel
 =
-nsnull
+nullptr
 ;
 return
 rv

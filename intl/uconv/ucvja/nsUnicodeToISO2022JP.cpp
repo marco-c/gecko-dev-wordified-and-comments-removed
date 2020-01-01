@@ -781,7 +781,7 @@ g_ufScanClassIDs
 [
 JIS_X_208_INDEX
 ]
-nsnull
+nullptr
 (
 uMappingTable
 *
@@ -939,7 +939,7 @@ g_ufScanClassIDs
 [
 i
 ]
-nsnull
+nullptr
 (
 uMappingTable
 *
@@ -1101,7 +1101,7 @@ g_ufScanClassIDs
 [
 i
 ]
-nsnull
+nullptr
 (
 uMappingTable
 *

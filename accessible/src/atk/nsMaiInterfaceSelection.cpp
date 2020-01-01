@@ -169,7 +169,7 @@ IsSelect
 )
 )
 return
-nsnull
+nullptr
 ;
 Accessible
 *
@@ -189,7 +189,7 @@ if
 selectedItem
 )
 return
-nsnull
+nullptr
 ;
 AtkObject
 *

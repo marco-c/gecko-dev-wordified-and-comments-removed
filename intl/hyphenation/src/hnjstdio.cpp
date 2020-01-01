@@ -101,7 +101,7 @@ rv
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -130,7 +130,7 @@ rv
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 hnjFile
@@ -226,7 +226,7 @@ f
 >
 mStream
 =
-nsnull
+nullptr
 ;
 delete
 f
@@ -387,7 +387,7 @@ mLimit
 0
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -414,7 +414,7 @@ i
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 s

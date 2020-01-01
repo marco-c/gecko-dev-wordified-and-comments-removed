@@ -144,7 +144,7 @@ nsSMimeVerificationJob
 {
 digest_data
 =
-nsnull
+nullptr
 ;
 digest_len
 =

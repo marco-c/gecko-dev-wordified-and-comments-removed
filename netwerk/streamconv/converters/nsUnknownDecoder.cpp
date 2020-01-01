@@ -144,7 +144,7 @@ nsUnknownDecoder
 :
 mBuffer
 (
-nsnull
+nullptr
 )
 mBufferLen
 (
@@ -219,7 +219,7 @@ mBuffer
 ;
 mBuffer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -732,7 +732,7 @@ aRequest
 ;
 mBuffer
 =
-nsnull
+nullptr
 ;
 mBufferLen
 =
@@ -1109,7 +1109,7 @@ i
 mMimeType
 =
 =
-nsnull
+nullptr
 |
 |
 sSnifferEntries
@@ -1120,7 +1120,7 @@ i
 mContentTypeSniffer
 =
 =
-nsnull
+nullptr
 "
 Both
 a
@@ -2741,7 +2741,7 @@ mBuffer
 ;
 mBuffer
 =
-nsnull
+nullptr
 ;
 mBufferLen
 =

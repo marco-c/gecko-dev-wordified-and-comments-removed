@@ -47,7 +47,7 @@ Caption
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -98,7 +98,7 @@ aColIdx
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual

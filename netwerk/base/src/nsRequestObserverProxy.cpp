@@ -527,7 +527,7 @@ nsIRequestObserver
 *
 obs
 =
-nsnull
+nullptr
 ;
 mObserver
 .

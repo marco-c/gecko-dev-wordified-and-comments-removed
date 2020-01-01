@@ -1035,7 +1035,7 @@ rv
 GetFileLocation
 (
 filenamePref
-nsnull
+nullptr
 mimeFileName
 )
 ;
@@ -2060,7 +2060,7 @@ helpers
 .
 private_mime_types_file
 "
-nsnull
+nullptr
 mimeFileName
 )
 ;
@@ -2123,7 +2123,7 @@ helpers
 .
 global_mime_types_file
 "
-nsnull
+nullptr
 mimeFileName
 )
 ;
@@ -5753,7 +5753,7 @@ IsEmpty
 )
 )
 return
-nsnull
+nullptr
 ;
 LOG
 (
@@ -5901,7 +5901,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 NS_LossyConvertUTF16toASCII
 asciiMajorType
@@ -5983,7 +5983,7 @@ IsEmpty
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCAutoString
@@ -6017,7 +6017,7 @@ if
 mimeInfo
 )
 return
-nsnull
+nullptr
 ;
 NS_ADDREF
 (
@@ -6290,7 +6290,7 @@ IsEmpty
 )
 )
 return
-nsnull
+nullptr
 ;
 LOG
 (
@@ -6374,7 +6374,7 @@ rv
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsDependentSubstring
@@ -6458,7 +6458,7 @@ nsMIMEInfoBase
 *
 gnomeInfo
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6809,7 +6809,7 @@ IsEmpty
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsMIMEInfoUnix
@@ -6828,7 +6828,7 @@ if
 mimeInfo
 )
 return
-nsnull
+nullptr
 ;
 NS_ADDREF
 (

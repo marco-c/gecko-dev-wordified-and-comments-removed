@@ -105,7 +105,7 @@ GetOffsets
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -263,7 +263,7 @@ XPC_QS_NULL_INDEX
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -332,7 +332,7 @@ info
 )
 )
 return
-nsnull
+nullptr
 ;
 const
 nsIID
@@ -578,7 +578,7 @@ JSPROP_GETTER
 else
 getterobj
 =
-nsnull
+nullptr
 ;
 JSObject
 *
@@ -627,7 +627,7 @@ JSPROP_SETTER
 else
 setterobj
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1275,8 +1275,8 @@ id
 attrs
 getter
 setter
-nsnull
-nsnull
+nullptr
+nullptr
 )
 )
 return
@@ -2005,7 +2005,7 @@ nsXPCException
 NameAndFormatForNSResult
 (
 NS_ERROR_XPC_NATIVE_RETURNED_FAILURE
-nsnull
+nullptr
 &
 format
 )
@@ -2063,7 +2063,7 @@ NameAndFormatForNSResult
 rv
 &
 name
-nsnull
+nullptr
 )
 &
 &
@@ -2333,7 +2333,7 @@ nsXPCException
 NameAndFormatForNSResult
 (
 rv
-nsnull
+nullptr
 &
 format
 )
@@ -2989,7 +2989,7 @@ obj
 *
 pThisRef
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -3166,17 +3166,17 @@ obj
 *
 wrapper
 =
-nsnull
+nullptr
 ;
 *
 cur
 =
-nsnull
+nullptr
 ;
 *
 tearoff
 =
-nsnull
+nullptr
 ;
 js
 :
@@ -3454,7 +3454,7 @@ mDOMObjectIsISupports
 *
 pThisRef
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_ILLEGAL_VALUE
@@ -3475,7 +3475,7 @@ cur
 ;
 entries
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -3516,7 +3516,7 @@ toPrivate
 ;
 entries
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -3628,7 +3628,7 @@ NS_OK
 *
 pThisRef
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_XPC_BAD_OP_ON_WN_PROTO
@@ -3761,7 +3761,7 @@ isNullOrUndefined
 *
 ppArgRef
 =
-nsnull
+nullptr
 ;
 *
 rv
@@ -3769,7 +3769,7 @@ rv
 NS_OK
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -3785,7 +3785,7 @@ isObject
 *
 ppArgRef
 =
-nsnull
+nullptr
 ;
 *
 rv
@@ -3815,7 +3815,7 @@ NS_ERROR_XPC_BAD_CONVERT_JS
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 *
@@ -3881,7 +3881,7 @@ src
 *
 ppArg
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -3941,7 +3941,7 @@ iid
 ppArg
 ppArgRef
 vp
-nsnull
+nullptr
 )
 )
 )
@@ -3970,7 +3970,7 @@ JSTYPE_XML
 *
 ppArgRef
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_XPC_BAD_CONVERT_JS
@@ -4015,7 +4015,7 @@ ppArg
 *
 ppArgRef
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_XPC_BAD_CONVERT_JS
@@ -4058,7 +4058,7 @@ IsValid
 *
 ppArgRef
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_XPC_BAD_CONVERT_JS
@@ -4080,7 +4080,7 @@ GetNewOrUsed
 ccx
 src
 iid
-nsnull
+nullptr
 getter_AddRefs
 (
 wrappedJS
@@ -4102,7 +4102,7 @@ wrappedJS
 *
 ppArgRef
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -4519,7 +4519,7 @@ IsVoid
 *
 rval
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -4635,7 +4635,7 @@ NativeInterface2JSObject
 (
 lccx
 rval
-nsnull
+nullptr
 aHelper
 iid
 iface

@@ -134,7 +134,7 @@ char
 *
 buffer
 =
-nsnull
+nullptr
 ;
 if
 (

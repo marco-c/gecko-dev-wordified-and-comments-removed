@@ -192,7 +192,7 @@ aDocument
 )
 mUpdaters
 (
-nsnull
+nullptr
 )
 {
 #
@@ -352,7 +352,7 @@ doomed
 }
 mDocument
 =
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -404,7 +404,7 @@ GetTopWindowRoot
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -423,7 +423,7 @@ aWindow
 *
 aWindow
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -481,7 +481,7 @@ aWindow
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -499,7 +499,7 @@ aElement
 *
 aElement
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -573,7 +573,7 @@ aWindow
 *
 aWindow
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -810,7 +810,7 @@ AdvanceFocus
 return
 AdvanceFocusIntoSubtree
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -864,7 +864,7 @@ fm
 MoveFocus
 (
 win
-nsnull
+nullptr
 nsIFocusManager
 :
 :
@@ -973,7 +973,7 @@ NS_PRECONDITION
 aElement
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1312,7 +1312,7 @@ NS_PRECONDITION
 aElement
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1569,7 +1569,7 @@ mUpdaters
 updater
 !
 =
-nsnull
+nullptr
 ;
 updater
 =
@@ -1626,7 +1626,7 @@ NS_ASSERTION
 content
 !
 =
-nsnull
+nullptr
 "
 not
 an
@@ -1697,7 +1697,7 @@ NS_ASSERTION
 document
 !
 =
-nsnull
+nullptr
 "
 element
 has
@@ -1818,7 +1818,7 @@ content
 context
 &
 event
-nsnull
+nullptr
 &
 status
 )

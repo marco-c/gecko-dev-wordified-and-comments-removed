@@ -53,7 +53,7 @@ PRLogModuleInfo
 *
 gTestLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -257,9 +257,9 @@ rv
 =
 NS_InitXPCOM2
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -392,7 +392,7 @@ chan
 AsyncOpen
 (
 loader
-nsnull
+nullptr
 )
 ;
 if
@@ -413,7 +413,7 @@ PumpEvents
 }
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 return

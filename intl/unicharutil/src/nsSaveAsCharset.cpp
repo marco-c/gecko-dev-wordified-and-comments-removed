@@ -205,7 +205,7 @@ _retval
 {
 if
 (
-nsnull
+nullptr
 =
 =
 _retval
@@ -215,7 +215,7 @@ NS_ERROR_NULL_POINTER
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 inString
@@ -265,7 +265,7 @@ NS_ERROR_FAILURE
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -385,7 +385,7 @@ PRUnichar
 *
 entity
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -520,7 +520,7 @@ charset
 *
 aCharset
 =
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -592,7 +592,7 @@ estimatedLength
 if
 (
 (
-nsnull
+nullptr
 =
 =
 outString
@@ -600,7 +600,7 @@ outString
 |
 |
 (
-nsnull
+nullptr
 =
 =
 bufferLength
@@ -608,7 +608,7 @@ bufferLength
 |
 |
 (
-nsnull
+nullptr
 =
 =
 currentPos
@@ -767,7 +767,7 @@ outString
 {
 if
 (
-nsnull
+nullptr
 =
 =
 outString
@@ -1266,7 +1266,7 @@ input
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 outString
@@ -1751,7 +1751,7 @@ Length
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 mCharsetList

@@ -411,7 +411,7 @@ NS_CStringGetData
 aMimeType
 &
 chars
-nsnull
+nullptr
 )
 ;
 for
@@ -531,7 +531,7 @@ NS_CStringGetData
 aMimeType
 &
 chars
-nsnull
+nullptr
 )
 ;
 Decoder
@@ -550,7 +550,7 @@ decoder
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 decoder
@@ -635,7 +635,7 @@ decoder
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -665,7 +665,7 @@ nsMediaPluginHost
 *
 sMediaPluginHost
 =
-nsnull
+nullptr
 ;
 nsMediaPluginHost
 *
@@ -709,7 +709,7 @@ sMediaPluginHost
 ;
 sMediaPluginHost
 =
-nsnull
+nullptr
 ;
 }
 }

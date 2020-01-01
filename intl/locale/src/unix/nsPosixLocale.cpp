@@ -315,7 +315,7 @@ if
 posixLocale
 !
 =
-nsnull
+nullptr
 )
 {
 if

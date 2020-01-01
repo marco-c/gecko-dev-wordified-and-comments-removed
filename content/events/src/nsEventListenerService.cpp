@@ -283,7 +283,7 @@ JSObject
 *
 object
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -551,7 +551,7 @@ aRetVal
 *
 aRetVal
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -770,7 +770,7 @@ aCount
 *
 aOutArray
 =
-nsnull
+nullptr
 ;
 nsCOMArray
 <
@@ -927,7 +927,7 @@ aCount
 *
 aOutArray
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_ARG
 (
@@ -956,12 +956,12 @@ nsEventDispatcher
 Dispatch
 (
 aEventTarget
-nsnull
+nullptr
 &
 event
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 &
 targets
 )

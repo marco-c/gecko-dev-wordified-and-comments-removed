@@ -83,7 +83,7 @@ stringValuePointer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 bool

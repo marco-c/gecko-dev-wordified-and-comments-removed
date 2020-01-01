@@ -2384,7 +2384,7 @@ w
 )
 pluginEvent
 (
-nsnull
+nullptr
 )
 {
 }
@@ -2394,7 +2394,7 @@ nsGUIEvent
 :
 pluginEvent
 (
-nsnull
+nullptr
 )
 {
 }
@@ -2423,7 +2423,7 @@ w
 )
 pluginEvent
 (
-nsnull
+nullptr
 )
 {
 }
@@ -2467,11 +2467,11 @@ lineNr
 )
 errorMsg
 (
-nsnull
+nullptr
 )
 fileName
 (
-nsnull
+nullptr
 )
 {
 }
@@ -2518,7 +2518,7 @@ NS_SIZE_EVENT
 )
 windowSize
 (
-nsnull
+nullptr
 )
 mWinWidth
 (
@@ -2611,11 +2611,11 @@ nsWindowZTop
 )
 mReqBelow
 (
-nsnull
+nullptr
 )
 mActualBelow
 (
-nsnull
+nullptr
 )
 mImmediate
 (
@@ -3797,7 +3797,7 @@ NS_ACCESSIBLE_EVENT
 )
 mAccessible
 (
-nsnull
+nullptr
 )
 {
 }
@@ -4410,7 +4410,7 @@ rangeCount
 )
 rangeArray
 (
-nsnull
+nullptr
 )
 isChar
 (
@@ -4728,13 +4728,13 @@ mReply
 .
 mContentsRoot
 =
-nsnull
+nullptr
 ;
 mReply
 .
 mFocusedWidget
 =
-nsnull
+nullptr
 ;
 }
 public
@@ -5501,7 +5501,7 @@ NS_FORM_EVENT
 )
 originator
 (
-nsnull
+nullptr
 )
 {
 }

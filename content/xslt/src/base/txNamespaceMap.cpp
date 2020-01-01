@@ -79,7 +79,7 @@ nsGkAtoms
 :
 _empty
 ?
-nsnull
+nullptr
 :
 aPrefix
 ;
@@ -227,7 +227,7 @@ nsId
 )
 =
 =
-nsnull
+nullptr
 )
 {
 mPrefixes
@@ -379,7 +379,7 @@ prefix
 return
 lookupNamespace
 (
-nsnull
+nullptr
 )
 ;
 }

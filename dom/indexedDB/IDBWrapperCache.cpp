@@ -47,7 +47,7 @@ tmp
 >
 mScriptOwner
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
@@ -183,7 +183,7 @@ failed
 ;
 mScriptOwner
 =
-nsnull
+nullptr
 ;
 return
 false

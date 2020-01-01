@@ -1361,7 +1361,7 @@ nsIFile
 *
 file
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -1390,7 +1390,7 @@ _MAX_PATH
 )
 )
 return
-nsnull
+nullptr
 ;
 rv
 =
@@ -1413,7 +1413,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 file
@@ -1441,7 +1441,7 @@ arg
 arg
 )
 return
-nsnull
+nullptr
 ;
 rv
 =
@@ -1464,7 +1464,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 file
@@ -1806,7 +1806,7 @@ char
 *
 aParam
 =
-nsnull
+nullptr
 bool
 aRemArg
 =
@@ -3158,7 +3158,7 @@ PRFileDesc
 *
 fd
 =
-nsnull
+nullptr
 ;
 file
 -
@@ -4183,7 +4183,7 @@ ScopedXPCOMStartup
 :
 mServiceManager
 (
-nsnull
+nullptr
 )
 {
 }
@@ -4303,7 +4303,7 @@ mServiceManager
 ;
 mServiceManager
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4601,7 +4601,7 @@ xpcom
 ;
 mServiceManager
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -5562,7 +5562,7 @@ char
 *
 temp
 =
-nsnull
+nullptr
 ;
 ar
 =
@@ -5855,7 +5855,7 @@ char
 *
 temp
 =
-nsnull
+nullptr
 ;
 ar
 =
@@ -5998,7 +5998,7 @@ get
 (
 )
 username
-nsnull
+nullptr
 gArgc
 gArgv
 aDesktopStartupID
@@ -6586,7 +6586,7 @@ gRestartArgv
 gRestartArgc
 ]
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -6863,8 +6863,8 @@ get
 (
 )
 gRestartArgv
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -7553,14 +7553,14 @@ ps
 >
 ConfirmEx
 (
-nsnull
+nullptr
 killTitle
 killMessage
 flags
 killTitle
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 &
 checkState
 &
@@ -7609,7 +7609,7 @@ NS_LockProfilePath
 (
 aProfileDir
 aProfileLocalDir
-nsnull
+nullptr
 aResult
 )
 ;
@@ -7624,7 +7624,7 @@ ps
 >
 Alert
 (
-nsnull
+nullptr
 killTitle
 killMessage
 )
@@ -7891,7 +7891,7 @@ ps
 >
 Alert
 (
-nsnull
+nullptr
 missingTitle
 missingMessage
 )
@@ -8215,7 +8215,7 @@ windowWatcher
 >
 OpenWindow
 (
-nsnull
+nullptr
 kProfileManagerURL
 "
 _blank
@@ -8745,7 +8745,7 @@ arg
 *
 aResult
 =
-nsnull
+nullptr
 ;
 *
 aStartOffline
@@ -9248,7 +9248,7 @@ NS_LockProfilePath
 (
 lf
 localDir
-nsnull
+nullptr
 aResult
 )
 ;
@@ -9578,8 +9578,8 @@ aProfileSvc
 >
 CreateProfile
 (
-nsnull
-nsnull
+nullptr
+nullptr
 nsDependentCString
 (
 arg
@@ -9940,7 +9940,7 @@ profile
 >
 Lock
 (
-nsnull
+nullptr
 aResult
 )
 ;
@@ -10078,8 +10078,8 @@ aProfileSvc
 >
 CreateProfile
 (
-nsnull
-nsnull
+nullptr
+nullptr
 NS_LITERAL_CSTRING
 (
 "
@@ -10114,7 +10114,7 @@ profile
 >
 Lock
 (
-nsnull
+nullptr
 aResult
 )
 ;
@@ -10894,7 +10894,7 @@ PRFileDesc
 *
 fd
 =
-nsnull
+nullptr
 ;
 file
 -
@@ -11343,7 +11343,7 @@ gSavedVars
 "
 XUL_APP_FILE
 "
-nsnull
+nullptr
 }
 }
 ;
@@ -11580,7 +11580,7 @@ nsXREAppData
 *
 gAppData
 =
-nsnull
+nullptr
 ;
 #
 if
@@ -11673,7 +11673,7 @@ PRLibrary
 *
 lib
 =
-nsnull
+nullptr
 ;
 PRFuncPtr
 result
@@ -12278,11 +12278,11 @@ XREMain
 :
 mScopedXPCom
 (
-nsnull
+nullptr
 )
 mAppData
 (
-nsnull
+nullptr
 )
 mStartOffline
 (
@@ -12309,7 +12309,7 @@ MOZ_WIDGET_GTK
 )
 mGdkDisplay
 (
-nsnull
+nullptr
 )
 #
 endif
@@ -12846,7 +12846,7 @@ char
 *
 override
 =
-nsnull
+nullptr
 ;
 ar
 =
@@ -13948,7 +13948,7 @@ gRestartArgv
 gRestartArgc
 ]
 =
-nsnull
+nullptr
 ;
 #
 if
@@ -14736,7 +14736,7 @@ gQtOnlyArgv
 gQtOnlyArgc
 ]
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -14966,7 +14966,7 @@ IsEmpty
 (
 )
 ?
-nsnull
+nullptr
 :
 mDesktopStartupID
 .
@@ -15366,7 +15366,7 @@ char
 *
 logFile
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -16271,7 +16271,7 @@ prefs
 >
 GetDefaultBranch
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 defaultPrefBranch
@@ -16423,9 +16423,9 @@ startupNotifier
 >
 Observe
 (
-nsnull
+nullptr
 APPSTARTUP_TOPIC
-nsnull
+nullptr
 )
 ;
 }
@@ -16917,7 +16917,7 @@ line
 -
 startup
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -17186,7 +17186,7 @@ obsService
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 final
 -
@@ -17194,7 +17194,7 @@ ui
 -
 startup
 "
-nsnull
+nullptr
 )
 ;
 NS_TIME_FUNCTION_MARK
@@ -17716,7 +17716,7 @@ mScopedXPCom
 ;
 mScopedXPCom
 =
-nsnull
+nullptr
 ;
 mProfileLock
 -
@@ -17727,7 +17727,7 @@ Unlock
 ;
 gProfileLock
 =
-nsnull
+nullptr
 ;
 #
 if
@@ -18129,7 +18129,7 @@ char
 *
 path
 =
-nsnull
+nullptr
 ;
 ArgResult
 ar

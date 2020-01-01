@@ -1567,7 +1567,7 @@ endswith
         
 return
 "
-nsnull
+nullptr
 "
     
 if

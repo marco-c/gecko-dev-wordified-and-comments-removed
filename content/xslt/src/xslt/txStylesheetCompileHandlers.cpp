@@ -358,7 +358,7 @@ attr
 >
 mLocalName
 =
-nsnull
+nullptr
 ;
 *
 aAttr
@@ -373,7 +373,7 @@ NS_OK
 *
 aAttr
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -408,7 +408,7 @@ txStylesheetAttr
 *
 attr
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -544,7 +544,7 @@ txStylesheetAttr
 *
 attr
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -609,7 +609,7 @@ txStylesheetAttr
 *
 attr
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -715,13 +715,13 @@ aExpr
 {
 aExpr
 =
-nsnull
+nullptr
 ;
 txStylesheetAttr
 *
 attr
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -813,7 +813,7 @@ else
 {
 aExpr
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -851,13 +851,13 @@ aAVT
 {
 aAVT
 =
-nsnull
+nullptr
 ;
 txStylesheetAttr
 *
 attr
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -949,7 +949,7 @@ else
 {
 aAVT
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -987,13 +987,13 @@ aPattern
 {
 aPattern
 =
-nsnull
+nullptr
 ;
 txStylesheetAttr
 *
 attr
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1093,7 +1093,7 @@ txStylesheetAttr
 *
 attr
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1187,13 +1187,13 @@ aAtom
 *
 aAtom
 =
-nsnull
+nullptr
 ;
 txStylesheetAttr
 *
 attr
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1380,7 +1380,7 @@ txStylesheetAttr
 *
 attr
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1531,7 +1531,7 @@ i
 .
 mLocalName
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2581,7 +2581,7 @@ txStylesheetAttr
 *
 attr
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -2938,7 +2938,7 @@ txStylesheetAttr
 *
 attr
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -3056,7 +3056,7 @@ txStylesheetAttr
 *
 attr
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -3324,7 +3324,7 @@ txStylesheetAttr
 *
 attr
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -3570,7 +3570,7 @@ txStylesheetAttr
 *
 attr
 =
-nsnull
+nullptr
 ;
 getStyleAttr
 (
@@ -3995,7 +3995,7 @@ txStylesheetAttr
 *
 attr
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -5120,7 +5120,7 @@ txStylesheetAttr
 *
 attr
 =
-nsnull
+nullptr
 ;
 PRInt32
 i
@@ -5176,7 +5176,7 @@ attr
 >
 mLocalName
 =
-nsnull
+nullptr
 ;
 }
 continue
@@ -7554,7 +7554,7 @@ new
 txConditionalGoto
 (
 test
-nsnull
+nullptr
 )
 )
 ;
@@ -9959,7 +9959,7 @@ new
 txConditionalGoto
 (
 test
-nsnull
+nullptr
 )
 )
 ;
@@ -10048,7 +10048,7 @@ gotoinstr
 new
 txGoTo
 (
-nsnull
+nullptr
 )
 )
 ;
@@ -11690,7 +11690,7 @@ _name
 #
 Handler
 =
-nsnull
+nullptr
 bool
 txHandlerTable
 :

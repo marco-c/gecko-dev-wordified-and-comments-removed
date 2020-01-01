@@ -815,7 +815,7 @@ _retval
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 _retval
@@ -966,7 +966,7 @@ value
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 *
@@ -1028,7 +1028,7 @@ _retval
 if
 (
 (
-nsnull
+nullptr
 =
 =
 inString
@@ -1036,7 +1036,7 @@ inString
 |
 |
 (
-nsnull
+nullptr
 =
 =
 _retval

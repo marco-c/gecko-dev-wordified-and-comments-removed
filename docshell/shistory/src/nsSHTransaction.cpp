@@ -18,7 +18,7 @@ true
 )
 mPrev
 (
-nsnull
+nullptr
 )
 {
 }

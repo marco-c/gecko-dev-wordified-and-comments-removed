@@ -238,7 +238,7 @@ nsMediaCacheFlusher
 {
 gMediaCacheFlusher
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -433,7 +433,7 @@ Close
 ;
 mFileCache
 =
-nsnull
+nullptr
 ;
 }
 MOZ_COUNT_DTOR
@@ -709,7 +709,7 @@ stream
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 private
@@ -788,7 +788,7 @@ BlockOwner
 :
 mStream
 (
-nsnull
+nullptr
 )
 mClass
 (
@@ -2204,7 +2204,7 @@ PRFileDesc
 *
 fileDesc
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -2397,7 +2397,7 @@ Close
 ;
 mFileCache
 =
-nsnull
+nullptr
 ;
 }
 Init
@@ -2453,7 +2453,7 @@ gMediaCache
 ;
 gMediaCache
 =
-nsnull
+nullptr
 ;
 NS_IF_RELEASE
 (
@@ -2510,7 +2510,7 @@ gMediaCache
 ;
 gMediaCache
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -3502,7 +3502,7 @@ class
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -3583,7 +3583,7 @@ i
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -5076,7 +5076,7 @@ reusableBlock
 FindReusableBlock
 (
 now
-nsnull
+nullptr
 0
 maxBlocks
 )
@@ -8015,7 +8015,7 @@ char
 *
 blockDataToStore
 =
-nsnull
+nullptr
 ;
 ReadMode
 mode
@@ -8653,7 +8653,7 @@ aActiveStream
 *
 aActiveStream
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -9744,7 +9744,7 @@ nsMediaCacheStream
 *
 streamWithPartialBlock
 =
-nsnull
+nullptr
 ;
 nsMediaCache
 :

@@ -616,7 +616,7 @@ void
 *
 userArg
 =
-nsnull
+nullptr
 )
 {
 return
@@ -647,7 +647,7 @@ void
 *
 userArg
 =
-nsnull
+nullptr
 )
 const
 {
@@ -872,7 +872,7 @@ nsBaseHashtableMT
 :
 mLock
 (
-nsnull
+nullptr
 )
 {
 }
@@ -900,7 +900,7 @@ return
 mLock
 !
 =
-nsnull
+nullptr
 ;
 }
 PRUint32

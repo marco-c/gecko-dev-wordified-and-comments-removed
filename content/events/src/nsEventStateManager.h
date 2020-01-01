@@ -870,12 +870,12 @@ nsQueryContentEvent
 *
 aQueryEvent
 =
-nsnull
+nullptr
 nsIAtom
 *
 aOrigin
 =
-nsnull
+nullptr
 )
 ;
 void
@@ -1053,7 +1053,7 @@ return
 mGestureDownContent
 !
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -1527,7 +1527,7 @@ nsIPresShell
 :
 SetCapturingContent
 (
-nsnull
+nullptr
 0
 )
 ;
@@ -1639,7 +1639,7 @@ fm
 >
 SetMouseButtonDownHandlingDocument
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1671,7 +1671,7 @@ size_t
 CPP_THROW_NEW
 {
 return
-nsnull
+nullptr
 ;
 }
 static

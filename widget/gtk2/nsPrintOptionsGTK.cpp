@@ -44,7 +44,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsPrintSettingsGTK
 *

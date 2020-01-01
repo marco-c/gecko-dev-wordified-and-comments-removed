@@ -399,7 +399,7 @@ nsIContentSink
 *
 aSink
 =
-nsnull
+nullptr
 )
 ;
 virtual
@@ -791,7 +791,7 @@ GetFrameElementInternal
 (
 )
 mimeType
-nsnull
+nullptr
 &
 decision
 nsContentUtils
@@ -1231,7 +1231,7 @@ this
 }
 mImageContent
 =
-nsnull
+nullptr
 ;
 }
 MediaDocument
@@ -1639,7 +1639,7 @@ aImageRequest
 *
 aImageRequest
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2567,7 +2567,7 @@ nsGkAtoms
 :
 :
 style
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :
@@ -2672,7 +2672,7 @@ nsGkAtoms
 :
 :
 img
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :

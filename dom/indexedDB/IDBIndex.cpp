@@ -194,7 +194,7 @@ aIndex
 )
 mActor
 (
-nsnull
+nullptr
 )
 {
 NS_ASSERTION
@@ -1478,11 +1478,11 @@ JSVAL_VOID
 )
 mActorChild
 (
-nsnull
+nullptr
 )
 mActorParent
 (
-nsnull
+nullptr
 )
 mUnique
 (
@@ -4173,7 +4173,7 @@ ReleaseMainThreadObjects
 {
 mIndex
 =
-nsnull
+nullptr
 ;
 AsyncConnectionHelper
 :
@@ -4578,7 +4578,7 @@ ReleaseMainThreadObjects
 {
 mKeyRange
 =
-nsnull
+nullptr
 ;
 IndexHelper
 :
@@ -8183,11 +8183,11 @@ ReleaseMainThreadObjects
 {
 mKeyRange
 =
-nsnull
+nullptr
 ;
 mCursor
 =
-nsnull
+nullptr
 ;
 IndexHelper
 :
@@ -9832,7 +9832,7 @@ mSerializedCloneReadInfo
 .
 data
 =
-nsnull
+nullptr
 ;
 mSerializedCloneReadInfo
 .
@@ -10684,7 +10684,7 @@ ReleaseMainThreadObjects
 {
 mKeyRange
 =
-nsnull
+nullptr
 ;
 IndexHelper
 :

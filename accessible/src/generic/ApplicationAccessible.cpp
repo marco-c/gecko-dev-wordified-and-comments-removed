@@ -100,8 +100,8 @@ ApplicationAccessible
 :
 AccessibleWrap
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 {
 mFlags
@@ -136,7 +136,7 @@ aAccessible
 *
 aAccessible
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -162,7 +162,7 @@ aNextSibling
 *
 aNextSibling
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -188,7 +188,7 @@ aPreviousSibling
 *
 aPreviousSibling
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -446,7 +446,7 @@ aAttributes
 *
 aAttributes
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -482,7 +482,7 @@ aWhichChild
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 Accessible
@@ -526,7 +526,7 @@ return
 focus
 ;
 return
-nsnull
+nullptr
 ;
 }
 Relation
@@ -949,7 +949,7 @@ Shutdown
 {
 mAppInfo
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -1062,7 +1062,7 @@ windowMediator
 >
 GetEnumerator
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 windowEnumerator
@@ -1212,7 +1212,7 @@ aError
 NS_OK
 ;
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -1235,7 +1235,7 @@ aDOMNode
 *
 aDOMNode
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1261,7 +1261,7 @@ aDocument
 *
 aDocument
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1287,7 +1287,7 @@ aRootDocument
 *
 aRootDocument
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

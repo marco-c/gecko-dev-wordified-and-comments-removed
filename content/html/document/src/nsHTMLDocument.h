@@ -268,7 +268,7 @@ nsIContentSink
 *
 aSink
 =
-nsnull
+nullptr
 )
 ;
 virtual
@@ -398,7 +398,7 @@ NS_GetFuncStringContentList
 (
 this
 MatchNameAttribute
-nsnull
+nullptr
 UseExistingNameString
 aName
 )

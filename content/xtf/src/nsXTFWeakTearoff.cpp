@@ -192,7 +192,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -328,7 +328,7 @@ NS_OK
 *
 aInstancePtr
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NO_INTERFACE
@@ -388,7 +388,7 @@ paramCount
 {
 fullPars
 =
-nsnull
+nullptr
 ;
 }
 else

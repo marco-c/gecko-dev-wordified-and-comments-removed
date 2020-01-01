@@ -736,7 +736,7 @@ haveTable
 &
 buffer
 :
-nsnull
+nullptr
 )
 ;
 }

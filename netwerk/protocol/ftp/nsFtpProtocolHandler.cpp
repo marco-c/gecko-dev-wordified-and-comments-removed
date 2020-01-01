@@ -153,7 +153,7 @@ PRLogModuleInfo
 *
 gFTPLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -221,7 +221,7 @@ nsFtpProtocolHandler
 *
 gFtpHandler
 =
-nsnull
+nullptr
 ;
 nsFtpProtocolHandler
 :
@@ -340,7 +340,7 @@ called
 ;
 gFtpHandler
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_THREADSAFE_ISUPPORTS4
@@ -877,7 +877,7 @@ return
 NewProxiedChannel
 (
 url
-nsnull
+nullptr
 result
 )
 ;
@@ -1118,7 +1118,7 @@ pointer
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsCAutoString
 spec
@@ -1157,7 +1157,7 @@ timerStruct
 *
 ts
 =
-nsnull
+nullptr
 ;
 PRUint32
 i
@@ -1248,7 +1248,7 @@ ts
 >
 conn
 =
-nsnull
+nullptr
 ;
 delete
 ts

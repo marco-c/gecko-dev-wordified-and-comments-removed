@@ -457,7 +457,7 @@ aWrapper
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -498,7 +498,7 @@ obj
 ?
 obj
 :
-nsnull
+nullptr
 ;
 }
 inline
@@ -1478,7 +1478,7 @@ aBody
 return
 Send
 (
-nsnull
+nullptr
 aBody
 )
 ;
@@ -2813,7 +2813,7 @@ ChangeStateToDone
 }
 mXHR
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

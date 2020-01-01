@@ -1761,7 +1761,7 @@ ps
 ;
 mTopLeftHandle
 =
-nsnull
+nullptr
 ;
 RemoveListenerAndDeleteRef
 (
@@ -1775,7 +1775,7 @@ ps
 ;
 mTopHandle
 =
-nsnull
+nullptr
 ;
 RemoveListenerAndDeleteRef
 (
@@ -1789,7 +1789,7 @@ ps
 ;
 mTopRightHandle
 =
-nsnull
+nullptr
 ;
 RemoveListenerAndDeleteRef
 (
@@ -1803,7 +1803,7 @@ ps
 ;
 mLeftHandle
 =
-nsnull
+nullptr
 ;
 RemoveListenerAndDeleteRef
 (
@@ -1817,7 +1817,7 @@ ps
 ;
 mRightHandle
 =
-nsnull
+nullptr
 ;
 RemoveListenerAndDeleteRef
 (
@@ -1831,7 +1831,7 @@ ps
 ;
 mBottomLeftHandle
 =
-nsnull
+nullptr
 ;
 RemoveListenerAndDeleteRef
 (
@@ -1845,7 +1845,7 @@ ps
 ;
 mBottomHandle
 =
-nsnull
+nullptr
 ;
 RemoveListenerAndDeleteRef
 (
@@ -1859,7 +1859,7 @@ ps
 ;
 mBottomRightHandle
 =
-nsnull
+nullptr
 ;
 RemoveListenerAndDeleteRef
 (
@@ -1873,7 +1873,7 @@ ps
 ;
 mResizingShadow
 =
-nsnull
+nullptr
 ;
 RemoveListenerAndDeleteRef
 (
@@ -1887,7 +1887,7 @@ ps
 ;
 mResizingInfo
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1909,7 +1909,7 @@ _moz_activated
 ;
 mActivatedHandle
 =
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -1966,7 +1966,7 @@ listener
 }
 mMouseMotionListenerP
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2051,7 +2051,7 @@ listener
 }
 mResizeEventListenerP
 =
-nsnull
+nullptr
 ;
 mResizedObject
 -
@@ -2068,7 +2068,7 @@ _moz_resizing
 ;
 mResizedObject
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -3081,11 +3081,11 @@ res
 ;
 textInfo
 =
-nsnull
+nullptr
 ;
 junk
 =
-nsnull
+nullptr
 ;
 }
 nsAutoString
@@ -4027,7 +4027,7 @@ false
 ;
 StartMoving
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -4161,7 +4161,7 @@ _moz_activated
 ;
 mActivatedHandle
 =
-nsnull
+nullptr
 ;
 }
 PRInt32

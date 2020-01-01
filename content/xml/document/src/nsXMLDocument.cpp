@@ -383,7 +383,7 @@ rv
 *
 aInstancePtrResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1161,12 +1161,12 @@ NS_LITERAL_STRING
 bindings
 "
 )
-nsnull
+nullptr
 aDocumentURI
 aBaseURI
 aPrincipal
 false
-nsnull
+nullptr
 DocumentFlavorLegacyGuess
 )
 ;
@@ -1388,7 +1388,7 @@ NS_BINDING_ABORTED
 ;
 mChannelIsPending
 =
-nsnull
+nullptr
 ;
 }
 nsDocument
@@ -1702,7 +1702,7 @@ application
 xml
 "
 )
-nsnull
+nullptr
 &
 shouldLoad
 nsContentUtils
@@ -1850,7 +1850,7 @@ spec
 get
 (
 )
-nsnull
+nullptr
 0
 0
 nsIScriptError
@@ -1924,7 +1924,7 @@ mListenerManager
 ;
 mListenerManager
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1992,7 +1992,7 @@ getter_AddRefs
 channel
 )
 uri
-nsnull
+nullptr
 loadGroup
 req
 nsIRequest
@@ -2055,7 +2055,7 @@ StartDocumentLoad
 kLoadAsData
 channel
 loadGroup
-nsnull
+nullptr
 getter_AddRefs
 (
 listener
@@ -2095,7 +2095,7 @@ channel
 AsyncOpen
 (
 listener
-nsnull
+nullptr
 )
 ;
 if
@@ -2369,7 +2369,7 @@ TryChannelCharset
 aChannel
 charsetSource
 charset
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -2560,7 +2560,7 @@ mParser
 Parse
 (
 aUrl
-nsnull
+nullptr
 (
 void
 *
@@ -2644,7 +2644,7 @@ nsIDocument
 (
 this
 )
-nsnull
+nullptr
 &
 event
 )

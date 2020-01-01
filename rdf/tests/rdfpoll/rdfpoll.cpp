@@ -361,7 +361,7 @@ aTarget
 )
 !
 =
-nsnull
+nullptr
 )
 {
 nsCString
@@ -423,7 +423,7 @@ aTarget
 )
 !
 =
-nsnull
+nullptr
 )
 {
 nsString
@@ -490,7 +490,7 @@ aTarget
 )
 !
 =
-nsnull
+nullptr
 )
 {
 PRTime
@@ -582,7 +582,7 @@ aTarget
 )
 !
 =
-nsnull
+nullptr
 )
 {
 PRInt32
@@ -947,9 +947,9 @@ rv
 =
 NS_InitXPCOM2
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 if

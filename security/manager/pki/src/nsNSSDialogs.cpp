@@ -662,7 +662,7 @@ nsNSSDialogHelper
 :
 openDialog
 (
-nsnull
+nullptr
 "
 chrome
 :
@@ -1318,7 +1318,7 @@ nsNSSDialogHelper
 :
 openDialog
 (
-nsnull
+nullptr
 "
 chrome
 :
@@ -1673,7 +1673,7 @@ nsNSSDialogHelper
 :
 openDialog
 (
-nsnull
+nullptr
 "
 chrome
 :
@@ -2409,7 +2409,7 @@ nsNSSDialogHelper
 :
 openDialog
 (
-nsnull
+nullptr
 "
 chrome
 :
@@ -2567,7 +2567,7 @@ nsNSSDialogHelper
 :
 openDialog
 (
-nsnull
+nullptr
 "
 chrome
 :
@@ -2939,7 +2939,7 @@ nsNSSDialogHelper
 :
 openDialog
 (
-nsnull
+nullptr
 "
 chrome
 :

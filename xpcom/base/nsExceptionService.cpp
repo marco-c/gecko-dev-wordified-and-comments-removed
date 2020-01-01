@@ -266,7 +266,7 @@ svc
 :
 mNextThread
 (
-nsnull
+nullptr
 )
 mService
 (
@@ -407,7 +407,7 @@ nsExceptionService
 :
 sLock
 =
-nsnull
+nullptr
 ;
 nsExceptionManager
 *
@@ -416,7 +416,7 @@ nsExceptionService
 :
 firstThread
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -669,13 +669,13 @@ sLock
 ;
 sLock
 =
-nsnull
+nullptr
 ;
 }
 PR_SetThreadPrivate
 (
 tlsIndex
-nsnull
+nullptr
 )
 ;
 }
@@ -848,7 +848,7 @@ if
 mgr
 =
 =
-nsnull
+nullptr
 )
 {
 mgr

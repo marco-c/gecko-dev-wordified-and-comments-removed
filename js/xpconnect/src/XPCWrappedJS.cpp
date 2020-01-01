@@ -422,7 +422,7 @@ aInstancePtr
 {
 if
 (
-nsnull
+nullptr
 =
 =
 aInstancePtr
@@ -1164,19 +1164,19 @@ nsXPCWrappedJS
 *
 root
 =
-nsnull
+nullptr
 ;
 nsXPCWrappedJS
 *
 wrapper
 =
-nsnull
+nullptr
 ;
 nsXPCWrappedJSClass
 *
 clazz
 =
-nsnull
+nullptr
 ;
 XPCJSRuntime
 *
@@ -1289,7 +1289,7 @@ root
 if
 (
 (
-nsnull
+nullptr
 !
 =
 (
@@ -1307,7 +1307,7 @@ aIID
 |
 |
 (
-nsnull
+nullptr
 !
 =
 (
@@ -1359,7 +1359,7 @@ nsXPCWrappedJS
 ccx
 aJSObj
 clazz
-nsnull
+nullptr
 aOuter
 )
 ;
@@ -1466,7 +1466,7 @@ nsXPCWrappedJSClass
 *
 rootClazz
 =
-nsnull
+nullptr
 ;
 nsXPCWrappedJSClass
 :
@@ -1498,7 +1498,7 @@ nsXPCWrappedJS
 ccx
 rootJSObj
 rootClazz
-nsnull
+nullptr
 aOuter
 )
 ;
@@ -1775,13 +1775,13 @@ this
 )
 mNext
 (
-nsnull
+nullptr
 )
 mOuter
 (
 root
 ?
-nsnull
+nullptr
 :
 aOuter
 )
@@ -2081,7 +2081,7 @@ GetMapLock
 }
 mJSObj
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -2205,7 +2205,7 @@ mOuter
 ;
 mOuter
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -2281,7 +2281,7 @@ cur
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsXPCWrappedJS
@@ -2369,7 +2369,7 @@ cur
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -2655,7 +2655,7 @@ rt
 {
 mJSObj
 =
-nsnull
+nullptr
 ;
 if
 (

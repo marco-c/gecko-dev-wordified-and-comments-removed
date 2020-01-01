@@ -848,7 +848,7 @@ FinishReflowChild
 (
 kidFrame
 aPresContext
-nsnull
+nullptr
 kidDesiredSize
 0
 0

@@ -142,7 +142,7 @@ if
 accWrap
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -168,7 +168,7 @@ accText
 NS_ENSURE_TRUE
 (
 accText
-nsnull
+nullptr
 )
 ;
 nsAutoString
@@ -190,7 +190,7 @@ autoStr
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 ConvertTexttoAsterisks
@@ -223,7 +223,7 @@ get
 )
 )
 :
-nsnull
+nullptr
 ;
 }
 static
@@ -264,7 +264,7 @@ if
 accWrap
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -290,7 +290,7 @@ accText
 NS_ENSURE_TRUE
 (
 accText
-nsnull
+nullptr
 )
 ;
 nsAutoString
@@ -334,7 +334,7 @@ endOffset
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 ConvertTexttoAsterisks
@@ -367,7 +367,7 @@ get
 )
 )
 :
-nsnull
+nullptr
 ;
 }
 static
@@ -408,7 +408,7 @@ if
 accWrap
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -434,7 +434,7 @@ accText
 NS_ENSURE_TRUE
 (
 accText
-nsnull
+nullptr
 )
 ;
 nsAutoString
@@ -478,7 +478,7 @@ endOffset
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 ConvertTexttoAsterisks
@@ -511,7 +511,7 @@ get
 )
 )
 :
-nsnull
+nullptr
 ;
 }
 static
@@ -669,7 +669,7 @@ if
 accWrap
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -695,7 +695,7 @@ accText
 NS_ENSURE_TRUE
 (
 accText
-nsnull
+nullptr
 )
 ;
 nsAutoString
@@ -739,7 +739,7 @@ endOffset
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 ConvertTexttoAsterisks
@@ -772,7 +772,7 @@ get
 )
 )
 :
-nsnull
+nullptr
 ;
 }
 static
@@ -913,7 +913,7 @@ if
 accWrap
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -939,7 +939,7 @@ accText
 NS_ENSURE_TRUE
 (
 accText
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -979,7 +979,7 @@ attributes
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 *
@@ -1027,7 +1027,7 @@ if
 accWrap
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1053,7 +1053,7 @@ accText
 NS_ENSURE_TRUE
 (
 accText
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -1084,7 +1084,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 ConvertToAtkAttributeSet
@@ -1765,7 +1765,7 @@ if
 accWrap
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1791,7 +1791,7 @@ accText
 NS_ENSURE_TRUE
 (
 accText
-nsnull
+nullptr
 )
 ;
 PRInt32
@@ -1830,7 +1830,7 @@ endOffset
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return

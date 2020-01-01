@@ -345,7 +345,7 @@ nsIRequestObserver
 *
 aListener
 =
-nsnull
+nullptr
 void
 *
 aKey
@@ -515,7 +515,7 @@ DropTimer
 ;
 mStreamParser
 =
-nsnull
+nullptr
 ;
 }
 }

@@ -109,11 +109,11 @@ mCurThreadIndex
 )
 mMainPRThread
 (
-nsnull
+nullptr
 )
 mLock
 (
-nsnull
+nullptr
 )
 mInitialized
 (

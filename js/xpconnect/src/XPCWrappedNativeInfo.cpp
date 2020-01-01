@@ -270,8 +270,8 @@ val
 v
 .
 type
-nsnull
-nsnull
+nullptr
+nullptr
 )
 )
 return
@@ -514,7 +514,7 @@ if
 map
 )
 return
-nsnull
+nullptr
 ;
 {
 XPCAutoLock
@@ -575,7 +575,7 @@ if
 info
 )
 return
-nsnull
+nullptr
 ;
 iface
 =
@@ -591,7 +591,7 @@ if
 iface
 )
 return
-nsnull
+nullptr
 ;
 {
 XPCAutoLock
@@ -642,7 +642,7 @@ iface
 ;
 iface
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -714,7 +714,7 @@ iid
 iid
 )
 return
-nsnull
+nullptr
 ;
 XPCJSRuntime
 *
@@ -743,7 +743,7 @@ if
 map
 )
 return
-nsnull
+nullptr
 ;
 {
 XPCAutoLock
@@ -790,7 +790,7 @@ if
 iface
 )
 return
-nsnull
+nullptr
 ;
 {
 XPCAutoLock
@@ -841,7 +841,7 @@ iface
 ;
 iface
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -915,7 +915,7 @@ ccx
 info
 )
 :
-nsnull
+nullptr
 ;
 }
 XPCNativeInterface
@@ -974,13 +974,13 @@ XPCNativeInterface
 *
 obj
 =
-nsnull
+nullptr
 ;
 XPCNativeMember
 *
 members
 =
-nsnull
+nullptr
 ;
 int
 i
@@ -1042,7 +1042,7 @@ canScript
 canScript
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -1072,7 +1072,7 @@ constCount
 )
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -1116,7 +1116,7 @@ if
 members
 )
 return
-nsnull
+nullptr
 ;
 }
 else
@@ -1526,7 +1526,7 @@ bytes
 bytes
 |
 |
-nsnull
+nullptr
 =
 =
 (
@@ -1841,12 +1841,12 @@ if
 iface
 )
 return
-nsnull
+nullptr
 ;
 XPCNativeSetKey
 key
 (
-nsnull
+nullptr
 iface
 0
 )
@@ -1878,7 +1878,7 @@ if
 map
 )
 return
-nsnull
+nullptr
 ;
 {
 XPCAutoLock
@@ -1936,7 +1936,7 @@ if
 set
 )
 return
-nsnull
+nullptr
 ;
 {
 XPCAutoLock
@@ -1989,7 +1989,7 @@ set
 ;
 set
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -2064,7 +2064,7 @@ if
 map
 )
 return
-nsnull
+nullptr
 ;
 {
 XPCAutoLock
@@ -2101,7 +2101,7 @@ nsIID
 *
 iidArray
 =
-nsnull
+nullptr
 ;
 AutoMarkingNativeInterfacePtrArrayPtr
 interfaceArray
@@ -2133,7 +2133,7 @@ iidArray
 {
 iidArray
 =
-nsnull
+nullptr
 ;
 iidCount
 =
@@ -2341,7 +2341,7 @@ XPCNativeSetKey
 key
 (
 set
-nsnull
+nullptr
 0
 )
 ;
@@ -2396,7 +2396,7 @@ set
 ;
 set
 =
-nsnull
+nullptr
 ;
 goto
 out
@@ -2652,7 +2652,7 @@ if
 map
 )
 return
-nsnull
+nullptr
 ;
 XPCNativeSetKey
 key
@@ -2723,7 +2723,7 @@ if
 set
 )
 return
-nsnull
+nullptr
 ;
 {
 XPCAutoLock
@@ -2776,7 +2776,7 @@ set
 ;
 set
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -2978,7 +2978,7 @@ if
 currentSet
 )
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -3019,7 +3019,7 @@ XPCNativeSet
 *
 obj
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3031,7 +3031,7 @@ array
 count
 )
 return
-nsnull
+nullptr
 ;
 XPCNativeInterface
 *
@@ -3286,7 +3286,7 @@ XPCNativeSet
 *
 obj
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3294,7 +3294,7 @@ if
 newInterface
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -3309,7 +3309,7 @@ otherSet
 mInterfaceCount
 )
 return
-nsnull
+nullptr
 ;
 int
 size

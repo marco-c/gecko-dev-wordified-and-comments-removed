@@ -223,11 +223,11 @@ false
 )
 mOGLLibrary
 (
-nsnull
+nullptr
 )
 mPixelFormat
 (
-nsnull
+nullptr
 )
 {
 }
@@ -342,7 +342,7 @@ if
 mPixelFormat
 =
 =
-nsnull
+nullptr
 )
 {
 NSOpenGLPixelFormatAttribute
@@ -448,7 +448,7 @@ aContext
 )
 mPBuffer
 (
-nsnull
+nullptr
 )
 mTempTextureName
 (
@@ -583,7 +583,7 @@ mContext
 default
 :
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -1776,7 +1776,7 @@ EnsureInitialized
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 GLContextCGL
@@ -1824,7 +1824,7 @@ context
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NSView
@@ -1888,7 +1888,7 @@ Init
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1931,7 +1931,7 @@ EnsureInitialized
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 GLContextCGL
@@ -1944,7 +1944,7 @@ GetGlobalContextCGL
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -1956,7 +1956,7 @@ shareContext
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsTArray
@@ -2078,7 +2078,7 @@ pbFormat
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -2234,7 +2234,7 @@ release
 ]
 ;
 return
-nsnull
+nullptr
 ;
 }
 NSOpenGLPixelBuffer
@@ -2287,7 +2287,7 @@ release
 ]
 ;
 return
-nsnull
+nullptr
 ;
 }
 NSOpenGLContext
@@ -2331,7 +2331,7 @@ release
 ]
 ;
 return
-nsnull
+nullptr
 ;
 }
 [
@@ -2431,7 +2431,7 @@ EnsureInitialized
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 GLContextCGL
@@ -2444,7 +2444,7 @@ GetGlobalContextCGL
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -2472,7 +2472,7 @@ use
 FBOs
 .
 return
-nsnull
+nullptr
 ;
 }
 NSOpenGLContext
@@ -2510,7 +2510,7 @@ context
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -2578,7 +2578,7 @@ Preferences
 GetRootBranch
 (
 )
-nsnull
+nullptr
 )
 ;
 const
@@ -2711,7 +2711,7 @@ forget
 everything
 failed
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -2743,7 +2743,7 @@ EnsureInitialized
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -2861,10 +2861,10 @@ gGlobalContext
 ;
 gGlobalContext
 =
-nsnull
+nullptr
 ;
 return
-nsnull
+nullptr
 ;
 }
 gGlobalContext
@@ -2890,7 +2890,7 @@ Shutdown
 {
 gGlobalContext
 =
-nsnull
+nullptr
 ;
 }
 }

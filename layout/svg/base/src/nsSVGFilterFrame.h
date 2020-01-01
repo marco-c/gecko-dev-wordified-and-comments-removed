@@ -208,13 +208,13 @@ gfxRect
 *
 aOverrideBBox
 =
-nsnull
+nullptr
 const
 nsRect
 *
 aPreFilterBounds
 =
-nsnull
+nullptr
 )
 ;
 #

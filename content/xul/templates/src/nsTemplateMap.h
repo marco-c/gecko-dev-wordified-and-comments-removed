@@ -54,7 +54,7 @@ mTable
 PL_DHashGetStubOps
 (
 )
-nsnull
+nullptr
 sizeof
 (
 Entry
@@ -272,7 +272,7 @@ else
 *
 aResult
 =
-nsnull
+nullptr
 ;
 }
 void

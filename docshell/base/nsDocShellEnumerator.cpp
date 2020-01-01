@@ -30,7 +30,7 @@ inEnumerationDirection
 :
 mRootItem
 (
-nsnull
+nullptr
 )
 mCurIndex
 (
@@ -87,7 +87,7 @@ outCurItem
 *
 outCurItem
 =
-nsnull
+nullptr
 ;
 nsresult
 rv

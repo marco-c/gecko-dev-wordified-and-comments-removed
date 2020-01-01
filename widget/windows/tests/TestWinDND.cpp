@@ -904,7 +904,7 @@ pTransferable
 >
 Init
 (
-nsnull
+nullptr
 )
 ;
 rv
@@ -1017,7 +1017,7 @@ pTransferable
 >
 Init
 (
-nsnull
+nullptr
 )
 ;
 rv
@@ -1132,7 +1132,7 @@ pTransferable
 >
 Init
 (
-nsnull
+nullptr
 )
 ;
 rv
@@ -1244,7 +1244,7 @@ pTransferable
 >
 Init
 (
-nsnull
+nullptr
 )
 ;
 rv

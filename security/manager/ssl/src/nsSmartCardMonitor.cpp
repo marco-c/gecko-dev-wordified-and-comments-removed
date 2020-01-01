@@ -289,7 +289,7 @@ SmartCardThreadEntry
 (
 thread
 head
-nsnull
+nullptr
 &
 head
 )
@@ -345,7 +345,7 @@ module_
 :
 mThread
 (
-nsnull
+nullptr
 )
 {
 mModule
@@ -363,7 +363,7 @@ PL_NewHashTable
 unity
 PL_CompareValues
 PL_CompareStrings
-nsnull
+nullptr
 0
 )
 ;
@@ -609,7 +609,7 @@ char
 *
 tokenName
 =
-nsnull
+nullptr
 ;
 const
 char
@@ -800,7 +800,7 @@ char
 *
 tokenName
 =
-nsnull
+nullptr
 ;
 PK11SlotList
 *
@@ -812,8 +812,8 @@ mModule
 -
 >
 dllName
-nsnull
-nsnull
+nullptr
+nullptr
 true
 )
 ;
@@ -898,7 +898,7 @@ if
 slot
 =
 =
-nsnull
+nullptr
 )
 {
 break
@@ -1020,7 +1020,7 @@ tokenName
 SetTokenName
 (
 slotID
-nsnull
+nullptr
 0
 )
 ;

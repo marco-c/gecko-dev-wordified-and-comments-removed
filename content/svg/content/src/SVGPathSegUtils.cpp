@@ -3088,7 +3088,7 @@ NS_SVG_PATH_SEG_TYPE_COUNT
 ]
 =
 {
-nsnull
+nullptr
 TraverseClosePath
 TraverseMovetoAbs
 TraverseMovetoRel

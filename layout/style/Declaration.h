@@ -145,7 +145,7 @@ return
 mImportantData
 !
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -622,11 +622,11 @@ AssertMutable
 ;
 mData
 =
-nsnull
+nullptr
 ;
 mImportantData
 =
-nsnull
+nullptr
 ;
 mOrder
 .

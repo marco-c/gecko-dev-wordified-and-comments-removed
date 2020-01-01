@@ -83,7 +83,7 @@ nsresult
 *
 status
 =
-nsnull
+nullptr
 )
 ;
 void

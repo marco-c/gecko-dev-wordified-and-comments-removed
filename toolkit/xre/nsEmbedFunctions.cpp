@@ -662,8 +662,8 @@ rv
 NS_LockProfilePath
 (
 aDirectory
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 lock
@@ -715,7 +715,7 @@ kNullCommandLine
 ]
 =
 {
-nsnull
+nullptr
 }
 ;
 gArgv
@@ -791,7 +791,7 @@ rv
 =
 NS_InitXPCOM2
 (
-nsnull
+nullptr
 aAppDirectory
 gDirServiceProvider
 )
@@ -831,9 +831,9 @@ startupNotifier
 >
 Observe
 (
-nsnull
+nullptr
 APPSTARTUP_TOPIC
-nsnull
+nullptr
 )
 ;
 return
@@ -900,7 +900,7 @@ DoShutdown
 ;
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 delete
@@ -928,7 +928,7 @@ kGeckoProcessTypeString
 aProcessType
 ]
 :
-nsnull
+nullptr
 ;
 }
 GeckoProcessType
@@ -1130,7 +1130,7 @@ AppID
 SetCurrentProcessExplicitAppUserModelIDPtr
 funcAppUserModelID
 =
-nsnull
+nullptr
 ;
 HMODULE
 hDLL
@@ -2825,7 +2825,7 @@ IsAlive
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 TestShellParent

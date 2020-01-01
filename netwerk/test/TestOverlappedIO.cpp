@@ -203,7 +203,7 @@ nsIEventQueue
 *
 gEventQ
 =
-nsnull
+nullptr
 ;
 class
 TestListener
@@ -1281,7 +1281,7 @@ CreateTransport
 (
 hostName
 port
-nsnull
+nullptr
 -
 1
 0
@@ -1342,7 +1342,7 @@ TestProvider
 (
 buffer
 )
-nsnull
+nullptr
 0
 0
 0
@@ -1386,7 +1386,7 @@ new
 TestListener
 (
 )
-nsnull
+nullptr
 0
 0
 0

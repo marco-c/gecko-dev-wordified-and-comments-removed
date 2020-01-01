@@ -399,7 +399,7 @@ nil
 {
 mMenuGroupOwner
 =
-nsnull
+nullptr
 ;
 [
 self
@@ -423,7 +423,7 @@ dealloc
 self
 setMenuGroupOwner
 :
-nsnull
+nullptr
 ]
 ;
 [
@@ -495,11 +495,11 @@ mVisibleItemsCount
 )
 mParent
 (
-nsnull
+nullptr
 )
 mMenuGroupOwner
 (
-nsnull
+nullptr
 )
 mNativeMenu
 (
@@ -2002,7 +2002,7 @@ event
 (
 true
 NS_XUL_POPUP_SHOWN
-nsnull
+nullptr
 nsMouseEvent
 :
 :
@@ -2040,8 +2040,8 @@ DispatchDOMEvent
 (
 &
 event
-nsnull
-nsnull
+nullptr
+nullptr
 &
 status
 )
@@ -2117,7 +2117,7 @@ event
 (
 true
 NS_XUL_POPUP_HIDDEN
-nsnull
+nullptr
 nsMouseEvent
 :
 :
@@ -2155,8 +2155,8 @@ DispatchDOMEvent
 (
 &
 event
-nsnull
-nsnull
+nullptr
+nullptr
 &
 status
 )
@@ -2961,7 +2961,7 @@ nsGkAtoms
 :
 :
 radio
-nsnull
+nullptr
 }
 ;
 switch
@@ -3231,7 +3231,7 @@ event
 (
 true
 NS_XUL_POPUP_SHOWING
-nsnull
+nullptr
 nsMouseEvent
 :
 :
@@ -3276,8 +3276,8 @@ DispatchDOMEvent
 (
 &
 event
-nsnull
-nsnull
+nullptr
+nullptr
 &
 status
 )
@@ -3873,7 +3873,7 @@ event
 (
 true
 NS_XUL_POPUP_HIDING
-nsnull
+nullptr
 nsMouseEvent
 :
 :
@@ -3918,8 +3918,8 @@ DispatchDOMEvent
 (
 &
 event
-nsnull
-nsnull
+nullptr
+nullptr
 &
 status
 )
@@ -4026,7 +4026,7 @@ return
 *
 aResult
 =
-nsnull
+nullptr
 ;
 /
 /

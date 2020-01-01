@@ -112,13 +112,13 @@ os
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 system
 -
 idle
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -129,13 +129,13 @@ os
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 system
 -
 active
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -198,7 +198,7 @@ os
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 system
 -
@@ -206,7 +206,7 @@ display
 -
 on
 "
-nsnull
+nullptr
 )
 ;
 break
@@ -225,7 +225,7 @@ os
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 system
 -
@@ -233,7 +233,7 @@ display
 -
 off
 "
-nsnull
+nullptr
 )
 ;
 break
@@ -252,7 +252,7 @@ os
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 system
 -
@@ -260,7 +260,7 @@ display
 -
 dimmed
 "
-nsnull
+nullptr
 )
 ;
 break
@@ -341,7 +341,7 @@ os
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 profile
 -
@@ -351,7 +351,7 @@ net
 -
 restore
 "
-nsnull
+nullptr
 )
 ;
 break
@@ -373,7 +373,7 @@ os
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 profile
 -
@@ -383,7 +383,7 @@ net
 -
 teardown
 "
-nsnull
+nullptr
 )
 ;
 break
@@ -688,7 +688,7 @@ version
 0
 "
 true
-nsnull
+nullptr
 )
 ;
 if
@@ -696,7 +696,7 @@ if
 m_osso_context
 =
 =
-nsnull
+nullptr
 )
 {
 return
@@ -750,7 +750,7 @@ m_osso_context
 ;
 m_osso_context
 =
-nsnull
+nullptr
 ;
 }
 #

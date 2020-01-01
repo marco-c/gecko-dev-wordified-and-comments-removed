@@ -19,7 +19,7 @@ nsGTKToolkit
 :
 gToolkit
 =
-nsnull
+nullptr
 ;
 nsGTKToolkit
 :
@@ -30,7 +30,7 @@ nsGTKToolkit
 :
 mSharedGC
 (
-nsnull
+nullptr
 )
 mFocusTimestamp
 (

@@ -5773,7 +5773,7 @@ gNewlineStr
 ;
 gNewlineStr
 =
-nsnull
+nullptr
 ;
 }
 }

@@ -251,7 +251,7 @@ return
 mDBConn
 !
 =
-nsnull
+nullptr
 ;
 }
 bool

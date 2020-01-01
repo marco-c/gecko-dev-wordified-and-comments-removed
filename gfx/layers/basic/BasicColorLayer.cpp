@@ -394,7 +394,7 @@ ImplData
 Paint
 (
 aContext
-nsnull
+nullptr
 )
 ;
 }

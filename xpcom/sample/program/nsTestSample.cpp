@@ -77,7 +77,7 @@ rv
 ;
 XPCOMGlueStartup
 (
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -94,8 +94,8 @@ getter_AddRefs
 (
 servMan
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -155,7 +155,7 @@ manager
 CreateInstanceByContractID
 (
 NS_SAMPLE_CONTRACTID
-nsnull
+nullptr
 NS_GET_IID
 (
 nsISample
@@ -499,7 +499,7 @@ mysample
 ;
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 XPCOMGlueShutdown

@@ -1025,7 +1025,7 @@ nsGkAtoms
 frameborder
 }
 {
-nsnull
+nullptr
 }
 }
 ;

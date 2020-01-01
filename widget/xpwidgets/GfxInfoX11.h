@@ -241,7 +241,7 @@ OperatingSystem
 *
 aOS
 =
-nsnull
+nullptr
 )
 ;
 virtual

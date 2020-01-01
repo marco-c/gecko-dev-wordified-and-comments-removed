@@ -624,7 +624,7 @@ cp
 >
 key
 =
-nsnull
+nullptr
 ;
 }
 PL_DHashTableDestroy
@@ -698,7 +698,7 @@ cp
 >
 mDomainWeAreWildcardFor
 =
-nsnull
+nullptr
 ;
 cp
 -
@@ -735,7 +735,7 @@ PL_NewDHashTable
 (
 &
 classPolicyOps
-nsnull
+nullptr
 sizeof
 (
 PropertyPolicy
@@ -765,7 +765,7 @@ cp
 >
 key
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -789,7 +789,7 @@ DomainPolicy
 :
 mWildcardPolicy
 (
-nsnull
+nullptr
 )
 mRefCount
 (
@@ -841,7 +841,7 @@ PL_DHashTableInit
 this
 &
 domainPolicyOps
-nsnull
+nullptr
 sizeof
 (
 ClassPolicy

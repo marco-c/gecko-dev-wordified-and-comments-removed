@@ -863,7 +863,7 @@ Length
 *
 _result
 =
-nsnull
+nullptr
 ;
 *
 _type

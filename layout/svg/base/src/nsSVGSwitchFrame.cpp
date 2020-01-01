@@ -564,7 +564,7 @@ aPoint
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP_
@@ -1050,6 +1050,6 @@ kid
 }
 }
 return
-nsnull
+nullptr
 ;
 }

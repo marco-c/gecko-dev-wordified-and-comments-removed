@@ -381,7 +381,7 @@ this
 ;
 mOwner
 =
-nsnull
+nullptr
 ;
 mHasOrHasHadOwner
 =
@@ -451,7 +451,7 @@ this
 ;
 mOwner
 =
-nsnull
+nullptr
 ;
 mHasOrHasHadOwner
 =
@@ -523,7 +523,7 @@ DisconnectFromOwner
 {
 mOwner
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -539,7 +539,7 @@ Disconnect
 ;
 mListenerManager
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -901,9 +901,9 @@ nsEventDispatcher
 DispatchDOMEvent
 (
 this
-nsnull
+nullptr
 aEvent
-nsnull
+nullptr
 &
 status
 )
@@ -957,7 +957,7 @@ false
 ;
 aCurrent
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1041,7 +1041,7 @@ else
 *
 aListener
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1069,7 +1069,7 @@ aVisitor
 .
 mParentTarget
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1186,7 +1186,7 @@ aRv
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1206,7 +1206,7 @@ GetContextInternal
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 void

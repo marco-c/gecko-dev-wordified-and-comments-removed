@@ -438,8 +438,8 @@ getter_AddRefs
 (
 servMan
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 nsCOMPtr
@@ -471,7 +471,7 @@ registrar
 >
 AutoRegister
 (
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -563,7 +563,7 @@ CreateTransport
 (
 hostName
 port
-nsnull
+nullptr
 0
 0
 &
@@ -591,7 +591,7 @@ AsyncRead
 (
 new
 InputTestConsumer
-nsnull
+nullptr
 0
 -
 1
@@ -640,7 +640,7 @@ rv
 =
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION

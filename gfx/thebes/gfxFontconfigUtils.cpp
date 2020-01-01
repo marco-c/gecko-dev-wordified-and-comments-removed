@@ -99,14 +99,14 @@ gfxFontconfigUtils
 :
 sUtils
 =
-nsnull
+nullptr
 ;
 static
 nsILanguageAtomService
 *
 gLangService
 =
-nsnull
+nullptr
 ;
 void
 gfxFontconfigUtils
@@ -126,7 +126,7 @@ sUtils
 ;
 sUtils
 =
-nsnull
+nullptr
 ;
 }
 NS_IF_RELEASE
@@ -1939,7 +1939,7 @@ NS_PRECONDITION
 aFcLang
 !
 =
-nsnull
+nullptr
 "
 aFcLang
 must
@@ -1954,7 +1954,7 @@ MozLangGroupData
 *
 langGroup
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -3436,7 +3436,7 @@ aFamilyName
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 const
@@ -4215,7 +4215,7 @@ if
 entry
 )
 return
-nsnull
+nullptr
 ;
 FcLangResult
 best

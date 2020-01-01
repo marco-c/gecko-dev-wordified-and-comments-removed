@@ -241,7 +241,7 @@ mElements
 SafeElementAt
 (
 aIndex
-nsnull
+nullptr
 )
 ;
 }
@@ -632,7 +632,7 @@ aContent
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 NS_DECL_ISUPPORTS_INHERITED
@@ -1459,7 +1459,7 @@ nsIDOMHTMLElement
 *
 aBefore
 =
-nsnull
+nullptr
 )
 ;
 nsRefPtr

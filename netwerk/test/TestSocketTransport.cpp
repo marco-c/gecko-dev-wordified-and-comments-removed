@@ -163,7 +163,7 @@ PRLogModuleInfo
 *
 gTestLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -400,7 +400,7 @@ AsyncWait
 this
 0
 0
-nsnull
+nullptr
 )
 ;
 return
@@ -422,7 +422,7 @@ AsyncWait
 this
 0
 0
-nsnull
+nullptr
 )
 ;
 }
@@ -539,7 +539,7 @@ AsyncWait
 this
 0
 0
-nsnull
+nullptr
 )
 ;
 }
@@ -617,14 +617,14 @@ sts
 >
 CreateTransport
 (
-nsnull
+nullptr
 0
 nsDependentCString
 (
 host
 )
 port
-nsnull
+nullptr
 getter_AddRefs
 (
 transport
@@ -814,14 +814,14 @@ sts
 >
 CreateTransport
 (
-nsnull
+nullptr
 0
 nsDependentCString
 (
 host
 )
 port
-nsnull
+nullptr
 getter_AddRefs
 (
 transport
@@ -945,7 +945,7 @@ if
 handler
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -965,7 +965,7 @@ AsyncWait
 handler
 0
 0
-nsnull
+nullptr
 )
 ;
 if
@@ -1065,8 +1065,8 @@ getter_AddRefs
 (
 servMan
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 nsCOMPtr
@@ -1098,7 +1098,7 @@ registrar
 >
 AutoRegister
 (
-nsnull
+nullptr
 )
 ;
 #
@@ -1750,7 +1750,7 @@ rv
 =
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION

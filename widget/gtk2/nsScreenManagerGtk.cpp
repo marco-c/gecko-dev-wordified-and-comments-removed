@@ -218,11 +218,11 @@ nsScreenManagerGtk
 :
 mXineramalib
 (
-nsnull
+nullptr
 )
 mRootWindow
 (
-nsnull
+nullptr
 )
 {
 }
@@ -253,7 +253,7 @@ mRootWindow
 ;
 mRootWindow
 =
-nsnull
+nullptr
 ;
 }
 }

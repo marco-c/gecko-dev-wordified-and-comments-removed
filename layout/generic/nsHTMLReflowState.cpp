@@ -263,7 +263,7 @@ frame
 ;
 parentReflowState
 =
-nsnull
+nullptr
 ;
 availableWidth
 =
@@ -279,11 +279,11 @@ height
 ;
 mFloatManager
 =
-nsnull
+nullptr
 ;
 mLineLayout
 =
-nsnull
+nullptr
 ;
 memset
 (
@@ -298,11 +298,11 @@ mFlags
 ;
 mDiscoveredClearance
 =
-nsnull
+nullptr
 ;
 mPercentHeightObserver
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -720,7 +720,7 @@ mLineLayout
 else
 mLineLayout
 =
-nsnull
+nullptr
 ;
 mFlags
 .
@@ -771,7 +771,7 @@ false
 ;
 mDiscoveredClearance
 =
-nsnull
+nullptr
 ;
 mPercentHeightObserver
 =
@@ -797,7 +797,7 @@ aParentReflowState
 .
 mPercentHeightObserver
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -1660,7 +1660,7 @@ parentReflowState
 {
 mCBReflowState
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -3527,7 +3527,7 @@ else
 {
 state
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -5068,7 +5068,7 @@ frame
 ;
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 placeholderFrame
@@ -6386,13 +6386,13 @@ nsHTMLReflowState
 *
 firstAncestorRS
 =
-nsnull
+nullptr
 ;
 nsHTMLReflowState
 *
 secondAncestorRS
 =
-nsnull
+nullptr
 ;
 nscoord
 result
@@ -7150,8 +7150,8 @@ blink_allowed
 ;
 PrefsChanged
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 sPrefIsLoaded
@@ -7302,7 +7302,7 @@ aPadding
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 parentReflowState
@@ -7416,7 +7416,7 @@ mCBReflowState
 ;
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 cbrs
@@ -7561,7 +7561,7 @@ mFrameType
 {
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 cbrs
@@ -9335,7 +9335,7 @@ aFontMetrics
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aFontMetrics

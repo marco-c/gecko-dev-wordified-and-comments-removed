@@ -633,7 +633,7 @@ mValid
 true
 ;
 return
-nsnull
+nullptr
 ;
 }
 s
@@ -655,7 +655,7 @@ mValid
 false
 ;
 return
-nsnull
+nullptr
 ;
 }
 *
@@ -804,7 +804,7 @@ xpc_qsSelfRef
 :
 ptr
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1061,7 +1061,7 @@ rv
 *
 ppThis
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -1141,11 +1141,11 @@ xpc_GetJSPrivate
 obj
 )
 :
-nsnull
+nullptr
 ;
 tearoff
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -1174,7 +1174,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 }
 nsISupports
@@ -1236,7 +1236,7 @@ else
 {
 native
 =
-nsnull
+nullptr
 ;
 }
 *
@@ -1250,7 +1250,7 @@ if
 native
 )
 return
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -1306,12 +1306,12 @@ interfaceBit
 )
 )
 return
-nsnull
+nullptr
 ;
 *
 pRef
 =
-nsnull
+nullptr
 ;
 *
 pVal
@@ -1586,7 +1586,7 @@ if
 src
 )
 return
-nsnull
+nullptr
 ;
 return
 castNativeFromWrapper
@@ -1596,7 +1596,7 @@ src
 bit
 pArgRef
 vp
-nsnull
+nullptr
 rv
 )
 ;
@@ -1639,7 +1639,7 @@ p
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 JSBool
@@ -2090,7 +2090,7 @@ if
 fun
 )
 return
-nsnull
+nullptr
 ;
 JSObject
 *
@@ -2120,7 +2120,7 @@ JS_NewObject
 cx
 &
 PointerHolderClass
-nsnull
+nullptr
 funobj
 )
 ;
@@ -2130,7 +2130,7 @@ if
 ptrobj
 )
 return
-nsnull
+nullptr
 ;
 Op
 *
@@ -2145,7 +2145,7 @@ if
 popp
 )
 return
-nsnull
+nullptr
 ;
 *
 popp

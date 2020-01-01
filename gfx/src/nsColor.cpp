@@ -168,7 +168,7 @@ nsStaticCaseInsensitiveNameTable
 *
 gColorTable
 =
-nsnull
+nullptr
 ;
 void
 nsColorNames
@@ -304,7 +304,7 @@ gColorTable
 ;
 gColorTable
 =
-nsnull
+nullptr
 ;
 }
 }

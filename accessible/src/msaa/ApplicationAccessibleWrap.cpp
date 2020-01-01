@@ -69,7 +69,7 @@ aAttributes
 *
 aAttributes
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

@@ -288,7 +288,7 @@ rv
 {
 mDBUS
 =
-nsnull
+nullptr
 ;
 return
 rv

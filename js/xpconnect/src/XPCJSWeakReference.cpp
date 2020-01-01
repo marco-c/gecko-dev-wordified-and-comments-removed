@@ -162,7 +162,7 @@ NS_GET_IID
 (
 nsISupports
 )
-nsnull
+nullptr
 getter_AddRefs
 (
 wrapped

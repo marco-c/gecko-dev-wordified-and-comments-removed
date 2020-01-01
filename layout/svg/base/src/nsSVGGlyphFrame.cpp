@@ -747,7 +747,7 @@ mFrame
 PaintSVG
 (
 aCtx
-nsnull
+nullptr
 )
 ;
 aCtx
@@ -1560,7 +1560,7 @@ hitTestFlags
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 AutoCanvasTMForMarker
@@ -1605,7 +1605,7 @@ tmpCtx
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 PRUint32
@@ -1652,8 +1652,8 @@ gfxFont
 :
 :
 LOOSE_INK_EXTENTS
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 iter
@@ -1755,7 +1755,7 @@ return
 this
 ;
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP_
@@ -2127,8 +2127,8 @@ gfxFont
 :
 :
 LOOSE_INK_EXTENTS
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 aContext
@@ -2199,8 +2199,8 @@ gfxFont
 :
 :
 LOOSE_INK_EXTENTS
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 aContext
@@ -2283,8 +2283,8 @@ mTextRun
 GetLength
 (
 )
-nsnull
-nsnull
+nullptr
+nullptr
 aStrokePattern
 )
 ;
@@ -2343,8 +2343,8 @@ aIter
 ClusterLength
 (
 )
-nsnull
-nsnull
+nullptr
+nullptr
 aStrokePattern
 )
 ;
@@ -2443,7 +2443,7 @@ IdentityMatrix
 ;
 mOverrideCanvasTM
 =
-nsnull
+nullptr
 ;
 gfxRect
 pathExtents
@@ -2947,7 +2947,7 @@ GetAdvanceWidth
 (
 i
 1
-nsnull
+nullptr
 )
 *
 aMetricsScale
@@ -3313,7 +3313,7 @@ GetAdvanceWidth
 (
 i
 1
-nsnull
+nullptr
 )
 *
 aMetricsScale
@@ -3674,7 +3674,7 @@ GetAdvanceWidth
 (
 aCharnum
 aFragmentChars
-nsnull
+nullptr
 )
 *
 aMetricsScale
@@ -3817,8 +3817,8 @@ gfxFont
 :
 :
 LOOSE_INK_EXTENTS
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 PRUint16
@@ -4521,7 +4521,7 @@ SelectionDetails
 *
 details
 =
-nsnull
+nullptr
 ;
 {
 nsRefPtr
@@ -4713,7 +4713,7 @@ details
 mNext
 =
 =
-nsnull
+nullptr
 "
 can
 '
@@ -4794,7 +4794,7 @@ mNext
 )
 !
 =
-nsnull
+nullptr
 )
 {
 delete
@@ -4983,7 +4983,7 @@ xCount
 -
 1
 1
-nsnull
+nullptr
 )
 *
 metricsScale
@@ -5007,7 +5007,7 @@ xCount
 strLength
 -
 xCount
-nsnull
+nullptr
 )
 *
 metricsScale
@@ -5026,7 +5026,7 @@ GetAdvanceWidth
 (
 0
 strLength
-nsnull
+nullptr
 )
 *
 metricsScale
@@ -5244,7 +5244,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 CharacterIterator
 iter
@@ -5305,7 +5305,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 CharacterIterator
 iter
@@ -5358,7 +5358,7 @@ GetAdvanceWidth
 (
 charnum
 1
-nsnull
+nullptr
 )
 0
 )
@@ -5409,7 +5409,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 CharacterIterator
 iter
@@ -5527,8 +5527,8 @@ gfxFont
 :
 :
 LOOSE_INK_EXTENTS
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 nsRefPtr
@@ -5738,7 +5738,7 @@ GetParent
 frame
 !
 =
-nsnull
+nullptr
 ;
 frame
 =
@@ -5795,11 +5795,11 @@ nsGkAtoms
 svgTextFrame
 )
 return
-nsnull
+nullptr
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -6189,7 +6189,7 @@ GetRotate
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -6351,7 +6351,7 @@ GetParent
 frame
 !
 =
-nsnull
+nullptr
 ;
 frame
 =
@@ -6701,8 +6701,8 @@ gfxFont
 :
 :
 LOOSE_INK_EXTENTS
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 PRInt32
@@ -6992,7 +6992,7 @@ GetNextGlyphFrame
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 bool
@@ -7229,7 +7229,7 @@ mTextRun
 ;
 mTextRun
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -7697,9 +7697,9 @@ params
 =
 {
 tmpCtx
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 0
 GetTextRunUnitsFactor
 (
@@ -8004,7 +8004,7 @@ GetAdvanceWidth
 (
 mCurrentChar
 1
-nsnull
+nullptr
 )
 ;
 }

@@ -689,7 +689,7 @@ mStyleBits
 )
 )
 return
-nsnull
+nullptr
 ;
 for
 (
@@ -727,7 +727,7 @@ i
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -1740,7 +1740,7 @@ else
 {
 result_important
 =
-nsnull
+nullptr
 ;
 }
 for

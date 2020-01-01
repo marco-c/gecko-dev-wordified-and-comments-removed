@@ -124,7 +124,7 @@ aInstantiations
 )
 mCurrent
 (
-nsnull
+nullptr
 )
 mCheckedNext
 (

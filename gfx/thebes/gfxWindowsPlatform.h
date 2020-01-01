@@ -762,7 +762,7 @@ PRInt32
 *
 aBuildNum
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -904,7 +904,7 @@ cairo_d2d_device_get_device
 mD2DDevice
 )
 :
-nsnull
+nullptr
 ;
 }
 #

@@ -275,7 +275,7 @@ GetDocumentFromCaller
 NS_ENSURE_TRUE
 (
 doc
-nsnull
+nullptr
 )
 ;
 nodeInfo
@@ -294,7 +294,7 @@ nsGkAtoms
 :
 :
 img
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :
@@ -305,7 +305,7 @@ ELEMENT_NODE
 NS_ENSURE_TRUE
 (
 nodeInfo
-nsnull
+nullptr
 )
 ;
 }

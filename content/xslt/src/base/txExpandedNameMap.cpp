@@ -167,7 +167,7 @@ aOldValue
 *
 aOldValue
 =
-nsnull
+nullptr
 ;
 PRUint32
 pos
@@ -309,7 +309,7 @@ mValue
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -329,7 +329,7 @@ void
 *
 value
 =
-nsnull
+nullptr
 ;
 PRUint32
 pos

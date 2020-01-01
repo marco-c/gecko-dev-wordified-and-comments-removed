@@ -203,7 +203,7 @@ ifdef
 DOWNLOAD_SCANNER
 mScanner
 (
-nsnull
+nullptr
 )
 #
 endif

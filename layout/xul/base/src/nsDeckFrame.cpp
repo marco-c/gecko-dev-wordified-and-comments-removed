@@ -433,7 +433,7 @@ FrameAt
 mIndex
 )
 :
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP

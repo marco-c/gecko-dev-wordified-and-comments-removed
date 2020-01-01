@@ -156,7 +156,7 @@ return
 mShutdownContext
 !
 =
-nsnull
+nullptr
 ;
 }
 static
@@ -323,7 +323,7 @@ return
 mSyncTask
 !
 =
-nsnull
+nullptr
 ;
 }
 nsresult

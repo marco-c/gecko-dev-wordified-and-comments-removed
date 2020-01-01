@@ -179,7 +179,7 @@ IsScrollable
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 do_QueryFrame
@@ -473,7 +473,7 @@ SelectionDirection
 *
 aDirection
 =
-nsnull
+nullptr
 )
 ;
 NS_IMETHOD
@@ -565,7 +565,7 @@ NS_DECL_QUERYFRAME
 NS_DECLARE_FRAME_PROPERTY
 (
 TextControlInitializer
-nsnull
+nullptr
 )
 protected
 :
@@ -983,7 +983,7 @@ Revoke
 {
 mFrame
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -1030,7 +1030,7 @@ Revoke
 {
 mFrame
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -1075,7 +1075,7 @@ nsAString
 *
 aValue
 =
-nsnull
+nullptr
 )
 ;
 bool

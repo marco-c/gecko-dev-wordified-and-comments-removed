@@ -866,7 +866,7 @@ GetImageContainer
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 protected
@@ -1068,7 +1068,7 @@ sUniqueInstance
 ;
 sUniqueInstance
 =
-nsnull
+nullptr
 ;
 }
 }

@@ -83,7 +83,7 @@ aChild
 >
 SetPrevSibling
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -311,7 +311,7 @@ mFirstChild
 >
 SetPrevSibling
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -322,7 +322,7 @@ aContainer
 >
 mLastChild
 =
-nsnull
+nullptr
 ;
 }
 aChild
@@ -330,7 +330,7 @@ aChild
 >
 SetNextSibling
 (
-nsnull
+nullptr
 )
 ;
 aChild
@@ -338,7 +338,7 @@ aChild
 >
 SetPrevSibling
 (
-nsnull
+nullptr
 )
 ;
 aChild
@@ -346,7 +346,7 @@ aChild
 >
 SetParent
 (
-nsnull
+nullptr
 )
 ;
 aContainer
@@ -369,7 +369,7 @@ Layer
 *
 lastChild
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -456,7 +456,7 @@ child
 >
 SetNextSibling
 (
-nsnull
+nullptr
 )
 ;
 child
@@ -464,7 +464,7 @@ child
 >
 SetPrevSibling
 (
-nsnull
+nullptr
 )
 ;
 child
@@ -472,7 +472,7 @@ child
 >
 SetParent
 (
-nsnull
+nullptr
 )
 ;
 aContainer
@@ -671,7 +671,7 @@ ImplData
 )
 )
 :
-nsnull
+nullptr
 ;
 }
 static
@@ -1715,7 +1715,7 @@ mFirstChild
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1894,7 +1894,7 @@ mFirstChild
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -2030,7 +2030,7 @@ mFirstChild
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

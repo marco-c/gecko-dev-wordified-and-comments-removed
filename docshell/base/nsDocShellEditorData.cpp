@@ -123,12 +123,12 @@ false
 ;
 mEditor
 =
-nsnull
+nullptr
 ;
 }
 mEditingSession
 =
-nsnull
+nullptr
 ;
 mIsDetached
 =
@@ -178,7 +178,7 @@ false
 ;
 mEditor
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -209,7 +209,7 @@ mMakeEditable
 mEditor
 !
 =
-nsnull
+nullptr
 )
 ;
 }
@@ -387,7 +387,7 @@ false
 ;
 mEditor
 =
-nsnull
+nullptr
 ;
 }
 mEditor
@@ -589,7 +589,7 @@ GetEditingState
 ;
 mDocShell
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

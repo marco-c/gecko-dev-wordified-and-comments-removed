@@ -343,7 +343,7 @@ PRLibrary
 *
 gconfLib
 =
-nsnull
+nullptr
 ;
 typedef
 void
@@ -552,7 +552,7 @@ GError
 *
 error
 =
-nsnull
+nullptr
 ;
 *
 aResult
@@ -609,7 +609,7 @@ GError
 *
 error
 =
-nsnull
+nullptr
 ;
 gchar
 *
@@ -679,7 +679,7 @@ GError
 *
 error
 =
-nsnull
+nullptr
 ;
 *
 aResult
@@ -736,7 +736,7 @@ GError
 *
 error
 =
-nsnull
+nullptr
 ;
 *
 aResult
@@ -814,7 +814,7 @@ GError
 *
 error
 =
-nsnull
+nullptr
 ;
 GSList
 *
@@ -978,7 +978,7 @@ get
 (
 )
 aValue
-nsnull
+nullptr
 )
 ;
 return
@@ -1027,7 +1027,7 @@ aValue
 get
 (
 )
-nsnull
+nullptr
 )
 ;
 return
@@ -1067,7 +1067,7 @@ get
 (
 )
 aValue
-nsnull
+nullptr
 )
 ;
 return
@@ -1107,7 +1107,7 @@ get
 (
 )
 aValue
-nsnull
+nullptr
 )
 ;
 return
@@ -1173,7 +1173,7 @@ GError
 *
 err
 =
-nsnull
+nullptr
 ;
 gchar
 *
@@ -1326,7 +1326,7 @@ GError
 *
 err
 =
-nsnull
+nullptr
 ;
 *
 aResult
@@ -1429,7 +1429,7 @@ aCommand
 get
 (
 )
-nsnull
+nullptr
 )
 ;
 if
@@ -1468,7 +1468,7 @@ get
 (
 )
 true
-nsnull
+nullptr
 )
 ;
 if
@@ -1507,7 +1507,7 @@ get
 (
 )
 false
-nsnull
+nullptr
 )
 ;
 if
@@ -1547,7 +1547,7 @@ key
 get
 (
 )
-nsnull
+nullptr
 )
 ;
 }

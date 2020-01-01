@@ -184,7 +184,7 @@ ImageAccessible
 this
 )
 :
-nsnull
+nullptr
 ;
 }
 #

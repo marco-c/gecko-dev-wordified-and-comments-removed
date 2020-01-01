@@ -2873,7 +2873,7 @@ utils
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -2914,7 +2914,7 @@ utils
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -2954,7 +2954,7 @@ utils
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -2995,7 +2995,7 @@ utils
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -3034,7 +3034,7 @@ utils
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -3075,7 +3075,7 @@ utils
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

@@ -275,9 +275,9 @@ NS_FAILED
 (
 NS_InitXPCOM2
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 )
 )
@@ -291,7 +291,7 @@ RunTests
 ;
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 return

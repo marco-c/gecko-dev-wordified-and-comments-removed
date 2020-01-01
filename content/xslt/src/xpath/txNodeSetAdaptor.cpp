@@ -73,7 +73,7 @@ mValue
 new
 txNodeSet
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -102,7 +102,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (

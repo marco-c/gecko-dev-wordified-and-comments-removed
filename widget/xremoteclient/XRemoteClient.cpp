@@ -713,7 +713,7 @@ aUsername
 aProfile
 aCommand
 0
-nsnull
+nullptr
 aDesktopStartupID
 aResponse
 aWindowFound
@@ -777,7 +777,7 @@ SendCommandInternal
 aProgram
 aUsername
 aProfile
-nsnull
+nullptr
 argc
 argv
 aDesktopStartupID
@@ -2133,7 +2133,7 @@ char
 *
 )
 data_return
-nsnull
+nullptr
 )
 ;
 XFree

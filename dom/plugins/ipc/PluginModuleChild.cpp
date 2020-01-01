@@ -332,7 +332,7 @@ PluginModuleChild
 *
 gInstance
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -357,14 +357,14 @@ static
 _gtk_init_fn
 s_gtk_init
 =
-nsnull
+nullptr
 ;
 static
 PRLibrary
 *
 sGtkLib
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -580,7 +580,7 @@ DeinitGraphics
 ;
 gInstance
 =
-nsnull
+nullptr
 ;
 }
 PluginModuleChild
@@ -2344,11 +2344,11 @@ sGtkLib
 ;
 sGtkLib
 =
-nsnull
+nullptr
 ;
 s_gtk_init
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -5486,7 +5486,7 @@ PLUGIN_LOG_DEBUG_FUNCTION
 ;
 ENSURE_PLUGIN_THREAD
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -8642,7 +8642,7 @@ PLUGIN_LOG_DEBUG_FUNCTION
 ;
 ENSURE_PLUGIN_THREAD
 (
-nsnull
+nullptr
 )
 ;
 PluginInstanceChild
@@ -9690,7 +9690,7 @@ ToString
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 int32_t

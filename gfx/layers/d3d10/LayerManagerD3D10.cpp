@@ -1406,7 +1406,7 @@ LayerManagerDestroyed
 }
 mRootForShadowTree
 =
-nsnull
+nullptr
 ;
 }
 LayerManager
@@ -1500,8 +1500,8 @@ false
 ;
 EndTransaction
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 return
@@ -1592,13 +1592,13 @@ mCurrentCallbackInfo
 .
 Callback
 =
-nsnull
+nullptr
 ;
 mCurrentCallbackInfo
 .
 CallbackData
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -1627,7 +1627,7 @@ EndTransaction
 endif
 mTarget
 =
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -2855,7 +2855,7 @@ return
 }
 mRTView
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3030,7 +3030,7 @@ CreateTexture2D
 (
 &
 desc
-nsnull
+nullptr
 getter_AddRefs
 (
 mBackBuffer
@@ -3081,7 +3081,7 @@ buffer
 }
 mRTView
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -3544,7 +3544,7 @@ mRootForShadowTree
 InsertAfter
 (
 windowLayer
-nsnull
+nullptr
 )
 ;
 ShadowLayerForwarder
@@ -4541,7 +4541,7 @@ shader
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -4760,7 +4760,7 @@ aManager
 ThebesLayer
 (
 aManager
-nsnull
+nullptr
 )
 {
 }
@@ -4796,7 +4796,7 @@ aManager
 ContainerLayer
 (
 aManager
-nsnull
+nullptr
 )
 {
 }
@@ -4810,7 +4810,7 @@ DummyRoot
 {
 RemoveChild
 (
-nsnull
+nullptr
 )
 ;
 PLayerChild

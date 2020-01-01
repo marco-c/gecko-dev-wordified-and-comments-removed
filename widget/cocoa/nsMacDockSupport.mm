@@ -129,7 +129,7 @@ aDockMenu
 *
 aDockMenu
 =
-nsnull
+nullptr
 ;
 if
 (

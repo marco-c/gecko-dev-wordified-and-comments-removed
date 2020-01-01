@@ -172,7 +172,7 @@ char
 *
 uri
 =
-nsnull
+nullptr
 ;
 mNode
 -
@@ -395,7 +395,7 @@ NS_OK
 *
 aValue
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

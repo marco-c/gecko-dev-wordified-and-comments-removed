@@ -66,7 +66,7 @@ mutex
 )
 mCertList
 (
-nsnull
+nullptr
 )
 {
 }
@@ -307,7 +307,7 @@ isAlreadyShutDown
 )
 )
 return
-nsnull
+nullptr
 ;
 MutexAutoLock
 lock

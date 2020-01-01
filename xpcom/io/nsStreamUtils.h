@@ -107,12 +107,12 @@ aChunkSize
 nsAsyncCopyCallbackFun
 aCallbackFun
 =
-nsnull
+nullptr
 void
 *
 aCallbackClosure
 =
-nsnull
+nullptr
 bool
 aCloseSource
 =
@@ -126,7 +126,7 @@ nsISupports
 *
 aCopierCtx
 =
-nsnull
+nullptr
 )
 ;
 extern

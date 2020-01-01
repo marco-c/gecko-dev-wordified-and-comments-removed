@@ -316,7 +316,7 @@ triedToWrap
 false
 ;
 return
-nsnull
+nullptr
 ;
 }
 bool

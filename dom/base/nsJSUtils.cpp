@@ -116,7 +116,7 @@ JSScript
 *
 script
 =
-nsnull
+nullptr
 ;
 unsigned
 lineno
@@ -191,7 +191,7 @@ if
 glob
 )
 return
-nsnull
+nullptr
 ;
 glob
 =
@@ -277,7 +277,7 @@ glob
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -313,7 +313,7 @@ supports
 NS_ENSURE_TRUE
 (
 wrapper
-nsnull
+nullptr
 )
 ;
 sgo
@@ -359,7 +359,7 @@ if
 nativeGlobal
 )
 return
-nsnull
+nullptr
 ;
 return
 nativeGlobal
@@ -397,7 +397,7 @@ if
 scriptCX
 )
 return
-nsnull
+nullptr
 ;
 return
 scriptCX

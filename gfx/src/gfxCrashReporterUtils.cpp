@@ -89,7 +89,7 @@ nsCString
 *
 gFeaturesAlreadyReported
 =
-nsnull
+nullptr
 ;
 class
 ObserverToDestroyFeaturesAlreadyReported
@@ -163,7 +163,7 @@ gFeaturesAlreadyReported
 ;
 gFeaturesAlreadyReported
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -273,7 +273,7 @@ rv
 {
 observer
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

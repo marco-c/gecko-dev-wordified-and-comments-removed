@@ -653,8 +653,8 @@ i
 .
 url
 )
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 tempChannel
@@ -697,7 +697,7 @@ tempChannel
 >
 SetOwner
 (
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -832,7 +832,7 @@ if
 about
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY

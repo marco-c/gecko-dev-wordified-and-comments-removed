@@ -1253,8 +1253,8 @@ isWindowed
 ChildAsyncCall
 (
 aInst
-nsnull
-nsnull
+nullptr
+nullptr
 )
 mWnd
 (

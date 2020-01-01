@@ -1396,13 +1396,13 @@ GetSelectedBox
 (
 )
 :
-nsnull
+nullptr
 ;
 Accessible
 *
 selectedAcc
 =
-nsnull
+nullptr
 ;
 if
 (

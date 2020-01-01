@@ -260,7 +260,7 @@ nsMenuBarX
 :
 sLastGeckoMenuBarPainted
 =
-nsnull
+nullptr
 ;
 NSMenu
 *
@@ -354,28 +354,28 @@ nsIContent
 *
 sAboutItemContent
 =
-nsnull
+nullptr
 ;
 static
 nsIContent
 *
 sUpdateItemContent
 =
-nsnull
+nullptr
 ;
 static
 nsIContent
 *
 sPrefItemContent
 =
-nsnull
+nullptr
 ;
 static
 nsIContent
 *
 sQuitItemContent
 =
-nsnull
+nullptr
 ;
 NS_IMPL_ISUPPORTS1
 (
@@ -457,7 +457,7 @@ nsMenuGroupOwnerX
 )
 mParentWindow
 (
-nsnull
+nullptr
 )
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
@@ -504,7 +504,7 @@ nsMenuBarX
 :
 sLastGeckoMenuBarPainted
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -547,7 +547,7 @@ mAboutItemContent
 )
 sAboutItemContent
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -558,7 +558,7 @@ mUpdateItemContent
 )
 sUpdateItemContent
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -569,7 +569,7 @@ mQuitItemContent
 )
 sQuitItemContent
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -580,7 +580,7 @@ mPrefItemContent
 )
 sPrefItemContent
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -2869,7 +2869,7 @@ NS_LITERAL_STRING
 aboutSeparator
 "
 )
-nsnull
+nullptr
 )
 ;
 HideItem
@@ -2927,7 +2927,7 @@ NS_LITERAL_STRING
 updateSeparator
 "
 )
-nsnull
+nullptr
 )
 ;
 HideItem
@@ -2971,7 +2971,7 @@ NS_LITERAL_STRING
 menu_FileQuitSeparator
 "
 )
-nsnull
+nullptr
 )
 ;
 HideItem
@@ -3032,7 +3032,7 @@ NS_LITERAL_STRING
 menu_PrefsSeparator
 "
 )
-nsnull
+nullptr
 )
 ;
 HideItem
@@ -3079,7 +3079,7 @@ NS_LITERAL_STRING
 menu_mac_services
 "
 )
-nsnull
+nullptr
 )
 ;
 HideItem
@@ -3091,7 +3091,7 @@ NS_LITERAL_STRING
 menu_mac_hide_app
 "
 )
-nsnull
+nullptr
 )
 ;
 HideItem
@@ -3103,7 +3103,7 @@ NS_LITERAL_STRING
 menu_mac_hide_others
 "
 )
-nsnull
+nullptr
 )
 ;
 HideItem
@@ -3115,7 +3115,7 @@ NS_LITERAL_STRING
 menu_mac_show_all
 "
 )
-nsnull
+nullptr
 )
 ;
 }
@@ -5671,7 +5671,7 @@ nsMenuBarX
 *
 menuBar
 =
-nsnull
+nullptr
 ;
 if
 (

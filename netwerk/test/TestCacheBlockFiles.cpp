@@ -1111,8 +1111,8 @@ getter_AddRefs
 (
 servMan
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 nsCOMPtr
@@ -1144,7 +1144,7 @@ registrar
 >
 AutoRegister
 (
-nsnull
+nullptr
 )
 ;
 rv
@@ -5090,7 +5090,7 @@ rv
 =
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION

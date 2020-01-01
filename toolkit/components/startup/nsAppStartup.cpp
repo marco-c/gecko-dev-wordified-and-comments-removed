@@ -1663,7 +1663,7 @@ mediator
 >
 GetEnumerator
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 windowEnumerator
@@ -1839,7 +1839,7 @@ obsService
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 quit
 -
@@ -1847,7 +1847,7 @@ application
 -
 granted
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -1877,7 +1877,7 @@ mediator
 >
 GetEnumerator
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 windowEnumerator
@@ -2009,7 +2009,7 @@ obsService
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 quit
 -
@@ -2135,7 +2135,7 @@ mediator
 >
 GetEnumerator
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 windowEnumerator
@@ -4503,7 +4503,7 @@ prefs
 >
 SavePrefFile
 (
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4822,7 +4822,7 @@ prefs
 >
 SavePrefFile
 (
-nsnull
+nullptr
 )
 ;
 return

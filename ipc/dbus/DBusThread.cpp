@@ -2527,7 +2527,7 @@ sDBusThread
 ;
 sDBusThread
 =
-nsnull
+nullptr
 ;
 return
 thread

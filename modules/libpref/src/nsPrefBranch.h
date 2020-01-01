@@ -227,7 +227,7 @@ aBranch
 )
 mWeakRef
 (
-nsnull
+nullptr
 )
 mStrongRef
 (
@@ -286,7 +286,7 @@ aObserver
 )
 mStrongRef
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR

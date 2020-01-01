@@ -1657,7 +1657,7 @@ mFrontSurface
 {
 mCARenderer
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -1684,7 +1684,7 @@ mCARenderer
 {
 mFrontSurface
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -1732,11 +1732,11 @@ NS_OK
 {
 mCARenderer
 =
-nsnull
+nullptr
 ;
 mFrontSurface
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -1792,7 +1792,7 @@ GetFrontSurfaceWidth
 GetFrontSurfaceHeight
 (
 )
-nsnull
+nullptr
 )
 ;
 }
@@ -1845,7 +1845,7 @@ ClearFrontSurface
 {
 mFrontSurface
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1859,7 +1859,7 @@ mBackSurface
 {
 mCARenderer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1873,7 +1873,7 @@ ClearBackSurface
 {
 mBackSurface
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1887,7 +1887,7 @@ mBackSurface
 {
 mCARenderer
 =
-nsnull
+nullptr
 ;
 }
 }

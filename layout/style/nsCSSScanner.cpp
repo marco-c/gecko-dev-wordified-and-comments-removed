@@ -1303,7 +1303,7 @@ nsCSSScanner
 :
 mReadPointer
 (
-nsnull
+nullptr
 )
 mSVGMode
 (
@@ -1331,11 +1331,11 @@ false
 )
 mSheet
 (
-nsnull
+nullptr
 )
 mLoader
 (
-nsnull
+nullptr
 )
 #
 endif
@@ -1511,7 +1511,7 @@ CSS_ERRORS_PREF
 CSSErrorsPrefChanged
 (
 CSS_ERRORS_PREF
-nsnull
+nullptr
 )
 ;
 #
@@ -2030,7 +2030,7 @@ rv
 {
 gStringBundle
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -2429,7 +2429,7 @@ aParams
 ]
 =
 =
-nsnull
+nullptr
 "
 first
 param
@@ -2490,7 +2490,7 @@ Close
 {
 mReadPointer
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -2503,7 +2503,7 @@ Truncate
 ;
 mURI
 =
-nsnull
+nullptr
 ;
 mError
 .
@@ -2521,11 +2521,11 @@ false
 ;
 mSheet
 =
-nsnull
+nullptr
 ;
 mLoader
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -2814,7 +2814,7 @@ mPushbackSize
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 newPushback

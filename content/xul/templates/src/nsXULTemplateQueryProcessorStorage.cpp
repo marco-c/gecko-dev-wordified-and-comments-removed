@@ -162,7 +162,7 @@ rv
 {
 mStatement
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -285,7 +285,7 @@ aResult
 {
 mStatement
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -632,7 +632,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 *
 aShouldDelayBuilding
@@ -1428,7 +1428,7 @@ nsGkAtoms
 :
 :
 string
-nsnull
+nullptr
 }
 ;
 PRInt32
@@ -1835,7 +1835,7 @@ result
 new
 nsXULTemplateResultStorage
 (
-nsnull
+nullptr
 )
 ;
 if

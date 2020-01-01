@@ -42,7 +42,7 @@ nsCommandHandler
 :
 mWindow
 (
-nsnull
+nullptr
 )
 {
 }
@@ -75,14 +75,14 @@ aCommandHandler
 *
 aCommandHandler
 =
-nsnull
+nullptr
 ;
 if
 (
 mWindow
 =
 =
-nsnull
+nullptr
 )
 {
 return
@@ -131,7 +131,7 @@ nsIDocShellTreeOwner
 *
 treeOwner
 =
-nsnull
+nullptr
 ;
 docShellAsTreeItem
 -
@@ -223,7 +223,7 @@ treeOwner
 *
 aCommandHandler
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -270,7 +270,7 @@ aWindow
 *
 aWindow
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -292,7 +292,7 @@ if
 aWindow
 =
 =
-nsnull
+nullptr
 )
 {
 return
@@ -359,7 +359,7 @@ commandHandler
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 commandHandler
@@ -457,7 +457,7 @@ commandHandler
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 commandHandler

@@ -616,7 +616,7 @@ rv2
 NS_ERROR_DOM_NOT_FOUND_ERR
 )
 return
-nsnull
+nullptr
 ;
 *
 rv
@@ -645,7 +645,7 @@ StorageItem
 Tnull_t
 )
 return
-nsnull
+nullptr
 ;
 const
 ItemData
@@ -1018,7 +1018,7 @@ GetSingleton
 StorageClone
 clone
 (
-nsnull
+nullptr
 other
 aCallerSecure
 )

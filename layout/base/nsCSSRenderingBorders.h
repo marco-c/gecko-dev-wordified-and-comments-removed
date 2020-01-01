@@ -636,7 +636,7 @@ char
 *
 s
 =
-nsnull
+nullptr
 )
 {
 if
@@ -887,7 +887,7 @@ char
 *
 s
 =
-nsnull
+nullptr
 )
 {
 }

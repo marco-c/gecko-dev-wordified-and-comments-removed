@@ -256,7 +256,7 @@ eCommand_ID_Last
 )
 mDocument
 (
-nsnull
+nullptr
 )
 {
 mContentToObserverTable
@@ -481,7 +481,7 @@ being
 destroyed
 mDocument
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -1022,7 +1022,7 @@ result
 ;
 else
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -1233,6 +1233,6 @@ result
 ;
 else
 return
-nsnull
+nullptr
 ;
 }

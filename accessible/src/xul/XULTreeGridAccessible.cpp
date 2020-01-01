@@ -587,7 +587,7 @@ if
 row
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -610,7 +610,7 @@ if
 column
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -629,7 +629,7 @@ if
 rowAcc
 )
 return
-nsnull
+nullptr
 ;
 return
 rowAcc
@@ -951,7 +951,7 @@ Shutdown
 {
 mTable
 =
-nsnull
+nullptr
 ;
 XULTreeAccessible
 :
@@ -1327,7 +1327,7 @@ if
 frame
 )
 return
-nsnull
+nullptr
 ;
 nsPresContext
 *
@@ -1365,7 +1365,7 @@ GetRootFrame
 NS_ENSURE_TRUE
 (
 rootFrame
-nsnull
+nullptr
 )
 ;
 nsIntRect
@@ -1451,7 +1451,7 @@ mRow
 column
 )
 return
-nsnull
+nullptr
 ;
 return
 GetCellAccessible
@@ -1478,7 +1478,7 @@ IsDefunct
 )
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1501,7 +1501,7 @@ if
 column
 )
 return
-nsnull
+nullptr
 ;
 return
 GetCellAccessible
@@ -1624,7 +1624,7 @@ Document
 BindToDocument
 (
 cell
-nsnull
+nullptr
 )
 )
 return
@@ -1639,7 +1639,7 @@ key
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -1897,7 +1897,7 @@ Shutdown
 {
 mTableCell
 =
-nsnull
+nullptr
 ;
 LeafAccessible
 :
@@ -1917,7 +1917,7 @@ FocusedChild
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 ENameValueFlag
@@ -2538,7 +2538,7 @@ aTable
 *
 aTable
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2726,7 +2726,7 @@ aHeaderCells
 *
 aHeaderCells
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2858,7 +2858,7 @@ aHeaderCells
 *
 aHeaderCells
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3745,7 +3745,7 @@ if
 columnAtOffset
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <

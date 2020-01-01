@@ -54,7 +54,7 @@ NS_ENSURE_TRUE
 aFD
 !
 =
-nsnull
+nullptr
 NS_ERROR_FAILURE
 )
 ;
@@ -86,7 +86,7 @@ getter_AddRefs
 (
 mThread
 )
-nsnull
+nullptr
 MEDIA_THREAD_STACK_SIZE
 )
 ;
@@ -123,7 +123,7 @@ Monitor
 )
 mFD
 (
-nsnull
+nullptr
 )
 mFDCurrentPos
 (
@@ -198,7 +198,7 @@ mFD
 ;
 mFD
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -259,7 +259,7 @@ mThread
 ;
 mThread
 =
-nsnull
+nullptr
 ;
 NS_DispatchToMainThread
 (
@@ -314,7 +314,7 @@ aBlockIndex
 ]
 !
 =
-nsnull
+nullptr
 ;
 mBlockChanges
 [
@@ -891,7 +891,7 @@ mBlockChanges
 blockIndex
 ]
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1208,7 +1208,7 @@ BlockChange
 *
 sourceBlock
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -1246,7 +1246,7 @@ aDestBlockIndex
 ]
 =
 =
-nsnull
+nullptr
 |
 |
 !

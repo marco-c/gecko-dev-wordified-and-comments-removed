@@ -677,7 +677,7 @@ are
 currently
 visible
 .
-nsnull
+nullptr
 is
 a
 valid
@@ -695,7 +695,7 @@ the
 visibility
 settings
 pass
-nsnull
+nullptr
 in
 for
 the

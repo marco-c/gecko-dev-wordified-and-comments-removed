@@ -221,11 +221,11 @@ XPCJSStackFrame
 :
 mFilename
 (
-nsnull
+nullptr
 )
 mFunname
 (
-nsnull
+nullptr
 )
 mLineno
 (
@@ -1076,7 +1076,7 @@ aSourceLine
 *
 aSourceLine
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

@@ -1514,7 +1514,7 @@ Layer
 *
 minNode
 =
-nsnull
+nullptr
 ;
 for
 (

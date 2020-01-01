@@ -1512,7 +1512,7 @@ GetFirstChildOGL
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual

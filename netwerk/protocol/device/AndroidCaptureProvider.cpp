@@ -1080,11 +1080,11 @@ callback
 ;
 mCallback
 =
-nsnull
+nullptr
 ;
 mCallbackTarget
 =
-nsnull
+nullptr
 ;
 callback
 -

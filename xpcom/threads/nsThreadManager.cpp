@@ -313,7 +313,7 @@ rv
 {
 mMainThread
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -497,7 +497,7 @@ mMainThread
 >
 SetObserver
 (
-nsnull
+nullptr
 )
 ;
 mMainThread
@@ -509,16 +509,16 @@ ClearObservers
 ;
 mMainThread
 =
-nsnull
+nullptr
 ;
 mLock
 =
-nsnull
+nullptr
 ;
 PR_SetThreadPrivate
 (
 mCurThreadIndex
-nsnull
+nullptr
 )
 ;
 }
@@ -636,7 +636,7 @@ GetPRThread
 PR_SetThreadPrivate
 (
 mCurThreadIndex
-nsnull
+nullptr
 )
 ;
 }
@@ -679,7 +679,7 @@ mInitialized
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -715,7 +715,7 @@ InitCurrentThread
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 thread

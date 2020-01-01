@@ -1411,7 +1411,7 @@ argv
 ]
 =
 {
-nsnull
+nullptr
 "
 -
 file
@@ -2034,7 +2034,7 @@ application
 -
 requested
 "
-nsnull
+nullptr
 )
 ;
 bool
@@ -2371,7 +2371,7 @@ argv
 ]
 =
 {
-nsnull
+nullptr
 "
 -
 url

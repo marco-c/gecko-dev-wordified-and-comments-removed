@@ -1215,7 +1215,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1590,7 +1590,7 @@ getter_AddRefs
 channel
 )
 aURL
-nsnull
+nullptr
 )
 ;
 if
@@ -1748,7 +1748,7 @@ aConsumer
 OnStartRequest
 (
 channel
-nsnull
+nullptr
 )
 ;
 PRUint32
@@ -1820,7 +1820,7 @@ aConsumer
 OnDataAvailable
 (
 channel
-nsnull
+nullptr
 bufStream
 offset
 avail
@@ -1869,7 +1869,7 @@ aConsumer
 OnStopRequest
 (
 channel
-nsnull
+nullptr
 rv
 )
 ;
@@ -1925,7 +1925,7 @@ OnError
 (
 this
 rv
-nsnull
+nullptr
 )
 ;
 obs
@@ -1984,7 +1984,7 @@ NS_PRECONDITION
 mInner
 !
 =
-nsnull
+nullptr
 "
 not
 initialized
@@ -2109,7 +2109,7 @@ aURI
 *
 aURI
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2815,7 +2815,7 @@ NS_PRECONDITION
 aURI
 !
 =
-nsnull
+nullptr
 "
 not
 initialized
@@ -3444,7 +3444,7 @@ this
 ;
 mListener
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3464,10 +3464,10 @@ rv
 NS_OpenURI
 (
 this
-nsnull
+nullptr
 mURL
-nsnull
-nsnull
+nullptr
+nullptr
 this
 )
 ;
@@ -4148,7 +4148,7 @@ OnError
 (
 this
 status
-nsnull
+nullptr
 )
 ;
 }
@@ -4171,7 +4171,7 @@ status
 ;
 mListener
 =
-nsnull
+nullptr
 ;
 return
 rv

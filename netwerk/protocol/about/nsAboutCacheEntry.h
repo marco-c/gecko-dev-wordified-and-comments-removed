@@ -103,7 +103,7 @@ nsAboutCacheEntry
 :
 mBuffer
 (
-nsnull
+nullptr
 )
 {
 }

@@ -140,7 +140,7 @@ get
 )
 =
 =
-nsnull
+nullptr
 )
 {
 mMimeService

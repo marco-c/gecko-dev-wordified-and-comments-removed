@@ -32,7 +32,7 @@ nsCacheMetaData
 :
 mBuffer
 (
-nsnull
+nullptr
 )
 mBufferSize
 (

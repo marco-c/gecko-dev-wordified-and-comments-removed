@@ -553,7 +553,7 @@ JSContext
 *
 aCx
 =
-nsnull
+nullptr
 )
 ;
 ~

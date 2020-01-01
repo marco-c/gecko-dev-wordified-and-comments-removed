@@ -34,7 +34,7 @@ aValue
 :
 mAttrValue
 (
-nsnull
+nullptr
 )
 mStringPtr
 (
@@ -43,7 +43,7 @@ aValue
 )
 mCheapString
 (
-nsnull
+nullptr
 )
 {
 }
@@ -62,11 +62,11 @@ aValue
 )
 mStringPtr
 (
-nsnull
+nullptr
 )
 mCheapString
 (
-nsnull
+nullptr
 )
 {
 }

@@ -75,7 +75,7 @@ ClearInsertionParent
 {
 mParentElement
 =
-nsnull
+nullptr
 ;
 }
 PRInt32

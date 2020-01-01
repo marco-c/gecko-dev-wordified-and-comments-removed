@@ -44,7 +44,7 @@ mData
 ;
 mEUCKRDecoder
 =
-nsnull
+nullptr
 ;
 mRunLength
 =

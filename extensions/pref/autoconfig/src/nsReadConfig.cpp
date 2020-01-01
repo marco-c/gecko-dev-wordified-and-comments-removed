@@ -355,7 +355,7 @@ promptService
 >
 Alert
 (
-nsnull
+nullptr
 title
 .
 get
@@ -620,7 +620,7 @@ prefService
 >
 GetDefaultBranch
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 defaultPrefBranch
@@ -780,7 +780,7 @@ prefService
 >
 GetBranch
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 prefBranch
@@ -1226,8 +1226,8 @@ ioService
 NewURI
 (
 location
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 uri

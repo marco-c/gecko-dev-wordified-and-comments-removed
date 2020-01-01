@@ -1193,7 +1193,7 @@ paramsArray
 ;
 paramsArray
 =
-nsnull
+nullptr
 ;
 mozIStorageBaseStatement
 *
@@ -1343,7 +1343,7 @@ paramsArray
 ;
 paramsArray
 =
-nsnull
+nullptr
 ;
 mozIStorageBaseStatement
 *
@@ -1541,7 +1541,7 @@ paramsArray
 ;
 paramsArray
 =
-nsnull
+nullptr
 ;
 mozIStorageBaseStatement
 *
@@ -1739,7 +1739,7 @@ paramsArray
 ;
 paramsArray
 =
-nsnull
+nullptr
 ;
 mozIStorageBaseStatement
 *

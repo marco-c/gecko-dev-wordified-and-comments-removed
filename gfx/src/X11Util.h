@@ -283,7 +283,7 @@ XErrorEvent
 *
 ev
 =
-nsnull
+nullptr
 )
 ;
 bool
@@ -293,7 +293,7 @@ XErrorEvent
 *
 ev
 =
-nsnull
+nullptr
 )
 ;
 }

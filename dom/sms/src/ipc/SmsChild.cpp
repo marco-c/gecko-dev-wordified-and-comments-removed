@@ -123,7 +123,7 @@ NotifyObservers
 (
 message
 kSmsReceivedObserverTopic
-nsnull
+nullptr
 )
 ;
 return
@@ -184,7 +184,7 @@ NotifyObservers
 (
 message
 kSmsSentObserverTopic
-nsnull
+nullptr
 )
 ;
 return
@@ -245,7 +245,7 @@ NotifyObservers
 (
 message
 kSmsDeliveredObserverTopic
-nsnull
+nullptr
 )
 ;
 return

@@ -215,7 +215,7 @@ OwnerDoc
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 bool

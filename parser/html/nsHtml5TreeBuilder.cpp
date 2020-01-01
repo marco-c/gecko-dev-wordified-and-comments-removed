@@ -1233,15 +1233,15 @@ listPtr
 ;
 formPointer
 =
-nsnull
+nullptr
 ;
 headPointer
 =
-nsnull
+nullptr
 ;
 deepTreeSurrogateParent
 =
-nsnull
+nullptr
 ;
 start
 (
@@ -1494,11 +1494,11 @@ contextName
 }
 contextName
 =
-nsnull
+nullptr
 ;
 contextNode
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -2240,8 +2240,8 @@ NS_HTML5TREE_BUILDER_INITIAL
 documentModeInternal
 (
 QUIRKS_MODE
-nsnull
-nsnull
+nullptr
+nullptr
 false
 )
 ;
@@ -2902,8 +2902,8 @@ NS_HTML5TREE_BUILDER_INITIAL
 documentModeInternal
 (
 QUIRKS_MODE
-nsnull
-nsnull
+nullptr
+nullptr
 false
 )
 ;
@@ -3171,15 +3171,15 @@ endTokenization
 {
 formPointer
 =
-nsnull
+nullptr
 ;
 headPointer
 =
-nsnull
+nullptr
 ;
 deepTreeSurrogateParent
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3605,7 +3605,7 @@ attributes
 }
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -3649,7 +3649,7 @@ attributes
 }
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -3698,7 +3698,7 @@ NS_HTML5TREE_BUILDER_IN_ROW
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -3838,7 +3838,7 @@ insertMarker
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -3949,7 +3949,7 @@ NS_HTML5TREE_BUILDER_IN_CAPTION
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -3981,7 +3981,7 @@ NS_HTML5TREE_BUILDER_IN_COLUMN_GROUP
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -4047,7 +4047,7 @@ NS_HTML5TREE_BUILDER_IN_TABLE_BODY
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -4202,7 +4202,7 @@ elementName
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -4239,7 +4239,7 @@ elementName
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -4294,7 +4294,7 @@ false
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -4335,7 +4335,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -4636,7 +4636,7 @@ NS_HTML5TREE_BUILDER_IN_FRAMESET
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -4801,7 +4801,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 }
 NS_HTML5_BREAK
@@ -4905,7 +4905,7 @@ attributes
 {
 attributes
 =
-nsnull
+nullptr
 ;
 }
 NS_HTML5_BREAK
@@ -4939,7 +4939,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -4988,7 +4988,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -5013,7 +5013,7 @@ formPointer
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -5041,7 +5041,7 @@ true
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -5081,7 +5081,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -5253,7 +5253,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -5286,7 +5286,7 @@ elementName
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -5394,7 +5394,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -5430,7 +5430,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -5486,7 +5486,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -5580,7 +5580,7 @@ formPointer
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -5610,7 +5610,7 @@ insertMarker
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -5638,7 +5638,7 @@ insertMarker
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -5673,7 +5673,7 @@ NS_HTML5TREE_BUILDER_IN_TABLE
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -5720,7 +5720,7 @@ false
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -5748,7 +5748,7 @@ false
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -5801,7 +5801,7 @@ false
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -6188,7 +6188,7 @@ true
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -6233,7 +6233,7 @@ elementName
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -6263,7 +6263,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -6310,7 +6310,7 @@ elementName
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -6377,7 +6377,7 @@ break
 }
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -6420,7 +6420,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -6493,7 +6493,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -6543,7 +6543,7 @@ attributes
 }
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -6593,7 +6593,7 @@ attributes
 }
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -6657,7 +6657,7 @@ formPointer
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -6680,7 +6680,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -6731,7 +6731,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 }
 NS_HTML5_BREAK
@@ -6759,7 +6759,7 @@ false
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -6809,7 +6809,7 @@ elementName
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -6865,7 +6865,7 @@ NS_HTML5TREE_BUILDER_IN_HEAD_NOSCRIPT
 }
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -6902,7 +6902,7 @@ elementName
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -6942,7 +6942,7 @@ elementName
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -7019,7 +7019,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 }
 NS_HTML5_BREAK
@@ -7044,7 +7044,7 @@ false
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -7073,7 +7073,7 @@ false
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -7113,7 +7113,7 @@ elementName
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -7203,7 +7203,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 }
 NS_HTML5_BREAK
@@ -7228,7 +7228,7 @@ false
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -7378,7 +7378,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 }
 NS_HTML5_BREAK
@@ -7415,7 +7415,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -7467,7 +7467,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -7622,7 +7622,7 @@ elementName
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -7677,7 +7677,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 }
 NS_HTML5_BREAK
@@ -7728,7 +7728,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -7752,7 +7752,7 @@ false
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -7796,7 +7796,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 }
 NS_HTML5_BREAK
@@ -7834,7 +7834,7 @@ elementName
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -7869,8 +7869,8 @@ errStartTagWithoutDoctype
 documentModeInternal
 (
 QUIRKS_MODE
-nsnull
-nsnull
+nullptr
+nullptr
 false
 )
 ;
@@ -7924,7 +7924,7 @@ NS_HTML5TREE_BUILDER_BEFORE_HEAD
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -7979,7 +7979,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 }
 NS_HTML5_BREAK
@@ -8003,7 +8003,7 @@ NS_HTML5TREE_BUILDER_IN_HEAD
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -8062,7 +8062,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 }
 NS_HTML5_BREAK
@@ -8109,7 +8109,7 @@ NS_HTML5TREE_BUILDER_IN_BODY
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -8133,7 +8133,7 @@ NS_HTML5TREE_BUILDER_IN_FRAMESET
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -8170,7 +8170,7 @@ pop
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -8207,7 +8207,7 @@ pop
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -8249,7 +8249,7 @@ pop
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -8295,7 +8295,7 @@ elementName
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -8344,7 +8344,7 @@ elementName
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -8390,7 +8390,7 @@ elementName
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -8460,7 +8460,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 }
 NS_HTML5_BREAK
@@ -8521,7 +8521,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 }
 NS_HTML5_BREAK
@@ -8559,7 +8559,7 @@ elementName
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 NS_HTML5_BREAK
 (
@@ -9087,7 +9087,7 @@ default
 :
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -9327,7 +9327,7 @@ nsString
 *
 charset
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -10852,7 +10852,7 @@ endtagloop
 }
 formPointer
 =
-nsnull
+nullptr
 ;
 eltPos
 =
@@ -12220,8 +12220,8 @@ errEndTagSeenWithoutDoctype
 documentModeInternal
 (
 QUIRKS_MODE
-nsnull
-nsnull
+nullptr
+nullptr
 false
 )
 ;
@@ -14384,7 +14384,7 @@ stack
 currentPtr
 ]
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -14403,7 +14403,7 @@ listOfActiveFormattingElements
 listPtr
 ]
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -15334,7 +15334,7 @@ attributes
 >
 cloneAttributes
 (
-nsnull
+nullptr
 )
 )
 ;
@@ -15511,7 +15511,7 @@ attributes
 >
 cloneAttributes
 (
-nsnull
+nullptr
 )
 )
 ;
@@ -16293,7 +16293,7 @@ attributes
 >
 cloneAttributes
 (
-nsnull
+nullptr
 )
 )
 ;
@@ -16975,7 +16975,7 @@ attributes
 >
 cloneAttributes
 (
-nsnull
+nullptr
 )
 )
 ;
@@ -17453,7 +17453,7 @@ name
 attributes
 fragment
 ?
-nsnull
+nullptr
 :
 form
 )
@@ -17542,7 +17542,7 @@ name
 attributes
 fragment
 ?
-nsnull
+nullptr
 :
 form
 )
@@ -17890,7 +17890,7 @@ name
 attributes
 fragment
 ?
-nsnull
+nullptr
 :
 form
 )
@@ -18526,7 +18526,7 @@ attributes
 >
 cloneAttributes
 (
-nsnull
+nullptr
 )
 )
 ;
@@ -18545,7 +18545,7 @@ listCopy
 i
 ]
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -18645,7 +18645,7 @@ node
 -
 >
 popName
-nsnull
+nullptr
 )
 ;
 stackCopy
@@ -19272,7 +19272,7 @@ attributes
 >
 cloneAttributes
 (
-nsnull
+nullptr
 )
 )
 ;
@@ -19291,7 +19291,7 @@ listOfActiveFormattingElements
 i
 ]
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -19381,7 +19381,7 @@ node
 popName
 interner
 )
-nsnull
+nullptr
 )
 ;
 stack

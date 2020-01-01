@@ -88,7 +88,7 @@ else
 {
 str
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -129,7 +129,7 @@ IsEmpty
 {
 str
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -394,7 +394,7 @@ this
 -
 >
 vendor
-nsnull
+nullptr
 )
 ;
 SetAllocatedString
@@ -403,7 +403,7 @@ this
 -
 >
 name
-nsnull
+nullptr
 )
 ;
 SetAllocatedString
@@ -412,7 +412,7 @@ this
 -
 >
 version
-nsnull
+nullptr
 )
 ;
 SetAllocatedString
@@ -421,7 +421,7 @@ this
 -
 >
 buildID
-nsnull
+nullptr
 )
 ;
 SetAllocatedString
@@ -430,7 +430,7 @@ this
 -
 >
 ID
-nsnull
+nullptr
 )
 ;
 SetAllocatedString
@@ -439,7 +439,7 @@ this
 -
 >
 copyright
-nsnull
+nullptr
 )
 ;
 SetAllocatedString
@@ -448,7 +448,7 @@ this
 -
 >
 profile
-nsnull
+nullptr
 )
 ;
 NS_IF_RELEASE
@@ -469,7 +469,7 @@ xreDirectory
 nsIFile
 *
 )
-nsnull
+nullptr
 )
 ;
 SetAllocatedString
@@ -478,7 +478,7 @@ this
 -
 >
 minVersion
-nsnull
+nullptr
 )
 ;
 SetAllocatedString
@@ -487,7 +487,7 @@ this
 -
 >
 maxVersion
-nsnull
+nullptr
 )
 ;
 SetAllocatedString
@@ -496,7 +496,7 @@ this
 -
 >
 crashReporterURL
-nsnull
+nullptr
 )
 ;
 SetAllocatedString
@@ -505,7 +505,7 @@ this
 -
 >
 UAName
-nsnull
+nullptr
 )
 ;
 }

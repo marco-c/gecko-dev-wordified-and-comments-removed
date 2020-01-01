@@ -277,7 +277,7 @@ mTexture
 ;
 mContext
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -580,7 +580,7 @@ mTexture
 }
 mContext
 =
-nsnull
+nullptr
 ;
 }
 TextureRecycleBin
@@ -1216,7 +1216,7 @@ gl
 {
 data
 =
-nsnull
+nullptr
 ;
 yuvImage
 -
@@ -1224,7 +1224,7 @@ yuvImage
 SetBackendData
 (
 LAYERS_OPENGL
-nsnull
+nullptr
 )
 ;
 }
@@ -1663,7 +1663,7 @@ gl
 {
 data
 =
-nsnull
+nullptr
 ;
 cairoImage
 -
@@ -1671,7 +1671,7 @@ cairoImage
 SetBackendData
 (
 LAYERS_OPENGL
-nsnull
+nullptr
 )
 ;
 }
@@ -2070,7 +2070,7 @@ GetContainer
 ;
 image
 =
-nsnull
+nullptr
 ;
 autoLock
 .
@@ -3885,7 +3885,7 @@ aManager
 ShadowImageLayer
 (
 aManager
-nsnull
+nullptr
 )
 LayerOGL
 (
@@ -5986,7 +5986,7 @@ Release
 ;
 mTexImage
 =
-nsnull
+nullptr
 ;
 }
 }

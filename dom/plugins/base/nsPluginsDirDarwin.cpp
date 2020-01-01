@@ -437,7 +437,7 @@ newBuffer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -460,7 +460,7 @@ newBuffer
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 newBuffer
@@ -2268,7 +2268,7 @@ outLibrary
 *
 outLibrary
 =
-nsnull
+nullptr
 ;
 nsresult
 rv

@@ -72,7 +72,7 @@ NS_ASSERTION
 aOuter
 =
 =
-nsnull
+nullptr
 "
 no
 aggregation

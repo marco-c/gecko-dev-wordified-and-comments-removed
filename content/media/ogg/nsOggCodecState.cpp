@@ -470,7 +470,7 @@ forget
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 nsOggCodecState
@@ -920,7 +920,7 @@ IsEmpty
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -6553,7 +6553,7 @@ nsKeyFrameIndex
 *
 index
 =
-nsnull
+nullptr
 ;
 mIndex
 .
@@ -6972,7 +6972,7 @@ nsKeyFrameIndex
 *
 index
 =
-nsnull
+nullptr
 ;
 mIndex
 .

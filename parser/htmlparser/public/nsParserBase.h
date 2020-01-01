@@ -43,7 +43,7 @@ aChannel
 *
 aChannel
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

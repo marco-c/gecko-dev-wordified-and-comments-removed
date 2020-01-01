@@ -683,7 +683,7 @@ nsEventStateManager
 :
 sActiveESM
 =
-nsnull
+nullptr
 ;
 nsIDocument
 *
@@ -692,7 +692,7 @@ nsEventStateManager
 :
 sMouseOverDocument
 =
-nsnull
+nullptr
 ;
 nsWeakFrame
 nsEventStateManager
@@ -700,7 +700,7 @@ nsEventStateManager
 :
 sLastDragOverFrame
 =
-nsnull
+nullptr
 ;
 nsIntPoint
 nsEventStateManager
@@ -767,7 +767,7 @@ nsEventStateManager
 :
 sDragOverContent
 =
-nsnull
+nullptr
 ;
 static
 PRUint32
@@ -780,14 +780,14 @@ nsITimer
 *
 gUserInteractionTimer
 =
-nsnull
+nullptr
 ;
 static
 nsITimerCallback
 *
 gUserInteractionTimerCallback
 =
-nsnull
+nullptr
 ;
 static
 nscoord
@@ -1035,7 +1035,7 @@ GetWindow
 (
 )
 :
-nsnull
+nullptr
 ;
 nsIURI
 *
@@ -1050,7 +1050,7 @@ GetDocumentURI
 (
 )
 :
-nsnull
+nullptr
 ;
 printf
 (
@@ -1143,7 +1143,7 @@ EventStateManager
 (
 )
 :
-nsnull
+nullptr
 )
 uri
 ?
@@ -1396,7 +1396,7 @@ obs
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 user
 -
@@ -1404,7 +1404,7 @@ interaction
 -
 inactive
 "
-nsnull
+nullptr
 )
 ;
 if
@@ -1433,7 +1433,7 @@ obs
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 user
 -
@@ -1441,7 +1441,7 @@ interaction
 -
 active
 "
-nsnull
+nullptr
 )
 ;
 nsEventStateManager
@@ -2087,7 +2087,7 @@ nsMouseWheelTransaction
 :
 sTargetFrame
 (
-nsnull
+nullptr
 )
 ;
 PRUint32
@@ -2113,7 +2113,7 @@ nsMouseWheelTransaction
 :
 sTimer
 =
-nsnull
+nullptr
 ;
 PRInt32
 nsMouseWheelTransaction
@@ -2454,7 +2454,7 @@ Cancel
 ;
 sTargetFrame
 =
-nsnull
+nullptr
 ;
 sScrollSeriesCounter
 =
@@ -2492,8 +2492,8 @@ GetTimeoutTime
 {
 OnTimeout
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 return
@@ -2940,7 +2940,7 @@ sTimer
 InitWithFuncCallback
 (
 OnTimeout
-nsnull
+nullptr
 GetTimeoutTime
 (
 )
@@ -3601,11 +3601,11 @@ mPreLockPoint
 )
 mCurrentTarget
 (
-nsnull
+nullptr
 )
 mLastMouseOverFrame
 (
-nsnull
+nullptr
 )
 mGestureDownPoint
 (
@@ -3614,7 +3614,7 @@ mGestureDownPoint
 )
 mPresContext
 (
-nsnull
+nullptr
 )
 mLClickCount
 (
@@ -3880,7 +3880,7 @@ dom
 .
 popup_allowed_events
 "
-nsnull
+nullptr
 }
 ;
 nsresult
@@ -4032,7 +4032,7 @@ this
 {
 sActiveESM
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -4052,7 +4052,7 @@ sMouseOverDocument
 )
 sMouseOverDocument
 =
-nsnull
+nullptr
 ;
 -
 -
@@ -4083,7 +4083,7 @@ gUserInteractionTimerCallback
 >
 Notify
 (
-nsnull
+nullptr
 )
 ;
 NS_RELEASE
@@ -4129,7 +4129,7 @@ mDocument
 {
 sDragOverContent
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -4973,7 +4973,7 @@ aTargetFrame
 ;
 mCurrentTargetContent
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5110,7 +5110,7 @@ CalculateClientPoint
 (
 aPresContext
 aEvent
-nsnull
+nullptr
 )
 ;
 }
@@ -5212,7 +5212,7 @@ obs
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 user
 -
@@ -5220,7 +5220,7 @@ interaction
 -
 active
 "
-nsnull
+nullptr
 )
 ;
 UpdateUserActivityTimer
@@ -5742,7 +5742,7 @@ HandleAccessKey
 aPresContext
 keyEvent
 aStatus
-nsnull
+nullptr
 eAccessKeyProcessingNormal
 modifierMask
 )
@@ -7738,7 +7738,7 @@ HandleAccessKey
 subPC
 aEvent
 aStatus
-nsnull
+nullptr
 eAccessKeyProcessingDown
 aModifierMask
 )
@@ -8950,7 +8950,7 @@ Cancel
 ;
 mClickHoldTimer
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -9069,7 +9069,7 @@ Cancel
 ;
 mClickHoldTimer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -9538,7 +9538,7 @@ mGestureDownContent
 mPresContext
 &
 event
-nsnull
+nullptr
 &
 status
 )
@@ -9666,11 +9666,11 @@ StopTrackingDragGesture
 {
 mGestureDownContent
 =
-nsnull
+nullptr
 ;
 mGestureDownFrameOwner
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -10053,7 +10053,7 @@ return
 ;
 sLastDragOverFrame
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -10151,7 +10151,7 @@ targetContent
 aPresContext
 &
 startEvent
-nsnull
+nullptr
 &
 status
 )
@@ -10184,7 +10184,7 @@ targetContent
 aPresContext
 &
 gestureEvent
-nsnull
+nullptr
 &
 status
 )
@@ -10229,7 +10229,7 @@ dragStarted
 {
 sActiveESM
 =
-nsnull
+nullptr
 ;
 aEvent
 -
@@ -10281,7 +10281,7 @@ aTargetNode
 *
 aTargetNode
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -10942,7 +10942,7 @@ aMv
 *
 aMv
 =
-nsnull
+nullptr
 ;
 nsIFocusManager
 *
@@ -11668,7 +11668,7 @@ if
 aFrame
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -11923,7 +11923,7 @@ event
 (
 isTrusted
 NS_MOUSE_SCROLL
-nsnull
+nullptr
 )
 ;
 event
@@ -12011,7 +12011,7 @@ targetContent
 aPresContext
 &
 event
-nsnull
+nullptr
 aStatus
 )
 ;
@@ -12121,7 +12121,7 @@ event
 (
 isTrusted
 NS_MOUSE_PIXEL_SCROLL
-nsnull
+nullptr
 )
 ;
 event
@@ -12220,7 +12220,7 @@ targetContent
 aPresContext
 &
 event
-nsnull
+nullptr
 aStatus
 )
 ;
@@ -12709,7 +12709,7 @@ nsIScrollableFrame
 *
 frameToScroll
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -12809,7 +12809,7 @@ EndTransaction
 ;
 lastScrollFrame
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -12970,7 +12970,7 @@ false
 ;
 frameToScroll
 =
-nsnull
+nullptr
 ;
 nsMouseWheelTransaction
 :
@@ -13890,7 +13890,7 @@ nsGkAtoms
 :
 :
 never
-nsnull
+nullptr
 }
 ;
 switch
@@ -13984,7 +13984,7 @@ aTargetFrame
 ;
 mCurrentTargetContent
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -14069,7 +14069,7 @@ nsIPresShell
 :
 SetCapturingContent
 (
-nsnull
+nullptr
 0
 )
 ;
@@ -14275,7 +14275,7 @@ NS_STYLE_DISPLAY_POPUP
 {
 newFocus
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -14903,7 +14903,7 @@ nsIScrollableFrame
 :
 LINES
 useSysNumLines
-nsnull
+nullptr
 nsGkAtoms
 :
 :
@@ -14954,7 +14954,7 @@ nsIScrollableFrame
 :
 DEVICE_PIXELS
 false
-nsnull
+nullptr
 (
 fromLines
 ?
@@ -14963,7 +14963,7 @@ nsGkAtoms
 :
 mouseWheel
 :
-nsnull
+nullptr
 )
 )
 ;
@@ -15572,7 +15572,7 @@ status
 }
 sLastDragOverFrame
 =
-nsnull
+nullptr
 ;
 ClearGlobalActiveContent
 (
@@ -15786,7 +15786,7 @@ mDocument
 GetWindow
 (
 )
-nsnull
+nullptr
 dir
 nsIFocusManager
 :
@@ -15898,11 +15898,11 @@ endif
 }
 mCurrentTarget
 =
-nsnull
+nullptr
 ;
 mCurrentTargetContent
 =
-nsnull
+nullptr
 ;
 return
 ret
@@ -16021,7 +16021,7 @@ GetIMETabParent
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -16050,7 +16050,7 @@ mHoverContent
 {
 SetContentState
 (
-nsnull
+nullptr
 NS_EVENT_STATE_HOVER
 )
 ;
@@ -16153,7 +16153,7 @@ imgIContainer
 *
 container
 =
-nsnull
+nullptr
 ;
 bool
 haveHotspot
@@ -16348,7 +16348,7 @@ NS_STYLE_CURSOR_SPINNING
 ;
 container
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -17186,7 +17186,7 @@ NS_MOUSE_EXIT_SYNTH
 {
 mCurrentTargetContent
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -17225,7 +17225,7 @@ t
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -17371,7 +17371,7 @@ nsIFrame
 *
 targetFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -17393,7 +17393,7 @@ aTargetContent
 mPresContext
 &
 event
-nsnull
+nullptr
 &
 status
 &
@@ -17419,7 +17419,7 @@ aTargetContent
 }
 mCurrentTargetContent
 =
-nsnull
+nullptr
 ;
 mCurrentTarget
 =
@@ -17483,7 +17483,7 @@ GetInnerWindow
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -17509,13 +17509,13 @@ FindFirstNonNativeAnonymous
 (
 )
 :
-nsnull
+nullptr
 ;
 nsINode
 *
 commonParent
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -17815,7 +17815,7 @@ kidESM
 NotifyMouseOut
 (
 aEvent
-nsnull
+nullptr
 )
 ;
 }
@@ -17841,7 +17841,7 @@ aMovingInto
 {
 SetContentState
 (
-nsnull
+nullptr
 NS_EVENT_STATE_HOVER
 )
 ;
@@ -17866,15 +17866,15 @@ aMovingInto
 ;
 mLastMouseOverFrame
 =
-nsnull
+nullptr
 ;
 mLastMouseOverElement
 =
-nsnull
+nullptr
 ;
 mFirstMouseOutEventElement
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -18062,7 +18062,7 @@ aContent
 ;
 mFirstMouseOverEventElement
 =
-nsnull
+nullptr
 ;
 }
 static
@@ -18428,7 +18428,7 @@ break
 NotifyMouseOut
 (
 aEvent
-nsnull
+nullptr
 )
 ;
 }
@@ -18575,7 +18575,7 @@ nsIPresShell
 :
 SetCapturingContent
 (
-nsnull
+nullptr
 CAPTURE_POINTERLOCK
 )
 ;
@@ -18777,7 +18777,7 @@ FireDragEnterOrExit
 lastDragOverFramePresContext
 aEvent
 NS_DRAGDROP_EXIT_SYNTH
-nsnull
+nullptr
 lastContent
 sLastDragOverFrame
 )
@@ -18787,14 +18787,14 @@ FireDragEnterOrExit
 lastDragOverFramePresContext
 aEvent
 NS_DRAGDROP_LEAVE_SYNTH
-nsnull
+nullptr
 lastContent
 sLastDragOverFrame
 )
 ;
 sLastDragOverFrame
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -18941,7 +18941,7 @@ aTargetContent
 aPresContext
 &
 event
-nsnull
+nullptr
 &
 status
 )
@@ -18970,7 +18970,7 @@ NS_DRAGDROP_ENTER
 ?
 aTargetContent
 :
-nsnull
+nullptr
 NS_EVENT_STATE_DRAGOVER
 )
 ;
@@ -19144,7 +19144,7 @@ nsIContent
 *
 mouseContentParent
 =
-nsnull
+nullptr
 ;
 mCurrentTarget
 -
@@ -19301,11 +19301,11 @@ clickCount
 }
 mLastLeftMouseDownContent
 =
-nsnull
+nullptr
 ;
 mLastLeftMouseDownContentParent
 =
-nsnull
+nullptr
 ;
 }
 break
@@ -19392,11 +19392,11 @@ clickCount
 }
 mLastMiddleMouseDownContent
 =
-nsnull
+nullptr
 ;
 mLastMiddleMouseDownContentParent
 =
-nsnull
+nullptr
 ;
 }
 break
@@ -19483,11 +19483,11 @@ clickCount
 }
 mLastRightMouseDownContent
 =
-nsnull
+nullptr
 ;
 mLastRightMouseDownContentParent
 =
-nsnull
+nullptr
 ;
 }
 break
@@ -20008,7 +20008,7 @@ nsIContent
 *
 content
 =
-nsnull
+nullptr
 ;
 nsIPresShell
 *
@@ -20093,7 +20093,7 @@ if
 label
 )
 return
-nsnull
+nullptr
 ;
 return
 label
@@ -20299,7 +20299,7 @@ anc1
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -20343,7 +20343,7 @@ AsElement
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 void
@@ -20866,7 +20866,7 @@ GetPrimaryFrame
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -20891,7 +20891,7 @@ else
 {
 newHover
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -21003,7 +21003,7 @@ notifyContent2
 ;
 notifyContent2
 =
-nsnull
+nullptr
 ;
 content1StateSet
 =
@@ -21314,7 +21314,7 @@ aContent
 {
 sDragOverContent
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -21334,7 +21334,7 @@ aContent
 {
 mLastMouseOverElement
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -21542,12 +21542,12 @@ aPresContext
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aPresContext
 "
-nsnull
+nullptr
 ptr
 "
 )
@@ -21608,7 +21608,7 @@ fm
 mDocument
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -22563,7 +22563,7 @@ sActiveESM
 >
 SetContentState
 (
-nsnull
+nullptr
 NS_EVENT_STATE_ACTIVE
 )
 ;
@@ -22612,7 +22612,7 @@ aClearer
 >
 SetContentState
 (
-nsnull
+nullptr
 NS_EVENT_STATE_ACTIVE
 )
 ;
@@ -22626,7 +22626,7 @@ aClearer
 >
 SetContentState
 (
-nsnull
+nullptr
 NS_EVENT_STATE_DRAGOVER
 )
 ;
@@ -22648,13 +22648,13 @@ sActiveESM
 >
 SetContentState
 (
-nsnull
+nullptr
 NS_EVENT_STATE_ACTIVE
 )
 ;
 }
 sActiveESM
 =
-nsnull
+nullptr
 ;
 }

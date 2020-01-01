@@ -484,8 +484,8 @@ getter_AddRefs
 (
 event
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -526,10 +526,10 @@ true
 ;
 DispatchDOMEvent
 (
-nsnull
+nullptr
 event
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -960,7 +960,7 @@ false
 ;
 mDesktopNotification
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -984,7 +984,7 @@ true
 ;
 mDesktopNotification
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

@@ -1104,7 +1104,7 @@ now
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -1311,7 +1311,7 @@ img
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -1484,7 +1484,7 @@ mStop
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -1498,7 +1498,7 @@ MAX_ACTIVE_SHARED_IMAGES
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_ABORT_IF_FALSE

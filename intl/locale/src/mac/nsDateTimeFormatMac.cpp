@@ -121,7 +121,7 @@ res
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 locale
@@ -293,7 +293,7 @@ localeStr
 }
 if
 (
-nsnull
+nullptr
 =
 =
 locale

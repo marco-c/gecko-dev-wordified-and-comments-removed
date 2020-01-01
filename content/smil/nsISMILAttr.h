@@ -90,7 +90,7 @@ GetTargetNode
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual

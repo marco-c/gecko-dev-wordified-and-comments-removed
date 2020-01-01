@@ -81,7 +81,7 @@ DropDocShellreference
 {
 mDocShell
 =
-nsnull
+nullptr
 ;
 }
 bool

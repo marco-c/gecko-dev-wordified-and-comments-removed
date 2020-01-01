@@ -508,7 +508,7 @@ timeStamp
 GeoPositionCoords
 coords
 =
-nsnull
+nullptr
 ;
 if
 (

@@ -61,7 +61,7 @@ nsDOMMediaStream
 :
 mStream
 (
-nsnull
+nullptr
 )
 {
 }

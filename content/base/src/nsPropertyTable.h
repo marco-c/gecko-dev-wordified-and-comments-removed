@@ -147,7 +147,7 @@ nsresult
 *
 aResult
 =
-nsnull
+nullptr
 )
 {
 return
@@ -188,7 +188,7 @@ void
 *
 aOldValue
 =
-nsnull
+nullptr
 )
 {
 return
@@ -230,7 +230,7 @@ nsresult
 *
 aStatus
 =
-nsnull
+nullptr
 )
 {
 return
@@ -308,7 +308,7 @@ nsPropertyTable
 :
 mPropertyList
 (
-nsnull
+nullptr
 )
 {
 }

@@ -30,7 +30,7 @@ aOutPattern
 *
 aOutPattern
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -65,7 +65,7 @@ Expr
 *
 newExpr
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -134,7 +134,7 @@ txPattern
 *
 newPattern
 =
-nsnull
+nullptr
 ;
 rv
 =

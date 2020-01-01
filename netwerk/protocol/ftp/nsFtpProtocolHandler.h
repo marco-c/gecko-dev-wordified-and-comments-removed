@@ -193,11 +193,11 @@ timerStruct
 :
 conn
 (
-nsnull
+nullptr
 )
 key
 (
-nsnull
+nullptr
 )
 {
 }

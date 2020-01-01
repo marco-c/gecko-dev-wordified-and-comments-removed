@@ -84,14 +84,14 @@ ImageBridgeChild
 *
 sImageBridgeChildSingleton
 =
-nsnull
+nullptr
 ;
 static
 Thread
 *
 sImageBridgeChildThread
 =
-nsnull
+nullptr
 ;
 static
 void
@@ -254,7 +254,7 @@ sImageBridgeChildSingleton
 ;
 sImageBridgeChildSingleton
 =
-nsnull
+nullptr
 ;
 *
 aDone
@@ -415,7 +415,7 @@ GetSingleton
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -503,7 +503,7 @@ sImageBridgeChildThread
 ;
 sImageBridgeChildThread
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -535,7 +535,7 @@ if
 sImageBridgeChildSingleton
 =
 =
-nsnull
+nullptr
 )
 {
 sImageBridgeChildThread
@@ -753,7 +753,7 @@ NS_ABORT
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -888,7 +888,7 @@ ImageContainerChild
 >
 result
 =
-nsnull
+nullptr
 ;
 ReentrantMonitor
 barrier

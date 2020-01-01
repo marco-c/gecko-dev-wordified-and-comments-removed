@@ -147,7 +147,7 @@ MaybeMagicGrallocBufferHandle
 MOZ_OVERRIDE
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual

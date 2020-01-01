@@ -371,7 +371,7 @@ parent
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -392,7 +392,7 @@ section
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -460,7 +460,7 @@ result
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -1910,7 +1910,7 @@ nsGkAtoms
 height
 }
 {
-nsnull
+nullptr
 }
 }
 ;

@@ -1427,7 +1427,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 return
@@ -1653,7 +1653,7 @@ aChromeEventHandler
 ;
 mParentTarget
 =
-nsnull
+nullptr
 ;
 }
 virtual
@@ -1925,7 +1925,7 @@ size_t
 CPP_THROW_NEW
 {
 return
-nsnull
+nullptr
 ;
 }
 static

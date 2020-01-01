@@ -538,7 +538,7 @@ called
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -1118,7 +1118,7 @@ bool
 *
 aDidFlush
 =
-nsnull
+nullptr
 bool
 aReleaseLast
 =
@@ -1132,7 +1132,7 @@ bool
 *
 aDidFlush
 =
-nsnull
+nullptr
 )
 {
 return
@@ -1704,7 +1704,7 @@ mNodeInfoManager
 GetNodeInfo
 (
 name
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :
@@ -1749,7 +1749,7 @@ if
 parserService
 )
 return
-nsnull
+nullptr
 ;
 nsIAtom
 *
@@ -1790,7 +1790,7 @@ mNodeInfoManager
 GetNodeInfo
 (
 name
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :
@@ -1812,7 +1812,7 @@ nodeInfo
 NS_ENSURE_TRUE
 (
 nodeInfo
-nsnull
+nullptr
 )
 ;
 return
@@ -1847,7 +1847,7 @@ aFromParser
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2054,7 +2054,7 @@ mLastTextNodeSize
 )
 mStack
 (
-nsnull
+nullptr
 )
 mStackSize
 (
@@ -2066,7 +2066,7 @@ mStackPos
 )
 mText
 (
-nsnull
+nullptr
 )
 mTextLength
 (
@@ -4638,7 +4638,7 @@ mLastTextNodeSize
 ;
 mLastTextNode
 =
-nsnull
+nullptr
 ;
 FlushText
 (
@@ -4801,7 +4801,7 @@ mLastTextNodeSize
 ;
 mLastTextNode
 =
-nsnull
+nullptr
 ;
 mLastTextCharWasCR
 =
@@ -5052,7 +5052,7 @@ mCurrentContext
 {
 mCurrentContext
 =
-nsnull
+nullptr
 ;
 }
 delete
@@ -5070,7 +5070,7 @@ mHeadContext
 {
 mCurrentContext
 =
-nsnull
+nullptr
 ;
 }
 delete
@@ -5574,7 +5574,7 @@ nsGkAtoms
 :
 :
 html
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :
@@ -5659,7 +5659,7 @@ nsGkAtoms
 :
 :
 head
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :
@@ -6424,7 +6424,7 @@ mCurrentContext
 >
 mStack
 =
-nsnull
+nullptr
 ;
 mCurrentContext
 -
@@ -6453,7 +6453,7 @@ mCurrentContext
 >
 mText
 =
-nsnull
+nullptr
 ;
 mCurrentContext
 -
@@ -6585,7 +6585,7 @@ mHeadContext
 ;
 mHeadContext
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -7814,7 +7814,7 @@ document
 ;
 NotifyInsert
 (
-nsnull
+nullptr
 mRoot
 index
 )

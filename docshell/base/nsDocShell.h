@@ -809,7 +809,7 @@ FireDummyOnLocationChange
 FireOnLocationChange
 (
 this
-nsnull
+nullptr
 mCurrentURI
 LOCATION_CHANGE_SAME_DOCUMENT
 )
@@ -1462,7 +1462,7 @@ nsIChannel
 *
 aFailedChannel
 =
-nsnull
+nullptr
 )
 ;
 NS_IMETHOD
@@ -1823,7 +1823,7 @@ Revoke
 {
 mDocShell
 =
-nsnull
+nullptr
 ;
 }
 private

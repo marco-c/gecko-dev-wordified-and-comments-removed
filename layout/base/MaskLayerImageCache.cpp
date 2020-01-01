@@ -74,7 +74,7 @@ mMaskImageContainers
 EnumerateEntries
 (
 SweepFunc
-nsnull
+nullptr
 )
 ;
 }
@@ -128,7 +128,7 @@ mContainer
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void

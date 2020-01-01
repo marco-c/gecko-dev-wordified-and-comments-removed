@@ -738,7 +738,7 @@ stack
 >
 Push
 (
-nsnull
+nullptr
 )
 )
 )
@@ -997,7 +997,7 @@ TIMEOUT
 ;
 mTimeoutTimer
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1129,7 +1129,7 @@ aRequestingElement
 *
 aRequestingElement
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1341,7 +1341,7 @@ lastPosition
 this
 mIsWatchPositionRequest
 ?
-nsnull
+nullptr
 :
 mLocator
 )
@@ -1386,7 +1386,7 @@ Cancel
 ;
 mTimeoutTimer
 =
-nsnull
+nullptr
 ;
 }
 PRInt32
@@ -1487,7 +1487,7 @@ Cancel
 ;
 mTimeoutTimer
 =
-nsnull
+nullptr
 ;
 }
 mCleared
@@ -1532,7 +1532,7 @@ Cancel
 ;
 mTimeoutTimer
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1589,7 +1589,7 @@ stack
 >
 Push
 (
-nsnull
+nullptr
 )
 )
 )
@@ -1666,7 +1666,7 @@ aPosition
 this
 mIsWatchPositionRequest
 ?
-nsnull
+nullptr
 :
 mLocator
 )
@@ -1741,7 +1741,7 @@ Cancel
 ;
 mTimeoutTimer
 =
-nsnull
+nullptr
 ;
 }
 mCleared
@@ -1750,11 +1750,11 @@ true
 ;
 mCallback
 =
-nsnull
+nullptr
 ;
 mErrorCallback
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -2530,12 +2530,12 @@ StopDevice
 ;
 Update
 (
-nsnull
+nullptr
 )
 ;
 mLastPosition
 =
-nsnull
+nullptr
 ;
 sGeoEnabled
 =
@@ -2753,7 +2753,7 @@ StopDevice
 ;
 Update
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -3174,7 +3174,7 @@ Cancel
 ;
 mDisconnectTimer
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -3300,7 +3300,7 @@ nsGeolocationService
 :
 gService
 =
-nsnull
+nullptr
 ;
 nsGeolocationService
 *
@@ -3378,7 +3378,7 @@ nsGeolocationService
 :
 gService
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -3853,11 +3853,11 @@ this
 }
 mService
 =
-nsnull
+nullptr
 ;
 mURI
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -4520,7 +4520,7 @@ if
 mOwner
 =
 =
-nsnull
+nullptr
 )
 {
 return

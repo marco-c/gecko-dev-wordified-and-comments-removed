@@ -42,7 +42,7 @@ IsOggEnabled
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

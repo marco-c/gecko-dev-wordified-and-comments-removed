@@ -88,7 +88,7 @@ aRule
 )
 mAcceptRoles
 (
-nsnull
+nullptr
 )
 {
 }
@@ -157,7 +157,7 @@ aRoot
 )
 mPosition
 (
-nsnull
+nullptr
 )
 mStartOffset
 (
@@ -1053,7 +1053,7 @@ Accessible
 *
 accessible
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -1224,7 +1224,7 @@ Accessible
 *
 match
 =
-nsnull
+nullptr
 ;
 Accessible
 *
@@ -1291,7 +1291,7 @@ FILTER_IGNORE_SUBTREE
 )
 match
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1601,7 +1601,7 @@ if
 aAccessible
 )
 return
-nsnull
+nullptr
 ;
 RuleCache
 cache
@@ -1644,7 +1644,7 @@ NS_ENSURE_SUCCESS
 (
 *
 aResult
-nsnull
+nullptr
 )
 ;
 if
@@ -1731,14 +1731,14 @@ NS_ENSURE_SUCCESS
 (
 *
 aResult
-nsnull
+nullptr
 )
 ;
 Accessible
 *
 lastChild
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -1798,7 +1798,7 @@ NS_ENSURE_SUCCESS
 (
 *
 aResult
-nsnull
+nullptr
 )
 ;
 }
@@ -1842,7 +1842,7 @@ NS_ENSURE_SUCCESS
 (
 *
 aResult
-nsnull
+nullptr
 )
 ;
 if
@@ -1859,7 +1859,7 @@ accessible
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 Accessible
@@ -1934,7 +1934,7 @@ NS_ENSURE_SUCCESS
 (
 *
 aResult
-nsnull
+nullptr
 )
 ;
 if
@@ -1963,7 +1963,7 @@ Accessible
 *
 firstChild
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -2010,7 +2010,7 @@ NS_ENSURE_SUCCESS
 (
 *
 aResult
-nsnull
+nullptr
 )
 ;
 if
@@ -2030,7 +2030,7 @@ Accessible
 *
 sibling
 =
-nsnull
+nullptr
 ;
 Accessible
 *
@@ -2106,7 +2106,7 @@ NS_ENSURE_SUCCESS
 (
 *
 aResult
-nsnull
+nullptr
 )
 ;
 if
@@ -2123,7 +2123,7 @@ accessible
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 bool

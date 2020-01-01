@@ -842,7 +842,7 @@ mChannel
 >
 mRedirectChannel
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -865,7 +865,7 @@ vetoHook
 ;
 mChannel
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1328,7 +1328,7 @@ mRequestTime
 )
 mOnCacheEntryAvailableCallback
 (
-nsnull
+nullptr
 )
 mOfflineCacheAccess
 (
@@ -2072,7 +2072,7 @@ nsHttpChannel
 *
 event
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2236,7 +2236,7 @@ mTransactionPump
 AsyncRead
 (
 this
-nsnull
+nullptr
 )
 ;
 if
@@ -2617,7 +2617,7 @@ mLoadGroup
 RemoveRequest
 (
 this
-nsnull
+nullptr
 mStatus
 )
 ;
@@ -2732,7 +2732,7 @@ mLoadGroup
 RemoveRequest
 (
 this
-nsnull
+nullptr
 mStatus
 )
 ;
@@ -2952,7 +2952,7 @@ mLoadGroup
 RemoveRequest
 (
 this
-nsnull
+nullptr
 mStatus
 )
 ;
@@ -3891,7 +3891,7 @@ rv
 {
 mTransaction
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -5288,7 +5288,7 @@ NS_ERROR_ABORT
 ;
 mAuthProvider
 =
-nsnull
+nullptr
 ;
 LOG
 (
@@ -6513,7 +6513,7 @@ prompt
 >
 Confirm
 (
-nsnull
+nullptr
 messageString
 &
 repost
@@ -6794,7 +6794,7 @@ mLoadGroup
 RemoveRequest
 (
 this
-nsnull
+nullptr
 mStatus
 )
 ;
@@ -7209,7 +7209,7 @@ mLoadGroup
 RemoveRequest
 (
 this
-nsnull
+nullptr
 mStatus
 )
 ;
@@ -7328,19 +7328,19 @@ RedirectSucceeded
 ;
 mListener
 =
-nsnull
+nullptr
 ;
 mListenerContext
 =
-nsnull
+nullptr
 ;
 mCallbacks
 =
-nsnull
+nullptr
 ;
 mProgressSink
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -7586,19 +7586,19 @@ RedirectSucceeded
 ;
 mListener
 =
-nsnull
+nullptr
 ;
 mListenerContext
 =
-nsnull
+nullptr
 ;
 mCallbacks
 =
-nsnull
+nullptr
 ;
 mProgressSink
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -8212,7 +8212,7 @@ endofmethod
 ;
 assoc_val
 =
-nsnull
+nullptr
 ;
 endofmethod
 =
@@ -8325,7 +8325,7 @@ nsHttpConnectionMgr
 :
 :
 RedCorruptedContent
-nsnull
+nullptr
 0
 )
 ;
@@ -8508,7 +8508,7 @@ nsHttpConnectionMgr
 :
 :
 RedCorruptedContent
-nsnull
+nullptr
 0
 )
 ;
@@ -9311,7 +9311,7 @@ nsHttpConnectionMgr
 :
 :
 RedCorruptedContent
-nsnull
+nullptr
 0
 )
 ;
@@ -9643,7 +9643,7 @@ mOfflineCacheAccess
 }
 mApplicationCacheForWrite
 =
-nsnull
+nullptr
 ;
 mOfflineCacheEntry
 =
@@ -9926,11 +9926,11 @@ mListenerContext
 ;
 mCallbacks
 =
-nsnull
+nullptr
 ;
 mProgressSink
 =
-nsnull
+nullptr
 ;
 mFallingBack
 =
@@ -10350,17 +10350,17 @@ NS_OK
 ;
 mCacheQuery
 =
-nsnull
+nullptr
 ;
 mOnCacheEntryAvailableCallback
 =
-nsnull
+nullptr
 ;
 }
 return
 OnOfflineCacheEntryAvailable
 (
-nsnull
+nullptr
 nsICache
 :
 :
@@ -10766,11 +10766,11 @@ NS_OK
 ;
 mCacheQuery
 =
-nsnull
+nullptr
 ;
 mOnCacheEntryAvailableCallback
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -11182,7 +11182,7 @@ NS_OK
 ;
 mOnCacheEntryAvailableCallback
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -11952,7 +11952,7 @@ rv
 =
 OnCacheEntryAvailable
 (
-nsnull
+nullptr
 0
 rv
 )
@@ -11975,7 +11975,7 @@ forget
 ;
 mCacheThread
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -12109,7 +12109,7 @@ char
 *
 cacheDeviceID
 =
-nsnull
+nullptr
 ;
 mCacheEntry
 -
@@ -12768,7 +12768,7 @@ Content_Encoding
 )
 !
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -15047,7 +15047,7 @@ doomOnFailure
 {
 mCacheQuery
 =
-nsnull
+nullptr
 ;
 mCacheInputStream
 .
@@ -15186,7 +15186,7 @@ Doom
 }
 mCachedResponseHead
 =
-nsnull
+nullptr
 ;
 mCachePump
 =
@@ -15949,7 +15949,7 @@ metaKey
 get
 (
 )
-nsnull
+nullptr
 )
 ;
 }
@@ -16037,7 +16037,7 @@ challenge
 )
 !
 =
-nsnull
+nullptr
 )
 authType
 .
@@ -16282,7 +16282,7 @@ Content_Encoding
 )
 =
 =
-nsnull
+nullptr
 )
 &
 &
@@ -16650,7 +16650,7 @@ Init
 (
 mListener
 out
-nsnull
+nullptr
 )
 ;
 }
@@ -16687,7 +16687,7 @@ InitAsync
 mListener
 cacheIOTarget
 out
-nsnull
+nullptr
 )
 ;
 }
@@ -16831,7 +16831,7 @@ Init
 (
 mListener
 out
-nsnull
+nullptr
 )
 ;
 if
@@ -17988,11 +17988,11 @@ mListenerContext
 ;
 mCallbacks
 =
-nsnull
+nullptr
 ;
 mProgressSink
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -18436,7 +18436,7 @@ status
 ;
 mCacheQuery
 =
-nsnull
+nullptr
 ;
 mCacheInputStream
 .
@@ -18599,7 +18599,7 @@ mCallOnResume
 ;
 mCallOnResume
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_SUCCESS
 (
@@ -18909,7 +18909,7 @@ mLoadGroup
 AddRequest
 (
 this
-nsnull
+nullptr
 )
 ;
 if
@@ -19173,7 +19173,7 @@ status
 {
 mProxyRequest
 =
-nsnull
+nullptr
 ;
 mTargetProxyInfo
 =
@@ -19207,7 +19207,7 @@ mConnectionInfo
 *
 result
 =
-nsnull
+nullptr
 ;
 else
 {
@@ -20851,7 +20851,7 @@ IsPersistent
 )
 conn
 =
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -20886,7 +20886,7 @@ Timings
 ;
 mTransaction
 =
-nsnull
+nullptr
 ;
 mTransactionPump
 =
@@ -20930,7 +20930,7 @@ EndTimestamp
 }
 mDNSPrefetch
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -21199,7 +21199,7 @@ mLoadGroup
 RemoveRequest
 (
 this
-nsnull
+nullptr
 status
 )
 ;
@@ -21209,11 +21209,11 @@ CleanRedirectCacheChainIfNecessary
 ;
 mCallbacks
 =
-nsnull
+nullptr
 ;
 mProgressSink
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -21358,7 +21358,7 @@ input
 ReadSegments
 (
 NS_DiscardSegment
-nsnull
+nullptr
 count
 &
 n
@@ -21434,7 +21434,7 @@ values
 ;
 OnTransportStatus
 (
-nsnull
+nullptr
 transportStatus
 progress
 progressMax
@@ -21644,7 +21644,7 @@ mProgressSink
 OnStatus
 (
 this
-nsnull
+nullptr
 status
 NS_ConvertUTF8toUTF16
 (
@@ -21682,7 +21682,7 @@ mProgressSink
 OnProgress
 (
 this
-nsnull
+nullptr
 progress
 progressMax
 )
@@ -22296,7 +22296,7 @@ this
 *
 key
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -22838,7 +22838,7 @@ mCacheEntryDeviceTelemetryID
 ;
 mCacheQuery
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -22914,7 +22914,7 @@ mOnCacheEntryAvailableCallback
 ;
 mOnCacheEntryAvailableCallback
 =
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -23198,7 +23198,7 @@ true
 ;
 mResponseHead
 =
-nsnull
+nullptr
 ;
 mCaps
 |
@@ -23301,7 +23301,7 @@ mTransactionPump
 AsyncRead
 (
 this
-nsnull
+nullptr
 )
 ;
 if
@@ -23552,7 +23552,7 @@ if
 mApplicationCache
 )
 return
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -23571,7 +23571,7 @@ cacheKey
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -23955,7 +23955,7 @@ mWaitingForRedirectCallback
 {
 mRedirectChannel
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -24530,7 +24530,7 @@ session
 DoomEntry
 (
 key
-nsnull
+nullptr
 )
 ;
 }

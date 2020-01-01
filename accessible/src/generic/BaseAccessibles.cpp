@@ -171,7 +171,7 @@ aDoc
 )
 mActionAcc
 (
-nsnull
+nullptr
 )
 mIsLink
 (
@@ -485,7 +485,7 @@ false
 ;
 mActionAcc
 =
-nsnull
+nullptr
 ;
 AccessibleWrap
 :
@@ -551,7 +551,7 @@ aAnchorIndex
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -578,7 +578,7 @@ aIndexInParent
 ;
 mActionAcc
 =
-nsnull
+nullptr
 ;
 mIsLink
 =
@@ -700,7 +700,7 @@ UnbindFromParent
 {
 mActionAcc
 =
-nsnull
+nullptr
 ;
 mIsLink
 =

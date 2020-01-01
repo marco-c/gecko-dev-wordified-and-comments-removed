@@ -421,7 +421,7 @@ char
 *
 pref
 =
-nsnull
+nullptr
 )
 ;
 NS_HIDDEN_

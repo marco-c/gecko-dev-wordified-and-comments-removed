@@ -828,7 +828,7 @@ type
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 sp
@@ -1089,7 +1089,7 @@ aBuffer
 =
 SurfaceDescriptorGralloc
 (
-nsnull
+nullptr
 gc
 )
 ;
@@ -1116,7 +1116,7 @@ GrallocBufferActor
 *
 gba
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1209,7 +1209,7 @@ type
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 sp
@@ -1360,7 +1360,7 @@ CairoStatus
 (
 )
 ?
-nsnull
+nullptr
 :
 surf
 .

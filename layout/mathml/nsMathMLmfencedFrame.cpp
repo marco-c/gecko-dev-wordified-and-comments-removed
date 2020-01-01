@@ -275,15 +275,15 @@ mSeparatorsChar
 ;
 mOpenChar
 =
-nsnull
+nullptr
 ;
 mCloseChar
 =
-nsnull
+nullptr
 ;
 mSeparatorsChar
 =
-nsnull
+nullptr
 ;
 mSeparatorsCount
 =
@@ -1483,7 +1483,7 @@ FinishReflowChild
 (
 childFrame
 aPresContext
-nsnull
+nullptr
 childSize
 dx
 ascent
@@ -2686,7 +2686,7 @@ lastIndex
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -2744,7 +2744,7 @@ GetStyleContext
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void

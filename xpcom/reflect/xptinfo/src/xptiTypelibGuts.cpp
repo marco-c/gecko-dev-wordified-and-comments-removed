@@ -66,7 +66,7 @@ if
 place
 )
 return
-nsnull
+nullptr
 ;
 return
 new

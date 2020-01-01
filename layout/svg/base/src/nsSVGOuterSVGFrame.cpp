@@ -1810,7 +1810,7 @@ anonKid
 >
 HasChildrenOnlyTransform
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -2685,7 +2685,7 @@ transform
 {
 mCanvasTM
 =
-nsnull
+nullptr
 ;
 nsSVGUtils
 :
@@ -3192,7 +3192,7 @@ TRANSFORM_CHANGED
 {
 mCanvasTM
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3674,7 +3674,7 @@ aEmbeddingFrame
 *
 aEmbeddingFrame
 =
-nsnull
+nullptr
 ;
 }
 return

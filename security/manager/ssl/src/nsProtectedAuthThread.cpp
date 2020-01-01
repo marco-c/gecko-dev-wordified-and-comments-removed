@@ -134,7 +134,7 @@ false
 )
 mThreadHandle
 (
-nsnull
+nullptr
 )
 mSlot
 (
@@ -509,6 +509,6 @@ mThreadHandle
 ;
 mThreadHandle
 =
-nsnull
+nullptr
 ;
 }

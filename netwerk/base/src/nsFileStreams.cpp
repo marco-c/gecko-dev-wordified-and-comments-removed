@@ -171,7 +171,7 @@ nsFileStreamBase
 :
 mFD
 (
-nsnull
+nullptr
 )
 mBehaviorFlags
 (
@@ -231,7 +231,7 @@ if
 mFD
 =
 =
-nsnull
+nullptr
 )
 return
 NS_BASE_STREAM_CLOSED
@@ -300,7 +300,7 @@ if
 mFD
 =
 =
-nsnull
+nullptr
 )
 return
 NS_BASE_STREAM_CLOSED
@@ -368,7 +368,7 @@ if
 mFD
 =
 =
-nsnull
+nullptr
 )
 return
 NS_BASE_STREAM_CLOSED
@@ -568,7 +568,7 @@ NS_BASE_STREAM_OSERROR
 ;
 mFD
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -797,7 +797,7 @@ if
 mFD
 =
 =
-nsnull
+nullptr
 )
 return
 NS_BASE_STREAM_CLOSED
@@ -864,7 +864,7 @@ if
 mFD
 =
 =
-nsnull
+nullptr
 )
 return
 NS_BASE_STREAM_CLOSED
@@ -1071,7 +1071,7 @@ mOpenParams
 .
 localFile
 =
-nsnull
+nullptr
 ;
 mDeferredOpen
 =
@@ -1264,7 +1264,7 @@ if
 stream
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -1560,7 +1560,7 @@ REOPEN_ON_REWIND
 {
 mFile
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2421,7 +2421,7 @@ if
 stream
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -2474,7 +2474,7 @@ NS_ENSURE_TRUE
 mFD
 =
 =
-nsnull
+nullptr
 NS_ERROR_ALREADY_INITIALIZED
 )
 ;
@@ -2808,7 +2808,7 @@ false
 ;
 mTempFile
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -2939,7 +2939,7 @@ mTempFile
 >
 MoveTo
 (
-nsnull
+nullptr
 targetFilename
 )
 ;
@@ -2985,7 +2985,7 @@ mWriteResult
 }
 mTempFile
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -3117,7 +3117,7 @@ NS_ENSURE_TRUE
 mFD
 =
 =
-nsnull
+nullptr
 NS_ERROR_ALREADY_INITIALIZED
 )
 ;

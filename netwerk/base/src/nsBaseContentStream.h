@@ -91,7 +91,7 @@ return
 mCallback
 !
 =
-nsnull
+nullptr
 ;
 }
 nsIEventTarget

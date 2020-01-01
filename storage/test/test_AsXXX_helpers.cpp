@@ -589,7 +589,7 @@ stmt
 >
 ExecuteAsync
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 pendingStmt

@@ -177,7 +177,7 @@ HistoryTracker
 *
 gHistoryTracker
 =
-nsnull
+nullptr
 ;
 void
 nsSHEntryShared
@@ -208,7 +208,7 @@ gHistoryTracker
 ;
 gHistoryTracker
 =
-nsnull
+nullptr
 ;
 }
 nsSHEntryShared
@@ -306,7 +306,7 @@ Next
 )
 !
 =
-nsnull
+nullptr
 )
 {
 NS_ASSERTION
@@ -570,7 +570,7 @@ mDocument
 >
 SetBFCacheEntry
 (
-nsnull
+nullptr
 )
 ;
 mDocument
@@ -583,7 +583,7 @@ this
 ;
 mDocument
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -605,7 +605,7 @@ RemoveFromExpirationTracker
 ;
 mContentViewer
 =
-nsnull
+nullptr
 ;
 mSticky
 =
@@ -613,7 +613,7 @@ true
 ;
 mWindowState
 =
-nsnull
+nullptr
 ;
 mViewerBounds
 .
@@ -633,11 +633,11 @@ Clear
 ;
 mRefreshURIList
 =
-nsnull
+nullptr
 ;
 mEditorData
 =
-nsnull
+nullptr
 ;
 }
 void

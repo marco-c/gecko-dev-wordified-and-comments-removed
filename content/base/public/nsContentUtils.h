@@ -830,7 +830,7 @@ bool
 *
 aDisconnected
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -851,7 +851,7 @@ bool
 *
 aDisconnected
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -1297,7 +1297,7 @@ bool
 *
 bigEndian
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -1345,7 +1345,7 @@ PRUnichar
 *
 aColon
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -1537,7 +1537,7 @@ PRInt16
 *
 aImageBlockingStatus
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -1591,7 +1591,7 @@ imgIRequest
 *
 aRequest
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -1796,7 +1796,7 @@ PRUnichar
 *
 aParams
 =
-nsnull
+nullptr
 PRUint32
 aParamsLength
 =
@@ -1805,7 +1805,7 @@ nsIURI
 *
 aURI
 =
-nsnull
+nullptr
 const
 nsAFlatString
 &
@@ -2017,7 +2017,7 @@ bool
 *
 aDefaultAction
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -2042,7 +2042,7 @@ bool
 *
 aDefaultAction
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -2067,7 +2067,7 @@ bool
 *
 aDefaultAction
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -2597,7 +2597,7 @@ nsISupports
 *
 aExtra
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -3280,12 +3280,12 @@ nsIDOMEvent
 *
 aSourceEvent
 =
-nsnull
+nullptr
 nsIPresShell
 *
 aShell
 =
-nsnull
+nullptr
 bool
 aCtrl
 =
@@ -3359,7 +3359,7 @@ nsIXPConnectJSObjectHolder
 *
 aHolder
 =
-nsnull
+nullptr
 bool
 aAllowWrapping
 =
@@ -3372,7 +3372,7 @@ WrapNative
 cx
 scope
 native
-nsnull
+nullptr
 aIID
 vp
 aHolder
@@ -3401,7 +3401,7 @@ nsIXPConnectJSObjectHolder
 *
 aHolder
 =
-nsnull
+nullptr
 bool
 aAllowWrapping
 =
@@ -3414,8 +3414,8 @@ WrapNative
 cx
 scope
 native
-nsnull
-nsnull
+nullptr
+nullptr
 vp
 aHolder
 aAllowWrapping
@@ -3446,7 +3446,7 @@ nsIXPConnectJSObjectHolder
 *
 aHolder
 =
-nsnull
+nullptr
 bool
 aAllowWrapping
 =
@@ -3460,7 +3460,7 @@ cx
 scope
 native
 cache
-nsnull
+nullptr
 vp
 aHolder
 aAllowWrapping
@@ -3585,7 +3585,7 @@ bool
 *
 aAllowRetaining
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -3608,7 +3608,7 @@ bool
 *
 aAllowRetaining
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -3788,7 +3788,7 @@ ContentViewerType
 *
 aLoaderType
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -4097,7 +4097,7 @@ bool
 *
 aDefaultAction
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -4685,7 +4685,7 @@ foundInterface
 *
 aInstancePtr
 =
-nsnull
+nullptr
 ;
 \
 return
@@ -4961,7 +4961,7 @@ ptr_
 >
 member_
 =
-nsnull
+nullptr
 ;
 \
 while
@@ -4985,7 +4985,7 @@ cur
 >
 member_
 =
-nsnull
+nullptr
 ;
 \
 delete
@@ -5041,7 +5041,7 @@ aResult
 return
 GetParameter
 (
-nsnull
+nullptr
 aResult
 )
 ;

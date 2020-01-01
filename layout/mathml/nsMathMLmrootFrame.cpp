@@ -595,13 +595,13 @@ nsIFrame
 *
 baseFrame
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
 indexFrame
 =
-nsnull
+nullptr
 ;
 nsHTMLReflowMetrics
 baseSize
@@ -1347,7 +1347,7 @@ FinishReflowChild
 (
 indexFrame
 aPresContext
-nsnull
+nullptr
 indexSize
 MirrorIfRTL
 (
@@ -1445,7 +1445,7 @@ FinishReflowChild
 (
 baseFrame
 aPresContext
-nsnull
+nullptr
 baseSize
 MirrorIfRTL
 (
@@ -1515,7 +1515,7 @@ nsIFrame
 *
 indexFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1619,7 +1619,7 @@ aRenderingContext
 FontMetrics
 (
 )
-nsnull
+nullptr
 &
 dxSqr
 )
@@ -1664,7 +1664,7 @@ break
 default
 :
 return
-nsnull
+nullptr
 ;
 }
 }

@@ -256,11 +256,11 @@ mNodeArray
 )
 mStartRun
 (
-nsnull
+nullptr
 )
 mEndRun
 (
-nsnull
+nullptr
 )
 mHTMLEditor
 (
@@ -2696,7 +2696,7 @@ GetWSBoundingParent
 NS_ENSURE_TRUE
 (
 mNode
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -4919,7 +4919,7 @@ aBlockParent
 *
 aPriorNode
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -5364,7 +5364,7 @@ aBlockParent
 *
 aNextNode
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -6131,7 +6131,7 @@ point
 .
 mTextNode
 =
-nsnull
+nullptr
 ;
 }
 point
@@ -6361,7 +6361,7 @@ point
 .
 mTextNode
 =
-nsnull
+nullptr
 ;
 }
 point
@@ -7024,7 +7024,7 @@ outPoint
 .
 mTextNode
 =
-nsnull
+nullptr
 ;
 outPoint
 .
@@ -7184,7 +7184,7 @@ outPoint
 .
 mTextNode
 =
-nsnull
+nullptr
 ;
 }
 outPoint
@@ -7239,7 +7239,7 @@ outPoint
 .
 mTextNode
 =
-nsnull
+nullptr
 ;
 outPoint
 .
@@ -7906,7 +7906,7 @@ after
 *
 outRun
 =
-nsnull
+nullptr
 ;
 MOZ_ASSERT
 (
@@ -7971,7 +7971,7 @@ else
 *
 outRun
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -8062,7 +8062,7 @@ after
 *
 outRun
 =
-nsnull
+nullptr
 ;
 }
 else

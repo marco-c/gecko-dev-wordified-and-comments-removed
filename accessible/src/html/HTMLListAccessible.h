@@ -300,7 +300,7 @@ HTMLLIAccessible
 this
 )
 :
-nsnull
+nullptr
 ;
 }
 #

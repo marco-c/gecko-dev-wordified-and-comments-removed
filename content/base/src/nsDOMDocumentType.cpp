@@ -120,7 +120,7 @@ nsGkAtoms
 :
 :
 documentTypeNodeName
-nsnull
+nullptr
 kNameSpaceID_None
 nsIDOMNode
 :
@@ -303,7 +303,7 @@ GetText
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP

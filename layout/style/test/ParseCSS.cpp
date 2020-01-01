@@ -85,7 +85,7 @@ aRv
 NS_ENSURE_TRUE
 (
 lf
-nsnull
+nullptr
 )
 ;
 lf
@@ -103,7 +103,7 @@ nsIURI
 *
 uri
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -277,9 +277,9 @@ rv
 =
 NS_InitXPCOM2
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -392,7 +392,7 @@ uri
 }
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 return

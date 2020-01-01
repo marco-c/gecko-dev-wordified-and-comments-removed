@@ -310,7 +310,7 @@ WSType
 :
 bool_conversion_helper
 :
-nsnull
+nullptr
 ;
 }
 }
@@ -916,7 +916,7 @@ eDATA_NODE
 {
 mTextNode
 =
-nsnull
+nullptr
 ;
 }
 }

@@ -307,7 +307,7 @@ MayHaveAnimations
 )
 )
 return
-nsnull
+nullptr
 ;
 ElementTransitions
 *
@@ -344,7 +344,7 @@ CanPerformOnCompositorThread
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

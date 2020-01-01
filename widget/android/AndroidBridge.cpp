@@ -334,7 +334,7 @@ jobject
 surfaceTexture
 )
 =
-nsnull
+nullptr
 ;
 AndroidBridge
 *
@@ -438,11 +438,11 @@ jEnv
 ;
 mJNIEnv
 =
-nsnull
+nullptr
 ;
 mThread
 =
-nsnull
+nullptr
 ;
 mOpenedGraphicsLibraries
 =
@@ -2981,11 +2981,11 @@ mJNIEnv
 }
 mJNIEnv
 =
-nsnull
+nullptr
 ;
 mThread
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -5317,7 +5317,7 @@ CallStaticVoidMethod
 (
 mGeckoAppShellClass
 jSetClipboardText
-nsnull
+nullptr
 )
 ;
 }
@@ -6441,7 +6441,7 @@ env
 GetLongArrayElements
 (
 array
-nsnull
+nullptr
 )
 ;
 elts
@@ -6825,7 +6825,7 @@ NS_ASSERTION
 aColors
 !
 =
-nsnull
+nullptr
 "
 AndroidBridge
 :
@@ -7086,7 +7086,7 @@ NS_ASSERTION
 aBuf
 !
 =
-nsnull
+nullptr
 "
 AndroidBridge
 :
@@ -7199,7 +7199,7 @@ NS_ASSERTION
 arr
 !
 =
-nsnull
+nullptr
 "
 AndroidBridge
 :
@@ -7598,7 +7598,7 @@ if
 surfaceHolder
 )
 return
-nsnull
+nullptr
 ;
 jmethodID
 constructConfig
@@ -7749,7 +7749,7 @@ CheckForException
 )
 )
 return
-nsnull
+nullptr
 ;
 jobject
 jdpy
@@ -7812,7 +7812,7 @@ CheckForException
 surf
 )
 return
-nsnull
+nullptr
 ;
 jfieldID
 sfield
@@ -8758,7 +8758,7 @@ env
 mHasNativeWindowFallback
 )
 return
-nsnull
+nullptr
 ;
 return
 (
@@ -9395,11 +9395,11 @@ mTracerLock
 ;
 mTracerLock
 =
-nsnull
+nullptr
 ;
 mTracerCondVar
 =
-nsnull
+nullptr
 ;
 }
 virtual
@@ -9594,7 +9594,7 @@ sTracerRunnable
 ;
 sTracerRunnable
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -11539,7 +11539,7 @@ if
 env
 )
 return
-nsnull
+nullptr
 ;
 AutoLocalJNIFrame
 jniFrame
@@ -11589,7 +11589,7 @@ err
 ;
 buf
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -11721,7 +11721,7 @@ aSurface
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -11816,7 +11816,7 @@ get
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void

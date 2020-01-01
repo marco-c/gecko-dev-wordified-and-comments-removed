@@ -162,7 +162,7 @@ mVal
 SetBaseValue
 (
 aValue
-nsnull
+nullptr
 false
 )
 ;
@@ -227,7 +227,7 @@ mVal
 SetBaseValueString
 (
 aValue
-nsnull
+nullptr
 false
 )
 ;
@@ -267,7 +267,7 @@ NewValueSpecifiedUnits
 (
 unitType
 valueInSpecifiedUnits
-nsnull
+nullptr
 )
 ;
 }
@@ -284,7 +284,7 @@ mVal
 ConvertToSpecifiedUnits
 (
 unitType
-nsnull
+nullptr
 )
 ;
 }
@@ -472,8 +472,8 @@ unitMap
 ]
 =
 {
-nsnull
-nsnull
+nullptr
+nullptr
 &
 nsGkAtoms
 :
@@ -1807,7 +1807,7 @@ attribute
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsresult

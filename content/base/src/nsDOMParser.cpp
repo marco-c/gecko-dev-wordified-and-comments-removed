@@ -520,7 +520,7 @@ return
 ParseFromStream
 (
 stream
-nsnull
+nullptr
 bufLen
 contentType
 aResult
@@ -570,7 +570,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 bool
 svg
@@ -741,12 +741,12 @@ getter_AddRefs
 parserChannel
 )
 mDocumentURI
-nsnull
+nullptr
 nsDependentCString
 (
 contentType
 )
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_STATE
@@ -833,8 +833,8 @@ StartDocumentLoad
 (
 kLoadAsData
 parserChannel
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 listener
@@ -885,7 +885,7 @@ listener
 OnStartRequest
 (
 parserChannel
-nsnull
+nullptr
 )
 ;
 if
@@ -934,7 +934,7 @@ listener
 OnDataAvailable
 (
 parserChannel
-nsnull
+nullptr
 stream
 0
 contentLength
@@ -973,7 +973,7 @@ listener
 OnStopRequest
 (
 parserChannel
-nsnull
+nullptr
 status
 )
 ;
@@ -1288,7 +1288,7 @@ true
 return
 nsQueryInterface
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1352,7 +1352,7 @@ native
 return
 nsQueryInterface
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1946,7 +1946,7 @@ GetGlobalObject
 (
 )
 :
-nsnull
+nullptr
 )
 ;
 }
@@ -2030,8 +2030,8 @@ rv
 Init
 (
 prin
-nsnull
-nsnull
+nullptr
+nullptr
 scriptHandlingObject
 )
 ;
@@ -2079,7 +2079,7 @@ EmptyString
 EmptyString
 (
 )
-nsnull
+nullptr
 mDocumentURI
 mBaseURI
 mOriginalPrincipal

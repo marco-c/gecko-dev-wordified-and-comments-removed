@@ -460,7 +460,7 @@ Notify
 ;
 mThread
 =
-nsnull
+nullptr
 ;
 }
 return

@@ -97,7 +97,7 @@ aType
 )
 mNext
 (
-nsnull
+nullptr
 )
 {
 }
@@ -125,7 +125,7 @@ aType
 )
 mNext
 (
-nsnull
+nullptr
 )
 {
 }

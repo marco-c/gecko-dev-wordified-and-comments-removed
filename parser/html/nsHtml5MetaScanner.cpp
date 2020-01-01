@@ -389,7 +389,7 @@ nsHtml5MetaScanner
 :
 readable
 (
-nsnull
+nullptr
 )
 metaState
 (
@@ -435,11 +435,11 @@ newJArray
 )
 content
 (
-nsnull
+nullptr
 )
 charset
 (
-nsnull
+nullptr
 )
 httpEquivState
 (
@@ -3200,7 +3200,7 @@ content
 ;
 content
 =
-nsnull
+nullptr
 ;
 nsHtml5Portability
 :
@@ -3212,7 +3212,7 @@ charset
 ;
 charset
 =
-nsnull
+nullptr
 ;
 httpEquivState
 =

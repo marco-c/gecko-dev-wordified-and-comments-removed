@@ -55,7 +55,7 @@ char
 *
 id_str
 =
-nsnull
+nullptr
 ;
 switch
 (

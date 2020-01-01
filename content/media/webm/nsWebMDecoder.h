@@ -42,7 +42,7 @@ IsWebMEnabled
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

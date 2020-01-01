@@ -412,9 +412,9 @@ PRInt32
 >
 *
 )
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 aResult
 )
 ;
@@ -1155,7 +1155,7 @@ SafeObjectAt
 i
 )
 :
-nsnull
+nullptr
 ;
 rv
 =

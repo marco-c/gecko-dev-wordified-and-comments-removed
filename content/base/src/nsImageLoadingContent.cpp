@@ -343,7 +343,7 @@ nsImageLoadingContent
 :
 mObserverList
 (
-nsnull
+nullptr
 )
 mImageBlockingStatus
 (
@@ -1063,7 +1063,7 @@ GetShell
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -1527,7 +1527,7 @@ mObserverList
 .
 mObserver
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1600,7 +1600,7 @@ oldObserver
 >
 mNext
 =
-nsnull
+nullptr
 ;
 delete
 oldObserver
@@ -1682,7 +1682,7 @@ type
 *
 aRequest
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_UNEXPECTED
@@ -1953,7 +1953,7 @@ mCurrentURI
 *
 aURI
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2173,7 +2173,7 @@ LoadImage
 currentURI
 true
 true
-nsnull
+nullptr
 nsIRequest
 :
 :
@@ -3250,7 +3250,7 @@ this
 NS_ENSURE_TRUE
 (
 thisContent
-nsnull
+nullptr
 )
 ;
 return
@@ -3315,7 +3315,7 @@ frame
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -3429,7 +3429,7 @@ IsEmpty
 (
 )
 ?
-nsnull
+nullptr
 :
 charset
 .
@@ -3730,7 +3730,7 @@ mPendingRequest
 ;
 mPendingRequest
 =
-nsnull
+nullptr
 ;
 mCurrentRequestNeedsResetAnimation
 =
@@ -3763,7 +3763,7 @@ mCurrentRequest
 {
 mCurrentURI
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -3813,7 +3813,7 @@ aReason
 ;
 mCurrentRequest
 =
-nsnull
+nullptr
 ;
 mCurrentRequestNeedsResetAnimation
 =
@@ -3879,7 +3879,7 @@ aReason
 ;
 mPendingRequest
 =
-nsnull
+nullptr
 ;
 mPendingRequestNeedsResetAnimation
 =
@@ -3928,7 +3928,7 @@ mPendingRequestRegistered
 else
 {
 return
-nsnull
+nullptr
 ;
 }
 }

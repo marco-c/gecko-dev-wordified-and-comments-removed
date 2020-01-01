@@ -86,14 +86,14 @@ rv
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (
 aOuter
 !
 =
-nsnull
+nullptr
 )
 {
 return
@@ -356,7 +356,7 @@ EnvHashType
 *
 gEnvHash
 =
-nsnull
+nullptr
 ;
 static
 bool

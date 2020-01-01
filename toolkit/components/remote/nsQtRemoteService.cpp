@@ -275,7 +275,7 @@ mServerWindow
 ;
 mServerWindow
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

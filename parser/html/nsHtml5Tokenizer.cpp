@@ -864,7 +864,7 @@ tokenHandler
 )
 encodingDeclarationHandler
 (
-nsnull
+nullptr
 )
 bmpChar
 (
@@ -896,27 +896,27 @@ newJArray
 )
 tagName
 (
-nsnull
+nullptr
 )
 attributeName
 (
-nsnull
+nullptr
 )
 doctypeName
 (
-nsnull
+nullptr
 )
 publicIdentifier
 (
-nsnull
+nullptr
 )
 systemIdentifier
 (
-nsnull
+nullptr
 )
 attributes
 (
-nsnull
+nullptr
 )
 viewingXmlSource
 (
@@ -1664,7 +1664,7 @@ resetAttributes
 {
 attributes
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -1795,7 +1795,7 @@ release
 ;
 tagName
 =
-nsnull
+nullptr
 ;
 resetAttributes
 (
@@ -1865,7 +1865,7 @@ release
 ;
 attributeName
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1898,7 +1898,7 @@ newEmptyString
 ;
 attributeName
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1949,7 +1949,7 @@ val
 ;
 attributeName
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -17466,7 +17466,7 @@ systemIdentifier
 ;
 systemIdentifier
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -17484,7 +17484,7 @@ publicIdentifier
 ;
 publicIdentifier
 =
-nsnull
+nullptr
 ;
 }
 forceQuirks
@@ -18257,7 +18257,7 @@ systemIdentifier
 ;
 systemIdentifier
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -18275,7 +18275,7 @@ publicIdentifier
 ;
 publicIdentifier
 =
-nsnull
+nullptr
 ;
 }
 forceQuirks
@@ -19365,7 +19365,7 @@ forceQuirks
 ;
 doctypeName
 =
-nsnull
+nullptr
 ;
 nsHtml5Portability
 :
@@ -19377,7 +19377,7 @@ publicIdentifier
 ;
 publicIdentifier
 =
-nsnull
+nullptr
 ;
 nsHtml5Portability
 :
@@ -19389,7 +19389,7 @@ systemIdentifier
 ;
 systemIdentifier
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -19540,7 +19540,7 @@ longStrBuf
 ;
 doctypeName
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -19557,7 +19557,7 @@ systemIdentifier
 ;
 systemIdentifier
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -19575,7 +19575,7 @@ publicIdentifier
 ;
 publicIdentifier
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -19592,7 +19592,7 @@ release
 ;
 tagName
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -19609,7 +19609,7 @@ release
 ;
 attributeName
 =
-nsnull
+nullptr
 ;
 }
 tokenHandler
@@ -19637,7 +19637,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -19776,7 +19776,7 @@ release
 ;
 tagName
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -19793,7 +19793,7 @@ release
 ;
 attributeName
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -19806,7 +19806,7 @@ attributes
 ;
 attributes
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -20050,7 +20050,7 @@ doctypeName
 {
 doctypeName
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -20089,7 +20089,7 @@ systemIdentifier
 {
 systemIdentifier
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -20127,7 +20127,7 @@ publicIdentifier
 {
 publicIdentifier
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -20170,7 +20170,7 @@ tagName
 {
 tagName
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -20213,7 +20213,7 @@ attributeName
 {
 attributeName
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -20246,7 +20246,7 @@ attributes
 {
 attributes
 =
-nsnull
+nullptr
 ;
 }
 else

@@ -348,7 +348,7 @@ false
 false
 false
 false
-nsnull
+nullptr
 )
 )
 )
@@ -747,7 +747,7 @@ GetMenuBar
 ;
 else
 return
-nsnull
+nullptr
 ;
 }
 /

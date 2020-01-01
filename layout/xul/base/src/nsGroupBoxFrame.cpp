@@ -875,7 +875,7 @@ if
 box
 )
 return
-nsnull
+nullptr
 ;
 box
 =
@@ -892,7 +892,7 @@ if
 box
 )
 return
-nsnull
+nullptr
 ;
 nsIBox
 *

@@ -424,7 +424,7 @@ false
 )
 mBuffer
 (
-nsnull
+nullptr
 )
 mSyntaxHighlight
 (
@@ -447,15 +447,15 @@ aOpSink
 )
 mCurrentRun
 (
-nsnull
+nullptr
 )
 mAmpersand
 (
-nsnull
+nullptr
 )
 mSlash
 (
-nsnull
+nullptr
 )
 mHandles
 (
@@ -561,7 +561,7 @@ nsHtml5Atoms
 :
 :
 html
-nsnull
+nullptr
 )
 ;
 mOpQueue
@@ -590,7 +590,7 @@ nsGkAtoms
 :
 :
 head
-nsnull
+nullptr
 )
 ;
 Push
@@ -599,7 +599,7 @@ nsGkAtoms
 :
 :
 title
-nsnull
+nullptr
 )
 ;
 PRUint32
@@ -1938,7 +1938,7 @@ FlushChars
 ;
 mBuffer
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -1959,7 +1959,7 @@ nsGkAtoms
 :
 :
 span
-nsnull
+nullptr
 )
 ;
 +
@@ -2040,7 +2040,7 @@ nsGkAtoms
 :
 :
 span
-nsnull
+nullptr
 )
 ;
 mCurrentRun
@@ -2114,7 +2114,7 @@ nsGkAtoms
 :
 :
 a
-nsnull
+nullptr
 )
 ;
 AddClass
@@ -2288,7 +2288,7 @@ nsGkAtoms
 :
 :
 span
-nsnull
+nullptr
 )
 ;
 nsHtml5TreeOperation

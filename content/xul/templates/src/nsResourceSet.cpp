@@ -18,7 +18,7 @@ aResourceSet
 :
 mResources
 (
-nsnull
+nullptr
 )
 mCount
 (
@@ -197,7 +197,7 @@ NS_PRECONDITION
 aResource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr

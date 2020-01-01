@@ -70,7 +70,7 @@ aContentIndex
 :
 mPseudoFrame
 (
-nsnull
+nullptr
 )
 mContentIndex
 (
@@ -253,7 +253,7 @@ nsGenConList
 :
 mFirstNode
 (
-nsnull
+nullptr
 )
 mSize
 (

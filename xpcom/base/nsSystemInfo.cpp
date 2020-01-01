@@ -598,7 +598,7 @@ char
 *
 line
 =
-nsnull
+nullptr
 ;
 size_t
 len

@@ -352,7 +352,7 @@ nsXBLService
 :
 gInstance
 =
-nsnull
+nullptr
 ;
 static
 bool
@@ -623,7 +623,7 @@ aURI
 aBoundElement
 )
 :
-nsnull
+nullptr
 ;
 }
 static
@@ -1203,7 +1203,7 @@ loadAsInteractiveData
 "
 channel
 group
-nsnull
+nullptr
 getter_AddRefs
 (
 mInner
@@ -1297,7 +1297,7 @@ aStatus
 }
 mInner
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -1703,7 +1703,7 @@ warningFlag
 "
 XBL
 "
-nsnull
+nullptr
 nsContentUtils
 :
 :
@@ -1711,7 +1711,7 @@ eXBL_PROPERTIES
 "
 MalformedXBL
 "
-nsnull
+nullptr
 0
 documentURI
 )
@@ -1846,7 +1846,7 @@ nsXBLService
 :
 gClassTable
 =
-nsnull
+nullptr
 ;
 JSCList
 nsXBLService
@@ -2010,7 +2010,7 @@ gClassTable
 ;
 gClassTable
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -2120,7 +2120,7 @@ principal
 *
 aBinding
 =
-nsnull
+nullptr
 ;
 *
 aResolveStyle
@@ -2228,7 +2228,7 @@ aContent
 ;
 binding
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -2258,7 +2258,7 @@ aContent
 ;
 binding
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2626,7 +2626,7 @@ styleBinding
 ChangeDocument
 (
 document
-nsnull
+nullptr
 )
 ;
 }
@@ -2643,7 +2643,7 @@ bindingManager
 SetBinding
 (
 aContent
-nsnull
+nullptr
 )
 ;
 }
@@ -3173,9 +3173,9 @@ GetBinding
 aBoundElement
 aURI
 true
-nsnull
+nullptr
 aIsReady
-nsnull
+nullptr
 )
 ;
 }
@@ -3296,7 +3296,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3720,7 +3720,7 @@ warningFlag
 "
 XBL
 "
-nsnull
+nullptr
 nsContentUtils
 :
 :
@@ -4176,7 +4176,7 @@ NS_ERROR_XBL_BLOCKED
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -4264,7 +4264,7 @@ nsBindingManager
 *
 bindingManager
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4295,7 +4295,7 @@ nsINodeInfo
 *
 ni
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4757,7 +4757,7 @@ NS_OK
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -4827,7 +4827,7 @@ xblSink
 )
 doc
 aDocumentURI
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4851,7 +4851,7 @@ getter_AddRefs
 channel
 )
 aDocumentURI
-nsnull
+nullptr
 loadGroup
 )
 ;
@@ -4932,7 +4932,7 @@ BindingManager
 else
 bindingManager
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4977,7 +4977,7 @@ channel
 AsyncOpen
 (
 xblListener
-nsnull
+nullptr
 )
 ;
 if
@@ -5025,7 +5025,7 @@ loadAsInteractiveData
 "
 channel
 loadGroup
-nsnull
+nullptr
 getter_AddRefs
 (
 listener

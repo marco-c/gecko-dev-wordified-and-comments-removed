@@ -790,7 +790,7 @@ aNodeInfo
 )
 mBindingParent
 (
-nsnull
+nullptr
 )
 {
 XUL_PROTOTYPE_ATTRIBUTE_METER
@@ -1103,7 +1103,7 @@ NS_PRECONDITION
 aPrototype
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1123,7 +1123,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1505,7 +1505,7 @@ const
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -3088,7 +3088,7 @@ slots
 >
 mFrameLoader
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -3433,7 +3433,7 @@ controlElement
 >
 SetCurrentItem
 (
-nsnull
+nullptr
 )
 ;
 else
@@ -3525,7 +3525,7 @@ controlElement
 >
 SetCurrentItem
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -4764,7 +4764,7 @@ slots
 >
 mFrameLoader
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4969,7 +4969,7 @@ aVisitor
 .
 mParentTarget
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -5243,7 +5243,7 @@ mEvent
 aVisitor
 .
 mDOMEvent
-nsnull
+nullptr
 orig
 -
 >
@@ -5385,7 +5385,7 @@ aResource
 *
 aResource
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -5433,7 +5433,7 @@ else
 *
 aDatabase
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -5454,7 +5454,7 @@ aBuilder
 *
 aBuilder
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -5706,7 +5706,7 @@ rv
 =
 NS_NewXULControllers
 (
-nsnull
+nullptr
 NS_GET_IID
 (
 nsIControllers
@@ -5784,7 +5784,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 OwnerDoc
@@ -6343,7 +6343,7 @@ if
 slots
 )
 return
-nsnull
+nullptr
 ;
 nsFrameLoader
 *
@@ -6797,7 +6797,7 @@ eventDown
 (
 isCallerChrome
 NS_MOUSE_BUTTON_DOWN
-nsnull
+nullptr
 nsMouseEvent
 :
 :
@@ -6809,7 +6809,7 @@ eventUp
 (
 isCallerChrome
 NS_MOUSE_BUTTON_UP
-nsnull
+nullptr
 nsMouseEvent
 :
 :
@@ -6821,7 +6821,7 @@ eventClick
 (
 isCallerChrome
 NS_MOUSE_CLICK
-nsnull
+nullptr
 nsMouseEvent
 :
 :
@@ -6863,7 +6863,7 @@ this
 context
 &
 eventDown
-nsnull
+nullptr
 &
 status
 )
@@ -6888,7 +6888,7 @@ this
 context
 &
 eventUp
-nsnull
+nullptr
 &
 status
 )
@@ -6913,7 +6913,7 @@ this
 context
 &
 eventClick
-nsnull
+nullptr
 &
 status
 )
@@ -7224,7 +7224,7 @@ nsIDOMEventListener
 *
 listener
 =
-nsnull
+nullptr
 ;
 popupListener
 .
@@ -7762,7 +7762,7 @@ mainWidget
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -8773,7 +8773,7 @@ mName
 Atom
 (
 )
-nsnull
+nullptr
 kNameSpaceID_None
 nsIDOMNode
 :
@@ -9891,7 +9891,7 @@ mAttributes
 ;
 mAttributes
 =
-nsnull
+nullptr
 ;
 }
 nsXULPrototypeScript
@@ -9923,7 +9923,7 @@ true
 )
 mSrcLoadWaiters
 (
-nsnull
+nullptr
 )
 mLangVersion
 (
@@ -9988,7 +9988,7 @@ mSrcLoading
 mSrcLoadWaiters
 !
 =
-nsnull
+nullptr
 |
 |
 !
@@ -10231,7 +10231,7 @@ Serialize
 (
 oos
 aGlobal
-nsnull
+nullptr
 )
 ;
 rv
@@ -10299,7 +10299,7 @@ mSrcLoading
 mSrcLoadWaiters
 !
 =
-nsnull
+nullptr
 |
 |
 !
@@ -10354,7 +10354,7 @@ NS_ASSERTION
 context
 !
 =
-nsnull
+nullptr
 "
 Have
 no
@@ -10551,8 +10551,8 @@ Deserialize
 (
 objectInput
 aGlobal
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -10685,7 +10685,7 @@ NS_ASSERTION
 global
 !
 =
-nsnull
+nullptr
 "
 prototype
 doc
@@ -10718,7 +10718,7 @@ NS_ASSERTION
 context
 !
 =
-nsnull
+nullptr
 "
 no
 context
@@ -10878,7 +10878,7 @@ mScriptObject
 .
 mObject
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -10917,7 +10917,7 @@ mScriptObject
 .
 mObject
 =
-nsnull
+nullptr
 ;
 return
 ;

@@ -2701,7 +2701,7 @@ if
 scrollbar
 =
 =
-nsnull
+nullptr
 )
 return
 this
@@ -4153,7 +4153,7 @@ GetContent
 (
 )
 :
-nsnull
+nullptr
 aGrabMouseEvents
 ?
 CAPTURE_IGNOREALLOWED
@@ -4615,12 +4615,12 @@ mMediator
 >
 SetSlider
 (
-nsnull
+nullptr
 )
 ;
 mMediator
 =
-nsnull
+nullptr
 ;
 }
 StopRepeat

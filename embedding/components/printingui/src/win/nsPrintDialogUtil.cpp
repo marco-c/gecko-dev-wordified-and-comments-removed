@@ -1209,7 +1209,7 @@ if
 aPrintSettings
 =
 =
-nsnull
+nullptr
 )
 {
 return
@@ -3861,7 +3861,7 @@ prefs
 >
 GetBranch
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 prefBranch
@@ -4634,7 +4634,7 @@ aPrintSettings
 >
 SetToFileName
 (
-nsnull
+nullptr
 )
 ;
 }

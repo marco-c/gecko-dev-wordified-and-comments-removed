@@ -592,7 +592,7 @@ aLength
 FileHelper
 (
 aLockedFile
-nsnull
+nullptr
 )
 mWholeFile
 (
@@ -673,8 +673,8 @@ event
 new
 nsDOMEvent
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 )
 ;
@@ -694,7 +694,7 @@ aCancelable
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 rv
@@ -710,7 +710,7 @@ true
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -1080,7 +1080,7 @@ kAppShellCID
 NS_ENSURE_TRUE
 (
 appShell
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -1097,7 +1097,7 @@ lockedFile
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 lockedFile
@@ -1121,7 +1121,7 @@ GetOrCreate
 NS_ENSURE_TRUE
 (
 service
-nsnull
+nullptr
 )
 ;
 rv
@@ -1132,13 +1132,13 @@ service
 Enqueue
 (
 lockedFile
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -3695,7 +3695,7 @@ failed
 }
 mLockedFile
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -3792,7 +3792,7 @@ mParallelStreams
 index
 ]
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -3838,7 +3838,7 @@ stream
 }
 mStream
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -3995,7 +3995,7 @@ copier
 AsyncCopy
 (
 this
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4350,7 +4350,7 @@ copier
 AsyncCopy
 (
 this
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4415,7 +4415,7 @@ truncator
 AsyncWork
 (
 this
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4537,7 +4537,7 @@ flusher
 AsyncWork
 (
 this
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS

@@ -177,7 +177,7 @@ NS_ENSURE_TRUE
 InitStaticMembers
 (
 )
-nsnull
+nullptr
 )
 ;
 return
@@ -196,7 +196,7 @@ NS_ENSURE_TRUE
 InitStaticMembers
 (
 )
-nsnull
+nullptr
 )
 ;
 return
@@ -215,7 +215,7 @@ NS_ENSURE_TRUE
 InitStaticMembers
 (
 )
-nsnull
+nullptr
 )
 ;
 return
@@ -746,7 +746,7 @@ void
 *
 aClosure
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -763,7 +763,7 @@ void
 *
 aClosure
 =
-nsnull
+nullptr
 )
 ;
 static

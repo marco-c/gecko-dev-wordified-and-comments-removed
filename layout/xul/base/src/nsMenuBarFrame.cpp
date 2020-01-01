@@ -224,7 +224,7 @@ aContext
 )
 mMenuBarListener
 (
-nsnull
+nullptr
 )
 mStayActive
 (
@@ -236,11 +236,11 @@ false
 )
 mCurrentMenu
 (
-nsnull
+nullptr
 )
 mTarget
 (
-nsnull
+nullptr
 )
 {
 }
@@ -565,7 +565,7 @@ false
 ;
 mCurrentMenu
 =
-nsnull
+nullptr
 ;
 return
 closeframe
@@ -596,7 +596,7 @@ nsXULPopupManager
 GetNextMenuItem
 (
 this
-nsnull
+nullptr
 false
 )
 ;
@@ -640,7 +640,7 @@ firstFrame
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -666,7 +666,7 @@ nsIContent
 *
 child
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -793,13 +793,13 @@ IsEmpty
 )
 )
 return
-nsnull
+nullptr
 ;
 nsIFrame
 *
 immediateParent
 =
-nsnull
+nullptr
 ;
 GetInsertionPoint
 (
@@ -812,7 +812,7 @@ PresShell
 (
 )
 this
-nsnull
+nullptr
 &
 immediateParent
 )
@@ -830,7 +830,7 @@ nsIFrame
 *
 foundMenu
 =
-nsnull
+nullptr
 ;
 PRUint32
 foundIndex
@@ -1033,7 +1033,7 @@ nsMenuFrame
 foundMenu
 )
 :
-nsnull
+nullptr
 ;
 }
 #
@@ -1126,7 +1126,7 @@ true
 }
 SetCurrentMenuItem
 (
-nsnull
+nullptr
 )
 ;
 SetActive
@@ -1137,7 +1137,7 @@ false
 #
 endif
 return
-nsnull
+nullptr
 ;
 }
 nsMenuFrame
@@ -1224,7 +1224,7 @@ false
 ;
 mCurrentMenu
 =
-nsnull
+nullptr
 ;
 }
 class
@@ -1296,7 +1296,7 @@ nsMenuBarFrame
 *
 menubar
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1470,7 +1470,7 @@ pm
 >
 HasContextMenu
 (
-nsnull
+nullptr
 )
 )
 return
@@ -1480,11 +1480,11 @@ nsIContent
 *
 aOldMenu
 =
-nsnull
+nullptr
 *
 aNewMenu
 =
-nsnull
+nullptr
 ;
 bool
 wasOpen
@@ -1546,7 +1546,7 @@ GetContent
 }
 mCurrentMenu
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1638,7 +1638,7 @@ if
 mCurrentMenu
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -1694,7 +1694,7 @@ false
 ;
 mCurrentMenu
 =
-nsnull
+nullptr
 ;
 return
 true

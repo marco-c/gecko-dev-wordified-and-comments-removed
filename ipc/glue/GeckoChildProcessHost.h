@@ -120,7 +120,7 @@ Delegate
 *
 aDelegate
 =
-nsnull
+nullptr
 )
 ;
 ~

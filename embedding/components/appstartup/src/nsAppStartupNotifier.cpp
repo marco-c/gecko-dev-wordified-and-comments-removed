@@ -338,9 +338,9 @@ startupObserver
 >
 Observe
 (
-nsnull
+nullptr
 aTopic
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION

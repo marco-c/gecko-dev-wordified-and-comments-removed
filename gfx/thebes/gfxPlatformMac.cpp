@@ -332,7 +332,7 @@ Shutdown
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -359,7 +359,7 @@ gfxASurface
 *
 newSurface
 =
-nsnull
+nullptr
 ;
 newSurface
 =
@@ -1677,7 +1677,7 @@ qcms_profile
 *
 profile
 =
-nsnull
+nullptr
 ;
 CMProfileRef
 cmProfile
@@ -1720,7 +1720,7 @@ err
 noErr
 )
 return
-nsnull
+nullptr
 ;
 err
 =
@@ -1740,7 +1740,7 @@ err
 noErr
 )
 return
-nsnull
+nullptr
 ;
 location
 =

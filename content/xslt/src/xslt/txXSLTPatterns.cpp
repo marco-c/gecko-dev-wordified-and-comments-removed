@@ -704,7 +704,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 void

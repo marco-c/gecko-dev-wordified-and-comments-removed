@@ -1123,7 +1123,7 @@ failed
 ;
 mStream
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -1207,7 +1207,7 @@ Cancel
 ;
 mTimer
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1254,7 +1254,7 @@ DISPATCH_NORMAL
 ;
 mStream
 =
-nsnull
+nullptr
 ;
 }
 }

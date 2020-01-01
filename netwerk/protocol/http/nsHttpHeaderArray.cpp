@@ -32,7 +32,7 @@ nsEntry
 *
 entry
 =
-nsnull
+nullptr
 ;
 PRInt32
 index
@@ -164,7 +164,7 @@ nsEntry
 *
 entry
 =
-nsnull
+nullptr
 ;
 PRInt32
 index
@@ -377,7 +377,7 @@ nsEntry
 *
 entry
 =
-nsnull
+nullptr
 ;
 LookupEntry
 (
@@ -398,7 +398,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -420,7 +420,7 @@ nsEntry
 *
 entry
 =
-nsnull
+nullptr
 ;
 LookupEntry
 (

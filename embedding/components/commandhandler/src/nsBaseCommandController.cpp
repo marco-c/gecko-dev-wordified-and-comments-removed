@@ -83,7 +83,7 @@ nsBaseCommandController
 :
 mCommandContextRawPtr
 (
-nsnull
+nullptr
 )
 {
 }
@@ -147,11 +147,11 @@ aCommandContext
 {
 mCommandContextWeakPtr
 =
-nsnull
+nullptr
 ;
 mCommandContextRawPtr
 =
-nsnull
+nullptr
 ;
 if
 (

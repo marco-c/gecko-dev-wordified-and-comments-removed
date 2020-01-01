@@ -78,7 +78,7 @@ Shutdown
 ;
 mNativeAccessible
 =
-nsnull
+nullptr
 ;
 }
 role
@@ -140,8 +140,8 @@ aHwnd
 :
 LeafAccessible
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 {
 mFlags

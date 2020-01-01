@@ -151,7 +151,7 @@ mU
 .
 mPtr
 =
-nsnull
+nullptr
 ;
 aValue
 .
@@ -1251,7 +1251,7 @@ iter1
 =
 end1
 =
-nsnull
+nullptr
 ;
 }
 else

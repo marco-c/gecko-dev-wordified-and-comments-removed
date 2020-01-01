@@ -90,7 +90,7 @@ aNodeInfo
 )
 mGrandparent
 (
-nsnull
+nullptr
 )
 mNameSpaceID
 (
@@ -295,7 +295,7 @@ nodeInfoManager
 *
 aInstancePtrResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -956,7 +956,7 @@ namespace
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1161,7 +1161,7 @@ this
 ;
 mGrandparent
 =
-nsnull
+nullptr
 ;
 }
 nsTextNode
@@ -1288,7 +1288,7 @@ node
 ;
 mGrandparent
 =
-nsnull
+nullptr
 ;
 }
 void

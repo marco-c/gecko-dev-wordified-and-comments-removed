@@ -1807,7 +1807,7 @@ defaultState
 ;
 mCachedURI
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1947,7 +1947,7 @@ uri
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr

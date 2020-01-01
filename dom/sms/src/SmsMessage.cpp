@@ -180,7 +180,7 @@ aMessage
 *
 aMessage
 =
-nsnull
+nullptr
 ;
 SmsMessageData
 data

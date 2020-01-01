@@ -79,7 +79,7 @@ aContent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_DECL_ISUPPORTS_INHERITED
@@ -304,7 +304,7 @@ SetAttr
 (
 aNameSpaceID
 aName
-nsnull
+nullptr
 aValue
 aNotify
 )
@@ -392,7 +392,7 @@ GetFormElement
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 virtual

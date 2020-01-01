@@ -110,7 +110,7 @@ PRLogModuleInfo
 *
 gWin32SoundLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -399,7 +399,7 @@ nsSound
 endif
 mLastSound
 =
-nsnull
+nullptr
 ;
 }
 nsSound
@@ -453,7 +453,7 @@ Shutdown
 ;
 mPlayerThread
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -474,8 +474,8 @@ mLastSound
 :
 PlaySound
 (
-nsnull
-nsnull
+nullptr
+nullptr
 SND_PURGE
 )
 ;
@@ -486,7 +486,7 @@ mLastSound
 ;
 mLastSound
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -809,8 +809,8 @@ Init
 :
 PlaySound
 (
-nsnull
-nsnull
+nullptr
+nullptr
 SND_PURGE
 )
 ;
@@ -1033,7 +1033,7 @@ wchar_t
 *
 sound
 =
-nsnull
+nullptr
 ;
 switch
 (

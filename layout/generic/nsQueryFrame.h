@@ -162,7 +162,7 @@ break
 }
 \
 return
-nsnull
+nullptr
 ;
 \
 }
@@ -247,7 +247,7 @@ if
 mRawPtr
 )
 return
-nsnull
+nullptr
 ;
 return
 reinterpret_cast

@@ -110,7 +110,7 @@ SelectionDirection
 *
 aDirection
 =
-nsnull
+nullptr
 )
 =
 0

@@ -245,7 +245,7 @@ aResult
 NS_OK
 )
 return
-nsnull
+nullptr
 ;
 }
 NS_ASSERTION
@@ -299,7 +299,7 @@ aResult
 NS_ERROR_FAILURE
 ;
 return
-nsnull
+nullptr
 ;
 }
 *
@@ -386,7 +386,7 @@ aResult
 NS_OK
 )
 return
-nsnull
+nullptr
 ;
 }
 NS_ASSERTION
@@ -631,7 +631,7 @@ IsEmpty
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -665,7 +665,7 @@ entry
 new
 nsMimeType
 (
-nsnull
+nullptr
 helper
 )
 )
@@ -686,7 +686,7 @@ aResult
 NS_ERROR_OUT_OF_MEMORY
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -695,7 +695,7 @@ entry
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -812,7 +812,7 @@ nsIDOMPluginArray
 *
 pluginArray
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1276,7 +1276,7 @@ aEnabledPlugin
 *
 aEnabledPlugin
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

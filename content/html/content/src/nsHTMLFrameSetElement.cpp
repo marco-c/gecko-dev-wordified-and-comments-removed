@@ -300,7 +300,7 @@ aNumValues
 *
 aSpecs
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -487,7 +487,7 @@ aNumValues
 *
 aSpecs
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -817,7 +817,7 @@ aNumSpecs
 *
 aSpecs
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -965,7 +965,7 @@ specs
 *
 aSpecs
 =
-nsnull
+nullptr
 ;
 aNumSpecs
 =

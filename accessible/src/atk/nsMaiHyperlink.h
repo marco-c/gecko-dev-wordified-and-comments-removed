@@ -71,7 +71,7 @@ IsLink
 ?
 mHyperlink
 :
-nsnull
+nullptr
 ;
 }
 protected

@@ -205,7 +205,7 @@ PRUnichar
 *
 aData
 =
-nsnull
+nullptr
 PRUint32
 aDataLength
 =
@@ -246,7 +246,7 @@ bool
 *
 aTerminated
 =
-nsnull
+nullptr
 )
 ;
 XPCOM_API
@@ -422,7 +422,7 @@ NS_StringSetDataRange
 aStr
 aCutOffset
 aCutLength
-nsnull
+nullptr
 0
 )
 ;
@@ -509,7 +509,7 @@ char
 *
 aData
 =
-nsnull
+nullptr
 PRUint32
 aDataLength
 =
@@ -550,7 +550,7 @@ bool
 *
 aTerminated
 =
-nsnull
+nullptr
 )
 ;
 XPCOM_API
@@ -726,7 +726,7 @@ NS_CStringSetDataRange
 aStr
 aCutOffset
 aCutLength
-nsnull
+nullptr
 0
 )
 ;

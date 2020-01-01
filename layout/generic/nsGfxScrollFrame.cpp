@@ -549,7 +549,7 @@ mFrames
 .
 AppendFrames
 (
-nsnull
+nullptr
 aFrameList
 )
 ;
@@ -623,7 +623,7 @@ mFrames
 .
 InsertFrames
 (
-nsnull
+nullptr
 aPrevFrame
 aFrameList
 )
@@ -1561,7 +1561,7 @@ aAssumeVScroll
 &
 vScrollbarPrefSize
 :
-nsnull
+nullptr
 true
 )
 ;
@@ -1625,7 +1625,7 @@ aAssumeHScroll
 &
 hScrollbarPrefSize
 :
-nsnull
+nullptr
 false
 )
 ;
@@ -2316,7 +2316,7 @@ presContext
 1
 -
 1
-nsnull
+nullptr
 &
 aState
 -
@@ -3134,7 +3134,7 @@ bls
 mInner
 .
 mVScrollbarBox
-nsnull
+nullptr
 &
 vScrollbarPrefSize
 true
@@ -3349,7 +3349,7 @@ frameContent
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -4089,7 +4089,7 @@ NS_STYLE_OVERFLOW_HIDDEN
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsAccessibilityService
@@ -4127,7 +4127,7 @@ PresShell
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -4212,7 +4212,7 @@ aIsRoot
 {
 SetLayoutManager
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -5515,7 +5515,7 @@ true
 )
 mCallee
 (
-nsnull
+nullptr
 )
 {
 }
@@ -6724,7 +6724,7 @@ ScrollFrameActivityTracker
 *
 gScrollFrameActivityTracker
 =
-nsnull
+nullptr
 ;
 nsGfxScrollFrameInner
 :
@@ -6740,23 +6740,23 @@ aIsRoot
 :
 mHScrollbarBox
 (
-nsnull
+nullptr
 )
 mVScrollbarBox
 (
-nsnull
+nullptr
 )
 mScrolledFrame
 (
-nsnull
+nullptr
 )
 mScrollCornerBox
 (
-nsnull
+nullptr
 )
 mResizerBox
 (
-nsnull
+nullptr
 )
 mOuter
 (
@@ -6764,7 +6764,7 @@ aOuter
 )
 mAsyncScroll
 (
-nsnull
+nullptr
 )
 mDestination
 (
@@ -6910,7 +6910,7 @@ gScrollFrameActivityTracker
 ;
 gScrollFrameActivityTracker
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -6927,7 +6927,7 @@ Cancel
 ;
 mScrollActivityTimer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -7159,7 +7159,7 @@ self
 >
 mAsyncScroll
 =
-nsnull
+nullptr
 ;
 self
 -
@@ -7433,7 +7433,7 @@ INSTANT
 {
 mAsyncScroll
 =
-nsnull
+nullptr
 ;
 ScrollToImpl
 (
@@ -7548,7 +7548,7 @@ this
 {
 mAsyncScroll
 =
-nsnull
+nullptr
 ;
 ScrollToImpl
 (
@@ -8943,7 +8943,7 @@ self
 >
 mScrollActivityTimer
 =
-nsnull
+nullptr
 ;
 self
 -
@@ -11505,7 +11505,7 @@ mVerticalOverflow
 NS_SCROLLPORT_OVERFLOW
 :
 NS_SCROLLPORT_UNDERFLOW
-nsnull
+nullptr
 )
 ;
 event
@@ -11547,23 +11547,23 @@ ReloadChildFrames
 {
 mScrolledFrame
 =
-nsnull
+nullptr
 ;
 mHScrollbarBox
 =
-nsnull
+nullptr
 ;
 mVScrollbarBox
 =
-nsnull
+nullptr
 ;
 mScrollCornerBox
 =
-nsnull
+nullptr
 ;
 mResizerBox
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -12035,7 +12035,7 @@ nsGkAtoms
 :
 :
 scrollbar
-nsnull
+nullptr
 kNameSpaceID_XUL
 nsIDOMNode
 :
@@ -12227,7 +12227,7 @@ nsGkAtoms
 :
 :
 resizer
-nsnull
+nullptr
 kNameSpaceID_XUL
 nsIDOMNode
 :
@@ -12467,7 +12467,7 @@ nsGkAtoms
 :
 :
 scrollcorner
-nsnull
+nullptr
 kNameSpaceID_XUL
 nsIDOMNode
 :
@@ -12980,7 +12980,7 @@ event
 (
 true
 NS_SCROLL_EVENT
-nsnull
+nullptr
 )
 ;
 nsEventStatus
@@ -13040,7 +13040,7 @@ doc
 prescontext
 &
 event
-nsnull
+nullptr
 &
 status
 )
@@ -13065,7 +13065,7 @@ content
 prescontext
 &
 event
-nsnull
+nullptr
 &
 status
 )
@@ -14765,7 +14765,7 @@ mInner
 mHScrollbarBox
 &
 hMinSize
-nsnull
+nullptr
 false
 )
 ;
@@ -14797,7 +14797,7 @@ mInner
 mVScrollbarBox
 &
 vMinSize
-nsnull
+nullptr
 true
 )
 ;
@@ -15390,7 +15390,7 @@ GetContent
 (
 )
 :
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -15407,7 +15407,7 @@ GetContent
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -17615,7 +17615,7 @@ eNoID
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIScrollbarMediator
@@ -17635,7 +17635,7 @@ mediator
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsPoint
@@ -17658,7 +17658,7 @@ nsPoint
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsPresState
@@ -17823,7 +17823,7 @@ event
 (
 true
 NS_SCROLLEDAREACHANGED
-nsnull
+nullptr
 )
 ;
 nsPresContext
@@ -17884,7 +17884,7 @@ doc
 prescontext
 &
 event
-nsnull
+nullptr
 )
 ;
 }

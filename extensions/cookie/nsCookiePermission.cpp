@@ -366,7 +366,7 @@ false
 PrefChanged
 (
 prefBranch
-nsnull
+nullptr
 )
 ;
 bool
@@ -1474,7 +1474,7 @@ aURI
 *
 aURI
 =
-nsnull
+nullptr
 ;
 if
 (

@@ -200,7 +200,7 @@ bool
 *
 aIsMedia
 =
-nsnull
+nullptr
 )
 ;
 static

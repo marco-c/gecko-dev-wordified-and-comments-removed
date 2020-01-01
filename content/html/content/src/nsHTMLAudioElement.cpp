@@ -101,7 +101,7 @@ GetDocumentFromCaller
 NS_ENSURE_TRUE
 (
 doc
-nsnull
+nullptr
 )
 ;
 nodeInfo
@@ -120,7 +120,7 @@ nsGkAtoms
 :
 :
 audio
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :
@@ -131,7 +131,7 @@ ELEMENT_NODE
 NS_ENSURE_TRUE
 (
 nodeInfo
-nsnull
+nullptr
 )
 ;
 }
@@ -230,7 +230,7 @@ nsGkAtoms
 :
 :
 src
-nsnull
+nullptr
 aValue
 )
 ;
@@ -421,7 +421,7 @@ Shutdown
 ;
 mAudioStream
 =
-nsnull
+nullptr
 ;
 return
 rv

@@ -682,7 +682,7 @@ nsGkAtoms
 width
 }
 {
-nsnull
+nullptr
 }
 }
 ;

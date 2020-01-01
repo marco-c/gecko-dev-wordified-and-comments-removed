@@ -691,7 +691,7 @@ nsIMemoryReporter
 *
 gCanvasAzureMemoryReporter
 =
-nsnull
+nullptr
 ;
 static
 PRInt64
@@ -880,7 +880,7 @@ CanvasGeneralPattern
 :
 mPattern
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1338,12 +1338,12 @@ Rect
 *
 aBounds
 =
-nsnull
+nullptr
 )
 :
 mCtx
 (
-nsnull
+nullptr
 )
 {
 if
@@ -1611,7 +1611,7 @@ mTarget
 ;
 mCtx
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -1791,7 +1791,7 @@ parser
 ParseColorString
 (
 colorstr
-nsnull
+nullptr
 0
 value
 )
@@ -1813,8 +1813,8 @@ nsRuleNode
 ComputeColor
 (
 value
-nsnull
-nsnull
+nullptr
+nullptr
 color
 )
 )
@@ -1825,7 +1825,7 @@ NS_ERROR_DOM_SYNTAX_ERR
 }
 mStops
 =
-nsnull
+nullptr
 ;
 GradientStop
 newStop
@@ -2159,7 +2159,7 @@ Forget
 {
 mContext
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -2356,7 +2356,7 @@ sUnpremultiplyTable
 256
 ]
 =
-nsnull
+nullptr
 ;
 PRUint8
 (
@@ -2370,7 +2370,7 @@ sPremultiplyTable
 256
 ]
 =
-nsnull
+nullptr
 ;
 namespace
 mozilla
@@ -2578,11 +2578,11 @@ sPremultiplyTable
 ;
 sUnpremultiplyTable
 =
-nsnull
+nullptr
 ;
 sPremultiplyTable
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2645,7 +2645,7 @@ OwnerDoc
 (
 )
 :
-nsnull
+nullptr
 ;
 nsCSSParser
 parser
@@ -2659,7 +2659,7 @@ CSSLoader
 (
 )
 :
-nsnull
+nullptr
 )
 ;
 nsCSSValue
@@ -2673,7 +2673,7 @@ parser
 ParseColorString
 (
 aString
-nsnull
+nullptr
 0
 value
 )
@@ -2718,7 +2718,7 @@ nsComputedDOMStyle
 GetStyleContextForElement
 (
 mCanvasElement
-nsnull
+nullptr
 presShell
 )
 ;
@@ -2741,7 +2741,7 @@ GetPresContext
 (
 )
 :
-nsnull
+nullptr
 parentContext
 *
 aColor
@@ -2793,11 +2793,11 @@ mHeight
 }
 mTarget
 =
-nsnull
+nullptr
 ;
 mThebesSurface
 =
-nsnull
+nullptr
 ;
 mValid
 =
@@ -2845,7 +2845,7 @@ OwnerDoc
 (
 )
 :
-nsnull
+nullptr
 nsContentUtils
 :
 :
@@ -3116,7 +3116,7 @@ aStr
 ;
 supports
 =
-nsnull
+nullptr
 ;
 aType
 =
@@ -3328,7 +3328,7 @@ mCanvasElement
 >
 InvalidateCanvasContent
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -3613,7 +3613,7 @@ nsIDocument
 *
 ownerDoc
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3636,7 +3636,7 @@ LayerManager
 >
 layerManager
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3701,7 +3701,7 @@ if
 gCanvasAzureMemoryReporter
 =
 =
-nsnull
+nullptr
 )
 {
 gCanvasAzureMemoryReporter
@@ -3823,15 +3823,15 @@ Clear
 ;
 mPathBuilder
 =
-nsnull
+nullptr
 ;
 mPath
 =
-nsnull
+nullptr
 ;
 mDSPathBuilder
 =
-nsnull
+nullptr
 ;
 ContextState
 *
@@ -3970,7 +3970,7 @@ element
 ;
 mDocShell
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4052,7 +4052,7 @@ mValid
 mTarget
 !
 =
-nsnull
+nullptr
 ;
 return
 Initialize
@@ -6755,7 +6755,7 @@ return
 SetStrokeStyle_multi
 (
 str
-nsnull
+nullptr
 )
 ;
 }
@@ -7103,7 +7103,7 @@ return
 SetFillStyle_multi
 (
 str
-nsnull
+nullptr
 )
 ;
 }
@@ -7647,7 +7647,7 @@ NS_ERROR_DOM_NOT_SUPPORTED_ERR
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -7774,7 +7774,7 @@ NS_ERROR_DOM_NOT_SUPPORTED_ERR
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -7801,7 +7801,7 @@ NS_ERROR_DOM_INDEX_SIZE_ERR
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -9005,7 +9005,7 @@ IsEmpty
 (
 )
 ?
-nsnull
+nullptr
 :
 &
 bounds
@@ -9250,7 +9250,7 @@ IsEmpty
 (
 )
 ?
-nsnull
+nullptr
 :
 &
 bounds
@@ -9360,7 +9360,7 @@ IsEmpty
 (
 )
 ?
-nsnull
+nullptr
 :
 &
 bounds
@@ -9444,7 +9444,7 @@ IsEmpty
 (
 )
 ?
-nsnull
+nullptr
 :
 &
 bounds
@@ -9571,15 +9571,15 @@ BeginPath
 {
 mPath
 =
-nsnull
+nullptr
 ;
 mPathBuilder
 =
-nsnull
+nullptr
 ;
 mDSPathBuilder
 =
-nsnull
+nullptr
 ;
 mPathTransformWillUpdate
 =
@@ -9677,7 +9677,7 @@ IsEmpty
 (
 )
 ?
-nsnull
+nullptr
 :
 &
 bounds
@@ -9834,7 +9834,7 @@ IsEmpty
 (
 )
 ?
-nsnull
+nullptr
 :
 &
 bounds
@@ -11112,11 +11112,11 @@ fillRule
 ;
 mPath
 =
-nsnull
+nullptr
 ;
 mPathBuilder
 =
-nsnull
+nullptr
 ;
 mPathTransformWillUpdate
 =
@@ -11257,7 +11257,7 @@ Finish
 ;
 mPathBuilder
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -11284,7 +11284,7 @@ fillRule
 ;
 mPath
 =
-nsnull
+nullptr
 ;
 mPathTransformWillUpdate
 =
@@ -11313,7 +11313,7 @@ Finish
 ;
 mDSPathBuilder
 =
-nsnull
+nullptr
 ;
 Matrix
 inverse
@@ -11370,7 +11370,7 @@ Finish
 ;
 mPathBuilder
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -11897,7 +11897,7 @@ nsComputedDOMStyle
 GetStyleContextForElement
 (
 mCanvasElement
-nsnull
+nullptr
 presShell
 )
 ;
@@ -11965,7 +11965,7 @@ styleSet
 >
 ResolveStyleForRules
 (
-nsnull
+nullptr
 parentRules
 )
 ;
@@ -12922,7 +12922,7 @@ x
 y
 maxWidth
 TEXT_DRAW_OPERATION_FILL
-nsnull
+nullptr
 )
 ;
 }
@@ -13019,7 +13019,7 @@ x
 y
 maxWidth
 TEXT_DRAW_OPERATION_STROKE
-nsnull
+nullptr
 )
 ;
 }
@@ -13293,7 +13293,7 @@ gfxFont
 :
 LOOSE_INK_EXTENTS
 mThebes
-nsnull
+nullptr
 )
 ;
 if
@@ -13397,7 +13397,7 @@ gfxFont
 :
 LOOSE_INK_EXTENTS
 mThebes
-nsnull
+nullptr
 )
 ;
 point
@@ -14326,7 +14326,7 @@ nsComputedDOMStyle
 GetStyleContextForElement
 (
 mCanvasElement
-nsnull
+nullptr
 presShell
 )
 ;
@@ -14405,7 +14405,7 @@ GetAppUnitsValues
 processor
 .
 mAppUnitsPerDevPixel
-nsnull
+nullptr
 )
 ;
 processor
@@ -14581,7 +14581,7 @@ nsBidiPresUtils
 :
 :
 MODE_MEASURE
-nsnull
+nullptr
 0
 &
 totalWidthCoord
@@ -15031,9 +15031,9 @@ nsBidiPresUtils
 :
 :
 MODE_DRAW
-nsnull
+nullptr
 0
-nsnull
+nullptr
 &
 bidiEngine
 )
@@ -15190,7 +15190,7 @@ CreateFontGroup
 kDefaultFontName
 &
 style
-nsnull
+nullptr
 )
 ;
 if
@@ -16825,7 +16825,7 @@ IsEmpty
 (
 )
 ?
-nsnull
+nullptr
 :
 &
 bounds
@@ -19530,7 +19530,7 @@ fillRule
 ;
 mPath
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -20883,7 +20883,7 @@ mValid
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -20982,14 +20982,14 @@ null
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 CanvasRenderingContext2DUserDataAzure
 *
 userData
 =
-nsnull
+nullptr
 ;
 if
 (

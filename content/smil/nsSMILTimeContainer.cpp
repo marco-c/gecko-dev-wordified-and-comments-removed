@@ -28,7 +28,7 @@ nsSMILTimeContainer
 :
 mParent
 (
-nsnull
+nullptr
 )
 mCurrentTime
 (

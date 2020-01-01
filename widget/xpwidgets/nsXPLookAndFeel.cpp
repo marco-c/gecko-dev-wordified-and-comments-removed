@@ -989,7 +989,7 @@ nsXPLookAndFeel
 :
 sInstance
 =
-nsnull
+nullptr
 ;
 bool
 nsXPLookAndFeel
@@ -1021,7 +1021,7 @@ NS_ENSURE_TRUE
 (
 !
 sShutdown
-nsnull
+nullptr
 )
 ;
 sInstance
@@ -1060,7 +1060,7 @@ sInstance
 ;
 sInstance
 =
-nsnull
+nullptr
 ;
 }
 nsXPLookAndFeel
@@ -2039,7 +2039,7 @@ instance
 ;
 sInstance
 =
-nsnull
+nullptr
 ;
 }
 bool

@@ -2597,7 +2597,7 @@ char
 *
 oldName
 =
-nsnull
+nullptr
 ;
 const
 char
@@ -5262,7 +5262,7 @@ NS_OK
 NS_ERROR_ILLEGAL_VALUE
 }
 {
-nsnull
+nullptr
 0
 0
 0
@@ -5526,8 +5526,8 @@ test_parse_string_helper
 str
 separator
 0
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -5554,7 +5554,7 @@ str
 separator
 1
 s1
-nsnull
+nullptr
 )
 ;
 }
@@ -7738,8 +7738,8 @@ test_todouble
 test_todouble
 }
 {
-nsnull
-nsnull
+nullptr
+nullptr
 }
 }
 ;
@@ -7806,7 +7806,7 @@ t
 name
 !
 =
-nsnull
+nullptr
 ;
 +
 +

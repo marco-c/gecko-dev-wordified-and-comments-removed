@@ -83,7 +83,7 @@ nsXBLResource
 ;
 mNext
 =
-nsnull
+nullptr
 ;
 mType
 =

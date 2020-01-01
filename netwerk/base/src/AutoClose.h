@@ -129,7 +129,7 @@ Close
 ;
 mPtr
 =
-nsnull
+nullptr
 ;
 }
 T

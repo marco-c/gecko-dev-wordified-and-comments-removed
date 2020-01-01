@@ -68,7 +68,7 @@ nsRDFResource
 :
 gRDFService
 =
-nsnull
+nullptr
 ;
 nsrefcnt
 nsRDFResource
@@ -88,7 +88,7 @@ void
 :
 mDelegates
 (
-nsnull
+nullptr
 )
 {
 }
@@ -178,7 +178,7 @@ NS_PRECONDITION
 aNode
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -296,7 +296,7 @@ NS_PRECONDITION
 aURI
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -466,7 +466,7 @@ NS_PRECONDITION
 aURI
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -527,7 +527,7 @@ NS_PRECONDITION
 aKey
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -548,7 +548,7 @@ rv
 *
 aResult
 =
-nsnull
+nullptr
 ;
 DelegateEntry
 *
@@ -833,7 +833,7 @@ NS_PRECONDITION
 aKey
 !
 =
-nsnull
+nullptr
 "
 null
 ptr

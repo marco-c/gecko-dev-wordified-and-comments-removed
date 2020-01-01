@@ -102,7 +102,7 @@ IDBTransaction
 *
 gCurrentTransaction
 =
-nsnull
+nullptr
 ;
 const
 PRUint32
@@ -166,7 +166,7 @@ JS_NewArrayObject
 (
 aCx
 0
-nsnull
+nullptr
 )
 ;
 if
@@ -553,7 +553,7 @@ thread
 ;
 mRequest
 =
-nsnull
+nullptr
 ;
 }
 AsyncConnectionHelper
@@ -1273,7 +1273,7 @@ IndexedDatabaseManager
 :
 SetCurrentWindow
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -2206,11 +2206,11 @@ thread
 ;
 mDatabase
 =
-nsnull
+nullptr
 ;
 mTransaction
 =
-nsnull
+nullptr
 ;
 HelperBase
 :
@@ -2618,7 +2618,7 @@ Dispatch
 mTransaction
 aRunnable
 false
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS

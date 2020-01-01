@@ -31,9 +31,9 @@ aAccessible
 :
 RootAccessible
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 {
 mFlags
@@ -66,6 +66,6 @@ mAtkObject
 ;
 mAtkObject
 =
-nsnull
+nullptr
 ;
 }

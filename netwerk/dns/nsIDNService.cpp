@@ -269,7 +269,7 @@ true
 prefsChanged
 (
 prefInternal
-nsnull
+nullptr
 )
 ;
 }
@@ -609,7 +609,7 @@ mNamePrepHandle
 )
 mNamePrepHandle
 =
-nsnull
+nullptr
 ;
 mNormalizer
 =
@@ -1883,7 +1883,7 @@ punycode_encode
 (
 ucs4Len
 ucs4Buf
-nsnull
+nullptr
 &
 encodedLength
 encodedBuf
@@ -2258,7 +2258,7 @@ PRUint32
 *
 found
 =
-nsnull
+nullptr
 ;
 idn_err
 =
@@ -2738,7 +2738,7 @@ kACEPrefixLen
 &
 output_length
 output
-nsnull
+nullptr
 )
 ;
 if

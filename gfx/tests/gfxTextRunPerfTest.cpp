@@ -136,8 +136,8 @@ runs
 h
 "
 {
-nsnull
-nsnull
+nullptr
+nullptr
 }
 }
 ;
@@ -220,7 +220,7 @@ char
 *
 lastFamilies
 =
-nsnull
+nullptr
 ;
 void
 RunTest
@@ -306,7 +306,7 @@ mFamilies
 )
 &
 style_western_normal_16
-nsnull
+nullptr
 )
 ;
 }
@@ -370,9 +370,9 @@ params
 =
 {
 ctx
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 0
 60
 }
@@ -490,7 +490,7 @@ GetAdvanceWidth
 (
 0
 length
-nsnull
+nullptr
 )
 ;
 }
@@ -537,9 +537,9 @@ rv
 =
 NS_InitXPCOM2
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 if

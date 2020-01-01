@@ -1273,7 +1273,7 @@ FirePopupBlockedEvent
 (
 domDoc
 aWindow
-nsnull
+nullptr
 EmptyString
 (
 )
@@ -1574,7 +1574,7 @@ Invalidate
 ;
 listener
 =
-nsnull
+nullptr
 ;
 }
 listeners
@@ -1665,7 +1665,7 @@ Clear
 ;
 sSingleton
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

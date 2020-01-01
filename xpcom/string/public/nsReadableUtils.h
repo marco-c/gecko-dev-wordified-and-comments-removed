@@ -315,7 +315,7 @@ PRUint32
 *
 aUTF8Count
 =
-nsnull
+nullptr
 )
 ;
 PRUnichar
@@ -350,7 +350,7 @@ PRUint32
 *
 aUTF16Count
 =
-nsnull
+nullptr
 )
 ;
 PRUnichar

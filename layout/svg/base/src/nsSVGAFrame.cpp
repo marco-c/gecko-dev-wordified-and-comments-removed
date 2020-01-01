@@ -212,7 +212,7 @@ GetRotate
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 private
@@ -427,7 +427,7 @@ TRANSFORM_CHANGED
 {
 mCanvasTM
 =
-nsnull
+nullptr
 ;
 }
 nsSVGAFrameBase

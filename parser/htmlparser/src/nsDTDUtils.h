@@ -864,7 +864,7 @@ CToken
 *
 aToken
 =
-nsnull
+nullptr
 nsTokenAllocator
 *
 aTokenAllocator

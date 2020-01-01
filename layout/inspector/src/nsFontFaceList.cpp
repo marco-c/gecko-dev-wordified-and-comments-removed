@@ -188,7 +188,7 @@ userData
 .
 mResult
 =
-nsnull
+nullptr
 ;
 mFontFaces
 .
@@ -206,7 +206,7 @@ userData
 mResult
 !
 =
-nsnull
+nullptr
 "
 null
 entry

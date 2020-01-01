@@ -126,7 +126,7 @@ Length
 0
 )
 return
-nsnull
+nullptr
 ;
 return
 mRequestQ
@@ -155,7 +155,7 @@ Length
 0
 )
 return
-nsnull
+nullptr
 ;
 return
 mResponseQ

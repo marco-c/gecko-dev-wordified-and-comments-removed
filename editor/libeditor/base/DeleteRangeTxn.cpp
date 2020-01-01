@@ -131,11 +131,11 @@ mRange
 )
 mEditor
 (
-nsnull
+nullptr
 )
 mRangeUpdater
 (
-nsnull
+nullptr
 )
 {
 }

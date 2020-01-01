@@ -404,7 +404,7 @@ mFind
 >
 SetWordBreaker
 (
-nsnull
+nullptr
 )
 ;
 return

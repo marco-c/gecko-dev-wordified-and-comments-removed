@@ -989,7 +989,7 @@ else
 #
 define
 InitNegotiateAuth
-nsnull
+nullptr
 #
 endif
 static

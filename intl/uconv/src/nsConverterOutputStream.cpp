@@ -178,7 +178,7 @@ mConverter
 SetOutputErrorBehavior
 (
 behaviour
-nsnull
+nullptr
 aReplacementChar
 )
 ;
@@ -640,11 +640,11 @@ Close
 ;
 mOutStream
 =
-nsnull
+nullptr
 ;
 mConverter
 =
-nsnull
+nullptr
 ;
 return
 NS_FAILED

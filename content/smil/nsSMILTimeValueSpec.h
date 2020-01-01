@@ -427,7 +427,7 @@ Disconnect
 {
 mSpec
 =
-nsnull
+nullptr
 ;
 }
 NS_DECL_ISUPPORTS

@@ -299,7 +299,7 @@ nsGkAtoms
 :
 :
 img
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :
@@ -418,7 +418,7 @@ nsGkAtoms
 :
 :
 videocontrols
-nsnull
+nullptr
 kNameSpaceID_XUL
 nsIDOMNode
 :
@@ -748,7 +748,7 @@ IsEmpty
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -770,7 +770,7 @@ if
 container
 )
 return
-nsnull
+nullptr
 ;
 gfxIntSize
 frameSize
@@ -801,7 +801,7 @@ height
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsPresContext
@@ -951,7 +951,7 @@ if
 layer
 )
 return
-nsnull
+nullptr
 ;
 }
 layer
@@ -2211,7 +2211,7 @@ PresShell
 )
 )
 :
-nsnull
+nullptr
 ;
 }
 #
@@ -2398,7 +2398,7 @@ GetIntrinsicRatio
 return
 GetVideoIntrinsicSize
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -2903,7 +2903,7 @@ return
 videoDomElement
 !
 =
-nsnull
+nullptr
 ;
 }
 bool

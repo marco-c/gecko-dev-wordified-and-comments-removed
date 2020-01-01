@@ -103,7 +103,7 @@ if
 win
 )
 return
-nsnull
+nullptr
 ;
 return
 win

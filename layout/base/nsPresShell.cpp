@@ -1097,7 +1097,7 @@ false
 false
 false
 false
-nsnull
+nullptr
 }
 ;
 nsIContent
@@ -1428,7 +1428,7 @@ ReflowCountMgr
 *
 aMgr
 =
-nsnull
+nullptr
 )
 ;
 ~
@@ -1570,12 +1570,12 @@ ReflowCountMgr
 *
 aMgr
 =
-nsnull
+nullptr
 )
 :
 mFrame
 (
-nsnull
+nullptr
 )
 mCount
 (
@@ -2931,7 +2931,7 @@ aInstancePtrResult
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aInstancePtrResult
@@ -2988,7 +2988,7 @@ NS_UNCONSTRAINEDSIZE
 {
 mSelection
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -3219,13 +3219,13 @@ NS_ASSERTION
 mFirstCallbackEventRequest
 =
 =
-nsnull
+nullptr
 &
 &
 mLastCallbackEventRequest
 =
 =
-nsnull
+nullptr
 "
 post
 -
@@ -3273,7 +3273,7 @@ mFrameConstructor
 ;
 mCurrentEventContent
 =
-nsnull
+nullptr
 ;
 NS_IF_RELEASE
 (
@@ -3322,7 +3322,7 @@ NS_TIME_FUNCTION_MIN
 ;
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aDocument
@@ -3334,7 +3334,7 @@ ptr
 ;
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aPresContext
@@ -3346,7 +3346,7 @@ ptr
 ;
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aViewManager
@@ -3362,7 +3362,7 @@ result
 if
 (
 (
-nsnull
+nullptr
 =
 =
 aDocument
@@ -3370,7 +3370,7 @@ aDocument
 |
 |
 (
-nsnull
+nullptr
 =
 =
 aPresContext
@@ -3378,7 +3378,7 @@ aPresContext
 |
 |
 (
-nsnull
+nullptr
 =
 =
 aViewManager
@@ -3538,7 +3538,7 @@ failed
 ;
 mStyleSet
 =
-nsnull
+nullptr
 ;
 return
 result
@@ -3550,7 +3550,7 @@ mSelection
 Init
 (
 this
-nsnull
+nullptr
 )
 ;
 #
@@ -3943,7 +3943,7 @@ mReflowCountMgr
 ;
 mReflowCountMgr
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -4010,7 +4010,7 @@ Shutdown
 ;
 mAccDocument
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -4059,7 +4059,7 @@ scrolling
 ;
 mContentToScrollTo
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -4201,7 +4201,7 @@ Cancel
 ;
 mPaintSuppressionTimer
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -4218,7 +4218,7 @@ Cancel
 ;
 mReflowContinueTimer
 =
-nsnull
+nullptr
 ;
 }
 mSynthMouseMoveEvent
@@ -4241,7 +4241,7 @@ Terminate
 ;
 mCaret
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -4267,7 +4267,7 @@ true
 ;
 mCurrentEventFrame
 =
-nsnull
+nullptr
 ;
 PRInt32
 i
@@ -4299,7 +4299,7 @@ mCurrentEventFrameStack
 i
 ]
 =
-nsnull
+nullptr
 ;
 }
 mFramesToDirty
@@ -4318,12 +4318,12 @@ mViewManager
 >
 SetPresShell
 (
-nsnull
+nullptr
 )
 ;
 mViewManager
 =
-nsnull
+nullptr
 ;
 }
 mStyleSet
@@ -4519,7 +4519,7 @@ mPresContext
 >
 SetShell
 (
-nsnull
+nullptr
 )
 ;
 mPresContext
@@ -4527,7 +4527,7 @@ mPresContext
 >
 SetLinkHandler
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -4916,7 +4916,7 @@ n
 endif
 mPrefStyleSheet
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -5000,7 +5000,7 @@ about
 :
 PreferenceStyleSheet
 "
-nsnull
+nullptr
 )
 ;
 if
@@ -5134,7 +5134,7 @@ result
 {
 mPrefStyleSheet
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -6839,7 +6839,7 @@ if
 mSelection
 )
 return
-nsnull
+nullptr
 ;
 return
 mSelection
@@ -7365,9 +7365,9 @@ mFrameConstructor
 >
 ContentInserted
 (
-nsnull
+nullptr
 root
-nsnull
+nullptr
 false
 )
 ;
@@ -8369,7 +8369,7 @@ window
 mPresContext
 &
 event
-nsnull
+nullptr
 &
 status
 )
@@ -8522,7 +8522,7 @@ GetContent
 ;
 mCurrentEventFrame
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -8538,7 +8538,7 @@ mDrawEventTargetFrame
 {
 mDrawEventTargetFrame
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -8601,7 +8601,7 @@ mCurrentEventFrameStack
 i
 ]
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -9832,7 +9832,7 @@ GetType
 )
 )
 return
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -9865,7 +9865,7 @@ GetType
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 theFrame
@@ -9895,7 +9895,7 @@ if
 frame
 )
 return
-nsnull
+nullptr
 ;
 nsIScrollableFrame
 *
@@ -10400,7 +10400,7 @@ GetType
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -11241,7 +11241,7 @@ nsIScrollableFrame
 *
 scrollFrame
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -11297,7 +11297,7 @@ GetFocusedElementForWindow
 (
 window
 false
-nsnull
+nullptr
 getter_AddRefs
 (
 focusedElement
@@ -11587,7 +11587,7 @@ changeList
 .
 AppendChange
 (
-nsnull
+nullptr
 aContent
 nsChangeHint_ReconstructFrame
 )
@@ -11950,7 +11950,7 @@ esm
 >
 SetContentState
 (
-nsnull
+nullptr
 NS_EVENT_STATE_URLTARGET
 )
 ;
@@ -12122,7 +12122,7 @@ break
 }
 content
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -12798,7 +12798,7 @@ ANCHOR_SCROLL_FLAGS
 ;
 mLastAnchorScrolledTo
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -13901,7 +13901,7 @@ DeleteScrollIntoViewData
 {
 mContentToScrollTo
 =
-nsnull
+nullptr
 ;
 }
 currentDoc
@@ -13985,7 +13985,7 @@ scrolling
 ;
 mContentToScrollTo
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -14063,7 +14063,7 @@ data
 {
 mContentToScrollTo
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -14096,7 +14096,7 @@ nsIFrame
 *
 prevBlock
 =
-nsnull
+nullptr
 ;
 nsAutoLineIterator
 lines
@@ -15041,7 +15041,7 @@ NS_OK
 ;
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aState
@@ -15137,7 +15137,7 @@ rv
 *
 aState
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -15429,7 +15429,7 @@ Cancel
 ;
 mPaintSuppressionTimer
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -15519,7 +15519,7 @@ request
 >
 next
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -15566,7 +15566,7 @@ nsCallbackEventRequest
 *
 before
 =
-nsnull
+nullptr
 ;
 nsCallbackEventRequest
 *
@@ -15626,7 +15626,7 @@ NS_ASSERTION
 before
 =
 =
-nsnull
+nullptr
 "
 impossible
 "
@@ -15723,7 +15723,7 @@ mFirstCallbackEventRequest
 {
 mLastCallbackEventRequest
 =
-nsnull
+nullptr
 ;
 }
 nsIReflowCallback
@@ -15800,7 +15800,7 @@ mFirstCallbackEventRequest
 {
 mLastCallbackEventRequest
 =
-nsnull
+nullptr
 ;
 }
 nsIReflowCallback
@@ -16403,7 +16403,7 @@ scrolling
 ;
 mContentToScrollTo
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -17128,7 +17128,7 @@ ContentInserted
 (
 aContainer
 aChild
-nsnull
+nullptr
 true
 )
 ;
@@ -17236,7 +17236,7 @@ else
 {
 oldNextSibling
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -17720,7 +17720,7 @@ GetDocument
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -17740,7 +17740,7 @@ if
 primaryFrame
 )
 return
-nsnull
+nullptr
 ;
 return
 nsPlaceholderFrame
@@ -18456,7 +18456,7 @@ nsDisplayItem
 *
 itemToInsert
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -18903,7 +18903,7 @@ RangePaintInfo
 *
 info
 =
-nsnull
+nullptr
 ;
 nsRange
 *
@@ -19041,7 +19041,7 @@ eCONTENT
 )
 )
 return
-nsnull
+nullptr
 ;
 nsIContent
 *
@@ -19094,7 +19094,7 @@ if
 ancestorFrame
 )
 return
-nsnull
+nullptr
 ;
 info
 =
@@ -19388,7 +19388,7 @@ height
 0
 )
 return
-nsnull
+nullptr
 ;
 nsDeviceContext
 *
@@ -19742,7 +19742,7 @@ delete
 surface
 ;
 return
-nsnull
+nullptr
 ;
 }
 gfxContext
@@ -20139,7 +20139,7 @@ IsInDoc
 )
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -20166,7 +20166,7 @@ aNode
 )
 )
 return
-nsnull
+nullptr
 ;
 RangePaintInfo
 *
@@ -20197,7 +20197,7 @@ delete
 info
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -20252,7 +20252,7 @@ if
 pc
 )
 return
-nsnull
+nullptr
 ;
 aRegion
 -
@@ -20287,7 +20287,7 @@ PaintRangePaintInfo
 (
 &
 rangeItems
-nsnull
+nullptr
 aRegion
 area
 aPoint
@@ -20416,7 +20416,7 @@ delete
 info
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -20426,7 +20426,7 @@ PaintRangePaintInfo
 &
 rangeItems
 aSelection
-nsnull
+nullptr
 area
 aPoint
 aScreenRect
@@ -21194,7 +21194,7 @@ GetLayerManager
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -21581,7 +21581,7 @@ GetVisibility
 nsViewVisibility_kHide
 )
 return
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -21634,7 +21634,7 @@ IsActive
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -21721,7 +21721,7 @@ return
 aView
 ;
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -21764,7 +21764,7 @@ nsViewVisibility_kHide
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -21818,7 +21818,7 @@ IsActive
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -21937,7 +21937,7 @@ GetRootView
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -22056,7 +22056,7 @@ nsIView
 *
 view
 =
-nsnull
+nullptr
 ;
 PRInt32
 viewAPD
@@ -22072,7 +22072,7 @@ nsIViewManager
 *
 pointVM
 =
-nsnull
+nullptr
 ;
 view
 =
@@ -22715,7 +22715,7 @@ nsLayoutUtils
 :
 PaintFrame
 (
-nsnull
+nullptr
 frame
 aDirtyRegion
 bgcolor
@@ -22994,7 +22994,7 @@ mIsDestroying
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -23064,7 +23064,7 @@ nsIContent
 *
 content
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -23111,7 +23111,7 @@ else
 {
 content
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -23177,11 +23177,11 @@ PopCurrentEventInfo
 {
 mCurrentEventFrame
 =
-nsnull
+nullptr
 ;
 mCurrentEventContent
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -23346,7 +23346,7 @@ GetParentPresShell
 NS_ENSURE_TRUE
 (
 parent
-nsnull
+nullptr
 )
 ;
 return
@@ -23372,7 +23372,7 @@ GetParentPresShell
 NS_ENSURE_TRUE
 (
 mPresContext
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -23416,7 +23416,7 @@ container
 NS_ENSURE_TRUE
 (
 treeItem
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -23456,14 +23456,14 @@ treeItem
 !
 =
 parentTreeItem
-nsnull
+nullptr
 )
 ;
 nsIPresShell
 *
 parentPresShell
 =
-nsnull
+nullptr
 ;
 parentDocShell
 -
@@ -23574,7 +23574,7 @@ GetRootWindow
 NS_ENSURE_TRUE
 (
 rootWindow
-nsnull
+nullptr
 )
 ;
 nsPIDOMWindow
@@ -23941,7 +23941,7 @@ nsIWidget
 *
 widget
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -24316,7 +24316,7 @@ GetCapturingContent
 (
 )
 :
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -25148,12 +25148,12 @@ else
 {
 ClearMouseCapture
 (
-nsnull
+nullptr
 )
 ;
 capturingContent
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -25401,7 +25401,7 @@ gCaptureTouchList
 Get
 (
 id
-nsnull
+nullptr
 )
 )
 {
@@ -26166,8 +26166,8 @@ frame
 {
 PushCurrentEventInfo
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -26180,7 +26180,7 @@ aEvent
 {
 mCurrentEventContent
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -26416,7 +26416,7 @@ gKeyDownTarget
 }
 mCurrentEventFrame
 =
-nsnull
+nullptr
 ;
 nsIDocument
 *
@@ -26431,7 +26431,7 @@ OwnerDoc
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -26586,7 +26586,7 @@ aEvent
 {
 mCurrentEventFrame
 =
-nsnull
+nullptr
 ;
 return
 HandleEventInternal
@@ -26654,7 +26654,7 @@ IsRoot
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -26688,7 +26688,7 @@ shellAsTreeItem
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -26715,7 +26715,7 @@ owner
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -26869,8 +26869,8 @@ NS_OK
 ;
 PushCurrentEventInfo
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 mCurrentEventFrame
@@ -26937,11 +26937,11 @@ targetElement
 {
 mCurrentEventContent
 =
-nsnull
+nullptr
 ;
 mCurrentEventFrame
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -27286,7 +27286,7 @@ accEvent
 >
 mAccessible
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -27442,13 +27442,13 @@ OwnerDoc
 (
 )
 :
-nsnull
+nullptr
 ;
 nsIDocument
 *
 root
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -28167,7 +28167,7 @@ aEvent
 >
 target
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -28270,7 +28270,7 @@ Dispatch
 mCurrentEventContent
 mPresContext
 aEvent
-nsnull
+nullptr
 aStatus
 &
 eventCB
@@ -28324,7 +28324,7 @@ Dispatch
 targetContent
 mPresContext
 aEvent
-nsnull
+nullptr
 aStatus
 &
 eventCB
@@ -28345,9 +28345,9 @@ Dispatch
 mDocument
 mPresContext
 aEvent
-nsnull
+nullptr
 aStatus
-nsnull
+nullptr
 )
 ;
 }
@@ -28403,7 +28403,7 @@ NS_MOUSE_BUTTON_UP
 {
 SetCapturingContent
 (
-nsnull
+nullptr
 0
 )
 ;
@@ -28642,7 +28642,7 @@ PresShell
 *
 contentPresShell
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -28738,7 +28738,7 @@ targetPtr
 context
 &
 newEvent
-nsnull
+nullptr
 &
 tmpStatus
 aEventCB
@@ -28840,7 +28840,7 @@ Dispatch
 mCurrentEventContent
 mPresContext
 aEvent
-nsnull
+nullptr
 &
 tmpStatus
 aEventCB
@@ -28888,7 +28888,7 @@ Dispatch
 targetContent
 mPresContext
 aEvent
-nsnull
+nullptr
 &
 tmpStatus
 aEventCB
@@ -28909,10 +28909,10 @@ Dispatch
 mDocument
 mPresContext
 aEvent
-nsnull
+nullptr
 &
 tmpStatus
-nsnull
+nullptr
 )
 ;
 }
@@ -29008,7 +29008,7 @@ NS_OK
 ;
 PushCurrentEventInfo
 (
-nsnull
+nullptr
 aTargetContent
 )
 ;
@@ -29040,7 +29040,7 @@ Dispatch
 aTargetContent
 mPresContext
 aEvent
-nsnull
+nullptr
 aStatus
 )
 ;
@@ -29077,7 +29077,7 @@ NS_OK
 ;
 PushCurrentEventInfo
 (
-nsnull
+nullptr
 aTargetContent
 )
 ;
@@ -29107,7 +29107,7 @@ nsEventDispatcher
 DispatchDOMEvent
 (
 aTargetContent
-nsnull
+nullptr
 aEvent
 mPresContext
 aStatus
@@ -29409,7 +29409,7 @@ aEvent
 >
 widget
 =
-nsnull
+nullptr
 ;
 }
 nsIntPoint
@@ -29509,7 +29509,7 @@ currentPointElement
 ;
 mCurrentEventFrame
 =
-nsnull
+nullptr
 ;
 GetCurrentEventFrame
 (
@@ -29605,7 +29605,7 @@ nsIFrame
 *
 frame
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -31137,7 +31137,7 @@ mDocument
 EnumerateFreezableElements
 (
 FreezeElement
-nsnull
+nullptr
 )
 ;
 if
@@ -31169,7 +31169,7 @@ mDocument
 EnumerateSubDocuments
 (
 FreezeSubDocument
-nsnull
+nullptr
 )
 ;
 }
@@ -31526,7 +31526,7 @@ mDocument
 EnumerateSubDocuments
 (
 ThawSubDocument
-nsnull
+nullptr
 )
 ;
 QueryIsActive
@@ -31926,7 +31926,7 @@ self
 >
 mReflowContinueTimer
 =
-nsnull
+nullptr
 ;
 self
 -
@@ -32054,7 +32054,7 @@ Cancel
 ;
 mReflowContinueTimer
 =
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -32580,7 +32580,7 @@ target
 DidReflow
 (
 mPresContext
-nsnull
+nullptr
 NS_FRAME_REFLOW_FINISHED
 )
 ;
@@ -32614,7 +32614,7 @@ ifdef
 DEBUG
 mCurrentReflowRoot
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -33700,7 +33700,7 @@ mPresContext
 rootFrame
 &
 ReResolveMenusAndTrees
-nsnull
+nullptr
 )
 ;
 nsStyleChangeList
@@ -34788,7 +34788,7 @@ if
 (
 (
 (
-nsnull
+nullptr
 =
 =
 k1
@@ -34796,7 +34796,7 @@ k1
 &
 &
 (
-nsnull
+nullptr
 !
 =
 k2
@@ -34806,7 +34806,7 @@ k2
 |
 (
 (
-nsnull
+nullptr
 !
 =
 k1
@@ -34814,7 +34814,7 @@ k1
 &
 &
 (
-nsnull
+nullptr
 =
 =
 k2
@@ -34846,7 +34846,7 @@ break
 else
 if
 (
-nsnull
+nullptr
 !
 =
 k1
@@ -34924,7 +34924,7 @@ if
 (
 (
 (
-nsnull
+nullptr
 =
 =
 v1
@@ -34932,7 +34932,7 @@ v1
 &
 &
 (
-nsnull
+nullptr
 !
 =
 v2
@@ -34942,7 +34942,7 @@ v2
 |
 (
 (
-nsnull
+nullptr
 !
 =
 v1
@@ -34950,7 +34950,7 @@ v1
 &
 &
 (
-nsnull
+nullptr
 =
 =
 v2
@@ -34981,7 +34981,7 @@ n
 else
 if
 (
-nsnull
+nullptr
 !
 =
 v1
@@ -35059,7 +35059,7 @@ if
 (
 (
 (
-nsnull
+nullptr
 =
 =
 w1
@@ -35067,7 +35067,7 @@ w1
 &
 &
 (
-nsnull
+nullptr
 !
 =
 w2
@@ -35077,7 +35077,7 @@ w2
 |
 (
 (
-nsnull
+nullptr
 !
 =
 w1
@@ -35085,7 +35085,7 @@ w1
 &
 &
 (
-nsnull
+nullptr
 =
 =
 w2
@@ -35116,7 +35116,7 @@ n
 else
 if
 (
-nsnull
+nullptr
 !
 =
 w1
@@ -35479,7 +35479,7 @@ tag
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 tag
@@ -35508,7 +35508,7 @@ GetFirstPrincipalChild
 ;
 while
 (
-nsnull
+nullptr
 !
 =
 kid
@@ -35525,7 +35525,7 @@ kid
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 result
@@ -35547,7 +35547,7 @@ GetNextSibling
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -36365,7 +36365,7 @@ vm
 CreateView
 (
 tbounds
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -36382,7 +36382,7 @@ view
 CreateWidgetForParent
 (
 parentWidget
-nsnull
+nullptr
 true
 )
 ;
@@ -37564,8 +37564,8 @@ PL_NewHashTable
 PL_HashString
 PL_CompareStrings
 PL_CompareValues
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 mIndiFrameCounts
@@ -37576,8 +37576,8 @@ PL_NewHashTable
 PL_HashString
 PL_CompareStrings
 PL_CompareValues
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 mCycledOnce
@@ -37625,7 +37625,7 @@ aName
 {
 if
 (
-nsnull
+nullptr
 !
 =
 mCounts
@@ -37650,7 +37650,7 @@ counter
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -37673,7 +37673,7 @@ NS_ASSERTION
 aName
 !
 =
-nsnull
+nullptr
 "
 Name
 shouldn
@@ -37690,7 +37690,7 @@ if
 mDumpFrameCounts
 &
 &
-nsnull
+nullptr
 !
 =
 mCounts
@@ -37715,7 +37715,7 @@ if
 counter
 =
 =
-nsnull
+nullptr
 )
 {
 counter
@@ -37740,7 +37740,7 @@ NS_ASSERTION
 name
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -37773,7 +37773,7 @@ mPaintFrameByFrameCounts
 )
 &
 &
-nsnull
+nullptr
 !
 =
 mIndiFrameCounts
@@ -37782,7 +37782,7 @@ mIndiFrameCounts
 aFrame
 !
 =
-nsnull
+nullptr
 )
 {
 char
@@ -37824,7 +37824,7 @@ if
 counter
 =
 =
-nsnull
+nullptr
 )
 {
 counter
@@ -37868,7 +37868,7 @@ if
 counter
 !
 =
-nsnull
+nullptr
 &
 &
 counter
@@ -37934,7 +37934,7 @@ if
 mPaintFrameByFrameCounts
 &
 &
-nsnull
+nullptr
 !
 =
 mIndiFrameCounts
@@ -37943,7 +37943,7 @@ mIndiFrameCounts
 aFrame
 !
 =
-nsnull
+nullptr
 )
 {
 char
@@ -37985,7 +37985,7 @@ if
 counter
 !
 =
-nsnull
+nullptr
 &
 &
 counter
@@ -38470,7 +38470,7 @@ CleanUp
 {
 if
 (
-nsnull
+nullptr
 !
 =
 mCounts
@@ -38480,7 +38480,7 @@ PL_HashTableEnumerateEntries
 (
 mCounts
 RemoveItems
-nsnull
+nullptr
 )
 ;
 PL_HashTableDestroy
@@ -38490,12 +38490,12 @@ mCounts
 ;
 mCounts
 =
-nsnull
+nullptr
 ;
 }
 if
 (
-nsnull
+nullptr
 !
 =
 mIndiFrameCounts
@@ -38505,7 +38505,7 @@ PL_HashTableEnumerateEntries
 (
 mIndiFrameCounts
 RemoveIndiItems
-nsnull
+nullptr
 )
 ;
 PL_HashTableDestroy
@@ -38515,7 +38515,7 @@ mIndiFrameCounts
 ;
 mIndiFrameCounts
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -38583,7 +38583,7 @@ DoGrandTotals
 {
 if
 (
-nsnull
+nullptr
 !
 =
 mCounts
@@ -38608,7 +38608,7 @@ if
 gTots
 =
 =
-nsnull
+nullptr
 )
 {
 gTots
@@ -38719,7 +38719,7 @@ if
 aParentFrame
 =
 =
-nsnull
+nullptr
 )
 {
 return
@@ -39031,7 +39031,7 @@ DoIndiTotalsTree
 {
 if
 (
-nsnull
+nullptr
 !
 =
 mCounts
@@ -39397,7 +39397,7 @@ DoGrandHTMLTotals
 {
 if
 (
-nsnull
+nullptr
 !
 =
 mCounts
@@ -39422,7 +39422,7 @@ if
 gTots
 =
 =
-nsnull
+nullptr
 )
 {
 gTots
@@ -39840,7 +39840,7 @@ mFD
 ;
 mFD
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -39912,7 +39912,7 @@ ClearGrandTotals
 {
 if
 (
-nsnull
+nullptr
 !
 =
 mCounts
@@ -39937,7 +39937,7 @@ if
 gTots
 =
 =
-nsnull
+nullptr
 )
 {
 gTots
@@ -40237,7 +40237,7 @@ GetAccService
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 nsAccessibilityService
@@ -40767,7 +40767,7 @@ PresShell
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -40891,7 +40891,7 @@ nsLayoutUtils
 SizeOfTextRunsForFrames
 (
 rootFrame
-nsnull
+nullptr
 true
 )
 ;

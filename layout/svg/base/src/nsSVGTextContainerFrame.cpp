@@ -130,7 +130,7 @@ GetAnimatedLengthListValues
 (
 aX
 aY
-nsnull
+nullptr
 )
 ;
 }
@@ -170,7 +170,7 @@ xLengthList
 yLengthList
 aDx
 aDy
-nsnull
+nullptr
 )
 ;
 }
@@ -217,7 +217,7 @@ GetAnimValue
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -322,7 +322,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -411,7 +411,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -500,7 +500,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -982,7 +982,7 @@ nsISVGGlyphFragmentNode
 *
 retval
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -1042,7 +1042,7 @@ nsISVGGlyphFragmentNode
 *
 retval
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -1183,7 +1183,7 @@ GetNextGlyphFrame
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsSVGTextFrame
@@ -1206,7 +1206,7 @@ this
 frame
 !
 =
-nsnull
+nullptr
 ;
 frame
 =
@@ -1247,7 +1247,7 @@ frame
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -1671,11 +1671,11 @@ float
 *
 parentX
 =
-nsnull
+nullptr
 *
 parentY
 =
-nsnull
+nullptr
 ;
 nsTArray
 <
@@ -1684,11 +1684,11 @@ float
 *
 parentDx
 =
-nsnull
+nullptr
 *
 parentDy
 =
-nsnull
+nullptr
 ;
 nsTArray
 <
@@ -1697,7 +1697,7 @@ float
 *
 parentRotate
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2061,7 +2061,7 @@ this
 frame
 !
 =
-nsnull
+nullptr
 ;
 frame
 =
@@ -2094,7 +2094,7 @@ nsGkAtoms
 :
 :
 _default
-nsnull
+nullptr
 }
 ;
 PRInt32

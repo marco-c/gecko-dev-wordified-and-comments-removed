@@ -496,7 +496,7 @@ Cancel
 ;
 sTask
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -525,7 +525,7 @@ Run
 {
 sTask
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1429,7 +1429,7 @@ CancelIt
 ;
 sClient
 =
-nsnull
+nullptr
 ;
 {
 MonitorAutoLock
@@ -1542,7 +1542,7 @@ aMessage
 *
 aMessage
 =
-nsnull
+nullptr
 ;
 {
 MutexAutoLock
@@ -1631,7 +1631,7 @@ Wait
 }
 sConsumer
 =
-nsnull
+nullptr
 ;
 }
 }

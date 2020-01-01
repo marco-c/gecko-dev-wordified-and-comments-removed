@@ -1192,7 +1192,7 @@ this
 ;
 mAudioSessionControl
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1614,7 +1614,7 @@ this
 ;
 mAudioSessionControl
 =
-nsnull
+nullptr
 ;
 mState
 =

@@ -75,7 +75,7 @@ true
 ;
 mOwningStatement
 =
-nsnull
+nullptr
 ;
 }
 const

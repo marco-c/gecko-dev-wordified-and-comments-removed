@@ -628,7 +628,7 @@ true
 }
 mCanvasTM
 =
-nsnull
+nullptr
 ;
 }
 if

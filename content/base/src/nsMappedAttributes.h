@@ -151,7 +151,7 @@ DropStyleSheetReference
 {
 mSheet
 =
-nsnull
+nullptr
 ;
 }
 void

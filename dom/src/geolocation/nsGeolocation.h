@@ -523,7 +523,7 @@ nsIDOMWindow
 *
 contentDom
 =
-nsnull
+nullptr
 )
 ;
 void

@@ -124,7 +124,7 @@ nsIDOMSVGGradientElement
 SVG_SPREADMETHOD_REPEAT
 }
 {
-nsnull
+nullptr
 0
 }
 }

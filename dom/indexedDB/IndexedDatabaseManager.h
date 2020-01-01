@@ -289,7 +289,7 @@ AcquireExclusiveAccess
 aOrigin
 aDatabase
 aHelper
-nsnull
+nullptr
 aCallback
 aClosure
 )
@@ -316,8 +316,8 @@ return
 AcquireExclusiveAccess
 (
 aOrigin
-nsnull
-nsnull
+nullptr
+nullptr
 aRunnable
 aCallback
 aClosure
@@ -1384,7 +1384,7 @@ currentOp
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -1402,7 +1402,7 @@ return
 FindSynchronizedOp
 (
 aOrigin
-nsnull
+nullptr
 )
 ;
 }
@@ -1533,7 +1533,7 @@ IndexedDatabaseManager
 :
 SetCurrentWindow
 (
-nsnull
+nullptr
 )
 ;
 }

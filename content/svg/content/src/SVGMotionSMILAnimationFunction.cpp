@@ -641,7 +641,7 @@ child
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -1249,7 +1249,7 @@ Length
 {
 mPath
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1282,7 +1282,7 @@ stale
 ;
 mPath
 =
-nsnull
+nullptr
 ;
 mPathVertices
 .
@@ -1927,7 +1927,7 @@ svgAngle
 SetBaseValueString
 (
 aRotate
-nsnull
+nullptr
 false
 )
 ;

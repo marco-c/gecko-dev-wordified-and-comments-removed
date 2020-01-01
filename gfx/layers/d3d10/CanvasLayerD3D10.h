@@ -239,7 +239,7 @@ DiscardTempBlob
 {
 mCachedTempBlob
 =
-nsnull
+nullptr
 ;
 }
 }

@@ -50,7 +50,7 @@ Type
 *
 obj
 =
-nsnull
+nullptr
 )
 {
 if
@@ -71,7 +71,7 @@ else
 {
 mRef
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -148,7 +148,7 @@ else
 {
 mRef
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -221,7 +221,7 @@ mRef
 >
 mObj
 :
-nsnull
+nullptr
 ;
 }
 Type
@@ -251,7 +251,7 @@ mRef
 >
 mObj
 =
-nsnull
+nullptr
 ;
 mRef
 -
@@ -262,14 +262,14 @@ Release
 ;
 mRef
 =
-nsnull
+nullptr
 ;
 }
 else
 {
 obj
 =
-nsnull
+nullptr
 ;
 }
 return

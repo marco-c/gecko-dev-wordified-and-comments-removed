@@ -268,7 +268,7 @@ y
 width
 &
 height
-nsnull
+nullptr
 )
 ;
 if
@@ -402,7 +402,7 @@ y
 width
 &
 height
-nsnull
+nullptr
 )
 ;
 mRect
@@ -644,7 +644,7 @@ TRANSFORM_CHANGED
 {
 mCanvasTM
 =
-nsnull
+nullptr
 ;
 }
 nsSVGInnerSVGFrameBase
@@ -732,7 +732,7 @@ HasViewBoxOrSyntheticViewBox
 {
 mCanvasTM
 =
-nsnull
+nullptr
 ;
 content
 -
@@ -773,7 +773,7 @@ IsSingular
 {
 mCanvasTM
 =
-nsnull
+nullptr
 ;
 flags
 |
@@ -842,7 +842,7 @@ y
 {
 mCanvasTM
 =
-nsnull
+nullptr
 ;
 nsSVGUtils
 :
@@ -1028,7 +1028,7 @@ clipY
 clipWidth
 &
 clipHeight
-nsnull
+nullptr
 )
 ;
 if
@@ -1076,7 +1076,7 @@ y
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }

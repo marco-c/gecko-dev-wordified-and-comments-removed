@@ -258,7 +258,7 @@ GetSubBlobs
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_DECL_NSIDOMBLOB
@@ -1652,7 +1652,7 @@ Disconnect
 {
 mParent
 =
-nsnull
+nullptr
 ;
 }
 bool

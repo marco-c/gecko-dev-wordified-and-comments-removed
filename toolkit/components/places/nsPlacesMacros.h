@@ -94,7 +94,7 @@ _className
 :
 _sInstance
 =
-nsnull
+nullptr
 ;
 \
 \
@@ -170,7 +170,7 @@ _sInstance
 \
 _sInstance
 =
-nsnull
+nullptr
 ;
 \
 }

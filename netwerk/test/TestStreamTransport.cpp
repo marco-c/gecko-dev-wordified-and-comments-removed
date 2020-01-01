@@ -149,7 +149,7 @@ PRLogModuleInfo
 *
 gTestLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -193,7 +193,7 @@ MyCopier
 :
 mLock
 (
-nsnull
+nullptr
 )
 mInputCondition
 (
@@ -438,7 +438,7 @@ AsyncWait
 this
 0
 0
-nsnull
+nullptr
 )
 ;
 else
@@ -457,7 +457,7 @@ AsyncWait
 this
 0
 0
-nsnull
+nullptr
 )
 ;
 else
@@ -594,7 +594,7 @@ AsyncWait
 this
 0
 0
-nsnull
+nullptr
 )
 ;
 }
@@ -911,7 +911,7 @@ if
 copier
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -1300,8 +1300,8 @@ getter_AddRefs
 (
 servMan
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 nsCOMPtr
@@ -1333,7 +1333,7 @@ registrar
 >
 AutoRegister
 (
-nsnull
+nullptr
 )
 ;
 #
@@ -1565,7 +1565,7 @@ rv
 =
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION

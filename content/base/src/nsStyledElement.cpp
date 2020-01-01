@@ -206,7 +206,7 @@ GetAtomValue
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 const
@@ -655,7 +655,7 @@ nsGkAtoms
 :
 :
 style
-nsnull
+nullptr
 oldValue
 attrValue
 modType
@@ -686,7 +686,7 @@ MayHaveStyle
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 const
@@ -733,7 +733,7 @@ GetCSSStyleRuleValue
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIDOMCSSStyleDeclaration

@@ -628,7 +628,7 @@ nsIPresShell
 :
 SetCapturingContent
 (
-nsnull
+nullptr
 0
 )
 ;
@@ -688,7 +688,7 @@ nsMenuPopupFrame
 *
 menuPopupFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1547,7 +1547,7 @@ aWindow
 *
 aWindow
 =
-nsnull
+nullptr
 ;
 nsAutoString
 elementid
@@ -1725,7 +1725,7 @@ GetParent
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -1803,7 +1803,7 @@ aWindow
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -1839,7 +1839,7 @@ FindFirstNonNativeAnonymous
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 return
@@ -2463,7 +2463,7 @@ aContent
 direction
 *
 sizeInfo
-nsnull
+nullptr
 )
 ;
 aContent
@@ -2550,7 +2550,7 @@ nsGkAtoms
 :
 :
 bottomend
-nsnull
+nullptr
 }
 ;
 static

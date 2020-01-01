@@ -1839,7 +1839,7 @@ aResult
 >
 rangeArray
 =
-nsnull
+nullptr
 ;
 return
 true

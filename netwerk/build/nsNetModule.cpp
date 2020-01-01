@@ -1767,7 +1767,7 @@ aOuter
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NO_AGGREGATION
@@ -1777,7 +1777,7 @@ nsStreamConverterService
 *
 inst
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1799,7 +1799,7 @@ rv
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -1827,7 +1827,7 @@ rv
 *
 aResult
 =
-nsnull
+nullptr
 ;
 }
 NS_RELEASE
@@ -1875,7 +1875,7 @@ aOuter
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NO_AGGREGATION
@@ -1885,7 +1885,7 @@ nsFTPDirListingConv
 *
 inst
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1907,7 +1907,7 @@ rv
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -1935,7 +1935,7 @@ rv
 *
 aResult
 =
-nsnull
+nullptr
 ;
 }
 NS_RELEASE
@@ -1982,7 +1982,7 @@ aOuter
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NO_AGGREGATION
@@ -1992,7 +1992,7 @@ nsMultiMixedConv
 *
 inst
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -2014,7 +2014,7 @@ rv
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -2042,7 +2042,7 @@ rv
 *
 aResult
 =
-nsnull
+nullptr
 ;
 }
 NS_RELEASE
@@ -2087,7 +2087,7 @@ aOuter
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NO_AGGREGATION
@@ -2097,7 +2097,7 @@ mozTXTToHTMLConv
 *
 inst
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -2119,7 +2119,7 @@ rv
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -2147,7 +2147,7 @@ rv
 *
 aResult
 =
-nsnull
+nullptr
 ;
 }
 NS_RELEASE
@@ -2192,7 +2192,7 @@ aOuter
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NO_AGGREGATION
@@ -2202,7 +2202,7 @@ nsHTTPCompressConv
 *
 inst
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -2224,7 +2224,7 @@ rv
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -2252,7 +2252,7 @@ rv
 *
 aResult
 =
-nsnull
+nullptr
 ;
 }
 NS_RELEASE
@@ -2295,7 +2295,7 @@ NS_ERROR_NULL_POINTER
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2383,7 +2383,7 @@ NS_ERROR_NULL_POINTER
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2469,7 +2469,7 @@ NS_ERROR_NULL_POINTER
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2600,7 +2600,7 @@ gNetStrings
 ;
 gNetStrings
 =
-nsnull
+nullptr
 ;
 nsDNSPrefetch
 :

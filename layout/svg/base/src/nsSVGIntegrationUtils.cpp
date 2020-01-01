@@ -751,7 +751,7 @@ r
 GetPreEffectsVisualOverflowUnion
 (
 firstFrame
-nsnull
+nullptr
 nsRect
 (
 )
@@ -866,7 +866,7 @@ GetFilterFrame
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -1968,7 +1968,7 @@ cssPxToDevPxMatrix
 opacity
 )
 :
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -2677,7 +2677,7 @@ if
 pattern
 )
 return
-nsnull
+nullptr
 ;
 gfxFloat
 scaleX

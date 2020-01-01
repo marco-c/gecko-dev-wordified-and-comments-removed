@@ -118,11 +118,11 @@ EndSession
 }
 mSpellCheckingEngine
 =
-nsnull
+nullptr
 ;
 mPersonalDictionary
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -152,7 +152,7 @@ personaldictionary
 ;
 mSpellCheckingEngine
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1594,7 +1594,7 @@ this
 ;
 mSpellCheckingEngine
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1825,7 +1825,7 @@ NS_OK
 }
 mSpellCheckingEngine
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

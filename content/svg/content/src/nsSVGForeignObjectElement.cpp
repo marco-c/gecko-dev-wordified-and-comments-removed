@@ -348,7 +348,7 @@ GetAnimatedLengthValues
 x
 &
 y
-nsnull
+nullptr
 )
 ;
 gfxMatrix

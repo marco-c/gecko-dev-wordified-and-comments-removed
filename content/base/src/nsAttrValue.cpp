@@ -112,7 +112,7 @@ nsAttrValue
 :
 sEnumTableArray
 =
-nsnull
+nullptr
 ;
 nsAttrValue
 :
@@ -308,7 +308,7 @@ sEnumTableArray
 ;
 sEnumTableArray
 =
-nsnull
+nullptr
 ;
 }
 nsAttrValue
@@ -1046,7 +1046,7 @@ SetIntValueAndType
 (
 aInt
 eInteger
-nsnull
+nullptr
 )
 ;
 }
@@ -1401,7 +1401,7 @@ IsEmpty
 {
 aSerialized
 =
-nsnull
+nullptr
 ;
 }
 SetSVGType
@@ -1444,7 +1444,7 @@ IsEmpty
 {
 aSerialized
 =
-nsnull
+nullptr
 ;
 }
 SetSVGType
@@ -1512,7 +1512,7 @@ IsEmpty
 {
 aSerialized
 =
-nsnull
+nullptr
 ;
 }
 SetSVGType
@@ -1555,7 +1555,7 @@ IsEmpty
 {
 aSerialized
 =
-nsnull
+nullptr
 ;
 }
 SetSVGType
@@ -1623,7 +1623,7 @@ IsEmpty
 {
 aSerialized
 =
-nsnull
+nullptr
 ;
 }
 SetSVGType
@@ -1666,7 +1666,7 @@ IsEmpty
 {
 aSerialized
 =
-nsnull
+nullptr
 ;
 }
 SetSVGType
@@ -1748,7 +1748,7 @@ MiscContainer
 *
 cont
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4723,7 +4723,7 @@ nsIAtom
 *
 atom
 =
-nsnull
+nullptr
 ;
 classAtom
 .
@@ -5331,7 +5331,7 @@ value
 eEnum
 equals
 ?
-nsnull
+nullptr
 :
 &
 aValue
@@ -5525,7 +5525,7 @@ ePercent
 eInteger
 strict
 ?
-nsnull
+nullptr
 :
 &
 aString
@@ -5631,7 +5631,7 @@ val
 eInteger
 strict
 ?
-nsnull
+nullptr
 :
 &
 aString
@@ -5698,7 +5698,7 @@ originalVal
 eInteger
 strict
 ?
-nsnull
+nullptr
 :
 &
 aString
@@ -5766,7 +5766,7 @@ originalVal
 eInteger
 strict
 ?
-nsnull
+nullptr
 :
 &
 aString
@@ -6104,7 +6104,7 @@ Equals
 aString
 )
 ?
-nsnull
+nullptr
 :
 &
 aString
@@ -6799,7 +6799,7 @@ len
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsStringBuffer
@@ -6876,7 +6876,7 @@ buf
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 PRUnichar

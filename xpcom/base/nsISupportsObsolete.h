@@ -188,7 +188,7 @@ aString
 \
 _member
 =
-nsnull
+nullptr
 ;
 \
 else

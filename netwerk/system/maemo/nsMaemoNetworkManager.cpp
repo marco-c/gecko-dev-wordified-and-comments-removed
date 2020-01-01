@@ -139,7 +139,7 @@ ConIcConnection
 *
 gConnection
 =
-nsnull
+nullptr
 ;
 static
 bool
@@ -156,7 +156,7 @@ ReentrantMonitor
 *
 gReentrantMonitor
 =
-nsnull
+nullptr
 ;
 static
 void
@@ -472,7 +472,7 @@ bus
 dbus_connection_setup_with_g_main
 (
 dbusConnection
-nsnull
+nullptr
 )
 ;
 gConnection
@@ -503,7 +503,7 @@ gReentrantMonitor
 ;
 gReentrantMonitor
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -524,7 +524,7 @@ G_CALLBACK
 (
 connection_event_callback
 )
-nsnull
+nullptr
 )
 ;
 g_object_set
@@ -541,7 +541,7 @@ connection
 events
 "
 true
-nsnull
+nullptr
 )
 ;
 return
@@ -558,7 +558,7 @@ Shutdown
 {
 gConnection
 =
-nsnull
+nullptr
 ;
 if
 (

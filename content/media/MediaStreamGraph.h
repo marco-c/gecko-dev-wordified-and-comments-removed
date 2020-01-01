@@ -420,7 +420,7 @@ AsSourceStream
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -1062,7 +1062,7 @@ ID
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 MediaStreamListener

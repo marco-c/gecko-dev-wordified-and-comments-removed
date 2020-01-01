@@ -70,7 +70,7 @@ nsIDOMSVGZoomAndPan
 SVG_ZOOMANDPAN_MAGNIFY
 }
 {
-nsnull
+nullptr
 0
 }
 }

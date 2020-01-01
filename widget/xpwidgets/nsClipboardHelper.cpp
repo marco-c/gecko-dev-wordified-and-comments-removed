@@ -239,7 +239,7 @@ GetLoadContext
 (
 )
 :
-nsnull
+nullptr
 ;
 trans
 -
@@ -375,7 +375,7 @@ clipboard
 SetData
 (
 trans
-nsnull
+nullptr
 aClipboardID
 )
 ;

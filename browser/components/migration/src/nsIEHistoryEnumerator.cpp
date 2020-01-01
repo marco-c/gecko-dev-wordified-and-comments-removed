@@ -554,7 +554,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -574,7 +574,7 @@ mCachedNextEntry
 ;
 mCachedNextEntry
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

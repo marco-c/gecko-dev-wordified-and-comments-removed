@@ -313,7 +313,7 @@ PRLogModuleInfo
 *
 gWidgetLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -321,7 +321,7 @@ nsIGeolocationUpdate
 *
 gLocationCallback
 =
-nsnull
+nullptr
 ;
 nsAutoPtr
 <
@@ -339,7 +339,7 @@ nsAppShell
 :
 gAppShell
 =
-nsnull
+nullptr
 ;
 NS_IMPL_ISUPPORTS_INHERITED1
 (
@@ -684,7 +684,7 @@ false
 ;
 mEventTarget
 =
-nsnull
+nullptr
 ;
 }
 virtual
@@ -920,7 +920,7 @@ AfterPaintListener
 >
 sAfterPaintListener
 =
-nsnull
+nullptr
 ;
 NS_IMPL_ISUPPORTS1
 (
@@ -933,7 +933,7 @@ nsIPowerManagerService
 >
 sPowerManagerService
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -941,7 +941,7 @@ nsIDOMMozWakeLockListener
 >
 sWakeLockListener
 =
-nsnull
+nullptr
 ;
 nsAppShell
 :
@@ -977,11 +977,11 @@ mQueueCond
 )
 mQueuedDrawEvent
 (
-nsnull
+nullptr
 )
 mQueuedViewportEvent
 (
-nsnull
+nullptr
 )
 mAllowCoalescingNextDraw
 (
@@ -1048,7 +1048,7 @@ nsAppShell
 {
 gAppShell
 =
-nsnull
+nullptr
 ;
 delete
 sAfterPaintListener
@@ -1068,11 +1068,11 @@ sWakeLockListener
 ;
 sPowerManagerService
 =
-nsnull
+nullptr
 ;
 sWakeLockListener
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1128,7 +1128,7 @@ kObservedPrefs
 {
 PREFNAME_MATCH_OS
 PREFNAME_UA_LOCALE
-nsnull
+nullptr
 }
 ;
 nsresult
@@ -2131,7 +2131,7 @@ obsServ
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 memory
 -
@@ -2149,13 +2149,13 @@ obsServ
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 application
 -
 background
 "
-nsnull
+nullptr
 )
 ;
 break
@@ -2199,7 +2199,7 @@ obsServ
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 quit
 -
@@ -2207,7 +2207,7 @@ application
 -
 granted
 "
-nsnull
+nullptr
 )
 ;
 obsServ
@@ -2215,7 +2215,7 @@ obsServ
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 quit
 -
@@ -2223,7 +2223,7 @@ application
 -
 forced
 "
-nsnull
+nullptr
 )
 ;
 obsServ
@@ -2231,7 +2231,7 @@ obsServ
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 profile
 -
@@ -2253,7 +2253,7 @@ obsServ
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 profile
 -
@@ -2273,7 +2273,7 @@ obsServ
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 profile
 -
@@ -2370,13 +2370,13 @@ obsServ
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 application
 -
 background
 "
-nsnull
+nullptr
 )
 ;
 if
@@ -2460,7 +2460,7 @@ prefs
 >
 SavePrefFile
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -2508,13 +2508,13 @@ obsServ
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 application
 -
 foreground
 "
-nsnull
+nullptr
 )
 ;
 break
@@ -2792,7 +2792,7 @@ obsServ
 >
 NotifyObservers
 (
-nsnull
+nullptr
 topic
 .
 get
@@ -2942,7 +2942,7 @@ char
 (
 argv
 )
-nsnull
+nullptr
 nsICommandLine
 :
 :
@@ -3149,13 +3149,13 @@ obsServ
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 application
 -
 foreground
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -3412,7 +3412,7 @@ AndroidGeckoEvent
 *
 ae
 =
-nsnull
+nullptr
 ;
 MutexAutoLock
 lock
@@ -3453,7 +3453,7 @@ ae
 {
 mQueuedDrawEvent
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -3467,7 +3467,7 @@ ae
 {
 mQueuedViewportEvent
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -3488,7 +3488,7 @@ AndroidGeckoEvent
 *
 ae
 =
-nsnull
+nullptr
 ;
 MutexAutoLock
 lock
@@ -3945,7 +3945,7 @@ true
 ;
 mQueuedDrawEvent
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -4193,7 +4193,7 @@ allowCoalescingNextViewport
 )
 mQueuedViewportEvent
 =
-nsnull
+nullptr
 ;
 }
 NotifyNativeEvent
@@ -4230,7 +4230,7 @@ NS_ASSERTION
 aObserver
 !
 =
-nsnull
+nullptr
 "
 nsAppShell
 :
@@ -4297,7 +4297,7 @@ NS_ASSERTION
 aObserver
 !
 =
-nsnull
+nullptr
 "
 ObserverCaller
 :
@@ -4351,7 +4351,7 @@ mObserver
 >
 Observe
 (
-nsnull
+nullptr
 mTopic
 .
 get
@@ -4475,7 +4475,7 @@ observer
 >
 Observe
 (
-nsnull
+nullptr
 sTopic
 .
 get

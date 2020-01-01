@@ -74,7 +74,7 @@ str
 *
 sharedBuffer
 =
-nsnull
+nullptr
 ;
 PRUint32
 length

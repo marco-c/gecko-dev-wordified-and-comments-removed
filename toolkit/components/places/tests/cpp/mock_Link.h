@@ -54,7 +54,7 @@ dom
 :
 Link
 (
-nsnull
+nullptr
 )
 mHandler
 (
@@ -298,7 +298,7 @@ GetURI
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 size_t

@@ -303,7 +303,7 @@ get
 ;
 s
 =
-nsnull
+nullptr
 ;
 failures
 +
@@ -430,7 +430,7 @@ destroyed
 ;
 s
 =
-nsnull
+nullptr
 ;
 failures
 +
@@ -586,7 +586,7 @@ get
 ;
 s
 =
-nsnull
+nullptr
 ;
 failures
 +
@@ -713,7 +713,7 @@ destroyed
 ;
 s
 =
-nsnull
+nullptr
 ;
 failures
 +

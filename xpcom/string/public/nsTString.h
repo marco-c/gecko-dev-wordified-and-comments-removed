@@ -1576,7 +1576,7 @@ mFlags
 F_VOIDED
 )
 ?
-nsnull
+nullptr
 :
 mData
 ;
@@ -1743,7 +1743,7 @@ str
 )
 mData
 (
-nsnull
+nullptr
 )
 {
 }

@@ -260,7 +260,7 @@ MessagePump
 :
 mThread
 (
-nsnull
+nullptr
 )
 {
 mDoWorkEvent
@@ -735,7 +735,7 @@ Delegate
 *
 gFirstDelegate
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -770,7 +770,7 @@ aDelegate
 gFirstDelegate
 =
 =
-nsnull
+nullptr
 "
 Huh
 ?
@@ -833,7 +833,7 @@ Huh
 ;
 gFirstDelegate
 =
-nsnull
+nullptr
 ;
 #
 endif

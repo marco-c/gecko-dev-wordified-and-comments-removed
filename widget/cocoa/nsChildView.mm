@@ -489,7 +489,7 @@ PRLogModuleInfo
 *
 sCocoaLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -625,13 +625,13 @@ nsIRollupListener
 *
 gRollupListener
 =
-nsnull
+nullptr
 ;
 nsIWidget
 *
 gRollupWidget
 =
-nsnull
+nullptr
 ;
 bool
 gUserCancelledDrag
@@ -1292,15 +1292,15 @@ nsBaseWidget
 )
 mView
 (
-nsnull
+nullptr
 )
 mParentView
 (
-nsnull
+nullptr
 )
 mParentWidget
 (
-nsnull
+nullptr
 )
 mVisible
 (
@@ -1320,7 +1320,7 @@ false
 )
 mPluginInstanceOwner
 (
-nsnull
+nullptr
 )
 {
 EnsureLogInitialized
@@ -1487,7 +1487,7 @@ Destroy
 ;
 mResizerImage
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -2694,7 +2694,7 @@ geckoWidget
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -2832,7 +2832,7 @@ void
 *
 retVal
 =
-nsnull
+nullptr
 ;
 switch
 (
@@ -2888,7 +2888,7 @@ view
 ;
 retVal
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -2950,7 +2950,7 @@ pluginEventModel
 NPEventModelCocoa
 )
 return
-nsnull
+nullptr
 ;
 UpdatePluginPort
 (
@@ -4122,7 +4122,7 @@ removeFromSuperview
 }
 mParentWidget
 =
-nsnull
+nullptr
 ;
 }
 nsIWidget
@@ -5737,7 +5737,7 @@ InitializeEventRecord
 (
 &
 updateEvent
-nsnull
+nullptr
 )
 ;
 updateEvent
@@ -5779,7 +5779,7 @@ HandleEvent
 (
 &
 updateEvent
-nsnull
+nullptr
 )
 ;
 EndDrawPlugin
@@ -6391,7 +6391,7 @@ IsPortOffscreen
 port
 )
 ?
-nsnull
+nullptr
 :
 :
 :
@@ -8500,7 +8500,7 @@ void
 *
 clientData
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -10353,7 +10353,7 @@ if
 !
 ShowsResizeIndicator
 (
-nsnull
+nullptr
 )
 )
 {
@@ -10467,7 +10467,7 @@ asurf
 {
 mResizerImage
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -10926,13 +10926,13 @@ ShouldA11yBeEnabled
 )
 )
 return
-nsnull
+nullptr
 ;
 Accessible
 *
 docAccessible
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -11353,7 +11353,7 @@ nil
 ;
 mDragService
 =
-nsnull
+nullptr
 ;
 mGestureState
 =
@@ -11667,7 +11667,7 @@ uninstallTextInputHandler
 {
 mTextInputHandler
 =
-nsnull
+nullptr
 ;
 }
 /
@@ -12152,12 +12152,12 @@ mGeckoChild
 ;
 mTextInputHandler
 =
-nsnull
+nullptr
 ;
 }
 mGeckoChild
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -14287,7 +14287,7 @@ mGeckoChild
 >
 GetLayerManager
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -24535,7 +24535,7 @@ return
 dragSession
 !
 =
-nsnull
+nullptr
 ;
 }
 -
@@ -26661,7 +26661,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 gDraggedTransferables
 =
-nsnull
+nullptr
 ;
 NSEvent
 *
@@ -27291,7 +27291,7 @@ item
 >
 Init
 (
-nsnull
+nullptr
 )
 ;
 item
@@ -28345,7 +28345,7 @@ trans
 >
 Init
 (
-nsnull
+nullptr
 )
 ;
 trans

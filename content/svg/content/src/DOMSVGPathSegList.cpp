@@ -356,7 +356,7 @@ aIndex
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -484,7 +484,7 @@ ItemAt
 index
 )
 =
-nsnull
+nullptr
 ;
 }
 mItems
@@ -599,7 +599,7 @@ ItemAt
 index
 )
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -663,7 +663,7 @@ AppendElement
 (
 ItemProxy
 (
-nsnull
+nullptr
 dataIndex
 )
 )
@@ -1010,7 +1010,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1140,7 +1140,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1462,7 +1462,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1791,7 +1791,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2146,7 +2146,7 @@ InsertElementAt
 aIndex
 ItemProxy
 (
-nsnull
+nullptr
 aInternalIndex
 )
 )

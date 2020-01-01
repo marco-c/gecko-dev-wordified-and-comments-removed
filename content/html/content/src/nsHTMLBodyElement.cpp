@@ -1594,7 +1594,7 @@ aNodeInfo
 )
 mContentStyleRule
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1616,7 +1616,7 @@ mContentStyleRule
 >
 mPart
 =
-nsnull
+nullptr
 ;
 NS_RELEASE
 (
@@ -1884,7 +1884,7 @@ mContentStyleRule
 >
 mPart
 =
-nsnull
+nullptr
 ;
 NS_RELEASE
 (
@@ -2354,7 +2354,7 @@ nsGkAtoms
 marginheight
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -2396,7 +2396,7 @@ nsIEditor
 *
 editor
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2426,7 +2426,7 @@ IsCurrentBodyElement
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsPresContext
@@ -2444,7 +2444,7 @@ presContext
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -2478,7 +2478,7 @@ editorDocShell
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 editorDocShell

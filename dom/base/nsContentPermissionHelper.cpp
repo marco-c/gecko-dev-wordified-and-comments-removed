@@ -156,7 +156,7 @@ OnParentDestroyed
 {
 mParent
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_ISUPPORTS1
@@ -204,7 +204,7 @@ aRequestingWindow
 *
 aRequestingWindow
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -232,7 +232,7 @@ if
 mParent
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_FAILURE
@@ -274,7 +274,7 @@ if
 mParent
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_FAILURE
@@ -307,7 +307,7 @@ if
 mParent
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_FAILURE
@@ -332,7 +332,7 @@ false
 ;
 mParent
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -351,7 +351,7 @@ if
 mParent
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_FAILURE
@@ -376,7 +376,7 @@ true
 ;
 mParent
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

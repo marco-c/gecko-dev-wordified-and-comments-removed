@@ -577,8 +577,8 @@ event
 new
 nsDOMProgressEvent
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 nsresult

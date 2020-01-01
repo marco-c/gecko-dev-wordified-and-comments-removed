@@ -290,7 +290,7 @@ nsIDocShellTreeOwner
 >
 mruTreeOwner
 =
-nsnull
+nullptr
 ;
 mruTreeItem
 -
@@ -331,7 +331,7 @@ nsIWidget
 >
 mruWidget
 =
-nsnull
+nullptr
 ;
 mruBaseWindow
 -
@@ -674,7 +674,7 @@ wm
 >
 GetXULWindowEnumerator
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 windowList
@@ -704,7 +704,7 @@ nsISupports
 >
 nextWindow
 =
-nsnull
+nullptr
 ;
 windowList
 -
@@ -760,7 +760,7 @@ nsIWidget
 >
 widget
 =
-nsnull
+nullptr
 ;
 baseWindow
 -
@@ -872,7 +872,7 @@ wm
 >
 GetMostRecentWindow
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 mru
@@ -940,7 +940,7 @@ argv
 ]
 =
 {
-nsnull
+nullptr
 }
 ;
 /
@@ -1003,7 +1003,7 @@ Init
 (
 0
 argv
-nsnull
+nullptr
 nsICommandLine
 :
 :

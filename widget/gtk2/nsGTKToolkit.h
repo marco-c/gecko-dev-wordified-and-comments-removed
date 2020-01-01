@@ -53,7 +53,7 @@ gToolkit
 ;
 gToolkit
 =
-nsnull
+nullptr
 ;
 }
 void

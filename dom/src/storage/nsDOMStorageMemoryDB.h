@@ -110,7 +110,7 @@ nsDOMStoragePersistentDB
 *
 aPreloadDB
 =
-nsnull
+nullptr
 )
 ;
 nsresult

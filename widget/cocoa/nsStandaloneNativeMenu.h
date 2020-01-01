@@ -66,7 +66,7 @@ return
 mMenu
 !
 =
-nsnull
+nullptr
 ?
 mMenu
 -
@@ -75,7 +75,7 @@ NativeData
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 nsMenuX

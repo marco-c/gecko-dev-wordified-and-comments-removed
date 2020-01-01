@@ -269,14 +269,14 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (
 aOuter
 !
 =
-nsnull
+nullptr
 )
 {
 return

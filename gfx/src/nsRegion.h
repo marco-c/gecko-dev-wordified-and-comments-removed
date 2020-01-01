@@ -1228,7 +1228,7 @@ mRectListHead
 ?
 mCurPtr
 :
-nsnull
+nullptr
 ;
 }
 const
@@ -1259,7 +1259,7 @@ mRectListHead
 ?
 mCurPtr
 :
-nsnull
+nullptr
 ;
 }
 void
@@ -2300,7 +2300,7 @@ if
 r
 )
 return
-nsnull
+nullptr
 ;
 mTmp
 =
@@ -2342,7 +2342,7 @@ if
 r
 )
 return
-nsnull
+nullptr
 ;
 mTmp
 =

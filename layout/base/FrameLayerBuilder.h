@@ -206,7 +206,7 @@ data
 >
 mLayerBuilder
 :
-nsnull
+nullptr
 ;
 }
 class
@@ -264,7 +264,7 @@ FrameLayerBuilder
 :
 mRetainingManager
 (
-nsnull
+nullptr
 )
 mDetectedDOMModification
 (
@@ -1309,7 +1309,7 @@ return
 UpdateDisplayItemDataForFrame
 (
 aEntry
-nsnull
+nullptr
 )
 ;
 }
@@ -1388,7 +1388,7 @@ key
 )
 mContainerLayerFrame
 (
-nsnull
+nullptr
 )
 mHasExplicitLastPaintOffset
 (

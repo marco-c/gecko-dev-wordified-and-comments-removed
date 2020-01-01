@@ -472,7 +472,7 @@ char
 *
 nl_langinfo_codeset
 =
-nsnull
+nullptr
 ;
 nsCString
 aCharset
@@ -561,7 +561,7 @@ locale
 setlocale
 (
 LC_CTYPE
-nsnull
+nullptr
 )
 ;
 nsCAutoString
@@ -597,7 +597,7 @@ locale
 setlocale
 (
 LC_CTYPE
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION

@@ -364,7 +364,7 @@ t1
 spawn
 (
 MutexContention_thread
-nsnull
+nullptr
 )
 ;
 PRThread
@@ -374,7 +374,7 @@ t2
 spawn
 (
 MutexContention_thread
-nsnull
+nullptr
 )
 ;
 PRThread
@@ -384,7 +384,7 @@ t3
 spawn
 (
 MutexContention_thread
-nsnull
+nullptr
 )
 ;
 PR_JoinThread
@@ -485,7 +485,7 @@ t1
 spawn
 (
 MonitorContention_thread
-nsnull
+nullptr
 )
 ;
 PRThread
@@ -495,7 +495,7 @@ t2
 spawn
 (
 MonitorContention_thread
-nsnull
+nullptr
 )
 ;
 PRThread
@@ -505,7 +505,7 @@ t3
 spawn
 (
 MonitorContention_thread
-nsnull
+nullptr
 )
 ;
 PR_JoinThread
@@ -636,7 +636,7 @@ t1
 spawn
 (
 MonitorContention2_thread
-nsnull
+nullptr
 )
 ;
 PRThread
@@ -646,7 +646,7 @@ t2
 spawn
 (
 MonitorContention2_thread
-nsnull
+nullptr
 )
 ;
 PRThread
@@ -656,7 +656,7 @@ t3
 spawn
 (
 MonitorContention2_thread
-nsnull
+nullptr
 )
 ;
 PR_JoinThread
@@ -829,7 +829,7 @@ ping
 spawn
 (
 MonitorSyncSanity_thread
-nsnull
+nullptr
 )
 ;
 PRThread
@@ -839,7 +839,7 @@ pong
 spawn
 (
 MonitorSyncSanity_thread
-nsnull
+nullptr
 )
 ;
 PR_JoinThread
@@ -994,7 +994,7 @@ ping
 spawn
 (
 CondVarSanity_thread
-nsnull
+nullptr
 )
 ;
 PRThread
@@ -1004,7 +1004,7 @@ pong
 spawn
 (
 CondVarSanity_thread
-nsnull
+nullptr
 )
 ;
 PR_JoinThread

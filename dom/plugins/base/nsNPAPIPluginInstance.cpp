@@ -324,7 +324,7 @@ HandleEvent
 (
 &
 mEvent
-nsnull
+nullptr
 )
 ;
 mInstance
@@ -370,7 +370,7 @@ GLContext
 >
 sPluginContext
 =
-nsnull
+nullptr
 ;
 static
 bool
@@ -403,7 +403,7 @@ return
 sPluginContext
 !
 =
-nsnull
+nullptr
 ;
 }
 class
@@ -444,7 +444,7 @@ SharedPluginTexture
 {
 mCurrentHandle
 =
-nsnull
+nullptr
 ;
 }
 TextureInfo
@@ -559,7 +559,7 @@ EnsureGLContext
 )
 )
 return
-nsnull
+nullptr
 ;
 mNeedNewImage
 =
@@ -583,7 +583,7 @@ mHeight
 0
 )
 return
-nsnull
+nullptr
 ;
 mCurrentHandle
 =
@@ -743,19 +743,19 @@ false
 )
 mPlugin
 (
-nsnull
+nullptr
 )
 mMIMEType
 (
-nsnull
+nullptr
 )
 mOwner
 (
-nsnull
+nullptr
 )
 mCurrentPluginEvent
 (
-nsnull
+nullptr
 )
 #
 if
@@ -878,7 +878,7 @@ mMIMEType
 ;
 mMIMEType
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -896,7 +896,7 @@ Stop
 ;
 mPlugin
 =
-nsnull
+nullptr
 ;
 #
 if
@@ -910,16 +910,16 @@ mContentSurface
 >
 SetFrameAvailableCallback
 (
-nsnull
+nullptr
 )
 ;
 mContentTexture
 =
-nsnull
+nullptr
 ;
 mContentSurface
 =
-nsnull
+nullptr
 ;
 std
 :
@@ -971,7 +971,7 @@ mSurfaceTexture
 >
 SetFrameAvailableCallback
 (
-nsnull
+nullptr
 )
 ;
 delete
@@ -1488,7 +1488,7 @@ if
 owner
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1513,7 +1513,7 @@ if
 doc
 )
 return
-nsnull
+nullptr
 ;
 nsPIDOMWindow
 *
@@ -1808,7 +1808,7 @@ const
 *
 names
 =
-nsnull
+nullptr
 ;
 const
 char
@@ -1817,7 +1817,7 @@ const
 *
 values
 =
-nsnull
+nullptr
 ;
 nsPluginTagType
 tagtype
@@ -1874,7 +1874,7 @@ const
 *
 pnames
 =
-nsnull
+nullptr
 ;
 const
 char
@@ -1883,7 +1883,7 @@ const
 *
 pvalues
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3293,7 +3293,7 @@ tmpResult
 ;
 mCurrentPluginEvent
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -3749,7 +3749,7 @@ HandleEvent
 (
 &
 event
-nsnull
+nullptr
 )
 ;
 }
@@ -4100,7 +4100,7 @@ HandleEvent
 (
 &
 event
-nsnull
+nullptr
 )
 ;
 }
@@ -4132,7 +4132,7 @@ void
 *
 surface
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -4152,7 +4152,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 surface
@@ -4397,7 +4397,7 @@ EnsureGLContext
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 sPluginContext
@@ -4465,7 +4465,7 @@ EnsureGLContext
 )
 )
 return
-nsnull
+nullptr
 ;
 GLuint
 texture
@@ -4483,7 +4483,7 @@ if
 texture
 )
 return
-nsnull
+nullptr
 ;
 nsSurfaceTexture
 *
@@ -4503,7 +4503,7 @@ if
 surface
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -4583,7 +4583,7 @@ if
 mContentSurface
 )
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -4647,7 +4647,7 @@ SurfaceTexture
 }
 else
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -4673,7 +4673,7 @@ if
 surface
 )
 return
-nsnull
+nullptr
 ;
 VideoInfo
 *
@@ -5049,7 +5049,7 @@ NPObject
 *
 npobj
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -5183,7 +5183,7 @@ aThis
 )
 mLibrary
 (
-nsnull
+nullptr
 )
 {
 nsNPAPIPlugin
@@ -5386,7 +5386,7 @@ aContainer
 *
 aContainer
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5744,7 +5744,7 @@ char
 *
 value
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -6402,7 +6402,7 @@ i
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 uint32_t
@@ -6760,7 +6760,7 @@ mOwner
 *
 result
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -7148,7 +7148,7 @@ InvalidateOwner
 {
 mOwner
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

@@ -171,15 +171,15 @@ ClearControlSelectionListener
 ;
 mLastTextAccessible
 =
-nsnull
+nullptr
 ;
 mLastUsedSelection
 =
-nsnull
+nullptr
 ;
 mRootAccessible
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -203,7 +203,7 @@ mCurrentControl
 ;
 mCurrentControl
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -340,7 +340,7 @@ aCurrentNode
 ;
 mLastTextAccessible
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -970,7 +970,7 @@ rangeCount
 {
 mLastTextAccessible
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -1188,7 +1188,7 @@ caretRect
 *
 aOutWidget
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_TRUE
 (
@@ -1486,7 +1486,7 @@ if
 aContent
 )
 return
-nsnull
+nullptr
 ;
 nsIPresShell
 *
@@ -1510,7 +1510,7 @@ if
 presShell
 )
 return
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -1529,7 +1529,7 @@ if
 frame
 )
 return
-nsnull
+nullptr
 ;
 nsPresContext
 *
@@ -1548,13 +1548,13 @@ if
 presContext
 )
 return
-nsnull
+nullptr
 ;
 nsISelectionController
 *
 controller
 =
-nsnull
+nullptr
 ;
 frame
 -

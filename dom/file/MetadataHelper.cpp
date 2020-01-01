@@ -61,7 +61,7 @@ getter
 AsyncWork
 (
 this
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -95,9 +95,9 @@ obj
 JS_NewObject
 (
 aCx
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -185,8 +185,8 @@ obj
 size
 "
 val
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -246,8 +246,8 @@ OBJECT_TO_JSVAL
 (
 date
 )
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )

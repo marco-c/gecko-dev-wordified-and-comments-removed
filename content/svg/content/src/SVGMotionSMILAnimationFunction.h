@@ -90,7 +90,7 @@ nsresult
 *
 aParseResult
 =
-nsnull
+nullptr
 )
 MOZ_OVERRIDE
 ;

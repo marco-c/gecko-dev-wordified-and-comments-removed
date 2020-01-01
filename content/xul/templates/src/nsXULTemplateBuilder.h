@@ -310,7 +310,7 @@ GetDocument
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -352,7 +352,7 @@ false
 ;
 mRoot
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -367,7 +367,7 @@ true
 ;
 mRoot
 =
-nsnull
+nullptr
 ;
 }
 nsresult

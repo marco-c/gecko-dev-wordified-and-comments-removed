@@ -107,7 +107,7 @@ bool
 *
 aFound
 =
-nsnull
+nullptr
 )
 const
 ;
@@ -253,7 +253,7 @@ pInterface
 *
 pInterface
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -400,7 +400,7 @@ aFound
 false
 ;
 return
-nsnull
+nullptr
 ;
 }
 template
@@ -496,7 +496,7 @@ pInterface
 *
 pInterface
 =
-nsnull
+nullptr
 ;
 PR_Unlock
 (

@@ -1006,7 +1006,7 @@ F_SHARED
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 FromData
@@ -1067,7 +1067,7 @@ F_SHARED
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 FromData

@@ -94,7 +94,7 @@ Clear
 {
 mBuffer
 =
-nsnull
+nullptr
 ;
 mBufferRect
 .
@@ -249,13 +249,13 @@ gfxASurface
 *
 aMask
 =
-nsnull
+nullptr
 const
 gfxMatrix
 *
 aMaskTransform
 =
-nsnull
+nullptr
 )
 ;
 const

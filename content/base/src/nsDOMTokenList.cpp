@@ -122,7 +122,7 @@ DropReference
 {
 mElement
 =
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP

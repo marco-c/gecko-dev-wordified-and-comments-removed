@@ -1240,7 +1240,7 @@ if
 sSwitchThread
 =
 =
-nsnull
+nullptr
 )
 {
 NS_NewThread

@@ -268,7 +268,7 @@ sz
 CPP_THROW_NEW
 {
 return
-nsnull
+nullptr
 ;
 }
 }

@@ -100,7 +100,7 @@ newObj
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 newObj

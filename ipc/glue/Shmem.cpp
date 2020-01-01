@@ -1452,7 +1452,7 @@ SharedMemory
 *
 segment
 =
-nsnull
+nullptr
 ;
 size_t
 segmentSize
@@ -2068,7 +2068,7 @@ SharedMemory
 *
 segment
 =
-nsnull
+nullptr
 ;
 if
 (

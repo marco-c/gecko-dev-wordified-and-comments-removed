@@ -228,7 +228,7 @@ mResultContent
 )
 mResultFrame
 (
-nsnull
+nullptr
 )
 mContentOffset
 (

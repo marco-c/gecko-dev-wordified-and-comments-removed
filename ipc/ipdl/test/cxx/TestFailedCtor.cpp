@@ -156,7 +156,7 @@ Alloc
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }

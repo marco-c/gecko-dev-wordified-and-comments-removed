@@ -577,7 +577,7 @@ dst
 *
 dst
 =
-nsnull
+nullptr
 ;
 }
 }

@@ -365,15 +365,15 @@ aWnd
 )
 mDC
 (
-nsnull
+nullptr
 )
 mPS
 (
-nsnull
+nullptr
 )
 mBitmap
 (
-nsnull
+nullptr
 )
 {
 #
@@ -581,7 +581,7 @@ aDC
 )
 mBitmap
 (
-nsnull
+nullptr
 )
 mSize
 (

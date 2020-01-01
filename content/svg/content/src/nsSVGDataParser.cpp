@@ -111,7 +111,7 @@ NS_ERROR_FAILURE
 ;
 mInputPos
 =
-nsnull
+nullptr
 ;
 nsMemory
 :

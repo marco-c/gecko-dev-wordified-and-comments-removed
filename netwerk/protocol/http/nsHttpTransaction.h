@@ -188,7 +188,7 @@ mHaveAllHeaders
 ?
 mResponseHead
 :
-nsnull
+nullptr
 ;
 }
 nsISupports

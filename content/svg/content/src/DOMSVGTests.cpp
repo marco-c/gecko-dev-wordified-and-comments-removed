@@ -1321,7 +1321,7 @@ delete
 stringListPtr
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsIAtom
@@ -1383,7 +1383,7 @@ GetOrCreateStringListAttribute
 (
 aAttrEnum
 )
-nsnull
+nullptr
 )
 ;
 }

@@ -602,7 +602,7 @@ aInstancePtr
 *
 aInstancePtr
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -862,7 +862,7 @@ aDoc
 )
 mParent
 (
-nsnull
+nullptr
 )
 mIndexInParent
 (
@@ -880,7 +880,7 @@ mIndexOfEmbeddedChild
 )
 mRoleMapEntry
 (
-nsnull
+nullptr
 )
 {
 #
@@ -1131,7 +1131,7 @@ aDOMNode
 *
 aDOMNode
 =
-nsnull
+nullptr
 ;
 nsINode
 *
@@ -1557,7 +1557,7 @@ Accessible
 *
 descr
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -1741,7 +1741,7 @@ Accessible
 *
 label
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2174,7 +2174,7 @@ aNextSibling
 *
 aNextSibling
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2227,7 +2227,7 @@ aPreviousSibling
 *
 aPreviousSibling
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2281,7 +2281,7 @@ aFirstChild
 *
 aFirstChild
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2326,7 +2326,7 @@ aLastChild
 *
 aLastChild
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2373,7 +2373,7 @@ aChild
 *
 aChild
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2447,7 +2447,7 @@ aOutChildren
 *
 aOutChildren
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2900,8 +2900,8 @@ GetRenderedText
 (
 &
 renderedText
-nsnull
-nsnull
+nullptr
+nullptr
 0
 1
 )
@@ -3405,7 +3405,7 @@ aChild
 *
 aChild
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3479,7 +3479,7 @@ return
 focus
 ;
 return
-nsnull
+nullptr
 ;
 }
 Accessible
@@ -3529,14 +3529,14 @@ height
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 Accessible
 *
 fallbackAnswer
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3593,7 +3593,7 @@ Document
 NS_ENSURE_TRUE
 (
 accDocument
-nsnull
+nullptr
 )
 ;
 nsIFrame
@@ -3610,7 +3610,7 @@ GetFrame
 NS_ENSURE_TRUE
 (
 frame
-nsnull
+nullptr
 )
 ;
 nsPresContext
@@ -3689,7 +3689,7 @@ nsIContent
 *
 content
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3984,7 +3984,7 @@ aAccessible
 *
 aAccessible
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4036,7 +4036,7 @@ aAccessible
 *
 aAccessible
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4208,7 +4208,7 @@ nsIFrame
 *
 boundingFrame
 =
-nsnull
+nullptr
 ;
 GetBoundsRect
 (
@@ -4688,7 +4688,7 @@ Accessible
 *
 labelAcc
 =
-nsnull
+nullptr
 ;
 HTMLLabelIterator
 iter
@@ -4929,7 +4929,7 @@ Accessible
 *
 labelAcc
 =
-nsnull
+nullptr
 ;
 XULLabelIterator
 iter
@@ -5239,7 +5239,7 @@ NotifyObservers
 (
 evnt
 NS_ACCESSIBLE_EVENT_TOPIC
-nsnull
+nullptr
 )
 ;
 }
@@ -6673,7 +6673,7 @@ Accessible
 *
 relTarget
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -7090,7 +7090,7 @@ GetParent
 )
 !
 =
-nsnull
+nullptr
 )
 {
 if
@@ -7154,7 +7154,7 @@ GetParent
 )
 !
 =
-nsnull
+nullptr
 )
 {
 if
@@ -7789,7 +7789,7 @@ Accessible
 *
 targetAcc
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -8417,7 +8417,7 @@ true
 ?
 loopContent
 :
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -8442,7 +8442,7 @@ aRelation
 *
 aRelation
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -9399,7 +9399,7 @@ aRelations
 *
 aRelations
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -9816,7 +9816,7 @@ aSelectedAccessibles
 *
 aSelectedAccessibles
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -9901,7 +9901,7 @@ aSelected
 *
 aSelected
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -10441,7 +10441,7 @@ aAccessible
 *
 aAccessible
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -10956,7 +10956,7 @@ UnbindFromParent
 {
 mParent
 =
-nsnull
+nullptr
 ;
 mIndexInParent
 =
@@ -10970,7 +10970,7 @@ mIndexOfEmbeddedChild
 ;
 mGroupInfo
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -11027,7 +11027,7 @@ UnbindFromParent
 }
 mEmbeddedObjCollector
 =
-nsnull
+nullptr
 ;
 mChildren
 .
@@ -11218,7 +11218,7 @@ eMixedChildren
 ;
 mEmbeddedObjCollector
 =
-nsnull
+nullptr
 ;
 aChild
 -
@@ -11417,7 +11417,7 @@ index
 ;
 mEmbeddedObjCollector
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -11443,7 +11443,7 @@ mChildren
 SafeElementAt
 (
 aIndex
-nsnull
+nullptr
 )
 ;
 if
@@ -11452,7 +11452,7 @@ if
 child
 )
 return
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -11645,7 +11645,7 @@ GetAccessibleAt
 aIndex
 )
 :
-nsnull
+nullptr
 ;
 }
 return
@@ -11776,7 +11776,7 @@ AsHyperText
 (
 )
 :
-nsnull
+nullptr
 ;
 return
 hyperText
@@ -11830,7 +11830,7 @@ AsHyperText
 (
 )
 :
-nsnull
+nullptr
 ;
 return
 hyperText
@@ -11957,7 +11957,7 @@ aAnchorIndex
 ?
 this
 :
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -11998,7 +11998,7 @@ aAnchorIndex
 0
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -12057,7 +12057,7 @@ nsIURI
 *
 anchorURI
 =
-nsnull
+nullptr
 ;
 NS_NewURI
 (
@@ -12077,7 +12077,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 baseURI
 )
 ;
@@ -12086,7 +12086,7 @@ anchorURI
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -12167,7 +12167,7 @@ if
 selectedItems
 )
 return
-nsnull
+nullptr
 ;
 AccIterator
 iter
@@ -12187,7 +12187,7 @@ nsIAccessible
 *
 selected
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -12214,7 +12214,7 @@ nsIMutableArray
 *
 items
 =
-nsnull
+nullptr
 ;
 selectedItems
 .
@@ -12259,7 +12259,7 @@ Accessible
 *
 selected
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -12310,7 +12310,7 @@ Accessible
 *
 selected
 =
-nsnull
+nullptr
 ;
 PRUint32
 index
@@ -12375,7 +12375,7 @@ Accessible
 *
 selected
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -12448,7 +12448,7 @@ Accessible
 *
 selected
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -12526,7 +12526,7 @@ Accessible
 *
 selected
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -12588,7 +12588,7 @@ Accessible
 *
 selectable
 =
-nsnull
+nullptr
 ;
 AccIterator
 iter
@@ -12651,7 +12651,7 @@ Accessible
 *
 selected
 =
-nsnull
+nullptr
 ;
 AccIterator
 iter
@@ -12837,7 +12837,7 @@ activeDescendantElm
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -12993,7 +12993,7 @@ break
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -13031,7 +13031,7 @@ Accessible
 *
 child
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -13107,7 +13107,7 @@ Accessible
 *
 child
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -13255,7 +13255,7 @@ aError
 NS_ERROR_UNEXPECTED
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -13288,7 +13288,7 @@ aError
 NS_OK
 ;
 return
-nsnull
+nullptr
 ;
 }
 Accessible
@@ -13373,7 +13373,7 @@ OwnerDoc
 NS_ENSURE_TRUE
 (
 domDoc
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -13421,7 +13421,7 @@ nsIDOMNodeFilter
 :
 :
 SHOW_TEXT
-nsnull
+nullptr
 false
 getter_AddRefs
 (
@@ -13432,7 +13432,7 @@ walker
 NS_ENSURE_TRUE
 (
 walker
-nsnull
+nullptr
 )
 ;
 walker
@@ -13465,7 +13465,7 @@ if
 currentNode
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -13500,7 +13500,7 @@ accessible
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult

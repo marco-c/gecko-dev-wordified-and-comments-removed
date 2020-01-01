@@ -2640,7 +2640,7 @@ aNeedsBold
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 gfxFontEntry
@@ -2704,7 +2704,7 @@ aFullname
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 gfxDWriteFontEntry
@@ -2827,7 +2827,7 @@ aFontData
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 FallibleTArray
@@ -2868,7 +2868,7 @@ rv
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -2918,7 +2918,7 @@ uuidgen
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 rv
@@ -2943,7 +2943,7 @@ rv
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 hr
@@ -3004,7 +3004,7 @@ reference
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 BOOL
@@ -3078,7 +3078,7 @@ delete
 entry
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -5482,7 +5482,7 @@ substituteName
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 mFontFamilies
@@ -5519,7 +5519,7 @@ ff
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 (
@@ -6332,7 +6332,7 @@ dwFactory
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -6395,7 +6395,7 @@ hr
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -6524,7 +6524,7 @@ hr
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 hr
@@ -6553,14 +6553,14 @@ hr
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 gfxFontEntry
 *
 fontEntry
 =
-nsnull
+nullptr
 ;
 bool
 needsBold
@@ -6596,7 +6596,7 @@ aCh
 {
 fontEntry
 =
-nsnull
+nullptr
 ;
 Telemetry
 :

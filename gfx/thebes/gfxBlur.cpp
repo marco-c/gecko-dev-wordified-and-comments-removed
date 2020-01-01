@@ -32,7 +32,7 @@ gfxAlphaBoxBlur
 :
 mBlur
 (
-nsnull
+nullptr
 )
 {
 }
@@ -246,7 +246,7 @@ if
 data
 )
 return
-nsnull
+nullptr
 ;
 IntSize
 size
@@ -295,7 +295,7 @@ CairoStatus
 )
 )
 return
-nsnull
+nullptr
 ;
 IntRect
 irect

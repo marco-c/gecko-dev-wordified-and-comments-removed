@@ -397,7 +397,7 @@ download
 Start
 (
 observer
-nsnull
+nullptr
 )
 ;
 if
@@ -487,9 +487,9 @@ rv
 =
 NS_InitXPCOM2
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -568,7 +568,7 @@ rv
 ;
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 return

@@ -70,7 +70,7 @@ Init
 {
 mAnimVal
 =
-nsnull
+nullptr
 ;
 }
 void

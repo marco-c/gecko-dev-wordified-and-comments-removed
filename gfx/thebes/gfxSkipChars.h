@@ -346,7 +346,7 @@ mRunCharCount
 ;
 mList
 =
-nsnull
+nullptr
 ;
 mListLength
 =
@@ -472,7 +472,7 @@ aLength
 ;
 mList
 =
-nsnull
+nullptr
 ;
 mListLength
 =
@@ -710,7 +710,7 @@ gfxSkipCharsIterator
 :
 mSkipChars
 (
-nsnull
+nullptr
 )
 {
 }
@@ -723,7 +723,7 @@ return
 mSkipChars
 !
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -799,7 +799,7 @@ PRInt32
 *
 aRunLength
 =
-nsnull
+nullptr
 )
 const
 ;

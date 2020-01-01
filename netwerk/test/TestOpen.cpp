@@ -137,9 +137,9 @@ rv
 =
 NS_InitXPCOM2
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -342,7 +342,7 @@ outfile
 ;
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 return

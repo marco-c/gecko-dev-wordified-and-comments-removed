@@ -494,7 +494,7 @@ nsGkAtoms
 clear
 }
 {
-nsnull
+nullptr
 }
 }
 ;

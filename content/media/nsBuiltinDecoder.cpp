@@ -797,7 +797,7 @@ aStreamListener
 *
 aStreamListener
 =
-nsnull
+nullptr
 ;
 }
 {
@@ -918,7 +918,7 @@ cloneDonor
 >
 mDecoderStateMachine
 :
-nsnull
+nullptr
 )
 )
 )
@@ -1180,7 +1180,7 @@ NS_ASSERTION
 mDecoderStateMachine
 !
 =
-nsnull
+nullptr
 "
 Should
 have
@@ -1764,7 +1764,7 @@ GetCurrentPrincipal
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 void

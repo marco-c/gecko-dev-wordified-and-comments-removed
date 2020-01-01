@@ -90,7 +90,7 @@ FunctionTimer
 :
 sBuf1
 =
-nsnull
+nullptr
 ;
 char
 *
@@ -99,7 +99,7 @@ FunctionTimer
 :
 sBuf2
 =
-nsnull
+nullptr
 ;
 int
 FunctionTimer

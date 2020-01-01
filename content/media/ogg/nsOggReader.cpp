@@ -219,15 +219,15 @@ aDecoder
 )
 mTheoraState
 (
-nsnull
+nullptr
 )
 mVorbisState
 (
-nsnull
+nullptr
 )
 mOpusState
 (
-nsnull
+nullptr
 )
 mOpusEnabled
 (
@@ -240,7 +240,7 @@ IsOpusEnabled
 )
 mSkeletonState
 (
-nsnull
+nullptr
 )
 mVorbisSerial
 (
@@ -732,7 +732,7 @@ mCodecStates
 Get
 (
 serial
-nsnull
+nullptr
 )
 )
 {
@@ -1186,7 +1186,7 @@ displaySize
 .
 height
 )
-nsnull
+nullptr
 TimeStamp
 :
 :
@@ -2619,13 +2619,13 @@ NS_ASSERTION
 mVorbisState
 !
 =
-nsnull
+nullptr
 |
 |
 mOpusState
 !
 =
-nsnull
+nullptr
 "
 Need
 audio
@@ -3662,7 +3662,7 @@ mActive
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 ogg_packet
@@ -3683,7 +3683,7 @@ PacketOut
 )
 =
 =
-nsnull
+nullptr
 )
 {
 ogg_page
@@ -3703,7 +3703,7 @@ page
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 PRUint32
@@ -3719,7 +3719,7 @@ nsOggCodecState
 *
 codecState
 =
-nsnull
+nullptr
 ;
 mCodecStates
 .
@@ -3749,7 +3749,7 @@ page
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -3894,7 +3894,7 @@ NS_ENSURE_TRUE
 resource
 !
 =
-nsnull
+nullptr
 0
 )
 ;
@@ -4022,7 +4022,7 @@ NS_ENSURE_TRUE
 resource
 !
 =
-nsnull
+nullptr
 -
 1
 )
@@ -4569,7 +4569,7 @@ nsOggCodecState
 *
 codecState
 =
-nsnull
+nullptr
 ;
 mCodecStates
 .
@@ -5079,7 +5079,7 @@ NS_ENSURE_TRUE
 resource
 !
 =
-nsnull
+nullptr
 SEEK_FATAL_ERROR
 )
 ;
@@ -5137,7 +5137,7 @@ NS_ENSURE_TRUE
 resource
 !
 =
-nsnull
+nullptr
 SEEK_FATAL_ERROR
 )
 ;
@@ -5427,7 +5427,7 @@ nsOggCodecState
 *
 codecState
 =
-nsnull
+nullptr
 ;
 mCodecStates
 .
@@ -5994,7 +5994,7 @@ NS_ENSURE_TRUE
 resource
 !
 =
-nsnull
+nullptr
 NS_ERROR_FAILURE
 )
 ;
@@ -7234,7 +7234,7 @@ nsOggCodecState
 *
 codecState
 =
-nsnull
+nullptr
 ;
 mCodecStates
 .

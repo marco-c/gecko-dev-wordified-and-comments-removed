@@ -57,7 +57,7 @@ char
 *
 aCharset
 =
-nsnull
+nullptr
 PRInt32
 aSource
 =
@@ -93,7 +93,7 @@ char
 *
 aCharset
 =
-nsnull
+nullptr
 PRInt32
 aSource
 =

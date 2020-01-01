@@ -148,6 +148,6 @@ return
 mParent
 ;
 return
-nsnull
+nullptr
 ;
 }

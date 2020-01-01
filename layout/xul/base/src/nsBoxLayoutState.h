@@ -62,13 +62,13 @@ nsRenderingContext
 *
 aRenderingContext
 =
-nsnull
+nullptr
 const
 nsHTMLReflowState
 *
 aOuterReflowState
 =
-nsnull
+nullptr
 PRUint16
 aReflowDepth
 =

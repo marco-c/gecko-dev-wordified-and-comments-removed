@@ -190,7 +190,7 @@ FrameLayerBuilder
 :
 :
 RemoveDisplayItemDataForFrame
-nsnull
+nullptr
 )
 ;
 MOZ_COUNT_DTOR
@@ -249,7 +249,7 @@ MaskLayerImageCache
 *
 gMaskLayerImageCache
 =
-nsnull
+nullptr
 ;
 static
 inline
@@ -729,11 +729,11 @@ ThebesLayerData
 :
 mActiveScrolledRoot
 (
-nsnull
+nullptr
 )
 mLayer
 (
-nsnull
+nullptr
 )
 mIsSolidColorInVisibleRegion
 (
@@ -749,7 +749,7 @@ false
 )
 mImage
 (
-nsnull
+nullptr
 )
 mCommonClipCount
 (
@@ -974,7 +974,7 @@ IsEmpty
 (
 )
 ?
-nsnull
+nullptr
 :
 mThebesLayerDataStack
 [
@@ -1192,7 +1192,7 @@ MaskLayerUserData
 :
 mImageKey
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1352,7 +1352,7 @@ gMaskLayerImageCache
 ;
 gMaskLayerImageCache
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1650,7 +1650,7 @@ if
 data
 )
 return
-nsnull
+nullptr
 ;
 DisplayItemDataEntry
 *
@@ -1683,7 +1683,7 @@ if
 entry
 )
 return
-nsnull
+nullptr
 ;
 return
 &
@@ -2353,7 +2353,7 @@ GetEntry
 f
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -2763,7 +2763,7 @@ mRetainingManager
 mInvalidateAllLayers
 )
 return
-nsnull
+nullptr
 ;
 nsTArray
 <
@@ -2783,7 +2783,7 @@ if
 array
 )
 return
-nsnull
+nullptr
 ;
 for
 (
@@ -2854,7 +2854,7 @@ layer
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 Layer
@@ -2908,7 +2908,7 @@ data
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 DisplayItemDataEntry
@@ -2931,7 +2931,7 @@ if
 entry
 )
 return
-nsnull
+nullptr
 ;
 nsTArray
 <
@@ -2952,7 +2952,7 @@ if
 array
 )
 return
-nsnull
+nullptr
 ;
 for
 (
@@ -3005,7 +3005,7 @@ mLayer
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -3091,7 +3091,7 @@ layer
 >
 SetClipRect
 (
-nsnull
+nullptr
 )
 ;
 layer
@@ -3099,7 +3099,7 @@ layer
 >
 SetMaskLayer
 (
-nsnull
+nullptr
 )
 ;
 layer
@@ -3133,7 +3133,7 @@ if
 layer
 )
 return
-nsnull
+nullptr
 ;
 layer
 -
@@ -3142,7 +3142,7 @@ SetUserData
 (
 &
 gColorLayerUserData
-nsnull
+nullptr
 )
 ;
 }
@@ -3198,7 +3198,7 @@ layer
 >
 SetClipRect
 (
-nsnull
+nullptr
 )
 ;
 layer
@@ -3206,7 +3206,7 @@ layer
 >
 SetMaskLayer
 (
-nsnull
+nullptr
 )
 ;
 layer
@@ -3240,7 +3240,7 @@ if
 layer
 )
 return
-nsnull
+nullptr
 ;
 layer
 -
@@ -3249,7 +3249,7 @@ SetUserData
 (
 &
 gImageLayerUserData
-nsnull
+nullptr
 )
 ;
 }
@@ -3331,7 +3331,7 @@ if
 result
 )
 return
-nsnull
+nullptr
 ;
 result
 -
@@ -3644,7 +3644,7 @@ layer
 >
 SetClipRect
 (
-nsnull
+nullptr
 )
 ;
 layer
@@ -3652,7 +3652,7 @@ layer
 >
 SetMaskLayer
 (
-nsnull
+nullptr
 )
 ;
 layer
@@ -3780,7 +3780,7 @@ if
 layer
 )
 return
-nsnull
+nullptr
 ;
 data
 =
@@ -4520,7 +4520,7 @@ mImage
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -4965,7 +4965,7 @@ mLayer
 ;
 imageContainer
 =
-nsnull
+nullptr
 ;
 }
 gfxMatrix
@@ -5725,7 +5725,7 @@ else
 {
 mImage
 =
-nsnull
+nullptr
 ;
 }
 mItemClip
@@ -6467,7 +6467,7 @@ ThebesLayerData
 *
 thebesLayerData
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6853,8 +6853,8 @@ tempManager
 >
 EndTransaction
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 return
@@ -7393,7 +7393,7 @@ LAYER_ACTIVE_EMPTY
 InvalidateForLayerChange
 (
 item
-nsnull
+nullptr
 )
 ;
 continue
@@ -8927,7 +8927,7 @@ i
 =
 0
 ?
-nsnull
+nullptr
 :
 mNewChildLayers
 [
@@ -8983,7 +8983,7 @@ else
 {
 layer
 =
-nsnull
+nullptr
 ;
 }
 Layer
@@ -9985,7 +9985,7 @@ containerLayer
 >
 SetClipRect
 (
-nsnull
+nullptr
 )
 ;
 containerLayer
@@ -9993,7 +9993,7 @@ containerLayer
 >
 SetMaskLayer
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -10020,7 +10020,7 @@ if
 containerLayer
 )
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -10094,7 +10094,7 @@ RefCountedRegion
 >
 thebesLayerInvalidRegion
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -10377,7 +10377,7 @@ ApplyThebesLayerInvalidation
 (
 aBuilder
 mergedFrame
-nsnull
+nullptr
 state
 &
 currentOffset
@@ -10634,7 +10634,7 @@ aManager
 mRetainingManager
 )
 return
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -10685,7 +10685,7 @@ if
 layer
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -10700,7 +10700,7 @@ gThebesDisplayItemLayerUserData
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 layer
@@ -10708,7 +10708,7 @@ layer
 >
 SetClipRect
 (
-nsnull
+nullptr
 )
 ;
 layer
@@ -10716,7 +10716,7 @@ layer
 >
 SetMaskLayer
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -11179,7 +11179,7 @@ if
 array
 )
 return
-nsnull
+nullptr
 ;
 for
 (
@@ -11272,7 +11272,7 @@ layer
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 bool

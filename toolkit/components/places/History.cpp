@@ -561,7 +561,7 @@ uriVal
 NS_ENSURE_TRUE
 (
 rc
-nsnull
+nullptr
 )
 ;
 if
@@ -617,7 +617,7 @@ wrappedObj
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -640,7 +640,7 @@ forget
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -994,7 +994,7 @@ mozIVisitedStatusCallback
 *
 aCallback
 =
-nsnull
+nullptr
 )
 {
 NS_PRECONDITION
@@ -1428,7 +1428,7 @@ mozIVisitedStatusCallback
 *
 aCallback
 =
-nsnull
+nullptr
 bool
 aIsVisited
 =
@@ -1690,7 +1690,7 @@ NotifyObservers
 (
 uri
 URI_VISIT_SAVED
-nsnull
+nullptr
 )
 ;
 NS_WARN_IF_FALSE
@@ -5803,7 +5803,7 @@ GetDBConn
 NS_ENSURE_TRUE
 (
 dbConn
-nsnull
+nullptr
 )
 ;
 (
@@ -5824,7 +5824,7 @@ mReadOnlyDBConn
 NS_ENSURE_TRUE
 (
 mReadOnlyDBConn
-nsnull
+nullptr
 )
 ;
 }
@@ -5869,7 +5869,7 @@ mIsVisitedStatement
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 return
@@ -7029,7 +7029,7 @@ History
 NS_ENSURE_TRUE
 (
 gService
-nsnull
+nullptr
 )
 ;
 }
@@ -7069,7 +7069,7 @@ GetDatabase
 NS_ENSURE_TRUE
 (
 mDB
-nsnull
+nullptr
 )
 ;
 }
@@ -7153,7 +7153,7 @@ mReadOnlyDBConn
 >
 AsyncClose
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -7796,7 +7796,7 @@ NotifyObservers
 (
 aURI
 NS_LINK_VISITED_EVENT_TOPIC
-nsnull
+nullptr
 )
 ;
 }
@@ -8627,7 +8627,7 @@ SetDownloadAnnotations
 aDestination
 )
 :
-nsnull
+nullptr
 ;
 rv
 =
@@ -8675,7 +8675,7 @@ NotifyObservers
 (
 aSource
 NS_LINK_VISITED_EVENT_TOPIC
-nsnull
+nullptr
 )
 ;
 }

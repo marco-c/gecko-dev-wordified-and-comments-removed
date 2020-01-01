@@ -77,7 +77,7 @@ Close
 ;
 mSink
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -449,7 +449,7 @@ Close
 ;
 mSink
 =
-nsnull
+nullptr
 ;
 }
 mObserver
@@ -466,7 +466,7 @@ mLocation
 ;
 mObserver
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

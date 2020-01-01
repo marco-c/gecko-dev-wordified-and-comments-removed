@@ -421,7 +421,7 @@ aContentLocation
 aRequestOrigin
 aRequestContext
 aMimeTypeGuess
-nsnull
+nullptr
 aDecision
 )
 ;
@@ -862,8 +862,8 @@ ShouldLoad
 (
 loadType
 newUri
-nsnull
-nsnull
+nullptr
+nullptr
 EmptyCString
 (
 )
@@ -1077,7 +1077,7 @@ warningFlag
 Redirect
 Error
 "
-nsnull
+nullptr
 nsContentUtils
 :
 :

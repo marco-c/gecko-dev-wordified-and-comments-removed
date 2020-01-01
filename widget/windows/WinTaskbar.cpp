@@ -389,7 +389,7 @@ ppv
 SHGetPropertyStoreForWindowPtr
 funcGetProStore
 =
-nsnull
+nullptr
 ;
 HMODULE
 hDLL
@@ -941,7 +941,7 @@ WinTaskbar
 :
 mTaskbar
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1361,7 +1361,7 @@ false
 SetCurrentProcessExplicitAppUserModelIDPtr
 funcAppUserModelID
 =
-nsnull
+nullptr
 ;
 bool
 retVal

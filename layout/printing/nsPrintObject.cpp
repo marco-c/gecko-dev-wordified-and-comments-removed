@@ -77,7 +77,7 @@ nsPrintObject
 :
 mContent
 (
-nsnull
+nullptr
 )
 mFrameType
 (
@@ -85,7 +85,7 @@ eFrame
 )
 mParent
 (
-nsnull
+nullptr
 )
 mHasBeenPrinted
 (
@@ -216,11 +216,11 @@ Destroy
 }
 mDocShell
 =
-nsnull
+nullptr
 ;
 mTreeOwner
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -490,7 +490,7 @@ DestroyPresentation
 {
 mPresContext
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -517,10 +517,10 @@ Destroy
 }
 mPresShell
 =
-nsnull
+nullptr
 ;
 mViewManager
 =
-nsnull
+nullptr
 ;
 }

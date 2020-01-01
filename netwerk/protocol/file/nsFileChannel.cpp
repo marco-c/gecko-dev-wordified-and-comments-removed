@@ -380,7 +380,7 @@ mSink
 >
 OnTransportStatus
 (
-nsnull
+nullptr
 nsITransport
 :
 :
@@ -432,7 +432,7 @@ nsIRunnable
 *
 doomed
 =
-nsnull
+nullptr
 ;
 mCallback
 .
@@ -587,7 +587,7 @@ return
 mCopyEvent
 !
 =
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -954,7 +954,7 @@ getter_AddRefs
 targetURI
 )
 resolvedFile
-nsnull
+nullptr
 )
 )
 )
@@ -1299,7 +1299,7 @@ rv
 *
 result
 =
-nsnull
+nullptr
 ;
 newChannel
 .
@@ -1505,7 +1505,7 @@ contentType
 *
 result
 =
-nsnull
+nullptr
 ;
 stream
 .

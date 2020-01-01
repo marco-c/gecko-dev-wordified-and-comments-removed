@@ -340,7 +340,7 @@ else
 *
 aResult
 =
-nsnull
+nullptr
 ;
 }
 return

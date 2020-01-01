@@ -79,7 +79,7 @@ SmsIPCService
 :
 sSmsChild
 =
-nsnull
+nullptr
 ;
 NS_IMPL_ISUPPORTS2
 (

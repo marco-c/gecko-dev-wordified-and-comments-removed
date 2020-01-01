@@ -52,7 +52,7 @@ LFSTR
 CRLF
 "
 "
-nsnull
+nullptr
 }
 ;
 return
@@ -271,7 +271,7 @@ T
 *
 resultString
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -313,7 +313,7 @@ if
 resultString
 )
 return
-nsnull
+nullptr
 ;
 memcpy
 (
@@ -386,7 +386,7 @@ if
 resultString
 )
 return
-nsnull
+nullptr
 ;
 const
 T
@@ -519,7 +519,7 @@ if
 resultString
 )
 return
-nsnull
+nullptr
 ;
 const
 T
@@ -866,7 +866,7 @@ if
 resultString
 )
 return
-nsnull
+nullptr
 ;
 src
 =
@@ -1033,7 +1033,7 @@ if
 aSrc
 )
 return
-nsnull
+nullptr
 ;
 PRInt32
 sourceLen
@@ -1374,7 +1374,7 @@ if
 aSrc
 )
 return
-nsnull
+nullptr
 ;
 PRInt32
 bufLen

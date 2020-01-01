@@ -190,8 +190,8 @@ aProfileSvc
 >
 CreateProfile
 (
-nsnull
-nsnull
+nullptr
+nullptr
 newProfileName
 getter_AddRefs
 (
@@ -613,7 +613,7 @@ windowWatcher
 >
 OpenWindow
 (
-nsnull
+nullptr
 kResetProgressURL
 "
 _blank

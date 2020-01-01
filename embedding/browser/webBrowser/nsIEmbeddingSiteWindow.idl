@@ -535,7 +535,7 @@ pass
 <
 CODE
 >
-nsnull
+nullptr
 <
 /
 CODE
@@ -577,7 +577,7 @@ or
 <
 CODE
 >
-nsnull
+nullptr
 <
 /
 CODE
@@ -597,7 +597,7 @@ or
 <
 CODE
 >
-nsnull
+nullptr
 <
 /
 CODE
@@ -618,7 +618,7 @@ or
 <
 CODE
 >
-nsnull
+nullptr
 <
 /
 CODE
@@ -639,7 +639,7 @@ or
 <
 CODE
 >
-nsnull
+nullptr
 <
 /
 CODE

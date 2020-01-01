@@ -29,6 +29,6 @@ platform
 )
 ;
 return
-nsnull
+nullptr
 ;
 }

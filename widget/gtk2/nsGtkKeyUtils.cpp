@@ -81,7 +81,7 @@ PRLogModuleInfo
 *
 gKeymapWrapperLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -551,7 +551,7 @@ KeymapWrapper
 :
 sInstance
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -964,7 +964,7 @@ key
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 KeymapWrapper
@@ -2116,7 +2116,7 @@ sInstance
 ;
 sInstance
 =
-nsnull
+nullptr
 ;
 }
 void

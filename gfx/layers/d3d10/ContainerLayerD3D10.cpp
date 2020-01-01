@@ -163,7 +163,7 @@ aChild
 >
 SetPrevSibling
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -355,7 +355,7 @@ mFirstChild
 >
 SetPrevSibling
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -363,7 +363,7 @@ else
 {
 mLastChild
 =
-nsnull
+nullptr
 ;
 }
 aChild
@@ -371,7 +371,7 @@ aChild
 >
 SetNextSibling
 (
-nsnull
+nullptr
 )
 ;
 aChild
@@ -379,7 +379,7 @@ aChild
 >
 SetPrevSibling
 (
-nsnull
+nullptr
 )
 ;
 aChild
@@ -387,7 +387,7 @@ aChild
 >
 SetParent
 (
-nsnull
+nullptr
 )
 ;
 DidRemoveChild
@@ -407,7 +407,7 @@ Layer
 *
 lastChild
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -488,7 +488,7 @@ child
 >
 SetNextSibling
 (
-nsnull
+nullptr
 )
 ;
 child
@@ -496,7 +496,7 @@ child
 >
 SetPrevSibling
 (
-nsnull
+nullptr
 )
 ;
 child
@@ -504,7 +504,7 @@ child
 >
 SetParent
 (
-nsnull
+nullptr
 )
 ;
 DidRemoveChild
@@ -555,7 +555,7 @@ mFirstChild
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -618,7 +618,7 @@ ImplData
 )
 )
 :
-nsnull
+nullptr
 ;
 }
 static
@@ -1379,7 +1379,7 @@ GetLayer
 CalculateScissorRect
 (
 oldScissor
-nsnull
+nullptr
 )
 ;
 if

@@ -1714,7 +1714,7 @@ presentation
 context
 can
 be
-nsnull
+nullptr
 .
 *
 param
@@ -1727,7 +1727,7 @@ the
 function
 can
 be
-nsnull
+nullptr
 .
 *
 *
@@ -1756,7 +1756,7 @@ If
 aDOMEvent
 is
 not
-nsnull
+nullptr
 (
 in
 which
@@ -1764,7 +1764,7 @@ case
 aEvent
 can
 be
-nsnull
+nullptr
 )
 it
 is
@@ -2029,7 +2029,7 @@ GetJSContextForEventHandlers
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 #

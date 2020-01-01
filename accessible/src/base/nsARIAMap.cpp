@@ -1418,7 +1418,7 @@ IsEmpty
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsWhitespaceTokenizer

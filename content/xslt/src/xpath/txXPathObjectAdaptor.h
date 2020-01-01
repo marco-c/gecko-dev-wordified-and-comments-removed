@@ -98,7 +98,7 @@ txXPathObjectAdaptor
 :
 mValue
 (
-nsnull
+nullptr
 )
 {
 }

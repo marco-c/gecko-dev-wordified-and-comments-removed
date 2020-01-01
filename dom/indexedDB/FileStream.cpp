@@ -389,7 +389,7 @@ mQuotaFile
 ;
 mQuotaFile
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_TRUE
 (

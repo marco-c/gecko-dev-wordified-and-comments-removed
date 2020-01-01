@@ -55,7 +55,7 @@ nsIIOService
 *
 gIOService
 =
-nsnull
+nullptr
 ;
 static
 bool
@@ -265,7 +265,7 @@ urls
 EnumerateForwards
 (
 load_sync_1
-nsnull
+nullptr
 )
 ;
 return
@@ -564,7 +564,7 @@ rv
 NS_OpenURI
 (
 listener
-nsnull
+nullptr
 uri
 gIOService
 )
@@ -624,7 +624,7 @@ urls
 EnumerateForwards
 (
 load_async_1
-nsnull
+nullptr
 )
 ;
 PumpEvents
@@ -734,7 +734,7 @@ getter_AddRefs
 uri
 )
 buf
-nsnull
+nullptr
 gIOService
 )
 ;
@@ -937,8 +937,8 @@ getter_AddRefs
 (
 servMan
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 nsCOMPtr
@@ -966,7 +966,7 @@ registrar
 >
 AutoRegister
 (
-nsnull
+nullptr
 )
 ;
 {

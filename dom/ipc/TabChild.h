@@ -1440,7 +1440,7 @@ doc
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr

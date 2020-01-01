@@ -332,7 +332,7 @@ mozJSSubScriptLoader
 :
 mSystemPrincipal
 (
-nsnull
+nullptr
 )
 {
 }
@@ -443,8 +443,8 @@ chan
 )
 uri
 serv
-nsnull
-nsnull
+nullptr
+nullptr
 nsIRequest
 :
 :
@@ -594,7 +594,7 @@ nsScriptLoader
 :
 ConvertToUTF16
 (
-nsnull
+nullptr
 reinterpret_cast
 <
 const
@@ -610,7 +610,7 @@ get
 )
 len
 charset
-nsnull
+nullptr
 script
 )
 ;
@@ -884,7 +884,7 @@ nsAXPCNativeCallContext
 *
 cc
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -1066,7 +1066,7 @@ JSScript
 *
 script
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1076,7 +1076,7 @@ JS_DescribeScriptedCaller
 cx
 &
 script
-nsnull
+nullptr
 )
 )
 {
@@ -1102,7 +1102,7 @@ GetSingleton
 (
 )
 :
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1145,7 +1145,7 @@ url
 get
 (
 )
-nsnull
+nullptr
 serv
 )
 ;
@@ -1335,7 +1335,7 @@ cachePath
 ;
 script
 =
-nsnull
+nullptr
 ;
 if
 (

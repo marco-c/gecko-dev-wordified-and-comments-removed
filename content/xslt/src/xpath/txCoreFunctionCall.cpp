@@ -492,7 +492,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -984,7 +984,7 @@ StringResult
 *
 strRes
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -1037,7 +1037,7 @@ StringResult
 *
 strRes
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -1119,7 +1119,7 @@ StringResult
 *
 strRes
 =
-nsnull
+nullptr
 ;
 rv
 =

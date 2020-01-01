@@ -79,7 +79,7 @@ ci
 )
 mRequestHead
 (
-nsnull
+nullptr
 )
 mIsDone
 (
@@ -104,7 +104,7 @@ nsIInterfaceRequestor
 *
 cbs
 =
-nsnull
+nullptr
 ;
 mCallbacks
 .
@@ -474,7 +474,7 @@ reason
 ;
 mConnection
 =
-nsnull
+nullptr
 ;
 mIsDone
 =

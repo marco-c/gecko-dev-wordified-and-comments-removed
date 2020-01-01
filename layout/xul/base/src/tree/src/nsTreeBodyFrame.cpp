@@ -429,7 +429,7 @@ PresContext
 aEntry
 .
 request
-nsnull
+nullptr
 )
 ;
 aEntry
@@ -510,7 +510,7 @@ aContext
 )
 mSlots
 (
-nsnull
+nullptr
 )
 mTopRowIndex
 (
@@ -584,7 +584,7 @@ mColumns
 new
 nsTreeColumns
 (
-nsnull
+nullptr
 )
 ;
 NS_NewISupportsArray
@@ -1261,7 +1261,7 @@ mColumns
 >
 SetTree
 (
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -1337,7 +1337,7 @@ ClearCachedValues
 ;
 mTreeBoxObject
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1371,7 +1371,7 @@ sel
 >
 SetTree
 (
-nsnull
+nullptr
 )
 ;
 mView
@@ -1379,12 +1379,12 @@ mView
 >
 SetTree
 (
-nsnull
+nullptr
 )
 ;
 mView
 =
-nsnull
+nullptr
 ;
 }
 nsLeafBoxFrame
@@ -2060,7 +2060,7 @@ aView
 *
 aView
 =
-nsnull
+nullptr
 ;
 nsWeakFrame
 weakFrame
@@ -2135,7 +2135,7 @@ sel
 >
 SetTree
 (
-nsnull
+nullptr
 )
 ;
 mView
@@ -2143,7 +2143,7 @@ mView
 >
 SetTree
 (
-nsnull
+nullptr
 )
 ;
 mTopRowIndex
@@ -2669,7 +2669,7 @@ aRegion
 *
 aRegion
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -3071,8 +3071,8 @@ FireInvalidateEvent
 (
 aIndex
 aIndex
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 #
@@ -3376,8 +3376,8 @@ FireInvalidateEvent
 (
 aStart
 end
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -3834,12 +3834,12 @@ ScrollParts
 result
 =
 {
-nsnull
-nsnull
-nsnull
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 nsIContent
@@ -3863,7 +3863,7 @@ GetPrimaryFrame
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -4246,7 +4246,7 @@ mVerticalOverflow
 NS_SCROLLPORT_OVERFLOW
 :
 NS_SCROLLPORT_UNDERFLOW
-nsnull
+nullptr
 )
 ;
 event
@@ -4284,7 +4284,7 @@ mHorizontalOverflow
 NS_SCROLLPORT_OVERFLOW
 :
 NS_SCROLLPORT_UNDERFLOW
-nsnull
+nullptr
 )
 ;
 event
@@ -6033,7 +6033,7 @@ else
 {
 nextColumn
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -7300,12 +7300,12 @@ aChildElt
 *
 aCol
 =
-nsnull
+nullptr
 ;
 *
 aChildElt
 =
-nsnull
+nullptr
 ;
 *
 aRow
@@ -9443,7 +9443,7 @@ nsITheme
 *
 theme
 =
-nsnull
+nullptr
 ;
 const
 nsStyleDisplay
@@ -9485,7 +9485,7 @@ theme
 ThemeSupportsWidget
 (
 aPresContext
-nsnull
+nullptr
 twistyDisplayData
 -
 >
@@ -9591,7 +9591,7 @@ useTheme
 ?
 theme
 :
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -9622,7 +9622,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsAutoString
 imageSrc
@@ -11776,7 +11776,7 @@ mSlots
 >
 mTimer
 =
-nsnull
+nullptr
 ;
 }
 mSlots
@@ -11976,7 +11976,7 @@ mSlots
 >
 mTimer
 =
-nsnull
+nullptr
 ;
 }
 CreateTimer
@@ -12080,7 +12080,7 @@ mSlots
 >
 mTimer
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -12518,7 +12518,7 @@ mSlots
 >
 mTimer
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -13341,7 +13341,7 @@ rv
 PrefillPropertyArray
 (
 aRowIndex
-nsnull
+nullptr
 )
 ;
 mView
@@ -13403,7 +13403,7 @@ nsITheme
 *
 theme
 =
-nsnull
+nullptr
 ;
 const
 nsStyleDisplay
@@ -13445,7 +13445,7 @@ theme
 ThemeSupportsWidget
 (
 aPresContext
-nsnull
+nullptr
 displayData
 -
 >
@@ -14101,7 +14101,7 @@ nsITheme
 *
 theme
 =
-nsnull
+nullptr
 ;
 const
 nsStyleDisplay
@@ -14143,7 +14143,7 @@ theme
 ThemeSupportsWidget
 (
 aPresContext
-nsnull
+nullptr
 displayData
 -
 >
@@ -19350,7 +19350,7 @@ GetParent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -19989,7 +19989,7 @@ mSlots
 >
 mTimer
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -20091,7 +20091,7 @@ mSlots
 >
 mTimer
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -20205,7 +20205,7 @@ mSlots
 >
 mTimer
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -20345,7 +20345,7 @@ mSlots
 >
 mTimer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -20397,7 +20397,7 @@ event
 (
 true
 NS_SCROLL_EVENT
-nsnull
+nullptr
 )
 ;
 event
@@ -21391,7 +21391,7 @@ PresContext
 (
 )
 aRequest
-nsnull
+nullptr
 )
 ;
 return

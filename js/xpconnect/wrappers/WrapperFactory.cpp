@@ -140,7 +140,7 @@ if
 obj
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -345,7 +345,7 @@ proto
 )
 )
 return
-nsnull
+nullptr
 ;
 JSAutoEnterCompartment
 ac
@@ -371,7 +371,7 @@ proto
 )
 )
 return
-nsnull
+nullptr
 ;
 JSObject
 *
@@ -400,7 +400,7 @@ if
 waiver
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -449,7 +449,7 @@ waiver
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 waiver
@@ -551,7 +551,7 @@ obj
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 WaiveXray
@@ -633,7 +633,7 @@ obj
 )
 )
 return
-nsnull
+nullptr
 ;
 obj
 =
@@ -649,7 +649,7 @@ if
 obj
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -731,7 +731,7 @@ obj
 )
 )
 return
-nsnull
+nullptr
 ;
 XPCCallContext
 ccx
@@ -938,7 +938,7 @@ wn
 Native
 (
 )
-nsnull
+nullptr
 &
 NS_GET_IID
 (
@@ -1027,7 +1027,7 @@ if
 unionSet
 )
 return
-nsnull
+nullptr
 ;
 newwn
 -
@@ -1089,7 +1089,7 @@ obj
 )
 )
 :
-nsnull
+nullptr
 ;
 }
 enum
@@ -1402,7 +1402,7 @@ obj
 )
 )
 return
-nsnull
+nullptr
 ;
 JSObject
 *
@@ -1605,7 +1605,7 @@ content
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -2270,7 +2270,7 @@ if
 xrayHolder
 )
 return
-nsnull
+nullptr
 ;
 js
 :
@@ -2460,7 +2460,7 @@ if
 xrayHolder
 )
 return
-nsnull
+nullptr
 ;
 JSObject
 *
@@ -2500,7 +2500,7 @@ if
 wrapperObj
 )
 return
-nsnull
+nullptr
 ;
 js
 :
@@ -2954,7 +2954,7 @@ if
 xrayHolder
 )
 return
-nsnull
+nullptr
 ;
 js
 :

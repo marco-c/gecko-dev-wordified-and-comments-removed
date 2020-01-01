@@ -212,10 +212,10 @@ nsZipArchive
 )
 mManifestData
 (
-nsnull
-nsnull
+nullptr
+nullptr
 DeleteManifestEntry
-nsnull
+nullptr
 10
 )
 mParsedManifest
@@ -232,7 +232,7 @@ PR_INTERVAL_NO_TIMEOUT
 )
 mCache
 (
-nsnull
+nullptr
 )
 mLock
 (
@@ -767,7 +767,7 @@ IsEmpty
 (
 )
 ?
-nsnull
+nullptr
 :
 PromiseFlatCString
 (
@@ -1091,7 +1091,7 @@ get
 )
 !
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1136,7 +1136,7 @@ IsEmpty
 (
 )
 ?
-nsnull
+nullptr
 :
 PromiseFlatCString
 (
@@ -1247,7 +1247,7 @@ nsZipItem
 *
 item
 =
-nsnull
+nullptr
 ;
 const
 char
@@ -1403,7 +1403,7 @@ NS_ERROR_NULL_POINTER
 *
 aPrincipal
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -1909,7 +1909,7 @@ if
 eol
 =
 =
-nsnull
+nullptr
 )
 {
 length
@@ -1930,7 +1930,7 @@ length
 *
 src
 =
-nsnull
+nullptr
 ;
 else
 *
@@ -2772,7 +2772,7 @@ nsJARManifestItem
 *
 curItemMF
 =
-nsnull
+nullptr
 ;
 bool
 foundName
@@ -3003,7 +3003,7 @@ if
 nextLineStart
 =
 =
-nsnull
+nullptr
 )
 break
 ;
@@ -3162,7 +3162,7 @@ if
 nextLineStart
 =
 =
-nsnull
+nullptr
 )
 break
 ;
@@ -4521,7 +4521,7 @@ zip
 >
 SetZipReaderCache
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -4541,7 +4541,7 @@ mZips
 Enumerate
 (
 DropZipReaderCache
-nsnull
+nullptr
 )
 ;
 #
@@ -4744,7 +4744,7 @@ if
 zip
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -5157,7 +5157,7 @@ if
 oldest
 =
 =
-nsnull
+nullptr
 |
 |
 currentReleaseTime
@@ -5331,7 +5331,7 @@ nsJAR
 *
 oldest
 =
-nsnull
+nullptr
 ;
 mZips
 .
@@ -5506,7 +5506,7 @@ removed
 >
 SetZipReaderCache
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -5573,7 +5573,7 @@ current
 >
 SetZipReaderCache
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -5634,7 +5634,7 @@ nsHashKey
 *
 flushable
 =
-nsnull
+nullptr
 ;
 mZips
 .
@@ -5720,7 +5720,7 @@ mZips
 Enumerate
 (
 DropZipReaderCache
-nsnull
+nullptr
 )
 ;
 mZips
@@ -5861,7 +5861,7 @@ zip
 >
 SetZipReaderCache
 (
-nsnull
+nullptr
 )
 ;
 mZips

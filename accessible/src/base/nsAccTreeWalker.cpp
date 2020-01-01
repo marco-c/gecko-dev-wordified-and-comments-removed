@@ -53,7 +53,7 @@ childIdx
 )
 prevState
 (
-nsnull
+nullptr
 )
 {
 }
@@ -105,7 +105,7 @@ aWalkCache
 )
 mState
 (
-nsnull
+nullptr
 )
 {
 NS_ASSERTION
@@ -209,7 +209,7 @@ mState
 content
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -372,7 +372,7 @@ PopState
 return
 aNoWalkUp
 ?
-nsnull
+nullptr
 :
 NextChildInternal
 (

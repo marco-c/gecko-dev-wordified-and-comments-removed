@@ -380,7 +380,7 @@ aHasMore
 mCurrent
 !
 =
-nsnull
+nullptr
 )
 ;
 return
@@ -544,7 +544,7 @@ aSource
 :
 mNext
 (
-nsnull
+nullptr
 )
 mURI
 (
@@ -560,7 +560,7 @@ aService
 )
 mChannel
 (
-nsnull
+nullptr
 )
 mState
 (
@@ -600,8 +600,8 @@ getter_AddRefs
 mChannel
 )
 mURI
-nsnull
-nsnull
+nullptr
+nullptr
 this
 nsIRequest
 :
@@ -675,7 +675,7 @@ mChannel
 AsyncOpen
 (
 this
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -715,7 +715,7 @@ error
 ;
 mChannel
 =
-nsnull
+nullptr
 ;
 mState
 =
@@ -966,7 +966,7 @@ aStream
 ReadSegments
 (
 NS_DiscardSegment
-nsnull
+nullptr
 aCount
 &
 bytesRead
@@ -1333,11 +1333,11 @@ nsPrefetchService
 :
 mQueueHead
 (
-nsnull
+nullptr
 )
 mQueueTail
 (
-nsnull
+nullptr
 )
 mStopCount
 (
@@ -1505,7 +1505,7 @@ referrer
 ;
 mCurrentNode
 =
-nsnull
+nullptr
 ;
 do
 {
@@ -1651,7 +1651,7 @@ load
 -
 requested
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -1709,7 +1709,7 @@ load
 -
 completed
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -1927,7 +1927,7 @@ node
 >
 mNext
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1936,7 +1936,7 @@ mQueueHead
 )
 mQueueTail
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2078,7 +2078,7 @@ NS_BINDING_ABORTED
 ;
 mCurrentNode
 =
-nsnull
+nullptr
 ;
 EmptyQueue
 (
@@ -2722,7 +2722,7 @@ aSource
 *
 aSource
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

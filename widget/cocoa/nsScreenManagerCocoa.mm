@@ -578,7 +578,7 @@ NS_OK
 *
 outScreen
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

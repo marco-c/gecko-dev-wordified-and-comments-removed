@@ -400,12 +400,12 @@ bool
 *
 aOriginates
 =
-nsnull
+nullptr
 PRInt32
 *
 aColSpan
 =
-nsnull
+nullptr
 )
 const
 ;
@@ -610,7 +610,7 @@ char
 *
 aString
 =
-nsnull
+nullptr
 )
 const
 ;
@@ -814,7 +814,7 @@ PRInt32
 *
 aBeginSearchAtCol
 =
-nsnull
+nullptr
 )
 ;
 void
@@ -959,12 +959,12 @@ bool
 *
 aOriginates
 =
-nsnull
+nullptr
 PRInt32
 *
 aColSpan
 =
-nsnull
+nullptr
 )
 const
 ;

@@ -278,7 +278,7 @@ SetAttr
 (
 aNameSpaceID
 aName
-nsnull
+nullptr
 aValue
 aNotify
 )
@@ -997,7 +997,7 @@ nsGkAtoms
 :
 :
 stylesheet
-nsnull
+nullptr
 }
 ;
 if
@@ -1226,7 +1226,7 @@ STYLESHEET
 }
 UpdateStyleSheetInternal
 (
-nsnull
+nullptr
 dropSheet
 |
 |
@@ -1355,7 +1355,7 @@ type
 {
 UpdateStyleSheetInternal
 (
-nsnull
+nullptr
 true
 )
 ;
@@ -1563,7 +1563,7 @@ IsEmpty
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

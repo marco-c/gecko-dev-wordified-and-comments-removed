@@ -542,7 +542,7 @@ aDocument
 )
 mScopedRoot
 (
-nsnull
+nullptr
 )
 mIsHTMLDocument
 (
@@ -1166,7 +1166,7 @@ RuleProcessorData
 (
 aPresContext
 aElement
-nsnull
+nullptr
 aTreeMatchContext
 )
 mStateMask
@@ -1241,7 +1241,7 @@ RuleProcessorData
 (
 aPresContext
 aElement
-nsnull
+nullptr
 aTreeMatchContext
 )
 mAttribute

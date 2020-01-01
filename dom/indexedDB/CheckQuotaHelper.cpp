@@ -516,7 +516,7 @@ nsIRunnable
 this
 )
 TOPIC_QUOTA_CANCEL
-nsnull
+nullptr
 )
 )
 )
@@ -558,7 +558,7 @@ NS_SUCCEEDED
 (
 Observe
 (
-nsnull
+nullptr
 TOPIC_QUOTA_RESPONSE
 response
 .
@@ -858,7 +858,7 @@ Huh
 ;
 mWindow
 =
-nsnull
+nullptr
 ;
 mWaiting
 =
@@ -950,7 +950,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NOT_AVAILABLE

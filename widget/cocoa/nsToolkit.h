@@ -87,7 +87,7 @@ gToolkit
 ;
 gToolkit
 =
-nsnull
+nullptr
 ;
 }
 static

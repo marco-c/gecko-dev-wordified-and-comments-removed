@@ -114,12 +114,12 @@ Loader
 *
 aLoader
 =
-nsnull
+nullptr
 nsCSSStyleSheet
 *
 aSheet
 =
-nsnull
+nullptr
 )
 ;
 ~

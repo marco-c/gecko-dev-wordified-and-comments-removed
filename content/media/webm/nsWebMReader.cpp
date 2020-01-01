@@ -544,7 +544,7 @@ aDecoder
 )
 mContext
 (
-nsnull
+nullptr
 )
 mPacketCount
 (
@@ -823,7 +823,7 @@ mContext
 ;
 mContext
 =
-nsnull
+nullptr
 ;
 }
 }

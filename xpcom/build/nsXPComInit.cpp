@@ -1340,7 +1340,7 @@ nsIDebug
 *
 gDebug
 =
-nsnull
+nullptr
 ;
 EXPORT_XPCOM_API
 (
@@ -1360,7 +1360,7 @@ nsDebugImpl
 :
 Create
 (
-nsnull
+nullptr
 NS_GET_IID
 (
 nsIDebug
@@ -1392,7 +1392,7 @@ nsTraceRefcntImpl
 :
 Create
 (
-nsnull
+nullptr
 NS_GET_IID
 (
 nsITraceRefcnt
@@ -1426,7 +1426,7 @@ NS_InitXPCOM2
 (
 result
 binDirectory
-nsnull
+nullptr
 )
 ;
 }
@@ -2024,7 +2024,7 @@ CommandLine
 Init
 (
 0
-nsnull
+nullptr
 )
 ;
 #
@@ -2336,7 +2336,7 @@ category
 NS_CreateServicesFromCategory
 (
 NS_XPCOM_STARTUP_CATEGORY
-nsnull
+nullptr
 NS_XPCOM_STARTUP_OBSERVER_ID
 )
 ;
@@ -2507,9 +2507,9 @@ observerService
 >
 NotifyObservers
 (
-nsnull
+nullptr
 NS_XPCOM_WILL_SHUTDOWN_OBSERVER_ID
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -2546,7 +2546,7 @@ NotifyObservers
 (
 mgr
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-nsnull
+nullptr
 )
 ;
 }
@@ -2581,9 +2581,9 @@ observerService
 >
 NotifyObservers
 (
-nsnull
+nullptr
 NS_XPCOM_SHUTDOWN_THREADS_OBSERVER_ID
-nsnull
+nullptr
 )
 ;
 nsCycleCollector_shutdownThreads
@@ -2813,15 +2813,15 @@ obs
 >
 Observe
 (
-nsnull
+nullptr
 NS_XPCOM_SHUTDOWN_LOADERS_OBSERVER_ID
-nsnull
+nullptr
 )
 ;
 }
 moduleLoaders
 =
-nsnull
+nullptr
 ;
 }
 NS_ShutdownLocalFile
@@ -2941,7 +2941,7 @@ nsComponentManagerImpl
 :
 gComponentManager
 =
-nsnull
+nullptr
 ;
 nsCategoryManager
 :
@@ -2969,7 +2969,7 @@ sIOThread
 ;
 sIOThread
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -2982,7 +2982,7 @@ sMessageLoop
 ;
 sMessageLoop
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -3012,7 +3012,7 @@ sExitManager
 ;
 sExitManager
 =
-nsnull
+nullptr
 ;
 }
 Omnijar

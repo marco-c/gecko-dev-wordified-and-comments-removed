@@ -1530,7 +1530,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 mGeckoTextAccessible
 =
-nsnull
+nullptr
 ;
 NS_IF_RELEASE
 (

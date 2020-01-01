@@ -357,9 +357,9 @@ observerService
 >
 NotifyObservers
 (
-nsnull
+nullptr
 OBSERVER_TOPIC_IDLE_DAILY
-nsnull
+nullptr
 )
 ;
 const
@@ -407,9 +407,9 @@ i
 >
 Observe
 (
-nsnull
+nullptr
 OBSERVER_TOPIC_IDLE_DAILY
-nsnull
+nullptr
 )
 ;
 }
@@ -470,7 +470,7 @@ prefs
 >
 SavePrefFile
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -637,7 +637,7 @@ started
 endif
 DailyCallback
 (
-nsnull
+nullptr
 this
 )
 ;
@@ -784,7 +784,7 @@ Cancel
 ;
 mTimer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1107,7 +1107,7 @@ this
 ;
 gIdleService
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_ISUPPORTS2

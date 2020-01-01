@@ -554,7 +554,7 @@ nsIAtom
 *
 result
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -881,7 +881,7 @@ aOwnerElement
 *
 aOwnerElement
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1058,7 +1058,7 @@ eParentNode
 *
 aParentNode
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1079,7 +1079,7 @@ aParentElement
 *
 aParentElement
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1206,7 +1206,7 @@ aFirstChild
 *
 aFirstChild
 =
-nsnull
+nullptr
 ;
 OwnerDoc
 (
@@ -1290,7 +1290,7 @@ ePreviousSibling
 *
 aPreviousSibling
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1329,7 +1329,7 @@ eNextSibling
 *
 aNextSibling
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1368,7 +1368,7 @@ eAttributes
 *
 aAttributes
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1527,7 +1527,7 @@ return
 InsertBefore
 (
 aNewChild
-nsnull
+nullptr
 aReturn
 )
 ;
@@ -1580,7 +1580,7 @@ aResult
 new
 nsDOMAttribute
 (
-nsnull
+nullptr
 ni
 .
 forget
@@ -1873,7 +1873,7 @@ GetBaseURI
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -2309,7 +2309,7 @@ aIndex
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIContent

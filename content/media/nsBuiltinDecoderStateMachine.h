@@ -624,7 +624,7 @@ ReleaseDecoder
 {
 mDecoder
 =
-nsnull
+nullptr
 ;
 }
 void

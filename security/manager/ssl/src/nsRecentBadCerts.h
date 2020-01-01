@@ -69,7 +69,7 @@ mDERCert
 .
 data
 =
-nsnull
+nullptr
 ;
 isDomainMismatch
 =
@@ -131,7 +131,7 @@ mDERCert
 .
 data
 =
-nsnull
+nullptr
 ;
 }
 nsString

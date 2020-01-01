@@ -758,7 +758,7 @@ NS_OK
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_RDF_NO_VALUE
@@ -1016,7 +1016,7 @@ gFormat
 >
 FormatPRTime
 (
-nsnull
+nullptr
 kDateFormatShort
 kTimeFormatSeconds
 PRTime
@@ -1518,7 +1518,7 @@ NS_PRECONDITION
 aAttribute
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1736,7 +1736,7 @@ NS_PRECONDITION
 aDocument
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1756,7 +1756,7 @@ NS_PRECONDITION
 aElement
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1790,7 +1790,7 @@ NS_ASSERTION
 xuldoc
 !
 =
-nsnull
+nullptr
 "
 not
 a
@@ -1855,7 +1855,7 @@ NS_ASSERTION
 dispatcher
 !
 =
-nsnull
+nullptr
 "
 no
 dispatcher
@@ -1952,7 +1952,7 @@ NS_ASSERTION
 domelement
 !
 =
-nsnull
+nullptr
 "
 not
 a

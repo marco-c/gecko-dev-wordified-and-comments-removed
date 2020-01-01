@@ -912,7 +912,7 @@ aWords
 *
 aWords
 =
-nsnull
+nullptr
 ;
 nsTArray
 <

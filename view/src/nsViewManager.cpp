@@ -160,7 +160,7 @@ nsViewManager
 :
 gViewManagers
 =
-nsnull
+nullptr
 ;
 PRUint32
 nsViewManager
@@ -192,7 +192,7 @@ if
 gViewManagers
 =
 =
-nsnull
+nullptr
 )
 {
 NS_ASSERTION
@@ -263,7 +263,7 @@ Destroy
 ;
 mRootView
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -345,7 +345,7 @@ NS_ASSERTION
 gViewManagers
 !
 =
-nsnull
+nullptr
 "
 About
 to
@@ -360,12 +360,12 @@ gViewManagers
 ;
 gViewManagers
 =
-nsnull
+nullptr
 ;
 }
 mPresShell
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_ISUPPORTS1
@@ -386,7 +386,7 @@ aContext
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aContext
@@ -398,7 +398,7 @@ ptr
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 aContext
@@ -410,7 +410,7 @@ NS_ERROR_NULL_POINTER
 }
 if
 (
-nsnull
+nullptr
 !
 =
 mContext
@@ -623,7 +623,7 @@ parent
 InsertChild
 (
 mRootView
-nsnull
+nullptr
 )
 ;
 }
@@ -665,7 +665,7 @@ aHeight
 {
 if
 (
-nsnull
+nullptr
 !
 =
 mRootView
@@ -2377,7 +2377,7 @@ GetViewManager
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 return
@@ -2436,7 +2436,7 @@ aRect
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aView
@@ -2653,7 +2653,7 @@ GetFirstChild
 ;
 while
 (
-nsnull
+nullptr
 !
 =
 childView
@@ -3024,7 +3024,7 @@ nsEventStateManager
 :
 ClearGlobalActiveContent
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -3034,7 +3034,7 @@ nsIPresShell
 :
 ClearMouseCapture
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -3219,7 +3219,7 @@ GetViewManager
 (
 )
 :
-nsnull
+nullptr
 )
 {
 if
@@ -3681,7 +3681,7 @@ nsIPresShell
 :
 ClearMouseCapture
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -3812,7 +3812,7 @@ GetFrame
 }
 if
 (
-nsnull
+nullptr
 !
 =
 frame
@@ -4095,7 +4095,7 @@ aParent
 >
 GetNearestWidget
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -4189,7 +4189,7 @@ aSibling
 ;
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 parent
@@ -4201,7 +4201,7 @@ ptr
 ;
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 child
@@ -4216,7 +4216,7 @@ NS_ASSERTION
 sibling
 =
 =
-nsnull
+nullptr
 |
 |
 sibling
@@ -4261,7 +4261,7 @@ view
 if
 (
 (
-nsnull
+nullptr
 !
 =
 parent
@@ -4269,7 +4269,7 @@ parent
 &
 &
 (
-nsnull
+nullptr
 !
 =
 child
@@ -4281,7 +4281,7 @@ if
 1
 if
 (
-nsnull
+nullptr
 =
 =
 aSibling
@@ -4298,7 +4298,7 @@ parent
 InsertChild
 (
 child
-nsnull
+nullptr
 )
 ;
 ReparentWidgets
@@ -4325,7 +4325,7 @@ nsView
 *
 prev
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -4380,7 +4380,7 @@ nsView
 *
 prev
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -4412,7 +4412,7 @@ NS_ASSERTION
 kid
 !
 =
-nsnull
+nullptr
 "
 couldn
 '
@@ -4479,7 +4479,7 @@ GetZIndex
 ;
 while
 (
-nsnull
+nullptr
 !
 =
 kid
@@ -4639,7 +4639,7 @@ InsertChild
 (
 aParent
 aChild
-nsnull
+nullptr
 true
 )
 ;
@@ -4686,7 +4686,7 @@ GetParent
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 parent
@@ -5432,7 +5432,7 @@ NS_ASSERTION
 (
 !
 (
-nsnull
+nullptr
 =
 =
 view
@@ -5633,7 +5633,7 @@ GetParent
 )
 =
 =
-nsnull
+nullptr
 )
 {
 return
@@ -5663,7 +5663,7 @@ while
 view
 !
 =
-nsnull
+nullptr
 )
 {
 if
@@ -5734,7 +5734,7 @@ NS_ASSERTION
 view
 !
 =
-nsnull
+nullptr
 )
 "
 no
@@ -5959,7 +5959,7 @@ mRootView
 *
 aWidget
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -6026,7 +6026,7 @@ aWidget
 *
 aWidget
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

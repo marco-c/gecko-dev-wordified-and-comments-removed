@@ -477,7 +477,7 @@ encodedData
 Length
 (
 )
-nsnull
+nullptr
 )
 ;
 NSData
@@ -628,7 +628,7 @@ bytes
 data
 length
 ]
-nsnull
+nullptr
 )
 )
 ;
@@ -677,7 +677,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsPrintSettingsX
 *

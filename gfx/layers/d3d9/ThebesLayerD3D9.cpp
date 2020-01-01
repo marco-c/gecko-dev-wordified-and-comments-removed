@@ -1359,11 +1359,11 @@ CleanResources
 {
 mTexture
 =
-nsnull
+nullptr
 ;
 mTextureOnWhite
 =
-nsnull
+nullptr
 ;
 mValidRegion
 .
@@ -1397,7 +1397,7 @@ this
 ;
 mD3DManager
 =
-nsnull
+nullptr
 ;
 }
 Layer
@@ -1535,11 +1535,11 @@ break
 }
 mTexture
 =
-nsnull
+nullptr
 ;
 mTextureOnWhite
 =
-nsnull
+nullptr
 ;
 mValidRegion
 .
@@ -1715,7 +1715,7 @@ hr
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 hr
@@ -1754,7 +1754,7 @@ level
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 hr
@@ -1792,7 +1792,7 @@ surface
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -2973,11 +2973,11 @@ return
 }
 mTexture
 =
-nsnull
+nullptr
 ;
 mTextureOnWhite
 =
-nsnull
+nullptr
 ;
 HRESULT
 hr
@@ -3129,7 +3129,7 @@ aManager
 ShadowThebesLayer
 (
 aManager
-nsnull
+nullptr
 )
 LayerD3D9
 (
@@ -3271,7 +3271,7 @@ DestroyFrontBuffer
 {
 mBuffer
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -3284,7 +3284,7 @@ Disconnect
 {
 mBuffer
 =
-nsnull
+nullptr
 ;
 }
 Layer
@@ -3364,7 +3364,7 @@ CleanResources
 {
 mBuffer
 =
-nsnull
+nullptr
 ;
 mValidRegion
 .
@@ -3398,7 +3398,7 @@ this
 ;
 mD3DManager
 =
-nsnull
+nullptr
 ;
 }
 }

@@ -429,7 +429,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsAutoPtr
 <
@@ -727,7 +727,7 @@ getPrivateContext
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 txResultRecycler

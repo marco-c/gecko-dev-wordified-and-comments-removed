@@ -1295,7 +1295,7 @@ ifdef
 MOZ_WIDGET_GONK
 mFile
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1864,7 +1864,7 @@ if
 aFile
 =
 =
-nsnull
+nullptr
 )
 {
 return
@@ -2511,7 +2511,7 @@ mError
 ;
 mRequest
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2693,7 +2693,7 @@ val
 ;
 mRequest
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -3045,7 +3045,7 @@ aRequestingElement
 *
 aRequestingElement
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -3480,7 +3480,7 @@ result
 ;
 mRequest
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -4008,7 +4008,7 @@ nsIDOMBlob
 *
 aBlob
 =
-nsnull
+nullptr
 )
 :
 mRequestType
@@ -4254,7 +4254,7 @@ aRequestingElement
 *
 aRequestingElement
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -5257,7 +5257,7 @@ if
 aBlob
 =
 =
-nsnull
+nullptr
 )
 return
 NS_OK

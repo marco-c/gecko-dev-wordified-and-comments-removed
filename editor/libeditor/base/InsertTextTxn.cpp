@@ -611,7 +611,7 @@ InsertTextTxn
 *
 otherInsTxn
 =
-nsnull
+nullptr
 ;
 aTransaction
 -

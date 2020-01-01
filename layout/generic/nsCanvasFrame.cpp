@@ -544,7 +544,7 @@ mFrames
 .
 AppendFrames
 (
-nsnull
+nullptr
 aFrameList
 )
 ;
@@ -2152,7 +2152,7 @@ mFrames
 InsertFrames
 (
 this
-nsnull
+nullptr
 *
 overflow
 )

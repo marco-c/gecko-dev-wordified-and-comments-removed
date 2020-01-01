@@ -90,7 +90,7 @@ NodePointer
 :
 mNode
 (
-nsnull
+nullptr
 )
 {
 }
@@ -179,7 +179,7 @@ Clear
 {
 mNode
 =
-nsnull
+nullptr
 ;
 }
 nsINode

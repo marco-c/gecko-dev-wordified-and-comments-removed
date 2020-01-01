@@ -733,7 +733,7 @@ nsContainerFrame
 *
 lastParent
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -854,7 +854,7 @@ GetView
 >
 SetFrame
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1556,7 +1556,7 @@ insertBefore
 insertBefore
 !
 =
-nsnull
+nullptr
 )
 ;
 }
@@ -1766,7 +1766,7 @@ PresContext
 (
 )
 aFrame
-nsnull
+nullptr
 view
 )
 ;
@@ -1794,7 +1794,7 @@ insertBefore
 insertBefore
 !
 =
-nsnull
+nullptr
 )
 ;
 ReparentFrameViewTo
@@ -2463,7 +2463,7 @@ if
 baseWindow
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2891,7 +2891,7 @@ GetViewManager
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 aStyleContext
@@ -3402,14 +3402,14 @@ aData
 >
 line
 =
-nsnull
+nullptr
 ;
 aData
 -
 >
 lineContainer
 =
-nsnull
+nullptr
 ;
 lastInFlow
 =
@@ -3776,7 +3776,7 @@ GetNextInFlow
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 kidNextInFlow
@@ -5032,7 +5032,7 @@ IsEmpty
 DestroyOverflowList
 (
 aPresContext
-nsnull
+nullptr
 )
 ;
 }
@@ -5387,7 +5387,7 @@ frame
 ;
 aNextInFlowResult
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -5402,7 +5402,7 @@ GetNextInFlow
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 nextInFlow
@@ -5449,7 +5449,7 @@ mFrames
 .
 InsertFrame
 (
-nsnull
+nullptr
 aFrame
 nextInFlow
 )
@@ -6184,7 +6184,7 @@ mFrames
 InsertFrames
 (
 nextInFlow
-nsnull
+nullptr
 tail
 )
 ;
@@ -6229,7 +6229,7 @@ GetPrevInFlow
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 prevInFlow
@@ -6343,7 +6343,7 @@ mFrames
 .
 AppendFrames
 (
-nsnull
+nullptr
 *
 overflowFrames
 )
@@ -6376,15 +6376,15 @@ aSkipOverflowContainerChildren
 :
 mOverflowContList
 (
-nsnull
+nullptr
 )
 mPrevOverflowCont
 (
-nsnull
+nullptr
 )
 mSentry
 (
-nsnull
+nullptr
 )
 mParent
 (
@@ -6756,7 +6756,7 @@ GetPrevInFlow
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -7304,15 +7304,15 @@ GetNextInFlow
 {
 mOverflowContList
 =
-nsnull
+nullptr
 ;
 mPrevOverflowCont
 =
-nsnull
+nullptr
 ;
 mSentry
 =
-nsnull
+nullptr
 ;
 mParent
 =
@@ -7487,7 +7487,7 @@ GetNextSibling
 }
 if
 (
-nsnull
+nullptr
 !
 =
 GetPrevContinuation
@@ -7521,7 +7521,7 @@ GetPrevContinuation
 }
 if
 (
-nsnull
+nullptr
 !
 =
 GetNextContinuation

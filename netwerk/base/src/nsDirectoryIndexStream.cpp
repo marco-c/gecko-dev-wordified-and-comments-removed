@@ -596,7 +596,7 @@ mArray
 Sort
 (
 compare
-nsnull
+nullptr
 )
 ;
 #
@@ -1179,7 +1179,7 @@ char
 *
 escaped
 =
-nsnull
+nullptr
 ;
 if
 (

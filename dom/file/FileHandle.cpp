@@ -118,7 +118,7 @@ ReleaseObjects
 {
 mFileHandle
 =
-nsnull
+nullptr
 ;
 MetadataHelper
 :
@@ -599,7 +599,7 @@ GetFileInfo
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsresult

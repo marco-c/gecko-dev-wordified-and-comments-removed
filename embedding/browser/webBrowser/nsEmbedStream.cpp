@@ -60,7 +60,7 @@ nsEmbedStream
 {
 mOwner
 =
-nsnull
+nullptr
 ;
 }
 nsEmbedStream
@@ -204,7 +204,7 @@ aContentType
 EmptyCString
 (
 )
-nsnull
+nullptr
 )
 ;
 if

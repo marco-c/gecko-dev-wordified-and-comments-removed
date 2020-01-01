@@ -541,7 +541,7 @@ nsBoxLayout
 *
 aLayoutManager
 =
-nsnull
+nullptr
 )
 ;
 NS_IMETHOD

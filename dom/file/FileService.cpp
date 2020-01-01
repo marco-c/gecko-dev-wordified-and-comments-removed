@@ -61,7 +61,7 @@ FileService
 *
 gInstance
 =
-nsnull
+nullptr
 ;
 bool
 gShutdown
@@ -381,7 +381,7 @@ shutdown
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -413,7 +413,7 @@ Init
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -432,7 +432,7 @@ rv
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 rv
@@ -456,7 +456,7 @@ false
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 gInstance
@@ -538,7 +538,7 @@ service
 }
 gInstance
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -980,7 +980,7 @@ ifdef
 DEBUG
 storageId
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -1448,7 +1448,7 @@ index
 StorageId
 (
 )
-nsnull
+nullptr
 )
 )
 {
@@ -1668,7 +1668,7 @@ happen
 ;
 mCurrentHelper
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1867,7 +1867,7 @@ lockedFileQueue
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void

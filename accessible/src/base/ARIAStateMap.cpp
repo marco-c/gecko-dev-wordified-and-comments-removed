@@ -117,7 +117,7 @@ aValue3
 )
 mNullValue
 (
-nsnull
+nullptr
 )
 {
 }
@@ -162,15 +162,15 @@ aValue1
 )
 mValue2
 (
-nsnull
+nullptr
 )
 mValue3
 (
-nsnull
+nullptr
 )
 mNullValue
 (
-nsnull
+nullptr
 )
 {
 }

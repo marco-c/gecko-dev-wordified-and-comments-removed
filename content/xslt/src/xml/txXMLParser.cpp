@@ -82,7 +82,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -137,7 +137,7 @@ nsIDOMDocument
 *
 theDocument
 =
-nsnull
+nullptr
 ;
 nsAutoSyncOperation
 sync

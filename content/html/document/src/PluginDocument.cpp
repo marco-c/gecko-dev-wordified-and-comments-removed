@@ -157,7 +157,7 @@ nsIContentSink
 *
 aSink
 =
-nsnull
+nullptr
 )
 ;
 virtual
@@ -679,7 +679,7 @@ else
 {
 mStreamListener
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1004,7 +1004,7 @@ nsGkAtoms
 :
 :
 embed
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :
@@ -1283,7 +1283,7 @@ fullPrint
 .
 platformPrint
 =
-nsnull
+nullptr
 ;
 pi
 -

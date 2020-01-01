@@ -349,7 +349,7 @@ mShuttingDown
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -435,7 +435,7 @@ mShuttingDown
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 MOZ_ASSERT

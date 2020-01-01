@@ -177,7 +177,7 @@ nsString
 *
 aLanguageOverride
 =
-nsnull
+nullptr
 )
 ;
 nsFont
@@ -209,7 +209,7 @@ nsString
 *
 aLanguageOverride
 =
-nsnull
+nullptr
 )
 ;
 nsFont

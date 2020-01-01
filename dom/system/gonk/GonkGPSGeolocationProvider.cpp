@@ -831,7 +831,7 @@ false
 )
 mGpsInterface
 (
-nsnull
+nullptr
 )
 {
 }
@@ -849,7 +849,7 @@ ShutdownNow
 ;
 sSingleton
 =
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -914,7 +914,7 @@ module
 )
 )
 return
-nsnull
+nullptr
 ;
 hw_device_t
 *
@@ -937,7 +937,7 @@ device
 )
 )
 return
-nsnull
+nullptr
 ;
 gps_device_t
 *
@@ -977,7 +977,7 @@ GpsInterface
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -2057,7 +2057,7 @@ cleanup
 }
 mInitThread
 =
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP

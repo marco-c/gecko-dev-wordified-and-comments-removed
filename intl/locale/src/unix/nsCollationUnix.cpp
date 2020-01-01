@@ -314,7 +314,7 @@ if
 locale
 =
 =
-nsnull
+nullptr
 )
 {
 nsCOMPtr
@@ -817,7 +817,7 @@ len
 =
 strxfrm
 (
-nsnull
+nullptr
 str
 0
 )

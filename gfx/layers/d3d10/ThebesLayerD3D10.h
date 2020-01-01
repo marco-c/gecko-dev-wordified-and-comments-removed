@@ -78,7 +78,7 @@ Validate
 {
 Validate
 (
-nsnull
+nullptr
 )
 ;
 }

@@ -76,7 +76,7 @@ gfxImageSurface
 *
 aDestSurface
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -90,7 +90,7 @@ gfxImageSurface
 *
 aDestSurface
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -104,7 +104,7 @@ gfxImageSurface
 *
 aDestSurface
 =
-nsnull
+nullptr
 )
 ;
 static

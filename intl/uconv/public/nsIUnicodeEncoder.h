@@ -215,7 +215,7 @@ sbl
 &
 &
 (
-nsnull
+nullptr
 !
 =
 (

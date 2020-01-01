@@ -126,7 +126,7 @@ result
 .
 strB
 =
-nsnull
+nullptr
 ;
 result
 .
@@ -144,7 +144,7 @@ result
 .
 extraD
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -253,7 +253,7 @@ result
 .
 strB
 =
-nsnull
+nullptr
 ;
 result
 .
@@ -389,7 +389,7 @@ result
 .
 extraD
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -411,7 +411,7 @@ dot
 )
 dot
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -448,7 +448,7 @@ result
 .
 strB
 =
-nsnull
+nullptr
 ;
 result
 .
@@ -466,7 +466,7 @@ result
 .
 extraD
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -576,7 +576,7 @@ result
 .
 strB
 =
-nsnull
+nullptr
 ;
 result
 .
@@ -714,7 +714,7 @@ result
 .
 extraD
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -736,7 +736,7 @@ dot
 )
 dot
 =
-nsnull
+nullptr
 ;
 }
 return

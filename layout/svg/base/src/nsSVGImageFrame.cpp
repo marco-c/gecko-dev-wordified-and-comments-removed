@@ -464,13 +464,13 @@ get
 >
 SetFrame
 (
-nsnull
+nullptr
 )
 ;
 }
 mListener
 =
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -893,7 +893,7 @@ y
 width
 &
 height
-nsnull
+nullptr
 )
 ;
 gfxMatrix
@@ -981,7 +981,7 @@ y
 width
 &
 height
-nsnull
+nullptr
 )
 ;
 return
@@ -1223,7 +1223,7 @@ y
 width
 &
 height
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION
@@ -1708,7 +1708,7 @@ aDirtyRect
 &
 dirtyRect
 :
-nsnull
+nullptr
 drawFlags
 )
 ;
@@ -1847,7 +1847,7 @@ nativeHeight
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -1894,7 +1894,7 @@ y
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }

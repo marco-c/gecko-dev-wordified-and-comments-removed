@@ -143,7 +143,7 @@ tmp
 >
 SetDocument
 (
-nsnull
+nullptr
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
@@ -1869,7 +1869,7 @@ tmp
 >
 SetDocument
 (
-nsnull
+nullptr
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR

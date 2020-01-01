@@ -59,7 +59,7 @@ argv
 ]
 !
 =
-nsnull
+nullptr
 )
 {
 char
@@ -75,7 +75,7 @@ nsISupports
 *
 obj
 =
-nsnull
+nullptr
 ;
 if
 (

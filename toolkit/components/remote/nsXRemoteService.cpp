@@ -1274,7 +1274,7 @@ Init
 (
 3
 argv
-nsnull
+nullptr
 nsICommandLine
 :
 :

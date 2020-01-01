@@ -161,7 +161,7 @@ mLock
 )
 mFD
 (
-nsnull
+nullptr
 )
 mAttached
 (
@@ -679,7 +679,7 @@ mFD
 ;
 mFD
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -700,7 +700,7 @@ nsIServerSocketListener
 *
 listener
 =
-nsnull
+nullptr
 ;
 {
 MutexAutoLock
@@ -814,7 +814,7 @@ NS_ENSURE_TRUE
 mFD
 =
 =
-nsnull
+nullptr
 NS_ERROR_ALREADY_INITIALIZED
 )
 ;
@@ -1031,7 +1031,7 @@ mFD
 ;
 mFD
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1364,7 +1364,7 @@ NS_ENSURE_TRUE
 mListener
 =
 =
-nsnull
+nullptr
 NS_ERROR_IN_PROGRESS
 )
 ;

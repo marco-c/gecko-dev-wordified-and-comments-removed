@@ -146,7 +146,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *

@@ -183,11 +183,11 @@ change
 {
 mUserContentSheet
 =
-nsnull
+nullptr
 ;
 mUserChromeSheet
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -251,11 +251,11 @@ caches
 {
 mScrollbarsSheet
 =
-nsnull
+nullptr
 ;
 mFormsSheet
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -294,7 +294,7 @@ if
 gStyleCache
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -393,7 +393,7 @@ if
 gStyleCache
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -492,7 +492,7 @@ if
 gStyleCache
 )
 return
-nsnull
+nullptr
 ;
 return
 gStyleCache
@@ -520,7 +520,7 @@ if
 gStyleCache
 )
 return
-nsnull
+nullptr
 ;
 return
 gStyleCache
@@ -548,7 +548,7 @@ if
 gStyleCache
 )
 return
-nsnull
+nullptr
 ;
 return
 gStyleCache
@@ -576,7 +576,7 @@ if
 gStyleCache
 )
 return
-nsnull
+nullptr
 ;
 return
 gStyleCache
@@ -604,7 +604,7 @@ if
 gStyleCache
 )
 return
-nsnull
+nullptr
 ;
 return
 gStyleCache
@@ -1051,7 +1051,7 @@ mSheetsReporter
 ;
 mSheetsReporter
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -1391,7 +1391,7 @@ nsLayoutStylesheetCache
 :
 gStyleCache
 =
-nsnull
+nullptr
 ;
 mozilla
 :
@@ -1406,5 +1406,5 @@ nsLayoutStylesheetCache
 :
 gCSSLoader
 =
-nsnull
+nullptr
 ;

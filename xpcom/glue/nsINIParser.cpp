@@ -177,7 +177,7 @@ FILE
 *
 fp
 =
-nsnull
+nullptr
 )
 :
 fp_
@@ -760,7 +760,7 @@ char
 *
 currSection
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -869,7 +869,7 @@ token
 {
 currSection
 =
-nsnull
+nullptr
 ;
 }
 continue

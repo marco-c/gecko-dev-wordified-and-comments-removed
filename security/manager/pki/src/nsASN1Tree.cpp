@@ -55,7 +55,7 @@ nsNSSASN1Tree
 :
 mTopNode
 (
-nsnull
+nullptr
 )
 {
 }
@@ -144,7 +144,7 @@ mTopNode
 ;
 mTopNode
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -217,7 +217,7 @@ n
 >
 seq
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -265,7 +265,7 @@ n
 >
 seq
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -274,13 +274,13 @@ myNode
 *
 walk
 =
-nsnull
+nullptr
 ;
 myNode
 *
 prev
 =
-nsnull
+nullptr
 ;
 PRUint32
 i
@@ -682,7 +682,7 @@ n
 seq
 !
 =
-nsnull
+nullptr
 )
 ;
 return
@@ -1738,7 +1738,7 @@ if
 n
 )
 return
-nsnull
+nullptr
 ;
 myNode
 *
@@ -1877,6 +1877,6 @@ index_counter
 }
 }
 return
-nsnull
+nullptr
 ;
 }

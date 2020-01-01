@@ -146,7 +146,7 @@ mLoader
 >
 mResources
 =
-nsnull
+nullptr
 ;
 NS_RELEASE
 (
@@ -341,7 +341,7 @@ CSSLoader
 ;
 mRuleProcessor
 =
-nsnull
+nullptr
 ;
 sheet_array_type
 oldSheets

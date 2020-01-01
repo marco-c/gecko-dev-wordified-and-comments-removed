@@ -356,7 +356,7 @@ Init
 (
 mConnection
 selfProxy
-nsnull
+nullptr
 )
 ;
 if
@@ -860,7 +860,7 @@ Init
 (
 mConnection
 selfProxy
-nsnull
+nullptr
 )
 ;
 if
@@ -1256,7 +1256,7 @@ EmptyCString
 (
 )
 selfProxy
-nsnull
+nullptr
 mProtocolVersion
 )
 ;

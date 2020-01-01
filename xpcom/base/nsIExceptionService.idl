@@ -235,7 +235,7 @@ Sets
 or
 clears
 with
-nsnull
+nullptr
 )
 the
 current

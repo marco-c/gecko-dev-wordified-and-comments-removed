@@ -962,7 +962,7 @@ eDOMClassInfo_HTMLEmbedElement_id
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_INTERFACE_TABLE_HEAD_CYCLE_COLLECTION_INHERITED
@@ -1479,7 +1479,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1827,7 +1827,7 @@ uri
 {
 LoadObject
 (
-nsnull
+nullptr
 aNotify
 type
 )

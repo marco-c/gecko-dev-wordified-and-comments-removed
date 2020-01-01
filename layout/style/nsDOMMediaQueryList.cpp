@@ -74,7 +74,7 @@ parser
 ParseMediaList
 (
 aMediaQueryList
-nsnull
+nullptr
 0
 mMediaList
 false
@@ -466,7 +466,7 @@ mMediaList
 Matches
 (
 mPresContext
-nsnull
+nullptr
 )
 ;
 mMatchesValid

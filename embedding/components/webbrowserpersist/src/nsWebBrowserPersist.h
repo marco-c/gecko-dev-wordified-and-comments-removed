@@ -483,7 +483,7 @@ URIData
 *
 aData
 =
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -501,7 +501,7 @@ URIData
 *
 aData
 =
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -527,7 +527,7 @@ URIData
 *
 aData
 =
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -549,7 +549,7 @@ URIData
 *
 aData
 =
-nsnull
+nullptr
 )
 {
 return

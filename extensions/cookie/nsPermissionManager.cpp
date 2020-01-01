@@ -157,7 +157,7 @@ nsPermissionManager
 *
 gPermissionManager
 =
-nsnull
+nullptr
 ;
 using
 mozilla
@@ -244,7 +244,7 @@ cpc
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -318,7 +318,7 @@ PLArenaPool
 *
 gHostArena
 =
-nsnull
+nullptr
 ;
 #
 define
@@ -741,7 +741,7 @@ RemoveAllFromMemory
 ;
 gPermissionManager
 =
-nsnull
+nullptr
 ;
 }
 nsIPermissionManager
@@ -2747,15 +2747,15 @@ aRebuildOnSuccess
 {
 mStmtInsert
 =
-nsnull
+nullptr
 ;
 mStmtDelete
 =
-nsnull
+nullptr
 ;
 mStmtUpdate
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2800,7 +2800,7 @@ rv
 ;
 mDBConn
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2825,7 +2825,7 @@ aNotifyObservers
 {
 NotifyObservers
 (
-nsnull
+nullptr
 NS_LITERAL_STRING
 (
 "
@@ -3411,7 +3411,7 @@ break
 ;
 entry
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -3810,7 +3810,7 @@ gHostArena
 }
 gHostArena
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

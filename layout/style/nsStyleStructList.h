@@ -151,7 +151,7 @@ STYLE_STRUCT_TEST
 STYLE_STRUCT_INHERITED
 (
 List
-nsnull
+nullptr
 (
 )
 )
@@ -206,7 +206,7 @@ STYLE_STRUCT_TEST
 STYLE_STRUCT_INHERITED
 (
 Visibility
-nsnull
+nullptr
 (
 SSARG_PRESCONTEXT
 )
@@ -220,7 +220,7 @@ else
 STYLE_STRUCT_INHERITED
 (
 Quotes
-nsnull
+nullptr
 (
 )
 )
@@ -248,7 +248,7 @@ STYLE_STRUCT_TEST
 STYLE_STRUCT_INHERITED
 (
 UserInterface
-nsnull
+nullptr
 (
 )
 )
@@ -261,7 +261,7 @@ else
 STYLE_STRUCT_INHERITED
 (
 TableBorder
-nsnull
+nullptr
 (
 SSARG_PRESCONTEXT
 )
@@ -324,7 +324,7 @@ STYLE_STRUCT_TEST
 STYLE_STRUCT_INHERITED
 (
 SVG
-nsnull
+nullptr
 (
 )
 )
@@ -337,7 +337,7 @@ else
 STYLE_STRUCT_RESET
 (
 Background
-nsnull
+nullptr
 (
 )
 )
@@ -365,7 +365,7 @@ STYLE_STRUCT_TEST
 STYLE_STRUCT_RESET
 (
 Position
-nsnull
+nullptr
 (
 )
 )
@@ -378,7 +378,7 @@ else
 STYLE_STRUCT_RESET
 (
 TextReset
-nsnull
+nullptr
 (
 )
 )
@@ -420,7 +420,7 @@ STYLE_STRUCT_TEST
 STYLE_STRUCT_RESET
 (
 Display
-nsnull
+nullptr
 (
 )
 )
@@ -433,7 +433,7 @@ else
 STYLE_STRUCT_RESET
 (
 Content
-nsnull
+nullptr
 (
 )
 )
@@ -461,7 +461,7 @@ STYLE_STRUCT_TEST
 STYLE_STRUCT_RESET
 (
 UIReset
-nsnull
+nullptr
 (
 )
 )
@@ -474,7 +474,7 @@ else
 STYLE_STRUCT_RESET
 (
 Table
-nsnull
+nullptr
 (
 )
 )
@@ -526,7 +526,7 @@ STYLE_STRUCT_TEST
 STYLE_STRUCT_RESET
 (
 Margin
-nsnull
+nullptr
 (
 )
 )
@@ -539,7 +539,7 @@ else
 STYLE_STRUCT_RESET
 (
 Padding
-nsnull
+nullptr
 (
 )
 )
@@ -567,7 +567,7 @@ STYLE_STRUCT_TEST
 STYLE_STRUCT_RESET
 (
 Border
-nsnull
+nullptr
 (
 SSARG_PRESCONTEXT
 )
@@ -581,7 +581,7 @@ else
 STYLE_STRUCT_RESET
 (
 Outline
-nsnull
+nullptr
 (
 SSARG_PRESCONTEXT
 )
@@ -620,7 +620,7 @@ STYLE_STRUCT_TEST
 STYLE_STRUCT_RESET
 (
 XUL
-nsnull
+nullptr
 (
 )
 )
@@ -633,7 +633,7 @@ else
 STYLE_STRUCT_RESET
 (
 SVGReset
-nsnull
+nullptr
 (
 )
 )
@@ -666,7 +666,7 @@ range
 STYLE_STRUCT_RESET
 (
 Column
-nsnull
+nullptr
 (
 SSARG_PRESCONTEXT
 )

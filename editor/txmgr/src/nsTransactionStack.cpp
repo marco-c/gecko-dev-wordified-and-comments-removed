@@ -182,7 +182,7 @@ nsTransactionItem
 *
 transaction
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -233,7 +233,7 @@ nsTransactionItem
 *
 transaction
 =
-nsnull
+nullptr
 ;
 if
 (

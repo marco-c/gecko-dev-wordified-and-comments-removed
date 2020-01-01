@@ -268,7 +268,7 @@ grandParent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 XULColorPickerAccessible
@@ -390,7 +390,7 @@ mChildren
 SafeElementAt
 (
 0
-nsnull
+nullptr
 )
 ;
 if
@@ -453,7 +453,7 @@ Accessible
 *
 child
 =
-nsnull
+nullptr
 ;
 while
 (

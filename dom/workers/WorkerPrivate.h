@@ -2277,7 +2277,7 @@ Dead
 ;
 mJSContext
 =
-nsnull
+nullptr
 ;
 ClearQueue
 (

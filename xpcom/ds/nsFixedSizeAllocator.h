@@ -100,7 +100,7 @@ nsFixedSizeAllocator
 :
 mBuckets
 (
-nsnull
+nullptr
 )
 {
 }

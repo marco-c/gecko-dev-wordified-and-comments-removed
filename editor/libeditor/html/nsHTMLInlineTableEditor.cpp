@@ -429,7 +429,7 @@ HideInlineTableEditingUI
 {
 mInlineEditedCell
 =
-nsnull
+nullptr
 ;
 RemoveMouseClickListener
 (
@@ -496,7 +496,7 @@ ps
 ;
 mAddColumnBeforeButton
 =
-nsnull
+nullptr
 ;
 DeleteRefToAnonymousNode
 (
@@ -507,7 +507,7 @@ ps
 ;
 mRemoveColumnButton
 =
-nsnull
+nullptr
 ;
 DeleteRefToAnonymousNode
 (
@@ -518,7 +518,7 @@ ps
 ;
 mAddColumnAfterButton
 =
-nsnull
+nullptr
 ;
 DeleteRefToAnonymousNode
 (
@@ -529,7 +529,7 @@ ps
 ;
 mAddRowBeforeButton
 =
-nsnull
+nullptr
 ;
 DeleteRefToAnonymousNode
 (
@@ -540,7 +540,7 @@ ps
 ;
 mRemoveRowButton
 =
-nsnull
+nullptr
 ;
 DeleteRefToAnonymousNode
 (
@@ -551,7 +551,7 @@ ps
 ;
 mAddRowAfterButton
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

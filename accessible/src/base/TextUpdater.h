@@ -67,7 +67,7 @@ aTextLeaf
 )
 mHyperText
 (
-nsnull
+nullptr
 )
 mTextOffset
 (
@@ -83,15 +83,15 @@ TextUpdater
 {
 mDocument
 =
-nsnull
+nullptr
 ;
 mTextLeaf
 =
-nsnull
+nullptr
 ;
 mHyperText
 =
-nsnull
+nullptr
 ;
 }
 void

@@ -99,7 +99,7 @@ PRLibrary
 *
 elib
 =
-nsnull
+nullptr
 ;
 #
 define
@@ -303,7 +303,7 @@ elib
 ;
 elib
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -659,7 +659,7 @@ PRUint8
 *
 audio
 =
-nsnull
+nullptr
 ;
 size_t
 audio_len

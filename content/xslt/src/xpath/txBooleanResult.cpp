@@ -16,7 +16,7 @@ boolean
 :
 txAExprResult
 (
-nsnull
+nullptr
 )
 {
 this
@@ -92,7 +92,7 @@ stringValuePointer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 bool

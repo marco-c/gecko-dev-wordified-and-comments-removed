@@ -375,7 +375,7 @@ displaySize
 .
 height
 )
-nsnull
+nullptr
 mozilla
 :
 :

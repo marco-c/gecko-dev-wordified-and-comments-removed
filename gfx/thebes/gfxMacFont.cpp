@@ -95,11 +95,11 @@ aFontStyle
 )
 mCGFont
 (
-nsnull
+nullptr
 )
 mFontFace
 (
-nsnull
+nullptr
 )
 {
 mApplySyntheticBold
@@ -1845,7 +1845,7 @@ blob
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void

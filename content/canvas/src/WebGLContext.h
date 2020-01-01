@@ -1530,7 +1530,7 @@ GetSurfaceSnapshot
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHOD
@@ -3683,7 +3683,7 @@ TexParameter_base
 (
 target
 pname
-nsnull
+nullptr
 &
 param
 )
@@ -3706,7 +3706,7 @@ target
 pname
 &
 param
-nsnull
+nullptr
 )
 ;
 }
@@ -6729,7 +6729,7 @@ LOCAL_GL_NONE
 )
 mData
 (
-nsnull
+nullptr
 )
 {
 mContext
@@ -6805,7 +6805,7 @@ mData
 ;
 mData
 =
-nsnull
+nullptr
 ;
 mByteLength
 =
@@ -12126,7 +12126,7 @@ tex
 ;
 mRenderbufferPtr
 =
-nsnull
+nullptr
 ;
 mTextureLevel
 =
@@ -12147,7 +12147,7 @@ rb
 {
 mTexturePtr
 =
-nsnull
+nullptr
 ;
 mRenderbufferPtr
 =
@@ -12244,11 +12244,11 @@ Reset
 {
 mTexturePtr
 =
-nsnull
+nullptr
 ;
 mRenderbufferPtr
 =
-nsnull
+nullptr
 ;
 }
 const
@@ -12304,7 +12304,7 @@ Renderbuffer
 ;
 else
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -13496,7 +13496,7 @@ FramebufferTexture2D
 LOCAL_GL_FRAMEBUFFER
 LOCAL_GL_COLOR_ATTACHMENT0
 LOCAL_GL_TEXTURE_2D
-nsnull
+nullptr
 0
 )
 ;
@@ -13516,7 +13516,7 @@ FramebufferTexture2D
 LOCAL_GL_FRAMEBUFFER
 LOCAL_GL_DEPTH_ATTACHMENT
 LOCAL_GL_TEXTURE_2D
-nsnull
+nullptr
 0
 )
 ;
@@ -13536,7 +13536,7 @@ FramebufferTexture2D
 LOCAL_GL_FRAMEBUFFER
 LOCAL_GL_STENCIL_ATTACHMENT
 LOCAL_GL_TEXTURE_2D
-nsnull
+nullptr
 0
 )
 ;
@@ -13556,7 +13556,7 @@ FramebufferTexture2D
 LOCAL_GL_FRAMEBUFFER
 LOCAL_GL_DEPTH_STENCIL_ATTACHMENT
 LOCAL_GL_TEXTURE_2D
-nsnull
+nullptr
 0
 )
 ;
@@ -13586,7 +13586,7 @@ FramebufferRenderbuffer
 LOCAL_GL_FRAMEBUFFER
 LOCAL_GL_COLOR_ATTACHMENT0
 LOCAL_GL_RENDERBUFFER
-nsnull
+nullptr
 )
 ;
 if
@@ -13605,7 +13605,7 @@ FramebufferRenderbuffer
 LOCAL_GL_FRAMEBUFFER
 LOCAL_GL_DEPTH_ATTACHMENT
 LOCAL_GL_RENDERBUFFER
-nsnull
+nullptr
 )
 ;
 if
@@ -13624,7 +13624,7 @@ FramebufferRenderbuffer
 LOCAL_GL_FRAMEBUFFER
 LOCAL_GL_STENCIL_ATTACHMENT
 LOCAL_GL_RENDERBUFFER
-nsnull
+nullptr
 )
 ;
 if
@@ -13643,7 +13643,7 @@ FramebufferRenderbuffer
 LOCAL_GL_FRAMEBUFFER
 LOCAL_GL_DEPTH_STENCIL_ATTACHMENT
 LOCAL_GL_RENDERBUFFER
-nsnull
+nullptr
 )
 ;
 }
@@ -14723,7 +14723,7 @@ sUniqueInstance
 ;
 sUniqueInstance
 =
-nsnull
+nullptr
 ;
 }
 }

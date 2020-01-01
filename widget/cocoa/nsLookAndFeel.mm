@@ -2392,7 +2392,7 @@ NSFont
 *
 font
 =
-nsnull
+nullptr
 ;
 switch
 (

@@ -286,7 +286,7 @@ NS_strdup
 mHostName
 )
 :
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -607,7 +607,7 @@ IsEmpty
 *
 aText
 =
-nsnull
+nullptr
 ;
 else
 {
@@ -674,7 +674,7 @@ aText
 *
 aText
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -736,7 +736,7 @@ return
 aText
 !
 =
-nsnull
+nullptr
 ?
 NS_OK
 :
@@ -1805,7 +1805,7 @@ count
 *
 array
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1828,7 +1828,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1849,7 +1849,7 @@ aContractID
 *
 aContractID
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1870,7 +1870,7 @@ aClassDescription
 *
 aClassDescription
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2255,7 +2255,7 @@ char
 *
 errorID
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2522,7 +2522,7 @@ PRArenaPool
 *
 san_arena
 =
-nsnull
+nullptr
 ;
 SECItem
 altNameExtension
@@ -2537,7 +2537,7 @@ CERTGeneralName
 *
 sanNameList
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -3087,7 +3087,7 @@ char
 *
 certName
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3492,7 +3492,7 @@ dateTimeFormat
 >
 FormatPRTime
 (
-nsnull
+nullptr
 kDateFormatShort
 kTimeFormatNoSeconds
 timeToUse
@@ -3504,7 +3504,7 @@ dateTimeFormat
 >
 FormatPRTime
 (
-nsnull
+nullptr
 kDateFormatShort
 kTimeFormatNoSeconds
 now
@@ -4109,7 +4109,7 @@ RememberCertErrorsTable
 :
 sInstance
 =
-nsnull
+nullptr
 ;
 RememberCertErrorsTable
 :

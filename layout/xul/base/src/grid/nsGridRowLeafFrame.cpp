@@ -70,7 +70,7 @@ layout
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -189,13 +189,13 @@ nsGridRow
 *
 firstRow
 =
-nsnull
+nullptr
 ;
 nsGridRow
 *
 lastRow
 =
-nsnull
+nullptr
 ;
 grid
 -

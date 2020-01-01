@@ -214,7 +214,7 @@ childState
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 AccIterator
@@ -273,11 +273,11 @@ aRelAttr
 )
 mProviders
 (
-nsnull
+nullptr
 )
 mBindingParent
 (
-nsnull
+nullptr
 )
 mIndex
 (
@@ -354,7 +354,7 @@ if
 mProviders
 )
 return
-nsnull
+nullptr
 ;
 while
 (
@@ -476,7 +476,7 @@ mDocument
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 HTMLLabelIterator
@@ -532,7 +532,7 @@ Accessible
 *
 label
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -588,7 +588,7 @@ IsWidget
 )
 )
 return
-nsnull
+nullptr
 ;
 Accessible
 *
@@ -703,7 +703,7 @@ Parent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 HTMLOutputIterator
@@ -743,7 +743,7 @@ Accessible
 *
 output
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -783,7 +783,7 @@ output
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 XULLabelIterator
@@ -823,7 +823,7 @@ Accessible
 *
 label
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -863,7 +863,7 @@ label
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 XULDescriptionIterator
@@ -903,7 +903,7 @@ Accessible
 *
 descr
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -943,7 +943,7 @@ descr
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 IDRefsIterator
@@ -1147,7 +1147,7 @@ refContent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -1310,7 +1310,7 @@ aID
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 Accessible
@@ -1341,7 +1341,7 @@ GetAccessible
 nextElm
 )
 :
-nsnull
+nullptr
 ;
 }
 Accessible
@@ -1382,6 +1382,6 @@ IsDefunct
 ?
 nextAcc
 :
-nsnull
+nullptr
 ;
 }

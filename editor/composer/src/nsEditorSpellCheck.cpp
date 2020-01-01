@@ -609,7 +609,7 @@ GetPref
 (
 uri
 CPS_PREF_NAME
-nsnull
+nullptr
 getter_AddRefs
 (
 pref
@@ -865,7 +865,7 @@ nsEditorSpellCheck
 :
 gDictionaryStore
 =
-nsnull
+nullptr
 ;
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
@@ -917,7 +917,7 @@ mDictionaryIndex
 )
 mEditor
 (
-nsnull
+nullptr
 )
 mUpdateDictionaryRunning
 (
@@ -935,7 +935,7 @@ nsEditorSpellCheck
 {
 mSpellChecker
 =
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -1542,7 +1542,7 @@ nsDependentString
 aSuggestedWord
 )
 aIsMisspelled
-nsnull
+nullptr
 )
 ;
 }
@@ -2979,7 +2979,7 @@ if
 env_lang
 !
 =
-nsnull
+nullptr
 )
 {
 nsString

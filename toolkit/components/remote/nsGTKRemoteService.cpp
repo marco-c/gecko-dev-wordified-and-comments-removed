@@ -179,7 +179,7 @@ mServerWindow
 HandleCommandsFor
 (
 mServerWindow
-nsnull
+nullptr
 )
 ;
 if
@@ -284,7 +284,7 @@ aWindow
 NS_ENSURE_TRUE
 (
 window
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -307,7 +307,7 @@ GetDocShell
 NS_ENSURE_TRUE
 (
 baseWindow
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -492,7 +492,7 @@ mServerWindow
 ;
 mServerWindow
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

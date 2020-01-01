@@ -524,7 +524,7 @@ get
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 MediaSegment

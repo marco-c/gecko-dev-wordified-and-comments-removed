@@ -156,7 +156,7 @@ GetTargetElementContent
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -291,7 +291,7 @@ nsresult
 *
 aParseResult
 =
-nsnull
+nullptr
 )
 ;
 bool

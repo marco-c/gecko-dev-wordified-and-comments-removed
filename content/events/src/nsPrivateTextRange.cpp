@@ -241,7 +241,7 @@ nsPrivateTextRange
 *
 retPtr
 =
-nsnull
+nullptr
 ;
 ret
 .
@@ -255,6 +255,6 @@ retPtr
 ;
 }
 return
-nsnull
+nullptr
 ;
 }

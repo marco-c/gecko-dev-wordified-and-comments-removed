@@ -241,7 +241,7 @@ mFD
 ;
 mFD
 =
-nsnull
+nullptr
 ;
 }
 mClosed
@@ -1120,7 +1120,7 @@ binding
 )
 mOutStream
 (
-nsnull
+nullptr
 )
 mInStreamCount
 (
@@ -1128,7 +1128,7 @@ mInStreamCount
 )
 mFD
 (
-nsnull
+nullptr
 )
 mStreamPos
 (
@@ -1156,7 +1156,7 @@ false
 )
 mBuffer
 (
-nsnull
+nullptr
 )
 {
 mDevice
@@ -1303,7 +1303,7 @@ NS_ERROR_NOT_IMPLEMENTED
 *
 inputStream
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1341,7 +1341,7 @@ PRFileDesc
 *
 fd
 =
-nsnull
+nullptr
 ;
 mStreamEnd
 =
@@ -1532,7 +1532,7 @@ outputStream
 *
 outputStream
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1701,7 +1701,7 @@ Flush
 ;
 mBinding
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -1786,7 +1786,7 @@ oops
 ;
 mOutStream
 =
-nsnull
+nullptr
 ;
 outputStream
 -
@@ -1824,7 +1824,7 @@ failed
 ;
 mOutStream
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -1900,7 +1900,7 @@ mFD
 ;
 mFD
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -2100,7 +2100,7 @@ mFD
 ;
 mFD
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -3170,7 +3170,7 @@ mBuffer
 ;
 mBuffer
 =
-nsnull
+nullptr
 ;
 mBufPos
 =
@@ -3846,7 +3846,7 @@ mFD
 ;
 mFD
 =
-nsnull
+nullptr
 ;
 }
 }

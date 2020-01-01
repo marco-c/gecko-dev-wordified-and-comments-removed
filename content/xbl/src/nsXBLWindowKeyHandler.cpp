@@ -216,7 +216,7 @@ nsINativeKeyBindings
 *
 sNativeEditorBindings
 =
-nsnull
+nullptr
 ;
 class
 nsXBLSpecialDocInfo
@@ -392,10 +392,10 @@ xblService
 >
 LoadBindingDocumentInfo
 (
-nsnull
-nsnull
+nullptr
+nullptr
 bindingURI
-nsnull
+nullptr
 true
 getter_AddRefs
 (
@@ -455,10 +455,10 @@ xblService
 >
 LoadBindingDocumentInfo
 (
-nsnull
-nsnull
+nullptr
+nullptr
 bindingURI
-nsnull
+nullptr
 true
 getter_AddRefs
 (
@@ -606,7 +606,7 @@ nsXBLWindowKeyHandler
 :
 sXBLSpecialDocInfo
 =
-nsnull
+nullptr
 ;
 PRUint32
 nsXBLWindowKeyHandler
@@ -635,11 +635,11 @@ aTarget
 )
 mHandler
 (
-nsnull
+nullptr
 )
 mUserHandler
 (
-nsnull
+nullptr
 )
 {
 mWeakPtrForElement
@@ -684,7 +684,7 @@ sXBLSpecialDocInfo
 ;
 sXBLSpecialDocInfo
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -709,7 +709,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -2251,7 +2251,7 @@ nsIDOMElement
 *
 el
 =
-nsnull
+nullptr
 ;
 element
 .

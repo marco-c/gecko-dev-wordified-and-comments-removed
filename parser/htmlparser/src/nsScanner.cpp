@@ -197,7 +197,7 @@ nsScanner
 ;
 mSlidingBuffer
 =
-nsnull
+nullptr
 ;
 mCountRemaining
 =
@@ -314,7 +314,7 @@ true
 ;
 mSlidingBuffer
 =
-nsnull
+nullptr
 ;
 memset
 (

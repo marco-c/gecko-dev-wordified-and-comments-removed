@@ -277,7 +277,7 @@ sCurrentStore
 ;
 sCurrentStore
 =
-nsnull
+nullptr
 ;
 }
 protected

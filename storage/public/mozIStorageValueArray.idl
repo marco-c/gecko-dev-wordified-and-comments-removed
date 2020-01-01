@@ -777,7 +777,7 @@ char
 *
 str
 =
-nsnull
+nullptr
 ;
 *
 len
@@ -845,7 +845,7 @@ PRUnichar
 *
 str
 =
-nsnull
+nullptr
 ;
 *
 len
@@ -913,7 +913,7 @@ PRUint8
 *
 blob
 =
-nsnull
+nullptr
 ;
 *
 len

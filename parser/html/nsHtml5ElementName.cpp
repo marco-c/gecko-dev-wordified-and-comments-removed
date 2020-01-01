@@ -183,7 +183,7 @@ nsHtml5ElementName
 :
 ELT_NULL_ELEMENT_NAME
 =
-nsnull
+nullptr
 ;
 PRInt32
 nsHtml5ElementName
@@ -523,7 +523,7 @@ nsHtml5ElementName
 :
 ELT_A
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -532,7 +532,7 @@ nsHtml5ElementName
 :
 ELT_B
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -541,7 +541,7 @@ nsHtml5ElementName
 :
 ELT_G
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -550,7 +550,7 @@ nsHtml5ElementName
 :
 ELT_I
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -559,7 +559,7 @@ nsHtml5ElementName
 :
 ELT_P
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -568,7 +568,7 @@ nsHtml5ElementName
 :
 ELT_Q
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -577,7 +577,7 @@ nsHtml5ElementName
 :
 ELT_S
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -586,7 +586,7 @@ nsHtml5ElementName
 :
 ELT_U
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -595,7 +595,7 @@ nsHtml5ElementName
 :
 ELT_BR
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -604,7 +604,7 @@ nsHtml5ElementName
 :
 ELT_CI
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -613,7 +613,7 @@ nsHtml5ElementName
 :
 ELT_CN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -622,7 +622,7 @@ nsHtml5ElementName
 :
 ELT_DD
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -631,7 +631,7 @@ nsHtml5ElementName
 :
 ELT_DL
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -640,7 +640,7 @@ nsHtml5ElementName
 :
 ELT_DT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -649,7 +649,7 @@ nsHtml5ElementName
 :
 ELT_EM
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -658,7 +658,7 @@ nsHtml5ElementName
 :
 ELT_EQ
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -667,7 +667,7 @@ nsHtml5ElementName
 :
 ELT_FN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -676,7 +676,7 @@ nsHtml5ElementName
 :
 ELT_H1
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -685,7 +685,7 @@ nsHtml5ElementName
 :
 ELT_H2
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -694,7 +694,7 @@ nsHtml5ElementName
 :
 ELT_H3
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -703,7 +703,7 @@ nsHtml5ElementName
 :
 ELT_H4
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -712,7 +712,7 @@ nsHtml5ElementName
 :
 ELT_H5
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -721,7 +721,7 @@ nsHtml5ElementName
 :
 ELT_H6
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -730,7 +730,7 @@ nsHtml5ElementName
 :
 ELT_GT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -739,7 +739,7 @@ nsHtml5ElementName
 :
 ELT_HR
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -748,7 +748,7 @@ nsHtml5ElementName
 :
 ELT_IN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -757,7 +757,7 @@ nsHtml5ElementName
 :
 ELT_LI
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -766,7 +766,7 @@ nsHtml5ElementName
 :
 ELT_LN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -775,7 +775,7 @@ nsHtml5ElementName
 :
 ELT_LT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -784,7 +784,7 @@ nsHtml5ElementName
 :
 ELT_MI
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -793,7 +793,7 @@ nsHtml5ElementName
 :
 ELT_MN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -802,7 +802,7 @@ nsHtml5ElementName
 :
 ELT_MO
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -811,7 +811,7 @@ nsHtml5ElementName
 :
 ELT_MS
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -820,7 +820,7 @@ nsHtml5ElementName
 :
 ELT_OL
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -829,7 +829,7 @@ nsHtml5ElementName
 :
 ELT_OR
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -838,7 +838,7 @@ nsHtml5ElementName
 :
 ELT_PI
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -847,7 +847,7 @@ nsHtml5ElementName
 :
 ELT_RP
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -856,7 +856,7 @@ nsHtml5ElementName
 :
 ELT_RT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -865,7 +865,7 @@ nsHtml5ElementName
 :
 ELT_TD
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -874,7 +874,7 @@ nsHtml5ElementName
 :
 ELT_TH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -883,7 +883,7 @@ nsHtml5ElementName
 :
 ELT_TR
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -892,7 +892,7 @@ nsHtml5ElementName
 :
 ELT_TT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -901,7 +901,7 @@ nsHtml5ElementName
 :
 ELT_UL
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -910,7 +910,7 @@ nsHtml5ElementName
 :
 ELT_AND
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -919,7 +919,7 @@ nsHtml5ElementName
 :
 ELT_ARG
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -928,7 +928,7 @@ nsHtml5ElementName
 :
 ELT_ABS
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -937,7 +937,7 @@ nsHtml5ElementName
 :
 ELT_BIG
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -946,7 +946,7 @@ nsHtml5ElementName
 :
 ELT_BDO
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -955,7 +955,7 @@ nsHtml5ElementName
 :
 ELT_CSC
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -964,7 +964,7 @@ nsHtml5ElementName
 :
 ELT_COL
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -973,7 +973,7 @@ nsHtml5ElementName
 :
 ELT_COS
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -982,7 +982,7 @@ nsHtml5ElementName
 :
 ELT_COT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -991,7 +991,7 @@ nsHtml5ElementName
 :
 ELT_DEL
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1000,7 +1000,7 @@ nsHtml5ElementName
 :
 ELT_DFN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1009,7 +1009,7 @@ nsHtml5ElementName
 :
 ELT_DIR
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1018,7 +1018,7 @@ nsHtml5ElementName
 :
 ELT_DIV
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1027,7 +1027,7 @@ nsHtml5ElementName
 :
 ELT_EXP
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1036,7 +1036,7 @@ nsHtml5ElementName
 :
 ELT_GCD
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1045,7 +1045,7 @@ nsHtml5ElementName
 :
 ELT_GEQ
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1054,7 +1054,7 @@ nsHtml5ElementName
 :
 ELT_IMG
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1063,7 +1063,7 @@ nsHtml5ElementName
 :
 ELT_INS
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1072,7 +1072,7 @@ nsHtml5ElementName
 :
 ELT_INT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1081,7 +1081,7 @@ nsHtml5ElementName
 :
 ELT_KBD
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1090,7 +1090,7 @@ nsHtml5ElementName
 :
 ELT_LOG
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1099,7 +1099,7 @@ nsHtml5ElementName
 :
 ELT_LCM
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1108,7 +1108,7 @@ nsHtml5ElementName
 :
 ELT_LEQ
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1117,7 +1117,7 @@ nsHtml5ElementName
 :
 ELT_MTD
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1126,7 +1126,7 @@ nsHtml5ElementName
 :
 ELT_MIN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1135,7 +1135,7 @@ nsHtml5ElementName
 :
 ELT_MAP
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1144,7 +1144,7 @@ nsHtml5ElementName
 :
 ELT_MTR
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1153,7 +1153,7 @@ nsHtml5ElementName
 :
 ELT_MAX
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1162,7 +1162,7 @@ nsHtml5ElementName
 :
 ELT_NEQ
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1171,7 +1171,7 @@ nsHtml5ElementName
 :
 ELT_NOT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1180,7 +1180,7 @@ nsHtml5ElementName
 :
 ELT_NAV
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1189,7 +1189,7 @@ nsHtml5ElementName
 :
 ELT_PRE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1198,7 +1198,7 @@ nsHtml5ElementName
 :
 ELT_REM
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1207,7 +1207,7 @@ nsHtml5ElementName
 :
 ELT_SUB
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1216,7 +1216,7 @@ nsHtml5ElementName
 :
 ELT_SEC
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1225,7 +1225,7 @@ nsHtml5ElementName
 :
 ELT_SVG
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1234,7 +1234,7 @@ nsHtml5ElementName
 :
 ELT_SUM
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1243,7 +1243,7 @@ nsHtml5ElementName
 :
 ELT_SIN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1252,7 +1252,7 @@ nsHtml5ElementName
 :
 ELT_SEP
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1261,7 +1261,7 @@ nsHtml5ElementName
 :
 ELT_SUP
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1270,7 +1270,7 @@ nsHtml5ElementName
 :
 ELT_SET
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1279,7 +1279,7 @@ nsHtml5ElementName
 :
 ELT_TAN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1288,7 +1288,7 @@ nsHtml5ElementName
 :
 ELT_USE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1297,7 +1297,7 @@ nsHtml5ElementName
 :
 ELT_VAR
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1306,7 +1306,7 @@ nsHtml5ElementName
 :
 ELT_WBR
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1315,7 +1315,7 @@ nsHtml5ElementName
 :
 ELT_XMP
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1324,7 +1324,7 @@ nsHtml5ElementName
 :
 ELT_XOR
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1333,7 +1333,7 @@ nsHtml5ElementName
 :
 ELT_AREA
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1342,7 +1342,7 @@ nsHtml5ElementName
 :
 ELT_ABBR
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1351,7 +1351,7 @@ nsHtml5ElementName
 :
 ELT_BASE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1360,7 +1360,7 @@ nsHtml5ElementName
 :
 ELT_BVAR
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1369,7 +1369,7 @@ nsHtml5ElementName
 :
 ELT_BODY
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1378,7 +1378,7 @@ nsHtml5ElementName
 :
 ELT_CARD
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1387,7 +1387,7 @@ nsHtml5ElementName
 :
 ELT_CODE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1396,7 +1396,7 @@ nsHtml5ElementName
 :
 ELT_CITE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1405,7 +1405,7 @@ nsHtml5ElementName
 :
 ELT_CSCH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1414,7 +1414,7 @@ nsHtml5ElementName
 :
 ELT_COSH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1423,7 +1423,7 @@ nsHtml5ElementName
 :
 ELT_COTH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1432,7 +1432,7 @@ nsHtml5ElementName
 :
 ELT_CURL
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1441,7 +1441,7 @@ nsHtml5ElementName
 :
 ELT_DESC
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1450,7 +1450,7 @@ nsHtml5ElementName
 :
 ELT_DIFF
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1459,7 +1459,7 @@ nsHtml5ElementName
 :
 ELT_DEFS
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1468,7 +1468,7 @@ nsHtml5ElementName
 :
 ELT_FORM
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1477,7 +1477,7 @@ nsHtml5ElementName
 :
 ELT_FONT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1486,7 +1486,7 @@ nsHtml5ElementName
 :
 ELT_GRAD
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1495,7 +1495,7 @@ nsHtml5ElementName
 :
 ELT_HEAD
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1504,7 +1504,7 @@ nsHtml5ElementName
 :
 ELT_HTML
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1513,7 +1513,7 @@ nsHtml5ElementName
 :
 ELT_LINE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1522,7 +1522,7 @@ nsHtml5ElementName
 :
 ELT_LINK
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1531,7 +1531,7 @@ nsHtml5ElementName
 :
 ELT_LIST
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1540,7 +1540,7 @@ nsHtml5ElementName
 :
 ELT_META
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1549,7 +1549,7 @@ nsHtml5ElementName
 :
 ELT_MSUB
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1558,7 +1558,7 @@ nsHtml5ElementName
 :
 ELT_MODE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1567,7 +1567,7 @@ nsHtml5ElementName
 :
 ELT_MATH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1576,7 +1576,7 @@ nsHtml5ElementName
 :
 ELT_MARK
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1585,7 +1585,7 @@ nsHtml5ElementName
 :
 ELT_MASK
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1594,7 +1594,7 @@ nsHtml5ElementName
 :
 ELT_MEAN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1603,7 +1603,7 @@ nsHtml5ElementName
 :
 ELT_MSUP
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1612,7 +1612,7 @@ nsHtml5ElementName
 :
 ELT_MENU
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1621,7 +1621,7 @@ nsHtml5ElementName
 :
 ELT_MROW
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1630,7 +1630,7 @@ nsHtml5ElementName
 :
 ELT_NONE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1639,7 +1639,7 @@ nsHtml5ElementName
 :
 ELT_NOBR
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1648,7 +1648,7 @@ nsHtml5ElementName
 :
 ELT_NEST
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1657,7 +1657,7 @@ nsHtml5ElementName
 :
 ELT_PATH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1666,7 +1666,7 @@ nsHtml5ElementName
 :
 ELT_PLUS
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1675,7 +1675,7 @@ nsHtml5ElementName
 :
 ELT_RULE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1684,7 +1684,7 @@ nsHtml5ElementName
 :
 ELT_REAL
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1693,7 +1693,7 @@ nsHtml5ElementName
 :
 ELT_RELN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1702,7 +1702,7 @@ nsHtml5ElementName
 :
 ELT_RECT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1711,7 +1711,7 @@ nsHtml5ElementName
 :
 ELT_ROOT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1720,7 +1720,7 @@ nsHtml5ElementName
 :
 ELT_RUBY
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1729,7 +1729,7 @@ nsHtml5ElementName
 :
 ELT_SECH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1738,7 +1738,7 @@ nsHtml5ElementName
 :
 ELT_SINH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1747,7 +1747,7 @@ nsHtml5ElementName
 :
 ELT_SPAN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1756,7 +1756,7 @@ nsHtml5ElementName
 :
 ELT_SAMP
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1765,7 +1765,7 @@ nsHtml5ElementName
 :
 ELT_STOP
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1774,7 +1774,7 @@ nsHtml5ElementName
 :
 ELT_SDEV
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1783,7 +1783,7 @@ nsHtml5ElementName
 :
 ELT_TIME
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1792,7 +1792,7 @@ nsHtml5ElementName
 :
 ELT_TRUE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1801,7 +1801,7 @@ nsHtml5ElementName
 :
 ELT_TREF
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1810,7 +1810,7 @@ nsHtml5ElementName
 :
 ELT_TANH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1819,7 +1819,7 @@ nsHtml5ElementName
 :
 ELT_TEXT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1828,7 +1828,7 @@ nsHtml5ElementName
 :
 ELT_VIEW
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1837,7 +1837,7 @@ nsHtml5ElementName
 :
 ELT_ASIDE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1846,7 +1846,7 @@ nsHtml5ElementName
 :
 ELT_AUDIO
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1855,7 +1855,7 @@ nsHtml5ElementName
 :
 ELT_APPLY
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1864,7 +1864,7 @@ nsHtml5ElementName
 :
 ELT_EMBED
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1873,7 +1873,7 @@ nsHtml5ElementName
 :
 ELT_FRAME
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1882,7 +1882,7 @@ nsHtml5ElementName
 :
 ELT_FALSE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1891,7 +1891,7 @@ nsHtml5ElementName
 :
 ELT_FLOOR
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1900,7 +1900,7 @@ nsHtml5ElementName
 :
 ELT_GLYPH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1909,7 +1909,7 @@ nsHtml5ElementName
 :
 ELT_HKERN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1918,7 +1918,7 @@ nsHtml5ElementName
 :
 ELT_IMAGE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1927,7 +1927,7 @@ nsHtml5ElementName
 :
 ELT_IDENT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1936,7 +1936,7 @@ nsHtml5ElementName
 :
 ELT_INPUT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1945,7 +1945,7 @@ nsHtml5ElementName
 :
 ELT_LABEL
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1954,7 +1954,7 @@ nsHtml5ElementName
 :
 ELT_LIMIT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1963,7 +1963,7 @@ nsHtml5ElementName
 :
 ELT_MFRAC
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1972,7 +1972,7 @@ nsHtml5ElementName
 :
 ELT_MPATH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1981,7 +1981,7 @@ nsHtml5ElementName
 :
 ELT_METER
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1990,7 +1990,7 @@ nsHtml5ElementName
 :
 ELT_MOVER
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -1999,7 +1999,7 @@ nsHtml5ElementName
 :
 ELT_MINUS
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2008,7 +2008,7 @@ nsHtml5ElementName
 :
 ELT_MROOT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2017,7 +2017,7 @@ nsHtml5ElementName
 :
 ELT_MSQRT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2026,7 +2026,7 @@ nsHtml5ElementName
 :
 ELT_MTEXT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2035,7 +2035,7 @@ nsHtml5ElementName
 :
 ELT_NOTIN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2044,7 +2044,7 @@ nsHtml5ElementName
 :
 ELT_PIECE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2053,7 +2053,7 @@ nsHtml5ElementName
 :
 ELT_PARAM
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2062,7 +2062,7 @@ nsHtml5ElementName
 :
 ELT_POWER
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2071,7 +2071,7 @@ nsHtml5ElementName
 :
 ELT_REALS
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2080,7 +2080,7 @@ nsHtml5ElementName
 :
 ELT_STYLE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2089,7 +2089,7 @@ nsHtml5ElementName
 :
 ELT_SMALL
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2098,7 +2098,7 @@ nsHtml5ElementName
 :
 ELT_THEAD
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2107,7 +2107,7 @@ nsHtml5ElementName
 :
 ELT_TABLE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2116,7 +2116,7 @@ nsHtml5ElementName
 :
 ELT_TITLE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2125,7 +2125,7 @@ nsHtml5ElementName
 :
 ELT_TRACK
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2134,7 +2134,7 @@ nsHtml5ElementName
 :
 ELT_TSPAN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2143,7 +2143,7 @@ nsHtml5ElementName
 :
 ELT_TIMES
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2152,7 +2152,7 @@ nsHtml5ElementName
 :
 ELT_TFOOT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2161,7 +2161,7 @@ nsHtml5ElementName
 :
 ELT_TBODY
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2170,7 +2170,7 @@ nsHtml5ElementName
 :
 ELT_UNION
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2179,7 +2179,7 @@ nsHtml5ElementName
 :
 ELT_VKERN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2188,7 +2188,7 @@ nsHtml5ElementName
 :
 ELT_VIDEO
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2197,7 +2197,7 @@ nsHtml5ElementName
 :
 ELT_ARCSEC
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2206,7 +2206,7 @@ nsHtml5ElementName
 :
 ELT_ARCCSC
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2215,7 +2215,7 @@ nsHtml5ElementName
 :
 ELT_ARCTAN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2224,7 +2224,7 @@ nsHtml5ElementName
 :
 ELT_ARCSIN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2233,7 +2233,7 @@ nsHtml5ElementName
 :
 ELT_ARCCOS
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2242,7 +2242,7 @@ nsHtml5ElementName
 :
 ELT_APPLET
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2251,7 +2251,7 @@ nsHtml5ElementName
 :
 ELT_ARCCOT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2260,7 +2260,7 @@ nsHtml5ElementName
 :
 ELT_APPROX
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2269,7 +2269,7 @@ nsHtml5ElementName
 :
 ELT_BUTTON
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2278,7 +2278,7 @@ nsHtml5ElementName
 :
 ELT_CIRCLE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2287,7 +2287,7 @@ nsHtml5ElementName
 :
 ELT_CENTER
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2296,7 +2296,7 @@ nsHtml5ElementName
 :
 ELT_CURSOR
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2305,7 +2305,7 @@ nsHtml5ElementName
 :
 ELT_CANVAS
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2314,7 +2314,7 @@ nsHtml5ElementName
 :
 ELT_DIVIDE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2323,7 +2323,7 @@ nsHtml5ElementName
 :
 ELT_DEGREE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2332,7 +2332,7 @@ nsHtml5ElementName
 :
 ELT_DOMAIN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2341,7 +2341,7 @@ nsHtml5ElementName
 :
 ELT_EXISTS
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2350,7 +2350,7 @@ nsHtml5ElementName
 :
 ELT_FETILE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2359,7 +2359,7 @@ nsHtml5ElementName
 :
 ELT_FIGURE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2368,7 +2368,7 @@ nsHtml5ElementName
 :
 ELT_FORALL
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2377,7 +2377,7 @@ nsHtml5ElementName
 :
 ELT_FILTER
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2386,7 +2386,7 @@ nsHtml5ElementName
 :
 ELT_FOOTER
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2395,7 +2395,7 @@ nsHtml5ElementName
 :
 ELT_HGROUP
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2404,7 +2404,7 @@ nsHtml5ElementName
 :
 ELT_HEADER
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2413,7 +2413,7 @@ nsHtml5ElementName
 :
 ELT_IFRAME
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2422,7 +2422,7 @@ nsHtml5ElementName
 :
 ELT_KEYGEN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2431,7 +2431,7 @@ nsHtml5ElementName
 :
 ELT_LAMBDA
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2440,7 +2440,7 @@ nsHtml5ElementName
 :
 ELT_LEGEND
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2449,7 +2449,7 @@ nsHtml5ElementName
 :
 ELT_MSPACE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2458,7 +2458,7 @@ nsHtml5ElementName
 :
 ELT_MTABLE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2467,7 +2467,7 @@ nsHtml5ElementName
 :
 ELT_MSTYLE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2476,7 +2476,7 @@ nsHtml5ElementName
 :
 ELT_MGLYPH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2485,7 +2485,7 @@ nsHtml5ElementName
 :
 ELT_MEDIAN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2494,7 +2494,7 @@ nsHtml5ElementName
 :
 ELT_MUNDER
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2503,7 +2503,7 @@ nsHtml5ElementName
 :
 ELT_MARKER
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2512,7 +2512,7 @@ nsHtml5ElementName
 :
 ELT_MERROR
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2521,7 +2521,7 @@ nsHtml5ElementName
 :
 ELT_MOMENT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2530,7 +2530,7 @@ nsHtml5ElementName
 :
 ELT_MATRIX
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2539,7 +2539,7 @@ nsHtml5ElementName
 :
 ELT_OPTION
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2548,7 +2548,7 @@ nsHtml5ElementName
 :
 ELT_OBJECT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2557,7 +2557,7 @@ nsHtml5ElementName
 :
 ELT_OUTPUT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2566,7 +2566,7 @@ nsHtml5ElementName
 :
 ELT_PRIMES
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2575,7 +2575,7 @@ nsHtml5ElementName
 :
 ELT_SOURCE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2584,7 +2584,7 @@ nsHtml5ElementName
 :
 ELT_STRIKE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2593,7 +2593,7 @@ nsHtml5ElementName
 :
 ELT_STRONG
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2602,7 +2602,7 @@ nsHtml5ElementName
 :
 ELT_SWITCH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2611,7 +2611,7 @@ nsHtml5ElementName
 :
 ELT_SYMBOL
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2620,7 +2620,7 @@ nsHtml5ElementName
 :
 ELT_SELECT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2629,7 +2629,7 @@ nsHtml5ElementName
 :
 ELT_SUBSET
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2638,7 +2638,7 @@ nsHtml5ElementName
 :
 ELT_SCRIPT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2647,7 +2647,7 @@ nsHtml5ElementName
 :
 ELT_TBREAK
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2656,7 +2656,7 @@ nsHtml5ElementName
 :
 ELT_VECTOR
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2665,7 +2665,7 @@ nsHtml5ElementName
 :
 ELT_ARTICLE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2674,7 +2674,7 @@ nsHtml5ElementName
 :
 ELT_ANIMATE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2683,7 +2683,7 @@ nsHtml5ElementName
 :
 ELT_ARCSECH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2692,7 +2692,7 @@ nsHtml5ElementName
 :
 ELT_ARCCSCH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2701,7 +2701,7 @@ nsHtml5ElementName
 :
 ELT_ARCTANH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2710,7 +2710,7 @@ nsHtml5ElementName
 :
 ELT_ARCSINH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2719,7 +2719,7 @@ nsHtml5ElementName
 :
 ELT_ARCCOSH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2728,7 +2728,7 @@ nsHtml5ElementName
 :
 ELT_ARCCOTH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2737,7 +2737,7 @@ nsHtml5ElementName
 :
 ELT_ACRONYM
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2746,7 +2746,7 @@ nsHtml5ElementName
 :
 ELT_ADDRESS
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2755,7 +2755,7 @@ nsHtml5ElementName
 :
 ELT_BGSOUND
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2764,7 +2764,7 @@ nsHtml5ElementName
 :
 ELT_COMMAND
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2773,7 +2773,7 @@ nsHtml5ElementName
 :
 ELT_COMPOSE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2782,7 +2782,7 @@ nsHtml5ElementName
 :
 ELT_CEILING
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2791,7 +2791,7 @@ nsHtml5ElementName
 :
 ELT_CSYMBOL
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2800,7 +2800,7 @@ nsHtml5ElementName
 :
 ELT_CAPTION
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2809,7 +2809,7 @@ nsHtml5ElementName
 :
 ELT_DISCARD
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2818,7 +2818,7 @@ nsHtml5ElementName
 :
 ELT_DECLARE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2827,7 +2827,7 @@ nsHtml5ElementName
 :
 ELT_DETAILS
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2836,7 +2836,7 @@ nsHtml5ElementName
 :
 ELT_ELLIPSE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2845,7 +2845,7 @@ nsHtml5ElementName
 :
 ELT_FEFUNCA
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2854,7 +2854,7 @@ nsHtml5ElementName
 :
 ELT_FEFUNCB
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2863,7 +2863,7 @@ nsHtml5ElementName
 :
 ELT_FEBLEND
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2872,7 +2872,7 @@ nsHtml5ElementName
 :
 ELT_FEFLOOD
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2881,7 +2881,7 @@ nsHtml5ElementName
 :
 ELT_FEIMAGE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2890,7 +2890,7 @@ nsHtml5ElementName
 :
 ELT_FEMERGE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2899,7 +2899,7 @@ nsHtml5ElementName
 :
 ELT_FEFUNCG
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2908,7 +2908,7 @@ nsHtml5ElementName
 :
 ELT_FEFUNCR
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2917,7 +2917,7 @@ nsHtml5ElementName
 :
 ELT_HANDLER
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2926,7 +2926,7 @@ nsHtml5ElementName
 :
 ELT_INVERSE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2935,7 +2935,7 @@ nsHtml5ElementName
 :
 ELT_IMPLIES
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2944,7 +2944,7 @@ nsHtml5ElementName
 :
 ELT_ISINDEX
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2953,7 +2953,7 @@ nsHtml5ElementName
 :
 ELT_LOGBASE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2962,7 +2962,7 @@ nsHtml5ElementName
 :
 ELT_LISTING
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2971,7 +2971,7 @@ nsHtml5ElementName
 :
 ELT_MFENCED
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2980,7 +2980,7 @@ nsHtml5ElementName
 :
 ELT_MPADDED
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2989,7 +2989,7 @@ nsHtml5ElementName
 :
 ELT_MARQUEE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -2998,7 +2998,7 @@ nsHtml5ElementName
 :
 ELT_MACTION
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3007,7 +3007,7 @@ nsHtml5ElementName
 :
 ELT_MSUBSUP
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3016,7 +3016,7 @@ nsHtml5ElementName
 :
 ELT_NOEMBED
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3025,7 +3025,7 @@ nsHtml5ElementName
 :
 ELT_POLYGON
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3034,7 +3034,7 @@ nsHtml5ElementName
 :
 ELT_PATTERN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3043,7 +3043,7 @@ nsHtml5ElementName
 :
 ELT_PRODUCT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3052,7 +3052,7 @@ nsHtml5ElementName
 :
 ELT_SETDIFF
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3061,7 +3061,7 @@ nsHtml5ElementName
 :
 ELT_SECTION
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3070,7 +3070,7 @@ nsHtml5ElementName
 :
 ELT_SUMMARY
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3079,7 +3079,7 @@ nsHtml5ElementName
 :
 ELT_TENDSTO
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3088,7 +3088,7 @@ nsHtml5ElementName
 :
 ELT_UPLIMIT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3097,7 +3097,7 @@ nsHtml5ElementName
 :
 ELT_ALTGLYPH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3106,7 +3106,7 @@ nsHtml5ElementName
 :
 ELT_BASEFONT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3115,7 +3115,7 @@ nsHtml5ElementName
 :
 ELT_CLIPPATH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3124,7 +3124,7 @@ nsHtml5ElementName
 :
 ELT_CODOMAIN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3133,7 +3133,7 @@ nsHtml5ElementName
 :
 ELT_COLGROUP
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3142,7 +3142,7 @@ nsHtml5ElementName
 :
 ELT_EMPTYSET
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3151,7 +3151,7 @@ nsHtml5ElementName
 :
 ELT_FACTOROF
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3160,7 +3160,7 @@ nsHtml5ElementName
 :
 ELT_FIELDSET
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3169,7 +3169,7 @@ nsHtml5ElementName
 :
 ELT_FRAMESET
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3178,7 +3178,7 @@ nsHtml5ElementName
 :
 ELT_FEOFFSET
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3187,7 +3187,7 @@ nsHtml5ElementName
 :
 ELT_GLYPHREF
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3196,7 +3196,7 @@ nsHtml5ElementName
 :
 ELT_INTERVAL
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3205,7 +3205,7 @@ nsHtml5ElementName
 :
 ELT_INTEGERS
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3214,7 +3214,7 @@ nsHtml5ElementName
 :
 ELT_INFINITY
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3223,7 +3223,7 @@ nsHtml5ElementName
 :
 ELT_LISTENER
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3232,7 +3232,7 @@ nsHtml5ElementName
 :
 ELT_LOWLIMIT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3241,7 +3241,7 @@ nsHtml5ElementName
 :
 ELT_METADATA
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3250,7 +3250,7 @@ nsHtml5ElementName
 :
 ELT_MENCLOSE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3259,7 +3259,7 @@ nsHtml5ElementName
 :
 ELT_MENUITEM
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3268,7 +3268,7 @@ nsHtml5ElementName
 :
 ELT_MPHANTOM
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3277,7 +3277,7 @@ nsHtml5ElementName
 :
 ELT_NOFRAMES
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3286,7 +3286,7 @@ nsHtml5ElementName
 :
 ELT_NOSCRIPT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3295,7 +3295,7 @@ nsHtml5ElementName
 :
 ELT_OPTGROUP
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3304,7 +3304,7 @@ nsHtml5ElementName
 :
 ELT_POLYLINE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3313,7 +3313,7 @@ nsHtml5ElementName
 :
 ELT_PREFETCH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3322,7 +3322,7 @@ nsHtml5ElementName
 :
 ELT_PROGRESS
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3331,7 +3331,7 @@ nsHtml5ElementName
 :
 ELT_PRSUBSET
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3340,7 +3340,7 @@ nsHtml5ElementName
 :
 ELT_QUOTIENT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3349,7 +3349,7 @@ nsHtml5ElementName
 :
 ELT_SELECTOR
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3358,7 +3358,7 @@ nsHtml5ElementName
 :
 ELT_TEXTAREA
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3367,7 +3367,7 @@ nsHtml5ElementName
 :
 ELT_TEXTPATH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3376,7 +3376,7 @@ nsHtml5ElementName
 :
 ELT_VARIANCE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3385,7 +3385,7 @@ nsHtml5ElementName
 :
 ELT_ANIMATION
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3394,7 +3394,7 @@ nsHtml5ElementName
 :
 ELT_CONJUGATE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3403,7 +3403,7 @@ nsHtml5ElementName
 :
 ELT_CONDITION
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3412,7 +3412,7 @@ nsHtml5ElementName
 :
 ELT_COMPLEXES
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3421,7 +3421,7 @@ nsHtml5ElementName
 :
 ELT_FONT_FACE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3430,7 +3430,7 @@ nsHtml5ElementName
 :
 ELT_FACTORIAL
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3439,7 +3439,7 @@ nsHtml5ElementName
 :
 ELT_INTERSECT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3448,7 +3448,7 @@ nsHtml5ElementName
 :
 ELT_IMAGINARY
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3457,7 +3457,7 @@ nsHtml5ElementName
 :
 ELT_LAPLACIAN
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3466,7 +3466,7 @@ nsHtml5ElementName
 :
 ELT_MATRIXROW
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3475,7 +3475,7 @@ nsHtml5ElementName
 :
 ELT_NOTSUBSET
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3484,7 +3484,7 @@ nsHtml5ElementName
 :
 ELT_OTHERWISE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3493,7 +3493,7 @@ nsHtml5ElementName
 :
 ELT_PIECEWISE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3502,7 +3502,7 @@ nsHtml5ElementName
 :
 ELT_PLAINTEXT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3511,7 +3511,7 @@ nsHtml5ElementName
 :
 ELT_RATIONALS
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3520,7 +3520,7 @@ nsHtml5ElementName
 :
 ELT_SEMANTICS
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3529,7 +3529,7 @@ nsHtml5ElementName
 :
 ELT_TRANSPOSE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3538,7 +3538,7 @@ nsHtml5ElementName
 :
 ELT_ANNOTATION
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3547,7 +3547,7 @@ nsHtml5ElementName
 :
 ELT_BLOCKQUOTE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3556,7 +3556,7 @@ nsHtml5ElementName
 :
 ELT_DIVERGENCE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3565,7 +3565,7 @@ nsHtml5ElementName
 :
 ELT_EULERGAMMA
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3574,7 +3574,7 @@ nsHtml5ElementName
 :
 ELT_EQUIVALENT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3583,7 +3583,7 @@ nsHtml5ElementName
 :
 ELT_FIGCAPTION
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3592,7 +3592,7 @@ nsHtml5ElementName
 :
 ELT_IMAGINARYI
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3601,7 +3601,7 @@ nsHtml5ElementName
 :
 ELT_MALIGNMARK
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3610,7 +3610,7 @@ nsHtml5ElementName
 :
 ELT_MUNDEROVER
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3619,7 +3619,7 @@ nsHtml5ElementName
 :
 ELT_MLABELEDTR
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3628,7 +3628,7 @@ nsHtml5ElementName
 :
 ELT_NOTANUMBER
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3637,7 +3637,7 @@ nsHtml5ElementName
 :
 ELT_SOLIDCOLOR
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3646,7 +3646,7 @@ nsHtml5ElementName
 :
 ELT_ALTGLYPHDEF
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3655,7 +3655,7 @@ nsHtml5ElementName
 :
 ELT_DETERMINANT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3664,7 +3664,7 @@ nsHtml5ElementName
 :
 ELT_FEMERGENODE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3673,7 +3673,7 @@ nsHtml5ElementName
 :
 ELT_FECOMPOSITE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3682,7 +3682,7 @@ nsHtml5ElementName
 :
 ELT_FESPOTLIGHT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3691,7 +3691,7 @@ nsHtml5ElementName
 :
 ELT_MALIGNGROUP
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3700,7 +3700,7 @@ nsHtml5ElementName
 :
 ELT_MPRESCRIPTS
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3709,7 +3709,7 @@ nsHtml5ElementName
 :
 ELT_MOMENTABOUT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3718,7 +3718,7 @@ nsHtml5ElementName
 :
 ELT_NOTPRSUBSET
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3727,7 +3727,7 @@ nsHtml5ElementName
 :
 ELT_PARTIALDIFF
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3736,7 +3736,7 @@ nsHtml5ElementName
 :
 ELT_ALTGLYPHITEM
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3745,7 +3745,7 @@ nsHtml5ElementName
 :
 ELT_ANIMATECOLOR
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3754,7 +3754,7 @@ nsHtml5ElementName
 :
 ELT_DATATEMPLATE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3763,7 +3763,7 @@ nsHtml5ElementName
 :
 ELT_EXPONENTIALE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3772,7 +3772,7 @@ nsHtml5ElementName
 :
 ELT_FETURBULENCE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3781,7 +3781,7 @@ nsHtml5ElementName
 :
 ELT_FEPOINTLIGHT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3790,7 +3790,7 @@ nsHtml5ElementName
 :
 ELT_FEMORPHOLOGY
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3799,7 +3799,7 @@ nsHtml5ElementName
 :
 ELT_OUTERPRODUCT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3808,7 +3808,7 @@ nsHtml5ElementName
 :
 ELT_ANIMATEMOTION
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3817,7 +3817,7 @@ nsHtml5ElementName
 :
 ELT_COLOR_PROFILE
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3826,7 +3826,7 @@ nsHtml5ElementName
 :
 ELT_FONT_FACE_SRC
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3835,7 +3835,7 @@ nsHtml5ElementName
 :
 ELT_FONT_FACE_URI
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3844,7 +3844,7 @@ nsHtml5ElementName
 :
 ELT_FOREIGNOBJECT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3853,7 +3853,7 @@ nsHtml5ElementName
 :
 ELT_FECOLORMATRIX
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3862,7 +3862,7 @@ nsHtml5ElementName
 :
 ELT_MISSING_GLYPH
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3871,7 +3871,7 @@ nsHtml5ElementName
 :
 ELT_MMULTISCRIPTS
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3880,7 +3880,7 @@ nsHtml5ElementName
 :
 ELT_SCALARPRODUCT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3889,7 +3889,7 @@ nsHtml5ElementName
 :
 ELT_VECTORPRODUCT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3898,7 +3898,7 @@ nsHtml5ElementName
 :
 ELT_ANNOTATION_XML
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3907,7 +3907,7 @@ nsHtml5ElementName
 :
 ELT_DEFINITION_SRC
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3916,7 +3916,7 @@ nsHtml5ElementName
 :
 ELT_FONT_FACE_NAME
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3925,7 +3925,7 @@ nsHtml5ElementName
 :
 ELT_FEGAUSSIANBLUR
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3934,7 +3934,7 @@ nsHtml5ElementName
 :
 ELT_FEDISTANTLIGHT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3943,7 +3943,7 @@ nsHtml5ElementName
 :
 ELT_LINEARGRADIENT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3952,7 +3952,7 @@ nsHtml5ElementName
 :
 ELT_NATURALNUMBERS
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3961,7 +3961,7 @@ nsHtml5ElementName
 :
 ELT_RADIALGRADIENT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3970,7 +3970,7 @@ nsHtml5ElementName
 :
 ELT_ANIMATETRANSFORM
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3979,7 +3979,7 @@ nsHtml5ElementName
 :
 ELT_CARTESIANPRODUCT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3988,7 +3988,7 @@ nsHtml5ElementName
 :
 ELT_FONT_FACE_FORMAT
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -3997,7 +3997,7 @@ nsHtml5ElementName
 :
 ELT_FECONVOLVEMATRIX
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -4006,7 +4006,7 @@ nsHtml5ElementName
 :
 ELT_FEDIFFUSELIGHTING
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -4015,7 +4015,7 @@ nsHtml5ElementName
 :
 ELT_FEDISPLACEMENTMAP
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -4024,7 +4024,7 @@ nsHtml5ElementName
 :
 ELT_FESPECULARLIGHTING
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -4033,7 +4033,7 @@ nsHtml5ElementName
 :
 ELT_DOMAINOFAPPLICATION
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -4042,7 +4042,7 @@ nsHtml5ElementName
 :
 ELT_FECOMPONENTTRANSFER
 =
-nsnull
+nullptr
 ;
 nsHtml5ElementName
 *
@@ -4487,7 +4487,7 @@ ELT_NULL_ELEMENT_NAME
 new
 nsHtml5ElementName
 (
-nsnull
+nullptr
 )
 ;
 ELT_A

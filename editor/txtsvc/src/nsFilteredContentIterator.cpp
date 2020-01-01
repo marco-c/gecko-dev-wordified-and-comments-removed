@@ -742,7 +742,7 @@ return
 *
 aParent
 =
-nsnull
+nullptr
 ;
 *
 aOffset
@@ -1582,7 +1582,7 @@ mCurrentIterator
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

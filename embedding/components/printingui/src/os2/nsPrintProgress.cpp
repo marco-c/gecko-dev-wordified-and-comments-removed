@@ -319,8 +319,8 @@ true
 return
 OnStateChange
 (
-nsnull
-nsnull
+nullptr
+nullptr
 nsIWebProgressListener
 :
 :
@@ -349,7 +349,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -413,8 +413,8 @@ aProcessCanceledByUser
 ;
 OnStateChange
 (
-nsnull
-nsnull
+nullptr
+nullptr
 nsIWebProgressListener
 :
 :
@@ -496,8 +496,8 @@ listener
 >
 OnStateChange
 (
-nsnull
-nsnull
+nullptr
+nullptr
 nsIWebProgressListener
 :
 :
@@ -512,8 +512,8 @@ listener
 >
 OnStatusChange
 (
-nsnull
-nsnull
+nullptr
+nullptr
 0
 m_pendingStatus
 .
@@ -535,8 +535,8 @@ listener
 >
 OnStateChange
 (
-nsnull
-nsnull
+nullptr
+nullptr
 m_pendingStateFlags
 m_pendingStateValue
 )
@@ -595,9 +595,9 @@ m_observer
 >
 Observe
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 }
@@ -1206,8 +1206,8 @@ status
 return
 OnStatusChange
 (
-nsnull
-nsnull
+nullptr
+nullptr
 NS_OK
 status
 )

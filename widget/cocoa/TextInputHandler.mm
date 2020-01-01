@@ -269,7 +269,7 @@ PRLogModuleInfo
 *
 gLog
 =
-nsnull
+nullptr
 ;
 static
 const
@@ -3118,7 +3118,7 @@ GetUCKeyboardLayout
 NS_ENSURE_TRUE
 (
 mInputSource
-nsnull
+nullptr
 )
 ;
 if
@@ -3163,7 +3163,7 @@ here
 NS_ENSURE_TRUE
 (
 uchr
-nsnull
+nullptr
 )
 ;
 mUCKeyboardLayout
@@ -3256,7 +3256,7 @@ return
 aStr
 !
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -3415,7 +3415,7 @@ return
 aLanguageList
 !
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -3482,7 +3482,7 @@ return
 aPrimaryLanguage
 !
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -3719,11 +3719,11 @@ mInputSourceList
 }
 mInputSourceList
 =
-nsnull
+nullptr
 ;
 mInputSource
 =
-nsnull
+nullptr
 ;
 mIsRTL
 =
@@ -3732,7 +3732,7 @@ mIsRTL
 ;
 mUCKeyboardLayout
 =
-nsnull
+nullptr
 ;
 mOverrideKeyboard
 =
@@ -9874,7 +9874,7 @@ currentKeyEvent
 >
 mKeyEvent
 :
-nsnull
+nullptr
 currentKeyEvent
 ?
 TrueOrFalse
@@ -10245,7 +10245,7 @@ NSEvent
 *
 >
 (
-nsnull
+nullptr
 )
 )
 ;
@@ -10848,7 +10848,7 @@ IMEInputHandler
 :
 sLatestIMEOpenedModeInputSourceID
 =
-nsnull
+nullptr
 ;
 IMEInputHandler
 *
@@ -10857,7 +10857,7 @@ IMEInputHandler
 :
 sFocusedIMEHandler
 =
-nsnull
+nullptr
 ;
 /
 /
@@ -11052,7 +11052,7 @@ static
 CFStringRef
 sLastTIS
 =
-nsnull
+nullptr
 ;
 CFStringRef
 newTIS
@@ -12824,7 +12824,7 @@ Cancel
 ;
 mTimer
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -16436,7 +16436,7 @@ mPendingMethods
 )
 mIMECompositionString
 (
-nsnull
+nullptr
 )
 mIsIMEComposing
 (
@@ -16498,7 +16498,7 @@ Cancel
 ;
 mTimer
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -16511,7 +16511,7 @@ this
 {
 sFocusedIMEHandler
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -16637,7 +16637,7 @@ this
 )
 sFocusedIMEHandler
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -17140,7 +17140,7 @@ release
 ;
 mIMECompositionString
 =
-nsnull
+nullptr
 ;
 }
 mLastDispatchedCompositionString
@@ -22666,7 +22666,7 @@ false
 }
 mWidget
 =
-nsnull
+nullptr
 ;
 return
 true

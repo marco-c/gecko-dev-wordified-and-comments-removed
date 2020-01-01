@@ -223,7 +223,7 @@ PRLogModuleInfo
 *
 gLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -284,7 +284,7 @@ aTarget
 aTruthValue
 )
 :
-nsnull
+nullptr
 ;
 }
 static
@@ -328,7 +328,7 @@ Assertion
 aSource
 )
 :
-nsnull
+nullptr
 ;
 }
 static
@@ -397,7 +397,7 @@ hash
 .
 mPropertyHash
 =
-nsnull
+nullptr
 ;
 }
 aAssertion
@@ -699,7 +699,7 @@ aSource
 )
 mNext
 (
-nsnull
+nullptr
 )
 mRefCnt
 (
@@ -731,7 +731,7 @@ PL_NewDHashTable
 PL_DHashGetStubOps
 (
 )
-nsnull
+nullptr
 sizeof
 (
 Entry
@@ -764,7 +764,7 @@ aSource
 )
 mNext
 (
-nsnull
+nullptr
 )
 mRefCnt
 (
@@ -825,7 +825,7 @@ as
 .
 mInvNext
 =
-nsnull
+nullptr
 ;
 u
 .
@@ -999,7 +999,7 @@ as
 .
 mInvNext
 =
-nsnull
+nullptr
 ;
 doomed
 -
@@ -1244,7 +1244,7 @@ hdr
 >
 mAssertions
 :
-nsnull
+nullptr
 ;
 }
 Assertion
@@ -1286,7 +1286,7 @@ hdr
 >
 mAssertions
 :
-nsnull
+nullptr
 ;
 }
 void
@@ -1597,7 +1597,7 @@ aTarget
 aTruthValue
 )
 :
-nsnull
+nullptr
 ;
 }
 static
@@ -1696,7 +1696,7 @@ aTarget
 )
 mValue
 (
-nsnull
+nullptr
 )
 mTruthValue
 (
@@ -1704,7 +1704,7 @@ aTruthValue
 )
 mNextAssertion
 (
-nsnull
+nullptr
 )
 {
 NS_ADDREF
@@ -1790,7 +1790,7 @@ hdr
 >
 mAssertions
 :
-nsnull
+nullptr
 ;
 }
 }
@@ -2142,7 +2142,7 @@ mValue
 ;
 mValue
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2306,7 +2306,7 @@ aSource
 aTarget
 )
 :
-nsnull
+nullptr
 ;
 }
 static
@@ -2454,7 +2454,7 @@ aTarget
 )
 mCurrent
 (
-nsnull
+nullptr
 )
 {
 NS_ADDREF
@@ -2538,7 +2538,7 @@ get
 }
 mAssertion
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2643,7 +2643,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2951,7 +2951,7 @@ mCurrent
 ;
 mCurrent
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2978,7 +2978,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2996,7 +2996,7 @@ NS_ERROR_NULL_POINTER
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3196,13 +3196,13 @@ mForwardArcs
 .
 ops
 =
-nsnull
+nullptr
 ;
 mReverseArcs
 .
 ops
 =
-nsnull
+nullptr
 ;
 mPropagateChanges
 =
@@ -3227,7 +3227,7 @@ mForwardArcs
 PL_DHashGetStubOps
 (
 )
-nsnull
+nullptr
 sizeof
 (
 Entry
@@ -3240,7 +3240,7 @@ mForwardArcs
 .
 ops
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -3256,7 +3256,7 @@ mReverseArcs
 PL_DHashGetStubOps
 (
 )
-nsnull
+nullptr
 sizeof
 (
 Entry
@@ -3269,7 +3269,7 @@ mReverseArcs
 .
 ops
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -3472,7 +3472,7 @@ as
 .
 mInvNext
 =
-nsnull
+nullptr
 ;
 doomed
 -
@@ -3711,7 +3711,7 @@ aTarget
 )
 !
 =
-nsnull
+nullptr
 )
 {
 resource
@@ -3763,7 +3763,7 @@ aTarget
 )
 !
 =
-nsnull
+nullptr
 )
 {
 nsXPIDLString
@@ -3860,7 +3860,7 @@ NS_PRECONDITION
 uri
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3878,7 +3878,7 @@ NS_ERROR_NULL_POINTER
 *
 uri
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -3909,7 +3909,7 @@ NS_PRECONDITION
 source
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3929,7 +3929,7 @@ NS_PRECONDITION
 property
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3949,7 +3949,7 @@ NS_PRECONDITION
 target
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -4043,7 +4043,7 @@ NS_OK
 *
 source
 =
-nsnull
+nullptr
 ;
 return
 NS_RDF_NO_VALUE
@@ -4074,7 +4074,7 @@ NS_PRECONDITION
 source
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -4094,7 +4094,7 @@ NS_PRECONDITION
 property
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -4114,7 +4114,7 @@ NS_PRECONDITION
 target
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -4188,7 +4188,7 @@ hdr
 >
 mAssertions
 :
-nsnull
+nullptr
 ;
 while
 (
@@ -4248,7 +4248,7 @@ for
 as
 !
 =
-nsnull
+nullptr
 ;
 as
 =
@@ -4318,7 +4318,7 @@ NS_OK
 *
 target
 =
-nsnull
+nullptr
 ;
 return
 NS_RDF_NO_VALUE
@@ -4429,7 +4429,7 @@ hdr
 >
 mAssertions
 :
-nsnull
+nullptr
 ;
 while
 (
@@ -4495,7 +4495,7 @@ for
 as
 !
 =
-nsnull
+nullptr
 ;
 as
 =
@@ -4598,7 +4598,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -4618,7 +4618,7 @@ NS_PRECONDITION
 aTarget
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -4638,7 +4638,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -4663,7 +4663,7 @@ InMemoryAssertionEnumeratorImpl
 Create
 (
 this
-nsnull
+nullptr
 aProperty
 aTarget
 aTruthValue
@@ -4716,7 +4716,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -4736,7 +4736,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -4756,7 +4756,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -4783,7 +4783,7 @@ Create
 this
 aSource
 aProperty
-nsnull
+nullptr
 aTruthValue
 )
 ;
@@ -4863,7 +4863,7 @@ Assertion
 *
 as
 =
-nsnull
+nullptr
 ;
 bool
 haveHash
@@ -4923,7 +4923,7 @@ hdr
 >
 mAssertions
 :
-nsnull
+nullptr
 ;
 while
 (
@@ -5108,7 +5108,7 @@ hdr
 >
 mAssertions
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -5268,7 +5268,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -5288,7 +5288,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -5308,7 +5308,7 @@ NS_PRECONDITION
 aTarget
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -5493,7 +5493,7 @@ Assertion
 *
 as
 =
-nsnull
+nullptr
 ;
 bool
 haveHash
@@ -5553,7 +5553,7 @@ hdr
 >
 mAssertions
 :
-nsnull
+nullptr
 ;
 bool
 first
@@ -5725,7 +5725,7 @@ root
 SetForwardArcs
 (
 aSource
-nsnull
+nullptr
 )
 ;
 }
@@ -5982,7 +5982,7 @@ as
 .
 mInvNext
 =
-nsnull
+nullptr
 ;
 as
 -
@@ -6018,7 +6018,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -6038,7 +6038,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -6058,7 +6058,7 @@ NS_PRECONDITION
 aTarget
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -6210,7 +6210,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -6230,7 +6230,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -6250,7 +6250,7 @@ NS_PRECONDITION
 aOldTarget
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -6270,7 +6270,7 @@ NS_PRECONDITION
 aNewTarget
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -6443,7 +6443,7 @@ NS_PRECONDITION
 aOldSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -6463,7 +6463,7 @@ NS_PRECONDITION
 aNewSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -6483,7 +6483,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -6503,7 +6503,7 @@ NS_PRECONDITION
 aTarget
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -6667,7 +6667,7 @@ NS_PRECONDITION
 aObserver
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -6717,7 +6717,7 @@ NS_PRECONDITION
 aObserver
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -6909,7 +6909,7 @@ hdr
 >
 mAssertions
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -7005,7 +7005,7 @@ NS_PRECONDITION
 aTarget
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -7030,7 +7030,7 @@ InMemoryArcsEnumeratorImpl
 Create
 (
 this
-nsnull
+nullptr
 aTarget
 )
 ;
@@ -7076,7 +7076,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -7102,7 +7102,7 @@ Create
 (
 this
 aSource
-nsnull
+nullptr
 )
 ;
 if
@@ -7608,7 +7608,7 @@ hdr
 >
 mAssertions
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -7683,7 +7683,7 @@ first
 >
 mNext
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -7763,7 +7763,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -7783,7 +7783,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -7803,7 +7803,7 @@ NS_PRECONDITION
 aTarget
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -7877,7 +7877,7 @@ hdr
 >
 mAssertions
 :
-nsnull
+nullptr
 ;
 while
 (
@@ -7966,7 +7966,7 @@ for
 as
 !
 =
-nsnull
+nullptr
 ;
 as
 =
@@ -8096,7 +8096,7 @@ SweepInfo
 info
 =
 {
-nsnull
+nullptr
 &
 mReverseArcs
 &
@@ -8267,7 +8267,7 @@ as
 .
 mInvNext
 =
-nsnull
+nullptr
 ;
 doomed
 -
@@ -8410,7 +8410,7 @@ Assertion
 *
 prev
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -8542,7 +8542,7 @@ Assertion
 *
 rprev
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -8607,7 +8607,7 @@ as
 .
 mInvNext
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -8798,8 +8798,8 @@ mVisitor
 Visit
 (
 subject
-nsnull
-nsnull
+nullptr
+nullptr
 true
 )
 ;

@@ -1697,7 +1697,7 @@ mBlocks
 i
 ]
 =
-nsnull
+nullptr
 ;
 }
 void

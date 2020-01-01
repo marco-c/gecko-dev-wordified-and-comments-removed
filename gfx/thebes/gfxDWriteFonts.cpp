@@ -241,11 +241,11 @@ anAAOption
 )
 mCairoFontFace
 (
-nsnull
+nullptr
 )
 mMetrics
 (
-nsnull
+nullptr
 )
 mNeedsOblique
 (
@@ -2958,7 +2958,7 @@ blob
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -3293,7 +3293,7 @@ mAdjustedSize
 1
 .
 0f
-nsnull
+nullptr
 GetMeasuringMode
 (
 )
@@ -3370,7 +3370,7 @@ mGlyphWidths
 .
 SizeOfExcludingThis
 (
-nsnull
+nullptr
 aMallocSizeOf
 )
 ;

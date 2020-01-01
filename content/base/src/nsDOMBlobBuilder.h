@@ -281,7 +281,7 @@ BlobSet
 :
 mData
 (
-nsnull
+nullptr
 )
 mDataLen
 (
@@ -528,7 +528,7 @@ blob
 ;
 mData
 =
-nsnull
+nullptr
 ;
 mDataLen
 =

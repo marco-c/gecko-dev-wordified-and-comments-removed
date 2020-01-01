@@ -132,11 +132,11 @@ false
 )
 mRoot
 (
-nsnull
+nullptr
 )
 mCachedResults
 (
-nsnull
+nullptr
 )
 {
 }
@@ -240,7 +240,7 @@ ClearCachedResults
 {
 mCachedResults
 =
-nsnull
+nullptr
 ;
 }
 nsXULTemplateQueryProcessorRDF

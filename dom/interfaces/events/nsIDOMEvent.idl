@@ -1601,7 +1601,7 @@ nsInvalidateRequestList
 *
 aInvalidateRequests
 =
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -1625,7 +1625,7 @@ float
 *
 aFrameBuffer
 =
-nsnull
+nullptr
 PRUint32
 aFrameBufferLength
 =

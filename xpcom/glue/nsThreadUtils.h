@@ -200,7 +200,7 @@ nsIRunnable
 *
 initialEvent
 =
-nsnull
+nullptr
 PRUint32
 stackSize
 =
@@ -236,7 +236,7 @@ nsIRunnable
 *
 initialEvent
 =
-nsnull
+nullptr
 PRUint32
 stackSize
 =
@@ -414,7 +414,7 @@ nsIThread
 *
 thread
 =
-nsnull
+nullptr
 )
 ;
 extern
@@ -426,7 +426,7 @@ nsIThread
 *
 thread
 =
-nsnull
+nullptr
 bool
 mayWait
 =
@@ -446,7 +446,7 @@ nsIThread
 *
 thread
 =
-nsnull
+nullptr
 ;
 NS_GetCurrentThread
 (
@@ -477,7 +477,7 @@ nsIThread
 *
 thread
 =
-nsnull
+nullptr
 ;
 NS_GetMainThread
 (
@@ -717,7 +717,7 @@ Revoke
 {
 mObj
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1027,7 +1027,7 @@ nsRevocableEventPtr
 :
 mEvent
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1093,7 +1093,7 @@ Revoke
 ;
 mEvent
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1104,7 +1104,7 @@ Forget
 {
 mEvent
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -1116,7 +1116,7 @@ return
 mEvent
 !
 =
-nsnull
+nullptr
 ;
 }
 T
@@ -1182,7 +1182,7 @@ nsIThread
 *
 aThread
 =
-nsnull
+nullptr
 )
 ;
 private

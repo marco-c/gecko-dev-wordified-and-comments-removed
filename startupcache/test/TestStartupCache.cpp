@@ -281,7 +281,7 @@ true
 {
 NS_ProcessPendingEvents
 (
-nsnull
+nullptr
 )
 ;
 rv
@@ -898,7 +898,7 @@ PRUint32
 )
 -
 1
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1428,13 +1428,13 @@ obs
 >
 Observe
 (
-nsnull
+nullptr
 "
 xpcom
 -
 shutdown
 "
-nsnull
+nullptr
 )
 ;
 rv
@@ -2067,7 +2067,7 @@ JSObject
 *
 glob
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2096,7 +2096,7 @@ JSCrossCompartmentCall
 *
 compartment
 =
-nsnull
+nullptr
 ;
 if
 (

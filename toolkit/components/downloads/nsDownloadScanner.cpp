@@ -299,7 +299,7 @@ rv
 )
 mWatchdog
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -1381,7 +1381,7 @@ downloadState
 ;
 mDownload
 =
-nsnull
+nullptr
 ;
 NS_RELEASE_THIS
 (

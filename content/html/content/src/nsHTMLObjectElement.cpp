@@ -1671,7 +1671,7 @@ aContentDocument
 *
 aContentDocument
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1981,7 +1981,7 @@ else
 {
 LoadObject
 (
-nsnull
+nullptr
 aNotify
 ctype
 )

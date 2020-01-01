@@ -2519,7 +2519,7 @@ result
 &
 analysis
 :
-nsnull
+nullptr
 )
 )
 return

@@ -393,7 +393,7 @@ prop
 *
 _retval
 =
-nsnull
+nullptr
 ;
 *
 persistent
@@ -2216,7 +2216,7 @@ result
 mNext
 !
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2239,7 +2239,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 bool
 hasMore
@@ -2271,7 +2271,7 @@ result
 ;
 mNext
 =
-nsnull
+nullptr
 ;
 return
 *
@@ -2555,7 +2555,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -2596,8 +2596,8 @@ IsOSXLeopard
 ?
 NS_MACOSX_JAVA2_PLUGIN_DIR
 :
-nsnull
-nsnull
+nullptr
+nullptr
 }
 ;
 *
@@ -2624,11 +2624,11 @@ keys
 ]
 =
 {
-nsnull
+nullptr
 NS_USER_PLUGINS_DIR
 NS_APP_PLUGINS_DIR
 NS_SYSTEM_PLUGINS_DIR
-nsnull
+nullptr
 }
 ;
 #
@@ -2642,10 +2642,10 @@ keys
 ]
 =
 {
-nsnull
+nullptr
 NS_USER_PLUGINS_DIR
 NS_APP_PLUGINS_DIR
-nsnull
+nullptr
 }
 ;
 #
@@ -2741,10 +2741,10 @@ keys
 ]
 =
 {
-nsnull
+nullptr
 NS_APP_SEARCH_DIR
 NS_APP_USER_SEARCH_DIR
-nsnull
+nullptr
 }
 ;
 if

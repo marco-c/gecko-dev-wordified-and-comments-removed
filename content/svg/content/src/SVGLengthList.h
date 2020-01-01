@@ -412,7 +412,7 @@ SVGLengthListAndInfo
 :
 mElement
 (
-nsnull
+nullptr
 )
 mAxis
 (
@@ -717,7 +717,7 @@ SVGUserUnitList
 :
 mList
 (
-nsnull
+nullptr
 )
 {
 }
@@ -755,7 +755,7 @@ Clear
 {
 mList
 =
-nsnull
+nullptr
 ;
 }
 bool

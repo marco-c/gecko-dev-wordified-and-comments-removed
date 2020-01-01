@@ -487,7 +487,7 @@ Shutdown
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 bool

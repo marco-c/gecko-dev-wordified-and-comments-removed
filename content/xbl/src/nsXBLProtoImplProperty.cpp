@@ -104,11 +104,11 @@ aName
 )
 mGetterText
 (
-nsnull
+nullptr
 )
 mSetterText
 (
-nsnull
+nullptr
 )
 mJSAttributes
 (
@@ -207,11 +207,11 @@ aName
 )
 mGetterText
 (
-nsnull
+nullptr
 )
 mSetterText
 (
-nsnull
+nullptr
 )
 mJSAttributes
 (
@@ -657,7 +657,7 @@ JSObject
 *
 getter
 =
-nsnull
+nullptr
 ;
 JSAutoRequest
 ar
@@ -709,7 +709,7 @@ JSObject
 *
 setter
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -932,7 +932,7 @@ JSObject
 *
 getterObject
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -954,7 +954,7 @@ NS_ConvertUTF16toUTF8
 mName
 )
 0
-nsnull
+nullptr
 getter
 functionUri
 .
@@ -1013,7 +1013,7 @@ rv
 {
 mJSGetterObject
 =
-nsnull
+nullptr
 ;
 mJSAttributes
 &
@@ -1035,7 +1035,7 @@ mGetterText
 ;
 mJSGetterObject
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1093,7 +1093,7 @@ JSObject
 *
 setterObject
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -1174,7 +1174,7 @@ rv
 {
 mJSSetterObject
 =
-nsnull
+nullptr
 ;
 mJSAttributes
 &
@@ -1196,7 +1196,7 @@ mSetterText
 ;
 mJSSetterObject
 =
-nsnull
+nullptr
 ;
 }
 #

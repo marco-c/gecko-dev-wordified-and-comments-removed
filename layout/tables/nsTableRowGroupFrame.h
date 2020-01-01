@@ -698,7 +698,7 @@ bool
 *
 aPageBreakBeforeEnd
 =
-nsnull
+nullptr
 )
 ;
 nsresult

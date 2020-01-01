@@ -138,15 +138,15 @@ mDataSize
 )
 mCacheDevice
 (
-nsnull
+nullptr
 )
 mCustomDevice
 (
-nsnull
+nullptr
 )
 mData
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -351,7 +351,7 @@ GetDeviceID
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -403,7 +403,7 @@ mThread
 ;
 mData
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -489,7 +489,7 @@ request
 >
 mKey
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -716,7 +716,7 @@ if
 descriptor
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -1423,7 +1423,7 @@ PL_DHashTableInit
 table
 &
 ops
-nsnull
+nullptr
 sizeof
 (
 nsCacheEntryHashTableEntry
@@ -1490,7 +1490,7 @@ nsCacheEntry
 *
 result
 =
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -1508,7 +1508,7 @@ if
 initialized
 )
 return
-nsnull
+nullptr
 ;
 hashEntry
 =
@@ -1683,7 +1683,7 @@ cacheEntry
 cacheEntry
 =
 =
-nsnull
+nullptr
 "
 )
 ;
@@ -1841,7 +1841,7 @@ NS_ASSERTION
 key
 !
 =
-nsnull
+nullptr
 "
 #
 #

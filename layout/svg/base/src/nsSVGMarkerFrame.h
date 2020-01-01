@@ -118,7 +118,7 @@ aContext
 )
 mMarkedFrame
 (
-nsnull
+nullptr
 )
 mInUse
 (

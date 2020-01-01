@@ -143,7 +143,7 @@ if
 docShellAsItem
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -175,7 +175,7 @@ if
 window
 )
 return
-nsnull
+nullptr
 ;
 baseWin
 =

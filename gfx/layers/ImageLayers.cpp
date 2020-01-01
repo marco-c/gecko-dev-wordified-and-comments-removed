@@ -170,7 +170,7 @@ aNumFormats
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -496,19 +496,19 @@ BufferRecycleBin
 )
 mRemoteData
 (
-nsnull
+nullptr
 )
 mRemoteDataMutex
 (
-nsnull
+nullptr
 )
 mCompositionNotifySink
 (
-nsnull
+nullptr
 )
 mImageContainerChild
 (
-nsnull
+nullptr
 )
 {
 if
@@ -788,7 +788,7 @@ return
 mImageContainerChild
 !
 =
-nsnull
+nullptr
 ;
 }
 PRUint64
@@ -1042,7 +1042,7 @@ mActiveImage
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -1172,7 +1172,7 @@ mActiveImage
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 *
@@ -1275,7 +1275,7 @@ if
 mActiveImage
 )
 return
-nsnull
+nullptr
 ;
 *
 aSize
@@ -1294,7 +1294,7 @@ if
 mActiveImage
 )
 return
-nsnull
+nullptr
 ;
 *
 aSize
@@ -1468,7 +1468,7 @@ else
 {
 mActiveImage
 =
-nsnull
+nullptr
 ;
 }
 mRemoteDataMutex
@@ -1499,7 +1499,7 @@ mWasUpdated
 {
 mActiveImage
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1692,7 +1692,7 @@ aRecycleBin
 :
 Image
 (
-nsnull
+nullptr
 PLANAR_YCBCR
 )
 mBufferSize

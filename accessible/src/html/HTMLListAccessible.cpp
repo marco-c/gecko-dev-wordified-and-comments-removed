@@ -134,7 +134,7 @@ aDoc
 )
 mBullet
 (
-nsnull
+nullptr
 )
 {
 mFlags
@@ -186,12 +186,12 @@ Document
 BindToDocument
 (
 mBullet
-nsnull
+nullptr
 )
 )
 mBullet
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -210,7 +210,7 @@ Shutdown
 {
 mBullet
 =
-nsnull
+nullptr
 ;
 HyperTextAccessibleWrap
 :
@@ -456,7 +456,7 @@ document
 BindToDocument
 (
 mBullet
-nsnull
+nullptr
 )
 )
 {
@@ -485,7 +485,7 @@ mBullet
 ;
 mBullet
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -548,7 +548,7 @@ GetBullet
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 bool

@@ -265,7 +265,7 @@ JS
 .
 .
 return
-nsnull
+nullptr
 ;
 }
 JSObject
@@ -287,7 +287,7 @@ obj
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -318,7 +318,7 @@ rv
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 JSContext
@@ -335,7 +335,7 @@ GetSafeJSContext
 NS_ENSURE_TRUE
 (
 cx
-nsnull
+nullptr
 )
 ;
 JSAutoRequest
@@ -360,7 +360,7 @@ obj
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 JSObject
@@ -376,7 +376,7 @@ obj
 NS_ENSURE_TRUE
 (
 global
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -399,7 +399,7 @@ GetCID
 NS_ENSURE_TRUE
 (
 xpc
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -426,7 +426,7 @@ wrapper
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -443,7 +443,7 @@ wrapper
 NS_ENSURE_TRUE
 (
 window
-nsnull
+nullptr
 )
 ;
 return
@@ -560,11 +560,11 @@ memory
 .
 observer
 =
-nsnull
+nullptr
 ;
 window
 =
-nsnull
+nullptr
 ;
 return
 nil
@@ -1370,7 +1370,7 @@ pair
 >
 observer
 :
-nsnull
+nullptr
 ;
 [
 mDict
@@ -1434,7 +1434,7 @@ observer
 >
 Observe
 (
-nsnull
+nullptr
 "
 alertfinished
 "
@@ -1529,7 +1529,7 @@ pair
 >
 observer
 :
-nsnull
+nullptr
 ;
 [
 mDict
@@ -1593,7 +1593,7 @@ observer
 >
 Observe
 (
-nsnull
+nullptr
 "
 alertclickcallback
 "
@@ -1609,7 +1609,7 @@ observer
 >
 Observe
 (
-nsnull
+nullptr
 "
 alertfinished
 "

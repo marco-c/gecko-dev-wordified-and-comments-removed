@@ -857,7 +857,7 @@ TrackTicks
 *
 aStart
 =
-nsnull
+nullptr
 )
 {
 if
@@ -868,7 +868,7 @@ aOffset
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 TrackTicks
@@ -945,7 +945,7 @@ nextOffset
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 Chunk
@@ -964,7 +964,7 @@ IsEmpty
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

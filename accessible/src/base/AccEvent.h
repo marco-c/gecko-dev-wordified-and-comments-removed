@@ -1198,7 +1198,7 @@ if
 mRawPtr
 )
 return
-nsnull
+nullptr
 ;
 return
 mRawPtr
@@ -1227,7 +1227,7 @@ Destination
 mRawPtr
 )
 :
-nsnull
+nullptr
 ;
 }
 private

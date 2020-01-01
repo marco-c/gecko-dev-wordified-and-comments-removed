@@ -779,7 +779,7 @@ non
 <
 CODE
 >
-nsnull
+nullptr
 <
 /
 CODE
@@ -800,7 +800,7 @@ value
 back
 *
 to
-nsnull
+nullptr
 if
 the
 chrome

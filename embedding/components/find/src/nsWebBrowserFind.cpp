@@ -499,7 +499,7 @@ outDidFind
 searchWindowSupports
 =
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -829,7 +829,7 @@ NS_OK
 }
 docShellEnumerator
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -1680,7 +1680,7 @@ nsITextControlFrame
 *
 tcFrame
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -1847,7 +1847,7 @@ fm
 MoveFocus
 (
 aWindow
-nsnull
+nullptr
 nsIFocusManager
 :
 :
@@ -3547,7 +3547,7 @@ aSel
 *
 aSel
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -3618,7 +3618,7 @@ nsIFrame
 *
 frame
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -3696,7 +3696,7 @@ presContext
 )
 frame
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -3987,7 +3987,7 @@ if
 window
 )
 return
-nsnull
+nullptr
 ;
 return
 window

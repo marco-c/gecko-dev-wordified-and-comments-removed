@@ -261,7 +261,7 @@ Close
 ;
 mPipeIn
 =
-nsnull
+nullptr
 ;
 }
 return

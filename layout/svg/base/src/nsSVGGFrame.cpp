@@ -189,7 +189,7 @@ TRANSFORM_CHANGED
 {
 mCanvasTM
 =
-nsnull
+nullptr
 ;
 }
 nsSVGGFrameBase

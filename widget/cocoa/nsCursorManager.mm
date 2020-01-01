@@ -101,7 +101,7 @@ imgIContainer
 *
 sCursorImgContainer
 =
-nsnull
+nullptr
 ;
 static
 const

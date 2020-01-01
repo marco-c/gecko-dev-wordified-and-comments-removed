@@ -368,11 +368,11 @@ false
 )
 mParent
 (
-nsnull
+nullptr
 )
 mChild
 (
-nsnull
+nullptr
 )
 {
 NS_ASSERTION
@@ -1122,7 +1122,7 @@ nsIContent
 *
 aLastPopup
 =
-nsnull
+nullptr
 )
 ;
 void
@@ -1327,7 +1327,7 @@ aDir
 return
 HandleKeyboardNavigationInPopup
 (
-nsnull
+nullptr
 aFrame
 aDir
 )

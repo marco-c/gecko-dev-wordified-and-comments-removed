@@ -132,11 +132,11 @@ aElement
 :
 mBaseVal
 (
-nsnull
+nullptr
 )
 mAnimVal
 (
-nsnull
+nullptr
 )
 mElement
 (

@@ -684,7 +684,7 @@ len
 )
 !
 =
-nsnull
+nullptr
 )
 ;
 if
@@ -728,7 +728,7 @@ len
 )
 !
 =
-nsnull
+nullptr
 )
 ;
 aCouldBeMin

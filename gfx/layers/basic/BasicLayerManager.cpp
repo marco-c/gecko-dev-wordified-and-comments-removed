@@ -559,7 +559,7 @@ PHASE_NONE
 endif
 mWidget
 (
-nsnull
+nullptr
 )
 mDoubleBuffering
 (
@@ -612,7 +612,7 @@ ClearCachedResources
 ;
 mRoot
 =
-nsnull
+nullptr
 ;
 MOZ_COUNT_DTOR
 (
@@ -2093,7 +2093,7 @@ mTarget
 mRoot
 aCallback
 aCallbackData
-nsnull
+nullptr
 )
 ;
 if
@@ -2115,7 +2115,7 @@ mTransactionIncomplete
 {
 mTarget
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2331,8 +2331,8 @@ false
 return
 EndTransactionInternal
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -2735,7 +2735,7 @@ pixman_image_composite32
 (
 PIXMAN_OP_SRC
 src
-nsnull
+nullptr
 dest
 aDestOffset
 .
@@ -3052,7 +3052,7 @@ blitComplete
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 aDrawOffset
@@ -3967,8 +3967,8 @@ ImplData
 >
 Paint
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -4439,7 +4439,7 @@ HasShadowManager
 (
 )
 ?
-nsnull
+nullptr
 :
 aLayer
 -
@@ -5082,7 +5082,7 @@ mShadowTarget
 ;
 mShadowTarget
 =
-nsnull
+nullptr
 ;
 }
 }

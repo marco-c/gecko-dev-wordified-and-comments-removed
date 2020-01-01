@@ -854,7 +854,7 @@ support
 <
 CODE
 >
-nsnull
+nullptr
 <
 /
 CODE
@@ -883,7 +883,7 @@ or
 <
 CODE
 >
-nsnull
+nullptr
 <
 /
 CODE
@@ -924,7 +924,7 @@ or
 <
 CODE
 >
-nsnull
+nullptr
 <
 /
 CODE
@@ -946,7 +946,7 @@ or
 <
 CODE
 >
-nsnull
+nullptr
 <
 /
 CODE
@@ -968,7 +968,7 @@ or
 <
 CODE
 >
-nsnull
+nullptr
 <
 /
 CODE
@@ -1758,7 +1758,7 @@ support
 <
 CODE
 >
-nsnull
+nullptr
 <
 /
 CODE
@@ -1824,7 +1824,7 @@ document
 are
 saved
 or
-nsnull
+nullptr
 if
 no
 linked
@@ -1868,7 +1868,7 @@ all
 subdocuments
 into
 or
-nsnull
+nullptr
 to
 use
 *

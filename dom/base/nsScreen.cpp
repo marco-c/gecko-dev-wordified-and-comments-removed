@@ -166,7 +166,7 @@ GetDocShell
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -190,7 +190,7 @@ aWindow
 NS_ENSURE_TRUE
 (
 sgo
-nsnull
+nullptr
 )
 ;
 nsRefPtr
@@ -263,7 +263,7 @@ nsScreen
 :
 mEventListener
 (
-nsnull
+nullptr
 )
 {
 }
@@ -323,7 +323,7 @@ true
 }
 mEventListener
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1046,8 +1046,8 @@ event
 new
 nsDOMEvent
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 nsresult

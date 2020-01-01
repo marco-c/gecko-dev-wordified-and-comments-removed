@@ -299,7 +299,7 @@ Preferences
 :
 sPreferences
 =
-nsnull
+nullptr
 ;
 nsIPrefBranch
 *
@@ -308,7 +308,7 @@ Preferences
 :
 sRootBranch
 =
-nsnull
+nullptr
 ;
 nsIPrefBranch
 *
@@ -317,7 +317,7 @@ Preferences
 :
 sDefaultRootBranch
 =
-nsnull
+nullptr
 ;
 bool
 Preferences
@@ -725,7 +725,7 @@ CacheData
 *
 gCacheData
 =
-nsnull
+nullptr
 ;
 static
 nsRefPtrHashtable
@@ -736,7 +736,7 @@ ValueObserver
 *
 gObserverTable
 =
-nsnull
+nullptr
 ;
 Preferences
 *
@@ -765,7 +765,7 @@ NS_ENSURE_TRUE
 (
 !
 sShutdown
-nsnull
+nullptr
 )
 ;
 sRootBranch
@@ -829,7 +829,7 @@ sPreferences
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 gCacheData
@@ -906,7 +906,7 @@ return
 sPreferences
 !
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -981,14 +981,14 @@ gObserverTable
 ;
 gObserverTable
 =
-nsnull
+nullptr
 ;
 delete
 gCacheData
 ;
 gCacheData
 =
-nsnull
+nullptr
 ;
 NS_RELEASE
 (
@@ -1002,7 +1002,7 @@ sDefaultRootBranch
 ;
 sPreferences
 =
-nsnull
+nullptr
 ;
 PREF_Cleanup
 (
@@ -1309,7 +1309,7 @@ sPreferences
 >
 ReadUserPrefs
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1407,7 +1407,7 @@ false
 ;
 mCurrentFile
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1417,7 +1417,7 @@ rv
 =
 SavePrefFile
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1516,7 +1516,7 @@ rv
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 aFile
@@ -2120,7 +2120,7 @@ rv
 if
 (
 (
-nsnull
+nullptr
 !
 =
 aPrefRoot
@@ -2305,7 +2305,7 @@ NotifyObservers
 (
 subject
 aTopic
-nsnull
+nullptr
 )
 ;
 return
@@ -2641,7 +2641,7 @@ aFile
 >
 CopyTo
 (
-nsnull
+nullptr
 newFilename
 )
 ;
@@ -2755,7 +2755,7 @@ aFile
 {
 if
 (
-nsnull
+nullptr
 =
 =
 aFile
@@ -3284,7 +3284,7 @@ if
 fileBuffer
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -3752,7 +3752,7 @@ prefFiles
 Sort
 (
 pref_CompareFileNames
-nsnull
+nullptr
 )
 ;
 PRUint32
@@ -4071,7 +4071,7 @@ else
 pref_LoadPrefsInDir
 (
 path
-nsnull
+nullptr
 0
 )
 ;
@@ -4765,7 +4765,7 @@ rv
 NS_CreateServicesFromCategory
 (
 NS_PREFSERVICE_APPDEFAULTS_TOPIC_ID
-nsnull
+nullptr
 NS_PREFSERVICE_APPDEFAULTS_TOPIC_ID
 )
 ;
@@ -4798,9 +4798,9 @@ observerService
 >
 NotifyObservers
 (
-nsnull
+nullptr
 NS_PREFSERVICE_APPDEFAULTS_TOPIC_ID
-nsnull
+nullptr
 )
 ;
 return

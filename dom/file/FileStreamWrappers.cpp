@@ -769,7 +769,7 @@ ifdef
 DEBUG
 mWriteThread
 (
-nsnull
+nullptr
 )
 #
 endif
@@ -1303,7 +1303,7 @@ mProgressMax
 ;
 mFileHelper
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1343,7 +1343,7 @@ OnStreamClose
 ;
 mFileHelper
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1383,7 +1383,7 @@ OnStreamDestroy
 ;
 mFileHelper
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

@@ -107,7 +107,7 @@ NS_ASSERTION
 mPool
 !
 =
-nsnull
+nullptr
 "
 failed
 to

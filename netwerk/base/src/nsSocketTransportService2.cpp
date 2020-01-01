@@ -124,7 +124,7 @@ PRLogModuleInfo
 *
 gSocketTransportLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -132,13 +132,13 @@ nsSocketTransportService
 *
 gSocketTransportService
 =
-nsnull
+nullptr
 ;
 PRThread
 *
 gSocketThread
 =
-nsnull
+nullptr
 ;
 #
 define
@@ -179,11 +179,11 @@ nsSocketTransportService
 :
 mThread
 (
-nsnull
+nullptr
 )
 mThreadEvent
 (
-nsnull
+nullptr
 )
 mAutodialEnabled
 (
@@ -391,7 +391,7 @@ mPollList
 ;
 gSocketTransportService
 =
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -790,7 +790,7 @@ sock
 >
 mFD
 =
-nsnull
+nullptr
 ;
 NS_RELEASE
 (
@@ -1821,7 +1821,7 @@ mPollList
 else
 pollList
 =
-nsnull
+nullptr
 ;
 pollTimeout
 =
@@ -2220,7 +2220,7 @@ mLock
 ;
 mThread
 =
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -2743,7 +2743,7 @@ thread
 ;
 gSocketThread
 =
-nsnull
+nullptr
 ;
 psm
 :

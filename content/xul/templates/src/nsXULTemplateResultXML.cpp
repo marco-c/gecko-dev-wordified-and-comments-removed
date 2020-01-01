@@ -378,7 +378,7 @@ aResource
 *
 aResource
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -721,7 +721,7 @@ Processor
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (

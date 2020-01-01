@@ -109,7 +109,7 @@ mHandle
 )
 mData
 (
-nsnull
+nullptr
 )
 {
 }
@@ -125,7 +125,7 @@ aHandle
 )
 mData
 (
-nsnull
+nullptr
 )
 {
 }
@@ -147,7 +147,7 @@ mHandle
 ;
 mData
 =
-nsnull
+nullptr
 ;
 }
 virtual
@@ -236,7 +236,7 @@ mem
 shmat
 (
 mHandle
-nsnull
+nullptr
 0
 )
 ;

@@ -154,7 +154,7 @@ name
 }
 gInitiatorAcc
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -206,7 +206,7 @@ nsIContent
 *
 refContent
 =
-nsnull
+nullptr
 ;
 IDRefsIterator
 iter
@@ -393,7 +393,7 @@ aString
 ;
 gInitiatorAcc
 =
-nsnull
+nullptr
 ;
 return
 rv

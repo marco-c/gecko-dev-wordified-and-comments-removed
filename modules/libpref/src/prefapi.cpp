@@ -241,7 +241,7 @@ pref
 >
 key
 =
-nsnull
+nullptr
 ;
 memset
 (
@@ -348,7 +348,7 @@ PLDHashTable
 gHashTable
 =
 {
-nsnull
+nullptr
 }
 ;
 static
@@ -398,7 +398,7 @@ matchPrefEntry
 PL_DHashMoveEntryStub
 clearPrefEntry
 PL_DHashFinalizeStub
-nsnull
+nullptr
 }
 ;
 #
@@ -651,7 +651,7 @@ PL_DHashTableInit
 gHashTable
 &
 pref_HashTableOps
-nsnull
+nullptr
 sizeof
 (
 PrefHashEntry
@@ -664,7 +664,7 @@ gHashTable
 .
 ops
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -779,7 +779,7 @@ gHashTable
 .
 ops
 =
-nsnull
+nullptr
 ;
 PL_FinishArenaPool
 (
@@ -2531,7 +2531,7 @@ PL_DHashTableEnumerate
 &
 gHashTable
 pref_ClearUserPref
-nsnull
+nullptr
 )
 ;
 gDirty
@@ -2851,7 +2851,7 @@ result
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 result
@@ -3413,7 +3413,7 @@ pref_node
 must
 not
 be
-nsnull
+nullptr
 "
 )
 ;
@@ -3425,7 +3425,7 @@ callback
 must
 not
 be
-nsnull
+nullptr
 "
 )
 ;
@@ -3684,7 +3684,7 @@ node
 >
 func
 =
-nsnull
+nullptr
 ;
 gShouldCleanupDeadNodes
 =

@@ -149,7 +149,7 @@ CairoStatus
 )
 )
 return
-nsnull
+nullptr
 ;
 gfxMatrix
 m
@@ -817,7 +817,7 @@ state
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -1089,7 +1089,7 @@ mWinSurface
 ;
 mWinSurface
 =
-nsnull
+nullptr
 ;
 mRenderState
 =
@@ -1111,7 +1111,7 @@ mWinSurface
 ;
 mWinSurface
 =
-nsnull
+nullptr
 ;
 mRenderState
 =

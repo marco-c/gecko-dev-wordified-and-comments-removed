@@ -188,7 +188,7 @@ aKey
 return
 PL_DHashStringKey
 (
-nsnull
+nullptr
 aKey
 )
 ;

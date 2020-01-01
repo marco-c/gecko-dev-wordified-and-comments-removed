@@ -3914,8 +3914,8 @@ PL_NewHashTable
 HTMLTagsHashCodeUCPtr
 HTMLTagsKeyCompareUCPtr
 PL_CompareValues
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -3932,8 +3932,8 @@ PL_NewHashTable
 HTMLTagsHashCodeAtom
 PL_CompareValues
 PL_CompareValues
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -4243,11 +4243,11 @@ gTagAtomTable
 ;
 gTagTable
 =
-nsnull
+nullptr
 ;
 gTagAtomTable
 =
-nsnull
+nullptr
 ;
 }
 }

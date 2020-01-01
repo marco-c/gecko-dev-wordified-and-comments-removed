@@ -264,7 +264,7 @@ void
 :
 mContent
 (
-nsnull
+nullptr
 )
 {
 }
@@ -306,7 +306,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -341,11 +341,11 @@ Clear
 {
 mPropertyTable
 =
-nsnull
+nullptr
 ;
 mContent
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -383,7 +383,7 @@ if
 shell
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -407,7 +407,7 @@ mContent
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -437,7 +437,7 @@ mContent
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIDocument
@@ -458,7 +458,7 @@ doc
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -1111,7 +1111,7 @@ mPropertyTable
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1260,7 +1260,7 @@ data
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1448,7 +1448,7 @@ aParentBox
 *
 aParentBox
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -1532,7 +1532,7 @@ aFirstVisibleChild
 *
 aFirstVisibleChild
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -1613,7 +1613,7 @@ aLastVisibleChild
 *
 aLastVisibleChild
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -1636,7 +1636,7 @@ return
 GetPreviousSibling
 (
 frame
-nsnull
+nullptr
 aLastVisibleChild
 )
 ;
@@ -1656,7 +1656,7 @@ aNextOrdinalSibling
 *
 aNextOrdinalSibling
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -1737,7 +1737,7 @@ aPreviousOrdinalSibling
 *
 aPreviousOrdinalSibling
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -1805,7 +1805,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -1822,7 +1822,7 @@ nsIFrame
 *
 prevFrame
 =
-nsnull
+nullptr
 ;
 while
 (

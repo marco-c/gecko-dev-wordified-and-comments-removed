@@ -92,7 +92,7 @@ SmsParent
 :
 gSmsParents
 =
-nsnull
+nullptr
 ;
 NS_IMPL_ISUPPORTS1
 (
@@ -323,7 +323,7 @@ gSmsParents
 ;
 gSmsParents
 =
-nsnull
+nullptr
 ;
 }
 }

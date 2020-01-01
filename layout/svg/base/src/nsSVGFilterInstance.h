@@ -504,7 +504,7 @@ PrimitiveInfo
 :
 mFE
 (
-nsnull
+nullptr
 )
 mImageUsers
 (

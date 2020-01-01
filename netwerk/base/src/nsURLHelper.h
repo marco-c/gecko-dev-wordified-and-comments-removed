@@ -208,7 +208,7 @@ nsACString
 *
 scheme
 =
-nsnull
+nullptr
 )
 ;
 NS_HIDDEN_

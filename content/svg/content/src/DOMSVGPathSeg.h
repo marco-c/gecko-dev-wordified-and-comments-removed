@@ -225,7 +225,7 @@ ItemAt
 mListIndex
 )
 =
-nsnull
+nullptr
 ;
 }
 }

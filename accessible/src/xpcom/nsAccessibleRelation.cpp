@@ -68,7 +68,7 @@ nsIAccessible
 *
 targetAcc
 =
-nsnull
+nullptr
 ;
 while
 (

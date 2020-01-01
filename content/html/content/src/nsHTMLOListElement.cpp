@@ -350,7 +350,7 @@ eDOMClassInfo_HTMLUListElement_id
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_INTERFACE_TABLE_HEAD
@@ -842,7 +842,7 @@ nsGkAtoms
 type
 }
 {
-nsnull
+nullptr
 }
 }
 ;

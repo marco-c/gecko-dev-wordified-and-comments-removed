@@ -601,7 +601,7 @@ aRetVal
 *
 aRetVal
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -694,7 +694,7 @@ mPoints
 SafeElementAt
 (
 aIndex
-nsnull
+nullptr
 )
 ;
 }
@@ -723,7 +723,7 @@ nsTouchEvent
 (
 false
 0
-nsnull
+nullptr
 )
 )
 {
@@ -840,7 +840,7 @@ mEvent
 ;
 mEvent
 =
-nsnull
+nullptr
 ;
 }
 }

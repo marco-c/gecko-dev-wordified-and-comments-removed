@@ -384,7 +384,7 @@ y
 {
 mCanvasTM
 =
-nsnull
+nullptr
 ;
 nsSVGUtils
 :
@@ -523,7 +523,7 @@ useElement
 >
 mOriginal
 =
-nsnull
+nullptr
 ;
 useElement
 -
@@ -635,7 +635,7 @@ GetAnimatedLengthValues
 x
 &
 y
-nsnull
+nullptr
 )
 ;
 mRect

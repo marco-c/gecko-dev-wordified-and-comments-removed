@@ -168,7 +168,7 @@ nsNSSShutDownList
 :
 singleton
 =
-nsnull
+nullptr
 ;
 nsNSSShutDownList
 :
@@ -194,13 +194,13 @@ mPK11LogoutCancelObjects
 .
 ops
 =
-nsnull
+nullptr
 ;
 mObjects
 .
 ops
 =
-nsnull
+nullptr
 ;
 PL_DHashTableInit
 (
@@ -208,7 +208,7 @@ PL_DHashTableInit
 mObjects
 &
 gSetOps
-nsnull
+nullptr
 sizeof
 (
 ObjectHashEntry
@@ -222,7 +222,7 @@ PL_DHashTableInit
 mPK11LogoutCancelObjects
 &
 gSetOps
-nsnull
+nullptr
 sizeof
 (
 ObjectHashEntry
@@ -256,7 +256,7 @@ mObjects
 .
 ops
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -276,7 +276,7 @@ mPK11LogoutCancelObjects
 .
 ops
 =
-nsnull
+nullptr
 ;
 }
 PR_ASSERT
@@ -289,7 +289,7 @@ singleton
 ;
 singleton
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -939,7 +939,7 @@ singleton
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 singleton
@@ -991,7 +991,7 @@ false
 )
 mNSSRestrictedThread
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1305,7 +1305,7 @@ mNSSActivityStateLock
 ;
 mNSSRestrictedThread
 =
-nsnull
+nullptr
 ;
 mIsUIForbidden
 =

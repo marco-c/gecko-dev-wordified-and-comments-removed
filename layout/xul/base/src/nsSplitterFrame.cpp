@@ -261,7 +261,7 @@ Disconnect
 {
 mOuter
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -551,7 +551,7 @@ nsGkAtoms
 :
 :
 flex
-nsnull
+nullptr
 }
 ;
 switch
@@ -648,7 +648,7 @@ nsGkAtoms
 :
 :
 grow
-nsnull
+nullptr
 }
 ;
 switch
@@ -727,7 +727,7 @@ nsGkAtoms
 :
 :
 collapsed
-nsnull
+nullptr
 }
 ;
 static
@@ -750,7 +750,7 @@ nsGkAtoms
 :
 :
 after
-nsnull
+nullptr
 }
 ;
 switch
@@ -930,7 +930,7 @@ Release
 ;
 mInner
 =
-nsnull
+nullptr
 ;
 }
 nsBoxFrame
@@ -1014,7 +1014,7 @@ nsIFrame
 *
 grippy
 =
-nsnull
+nullptr
 ;
 nsScrollbarButtonFrame
 :
@@ -1122,14 +1122,14 @@ mInner
 >
 mChildInfosAfter
 =
-nsnull
+nullptr
 ;
 mInner
 -
 >
 mChildInfosBefore
 =
-nsnull
+nullptr
 ;
 mInner
 -
@@ -1300,7 +1300,7 @@ mInner
 >
 mParentBox
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -1732,7 +1732,7 @@ nsIPresShell
 :
 SetCapturingContent
 (
-nsnull
+nullptr
 0
 )
 ;
@@ -1819,11 +1819,11 @@ mChildInfosAfter
 ;
 mChildInfosBefore
 =
-nsnull
+nullptr
 ;
 mChildInfosAfter
 =
-nsnull
+nullptr
 ;
 mChildInfosBeforeCount
 =
@@ -2598,7 +2598,7 @@ nsIPresShell
 :
 SetCapturingContent
 (
-nsnull
+nullptr
 0
 )
 ;
@@ -2908,7 +2908,7 @@ GetChildBox
 ;
 while
 (
-nsnull
+nullptr
 !
 =
 childBox
@@ -3725,7 +3725,7 @@ nsGkAtoms
 :
 :
 both
-nsnull
+nullptr
 }
 ;
 switch
@@ -4120,7 +4120,7 @@ GetChildBox
 ;
 while
 (
-nsnull
+nullptr
 !
 =
 childBox
@@ -4154,7 +4154,7 @@ GetNextBox
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -4214,7 +4214,7 @@ state
 child
 onePixel
 aIsHorizontal
-nsnull
+nullptr
 )
 ;
 child

@@ -162,7 +162,7 @@ ClearRetainerWidget
 {
 mWidget
 =
-nsnull
+nullptr
 ;
 }
 virtual
@@ -175,7 +175,7 @@ return
 mWidget
 !
 =
-nsnull
+nullptr
 ;
 }
 virtual
@@ -311,7 +311,7 @@ CreateShadowThebesLayer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -324,7 +324,7 @@ CreateShadowContainerLayer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -337,7 +337,7 @@ CreateShadowImageLayer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -350,7 +350,7 @@ CreateShadowColorLayer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -363,7 +363,7 @@ CreateShadowCanvasLayer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -376,7 +376,7 @@ CreateShadowRefLayer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -497,7 +497,7 @@ return
 mWidget
 !
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -1182,7 +1182,7 @@ Disconnect
 {
 mShadow
 =
-nsnull
+nullptr
 ;
 }
 virtual
@@ -1193,7 +1193,7 @@ AsThebes
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }

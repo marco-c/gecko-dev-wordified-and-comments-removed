@@ -142,7 +142,7 @@ get
 (
 systemPrincipal
 )
-nsnull
+nullptr
 )
 ;
 if

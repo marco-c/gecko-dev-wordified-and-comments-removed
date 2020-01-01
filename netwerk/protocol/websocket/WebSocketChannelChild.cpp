@@ -1332,7 +1332,7 @@ TabChild
 *
 tabChild
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

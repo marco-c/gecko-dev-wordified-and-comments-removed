@@ -427,7 +427,7 @@ aUTF16String
 )
 mUTF8String
 (
-nsnull
+nullptr
 )
 mLength
 (
@@ -447,7 +447,7 @@ aLength
 :
 mUTF16String
 (
-nsnull
+nullptr
 )
 mUTF8String
 (
@@ -553,7 +553,7 @@ mutableKey
 >
 mUTF8String
 =
-nsnull
+nullptr
 ;
 mutableKey
 -
@@ -806,7 +806,7 @@ entry
 >
 mAtom
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -1102,7 +1102,7 @@ gAtomTable
 .
 ops
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1978,7 +1978,7 @@ gAtomTable
 .
 ops
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -2018,7 +2018,7 @@ EnsureTableExists
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 AtomTableKey
@@ -2080,7 +2080,7 @@ EnsureTableExists
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 AtomTableKey
@@ -2281,7 +2281,7 @@ gStaticAtomTable
 ;
 gStaticAtomTable
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -2985,7 +2985,7 @@ atom
 {
 atom
 =
-nsnull
+nullptr
 ;
 }
 return

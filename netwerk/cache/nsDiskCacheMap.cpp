@@ -864,7 +864,7 @@ NS_ERROR_UNEXPECTED
 ;
 mMapFD
 =
-nsnull
+nullptr
 ;
 }
 PR_FREEIF
@@ -3499,7 +3499,7 @@ nsDiskCacheEntry
 *
 diskEntry
 =
-nsnull
+nullptr
 ;
 PRUint32
 metaFile
@@ -3527,7 +3527,7 @@ MetaLocationInitialized
 )
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -3562,7 +3562,7 @@ file
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 CACHE_LOG_DEBUG
@@ -3596,7 +3596,7 @@ PRFileDesc
 *
 fd
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -3614,7 +3614,7 @@ fd
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 PRInt32
@@ -3685,7 +3685,7 @@ fd
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 }
@@ -3730,7 +3730,7 @@ bytesRead
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 rv
@@ -3759,7 +3759,7 @@ bytesRead
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 }
@@ -3798,7 +3798,7 @@ Size
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 diskEntry
@@ -3834,7 +3834,7 @@ if
 entry
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -3869,7 +3869,7 @@ infoObj
 serializable
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -3896,7 +3896,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 rv
 =
@@ -3925,7 +3925,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 }
 PRUint32
@@ -3992,7 +3992,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 nsDiskCacheEntry
 *
@@ -4148,7 +4148,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 diskEntry

@@ -709,7 +709,7 @@ wild
 print
 "
 {
-nsnull
+nullptr
 PR_FALSE
 PR_FALSE
 }

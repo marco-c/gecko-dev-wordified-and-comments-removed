@@ -97,7 +97,7 @@ nsString
 *
 aAcceptLangs
 =
-nsnull
+nullptr
 )
 const
 ;

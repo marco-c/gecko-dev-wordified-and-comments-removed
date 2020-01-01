@@ -212,9 +212,9 @@ xhr
 Init
 (
 systemPrincipal
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 TEST_ENSURE_SUCCESS
@@ -262,7 +262,7 @@ xhr
 >
 Send
 (
-nsnull
+nullptr
 )
 ;
 TEST_ENSURE_SUCCESS

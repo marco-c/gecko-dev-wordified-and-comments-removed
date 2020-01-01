@@ -539,7 +539,7 @@ Document
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 PRUint32
@@ -571,7 +571,7 @@ mChildDocuments
 SafeElementAt
 (
 aIndex
-nsnull
+nullptr
 )
 ;
 }
@@ -770,7 +770,7 @@ GetNodeParent
 )
 )
 :
-nsnull
+nullptr
 ;
 }
 bool
@@ -789,7 +789,7 @@ mDependentIDsHash
 Get
 (
 aID
-nsnull
+nullptr
 )
 ;
 }
@@ -970,7 +970,7 @@ nsIAtom
 *
 aRelAttr
 =
-nsnull
+nullptr
 )
 ;
 void
@@ -983,7 +983,7 @@ nsIAtom
 *
 aRelAttr
 =
-nsnull
+nullptr
 )
 ;
 bool
@@ -1341,7 +1341,7 @@ DocAccessible
 this
 )
 :
-nsnull
+nullptr
 ;
 }
 #

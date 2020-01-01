@@ -477,7 +477,7 @@ JS_NewArrayObject
 (
 aCx
 0
-nsnull
+nullptr
 )
 ;
 if

@@ -252,7 +252,7 @@ GetDBConn
 NS_ENSURE_TRUE
 (
 dbConn
-nsnull
+nullptr
 )
 ;
 return

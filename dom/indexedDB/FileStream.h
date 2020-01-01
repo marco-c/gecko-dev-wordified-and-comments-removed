@@ -83,7 +83,7 @@ false
 )
 mQuotaFile
 (
-nsnull
+nullptr
 )
 {
 }

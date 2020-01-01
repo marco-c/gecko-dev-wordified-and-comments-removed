@@ -419,7 +419,7 @@ gfxRect
 *
 aOverrideBBox
 =
-nsnull
+nullptr
 )
 ;
 ~
@@ -1487,7 +1487,7 @@ if
 mNoHRefURI
 )
 return
-nsnull
+nullptr
 ;
 nsSVGPaintingProperty
 *
@@ -1567,7 +1567,7 @@ mNoHRefURI
 true
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -1631,7 +1631,7 @@ if
 property
 )
 return
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -1651,7 +1651,7 @@ if
 result
 )
 return
-nsnull
+nullptr
 ;
 nsIAtom
 *
@@ -1675,7 +1675,7 @@ nsGkAtoms
 svgFilterFrame
 )
 return
-nsnull
+nullptr
 ;
 return
 static_cast
@@ -1711,7 +1711,7 @@ if
 referenced
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -1736,7 +1736,7 @@ attribute
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1925,8 +1925,8 @@ aFilteredFrame
 this
 aPaintCallback
 aDirtyArea
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -2098,11 +2098,11 @@ instance
 (
 aFilteredFrame
 this
-nsnull
-nsnull
+nullptr
+nullptr
 &
 aPreFilterDirtyRect
-nsnull
+nullptr
 )
 ;
 if
@@ -2187,11 +2187,11 @@ instance
 (
 aFilteredFrame
 this
-nsnull
+nullptr
 &
 aPostFilterDirtyRect
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -2280,8 +2280,8 @@ instance
 (
 aFilteredFrame
 this
-nsnull
-nsnull
+nullptr
+nullptr
 aPreFilterBounds
 aPreFilterBounds
 aOverrideBBox

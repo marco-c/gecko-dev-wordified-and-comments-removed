@@ -725,7 +725,7 @@ Revoke
 {
 mControlFrame
 =
-nsnull
+nullptr
 ;
 }
 private

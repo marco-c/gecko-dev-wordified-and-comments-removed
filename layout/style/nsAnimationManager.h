@@ -433,17 +433,17 @@ ElementAnimation
 *
 aAnimation
 =
-nsnull
+nullptr
 ElementAnimations
 *
 aEa
 =
-nsnull
+nullptr
 EventArray
 *
 aEventsToDispatch
 =
-nsnull
+nullptr
 )
 ;
 void
@@ -613,7 +613,7 @@ MayHaveAnimations
 )
 )
 return
-nsnull
+nullptr
 ;
 ElementAnimations
 *
@@ -643,7 +643,7 @@ if
 animations
 )
 return
-nsnull
+nullptr
 ;
 bool
 propertyMatches
@@ -671,7 +671,7 @@ CanPerformOnCompositorThread
 ?
 animations
 :
-nsnull
+nullptr
 ;
 }
 virtual

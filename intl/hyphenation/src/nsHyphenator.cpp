@@ -59,7 +59,7 @@ aURI
 :
 mDict
 (
-nsnull
+nullptr
 )
 {
 nsCString
@@ -142,7 +142,7 @@ if
 mDict
 !
 =
-nsnull
+nullptr
 )
 {
 hnj_hyphen_free
@@ -156,7 +156,7 @@ mDict
 ;
 mDict
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -173,7 +173,7 @@ return
 mDict
 !
 =
-nsnull
+nullptr
 )
 ;
 }
@@ -470,19 +470,19 @@ char
 *
 rep
 =
-nsnull
+nullptr
 ;
 int
 *
 pos
 =
-nsnull
+nullptr
 ;
 int
 *
 cut
 =
-nsnull
+nullptr
 ;
 int
 err
@@ -509,7 +509,7 @@ utf8hyphens
 Elements
 (
 )
-nsnull
+nullptr
 &
 rep
 &

@@ -843,7 +843,7 @@ mProgressSink
 OnProgress
 (
 this
-nsnull
+nullptr
 PRUint64
 (
 offset
@@ -1051,7 +1051,7 @@ mLoadGroup
 RemoveRequest
 (
 this
-nsnull
+nullptr
 mStatus
 )
 ;
@@ -1238,7 +1238,7 @@ mLoadGroup
 RemoveRequest
 (
 this
-nsnull
+nullptr
 mStatus
 )
 ;
@@ -1269,11 +1269,11 @@ mStatus
 }
 mListener
 =
-nsnull
+nullptr
 ;
 mListenerContext
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1995,7 +1995,7 @@ mLoadGroup
 AddRequest
 (
 this
-nsnull
+nullptr
 )
 ;
 bool

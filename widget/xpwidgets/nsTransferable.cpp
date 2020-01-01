@@ -354,7 +354,7 @@ file
 *
 aData
 =
-nsnull
+nullptr
 ;
 *
 aDataLen
@@ -415,10 +415,10 @@ if
 cacheFile
 =
 =
-nsnull
+nullptr
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -558,7 +558,7 @@ void
 *
 buff
 =
-nsnull
+nullptr
 ;
 nsPrimitiveHelpers
 :
@@ -823,7 +823,7 @@ NS_ERROR_FAILURE
 *
 aData
 =
-nsnull
+nullptr
 ;
 *
 aDataLen

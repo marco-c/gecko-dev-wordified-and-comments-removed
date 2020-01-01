@@ -534,7 +534,7 @@ false
 )
 mCamera
 (
-nsnull
+nullptr
 )
 {
 void
@@ -671,7 +671,7 @@ mOk
 mCamera
 !
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -966,7 +966,7 @@ ok
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1178,7 +1178,7 @@ HAL_getNumberOfCameras
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 hal
@@ -2335,11 +2335,11 @@ callback
 ;
 mCallback
 =
-nsnull
+nullptr
 ;
 mCallbackTarget
 =
-nsnull
+nullptr
 ;
 callback
 -

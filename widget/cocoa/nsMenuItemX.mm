@@ -219,11 +219,11 @@ nil
 ;
 mMenuParent
 =
-nsnull
+nullptr
 ;
 mMenuGroupOwner
 =
-nsnull
+nullptr
 ;
 mIsChecked
 =
@@ -3019,7 +3019,7 @@ mCommandContent
 ;
 mCommandContent
 =
-nsnull
+nullptr
 ;
 }
 mMenuParent

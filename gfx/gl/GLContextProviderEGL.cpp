@@ -674,7 +674,7 @@ EGLConfig
 *
 aConfig
 =
-nsnull
+nullptr
 )
 ;
 #
@@ -889,7 +889,7 @@ shareContext
 {
 shareContext
 =
-nsnull
+nullptr
 ;
 context
 =
@@ -931,7 +931,7 @@ EGLContext
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -964,7 +964,7 @@ Init
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 glContext
@@ -1017,11 +1017,11 @@ aContext
 )
 mPlatformContext
 (
-nsnull
+nullptr
 )
 mThebesSurface
 (
-nsnull
+nullptr
 )
 mBound
 (
@@ -1690,7 +1690,7 @@ LOCAL_GL_RGBA
 0
 LOCAL_GL_RGBA
 LOCAL_GL_UNSIGNED_BYTE
-nsnull
+nullptr
 )
 ;
 return
@@ -2128,7 +2128,7 @@ mContext
 default
 :
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -2407,14 +2407,14 @@ HasANGLESurfaceD3DTexture2DShareHandle
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 void
 *
 h
 =
-nsnull
+nullptr
 ;
 #
 ifndef
@@ -2448,7 +2448,7 @@ h
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -2616,7 +2616,7 @@ pbattrs
 EGLSurface
 surface
 =
-nsnull
+nullptr
 ;
 TRY_AGAIN_POWER_OF_TWO
 :
@@ -2818,7 +2818,7 @@ surface
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -2917,7 +2917,7 @@ SurfaceTextureWrapper
 {
 mSurfaceTexture
 =
-nsnull
+nullptr
 ;
 }
 nsSurfaceTexture
@@ -2976,11 +2976,11 @@ aTexture
 )
 mEGLImage
 (
-nsnull
+nullptr
 )
 mSyncObject
 (
-nsnull
+nullptr
 )
 mOwnsTexture
 (
@@ -3127,7 +3127,7 @@ mEGLImage
 ;
 mEGLImage
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -3174,7 +3174,7 @@ MOZ_ASSERT
 mSyncObject
 =
 =
-nsnull
+nullptr
 )
 ;
 if
@@ -3200,7 +3200,7 @@ EGL_DISPLAY
 (
 )
 LOCAL_EGL_SYNC_FENCE
-nsnull
+nullptr
 )
 ;
 mContext
@@ -3288,7 +3288,7 @@ mSyncObject
 ;
 mSyncObject
 =
-nsnull
+nullptr
 ;
 return
 result
@@ -5099,7 +5099,7 @@ ImageFormatUnknown
 )
 mEGLImage
 (
-nsnull
+nullptr
 )
 mTexture
 (
@@ -5107,11 +5107,11 @@ aTexture
 )
 mSurface
 (
-nsnull
+nullptr
 )
 mConfig
 (
-nsnull
+nullptr
 )
 mTextureState
 (
@@ -5395,7 +5395,7 @@ if
 mGraphicBuffer
 !
 =
-nsnull
+nullptr
 )
 return
 true
@@ -5540,7 +5540,7 @@ if
 mGraphicBuffer
 !
 =
-nsnull
+nullptr
 )
 {
 mUpdateSurface
@@ -5664,7 +5664,7 @@ Valid
 ;
 mUpdateSurface
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -5728,7 +5728,7 @@ Valid
 ;
 mUpdateSurface
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -5751,7 +5751,7 @@ gfxImageSurface
 >
 uploadImage
 =
-nsnull
+nullptr
 ;
 gfxIntSize
 updateSize
@@ -5992,7 +5992,7 @@ Data
 }
 mUpdateSurface
 =
-nsnull
+nullptr
 ;
 mTextureState
 =
@@ -6088,7 +6088,7 @@ MOZ_WIDGET_GONK
 mGraphicBuffer
 !
 =
-nsnull
+nullptr
 )
 #
 endif
@@ -6165,7 +6165,7 @@ Paint
 ;
 mUpdateSurface
 =
-nsnull
+nullptr
 ;
 UnlockSurface
 (
@@ -6616,7 +6616,7 @@ twice
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -6627,7 +6627,7 @@ if
 mGraphicBuffer
 !
 =
-nsnull
+nullptr
 )
 {
 mGLContext
@@ -6772,7 +6772,7 @@ extension
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -6796,7 +6796,7 @@ surface
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -6835,7 +6835,7 @@ char
 *
 data
 =
-nsnull
+nullptr
 ;
 int
 pitch
@@ -6957,7 +6957,7 @@ if
 mGraphicBuffer
 !
 =
-nsnull
+nullptr
 )
 {
 mGraphicBuffer
@@ -7161,7 +7161,7 @@ mEGLImage
 ;
 mEGLImage
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -7185,7 +7185,7 @@ mSurface
 ;
 mSurface
 =
-nsnull
+nullptr
 ;
 }
 virtual
@@ -7208,7 +7208,7 @@ DestroyEGLSurface
 ;
 mBackingSurface
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -7269,7 +7269,7 @@ False
 ;
 mConfig
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -7312,7 +7312,7 @@ xsurface
 XDrawable
 (
 )
-nsnull
+nullptr
 )
 ;
 if
@@ -7381,7 +7381,7 @@ mEGLImage
 ;
 mEGLImage
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -7470,7 +7470,7 @@ return
 mBackingSurface
 !
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -7588,7 +7588,7 @@ mEGLImage
 {
 mGraphicBuffer
 =
-nsnull
+nullptr
 ;
 LOG
 (
@@ -7623,7 +7623,7 @@ true
 }
 mGraphicBuffer
 =
-nsnull
+nullptr
 ;
 LOG
 (
@@ -7646,7 +7646,7 @@ return
 mBackingSurface
 !
 =
-nsnull
+nullptr
 ;
 }
 protected
@@ -8818,7 +8818,7 @@ EnsureInitialized
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -8977,7 +8977,7 @@ Init
 )
 )
 return
-nsnull
+nullptr
 ;
 glContext
 -
@@ -9052,7 +9052,7 @@ n
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -9111,7 +9111,7 @@ surface
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -9136,7 +9136,7 @@ surface
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 GLContextEGL
@@ -9178,7 +9178,7 @@ glContext
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 glContext
@@ -9725,7 +9725,7 @@ PBuffer
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -9793,7 +9793,7 @@ creation
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 config
@@ -9865,7 +9865,7 @@ context
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 sEGLLibrary
@@ -9941,7 +9941,7 @@ surface
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -9984,7 +9984,7 @@ GLContext
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 glContext
@@ -10099,7 +10099,7 @@ LOCAL_EGL_NONE
 EGLSurface
 surface
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -10247,7 +10247,7 @@ numConfigs
 )
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -10257,7 +10257,7 @@ numConfigs
 0
 )
 return
-nsnull
+nullptr
 ;
 int
 i
@@ -10351,7 +10351,7 @@ surface
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -10397,7 +10397,7 @@ gfxASurface
 *
 thebesSurface
 =
-nsnull
+nullptr
 ;
 EGLNativePixmapType
 pixmap
@@ -10461,7 +10461,7 @@ CairoStatus
 0
 )
 return
-nsnull
+nullptr
 ;
 thebesSurface
 =
@@ -10488,7 +10488,7 @@ pixmap
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 EGLSurface
@@ -10522,7 +10522,7 @@ config
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 GLContextEGL
@@ -10535,7 +10535,7 @@ GetGlobalContextEGL
 (
 )
 :
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -10604,7 +10604,7 @@ EnsureInitialized
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -10667,7 +10667,7 @@ if
 glContext
 )
 return
-nsnull
+nullptr
 ;
 gfxIntSize
 fboSize
@@ -10708,7 +10708,7 @@ usePBuffers
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 glContext
@@ -10750,7 +10750,7 @@ if
 glContext
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -10781,7 +10781,7 @@ true
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 glContext
@@ -10823,7 +10823,7 @@ glContext
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -10851,7 +10851,7 @@ true
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -10864,7 +10864,7 @@ forget
 #
 else
 return
-nsnull
+nullptr
 ;
 #
 endif
@@ -10884,7 +10884,7 @@ ContextFlags
 ifdef
 MOZ_JAVA_COMPOSITOR
 return
-nsnull
+nullptr
 ;
 #
 endif
@@ -10892,7 +10892,7 @@ endif
 ifdef
 XP_WIN
 return
-nsnull
+nullptr
 ;
 #
 endif
@@ -10976,7 +10976,7 @@ Shutdown
 {
 gGlobalContext
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -11034,7 +11034,7 @@ CONTENT_COLOR
 EGLSurface
 surface
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -11123,7 +11123,7 @@ numConfigs
 )
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -11133,7 +11133,7 @@ numConfigs
 0
 )
 return
-nsnull
+nullptr
 ;
 int
 i
@@ -11194,7 +11194,7 @@ surface
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -11238,7 +11238,7 @@ gfxASurface
 *
 thebesSurface
 =
-nsnull
+nullptr
 ;
 EGLNativePixmapType
 pixmap
@@ -11306,7 +11306,7 @@ CairoStatus
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 thebesSurface
@@ -11329,7 +11329,7 @@ pixmap
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 EGLSurface
@@ -11358,7 +11358,7 @@ config
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 EGLContext
@@ -11401,7 +11401,7 @@ surface
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -11414,7 +11414,7 @@ new
 GLContextEGL
 (
 aFormat
-nsnull
+nullptr
 config
 surface
 context
@@ -11433,7 +11433,7 @@ Init
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 glContext
@@ -11468,7 +11468,7 @@ gfxASurface
 *
 thebesSurface
 =
-nsnull
+nullptr
 ;
 EGLNativePixmapType
 pixmap
@@ -11535,7 +11535,7 @@ CairoStatus
 0
 )
 return
-nsnull
+nullptr
 ;
 thebesSurface
 =
@@ -11557,7 +11557,7 @@ pixmap
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 EGLSurface
@@ -11596,7 +11596,7 @@ pbuffer
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 sEGLLibrary

@@ -133,7 +133,7 @@ aContext
 )
 mTextRun
 (
-nsnull
+nullptr
 )
 mStartIndex
 (
@@ -844,7 +844,7 @@ gfxPattern
 *
 aStrokePattern
 =
-nsnull
+nullptr
 )
 ;
 void

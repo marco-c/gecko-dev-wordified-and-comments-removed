@@ -988,7 +988,7 @@ nsGkAtoms
 :
 :
 mixed
-nsnull
+nullptr
 }
 ;
 PRInt32
@@ -1022,7 +1022,7 @@ idx
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 Accessible
@@ -1101,7 +1101,7 @@ break
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 Accessible
@@ -1124,7 +1124,7 @@ if
 aAccessible
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -1139,7 +1139,7 @@ SELECTABLE
 )
 )
 return
-nsnull
+nullptr
 ;
 Accessible
 *
@@ -1184,7 +1184,7 @@ nsIAccessibleRole
 ROLE_PANE
 )
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1261,7 +1261,7 @@ if
 focusDOMNode
 )
 return
-nsnull
+nullptr
 ;
 PRInt32
 focusOffset
@@ -1337,7 +1337,7 @@ GetAccessibleOrContainer
 resultNode
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -1359,7 +1359,7 @@ event
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 do
@@ -1412,7 +1412,7 @@ nsIAccessibleText
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsresult

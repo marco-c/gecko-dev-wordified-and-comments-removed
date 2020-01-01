@@ -438,7 +438,7 @@ aChild
 >
 SetNextSibling
 (
-nsnull
+nullptr
 )
 ;
 aChild
@@ -446,7 +446,7 @@ aChild
 >
 SetPrevSibling
 (
-nsnull
+nullptr
 )
 ;
 aChild
@@ -454,7 +454,7 @@ aChild
 >
 SetParent
 (
-nsnull
+nullptr
 )
 ;
 aContainer

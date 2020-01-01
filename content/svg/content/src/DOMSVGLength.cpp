@@ -94,7 +94,7 @@ tmp
 mListIndex
 ]
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
@@ -262,7 +262,7 @@ DOMSVGLength
 :
 mList
 (
-nsnull
+nullptr
 )
 mListIndex
 (
@@ -1287,7 +1287,7 @@ PRUint8
 (
 aUnit
 )
-nsnull
+nullptr
 0
 )
 )
@@ -1409,7 +1409,7 @@ GetUnit
 ;
 mList
 =
-nsnull
+nullptr
 ;
 mIsAnimValItem
 =

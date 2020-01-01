@@ -609,7 +609,7 @@ T
 *
 raw
 =
-nsnull
+nullptr
 ;
 aSrc
 .
@@ -926,7 +926,7 @@ dataArray
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 MOZ_ASSERT
@@ -967,7 +967,7 @@ aCx
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -1431,7 +1431,7 @@ DATA_CLONE_ERR
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1571,7 +1571,7 @@ DATA_CLONE_ERR
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1594,7 +1594,7 @@ aCx
 aReader
 aTag
 aData
-nsnull
+nullptr
 )
 ;
 }
@@ -1890,7 +1890,7 @@ NS_DOMWriteStructuredClone
 aCx
 aWriter
 aObj
-nsnull
+nullptr
 )
 ;
 }
@@ -2133,7 +2133,7 @@ aCx
 aReader
 aTag
 aData
-nsnull
+nullptr
 )
 ;
 }
@@ -2190,7 +2190,7 @@ NS_DOMWriteStructuredClone
 aCx
 aWriter
 aObj
-nsnull
+nullptr
 )
 )
 {
@@ -3250,7 +3250,7 @@ mDataByteCount
 ;
 mData
 =
-nsnull
+nullptr
 ;
 mDataByteCount
 =
@@ -3873,7 +3873,7 @@ GetJSObject
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -4486,7 +4486,7 @@ error
 ;
 scriptError
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4828,7 +4828,7 @@ mWorkerRunnable
 >
 Dispatch
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -5114,7 +5114,7 @@ timer
 InitWithFuncCallback
 (
 DummyCallback
-nsnull
+nullptr
 aDelayMS
 nsITimer
 :
@@ -5176,7 +5176,7 @@ Cancel
 ;
 mTimer
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -5733,7 +5733,7 @@ RuntimeStats
 (
 mData
 )
-nsnull
+nullptr
 )
 ;
 }
@@ -6403,7 +6403,7 @@ AssertCurrentThreadOwns
 endif
 mWorkerPrivate
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -6622,7 +6622,7 @@ ok
 =
 PreDispatch
 (
-nsnull
+nullptr
 mWorkerPrivate
 )
 ;
@@ -6640,7 +6640,7 @@ DispatchInternal
 }
 PostDispatch
 (
-nsnull
+nullptr
 mWorkerPrivate
 ok
 )
@@ -6961,7 +6961,7 @@ nsIThreadJSContextStack
 *
 contextStack
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -7096,7 +7096,7 @@ context
 ;
 contextStack
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -8481,14 +8481,14 @@ mJSObjectRooted
 ;
 mJSObject
 =
-nsnull
+nullptr
 ;
 if
 (
 !
 TerminatePrivate
 (
-nsnull
+nullptr
 )
 )
 {
@@ -10079,7 +10079,7 @@ aDocument
 )
 mJSContext
 (
-nsnull
+nullptr
 )
 mErrorHandlerRecursionCount
 (
@@ -10328,7 +10328,7 @@ NS_ERROR_DOM_SECURITY_ERR
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -10365,7 +10365,7 @@ principal
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -10415,7 +10415,7 @@ GetOuterWindow
 (
 )
 :
-nsnull
+nullptr
 ;
 window
 =
@@ -10428,7 +10428,7 @@ GetCurrentInnerWindow
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -10464,7 +10464,7 @@ NS_ERROR_DOM_SECURITY_ERR
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 scriptContext
@@ -10500,7 +10500,7 @@ worker
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 parentContext
@@ -10544,7 +10544,7 @@ window
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 baseURI
@@ -10591,7 +10591,7 @@ principal
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -10630,7 +10630,7 @@ codebase
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 NS_NAMED_LITERAL_CSTRING
@@ -10680,7 +10680,7 @@ file
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -10728,7 +10728,7 @@ service
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -10759,7 +10759,7 @@ domain
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -10781,7 +10781,7 @@ only
 ;
 parentContext
 =
-nsnull
+nullptr
 ;
 JSScript
 *
@@ -10794,7 +10794,7 @@ JS_DescribeScriptedCaller
 aCx
 &
 script
-nsnull
+nullptr
 )
 )
 {
@@ -10831,7 +10831,7 @@ URI
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -10877,7 +10877,7 @@ domain
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -10904,7 +10904,7 @@ urlChars
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsDependentString
@@ -10977,7 +10977,7 @@ aCx
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -11167,7 +11167,7 @@ reporter
 ;
 mMemoryReporter
 =
-nsnull
+nullptr
 ;
 }
 for
@@ -11300,7 +11300,7 @@ gcTimer
 InitWithFuncCallback
 (
 DummyCallback
-nsnull
+nullptr
 NORMAL_GC_TIMER_DELAY_MS
 nsITimer
 :
@@ -11464,7 +11464,7 @@ gcTimer
 InitWithFuncCallback
 (
 DummyCallback
-nsnull
+nullptr
 IDLE_GC_TIMER_DELAY_MS
 nsITimer
 :
@@ -11653,7 +11653,7 @@ reporter
 }
 mMemoryReporter
 =
-nsnull
+nullptr
 ;
 }
 StopAcceptingEvents
@@ -11870,7 +11870,7 @@ aWasPending
 {
 currentThread
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -11930,7 +11930,7 @@ runnable
 >
 Dispatch
 (
-nsnull
+nullptr
 )
 )
 {
@@ -12054,7 +12054,7 @@ runnable
 >
 Dispatch
 (
-nsnull
+nullptr
 )
 )
 {
@@ -13505,7 +13505,7 @@ Huh
 endif
 mTimer
 =
-nsnull
+nullptr
 ;
 }
 PRUint32
@@ -13790,7 +13790,7 @@ ifdef
 DEBUG
 syncQueue
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -14767,7 +14767,7 @@ ReportError
 aCx
 this
 fireAtScope
-nsnull
+nullptr
 message
 filename
 line
@@ -15846,7 +15846,7 @@ info
 -
 >
 mLineNumber
-nsnull
+nullptr
 )
 )
 &
@@ -16286,7 +16286,7 @@ mTimer
 InitWithFuncCallback
 (
 DummyCallback
-nsnull
+nullptr
 delay
 nsITimer
 :

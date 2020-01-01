@@ -280,7 +280,7 @@ nsIURI
 *
 uri
 =
-nsnull
+nullptr
 )
 ;
 virtual

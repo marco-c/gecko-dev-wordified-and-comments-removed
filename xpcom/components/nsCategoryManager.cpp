@@ -237,7 +237,7 @@ BaseStringEnumerator
 :
 mArray
 (
-nsnull
+nullptr
 )
 mCount
 (
@@ -528,7 +528,7 @@ mArray
 ]
 )
 SortCallback
-nsnull
+nullptr
 )
 ;
 }
@@ -657,7 +657,7 @@ if
 enumObj
 )
 return
-nsnull
+nullptr
 ;
 enumObj
 -
@@ -689,7 +689,7 @@ delete
 enumObj
 ;
 return
-nsnull
+nullptr
 ;
 }
 aTable
@@ -741,7 +741,7 @@ if
 node
 )
 return
-nsnull
+nullptr
 ;
 node
 -
@@ -1312,7 +1312,7 @@ if
 enumObj
 )
 return
-nsnull
+nullptr
 ;
 enumObj
 -
@@ -1344,7 +1344,7 @@ delete
 enumObj
 ;
 return
-nsnull
+nullptr
 ;
 }
 aTable
@@ -1622,7 +1622,7 @@ node
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -2089,7 +2089,7 @@ char
 *
 oldEntry
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -2277,7 +2277,7 @@ NotifyObservers
 (
 NS_XPCOM_CATEGORY_CLEARED_OBSERVER_ID
 aCategoryName
-nsnull
+nullptr
 )
 ;
 }

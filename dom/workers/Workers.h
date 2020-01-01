@@ -281,7 +281,7 @@ mMutex
 ;
 mPrivate
 =
-nsnull
+nullptr
 ;
 }
 bool

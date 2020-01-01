@@ -63,7 +63,7 @@ aValue
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -881,7 +881,7 @@ nsINode
 *
 root
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -933,7 +933,7 @@ nsINode
 *
 newRoot
 =
-nsnull
+nullptr
 ;
 if
 (

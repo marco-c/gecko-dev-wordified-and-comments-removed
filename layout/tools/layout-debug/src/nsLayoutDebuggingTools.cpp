@@ -173,13 +173,13 @@ if
 aDocShell
 )
 return
-nsnull
+nullptr
 ;
 nsIContentViewer
 *
 result
 =
-nsnull
+nullptr
 ;
 aDocShell
 -
@@ -223,7 +223,7 @@ if
 cv
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -278,7 +278,7 @@ if
 shell
 )
 return
-nsnull
+nullptr
 ;
 return
 shell
@@ -322,7 +322,7 @@ if
 cv
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -347,13 +347,13 @@ if
 domDoc
 )
 return
-nsnull
+nullptr
 ;
 nsIDocument
 *
 result
 =
-nsnull
+nullptr
 ;
 CallQueryInterface
 (
@@ -1613,7 +1613,7 @@ ifdef
 DEBUG
 if
 (
-nsnull
+nullptr
 !
 =
 aDocShell
@@ -2681,7 +2681,7 @@ prefService
 >
 SavePrefFile
 (
-nsnull
+nullptr
 )
 ;
 ForceRefresh

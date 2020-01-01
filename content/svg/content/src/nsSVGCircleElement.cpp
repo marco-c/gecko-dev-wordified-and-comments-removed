@@ -470,7 +470,7 @@ x
 y
 &
 r
-nsnull
+nullptr
 )
 ;
 if

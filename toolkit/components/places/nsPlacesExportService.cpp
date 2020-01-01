@@ -224,7 +224,7 @@ char
 *
 escaped
 =
-nsnull
+nullptr
 ;
 PRUint32
 len
@@ -246,7 +246,7 @@ PR_UINT32_MAX
 )
 )
 return
-nsnull
+nullptr
 ;
 escaped
 =
@@ -651,7 +651,7 @@ this
 )
 gExportService
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -2854,7 +2854,7 @@ getter_AddRefs
 pageURI
 )
 uri
-nsnull
+nullptr
 )
 ;
 if

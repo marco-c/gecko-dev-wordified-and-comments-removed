@@ -551,7 +551,7 @@ aOverrideBounds
 *
 surface
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -1103,7 +1103,7 @@ PaintFrameWithEffects
 (
 &
 context
-nsnull
+nullptr
 kid
 )
 ;
@@ -1122,7 +1122,7 @@ patternFrame
 >
 mSource
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1214,7 +1214,7 @@ if
 next
 )
 return
-nsnull
+nullptr
 ;
 return
 next
@@ -1708,7 +1708,7 @@ if
 mNoHRefURI
 )
 return
-nsnull
+nullptr
 ;
 nsSVGPaintingProperty
 *
@@ -1788,7 +1788,7 @@ mNoHRefURI
 true
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -1852,7 +1852,7 @@ if
 property
 )
 return
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -1872,7 +1872,7 @@ if
 result
 )
 return
-nsnull
+nullptr
 ;
 nsIAtom
 *
@@ -1896,7 +1896,7 @@ nsGkAtoms
 svgPatternFrame
 )
 return
-nsnull
+nullptr
 ;
 return
 static_cast
@@ -1932,7 +1932,7 @@ if
 referenced
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -1957,7 +1957,7 @@ attribute
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -2209,7 +2209,7 @@ nsSVGSVGElement
 *
 ctx
 =
-nsnull
+nullptr
 ;
 nsIContent
 *
@@ -2905,7 +2905,7 @@ rv
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -2918,7 +2918,7 @@ IsSingular
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 pMatrix
@@ -2953,7 +2953,7 @@ CairoStatus
 )
 )
 return
-nsnull
+nullptr
 ;
 pattern
 -

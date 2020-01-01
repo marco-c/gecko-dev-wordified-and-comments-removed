@@ -85,7 +85,7 @@ nsIVariant
 *
 variant
 =
-nsnull
+nullptr
 ;
 int
 type

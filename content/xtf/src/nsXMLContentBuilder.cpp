@@ -411,7 +411,7 @@ mDocument
 CreateElem
 (
 tagname
-nsnull
+nullptr
 mNamespaceId
 getter_AddRefs
 (
@@ -718,7 +718,7 @@ mTop
 *
 aRoot
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -753,7 +753,7 @@ mCurrent
 *
 aCurrent
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
