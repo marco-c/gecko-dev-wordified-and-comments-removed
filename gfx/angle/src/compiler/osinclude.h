@@ -8,12 +8,6 @@ __OSINCLUDE_H
 if
 defined
 (
-ANGLE_USE_NSPR
-)
-#
-elif
-defined
-(
 _WIN32
 )
 |

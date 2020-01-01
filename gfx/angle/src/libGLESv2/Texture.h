@@ -70,6 +70,9 @@ gl
 class
 Blit
 ;
+class
+Framebuffer
+;
 enum
 {
 IMPLEMENTATION_MAX_TEXTURE_SIZE
@@ -267,7 +270,7 @@ GLsizei
 width
 GLsizei
 height
-RenderbufferStorage
+Framebuffer
 *
 source
 )
@@ -738,7 +741,7 @@ GLsizei
 width
 GLsizei
 height
-size_t
+int
 inputPitch
 const
 void
@@ -763,7 +766,7 @@ GLsizei
 width
 GLsizei
 height
-size_t
+int
 inputPitch
 const
 void
@@ -788,7 +791,7 @@ GLsizei
 width
 GLsizei
 height
-size_t
+int
 inputPitch
 const
 void
@@ -813,7 +816,7 @@ GLsizei
 width
 GLsizei
 height
-size_t
+int
 inputPitch
 const
 void
@@ -840,7 +843,7 @@ GLsizei
 width
 GLsizei
 height
-size_t
+int
 inputPitch
 const
 void
@@ -865,7 +868,7 @@ GLsizei
 width
 GLsizei
 height
-size_t
+int
 inputPitch
 const
 void
@@ -890,7 +893,7 @@ GLsizei
 width
 GLsizei
 height
-size_t
+int
 inputPitch
 const
 void
@@ -917,7 +920,7 @@ GLsizei
 width
 GLsizei
 height
-size_t
+int
 inputPitch
 const
 void
@@ -942,7 +945,7 @@ GLsizei
 width
 GLsizei
 height
-size_t
+int
 inputPitch
 const
 void
@@ -967,7 +970,7 @@ GLsizei
 width
 GLsizei
 height
-size_t
+int
 inputPitch
 const
 void
@@ -992,7 +995,7 @@ GLsizei
 width
 GLsizei
 height
-size_t
+int
 inputPitch
 const
 void
@@ -1017,7 +1020,7 @@ GLsizei
 width
 GLsizei
 height
-size_t
+int
 inputPitch
 const
 void
@@ -1042,7 +1045,7 @@ GLsizei
 width
 GLsizei
 height
-size_t
+int
 inputPitch
 const
 void
@@ -1067,7 +1070,7 @@ GLsizei
 width
 GLsizei
 height
-size_t
+int
 inputPitch
 const
 void
@@ -1092,7 +1095,7 @@ GLsizei
 width
 GLsizei
 height
-size_t
+int
 inputPitch
 const
 void
@@ -1117,7 +1120,7 @@ GLsizei
 width
 GLsizei
 height
-size_t
+int
 inputPitch
 const
 void
@@ -1142,7 +1145,7 @@ GLsizei
 width
 GLsizei
 height
-size_t
+int
 inputPitch
 const
 void
@@ -1167,7 +1170,7 @@ GLsizei
 width
 GLsizei
 height
-size_t
+int
 inputPitch
 const
 void
@@ -1192,7 +1195,32 @@ GLsizei
 width
 GLsizei
 height
+int
+inputPitch
+const
+void
+*
+input
 size_t
+outputPitch
+void
+*
+output
+)
+const
+;
+void
+loadCompressedImageData
+(
+GLint
+xoffset
+GLint
+yoffset
+GLsizei
+width
+GLsizei
+height
+int
 inputPitch
 const
 void
@@ -1355,7 +1383,7 @@ GLsizei
 width
 GLsizei
 height
-RenderbufferStorage
+Framebuffer
 *
 source
 )
@@ -1379,7 +1407,7 @@ GLsizei
 width
 GLsizei
 height
-RenderbufferStorage
+Framebuffer
 *
 source
 )
@@ -1762,7 +1790,7 @@ GLsizei
 width
 GLsizei
 height
-RenderbufferStorage
+Framebuffer
 *
 source
 )
@@ -1786,7 +1814,7 @@ GLsizei
 width
 GLsizei
 height
-RenderbufferStorage
+Framebuffer
 *
 source
 )
@@ -1865,9 +1893,8 @@ IDirect3DSurface9
 *
 getCubeMapSurface
 (
-unsigned
-int
-faceIdentifier
+GLenum
+face
 unsigned
 int
 level

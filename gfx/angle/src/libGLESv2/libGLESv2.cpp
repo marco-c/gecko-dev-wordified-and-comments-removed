@@ -41,6 +41,15 @@ h
 #
 include
 "
+common
+/
+version
+.
+h
+"
+#
+include
+"
 libGLESv2
 /
 main
@@ -150,7 +159,7 @@ GLenum
 texture
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -251,7 +260,7 @@ GLuint
 shader
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -442,7 +451,7 @@ GLchar
 name
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -621,7 +630,7 @@ GLuint
 buffer
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -732,7 +741,7 @@ GLuint
 framebuffer
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -876,7 +885,7 @@ GLuint
 renderbuffer
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -970,7 +979,7 @@ GLuint
 texture
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -1129,7 +1138,7 @@ GLclampf
 alpha
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -1261,7 +1270,7 @@ GLenum
 modeAlpha
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -1415,7 +1424,7 @@ GLenum
 dstAlpha
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -1846,7 +1855,7 @@ GLenum
 usage
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -2051,7 +2060,7 @@ GLvoid
 data
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -2263,7 +2272,7 @@ GLenum
 target
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -2405,7 +2414,7 @@ GLbitfield
 mask
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -2481,7 +2490,7 @@ GLclampf
 alpha
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -2572,7 +2581,7 @@ GLclampf
 depth
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -2642,7 +2651,7 @@ GLint
 s
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -2718,7 +2727,7 @@ GLboolean
 alpha
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -2821,7 +2830,7 @@ GLuint
 shader
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -2955,7 +2964,7 @@ GLvoid
 data
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -3518,7 +3527,7 @@ GLvoid
 data
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -4136,7 +4145,7 @@ GLint
 border
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -4756,7 +4765,7 @@ x
 y
 width
 height
-source
+framebuffer
 )
 ;
 }
@@ -4811,7 +4820,7 @@ x
 y
 width
 height
-source
+framebuffer
 )
 ;
 }
@@ -4861,7 +4870,7 @@ GLsizei
 height
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -5429,7 +5438,7 @@ x
 y
 width
 height
-source
+framebuffer
 )
 ;
 }
@@ -5458,7 +5467,7 @@ glCreateProgram
 void
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -5526,7 +5535,7 @@ GLenum
 type
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -5623,7 +5632,7 @@ GLenum
 mode
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -5725,7 +5734,7 @@ GLuint
 buffers
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -5844,7 +5853,7 @@ GLuint
 fences
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -5963,7 +5972,7 @@ GLuint
 framebuffers
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -6090,7 +6099,7 @@ GLuint
 program
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -6215,7 +6224,7 @@ GLuint
 renderbuffers
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -6330,7 +6339,7 @@ GLuint
 shader
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -6455,7 +6464,7 @@ GLuint
 textures
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -6582,7 +6591,7 @@ GLenum
 func
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -6693,7 +6702,7 @@ GLboolean
 flag
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -6768,7 +6777,7 @@ GLclampf
 zFar
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -6847,7 +6856,7 @@ GLuint
 shader
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -7054,7 +7063,7 @@ GLenum
 cap
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -7248,7 +7257,7 @@ GLuint
 index
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -7304,7 +7313,7 @@ context
 context
 -
 >
-setVertexAttribEnabled
+setEnableVertexAttribArray
 (
 index
 false
@@ -7341,7 +7350,7 @@ GLsizei
 count
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -7453,7 +7462,7 @@ GLvoid
 indices
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -7508,31 +7517,6 @@ GL_INVALID_VALUE
 )
 ;
 }
-switch
-(
-type
-)
-{
-case
-GL_UNSIGNED_BYTE
-:
-case
-GL_UNSIGNED_SHORT
-:
-case
-GL_UNSIGNED_INT
-:
-break
-;
-default
-:
-return
-error
-(
-GL_INVALID_ENUM
-)
-;
-}
 gl
 :
 :
@@ -7552,6 +7536,51 @@ if
 context
 )
 {
+switch
+(
+type
+)
+{
+case
+GL_UNSIGNED_BYTE
+:
+case
+GL_UNSIGNED_SHORT
+:
+break
+;
+case
+GL_UNSIGNED_INT
+:
+if
+(
+!
+context
+-
+>
+supports32bitIndices
+(
+)
+)
+{
+return
+error
+(
+GL_INVALID_ENUM
+)
+;
+}
+break
+;
+default
+:
+return
+error
+(
+GL_INVALID_ENUM
+)
+;
+}
 context
 -
 >
@@ -7590,7 +7619,7 @@ GLenum
 cap
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -7784,7 +7813,7 @@ GLuint
 index
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -7840,7 +7869,7 @@ context
 context
 -
 >
-setVertexAttribEnabled
+setEnableVertexAttribArray
 (
 index
 true
@@ -7873,7 +7902,7 @@ GLuint
 fence
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -7971,7 +8000,7 @@ glFinish
 void
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -8033,7 +8062,7 @@ glFlush
 void
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -8102,7 +8131,7 @@ GLuint
 renderbuffer
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -8367,7 +8396,7 @@ GLint
 level
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -8796,7 +8825,7 @@ GLenum
 mode
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -8894,7 +8923,7 @@ GLuint
 buffers
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -9009,7 +9038,7 @@ GLenum
 target
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -9148,7 +9177,7 @@ GLuint
 fences
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -9266,7 +9295,7 @@ GLuint
 framebuffers
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -9384,7 +9413,7 @@ GLuint
 renderbuffers
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -9502,7 +9531,7 @@ GLuint
 textures
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -9633,7 +9662,7 @@ GLchar
 name
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -9862,7 +9891,7 @@ GLchar
 name
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -10085,7 +10114,7 @@ GLuint
 shaders
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -10251,7 +10280,7 @@ GLchar
 name
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -10412,7 +10441,7 @@ GLboolean
 params
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -10708,7 +10737,7 @@ GLint
 params
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -10893,7 +10922,7 @@ glGetError
 void
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -10946,7 +10975,7 @@ GLint
 params
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -11067,7 +11096,7 @@ GLfloat
 params
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -11355,7 +11384,7 @@ GLint
 params
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -11818,7 +11847,7 @@ GLint
 params
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -12190,7 +12219,7 @@ GLint
 params
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -12453,7 +12482,7 @@ GLchar
 infolog
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -12598,7 +12627,7 @@ GLint
 params
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -13136,7 +13165,7 @@ GLint
 params
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -13343,7 +13372,7 @@ GLchar
 infolog
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -13491,7 +13520,7 @@ GLint
 precision
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -13665,7 +13694,7 @@ GLchar
 source
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -13807,7 +13836,7 @@ GLenum
 name
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -13852,7 +13881,7 @@ GLubyte
 *
 )
 "
-TransGaming
+Google
 Inc
 .
 "
@@ -13884,14 +13913,9 @@ ES
 .
 0
 (
-git
--
-devel
+ANGLE
 "
-__DATE__
-"
-"
-__TIME__
+VERSION_STRING
 "
 )
 "
@@ -13913,14 +13937,9 @@ ES
 .
 00
 (
-git
--
-devel
+ANGLE
 "
-__DATE__
-"
-"
-__TIME__
+VERSION_STRING
 "
 )
 "
@@ -14005,7 +14024,7 @@ GLfloat
 params
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -14225,7 +14244,7 @@ GLint
 params
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -14433,7 +14452,7 @@ GLfloat
 params
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -14588,7 +14607,7 @@ GLint
 params
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -14755,7 +14774,7 @@ GLchar
 name
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -14941,7 +14960,7 @@ GLfloat
 params
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -15015,7 +15034,7 @@ const
 gl
 :
 :
-AttributeState
+VertexAttribute
 &
 attribState
 =
@@ -15044,7 +15063,7 @@ GLfloat
 (
 attribState
 .
-mEnabled
+mArrayEnabled
 ?
 GL_TRUE
 :
@@ -15213,7 +15232,7 @@ GLint
 params
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -15287,7 +15306,7 @@ const
 gl
 :
 :
-AttributeState
+VertexAttribute
 &
 attribState
 =
@@ -15313,7 +15332,7 @@ params
 (
 attribState
 .
-mEnabled
+mArrayEnabled
 ?
 GL_TRUE
 :
@@ -15500,7 +15519,7 @@ GLvoid
 pointer
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -15633,7 +15652,7 @@ GLenum
 mode
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -15770,7 +15789,7 @@ GLuint
 buffer
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -15863,7 +15882,7 @@ GLenum
 cap
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -16044,7 +16063,7 @@ GLuint
 fence
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -16145,7 +16164,7 @@ GLuint
 framebuffer
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -16238,7 +16257,7 @@ GLuint
 program
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -16331,7 +16350,7 @@ GLuint
 renderbuffer
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -16424,7 +16443,7 @@ GLuint
 shader
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -16517,7 +16536,7 @@ GLuint
 texture
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -16610,7 +16629,7 @@ GLfloat
 width
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -16697,7 +16716,7 @@ GLuint
 program
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -16817,7 +16836,7 @@ GLint
 param
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -16994,7 +17013,7 @@ GLfloat
 units
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -17084,7 +17103,7 @@ GLvoid
 pixels
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -17320,7 +17339,7 @@ glReleaseShaderCompiler
 void
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -17374,7 +17393,7 @@ GLsizei
 height
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -17749,7 +17768,7 @@ GLboolean
 invert
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -17837,7 +17856,7 @@ GLenum
 condition
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -17965,7 +17984,7 @@ GLsizei
 height
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -18087,7 +18106,7 @@ GLsizei
 length
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -18183,7 +18202,7 @@ GLint
 length
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -18374,7 +18393,7 @@ GLuint
 mask
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -18588,7 +18607,7 @@ GLuint
 mask
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -18755,7 +18774,7 @@ GLenum
 zpass
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -19034,7 +19053,7 @@ GLuint
 fence
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -19155,7 +19174,7 @@ GLvoid
 pixels
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -20045,7 +20064,7 @@ GLint
 param
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -20333,7 +20352,7 @@ GLvoid
 pixels
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -20895,7 +20914,7 @@ GLfloat
 v
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -21073,7 +21092,7 @@ GLint
 v
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -21268,7 +21287,7 @@ GLfloat
 v
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -21463,7 +21482,7 @@ GLint
 v
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -21661,7 +21680,7 @@ GLfloat
 v
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -21859,7 +21878,7 @@ GLint
 v
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -22060,7 +22079,7 @@ GLfloat
 v
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -22261,7 +22280,7 @@ GLint
 v
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -22422,7 +22441,7 @@ GLfloat
 value
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -22595,7 +22614,7 @@ GLfloat
 value
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -22768,7 +22787,7 @@ GLfloat
 value
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -22933,7 +22952,7 @@ GLuint
 program
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -23082,7 +23101,7 @@ GLuint
 program
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -23202,7 +23221,7 @@ GLfloat
 x
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -23314,7 +23333,7 @@ GLfloat
 values
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -23434,7 +23453,7 @@ GLfloat
 y
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -23552,7 +23571,7 @@ GLfloat
 values
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -23677,7 +23696,7 @@ GLfloat
 z
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -23801,7 +23820,7 @@ GLfloat
 values
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -23931,7 +23950,7 @@ GLfloat
 w
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -24061,7 +24080,7 @@ GLfloat
 values
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -24173,7 +24192,7 @@ GLvoid
 ptr
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -24388,7 +24407,7 @@ GLsizei
 height
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -24516,7 +24535,7 @@ GLenum
 filter
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -24810,7 +24829,7 @@ GLvoid
 pixels
 )
 {
-TRACE
+EVENT
 (
 "
 (
@@ -24963,6 +24982,15 @@ glBlitFramebufferANGLE
 __eglMustCastToProperFunctionPointerType
 )
 glBlitFramebufferANGLE
+}
+{
+"
+glRenderbufferStorageMultisampleANGLE
+"
+(
+__eglMustCastToProperFunctionPointerType
+)
+glRenderbufferStorageMultisampleANGLE
 }
 {
 "

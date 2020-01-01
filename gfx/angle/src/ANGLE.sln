@@ -5,13 +5,16 @@ Solution
 File
 Format
 Version
-9
+10
 .
 00
 #
 Visual
-Studio
-2005
+C
++
++
+Express
+2008
 Project
 (
 "
@@ -658,4 +661,3 @@ HideSolutionNode
 FALSE
 EndGlobalSection
 EndGlobal
-obal
