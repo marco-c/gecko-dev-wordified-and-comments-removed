@@ -778,6 +778,9 @@ sets
 .
 inc
 #
+ifndef
+MOZ_PLACES
+#
 The
 hacky
 hidden
@@ -798,6 +801,8 @@ browser
 gotreehack
 .
 inc
+#
+endif
 #
 The
 entire
