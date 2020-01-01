@@ -2023,6 +2023,11 @@ nsnull
 }
 else
 {
+UnbindFromFrame
+(
+nsnull
+)
+;
 NS_IF_RELEASE
 (
 mInputData
