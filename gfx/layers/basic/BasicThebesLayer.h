@@ -423,7 +423,7 @@ tmp
 }
 RefPtr
 <
-ContentClient
+ContentClientBasic
 >
 mContentClient
 ;
