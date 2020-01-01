@@ -409,6 +409,15 @@ RegisterID
 reg
 )
 ;
+inline
+RegisterID
+tempRegForConstant
+(
+FrameEntry
+*
+fe
+)
+;
 RegisterID
 ownRegForData
 (
