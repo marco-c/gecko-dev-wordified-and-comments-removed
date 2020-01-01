@@ -985,7 +985,7 @@ srv
 =
 SQLITE_OK
 )
-NS_WARNING
+NS_ERROR
 (
 "
 sqlite3_close
