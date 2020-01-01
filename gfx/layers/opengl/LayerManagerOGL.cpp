@@ -8550,6 +8550,9 @@ return
 area
 ;
 }
+#
+ifdef
+MOZ_ANDROID_OMTC
 static
 float
 GetDisplayportCoverage
@@ -8668,6 +8671,8 @@ return
 0f
 ;
 }
+#
+endif
 float
 LayerManagerOGL
 :
