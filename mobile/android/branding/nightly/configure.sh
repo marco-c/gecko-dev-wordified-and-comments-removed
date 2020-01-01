@@ -1,0 +1,6 @@
+MOZ_APP_DISPLAYNAME
+=
+Nightly
+MOZ_UPDATER
+=
+1
