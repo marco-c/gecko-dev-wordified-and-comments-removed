@@ -548,14 +548,6 @@ xulrunner
 \
 "
 ifdef
-MOZ_JAVAXPCOM
-DEFINES
-+
-=
--
-DMOZ_JAVAXPCOM
-endif
-ifdef
 TARGET_XPCOM_ABI
 DEFINES
 +

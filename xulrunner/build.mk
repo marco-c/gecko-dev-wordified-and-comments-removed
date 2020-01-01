@@ -505,15 +505,6 @@ embedding
 tests
 endif
 endif
-ifdef
-MOZ_JAVAXPCOM
-tier_app_dirs
-+
-=
-extensions
-/
-java
-endif
 tier_app_dirs
 +
 =
