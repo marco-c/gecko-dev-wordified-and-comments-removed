@@ -5806,13 +5806,6 @@ GetWrapper
 if
 (
 flat
-&
-&
-!
-IS_SLIM_WRAPPER_OBJECT
-(
-flat
-)
 )
 {
 wrapper
@@ -5901,9 +5894,6 @@ NS_OK
 ;
 if
 (
-wrapper
-&
-&
 wrapper
 -
 >
