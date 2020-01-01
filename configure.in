@@ -64917,12 +64917,7 @@ libstdc
 ]
 STDCXX_COMPAT
 =
-stdc
-+
-+
-compat
-.
-cpp
+1
 )
 AC_SUBST
 (

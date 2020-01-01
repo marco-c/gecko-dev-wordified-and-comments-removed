@@ -447,10 +447,6 @@ elfhack
 cpp
 \
 (
-STDCXX_COMPAT
-)
-\
-(
 NULL
 )
 OS_CXXFLAGS

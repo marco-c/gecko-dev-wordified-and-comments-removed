@@ -541,10 +541,6 @@ crashreporter
 cpp
 \
 (
-STDCXX_COMPAT
-)
-\
-(
 NULL
 )
 ifeq

@@ -498,10 +498,6 @@ nptest_utils
 cpp
 \
 (
-STDCXX_COMPAT
-)
-\
-(
 NULL
 )
 ifeq

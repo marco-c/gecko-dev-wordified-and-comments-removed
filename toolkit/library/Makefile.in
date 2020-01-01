@@ -201,12 +201,6 @@ topsrcdir
 /
 build
 /
-CPPSRCS
-+
-=
-(
-STDCXX_COMPAT
-)
 ifeq
 (
 (
