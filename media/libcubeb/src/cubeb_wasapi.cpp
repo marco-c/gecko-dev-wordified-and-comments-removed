@@ -4061,7 +4061,6 @@ wasapi_stream_destroy
 wasapi_stream_start
 wasapi_stream_stop
 wasapi_stream_get_position
-wasapi_stream_get_latency
 }
 ;
 }
