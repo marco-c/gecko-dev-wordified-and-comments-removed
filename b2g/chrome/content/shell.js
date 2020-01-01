@@ -4416,6 +4416,9 @@ appName
 appIcon
 :
 appIcon
+manifestURL
+:
+manifestUrl
 }
 )
 ;
