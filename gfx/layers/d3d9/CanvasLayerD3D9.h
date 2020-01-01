@@ -145,6 +145,9 @@ GLContext
 >
 mGLContext
 ;
+PRUint32
+mCanvasFramebuffer
+;
 nsRefPtr
 <
 IDirect3DTexture9

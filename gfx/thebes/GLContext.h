@@ -5290,9 +5290,8 @@ if
 err
 )
 {
-fprintf
+printf_stderr
 (
-stderr
 "
 GL
 ERROR
