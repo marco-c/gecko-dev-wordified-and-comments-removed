@@ -109,6 +109,7 @@ return
 aVal
 ;
 }
+static
 float
 ProcessTranslatePart
 (

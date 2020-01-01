@@ -1115,19 +1115,6 @@ GetVisibleRegion
 )
 )
 ;
-shadow
--
->
-SetShadowOpacity
-(
-aLayer
--
->
-GetOpacity
-(
-)
-)
-;
 const
 FrameMetrics
 *
@@ -1144,7 +1131,7 @@ shadowTransform
 aLayer
 -
 >
-GetBaseTransform
+GetTransform
 (
 )
 ;
@@ -2920,7 +2907,7 @@ aBuilder
 layer
 -
 >
-SetBaseTransform
+SetTransform
 (
 gfx3DMatrix
 :
