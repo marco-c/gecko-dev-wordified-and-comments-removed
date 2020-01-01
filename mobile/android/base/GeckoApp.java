@@ -13861,12 +13861,6 @@ getClipboardText
 ;
 if
 (
-text
-!
-=
-null
-&
-&
 !
 TextUtils
 .
@@ -13940,12 +13934,6 @@ getClipboardText
 ;
 if
 (
-text
-!
-=
-null
-&
-&
 !
 TextUtils
 .
