@@ -217,7 +217,6 @@ inherits
 onfocus
 onblur
 value
-type
 maxlength
 disabled
 size
