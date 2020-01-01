@@ -769,7 +769,7 @@ NS_ERROR_DOM_INDEX_SIZE_ERR
 }
 else
 {
-SetHTMLUnsignedIntAttr
+SetUnsignedIntAttr
 (
 nsGkAtoms
 :
@@ -1041,7 +1041,7 @@ NS_ERROR_DOM_INDEX_SIZE_ERR
 }
 else
 {
-SetHTMLUnsignedIntAttr
+SetUnsignedIntAttr
 (
 nsGkAtoms
 :

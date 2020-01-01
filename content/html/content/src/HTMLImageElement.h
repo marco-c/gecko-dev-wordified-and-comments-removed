@@ -380,7 +380,7 @@ ErrorResult
 aError
 )
 {
-SetHTMLUnsignedIntAttr
+SetUnsignedIntAttr
 (
 nsGkAtoms
 :
@@ -415,7 +415,7 @@ ErrorResult
 aError
 )
 {
-SetHTMLUnsignedIntAttr
+SetUnsignedIntAttr
 (
 nsGkAtoms
 :

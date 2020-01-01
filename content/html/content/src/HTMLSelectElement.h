@@ -505,7 +505,7 @@ Size
 )
 {
 return
-GetHTMLUnsignedIntAttr
+GetUnsignedIntAttr
 (
 nsGkAtoms
 :
@@ -525,7 +525,7 @@ ErrorResult
 aRv
 )
 {
-SetHTMLUnsignedIntAttr
+SetUnsignedIntAttr
 (
 nsGkAtoms
 :
