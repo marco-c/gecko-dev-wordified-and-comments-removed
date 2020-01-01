@@ -5961,7 +5961,7 @@ services
 -
 crypto
 /
-threaded
+WeaveCrypto
 .
 js
 "
@@ -5973,7 +5973,7 @@ cryptoSvc
 new
 ns
 .
-ThreadedCrypto
+WeaveCrypto
 (
 )
 ;
