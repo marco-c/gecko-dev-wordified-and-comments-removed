@@ -16485,6 +16485,12 @@ cx
 my_ErrorReporter
 )
 ;
+JS_SetVersion
+(
+cx
+JSVERSION_LATEST
+)
+;
 #
 ifdef
 JS_THREADSAFE
