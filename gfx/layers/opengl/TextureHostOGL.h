@@ -289,7 +289,7 @@ GLContext
 *
 aGL
 bool
-aAllowTiling
+aAllowBiImage
 =
 true
 )
@@ -298,9 +298,9 @@ mGL
 (
 aGL
 )
-mAllowTiling
+mAllowBigImage
 (
-aAllowTiling
+aAllowBiImage
 )
 mIterating
 (
@@ -552,7 +552,7 @@ GLContext
 mGL
 ;
 bool
-mAllowTiling
+mAllowBigImage
 ;
 bool
 mIterating

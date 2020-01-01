@@ -473,9 +473,9 @@ type
 ClientManager
 (
 )
-mForceSingleTile
+mDisallowBigImage
 ?
-ForceSingleTile
+TEXTURE_DISALLOW_BIGIMAGE
 :
 0
 )

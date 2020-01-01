@@ -1293,6 +1293,8 @@ mCompositor
 CreateDataTextureSource
 (
 mFlags
+|
+TEXTURE_DISALLOW_BIGIMAGE
 )
 ;
 srcU
@@ -1303,6 +1305,8 @@ mCompositor
 CreateDataTextureSource
 (
 mFlags
+|
+TEXTURE_DISALLOW_BIGIMAGE
 )
 ;
 srcV
@@ -1313,6 +1317,8 @@ mCompositor
 CreateDataTextureSource
 (
 mFlags
+|
+TEXTURE_DISALLOW_BIGIMAGE
 )
 ;
 mFirstSource

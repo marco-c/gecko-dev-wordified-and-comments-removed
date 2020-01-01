@@ -566,7 +566,7 @@ if
 (
 aFlags
 &
-ForceSingleTile
+TEXTURE_DISALLOW_BIGIMAGE
 )
 result
 |
@@ -574,7 +574,7 @@ result
 TextureImage
 :
 :
-ForceSingleTile
+DisallowBigImage
 ;
 return
 static_cast
@@ -756,7 +756,7 @@ GetFormat
 {
 if
 (
-mAllowTiling
+mAllowBigImage
 )
 {
 mTexImage

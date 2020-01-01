@@ -1347,7 +1347,7 @@ NeedsYFlip
 ;
 AppendFlag
 (
-ForceSingleTile
+TEXTURE_DISALLOW_BIGIMAGE
 )
 ;
 AppendFlag

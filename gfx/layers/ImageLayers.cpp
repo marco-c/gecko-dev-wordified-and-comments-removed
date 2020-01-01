@@ -47,7 +47,7 @@ mScaleMode
 (
 SCALE_NONE
 )
-mForceSingleTile
+mDisallowBigImage
 (
 false
 )
