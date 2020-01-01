@@ -112,6 +112,7 @@ nsISimpleEnumerator
 ;
 [
 scriptable
+function
 uuid
 (
 0d79adad
