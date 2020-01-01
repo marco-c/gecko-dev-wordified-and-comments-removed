@@ -13808,7 +13808,7 @@ js_toLocaleString_str
 obj_toLocaleString
 0
 0
-JS_TypeHandlerString
+JS_TypeHandlerDynamic
 )
 JS_FN_TYPE
 (
