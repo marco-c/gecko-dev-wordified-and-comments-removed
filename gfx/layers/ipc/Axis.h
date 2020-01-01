@@ -75,6 +75,11 @@ StopTouch
 (
 )
 ;
+void
+LockPanning
+(
+)
+;
 PRInt32
 GetDisplacementForDuration
 (
@@ -236,6 +241,9 @@ nsRefPtr
 AsyncPanZoomController
 >
 mAsyncPanZoomController
+;
+bool
+mLockPanning
 ;
 }
 ;
