@@ -14782,8 +14782,14 @@ prologOp
 JSOP_NOP
 )
 ?
+(
+JSOp
+)
 LET_DECL
 :
+(
+JSOp
+)
 VAR_DECL
 ;
 if
