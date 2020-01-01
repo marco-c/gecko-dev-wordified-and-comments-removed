@@ -3124,6 +3124,16 @@ aFormat
 )
 )
 ;
+if
+(
+!
+surf
+)
+{
+return
+NULL
+;
+}
 return
 CreateDrawTargetForSurface
 (
