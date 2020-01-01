@@ -2891,6 +2891,11 @@ case
 sendMMI
 "
 :
+case
+"
+sendUSSD
+"
+:
 this
 .
 handleSendMMI
@@ -2903,6 +2908,11 @@ break
 case
 "
 cancelMMI
+"
+:
+case
+"
+cancelUSSD
 "
 :
 this
@@ -8121,7 +8131,7 @@ message
 rilMessageType
 =
 "
-sendUSSD
+sendMMI
 "
 ;
 this
@@ -8147,7 +8157,7 @@ debug
 "
 Cancel
 pending
-MMI
+USSD
 "
 )
 ;
