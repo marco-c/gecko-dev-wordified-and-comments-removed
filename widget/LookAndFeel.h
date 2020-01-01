@@ -196,6 +196,7 @@ eIntID_WindowsThemeIdentifier
 eIntID_ScrollbarButtonAutoRepeatBehavior
 eIntID_TooltipDelay
 eIntID_SwipeAnimationEnabled
+eIntID_PhysicalHomeButton
 }
 ;
 enum
