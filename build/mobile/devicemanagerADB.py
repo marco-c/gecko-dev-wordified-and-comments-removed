@@ -978,13 +978,6 @@ basename
 localname
 )
       
-self
-.
-chmodDir
-(
-destname
-)
-      
 return
 True
     
@@ -1062,13 +1055,6 @@ lower
         
 return
 name
-      
-self
-.
-chmodDir
-(
-name
-)
       
 return
 name
@@ -1563,24 +1549,6 @@ self
 mkDir
 (
 targetDir
-)
-      
-self
-.
-checkCmdAs
-(
-[
-"
-shell
-"
-"
-chmod
-"
-"
-777
-"
-remoteDir
-]
 )
       
 return
@@ -4902,12 +4870,8 @@ in
 files
 :
         
-if
-(
-self
-.
-isDir
-(
+remoteEntry
+=
 remoteDir
 .
 strip
@@ -4923,6 +4887,14 @@ f
 strip
 (
 )
+        
+if
+(
+self
+.
+isDir
+(
+remoteEntry
 )
 )
 :
@@ -4931,21 +4903,7 @@ self
 .
 chmodDir
 (
-remoteDir
-.
-strip
-(
-)
-+
-"
-/
-"
-+
-f
-.
-strip
-(
-)
+remoteEntry
 )
         
 else
@@ -4965,11 +4923,7 @@ chmod
 "
 777
 "
-remoteDir
-.
-strip
-(
-)
+remoteEntry
 ]
 )
           
@@ -4978,11 +4932,7 @@ print
 chmod
 "
 +
-remoteDir
-.
-strip
-(
-)
+remoteEntry
       
 self
 .
@@ -5044,6 +4994,9 @@ remoteDir
 strip
 (
 )
+    
+return
+True
   
 def
 verifyADB
