@@ -12699,11 +12699,6 @@ decoder
 "
 )
 ;
-MOZ_ASSERT
-(
-mDecodeRequest
-)
-;
 if
 (
 mDecoder
@@ -12754,10 +12749,15 @@ NeedsNewFrame
 )
 |
 |
+(
+mDecodeRequest
+&
+&
 mDecodeRequest
 -
 >
 mAllocatedNewFrame
+)
 )
 {
 return
