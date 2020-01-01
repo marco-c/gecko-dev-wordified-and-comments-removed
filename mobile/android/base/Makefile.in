@@ -472,6 +472,14 @@ MenuItemDefault
 .
 java
 \
+MenuPanel
+.
+java
+\
+MenuPopup
+.
+java
+\
 MultiChoicePreference
 .
 java
