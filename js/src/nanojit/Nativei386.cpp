@@ -1652,7 +1652,7 @@ if
 op
 =
 =
-LIR_param
+LIR_iparam
 )
 {
 uint32_t
@@ -2053,7 +2053,7 @@ i
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {
@@ -2289,7 +2289,7 @@ base
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {
@@ -2596,7 +2596,7 @@ base
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {
@@ -2717,7 +2717,7 @@ base
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {
@@ -2829,7 +2829,7 @@ base
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {
@@ -2885,7 +2885,7 @@ base
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {
@@ -2934,7 +2934,7 @@ base
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {
@@ -4235,7 +4235,7 @@ case
 LIR_add
 :
 case
-LIR_addp
+LIR_iaddp
 :
 if
 (
@@ -4244,7 +4244,7 @@ lhs
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 &
 &
@@ -4414,7 +4414,7 @@ case
 LIR_add
 :
 case
-LIR_addp
+LIR_iaddp
 :
 ADD
 (
@@ -4559,7 +4559,7 @@ op
 )
 {
 case
-LIR_addp
+LIR_iaddp
 :
 LEA
 (
@@ -6579,7 +6579,7 @@ p
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {
@@ -6712,7 +6712,7 @@ p
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {

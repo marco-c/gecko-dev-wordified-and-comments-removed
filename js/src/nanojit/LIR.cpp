@@ -1248,7 +1248,7 @@ ins
 >
 initLInsI
 (
-LIR_alloc
+LIR_ialloc
 size
 )
 ;
@@ -3948,7 +3948,7 @@ case
 LIR_add
 :
 case
-LIR_addp
+LIR_iaddp
 :
 case
 LIR_mul
@@ -4306,7 +4306,7 @@ case
 LIR_add
 :
 case
-LIR_addp
+LIR_iaddp
 :
 case
 LIR_or
@@ -9829,7 +9829,7 @@ break
 ;
 }
 case
-LIR_alloc
+LIR_ialloc
 :
 {
 sprintf
@@ -10042,7 +10042,7 @@ break
 ;
 }
 case
-LIR_param
+LIR_iparam
 :
 {
 uint32_t
@@ -10436,7 +10436,7 @@ case
 LIR_add
 :
 case
-LIR_addp
+LIR_iaddp
 :
 case
 LIR_sub

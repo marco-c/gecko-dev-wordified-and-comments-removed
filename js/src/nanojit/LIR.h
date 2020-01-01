@@ -1771,7 +1771,7 @@ lastWord
 .
 opcode
 =
-LIR_param
+LIR_iparam
 ;
 NanoAssert
 (
@@ -2020,7 +2020,7 @@ NanoAssert
 (
 isop
 (
-LIR_param
+LIR_iparam
 )
 )
 ;
@@ -2044,7 +2044,7 @@ NanoAssert
 (
 isop
 (
-LIR_param
+LIR_iparam
 )
 )
 ;
@@ -2186,7 +2186,7 @@ NanoAssert
 (
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 ;

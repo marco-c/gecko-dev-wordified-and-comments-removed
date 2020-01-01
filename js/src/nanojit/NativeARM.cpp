@@ -1457,7 +1457,7 @@ arg
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {
@@ -1547,7 +1547,7 @@ arg
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {
@@ -2586,7 +2586,7 @@ if
 op
 =
 =
-LIR_param
+LIR_iparam
 )
 prefer
 =
@@ -2741,7 +2741,7 @@ base
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {
@@ -2822,7 +2822,7 @@ i
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 )
 {
@@ -7761,7 +7761,7 @@ LIR_add
 op
 =
 =
-LIR_addp
+LIR_iaddp
 )
 &
 &
@@ -7770,7 +7770,7 @@ lhs
 >
 isop
 (
-LIR_alloc
+LIR_ialloc
 )
 &
 &
@@ -7898,7 +7898,7 @@ LIR_add
 op
 =
 =
-LIR_addp
+LIR_iaddp
 )
 ADDs
 (
@@ -8088,7 +8088,7 @@ LIR_add
 op
 =
 =
-LIR_addp
+LIR_iaddp
 )
 ADDi
 (
