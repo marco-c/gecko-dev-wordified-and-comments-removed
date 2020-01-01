@@ -5190,6 +5190,11 @@ tests
 mochitest
 /
 Makefile
+testing
+/
+specialpowers
+/
+Makefile
 layout
 /
 base
@@ -5506,13 +5511,6 @@ testing
 mochitest
 /
 dynamic
-/
-Makefile
-testing
-/
-mochitest
-/
-specialpowers
 /
 Makefile
 testing

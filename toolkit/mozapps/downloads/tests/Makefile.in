@@ -116,7 +116,9 @@ topsrcdir
 /
 testing
 /
-mochitest
+specialpowers
+/
+content
 /
 MockFilePicker
 .

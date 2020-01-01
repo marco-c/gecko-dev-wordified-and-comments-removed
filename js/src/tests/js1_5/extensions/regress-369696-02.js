@@ -34,6 +34,12 @@ expect
 '
 '
 ;
+window
+.
+SpecialPowers
+=
+null
+;
 test
 (
 )
