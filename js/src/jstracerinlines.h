@@ -105,8 +105,8 @@ v
 interp_prim_fetch_stack
 (
 regs
+n
 v
-b
 )
 ;
 }
@@ -344,7 +344,7 @@ u
 )
 {
 return
-interp_prim_uint_fits_in_jsval
+interp_guard_uint_fits_in_jsval
 (
 u
 )
@@ -386,7 +386,7 @@ d
 interp_prim_uint_to_double
 (
 u
-v
+d
 )
 ;
 }
@@ -622,7 +622,7 @@ JSBool
 b
 )
 {
-interp_jsval_to_boolean
+interp_prim_jsval_to_boolean
 (
 v
 b
@@ -750,7 +750,7 @@ vp
 )
 {
 return
-interp_call_obj_deault_value
+interp_call_obj_default_value
 (
 cx
 obj
