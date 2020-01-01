@@ -1125,12 +1125,6 @@ java
 \
 gfx
 /
-PlaceholderLayerClient
-.
-java
-\
-gfx
-/
 PointUtils
 .
 java

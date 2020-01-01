@@ -1717,7 +1717,6 @@ mAppContext
 getAndProcessThumbnailForTab
 (
 tab
-false
 )
 ;
 }
