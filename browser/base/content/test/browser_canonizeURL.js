@@ -286,14 +286,9 @@ getSubmission
 ex
 ample
 "
+null
 "
-application
-/
-x
--
-moz
--
-keywordsearch
+keyword
 "
 )
 .
