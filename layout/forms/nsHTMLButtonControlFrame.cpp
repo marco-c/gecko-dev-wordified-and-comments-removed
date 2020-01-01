@@ -653,6 +653,17 @@ if
 IsInput
 (
 )
+|
+|
+GetStyleDisplay
+(
+)
+-
+>
+mOverflowX
+!
+=
+NS_STYLE_OVERFLOW_VISIBLE
 )
 {
 nsMargin
