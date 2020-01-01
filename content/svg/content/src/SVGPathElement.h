@@ -7,13 +7,6 @@ mozilla_dom_SVGPathElement_h
 #
 include
 "
-nsIDOMSVGPathElement
-.
-h
-"
-#
-include
-"
 nsSVGNumber2
 .
 h
@@ -76,7 +69,7 @@ MOZ_FINAL
 public
 SVGPathElementBase
 public
-nsIDOMSVGPathElement
+nsIDOMSVGElement
 {
 friend
 class
@@ -136,7 +129,6 @@ SVGAnimatedPathSegList
 SVGAnimatedPathSegList
 ;
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGPATHELEMENT
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 NS_FORWARD_NSIDOMSVGELEMENT
@@ -228,13 +220,6 @@ nsINode
 aResult
 )
 const
-;
-virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
 ;
 virtual
 nsIDOMNode

@@ -711,10 +711,6 @@ SVGMaskElement
 )
 DOMCI_CLASS
 (
-SVGPathElement
-)
-DOMCI_CLASS
-(
 SVGPatternElement
 )
 DOMCI_CLASS
