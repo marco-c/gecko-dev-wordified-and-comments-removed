@@ -464,6 +464,14 @@ test_sanity
 .
 html
 \
+test_sanityException
+.
+html
+\
+test_sanityException2
+.
+html
+\
 test_SpecialPowersExtension
 .
 html
