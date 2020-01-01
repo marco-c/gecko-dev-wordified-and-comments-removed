@@ -204,6 +204,20 @@ gmail
 com
 >
 -
+Marek
+St
+pie
+<
+marcoos
+aviary
+.
+pl
+>
+(
+Polish
+localization
+)
+-
 -
 Alternatively
 the
@@ -406,7 +420,7 @@ descRole
 .
 label
 "
-Role
+Rola
 :
 "
 >
@@ -417,7 +431,7 @@ descName
 .
 label
 "
-Name
+Nazwa
 :
 "
 >
@@ -428,7 +442,7 @@ descDescription
 .
 label
 "
-Description
+Opis
 :
 "
 >
@@ -439,7 +453,7 @@ descValue
 .
 label
 "
-Value
+Warto
 :
 "
 >
@@ -450,7 +464,7 @@ descState
 .
 label
 "
-State
+Stan
 :
 "
 >
@@ -461,8 +475,9 @@ descActionName
 .
 label
 "
-Action
-Name
+Nazwa
+czynno
+ci
 :
 "
 >
