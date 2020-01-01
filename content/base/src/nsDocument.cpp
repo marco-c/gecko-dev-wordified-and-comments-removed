@@ -40430,7 +40430,12 @@ mMallocSizeOf
 aWindowSizes
 -
 >
-mLayoutArenas
+mArenaStats
+&
+aWindowSizes
+-
+>
+mLayoutPresShell
 &
 aWindowSizes
 -

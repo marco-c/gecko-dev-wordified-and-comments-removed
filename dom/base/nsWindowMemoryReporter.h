@@ -49,6 +49,13 @@ TimeStamp
 h
 "
 #
+include
+"
+nsArenaMemoryStats
+.
+h
+"
+#
 define
 NS_DECL_SIZEOF_EXCLUDING_THIS
 \
@@ -90,6 +97,9 @@ aMallocSizeOf
 nsMallocSizeOfFun
 mMallocSizeOf
 ;
+nsArenaMemoryStats
+mArenaStats
+;
 size_t
 mDOMElementNodes
 ;
@@ -109,7 +119,7 @@ size_t
 mStyleSheets
 ;
 size_t
-mLayoutArenas
+mLayoutPresShell
 ;
 size_t
 mLayoutStyleSets

@@ -27,6 +27,9 @@ StandardInteger
 .
 h
 "
+class
+nsArenaMemoryStats
+;
 #
 ifdef
 DEBUG_TRACEMALLOC_PRESARENA
@@ -152,13 +155,15 @@ void
 aPtr
 )
 ;
-size_t
+void
 SizeOfExcludingThis
 (
 nsMallocSizeOfFun
 aMallocSizeOf
+nsArenaMemoryStats
+*
+aArenaStats
 )
-const
 ;
 static
 uintptr_t

@@ -123,6 +123,10 @@ FramePropertyTable
 .
 h
 \
+nsArenaMemoryStats
+.
+h
+\
 nsBidi
 .
 h

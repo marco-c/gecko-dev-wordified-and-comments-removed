@@ -1443,9 +1443,12 @@ SizeOfIncludingThis
 (
 nsMallocSizeOfFun
 aMallocSizeOf
+nsArenaMemoryStats
+*
+aArenaObjectsSize
 size_t
 *
-aArenasSize
+aPresShellSize
 size_t
 *
 aStyleSetsSize
@@ -1456,7 +1459,6 @@ size_t
 *
 aPresContextSize
 )
-const
 ;
 size_t
 SizeOfTextRuns
