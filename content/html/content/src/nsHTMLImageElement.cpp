@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsIDOMNSHTMLImageElement
+.
+h
+"
+#
+include
+"
 nsIDOMEventTarget
 .
 h
@@ -253,6 +260,8 @@ nsImageLoadingContent
 public
 nsIDOMHTMLImageElement
 public
+nsIDOMNSHTMLImageElement
+public
 nsIJSNativeInitializer
 {
 public
@@ -292,6 +301,7 @@ nsGenericHTMLElement
 :
 )
 NS_DECL_NSIDOMHTMLIMAGEELEMENT
+NS_DECL_NSIDOMNSHTMLIMAGEELEMENT
 NS_IMETHOD
 GetDraggable
 (
@@ -664,10 +674,11 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLImageElement
 )
-NS_HTML_CONTENT_INTERFACE_TABLE5
+NS_HTML_CONTENT_INTERFACE_TABLE6
 (
 nsHTMLImageElement
 nsIDOMHTMLImageElement
+nsIDOMNSHTMLImageElement
 nsIJSNativeInitializer
 imgIDecoderObserver
 nsIImageLoadingContent

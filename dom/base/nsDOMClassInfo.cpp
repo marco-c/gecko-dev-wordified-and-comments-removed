@@ -1423,6 +1423,13 @@ h
 #
 include
 "
+nsIDOMNSHTMLImageElement
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLInputElement
 .
 h
@@ -10457,6 +10464,10 @@ nsIDOMHTMLImageElement
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsIDOMHTMLImageElement
+)
+DOM_CLASSINFO_MAP_ENTRY
+(
+nsIDOMNSHTMLImageElement
 )
 DOM_CLASSINFO_GENERIC_HTML_MAP_ENTRIES
 DOM_CLASSINFO_MAP_END
