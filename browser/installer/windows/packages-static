@@ -1581,6 +1581,13 @@ components
 nsScriptableIO
 .
 js
+bin
+\
+components
+\
+nsWebHandlerApp
+.
+js
 ;
 Modules
 bin

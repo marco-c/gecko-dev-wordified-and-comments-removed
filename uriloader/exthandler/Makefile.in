@@ -751,7 +751,7 @@ nsMIMEInfoImpl
 .
 cpp
 \
-nsHandlerAppImpl
+nsLocalHandlerApp
 .
 cpp
 \
@@ -803,9 +803,18 @@ cpp
 endif
 EXTRA_COMPONENTS
 =
+\
 nsHandlerService
 .
 js
+\
+nsWebHandlerApp
+.
+js
+\
+(
+NULL
+)
 #
 we
 don

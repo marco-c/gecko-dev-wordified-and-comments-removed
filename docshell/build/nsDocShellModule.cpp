@@ -92,7 +92,7 @@ h
 #
 include
 "
-nsHandlerAppImpl
+nsLocalHandlerApp
 .
 h
 "
