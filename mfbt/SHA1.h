@@ -79,7 +79,7 @@ void
 update
 (
 const
-uint8_t
+void
 *
 dataIn
 uint32_t
