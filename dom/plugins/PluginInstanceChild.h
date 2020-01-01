@@ -210,6 +210,15 @@ aObject
 )
 ;
 virtual
+bool
+AnswerPPluginScriptableObjectConstructor
+(
+PPluginScriptableObjectChild
+*
+aActor
+)
+;
+virtual
 PBrowserStreamChild
 *
 AllocPBrowserStream
@@ -506,6 +515,11 @@ PluginInstanceChild
 ;
 bool
 Initialize
+(
+)
+;
+void
+Destroy
 (
 )
 ;
