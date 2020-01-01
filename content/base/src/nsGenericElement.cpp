@@ -12691,6 +12691,17 @@ parent
 ;
 }
 }
+if
+(
+aContent
+-
+>
+HasFlag
+(
+NODE_MAY_BE_IN_BINDING_MNGR
+)
+)
+{
 nsIDocument
 *
 ownerDoc
@@ -12762,6 +12773,7 @@ parent
 =
 insertionParent
 ;
+}
 }
 }
 if
