@@ -1649,12 +1649,9 @@ innerWindowID
 "
 )
 ;
-var
-modalStateWin
-=
 utils
 .
-enterModalStateWithWindow
+enterModalState
 (
 )
 ;
@@ -1833,9 +1830,8 @@ _shuttingDown
 {
 utils
 .
-leaveModalStateWithWindow
+leaveModalState
 (
-modalStateWin
 )
 ;
 }

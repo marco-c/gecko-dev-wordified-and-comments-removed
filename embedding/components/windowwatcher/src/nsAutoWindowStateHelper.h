@@ -55,12 +55,6 @@ nsIDOMWindow
 *
 mWindow
 ;
-nsCOMPtr
-<
-nsIDOMWindow
->
-mCallerWindow
-;
 bool
 mDefaultEnabled
 ;
