@@ -13819,6 +13819,10 @@ if
 ssm
 )
 {
+JSStackFrame
+*
+fp
+;
 nsIPrincipal
 *
 subjectPrincipal
@@ -13826,9 +13830,11 @@ subjectPrincipal
 ssm
 -
 >
-GetCxSubjectPrincipal
+GetCxSubjectPrincipalAndFrame
 (
 cx
+&
+fp
 )
 ;
 PRBool
@@ -13846,6 +13852,10 @@ system
 ;
 NS_ASSERTION
 (
+!
+fp
+|
+|
 system
 "
 Bad
