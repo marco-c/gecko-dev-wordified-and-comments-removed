@@ -473,15 +473,6 @@ ALLOW_ACTION
 ;
 }
 else
-if
-(
-entityName
-=
-=
-"
-desktopNotification
-"
-)
 {
 Services
 .
