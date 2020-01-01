@@ -9691,9 +9691,8 @@ doBack
 )
 )
 {
-moveTaskToBack
+finish
 (
-true
 )
 ;
 }
