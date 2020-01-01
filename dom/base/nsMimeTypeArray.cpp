@@ -806,6 +806,16 @@ initialized
 "
 )
 ;
+if
+(
+!
+mNavigator
+)
+{
+return
+NS_ERROR_NOT_AVAILABLE
+;
+}
 nsIDOMPluginArray
 *
 pluginArray

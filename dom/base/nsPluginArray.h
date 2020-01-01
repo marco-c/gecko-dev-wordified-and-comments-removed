@@ -182,6 +182,11 @@ nsIDocShell
 aDocShell
 )
 ;
+void
+Invalidate
+(
+)
+;
 protected
 :
 nsNavigator
