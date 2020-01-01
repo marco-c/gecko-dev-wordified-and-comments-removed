@@ -3146,7 +3146,7 @@ js_AllocFlatClosure
 )
 JS_DECLARE_CALLINFO
 (
-js_PutArguments
+js_PutArgumentsOnTrace
 )
 JS_DECLARE_CALLINFO
 (
@@ -3170,7 +3170,7 @@ js_CreateCallObjectOnTrace
 )
 JS_DECLARE_CALLINFO
 (
-js_Arguments
+js_NewArgumentsOnTrace
 )
 JS_DECLARE_CALLINFO
 (

@@ -143,7 +143,7 @@ atom
 ;
 void
 JS_FASTCALL
-CheckStackQuota
+HitStackQuota
 (
 VMFrame
 &
@@ -153,11 +153,13 @@ f
 void
 *
 JS_FASTCALL
-CheckArity
+FixupArity
 (
 VMFrame
 &
 f
+uint32
+argc
 )
 ;
 void
@@ -168,6 +170,8 @@ CompileFunction
 VMFrame
 &
 f
+uint32
+argc
 )
 ;
 void
@@ -247,7 +251,7 @@ f
 ;
 void
 JS_FASTCALL
-PutArgsObject
+PutActivationObjects
 (
 VMFrame
 &

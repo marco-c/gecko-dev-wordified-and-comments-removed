@@ -1,3 +1,6 @@
+var
+escape
+;
 function
 testBug458838
 (

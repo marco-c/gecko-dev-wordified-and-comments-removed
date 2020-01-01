@@ -8713,7 +8713,7 @@ parser
 callerFrame
 -
 >
-getFunction
+fun
 (
 )
 ;
@@ -9569,7 +9569,7 @@ JS_ASSERT
 caller
 -
 >
-hasScript
+isScriptFrame
 (
 )
 )
@@ -9580,7 +9580,7 @@ if
 caller
 -
 >
-hasFunction
+isFunctionFrame
 (
 )
 )
@@ -9655,7 +9655,7 @@ parser
 callerFrame
 -
 >
-getFunction
+fun
 (
 )
 ;
@@ -10149,14 +10149,9 @@ endif
 JS_ASSERT
 (
 caller
-)
-;
-JS_ASSERT
-(
-caller
 -
 >
-hasScript
+isScriptFrame
 (
 )
 )
@@ -10219,7 +10214,7 @@ JS_ASSERT
 caller
 -
 >
-hasFunction
+isFunctionFrame
 (
 )
 &

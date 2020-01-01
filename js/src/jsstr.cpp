@@ -10661,6 +10661,7 @@ pushInvokeArgs
 (
 cx
 argc
+&
 rdata
 .
 args
@@ -12398,6 +12399,7 @@ pushInvokeArgs
 (
 cx
 lambdaArgc
+&
 rdata
 .
 args

@@ -844,7 +844,7 @@ function
 InjectJaegerReturn
 :
 movl
-0x24
+0x18
 (
 %
 ebx
@@ -856,12 +856,12 @@ edx
 fp
 -
 >
-rval
+rval_
 data
 *
 /
 movl
-0x28
+0x1C
 (
 %
 ebx
@@ -873,12 +873,12 @@ ecx
 fp
 -
 >
-rval
+rval_
 type
 *
 /
 movl
-0x38
+0x2c
 (
 %
 ebx
@@ -890,7 +890,7 @@ eax
 fp
 -
 >
-ncode
+ncode_
 *
 /
 /
@@ -1011,7 +1011,7 @@ eax
 movl
 %
 eax
-0x38
+0x2c
 (
 %
 ebx

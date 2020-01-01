@@ -244,6 +244,9 @@ StackSpace
 class
 StackSegment
 ;
+class
+FrameRegsIter
+;
 struct
 Compiler
 ;
