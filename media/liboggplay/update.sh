@@ -942,3 +942,10 @@ p3
 bug520493
 .
 patch
+patch
+-
+p3
+<
+bug515217
+.
+patch
