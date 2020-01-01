@@ -1358,10 +1358,6 @@ MAP
 (
 MAPFILE
 )
--
-MAPINFO
-:
-LINES
 #
 CFLAGS
 +
