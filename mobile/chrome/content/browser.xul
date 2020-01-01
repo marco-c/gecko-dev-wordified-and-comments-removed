@@ -6070,7 +6070,7 @@ sync
 synchronize
 ;
 "
-oncommand
+oninputchanged
 =
 "
 WeaveGlue
