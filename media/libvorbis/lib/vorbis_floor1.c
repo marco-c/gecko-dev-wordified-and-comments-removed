@@ -7330,9 +7330,11 @@ fit_value
 i
 ]
 =
+(
 val
 +
 predicted
+)
 &
 0x7fff
 ;

@@ -1332,6 +1332,10 @@ min_bytes
 =
 0
 ;
+void
+*
+buf
+;
 if
 (
 sa_stream_get_min_write
@@ -1357,8 +1361,6 @@ output_unit
 min_samples
 )
 ;
-void
-*
 buf
 =
 malloc

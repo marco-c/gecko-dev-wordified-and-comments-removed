@@ -93,3 +93,15 @@ firefox
 trunk
 on
 OpenSolaris
+bug666672_gccWarnings
+.
+diff
+-
+Bug
+666672
+-
+Fixing
+some
+gcc
+compiler
+warnings
