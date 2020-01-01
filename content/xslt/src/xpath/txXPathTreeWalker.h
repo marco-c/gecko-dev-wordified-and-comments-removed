@@ -477,6 +477,10 @@ const
 txXPathNode
 &
 aNode
+const
+txXPathNode
+&
+aBase
 nsAString
 &
 aResult
