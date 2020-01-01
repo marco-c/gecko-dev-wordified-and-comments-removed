@@ -346,6 +346,7 @@ aId
 )
 {
 return
+(
 _consoleStorage
 [
 aId
@@ -354,6 +355,12 @@ aId
 |
 [
 ]
+)
+.
+slice
+(
+0
+)
 ;
 }
 recordEvent

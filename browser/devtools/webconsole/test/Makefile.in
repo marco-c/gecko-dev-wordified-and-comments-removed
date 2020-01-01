@@ -890,7 +890,7 @@ browser_webconsole_window_zombie
 .
 js
 \
-browser_ConsoleAPICachedMessages
+browser_cached_messages
 .
 js
 \
@@ -1631,6 +1631,16 @@ bug
 time
 -
 methods
+.
+html
+\
+test
+-
+webconsole
+-
+error
+-
+observer
 .
 html
 \
