@@ -65,10 +65,6 @@ HTML_HTMLELEMENT_TAG
 (
 big
 )
-HTML_HTMLELEMENT_TAG
-(
-blink
-)
 HTML_TAG
 (
 blockquote

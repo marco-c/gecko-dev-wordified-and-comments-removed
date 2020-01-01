@@ -13444,10 +13444,6 @@ s
 >
 <
 /
-blink
->
-<
-/
 tt
 >
 <
@@ -13918,26 +13914,6 @@ Unexpected
 end
 tag
 (
-blink
-)
-after
-the
-(
-implied
-)
-root
-element
-.
-Line
-:
-1
-Col
-:
-52
-Unexpected
-end
-tag
-(
 tt
 )
 after
@@ -13953,7 +13929,7 @@ Line
 1
 Col
 :
-58
+53
 Unexpected
 end
 tag
@@ -13973,7 +13949,7 @@ Line
 1
 Col
 :
-64
+59
 Unexpected
 end
 tag
@@ -13993,7 +13969,7 @@ Line
 1
 Col
 :
-72
+77
 Unexpected
 end
 tag
@@ -14013,7 +13989,7 @@ Line
 1
 Col
 :
-79
+74
 Unexpected
 end
 tag
@@ -14033,7 +14009,7 @@ Line
 1
 Col
 :
-88
+83
 Unexpected
 end
 tag
@@ -14053,7 +14029,7 @@ Line
 1
 Col
 :
-93
+88
 Unexpected
 end
 tag
@@ -14073,7 +14049,7 @@ Line
 1
 Col
 :
-98
+93
 Unexpected
 end
 tag
@@ -14093,7 +14069,7 @@ Line
 1
 Col
 :
-103
+98
 Unexpected
 end
 tag
@@ -14113,7 +14089,7 @@ Line
 1
 Col
 :
-108
+103
 Unexpected
 end
 tag
@@ -14133,7 +14109,7 @@ Line
 1
 Col
 :
-113
+108
 Unexpected
 end
 tag
@@ -14153,7 +14129,7 @@ Line
 1
 Col
 :
-118
+113
 Unexpected
 end
 tag
@@ -14173,7 +14149,7 @@ Line
 1
 Col
 :
-125
+120
 Unexpected
 end
 tag
@@ -14193,7 +14169,7 @@ Line
 1
 Col
 :
-130
+125
 Unexpected
 end
 tag
@@ -14211,7 +14187,7 @@ Line
 1
 Col
 :
-134
+129
 End
 tag
 (
@@ -14233,7 +14209,7 @@ Line
 1
 Col
 :
-140
+135
 This
 element
 (
@@ -14249,7 +14225,7 @@ Line
 1
 Col
 :
-148
+143
 Unexpected
 end
 tag
@@ -14264,7 +14240,7 @@ Line
 1
 Col
 :
-155
+150
 Unexpected
 end
 tag
@@ -14279,7 +14255,7 @@ Line
 1
 Col
 :
-163
+158
 Unexpected
 end
 tag
@@ -14294,7 +14270,7 @@ Line
 1
 Col
 :
-172
+167
 Unexpected
 end
 tag
@@ -14309,7 +14285,7 @@ Line
 1
 Col
 :
-180
+175
 Unexpected
 end
 tag
@@ -14324,7 +14300,7 @@ Line
 1
 Col
 :
-185
+180
 Unexpected
 end
 tag
@@ -14339,7 +14315,7 @@ Line
 1
 Col
 :
-190
+185
 Unexpected
 end
 tag
@@ -14354,7 +14330,7 @@ Line
 1
 Col
 :
-195
+190
 Unexpected
 end
 tag
@@ -14369,7 +14345,7 @@ Line
 1
 Col
 :
-203
+198
 This
 element
 (
@@ -14385,7 +14361,7 @@ Line
 1
 Col
 :
-210
+205
 This
 element
 (
@@ -14401,7 +14377,7 @@ Line
 1
 Col
 :
-217
+212
 Unexpected
 end
 tag
@@ -14416,7 +14392,7 @@ Line
 1
 Col
 :
-225
+220
 This
 element
 (
@@ -14432,7 +14408,7 @@ Line
 1
 Col
 :
-230
+225
 This
 element
 (
@@ -14448,7 +14424,7 @@ Line
 1
 Col
 :
-238
+233
 This
 element
 (
@@ -14464,7 +14440,7 @@ Line
 1
 Col
 :
-244
+239
 Unexpected
 end
 tag
@@ -14479,7 +14455,7 @@ Line
 1
 Col
 :
-251
+246
 Unexpected
 end
 tag
@@ -14494,7 +14470,7 @@ Line
 1
 Col
 :
-258
+253
 Unexpected
 end
 tag
@@ -14509,7 +14485,7 @@ Line
 1
 Col
 :
-269
+264
 This
 element
 (
@@ -14525,7 +14501,7 @@ Line
 1
 Col
 :
-279
+274
 This
 element
 (
@@ -14541,7 +14517,7 @@ Line
 1
 Col
 :
-287
+282
 This
 element
 (
@@ -14557,7 +14533,7 @@ Line
 1
 Col
 :
-296
+291
 This
 element
 (
@@ -14573,7 +14549,7 @@ Line
 1
 Col
 :
-300
+295
 Unexpected
 end
 tag
@@ -14588,7 +14564,7 @@ Line
 1
 Col
 :
-305
+300
 End
 tag
 (
@@ -14608,7 +14584,7 @@ Line
 1
 Col
 :
-310
+305
 End
 tag
 (
@@ -14628,7 +14604,7 @@ Line
 1
 Col
 :
-320
+315
 Unexpected
 end
 tag
@@ -14643,7 +14619,7 @@ Line
 1
 Col
 :
-331
+326
 Unexpected
 end
 tag
@@ -14658,7 +14634,7 @@ Line
 1
 Col
 :
-339
+334
 Unexpected
 end
 tag
@@ -14673,7 +14649,7 @@ Line
 1
 Col
 :
-347
+342
 Unexpected
 end
 tag
@@ -14688,7 +14664,7 @@ Line
 1
 Col
 :
-355
+350
 Unexpected
 end
 tag
@@ -14703,7 +14679,7 @@ Line
 1
 Col
 :
-365
+360
 End
 tag
 (
@@ -14723,7 +14699,7 @@ Line
 1
 Col
 :
-378
+373
 End
 tag
 (
@@ -14743,7 +14719,7 @@ Line
 1
 Col
 :
-387
+382
 End
 tag
 (
@@ -14763,7 +14739,7 @@ Line
 1
 Col
 :
-393
+388
 Unexpected
 end
 tag
@@ -14778,7 +14754,7 @@ Line
 1
 Col
 :
-399
+394
 End
 tag
 (
@@ -14798,7 +14774,7 @@ Line
 1
 Col
 :
-404
+399
 End
 tag
 (
@@ -14818,7 +14794,7 @@ Line
 1
 Col
 :
-415
+410
 End
 tag
 (
@@ -14838,7 +14814,7 @@ Line
 1
 Col
 :
-425
+420
 End
 tag
 (
@@ -14858,7 +14834,7 @@ Line
 1
 Col
 :
-432
+427
 End
 tag
 (
@@ -14878,7 +14854,7 @@ Line
 1
 Col
 :
-437
+432
 End
 tag
 (
@@ -14898,7 +14874,7 @@ Line
 1
 Col
 :
-442
+437
 End
 tag
 (
@@ -14918,7 +14894,7 @@ Line
 1
 Col
 :
-447
+442
 End
 tag
 (
@@ -14938,7 +14914,7 @@ Line
 1
 Col
 :
-454
+449
 End
 tag
 (
@@ -14960,7 +14936,7 @@ Line
 1
 Col
 :
-460
+455
 This
 element
 (
@@ -14976,7 +14952,7 @@ Line
 1
 Col
 :
-476
+471
 End
 tag
 (
@@ -14996,7 +14972,7 @@ Line
 1
 Col
 :
-486
+481
 End
 tag
 (
@@ -15016,7 +14992,7 @@ Line
 1
 Col
 :
-495
+490
 End
 tag
 (
@@ -15036,7 +15012,7 @@ Line
 1
 Col
 :
-513
+508
 Unexpected
 end
 tag
@@ -15051,7 +15027,7 @@ Line
 1
 Col
 :
-513
+508
 Unexpected
 end
 tag
@@ -15066,7 +15042,7 @@ Line
 1
 Col
 :
-520
+515
 Unexpected
 end
 tag
@@ -15081,7 +15057,7 @@ Line
 1
 Col
 :
-529
+524
 Unexpected
 end
 tag
@@ -15096,7 +15072,7 @@ Line
 1
 Col
 :
-537
+532
 This
 element
 (
@@ -15112,7 +15088,7 @@ Line
 1
 Col
 :
-547
+542
 This
 element
 (
@@ -15128,7 +15104,7 @@ Line
 1
 Col
 :
-557
+552
 Unexpected
 end
 tag
@@ -15143,7 +15119,7 @@ Line
 1
 Col
 :
-568
+563
 Unexpected
 end
 tag
@@ -15158,7 +15134,7 @@ Line
 1
 Col
 :
-579
+574
 Unexpected
 end
 tag
@@ -15173,7 +15149,7 @@ Line
 1
 Col
 :
-590
+585
 Unexpected
 end
 tag
@@ -15188,7 +15164,7 @@ Line
 1
 Col
 :
-599
+594
 Unexpected
 end
 tag
@@ -15203,7 +15179,7 @@ Line
 1
 Col
 :
-611
+606
 Unexpected
 end
 tag
@@ -15218,7 +15194,7 @@ Line
 1
 Col
 :
-622
+617
 Unexpected
 end
 tag
@@ -15285,10 +15261,6 @@ strike
 <
 /
 s
->
-<
-/
-blink
 >
 <
 /
@@ -15909,7 +15881,7 @@ Unexpected
 end
 tag
 (
-blink
+tt
 )
 in
 table
@@ -15924,40 +15896,6 @@ Line
 Col
 :
 58
-Unexpected
-end
-tag
-(
-blink
-)
-.
-Ignored
-.
-Line
-:
-1
-Col
-:
-63
-Unexpected
-end
-tag
-(
-tt
-)
-in
-table
-context
-caused
-voodoo
-mode
-.
-Line
-:
-1
-Col
-:
-63
 End
 tag
 (
@@ -15979,7 +15917,7 @@ Line
 1
 Col
 :
-69
+64
 Unexpected
 end
 tag
@@ -15998,7 +15936,7 @@ Line
 1
 Col
 :
-69
+64
 End
 tag
 (
@@ -16018,7 +15956,7 @@ Line
 1
 Col
 :
-75
+70
 Unexpected
 end
 tag
@@ -16037,7 +15975,7 @@ Line
 1
 Col
 :
-75
+70
 End
 tag
 (
@@ -16059,7 +15997,7 @@ Line
 1
 Col
 :
-83
+78
 Unexpected
 end
 tag
@@ -16078,7 +16016,7 @@ Line
 1
 Col
 :
-83
+78
 End
 tag
 (
@@ -16100,7 +16038,7 @@ Line
 1
 Col
 :
-90
+85
 Unexpected
 end
 tag
@@ -16119,7 +16057,7 @@ Line
 1
 Col
 :
-90
+85
 End
 tag
 (
@@ -16141,7 +16079,7 @@ Line
 1
 Col
 :
-99
+94
 Unexpected
 end
 tag
@@ -16160,7 +16098,7 @@ Line
 1
 Col
 :
-99
+94
 Unexpected
 end
 tag
@@ -16175,7 +16113,7 @@ Line
 1
 Col
 :
-104
+99
 Unexpected
 end
 tag
@@ -16194,11 +16132,50 @@ Line
 1
 Col
 :
-104
+99
 End
 tag
 (
 h1
+)
+seen
+too
+early
+.
+Expected
+other
+end
+tag
+.
+Line
+:
+1
+Col
+:
+104
+Unexpected
+end
+tag
+(
+h2
+)
+in
+table
+context
+caused
+voodoo
+mode
+.
+Line
+:
+1
+Col
+:
+104
+End
+tag
+(
+h2
 )
 seen
 too
@@ -16219,7 +16196,7 @@ Unexpected
 end
 tag
 (
-h2
+h3
 )
 in
 table
@@ -16237,7 +16214,7 @@ Col
 End
 tag
 (
-h2
+h3
 )
 seen
 too
@@ -16258,7 +16235,7 @@ Unexpected
 end
 tag
 (
-h3
+h4
 )
 in
 table
@@ -16276,7 +16253,7 @@ Col
 End
 tag
 (
-h3
+h4
 )
 seen
 too
@@ -16297,7 +16274,7 @@ Unexpected
 end
 tag
 (
-h4
+h5
 )
 in
 table
@@ -16315,7 +16292,7 @@ Col
 End
 tag
 (
-h4
+h5
 )
 seen
 too
@@ -16336,7 +16313,7 @@ Unexpected
 end
 tag
 (
-h5
+h6
 )
 in
 table
@@ -16354,45 +16331,6 @@ Col
 End
 tag
 (
-h5
-)
-seen
-too
-early
-.
-Expected
-other
-end
-tag
-.
-Line
-:
-1
-Col
-:
-129
-Unexpected
-end
-tag
-(
-h6
-)
-in
-table
-context
-caused
-voodoo
-mode
-.
-Line
-:
-1
-Col
-:
-129
-End
-tag
-(
 h6
 )
 seen
@@ -16409,7 +16347,7 @@ Line
 1
 Col
 :
-136
+131
 Unexpected
 end
 tag
@@ -16429,7 +16367,7 @@ Line
 1
 Col
 :
-141
+136
 Unexpected
 end
 tag
@@ -16448,7 +16386,7 @@ Line
 1
 Col
 :
-141
+136
 Unexpected
 end
 tag
@@ -16466,7 +16404,7 @@ Line
 1
 Col
 :
-145
+140
 Unexpected
 end
 tag
@@ -16485,7 +16423,7 @@ Line
 1
 Col
 :
-145
+140
 End
 tag
 (
@@ -16507,7 +16445,7 @@ Line
 1
 Col
 :
-151
+146
 Unexpected
 end
 tag
@@ -16526,7 +16464,7 @@ Line
 1
 Col
 :
-151
+146
 This
 element
 (
@@ -16542,7 +16480,7 @@ Line
 1
 Col
 :
-159
+154
 Unexpected
 end
 tag
@@ -16561,7 +16499,7 @@ Line
 1
 Col
 :
-159
+154
 Unexpected
 end
 tag
@@ -16576,7 +16514,7 @@ Line
 1
 Col
 :
-166
+161
 Unexpected
 end
 tag
@@ -16595,7 +16533,7 @@ Line
 1
 Col
 :
-166
+161
 Unexpected
 end
 tag
@@ -16610,7 +16548,7 @@ Line
 1
 Col
 :
-174
+169
 Unexpected
 end
 tag
@@ -16629,7 +16567,7 @@ Line
 1
 Col
 :
-174
+169
 Unexpected
 end
 tag
@@ -16644,7 +16582,7 @@ Line
 1
 Col
 :
-183
+178
 Unexpected
 end
 tag
@@ -16663,7 +16601,7 @@ Line
 1
 Col
 :
-183
+178
 Unexpected
 end
 tag
@@ -16678,7 +16616,7 @@ Line
 1
 Col
 :
-196
+191
 Unexpected
 end
 tag
@@ -16693,7 +16631,7 @@ Line
 1
 Col
 :
-201
+196
 Unexpected
 end
 tag
@@ -16708,7 +16646,7 @@ Line
 1
 Col
 :
-206
+201
 Unexpected
 end
 tag
@@ -16723,7 +16661,7 @@ Line
 1
 Col
 :
-214
+209
 This
 element
 (
@@ -16739,7 +16677,7 @@ Line
 1
 Col
 :
-221
+216
 This
 element
 (
@@ -16755,7 +16693,7 @@ Line
 1
 Col
 :
-228
+223
 Unexpected
 end
 tag
@@ -16770,7 +16708,7 @@ Line
 1
 Col
 :
-236
+231
 This
 element
 (
@@ -16786,7 +16724,7 @@ Line
 1
 Col
 :
-241
+236
 This
 element
 (
@@ -16802,7 +16740,7 @@ Line
 1
 Col
 :
-249
+244
 This
 element
 (
@@ -16818,7 +16756,7 @@ Line
 1
 Col
 :
-255
+251
 Unexpected
 end
 tag
@@ -16833,7 +16771,7 @@ Line
 1
 Col
 :
-262
+257
 Unexpected
 end
 tag
@@ -16848,7 +16786,7 @@ Line
 1
 Col
 :
-269
+264
 Unexpected
 end
 tag
@@ -16863,7 +16801,7 @@ Line
 1
 Col
 :
-280
+275
 This
 element
 (
@@ -16879,7 +16817,7 @@ Line
 1
 Col
 :
-290
+285
 This
 element
 (
@@ -16895,7 +16833,7 @@ Line
 1
 Col
 :
-298
+293
 This
 element
 (
@@ -16911,7 +16849,7 @@ Line
 1
 Col
 :
-307
+302
 This
 element
 (
@@ -16927,7 +16865,7 @@ Line
 1
 Col
 :
-311
+306
 Unexpected
 end
 tag
@@ -16942,7 +16880,7 @@ Line
 1
 Col
 :
-316
+311
 End
 tag
 (
@@ -16962,7 +16900,7 @@ Line
 1
 Col
 :
-321
+316
 End
 tag
 (
@@ -16982,7 +16920,7 @@ Line
 1
 Col
 :
-331
+326
 Unexpected
 end
 tag
@@ -16997,7 +16935,7 @@ Line
 1
 Col
 :
-342
+337
 Unexpected
 end
 tag
@@ -17012,7 +16950,7 @@ Line
 1
 Col
 :
-350
+345
 Unexpected
 end
 tag
@@ -17027,7 +16965,7 @@ Line
 1
 Col
 :
-358
+353
 Unexpected
 end
 tag
@@ -17042,7 +16980,7 @@ Line
 1
 Col
 :
-366
+361
 Unexpected
 end
 tag
@@ -17057,7 +16995,7 @@ Line
 1
 Col
 :
-376
+371
 End
 tag
 (
@@ -17077,7 +17015,7 @@ Line
 1
 Col
 :
-389
+384
 End
 tag
 (
@@ -17097,7 +17035,7 @@ Line
 1
 Col
 :
-398
+393
 End
 tag
 (
@@ -17117,7 +17055,7 @@ Line
 1
 Col
 :
-404
+399
 Unexpected
 end
 tag
@@ -17132,7 +17070,7 @@ Line
 1
 Col
 :
-410
+405
 End
 tag
 (
@@ -17152,7 +17090,7 @@ Line
 1
 Col
 :
-415
+410
 End
 tag
 (
@@ -17172,7 +17110,7 @@ Line
 1
 Col
 :
-426
+421
 End
 tag
 (
@@ -17192,7 +17130,7 @@ Line
 1
 Col
 :
-436
+431
 End
 tag
 (
@@ -17212,7 +17150,7 @@ Line
 1
 Col
 :
-443
+438
 End
 tag
 (
@@ -17232,7 +17170,7 @@ Line
 1
 Col
 :
-448
+443
 End
 tag
 (
@@ -17252,7 +17190,7 @@ Line
 1
 Col
 :
-453
+448
 End
 tag
 (
@@ -17272,7 +17210,7 @@ Line
 1
 Col
 :
-458
+453
 End
 tag
 (
@@ -17292,7 +17230,7 @@ Line
 1
 Col
 :
-465
+460
 End
 tag
 (
@@ -17314,7 +17252,7 @@ Line
 1
 Col
 :
-471
+466
 This
 element
 (
@@ -17330,7 +17268,7 @@ Line
 1
 Col
 :
-487
+482
 End
 tag
 (
@@ -17350,7 +17288,7 @@ Line
 1
 Col
 :
-497
+492
 End
 tag
 (
@@ -17370,7 +17308,7 @@ Line
 1
 Col
 :
-506
+501
 End
 tag
 (
@@ -17390,7 +17328,7 @@ Line
 1
 Col
 :
-524
+519
 Unexpected
 end
 tag
@@ -17405,7 +17343,7 @@ Line
 1
 Col
 :
-524
+519
 Unexpected
 end
 tag
@@ -17420,7 +17358,7 @@ Line
 1
 Col
 :
-531
+526
 Unexpected
 end
 tag
@@ -17435,7 +17373,7 @@ Line
 1
 Col
 :
-540
+535
 Unexpected
 end
 tag
@@ -17450,7 +17388,7 @@ Line
 1
 Col
 :
-548
+543
 This
 element
 (
@@ -17466,7 +17404,7 @@ Line
 1
 Col
 :
-558
+553
 This
 element
 (
@@ -17482,7 +17420,7 @@ Line
 1
 Col
 :
-568
+563
 Unexpected
 end
 tag
@@ -17497,7 +17435,7 @@ Line
 1
 Col
 :
-579
+574
 Unexpected
 end
 tag
@@ -17512,7 +17450,7 @@ Line
 1
 Col
 :
-590
+585
 Unexpected
 end
 tag
@@ -17527,7 +17465,7 @@ Line
 1
 Col
 :
-601
+596
 Unexpected
 end
 tag
@@ -17542,7 +17480,7 @@ Line
 1
 Col
 :
-610
+605
 Unexpected
 end
 tag
@@ -17557,7 +17495,7 @@ Line
 1
 Col
 :
-622
+617
 Unexpected
 end
 tag
@@ -17572,7 +17510,7 @@ Line
 1
 Col
 :
-633
+628
 Unexpected
 end
 tag
