@@ -1355,8 +1355,6 @@ endif
 buildsymbols
 :
 ifdef
-MOZ_DEBUG_SYMBOLS
-ifdef
 MOZ_AIRBAG
 echo
 building
@@ -1525,14 +1523,9 @@ BUILDID
 )
 endif
 #
-MOZ_DEBUG_SYMBOLS
-endif
-#
 MOZ_AIRBAG
 uploadsymbols
 :
-ifdef
-MOZ_DEBUG_SYMBOLS
 ifdef
 MOZ_AIRBAG
 (
@@ -1568,7 +1561,6 @@ BUILDID
 )
 .
 zip
-endif
 endif
 ifeq
 (
