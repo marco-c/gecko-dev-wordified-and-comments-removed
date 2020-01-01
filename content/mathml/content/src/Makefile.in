@@ -148,12 +148,6 @@ lib
 FORCE_STATIC_LIB
 =
 1
-EXPORTS
-=
-\
-(
-NULL
-)
 include
 (
 topsrcdir
