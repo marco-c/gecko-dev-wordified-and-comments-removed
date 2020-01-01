@@ -9287,7 +9287,10 @@ rt
 >
 gcNumArenasFreeCommitted
 >
-FreeCommittedArenasThreshold
+rt
+-
+>
+gcDecommitThreshold
 )
 {
 JS
