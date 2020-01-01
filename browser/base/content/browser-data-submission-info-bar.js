@@ -140,7 +140,7 @@ prompted
 endif
 _TELEMETRY_DISPLAY_REV
 :
-MOZ_TELEMETRY_DISPLAY_REV
+2
 #
 endif
 init
