@@ -1501,6 +1501,17 @@ shift
 )
 ;
 void
+ma_smod
+(
+Register
+num
+Register
+div
+Register
+dest
+)
+;
+void
 ma_sdiv
 (
 Register
