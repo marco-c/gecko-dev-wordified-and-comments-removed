@@ -420,6 +420,11 @@ Tell
 =
 0
 ;
+void
+MoveLoadsToBackground
+(
+)
+;
 virtual
 void
 Pin
@@ -533,6 +538,10 @@ mURI
 (
 aURI
 )
+mLoadInBackground
+(
+PR_FALSE
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -567,6 +576,9 @@ nsCOMPtr
 nsIURI
 >
 mURI
+;
+PRPackedBool
+mLoadInBackground
 ;
 }
 ;

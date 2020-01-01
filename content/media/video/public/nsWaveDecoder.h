@@ -251,6 +251,12 @@ UpdateReadyStateForData
 (
 )
 ;
+virtual
+void
+MoveLoadsToBackground
+(
+)
+;
 private
 :
 void

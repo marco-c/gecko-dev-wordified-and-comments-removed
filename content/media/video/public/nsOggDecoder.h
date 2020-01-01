@@ -360,6 +360,12 @@ Resume
 (
 )
 ;
+virtual
+void
+MoveLoadsToBackground
+(
+)
+;
 protected
 :
 PRMonitor

@@ -426,6 +426,14 @@ GetMediaElement
 (
 )
 ;
+virtual
+void
+MoveLoadsToBackground
+(
+)
+=
+0
+;
 protected
 :
 nsresult
