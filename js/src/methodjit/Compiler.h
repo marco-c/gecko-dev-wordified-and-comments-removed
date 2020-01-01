@@ -1046,6 +1046,8 @@ jsop_bindname
 (
 uint32
 index
+bool
+usePropCache
 )
 ;
 void
@@ -1065,6 +1067,13 @@ index
 void
 jsop_getprop_slow
 (
+JSAtom
+*
+atom
+bool
+usePropCache
+=
+true
 )
 ;
 void
