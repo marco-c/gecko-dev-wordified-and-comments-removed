@@ -6770,6 +6770,11 @@ rv
 E_OUTOFMEMORY
 )
 {
+mMaxGlyphs
+*
+=
+2
+;
 mGlyphs
 .
 SetLength
@@ -6783,11 +6788,6 @@ SetLength
 (
 mMaxGlyphs
 )
-;
-mMaxGlyphs
-*
-=
-2
 ;
 continue
 ;
