@@ -132,6 +132,10 @@ test_bug877690
 .
 html
 \
+test_get_all_style_sheets
+.
+html
+\
 (
 NULL
 )
