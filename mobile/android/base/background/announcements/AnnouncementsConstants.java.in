@@ -195,8 +195,8 @@ PREF_ANNOUNCE_FETCH_INTERVAL_MSEC
 announce_fetch_interval_msec
 "
 ;
+public
 static
-final
 String
 DEFAULT_ANNOUNCE_SERVER_BASE_URL
 =
@@ -239,7 +239,6 @@ android
 ;
 public
 static
-final
 String
 ANNOUNCE_PATH_SUFFIX
 =
@@ -261,7 +260,6 @@ ANNOUNCE_APPLICATION
 ;
 public
 static
-final
 long
 DEFAULT_ANNOUNCE_FETCH_INTERVAL_MSEC
 =
@@ -271,7 +269,6 @@ INTERVAL_HALF_DAY
 ;
 public
 static
-final
 long
 DEFAULT_BACKOFF_MSEC
 =
@@ -300,7 +297,22 @@ header
 .
 public
 static
-final
+long
+MINIMUM_FETCH_INTERVAL_MSEC
+=
+60
+*
+60
+*
+1000
+;
+/
+/
+1
+hour
+.
+public
+static
 String
 ANNOUNCE_USER_AGENT
 =
@@ -315,7 +327,6 @@ MOZ_APP_VERSION
 ;
 public
 static
-final
 String
 ANNOUNCE_CHANNEL
 =
