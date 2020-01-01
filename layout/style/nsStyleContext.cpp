@@ -119,6 +119,8 @@ aPseudoType
 nsRuleNode
 *
 aRuleNode
+bool
+aSkipFlexItemStyleFixup
 )
 :
 mParent
@@ -318,6 +320,7 @@ SetUsedDirectly
 ;
 ApplyStyleFixups
 (
+aSkipFlexItemStyleFixup
 )
 ;
 #
@@ -1431,6 +1434,8 @@ nsStyleContext
 :
 ApplyStyleFixups
 (
+bool
+aSkipFlexItemStyleFixup
 )
 {
 if
@@ -1680,6 +1685,10 @@ ifdef
 MOZ_FLEXBOX
 if
 (
+!
+aSkipFlexItemStyleFixup
+&
+&
 mParent
 )
 {
@@ -3316,6 +3325,8 @@ aPseudoType
 nsRuleNode
 *
 aRuleNode
+bool
+aSkipFlexItemStyleFixup
 )
 {
 nsStyleContext
@@ -3337,6 +3348,7 @@ aParentContext
 aPseudoTag
 aPseudoType
 aRuleNode
+aSkipFlexItemStyleFixup
 )
 ;
 context

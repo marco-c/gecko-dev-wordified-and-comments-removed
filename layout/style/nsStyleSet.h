@@ -1044,6 +1044,12 @@ eDoAnimation
 <
 <
 2
+eSkipFlexItemStyleFixup
+=
+1
+<
+<
+3
 }
 ;
 already_AddRefed

@@ -49,6 +49,8 @@ aPseudoType
 nsRuleNode
 *
 aRuleNode
+bool
+aSkipFlexItemStyleFixup
 )
 ;
 ~
@@ -902,6 +904,8 @@ aChild
 void
 ApplyStyleFixups
 (
+bool
+aSkipFlexItemStyleFixup
 )
 ;
 void
@@ -1230,6 +1234,8 @@ aPseudoType
 nsRuleNode
 *
 aRuleNode
+bool
+aSkipFlexItemStyleFixup
 )
 ;
 #

@@ -3613,6 +3613,9 @@ aParentContext
 aPseudoTag
 aPseudoType
 aRuleNode
+aFlags
+&
+eSkipFlexItemStyleFixup
 )
 ;
 if
@@ -3640,6 +3643,9 @@ parentIfVisited
 aPseudoTag
 aPseudoType
 aVisitedRuleNode
+aFlags
+&
+eSkipFlexItemStyleFixup
 )
 ;
 if
