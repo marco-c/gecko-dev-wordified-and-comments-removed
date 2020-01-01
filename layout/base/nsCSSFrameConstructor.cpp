@@ -50425,6 +50425,10 @@ return
 NS_OK
 ;
 }
+BeginUpdate
+(
+)
+;
 rv
 =
 ConstructFrameInternal
@@ -50536,6 +50540,10 @@ newFrame
 )
 ;
 }
+EndUpdate
+(
+)
+;
 }
 return
 rv
