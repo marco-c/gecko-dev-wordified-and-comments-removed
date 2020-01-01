@@ -154,6 +154,10 @@ test_bfcache
 .
 html
 \
+test_blob_simple
+.
+html
+\
 test_clear
 .
 html

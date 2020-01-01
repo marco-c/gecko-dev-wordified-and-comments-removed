@@ -58,6 +58,10 @@ MPL
 /
 include
 protocol
+PBlob
+;
+include
+protocol
 PIndexedDBCursor
 ;
 include
@@ -267,6 +271,11 @@ IndexUpdateInfo
 ]
 indexUpdateInfos
 ;
+PBlob
+[
+]
+blobs
+;
 }
 ;
 struct
@@ -361,6 +370,11 @@ key
 ;
 SerializedStructuredCloneReadInfo
 cloneInfo
+;
+PBlob
+[
+]
+blobs
 ;
 }
 ;

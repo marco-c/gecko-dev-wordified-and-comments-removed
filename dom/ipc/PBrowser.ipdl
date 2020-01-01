@@ -116,6 +116,10 @@ MPL
 /
 include
 protocol
+PBlob
+;
+include
+protocol
 PContent
 ;
 include
@@ -190,6 +194,9 @@ NeckoMessageUtils
 .
 h
 "
+;
+include
+DOMTypes
 ;
 using
 IPC
@@ -309,8 +316,8 @@ AsyncMessage
 (
 nsString
 aMessage
-nsString
-aJSON
+ClonedMessageData
+aData
 )
 ;
 parent
@@ -366,8 +373,8 @@ SyncMessage
 (
 nsString
 aMessage
-nsString
-aJSON
+ClonedMessageData
+aData
 )
 returns
 (

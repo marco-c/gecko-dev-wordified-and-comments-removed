@@ -58,6 +58,10 @@ MPL
 /
 include
 protocol
+PBlob
+;
+include
+protocol
 PIndexedDBCursor
 ;
 include
@@ -288,6 +292,11 @@ objectKey
 ;
 OptionalStructuredCloneReadInfo
 optionalCloneInfo
+;
+PBlob
+[
+]
+blobs
 ;
 }
 ;

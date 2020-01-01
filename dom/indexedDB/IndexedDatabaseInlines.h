@@ -147,7 +147,7 @@ return
 false
 ;
 }
-mFileInfos
+mFiles
 .
 Clear
 (

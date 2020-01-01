@@ -408,6 +408,13 @@ char
 data
 int
 length
+uint32
+alignment
+=
+sizeof
+(
+uint32
+)
 )
 const
 ;
@@ -736,6 +743,13 @@ void
 data
 int
 data_len
+uint32
+alignment
+=
+sizeof
+(
+uint32
+)
 )
 ;
 char
@@ -1029,6 +1043,8 @@ BeginWrite
 (
 uint32
 length
+uint32
+alignment
 )
 ;
 void
