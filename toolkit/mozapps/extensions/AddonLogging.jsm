@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 Cc
 =
@@ -45,6 +50,17 @@ logging
 .
 enabled
 "
+;
+const
+LOGGER_FILE_PERM
+=
+parseInt
+(
+"
+666
+"
+8
+)
 ;
 const
 NS_PREFBRANCH_PREFCHANGE_TOPIC_ID
@@ -444,7 +460,7 @@ logfile
 0x08
 |
 0x10
-0666
+LOGGER_FILE_PERM
 0
 )
 ;
