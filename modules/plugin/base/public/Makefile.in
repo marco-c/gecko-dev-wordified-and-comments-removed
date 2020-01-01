@@ -543,10 +543,6 @@ nsIScriptablePlugin
 .
 idl
 \
-nsIPluginTag
-.
-idl
-\
 nsIPluginTagInfo
 .
 idl
