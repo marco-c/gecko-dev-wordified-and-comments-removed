@@ -523,7 +523,7 @@ this
 hasAttribute
 (
 '
-isempty
+empty
 '
 )
 ?
@@ -1324,7 +1324,7 @@ this
 hasAttribute
 (
 '
-isempty
+empty
 '
 )
 ?
@@ -1614,7 +1614,7 @@ this
 hasAttribute
 (
 "
-isempty
+empty
 "
 )
 )
@@ -1624,7 +1624,7 @@ this
 setAttribute
 (
 "
-isempty
+empty
 "
 "
 true
@@ -1749,7 +1749,7 @@ this
 hasAttribute
 (
 "
-isempty
+empty
 "
 )
 )
@@ -1827,7 +1827,7 @@ this
 removeAttribute
 (
 "
-isempty
+empty
 "
 )
 ;
@@ -2675,7 +2675,7 @@ this
 hasAttribute
 (
 '
-isempty
+empty
 '
 )
 ?
@@ -3406,7 +3406,7 @@ this
 hasAttribute
 (
 '
-isempty
+empty
 '
 )
 ?
