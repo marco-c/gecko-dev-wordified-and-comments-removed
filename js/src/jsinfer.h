@@ -178,12 +178,12 @@ JSVAL_TYPE_OBJECT
 )
 ;
 return
+(
+jsuword
+)
 type
 =
 =
-(
-JSValueType
-)
 data
 ;
 }
