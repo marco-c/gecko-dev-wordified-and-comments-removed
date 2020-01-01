@@ -41,9 +41,6 @@ sEmptyHdr
 0
 }
 ;
-#
-ifdef
-NS_BUILD_REFCNT_LOGGING
 nsTArray_base
 :
 :
@@ -77,8 +74,6 @@ nsTArray_base
 )
 ;
 }
-#
-endif
 PRBool
 nsTArray_base
 :
