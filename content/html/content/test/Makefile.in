@@ -730,10 +730,6 @@ file_bug417760
 .
 png
 \
-test_bug406596
-.
-html
-\
 test_bug421640
 .
 html
