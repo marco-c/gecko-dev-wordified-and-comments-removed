@@ -493,6 +493,12 @@ eMEDIA
 <
 <
 11
+eANIMATION
+=
+1
+<
+<
+12
 }
 ;
 virtual

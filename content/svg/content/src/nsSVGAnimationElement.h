@@ -136,6 +136,15 @@ aNotify
 ;
 virtual
 PRBool
+IsNodeOfType
+(
+PRUint32
+aFlags
+)
+const
+;
+virtual
+PRBool
 ParseAttribute
 (
 PRInt32
