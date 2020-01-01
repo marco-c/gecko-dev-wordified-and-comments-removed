@@ -488,6 +488,10 @@ window_focus
 .
 xul
 \
+test_focused_link_scroll
+.
+xul
+\
 (
 NULL
 )
