@@ -83,6 +83,11 @@ color_text_placeholder
 808080
 %
 define
+color_text_as_link
+#
+febc2b
+%
+define
 color_background_highlight
 #
 febc2b

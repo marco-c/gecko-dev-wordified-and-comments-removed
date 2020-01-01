@@ -430,6 +430,10 @@ mk
 EXTRA_JS_MODULES
 =
 \
+LocaleRepository
+.
+jsm
+\
 linuxTypes
 .
 jsm
