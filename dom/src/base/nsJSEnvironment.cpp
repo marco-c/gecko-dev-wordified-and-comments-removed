@@ -13861,12 +13861,13 @@ printf
 (
 "
 Running
-cycle
-collector
+CC
 was
 delayed
-:
+because
+of
 NS_MIN_CC_INTERVAL
+.
 \
 n
 "
