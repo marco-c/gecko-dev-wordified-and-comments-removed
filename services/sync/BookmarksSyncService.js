@@ -9116,7 +9116,9 @@ done
 )
 this
 .
-_info
+_log
+.
+info
 (
 "
 Server
@@ -9129,7 +9131,9 @@ successfully
 else
 this
 .
-_info
+_log
+.
+info
 (
 "
 Server
