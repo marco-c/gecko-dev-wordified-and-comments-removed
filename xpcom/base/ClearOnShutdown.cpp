@@ -18,9 +18,12 @@ sHasShutDown
 =
 false
 ;
+StaticAutoPtr
+<
 LinkedList
 <
 ShutdownObserver
+>
 >
 sShutdownObservers
 ;
