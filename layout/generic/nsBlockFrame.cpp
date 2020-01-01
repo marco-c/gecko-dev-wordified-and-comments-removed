@@ -11299,6 +11299,13 @@ InvalidateCachedIsEmpty
 (
 )
 ;
+aLine
+-
+>
+ClearHadFloatPushed
+(
+)
+;
 if
 (
 aLine
@@ -19237,6 +19244,7 @@ PlaceBelowCurrentLineFloats
 aState
 .
 mBelowCurrentLineFloats
+aLine
 )
 ;
 aLine

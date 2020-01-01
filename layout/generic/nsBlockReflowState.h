@@ -241,6 +241,9 @@ PlaceBelowCurrentLineFloats
 nsFloatCacheFreeList
 &
 aFloats
+nsLineBox
+*
+aLine
 )
 ;
 nscoord
