@@ -395,6 +395,13 @@ background
 #
 FFFF9500
 "
+android
+:
+visibility
+=
+"
+gone
+"
 /
 >
 <
