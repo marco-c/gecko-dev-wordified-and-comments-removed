@@ -1147,7 +1147,7 @@ displayURI
 {
 args
 :
-2
+3
 desc
 :
 "
@@ -1734,6 +1734,7 @@ sendURIToClientForDisplay
 (
 uri
 clientId
+title
 )
 {
 this
@@ -1758,6 +1759,16 @@ uri
 "
 +
 clientId
++
+"
+(
+"
++
+title
++
+"
+)
+"
 )
 ;
 this
@@ -1771,7 +1782,8 @@ displayURI
 uri
 this
 .
-syncID
+localID
+title
 ]
 clientId
 )
