@@ -57,9 +57,6 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
 ;
 void

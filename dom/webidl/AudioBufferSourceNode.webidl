@@ -158,6 +158,8 @@ AudioBufferSourceNode
 :
 AudioSourceNode
 {
+/
+/
 const
 unsigned
 short
@@ -165,6 +167,8 @@ UNSCHEDULED_STATE
 =
 0
 ;
+/
+/
 const
 unsigned
 short
@@ -172,6 +176,8 @@ SCHEDULED_STATE
 =
 1
 ;
+/
+/
 const
 unsigned
 short
@@ -179,6 +185,8 @@ PLAYING_STATE
 =
 2
 ;
+/
+/
 const
 unsigned
 short

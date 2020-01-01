@@ -220,6 +220,10 @@ DynamicsCompressorNode
 .
 h
 \
+EnableWebAudioCheck
+.
+h
+\
 GainNode
 .
 h
