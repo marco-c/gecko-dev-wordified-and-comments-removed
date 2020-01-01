@@ -1383,16 +1383,6 @@ js
 :
 NewObjectCache
 ;
-#
-ifdef
-DEBUG
-void
-checkShapeConsistency
-(
-)
-;
-#
-endif
 void
 makeLazyType
 (
