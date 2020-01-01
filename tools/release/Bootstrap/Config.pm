@@ -1119,6 +1119,9 @@ this
 >
 Get
 (
+var
+=
+>
 '
 product
 '
@@ -1132,6 +1135,9 @@ this
 >
 Get
 (
+var
+=
+>
 '
 version
 '
@@ -1145,6 +1151,9 @@ this
 >
 Get
 (
+var
+=
+>
 '
 rc
 '
