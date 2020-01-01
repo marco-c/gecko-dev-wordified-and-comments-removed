@@ -1,12 +1,11 @@
 <
 !
 ENTITY
-feedbackHeader
+feedbackHeader2
 .
 label
 "
-Beta
-Tester
+Feedback
 Tools
 "
 >
