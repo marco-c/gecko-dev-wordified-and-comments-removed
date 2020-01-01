@@ -482,11 +482,6 @@ existingLocationObject
 )
 )
 {
-NS_ADDREF
-(
-existingLocationObject
-)
-;
 return
 existingLocationObject
 ;
