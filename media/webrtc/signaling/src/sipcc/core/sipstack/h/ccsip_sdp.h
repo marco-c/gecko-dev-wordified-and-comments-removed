@@ -34,10 +34,6 @@ h
 "
 #
 define
-CCSIP_SDP_BUF_SIZE
-SDP_MAX_LEN
-#
-define
 CCSIP_SRC_SDP_BIT
 0x1
 #
@@ -128,7 +124,7 @@ SIPSDP_VERSION
 define
 SIPSDP_ORIGIN_USERNAME
 "
-Cisco
+Mozilla
 -
 SIPUA
 "

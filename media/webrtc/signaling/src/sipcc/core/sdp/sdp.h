@@ -31,10 +31,6 @@ SDP_SESSION_LEVEL
 0xFFFF
 #
 define
-SDP_MAX_LEN
-4096
-#
-define
 UNKNOWN_CRYPTO_SUITE
 "
 UNKNOWN_CRYPTO_SUITE
@@ -1033,12 +1029,9 @@ sdp_build
 void
 *
 sdp_ptr
-char
+flex_string
 *
-*
-bufp
-u16
-len
+fs
 )
 ;
 extern
