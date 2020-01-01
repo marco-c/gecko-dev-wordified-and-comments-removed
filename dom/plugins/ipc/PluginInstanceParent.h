@@ -1215,12 +1215,6 @@ nsIOSurface
 >
 mIOSurface
 ;
-nsAutoPtr
-<
-nsIOSurface
->
-mFrontIOSurface
-;
 #
 endif
 nsRefPtr
