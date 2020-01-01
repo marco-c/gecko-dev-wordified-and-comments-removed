@@ -423,6 +423,7 @@ filter
 aurora
 beta
 release
+esr
 (
 MOZ_UPDATE_CHANNEL
 )
