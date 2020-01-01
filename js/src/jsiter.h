@@ -4,7 +4,6 @@ jsiter_h___
 #
 define
 jsiter_h___
-JS_BEGIN_EXTERN_C
 #
 include
 "
@@ -19,6 +18,7 @@ jspubtd
 .
 h
 "
+JS_BEGIN_EXTERN_C
 #
 define
 JSITER_ENUMERATE

@@ -4,7 +4,6 @@ jslock_h__
 #
 define
 jslock_h__
-JS_BEGIN_EXTERN_C
 #
 ifdef
 JS_THREADSAFE
@@ -57,6 +56,7 @@ jspubtd
 .
 h
 "
+JS_BEGIN_EXTERN_C
 #
 define
 Thin_GetWait
@@ -393,6 +393,7 @@ PR_NotifyAllCondVar
 (
 cv
 )
+JS_END_EXTERN_C
 #
 include
 "
@@ -400,6 +401,7 @@ jsscope
 .
 h
 "
+JS_BEGIN_EXTERN_C
 #
 define
 JS_LOCK_RUNTIME
@@ -1077,6 +1079,7 @@ me
 endif
 #
 else
+JS_BEGIN_EXTERN_C
 #
 define
 JS_ATOMIC_INCREMENT
