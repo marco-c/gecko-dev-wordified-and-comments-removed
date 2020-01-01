@@ -160,6 +160,8 @@ gDBConn
 ?
 gDBConn
 :
+gDBConn
+=
 getService
 (
 )
