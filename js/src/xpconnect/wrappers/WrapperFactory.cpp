@@ -298,6 +298,8 @@ obj
 return
 nsnull
 ;
+obj
+=
 GetCurrentOuter
 (
 cx
