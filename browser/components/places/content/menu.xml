@@ -6222,6 +6222,17 @@ aNode
 )
 ;
 }
+containerStateChanged
+:
+function
+PMV_containerStateChanged
+(
+aNode
+aOldState
+aNewState
+)
+{
+}
 invalidateContainer
 :
 function

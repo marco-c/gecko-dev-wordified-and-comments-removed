@@ -5181,6 +5181,17 @@ aContainer
 )
 ;
 }
+containerStateChanged
+:
+function
+TV_V_containerStateChanged
+(
+aNode
+aOldState
+aNewState
+)
+{
+}
 invalidateContainer
 :
 function

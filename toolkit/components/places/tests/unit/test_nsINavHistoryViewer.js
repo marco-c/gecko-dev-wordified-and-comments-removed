@@ -328,6 +328,16 @@ closedContainer
 node
 ;
 }
+containerStateChanged
+:
+function
+(
+node
+oldState
+newState
+)
+{
+}
 invalidatedContainer
 :
 null
