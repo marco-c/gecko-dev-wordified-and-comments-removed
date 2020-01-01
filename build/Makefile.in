@@ -1659,9 +1659,9 @@ file
 foo
 printf
 "
-abc
+lmn
 \
-nlmn
+nabc
 \
 nxyz
 \
