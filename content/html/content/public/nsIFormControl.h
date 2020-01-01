@@ -200,8 +200,6 @@ ClearForm
 (
 PRBool
 aRemoveFromForm
-PRBool
-aNotify
 )
 =
 0

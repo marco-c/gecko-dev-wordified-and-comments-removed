@@ -1610,7 +1610,6 @@ node
 ClearForm
 (
 PR_TRUE
-PR_TRUE
 )
 ;
 if
@@ -4279,8 +4278,6 @@ nsGenericHTMLFormElement
 aChild
 bool
 aUpdateValidity
-PRBool
-aNotify
 )
 {
 nsresult
@@ -4481,7 +4478,6 @@ new
 RemoveElementRunnable
 (
 this
-aNotify
 )
 )
 ;
@@ -4548,8 +4544,6 @@ nsHTMLFormElement
 :
 HandleDefaultSubmitRemoval
 (
-PRBool
-aNotify
 )
 {
 if
@@ -4638,9 +4632,6 @@ here
 ;
 if
 (
-aNotify
-&
-&
 mDefaultSubmitElement
 )
 {
@@ -7605,7 +7596,6 @@ i
 ClearForm
 (
 PR_FALSE
-PR_TRUE
 )
 ;
 }
@@ -7646,7 +7636,6 @@ i
 ClearForm
 (
 PR_FALSE
-PR_TRUE
 )
 ;
 }

@@ -10684,8 +10684,6 @@ ClearForm
 (
 PRBool
 aRemoveFromForm
-PRBool
-aNotify
 )
 {
 NS_ASSERTION
@@ -10759,7 +10757,6 @@ RemoveElement
 (
 this
 true
-aNotify
 )
 ;
 if
@@ -11202,7 +11199,6 @@ aNullParent
 ClearForm
 (
 PR_TRUE
-PR_TRUE
 )
 ;
 }
@@ -11229,7 +11225,6 @@ mForm
 {
 ClearForm
 (
-PR_TRUE
 PR_TRUE
 )
 ;
@@ -11451,7 +11446,6 @@ RemoveElement
 (
 this
 false
-aNotify
 )
 ;
 if
@@ -12700,7 +12694,6 @@ aBindToTree
 {
 ClearForm
 (
-PR_TRUE
 PR_TRUE
 )
 ;

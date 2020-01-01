@@ -1197,7 +1197,6 @@ aNode
 ClearForm
 (
 PR_TRUE
-PR_FALSE
 )
 ;
 }

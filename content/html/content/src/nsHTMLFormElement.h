@@ -626,8 +626,6 @@ nsGenericHTMLFormElement
 aElement
 bool
 aUpdateValidity
-PRBool
-aNotify
 )
 ;
 nsresult
@@ -755,17 +753,11 @@ RemoveElementRunnable
 nsHTMLFormElement
 *
 aForm
-PRBool
-aNotify
 )
 :
 mForm
 (
 aForm
-)
-mNotify
-(
-aNotify
 )
 {
 }
@@ -779,7 +771,6 @@ mForm
 >
 HandleDefaultSubmitRemoval
 (
-mNotify
 )
 ;
 return
@@ -793,9 +784,6 @@ nsRefPtr
 nsHTMLFormElement
 >
 mForm
-;
-PRBool
-mNotify
 ;
 }
 ;
@@ -817,8 +805,6 @@ DoReset
 void
 HandleDefaultSubmitRemoval
 (
-PRBool
-aNotify
 )
 ;
 nsresult
