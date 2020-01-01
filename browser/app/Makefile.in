@@ -743,6 +743,12 @@ MOZ_APP_PROFILE
 )
 "
 endif
+LIBS
++
+=
+(
+JEMALLOC_LIBS
+)
 ifdef
 LIBXUL_SDK
 include

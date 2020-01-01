@@ -473,8 +473,6 @@ cpp
 endif
 #
 ENABLE_TESTS
-MOZ_UTILS_LDFLAGS
-=
 include
 (
 topsrcdir

@@ -534,7 +534,6 @@ type
 .
 type
 calltype
-iid_is
 )
 size_is
                                  

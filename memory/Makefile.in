@@ -427,10 +427,6 @@ endif
 DIRS
 +
 =
-mozutils
-DIRS
-+
-=
 mozalloc
 include
 (

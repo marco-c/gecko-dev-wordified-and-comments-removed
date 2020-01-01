@@ -78,9 +78,6 @@ DLL_SUFFIX
 DLL_PREFIX
 zlib
 DLL_SUFFIX
-DLL_PREFIX
-jemalloc
-DLL_SUFFIX
 #
 ifdef
 MOZ_STATIC_JS
@@ -9522,6 +9519,9 @@ icons
 mozicon50
 .
 xpm
+libjemalloc
+.
+so
 plugins
 /
 libnullplugin

@@ -1,7 +1,0 @@
-void
-_dummy
-(
-void
-)
-{
-}
