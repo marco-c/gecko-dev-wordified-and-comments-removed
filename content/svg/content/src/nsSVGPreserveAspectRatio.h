@@ -817,12 +817,5 @@ endif
 }
 ;
 }
-typedef
-mozilla
-:
-:
-SVGAnimatedPreserveAspectRatio
-nsSVGPreserveAspectRatio
-;
 #
 endif

@@ -4392,7 +4392,7 @@ InvalidateTransformNotifyFrame
 )
 ;
 }
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 *
 nsSVGSVGElement
 :

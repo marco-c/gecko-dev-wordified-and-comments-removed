@@ -40,6 +40,10 @@ nsGkAtoms
 .
 h
 "
+using
+namespace
+mozilla
+;
 typedef
 nsSVGStylableElement
 nsSVGSymbolElementBase
@@ -147,7 +151,7 @@ GetViewBox
 )
 ;
 virtual
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 *
 GetPreserveAspectRatio
 (
@@ -156,7 +160,7 @@ GetPreserveAspectRatio
 nsSVGViewBox
 mViewBox
 ;
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 mPreserveAspectRatio
 ;
 }
@@ -341,7 +345,7 @@ return
 mViewBox
 ;
 }
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 *
 nsSVGSymbolElement
 :

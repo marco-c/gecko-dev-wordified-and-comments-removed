@@ -131,6 +131,10 @@ gfxMatrix
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsSVGPatternFrame
 :
 :
@@ -1315,7 +1319,7 @@ mViewBox
 ;
 }
 const
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 &
 nsSVGPatternFrame
 :

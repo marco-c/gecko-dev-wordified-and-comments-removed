@@ -47,6 +47,10 @@ gfxContext
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsSVGElement
 :
 :
@@ -829,7 +833,7 @@ sLengthInfo
 )
 ;
 }
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 *
 nsSVGImageElement
 :

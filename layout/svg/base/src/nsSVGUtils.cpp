@@ -390,6 +390,10 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
 :
 :
 dom
@@ -4290,7 +4294,7 @@ aViewboxWidth
 float
 aViewboxHeight
 const
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 &
 aPreserveAspectRatio
 )

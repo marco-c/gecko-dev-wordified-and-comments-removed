@@ -48,13 +48,6 @@ SVGAnimatedPreserveAspectRatio
 ;
 }
 typedef
-mozilla
-:
-:
-SVGAnimatedPreserveAspectRatio
-nsSVGPreserveAspectRatio
-;
-typedef
 nsSVGPaintServerFrame
 nsSVGPatternFrameBase
 ;
@@ -107,6 +100,13 @@ aOverrideBounds
 ;
 public
 :
+typedef
+mozilla
+:
+:
+SVGAnimatedPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
+;
 virtual
 gfxMatrix
 GetCanvasTM
@@ -259,7 +259,7 @@ GetViewBox
 )
 ;
 const
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 &
 GetPreserveAspectRatio
 (

@@ -168,13 +168,6 @@ Element
 ;
 }
 }
-typedef
-mozilla
-:
-:
-SVGAnimatedPreserveAspectRatio
-nsSVGPreserveAspectRatio
-;
 #
 ifndef
 M_PI
@@ -635,6 +628,13 @@ nsSVGUtils
 {
 public
 :
+typedef
+mozilla
+:
+:
+SVGAnimatedPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
+;
 static
 mozilla
 :
@@ -1018,7 +1018,7 @@ aViewboxWidth
 float
 aViewboxHeight
 const
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 &
 aPreserveAspectRatio
 )

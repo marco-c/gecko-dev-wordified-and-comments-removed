@@ -124,6 +124,13 @@ aNodeInfo
 ;
 public
 :
+typedef
+mozilla
+:
+:
+SVGAnimatedPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
+;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMSVGPATTERNELEMENT
 NS_DECL_NSIDOMSVGURIREFERENCE
@@ -219,7 +226,7 @@ GetViewBox
 )
 ;
 virtual
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 *
 GetPreserveAspectRatio
 (
@@ -304,7 +311,7 @@ sStringInfo
 nsSVGViewBox
 mViewBox
 ;
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 mPreserveAspectRatio
 ;
 nsresult

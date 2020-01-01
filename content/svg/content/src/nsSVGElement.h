@@ -145,13 +145,6 @@ SVGAnimatedPreserveAspectRatio
 ;
 }
 typedef
-mozilla
-:
-:
-SVGAnimatedPreserveAspectRatio
-nsSVGPreserveAspectRatio
-;
-typedef
 nsStyledElement
 nsSVGElementBase
 ;
@@ -228,6 +221,13 @@ mozilla
 :
 SVGAnimatedPathSegList
 SVGAnimatedPathSegList
+;
+typedef
+mozilla
+:
+:
+SVGAnimatedPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 ;
 NS_DECL_ISUPPORTS_INHERITED
 virtual
@@ -1672,7 +1672,7 @@ GetViewBox
 )
 ;
 virtual
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 *
 GetPreserveAspectRatio
 (

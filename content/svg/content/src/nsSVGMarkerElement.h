@@ -320,6 +320,13 @@ aNodeInfo
 ;
 public
 :
+typedef
+mozilla
+:
+:
+SVGAnimatedPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
+;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMSVGMARKERELEMENT
 NS_DECL_NSIDOMSVGFITTOVIEWBOX
@@ -512,7 +519,7 @@ GetViewBox
 )
 ;
 virtual
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 *
 GetPreserveAspectRatio
 (
@@ -584,7 +591,7 @@ sAngleInfo
 nsSVGViewBox
 mViewBox
 ;
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 mPreserveAspectRatio
 ;
 nsSVGOrientType

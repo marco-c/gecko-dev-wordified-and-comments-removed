@@ -25653,7 +25653,7 @@ PR_TRUE
 ;
 }
 virtual
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 *
 GetPreserveAspectRatio
 (
@@ -25692,7 +25692,7 @@ sStringInfo
 2
 ]
 ;
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 mPreserveAspectRatio
 ;
 }
@@ -26513,7 +26513,7 @@ GetMaxRect
 )
 ;
 }
-nsSVGPreserveAspectRatio
+SVGAnimatedPreserveAspectRatio
 *
 nsSVGFEImageElement
 :
