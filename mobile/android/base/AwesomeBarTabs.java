@@ -1380,6 +1380,9 @@ favicon
 try
 {
 Class
+<
+?
+>
 cls
 =
 Class

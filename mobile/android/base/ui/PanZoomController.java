@@ -1214,8 +1214,6 @@ false
 ;
 GeckoApp
 .
-mAppContext
-.
 mAutoCompletePopup
 .
 hide
