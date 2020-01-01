@@ -1168,11 +1168,11 @@ chrome
 :
 /
 /
-communicator
+global
 /
 content
 /
-printing
+printUtils
 .
 js
 "
