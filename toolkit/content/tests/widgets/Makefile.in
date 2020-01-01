@@ -611,6 +611,10 @@ test_textbox_search
 .
 xul
 \
+test_toolbar
+.
+xul
+\
 xul_selectcontrol
 .
 js
