@@ -146,14 +146,14 @@ GetVelocity
 Overscroll
 DisplacementWillOverscroll
 (
-int32_t
+float
 aDisplacement
 )
 ;
 float
 DisplacementWillOverscrollAmount
 (
-int32_t
+float
 aDisplacement
 )
 ;
