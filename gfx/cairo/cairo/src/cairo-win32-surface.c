@@ -7181,9 +7181,9 @@ j
 =
 _cairo_lround
 (
-next_logical_y
--
 logical_y
+-
+next_logical_y
 )
 ;
 logical_x

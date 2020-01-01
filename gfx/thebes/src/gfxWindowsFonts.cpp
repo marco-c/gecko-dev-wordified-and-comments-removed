@@ -9465,6 +9465,7 @@ details
 >
 mYOffset
 =
+-
 float
 (
 mOffsets
