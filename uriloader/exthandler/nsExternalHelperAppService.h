@@ -610,9 +610,11 @@ ProcessAnyRefreshTags
 (
 )
 ;
-nsresult
+void
 NotifyTransfer
 (
+nsresult
+aStatus
 )
 ;
 bool
