@@ -12,6 +12,9 @@ prcpucfg
 h
 "
 #
+undef
+cairo_public
+#
 if
 defined
 (
