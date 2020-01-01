@@ -442,6 +442,14 @@ imgRequest
 (
 )
 {
+GetStatusTracker
+(
+)
+.
+ClearRequest
+(
+)
+;
 if
 (
 mURI

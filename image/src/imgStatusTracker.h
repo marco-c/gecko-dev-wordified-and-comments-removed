@@ -550,6 +550,11 @@ MaybeUnblockOnload
 (
 )
 ;
+void
+ClearRequest
+(
+)
+;
 inline
 mozilla
 :
