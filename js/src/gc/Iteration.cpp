@@ -623,7 +623,6 @@ JSCompartment
 *
 compartment
 GCThingCallback
-*
 cellCallback
 void
 *

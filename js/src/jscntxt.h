@@ -2161,6 +2161,9 @@ gcDynamicMarkSlice
 bool
 gcShouldCleanUpEverything
 ;
+bool
+gcGrayBitsValid
+;
 volatile
 uintptr_t
 gcIsNeeded

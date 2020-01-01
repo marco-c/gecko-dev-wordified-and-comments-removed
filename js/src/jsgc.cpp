@@ -16322,6 +16322,17 @@ JSFINALIZE_COLLECTION_END
 isFull
 )
 ;
+if
+(
+isFull
+)
+rt
+-
+>
+gcGrayBitsValid
+=
+true
+;
 }
 JS_ASSERT
 (

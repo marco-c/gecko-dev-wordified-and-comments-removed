@@ -3839,6 +3839,10 @@ gcShouldCleanUpEverything
 (
 false
 )
+gcGrayBitsValid
+(
+false
+)
 gcIsNeeded
 (
 0
