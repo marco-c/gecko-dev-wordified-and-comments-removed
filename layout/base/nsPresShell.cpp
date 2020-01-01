@@ -237,6 +237,13 @@ h
 #
 include
 "
+nsTypedSelection
+.
+h
+"
+#
+include
+"
 nsLayoutCID
 .
 h

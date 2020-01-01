@@ -197,6 +197,13 @@ h
 #
 include
 "
+nsTypedSelection
+.
+h
+"
+#
+include
+"
 nsEventListenerManager
 .
 h

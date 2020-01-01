@@ -185,6 +185,13 @@ h
 #
 include
 "
+nsTypedSelection
+.
+h
+"
+#
+include
+"
 gfxSkipChars
 .
 h

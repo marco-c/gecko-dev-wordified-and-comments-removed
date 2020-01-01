@@ -554,7 +554,7 @@ mSelectingTableCellMode
 0
 ;
 }
-nsISelection
+nsTypedSelection
 *
 GetSelection
 (

@@ -488,6 +488,10 @@ nsSubDocumentFrame
 .
 h
 \
+nsTypedSelection
+.
+h
+\
 nsObjectFrame
 .
 h
