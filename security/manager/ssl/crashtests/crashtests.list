@@ -3,6 +3,8 @@ asserts
 if
 (
 browserIsRemote
+0
+-
 1
 )
 load

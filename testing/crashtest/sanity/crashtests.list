@@ -1,3 +1,10 @@
+asserts
+-
+if
+(
+Android
+10
+)
 load
 data
 :

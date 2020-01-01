@@ -40,6 +40,13 @@ load
 2
 .
 html
+asserts
+-
+if
+(
+Android
+2
+)
 load
 436900
 -
@@ -50,7 +57,7 @@ asserts
 (
 0
 -
-2
+3
 )
 load
 436900

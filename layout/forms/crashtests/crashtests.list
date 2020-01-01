@@ -130,7 +130,7 @@ load
 xhtml
 asserts
 (
-8
+5
 -
 10
 )
@@ -169,6 +169,9 @@ asserts
 if
 (
 winWidget
+|
+|
+Android
 1
 )
 load
