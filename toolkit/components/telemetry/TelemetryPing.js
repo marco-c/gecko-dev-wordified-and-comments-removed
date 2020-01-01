@@ -5863,6 +5863,9 @@ generateQI
 Ci
 .
 nsITelemetryPing
+Ci
+.
+nsIObserver
 ]
 )
 }
