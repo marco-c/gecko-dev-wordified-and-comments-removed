@@ -835,7 +835,7 @@ WIN32_EXE_LDFLAGS
 -
 ENTRY
 :
-mainWCRTStartup
+wmainCRTStartup
 endif
 ifdef
 NS_TRACE_MALLOC
