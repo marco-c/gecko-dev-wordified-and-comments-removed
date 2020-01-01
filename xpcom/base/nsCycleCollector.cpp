@@ -2948,9 +2948,11 @@ stream
 #
 ifdef
 WIN32
+const
 char
-*
 fname
+[
+]
 =
 "
 c
@@ -2966,9 +2968,11 @@ dot
 ;
 #
 else
+const
 char
-*
 fname
+[
+]
 =
 "
 /
