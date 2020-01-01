@@ -5261,17 +5261,6 @@ gBrowser
 addEventListener
 (
 "
-PluginPlayPreview
-"
-gPluginHandler
-true
-)
-;
-gBrowser
-.
-addEventListener
-(
-"
 PluginVulnerableUpdatable
 "
 gPluginHandler
