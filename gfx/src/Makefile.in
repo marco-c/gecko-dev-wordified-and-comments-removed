@@ -562,7 +562,7 @@ MOZ_COMPONENT_LIBS
 (
 NULL
 )
-ifeq
+ifneq
 (
 (
 filter
