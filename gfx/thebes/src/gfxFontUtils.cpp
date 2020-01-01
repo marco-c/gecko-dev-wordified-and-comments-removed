@@ -2627,16 +2627,6 @@ tables
 NonDefUVSOffsetUnicodeValue
 )
 ;
-const
-PRUint16
-glyphID
-=
-ReadShortAt
-(
-tables
-NonDefUVSOffsetGlyphID
-)
-;
 NS_ENSURE_TRUE
 (
 (
