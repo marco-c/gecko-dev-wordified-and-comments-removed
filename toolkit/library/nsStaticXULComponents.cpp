@@ -809,8 +809,6 @@ MODULE
 Browser_Embedding_Module
 )
 \
-OJI_MODULES
-\
 ACCESS_MODULES
 \
 MODULE
