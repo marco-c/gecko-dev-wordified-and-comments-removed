@@ -50,6 +50,13 @@ ControlStatus_Jumped
 ControlStatus_None
 }
 ;
+enum
+SetElemSafety
+{
+SetElem_Normal
+SetElem_Unsafe
+}
+;
 struct
 DeferredEdge
 :
@@ -1746,6 +1753,8 @@ StackTypeSet
 :
 DoubleConversion
 conversion
+SetElemSafety
+safety
 MDefinition
 *
 object
