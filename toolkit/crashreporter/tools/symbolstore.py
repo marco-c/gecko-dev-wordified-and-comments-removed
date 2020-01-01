@@ -2389,6 +2389,12 @@ Windows
 Dumper_Win32
             
 '
+Microsoft
+'
+:
+Dumper_Win32
+            
+'
 Linux
 '
 :
