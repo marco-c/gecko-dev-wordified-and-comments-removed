@@ -442,6 +442,10 @@ mk
 _TEST_FILES
 =
 \
+test_timerRestartWatch
+.
+html
+\
 test_manyCurrentSerial
 .
 html
