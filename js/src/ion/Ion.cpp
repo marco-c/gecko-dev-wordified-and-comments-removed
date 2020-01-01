@@ -6631,8 +6631,6 @@ enterCompiler
 init
 (
 script
-false
-0
 )
 )
 return
