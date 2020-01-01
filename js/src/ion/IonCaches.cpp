@@ -83,6 +83,12 @@ js
 :
 ion
 ;
+using
+mozilla
+:
+:
+DebugOnly
+;
 void
 CodeLocationJump
 :

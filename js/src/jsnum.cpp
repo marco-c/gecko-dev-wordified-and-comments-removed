@@ -280,6 +280,12 @@ js
 :
 types
 ;
+using
+mozilla
+:
+:
+RangedPtr
+;
 static
 bool
 ComputeAccurateDecimalInteger

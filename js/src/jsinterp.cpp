@@ -430,6 +430,12 @@ js
 :
 types
 ;
+using
+mozilla
+:
+:
+DebugOnly
+;
 static
 inline
 JSObject

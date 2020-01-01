@@ -39,6 +39,12 @@ using
 namespace
 js
 ;
+using
+mozilla
+:
+:
+RangedPtr
+;
 void
 JSONParser
 :

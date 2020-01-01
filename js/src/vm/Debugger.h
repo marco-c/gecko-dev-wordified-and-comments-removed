@@ -266,6 +266,9 @@ debugEnum
 JSTrapStatus
 handleUncaughtException
 (
+mozilla
+:
+:
 Maybe
 <
 AutoCompartment
@@ -282,6 +285,9 @@ callHook
 JSTrapStatus
 parseResumptionValue
 (
+mozilla
+:
+:
 Maybe
 <
 AutoCompartment
@@ -1313,6 +1319,9 @@ result
 bool
 receiveCompletionValue
 (
+mozilla
+:
+:
 Maybe
 <
 AutoCompartment

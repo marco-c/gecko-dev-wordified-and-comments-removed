@@ -96,6 +96,12 @@ using
 namespace
 JS
 ;
+using
+mozilla
+:
+:
+ArrayLength
+;
 static
 JSBool
 GetBuildConfiguration

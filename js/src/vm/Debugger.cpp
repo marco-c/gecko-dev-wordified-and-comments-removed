@@ -153,6 +153,12 @@ frontend
 :
 IsIdentifier
 ;
+using
+mozilla
+:
+:
+Maybe
+;
 extern
 Class
 DebuggerFrame_class

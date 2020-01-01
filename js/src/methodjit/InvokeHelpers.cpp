@@ -227,6 +227,12 @@ namespace
 JSC
 ;
 using
+mozilla
+:
+:
+DebugOnly
+;
+using
 ic
 :
 :

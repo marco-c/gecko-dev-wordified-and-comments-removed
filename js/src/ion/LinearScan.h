@@ -923,6 +923,9 @@ setLastProcessedRange
 (
 size_t
 range
+mozilla
+:
+:
 DebugOnly
 <
 CodePosition

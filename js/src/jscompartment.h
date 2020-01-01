@@ -2228,6 +2228,9 @@ oldCompartment
 class
 ErrorCopier
 {
+mozilla
+:
+:
 Maybe
 <
 AutoCompartment
@@ -2242,6 +2245,9 @@ public
 :
 ErrorCopier
 (
+mozilla
+:
+:
 Maybe
 <
 AutoCompartment

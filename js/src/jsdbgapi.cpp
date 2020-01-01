@@ -264,8 +264,10 @@ js
 gc
 ;
 using
-namespace
 mozilla
+:
+:
+DebugOnly
 ;
 JS_PUBLIC_API
 (

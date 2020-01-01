@@ -362,7 +362,7 @@ isExtended
 ;
 JS_ASSERT
 (
-js
+mozilla
 :
 :
 ArrayLength
@@ -442,7 +442,7 @@ JS_ASSERT
 (
 which
 <
-js
+mozilla
 :
 :
 ArrayLength
@@ -490,7 +490,7 @@ JS_ASSERT
 (
 which
 <
-js
+mozilla
 :
 :
 ArrayLength

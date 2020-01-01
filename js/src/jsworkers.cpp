@@ -23,6 +23,12 @@ using
 namespace
 js
 ;
+using
+mozilla
+:
+:
+DebugOnly
+;
 #
 ifdef
 JS_PARALLEL_COMPILATION

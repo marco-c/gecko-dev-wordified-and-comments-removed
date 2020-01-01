@@ -56,6 +56,12 @@ js
 :
 types
 ;
+using
+mozilla
+:
+:
+ArrayLength
+;
 class
 RegExpMatchBuilder
 {

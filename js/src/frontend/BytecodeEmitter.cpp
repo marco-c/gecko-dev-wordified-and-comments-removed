@@ -299,6 +299,12 @@ js
 :
 frontend
 ;
+using
+mozilla
+:
+:
+DebugOnly
+;
 static
 bool
 SetSrcNoteOffset

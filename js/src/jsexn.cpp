@@ -198,10 +198,6 @@ h
 "
 using
 namespace
-mozilla
-;
-using
-namespace
 js
 ;
 using
@@ -217,6 +213,12 @@ js
 :
 :
 types
+;
+using
+mozilla
+:
+:
+ArrayLength
 ;
 static
 JSBool

@@ -176,6 +176,12 @@ using
 namespace
 js
 ;
+using
+mozilla
+:
+:
+DebugOnly
+;
 void
 StackFrame
 :

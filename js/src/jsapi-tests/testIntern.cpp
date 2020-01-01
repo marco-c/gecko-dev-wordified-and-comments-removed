@@ -22,8 +22,10 @@ String
 h
 "
 using
-namespace
 mozilla
+:
+:
+ArrayLength
 ;
 BEGIN_TEST
 (

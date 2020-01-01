@@ -78,6 +78,12 @@ inl
 .
 h
 "
+using
+mozilla
+:
+:
+DebugOnly
+;
 void
 *
 const

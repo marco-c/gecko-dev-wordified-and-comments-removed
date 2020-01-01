@@ -645,6 +645,9 @@ cstrlen
 return
 false
 ;
+mozilla
+:
+:
 DebugOnly
 <
 size_t
@@ -653,6 +656,9 @@ oldcstrlen
 =
 cstrlen
 ;
+mozilla
+:
+:
 DebugOnly
 <
 bool

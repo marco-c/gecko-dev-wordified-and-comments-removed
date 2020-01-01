@@ -90,6 +90,12 @@ js
 :
 mjit
 ;
+using
+mozilla
+:
+:
+DebugOnly
+;
 namespace
 js
 {

@@ -83,6 +83,12 @@ using
 namespace
 js
 ;
+using
+mozilla
+:
+:
+ArrayLength
+;
 static
 char
 gLastError

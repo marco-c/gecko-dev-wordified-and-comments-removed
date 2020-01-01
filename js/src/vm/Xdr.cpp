@@ -107,11 +107,13 @@ h
 "
 using
 namespace
-mozilla
+js
 ;
 using
-namespace
-js
+mozilla
+:
+:
+DebugOnly
 ;
 namespace
 js

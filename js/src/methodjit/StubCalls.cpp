@@ -293,6 +293,12 @@ using
 namespace
 JSC
 ;
+using
+mozilla
+:
+:
+DebugOnly
+;
 void
 JS_FASTCALL
 stubs

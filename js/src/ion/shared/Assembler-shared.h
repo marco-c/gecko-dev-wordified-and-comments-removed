@@ -504,6 +504,9 @@ id_count
 ;
 public
 :
+mozilla
+:
+:
 DebugOnly
 <
 int
@@ -1281,6 +1284,9 @@ uint8
 *
 raw_
 ;
+mozilla
+:
+:
 DebugOnly
 <
 bool
@@ -1440,6 +1446,9 @@ uint8
 *
 raw_
 ;
+mozilla
+:
+:
 DebugOnly
 <
 bool

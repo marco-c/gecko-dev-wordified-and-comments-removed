@@ -153,6 +153,12 @@ js
 :
 gc
 ;
+using
+mozilla
+:
+:
+DebugOnly
+;
 bool
 ShapeTable
 :

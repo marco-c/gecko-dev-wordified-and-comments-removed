@@ -401,10 +401,6 @@ h
 "
 using
 namespace
-mozilla
-;
-using
-namespace
 js
 ;
 using
@@ -429,6 +425,12 @@ frontend
 :
 :
 IsIdentifier
+;
+using
+mozilla
+:
+:
+ArrayLength
 ;
 JS_STATIC_ASSERT
 (

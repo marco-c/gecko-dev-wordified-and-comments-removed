@@ -717,6 +717,9 @@ SPSProfiler
 *
 profiler
 ;
+mozilla
+:
+:
 DebugOnly
 <
 uint32_t

@@ -52,6 +52,12 @@ using
 namespace
 js
 ;
+using
+mozilla
+:
+:
+DebugOnly
+;
 SPSProfiler
 :
 :

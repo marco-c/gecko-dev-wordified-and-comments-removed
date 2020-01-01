@@ -147,6 +147,9 @@ id
 )
 {
 return
+mozilla
+:
+:
 HashGeneric
 (
 JSID_BITS

@@ -3754,6 +3754,9 @@ kind
 uint32_t
 color
 ;
+mozilla
+:
+:
 DebugOnly
 <
 bool
@@ -3770,6 +3773,9 @@ ArenaHeader
 *
 unmarkedArenaStackTop
 ;
+mozilla
+:
+:
 DebugOnly
 <
 size_t
