@@ -2858,7 +2858,7 @@ if
 (
 cmdLine
 .
-handleFlag
+findFlag
 (
 "
 private
