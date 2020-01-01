@@ -387,7 +387,7 @@ page
 <
 !
 ENTITY
-configWarningTitle
+aboutWarningTitle
 .
 label
 "
@@ -399,7 +399,7 @@ careful
 <
 !
 ENTITY
-configWarningText
+aboutWarningText
 .
 label
 "
@@ -438,7 +438,7 @@ vulnerabilities
 <
 !
 ENTITY
-configWarningButton
+aboutWarningButton
 .
 label
 "
@@ -453,7 +453,7 @@ continue
 <
 !
 ENTITY
-configWarningCheckbox
+aboutWarningCheckbox
 .
 label
 "

@@ -1091,7 +1091,7 @@ warningTitle
 "
 >
 &
-configWarningTitle
+aboutWarningTitle
 .
 label
 ;
@@ -1108,7 +1108,7 @@ warningText
 "
 >
 &
-configWarningText
+aboutWarningText
 .
 label
 ;
@@ -1127,7 +1127,7 @@ label
 =
 "
 &
-configWarningCheckbox
+aboutWarningCheckbox
 .
 label
 ;
@@ -1166,7 +1166,7 @@ label
 =
 "
 &
-configWarningButton
+aboutWarningButton
 .
 label
 ;
