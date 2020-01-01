@@ -82,6 +82,13 @@ nsIDOMDocument
 .
 h
 "
+#
+include
+"
+xpcpublic
+.
+h
+"
 nsresult
 NS_NewDOMDocumentType
 (
