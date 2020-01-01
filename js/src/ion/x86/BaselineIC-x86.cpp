@@ -157,11 +157,6 @@ R1
 failure
 )
 ;
-Register
-scratchReg
-=
-BaselineTailCallReg
-;
 masm
 .
 cmpl
