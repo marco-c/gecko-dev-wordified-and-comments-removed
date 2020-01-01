@@ -39,3 +39,9 @@ script
 01
 .
 js
+script
+regress
+-
+bug567606
+.
+js
