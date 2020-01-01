@@ -1199,6 +1199,12 @@ nsnull
 if
 (
 !
+mAtkObject
+)
+{
+if
+(
+!
 IsEmbeddedObject
 (
 this
@@ -1209,12 +1215,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-if
-(
-!
-mAtkObject
-)
-{
 GType
 type
 =
