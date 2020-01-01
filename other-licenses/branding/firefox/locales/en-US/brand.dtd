@@ -3,7 +3,7 @@
 ENTITY
 brandShortName
 "
-Firefox
+MooseCat
 "
 >
 <
@@ -11,8 +11,8 @@ Firefox
 ENTITY
 brandFullName
 "
-Mozilla
-Firefox
+BorisSoft
+MooseCat
 "
 >
 <
@@ -20,6 +20,6 @@ Firefox
 ENTITY
 vendorShortName
 "
-Mozilla
+BorisSoft
 "
 >
