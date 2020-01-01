@@ -2645,16 +2645,6 @@ GetScopeChain
 JSContext
 *
 cx
-)
-;
-extern
-JSObject
-*
-GetScopeChain
-(
-JSContext
-*
-cx
 JSStackFrame
 *
 fp
@@ -2710,6 +2700,7 @@ T
 v
 )
 ;
+inline
 void
 PutActivationObjects
 (
