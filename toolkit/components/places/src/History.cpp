@@ -1607,6 +1607,19 @@ i
 .
 referrerSpec
 ;
+if
+(
+mPlaces
+[
+i
+]
+.
+sessionId
+<
+=
+0
+)
+{
 mPlaces
 [
 i
@@ -1621,6 +1634,7 @@ GetNewSessionID
 (
 )
 ;
+}
 }
 }
 bool
