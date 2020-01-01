@@ -860,21 +860,19 @@ aLine
     
 aLine
 =
-aLine
+re
 .
-rstrip
+sub
 (
 '
 \
-r
-\
 n
 '
-)
-+
 self
 .
 LE
+aLine
+)
     
 self
 .
@@ -2629,6 +2627,10 @@ self
 write
 (
 args
++
+self
+.
+LE
 )
   
 def
@@ -3144,6 +3146,9 @@ args
 open
 (
 args
+'
+rU
+'
 )
       
 except
