@@ -2216,13 +2216,6 @@ id
 "
 categories
 "
-persist
-=
-"
-last
--
-selected
-"
 >
 <
 richlistitem
