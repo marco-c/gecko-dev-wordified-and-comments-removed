@@ -4651,15 +4651,6 @@ this
 .
 docShell
 .
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIDocShellHistory
-)
-.
 useGlobalHistory
 =
 true

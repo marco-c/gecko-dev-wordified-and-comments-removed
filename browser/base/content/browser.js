@@ -4584,13 +4584,6 @@ gBrowser
 .
 docShell
 .
-QueryInterface
-(
-Ci
-.
-nsIDocShellHistory
-)
-.
 useGlobalHistory
 =
 true

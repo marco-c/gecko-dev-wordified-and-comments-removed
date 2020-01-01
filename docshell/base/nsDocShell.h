@@ -298,13 +298,6 @@ h
 #
 include
 "
-nsIDocShellHistory
-.
-h
-"
-#
-include
-"
 nsIURIFixup
 .
 h
@@ -518,8 +511,6 @@ nsDocLoader
 public
 nsIDocShell
 public
-nsIDocShellHistory
-public
 nsIWebNavigation
 public
 nsIBaseWindow
@@ -575,7 +566,6 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOCSHELL
 NS_DECL_NSIDOCSHELLTREEITEM
 NS_DECL_NSIDOCSHELLTREENODE
-NS_DECL_NSIDOCSHELLHISTORY
 NS_DECL_NSIWEBNAVIGATION
 NS_DECL_NSIBASEWINDOW
 NS_DECL_NSISCROLLABLE

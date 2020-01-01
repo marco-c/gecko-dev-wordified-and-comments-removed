@@ -138,11 +138,6 @@ nsIDocShell
 idl
 '
 '
-nsIDocShellHistory
-.
-idl
-'
-'
 nsIDocShellLoadInfo
 .
 idl
