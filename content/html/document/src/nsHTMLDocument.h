@@ -1334,6 +1334,9 @@ mTooDeepWriteRecursion
 PRPackedBool
 mDisableDocWrite
 ;
+PRPackedBool
+mWarnedWidthHeight
+;
 nsCOMPtr
 <
 nsIWyciwygChannel
