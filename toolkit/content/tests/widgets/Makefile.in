@@ -531,6 +531,10 @@ xul_selectcontrol
 .
 js
 \
+test_panelfrommenu
+.
+xul
+\
 test_hiddenitems
 .
 xul
