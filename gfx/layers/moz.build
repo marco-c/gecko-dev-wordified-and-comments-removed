@@ -636,6 +636,13 @@ h
 '
 composite
 /
+APZCTreeManager
+.
+h
+'
+'
+composite
+/
 AsyncCompositionManager
 .
 h
@@ -1025,6 +1032,11 @@ CPP_SOURCES
 +
 =
 [
+'
+APZCTreeManager
+.
+cpp
+'
 '
 AsyncCompositionManager
 .

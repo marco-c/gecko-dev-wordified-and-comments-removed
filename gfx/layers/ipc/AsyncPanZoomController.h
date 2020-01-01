@@ -341,7 +341,9 @@ aRelativePointOut
 void
 UpdateScrollOffset
 (
+const
 CSSPoint
+&
 aScrollOffset
 )
 ;

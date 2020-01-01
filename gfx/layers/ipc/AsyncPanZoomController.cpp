@@ -707,10 +707,6 @@ MOZ_COUNT_CTOR
 AsyncPanZoomController
 )
 ;
-InitializeGlobalState
-(
-)
-;
 if
 (
 aGestures
@@ -6725,7 +6721,9 @@ AsyncPanZoomController
 :
 UpdateScrollOffset
 (
+const
 CSSPoint
+&
 aScrollOffset
 )
 {

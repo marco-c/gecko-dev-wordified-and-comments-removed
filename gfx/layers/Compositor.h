@@ -652,6 +652,12 @@ GetWidgetSize
 0
 ;
 static
+void
+AssertOnCompositorThread
+(
+)
+;
+static
 LayersBackend
 GetBackend
 (
