@@ -4402,6 +4402,12 @@ if
 exists
 )
 {
+nsDiskCache
+:
+:
+CorruptCacheInfo
+corruptInfo
+;
 rv
 =
 mCacheMap
@@ -4409,6 +4415,8 @@ mCacheMap
 Open
 (
 mCacheDirectory
+&
+corruptInfo
 )
 ;
 if
@@ -4427,8 +4435,8 @@ Accumulate
 Telemetry
 :
 :
-DISK_CACHE_CORRUPT
-0
+DISK_CACHE_CORRUPT_DETAILS
+corruptInfo
 )
 ;
 }
@@ -4449,8 +4457,8 @@ Accumulate
 Telemetry
 :
 :
-DISK_CACHE_CORRUPT
-1
+DISK_CACHE_CORRUPT_DETAILS
+corruptInfo
 )
 ;
 rv
@@ -4554,6 +4562,12 @@ rv
 return
 rv
 ;
+nsDiskCache
+:
+:
+CorruptCacheInfo
+corruptInfo
+;
 rv
 =
 mCacheMap
@@ -4561,6 +4575,8 @@ mCacheMap
 Open
 (
 mCacheDirectory
+&
+corruptInfo
 )
 ;
 if
