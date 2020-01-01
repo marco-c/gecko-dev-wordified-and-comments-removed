@@ -1313,5 +1313,14 @@ JSContext
 cx
 )
 ;
+extern
+void
+js_DestroyJIT
+(
+JSContext
+*
+cx
+)
+;
 #
 endif
