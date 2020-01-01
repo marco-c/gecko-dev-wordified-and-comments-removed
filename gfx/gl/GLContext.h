@@ -252,6 +252,7 @@ framebuffer_multisample
 framebuffer_object
 get_query_object_iv
 instanced_arrays
+instanced_non_arrays
 occlusion_query
 occlusion_query_boolean
 occlusion_query2
