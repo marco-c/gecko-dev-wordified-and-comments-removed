@@ -983,6 +983,8 @@ cmd_scrollBottom
 "
 )
 ;
+yield
+;
 testScrollCommand
 (
 "
@@ -1001,6 +1003,8 @@ doCommand
 cmd_scrollTop
 "
 )
+;
+yield
 ;
 testScrollCommand
 (
