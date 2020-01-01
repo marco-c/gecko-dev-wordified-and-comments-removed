@@ -1583,6 +1583,14 @@ _updateDebugBounds
 (
 )
 ;
+rect
+=
+this
+.
+getBounds
+(
+)
+;
 if
 (
 !
