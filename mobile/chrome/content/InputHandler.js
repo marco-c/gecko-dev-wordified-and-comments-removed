@@ -642,6 +642,7 @@ skipToIndex
 ;
 for
 (
+let
 len
 =
 mods
@@ -2193,6 +2194,7 @@ clickEvent
 }
 }
 ;
+function
 DragData
 (
 owner
