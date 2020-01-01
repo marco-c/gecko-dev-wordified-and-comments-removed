@@ -176,12 +176,6 @@ aRemoteSearch
 aCallback
 )
 {
-waitForFocus
-(
-function
-(
-)
-{
 var
 searchBox
 =
@@ -290,10 +284,6 @@ aCallback
 )
 ;
 }
-)
-;
-}
-gManagerWindow
 )
 ;
 }

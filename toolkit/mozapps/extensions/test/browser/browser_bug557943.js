@@ -166,12 +166,6 @@ aQuery
 aCallback
 )
 {
-waitForFocus
-(
-function
-(
-)
-{
 var
 searchBox
 =
@@ -259,10 +253,6 @@ rows
 )
 ;
 }
-)
-;
-}
-gManagerWindow
 )
 ;
 }

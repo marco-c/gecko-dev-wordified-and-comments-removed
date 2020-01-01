@@ -1212,15 +1212,7 @@ function
 {
 open_manager
 (
-"
-addons
-:
-/
-/
-list
-/
-extension
-"
+null
 function
 (
 aWindow
