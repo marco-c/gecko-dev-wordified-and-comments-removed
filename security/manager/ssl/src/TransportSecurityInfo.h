@@ -325,12 +325,6 @@ uint32_t
 mSecurityState
 ;
 int32_t
-mSubRequestsHighSecurity
-;
-int32_t
-mSubRequestsLowSecurity
-;
-int32_t
 mSubRequestsBrokenSecurity
 ;
 int32_t

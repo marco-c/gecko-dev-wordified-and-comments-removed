@@ -292,14 +292,6 @@ RecvUpdateAssociatedContentSecurity
 const
 int32_t
 &
-high
-const
-int32_t
-&
-low
-const
-int32_t
-&
 broken
 const
 int32_t
