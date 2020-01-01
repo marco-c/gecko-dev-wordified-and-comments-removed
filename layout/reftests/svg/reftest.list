@@ -396,9 +396,9 @@ and
 -
 pattern
 -
-ref
--
 01
+-
+ref
 .
 svg
 =
@@ -418,9 +418,9 @@ and
 -
 pattern
 -
-ref
--
 01
+-
+ref
 .
 svg
 =
@@ -440,9 +440,9 @@ and
 -
 pattern
 -
-ref
--
 01
+-
+ref
 .
 svg
 fails
