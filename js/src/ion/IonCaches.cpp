@@ -4474,7 +4474,7 @@ if
 (
 IsCacheableGetPropReadSlot
 (
-checkObj
+obj
 holder
 shape
 )
@@ -4482,7 +4482,7 @@ shape
 |
 IsCacheableNoProperty
 (
-checkObj
+obj
 holder
 shape
 pc
@@ -4494,6 +4494,16 @@ output
 )
 )
 {
+if
+(
+!
+obj
+-
+>
+isProxy
+(
+)
+)
 readSlot
 =
 true
