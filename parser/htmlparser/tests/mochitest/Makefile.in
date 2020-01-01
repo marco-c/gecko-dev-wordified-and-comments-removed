@@ -461,6 +461,10 @@ test_html5_tree_construction
 .
 html
 \
+test_html5_tree_construction_part2
+.
+html
+\
 test_bug174351
 .
 html
