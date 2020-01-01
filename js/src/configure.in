@@ -18728,17 +18728,9 @@ CXXFLAGS
 =
 "
 CXXFLAGS
--
-std
-=
-gnu
-+
-+
-0x
 "
 USE_CXX11
 =
-1
 AC_CACHE_CHECK
 (
 for
