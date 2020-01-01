@@ -433,6 +433,10 @@ LIBXUL_LIBRARY
 CPPSRCS
 =
 \
+XULSelectControlAccessible
+.
+cpp
+\
 nsXULAlertAccessible
 .
 cpp

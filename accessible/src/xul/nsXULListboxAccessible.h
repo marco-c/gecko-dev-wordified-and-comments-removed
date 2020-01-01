@@ -32,6 +32,13 @@ nsBaseWidgetAccessible
 .
 h
 "
+#
+include
+"
+XULSelectControlAccessible
+.
+h
+"
 class
 nsIWeakReference
 ;
@@ -145,7 +152,7 @@ class
 nsXULListboxAccessible
 :
 public
-nsXULSelectableAccessible
+XULSelectControlAccessible
 public
 nsIAccessibleTable
 {

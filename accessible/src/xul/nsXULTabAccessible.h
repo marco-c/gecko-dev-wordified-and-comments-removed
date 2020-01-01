@@ -18,6 +18,13 @@ nsXULMenuAccessible
 .
 h
 "
+#
+include
+"
+XULSelectControlAccessible
+.
+h
+"
 class
 nsXULTabAccessible
 :
@@ -110,7 +117,7 @@ class
 nsXULTabsAccessible
 :
 public
-nsXULSelectableAccessible
+XULSelectControlAccessible
 {
 public
 :
