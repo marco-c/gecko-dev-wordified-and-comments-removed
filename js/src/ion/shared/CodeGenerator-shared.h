@@ -602,6 +602,16 @@ ins
 )
 ;
 bool
+markSafepointAt
+(
+uint32
+offset
+LInstruction
+*
+ins
+)
+;
+bool
 markOsiPoint
 (
 LOsiPoint

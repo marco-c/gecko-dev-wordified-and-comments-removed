@@ -34,6 +34,7 @@ MIRType_Int32
 MIRType_Double
 MIRType_String
 MIRType_Object
+MIRType_Magic
 MIRType_Value
 MIRType_Any
 MIRType_None
@@ -1185,6 +1186,12 @@ return
 MIRType_Object
 ;
 case
+JSVAL_TYPE_MAGIC
+:
+return
+MIRType_Magic
+;
+case
 JSVAL_TYPE_UNKNOWN
 :
 return
@@ -1360,6 +1367,14 @@ MIRType_Object
 return
 "
 Object
+"
+;
+case
+MIRType_Magic
+:
+return
+"
+Magic
 "
 ;
 case
