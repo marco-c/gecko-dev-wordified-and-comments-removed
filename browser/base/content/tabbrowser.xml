@@ -8777,6 +8777,10 @@ b
 loadURIWithFlags
 (
 aURI
+Components
+.
+interfaces
+.
 nsIWebNavigation
 .
 LOAD_FLAGS_NONE
