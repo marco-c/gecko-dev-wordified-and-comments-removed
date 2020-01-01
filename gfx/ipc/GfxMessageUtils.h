@@ -27,6 +27,15 @@ h
 #
 include
 "
+ipc
+/
+IPCMessageUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Util

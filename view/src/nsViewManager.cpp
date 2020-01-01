@@ -161,17 +161,6 @@ Layers
 .
 h
 "
-#
-include
-"
-mozilla
-/
-layers
-/
-Compositor
-.
-h
-"
 using
 namespace
 mozilla

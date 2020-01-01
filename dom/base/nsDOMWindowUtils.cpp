@@ -343,6 +343,17 @@ include
 "
 mozilla
 /
+layers
+/
+ShadowLayers
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element
