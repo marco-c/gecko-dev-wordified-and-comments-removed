@@ -54,7 +54,11 @@ libvorbis
 .
 3
 .
-1
+2
+(
+SVN
+r17614
+)
 .
 Some
 files
@@ -89,12 +93,3 @@ firefox
 trunk
 on
 OpenSolaris
-bug487519
-.
-patch
-:
-fix
-for
-bug
-487519
-.

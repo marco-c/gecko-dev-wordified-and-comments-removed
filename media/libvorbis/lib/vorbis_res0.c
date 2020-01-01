@@ -1237,6 +1237,15 @@ partvals
 =
 1
 ;
+if
+(
+dim
+<
+1
+)
+goto
+errout
+;
 while
 (
 dim
@@ -5437,6 +5446,7 @@ temp
 |
 temp
 >
+=
 info
 -
 >

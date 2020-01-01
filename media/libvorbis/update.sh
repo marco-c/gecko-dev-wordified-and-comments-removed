@@ -694,10 +694,3 @@ p3
 alloca
 .
 diff
-patch
--
-p3
-<
-bug487519
-.
-patch

@@ -608,13 +608,11 @@ mode
 -
 1
 )
-{
 return
 (
 OV_EBADPACKET
 )
 ;
-}
 vb
 -
 >
