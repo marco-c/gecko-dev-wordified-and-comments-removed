@@ -347,13 +347,13 @@ plugin
 <
 !
 ENTITY
-clickToPlayPlugins
+clickToPlayPlugin
 "
 Click
 here
 to
 activate
-plugins
+plugin
 .
 "
 >
