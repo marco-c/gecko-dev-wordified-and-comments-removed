@@ -78,6 +78,9 @@ class
 ObjectStoreInfo
 ;
 class
+TransactionThreadPool
+;
+class
 IDBTransactionRequest
 :
 public
@@ -94,9 +97,13 @@ friend
 class
 AsyncConnectionHelper
 ;
+friend
+class
+TransactionThreadPool
+;
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIIDBTRANSACTION
 NS_DECL_NSIIDBTRANSACTIONREQUEST
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
