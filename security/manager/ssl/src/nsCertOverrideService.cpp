@@ -746,10 +746,8 @@ Clear
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 RemoveTemporariesCallback
 (
 nsCertOverrideEntry
@@ -1228,10 +1226,8 @@ return
 NS_OK
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 WriteEntryCallback
 (
 nsCertOverrideEntry
@@ -3270,10 +3266,8 @@ mDottedOidForStoringNewHashes
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 FindMatchingCertCallback
 (
 nsCertOverrideEntry
@@ -3580,10 +3574,8 @@ mDottedOidForStoringNewHashes
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 EnumerateCertOverridesCallback
 (
 nsCertOverrideEntry

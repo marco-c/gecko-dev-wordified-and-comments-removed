@@ -173,10 +173,8 @@ NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 BoxObject
 )
 NS_INTERFACE_MAP_END
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 PropertyTraverser
 (
 const

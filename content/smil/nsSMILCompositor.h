@@ -240,10 +240,8 @@ nsSMILValue
 aBaseValue
 )
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 DoComposeAttribute
 (
 nsSMILCompositor

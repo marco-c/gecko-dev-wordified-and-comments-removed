@@ -37,10 +37,8 @@ obj
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 bool
-)
 ObjectSetMatchEntry
 (
 PLDHashTable
@@ -89,10 +87,8 @@ key
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 bool
-)
 ObjectSetInitEntry
 (
 PLDHashTable
