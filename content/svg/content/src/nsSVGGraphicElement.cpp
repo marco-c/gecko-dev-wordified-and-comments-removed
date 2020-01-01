@@ -973,9 +973,13 @@ aName
 )
 {
 return
-IsGraphicElementEventName
+nsContentUtils
+:
+:
+IsEventAttributeName
 (
 aName
+EventNameType_SVGGraphic
 )
 ;
 }
