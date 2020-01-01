@@ -127,13 +127,6 @@ nsReadableUtils
 .
 h
 "
-#
-include
-"
-nsWrapperCache
-.
-h
-"
 class
 imgICache
 ;
@@ -226,6 +219,9 @@ nsIEditor
 ;
 class
 nsIFragmentContentSink
+;
+class
+nsIFrame
 ;
 class
 nsIImageLoadingContent
@@ -327,7 +323,7 @@ class
 nsViewportInfo
 ;
 class
-nsIFrame
+nsWrapperCache
 ;
 struct
 JSContext
