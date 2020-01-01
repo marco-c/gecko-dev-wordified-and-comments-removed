@@ -1671,9 +1671,10 @@ if
 ok
 |
 |
-JSVAL_TO_BOOLEAN
+HAS_FLAGS
 (
 isResolving
+FLAG_RESOLVING
 )
 )
 {
@@ -1726,6 +1727,7 @@ AddProperty
 (
 cx
 obj
+JS_FALSE
 unsafeObj
 id
 vp
@@ -2415,6 +2417,7 @@ NewResolve
 (
 cx
 obj
+JS_FALSE
 unsafeObj
 id
 flags
@@ -3502,10 +3505,7 @@ JS_SetReservedSlot
 cx
 wrapperObj
 XPC_SJOW_SLOT_IS_RESOLVING
-BOOLEAN_TO_JSVAL
-(
-JS_FALSE
-)
+JSVAL_ZERO
 )
 )
 {
@@ -3875,10 +3875,7 @@ JS_SetReservedSlot
 cx
 wrapperIter
 XPC_SJOW_SLOT_IS_RESOLVING
-BOOLEAN_TO_JSVAL
-(
-JS_FALSE
-)
+JSVAL_ZERO
 )
 )
 {

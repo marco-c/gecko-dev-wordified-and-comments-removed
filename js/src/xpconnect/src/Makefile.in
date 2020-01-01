@@ -667,6 +667,10 @@ XPCCrossOriginWrapper
 .
 cpp
 \
+XPCSystemOnlyWrapper
+.
+cpp
+\
 XPCWrapper
 .
 cpp
