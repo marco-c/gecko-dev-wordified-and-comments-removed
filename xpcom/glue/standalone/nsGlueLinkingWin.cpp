@@ -418,6 +418,11 @@ sizeof
 (
 xpcomDir
 )
+/
+sizeof
+(
+wchar_t
+)
 )
 ;
 }
