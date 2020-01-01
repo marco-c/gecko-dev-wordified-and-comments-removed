@@ -153,7 +153,6 @@ nsXPCWrappedJS
 :
 GetNewOrUsed
 (
-ccx
 obj
 NS_GET_IID
 (

@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsAtomicRefcnt
 .
 h
@@ -33,6 +40,10 @@ nsTextFormatter
 .
 h
 "
+using
+namespace
+mozilla
+;
 NS_IMETHODIMP
 NS_CYCLE_COLLECTION_CLASSNAME
 (
@@ -1096,9 +1107,6 @@ nsXPCWrappedJS
 :
 GetNewOrUsed
 (
-JSContext
-*
-cx
 JSObject
 *
 aJSObj
@@ -1113,6 +1121,9 @@ nsXPCWrappedJS
 wrapperResult
 )
 {
+AutoJSContext
+cx
+;
 JS
 :
 :
