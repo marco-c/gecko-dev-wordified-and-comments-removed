@@ -6207,8 +6207,8 @@ posDouble
 return
 false
 ;
-text
-+
+uint32_t
+delta
 =
 uint32_t
 (
@@ -6227,6 +6227,16 @@ posDouble
 )
 )
 )
+;
+text
++
+=
+delta
+;
+textlen
+-
+=
+delta
 ;
 }
 uint32_t
