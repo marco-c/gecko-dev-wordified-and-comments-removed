@@ -28,15 +28,8 @@ getBuffer
 ;
 public
 abstract
-int
-getWidth
-(
-)
-;
-public
-abstract
-int
-getHeight
+IntSize
+getSize
 (
 )
 ;
