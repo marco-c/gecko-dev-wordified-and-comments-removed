@@ -7276,8 +7276,8 @@ rsp
 void
 patchAsmJSGlobalAccess
 (
-unsigned
-offset
+CodeOffsetLabel
+patchAt
 uint8_t
 *
 code
@@ -7294,7 +7294,11 @@ nextInsn
 =
 code
 +
+patchAt
+.
 offset
+(
+)
 ;
 JS_ASSERT
 (
