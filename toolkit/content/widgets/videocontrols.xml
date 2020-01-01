@@ -4223,6 +4223,15 @@ duration
 ;
 this
 .
+startFadeIn
+(
+this
+.
+controlBar
+)
+;
+this
+.
 setupStatusFader
 (
 )
