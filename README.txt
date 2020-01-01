@@ -204,7 +204,6 @@ development
 builds
 from
 the
-the
 Mozilla
 FTP
 server
