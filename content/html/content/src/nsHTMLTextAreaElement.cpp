@@ -3595,6 +3595,15 @@ aContent
 )
 )
 {
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 Reset
 (
 )

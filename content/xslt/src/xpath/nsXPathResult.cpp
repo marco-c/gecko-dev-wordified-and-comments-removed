@@ -1323,6 +1323,10 @@ return
 ;
 }
 }
+mInvalidIteratorState
+=
+PR_TRUE
+;
 if
 (
 mDocument
@@ -1341,10 +1345,6 @@ mDocument
 nsnull
 ;
 }
-mInvalidIteratorState
-=
-PR_TRUE
-;
 }
 nsresult
 nsXPathResult
