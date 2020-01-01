@@ -5448,6 +5448,15 @@ js
 :
 :
 array_pop
+|
+|
+native
+=
+=
+js
+:
+:
+array_shift
 )
 callsite
 -
