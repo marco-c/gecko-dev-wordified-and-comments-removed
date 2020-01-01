@@ -168,3 +168,13 @@ Types
 h
 '
 ]
+CPP_SOURCES
++
+=
+[
+'
+BatteryManager
+.
+cpp
+'
+]

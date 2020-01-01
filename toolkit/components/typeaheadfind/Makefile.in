@@ -84,16 +84,6 @@ FORCE_STATIC_LIB
 LIBXUL_LIBRARY
 =
 1
-CPPSRCS
-=
-\
-nsTypeAheadFind
-.
-cpp
-\
-(
-NULL
-)
 include
 (
 topsrcdir

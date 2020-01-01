@@ -112,3 +112,13 @@ Netd
 h
 '
 ]
+CPP_SOURCES
++
+=
+[
+'
+Netd
+.
+cpp
+'
+]

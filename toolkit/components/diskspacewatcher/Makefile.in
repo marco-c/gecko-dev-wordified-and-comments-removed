@@ -90,16 +90,6 @@ DiskSpaceWatcherModule
 LIBXUL_LIBRARY
 =
 1
-CPPSRCS
-=
-\
-DiskSpaceWatcher
-.
-cpp
-\
-(
-NULL
-)
 include
 (
 topsrcdir

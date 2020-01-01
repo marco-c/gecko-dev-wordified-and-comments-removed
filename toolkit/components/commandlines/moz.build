@@ -136,3 +136,13 @@ MODULE
 '
 toolkitcomps
 '
+CPP_SOURCES
++
+=
+[
+'
+nsCommandLine
+.
+cpp
+'
+]

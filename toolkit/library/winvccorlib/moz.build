@@ -98,3 +98,13 @@ MODULE
 '
 dummyvccorlib
 '
+CPP_SOURCES
++
+=
+[
+'
+dummyvccorlib
+.
+cpp
+'
+]

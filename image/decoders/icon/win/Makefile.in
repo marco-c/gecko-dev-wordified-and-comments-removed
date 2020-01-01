@@ -85,11 +85,6 @@ LIBXUL_LIBRARY
 FAIL_ON_WARNINGS
 =
 1
-CPPSRCS
-=
-nsIconChannel
-.
-cpp
 #
 we
 don

@@ -98,3 +98,13 @@ PROGRAM
 '
 ssltunnel
 '
+CPP_SOURCES
++
+=
+[
+'
+ssltunnel
+.
+cpp
+'
+]

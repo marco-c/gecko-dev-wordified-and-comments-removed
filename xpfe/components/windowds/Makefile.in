@@ -91,11 +91,6 @@ IS_COMPONENT
 EXPORT_LIBRARY
 =
 1
-CPPSRCS
-=
-nsWindowDataSource
-.
-cpp
 include
 (
 topsrcdir

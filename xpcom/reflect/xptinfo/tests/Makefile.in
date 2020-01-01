@@ -82,11 +82,6 @@ TestInterfaceInfo
 (
 BIN_SUFFIX
 )
-CPPSRCS
-=
-TestInterfaceInfo
-.
-cpp
 LIBS
 =
 \

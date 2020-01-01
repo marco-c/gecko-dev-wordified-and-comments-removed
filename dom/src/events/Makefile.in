@@ -90,16 +90,6 @@ MSVC_ENABLE_PGO
 LIBXUL_LIBRARY
 =
 1
-CPPSRCS
-=
-\
-nsJSEventListener
-.
-cpp
-\
-(
-NULL
-)
 #
 we
 don

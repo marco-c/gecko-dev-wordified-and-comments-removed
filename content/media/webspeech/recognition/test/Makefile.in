@@ -83,17 +83,6 @@ config
 autoconf
 .
 mk
-CPPSRCS
-:
-=
-\
-FakeSpeechRecognitionService
-.
-cpp
-\
-(
-NULL
-)
 MOCHITEST_FILES
 :
 =

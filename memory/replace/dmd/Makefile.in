@@ -87,11 +87,6 @@ DEFINES
 =
 -
 DMOZ_NO_MOZALLOC
-CPPSRCS
-=
-DMD
-.
-cpp
 VPATH
 +
 =
@@ -102,12 +97,6 @@ topsrcdir
 xpcom
 /
 base
-CPPSRCS
-+
-=
-nsStackWalk
-.
-cpp
 VPATH
 +
 =
@@ -136,12 +125,6 @@ topsrcdir
 )
 /
 mfbt
-CPPSRCS
-+
-=
-HashFunctions
-.
-cpp
 #
 Disable
 mozglue

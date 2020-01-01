@@ -172,3 +172,13 @@ CONFIG
 XULRUNNER_STUB_NAME
 '
 ]
+CPP_SOURCES
++
+=
+[
+'
+nsXULStub
+.
+cpp
+'
+]

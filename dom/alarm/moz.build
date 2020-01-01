@@ -160,3 +160,13 @@ AlarmHalService
 h
 '
 ]
+CPP_SOURCES
++
+=
+[
+'
+AlarmHalService
+.
+cpp
+'
+]

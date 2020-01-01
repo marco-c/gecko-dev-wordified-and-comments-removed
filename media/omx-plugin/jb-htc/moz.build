@@ -100,3 +100,15 @@ omxpluginjb
 -
 htc
 '
+CPP_SOURCES
++
+=
+[
+'
+OmxPluginJB
+-
+HTC
+.
+cpp
+'
+]

@@ -112,3 +112,13 @@ AboutRedirector
 h
 '
 ]
+CPP_SOURCES
++
+=
+[
+'
+AboutRedirector
+.
+cpp
+'
+]

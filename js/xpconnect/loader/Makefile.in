@@ -129,17 +129,6 @@ src
 (
 NULL
 )
-CPPSRCS
-=
-mozJSComponentLoader
-.
-cpp
-mozJSSubScriptLoader
-.
-cpp
-mozJSLoaderUtils
-.
-cpp
 EXTRA_JS_MODULES
 =
 XPCOMUtils

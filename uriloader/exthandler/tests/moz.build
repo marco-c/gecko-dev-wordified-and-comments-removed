@@ -160,3 +160,13 @@ xpcshell
 ini
 '
 ]
+CPP_SOURCES
++
+=
+[
+'
+WriteArgument
+.
+cpp
+'
+]

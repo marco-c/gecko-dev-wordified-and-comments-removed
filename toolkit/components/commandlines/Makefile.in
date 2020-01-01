@@ -90,16 +90,6 @@ CommandLineModule
 LIBXUL_LIBRARY
 =
 1
-CPPSRCS
-=
-\
-nsCommandLine
-.
-cpp
-\
-(
-NULL
-)
 include
 (
 topsrcdir

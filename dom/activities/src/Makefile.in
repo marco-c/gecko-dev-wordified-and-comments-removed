@@ -100,16 +100,6 @@ dom
 config
 .
 mk
-CPPSRCS
-=
-\
-Activity
-.
-cpp
-\
-(
-NULL
-)
 EXTRA_COMPONENTS
 =
 \

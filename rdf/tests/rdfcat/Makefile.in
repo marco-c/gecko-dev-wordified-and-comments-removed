@@ -76,11 +76,6 @@ config
 autoconf
 .
 mk
-CPPSRCS
-=
-rdfcat
-.
-cpp
 LIBS
 =
 \

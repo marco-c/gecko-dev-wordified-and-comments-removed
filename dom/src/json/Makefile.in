@@ -86,16 +86,6 @@ json_s
 LIBXUL_LIBRARY
 =
 1
-CPPSRCS
-=
-\
-nsJSON
-.
-cpp
-\
-(
-NULL
-)
 FORCE_STATIC_LIB
 =
 1

@@ -98,3 +98,13 @@ MODULE
 '
 xpcom
 '
+CPP_SOURCES
++
+=
+[
+'
+TestMinStringAPI
+.
+cpp
+'
+]

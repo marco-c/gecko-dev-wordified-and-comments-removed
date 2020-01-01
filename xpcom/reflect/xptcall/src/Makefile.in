@@ -86,11 +86,6 @@ MSVC_ENABLE_PGO
 MOZILLA_INTERNAL_API
 =
 1
-CPPSRCS
-=
-xptcall
-.
-cpp
 #
 we
 don

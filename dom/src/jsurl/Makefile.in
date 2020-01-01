@@ -92,11 +92,6 @@ javascript__protocol
 LIBXUL_LIBRARY
 =
 1
-CPPSRCS
-=
-nsJSProtocolHandler
-.
-cpp
 LOCAL_INCLUDES
 +
 =

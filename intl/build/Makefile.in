@@ -90,16 +90,6 @@ nsI18nModule
 LIBXUL_LIBRARY
 =
 1
-CPPSRCS
-=
-\
-nsI18nModule
-.
-cpp
-\
-(
-NULL
-)
 #
 see
 also

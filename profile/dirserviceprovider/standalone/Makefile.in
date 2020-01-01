@@ -91,11 +91,6 @@ mk
 LIBRARY_NAME
 =
 profdirserviceprovidersa_s
-CPPSRCS
-=
-(
-MODULES_PROFILEDIRSERVICE_SRC_LCSRCS
-)
 #
 we
 don

@@ -91,16 +91,6 @@ srcdir
 /
 .
 .
-CPPSRCS
-=
-\
-minidump_file_writer
-.
-cc
-\
-(
-NULL
-)
 #
 need
 static

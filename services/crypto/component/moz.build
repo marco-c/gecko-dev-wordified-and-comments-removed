@@ -127,3 +127,13 @@ services
 -
 crypto
 '
+CPP_SOURCES
++
+=
+[
+'
+nsSyncJPAKE
+.
+cpp
+'
+]

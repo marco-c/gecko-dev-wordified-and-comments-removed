@@ -102,16 +102,6 @@ topsrcdir
 xpcom
 /
 base
-CPPSRCS
-=
-\
-TestIPDL
-.
-cpp
-\
-(
-NULL
-)
 LIBS
 =
 \

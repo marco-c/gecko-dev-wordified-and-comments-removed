@@ -106,3 +106,13 @@ PROGRAM
 '
 xulrunner
 '
+CPP_SOURCES
++
+=
+[
+'
+nsXULRunnerApp
+.
+cpp
+'
+]

@@ -98,3 +98,13 @@ MODULE
 '
 imglib2
 '
+CPP_SOURCES
++
+=
+[
+'
+nsImageModule
+.
+cpp
+'
+]

@@ -131,3 +131,13 @@ MODULE
 '
 necko
 '
+CPP_SOURCES
++
+=
+[
+'
+nsResProtocolHandler
+.
+cpp
+'
+]

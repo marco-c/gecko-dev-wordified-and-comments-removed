@@ -81,11 +81,6 @@ imgiconqt_s
 LIBXUL_LIBRARY
 =
 1
-CPPSRCS
-=
-nsIconChannel
-.
-cpp
 LOCAL_INCLUDES
 +
 =

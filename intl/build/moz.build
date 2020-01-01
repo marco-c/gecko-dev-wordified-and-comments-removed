@@ -98,3 +98,13 @@ MODULE
 '
 i18n
 '
+CPP_SOURCES
++
+=
+[
+'
+nsI18nModule
+.
+cpp
+'
+]

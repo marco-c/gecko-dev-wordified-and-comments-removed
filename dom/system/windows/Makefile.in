@@ -141,16 +141,6 @@ config
 config
 .
 mk
-CPPSRCS
-=
-\
-nsHapticFeedback
-.
-cpp
-\
-(
-NULL
-)
 include
 (
 topsrcdir

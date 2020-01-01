@@ -123,16 +123,6 @@ srcdir
 (
 NULL
 )
-CPPSRCS
-=
-\
-TestFileUtils
-.
-cpp
-\
-(
-NULL
-)
 include
 (
 topsrcdir

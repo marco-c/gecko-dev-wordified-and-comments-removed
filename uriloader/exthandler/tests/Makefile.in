@@ -81,16 +81,6 @@ mk
 FAIL_ON_WARNINGS
 =
 1
-CPPSRCS
-=
-\
-WriteArgument
-.
-cpp
-\
-(
-NULL
-)
 SIMPLE_PROGRAMS
 =
 (

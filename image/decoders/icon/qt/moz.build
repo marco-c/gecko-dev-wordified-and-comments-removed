@@ -106,3 +106,13 @@ MODULE
 '
 imgicon
 '
+CPP_SOURCES
++
+=
+[
+'
+nsIconChannel
+.
+cpp
+'
+]

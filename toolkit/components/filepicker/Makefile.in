@@ -107,16 +107,6 @@ nsFileViewModule
 LIBXUL_LIBRARY
 =
 1
-CPPSRCS
-=
-\
-nsFileView
-.
-cpp
-\
-(
-NULL
-)
 EXTRA_COMPONENTS
 =
 nsFilePicker

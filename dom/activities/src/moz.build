@@ -112,3 +112,13 @@ Activity
 h
 '
 ]
+CPP_SOURCES
++
+=
+[
+'
+Activity
+.
+cpp
+'
+]

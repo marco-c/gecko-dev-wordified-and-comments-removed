@@ -94,16 +94,6 @@ FORCE_STATIC_LIB
 LIBXUL_LIBRARY
 =
 1
-CPPSRCS
-=
-\
-nsParentalControlsServiceWin
-.
-cpp
-\
-(
-NULL
-)
 endif
 endif
 include

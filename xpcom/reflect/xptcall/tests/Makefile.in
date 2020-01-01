@@ -82,11 +82,6 @@ TestXPTCInvoke
 (
 BIN_SUFFIX
 )
-CPPSRCS
-=
-TestXPTCInvoke
-.
-cpp
 LIBS
 =
 \
