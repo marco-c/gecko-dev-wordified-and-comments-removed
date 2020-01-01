@@ -631,6 +631,15 @@ DOMCI_CLASS
 (
 TouchEvent
 )
+#
+ifdef
+MOZ_GAMEPAD
+DOMCI_CLASS
+(
+Gamepad
+)
+#
+endif
 DOMCI_CLASS
 (
 MozCSSKeyframeRule
