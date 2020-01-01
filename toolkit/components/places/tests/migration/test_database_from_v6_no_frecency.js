@@ -19,6 +19,8 @@ history
 DATABASE_STATUS_UPGRADED
 )
 ;
+stmt
+=
 DBConn
 (
 )
@@ -31,6 +33,12 @@ frecency
 from
 moz_places
 "
+)
+;
+stmt
+.
+finalize
+(
 )
 ;
 do_check_true
