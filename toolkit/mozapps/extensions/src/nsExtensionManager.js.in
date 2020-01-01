@@ -31474,6 +31474,7 @@ _finalizeUpgrade
 installData
 .
 id
+installLocation
 )
 ;
 this
