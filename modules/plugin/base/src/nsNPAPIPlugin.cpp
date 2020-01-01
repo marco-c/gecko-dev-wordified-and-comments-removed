@@ -6905,6 +6905,12 @@ return
 false
 ;
 }
+OBJ_TO_INNER_OBJECT
+(
+cx
+obj
+)
+;
 jsval
 vec
 [
