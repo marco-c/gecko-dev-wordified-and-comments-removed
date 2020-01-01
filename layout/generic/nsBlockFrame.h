@@ -1067,6 +1067,7 @@ nsHTMLReflowMetrics
 aMetrics
 )
 ;
+virtual
 nsresult
 AddFrames
 (
