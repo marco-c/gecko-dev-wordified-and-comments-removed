@@ -23970,7 +23970,7 @@ key
 lockState
 )
 ;
-Uint32
+UInt32
 shiftLockMod
 =
 shiftKey
