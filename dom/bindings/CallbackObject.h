@@ -293,13 +293,6 @@ mCallback
 =
 aCallback
 ;
-nsLayoutStatics
-:
-:
-AddRef
-(
-)
-;
 NS_HOLD_JS_OBJECTS
 (
 this
@@ -327,13 +320,6 @@ NS_DROP_JS_OBJECTS
 (
 this
 CallbackObject
-)
-;
-nsLayoutStatics
-:
-:
-Release
-(
 )
 ;
 }
