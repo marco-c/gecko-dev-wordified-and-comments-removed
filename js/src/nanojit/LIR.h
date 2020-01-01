@@ -3612,18 +3612,6 @@ GCFinalizedObject
 {
 public
 :
-static
-const
-uint32_t
-LIR_BUF_THRESHOLD
-=
-1024
-/
-sizeof
-(
-LIns
-)
-;
 DWB
 (
 Fragmento
@@ -3754,7 +3742,7 @@ _pages
 ;
 Page
 *
-_thresholdPage
+_nextPage
 ;
 LInsp
 _unused
