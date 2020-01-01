@@ -376,6 +376,11 @@ shapeOffset
 :
 15
 ;
+bool
+usePropertyCache
+:
+1
+;
 }
 ;
 struct
