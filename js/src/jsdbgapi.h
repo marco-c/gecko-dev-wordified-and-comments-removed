@@ -491,7 +491,7 @@ cx
 ifdef
 JS_HAS_OBJ_WATCHPOINT
 extern
-bool
+JSBool
 js_TraceWatchPoints
 (
 JSTracer

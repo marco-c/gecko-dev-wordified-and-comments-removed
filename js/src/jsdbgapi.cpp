@@ -2992,7 +2992,7 @@ return
 ok
 ;
 }
-bool
+JSBool
 js_TraceWatchPoints
 (
 JSTracer
