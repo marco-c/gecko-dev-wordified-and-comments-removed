@@ -40,7 +40,14 @@ h
 #
 include
 "
-nsHashSets
+nsTHashtable
+.
+h
+"
+#
+include
+"
+nsHashKeys
 .
 h
 "
@@ -569,7 +576,10 @@ mSearchedForLibxul
 nsCString
 mLibxulDir
 ;
-nsCStringHashSet
+nsTHashtable
+<
+nsCStringHashKey
+>
 mMozillaLibraries
 ;
 }
@@ -638,7 +648,7 @@ i
 ;
 mMozillaLibraries
 .
-Put
+PutEntry
 (
 str
 )
