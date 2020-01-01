@@ -1352,6 +1352,8 @@ const
 {
 PRBool
 equal
+=
+PR_FALSE
 ;
 mBindingURI
 -
