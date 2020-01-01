@@ -3548,9 +3548,6 @@ mIsRegularHTML
 PRPackedBool
 mIsXUL
 ;
-PRPackedBool
-mForceOldParserForHotmail
-;
 enum
 {
 eTriUnset

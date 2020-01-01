@@ -31411,16 +31411,6 @@ pref
 "
 html5
 .
-hotmailworkaround
-"
-true
-)
-;
-pref
-(
-"
-html5
-.
 flushtimer
 .
 initialdelay
