@@ -2606,4 +2606,8 @@ mColor
 break
 ;
 }
+mType
+=
+CSS_UNKNOWN
+;
 }
