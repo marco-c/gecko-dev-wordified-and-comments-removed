@@ -28,6 +28,10 @@ float
 .
 h
 >
+using
+namespace
+moz_decimal_utils
+;
 namespace
 WebCore
 {

@@ -489,6 +489,9 @@ str
 )
 ;
 }
+namespace
+moz_decimal_utils
+{
 class
 StringBuilder
 {
@@ -579,5 +582,6 @@ mStr
 ;
 }
 ;
+}
 #
 endif
