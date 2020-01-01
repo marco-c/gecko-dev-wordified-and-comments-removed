@@ -1168,6 +1168,12 @@ AppendObjects
 mThreads
 )
 ;
+mThreads
+.
+Clear
+(
+)
+;
 mListener
 .
 swap
