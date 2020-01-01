@@ -4064,15 +4064,13 @@ element
 element
 -
 >
-Tag
+IsSVG
 (
-)
-=
-=
 nsGkAtoms
 :
 :
 view
+)
 )
 {
 return

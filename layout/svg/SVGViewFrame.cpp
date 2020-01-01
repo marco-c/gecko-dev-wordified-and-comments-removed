@@ -360,15 +360,13 @@ GetContent
 )
 -
 >
-Tag
+IsSVG
 (
-)
-=
-=
 nsGkAtoms
 :
 :
 svg
+)
 "
 Expecting
 an
