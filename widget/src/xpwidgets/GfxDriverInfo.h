@@ -222,12 +222,9 @@ if
 (
 sscanf
 (
-nsPromiseFlatCString
-(
 NS_LossyConvertUTF16toASCII
 (
 aVersion
-)
 )
 .
 get
