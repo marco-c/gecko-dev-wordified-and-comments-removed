@@ -2608,7 +2608,7 @@ if
 (
 record
 .
-deleted
+hidden
 )
 {
 if

@@ -445,6 +445,10 @@ run_test
 (
 )
 {
+initTestLogging
+(
+)
+;
 create_servers
 (
 )
@@ -605,7 +609,7 @@ test_storage_uninstall
 {
 fakeApp1
 .
-deleted
+hidden
 =
 true
 ;
