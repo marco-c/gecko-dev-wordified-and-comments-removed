@@ -457,6 +457,7 @@ cvsmirror
 clean
 /
 l10n
+#
 cvs
 -
 d
@@ -473,6 +474,7 @@ rtag
 d
 FIREFOX_2_0_0_7_RELEASE
 mozilla
+#
 cvs
 -
 d
@@ -489,6 +491,7 @@ rtag
 d
 FIREFOX_2_0_0_7_RELEASE_l10n
 mozilla
+#
 cvs
 -
 d
@@ -505,6 +508,7 @@ rtag
 d
 FIREFOX_2_0_0_7_RC1
 mozilla
+#
 cvs
 -
 d
@@ -571,6 +575,7 @@ d
 B
 FIREFOX_2_0_0_7_MINIBRANCH
 mozilla
+#
 cvs
 -
 d
@@ -587,6 +592,7 @@ rtag
 d
 FIREFOX_2_0_0_7_RELEASE
 l10n
+#
 cvs
 -
 d
