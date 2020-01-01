@@ -487,6 +487,14 @@ longThread_worker
 .
 js
 \
+test_navigator
+.
+html
+\
+navigator_worker
+.
+js
+\
 test_recursion
 .
 html
