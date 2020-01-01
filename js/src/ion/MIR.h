@@ -27407,6 +27407,8 @@ MMonitorTypes
 :
 public
 MUnaryInstruction
+public
+BoxInputsPolicy
 {
 const
 types
@@ -27485,6 +27487,16 @@ MMonitorTypes
 def
 types
 )
+;
+}
+TypePolicy
+*
+typePolicy
+(
+)
+{
+return
+this
 ;
 }
 MDefinition
