@@ -3290,10 +3290,7 @@ nsAccessNode
 >
 accessNode
 =
-nsAccUtils
-:
-:
-QueryAccessNode
+do_QueryObject
 (
 aFromAccessible
 )
@@ -4057,10 +4054,7 @@ nsAccessNode
 >
 startAccessNode
 =
-nsAccUtils
-:
-:
-QueryAccessNode
+do_QueryObject
 (
 startAcc
 )

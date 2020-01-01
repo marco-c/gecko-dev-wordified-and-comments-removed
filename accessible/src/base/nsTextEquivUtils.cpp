@@ -1256,10 +1256,7 @@ nsAccessible
 >
 acc
 =
-nsAccUtils
-:
-:
-QueryAccessible
+do_QueryObject
 (
 aAccessible
 )

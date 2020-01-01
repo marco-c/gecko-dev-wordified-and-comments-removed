@@ -12495,10 +12495,7 @@ nsAccessible
 >
 parentAcc
 =
-nsAccUtils
-:
-:
-QueryAccessible
+do_QueryObject
 (
 parent
 )
