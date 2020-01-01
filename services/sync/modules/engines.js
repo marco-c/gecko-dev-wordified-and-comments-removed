@@ -2893,14 +2893,10 @@ id
 meta
 )
 ;
-yield
 out
 .
 encrypt
 (
-self
-.
-cb
 ID
 .
 get
