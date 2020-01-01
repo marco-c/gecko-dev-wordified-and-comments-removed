@@ -36070,14 +36070,6 @@ AC_SUBST
 (
 MOC
 )
-AC_DEFINE
-(
-MOZ_THEBES
-)
-AC_DEFINE
-(
-MOZ_CAIRO_GFX
-)
 if
 test
 "
