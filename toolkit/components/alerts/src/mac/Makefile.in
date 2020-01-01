@@ -466,6 +466,10 @@ nsAlertsImageLoadListener
 .
 mm
 \
+nsNotificationsList
+.
+mm
+\
 (
 NULL
 )
@@ -504,6 +508,16 @@ components
 /
 build
 /
+\
+(
+NULL
+)
+EXPORTS
+=
+\
+nsAlertsService
+.
+h
 \
 (
 NULL

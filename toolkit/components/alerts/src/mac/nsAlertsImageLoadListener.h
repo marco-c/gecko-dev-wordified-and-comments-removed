@@ -47,8 +47,6 @@ const
 nsAString
 &
 aAlertText
-PRBool
-aAlertClickable
 const
 nsAString
 &
@@ -69,9 +67,6 @@ mAlertTitle
 ;
 nsString
 mAlertText
-;
-PRBool
-mAlertClickable
 ;
 nsString
 mAlertCookie

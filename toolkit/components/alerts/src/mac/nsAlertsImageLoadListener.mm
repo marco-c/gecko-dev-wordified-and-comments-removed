@@ -453,8 +453,6 @@ const
 nsAString
 &
 aAlertText
-PRBool
-aAlertClickable
 const
 nsAString
 &
@@ -474,10 +472,6 @@ aAlertTitle
 mAlertText
 (
 aAlertText
-)
-mAlertClickable
-(
-aAlertClickable
 )
 mAlertCookie
 (
