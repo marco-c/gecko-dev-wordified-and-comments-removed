@@ -324,6 +324,9 @@ PRPackedBool
 mIsHTMLContent
 ;
 PRPackedBool
+mIsHTML
+;
+PRPackedBool
 mHasAttributes
 ;
 nsCompatibility
