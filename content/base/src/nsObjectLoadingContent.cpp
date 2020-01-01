@@ -9020,7 +9020,7 @@ mFrameLoader
 nullptr
 ;
 }
-StopPluginInstance
+QueueCheckPluginStopEvent
 (
 )
 ;
