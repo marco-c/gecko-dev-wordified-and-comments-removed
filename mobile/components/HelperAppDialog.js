@@ -211,12 +211,6 @@ nsIPromptService
 let
 flags
 =
-Ci
-.
-nsIPrompt
-.
-BUTTON_POS_1_DEFAULT
-+
 (
 Ci
 .
