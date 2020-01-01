@@ -1434,8 +1434,14 @@ SetEventHandlerInternal
 nsIScriptContext
 *
 aContext
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aScopeGlobal
 nsIAtom
 *

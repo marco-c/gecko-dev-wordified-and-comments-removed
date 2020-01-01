@@ -267,8 +267,14 @@ nsJSEventListener
 :
 UpdateScopeObject
 (
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aScopeObject
 )
 {
