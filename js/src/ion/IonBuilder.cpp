@@ -1047,6 +1047,15 @@ executionMode
 SequentialExecution
 &
 &
+ion
+:
+:
+IsBaselineEnabled
+(
+cx
+)
+&
+&
 !
 inlineScript
 -
