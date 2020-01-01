@@ -90,7 +90,7 @@ enum
 {
 MAX_SYMBOL_NAMES
 =
-5
+6
 MAX_SYMBOL_LENGTH
 =
 128

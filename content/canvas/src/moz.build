@@ -240,6 +240,11 @@ WebGLContextVertexArray
 cpp
 '
 '
+WebGLContextVertices
+.
+cpp
+'
+'
 WebGLElementArrayCache
 .
 cpp
