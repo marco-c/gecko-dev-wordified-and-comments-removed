@@ -1184,6 +1184,9 @@ js
 "
 /
 >
+#
+ifdef
+MOZ_SERVICES_SYNC
 <
 script
 type
@@ -1210,6 +1213,8 @@ js
 "
 /
 >
+#
+endif
 <
 stringbundleset
 id
@@ -1618,6 +1623,9 @@ id
 "
 /
 >
+#
+ifdef
+MOZ_SERVICES_SYNC
 <
 command
 id
@@ -1645,6 +1653,8 @@ true
 "
 /
 >
+#
+endif
 <
 command
 id
@@ -6597,6 +6607,9 @@ setting
 /
 settings
 >
+#
+ifdef
+MOZ_SERVICES_SYNC
 <
 settings
 id
@@ -6888,6 +6901,8 @@ setting
 /
 settings
 >
+#
+endif
 <
 /
 richlistbox
@@ -7467,6 +7482,9 @@ text
 "
 /
 >
+#
+ifdef
+MOZ_SERVICES_SYNC
 <
 toolbarbutton
 type
@@ -7507,6 +7525,8 @@ text
 "
 /
 >
+#
+endif
 <
 /
 hbox

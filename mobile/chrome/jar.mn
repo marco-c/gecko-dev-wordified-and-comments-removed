@@ -753,6 +753,9 @@ AnimatedZoom
 .
 js
 )
+#
+ifdef
+MOZ_SERVICES_SYNC
 content
 /
 sync
@@ -765,6 +768,8 @@ sync
 .
 js
 )
+#
+endif
 content
 /
 LoginManagerChild
