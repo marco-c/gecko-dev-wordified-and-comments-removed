@@ -26,9 +26,7 @@ http
 :
 /
 /
-mochi
-.
-test
+localhost
 :
 8888
 /
@@ -53,9 +51,7 @@ http
 :
 /
 /
-mochi
-.
-test
+localhost
 :
 8888
 /
@@ -159,14 +155,6 @@ for
 "
 +
 aURI
-)
-;
-historyService
-.
-removeObserver
-(
-historyObserver
-false
 )
 ;
 finish
