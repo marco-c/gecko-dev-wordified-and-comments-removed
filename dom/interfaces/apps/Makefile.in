@@ -430,6 +430,10 @@ nsIDOMApplicationRegistry
 .
 idl
 \
+nsIAppsService
+.
+idl
+\
 (
 NULL
 )

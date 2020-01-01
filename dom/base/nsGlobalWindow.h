@@ -359,6 +359,13 @@ h
 #
 include
 "
+nsIDOMApplicationRegistry
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
@@ -3173,6 +3180,12 @@ nsTArray
 PRUint32
 >
 mEnabledSensors
+;
+nsCOMPtr
+<
+mozIDOMApplication
+>
+mApp
 ;
 friend
 class
