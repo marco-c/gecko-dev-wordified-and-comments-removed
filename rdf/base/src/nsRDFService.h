@@ -228,10 +228,5 @@ aDataSource
 ;
 }
 ;
-static
-RDFServiceImpl
-*
-gRDFService
-;
 #
 endif

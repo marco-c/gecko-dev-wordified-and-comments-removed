@@ -1106,7 +1106,7 @@ destruction
 of
 JSContext
 %
-0x
+p
 \
 n
 "
