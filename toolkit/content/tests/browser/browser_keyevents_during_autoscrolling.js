@@ -232,10 +232,12 @@ waitForExplicitFinish
 ;
 gBrowser
 .
+selectedBrowser
+.
 addEventListener
 (
 "
-load
+pageshow
 "
 onLoad
 false
@@ -281,10 +283,12 @@ onLoad
 {
 gBrowser
 .
+selectedBrowser
+.
 removeEventListener
 (
 "
-load
+pageshow
 "
 onLoad
 false
