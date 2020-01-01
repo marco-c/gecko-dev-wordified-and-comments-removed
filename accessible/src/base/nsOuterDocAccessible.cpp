@@ -433,7 +433,7 @@ Shutdown
 if
 (
 !
-nsAccessible
+nsAccessibleWrap
 :
 :
 AppendChild
@@ -542,7 +542,7 @@ this
 bool
 wasRemoved
 =
-nsAccessible
+nsAccessibleWrap
 :
 :
 RemoveChild
