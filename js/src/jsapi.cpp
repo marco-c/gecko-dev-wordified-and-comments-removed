@@ -20139,8 +20139,6 @@ assertSameCompartment
 (
 cx
 obj
-*
-vp
 )
 ;
 JSAutoResolveFlags
