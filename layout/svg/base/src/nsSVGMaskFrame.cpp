@@ -944,7 +944,7 @@ Stride
 (
 )
 ;
-nsIntRect
+nsRect
 rect
 (
 0

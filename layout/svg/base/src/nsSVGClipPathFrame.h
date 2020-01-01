@@ -85,10 +85,10 @@ aParent
 nsIDOMSVGMatrix
 *
 aMatrix
-const
-nsPoint
-&
-aPoint
+float
+aX
+float
+aY
 )
 ;
 PRBool
