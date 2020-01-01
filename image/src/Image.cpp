@@ -399,11 +399,11 @@ EvaluateAnimation
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 Image
 :
 :
-GetAnimationMode
+GetAnimationModeInternal
 (
 uint16_t
 *
@@ -431,11 +431,11 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 Image
 :
 :
-SetAnimationMode
+SetAnimationModeInternal
 (
 uint16_t
 aAnimationMode
