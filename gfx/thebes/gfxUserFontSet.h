@@ -623,7 +623,10 @@ aStretch
 PRUint32
 aItalicStyle
 const
-nsString
+nsTArray
+<
+gfxFontFeature
+>
 &
 aFeatureSettings
 const

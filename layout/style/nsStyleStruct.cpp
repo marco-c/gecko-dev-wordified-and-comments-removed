@@ -987,12 +987,12 @@ name
 (
 aFont1
 .
-featureSettings
+fontFeatureSettings
 =
 =
 aFont2
 .
-featureSettings
+fontFeatureSettings
 )
 &
 &
