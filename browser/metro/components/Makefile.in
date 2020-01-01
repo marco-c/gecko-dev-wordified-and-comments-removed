@@ -160,10 +160,6 @@ LoginManagerPrompter
 .
 js
 \
-CapturePicker
-.
-js
-\
 (
 NULL
 )
