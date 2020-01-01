@@ -2094,13 +2094,6 @@ libtremor
 /
 include
 /
-Makefile
-media
-/
-libtremor
-/
-include
-/
 tremor
 /
 Makefile
