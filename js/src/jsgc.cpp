@@ -12816,6 +12816,13 @@ NULL
 rt
 -
 >
+gcWeakMapList
+=
+NULL
+;
+rt
+-
+>
 resetGCMallocBytes
 (
 )
@@ -13784,13 +13791,6 @@ rt
 -
 >
 gcCurrentCompartment
-=
-NULL
-;
-rt
--
->
-gcWeakMapList
 =
 NULL
 ;
