@@ -899,18 +899,6 @@ pc
 if
 (
 script
-&
-&
-script
--
->
-compartment
-=
-=
-cx
--
->
-compartment
 )
 return
 TypeScript
@@ -2714,7 +2702,7 @@ typeInferenceEnabled
 obj
 -
 >
-hasLazyType
+hasSingletonType
 (
 )
 )
