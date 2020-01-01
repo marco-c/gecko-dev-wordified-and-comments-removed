@@ -995,6 +995,8 @@ gApplicationsPane
 onSelectAction
 (
 event
+.
+originalTarget
 )
 "
 >
