@@ -825,6 +825,17 @@ pcOffset
 ;
 ICEntry
 &
+icEntryFromPCOffset
+(
+uint32_t
+pcOffset
+ICEntry
+*
+prevLookedUpEntry
+)
+;
+ICEntry
+&
 icEntryFromReturnAddress
 (
 uint8_t
