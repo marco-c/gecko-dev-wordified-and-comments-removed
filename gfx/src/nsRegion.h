@@ -806,6 +806,12 @@ return
 mBoundRect
 ;
 }
+uint64_t
+Area
+(
+)
+const
+;
 nsRegion
 ConvertAppUnitsRoundOut
 (
