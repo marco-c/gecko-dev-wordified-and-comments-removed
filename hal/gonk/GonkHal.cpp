@@ -957,6 +957,7 @@ if
 (
 capacityFile
 )
+{
 fscanf
 (
 capacityFile
@@ -973,6 +974,7 @@ fclose
 capacityFile
 )
 ;
+}
 FILE
 *
 chargingFile
@@ -1005,6 +1007,7 @@ if
 (
 chargingFile
 )
+{
 fscanf
 (
 chargingFile
@@ -1021,6 +1024,7 @@ fclose
 chargingFile
 )
 ;
+}
 aBatteryInfo
 -
 >
