@@ -899,6 +899,9 @@ PR_Cleanup
 (
 )
 ;
+return
+0
+;
 }
 #
 endif
