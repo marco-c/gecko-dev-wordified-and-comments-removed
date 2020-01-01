@@ -4036,12 +4036,6 @@ root
 ;
 if
 (
-mOldRuleTree
-)
-return
-;
-if
-(
 !
 aStyleContext
 -
@@ -4059,6 +4053,12 @@ aStyleContext
 )
 ;
 }
+if
+(
+mOldRuleTree
+)
+return
+;
 if
 (
 +
