@@ -146,7 +146,7 @@ devtools
 /
 cssruleview
 .
-xul
+xhtml
 "
 "
 cssruleviewtest

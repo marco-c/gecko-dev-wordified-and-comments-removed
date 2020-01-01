@@ -945,6 +945,11 @@ inspector
 -
 sidebar
 "
+handleCtrlTab
+=
+"
+false
+"
 class
 =
 "
