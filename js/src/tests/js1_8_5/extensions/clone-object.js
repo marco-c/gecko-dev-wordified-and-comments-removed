@@ -1408,7 +1408,7 @@ Object
 defineProperty
 (
 b
-QName
+Array
 (
 uri
 "
@@ -1430,7 +1430,7 @@ Object
 defineProperty
 (
 b
-QName
+Array
 (
 uri
 "

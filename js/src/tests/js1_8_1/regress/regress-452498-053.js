@@ -68,7 +68,7 @@ c
 }
 try
 {
-foo
+true
 ;
 0
 ;

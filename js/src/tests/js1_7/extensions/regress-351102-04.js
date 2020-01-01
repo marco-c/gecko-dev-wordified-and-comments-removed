@@ -64,6 +64,8 @@ try
 try
 {
 foo
+(
+)
 }
 catch
 (

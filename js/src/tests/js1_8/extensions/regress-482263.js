@@ -87,11 +87,6 @@ function
 )
 {
 return
-<
-y
-/
->
-.
 (
 [
 ]
