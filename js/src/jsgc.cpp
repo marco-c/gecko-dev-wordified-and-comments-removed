@@ -273,11 +273,11 @@ XP_WIN
 )
 #
 include
-<
-windows
+"
+jswin
 .
 h
->
+"
 #
 endif
 #
