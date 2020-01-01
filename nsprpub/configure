@@ -121,7 +121,7 @@ DIR
 location
 of
 the
-android
+Android
 toolchain
 default
 NDK
@@ -141,6 +141,25 @@ eabi
 4
 .
 0
+"
+ac_help
+=
+"
+ac_help
+-
+-
+with
+-
+android
+-
+version
+=
+VER
+Android
+platform
+version
+default
+5
 "
 ac_help
 =
@@ -7125,7 +7144,7 @@ echo
 "
 configure
 :
-674
+676
 :
 checking
 host
@@ -7375,7 +7394,7 @@ echo
 "
 configure
 :
-695
+697
 :
 checking
 target
@@ -7584,7 +7603,7 @@ echo
 "
 configure
 :
-713
+715
 :
 checking
 build
@@ -8061,7 +8080,7 @@ echo
 "
 configure
 :
-789
+791
 :
 checking
 for
@@ -8479,6 +8498,53 @@ with
 -
 android
 -
+version
+or
+-
+-
+without
+-
+android
+-
+version
+was
+given
+.
+if
+test
+"
+{
+with_android_version
++
+set
+}
+"
+=
+set
+;
+then
+withval
+=
+"
+with_android_version
+"
+android_version
+=
+withval
+else
+android_version
+=
+5
+fi
+#
+Check
+whether
+-
+-
+with
+-
+android
+-
 platform
 or
 -
@@ -8801,7 +8867,7 @@ echo
 "
 configure
 :
-917
+928
 :
 checking
 for
@@ -8998,7 +9064,7 @@ echo
 "
 configure
 :
-937
+948
 :
 checking
 for
@@ -9021,11 +9087,15 @@ platforms
 /
 android
 -
-5
+"
+android_version
+"
 /
 arch
 -
-arm
+"
+target_cpu
+"
 #
 With
 newer
@@ -9056,11 +9126,15 @@ platforms
 /
 android
 -
-5
+"
+android_version
+"
 /
 arch
 -
-arm
+"
+target_cpu
+"
 fi
 if
 test
@@ -9403,6 +9477,20 @@ EOF
 define
 ANDROID
 1
+EOF
+cat
+>
+>
+confdefs
+.
+h
+<
+<
+EOF
+#
+define
+ANDROID_VERSION
+android_version
 EOF
 ;
 ;
@@ -10904,7 +10992,7 @@ echo
 "
 configure
 :
-1280
+1295
 :
 checking
 for
@@ -11339,7 +11427,7 @@ echo
 "
 configure
 :
-1352
+1367
 :
 checking
 for
@@ -11409,7 +11497,7 @@ echo
 "
 configure
 :
-1358
+1373
 :
 checking
 for
@@ -11726,7 +11814,7 @@ echo
 "
 configure
 :
-1404
+1419
 :
 checking
 whether
@@ -11753,7 +11841,7 @@ ac_ext
 EOF
 #
 line
-1406
+1421
 "
 configure
 "
@@ -11787,7 +11875,7 @@ eval
 echo
 configure
 :
-1413
+1428
 :
 \
 "
@@ -12066,7 +12154,7 @@ echo
 "
 configure
 :
-1448
+1463
 :
 checking
 for
@@ -12312,7 +12400,7 @@ echo
 "
 configure
 :
-1482
+1497
 :
 checking
 for
@@ -12542,7 +12630,7 @@ echo
 "
 configure
 :
-1512
+1527
 :
 checking
 for
@@ -12906,7 +12994,7 @@ echo
 "
 configure
 :
-1563
+1578
 :
 checking
 for
@@ -13146,7 +13234,7 @@ echo
 "
 configure
 :
-1595
+1610
 :
 checking
 whether
@@ -13250,7 +13338,7 @@ ac_ext
 EOF
 #
 line
-1606
+1621
 "
 configure
 "
@@ -13279,7 +13367,7 @@ eval
 echo
 configure
 :
-1611
+1626
 :
 \
 "
@@ -13544,7 +13632,7 @@ echo
 "
 configure
 :
-1637
+1652
 :
 checking
 whether
@@ -13604,7 +13692,7 @@ echo
 "
 configure
 :
-1642
+1657
 :
 checking
 whether
@@ -13694,7 +13782,7 @@ eval
 echo
 configure
 :
-1651
+1666
 :
 \
 "
@@ -13811,7 +13899,7 @@ echo
 "
 configure
 :
-1670
+1685
 :
 checking
 whether
@@ -14073,7 +14161,7 @@ echo
 "
 configure
 :
-1707
+1722
 :
 checking
 for
@@ -14337,7 +14425,7 @@ echo
 "
 configure
 :
-1743
+1758
 :
 checking
 for
@@ -14565,7 +14653,7 @@ echo
 "
 configure
 :
-1775
+1790
 :
 checking
 whether
@@ -14675,7 +14763,7 @@ ac_ext
 EOF
 #
 line
-1786
+1801
 "
 configure
 "
@@ -14705,7 +14793,7 @@ eval
 echo
 configure
 :
-1791
+1806
 :
 \
 "
@@ -14974,7 +15062,7 @@ echo
 "
 configure
 :
-1817
+1832
 :
 checking
 whether
@@ -15038,7 +15126,7 @@ echo
 "
 configure
 :
-1822
+1837
 :
 checking
 whether
@@ -15132,7 +15220,7 @@ eval
 echo
 configure
 :
-1831
+1846
 :
 \
 "
@@ -15251,7 +15339,7 @@ echo
 "
 configure
 :
-1850
+1865
 :
 checking
 whether
@@ -15547,7 +15635,7 @@ echo
 "
 configure
 :
-1895
+1910
 :
 checking
 for
@@ -15810,7 +15898,7 @@ echo
 "
 configure
 :
-1930
+1945
 :
 checking
 for
@@ -16073,7 +16161,7 @@ echo
 "
 configure
 :
-1965
+1980
 :
 checking
 for
@@ -16336,7 +16424,7 @@ echo
 "
 configure
 :
-2000
+2015
 :
 checking
 for
@@ -16599,7 +16687,7 @@ echo
 "
 configure
 :
-2035
+2050
 :
 checking
 for
@@ -16862,7 +16950,7 @@ echo
 "
 configure
 :
-2070
+2085
 :
 checking
 for
@@ -17107,7 +17195,7 @@ echo
 "
 configure
 :
-2105
+2120
 :
 checking
 for
@@ -17337,7 +17425,7 @@ echo
 "
 configure
 :
-2135
+2150
 :
 checking
 for
@@ -17701,7 +17789,7 @@ echo
 "
 configure
 :
-2186
+2201
 :
 checking
 for
@@ -17941,7 +18029,7 @@ echo
 "
 configure
 :
-2218
+2233
 :
 checking
 whether
@@ -18045,7 +18133,7 @@ ac_ext
 EOF
 #
 line
-2229
+2244
 "
 configure
 "
@@ -18074,7 +18162,7 @@ eval
 echo
 configure
 :
-2234
+2249
 :
 \
 "
@@ -18339,7 +18427,7 @@ echo
 "
 configure
 :
-2260
+2275
 :
 checking
 whether
@@ -18399,7 +18487,7 @@ echo
 "
 configure
 :
-2265
+2280
 :
 checking
 whether
@@ -18489,7 +18577,7 @@ eval
 echo
 configure
 :
-2274
+2289
 :
 \
 "
@@ -18606,7 +18694,7 @@ echo
 "
 configure
 :
-2293
+2308
 :
 checking
 whether
@@ -18885,7 +18973,7 @@ echo
 "
 configure
 :
-2333
+2348
 :
 checking
 for
@@ -19113,7 +19201,7 @@ echo
 "
 configure
 :
-2365
+2380
 :
 checking
 whether
@@ -19223,7 +19311,7 @@ ac_ext
 EOF
 #
 line
-2376
+2391
 "
 configure
 "
@@ -19253,7 +19341,7 @@ eval
 echo
 configure
 :
-2381
+2396
 :
 \
 "
@@ -19522,7 +19610,7 @@ echo
 "
 configure
 :
-2407
+2422
 :
 checking
 whether
@@ -19586,7 +19674,7 @@ echo
 "
 configure
 :
-2412
+2427
 :
 checking
 whether
@@ -19680,7 +19768,7 @@ eval
 echo
 configure
 :
-2421
+2436
 :
 \
 "
@@ -19799,7 +19887,7 @@ echo
 "
 configure
 :
-2440
+2455
 :
 checking
 whether
@@ -20013,7 +20101,7 @@ echo
 "
 configure
 :
-2474
+2489
 :
 checking
 how
@@ -20176,7 +20264,7 @@ ac_ext
 EOF
 #
 line
-2489
+2504
 "
 configure
 "
@@ -20221,7 +20309,7 @@ eval
 echo
 configure
 :
-2495
+2510
 :
 \
 "
@@ -20337,7 +20425,7 @@ ac_ext
 EOF
 #
 line
-2506
+2521
 "
 configure
 "
@@ -20382,7 +20470,7 @@ eval
 echo
 configure
 :
-2512
+2527
 :
 \
 "
@@ -20496,7 +20584,7 @@ ac_ext
 EOF
 #
 line
-2523
+2538
 "
 configure
 "
@@ -20541,7 +20629,7 @@ eval
 echo
 configure
 :
-2529
+2544
 :
 \
 "
@@ -20732,7 +20820,7 @@ echo
 "
 configure
 :
-2556
+2571
 :
 checking
 for
@@ -20971,7 +21059,7 @@ echo
 "
 configure
 :
-2588
+2603
 :
 checking
 for
@@ -21253,7 +21341,7 @@ echo
 "
 configure
 :
-2629
+2644
 :
 checking
 for
@@ -21537,7 +21625,7 @@ echo
 "
 configure
 :
-2670
+2685
 :
 checking
 for
@@ -21820,7 +21908,7 @@ echo
 "
 configure
 :
-2711
+2726
 :
 checking
 for
@@ -22103,7 +22191,7 @@ echo
 "
 configure
 :
-2752
+2767
 :
 checking
 for
@@ -22501,7 +22589,7 @@ echo
 "
 configure
 :
-2820
+2835
 :
 checking
 for
@@ -22676,7 +22764,7 @@ ac_ext
 EOF
 #
 line
-2835
+2850
 "
 configure
 "
@@ -22722,7 +22810,7 @@ eval
 echo
 configure
 :
-2842
+2857
 :
 \
 "
@@ -22938,7 +23026,7 @@ echo
 "
 configure
 :
-2872
+2887
 :
 checking
 whether
@@ -22963,7 +23051,7 @@ ac_ext
 EOF
 #
 line
-2874
+2889
 "
 configure
 "
@@ -22995,7 +23083,7 @@ eval
 echo
 configure
 :
-2881
+2896
 :
 \
 "
@@ -23164,7 +23252,7 @@ echo
 "
 configure
 :
-2904
+2919
 :
 checking
 for
@@ -23364,7 +23452,7 @@ echo
 "
 configure
 :
-2928
+2943
 :
 checking
 for
@@ -23792,7 +23880,7 @@ echo
 "
 configure
 :
-2981
+2996
 :
 checking
 for
@@ -25904,7 +25992,7 @@ ac_ext
 EOF
 #
 line
-3302
+3317
 "
 configure
 "
@@ -25939,7 +26027,7 @@ eval
 echo
 configure
 :
-3309
+3324
 :
 \
 "
@@ -26227,7 +26315,7 @@ echo
 "
 configure
 :
-3371
+3386
 :
 checking
 whether
@@ -26255,7 +26343,7 @@ ac_ext
 EOF
 #
 line
-3373
+3388
 "
 configure
 "
@@ -26287,7 +26375,7 @@ eval
 echo
 configure
 :
-3380
+3395
 :
 \
 "
@@ -26662,7 +26750,7 @@ echo
 "
 configure
 :
-3437
+3452
 :
 checking
 for
@@ -26724,7 +26812,7 @@ ac_ext
 EOF
 #
 line
-3442
+3457
 "
 configure
 "
@@ -26769,7 +26857,7 @@ eval
 echo
 configure
 :
-3447
+3462
 :
 \
 "
@@ -27739,7 +27827,7 @@ echo
 "
 configure
 :
-3643
+3658
 :
 checking
 for
@@ -27833,7 +27921,7 @@ ac_ext
 EOF
 #
 line
-3651
+3666
 "
 configure
 "
@@ -27911,7 +27999,7 @@ eval
 echo
 configure
 :
-3662
+3677
 :
 \
 "
@@ -28900,7 +28988,7 @@ echo
 "
 configure
 :
-3871
+3886
 :
 checking
 for
@@ -28960,7 +29048,7 @@ ac_ext
 EOF
 #
 line
-3876
+3891
 "
 configure
 "
@@ -29003,7 +29091,7 @@ eval
 echo
 configure
 :
-3881
+3896
 :
 \
 "
@@ -35207,7 +35295,7 @@ echo
 "
 configure
 :
-5055
+5070
 :
 checking
 for
@@ -35269,7 +35357,7 @@ ac_ext
 EOF
 #
 line
-5060
+5075
 "
 configure
 "
@@ -35314,7 +35402,7 @@ eval
 echo
 configure
 :
-5065
+5080
 :
 \
 "
@@ -38999,7 +39087,7 @@ echo
 "
 configure
 :
-5714
+5729
 :
 checking
 for
@@ -39093,7 +39181,7 @@ ac_ext
 EOF
 #
 line
-5722
+5737
 "
 configure
 "
@@ -39171,7 +39259,7 @@ eval
 echo
 configure
 :
-5733
+5748
 :
 \
 "
@@ -39334,7 +39422,7 @@ echo
 "
 configure
 :
-5750
+5765
 :
 checking
 for
@@ -39394,7 +39482,7 @@ ac_ext
 EOF
 #
 line
-5755
+5770
 "
 configure
 "
@@ -39437,7 +39525,7 @@ eval
 echo
 configure
 :
-5760
+5775
 :
 \
 "
@@ -39653,7 +39741,7 @@ echo
 "
 configure
 :
-5793
+5808
 :
 checking
 whether
@@ -39727,7 +39815,7 @@ ac_ext
 EOF
 #
 line
-5799
+5814
 "
 configure
 "
@@ -39818,7 +39906,7 @@ ac_ext
 EOF
 #
 line
-5817
+5832
 "
 configure
 "
@@ -39912,11 +40000,22 @@ traditional
 "
 fi
 fi
+_SAVE_LDFLAGS
+=
+"
+LDFLAGS
+"
+LDFLAGS
+=
+"
+OS_LIBS
+"
 for
 ac_func
 in
 lchown
 strerror
+dladdr
 do
 echo
 ac_n
@@ -39939,7 +40038,7 @@ echo
 "
 configure
 :
-5841
+5858
 :
 checking
 for
@@ -39997,7 +40096,7 @@ ac_ext
 EOF
 #
 line
-5846
+5863
 "
 configure
 "
@@ -40166,7 +40265,7 @@ eval
 echo
 configure
 :
-5869
+5886
 :
 \
 "
@@ -40321,6 +40420,11 @@ no
 6
 fi
 done
+LDFLAGS
+=
+"
+_SAVE_LDFLAGS
+"
 #
 Check
 whether
@@ -40487,7 +40591,7 @@ echo
 "
 configure
 :
-5920
+5938
 :
 checking
 for
@@ -40880,7 +40984,7 @@ echo
 "
 configure
 :
-5979
+5997
 :
 checking
 for
@@ -41127,7 +41231,7 @@ echo
 "
 configure
 :
-6021
+6039
 :
 checking
 for
@@ -41335,7 +41439,7 @@ echo
 "
 configure
 :
-6043
+6061
 :
 checking
 for
@@ -41543,7 +41647,7 @@ echo
 "
 configure
 :
-6065
+6083
 :
 checking
 for
@@ -41751,7 +41855,7 @@ echo
 "
 configure
 :
-6087
+6105
 :
 checking
 for
@@ -42402,7 +42506,7 @@ echo
 "
 configure
 :
-6205
+6223
 :
 checking
 whether
@@ -42616,7 +42720,7 @@ echo
 "
 configure
 :
-6228
+6246
 :
 checking
 whether
