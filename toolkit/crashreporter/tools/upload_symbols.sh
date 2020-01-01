@@ -510,8 +510,6 @@ symbols
 1
 "
 scp
--
-v
 {
 SYMBOL_SERVER_PORT
 :
