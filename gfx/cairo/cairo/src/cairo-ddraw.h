@@ -71,6 +71,16 @@ cairo_surface_t
 surface
 )
 ;
+cairo_public
+cairo_surface_t
+*
+cairo_ddraw_surface_get_image
+(
+cairo_surface_t
+*
+surface
+)
+;
 CAIRO_END_DECLS
 #
 else
