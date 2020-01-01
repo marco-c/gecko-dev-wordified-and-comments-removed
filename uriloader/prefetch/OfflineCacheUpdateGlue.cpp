@@ -349,9 +349,10 @@ aDocument
 nsIFile
 *
 aCustomProfileDir
-nsILoadContext
-*
-aLoadContext
+uint32_t
+aAppID
+bool
+aInBrowser
 )
 {
 if
@@ -387,7 +388,8 @@ aManifestURI
 aDocumentURI
 nullptr
 aCustomProfileDir
-aLoadContext
+aAppID
+aInBrowser
 )
 ;
 }

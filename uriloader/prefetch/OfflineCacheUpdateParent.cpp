@@ -229,14 +229,6 @@ this
 )
 )
 ;
-mIsInBrowserElement
-=
-isInBrowserElement
-;
-mAppId
-=
-appId
-;
 nsRefPtr
 <
 nsOfflineCacheUpdate
@@ -352,7 +344,8 @@ service
 FindUpdate
 (
 manifestURI
-this
+appId
+isInBrowserElement
 getter_AddRefs
 (
 update
@@ -383,7 +376,8 @@ manifestURI
 documentURI
 nullptr
 nullptr
-this
+appId
+isInBrowserElement
 )
 ;
 NS_ENSURE_SUCCESS
