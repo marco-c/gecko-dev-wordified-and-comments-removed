@@ -3916,7 +3916,7 @@ op
 =
 LIR_addp
 )
-ADD
+ADDCC
 (
 rr
 rb
@@ -3931,7 +3931,7 @@ op
 =
 LIR_sub
 )
-SUB
+SUBCC
 (
 rr
 rb
@@ -4079,7 +4079,7 @@ op
 LIR_addp
 )
 {
-ADD
+ADDCC
 (
 rr
 L0
@@ -4096,7 +4096,7 @@ op
 LIR_sub
 )
 {
-SUB
+SUBCC
 (
 rr
 L0
