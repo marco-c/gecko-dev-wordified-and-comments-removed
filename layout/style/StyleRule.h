@@ -982,6 +982,9 @@ MOZ_DELETE
 ;
 }
 ;
+class
+inDOMUtils
+;
 struct
 nsCSSSelectorList
 {
@@ -1048,8 +1051,12 @@ nsCSSSelectorList
 *
 mNext
 ;
-private
+protected
 :
+friend
+class
+inDOMUtils
+;
 nsCSSSelectorList
 *
 Clone
@@ -1059,6 +1066,8 @@ aDeep
 )
 const
 ;
+private
+:
 nsCSSSelectorList
 (
 const
