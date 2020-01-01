@@ -377,12 +377,9 @@ MOZ_OVERRIDE
 ;
 already_AddRefed
 <
-dom
-:
-:
 VideoPlaybackQuality
 >
-VideoPlaybackQuality
+GetVideoPlaybackQuality
 (
 )
 ;

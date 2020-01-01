@@ -435,11 +435,12 @@ mediasource
 .
 enabled
 "
+Creator
 ]
-readonly
-attribute
 VideoPlaybackQuality
-videoPlaybackQuality
+getVideoPlaybackQuality
+(
+)
 ;
 }
 ;
