@@ -458,6 +458,10 @@ common
 .
 js
 \
+events
+.
+js
+\
 namerules
 .
 xml
