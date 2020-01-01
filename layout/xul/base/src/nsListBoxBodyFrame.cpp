@@ -4247,11 +4247,11 @@ prevFrame
 ;
 prevFrame
 =
-mFrames
-.
-GetPrevSiblingFor
-(
 childFrame
+-
+>
+GetPrevSibling
+(
 )
 ;
 RemoveChildFrame
