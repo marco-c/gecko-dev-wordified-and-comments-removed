@@ -7267,6 +7267,11 @@ cert
 dbhandle
 )
 ;
+PR_Free
+(
+nickname
+)
+;
 if
 (
 !
@@ -7276,11 +7281,6 @@ conflict
 break
 ;
 }
-PR_Free
-(
-nickname
-)
-;
 count
 +
 +
