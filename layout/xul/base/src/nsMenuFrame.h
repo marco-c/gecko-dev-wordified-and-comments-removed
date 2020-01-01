@@ -429,10 +429,10 @@ Enter
 (
 )
 ;
-NS_IMETHOD
+virtual
+void
 SetParent
 (
-const
 nsIFrame
 *
 aParent
