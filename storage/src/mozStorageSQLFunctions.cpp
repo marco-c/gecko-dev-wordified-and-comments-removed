@@ -418,7 +418,7 @@ SQLITE_OK
 ;
 for
 (
-unsigned
+size_t
 i
 =
 0

@@ -548,6 +548,10 @@ mozStorageBindingParams
 .
 cpp
 \
+SQLCollations
+.
+cpp
+\
 (
 NULL
 )
