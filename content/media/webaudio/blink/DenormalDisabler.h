@@ -12,9 +12,6 @@ include
 <
 cmath
 >
-namespace
-WebCore
-{
 #
 include
 <
@@ -22,6 +19,9 @@ float
 .
 h
 >
+namespace
+WebCore
+{
 #
 if
 defined
