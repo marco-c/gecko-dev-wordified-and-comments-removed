@@ -42,7 +42,7 @@ class
 nsTreeSelection
 :
 public
-nsITreeSelection
+nsINativeTreeSelection
 {
 public
 :
@@ -64,6 +64,15 @@ NS_DECL_CYCLE_COLLECTION_CLASS
 nsTreeSelection
 )
 NS_DECL_NSITREESELECTION
+NS_IMETHOD
+EnsureNative
+(
+)
+{
+return
+NS_OK
+;
+}
 friend
 struct
 nsTreeRange
