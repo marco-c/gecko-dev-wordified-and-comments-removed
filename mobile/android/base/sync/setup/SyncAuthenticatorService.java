@@ -141,7 +141,7 @@ String
 LOG_TAG
 =
 "
-SyncAuthenticatorService
+SyncAuthService
 "
 ;
 private

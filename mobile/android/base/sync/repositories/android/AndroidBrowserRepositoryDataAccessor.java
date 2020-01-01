@@ -104,11 +104,12 @@ Context
 context
 ;
 protected
+static
 String
 LOG_TAG
 =
 "
-AndroidBrowserRepositoryDataAccessor
+BrowserDataAccessor
 "
 ;
 private
