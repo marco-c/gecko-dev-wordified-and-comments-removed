@@ -120,7 +120,9 @@ nsNavBookmarks
 ItemVisitMethod
 )
 (
+const
 ItemVisitData
+&
 )
 ;
 typedef
@@ -133,7 +135,9 @@ nsNavBookmarks
 ItemChangeMethod
 )
 (
+const
 ItemChangeData
+&
 )
 ;
 }
@@ -391,6 +395,7 @@ nsnull
 void
 NotifyItemVisited
 (
+const
 mozilla
 :
 :
@@ -398,12 +403,14 @@ places
 :
 :
 ItemVisitData
+&
 aData
 )
 ;
 void
 NotifyItemChanged
 (
+const
 mozilla
 :
 :
@@ -411,6 +418,7 @@ places
 :
 :
 ItemChangeData
+&
 aData
 )
 ;
