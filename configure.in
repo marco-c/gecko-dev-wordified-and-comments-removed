@@ -43037,6 +43037,8 @@ media
 plugin
 (
 B2G
+or
+Android
 )
 dnl
 =
@@ -43140,13 +43142,6 @@ OS_TARGET
 "
 Android
 "
--
-a
--
-n
-"
-gonkdir
-"
 ;
 then
 dnl
@@ -43160,6 +43155,8 @@ Gonk
 (
 B2G
 )
+or
+Android
 AC_DEFINE
 (
 MOZ_OMX_PLUGIN
@@ -43175,6 +43172,8 @@ not
 building
 on
 Gonk
+or
+Android
 AC_MSG_ERROR
 (
 [
@@ -43187,6 +43186,8 @@ be
 built
 on
 B2G
+or
+Android
 ]
 )
 fi
