@@ -7724,13 +7724,6 @@ MOZ_USER_DIR
 .
 mozilla
 "
-HOST_AR
-=
-'
-(
-AR
-)
-'
 HOST_AR_FLAGS
 =
 '
