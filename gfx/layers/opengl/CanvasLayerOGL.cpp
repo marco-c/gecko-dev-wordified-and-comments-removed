@@ -1083,6 +1083,16 @@ mPixmap
 }
 #
 endif
+gl
+(
+)
+-
+>
+ApplyFilterToBoundTexture
+(
+mFilter
+)
+;
 program
 -
 >
