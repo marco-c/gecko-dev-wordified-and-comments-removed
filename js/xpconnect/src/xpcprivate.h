@@ -622,6 +622,13 @@ BackstagePass
 h
 "
 #
+include
+"
+nsCxPusher
+.
+h
+"
+#
 ifdef
 XP_WIN
 #
@@ -4217,8 +4224,11 @@ AutoJSContextDestroyer
 >
 mCxDestroyer
 ;
-JSAutoRequest
-mAr
+mozilla
+:
+:
+AutoPushJSContext
+mPusher
 ;
 State
 mState
@@ -4234,9 +4244,6 @@ mXPCContext
 JSContext
 *
 mJSContext
-;
-JSBool
-mContextPopRequired
 ;
 XPCContext
 :
