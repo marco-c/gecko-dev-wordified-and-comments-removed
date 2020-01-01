@@ -299,7 +299,7 @@ nsresult
 GetAsText
 (
 const
-nsAString
+nsACString
 &
 aCharset
 const
@@ -403,7 +403,7 @@ nsIDOMBlob
 >
 mFile
 ;
-nsString
+nsCString
 mCharset
 ;
 PRUint32
@@ -453,12 +453,6 @@ mReadTotal
 ;
 PRUint64
 mReadTransferred
-;
-nsRefPtr
-<
-nsDOMEventListenerWrapper
->
-mOnLoadEndListener
 ;
 }
 ;

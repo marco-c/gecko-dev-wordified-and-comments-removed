@@ -518,6 +518,12 @@ nsDOMEventListenerWrapper
 >
 mOnProgressListener
 ;
+nsRefPtr
+<
+nsDOMEventListenerWrapper
+>
+mOnLoadendListener
+;
 }
 ;
 class
