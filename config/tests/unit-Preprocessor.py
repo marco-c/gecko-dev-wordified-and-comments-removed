@@ -1043,9 +1043,7 @@ in
 #
 filter
 attemptSubstitution
-P
-VAR
-ASS
+PASS
 #
 unfilter
 attemptSubstitution

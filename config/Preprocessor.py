@@ -3214,8 +3214,12 @@ varname
 )
       
 return
-'
-'
+matchobj
+.
+group
+(
+0
+)
     
 return
 self
