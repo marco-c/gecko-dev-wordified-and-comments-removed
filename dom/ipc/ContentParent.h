@@ -813,10 +813,10 @@ RecvReadPrefsArray
 (
 InfallibleTArray
 <
-PrefTuple
+PrefSetting
 >
 *
-retValue
+aPrefs
 )
 ;
 virtual
