@@ -9237,12 +9237,15 @@ gfxPattern
 :
 GraphicsFilter
 aFilter
+const
 gfxMatrix
 &
 aUserSpaceToImageSpace
+const
 gfxRect
 &
 aFill
+const
 nsIntRect
 &
 aSubimage
