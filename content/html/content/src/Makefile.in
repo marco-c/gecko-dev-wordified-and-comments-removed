@@ -210,6 +210,10 @@ HTMLModElement
 .
 h
 \
+HTMLOptGroupElement
+.
+h
+\
 HTMLParagraphElement
 .
 h
@@ -440,7 +444,7 @@ nsHTMLOptionElement
 .
 cpp
 \
-nsHTMLOptGroupElement
+HTMLOptGroupElement
 .
 cpp
 \

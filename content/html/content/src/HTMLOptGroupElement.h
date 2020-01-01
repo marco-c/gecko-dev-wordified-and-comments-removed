@@ -1,9 +1,9 @@
 #
 ifndef
-nsGenericHTMLElement_h
+mozilla_dom_HTMLOptGroupElement_h
 #
 define
-nsGenericHTMLElement_h
+mozilla_dom_HTMLOptGroupElement_h
 #
 include
 "
@@ -18,8 +18,14 @@ nsGenericHTMLElement
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+dom
+{
 class
-nsHTMLOptGroupElement
+HTMLOptGroupElement
 :
 public
 nsGenericHTMLElement
@@ -28,7 +34,7 @@ nsIDOMHTMLOptGroupElement
 {
 public
 :
-nsHTMLOptGroupElement
+HTMLOptGroupElement
 (
 already_AddRefed
 <
@@ -39,7 +45,7 @@ aNodeInfo
 ;
 virtual
 ~
-nsHTMLOptGroupElement
+HTMLOptGroupElement
 (
 )
 ;
@@ -164,5 +170,7 @@ GetSelect
 ;
 }
 ;
+}
+}
 #
 endif
