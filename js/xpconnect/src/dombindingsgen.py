@@ -6017,6 +6017,19 @@ substitute
 clazz
 )
 )
+                
+methodsList
+.
+append
+(
+"
+{
+s_iterator_id
+JS_ArrayIterator
+0
+}
+"
+)
             
 if
 clazz
