@@ -115,6 +115,10 @@ DocManager
 .
 cpp
 \
+EventQueue
+.
+cpp
+\
 FocusManager
 .
 cpp
