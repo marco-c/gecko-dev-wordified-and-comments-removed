@@ -179,6 +179,10 @@ MemoryChecking
 .
 h
 \
+MemoryReporting
+.
+h
+\
 MSStdInt
 .
 h
