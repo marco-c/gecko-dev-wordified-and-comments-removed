@@ -2516,9 +2516,9 @@ try
 {
 uri
 =
-IO
+PlacesUtils
 .
-newURI
+createFixedURI
 (
 this
 .
@@ -2658,9 +2658,9 @@ try
 {
 uri
 =
-IO
+PlacesUtils
 .
-newURI
+createFixedURI
 (
 this
 .
@@ -2750,9 +2750,9 @@ try
 {
 uri
 =
-IO
+PlacesUtils
 .
-newURI
+createFixedURI
 (
 this
 .
