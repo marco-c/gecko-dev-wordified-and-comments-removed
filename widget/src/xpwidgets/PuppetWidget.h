@@ -519,6 +519,12 @@ OnIMESelectionChange
 void
 )
 ;
+virtual
+float
+GetDPI
+(
+)
+;
 private
 :
 nsresult
@@ -628,6 +634,9 @@ mIMELastReceivedSeqno
 ;
 PRUint32
 mIMELastBlurSeqno
+;
+float
+mDPI
 ;
 }
 ;
