@@ -11374,9 +11374,7 @@ if
 url
 )
 {
-getBrowser
-(
-)
+nsDragAndDrop
 .
 dragDropSecurityCheck
 (
@@ -13157,9 +13155,7 @@ if
 url
 )
 {
-getBrowser
-(
-)
+nsDragAndDrop
 .
 dragDropSecurityCheck
 (
@@ -13401,9 +13397,7 @@ if
 url
 )
 {
-getBrowser
-(
-)
+nsDragAndDrop
 .
 dragDropSecurityCheck
 (
@@ -13641,9 +13635,7 @@ postData
 ;
 try
 {
-getBrowser
-(
-)
+nsDragAndDrop
 .
 dragDropSecurityCheck
 (
@@ -13892,9 +13884,7 @@ aXferData
 data
 )
 {
-getBrowser
-(
-)
+nsDragAndDrop
 .
 dragDropSecurityCheck
 (
@@ -22724,9 +22714,7 @@ url
 )
 return
 ;
-getBrowser
-(
-)
+nsDragAndDrop
 .
 dragDropSecurityCheck
 (
