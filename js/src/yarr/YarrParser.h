@@ -1,9 +1,9 @@
 #
 ifndef
-YarrParser_h
+yarr_YarrParser_h
 #
 define
-YarrParser_h
+yarr_YarrParser_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-PageAllocation_h
+yarr_PageAllocation_h
 #
 define
-PageAllocation_h
+yarr_PageAllocation_h
 #
 include
 "

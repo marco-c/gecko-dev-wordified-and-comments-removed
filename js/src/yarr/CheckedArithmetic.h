@@ -1,9 +1,9 @@
 #
 ifndef
-CheckedArithmetic_h
+yarr_CheckedArithmetic_h
 #
 define
-CheckedArithmetic_h
+yarr_CheckedArithmetic_h
 #
 include
 "

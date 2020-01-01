@@ -1,9 +1,9 @@
 #
 ifndef
-WTF_ASCIICType_h
+yarr_ASCIICType_h
 #
 define
-WTF_ASCIICType_h
+yarr_ASCIICType_h
 #
 include
 "

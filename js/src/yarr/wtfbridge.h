@@ -1,9 +1,9 @@
 #
 ifndef
-jswtfbridge_h__
+yarr_wtfbridge_h
 #
 define
-jswtfbridge_h__
+yarr_wtfbridge_h
 #
 include
 <

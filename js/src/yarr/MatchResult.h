@@ -1,9 +1,9 @@
 #
 ifndef
-MatchResult_h
+yarr_MatchResult_h
 #
 define
-MatchResult_h
+yarr_MatchResult_h
 #
 include
 "

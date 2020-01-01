@@ -1,9 +1,9 @@
 #
 ifndef
-VMTags_h
+yarr_VMTags_h
 #
 define
-VMTags_h
+yarr_VMTags_h
 #
 if
 WTF_OS_DARWIN

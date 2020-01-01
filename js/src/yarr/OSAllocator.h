@@ -1,9 +1,9 @@
 #
 ifndef
-OSAllocator_h
+yarr_OSAllocator_h
 #
 define
-OSAllocator_h
+yarr_OSAllocator_h
 #
 include
 <

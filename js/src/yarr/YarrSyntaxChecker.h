@@ -1,9 +1,9 @@
 #
 ifndef
-YarrSyntaxChecker_h
+yarr_YarrSyntaxChecker_h
 #
 define
-YarrSyntaxChecker_h
+yarr_YarrSyntaxChecker_h
 #
 include
 "

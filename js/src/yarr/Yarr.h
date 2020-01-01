@@ -1,9 +1,9 @@
 #
 ifndef
-Yarr_h
+yarr_Yarr_h
 #
 define
-Yarr_h
+yarr_Yarr_h
 #
 include
 <

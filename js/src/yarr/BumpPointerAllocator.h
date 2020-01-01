@@ -1,9 +1,9 @@
 #
 ifndef
-BumpPointerAllocator_h
+yarr_BumpPointerAllocator_h
 #
 define
-BumpPointerAllocator_h
+yarr_BumpPointerAllocator_h
 #
 include
 "
