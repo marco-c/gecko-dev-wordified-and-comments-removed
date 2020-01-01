@@ -7488,7 +7488,7 @@ patch
 =
 _nIns
 ;
-SLT
+SLTU
 (
 AT
 rb
