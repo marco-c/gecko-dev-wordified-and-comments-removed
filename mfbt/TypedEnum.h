@@ -17,6 +17,12 @@ h
 if
 defined
 (
+__cplusplus
+)
+#
+if
+defined
+(
 __clang__
 )
 #
@@ -1255,6 +1261,8 @@ Enum
 )
 MOZ_DELETE
 ;
+#
+endif
 #
 endif
 #

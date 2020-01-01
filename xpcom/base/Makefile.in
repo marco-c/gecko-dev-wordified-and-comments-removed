@@ -241,6 +241,16 @@ nsMacUtilsImpl
 .
 cpp
 endif
+CSRCS
+=
+\
+nsErrorAssertsC
+.
+c
+\
+(
+NULL
+)
 EXPORTS
 =
 \
