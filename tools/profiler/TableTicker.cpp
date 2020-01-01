@@ -3938,7 +3938,7 @@ GetStack
 (
 )
 ;
-int
+uint32_t
 pseudoStackPos
 =
 0
