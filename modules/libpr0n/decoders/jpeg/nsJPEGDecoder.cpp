@@ -2308,6 +2308,15 @@ output_width
 ;
 }
 else
+if
+(
+gfxPlatform
+:
+:
+IsCMSEnabled
+(
+)
+)
 {
 cmsHTRANSFORM
 transform
