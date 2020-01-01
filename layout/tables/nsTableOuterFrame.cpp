@@ -1958,7 +1958,9 @@ height
 containRS
 -
 >
-mComputedHeight
+ComputedHeight
+(
+)
 ;
 if
 (

@@ -7809,7 +7809,9 @@ NS_UNCONSTRAINEDSIZE
 =
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 |
 |
 0
@@ -7817,7 +7819,9 @@ mComputedHeight
 =
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 )
 &
 &
@@ -8132,7 +8136,9 @@ if
 (
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 !
 =
 NS_UNCONSTRAINEDSIZE
@@ -14418,7 +14424,9 @@ pctBasis
 =
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 -
 (
 GetCellSpacingY
@@ -16141,7 +16149,9 @@ height
 =
 aState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 ;
 if
 (

@@ -676,7 +676,9 @@ ComputedWidth
 )
 aRS
 .
-mComputedHeight
+ComputedHeight
+(
+)
 )
 ;
 outerReflowState
@@ -712,7 +714,9 @@ ComputedWidth
 outerReflowState
 -
 >
-mComputedHeight
+ComputedHeight
+(
+)
 )
 ;
 nsHTMLReflowState

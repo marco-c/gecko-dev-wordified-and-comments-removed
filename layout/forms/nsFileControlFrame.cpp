@@ -1694,11 +1694,12 @@ txtAvailSize
 ;
 txtKidReflowState
 .
-mComputedHeight
-=
+SetComputedHeight
+(
 aDesiredSize
 .
 height
+)
 ;
 rv
 =

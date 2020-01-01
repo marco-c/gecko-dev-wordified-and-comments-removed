@@ -429,7 +429,9 @@ height
 =
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 ;
 mBorderPadding
 =

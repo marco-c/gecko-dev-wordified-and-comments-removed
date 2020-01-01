@@ -737,7 +737,9 @@ ComputedWidth
 &
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 >
 =
 0
@@ -953,7 +955,9 @@ CH
 "
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 )
 ;
 printf
@@ -990,7 +994,9 @@ ComputedWidth
 )
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 )
 ;
 nsMargin
@@ -1006,7 +1012,9 @@ if
 (
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 =
 =
 0
@@ -1134,7 +1142,9 @@ if
 (
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 =
 =
 NS_INTRINSICSIZE

@@ -2586,7 +2586,9 @@ height
 =
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 ;
 nsIAtom
 *

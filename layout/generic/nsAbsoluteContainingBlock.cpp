@@ -1443,7 +1443,9 @@ PrettyUC
 (
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 height
 )
 ;

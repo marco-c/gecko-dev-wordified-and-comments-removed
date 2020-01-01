@@ -722,7 +722,9 @@ if
 (
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 !
 =
 NS_INTRINSICSIZE
@@ -732,7 +734,9 @@ colHeight
 =
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 ;
 }
 nscoord
@@ -983,7 +987,9 @@ if
 (
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 =
 =
 NS_INTRINSICSIZE
@@ -2035,7 +2041,9 @@ availSize
 width
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 )
 ;
 kidReflowState
@@ -2813,7 +2821,9 @@ if
 (
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 !
 =
 NS_INTRINSICSIZE
@@ -2825,7 +2835,9 @@ height
 =
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 ;
 }
 else

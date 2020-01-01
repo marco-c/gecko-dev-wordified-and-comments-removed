@@ -4077,7 +4077,9 @@ if
 aLastRS
 -
 >
-mComputedHeight
+ComputedHeight
+(
+)
 !
 =
 NS_UNCONSTRAINEDSIZE
@@ -4093,7 +4095,9 @@ PR_MAX
 aLastRS
 -
 >
-mComputedHeight
+ComputedHeight
+(
+)
 +
 aLastRS
 -
@@ -4208,7 +4212,9 @@ ComputedWidth
 )
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 )
 ;
 }
@@ -5365,7 +5371,9 @@ NS_UNCONSTRAINEDSIZE
 =
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 )
 &
 &
@@ -5967,7 +5975,9 @@ NS_UNCONSTRAINEDSIZE
 =
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 )
 {
 nscoord
@@ -5975,7 +5985,9 @@ computedHeightLeftOver
 =
 aReflowState
 .
-mComputedHeight
+ComputedHeight
+(
+)
 ;
 if
 (
