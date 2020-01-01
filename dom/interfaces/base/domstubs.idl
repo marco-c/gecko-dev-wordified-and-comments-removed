@@ -486,12 +486,6 @@ interface
 nsIDOMElement
 ;
 interface
-nsIDOMEntity
-;
-interface
-nsIDOMEntityReference
-;
-interface
 nsIDOMNSElement
 ;
 interface

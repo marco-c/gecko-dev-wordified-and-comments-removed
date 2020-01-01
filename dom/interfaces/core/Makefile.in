@@ -464,14 +464,6 @@ nsIDOMElement
 .
 idl
 \
-nsIDOMEntity
-.
-idl
-\
-nsIDOMEntityReference
-.
-idl
-\
 nsIDOMNamedNodeMap
 .
 idl
