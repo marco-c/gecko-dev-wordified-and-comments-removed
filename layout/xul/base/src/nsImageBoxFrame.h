@@ -103,6 +103,16 @@ nsLeafBoxFrame
 {
 public
 :
+typedef
+mozilla
+:
+:
+layers
+:
+:
+LayerManager
+LayerManager
+;
 friend
 class
 nsDisplayXULImage
@@ -302,6 +312,9 @@ ImageContainer
 >
 GetContainer
 (
+LayerManager
+*
+aManager
 )
 ;
 protected
@@ -458,6 +471,9 @@ ImageContainer
 >
 GetContainer
 (
+LayerManager
+*
+aManager
 nsDisplayListBuilder
 *
 aBuilder

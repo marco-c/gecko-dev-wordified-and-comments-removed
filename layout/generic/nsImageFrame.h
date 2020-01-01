@@ -1218,6 +1218,9 @@ ImageContainer
 >
 GetContainer
 (
+LayerManager
+*
+aManager
 nsDisplayListBuilder
 *
 aBuilder

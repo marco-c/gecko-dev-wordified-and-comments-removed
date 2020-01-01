@@ -9927,6 +9927,9 @@ nsDisplayBackgroundImage
 :
 TryOptimizeToImageLayer
 (
+LayerManager
+*
+aManager
 nsDisplayListBuilder
 *
 aBuilder
@@ -10047,6 +10050,7 @@ imageRenderer
 >
 GetContainer
 (
+aManager
 )
 ;
 if
@@ -10138,6 +10142,9 @@ nsDisplayBackgroundImage
 :
 GetContainer
 (
+LayerManager
+*
+aManager
 nsDisplayListBuilder
 *
 aBuilder
@@ -10148,6 +10155,7 @@ if
 !
 TryOptimizeToImageLayer
 (
+aManager
 aBuilder
 )
 )
@@ -10216,6 +10224,7 @@ GPUImageScalingEnabled
 !
 TryOptimizeToImageLayer
 (
+aManager
 aBuilder
 )
 )
@@ -10325,7 +10334,7 @@ height
 )
 {
 return
-LAYER_INACTIVE
+LAYER_NONE
 ;
 }
 if
@@ -10344,7 +10353,7 @@ height
 )
 {
 return
-LAYER_INACTIVE
+LAYER_NONE
 ;
 }
 return

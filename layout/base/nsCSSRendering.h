@@ -63,6 +63,16 @@ mozilla
 layers
 :
 :
+LayerManager
+LayerManager
+;
+typedef
+mozilla
+:
+:
+layers
+:
+:
 ImageContainer
 ImageContainer
 ;
@@ -150,6 +160,9 @@ ImageContainer
 >
 GetContainer
 (
+LayerManager
+*
+aManager
 )
 ;
 private

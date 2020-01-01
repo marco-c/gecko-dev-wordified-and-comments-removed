@@ -6380,6 +6380,12 @@ mImage
 >
 GetContainer
 (
+mLayer
+-
+>
+Manager
+(
+)
 aBuilder
 )
 ;

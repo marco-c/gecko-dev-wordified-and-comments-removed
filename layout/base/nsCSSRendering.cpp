@@ -21859,6 +21859,9 @@ nsImageRenderer
 :
 GetContainer
 (
+LayerManager
+*
+aManager
 )
 {
 if
@@ -21919,6 +21922,7 @@ img
 >
 GetImageContainer
 (
+aManager
 getter_AddRefs
 (
 container

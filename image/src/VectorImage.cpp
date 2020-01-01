@@ -124,6 +124,10 @@ using
 namespace
 dom
 ;
+using
+namespace
+layers
+;
 namespace
 image
 {
@@ -1337,6 +1341,9 @@ VectorImage
 :
 GetImageContainer
 (
+LayerManager
+*
+aManager
 mozilla
 :
 :

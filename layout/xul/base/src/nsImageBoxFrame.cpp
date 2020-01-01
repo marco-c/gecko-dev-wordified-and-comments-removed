@@ -1752,6 +1752,9 @@ nsDisplayXULImage
 :
 GetContainer
 (
+LayerManager
+*
+aManager
 nsDisplayListBuilder
 *
 aBuilder
@@ -1770,6 +1773,7 @@ mFrame
 >
 GetContainer
 (
+aManager
 )
 ;
 }
@@ -1782,6 +1786,9 @@ nsImageBoxFrame
 :
 GetContainer
 (
+LayerManager
+*
+aManager
 )
 {
 bool
@@ -1860,6 +1867,7 @@ imgCon
 >
 GetImageContainer
 (
+aManager
 getter_AddRefs
 (
 container
