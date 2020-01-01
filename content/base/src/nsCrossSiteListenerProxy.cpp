@@ -1021,16 +1021,6 @@ Equals
 (
 origin
 )
-|
-|
-origin
-.
-EqualsLiteral
-(
-"
-null
-"
-)
 )
 {
 return
