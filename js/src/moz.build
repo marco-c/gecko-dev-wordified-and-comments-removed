@@ -607,6 +607,11 @@ ArgumentsObject
 cpp
 '
 '
+BinaryData
+.
+cpp
+'
+'
 BytecodeCompiler
 .
 cpp
