@@ -411,6 +411,9 @@ insertmacro
 GetLongPath
 !
 insertmacro
+GetPathFromString
+!
+insertmacro
 GetSingleInstallPath
 !
 insertmacro
