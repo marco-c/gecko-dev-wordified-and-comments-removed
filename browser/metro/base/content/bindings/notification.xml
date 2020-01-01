@@ -493,6 +493,12 @@ AlertClose
 '
 )
 ;
+event
+.
+notification
+=
+aItem
+;
 this
 .
 dispatchEvent
