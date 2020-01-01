@@ -2164,7 +2164,7 @@ structuredCloneCallbacks
 JSAccumulateTelemetryDataCallback
 telemetryCallback
 ;
-uint32_t
+int32_t
 propertyRemovals
 ;
 const
