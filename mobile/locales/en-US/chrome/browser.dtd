@@ -1012,15 +1012,3 @@ label
 Done
 "
 >
-<
-!
-ENTITY
-selectListDisplay
-.
-format
-"
-#
-1
-Items
-"
->

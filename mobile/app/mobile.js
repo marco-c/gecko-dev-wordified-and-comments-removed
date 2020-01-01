@@ -130,6 +130,16 @@ endif
 pref
 (
 "
+ui
+.
+use_native_popup_windows
+"
+true
+)
+;
+pref
+(
+"
 javascript
 .
 options
