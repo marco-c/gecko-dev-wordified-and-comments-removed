@@ -261,7 +261,7 @@ run_test
 (
 )
 {
-do_load_module
+do_load_manifest
 (
 "
 .
@@ -271,7 +271,7 @@ unit
 /
 nsDynamicContainerServiceSample
 .
-js
+manifest
 "
 )
 ;

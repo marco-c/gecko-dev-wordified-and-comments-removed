@@ -52,7 +52,7 @@ scope
 .
 XPCOMUtils
 .
-generateModule
+generateNSGetFactory
 )
 "
 function
@@ -127,7 +127,7 @@ module
 .
 XPCOMUtils
 .
-generateModule
+generateNSGetFactory
 )
 "
 function
@@ -199,7 +199,7 @@ typeof
 (
 XPCOMUtils
 .
-generateModule
+generateNSGetFactory
 )
 "
 function
@@ -255,7 +255,7 @@ scope2
 .
 XPCOMUtils
 .
-generateModule
+generateNSGetFactory
 )
 "
 function
@@ -409,7 +409,7 @@ scope3
 .
 XPCOMUtils
 .
-generateModule
+generateNSGetFactory
 )
 "
 function
@@ -488,12 +488,12 @@ do_check_true
 didThrow
 )
 ;
-do_load_module
+do_load_manifest
 (
 "
 component_import
 .
-js
+manifest
 "
 )
 ;

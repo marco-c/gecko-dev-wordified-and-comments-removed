@@ -38,12 +38,12 @@ C_i
 .
 nsIDOMEventTarget
 ;
-do_load_module
+do_load_manifest
 (
 "
 xtfComponent
 .
-js
+manifest
 "
 )
 ;
