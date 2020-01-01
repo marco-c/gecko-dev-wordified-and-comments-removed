@@ -403,8 +403,11 @@ ScratchReg
 ;
 cmpl
 (
-tag
+Operand
+(
 ScratchReg
+)
+tag
 )
 ;
 }
