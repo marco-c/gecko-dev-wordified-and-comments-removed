@@ -666,6 +666,11 @@ true
 ;
 }
 }
+if
+(
+msg
+)
+{
 let
 log
 =
@@ -697,6 +702,7 @@ code
 code
 )
 ;
+}
 return
 false
 ;

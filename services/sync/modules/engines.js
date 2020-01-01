@@ -2391,7 +2391,7 @@ server
 formatVersion
 !
 =
-STORAGE_FORMAT_VERSION
+ENGINE_STORAGE_FORMAT_VERSION
 |
 |
 this
@@ -2532,7 +2532,7 @@ _snapshot
 GUID
 formatVersion
 :
-STORAGE_FORMAT_VERSION
+ENGINE_STORAGE_FORMAT_VERSION
 snapVersion
 :
 server
@@ -2812,7 +2812,7 @@ status
 .
 formatVersion
 >
-STORAGE_FORMAT_VERSION
+ENGINE_STORAGE_FORMAT_VERSION
 )
 {
 this
@@ -2842,7 +2842,7 @@ to
 v
 "
 +
-STORAGE_FORMAT_VERSION
+ENGINE_STORAGE_FORMAT_VERSION
 )
 ;
 break
@@ -3794,7 +3794,7 @@ ret
 .
 formatVersion
 =
-STORAGE_FORMAT_VERSION
+ENGINE_STORAGE_FORMAT_VERSION
 ;
 ret
 .
@@ -4212,7 +4212,7 @@ _snapshot
 GUID
 formatVersion
 :
-STORAGE_FORMAT_VERSION
+ENGINE_STORAGE_FORMAT_VERSION
 snapVersion
 :
 this
