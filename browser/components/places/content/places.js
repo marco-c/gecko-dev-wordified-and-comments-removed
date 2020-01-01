@@ -4556,6 +4556,14 @@ case
 bookmarks
 "
 :
+currentOptions
+.
+resultType
+=
+currentOptions
+.
+RESULT_TYPE_URI
+;
 content
 .
 applyFilter
