@@ -89,6 +89,10 @@ test_settings_events
 .
 html
 \
+test_settings_onsettingchange
+.
+html
+\
 (
 NULL
 )
