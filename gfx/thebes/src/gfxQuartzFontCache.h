@@ -115,6 +115,9 @@ class
 gfxQuartzFontCache
 ;
 class
+FontEntryStandardFaceComparator
+;
+class
 MacOSFontEntry
 :
 public
@@ -125,6 +128,10 @@ public
 friend
 class
 gfxQuartzFontCache
+;
+friend
+class
+FontEntryStandardFaceComparator
 ;
 MacOSFontEntry
 (
@@ -139,6 +146,10 @@ aTraits
 MacOSFamilyEntry
 *
 aFamily
+PRBool
+aIsStandardFace
+=
+PR_FALSE
 )
 ;
 const
@@ -200,6 +211,9 @@ mATSUFontID
 ;
 PRPackedBool
 mATSUIDInitialized
+;
+PRPackedBool
+mStandardFace
 ;
 }
 ;
@@ -417,6 +431,11 @@ mIsBadUnderlineFont
 aIsBadUnderlineFont
 ;
 }
+void
+SortAvailableFonts
+(
+)
+;
 protected
 :
 PRBool
