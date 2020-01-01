@@ -648,6 +648,9 @@ case
 NS_FORM_INPUT_CHECKBOX
 :
 case
+NS_FORM_INPUT_COLOR
+:
+case
 NS_FORM_INPUT_EMAIL
 :
 case
