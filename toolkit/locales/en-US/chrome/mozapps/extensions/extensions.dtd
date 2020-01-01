@@ -3,7 +3,7 @@
 ENTITY
 addons
 .
-title
+windowTitle
 "
 Add
 -
@@ -436,7 +436,7 @@ A
 ENTITY
 cmd
 .
-enable
+enableAddon
 .
 label
 "
@@ -448,7 +448,7 @@ Enable
 ENTITY
 cmd
 .
-enable
+enableAddon
 .
 accesskey
 "
@@ -460,7 +460,7 @@ E
 ENTITY
 cmd
 .
-enable
+enableAddon
 .
 tooltip
 "
@@ -476,7 +476,7 @@ on
 ENTITY
 cmd
 .
-disable
+disableAddon
 .
 label
 "
@@ -488,7 +488,7 @@ Disable
 ENTITY
 cmd
 .
-disable
+disableAddon
 .
 accesskey
 "
@@ -500,7 +500,7 @@ D
 ENTITY
 cmd
 .
-disable
+disableAddon
 .
 tooltip
 "
@@ -516,7 +516,7 @@ on
 ENTITY
 cmd
 .
-uninstall
+uninstallAddon
 .
 label
 "
@@ -528,7 +528,7 @@ Remove
 ENTITY
 cmd
 .
-uninstall
+uninstallAddon
 .
 accesskey
 "
@@ -540,7 +540,7 @@ R
 ENTITY
 cmd
 .
-uninstall
+uninstallAddon
 .
 tooltip
 "
