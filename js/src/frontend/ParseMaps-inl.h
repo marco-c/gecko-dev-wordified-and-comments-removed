@@ -165,7 +165,7 @@ map
 ;
 }
 inline
-JSDefinition
+Definition
 *
 AtomDecls
 :
@@ -278,7 +278,7 @@ return
 MultiDeclRange
 (
 (
-JSDefinition
+Definition
 *
 )
 NULL
@@ -333,7 +333,7 @@ addUnique
 JSAtom
 *
 atom
-JSDefinition
+Definition
 *
 defn
 )

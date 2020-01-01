@@ -1169,7 +1169,10 @@ NewScriptFromCG
 JSContext
 *
 cx
-JSCodeGenerator
+js
+:
+:
+CodeGenerator
 *
 cg
 )

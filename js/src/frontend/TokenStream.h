@@ -1614,7 +1614,7 @@ TSF_OCTAL_CHAR
 bool
 reportCompileErrorNumberVA
 (
-JSParseNode
+ParseNode
 *
 pn
 uintN
@@ -2853,7 +2853,7 @@ cx
 TokenStream
 *
 ts
-JSParseNode
+ParseNode
 *
 pn
 uintN
@@ -2874,10 +2874,10 @@ cx
 TokenStream
 *
 ts
-JSTreeContext
+TreeContext
 *
 tc
-JSParseNode
+ParseNode
 *
 pn
 uintN

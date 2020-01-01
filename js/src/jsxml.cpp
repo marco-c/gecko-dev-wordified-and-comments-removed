@@ -5695,7 +5695,7 @@ ParseNodeToQName
 Parser
 *
 parser
-JSParseNode
+ParseNode
 *
 pn
 JSXMLArray
@@ -6398,7 +6398,7 @@ ParseNodeToXML
 Parser
 *
 parser
-JSParseNode
+ParseNode
 *
 pn
 JSXMLArray
@@ -6437,7 +6437,7 @@ n
 i
 j
 ;
-JSParseNode
+ParseNode
 *
 pn2
 *
@@ -8903,7 +8903,7 @@ return
 false
 ;
 }
-JSParseNode
+ParseNode
 *
 pn
 =

@@ -30,7 +30,7 @@ JS_STATIC_ASSERT
 (
 sizeof
 (
-JSDefinition
+Definition
 *
 )
 =
@@ -45,7 +45,7 @@ JS_STATIC_ASSERT
 (
 sizeof
 (
-JSDefinition
+Definition
 *
 )
 =
@@ -616,7 +616,7 @@ AtomDecls
 :
 allocNode
 (
-JSDefinition
+Definition
 *
 defn
 )
@@ -668,7 +668,7 @@ addShadow
 JSAtom
 *
 atom
-JSDefinition
+Definition
 *
 defn
 )
@@ -892,7 +892,7 @@ addHoist
 JSAtom
 *
 atom
-JSDefinition
+Definition
 *
 defn
 )

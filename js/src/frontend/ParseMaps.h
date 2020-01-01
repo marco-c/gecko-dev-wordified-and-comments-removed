@@ -34,6 +34,9 @@ h
 namespace
 js
 {
+struct
+Definition
+;
 class
 ParseMapPool
 {
@@ -489,7 +492,7 @@ AtomDefnMap
 >
 {
 JS_ALWAYS_INLINE
-JSDefinition
+Definition
 *
 lookupDefn
 (
@@ -604,7 +607,7 @@ OwnedAtomIndexMapPtr
 struct
 AtomDeclNode
 {
-JSDefinition
+Definition
 *
 defn
 ;
@@ -615,7 +618,7 @@ next
 explicit
 AtomDeclNode
 (
-JSDefinition
+Definition
 *
 defn
 )
@@ -637,7 +640,7 @@ DefnOrHeader
 {
 union
 {
-JSDefinition
+Definition
 *
 defn
 ;
@@ -667,7 +670,7 @@ bits
 explicit
 DefnOrHeader
 (
-JSDefinition
+Definition
 *
 defn
 )
@@ -730,7 +733,7 @@ bits
 0x1
 ;
 }
-JSDefinition
+Definition
 *
 defn
 (
@@ -851,7 +854,7 @@ AtomDeclNode
 *
 allocNode
 (
-JSDefinition
+Definition
 *
 defn
 )
@@ -909,7 +912,7 @@ clear
 ;
 }
 inline
-JSDefinition
+Definition
 *
 lookupFirst
 (
@@ -934,7 +937,7 @@ addUnique
 JSAtom
 *
 atom
-JSDefinition
+Definition
 *
 defn
 )
@@ -945,7 +948,7 @@ addShadow
 JSAtom
 *
 atom
-JSDefinition
+Definition
 *
 defn
 )
@@ -956,7 +959,7 @@ addHoist
 JSAtom
 *
 atom
-JSDefinition
+Definition
 *
 defn
 )
@@ -967,7 +970,7 @@ updateFirst
 JSAtom
 *
 atom
-JSDefinition
+Definition
 *
 defn
 )
@@ -1190,14 +1193,14 @@ AtomDeclNode
 *
 node
 ;
-JSDefinition
+Definition
 *
 defn
 ;
 explicit
 MultiDeclRange
 (
-JSDefinition
+Definition
 *
 defn
 )
@@ -1280,7 +1283,7 @@ defn
 NULL
 ;
 }
-JSDefinition
+Definition
 *
 front
 (
@@ -1357,7 +1360,7 @@ NULL
 )
 {
 }
-JSDefinition
+Definition
 *
 operator
 (
@@ -1381,7 +1384,7 @@ link
 next
 )
 ;
-JSDefinition
+Definition
 *
 result
 =

@@ -1937,11 +1937,11 @@ SN_DELTA
 sn
 )
 ;
-JSSrcNoteType
+SrcNoteType
 type
 =
 (
-JSSrcNoteType
+SrcNoteType
 )
 SN_TYPE
 (
