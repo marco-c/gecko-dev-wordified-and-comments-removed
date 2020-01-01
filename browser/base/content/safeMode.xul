@@ -820,13 +820,13 @@ checkbox
 id
 =
 "
-resetBookmarks
+deleteBookmarks
 "
 label
 =
 "
 &
-resetBookmarks
+deleteBookmarks
 .
 label
 ;
@@ -835,7 +835,7 @@ accesskey
 =
 "
 &
-resetBookmarks
+deleteBookmarks
 .
 accesskey
 ;
