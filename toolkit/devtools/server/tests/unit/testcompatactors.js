@@ -195,7 +195,7 @@ aRequest
 return
 this
 .
-_discoverScriptsAndSources
+_discoverSources
 (
 )
 .
