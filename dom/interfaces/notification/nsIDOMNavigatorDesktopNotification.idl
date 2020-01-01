@@ -63,9 +63,6 @@ domstubs
 .
 idl
 "
-interface
-nsIDOMDesktopNotificationCenter
-;
 /
 *
 *
@@ -99,9 +96,14 @@ nsIDOMNavigatorDesktopNotification
 :
 nsISupports
 {
+/
+*
+DesktopNotificationCenter
+*
+/
 readonly
 attribute
-nsIDOMDesktopNotificationCenter
+nsISupports
 mozNotification
 ;
 }

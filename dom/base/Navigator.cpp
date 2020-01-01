@@ -4851,7 +4851,7 @@ Navigator
 :
 GetMozNotification
 (
-nsIDOMDesktopNotificationCenter
+nsISupports
 *
 *
 aRetVal

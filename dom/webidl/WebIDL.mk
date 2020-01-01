@@ -211,6 +211,10 @@ DelayNode
 .
 webidl
 \
+DesktopNotification
+.
+webidl
+\
 Document
 .
 webidl
