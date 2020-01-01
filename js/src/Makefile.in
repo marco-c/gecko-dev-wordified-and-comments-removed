@@ -1903,7 +1903,7 @@ LinearScan
 .
 cpp
 \
-MoveGroup
+MoveGroupResolver
 .
 cpp
 \
@@ -1934,6 +1934,16 @@ CPPSRCS
 +
 =
 CodeGenerator
+-
+x86
+-
+shared
+.
+cpp
+CPPSRCS
++
+=
+MoveResolver
 -
 x86
 -
