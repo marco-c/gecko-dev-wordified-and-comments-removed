@@ -694,10 +694,10 @@ dp
 >
 val
 .
-f
+d
 =
 (
-float
+double
 )
 fprData
 [
