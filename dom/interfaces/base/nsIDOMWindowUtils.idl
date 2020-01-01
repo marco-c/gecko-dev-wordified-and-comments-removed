@@ -1486,6 +1486,14 @@ attribute
 boolean
 isFirstPaint
 ;
+void
+getPresShellId
+(
+out
+uint32_t
+aPresShellId
+)
+;
 /
 *
 *

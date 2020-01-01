@@ -4324,6 +4324,17 @@ mCompositionBounds
 )
 ;
 }
+metrics
+.
+mPresShellId
+=
+presShell
+-
+>
+GetPresShellId
+(
+)
+;
 aRoot
 -
 >

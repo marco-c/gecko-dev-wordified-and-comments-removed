@@ -2623,6 +2623,15 @@ return
 mIsFirstPaint
 ;
 }
+uint32_t
+GetPresShellId
+(
+)
+{
+return
+mPresShellId
+;
+}
 virtual
 void
 SynthesizeMouseMove
@@ -3323,6 +3332,9 @@ bool
 mScrollPositionClampingScrollPortSizeSet
 :
 1
+;
+uint32_t
+mPresShellId
 ;
 nsAutoTArray
 <
