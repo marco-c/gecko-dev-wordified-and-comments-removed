@@ -194,7 +194,7 @@ textAppearanceMedium
 style
 =
 "
-GeckoList
+Widget
 .
 ListItem
 "
@@ -264,7 +264,7 @@ textAppearanceSmall
 style
 =
 "
-GeckoList
+Widget
 .
 ListItem
 "

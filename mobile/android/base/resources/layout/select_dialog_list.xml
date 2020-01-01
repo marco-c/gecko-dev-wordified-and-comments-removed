@@ -96,7 +96,7 @@ enabled
 -
 >
 <
-view
+ListView
 xmlns
 :
 android
@@ -117,15 +117,6 @@ apk
 res
 /
 android
-"
-class
-=
-"
-android
-.
-widget
-.
-ListView
 "
 android
 :
