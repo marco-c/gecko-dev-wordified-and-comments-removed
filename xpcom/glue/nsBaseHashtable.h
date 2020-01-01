@@ -534,6 +534,7 @@ userArg
 =
 nsnull
 )
+const
 {
 if
 (
