@@ -8242,6 +8242,18 @@ buildTestList
 )
         
 if
+self
+.
+singleFile
+:
+            
+self
+.
+sequential
+=
+True
+        
+if
 shuffle
 :
             
@@ -8610,6 +8622,8 @@ test
 )
         
 if
+self
+.
 sequential
 :
             
