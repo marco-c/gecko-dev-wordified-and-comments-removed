@@ -1743,6 +1743,10 @@ InlineReturn
 f
 )
 ;
+if
+(
+ok
+)
 f
 .
 script

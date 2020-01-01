@@ -4760,6 +4760,11 @@ fp
 )
 )
 ;
+if
+(
+ok
+)
+{
 fp
 -
 >
@@ -4767,6 +4772,7 @@ markReturnValue
 (
 )
 ;
+}
 fp
 -
 >
