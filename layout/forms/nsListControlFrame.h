@@ -479,9 +479,6 @@ OnContentReset
 NS_IMETHOD
 AddOption
 (
-nsPresContext
-*
-aPresContext
 PRInt32
 index
 )
@@ -489,9 +486,6 @@ index
 NS_IMETHOD
 RemoveOption
 (
-nsPresContext
-*
-aPresContext
 PRInt32
 index
 )
@@ -516,9 +510,6 @@ aIsDone
 NS_IMETHOD
 OnOptionSelected
 (
-nsPresContext
-*
-aPresContext
 PRInt32
 aIndex
 PRBool
