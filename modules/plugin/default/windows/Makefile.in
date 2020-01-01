@@ -478,11 +478,6 @@ I
 (
 srcdir
 )
-DEFINES
-+
-=
--
-DXPCOM_GLUE
 #
 plugins
 should

@@ -1,13 +1,6 @@
 #
 include
 "
-jscntxt
-.
-h
-"
-#
-include
-"
 nsDOMThreadService
 .
 h
@@ -135,6 +128,13 @@ h
 include
 "
 nsPIDOMWindow
+.
+h
+"
+#
+include
+"
+jscntxt
 .
 h
 "

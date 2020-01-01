@@ -607,12 +607,6 @@ jemalloc
 .
 obj
 endif
-EXTRA_DSO_LDOPTS
-+
-=
-(
-MOZALLOC_LIB
-)
 DEFFILE
 =
 mozce_shunt

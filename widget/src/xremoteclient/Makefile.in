@@ -457,11 +457,6 @@ xremote_client_s
 FORCE_STATIC_LIB
 =
 1
-DEFINES
-+
-=
--
-DXPCOM_GLUE
 ifdef
 MOZ_ENABLE_PHOTON
 CPPSRCS

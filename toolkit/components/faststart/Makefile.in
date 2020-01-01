@@ -417,11 +417,6 @@ config
 autoconf
 .
 mk
-DEFINES
-+
-=
--
-DMOZ_NO_MOZALLOC
 EXTRA_PP_COMPONENTS
 =
 \
