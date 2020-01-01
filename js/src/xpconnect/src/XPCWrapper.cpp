@@ -491,9 +491,11 @@ if
 JS_GetPropertyById
 (
 cx
-STOBJ_GET_PARENT
-(
 obj
+-
+>
+getParent
+(
 )
 id
 &

@@ -9189,10 +9189,11 @@ sp
 =
 OBJECT_TO_JSVAL
 (
-OBJ_GET_PARENT
-(
-cx
 lambda
+-
+>
+getParent
+(
 )
 )
 ;

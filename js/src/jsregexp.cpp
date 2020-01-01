@@ -28684,9 +28684,11 @@ obj
 return
 JS_FALSE
 ;
-STOBJ_CLEAR_PARENT
-(
 obj
+-
+>
+clearParent
+(
 )
 ;
 obj

@@ -445,10 +445,11 @@ CloneFunctionObject
 (
 cx
 fun
-OBJ_GET_PARENT
-(
-cx
 funobj
+-
+>
+getParent
+(
 )
 )
 ;

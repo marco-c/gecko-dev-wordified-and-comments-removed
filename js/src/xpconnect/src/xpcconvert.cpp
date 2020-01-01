@@ -2124,9 +2124,11 @@ jsobj
 &
 &
 !
-STOBJ_GET_PARENT
-(
 jsobj
+-
+>
+getParent
+(
 )
 )
 NS_ASSERTION
@@ -9362,7 +9364,11 @@ if
 (
 capacity
 >
-PR_UINT32_MAX
+~
+(
+size_t
+)
+0
 /
 sizeof
 (
