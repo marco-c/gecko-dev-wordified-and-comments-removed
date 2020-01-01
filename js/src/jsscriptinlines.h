@@ -223,9 +223,6 @@ opt
 CALLED_FROM_JSOP_EVAL
 )
 {
-AutoAssertNoGC
-nogc
-;
 JSScript
 *
 script

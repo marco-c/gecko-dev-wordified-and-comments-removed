@@ -3561,9 +3561,6 @@ true
 }
 }
 {
-AutoAssertNoGC
-nogc
-;
 RawObject
 pobj
 =

@@ -2418,9 +2418,6 @@ MaybeRegisterID
 dataReg
 )
 {
-AutoAssertNoGC
-nogc
-;
 masm
 .
 loadPtr
@@ -4676,9 +4673,6 @@ uint32_t
 flags
 )
 {
-AutoAssertNoGC
-nogc
-;
 Assembler
 masm
 ;
@@ -5681,9 +5675,6 @@ JSObject
 obj
 )
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 ic
@@ -7035,9 +7026,6 @@ HandleFunction
 fun
 )
 {
-AutoAssertNoGC
-nogc
-;
 Assembler
 masm
 ;
@@ -7428,9 +7416,6 @@ disable
 #
 ifdef
 JS_ION
-AutoAssertNoGC
-nogc
-;
 if
 (
 !
@@ -8418,9 +8403,6 @@ VMFrame
 f
 )
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 f

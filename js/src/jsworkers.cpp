@@ -323,9 +323,6 @@ JSScript
 script
 )
 {
-AutoAssertNoGC
-nogc
-;
 if
 (
 !

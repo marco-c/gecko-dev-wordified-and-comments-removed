@@ -9220,9 +9220,6 @@ bool
 invalidateAll
 )
 {
-AutoAssertNoGC
-nogc
-;
 IonSpew
 (
 IonSpew_Invalidate
@@ -9972,9 +9969,6 @@ bool
 resetUses
 )
 {
-AutoAssertNoGC
-nogc
-;
 IonSpew
 (
 IonSpew_Invalidate
@@ -10397,9 +10391,6 @@ bool
 resetUses
 )
 {
-AutoAssertNoGC
-nogc
-;
 ion
 :
 :
@@ -10443,9 +10434,6 @@ bool
 resetUses
 )
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 script

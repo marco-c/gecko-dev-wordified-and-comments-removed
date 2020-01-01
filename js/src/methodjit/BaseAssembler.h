@@ -526,9 +526,6 @@ pc
 NULL
 )
 {
-AutoAssertNoGC
-nogc
-;
 startLabel
 =
 label
@@ -6713,9 +6710,6 @@ JSObject
 templateObject
 )
 {
-AutoAssertNoGC
-nogc
-;
 gc
 :
 :

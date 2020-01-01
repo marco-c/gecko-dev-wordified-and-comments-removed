@@ -6377,9 +6377,6 @@ JSTRAP_ERROR
 ifdef
 DEBUG
 {
-AutoAssertNoGC
-nogc
-;
 uint32_t
 stepperCount
 =
@@ -19820,9 +19817,6 @@ args
 thisobj
 iter
 )
-;
-AutoAssertNoGC
-nogc
 ;
 RawScript
 script
