@@ -537,6 +537,10 @@ slow
 .
 sjs
 \
+test_bug563322
+.
+xhtml
+\
 test_bug594730
 .
 html
