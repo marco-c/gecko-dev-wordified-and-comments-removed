@@ -1938,7 +1938,7 @@ OS_ARCH
 )
 )
 )
-LDFLAGS
+EXTRA_LIBS
 +
 =
 -
@@ -2004,7 +2004,7 @@ OS_ARCH
 )
 FreeBSD
 )
-LDFLAGS
+EXTRA_LIBS
 +
 =
 -
@@ -2033,7 +2033,7 @@ OS_ARCH
 )
 Linux
 )
-LDFLAGS
+EXTRA_LIBS
 +
 =
 -
@@ -2046,7 +2046,7 @@ OS_ARCH
 )
 OSF1
 )
-LDFLAGS
+EXTRA_LIBS
 +
 =
 -
@@ -2159,7 +2159,7 @@ OS_RELEASE
 .
 1
 )
-LDFLAGS
+EXTRA_LIBS
 +
 =
 -
@@ -2167,7 +2167,7 @@ ldl
 -
 lnsl
 else
-LDFLAGS
+EXTRA_LIBS
 +
 =
 -
