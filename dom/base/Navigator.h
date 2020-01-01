@@ -117,6 +117,9 @@ h
 class
 nsIDOMTelephony
 ;
+class
+nsIDOMMozVoicemail
+;
 #
 endif
 #
@@ -393,6 +396,12 @@ nsCOMPtr
 nsIDOMTelephony
 >
 mTelephony
+;
+nsCOMPtr
+<
+nsIDOMMozVoicemail
+>
+mVoicemail
 ;
 #
 endif
