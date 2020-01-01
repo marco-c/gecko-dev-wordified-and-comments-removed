@@ -1360,11 +1360,15 @@ GeckoApp
 .
 mAppContext
 .
-getLayerClient
+getLayerView
 (
 )
 .
-getViewportSize
+getViewportMetrics
+(
+)
+.
+getSize
 (
 )
 ;

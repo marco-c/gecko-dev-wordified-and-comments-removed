@@ -805,7 +805,6 @@ viewSizeChanged
 ;
 }
 }
-public
 PanZoomController
 getPanZoomController
 (
