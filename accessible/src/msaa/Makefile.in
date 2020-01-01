@@ -475,10 +475,6 @@ nsHTMLTableAccessibleWrap
 .
 cpp
 \
-nsAccessibleRelationWrap
-.
-cpp
-\
 nsApplicationAccessibleWrap
 .
 cpp
@@ -512,6 +508,10 @@ CAccessibleHyperlink
 cpp
 \
 CAccessibleHypertext
+.
+cpp
+\
+ia2AccessibleRelation
 .
 cpp
 \
@@ -582,10 +582,6 @@ nsHTMLImageAccessibleWrap
 h
 \
 nsHTMLTableAccessibleWrap
-.
-h
-\
-nsAccessibleRelationWrap
 .
 h
 \
