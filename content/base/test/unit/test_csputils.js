@@ -6073,6 +6073,7 @@ refinePolicy
 (
 firstPolicy
 selfURI
+false
 )
 ;
 do_check_true
@@ -6193,6 +6194,7 @@ refinePolicy
 (
 secondPolicy
 selfURI
+false
 )
 ;
 do_check_true
