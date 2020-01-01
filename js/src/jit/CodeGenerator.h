@@ -2399,9 +2399,10 @@ const
 Register
 &
 scopeChainReg
-JSFunction
-*
-fun
+const
+LambdaFunctionInfo
+&
+info
 )
 ;
 IonScriptCounts
