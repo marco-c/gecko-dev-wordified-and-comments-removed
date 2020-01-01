@@ -608,7 +608,9 @@ mozilla
 .
 org
 /
-geolocation
+content
+-
+permission
 /
 prompt
 ;

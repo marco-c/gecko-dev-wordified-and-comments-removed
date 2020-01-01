@@ -63,12 +63,12 @@ kCountBeforeWeRemember
 5
 ;
 function
-GeolocationPrompt
+ContentPermissionPrompt
 (
 )
 {
 }
-GeolocationPrompt
+ContentPermissionPrompt
 .
 prototype
 =
@@ -102,7 +102,7 @@ generateQI
 [
 Ci
 .
-nsIGeolocationPrompt
+nsIContentPermissionPrompt
 ]
 )
 prompt
@@ -112,6 +112,19 @@ function
 aRequest
 )
 {
+if
+(
+aRequest
+.
+type
+!
+=
+"
+geolocation
+"
+)
+return
+;
 let
 pm
 =
@@ -128,7 +141,7 @@ testExactPermission
 (
 aRequest
 .
-requestingURI
+uri
 "
 geo
 "
@@ -200,7 +213,7 @@ hasPref
 (
 aRequest
 .
-requestingURI
+uri
 "
 geo
 .
@@ -216,7 +229,7 @@ setPref
 (
 aRequest
 .
-requestingURI
+uri
 "
 geo
 .
@@ -236,7 +249,7 @@ getPref
 (
 aRequest
 .
-requestingURI
+uri
 "
 geo
 .
@@ -268,7 +281,7 @@ setPref
 (
 aRequest
 .
-requestingURI
+uri
 "
 geo
 .
@@ -394,7 +407,7 @@ if
 (
 aRequest
 .
-requestingWindow
+window
 )
 {
 let
@@ -402,7 +415,7 @@ requestingWindow
 =
 aRequest
 .
-requestingWindow
+window
 .
 top
 ;
@@ -433,7 +446,7 @@ chromeWin
 =
 aRequest
 .
-requestingElement
+element
 .
 ownerDocument
 .
@@ -523,7 +536,7 @@ setPagePermission
 (
 aRequest
 .
-requestingURI
+uri
 true
 )
 ;
@@ -562,7 +575,7 @@ setPagePermission
 (
 aRequest
 .
-requestingURI
+uri
 false
 )
 ;
@@ -591,7 +604,7 @@ siteWantsToKnow
 [
 aRequest
 .
-requestingURI
+uri
 .
 host
 ]
@@ -656,7 +669,7 @@ XPCOMUtils
 generateNSGetFactory
 (
 [
-GeolocationPrompt
+ContentPermissionPrompt
 ]
 )
 ;
