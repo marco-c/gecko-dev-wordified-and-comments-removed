@@ -527,15 +527,6 @@ LIB_SUFFIX
 NULL
 )
 #
-force
-C
-+
-+
-linking
-CPP_PROG_LINK
-=
-1
-#
 XXX
 :
 bug
