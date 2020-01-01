@@ -181,6 +181,10 @@ browser_scratchpad_bug_651942_recent_files
 .
 js
 \
+browser_scratchpad_bug756681_display_non_error_exceptions
+.
+js
+\
 head
 .
 js
