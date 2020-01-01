@@ -3046,7 +3046,7 @@ JSC
 ARMAssembler
 :
 :
-nameFpReg
+nameFpRegD
 (
 fpreg
 (
