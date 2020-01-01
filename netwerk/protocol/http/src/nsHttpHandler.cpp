@@ -3307,6 +3307,12 @@ defined
 (
 __i386__
 )
+|
+|
+defined
+(
+__x86_64__
+)
 mOscpu
 .
 AssignLiteral
@@ -3321,7 +3327,7 @@ X
 ;
 #
 endif
-long
+SInt32
 majorVersion
 minorVersion
 ;
@@ -3364,10 +3370,10 @@ nsPrintfCString
 (
 "
 %
-ld
+d
 .
 %
-ld
+d
 "
 majorVersion
 minorVersion
