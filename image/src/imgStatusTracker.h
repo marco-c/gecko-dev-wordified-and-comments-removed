@@ -654,11 +654,6 @@ mHadLastPart
 :
 1
 ;
-bool
-mBlockingOnload
-:
-1
-;
 }
 ;
 #
