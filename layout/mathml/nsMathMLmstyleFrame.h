@@ -120,17 +120,6 @@ nsMathMLmstyleFrame
 (
 )
 ;
-virtual
-int
-GetSkipSides
-(
-)
-const
-{
-return
-0
-;
-}
 }
 ;
 #

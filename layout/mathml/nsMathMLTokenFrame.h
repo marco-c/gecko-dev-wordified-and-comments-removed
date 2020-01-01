@@ -217,17 +217,6 @@ nsMathMLTokenFrame
 )
 ;
 virtual
-int
-GetSkipSides
-(
-)
-const
-{
-return
-0
-;
-}
-virtual
 void
 ProcessTextData
 (

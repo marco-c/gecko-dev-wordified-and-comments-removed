@@ -225,17 +225,6 @@ nsMathMLmactionFrame
 (
 )
 ;
-virtual
-int
-GetSkipSides
-(
-)
-const
-{
-return
-0
-;
-}
 private
 :
 int32_t

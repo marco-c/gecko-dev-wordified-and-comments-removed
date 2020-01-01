@@ -106,17 +106,6 @@ nsMathMLmsubsupFrame
 (
 )
 ;
-virtual
-int
-GetSkipSides
-(
-)
-const
-{
-return
-0
-;
-}
 }
 ;
 #
