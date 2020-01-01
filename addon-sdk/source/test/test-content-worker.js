@@ -1,6 +1,6 @@
 "
 use
-stirct
+strict
 "
 ;
 const

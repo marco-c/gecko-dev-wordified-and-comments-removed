@@ -2008,6 +2008,8 @@ uri
 )
 ;
 return
+loader
+.
 load
 (
 loader
