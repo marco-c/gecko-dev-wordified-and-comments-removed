@@ -327,11 +327,6 @@ GetTimedDocumentRoot
 (
 )
 ;
-void
-RequestSample
-(
-)
-;
 #
 endif
 NS_IMETHOD_

@@ -450,6 +450,14 @@ test_smilGetSimpleDuration
 .
 xhtml
 \
+test_smilSync
+.
+xhtml
+\
+test_smilSyncTransform
+.
+xhtml
+\
 (
 NULL
 )

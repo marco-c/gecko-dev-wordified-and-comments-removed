@@ -286,9 +286,6 @@ visible
 '
 ;
 }
-setTimeout
-(
-'
 document
 .
 documentElement
@@ -298,9 +295,6 @@ removeAttribute
 "
 class
 "
-)
-'
-0
 )
 ;
 }
