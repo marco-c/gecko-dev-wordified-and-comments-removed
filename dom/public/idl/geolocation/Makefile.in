@@ -440,6 +440,10 @@ nsIDOMGeoPosition
 .
 idl
 \
+nsIDOMGeoPositionCoords
+.
+idl
+\
 nsIDOMGeoPositionCallback
 .
 idl
