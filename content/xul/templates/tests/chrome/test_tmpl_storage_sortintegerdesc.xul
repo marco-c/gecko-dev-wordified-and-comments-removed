@@ -254,6 +254,15 @@ waitForExplicitFinish
 (
 )
 ;
+copyToProfile
+(
+'
+animals
+.
+sqlite
+'
+)
+;
 var
 testid
 =
@@ -864,6 +873,8 @@ root
 datasources
 =
 "
+profile
+:
 animals
 .
 sqlite

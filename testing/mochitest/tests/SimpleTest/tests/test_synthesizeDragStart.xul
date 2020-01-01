@@ -654,7 +654,9 @@ directory_service
 .
 getService
 (
-Ci
+Components
+.
+interfaces
 .
 nsIProperties
 )
@@ -664,7 +666,9 @@ get
 "
 CurWorkD
 "
-Ci
+Components
+.
+interfaces
 .
 nsIFile
 )

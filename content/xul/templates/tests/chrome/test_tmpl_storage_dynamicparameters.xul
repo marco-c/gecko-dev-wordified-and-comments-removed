@@ -256,6 +256,15 @@ waitForExplicitFinish
 (
 )
 ;
+copyToProfile
+(
+'
+animals
+.
+sqlite
+'
+)
+;
 function
 test_storage_template
 (
@@ -525,6 +534,8 @@ flex
 datasources
 =
 "
+profile
+:
 animals
 .
 sqlite
