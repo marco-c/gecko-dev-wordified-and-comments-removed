@@ -1040,12 +1040,6 @@ js_anonymous_str
 ;
 }
 extern
-JSFunctionSpec
-function_methods
-[
-]
-;
-extern
 JSBool
 Function
 (

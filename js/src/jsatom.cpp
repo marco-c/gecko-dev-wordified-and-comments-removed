@@ -2027,10 +2027,10 @@ ib
 )
 ;
 }
-namespace
-js
-{
 bool
+js
+:
+:
 IndexToIdSlow
 (
 JSContext
@@ -2124,7 +2124,6 @@ atom
 return
 true
 ;
-}
 }
 bool
 js

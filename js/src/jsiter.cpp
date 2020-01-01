@@ -2893,10 +2893,10 @@ return
 true
 ;
 }
-namespace
-js
-{
 bool
+js
+:
+:
 VectorToKeyIterator
 (
 JSContext
@@ -2927,6 +2927,9 @@ vp
 ;
 }
 bool
+js
+:
+:
 VectorToValueIterator
 (
 JSContext
@@ -3075,6 +3078,9 @@ true
 ;
 }
 bool
+js
+:
+:
 EnumeratedIdVectorToIterator
 (
 JSContext
@@ -3142,6 +3148,9 @@ obj
 ;
 }
 bool
+js
+:
+:
 GetIterator
 (
 JSContext
@@ -4077,6 +4086,9 @@ true
 }
 JSObject
 *
+js
+:
+:
 GetIteratorObject
 (
 JSContext
@@ -4117,7 +4129,6 @@ toObject
 (
 )
 ;
-}
 }
 JSBool
 js_ThrowStopIteration

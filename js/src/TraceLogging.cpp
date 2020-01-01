@@ -41,6 +41,10 @@ stdint
 .
 h
 >
+using
+namespace
+js
+;
 #
 ifndef
 TRACE_LOG_DIR
@@ -69,9 +73,6 @@ tmp
 endif
 #
 endif
-namespace
-js
-{
 #
 if
 defined
@@ -81,6 +82,9 @@ __i386__
 static
 __inline__
 uint64_t
+js
+:
+:
 rdtsc
 (
 void
@@ -121,6 +125,9 @@ __x86_64__
 static
 __inline__
 uint64_t
+js
+:
+:
 rdtsc
 (
 void
@@ -183,6 +190,9 @@ __powerpc__
 static
 __inline__
 uint64_t
+js
+:
+:
 rdtsc
 (
 void
@@ -1107,6 +1117,9 @@ NULL
 }
 }
 void
+js
+:
+:
 TraceLog
 (
 TraceLogging
@@ -1133,6 +1146,9 @@ script
 ;
 }
 void
+js
+:
+:
 TraceLog
 (
 TraceLogging
@@ -1154,6 +1170,9 @@ log
 ;
 }
 void
+js
+:
+:
 TraceLog
 (
 TraceLogging
@@ -1174,5 +1193,4 @@ log
 type
 )
 ;
-}
 }

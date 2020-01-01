@@ -212,6 +212,12 @@ SLOTS_TO_THING_KIND_LIMIT
 =
 17
 ;
+extern
+AllocKind
+slotsToThingKind
+[
+]
+;
 static
 inline
 AllocKind
@@ -221,12 +227,6 @@ size_t
 numSlots
 )
 {
-extern
-AllocKind
-slotsToThingKind
-[
-]
-;
 AutoAssertNoGC
 nogc
 ;

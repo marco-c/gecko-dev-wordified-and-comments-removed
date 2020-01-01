@@ -83,9 +83,6 @@ using
 namespace
 js
 ;
-namespace
-js
-{
 bool
 WeakMapBase
 :
@@ -449,7 +446,6 @@ gcWeakMapList
 =
 m
 ;
-}
 }
 }
 typedef

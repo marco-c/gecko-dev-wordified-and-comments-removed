@@ -4676,15 +4676,15 @@ return
 errorString
 ;
 }
-namespace
-js
-{
 JS_FRIEND_API
 (
 const
 jschar
 *
 )
+js
+:
+:
 GetErrorTypeName
 (
 JSContext
@@ -4738,7 +4738,6 @@ chars
 (
 )
 ;
-}
 }
 #
 if

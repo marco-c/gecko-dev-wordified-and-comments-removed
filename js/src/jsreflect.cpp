@@ -155,12 +155,12 @@ mozilla
 :
 ArrayLength
 ;
-namespace
-js
-{
 char
 const
 *
+js
+:
+:
 aopNames
 [
 ]
@@ -222,6 +222,9 @@ aopNames
 char
 const
 *
+js
+:
+:
 binopNames
 [
 ]
@@ -311,6 +314,9 @@ instanceof
 char
 const
 *
+js
+:
+:
 unopNames
 [
 ]
@@ -342,6 +348,9 @@ void
 char
 const
 *
+js
+:
+:
 nodeTypeNames
 [
 ]
@@ -369,6 +378,7 @@ ASTDEF
 NULL
 }
 ;
+static
 char
 const
 *
@@ -18346,7 +18356,6 @@ pos
 dst
 )
 ;
-}
 }
 static
 JSBool

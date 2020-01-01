@@ -10835,9 +10835,6 @@ data
 ;
 }
 }
-namespace
-js
-{
 static
 const
 uint32_t
@@ -10878,7 +10875,6 @@ finish
 (
 )
 ;
-}
 }
 jssrcnote
 *
@@ -11880,10 +11876,10 @@ script
 lineno
 ;
 }
-namespace
-js
-{
 unsigned
+js
+:
+:
 CurrentLine
 (
 JSContext
@@ -11925,6 +11921,9 @@ pc
 ;
 }
 void
+js
+:
+:
 CurrentScriptFileLineOriginSlow
 (
 JSContext
@@ -12032,7 +12031,6 @@ script
 >
 originPrincipals
 ;
-}
 }
 template
 <

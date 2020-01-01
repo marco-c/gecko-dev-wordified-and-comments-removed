@@ -137,13 +137,12 @@ js
 :
 gc
 ;
-namespace
-js
-{
 int
+js
+:
+:
 sWrapperFamily
 ;
-}
 void
 *
 Wrapper
@@ -4499,9 +4498,6 @@ SecurityWrapper
 CrossCompartmentWrapper
 >
 ;
-namespace
-js
-{
 DeadObjectProxy
 :
 :
@@ -5068,7 +5064,6 @@ DeadObjectProxy
 :
 sDeadObjectFamily
 ;
-}
 JSObject
 *
 js

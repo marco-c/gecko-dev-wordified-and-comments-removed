@@ -112,6 +112,13 @@ h
 #
 include
 "
+jsboolinlines
+.
+h
+"
+#
+include
+"
 jsinferinlines
 .
 h
@@ -1031,13 +1038,13 @@ atomState
 false_
 ;
 }
-namespace
-js
-{
 JS_PUBLIC_API
 (
 bool
 )
+js
+:
+:
 ToBooleanSlow
 (
 const
@@ -1072,6 +1079,9 @@ length
 ;
 }
 bool
+js
+:
+:
 BooleanGetPrimitiveValueSlow
 (
 JSContext
@@ -1161,5 +1171,4 @@ rval
 return
 true
 ;
-}
 }

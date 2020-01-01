@@ -5547,9 +5547,6 @@ type_
 )
 ;
 }
-namespace
-js
-{
 class
 DebugScopeProxy
 :
@@ -7649,7 +7646,6 @@ NULL
 }
 }
 ;
-}
 int
 DebugScopeProxy
 :

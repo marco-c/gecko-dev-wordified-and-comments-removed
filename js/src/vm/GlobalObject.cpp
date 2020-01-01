@@ -254,9 +254,6 @@ return
 false
 ;
 }
-namespace
-js
-{
 static
 bool
 TestProtoGetterThis
@@ -437,11 +434,15 @@ args
 )
 ;
 }
+namespace
+js
+{
 size_t
 sSetProtoCalled
 =
 0
 ;
+}
 static
 bool
 TestProtoSetterThis
@@ -2564,6 +2565,9 @@ this
 ;
 }
 bool
+js
+:
+:
 LinkConstructorAndPrototype
 (
 JSContext
@@ -2659,6 +2663,9 @@ JS_StrictPropertyStub
 ;
 }
 bool
+js
+:
+:
 DefinePropertiesAndBrand
 (
 JSContext
@@ -2734,6 +2741,7 @@ return
 true
 ;
 }
+static
 void
 GlobalDebuggees_finalize
 (
@@ -3108,5 +3116,4 @@ false
 return
 true
 ;
-}
 }

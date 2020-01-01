@@ -2828,9 +2828,6 @@ cx
 )
 ;
 }
-namespace
-js
-{
 bool
 AutoResolving
 :
@@ -2918,7 +2915,6 @@ link
 return
 false
 ;
-}
 }
 static
 void
@@ -3614,10 +3610,10 @@ return
 warning
 ;
 }
-namespace
-js
-{
 void
+js
+:
+:
 ReportUsageError
 (
 JSContext
@@ -3809,6 +3805,9 @@ chars
 }
 }
 bool
+js
+:
+:
 PrintError
 (
 JSContext
@@ -4277,7 +4276,6 @@ prefix
 return
 true
 ;
-}
 }
 JSBool
 js_ExpandErrorArguments
@@ -7485,9 +7483,6 @@ iterValue
 )
 ;
 }
-namespace
-JS
-{
 #
 if
 defined
@@ -7589,4 +7584,3 @@ checkRequestDepth
 }
 #
 endif
-}

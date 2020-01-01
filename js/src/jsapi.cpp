@@ -3352,9 +3352,6 @@ js_NewRuntimeWasCalled
 =
 JS_FALSE
 ;
-namespace
-js
-{
 mozilla
 :
 :
@@ -3363,12 +3360,11 @@ ThreadLocal
 PerThreadData
 *
 >
+js
+:
+:
 TlsPerThreadData
 ;
-}
-namespace
-JS
-{
 #
 ifdef
 DEBUG
@@ -3376,6 +3372,9 @@ JS_FRIEND_API
 (
 void
 )
+JS
+:
+:
 EnterAssertNoGCScope
 (
 )
@@ -3396,6 +3395,9 @@ JS_FRIEND_API
 (
 void
 )
+JS
+:
+:
 LeaveAssertNoGCScope
 (
 )
@@ -3431,6 +3433,9 @@ JS_FRIEND_API
 (
 bool
 )
+JS
+:
+:
 InNoGCScope
 (
 )
@@ -3452,6 +3457,9 @@ JS_FRIEND_API
 (
 bool
 )
+JS
+:
+:
 NeedRelaxedRootChecks
 (
 )
@@ -3473,6 +3481,9 @@ JS_FRIEND_API
 (
 void
 )
+JS
+:
+:
 EnterAssertNoGCScope
 (
 )
@@ -3482,6 +3493,9 @@ JS_FRIEND_API
 (
 void
 )
+JS
+:
+:
 LeaveAssertNoGCScope
 (
 )
@@ -3491,6 +3505,9 @@ JS_FRIEND_API
 (
 bool
 )
+JS
+:
+:
 InNoGCScope
 (
 )
@@ -3503,6 +3520,9 @@ JS_FRIEND_API
 (
 bool
 )
+JS
+:
+:
 NeedRelaxedRootChecks
 (
 )
@@ -3513,7 +3533,6 @@ false
 }
 #
 endif
-}
 static
 const
 JSSecurityCallbacks
@@ -3522,9 +3541,6 @@ NullSecurityCallbacks
 {
 }
 ;
-js
-:
-:
 PerThreadData
 :
 :
@@ -28785,13 +28801,13 @@ rval
 )
 ;
 }
-namespace
-JS
-{
 JS_PUBLIC_API
 (
 bool
 )
+JS
+:
+:
 Call
 (
 JSContext
@@ -28850,7 +28866,6 @@ argv
 rval
 )
 ;
-}
 }
 JS_PUBLIC_API
 (
@@ -35057,9 +35072,6 @@ JS_TRUE
 #
 endif
 }
-namespace
-JS
-{
 AutoGCRooter
 :
 :
@@ -35120,6 +35132,9 @@ JS_PUBLIC_API
 (
 void
 )
+JS
+:
+:
 AssertArgumentsAreSane
 (
 JSContext
@@ -35153,7 +35168,6 @@ value
 }
 #
 endif
-}
 JS_PUBLIC_API
 (
 void

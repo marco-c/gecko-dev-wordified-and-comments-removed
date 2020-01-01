@@ -25537,13 +25537,10 @@ n
 #
 endif
 }
-namespace
-js
-{
-namespace
-types
-{
 void
+types
+:
+:
 MarkIteratorUnknownSlow
 (
 JSContext
@@ -25857,6 +25854,9 @@ UnknownType
 }
 }
 void
+types
+:
+:
 TypeMonitorCallSlow
 (
 JSContext
@@ -26059,6 +26059,9 @@ isMarked
 ;
 }
 void
+types
+:
+:
 TypeDynamicResult
 (
 JSContext
@@ -26644,6 +26647,9 @@ type
 }
 }
 void
+types
+:
+:
 TypeMonitorResult
 (
 JSContext
@@ -26795,8 +26801,6 @@ cx
 type
 )
 ;
-}
-}
 }
 static
 inline

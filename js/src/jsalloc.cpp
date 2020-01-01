@@ -12,9 +12,10 @@ jscntxt
 .
 h
 "
+using
 namespace
 js
-{
+;
 void
 *
 TempAllocPolicy
@@ -58,5 +59,4 @@ js_ReportAllocationOverflow
 cx
 )
 ;
-}
 }

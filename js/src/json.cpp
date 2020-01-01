@@ -4267,10 +4267,10 @@ vp
 )
 ;
 }
-namespace
-js
-{
 JSBool
+js
+:
+:
 ParseJSONWithReviver
 (
 JSContext
@@ -4341,7 +4341,6 @@ vp
 return
 true
 ;
-}
 }
 #
 if

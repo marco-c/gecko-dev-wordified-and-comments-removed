@@ -14188,10 +14188,10 @@ NullPtr
 )
 ;
 }
-namespace
-js
-{
 bool
+js
+:
+:
 GetLocalNameFromFunctionQName
 (
 JSObject
@@ -14267,7 +14267,6 @@ true
 return
 false
 ;
-}
 }
 bool
 js_GetLocalNameFromFunctionQName
@@ -38064,9 +38063,6 @@ obj
 )
 ;
 }
-namespace
-js
-{
 bool
 GlobalObject
 :
@@ -38181,7 +38177,6 @@ v
 return
 true
 ;
-}
 }
 JSBool
 js_GetDefaultXMLNamespace

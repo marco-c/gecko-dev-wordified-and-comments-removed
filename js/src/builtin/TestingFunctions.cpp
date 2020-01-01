@@ -71,6 +71,15 @@ h
 #
 include
 "
+builtin
+/
+TestingFunctions
+.
+h
+"
+#
+include
+"
 methodjit
 /
 MethodJIT
@@ -5218,10 +5227,10 @@ function
 JS_FS_HELP_END
 }
 ;
-namespace
-js
-{
 bool
+js
+:
+:
 DefineTestingFunctions
 (
 JSContext
@@ -5239,5 +5248,4 @@ obj
 TestingFunctions
 )
 ;
-}
 }

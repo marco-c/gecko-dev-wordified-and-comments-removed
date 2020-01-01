@@ -942,10 +942,10 @@ return
 value
 ;
 }
-namespace
-js
-{
 bool
+js
+:
+:
 GetPrefixInteger
 (
 JSContext
@@ -1193,7 +1193,6 @@ base
 return
 true
 ;
-}
 }
 static
 JSBool
@@ -5523,10 +5522,10 @@ void
 )
 #
 endif
-namespace
-js
-{
 bool
+js
+:
+:
 InitRuntimeNumberState
 (
 JSRuntime
@@ -5855,6 +5854,9 @@ true
 ;
 }
 void
+js
+:
+:
 FinishRuntimeNumberState
 (
 JSRuntime
@@ -5883,7 +5885,6 @@ js_free
 storage
 )
 ;
-}
 }
 JSObject
 *
@@ -6162,9 +6163,6 @@ return
 numberProto
 ;
 }
-namespace
-js
-{
 static
 char
 *
@@ -6298,6 +6296,9 @@ numStr
 }
 char
 *
+js
+:
+:
 NumberToCString
 (
 JSContext
@@ -6338,7 +6339,6 @@ d
 base
 )
 ;
-}
 }
 static
 JSString
@@ -6701,11 +6701,11 @@ d
 )
 ;
 }
-namespace
-js
-{
 JSFlatString
 *
+js
+:
+:
 NumberToString
 (
 JSContext
@@ -6743,6 +6743,9 @@ NULL
 }
 JSFlatString
 *
+js
+:
+:
 IndexToString
 (
 JSContext
@@ -6921,6 +6924,9 @@ str
 }
 bool
 JS_FASTCALL
+js
+:
+:
 NumberValueToStringBuffer
 (
 JSContext
@@ -7035,6 +7041,9 @@ JS_PUBLIC_API
 (
 bool
 )
+js
+:
+:
 ToNumberSlow
 (
 JSContext
@@ -7259,6 +7268,9 @@ JS_PUBLIC_API
 (
 bool
 )
+js
+:
+:
 ToInt64Slow
 (
 JSContext
@@ -7337,6 +7349,9 @@ JS_PUBLIC_API
 (
 bool
 )
+js
+:
+:
 ToUint64Slow
 (
 JSContext
@@ -7415,6 +7430,9 @@ JS_PUBLIC_API
 (
 bool
 )
+js
+:
+:
 ToInt32Slow
 (
 JSContext
@@ -7493,6 +7511,9 @@ JS_PUBLIC_API
 (
 bool
 )
+js
+:
+:
 ToUint32Slow
 (
 JSContext
@@ -7571,6 +7592,9 @@ JS_PUBLIC_API
 (
 bool
 )
+js
+:
+:
 ToUint16Slow
 (
 JSContext
@@ -7756,7 +7780,6 @@ d
 return
 true
 ;
-}
 }
 JSBool
 js_strtod

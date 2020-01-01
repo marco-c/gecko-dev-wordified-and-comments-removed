@@ -115,9 +115,6 @@ mozilla
 :
 DebugOnly
 ;
-namespace
-js
-{
 void
 XDRBuffer
 :
@@ -804,6 +801,9 @@ originPrincipals
 }
 template
 class
+js
+:
+:
 XDRState
 <
 XDR_ENCODE
@@ -811,9 +811,11 @@ XDR_ENCODE
 ;
 template
 class
+js
+:
+:
 XDRState
 <
 XDR_DECODE
 >
 ;
-}
