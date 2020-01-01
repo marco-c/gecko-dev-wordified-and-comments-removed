@@ -3296,6 +3296,7 @@ cert
 if
 (
 !
+*
 pRetCert
 )
 {
@@ -3328,6 +3329,7 @@ privkey
 if
 (
 !
+*
 pRetKey
 )
 {
