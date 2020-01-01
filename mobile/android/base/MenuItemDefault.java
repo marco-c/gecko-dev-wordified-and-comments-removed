@@ -63,9 +63,7 @@ android
 .
 widget
 .
-LinearLayout
-.
-LayoutParams
+AbsListView
 ;
 import
 android
@@ -133,6 +131,8 @@ getResources
 setLayoutParams
 (
 new
+AbsListView
+.
 LayoutParams
 (
 (
@@ -166,15 +166,6 @@ menu_item_row_height
 )
 )
 )
-)
-;
-setBackgroundResource
-(
-R
-.
-drawable
-.
-menu_item_bg
 )
 ;
 inflate
