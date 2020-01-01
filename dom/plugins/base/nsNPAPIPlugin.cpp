@@ -9276,10 +9276,10 @@ IsWindowless
 windowless
 )
 ;
-NPBool
-needXEmbed
+int
+needsXEmbed
 =
-false
+0
 ;
 if
 (
@@ -9296,7 +9296,7 @@ GetValueFromPlugin
 (
 NPPVpluginNeedsXEmbed
 &
-needXEmbed
+needsXEmbed
 )
 ;
 if
@@ -9307,9 +9307,9 @@ res
 )
 )
 {
-needXEmbed
+needsXEmbed
 =
-false
+0
 ;
 }
 }
@@ -9318,7 +9318,7 @@ if
 windowless
 |
 |
-needXEmbed
+needsXEmbed
 )
 {
 (

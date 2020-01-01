@@ -2682,7 +2682,7 @@ AssertPluginThread
 #
 ifdef
 MOZ_X11
-PRUint32
+int
 needsXEmbed
 =
 0
