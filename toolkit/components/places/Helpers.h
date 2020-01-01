@@ -278,7 +278,7 @@ bool
 IsValidGUID
 (
 const
-nsACString
+nsCString
 &
 aGUID
 )

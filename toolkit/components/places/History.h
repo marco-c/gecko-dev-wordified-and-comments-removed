@@ -182,15 +182,12 @@ VisitData
 aVisitData
 )
 ;
-nsresult
+bool
 FetchPageInfo
 (
 VisitData
 &
 _place
-bool
-*
-_exists
 )
 ;
 size_t

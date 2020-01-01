@@ -8359,14 +8359,6 @@ the
 page
 .
 *
-deprecated
-use
-mozIAsyncHistory
-.
-getPlacesInfo
-instead
-.
-*
 /
 AString
 getPageTitle
