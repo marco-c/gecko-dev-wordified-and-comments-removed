@@ -1961,7 +1961,9 @@ id
 "
 sp
 -
-menu_undo
+menu
+-
+undo
 "
 label
 =
@@ -1991,7 +1993,7 @@ disabled
 "
 true
 "
-oncommand
+command
 =
 "
 cmd_undo
