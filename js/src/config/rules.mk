@@ -16182,15 +16182,6 @@ showbuildmods
 :
 echo
 "
-Build
-Modules
-=
-(
-BUILD_MODULES
-)
-"
-echo
-"
 Module
 dirs
 =
