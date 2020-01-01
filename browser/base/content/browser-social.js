@@ -2426,6 +2426,13 @@ function
 (
 )
 {
+if
+(
+SocialFlyout
+.
+_dynamicResizer
+)
+{
 SocialFlyout
 .
 _dynamicResizer
@@ -2445,6 +2452,7 @@ socialFrameShow
 "
 )
 ;
+}
 }
 0
 )
