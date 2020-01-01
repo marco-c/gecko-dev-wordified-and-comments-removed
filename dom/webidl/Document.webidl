@@ -328,9 +328,6 @@ interface
 NodeIterator
 ;
 interface
-Range
-;
-interface
 StyleSheetList
 ;
 interface
