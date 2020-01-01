@@ -17072,6 +17072,13 @@ Reflect
 return
 NULL
 ;
+MarkStandardClassInitializedNoProto
+(
+obj
+&
+js_ReflectClass
+)
+;
 return
 Reflect
 ;

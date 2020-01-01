@@ -1978,8 +1978,6 @@ context
 -
 >
 stack
-(
-)
 .
 pushDummyFrame
 (

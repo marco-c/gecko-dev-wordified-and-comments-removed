@@ -687,7 +687,10 @@ typeInferenceEnabled
 )
 )
 {
-JSStackFrame
+js
+:
+:
+StackFrame
 *
 caller
 =
@@ -785,7 +788,10 @@ typeInferenceEnabled
 return
 true
 ;
-JSStackFrame
+js
+:
+:
+StackFrame
 *
 caller
 =

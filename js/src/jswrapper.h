@@ -950,7 +950,7 @@ DummyFrameGuard
 >
 frame
 ;
-JSFrameRegs
+FrameRegs
 regs
 ;
 AutoStringRooter

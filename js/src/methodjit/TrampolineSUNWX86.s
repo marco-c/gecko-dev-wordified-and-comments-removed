@@ -433,14 +433,14 @@ JaegerTrampoline
 JSContext
 *
 cx
-JSStackFrame
+StackFrame
 *
 fp
 void
 *
 code
 /
-JSFrameRegs
+FrameRegs
 *
 regs
 uintptr_t

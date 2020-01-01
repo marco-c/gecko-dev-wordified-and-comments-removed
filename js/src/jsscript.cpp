@@ -183,13 +183,6 @@ h
 #
 include
 "
-jsinterpinlines
-.
-h
-"
-#
-include
-"
 jsobjinlines
 .
 h
@@ -1171,14 +1164,12 @@ uintN
 1
 )
 ;
-#
-ifdef
-DEBUG
+DebugOnly
+<
 BindingKind
+>
 kind
 =
-#
-endif
 lookup
 (
 cx
@@ -6492,6 +6483,8 @@ cx
 -
 >
 thread
+(
+)
 ;
 #
 endif
@@ -8255,6 +8248,8 @@ cx
 -
 >
 thread
+(
+)
 )
 ;
 #
@@ -9481,7 +9476,7 @@ js_FramePCToLineNumber
 JSContext
 *
 cx
-JSStackFrame
+StackFrame
 *
 fp
 )
@@ -10090,7 +10085,7 @@ if
 cx
 -
 >
-hasfp
+running
 (
 )
 )
@@ -10104,7 +10099,7 @@ return
 NULL
 ;
 }
-JSStackFrame
+StackFrame
 *
 fp
 =
