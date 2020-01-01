@@ -363,6 +363,14 @@ searching
 .
 js
 \
+browser_dbg_scripts
+-
+searching
+-
+08
+.
+js
+\
 browser_dbg_pause
 -
 resume
