@@ -1951,12 +1951,12 @@ Components
 .
 interfaces
 .
-nsIContentPrefService
+nsIContentPrefService2
 )
 ;
 cps
 .
-removeGroupedPrefs
+removeAllDomains
 (
 null
 )
