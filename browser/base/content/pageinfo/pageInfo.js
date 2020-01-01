@@ -2382,6 +2382,13 @@ permPanel
 "
 pageinfo_permissions
 "
+"
+securityPanel
+"
+:
+"
+pageinfo_security
+"
 }
 ;
 var
