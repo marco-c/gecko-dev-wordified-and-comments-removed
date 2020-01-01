@@ -677,6 +677,9 @@ PRInt64
 shapesExtraTreeShapeKids
 ;
 PRInt64
+shapesCompartmentTables
+;
+PRInt64
 scriptData
 ;
 #
