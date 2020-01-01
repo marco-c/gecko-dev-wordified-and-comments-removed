@@ -429,12 +429,12 @@ PARALLEL_DIRS
 =
 interfaces
 src
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 tests
+ifdef
+ENABLE_TESTS
 XPCSHELL_TESTS
 =
 tests

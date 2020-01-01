@@ -447,14 +447,14 @@ jsm
 (
 NULL
 )
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 test
 /
 chrome
+ifdef
+ENABLE_TESTS
 XPCSHELL_TESTS
 =
 test

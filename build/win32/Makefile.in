@@ -431,8 +431,6 @@ NO_PROFILE_GUIDED_OPTIMIZE
 =
 1
 ifdef
-ENABLE_TESTS
-ifdef
 _MSC_VER
 ifneq
 (
@@ -441,13 +439,13 @@ OS_TEST
 )
 x86_64
 )
-DIRS
+TEST_DIRS
 +
 =
 vmwarerecordinghelper
 endif
 endif
-DIRS
+TEST_DIRS
 +
 =
 \
@@ -456,6 +454,8 @@ crashinjectdll
 (
 NULL
 )
+ifdef
+ENABLE_TESTS
 PROGRAM
 =
 crashinject
