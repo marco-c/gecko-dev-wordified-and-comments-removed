@@ -73,9 +73,6 @@ ino2name
 (
 ino_t
 ino
-char
-*
-dir
 )
 ;
 extern

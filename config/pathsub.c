@@ -416,9 +416,6 @@ ino2name
 (
 ino_t
 ino
-char
-*
-dir
 )
 {
 DIR
@@ -1049,10 +1046,6 @@ ino2name
 sb
 .
 st_ino
-"
-.
-.
-"
 )
 ;
 len
