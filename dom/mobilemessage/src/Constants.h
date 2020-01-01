@@ -67,6 +67,12 @@ char
 *
 kMmsFailedObserverTopic
 ;
+extern
+const
+char
+*
+kMmsReceivedObserverTopic
+;
 #
 define
 DELIVERY_RECEIVED
