@@ -248,6 +248,11 @@ gfxRect
 h
 '
 '
+gfxReusableSharedImageSurfaceWrapper
+.
+h
+'
+'
 gfxReusableSurfaceWrapper
 .
 h
@@ -1246,7 +1251,7 @@ gfxRect
 cpp
 '
 '
-gfxReusableSurfaceWrapper
+gfxReusableSharedImageSurfaceWrapper
 .
 cpp
 '
