@@ -363,7 +363,7 @@ if
 !
 aOptions
 .
-stream
+mStream
 )
 {
 int32_t

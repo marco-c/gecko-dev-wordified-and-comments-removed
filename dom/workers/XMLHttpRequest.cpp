@@ -5905,7 +5905,7 @@ mMozAnon
 =
 aParams
 .
-mozAnon
+mMozAnon
 ;
 xhr
 -
@@ -5914,7 +5914,7 @@ mMozSystem
 =
 aParams
 .
-mozSystem
+mMozSystem
 ;
 }
 xhr
