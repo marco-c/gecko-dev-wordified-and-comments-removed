@@ -534,8 +534,6 @@ mozapps
 update
 /
 src
-/
-updater
 \
 (
 NULL
