@@ -2036,6 +2036,13 @@ Browser
 Blur
 "
 :
+gFocusManager
+.
+clearFocus
+(
+content
+)
+;
 docShell
 .
 isActive
