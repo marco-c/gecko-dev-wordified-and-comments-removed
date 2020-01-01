@@ -151,6 +151,7 @@ NSAccessibilityMenuItemRole
 NSAccessibilityGroupRole
 NSAccessibilityMenuRole
 NSAccessibilityMenuItemRole
+NSAccessibilityImageRole
 "
 ROLE_LAST_ENTRY
 "

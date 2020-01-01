@@ -273,6 +273,15 @@ AtkObject
 *
 mAtkObject
 ;
+static
+PRBool
+MustPrune
+(
+nsIAccessible
+*
+aAccessible
+)
+;
 private
 :
 PRUint16

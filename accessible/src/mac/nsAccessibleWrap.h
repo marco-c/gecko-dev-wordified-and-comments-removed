@@ -176,6 +176,15 @@ nsIAccessibleRole
 :
 :
 ROLE_ENTRY
+|
+|
+role
+=
+=
+nsIAccessibleRole
+:
+:
+ROLE_IMAGE
 )
 ;
 }

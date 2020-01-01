@@ -451,6 +451,10 @@ list
 combobox
 listitem
 "
+"
+image
+map
+"
 }
 ;
 class
