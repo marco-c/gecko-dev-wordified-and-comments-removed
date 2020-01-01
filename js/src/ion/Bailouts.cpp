@@ -1271,6 +1271,7 @@ br
 entryfp
 (
 )
+JSINTERP_BAILOUT
 )
 ;
 if
