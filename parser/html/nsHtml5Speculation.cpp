@@ -15,6 +15,8 @@ nsHtml5UTF16Buffer
 aBuffer
 PRInt32
 aStart
+PRInt32
+aStartLineNumber
 nsAHtml5TreeBuilderState
 *
 aSnapshot
@@ -27,6 +29,10 @@ aBuffer
 mStart
 (
 aStart
+)
+mStartLineNumber
+(
+aStartLineNumber
 )
 mSnapshot
 (

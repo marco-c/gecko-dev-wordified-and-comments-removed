@@ -61,6 +61,8 @@ nsHtml5UTF16Buffer
 aBuffer
 PRInt32
 aStart
+PRInt32
+aStartLineNumber
 nsAHtml5TreeBuilderState
 *
 aSnapshot
@@ -88,6 +90,15 @@ GetStart
 {
 return
 mStart
+;
+}
+PRInt32
+GetStartLineNumber
+(
+)
+{
+return
+mStartLineNumber
 ;
 }
 nsAHtml5TreeBuilderState
@@ -142,6 +153,9 @@ mBuffer
 ;
 PRInt32
 mStart
+;
+PRInt32
+mStartLineNumber
 ;
 nsAutoPtr
 <

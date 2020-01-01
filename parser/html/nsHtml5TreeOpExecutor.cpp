@@ -2408,6 +2408,8 @@ InitializeDocWriteParserState
 nsAHtml5TreeBuilderState
 *
 aState
+PRInt32
+aLine
 )
 {
 static_cast
@@ -2427,6 +2429,7 @@ get
 InitializeDocWriteParserState
 (
 aState
+aLine
 )
 ;
 }
