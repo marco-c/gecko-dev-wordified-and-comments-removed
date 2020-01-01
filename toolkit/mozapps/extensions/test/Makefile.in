@@ -512,6 +512,10 @@ ADDONSRC
 ;
 then
 \
+(
+EXIT_ON_ERROR
+)
+\
 for
 dir
 in
@@ -547,10 +551,11 @@ basename
 dir
 ;
 \
+(
 cd
 dir
-;
-\
+&
+&
 zip
 (
 TESTXPI
@@ -560,7 +565,7 @@ base
 .
 xpi
 *
-;
+)
 \
 fi
 \
