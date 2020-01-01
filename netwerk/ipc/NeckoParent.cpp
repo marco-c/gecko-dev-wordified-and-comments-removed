@@ -443,6 +443,16 @@ OwnOrContainingAppId
 *
 aInBrowserElement
 =
+aSerialized
+.
+IsNotNull
+(
+)
+?
+aSerialized
+.
+mIsInBrowserElement
+:
 tabParent
 -
 >
