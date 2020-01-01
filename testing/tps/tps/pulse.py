@@ -91,9 +91,11 @@ self
 .
 buildtype
 =
+[
 '
 opt
 '
+]
     
 self
 .
@@ -156,9 +158,6 @@ services
 -
 central
 '
-'
-places
-'
 ]
 )
     
@@ -166,6 +165,7 @@ self
 .
 platform
 =
+[
 self
 .
 config
@@ -179,6 +179,7 @@ platform
 linux
 '
 )
+]
     
 self
 .
@@ -254,7 +255,7 @@ __init__
 (
 self
                                
-tree
+trees
 =
 self
 .
@@ -266,15 +267,27 @@ self
 .
 label
                                
-mobile
-=
-False
-                               
 logger
 =
 self
 .
 logger
+                               
+platforms
+=
+self
+.
+platform
+                               
+buildtypes
+=
+self
+.
+buildtype
+                               
+builds
+=
+True
                                
 *
 *
@@ -456,47 +469,6 @@ print
 =
 =
 "
-    
-try
-:
-      
-if
-not
-(
-builddata
-[
-'
-platform
-'
-]
-=
-=
-self
-.
-platform
-and
-              
-builddata
-[
-'
-buildtype
-'
-]
-=
-=
-self
-.
-buildtype
-)
-:
-        
-return
-    
-except
-KeyError
-:
-      
-return
     
 thread
 =
