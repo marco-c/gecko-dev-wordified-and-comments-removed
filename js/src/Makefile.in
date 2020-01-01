@@ -466,6 +466,15 @@ DIRS
 =
 shell
 endif
+ifdef
+ENABLE_TESTS
+DIRS
++
+=
+jsapi
+-
+tests
+endif
 MODULE
 =
 js
