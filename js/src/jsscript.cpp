@@ -12529,6 +12529,15 @@ argumentsHasVarBinding
 )
 )
 ;
+JS_ASSERT
+(
+!
+script
+-
+>
+isGenerator
+)
+;
 if
 (
 script

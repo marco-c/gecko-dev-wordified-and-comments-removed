@@ -9067,6 +9067,12 @@ compartment
 debugMode
 (
 )
+|
+|
+script
+-
+>
+isGenerator
 )
 {
 return
