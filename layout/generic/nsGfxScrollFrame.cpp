@@ -7879,7 +7879,7 @@ pixels
 ;
 for
 (
-PRInt32
+PRUint32
 i
 =
 0
@@ -7963,7 +7963,7 @@ PostScrollEvent
 ;
 for
 (
-PRInt32
+PRUint32
 i
 =
 0
