@@ -6820,7 +6820,6 @@ nsTextControlFrame
 ValueSetter
 valueSetter
 (
-mBoundFrame
 mEditor
 )
 ;
