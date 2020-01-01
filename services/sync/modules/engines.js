@@ -3082,7 +3082,11 @@ SyncEngine__syncStartup
 let
 metaGlobal
 =
-Records
+this
+.
+service
+.
+recordManager
 .
 get
 (
