@@ -4912,6 +4912,15 @@ ForceLoseContext
 (
 )
 {
+if
+(
+mContextStatus
+=
+=
+ContextLostAwaitingEvent
+)
+return
+;
 mContextStatus
 =
 ContextLostAwaitingEvent
