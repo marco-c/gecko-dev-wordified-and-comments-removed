@@ -19060,10 +19060,8 @@ js_FunctionClass
 {
 Value
 v
-;
-v
-.
-setObject
+=
+ObjectTag
 (
 *
 funobj
@@ -20089,10 +20087,8 @@ extra
 ;
 Value
 priv
-;
-priv
-.
-setPrivate
+=
+PrivateTag
 (
 fs
 )

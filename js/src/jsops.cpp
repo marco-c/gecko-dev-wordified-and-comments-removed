@@ -3117,8 +3117,6 @@ base
 ;
 Value
 lval
-;
-lval
 =
 regs
 .
@@ -9194,8 +9192,6 @@ JSOP_CALLPROP
 {
 Value
 lval
-;
-lval
 =
 regs
 .
@@ -14047,8 +14043,6 @@ pc
 ;
 Value
 lval
-;
-lval
 =
 regs
 .
@@ -15594,8 +15588,6 @@ atom
 ;
 Value
 rval
-;
-rval
 =
 rref
 ;
@@ -16177,10 +16169,8 @@ obj
 ;
 Value
 rval
-;
-rval
-.
-setFunObj
+=
+FunObjTag
 (
 *
 obj
@@ -16559,10 +16549,8 @@ error
 ;
 Value
 rval
-;
-rval
-.
-setFunObj
+=
+FunObjTag
 (
 *
 obj
@@ -18349,8 +18337,6 @@ base
 ;
 Value
 rval
-;
-rval
 =
 regs
 .
@@ -19470,8 +19456,6 @@ slot
 ;
 Value
 rval
-;
-rval
 =
 vp
 [
@@ -20470,8 +20454,6 @@ atom
 ;
 Value
 lval
-;
-lval
 =
 regs
 .
@@ -20526,9 +20508,6 @@ JSOP_QNAME
 {
 Value
 rval
-lval
-;
-rval
 =
 regs
 .
@@ -20538,6 +20517,7 @@ sp
 1
 ]
 ;
+Value
 lval
 =
 regs
@@ -20717,9 +20697,6 @@ JSOP_ADDATTRVAL
 {
 Value
 rval
-lval
-;
-rval
 =
 regs
 .
@@ -20729,6 +20706,7 @@ sp
 1
 ]
 ;
+Value
 lval
 =
 regs
@@ -20895,8 +20873,6 @@ asObject
 ;
 Value
 rval
-;
-rval
 =
 regs
 .
@@ -20976,8 +20952,6 @@ JSOP_XMLNAME
 )
 {
 Value
-lval
-;
 lval
 =
 regs
@@ -21335,8 +21309,6 @@ JSOP_TOXML
 {
 Value
 rval
-;
-rval
 =
 regs
 .
@@ -21389,8 +21361,6 @@ JSOP_TOXMLLIST
 )
 {
 Value
-rval
-;
 rval
 =
 regs
@@ -21445,8 +21415,6 @@ JSOP_XMLTAGEXPR
 {
 Value
 rval
-;
-rval
 =
 regs
 .
@@ -21498,8 +21466,6 @@ JSOP_XMLELTEXPR
 )
 {
 Value
-rval
-;
 rval
 =
 regs
@@ -21757,8 +21723,6 @@ atom
 )
 ;
 Value
-rval
-;
 rval
 =
 regs

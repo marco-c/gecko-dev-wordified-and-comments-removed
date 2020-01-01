@@ -9505,8 +9505,6 @@ JS_FALSE
 ;
 Value
 fval
-;
-fval
 =
 vp
 [
