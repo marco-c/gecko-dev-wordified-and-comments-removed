@@ -8113,7 +8113,7 @@ reason
 )
 ;
 extern
-void
+bool
 InitJIT
 (
 TraceMonitor
@@ -8134,9 +8134,9 @@ extern
 void
 PurgeScriptFragments
 (
-JSContext
+TraceMonitor
 *
-cx
+tm
 JSScript
 *
 script
