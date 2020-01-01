@@ -4027,7 +4027,7 @@ Good
 cursor
 -
 >
-mCursor_Pos
+mRowCellCursor_Col
 =
 inPos
 ;
