@@ -640,7 +640,7 @@ s
 profile
 )
 ;
-gdk_set_program_class
+g_set_prgname
 (
 programClass
 )
