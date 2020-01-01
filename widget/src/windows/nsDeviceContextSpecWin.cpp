@@ -2546,7 +2546,7 @@ filename
 )
 )
 ;
-PRInt32
+double
 width
 height
 ;
