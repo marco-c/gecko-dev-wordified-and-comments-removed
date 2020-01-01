@@ -2361,12 +2361,8 @@ mozprofile
 "
 "
         
-permDB
+sqlite_file
 =
-sqlite3
-.
-connect
-(
 os
 .
 path
@@ -2382,6 +2378,28 @@ permissions
 sqlite
 "
 )
+        
+if
+not
+os
+.
+path
+.
+exists
+(
+sqlite_file
+)
+:
+            
+return
+        
+permDB
+=
+sqlite3
+.
+connect
+(
+sqlite_file
 )
         
 cursor

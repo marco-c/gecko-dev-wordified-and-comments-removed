@@ -3,8 +3,6 @@ os
 import
 shutil
 import
-sys
-import
 tempfile
 import
 urllib2
@@ -102,14 +100,14 @@ installed_addons
         
 self
 .
-addons
+installed_manifests
 =
 [
 ]
         
 self
 .
-manifests
+_addon_dirs
 =
 [
 ]
@@ -179,6 +177,15 @@ addons
 addons
 ]
             
+self
+.
+installed_addons
+.
+extend
+(
+addons
+)
+            
 for
 addon
 in
@@ -222,6 +229,15 @@ install_from_manifest
 (
 manifest
 )
+            
+self
+.
+installed_manifests
+.
+extended
+(
+manifests
+)
     
 def
 install_from_manifest
@@ -255,15 +271,6 @@ install
 "
 "
 "
-        
-self
-.
-manifests
-.
-append
-(
-filepath
-)
         
 manifest
 =
@@ -1097,15 +1104,6 @@ rdf
 "
 "
         
-self
-.
-addons
-.
-append
-(
-path
-)
-        
 if
 '
 :
@@ -1584,7 +1582,7 @@ preserve_symlinks
                 
 self
 .
-installed_addons
+_addon_dirs
 .
 append
 (
@@ -1639,7 +1637,7 @@ addon
 in
 self
 .
-installed_addons
+_addon_dirs
 :
             
 if

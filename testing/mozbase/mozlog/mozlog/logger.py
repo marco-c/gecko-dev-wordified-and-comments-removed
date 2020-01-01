@@ -14,6 +14,7 @@ import
 getLoggerClass
 addLevelName
 setLoggerClass
+shutdown
 _default_level
 =
 INFO

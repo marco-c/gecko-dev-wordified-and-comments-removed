@@ -557,7 +557,7 @@ print
 >
 sys
 .
-stderr
+stdout
 "
 Could
 not
@@ -570,6 +570,12 @@ pid
 :
 %
 s
+assuming
+it
+'
+s
+already
+dead
 "
 %
 self
@@ -617,7 +623,7 @@ self
 _cleanup
 (
 )
-            
+        
 return
 self
 .
@@ -1853,6 +1859,12 @@ process
 shutdown
 "
                     
+if
+self
+.
+_handle
+:
+                        
 self
 .
 returncode
@@ -2505,13 +2517,7 @@ None
                  
 env
 =
-os
-.
-environ
-.
-copy
-(
-)
+None
                  
 ignore_children
 =
@@ -2707,12 +2713,6 @@ cwd
         
 self
 .
-env
-=
-env
-        
-self
-.
 didTimeout
 =
 False
@@ -2728,6 +2728,28 @@ self
 keywordargs
 =
 kwargs
+        
+if
+env
+is
+None
+:
+            
+env
+=
+os
+.
+environ
+.
+copy
+(
+)
+        
+self
+.
+env
+=
+env
         
 self
 .
@@ -4080,6 +4102,23 @@ processOutputLine
 [
 ]
 )
+        
+if
+not
+kwargs
+[
+'
+processOutputLine
+'
+]
+:
+            
+kwargs
+[
+'
+processOutputLine
+'
+]
 .
 append
 (

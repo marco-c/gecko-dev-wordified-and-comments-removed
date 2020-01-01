@@ -462,7 +462,7 @@ self
 .
 addon_manager
 .
-addons
+installed_addons
                       
 addon_manifests
 =
@@ -470,7 +470,7 @@ self
 .
 addon_manager
 .
-manifests
+installed_manifests
                       
 preferences
 =
@@ -1059,6 +1059,30 @@ self
 .
 written_prefs
 :
+            
+if
+not
+os
+.
+path
+.
+exists
+(
+os
+.
+path
+.
+join
+(
+self
+.
+profile
+filename
+)
+)
+:
+                
+break
             
 while
 True
