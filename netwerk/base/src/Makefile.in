@@ -609,6 +609,15 @@ cpp
 (
 NULL
 )
+ifdef
+MOZ_IPC
+CPPSRCS
++
+=
+RedirectChannelRegistrar
+.
+cpp
+endif
 ifeq
 (
 (

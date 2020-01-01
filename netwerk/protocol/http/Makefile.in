@@ -492,6 +492,10 @@ nsIHttpAuthenticableChannel
 .
 idl
 \
+nsIHttpChannelChild
+.
+idl
+\
 (
 NULL
 )

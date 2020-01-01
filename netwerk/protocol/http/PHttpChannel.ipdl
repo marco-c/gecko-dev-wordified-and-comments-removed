@@ -680,6 +680,12 @@ nsCString
 appCacheClientID
 )
 ;
+ConnectChannel
+(
+PRUint32
+channelId
+)
+;
 SetPriority
 (
 PRUint16
@@ -1072,8 +1078,8 @@ Redirect2Verify
 above
 Redirect1Begin
 (
-PHttpChannel
-newChannel
+PRUint32
+newChannelId
 URI
 newUri
 PRUint32
