@@ -432,10 +432,6 @@ DestroyPresentation
 (
 )
 {
-mWindow
-=
-nsnull
-;
 mPresContext
 =
 nsnull
