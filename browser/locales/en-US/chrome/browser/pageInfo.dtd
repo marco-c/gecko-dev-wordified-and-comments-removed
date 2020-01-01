@@ -925,9 +925,10 @@ page
 ENTITY
 securityView
 .
-label
+certView
 "
 View
+Certificate
 "
 >
 <
