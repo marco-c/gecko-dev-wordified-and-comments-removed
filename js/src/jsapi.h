@@ -3597,7 +3597,7 @@ object
 \
 JS_ASSERT
 (
-object
+obj_
 )
 ;
 \
@@ -3635,7 +3635,7 @@ string
 \
 JS_ASSERT
 (
-string
+str_
 )
 ;
 \
@@ -3673,7 +3673,7 @@ number
 \
 JS_ASSERT
 (
-number
+num_
 )
 ;
 \
