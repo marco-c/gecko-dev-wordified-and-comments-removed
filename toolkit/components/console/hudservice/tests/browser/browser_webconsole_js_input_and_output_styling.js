@@ -89,14 +89,10 @@ jsterm
 =
 HUDService
 .
-hudWeakReferences
+hudReferences
 [
 hudId
 ]
-.
-get
-(
-)
 .
 jsterm
 ;
