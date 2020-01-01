@@ -12,10 +12,6 @@ b
 eval
 (
 "
-dis
-(
-)
-;
 arguments
 "
 )
@@ -37,6 +33,6 @@ assertEq
 a
 .
 length
-4
+0
 )
 ;
