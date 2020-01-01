@@ -102,6 +102,15 @@ nsIFile
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIMemoryReporter
 ;
@@ -180,6 +189,7 @@ data
 ;
 class
 StartupCacheListener
+MOZ_FINAL
 :
 public
 nsIObserver
@@ -461,6 +471,7 @@ ifdef
 DEBUG
 class
 StartupCacheDebugOutputStream
+MOZ_FINAL
 :
 public
 nsIObjectOutputStream
@@ -545,6 +556,7 @@ NS_STARTUPCACHE_CID
 }
 class
 StartupCacheWrapper
+MOZ_FINAL
 :
 public
 nsIStartupCache
