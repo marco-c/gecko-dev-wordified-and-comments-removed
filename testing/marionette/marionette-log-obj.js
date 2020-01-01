@@ -1,7 +1,3 @@
-this
-.
-MarionetteLogObj
-=
 function
 MarionetteLogObj
 (

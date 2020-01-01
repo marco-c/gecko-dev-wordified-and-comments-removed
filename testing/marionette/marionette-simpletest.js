@@ -1,7 +1,3 @@
-this
-.
-Marionette
-=
 function
 Marionette
 (
