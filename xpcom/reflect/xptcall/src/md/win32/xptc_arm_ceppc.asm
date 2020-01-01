@@ -2255,7 +2255,7 @@ result
 is
 in
 r0
-str
+ldr
 r0
 [
 sp
@@ -2266,6 +2266,13 @@ unwinding
 the
 stack
 str
+r0
+[
+sp
+#
+0x20
+]
+ldr
 r0
 [
 sp
