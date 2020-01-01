@@ -934,9 +934,6 @@ STLElementDeleter
 public
 :
 STLElementDeleter
-<
-STLContainer
->
 (
 STLContainer
 *
@@ -951,9 +948,6 @@ ptr
 }
 ~
 STLElementDeleter
-<
-STLContainer
->
 (
 )
 {
@@ -982,9 +976,6 @@ STLValueDeleter
 public
 :
 STLValueDeleter
-<
-STLContainer
->
 (
 STLContainer
 *
@@ -999,9 +990,6 @@ ptr
 }
 ~
 STLValueDeleter
-<
-STLContainer
->
 (
 )
 {
