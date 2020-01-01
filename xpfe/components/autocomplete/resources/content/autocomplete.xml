@@ -5483,7 +5483,6 @@ nsIAutoCompleteStatus
 .
 failureItems
 )
-{
 +
 +
 this
