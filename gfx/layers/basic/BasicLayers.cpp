@@ -2613,6 +2613,7 @@ r
 .
 height
 )
+PR_TRUE
 )
 ;
 mTarget
