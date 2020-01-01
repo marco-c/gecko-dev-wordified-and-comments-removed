@@ -1984,7 +1984,7 @@ eNoRule
 eFromValue
 eNoRule
 eNoRule
-eNoRule
+eFromSubtreeIfRec
 eNoRule
 eFromSubtreeIfRec
 eNoRule
