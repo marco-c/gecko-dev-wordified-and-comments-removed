@@ -1031,14 +1031,14 @@ var
 uts
 =
 "
-addExceptionUnverifiedShort
+addExceptionUnverifiedOrBadSignatureShort
 "
 ;
 var
 utl
 =
 "
-addExceptionUnverifiedLong
+addExceptionUnverifiedOrBadSignatureLong
 "
 ;
 var

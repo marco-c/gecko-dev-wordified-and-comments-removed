@@ -798,6 +798,16 @@ USAGE_NOT_ALLOWED
 <
 7
 ;
+const
+unsigned
+long
+SIGNATURE_ALGORITHM_DISABLED
+=
+1
+<
+<
+8
+;
 /
 *
 *
