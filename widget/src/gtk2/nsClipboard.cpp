@@ -1420,7 +1420,7 @@ if
 !
 htmlBodyLen
 )
-break
+continue
 ;
 data
 =
