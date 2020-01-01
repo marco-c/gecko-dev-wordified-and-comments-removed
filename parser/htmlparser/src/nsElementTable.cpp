@@ -3111,7 +3111,7 @@ MOZ_MEDIA
 )
 {
 eHTMLTag_source
-eHTMLTag_video
+eHTMLTag_unknown
 eHTMLTag_unknown
 &
 gSourceParents
