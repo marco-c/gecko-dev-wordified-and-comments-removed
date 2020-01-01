@@ -3555,7 +3555,7 @@ class
 nsSimpleGestureEvent
 :
 public
-nsInputEvent
+nsMouseEvent_base
 {
 public
 :
@@ -3574,7 +3574,7 @@ PRFloat64
 deltaArg
 )
 :
-nsInputEvent
+nsMouseEvent_base
 (
 isTrusted
 msg

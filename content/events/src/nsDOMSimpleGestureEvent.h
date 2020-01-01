@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsDOMUIEvent
+nsDOMMouseEvent
 .
 h
 "
@@ -27,7 +27,7 @@ nsDOMSimpleGestureEvent
 public
 nsIDOMSimpleGestureEvent
 public
-nsDOMUIEvent
+nsDOMMouseEvent
 {
 public
 :
@@ -47,7 +47,7 @@ nsDOMSimpleGestureEvent
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMSIMPLEGESTUREEVENT
-NS_FORWARD_TO_NSDOMUIEVENT
+NS_FORWARD_TO_NSDOMMOUSEEVENT
 }
 ;
 #
