@@ -446,6 +446,16 @@ pref
 "
 browser
 .
+enable_click_image_resizing
+"
+true
+)
+;
+pref
+(
+"
+browser
+.
 send_pings
 "
 false
