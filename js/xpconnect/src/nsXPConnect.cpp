@@ -5805,11 +5805,10 @@ XPCWrappedNative
 *
 xpcWrapper
 =
-(
 XPCWrappedNative
-*
-)
-xpc_GetJSPrivate
+:
+:
+Get
 (
 obj
 )
