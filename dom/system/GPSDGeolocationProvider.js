@@ -670,7 +670,6 @@ watch
 function
 (
 c
-isPrivate
 )
 {
 LOG
