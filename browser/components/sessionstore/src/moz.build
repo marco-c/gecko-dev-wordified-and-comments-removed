@@ -139,6 +139,11 @@ SessionCookies
 jsm
 '
 '
+SessionHistory
+.
+jsm
+'
+'
 SessionMigration
 .
 jsm
