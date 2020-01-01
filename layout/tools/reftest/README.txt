@@ -965,8 +965,8 @@ asserts
 -
 if
 (
-2
 cocoaWidget
+2
 )
 load
 crashtest
