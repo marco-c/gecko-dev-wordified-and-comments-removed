@@ -510,6 +510,10 @@ PuppetWidget
 .
 cpp
 \
+nsFilePickerProxy
+.
+cpp
+\
 (
 NULL
 )
@@ -544,6 +548,7 @@ gtk2
 os2
 cocoa
 windows
+android
 (
 MOZ_WIDGET_TOOLKIT
 )
