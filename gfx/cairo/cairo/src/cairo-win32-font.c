@@ -60,6 +60,17 @@ private
 h
 "
 #
+include
+"
+cairo
+-
+error
+-
+private
+.
+h
+"
+#
 ifndef
 SPI_GETFONTSMOOTHINGTYPE
 #
@@ -3940,7 +3951,7 @@ base
 .
 options
 .
-hint_style
+hint_metrics
 !
 =
 CAIRO_HINT_METRICS_OFF

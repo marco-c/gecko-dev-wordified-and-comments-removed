@@ -8,6 +8,17 @@ cairoint
 .
 h
 "
+#
+include
+"
+cairo
+-
+error
+-
+private
+.
+h
+"
 static
 const
 cairo_font_face_t

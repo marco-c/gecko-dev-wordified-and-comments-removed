@@ -6,10 +6,6 @@ define
 CAIRO_DEPRECATED_H
 #
 define
-CAIRO_FORMAT_RGB16_565
-4
-#
-define
 CAIRO_FONT_TYPE_ATSUI
 CAIRO_FONT_TYPE_QUARTZ
 #
@@ -228,10 +224,6 @@ cairo_matrix_get_affine_DEPRECATED_BY_cairo_matrix_t
 define
 cairo_set_target_surface
 cairo_set_target_surface_DEPRECATED_BY_cairo_create
-#
-define
-cairo_set_target_glitz
-cairo_set_target_glitz_DEPRECATED_BY_cairo_glitz_surface_create
 #
 define
 cairo_set_target_image

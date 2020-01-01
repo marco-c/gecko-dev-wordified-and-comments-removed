@@ -251,10 +251,6 @@ clip
 cairo_array_t
 commands
 ;
-cairo_surface_t
-*
-commands_owner
-;
 int
 replay_start_idx
 ;
@@ -321,6 +317,10 @@ _cairo_recording_surface_replay_region
 cairo_surface_t
 *
 surface
+const
+cairo_rectangle_int_t
+*
+surface_extents
 cairo_surface_t
 *
 target

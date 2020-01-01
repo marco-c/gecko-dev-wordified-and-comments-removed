@@ -35,11 +35,6 @@ dxgi
 .
 h
 >
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -60,7 +55,6 @@ private
 .
 h
 "
-}
 #
 include
 "
