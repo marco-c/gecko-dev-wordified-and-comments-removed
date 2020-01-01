@@ -681,6 +681,15 @@ NS_LITERAL_CSTRING
 image
 /
 png
+image
+/
+*
+;
+q
+=
+0
+.
+8
 *
 /
 *
