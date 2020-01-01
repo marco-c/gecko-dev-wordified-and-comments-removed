@@ -505,6 +505,10 @@ css
 \
 bug437844
 .
+dtd
+\
+bug437844
+.
 manifest
 \
 test_bug437844
