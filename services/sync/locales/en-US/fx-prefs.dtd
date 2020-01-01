@@ -22,6 +22,17 @@ Setup
 <
 !
 ENTITY
+connectTo
+.
+label
+"
+Connect
+to
+"
+>
+<
+!
+ENTITY
 serverType
 .
 main
