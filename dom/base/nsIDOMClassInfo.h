@@ -123,12 +123,6 @@ nsIXPCScriptable
 :
 :
 WANT_PRECREATE
-|
-\
-nsIXPCScriptable
-:
-:
-WANT_POSTCREATE
 )
 #
 define

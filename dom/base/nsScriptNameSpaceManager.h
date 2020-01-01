@@ -109,6 +109,9 @@ class
 nsICategoryManager
 ;
 class
+GlobalNameMapEntry
+;
+class
 nsScriptNameSpaceManager
 {
 public
@@ -166,6 +169,11 @@ char
 aClassName
 PRInt32
 aDOMClassInfoID
+const
+PRUnichar
+*
+*
+aResult
 )
 ;
 nsresult
@@ -251,6 +259,13 @@ const
 char
 *
 aKey
+const
+PRUnichar
+*
+*
+aClassName
+=
+nsnull
 )
 ;
 nsresult
