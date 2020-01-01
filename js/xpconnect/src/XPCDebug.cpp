@@ -478,7 +478,7 @@ cx
 xpcDumpEvalErrorReporter
 )
 ;
-js
+JS
 :
 :
 RootedValue

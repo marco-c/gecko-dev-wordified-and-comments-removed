@@ -1002,7 +1002,7 @@ NS_ConvertUTF16toUTF8
 mName
 )
 ;
-js
+JS
 :
 :
 RootedObject
@@ -1227,7 +1227,7 @@ NS_ConvertUTF16toUTF8
 mName
 )
 ;
-js
+JS
 :
 :
 RootedObject

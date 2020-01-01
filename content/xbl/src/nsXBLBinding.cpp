@@ -6223,7 +6223,7 @@ aCx
 xblScope
 )
 ;
-js
+JS
 :
 :
 RootedId
@@ -6326,7 +6326,7 @@ aXBLScope
 )
 ;
 }
-js
+JS
 :
 :
 RootedValue

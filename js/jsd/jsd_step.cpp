@@ -377,7 +377,7 @@ before
 isConstructing
 )
 {
-js
+JS
 :
 :
 RootedValue

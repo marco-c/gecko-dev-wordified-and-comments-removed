@@ -15973,7 +15973,7 @@ GetAutoPtrComparator
 mTimeouts
 )
 ;
-js
+JS
 :
 :
 RootedObject

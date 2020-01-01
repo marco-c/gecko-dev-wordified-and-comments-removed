@@ -151,7 +151,7 @@ bool
 _retval
 )
 {
-js
+JS
 :
 :
 RootedObject
@@ -161,7 +161,7 @@ cx
 obj_
 )
 ;
-js
+JS
 :
 :
 RootedId
@@ -218,7 +218,7 @@ return
 NS_OK
 ;
 }
-js
+JS
 :
 :
 RootedObject

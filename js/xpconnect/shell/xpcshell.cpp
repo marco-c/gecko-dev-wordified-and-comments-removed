@@ -2384,7 +2384,7 @@ setPrincipals
 gJSPrincipals
 )
 ;
-js
+JS
 :
 :
 RootedObject
@@ -5294,7 +5294,7 @@ setPrincipals
 gJSPrincipals
 )
 ;
-js
+JS
 :
 :
 RootedObject
