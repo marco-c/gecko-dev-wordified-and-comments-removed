@@ -464,6 +464,14 @@ test_bug291377
 .
 html
 \
+file_bug291653
+.
+html
+\
+test_bug291653
+.
+html
+\
 test_bug308856
 .
 html
