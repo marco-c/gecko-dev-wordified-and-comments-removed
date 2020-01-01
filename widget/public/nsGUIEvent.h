@@ -3698,6 +3698,12 @@ kNoDefer
 <
 <
 5
+kIsMomentum
+=
+1
+<
+<
+6
 }
 ;
 nsMouseScrollEvent
