@@ -1388,6 +1388,7 @@ onPreInsert
 (
 values
 uri
+db
 )
 ;
 try
@@ -1523,6 +1524,7 @@ onPreUpdate
 (
 values
 uri
+db
 )
 ;
 try
@@ -1685,6 +1687,7 @@ onPostQuery
 (
 cursor
 uri
+db
 )
 ;
 }
@@ -1759,6 +1762,8 @@ ContentValues
 values
 Uri
 uri
+SQLiteBridge
+db
 )
 ;
 public
@@ -1770,6 +1775,8 @@ ContentValues
 values
 Uri
 uri
+SQLiteBridge
+db
 )
 ;
 public
@@ -1781,6 +1788,8 @@ Cursor
 cursor
 Uri
 uri
+SQLiteBridge
+db
 )
 ;
 }
