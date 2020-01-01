@@ -2185,7 +2185,7 @@ cand
 {
 throw
 "
-Invalid
+NULL
 candidate
 passed
 to
@@ -2200,12 +2200,6 @@ if
 cand
 .
 candidate
-|
-|
-!
-cand
-.
-sdpMid
 |
 |
 !
@@ -2246,6 +2240,10 @@ candidate
 cand
 .
 sdpMid
+|
+|
+"
+"
 cand
 .
 sdpMLineIndex
