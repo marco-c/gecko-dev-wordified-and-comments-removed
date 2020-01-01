@@ -318,6 +318,14 @@ test_bug854082
 .
 html
 \
+test_bug863792
+.
+html
+\
+file_bug863792
+.
+html
+\
 test_enumerate
 .
 html
