@@ -718,7 +718,7 @@ cb
 const
 ;
 void
-Unlink
+UnlinkJSObjects
 (
 )
 ;
