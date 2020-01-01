@@ -1325,9 +1325,6 @@ aJSObject
 nsISupports
 *
 aObj
-nsIURI
-*
-aTargetURI
 nsIClassInfo
 *
 aClassInfo
