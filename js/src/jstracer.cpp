@@ -1716,7 +1716,7 @@ TraceRecorder
 guard_0
 (
 bool
-ok
+expected
 void
 *
 a
@@ -1733,7 +1733,7 @@ lir
 >
 insGuard
 (
-ok
+expected
 ?
 LIR_xf
 :
@@ -1757,7 +1757,7 @@ TraceRecorder
 guard_h
 (
 bool
-ok
+expected
 void
 *
 a
@@ -1774,7 +1774,7 @@ lir
 >
 insGuard
 (
-ok
+expected
 ?
 LIR_xf
 :
@@ -1805,7 +1805,7 @@ TraceRecorder
 guard_ov
 (
 bool
-ok
+expected
 void
 *
 a
@@ -1825,7 +1825,7 @@ lir
 >
 insGuard
 (
-ok
+expected
 ?
 LIR_xf
 :
