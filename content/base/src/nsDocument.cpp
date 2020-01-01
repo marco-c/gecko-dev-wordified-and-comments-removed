@@ -28860,14 +28860,6 @@ mLayoutHistoryState
 =
 nsnull
 ;
-nsContentList
-:
-:
-OnDocumentDestroy
-(
-this
-)
-;
 mExternalResourceMap
 .
 Shutdown

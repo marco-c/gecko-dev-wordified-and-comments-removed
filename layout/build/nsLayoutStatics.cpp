@@ -1317,13 +1317,6 @@ Shutdown
 (
 )
 ;
-nsContentList
-:
-:
-Shutdown
-(
-)
-;
 nsComputedDOMStyle
 :
 :
