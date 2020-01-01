@@ -258,7 +258,7 @@ exe
 #
 define
 MAX_NOLEAK_BUFFERS
-100
+1000
 char
 noleak_buffers
 [
