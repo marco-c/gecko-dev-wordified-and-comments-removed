@@ -1398,12 +1398,11 @@ nsnull
 ;
 }
 }
-nsIFrame
-*
+nsFrameList
 nsMenuFrame
 :
 :
-GetFirstChild
+GetChildList
 (
 nsIAtom
 *
@@ -1430,7 +1429,7 @@ return
 nsBoxFrame
 :
 :
-GetFirstChild
+GetChildList
 (
 aListName
 )

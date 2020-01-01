@@ -276,9 +276,8 @@ NS_OK
 ;
 }
 virtual
-nsIFrame
-*
-GetFirstChild
+nsFrameList
+GetChildList
 (
 nsIAtom
 *

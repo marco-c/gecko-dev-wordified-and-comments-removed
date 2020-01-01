@@ -4947,7 +4947,7 @@ MarkFramesForDisplayList
 this
 mAbsoluteContainer
 .
-GetFirstChild
+GetChildList
 (
 )
 aDirtyRect
@@ -4996,12 +4996,11 @@ return
 nsnull
 ;
 }
-nsIFrame
-*
+nsFrameList
 nsPositionedInlineFrame
 :
 :
-GetFirstChild
+GetChildList
 (
 nsIAtom
 *
@@ -5022,7 +5021,7 @@ aListName
 return
 mAbsoluteContainer
 .
-GetFirstChild
+GetChildList
 (
 )
 ;
@@ -5030,7 +5029,7 @@ return
 nsInlineFrame
 :
 :
-GetFirstChild
+GetChildList
 (
 aListName
 )

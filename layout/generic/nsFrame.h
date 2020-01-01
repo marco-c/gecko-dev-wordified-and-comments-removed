@@ -512,9 +512,8 @@ aIndex
 const
 ;
 virtual
-nsIFrame
-*
-GetFirstChild
+nsFrameList
+GetChildList
 (
 nsIAtom
 *
