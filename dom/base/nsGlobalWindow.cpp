@@ -4261,9 +4261,6 @@ this
 ;
 #
 endif
-delete
-mPendingStorageEventsObsolete
-;
 if
 (
 mURLProperty
@@ -4580,6 +4577,9 @@ nsnull
 mIndexedDB
 =
 nsnull
+;
+delete
+mPendingStorageEventsObsolete
 ;
 ClearControllers
 (
@@ -5554,6 +5554,10 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR
 (
 mFocusedNode
 )
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMARRAY
+(
+mPendingStorageEvents
+)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
@@ -5645,6 +5649,10 @@ mDummyJavaPluginOwner
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
 (
 mFocusedNode
+)
+NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMARRAY
+(
+mPendingStorageEvents
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 struct
@@ -33095,7 +33103,7 @@ IsFrozen
 {
 mPendingStorageEvents
 .
-AppendElement
+AppendObject
 (
 event
 )
@@ -33323,7 +33331,7 @@ i
 <
 mPendingStorageEvents
 .
-Length
+Count
 (
 )
 ;
