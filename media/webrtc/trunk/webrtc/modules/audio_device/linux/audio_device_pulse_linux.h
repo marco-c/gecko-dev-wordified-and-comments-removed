@@ -1227,8 +1227,8 @@ _inputDeviceIsSpecified
 bool
 _outputDeviceIsSpecified
 ;
-uint32_t
-_samplingFreq
+int
+sample_rate_hz_
 ;
 uint8_t
 _recChannels
