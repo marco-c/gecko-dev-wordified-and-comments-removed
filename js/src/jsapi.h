@@ -8917,9 +8917,7 @@ spare
 ;
 }
 ;
-typedef
 struct
-JSJitInfo
 JSJitInfo
 ;
 typedef
