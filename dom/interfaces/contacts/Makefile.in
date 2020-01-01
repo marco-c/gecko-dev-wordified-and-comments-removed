@@ -102,6 +102,10 @@ nsIDOMContactManager
 .
 idl
 \
+nsIDOMMozContactChangeEvent
+.
+idl
+\
 (
 NULL
 )
