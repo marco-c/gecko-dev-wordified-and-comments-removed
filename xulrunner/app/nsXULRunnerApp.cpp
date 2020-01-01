@@ -48,7 +48,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -402,7 +402,7 @@ Error
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 iniFile
 ;
@@ -755,7 +755,7 @@ rv
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 appFile
 ;
@@ -860,13 +860,13 @@ aLeafName
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 appLocation
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 installTo
 ;
@@ -1035,7 +1035,7 @@ public
 :
 AutoAppData
 (
-nsILocalFile
+nsIFile
 *
 aINIFile
 )
@@ -1655,7 +1655,7 @@ kAppEnv
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 appDataLF
 ;

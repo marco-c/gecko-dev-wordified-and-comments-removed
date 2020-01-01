@@ -83,7 +83,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -2007,7 +2007,7 @@ aFile
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 =
@@ -2786,7 +2786,7 @@ mozJSComponentLoader
 :
 GlobalForLocation
 (
-nsILocalFile
+nsIFile
 *
 aComponentFile
 nsIURI
@@ -3037,7 +3037,7 @@ global
 aComponentFile
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -4957,7 +4957,7 @@ rv
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 sourceLocalFile
 ;

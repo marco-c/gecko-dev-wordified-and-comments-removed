@@ -189,7 +189,7 @@ pathname
 inconsistencies
 .
 The
-nsILocalFile
+nsIFile
 persistent
 *
 descriptor
@@ -620,13 +620,13 @@ setShortcut
 optional
 ]
 in
-nsILocalFile
+nsIFile
 targetFile
 [
 optional
 ]
 in
-nsILocalFile
+nsIFile
 workingDir
 [
 optional
@@ -644,7 +644,7 @@ description
 optional
 ]
 in
-nsILocalFile
+nsIFile
 iconFile
 [
 optional

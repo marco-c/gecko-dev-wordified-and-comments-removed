@@ -110,7 +110,7 @@ interface
 nsICacheListener
 ;
 interface
-nsILocalFile
+nsIFile
 ;
 [
 scriptable
@@ -243,7 +243,7 @@ process
 *
 /
 attribute
-nsILocalFile
+nsIFile
 profileDirectory
 ;
 /

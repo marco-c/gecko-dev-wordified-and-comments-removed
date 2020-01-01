@@ -110,7 +110,7 @@ interface
 nsIMIMEInfo
 ;
 interface
-nsILocalFile
+nsIFile
 ;
 [
 scriptable
@@ -397,7 +397,7 @@ in
 PRTime
 startTime
 in
-nsILocalFile
+nsIFile
 aTempFile
 in
 nsICancelable

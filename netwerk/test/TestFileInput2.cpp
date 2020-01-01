@@ -78,7 +78,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -1948,7 +1948,7 @@ nsnull
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 inDirFile
 ;
@@ -1979,7 +1979,7 @@ rv
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 outDirFile
 ;

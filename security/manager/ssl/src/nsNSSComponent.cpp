@@ -309,7 +309,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -3327,7 +3327,7 @@ il
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mozFile
 ;
@@ -3398,7 +3398,7 @@ continue
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 nssLib
 (
@@ -3491,7 +3491,7 @@ il
 ]
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (

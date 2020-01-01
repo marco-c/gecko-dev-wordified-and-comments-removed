@@ -147,7 +147,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -1529,7 +1529,7 @@ Clear
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 theFile
 ;
@@ -1824,7 +1824,7 @@ bool
 inAllowMultiple
 nsCOMArray
 <
-nsILocalFile
+nsIFile
 >
 &
 outFiles
@@ -2402,7 +2402,7 @@ continue
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 ;
@@ -2513,7 +2513,7 @@ const
 nsString
 &
 inTitle
-nsILocalFile
+nsIFile
 *
 *
 outFile
@@ -2758,7 +2758,7 @@ theURL
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 ;
@@ -2860,7 +2860,7 @@ const
 nsString
 &
 inDefaultName
-nsILocalFile
+nsIFile
 *
 *
 outFile
@@ -3071,7 +3071,7 @@ fileURL
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 ;
@@ -3540,7 +3540,7 @@ Converts
 path
 from
 an
-nsILocalFile
+nsIFile
 into
 a
 NSString
@@ -3627,7 +3627,7 @@ nsFilePicker
 :
 GetFile
 (
-nsILocalFile
+nsIFile
 *
 *
 aFile

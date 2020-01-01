@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsILocalFile
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -663,7 +656,7 @@ keys
 void
 SetCacheParentDirectory
 (
-nsILocalFile
+nsIFile
 *
 parentDir
 )
@@ -675,7 +668,7 @@ PRUint32
 capacity
 )
 ;
-nsILocalFile
+nsIFile
 *
 BaseDirectory
 (
@@ -685,7 +678,7 @@ return
 mBaseDirectory
 ;
 }
-nsILocalFile
+nsIFile
 *
 CacheDirectory
 (
@@ -1106,13 +1099,13 @@ mStatement_EnumerateGroupsTimeOrder
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mBaseDirectory
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mCacheDirectory
 ;

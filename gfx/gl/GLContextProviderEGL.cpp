@@ -220,7 +220,7 @@ XP_WIN
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "

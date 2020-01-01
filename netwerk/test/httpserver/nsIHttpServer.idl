@@ -67,7 +67,7 @@ interface
 nsIInputStream
 ;
 interface
-nsILocalFile
+nsIFile
 ;
 interface
 nsIOutputStream
@@ -453,7 +453,7 @@ in
 string
 path
 in
-nsILocalFile
+nsIFile
 file
 )
 ;
@@ -1080,7 +1080,7 @@ in
 string
 path
 in
-nsILocalFile
+nsIFile
 dir
 )
 ;

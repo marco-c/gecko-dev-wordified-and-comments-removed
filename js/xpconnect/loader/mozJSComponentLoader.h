@@ -239,7 +239,7 @@ UnloadModules
 nsresult
 GlobalForLocation
 (
-nsILocalFile
+nsIFile
 *
 aComponentFile
 nsIURI

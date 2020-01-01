@@ -224,7 +224,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -1813,7 +1813,7 @@ path
 .
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 rtINI
 ;
@@ -2039,7 +2039,7 @@ profile
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 directory
 ;
@@ -2088,7 +2088,7 @@ directory
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 xreDir
 ;

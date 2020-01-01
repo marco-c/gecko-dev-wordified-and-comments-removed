@@ -18,7 +18,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -855,7 +855,7 @@ aToFileName
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;

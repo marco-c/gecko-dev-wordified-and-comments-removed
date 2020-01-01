@@ -67,7 +67,7 @@ interface
 nsIUTF8StringEnumerator
 ;
 interface
-nsILocalFile
+nsIFile
 ;
 [
 scriptable
@@ -292,7 +292,7 @@ writeFile
 optional
 ]
 in
-nsILocalFile
+nsIFile
 aINIFile
 [
 optional
@@ -344,7 +344,7 @@ nsIINIParser
 createINIParser
 (
 in
-nsILocalFile
+nsIFile
 aINIFile
 )
 ;

@@ -104,7 +104,7 @@ interface
 nsIDOMWindow
 ;
 interface
-nsILocalFile
+nsIFile
 ;
 [
 scriptable
@@ -270,7 +270,7 @@ in
 nsIDOMWindow
 aWindowToDump
 in
-nsILocalFile
+nsIFile
 aFile
 in
 unsigned
@@ -356,10 +356,10 @@ long
 compareFrameModels
 (
 in
-nsILocalFile
+nsIFile
 aBaseFile
 in
-nsILocalFile
+nsIFile
 aVerFile
 in
 unsigned

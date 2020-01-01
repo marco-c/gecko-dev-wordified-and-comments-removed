@@ -105,7 +105,7 @@ interface
 nsIX509Cert
 ;
 interface
-nsILocalFile
+nsIFile
 ;
 interface
 nsIInterfaceRequestor
@@ -1331,7 +1331,7 @@ in
 nsISupports
 aToken
 in
-nsILocalFile
+nsIFile
 aFile
 in
 unsigned
@@ -1413,7 +1413,7 @@ in
 nsISupports
 aToken
 in
-nsILocalFile
+nsIFile
 aFile
 )
 ;
@@ -1514,7 +1514,7 @@ in
 nsISupports
 aToken
 in
-nsILocalFile
+nsIFile
 aFile
 in
 unsigned

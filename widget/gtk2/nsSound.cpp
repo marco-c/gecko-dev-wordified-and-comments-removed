@@ -337,7 +337,7 @@ ScopedCanberraFile
 {
 ScopedCanberraFile
 (
-nsILocalFile
+nsIFile
 *
 file
 )
@@ -381,7 +381,7 @@ forget
 )
 ;
 }
-nsILocalFile
+nsIFile
 *
 operator
 -
@@ -394,7 +394,7 @@ mFile
 ;
 }
 operator
-nsILocalFile
+nsIFile
 *
 (
 )
@@ -405,7 +405,7 @@ mFile
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mFile
 ;
@@ -745,13 +745,13 @@ void
 userdata
 )
 {
-nsILocalFile
+nsIFile
 *
 file
 =
 reinterpret_cast
 <
-nsILocalFile
+nsIFile
 *
 >
 (
@@ -1140,7 +1140,7 @@ aStatus
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 tmpFile
 ;
@@ -1155,7 +1155,7 @@ Get
 NS_OS_TEMP_DIR
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -1972,7 +1972,7 @@ fileURI
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 soundFile
 ;

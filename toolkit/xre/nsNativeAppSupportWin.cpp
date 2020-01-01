@@ -1948,7 +1948,7 @@ lpData
 endif
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 workingDir
 ;

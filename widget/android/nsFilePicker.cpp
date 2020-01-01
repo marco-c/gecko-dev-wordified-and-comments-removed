@@ -307,7 +307,7 @@ nsFilePicker
 :
 GetDisplayDirectory
 (
-nsILocalFile
+nsIFile
 *
 *
 aDisplayDirectory
@@ -323,7 +323,7 @@ nsFilePicker
 :
 SetDisplayDirectory
 (
-nsILocalFile
+nsIFile
 *
 aDisplayDirectory
 )
@@ -338,7 +338,7 @@ nsFilePicker
 :
 GetFile
 (
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -369,7 +369,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 (
@@ -443,7 +443,7 @@ aFileURL
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;

@@ -163,9 +163,6 @@ PrefTuple
 interface
 nsIFile
 ;
-interface
-nsILocalFile
-;
 /
 *
 *

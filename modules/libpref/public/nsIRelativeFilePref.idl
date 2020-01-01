@@ -101,7 +101,7 @@ nsISupports
 idl
 "
 interface
-nsILocalFile
+nsIFile
 ;
 /
 *
@@ -115,7 +115,7 @@ a
 wrapper
 for
 an
-nsILocalFile
+nsIFile
 and
 *
 and
@@ -216,7 +216,7 @@ retrieved
 *
 /
 attribute
-nsILocalFile
+nsIFile
 file
 ;
 /
@@ -327,7 +327,7 @@ inline
 nsresult
 NS_NewRelativeFilePref
 (
-nsILocalFile
+nsIFile
 *
 aFile
 const

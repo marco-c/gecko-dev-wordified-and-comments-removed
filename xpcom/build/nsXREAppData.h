@@ -14,7 +14,7 @@ StandardInteger
 h
 "
 class
-nsILocalFile
+nsIFile
 ;
 struct
 nsXREAppData
@@ -22,7 +22,7 @@ nsXREAppData
 uint32_t
 size
 ;
-nsILocalFile
+nsIFile
 *
 directory
 ;
@@ -59,7 +59,7 @@ copyright
 uint32_t
 flags
 ;
-nsILocalFile
+nsIFile
 *
 xreDirectory
 ;

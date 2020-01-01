@@ -257,7 +257,7 @@ interval
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 resultFile
 ;

@@ -5060,7 +5060,7 @@ fileIter
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 singleFile
 ;
@@ -5130,7 +5130,7 @@ true
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;

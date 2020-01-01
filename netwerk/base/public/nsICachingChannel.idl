@@ -103,9 +103,6 @@ idl
 interface
 nsIFile
 ;
-interface
-nsILocalFile
-;
 /
 *
 *
@@ -765,7 +762,7 @@ used
 *
 /
 attribute
-nsILocalFile
+nsIFile
 profileDirectory
 ;
 /

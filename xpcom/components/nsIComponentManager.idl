@@ -109,7 +109,7 @@ nsISupports
 idl
 "
 interface
-nsILocalFile
+nsIFile
 ;
 interface
 nsIFactory
@@ -438,7 +438,7 @@ void
 addBootstrappedManifestLocation
 (
 in
-nsILocalFile
+nsIFile
 aLocation
 )
 ;
@@ -485,7 +485,7 @@ void
 removeBootstrappedManifestLocation
 (
 in
-nsILocalFile
+nsIFile
 aLocation
 )
 ;

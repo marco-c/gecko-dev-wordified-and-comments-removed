@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -676,7 +676,7 @@ true
 static
 already_AddRefed
 <
-nsILocalFile
+nsIFile
 >
 GetRegDirectory
 (
@@ -696,7 +696,7 @@ leafname
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 f
 ;
@@ -818,7 +818,7 @@ XRE_AddManifestLocation
 NS_COMPONENT_LOCATION
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 (
 GetRegDirectory
@@ -841,7 +841,7 @@ XRE_AddManifestLocation
 NS_COMPONENT_LOCATION
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 (
 GetRegDirectory
@@ -864,7 +864,7 @@ XRE_AddJarManifestLocation
 NS_COMPONENT_LOCATION
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 (
 GetRegDirectory

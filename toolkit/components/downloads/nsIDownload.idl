@@ -104,7 +104,7 @@ interface
 nsIURI
 ;
 interface
-nsILocalFile
+nsIFile
 ;
 interface
 nsIObserver
@@ -225,7 +225,7 @@ system
 /
 readonly
 attribute
-nsILocalFile
+nsIFile
 targetFile
 ;
 /

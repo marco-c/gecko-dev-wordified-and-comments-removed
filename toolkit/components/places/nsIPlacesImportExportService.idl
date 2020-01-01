@@ -99,7 +99,7 @@ nsISupports
 idl
 "
 interface
-nsILocalFile
+nsIFile
 ;
 interface
 nsIURI
@@ -200,7 +200,7 @@ void
 exportHTMLToFile
 (
 in
-nsILocalFile
+nsIFile
 aFile
 )
 ;

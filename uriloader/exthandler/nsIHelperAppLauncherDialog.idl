@@ -104,7 +104,7 @@ interface
 nsIHelperAppLauncher
 ;
 interface
-nsILocalFile
+nsIFile
 ;
 /
 *
@@ -461,7 +461,7 @@ dialog
 Returns
 the
 a
-nsILocalFile
+nsIFile
 for
 the
 file
@@ -548,7 +548,7 @@ prompted
 .
 *
 /
-nsILocalFile
+nsIFile
 promptForSaveToFile
 (
 in

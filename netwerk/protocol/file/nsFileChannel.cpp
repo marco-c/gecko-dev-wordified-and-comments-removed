@@ -865,7 +865,7 @@ fileTarget
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 resolvedFile
 ;

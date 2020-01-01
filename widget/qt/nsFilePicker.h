@@ -132,7 +132,7 @@ aFilterIndex
 NS_IMETHODIMP
 GetFile
 (
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -193,7 +193,7 @@ mDialog
 ;
 nsCOMArray
 <
-nsILocalFile
+nsIFile
 >
 mFiles
 ;

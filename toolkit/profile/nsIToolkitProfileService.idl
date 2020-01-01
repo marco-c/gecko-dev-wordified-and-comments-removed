@@ -105,9 +105,6 @@ interface
 nsIFile
 ;
 interface
-nsILocalFile
-;
-interface
 nsIToolkitProfile
 ;
 interface
@@ -236,10 +233,10 @@ nsIProfileLock
 lockProfilePath
 (
 in
-nsILocalFile
+nsIFile
 aDirectory
 in
-nsILocalFile
+nsIFile
 aTempDirectory
 )
 ;
@@ -331,10 +328,10 @@ nsIToolkitProfile
 createProfile
 (
 in
-nsILocalFile
+nsIFile
 aRootDir
 in
-nsILocalFile
+nsIFile
 aTempDir
 in
 AUTF8String

@@ -121,7 +121,7 @@ nsCacheSession
 :
 SetProfileDirectory
 (
-nsILocalFile
+nsIFile
 *
 profileDir
 )
@@ -160,7 +160,7 @@ nsCacheSession
 :
 GetProfileDirectory
 (
-nsILocalFile
+nsIFile
 *
 *
 profileDir

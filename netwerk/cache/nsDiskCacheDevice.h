@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -222,7 +222,7 @@ entrySize
 void
 SetCacheParentDirectory
 (
-nsILocalFile
+nsIFile
 *
 parentDir
 )
@@ -244,7 +244,7 @@ maxSizeInKilobytes
 void
 getCacheDirectory
 (
-nsILocalFile
+nsIFile
 *
 *
 result
@@ -383,7 +383,7 @@ targetCapacity
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mCacheDirectory
 ;

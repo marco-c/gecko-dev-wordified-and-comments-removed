@@ -171,7 +171,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "

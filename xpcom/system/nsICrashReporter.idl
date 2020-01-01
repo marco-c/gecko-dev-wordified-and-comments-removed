@@ -64,7 +64,7 @@ nsISupports
 idl
 "
 interface
-nsILocalFile
+nsIFile
 ;
 interface
 nsIURL
@@ -257,7 +257,7 @@ initialized
 *
 /
 attribute
-nsILocalFile
+nsIFile
 minidumpPath
 ;
 /

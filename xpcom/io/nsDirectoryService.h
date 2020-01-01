@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -133,7 +133,7 @@ private
 nsresult
 GetCurrentProcessDirectory
 (
-nsILocalFile
+nsIFile
 *
 *
 aFile

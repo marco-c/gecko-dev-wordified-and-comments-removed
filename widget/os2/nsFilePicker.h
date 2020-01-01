@@ -142,7 +142,7 @@ aFilterIndex
 NS_IMETHOD
 GetFile
 (
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -284,7 +284,7 @@ mSelectedType
 ;
 nsCOMArray
 <
-nsILocalFile
+nsIFile
 >
 mFiles
 ;

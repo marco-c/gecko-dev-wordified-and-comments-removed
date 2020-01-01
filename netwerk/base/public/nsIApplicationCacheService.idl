@@ -100,7 +100,7 @@ interface
 nsIApplicationCache
 ;
 interface
-nsILocalFile
+nsIFile
 ;
 /
 *
@@ -244,7 +244,7 @@ in
 ACString
 group
 in
-nsILocalFile
+nsIFile
 profileDir
 in
 PRInt32

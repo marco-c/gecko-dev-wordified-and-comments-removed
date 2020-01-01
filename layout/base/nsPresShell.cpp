@@ -35655,7 +35655,7 @@ EmptyString
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 =

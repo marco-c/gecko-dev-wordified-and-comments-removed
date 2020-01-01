@@ -103,7 +103,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -488,7 +488,7 @@ argv
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 appini
 ;

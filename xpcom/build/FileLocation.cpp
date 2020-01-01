@@ -163,17 +163,6 @@ cfile
 )
 )
 ;
-nsCOMPtr
-<
-nsILocalFile
->
-clfile
-=
-do_QueryInterface
-(
-cfile
-)
-;
 #
 if
 defined
@@ -241,7 +230,7 @@ p
 ;
 }
 }
-clfile
+cfile
 -
 >
 AppendRelativeNativePath
@@ -251,7 +240,7 @@ pathStr
 ;
 #
 else
-clfile
+cfile
 -
 >
 AppendRelativeNativePath
@@ -266,7 +255,7 @@ path
 endif
 Init
 (
-clfile
+cfile
 )
 ;
 }
@@ -371,7 +360,7 @@ mPath
 }
 already_AddRefed
 <
-nsILocalFile
+nsIFile
 >
 FileLocation
 :
@@ -423,7 +412,7 @@ NULL
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 =

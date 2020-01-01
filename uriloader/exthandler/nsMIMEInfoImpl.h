@@ -465,7 +465,7 @@ GetLocalFileFromURI
 nsIURI
 *
 aURI
-nsILocalFile
+nsIFile
 *
 *
 aFile

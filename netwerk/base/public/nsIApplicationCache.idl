@@ -100,7 +100,7 @@ interface
 nsIArray
 ;
 interface
-nsILocalFile
+nsIFile
 ;
 /
 *
@@ -1267,7 +1267,7 @@ profile
 /
 readonly
 attribute
-nsILocalFile
+nsIFile
 cacheDirectory
 ;
 }

@@ -22453,7 +22453,7 @@ nsHttpChannel
 :
 GetProfileDirectory
 (
-nsILocalFile
+nsIFile
 *
 *
 _result
@@ -22482,7 +22482,7 @@ nsHttpChannel
 :
 SetProfileDirectory
 (
-nsILocalFile
+nsIFile
 *
 value
 )

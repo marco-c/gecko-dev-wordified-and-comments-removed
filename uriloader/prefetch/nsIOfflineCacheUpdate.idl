@@ -128,7 +128,7 @@ interface
 nsIApplicationCache
 ;
 interface
-nsILocalFile
+nsIFile
 ;
 [
 scriptable
@@ -632,7 +632,7 @@ aDocument
 optional
 ]
 in
-nsILocalFile
+nsIFile
 aCustomProfileDir
 )
 ;
@@ -1156,7 +1156,7 @@ in
 nsIURI
 aDocumentURI
 in
-nsILocalFile
+nsIFile
 aProfileDir
 )
 ;

@@ -1723,7 +1723,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 lf
 ;

@@ -202,7 +202,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -26968,7 +26968,7 @@ n
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 targFile
 ;
@@ -27150,7 +27150,7 @@ kFilePromiseDirectoryMime
 macLocalFile
 sizeof
 (
-nsILocalFile
+nsIFile
 *
 )
 )

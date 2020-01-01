@@ -109,7 +109,7 @@ interface
 nsIWebProgressListener
 ;
 interface
-nsILocalFile
+nsIFile
 ;
 interface
 nsIChannel
@@ -984,7 +984,7 @@ This
 may
 be
 a
-nsILocalFile
+nsIFile
 object
 or
 an
@@ -1013,7 +1013,7 @@ ftp
 *
 *
 see
-nsILocalFile
+nsIFile
 *
 see
 nsIURI
@@ -1782,7 +1782,7 @@ This
 may
 be
 a
-nsILocalFile
+nsIFile
 object
 or
 an
@@ -1838,7 +1838,7 @@ This
 may
 be
 a
-nsILocalFile
+nsIFile
 object
 or
 an
@@ -1919,7 +1919,7 @@ flags
 *
 *
 see
-nsILocalFile
+nsIFile
 *
 see
 nsIURI

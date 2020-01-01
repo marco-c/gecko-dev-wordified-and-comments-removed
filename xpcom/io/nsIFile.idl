@@ -2056,7 +2056,7 @@ function
 will
 initialize
 the
-nsILocalFile
+nsIFile
 object
 .
 Any
@@ -2459,7 +2459,7 @@ current
 path
 of
 the
-nsILocalFile
+nsIFile
 object
 .
 *

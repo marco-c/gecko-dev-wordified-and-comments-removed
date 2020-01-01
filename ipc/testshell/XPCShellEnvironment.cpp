@@ -341,7 +341,7 @@ private
 :
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mGREDir
 ;

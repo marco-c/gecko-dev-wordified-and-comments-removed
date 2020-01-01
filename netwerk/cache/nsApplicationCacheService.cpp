@@ -148,7 +148,7 @@ const
 nsACString
 &
 group
-nsILocalFile
+nsIFile
 *
 profileDir
 PRInt32

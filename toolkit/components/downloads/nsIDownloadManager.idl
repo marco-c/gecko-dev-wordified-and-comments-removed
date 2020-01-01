@@ -119,7 +119,7 @@ interface
 nsIURI
 ;
 interface
-nsILocalFile
+nsIFile
 ;
 interface
 nsIDownload
@@ -712,7 +712,7 @@ in
 PRTime
 aStartTime
 in
-nsILocalFile
+nsIFile
 aTempFile
 in
 nsICancelable
@@ -1401,7 +1401,7 @@ directory
 /
 readonly
 attribute
-nsILocalFile
+nsIFile
 defaultDownloadsDirectory
 ;
 /
@@ -1550,7 +1550,7 @@ equals
 /
 readonly
 attribute
-nsILocalFile
+nsIFile
 userDownloadsDirectory
 ;
 }

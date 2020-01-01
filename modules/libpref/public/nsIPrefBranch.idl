@@ -896,7 +896,7 @@ are
 :
 *
 -
-nsILocalFile
+nsIFile
 *
 -
 nsISupportsString
@@ -1055,7 +1055,7 @@ are
 :
 *
 -
-nsILocalFile
+nsIFile
 *
 -
 nsISupportsString

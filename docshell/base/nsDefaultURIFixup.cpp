@@ -43,7 +43,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -2326,7 +2326,7 @@ attemptFixup
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 filePath
 ;

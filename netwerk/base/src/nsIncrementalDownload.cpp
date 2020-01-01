@@ -80,7 +80,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -189,7 +189,7 @@ static
 nsresult
 WriteToFile
 (
-nsILocalFile
+nsIFile
 *
 lf
 const
@@ -266,7 +266,7 @@ static
 nsresult
 AppendToFile
 (
-nsILocalFile
+nsIFile
 *
 lf
 const
@@ -517,7 +517,7 @@ mFinalURI
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mDest
 ;

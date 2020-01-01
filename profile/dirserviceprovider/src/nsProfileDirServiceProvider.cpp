@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -341,7 +341,7 @@ ifdef
 MOZ_PROFILELOCKING
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 dirToLock
 ;
@@ -351,18 +351,12 @@ mSharingEnabled
 )
 dirToLock
 =
-do_QueryInterface
-(
 mNonSharedProfileDir
-)
 ;
 else
 dirToLock
 =
-do_QueryInterface
-(
 mProfileDir
-)
 ;
 rv
 =

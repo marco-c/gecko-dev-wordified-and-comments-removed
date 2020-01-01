@@ -1046,6 +1046,17 @@ Equals
 (
 NS_GET_IID
 (
+nsIFile
+)
+)
+|
+|
+aType
+.
+Equals
+(
+NS_GET_IID
+(
 nsILocalFile
 )
 )
@@ -1063,7 +1074,7 @@ NS_ERROR
 "
 cannot
 get
-nsILocalFile
+nsIFile
 pref
 from
 content
@@ -1077,7 +1088,7 @@ NS_ERROR_NOT_AVAILABLE
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 (
@@ -1121,7 +1132,7 @@ forget
 (
 reinterpret_cast
 <
-nsILocalFile
+nsIFile
 *
 *
 >
@@ -1247,7 +1258,7 @@ keyEnd
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 fromFile
 ;
@@ -1289,7 +1300,7 @@ get
 )
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -1309,7 +1320,7 @@ rv
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 theFile
 ;
@@ -1555,6 +1566,17 @@ Equals
 (
 NS_GET_IID
 (
+nsIFile
+)
+)
+|
+|
+aType
+.
+Equals
+(
+NS_GET_IID
+(
 nsILocalFile
 )
 )
@@ -1562,7 +1584,7 @@ nsILocalFile
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 =
@@ -1651,7 +1673,7 @@ NS_NOINTERFACE
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;
@@ -1690,7 +1712,7 @@ relativeToKey
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 relativeToFile
 ;
@@ -1732,7 +1754,7 @@ get
 )
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -3586,7 +3608,7 @@ nsRelativeFilePref
 :
 GetFile
 (
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -3618,7 +3640,7 @@ nsRelativeFilePref
 :
 SetFile
 (
-nsILocalFile
+nsIFile
 *
 aFile
 )

@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -963,7 +963,7 @@ GetLocalFileFromURI
 nsIURI
 *
 aURI
-nsILocalFile
+nsIFile
 *
 *
 aFile

@@ -43,7 +43,7 @@ endif
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -218,7 +218,7 @@ aFilterIndex
 NS_IMETHOD
 GetFile
 (
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -567,7 +567,7 @@ mSelectedType
 ;
 nsCOMArray
 <
-nsILocalFile
+nsIFile
 >
 mFiles
 ;

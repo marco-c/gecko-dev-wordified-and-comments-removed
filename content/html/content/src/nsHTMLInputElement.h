@@ -119,7 +119,7 @@ FetchLastUsedDirectory
 nsIURI
 *
 aURI
-nsILocalFile
+nsIFile
 *
 *
 aFile
@@ -131,7 +131,7 @@ StoreLastUsedDirectory
 nsIURI
 *
 aURI
-nsILocalFile
+nsIFile
 *
 aFile
 )

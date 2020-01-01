@@ -2621,7 +2621,7 @@ rv
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 icoFile
 =
@@ -2813,7 +2813,7 @@ Run
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 icoFile
 =

@@ -155,7 +155,7 @@ const
 char
 *
 aPath
-nsILocalFile
+nsIFile
 *
 *
 aResult
@@ -170,7 +170,7 @@ const
 char
 *
 argv0
-nsILocalFile
+nsIFile
 *
 *
 aResult
@@ -193,7 +193,7 @@ XRE_API
 nsresult
 XRE_LockProfileDirectory
 (
-nsILocalFile
+nsIFile
 *
 aDirectory
 nsISupports
@@ -207,10 +207,10 @@ XRE_API
 nsresult
 XRE_InitEmbedding2
 (
-nsILocalFile
+nsIFile
 *
 aLibXULDirectory
-nsILocalFile
+nsIFile
 *
 aAppDirectory
 nsIDirectoryServiceProvider
@@ -247,7 +247,7 @@ XRE_AddManifestLocation
 (
 NSLocationType
 aType
-nsILocalFile
+nsIFile
 *
 aLocation
 )
@@ -259,7 +259,7 @@ XRE_AddJarManifestLocation
 (
 NSLocationType
 aType
-nsILocalFile
+nsIFile
 *
 aLocation
 )
@@ -283,7 +283,7 @@ XRE_API
 nsresult
 XRE_CreateAppData
 (
-nsILocalFile
+nsIFile
 *
 aINIFile
 nsXREAppData
@@ -297,7 +297,7 @@ XRE_API
 nsresult
 XRE_ParseAppData
 (
-nsILocalFile
+nsIFile
 *
 aINIFile
 nsXREAppData
@@ -413,7 +413,7 @@ XRE_TakeMinidumpForChild
 (
 PRUint32
 aChildPid
-nsILocalFile
+nsIFile
 *
 *
 aDump
@@ -647,10 +647,10 @@ XRE_API
 void
 XRE_InitOmnijar
 (
-nsILocalFile
+nsIFile
 *
 greOmni
-nsILocalFile
+nsIFile
 *
 appOmni
 )

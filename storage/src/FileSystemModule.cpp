@@ -33,13 +33,6 @@ nsIFile
 .
 h
 "
-#
-include
-"
-nsILocalFile
-.
-h
-"
 namespace
 {
 struct
@@ -173,7 +166,7 @@ aPath
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 directory
 =

@@ -937,7 +937,7 @@ dataSize
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 destDirectory
 =

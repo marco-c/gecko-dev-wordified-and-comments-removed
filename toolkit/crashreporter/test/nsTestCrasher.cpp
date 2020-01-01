@@ -261,7 +261,7 @@ nsISupports
 *
 LockDir
 (
-nsILocalFile
+nsIFile
 *
 directory
 )

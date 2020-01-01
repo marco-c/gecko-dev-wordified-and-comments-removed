@@ -99,7 +99,7 @@ nsISupports
 idl
 "
 interface
-nsILocalFile
+nsIFile
 ;
 interface
 nsIURI
@@ -887,7 +887,7 @@ directory
 *
 /
 attribute
-nsILocalFile
+nsIFile
 displayDirectory
 ;
 /
@@ -896,7 +896,7 @@ displayDirectory
 *
 Get
 the
-nsILocalFile
+nsIFile
 for
 the
 file
@@ -915,7 +915,7 @@ selected
 /
 readonly
 attribute
-nsILocalFile
+nsIFile
 file
 ;
 /

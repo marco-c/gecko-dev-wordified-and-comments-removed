@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -71,7 +71,7 @@ aRv
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 lf
 (

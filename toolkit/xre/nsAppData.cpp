@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -461,7 +461,7 @@ this
 >
 xreDirectory
 (
-nsILocalFile
+nsIFile
 *
 )
 nsnull
@@ -507,7 +507,7 @@ nsnull
 nsresult
 XRE_CreateAppData
 (
-nsILocalFile
+nsIFile
 *
 aINIFile
 nsXREAppData
@@ -914,7 +914,7 @@ reads
 nsresult
 XRE_ParseAppData
 (
-nsILocalFile
+nsIFile
 *
 aINIFile
 nsXREAppData

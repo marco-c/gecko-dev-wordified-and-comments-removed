@@ -397,7 +397,7 @@ mArchive
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mFile
 ;

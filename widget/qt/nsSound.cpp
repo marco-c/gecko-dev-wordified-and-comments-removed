@@ -1624,7 +1624,7 @@ fileURI
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 soundFile
 ;

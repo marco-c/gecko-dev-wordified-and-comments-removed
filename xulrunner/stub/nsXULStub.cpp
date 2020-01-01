@@ -43,7 +43,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -629,7 +629,7 @@ public
 :
 AutoAppData
 (
-nsILocalFile
+nsIFile
 *
 aINIFile
 )
@@ -2019,7 +2019,7 @@ retval
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 iniFile
 ;

@@ -7,7 +7,7 @@ __nsProfileLock_h___
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -117,7 +117,7 @@ rhs
 nsresult
 Lock
 (
-nsILocalFile
+nsIFile
 *
 aProfileDir
 nsIProfileUnlocker
@@ -230,7 +230,7 @@ mPidLockList
 nsresult
 LockWithFcntl
 (
-nsILocalFile
+nsIFile
 *
 aLockFile
 )
@@ -238,7 +238,7 @@ aLockFile
 nsresult
 LockWithSymlink
 (
-nsILocalFile
+nsIFile
 *
 aLockFile
 bool

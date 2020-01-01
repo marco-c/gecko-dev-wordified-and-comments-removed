@@ -305,7 +305,7 @@ arg
 void
 resolveShortcutURL
 (
-nsILocalFile
+nsIFile
 *
 aFile
 nsACString
@@ -1170,7 +1170,7 @@ XP_UNIX
 )
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 lf
 (
@@ -1326,7 +1326,7 @@ XP_WIN32
 )
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 lf
 (
@@ -1454,7 +1454,7 @@ XP_OS2
 )
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 lf
 (
@@ -1661,7 +1661,7 @@ workingDirURI
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 lf
 (
@@ -1829,7 +1829,7 @@ nsCommandLine
 :
 resolveShortcutURL
 (
-nsILocalFile
+nsIFile
 *
 aFile
 nsACString

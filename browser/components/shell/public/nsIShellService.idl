@@ -104,7 +104,7 @@ interface
 nsIDOMElement
 ;
 interface
-nsILocalFile
+nsIFile
 ;
 [
 scriptable
@@ -698,7 +698,7 @@ void
 openApplicationWithURI
 (
 in
-nsILocalFile
+nsIFile
 aApplication
 in
 ACString
@@ -720,7 +720,7 @@ feeds
 /
 readonly
 attribute
-nsILocalFile
+nsIFile
 defaultFeedReader
 ;
 }

@@ -39,7 +39,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -774,7 +774,7 @@ mRequest
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mTempFile
 ;
