@@ -35500,16 +35500,6 @@ gtk
 >
 =
 GTK2_VERSION
-gtk
-+
--
-unix
--
-print
--
-2
-.
-0
 gdk
 -
 x11
