@@ -13249,12 +13249,6 @@ fpascal
 -
 strings
 -
-no
--
-cpp
--
-precomp
--
 fno
 -
 common
@@ -13267,12 +13261,6 @@ CXXFLAGS
 fpascal
 -
 strings
--
-no
--
-cpp
--
-precomp
 -
 fno
 -
