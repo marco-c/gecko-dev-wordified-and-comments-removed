@@ -126,10 +126,5 @@ aResult
 ;
 }
 ;
-extern
-nsCaseConversionImp2
-*
-gCaseConv
-;
 #
 endif

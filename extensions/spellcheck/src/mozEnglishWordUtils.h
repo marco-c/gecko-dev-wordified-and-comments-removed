@@ -42,13 +42,6 @@ h
 #
 include
 "
-nsICaseConversion
-.
-h
-"
-#
-include
-"
 nsIUGenCategory
 .
 h
@@ -126,12 +119,6 @@ mLanguage
 ;
 nsString
 mCharset
-;
-nsCOMPtr
-<
-nsICaseConversion
->
-mCaseConv
 ;
 nsCOMPtr
 <
