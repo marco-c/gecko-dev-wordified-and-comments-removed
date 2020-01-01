@@ -1462,8 +1462,8 @@ killWorkerWhenDone
 nsLazyAutoRequest
 ar
 ;
-JSAutoCrossCompartmentCall
-axcc
+JSAutoEnterCompartment
+ac
 ;
 if
 (
@@ -1476,7 +1476,7 @@ cx
 &
 ar
 &
-axcc
+ac
 )
 )
 {
@@ -1499,7 +1499,7 @@ success
 ;
 NS_ASSERTION
 (
-axcc
+ac
 .
 entered
 (
@@ -1508,7 +1508,7 @@ entered
 SetGlobalForContext
 must
 enter
-xcc
+compartment
 on
 success
 "
@@ -1558,7 +1558,7 @@ failure
 NS_ASSERTION
 (
 !
-axcc
+ac
 .
 entered
 (
@@ -1568,7 +1568,7 @@ SetGlobalForContext
 must
 not
 enter
-xcc
+compartment
 on
 failure
 "

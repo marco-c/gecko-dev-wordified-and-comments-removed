@@ -12717,7 +12717,7 @@ sandbox
 )
 ;
 {
-JSAutoCrossCompartmentCall
+JSAutoEnterCompartment
 ac
 ;
 if

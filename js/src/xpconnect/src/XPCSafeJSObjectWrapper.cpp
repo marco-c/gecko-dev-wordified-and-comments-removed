@@ -3741,13 +3741,13 @@ return
 JS_FALSE
 ;
 }
-JSAutoCrossCompartmentCall
-accc
+JSAutoEnterCompartment
+ac
 ;
 if
 (
 !
-accc
+ac
 .
 enter
 (

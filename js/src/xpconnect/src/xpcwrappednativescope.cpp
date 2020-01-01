@@ -1665,8 +1665,11 @@ cur
 >
 mNext
 ;
-JSAutoEnterCompartment
-ac
+js
+:
+:
+SwitchToCompartment
+sc
 (
 cx
 cur

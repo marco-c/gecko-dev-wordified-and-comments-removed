@@ -189,8 +189,11 @@ IsSubjectToFinalization
 )
 )
 {
-JSAutoEnterCompartment
-ac
+js
+:
+:
+SwitchToCompartment
+sc
 (
 data
 -

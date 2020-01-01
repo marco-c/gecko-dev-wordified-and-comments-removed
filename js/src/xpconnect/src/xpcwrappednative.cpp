@@ -1623,8 +1623,8 @@ needsXOW
 =
 JS_FALSE
 ;
-JSAutoCrossCompartmentCall
-accc
+JSAutoEnterCompartment
+ac
 ;
 if
 (
@@ -1772,7 +1772,7 @@ parent
 if
 (
 !
-accc
+ac
 .
 enter
 (
@@ -1979,7 +1979,7 @@ else
 if
 (
 !
-accc
+ac
 .
 enter
 (

@@ -544,9 +544,9 @@ aCx
 nsLazyAutoRequest
 *
 aRequest
-JSAutoCrossCompartmentCall
+JSAutoEnterCompartment
 *
-aCall
+aComp
 )
 ;
 void
@@ -667,9 +667,9 @@ aCx
 nsLazyAutoRequest
 *
 aRequest
-JSAutoCrossCompartmentCall
+JSAutoEnterCompartment
 *
-aCall
+aComp
 )
 ;
 PRUint32

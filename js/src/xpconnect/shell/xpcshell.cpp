@@ -8790,7 +8790,7 @@ cx
 )
 ;
 {
-JSAutoCrossCompartmentCall
+JSAutoEnterCompartment
 ac
 ;
 if
