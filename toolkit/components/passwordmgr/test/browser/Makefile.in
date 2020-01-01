@@ -464,6 +464,10 @@ browser_passwordmgr_sort
 .
 js
 \
+browser_passwordmgrcopypwd
+.
+js
+\
 (
 NULL
 )
