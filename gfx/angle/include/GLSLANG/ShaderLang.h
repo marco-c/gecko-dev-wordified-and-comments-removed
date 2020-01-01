@@ -217,11 +217,13 @@ SH_SOURCE_PATH
 }
 ShCompileOptions
 ;
+ANGLE_API
 int
 ShInitialize
 (
 )
 ;
+ANGLE_API
 int
 ShFinalize
 (
