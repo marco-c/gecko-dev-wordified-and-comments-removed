@@ -3388,6 +3388,13 @@ BaselineTailCallReg
 )
 )
 ;
+regs
+.
+take
+(
+BaselineSecondScratchReg
+)
+;
 #
 endif
 regs
