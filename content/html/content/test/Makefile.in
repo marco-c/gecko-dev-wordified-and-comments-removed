@@ -1324,6 +1324,14 @@ test_bug613113
 html
 \
 test_bug605124
+-
+1
+.
+html
+\
+test_bug605124
+-
+2
 .
 html
 \
