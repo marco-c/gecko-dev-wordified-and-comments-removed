@@ -342,6 +342,8 @@ PRInt64
 FindEndTime
 (
 PRInt64
+aStartOffset
+PRInt64
 aEndOffset
 PRBool
 aCachedDataOnly
