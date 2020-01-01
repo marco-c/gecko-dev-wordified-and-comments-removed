@@ -7385,6 +7385,15 @@ scrollRight
 )
 ;
 }
+amount
+=
+Math
+.
+round
+(
+amount
+)
+;
 doffset
 [
 0
