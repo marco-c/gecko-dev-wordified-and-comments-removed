@@ -310,6 +310,8 @@ Unknown
 manifest
 version
 :
+%
+s
 '
 %
                 

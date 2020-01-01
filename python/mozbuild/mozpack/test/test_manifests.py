@@ -246,3 +246,17 @@ from_path
 (
 p
 )
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+mozunit
+.
+main
+(
+)
