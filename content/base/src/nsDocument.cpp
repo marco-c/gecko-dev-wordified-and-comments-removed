@@ -25369,10 +25369,8 @@ NS_ERROR_DOM_NOT_SUPPORTED_ERR
 ;
 }
 }
-nsCOMPtr
-<
 nsIDocument
->
+*
 oldDocument
 =
 adoptedNode
@@ -40229,7 +40227,7 @@ NS_LITERAL_STRING
 mozvisibilitychange
 "
 )
-false
+true
 false
 )
 ;
