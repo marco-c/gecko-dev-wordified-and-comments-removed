@@ -1120,10 +1120,6 @@ static
 guint32
 sLastButtonPressTime
 ;
-static
-guint32
-sLastButtonReleaseTime
-;
 NS_IMETHOD
 BeginResizeDrag
 (
