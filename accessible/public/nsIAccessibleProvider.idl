@@ -631,6 +631,18 @@ XULListitem
 ;
 const
 long
+XULListHead
+=
+0x00001024
+;
+const
+long
+XULListHeader
+=
+0x00001025
+;
+const
+long
 XULMenubar
 =
 0x0000100D
@@ -783,7 +795,7 @@ XULTreeColumns
 ;
 const
 long
-XULTreeColumnitem
+XULTreeColumnItem
 =
 0x0000101E
 ;
