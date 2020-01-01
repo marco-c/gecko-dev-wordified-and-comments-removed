@@ -394,9 +394,6 @@ GetItemAt
 (
 uint32_t
 aIndex
-nsresult
-*
-rv
 )
 ;
 mozilla
@@ -497,12 +494,6 @@ const
 nsAString
 &
 aLocalName
-mozilla
-:
-:
-ErrorResult
-&
-aError
 )
 ;
 already_AddRefed
@@ -593,12 +584,6 @@ const
 nsAString
 &
 aLocalName
-mozilla
-:
-:
-ErrorResult
-&
-aError
 )
 ;
 mozilla

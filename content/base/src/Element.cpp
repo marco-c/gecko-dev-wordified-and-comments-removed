@@ -3923,9 +3923,6 @@ const
 nsAString
 &
 aLocalName
-ErrorResult
-&
-aError
 )
 {
 OwnerDoc
@@ -3946,7 +3943,6 @@ GetAttributeNodeNSInternal
 (
 aNamespaceURI
 aLocalName
-aError
 )
 ;
 }
@@ -3965,9 +3961,6 @@ const
 nsAString
 &
 aLocalName
-ErrorResult
-&
-aError
 )
 {
 return
@@ -3980,7 +3973,6 @@ GetNamedItemNS
 (
 aNamespaceURI
 aLocalName
-aError
 )
 ;
 }
@@ -8044,9 +8036,6 @@ aNamespaceID
 ns
 )
 ;
-ErrorResult
-rv
-;
 Attr
 *
 attrNode
@@ -8058,7 +8047,6 @@ nsDependentAtomString
 (
 aName
 )
-rv
 )
 ;
 mutation
@@ -8637,9 +8625,6 @@ aNameSpaceID
 ns
 )
 ;
-ErrorResult
-rv
-;
 attrNode
 =
 GetAttributeNodeNSInternal
@@ -8649,7 +8634,6 @@ nsDependentAtomString
 (
 aName
 )
-rv
 )
 ;
 }

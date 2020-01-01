@@ -912,9 +912,6 @@ Attr
 oldAttr
 )
 ;
-[
-Throws
-]
 Attr
 ?
 getAttributeNodeNS
