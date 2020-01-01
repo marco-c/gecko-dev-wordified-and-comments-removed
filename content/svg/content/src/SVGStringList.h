@@ -45,6 +45,10 @@ mIsSet
 (
 false
 )
+mIsCommaSeparated
+(
+false
+)
 {
 }
 ~
@@ -53,6 +57,18 @@ SVGStringList
 )
 {
 }
+void
+SetIsCommaSeparated
+(
+bool
+aIsCommaSeparated
+)
+{
+mIsCommaSeparated
+=
+aIsCommaSeparated
+;
+}
 nsresult
 SetValue
 (
@@ -60,8 +76,6 @@ const
 nsAString
 &
 aValue
-bool
-aIsCommaSeparated
 )
 ;
 void
@@ -86,8 +100,6 @@ GetValue
 nsAString
 &
 aValue
-bool
-aIsCommaSeparated
 )
 const
 ;
@@ -413,6 +425,9 @@ mStrings
 ;
 bool
 mIsSet
+;
+bool
+mIsCommaSeparated
 ;
 }
 ;

@@ -127,8 +127,6 @@ GetValue
 nsAString
 &
 aValue
-bool
-aIsCommaSeparated
 )
 const
 {
@@ -189,7 +187,7 @@ last
 {
 if
 (
-aIsCommaSeparated
+mIsCommaSeparated
 )
 {
 aValue
@@ -222,8 +220,6 @@ const
 nsAString
 &
 aValue
-bool
-aIsCommaSeparated
 )
 {
 SVGStringList
@@ -231,7 +227,7 @@ temp
 ;
 if
 (
-aIsCommaSeparated
+mIsCommaSeparated
 )
 {
 nsCharSeparatedTokenizerTemplate

@@ -110,15 +110,6 @@ DOMSVGStringList
 (
 )
 ;
-void
-DidChangeStringList
-(
-PRUint8
-aAttrEnum
-bool
-aDoSetAttr
-)
-;
 SVGStringList
 &
 InternalList
