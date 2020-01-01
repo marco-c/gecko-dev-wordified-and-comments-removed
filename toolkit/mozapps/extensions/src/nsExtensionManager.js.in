@@ -38131,7 +38131,7 @@ length
 throw
 Cr
 .
-NS_ERROR_INVALID_ARGUMENT
+NS_ERROR_INVALID_ARG
 ;
 this
 .
