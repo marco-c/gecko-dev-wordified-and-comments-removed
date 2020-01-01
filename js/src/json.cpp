@@ -2872,7 +2872,6 @@ JSON_DATA_KEYWORD
 ;
 if
 (
-!
 early_ok
 )
 PopState
@@ -2906,7 +2905,6 @@ JSON_DATA_NUMBER
 ;
 if
 (
-!
 early_ok
 )
 PopState
