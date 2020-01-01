@@ -2002,6 +2002,9 @@ mHorizontalOverflow
 bool
 mReflowCallbackPosted
 ;
+bool
+mCheckingOverflow
+;
 nsTHashtable
 <
 nsPtrHashKey
