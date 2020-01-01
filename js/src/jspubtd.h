@@ -664,9 +664,6 @@ uint32
 kind
 )
 ;
-#
-ifdef
-DEBUG
 typedef
 void
 (
@@ -684,8 +681,6 @@ size_t
 bufsize
 )
 ;
-#
-endif
 typedef
 uint32
 (
