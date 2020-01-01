@@ -9,7 +9,7 @@ xul
 reftest
 .
 list
-=
+!
 =
 newline
 -
@@ -38,6 +38,18 @@ html
 newline
 -
 3
+.
+html
+newline
+-
+ref
+.
+html
+=
+=
+newline
+-
+4
 .
 html
 newline
