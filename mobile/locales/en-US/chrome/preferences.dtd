@@ -1,6 +1,16 @@
 <
 !
 ENTITY
+prefsHeader
+.
+label
+"
+Preferences
+"
+>
+<
+!
+ENTITY
 content
 .
 title
