@@ -2405,6 +2405,13 @@ type
 0
 )
 ;
+if
+(
+record
+.
+title
+)
+{
 this
 .
 _hsvc
@@ -2417,6 +2424,7 @@ record
 title
 )
 ;
+}
 }
 itemExists
 :
