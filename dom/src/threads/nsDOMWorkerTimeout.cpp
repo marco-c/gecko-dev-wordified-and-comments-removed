@@ -674,7 +674,6 @@ aCx
 fileName
 &
 lineNumber
-nsnull
 )
 )
 {

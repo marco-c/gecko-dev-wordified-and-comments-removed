@@ -3371,9 +3371,6 @@ JSHashTable
 *
 scriptFilenameTable
 ;
-JSCList
-scriptFilenamePrefixes
-;
 #
 ifdef
 JS_THREADSAFE

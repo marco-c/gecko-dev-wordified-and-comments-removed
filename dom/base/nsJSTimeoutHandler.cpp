@@ -286,7 +286,7 @@ NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 nsJSScriptTimeoutHandler
 )
-NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
+NS_IMPL_CYCLE_COLLECTION_ROOT_BEGIN
 (
 nsJSScriptTimeoutHandler
 )
@@ -297,7 +297,11 @@ ReleaseJSObjects
 (
 )
 ;
-NS_IMPL_CYCLE_COLLECTION_UNLINK_END
+NS_IMPL_CYCLE_COLLECTION_ROOT_END
+NS_IMPL_CYCLE_COLLECTION_UNLINK_0
+(
+nsJSScriptTimeoutHandler
+)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INTERNAL
 (
 nsJSScriptTimeoutHandler
@@ -1198,17 +1202,6 @@ mExpr
 =
 expr
 ;
-nsIPrincipal
-*
-prin
-=
-aWindow
--
->
-GetPrincipal
-(
-)
-;
 const
 char
 *
@@ -1226,7 +1219,6 @@ cx
 filename
 &
 mLineNo
-prin
 )
 )
 {
