@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsIDOMMediaStream
+DOMMediaStream
 .
 h
 "
@@ -113,8 +113,8 @@ const
 GlobalObject
 &
 aGlobal
-nsIDOMMediaStream
-*
+DOMMediaStream
+&
 aStream
 const
 mozilla
@@ -141,6 +141,7 @@ aGlobal
 Get
 (
 )
+&
 aStream
 NS_LITERAL_CSTRING
 (

@@ -1312,6 +1312,9 @@ PeerConnectionImpl
 :
 MakeMediaStream
 (
+nsIDOMWindow
+*
+aWindow
 uint32_t
 aHint
 nsIDOMMediaStream
@@ -1336,6 +1339,7 @@ DOMMediaStream
 :
 CreateSourceStream
 (
+aWindow
 aHint
 )
 ;
@@ -1424,6 +1428,7 @@ res
 =
 MakeMediaStream
 (
+mWindow
 0
 &
 stream
@@ -2928,6 +2933,7 @@ res
 =
 MakeMediaStream
 (
+mWindow
 aHint
 aRetval
 )
@@ -2947,6 +2953,7 @@ PeerConnectionImpl
 :
 :
 MakeMediaStream
+mWindow
 aHint
 aRetval
 &

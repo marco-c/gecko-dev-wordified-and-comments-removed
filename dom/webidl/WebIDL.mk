@@ -467,7 +467,15 @@ LinkStyle
 .
 webidl
 \
+LocalMediaStream
+.
+webidl
+\
 Location
+.
+webidl
+\
+MediaStream
 .
 webidl
 \

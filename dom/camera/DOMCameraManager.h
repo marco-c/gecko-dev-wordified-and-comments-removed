@@ -197,6 +197,7 @@ private
 nsDOMCameraManager
 (
 )
+MOZ_DELETE
 ;
 nsDOMCameraManager
 (

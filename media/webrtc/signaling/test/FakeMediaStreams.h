@@ -102,6 +102,9 @@ nsIDOMMediaStream
 .
 h
 "
+class
+nsIDOMWindow
+;
 namespace
 mozilla
 {
@@ -800,7 +803,6 @@ Stop
 ;
 }
 NS_DECL_ISUPPORTS
-NS_DECL_NSIDOMMEDIASTREAM
 static
 already_AddRefed
 <
@@ -808,6 +810,9 @@ Fake_DOMMediaStream
 >
 CreateSourceStream
 (
+nsIDOMWindow
+*
+aWindow
 uint32_t
 aHintContents
 )
