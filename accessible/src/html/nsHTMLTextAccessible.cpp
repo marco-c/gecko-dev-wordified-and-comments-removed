@@ -133,14 +133,11 @@ GetFrame
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-frame
-NS_ERROR_NULL_POINTER
-)
-;
 if
 (
+frame
+&
+&
 frame
 -
 >

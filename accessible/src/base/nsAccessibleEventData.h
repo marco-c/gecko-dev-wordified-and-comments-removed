@@ -39,6 +39,13 @@ nsIDOMNode
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 class
 nsIPresShell
 ;
@@ -284,6 +291,10 @@ PRUint32
 aLength
 PRBool
 aIsInserted
+PRBool
+aIsAsynch
+=
+PR_FALSE
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -304,6 +315,9 @@ mLength
 ;
 PRBool
 mIsInserted
+;
+nsString
+mModifiedText
 ;
 }
 ;

@@ -495,6 +495,8 @@ appshell
 \
 shistory
 \
+accessibility
+\
 (
 NULL
 )
