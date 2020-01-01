@@ -46,12 +46,17 @@ WINCE
 ifndef
 IDropTargetHelper
 #
+ifndef
+__MINGW32__
+#
 include
 <
 shobjidl
 .
 h
 >
+#
+endif
 #
 endif
 #
