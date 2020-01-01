@@ -2999,8 +2999,6 @@ nsISimpleEnumerator
 aEnum
 )
 {
-ENSURE_NOT_CHILD_PROCESS
-;
 nsCOMArray
 <
 nsIPermission
