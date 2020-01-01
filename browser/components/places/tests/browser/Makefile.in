@@ -487,6 +487,10 @@ browser_history_sidebar_search
 .
 js
 \
+browser_bookmarksProperties
+.
+js
+\
 (
 NULL
 )
