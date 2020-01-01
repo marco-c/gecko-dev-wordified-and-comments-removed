@@ -3510,7 +3510,16 @@ nsAString
 &
 aTagName
 )
+{
+return
+NS_GetContentList
+(
+this
+kNameSpaceID_Unknown
+aTagName
+)
 ;
+}
 already_AddRefed
 <
 nsContentList
