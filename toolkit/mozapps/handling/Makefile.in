@@ -421,9 +421,14 @@ config
 autoconf
 .
 mk
-DIRS
+MODULE
 =
-src
+contentDispatchChooser
+EXTRA_COMPONENTS
+=
+nsContentDispatchChooser
+.
+js
 include
 (
 topsrcdir
