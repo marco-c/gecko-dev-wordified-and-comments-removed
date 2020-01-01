@@ -724,9 +724,9 @@ pushAway
 (
 )
 ;
-Trenches
+resizeInfo
 .
-disactivate
+stop
 (
 )
 ;
