@@ -203,6 +203,14 @@ context
 super
 (
 context
+null
+android
+.
+R
+.
+style
+.
+Theme_Light_NoTitleBar
 )
 ;
 getHolder
