@@ -495,10 +495,6 @@ nsFrameSelection
 .
 h
 \
-nsPluginUtilsOSX
-.
-h
-\
 (
 NULL
 )
