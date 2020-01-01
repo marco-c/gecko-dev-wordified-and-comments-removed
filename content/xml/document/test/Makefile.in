@@ -455,6 +455,10 @@ test_bug399502
 .
 xhtml
 \
+test_viewport
+.
+xhtml
+\
 (
 NULL
 )
