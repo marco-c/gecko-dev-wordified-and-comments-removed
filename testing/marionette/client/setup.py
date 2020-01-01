@@ -10,7 +10,7 @@ version
 '
 0
 .
-2
+3
 '
 try
 :
@@ -85,6 +85,13 @@ mozrunner
 '
 '
 datazilla
+=
+=
+0
+.
+2
+.
+1
 '
 ]
 setup
