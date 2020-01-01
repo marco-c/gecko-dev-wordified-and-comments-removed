@@ -61,13 +61,6 @@ StructuredCloneTags
 .
 h
 "
-#
-include
-"
-jsapi
-.
-h
-"
 using
 namespace
 mozilla
