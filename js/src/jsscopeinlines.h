@@ -261,6 +261,8 @@ const
 JSScopeProperty
 *
 sprop
+bool
+isDefinitelyAtom
 )
 {
 jsuint
@@ -268,6 +270,10 @@ index
 ;
 if
 (
+!
+isDefinitelyAtom
+&
+&
 js_IdIsIndex
 (
 sprop
@@ -309,6 +315,8 @@ cx
 JSScopeProperty
 *
 sprop
+bool
+isDefinitelyAtom
 )
 {
 +
@@ -328,6 +336,7 @@ cx
 updateFlags
 (
 sprop
+isDefinitelyAtom
 )
 ;
 }

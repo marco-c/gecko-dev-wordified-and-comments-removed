@@ -279,6 +279,10 @@ const
 JSScopeProperty
 *
 sprop
+bool
+isDefinitelyAtom
+=
+false
 )
 ;
 protected
@@ -679,6 +683,10 @@ cx
 JSScopeProperty
 *
 sprop
+bool
+isDefinitelyAtom
+=
+false
 )
 ;
 bool

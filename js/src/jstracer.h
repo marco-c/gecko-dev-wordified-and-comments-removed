@@ -5804,6 +5804,8 @@ LIns
 *
 &
 v_ins
+bool
+isDefinitelyAtom
 )
 ;
 JS_REQUIRES_STACK
