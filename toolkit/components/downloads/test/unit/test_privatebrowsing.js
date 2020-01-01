@@ -342,6 +342,13 @@ nsILocalFile
 )
 )
 ;
+httpserv
+.
+start
+(
+4444
+)
+;
 let
 tmpDir
 =
@@ -475,7 +482,7 @@ name
 +
 aDownload
 .
-displayName
+name
 +
 "
 state
@@ -871,13 +878,6 @@ downloadBSource
 fileB
 downloadBName
 )
-)
-;
-httpserv
-.
-start
-(
-4444
 )
 ;
 dlC

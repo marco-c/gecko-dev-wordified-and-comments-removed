@@ -497,10 +497,6 @@ browser_privatebrowsing_urlbarfocus
 .
 js
 \
-browser_privatebrowsing_sslsite_transition
-.
-js
-\
 (
 NULL
 )
