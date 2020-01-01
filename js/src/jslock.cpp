@@ -372,6 +372,7 @@ reinterpret_cast
 <
 void
 *
+volatile
 *
 >
 (
