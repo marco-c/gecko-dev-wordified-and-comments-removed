@@ -39,6 +39,13 @@ nsIWidget
 .
 h
 "
+#
+include
+"
+nsTraceRefcnt
+.
+h
+"
 class
 nsPluginNativeWindow
 :
@@ -55,6 +62,11 @@ nsPluginWindow
 (
 )
 {
+MOZ_COUNT_CTOR
+(
+nsPluginNativeWindow
+)
+;
 }
 virtual
 ~
@@ -62,6 +74,11 @@ nsPluginNativeWindow
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+nsPluginNativeWindow
+)
+;
 }
 public
 :
