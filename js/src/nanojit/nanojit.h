@@ -294,7 +294,7 @@ AvmLog
 (
 "
 Assertion
-failed
+failure
 :
 "
 f
