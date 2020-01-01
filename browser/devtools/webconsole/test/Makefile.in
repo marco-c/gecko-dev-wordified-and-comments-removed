@@ -862,6 +862,10 @@ browser_webconsole_bug_704295
 .
 js
 \
+browser_gcli_commands
+.
+js
+\
 browser_gcli_inspect
 .
 js
