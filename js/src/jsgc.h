@@ -51,6 +51,13 @@ h
 #
 include
 "
+jsdhash
+.
+h
+"
+#
+include
+"
 jslock
 .
 h
