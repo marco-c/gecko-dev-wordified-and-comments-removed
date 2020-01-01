@@ -551,6 +551,7 @@ STATIC_LIBS
 +
 =
 mozdbus_s
+mozipcsocket_s
 endif
 #
 }
