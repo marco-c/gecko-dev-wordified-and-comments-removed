@@ -10692,6 +10692,11 @@ JSD_ClearFunctionHook
 mCx
 )
 ;
+JSD_DebuggerPause
+(
+mCx
+)
+;
 }
 if
 (
@@ -10748,6 +10753,11 @@ mPauseLevel
 mOn
 )
 {
+JSD_DebuggerUnpause
+(
+mCx
+)
+;
 if
 (
 mErrorHook
