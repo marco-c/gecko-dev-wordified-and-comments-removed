@@ -527,6 +527,14 @@ test_nsIAccessible_actions
 .
 xul
 \
+test_nsIAccessible_editablebody
+.
+html
+\
+test_nsIAccessible_editabledoc
+.
+html
+\
 test_nsIAccessible_name
 .
 html
