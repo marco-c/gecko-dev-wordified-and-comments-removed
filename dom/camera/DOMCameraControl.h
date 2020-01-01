@@ -60,6 +60,13 @@ CameraCommon
 .
 h
 "
+#
+include
+"
+AudioChannelAgent
+.
+h
+"
 namespace
 mozilla
 {
@@ -156,6 +163,12 @@ nsCOMPtr
 nsICameraCapabilities
 >
 mDOMCapabilities
+;
+nsCOMPtr
+<
+nsIAudioChannelAgent
+>
+mAudioChannelAgent
 ;
 }
 ;
