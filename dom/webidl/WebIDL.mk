@@ -159,6 +159,10 @@ DocumentFragment
 .
 webidl
 \
+DocumentType
+.
+webidl
+\
 DOMImplementation
 .
 webidl

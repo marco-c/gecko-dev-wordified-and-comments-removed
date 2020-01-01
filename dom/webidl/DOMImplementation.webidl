@@ -145,9 +145,6 @@ work
 *
 /
 interface
-DocumentType
-;
-interface
 DOMImplementation
 {
 boolean
