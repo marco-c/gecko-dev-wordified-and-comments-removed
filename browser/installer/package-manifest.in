@@ -330,6 +330,9 @@ endif
 ifdef
 XP_WIN32
 #
+ifdef
+MOZ_WIN32_REDIST
+#
 ifndef
 MOZ_DEBUG
 #
@@ -424,6 +427,8 @@ BINPATH
 msvcr110
 .
 dll
+#
+endif
 #
 endif
 #
@@ -2532,6 +2537,9 @@ modules
 ;
 Safe
 Browsing
+#
+ifdef
+MOZ_SAFE_BROWSING
 BINPATH
 /
 components
@@ -2583,6 +2591,8 @@ url
 classifier
 .
 xpt
+#
+endif
 ;
 GNOME
 hooks
