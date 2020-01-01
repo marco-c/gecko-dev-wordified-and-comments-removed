@@ -507,6 +507,13 @@ this
 }
 break
 ;
+case
+AddonManager
+.
+STATE_CANCELLED
+:
+break
+;
 default
 :
 WARN
@@ -519,6 +526,8 @@ of
 install
 .
 sourceURI
+.
+spec
 +
 "
 in
