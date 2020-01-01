@@ -675,7 +675,7 @@ doc
 >
 CreateElem
 (
-nsAtomString
+nsDependentAtomString
 (
 aName
 )

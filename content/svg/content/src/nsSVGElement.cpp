@@ -5174,7 +5174,7 @@ nsCSSProps
 :
 LookupProperty
 (
-nsAtomString
+nsDependentAtomString
 (
 aMappedAttrName
 )
@@ -9968,7 +9968,7 @@ nsCSSProps
 :
 LookupProperty
 (
-nsAtomString
+nsDependentAtomString
 (
 aName
 )
