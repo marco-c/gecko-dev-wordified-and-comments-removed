@@ -708,6 +708,10 @@ test_bug372086
 .
 html
 \
+test_bug372964
+.
+html
+\
 test_bug373181
 .
 xhtml
