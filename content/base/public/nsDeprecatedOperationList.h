@@ -128,6 +128,10 @@ EnablePrivilege
 )
 DEPRECATED_OPERATION
 (
+IsSameNode
+)
+DEPRECATED_OPERATION
+(
 ReplaceWholeText
 )
 DEPRECATED_OPERATION
