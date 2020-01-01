@@ -970,6 +970,7 @@ fun
 }
 }
 ;
+static
 const
 JSC
 :
