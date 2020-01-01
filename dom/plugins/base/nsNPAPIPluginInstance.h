@@ -129,7 +129,7 @@ PluginLibrary
 .
 h
 "
-class
+struct
 JSObject
 ;
 class

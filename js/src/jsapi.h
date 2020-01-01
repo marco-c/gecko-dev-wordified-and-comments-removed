@@ -8884,11 +8884,7 @@ JS_ALWAYS_INLINE
 JSBool
 JSID_IS_VOID
 (
-const
-js
-:
-:
-RawId
+jsid
 id
 )
 {
@@ -8937,11 +8933,7 @@ JS_ALWAYS_INLINE
 JSBool
 JSID_IS_EMPTY
 (
-const
-js
-:
-:
-RawId
+jsid
 id
 )
 {

@@ -291,7 +291,7 @@ nsAXPCNativeCallContext
 struct
 JSContext
 ;
-class
+struct
 JSObject
 ;
 struct

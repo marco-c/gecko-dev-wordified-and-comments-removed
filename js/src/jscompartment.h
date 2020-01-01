@@ -1309,10 +1309,8 @@ js
 :
 TaggedProto
 proto
-js
-:
-:
-UnrootedFunction
+JSFunction
+*
 fun
 =
 NULL

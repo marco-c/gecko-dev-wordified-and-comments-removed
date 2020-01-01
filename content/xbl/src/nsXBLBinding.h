@@ -94,7 +94,7 @@ nsInsertionPointList
 struct
 JSContext
 ;
-class
+struct
 JSObject
 ;
 class

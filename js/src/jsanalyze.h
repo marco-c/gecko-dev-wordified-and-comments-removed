@@ -3563,7 +3563,7 @@ TypeSet
 target
 HandleObject
 singleton
-HandleId
+jsid
 singletonId
 )
 ;

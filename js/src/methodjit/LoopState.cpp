@@ -4603,7 +4603,7 @@ const
 CrossSSAValue
 &
 obj
-RawId
+jsid
 id
 )
 {
@@ -4831,8 +4831,9 @@ id
 id
 !
 =
-IdToTypeId
+MakeTypeId
 (
+cx
 id
 )
 )
@@ -8517,11 +8518,12 @@ pc
 )
 )
 ;
-RawId
+jsid
 id
 =
-IdToTypeId
+MakeTypeId
 (
+cx
 NameToId
 (
 name
@@ -9147,8 +9149,9 @@ true
 ;
 id
 =
-IdToTypeId
+MakeTypeId
 (
+cx
 id
 )
 ;

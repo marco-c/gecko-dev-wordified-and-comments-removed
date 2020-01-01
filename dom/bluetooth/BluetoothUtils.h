@@ -21,7 +21,7 @@ h
 struct
 JSContext
 ;
-class
+struct
 JSObject
 ;
 BEGIN_BLUETOOTH_NAMESPACE

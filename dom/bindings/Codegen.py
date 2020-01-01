@@ -53316,6 +53316,12 @@ declare
 CGClassForwardDeclare
 (
 className
+className
+=
+=
+"
+JSObject
+"
 )
             
 if

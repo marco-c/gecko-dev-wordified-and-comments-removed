@@ -53,6 +53,11 @@ ForwardDeclareJS
 Atom
 )
 ;
+ForwardDeclareJS
+(
+Script
+)
+;
 namespace
 js
 {

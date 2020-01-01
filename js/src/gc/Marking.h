@@ -63,7 +63,7 @@ JSContext
 class
 JSFunction
 ;
-class
+struct
 JSObject
 ;
 class
