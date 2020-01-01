@@ -38,9 +38,9 @@ kDefaultBrowserWidth
 const
 kBrowserFormZoomLevelMin
 =
-1
-.
 0
+.
+8
 ;
 const
 kBrowserFormZoomLevelMax
