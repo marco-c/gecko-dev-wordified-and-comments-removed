@@ -3759,15 +3759,12 @@ rv
 ;
 int64_t
 msec
-;
-LL_DIV
-(
-msec
+=
 PR_Now
 (
 )
+/
 PR_USEC_PER_MSEC
-)
 ;
 PRFileDesc
 *
