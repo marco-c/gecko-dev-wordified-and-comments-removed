@@ -286,6 +286,17 @@ dom
 /
 bluetooth
 endif
+ifdef
+MOZ_WEBSPEECH
+DOM_SRCDIRS
++
+=
+content
+/
+media
+/
+webspeech
+endif
 LOCAL_INCLUDES
 +
 =
