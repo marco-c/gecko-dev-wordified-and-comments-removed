@@ -4353,12 +4353,6 @@ js
 true
 )
 ;
-gBrowser
-.
-init
-(
-)
-;
 XULBrowserWindow
 .
 init
