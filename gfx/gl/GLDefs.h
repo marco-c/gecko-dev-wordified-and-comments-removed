@@ -124,6 +124,8 @@ GLintptr
 #
 endif
 #
+endif
+#
 ifndef
 GLAPIENTRY
 #
@@ -144,8 +146,6 @@ GLAPIENTRY
 #
 define
 GLAPI
-#
-endif
 #
 endif
 #
