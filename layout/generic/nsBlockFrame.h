@@ -1067,7 +1067,6 @@ virtual
 nsresult
 AddFrames
 (
-const
 nsFrameList
 &
 aFrameList
