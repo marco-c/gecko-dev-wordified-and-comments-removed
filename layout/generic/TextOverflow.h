@@ -388,6 +388,9 @@ mHasOverflow
 bool
 mInitialized
 ;
+bool
+mActive
+;
 }
 ;
 Marker
