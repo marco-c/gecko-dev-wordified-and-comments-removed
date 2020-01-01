@@ -6997,6 +6997,9 @@ case
 JSOP_GETGLOBAL
 :
 case
+JSOP_GETFCSLOT
+:
+case
 JSOP_GETPROP
 :
 case
@@ -7062,6 +7065,9 @@ break
 ;
 case
 JSOP_CALLGLOBAL
+:
+case
+JSOP_CALLFCSLOT
 :
 nextsp
 [
