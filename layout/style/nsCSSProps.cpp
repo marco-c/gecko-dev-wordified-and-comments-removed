@@ -865,6 +865,10 @@ eCSSKeyword_menuseparator
 NS_THEME_MENUSEPARATOR
 eCSSKeyword_menuarrow
 NS_THEME_MENUARROW
+eCSSKeyword_menuimage
+NS_THEME_MENUIMAGE
+eCSSKeyword_menuitemtext
+NS_THEME_MENUITEMTEXT
 eCSSKeyword_UNKNOWN
 -
 1
