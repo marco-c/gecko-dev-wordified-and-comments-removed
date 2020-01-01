@@ -1369,11 +1369,15 @@ null
 ;
 value
 ?
-startDebugger
+RemoteDebugger
+.
+start
 (
 )
 :
-stopDebugger
+RemoteDebugger
+.
+stop
 (
 )
 ;

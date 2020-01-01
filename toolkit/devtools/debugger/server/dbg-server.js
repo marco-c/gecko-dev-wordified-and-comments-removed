@@ -757,6 +757,9 @@ js
 "
 )
 ;
+#
+ifndef
+MOZ_B2G
 this
 .
 addActors
@@ -806,6 +809,8 @@ consoleActor
 "
 )
 ;
+#
+endif
 if
 (
 "
