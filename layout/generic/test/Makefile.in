@@ -690,6 +690,10 @@ test_bug597333
 .
 html
 \
+test_bug666225
+.
+html
+\
 test_image_selection
 .
 html
