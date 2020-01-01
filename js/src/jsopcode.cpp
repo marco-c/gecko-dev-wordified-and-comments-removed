@@ -895,7 +895,7 @@ case
 JSOP_NEWARRAY
 :
 return
-GET_UINT24
+GET_UINT16
 (
 pc
 )
@@ -22209,7 +22209,7 @@ JSOP_NEWARRAY
 :
 argc
 =
-GET_UINT24
+GET_UINT16
 (
 pc
 )

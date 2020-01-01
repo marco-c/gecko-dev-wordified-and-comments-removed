@@ -6003,7 +6003,7 @@ length
 is
 a
 *
-24
+16
 -
 bit
 immediate
@@ -6022,12 +6022,12 @@ JSOP_NEWARRAY
 newarray
 "
 NULL
-4
+3
 -
 1
 1
 19
-JOF_UINT24
+JOF_UINT16
 )
 /
 *
