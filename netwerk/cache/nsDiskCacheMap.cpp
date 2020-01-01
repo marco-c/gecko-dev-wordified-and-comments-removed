@@ -542,17 +542,9 @@ error_exit
 PRUint32
 overhead
 =
-moz_malloc_usable_size
+moz_malloc_size_of
 (
 mRecordArray
-)
-;
-overhead
-=
-overhead
-?
-overhead
-:
 mHeader
 .
 mRecordCount
@@ -560,6 +552,7 @@ mRecordCount
 sizeof
 (
 nsDiskCacheRecord
+)
 )
 ;
 mozilla

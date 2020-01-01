@@ -941,8 +941,8 @@ size_t
 )
 charsHeapSize
 (
-JSUsableSizeFun
-usf
+JSMallocSizeOfFun
+mallocSizeOf
 )
 ;
 static

@@ -176,8 +176,10 @@ _place
 )
 ;
 PRInt64
-SizeOf
+SizeOfIncludingThis
 (
+nsMallocSizeOfFun
+aMallocSizeOf
 )
 ;
 static

@@ -3192,12 +3192,15 @@ typedef
 size_t
 (
 *
-JSUsableSizeFun
+JSMallocSizeOfFun
 )
 (
+const
 void
 *
 p
+size_t
+computedSize
 )
 ;
 #

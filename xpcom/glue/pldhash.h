@@ -943,12 +943,14 @@ arg
 )
 ;
 NS_COM_GLUE
-PRUint64
-PL_DHashTableSizeOf
+size_t
+PL_DHashTableShallowSizeOfExcludingThis
 (
 PLDHashTable
 *
 table
+nsMallocSizeOfFun
+mallocSizeOf
 )
 ;
 #
