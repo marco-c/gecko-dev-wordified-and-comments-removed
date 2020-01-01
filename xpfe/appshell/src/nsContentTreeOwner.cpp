@@ -3355,6 +3355,8 @@ aParent
 PRUint32
 aChromeFlags
 PRBool
+aCalledFromJS
+PRBool
 aPositionSpecified
 PRBool
 aSizeSpecified
@@ -3552,6 +3554,11 @@ return
 NS_OK
 ;
 }
+if
+(
+aCalledFromJS
+)
+{
 PRInt32
 restrictionPref
 ;
@@ -3630,6 +3637,7 @@ aSizeSpecified
 return
 NS_OK
 ;
+}
 }
 nsCOMPtr
 <
