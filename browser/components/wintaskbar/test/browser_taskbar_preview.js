@@ -347,7 +347,7 @@ selectedTab
 =
 gBrowser
 .
-mTabs
+tabs
 [
 idx
 ]
@@ -397,7 +397,7 @@ getPreviewForTab
 (
 gBrowser
 .
-mTabs
+tabs
 [
 0
 ]
@@ -545,7 +545,7 @@ ok
 (
 gBrowser
 .
-mTabs
+tabs
 .
 length
 =
@@ -565,7 +565,7 @@ getPreviewForTab
 (
 gBrowser
 .
-mTabs
+tabs
 [
 0
 ]
@@ -587,7 +587,7 @@ ok
 (
 gBrowser
 .
-mTabs
+tabs
 [
 0
 ]
@@ -684,7 +684,7 @@ selectedTab
 =
 gBrowser
 .
-mTabs
+tabs
 [
 0
 ]
@@ -697,7 +697,7 @@ getPreviewForTab
 (
 gBrowser
 .
-mTabs
+tabs
 [
 1
 ]
@@ -755,7 +755,7 @@ is
 aPreviews
 gBrowser
 .
-mTabs
+tabs
 .
 length
 "
@@ -773,7 +773,7 @@ is
 nPreviews
 gBrowser
 .
-mTabs
+tabs
 .
 length
 "
@@ -842,7 +842,7 @@ selectedTab
 =
 gBrowser
 .
-mTabs
+tabs
 [
 idx
 ]

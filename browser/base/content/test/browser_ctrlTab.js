@@ -124,7 +124,7 @@ tabs
 =
 gBrowser
 .
-mTabs
+tabs
 .
 length
 ;
@@ -150,7 +150,7 @@ is
 (
 gBrowser
 .
-mTabs
+tabs
 .
 length
 tabs
@@ -225,7 +225,7 @@ tabToRemove
 =
 gBrowser
 .
-mTabs
+tabs
 [
 1
 ]
@@ -566,7 +566,7 @@ tabs
 =
 gBrowser
 .
-mTabs
+tabs
 .
 length
 ;
@@ -582,7 +582,7 @@ while
 (
 gBrowser
 .
-mTabs
+tabs
 .
 length
 >
@@ -632,7 +632,7 @@ selectedTab
 =
 gBrowser
 .
-mTabs
+tabs
 [
 index
 ]
@@ -668,7 +668,7 @@ tabCount
 =
 gBrowser
 .
-mTabs
+tabs
 .
 length
 ;

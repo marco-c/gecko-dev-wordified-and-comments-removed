@@ -279,7 +279,7 @@ ok
 (
 gBrowser
 .
-mTabs
+tabs
 .
 length
 =
@@ -424,7 +424,7 @@ i
 =
 gBrowser
 .
-mTabs
+tabs
 .
 length
 -
@@ -444,7 +444,7 @@ removeTab
 (
 gBrowser
 .
-mTabs
+tabs
 [
 i
 ]

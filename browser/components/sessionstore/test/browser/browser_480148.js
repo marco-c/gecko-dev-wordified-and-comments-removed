@@ -420,7 +420,7 @@ indexOf
 (
 tabbrowser
 .
-mTabs
+tabs
 tab
 )
 ;

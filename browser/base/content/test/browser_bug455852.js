@@ -7,7 +7,7 @@ is
 (
 gBrowser
 .
-mTabs
+tabs
 .
 length
 1
@@ -97,7 +97,7 @@ is
 (
 gBrowser
 .
-mTabs
+tabs
 .
 length
 1

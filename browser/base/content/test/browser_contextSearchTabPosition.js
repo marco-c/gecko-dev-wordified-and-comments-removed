@@ -87,7 +87,7 @@ tabs
 ]
 gBrowser
 .
-mTabs
+tabs
 [
 3
 ]
@@ -111,7 +111,7 @@ tabs
 ]
 gBrowser
 .
-mTabs
+tabs
 [
 1
 ]
@@ -136,7 +136,7 @@ tabs
 ]
 gBrowser
 .
-mTabs
+tabs
 [
 2
 ]

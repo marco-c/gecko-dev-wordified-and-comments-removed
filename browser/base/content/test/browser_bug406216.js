@@ -86,7 +86,7 @@ removeTab
 (
 gBrowser
 .
-mTabs
+tabs
 [
 0
 ]
@@ -151,7 +151,7 @@ is
 (
 gBrowser
 .
-mTabs
+tabs
 .
 length
 URIS
@@ -219,7 +219,7 @@ slice
 (
 gBrowser
 .
-mTabs
+tabs
 )
 .
 forEach
@@ -268,7 +268,7 @@ removeTab
 (
 gBrowser
 .
-mTabs
+tabs
 [
 0
 ]
@@ -278,7 +278,7 @@ is
 (
 gBrowser
 .
-mTabs
+tabs
 .
 length
 1
@@ -309,7 +309,7 @@ removeTab
 (
 gBrowser
 .
-mTabs
+tabs
 [
 0
 ]

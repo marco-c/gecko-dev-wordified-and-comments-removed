@@ -93,7 +93,7 @@ i
 ?
 gBrowser
 .
-mTabs
+tabs
 .
 length
 :
@@ -144,7 +144,7 @@ tabContainer
 selectedIndex
 gBrowser
 .
-mTabs
+tabs
 .
 length
 -
