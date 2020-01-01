@@ -9444,6 +9444,12 @@ aTransform
 *
 transform
 ;
+transform
+.
+NudgeToIntegers
+(
+)
+;
 }
 if
 (
