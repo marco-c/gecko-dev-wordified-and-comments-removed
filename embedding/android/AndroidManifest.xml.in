@@ -465,6 +465,15 @@ mnc
 "
 android
 :
+windowSoftInputMode
+=
+"
+stateUnspecified
+|
+adjustResize
+"
+android
+:
 launchMode
 =
 "
