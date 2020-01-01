@@ -11856,6 +11856,12 @@ traceOp
 =
 =
 JSOP_NOP
+|
+|
+traceOp
+=
+=
+JSOP_GENERATOR
 )
 ;
 #
@@ -14714,10 +14720,10 @@ obj
 ;
 JS_ASSERT
 (
-DSLOTS_IS_NOT_NULL
-(
 obj
-)
+-
+>
+dslots
 )
 ;
 index
