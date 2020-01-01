@@ -103,9 +103,6 @@ class
 TextureSourceOGL
 ;
 class
-TextureSourceD3D11
-;
-class
 TextureSourceBasic
 ;
 class
@@ -207,17 +204,6 @@ virtual
 TextureSourceOGL
 *
 AsSourceOGL
-(
-)
-{
-return
-nullptr
-;
-}
-virtual
-TextureSourceD3D11
-*
-AsSourceD3D11
 (
 )
 {
