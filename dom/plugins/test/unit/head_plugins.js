@@ -11,7 +11,7 @@ gDirSvc
 get
 (
 "
-CurProcD
+GreD
 "
 Ci
 .
