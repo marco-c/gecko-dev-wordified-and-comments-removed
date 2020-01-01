@@ -222,6 +222,8 @@ aRow
 if
 (
 aCol
+.
+id
 in
 data
 .
@@ -233,6 +235,8 @@ data
 colsText
 [
 aCol
+.
+id
 ]
 ;
 return
@@ -693,6 +697,8 @@ data
 colsText
 [
 aCol
+.
+id
 ]
 =
 aValue
