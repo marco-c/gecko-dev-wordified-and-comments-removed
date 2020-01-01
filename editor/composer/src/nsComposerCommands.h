@@ -205,10 +205,10 @@ nsBaseComposerCommand
 {
 public
 :
+explicit
 nsInsertTagCommand
 (
-const
-char
+nsIAtom
 *
 aTagName
 )
@@ -223,8 +223,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSICONTROLLERCOMMAND
 protected
 :
-const
-char
+nsIAtom
 *
 mTagName
 ;

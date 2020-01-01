@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsILocalFile
-.
-h
-"
-#
-include
-"
 nsIDirectoryService
 .
 h
@@ -381,7 +374,7 @@ nsPKCS12Blob
 :
 ImportFromFile
 (
-nsILocalFile
+nsIFile
 *
 file
 )
@@ -532,7 +525,7 @@ nsPKCS12Blob
 :
 ImportFromFileHelper
 (
-nsILocalFile
+nsIFile
 *
 file
 nsPKCS12Blob
@@ -1173,7 +1166,7 @@ nsPKCS12Blob
 :
 ExportToFile
 (
-nsILocalFile
+nsIFile
 *
 file
 nsIX509Cert
@@ -1222,7 +1215,7 @@ i
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFileRef
 ;
@@ -2236,7 +2229,7 @@ inputToDecoder
 SEC_PKCS12DecoderContext
 *
 dcx
-nsILocalFile
+nsIFile
 *
 file
 )

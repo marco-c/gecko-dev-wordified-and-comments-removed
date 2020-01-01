@@ -721,6 +721,11 @@ do_QueryInterface
 aElement
 )
 ;
+NS_ENSURE_STATE
+(
+content
+)
+;
 nsRefPtr
 <
 nsStyleContext

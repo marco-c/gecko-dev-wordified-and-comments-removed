@@ -191,13 +191,6 @@ h
 #
 include
 "
-nsILocalFile
-.
-h
-"
-#
-include
-"
 nsFontMetrics
 .
 h
@@ -10538,7 +10531,7 @@ aIconSpec
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 iconFile
 ;

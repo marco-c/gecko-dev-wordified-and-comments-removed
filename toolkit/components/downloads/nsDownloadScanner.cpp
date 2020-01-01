@@ -967,7 +967,7 @@ NS_OK
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;

@@ -1777,6 +1777,11 @@ mDocShell
 ;
 }
 ;
+bool
+JustStartedNetworkLoad
+(
+)
+;
 nsInterfaceHashtable
 <
 nsCStringHashKey

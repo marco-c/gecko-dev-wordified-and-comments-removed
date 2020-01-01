@@ -3897,6 +3897,14 @@ nsChangeHint
 aHint
 )
 ;
+bool
+RecomputePosition
+(
+nsIFrame
+*
+aFrame
+)
+;
 void
 CreateFloatingLetterFrame
 (

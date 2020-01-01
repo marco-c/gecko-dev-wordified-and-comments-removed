@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -1126,7 +1126,7 @@ const
 nsAString
 &
 aIconSuffix
-nsILocalFile
+nsIFile
 *
 *
 aResult

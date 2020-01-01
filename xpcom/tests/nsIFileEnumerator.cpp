@@ -1,7 +1,7 @@
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -64,7 +64,7 @@ h
 bool
 LoopInDir
 (
-nsILocalFile
+nsIFile
 *
 file
 )
@@ -153,7 +153,7 @@ false
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 =
@@ -248,20 +248,9 @@ if
 isDir
 )
 {
-nsCOMPtr
-<
-nsILocalFile
->
-lfile
-=
-do_QueryInterface
-(
-file
-)
-;
 LoopInDir
 (
-lfile
+file
 )
 ;
 }
@@ -288,7 +277,7 @@ rv
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 topDir
 ;

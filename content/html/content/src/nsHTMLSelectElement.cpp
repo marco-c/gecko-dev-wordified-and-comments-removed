@@ -4442,12 +4442,11 @@ nsHTMLSelectElement
 Required
 required
 )
-NS_IMPL_NON_NEGATIVE_INT_ATTR_DEFAULT_VALUE
+NS_IMPL_UINT_ATTR
 (
 nsHTMLSelectElement
 Size
 size
-0
 )
 NS_IMPL_INT_ATTR
 (

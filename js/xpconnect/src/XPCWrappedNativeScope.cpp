@@ -784,13 +784,12 @@ aGlobal
 else
 if
 (
+dom
+:
+:
+IsDOMClass
 (
 jsClass
--
->
-flags
-&
-JSCLASS_IS_DOMJSCLASS
 )
 &
 &
@@ -820,7 +819,6 @@ nsISupports
 >
 (
 aGlobal
-jsClass
 )
 ;
 }

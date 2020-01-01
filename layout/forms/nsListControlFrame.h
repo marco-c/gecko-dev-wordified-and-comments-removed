@@ -820,7 +820,7 @@ nsListControlFrame
 nsresult
 GetSizeAttribute
 (
-PRInt32
+PRUint32
 *
 aSize
 )
@@ -1053,7 +1053,7 @@ nsIComboboxControlFrame
 *
 mComboboxFrame
 ;
-PRInt32
+PRUint32
 mNumDisplayRows
 ;
 bool

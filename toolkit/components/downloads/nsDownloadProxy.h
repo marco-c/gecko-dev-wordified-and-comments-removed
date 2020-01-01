@@ -109,7 +109,7 @@ nsIMIMEInfo
 aMIMEInfo
 PRTime
 aStartTime
-nsILocalFile
+nsIFile
 *
 aTempFile
 nsICancelable

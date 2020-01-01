@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -43,7 +43,7 @@ protected
 NS_METHOD
 CloneMozBinDirectory
 (
-nsILocalFile
+nsIFile
 *
 *
 aLocalFile
@@ -52,7 +52,7 @@ aLocalFile
 NS_METHOD
 GetProductDirectory
 (
-nsILocalFile
+nsIFile
 *
 *
 aLocalFile
@@ -65,7 +65,7 @@ false
 NS_METHOD
 GetDefaultUserProfileRoot
 (
-nsILocalFile
+nsIFile
 *
 *
 aLocalFile
@@ -91,7 +91,7 @@ IsOSXLeopard
 endif
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mMozBinDirectory
 ;

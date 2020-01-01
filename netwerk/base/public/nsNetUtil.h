@@ -259,7 +259,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -4869,7 +4869,7 @@ isFile
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;

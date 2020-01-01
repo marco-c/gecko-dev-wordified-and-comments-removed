@@ -259,7 +259,7 @@ mInStreamCount
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mLocalFile
 ;

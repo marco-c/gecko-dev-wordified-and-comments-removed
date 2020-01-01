@@ -1250,7 +1250,7 @@ rv
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 cacheDirectory
 ;
@@ -1797,7 +1797,7 @@ rv
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 cacheDirectory
 ;
@@ -4711,7 +4711,7 @@ aDocumentURI
 nsIDOMDocument
 *
 aDocument
-nsILocalFile
+nsIFile
 *
 aCustomProfileDir
 )

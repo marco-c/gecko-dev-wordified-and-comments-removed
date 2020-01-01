@@ -87,7 +87,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -911,7 +911,7 @@ static
 nsresult
 Init
 (
-nsILocalFile
+nsIFile
 *
 file
 nsZipHandle

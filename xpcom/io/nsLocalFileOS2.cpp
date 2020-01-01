@@ -926,7 +926,7 @@ nsnull
 nsresult
 Init
 (
-nsILocalFile
+nsIFile
 *
 parent
 )
@@ -1371,13 +1371,13 @@ mDir
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mParent
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mNext
 ;
@@ -1612,7 +1612,7 @@ mLetter
 +
 +
 ;
-nsILocalFile
+nsIFile
 *
 file
 ;
@@ -7735,7 +7735,7 @@ AssignLiteral
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 ;
@@ -9123,7 +9123,7 @@ nsACString
 path
 bool
 followLinks
-nsILocalFile
+nsIFile
 *
 *
 result
@@ -9787,7 +9787,7 @@ nsAString
 path
 bool
 followLinks
-nsILocalFile
+nsIFile
 *
 *
 result

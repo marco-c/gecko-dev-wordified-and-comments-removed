@@ -170,7 +170,7 @@ mSpoolName
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mSpoolFile
 ;

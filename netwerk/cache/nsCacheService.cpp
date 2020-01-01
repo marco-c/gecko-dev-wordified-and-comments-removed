@@ -117,7 +117,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -678,7 +678,7 @@ return
 mDiskCacheMaxEntrySize
 ;
 }
-nsILocalFile
+nsIFile
 *
 DiskCacheParentDirectory
 (
@@ -711,7 +711,7 @@ return
 mOfflineCacheCapacity
 ;
 }
-nsILocalFile
+nsIFile
 *
 OfflineCacheParentDirectory
 (
@@ -794,7 +794,7 @@ mDiskCacheMaxEntrySize
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mDiskCacheParentDirectory
 ;
@@ -809,7 +809,7 @@ mOfflineCacheCapacity
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mOfflineCacheParentDirectory
 ;
@@ -2627,7 +2627,7 @@ rv
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 cacheDirectory
 (
@@ -2930,7 +2930,7 @@ GetComplexValue
 DISK_CACHE_DIR_PREF
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -3286,7 +3286,7 @@ GetComplexValue
 OFFLINE_CACHE_DIR_PREF
 NS_GET_IID
 (
-nsILocalFile
+nsIFile
 )
 getter_AddRefs
 (
@@ -4770,7 +4770,7 @@ false
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 parentDir
 ;
@@ -6356,7 +6356,7 @@ nsCacheService
 :
 GetCustomOfflineDevice
 (
-nsILocalFile
+nsIFile
 *
 aProfileDir
 PRInt32
@@ -6502,7 +6502,7 @@ nsCacheService
 :
 CreateCustomOfflineDevice
 (
-nsILocalFile
+nsIFile
 *
 aProfileDir
 PRInt32

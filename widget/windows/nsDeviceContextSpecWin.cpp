@@ -152,13 +152,6 @@ h
 #
 include
 "
-nsILocalFile
-.
-h
-"
-#
-include
-"
 nsIFile
 .
 h
@@ -1461,7 +1454,7 @@ leafName
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 (
@@ -1591,7 +1584,7 @@ NS_ERROR_ABORT
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 ;
@@ -2474,7 +2467,7 @@ TWIPS_PER_POINT_FLOAT
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 =

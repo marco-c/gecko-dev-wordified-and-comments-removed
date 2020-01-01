@@ -861,7 +861,7 @@ mDocumentURI
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mCustomProfileDir
 ;
@@ -1011,7 +1011,7 @@ aDocument
 nsIDOMWindow
 *
 aWindow
-nsILocalFile
+nsIFile
 *
 aCustomProfileDir
 nsIOfflineCacheUpdate

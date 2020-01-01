@@ -157,7 +157,7 @@ nsAString
 path
 bool
 followLinks
-nsILocalFile
+nsIFile
 *
 *
 result
@@ -176,7 +176,7 @@ nsACString
 path
 bool
 followLinks
-nsILocalFile
+nsIFile
 *
 *
 result

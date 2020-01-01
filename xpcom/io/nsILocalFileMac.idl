@@ -160,6 +160,7 @@ CFURLRef
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 E5DE2CC9
@@ -646,7 +647,7 @@ If
 no
 document
 use
-nsILocalFile
+nsIFile
 :
 :
 launch
@@ -671,7 +672,7 @@ void
 launchWithDoc
 (
 in
-nsILocalFile
+nsIFile
 aDocToLoad
 in
 boolean
@@ -749,7 +750,7 @@ void
 openDocWithApp
 (
 in
-nsILocalFile
+nsIFile
 aAppToOpenWith
 in
 boolean

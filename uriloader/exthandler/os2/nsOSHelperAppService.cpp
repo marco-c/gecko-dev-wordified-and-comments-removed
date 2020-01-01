@@ -64,7 +64,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -808,7 +808,7 @@ prefValue
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 (
@@ -1144,7 +1144,7 @@ NS_OK
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 (
@@ -4023,7 +4023,7 @@ false
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 (
@@ -7268,7 +7268,7 @@ prefString
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 application
 ;

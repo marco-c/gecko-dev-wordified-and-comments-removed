@@ -4538,7 +4538,10 @@ NS_OK
 }
 nsCOMPtr
 <
-nsIContent
+dom
+:
+:
+Element
 >
 newContent
 ;

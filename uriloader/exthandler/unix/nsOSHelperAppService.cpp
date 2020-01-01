@@ -123,7 +123,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -883,7 +883,7 @@ rv
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 (
@@ -1172,7 +1172,7 @@ NS_OK
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 (
@@ -4135,7 +4135,7 @@ false
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 (
@@ -4934,7 +4934,7 @@ continue
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 (
@@ -5525,7 +5525,7 @@ path
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 (
@@ -7317,7 +7317,7 @@ nsOSHelperAppService
 :
 FixFilePermissions
 (
-nsILocalFile
+nsIFile
 *
 aFile
 )

@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -289,7 +289,7 @@ targetPath
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 destFile
 ;

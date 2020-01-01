@@ -229,7 +229,7 @@ OpenParams
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 ;
@@ -247,7 +247,7 @@ mOpenParams
 nsresult
 MaybeOpen
 (
-nsILocalFile
+nsIFile
 *
 aFile
 PRInt32

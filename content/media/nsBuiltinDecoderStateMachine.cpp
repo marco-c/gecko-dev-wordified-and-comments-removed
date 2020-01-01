@@ -155,9 +155,9 @@ endif
 static
 const
 PRUint32
-BUFFERING_WAIT
+BUFFERING_WAIT_S
 =
-30000
+30
 ;
 static
 const
@@ -1478,7 +1478,7 @@ mRealTime
 ?
 0
 :
-BUFFERING_WAIT
+BUFFERING_WAIT_S
 ;
 mLowDataThresholdUsecs
 =

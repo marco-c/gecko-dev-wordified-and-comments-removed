@@ -360,13 +360,9 @@ if
 jsclass
 &
 &
+IsDOMClass
 (
 jsclass
--
->
-flags
-&
-JSCLASS_IS_DOMJSCLASS
 )
 &
 &
@@ -391,7 +387,6 @@ nsISupports
 >
 (
 obj
-jsclass
 )
 ;
 return

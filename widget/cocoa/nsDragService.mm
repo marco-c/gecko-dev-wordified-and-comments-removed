@@ -2443,7 +2443,7 @@ null
 terminate
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 ;

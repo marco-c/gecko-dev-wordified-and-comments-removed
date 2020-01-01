@@ -1629,6 +1629,11 @@ DoScrollContentIntoView
 (
 )
 ;
+void
+SetupFontInflation
+(
+)
+;
 friend
 struct
 AutoRenderingStateSaveRestore

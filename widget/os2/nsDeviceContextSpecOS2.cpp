@@ -78,7 +78,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -1884,7 +1884,7 @@ TWIPS_PER_POINT_FLOAT
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 file
 =

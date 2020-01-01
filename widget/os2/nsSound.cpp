@@ -950,7 +950,7 @@ rv
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 soundFile
 ;

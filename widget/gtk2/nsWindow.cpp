@@ -391,13 +391,6 @@ h
 "
 #
 include
-"
-nsILocalFile
-.
-h
-"
-#
-include
 <
 gdk
 /
@@ -6759,7 +6752,7 @@ iconName
 }
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 iconFile
 ;

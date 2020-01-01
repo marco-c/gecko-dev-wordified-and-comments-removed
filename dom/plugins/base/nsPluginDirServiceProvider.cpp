@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -793,7 +793,7 @@ _retval
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 ;
@@ -2283,7 +2283,7 @@ nsnull
 ;
 nsCOMArray
 <
-nsILocalFile
+nsIFile
 >
 dirs
 ;
@@ -2323,7 +2323,7 @@ PRUint32
 aKey
 nsCOMArray
 <
-nsILocalFile
+nsIFile
 >
 &
 aDirs
@@ -2504,7 +2504,7 @@ rv
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 localFile
 ;
@@ -2574,10 +2574,7 @@ temp
 )
 localFile
 =
-do_QueryInterface
-(
 temp
-)
 ;
 }
 bool

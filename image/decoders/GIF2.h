@@ -146,7 +146,7 @@ count
 int
 bits
 ;
-int32
+PRInt32
 datum
 ;
 int

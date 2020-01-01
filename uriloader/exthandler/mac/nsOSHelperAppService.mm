@@ -161,7 +161,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -4122,7 +4122,7 @@ nsOSHelperAppService
 :
 FixFilePermissions
 (
-nsILocalFile
+nsIFile
 *
 aFile
 )

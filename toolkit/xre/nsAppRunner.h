@@ -104,7 +104,7 @@ class
 nsIToolkitProfileService
 ;
 class
-nsILocalFile
+nsIFile
 ;
 class
 nsIProfileLock
@@ -193,10 +193,10 @@ nsresult
 )
 NS_LockProfilePath
 (
-nsILocalFile
+nsIFile
 *
 aPath
-nsILocalFile
+nsIFile
 *
 aTempPath
 nsIProfileUnlocker

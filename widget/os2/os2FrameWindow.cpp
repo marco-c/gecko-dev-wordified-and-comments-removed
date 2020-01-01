@@ -1692,7 +1692,7 @@ hWorkingIcon
 ;
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 iconFile
 ;

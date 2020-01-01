@@ -479,6 +479,17 @@ GetType
 !
 =
 NS_FORM_LABEL
+&
+&
+formControl
+-
+>
+GetType
+(
+)
+!
+=
+NS_FORM_METER
 ;
 }
 NS_IMETHODIMP

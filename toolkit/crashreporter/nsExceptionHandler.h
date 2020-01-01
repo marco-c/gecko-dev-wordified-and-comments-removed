@@ -85,7 +85,7 @@ CrashReporter
 nsresult
 SetExceptionHandler
 (
-nsILocalFile
+nsIFile
 *
 aXREDirectory
 bool
@@ -174,7 +174,7 @@ argv
 nsresult
 SetupExtraData
 (
-nsILocalFile
+nsIFile
 *
 aAppDataDirectory
 const
@@ -216,7 +216,7 @@ const
 nsAString
 &
 id
-nsILocalFile
+nsIFile
 *
 *
 minidump
@@ -225,7 +225,7 @@ minidump
 bool
 GetIDFromMinidump
 (
-nsILocalFile
+nsIFile
 *
 minidump
 nsAString
@@ -240,7 +240,7 @@ const
 nsAString
 &
 id
-nsILocalFile
+nsIFile
 *
 *
 extraFile
@@ -249,10 +249,10 @@ extraFile
 bool
 GetExtraFileForMinidump
 (
-nsILocalFile
+nsIFile
 *
 minidump
-nsILocalFile
+nsIFile
 *
 *
 extraFile
@@ -274,7 +274,7 @@ data
 bool
 AppendExtraData
 (
-nsILocalFile
+nsIFile
 *
 extraFile
 const
@@ -329,7 +329,7 @@ TakeMinidumpForChild
 (
 PRUint32
 childPid
-nsILocalFile
+nsIFile
 *
 *
 dump
@@ -392,12 +392,12 @@ nsAString
 *
 pairGUID
 NS_OUTPARAM
-nsILocalFile
+nsIFile
 *
 *
 childDump
 NS_OUTPARAM
-nsILocalFile
+nsIFile
 *
 *
 parentDump

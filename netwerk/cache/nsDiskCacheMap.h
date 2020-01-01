@@ -42,7 +42,7 @@ h
 #
 include
 "
-nsILocalFile
+nsIFile
 .
 h
 "
@@ -1431,7 +1431,7 @@ true
 nsresult
 Open
 (
-nsILocalFile
+nsIFile
 *
 cacheDirectory
 )
@@ -1554,7 +1554,7 @@ bool
 meta
 bool
 createPath
-nsILocalFile
+nsIFile
 *
 *
 result
@@ -1795,7 +1795,7 @@ GetBlockFileForIndex
 (
 PRUint32
 index
-nsILocalFile
+nsIFile
 *
 *
 result
@@ -1938,7 +1938,7 @@ private
 :
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 mCacheDirectory
 ;

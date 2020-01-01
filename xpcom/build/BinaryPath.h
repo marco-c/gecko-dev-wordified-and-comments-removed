@@ -610,7 +610,7 @@ const
 char
 *
 argv0
-nsILocalFile
+nsIFile
 *
 *
 aResult
@@ -618,7 +618,7 @@ aResult
 {
 nsCOMPtr
 <
-nsILocalFile
+nsIFile
 >
 lf
 ;
