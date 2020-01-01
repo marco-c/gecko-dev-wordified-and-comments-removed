@@ -147,6 +147,13 @@ h
 #
 include
 "
+nsDNSPrefetch
+.
+h
+"
+#
+include
+"
 TimingStruct
 .
 h
@@ -1217,6 +1224,12 @@ mCacheReadEnd
 ;
 TimingStruct
 mTransactionTimings
+;
+nsRefPtr
+<
+nsDNSPrefetch
+>
+mDNSPrefetch
 ;
 nsresult
 WaitForRedirectCallback
