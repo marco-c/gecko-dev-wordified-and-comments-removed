@@ -2122,6 +2122,9 @@ mNetworkState
 nsMediaReadyState
 mReadyState
 ;
+NextFrameStatus
+mLastNextFrameStatus
+;
 enum
 LoadAlgorithmState
 {
@@ -2315,6 +2318,9 @@ mCORSMode
 ;
 bool
 mHasAudio
+;
+bool
+mHasVideo
 ;
 bool
 mDownloadSuspendedByCache
