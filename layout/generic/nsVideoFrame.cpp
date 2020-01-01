@@ -675,7 +675,7 @@ mBorderPadding
 left
 mBorderPadding
 .
-right
+top
 aReflowState
 .
 ComputedWidth
