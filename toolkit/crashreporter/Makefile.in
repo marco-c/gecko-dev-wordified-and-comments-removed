@@ -93,16 +93,6 @@ OS_ARCH
 Linux
 )
 #
-There
-'
-s
-no
-define
-for
-XP_LINUX
-normally
-.
-#
 MOZ_APP_NAME
 is
 needed
@@ -121,9 +111,6 @@ name
 DEFINES
 +
 =
-\
--
-DXP_LINUX
 \
 -
 DANDROID_PACKAGE_NAME
