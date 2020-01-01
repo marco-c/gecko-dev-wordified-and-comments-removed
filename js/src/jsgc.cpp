@@ -14697,6 +14697,11 @@ js_FlushPropertyCache
 acx
 )
 ;
+js_FlushJITCache
+(
+acx
+)
+;
 }
 #
 else
@@ -14707,6 +14712,11 @@ rt
 -
 >
 gsnCache
+)
+;
+js_FlushJITCache
+(
+cx
 )
 ;
 #
@@ -14746,11 +14756,6 @@ rt
 shapeGen
 =
 0
-;
-js_FlushJITCache
-(
-cx
-)
 ;
 JS_TRACER_INIT
 (
