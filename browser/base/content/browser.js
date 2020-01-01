@@ -7030,6 +7030,10 @@ SanitizeListener
 (
 )
 ;
+initBookmarksToolbar
+(
+)
+;
 }
 function
 nonBrowserWindowShutdown
