@@ -3731,6 +3731,8 @@ JSParseNode
 kid
 uintN
 blockid
+bool
+isGenexp
 js
 :
 :

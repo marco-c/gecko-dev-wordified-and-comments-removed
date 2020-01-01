@@ -95,7 +95,10 @@ in
 )
 )
 '
-parsesSuccessfully
+parseRaisesException
+(
+SyntaxError
+)
 parseRaisesException
 (
 SyntaxError
@@ -122,7 +125,10 @@ in
 )
 )
 '
-parsesSuccessfully
+parseRaisesException
+(
+SyntaxError
+)
 parseRaisesException
 (
 SyntaxError
@@ -151,7 +157,10 @@ in
 )
 )
 '
-parsesSuccessfully
+parseRaisesException
+(
+SyntaxError
+)
 parseRaisesException
 (
 SyntaxError
