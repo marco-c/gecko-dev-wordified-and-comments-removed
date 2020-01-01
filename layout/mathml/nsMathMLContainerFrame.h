@@ -534,6 +534,14 @@ ReportChildCountError
 )
 ;
 nsresult
+ReportInvalidChildError
+(
+nsIAtom
+*
+aChildTag
+)
+;
+nsresult
 ReportErrorToConsole
 (
 const
