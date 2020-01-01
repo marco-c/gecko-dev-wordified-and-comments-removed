@@ -34,9 +34,17 @@ MOZ_MEMORY
 )
 &
 &
+(
 defined
 (
 XP_WIN
+)
+|
+|
+defined
+(
+SOLARIS
+)
 )
 #
 define
