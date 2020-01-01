@@ -222,3 +222,13 @@ nsBrowserGlue
 js
 '
 ]
+EXTRA_JS_MODULES
++
+=
+[
+'
+distribution
+.
+js
+'
+]

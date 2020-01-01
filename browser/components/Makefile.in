@@ -85,11 +85,6 @@ manifest
 (
 NULL
 )
-EXTRA_JS_MODULES
-=
-distribution
-.
-js
 include
 (
 topsrcdir
