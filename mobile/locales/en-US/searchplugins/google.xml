@@ -183,11 +183,11 @@ GET
 template
 =
 "
-http
+https
 :
 /
 /
-suggestqueries
+www
 .
 google
 .
@@ -244,7 +244,7 @@ GET
 template
 =
 "
-http
+https
 :
 /
 /
@@ -365,7 +365,7 @@ Url
 <
 SearchForm
 >
-http
+https
 :
 /
 /
