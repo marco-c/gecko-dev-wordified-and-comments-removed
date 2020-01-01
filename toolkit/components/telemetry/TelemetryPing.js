@@ -83,6 +83,9 @@ jsm
 "
 )
 ;
+#
+ifndef
+MOZ_WIDGET_GONK
 Cu
 .
 import
@@ -102,6 +105,8 @@ jsm
 "
 )
 ;
+#
+endif
 Cu
 .
 import
@@ -1956,6 +1961,9 @@ continue
 }
 }
 }
+#
+ifndef
+MOZ_WIDGET_GONK
 let
 theme
 =
@@ -1975,6 +1983,8 @@ theme
 .
 id
 ;
+#
+endif
 if
 (
 this

@@ -2246,6 +2246,9 @@ components
 nsSidebar
 .
 js
+#
+ifndef
+MOZ_WIDGET_GONK
 BINPATH
 /
 components
@@ -2281,6 +2284,8 @@ components
 nsBlocklistService
 .
 js
+#
+endif
 #
 ifdef
 MOZ_UPDATER

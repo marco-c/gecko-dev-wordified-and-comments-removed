@@ -34,6 +34,9 @@ ae1d
 -
 8da97d6b205e
 }
+#
+ifndef
+MOZ_WIDGET_GONK
 category
 update
 -
@@ -230,3 +233,5 @@ modules
 PluginProvider
 .
 jsm
+#
+endif
