@@ -2145,6 +2145,9 @@ throbber
 shlibsign
 *
 \
+ssltunnel
+*
+\
 winEmbed
 .
 exe
