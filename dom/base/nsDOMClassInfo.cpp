@@ -16232,6 +16232,11 @@ ci
 do_QueryInterface
 (
 aWrapper
+-
+>
+Native
+(
+)
 )
 ;
 if
