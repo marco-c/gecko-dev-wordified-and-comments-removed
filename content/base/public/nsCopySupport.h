@@ -43,6 +43,9 @@ class
 nsIPresShell
 ;
 class
+nsILoadContext
+;
+class
 nsCopySupport
 {
 public
@@ -119,6 +122,9 @@ ImageCopy
 nsIImageLoadingContent
 *
 aImageElement
+nsILoadContext
+*
+aLoadContext
 PRInt32
 aCopyFlags
 )

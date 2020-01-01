@@ -37844,6 +37844,16 @@ mIsApprovedForFullscreen
 {
 mIsApprovedForFullscreen
 =
+GetWindow
+(
+)
+-
+>
+IsPartOfApp
+(
+)
+|
+|
 nsContentUtils
 :
 :

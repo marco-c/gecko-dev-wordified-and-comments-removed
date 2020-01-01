@@ -580,6 +580,9 @@ nsISupportsArray
 *
 *
 transferables
+nsIDOMNode
+*
+aDragTarget
 )
 ;
 /

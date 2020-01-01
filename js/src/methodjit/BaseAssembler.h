@@ -100,6 +100,13 @@ jsscopeinlines
 .
 h
 "
+#
+include
+"
+jstypedarrayinlines
+.
+h
+"
 namespace
 js
 {

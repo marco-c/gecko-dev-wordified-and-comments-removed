@@ -25,6 +25,14 @@ nsTArray
 .
 h
 "
+#
+if
+(
+MOZ_WIDGET_GTK
+=
+=
+2
+)
 extern
 "
 C
@@ -36,6 +44,8 @@ _GdkDrawable
 GdkDrawable
 ;
 }
+#
+endif
 class
 gfxFontconfigUtils
 ;
@@ -352,6 +362,14 @@ GetFTLibrary
 ;
 #
 endif
+#
+if
+(
+MOZ_WIDGET_GTK
+=
+=
+2
+)
 static
 void
 SetGdkDrawable
@@ -374,6 +392,8 @@ gfxASurface
 target
 )
 ;
+#
+endif
 static
 PRInt32
 GetDPI

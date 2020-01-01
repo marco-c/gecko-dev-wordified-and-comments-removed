@@ -2,7 +2,7 @@
 if
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 #
 include
@@ -562,7 +562,7 @@ utf16
 elif
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 FcResult
 result

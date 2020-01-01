@@ -129,6 +129,9 @@ using
 gfx3DMatrix
 ;
 using
+gfxPoint
+;
+using
 gfxRGBA
 ;
 using
@@ -414,6 +417,9 @@ clipRect
 ;
 bool
 isFixedPosition
+;
+gfxPoint
+fixedPositionAnchor
 ;
 nullable
 PLayer

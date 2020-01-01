@@ -511,7 +511,7 @@ i32
 TypedArray
 :
 :
-getType
+type
 (
 tarray
 )
@@ -568,7 +568,7 @@ if
 TypedArray
 :
 :
-getType
+type
 (
 tarray
 )
@@ -845,7 +845,7 @@ if
 TypedArray
 :
 :
-getType
+type
 (
 tarray
 )
@@ -966,7 +966,7 @@ if
 TypedArray
 :
 :
-getType
+type
 (
 tarray
 )
@@ -1454,7 +1454,7 @@ if
 TypedArray
 :
 :
-getType
+type
 (
 tarray
 )
@@ -1516,7 +1516,7 @@ type
 TypedArray
 :
 :
-getType
+type
 (
 tarray
 )

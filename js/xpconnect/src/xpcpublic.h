@@ -1248,6 +1248,12 @@ rv
 )
 ;
 }
+nsCycleCollectionParticipant
+*
+xpc_JSCompartmentParticipant
+(
+)
+;
 namespace
 mozilla
 {

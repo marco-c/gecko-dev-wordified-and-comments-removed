@@ -205,10 +205,6 @@ BrowserToolbar
 .
 java
 \
-ConfirmPreference
-.
-java
-\
 SyncPreference
 .
 java
@@ -377,7 +373,15 @@ MenuItemDefault
 .
 java
 \
+MultiChoicePreference
+.
+java
+\
 NSSBridge
+.
+java
+\
+PrivateDataPreference
 .
 java
 \

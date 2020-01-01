@@ -1,6 +1,6 @@
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 #
 include
 <
@@ -982,7 +982,7 @@ aChannel
 {
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 gtk_init
 (
 NULL

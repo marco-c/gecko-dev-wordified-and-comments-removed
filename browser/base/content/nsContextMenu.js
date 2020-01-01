@@ -7076,6 +7076,7 @@ clipboard
 copyString
 (
 addresses
+document
 )
 ;
 }
@@ -8782,6 +8783,7 @@ copyString
 this
 .
 mediaURL
+document
 )
 ;
 }
