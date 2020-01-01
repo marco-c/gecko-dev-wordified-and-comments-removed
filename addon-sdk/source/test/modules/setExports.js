@@ -1,0 +1,7 @@
+module
+.
+setExports
+(
+5
+)
+;

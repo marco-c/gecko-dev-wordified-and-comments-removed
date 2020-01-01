@@ -1,0 +1,6 @@
+exports
+.
+main
+=
+42
+;

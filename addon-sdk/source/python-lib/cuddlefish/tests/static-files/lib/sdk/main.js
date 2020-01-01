@@ -1,0 +1,14 @@
+module
+.
+metadata
+=
+{
+"
+stability
+"
+:
+"
+stable
+"
+}
+;

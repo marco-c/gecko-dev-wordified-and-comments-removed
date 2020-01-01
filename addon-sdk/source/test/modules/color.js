@@ -1,0 +1,11 @@
+define
+(
+{
+type
+:
+'
+color
+'
+}
+)
+;

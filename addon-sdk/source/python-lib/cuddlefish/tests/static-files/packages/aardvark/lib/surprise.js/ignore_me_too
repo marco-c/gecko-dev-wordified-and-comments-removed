@@ -1,0 +1,15 @@
+The
+docs
+processor
+should
+also
+ignore
+directories
+named
+*
+.
+js
+and
+their
+contents
+.
