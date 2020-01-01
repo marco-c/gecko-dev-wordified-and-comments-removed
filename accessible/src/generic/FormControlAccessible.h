@@ -50,6 +50,8 @@ mStateFlags
 |
 =
 eHasNumericValue
+|
+eIgnoreDOMUIEvent
 ;
 mType
 =
