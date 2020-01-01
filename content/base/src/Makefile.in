@@ -376,6 +376,10 @@ nsImageLoadingContent
 .
 cpp
 \
+nsINode
+.
+cpp
+\
 nsLineBreaker
 .
 cpp
