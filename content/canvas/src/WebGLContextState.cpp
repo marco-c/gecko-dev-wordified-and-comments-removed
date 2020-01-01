@@ -2261,6 +2261,13 @@ return
 &
 mDitherEnabled
 ;
+case
+LOCAL_GL_RASTERIZER_DISCARD
+:
+return
+&
+mRasterizerDiscardEnabled
+;
 }
 return
 nullptr
