@@ -447,6 +447,10 @@ test_bug365773
 .
 xul
 \
+test_bug382990
+.
+xul
+\
 test_closemenu_attribute
 .
 xul

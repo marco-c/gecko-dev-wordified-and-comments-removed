@@ -6218,6 +6218,12 @@ event
 event
 .
 metaKey
+&
+&
+!
+event
+.
+ctrlKey
 )
 {
 var
