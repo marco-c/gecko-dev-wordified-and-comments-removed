@@ -2734,7 +2734,7 @@ GetStyleVisibility
 )
 -
 >
-mLangGroup
+mLanguage
 fs
 *
 getter_AddRefs

@@ -226,7 +226,7 @@ nsFont
 aFont
 nsIAtom
 *
-aLangGroup
+aLanguage
 gfxUserFontSet
 *
 aUserFontSet
@@ -496,7 +496,7 @@ aForceAlias
 )
 ;
 void
-GetLocaleLangGroup
+GetLocaleLanguage
 (
 void
 )
@@ -552,7 +552,7 @@ nsCOMPtr
 <
 nsIAtom
 >
-mLocaleLangGroup
+mLocaleLanguage
 ;
 nsHashtable
 *

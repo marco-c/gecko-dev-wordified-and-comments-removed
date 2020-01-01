@@ -309,11 +309,6 @@ static
 FT_Library
 gFTLibrary
 ;
-static
-nsILanguageAtomService
-*
-gLangService
-;
 NS_SPECIALIZE_TEMPLATE
 class
 nsAutoRefTraits
@@ -6945,7 +6940,7 @@ GuessPangoLanguage
 aStyle
 -
 >
-langGroup
+language
 )
 )
 {
@@ -7004,7 +6999,7 @@ aFcFamilyList
 const
 nsACString
 &
-aLangGroup
+aLanguage
 )
 {
 FamilyCallbackData
@@ -7017,7 +7012,7 @@ mUserFontSet
 ForEachFontInternal
 (
 mFamilies
-aLangGroup
+aLanguage
 PR_TRUE
 PR_FALSE
 FamilyCallback
@@ -7317,7 +7312,7 @@ langGroup
 :
 mStyle
 .
-langGroup
+language
 )
 ;
 nsAutoRef
@@ -7606,11 +7601,6 @@ NULL
 gFTLibrary
 =
 NULL
-;
-NS_IF_RELEASE
-(
-gLangService
-)
 ;
 }
 gfxFontEntry
@@ -8060,11 +8050,9 @@ aPattern
 ;
 NS_NAMED_LITERAL_CSTRING
 (
-langGroup
+language
 "
-x
--
-unicode
+en
 "
 )
 ;
@@ -8075,7 +8063,7 @@ style
 weight
 NS_FONT_STRETCH_NORMAL
 size
-langGroup
+language
 0
 .
 0

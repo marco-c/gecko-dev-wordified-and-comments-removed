@@ -1492,12 +1492,12 @@ mEventManager
 }
 nsIAtom
 *
-GetLangGroup
+GetLanguage
 (
 )
 {
 return
-mLangGroup
+mLanguage
 ;
 }
 float
@@ -3173,7 +3173,7 @@ mLinkHandler
 ;
 nsIAtom
 *
-mLangGroup
+mLanguage
 ;
 nsRefPtrHashtable
 <

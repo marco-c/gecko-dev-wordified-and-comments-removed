@@ -1493,7 +1493,7 @@ GetPrefFonts
 aStyle
 -
 >
-langGroup
+language
 .
 get
 (
@@ -1518,7 +1518,7 @@ prefFamilies
 aStyle
 -
 >
-langGroup
+language
 FontCallback
 &
 familyArray
@@ -3442,7 +3442,7 @@ GetPrefFonts
 (
 mStyle
 .
-langGroup
+language
 .
 get
 (

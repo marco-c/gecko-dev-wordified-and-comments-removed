@@ -392,7 +392,7 @@ aFcFamilyList
 const
 nsACString
 &
-aLangGroup
+aLanguage
 )
 ;
 already_AddRefed

@@ -2564,7 +2564,6 @@ GetStyleFont
 -
 >
 mFont
-nsnull
 aPresContext
 -
 >

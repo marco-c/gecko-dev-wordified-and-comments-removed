@@ -741,7 +741,6 @@ GetStyleFont
 -
 >
 mFont
-nsnull
 PresContext
 (
 )

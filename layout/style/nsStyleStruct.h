@@ -4417,7 +4417,7 @@ nsCOMPtr
 <
 nsIAtom
 >
-mLangGroup
+mLanguage
 ;
 PRUint8
 mPointerEvents

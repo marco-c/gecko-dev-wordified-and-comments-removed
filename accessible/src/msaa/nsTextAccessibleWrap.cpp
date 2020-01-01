@@ -1146,7 +1146,7 @@ mFont
 visibility
 -
 >
-mLangGroup
+mLanguage
 presShell
 -
 >

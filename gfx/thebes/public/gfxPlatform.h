@@ -483,7 +483,7 @@ GetPrefFonts
 const
 char
 *
-aLangGroup
+aLanguage
 nsString
 &
 array

@@ -1587,6 +1587,12 @@ NS_SUCCEEDED
 rv
 )
 )
+{
+ToLowerCase
+(
+langGroup
+)
+;
 *
 aResult
 =
@@ -1595,6 +1601,7 @@ NS_NewAtom
 langGroup
 )
 ;
+}
 return
 rv
 ;

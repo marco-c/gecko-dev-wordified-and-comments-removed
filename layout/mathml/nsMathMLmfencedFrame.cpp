@@ -873,7 +873,6 @@ font
 -
 >
 mFont
-nsnull
 aPresContext
 -
 >
