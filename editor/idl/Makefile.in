@@ -462,10 +462,6 @@ nsIHTMLEditor
 .
 idl
 \
-nsIHTMLEditor_MOZILLA_2_0_BRANCH
-.
-idl
-\
 nsIHTMLObjectResizer
 .
 idl
