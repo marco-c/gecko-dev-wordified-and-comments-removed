@@ -457,15 +457,15 @@ nsIURI
 scriptable
 uuid
 (
-b07cb0f0
+6852369e
 -
-3394
+baa9
 -
-572e
+4c9a
 -
-6260
+bbcd
 -
-dbaed0a292ba
+5123fc54a297
 )
 ]
 interface
@@ -670,7 +670,7 @@ PR_StringToNetAddr
 .
 *
 /
-AUTF8String
+ACString
 getPublicSuffix
 (
 in
@@ -981,7 +981,7 @@ getPublicSuffix
 )
 *
 /
-AUTF8String
+ACString
 getBaseDomain
 (
 in
@@ -1023,7 +1023,7 @@ getPublicSuffix
 )
 *
 /
-AUTF8String
+ACString
 getPublicSuffixFromHost
 (
 in
@@ -1059,7 +1059,7 @@ getBaseDomain
 )
 *
 /
-AUTF8String
+ACString
 getBaseDomainFromHost
 (
 in
