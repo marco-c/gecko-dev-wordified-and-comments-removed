@@ -366,7 +366,7 @@ mCanvasClient
 TextureFlags
 flags
 =
-TEXTURE_IMMEDIATE_UPLOAD
+0
 ;
 if
 (
@@ -525,13 +525,6 @@ mCanvasClient
 -
 >
 Updated
-(
-)
-;
-mCanvasClient
--
->
-OnTransaction
 (
 )
 ;

@@ -107,7 +107,6 @@ aInverted
 false
 )
 ;
-virtual
 gfx
 :
 :
