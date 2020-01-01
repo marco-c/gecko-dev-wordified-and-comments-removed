@@ -72,6 +72,13 @@ srcdir
 VPATH
 =
 srcdir
+relativesrcdir
+=
+dom
+/
+system
+/
+b2g
 include
 (
 DEPTH
@@ -252,6 +259,12 @@ js
 (
 NULL
 )
+ifdef
+ENABLE_TESTS
+XPCSHELL_TESTS
+=
+tests
+endif
 include
 (
 topsrcdir

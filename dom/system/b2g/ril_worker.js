@@ -19,8 +19,6 @@ js
 ;
 let
 DEBUG
-=
-false
 ;
 const
 INT32_MAX
