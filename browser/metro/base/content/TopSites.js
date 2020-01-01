@@ -901,9 +901,13 @@ thumbnail
 ;
 item
 .
-backgroundImage
-=
+setAttribute
+(
+"
+customImage
+"
 cssthumbnail
+)
 ;
 }
 }
