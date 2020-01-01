@@ -268,7 +268,7 @@ QUERYUPDATE_COMPLEX
 define
 QUERYUPDATE_COMPLEX_WITH_BOOKMARKS
 3
-class
+struct
 AutoCompleteIntermediateResult
 ;
 class
