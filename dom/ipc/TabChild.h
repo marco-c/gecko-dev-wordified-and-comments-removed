@@ -1604,6 +1604,15 @@ aFrameMetrics
 )
 ;
 void
+SetDisplayPort
+(
+const
+FrameMetrics
+&
+aFrameMetrics
+)
+;
+void
 DoFakeShow
 (
 )
