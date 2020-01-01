@@ -217,7 +217,10 @@ SyncEngine
 prototype
 .
 _syncStartup
+.
+call
 (
+this
 )
 ;
 }
@@ -241,7 +244,10 @@ SyncEngine
 prototype
 .
 _syncFinish
+.
+call
 (
+this
 )
 ;
 }
