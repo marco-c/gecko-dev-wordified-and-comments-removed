@@ -494,7 +494,13 @@ aCx
 JS
 :
 :
+Handle
+<
+JS
+:
+:
 Value
+>
 aThisVal
 const
 mozilla
