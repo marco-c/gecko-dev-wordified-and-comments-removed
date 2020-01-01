@@ -43674,6 +43674,15 @@ OS_ARCH
 "
 Linux
 "
+-
+a
+"
+CPU_ARCH
+"
+=
+"
+x86
+"
 )
 \
 &
