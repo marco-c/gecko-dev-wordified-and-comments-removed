@@ -1876,6 +1876,7 @@ pm
 SetMouseLocation
 (
 aEvent
+popup
 )
 ;
 mPopupContent
