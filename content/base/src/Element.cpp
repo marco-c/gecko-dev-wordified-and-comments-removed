@@ -5026,9 +5026,12 @@ nsIScriptError
 :
 :
 warningFlag
+NS_LITERAL_CSTRING
+(
 "
 DOM
 "
+)
 OwnerDoc
 (
 )
@@ -10793,9 +10796,12 @@ nsIScriptError
 :
 :
 warningFlag
+NS_LITERAL_CSTRING
+(
 "
 DOM
 "
+)
 OwnerDoc
 (
 )

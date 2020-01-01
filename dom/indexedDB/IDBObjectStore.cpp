@@ -288,6 +288,13 @@ IndexedDatabaseInlines
 h
 "
 #
+include
+"
+nsCharSeparatedTokenizer
+.
+h
+"
+#
 define
 FILE_COPY_BUFFER_SIZE
 32768

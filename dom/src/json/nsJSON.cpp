@@ -211,10 +211,13 @@ nsIScriptError
 :
 :
 warningFlag
+NS_LITERAL_CSTRING
+(
 "
 DOM
 Core
 "
+)
 nullptr
 nsContentUtils
 :

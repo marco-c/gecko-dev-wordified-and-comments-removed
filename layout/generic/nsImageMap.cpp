@@ -440,9 +440,12 @@ nsContentUtils
 ReportToConsole
 (
 aFlags
+NS_LITERAL_CSTRING
+(
 "
 ImageMap
 "
+)
 doc
 nsContentUtils
 :

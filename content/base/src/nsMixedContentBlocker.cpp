@@ -653,11 +653,14 @@ nsIScriptError
 :
 :
 errorFlag
+NS_LITERAL_CSTRING
+(
 "
 Mixed
 Content
 Blocker
 "
+)
 aRootDoc
 nsContentUtils
 :

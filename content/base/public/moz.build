@@ -223,6 +223,11 @@ EXPORTS
 =
 [
 '
+HTMLSplitOnSpacesTokenizer
+.
+h
+'
+'
 mozFlushType
 .
 h
@@ -244,6 +249,11 @@ h
 '
 '
 nsContentPolicyUtils
+.
+h
+'
+'
+nsContentTypeParser
 .
 h
 '

@@ -5724,9 +5724,12 @@ nsIScriptError
 :
 :
 errorFlag
+NS_LITERAL_CSTRING
+(
 "
 MathML
 "
+)
 mContent
 -
 >

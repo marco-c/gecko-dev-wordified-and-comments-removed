@@ -3439,10 +3439,13 @@ nsIScriptError
 :
 :
 warningFlag
+NS_LITERAL_CSTRING
+(
 "
 HTML
 parser
 "
+)
 mDocument
 nsContentUtils
 :
@@ -3499,10 +3502,13 @@ nsIScriptError
 :
 :
 errorFlag
+NS_LITERAL_CSTRING
+(
 "
 HTML
 parser
 "
+)
 aDoc
 nsContentUtils
 :

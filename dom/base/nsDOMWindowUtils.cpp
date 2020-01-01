@@ -12050,9 +12050,12 @@ nsIScriptError
 :
 :
 warningFlag
+NS_LITERAL_CSTRING
+(
 "
 DOM
 "
+)
 nsContentUtils
 :
 :

@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsStringGlue
+nsStringFwd
 .
 h
 "

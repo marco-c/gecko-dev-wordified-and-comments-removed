@@ -1203,10 +1203,13 @@ nsIScriptError
 :
 :
 warningFlag
+NS_LITERAL_CSTRING
+(
 "
 Redirect
 Error
 "
+)
 nullptr
 nsContentUtils
 :
