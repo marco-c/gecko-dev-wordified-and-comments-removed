@@ -91,6 +91,10 @@ mk
 _BROWSER_FILES
 =
 \
+browser_thumbnails_background
+.
+js
+\
 browser_thumbnails_capture
 .
 js
@@ -140,6 +144,10 @@ background_red_redirect
 sjs
 \
 privacy_cache_control
+.
+sjs
+\
+thumbnails_background
 .
 sjs
 \
