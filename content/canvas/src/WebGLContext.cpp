@@ -186,6 +186,14 @@ mSynthesizedGLError
 (
 LOCAL_GL_NO_ERROR
 )
+mPixelStoreFlipY
+(
+PR_FALSE
+)
+mPixelStorePremultiplyAlpha
+(
+PR_FALSE
+)
 {
 mMapBuffers
 .
