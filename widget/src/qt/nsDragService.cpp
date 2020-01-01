@@ -856,7 +856,7 @@ Unsuppress
 ;
 }
 NS_IMETHODIMP
-nsBaseDragService
+nsDragService
 :
 :
 DragMoved
