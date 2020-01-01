@@ -3888,9 +3888,9 @@ label
 =
 "
 &
-showAllHistoryCmd
+showAllHistoryCmd2
 .
-label2
+label
 ;
 "
 #
@@ -4304,9 +4304,9 @@ label
 =
 "
 &
-showAllBookmarksCmd
+showAllBookmarksCmd2
 .
-label2
+label
 ;
 "
 command

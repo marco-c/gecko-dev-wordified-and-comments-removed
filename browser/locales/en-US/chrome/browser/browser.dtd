@@ -646,9 +646,9 @@ Tabs
 <
 !
 ENTITY
-showAllBookmarksCmd
+showAllBookmarksCmd2
 .
-label2
+label
 "
 Organize
 Bookmarks
@@ -1684,9 +1684,9 @@ Home
 <
 !
 ENTITY
-showAllHistoryCmd
+showAllHistoryCmd2
 .
-label2
+label
 "
 Show
 All
