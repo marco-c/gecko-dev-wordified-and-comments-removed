@@ -4883,9 +4883,7 @@ this
 .
 _pinchDelta
 <
-this
-.
-_oldScale
+oldScale
 )
 return
 ;
