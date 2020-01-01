@@ -1135,6 +1135,16 @@ HandleFunction
 funArg
 )
 ;
+bool
+GetAndClearException
+(
+JSContext
+*
+cx
+MutableHandleValue
+res
+)
+;
 }
 #
 endif
