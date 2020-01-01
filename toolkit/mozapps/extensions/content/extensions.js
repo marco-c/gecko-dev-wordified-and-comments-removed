@@ -2211,10 +2211,16 @@ if
 (
 gUpdatesOnly
 )
+{
 showSkip
 =
 true
 ;
+showRestartApp
+=
+false
+;
+}
 bindingList
 =
 [
