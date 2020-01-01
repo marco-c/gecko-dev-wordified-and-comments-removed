@@ -974,7 +974,7 @@ GetFontTable
 (
 PRUint32
 aTableTag
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -1038,7 +1038,7 @@ ShareFontTableAndGetBlob
 (
 PRUint32
 aTag
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -1051,7 +1051,7 @@ PreloadFontTable
 (
 PRUint32
 aTag
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -1364,7 +1364,7 @@ hb_blob_t
 *
 ShareTableAndGetBlob
 (
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -1381,7 +1381,7 @@ aHashtable
 void
 SaveTable
 (
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -1790,7 +1790,7 @@ ReadOtherFamilyNamesForFace
 gfxPlatformFontList
 *
 aPlatformFontList
-nsTArray
+FallibleTArray
 <
 PRUint8
 >

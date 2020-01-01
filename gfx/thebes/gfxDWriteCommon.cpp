@@ -97,7 +97,7 @@ gfxDWriteFontFileStream
 :
 gfxDWriteFontFileStream
 (
-nsTArray
+FallibleTArray
 <
 PRUint8
 >

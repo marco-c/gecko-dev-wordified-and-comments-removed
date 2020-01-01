@@ -1135,7 +1135,7 @@ len
 NS_ERROR_FAILURE
 )
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 PRUint8
 16384

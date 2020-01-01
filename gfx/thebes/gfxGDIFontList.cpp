@@ -760,7 +760,7 @@ p
 '
 )
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 PRUint8
 16384
@@ -988,7 +988,7 @@ GetFontTable
 (
 PRUint32
 aTableTag
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -3913,7 +3913,7 @@ if
 isCFF
 )
 {
-nsAutoTArray
+AutoFallibleTArray
 <
 PRUint8
 2048
@@ -4133,7 +4133,7 @@ fontRef
 nsnull
 )
 {
-nsTArray
+FallibleTArray
 <
 PRUint8
 >

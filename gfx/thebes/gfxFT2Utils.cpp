@@ -1617,7 +1617,7 @@ GetFontTable
 (
 PRUint32
 aTag
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -1676,7 +1676,7 @@ length
 >
 static_cast
 <
-nsTArray
+FallibleTArray
 <
 PRUint8
 >

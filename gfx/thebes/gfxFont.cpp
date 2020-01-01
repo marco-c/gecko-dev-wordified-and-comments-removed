@@ -365,7 +365,7 @@ p
 '
 )
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 PRUint8
 16384
@@ -658,7 +658,7 @@ public
 :
 FontTableBlobData
 (
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -802,7 +802,7 @@ nsnull
 }
 private
 :
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -837,7 +837,7 @@ FontTableHashEntry
 :
 SaveTable
 (
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -892,7 +892,7 @@ FontTableHashEntry
 :
 ShareTableAndGetBlob
 (
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -1131,7 +1131,7 @@ ShareFontTableAndGetBlob
 (
 PRUint32
 aTag
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -1222,7 +1222,7 @@ PreloadFontTable
 (
 PRUint32
 aTag
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -2927,7 +2927,7 @@ ReadOtherFamilyNamesForFace
 gfxPlatformFontList
 *
 aPlatformFontList
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -3302,7 +3302,7 @@ e
 '
 )
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 PRUint8
 8192
@@ -3488,7 +3488,7 @@ e
 '
 )
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 PRUint8
 8192
@@ -4564,7 +4564,7 @@ blob
 return
 blob
 ;
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -7427,7 +7427,7 @@ mFUnitsConvFactor
 0
 )
 {
-nsAutoTArray
+AutoFallibleTArray
 <
 PRUint8
 sizeof
@@ -7510,7 +7510,7 @@ mAdjustedSize
 unitsPerEm
 ;
 }
-nsAutoTArray
+AutoFallibleTArray
 <
 PRUint8
 sizeof
@@ -7642,7 +7642,7 @@ hhea
 lineGap
 )
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 PRUint8
 sizeof
@@ -7730,7 +7730,7 @@ post
 underlineThickness
 )
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 PRUint8
 sizeof

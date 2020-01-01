@@ -701,7 +701,7 @@ d
 '
 )
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 PRUint8
 sizeof

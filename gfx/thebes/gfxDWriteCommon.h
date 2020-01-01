@@ -241,7 +241,7 @@ NS_FONT_STRETCH_NORMAL
 struct
 ffReferenceKey
 {
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -448,7 +448,7 @@ public
 :
 gfxDWriteFontFileStream
 (
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
@@ -668,7 +668,7 @@ lastWriteTime
 ;
 private
 :
-nsTArray
+FallibleTArray
 <
 PRUint8
 >
