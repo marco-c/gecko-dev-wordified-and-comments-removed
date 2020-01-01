@@ -1625,12 +1625,11 @@ Update
 ENTITY
 addon
 .
-undo
+undoAction
 .
 label
 "
 Undo
-?
 "
 >
 <
@@ -1638,7 +1637,7 @@ Undo
 ENTITY
 addon
 .
-undo
+undoAction
 .
 tooltip
 "
@@ -1652,12 +1651,11 @@ action
 ENTITY
 addon
 .
-undoUninstall
+undoRemove
 .
 label
 "
 Undo
-?
 "
 >
 <
@@ -1665,7 +1663,7 @@ Undo
 ENTITY
 addon
 .
-undoUninstall
+undoRemove
 .
 tooltip
 "

@@ -5785,7 +5785,7 @@ label
 &
 addon
 .
-undo
+undoAction
 .
 label
 ;
@@ -5796,7 +5796,7 @@ tooltipText
 &
 addon
 .
-undo
+undoAction
 .
 tooltip
 ;
@@ -11131,7 +11131,7 @@ label
 &
 addon
 .
-undoUninstall
+undoRemove
 .
 label
 ;
@@ -11142,7 +11142,7 @@ tooltiptext
 &
 addon
 .
-undoUninstall
+undoRemove
 .
 tooltip
 ;

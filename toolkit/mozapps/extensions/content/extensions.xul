@@ -3603,7 +3603,7 @@ label
 &
 addon
 .
-undo
+undoAction
 .
 label
 ;
@@ -3614,7 +3614,7 @@ tooltipText
 &
 addon
 .
-undo
+undoAction
 .
 tooltip
 ;
