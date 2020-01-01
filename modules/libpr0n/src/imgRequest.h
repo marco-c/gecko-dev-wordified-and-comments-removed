@@ -200,7 +200,7 @@ nsIURI
 aURI
 nsIURI
 *
-aKeyURI
+aCurrentURI
 nsIRequest
 *
 aRequest
@@ -530,7 +530,7 @@ nsCOMPtr
 <
 nsIURI
 >
-mKeyURI
+mCurrentURI
 ;
 nsCOMPtr
 <
