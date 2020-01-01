@@ -1140,6 +1140,10 @@ gTimestamp
 }
 break
 ;
+default
+:
+break
+;
 }
 gTimestamp
 =
