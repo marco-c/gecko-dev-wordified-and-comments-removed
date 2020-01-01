@@ -2696,12 +2696,6 @@ js_options
 {
 {
 "
-atline
-"
-JSOPTION_ATLINE
-}
-{
-"
 methodjit
 "
 JSOPTION_METHODJIT

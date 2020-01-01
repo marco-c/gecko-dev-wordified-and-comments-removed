@@ -3566,12 +3566,6 @@ js_options
 {
 {
 "
-atline
-"
-JSOPTION_ATLINE
-}
-{
-"
 strict
 "
 JSOPTION_STRICT

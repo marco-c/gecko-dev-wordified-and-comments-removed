@@ -870,9 +870,6 @@ true
 werror
 :
 true
-atline
-:
-true
 methodjit
 :
 true
