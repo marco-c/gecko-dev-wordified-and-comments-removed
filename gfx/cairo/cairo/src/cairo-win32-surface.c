@@ -187,7 +187,7 @@ GetLastError
 if
 (
 !
-FormatMessageA
+FormatMessageW
 (
 FORMAT_MESSAGE_ALLOCATE_BUFFER
 |
@@ -226,12 +226,12 @@ context
 }
 else
 {
-fprintf
+fwprintf
 (
 stderr
 "
 %
-s
+S
 :
 %
 s
@@ -2850,8 +2850,9 @@ dwMinorVersion
 HMODULE
 msimg32_dll
 =
-LoadLibraryA
+LoadLibraryW
 (
+L
 "
 msimg32
 "
