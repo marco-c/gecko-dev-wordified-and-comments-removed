@@ -2674,6 +2674,16 @@ hidden
 "
 true
 "
+rolluponmousewheel
+=
+"
+true
+"
+consumeoutsideclicks
+=
+"
+false
+"
 noautofocus
 =
 "
