@@ -3459,6 +3459,11 @@ maxrows
 "
 6
 "
+readonly
+=
+"
+true
+"
 completeselectedindex
 =
 "

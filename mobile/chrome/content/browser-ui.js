@@ -232,7 +232,7 @@ browser
 =
 Browser
 .
-currentBrowser
+selectedBrowser
 ;
 if
 (
@@ -410,7 +410,7 @@ browser
 =
 Browser
 .
-currentBrowser
+selectedBrowser
 ;
 this
 .
@@ -1007,7 +1007,7 @@ getDisplayURI
 (
 Browser
 .
-currentBrowser
+selectedBrowser
 )
 ;
 if
@@ -1569,7 +1569,7 @@ _faviconLink
 =
 Browser
 .
-currentBrowser
+selectedBrowser
 .
 currentURI
 .
@@ -1673,7 +1673,7 @@ if
 (
 Browser
 .
-currentTab
+selectedTab
 .
 isLoading
 (
@@ -1826,7 +1826,7 @@ browser
 =
 Browser
 .
-currentBrowser
+selectedBrowser
 ;
 if
 (
@@ -3228,7 +3228,7 @@ getMostRecentBookmarkForURI
 (
 Browser
 .
-currentBrowser
+selectedBrowser
 .
 currentURI
 )
@@ -3809,8 +3809,13 @@ true
 ;
 Browser
 .
-newTab
+addTab
 (
+"
+about
+:
+blank
+"
 true
 )
 ;
@@ -3853,10 +3858,9 @@ aTab
 {
 Browser
 .
-selectTab
-(
+selectedTab
+=
 aTab
-)
 ;
 this
 .
