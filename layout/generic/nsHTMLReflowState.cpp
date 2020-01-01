@@ -2745,7 +2745,7 @@ GetStyleDisplay
 )
 -
 >
-IsFloating
+IsFloatingStyle
 (
 )
 =
@@ -2753,7 +2753,7 @@ IsFloating
 disp
 -
 >
-IsFloating
+IsFloatingStyle
 (
 )
 "
@@ -2811,6 +2811,7 @@ disp
 >
 IsFloating
 (
+frame
 )
 )
 {

@@ -258,11 +258,6 @@ if
 mOutOfFlowFrame
 -
 >
-GetStyleDisplay
-(
-)
--
->
 IsFloating
 (
 )
@@ -298,11 +293,6 @@ aData
 if
 (
 mOutOfFlowFrame
--
->
-GetStyleDisplay
-(
-)
 -
 >
 IsFloating

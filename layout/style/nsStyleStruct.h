@@ -6526,7 +6526,7 @@ mOriginalDisplay
 ;
 }
 bool
-IsFloating
+IsFloatingStyle
 (
 )
 const
@@ -6628,6 +6628,17 @@ mBackfaceVisibility
 NS_STYLE_BACKFACE_VISIBILITY_HIDDEN
 ;
 }
+inline
+bool
+IsFloating
+(
+const
+nsIFrame
+*
+aFrame
+)
+const
+;
 }
 ;
 struct

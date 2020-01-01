@@ -1829,7 +1829,7 @@ NS_STYLE_DISPLAY_INLINE
 |
 |
 (
-aStyleDisplay
+aFrame
 -
 >
 IsFloating
@@ -2231,6 +2231,7 @@ disp
 >
 IsFloating
 (
+this
 )
 |
 |
@@ -9969,6 +9970,7 @@ disp
 >
 IsFloating
 (
+child
 )
 )
 |
@@ -10664,6 +10666,7 @@ disp
 >
 IsFloating
 (
+child
 )
 )
 {
@@ -45020,7 +45023,7 @@ abspos
 ;
 if
 (
-disp
+aFrame
 -
 >
 IsFloating
