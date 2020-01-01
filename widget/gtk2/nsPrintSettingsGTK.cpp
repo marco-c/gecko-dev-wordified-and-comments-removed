@@ -1471,7 +1471,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 url
 ;
 rv

@@ -1563,7 +1563,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 response
 ;
 mClassifier
@@ -3374,7 +3374,7 @@ completer
 )
 )
 {
-nsCAutoString
+nsAutoCString
 partialHash
 ;
 partialHash
@@ -4016,7 +4016,7 @@ forget
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 tableStr
 ;
 for
@@ -5052,7 +5052,7 @@ uri
 NS_ERROR_FAILURE
 )
 ;
-nsCAutoString
+nsAutoCString
 key
 ;
 nsCOMPtr

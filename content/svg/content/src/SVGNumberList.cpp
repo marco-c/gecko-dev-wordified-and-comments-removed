@@ -269,7 +269,7 @@ nsCharSeparatedTokenizer
 SEPARATOR_OPTIONAL
 )
 ;
-nsCAutoString
+nsAutoCString
 str
 ;
 while

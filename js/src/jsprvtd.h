@@ -98,11 +98,6 @@ JSNativeEnumerator
 ;
 typedef
 struct
-JSSharpObjectMap
-JSSharpObjectMap
-;
-typedef
-struct
 JSTryNote
 JSTryNote
 ;

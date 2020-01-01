@@ -1098,7 +1098,7 @@ return
 0
 ;
 }
-nsCAutoString
+nsAutoCString
 keyCodeName
 ;
 keyCodeName

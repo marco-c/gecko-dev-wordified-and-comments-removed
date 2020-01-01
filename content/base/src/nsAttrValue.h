@@ -1151,7 +1151,7 @@ nsAString
 aString
 )
 ;
-bool
+void
 LoadImage
 (
 nsIDocument

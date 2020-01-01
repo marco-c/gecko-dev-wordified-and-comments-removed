@@ -1306,10 +1306,7 @@ init
 )
 )
 {
-cx
--
->
-delete_
+js_delete
 (
 map
 )

@@ -7527,7 +7527,7 @@ stdout
 this
 &
 event
-nsCAutoString
+nsAutoCString
 (
 "
 noname

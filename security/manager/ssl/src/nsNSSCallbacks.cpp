@@ -294,6 +294,17 @@ NS_ENSURE_STATE
 chan
 )
 ;
+chan
+-
+>
+SetLoadFlags
+(
+nsIRequest
+:
+:
+LOAD_ANONYMOUS
+)
+;
 nsCOMPtr
 <
 nsILoadGroup

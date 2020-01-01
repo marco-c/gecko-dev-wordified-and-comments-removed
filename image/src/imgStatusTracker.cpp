@@ -402,7 +402,7 @@ uri
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -609,7 +609,7 @@ uri
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -730,7 +730,7 @@ uri
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri

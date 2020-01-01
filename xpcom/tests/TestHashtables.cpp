@@ -1731,7 +1731,7 @@ void
 userArg
 )
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 aFoo
@@ -1788,7 +1788,7 @@ void
 userArg
 )
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 aData
@@ -1840,7 +1840,7 @@ void
 userArg
 )
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 nsCOMPtr
@@ -1904,7 +1904,7 @@ void
 userArg
 )
 {
-nsCAutoString
+nsAutoCString
 str
 ;
 nsCOMPtr
@@ -4509,7 +4509,7 @@ exit
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 str
 ;
 myEnt
@@ -4955,7 +4955,7 @@ exit
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 str
 ;
 myEnt

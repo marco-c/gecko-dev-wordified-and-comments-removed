@@ -297,7 +297,7 @@ WantDebugInfo
 )
 )
 {
-nsCAutoString
+nsAutoCString
 name
 (
 "

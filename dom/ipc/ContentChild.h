@@ -755,6 +755,10 @@ RecvFilePathUpdate
 const
 nsString
 &
+type
+const
+nsString
+&
 path
 const
 nsCString

@@ -643,7 +643,7 @@ uri
 NS_ERROR_UNEXPECTED
 )
 ;
-nsCAutoString
+nsAutoCString
 hostPort
 ;
 nsresult
@@ -665,7 +665,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 scheme
 ;
 rv
@@ -2660,7 +2660,7 @@ aClassName
 #
 ifdef
 DEBUG_CAPS_CheckPropertyAccessImpl
-nsCAutoString
+nsAutoCString
 propertyName
 ;
 propertyName
@@ -3344,10 +3344,10 @@ GetName
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 subjectOrigin
 ;
-nsCAutoString
+nsAutoCString
 subjectDomain
 ;
 if
@@ -3439,10 +3439,10 @@ subjectDomainUnicode
 subjectDomain
 )
 ;
-nsCAutoString
+nsAutoCString
 objectOrigin
 ;
-nsCAutoString
+nsAutoCString
 objectDomain
 ;
 if
@@ -4141,7 +4141,7 @@ mDefaultPolicy
 }
 else
 {
-nsCAutoString
+nsAutoCString
 origin
 ;
 rv
@@ -4315,7 +4315,7 @@ if
 de
 )
 {
-nsCAutoString
+nsAutoCString
 scheme
 (
 start
@@ -4931,7 +4931,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -4950,7 +4950,7 @@ spec
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 msg
 (
 "
@@ -5346,7 +5346,7 @@ NS_GetInnermostURI
 aTargetURI
 )
 ;
-nsCAutoString
+nsAutoCString
 targetScheme
 ;
 nsresult
@@ -5443,7 +5443,7 @@ false
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 sourceScheme
 ;
 rv
@@ -5985,7 +5985,7 @@ aTarget
 NS_ERROR_NULL_POINTER
 )
 ;
-nsCAutoString
+nsAutoCString
 sourceSpec
 ;
 rv
@@ -6004,7 +6004,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 targetSpec
 ;
 rv
@@ -9907,7 +9907,7 @@ nsIPrincipal
 ENABLE_GRANTED
 )
 {
-nsCAutoString
+nsAutoCString
 val
 ;
 bool
@@ -10236,7 +10236,7 @@ CreateWrapperDenied
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 origin
 ;
 nsresult
@@ -10482,7 +10482,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 errorMsg
 (
 "
@@ -10630,7 +10630,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 errorMsg
 (
 "
@@ -12418,7 +12418,7 @@ policyCurrent
 +
 +
 ;
-nsCAutoString
+nsAutoCString
 sitesPrefName
 (
 NS_LITERAL_CSTRING
@@ -12873,7 +12873,7 @@ aDomainPolicy
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 policyPrefix
 (
 NS_LITERAL_CSTRING
@@ -13763,13 +13763,13 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCAutoString
+nsAutoCString
 grantedPrefName
 ;
-nsCAutoString
+nsAutoCString
 deniedPrefName
 ;
-nsCAutoString
+nsAutoCString
 subjectNamePrefName
 ;
 nsresult
@@ -14361,7 +14361,7 @@ nsIScriptSecurityManager
 NO_APP_ID
 ;
 }
-nsCAutoString
+nsAutoCString
 origin
 ;
 nsPrincipal
@@ -14528,7 +14528,7 @@ PropertyPolicy
 )
 entry
 ;
-nsCAutoString
+nsAutoCString
 prop
 (
 "

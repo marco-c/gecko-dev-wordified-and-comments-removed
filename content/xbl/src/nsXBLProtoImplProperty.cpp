@@ -835,7 +835,7 @@ rv
 =
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 functionUri
 ;
 if

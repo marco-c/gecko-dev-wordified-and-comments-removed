@@ -1445,7 +1445,7 @@ if
 data
 )
 {
-nsCAutoString
+nsAutoCString
 failure
 ;
 failure

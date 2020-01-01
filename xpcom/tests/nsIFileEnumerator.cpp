@@ -170,7 +170,7 @@ file
 return
 false
 ;
-nsCAutoString
+nsAutoCString
 name
 ;
 if

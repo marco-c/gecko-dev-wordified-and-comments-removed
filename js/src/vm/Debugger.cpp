@@ -9931,10 +9931,7 @@ cx
 )
 )
 {
-cx
--
->
-delete_
+js_delete
 (
 dbg
 )
@@ -18341,6 +18338,11 @@ args
 thisobj
 fp
 )
+;
+(
+void
+)
+fp
 ;
 if
 (

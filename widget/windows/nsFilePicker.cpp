@@ -4511,7 +4511,7 @@ mFiles
 ;
 }
 NS_IMETHODIMP
-nsFilePicker
+nsBaseWinFilePicker
 :
 :
 SetDefaultString
@@ -4657,7 +4657,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsFilePicker
+nsBaseWinFilePicker
 :
 :
 GetDefaultString
@@ -4672,7 +4672,7 @@ NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
-nsFilePicker
+nsBaseWinFilePicker
 :
 :
 GetDefaultExtension
@@ -4691,7 +4691,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsFilePicker
+nsBaseWinFilePicker
 :
 :
 SetDefaultExtension

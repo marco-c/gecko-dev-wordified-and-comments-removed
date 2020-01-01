@@ -3439,7 +3439,7 @@ includes
 )
 )
 {
-nsCAutoString
+nsAutoCString
 message
 (
 "
@@ -3451,7 +3451,7 @@ URI
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 uri
 ;
 mPrototypeBinding
@@ -5937,7 +5937,7 @@ JSObject
 aClassObject
 )
 {
-nsCAutoString
+nsAutoCString
 className
 (
 aClassName

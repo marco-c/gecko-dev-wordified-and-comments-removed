@@ -6115,7 +6115,7 @@ theEnum
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+true
 )
 ;
 bool
@@ -6161,7 +6161,7 @@ rv
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+true
 )
 ;
 if

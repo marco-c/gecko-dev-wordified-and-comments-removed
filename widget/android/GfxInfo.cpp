@@ -1124,7 +1124,7 @@ AdapterDeviceID
 mRenderer
 )
 ;
-nsCAutoString
+nsAutoCString
 note
 ;
 note

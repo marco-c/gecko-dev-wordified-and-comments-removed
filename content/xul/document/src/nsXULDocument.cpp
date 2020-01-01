@@ -1725,7 +1725,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 urlspec
 ;
 rv
@@ -2358,7 +2358,7 @@ PR_LOG_WARNING
 )
 )
 {
-nsCAutoString
+nsAutoCString
 urlspec
 ;
 rv
@@ -5787,7 +5787,7 @@ return
 rv
 ;
 {
-nsCAutoString
+nsAutoCString
 docurl
 ;
 rv
@@ -8669,7 +8669,7 @@ nsIContent
 >
 elements
 ;
-nsCAutoString
+nsAutoCString
 docurl
 ;
 mDocumentURI
@@ -9575,7 +9575,7 @@ GetURI
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 urlspec
 ;
 rv
@@ -10742,7 +10742,7 @@ PR_LOG_DEBUG
 )
 )
 {
-nsCAutoString
+nsAutoCString
 urlspec
 ;
 aURI
@@ -10753,7 +10753,7 @@ GetSpec
 urlspec
 )
 ;
-nsCAutoString
+nsAutoCString
 parentDoc
 ;
 nsCOMPtr
@@ -13243,7 +13243,7 @@ URI
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 aURI
@@ -13703,7 +13703,7 @@ if
 uri
 )
 {
-nsCAutoString
+nsAutoCString
 uriSpec
 ;
 uri
@@ -15558,7 +15558,7 @@ PR_LOG_NOTICE
 )
 )
 {
-nsCAutoString
+nsAutoCString
 idC
 ;
 idC
@@ -16211,7 +16211,7 @@ id
 id
 )
 ;
-nsCAutoString
+nsAutoCString
 idC
 ;
 idC
@@ -16235,7 +16235,7 @@ GetURI
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 urlspec
 ;
 protoURI
@@ -16252,7 +16252,7 @@ nsIURI
 >
 docURI
 ;
-nsCAutoString
+nsAutoCString
 parentDoc
 ;
 nsresult
@@ -16490,7 +16490,7 @@ AssignLiteral
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 attributeC
 broadcasteridC
 ;
@@ -17321,7 +17321,7 @@ content
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 attributeC
 broadcasteridC
 ;
@@ -18350,7 +18350,7 @@ reg
 return
 false
 ;
-nsCAutoString
+nsAutoCString
 package
 ;
 bool

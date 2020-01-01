@@ -299,6 +299,12 @@ bug733553
 .
 sjs
 \
+bug733553
+-
+informant
+.
+sjs
+\
 animated
 -
 gif2

@@ -617,7 +617,7 @@ TYPE_OBJECT
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 aContentLocation
@@ -1080,7 +1080,7 @@ trustedSource
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 currentHost
 ;
 rv
@@ -1147,7 +1147,7 @@ Length
 dot
 )
 ;
-nsCAutoString
+nsAutoCString
 firstHost
 ;
 rv

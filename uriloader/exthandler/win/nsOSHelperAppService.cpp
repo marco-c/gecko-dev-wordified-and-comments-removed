@@ -2086,7 +2086,7 @@ rv
 return
 nullptr
 ;
-nsCAutoString
+nsAutoCString
 typeToUse
 ;
 if

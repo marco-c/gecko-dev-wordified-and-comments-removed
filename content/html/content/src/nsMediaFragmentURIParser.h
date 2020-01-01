@@ -187,7 +187,7 @@ uint32_t
 aSecond
 )
 ;
-nsCAutoString
+nsAutoCString
 mHash
 ;
 nsTArray

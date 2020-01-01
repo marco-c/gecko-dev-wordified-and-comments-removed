@@ -7192,7 +7192,7 @@ cookie2
 )
 break
 ;
-nsCAutoString
+nsAutoCString
 name
 ;
 cookie2
@@ -7663,10 +7663,10 @@ n
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 name
 ;
-nsCAutoString
+nsAutoCString
 expected
 ;
 for

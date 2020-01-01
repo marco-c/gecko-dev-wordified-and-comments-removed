@@ -1019,7 +1019,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 rv
@@ -1116,7 +1116,7 @@ aKey
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 domainScope
 ;
 rv
@@ -1363,7 +1363,7 @@ aKey
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 subdomainsDBKey
 ;
 if
@@ -1424,7 +1424,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 eTLDplusOne
 ;
 rv
@@ -1516,7 +1516,7 @@ nsACString
 aDomain
 )
 {
-nsCAutoString
+nsAutoCString
 reverseDomain
 scope
 ;

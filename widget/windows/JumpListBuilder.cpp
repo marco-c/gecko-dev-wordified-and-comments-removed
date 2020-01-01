@@ -698,7 +698,7 @@ rv
 uri
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsresult

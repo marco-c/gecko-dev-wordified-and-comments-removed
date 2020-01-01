@@ -2788,7 +2788,7 @@ if
 localFileOS2
 )
 {
-nsCAutoString
+nsAutoCString
 url
 ;
 uriSource
@@ -3434,7 +3434,7 @@ have
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 contentType
 ;
 channel
@@ -3919,7 +3919,7 @@ path
 }
 else
 {
-nsCAutoString
+nsAutoCString
 fileurl
 ;
 aURI
@@ -4355,7 +4355,7 @@ NS_ENSURE_ARG_POINTER
 aURI
 )
 ;
-nsCAutoString
+nsAutoCString
 newPath
 ;
 nsresult
@@ -4871,13 +4871,13 @@ if
 aExtraHeaders
 )
 {
-nsCAutoString
+nsAutoCString
 oneHeader
 ;
-nsCAutoString
+nsAutoCString
 headerName
 ;
-nsCAutoString
+nsAutoCString
 headerValue
 ;
 int32_t
@@ -4906,7 +4906,7 @@ r
 n
 "
 ;
-nsCAutoString
+nsAutoCString
 extraHeaders
 (
 aExtraHeaders
@@ -5168,7 +5168,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 contentType
 ;
 aChannel
@@ -5346,7 +5346,7 @@ nsIMIMEInfo
 >
 mimeInfo
 ;
-nsCAutoString
+nsAutoCString
 contentType
 ;
 contentType
@@ -5356,7 +5356,7 @@ AssignWithConversion
 aContentType
 )
 ;
-nsCAutoString
+nsAutoCString
 ext
 ;
 rv
@@ -5582,7 +5582,7 @@ nsCaseInsensitiveStringComparator
 )
 )
 {
-nsCAutoString
+nsAutoCString
 contractID
 (
 NS_DOC_ENCODER_CONTRACTID_BASE
@@ -5802,7 +5802,7 @@ oldBaseURI
 =
 mCurrentBaseURI
 ;
-nsCAutoString
+nsAutoCString
 oldCharset
 (
 mCurrentCharset
@@ -5896,7 +5896,7 @@ baseDir
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 relativePathToData
 ;
 nsCOMPtr
@@ -5956,7 +5956,7 @@ GetLeafName
 dirName
 )
 ;
-nsCAutoString
+nsAutoCString
 newRelativePathToData
 ;
 newRelativePathToData
@@ -6023,7 +6023,7 @@ if
 pathToBaseURL
 )
 {
-nsCAutoString
+nsAutoCString
 relativePath
 ;
 if
@@ -6370,7 +6370,7 @@ if
 localFileOS2
 )
 {
-nsCAutoString
+nsAutoCString
 url
 ;
 mCurrentBaseURI
@@ -6445,7 +6445,7 @@ realContentType
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 contentType
 ;
 contentType
@@ -6455,7 +6455,7 @@ AssignWithConversion
 realContentType
 )
 ;
-nsCAutoString
+nsAutoCString
 charType
 ;
 rv
@@ -6616,7 +6616,7 @@ realContentType
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 contentType
 ;
 contentType
@@ -6630,7 +6630,7 @@ get
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 charType
 ;
 rv
@@ -7338,7 +7338,7 @@ false
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 filename
 ;
 rv
@@ -7357,7 +7357,7 @@ rv
 NS_ERROR_FAILURE
 )
 ;
-nsCAutoString
+nsAutoCString
 directory
 ;
 rv
@@ -7388,10 +7388,10 @@ RFind
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 base
 ;
-nsCAutoString
+nsAutoCString
 ext
 ;
 if
@@ -7575,10 +7575,10 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 tmpPath
 ;
-nsCAutoString
+nsAutoCString
 tmpBase
 ;
 uint32_t
@@ -7752,7 +7752,7 @@ duplicateCounter
 ;
 }
 }
-nsCAutoString
+nsAutoCString
 newFilepath
 (
 directory
@@ -7938,7 +7938,7 @@ if
 url
 )
 {
-nsCAutoString
+nsAutoCString
 nameFromURL
 ;
 url
@@ -8213,7 +8213,7 @@ NS_ERROR_FAILURE
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 contentType
 ;
 aChannel
@@ -8329,7 +8329,7 @@ url
 NS_ERROR_FAILURE
 )
 ;
-nsCAutoString
+nsAutoCString
 newFileName
 ;
 url
@@ -8383,7 +8383,7 @@ hasExtension
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 fileExt
 ;
 if
@@ -13556,7 +13556,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv
@@ -13750,7 +13750,7 @@ url
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 filename
 ;
 url
@@ -13761,7 +13761,7 @@ GetFileName
 filename
 )
 ;
-nsCAutoString
+nsAutoCString
 rawPathURL
 (
 data
@@ -13777,7 +13777,7 @@ Append
 filename
 )
 ;
-nsCAutoString
+nsAutoCString
 buf
 ;
 AppendUTF8toUTF16
@@ -13794,7 +13794,7 @@ newValue
 }
 else
 {
-nsCAutoString
+nsAutoCString
 fileurl
 ;
 fileAsURI
@@ -14203,7 +14203,7 @@ EmptyCString
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 uriSpec
 ;
 newURI
@@ -14258,7 +14258,7 @@ PRUnichar
 aContentType
 )
 {
-nsCAutoString
+nsAutoCString
 contractID
 (
 NS_DOC_ENCODER_CONTRACTID_BASE
@@ -14429,7 +14429,7 @@ rv
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 extension
 ;
 if
@@ -14955,7 +14955,7 @@ outputStream
 NS_ERROR_FAILURE
 )
 ;
-nsCAutoString
+nsAutoCString
 contractID
 (
 NS_DOC_ENCODER_CONTRACTID_BASE
@@ -15046,7 +15046,7 @@ SetWrapColumn
 mWrapColumn
 )
 ;
-nsCAutoString
+nsAutoCString
 charsetStr
 (
 aSaveCharset
@@ -15202,7 +15202,7 @@ if
 localFileOS2
 )
 {
-nsCAutoString
+nsAutoCString
 url
 ;
 mCurrentBaseURI
@@ -15251,7 +15251,7 @@ NS_ENSURE_ARG_POINTER
 aURI
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsresult
@@ -16258,7 +16258,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCAutoString
+nsAutoCString
 uriSpec
 ;
 aBaseURI
@@ -16375,7 +16375,7 @@ sourceURL
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 extension
 ;
 sourceURL
@@ -16457,7 +16457,7 @@ rv
 hasMore
 )
 {
-nsCAutoString
+nsAutoCString
 encType
 ;
 rv

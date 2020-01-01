@@ -194,7 +194,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 asciiSpec
 ;
 rv

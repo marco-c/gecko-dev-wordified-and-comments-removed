@@ -1502,7 +1502,7 @@ rv
 rv
 )
 ;
-int64_t
+PRTime
 modtime
 ;
 rv

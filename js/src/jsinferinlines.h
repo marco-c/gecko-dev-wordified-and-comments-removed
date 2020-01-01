@@ -7351,9 +7351,6 @@ JSProto_Float64Array
 case
 JSProto_Uint8ClampedArray
 :
-case
-JSProto_DataView
-:
 flags
 =
 OBJECT_FLAG_NON_DENSE_ARRAY

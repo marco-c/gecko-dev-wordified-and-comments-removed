@@ -150,7 +150,7 @@ wyciwyg
 isWyciwyg
 )
 ;
-nsCAutoString
+nsAutoCString
 userPass
 ;
 aURI
@@ -200,7 +200,7 @@ if
 isWyciwyg
 )
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 nsresult
@@ -266,7 +266,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCAutoString
+nsAutoCString
 charset
 ;
 aURI
@@ -419,7 +419,7 @@ aURI
 =
 nullptr
 ;
-nsCAutoString
+nsAutoCString
 uriString
 (
 aStringURI
@@ -475,7 +475,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 ioService
@@ -570,7 +570,7 @@ rv
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -666,13 +666,13 @@ ftp
 )
 )
 {
-nsCAutoString
+nsAutoCString
 :
 :
 iterator
 start
 ;
-nsCAutoString
+nsAutoCString
 :
 :
 iterator
@@ -1153,7 +1153,7 @@ Length
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 hostSpec
 ;
 uriString
@@ -1313,7 +1313,7 @@ GetRootBranch
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 keyword
 (
 aKeyword
@@ -1396,7 +1396,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -1668,7 +1668,7 @@ return
 false
 ;
 }
-nsCAutoString
+nsAutoCString
 userpass
 ;
 aURI
@@ -1693,10 +1693,10 @@ return
 false
 ;
 }
-nsCAutoString
+nsAutoCString
 oldHost
 ;
-nsCAutoString
+nsAutoCString
 newHost
 ;
 aURI
@@ -1765,7 +1765,7 @@ numDots
 iter
 ;
 }
-nsCAutoString
+nsAutoCString
 prefix
 (
 "
@@ -1806,7 +1806,7 @@ prefPrefix
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 suffix
 (
 "
@@ -2155,7 +2155,7 @@ nsIURI
 aURI
 )
 {
-nsCAutoString
+nsAutoCString
 uriSpecOut
 ;
 nsresult
@@ -2754,7 +2754,7 @@ IsEmpty
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 nsCOMPtr

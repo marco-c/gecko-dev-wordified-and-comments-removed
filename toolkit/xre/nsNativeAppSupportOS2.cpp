@@ -3991,7 +3991,7 @@ case
 topicOpenURL
 :
 {
-nsCAutoString
+nsAutoCString
 url
 ;
 ParseDDEArg
@@ -4001,7 +4001,7 @@ hsz2
 url
 )
 ;
-nsCAutoString
+nsAutoCString
 windowID
 ;
 ParseDDEArg
@@ -4304,7 +4304,7 @@ escapeQuotes
 title
 )
 ;
-nsCAutoString
+nsAutoCString
 outpt
 (
 NS_LITERAL_CSTRING
@@ -4434,7 +4434,7 @@ case
 topicActivate
 :
 {
-nsCAutoString
+nsAutoCString
 windowID
 ;
 ParseDDEArg
@@ -4636,7 +4636,7 @@ request
 ;
 #
 endif
-nsCAutoString
+nsAutoCString
 url
 ;
 ParseDDEArg
@@ -4651,7 +4651,7 @@ request
 url
 )
 ;
-nsCAutoString
+nsAutoCString
 windowID
 ;
 ParseDDEArg
@@ -5065,7 +5065,7 @@ argLen
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 temp
 ;
 temp
@@ -5256,7 +5256,7 @@ char
 *
 p
 ;
-nsCAutoString
+nsAutoCString
 arg
 ;
 nsCOMPtr

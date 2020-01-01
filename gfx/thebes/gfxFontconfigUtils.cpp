@@ -976,7 +976,7 @@ nsIAtom
 aLangGroup
 )
 {
-nsCAutoString
+nsAutoCString
 lang
 ;
 gfxFontconfigUtils
@@ -2357,7 +2357,7 @@ FcResultMatch
 continue
 ;
 }
-nsCAutoString
+nsAutoCString
 strFamily
 (
 family
@@ -2791,7 +2791,7 @@ p
 kComma
 )
 ;
-nsCAutoString
+nsAutoCString
 name
 (
 Substring
@@ -3620,7 +3620,7 @@ key
 =
 mKey
 ;
-nsCAutoString
+nsAutoCString
 fullname
 ;
 if
@@ -3808,7 +3808,7 @@ v
 0
 )
 {
-nsCAutoString
+nsAutoCString
 name
 ;
 if

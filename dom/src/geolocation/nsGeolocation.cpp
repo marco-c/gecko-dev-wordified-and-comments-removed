@@ -2089,7 +2089,7 @@ do_QueryInterface
 elem
 )
 ;
-nsCAutoString
+nsAutoCString
 name
 ;
 elemString

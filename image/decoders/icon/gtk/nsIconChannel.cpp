@@ -1338,7 +1338,7 @@ nsIMozIconURI
 aIconURI
 )
 {
-nsCAutoString
+nsAutoCString
 iconSizeString
 ;
 aIconURI
@@ -1718,7 +1718,7 @@ GetIconSize
 aIconURI
 )
 ;
-nsCAutoString
+nsAutoCString
 type
 ;
 aIconURI
@@ -1742,7 +1742,7 @@ refcount
 =
 1
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsCOMPtr
@@ -1816,7 +1816,7 @@ GNOME_VFS_FILE_INFO_DEFAULT
 }
 else
 {
-nsCAutoString
+nsAutoCString
 name
 ;
 url
@@ -1906,7 +1906,7 @@ if
 ms
 )
 {
-nsCAutoString
+nsAutoCString
 fileExt
 ;
 aIconURI
@@ -2163,7 +2163,7 @@ fileURI
 bool
 isFile
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 fileURI
@@ -2261,7 +2261,7 @@ if
 icon
 )
 {
-nsCAutoString
+nsAutoCString
 type
 ;
 aIconURI
@@ -2306,7 +2306,7 @@ if
 ms
 )
 {
-nsCAutoString
+nsAutoCString
 fileExt
 ;
 aIconURI
@@ -2555,7 +2555,7 @@ nsIMozIconURI
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 stockIcon
 ;
 iconURI
@@ -2605,7 +2605,7 @@ endif
 #
 endif
 }
-nsCAutoString
+nsAutoCString
 iconSizeString
 ;
 iconURI
@@ -2616,7 +2616,7 @@ GetIconSize
 iconSizeString
 )
 ;
-nsCAutoString
+nsAutoCString
 iconStateString
 ;
 iconURI
@@ -2709,7 +2709,7 @@ direction
 =
 GTK_TEXT_DIR_NONE
 ;
-nsCAutoString
+nsAutoCString
 stockID
 ;
 bool

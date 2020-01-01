@@ -4751,7 +4751,7 @@ hasMore
 hasMore
 )
 {
-nsCAutoString
+nsAutoCString
 uristring
 ;
 rv
@@ -5593,7 +5593,7 @@ hasResult
 hasResult
 )
 {
-nsCAutoString
+nsAutoCString
 name
 ;
 rv
@@ -6847,7 +6847,7 @@ AsInt64
 1
 )
 ;
-nsCAutoString
+nsAutoCString
 annoName
 ;
 rv
@@ -7340,7 +7340,7 @@ AsInt64
 0
 )
 ;
-nsCAutoString
+nsAutoCString
 annoName
 ;
 rv
@@ -7648,7 +7648,7 @@ IsEmpty
 return
 NS_ERROR_INVALID_ARG
 ;
-nsCAutoString
+nsAutoCString
 annoSpec
 ;
 nsresult
@@ -7668,7 +7668,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 spec

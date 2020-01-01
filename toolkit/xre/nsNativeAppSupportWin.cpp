@@ -3727,7 +3727,7 @@ escapeQuotes
 title
 )
 ;
-nsCAutoString
+nsAutoCString
 outpt
 (
 NS_LITERAL_CSTRING
@@ -3739,7 +3739,7 @@ NS_LITERAL_CSTRING
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 tmpNativeStr
 ;
 NS_CopyUnicodeToNative
@@ -4700,7 +4700,7 @@ char
 *
 p
 ;
-nsCAutoString
+nsAutoCString
 arg
 ;
 nsCOMPtr

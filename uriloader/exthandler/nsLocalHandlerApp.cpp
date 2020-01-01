@@ -347,7 +347,7 @@ nsIInterfaceRequestor
 aWindowContext
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 aURI

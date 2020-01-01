@@ -87,13 +87,6 @@ h
 #
 include
 "
-nsIDOMHTMLInputElement
-.
-h
-"
-#
-include
-"
 nsIDOMNSEditableElement
 .
 h

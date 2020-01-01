@@ -1321,7 +1321,7 @@ get
 ;
 #
 else
-nsCAutoString
+nsAutoCString
 path
 ;
 file
@@ -3128,7 +3128,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 buf
 ;
 rv
@@ -3237,7 +3237,7 @@ nsXULAppInfo
 :
 GetReplacedLockTime
 (
-int64_t
+PRTime
 *
 aReplacedLockTime
 )
@@ -3579,7 +3579,7 @@ GetEnabled
 return
 NS_ERROR_NOT_INITIALIZED
 ;
-nsCAutoString
+nsAutoCString
 data
 ;
 if
@@ -3716,7 +3716,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv
@@ -5621,7 +5621,7 @@ profile
 =
 0
 ;
-nsCAutoString
+nsAutoCString
 program
 (
 gAppData
@@ -5956,7 +5956,7 @@ rv
 ArgResult
 ar
 ;
-nsCAutoString
+nsAutoCString
 program
 (
 gAppData
@@ -6860,7 +6860,7 @@ NS_ERROR_FAILURE
 ;
 #
 else
-nsCAutoString
+nsAutoCString
 exePath
 ;
 rv
@@ -8189,7 +8189,7 @@ PRUnichar
 *
 profileNamePtr
 ;
-nsCAutoString
+nsAutoCString
 profileName
 ;
 {
@@ -9783,7 +9783,7 @@ js
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 pathStr
 ;
 prefsJSFile
@@ -10576,7 +10576,7 @@ rv
 return
 false
 ;
-nsCAutoString
+nsAutoCString
 buf
 ;
 rv
@@ -10988,7 +10988,7 @@ AppendNative
 FILE_COMPATIBILITY_INFO
 )
 ;
-nsCAutoString
+nsAutoCString
 platformDir
 ;
 aXULRunnerDir
@@ -10999,7 +10999,7 @@ GetNativePath
 platformDir
 )
 ;
-nsCAutoString
+nsAutoCString
 appDir
 ;
 if
@@ -12570,10 +12570,10 @@ mAppData
 nsXREDirProvider
 mDirProvider
 ;
-nsCAutoString
+nsAutoCString
 mProfileName
 ;
-nsCAutoString
+nsAutoCString
 mDesktopStartupID
 ;
 bool
@@ -13833,7 +13833,7 @@ overridePathW
 ;
 #
 else
-nsCAutoString
+nsAutoCString
 overridePath
 ;
 overrideini
@@ -14895,7 +14895,7 @@ TRUE
 #
 endif
 {
-nsCAutoString
+nsAutoCString
 program
 (
 gAppData
@@ -15417,7 +15417,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 desktopStartupEnv
 ;
 desktopStartupEnv
@@ -15861,7 +15861,7 @@ mProfD
 ;
 #
 endif
-nsCAutoString
+nsAutoCString
 version
 ;
 BuildVersion
@@ -16667,7 +16667,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 buf
 ;
 rv
@@ -16812,7 +16812,7 @@ if
 pm
 )
 {
-nsCAutoString
+nsAutoCString
 aKey
 ;
 if
@@ -18135,7 +18135,7 @@ rv
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 canonBinPath
 ;
 rv

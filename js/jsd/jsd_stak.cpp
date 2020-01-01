@@ -349,7 +349,7 @@ NULL
 (
 fp
 =
-JS_FrameIterator
+JS_BrokenFrameIterator
 (
 cx
 &

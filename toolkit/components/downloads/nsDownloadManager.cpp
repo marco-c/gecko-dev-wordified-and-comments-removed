@@ -943,7 +943,7 @@ scope
 mGetIdsForURIStatement
 )
 ;
-nsCAutoString
+nsAutoCString
 source
 ;
 nsresult
@@ -4949,7 +4949,7 @@ currBytes
 maxBytes
 )
 ;
-nsCAutoString
+nsAutoCString
 mimeType
 ;
 rv
@@ -5058,7 +5058,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 persistentDescriptor
 ;
 rv
@@ -6402,7 +6402,7 @@ mCancelable
 =
 aCancelable
 ;
-nsCAutoString
+nsAutoCString
 source
 target
 ;
@@ -6437,7 +6437,7 @@ GetPath
 tempPath
 )
 ;
-nsCAutoString
+nsAutoCString
 persistentDescriptor
 mimeType
 ;
@@ -11088,7 +11088,7 @@ nsIMIMEInfo
 >
 mimeInfo
 ;
-nsCAutoString
+nsAutoCString
 contentType
 ;
 GetMIMEInfo
@@ -14071,7 +14071,7 @@ if
 mReferrer
 )
 {
-nsCAutoString
+nsAutoCString
 referrer
 ;
 rv

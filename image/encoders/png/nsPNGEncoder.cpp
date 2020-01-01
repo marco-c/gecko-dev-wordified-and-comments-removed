@@ -1195,7 +1195,7 @@ offsetY
 #
 ifdef
 PNG_APNG_SUPPORTED
-nsCAutoString
+nsAutoCString
 optionsCopy
 ;
 optionsCopy

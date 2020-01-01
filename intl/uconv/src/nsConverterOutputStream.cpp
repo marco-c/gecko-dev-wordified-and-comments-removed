@@ -267,7 +267,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 buf
 ;
 buf

@@ -1386,13 +1386,13 @@ void
 userArg
 )
 {
-nsCAutoString
+nsAutoCString
 *
 aKey
 =
 static_cast
 <
-nsCAutoString
+nsAutoCString
 *
 >
 (
@@ -1583,7 +1583,7 @@ nsIPermissionManager
 DENY_ACTION
 )
 {
-nsCAutoString
+nsAutoCString
 type
 ;
 rv
@@ -1616,7 +1616,7 @@ app
 )
 )
 {
-nsCAutoString
+nsAutoCString
 host
 ;
 rv
@@ -1864,7 +1864,7 @@ if
 perm
 )
 {
-nsCAutoString
+nsAutoCString
 type
 ;
 perm
@@ -1933,7 +1933,7 @@ deleted
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 perm
@@ -2050,7 +2050,7 @@ data
 )
 )
 {
-nsCAutoString
+nsAutoCString
 aceDomain
 ;
 nsresult
@@ -2108,7 +2108,7 @@ aceDomain
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 key
 ;
 rv
@@ -6157,7 +6157,7 @@ nsIURI
 >
 subjectURI
 ;
-nsCAutoString
+nsAutoCString
 unused
 ;
 if

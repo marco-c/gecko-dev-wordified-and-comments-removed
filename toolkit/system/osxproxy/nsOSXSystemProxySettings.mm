@@ -259,7 +259,7 @@ url
 nsresult
 GetAutoconfigURL
 (
-nsCAutoString
+nsAutoCString
 &
 aResult
 )
@@ -1174,7 +1174,7 @@ nsOSXSystemProxySettings
 :
 GetAutoconfigURL
 (
-nsCAutoString
+nsAutoCString
 &
 aResult
 )
@@ -1253,13 +1253,13 @@ nsACString
 aOverride
 )
 {
-nsCAutoString
+nsAutoCString
 host
 (
 aHost
 )
 ;
-nsCAutoString
+nsAutoCString
 override
 (
 aOverride
@@ -1418,7 +1418,7 @@ match
 rest
 of
 string
-nsCAutoString
+nsAutoCString
 token
 (
 Substring
@@ -1604,7 +1604,7 @@ class
 false
 )
 ;
-nsCAutoString
+nsAutoCString
 overrideStr
 (
 [
@@ -1653,7 +1653,7 @@ NULL
 NS_ERROR_FAILURE
 )
 ;
-nsCAutoString
+nsAutoCString
 pacUrl
 ;
 if
@@ -1705,7 +1705,7 @@ aResult
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 nsresult
@@ -1728,7 +1728,7 @@ rv
 int32_t
 proxyPort
 ;
-nsCAutoString
+nsAutoCString
 proxyHost
 ;
 bool

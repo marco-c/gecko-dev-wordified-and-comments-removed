@@ -1128,7 +1128,7 @@ Count
 flavorCount
 )
 ;
-nsCAutoString
+nsAutoCString
 foundFlavor
 ;
 for
@@ -1220,7 +1220,7 @@ hasText
 {
 foundFlavor
 =
-nsCAutoString
+nsAutoCString
 (
 flavorStr
 )
@@ -1329,7 +1329,7 @@ hasHtml
 {
 foundFlavor
 =
-nsCAutoString
+nsAutoCString
 (
 flavorStr
 )

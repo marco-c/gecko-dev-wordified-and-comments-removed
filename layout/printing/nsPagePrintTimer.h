@@ -34,6 +34,13 @@ Attributes
 .
 h
 "
+#
+include
+"
+nsThreadUtils
+.
+h
+"
 class
 nsPrintEngine
 ;
@@ -43,6 +50,8 @@ MOZ_FINAL
 :
 public
 nsITimerCallback
+public
+nsRunnable
 {
 public
 :
@@ -76,6 +85,11 @@ Start
 nsPrintObject
 *
 aPO
+)
+;
+NS_IMETHOD
+Run
+(
 )
 ;
 void

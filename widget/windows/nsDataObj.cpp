@@ -964,7 +964,7 @@ return
 E_FAIL
 ;
 }
-nsCAutoString
+nsAutoCString
 strFileName
 ;
 nsCOMPtr
@@ -4414,7 +4414,7 @@ url
 return
 E_OUTOFMEMORY
 ;
-nsCAutoString
+nsAutoCString
 asciiUrl
 ;
 LossyCopyUTF16toASCII
@@ -4795,7 +4795,7 @@ if
 currentFlavor
 )
 {
-nsCAutoString
+nsAutoCString
 flavorStr
 ;
 currentFlavor
@@ -8533,7 +8533,7 @@ sourceURL
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 urlFileName
 ;
 sourceURL
@@ -8697,7 +8697,7 @@ return
 E_FAIL
 ;
 }
-nsCAutoString
+nsAutoCString
 nativeFileName
 ;
 NS_UTF16ToCString

@@ -1734,7 +1734,7 @@ unused
 FcResultNoMatch
 )
 {
-nsCAutoString
+nsAutoCString
 fullname
 ;
 if
@@ -1765,7 +1765,7 @@ fullname
 ;
 }
 }
-nsCAutoString
+nsAutoCString
 family
 ;
 family
@@ -11825,7 +11825,7 @@ aLanguage
 return
 NULL
 ;
-nsCAutoString
+nsAutoCString
 lang
 ;
 gfxFontconfigUtils

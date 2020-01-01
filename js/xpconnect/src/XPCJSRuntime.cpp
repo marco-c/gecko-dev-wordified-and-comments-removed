@@ -9390,7 +9390,7 @@ cstats
 )
 MOZ_OVERRIDE
 {
-nsCAutoString
+nsAutoCString
 cJSPathPrefix
 cDOMPathPrefix
 ;

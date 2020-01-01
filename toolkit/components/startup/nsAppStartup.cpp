@@ -1211,7 +1211,7 @@ txt
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 nativePath
 ;
 nsresult
@@ -4199,7 +4199,7 @@ GetInSafeMode
 inSafeMode
 )
 ;
-int64_t
+PRTime
 replacedLockTime
 ;
 rv

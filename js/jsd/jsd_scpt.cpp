@@ -1272,7 +1272,7 @@ if
 !
 fp
 )
-JS_FrameIterator
+JS_BrokenFrameIterator
 (
 cx
 &

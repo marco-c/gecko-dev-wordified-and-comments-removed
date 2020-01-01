@@ -1190,7 +1190,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 location
 (
 "

@@ -664,7 +664,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -935,7 +935,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -2558,7 +2558,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 pathStr
 (
 NS_LITERAL_CSTRING

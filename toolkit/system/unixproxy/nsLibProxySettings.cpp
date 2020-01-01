@@ -215,7 +215,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv

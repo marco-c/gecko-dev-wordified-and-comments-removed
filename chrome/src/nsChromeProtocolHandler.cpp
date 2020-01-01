@@ -633,7 +633,7 @@ rv
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 spec
 ;
 aURI
@@ -772,7 +772,7 @@ if
 exists
 )
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 file
@@ -868,7 +868,7 @@ do_QueryInterface
 aURI
 )
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 rv

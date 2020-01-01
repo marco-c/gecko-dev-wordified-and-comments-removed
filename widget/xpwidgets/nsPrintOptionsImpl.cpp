@@ -5700,7 +5700,7 @@ NS_ENSURE_ARG_POINTER
 aPrefId
 )
 ;
-nsCAutoString
+nsAutoCString
 str
 ;
 nsresult
@@ -5941,7 +5941,7 @@ NS_TWIPS_TO_INCHES
 aTwips
 )
 ;
-nsCAutoString
+nsAutoCString
 inchesStr
 ;
 inchesStr

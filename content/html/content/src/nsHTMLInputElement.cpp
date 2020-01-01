@@ -4185,7 +4185,9 @@ aValue
 *
 aValue
 =
-mIndeterminate
+Indeterminate
+(
+)
 ;
 return
 NS_OK
@@ -6930,7 +6932,9 @@ aChecked
 *
 aChecked
 =
-mChecked
+Checked
+(
+)
 ;
 return
 NS_OK
@@ -16794,7 +16798,7 @@ VALIDITY_STATE_VALUE_MISSING
 nsXPIDLString
 message
 ;
-nsCAutoString
+nsAutoCString
 key
 ;
 switch
@@ -16889,7 +16893,7 @@ VALIDITY_STATE_TYPE_MISMATCH
 nsXPIDLString
 message
 ;
-nsCAutoString
+nsAutoCString
 key
 ;
 if
@@ -17512,7 +17516,7 @@ nsAString
 aValue
 )
 {
-nsCAutoString
+nsAutoCString
 value
 =
 NS_ConvertUTF16toUTF8
@@ -17573,7 +17577,7 @@ ace
 ace
 )
 {
-nsCAutoString
+nsAutoCString
 punyCodedValue
 ;
 if

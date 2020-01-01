@@ -484,7 +484,7 @@ nsIUnicodeEncoder
 aResult
 )
 {
-nsCAutoString
+nsAutoCString
 charset
 ;
 nsCharsetConverterManager
@@ -543,7 +543,7 @@ rv
 =
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 contractid
 (
 NS_LITERAL_CSTRING
@@ -619,7 +619,7 @@ nsIUnicodeDecoder
 aResult
 )
 {
-nsCAutoString
+nsAutoCString
 charset
 ;
 if
@@ -670,7 +670,7 @@ nsIUnicodeDecoder
 aResult
 )
 {
-nsCAutoString
+nsAutoCString
 charset
 ;
 nsresult
@@ -951,7 +951,7 @@ supStr
 )
 continue
 ;
-nsCAutoString
+nsAutoCString
 name
 ;
 if
@@ -969,7 +969,7 @@ name
 )
 continue
 ;
-nsCAutoString
+nsAutoCString
 fullName
 (
 aPrefix
@@ -1239,7 +1239,7 @@ nsIAtom
 aResult
 )
 {
-nsCAutoString
+nsAutoCString
 charset
 ;
 nsresult

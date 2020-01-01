@@ -602,7 +602,7 @@ nsAString
 aHostPort
 )
 {
-nsCAutoString
+nsAutoCString
 hostPort
 ;
 nsCertOverrideService
@@ -1674,7 +1674,7 @@ counter
 +
 ;
 }
-nsCAutoString
+nsAutoCString
 hostPort
 ;
 nsCertOverrideService
@@ -1741,7 +1741,7 @@ collectorTable
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 hostPort
 ;
 nsCertOverrideService
@@ -1827,7 +1827,7 @@ cap
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 hostPort
 ;
 nsCertOverrideService
@@ -5475,7 +5475,7 @@ certdi
 mOverrideBits
 ;
 }
-nsCAutoString
+nsAutoCString
 temp
 ;
 nsCertOverride
@@ -5525,7 +5525,7 @@ nsCertTreeDispInfo
 host_port_override
 )
 {
-nsCAutoString
+nsAutoCString
 hostPort
 ;
 nsCertOverrideService

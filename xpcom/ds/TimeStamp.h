@@ -475,7 +475,7 @@ aTicks
 =
 double
 (
-LL_MAXINT
+INT64_MAX
 )
 )
 return
@@ -484,7 +484,7 @@ TimeDuration
 :
 FromTicks
 (
-LL_MAXINT
+INT64_MAX
 )
 ;
 if
@@ -494,7 +494,7 @@ aTicks
 =
 double
 (
-LL_MININT
+INT64_MIN
 )
 )
 return
@@ -503,7 +503,7 @@ TimeDuration
 :
 FromTicks
 (
-LL_MININT
+INT64_MIN
 )
 ;
 return

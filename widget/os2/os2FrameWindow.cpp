@@ -1720,7 +1720,7 @@ if
 iconFile
 )
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 iconFile

@@ -396,7 +396,7 @@ mt
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 uriSpec
 ;
 aBindingDocURI

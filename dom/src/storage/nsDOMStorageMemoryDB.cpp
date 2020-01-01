@@ -1294,7 +1294,7 @@ bool
 aIncludeSubDomains
 )
 {
-nsCAutoString
+nsAutoCString
 subdomainsDBKey
 ;
 nsDOMStorageDBWrapper
@@ -1419,7 +1419,7 @@ i
 +
 )
 {
-nsCAutoString
+nsAutoCString
 quotaKey
 ;
 nsDOMStorageDBWrapper
@@ -1559,7 +1559,7 @@ aUsage
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 quotadomainDBKey
 ;
 rv
@@ -1653,7 +1653,7 @@ struc
 mExcludeOfflineFromUsage
 )
 {
-nsCAutoString
+nsAutoCString
 domain
 ;
 nsresult

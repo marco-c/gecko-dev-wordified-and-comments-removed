@@ -206,7 +206,7 @@ ret
 )
 )
 return
-ret
+1
 ;
 nsIChannel
 *
@@ -239,7 +239,7 @@ ret
 )
 )
 return
-ret
+1
 ;
 ret
 =
@@ -260,7 +260,7 @@ ret
 )
 )
 return
-ret
+1
 ;
 nsIPersistentProperties
 *
@@ -593,7 +593,7 @@ return
 1
 ;
 }
-nsCAutoString
+nsAutoCString
 key
 ;
 nsAutoString

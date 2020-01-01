@@ -3518,7 +3518,7 @@ false
 ;
 #
 endif
-nsCAutoString
+nsAutoCString
 filename
 ;
 if
@@ -3725,7 +3725,7 @@ true
 ;
 #
 endif
-nsCAutoString
+nsAutoCString
 orientation
 ;
 if
@@ -4115,7 +4115,7 @@ true
 ;
 #
 endif
-nsCAutoString
+nsAutoCString
 papername
 ;
 if
@@ -4440,7 +4440,7 @@ if
 hasSpoolerCmd
 )
 {
-nsCAutoString
+nsAutoCString
 command
 ;
 if

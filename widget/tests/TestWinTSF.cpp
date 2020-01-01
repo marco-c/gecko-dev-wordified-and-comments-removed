@@ -14632,7 +14632,7 @@ aFailureCondition
 )
 {
 \
-nsCAutoString
+nsAutoCString
 str
 (
 aDescription

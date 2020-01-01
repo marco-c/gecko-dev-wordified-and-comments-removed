@@ -488,7 +488,7 @@ innerURI
 =
 uri
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 innerURI
@@ -527,7 +527,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -572,7 +572,7 @@ SetLength
 ref
 )
 ;
-nsCAutoString
+nsAutoCString
 temp
 ;
 rv
@@ -615,7 +615,7 @@ nsACString
 _retval
 )
 {
-nsCAutoString
+nsAutoCString
 unescaped
 ;
 if
@@ -652,7 +652,7 @@ hostname
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 cleaned
 ;
 CleanupHostname
@@ -661,7 +661,7 @@ unescaped
 cleaned
 )
 ;
-nsCAutoString
+nsAutoCString
 temp
 ;
 ParseIPAddress
@@ -725,13 +725,13 @@ Truncate
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 decodedPath
 (
 path
 )
 ;
-nsCAutoString
+nsAutoCString
 temp
 ;
 while
@@ -1259,7 +1259,7 @@ i
 +
 )
 {
-nsCAutoString
+nsAutoCString
 canonical
 ;
 if
@@ -1920,7 +1920,7 @@ nsACString
 _retval
 )
 {
-nsCAutoString
+nsAutoCString
 base64
 (
 key

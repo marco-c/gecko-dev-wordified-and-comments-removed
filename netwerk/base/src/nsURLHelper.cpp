@@ -379,7 +379,7 @@ nsACString
 result
 )
 {
-nsCAutoString
+nsAutoCString
 escPath
 ;
 nsresult
@@ -442,7 +442,7 @@ nsACString
 result
 )
 {
-nsCAutoString
+nsAutoCString
 escPath
 ;
 nsresult
@@ -1705,10 +1705,10 @@ nsACString
 result
 )
 {
-nsCAutoString
+nsAutoCString
 name
 ;
-nsCAutoString
+nsAutoCString
 path
 (
 basePath
@@ -4289,7 +4289,7 @@ end
 return
 true
 ;
-nsCAutoString
+nsAutoCString
 strhost
 (
 host

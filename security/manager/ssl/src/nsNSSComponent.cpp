@@ -3516,7 +3516,7 @@ mozFile
 continue
 ;
 }
-nsCAutoString
+nsAutoCString
 processDir
 ;
 mozFile
@@ -5666,7 +5666,7 @@ continue
 nsAutoString
 tempCrlKey
 ;
-nsCAutoString
+nsAutoCString
 enabledPrefCString
 (
 *
@@ -5730,7 +5730,7 @@ tempTimeString
 PRTime
 tempTime
 ;
-nsCAutoString
+nsAutoCString
 timingPrefCString
 (
 updateTimePref
@@ -5939,7 +5939,7 @@ tempTime
 nearestUpdateTime
 )
 {
-nsCAutoString
+nsAutoCString
 urlPrefCString
 (
 updateURLPref
@@ -7133,7 +7133,7 @@ NS_ERROR_FAILURE
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 profileStr
 ;
 nsCOMPtr
@@ -14135,13 +14135,13 @@ if
 mDoSilentDownload
 )
 {
-nsCAutoString
+nsAutoCString
 updateErrCntPrefStr
 (
 CRL_AUTOUPDATE_ERRCNT_PREF
 )
 ;
-nsCAutoString
+nsAutoCString
 updateErrDetailPrefStr
 (
 CRL_AUTOUPDATE_ERRDETAIL_PREF

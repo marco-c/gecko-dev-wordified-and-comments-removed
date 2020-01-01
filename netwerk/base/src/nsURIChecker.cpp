@@ -56,7 +56,7 @@ nsIHttpChannel
 httpChannel
 )
 {
-nsCAutoString
+nsAutoCString
 server
 ;
 httpChannel

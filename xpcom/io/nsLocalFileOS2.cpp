@@ -931,7 +931,7 @@ nsIFile
 parent
 )
 {
-nsCAutoString
+nsAutoCString
 filepath
 ;
 parent
@@ -4372,7 +4372,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 temp
 ;
 temp
@@ -5335,10 +5335,10 @@ move
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 filePath
 ;
-nsCAutoString
+nsAutoCString
 destPath
 ;
 destParent
@@ -5368,7 +5368,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 aFileName
 ;
 sourceFile
@@ -5966,7 +5966,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 allocatedNewName
 ;
 if
@@ -6290,7 +6290,7 @@ MakeDirty
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 newParentPath
 ;
 newParentDir
@@ -6321,7 +6321,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 aFileName
 ;
 GetNativeLeafName
@@ -6714,7 +6714,7 @@ nsLocalFile
 :
 GetLastModifiedTime
 (
-int64_t
+PRTime
 *
 aLastModifiedTime
 )
@@ -6779,7 +6779,7 @@ nsLocalFile
 :
 GetLastModifiedTimeOfLink
 (
-int64_t
+PRTime
 *
 aLastModifiedTime
 )
@@ -6794,7 +6794,7 @@ nsLocalFile
 :
 SetLastModifiedTime
 (
-int64_t
+PRTime
 aLastModifiedTime
 )
 {
@@ -6818,7 +6818,7 @@ nsLocalFile
 :
 SetLastModifiedTimeOfLink
 (
-int64_t
+PRTime
 aLastModifiedTime
 )
 {
@@ -6832,7 +6832,7 @@ nsLocalFile
 :
 SetModDate
 (
-int64_t
+PRTime
 aLastModifiedTime
 )
 {
@@ -7624,7 +7624,7 @@ NS_ENSURE_ARG_POINTER
 aParent
 )
 ;
-nsCAutoString
+nsAutoCString
 parentPath
 (
 mWorkingPath
@@ -8047,7 +8047,7 @@ isFile
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 GetNativeTarget
@@ -8542,7 +8542,7 @@ NS_ENSURE_ARG
 _retval
 )
 ;
-nsCAutoString
+nsAutoCString
 inFilePath
 ;
 inFile
@@ -8592,7 +8592,7 @@ _retval
 =
 false
 ;
-nsCAutoString
+nsAutoCString
 myFilePath
 ;
 if
@@ -8619,7 +8619,7 @@ Length
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 inFilePath
 ;
 if
@@ -8999,7 +8999,7 @@ isDirectory
 =
 false
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 IsDirectory
@@ -9229,7 +9229,7 @@ EmptyCString
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 tmp
 ;
 nsresult
@@ -9281,7 +9281,7 @@ IsEmpty
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 tmp
 ;
 nsresult
@@ -9333,7 +9333,7 @@ IsEmpty
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 tmp
 ;
 nsresult
@@ -9373,7 +9373,7 @@ nsAString
 aLeafName
 )
 {
-nsCAutoString
+nsAutoCString
 tmp
 ;
 nsresult
@@ -9431,7 +9431,7 @@ EmptyCString
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 tmp
 ;
 nsresult
@@ -9511,7 +9511,7 @@ EmptyCString
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 tmp
 ;
 nsresult
@@ -9573,7 +9573,7 @@ EmptyCString
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 tmp
 ;
 nsresult
@@ -9635,7 +9635,7 @@ EmptyCString
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 tmp
 ;
 nsresult
@@ -9676,7 +9676,7 @@ nsAString
 _retval
 )
 {
-nsCAutoString
+nsAutoCString
 tmp
 ;
 nsresult
@@ -9793,7 +9793,7 @@ nsIFile
 result
 )
 {
-nsCAutoString
+nsAutoCString
 buf
 ;
 nsresult

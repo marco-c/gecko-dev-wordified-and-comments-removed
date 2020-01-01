@@ -740,7 +740,7 @@ rv
 =
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 lockFilePath
 ;
 rv
@@ -1197,7 +1197,7 @@ aHaveFcntlLock
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 lockFilePath
 ;
 rv
@@ -1697,7 +1697,7 @@ nsProfileLock
 :
 GetReplacedLockTime
 (
-int64_t
+PRTime
 *
 aResult
 )
@@ -2303,7 +2303,7 @@ defined
 (
 XP_OS2
 )
-nsCAutoString
+nsAutoCString
 filePath
 ;
 rv
@@ -2392,7 +2392,7 @@ defined
 (
 VMS
 )
-nsCAutoString
+nsAutoCString
 filePath
 ;
 rv

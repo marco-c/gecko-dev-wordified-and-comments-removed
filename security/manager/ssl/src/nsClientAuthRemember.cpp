@@ -466,7 +466,7 @@ IsEmpty
 return
 NS_ERROR_INVALID_ARG
 ;
-nsCAutoString
+nsAutoCString
 fpStr
 ;
 nsresult
@@ -625,7 +625,7 @@ false
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 fpStr
 ;
 rv
@@ -647,7 +647,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 hostCert
 ;
 GetHostWithCert
@@ -733,7 +733,7 @@ nsACString
 db_key
 )
 {
-nsCAutoString
+nsAutoCString
 hostCert
 ;
 GetHostWithCert
@@ -847,7 +847,7 @@ nsACString
 _retval
 )
 {
-nsCAutoString
+nsAutoCString
 hostCert
 (
 aHostName

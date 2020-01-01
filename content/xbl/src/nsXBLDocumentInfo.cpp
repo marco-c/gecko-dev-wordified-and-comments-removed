@@ -2391,7 +2391,7 @@ aDocInfo
 =
 nullptr
 ;
-nsCAutoString
+nsAutoCString
 spec
 (
 kXBLCachePrefix
@@ -2731,7 +2731,7 @@ NodePrincipal
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 spec
 (
 kXBLCachePrefix

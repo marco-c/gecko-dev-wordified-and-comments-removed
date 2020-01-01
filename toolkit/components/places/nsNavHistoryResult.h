@@ -2558,7 +2558,7 @@ uint32_t
 aNodeIndex
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 if

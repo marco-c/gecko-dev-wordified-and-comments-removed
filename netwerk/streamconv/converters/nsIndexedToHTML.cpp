@@ -774,7 +774,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 baseUri
 titleUri
 ;
@@ -836,7 +836,7 @@ isScheme
 isScheme
 )
 {
-nsCAutoString
+nsAutoCString
 pw
 ;
 rv
@@ -941,7 +941,7 @@ return
 rv
 ;
 }
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -1090,7 +1090,7 @@ SetFollowLinks
 true
 )
 ;
-nsCAutoString
+nsAutoCString
 url
 ;
 rv
@@ -1215,7 +1215,7 @@ isScheme
 isScheme
 )
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -1285,7 +1285,7 @@ rv
 }
 else
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -3944,7 +3944,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 rv
@@ -6080,7 +6080,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 escapeBuf
 ;
 NS_ConvertUTF16toUTF8
@@ -6657,7 +6657,13 @@ pushBuffer
 .
 AppendInt
 (
+static_cast
+<
+int64_t
+>
+(
 t
+)
 )
 ;
 pushBuffer

@@ -1086,7 +1086,7 @@ aResult
 =
 false
 ;
-nsCAutoString
+nsAutoCString
 locale
 ;
 GetSelectedLocale
@@ -1108,7 +1108,7 @@ Length
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 prefString
 =
 NS_LITERAL_CSTRING
@@ -1191,7 +1191,7 @@ hyphen
 1
 )
 {
-nsCAutoString
+nsAutoCString
 shortPref
 (
 Substring
@@ -1354,7 +1354,7 @@ rv
 matchOSLocale
 )
 {
-nsCAutoString
+nsAutoCString
 uiLocale
 ;
 rv

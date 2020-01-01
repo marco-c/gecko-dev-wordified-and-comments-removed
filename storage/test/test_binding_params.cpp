@@ -114,7 +114,7 @@ select
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 inserted
 (
 "
@@ -173,7 +173,7 @@ hasResult
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 result
 ;
 {
@@ -375,7 +375,7 @@ string
 !
 "
 ;
-nsCAutoString
+nsAutoCString
 inserted
 (
 sCharArray
@@ -451,7 +451,7 @@ hasResult
 ;
 }
 {
-nsCAutoString
+nsAutoCString
 result
 ;
 mozStorageStatementScoper
@@ -661,7 +661,7 @@ string
 !
 "
 ;
-nsCAutoString
+nsAutoCString
 insertedUTF8
 (
 sCharArray
@@ -754,7 +754,7 @@ hasResult
 ;
 }
 {
-nsCAutoString
+nsAutoCString
 result
 ;
 mozStorageStatementScoper
@@ -932,7 +932,7 @@ hasResult
 ;
 }
 {
-nsCAutoString
+nsAutoCString
 result
 ;
 mozStorageStatementScoper

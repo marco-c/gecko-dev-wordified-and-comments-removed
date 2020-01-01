@@ -1047,7 +1047,7 @@ foundData
 =
 false
 ;
-nsCAutoString
+nsAutoCString
 foundFlavor
 ;
 nsCOMPtr
@@ -2803,7 +2803,7 @@ int32_t
 outUnicodeLen
 )
 {
-nsCAutoString
+nsAutoCString
 charset
 ;
 GetHTMLCharset

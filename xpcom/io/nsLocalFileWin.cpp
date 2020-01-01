@@ -8394,7 +8394,7 @@ nsLocalFile
 :
 GetLastModifiedTime
 (
-int64_t
+PRTime
 *
 aLastModifiedTime
 )
@@ -8454,7 +8454,7 @@ nsLocalFile
 :
 GetLastModifiedTimeOfLink
 (
-int64_t
+PRTime
 *
 aLastModifiedTime
 )
@@ -8520,7 +8520,7 @@ nsLocalFile
 :
 SetLastModifiedTime
 (
-int64_t
+PRTime
 aLastModifiedTime
 )
 {
@@ -8578,7 +8578,7 @@ nsLocalFile
 :
 SetLastModifiedTimeOfLink
 (
-int64_t
+PRTime
 aLastModifiedTime
 )
 {
@@ -8616,7 +8616,7 @@ nsLocalFile
 :
 SetModDate
 (
-int64_t
+PRTime
 aLastModifiedTime
 const
 PRUnichar

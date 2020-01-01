@@ -417,7 +417,7 @@ aTarget
 return
 AVPOLICY_DOWNLOAD
 ;
-nsCAutoString
+nsAutoCString
 source
 ;
 rv
@@ -1025,7 +1025,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 name
 ;
 rv
@@ -1075,7 +1075,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 origin
 ;
 rv

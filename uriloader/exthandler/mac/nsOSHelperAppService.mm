@@ -3234,7 +3234,7 @@ if
 typeStr
 )
 {
-nsCAutoString
+nsAutoCString
 mimeType
 ;
 mimeType
@@ -3681,7 +3681,7 @@ saveToDisk
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 mimeType
 ;
 mimeInfoMac
@@ -3774,7 +3774,7 @@ if
 extStr
 )
 {
-nsCAutoString
+nsAutoCString
 preferredExt
 ;
 preferredExt

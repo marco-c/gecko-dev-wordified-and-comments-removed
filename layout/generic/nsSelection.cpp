@@ -3580,7 +3580,10 @@ result
 frame
 )
 return
+NS_FAILED
+(
 result
+)
 ?
 result
 :
@@ -4244,7 +4247,7 @@ rv
 =
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 formatType
 (
 NS_DOC_ENCODER_CONTRACTID_BASE
@@ -22679,7 +22682,10 @@ result
 context
 )
 return
+NS_FAILED
+(
 result
+)
 ?
 result
 :

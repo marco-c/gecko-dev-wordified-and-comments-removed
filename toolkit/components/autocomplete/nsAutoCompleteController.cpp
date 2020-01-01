@@ -479,7 +479,7 @@ searchCount
 i
 )
 {
-nsCAutoString
+nsAutoCString
 searchName
 ;
 aInput
@@ -491,7 +491,7 @@ i
 searchName
 )
 ;
-nsCAutoString
+nsAutoCString
 cid
 (
 searchCID
@@ -5974,7 +5974,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 if

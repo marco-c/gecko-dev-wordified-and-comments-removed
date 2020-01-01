@@ -38,7 +38,7 @@ h
 "
 #
 ifdef
-MOZ_SAMPLE_TYPE_S16LE
+MOZ_SAMPLE_TYPE_S16
 #
 define
 MOZ_AUDIO_DATA_FORMAT
@@ -46,7 +46,7 @@ MOZ_AUDIO_DATA_FORMAT
 nsAudioStream
 :
 :
-FORMAT_S16_LE
+FORMAT_S16
 )
 typedef
 short
@@ -81,7 +81,7 @@ enum
 SampleFormat
 {
 FORMAT_U8
-FORMAT_S16_LE
+FORMAT_S16
 FORMAT_FLOAT32
 }
 ;

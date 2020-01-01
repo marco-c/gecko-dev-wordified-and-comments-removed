@@ -2170,7 +2170,7 @@ osso_hw_state_t
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 applicationName
 ;
 if
@@ -2637,7 +2637,7 @@ die_cb
 NULL
 )
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 char
@@ -2710,7 +2710,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 leafName
 ;
 rv

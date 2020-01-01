@@ -685,7 +685,7 @@ if
 appInfo
 )
 {
-nsCAutoString
+nsAutoCString
 version
 ;
 appInfo
@@ -1099,7 +1099,7 @@ if
 uri
 )
 {
-nsCAutoString
+nsAutoCString
 uriSpec
 ;
 uri
@@ -1344,7 +1344,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -1508,7 +1508,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv

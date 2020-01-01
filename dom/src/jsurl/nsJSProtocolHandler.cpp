@@ -758,7 +758,7 @@ uri
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 asciiSpec
 ;
 uri
@@ -956,7 +956,7 @@ scriptContext
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 script
 (
 mScript
@@ -4197,7 +4197,7 @@ aSpec
 ;
 else
 {
-nsCAutoString
+nsAutoCString
 utf8Spec
 ;
 rv

@@ -96,7 +96,7 @@ size_t
 slen
 )
 {
-nsCAutoString
+nsAutoCString
 native
 ;
 nsDependentString

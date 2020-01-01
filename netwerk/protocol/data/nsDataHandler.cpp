@@ -350,7 +350,7 @@ spec
 }
 else
 {
-nsCAutoString
+nsAutoCString
 contentType
 contentCharset
 dataBuffer

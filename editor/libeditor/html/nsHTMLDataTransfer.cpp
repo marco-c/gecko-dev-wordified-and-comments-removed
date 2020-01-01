@@ -4622,7 +4622,7 @@ numBack
 return
 false
 ;
-nsCAutoString
+nsAutoCString
 numStr
 (
 Substring
@@ -4993,7 +4993,7 @@ endFragmentMarker
 1
 ;
 }
-nsCAutoString
+nsAutoCString
 contextUTF8
 (
 Substring
@@ -5117,7 +5117,7 @@ curPos
 ;
 }
 }
-nsCAutoString
+nsAutoCString
 fragmentUTF8
 (
 Substring
@@ -5374,7 +5374,7 @@ mime
 NS_ERROR_FAILURE
 )
 ;
-nsCAutoString
+nsAutoCString
 contentType
 ;
 rv
@@ -5934,7 +5934,7 @@ len
 0
 )
 {
-nsCAutoString
+nsAutoCString
 cfhtml
 ;
 textDataObj
@@ -6167,7 +6167,7 @@ len
 0
 )
 {
-nsCAutoString
+nsAutoCString
 text
 ;
 textDataObj

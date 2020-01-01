@@ -1551,7 +1551,7 @@ baseURI
 =
 mDocumentURI
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 if
@@ -1761,7 +1761,7 @@ isChrome
 isChrome
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -2345,7 +2345,7 @@ charsetSource
 =
 kCharsetFromDocTypeDefault
 ;
-nsCAutoString
+nsAutoCString
 charset
 (
 NS_LITERAL_CSTRING

@@ -301,7 +301,7 @@ n
 return
 ;
 }
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -407,8 +407,9 @@ if
 nsContentUtils
 :
 :
-GetImgLoader
+GetImgLoaderForChannel
 (
+nullptr
 )
 )
 {
@@ -1244,8 +1245,9 @@ if
 nsContentUtils
 :
 :
-GetImgLoader
+GetImgLoaderForChannel
 (
+nullptr
 )
 )
 {
@@ -1908,8 +1910,9 @@ if
 nsContentUtils
 :
 :
-GetImgLoader
+GetImgLoaderForChannel
 (
+aChannel
 )
 )
 {
@@ -1961,8 +1964,9 @@ rv
 nsContentUtils
 :
 :
-GetImgLoader
+GetImgLoaderForChannel
 (
+aChannel
 )
 -
 >

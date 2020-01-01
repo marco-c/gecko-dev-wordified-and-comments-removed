@@ -591,7 +591,7 @@ buffer
 ;
 #
 endif
-nsCAutoString
+nsAutoCString
 indexFormat
 ;
 if
@@ -1024,10 +1024,10 @@ AppendLiteral
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 pw
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -1478,7 +1478,7 @@ fe_fname
 ;
 }
 }
-nsCAutoString
+nsAutoCString
 buf
 ;
 aString

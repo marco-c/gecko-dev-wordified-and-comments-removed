@@ -3984,6 +3984,15 @@ nullptr
 status
 )
 ;
+ENSURE_TRUE
+(
+weakFrame
+.
+IsAlive
+(
+)
+)
+;
 if
 (
 aNextPopup

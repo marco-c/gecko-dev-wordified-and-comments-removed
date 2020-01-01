@@ -849,7 +849,7 @@ Append
 mRenderer
 )
 ;
-nsCAutoString
+nsAutoCString
 note
 ;
 note

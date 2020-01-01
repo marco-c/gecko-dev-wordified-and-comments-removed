@@ -478,7 +478,7 @@ aIndex
 return
 NS_ERROR_ILLEGAL_VALUE
 ;
-nsCAutoString
+nsAutoCString
 uri
 (
 kRDFNameSpaceURI

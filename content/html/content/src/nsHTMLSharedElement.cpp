@@ -763,7 +763,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri

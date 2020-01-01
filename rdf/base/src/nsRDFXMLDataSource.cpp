@@ -2144,7 +2144,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 spec
 ;
 mURL
@@ -2966,7 +2966,7 @@ NS_ERROR_NOT_INITIALIZED
 #
 ifdef
 PR_LOGGING
-nsCAutoString
+nsAutoCString
 spec
 ;
 mURL
@@ -3266,7 +3266,7 @@ aBlocking
 #
 ifdef
 PR_LOGGING
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -3527,7 +3527,7 @@ void
 #
 ifdef
 PR_LOGGING
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -3643,7 +3643,7 @@ void
 #
 ifdef
 PR_LOGGING
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -3753,7 +3753,7 @@ void
 #
 ifdef
 PR_LOGGING
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -3863,7 +3863,7 @@ void
 #
 ifdef
 PR_LOGGING
-nsCAutoString
+nsAutoCString
 spec
 ;
 if

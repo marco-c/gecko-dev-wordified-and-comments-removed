@@ -2691,7 +2691,7 @@ G_MOUNT_OPERATION_ABORTED
 return
 ;
 }
-nsCAutoString
+nsAutoCString
 scheme
 hostPort
 ;
@@ -3922,7 +3922,7 @@ aURI
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv

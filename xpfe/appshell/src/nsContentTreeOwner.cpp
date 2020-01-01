@@ -3253,10 +3253,10 @@ rv
 tmpuri
 )
 {
-nsCAutoString
+nsAutoCString
 host
 ;
-nsCAutoString
+nsAutoCString
 prepath
 ;
 tmpuri

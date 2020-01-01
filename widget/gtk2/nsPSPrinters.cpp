@@ -279,7 +279,7 @@ i
 +
 )
 {
-nsCAutoString
+nsAutoCString
 fullName
 (
 NS_CUPS_PRINTER
@@ -383,7 +383,7 @@ default
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 list
 (
 PR_GetEnv
@@ -482,7 +482,7 @@ default
 )
 )
 {
-nsCAutoString
+nsAutoCString
 fullName
 (
 NS_POSTSCRIPT_DRIVER_NAME

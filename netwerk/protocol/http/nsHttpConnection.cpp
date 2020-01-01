@@ -1183,7 +1183,7 @@ nsISSLSocketControl
 >
 ssl
 ;
-nsCAutoString
+nsAutoCString
 negotiatedNPN
 ;
 rv
@@ -6304,7 +6304,7 @@ stream
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 buf
 ;
 nsresult

@@ -3514,7 +3514,7 @@ BeginReading
 begin
 )
 ;
-nsCAutoString
+nsAutoCString
 contractID
 ;
 contractID
@@ -3783,7 +3783,7 @@ PR_Now
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 s
 ;
 do
@@ -5358,7 +5358,7 @@ NS_ERROR_NULL_POINTER
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 spec
 (
 aURI
@@ -5471,7 +5471,7 @@ rdf
 )
 )
 {
-nsCAutoString
+nsAutoCString
 contractID
 (
 NS_LITERAL_CSTRING

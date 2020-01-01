@@ -1498,7 +1498,7 @@ nsISupportsCString
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 contractid
 ;
 nsresult
@@ -2137,7 +2137,7 @@ result
 uri
 )
 {
-nsCAutoString
+nsAutoCString
 type
 ;
 result
@@ -2781,7 +2781,7 @@ httpChannel
 return
 ;
 }
-nsCAutoString
+nsAutoCString
 contentTypeHdr
 ;
 httpChannel
@@ -2800,7 +2800,7 @@ Type
 contentTypeHdr
 )
 ;
-nsCAutoString
+nsAutoCString
 contentType
 ;
 httpChannel
@@ -2905,7 +2905,7 @@ UTF
 return
 ;
 }
-nsCAutoString
+nsAutoCString
 contentEncoding
 ;
 httpChannel

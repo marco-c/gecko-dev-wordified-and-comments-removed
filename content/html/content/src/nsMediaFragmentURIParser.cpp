@@ -1278,10 +1278,10 @@ index
 0
 )
 {
-nsCAutoString
+nsAutoCString
 name
 ;
-nsCAutoString
+nsAutoCString
 value
 ;
 NS_UnescapeURL

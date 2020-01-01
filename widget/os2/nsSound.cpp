@@ -425,7 +425,7 @@ if
 uri
 )
 {
-nsCAutoString
+nsAutoCString
 uriSpec
 ;
 uri
@@ -908,7 +908,7 @@ nsAString
 aSoundFile
 )
 {
-nsCAutoString
+nsAutoCString
 buf
 ;
 nsresult

@@ -3771,7 +3771,7 @@ CacheEntry
 )
 )
 {
-nsCAutoString
+nsAutoCString
 uncompressedLenStr
 ;
 rv

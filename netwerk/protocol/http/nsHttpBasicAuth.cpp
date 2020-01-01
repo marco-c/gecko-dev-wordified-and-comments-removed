@@ -200,7 +200,7 @@ isBasicAuth
 NS_ERROR_UNEXPECTED
 )
 ;
-nsCAutoString
+nsAutoCString
 userpass
 ;
 LossyCopyUTF16toASCII

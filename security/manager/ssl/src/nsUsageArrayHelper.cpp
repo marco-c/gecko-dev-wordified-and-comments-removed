@@ -143,7 +143,7 @@ aCertUsage
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 typestr
 ;
 switch

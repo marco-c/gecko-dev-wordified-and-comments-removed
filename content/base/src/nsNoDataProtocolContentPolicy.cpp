@@ -118,7 +118,7 @@ aContentType
 TYPE_WEBSOCKET
 )
 {
-nsCAutoString
+nsAutoCString
 scheme
 ;
 aContentLocation

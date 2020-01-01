@@ -1347,7 +1347,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 defFileExt
 ;
 mimeService
@@ -1523,7 +1523,7 @@ GetImageSize
 desiredImageSize
 )
 ;
-nsCAutoString
+nsAutoCString
 stockIcon
 ;
 aIconURI
@@ -1935,7 +1935,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 stockIcon
 ;
 iconURI

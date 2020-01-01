@@ -206,7 +206,7 @@ status
 )
 )
 {
-nsCAutoString
+nsAutoCString
 buf
 ;
 rec
@@ -519,7 +519,7 @@ argc
 i
 )
 {
-nsCAutoString
+nsAutoCString
 hostBuf
 ;
 if

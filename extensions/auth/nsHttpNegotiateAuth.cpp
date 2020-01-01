@@ -375,7 +375,7 @@ nsIAuthModule
 :
 REQ_DEFAULT
 ;
-nsCAutoString
+nsAutoCString
 service
 ;
 if
@@ -1218,7 +1218,7 @@ nsIURI
 uri
 )
 {
-nsCAutoString
+nsAutoCString
 host
 ;
 PRNetAddr
@@ -1322,7 +1322,7 @@ prefs
 return
 false
 ;
-nsCAutoString
+nsAutoCString
 scheme
 host
 ;

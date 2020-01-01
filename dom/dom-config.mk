@@ -178,6 +178,12 @@ src
 \
 content
 /
+media
+/
+webaudio
+\
+content
+/
 svg
 /
 content

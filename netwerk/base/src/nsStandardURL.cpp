@@ -714,7 +714,7 @@ seg
 .
 mLen
 ;
-nsCAutoString
+nsAutoCString
 encBuf
 ;
 if
@@ -2044,7 +2044,7 @@ char
 spec
 )
 {
-nsCAutoString
+nsAutoCString
 encUsername
 encPassword
 encHost
@@ -2066,7 +2066,7 @@ useEncExtension
 useEncQuery
 useEncRef
 ;
-nsCAutoString
+nsAutoCString
 portbuf
 ;
 uint32_t
@@ -5076,7 +5076,7 @@ esc_AlwaysCopy
 result
 )
 ;
-nsCAutoString
+nsAutoCString
 escHostport
 ;
 if
@@ -5382,7 +5382,7 @@ spec
 return
 NS_OK
 ;
-nsCAutoString
+nsAutoCString
 buf1
 ;
 if
@@ -6229,7 +6229,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 buf
 ;
 if
@@ -6589,7 +6589,7 @@ InvalidateCache
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 buf
 ;
 GET_SEGMENT_ENCODER
@@ -6894,7 +6894,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 buf
 ;
 GET_SEGMENT_ENCODER
@@ -7253,7 +7253,7 @@ NS_OK
 int32_t
 len
 ;
-nsCAutoString
+nsAutoCString
 hostBuf
 ;
 if
@@ -7519,7 +7519,7 @@ mPort
 1
 )
 {
-nsCAutoString
+nsAutoCString
 buf
 ;
 buf
@@ -7638,7 +7638,7 @@ lengthToCut
 }
 else
 {
-nsCAutoString
+nsAutoCString
 buf
 ;
 buf
@@ -7790,7 +7790,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 spec
@@ -8848,7 +8848,7 @@ get
 (
 )
 ;
-nsCAutoString
+nsAutoCString
 buf
 ;
 int32_t
@@ -10601,7 +10601,7 @@ filepath
 filepath
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 uint32_t
@@ -11182,7 +11182,7 @@ mPos
 +
 ;
 }
-nsCAutoString
+nsAutoCString
 buf
 ;
 bool
@@ -11488,7 +11488,7 @@ mLen
 0
 ;
 }
-nsCAutoString
+nsAutoCString
 buf
 ;
 bool
@@ -11872,7 +11872,7 @@ mLen
 }
 else
 {
-nsCAutoString
+nsAutoCString
 newFilename
 ;
 bool
@@ -12113,7 +12113,7 @@ nsACString
 input
 )
 {
-nsCAutoString
+nsAutoCString
 extension
 ;
 nsresult
@@ -12130,7 +12130,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 newFileName
 (
 input
@@ -12182,7 +12182,7 @@ nsACString
 input
 )
 {
-nsCAutoString
+nsAutoCString
 newFileName
 ;
 nsresult
@@ -12393,7 +12393,7 @@ LOG_ENABLED
 )
 )
 {
-nsCAutoString
+nsAutoCString
 path
 ;
 mFile
@@ -12479,7 +12479,7 @@ file
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 url
 ;
 rv
@@ -12925,7 +12925,7 @@ SetSpec
 spec
 )
 ;
-nsCAutoString
+nsAutoCString
 buf
 ;
 nsresult

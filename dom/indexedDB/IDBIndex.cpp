@@ -7678,7 +7678,7 @@ keyRangeClause
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 directionClause
 (
 "
@@ -7955,7 +7955,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 queryStart
 =
 NS_LITERAL_CSTRING
@@ -9250,7 +9250,7 @@ keyRangeClause
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 directionClause
 (
 "
@@ -9586,7 +9586,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 queryStart
 =
 NS_LITERAL_CSTRING
@@ -10866,7 +10866,7 @@ value
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 keyRangeClause
 ;
 if

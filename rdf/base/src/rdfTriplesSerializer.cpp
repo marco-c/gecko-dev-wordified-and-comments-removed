@@ -413,7 +413,7 @@ GetValueConst
 value
 )
 ;
-nsCAutoString
+nsAutoCString
 object
 ;
 object

@@ -319,7 +319,7 @@ char
 aMode
 )
 {
-nsCAutoString
+nsAutoCString
 mode
 ;
 return
@@ -509,7 +509,7 @@ port
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 noProxy
 (
 noProxyVal
@@ -651,7 +651,7 @@ colon
 last
 )
 ;
-nsCAutoString
+nsAutoCString
 portStr2
 (
 portStr
@@ -826,7 +826,7 @@ nsACString
 aResult
 )
 {
-nsCAutoString
+nsAutoCString
 envVar
 ;
 envVar
@@ -978,7 +978,7 @@ isHTTP
 return
 NS_ERROR_UNKNOWN_PROTOCOL
 ;
-nsCAutoString
+nsAutoCString
 proxyHost
 ;
 rv
@@ -1050,7 +1050,7 @@ nsACString
 aResult
 )
 {
-nsCAutoString
+nsAutoCString
 hostKey
 ;
 hostKey
@@ -1069,7 +1069,7 @@ host
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 nsresult
@@ -1101,7 +1101,7 @@ IsEmpty
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 portKey
 ;
 portKey
@@ -1239,7 +1239,7 @@ proxy_settings
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 host
 ;
 rv
@@ -1781,7 +1781,7 @@ slash
 end
 )
 ;
-nsCAutoString
+nsAutoCString
 maskStr2
 (
 maskStr
@@ -1936,6 +1936,7 @@ masterProxySwitch
 if
 (
 !
+(
 IsProxyMode
 (
 "
@@ -1944,8 +1945,8 @@ manual
 )
 |
 |
-!
 masterProxySwitch
+)
 )
 {
 aResult
@@ -2698,7 +2699,7 @@ nsACString
 aResult
 )
 {
-nsCAutoString
+nsAutoCString
 scheme
 ;
 nsresult
@@ -2718,7 +2719,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 rv

@@ -560,22 +560,22 @@ aCookie
 struct
 nsCookieAttributes
 {
-nsCAutoString
+nsAutoCString
 name
 ;
-nsCAutoString
+nsAutoCString
 value
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
-nsCAutoString
+nsAutoCString
 expires
 ;
-nsCAutoString
+nsAutoCString
 maxage
 ;
 int64_t
@@ -812,7 +812,7 @@ PR_LOG_WARNING
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -1399,7 +1399,7 @@ PR_LOG_DEBUG
 return
 ;
 }
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -1909,7 +1909,7 @@ result
 #
 ifdef
 PR_LOGGING
-nsCAutoString
+nsAutoCString
 message
 ;
 aError
@@ -6384,7 +6384,7 @@ aHostURI
 isForeign
 )
 ;
-nsCAutoString
+nsAutoCString
 result
 ;
 GetCookieStringInternal
@@ -6629,7 +6629,7 @@ return
 bool
 requireHostMatch
 ;
-nsCAutoString
+nsAutoCString
 baseDomain
 ;
 nsresult
@@ -7472,7 +7472,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsCAutoString
+nsAutoCString
 host
 (
 aHost
@@ -7492,7 +7492,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 baseDomain
 ;
 rv
@@ -7614,7 +7614,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsCAutoString
+nsAutoCString
 host
 (
 aHost
@@ -7634,7 +7634,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 baseDomain
 ;
 rv
@@ -9447,7 +9447,7 @@ kTrue
 TRUE
 "
 ;
-nsCAutoString
+nsAutoCString
 buffer
 baseDomain
 ;
@@ -10347,7 +10347,7 @@ return
 bool
 requireHostMatch
 ;
-nsCAutoString
+nsAutoCString
 baseDomain
 hostFromURI
 pathFromURI
@@ -12983,7 +12983,7 @@ aHost
 )
 )
 {
-nsCAutoString
+nsAutoCString
 host
 ;
 nsresult
@@ -13355,7 +13355,7 @@ bool
 aRequireHostMatch
 )
 {
-nsCAutoString
+nsAutoCString
 hostFromURI
 ;
 aHostURI
@@ -13609,7 +13609,7 @@ if
 }
 else
 {
-nsCAutoString
+nsAutoCString
 pathFromURI
 ;
 if
@@ -14852,7 +14852,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsCAutoString
+nsAutoCString
 host
 name
 path
@@ -14906,7 +14906,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 baseDomain
 ;
 rv
@@ -15124,7 +15124,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsCAutoString
+nsAutoCString
 host
 (
 aHost
@@ -15144,7 +15144,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 baseDomain
 ;
 rv
@@ -15241,7 +15241,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsCAutoString
+nsAutoCString
 host
 (
 aHost
@@ -15261,7 +15261,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 baseDomain
 ;
 rv

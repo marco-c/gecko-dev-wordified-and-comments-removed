@@ -2843,7 +2843,7 @@ attr
 value
 )
 ;
-AddScriptEventListener
+SetEventHandler
 (
 attr
 value
@@ -3955,7 +3955,7 @@ nsAttrValue
 eString
 )
 {
-AddScriptEventListener
+SetEventHandler
 (
 aName
 aValue
@@ -3981,7 +3981,7 @@ ToString
 body
 )
 ;
-AddScriptEventListener
+SetEventHandler
 (
 aName
 body
@@ -8284,7 +8284,7 @@ attr
 value
 )
 ;
-AddScriptEventListener
+SetEventHandler
 (
 attr
 value
@@ -11026,7 +11026,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsCAutoString
+nsAutoCString
 urlspec
 ;
 nsContentUtils

@@ -2970,7 +2970,7 @@ return
 SECFailure
 ;
 }
-nsCAutoString
+nsAutoCString
 negotiatedNPN
 ;
 nsresult

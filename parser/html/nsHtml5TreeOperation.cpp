@@ -4001,7 +4001,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 viewSourceUrl
 ;
 bool
@@ -4047,7 +4047,7 @@ source
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri

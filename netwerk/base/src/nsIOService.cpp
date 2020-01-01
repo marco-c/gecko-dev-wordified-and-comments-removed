@@ -1598,7 +1598,7 @@ if
 prefBranch
 )
 {
-nsCAutoString
+nsAutoCString
 externalProtocolPref
 (
 "
@@ -1654,7 +1654,7 @@ if
 externalProtocol
 )
 {
-nsCAutoString
+nsAutoCString
 contractID
 (
 NS_NETWORK_PROTOCOL_CONTRACTID_PREFIX
@@ -1725,7 +1725,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 (
 scheme
@@ -1806,7 +1806,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 (
 scheme
@@ -2076,7 +2076,7 @@ inc
 recursionCount
 )
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 nsresult
@@ -2416,7 +2416,7 @@ NS_ENSURE_ARG_POINTER
 aURI
 )
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 rv
@@ -2528,7 +2528,7 @@ if
 pi
 )
 {
-nsCAutoString
+nsAutoCString
 type
 ;
 if
@@ -4238,7 +4238,7 @@ result
 =
 false
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 nsresult
@@ -4770,7 +4770,7 @@ aEscapeType
 4
 )
 ;
-nsCAutoString
+nsAutoCString
 stringCopy
 (
 aString
@@ -4920,7 +4920,7 @@ bool
 aHadCharset
 )
 {
-nsCAutoString
+nsAutoCString
 ignored
 ;
 net_ParseContentType
@@ -4974,7 +4974,7 @@ nsIEventTarget
 aTarget
 )
 {
-nsCAutoString
+nsAutoCString
 scheme
 ;
 nsresult

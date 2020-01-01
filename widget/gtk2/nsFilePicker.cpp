@@ -570,7 +570,7 @@ TRUE
 ;
 }
 static
-nsCAutoString
+nsAutoCString
 MakeCaseInsensitiveShellGlob
 (
 const
@@ -579,7 +579,7 @@ char
 aPattern
 )
 {
-nsCAutoString
+nsAutoCString
 result
 ;
 unsigned
@@ -1088,7 +1088,7 @@ return
 NS_OK
 ;
 }
-nsCAutoString
+nsAutoCString
 filter
 name
 ;
@@ -1819,7 +1819,7 @@ AppendNative
 defaultName
 )
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 defaultPath
@@ -1846,7 +1846,7 @@ get
 }
 else
 {
-nsCAutoString
+nsAutoCString
 directory
 ;
 defaultPath
@@ -1966,7 +1966,7 @@ NULL
 j
 )
 {
-nsCAutoString
+nsAutoCString
 caseInsensitiveFilter
 =
 MakeCaseInsensitiveShellGlob

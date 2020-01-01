@@ -617,7 +617,7 @@ MOZ_PLATFORM_MAEMO
 =
 5
 )
-nsCAutoString
+nsAutoCString
 applicationName
 ;
 if

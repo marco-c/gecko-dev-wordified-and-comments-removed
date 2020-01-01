@@ -4328,7 +4328,7 @@ rv
 )
 return
 ;
-nsCAutoString
+nsAutoCString
 buffer
 ;
 bool
@@ -6488,7 +6488,7 @@ CERT_REV_MI_TEST_ALL_LOCAL_INFORMATION_FIRST
 |
 CERT_REV_MI_REQUIRE_SOME_FRESH_INFO_AVAILABLE
 ;
-uint64_t
+PRUint64
 methodFlags
 [
 2

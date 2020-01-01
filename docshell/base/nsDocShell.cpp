@@ -1888,7 +1888,7 @@ nsIURI
 uri2
 )
 {
-nsCAutoString
+nsAutoCString
 host1
 host2
 ;
@@ -5860,7 +5860,7 @@ PR_LOG_DEBUG
 )
 )
 {
-nsCAutoString
+nsAutoCString
 uristr
 ;
 aURI
@@ -7834,7 +7834,7 @@ PR_LOG_DEBUG
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -16354,10 +16354,10 @@ NS_OK
 nsAutoString
 messageStr
 ;
-nsCAutoString
+nsAutoCString
 cssClass
 ;
-nsCAutoString
+nsAutoCString
 errorPage
 ;
 errorPage
@@ -16382,7 +16382,7 @@ NS_ENSURE_ARG_POINTER
 aURI
 )
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 aURI
@@ -16454,7 +16454,7 @@ NS_ENSURE_ARG_POINTER
 aURI
 )
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 nsCOMPtr
@@ -16569,7 +16569,7 @@ NS_ENSURE_ARG_POINTER
 aURI
 )
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 aURI
@@ -16976,7 +16976,7 @@ NS_ERROR_MALWARE_URI
 aError
 )
 {
-nsCAutoString
+nsAutoCString
 host
 ;
 aURI
@@ -17358,7 +17358,7 @@ if
 addHostPort
 )
 {
-nsCAutoString
+nsAutoCString
 hostport
 ;
 if
@@ -17399,7 +17399,7 @@ formatStrCount
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv
@@ -17457,7 +17457,7 @@ GetSpec
 spec
 )
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 aURI
@@ -17776,7 +17776,7 @@ PR_LOG_DEBUG
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 aURI
@@ -17787,7 +17787,7 @@ GetSpec
 spec
 )
 ;
-nsCAutoString
+nsAutoCString
 chanName
 ;
 if
@@ -17905,10 +17905,10 @@ AbandonBFCacheEntry
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 url
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 if
@@ -22556,7 +22556,7 @@ MOZ_ASSERT
 aPrincipal
 )
 ;
-nsCAutoString
+nsAutoCString
 uriAttrib
 ;
 int32_t
@@ -23427,7 +23427,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 refreshHeader
 ;
 rv
@@ -24377,7 +24377,7 @@ uri
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 aURI
 ;
 uri
@@ -25716,7 +25716,7 @@ nsIURI
 >
 newURI
 ;
-nsCAutoString
+nsAutoCString
 oldSpec
 ;
 url
@@ -25754,7 +25754,7 @@ enabled
 false
 )
 ;
-nsCAutoString
+nsAutoCString
 host
 ;
 url
@@ -25765,7 +25765,7 @@ GetHost
 host
 )
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 url
@@ -25862,7 +25862,7 @@ else
 bool
 isACE
 ;
-nsCAutoString
+nsAutoCString
 utf8Host
 ;
 nsCOMPtr
@@ -26062,7 +26062,7 @@ if
 sameURI
 )
 {
-nsCAutoString
+nsAutoCString
 newSpec
 ;
 newURI
@@ -27432,7 +27432,7 @@ uri
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -28093,7 +28093,7 @@ uri
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -30981,19 +30981,19 @@ parentAsItem
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 defaultCharset
 ;
-nsCAutoString
+nsAutoCString
 forceCharset
 ;
-nsCAutoString
+nsAutoCString
 hintCharset
 ;
 int32_t
 hintCharsetSource
 ;
-nsCAutoString
+nsAutoCString
 prevDocCharset
 ;
 int32_t
@@ -32374,7 +32374,7 @@ PR_LOG_DEBUG
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -33051,7 +33051,7 @@ nsIDOMWindow
 >
 newWin
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -33533,7 +33533,7 @@ aLoadType
 LOAD_LINK
 )
 {
-nsCAutoString
+nsAutoCString
 curBeforeHash
 curHash
 newBeforeHash
@@ -35970,13 +35970,13 @@ uint32_t
 writeCount
 )
 {
-nsCAutoString
+nsAutoCString
 *
 buf
 =
 static_cast
 <
-nsCAutoString
+nsAutoCString
 *
 >
 (
@@ -36034,7 +36034,7 @@ httpChannel
 uint32_t
 numRead
 ;
-nsCAutoString
+nsAutoCString
 headersString
 ;
 nsresult
@@ -36059,10 +36059,10 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 headerName
 ;
-nsCAutoString
+nsAutoCString
 headerValue
 ;
 int32_t
@@ -36984,7 +36984,7 @@ PR_LOG_DEBUG
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 aURI
@@ -36995,7 +36995,7 @@ GetSpec
 spec
 )
 ;
-nsCAutoString
+nsAutoCString
 chanName
 ;
 if
@@ -38281,7 +38281,7 @@ docBaseURI
 return
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 docBaseURI
@@ -38292,7 +38292,7 @@ GetSpec
 spec
 )
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 rv
@@ -38369,7 +38369,7 @@ secMan
 NS_ERROR_FAILURE
 )
 ;
-nsCAutoString
+nsAutoCString
 currentUserPass
 newUserPass
 ;
@@ -38912,7 +38912,7 @@ aURI
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 buf
 pref
 ;
@@ -39107,7 +39107,7 @@ PR_LOG_DEBUG
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 aURI
@@ -39118,7 +39118,7 @@ GetSpec
 spec
 )
 ;
-nsCAutoString
+nsAutoCString
 chanName
 ;
 if
@@ -39923,7 +39923,7 @@ nsIURI
 >
 referrerURI
 ;
-nsCAutoString
+nsAutoCString
 contentType
 ;
 nsCOMPtr
@@ -41863,7 +41863,7 @@ return
 false
 ;
 }
-nsCAutoString
+nsAutoCString
 method
 ;
 httpChannel
@@ -45456,7 +45456,7 @@ if
 extProtService
 )
 {
-nsCAutoString
+nsAutoCString
 scheme
 ;
 aURI
@@ -45644,7 +45644,7 @@ utf8Hint
 typeHint
 )
 ;
-nsCAutoString
+nsAutoCString
 type
 dummy
 ;
@@ -45843,7 +45843,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 charset
 ;
 rv
@@ -45862,7 +45862,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 rv

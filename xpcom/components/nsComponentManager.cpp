@@ -4588,7 +4588,7 @@ ToString
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 message
 ;
 message
@@ -4928,7 +4928,7 @@ entry
 mServiceObject
 )
 {
-nsCAutoString
+nsAutoCString
 message
 ;
 message

@@ -128,6 +128,7 @@ define
 RETURN_IF_FAILED
 (
 rv
+ret
 step
 )
 \
@@ -165,7 +166,7 @@ rv
 ;
 \
 return
-rv
+ret
 ;
 \
 }
@@ -1245,6 +1246,7 @@ callbacks
 RETURN_IF_FAILED
 (
 rv
+rv
 "
 NS_NewChannel
 "
@@ -1267,6 +1269,7 @@ myBool
 ;
 RETURN_IF_FAILED
 (
+rv
 rv
 "
 AsyncOpen
@@ -1419,6 +1422,8 @@ argv
 RETURN_IF_FAILED
 (
 rv
+-
+1
 "
 NS_NewURI
 "
@@ -1441,6 +1446,8 @@ callbacks
 RETURN_IF_FAILED
 (
 rv
+-
+1
 "
 NS_OpenURI
 "
@@ -1483,6 +1490,8 @@ nullptr
 RETURN_IF_FAILED
 (
 rv
+-
+1
 "
 AsyncOpen
 "

@@ -301,10 +301,7 @@ if
 (
 byteCode
 )
-Foreground
-:
-:
-delete_
+js_delete
 <
 BytecodePattern
 >
@@ -505,6 +502,8 @@ JSAtom
 source
 )
 ;
+public
+:
 RegExpShared
 (
 JSRuntime
@@ -514,10 +513,6 @@ RegExpFlag
 flags
 )
 ;
-JS_DECLARE_ALLOCATION_FRIENDS_FOR_PRIVATE_CONSTRUCTOR
-;
-public
-:
 inline
 void
 prepareForUse

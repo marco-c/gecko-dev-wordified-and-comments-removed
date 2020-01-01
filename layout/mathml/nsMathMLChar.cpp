@@ -695,7 +695,7 @@ mGlyphProperties
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 uriStr
 ;
 uriStr
@@ -799,7 +799,7 @@ mState
 =
 NS_TABLE_STATE_READY
 ;
-nsCAutoString
+nsAutoCString
 key
 ;
 nsAutoString
@@ -1899,7 +1899,7 @@ family
 .
 "
 ;
-nsCAutoString
+nsAutoCString
 extension
 ;
 switch
@@ -1958,7 +1958,7 @@ return
 false
 ;
 }
-nsCAutoString
+nsAutoCString
 key
 ;
 key
@@ -2005,7 +2005,7 @@ Append
 extension
 )
 ;
-nsCAutoString
+nsAutoCString
 alternateKey
 ;
 alternateKey
@@ -2189,7 +2189,7 @@ return
 rv
 ;
 }
-nsCAutoString
+nsAutoCString
 key
 ;
 nsAutoString

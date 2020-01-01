@@ -2984,7 +2984,7 @@ AdapterDeviceID
 narrowDeviceID
 )
 ;
-nsCAutoString
+nsAutoCString
 note
 ;
 note
@@ -3299,6 +3299,15 @@ kWindows7
 :
 return
 DRIVER_OS_WINDOWS_7
+;
+case
+gfxWindowsPlatform
+:
+:
+kWindows8
+:
+return
+DRIVER_OS_WINDOWS_8
 ;
 case
 gfxWindowsPlatform

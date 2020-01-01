@@ -637,7 +637,7 @@ nsIURI
 aURI
 )
 {
-nsCAutoString
+nsAutoCString
 leafName
 ;
 nsresult
@@ -697,7 +697,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 type
 ;
 parser
@@ -726,7 +726,7 @@ Link
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-nsCAutoString
+nsAutoCString
 url
 ;
 rv
@@ -922,7 +922,7 @@ defined
 (
 XP_OS2
 )
-nsCAutoString
+nsAutoCString
 buf
 ;
 if

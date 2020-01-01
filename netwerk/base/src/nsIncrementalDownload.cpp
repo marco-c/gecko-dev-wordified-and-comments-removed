@@ -1035,7 +1035,7 @@ int64_t
 )
 )
 {
-nsCAutoString
+nsAutoCString
 range
 ;
 MakeRangeSpec
@@ -1968,7 +1968,7 @@ code
 206
 )
 {
-nsCAutoString
+nsAutoCString
 buf
 ;
 rv
@@ -2752,7 +2752,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 rangeVal
 ;
 http

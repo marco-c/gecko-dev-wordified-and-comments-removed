@@ -886,7 +886,7 @@ gchar
 *
 argv
 ;
-nsCAutoString
+nsAutoCString
 command
 (
 handler
@@ -1000,7 +1000,7 @@ NS_GIOSERVICE_CONTRACTID
 bool
 enabled
 ;
-nsCAutoString
+nsAutoCString
 handler
 ;
 nsCOMPtr
@@ -1221,7 +1221,7 @@ if
 gconf
 )
 {
-nsCAutoString
+nsAutoCString
 appKeyValue
 ;
 if
@@ -1936,7 +1936,7 @@ container
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 options
 ;
 if
@@ -2016,7 +2016,7 @@ centered
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 filePath
 (
 PR_GetEnv
@@ -2403,7 +2403,7 @@ nsIGSettingsCollection
 >
 background_settings
 ;
-nsCAutoString
+nsAutoCString
 background
 ;
 if
@@ -2666,7 +2666,7 @@ bits
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 colorString
 ;
 ColorToCString
@@ -2777,7 +2777,7 @@ int32_t
 aApplication
 )
 {
-nsCAutoString
+nsAutoCString
 scheme
 ;
 if
@@ -2889,7 +2889,7 @@ NS_ERROR_FAILURE
 bool
 enabled
 ;
-nsCAutoString
+nsAutoCString
 appCommand
 ;
 gconf

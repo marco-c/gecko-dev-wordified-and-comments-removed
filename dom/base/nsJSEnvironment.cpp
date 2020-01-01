@@ -2234,7 +2234,7 @@ innerWindowID
 #
 ifdef
 DEBUG
-nsCAutoString
+nsAutoCString
 error
 ;
 error
@@ -2717,7 +2717,7 @@ n
 return
 ;
 }
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -2850,7 +2850,7 @@ n
 return
 ;
 }
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -9773,7 +9773,7 @@ p
 NS_ERROR_UNEXPECTED
 )
 ;
-nsCAutoString
+nsAutoCString
 data
 ;
 p

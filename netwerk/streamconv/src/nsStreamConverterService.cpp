@@ -341,7 +341,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 entryString
 ;
 rv
@@ -364,7 +364,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 contractID
 (
 NS_ISTREAMCONVERTER_KEY
@@ -431,7 +431,7 @@ aContractID
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 fromStr
 toStr
 ;
@@ -808,7 +808,7 @@ nsCString
 aToRes
 )
 {
-nsCAutoString
+nsAutoCString
 ContractIDStr
 (
 aContractID
@@ -870,7 +870,7 @@ toLoc
 +
 3
 ;
-nsCAutoString
+nsAutoCString
 fromStr
 toStr
 ;
@@ -1244,7 +1244,7 @@ problem
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 fromC
 toC
 ;
@@ -1762,7 +1762,7 @@ cur
 nullptr
 ;
 }
-nsCAutoString
+nsAutoCString
 fromStr
 toStr
 ;
@@ -1785,7 +1785,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 ContractIDPrefix
 (
 NS_ISTREAMCONVERTER_KEY
@@ -1931,7 +1931,7 @@ predecessorData
 )
 break
 ;
-nsCAutoString
+nsAutoCString
 newContractID
 (
 ContractIDPrefix
@@ -2076,7 +2076,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 contractID
 ;
 contractID
@@ -2251,7 +2251,7 @@ NS_ERROR_NULL_POINTER
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 contractID
 ;
 contractID
@@ -2470,7 +2470,7 @@ return
 rv
 ;
 }
-nsCAutoString
+nsAutoCString
 fromStr
 toStr
 ;
@@ -2628,7 +2628,7 @@ NS_ERROR_NULL_POINTER
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 contractID
 ;
 contractID
@@ -2844,7 +2844,7 @@ registered
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 fromStr
 toStr
 ;

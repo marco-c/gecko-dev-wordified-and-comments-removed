@@ -558,7 +558,7 @@ rv
 =
 NS_ERROR_FAILURE
 ;
-nsCAutoString
+nsAutoCString
 uri
 ;
 aURI

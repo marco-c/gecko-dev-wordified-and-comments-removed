@@ -87,7 +87,7 @@ element
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsresult
@@ -445,7 +445,7 @@ status
 )
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 req

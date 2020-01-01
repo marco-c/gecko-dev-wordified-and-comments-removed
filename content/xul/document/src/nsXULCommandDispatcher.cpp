@@ -1060,7 +1060,7 @@ PR_LOG_NOTICE
 )
 )
 {
-nsCAutoString
+nsAutoCString
 eventsC
 targetsC
 aeventsC
@@ -1210,7 +1210,7 @@ PR_LOG_NOTICE
 )
 )
 {
-nsCAutoString
+nsAutoCString
 aeventsC
 atargetsC
 ;
@@ -1369,7 +1369,7 @@ PR_LOG_NOTICE
 )
 )
 {
-nsCAutoString
+nsAutoCString
 eventsC
 targetsC
 ;
@@ -1725,7 +1725,7 @@ PR_LOG_NOTICE
 )
 )
 {
-nsCAutoString
+nsAutoCString
 aeventnameC
 ;
 CopyUTF16toUTF8

@@ -392,7 +392,7 @@ bundles
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 customStringsURLSpec
 ;
 rv
@@ -621,7 +621,7 @@ do_QueryInterface
 sup
 )
 ;
-nsCAutoString
+nsAutoCString
 key
 ;
 nsAutoString
@@ -711,7 +711,7 @@ nsAString
 aResult
 )
 {
-nsCAutoString
+nsAutoCString
 combinedURL
 (
 aURL
@@ -924,7 +924,7 @@ if
 mCurrent
 )
 {
-nsCAutoString
+nsAutoCString
 curKey
 ;
 mCurrent

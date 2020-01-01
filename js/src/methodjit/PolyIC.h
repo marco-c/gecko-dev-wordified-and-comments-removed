@@ -533,10 +533,7 @@ ExecPoolVector
 *
 execPools
 =
-OffTheBooks
-:
-:
-new_
+js_new
 <
 ExecPoolVector
 >
@@ -576,10 +573,7 @@ pool
 )
 )
 {
-Foreground
-:
-:
-delete_
+js_delete
 (
 execPools
 )
@@ -702,10 +696,7 @@ release
 (
 )
 ;
-Foreground
-:
-:
-delete_
+js_delete
 (
 execPools
 )

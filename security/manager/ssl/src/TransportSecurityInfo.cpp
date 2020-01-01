@@ -4276,7 +4276,7 @@ GetHostPortKey
 TransportSecurityInfo
 *
 infoObject
-nsCAutoString
+nsAutoCString
 &
 result
 )
@@ -4378,7 +4378,7 @@ certVerificationResult
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 hostPortKey
 ;
 rv
@@ -4515,7 +4515,7 @@ return
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 hostPortKey
 ;
 rv

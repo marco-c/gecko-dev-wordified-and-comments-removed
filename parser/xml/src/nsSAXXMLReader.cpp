@@ -2324,7 +2324,7 @@ charsetSource
 =
 kCharsetFromDocTypeDefault
 ;
-nsCAutoString
+nsAutoCString
 charset
 (
 NS_LITERAL_CSTRING
@@ -2415,7 +2415,7 @@ if
 aChannel
 )
 {
-nsCAutoString
+nsAutoCString
 charsetVal
 ;
 nsresult
@@ -2437,7 +2437,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 preferred
 ;
 if

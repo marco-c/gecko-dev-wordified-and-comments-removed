@@ -2241,7 +2241,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 contentType
 ;
 const

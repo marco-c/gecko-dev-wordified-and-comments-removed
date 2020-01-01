@@ -1130,7 +1130,7 @@ debug_DumpPaintEvent
 stdout
 this
 region
-nsCAutoString
+nsAutoCString
 (
 "
 noname

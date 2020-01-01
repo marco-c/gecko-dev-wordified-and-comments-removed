@@ -7577,7 +7577,7 @@ frameState
 return
 ;
 }
-nsCAutoString
+nsAutoCString
 stateKey
 ;
 nsIContent
@@ -7880,7 +7880,7 @@ content
 return
 ;
 }
-nsCAutoString
+nsAutoCString
 stateKey
 ;
 nsIDocument

@@ -148,7 +148,7 @@ mOriginalURI
 =
 uri
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 nsresult
@@ -195,7 +195,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 rv
@@ -598,7 +598,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsCAutoString
+nsAutoCString
 spec
 ;
 uri
@@ -613,7 +613,7 @@ return
 NS_NewURI
 (
 aURI
-nsCAutoString
+nsAutoCString
 (
 NS_LITERAL_CSTRING
 (
@@ -946,7 +946,7 @@ IsEmpty
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 contentType
 ;
 rv
@@ -2250,7 +2250,7 @@ Type
 "
 )
 ;
-nsCAutoString
+nsAutoCString
 contentType
 ;
 nsresult

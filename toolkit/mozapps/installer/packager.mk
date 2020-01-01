@@ -4835,6 +4835,8 @@ else
 SIGN_CMD
 =
 (
+strip
+(
 RUN_TEST_PROGRAM
 )
 (
@@ -4851,6 +4853,7 @@ BIN_SUFFIX
 v
 -
 i
+)
 endif
 endif
 SOFTOKN
@@ -5776,6 +5779,20 @@ CREATE_PRECOMPLETE_CMD
 )
 ifdef
 MOZ_SIGN_PREPARED_PACKAGE_CMD
+#
+The
+&
+&
+true
+is
+necessary
+to
+make
+sure
+Pymake
+spins
+a
+shell
 (
 MOZ_SIGN_PREPARED_PACKAGE_CMD
 )
@@ -5786,6 +5803,9 @@ DEPTH
 installer
 -
 stage
+&
+&
+true
 endif
 elfhack
 :

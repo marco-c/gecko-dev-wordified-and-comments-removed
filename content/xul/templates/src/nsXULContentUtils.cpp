@@ -982,7 +982,7 @@ if
 dateLiteral
 )
 {
-int64_t
+PRTime
 value
 ;
 rv
@@ -1019,10 +1019,7 @@ FormatPRTime
 nullptr
 kDateFormatShort
 kTimeFormatSeconds
-PRTime
-(
 value
-)
 str
 )
 ;
@@ -1291,7 +1288,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 ref
 ;
 NS_EscapeURL
@@ -1475,7 +1472,7 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoCString
 ref
 ;
 uri

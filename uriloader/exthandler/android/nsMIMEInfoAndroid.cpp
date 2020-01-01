@@ -238,7 +238,7 @@ bridge
 >
 GetHandlersForMimeType
 (
-nsCAutoString
+nsAutoCString
 (
 aMimeType
 )
@@ -265,7 +265,7 @@ mPrefApp
 =
 systemDefault
 ;
-nsCAutoString
+nsAutoCString
 fileExt
 ;
 bridge
@@ -504,7 +504,7 @@ bridge
 >
 GetHandlersForURL
 (
-nsCAutoString
+nsAutoCString
 (
 aURL
 )
@@ -531,10 +531,10 @@ mPrefApp
 =
 systemDefault
 ;
-nsCAutoString
+nsAutoCString
 fileExt
 ;
-nsCAutoString
+nsAutoCString
 mimeType
 ;
 mimeinfo
@@ -1392,7 +1392,7 @@ aMIMEInfo
 return
 NS_ERROR_NULL_POINTER
 ;
-nsCAutoString
+nsAutoCString
 type
 ;
 nsresult

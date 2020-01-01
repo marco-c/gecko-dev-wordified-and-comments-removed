@@ -458,7 +458,7 @@ MOZ_ASSERT
 mInitialized
 )
 ;
-nsCAutoString
+nsAutoCString
 type
 ;
 switch

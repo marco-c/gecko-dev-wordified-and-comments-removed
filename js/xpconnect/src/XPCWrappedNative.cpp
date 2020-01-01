@@ -2326,7 +2326,8 @@ cached
 {
 if
 (
-!
+NS_FAILED
+(
 XPCWrappedNative
 :
 :
@@ -2339,6 +2340,7 @@ cache
 getter_AddRefs
 (
 wrapper
+)
 )
 )
 )

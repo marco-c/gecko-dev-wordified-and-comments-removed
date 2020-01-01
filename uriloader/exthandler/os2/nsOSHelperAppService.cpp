@@ -1453,7 +1453,7 @@ netscapeFormat
 nsAutoString
 buf
 ;
-nsCAutoString
+nsAutoCString
 cBuf
 ;
 bool
@@ -2265,7 +2265,7 @@ netscapeFormat
 nsAutoString
 buf
 ;
-nsCAutoString
+nsAutoCString
 cBuf
 ;
 bool
@@ -4158,7 +4158,7 @@ nsString
 entry
 buffer
 ;
-nsCAutoString
+nsAutoCString
 cBuffer
 ;
 entry
@@ -4769,7 +4769,7 @@ test
 )
 )
 {
-nsCAutoString
+nsAutoCString
 testCommand
 ;
 rv
@@ -4978,7 +4978,7 @@ false
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 branchName
 =
 NS_LITERAL_CSTRING
@@ -4994,7 +4994,7 @@ nsDependentCString
 aProtocolScheme
 )
 ;
-nsCAutoString
+nsAutoCString
 prefName
 =
 branchName
@@ -5255,7 +5255,7 @@ return
 nullptr
 ;
 }
-nsCAutoString
+nsAutoCString
 mimeType
 (
 asciiMajorType
@@ -6245,10 +6245,10 @@ if
 exists
 )
 {
-nsCAutoString
+nsAutoCString
 extLower
 ;
-nsCAutoString
+nsAutoCString
 cstr
 ;
 ToLowerCase
@@ -6322,7 +6322,7 @@ IsEmpty
 )
 )
 {
-nsCAutoString
+nsAutoCString
 extUpper
 ;
 ToUpperCase
@@ -6474,7 +6474,7 @@ nsMIMEInfoOS2
 _retval
 )
 ;
-nsCAutoString
+nsAutoCString
 ext
 ;
 if
@@ -7154,7 +7154,7 @@ _retval
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 branchName
 =
 NS_LITERAL_CSTRING
@@ -7167,10 +7167,10 @@ applications
 +
 aScheme
 ;
-nsCAutoString
+nsAutoCString
 applicationName
 ;
-nsCAutoString
+nsAutoCString
 prefName
 =
 branchName

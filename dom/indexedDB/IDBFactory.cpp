@@ -2592,6 +2592,7 @@ IDBOpenDBRequest
 :
 Create
 (
+this
 window
 scriptOwner
 aCallingCx

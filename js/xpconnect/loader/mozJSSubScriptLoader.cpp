@@ -1085,10 +1085,10 @@ nsIURI
 >
 uri
 ;
-nsCAutoString
+nsAutoCString
 uriStr
 ;
-nsCAutoString
+nsAutoCString
 scheme
 ;
 JSScript
@@ -1295,7 +1295,7 @@ LOAD_ERROR_URI_NOT_LOCAL
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 tmp
 (
 JS_GetScriptFilename
@@ -1340,7 +1340,7 @@ JS_GetVersion
 cx
 )
 ;
-nsCAutoString
+nsAutoCString
 cachePath
 ;
 cachePath

@@ -3477,7 +3477,7 @@ Free
 outData
 )
 ;
-nsCAutoString
+nsAutoCString
 url
 ;
 ResolveShortcut
@@ -3588,7 +3588,7 @@ true
 }
 else
 {
-nsCAutoString
+nsAutoCString
 urlSpec
 ;
 NS_GetURLSpecFromFile

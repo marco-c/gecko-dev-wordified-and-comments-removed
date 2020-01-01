@@ -512,7 +512,7 @@ automon
 mReentrantMonitor
 )
 ;
-nsCAutoString
+nsAutoCString
 name
 ;
 name
@@ -1381,7 +1381,7 @@ rv
 )
 )
 {
-nsCAutoString
+nsAutoCString
 key
 ;
 propElement
@@ -1874,7 +1874,7 @@ rv
 )
 continue
 ;
-nsCAutoString
+nsAutoCString
 name
 ;
 rv

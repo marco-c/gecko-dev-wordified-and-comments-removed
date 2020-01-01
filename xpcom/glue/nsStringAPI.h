@@ -5981,7 +5981,7 @@ PromiseFlatCString
 ;
 typedef
 nsCString
-nsCAutoString
+nsAutoCString
 ;
 typedef
 nsString
@@ -6006,6 +6006,10 @@ nsCString
 &
 aArray
 )
+;
+typedef
+nsAutoCString
+nsCAutoString
 ;
 #
 endif

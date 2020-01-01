@@ -265,7 +265,7 @@ nsIDataType
 VTYPE_CSTRING
 :
 {
-nsCAutoString
+nsAutoCString
 value
 ;
 nsresult

@@ -4109,7 +4109,7 @@ rv
 mObserver
 )
 {
-nsCAutoString
+nsAutoCString
 spec
 ;
 aUri

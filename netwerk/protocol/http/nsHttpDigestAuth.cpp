@@ -249,7 +249,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 hashString
 ;
 rv
@@ -520,7 +520,7 @@ Truncate
 ref
 )
 ;
-nsCAutoString
+nsAutoCString
 buf
 ;
 path
@@ -568,7 +568,7 @@ bool
 result
 )
 {
-nsCAutoString
+nsAutoCString
 realm
 domain
 nonce
@@ -725,7 +725,7 @@ requireExtraQuotes
 false
 ;
 {
-nsCAutoString
+nsAutoCString
 serverVal
 ;
 authChannel
@@ -769,10 +769,10 @@ IIS
 nsresult
 rv
 ;
-nsCAutoString
+nsAutoCString
 httpMethod
 ;
-nsCAutoString
+nsAutoCString
 path
 ;
 rv
@@ -795,7 +795,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 realm
 domain
 nonce
@@ -1166,7 +1166,7 @@ nonce_count
 )
 )
 ;
-nsCAutoString
+nsAutoCString
 cnonce
 ;
 static
@@ -1322,7 +1322,7 @@ rv
 return
 rv
 ;
-nsCAutoString
+nsAutoCString
 authString
 ;
 authString
@@ -1764,7 +1764,7 @@ len
 4
 ;
 }
-nsCAutoString
+nsAutoCString
 contents
 ;
 contents
@@ -2166,7 +2166,7 @@ len
 exlen
 ;
 }
-nsCAutoString
+nsAutoCString
 contents
 ;
 contents
@@ -2409,7 +2409,7 @@ EXPANDED_DIGEST_LENGTH
 1
 ;
 }
-nsCAutoString
+nsAutoCString
 contents
 ;
 contents
@@ -3350,7 +3350,7 @@ nsACString
 aHeaderLine
 )
 {
-nsCAutoString
+nsAutoCString
 quoted
 ;
 nsACString

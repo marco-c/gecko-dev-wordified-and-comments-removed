@@ -1621,7 +1621,7 @@ nsIntRect
 *
 aRect
 const
-nsCAutoString
+nsAutoCString
 &
 aWidgetName
 int32_t
@@ -1642,7 +1642,7 @@ nsGUIEvent
 *
 aGuiEvent
 const
-nsCAutoString
+nsAutoCString
 &
 aWidgetName
 int32_t
@@ -1664,7 +1664,7 @@ nsIntRegion
 &
 aPaintEvent
 const
-nsCAutoString
+nsAutoCString
 &
 aWidgetName
 int32_t

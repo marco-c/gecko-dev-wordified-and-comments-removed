@@ -1195,7 +1195,7 @@ AsInt64
 int64_t
 pageId
 ;
-nsCAutoString
+nsAutoCString
 guid
 ;
 rv
@@ -1428,7 +1428,7 @@ nsACString
 aGUID
 )
 {
-nsCAutoString
+nsAutoCString
 faviconSpec
 ;
 nsNavHistory
@@ -2862,7 +2862,7 @@ return
 rv
 ;
 }
-nsCAutoString
+nsAutoCString
 mimeType
 ;
 rv
@@ -3203,7 +3203,7 @@ return
 rv
 ;
 }
-nsCAutoString
+nsAutoCString
 mimeType
 ;
 rv
@@ -3338,7 +3338,7 @@ if
 isDefaultFavicon
 )
 {
-nsCAutoString
+nsAutoCString
 defaultData
 ;
 rv
@@ -3665,7 +3665,7 @@ data
 uint32_t
 dataLen
 ;
-nsCAutoString
+nsAutoCString
 mimeType
 ;
 nsresult
@@ -3926,7 +3926,7 @@ hasResult
 hasResult
 )
 {
-nsCAutoString
+nsAutoCString
 url
 ;
 rv
@@ -4227,7 +4227,7 @@ dataLen
 0
 )
 {
-nsCAutoString
+nsAutoCString
 favIconUri
 ;
 rv
@@ -4288,7 +4288,7 @@ NS_ENSURE_ARG_POINTER
 aOutputURI
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 if
@@ -4382,7 +4382,7 @@ NS_ENSURE_ARG
 aFaviconURI
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsresult
@@ -4464,7 +4464,7 @@ NS_ENSURE_ARG
 aFaviconURI
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsresult
@@ -4514,7 +4514,7 @@ NS_ENSURE_ARG
 aFaviconURI
 )
 ;
-nsCAutoString
+nsAutoCString
 spec
 ;
 nsresult
@@ -4639,7 +4639,7 @@ aSpec
 )
 ;
 }
-nsCAutoString
+nsAutoCString
 annoUri
 ;
 annoUri
