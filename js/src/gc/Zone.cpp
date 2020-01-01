@@ -797,7 +797,9 @@ hasBaselineScript
 script
 -
 >
-baseline
+baselineScript
+(
+)
 -
 >
 active

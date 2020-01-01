@@ -248,7 +248,9 @@ script
 )
 -
 >
-ion
+ionScript
+(
+)
 ;
 snapshotOffset_
 =

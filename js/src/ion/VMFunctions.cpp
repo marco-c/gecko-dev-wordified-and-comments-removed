@@ -392,7 +392,9 @@ hasIonScript
 script
 -
 >
-ion
+ionScript
+(
+)
 -
 >
 slowCallCount
@@ -3260,9 +3262,11 @@ RootedScript
 script
 (
 cx
-GetTopIonJSScript
+frame
+-
+>
+script
 (
-cx
 )
 )
 ;
@@ -3273,7 +3277,9 @@ pc
 script
 -
 >
-baseline
+baselineScript
+(
+)
 -
 >
 icEntryFromReturnAddress

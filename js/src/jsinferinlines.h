@@ -667,7 +667,9 @@ this
 script
 -
 >
-ion
+ionScript
+(
+)
 -
 >
 recompileInfo

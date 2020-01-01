@@ -365,7 +365,9 @@ script
 )
 -
 >
-ion
+ionScript
+(
+)
 ;
 if
 (
