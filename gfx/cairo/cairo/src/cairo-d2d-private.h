@@ -102,7 +102,7 @@ maskLayer
 ;
 ID2D1Layer
 *
-tilingLayer
+helperLayer
 ;
 bool
 clipping
