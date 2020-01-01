@@ -4043,13 +4043,14 @@ aIsSelected
 )
 ;
 }
-PRBool
+bool
 nsXULTreeGridCellAccessible
 :
 :
 IsDefunct
 (
 )
+const
 {
 return
 nsLeafAccessible

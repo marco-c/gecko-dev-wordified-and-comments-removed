@@ -351,10 +351,11 @@ aIndex
 ;
 NS_DECL_NSIACCESSIBLEAPPLICATION
 virtual
-PRBool
+bool
 IsDefunct
 (
 )
+const
 ;
 virtual
 PRBool

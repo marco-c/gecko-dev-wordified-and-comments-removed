@@ -1001,13 +1001,14 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsApplicationAccessible
 :
 :
 IsDefunct
 (
 )
+const
 {
 return
 nsAccessibilityService

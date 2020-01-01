@@ -2601,13 +2601,14 @@ return
 root
 ;
 }
-PRBool
+bool
 nsDocAccessible
 :
 :
 IsDefunct
 (
 )
+const
 {
 return
 nsHyperTextAccessibleWrap

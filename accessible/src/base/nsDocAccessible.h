@@ -285,10 +285,11 @@ GetFrame
 const
 ;
 virtual
-PRBool
+bool
 IsDefunct
 (
 )
+const
 ;
 virtual
 nsINode

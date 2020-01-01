@@ -326,10 +326,11 @@ aIndex
 ;
 NS_DECL_NSIACCESSIBLETABLECELL
 virtual
-PRBool
+bool
 IsDefunct
 (
 )
+const
 ;
 virtual
 PRBool
