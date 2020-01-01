@@ -994,6 +994,12 @@ js
 \
 tabview
 /
+browser_tabview_group
+.
+js
+\
+tabview
+/
 browser_tabview_launch
 .
 js

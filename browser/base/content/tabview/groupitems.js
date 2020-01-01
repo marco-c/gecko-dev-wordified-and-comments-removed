@@ -2369,6 +2369,13 @@ removeAll
 (
 )
 ;
+GroupItems
+.
+unregister
+(
+this
+)
+;
 this
 .
 _sendToSubscribers
@@ -2376,13 +2383,6 @@ _sendToSubscribers
 "
 close
 "
-)
-;
-GroupItems
-.
-unregister
-(
-this
 )
 ;
 this
@@ -2992,7 +2992,7 @@ addSubscriber
 (
 this
 "
-close
+beforeclose
 "
 function
 (
@@ -3282,7 +3282,7 @@ removeSubscriber
 (
 this
 "
-close
+beforeclose
 "
 )
 ;
