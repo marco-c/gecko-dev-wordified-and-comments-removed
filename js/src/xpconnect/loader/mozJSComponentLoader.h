@@ -265,6 +265,10 @@ xpcIJSModuleLoader
 public
 nsIObserver
 {
+friend
+class
+JSCLContextHelper
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -411,6 +415,12 @@ nsCOMPtr
 nsIJSRuntimeService
 >
 mRuntimeService
+;
+nsCOMPtr
+<
+nsIThreadJSContextStack
+>
+mContextStack
 ;
 nsCOMPtr
 <
