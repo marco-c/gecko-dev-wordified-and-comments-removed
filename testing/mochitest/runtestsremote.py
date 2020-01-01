@@ -3935,12 +3935,19 @@ def
 printDeviceInfo
 (
 self
+printLogcat
+=
+False
 )
 :
         
 try
 :
             
+if
+printLogcat
+:
+                
 logcat
 =
 self
@@ -3953,7 +3960,7 @@ filterOutRegexps
 =
 fennecLogcatFilters
 )
-            
+                
 print
 '
 '
@@ -3964,11 +3971,36 @@ logcat
 )
             
 print
+"
+Device
+info
+:
+%
+s
+"
+%
 self
 .
 _dm
 .
 getInfo
+(
+)
+            
+print
+"
+Test
+root
+:
+%
+s
+"
+%
+self
+.
+_dm
+.
+getDeviceRoot
 (
 )
         
@@ -4634,10 +4666,9 @@ options
 sslPort
 )
     
-print
-dm
+mochitest
 .
-getInfo
+printDeviceInfo
 (
 )
     
@@ -5713,6 +5744,9 @@ mochitest
 .
 printDeviceInfo
 (
+printLogcat
+=
+True
 )
                     
 mochitest
@@ -6102,6 +6136,9 @@ mochitest
 .
 printDeviceInfo
 (
+printLogcat
+=
+True
 )
     
 sys
