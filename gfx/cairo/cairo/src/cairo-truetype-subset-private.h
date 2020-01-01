@@ -11,6 +11,7 @@ cairoint
 .
 h
 "
+CAIRO_BEGIN_DECLS
 #
 if
 CAIRO_HAS_FONT_SUBSET
@@ -644,5 +645,6 @@ tt_glyph_data_t
 ;
 #
 endif
+CAIRO_END_DECLS
 #
 endif
