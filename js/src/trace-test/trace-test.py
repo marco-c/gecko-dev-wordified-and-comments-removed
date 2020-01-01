@@ -234,6 +234,7 @@ path
 slow
 allow_oom
 tmflags
+error
 valgrind
 )
 :
@@ -306,6 +307,12 @@ tmflags
         
 self
 .
+error
+=
+error
+        
+self
+.
 valgrind
 =
 valgrind
@@ -339,6 +346,8 @@ valgrind
 =
 False
         
+error
+=
 tmflags
 =
 '
@@ -467,6 +476,19 @@ tmflags
 =
 value
                     
+elif
+name
+=
+=
+'
+error
+'
+:
+                        
+error
+=
+value
+                    
 else
 :
                         
@@ -564,6 +586,7 @@ path
 slow
 allow_oom
 tmflags
+error
 valgrind
 or
 options
@@ -1084,7 +1107,11 @@ returncode
 test
 .
 allow_oom
+test
+.
+error
 )
+            
 out
 err
 )
@@ -1095,8 +1122,18 @@ out
 err
 rc
 allow_oom
+expectedError
 )
 :
+    
+if
+expectedError
+:
+        
+return
+expectedError
+in
+err
     
 for
 line
