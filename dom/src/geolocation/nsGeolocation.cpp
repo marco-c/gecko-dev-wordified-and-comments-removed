@@ -2809,6 +2809,9 @@ AddLocator
 this
 )
 ;
+return
+NS_OK
+;
 }
 void
 nsGeolocation
