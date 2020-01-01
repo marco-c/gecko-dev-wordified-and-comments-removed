@@ -210,6 +210,14 @@ gcHeapChunkTotal
 (
 0
 )
+gcHeapCommitted
+(
+0
+)
+gcHeapUnused
+(
+0
+)
 gcHeapChunkCleanUnused
 (
 0
@@ -234,7 +242,7 @@ gcHeapChunkAdmin
 (
 0
 )
-gcHeapUnusedPercentage
+gcHeapFragmentationPercentage
 (
 0
 )
@@ -312,6 +320,12 @@ size_t
 gcHeapChunkTotal
 ;
 size_t
+gcHeapCommitted
+;
+size_t
+gcHeapUnused
+;
+size_t
 gcHeapChunkCleanUnused
 ;
 size_t
@@ -330,7 +344,7 @@ size_t
 gcHeapChunkAdmin
 ;
 size_t
-gcHeapUnusedPercentage
+gcHeapFragmentationPercentage
 ;
 size_t
 totalObjects
