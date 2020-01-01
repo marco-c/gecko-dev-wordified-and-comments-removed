@@ -439,6 +439,10 @@ mk
 _TEST_FILES
 =
 \
+helpers
+.
+js
+\
 test_property_on_window
 .
 html
@@ -472,6 +476,10 @@ test_objectStore_remove_values
 html
 \
 test_event_source
+.
+html
+\
+test_objectStore_inline_autoincrement_key_added_on_put
 .
 html
 \
