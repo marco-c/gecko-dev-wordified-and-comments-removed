@@ -385,6 +385,8 @@ SeekInBufferedRange
 PRInt64
 aTarget
 PRInt64
+aAdjustedTarget
+PRInt64
 aStartTime
 PRInt64
 aEndTime
