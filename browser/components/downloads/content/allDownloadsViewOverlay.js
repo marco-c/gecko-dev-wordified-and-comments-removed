@@ -4090,8 +4090,6 @@ if
 (
 elt
 .
-_shell
-.
 placesNode
 )
 placesNodes
@@ -4099,8 +4097,6 @@ placesNodes
 push
 (
 elt
-.
-_shell
 .
 placesNode
 )

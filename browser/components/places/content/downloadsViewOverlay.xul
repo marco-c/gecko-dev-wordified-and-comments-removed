@@ -183,11 +183,6 @@ downloadsRichListBox
 "
 )
 )
-{
-showDetailsPane
-:
-false
-}
 )
 ;
 ]
