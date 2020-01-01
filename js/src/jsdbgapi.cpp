@@ -6336,7 +6336,7 @@ static
 void
 #
 ifdef
-_GNU_SOURCE
+__GNUC__
 __attribute__
 (
 (
