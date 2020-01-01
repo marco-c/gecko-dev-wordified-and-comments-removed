@@ -152,7 +152,7 @@ if
 context
 )
 return
-NULL
+nullptr
 ;
 context
 -

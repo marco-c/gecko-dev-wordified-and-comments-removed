@@ -1033,7 +1033,7 @@ JNIEnv
 *
 env
 =
-NULL
+nullptr
 bool
 resetting
 =
@@ -2321,7 +2321,7 @@ mJNIEnv
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 Push
@@ -2402,7 +2402,7 @@ mJNIEnv
 >
 PopLocalFrame
 (
-NULL
+nullptr
 )
 ;
 }

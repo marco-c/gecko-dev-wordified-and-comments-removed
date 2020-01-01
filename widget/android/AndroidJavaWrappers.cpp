@@ -22,7 +22,7 @@ AndroidGeckoEvent
 :
 jGeckoEventClass
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -30,7 +30,7 @@ AndroidGeckoEvent
 :
 jActionField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -38,7 +38,7 @@ AndroidGeckoEvent
 :
 jTypeField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -46,7 +46,7 @@ AndroidGeckoEvent
 :
 jTimeField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -54,7 +54,7 @@ AndroidGeckoEvent
 :
 jPoints
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -62,7 +62,7 @@ AndroidGeckoEvent
 :
 jPointIndicies
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -70,7 +70,7 @@ AndroidGeckoEvent
 :
 jPressures
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -78,7 +78,7 @@ AndroidGeckoEvent
 :
 jPointRadii
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -86,7 +86,7 @@ AndroidGeckoEvent
 :
 jOrientations
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -94,7 +94,7 @@ AndroidGeckoEvent
 :
 jXField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -102,7 +102,7 @@ AndroidGeckoEvent
 :
 jYField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -110,7 +110,7 @@ AndroidGeckoEvent
 :
 jZField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -118,7 +118,7 @@ AndroidGeckoEvent
 :
 jDistanceField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -126,7 +126,7 @@ AndroidGeckoEvent
 :
 jRectField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -134,7 +134,7 @@ AndroidGeckoEvent
 :
 jNativeWindowField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -142,7 +142,7 @@ AndroidGeckoEvent
 :
 jCharactersField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -150,7 +150,7 @@ AndroidGeckoEvent
 :
 jCharactersExtraField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -158,7 +158,7 @@ AndroidGeckoEvent
 :
 jKeyCodeField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -166,7 +166,7 @@ AndroidGeckoEvent
 :
 jMetaStateField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -174,7 +174,7 @@ AndroidGeckoEvent
 :
 jFlagsField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -182,7 +182,7 @@ AndroidGeckoEvent
 :
 jUnicodeCharField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -190,7 +190,7 @@ AndroidGeckoEvent
 :
 jRepeatCountField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -198,7 +198,7 @@ AndroidGeckoEvent
 :
 jOffsetField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -206,7 +206,7 @@ AndroidGeckoEvent
 :
 jCountField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -214,7 +214,7 @@ AndroidGeckoEvent
 :
 jPointerIndexField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -222,7 +222,7 @@ AndroidGeckoEvent
 :
 jRangeTypeField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -230,7 +230,7 @@ AndroidGeckoEvent
 :
 jRangeStylesField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -238,7 +238,7 @@ AndroidGeckoEvent
 :
 jRangeForeColorField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -246,7 +246,7 @@ AndroidGeckoEvent
 :
 jRangeBackColorField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -254,7 +254,7 @@ AndroidGeckoEvent
 :
 jLocationField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -262,7 +262,7 @@ AndroidGeckoEvent
 :
 jBandwidthField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -270,7 +270,7 @@ AndroidGeckoEvent
 :
 jCanBeMeteredField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -278,7 +278,7 @@ AndroidGeckoEvent
 :
 jScreenOrientationField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidGeckoEvent
@@ -286,7 +286,7 @@ AndroidGeckoEvent
 :
 jByteBufferField
 =
-0
+nullptr
 ;
 jclass
 AndroidPoint
@@ -294,7 +294,7 @@ AndroidPoint
 :
 jPointClass
 =
-0
+nullptr
 ;
 jfieldID
 AndroidPoint
@@ -302,7 +302,7 @@ AndroidPoint
 :
 jXField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidPoint
@@ -310,7 +310,7 @@ AndroidPoint
 :
 jYField
 =
-0
+nullptr
 ;
 jclass
 AndroidRect
@@ -318,7 +318,7 @@ AndroidRect
 :
 jRectClass
 =
-0
+nullptr
 ;
 jfieldID
 AndroidRect
@@ -326,7 +326,7 @@ AndroidRect
 :
 jBottomField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidRect
@@ -334,7 +334,7 @@ AndroidRect
 :
 jLeftField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidRect
@@ -342,7 +342,7 @@ AndroidRect
 :
 jRightField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidRect
@@ -350,7 +350,7 @@ AndroidRect
 :
 jTopField
 =
-0
+nullptr
 ;
 jclass
 AndroidLocation
@@ -358,7 +358,7 @@ AndroidLocation
 :
 jLocationClass
 =
-0
+nullptr
 ;
 jmethodID
 AndroidLocation
@@ -366,7 +366,7 @@ AndroidLocation
 :
 jGetLatitudeMethod
 =
-0
+nullptr
 ;
 jmethodID
 AndroidLocation
@@ -374,7 +374,7 @@ AndroidLocation
 :
 jGetLongitudeMethod
 =
-0
+nullptr
 ;
 jmethodID
 AndroidLocation
@@ -382,7 +382,7 @@ AndroidLocation
 :
 jGetAltitudeMethod
 =
-0
+nullptr
 ;
 jmethodID
 AndroidLocation
@@ -390,7 +390,7 @@ AndroidLocation
 :
 jGetAccuracyMethod
 =
-0
+nullptr
 ;
 jmethodID
 AndroidLocation
@@ -398,7 +398,7 @@ AndroidLocation
 :
 jGetBearingMethod
 =
-0
+nullptr
 ;
 jmethodID
 AndroidLocation
@@ -406,7 +406,7 @@ AndroidLocation
 :
 jGetSpeedMethod
 =
-0
+nullptr
 ;
 jmethodID
 AndroidLocation
@@ -414,7 +414,7 @@ AndroidLocation
 :
 jGetTimeMethod
 =
-0
+nullptr
 ;
 jclass
 AndroidGeckoLayerClient
@@ -422,7 +422,7 @@ AndroidGeckoLayerClient
 :
 jGeckoLayerClientClass
 =
-0
+nullptr
 ;
 jmethodID
 AndroidGeckoLayerClient
@@ -430,7 +430,7 @@ AndroidGeckoLayerClient
 :
 jSetFirstPaintViewport
 =
-0
+nullptr
 ;
 jmethodID
 AndroidGeckoLayerClient
@@ -438,7 +438,7 @@ AndroidGeckoLayerClient
 :
 jSetPageRect
 =
-0
+nullptr
 ;
 jmethodID
 AndroidGeckoLayerClient
@@ -446,7 +446,7 @@ AndroidGeckoLayerClient
 :
 jSyncViewportInfoMethod
 =
-0
+nullptr
 ;
 jmethodID
 AndroidGeckoLayerClient
@@ -454,7 +454,7 @@ AndroidGeckoLayerClient
 :
 jCreateFrameMethod
 =
-0
+nullptr
 ;
 jmethodID
 AndroidGeckoLayerClient
@@ -462,7 +462,7 @@ AndroidGeckoLayerClient
 :
 jActivateProgramMethod
 =
-0
+nullptr
 ;
 jmethodID
 AndroidGeckoLayerClient
@@ -470,7 +470,7 @@ AndroidGeckoLayerClient
 :
 jDeactivateProgramMethod
 =
-0
+nullptr
 ;
 jclass
 AndroidLayerRendererFrame
@@ -478,7 +478,7 @@ AndroidLayerRendererFrame
 :
 jLayerRendererFrameClass
 =
-0
+nullptr
 ;
 jmethodID
 AndroidLayerRendererFrame
@@ -486,7 +486,7 @@ AndroidLayerRendererFrame
 :
 jBeginDrawingMethod
 =
-0
+nullptr
 ;
 jmethodID
 AndroidLayerRendererFrame
@@ -494,7 +494,7 @@ AndroidLayerRendererFrame
 :
 jDrawBackgroundMethod
 =
-0
+nullptr
 ;
 jmethodID
 AndroidLayerRendererFrame
@@ -502,7 +502,7 @@ AndroidLayerRendererFrame
 :
 jDrawForegroundMethod
 =
-0
+nullptr
 ;
 jmethodID
 AndroidLayerRendererFrame
@@ -510,7 +510,7 @@ AndroidLayerRendererFrame
 :
 jEndDrawingMethod
 =
-0
+nullptr
 ;
 jclass
 AndroidViewTransform
@@ -518,7 +518,7 @@ AndroidViewTransform
 :
 jViewTransformClass
 =
-0
+nullptr
 ;
 jfieldID
 AndroidViewTransform
@@ -526,7 +526,7 @@ AndroidViewTransform
 :
 jXField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidViewTransform
@@ -534,7 +534,7 @@ AndroidViewTransform
 :
 jYField
 =
-0
+nullptr
 ;
 jfieldID
 AndroidViewTransform
@@ -542,7 +542,7 @@ AndroidViewTransform
 :
 jScaleField
 =
-0
+nullptr
 ;
 jclass
 AndroidGeckoSurfaceView
@@ -550,7 +550,7 @@ AndroidGeckoSurfaceView
 :
 jGeckoSurfaceViewClass
 =
-0
+nullptr
 ;
 jmethodID
 AndroidGeckoSurfaceView
@@ -558,7 +558,7 @@ AndroidGeckoSurfaceView
 :
 jBeginDrawingMethod
 =
-0
+nullptr
 ;
 jmethodID
 AndroidGeckoSurfaceView
@@ -566,7 +566,7 @@ AndroidGeckoSurfaceView
 :
 jEndDrawingMethod
 =
-0
+nullptr
 ;
 jmethodID
 AndroidGeckoSurfaceView
@@ -574,7 +574,7 @@ AndroidGeckoSurfaceView
 :
 jDraw2DBitmapMethod
 =
-0
+nullptr
 ;
 jmethodID
 AndroidGeckoSurfaceView
@@ -582,7 +582,7 @@ AndroidGeckoSurfaceView
 :
 jDraw2DBufferMethod
 =
-0
+nullptr
 ;
 jmethodID
 AndroidGeckoSurfaceView
@@ -590,7 +590,7 @@ AndroidGeckoSurfaceView
 :
 jGetSoftwareDrawBitmapMethod
 =
-0
+nullptr
 ;
 jmethodID
 AndroidGeckoSurfaceView
@@ -598,7 +598,7 @@ AndroidGeckoSurfaceView
 :
 jGetSoftwareDrawBufferMethod
 =
-0
+nullptr
 ;
 jmethodID
 AndroidGeckoSurfaceView
@@ -606,7 +606,7 @@ AndroidGeckoSurfaceView
 :
 jGetSurfaceMethod
 =
-0
+nullptr
 ;
 jmethodID
 AndroidGeckoSurfaceView
@@ -614,7 +614,7 @@ AndroidGeckoSurfaceView
 :
 jGetHolderMethod
 =
-0
+nullptr
 ;
 static
 jclass
@@ -736,7 +736,7 @@ classLocalRef
 ;
 classLocalRef
 =
-NULL
+nullptr
 ;
 return
 static_cast
@@ -1033,7 +1033,7 @@ mObject
 ;
 mObject
 =
-NULL
+nullptr
 ;
 }
 void
@@ -1905,7 +1905,7 @@ CheckForException
 )
 )
 return
-NULL
+nullptr
 ;
 double
 longitude
@@ -1928,7 +1928,7 @@ CheckForException
 )
 )
 return
-NULL
+nullptr
 ;
 double
 altitude
@@ -1951,7 +1951,7 @@ CheckForException
 )
 )
 return
-NULL
+nullptr
 ;
 float
 accuracy
@@ -1974,7 +1974,7 @@ CheckForException
 )
 )
 return
-NULL
+nullptr
 ;
 float
 bearing
@@ -1997,7 +1997,7 @@ CheckForException
 )
 )
 return
-NULL
+nullptr
 ;
 float
 speed
@@ -2020,7 +2020,7 @@ CheckForException
 )
 )
 return
-NULL
+nullptr
 ;
 long
 long
@@ -2044,7 +2044,7 @@ CheckForException
 )
 )
 return
-NULL
+nullptr
 ;
 return
 new
@@ -3988,7 +3988,7 @@ wrapped_obj
 ;
 wrapped_obj
 =
-0
+nullptr
 ;
 }
 void
@@ -5596,7 +5596,7 @@ jni
 GetStringChars
 (
 jstr
-NULL
+nullptr
 )
 ;
 if
