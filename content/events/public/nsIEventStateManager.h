@@ -710,13 +710,4 @@ NS_EVENT_STATE_FOCUSRING
 29
 )
 #
-define
-NS_EVENT_STATE_MOZ_PLACEHOLDER
-(
-1
-<
-<
-30
-)
-#
 endif
