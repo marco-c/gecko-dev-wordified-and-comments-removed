@@ -917,6 +917,7 @@ ans
 def
 get_test_cmd
 (
+js
 path
 jitflags
 lib_dir
@@ -1014,7 +1015,7 @@ scriptdir_var
 return
 (
 [
-JS
+js
 ]
 +
 list
@@ -1648,6 +1649,9 @@ cmd
 =
 get_test_cmd
 (
+options
+.
+js_shell
 test
 .
 path
@@ -2172,16 +2176,8 @@ lib_dir
 shell_args
 resultQueue
 options
-js
 )
 :
-    
-global
-JS
-    
-JS
-=
-js
     
 signal
 .
@@ -2279,7 +2275,6 @@ len
 tests
 )
 options
-JS
 lib_dir
 shell_args
 )
@@ -2431,7 +2426,6 @@ lib_dir
 shell_args
 async_test_result_queue
 options
-JS
 )
 )
                 
@@ -2601,7 +2595,6 @@ return_queue
 notify_queue
 num_tests
 options
-js
 lib_dir
 shell_args
 )
@@ -2622,7 +2615,6 @@ process_test_results
 gen
 num_tests
 options
-js
 lib_dir
 shell_args
 )
@@ -2850,6 +2842,9 @@ list2cmdline
 (
 get_test_cmd
 (
+options
+.
+js_shell
 test
 .
 path
@@ -2987,7 +2982,6 @@ process_test_results
 results
 num_tests
 options
-js
 lib_dir
 shell_args
 )
@@ -3449,7 +3443,6 @@ len
 tests
 )
 options
-JS
 lib_dir
 shell_args
 )
@@ -3588,18 +3581,12 @@ return
 platform_might_be_android
 (
 )
-JS
-=
-None
 def
 main
 (
 argv
 )
 :
-    
-global
-JS
     
 script_path
 =
@@ -4588,7 +4575,9 @@ argument
 '
 )
     
-JS
+options
+.
+js_shell
 test_args
 =
 os
@@ -5336,6 +5325,9 @@ args
 +
 get_test_cmd
 (
+options
+.
+js_shell
 tc
 .
 path
@@ -5423,12 +5415,18 @@ path
 .
 exists
 (
-JS
+options
+.
+js_shell
 )
 :
             
 print
-(
+>
+>
+sys
+.
+stderr
 "
 JS
 shell
@@ -5445,13 +5443,9 @@ s
 '
 "
 %
-JS
-file
-=
-sys
+options
 .
-stderr
-)
+js_shell
             
 sys
 .
