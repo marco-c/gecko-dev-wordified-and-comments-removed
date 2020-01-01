@@ -2678,9 +2678,6 @@ isComplex
 &
 &
 (
-aParams
--
->
 mFlags
 &
 TEXT_IS_ASCII
