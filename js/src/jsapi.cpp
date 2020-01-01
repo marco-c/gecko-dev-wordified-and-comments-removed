@@ -27232,6 +27232,13 @@ if
 !
 defined
 (
+STATIC_EXPORTABLE_JS_API
+)
+&
+&
+!
+defined
+(
 STATIC_JS_API
 )
 &
