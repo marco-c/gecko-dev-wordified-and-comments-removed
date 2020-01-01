@@ -3528,7 +3528,6 @@ void
 aData
 )
 ;
-virtual
 bool
 IsElementDisabledForEvents
 (
