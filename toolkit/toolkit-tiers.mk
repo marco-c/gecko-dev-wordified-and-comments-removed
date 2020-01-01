@@ -1125,3 +1125,12 @@ testing
 /
 mochitest
 endif
+ifdef
+MOZ_TREE_FREETYPE
+tier_external_dirs
++
+=
+modules
+/
+freetype2
+endif
