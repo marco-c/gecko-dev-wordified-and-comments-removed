@@ -801,7 +801,7 @@ the
 args
 see
 *
-nsIMemoryReporterManager
+MemoryInfoDumper
 :
 :
 dumpMemoryReportsToFile
@@ -842,7 +842,7 @@ the
 args
 see
 *
-nsIMemoryReporterManager
+MemoryInfoDumper
 :
 :
 dumpGCAndCCLogsToFile

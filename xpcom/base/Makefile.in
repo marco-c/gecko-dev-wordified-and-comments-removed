@@ -198,6 +198,10 @@ nsGZFileWriter
 .
 cpp
 \
+MemoryInfoDumper
+.
+cpp
+\
 (
 NULL
 )
@@ -294,6 +298,10 @@ EXPORTS_mozilla
 =
 \
 MapsMemoryReporter
+.
+h
+\
+MemoryInfoDumper
 .
 h
 \
