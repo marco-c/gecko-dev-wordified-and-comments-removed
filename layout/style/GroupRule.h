@@ -91,6 +91,15 @@ Release
 )
 ;
 DECL_STYLE_RULE_INHERIT_NO_DOMRULE
+virtual
+void
+SetStyleSheet
+(
+nsCSSStyleSheet
+*
+aSheet
+)
+;
 #
 ifdef
 DEBUG

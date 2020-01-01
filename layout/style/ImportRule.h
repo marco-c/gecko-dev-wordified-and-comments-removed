@@ -76,6 +76,17 @@ NS_DECL_ISUPPORTS
 DECL_STYLE_RULE_INHERIT
 #
 ifdef
+HAVE_CPP_AMBIGUITY_RESOLVING_USING
+using
+nsCSSRule
+:
+:
+GetStyleSheet
+;
+#
+endif
+#
+ifdef
 DEBUG
 virtual
 void
