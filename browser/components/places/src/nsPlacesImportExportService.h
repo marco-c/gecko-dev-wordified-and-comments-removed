@@ -151,7 +151,8 @@ aIsImportDefaults
 nsresult
 WriteContainer
 (
-PRInt64
+nsINavHistoryResultNode
+*
 aFolder
 const
 nsACString
@@ -165,7 +166,8 @@ aOutput
 nsresult
 WriteContainerHeader
 (
-PRInt64
+nsINavHistoryResultNode
+*
 aFolder
 const
 nsACString
@@ -177,10 +179,11 @@ aOutput
 )
 ;
 nsresult
-WriteContainerTitle
+WriteTitle
 (
-PRInt64
-aFolder
+nsINavHistoryResultNode
+*
+aItem
 nsIOutputStream
 *
 aOutput
@@ -204,8 +207,9 @@ aOutput
 nsresult
 WriteLivemark
 (
-PRInt64
-aFolderId
+nsINavHistoryResultNode
+*
+aFolder
 const
 nsACString
 &
@@ -218,7 +222,8 @@ aOutput
 nsresult
 WriteContainerContents
 (
-PRInt64
+nsINavHistoryResultNode
+*
 aFolder
 const
 nsACString
