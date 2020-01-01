@@ -2762,7 +2762,8 @@ frame
 .
 assertValidState
 (
-pc
+*
+info
 )
 ;
 masm
