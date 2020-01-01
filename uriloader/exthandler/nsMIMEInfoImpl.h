@@ -405,9 +405,10 @@ LaunchWithIProcess
 nsIFile
 *
 aApp
-nsIFile
-*
-aFile
+const
+nsCString
+&
+aArg
 )
 ;
 static
