@@ -1093,6 +1093,10 @@ else
 #
 Not
 Windows
+MODULE_OPTIMIZE_FLAGS
+=
+-
+O2
 ifeq
 (
 (
