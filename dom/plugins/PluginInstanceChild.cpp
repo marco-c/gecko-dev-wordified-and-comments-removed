@@ -1109,8 +1109,11 @@ AssertPluginThread
 #
 ifdef
 OS_LINUX
-NPBool
+unsigned
+long
 needsXEmbed
+=
+0
 ;
 *
 rv
