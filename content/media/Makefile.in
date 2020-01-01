@@ -101,6 +101,10 @@ AbstractMediaDecoder
 .
 h
 \
+AudioChannelFormat
+.
+h
+\
 AudioSampleFormat
 .
 h
@@ -198,6 +202,10 @@ NULL
 )
 CPPSRCS
 =
+\
+AudioChannelFormat
+.
+cpp
 \
 AudioSegment
 .
