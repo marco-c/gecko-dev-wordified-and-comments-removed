@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsPromptservice
+.
+h
+"
+#
+include
+"
 nsWWJSUtils
 .
 h
