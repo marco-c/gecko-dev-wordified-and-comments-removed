@@ -9250,9 +9250,8 @@ return
 k
 ;
 }
-static
 JSBool
-str_split
+js_str_split
 (
 JSContext
 *
@@ -11557,7 +11556,7 @@ JS_FN
 "
 split
 "
-str_split
+js_str_split
 2
 GENERIC_PRIMITIVE
 )
