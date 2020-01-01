@@ -113,6 +113,10 @@ nsIDOMUSSDReceivedEvent
 .
 idl
 \
+nsIDOMTCPSocket
+.
+idl
+\
 (
 NULL
 )
