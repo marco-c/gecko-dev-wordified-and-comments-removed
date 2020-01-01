@@ -373,9 +373,6 @@ nsString
 mCharset
 ;
 PRUint32
-mReadCount
-;
-PRUint32
 mDataLen
 ;
 PRUint32
@@ -417,14 +414,11 @@ nsIChannel
 >
 mChannel
 ;
-PRUint64
+PRInt64
 mReadTotal
 ;
 PRUint64
 mReadTransferred
-;
-PRPackedBool
-mReadComplete
 ;
 nsRefPtr
 <
