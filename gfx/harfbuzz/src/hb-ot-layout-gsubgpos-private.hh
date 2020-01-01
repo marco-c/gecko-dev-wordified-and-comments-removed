@@ -1087,6 +1087,12 @@ if
 (
 unlikely
 (
+count
+=
+=
+0
+|
+|
 c
 -
 >
