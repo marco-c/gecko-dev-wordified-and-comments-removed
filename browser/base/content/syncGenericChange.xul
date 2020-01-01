@@ -1297,6 +1297,11 @@ center
 >
 <
 button
+id
+=
+"
+printSyncKeyButton
+"
 label
 =
 "
@@ -1340,6 +1345,11 @@ passphraseBox
 >
 <
 button
+id
+=
+"
+saveSyncKeyButton
+"
 label
 =
 "
