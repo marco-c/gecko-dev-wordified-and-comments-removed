@@ -143,6 +143,11 @@ CreateThis
 \
 _
 (
+CreateThisVM
+)
+\
+_
+(
 ReturnFromCtor
 )
 \
