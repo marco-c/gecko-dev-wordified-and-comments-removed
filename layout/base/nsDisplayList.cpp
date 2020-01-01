@@ -12376,12 +12376,7 @@ nsStyleDisplay
 *
 display
 =
-aFrame
--
->
-GetParent
-(
-)
+parent
 -
 >
 GetStyleDisplay
