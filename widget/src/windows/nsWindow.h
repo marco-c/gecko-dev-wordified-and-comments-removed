@@ -1988,10 +1988,6 @@ HDC
 mPaintDC
 ;
 static
-WinRenderMode
-sRenderMode
-;
-static
 nsAutoPtr
 <
 PRUint8

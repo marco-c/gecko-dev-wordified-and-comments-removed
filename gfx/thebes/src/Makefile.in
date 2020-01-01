@@ -201,11 +201,6 @@ NULL
 )
 ifdef
 WINCE
-DEFINES
-+
-=
--
-DMOZ_FT2_FONTS
 CPPSRCS
 +
 =
