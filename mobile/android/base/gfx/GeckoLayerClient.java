@@ -440,10 +440,6 @@ mFirstPaint
 &
 &
 mIgnorePaintsPendingViewportSizeChange
-&
-&
-!
-mUpdateViewportOnEndDraw
 )
 {
 return
