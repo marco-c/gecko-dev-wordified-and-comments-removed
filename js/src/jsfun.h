@@ -1011,10 +1011,7 @@ fp
 )
 ;
 extern
-JS_FRIEND_API
-(
 JSBool
-)
 js_PutCallObject
 (
 JSContext
@@ -1190,10 +1187,7 @@ fp
 )
 ;
 extern
-JS_FRIEND_API
-(
 JSBool
-)
 js_PutArgsObject
 (
 JSContext
