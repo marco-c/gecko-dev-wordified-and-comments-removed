@@ -1956,7 +1956,7 @@ CSSFontFeatureValuesRule
 nsDOMGenericSH
 DOM_DEFAULT_SCRIPTABLE_FLAGS
 )
-NS_DEFINE_CLASSINFO_DATA
+NS_DEFINE_CHROME_XBL_CLASSINFO_DATA
 (
 UserDataHandler
 nsDOMGenericSH
@@ -15736,14 +15736,6 @@ nsIDOMNode
 "
 "
 Node
-"
-}
-{
-"
-nsIDOMUserDataHandler
-"
-"
-UserDataHandler
 "
 }
 {
