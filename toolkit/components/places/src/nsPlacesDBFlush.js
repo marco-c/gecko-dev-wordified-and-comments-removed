@@ -707,7 +707,7 @@ this
 _self
 .
 classDescription
-true
+false
 )
 ;
 catMan
@@ -724,7 +724,7 @@ this
 _self
 .
 classDescription
-true
+false
 )
 ;
 this
