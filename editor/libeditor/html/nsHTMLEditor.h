@@ -356,7 +356,7 @@ PRBool
 aIsDocumentEditable
 )
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 BeginningOfDocument
 (
 )
