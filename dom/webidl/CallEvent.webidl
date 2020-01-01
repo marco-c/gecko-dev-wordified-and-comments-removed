@@ -100,6 +100,14 @@ optional
 CallEventInit
 eventInitDict
 )
+Func
+=
+"
+Navigator
+:
+:
+HasTelephonySupport
+"
 ]
 interface
 CallEvent

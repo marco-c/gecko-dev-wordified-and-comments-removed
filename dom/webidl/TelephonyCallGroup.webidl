@@ -111,6 +111,16 @@ MPL
 .
 *
 /
+[
+Func
+=
+"
+Navigator
+:
+:
+HasTelephonySupport
+"
+]
 interface
 TelephonyCallGroup
 :
