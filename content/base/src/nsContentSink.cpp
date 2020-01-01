@@ -2392,6 +2392,11 @@ rv
 =
 NS_OK
 ;
+PRBool
+seenParameters
+=
+PR_FALSE
+;
 nsAutoString
 href
 ;
@@ -2784,6 +2789,10 @@ href
 IsEmpty
 (
 )
+&
+&
+!
+seenParameters
 )
 {
 href
@@ -2809,6 +2818,10 @@ PRUnichar
 equals
 =
 start
+;
+seenParameters
+=
+PR_TRUE
 ;
 while
 (
@@ -3247,6 +3260,10 @@ anchor
 Truncate
 (
 )
+;
+seenParameters
+=
+PR_FALSE
 ;
 }
 start
