@@ -151,6 +151,9 @@ slow
 n
 .
 tests
+performance
+.
+tests
 cat
 ^
 >

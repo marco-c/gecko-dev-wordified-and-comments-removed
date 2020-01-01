@@ -76,6 +76,22 @@ TEST_BIN
 library
 .
 sh
+TEST_JSDIR
+=
+{
+TEST_JSDIR
+:
+-
+TEST_DIR
+/
+tests
+/
+mozilla
+.
+org
+/
+js
+}
 TEST_JSEACH_TIMEOUT
 =
 {
@@ -94,7 +110,8 @@ TEST_JSEACH_PAGE_TIMEOUT
 }
 TEST_WWW_JS
 =
-pwd
+echo
+TEST_JSDIR
 |
 sed
 "
@@ -440,7 +457,6 @@ profilename
 then
 usage
 fi
-make
 executable
 =
 get_executable
@@ -510,6 +526,9 @@ txt
 ;
 ;
 esac
+pushd
+TEST_JSDIR
+make
 cat
 "
 list
@@ -547,6 +566,8 @@ url
 "
 time
 timed_run
+.
+py
 TEST_JSEACH_TIMEOUT
 "
 url
@@ -599,3 +620,4 @@ js
 "
 ;
 done
+popd

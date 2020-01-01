@@ -18,7 +18,9 @@ var
 summary
 =
 '
-Assertion
+Do
+not
+assert
 :
 pn2
 -

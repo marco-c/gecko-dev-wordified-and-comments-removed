@@ -20,8 +20,9 @@ var
 summary
 =
 '
-Assertion
-failure
+Do
+not
+assert
 :
 (
 c2

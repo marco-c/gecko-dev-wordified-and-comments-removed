@@ -18,12 +18,14 @@ var
 summary
 =
 "
+Do
+not
+assert
+:
 x
 -
 -
 '
-causes
-Assertion
 "
 ;
 var

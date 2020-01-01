@@ -18,8 +18,9 @@ var
 summary
 =
 '
-Assertion
-failure
+Do
+not
+assert
 :
 !
 SPROP_HAS_STUB_SETTER

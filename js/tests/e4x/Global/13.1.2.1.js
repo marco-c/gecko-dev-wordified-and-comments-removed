@@ -3177,10 +3177,6 @@ message
 result
 +
 =
-'
-[
-'
-+
 rangestart
 +
 '
@@ -3190,7 +3186,6 @@ rangestart
 rangeend
 +
 '
-]
 '
 +
 rangemessage
@@ -3260,10 +3255,6 @@ else
 result
 +
 =
-'
-[
-'
-+
 rangestart
 +
 '
@@ -3273,7 +3264,6 @@ rangestart
 rangeend
 +
 '
-]
 '
 +
 rangemessage
@@ -3304,10 +3294,6 @@ rangemessage
 result
 +
 =
-'
-[
-'
-+
 rangestart
 +
 '
@@ -3317,7 +3303,6 @@ rangestart
 rangeend
 +
 '
-]
 '
 +
 rangemessage

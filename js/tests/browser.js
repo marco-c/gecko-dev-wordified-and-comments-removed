@@ -600,14 +600,6 @@ reportFailure
 msg
 )
 ;
-gDelayTestDriverEnd
-=
-false
-;
-jsTestDriverEnd
-(
-)
-;
 optionsReset
 (
 )

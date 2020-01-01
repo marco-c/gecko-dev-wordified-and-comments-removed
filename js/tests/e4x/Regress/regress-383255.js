@@ -12,7 +12,9 @@ var
 summary
 =
 '
-Assertion
+Do
+not
+assert
 :
 JS_UPTRDIFF
 (

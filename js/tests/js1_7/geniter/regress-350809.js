@@ -18,7 +18,10 @@ var
 summary
 =
 '
-Assertion
+Do
+not
+assertion
+:
 if
 yield
 in
