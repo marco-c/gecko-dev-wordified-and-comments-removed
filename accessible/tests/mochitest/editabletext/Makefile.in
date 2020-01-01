@@ -68,9 +68,7 @@ VPATH
 srcdir
 relativesrcdir
 =
-accessible
-/
-editabletext
+relativesrcdir
 include
 (
 DEPTH

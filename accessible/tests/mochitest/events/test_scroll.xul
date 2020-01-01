@@ -639,6 +639,10 @@ a11y
 /
 accessible
 /
+tests
+/
+mochitest
+/
 events
 /
 scroll

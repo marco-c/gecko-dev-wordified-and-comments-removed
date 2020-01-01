@@ -68,9 +68,7 @@ VPATH
 srcdir
 relativesrcdir
 =
-accessible
-/
-states
+relativesrcdir
 include
 (
 DEPTH
