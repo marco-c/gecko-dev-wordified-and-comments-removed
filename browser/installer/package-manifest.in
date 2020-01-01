@@ -1963,6 +1963,13 @@ BINPATH
 /
 components
 /
+toolkitplaces
+.
+manifest
+BINPATH
+/
+components
+/
 nsLivemarkService
 .
 js
