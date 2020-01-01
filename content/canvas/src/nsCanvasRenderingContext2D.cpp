@@ -13205,9 +13205,17 @@ res
 .
 mSurface
 )
+{
 return
+res
+.
+mIsStillLoading
+?
+NS_OK
+:
 NS_ERROR_NOT_AVAILABLE
 ;
+}
 #
 ifndef
 WINCE

@@ -1782,6 +1782,16 @@ SFE_WANT_FIRST_FRAME
 struct
 SurfaceFromElementResult
 {
+SurfaceFromElementResult
+(
+)
+:
+mIsStillLoading
+(
+PR_FALSE
+)
+{
+}
 nsRefPtr
 <
 gfxASurface
@@ -1799,6 +1809,9 @@ mPrincipal
 ;
 PRBool
 mIsWriteOnly
+;
+PRBool
+mIsStillLoading
 ;
 }
 ;
