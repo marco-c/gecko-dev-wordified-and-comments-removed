@@ -124,11 +124,6 @@ Promise
 .
 h
 '
-'
-PromiseResolver
-.
-h
-'
 ]
 CPP_SOURCES
 +
@@ -136,11 +131,6 @@ CPP_SOURCES
 [
 '
 Promise
-.
-cpp
-'
-'
-PromiseResolver
 .
 cpp
 '
