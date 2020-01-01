@@ -784,6 +784,16 @@ getId
 )
 )
 ;
+GeckoApp
+.
+mAppContext
+.
+getAsyncThumbnailForTab
+(
+tab
+true
+)
+;
 return
 selectedTab
 =
@@ -1714,7 +1724,7 @@ GeckoApp
 .
 mAppContext
 .
-getAndProcessThumbnailForTab
+getAsyncThumbnailForTab
 (
 tab
 false
