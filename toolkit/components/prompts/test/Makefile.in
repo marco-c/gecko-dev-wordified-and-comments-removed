@@ -455,6 +455,10 @@ test_modal_prompts
 .
 html
 \
+test_bug619644
+.
+html
+\
 (
 NULL
 )
@@ -464,6 +468,10 @@ MOCHI_CONTENT
 prompt_common
 .
 js
+\
+bug619644_inner
+.
+html
 \
 (
 NULL
