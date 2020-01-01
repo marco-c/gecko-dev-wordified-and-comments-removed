@@ -218,11 +218,6 @@ LoadNextByteRange
 (
 )
 ;
-void
-CancelByteRangeLoad
-(
-)
-;
 bool
 IsSubsegmentCached
 (

@@ -982,13 +982,6 @@ aStreamListener
 ;
 }
 virtual
-void
-CancelByteRangeOpen
-(
-)
-{
-}
-virtual
 nsresult
 GetCachedRanges
 (
@@ -1220,12 +1213,6 @@ MediaByteRange
 const
 &
 aByteRange
-)
-;
-virtual
-void
-CancelByteRangeOpen
-(
 )
 ;
 virtual
