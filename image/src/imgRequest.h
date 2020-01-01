@@ -355,6 +355,12 @@ forget
 )
 ;
 }
+imgStatusTracker
+&
+GetStatusTracker
+(
+)
+;
 inline
 nsIPrincipal
 *
@@ -474,12 +480,6 @@ return
 mProperties
 ;
 }
-imgStatusTracker
-&
-GetStatusTracker
-(
-)
-;
 void
 SetCacheEntry
 (
