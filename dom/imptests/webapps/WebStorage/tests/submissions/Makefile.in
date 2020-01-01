@@ -41,17 +41,6 @@ config
 autoconf
 .
 mk
-DIRS
-:
-=
-\
-Infraware
-\
-Ms2ger
-\
-(
-NULL
-)
 include
 (
 topsrcdir

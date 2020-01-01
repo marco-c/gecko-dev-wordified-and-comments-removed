@@ -1,9 +1,0 @@
-DIRS
-+
-=
-\
-editing
-\
-(
-NULL
-)
