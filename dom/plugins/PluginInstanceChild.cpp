@@ -296,6 +296,12 @@ void
 )
 this
 ;
+mData
+.
+pdata
+=
+nsnull
+;
 #
 if
 defined
