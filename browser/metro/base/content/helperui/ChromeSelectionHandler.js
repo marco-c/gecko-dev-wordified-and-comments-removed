@@ -508,6 +508,12 @@ false
 ;
 this
 .
+_clearTimers
+(
+)
+;
+this
+.
 _updateSelectionUI
 (
 "
