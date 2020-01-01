@@ -2055,16 +2055,6 @@ pref
 "
 editor
 .
-quotesPreformatted
-"
-false
-)
-;
-pref
-(
-"
-editor
-.
 use_css
 "
 true

@@ -1636,7 +1636,7 @@ JSVAL_TO_DOUBLE
 val
 )
 ;
-jsint
+int
 i
 ;
 if

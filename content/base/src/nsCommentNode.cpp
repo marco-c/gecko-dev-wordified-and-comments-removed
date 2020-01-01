@@ -33,13 +33,6 @@ nsGenericElement
 .
 h
 "
-#
-include
-"
-nsDOMMemoryReporter
-.
-h
-"
 class
 nsCommentNode
 :

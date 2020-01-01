@@ -33,13 +33,6 @@ nsContentUtils
 .
 h
 "
-#
-include
-"
-nsDOMMemoryReporter
-.
-h
-"
 class
 nsXMLCDATASection
 :

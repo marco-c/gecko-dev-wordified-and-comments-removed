@@ -53,13 +53,6 @@ nsContentCreatorFunctions
 .
 h
 "
-#
-include
-"
-nsDOMMemoryReporter
-.
-h
-"
 class
 nsIDOMAttr
 ;
