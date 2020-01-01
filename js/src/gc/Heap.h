@@ -2492,9 +2492,9 @@ inline
 void
 addToAvailableList
 (
-JSCompartment
+Zone
 *
-compartment
+zone
 )
 ;
 inline

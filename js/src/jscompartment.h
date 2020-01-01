@@ -2400,9 +2400,9 @@ DEBUG_MODE_GC
 void
 scheduleGC
 (
-JSCompartment
+Zone
 *
-compartment
+zone
 )
 {
 JS_ASSERT
@@ -2416,9 +2416,9 @@ isHeapBusy
 )
 )
 ;
-PrepareCompartmentForGC
+PrepareZoneForGC
 (
-compartment
+zone
 )
 ;
 needGC

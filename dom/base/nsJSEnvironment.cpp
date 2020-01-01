@@ -11021,7 +11021,7 @@ GetNativeGlobal
 JS
 :
 :
-SkipCompartmentForGC
+SkipZoneForGC
 (
 js
 :
