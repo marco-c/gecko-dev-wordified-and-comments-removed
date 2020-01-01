@@ -1,4 +1,10 @@
 #
+ifndef
+TEXTUREGARBAGEBIN_H_
+#
+define
+TEXTUREGARBAGEBIN_H_
+#
 include
 <
 stack
@@ -100,3 +106,5 @@ EmptyGarbage
 ;
 }
 }
+#
+endif
