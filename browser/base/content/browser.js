@@ -21555,6 +21555,16 @@ removeTransientNotifications
 (
 )
 ;
+if
+(
+!
+__lookupGetter__
+(
+"
+PopupNotifications
+"
+)
+)
 PopupNotifications
 .
 locationChange
