@@ -627,6 +627,9 @@ inherits
 value
 =
 feedURL
+tooltiptext
+=
+feedURL
 "
 class
 =
