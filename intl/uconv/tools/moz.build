@@ -93,3 +93,13 @@ MPL
 0
 /
 .
+CSRCS
++
+=
+[
+'
+umaptable
+.
+c
+'
+]

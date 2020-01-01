@@ -131,7 +131,7 @@ cpp
 NULL
 )
 endif
-CSRCS
+DISABLED_CSRCS
 =
 \
 user_environment

@@ -123,3 +123,13 @@ MODULE
 '
 breakpad_common
 '
+CSRCS
++
+=
+[
+'
+convert_UTF
+.
+c
+'
+]

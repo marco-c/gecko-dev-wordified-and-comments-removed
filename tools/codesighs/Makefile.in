@@ -76,7 +76,7 @@ config
 autoconf
 .
 mk
-CSRCS
+DISABLED_CSRCS
 +
 =
 \
@@ -98,7 +98,7 @@ OS_ARCH
 )
 WINNT
 )
-CSRCS
+DISABLED_CSRCS
 +
 =
 \
@@ -114,7 +114,7 @@ c
 NULL
 )
 else
-CSRCS
+DISABLED_CSRCS
 +
 =
 \

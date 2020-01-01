@@ -76,7 +76,7 @@ config
 autoconf
 .
 mk
-CSRCS
+DISABLED_CSRCS
 =
 \
 umaptable
@@ -89,7 +89,7 @@ NULL
 SIMPLE_PROGRAMS
 =
 (
-CSRCS
+DISABLED_CSRCS
 :
 .
 c
