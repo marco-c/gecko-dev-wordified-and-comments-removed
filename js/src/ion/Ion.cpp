@@ -69,6 +69,13 @@ jscompartment
 h
 "
 #
+include
+"
+IonCompartment
+.
+h
+"
+#
 if
 defined
 (

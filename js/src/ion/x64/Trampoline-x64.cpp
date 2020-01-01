@@ -48,7 +48,7 @@ JSContext
 cx
 )
 {
-Assembler
+MacroAssembler
 masm
 ;
 masm
@@ -146,10 +146,7 @@ Imm32
 (
 1
 )
-Operand
-(
 r12
-)
 )
 ;
 masm
@@ -160,10 +157,7 @@ Imm32
 (
 1
 )
-Operand
-(
 r12
-)
 )
 ;
 masm
@@ -323,10 +317,7 @@ masm
 .
 call
 (
-Operand
-(
 ArgReg1
-)
 )
 ;
 masm
@@ -433,10 +424,7 @@ ret
 (
 )
 ;
-LinkerT
-<
-Assembler
->
+Linker
 linker
 (
 masm
