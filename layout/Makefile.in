@@ -451,16 +451,6 @@ PARALLEL_DIRS
 =
 \
 mathml
-/
-content
-/
-src
-\
-mathml
-/
-base
-/
-src
 \
 (
 NULL
