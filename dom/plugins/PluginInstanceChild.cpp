@@ -10894,13 +10894,6 @@ XMost
 SurfaceDescriptor
 currSurf
 ;
-SurfaceDescriptor
-outSurf
-=
-null_t
-(
-)
-;
 #
 ifdef
 MOZ_X11
@@ -11025,6 +11018,9 @@ return
 false
 ;
 }
+SurfaceDescriptor
+returnSurf
+;
 if
 (
 !
@@ -11033,7 +11029,7 @@ SendShow
 r
 currSurf
 &
-outSurf
+returnSurf
 )
 )
 {
