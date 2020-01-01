@@ -15626,7 +15626,7 @@ JSContext
 cx
 jsuint
 capacity
-Value
+jsval
 *
 *
 vector
@@ -15706,11 +15706,14 @@ capacity
 *
 vector
 =
+Jsvalify
+(
 obj
 -
 >
 getDenseArrayElements
 (
+)
 )
 ;
 return
@@ -15985,7 +15988,7 @@ val
 )
 ;
 }
-Value
+jsval
 *
 buffer
 ;
