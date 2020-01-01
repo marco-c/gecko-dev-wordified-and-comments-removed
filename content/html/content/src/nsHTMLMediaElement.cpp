@@ -806,7 +806,7 @@ NS_SUCCEEDED
 (
 rv
 =
-mElement
+element
 -
 >
 InitializeDecoderForChannel
