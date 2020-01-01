@@ -664,14 +664,6 @@ frame
 availSpace
 )
 ;
-if
-(
-!
-outerReflowState
-)
-goto
-done
-;
 }
 {
 nsSize

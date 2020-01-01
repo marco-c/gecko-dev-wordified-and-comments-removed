@@ -79,14 +79,6 @@ nsAutoCopyListener
 (
 )
 ;
-if
-(
-!
-sInstance
-)
-return
-nsnull
-;
 NS_ADDREF
 (
 sInstance
