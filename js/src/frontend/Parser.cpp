@@ -14323,6 +14323,11 @@ pn_iflags
 ;
 if
 (
+allowsForEachIn
+(
+)
+&
+&
 tokenStream
 .
 matchToken
@@ -23850,6 +23855,11 @@ JSITER_ENUMERATE
 ;
 if
 (
+allowsForEachIn
+(
+)
+&
+&
 tokenStream
 .
 matchToken
