@@ -3932,6 +3932,8 @@ bmsvc
 .
 createFolder
 (
+bmsvc
+.
 toolbarFolder
 smartBookmarksFolderTitle
 0
