@@ -95,7 +95,7 @@ let
 server
 =
 new
-nsHttpServer
+HttpServer
 (
 )
 ;
@@ -244,7 +244,7 @@ let
 server
 =
 new
-nsHttpServer
+HttpServer
 (
 )
 ;
@@ -327,7 +327,7 @@ let
 server
 =
 new
-nsHttpServer
+HttpServer
 (
 )
 ;

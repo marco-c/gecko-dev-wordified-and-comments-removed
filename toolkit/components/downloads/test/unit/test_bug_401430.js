@@ -416,7 +416,7 @@ do_test_pending
 httpserv
 =
 new
-nsHttpServer
+HttpServer
 (
 )
 ;

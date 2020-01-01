@@ -529,7 +529,7 @@ let
 httpserv
 =
 new
-nsHttpServer
+HttpServer
 (
 )
 ;
