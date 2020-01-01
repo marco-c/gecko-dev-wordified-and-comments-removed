@@ -606,10 +606,21 @@ thispref
 ]
 ]
 =
+mozprofile
+.
+Preferences
+.
+cast
+(
 thispref
 [
 1
 ]
+.
+strip
+(
+)
+)
     
 addons
 =
