@@ -105,13 +105,16 @@ os_macosx
 os_dragonfly
 =
 0
-os_bsd
+os_freebsd
 =
 0
 os_netbsd
 =
 0
 os_openbsd
+=
+0
+os_bsd
 =
 0
 os_linux
@@ -189,7 +192,7 @@ FreeBSD
 os_freebsd
 =
 1
-os_freebsd
+os_bsd
 =
 1
 elif
