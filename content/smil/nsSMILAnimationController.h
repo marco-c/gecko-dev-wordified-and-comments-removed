@@ -561,6 +561,14 @@ mResampleNeeded
 PRPackedBool
 mDeferredStartSampling
 ;
+#
+ifdef
+DEBUG
+PRPackedBool
+mRunningSample
+;
+#
+endif
 nsIDocument
 *
 mDocument
