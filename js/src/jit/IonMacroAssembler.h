@@ -6463,9 +6463,6 @@ handleStringEntry
 Label
 *
 handleStringRejoin
-Label
-*
-truncateDoubleSlow
 Register
 stringReg
 FloatRegister
@@ -6483,7 +6480,7 @@ value
 input
 handleStringEntry
 handleStringRejoin
-truncateDoubleSlow
+NULL
 stringReg
 temp
 output
