@@ -1468,6 +1468,9 @@ None
 symbols_path
 =
 None
+timeout
+=
+None
 )
 :
         
@@ -1571,6 +1574,12 @@ self
 symbols_path
 =
 symbols_path
+        
+self
+.
+timeout
+=
+timeout
         
 if
 bin
