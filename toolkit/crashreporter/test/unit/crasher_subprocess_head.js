@@ -189,12 +189,6 @@ PROCESS_TYPE_DEFAULT
 {
 crashReporter
 .
-enabled
-=
-true
-;
-crashReporter
-.
 minidumpPath
 =
 _tmpd

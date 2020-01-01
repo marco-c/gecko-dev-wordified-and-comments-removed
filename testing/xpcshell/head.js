@@ -427,12 +427,6 @@ nsICrashReporter
 {
 crashReporter
 .
-enabled
-=
-true
-;
-crashReporter
-.
 minidumpPath
 =
 do_get_tempdir
