@@ -815,6 +815,10 @@ SVGFEFuncRElement
 .
 webidl
 \
+SVGFEGaussianBlurElement
+.
+webidl
+\
 SVGFEImageElement
 .
 webidl

@@ -348,10 +348,6 @@ SVGFEDisplacementMapElement
 )
 DOMCI_CLASS
 (
-SVGFEGaussianBlurElement
-)
-DOMCI_CLASS
-(
 SVGFEMorphologyElement
 )
 DOMCI_CLASS
