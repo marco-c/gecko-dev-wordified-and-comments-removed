@@ -49,6 +49,11 @@ int
 f
 )
 ;
+~
+MozQWidget
+(
+)
+;
 void
 setModal
 (

@@ -715,6 +715,11 @@ aStyle
 )
 ;
 void
+QWidgetDestroyed
+(
+)
+;
+void
 DispatchGotFocusEvent
 (
 void
