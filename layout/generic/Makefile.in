@@ -598,10 +598,6 @@ EXPORTS
 +
 =
 \
-nsTextTransformer
-.
-h
-\
 nsBidiFrames
 .
 h
@@ -770,10 +766,6 @@ nsTextFrameUtils
 cpp
 \
 nsTextRunTransformations
-.
-cpp
-\
-nsTextTransformer
 .
 cpp
 \

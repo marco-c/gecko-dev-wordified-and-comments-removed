@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsTextTransformer
-.
-h
-"
-#
-include
-"
 nsCompressedCharMap
 .
 h
@@ -44,6 +37,13 @@ h
 include
 "
 nsUnicharUtils
+.
+h
+"
+#
+include
+"
+nsBidiUtils
 .
 h
 "
@@ -131,7 +131,7 @@ PR_FALSE
 ;
 }
 return
-IS_BIDI_CONTROL
+IS_BIDI_CONTROL_CHAR
 (
 ch
 )
