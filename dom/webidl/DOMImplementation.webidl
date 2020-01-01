@@ -202,7 +202,6 @@ Throws
 Document
 createHTMLDocument
 (
-optional
 DOMString
 title
 )

@@ -1,8 +1,8 @@
 {
 "
-Element
+Range
 .
-remove
+detach
 "
 :
 true
