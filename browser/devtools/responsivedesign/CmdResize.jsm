@@ -163,9 +163,6 @@ buttonClass
 command
 -
 button
-devtools
--
-toolbarbutton
 "
 tooltipText
 :
