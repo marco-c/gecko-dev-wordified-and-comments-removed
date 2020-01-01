@@ -975,7 +975,7 @@ label
 =
 "
 &
-tellMaybeAttackSite
+tellMaybeAttackSite2
 .
 label
 ;
@@ -1013,7 +1013,7 @@ label
 =
 "
 &
-tellMaybeForgery
+tellMaybeForgery2
 .
 label
 ;
