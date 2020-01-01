@@ -35,6 +35,14 @@ graph
 )
 ;
 bool
+EliminateDeadCode
+(
+MIRGraph
+&
+graph
+)
+;
+bool
 ApplyTypeInformation
 (
 MIRGraph
