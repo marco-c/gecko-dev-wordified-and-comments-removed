@@ -4452,7 +4452,7 @@ tps
 &
 tar
 (
-TAR_CREATE_FLAGS_QUIET
+TAR_CREATE_FLAGS
 )
 -
 *
@@ -4740,7 +4740,7 @@ topsrcdir
 xargs
 tar
 (
-TAR_CREATE_FLAGS_QUIET
+TAR_CREATE_FLAGS
 )
 -
 )

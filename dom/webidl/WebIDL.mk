@@ -1427,6 +1427,10 @@ TouchEvent
 .
 webidl
 \
+TouchList
+.
+webidl
+\
 TransitionEvent
 .
 webidl

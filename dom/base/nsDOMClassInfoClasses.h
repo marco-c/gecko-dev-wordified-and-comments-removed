@@ -123,10 +123,6 @@ Crypto
 )
 DOMCI_CLASS
 (
-CSSRect
-)
-DOMCI_CLASS
-(
 ChromeWindow
 )
 #
@@ -323,10 +319,6 @@ IDBIndex
 DOMCI_CLASS
 (
 IDBOpenDBRequest
-)
-DOMCI_CLASS
-(
-TouchList
 )
 DOMCI_CLASS
 (
