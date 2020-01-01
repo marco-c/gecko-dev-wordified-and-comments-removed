@@ -2746,17 +2746,6 @@ installed
 ;
 try
 {
-Components
-.
-utils
-.
-reportError
-(
-"
-0
-"
-)
-;
 var
 wrk
 =
