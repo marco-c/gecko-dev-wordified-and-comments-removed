@@ -55,13 +55,6 @@ mozIStorageStatement
 h
 "
 #
-include
-"
-nsIObserver
-.
-h
-"
-#
 define
 MAX_FAVICON_SIZE
 10240
@@ -76,8 +69,6 @@ nsFaviconService
 :
 public
 nsIFaviconService
-public
-nsIObserver
 {
 public
 :
@@ -241,7 +232,6 @@ FinalizeStatements
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIFAVICONSERVICE
-NS_DECL_NSIOBSERVER
 private
 :
 ~
