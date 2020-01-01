@@ -532,7 +532,7 @@ getItemList
 (
 nsIUpdateItem
 .
-TYPE_ADDON
+TYPE_ANY
 {
 }
 )
@@ -1289,7 +1289,7 @@ null
 null
 nsIUpdateItem
 .
-TYPE_ADDON
+TYPE_ANY
 true
 {
 }

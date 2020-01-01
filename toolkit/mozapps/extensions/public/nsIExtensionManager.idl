@@ -3536,9 +3536,7 @@ unsigned
 long
 TYPE_ANY
 =
-TYPE_APP
-+
-TYPE_ADDON
+0xff
 ;
 /
 *

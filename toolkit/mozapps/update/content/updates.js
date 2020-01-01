@@ -2606,7 +2606,7 @@ update
 platformVersion
 nsIUpdateItem
 .
-TYPE_ADDON
+TYPE_ANY
 false
 {
 }

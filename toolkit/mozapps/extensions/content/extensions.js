@@ -7384,7 +7384,7 @@ sortTypeByProperty
 (
 nsIUpdateItem
 .
-TYPE_ADDON
+TYPE_ANY
 "
 name
 "
@@ -9121,7 +9121,7 @@ sortTypeByProperty
 (
 nsIUpdateItem
 .
-TYPE_ADDON
+TYPE_ANY
 "
 name
 "

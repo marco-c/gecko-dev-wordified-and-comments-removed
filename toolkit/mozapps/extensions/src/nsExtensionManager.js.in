@@ -18356,7 +18356,7 @@ Ci
 .
 nsIUpdateItem
 .
-TYPE_ADDON
+TYPE_ANY
 {
 }
 )
@@ -27444,13 +27444,13 @@ Ci
 .
 nsIUpdateItem
 .
-TYPE_EXTENSION
-+
+TYPE_ANY
+-
 Ci
 .
 nsIUpdateItem
 .
-TYPE_LOCALE
+TYPE_THEME
 )
 ;
 var
@@ -32852,7 +32852,7 @@ Ci
 .
 nsIUpdateItem
 .
-TYPE_ANY
+TYPE_ADDON
 )
 >
 0
@@ -37812,7 +37812,7 @@ Ci
 .
 nsIUpdateItem
 .
-TYPE_ADDON
+TYPE_ANY
 {
 }
 )
@@ -37947,7 +37947,7 @@ Ci
 .
 nsIUpdateItem
 .
-TYPE_ADDON
+TYPE_ANY
 {
 }
 )
@@ -38019,7 +38019,7 @@ Ci
 .
 nsIUpdateItem
 .
-TYPE_ADDON
+TYPE_ANY
 false
 )
 ;
