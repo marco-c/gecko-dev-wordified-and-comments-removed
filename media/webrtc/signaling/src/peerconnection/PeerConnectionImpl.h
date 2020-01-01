@@ -267,7 +267,7 @@ mConstraints
 }
 ;
 class
-RTCConfiguration
+IceConfiguration
 {
 public
 :
@@ -523,7 +523,7 @@ JS
 Value
 &
 aSrc
-RTCConfiguration
+IceConfiguration
 *
 aDst
 JSContext
@@ -791,7 +791,7 @@ nsIDOMWindow
 *
 aWindow
 const
-RTCConfiguration
+IceConfiguration
 &
 aConfiguration
 nsIThread
@@ -856,7 +856,7 @@ nsIDOMWindow
 *
 aWindow
 const
-RTCConfiguration
+IceConfiguration
 *
 aConfiguration
 const

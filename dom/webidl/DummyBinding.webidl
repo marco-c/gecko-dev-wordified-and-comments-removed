@@ -136,8 +136,8 @@ fileBag
 (
 )
 ;
-RTCIceServer
-rtcIceServer
+RTCConfiguration
+rtcConfiguration
 (
 )
 ;

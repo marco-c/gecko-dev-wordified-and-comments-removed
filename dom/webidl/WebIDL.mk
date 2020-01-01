@@ -535,7 +535,7 @@ RGBColor
 .
 webidl
 \
-RTCIceServer
+RTCConfiguration
 .
 webidl
 \
