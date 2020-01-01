@@ -1621,7 +1621,7 @@ mOpacity
 )
 mContentFlags
 (
-0
+CONTENT_NO_TEXT_OVER_TRANSPARENT
 )
 mUseClipRect
 (
@@ -1865,6 +1865,10 @@ mYResolution
 0
 )
 {
+mContentFlags
+=
+0
+;
 }
 virtual
 nsACString
@@ -2035,6 +2039,10 @@ mUseIntermediateSurface
 PR_FALSE
 )
 {
+mContentFlags
+=
+0
+;
 }
 void
 DefaultComputeEffectiveTransforms
