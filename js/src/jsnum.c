@@ -1144,10 +1144,14 @@ base
 ;
 if
 (
-argc
 !
-=
-0
+JSVAL_IS_VOID
+(
+vp
+[
+2
+]
+)
 )
 {
 if
@@ -2275,7 +2279,7 @@ JS_FN
 js_toString_str
 num_toString
 0
-0
+1
 JSFUN_THISP_NUMBER
 )
 JS_FN
