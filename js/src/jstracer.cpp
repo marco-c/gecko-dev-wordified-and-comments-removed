@@ -4128,15 +4128,6 @@ isop
 (
 LIR_fsub
 )
-|
-|
-s0
--
->
-isop
-(
-LIR_fmul
-)
 )
 {
 LInsp
