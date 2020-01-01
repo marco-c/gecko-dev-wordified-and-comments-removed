@@ -334,6 +334,11 @@ OsrEntry
 \
 _
 (
+Nop
+)
+\
+_
+(
 RegExp
 )
 \

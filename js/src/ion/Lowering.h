@@ -671,6 +671,14 @@ entry
 )
 ;
 bool
+visitNop
+(
+MNop
+*
+nop
+)
+;
+bool
 visitOsrValue
 (
 MOsrValue

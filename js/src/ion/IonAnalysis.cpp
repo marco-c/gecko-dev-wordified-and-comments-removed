@@ -740,6 +740,15 @@ isEffectful
 inst
 -
 >
+resumePoint
+(
+)
+&
+&
+!
+inst
+-
+>
 hasUses
 (
 )
