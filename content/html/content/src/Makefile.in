@@ -178,6 +178,10 @@ HTMLLIElement
 .
 h
 \
+HTMLMapElement
+.
+h
+\
 HTMLParagraphElement
 .
 h
@@ -368,7 +372,7 @@ nsHTMLLinkElement
 .
 cpp
 \
-nsHTMLMapElement
+HTMLMapElement
 .
 cpp
 \
