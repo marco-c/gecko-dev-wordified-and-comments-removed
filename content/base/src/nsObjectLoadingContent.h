@@ -81,6 +81,7 @@ ePluginBlocklisted
 ePluginOutdated
 ePluginOtherState
 ePluginCrashed
+ePluginClickToPlay
 }
 ;
 class
