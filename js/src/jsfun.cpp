@@ -2887,6 +2887,8 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Object
 )
+|
+JSCLASS_FOR_OF_ITERATION
 JS_PropertyStub
 args_delProperty
 JS_PropertyStub
@@ -2908,6 +2910,14 @@ NULL
 NULL
 NULL
 args_trace
+{
+NULL
+NULL
+NULL
+JS_ElementIteratorStub
+NULL
+false
+}
 }
 ;
 Class
@@ -2934,6 +2944,8 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Object
 )
+|
+JSCLASS_FOR_OF_ITERATION
 JS_PropertyStub
 args_delProperty
 JS_PropertyStub
@@ -2955,6 +2967,14 @@ NULL
 NULL
 NULL
 args_trace
+{
+NULL
+NULL
+NULL
+JS_ElementIteratorStub
+NULL
+false
+}
 }
 ;
 namespace
