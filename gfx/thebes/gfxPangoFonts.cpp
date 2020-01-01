@@ -791,7 +791,7 @@ CheckForGraphiteTables
 (
 )
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 nsCountedRef
 <
