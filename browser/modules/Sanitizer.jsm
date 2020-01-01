@@ -1077,7 +1077,7 @@ searchBar
 {
 searchBar
 .
-mTextbox
+textbox
 .
 value
 =
@@ -1086,7 +1086,7 @@ value
 ;
 searchBar
 .
-mTextbox
+textbox
 .
 editor
 .
@@ -1097,7 +1097,7 @@ false
 ;
 searchBar
 .
-mTextbox
+textbox
 .
 editor
 .
