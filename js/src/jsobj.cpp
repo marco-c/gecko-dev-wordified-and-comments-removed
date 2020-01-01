@@ -12934,7 +12934,9 @@ cx
 fp
 -
 >
-imacpc
+hasIMacroPC
+(
+)
 script
 -
 >
@@ -30622,7 +30624,9 @@ if
 fp
 -
 >
-imacpc
+hasIMacroPC
+(
+)
 )
 {
 fprintf
@@ -30648,7 +30652,9 @@ pc
 fp
 -
 >
-imacpc
+getIMacroPC
+(
+)
 ;
 }
 else

@@ -1706,6 +1706,17 @@ JSStackFrame
 sInvalidPC
 )
 ;
+JS_ASSERT
+(
+!
+up
+-
+>
+hasIMacroPC
+(
+)
+)
+;
 JSFrameRegs
 *
 regs
