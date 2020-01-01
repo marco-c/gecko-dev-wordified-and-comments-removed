@@ -2303,6 +2303,11 @@ delete
 mObservers
 ;
 }
+PR_UnloadLibrary
+(
+mGConfLib
+)
+;
 }
 PRBool
 GConfProxy

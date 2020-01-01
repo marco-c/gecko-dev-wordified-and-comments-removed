@@ -87,6 +87,12 @@ gfxPangoFont
 (
 )
 ;
+static
+void
+Shutdown
+(
+)
+;
 virtual
 const
 gfxFont

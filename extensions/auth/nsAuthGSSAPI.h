@@ -52,6 +52,12 @@ pType
 package
 )
 ;
+static
+void
+Shutdown
+(
+)
+;
 private
 :
 ~

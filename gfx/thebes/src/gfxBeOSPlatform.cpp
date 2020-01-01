@@ -15,6 +15,13 @@ h
 #
 include
 "
+gfxPangoFonts
+.
+h
+"
+#
+include
+"
 gfxImageSurface
 .
 h
@@ -75,6 +82,13 @@ Shutdown
 sFontconfigUtils
 =
 nsnull
+;
+gfxPangoFont
+:
+:
+Shutdown
+(
+)
 ;
 #
 if
