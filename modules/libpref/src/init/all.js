@@ -10886,8 +10886,6 @@ serif
 ja
 "
 "
-MS
-PMincho
 "
 )
 ;
@@ -10905,8 +10903,6 @@ serif
 ja
 "
 "
-MS
-PGothic
 "
 )
 ;
@@ -10922,8 +10918,6 @@ monospace
 ja
 "
 "
-MS
-Gothic
 "
 )
 ;
@@ -11016,7 +11010,6 @@ serif
 ko
 "
 "
-Batang
 "
 )
 ;
@@ -11034,7 +11027,6 @@ serif
 ko
 "
 "
-Gulim
 "
 )
 ;
@@ -11050,7 +11042,6 @@ monospace
 ko
 "
 "
-GulimChe
 "
 )
 ;
@@ -11066,7 +11057,6 @@ cursive
 ko
 "
 "
-Gungsuh
 "
 )
 ;
@@ -11141,7 +11131,7 @@ cursive
 ko
 "
 "
-Gungsuh
+Gungseo
 "
 )
 ;
@@ -11699,7 +11689,6 @@ zh
 CN
 "
 "
-SimSun
 "
 )
 ;
@@ -11719,7 +11708,6 @@ zh
 CN
 "
 "
-SimSun
 "
 )
 ;
@@ -11737,7 +11725,6 @@ zh
 CN
 "
 "
-SimSun
 "
 )
 ;
@@ -11863,7 +11850,6 @@ zh
 TW
 "
 "
-MingLiU
 "
 )
 ;
@@ -11985,7 +11971,7 @@ zh
 HK
 "
 "
-MingLiu_HKSCS
+_HKSCS
 "
 )
 ;
