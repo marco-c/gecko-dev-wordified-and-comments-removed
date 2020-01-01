@@ -166,6 +166,13 @@ sync
 .
 failed_partial
 "
+CLIENT_NOT_CONFIGURED
+:
+"
+service
+.
+client_not_configured
+"
 STATUS_DISABLED
 :
 "
