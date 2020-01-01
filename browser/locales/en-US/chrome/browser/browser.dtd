@@ -2482,6 +2482,16 @@ Debugger
 <
 !
 ENTITY
+chromeDebuggerMenu
+.
+accesskey
+"
+e
+"
+>
+<
+!
+ENTITY
 devToolbarCloseButton
 .
 tooltiptext
