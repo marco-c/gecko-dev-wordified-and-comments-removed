@@ -598,6 +598,12 @@ winWidget
 -
 1
 )
+skip
+-
+if
+(
+B2G
+)
 load
 815489
 .
