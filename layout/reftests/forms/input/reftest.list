@@ -4,3 +4,9 @@ tel
 reftest
 .
 list
+include
+search
+/
+reftest
+.
+list
