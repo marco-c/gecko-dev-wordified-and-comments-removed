@@ -2820,6 +2820,10 @@ mGLContext
 (
 nsnull
 )
+mDrawTarget
+(
+nsnull
+)
 mGLBufferIsPremultiplied
 (
 PR_FALSE
@@ -2839,6 +2843,16 @@ gl
 GLContext
 *
 mGLContext
+;
+mozilla
+:
+:
+gfx
+:
+:
+DrawTarget
+*
+mDrawTarget
 ;
 nsIntSize
 mSize
