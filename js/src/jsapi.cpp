@@ -19988,7 +19988,7 @@ clone
 fun
 -
 >
-countInterpretedReserveSlots
+countInterpretedReservedSlots
 (
 )
 )

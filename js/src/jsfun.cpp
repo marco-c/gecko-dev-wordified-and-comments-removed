@@ -8408,7 +8408,7 @@ uint32
 JSFunction
 :
 :
-countInterpretedReserveSlots
+countInterpretedReservedSlots
 (
 )
 const
@@ -8522,7 +8522,7 @@ fun
 fun
 -
 >
-countInterpretedReserveSlots
+countInterpretedReservedSlots
 (
 )
 :
@@ -11489,7 +11489,7 @@ closure
 fun
 -
 >
-countInterpretedReserveSlots
+countInterpretedReservedSlots
 (
 )
 )

@@ -633,7 +633,7 @@ countLocalNames
 ;
 }
 uint32
-countInterpretedReserveSlots
+countInterpretedReservedSlots
 (
 )
 const
