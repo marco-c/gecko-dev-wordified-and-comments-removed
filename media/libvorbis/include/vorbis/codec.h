@@ -371,15 +371,6 @@ vb
 ;
 extern
 void
-vorbis_dsp_init
-(
-vorbis_dsp_state
-*
-v
-)
-;
-extern
-void
 vorbis_dsp_clear
 (
 vorbis_dsp_state
