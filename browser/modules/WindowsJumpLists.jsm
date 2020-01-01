@@ -1835,16 +1835,6 @@ sortingMode
 =
 aSortingMode
 ;
-options
-.
-redirectsMode
-=
-Ci
-.
-nsINavHistoryQueryOptions
-.
-REDIRECTS_MODE_TARGET
-;
 var
 query
 =

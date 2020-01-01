@@ -2542,10 +2542,6 @@ aPopupShowingEvent
 "
 place
 :
-redirectsMode
-=
-2
-&
 sort
 =
 4

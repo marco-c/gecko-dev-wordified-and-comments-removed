@@ -1317,16 +1317,6 @@ Ci
 nsINavHistoryQueryOptions
 .
 SORT_BY_FRECENCY_DESCENDING
-options
-.
-redirectsMode
-=
-Ci
-.
-nsINavHistoryQueryOptions
-.
-REDIRECTS_MODE_TARGET
-;
 let
 links
 =
