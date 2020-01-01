@@ -313,14 +313,6 @@ PRInt32
 aEndPos
 )
 ;
-nsresult
-FireTextChangeEvent
-(
-AtkTextChange
-*
-aTextData
-)
-;
 }
 ;
 #
