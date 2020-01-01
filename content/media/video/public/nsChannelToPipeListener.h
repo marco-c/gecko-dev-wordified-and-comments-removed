@@ -80,10 +80,6 @@ PRBool
 aSeeking
 =
 PR_FALSE
-PRInt64
-aOffset
-=
-0
 )
 ;
 nsresult
@@ -153,9 +149,6 @@ mIntervalStart
 ;
 PRIntervalTime
 mIntervalEnd
-;
-PRInt64
-mOffset
 ;
 PRInt64
 mTotalBytes
