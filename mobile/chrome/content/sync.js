@@ -280,6 +280,10 @@ code1
 value
 =
 "
+.
+.
+.
+.
 "
 ;
 document
@@ -296,6 +300,10 @@ code2
 value
 =
 "
+.
+.
+.
+.
 "
 ;
 document
@@ -312,6 +320,10 @@ code3
 value
 =
 "
+.
+.
+.
+.
 "
 ;
 if
@@ -345,6 +357,12 @@ open
 (
 )
 {
+this
+.
+abortEasySetup
+(
+)
+;
 document
 .
 getElementById
