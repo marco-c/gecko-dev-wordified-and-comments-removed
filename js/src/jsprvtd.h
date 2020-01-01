@@ -798,6 +798,9 @@ Value
 HandleValue
 ;
 }
+#
+if
+ENABLE_ASSEMBLER
 namespace
 JSC
 {
@@ -805,6 +808,8 @@ class
 ExecutableAllocator
 ;
 }
+#
+endif
 namespace
 WTF
 {

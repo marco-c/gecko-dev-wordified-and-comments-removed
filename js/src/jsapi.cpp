@@ -3313,10 +3313,15 @@ tempLifoAlloc
 (
 TEMP_LIFO_ALLOC_PRIMARY_CHUNK_SIZE
 )
+#
+if
+ENABLE_ASSEMBLER
 execAlloc_
 (
 NULL
 )
+#
+endif
 bumpAlloc_
 (
 NULL
@@ -3960,6 +3965,9 @@ onOwnerThread
 )
 )
 ;
+#
+if
+ENABLE_ASSEMBLER
 delete_
 <
 JSC
@@ -3971,6 +3979,8 @@ ExecutableAllocator
 execAlloc_
 )
 ;
+#
+endif
 delete_
 <
 WTF

@@ -602,6 +602,9 @@ tempLifoAlloc
 ;
 private
 :
+#
+if
+ENABLE_ASSEMBLER
 JSC
 :
 :
@@ -609,6 +612,8 @@ ExecutableAllocator
 *
 execAlloc_
 ;
+#
+endif
 WTF
 :
 :
@@ -616,6 +621,9 @@ BumpPointerAllocator
 *
 bumpAlloc_
 ;
+#
+if
+ENABLE_ASSEMBLER
 JSC
 :
 :
@@ -628,6 +636,8 @@ JSContext
 cx
 )
 ;
+#
+endif
 WTF
 :
 :
@@ -642,6 +652,9 @@ cx
 ;
 public
 :
+#
+if
+ENABLE_ASSEMBLER
 JSC
 :
 :
@@ -665,6 +678,8 @@ cx
 )
 ;
 }
+#
+endif
 WTF
 :
 :
