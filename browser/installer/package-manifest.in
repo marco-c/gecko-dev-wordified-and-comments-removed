@@ -3804,6 +3804,13 @@ BINPATH
 /
 res
 /
+ImageDocument
+.
+css
+BINPATH
+/
+res
+/
 TopLevelImageDocument
 .
 css
