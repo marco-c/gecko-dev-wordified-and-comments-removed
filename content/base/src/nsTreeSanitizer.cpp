@@ -5436,7 +5436,7 @@ attrLocal
 attrName
 -
 >
-Atom
+LocalName
 (
 )
 ;
