@@ -8445,6 +8445,12 @@ tab
 .
 browser
 ;
+BrowserUI
+.
+hidePanel
+(
+)
+;
 }
 else
 {
