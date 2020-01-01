@@ -4663,6 +4663,10 @@ endif
 DSTOffsetCache
 dstOffsetCache
 ;
+JSObject
+*
+enumerators
+;
 private
 :
 js
