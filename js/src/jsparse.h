@@ -97,9 +97,6 @@ body
 uint16
 flags
 ;
-uint16
-sclen
-;
 uint32
 index
 ;
@@ -270,14 +267,6 @@ pn_u
 func
 .
 flags
-#
-define
-pn_sclen
-pn_u
-.
-func
-.
-sclen
 #
 define
 pn_index
