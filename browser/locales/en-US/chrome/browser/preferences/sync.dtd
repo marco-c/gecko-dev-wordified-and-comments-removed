@@ -110,12 +110,12 @@ Account
 <
 !
 ENTITY
-currentUser
+currentAccount
 .
 label
 "
 Current
-User
+Account
 :
 "
 >

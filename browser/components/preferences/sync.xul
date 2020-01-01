@@ -927,7 +927,7 @@ value
 =
 "
 &
-currentUser
+currentAccount
 .
 label
 ;
@@ -935,7 +935,7 @@ label
 control
 =
 "
-currentUser
+currentAccount
 "
 /
 >
@@ -944,7 +944,7 @@ textbox
 id
 =
 "
-currentUser
+currentAccount
 "
 readonly
 =
