@@ -35,6 +35,9 @@ Monitor
 (
 )
 {
+#
+ifdef
+JS_THREADSAFE
 PR_DestroyLock
 (
 lock_
@@ -45,6 +48,8 @@ PR_DestroyCondVar
 condVar_
 )
 ;
+#
+endif
 }
 bool
 Monitor
@@ -54,6 +59,9 @@ init
 (
 )
 {
+#
+ifdef
+JS_THREADSAFE
 lock_
 =
 PR_NewLock
@@ -83,6 +91,8 @@ condVar_
 return
 false
 ;
+#
+endif
 return
 true
 ;
