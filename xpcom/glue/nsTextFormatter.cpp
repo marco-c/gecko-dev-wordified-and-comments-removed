@@ -1178,11 +1178,9 @@ return
 0
 ;
 }
-LL_I2L
-(
 rad
+=
 radix
-)
 ;
 cvt
 =

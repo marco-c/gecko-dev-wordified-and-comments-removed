@@ -454,15 +454,6 @@ PR_Now
 ;
 PRTime
 conversion
-ustoms
-;
-LL_I2L
-(
-ustoms
-1000
-)
-;
-conversion
 =
 (
 end
@@ -470,7 +461,7 @@ end
 start
 )
 /
-ustoms
+1000
 ;
 char
 buf

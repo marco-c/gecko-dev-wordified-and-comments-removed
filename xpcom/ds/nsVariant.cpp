@@ -3286,16 +3286,14 @@ nsIDataType
 :
 VTYPE_INT32
 :
-LL_I2L
-(
 *
 _retval
+=
 tempData
 .
 u
 .
 mInt32Value
-)
 ;
 return
 rv

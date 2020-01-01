@@ -6183,9 +6183,10 @@ delta
 perLineDelta
 lines
 ;
-LL_I2L
-(
 lines
+=
+int64_t
+(
 numLines
 )
 ;
@@ -28779,9 +28780,10 @@ lines
 deltaPerLine
 delta
 ;
-LL_I2L
-(
 lines
+=
+int64_t
+(
 numLines
 )
 ;

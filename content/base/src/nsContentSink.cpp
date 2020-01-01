@@ -4951,13 +4951,9 @@ PR_Now
 ;
 int64_t
 interval
-;
-LL_I2L
-(
-interval
+=
 GetNotificationInterval
 (
-)
 )
 ;
 delay
