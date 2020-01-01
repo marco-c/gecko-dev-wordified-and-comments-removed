@@ -269,6 +269,17 @@ event
 '
 )
 ;
+ok
+(
+seenLocationChange
+'
+loadend
+after
+locationchange
+.
+'
+)
+;
 seenLoadEnd
 =
 true
