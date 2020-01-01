@@ -578,7 +578,7 @@ UnspecifiedNaN
 return
 SpecificNaN
 (
-0
+1
 0xfffffffffffffULL
 )
 ;
