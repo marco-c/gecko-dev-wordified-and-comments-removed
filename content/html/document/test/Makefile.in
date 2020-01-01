@@ -665,10 +665,6 @@ submit
 .
 js
 \
-test_bug481440
-.
-html
-\
 test_bug482659
 .
 html
