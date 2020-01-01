@@ -1534,7 +1534,7 @@ return
 true
 ;
 }
-void
+bool
 WriteToFile
 (
 const
@@ -1586,6 +1586,7 @@ filename
 )
 ;
 return
+false
 ;
 }
 if
@@ -1621,8 +1622,12 @@ filename
 )
 ;
 return
+false
 ;
 }
+return
+true
+;
 }
 bool
 sScreenEnabled
