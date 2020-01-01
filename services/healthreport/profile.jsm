@@ -178,8 +178,11 @@ js
 "
 )
 ;
-function
+this
+.
 ProfileCreationTimeAccessor
+=
+function
 (
 profile
 log
@@ -252,6 +255,8 @@ n
 }
 ;
 }
+this
+.
 ProfileCreationTimeAccessor
 .
 prototype
@@ -915,8 +920,11 @@ MILLISECONDS_PER_DAY
 )
 ;
 }
-function
+this
+.
 ProfileMetadataProvider
+=
+function
 (
 )
 {
@@ -930,6 +938,8 @@ this
 )
 ;
 }
+this
+.
 ProfileMetadataProvider
 .
 prototype
