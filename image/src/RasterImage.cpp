@@ -13557,10 +13557,6 @@ Thread
 Pool
 "
 )
-mShuttingDown
-(
-false
-)
 {
 if
 (
@@ -13771,10 +13767,6 @@ mThreadPool
 =
 nullptr
 ;
-mShuttingDown
-=
-true
-;
 }
 if
 (
@@ -13930,13 +13922,6 @@ threadPoolLock
 mThreadPoolMutex
 )
 ;
-if
-(
-mShuttingDown
-)
-{
-}
-else
 if
 (
 !

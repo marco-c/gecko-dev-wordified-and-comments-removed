@@ -1004,9 +1004,6 @@ nsIThreadPool
 >
 mThreadPool
 ;
-bool
-mShuttingDown
-;
 }
 ;
 class
