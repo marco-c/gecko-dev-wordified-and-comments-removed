@@ -2212,6 +2212,9 @@ if
 frame
 )
 {
+nsAutoDisableGetUsedXAssertions
+noAssert
+;
 nsRect
 contentArea
 (

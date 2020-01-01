@@ -10298,6 +10298,9 @@ GetRect
 )
 )
 {
+nsAutoDisableGetUsedXAssertions
+disableAssertions
+;
 nsDisplayListBuilder
 builder
 (

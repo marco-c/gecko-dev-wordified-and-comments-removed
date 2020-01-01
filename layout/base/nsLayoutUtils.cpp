@@ -379,6 +379,14 @@ h
 "
 #
 endif
+PRBool
+nsLayoutUtils
+:
+:
+sDisableGetUsedXAssertions
+=
+PR_FALSE
+;
 nsIFrame
 *
 nsLayoutUtils
@@ -5169,6 +5177,9 @@ PRUint32
 aFlags
 )
 {
+nsAutoDisableGetUsedXAssertions
+disableAssert
+;
 nsDisplayListBuilder
 builder
 (
@@ -6465,6 +6476,9 @@ no
 sense
 "
 )
+;
+nsAutoDisableGetUsedXAssertions
+disableAssert
 ;
 nsDisplayListBuilder
 builder

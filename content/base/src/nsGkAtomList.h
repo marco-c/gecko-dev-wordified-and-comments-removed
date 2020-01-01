@@ -11496,13 +11496,6 @@ TransitionsOfAfterProperty
 )
 GK_ATOM
 (
-usedBorderProperty
-"
-UsedBorderProperty
-"
-)
-GK_ATOM
-(
 usedMarginProperty
 "
 UsedMarginProperty

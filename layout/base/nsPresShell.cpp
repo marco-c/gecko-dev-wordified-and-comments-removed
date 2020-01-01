@@ -25964,6 +25964,9 @@ frame
 )
 ;
 {
+nsAutoDisableGetUsedXAssertions
+disableAssert
+;
 PRBool
 ignoreRootScrollFrame
 =
