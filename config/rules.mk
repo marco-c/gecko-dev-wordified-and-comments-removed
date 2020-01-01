@@ -4453,9 +4453,6 @@ export
 SUBMAKEFILES
 )
 (
-MAKE_DIRS
-)
-(
 LOOP_OVER_DIRS
 )
 (
@@ -4466,9 +4463,6 @@ tools
 :
 (
 SUBMAKEFILES
-)
-(
-MAKE_DIRS
 )
 (
 LOOP_OVER_DIRS
@@ -13589,9 +13583,6 @@ check
 :
 (
 SUBMAKEFILES
-)
-(
-MAKE_DIRS
 )
 (
 LOOP_OVER_PARALLEL_DIRS

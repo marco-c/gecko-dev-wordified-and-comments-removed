@@ -154,9 +154,6 @@ libs
 SUBMAKEFILES
 )
 (
-MAKE_DIRS
-)
-(
 HOST_LIBRARY
 )
 (
