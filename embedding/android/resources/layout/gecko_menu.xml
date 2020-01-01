@@ -119,6 +119,13 @@ ic_menu_preferences
 "
 android
 :
+enabled
+=
+"
+false
+"
+android
+:
 title
 =
 "
