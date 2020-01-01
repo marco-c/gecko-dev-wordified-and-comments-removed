@@ -494,6 +494,10 @@ test_cssattrs
 .
 html
 \
+test_events_caretmove
+.
+html
+\
 test_groupattrs
 .
 xul
