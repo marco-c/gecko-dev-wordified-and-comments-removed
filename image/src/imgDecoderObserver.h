@@ -77,6 +77,14 @@ OnStartContainer
 ;
 virtual
 void
+OnStartFrame
+(
+)
+=
+0
+;
+virtual
+void
 FrameChanged
 (
 const

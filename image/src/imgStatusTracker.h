@@ -354,6 +354,11 @@ aProxy
 )
 ;
 void
+RecordStartFrame
+(
+)
+;
+void
 RecordFrameChanged
 (
 const
