@@ -5370,6 +5370,11 @@ public
 :
 nsTouchEvent
 (
+)
+{
+}
+nsTouchEvent
+(
 bool
 isTrusted
 nsTouchEvent
