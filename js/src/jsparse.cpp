@@ -4762,7 +4762,10 @@ stdout
 endif
 script
 =
-js_NewScriptFromCG
+JSScript
+:
+:
+NewScriptFromCG
 (
 cx
 &
@@ -11657,13 +11660,11 @@ atom
 ;
 if
 (
-(
 funtc
 -
 >
-flags
-&
-TCF_FUN_CALLS_EVAL
+callsEval
+(
 )
 |
 |
