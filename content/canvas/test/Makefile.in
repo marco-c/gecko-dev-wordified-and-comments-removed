@@ -158,8 +158,9 @@ Original
 Code
 is
 #
+the
 Mozilla
-Corporation
+Foundation
 .
 #
 Portions
@@ -696,6 +697,10 @@ image
 source
 -
 out
+.
+html
+\
+test_toDataURL_lowercase_ascii
 .
 html
 \
