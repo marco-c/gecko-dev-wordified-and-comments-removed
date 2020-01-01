@@ -1714,16 +1714,6 @@ true
 updateCheckListener
 :
 {
-onProgress
-:
-function
-(
-aRequest
-aPosition
-aTotalSize
-)
-{
-}
 onCheckComplete
 :
 function
