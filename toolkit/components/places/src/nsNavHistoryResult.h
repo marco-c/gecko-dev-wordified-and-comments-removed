@@ -515,8 +515,10 @@ mAllBookmarksObservers
 typedef
 nsTArray
 <
+nsRefPtr
+<
 nsNavHistoryFolderResultNode
-*
+>
 >
 FolderObserverList
 ;
@@ -1508,8 +1510,10 @@ this
 )
 ;
 }
+nsRefPtr
+<
 nsNavHistoryContainerResultNode
-*
+>
 mParent
 ;
 nsCString
