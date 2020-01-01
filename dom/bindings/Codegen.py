@@ -51193,16 +51193,20 @@ ifaces
 [
 ]
         
+workerIfaces
+=
+[
+]
+        
 for
 dictionary
 in
 dictionaries
 :
             
-ifaces
-.
-extend
-(
+dictionaryIfaces
+=
+[
 type
 .
 unroll
@@ -51210,7 +51214,7 @@ unroll
 )
 .
 inner
-                          
+                                 
 for
 type
 in
@@ -51218,7 +51222,7 @@ getTypesFromDictionary
 (
 dictionary
 )
-                          
+                                 
 if
 type
 .
@@ -51229,6 +51233,20 @@ unroll
 isGeckoInterface
 (
 )
+]
+            
+ifaces
+.
+extend
+(
+dictionaryIfaces
+)
+            
+workerIfaces
+.
+extend
+(
+dictionaryIfaces
 )
         
 for
@@ -51237,10 +51255,9 @@ in
 callbacks
 :
             
-ifaces
-.
-extend
-(
+callbackIfaces
+=
+[
 t
 .
 unroll
@@ -51248,7 +51265,7 @@ unroll
 )
 .
 inner
-                          
+                               
 for
 t
 in
@@ -51256,7 +51273,7 @@ getTypesFromCallback
 (
 callback
 )
-                          
+                               
 if
 t
 .
@@ -51267,6 +51284,29 @@ unroll
 isGeckoInterface
 (
 )
+]
+            
+workerIfaces
+.
+extend
+(
+callbackIfaces
+)
+            
+if
+not
+callback
+.
+isWorkerOnly
+(
+)
+:
+                
+ifaces
+.
+extend
+(
+callbackIfaces
 )
         
 descriptorsForForwardDeclaration
@@ -51295,7 +51335,7 @@ ifaces
 for
 iface
 in
-ifaces
+workerIfaces
 :
             
 try
@@ -56182,6 +56222,27 @@ callback
 descriptorProvider
 )
 :
+        
+if
+callback
+.
+isWorkerOnly
+(
+)
+and
+not
+descriptorProvider
+.
+workers
+:
+            
+self
+.
+generatable
+=
+False
+            
+return
         
 name
 =
