@@ -3036,7 +3036,7 @@ strict
 cx
 -
 >
-hasStrictOption
+hasExtraWarningsOption
 (
 )
 )
