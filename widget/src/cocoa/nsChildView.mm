@@ -2860,6 +2860,10 @@ mPluginIsCG
 (
 PR_FALSE
 )
+mPluginInstanceOwner
+(
+nsnull
+)
 {
 #
 ifdef
@@ -12343,10 +12347,15 @@ mDragService
 =
 nsnull
 ;
+#
+ifndef
+NP_NO_CARBON
 mPluginTSMDoc
 =
 nil
 ;
+#
+endif
 mGestureState
 =
 eGestureState_None
@@ -30470,7 +30479,7 @@ that
 Cocoa
 /
 /
-provices
+provides
 (
 those
 created

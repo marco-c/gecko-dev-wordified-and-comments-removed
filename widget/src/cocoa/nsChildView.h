@@ -144,6 +144,9 @@ nsCocoaWindow
 union
 nsPluginPort
 ;
+#
+ifndef
+NP_NO_CARBON
 enum
 {
 kFocusedChildViewTSMDocPropertyTag
@@ -164,6 +167,8 @@ EventRef
 carbonEvent
 )
 ;
+#
+endif
 interface
 NSEvent
 (
@@ -251,9 +256,14 @@ nsIDragService
 *
 mDragService
 ;
+#
+ifndef
+NP_NO_CARBON
 TSMDocumentID
 mPluginTSMDoc
 ;
+#
+endif
 enum
 {
 eGestureState_None
