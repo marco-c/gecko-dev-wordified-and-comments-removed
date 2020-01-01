@@ -8142,6 +8142,10 @@ JSContext
 cx
 )
 :
+re_
+(
+cx
+)
 fm
 (
 cx
@@ -8531,9 +8535,15 @@ opt
 NULL
 ;
 }
+Rooted
+<
 JSAtom
 *
+>
 patstr
+(
+cx
+)
 ;
 if
 (
@@ -14523,6 +14533,9 @@ UINT32_MAX
 }
 RegExpGuard
 re
+(
+cx
+)
 ;
 JSLinearString
 *

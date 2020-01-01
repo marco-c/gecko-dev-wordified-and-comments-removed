@@ -297,6 +297,9 @@ length
 ;
 RegExpGuard
 shared
+(
+cx
+)
 ;
 if
 (

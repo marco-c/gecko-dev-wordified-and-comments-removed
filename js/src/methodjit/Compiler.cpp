@@ -40523,6 +40523,9 @@ true
 }
 RegExpGuard
 g
+(
+cx
+)
 ;
 if
 (
