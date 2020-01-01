@@ -814,6 +814,16 @@ Sync
 <
 !
 ENTITY
+pref_search_suggestions
+"
+Show
+search
+suggestions
+"
+>
+<
+!
+ENTITY
 quit
 "
 Quit
