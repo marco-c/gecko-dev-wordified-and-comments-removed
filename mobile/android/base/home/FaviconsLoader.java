@@ -23,15 +23,6 @@ mozilla
 .
 gecko
 .
-SimpleCursorLoader
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 db
 .
 BrowserDB
