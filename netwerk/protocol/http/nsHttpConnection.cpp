@@ -3195,6 +3195,8 @@ mKeepAliveMask
 =
 mKeepAlive
 ;
+mSupportsPipelining
+=
 mConnInfo
 -
 >

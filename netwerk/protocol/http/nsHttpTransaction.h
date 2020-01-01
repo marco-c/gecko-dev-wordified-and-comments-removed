@@ -525,6 +525,9 @@ mRestartCount
 PRUint8
 mCaps
 ;
+PRInt32
+mPipelinePosition
+;
 bool
 mClosed
 ;
