@@ -12083,7 +12083,16 @@ char
 *
 ifaceName
 =
+set
+?
 localIface
+-
+>
+GetNameString
+(
+)
+:
+iface
 -
 >
 GetNameString
