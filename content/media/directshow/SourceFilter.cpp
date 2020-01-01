@@ -42,6 +42,11 @@ prlog
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 mozilla
