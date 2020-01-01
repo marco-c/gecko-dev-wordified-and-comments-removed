@@ -12559,6 +12559,15 @@ mDownloadManager
 EmptyString
 (
 )
+NS_LITERAL_STRING
+(
+"
+auto
+"
+)
+EmptyString
+(
+)
 )
 ;
 }

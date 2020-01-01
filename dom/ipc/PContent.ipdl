@@ -1976,6 +1976,16 @@ nsString
 cookie
 nsString
 name
+nsString
+bidi
+nsString
+lang
+)
+;
+CloseAlert
+(
+nsString
+name
 )
 ;
 PExternalHelperApp
