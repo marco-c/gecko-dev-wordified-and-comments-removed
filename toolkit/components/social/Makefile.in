@@ -97,6 +97,10 @@ SocialProvider
 .
 jsm
 \
+WorkerAPI
+.
+jsm
+\
 (
 NULL
 )
