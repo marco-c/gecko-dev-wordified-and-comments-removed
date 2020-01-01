@@ -8612,6 +8612,14 @@ id
 keyRangeClause
 +
 directionClause
++
+NS_LITERAL_CSTRING
+(
+"
+LIMIT
+1
+"
+)
 ;
 nsCOMPtr
 <
@@ -9018,7 +9026,6 @@ NS_LITERAL_CSTRING
 (
 "
 LIMIT
-1
 "
 )
 ;
