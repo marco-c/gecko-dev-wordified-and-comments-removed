@@ -40,7 +40,6 @@ intrinsic
 ref
 .
 html
-fails
 =
 =
 intrinsic
@@ -55,10 +54,6 @@ intrinsic
 ref
 .
 html
-#
-Bug
-801994
-fails
 =
 =
 intrinsic
@@ -73,9 +68,6 @@ intrinsic
 ref
 .
 html
-#
-Bug
-801994
 =
 =
 intrinsic
