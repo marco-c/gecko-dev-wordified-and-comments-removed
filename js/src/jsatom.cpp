@@ -1733,6 +1733,10 @@ ib
 )
 )
 {
+if
+(
+allowGC
+)
 js_ReportOutOfMemory
 (
 cx
