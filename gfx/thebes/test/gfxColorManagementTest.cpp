@@ -34,7 +34,7 @@ cctype
 #
 include
 "
-lcms
+qcms
 .
 h
 "
