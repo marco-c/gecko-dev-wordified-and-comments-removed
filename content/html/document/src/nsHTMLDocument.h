@@ -872,6 +872,12 @@ aParser
 }
 virtual
 nsresult
+ReinitEditor
+(
+)
+;
+virtual
+nsresult
 SetEditingState
 (
 EditingState

@@ -323,6 +323,14 @@ aState
 ;
 virtual
 nsresult
+ReinitEditor
+(
+)
+=
+0
+;
+virtual
+nsresult
 GetDocumentAllResult
 (
 const
