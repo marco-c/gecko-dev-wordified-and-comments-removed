@@ -2260,6 +2260,8 @@ n
 accessTokenPrefName
 )
 ;
+try
+{
 prefService
 .
 setIntPref
@@ -2283,6 +2285,13 @@ accessTokenPrefName
 newAccessToken
 )
 ;
+}
+catch
+(
+x
+)
+{
+}
 }
 }
 var
