@@ -21811,7 +21811,7 @@ FALSE
 if
 (
 !
-nsIMM32Handler
+IMEHandler
 :
 :
 IsComposingOn
@@ -21951,7 +21951,7 @@ result
 if
 (
 !
-nsIMM32Handler
+IMEHandler
 :
 :
 IsComposingOn
@@ -27523,7 +27523,7 @@ MODIFIER_CONTROL
 }
 if
 (
-nsIMM32Handler
+IMEHandler
 :
 :
 IsComposingOn
@@ -29861,7 +29861,7 @@ aContext
 endif
 if
 (
-nsIMM32Handler
+IMEHandler
 :
 :
 IsComposing
