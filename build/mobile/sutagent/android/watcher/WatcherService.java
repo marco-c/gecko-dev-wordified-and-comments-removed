@@ -329,7 +329,7 @@ lPeriod
 int
 nMaxStrikes
 =
-3
+0
 ;
 boolean
 bStartSUTAgent
@@ -729,7 +729,7 @@ strikes
 "
 sIniFile
 "
-3
+0
 "
 )
 ;
