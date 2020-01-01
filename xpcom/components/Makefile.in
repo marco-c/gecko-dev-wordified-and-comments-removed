@@ -511,10 +511,6 @@ nsICategoryManager
 .
 idl
 \
-nsIManifestLoader
-.
-idl
-\
 (
 NULL
 )
@@ -594,6 +590,16 @@ topsrcdir
 chrome
 /
 src
+\
+-
+I
+(
+topsrcdir
+)
+/
+modules
+/
+libjar
 \
 (
 NULL
