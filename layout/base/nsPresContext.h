@@ -1922,13 +1922,13 @@ height
 nscoord
 TwipsToAppUnits
 (
-PRInt32
+float
 aTwips
 )
 const
 {
 return
-NSCoordSaturatingMultiply
+NSToCoordRoundWithClamp
 (
 mDeviceContext
 -
@@ -1936,6 +1936,7 @@ mDeviceContext
 AppUnitsPerInch
 (
 )
+*
 NS_TWIPS_TO_INCHES
 (
 aTwips
