@@ -17792,7 +17792,7 @@ alloca
 protoLen
 )
 ;
-snprintf
+JS_snprintf
 (
 protoName
 protoLen

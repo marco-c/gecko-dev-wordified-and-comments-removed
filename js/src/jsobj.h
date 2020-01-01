@@ -79,7 +79,7 @@ Compiler
 namespace
 types
 {
-class
+struct
 TypeObject
 ;
 }

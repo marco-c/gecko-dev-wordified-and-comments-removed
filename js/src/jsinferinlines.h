@@ -20,6 +20,13 @@ jsinfer
 h
 "
 #
+include
+"
+jsprf
+.
+h
+"
+#
 ifndef
 jsinferinlines_h___
 #
@@ -790,7 +797,7 @@ name
 8
 ]
 ;
-snprintf
+JS_snprintf
 (
 name
 16
@@ -3649,7 +3656,7 @@ name
 32
 ]
 ;
-snprintf
+JS_snprintf
 (
 name
 32
@@ -6290,7 +6297,7 @@ alloca
 len
 )
 ;
-snprintf
+JS_snprintf
 (
 newName
 len

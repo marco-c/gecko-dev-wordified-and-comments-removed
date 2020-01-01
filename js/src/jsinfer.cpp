@@ -6436,7 +6436,7 @@ alloca
 len
 )
 ;
-snprintf
+JS_snprintf
 (
 prototypeName
 len
@@ -13772,7 +13772,7 @@ name
 24
 ]
 ;
-snprintf
+JS_snprintf
 (
 name
 sizeof
@@ -13862,7 +13862,7 @@ name
 24
 ]
 ;
-snprintf
+JS_snprintf
 (
 name
 sizeof
