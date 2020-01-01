@@ -531,6 +531,12 @@ endif
 PRUint8
 mAlphaDepth
 ;
+static
+PRBool
+ShouldUseImageSurfaces
+(
+)
+;
 }
 ;
 #
