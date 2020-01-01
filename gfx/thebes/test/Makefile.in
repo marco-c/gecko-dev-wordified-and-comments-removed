@@ -434,7 +434,7 @@ cairo
 \
 pref
 \
-thebes
+unicharutil
 \
 (
 NULL

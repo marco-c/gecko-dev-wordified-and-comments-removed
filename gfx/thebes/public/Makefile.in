@@ -33,6 +33,12 @@ thebes
 REQUIRES
 =
 cairo
+\
+unicharutil
+\
+(
+NULL
+)
 EXPORTS
 =
 gfxASurface
