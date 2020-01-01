@@ -446,6 +446,13 @@ defined
 (
 WEBRTC_ANDROID
 )
+&
+&
+!
+defined
+(
+WEBRTC_GONK
+)
 result
 =
 pthread_setcancelstate
@@ -1076,6 +1083,13 @@ if
 defined
 (
 WEBRTC_ANDROID
+)
+&
+&
+!
+defined
+(
+WEBRTC_GONK
 )
 if
 (
