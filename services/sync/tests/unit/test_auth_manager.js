@@ -128,9 +128,9 @@ resource
 :
 /
 /
-tests
+harness
 /
-lib
+modules
 /
 httpd
 .
