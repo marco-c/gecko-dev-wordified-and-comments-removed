@@ -152,6 +152,13 @@ attribute
 SVGAnimatedString
 target
 ;
+[
+SetterThrows
+]
+attribute
+DOMString
+download
+;
 }
 ;
 SVGAElement

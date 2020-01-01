@@ -592,10 +592,6 @@ SVGDocument
 )
 DOMCI_CLASS
 (
-SVGAElement
-)
-DOMCI_CLASS
-(
 TimeEvent
 )
 DOMCI_CLASS
