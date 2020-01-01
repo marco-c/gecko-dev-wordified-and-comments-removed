@@ -2522,12 +2522,7 @@ setGCMaxMallocBytes
 size_t
 value
 )
-{
-gcMaxMallocBytes
-=
-value
 ;
-}
 void
 updateMallocCounter
 (
