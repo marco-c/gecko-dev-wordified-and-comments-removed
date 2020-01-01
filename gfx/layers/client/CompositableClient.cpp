@@ -513,9 +513,6 @@ GetTextureInfo
 break
 ;
 case
-TEXTURE_D3D11_HANDLE
-:
-case
 TEXTURE_CONTENT
 :
 #

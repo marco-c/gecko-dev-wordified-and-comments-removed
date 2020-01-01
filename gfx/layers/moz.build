@@ -108,11 +108,6 @@ CopyableCanvasLayer
 h
 '
 '
-D3D11ShareHandleImage
-.
-h
-'
-'
 D3D9SurfaceImage
 .
 h
@@ -337,11 +332,6 @@ CPP_SOURCES
 +
 =
 [
-'
-D3D11ShareHandleImage
-.
-cpp
-'
 '
 D3D9SurfaceImage
 .
