@@ -535,9 +535,6 @@ ContextAllocPolicy
 class
 HashSet
 ;
-class
-DeflatedStringCache
-;
 }
 typedef
 js
