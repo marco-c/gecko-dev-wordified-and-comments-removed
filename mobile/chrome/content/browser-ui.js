@@ -3336,8 +3336,15 @@ handleEscape
 :
 function
 (
+aEvent
 )
 {
+aEvent
+.
+stopPropagation
+(
+)
+;
 let
 dialog
 =
@@ -3600,6 +3607,7 @@ this
 .
 handleEscape
 (
+aEvent
 )
 ;
 break
