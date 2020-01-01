@@ -7180,12 +7180,7 @@ n
 +
 '
         
-print
->
->
-sys
-.
-stderr
+raise
 IDLError
 (
 "
@@ -7207,7 +7202,7 @@ group
 directive
 '
 )
-                                     
+                       
 Location
 (
 lexer
@@ -7215,7 +7210,6 @@ lexer
 self
 .
 lexer
-                                              
 lineno
 =
 self
@@ -7223,7 +7217,7 @@ self
 lexer
 .
 lineno
-                                              
+                                
 lexpos
 =
 self

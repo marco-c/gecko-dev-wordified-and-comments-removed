@@ -423,12 +423,6 @@ BLOCK
 *
 /
 #
-ifndef
-nsIURIRefObject_h__
-#
-define
-nsIURIRefObject_h__
-#
 include
 "
 nsISupports
@@ -651,10 +645,3 @@ aMakeRel
 ;
 }
 ;
-#
-endif
-/
-*
-nsIURIRefObject_h__
-*
-/
