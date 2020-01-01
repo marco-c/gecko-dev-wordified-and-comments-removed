@@ -5753,6 +5753,10 @@ n
 "
 )
 ;
+gCurrentCanvas
+=
+null
+;
 FinishTestItem
 (
 )
