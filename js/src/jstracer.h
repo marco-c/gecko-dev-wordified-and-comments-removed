@@ -485,6 +485,13 @@ gp_ins
 nanojit
 :
 :
+LIns
+*
+rval_ins
+;
+nanojit
+:
+:
 SideExit
 exit
 ;
@@ -1246,8 +1253,8 @@ LIns
 idx_ins
 )
 ;
-bool
-leaveFrame
+void
+clearFrameSlotsFromCache
 (
 )
 ;
@@ -1314,6 +1321,11 @@ fragmento
 ;
 bool
 record_EnterFrame
+(
+)
+;
+bool
+record_LeaveFrame
 (
 )
 ;
