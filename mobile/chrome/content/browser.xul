@@ -6490,6 +6490,11 @@ hidden
 "
 true
 "
+pack
+=
+"
+center
+"
 >
 <
 vbox
@@ -6508,11 +6513,6 @@ class
 dialog
 -
 dark
-"
-flex
-=
-"
-1
 "
 >
 <
