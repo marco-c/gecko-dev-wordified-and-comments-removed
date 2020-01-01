@@ -309,7 +309,7 @@ result
 if
 defined
 (
-WINCE
+WINCE_WINDOWS_MOBILE
 )
 MEMORYSTATUS
 stat
@@ -331,6 +331,17 @@ dwMemoryLoad
 =
 98
 )
+;
+#
+elif
+defined
+(
+WINCE
+)
+*
+result
+=
+PR_FALSE
 ;
 #
 elif
