@@ -1142,10 +1142,6 @@ flush
 {
 let
 dest
-;
-try
-{
-dest
 =
 OS
 .
@@ -1164,6 +1160,8 @@ true
 }
 )
 ;
+try
+{
 return
 dest
 .
