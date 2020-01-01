@@ -149,7 +149,7 @@ endif
 }
 ;
 static
-inline
+JS_INLINE
 jsval
 *
 StackBase
@@ -175,7 +175,7 @@ nfixed
 ;
 }
 static
-inline
+JS_INLINE
 uintN
 GlobalVarCount
 (

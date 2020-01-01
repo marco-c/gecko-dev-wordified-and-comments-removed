@@ -155,7 +155,7 @@ intrinsic
 _InterlockedCompareExchange
 )
 static
-JS_INLINE
+JS_ALWAYS_INLINE
 int
 NativeCompareAndSwapHelper
 (
@@ -182,7 +182,7 @@ al
 }
 }
 static
-JS_INLINE
+JS_ALWAYS_INLINE
 int
 NativeCompareAndSwap
 (
@@ -230,7 +230,7 @@ OSAtomic
 h
 >
 static
-JS_INLINE
+JS_ALWAYS_INLINE
 int
 NativeCompareAndSwap
 (
@@ -297,7 +297,7 @@ defined
 __i386__
 )
 static
-JS_INLINE
+JS_ALWAYS_INLINE
 int
 NativeCompareAndSwap
 (
@@ -406,7 +406,7 @@ defined
 __x86_64__
 )
 static
-JS_INLINE
+JS_ALWAYS_INLINE
 int
 NativeCompareAndSwap
 (
@@ -523,7 +523,7 @@ defined
 ULTRA_SPARC
 )
 static
-JS_INLINE
+JS_ALWAYS_INLINE
 int
 NativeCompareAndSwap
 (
@@ -688,7 +688,7 @@ atomic_op
 h
 >
 static
-JS_INLINE
+JS_ALWAYS_INLINE
 int
 NativeCompareAndSwap
 (
@@ -762,7 +762,7 @@ int
 )
 ;
 static
-JS_INLINE
+JS_ALWAYS_INLINE
 int
 NativeCompareAndSwap
 (
@@ -3689,7 +3689,7 @@ endif
 ifdef
 NSPR_LOCK
 static
-JS_INLINE
+JS_ALWAYS_INLINE
 void
 ThinLock
 (
@@ -3721,7 +3721,7 @@ me
 ;
 }
 static
-JS_INLINE
+JS_ALWAYS_INLINE
 void
 ThinUnlock
 (
@@ -4169,7 +4169,7 @@ tl
 ;
 }
 static
-JS_INLINE
+JS_ALWAYS_INLINE
 void
 ThinLock
 (
@@ -4238,7 +4238,7 @@ JS_ASSERT
 endif
 }
 static
-JS_INLINE
+JS_ALWAYS_INLINE
 void
 ThinUnlock
 (
