@@ -352,7 +352,7 @@ NS_ERROR_ILLEGAL_VALUE
 let
 newWin
 =
-open
+openDialog
 (
 location
 "
@@ -360,6 +360,9 @@ location
 "
 chrome
 all
+dialog
+=
+no
 "
 )
 ;
