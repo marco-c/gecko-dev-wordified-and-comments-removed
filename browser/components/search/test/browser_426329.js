@@ -1,5 +1,5 @@
 var
-chromeUtils
+ChromeUtils
 =
 {
 }
@@ -55,7 +55,7 @@ ChromeUtils
 .
 js
 "
-chromeUtils
+ChromeUtils
 )
 ;
 function
@@ -1086,7 +1086,7 @@ stopPopup
 true
 )
 ;
-chromeUtils
+ChromeUtils
 .
 synthesizeDrop
 (
@@ -1119,7 +1119,6 @@ Text
 copy
 "
 window
-EventUtils
 )
 ;
 doOnloadOnce
@@ -1165,7 +1164,7 @@ init
 (
 )
 ;
-chromeUtils
+ChromeUtils
 .
 synthesizeDrop
 (
@@ -1204,7 +1203,6 @@ Text
 copy
 "
 window
-EventUtils
 )
 ;
 doOnloadOnce
@@ -1256,7 +1254,7 @@ init
 (
 )
 ;
-chromeUtils
+ChromeUtils
 .
 synthesizeDrop
 (
@@ -1298,7 +1296,6 @@ org
 copy
 "
 window
-EventUtils
 )
 ;
 is

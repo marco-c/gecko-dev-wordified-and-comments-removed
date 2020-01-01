@@ -2,7 +2,7 @@ var
 gManagerWindow
 ;
 var
-chromeUtils
+ChromeUtils
 =
 {
 }
@@ -58,7 +58,7 @@ ChromeUtils
 .
 js
 "
-chromeUtils
+ChromeUtils
 )
 ;
 function
@@ -714,7 +714,7 @@ port
 var
 effect
 =
-chromeUtils
+ChromeUtils
 .
 synthesizeDrop
 (
@@ -744,7 +744,6 @@ url
 copy
 "
 gManagerWindow
-EventUtils
 )
 ;
 is
@@ -867,7 +866,7 @@ port
 var
 effect
 =
-chromeUtils
+ChromeUtils
 .
 synthesizeDrop
 (
@@ -899,7 +898,6 @@ file
 copy
 "
 gManagerWindow
-EventUtils
 )
 ;
 is
@@ -1035,7 +1033,7 @@ port
 var
 effect
 =
-chromeUtils
+ChromeUtils
 .
 synthesizeDrop
 (
@@ -1083,7 +1081,6 @@ url2
 copy
 "
 gManagerWindow
-EventUtils
 )
 ;
 is
@@ -1221,7 +1218,7 @@ port
 var
 effect
 =
-chromeUtils
+ChromeUtils
 .
 synthesizeDrop
 (
@@ -1273,7 +1270,6 @@ file
 copy
 "
 gManagerWindow
-EventUtils
 )
 ;
 is
@@ -1410,7 +1406,7 @@ port
 var
 effect
 =
-chromeUtils
+ChromeUtils
 .
 synthesizeDrop
 (
@@ -1460,7 +1456,6 @@ file
 copy
 "
 gManagerWindow
-EventUtils
 )
 ;
 is

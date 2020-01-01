@@ -64,7 +64,7 @@ mozIJSSubScriptLoader
 )
 ;
 let
-chromeUtils
+ChromeUtils
 =
 {
 }
@@ -90,7 +90,7 @@ ChromeUtils
 .
 js
 "
-chromeUtils
+ChromeUtils
 )
 ;
 let
@@ -266,7 +266,7 @@ function
 (
 )
 {
-chromeUtils
+ChromeUtils
 .
 synthesizeDrop
 (
@@ -292,7 +292,6 @@ text
 copy
 "
 window
-EventUtils
 )
 ;
 }
