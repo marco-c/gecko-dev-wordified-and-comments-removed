@@ -2392,7 +2392,7 @@ masm
 .
 loadValue
 (
-Operand
+Address
 (
 esp
 0

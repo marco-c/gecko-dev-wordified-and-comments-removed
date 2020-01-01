@@ -1771,6 +1771,10 @@ IonBuilder
 .
 cpp
 \
+IonCaches
+.
+cpp
+\
 IonFrames
 .
 cpp

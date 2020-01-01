@@ -2605,6 +2605,11 @@ LSnapshot
 snapshot
 )
 ;
+RegisterSet
+liveRegisters
+(
+)
+;
 virtual
 void
 print

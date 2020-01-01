@@ -558,6 +558,14 @@ ins
 )
 ;
 bool
+visitGetPropertyCache
+(
+MGetPropertyCache
+*
+ins
+)
+;
+bool
 visitGuardClass
 (
 MGuardClass
