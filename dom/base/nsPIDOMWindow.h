@@ -1216,14 +1216,6 @@ DispatchSyncHashchange
 0
 ;
 virtual
-nsresult
-DispatchSyncPopState
-(
-)
-=
-0
-;
-virtual
 void
 SetHasOrientationEventListener
 (

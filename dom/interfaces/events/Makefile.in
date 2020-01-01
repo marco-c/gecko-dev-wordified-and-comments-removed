@@ -562,10 +562,6 @@ nsIDOMTransitionEvent
 .
 idl
 \
-nsIDOMPopStateEvent
-.
-idl
-\
 (
 NULL
 )

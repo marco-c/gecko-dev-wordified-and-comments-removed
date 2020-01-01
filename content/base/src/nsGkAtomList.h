@@ -4241,13 +4241,6 @@ onload
 )
 GK_ATOM
 (
-onpopstate
-"
-onpopstate
-"
-)
-GK_ATOM
-(
 only
 "
 only

@@ -564,10 +564,6 @@ nsDOMTransitionEvent
 .
 cpp
 \
-nsDOMPopStateEvent
-.
-cpp
-\
 (
 NULL
 )

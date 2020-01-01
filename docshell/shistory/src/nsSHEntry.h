@@ -251,9 +251,6 @@ mID
 PRUint32
 mPageIdentifier
 ;
-PRInt64
-mDocIdentifier
-;
 PRInt32
 mScrollPositionX
 ;
@@ -320,9 +317,6 @@ nsAutoPtr
 nsDocShellEditorData
 >
 mEditorData
-;
-nsString
-mStateData
 ;
 }
 ;

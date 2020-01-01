@@ -3512,14 +3512,6 @@ NS_LOAD
 ;
 _ASSIGN_eventName
 (
-NS_POPSTATE
-"
-NS_POPSTATE
-"
-)
-;
-_ASSIGN_eventName
-(
 NS_PAGE_UNLOAD
 "
 NS_PAGE_UNLOAD
