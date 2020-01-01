@@ -691,9 +691,6 @@ GetRoot
 #
 endif
 #
-if
-0
-#
 ifdef
 MOZ_WIDGET_ANDROID
 gfx3DMatrix
@@ -709,7 +706,7 @@ GetTransform
 transform
 *
 =
-worldTransform
+v
 ;
 TransformLayerUserData
 *
@@ -733,8 +730,6 @@ transform
 transformUserData
 )
 ;
-#
-endif
 #
 endif
 mLayerManager
