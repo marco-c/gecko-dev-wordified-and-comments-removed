@@ -52,6 +52,8 @@ xpcom
 \
 unicharutil
 \
+uconv
+\
 (
 LCMS_REQUIRES
 )
@@ -113,6 +115,10 @@ gfxPattern
 cpp
 \
 gfxPlatform
+.
+cpp
+\
+gfxPlatformFontList
 .
 cpp
 \
@@ -616,7 +622,7 @@ cpp
 endif
 CMMSRCS
 =
-gfxQuartzFontCache
+gfxMacPlatformFontList
 .
 mm
 #

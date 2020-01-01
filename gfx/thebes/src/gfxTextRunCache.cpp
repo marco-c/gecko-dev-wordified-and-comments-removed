@@ -19,6 +19,15 @@ nsExpirationTracker
 .
 h
 "
+enum
+{
+TEXTRUN_TIMEOUT_MS
+=
+10
+*
+1000
+}
+;
 class
 TextRunExpiringCache
 :
@@ -41,9 +50,7 @@ gfxTextRun
 3
 >
 (
-10
-*
-1000
+TEXTRUN_TIMEOUT_MS
 )
 {
 }

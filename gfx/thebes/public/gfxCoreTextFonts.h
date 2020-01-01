@@ -55,9 +55,6 @@ class
 MacOSFontEntry
 ;
 class
-MacOSFamilyEntry
-;
-class
 gfxCoreTextFont
 :
 public
@@ -629,7 +626,7 @@ aLayoutLength
 ;
 nsRefPtr
 <
-MacOSFamilyEntry
+gfxFontFamily
 >
 mLastPrefFamily
 ;

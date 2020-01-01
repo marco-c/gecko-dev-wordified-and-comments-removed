@@ -106,15 +106,6 @@ aFontStyle
 ;
 public
 :
-nsTArray
-<
-nsRefPtr
-<
-FontEntry
->
->
-mFaces
-;
 nsString
 mName
 ;

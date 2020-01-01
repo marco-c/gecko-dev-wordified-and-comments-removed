@@ -58,9 +58,6 @@ class
 MacOSFontEntry
 ;
 class
-MacOSFamilyEntry
-;
-class
 gfxAtsuiFont
 :
 public
@@ -544,7 +541,7 @@ protected
 :
 static
 PRBool
-FindATSUFont
+FindATSFont
 (
 const
 nsAString
@@ -593,7 +590,7 @@ InitFontList
 ;
 nsRefPtr
 <
-MacOSFamilyEntry
+gfxFontFamily
 >
 mLastPrefFamily
 ;
