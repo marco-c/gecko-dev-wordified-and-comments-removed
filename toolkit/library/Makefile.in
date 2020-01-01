@@ -2390,6 +2390,8 @@ endif
 endif
 ifdef
 MOZ_GAMEPAD
+ifndef
+GNU_CC
 DXSDK
 :
 =
@@ -2434,6 +2436,17 @@ lib
 (
 NULL
 )
+else
+OS_LIBS
++
+=
+(
+call
+EXPAND_LIBNAME
+dxguid
+dinput8
+)
+endif
 endif
 endif
 #
