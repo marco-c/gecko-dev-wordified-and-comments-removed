@@ -473,6 +473,11 @@ harness
 failure
 reporting
 #
+browser_zz_fail_openwindow
+.
+js
+\
+#
 browser_fail
 .
 js
