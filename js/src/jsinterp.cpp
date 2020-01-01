@@ -744,7 +744,7 @@ if
 p
 -
 >
-isObject
+isObjectOrNull
 (
 )
 )
