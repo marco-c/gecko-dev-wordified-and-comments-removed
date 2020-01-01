@@ -340,9 +340,6 @@ Token
 struct
 TokenPos
 ;
-struct
-TokenPtr
-;
 class
 TokenStream
 ;
