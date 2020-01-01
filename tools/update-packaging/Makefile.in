@@ -245,6 +245,13 @@ mbsdiff
 (
 HOST_BIN_SUFFIX
 )
+.
+DEFAULT_GOAL
+:
+=
+full
+-
+update
 full
 -
 update

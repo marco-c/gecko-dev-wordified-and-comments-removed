@@ -342,6 +342,11 @@ locales
 /
 installer
 endif
+.
+DEFAULT_GOAL
+:
+=
+installer
 installer
 :
 :
