@@ -399,6 +399,12 @@ dblclick
 if
 (
 !
+InputSourceHelper
+.
+isPrecise
+&
+&
+!
 SelectionHelperUI
 .
 isActive
