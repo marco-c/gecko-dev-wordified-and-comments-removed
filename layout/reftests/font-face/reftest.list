@@ -755,7 +755,6 @@ bug
 (
 windows
 )
-skip
 HTTP
 (
 .
@@ -783,9 +782,6 @@ fallback
 ref
 .
 html
-#
-bug
-481729
 #
 Postscript
 name
