@@ -25,7 +25,6 @@ stdarg
 .
 h
 >
-JS_BEGIN_EXTERN_C
 extern
 JS_PUBLIC_API
 (
@@ -210,6 +209,5 @@ va_list
 ap
 )
 ;
-JS_END_EXTERN_C
 #
 endif

@@ -32,7 +32,6 @@ jsutil
 .
 h
 "
-JS_BEGIN_EXTERN_C
 typedef
 enum
 JSOp
@@ -2141,7 +2140,6 @@ pop
 )
 #
 endif
-JS_END_EXTERN_C
 #
 define
 JSDVG_IGNORE_STACK

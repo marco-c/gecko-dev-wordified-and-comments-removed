@@ -117,7 +117,6 @@ sanityCheck
 ;
 }
 ;
-JS_BEGIN_EXTERN_C
 typedef
 struct
 PRMJTime
@@ -226,6 +225,5 @@ PRMJTime
 tm
 )
 ;
-JS_END_EXTERN_C
 #
 endif

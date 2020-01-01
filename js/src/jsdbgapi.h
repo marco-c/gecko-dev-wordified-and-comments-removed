@@ -18,12 +18,6 @@ jsprvtd
 .
 h
 "
-#
-if
-defined
-(
-__cplusplus
-)
 namespace
 JS
 {
@@ -157,9 +151,6 @@ NULL
 ;
 #
 endif
-#
-endif
-JS_BEGIN_EXTERN_C
 JS_FRIEND_API
 (
 void
@@ -1662,6 +1653,5 @@ JSContext
 cx
 )
 ;
-JS_END_EXTERN_C
 #
 endif

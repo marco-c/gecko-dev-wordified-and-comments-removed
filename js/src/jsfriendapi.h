@@ -50,7 +50,6 @@ GuardObjects
 .
 h
 "
-JS_BEGIN_EXTERN_C
 #
 if
 JS_STACK_GROWTH_DIRECTION
@@ -524,9 +523,6 @@ n
 ;
 #
 endif
-#
-ifdef
-__cplusplus
 extern
 JS_FRIEND_API
 (
@@ -693,12 +689,6 @@ JSFunctionSpecWithHelp
 fs
 )
 ;
-#
-endif
-JS_END_EXTERN_C
-#
-ifdef
-__cplusplus
 typedef
 bool
 (
@@ -4068,8 +4058,6 @@ GetListBaseExpandoSlot
 )
 ;
 }
-#
-endif
 extern
 JS_FRIEND_API
 (
@@ -4158,9 +4146,6 @@ JSStructuredCloneWriter
 writer
 )
 ;
-#
-ifdef
-__cplusplus
 namespace
 js
 {
@@ -4196,14 +4181,6 @@ ArrayBufferView
 ViewType
 JSArrayBufferViewType
 ;
-#
-else
-typedef
-uint32_t
-JSArrayBufferViewType
-;
-#
-endif
 extern
 JS_FRIEND_API
 (
@@ -5452,9 +5429,6 @@ JSContext
 maybecx
 )
 ;
-#
-ifdef
-__cplusplus
 typedef
 bool
 (
@@ -5647,8 +5621,6 @@ jitinfo
 info
 ;
 }
-#
-endif
 static
 JS_ALWAYS_INLINE
 jsid
@@ -5801,9 +5773,6 @@ jsid
 JS_BYTES_PER_WORD
 )
 ;
-#
-ifdef
-__cplusplus
 namespace
 js
 {
@@ -5908,7 +5877,5 @@ id
 ;
 }
 }
-#
-endif
 #
 endif

@@ -593,7 +593,6 @@ me
 "
 #
 endif
-JS_BEGIN_EXTERN_C
 typedef
 int
 JSBool
@@ -854,6 +853,5 @@ s
 s
 #
 endif
-JS_END_EXTERN_C
 #
 endif

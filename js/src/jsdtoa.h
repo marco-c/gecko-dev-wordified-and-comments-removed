@@ -4,7 +4,6 @@ jsdtoa_h___
 #
 define
 jsdtoa_h___
-JS_BEGIN_EXTERN_C
 struct
 DtoaState
 ;
@@ -121,6 +120,5 @@ double
 d
 )
 ;
-JS_END_EXTERN_C
 #
 endif

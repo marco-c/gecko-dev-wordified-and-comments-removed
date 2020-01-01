@@ -63,9 +63,6 @@ jstypes
 h
 "
 #
-ifdef
-__cplusplus
-#
 include
 "
 js
@@ -103,9 +100,6 @@ namespace
 mozilla
 ;
 }
-#
-endif
-JS_BEGIN_EXTERN_C
 #
 define
 JS_FREE_PATTERN
@@ -646,6 +640,7 @@ p
 }
 #
 endif
+JS_BEGIN_EXTERN_C
 #
 if
 defined
@@ -1525,6 +1520,7 @@ SUPPORTED
 "
 #
 endif
+JS_END_EXTERN_C
 #
 define
 JS_CEILING_LOG2W
@@ -1666,10 +1662,6 @@ bits
 )
 #
 endif
-JS_END_EXTERN_C
-#
-ifdef
-__cplusplus
 #
 include
 <
@@ -3301,8 +3293,6 @@ false
 endif
 }
 }
-#
-endif
 typedef
 size_t
 (
