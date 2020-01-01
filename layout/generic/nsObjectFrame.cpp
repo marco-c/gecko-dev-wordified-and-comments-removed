@@ -9712,6 +9712,12 @@ ForceRedraw
 (
 )
 {
+NS_ENSURE_TRUE
+(
+mOwner
+NS_ERROR_NULL_POINTER
+)
+;
 nsIView
 *
 view
