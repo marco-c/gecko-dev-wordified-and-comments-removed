@@ -4092,6 +4092,10 @@ null
 break
 ;
 }
+return
+{
+}
+;
 }
 supportsCommand
 :

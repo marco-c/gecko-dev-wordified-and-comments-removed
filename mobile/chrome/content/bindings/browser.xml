@@ -926,6 +926,8 @@ this
 _documentURI
 )
 return
+{
+}
 ;
 let
 linkType
@@ -1038,6 +1040,10 @@ break
 break
 ;
 }
+return
+{
+}
+;
 ]
 ]
 >

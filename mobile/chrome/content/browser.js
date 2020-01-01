@@ -3852,6 +3852,8 @@ messageManager
 addMessageListener
 (
 "
+Browser
+:
 MozApplicationManifest
 "
 OfflineApps
@@ -17593,6 +17595,8 @@ name
 =
 =
 "
+Browser
+:
 MozApplicationManifest
 "
 )
