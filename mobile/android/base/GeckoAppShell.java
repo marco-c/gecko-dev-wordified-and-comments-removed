@@ -1059,6 +1059,8 @@ e
 cause
 ;
 }
+try
+{
 Log
 .
 e
@@ -1105,10 +1107,6 @@ if
 (
 e
 instanceof
-java
-.
-lang
-.
 OutOfMemoryError
 )
 {
@@ -1155,6 +1153,9 @@ commit
 )
 ;
 }
+}
+finally
+{
 reportJavaCrash
 (
 getStackTraceString
@@ -1163,6 +1164,7 @@ e
 )
 )
 ;
+}
 }
 }
 )
