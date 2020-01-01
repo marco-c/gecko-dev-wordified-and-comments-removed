@@ -88,7 +88,7 @@ MODULE
 :
 =
 txmgr
-DIRS
+PARALLEL_DIRS
 :
 =
 public

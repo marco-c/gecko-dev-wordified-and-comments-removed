@@ -88,7 +88,7 @@ MODULE
 :
 =
 txtsvc
-DIRS
+PARALLEL_DIRS
 :
 =
 public

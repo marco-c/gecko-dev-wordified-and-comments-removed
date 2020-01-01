@@ -89,7 +89,7 @@ MODULE
 :
 =
 editor
-DIRS
+PARALLEL_DIRS
 :
 =
 public
