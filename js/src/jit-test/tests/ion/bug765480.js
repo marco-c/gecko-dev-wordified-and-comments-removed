@@ -36,7 +36,7 @@ i
 )
 {
 arguments
-XML
+Array
 ;
 }
 }

@@ -60,11 +60,7 @@ function
 (
 )
 {
-n
-.
-(
-O
-)
+true
 }
 (
 )

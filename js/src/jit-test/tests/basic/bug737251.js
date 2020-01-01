@@ -6,7 +6,7 @@ a
 .
 getOwnPropertyDescriptor
 =
-XML
+Array
 ;
 b
 =

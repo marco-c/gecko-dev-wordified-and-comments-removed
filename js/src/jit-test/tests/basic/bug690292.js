@@ -27,13 +27,8 @@ create
 var
 d
 =
-<
-x
->
-<
-/
-x
->
+{
+}
 }
 catch
 (

@@ -37,10 +37,8 @@ case
 "
 :
 case
-<
-x
-/
->
+{
+}
 :
 break
 ;

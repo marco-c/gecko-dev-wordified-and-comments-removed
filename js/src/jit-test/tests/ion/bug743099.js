@@ -76,12 +76,7 @@ i
 a
 )
 :
-isXMLName
-.
-anonymous
-(
-i
-)
+true
 uneval
 ;
 }

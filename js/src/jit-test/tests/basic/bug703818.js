@@ -2,7 +2,7 @@ Object
 .
 defineProperty
 (
-Namespace
+Array
 .
 prototype
 "

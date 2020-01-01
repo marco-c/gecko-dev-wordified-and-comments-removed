@@ -51,7 +51,8 @@ o13
 var
 o0
 =
-XMLList
+[
+]
 ;
 function
 f3
