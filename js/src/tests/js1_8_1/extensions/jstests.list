@@ -131,12 +131,6 @@ new
 parenthesization
 .
 js
-fails
--
-if
-(
-Android
-)
 script
 strict
 -

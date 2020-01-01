@@ -17,7 +17,7 @@ js1_8_1
 /
 strict
 /
-fails
+skip
 -
 if
 (
@@ -31,7 +31,7 @@ script
 2
 .
 js
-fails
+skip
 -
 if
 (
@@ -45,7 +45,7 @@ script
 1
 .
 js
-fails
+skip
 -
 if
 (
@@ -59,7 +59,7 @@ eval
 arguments
 .
 js
-fails
+skip
 -
 if
 (

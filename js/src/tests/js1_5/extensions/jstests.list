@@ -1013,12 +1013,6 @@ regress
 365692
 .
 js
-fails
--
-if
-(
-Android
-)
 script
 regress
 -
@@ -1158,12 +1152,6 @@ regress
 367630
 .
 js
-fails
--
-if
-(
-Android
-)
 script
 regress
 -
