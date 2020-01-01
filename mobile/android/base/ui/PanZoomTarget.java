@@ -51,6 +51,12 @@ getZoomConstraints
 )
 ;
 public
+boolean
+isFullScreen
+(
+)
+;
+public
 void
 setAnimationTarget
 (
