@@ -304,6 +304,11 @@ const
 {
 JS_ASSERT
 (
+backing
+(
+)
+-
+>
 v_
 .
 s
