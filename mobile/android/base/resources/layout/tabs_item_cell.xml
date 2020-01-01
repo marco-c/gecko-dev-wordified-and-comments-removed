@@ -293,10 +293,12 @@ EFFF
 "
 android
 :
-layout_alignParentBottom
+layout_below
 =
 "
-true
+id
+/
+thumbnail
 "
 android
 :
