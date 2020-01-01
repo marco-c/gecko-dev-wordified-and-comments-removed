@@ -1047,6 +1047,17 @@ fe
 isConstant
 (
 )
+&
+&
+!
+fe
+-
+>
+type
+.
+synced
+(
+)
 )
 fe
 -
