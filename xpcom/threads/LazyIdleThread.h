@@ -63,6 +63,13 @@ nsCOMPtr
 h
 "
 #
+include
+"
+nsTArray
+.
+h
+"
+#
 define
 IDLE_THREAD_TOPIC
 "
