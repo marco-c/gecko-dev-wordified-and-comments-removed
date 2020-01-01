@@ -2417,6 +2417,9 @@ aOptions
 aPattern
 )
 ;
+if
+(
+!
 StrokeOptionsToPaint
 (
 paint
@@ -2424,7 +2427,11 @@ paint
 mPaint
 aStrokeOptions
 )
+)
+{
+return
 ;
+}
 mCanvas
 -
 >
@@ -2482,6 +2489,9 @@ aOptions
 aPattern
 )
 ;
+if
+(
+!
 StrokeOptionsToPaint
 (
 paint
@@ -2489,7 +2499,11 @@ paint
 mPaint
 aStrokeOptions
 )
+)
+{
+return
 ;
+}
 mCanvas
 -
 >
@@ -2549,6 +2563,9 @@ aOptions
 aPattern
 )
 ;
+if
+(
+!
 StrokeOptionsToPaint
 (
 paint
@@ -2556,7 +2573,11 @@ paint
 mPaint
 aStrokeOptions
 )
+)
+{
+return
 ;
+}
 mCanvas
 -
 >

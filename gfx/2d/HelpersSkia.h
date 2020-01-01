@@ -265,7 +265,7 @@ kDefault_Join
 }
 static
 inline
-void
+bool
 StrokeOptionsToPaint
 (
 SkPaint
@@ -277,6 +277,18 @@ StrokeOptions
 aOptions
 )
 {
+if
+(
+!
+aOptions
+.
+mLineWidth
+)
+{
+return
+false
+;
+}
 aPaint
 .
 setStrokeWidth
@@ -330,6 +342,8 @@ if
 aOptions
 .
 mDashLength
+>
+1
 )
 {
 std
@@ -428,6 +442,9 @@ SkPaint
 :
 kStroke_Style
 )
+;
+return
+true
 ;
 }
 }
