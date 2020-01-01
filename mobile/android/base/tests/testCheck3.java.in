@@ -513,7 +513,7 @@ mozilla
 .
 gecko
 .
-GeckoAppShell
+ScreenshotHandler
 "
 )
 ;
