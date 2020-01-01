@@ -431,6 +431,12 @@ level2
 -
 core
 \
+dom
+-
+level2
+-
+html
+\
 ajax
 \
 bugs
