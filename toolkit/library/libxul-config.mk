@@ -609,6 +609,8 @@ STATIC_LIBS
 +
 =
 \
+domplugins_s
+\
 mozipc_s
 \
 chromium_s
