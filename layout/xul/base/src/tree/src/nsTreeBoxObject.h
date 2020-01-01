@@ -52,6 +52,16 @@ GetTreeBody
 (
 )
 ;
+nsITreeBoxObject
+*
+GetCachedTreeBody
+(
+)
+{
+return
+mTreeBody
+;
+}
 virtual
 void
 Clear
