@@ -876,7 +876,7 @@ nsDOMSlots
 *
 slots
 =
-GetDOMSlots
+DOMSlots
 (
 )
 ;
