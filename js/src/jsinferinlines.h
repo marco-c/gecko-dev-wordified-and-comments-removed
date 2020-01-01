@@ -8867,7 +8867,7 @@ template
 <
 >
 struct
-RootMethods
+GCMethods
 <
 const
 types
@@ -8965,7 +8965,7 @@ template
 <
 >
 struct
-RootMethods
+GCMethods
 <
 types
 :

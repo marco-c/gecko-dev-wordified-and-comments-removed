@@ -954,7 +954,7 @@ true
 ;
 }
 Bindings
-RootMethods
+GCMethods
 <
 Bindings
 >

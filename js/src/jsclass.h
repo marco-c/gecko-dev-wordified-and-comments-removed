@@ -1769,7 +1769,7 @@ template
 <
 >
 struct
-RootMethods
+GCMethods
 <
 SpecialId
 >

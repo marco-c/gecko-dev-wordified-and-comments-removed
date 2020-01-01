@@ -636,7 +636,7 @@ template
 <
 >
 struct
-RootMethods
+GCMethods
 <
 Bindings
 >

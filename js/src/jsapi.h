@@ -6087,7 +6087,7 @@ template
 <
 >
 struct
-RootMethods
+GCMethods
 <
 jsid
 >
@@ -11893,7 +11893,7 @@ template
 <
 >
 struct
-RootMethods
+GCMethods
 <
 JSPropertyDescriptor
 >

@@ -7335,7 +7335,7 @@ template
 <
 >
 struct
-RootMethods
+GCMethods
 <
 PropertyId
 >

@@ -224,7 +224,7 @@ template
 <
 >
 struct
-RootMethods
+GCMethods
 <
 const
 TaggedProto
@@ -279,7 +279,7 @@ template
 <
 >
 struct
-RootMethods
+GCMethods
 <
 TaggedProto
 >
