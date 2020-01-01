@@ -479,6 +479,10 @@ browser_library_search
 .
 js
 \
+browser_history_sidebar_search
+.
+js
+\
 (
 NULL
 )
