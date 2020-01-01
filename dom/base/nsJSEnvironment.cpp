@@ -13430,7 +13430,7 @@ T
 duration
 :
 %
-llums
+lums
 suspected
 :
 %
