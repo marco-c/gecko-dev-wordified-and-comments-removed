@@ -742,6 +742,10 @@ test_xhr_timeout
 .
 html
 \
+test_blobConstructor
+.
+html
+\
 (
 NULL
 )
