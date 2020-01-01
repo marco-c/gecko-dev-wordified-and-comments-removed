@@ -6073,7 +6073,7 @@ mir
 (
 )
 ;
-int
+size_t
 numCases
 =
 mir

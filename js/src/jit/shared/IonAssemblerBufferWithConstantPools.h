@@ -160,7 +160,7 @@ immSize_
 )
 instSize
 (
-instSize
+instSize_
 )
 bias
 (
