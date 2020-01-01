@@ -1556,6 +1556,13 @@ components
 nsWebHandlerApp
 .
 js
+bin
+\
+components
+\
+aboutRobots
+.
+js
 ;
 Modules
 bin

@@ -1638,6 +1638,13 @@ components
 libdbusservice
 .
 so
+bin
+/
+components
+/
+aboutRobots
+.
+js
 ;
 Modules
 bin
