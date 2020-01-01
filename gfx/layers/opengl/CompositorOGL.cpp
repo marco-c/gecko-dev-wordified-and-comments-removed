@@ -5176,7 +5176,9 @@ intClipRect
 mGLContext
 -
 >
-fScissor
+PushScissorRect
+(
+nsIntRect
 (
 intClipRect
 .
@@ -5190,6 +5192,7 @@ width
 intClipRect
 .
 height
+)
 )
 ;
 MaskType
@@ -6612,6 +6615,13 @@ type
 break
 ;
 }
+mGLContext
+-
+>
+PopScissorRect
+(
+)
+;
 mGLContext
 -
 >
