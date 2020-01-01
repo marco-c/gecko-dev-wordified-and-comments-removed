@@ -2168,6 +2168,9 @@ s
 uintN
 js_GetIndexFromBytecode
 (
+JSContext
+*
+cx
 JSScript
 *
 script
@@ -2195,6 +2198,7 @@ index_
 =
 js_GetIndexFromBytecode
 (
+cx
 (
 script
 )
@@ -2235,6 +2239,7 @@ index_
 =
 js_GetIndexFromBytecode
 (
+cx
 (
 script
 )
@@ -2311,6 +2316,7 @@ index_
 =
 js_GetIndexFromBytecode
 (
+cx
 (
 script
 )
