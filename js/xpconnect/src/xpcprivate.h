@@ -14495,15 +14495,6 @@ text
 ;
 extern
 JSBool
-xpc_DumpJSObject
-(
-JSObject
-*
-obj
-)
-;
-extern
-JSBool
 xpc_InstallJSDebuggerKeywordHandler
 (
 JSRuntime
