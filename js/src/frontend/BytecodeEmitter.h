@@ -386,6 +386,12 @@ hasGlobalScope
 :
 1
 ;
+const
+bool
+selfHostingMode
+:
+1
+;
 BytecodeEmitter
 (
 BytecodeEmitter
@@ -406,6 +412,10 @@ bool
 hasGlobalScope
 unsigned
 lineno
+bool
+selfHostingMode
+=
+false
 )
 ;
 bool

@@ -12216,6 +12216,14 @@ useSavedRoots
 ;
 #
 endif
+rt
+-
+>
+markSelfHostedGlobal
+(
+trc
+)
+;
 }
 for
 (

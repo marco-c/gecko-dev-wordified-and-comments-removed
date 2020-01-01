@@ -4148,7 +4148,7 @@ the
 CompileOptions
 flag
 "
-allowIntrinsicsCalls
+selfHostingMode
 "
 is
 set

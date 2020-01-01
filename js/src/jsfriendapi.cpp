@@ -1662,6 +1662,7 @@ id
 call
 nargs
 attrs
+NULL
 JSFunction
 :
 :

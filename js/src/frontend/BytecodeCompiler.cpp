@@ -567,6 +567,9 @@ globalScope
 options
 .
 lineno
+options
+.
+selfHostingMode
 )
 ;
 if

@@ -158,7 +158,7 @@ compileAndGo
 ;
 const
 bool
-allowIntrinsicsCalls
+selfHostingMode
 :
 1
 ;
