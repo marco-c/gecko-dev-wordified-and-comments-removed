@@ -371,6 +371,12 @@ Shutdown
 (
 )
 ;
+nsHTMLMediaElement
+*
+GetMediaElement
+(
+)
+;
 protected
 :
 nsresult
