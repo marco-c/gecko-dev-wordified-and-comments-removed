@@ -2551,7 +2551,7 @@ gcFile
 FinStr
 Destroy
 newChunks
-destoyChunks
+destroyChunks
 \
 n
 "
