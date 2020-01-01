@@ -99,10 +99,6 @@ button
 should
 be
 present
-(
-but
-hidden
-)
 for
 malware
 "
@@ -127,7 +123,10 @@ style
 .
 display
 "
-none
+-
+moz
+-
+box
 "
 "
 Ignore
@@ -137,7 +136,10 @@ should
 be
 display
 :
-none
+-
+moz
+-
+box
 for
 malware
 "
