@@ -386,13 +386,6 @@ h
 #
 include
 "
-nsIFrameTraversal
-.
-h
-"
-#
-include
-"
 nsLayoutCID
 .
 h
@@ -656,13 +649,6 @@ nsIntPoint
 1
 -
 1
-)
-;
-static
-NS_DEFINE_CID
-(
-kFrameTraversalCID
-NS_FRAMETRAVERSAL_CID
 )
 ;
 static
