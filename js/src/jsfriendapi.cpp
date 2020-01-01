@@ -1690,15 +1690,16 @@ isFunctionFrame
 return
 NULL
 ;
-JSFunction
-*
+RootedFunction
 scriptedCaller
-=
+(
+cx
 fp
 -
 >
 fun
 (
+)
 )
 ;
 RootedScript
@@ -1718,6 +1719,7 @@ for
 StaticScopeIter
 i
 (
+cx
 scriptedCaller
 )
 ;

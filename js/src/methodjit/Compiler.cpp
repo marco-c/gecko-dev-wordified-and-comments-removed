@@ -34584,14 +34584,11 @@ reg
 UnrootedShape
 shape
 =
-ScopeCoordinateToStaticScope
+ScopeCoordinateToStaticScopeShape
 (
+cx
 script_
 PC
-)
-.
-scopeShape
-(
 )
 ;
 Address
