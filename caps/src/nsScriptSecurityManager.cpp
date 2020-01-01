@@ -3346,6 +3346,10 @@ CallMethodDeniedOrigins
 )
 ;
 }
+objectPrincipal
+=
+nsnull
+;
 NS_ConvertUTF8toUTF16
 className
 (
