@@ -551,7 +551,7 @@ aIsInserted
 ;
 already_AddRefed
 <
-nsIAccessibleTextChangeEvent
+nsIAccessibleEvent
 >
 CreateTextChangeEventForNode
 (

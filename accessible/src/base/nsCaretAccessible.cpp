@@ -1059,7 +1059,7 @@ textAcc
 ;
 nsCOMPtr
 <
-nsIAccessibleCaretMoveEvent
+nsIAccessibleEvent
 >
 event
 =

@@ -4053,7 +4053,7 @@ sameTypeRootOfFocus
 {
 nsCOMPtr
 <
-nsIAccessibleStateChangeEvent
+nsIAccessibleEvent
 >
 accEvent
 =
@@ -4098,7 +4098,7 @@ isFinished
 {
 nsCOMPtr
 <
-nsIAccessibleStateChangeEvent
+nsIAccessibleEvent
 >
 accEvent
 =
@@ -4513,7 +4513,7 @@ obs_documentCreated
 {
 nsCOMPtr
 <
-nsIAccessibleStateChangeEvent
+nsIAccessibleEvent
 >
 event
 =
@@ -4819,7 +4819,7 @@ aria_disabled
 {
 nsCOMPtr
 <
-nsIAccessibleStateChangeEvent
+nsIAccessibleEvent
 >
 enabledChangeEvent
 =
@@ -4841,7 +4841,7 @@ enabledChangeEvent
 ;
 nsCOMPtr
 <
-nsIAccessibleStateChangeEvent
+nsIAccessibleEvent
 >
 sensitiveChangeEvent
 =
@@ -5170,7 +5170,7 @@ contenteditable
 {
 nsCOMPtr
 <
-nsIAccessibleStateChangeEvent
+nsIAccessibleEvent
 >
 editableChangeEvent
 =
@@ -5240,7 +5240,7 @@ aria_required
 {
 nsCOMPtr
 <
-nsIAccessibleStateChangeEvent
+nsIAccessibleEvent
 >
 event
 =
@@ -5276,7 +5276,7 @@ aria_invalid
 {
 nsCOMPtr
 <
-nsIAccessibleStateChangeEvent
+nsIAccessibleEvent
 >
 event
 =
@@ -5429,7 +5429,7 @@ STATE_PRESSED
 ;
 nsCOMPtr
 <
-nsIAccessibleStateChangeEvent
+nsIAccessibleEvent
 >
 event
 =
@@ -5522,7 +5522,7 @@ isMixed
 {
 nsCOMPtr
 <
-nsIAccessibleStateChangeEvent
+nsIAccessibleEvent
 >
 event
 =
@@ -5562,7 +5562,7 @@ aria_expanded
 {
 nsCOMPtr
 <
-nsIAccessibleStateChangeEvent
+nsIAccessibleEvent
 >
 event
 =
@@ -5598,7 +5598,7 @@ aria_readonly
 {
 nsCOMPtr
 <
-nsIAccessibleStateChangeEvent
+nsIAccessibleEvent
 >
 event
 =
@@ -6336,7 +6336,7 @@ return
 ;
 nsCOMPtr
 <
-nsIAccessibleTextChangeEvent
+nsIAccessibleEvent
 >
 event
 =
@@ -6369,7 +6369,7 @@ accessible
 }
 already_AddRefed
 <
-nsIAccessibleTextChangeEvent
+nsIAccessibleEvent
 >
 nsDocAccessible
 :
@@ -6686,7 +6686,7 @@ return
 nsnull
 ;
 }
-nsIAccessibleTextChangeEvent
+nsIAccessibleEvent
 *
 event
 =
@@ -7302,7 +7302,7 @@ mDOMNode
 {
 nsCOMPtr
 <
-nsIAccessibleTextChangeEvent
+nsIAccessibleEvent
 >
 textChangeEvent
 =
@@ -7528,7 +7528,7 @@ accForFocus
 endif
 nsCOMPtr
 <
-nsIAccessibleCaretMoveEvent
+nsIAccessibleEvent
 >
 caretMoveEvent
 =
@@ -8978,7 +8978,7 @@ mDOMNode
 {
 nsCOMPtr
 <
-nsIAccessibleTextChangeEvent
+nsIAccessibleEvent
 >
 textChangeEvent
 =

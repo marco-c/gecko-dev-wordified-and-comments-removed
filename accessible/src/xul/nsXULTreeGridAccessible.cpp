@@ -4989,7 +4989,7 @@ true
 ;
 nsCOMPtr
 <
-nsIAccessibleStateChangeEvent
+nsIAccessibleEvent
 >
 accEvent
 =
