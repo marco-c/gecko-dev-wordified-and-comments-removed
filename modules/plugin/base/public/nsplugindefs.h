@@ -355,6 +355,9 @@ XP_MACOSX
 nsPluginInstanceVariable_DrawingModel
 =
 20
+nsPluginInstanceVariable_EventModel
+=
+21
 #
 endif
 }
@@ -392,7 +395,8 @@ nsPluginWindowType_Drawable
 ifdef
 XP_MACOSX
 typedef
-WindowRef
+void
+*
 nsPluginPlatformWindowRef
 ;
 #
@@ -424,7 +428,8 @@ nsPluginPortCG
 CGContextRef
 context
 ;
-WindowRef
+void
+*
 window
 ;
 }
@@ -617,7 +622,7 @@ nsPluginEvent
 #
 ifdef
 XP_MACOSX
-EventRecord
+void
 *
 event
 ;
