@@ -41,6 +41,7 @@ nsIThread
 BEGIN_INDEXEDDB_NAMESPACE
 class
 CheckPermissionsHelper
+MOZ_FINAL
 :
 public
 nsIRunnable

@@ -207,6 +207,7 @@ NS_OK
 BEGIN_INDEXEDDB_NAMESPACE
 class
 FinishTransactionRunnable
+MOZ_FINAL
 :
 public
 nsIRunnable

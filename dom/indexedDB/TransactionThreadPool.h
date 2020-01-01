@@ -161,6 +161,7 @@ protected
 :
 class
 TransactionQueue
+MOZ_FINAL
 :
 public
 nsIRunnable

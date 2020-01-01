@@ -584,6 +584,7 @@ mCreatedFileInfos
 ;
 class
 CommitHelper
+MOZ_FINAL
 :
 public
 nsIRunnable
@@ -743,6 +744,7 @@ mAborted
 ;
 class
 UpdateRefcountFunction
+MOZ_FINAL
 :
 public
 mozIStorageFunction

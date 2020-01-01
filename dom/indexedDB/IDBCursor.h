@@ -90,6 +90,7 @@ ContinueIndexObjectHelper
 ;
 class
 IDBCursor
+MOZ_FINAL
 :
 public
 nsIIDBCursorWithValue

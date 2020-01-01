@@ -63,6 +63,7 @@ nsPIDOMWindow
 BEGIN_INDEXEDDB_NAMESPACE
 class
 CheckQuotaHelper
+MOZ_FINAL
 :
 public
 nsIRunnable

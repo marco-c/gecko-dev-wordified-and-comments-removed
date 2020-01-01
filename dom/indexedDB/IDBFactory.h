@@ -63,6 +63,7 @@ ObjectStoreInfo
 ;
 class
 IDBFactory
+MOZ_FINAL
 :
 public
 nsIIDBFactory
