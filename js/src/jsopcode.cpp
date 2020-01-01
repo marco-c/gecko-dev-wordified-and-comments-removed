@@ -26708,6 +26708,18 @@ do_fallback
 {
 jsbytecode
 *
+pc
+=
+cx
+-
+>
+regs
+-
+>
+pc
+;
+jsbytecode
+*
 savedImacropc
 =
 fp
@@ -26818,7 +26830,7 @@ regs
 >
 pc
 =
-savedImacropc
+pc
 ;
 fp
 -
