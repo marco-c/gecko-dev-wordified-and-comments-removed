@@ -5115,6 +5115,13 @@ str
 {
 this
 .
+clearResults
+(
+false
+)
+;
+this
+.
 closeResultPopup
 (
 )
