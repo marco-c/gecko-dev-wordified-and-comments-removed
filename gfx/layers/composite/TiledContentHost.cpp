@@ -372,6 +372,8 @@ aLayer
 Compositor
 *
 aCompositor
+AttachFlags
+aFlags
 )
 {
 CompositableHost
@@ -381,6 +383,7 @@ Attach
 (
 aLayer
 aCompositor
+aFlags
 )
 ;
 static_cast
