@@ -166,13 +166,13 @@ mCurrentTableItem
 (
 nsnull
 )
-mBuildCaret
-(
-aBuildCaret
-)
 mMode
 (
 aMode
+)
+mBuildCaret
+(
+aBuildCaret
 )
 mIgnoreSuppression
 (
