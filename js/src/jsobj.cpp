@@ -24703,6 +24703,15 @@ oldproto
 isNative
 (
 )
+&
+&
+!
+oldproto
+-
+>
+hasUncacheableProto
+(
+)
 )
 {
 if
