@@ -415,6 +415,7 @@ prtProgress
 new
 nsPrintProgress
 (
+printSettings
 )
 ;
 nsresult
