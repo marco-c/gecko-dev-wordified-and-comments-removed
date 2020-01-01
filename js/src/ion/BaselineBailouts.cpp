@@ -2061,6 +2061,13 @@ pcOffset
 !
 =
 0
+|
+|
+iter
+.
+resumeAfter
+(
+)
 )
 {
 if
