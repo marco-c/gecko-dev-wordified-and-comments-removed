@@ -436,6 +436,7 @@ DIRS
 chrome
 locales
 components
+modules
 themes
 app
 ifndef

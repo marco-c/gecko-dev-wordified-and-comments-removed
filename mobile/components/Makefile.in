@@ -525,6 +525,10 @@ AddonUpdateService
 .
 js
 \
+FormAutoComplete
+.
+js
+\
 (
 NULL
 )

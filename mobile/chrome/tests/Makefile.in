@@ -510,6 +510,10 @@ browser_sessionstore
 .
 js
 \
+browser_contacts
+.
+js
+\
 browser_blank_01
 .
 html
