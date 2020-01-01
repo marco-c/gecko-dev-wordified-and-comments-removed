@@ -2812,9 +2812,6 @@ init
 (
 )
 ;
-#
-ifdef
-MOZ_IPC
 Cc
 [
 "
@@ -2843,8 +2840,6 @@ ensureContentProcess
 (
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_SERVICES_SYNC
