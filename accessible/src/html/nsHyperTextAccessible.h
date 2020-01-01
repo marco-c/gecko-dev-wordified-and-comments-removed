@@ -379,6 +379,11 @@ PRInt32
 aEndOffset
 )
 ;
+bool
+IsTextRole
+(
+)
+;
 inline
 PRUint32
 CharacterCount

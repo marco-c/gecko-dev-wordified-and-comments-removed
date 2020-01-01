@@ -507,7 +507,7 @@ CAccessibleHyperlink
 .
 cpp
 \
-CAccessibleHypertext
+ia2AccessibleHypertext
 .
 cpp
 \
@@ -617,7 +617,7 @@ CAccessibleHyperlink
 .
 h
 \
-CAccessibleHypertext
+ia2AccessibleHypertext
 .
 h
 \

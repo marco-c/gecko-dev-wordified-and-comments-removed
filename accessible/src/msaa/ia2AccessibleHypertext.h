@@ -26,7 +26,7 @@ AccessibleHypertext
 h
 "
 class
-CAccessibleHypertext
+ia2AccessibleHypertext
 :
 public
 CAccessibleText
