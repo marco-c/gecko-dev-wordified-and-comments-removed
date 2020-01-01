@@ -8238,11 +8238,8 @@ ValueIsSpecial
 obj
 &
 propval
+&
 sid
-.
-address
-(
-)
 cx
 )
 )

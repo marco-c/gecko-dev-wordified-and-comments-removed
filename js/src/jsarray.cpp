@@ -3682,11 +3682,8 @@ ValueIsSpecial
 obj
 &
 idval
+&
 sid
-.
-address
-(
-)
 cx
 )
 )
