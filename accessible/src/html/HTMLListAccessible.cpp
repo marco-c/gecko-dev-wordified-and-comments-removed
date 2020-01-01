@@ -658,7 +658,7 @@ NativeState
 )
 {
 return
-nsLeafAccessible
+LeafAccessible
 :
 :
 NativeState

@@ -130,7 +130,7 @@ DocAccessible
 aDoc
 )
 :
-nsLinkableAccessible
+LinkableAccessible
 (
 aContent
 aDoc
@@ -159,7 +159,7 @@ NativeState
 PRUint64
 state
 =
-nsLinkableAccessible
+LinkableAccessible
 :
 :
 NativeState
@@ -360,7 +360,7 @@ ActionCount
 PRUint8
 actionCount
 =
-nsLinkableAccessible
+LinkableAccessible
 :
 :
 ActionCount
@@ -434,7 +434,7 @@ NS_OK
 ;
 }
 return
-nsLinkableAccessible
+LinkableAccessible
 :
 :
 GetActionName
@@ -472,7 +472,7 @@ aIndex
 )
 )
 return
-nsLinkableAccessible
+LinkableAccessible
 :
 :
 DoAction
@@ -690,7 +690,7 @@ NS_ERROR_FAILURE
 nsresult
 rv
 =
-nsLinkableAccessible
+LinkableAccessible
 :
 :
 GetAttributesInternal
@@ -961,7 +961,7 @@ return
 aIndex
 =
 =
-nsLinkableAccessible
+LinkableAccessible
 :
 :
 ActionCount

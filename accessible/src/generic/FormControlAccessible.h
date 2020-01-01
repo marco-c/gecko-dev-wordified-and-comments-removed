@@ -7,7 +7,7 @@ MOZILLA_A11Y_FormControlAccessible_H_
 #
 include
 "
-nsBaseWidgetAccessible
+BaseAccessibles
 .
 h
 "
@@ -26,7 +26,7 @@ class
 ProgressMeterAccessible
 :
 public
-nsLeafAccessible
+LeafAccessible
 {
 public
 :
@@ -40,7 +40,7 @@ DocAccessible
 aDoc
 )
 :
-nsLeafAccessible
+LeafAccessible
 (
 aContent
 aDoc
@@ -89,7 +89,7 @@ class
 RadioButtonAccessible
 :
 public
-nsLeafAccessible
+LeafAccessible
 {
 public
 :

@@ -7,14 +7,14 @@ mozilla_a11y_HTMLListAccessible_h__
 #
 include
 "
-HyperTextAccessibleWrap
+BaseAccessibles
 .
 h
 "
 #
 include
 "
-nsBaseWidgetAccessible
+HyperTextAccessibleWrap
 .
 h
 "
@@ -170,7 +170,7 @@ class
 HTMLListBulletAccessible
 :
 public
-nsLeafAccessible
+LeafAccessible
 {
 public
 :
@@ -184,7 +184,7 @@ DocAccessible
 aDoc
 )
 :
-nsLeafAccessible
+LeafAccessible
 (
 aContent
 aDoc

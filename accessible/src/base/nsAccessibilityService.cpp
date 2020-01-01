@@ -1302,7 +1302,7 @@ Accessible
 accessible
 =
 new
-nsEnumRoleAccessible
+EnumRoleAccessible
 (
 aContent
 GetDocAccessible
@@ -1725,7 +1725,7 @@ Accessible
 accessible
 =
 new
-nsEnumRoleAccessible
+EnumRoleAccessible
 (
 aContent
 GetDocAccessible
@@ -5693,7 +5693,7 @@ svg
 newAcc
 =
 new
-nsEnumRoleAccessible
+EnumRoleAccessible
 (
 content
 docAcc
@@ -5722,7 +5722,7 @@ math
 newAcc
 =
 new
-nsEnumRoleAccessible
+EnumRoleAccessible
 (
 content
 docAcc
@@ -6833,7 +6833,7 @@ XULPane
 accessible
 =
 new
-nsEnumRoleAccessible
+EnumRoleAccessible
 (
 aContent
 aDoc
@@ -8468,7 +8468,7 @@ Accessible
 accessible
 =
 new
-nsEnumRoleAccessible
+EnumRoleAccessible
 (
 aContent
 aDoc

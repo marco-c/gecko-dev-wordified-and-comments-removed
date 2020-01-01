@@ -7,14 +7,14 @@ mozilla_a11y_HTMLElementAccessibles_h__
 #
 include
 "
-nsAutoPtr
+BaseAccessibles
 .
 h
 "
 #
 include
 "
-nsBaseWidgetAccessible
+nsAutoPtr
 .
 h
 "
@@ -28,7 +28,7 @@ class
 HTMLHRAccessible
 :
 public
-nsLeafAccessible
+LeafAccessible
 {
 public
 :
@@ -42,7 +42,7 @@ DocAccessible
 aDoc
 )
 :
-nsLeafAccessible
+LeafAccessible
 (
 aContent
 aDoc
@@ -65,7 +65,7 @@ class
 HTMLBRAccessible
 :
 public
-nsLeafAccessible
+LeafAccessible
 {
 public
 :
@@ -79,7 +79,7 @@ DocAccessible
 aDoc
 )
 :
-nsLeafAccessible
+LeafAccessible
 (
 aContent
 aDoc

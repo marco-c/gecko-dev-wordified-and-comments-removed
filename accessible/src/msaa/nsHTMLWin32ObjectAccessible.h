@@ -7,7 +7,7 @@ _nsHTMLWin32ObjectAccessible_H_
 #
 include
 "
-nsBaseWidgetAccessible
+BaseAccessibles
 .
 h
 "
@@ -91,7 +91,13 @@ class
 nsHTMLWin32ObjectAccessible
 :
 public
-nsLeafAccessible
+mozilla
+:
+:
+a11y
+:
+:
+LeafAccessible
 {
 public
 :
