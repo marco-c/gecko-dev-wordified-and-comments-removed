@@ -502,10 +502,6 @@ nsFormAutoComplete
 .
 js
 \
-nsFormHistory
-.
-js
-\
 nsInputListAutoComplete
 .
 js
@@ -513,6 +509,16 @@ js
 satchel
 .
 manifest
+\
+(
+NULL
+)
+EXTRA_PP_COMPONENTS
+=
+\
+nsFormHistory
+.
+js
 \
 (
 NULL
