@@ -310,9 +310,6 @@ virtual
 nsresult
 CompileMember
 (
-nsIScriptContext
-*
-aContext
 const
 nsCString
 &
@@ -349,9 +346,6 @@ virtual
 nsresult
 Write
 (
-nsIScriptContext
-*
-aContext
 nsIObjectOutputStream
 *
 aStream

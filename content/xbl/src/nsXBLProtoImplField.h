@@ -166,9 +166,6 @@ aTargetClassObject
 nsresult
 Read
 (
-nsIScriptContext
-*
-aContext
 nsIObjectInputStream
 *
 aStream
@@ -177,9 +174,6 @@ aStream
 nsresult
 Write
 (
-nsIScriptContext
-*
-aContext
 nsIObjectOutputStream
 *
 aStream

@@ -1877,14 +1877,6 @@ pending
 "
 )
 ;
-nsCOMPtr
-<
-nsIScriptContext
->
-context
-=
-aContext
-;
 JS
 :
 :
@@ -1992,7 +1984,7 @@ JSVERSION_LATEST
 ;
 rv
 =
-context
+aContext
 -
 >
 EvaluateString
@@ -2098,9 +2090,6 @@ nsXBLProtoImplField
 :
 Read
 (
-nsIScriptContext
-*
-aContext
 nsIObjectInputStream
 *
 aStream
@@ -2198,9 +2187,6 @@ nsXBLProtoImplField
 :
 Write
 (
-nsIScriptContext
-*
-aContext
 nsIObjectOutputStream
 *
 aStream

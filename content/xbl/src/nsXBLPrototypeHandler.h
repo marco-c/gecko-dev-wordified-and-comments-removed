@@ -530,9 +530,6 @@ NS_HANDLER_ALLOW_UNTRUSTED
 nsresult
 Read
 (
-nsIScriptContext
-*
-aContext
 nsIObjectInputStream
 *
 aStream
@@ -541,9 +538,6 @@ aStream
 nsresult
 Write
 (
-nsIScriptContext
-*
-aContext
 nsIObjectOutputStream
 *
 aStream
