@@ -691,14 +691,6 @@ snapshot
 )
 ;
 void
-encodeSafepoint
-(
-LSafepoint
-*
-safepoint
-)
-;
-void
 encodeSafepoints
 (
 )
