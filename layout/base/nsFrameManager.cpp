@@ -5583,6 +5583,9 @@ aMinChange
 &
 nsChangeHint_ReconstructFrame
 )
+&
+&
+childRestyleHint
 )
 {
 if
@@ -5683,6 +5686,9 @@ aMinChange
 &
 nsChangeHint_ReconstructFrame
 )
+&
+&
+childRestyleHint
 )
 {
 if
