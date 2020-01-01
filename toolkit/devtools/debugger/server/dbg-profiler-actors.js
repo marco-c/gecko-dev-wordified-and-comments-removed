@@ -538,6 +538,8 @@ unregistered
 }
 observe
 :
+makeInfallible
+(
 function
 (
 aSubject
@@ -707,6 +709,14 @@ fixup
 )
 ;
 }
+"
+ProfilerActor
+.
+prototype
+.
+observe
+"
+)
 }
 ;
 ProfilerActor
