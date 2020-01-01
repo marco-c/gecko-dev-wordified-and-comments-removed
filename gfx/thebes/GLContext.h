@@ -1553,6 +1553,10 @@ mOffscreenFBOsDirty
 (
 false
 )
+mOffscreenColorRB
+(
+0
+)
 mOffscreenDepthRB
 (
 0
@@ -2118,6 +2122,10 @@ return
 ResizeOffscreenFBO
 (
 aNewSize
+mOffscreenReadFBO
+!
+=
+0
 )
 ;
 return
@@ -3389,6 +3397,7 @@ EXT_framebuffer_blit
 ANGLE_framebuffer_blit
 EXT_framebuffer_multisample
 ANGLE_framebuffer_multisample
+OES_rgb8_rgba8
 Extensions_Max
 }
 ;
@@ -3630,6 +3639,9 @@ const
 gfxIntSize
 &
 aSize
+const
+bool
+aUseReadFBO
 )
 ;
 void
@@ -3642,6 +3654,9 @@ mOffscreenDrawFBO
 ;
 GLuint
 mOffscreenReadFBO
+;
+GLuint
+mOffscreenColorRB
 ;
 GLuint
 mOffscreenDepthRB
