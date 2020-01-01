@@ -1979,12 +1979,6 @@ case
 Qt
 :
 :
-Key_Print
-:
-case
-Qt
-:
-:
 Key_Direction_L
 :
 case
