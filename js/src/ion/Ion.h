@@ -131,6 +131,9 @@ uint32_t
 osrPcMismatchesBeforeRecompile
 ;
 uint32_t
+frequentBailoutThreshold
+;
+uint32_t
 maxStackArgs
 ;
 uint32_t
@@ -253,6 +256,10 @@ usesBeforeInliningFactor
 osrPcMismatchesBeforeRecompile
 (
 6000
+)
+frequentBailoutThreshold
+(
+10
 )
 maxStackArgs
 (

@@ -4807,7 +4807,7 @@ ionScript
 )
 -
 >
-setBailoutExpected
+incNumBailouts
 (
 )
 ;
@@ -6014,6 +6014,18 @@ kind
 )
 ;
 }
+if
+(
+!
+CheckFrequentBailouts
+(
+cx
+outerScript
+)
+)
+return
+false
+;
 return
 true
 ;

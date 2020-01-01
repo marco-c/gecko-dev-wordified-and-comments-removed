@@ -484,6 +484,17 @@ BaselineBailoutInfo
 bailoutInfo
 )
 ;
+bool
+CheckFrequentBailouts
+(
+JSContext
+*
+cx
+JSScript
+*
+script
+)
+;
 }
 }
 #
