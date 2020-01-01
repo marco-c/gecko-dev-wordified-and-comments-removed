@@ -368,6 +368,12 @@ exceptions
 .
 js
 \
+browser_dbg_multiple
+-
+windows
+.
+js
+\
 head
 .
 js
