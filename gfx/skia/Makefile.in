@@ -1943,10 +1943,6 @@ SkFontHost_gamma
 .
 cpp
 \
-FontHostConfiguration_android
-.
-cpp
-\
 SkMMapStream
 .
 cpp
