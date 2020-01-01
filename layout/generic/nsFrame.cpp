@@ -4244,6 +4244,13 @@ AppUnitsPerDevPixel
 ctx
 -
 >
+NewPath
+(
+)
+;
+ctx
+-
+>
 Rectangle
 (
 gfxRect
