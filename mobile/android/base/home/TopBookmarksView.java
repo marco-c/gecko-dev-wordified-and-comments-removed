@@ -730,6 +730,17 @@ thumbnails
 {
 if
 (
+thumbnails
+=
+=
+null
+)
+{
+return
+;
+}
+if
+(
 isLayoutRequested
 (
 )
