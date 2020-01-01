@@ -7849,6 +7849,7 @@ uri
 "
 "
 )
+{
 BrowserUI
 .
 goToURI
@@ -7856,6 +7857,13 @@ goToURI
 uri
 )
 ;
+BrowserUI
+.
+activePanel
+=
+null
+;
+}
 }
 }
 ;
