@@ -185,6 +185,24 @@ system
 /
 b2g
 '
+            
+env
+[
+'
+LD_PRELOAD
+'
+]
+=
+'
+/
+system
+/
+b2g
+/
+libmozglue
+.
+so
+'
         
 else
 :
