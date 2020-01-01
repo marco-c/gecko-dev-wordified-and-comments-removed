@@ -533,6 +533,13 @@ LOCAL_INCLUDES
 MOZ_LOCATION_CFLAGS
 )
 endif
+ifdef
+ENABLE_TESTS
+DIRS
++
+=
+test
+endif
 include
 (
 topsrcdir

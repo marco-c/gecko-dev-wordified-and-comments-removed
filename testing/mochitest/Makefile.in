@@ -738,6 +738,10 @@ test_necko
 .
 xpt
 \
+TestGeolocationProvider
+.
+js
+\
 (
 NULL
 )
