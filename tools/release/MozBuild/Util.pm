@@ -2277,8 +2277,10 @@ dirMask
 }
 ;
 return
-defined
 (
+eq
+'
+'
 )
 ;
 }
