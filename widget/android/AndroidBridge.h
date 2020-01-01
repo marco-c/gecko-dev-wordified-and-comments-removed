@@ -1956,7 +1956,7 @@ aResult
 protected
 :
 static
-StaticRefPtr
+nsRefPtr
 <
 AndroidBridge
 >
