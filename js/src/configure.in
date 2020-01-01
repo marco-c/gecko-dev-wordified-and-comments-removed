@@ -48750,6 +48750,10 @@ CFLAGS
 =
 -
 m32
+LD
+=
+LDFLAGS
+=
 "
 else
 ac_configure_args
@@ -48763,6 +48767,10 @@ CFLAGS
 =
 -
 m64
+LD
+=
+LDFLAGS
+=
 "
 fi
 fi
