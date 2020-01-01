@@ -309,7 +309,7 @@ const
 nsACString
 &
 hostWithPort
-PRInt32
+int32_t
 port
 PRErrorCode
 errorCode

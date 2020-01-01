@@ -535,7 +535,7 @@ aLayer
 nsIFrame
 *
 aFrame
-PRUint32
+uint32_t
 aDisplayItemKey
 LayerState
 aLayerState

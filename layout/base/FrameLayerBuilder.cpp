@@ -8464,7 +8464,7 @@ aLayer
 nsIFrame
 *
 aFrame
-PRUint32
+uint32_t
 aDisplayItemKey
 LayerState
 aLayerState
@@ -8552,7 +8552,7 @@ GetUnderlyingFrame
 (
 )
 ;
-PRUint32
+uint32_t
 key
 =
 aItem
@@ -8589,7 +8589,7 @@ mergedFrames
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0
