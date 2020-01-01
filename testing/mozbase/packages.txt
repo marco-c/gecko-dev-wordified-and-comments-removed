@@ -115,6 +115,15 @@ testing
 mozbase
 /
 mozrunner
+mozsystemmonitor
+.
+pth
+:
+testing
+/
+mozbase
+/
+mozsystemmonitor
 moztest
 .
 pth
