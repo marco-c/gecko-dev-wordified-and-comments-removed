@@ -21784,6 +21784,12 @@ op
 =
 =
 JSOP_NOP
+|
+|
+op
+=
+=
+JSOP_NOTEARG
 )
 pc2
 +
