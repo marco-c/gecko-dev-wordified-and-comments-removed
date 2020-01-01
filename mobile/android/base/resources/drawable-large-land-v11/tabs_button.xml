@@ -131,9 +131,9 @@ android
 drawable
 =
 "
-drawable
+color
 /
-highlight
+highlight_dark
 "
 /
 >
@@ -185,9 +185,9 @@ android
 drawable
 =
 "
-drawable
+color
 /
-highlight
+highlight_dark
 "
 /
 >
