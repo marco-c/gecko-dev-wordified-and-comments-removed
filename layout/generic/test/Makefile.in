@@ -483,6 +483,10 @@ plugin_clipping_helper2
 .
 xhtml
 \
+plugin_clipping_helper_transformed
+.
+xhtml
+\
 plugin_clipping_lib
 .
 js
@@ -633,6 +637,10 @@ test_plugin_clipping
 xhtml
 \
 test_plugin_clipping2
+.
+xhtml
+\
+test_plugin_clipping_transformed
 .
 xhtml
 \

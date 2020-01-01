@@ -710,6 +710,13 @@ float
 aFactor
 )
 ;
+enum
+{
+PAINT_IN_TRANSFORM
+=
+0x01
+}
+;
 static
 nsresult
 PaintFrame
@@ -726,6 +733,10 @@ nsRegion
 aDirtyRegion
 nscolor
 aBackstop
+PRUint32
+aFlags
+=
+0
 )
 ;
 static

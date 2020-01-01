@@ -928,6 +928,10 @@ NS_RGBA
 0
 0
 )
+nsLayoutUtils
+:
+:
+PAINT_IN_TRANSFORM
 )
 ;
 gfx
