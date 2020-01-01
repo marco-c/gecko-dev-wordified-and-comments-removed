@@ -26090,7 +26090,7 @@ DOMKeyCode
 NS_VK_BACK
 &
 &
-nsIMM32Handler
+IMEHandler
 :
 :
 IsDoingKakuteiUndo
