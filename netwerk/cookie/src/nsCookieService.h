@@ -334,6 +334,15 @@ stmtUpdate
 ;
 }
 ;
+enum
+CookieStatus
+{
+STATUS_ACCEPTED
+STATUS_ACCEPT_SESSION
+STATUS_REJECTED
+STATUS_REJECTED_WITH_ERROR
+}
+;
 class
 nsCookieService
 :
@@ -502,6 +511,8 @@ nsCString
 aBaseDomain
 PRBool
 aRequireHostMatch
+CookieStatus
+aStatus
 nsDependentCString
 &
 aCookieHeader
@@ -633,7 +644,7 @@ nsIURI
 aFirstURI
 )
 ;
-PRUint32
+CookieStatus
 CheckPrefs
 (
 nsIURI
@@ -803,7 +814,10 @@ DBState
 mPrivateDBState
 ;
 PRUint8
-mCookiesPermissions
+mCookieBehavior
+;
+PRBool
+mThirdPartySession
 ;
 PRUint16
 mMaxNumberOfCookies
