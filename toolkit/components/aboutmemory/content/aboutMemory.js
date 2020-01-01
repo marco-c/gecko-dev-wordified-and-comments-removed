@@ -1342,11 +1342,11 @@ aTagName
 aClassName
 )
 ;
-appendTextNode
-(
 e
+.
+textContent
+=
 aText
-)
 ;
 return
 e
