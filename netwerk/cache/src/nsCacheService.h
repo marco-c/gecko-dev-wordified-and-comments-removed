@@ -355,6 +355,12 @@ SetMemoryCache
 (
 )
 ;
+static
+void
+OnEnterExitPrivateBrowsing
+(
+)
+;
 nsresult
 Init
 (
