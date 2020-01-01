@@ -125,11 +125,6 @@ TextDecoder
 h
 '
 '
-TextDecoderBase
-.
-h
-'
-'
 TextEncoder
 .
 h

@@ -61,7 +61,7 @@ PRUnichar
 )
 ;
 void
-TextDecoderBase
+TextDecoder
 :
 :
 Init
@@ -199,7 +199,7 @@ kOnError_Signal
 }
 }
 void
-TextDecoderBase
+TextDecoder
 :
 :
 Decode
@@ -416,7 +416,7 @@ NS_ERROR_DOM_ENCODING_DECODE_ERR
 }
 }
 void
-TextDecoderBase
+TextDecoder
 :
 :
 GetEncoding
