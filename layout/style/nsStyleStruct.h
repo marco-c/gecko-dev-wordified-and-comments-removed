@@ -4198,6 +4198,14 @@ mMinHeight
 nsStyleCoord
 mMaxHeight
 ;
+#
+ifdef
+MOZ_FLEXBOX
+nsStyleCoord
+mFlexBasis
+;
+#
+endif
 PRUint8
 mBoxSizing
 ;
