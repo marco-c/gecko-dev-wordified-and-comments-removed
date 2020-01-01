@@ -53,7 +53,7 @@ class
 nsIFrame
 ;
 class
-nsIDocShellTreeItem
+nsIDocShell
 ;
 class
 nsITreeColumn
@@ -280,9 +280,9 @@ aNode
 static
 already_AddRefed
 <
-nsIDocShellTreeItem
+nsIDocShell
 >
-GetDocShellTreeItemFor
+GetDocShellFor
 (
 nsINode
 *

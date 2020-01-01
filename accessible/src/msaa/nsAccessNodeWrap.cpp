@@ -291,14 +291,14 @@ E_NOINTERFACE
 ;
 nsCOMPtr
 <
-nsIDocShellTreeItem
+nsIDocShell
 >
-docShellTreeItem
+docShell
 =
 nsCoreUtils
 :
 :
-GetDocShellTreeItemFor
+GetDocShellFor
 (
 mContent
 )
@@ -306,7 +306,7 @@ mContent
 if
 (
 !
-docShellTreeItem
+docShell
 )
 return
 E_UNEXPECTED
@@ -317,7 +317,7 @@ nsIDocShellTreeItem
 >
 root
 ;
-docShellTreeItem
+docShell
 -
 >
 GetSameTypeRootTreeItem
