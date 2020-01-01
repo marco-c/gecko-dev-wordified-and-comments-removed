@@ -3128,6 +3128,9 @@ flags
 =
 0
 ;
+#
+ifndef
+MOZ_GFX_OPTIMIZE_MOBILE
 gfxMatrix
 transform
 ;
@@ -3150,11 +3153,6 @@ transform
 HasNonIntegerTranslation
 (
 )
-|
-|
-MustRetainContent
-(
-)
 )
 {
 flags
@@ -3166,6 +3164,8 @@ ThebesLayerBuffer
 PAINT_WILL_RESAMPLE
 ;
 }
+#
+endif
 Buffer
 :
 :
