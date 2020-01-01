@@ -41,6 +41,8 @@ origin
 nsIPrincipal
 *
 principal
+bool
+preferXrays
 JSObject
 *
 *

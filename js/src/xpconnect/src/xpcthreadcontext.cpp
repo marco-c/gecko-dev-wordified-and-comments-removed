@@ -967,6 +967,7 @@ mSafeJSContext
 global_class
 origin
 principal
+false
 &
 glob
 &
