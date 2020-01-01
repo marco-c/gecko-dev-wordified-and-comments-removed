@@ -6,11 +6,13 @@ http
 :
 /
 /
-test2
+bug704464
+-
+2
 .
 example
 .
-org
+com
 /
 browser
 /
