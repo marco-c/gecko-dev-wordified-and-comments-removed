@@ -157,6 +157,15 @@ IS_WN_WRAPPER
 (
 obj
 )
+|
+|
+!
+obj
+-
+>
+getParent
+(
+)
 )
 return
 obj
