@@ -922,6 +922,13 @@ type
 "
 menu
 "
+anonid
+=
+"
+alltabs
+-
+button
+"
 >
 <
 xul
