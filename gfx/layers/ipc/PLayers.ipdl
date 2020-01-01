@@ -710,9 +710,6 @@ Udata
 Shmem
 Vdata
 ;
-nsIntRect
-picture
-;
 }
 ;
 union
