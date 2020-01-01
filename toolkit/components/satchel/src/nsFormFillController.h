@@ -438,6 +438,14 @@ void
 aUserData
 )
 ;
+PRBool
+IsEventTrusted
+(
+nsIDOMEvent
+*
+aEvent
+)
+;
 nsCOMPtr
 <
 nsIAutoCompleteController
