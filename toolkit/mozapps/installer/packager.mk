@@ -644,6 +644,17 @@ BIN_SUFFIX
 )
 \
 (
+DIST
+)
+/
+bin
+/
+mozutils
+(
+DLL_SUFFIX
+)
+\
+(
 NULL
 )
 ifndef
