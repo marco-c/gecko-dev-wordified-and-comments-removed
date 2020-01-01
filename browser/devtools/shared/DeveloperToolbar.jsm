@@ -262,7 +262,7 @@ defineLazyModuleGetter
 (
 this
 "
-devtools
+TargetFactory
 "
 "
 resource
@@ -274,7 +274,7 @@ modules
 /
 devtools
 /
-gDevTools
+Target
 .
 jsm
 "
@@ -910,8 +910,6 @@ getBrowser
 selectedTab
 ;
 return
-devtools
-.
 TargetFactory
 .
 forTab
