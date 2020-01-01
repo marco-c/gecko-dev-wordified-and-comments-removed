@@ -976,8 +976,8 @@ thing
 [
 i
 ]
-)
 noSort
+)
 )
 ;
 }
