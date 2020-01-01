@@ -1161,9 +1161,6 @@ mLastData
 LONG
 mStart
 ;
-LONG
-mLength
-;
 bool
 IsComposing
 (
@@ -1180,7 +1177,7 @@ nullptr
 ;
 }
 LONG
-StringEndOffset
+EndOffset
 (
 )
 const
@@ -1199,18 +1196,6 @@ Length
 (
 )
 )
-;
-}
-LONG
-EndOffset
-(
-)
-const
-{
-return
-mStart
-+
-mLength
 ;
 }
 void
