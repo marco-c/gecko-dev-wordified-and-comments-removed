@@ -319,6 +319,9 @@ GL_ARB_draw_buffers
 "
 GL_EXT_draw_buffers
 "
+"
+GL_EXT_gpu_shader4
+"
 nullptr
 }
 ;
