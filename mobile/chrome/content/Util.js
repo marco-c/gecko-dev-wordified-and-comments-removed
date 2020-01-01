@@ -1240,6 +1240,14 @@ bcast_contentShowing
 ]
 [
 "
+urlbarState
+"
+"
+bcast_urlbarState
+"
+]
+[
+"
 stack
 "
 "
