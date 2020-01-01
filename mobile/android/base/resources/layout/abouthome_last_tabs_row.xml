@@ -222,6 +222,13 @@ last_tab_favicon
 "
 android
 :
+layout_marginTop
+=
+"
+2dip
+"
+android
+:
 layout_marginLeft
 =
 "
