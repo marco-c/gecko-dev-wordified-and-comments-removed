@@ -4434,10 +4434,7 @@ AreBoundsSane
 {
 if
 (
-mIsTopLevel
-|
-|
-mNeedsShow
+mNeedsMove
 )
 NativeResize
 (
@@ -4605,6 +4602,10 @@ aHeight
 )
 )
 ;
+mNeedsMove
+=
+PR_TRUE
+;
 mPlaced
 =
 PR_TRUE
@@ -4693,10 +4694,6 @@ aRepaint
 else
 {
 mNeedsResize
-=
-PR_TRUE
-;
-mNeedsMove
 =
 PR_TRUE
 ;
