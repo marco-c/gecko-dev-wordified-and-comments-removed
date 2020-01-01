@@ -103,15 +103,6 @@ nsThreadUtils
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 static
 int
 gTotalTests
@@ -571,7 +562,6 @@ forget
 }
 class
 AsyncStatementSpinner
-MOZ_FINAL
 :
 public
 mozIStorageStatementCallback
@@ -597,6 +587,7 @@ completionReason
 ;
 protected
 :
+virtual
 ~
 AsyncStatementSpinner
 (
