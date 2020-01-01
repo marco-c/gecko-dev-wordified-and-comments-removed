@@ -5573,8 +5573,8 @@ wrapper
 JSObject
 *
 obj
-bool
-ownOnly
+unsigned
+flags
 JS
 :
 :

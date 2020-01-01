@@ -6155,12 +6155,6 @@ getTargetObject
 wrapper
 )
 flags
-&
-(
-JSITER_OWNONLY
-|
-JSITER_HIDDEN
-)
 props
 )
 ;
