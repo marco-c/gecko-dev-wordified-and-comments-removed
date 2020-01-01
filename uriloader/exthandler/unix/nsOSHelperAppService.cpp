@@ -7739,6 +7739,11 @@ handlerInfo
 new
 nsMIMEInfoImpl
 (
+aScheme
+nsMIMEInfoBase
+:
+:
+eProtocolInfo
 )
 ;
 NS_ENSURE_TRUE

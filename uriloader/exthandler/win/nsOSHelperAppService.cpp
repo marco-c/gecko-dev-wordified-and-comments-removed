@@ -2358,6 +2358,11 @@ handlerInfo
 new
 nsMIMEInfoWin
 (
+aScheme
+nsMIMEInfoBase
+:
+:
+eProtocolInfo
 )
 ;
 NS_ENSURE_TRUE
