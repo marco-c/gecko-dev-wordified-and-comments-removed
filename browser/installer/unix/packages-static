@@ -184,6 +184,11 @@ chrome
 *
 bin
 /
+update
+.
+locale
+bin
+/
 updater
 .
 ini

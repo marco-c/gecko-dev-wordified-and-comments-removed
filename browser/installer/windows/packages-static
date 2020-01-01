@@ -175,6 +175,11 @@ helper
 exe
 bin
 \
+update
+.
+locale
+bin
+\
 updater
 .
 ini
