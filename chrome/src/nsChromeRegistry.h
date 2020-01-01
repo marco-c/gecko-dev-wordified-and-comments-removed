@@ -560,6 +560,12 @@ XPCNATIVEWRAPPERS
 <
 <
 1
+CONTENT_ACCESSIBLE
+=
+1
+<
+<
+2
 }
 ;
 nsCString
