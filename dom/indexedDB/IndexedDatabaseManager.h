@@ -226,6 +226,14 @@ nsPIDOMWindow
 aWindow
 )
 ;
+bool
+HasOpenTransactions
+(
+nsPIDOMWindow
+*
+aWindow
+)
+;
 private
 :
 IndexedDatabaseManager

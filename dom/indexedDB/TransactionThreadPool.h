@@ -150,6 +150,14 @@ nsIRunnable
 aCallback
 )
 ;
+bool
+HasTransactionsForDatabase
+(
+IDBDatabase
+*
+aDatabase
+)
+;
 protected
 :
 class
