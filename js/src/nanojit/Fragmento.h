@@ -101,6 +101,9 @@ struct
 AllocEntry
 :
 public
+avmplus
+:
+:
 GCObject
 {
 Page
@@ -154,6 +157,9 @@ public
 :
 BlockHist
 (
+avmplus
+:
+:
 GC
 *
 gc
@@ -203,6 +209,9 @@ class
 Fragmento
 :
 public
+avmplus
+:
+:
 GCFinalizedObject
 {
 public
@@ -587,6 +596,9 @@ _pageList
 AllocList
 _allocList
 ;
+avmplus
+:
+:
 GCHeap
 *
 _gcHeap
@@ -612,6 +624,9 @@ class
 Fragment
 :
 public
+avmplus
+:
+:
 GCFinalizedObject
 {
 public

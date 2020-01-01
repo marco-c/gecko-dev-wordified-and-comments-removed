@@ -4346,6 +4346,9 @@ frag
 lastIns
 )
 ;
+avmplus
+:
+:
 GC
 *
 gc

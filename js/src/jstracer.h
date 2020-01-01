@@ -83,6 +83,9 @@ class
 Queue
 :
 public
+avmplus
+:
+:
 GCObject
 {
 T
@@ -879,6 +882,9 @@ class
 TraceRecorder
 :
 public
+avmplus
+:
+:
 GCObject
 {
 JSContext

@@ -255,6 +255,9 @@ a
 class
 LabelStateMap
 {
+avmplus
+:
+:
 GC
 *
 gc
@@ -279,6 +282,9 @@ public
 :
 LabelStateMap
 (
+avmplus
+:
+:
 GC
 *
 gc
@@ -894,6 +900,9 @@ Fragmento
 )
 _frago
 ;
+avmplus
+:
+:
 GC
 *
 _gc
