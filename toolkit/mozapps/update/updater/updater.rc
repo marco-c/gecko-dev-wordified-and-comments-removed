@@ -645,6 +645,13 @@ der
 "
 #
 endif
+IDR_XPCSHELL_CERT
+TYPE_CERT
+"
+xpcshellCertificate
+.
+der
+"
 /
 /
 /
