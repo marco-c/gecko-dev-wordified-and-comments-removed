@@ -1082,11 +1082,9 @@ energy
 )
 ;
 }
-print
+assertEq
 (
 ret
-=
-=
 -
 0
 .

@@ -11816,10 +11816,8 @@ script
 >
 '
 ;
-print
+assertEq
 (
 testOutput
-=
-=
 expected
 )

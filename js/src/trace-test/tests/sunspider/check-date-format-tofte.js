@@ -8490,11 +8490,9 @@ May
 22
 PM
 "
-print
+assertEq
 (
 ret
-=
-=
 expected
 )
 ;

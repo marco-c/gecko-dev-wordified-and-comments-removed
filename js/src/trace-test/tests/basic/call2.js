@@ -60,11 +60,12 @@ return
 q
 ;
 }
-print
+assertEq
 (
 f
 (
 1000
 )
+1500
 )
 ;

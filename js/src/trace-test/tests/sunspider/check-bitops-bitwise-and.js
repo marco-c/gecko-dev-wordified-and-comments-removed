@@ -23,10 +23,8 @@ bitwiseAndValue
 &
 i
 ;
-print
+assertEq
 (
 bitwiseAndValue
-=
-=
 0
 )

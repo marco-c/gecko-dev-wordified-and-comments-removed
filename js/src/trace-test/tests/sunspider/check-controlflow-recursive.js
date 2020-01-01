@@ -198,11 +198,9 @@ i
 )
 ;
 }
-print
+assertEq
 (
 ret
-=
-=
 57775
 )
 ;

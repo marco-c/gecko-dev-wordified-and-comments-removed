@@ -55605,10 +55605,8 @@ September
 AM
 "
 ;
-print
+assertEq
 (
 ret
-=
-=
 expected
 )
