@@ -1721,12 +1721,6 @@ null
 ;
 if
 (
-!
-BrowserUI
-.
-isStartTabVisible
-&
-&
 elem
 .
 ownerDocument
