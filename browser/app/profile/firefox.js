@@ -2222,7 +2222,7 @@ download
 .
 saveLinkAsFilenameTimeout
 "
-1000
+4000
 )
 ;
 pref
