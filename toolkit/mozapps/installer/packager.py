@@ -2222,12 +2222,19 @@ finder
 =
 UnifiedBuildFinder
 (
+FileFinder
+(
 args
 .
 source
+)
+                                        
+FileFinder
+(
 args
 .
 unify
+)
                                         
 minify
 =
