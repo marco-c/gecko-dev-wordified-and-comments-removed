@@ -1837,10 +1837,6 @@ mPendingException
 =
 nullptr
 ;
-nsCycleCollector_forgetJSRuntime
-(
-)
-;
 JS_DestroyRuntime
 (
 mJSRuntime
@@ -1849,6 +1845,10 @@ mJSRuntime
 mJSRuntime
 =
 nullptr
+;
+nsCycleCollector_forgetJSRuntime
+(
+)
 ;
 }
 CycleCollectedJSRuntime
