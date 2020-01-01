@@ -180,6 +180,10 @@ HasDescendant
 char
 *
 aTagName
+PRBool
+aAllowEmpty
+=
+PR_TRUE
 )
 ;
 PRBool
