@@ -30,15 +30,15 @@ nsSVGGeometryFrameBase
 ;
 #
 define
-HITTEST_MASK_FILL
+SVG_HIT_TEST_FILL
 0x01
 #
 define
-HITTEST_MASK_STROKE
+SVG_HIT_TEST_STROKE
 0x02
 #
 define
-HITTEST_MASK_CHECK_MRECT
+SVG_HIT_TEST_CHECK_MRECT
 0x04
 class
 nsSVGGeometryFrame
@@ -183,7 +183,7 @@ aProperty
 ;
 virtual
 PRUint16
-GetHittestMask
+GetHitTestFlags
 (
 )
 ;
