@@ -102,6 +102,10 @@ PRBool
 aWatch
 =
 PR_TRUE
+PRBool
+aReferenceImage
+=
+PR_FALSE
 )
 ;
 void
@@ -490,6 +494,9 @@ nsRefPtr
 Notification
 >
 mPendingNotification
+;
+PRPackedBool
+mReferencingImage
 ;
 }
 ;
