@@ -10717,7 +10717,7 @@ ContextFlags
 {
 #
 ifdef
-MOZ_ANDROID_OMTC
+ANDROID
 return
 nullptr
 ;
