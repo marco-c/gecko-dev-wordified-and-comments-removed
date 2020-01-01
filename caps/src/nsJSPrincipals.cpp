@@ -264,13 +264,6 @@ refcount
 ;
 #
 endif
-if
-(
-nsjsprin
--
->
-nsIPrincipalPtr
-)
 nsjsprin
 -
 >
