@@ -405,6 +405,10 @@ NSSBridge
 .
 java
 \
+CustomEditText
+.
+java
+\
 PrivateDataPreference
 .
 java
@@ -885,8 +889,6 @@ res
 menu
 -
 large
--
-v11
 /
 gecko_menu
 .
@@ -7894,8 +7896,6 @@ res
 menu
 -
 large
--
-v11
 \
 (
 NULL

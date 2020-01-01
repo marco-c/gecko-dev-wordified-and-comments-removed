@@ -129,8 +129,7 @@ mozilla
 .
 gecko
 .
-AwesomeBar
-AwesomeBarEditText
+CustomEditText
 "
 android
 :
