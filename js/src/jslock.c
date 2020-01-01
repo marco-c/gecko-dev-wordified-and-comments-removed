@@ -1382,10 +1382,12 @@ object
 ;
 nslots
 =
-LOCKED_OBJ_NSLOTS
-(
-obj
-)
+scope
+-
+>
+map
+.
+freeslot
 ;
 for
 (
