@@ -96,3 +96,9 @@ enable
 stdcxx
 -
 compat
+ac_add_options
+-
+-
+with
+-
+ccache
