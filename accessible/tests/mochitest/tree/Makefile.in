@@ -447,6 +447,15 @@ mk
 _TEST_FILES
 =
 \
+(
+warning
+test_applicationacc
+.
+xul
+temporarily
+disabled
+)
+\
 test_aria_globals
 .
 html
@@ -540,6 +549,10 @@ test_txtctrl
 html
 \
 test_txtctrl
+.
+xul
+\
+wnd
 .
 xul
 \
