@@ -2825,10 +2825,12 @@ cp
 )
 ;
 bool
-getAtSourceMappingURL
+getSourceMappingURL
 (
 bool
 isMultiline
+bool
+shouldWarnDeprecated
 )
 ;
 bool
