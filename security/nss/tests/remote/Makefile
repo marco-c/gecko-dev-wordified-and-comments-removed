@@ -1731,8 +1731,6 @@ RTSH
 echo
 '
 cd
-security
-/
 nss
 /
 cmd
@@ -1953,9 +1951,6 @@ cd
 .
 .
 /
-.
-.
-/
 '
 >
 >
@@ -1991,8 +1986,6 @@ RTSH
 echo
 '
 cd
-security
-/
 nss
 /
 tests
@@ -2041,9 +2034,6 @@ tee
 .
 .
 /
-.
-.
-/
 logfile
 2
 >
@@ -2067,9 +2057,6 @@ RETVAL
 echo
 '
 cd
-.
-.
-/
 .
 .
 /
@@ -2234,13 +2221,9 @@ OBJDIR_NAME
 dist
 /
 public
-security
-/
 nss
 /
 tests
-security
-/
 nss
 /
 cmd
@@ -2248,8 +2231,13 @@ cmd
 bltest
 /
 tests
-security
+nss
 /
+cmd
+/
+pk11gcmtest
+/
+tests
 nss
 /
 cmd

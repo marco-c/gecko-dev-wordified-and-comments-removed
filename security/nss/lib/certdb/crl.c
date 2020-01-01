@@ -6226,6 +6226,7 @@ CachedCrl_GetEntry
 CachedCrl
 *
 crl
+const
 SECItem
 *
 sn
@@ -6336,6 +6337,7 @@ DPCache_Lookup
 CRLDPCache
 *
 cache
+const
 SECItem
 *
 sn
@@ -9660,7 +9662,7 @@ if
 t
 &
 &
-SECSuccess
+secCertTimeValid
 !
 =
 CERT_CheckCertValidTimes

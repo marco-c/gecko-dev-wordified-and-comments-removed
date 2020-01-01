@@ -4,6 +4,13 @@ _HASHT_H_
 #
 define
 _HASHT_H_
+#
+include
+"
+prtypes
+.
+h
+"
 typedef
 struct
 SECHashObjectStr

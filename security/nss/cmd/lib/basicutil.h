@@ -222,9 +222,11 @@ SECU_PrintInteger
 FILE
 *
 out
+const
 SECItem
 *
 i
+const
 char
 *
 m
@@ -239,6 +241,7 @@ SECU_PrintAsHex
 FILE
 *
 out
+const
 SECItem
 *
 i
@@ -326,9 +329,11 @@ SECU_PrintString
 FILE
 *
 out
+const
 SECItem
 *
 si
+const
 char
 *
 m
@@ -343,9 +348,11 @@ SECU_PrintAny
 FILE
 *
 out
+const
 SECItem
 *
 i
+const
 char
 *
 m

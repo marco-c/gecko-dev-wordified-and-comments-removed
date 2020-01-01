@@ -2209,6 +2209,7 @@ fips
 SDR
 server
 serverCA
+stapling
 tools
 /
 copydir
@@ -3084,6 +3085,7 @@ nss_ssl_run
 "
 cov
 auth
+stapling
 stress
 "
 NSS_SSL_RUN

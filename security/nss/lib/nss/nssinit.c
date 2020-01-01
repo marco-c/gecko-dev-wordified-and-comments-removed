@@ -22,13 +22,6 @@ h
 #
 include
 "
-prerror
-.
-h
-"
-#
-include
-"
 prinit
 .
 h
@@ -44,13 +37,6 @@ h
 include
 "
 prmem
-.
-h
-"
-#
-include
-"
-prtypes
 .
 h
 "

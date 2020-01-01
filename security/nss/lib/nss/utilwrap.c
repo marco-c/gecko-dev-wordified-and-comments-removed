@@ -1300,6 +1300,7 @@ contents_len_p
 long
 DER_GetInteger
 (
+const
 SECItem
 *
 src

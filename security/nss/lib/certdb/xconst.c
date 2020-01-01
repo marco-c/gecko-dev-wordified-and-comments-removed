@@ -767,6 +767,7 @@ CERT_DecodeNameConstraintsExtension
 PRArenaPool
 *
 arena
+const
 SECItem
 *
 encodedConstraints

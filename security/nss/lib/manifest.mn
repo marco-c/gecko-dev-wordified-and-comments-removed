@@ -58,14 +58,8 @@ CORE_DEPTH
 =
 .
 .
-/
-.
-.
 DEPTH
 =
-.
-.
-/
 .
 .
 #
@@ -127,6 +121,9 @@ util
 freebl
 (
 SQLITE_SRCDIR
+)
+(
+DBM_SRCDIR
 )
 softoken
 \

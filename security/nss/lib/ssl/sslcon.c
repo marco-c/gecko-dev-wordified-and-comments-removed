@@ -15503,13 +15503,6 @@ defined
 (
 NSS_ENABLE_ECC
 )
-&
-&
-!
-defined
-(
-NSS_ECC_MORE_THAN_SUITE_B
-)
 ssl3_DisableECCSuites
 (
 ss

@@ -56,6 +56,7 @@ static
 int
 getInteger256
 (
+const
 unsigned
 char
 *
@@ -425,6 +426,7 @@ prettyPrintLeaf
 FILE
 *
 out
+const
 unsigned
 char
 *
@@ -495,6 +497,7 @@ prettyPrintStringStart
 FILE
 *
 out
+const
 unsigned
 char
 *
@@ -630,6 +633,7 @@ prettyPrintString
 FILE
 *
 out
+const
 unsigned
 char
 *
@@ -718,6 +722,7 @@ prettyPrintTime
 FILE
 *
 out
+const
 unsigned
 char
 *
@@ -763,6 +768,11 @@ time_item
 .
 data
 =
+(
+unsigned
+char
+*
+)
 str
 ;
 time_item
@@ -898,6 +908,7 @@ prettyPrintObjectID
 FILE
 *
 out
+const
 unsigned
 char
 *
@@ -1087,6 +1098,11 @@ oiditem
 .
 data
 =
+(
+unsigned
+char
+*
+)
 data
 ;
 oiditem
@@ -1411,10 +1427,12 @@ prettyPrintTag
 FILE
 *
 out
+const
 unsigned
 char
 *
 src
+const
 unsigned
 char
 *
@@ -1668,10 +1686,12 @@ prettyPrintLength
 FILE
 *
 out
+const
 unsigned
 char
 *
 data
+const
 unsigned
 char
 *
@@ -2038,10 +2058,12 @@ prettyPrintItem
 FILE
 *
 out
+const
 unsigned
 char
 *
 data
+const
 unsigned
 char
 *
@@ -2059,6 +2081,7 @@ slen
 int
 lenLen
 ;
+const
 unsigned
 char
 *
@@ -2465,6 +2488,7 @@ DER_PrettyPrint
 FILE
 *
 out
+const
 SECItem
 *
 it

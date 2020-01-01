@@ -56,6 +56,7 @@ ext_policyMappings
 ext_policyConstr
 ext_inhibitAnyPolicy
 ext_subjectKeyID
+ext_nameConstraints
 ext_End
 }
 ;

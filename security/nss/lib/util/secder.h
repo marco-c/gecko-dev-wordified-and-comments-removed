@@ -144,6 +144,7 @@ extern
 long
 DER_GetInteger
 (
+const
 SECItem
 *
 src

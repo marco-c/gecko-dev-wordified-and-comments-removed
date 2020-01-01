@@ -389,6 +389,9 @@ enum
 ssl_server_name_xtn
 =
 0
+ssl_cert_status_xtn
+=
+5
 #
 ifdef
 NSS_ENABLE_ECC
@@ -418,6 +421,6 @@ SSLExtensionType
 #
 define
 SSL_MAX_EXTENSIONS
-7
+8
 #
 endif

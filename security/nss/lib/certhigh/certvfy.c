@@ -167,6 +167,7 @@ SECFailure
 SECStatus
 CERT_VerifySignedDataWithPublicKey
 (
+const
 CERTSignedData
 *
 sd

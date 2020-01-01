@@ -395,6 +395,7 @@ CERT_DecodeBasicConstraintValue
 CERTBasicConstraints
 *
 value
+const
 SECItem
 *
 encodedValue

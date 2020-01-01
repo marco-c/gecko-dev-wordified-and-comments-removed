@@ -3791,6 +3791,7 @@ SECSuccess
 SECStatus
 CERT_GetCertTimes
 (
+const
 CERTCertificate
 *
 c
@@ -3887,6 +3888,7 @@ SECSuccess
 SECCertTimeValidity
 CERT_CheckCertValidTimes
 (
+const
 CERTCertificate
 *
 c
@@ -5347,6 +5349,7 @@ SECFailure
 SECStatus
 cert_VerifySubjectAltName
 (
+const
 CERTCertificate
 *
 cert
@@ -6059,6 +6062,7 @@ CERTGeneralName
 *
 cert_GetSubjectAltNameList
 (
+const
 CERTCertificate
 *
 cert
@@ -6897,6 +6901,7 @@ NULL
 SECStatus
 CERT_VerifyCertName
 (
+const
 CERTCertificate
 *
 cert
@@ -7093,9 +7098,11 @@ rv
 PRBool
 CERT_CompareCerts
 (
+const
 CERTCertificate
 *
 c1
+const
 CERTCertificate
 *
 c2
@@ -11464,6 +11471,7 @@ NULL
 void
 CERT_LockCertTrust
 (
+const
 CERTCertificate
 *
 cert
@@ -11650,6 +11658,7 @@ rv
 void
 CERT_UnlockCertTrust
 (
+const
 CERTCertificate
 *
 cert

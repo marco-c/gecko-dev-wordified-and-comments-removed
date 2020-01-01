@@ -61,9 +61,6 @@ CORE_DEPTH
 /
 .
 .
-/
-.
-.
 LIBRARY_NAME
 =
 sectool

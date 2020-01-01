@@ -58,9 +58,6 @@ DEPTH
 =
 .
 .
-/
-.
-.
 #
 MODULE
 =
@@ -129,6 +126,8 @@ p7sign
 p7verify
 \
 pk12util
+\
+pk11gcmtest
 \
 pk11mode
 \

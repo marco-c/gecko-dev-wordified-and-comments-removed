@@ -323,6 +323,9 @@ client_key_exchange
 finished
 =
 20
+certificate_status
+=
+22
 next_proto
 =
 67

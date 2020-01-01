@@ -189,6 +189,7 @@ status
 0
 )
 {
+const
 char
 *
 errtext
@@ -1489,6 +1490,7 @@ status
 1
 )
 {
+const
 char
 *
 errtext

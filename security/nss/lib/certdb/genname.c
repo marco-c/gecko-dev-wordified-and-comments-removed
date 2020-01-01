@@ -3163,6 +3163,7 @@ cert_DecodeNameConstraints
 PRArenaPool
 *
 reqArena
+const
 SECItem
 *
 encodedConstraints
@@ -4779,6 +4780,7 @@ CERTGeneralName
 *
 CERT_GetConstrainedCertificateNames
 (
+const
 CERTCertificate
 *
 cert
@@ -6116,9 +6118,11 @@ SECFailure
 SECStatus
 cert_CompareNameWithConstraints
 (
+const
 CERTGeneralName
 *
 name
+const
 CERTNameConstraint
 *
 constraints
@@ -6136,6 +6140,7 @@ matched
 =
 SECFailure
 ;
+const
 CERTNameConstraint
 *
 current
@@ -6631,6 +6636,10 @@ current
 =
 CERT_GetNextNameConstraint
 (
+(
+CERTNameConstraint
+*
+)
 current
 )
 ;
@@ -7017,9 +7026,11 @@ CERT_CheckNameSpace
 PRArenaPool
 *
 arena
+const
 CERTNameConstraints
 *
 constraints
+const
 CERTGeneralName
 *
 currentName

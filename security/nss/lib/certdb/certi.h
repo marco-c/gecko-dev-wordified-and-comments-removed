@@ -574,6 +574,7 @@ DPCache_Lookup
 CRLDPCache
 *
 cache
+const
 SECItem
 *
 sn
@@ -810,6 +811,7 @@ CERTGeneralName
 *
 cert_GetSubjectAltNameList
 (
+const
 CERTCertificate
 *
 cert

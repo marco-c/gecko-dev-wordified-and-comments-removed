@@ -249,6 +249,7 @@ arena
 CERTName
 *
 dest
+const
 CERTName
 *
 src
@@ -743,6 +744,7 @@ extern
 SECStatus
 CERT_VerifyCertName
 (
+const
 CERTCertificate
 *
 cert
@@ -1111,6 +1113,7 @@ extern
 SECCertTimeValidity
 CERT_CheckCertValidTimes
 (
+const
 CERTCertificate
 *
 cert
@@ -1133,6 +1136,7 @@ extern
 SECStatus
 CERT_GetCertTimes
 (
+const
 CERTCertificate
 *
 c
@@ -1191,6 +1195,7 @@ extern
 SECStatus
 CERT_VerifySignedDataWithPublicKey
 (
+const
 CERTSignedData
 *
 sd
@@ -1450,6 +1455,7 @@ char
 *
 CERT_GetCertEmailAddress
 (
+const
 CERTName
 *
 name
@@ -1486,6 +1492,7 @@ char
 *
 CERT_GetCommonName
 (
+const
 CERTName
 *
 name
@@ -1496,6 +1503,7 @@ char
 *
 CERT_GetCountryName
 (
+const
 CERTName
 *
 name
@@ -1506,6 +1514,7 @@ char
 *
 CERT_GetLocalityName
 (
+const
 CERTName
 *
 name
@@ -1516,6 +1525,7 @@ char
 *
 CERT_GetStateName
 (
+const
 CERTName
 *
 name
@@ -1526,6 +1536,7 @@ char
 *
 CERT_GetOrgName
 (
+const
 CERTName
 *
 name
@@ -1536,6 +1547,7 @@ char
 *
 CERT_GetOrgUnitName
 (
+const
 CERTName
 *
 name
@@ -1546,6 +1558,7 @@ char
 *
 CERT_GetDomainComponentName
 (
+const
 CERTName
 *
 name
@@ -1556,6 +1569,7 @@ char
 *
 CERT_GetCertUid
 (
+const
 CERTName
 *
 name
@@ -1565,6 +1579,7 @@ extern
 SECStatus
 CERT_GetCertTrust
 (
+const
 CERTCertificate
 *
 cert
@@ -1797,6 +1812,7 @@ CERT_DecodeBasicConstraintValue
 CERTBasicConstraints
 *
 value
+const
 SECItem
 *
 encodedValue
@@ -1810,6 +1826,7 @@ CERT_DecodeAuthKeyID
 PLArenaPool
 *
 arena
+const
 SECItem
 *
 encodedValue
@@ -1847,6 +1864,7 @@ CERTOidSequence
 *
 CERT_DecodeOidSequence
 (
+const
 SECItem
 *
 seqItem
@@ -1856,6 +1874,7 @@ extern
 SECStatus
 CERT_FindCertExtension
 (
+const
 CERTCertificate
 *
 cert
@@ -2123,9 +2142,11 @@ extern
 PRBool
 CERT_CompareCerts
 (
+const
 CERTCertificate
 *
 c1
+const
 CERTCertificate
 *
 c2
@@ -2435,6 +2456,7 @@ CERTCertificatePolicies
 *
 CERT_DecodeCertificatePoliciesExtension
 (
+const
 SECItem
 *
 extnValue
@@ -2471,6 +2493,7 @@ CERT_DecodePolicyConstraintsExtension
 CERTCertificatePolicyConstraints
 *
 decodedValue
+const
 SECItem
 *
 encodedValue
@@ -2517,6 +2540,7 @@ CERT_DecodeNameConstraintsExtension
 PLArenaPool
 *
 arena
+const
 SECItem
 *
 encodedConstraints
@@ -2817,6 +2841,7 @@ CERTGeneralName
 *
 CERT_GetConstrainedCertificateNames
 (
+const
 CERTCertificate
 *
 cert
@@ -2837,6 +2862,7 @@ certList
 CERTCertDBHandle
 *
 handle
+const
 SECItem
 *
 name
@@ -3096,6 +3122,7 @@ cert
 void
 CERT_LockCertTrust
 (
+const
 CERTCertificate
 *
 cert
@@ -3104,6 +3131,7 @@ cert
 void
 CERT_UnlockCertTrust
 (
+const
 CERTCertificate
 *
 cert
@@ -3184,9 +3212,11 @@ CERT_CheckNameSpace
 PLArenaPool
 *
 arena
+const
 CERTNameConstraints
 *
 constraints
+const
 CERTGeneralName
 *
 currentName

@@ -226,6 +226,7 @@ CERTOCSPResponse
 *
 CERT_DecodeOCSPResponse
 (
+const
 SECItem
 *
 src
@@ -364,6 +365,7 @@ CERTCertificate
 cert
 PRTime
 time
+const
 SECItem
 *
 encodedResponse

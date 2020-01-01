@@ -572,6 +572,7 @@ CERTCertificatePolicies
 *
 CERT_DecodeCertificatePoliciesExtension
 (
+const
 SECItem
 *
 extnValue
@@ -1031,6 +1032,7 @@ CERT_DecodePolicyConstraintsExtension
 CERTCertificatePolicyConstraints
 *
 decodedValue
+const
 SECItem
 *
 encodedValue
@@ -2364,6 +2366,7 @@ CERTOidSequence
 *
 CERT_DecodeOidSequence
 (
+const
 SECItem
 *
 seqItem

@@ -365,6 +365,7 @@ SECFailure
 SECStatus
 CERT_GetCertTrust
 (
+const
 CERTCertificate
 *
 cert
@@ -3092,10 +3093,11 @@ certList
 CERTCertDBHandle
 *
 handle
+const
 SECItem
 *
 name
-int64
+PRTime
 sorttime
 PRBool
 validOnly

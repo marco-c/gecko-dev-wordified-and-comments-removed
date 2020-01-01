@@ -76,9 +76,6 @@ PKIX_DEPTH
 /
 .
 .
-/
-.
-.
 DIRS
 =
 testutil

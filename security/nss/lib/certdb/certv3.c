@@ -78,6 +78,7 @@ value
 SECStatus
 CERT_FindCertExtension
 (
+const
 CERTCertificate
 *
 cert

@@ -6015,6 +6015,7 @@ CERT_GetNameElement
 PRArenaPool
 *
 arena
+const
 CERTName
 *
 name
@@ -6135,6 +6136,7 @@ CERT_GetLastNameElement
 PRArenaPool
 *
 arena
+const
 CERTName
 *
 name
@@ -7493,6 +7495,7 @@ char
 *
 CERT_GetCertEmailAddress
 (
+const
 CERTName
 *
 name
@@ -7561,6 +7564,7 @@ char
 *
 CERT_GetCommonName
 (
+const
 CERTName
 *
 name
@@ -7581,6 +7585,7 @@ char
 *
 CERT_GetCountryName
 (
+const
 CERTName
 *
 name
@@ -7601,6 +7606,7 @@ char
 *
 CERT_GetLocalityName
 (
+const
 CERTName
 *
 name
@@ -7621,6 +7627,7 @@ char
 *
 CERT_GetStateName
 (
+const
 CERTName
 *
 name
@@ -7641,6 +7648,7 @@ char
 *
 CERT_GetOrgName
 (
+const
 CERTName
 *
 name
@@ -7661,6 +7669,7 @@ char
 *
 CERT_GetDomainComponentName
 (
+const
 CERTName
 *
 name
@@ -7681,6 +7690,7 @@ char
 *
 CERT_GetOrgUnitName
 (
+const
 CERTName
 *
 name
@@ -7701,6 +7711,7 @@ char
 *
 CERT_GetDnQualifier
 (
+const
 CERTName
 *
 name
@@ -7721,6 +7732,7 @@ char
 *
 CERT_GetCertUid
 (
+const
 CERTName
 *
 name

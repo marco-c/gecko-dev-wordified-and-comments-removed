@@ -1574,6 +1574,16 @@ ECCurveName
 name
 )
 ;
+mp_err
+ec_group_set_gfp256_32
+(
+ECGroup
+*
+group
+ECCurveName
+name
+)
+;
 #
 ifdef
 ECL_USE_FP

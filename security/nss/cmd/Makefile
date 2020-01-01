@@ -61,14 +61,8 @@ CORE_DEPTH
 =
 .
 .
-/
-.
-.
 DEPTH
 =
-.
-.
-/
 .
 .
 include

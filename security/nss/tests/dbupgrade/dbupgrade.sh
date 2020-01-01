@@ -872,6 +872,7 @@ ext_server
 SDR
 server
 serverCA
+stapling
 tools
 /
 copydir

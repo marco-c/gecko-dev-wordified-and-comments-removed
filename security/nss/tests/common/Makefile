@@ -64,9 +64,6 @@ CORE_DEPTH
 /
 .
 .
-/
-.
-.
 include
 (
 CORE_DEPTH

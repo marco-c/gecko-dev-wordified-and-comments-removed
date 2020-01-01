@@ -1299,6 +1299,12 @@ cbcRandomIV
 :
 1
 ;
+unsigned
+int
+enableOCSPStapling
+:
+1
+;
 }
 sslOptions
 ;
@@ -1863,6 +1869,9 @@ CERTCertificate
 *
 peerCert
 ;
+SECItemArray
+peerCertStatus
+;
 const
 char
 *
@@ -2136,6 +2145,7 @@ wait_cert_verify
 wait_change_cipher
 wait_finished
 wait_server_hello
+wait_certificate_status
 wait_server_cert
 wait_server_key
 wait_cert_request
@@ -3064,6 +3074,10 @@ serverCerts
 [
 kt_kea_size
 ]
+;
+SECItemArray
+*
+certStatusArray
 ;
 ssl3CipherSuiteCfg
 cipherSuites

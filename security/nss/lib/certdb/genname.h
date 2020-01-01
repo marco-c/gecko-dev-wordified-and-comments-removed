@@ -114,6 +114,7 @@ cert_DecodeNameConstraints
 PRArenaPool
 *
 arena
+const
 SECItem
 *
 encodedConstraints
