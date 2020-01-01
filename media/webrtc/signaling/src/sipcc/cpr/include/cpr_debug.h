@@ -30,7 +30,7 @@ if
 (
 cprInfo
 )
-buginf
+notice_msg
 #
 define
 CPR_ERROR

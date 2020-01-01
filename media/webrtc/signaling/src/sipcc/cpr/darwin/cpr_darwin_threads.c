@@ -116,6 +116,14 @@ Larry
 port
 *
 /
+void
+CSFLogRegisterThread
+(
+const
+cprThread_t
+thread
+)
+;
 cprThread_t
 cprCreateThread
 (
@@ -357,6 +365,11 @@ threadId
 +
 +
 id
+;
+CSFLogRegisterThread
+(
+threadPtr
+)
 ;
 return
 threadPtr
