@@ -11779,7 +11779,7 @@ preferOpenGL
 PR_FALSE
 ;
 PRBool
-useD3D10
+preferD3D9
 =
 PR_FALSE
 ;
@@ -11844,12 +11844,12 @@ GetBoolPref
 "
 layers
 .
-use
+prefer
 -
-d3d10
+d3d9
 "
 &
-useD3D10
+preferD3D9
 )
 ;
 }
@@ -11964,7 +11964,8 @@ ifdef
 MOZ_ENABLE_D3D10_LAYER
 if
 (
-useD3D10
+!
+preferD3D9
 )
 {
 nsRefPtr
