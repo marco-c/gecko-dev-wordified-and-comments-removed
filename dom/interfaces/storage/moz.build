@@ -113,17 +113,7 @@ nsIDOMStorageIndexedDB
 idl
 '
 '
-nsIDOMStorageItem
-.
-idl
-'
-'
 nsIDOMStorageManager
-.
-idl
-'
-'
-nsIDOMStorageObsolete
 .
 idl
 '

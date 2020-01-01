@@ -247,13 +247,6 @@ h
 #
 include
 "
-nsIDOMStorageObsolete
-.
-h
-"
-#
-include
-"
 nsIDOMStorageEvent
 .
 h
@@ -3733,6 +3726,11 @@ nsIDOMCSSStyleDeclaration
 *
 *
 aReturn
+)
+;
+void
+PreloadLocalStorage
+(
 )
 ;
 bool
