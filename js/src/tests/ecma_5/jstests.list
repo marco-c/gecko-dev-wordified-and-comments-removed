@@ -23,6 +23,12 @@ jstests
 .
 list
 include
+Exceptions
+/
+jstests
+.
+list
+include
 Expressions
 /
 jstests
