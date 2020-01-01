@@ -2610,7 +2610,12 @@ mTimer
 InitWithCallback
 (
 this
-600
+LookAndFeel
+:
+:
+GetPasswordMaskDelay
+(
+)
 nsITimer
 :
 :
