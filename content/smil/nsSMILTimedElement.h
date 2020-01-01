@@ -672,7 +672,7 @@ PRBool
 aEndOnly
 )
 ;
-void
+PRBool
 ApplyEarlyEnd
 (
 const
@@ -875,6 +875,13 @@ NotifyNewInterval
 void
 NotifyChangedInterval
 (
+nsSMILInterval
+*
+aInterval
+PRBool
+aBeginObjectChanged
+PRBool
+aEndObjectChanged
 )
 ;
 void
