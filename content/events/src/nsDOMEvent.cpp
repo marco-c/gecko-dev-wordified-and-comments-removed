@@ -153,6 +153,9 @@ mouseover
 mouseout
 "
 "
+MozMouseHittest
+"
+"
 mousemove
 "
 "
@@ -4782,6 +4785,15 @@ return
 sEventNames
 [
 eDOMEvents_mouseout
+]
+;
+case
+NS_MOUSE_MOZHITTEST
+:
+return
+sEventNames
+[
+eDOMEvents_MozMouseHittest
 ]
 ;
 case

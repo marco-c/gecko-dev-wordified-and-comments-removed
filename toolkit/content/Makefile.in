@@ -711,10 +711,6 @@ InlineSpellChecker
 .
 jsm
 \
-WindowDraggingUtils
-.
-jsm
-\
 PopupNotifications
 .
 jsm
@@ -734,6 +730,10 @@ LightweightThemeConsumer
 jsm
 \
 Services
+.
+jsm
+\
+WindowDraggingUtils
 .
 jsm
 \

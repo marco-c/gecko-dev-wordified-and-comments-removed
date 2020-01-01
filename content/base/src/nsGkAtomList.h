@@ -4328,6 +4328,13 @@ onmouseover
 )
 GK_ATOM
 (
+onMozMouseHittest
+"
+onMozMouseHittest
+"
+)
+GK_ATOM
+(
 onmouseup
 "
 onmouseup
