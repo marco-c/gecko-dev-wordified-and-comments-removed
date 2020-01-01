@@ -351,7 +351,7 @@ nsPresContext
 *
 aPresContext
 class
-nsXULCommandEvent
+nsInputEvent
 *
 aEvent
 )

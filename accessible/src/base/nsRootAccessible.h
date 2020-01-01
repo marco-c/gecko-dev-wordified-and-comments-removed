@@ -75,13 +75,6 @@ h
 #
 include
 "
-nsIDOMXULListener
-.
-h
-"
-#
-include
-"
 nsITimer
 .
 h

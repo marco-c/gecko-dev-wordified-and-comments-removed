@@ -67,7 +67,7 @@ aMenu
 namespace
 nsMenuUtilsX
 {
-nsEventStatus
+void
 DispatchCommandTo
 (
 nsIContent

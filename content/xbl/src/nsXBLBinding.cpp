@@ -272,13 +272,6 @@ h
 #
 include
 "
-nsIDOMXULListener
-.
-h
-"
-#
-include
-"
 nsIDOMContextMenuListener
 .
 h
