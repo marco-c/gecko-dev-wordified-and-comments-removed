@@ -669,6 +669,7 @@ attribs
 =
 {
 NSOpenGLPFAAccelerated
+NSOpenGLPFAAllowOfflineRenderers
 NSOpenGLPFADoubleBuffer
 (
 NSOpenGLPixelFormatAttribute
@@ -684,7 +685,7 @@ gUseDoubleBufferedWindows
 {
 attribs
 [
-1
+2
 ]
 =
 (
