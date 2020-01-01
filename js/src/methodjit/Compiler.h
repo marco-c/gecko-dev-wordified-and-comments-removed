@@ -162,6 +162,16 @@ JSC
 MacroAssembler
 :
 :
+JumpList
+JumpList
+;
+typedef
+JSC
+:
+:
+MacroAssembler
+:
+:
 Call
 Call
 ;
