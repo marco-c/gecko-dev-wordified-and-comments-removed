@@ -852,6 +852,10 @@ browser_webconsole_bug_585991_autocomplete_keys
 .
 js
 \
+browser_webconsole_bug_651501_document_body_autocomplete
+.
+js
+\
 head
 .
 js
