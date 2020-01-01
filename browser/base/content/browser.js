@@ -15976,6 +15976,7 @@ nsIDownloadManagerUI
 .
 show
 (
+window
 )
 ;
 }
