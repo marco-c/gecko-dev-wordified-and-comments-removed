@@ -20,7 +20,7 @@ nsIMemory
 h
 "
 nsresult
-NS_NewPipe2
+TP_NewPipe2
 (
 nsIAsyncInputStream
 *
@@ -34,7 +34,7 @@ PRBool
 nonBlockingInput
 PRBool
 nonBlockingOutput
-size_t
+PRUint32
 segmentSize
 PRUint32
 segmentCount
@@ -564,7 +564,7 @@ SEGMENT_COUNT
 10
 ;
 const
-size_t
+PRUint32
 SEGMENT_SIZE
 =
 10
@@ -639,7 +639,7 @@ output
 ;
 rv
 =
-NS_NewPipe2
+TP_NewPipe2
 (
 getter_AddRefs
 (
@@ -668,7 +668,7 @@ printf
 (
 "
 FAIL
-NS_NewPipe2
+TP_NewPipe2
 failed
 :
 %
