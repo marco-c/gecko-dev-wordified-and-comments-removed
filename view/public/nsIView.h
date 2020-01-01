@@ -453,6 +453,16 @@ mWindow
 nsnull
 ;
 }
+void
+DisownWidget
+(
+)
+{
+mWidgetDisowned
+=
+PR_TRUE
+;
+}
 #
 ifdef
 DEBUG
@@ -529,6 +539,9 @@ mOpacity
 ;
 PRUint32
 mVFlags
+;
+PRBool
+mWidgetDisowned
 ;
 virtual
 ~

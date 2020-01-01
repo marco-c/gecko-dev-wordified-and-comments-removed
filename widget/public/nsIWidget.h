@@ -1446,6 +1446,16 @@ aAnimation
 =
 0
 ;
+virtual
+nsIWidget
+*
+GetTopLevelWindow
+(
+void
+)
+=
+0
+;
 protected
 :
 nsCOMPtr
