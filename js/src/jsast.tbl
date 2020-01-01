@@ -827,6 +827,13 @@ XMLQualifiedIdentifier
 )
 ASTDEF
 (
+AST_XMLFUNCQUAL
+"
+XMLFunctionQualifiedIdentifier
+"
+)
+ASTDEF
+(
 AST_XMLELEM
 "
 XMLElement
