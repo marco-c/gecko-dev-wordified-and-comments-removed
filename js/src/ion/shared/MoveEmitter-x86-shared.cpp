@@ -1129,11 +1129,7 @@ false
 return
 ;
 }
-inCycle_
-=
-true
-;
-completeCycle
+breakCycle
 (
 from
 to
@@ -1143,6 +1139,10 @@ kind
 (
 )
 )
+;
+inCycle_
+=
+true
 ;
 }
 if
