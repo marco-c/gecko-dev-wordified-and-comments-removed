@@ -1,0 +1,11 @@
+uneval
+(
+function
+(
+)
+{
+o
+(
+)
+}
+)
