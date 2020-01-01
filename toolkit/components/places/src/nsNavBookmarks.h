@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIStringBundle
-.
-h
-"
-#
-include
-"
 nsITransaction
 .
 h
@@ -650,12 +643,6 @@ nsCOMPtr
 mozIStorageStatement
 >
 mDBGetURIForKeyword
-;
-nsCOMPtr
-<
-nsIStringBundle
->
-mBundle
 ;
 class
 RemoveFolderTransaction
