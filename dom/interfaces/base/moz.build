@@ -108,6 +108,11 @@ nsIBrowserDOMWindow
 idl
 '
 '
+nsICompositionStringSynthesizer
+.
+idl
+'
+'
 nsIContentPermissionPrompt
 .
 idl

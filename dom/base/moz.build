@@ -365,6 +365,11 @@ BarProps
 cpp
 '
 '
+CompositionStringSynthesizer
+.
+cpp
+'
+'
 Crypto
 .
 cpp
