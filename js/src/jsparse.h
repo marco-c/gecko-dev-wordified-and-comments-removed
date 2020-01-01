@@ -2793,6 +2793,12 @@ joinable
 const
 ;
 bool
+inAnyDynamicScope
+(
+)
+const
+;
+bool
 shouldUnbrand
 (
 uintN
