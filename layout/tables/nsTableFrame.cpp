@@ -10152,6 +10152,14 @@ GetParent
 (
 )
 ;
+if
+(
+NS_LIKELY
+(
+container
+)
+)
+{
 PRInt32
 newIndex
 =
@@ -10327,6 +10335,7 @@ GetNextSibling
 (
 )
 ;
+}
 }
 }
 }
