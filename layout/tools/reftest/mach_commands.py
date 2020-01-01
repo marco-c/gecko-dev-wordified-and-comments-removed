@@ -11,13 +11,11 @@ base
 import
 MozbuildObject
 from
-mozbuild
+moztesting
 .
-testing
-.
-test
+util
 import
-TestRunner
+parse_test_path
 from
 mach
 .
@@ -67,7 +65,7 @@ executed
 class
 ReftestRunner
 (
-TestRunner
+MozbuildObject
 )
 :
     
@@ -182,11 +180,12 @@ test_file
         
 parsed
 =
-self
-.
-_parse_test_path
+parse_test_path
 (
 test_file
+self
+.
+topsrcdir
 )
         
 if
