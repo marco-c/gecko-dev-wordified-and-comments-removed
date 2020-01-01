@@ -1539,7 +1539,6 @@ monster
 ref
 .
 html
-random
 =
 =
 background
@@ -1600,7 +1599,6 @@ monster
 ref
 .
 html
-random
 =
 =
 background
@@ -1621,7 +1619,6 @@ monster
 ref
 .
 html
-random
 =
 =
 background
@@ -1642,7 +1639,6 @@ monster
 ref
 .
 html
-random
 =
 =
 background
@@ -1663,7 +1659,6 @@ monster
 ref
 .
 html
-random
 =
 =
 background

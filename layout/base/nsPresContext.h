@@ -1876,13 +1876,12 @@ aTwips
 const
 {
 return
-NSToCoordRound
+NSCoordSaturatingMultiply
 (
 NS_TWIPS_TO_INCHES
 (
 aTwips
 )
-*
 mDeviceContext
 -
 >
