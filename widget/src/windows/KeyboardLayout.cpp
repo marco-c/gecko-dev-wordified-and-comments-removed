@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsKeyboardLayout
+KeyboardLayout
 .
 h
 "
@@ -45,6 +45,12 @@ h
 >
 #
 endif
+namespace
+mozilla
+{
+namespace
+widget
+{
 struct
 DeadKeyEntry
 {
@@ -3255,4 +3261,6 @@ break
 return
 0
 ;
+}
+}
 }

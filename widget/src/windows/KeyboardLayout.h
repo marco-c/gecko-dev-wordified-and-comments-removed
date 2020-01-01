@@ -1,9 +1,9 @@
 #
 ifndef
-nsKeyboardLayout_h__
+KeyboardLayout_h__
 #
 define
-nsKeyboardLayout_h__
+KeyboardLayout_h__
 #
 include
 "
@@ -52,6 +52,12 @@ VK_OEM_MINUS
 '
 any
 country
+namespace
+mozilla
+{
+namespace
+widget
+{
 enum
 eKeyShiftFlags
 {
@@ -557,5 +563,7 @@ mKeyboardLayout
 }
 }
 ;
+}
+}
 #
 endif

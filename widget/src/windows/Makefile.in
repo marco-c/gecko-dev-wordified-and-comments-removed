@@ -567,7 +567,7 @@ CPPSRCS
 +
 =
 \
-nsKeyboardLayout
+KeyboardLayout
 .
 cpp
 \
