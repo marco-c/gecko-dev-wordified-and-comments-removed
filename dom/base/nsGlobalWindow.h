@@ -2794,6 +2794,13 @@ GetIsTabModalPromptAllowed
 (
 )
 ;
+inline
+PRInt32
+DOMMinTimeoutValue
+(
+)
+const
+;
 PRPackedBool
 mIsFrozen
 :

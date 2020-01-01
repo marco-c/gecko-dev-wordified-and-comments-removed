@@ -5028,6 +5028,16 @@ min_timeout_value
 10
 )
 ;
+pref
+(
+"
+dom
+.
+min_background_timeout_value
+"
+1000
+)
+;
 #
 ifndef
 XP_WIN
