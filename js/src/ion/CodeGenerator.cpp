@@ -3869,7 +3869,7 @@ pf
 (
 JSContext
 *
-JSFunction
+JSObject
 *
 uint32
 Value
@@ -3881,14 +3881,17 @@ Value
 static
 const
 VMFunction
-InvokeConstructorFunctionInfo
+InvokeConstructorInfo
 =
 FunctionInfo
 <
 pf
 >
 (
-InvokeConstructorFunction
+ion
+:
+:
+InvokeConstructor
 )
 ;
 masm
@@ -3926,7 +3929,7 @@ if
 !
 callVM
 (
-InvokeConstructorFunctionInfo
+InvokeConstructorInfo
 call
 )
 )
