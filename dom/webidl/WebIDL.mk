@@ -323,6 +323,10 @@ SVGPathSegList
 .
 webidl
 \
+SVGPoint
+.
+webidl
+\
 SVGPointList
 .
 webidl
