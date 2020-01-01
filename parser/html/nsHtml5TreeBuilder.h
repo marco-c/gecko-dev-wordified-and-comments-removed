@@ -991,13 +991,6 @@ length
 )
 ;
 void
-accumulateCharacter
-(
-PRUnichar
-c
-)
-;
-void
 requestSuspension
 (
 )
