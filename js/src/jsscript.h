@@ -1058,6 +1058,11 @@ warnedAboutTwoArgumentEval
 1
 ;
 bool
+warnedAboutUndefinedProp
+:
+1
+;
+bool
 hasSingletons
 :
 1
