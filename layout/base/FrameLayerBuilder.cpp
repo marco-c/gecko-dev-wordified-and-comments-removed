@@ -7363,11 +7363,11 @@ gfxMatrix
 transform2d
 ;
 bool
-is2D
+canDraw2D
 =
 transform
 .
-Is2D
+CanDraw2D
 (
 &
 transform2d
@@ -7396,7 +7396,7 @@ Manager
 ;
 if
 (
-is2D
+canDraw2D
 &
 &
 isRetained
@@ -7689,7 +7689,7 @@ isRetained
 &
 (
 !
-is2D
+canDraw2D
 |
 |
 transform2d
