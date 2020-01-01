@@ -45,7 +45,7 @@ why
 if
 defined
 (
-__ANDROID__
+MOZ_WIDGET_ANDROID
 )
 &
 &
@@ -88,7 +88,7 @@ mappings
 if
 defined
 (
-__ANDROID__
+MOZ_WIDGET_ANDROID
 )
 &
 &

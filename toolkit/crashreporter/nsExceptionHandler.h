@@ -183,6 +183,14 @@ nsACString
 aBuildID
 )
 ;
+bool
+GetLastRunCrashID
+(
+nsAString
+&
+id
+)
+;
 nsresult
 RegisterAppMemory
 (
@@ -515,7 +523,7 @@ UnsetRemoteExceptionHandler
 if
 defined
 (
-__ANDROID__
+MOZ_WIDGET_ANDROID
 )
 void
 AddLibraryMapping
