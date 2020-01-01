@@ -24634,9 +24634,6 @@ regexp_exec
 1
 0
 )
-#
-ifdef
-JS_TRACER
 JS_TN
 (
 "
@@ -24647,8 +24644,6 @@ regexp_test
 0
 regexp_test_trcinfo
 )
-#
-endif
 JS_FS_END
 }
 ;
