@@ -616,6 +616,13 @@ start
 1
 )
 ;
+NS_ENSURE_TRUE
+(
+*
+aResult
+NS_ERROR_OUT_OF_MEMORY
+)
+;
 (
 *
 aResult
@@ -630,13 +637,6 @@ start
 \
 0
 '
-;
-NS_ENSURE_TRUE
-(
-*
-aResult
-NS_ERROR_OUT_OF_MEMORY
-)
 ;
 return
 NS_OK
