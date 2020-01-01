@@ -564,6 +564,14 @@ bug303267_window
 .
 xul
 \
+test_bug321671
+.
+xul
+\
+bug321671_window
+.
+xul
+\
 test_bug364461
 .
 xul
