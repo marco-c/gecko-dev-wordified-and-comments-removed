@@ -88,7 +88,7 @@ js
 namespace
 xpc
 {
-Wrapper
+DirectWrapper
 WaiveXrayWrapperWrapper
 (
 WrapperFactory

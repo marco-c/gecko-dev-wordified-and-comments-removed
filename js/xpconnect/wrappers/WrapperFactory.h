@@ -332,7 +332,7 @@ extern
 js
 :
 :
-Wrapper
+DirectWrapper
 WaiveXrayWrapperWrapper
 ;
 }
