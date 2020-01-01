@@ -10070,6 +10070,10 @@ writeBarrierPost
 (
 comp
 a
+HeapSlot
+:
+:
+Slot
 i
 )
 ;
@@ -10080,6 +10084,10 @@ writeBarrierPost
 (
 comp
 b
+HeapSlot
+:
+:
+Slot
 i
 )
 ;

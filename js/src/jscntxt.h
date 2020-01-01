@@ -2434,6 +2434,9 @@ bool
 gcIncrementalEnabled
 ;
 bool
+gcGenerationalEnabled
+;
+bool
 gcExactScanningEnabled
 ;
 bool

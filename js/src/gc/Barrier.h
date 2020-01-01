@@ -2105,7 +2105,7 @@ slot
 ;
 inline
 void
-SlotRangeWriteBarrierPost
+DenseRangeWriteBarrierPost
 (
 JSCompartment
 *

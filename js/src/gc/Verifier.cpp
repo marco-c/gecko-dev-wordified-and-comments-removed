@@ -36,6 +36,13 @@ h
 #
 include
 "
+jswatchpoint
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Util
@@ -3207,9 +3214,6 @@ MOZ_CRASH
 ;
 }
 void
-gc
-:
-:
 PostVerifierVisitEdge
 (
 JSTracer

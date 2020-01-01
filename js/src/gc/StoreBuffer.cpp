@@ -640,6 +640,12 @@ T
 v
 )
 {
+MonoTypeBuffer
+<
+T
+>
+:
+:
 put
 (
 v

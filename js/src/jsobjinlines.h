@@ -3367,7 +3367,7 @@ HeapSlot
 )
 )
 ;
-SlotRangeWriteBarrierPost
+DenseRangeWriteBarrierPost
 (
 comp
 this

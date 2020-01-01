@@ -2367,15 +2367,6 @@ defined
 (
 JS_GC_ZEAL
 )
-JSCompartment
-*
-comp
-=
-cx
--
->
-compartment
-;
 if
 (
 cx
