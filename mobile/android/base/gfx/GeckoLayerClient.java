@@ -422,6 +422,7 @@ new
 PanZoomController
 (
 this
+mEventDispatcher
 )
 ;
 }
