@@ -161,7 +161,7 @@ if
 !
 v
 .
-isNullOrUndefined
+isUndefined
 (
 )
 )
