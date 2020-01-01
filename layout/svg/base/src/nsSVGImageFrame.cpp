@@ -89,6 +89,13 @@ nsSVGUtils
 .
 h
 "
+#
+include
+"
+SVGContentUtils
+.
+h
+"
 using
 namespace
 mozilla
@@ -899,7 +906,7 @@ nullptr
 gfxMatrix
 viewBoxTM
 =
-nsSVGUtils
+SVGContentUtils
 :
 :
 GetViewBoxTransform

@@ -237,7 +237,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_NUMBER
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -253,7 +253,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_NUMBER
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y
@@ -269,7 +269,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_NUMBER
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -285,7 +285,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_NUMBER
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y

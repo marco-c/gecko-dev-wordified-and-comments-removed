@@ -193,13 +193,6 @@ h
 #
 include
 "
-nsSVGUtils
-.
-h
-"
-#
-include
-"
 nsSVGLength2
 .
 h
@@ -299,6 +292,13 @@ h
 include
 "
 SVGAnimatedTransformList
+.
+h
+"
+#
+include
+"
+SVGContentUtils
 .
 h
 "
@@ -4943,7 +4943,7 @@ aViewportElement
 *
 aViewportElement
 =
-nsSVGUtils
+SVGContentUtils
 :
 :
 GetNearestViewportElement
@@ -10842,7 +10842,7 @@ get
 }
 ;
 return
-nsSVGUtils
+SVGContentUtils
 :
 :
 ReportToConsole

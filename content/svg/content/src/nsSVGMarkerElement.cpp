@@ -38,13 +38,6 @@ h
 #
 include
 "
-nsSVGUtils
-.
-h
-"
-#
-include
-"
 nsSVGMarkerElement
 .
 h
@@ -60,6 +53,13 @@ h
 include
 "
 nsContentUtils
+.
+h
+"
+#
+include
+"
+SVGContentUtils
 .
 h
 "
@@ -91,7 +91,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_NUMBER
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -107,7 +107,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_NUMBER
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y
@@ -123,7 +123,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_NUMBER
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -139,7 +139,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_NUMBER
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y
@@ -1447,7 +1447,7 @@ disabled
 gfxMatrix
 viewBoxTM
 =
-nsSVGUtils
+SVGContentUtils
 :
 :
 GetViewBoxTransform

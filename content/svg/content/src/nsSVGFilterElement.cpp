@@ -64,7 +64,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -81,7 +81,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y
@@ -97,7 +97,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -113,7 +113,7 @@ nsIDOMSVGLength
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y

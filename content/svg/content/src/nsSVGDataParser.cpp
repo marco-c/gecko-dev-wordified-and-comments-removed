@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsSVGUtils
-.
-h
-"
-#
-include
-"
 nsMathUtils
 .
 h

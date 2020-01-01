@@ -491,6 +491,10 @@ SVGAttrValueWrapper
 .
 cpp
 \
+SVGContentUtils
+.
+cpp
+\
 SVGIntegerPairSMILType
 .
 cpp

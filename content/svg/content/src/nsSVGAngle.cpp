@@ -31,13 +31,6 @@ h
 #
 include
 "
-nsSVGUtils
-.
-h
-"
-#
-include
-"
 nsSVGMarkerElement
 .
 h

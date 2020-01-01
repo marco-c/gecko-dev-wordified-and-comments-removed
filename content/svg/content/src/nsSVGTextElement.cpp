@@ -387,7 +387,7 @@ X
 ]
 this
 X
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -428,7 +428,7 @@ Y
 ]
 this
 Y
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y
@@ -469,7 +469,7 @@ DX
 ]
 this
 DX
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -510,7 +510,7 @@ DY
 ]
 this
 DY
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y
@@ -1133,7 +1133,7 @@ nsGkAtoms
 :
 :
 x
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -1145,7 +1145,7 @@ nsGkAtoms
 :
 :
 y
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y
@@ -1157,7 +1157,7 @@ nsGkAtoms
 :
 :
 dx
-nsSVGUtils
+SVGContentUtils
 :
 :
 X
@@ -1169,7 +1169,7 @@ nsGkAtoms
 :
 :
 dy
-nsSVGUtils
+SVGContentUtils
 :
 :
 Y

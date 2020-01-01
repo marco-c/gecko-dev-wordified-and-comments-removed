@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsSVGUtils
-.
-h
-"
-#
-include
-"
 nsCharSeparatedTokenizer
 .
 h
@@ -44,6 +37,13 @@ h
 include
 "
 nsSMILValue
+.
+h
+"
+#
+include
+"
+SVGContentUtils
 .
 h
 "
