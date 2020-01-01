@@ -348,15 +348,8 @@ false
 ;
 aIOLoop
 =
-BrowserProcessSubThread
-:
-:
-GetMessageLoop
+XRE_GetIOMessageLoop
 (
-BrowserProcessSubThread
-:
-:
-IO
 )
 ;
 mChannelState
