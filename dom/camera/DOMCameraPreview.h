@@ -157,7 +157,7 @@ Started
 )
 ;
 void
-Stop
+StopPreview
 (
 )
 ;

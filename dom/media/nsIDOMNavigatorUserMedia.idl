@@ -177,7 +177,7 @@ true
 and
 a
 *
-nsIDOMMediaStream
+nsIDOMLocalMediaStream
 if
 either
 audio
