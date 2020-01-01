@@ -96,6 +96,8 @@ cx
 JSObject
 *
 wrapper
+jsid
+id
 )
 ;
 JSObject

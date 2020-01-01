@@ -256,6 +256,14 @@ JSPropertyDescriptor
 aDesc
 )
 ;
+bool
+HasField
+(
+nsString
+&
+aName
+)
+;
 protected
 :
 bool
