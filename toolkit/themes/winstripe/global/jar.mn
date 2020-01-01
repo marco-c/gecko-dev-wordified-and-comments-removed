@@ -4049,6 +4049,7 @@ dis
 .
 gif
 )
+*
 skin
 /
 classic
@@ -4066,6 +4067,8 @@ css
 console
 /
 console
+-
+aero
 .
 css
 )
