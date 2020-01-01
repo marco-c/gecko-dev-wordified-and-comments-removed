@@ -466,16 +466,6 @@ dynamic_images
 .
 cc
 \
-.
-.
-/
-.
-.
-/
-minidump_file_writer
-.
-cc
-\
 (
 NULL
 )
