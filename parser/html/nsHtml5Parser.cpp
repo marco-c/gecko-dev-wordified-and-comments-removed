@@ -1531,10 +1531,6 @@ treeOpKungFuDeathGrip
 mExecutor
 )
 ;
-CancelParsingEvents
-(
-)
-;
 if
 (
 mStreamParser
