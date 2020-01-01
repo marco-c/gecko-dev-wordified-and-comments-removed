@@ -270,6 +270,11 @@ aContentType
 )
 ;
 void
+DeleteReceivedFile
+(
+)
+;
+void
 ReplyToConnect
 (
 )
