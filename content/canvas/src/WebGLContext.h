@@ -2066,12 +2066,9 @@ va_list
 ap
 )
 ;
-static
 void
-LogMessage
+LogMessageIfVerbose
 (
-bool
-display
 const
 char
 *
@@ -2088,9 +2085,8 @@ const
 char
 *
 fmt
-.
-.
-.
+va_list
+ap
 )
 ;
 friend
