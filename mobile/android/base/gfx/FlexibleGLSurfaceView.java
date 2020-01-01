@@ -309,6 +309,12 @@ SurfaceHolder
 holder
 )
 {
+mController
+.
+surfaceCreated
+(
+)
+;
 }
 public
 synchronized
@@ -319,6 +325,12 @@ SurfaceHolder
 holder
 )
 {
+mController
+.
+surfaceDestroyed
+(
+)
+;
 if
 (
 mListener

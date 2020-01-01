@@ -7093,6 +7093,12 @@ ProvideEGLSurface
 (
 )
 {
+sController
+.
+WaitForValidSurface
+(
+)
+;
 return
 sController
 .
