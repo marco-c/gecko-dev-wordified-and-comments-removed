@@ -319,7 +319,7 @@ smart_size
 .
 enabled
 "
-false
+true
 )
 ;
 pref
@@ -335,7 +335,7 @@ smart_size
 .
 first_run
 "
-false
+true
 )
 ;
 pref
