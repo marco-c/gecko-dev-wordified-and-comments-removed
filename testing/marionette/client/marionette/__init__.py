@@ -3,6 +3,7 @@ marionette
 import
 Marionette
 HTMLElement
+Actions
 from
 marionette_test
 import
