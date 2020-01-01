@@ -391,13 +391,8 @@ h
 #
 endif
 #
-if
-(
-MOZ_WIDGET_GTK
-=
-=
-2
-)
+ifdef
+MOZ_WIDGET_GTK2
 #
 include
 <

@@ -4920,13 +4920,8 @@ aWindow
 ;
 }
 #
-if
-(
-MOZ_WIDGET_GTK
-=
-=
-2
-)
+ifdef
+MOZ_WIDGET_GTK2
 if
 (
 mXEmbed
