@@ -223,13 +223,6 @@ update
 )
 ;
 }
-struct
-RestyleData
-;
-friend
-struct
-RestyleData
-;
 static
 void
 GetAlternateTextFor
