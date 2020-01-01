@@ -7340,12 +7340,6 @@ mon
 mMon
 )
 ;
-nsIDKey
-key
-(
-aClass
-)
-;
 nsFactoryEntry
 *
 entry
@@ -10512,12 +10506,6 @@ aType
 {
 nsresult
 rv
-;
-nsIDKey
-key
-(
-aClass
-)
 ;
 nsAutoMonitor
 mon
