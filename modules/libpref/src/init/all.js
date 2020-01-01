@@ -1393,7 +1393,7 @@ font_loader
 .
 families_per_slice
 "
-10
+3
 )
 ;
 pref
@@ -1417,7 +1417,7 @@ font_loader
 .
 interval
 "
-2000
+1000
 )
 ;
 #
@@ -1431,7 +1431,7 @@ font_loader
 .
 families_per_slice
 "
-10
+3
 )
 ;
 pref
@@ -1455,7 +1455,7 @@ font_loader
 .
 interval
 "
-150
+50
 )
 ;
 #
