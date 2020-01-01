@@ -2871,7 +2871,7 @@ Type
 ActorType
             
 |
-ID
+CxxID
 "
 "
 "
@@ -2901,12 +2901,12 @@ else
 :
         
 loc
+id
 =
-locFromTok
-(
 p
+[
 1
-)
+]
         
 p
 [
@@ -2919,10 +2919,7 @@ loc
 QualifiedId
 (
 loc
-p
-[
-1
-]
+id
 )
 )
 def
