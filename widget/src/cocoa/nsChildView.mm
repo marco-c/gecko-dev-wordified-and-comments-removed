@@ -15973,9 +15973,13 @@ Point
 mouseLoc
 )
 ;
-SendEventToWindow
+:
+:
+SendEventToEventTarget
 (
 theEvent
+GetWindowEventTarget
+(
 (
 WindowRef
 )
@@ -15986,6 +15990,7 @@ window
 ]
 windowRef
 ]
+)
 )
 ;
 ReleaseEvent
