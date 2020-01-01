@@ -235,8 +235,6 @@ Update
 nsIDOMGeoPosition
 *
 aPosition
-PRBool
-isBetter
 )
 ;
 void
@@ -421,14 +419,6 @@ nsGeolocation
 locator
 )
 ;
-PRBool
-IsBetterPosition
-(
-nsIDOMGeoPosition
-*
-aPosition
-)
-;
 void
 SetCachedPosition
 (
@@ -529,8 +519,6 @@ Update
 nsIDOMGeoPosition
 *
 aPosition
-PRBool
-isBetter
 )
 ;
 PRBool
