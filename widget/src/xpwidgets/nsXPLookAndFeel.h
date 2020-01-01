@@ -19,13 +19,6 @@ nsCOMPtr
 h
 "
 #
-include
-"
-nsIObserver
-.
-h
-"
-#
 ifdef
 NS_DEBUG
 struct
@@ -242,8 +235,6 @@ nsXPLookAndFeel
 :
 public
 nsILookAndFeel
-public
-nsIObserver
 {
 public
 :
@@ -258,7 +249,6 @@ nsXPLookAndFeel
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSIOBSERVER
 void
 Init
 (
@@ -326,6 +316,7 @@ aSize
 endif
 protected
 :
+static
 void
 IntPrefChanged
 (
@@ -334,6 +325,7 @@ nsLookAndFeelIntPref
 data
 )
 ;
+static
 void
 FloatPrefChanged
 (
@@ -342,6 +334,7 @@ nsLookAndFeelFloatPref
 data
 )
 ;
+static
 void
 ColorPrefChanged
 (
@@ -400,6 +393,19 @@ aID
 nscolor
 &
 aColor
+)
+;
+static
+int
+OnPrefChanged
+(
+const
+char
+*
+aPref
+void
+*
+aClosure
 )
 ;
 static
