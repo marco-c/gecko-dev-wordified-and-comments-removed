@@ -3,6 +3,17 @@ if
 0
 #
 endif
+EXPORTED_SYMBOLS
+=
+[
+"
+BadCertHandler
+"
+"
+checkCert
+"
+]
+;
 function
 checkCert
 (
