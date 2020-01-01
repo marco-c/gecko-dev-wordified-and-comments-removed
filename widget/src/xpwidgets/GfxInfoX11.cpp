@@ -1076,6 +1076,15 @@ SetIsVoid
 PR_TRUE
 )
 ;
+if
+(
+aDriverInfo
+)
+{
+return
+NS_OK
+;
+}
 #
 ifdef
 MOZ_PLATFORM_MAEMO
