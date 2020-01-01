@@ -1350,7 +1350,7 @@ kind
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 )
 masm
 .

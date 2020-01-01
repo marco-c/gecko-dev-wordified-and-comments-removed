@@ -344,7 +344,7 @@ case
 Operand
 :
 :
-REG_DISP
+MEM_REG_DISP
 :
 return
 Operand
@@ -373,7 +373,7 @@ case
 Operand
 :
 :
-SCALE
+MEM_SCALE
 :
 return
 Operand
