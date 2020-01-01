@@ -181,10 +181,10 @@ gtk2
 DIRS
 +
 =
-linux
+gtk2
 endif
 #
-linux
+gtk2
 endif
 #
 mac
