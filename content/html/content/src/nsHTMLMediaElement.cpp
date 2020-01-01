@@ -5072,10 +5072,12 @@ result
 =
 CANPLAY_YES
 ;
-nsCommaSeparatedTokenizer
+nsCharSeparatedTokenizer
 tokenizer
 (
 codecs
+'
+'
 )
 ;
 PRBool
