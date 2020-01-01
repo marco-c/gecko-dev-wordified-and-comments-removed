@@ -340,13 +340,7 @@ prototypes
 ID
 mInterfaceChain
 [
-prototypes
-:
-:
-id
-:
-:
-_ID_Count
+MAX_PROTOTYPE_CHAIN_LENGTH
 ]
 ;
 const
