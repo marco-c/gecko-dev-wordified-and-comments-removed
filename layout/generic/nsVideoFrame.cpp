@@ -2542,6 +2542,10 @@ child
 nsSize
 imgsize
 ;
+if
+(
+NS_SUCCEEDED
+(
 imageFrame
 -
 >
@@ -2549,10 +2553,13 @@ GetIntrinsicImageSize
 (
 imgsize
 )
-;
+)
+)
+{
 return
 imgsize
 ;
+}
 }
 }
 if

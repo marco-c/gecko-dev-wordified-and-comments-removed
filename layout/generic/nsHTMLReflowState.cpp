@@ -3189,7 +3189,7 @@ aIntrinsicSize
 )
 {
 PRBool
-result
+success
 =
 PR_FALSE
 ;
@@ -3219,6 +3219,10 @@ nsImageFrame
 )
 aFrame
 ;
+if
+(
+NS_SUCCEEDED
+(
 imageFrame
 -
 >
@@ -3226,8 +3230,10 @@ GetIntrinsicImageSize
 (
 aIntrinsicSize
 )
-;
-result
+)
+)
+{
+success
 =
 (
 aIntrinsicSize
@@ -3241,8 +3247,9 @@ nsSize
 )
 ;
 }
+}
 return
-result
+success
 ;
 }
 void
