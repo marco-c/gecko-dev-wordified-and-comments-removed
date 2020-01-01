@@ -96,10 +96,6 @@ nsIDOMSVGAElement
 .
 idl
 \
-nsIDOMSVGAltGlyphElement
-.
-idl
-\
 nsIDOMSVGAnimatedEnum
 .
 idl

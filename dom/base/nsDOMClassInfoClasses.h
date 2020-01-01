@@ -591,10 +591,6 @@ SVGAElement
 )
 DOMCI_CLASS
 (
-SVGAltGlyphElement
-)
-DOMCI_CLASS
-(
 SVGAnimateElement
 )
 DOMCI_CLASS
