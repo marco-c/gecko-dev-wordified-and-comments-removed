@@ -183,17 +183,9 @@ PRLock
 *
 mCondLock
 ;
-PRLock
-*
-mPausedLock
-;
 PRCondVar
 *
 mQueueCond
-;
-PRCondVar
-*
-mPaused
 ;
 nsTArray
 <
