@@ -110,6 +110,12 @@ html
 \
 test_inspector
 -
+insert
+.
+html
+\
+test_inspector
+-
 mutations
 -
 attr
@@ -143,6 +149,12 @@ html
 test_inspector
 -
 release
+.
+html
+\
+test_inspector
+-
+remove
 .
 html
 \
