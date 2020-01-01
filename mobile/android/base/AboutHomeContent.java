@@ -1369,9 +1369,7 @@ Log
 .
 i
 (
-"
-GeckoAddons
-"
+LOGTAG
 "
 addon
 #
@@ -1405,9 +1403,7 @@ Log
 .
 i
 (
-"
-GeckoAddons
-"
+LOGTAG
 "
 error
 reading
@@ -1433,9 +1429,7 @@ Log
 .
 i
 (
-"
-GeckoAddons
-"
+LOGTAG
 "
 error
 reading
