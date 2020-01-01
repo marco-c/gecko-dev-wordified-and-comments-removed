@@ -2080,7 +2080,11 @@ destpath
 ~
 s
 |
+\
+Q
 srcdir
+\
+E
 /
 line
 /
@@ -2219,7 +2223,11 @@ destfile
 ~
 s
 |
+\
+Q
 srcdir
+\
+E
 /
 |
 |
