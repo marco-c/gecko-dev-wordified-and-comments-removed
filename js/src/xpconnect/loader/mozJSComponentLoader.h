@@ -617,6 +617,9 @@ mContext
 global
 )
 ;
+if
+(
+!
 JS_ClearScope
 (
 sSelf
@@ -624,6 +627,14 @@ sSelf
 >
 mContext
 global
+)
+)
+JS_ClearPendingException
+(
+sSelf
+-
+>
+mContext
 )
 ;
 JS_RemoveObjectRoot
