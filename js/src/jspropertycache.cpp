@@ -533,9 +533,6 @@ pobj
 *
 tmp
 ;
-#
-ifdef
-DEBUG
 JSScript
 *
 script
@@ -549,8 +546,6 @@ currentScript
 (
 )
 ;
-#
-endif
 JS_ASSERT
 (
 this
@@ -630,6 +625,7 @@ name
 GetNameFromBytecode
 (
 cx
+script
 pc
 op
 )
@@ -766,6 +762,7 @@ return
 GetNameFromBytecode
 (
 cx
+script
 pc
 op
 )
@@ -918,6 +915,7 @@ name
 GetNameFromBytecode
 (
 cx
+script
 pc
 op
 )
@@ -959,6 +957,7 @@ return
 GetNameFromBytecode
 (
 cx
+script
 pc
 op
 )

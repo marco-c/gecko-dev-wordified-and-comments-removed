@@ -610,6 +610,11 @@ f
 cx
 f
 .
+script
+(
+)
+f
+.
 pc
 (
 )
@@ -6078,6 +6083,11 @@ if
 GetPropertyOperation
 (
 cx
+f
+.
+script
+(
+)
 f
 .
 pc
