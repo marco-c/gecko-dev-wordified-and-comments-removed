@@ -1866,6 +1866,13 @@ kFillRuleKTable
 static
 const
 int32_t
+kFilterFunctionKTable
+[
+]
+;
+static
+const
+int32_t
 kImageRenderingKTable
 [
 ]

@@ -4895,7 +4895,7 @@ nsStyleFilter
 :
 mType
 (
-eNull
+NS_STYLE_FILTER_NONE
 )
 mDropShadow
 (
@@ -4921,7 +4921,7 @@ aSource
 :
 mType
 (
-eNull
+NS_STYLE_FILTER_NONE
 )
 mDropShadow
 (
@@ -4940,7 +4940,7 @@ aSource
 mType
 =
 =
-eURL
+NS_STYLE_FILTER_URL
 )
 {
 SetURL
@@ -4959,7 +4959,7 @@ aSource
 mType
 =
 =
-eDropShadow
+NS_STYLE_FILTER_DROP_SHADOW
 )
 {
 SetDropShadow
@@ -4978,7 +4978,7 @@ aSource
 mType
 !
 =
-eNull
+NS_STYLE_FILTER_NONE
 )
 {
 SetFilterParameter
@@ -5044,7 +5044,7 @@ aOther
 mType
 =
 =
-eURL
+NS_STYLE_FILTER_URL
 )
 {
 SetURL
@@ -5063,7 +5063,7 @@ aOther
 mType
 =
 =
-eDropShadow
+NS_STYLE_FILTER_DROP_SHADOW
 )
 {
 SetDropShadow
@@ -5082,7 +5082,7 @@ aOther
 mType
 !
 =
-eNull
+NS_STYLE_FILTER_NONE
 )
 {
 SetFilterParameter
@@ -5135,7 +5135,7 @@ if
 mType
 =
 =
-eURL
+NS_STYLE_FILTER_URL
 )
 {
 return
@@ -5154,7 +5154,7 @@ if
 mType
 =
 =
-eDropShadow
+NS_STYLE_FILTER_DROP_SHADOW
 )
 {
 return
@@ -5174,7 +5174,7 @@ if
 mType
 !
 =
-eNull
+NS_STYLE_FILTER_NONE
 )
 {
 return
@@ -5203,7 +5203,7 @@ if
 mType
 =
 =
-eDropShadow
+NS_STYLE_FILTER_DROP_SHADOW
 )
 {
 NS_ASSERTION
@@ -5229,7 +5229,7 @@ if
 mType
 =
 =
-eURL
+NS_STYLE_FILTER_URL
 )
 {
 NS_ASSERTION
@@ -5260,7 +5260,7 @@ const
 nsStyleCoord
 &
 aFilterParameter
-Type
+int32_t
 aType
 )
 {
@@ -5314,7 +5314,7 @@ AddRef
 ;
 mType
 =
-eURL
+NS_STYLE_FILTER_URL
 ;
 }
 void
@@ -5354,7 +5354,7 @@ AddRef
 ;
 mType
 =
-eDropShadow
+NS_STYLE_FILTER_DROP_SHADOW
 ;
 }
 nsStyleSVGReset
