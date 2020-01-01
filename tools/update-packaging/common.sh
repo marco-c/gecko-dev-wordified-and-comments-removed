@@ -947,17 +947,6 @@ f
 -
 name
 "
-channel
--
-prefs
-.
-js
-"
-\
-!
--
-name
-"
 update
 .
 manifest
