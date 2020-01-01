@@ -4681,6 +4681,14 @@ nsChangeHint_ClearAncestorIntrinsics
 )
 ;
 }
+aMinChange
+=
+NS_SubtractHint
+(
+aMinChange
+nsChangeHint_UpdateOverflow
+)
+;
 NS_ASSERTION
 (
 aFrame
