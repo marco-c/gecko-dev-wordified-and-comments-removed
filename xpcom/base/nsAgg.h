@@ -1410,6 +1410,14 @@ IsPartOfAggregated
 NS_IMPL_CYCLE_COLLECTION_DESCRIBE
 (
 _class
+tmp
+-
+>
+mRefCnt
+.
+get
+(
+)
 )
 #
 define
