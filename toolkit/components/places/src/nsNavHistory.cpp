@@ -10943,6 +10943,12 @@ aTransitionType
 !
 =
 TRANSITION_EMBED
+&
+&
+aTransitionType
+!
+=
+TRANSITION_DOWNLOAD
 )
 hidden
 =
@@ -11073,6 +11079,12 @@ TRANSITION_EMBED
 |
 |
 aIsRedirect
+|
+|
+aTransitionType
+=
+=
+TRANSITION_DOWNLOAD
 )
 ;
 typed
