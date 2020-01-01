@@ -103,6 +103,10 @@ aDecoder
 nsBuiltinDecoderReader
 *
 aReader
+PRPackedBool
+aRealTime
+=
+PR_FALSE
 )
 ;
 ~
@@ -939,6 +943,15 @@ mDispatchedRunEvent
 ;
 PRPackedBool
 mDecodeThreadWaiting
+;
+PRPackedBool
+mRealTime
+;
+PRUint32
+mBufferingWait
+;
+PRInt64
+mLowDataThresholdUsecs
 ;
 private
 :

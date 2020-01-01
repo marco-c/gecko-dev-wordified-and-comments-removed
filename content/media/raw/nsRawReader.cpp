@@ -33,13 +33,6 @@ VideoUtils
 .
 h
 "
-static
-const
-PRUint24
-RAW_ID
-=
-0x595556
-;
 nsRawReader
 :
 :

@@ -439,6 +439,10 @@ nsRawReader
 .
 h
 \
+nsRawStructs
+.
+h
+\
 (
 NULL
 )

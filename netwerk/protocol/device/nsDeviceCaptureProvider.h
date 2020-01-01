@@ -38,6 +38,9 @@ height
 PRUint32
 bpp
 ;
+PRUint32
+camera
+;
 }
 ;
 class
