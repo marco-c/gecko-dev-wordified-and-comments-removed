@@ -209,9 +209,6 @@ class
 nsIDOMKeyEvent
 ;
 class
-nsIDOMNSEvent
-;
-class
 nsIDOMNode
 ;
 class
@@ -2523,7 +2520,7 @@ HandlingTrustedAction
 nsEditor
 *
 aSelf
-nsIDOMNSEvent
+nsIDOMEvent
 *
 aEvent
 )

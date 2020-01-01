@@ -422,7 +422,7 @@ Components
 .
 interfaces
 .
-nsIDOMNSEvent
+nsIDOMEvent
 .
 SHIFT_MASK
 )
@@ -453,7 +453,7 @@ Components
 .
 interfaces
 .
-nsIDOMNSEvent
+nsIDOMEvent
 .
 CONTROL_MASK
 )
@@ -484,7 +484,7 @@ Components
 .
 interfaces
 .
-nsIDOMNSEvent
+nsIDOMEvent
 .
 ALT_MASK
 )
@@ -515,7 +515,7 @@ Components
 .
 interfaces
 .
-nsIDOMNSEvent
+nsIDOMEvent
 .
 META_MASK
 )
@@ -1034,7 +1034,7 @@ Components
 .
 interfaces
 .
-nsIDOMNSEvent
+nsIDOMEvent
 .
 SHIFT_MASK
 ;
@@ -1056,7 +1056,7 @@ Components
 .
 interfaces
 .
-nsIDOMNSEvent
+nsIDOMEvent
 .
 META_MASK
 ;
@@ -1078,7 +1078,7 @@ Components
 .
 interfaces
 .
-nsIDOMNSEvent
+nsIDOMEvent
 .
 ALT_MASK
 ;
@@ -1100,7 +1100,7 @@ Components
 .
 interfaces
 .
-nsIDOMNSEvent
+nsIDOMEvent
 .
 CONTROL_MASK
 ;

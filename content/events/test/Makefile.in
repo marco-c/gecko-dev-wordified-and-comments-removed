@@ -401,11 +401,15 @@ test_dom_mouse_event
 .
 html
 \
-test_bug742376
+test_bug603008
 .
 html
 \
-test_bug603008
+test_bug716822
+.
+html
+\
+test_bug742376
 .
 html
 \
