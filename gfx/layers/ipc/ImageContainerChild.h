@@ -226,8 +226,11 @@ img
 ;
 SharedImage
 *
-PopSharedImageFromPool
+GetSharedImageFor
 (
+Image
+*
+aImage
 )
 ;
 void
@@ -268,9 +271,6 @@ private
 :
 PRUint64
 mImageContainerID
-;
-nsIntSize
-mSize
 ;
 nsTArray
 <
