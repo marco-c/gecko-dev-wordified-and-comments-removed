@@ -2002,7 +2002,7 @@ var
 initialTab
 =
 "
-general
+generalTab
 "
 ;
 if
@@ -2071,10 +2071,6 @@ document
 getElementById
 (
 initialTab
-+
-"
-Tab
-"
 )
 |
 |
