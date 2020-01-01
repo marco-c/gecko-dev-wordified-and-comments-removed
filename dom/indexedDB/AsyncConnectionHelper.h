@@ -129,15 +129,6 @@ GetCurrentTransaction
 (
 )
 ;
-static
-void
-SetCurrentTransaction
-(
-IDBTransaction
-*
-aTransaction
-)
-;
 nsISupports
 *
 GetSource

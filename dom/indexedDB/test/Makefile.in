@@ -531,6 +531,10 @@ test_index_getAllObjects
 .
 html
 \
+test_index_object_cursors
+.
+html
+\
 test_indexes
 .
 html
