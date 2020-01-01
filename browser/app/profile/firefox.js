@@ -9470,7 +9470,7 @@ debugger
 .
 enabled
 "
-false
+true
 )
 ;
 pref
