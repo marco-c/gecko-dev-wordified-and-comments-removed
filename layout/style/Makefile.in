@@ -605,10 +605,6 @@ nsIHTMLCSSStyleSheet
 .
 h
 \
-nsIInspectorCSSUtils
-.
-h
-\
 nsIStyleRule
 .
 h
@@ -784,10 +780,6 @@ nsHTMLCSSStyleSheet
 cpp
 \
 nsHTMLStyleSheet
-.
-cpp
-\
-nsInspectorCSSUtils
 .
 cpp
 \

@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIInspectorCSSUtils
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h
