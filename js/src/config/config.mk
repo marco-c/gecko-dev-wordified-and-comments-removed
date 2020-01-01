@@ -3012,6 +3012,16 @@ endif
 #
 MACOSX_DEPLOYMENT_TARGET
 ifdef
+MOZ_USING_CCACHE
+ifdef
+CLANG_CXX
+export
+CCACHE_CPP2
+=
+1
+endif
+endif
+ifdef
 MOZ_OPTIMIZE
 ifeq
 (
