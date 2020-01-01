@@ -12768,6 +12768,17 @@ SSL_RevealURL
 sslSocket
 )
 ;
+if
+(
+!
+hostname
+)
+return
+cancel_and_failure
+(
+infoObject
+)
+;
 charCleaner
 hostnameCleaner
 (
@@ -12821,9 +12832,6 @@ hostWithPortString
 ;
 if
 (
-hostname
-&
-&
 hostname
 [
 0
