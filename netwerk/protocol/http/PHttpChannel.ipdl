@@ -487,13 +487,6 @@ NeckoMessageUtils
 h
 "
 ;
-include
-"
-prio
-.
-h
-"
-;
 using
 RequestHeaderTuples
 ;
@@ -514,9 +507,6 @@ IPC
 :
 :
 InputStream
-;
-using
-PRNetAddr
 ;
 namespace
 mozilla
@@ -1022,10 +1012,6 @@ nsCString
 cachedCharset
 nsCString
 securityInfoSerialization
-PRNetAddr
-selfAddr
-PRNetAddr
-peerAddr
 )
 ;
 /
