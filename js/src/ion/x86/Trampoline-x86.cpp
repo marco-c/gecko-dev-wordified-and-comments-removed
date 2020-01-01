@@ -1336,6 +1336,7 @@ masm
 loadBaselineOrIonCode
 (
 eax
+ebx
 NULL
 )
 ;

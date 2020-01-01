@@ -1571,6 +1571,7 @@ masm
 loadBaselineOrIonCode
 (
 r3
+r6
 NULL
 )
 ;

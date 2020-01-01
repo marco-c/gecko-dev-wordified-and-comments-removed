@@ -2289,7 +2289,7 @@ invalidateEpilogueDataOffset_
 )
 bailoutExpected_
 (
-false
+0
 )
 snapshots_
 (
@@ -6659,6 +6659,12 @@ JSOP_LOOPENTRY
 ;
 if
 (
+IsBaselineEnabled
+(
+cx
+)
+&
+&
 !
 script
 -
