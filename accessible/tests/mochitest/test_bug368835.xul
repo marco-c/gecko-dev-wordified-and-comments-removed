@@ -739,6 +739,12 @@ break
 case
 2
 :
+/
+/
+XXX
+see
+bug
+454647
 TreeInvalidatedHandlerHelper
 (
 aEvent
@@ -746,6 +752,8 @@ null
 null
 0
 0
+/
+/
 "
 nsITreeBoxObject
 :
@@ -763,6 +771,12 @@ break
 case
 3
 :
+/
+/
+XXX
+see
+bug
+454647
 TreeInvalidatedHandlerHelper
 (
 aEvent
@@ -770,6 +784,8 @@ aEvent
 1
 null
 null
+/
+/
 "
 nsITreeBoxObject
 :
