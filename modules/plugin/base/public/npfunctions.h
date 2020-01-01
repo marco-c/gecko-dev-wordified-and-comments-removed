@@ -1476,7 +1476,7 @@ NP_Initialize
 (
 NPNetscapeFuncs
 *
-bFuncs
+pFuncs
 )
 ;
 NPError

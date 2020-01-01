@@ -7566,14 +7566,14 @@ script
 script
 -
 >
-UTF8Length
+utf8length
 |
 |
 !
 script
 -
 >
-UTF8Characters
+utf8characters
 )
 {
 return
@@ -7586,11 +7586,11 @@ utf16script
 script
 -
 >
-UTF8Characters
+utf8characters
 script
 -
 >
-UTF8Length
+utf8length
 )
 ;
 nsCOMPtr
@@ -7765,7 +7765,7 @@ npobj
 script
 -
 >
-UTF8Characters
+utf8characters
 )
 )
 ;
@@ -8850,7 +8850,7 @@ if
 s
 -
 >
-UTF8Characters
+utf8characters
 )
 {
 #
@@ -8867,7 +8867,7 @@ void
 s
 -
 >
-UTF8Characters
+utf8characters
 )
 !
 =
@@ -8883,7 +8883,7 @@ void
 s
 -
 >
-UTF8Characters
+utf8characters
 )
 ;
 }
@@ -8900,7 +8900,7 @@ void
 s
 -
 >
-UTF8Characters
+utf8characters
 ;
 DWORD
 nheaps
@@ -8997,7 +8997,7 @@ void
 s
 -
 >
-UTF8Characters
+utf8characters
 )
 ;
 #
