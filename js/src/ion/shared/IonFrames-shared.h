@@ -35,4 +35,14 @@ IonCode
 0x3
 )
 #
+define
+ION_FRAME_OOL_NATIVE_GETTER
+(
+(
+IonCode
+*
+)
+0x4
+)
+#
 endif

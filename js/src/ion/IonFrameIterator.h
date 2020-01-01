@@ -273,6 +273,12 @@ isNative
 const
 ;
 bool
+isOOLNativeGetter
+(
+)
+const
+;
+bool
 isDOMExit
 (
 )
