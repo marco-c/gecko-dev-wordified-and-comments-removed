@@ -2964,7 +2964,7 @@ PL_DHASH_NEXT
 PRInt32
 rank
 =
-0
+1
 ;
 if
 (
