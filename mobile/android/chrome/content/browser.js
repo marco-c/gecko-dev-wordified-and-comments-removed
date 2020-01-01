@@ -17661,6 +17661,11 @@ HTMLInputElement
 )
 |
 |
+aElement
+.
+readOnly
+|
+|
 (
 aElement
 .
