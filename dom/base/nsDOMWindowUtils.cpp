@@ -973,7 +973,7 @@ aHeightPx
 presShell
 -
 >
-ResizeReflow
+ResizeReflowOverride
 (
 width
 height
