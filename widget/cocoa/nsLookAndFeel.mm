@@ -1017,9 +1017,6 @@ break
 case
 eColorID_menu
 :
-case
-eColorID__moz_menubar
-:
 aColor
 =
 GetColorFromNSColor
