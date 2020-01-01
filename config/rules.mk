@@ -1436,6 +1436,8 @@ symbols
 -
 -
 test
+-
+path
 =
 (
 SOLO_FILE
@@ -1533,6 +1535,8 @@ symbols
 -
 -
 test
+-
+path
 =
 (
 SOLO_FILE
