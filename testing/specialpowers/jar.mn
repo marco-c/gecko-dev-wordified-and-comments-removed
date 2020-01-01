@@ -74,3 +74,15 @@ MockFilePicker
 .
 jsm
 )
+modules
+/
+MockPermissionPrompt
+.
+jsm
+(
+content
+/
+MockPermissionPrompt
+.
+jsm
+)
