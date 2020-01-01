@@ -716,6 +716,9 @@ textarea
 ref
 .
 html
+needs
+-
+focus
 =
 =
 caret_on_focus
@@ -1158,6 +1161,9 @@ if
 (
 Android
 )
+needs
+-
+focus
 =
 =
 338427
