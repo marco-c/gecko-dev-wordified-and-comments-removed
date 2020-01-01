@@ -1280,9 +1280,7 @@ if
 mStream
 -
 >
-Type
-(
-)
+mType
 =
 =
 streamType
