@@ -229,6 +229,12 @@ Init
 (
 )
 ;
+virtual
+void
+GetData
+(
+)
+;
 protected
 :
 virtual
@@ -279,11 +285,6 @@ mRevisionVersion
 ;
 void
 AddCrashReportAnnotations
-(
-)
-;
-void
-GetData
 (
 )
 ;
