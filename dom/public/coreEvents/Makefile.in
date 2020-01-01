@@ -418,10 +418,6 @@ dom
 EXPORTS
 =
 \
-nsIDOMEventReceiver
-.
-h
-\
 nsIDOMFocusListener
 .
 h

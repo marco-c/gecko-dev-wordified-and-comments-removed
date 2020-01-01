@@ -3234,10 +3234,6 @@ nsIScriptObjectPrincipal
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIDOMEventReceiver
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsIDOMEventTarget
 )
 NS_INTERFACE_MAP_ENTRY
@@ -17647,7 +17643,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsDocument
 :
 :
@@ -21308,9 +21304,9 @@ aNewRequest
 {
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 >
-er
+piTarget
 =
 do_QueryInterface
 (
@@ -21319,7 +21315,7 @@ mScriptGlobalObject
 ;
 if
 (
-er
+piTarget
 )
 {
 nsCOMPtr
@@ -21328,7 +21324,7 @@ nsIEventListenerManager
 >
 manager
 ;
-er
+piTarget
 -
 >
 GetListenerManager

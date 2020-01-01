@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsIDOMEventReceiver
-.
-h
-"
-#
-include
-"
 nsIPrivateDOMImplementation
 .
 h
@@ -755,7 +748,7 @@ forceListener
 }
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 >
 target
 =

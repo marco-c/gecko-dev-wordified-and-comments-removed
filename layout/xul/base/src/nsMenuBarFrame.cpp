@@ -85,7 +85,7 @@ h
 #
 include
 "
-nsIDOMEventReceiver
+nsIDOMEventTarget
 .
 h
 "
@@ -367,7 +367,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsIDOMEventTarget
 >
 target
 =
