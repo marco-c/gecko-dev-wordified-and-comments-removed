@@ -2604,7 +2604,7 @@ getContentResolver
 ;
 BrowserDB
 .
-removeBookmark
+removeBookmarksWithURL
 (
 resolver
 getURL

@@ -1785,6 +1785,17 @@ removeBookmark
 (
 ContentResolver
 cr
+int
+id
+)
+{
+}
+public
+void
+removeBookmarksWithURL
+(
+ContentResolver
+cr
 String
 uri
 )
