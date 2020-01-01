@@ -4725,6 +4725,13 @@ MKSHLIB
 )
 ifdef
 STDCXX_COMPAT
+ifneq
+(
+(
+OS_ARCH
+)
+Darwin
+)
 CHECK_STDCXX
 =
 objdump
@@ -4838,6 +4845,7 @@ exit
 |
 exit
 0
+endif
 endif
 #
 autoconf
