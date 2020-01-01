@@ -12777,8 +12777,10 @@ prepend
 CGGeneric
 (
 "
-ErrorResult
+nsresult
 rv
+=
+NS_OK
 ;
 "
 )
@@ -12795,10 +12797,9 @@ CGGeneric
 "
 if
 (
-rv
-.
-Failed
+NS_FAILED
 (
+rv
 )
 )
 {
