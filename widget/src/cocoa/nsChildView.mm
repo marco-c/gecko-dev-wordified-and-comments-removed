@@ -3138,12 +3138,11 @@ called
 twice
 .
 }
-NS_IMPL_ISUPPORTS_INHERITED2
+NS_IMPL_ISUPPORTS_INHERITED1
 (
 nsChildView
 nsBaseWidget
 nsIPluginWidget
-nsIKBStateControl
 )
 /
 /
@@ -11529,7 +11528,7 @@ that
 this
 and
 other
-nsIKBStateControl
+IME
 methods
 don
 '
@@ -11733,7 +11732,7 @@ aState
 )
 {
 case
-nsIKBStateControl
+nsIWidget
 :
 :
 IME_STATUS_ENABLED
@@ -11757,7 +11756,7 @@ PR_TRUE
 break
 ;
 case
-nsIKBStateControl
+nsIWidget
 :
 :
 IME_STATUS_DISABLED
@@ -11781,7 +11780,7 @@ PR_FALSE
 break
 ;
 case
-nsIKBStateControl
+nsIWidget
 :
 :
 IME_STATUS_PASSWORD
@@ -11859,7 +11858,7 @@ IsIMEEnabled
 *
 aState
 =
-nsIKBStateControl
+nsIWidget
 :
 :
 IME_STATUS_ENABLED
@@ -11877,7 +11876,7 @@ IsRomanKeyboardsOnly
 *
 aState
 =
-nsIKBStateControl
+nsIWidget
 :
 :
 IME_STATUS_PASSWORD
@@ -11886,7 +11885,7 @@ else
 *
 aState
 =
-nsIKBStateControl
+nsIWidget
 :
 :
 IME_STATUS_DISABLED

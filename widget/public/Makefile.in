@@ -432,10 +432,6 @@ nsIWidget
 .
 h
 \
-nsIKBStateControl
-.
-h
-\
 nsGUIEvent
 .
 h

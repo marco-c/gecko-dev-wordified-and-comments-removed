@@ -650,13 +650,6 @@ h
 #
 include
 "
-nsIKBStateControl
-.
-h
-"
-#
-include
-"
 nsIMEStateManager
 .
 h
@@ -16628,7 +16621,7 @@ PRUint32
 nsContentUtils
 :
 :
-GetKBStateControlStatusFromIMEStatus
+GetWidgetStatusFromIMEStatus
 (
 PRUint32
 aState
@@ -16651,7 +16644,7 @@ nsIContent
 IME_STATUS_DISABLE
 :
 return
-nsIKBStateControl
+nsIWidget
 :
 :
 IME_STATUS_DISABLED
@@ -16663,7 +16656,7 @@ nsIContent
 IME_STATUS_ENABLE
 :
 return
-nsIKBStateControl
+nsIWidget
 :
 :
 IME_STATUS_ENABLED
@@ -16675,7 +16668,7 @@ nsIContent
 IME_STATUS_PASSWORD
 :
 return
-nsIKBStateControl
+nsIWidget
 :
 :
 IME_STATUS_PASSWORD
@@ -16699,7 +16692,7 @@ state
 )
 ;
 return
-nsIKBStateControl
+nsIWidget
 :
 :
 IME_STATUS_ENABLED

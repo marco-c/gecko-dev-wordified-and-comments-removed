@@ -2470,7 +2470,7 @@ NULL
 ;
 mIMEEnabled
 =
-nsIKBStateControl
+nsIWidget
 :
 :
 IME_STATUS_ENABLED
@@ -2817,11 +2817,10 @@ mNativeDragTarget
 )
 ;
 }
-NS_IMPL_ISUPPORTS_INHERITED1
+NS_IMPL_ISUPPORTS_INHERITED0
 (
 nsWindow
 nsBaseWidget
-nsIKBStateControl
 )
 NS_METHOD
 nsWindow
@@ -30827,7 +30826,7 @@ enable
 aState
 =
 =
-nsIKBStateControl
+nsIWidget
 :
 :
 IME_STATUS_ENABLED

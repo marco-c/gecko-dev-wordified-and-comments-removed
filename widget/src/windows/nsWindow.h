@@ -42,13 +42,6 @@ h
 #
 include
 "
-nsIKBStateControl
-.
-h
-"
-#
-include
-"
 nsIMouseListener
 .
 h
@@ -309,8 +302,6 @@ public
 nsSwitchToUIThread
 public
 nsBaseWidget
-public
-nsIKBStateControl
 {
 public
 :

@@ -2083,7 +2083,7 @@ aScriptObjectHolder
 ;
 static
 PRUint32
-GetKBStateControlStatusFromIMEStatus
+GetWidgetStatusFromIMEStatus
 (
 PRUint32
 aState
