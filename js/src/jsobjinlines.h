@@ -189,13 +189,6 @@ h
 #
 include
 "
-jsprobes
-.
-h
-"
-#
-include
-"
 jsscopeinlines
 .
 h
