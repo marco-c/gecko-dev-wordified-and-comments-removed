@@ -660,10 +660,6 @@ JS_FALSE
 int
 )
 0
-typedef
-uint8_t
-JSPackedBool
-;
 #
 if
 defined

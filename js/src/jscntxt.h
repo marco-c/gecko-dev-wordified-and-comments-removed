@@ -2206,7 +2206,7 @@ AutoResolving
 *
 resolvingList
 ;
-JSPackedBool
+bool
 generatingError
 ;
 JSCompartment

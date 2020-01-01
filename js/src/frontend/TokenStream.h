@@ -2884,13 +2884,13 @@ oneCharTokens
 128
 ]
 ;
-JSPackedBool
+bool
 maybeEOL
 [
 256
 ]
 ;
-JSPackedBool
+bool
 maybeStrSpecial
 [
 256

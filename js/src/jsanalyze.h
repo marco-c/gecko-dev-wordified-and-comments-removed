@@ -2489,7 +2489,7 @@ outOfMemory
 bool
 hadFailure
 ;
-JSPackedBool
+bool
 *
 escapedSlots
 ;

@@ -31637,7 +31637,7 @@ cx
 JSBool
 ok
 ;
-JSPackedBool
+bool
 save
 ;
 AssertNoGC
