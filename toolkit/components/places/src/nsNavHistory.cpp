@@ -11987,7 +11987,7 @@ IN
 "
 )
 +
-deletedPlaceIdsBookmarked
+deletedPlaceIdsWithAnno
 +
 NS_LITERAL_CSTRING
 (
