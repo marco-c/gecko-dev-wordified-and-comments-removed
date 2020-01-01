@@ -53,6 +53,13 @@ nsRect
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 class
 nsSHEntry
 ;

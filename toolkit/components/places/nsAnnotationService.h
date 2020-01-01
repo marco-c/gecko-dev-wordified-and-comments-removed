@@ -60,6 +60,13 @@ Database
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 class
 nsAnnotationService
 :

@@ -18,6 +18,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 class
 nsIDOMDocument
 ;

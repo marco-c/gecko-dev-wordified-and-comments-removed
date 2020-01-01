@@ -21,6 +21,13 @@ Mutex
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 using
 mozilla
 :

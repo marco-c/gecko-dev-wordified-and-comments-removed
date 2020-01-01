@@ -80,6 +80,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsCSSStyleSheet
 .
 h
@@ -276,13 +283,6 @@ h
 include
 "
 nsAutoPtr
-.
-h
-"
-#
-include
-"
-nsTArray
 .
 h
 "

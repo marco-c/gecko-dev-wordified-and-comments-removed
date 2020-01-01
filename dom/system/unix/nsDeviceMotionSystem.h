@@ -13,6 +13,13 @@ h
 >
 #
 include
+<
+stdio
+.
+h
+>
+#
+include
 "
 nsDeviceMotion
 .

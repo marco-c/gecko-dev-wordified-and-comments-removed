@@ -23,6 +23,13 @@ nsCOMArray
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 class
 QFileDialog
 ;
