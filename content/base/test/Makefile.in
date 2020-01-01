@@ -2666,6 +2666,10 @@ file_bug787778
 .
 sjs
 \
+test_xbl_userdata
+.
+xhtml
+\
 test_XHR_onuploadprogress
 .
 html
