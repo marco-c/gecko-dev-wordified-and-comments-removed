@@ -5620,6 +5620,9 @@ JS_REQUIRES_STACK
 AbortableRecordingStatus
 unboxNextValue
 (
+Value
+&
+iterobj_val
 nanojit
 :
 :
