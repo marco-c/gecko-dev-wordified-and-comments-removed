@@ -11459,6 +11459,17 @@ xul
 ref2
 .
 xul
+fails
+-
+if
+(
+MOZ_WIDGET_TOOLKIT
+=
+=
+"
+gtk2
+"
+)
 =
 =
 424074
