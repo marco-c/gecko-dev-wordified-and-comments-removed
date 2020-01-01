@@ -921,6 +921,14 @@ FLAG_DISABLE_SNAPPING
 <
 1
 )
+FLAG_DISABLE_COPY_BACKGROUND
+=
+(
+1
+<
+<
+2
+)
 }
 ;
 void
