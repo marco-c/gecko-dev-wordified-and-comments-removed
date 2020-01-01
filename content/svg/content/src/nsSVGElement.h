@@ -378,6 +378,13 @@ modificationType
 aModType
 )
 ;
+nsIContent
+*
+GetParentElement
+(
+)
+;
+virtual
 nsSVGSVGElement
 *
 GetCtx
