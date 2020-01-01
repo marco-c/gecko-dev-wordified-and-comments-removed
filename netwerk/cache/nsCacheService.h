@@ -266,6 +266,12 @@ entry
 )
 ;
 static
+PRInt32
+CacheCompressionLevel
+(
+)
+;
+static
 nsCacheService
 *
 GlobalInstance
@@ -394,6 +400,14 @@ static
 void
 SetMemoryCache
 (
+)
+;
+static
+void
+SetCacheCompressionLevel
+(
+PRInt32
+level
 )
 ;
 static
