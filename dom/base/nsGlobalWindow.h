@@ -1771,6 +1771,16 @@ PRUint64
 aWindowID
 )
 {
+if
+(
+!
+sWindowsById
+)
+{
+return
+nsnull
+;
+}
 nsGlobalWindow
 *
 outerWindow
