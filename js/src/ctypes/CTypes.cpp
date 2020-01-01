@@ -10583,6 +10583,14 @@ WINAPI
 "
 )
 ;
+if
+(
+prevGrouping
+=
+=
+TYPE_pointer
+)
+{
 PrependString
 (
 result
@@ -10599,6 +10607,7 @@ result
 "
 )
 ;
+}
 AppendString
 (
 result
