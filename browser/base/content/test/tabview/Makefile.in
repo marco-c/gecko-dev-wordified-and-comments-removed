@@ -720,10 +720,6 @@ browser_tabview_bug626791
 .
 js
 \
-browser_tabview_bug627239
-.
-js
-\
 browser_tabview_bug627288
 .
 js
@@ -925,6 +921,10 @@ browser_tabview_snapping
 js
 \
 browser_tabview_startup_transitions
+.
+js
+\
+browser_tabview_storage_policy
 .
 js
 \
