@@ -293,3 +293,8 @@ include
 ui
 .
 js
+#
+include
+search
+.
+js
