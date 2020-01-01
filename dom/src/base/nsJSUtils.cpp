@@ -178,6 +178,9 @@ script
 if
 (
 scriptPrins
+&
+&
+scriptPrins
 !
 =
 aPrincipals
