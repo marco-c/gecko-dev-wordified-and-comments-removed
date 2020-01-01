@@ -306,6 +306,8 @@ aLength
 nsACString
 &
 aMimeType
+uint64_t
+aLastModifiedDate
 )
 ;
 virtual
@@ -324,6 +326,9 @@ private
 :
 uint32_t
 mLength
+;
+uint64_t
+mLastModificationDate
 ;
 nsRefPtr
 <
