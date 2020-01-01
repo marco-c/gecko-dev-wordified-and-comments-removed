@@ -643,7 +643,7 @@ h
 #
 include
 "
-nsHTMLLegendElement
+HTMLLegendElement
 .
 h
 "

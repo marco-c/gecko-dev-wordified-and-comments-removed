@@ -2185,7 +2185,7 @@ h
 #
 include
 "
-nsHTMLLegendElement
+HTMLLegendElement
 .
 h
 "
@@ -26864,11 +26864,11 @@ form
 }
 else
 {
-nsHTMLLegendElement
+HTMLLegendElement
 *
 legend
 =
-nsHTMLLegendElement
+HTMLLegendElement
 :
 :
 FromContent

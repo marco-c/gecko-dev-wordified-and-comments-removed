@@ -190,6 +190,10 @@ HTMLLabelElement
 .
 h
 \
+HTMLLegendElement
+.
+h
+\
 HTMLLIElement
 .
 h
@@ -413,6 +417,10 @@ HTMLLabelElement
 cpp
 \
 nsHTMLLegendElement
+.
+cpp
+\
+HTMLLegendElement
 .
 cpp
 \
