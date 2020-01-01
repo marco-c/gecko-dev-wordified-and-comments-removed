@@ -3446,9 +3446,9 @@ else
 if
 (
 mAccChildCount
+<
 =
-=
-eChildCountUninitialized
+0
 )
 {
 return

@@ -365,9 +365,8 @@ eChildCountUninitialized
 return
 ;
 }
-SetFirstChild
+InvalidateChildren
 (
-nsnull
 )
 ;
 mAccChildCount
