@@ -61,7 +61,7 @@ finalizeInBackground
 JS
 :
 :
-HandleValue
+Value
 priv
 )
 {

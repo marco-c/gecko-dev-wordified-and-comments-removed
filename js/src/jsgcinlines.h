@@ -702,7 +702,7 @@ MapAllocToTraceKind
 cell
 -
 >
-getAllocKind
+tenuredGetAllocKind
 (
 )
 )

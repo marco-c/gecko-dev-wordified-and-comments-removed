@@ -1740,7 +1740,7 @@ if
 !
 IsBackgroundFinalized
 (
-getAllocKind
+tenuredGetAllocKind
 (
 )
 )
