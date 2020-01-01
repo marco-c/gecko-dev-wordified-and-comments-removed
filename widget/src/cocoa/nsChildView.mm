@@ -10480,6 +10480,7 @@ NSURLPboardType
 NSFilesPromisePboardType
 kWildcardPboardType
 kCorePboardType_url
+kCorePboardType_urld
 kCorePboardType_urln
 nil
 ]
