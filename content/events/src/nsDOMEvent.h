@@ -330,7 +330,7 @@ aEventTypeArg
 ;
 already_AddRefed
 <
-nsIContent
+nsIDOMEventTarget
 >
 GetTargetFromFrame
 (
@@ -361,8 +361,10 @@ nsIDOMEventTarget
 >
 mTmpRealOriginalTarget
 ;
+nsCOMPtr
+<
 nsIDOMEventTarget
-*
+>
 mExplicitOriginalTarget
 ;
 nsString
