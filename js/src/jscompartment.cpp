@@ -4072,6 +4072,7 @@ site
 scriptObject
 |
 |
+!
 IsAboutToBeFinalized
 (
 cx
