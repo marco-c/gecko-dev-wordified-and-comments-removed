@@ -797,7 +797,7 @@ aLibrary
 )
 ;
 nsresult
-InstantiateEmbeddedPluginInstance
+InstantiatePluginInstance
 (
 const
 char
@@ -838,7 +838,7 @@ aPlugin
 )
 ;
 nsresult
-NewEmbeddedPluginStreamListener
+NewPluginStreamListener
 (
 nsIURI
 *

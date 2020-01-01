@@ -207,17 +207,6 @@ aListener
 )
 ;
 nsresult
-InitializeEmbedded
-(
-nsIURI
-*
-aURL
-nsNPAPIPluginInstance
-*
-aInstance
-)
-;
-nsresult
 OnFileAvailable
 (
 nsIFile

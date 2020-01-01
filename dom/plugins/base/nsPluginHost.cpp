@@ -4135,7 +4135,7 @@ nsresult
 nsPluginHost
 :
 :
-InstantiateEmbeddedPluginInstance
+InstantiatePluginInstance
 (
 const
 char
@@ -4188,7 +4188,7 @@ PLUGIN_LOG_NORMAL
 nsPluginHost
 :
 :
-InstantiateEmbeddedPlugin
+InstantiatePlugin
 Begin
 mime
 =
@@ -4525,7 +4525,7 @@ PLUGIN_LOG_NORMAL
 nsPluginHost
 :
 :
-InstantiateEmbeddedPlugin
+InstantiatePlugin
 Finished
 mime
 =
@@ -14448,7 +14448,7 @@ nsresult
 nsPluginHost
 :
 :
-NewEmbeddedPluginStreamListener
+NewPluginStreamListener
 (
 nsIURI
 *
@@ -14489,10 +14489,11 @@ rv
 listener
 -
 >
-InitializeEmbedded
+Initialize
 (
 aURI
 aInstance
+nullptr
 )
 ;
 if
