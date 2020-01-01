@@ -32,6 +32,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 jstypes
 .
 h
@@ -243,6 +252,10 @@ h
 >
 #
 endif
+using
+namespace
+mozilla
+;
 using
 namespace
 js
@@ -18895,7 +18908,7 @@ AutoArrayRooter
 tvr
 (
 cx
-JS_ARRAY_LENGTH
+ArrayLength
 (
 roots
 )
@@ -19410,7 +19423,7 @@ AutoArrayRooter
 tvr
 (
 cx
-JS_ARRAY_LENGTH
+ArrayLength
 (
 roots
 )

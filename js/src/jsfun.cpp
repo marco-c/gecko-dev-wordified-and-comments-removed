@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 jstypes
 .
 h
@@ -325,6 +334,10 @@ inl
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 namespace
 js
@@ -6895,7 +6908,7 @@ i
 ;
 i
 <
-JS_ARRAY_LENGTH
+ArrayLength
 (
 poisonPillProps
 )
@@ -7387,7 +7400,7 @@ i
 ;
 i
 <
-JS_ARRAY_LENGTH
+ArrayLength
 (
 poisonPillProps
 )

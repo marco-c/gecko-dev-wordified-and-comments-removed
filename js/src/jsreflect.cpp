@@ -15,6 +15,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 jspubtd
 .
 h
@@ -161,6 +170,10 @@ jsscriptinlines
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 namespace
 js
@@ -816,7 +829,7 @@ Invoke
 cx
 userv
 fun
-JS_ARRAY_LENGTH
+ArrayLength
 (
 argv
 )
@@ -900,7 +913,7 @@ Invoke
 cx
 userv
 fun
-JS_ARRAY_LENGTH
+ArrayLength
 (
 argv
 )
@@ -924,7 +937,7 @@ Invoke
 cx
 userv
 fun
-JS_ARRAY_LENGTH
+ArrayLength
 (
 argv
 )
@@ -988,7 +1001,7 @@ Invoke
 cx
 userv
 fun
-JS_ARRAY_LENGTH
+ArrayLength
 (
 argv
 )
@@ -1013,7 +1026,7 @@ Invoke
 cx
 userv
 fun
-JS_ARRAY_LENGTH
+ArrayLength
 (
 argv
 )
@@ -1080,7 +1093,7 @@ Invoke
 cx
 userv
 fun
-JS_ARRAY_LENGTH
+ArrayLength
 (
 argv
 )
@@ -1106,7 +1119,7 @@ Invoke
 cx
 userv
 fun
-JS_ARRAY_LENGTH
+ArrayLength
 (
 argv
 )
@@ -1176,7 +1189,7 @@ Invoke
 cx
 userv
 fun
-JS_ARRAY_LENGTH
+ArrayLength
 (
 argv
 )
@@ -1203,7 +1216,7 @@ Invoke
 cx
 userv
 fun
-JS_ARRAY_LENGTH
+ArrayLength
 (
 argv
 )
@@ -1276,7 +1289,7 @@ Invoke
 cx
 userv
 fun
-JS_ARRAY_LENGTH
+ArrayLength
 (
 argv
 )
@@ -1304,7 +1317,7 @@ Invoke
 cx
 userv
 fun
-JS_ARRAY_LENGTH
+ArrayLength
 (
 argv
 )

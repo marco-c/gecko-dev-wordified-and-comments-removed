@@ -759,7 +759,7 @@ jschar
 *
 start
 =
-JS_ARRAY_END
+ArrayEnd
 (
 buf
 )
@@ -842,7 +842,7 @@ js_GetExistingStringAtom
 (
 cx
 start
-JS_ARRAY_END
+ArrayEnd
 (
 buf
 )
@@ -874,7 +874,7 @@ js_AtomizeChars
 (
 cx
 start
-JS_ARRAY_END
+ArrayEnd
 (
 buf
 )

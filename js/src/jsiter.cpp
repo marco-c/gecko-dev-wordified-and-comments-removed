@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 jstypes
 .
 h
@@ -230,6 +239,10 @@ inl
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 namespace
 js
@@ -540,7 +553,7 @@ AutoArrayRooter
 tvr
 (
 cx
-JS_ARRAY_LENGTH
+ArrayLength
 (
 vec
 )

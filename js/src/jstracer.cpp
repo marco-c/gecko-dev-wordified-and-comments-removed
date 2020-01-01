@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 jsstdint
 .
 h
@@ -466,6 +475,10 @@ h
 >
 #
 endif
+using
+namespace
+mozilla
+;
 #
 ifdef
 DEBUG
@@ -76001,7 +76014,7 @@ if
 length
 >
 =
-JS_ARRAY_LENGTH
+ArrayLength
 (
 funapply_imacro_table
 )
@@ -76035,7 +76048,7 @@ if
 argc
 >
 =
-JS_ARRAY_LENGTH
+ArrayLength
 (
 funcall_imacro_table
 )

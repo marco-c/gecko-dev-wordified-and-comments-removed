@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 xpcprivate
 .
 h
@@ -7369,9 +7378,8 @@ i
 0
 ;
 i
-!
-=
-JS_ARRAY_LENGTH
+<
+ArrayLength
 (
 stats
 .

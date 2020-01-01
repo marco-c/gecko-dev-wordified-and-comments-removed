@@ -7,6 +7,15 @@ RegExpObject_inl_h___
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 RegExpObject
 .
 h
@@ -1349,6 +1358,12 @@ postfix
 '
 }
 ;
+using
+mozilla
+:
+:
+ArrayLength
+;
 StringBuffer
 sb
 (
@@ -1362,7 +1377,7 @@ sb
 .
 reserve
 (
-JS_ARRAY_LENGTH
+ArrayLength
 (
 prefix
 )
@@ -1374,7 +1389,7 @@ length
 (
 )
 +
-JS_ARRAY_LENGTH
+ArrayLength
 (
 postfix
 )
@@ -1388,7 +1403,7 @@ sb
 infallibleAppend
 (
 prefix
-JS_ARRAY_LENGTH
+ArrayLength
 (
 prefix
 )
@@ -1417,7 +1432,7 @@ sb
 infallibleAppend
 (
 postfix
-JS_ARRAY_LENGTH
+ArrayLength
 (
 postfix
 )
