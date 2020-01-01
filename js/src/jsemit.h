@@ -1156,7 +1156,7 @@ NULL
 ;
 }
 bool
-atTopLevel
+atBodyLevel
 (
 )
 {

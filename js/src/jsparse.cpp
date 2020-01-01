@@ -12912,12 +12912,12 @@ makeFree
 )
 ;
 bool
-topLevel
+bodyLevel
 =
 tc
 -
 >
-atTopLevel
+atBodyLevel
 (
 )
 ;
@@ -12931,7 +12931,7 @@ lambda
 |
 |
 !
-topLevel
+bodyLevel
 )
 ?
 PND_FUNARG
@@ -13079,7 +13079,7 @@ NULL
 }
 if
 (
-topLevel
+bodyLevel
 )
 {
 ALE_SET_DEFN
@@ -13121,7 +13121,7 @@ NULL
 else
 if
 (
-topLevel
+bodyLevel
 )
 {
 JSHashEntry
@@ -13250,7 +13250,7 @@ NULL
 }
 if
 (
-topLevel
+bodyLevel
 &
 &
 tc
@@ -13888,7 +13888,7 @@ else
 if
 (
 !
-topLevel
+bodyLevel
 &
 &
 lambda
@@ -13990,7 +13990,7 @@ else
 if
 (
 !
-topLevel
+bodyLevel
 )
 {
 op
@@ -14082,7 +14082,7 @@ inFunction
 )
 &
 &
-topLevel
+bodyLevel
 &
 &
 funAtom
@@ -14528,7 +14528,7 @@ inDirectivePrologue
 tc
 -
 >
-atTopLevel
+atBodyLevel
 (
 )
 ;
@@ -14659,7 +14659,7 @@ if
 tc
 -
 >
-atTopLevel
+atBodyLevel
 (
 )
 )
@@ -14952,7 +14952,7 @@ JS_ASSERT
 tc
 -
 >
-atTopLevel
+atBodyLevel
 (
 )
 )
