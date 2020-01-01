@@ -443,12 +443,6 @@ nsCOMPtr
 <
 mozIStorageStatement
 >
-mDBRemoveTempReferences
-;
-nsCOMPtr
-<
-mozIStorageStatement
->
 mDBRemoveAllFavicons
 ;
 static

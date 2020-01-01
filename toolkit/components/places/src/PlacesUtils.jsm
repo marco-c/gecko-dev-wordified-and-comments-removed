@@ -531,15 +531,6 @@ feedback
 -
 updated
 "
-TOPIC_SYNC_FINISHED
-:
-"
-places
--
-sync
--
-finished
-"
 TOPIC_FAVICONS_EXPIRED
 :
 "
