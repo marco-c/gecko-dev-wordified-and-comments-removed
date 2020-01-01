@@ -470,6 +470,8 @@ UnwrapObjectChecked
 (
 RawObject
 obj
+bool
+stopAtOuter
 )
 {
 while
@@ -488,6 +490,7 @@ obj
 UnwrapOneChecked
 (
 obj
+stopAtOuter
 )
 ;
 if
@@ -518,6 +521,8 @@ UnwrapOneChecked
 (
 RawObject
 obj
+bool
+stopAtOuter
 )
 {
 if
@@ -546,6 +551,9 @@ getClass
 ext
 .
 innerObject
+&
+&
+stopAtOuter
 )
 )
 {
