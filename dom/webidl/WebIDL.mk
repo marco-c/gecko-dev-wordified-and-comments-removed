@@ -307,6 +307,10 @@ FileList
 .
 webidl
 \
+FileReader
+.
+webidl
+\
 FileReaderSync
 .
 webidl

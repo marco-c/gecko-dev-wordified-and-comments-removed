@@ -718,13 +718,6 @@ nsIBoxObject
 height
 '
 #
-FileReader
-'
-nsIDOMFileReader
-.
-*
-'
-#
 Audio
 '
 nsIDOMNotifyAudioAvailableEvent

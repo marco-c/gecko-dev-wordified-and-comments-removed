@@ -428,10 +428,6 @@ File
 )
 DOMCI_CLASS
 (
-FileReader
-)
-DOMCI_CLASS
-(
 ModalContentWindow
 )
 DOMCI_CLASS
