@@ -12154,9 +12154,14 @@ bgLoad
 ;
 if
 (
+document
+.
+getBindingParent
+(
 aEvent
 .
 originalTarget
+)
 .
 localName
 !
