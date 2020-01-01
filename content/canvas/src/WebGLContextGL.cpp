@@ -6656,9 +6656,6 @@ case
 LOCAL_GL_ACTIVE_TEXTURE
 :
 case
-LOCAL_GL_DEPTH_CLEAR_VALUE
-:
-case
 LOCAL_GL_STENCIL_CLEAR_VALUE
 :
 case
@@ -6967,6 +6964,9 @@ i_double
 }
 break
 ;
+case
+LOCAL_GL_DEPTH_CLEAR_VALUE
+:
 case
 LOCAL_GL_LINE_WIDTH
 :
