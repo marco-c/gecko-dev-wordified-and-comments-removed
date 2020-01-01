@@ -1469,6 +1469,10 @@ JSAtom
 *
 NaNAtom
 ;
+JSAtom
+*
+builderAtom
+;
 #
 if
 JS_HAS_XML_SUPPORT

@@ -34,6 +34,7 @@ ASTDEF
 (
 ast
 str
+method
 )
 ast
 #
