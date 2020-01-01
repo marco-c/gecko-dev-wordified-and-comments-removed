@@ -37,6 +37,13 @@ errno
 h
 >
 #
+include
+<
+stdlib
+.
+h
+>
+#
 endif
 #
 include
