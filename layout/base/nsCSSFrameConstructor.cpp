@@ -32558,7 +32558,7 @@ NS_ASSERTION
 (
 hint
 &
-nsChangeHint_ReflowFrame
+nsChangeHint_AllReflowHints
 )
 |
 |

@@ -411,7 +411,7 @@ nsChangeHint_SyncFrameView
 )
 #
 define
-nsChangeHint_ReflowFrame
+nsChangeHint_AllReflowHints
 \
 nsChangeHint
 (
@@ -434,7 +434,7 @@ nsChangeHint
 (
 NS_STYLE_HINT_VISUAL
 |
-nsChangeHint_ReflowFrame
+nsChangeHint_AllReflowHints
 )
 #
 define

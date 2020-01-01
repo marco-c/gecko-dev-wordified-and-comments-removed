@@ -3681,7 +3681,7 @@ MaxDifference
 return
 NS_CombineHint
 (
-nsChangeHint_ReflowFrame
+nsChangeHint_AllReflowHints
 nsChangeHint_RepaintFrame
 )
 ;
@@ -8858,7 +8858,7 @@ NS_CombineHint
 NS_CombineHint
 (
 nsChangeHint_UpdateEffects
-nsChangeHint_ReflowFrame
+nsChangeHint_AllReflowHints
 )
 nsChangeHint_RepaintFrame
 )
@@ -9061,7 +9061,7 @@ NS_CombineHint
 NS_CombineHint
 (
 nsChangeHint_UpdateEffects
-nsChangeHint_ReflowFrame
+nsChangeHint_AllReflowHints
 )
 nsChangeHint_RepaintFrame
 )

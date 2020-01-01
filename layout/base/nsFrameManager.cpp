@@ -4537,7 +4537,7 @@ NS_ASSERTION
 (
 ourChange
 &
-nsChangeHint_ReflowFrame
+nsChangeHint_AllReflowHints
 )
 |
 |
@@ -6913,7 +6913,7 @@ aChangeList
 NS_SubtractHint
 (
 aMinChange
-nsChangeHint_ReflowFrame
+nsChangeHint_AllReflowHints
 )
 nonInheritedHints
 childRestyleHint
