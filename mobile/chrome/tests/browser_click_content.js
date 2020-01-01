@@ -722,8 +722,6 @@ height
 )
 ;
 }
-browserViewToClient
-:
 function
 browserViewToClient
 (
