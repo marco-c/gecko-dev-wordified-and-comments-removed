@@ -49,10 +49,6 @@ if
 (
 !
 result
-|
-|
-!
-result
 -
 >
 init
