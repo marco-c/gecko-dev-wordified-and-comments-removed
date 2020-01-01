@@ -447,7 +447,7 @@ nsContentUtils
 DestroyAnonymousContent
 (
 &
-mBrowse
+mTextContent
 )
 ;
 nsContentUtils
@@ -456,7 +456,7 @@ nsContentUtils
 DestroyAnonymousContent
 (
 &
-mTextContent
+mBrowse
 )
 ;
 mMouseListener
@@ -839,14 +839,14 @@ aElements
 .
 MaybeAppendElement
 (
-mTextContent
+mBrowse
 )
 ;
 aElements
 .
 MaybeAppendElement
 (
-mBrowse
+mTextContent
 )
 ;
 }

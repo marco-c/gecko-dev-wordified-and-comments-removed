@@ -323,12 +323,6 @@ NativeRole
 ;
 virtual
 uint64_t
-State
-(
-)
-;
-virtual
-uint64_t
 NativeState
 (
 )
