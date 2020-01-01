@@ -517,6 +517,11 @@ OS_CFLAGS
 =
 -
 DX86_LINUX
+OS_CFLAGS
++
+=
+-
+DAVMPLUS_IA32
 ifeq
 (
 gcc

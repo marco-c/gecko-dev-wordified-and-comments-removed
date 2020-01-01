@@ -1152,6 +1152,9 @@ OS_CONFIG
 (
 OBJDIR_TAG
 )
+(
+XOBJDIR_TAG
+)
 .
 OBJD
 else
@@ -1162,6 +1165,9 @@ OS_CONFIG
 )
 (
 OBJDIR_TAG
+)
+(
+XOBJDIR_TAG
 )
 .
 OBJ
