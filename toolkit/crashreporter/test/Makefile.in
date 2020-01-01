@@ -524,7 +524,7 @@ handler
 (
 LIB_PREFIX
 )
-exception_handler
+exception_handler_s
 .
 (
 LIB_SUFFIX
