@@ -587,8 +587,9 @@ android
 layout_marginLeft
 "
 >
--
-11dp
+dimen
+/
+forward_default_offset
 <
 /
 item
