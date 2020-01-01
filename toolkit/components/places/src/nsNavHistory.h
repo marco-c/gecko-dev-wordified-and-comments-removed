@@ -2017,11 +2017,6 @@ nsNavHistoryQueryOptions
 aOptions
 )
 ;
-nsresult
-CreateLookupIndexes
-(
-)
-;
 nsCOMPtr
 <
 nsITimer

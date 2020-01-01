@@ -1960,6 +1960,7 @@ ON
 moz_bookmarks
 (
 fk
+type
 )
 "
 )
@@ -1988,6 +1989,7 @@ ON
 moz_bookmarks
 (
 parent
+position
 )
 "
 )
