@@ -32,7 +32,7 @@ dwarf2reader
 h
 "
 typedef
-map
+hash_map
 <
 string
 dwarf2reader

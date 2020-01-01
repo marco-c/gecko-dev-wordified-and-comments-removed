@@ -200,12 +200,6 @@ BREAKPAD_SERVER_PARAMETER_PREFIX
 "
 BreakpadServerParameterPrefix_
 "
-#
-define
-BREAKPAD_ON_DEMAND
-"
-BreakpadOnDemand
-"
 typedef
 bool
 (

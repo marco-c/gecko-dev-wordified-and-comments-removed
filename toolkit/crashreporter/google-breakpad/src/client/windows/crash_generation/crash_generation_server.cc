@@ -625,9 +625,6 @@ return
 false
 ;
 }
-if
-(
-!
 RegisterWaitForSingleObject
 (
 &
@@ -640,12 +637,7 @@ this
 INFINITE
 kPipeIOThreadFlags
 )
-)
-{
-return
-false
 ;
-}
 pipe_
 =
 CreateNamedPipe

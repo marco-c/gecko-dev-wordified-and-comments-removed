@@ -1,12 +1,5 @@
 #
 include
-<
-assert
-.
-h
->
-#
-include
 "
 common
 /

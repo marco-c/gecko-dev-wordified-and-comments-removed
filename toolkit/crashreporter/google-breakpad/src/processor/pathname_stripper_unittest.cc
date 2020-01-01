@@ -1,10 +1,5 @@
 #
 include
-<
-cstdio
->
-#
-include
 "
 processor
 /
