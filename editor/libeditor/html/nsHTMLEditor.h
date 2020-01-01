@@ -376,6 +376,7 @@ GetPIDOMEventTarget
 (
 )
 ;
+virtual
 already_AddRefed
 <
 nsIContent
