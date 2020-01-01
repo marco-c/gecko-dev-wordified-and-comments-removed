@@ -25977,6 +25977,16 @@ JSCLASS_RESERVED_SLOTS
 js_FunctionClass
 )
 ;
+if
+(
+script
+-
+>
+upvarsOffset
+!
+=
+0
+)
 slot
 +
 =
