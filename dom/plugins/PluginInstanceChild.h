@@ -462,7 +462,7 @@ aValue
 ;
 PluginScriptableObjectChild
 *
-CreateActorForNPObject
+GetActorForNPObject
 (
 NPObject
 *
