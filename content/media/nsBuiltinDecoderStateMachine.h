@@ -243,7 +243,12 @@ AssertCurrentThreadIn
 )
 ;
 return
-mInfo
+mReader
+-
+>
+GetInfo
+(
+)
 .
 mHasAudio
 ;
@@ -266,7 +271,12 @@ AssertCurrentThreadIn
 )
 ;
 return
-mInfo
+mReader
+-
+>
+GetInfo
+(
+)
 .
 mHasVideo
 ;
@@ -513,9 +523,6 @@ nsAutoPtr
 nsAudioStream
 >
 mAudioStream
-;
-nsVideoInfo
-mInfo
 ;
 nsAutoPtr
 <
