@@ -3086,8 +3086,7 @@ buf
 PR_smprintf
 (
 "
-Windows
-CE
+WindowsCE
 %
 ld
 .
