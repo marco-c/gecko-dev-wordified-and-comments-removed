@@ -923,9 +923,6 @@ gcLastBytes
 bool
 hold
 ;
-bool
-systemGCChunks
-;
 #
 ifdef
 JS_TRACER
@@ -1568,6 +1565,7 @@ inline
 bool
 JS_ON_TRACE
 (
+const
 JSContext
 *
 cx
