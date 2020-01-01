@@ -4575,12 +4575,11 @@ roleMapEntry
 PRUint32
 role
 =
-nsAccUtils
-:
-:
+tableAccessible
+-
+>
 Role
 (
-tableAccessible
 )
 ;
 if

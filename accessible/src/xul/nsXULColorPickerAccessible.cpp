@@ -369,12 +369,11 @@ GetNextChild
 PRUint32
 role
 =
-nsAccUtils
-:
-:
+child
+-
+>
 Role
 (
-child
 )
 ;
 if

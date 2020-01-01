@@ -730,12 +730,8 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
 PRUint32
 role
 =
-nsAccUtils
-:
-:
 Role
 (
-this
 )
 ;
 switch

@@ -87,12 +87,11 @@ aAccessible
 PRUint32
 role
 =
-nsAccUtils
-:
-:
+aAccessible
+-
+>
 Role
 (
-aAccessible
 )
 ;
 if
