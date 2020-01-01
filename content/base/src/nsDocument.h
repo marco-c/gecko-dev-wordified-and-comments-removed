@@ -474,6 +474,13 @@ nsIDOMDOMImplementation
 h
 "
 #
+include
+"
+nsIDOMTouchEvent
+.
+h
+"
+#
 define
 XML_DECLARATION_BITS_DECLARATION_EXISTS
 (
@@ -1685,6 +1692,8 @@ public
 nsIApplicationCacheContainer
 public
 nsStubMutationObserver
+public
+nsIDOMDocumentTouch
 {
 public
 :
@@ -2866,6 +2875,7 @@ GetPrincipal
 )
 ;
 NS_DECL_NSIAPPLICATIONCACHECONTAINER
+NS_DECL_NSIDOMDOCUMENTTOUCH
 virtual
 nsresult
 Init

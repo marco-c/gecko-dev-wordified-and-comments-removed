@@ -91,6 +91,9 @@ mType
 PRBool
 mChromeOnly
 ;
+PRBool
+mDisabled
+;
 union
 {
 PRInt32
@@ -192,6 +195,8 @@ PRInt32
 aDOMClassInfoID
 PRBool
 aPrivileged
+PRBool
+aDisabled
 const
 PRUnichar
 *

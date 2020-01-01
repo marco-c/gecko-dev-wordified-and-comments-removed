@@ -582,6 +582,10 @@ nsIDOMEventException
 .
 idl
 \
+nsIDOMTouchEvent
+.
+idl
+\
 nsIDOMHashChangeEvent
 .
 idl

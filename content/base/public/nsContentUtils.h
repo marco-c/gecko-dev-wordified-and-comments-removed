@@ -3496,6 +3496,12 @@ aLoaderType
 nsnull
 )
 ;
+static
+void
+InitializeTouchEventTable
+(
+)
+;
 private
 :
 static
