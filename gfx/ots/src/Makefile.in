@@ -369,6 +369,10 @@ graphite
 .
 cc
 \
+svg
+.
+cc
+\
 (
 NULL
 )
