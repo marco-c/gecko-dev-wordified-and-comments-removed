@@ -1874,10 +1874,6 @@ kFloatEdgeKTable
 {
 eCSSKeyword_content_box
 NS_STYLE_FLOAT_EDGE_CONTENT
-eCSSKeyword_border_box
-NS_STYLE_FLOAT_EDGE_BORDER
-eCSSKeyword_padding_box
-NS_STYLE_FLOAT_EDGE_PADDING
 eCSSKeyword_margin_box
 NS_STYLE_FLOAT_EDGE_MARGIN
 eCSSKeyword_UNKNOWN
