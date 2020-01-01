@@ -571,6 +571,10 @@ test_file_os_delete
 .
 html
 \
+test_file_put_get_object
+.
+html
+\
 test_file_put_get_values
 .
 html

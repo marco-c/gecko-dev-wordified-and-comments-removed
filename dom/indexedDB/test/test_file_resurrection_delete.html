@@ -144,19 +144,6 @@ bin
 ;
 {
 let
-file
-=
-getRandomFile
-(
-"
-random1
-.
-bin
-"
-100000
-)
-;
-let
 request
 =
 mozIndexedDB
@@ -414,7 +401,7 @@ getFileRefCount
 name
 1
 )
-1
+0
 "
 Correct
 ref
@@ -670,7 +657,7 @@ getFileRefCount
 name
 1
 )
-1
+0
 "
 Correct
 ref

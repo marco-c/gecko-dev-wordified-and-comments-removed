@@ -326,7 +326,10 @@ _bits
 FileManager
 *
 aFileManager
-PRInt64
+PRInt
+#
+#
+_bits
 aId
 )
 \
