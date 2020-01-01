@@ -79,6 +79,7 @@ regress
 04
 .
 js
+skip
 script
 regress
 -
@@ -87,6 +88,19 @@ regress
 05
 .
 js
+#
+no
+-
+op
+in
+browser
+fails
+in
+shell
+-
+see
+bug
+554793
 script
 regress
 -
