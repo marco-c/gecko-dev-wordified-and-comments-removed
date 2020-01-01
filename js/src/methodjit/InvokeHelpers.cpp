@@ -2937,6 +2937,15 @@ setLastUnfinished
 Jaeger_Unfinished
 )
 ;
+ExpandInlineFrames
+(
+cx
+-
+>
+compartment
+true
+)
+;
 analyze
 :
 :
