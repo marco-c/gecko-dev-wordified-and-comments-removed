@@ -5,9 +5,6 @@ mozilla_layers_CompositorParent_h
 define
 mozilla_layers_CompositorParent_h
 #
-define
-COMPOSITOR_PERFORMANCE_WARNING
-#
 include
 "
 mozilla
