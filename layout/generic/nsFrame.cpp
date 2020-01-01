@@ -36449,14 +36449,10 @@ height
 }
 SetSize
 (
-nsSize
+ourRect
+.
+Size
 (
-ourRect
-.
-width
-ourRect
-.
-height
 )
 )
 ;
