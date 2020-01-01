@@ -469,7 +469,10 @@ plain
 {
 result
 =
+utf8decode
+(
 requestBody
+)
 ;
 }
 if
