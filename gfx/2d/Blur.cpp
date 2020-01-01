@@ -1942,6 +1942,9 @@ isValid
 mData
 =
 new
+(
+nothrow
+)
 uint8_t
 [
 size
@@ -1951,6 +1954,15 @@ value
 )
 ]
 ;
+if
+(
+!
+mData
+)
+{
+return
+;
+}
 memset
 (
 mData
