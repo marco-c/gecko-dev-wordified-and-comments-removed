@@ -433,8 +433,6 @@ pwd
 _tests
 /
 xpcshell
--
-simple
 /
 (
 MODULE
