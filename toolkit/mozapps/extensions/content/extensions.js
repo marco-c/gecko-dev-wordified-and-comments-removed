@@ -6809,6 +6809,7 @@ getAttribute
 aKey
 )
 ;
+var
 addon
 =
 aObj
