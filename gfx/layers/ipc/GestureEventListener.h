@@ -165,6 +165,9 @@ CancelableTask
 *
 mDoubleTapTimeoutTask
 ;
+nsIntPoint
+mTouchStartPosition
+;
 }
 ;
 }

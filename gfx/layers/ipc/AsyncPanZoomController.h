@@ -100,6 +100,11 @@ DEFAULT_GESTURES
 USE_GESTURE_DETECTOR
 }
 ;
+static
+const
+float
+TOUCH_START_TOLERANCE
+;
 AsyncPanZoomController
 (
 GeckoContentController
@@ -216,6 +221,11 @@ SetDPI
 (
 int
 aDPI
+)
+;
+int
+GetDPI
+(
 )
 ;
 protected
