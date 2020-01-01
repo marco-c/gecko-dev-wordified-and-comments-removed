@@ -38,6 +38,14 @@ eSelectAction
 eSwitchAction
 }
 ;
+enum
+ELiveAttrRule
+{
+eNoLiveAttr
+eOffLiveAttr
+ePoliteLiveAttr
+}
+;
 const
 PRUint8
 ATTR_EXPOSEOBJ
@@ -106,6 +114,9 @@ valueRule
 ;
 EActionRule
 actionRule
+;
+ELiveAttrRule
+liveAttRule
 ;
 PRUint32
 state
