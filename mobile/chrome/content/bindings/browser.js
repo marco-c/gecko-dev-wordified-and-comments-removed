@@ -1138,6 +1138,16 @@ let
 json
 =
 {
+contentWindowWidth
+:
+content
+.
+innerWidth
+contentWindowHeight
+:
+content
+.
+innerHeight
 windowId
 :
 util
