@@ -1270,9 +1270,7 @@ nsIInterfaceInfo
 >
 if_info
 ;
-const
-char
-*
+nsXPIDLCString
 if_name
 ;
 const
@@ -1335,10 +1333,12 @@ entry
 if_info
 -
 >
-GetNameShared
+GetName
 (
-&
+getter_Copies
+(
 if_name
+)
 )
 ;
 if_info
@@ -1355,6 +1355,10 @@ rv
 RegisterInterface
 (
 if_name
+.
+get
+(
+)
 +
 sizeof
 (
