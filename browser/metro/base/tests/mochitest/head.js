@@ -217,7 +217,9 @@ isLandscapeMode
 {
 return
 (
-MetroUtils
+Services
+.
+metro
 .
 snappedState
 =

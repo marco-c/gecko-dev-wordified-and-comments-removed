@@ -1186,7 +1186,9 @@ cc_jsShell
 if
 (
 !
-MetroUtils
+Services
+.
+metro
 .
 immersive
 )

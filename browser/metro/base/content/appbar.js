@@ -598,7 +598,9 @@ console
 if
 (
 !
-MetroUtils
+Services
+.
+metro
 .
 immersive
 )
@@ -786,7 +788,9 @@ https
 )
 )
 {
-MetroUtils
+Services
+.
+metro
 .
 launchInDesktop
 (
