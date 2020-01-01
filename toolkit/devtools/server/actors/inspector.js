@@ -4120,13 +4120,6 @@ node
 {
 this
 .
-_installHelperSheet
-(
-node
-)
-;
-this
-.
 _unhighlight
 (
 )
@@ -4161,6 +4154,13 @@ ELEMENT_NODE
 return
 ;
 }
+this
+.
+_installHelperSheet
+(
+node
+)
+;
 this
 .
 layoutHelpers
