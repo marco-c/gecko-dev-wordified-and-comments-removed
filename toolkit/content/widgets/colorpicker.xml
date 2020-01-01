@@ -4225,6 +4225,11 @@ anonid
 "
 colorpopup
 "
+noautofocus
+=
+"
+true
+"
 onmousedown
 =
 "
