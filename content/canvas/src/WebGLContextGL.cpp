@@ -7582,10 +7582,6 @@ drawArrays
 return
 NS_OK
 ;
-SetupRobustnessTimer
-(
-)
-;
 CheckedInt32
 checked_firstPlusCount
 =
@@ -7700,6 +7696,10 @@ value
 )
 return
 NS_OK
+;
+SetupRobustnessTimer
+(
+)
 ;
 gl
 -
@@ -7816,10 +7816,6 @@ count
 )
 return
 NS_OK
-;
-SetupRobustnessTimer
-(
-)
 ;
 CheckedUint32
 checked_byteCount
@@ -8258,6 +8254,10 @@ value
 )
 return
 NS_OK
+;
+SetupRobustnessTimer
+(
+)
 ;
 gl
 -

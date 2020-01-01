@@ -1261,6 +1261,15 @@ return
 mIsDoubleBuffered
 ;
 }
+bool
+SupportsRobustness
+(
+)
+{
+return
+false
+;
+}
 virtual
 bool
 SwapBuffers

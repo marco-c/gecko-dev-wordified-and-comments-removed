@@ -969,6 +969,15 @@ gUseDoubleBufferedWindows
 ;
 }
 bool
+SupportsRobustness
+(
+)
+{
+return
+false
+;
+}
+bool
 SwapBuffers
 (
 )
