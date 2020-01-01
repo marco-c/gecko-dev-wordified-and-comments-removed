@@ -11863,9 +11863,6 @@ Value
 addr
 )
 {
-js
-:
-:
 gc
 :
 :
@@ -11882,7 +11879,6 @@ compartment
 barrierTracer
 (
 )
-*
 addr
 "
 write
@@ -11956,7 +11952,6 @@ compartment
 barrierTracer
 (
 )
-*
 addr
 "
 write

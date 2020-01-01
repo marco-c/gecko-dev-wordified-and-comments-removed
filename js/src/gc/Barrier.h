@@ -817,6 +817,17 @@ return
 value
 ;
 }
+Value
+*
+unsafeGet
+(
+)
+{
+return
+&
+value
+;
+}
 operator
 const
 Value

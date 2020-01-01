@@ -2123,11 +2123,9 @@ i
 +
 vp
 )
-{
 MarkValue
 (
 trc
-*
 vp
 "
 stack
@@ -2136,7 +2134,6 @@ argument
 "
 )
 ;
-}
 }
 }
 static

@@ -543,7 +543,6 @@ front
 .
 key
 ;
-const
 Value
 &
 v
@@ -853,7 +852,6 @@ true
 bool
 mark
 (
-const
 HeapValue
 &
 x
@@ -878,6 +876,7 @@ gc
 MarkValue
 (
 tracer
+&
 x
 "
 WeakMap
@@ -941,7 +940,6 @@ x
 bool
 mark
 (
-const
 HeapPtrObject
 &
 x
@@ -1029,7 +1027,6 @@ x
 bool
 mark
 (
-const
 HeapPtrScript
 &
 x
