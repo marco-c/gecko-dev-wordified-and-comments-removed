@@ -630,6 +630,15 @@ public
 void
 ProcessOfflineManifest
 (
+const
+nsAString
+&
+aManifestSpec
+)
+;
+void
+ProcessOfflineManifest
+(
 nsIContent
 *
 aElement

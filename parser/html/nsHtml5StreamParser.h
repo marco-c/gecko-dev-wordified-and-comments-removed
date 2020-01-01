@@ -309,14 +309,6 @@ mObserver
 aObserver
 ;
 }
-void
-SetSpeculativeLoaderWithDocument
-(
-nsIDocument
-*
-aDocument
-)
-;
 nsresult
 GetChannel
 (
@@ -752,12 +744,6 @@ nsCOMPtr
 nsIRunnable
 >
 mExecutorFlusher
-;
-nsCOMPtr
-<
-nsIDocument
->
-mDocument
 ;
 nsCOMPtr
 <
