@@ -6082,7 +6082,7 @@ hidden
 "
 true
 "
-ondblclick
+onclick
 =
 "
 if
@@ -6093,6 +6093,18 @@ button
 =
 =
 0
+&
+amp
+;
+&
+amp
+;
+event
+.
+detail
+=
+=
+1
 )
 displaySecurityInfo
 (
