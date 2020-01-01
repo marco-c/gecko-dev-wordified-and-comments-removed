@@ -1079,7 +1079,7 @@ key
 l10n
 (
 "
-profiler
+profiler2
 .
 commandkey
 "
