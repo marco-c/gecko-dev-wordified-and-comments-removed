@@ -695,12 +695,6 @@ GetDPI
 (
 )
 ;
-LayerManager
-*
-GetLayerManager
-(
-)
-;
 NS_IMETHOD
 ConstrainPosition
 (
