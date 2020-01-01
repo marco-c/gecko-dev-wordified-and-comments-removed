@@ -6398,6 +6398,11 @@ image
 >
 <
 vbox
+flex
+=
+"
+1
+"
 >
 <
 label
@@ -6422,6 +6427,11 @@ id
 alerts
 -
 text
+"
+flex
+=
+"
+1
 "
 /
 >
