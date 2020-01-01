@@ -325,10 +325,11 @@ NS_ERROR_FAILURE
 }
 \
 \
-NS_NEWXPCOM
-(
 inst
+=
+new
 _InstanceClass
+(
 )
 ;
 \
@@ -537,10 +538,11 @@ NS_ERROR_FAILURE
 }
 \
 \
-NS_NEWXPCOM
-(
 inst
+=
+new
 _InstanceClass
+(
 )
 ;
 \

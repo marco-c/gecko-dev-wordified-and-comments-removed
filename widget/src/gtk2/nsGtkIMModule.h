@@ -154,10 +154,8 @@ mRefCnt
 =
 1
 ;
-NS_DELETEXPCOM
-(
+delete
 this
-)
 ;
 return
 0
