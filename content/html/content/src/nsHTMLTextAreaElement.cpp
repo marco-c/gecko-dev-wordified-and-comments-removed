@@ -1815,10 +1815,9 @@ maxlength
 return
 aResult
 .
-ParseIntWithBounds
+ParseNonNegativeIntValue
 (
 aValue
-0
 )
 ;
 }

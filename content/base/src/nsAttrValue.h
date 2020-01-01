@@ -681,6 +681,15 @@ PR_INT32_MAX
 )
 ;
 PRBool
+ParseNonNegativeIntValue
+(
+const
+nsAString
+&
+aString
+)
+;
+PRBool
 ParseColor
 (
 const
