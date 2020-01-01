@@ -82,13 +82,6 @@ uint32_t
 )
 )
 ;
-JS_STATIC_ASSERT
-(
-UPVAR_LEVEL_LIMIT
-<
-FREE_LEVEL
-)
-;
 }
 public
 :
@@ -98,13 +91,6 @@ uint16_t
 FREE_LEVEL
 =
 0x3fff
-;
-static
-const
-uint16_t
-UPVAR_LEVEL_LIMIT
-=
-16
 ;
 static
 const
