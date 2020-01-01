@@ -720,6 +720,11 @@ if
 Svc
 .
 Private
+&
+&
+Svc
+.
+Private
 .
 privateBrowsingEnabled
 &
@@ -935,6 +940,11 @@ ids
 ;
 if
 (
+Svc
+.
+Private
+&
+&
 Svc
 .
 Private
@@ -1692,6 +1702,11 @@ event
 {
 if
 (
+Svc
+.
+Private
+&
+&
 Svc
 .
 Private
