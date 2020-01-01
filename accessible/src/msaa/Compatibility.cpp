@@ -398,6 +398,17 @@ L
 uiautomation
 "
 )
+|
+|
+:
+:
+GetModuleHandleW
+(
+L
+"
+uiautomationcore
+"
+)
 )
 sConsumers
 |
