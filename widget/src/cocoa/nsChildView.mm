@@ -1016,7 +1016,7 @@ composition
 event
 -
 (
-nsIntRect
+void
 )
 sendCompositionEvent
 :
@@ -26212,7 +26212,7 @@ endif
 NP_NO_CARBON
 -
 (
-nsIntRect
+void
 )
 sendCompositionEvent
 :
@@ -26250,13 +26250,6 @@ if
 mGeckoChild
 )
 return
-nsIntRect
-(
-0
-0
-0
-0
-)
 ;
 /
 /
@@ -26292,13 +26285,6 @@ DispatchWindowEvent
 (
 event
 )
-;
-return
-event
-.
-theReply
-.
-mCursorPosition
 ;
 }
 -

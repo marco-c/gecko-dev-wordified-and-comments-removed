@@ -908,14 +908,6 @@ GetDesiredSpellCheckState
 (
 )
 ;
-nsresult
-QueryComposition
-(
-nsTextEventReply
-*
-aReply
-)
-;
 public
 :
 NS_IMETHOD

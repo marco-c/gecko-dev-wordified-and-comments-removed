@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIPrivateCompositionEvent
-.
-h
-"
-#
-include
-"
 nsIDOMEventTarget
 .
 h

@@ -113,17 +113,11 @@ aCompositionString
 nsIPrivateTextRangeList
 *
 aTextRange
-nsTextEventReply
-*
-aReply
 )
 ;
 NS_IMETHOD
 BeginComposition
 (
-nsTextEventReply
-*
-aReply
 )
 ;
 NS_IMETHOD

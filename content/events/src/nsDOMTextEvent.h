@@ -66,15 +66,6 @@ GetInputRange
 (
 )
 ;
-NS_IMETHOD_
-(
-nsTextEventReply
-*
-)
-GetEventReply
-(
-)
-;
 protected
 :
 nsString
