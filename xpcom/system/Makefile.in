@@ -424,6 +424,10 @@ xpcom
 XPIDLSRCS
 =
 \
+nsIXULAppInfo
+.
+idl
+\
 nsIGConfService
 .
 idl

@@ -280,6 +280,11 @@ MOZ_APP_NAME
 exe
 bin
 \
+application
+.
+ini
+bin
+\
 plugins
 \
 npnul32
