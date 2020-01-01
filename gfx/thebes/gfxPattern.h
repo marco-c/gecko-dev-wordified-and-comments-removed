@@ -209,6 +209,12 @@ GetMatrix
 )
 const
 ;
+gfxMatrix
+GetInverseMatrix
+(
+)
+const
+;
 mozilla
 :
 :

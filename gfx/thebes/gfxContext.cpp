@@ -7133,15 +7133,9 @@ ToMatrix
 pattern
 -
 >
-GetMatrix
+GetInverseMatrix
 (
 )
-)
-;
-mat
-.
-Invert
-(
 )
 ;
 mat
