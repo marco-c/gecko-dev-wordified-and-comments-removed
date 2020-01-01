@@ -64,7 +64,7 @@ h
 #
 include
 "
-nsIPrivateDOMEVent
+nsIPrivateDOMEvent
 .
 h
 "
