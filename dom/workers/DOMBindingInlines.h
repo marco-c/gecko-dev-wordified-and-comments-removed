@@ -22,6 +22,17 @@ mozilla
 /
 dom
 /
+JSSlots
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 XMLHttpRequestBinding
 .
 h
