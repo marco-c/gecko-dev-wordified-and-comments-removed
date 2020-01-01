@@ -917,6 +917,39 @@ command
 "
 )
     
+parser
+.
+add_option
+(
+"
+-
+-
+verbose
+"
+action
+=
+"
+store_true
+"
+dest
+=
+"
+verbose
+"
+        
+help
+=
+"
+display
+executed
+command
+and
+temporary
+files
+content
+"
+)
+    
 (
 options
 args
@@ -961,6 +994,12 @@ makelist
 (
 )
         
+if
+options
+.
+verbose
+:
+            
 print
 >
 >
@@ -979,7 +1018,7 @@ join
 (
 args
 )
-        
+            
 for
 tmp
 in
@@ -1002,7 +1041,7 @@ f
 )
 ]
 :
-            
+                
 print
 >
 >
@@ -1014,7 +1053,7 @@ tmp
 "
 :
 "
-            
+                
 with
 open
 (
@@ -1023,7 +1062,7 @@ tmp
 as
 file
 :
-                
+                    
 print
 >
 >
@@ -1050,7 +1089,7 @@ readlines
 )
 ]
 )
-        
+            
 sys
 .
 stderr
