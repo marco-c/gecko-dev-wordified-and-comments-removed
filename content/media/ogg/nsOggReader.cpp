@@ -1616,6 +1616,7 @@ GetDuration
 1
 &
 &
+!
 mDecoder
 -
 >
@@ -1624,15 +1625,9 @@ GetStateMachine
 )
 -
 >
-GetState
+IsShutdown
 (
 )
-!
-=
-nsDecoderStateMachine
-:
-:
-DECODER_STATE_SHUTDOWN
 &
 &
 resource

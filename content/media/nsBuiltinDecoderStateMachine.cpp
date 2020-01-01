@@ -5861,7 +5861,7 @@ nsBuiltinDecoderStateMachine
 :
 Init
 (
-nsDecoderStateMachine
+nsBuiltinDecoderStateMachine
 *
 aCloneDonor
 )

@@ -153,14 +153,14 @@ nullptr
 nsresult
 SetStateMachine
 (
-nsDecoderStateMachine
+nsBuiltinDecoderStateMachine
 *
 aSM
 )
 ;
 private
 :
-nsDecoderStateMachine
+nsBuiltinDecoderStateMachine
 *
 CreateStateMachine
 (

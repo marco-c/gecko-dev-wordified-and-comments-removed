@@ -19,7 +19,7 @@ nsRawDecoder
 .
 h
 "
-nsDecoderStateMachine
+nsBuiltinDecoderStateMachine
 *
 nsRawDecoder
 :

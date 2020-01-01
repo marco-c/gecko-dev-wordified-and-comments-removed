@@ -19,7 +19,7 @@ nsWebMDecoder
 .
 h
 "
-nsDecoderStateMachine
+nsBuiltinDecoderStateMachine
 *
 nsWebMDecoder
 :
