@@ -152,21 +152,21 @@ VIRTUAL_CURSOR_NEXT
 private
 static
 boolean
-mEnabled
+sEnabled
 =
 false
 ;
 private
 static
 JSONObject
-mEventMessage
+sEventMessage
 =
 null
 ;
 private
 static
 AccessibilityNodeInfo
-mVirtualCursorNode
+sVirtualCursorNode
 =
 null
 ;
@@ -276,7 +276,7 @@ JSONObject
 (
 )
 ;
-mEnabled
+sEnabled
 =
 false
 ;
@@ -346,7 +346,7 @@ runningServiceInfo
 runningServices
 )
 {
-mEnabled
+sEnabled
 =
 sServiceWhitelist
 .
@@ -363,7 +363,7 @@ getClassName
 ;
 if
 (
-mEnabled
+sEnabled
 )
 break
 ;
@@ -378,7 +378,7 @@ put
 "
 enabled
 "
-mEnabled
+sEnabled
 )
 ;
 }
@@ -881,6 +881,13 @@ JSONObject
 message
 )
 {
+if
+(
+!
+sEnabled
+)
+return
+;
 final
 int
 eventType
@@ -990,12 +997,12 @@ return
 ;
 if
 (
-mVirtualCursorNode
+sVirtualCursorNode
 =
 =
 null
 )
-mVirtualCursorNode
+sVirtualCursorNode
 =
 AccessibilityNodeInfo
 .
@@ -1005,7 +1012,7 @@ view
 VIRTUAL_CURSOR_POSITION
 )
 ;
-mVirtualCursorNode
+sVirtualCursorNode
 .
 setEnabled
 (
@@ -1020,7 +1027,7 @@ true
 )
 )
 ;
-mVirtualCursorNode
+sVirtualCursorNode
 .
 setChecked
 (
@@ -1034,7 +1041,7 @@ checked
 )
 )
 ;
-mVirtualCursorNode
+sVirtualCursorNode
 .
 setPassword
 (
@@ -1108,7 +1115,7 @@ bottom
 )
 )
 ;
-mVirtualCursorNode
+sVirtualCursorNode
 .
 setBoundsInParent
 (
@@ -1156,7 +1163,7 @@ locationOnScreen
 ]
 )
 ;
-mVirtualCursorNode
+sVirtualCursorNode
 .
 setBoundsInScreen
 (
@@ -1164,7 +1171,7 @@ screenBounds
 )
 ;
 }
-mEventMessage
+sEventMessage
 =
 message
 ;
@@ -1334,7 +1341,7 @@ gainFocus
 {
 if
 (
-mEnabled
+sEnabled
 )
 GeckoAppShell
 .
@@ -1395,7 +1402,7 @@ event
 ;
 if
 (
-mEventMessage
+sEventMessage
 !
 =
 null
@@ -1403,7 +1410,7 @@ null
 populateEventFromJSON
 (
 event
-mEventMessage
+sEventMessage
 )
 ;
 if
@@ -1419,7 +1426,7 @@ AccessibilityEvent
 .
 TYPE_VIEW_HOVER_ENTER
 )
-mEventMessage
+sEventMessage
 =
 null
 ;
@@ -1475,7 +1482,7 @@ virtualDescendantId
 VIRTUAL_CURSOR_POSITION
 &
 &
-mVirtualCursorNode
+sVirtualCursorNode
 !
 =
 null
@@ -1485,7 +1492,7 @@ AccessibilityNodeInfo
 .
 obtain
 (
-mVirtualCursorNode
+sVirtualCursorNode
 )
 :
 AccessibilityNodeInfo
