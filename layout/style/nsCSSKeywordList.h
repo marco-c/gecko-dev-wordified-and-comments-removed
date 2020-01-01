@@ -3173,6 +3173,11 @@ scalethumbtick
 )
 CSS_KEY
 (
+groupbox
+groupbox
+)
+CSS_KEY
+(
 checkbox
 -
 container
