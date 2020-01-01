@@ -11089,6 +11089,14 @@ vp
 str
 )
 ;
+*
+vp
+=
+STRING_TO_JSVAL
+(
+str
+)
+;
 for
 (
 i
@@ -11155,7 +11163,6 @@ str
 return
 JS_FALSE
 ;
-}
 *
 vp
 =
@@ -11164,6 +11171,7 @@ STRING_TO_JSVAL
 str
 )
 ;
+}
 return
 JS_TRUE
 ;
