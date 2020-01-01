@@ -181,5 +181,12 @@ attribute
 DOMString
 title
 ;
+[
+SetterThrows
+]
+attribute
+boolean
+scoped
+;
 }
 ;
