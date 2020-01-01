@@ -479,7 +479,7 @@ windows
 CPPSRCS
 +
 =
-launchwinprocess
+updatehelper
 .
 cpp
 \
@@ -492,7 +492,7 @@ NULL
 )
 EXPORTS
 =
-launchwinprocess
+updatehelper
 .
 h
 \
