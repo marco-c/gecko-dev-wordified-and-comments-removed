@@ -262,10 +262,6 @@ url
 url
 )
 ;
-selectedTab
-=
-id
-;
 return
 tab
 ;
