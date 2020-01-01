@@ -73,6 +73,12 @@ return
 0
 ;
 }
+void
+JSBindingFinalized
+(
+)
+{
+}
 }
 ;
 }
