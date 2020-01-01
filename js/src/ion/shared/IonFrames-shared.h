@@ -25,4 +25,14 @@ IonCode
 0x2
 )
 #
+define
+ION_FRAME_DOMMETHOD
+(
+(
+IonCode
+*
+)
+0x3
+)
+#
 endif
