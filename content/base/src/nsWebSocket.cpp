@@ -5598,6 +5598,11 @@ kungfuDeathGrip
 =
 this
 ;
+if
+(
+mConnection
+)
+{
 mConnection
 -
 >
@@ -5605,6 +5610,7 @@ FailConnection
 (
 )
 ;
+}
 return
 NS_OK
 ;
