@@ -503,6 +503,10 @@ test_backspace_delete
 .
 xul
 \
+test_bug240933
+.
+html
+\
 test_bug263683
 .
 html
