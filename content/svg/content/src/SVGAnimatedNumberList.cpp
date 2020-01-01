@@ -454,6 +454,10 @@ val
 )
 ;
 }
+aPreventCachingOfSandwich
+=
+PR_FALSE
+;
 return
 rv
 ;
