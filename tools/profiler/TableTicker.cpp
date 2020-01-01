@@ -278,7 +278,7 @@ TimeStamp
 sLastTracerEvent
 ;
 class
-Profile
+ThreadProfile
 ;
 class
 ProfileEntry
@@ -400,7 +400,7 @@ aTagName
 string
 TagToString
 (
-Profile
+ThreadProfile
 *
 profile
 )
@@ -409,7 +409,7 @@ private
 :
 friend
 class
-Profile
+ThreadProfile
 ;
 union
 {
@@ -442,11 +442,11 @@ define
 PROFILE_MAX_ENTRY
 100000
 class
-Profile
+ThreadProfile
 {
 public
 :
-Profile
+ThreadProfile
 (
 int
 aEntrySize
@@ -479,7 +479,7 @@ mEntrySize
 ;
 }
 ~
-Profile
+ThreadProfile
 (
 )
 {
@@ -997,7 +997,7 @@ int
 aInterval
 int
 aEntrySize
-Stack
+ProfileStack
 *
 aStack
 const
@@ -1014,7 +1014,7 @@ Sampler
 aInterval
 true
 )
-mProfile
+mPrimaryThreadProfile
 (
 aEntrySize
 )
@@ -1049,7 +1049,7 @@ jank
 "
 )
 ;
-mProfile
+mPrimaryThreadProfile
 .
 addTag
 (
@@ -1117,7 +1117,7 @@ HandleSaveRequest
 (
 )
 ;
-Stack
+ProfileStack
 *
 GetStack
 (
@@ -1127,15 +1127,15 @@ return
 mStack
 ;
 }
-Profile
+ThreadProfile
 *
-GetProfile
+GetPrimaryThreadProfile
 (
 )
 {
 return
 &
-mProfile
+mPrimaryThreadProfile
 ;
 }
 private
@@ -1143,7 +1143,7 @@ private
 void
 doBacktrace
 (
-Profile
+ThreadProfile
 &
 aProfile
 Address
@@ -1152,10 +1152,10 @@ pc
 ;
 private
 :
-Profile
-mProfile
+ThreadProfile
+mPrimaryThreadProfile
 ;
-Stack
+ProfileStack
 *
 mStack
 ;
@@ -1328,7 +1328,7 @@ stream
 t
 -
 >
-GetProfile
+GetPrimaryThreadProfile
 (
 )
 -
@@ -1427,7 +1427,7 @@ TableTicker
 :
 doBacktrace
 (
-Profile
+ThreadProfile
 &
 aProfile
 Address
@@ -1609,7 +1609,7 @@ TableTicker
 :
 doBacktrace
 (
-Profile
+ThreadProfile
 &
 aProfile
 Address
@@ -1823,10 +1823,10 @@ static
 void
 doSampleStackTrace
 (
-Stack
+ProfileStack
 *
 aStack
-Profile
+ThreadProfile
 &
 aProfile
 TickSample
@@ -1970,7 +1970,7 @@ i
 +
 )
 {
-mProfile
+mPrimaryThreadProfile
 .
 addTag
 (
@@ -2005,7 +2005,7 @@ sLastSampledEventGeneration
 sCurrentEventGeneration
 )
 {
-mProfile
+mPrimaryThreadProfile
 .
 erase
 (
@@ -2089,7 +2089,7 @@ mUseStackWalk
 {
 doBacktrace
 (
-mProfile
+mPrimaryThreadProfile
 sample
 -
 >
@@ -2102,7 +2102,7 @@ else
 doSampleStackTrace
 (
 mStack
-mProfile
+mPrimaryThreadProfile
 sample
 )
 ;
@@ -2112,7 +2112,7 @@ else
 doSampleStackTrace
 (
 mStack
-mProfile
+mPrimaryThreadProfile
 sample
 )
 ;
@@ -2122,7 +2122,7 @@ if
 (
 recordSample
 )
-mProfile
+mPrimaryThreadProfile
 .
 flush
 (
@@ -2155,7 +2155,7 @@ timestamp
 -
 sLastTracerEvent
 ;
-mProfile
+mPrimaryThreadProfile
 .
 addTag
 (
@@ -2180,7 +2180,7 @@ ProfileEntry
 :
 TagToString
 (
-Profile
+mPrimaryThreadProfile
 *
 profile
 )
@@ -2449,12 +2449,12 @@ stack_key_initialized
 =
 true
 ;
-Stack
+ProfileStack
 *
 stack
 =
 new
-Stack
+ProfileStack
 (
 )
 ;
@@ -2602,7 +2602,7 @@ profile
 t
 -
 >
-GetProfile
+GetPrimaryThreadProfile
 (
 )
 -
@@ -2693,7 +2693,7 @@ return
 t
 -
 >
-GetProfile
+GetPrimaryThreadProfile
 (
 )
 -
@@ -2772,7 +2772,7 @@ uint32_t
 aFeatureCount
 )
 {
-Stack
+ProfileStack
 *
 stack
 =
@@ -2784,7 +2784,7 @@ tls
 :
 get
 <
-Stack
+ProfileStack
 >
 (
 pkey_stack
@@ -2891,7 +2891,7 @@ set
 (
 pkey_ticker
 (
-Stack
+ProfileStack
 *
 )
 NULL
