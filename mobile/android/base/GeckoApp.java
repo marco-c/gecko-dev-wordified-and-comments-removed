@@ -4258,12 +4258,6 @@ Void
 String
 >
 (
-mAppContext
-GeckoAppShell
-.
-getHandler
-(
-)
 )
 {
 Override

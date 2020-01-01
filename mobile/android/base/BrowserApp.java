@@ -5189,12 +5189,6 @@ Void
 Boolean
 >
 (
-mAppContext
-GeckoAppShell
-.
-getHandler
-(
-)
 )
 {
 Override
@@ -5387,12 +5381,6 @@ Void
 String
 >
 (
-mAppContext
-GeckoAppShell
-.
-getHandler
-(
-)
 )
 {
 Override
