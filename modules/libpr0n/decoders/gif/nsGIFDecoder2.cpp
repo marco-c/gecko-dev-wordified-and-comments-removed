@@ -1287,6 +1287,7 @@ images_decoded
 +
 +
 ;
+}
 if
 (
 mObserver
@@ -1300,7 +1301,6 @@ nsnull
 mImageFrame
 )
 ;
-}
 mImageFrame
 =
 nsnull
