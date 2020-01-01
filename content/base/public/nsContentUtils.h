@@ -208,6 +208,9 @@ JSRuntime
 class
 nsICaseConversion
 ;
+class
+nsIWidget
+;
 #
 ifdef
 MOZ_XTF
@@ -1993,6 +1996,16 @@ IsNativeAnonymous
 nsIContent
 *
 aContent
+)
+;
+static
+nsIWidget
+*
+GetTopLevelWidget
+(
+nsIWidget
+*
+aWidget
 )
 ;
 private
