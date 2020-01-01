@@ -22790,7 +22790,6 @@ rt
 #
 endif
 }
-static
 void
 ReleaseAllJITCode
 (

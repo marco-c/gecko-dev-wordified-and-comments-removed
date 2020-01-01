@@ -569,6 +569,10 @@ SemanticAnalysis
 .
 cpp
 \
+SPSProfiler
+.
+cpp
+\
 TokenStream
 .
 cpp
