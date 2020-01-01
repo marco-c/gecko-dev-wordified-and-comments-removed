@@ -8420,7 +8420,7 @@ ifdef
 NS_BUILD_REFCNT_LOGGING
 MOZ_COUNT_CTOR
 (
-nsDisplayOwnLayer
+nsDisplayScrollLayer
 )
 ;
 #
