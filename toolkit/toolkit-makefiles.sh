@@ -1967,15 +1967,6 @@ public
 /
 Makefile
 "
-MAKEFILES_libimg
-=
-"
-modules
-/
-libimg
-/
-Makefile
-"
 MAKEFILES_libjar
 =
 "
@@ -4607,7 +4598,6 @@ MAKEFILES_jsreflect
 MAKEFILES_jsductwork
 MAKEFILES_content
 MAKEFILES_layout
-MAKEFILES_libimg
 MAKEFILES_libjar
 MAKEFILES_libreg
 MAKEFILES_libpref
