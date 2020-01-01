@@ -643,6 +643,16 @@ show_deleted
 "
 ;
 public
+static
+final
+String
+PARAM_IS_TEST
+=
+"
+test
+"
+;
+public
 interface
 CommonColumns
 {
