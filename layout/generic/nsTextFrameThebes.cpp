@@ -26636,6 +26636,7 @@ PR_FALSE
 ;
 if
 (
+(
 charsFit
 =
 =
@@ -26667,19 +26668,6 @@ nsTextFrameUtils
 :
 :
 TEXT_HAS_TRAILING_BREAK
-)
-&
-&
-(
-transformedLength
->
-0
-|
-|
-lineLayout
-.
-LineIsBreakable
-(
 )
 )
 )
