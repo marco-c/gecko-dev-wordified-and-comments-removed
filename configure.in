@@ -50849,6 +50849,7 @@ d
 '
 -
 f4
+-
 if
 test
 -
@@ -50898,7 +50899,7 @@ SDK
 in
 registry
 using
-MOZ_DIRECTX_SDK
+MOZ_DIRECTX_SDK_PATH
 ]
 )
 MOZ_ANGLE
