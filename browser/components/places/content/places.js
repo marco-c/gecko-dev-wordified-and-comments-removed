@@ -844,7 +844,6 @@ filterCollection
 collection
 "
 )
-{
 PlacesSearchBox
 .
 updateCollectionTitle
@@ -854,13 +853,6 @@ node
 title
 )
 ;
-PlacesSearchBox
-.
-syncGrayText
-(
-)
-;
-}
 }
 onTreeClick
 :
@@ -1718,6 +1710,12 @@ getString
 "
 searchByDefault
 "
+)
+;
+this
+.
+syncGrayText
+(
 )
 ;
 }
