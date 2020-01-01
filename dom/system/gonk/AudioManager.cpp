@@ -943,6 +943,10 @@ HeadphoneSwitchObserver
 (
 )
 )
+mFMChannelIsMuted
+(
+0
+)
 {
 RegisterSwitchObserver
 (
