@@ -253,6 +253,15 @@ SnowLeopard
 pkg
 '
 }
+MACPORTS_CLANG_PACKAGE
+=
+'
+clang
+-
+3
+.
+2
+'
 RE_CLANG_VERSION
 =
 re
@@ -1370,6 +1379,12 @@ printed
 print
 (
 PACKAGE_MANAGER_PACKAGES
+%
+(
+'
+Homebrew
+'
+)
 )
                 
 printed
@@ -1417,7 +1432,13 @@ installed
             
 print
 (
-HOMEBREW_OLD_CLANG
+PACKAGE_MANAGER_OLD_CLANG
+%
+(
+'
+Homebrew
+'
+)
 )
             
 subprocess
@@ -1542,6 +1563,17 @@ if
 missing
 :
             
+print
+(
+PACKAGE_MANAGER_PACKAGES
+%
+(
+'
+MacPorts
+'
+)
+)
+            
 self
 .
 run_as_root
@@ -1574,9 +1606,7 @@ StrictVersion
 '
 )
 and
-'
-llvm
-'
+MACPORTS_CLANG_PACKAGE
 not
 in
 installed
@@ -1584,7 +1614,13 @@ installed
             
 print
 (
-MACPORTS_OLD_CLANG
+PACKAGE_MANAGER_OLD_CLANG
+%
+(
+'
+MacPorts
+'
+)
 )
             
 self
@@ -1600,9 +1636,56 @@ v
 '
 install
 '
+MACPORTS_CLANG_PACKAGE
+]
+)
+        
+self
+.
+run_as_root
+(
+[
+port
 '
-llvm
+select
 '
+'
+-
+-
+set
+'
+'
+python
+'
+'
+python27
+'
+]
+)
+        
+self
+.
+run_as_root
+(
+[
+port
+'
+select
+'
+'
+-
+-
+set
+'
+'
+clang
+'
+'
+mp
+-
+'
++
+MACPORTS_CLANG_PACKAGE
 ]
 )
     
