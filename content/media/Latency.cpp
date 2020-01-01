@@ -32,6 +32,15 @@ include
 <
 algorithm
 >
+#
+include
+<
+mozilla
+/
+StaticPtr
+.
+h
+>
 using
 namespace
 mozilla
@@ -64,7 +73,7 @@ NetStat
 }
 ;
 static
-nsRefPtr
+StaticRefPtr
 <
 AsyncLatencyLogger
 >
