@@ -1,7 +1,7 @@
 #
 include
 "
-IonLIR
+LIR
 .
 h
 "

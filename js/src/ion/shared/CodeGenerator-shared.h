@@ -27,7 +27,7 @@ include
 "
 ion
 /
-IonLIR
+LIR
 .
 h
 "

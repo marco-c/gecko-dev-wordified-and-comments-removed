@@ -1732,7 +1732,7 @@ BitSet
 .
 cpp
 \
-IonLIR
+LIR
 .
 cpp
 \
