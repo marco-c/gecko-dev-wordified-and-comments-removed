@@ -625,6 +625,11 @@ STUB_CALL_TYPE
 JSStrStub
 )
 ;
+STUB_CALL_TYPE
+(
+JSStrStubUInt32
+)
+;
 #
 undef
 STUB_CALL_TYPE
