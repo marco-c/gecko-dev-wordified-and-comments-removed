@@ -1750,6 +1750,16 @@ splitter
 +
 uniqueId
 ;
+newItem
+.
+className
+=
+"
+toolbar
+-
+splitter
+"
+;
 }
 else
 if

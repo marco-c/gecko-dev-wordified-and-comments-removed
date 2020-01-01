@@ -1870,6 +1870,16 @@ id
 splitter
 "
 ;
+templateNode
+.
+className
+=
+"
+toolbar
+-
+splitter
+"
+;
 wrapPaletteItem
 (
 templateNode
