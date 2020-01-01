@@ -437,6 +437,11 @@ nsNavHistoryQueryResultNode
 aNode
 )
 ;
+void
+StopObserving
+(
+)
+;
 nsINavHistoryResultViewer
 *
 GetView
@@ -497,6 +502,9 @@ mOptions
 ;
 PRUint16
 mSortingMode
+;
+PRBool
+mNeedsToApplySortingMode
 ;
 nsCString
 mSortingAnnotation
