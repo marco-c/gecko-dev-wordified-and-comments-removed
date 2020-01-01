@@ -644,6 +644,10 @@ browser_badargs
 .
 js
 \
+browser_badargs2
+.
+js
+\
 unsigned
 .
 xpi
