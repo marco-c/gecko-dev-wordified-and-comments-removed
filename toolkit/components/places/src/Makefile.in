@@ -598,8 +598,6 @@ srcdir
 .
 /
 build
-ifdef
-MOZ_PLACES_BOOKMARKS
 EXTRA_PP_COMPONENTS
 =
 nsLivemarkService
@@ -613,7 +611,6 @@ js
 (
 NULL
 )
-endif
 include
 (
 topsrcdir

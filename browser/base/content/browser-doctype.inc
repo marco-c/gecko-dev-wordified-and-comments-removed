@@ -92,9 +92,6 @@ customizeToolbarDTD
 ;
 #
 endif
-#
-ifdef
-MOZ_PLACES
 <
 !
 ENTITY
@@ -107,8 +104,6 @@ chrome
 %
 placesDTD
 ;
-#
-endif
 #
 ifdef
 MOZ_SAFE_BROWSING

@@ -1543,9 +1543,6 @@ bg__initPlaces
 (
 )
 {
-#
-ifdef
-MOZ_PLACES_BOOKMARKS
 var
 histsvc
 =
@@ -1855,8 +1852,6 @@ n
 }
 }
 }
-#
-endif
 }
 _shutdownPlaces
 :
@@ -1865,9 +1860,6 @@ bg__shutdownPlaces
 (
 )
 {
-#
-ifdef
-MOZ_PLACES_BOOKMARKS
 var
 importer
 =
@@ -1905,8 +1897,6 @@ backupBookmarksFile
 (
 )
 ;
-#
-endif
 }
 sanitize
 :

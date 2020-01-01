@@ -1863,9 +1863,6 @@ rv
 rv
 )
 ;
-#
-ifdef
-MOZ_PLACES_BOOKMARKS
 if
 (
 importDefaults
@@ -1884,8 +1881,6 @@ rv
 )
 ;
 }
-#
-endif
 PRInt64
 parent
 ;

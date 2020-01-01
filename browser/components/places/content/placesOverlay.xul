@@ -838,9 +838,6 @@ tabs
 "
 /
 >
-#
-ifdef
-MOZ_PLACES_BOOKMARKS
 <
 command
 id
@@ -1094,8 +1091,6 @@ placesCmd_setAsBookmarksToolbarFolder
 "
 /
 >
-#
-endif
 <
 /
 commandset
