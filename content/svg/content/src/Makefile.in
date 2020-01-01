@@ -173,10 +173,6 @@ nsSVGAElement
 .
 cpp
 \
-nsSVGAltGlyphElement
-.
-cpp
-\
 nsSVGAngle
 .
 cpp
@@ -302,6 +298,10 @@ nsSVGViewBox
 cpp
 \
 nsSVGViewElement
+.
+cpp
+\
+SVGAltGlyphElement
 .
 cpp
 \
@@ -637,6 +637,10 @@ EXPORTS_mozilla
 /
 dom
 =
+\
+SVGAltGlyphElement
+.
+h
 \
 SVGAngle
 .

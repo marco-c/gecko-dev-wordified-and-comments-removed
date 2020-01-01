@@ -423,6 +423,10 @@ Screen
 .
 webidl
 \
+SVGAltGlyphElement
+.
+webidl
+\
 SVGAngle
 .
 webidl
