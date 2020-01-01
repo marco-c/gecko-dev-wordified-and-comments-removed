@@ -442,10 +442,6 @@ mk
 XPIDLSRCS
 =
 \
-nsIAccessibleWin32Object
-.
-idl
-\
 nsIWinAccessNode
 .
 idl
