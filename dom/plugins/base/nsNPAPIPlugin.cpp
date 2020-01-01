@@ -1424,9 +1424,6 @@ enabled
 ;
 #
 endif
-bool
-javaIsEnabled
-;
 if
 (
 aPluginTag
