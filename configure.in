@@ -33618,6 +33618,9 @@ MOZ_XUL_APP
 "
 ;
 then
+MOZ_NO_XPCOM_OBSOLETE
+=
+1
 MOZ_EXTENSIONS_DEFAULT
 =
 "
@@ -33631,7 +33634,6 @@ inspector
 irc
 typeaheadfind
 gnomevfs
-sroaming
 reporter
 "
 else
