@@ -15482,6 +15482,9 @@ endif
 #
 ifdef
 MOZ_X11
+#
+ifndef
+NIGHTLY_BUILD
 if
 (
 PR_GetEnv
@@ -15499,6 +15502,8 @@ MOZ_OMTC_ENABLED
 "
 )
 )
+#
+endif
 {
 XInitThreads
 (

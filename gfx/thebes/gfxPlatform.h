@@ -1391,6 +1391,12 @@ GetPrefLayoutFrameRate
 ;
 static
 bool
+OffMainThreadCompositionRequired
+(
+)
+;
+static
+bool
 BufferRotationEnabled
 (
 )
