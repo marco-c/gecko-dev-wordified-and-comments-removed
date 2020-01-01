@@ -714,6 +714,13 @@ view
 ;
 row
 .
+setShowIcons
+(
+false
+)
+;
+row
+.
 updateFromCursor
 (
 cursor
