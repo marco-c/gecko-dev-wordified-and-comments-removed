@@ -143,6 +143,14 @@ aInner
 const
 ;
 void
+PositionContinuations
+(
+nsIFrame
+*
+aFrame
+)
+;
+void
 UpdatePositions
 (
 nsPoint
