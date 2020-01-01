@@ -546,14 +546,11 @@ CallInfo
 *
 call
 =
-callInfoFor
-(
 ins
 -
 >
-fid
+callInfo
 (
-)
 )
 ;
 Reservation

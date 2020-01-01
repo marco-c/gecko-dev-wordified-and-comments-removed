@@ -102,7 +102,7 @@ vp
 extern
 JS_FRIEND_API
 (
-bool
+JSBool
 )
 JS_FASTCALL
 js_CloseIterator

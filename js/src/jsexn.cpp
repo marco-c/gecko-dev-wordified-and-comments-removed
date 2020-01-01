@@ -5231,14 +5231,10 @@ fun
 )
 break
 ;
+FUN_CLASP
+(
 fun
--
->
-u
-.
-n
-.
-clasp
+)
 =
 &
 js_ErrorClass
