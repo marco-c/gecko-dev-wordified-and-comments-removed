@@ -1149,10 +1149,6 @@ GeckoNetworkManager
 .
 java
 \
-GeckoScreenOrientationListener
-.
-java
-\
 (
 NULL
 )

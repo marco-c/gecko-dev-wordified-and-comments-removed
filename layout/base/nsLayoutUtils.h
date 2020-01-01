@@ -2327,9 +2327,9 @@ nsDeviceContext
 *
 GetDeviceContextForScreenInfo
 (
-nsPIDOMWindow
+nsIDocShell
 *
-aWindow
+aDocShell
 )
 ;
 static
