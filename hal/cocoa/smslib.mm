@@ -505,6 +505,7 @@ typedef
 struct
 sensorSpec
 {
+const
 char
 *
 model
@@ -517,6 +518,7 @@ model
 to
 be
 tested
+const
 char
 *
 name
@@ -2250,6 +2252,7 @@ sensors
 [
 ]
 static
+const
 char
 *
 serviceName
