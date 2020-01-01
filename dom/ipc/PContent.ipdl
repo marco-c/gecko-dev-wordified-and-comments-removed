@@ -344,6 +344,15 @@ mozilla
 dom
 :
 :
+AudioChannelState
+;
+using
+mozilla
+:
+:
+dom
+:
+:
 BlobConstructorParams
 ;
 using
@@ -1688,9 +1697,6 @@ int64_t
 aContentLength
 OptionalURIParams
 aReferrer
-nullable
-PBrowser
-aBrowser
 )
 ;
 AddGeolocationListener
@@ -1900,7 +1906,7 @@ main
 AudioChannelService
 .
 sync
-AudioChannelGetMuted
+AudioChannelGetState
 (
 AudioChannelType
 aType
@@ -1911,7 +1917,7 @@ aElementWasHidden
 )
 returns
 (
-bool
+AudioChannelState
 value
 )
 ;
