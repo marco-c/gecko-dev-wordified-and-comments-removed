@@ -1342,7 +1342,6 @@ script
 )
 globalJSObject
 principal
-principal
 mURL
 .
 get

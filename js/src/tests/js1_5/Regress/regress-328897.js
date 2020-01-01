@@ -66,13 +66,15 @@ Script
 error
 .
 |
+uncaught
+exception
+:
 Permission
 denied
-for
 to
 get
 property
-XPCComponents
+UnnamedClass
 .
 classes
 )
