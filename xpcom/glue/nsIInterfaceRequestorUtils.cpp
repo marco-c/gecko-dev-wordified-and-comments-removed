@@ -72,6 +72,12 @@ status
 =
 NS_ERROR_NO_INTERFACE
 ;
+}
+else
+status
+=
+NS_ERROR_NULL_POINTER
+;
 if
 (
 NS_FAILED
@@ -83,12 +89,6 @@ status
 aInstancePtr
 =
 0
-;
-}
-else
-status
-=
-NS_ERROR_NULL_POINTER
 ;
 if
 (
