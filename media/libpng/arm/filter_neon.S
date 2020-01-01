@@ -35,10 +35,10 @@ libpng
 .
 5
 .
-17
+16
 [
-June
-27
+May
+23
 2013
 ]
 *
@@ -96,7 +96,7 @@ or
 not
 )
 of
-PNG_ARM_NEON_OPT
+PNG_ARM_NEON_SUPPORTED
 .
 *
 /
@@ -150,10 +150,8 @@ executable
 #
 endif
 #
-if
-PNG_ARM_NEON_OPT
->
-0
+ifdef
+PNG_ARM_NEON_SUPPORTED
 #
 ifdef
 __ELF__
@@ -1461,8 +1459,6 @@ endfunc
 endif
 /
 *
-PNG_ARM_NEON_OPT
->
-0
+PNG_ARM_NEON_SUPPORTED
 *
 /

@@ -13,10 +13,8 @@ pngpriv
 h
 "
 #
-if
-PNG_ARM_NEON_OPT
->
-0
+ifdef
+PNG_ARM_NEON_SUPPORTED
 #
 ifdef
 PNG_ARM_NEON_CHECK_SUPPORTED
