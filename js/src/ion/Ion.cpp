@@ -2413,7 +2413,7 @@ addr
 {
 #
 ifdef
-JSGC_INCREMENTAL
+JSGC_GENERATIONAL
 #
 endif
 }

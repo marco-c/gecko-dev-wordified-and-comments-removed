@@ -27489,6 +27489,11 @@ JSFunction
 INTERPRETED
 obj
 funAtom
+JSFunction
+:
+:
+FinalizeKind
+TenuredObject
 )
 )
 ;

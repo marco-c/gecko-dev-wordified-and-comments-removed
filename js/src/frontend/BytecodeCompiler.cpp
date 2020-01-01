@@ -2297,6 +2297,16 @@ JS_ASSERT
 fun
 )
 ;
+JS_ASSERT
+(
+fun
+-
+>
+isTenured
+(
+)
+)
+;
 fun
 -
 >

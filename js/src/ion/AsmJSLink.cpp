@@ -2441,6 +2441,11 @@ global
 (
 )
 name
+JSFunction
+:
+:
+FinalizeKind
+TenuredObject
 )
 )
 ;

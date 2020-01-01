@@ -2649,6 +2649,16 @@ funCxFlags
 (
 )
 {
+JS_ASSERT
+(
+fun
+-
+>
+isTenured
+(
+)
+)
+;
 if
 (
 !

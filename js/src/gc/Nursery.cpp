@@ -2682,6 +2682,17 @@ rt
 ;
 if
 (
+rt
+-
+>
+mainThread
+.
+suppressGC
+)
+return
+;
+if
+(
 !
 isEnabled
 (
