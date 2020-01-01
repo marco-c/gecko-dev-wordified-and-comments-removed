@@ -440,10 +440,6 @@ test_bug603008
 .
 html
 \
-test_bug716822
-.
-html
-\
 test_bug742376
 .
 html

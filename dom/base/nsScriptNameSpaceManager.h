@@ -496,11 +496,6 @@ aCategory
 )
 ;
 nsresult
-FillHashWithDOMInterfaces
-(
-)
-;
-nsresult
 RegisterInterface
 (
 const
