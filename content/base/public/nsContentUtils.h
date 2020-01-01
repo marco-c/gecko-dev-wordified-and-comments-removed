@@ -2914,6 +2914,14 @@ aCurrentTarget
 )
 ;
 PRBool
+RePush
+(
+nsPIDOMEventTarget
+*
+aCurrentTarget
+)
+;
+PRBool
 Push
 (
 JSContext
