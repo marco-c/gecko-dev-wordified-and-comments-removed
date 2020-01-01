@@ -47,6 +47,13 @@ endif
 #
 include
 "
+nscore
+.
+h
+"
+#
+include
+"
 nsWeakReference
 .
 h
