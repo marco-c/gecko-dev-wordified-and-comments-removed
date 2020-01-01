@@ -408,6 +408,9 @@ false
 showOverviewRuler
 :
 false
+highlightCurrentLine
+:
+true
 keys
 :
 null
