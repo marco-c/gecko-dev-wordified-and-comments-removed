@@ -6164,6 +6164,7 @@ hasType
 Type
 type
 )
+const
 {
 if
 (
@@ -6857,6 +6858,7 @@ TypeSet
 getObjectCount
 (
 )
+const
 {
 JS_ASSERT
 (
@@ -6900,6 +6902,7 @@ getObject
 unsigned
 i
 )
+const
 {
 JS_ASSERT
 (
@@ -6953,6 +6956,7 @@ getSingleObject
 unsigned
 i
 )
+const
 {
 TypeObjectKey
 *
@@ -7000,6 +7004,7 @@ getTypeObject
 unsigned
 i
 )
+const
 {
 TypeObjectKey
 *

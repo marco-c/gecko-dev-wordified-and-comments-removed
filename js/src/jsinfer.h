@@ -1337,6 +1337,7 @@ hasType
 Type
 type
 )
+const
 ;
 TypeFlags
 baseFlags
@@ -1489,6 +1490,17 @@ flags
 TYPE_FLAG_DEFINITE_SHIFT
 ;
 }
+const
+TypeSet
+*
+clone
+(
+LifoAlloc
+*
+alloc
+)
+const
+;
 inline
 void
 addType
@@ -1516,6 +1528,7 @@ unsigned
 getObjectCount
 (
 )
+const
 ;
 inline
 TypeObjectKey
@@ -1525,6 +1538,7 @@ getObject
 unsigned
 i
 )
+const
 ;
 inline
 RawObject
@@ -1533,6 +1547,7 @@ getSingleObject
 unsigned
 i
 )
+const
 ;
 inline
 TypeObject
@@ -1542,6 +1557,7 @@ getTypeObject
 unsigned
 i
 )
+const
 ;
 void
 setOwnProperty
