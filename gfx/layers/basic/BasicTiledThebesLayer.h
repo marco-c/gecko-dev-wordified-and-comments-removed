@@ -263,6 +263,11 @@ BasicTiledLayerTile
 ;
 public
 :
+BasicTiledLayerBuffer
+(
+)
+{
+}
 void
 PaintThebes
 (

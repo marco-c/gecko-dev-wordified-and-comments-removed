@@ -726,6 +726,12 @@ ReadUnlock
 (
 )
 ;
+mMainMemoryTiledBuffer
+=
+BasicTiledLayerBuffer
+(
+)
+;
 mRegionToUpload
 =
 nsIntRegion

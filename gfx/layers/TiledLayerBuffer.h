@@ -188,14 +188,6 @@ mRetainedHeight
 ;
 private
 :
-TiledLayerBuffer
-(
-const
-TiledLayerBuffer
-&
-)
-MOZ_DELETE
-;
 const
 Derived
 &
