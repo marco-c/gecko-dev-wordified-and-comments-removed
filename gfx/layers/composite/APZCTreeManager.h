@@ -540,6 +540,15 @@ aApzc2
 ;
 AsyncPanZoomController
 *
+RootAPZCForLayersId
+(
+AsyncPanZoomController
+*
+aApzc
+)
+;
+AsyncPanZoomController
+*
 UpdatePanZoomControllerTree
 (
 CompositorParent
