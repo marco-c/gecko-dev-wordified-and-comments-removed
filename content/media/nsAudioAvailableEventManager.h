@@ -48,6 +48,11 @@ nsBuiltinDecoder
 aDecoder
 )
 ;
+~
+nsAudioAvailableEventManager
+(
+)
+;
 void
 Init
 (
