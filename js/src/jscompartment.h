@@ -559,6 +559,9 @@ ArrayBufferObject
 class
 DebugScopes
 ;
+class
+WeakMapBase
+;
 }
 struct
 JSCompartment

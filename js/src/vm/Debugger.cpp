@@ -1392,6 +1392,11 @@ true
 frames
 (
 cx
+-
+>
+runtime
+(
+)
 )
 scripts
 (
@@ -12212,6 +12217,11 @@ dbg
 compartments
 (
 cx
+-
+>
+runtime
+(
+)
 )
 url
 (
@@ -12220,6 +12230,11 @@ cx
 innermostForCompartment
 (
 cx
+-
+>
+runtime
+(
+)
 )
 {
 }
