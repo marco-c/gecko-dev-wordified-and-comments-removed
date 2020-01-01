@@ -9651,7 +9651,9 @@ if
 cx
 -
 >
-throwing
+isExceptionPending
+(
+)
 )
 return
 false
@@ -9838,7 +9840,9 @@ if
 cx
 -
 >
-throwing
+isExceptionPending
+(
+)
 )
 return
 false
@@ -13183,7 +13187,9 @@ if
 cx
 -
 >
-throwing
+isExceptionPending
+(
+)
 )
 return
 false
