@@ -71,6 +71,11 @@ AnswerInit
 (
 )
 ;
+bool
+AnswerStop
+(
+)
+;
 virtual
 mozilla
 :
