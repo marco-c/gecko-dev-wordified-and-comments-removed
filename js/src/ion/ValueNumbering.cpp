@@ -665,6 +665,7 @@ begin
 ;
 while
 (
+*
 i
 !
 =

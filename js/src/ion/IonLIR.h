@@ -2672,7 +2672,7 @@ ins
 {
 instructions_
 .
-insert
+pushBack
 (
 ins
 )
