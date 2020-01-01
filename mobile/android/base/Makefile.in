@@ -8404,6 +8404,14 @@ xml
 res
 /
 menu
+/
+abouthome_topsites_contextmenu
+.
+xml
+\
+res
+/
+menu
 -
 v11
 /
