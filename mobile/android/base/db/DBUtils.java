@@ -417,11 +417,10 @@ is
 locked
 trying
 to
-forcefully
-unlock
-the
-database
-file
+kill
+any
+zombie
+processes
 :
 "
 +
@@ -430,9 +429,8 @@ databasePath
 ;
 GeckoAppShell
 .
-unlockDatabaseFile
+killAnyZombies
 (
-databasePath
 )
 ;
 dbHelper

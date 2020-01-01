@@ -211,6 +211,15 @@ mozilla
 .
 gecko
 .
+GeckoAppShell
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 GeckoBackgroundThread
 ;
 import
