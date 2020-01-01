@@ -898,9 +898,6 @@ parentHwnd
 parentRect
 )
 ;
-BOOL
-b
-=
 SetWindowPos
 (
 hwnd
