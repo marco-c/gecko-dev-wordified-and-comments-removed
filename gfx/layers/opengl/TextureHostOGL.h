@@ -2455,6 +2455,9 @@ mTextureTarget
 EGLImage
 mEGLImage
 ;
+bool
+mIsRBSwapped
+;
 }
 ;
 #
