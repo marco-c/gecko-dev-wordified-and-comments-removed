@@ -56,6 +56,11 @@ push
 cb
 )
 ;
+return
+"
+fake_nsITimer
+"
+;
 }
 ;
 var
@@ -106,6 +111,12 @@ yield
 timesYielded
 +
 +
+;
+self
+.
+done
+(
+)
 ;
 }
 testAsyncFunc
