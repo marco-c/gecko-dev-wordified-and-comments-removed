@@ -13713,8 +13713,9 @@ lied
 "
 )
 ;
-NS_ENSURE_ARG_POINTER
+if
 (
+!
 aDoc
 -
 >
@@ -13722,9 +13723,12 @@ GetWindow
 (
 )
 )
+return
+NS_ERROR_INVALID_ARG
 ;
-NS_ENSURE_ARG_POINTER
+if
 (
+!
 aDoc
 -
 >
@@ -13737,6 +13741,8 @@ GetChromeEventHandler
 (
 )
 )
+return
+NS_ERROR_INVALID_ARG
 ;
 nsEventStatus
 status
