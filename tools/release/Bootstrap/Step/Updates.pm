@@ -1900,7 +1900,7 @@ verifyDir
 )
 ;
 my
-ausServer
+externalAusServer
 =
 config
 -
@@ -1911,7 +1911,7 @@ var
 =
 >
 '
-ausServer
+externalAusServer
 '
 )
 ;
@@ -2668,9 +2668,13 @@ releaseFile
 aus_server
 =
 "
+https
+:
+/
+/
 '
 .
-ausServer
+externalAusServer
 .
 '
 "
