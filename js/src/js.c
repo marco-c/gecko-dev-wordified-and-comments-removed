@@ -12084,6 +12084,12 @@ cx
 NULL
 )
 ;
+JS_SetGlobalObject
+(
+scx
+sobj
+)
+;
 ok
 =
 JS_EvaluateUCScript
