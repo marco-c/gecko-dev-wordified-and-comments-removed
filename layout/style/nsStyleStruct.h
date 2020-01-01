@@ -5279,7 +5279,7 @@ HasTextShadow
 const
 nsIFrame
 *
-aFrame
+aContextFrame
 )
 const
 ;
@@ -5291,7 +5291,7 @@ GetTextShadow
 const
 nsIFrame
 *
-aFrame
+aContextFrame
 )
 const
 ;
@@ -5302,7 +5302,7 @@ WhiteSpaceCanWrap
 const
 nsIFrame
 *
-aFrame
+aContextFrame
 )
 const
 ;
@@ -5313,7 +5313,7 @@ WordCanWrap
 const
 nsIFrame
 *
-aFrame
+aContextFrame
 )
 const
 ;
@@ -6755,7 +6755,7 @@ IsBlockInside
 const
 nsIFrame
 *
-aFrame
+aContextFrame
 )
 const
 ;
@@ -6766,7 +6766,7 @@ IsBlockOutside
 const
 nsIFrame
 *
-aFrame
+aContextFrame
 )
 const
 ;
@@ -6777,7 +6777,7 @@ IsInlineOutside
 const
 nsIFrame
 *
-aFrame
+aContextFrame
 )
 const
 ;
@@ -6788,7 +6788,7 @@ IsOriginalDisplayInlineOutside
 const
 nsIFrame
 *
-aFrame
+aContextFrame
 )
 const
 ;
@@ -6799,7 +6799,7 @@ GetDisplay
 const
 nsIFrame
 *
-aFrame
+aContextFrame
 )
 const
 ;
@@ -6810,7 +6810,7 @@ IsFloating
 const
 nsIFrame
 *
-aFrame
+aContextFrame
 )
 const
 ;
@@ -6821,7 +6821,7 @@ IsPositioned
 const
 nsIFrame
 *
-aFrame
+aContextFrame
 )
 const
 ;
@@ -6832,7 +6832,7 @@ IsRelativelyPositioned
 const
 nsIFrame
 *
-aFrame
+aContextFrame
 )
 const
 ;
@@ -6843,7 +6843,7 @@ IsAbsolutelyPositioned
 const
 nsIFrame
 *
-aFrame
+aContextFrame
 )
 const
 ;
@@ -6854,7 +6854,7 @@ HasTransform
 const
 nsIFrame
 *
-aFrame
+aContextFrame
 )
 const
 ;
