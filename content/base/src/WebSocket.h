@@ -645,7 +645,7 @@ EstablishConnection
 (
 )
 ;
-nsresult
+void
 FailConnection
 (
 uint16_t
