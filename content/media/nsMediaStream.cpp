@@ -810,15 +810,7 @@ mDecoder
 >
 SetDuration
 (
-PRInt64
-(
-NS_round
-(
 duration
-*
-1000
-)
-)
 )
 ;
 }
