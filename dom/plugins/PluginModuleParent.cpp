@@ -1043,7 +1043,7 @@ dump
 ;
 if
 (
-GetMinidump
+TakeMinidump
 (
 getter_AddRefs
 (

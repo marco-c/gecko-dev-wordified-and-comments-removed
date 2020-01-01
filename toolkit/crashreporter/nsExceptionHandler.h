@@ -204,7 +204,7 @@ aSubmitReport
 ifdef
 MOZ_IPC
 bool
-GetMinidumpForChild
+TakeMinidumpForChild
 (
 PRUint32
 childPid

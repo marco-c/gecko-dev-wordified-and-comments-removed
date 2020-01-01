@@ -20154,7 +20154,7 @@ MethodDecl
 (
                 
 '
-GetMinidump
+TakeMinidump
 '
                 
 params
@@ -20213,7 +20213,7 @@ ExprCall
 ExprVar
 (
 '
-XRE_GetMinidumpForChild
+XRE_TakeMinidumpForChild
 '
 )
                     

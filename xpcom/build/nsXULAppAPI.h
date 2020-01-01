@@ -429,7 +429,7 @@ MOZ_CRASHREPORTER
 XRE_API
 (
 PRBool
-XRE_GetMinidumpForChild
+XRE_TakeMinidumpForChild
 (
 PRUint32
 aChildPid
