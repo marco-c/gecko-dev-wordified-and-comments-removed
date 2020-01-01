@@ -1291,6 +1291,16 @@ failedBoundsCheck
 ;
 #
 endif
+#
+ifdef
+JS_ION
+bool
+failedShapeGuard
+:
+1
+;
+#
+endif
 bool
 invalidatedIdempotentCache
 :
