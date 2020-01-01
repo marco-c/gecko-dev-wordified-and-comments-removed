@@ -520,7 +520,7 @@ aLength
 aSampleRate
 <
 =
-0
+1
 .
 0f
 |
