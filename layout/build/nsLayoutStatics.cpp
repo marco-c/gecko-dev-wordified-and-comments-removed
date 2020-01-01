@@ -218,7 +218,7 @@ h
 #
 include
 "
-nsSpaceManager
+nsFloatManager
 .
 h
 "

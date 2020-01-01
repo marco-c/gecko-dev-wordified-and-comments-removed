@@ -593,10 +593,6 @@ nsBRFrame
 .
 cpp
 \
-nsBlockBandData
-.
-cpp
-\
 nsBlockFrame
 .
 cpp
@@ -622,6 +618,10 @@ nsContainerFrame
 cpp
 \
 nsFirstLetterFrame
+.
+cpp
+\
+nsFloatManager
 .
 cpp
 \
@@ -714,10 +714,6 @@ nsSelection
 cpp
 \
 nsSimplePageSequence
-.
-cpp
-\
-nsSpaceManager
 .
 cpp
 \

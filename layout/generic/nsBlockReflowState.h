@@ -7,7 +7,7 @@ nsBlockReflowState_h__
 #
 include
 "
-nsBlockBandData
+nsFloatManager
 .
 h
 "
@@ -532,9 +532,6 @@ nsBlockFrame
 *
 mNextInFlow
 ;
-nsBlockBandData
-mBand
-;
 nsFloatCacheFreeList
 mCurrentLineFloats
 ;
@@ -552,6 +549,9 @@ mFlags
 ;
 PRUint8
 mFloatBreakType
+;
+PRPackedBool
+mBandHasFloats
 ;
 void
 SetFlag

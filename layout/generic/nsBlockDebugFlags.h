@@ -189,9 +189,6 @@ analysing
 reflow
 of
 floats
-and
-positioned
-elements
 #
 undef
 NOISY_BLOCK_INVALIDATE

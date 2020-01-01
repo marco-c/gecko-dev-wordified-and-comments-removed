@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsSpaceManager
-.
-h
-"
-#
-include
-"
 nsSVGOuterSVGFrame
 .
 h

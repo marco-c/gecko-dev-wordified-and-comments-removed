@@ -19,9 +19,6 @@ nsILineIterator
 h
 "
 class
-nsFloatManager
-;
-class
 nsLineBox
 ;
 class
