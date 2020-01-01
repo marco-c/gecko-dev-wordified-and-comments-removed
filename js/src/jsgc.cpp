@@ -12721,6 +12721,13 @@ JSGCInvocationKind
 gckind
 )
 {
+#
+ifdef
+JS_TYPE_INFERENCE
+return
+;
+#
+endif
 JSRuntime
 *
 rt
