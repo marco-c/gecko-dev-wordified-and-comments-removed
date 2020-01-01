@@ -2541,7 +2541,9 @@ NewTabPopup
 true
 )
 ;
-window
+Elements
+.
+browsers
 .
 addEventListener
 (
