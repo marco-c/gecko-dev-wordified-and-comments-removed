@@ -2180,6 +2180,10 @@ friend
 class
 nsNodeUtils
 ;
+friend
+class
+nsNSElementTearoff
+;
 nsXULElement
 (
 nsINodeInfo

@@ -190,6 +190,9 @@ nsIEventListenerManager
 class
 nsIScrollableView
 ;
+class
+nsContentList
+;
 struct
 nsRect
 ;
@@ -674,6 +677,9 @@ sMutationCount
 }
 ;
 class
+nsNSElementTearoff
+;
+class
 nsGenericElement
 :
 public
@@ -693,6 +699,10 @@ virtual
 nsGenericElement
 (
 )
+;
+friend
+class
+nsNSElementTearoff
 ;
 friend
 class
@@ -2541,6 +2551,12 @@ nsNodeWeakReference
 *
 mWeakReference
 ;
+nsRefPtr
+<
+nsContentList
+>
+mChildrenList
+;
 }
 ;
 protected
@@ -2889,6 +2905,12 @@ aContent
 }
 private
 :
+nsContentList
+*
+GetChildrenList
+(
+)
+;
 nsRefPtr
 <
 nsGenericElement
