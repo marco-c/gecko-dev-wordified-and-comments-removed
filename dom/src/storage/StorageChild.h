@@ -90,8 +90,6 @@ nsIURI
 *
 aDomainURI
 bool
-aCanUseChromePersist
-bool
 aPrivate
 )
 ;
@@ -196,12 +194,6 @@ aCallerSecure
 int32_t
 *
 aOldCount
-)
-;
-virtual
-bool
-CanUseChromePersist
-(
 )
 ;
 virtual

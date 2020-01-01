@@ -236,8 +236,6 @@ Init
 bool
 useDB
 bool
-canUseChromePersist
-bool
 sessionOnly
 bool
 isPrivate
@@ -245,8 +243,6 @@ nsCString
 domain
 nsCString
 scopeDBKey
-nsCString
-quotaDomainDBKey
 nsCString
 quotaETLDplus1DomainDBKey
 uint32_t

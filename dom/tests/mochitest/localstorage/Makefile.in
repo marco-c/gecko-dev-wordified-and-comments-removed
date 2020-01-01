@@ -252,14 +252,6 @@ test_localStorageKeyOrder
 .
 html
 \
-test_removeOwnersAPI
-.
-html
-\
-test_removeOwnersAPISessionOnly
-.
-html
-\
 test_storageConstructor
 .
 html
