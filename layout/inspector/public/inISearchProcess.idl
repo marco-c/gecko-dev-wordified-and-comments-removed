@@ -410,9 +410,6 @@ nsAString
 interface
 inISearchObserver
 ;
-interface
-nsISupportsArray
-;
 [
 scriptable
 uuid

@@ -123,13 +123,6 @@ NS_DEBUG
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsIStyleRule
 .
 h
@@ -3097,7 +3090,6 @@ stdout
 )
 ;
 }
-{
 fputs
 (
 "
@@ -3109,7 +3101,6 @@ n
 stdout
 )
 ;
-}
 }
 }
 static

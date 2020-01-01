@@ -135,9 +135,6 @@ class
 nsIReflowCallback
 ;
 class
-nsISupportsArray
-;
-class
 nsIDOMNode
 ;
 class

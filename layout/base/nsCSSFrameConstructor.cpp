@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsHashtable
 .
 h
@@ -324,13 +317,6 @@ h
 include
 "
 nsTextFragment
-.
-h
-"
-#
-include
-"
-nsISupportsArray
 .
 h
 "
