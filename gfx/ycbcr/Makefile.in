@@ -55,6 +55,10 @@ yuv_row
 .
 h
 \
+ycbcr_to_rgb565
+.
+h
+\
 (
 NULL
 )
