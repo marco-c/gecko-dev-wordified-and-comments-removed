@@ -570,11 +570,6 @@ nsAString
 aValue
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 nsCOMArray
 <
 nsIDOMSVGTransform
@@ -588,6 +583,7 @@ parser
 xforms
 )
 ;
+nsresult
 rv
 =
 parser

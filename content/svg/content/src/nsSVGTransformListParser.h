@@ -66,6 +66,7 @@ nsIDOMSVGTransform
 *
 mTransform
 ;
+virtual
 nsresult
 Match
 (

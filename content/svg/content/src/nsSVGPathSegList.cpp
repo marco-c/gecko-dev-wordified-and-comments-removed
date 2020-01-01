@@ -308,9 +308,6 @@ nsAString
 aValue
 )
 {
-nsresult
-rv
-;
 WillModify
 (
 )
@@ -327,6 +324,7 @@ parser
 mSegments
 )
 ;
+nsresult
 rv
 =
 parser

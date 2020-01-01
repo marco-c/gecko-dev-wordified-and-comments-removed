@@ -206,6 +206,7 @@ sweepFlag
 =
 0
 ;
+virtual
 nsresult
 Match
 (
@@ -537,7 +538,6 @@ data
 )
 {
 }
-virtual
 nsresult
 Parse
 (
@@ -797,7 +797,7 @@ PathClose
 (
 )
 ;
-nsresult
+void
 PathFini
 (
 )

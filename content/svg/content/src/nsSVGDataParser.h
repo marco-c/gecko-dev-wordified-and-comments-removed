@@ -96,6 +96,8 @@ nsresult
 Match
 (
 )
+=
+0
 ;
 nsresult
 MatchNonNegativeNumber

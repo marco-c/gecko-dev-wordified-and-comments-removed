@@ -1542,6 +1542,16 @@ ref
 svg
 =
 =
+path
+-
+02
+.
+svg
+pass
+.
+svg
+=
+=
 pattern
 -
 live
