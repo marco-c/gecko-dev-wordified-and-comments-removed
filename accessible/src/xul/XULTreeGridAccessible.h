@@ -81,6 +81,17 @@ aColumnIndex
 )
 ;
 virtual
+void
+ColDescription
+(
+PRUint32
+aColIdx
+nsString
+&
+aDescription
+)
+;
+virtual
 bool
 IsColSelected
 (
