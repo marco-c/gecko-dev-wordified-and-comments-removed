@@ -1748,6 +1748,15 @@ Freeze
 =
 0
 ;
+PRBool
+IsFrozen
+(
+)
+{
+return
+mFrozen
+;
+}
 virtual
 void
 Thaw
