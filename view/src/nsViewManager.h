@@ -576,6 +576,11 @@ aDoInvalidate
 )
 ;
 void
+CallWillPaintOnObservers
+(
+)
+;
+void
 ReparentChildWidgets
 (
 nsIView
