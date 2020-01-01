@@ -184,10 +184,6 @@ cursor
 :
 pointer
 ;
-margin
-:
-4px
-;
 }
 html
 [
@@ -1070,6 +1066,10 @@ shadow
 none
 !
 important
+;
+margin
+:
+4px
 ;
 }
 .
