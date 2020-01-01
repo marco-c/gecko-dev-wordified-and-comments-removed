@@ -1113,7 +1113,7 @@ ionScript
 )
 -
 >
-forbidOsr
+setBailoutExpected
 (
 )
 ;

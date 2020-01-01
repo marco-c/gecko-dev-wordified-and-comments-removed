@@ -5017,8 +5017,6 @@ cx
 JSScript
 *
 script
-bool
-osr
 )
 {
 #
@@ -5053,9 +5051,6 @@ false
 ;
 if
 (
-osr
-&
-&
 script
 -
 >
@@ -5070,7 +5065,7 @@ script
 ion
 -
 >
-isOsrForbidden
+bailoutExpected
 (
 )
 )
@@ -5162,12 +5157,6 @@ IonGetsFirstChance
 (
 cx
 script
-pc
->
-script
--
->
-code
 )
 )
 return
