@@ -1710,6 +1710,11 @@ set
 '
 clang
 '
+'
+mp
+-
+'
++
 MACPORTS_CLANG_PACKAGE
 ]
 )
