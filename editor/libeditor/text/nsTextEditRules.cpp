@@ -5506,6 +5506,16 @@ bodyChild
 )
 |
 |
+!
+mEditor
+-
+>
+IsEditable
+(
+mBody
+)
+|
+|
 mEditor
 -
 >

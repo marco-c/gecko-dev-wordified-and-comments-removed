@@ -1871,6 +1871,13 @@ aResult
 )
 const
 ;
+virtual
+PRInt32
+IntrinsicState
+(
+)
+const
+;
 nsresult
 GetStyle
 (

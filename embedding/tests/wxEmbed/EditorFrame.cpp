@@ -357,6 +357,7 @@ MakeWindowEditable
 domWindow
 NULL
 PR_TRUE
+PR_FALSE
 )
 ;
 }

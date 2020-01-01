@@ -406,6 +406,8 @@ this
 contentWindow
 editortype
 waitForUrlLoad
+true
+false
 )
 ;
 this

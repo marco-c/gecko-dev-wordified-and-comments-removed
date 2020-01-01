@@ -644,6 +644,16 @@ forms
 css
 res
 /
+contenteditable
+.
+css
+res
+/
+designmode
+.
+css
+res
+/
 arrow
 .
 gif
