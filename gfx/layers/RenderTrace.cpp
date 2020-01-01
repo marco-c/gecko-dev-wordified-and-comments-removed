@@ -45,6 +45,8 @@ aLayer
 GetTransform
 (
 )
+;
+layerTrans
 .
 ProjectTo2D
 (
@@ -116,6 +118,8 @@ aLayer
 GetTransform
 (
 )
+;
+trans
 .
 ProjectTo2D
 (
