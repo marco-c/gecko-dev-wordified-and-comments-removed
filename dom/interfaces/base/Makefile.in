@@ -462,6 +462,10 @@ nsIBrowserDOMWindow
 .
 idl
 \
+nsIContentPermissionPrompt
+.
+idl
+\
 nsIContentPrefService
 .
 idl

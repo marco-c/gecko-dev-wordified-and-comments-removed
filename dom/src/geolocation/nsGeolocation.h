@@ -152,7 +152,7 @@ h
 #
 include
 "
-nsIGeolocationPrompt
+nsIContentPermissionPrompt
 .
 h
 "
@@ -166,7 +166,7 @@ class
 nsGeolocationRequest
 :
 public
-nsIGeolocationRequest
+nsIContentPermissionRequest
 public
 nsITimerCallback
 #
@@ -186,12 +186,12 @@ endif
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_NSIGEOLOCATIONREQUEST
+NS_DECL_NSICONTENTPERMISSIONREQUEST
 NS_DECL_NSITIMERCALLBACK
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
 nsGeolocationRequest
-nsIGeolocationRequest
+nsIContentPermissionRequest
 )
 nsGeolocationRequest
 (

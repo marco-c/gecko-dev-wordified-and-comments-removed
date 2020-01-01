@@ -465,10 +465,6 @@ nsIDOMNavigatorGeolocation
 .
 idl
 \
-nsIGeolocationPrompt
-.
-idl
-\
 (
 NULL
 )
