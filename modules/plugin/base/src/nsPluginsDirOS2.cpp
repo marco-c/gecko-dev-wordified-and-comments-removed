@@ -739,7 +739,7 @@ LoadPlugin
 (
 PRLibrary
 *
-*
+&
 outLibrary
 )
 {
@@ -762,7 +762,6 @@ GetNativePath
 temp
 )
 ;
-*
 outLibrary
 =
 PR_LoadLibrary
@@ -775,7 +774,6 @@ get
 )
 ;
 return
-*
 outLibrary
 =
 =
@@ -795,17 +793,8 @@ GetPluginInfo
 nsPluginInfo
 &
 info
-PRLibrary
-*
-*
-outLibrary
 )
 {
-*
-outLibrary
-=
-nsnull
-;
 nsresult
 rv
 =

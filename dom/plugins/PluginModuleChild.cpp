@@ -677,7 +677,6 @@ lib
 .
 LoadPlugin
 (
-&
 mLibrary
 )
 ;

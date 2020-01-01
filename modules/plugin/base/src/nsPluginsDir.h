@@ -121,7 +121,7 @@ LoadPlugin
 (
 PRLibrary
 *
-*
+&
 outLibrary
 )
 ;
@@ -131,10 +131,6 @@ GetPluginInfo
 nsPluginInfo
 &
 outPluginInfo
-PRLibrary
-*
-*
-outLibrary
 )
 ;
 nsresult
