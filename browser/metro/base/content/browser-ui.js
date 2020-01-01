@@ -462,6 +462,9 @@ lastKnownGoodURL
 :
 "
 "
+ready
+:
+false
 init
 :
 function
@@ -764,6 +767,12 @@ dispatchEvent
 (
 event
 )
+;
+BrowserUI
+.
+ready
+=
+true
 ;
 }
 0

@@ -5523,6 +5523,13 @@ flex
 >
 <
 button
+id
+=
+"
+findbar
+-
+close
+"
 class
 =
 "

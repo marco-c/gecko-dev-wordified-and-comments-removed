@@ -121,6 +121,14 @@ browser_downloads
 .
 js
 \
+browser_findbar
+.
+js
+\
+browser_findbar
+.
+html
+\
 browser_history
 .
 js
