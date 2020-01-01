@@ -12,6 +12,12 @@ for
 bug
 414720
 )
+skip
+-
+if
+(
+Android
+)
 =
 =
 colordepth
