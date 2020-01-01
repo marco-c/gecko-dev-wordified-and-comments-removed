@@ -5939,7 +5939,7 @@ stringBundle
 GetStringFromName
 (
 "
-addEngineUseNowText
+addEngineAsCurrentText
 "
 )
 ;
