@@ -59,11 +59,11 @@ string
 name
 =
 "
-splash_firstrun
+splash_settingup
 "
 >
 &
-splash_firstrun
+splash_settingup
 ;
 <
 /

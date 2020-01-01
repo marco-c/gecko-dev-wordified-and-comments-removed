@@ -300,7 +300,7 @@ R
 .
 string
 .
-splash_firstrun
+splash_settingup
 )
 ;
 ImageView
