@@ -262,15 +262,6 @@ aCallbackData
 #
 ifdef
 DEBUG
-static
-void
-DumpLayerTree
-(
-LayerManager
-*
-aManager
-)
-;
 void
 DumpRetainedLayerTree
 (
