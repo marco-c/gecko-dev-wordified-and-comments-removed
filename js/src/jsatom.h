@@ -1132,9 +1132,10 @@ mode
 >
 *
 xdr
-JSAtom
-*
-*
+js
+:
+:
+MutableHandleAtom
 atomp
 )
 ;
