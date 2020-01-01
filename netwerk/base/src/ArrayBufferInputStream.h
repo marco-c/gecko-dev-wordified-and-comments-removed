@@ -122,9 +122,6 @@ mBufferLength
 uint32_t
 mOffset
 ;
-uint32_t
-mPos
-;
 bool
 mClosed
 ;
