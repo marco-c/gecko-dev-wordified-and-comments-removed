@@ -767,6 +767,19 @@ TARGETS
 PROGS
 )
 else
+ifeq
+(
+(
+OS_ARCH
+)
+WINCE
+)
+TARGETS
+=
+(
+PROGS
+)
+else
 PROGS
 +
 =
@@ -791,6 +804,7 @@ pl
 =
 )
 endif
+endif
 OUTOPTION
 =
 -
@@ -808,6 +822,7 @@ filter
 out
 WINNT
 WIN95
+WINCE
 (
 OS_TARGET
 )

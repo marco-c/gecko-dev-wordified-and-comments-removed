@@ -58,7 +58,7 @@ h
 elif
 defined
 (
-WIN32
+_WIN32
 )
 #
 include
@@ -269,7 +269,7 @@ endif
 elif
 defined
 (
-WIN32
+_WIN32
 )
 __int64
 now

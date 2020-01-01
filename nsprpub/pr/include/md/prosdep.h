@@ -51,6 +51,12 @@ defined
 (
 WIN95
 )
+|
+|
+defined
+(
+WINCE
+)
 #
 include
 "

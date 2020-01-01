@@ -134,6 +134,9 @@ define
 _PR_HAVE_LARGE_OFF_T
 #
 define
+_PR_HAVE_SYSV_SEMAPHORES
+#
+define
 PR_HAVE_SYSV_NAMED_SHARED_MEMORY
 #
 define
