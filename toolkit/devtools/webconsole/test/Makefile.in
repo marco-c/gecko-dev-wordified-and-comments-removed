@@ -113,6 +113,10 @@ test_network_post
 .
 html
 \
+test_network_longstring
+.
+html
+\
 test_file_uri
 .
 html
@@ -124,6 +128,13 @@ html
 data
 .
 json
+\
+data
+.
+json
+^
+headers
+^
 \
 common
 .
