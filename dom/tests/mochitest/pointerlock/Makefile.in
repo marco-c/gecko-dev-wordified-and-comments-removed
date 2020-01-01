@@ -117,6 +117,10 @@ pointerlock_utils
 .
 js
 \
+file_approval
+.
+html
+\
 file_pointerlock
 -
 api
