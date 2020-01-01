@@ -2210,3 +2210,15 @@ return
 NPTEST_INT32_ERROR
 ;
 }
+void
+pluginDoInternalConsistencyCheck
+(
+InstanceData
+*
+instanceData
+string
+&
+error
+)
+{
+}

@@ -124,5 +124,16 @@ RectEdge
 edge
 )
 ;
+void
+pluginDoInternalConsistencyCheck
+(
+InstanceData
+*
+instanceData
+string
+&
+error
+)
+;
 #
 endif
