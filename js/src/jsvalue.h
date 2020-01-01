@@ -3740,8 +3740,9 @@ innerObject
 JSIteratorOp
 iteratorObject
 ;
-JSObjectOp
-wrappedObject
+void
+*
+unused
 ;
 }
 ;
