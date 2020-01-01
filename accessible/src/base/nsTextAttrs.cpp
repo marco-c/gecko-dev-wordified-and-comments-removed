@@ -2207,13 +2207,15 @@ GetStyleBackground
 ;
 if
 (
-!
+NS_GET_A
+(
 styleBackground
 -
 >
-IsTransparent
-(
+mFallbackBackgroundColor
 )
+>
+0
 )
 {
 *
@@ -2222,7 +2224,7 @@ aColor
 styleBackground
 -
 >
-mBackgroundColor
+mFallbackBackgroundColor
 ;
 return
 PR_TRUE
