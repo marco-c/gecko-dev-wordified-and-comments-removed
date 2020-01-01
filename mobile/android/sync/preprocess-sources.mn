@@ -1,9 +1,5 @@
 sync
 /
-repositories
-/
-android
-/
-Authorities
+GlobalConstants
 .
 java
