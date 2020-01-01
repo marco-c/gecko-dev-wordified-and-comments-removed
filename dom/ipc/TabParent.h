@@ -455,6 +455,10 @@ aType
 const
 nsString
 &
+aInputmode
+const
+nsString
+&
 aActionHint
 const
 int32_t
