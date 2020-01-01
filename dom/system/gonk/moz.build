@@ -174,11 +174,6 @@ nsIAudioManager
 idl
 '
 '
-nsINavigatorAudioChannelManager
-.
-idl
-'
-'
 nsINetworkInterfaceListService
 .
 idl

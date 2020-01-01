@@ -138,11 +138,6 @@ nsIDOMChromeWindow
 idl
 '
 '
-nsIDOMClientInformation
-.
-idl
-'
-'
 nsIDOMClientRect
 .
 idl

@@ -206,11 +206,6 @@ nsIDOMBluetoothManager
 .
 idl
 '
-'
-nsIDOMNavigatorBluetooth
-.
-idl
-'
 ]
 CPP_SOURCES
 +

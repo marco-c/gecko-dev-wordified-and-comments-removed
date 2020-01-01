@@ -117,11 +117,6 @@ nsIDOMMozCellBroadcastMessage
 .
 idl
 '
-'
-nsINavigatorCellBroadcast
-.
-idl
-'
 ]
 XPIDL_MODULE
 =

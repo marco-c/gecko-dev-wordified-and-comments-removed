@@ -113,11 +113,6 @@ nsIDOMMozVoicemailStatus
 idl
 '
 '
-nsINavigatorVoicemail
-.
-idl
-'
-'
 nsIVoicemailProvider
 .
 idl

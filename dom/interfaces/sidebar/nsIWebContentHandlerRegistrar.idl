@@ -187,9 +187,9 @@ nsISupports
 See
 documentation
 in
-nsIDOMClientInformation
+Navigator
 .
-idl
+webidl
 *
 The
 additional

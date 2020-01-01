@@ -99,13 +99,6 @@ h
 #
 include
 "
-nsIDOMNavigatorGeolocation
-.
-h
-"
-#
-include
-"
 nsIDOMGeoPositionCoords
 .
 h

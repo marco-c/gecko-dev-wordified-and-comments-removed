@@ -41,13 +41,6 @@ h
 #
 include
 "
-nsIDOMNavigatorUserMedia
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h

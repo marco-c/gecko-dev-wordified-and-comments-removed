@@ -1714,6 +1714,17 @@ partial
 interface
 Navigator
 {
+[
+Pref
+=
+"
+dom
+.
+network
+.
+enabled
+"
+]
 readonly
 attribute
 MozConnection

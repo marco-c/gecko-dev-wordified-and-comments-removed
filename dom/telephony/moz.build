@@ -103,11 +103,6 @@ nsIDOMCallEvent
 idl
 '
 '
-nsIDOMNavigatorTelephony
-.
-idl
-'
-'
 nsIDOMTelephony
 .
 idl

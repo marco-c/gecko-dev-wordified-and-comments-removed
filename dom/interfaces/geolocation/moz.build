@@ -127,11 +127,6 @@ nsIDOMGeoPositionErrorCallback
 .
 idl
 '
-'
-nsIDOMNavigatorGeolocation
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
