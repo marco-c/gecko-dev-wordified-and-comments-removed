@@ -547,6 +547,11 @@ STUB_CALL_TYPE
 VoidPtrStubUInt32
 )
 ;
+STUB_CALL_TYPE
+(
+VoidStubUInt32
+)
+;
 #
 undef
 STUB_CALL_TYPE
