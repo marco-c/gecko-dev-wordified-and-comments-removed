@@ -436,10 +436,6 @@ nsIDOMDesktopNotification
 .
 idl
 \
-nsIDesktopNotificationPrompt
-.
-idl
-\
 (
 NULL
 )
