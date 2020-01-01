@@ -1584,6 +1584,14 @@ nsAString
 aDictionary
 )
 {
+nsRefPtr
+<
+mozSpellChecker
+>
+kungFuDeathGrip
+=
+this
+;
 mSpellCheckingEngine
 =
 nsnull
