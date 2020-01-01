@@ -370,8 +370,8 @@ jsdouble
 &
 d
 jsval
-*
-vp
+&
+v
 )
 {
 return
@@ -379,7 +379,8 @@ js_NewDoubleInRootedValue
 (
 cx
 d
-vp
+&
+v
 )
 ;
 }
@@ -623,8 +624,8 @@ JSContext
 *
 cx
 jsval
-*
-vp
+&
+v
 jsdouble
 &
 d
@@ -635,7 +636,8 @@ d
 js_ValueToNumber
 (
 cx
-vp
+&
+v
 )
 ;
 }
@@ -674,8 +676,8 @@ JSContext
 *
 cx
 jsval
-*
-vp
+&
+v
 jsint
 &
 i
@@ -686,7 +688,8 @@ i
 js_ValueToECMAInt32
 (
 cx
-vp
+&
+v
 )
 ;
 }
@@ -729,8 +732,8 @@ JSContext
 *
 cx
 jsval
-*
-vp
+&
+v
 uint32
 &
 u
@@ -741,7 +744,8 @@ u
 js_ValueToECMAUint32
 (
 cx
-vp
+&
+v
 )
 ;
 }
@@ -965,8 +969,8 @@ obj
 JSType
 hint
 jsval
-*
-vp
+&
+v
 )
 {
 return
@@ -975,7 +979,8 @@ OBJ_DEFAULT_VALUE
 cx
 obj
 hint
-vp
+&
+v
 )
 ;
 }
