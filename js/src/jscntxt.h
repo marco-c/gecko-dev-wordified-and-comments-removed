@@ -1558,6 +1558,9 @@ abortIfWrongThread
 )
 const
 ;
+#
+ifdef
+DEBUG
 JS_FRIEND_API
 (
 void
@@ -1567,6 +1570,17 @@ assertValidThread
 )
 const
 ;
+#
+else
+void
+assertValidThread
+(
+)
+const
+{
+}
+#
+endif
 private
 :
 void
