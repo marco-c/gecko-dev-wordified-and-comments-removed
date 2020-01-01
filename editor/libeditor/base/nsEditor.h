@@ -2173,9 +2173,6 @@ PRUint32
 mFlags
 ;
 nsWeakPtr
-mPresShellWeak
-;
-nsWeakPtr
 mSelConWeak
 ;
 PRInt32

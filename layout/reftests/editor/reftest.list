@@ -1029,3 +1029,13 @@ unneeded_scroll
 ref
 .
 html
+=
+=
+caret_on_presshell_reinit
+.
+html
+caret_on_presshell_reinit
+-
+ref
+.
+html
