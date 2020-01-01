@@ -649,6 +649,10 @@ test_bug437915
 .
 html
 \
+test_cascade
+.
+html
+\
 test_compute_data_with_start_struct
 .
 html
