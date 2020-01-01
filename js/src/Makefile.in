@@ -967,6 +967,10 @@ jsstr
 .
 h
 \
+jstracer
+.
+h
+\
 jstracerinlines
 .
 h
