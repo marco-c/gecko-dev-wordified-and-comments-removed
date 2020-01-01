@@ -217,8 +217,6 @@ attribute
 HTMLCollection
 tBodies
 ;
-/
-/
 HTMLElement
 createTBody
 (

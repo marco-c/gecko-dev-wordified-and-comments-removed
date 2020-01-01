@@ -366,6 +366,14 @@ TBodies
 (
 )
 ;
+already_AddRefed
+<
+nsGenericHTMLElement
+>
+CreateTBody
+(
+)
+;
 nsIHTMLCollection
 *
 Rows
