@@ -225,6 +225,9 @@ private
 PRBool
 mExpectAbsLoc
 ;
+nsString
+mEscapedEllipsis
+;
 }
 ;
 #
