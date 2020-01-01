@@ -1676,15 +1676,6 @@ fail
 "
 )
 {
-let
-params
-=
-{
-selected
-:
-restoreToFront
-}
-;
 BrowserApp
 .
 addTab
@@ -1698,6 +1689,9 @@ home
 showProgress
 :
 false
+selected
+:
+restoreToFront
 }
 )
 ;
