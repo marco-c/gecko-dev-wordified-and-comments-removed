@@ -1845,6 +1845,14 @@ cb
 )
 ;
 }
+NS_CYCLE_COLLECTION_NOTE_EDGE_NAME
+(
+cb
+"
+mGlobalObject
+"
+)
+;
 cb
 .
 NoteXPCOMChild
