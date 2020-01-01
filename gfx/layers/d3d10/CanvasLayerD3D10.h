@@ -66,6 +66,10 @@ mNeedsYFlip
 (
 PR_FALSE
 )
+mHasAlpha
+(
+PR_TRUE
+)
 {
 mImplData
 =
@@ -167,6 +171,9 @@ mIsD2DTexture
 ;
 PRPackedBool
 mUsingSharedTexture
+;
+PRPackedBool
+mHasAlpha
 ;
 }
 ;
