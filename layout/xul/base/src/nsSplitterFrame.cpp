@@ -3051,6 +3051,12 @@ state
 nsSize
 maxSize
 =
+nsBox
+:
+:
+BoundsCheckMinMax
+(
+minSize
 childBox
 -
 >
@@ -3058,7 +3064,10 @@ GetMaxSize
 (
 state
 )
+)
 ;
+prefSize
+=
 nsBox
 :
 :

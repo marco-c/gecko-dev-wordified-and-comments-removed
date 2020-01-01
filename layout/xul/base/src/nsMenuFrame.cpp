@@ -3313,6 +3313,8 @@ GetMaxSize
 aState
 )
 ;
+prefSize
+=
 BoundsCheck
 (
 minSize
@@ -5684,6 +5686,8 @@ GetMaxSize
 aState
 )
 ;
+size
+=
 BoundsCheck
 (
 minSize

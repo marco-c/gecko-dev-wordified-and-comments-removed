@@ -830,6 +830,8 @@ bottom
 ;
 }
 }
+pref
+=
 nsBox
 :
 :

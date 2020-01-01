@@ -1846,15 +1846,13 @@ GetMaxSize
 aState
 )
 ;
+return
 BoundsCheck
 (
 minSize
 size
 maxSize
 )
-;
-return
-size
 ;
 }
 nsSize
