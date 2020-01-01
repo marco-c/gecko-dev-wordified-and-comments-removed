@@ -72,6 +72,9 @@ mType
 PRPackedBool
 mIntegerValid
 ;
+PRPackedBool
+mHasSign
+;
 nsAutoString
 mIdent
 ;
@@ -356,6 +359,13 @@ nsCSSToken
 aTokenResult
 )
 ;
+void
+Pushback
+(
+PRUnichar
+aChar
+)
+;
 static
 inline
 PRBool
@@ -577,13 +587,6 @@ Peek
 nsresult
 &
 aErrorCode
-)
-;
-void
-Pushback
-(
-PRUnichar
-aChar
 )
 ;
 PRBool

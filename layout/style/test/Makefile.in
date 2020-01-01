@@ -669,6 +669,10 @@ test_initial_computation
 .
 html
 \
+test_of_type_selectors
+.
+xhtml
+\
 test_parse_rule
 .
 html
@@ -682,6 +686,10 @@ test_property_syntax_errors
 html
 \
 test_selectors
+.
+html
+\
+test_selectors_on_anonymous_content
 .
 html
 \
@@ -793,6 +801,10 @@ redirect
 3
 .
 css
+\
+xbl_bindings
+.
+xml
 \
 (
 NULL
