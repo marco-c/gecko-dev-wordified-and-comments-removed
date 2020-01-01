@@ -12576,6 +12576,12 @@ free
 url
 )
 ;
+VOID_TO_NPVARIANT
+(
+*
+result
+)
+;
 return
 (
 err
