@@ -74,6 +74,16 @@ define
 EGL_IMAGE_PRESERVED_KHR
 0x30D2
 typedef
+void
+*
+EGLContext
+;
+typedef
+void
+*
+EGLDisplay
+;
+typedef
 PRUint32
 EGLenum
 ;
