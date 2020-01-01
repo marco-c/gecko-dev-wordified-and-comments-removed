@@ -3904,6 +3904,8 @@ getCurrentPanel
 selectStyleSheet
 (
 styleSheet
+.
+href
 line
 )
 ;
