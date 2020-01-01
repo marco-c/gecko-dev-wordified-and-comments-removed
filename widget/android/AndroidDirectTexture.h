@@ -144,6 +144,8 @@ mHeight
 bool
 Bind
 (
+GLenum
+target
 )
 ;
 private
