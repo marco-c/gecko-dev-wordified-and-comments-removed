@@ -4903,6 +4903,7 @@ PR_TRUE
 #
 endif
 }
+nsFrameList
 nsTableFrame
 :
 :
