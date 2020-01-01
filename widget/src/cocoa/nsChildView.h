@@ -174,7 +174,7 @@ NS_GET_B
 color
 )
 )
-struct
+union
 nsPluginPort
 ;
 #
@@ -1127,10 +1127,15 @@ PRPackedBool
 mLiveResizeInProgress
 ;
 PRPackedBool
+mIsPluginView
+;
+PRPackedBool
 mPluginDrawing
 ;
+PRPackedBool
+mPluginIsCG
+;
 nsPluginPort
-*
 mPluginPort
 ;
 RgnHandle
