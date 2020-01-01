@@ -66,6 +66,10 @@ const
 int
 &
 one
+const
+float
+&
+zeroPtTwoFive
 )
 ;
 virtual
@@ -104,6 +108,10 @@ const
 int
 &
 zero
+const
+float
+&
+zeroPtFive
 )
 ;
 virtual

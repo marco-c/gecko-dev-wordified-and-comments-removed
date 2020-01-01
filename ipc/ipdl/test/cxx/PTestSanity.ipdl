@@ -13,6 +13,8 @@ Ping
 (
 int
 zero
+float
+zeroPtFive
 )
 ;
 parent
@@ -21,6 +23,8 @@ Pong
 (
 int
 one
+float
+zeroPtTwoFive
 )
 ;
 both
