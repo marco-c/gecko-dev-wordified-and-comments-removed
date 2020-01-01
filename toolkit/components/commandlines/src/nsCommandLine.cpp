@@ -142,7 +142,7 @@ h
 "
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 #
 include
 <
@@ -1047,7 +1047,7 @@ rv
 if
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_COCOA
 )
 nsCOMPtr
 <
