@@ -413,6 +413,16 @@ do_QueryInterface
 aRequest
 )
 ;
+if
+(
+!
+channel
+)
+{
+return
+NS_ERROR_NOT_AVAILABLE
+;
+}
 nsAutoCString
 contentType
 ;
