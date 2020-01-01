@@ -1037,13 +1037,6 @@ getProcessor
 ;
 processor
 .
-registerSession
-(
-this
-)
-;
-processor
-.
 registerCommand
 (
 "
