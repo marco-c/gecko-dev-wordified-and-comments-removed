@@ -34,6 +34,15 @@ hdc
 cairo_public
 cairo_surface_t
 *
+cairo_win32_surface_create_with_alpha
+(
+HDC
+hdc
+)
+;
+cairo_public
+cairo_surface_t
+*
 cairo_win32_printing_surface_create
 (
 HDC
