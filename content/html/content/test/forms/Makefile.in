@@ -64,6 +64,10 @@ test_save_restore_radio_groups
 .
 html
 \
+test_set_range_text
+.
+html
+\
 test_change_event
 .
 html
