@@ -312,7 +312,7 @@ error
 .
 name
 '
-InvalidCallBarringOption
+InvalidParameter
 '
 JSON
 .
