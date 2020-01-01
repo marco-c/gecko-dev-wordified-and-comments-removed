@@ -28087,8 +28087,6 @@ v
 jsval
 *
 vp
-ReadStructuredCloneOp
-optionalReadOp
 const
 JSStructuredCloneCallbacks
 *
