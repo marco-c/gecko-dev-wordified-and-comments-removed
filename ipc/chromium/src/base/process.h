@@ -169,16 +169,6 @@ value
 )
 ;
 bool
-ReduceWorkingSet
-(
-)
-;
-bool
-UnReduceWorkingSet
-(
-)
-;
-bool
 EmptyWorkingSet
 (
 )
