@@ -20511,6 +20511,12 @@ GetParent
 (
 )
 ;
+if
+(
+result
+.
+mContent
+)
 result
 .
 mOffset
