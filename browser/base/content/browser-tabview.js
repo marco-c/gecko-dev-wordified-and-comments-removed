@@ -525,7 +525,7 @@ browser
 .
 panorama
 .
-experienced_first_use
+experienced_first_run
 "
 val
 )
@@ -552,7 +552,7 @@ browser
 .
 panorama
 .
-experienced_first_use
+experienced_first_run
 "
 )
 |
@@ -569,7 +569,7 @@ browser
 .
 panorama
 .
-experienced_first_use
+experienced_first_run
 "
 )
 )
@@ -585,7 +585,7 @@ browser
 .
 panorama
 .
-experienced_first_use
+experienced_first_run
 "
 this
 false
@@ -782,7 +782,7 @@ browser
 .
 panorama
 .
-experienced_first_use
+experienced_first_run
 "
 this
 )
@@ -827,7 +827,7 @@ browser
 .
 panorama
 .
-experienced_first_use
+experienced_first_run
 "
 this
 )
