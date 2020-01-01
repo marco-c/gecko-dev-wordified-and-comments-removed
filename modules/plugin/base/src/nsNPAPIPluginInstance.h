@@ -292,6 +292,11 @@ GetDOMWindow
 (
 )
 ;
+nsresult
+PrivateModeStateChanged
+(
+)
+;
 protected
 :
 nsresult

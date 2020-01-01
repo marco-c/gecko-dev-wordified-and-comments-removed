@@ -81,6 +81,9 @@ TestNPObject
 *
 scriptableObject
 ;
+NPBool
+lastReportedPrivateModeState
+;
 }
 InstanceData
 ;
