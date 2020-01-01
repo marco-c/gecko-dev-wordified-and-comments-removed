@@ -57,7 +57,11 @@ h
 #
 include
 "
-nsIContent
+mozilla
+/
+dom
+/
+Element
 .
 h
 "
@@ -68,6 +72,13 @@ nsDebug
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 nsSMILCSSValueType
 nsSMILCSSValueType
 :
@@ -1610,7 +1621,7 @@ nsPresContext
 *
 GetPresContextForElement
 (
-nsIContent
+Element
 *
 aElem
 )
@@ -1666,7 +1677,7 @@ ValueFromStringHelper
 (
 nsCSSProperty
 aPropID
-nsIContent
+Element
 *
 aTargetElement
 nsPresContext
@@ -1828,7 +1839,7 @@ ValueFromString
 (
 nsCSSProperty
 aPropID
-nsIContent
+Element
 *
 aTargetElement
 const
