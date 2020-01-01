@@ -775,6 +775,10 @@ SVGFEComponentTransferElement
 .
 webidl
 \
+SVGFECompositeElement
+.
+webidl
+\
 SVGFEDistantLightElement
 .
 webidl
