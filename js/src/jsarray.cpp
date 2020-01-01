@@ -71,13 +71,6 @@ h
 #
 include
 "
-jstracer
-.
-h
-"
-#
-include
-"
 jsbuiltins
 .
 h
@@ -163,6 +156,13 @@ h
 include
 "
 jsstaticcheck
+.
+h
+"
+#
+include
+"
+jstracer
 .
 h
 "

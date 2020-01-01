@@ -190,13 +190,6 @@ h
 #
 include
 "
-jstracer
-.
-h
-"
-#
-include
-"
 jsvector
 .
 h
