@@ -207,12 +207,6 @@ Play
 )
 ;
 virtual
-void
-Stop
-(
-)
-;
-virtual
 nsresult
 Seek
 (
@@ -370,6 +364,11 @@ Resume
 virtual
 void
 MoveLoadsToBackground
+(
+)
+;
+void
+Stop
 (
 )
 ;

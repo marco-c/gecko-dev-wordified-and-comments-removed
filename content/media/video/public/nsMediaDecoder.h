@@ -225,14 +225,6 @@ Play
 0
 ;
 virtual
-void
-Stop
-(
-)
-=
-0
-;
-virtual
 nsresult
 Load
 (
@@ -518,9 +510,6 @@ mSizeChanged
 ;
 PRPackedBool
 mShuttingDown
-;
-PRPackedBool
-mStopping
 ;
 }
 ;

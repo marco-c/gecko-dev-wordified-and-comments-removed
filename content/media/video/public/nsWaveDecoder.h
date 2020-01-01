@@ -109,12 +109,6 @@ Play
 ;
 virtual
 void
-Stop
-(
-)
-;
-virtual
-void
 Pause
 (
 )
@@ -254,6 +248,11 @@ UpdateReadyStateForData
 virtual
 void
 MoveLoadsToBackground
+(
+)
+;
+void
+Stop
 (
 )
 ;
