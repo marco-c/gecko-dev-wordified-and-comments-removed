@@ -39,12 +39,12 @@ namespace
 ion
 {
 class
-CodeGenerator
+CodeGeneratorX64
 :
 public
 CodeGeneratorX86Shared
 {
-CodeGenerator
+CodeGeneratorX64
 *
 thisFromCtor
 (
@@ -56,7 +56,7 @@ this
 }
 public
 :
-CodeGenerator
+CodeGeneratorX64
 (
 MIRGenerator
 *
@@ -117,6 +117,10 @@ ins
 )
 ;
 }
+;
+typedef
+CodeGeneratorX64
+CodeGeneratorSpecific
 ;
 }
 }

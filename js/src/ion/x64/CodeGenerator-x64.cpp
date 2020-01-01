@@ -58,10 +58,10 @@ js
 :
 ion
 ;
-CodeGenerator
+CodeGeneratorX64
 :
 :
-CodeGenerator
+CodeGeneratorX64
 (
 MIRGenerator
 *
@@ -79,7 +79,7 @@ graph
 {
 }
 bool
-CodeGenerator
+CodeGeneratorX64
 :
 :
 visitDouble
@@ -192,7 +192,7 @@ true
 ;
 }
 bool
-CodeGenerator
+CodeGeneratorX64
 :
 :
 visitValue
@@ -338,7 +338,7 @@ JSVAL_SHIFTED_TAG_NULL
 }
 }
 bool
-CodeGenerator
+CodeGeneratorX64
 :
 :
 visitBox
@@ -451,7 +451,7 @@ true
 ;
 }
 bool
-CodeGenerator
+CodeGeneratorX64
 :
 :
 visitUnboxInteger
@@ -548,7 +548,7 @@ true
 ;
 }
 bool
-CodeGenerator
+CodeGeneratorX64
 :
 :
 visitUnboxDouble
@@ -644,7 +644,7 @@ true
 ;
 }
 bool
-CodeGenerator
+CodeGeneratorX64
 :
 :
 visitReturn
