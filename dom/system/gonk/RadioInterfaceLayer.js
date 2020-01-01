@@ -7644,6 +7644,15 @@ envelopeId
 ]
 ;
 }
+else
+{
+options
+.
+sms
+=
+sms
+;
+}
 options
 .
 request
