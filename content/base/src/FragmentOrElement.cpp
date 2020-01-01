@@ -58,7 +58,7 @@ h
 #
 include
 "
-nsIDocument
+nsIDocumentInlines
 .
 h
 "
@@ -1200,7 +1200,7 @@ Element
 *
 parent
 =
-GetParentElement
+GetElementParent
 (
 )
 ;
@@ -1220,7 +1220,7 @@ parent
 content
 -
 >
-GetParentElement
+GetElementParent
 (
 )
 )

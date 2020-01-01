@@ -1080,6 +1080,17 @@ mozilla
 /
 dom
 /
+HTMLBodyElement
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 UndoManager
 .
 h
