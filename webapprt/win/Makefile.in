@@ -415,7 +415,7 @@ dir
 LOCALE_MERGEDIR
 )
 /
-webapprt
+browser
 /
 webapp
 -
@@ -430,7 +430,7 @@ dir
 (
 call
 EXPAND_LOCALE_SRCDIR
-webapprt
+browser
 /
 locales
 )
@@ -449,7 +449,7 @@ dir
 topsrcdir
 )
 /
-webapprt
+browser
 /
 locales
 /
@@ -470,7 +470,7 @@ PPL_LOCALE_ARGS
 (
 call
 EXPAND_LOCALE_SRCDIR
-webapprt
+browser
 /
 locales
 )
