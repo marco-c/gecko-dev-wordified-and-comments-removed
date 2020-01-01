@@ -12715,11 +12715,6 @@ endif
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
 CycleCollectorMallocSizeOf
-"
-cycle
--
-collector
-"
 )
 void
 nsCycleCollector

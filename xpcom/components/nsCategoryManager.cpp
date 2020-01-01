@@ -1444,11 +1444,6 @@ nsICategoryManager
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
 CategoryManagerMallocSizeOf
-"
-category
--
-manager
-"
 )
 NS_MEMORY_REPORTER_IMPLEMENT
 (

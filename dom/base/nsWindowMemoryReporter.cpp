@@ -407,10 +407,7 @@ system
 }
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
-DOMStyleMallocSizeOf
-"
-windows
-"
+WindowsMallocSizeOf
 )
 typedef
 nsDataHashtable
@@ -771,7 +768,7 @@ while
 nsWindowSizes
 windowSizes
 (
-DOMStyleMallocSizeOf
+WindowsMallocSizeOf
 )
 ;
 aWindow

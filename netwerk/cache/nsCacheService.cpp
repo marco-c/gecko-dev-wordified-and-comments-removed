@@ -4519,14 +4519,7 @@ cache
 )
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
-NetworkDiskCacheSizeOfFun
-"
-network
--
-disk
--
-cache
-"
+NetworkDiskCacheMallocSizeOf
 )
 static
 nsCOMPtr
@@ -9811,7 +9804,7 @@ diskDevice
 >
 SizeOfIncludingThis
 (
-NetworkDiskCacheSizeOfFun
+NetworkDiskCacheMallocSizeOf
 )
 :
 0

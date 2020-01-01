@@ -1762,9 +1762,6 @@ NULL
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
 TelemetryMallocSizeOf
-"
-telemetry
-"
 )
 size_t
 TelemetryImpl

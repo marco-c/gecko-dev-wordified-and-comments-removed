@@ -434,11 +434,6 @@ dom
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
 JsWorkerMallocSizeOf
-"
-js
--
-worker
-"
 )
 namespace
 {

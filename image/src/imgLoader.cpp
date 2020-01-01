@@ -273,9 +273,6 @@ image
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
 ImagesMallocSizeOf
-"
-images
-"
 )
 class
 imgMemoryReporter

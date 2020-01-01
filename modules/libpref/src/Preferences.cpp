@@ -734,9 +734,6 @@ nullptr
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
 PreferencesMallocSizeOf
-"
-preferences
-"
 )
 static
 size_t

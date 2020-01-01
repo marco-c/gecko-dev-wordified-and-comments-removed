@@ -1094,11 +1094,6 @@ forget
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
 ComponentManagerMallocSizeOf
-"
-component
--
-manager
-"
 )
 static
 int64_t

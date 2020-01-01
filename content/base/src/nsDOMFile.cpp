@@ -2597,16 +2597,8 @@ sMemoryReporterRegistered
 ;
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
-DOMMemoryFileDataOwnerSizeOf
-"
-memory
--
-file
--
-data
-"
+DOMMemoryFileDataOwnerMallocSizeOf
 )
-;
 class
 nsDOMMemoryFileDataOwnerMemoryReporter
 MOZ_FINAL
@@ -2736,7 +2728,7 @@ getNext
 size_t
 size
 =
-DOMMemoryFileDataOwnerSizeOf
+DOMMemoryFileDataOwnerMallocSizeOf
 (
 owner
 -

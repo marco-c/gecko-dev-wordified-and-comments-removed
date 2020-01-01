@@ -110,15 +110,6 @@ h
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
 LayoutStyleSheetServiceMallocSizeOf
-"
-layout
-/
-style
--
-sheet
--
-service
-"
 )
 static
 int64_t

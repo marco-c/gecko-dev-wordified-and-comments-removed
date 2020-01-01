@@ -365,13 +365,6 @@ up
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
 StartupCacheDataMallocSizeOf
-"
-startup
--
-cache
-/
-data
-"
 )
 static
 int64_t

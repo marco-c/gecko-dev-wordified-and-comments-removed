@@ -755,12 +755,7 @@ mReporter
 }
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
-WebGLBufferMallocSizeOfFun
-"
-webgl
--
-buffer
-"
+WebGLBufferMallocSizeOf
 )
 int64_t
 WebGLMemoryMultiReporterWrapper
@@ -855,7 +850,7 @@ buffer
 >
 SizeOfIncludingThis
 (
-WebGLBufferMallocSizeOfFun
+WebGLBufferMallocSizeOf
 )
 ;
 }
@@ -866,12 +861,7 @@ result
 }
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
-WebGLShaderMallocSizeOfFun
-"
-webgl
--
-shader
-"
+WebGLShaderMallocSizeOf
 )
 int64_t
 WebGLMemoryMultiReporterWrapper
@@ -954,7 +944,7 @@ shader
 >
 SizeOfIncludingThis
 (
-WebGLShaderMallocSizeOfFun
+WebGLShaderMallocSizeOf
 )
 ;
 }

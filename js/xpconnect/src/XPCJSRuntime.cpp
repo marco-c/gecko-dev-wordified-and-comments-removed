@@ -6890,9 +6890,6 @@ while
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
 JsMallocSizeOf
-"
-js
-"
 )
 namespace
 xpc
@@ -10483,10 +10480,7 @@ nsIMemoryMultiReporter
 )
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
-OrphanSizeOf
-"
-orphans
-"
+OrphanMallocSizeOf
 )
 namespace
 xpc
@@ -10508,7 +10502,7 @@ tree
 >
 SizeOfIncludingThis
 (
-OrphanSizeOf
+OrphanMallocSizeOf
 )
 ;
 for
@@ -10545,7 +10539,7 @@ child
 >
 SizeOfIncludingThis
 (
-OrphanSizeOf
+OrphanMallocSizeOf
 )
 ;
 }

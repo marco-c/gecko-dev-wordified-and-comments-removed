@@ -5365,13 +5365,6 @@ event
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
 HistoryLinksHashtableMallocSizeOf
-"
-history
--
-links
--
-hashtable
-"
 )
 int64_t
 GetHistoryObserversSize

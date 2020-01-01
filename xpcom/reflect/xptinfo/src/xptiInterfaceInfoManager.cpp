@@ -87,13 +87,6 @@ endif
 NS_MEMORY_REPORTER_MALLOC_SIZEOF_FUN
 (
 XPTMallocSizeOf
-"
-xpti
--
-working
--
-set
-"
 )
 size_t
 xptiInterfaceInfoManager
