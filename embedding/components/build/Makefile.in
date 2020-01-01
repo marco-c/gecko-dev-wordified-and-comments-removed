@@ -90,9 +90,6 @@ IS_COMPONENT
 MODULE_NAME
 =
 embedcomponents
-GRE_MODULE
-=
-1
 LIBXUL_LIBRARY
 =
 1

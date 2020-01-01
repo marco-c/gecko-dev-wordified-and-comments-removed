@@ -95,9 +95,6 @@ mk
 MODULE_NAME
 =
 telemetry
-GRE_MODULE
-=
-1
 LIBXUL_LIBRARY
 =
 1

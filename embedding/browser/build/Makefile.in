@@ -88,9 +88,6 @@ Browser_Embedding_Module
 EXPORT_LIBRARY
 =
 1
-GRE_MODULE
-=
-1
 LIBXUL_LIBRARY
 =
 1

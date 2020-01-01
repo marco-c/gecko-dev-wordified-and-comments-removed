@@ -81,9 +81,6 @@ mk
 MODULE_NAME
 =
 jsdebugger
-GRE_MODULE
-=
-1
 LIBRARY_NAME
 =
 jsdebugger

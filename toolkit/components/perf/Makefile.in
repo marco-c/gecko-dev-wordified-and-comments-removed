@@ -78,9 +78,6 @@ mk
 MODULE_NAME
 =
 jsperf
-GRE_MODULE
-=
-1
 EXTRA_JS_MODULES
 =
 \

@@ -103,9 +103,6 @@ mozjs
 STATIC_LIBRARY_NAME
 =
 js_static
-GRE_MODULE
-=
-1
 LIBS
 =
 (

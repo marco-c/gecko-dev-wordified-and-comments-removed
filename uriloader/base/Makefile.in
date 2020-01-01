@@ -84,9 +84,6 @@ mk
 LIBRARY_NAME
 =
 uriloaderbase_s
-GRE_MODULE
-=
-1
 LIBXUL_LIBRARY
 =
 1

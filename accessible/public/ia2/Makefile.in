@@ -68,9 +68,6 @@ srcdir
 LIBRARY_NAME
 =
 IA2Marshal
-GRE_MODULE
-=
-1
 DEFFILE
 =
 (

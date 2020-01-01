@@ -91,9 +91,6 @@ config
 autoconf
 .
 mk
-GRE_MODULE
-=
-1
 EXPORTS
 =
 nsPromptUtils

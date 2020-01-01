@@ -96,9 +96,6 @@ jsdomcontacts_s
 LIBXUL_LIBRARY
 =
 1
-GRE_MODULE
-=
-1
 EXTRA_COMPONENTS
 =
 \
