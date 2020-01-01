@@ -1605,7 +1605,7 @@ UnlockScreenOrientation
 (
 )
 ;
-void
+bool
 PumpMessageLoop
 (
 )

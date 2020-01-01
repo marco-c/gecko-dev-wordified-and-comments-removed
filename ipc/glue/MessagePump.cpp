@@ -414,6 +414,9 @@ break
 #
 ifdef
 MOZ_WIDGET_ANDROID
+did_work
+|
+=
 AndroidBridge
 :
 :
