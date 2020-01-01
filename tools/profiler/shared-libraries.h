@@ -68,14 +68,11 @@ public
 :
 SharedLibrary
 (
-unsigned
-long
+uintptr_t
 aStart
-unsigned
-long
+uintptr_t
 aEnd
-unsigned
-long
+uintptr_t
 aOffset
 const
 std
