@@ -747,6 +747,13 @@ aUseRowSpanIfOverlap
 const
 ;
 PRInt32
+GetHighestIndex
+(
+PRInt32
+aColCount
+)
+;
+PRInt32
 GetIndexByRowAndColumn
 (
 PRInt32

@@ -797,14 +797,9 @@ test_table_4
 .
 html
 \
-(
-warning
 test_table_indexes
 .
 html
-temporarily
-disabled
-)
 \
 test_table_indexes_ariagrid
 .
