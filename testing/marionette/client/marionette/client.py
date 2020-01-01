@@ -6,6 +6,8 @@ from
 errors
 import
 MarionetteException
+InvalidResponseException
+ErrorCodes
 class
 MarionetteClient
 (
@@ -340,28 +342,46 @@ else
 :
             
 raise
-MarionetteException
+InvalidResponseException
 (
 "
 Could
 not
 successfully
 complete
+"
+\
+                                           
+"
 transport
 of
 message
 to
 Gecko
+"
+                                           
+"
 socket
 closed
 ?
 "
+                                           
+status
+=
+ErrorCodes
+.
+INVALID_RESPONSE
 )
     
 def
 connect
 (
 self
+timeout
+=
+180
+.
+0
 )
 :
         
@@ -412,9 +432,7 @@ sock
 .
 settimeout
 (
-180
-.
-0
+timeout
 )
         
 try
