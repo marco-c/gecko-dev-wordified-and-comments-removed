@@ -876,6 +876,11 @@ screenY
 "
 10
 "
+toggletoolbar
+=
+"
+true
+"
 persist
 =
 "
