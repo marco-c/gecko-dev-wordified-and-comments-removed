@@ -10,3 +10,7 @@ from
 testrunner
 import
 TPSTestRunner
+from
+mozhttpd
+import
+MozHttpd
