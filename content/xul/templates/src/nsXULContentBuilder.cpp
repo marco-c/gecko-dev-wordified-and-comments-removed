@@ -3421,10 +3421,11 @@ if
 aContainer
 )
 {
+NS_IF_RELEASE
+(
 *
 aContainer
-=
-nsnull
+)
 ;
 *
 aNewIndexInContainer
