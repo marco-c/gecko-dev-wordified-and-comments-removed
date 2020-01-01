@@ -299,7 +299,16 @@ threads
 ID
 gTLSThreadID
 ;
+#
+ifdef
+MOZ_ASAN
+MOZ_ASAN_BLACKLIST
+static
+#
+else
 inline
+#
+endif
 bool
 NS_IsMainThread
 (
