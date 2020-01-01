@@ -365,6 +365,11 @@ testStringBuffer
 cpp
 '
 '
+testToIntWidth
+.
+cpp
+'
+'
 testTrap
 .
 cpp
