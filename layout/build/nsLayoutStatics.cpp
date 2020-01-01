@@ -1857,13 +1857,6 @@ Shutdown
 (
 )
 ;
-nsEditorSpellCheck
-:
-:
-ShutDown
-(
-)
-;
 nsDOMMutationObserver
 :
 :

@@ -124,6 +124,10 @@ test_bug678842
 .
 html
 \
+test_async_UpdateCurrentDictionary
+.
+html
+\
 (
 NULL
 )
