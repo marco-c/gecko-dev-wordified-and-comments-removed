@@ -146,9 +146,6 @@ apply
 *
 /
 interface
-MozNamedAttrMap
-;
-interface
 Principal
 ;
 interface
@@ -557,15 +554,6 @@ in
 the
 spec
 .
-[
-Constant
-]
-readonly
-attribute
-MozNamedAttrMap
-?
-attributes
-;
 /
 /
 If

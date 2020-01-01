@@ -193,6 +193,9 @@ interface
 Attr
 ;
 interface
+MozNamedAttrMap
+;
+interface
 Element
 :
 Node
@@ -293,13 +296,12 @@ DOMTokenList
 ?
 classList
 ;
-/
-/
+[
+Constant
+]
 readonly
 attribute
-Attr
-[
-]
+MozNamedAttrMap
 attributes
 ;
 DOMString

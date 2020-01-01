@@ -952,15 +952,6 @@ Element
 interface
 :
 attribute
-attributes
-"
-:
-true
-"
-Element
-interface
-:
-attribute
 className
 "
 :
