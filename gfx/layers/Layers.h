@@ -181,6 +181,7 @@ class
 SpecificLayerAttributes
 ;
 struct
+THEBES_API
 FrameMetrics
 {
 public
