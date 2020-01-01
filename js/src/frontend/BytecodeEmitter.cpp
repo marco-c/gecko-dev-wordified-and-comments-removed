@@ -30199,6 +30199,11 @@ rest
 =
 NULL
 ;
+bool
+restIsDefn
+=
+false
+;
 if
 (
 fun
@@ -30247,6 +30252,15 @@ rest
 >
 pn_next
 ;
+restIsDefn
+=
+rest
+-
+>
+isDefn
+(
+)
+;
 if
 (
 Emit1
@@ -30268,6 +30282,11 @@ bce
 JSOP_REST
 )
 ;
+if
+(
+restIsDefn
+)
+{
 if
 (
 Emit1
@@ -30324,6 +30343,7 @@ return
 false
 ;
 }
+}
 if
 (
 !
@@ -30349,6 +30369,9 @@ hasRest
 {
 if
 (
+restIsDefn
+&
+&
 !
 EmitVarOp
 (
