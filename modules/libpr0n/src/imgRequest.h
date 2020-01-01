@@ -7,13 +7,6 @@ imgRequest_h__
 #
 include
 "
-imgIDecoder
-.
-h
-"
-#
-include
-"
 imgIDecoderObserver
 .
 h

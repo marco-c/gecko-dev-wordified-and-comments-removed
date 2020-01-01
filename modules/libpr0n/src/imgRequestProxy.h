@@ -28,13 +28,6 @@ h
 #
 include
 "
-imgIDecoder
-.
-h
-"
-#
-include
-"
 nsIRequestObserver
 .
 h
