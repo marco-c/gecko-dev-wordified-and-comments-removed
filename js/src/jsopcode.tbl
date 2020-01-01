@@ -2675,6 +2675,14 @@ JOF_BYTE
 Push
 object
 literal
+:
+either
+an
+XML
+object
+or
+initialiser
+object
 .
 *
 /

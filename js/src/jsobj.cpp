@@ -4710,6 +4710,13 @@ version
 version
 &
 &
+!
+script
+-
+>
+hasSingletons
+&
+&
 (
 script
 -
