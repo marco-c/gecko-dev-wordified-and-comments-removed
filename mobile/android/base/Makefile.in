@@ -997,6 +997,12 @@ java
 \
 gfx
 /
+GeckoGLLayerClient
+.
+java
+\
+gfx
+/
 GeckoLayerClient
 .
 java
@@ -1130,6 +1136,12 @@ java
 gfx
 /
 ViewportMetrics
+.
+java
+\
+gfx
+/
+VirtualLayer
 .
 java
 \

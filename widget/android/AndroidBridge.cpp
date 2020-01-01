@@ -6091,9 +6091,6 @@ case
 LAYER_CLIENT_TYPE_GL
 :
 {
-#
-if
-0
 AndroidGeckoGLLayerClient
 *
 client
@@ -6115,8 +6112,6 @@ mLayerClient
 =
 client
 ;
-#
-endif
 break
 ;
 }
