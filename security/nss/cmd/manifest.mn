@@ -75,9 +75,7 @@ addbuiltin
 \
 atob
 \
-(
-BLTEST_SRCDIR
-)
+bltest
 \
 btoa
 \
@@ -101,9 +99,7 @@ digest
 \
 httpserv
 \
-(
-FIPSTEST_SRCDIR
-)
+fipstest
 \
 (
 LOWHASHTEST_SRCDIR

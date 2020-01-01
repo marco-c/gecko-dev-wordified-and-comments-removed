@@ -256,7 +256,7 @@ ifdef
 NSS_ECC_MORE_THAN_SUITE_B
 #
 define
-EC_MAX_KEY_BITS
+EC_MAX_KEY
 571
 /
 *
@@ -266,7 +266,7 @@ bits
 /
 #
 define
-EC_MIN_KEY_BITS
+EC_MIN_KEY
 112
 /
 *
@@ -278,7 +278,7 @@ bits
 else
 #
 define
-EC_MAX_KEY_BITS
+EC_MAX_KEY
 521
 /
 *
@@ -288,7 +288,7 @@ bits
 /
 #
 define
-EC_MIN_KEY_BITS
+EC_MIN_KEY
 256
 /
 *

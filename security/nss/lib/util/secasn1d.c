@@ -10974,13 +10974,6 @@ cx
 their_mark
 )
 ;
-cx
--
->
-their_mark
-=
-NULL
-;
 }
 #
 endif

@@ -54,6 +54,16 @@ MPL
 0
 /
 .
+CONFIG_CVS_ID
+=
+"
+(
+#
+)
+RCSfile
+Revision
+Date
+"
 #
 #
 Override
