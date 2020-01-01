@@ -3423,6 +3423,17 @@ JSObject
 globalObj
 =
 scopeChain
+&
+&
+scopeChain
+=
+=
+scopeChain
+-
+>
+getGlobal
+(
+)
 ?
 scopeChain
 -
