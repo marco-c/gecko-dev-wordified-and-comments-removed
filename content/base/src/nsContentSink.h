@@ -410,6 +410,15 @@ IsTimeToNotify
 (
 )
 ;
+PRBool
+LinkContextIsOurDocument
+(
+const
+nsSubstring
+&
+aAnchor
+)
+;
 static
 void
 InitializeStatics
@@ -505,6 +514,10 @@ ProcessLink
 nsIContent
 *
 aElement
+const
+nsSubstring
+&
+aAnchor
 const
 nsSubstring
 &
