@@ -88,7 +88,7 @@ union
 bool
 boolValue
 ;
-uint32_t
+int32_t
 intValue
 ;
 double
