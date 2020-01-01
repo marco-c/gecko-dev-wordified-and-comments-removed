@@ -397,6 +397,12 @@ CSRCS
 CSRCS
 '
             
+DEFINES
+=
+'
+DEFINES
+'
+            
 MODULE
 =
 '
