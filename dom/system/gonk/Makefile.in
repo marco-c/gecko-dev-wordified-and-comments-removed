@@ -233,6 +233,10 @@ nsINavigatorAudioChannelManager
 .
 idl
 \
+nsISystemWorkerManager
+.
+idl
+\
 (
 NULL
 )
