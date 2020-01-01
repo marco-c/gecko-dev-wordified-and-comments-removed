@@ -191,7 +191,7 @@ NS_ISCRIPTCONTEXT_IID
 )
 virtual
 nsresult
-EvaluateStringWithValue
+EvaluateString
 (
 const
 nsAString

@@ -480,7 +480,7 @@ rv
 context
 -
 >
-EvaluateStringWithValue
+EvaluateString
 (
 nsDependentString
 (

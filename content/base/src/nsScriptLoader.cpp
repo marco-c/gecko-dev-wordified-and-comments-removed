@@ -3956,7 +3956,7 @@ rv
 context
 -
 >
-EvaluateStringWithValue
+EvaluateString
 (
 aScript
 *

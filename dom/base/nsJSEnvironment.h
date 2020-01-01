@@ -167,7 +167,7 @@ GetObjectPrincipal
 ;
 virtual
 nsresult
-EvaluateStringWithValue
+EvaluateString
 (
 const
 nsAString
