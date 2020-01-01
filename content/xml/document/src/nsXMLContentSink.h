@@ -172,7 +172,8 @@ virtual
 PRBool
 ReadyToCallDidBuildModel
 (
-void
+PRBool
+aTerminated
 )
 ;
 NS_IMETHOD

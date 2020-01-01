@@ -87,6 +87,8 @@ virtual
 PRBool
 ReadyToCallDidBuildModel
 (
+PRBool
+aTerminated
 )
 {
 return

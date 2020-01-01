@@ -372,7 +372,8 @@ PRBool
 )
 ReadyToCallDidBuildModelImpl
 (
-void
+PRBool
+aTerminated
 )
 ;
 NS_HIDDEN_

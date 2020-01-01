@@ -1275,7 +1275,7 @@ aElement
 )
 =
 =
-PRUint32
+PRInt32
 (
 count
 -
@@ -1291,11 +1291,8 @@ aElement
 )
 =
 =
-PRUint32
-(
 -
 1
-)
 "
 script
 found
@@ -6583,6 +6580,8 @@ nsContentSink
 :
 ReadyToCallDidBuildModelImpl
 (
+PRBool
+aTerminated
 )
 {
 if
@@ -6594,6 +6593,10 @@ mDidGetReadyToCallDidBuildModelCall
 if
 (
 mDocument
+&
+&
+!
+aTerminated
 )
 {
 mDocument
@@ -6618,6 +6621,7 @@ mScriptLoader
 >
 EndDeferringScripts
 (
+aTerminated
 )
 ;
 }
@@ -6627,6 +6631,9 @@ mDidGetReadyToCallDidBuildModelCall
 PR_TRUE
 ;
 return
+aTerminated
+|
+|
 !
 mScriptLoader
 |

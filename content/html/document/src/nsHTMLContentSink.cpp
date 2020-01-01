@@ -748,7 +748,8 @@ virtual
 PRBool
 ReadyToCallDidBuildModel
 (
-void
+PRBool
+aTerminated
 )
 ;
 NS_IMETHOD
@@ -7172,11 +7173,14 @@ HTMLContentSink
 :
 ReadyToCallDidBuildModel
 (
+PRBool
+aTerminated
 )
 {
 return
 ReadyToCallDidBuildModelImpl
 (
+aTerminated
 )
 ;
 }

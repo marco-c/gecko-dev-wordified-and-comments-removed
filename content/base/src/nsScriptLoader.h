@@ -283,6 +283,8 @@ BlockOnload
 void
 EndDeferringScripts
 (
+PRBool
+aKillDeferred
 )
 ;
 PRUint32
