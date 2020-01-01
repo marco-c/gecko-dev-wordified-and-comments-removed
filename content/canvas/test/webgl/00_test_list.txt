@@ -25,10 +25,3 @@ conformance
 00_test_list
 .
 txt
-conformance
-/
-more
-/
-00_test_list
-.
-txt
