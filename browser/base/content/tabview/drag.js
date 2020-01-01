@@ -30,7 +30,6 @@ Drag
 (
 item
 event
-isResizing
 isFauxDrag
 )
 {
@@ -64,15 +63,6 @@ faux
 item
 '
 )
-;
-this
-.
-isResizing
-=
-isResizing
-|
-|
-false
 ;
 this
 .
