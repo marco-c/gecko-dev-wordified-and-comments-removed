@@ -39,6 +39,12 @@ if
 gIterations
 )
 {
+window
+.
+focus
+(
+)
+;
 finish
 (
 )
