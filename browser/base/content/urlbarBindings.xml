@@ -7014,6 +7014,7 @@ popup
 notification
 -
 closebutton
+tabbable
 "
 xbl
 :
@@ -7539,6 +7540,7 @@ popup
 notification
 -
 closebutton
+tabbable
 "
 xbl
 :
