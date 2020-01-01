@@ -98,13 +98,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 workmonitor
 .
 h
