@@ -185,7 +185,7 @@ android
 layout_height
 =
 "
-100dip
+fill_parent
 "
 android
 :
