@@ -558,15 +558,11 @@ oleaut32
 )
 endif
 endif
-ifneq
+ifeq
 (
-(
-filter
+cocoa
 (
 MOZ_WIDGET_TOOLKIT
-)
-mac
-cocoa
 )
 )
 EXTRA_DSO_LDOPTS

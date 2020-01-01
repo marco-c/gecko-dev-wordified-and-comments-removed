@@ -648,15 +648,11 @@ nsAutodialWinCE
 cpp
 endif
 else
-ifneq
+ifeq
 (
-(
-filter
-mac
 cocoa
 (
 MOZ_WIDGET_TOOLKIT
-)
 )
 )
 CPPSRCS

@@ -538,15 +538,11 @@ cpp
 NULL
 )
 endif
-ifeq
+ifneq
 (
-(
-filter
-mac
 cocoa
 (
 MOZ_WIDGET_TOOLKIT
-)
 )
 )
 CPPSRCS

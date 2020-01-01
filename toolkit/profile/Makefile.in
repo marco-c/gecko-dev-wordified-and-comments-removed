@@ -423,11 +423,8 @@ non
 -
 Phoenix
 apps
-ifeq
+ifneq
 (
-(
-filter
-mac
 cocoa
 (
 MOZ_WIDGET_TOOLKIT

@@ -824,15 +824,11 @@ MOZ_JS_LIBS
 (
 NULL
 )
-ifneq
+ifeq
 (
-(
-filter
-mac
 cocoa
 (
 MOZ_WIDGET_TOOLKIT
-)
 )
 )
 EXTRA_DSO_LDOPTS

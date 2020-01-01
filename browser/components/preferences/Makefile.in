@@ -494,7 +494,6 @@ ifneq
 filter
 windows
 gtk2
-mac
 cocoa
 (
 MOZ_WIDGET_TOOLKIT

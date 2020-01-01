@@ -454,15 +454,11 @@ PLATFORM_DIR
 =
 win
 endif
-ifneq
+ifeq
 (
-(
-filter
-mac
 cocoa
 (
 MOZ_WIDGET_TOOLKIT
-)
 )
 )
 PLATFORM_DIR

@@ -64341,15 +64341,6 @@ MOZ_WIDGET_TOOLKIT
 "
 =
 "
-mac
-"
--
-o
-"
-MOZ_WIDGET_TOOLKIT
-"
-=
-"
 cocoa
 "
 ;

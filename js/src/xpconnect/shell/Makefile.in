@@ -434,15 +434,11 @@ CPPSRCS
 xpcshell
 .
 cpp
-ifneq
+ifeq
 (
-(
-filter
-mac
 cocoa
 (
 MOZ_WIDGET_TOOLKIT
-)
 )
 )
 CMMSRCS

@@ -645,15 +645,11 @@ this
 test
 on
 Mac
-ifeq
+ifneq
 (
-(
-filter
-mac
 cocoa
 (
 MOZ_WIDGET_TOOLKIT
-)
 )
 )
 _TEST_FILES

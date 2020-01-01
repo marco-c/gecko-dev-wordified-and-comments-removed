@@ -675,15 +675,11 @@ GARBAGE
 MOZ_PKG_MANIFEST
 )
 endif
-ifneq
+ifeq
 (
-(
-filter
-mac
 cocoa
 (
 MOZ_WIDGET_TOOLKIT
-)
 )
 )
 MOZ_PKG_MAC_DSSTORE

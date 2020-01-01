@@ -447,15 +447,11 @@ public
 .
 ifndef
 MOZ_PKG_FORMAT
-ifneq
+ifeq
 (
-(
-filter
-mac
 cocoa
 (
 MOZ_WIDGET_TOOLKIT
-)
 )
 )
 MOZ_PKG_FORMAT

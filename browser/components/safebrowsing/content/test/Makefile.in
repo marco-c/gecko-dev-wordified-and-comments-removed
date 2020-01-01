@@ -477,11 +477,8 @@ a
 help
 menu
 .
-ifeq
+ifneq
 (
-(
-filter
-mac
 cocoa
 (
 MOZ_WIDGET_TOOLKIT

@@ -573,15 +573,11 @@ DEFINES
 DUSE_WGL
 endif
 endif
-ifneq
+ifeq
 (
-(
-filter
+cocoa
 (
 MOZ_WIDGET_TOOLKIT
-)
-mac
-cocoa
 )
 )
 CPPSRCS

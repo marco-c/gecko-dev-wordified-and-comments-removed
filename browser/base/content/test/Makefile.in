@@ -872,15 +872,11 @@ js
 (
 NULL
 )
-ifeq
+ifneq
 (
-(
-filter
-mac
 cocoa
 (
 MOZ_WIDGET_TOOLKIT
-)
 )
 )
 _BROWSER_FILES

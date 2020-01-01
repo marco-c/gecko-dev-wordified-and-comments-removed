@@ -537,15 +537,11 @@ js
 (
 NULL
 )
-ifneq
+ifeq
 (
-(
-filter
-mac
 cocoa
 (
 MOZ_WIDGET_TOOLKIT
-)
 )
 )
 AUTOCFG_JS_EXPORTS

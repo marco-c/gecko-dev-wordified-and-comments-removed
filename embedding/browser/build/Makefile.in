@@ -511,7 +511,7 @@ NULL
 )
 ifeq
 (
-mac
+cocoa
 (
 MOZ_WIDGET_TOOLKIT
 )

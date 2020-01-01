@@ -481,15 +481,11 @@ it
 into
 a
 DMG
-ifneq
+ifeq
 (
-(
-filter
-mac
 cocoa
 (
 MOZ_WIDGET_TOOLKIT
-)
 )
 )
 DIRS

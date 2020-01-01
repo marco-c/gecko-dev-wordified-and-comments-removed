@@ -931,7 +931,6 @@ filter
 qt
 beos
 os2
-mac
 photon
 cocoa
 windows
@@ -1129,15 +1128,11 @@ COMPONENT_LIBS
 =
 wdgtos2
 endif
-ifneq
+ifeq
 (
-(
-filter
-mac
 cocoa
 (
 MOZ_WIDGET_TOOLKIT
-)
 )
 )
 COMPONENT_LIBS

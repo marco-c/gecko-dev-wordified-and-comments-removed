@@ -504,15 +504,11 @@ native
 theme
 components
 )
-ifneq
+ifeq
 (
-(
-filter
-mac
 cocoa
 (
 MOZ_WIDGET_TOOLKIT
-)
 )
 )
 DIRS

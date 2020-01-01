@@ -297,7 +297,6 @@ ifneq
 (
 filter
 windows
-mac
 cocoa
 gtk2
 (
@@ -487,7 +486,6 @@ ifneq
 (
 (
 filter
-mac
 cocoa
 gtk2
 (

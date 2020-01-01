@@ -112,15 +112,11 @@ lgot_buffer
 =
 80
 endif
-ifneq
+ifeq
 (
-(
-filter
-mac
 cocoa
 (
 MOZ_WIDGET_TOOLKIT
-)
 )
 )
 LIBS
