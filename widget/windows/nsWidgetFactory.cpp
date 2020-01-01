@@ -247,12 +247,6 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsSound
 )
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_WIN7
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 WinTaskbar
@@ -277,8 +271,6 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 JumpListShortcut
 )
-#
-endif
 namespace
 mozilla
 {
@@ -397,12 +389,6 @@ NS_DEFINE_NAMED_CID
 NS_HTMLFORMATCONVERTER_CID
 )
 ;
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_WIN7
 NS_DEFINE_NAMED_CID
 (
 NS_WIN_TASKBAR_CID
@@ -433,8 +419,6 @@ NS_DEFINE_NAMED_CID
 NS_WIN_JUMPLISTSHORTCUT_CID
 )
 ;
-#
-endif
 NS_DEFINE_NAMED_CID
 (
 NS_DRAGSERVICE_CID
@@ -575,12 +559,6 @@ false
 NULL
 nsHTMLFormatConverterConstructor
 }
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_WIN7
 {
 &
 kNS_WIN_TASKBAR_CID
@@ -623,8 +601,6 @@ false
 NULL
 JumpListShortcutConstructor
 }
-#
-endif
 {
 &
 kNS_DRAGSERVICE_CID
@@ -892,12 +868,6 @@ htmlformatconverter
 &
 kNS_HTMLFORMATCONVERTER_CID
 }
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_WIN7
 {
 "
 mozilla
@@ -988,8 +958,6 @@ jumplistshortcut
 &
 kNS_WIN_JUMPLISTSHORTCUT_CID
 }
-#
-endif
 {
 "
 mozilla

@@ -5,12 +5,6 @@ __mozilla_widget_TaskbarWindowPreview_h__
 define
 __mozilla_widget_TaskbarWindowPreview_h__
 #
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_WIN7
-#
 include
 "
 nsITaskbarWindowPreview
@@ -243,7 +237,5 @@ TaskbarPreviewButton
 ;
 }
 }
-#
-endif
 #
 endif

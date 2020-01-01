@@ -5,12 +5,6 @@ __WinTaskbar_h__
 define
 __WinTaskbar_h__
 #
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_WIN7
-#
 include
 <
 windows
@@ -98,7 +92,5 @@ mTaskbar
 ;
 }
 }
-#
-endif
 #
 endif
