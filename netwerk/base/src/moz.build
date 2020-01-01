@@ -421,11 +421,6 @@ nsUnicharStreamLoader
 .
 cpp
 '
-'
-Seer
-.
-cpp
-'
 ]
 if
 CONFIG

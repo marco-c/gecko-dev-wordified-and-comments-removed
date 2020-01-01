@@ -358,16 +358,6 @@ nsINetworkProperties
 idl
 '
 '
-nsINetworkSeer
-.
-idl
-'
-'
-nsINetworkSeerVerifier
-.
-idl
-'
-'
 nsIParentChannel
 .
 idl
