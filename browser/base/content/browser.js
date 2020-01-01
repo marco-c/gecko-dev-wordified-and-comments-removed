@@ -18484,13 +18484,13 @@ customizeDone
 (
 )
 ;
-UpdateUrlbarSearchSplitterState
-(
-)
-;
 CombinedStopReload
 .
 init
+(
+)
+;
+UpdateUrlbarSearchSplitterState
 (
 )
 ;
