@@ -112,7 +112,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 nsXULTreeGridRowAccessible
-nsAccessible
+nsXULTreeItemAccessibleBase
 )
 virtual
 void
@@ -273,6 +273,11 @@ aColumn
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
+(
+nsXULTreeGridCellAccessible
+nsLeafAccessible
+)
 NS_IMETHOD
 GetFocusedChild
 (

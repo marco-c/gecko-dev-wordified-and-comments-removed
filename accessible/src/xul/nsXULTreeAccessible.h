@@ -406,6 +406,11 @@ aRow
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
+(
+nsXULTreeItemAccessibleBase
+nsAccessibleWrap
+)
 NS_IMETHOD
 GetFocusedChild
 (
@@ -672,6 +677,12 @@ PRInt32
 aRow
 )
 ;
+NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
+(
+nsXULTreeItemAccessible
+nsXULTreeItemAccessibleBase
+)
 NS_IMETHOD
 GetName
 (
