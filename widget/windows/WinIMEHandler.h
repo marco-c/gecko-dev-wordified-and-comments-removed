@@ -28,6 +28,9 @@ h
 class
 nsWindow
 ;
+struct
+nsIMEUpdatePreference
+;
 namespace
 mozilla
 {
@@ -111,6 +114,12 @@ uint32_t
 aOldEnd
 uint32_t
 aNewEnd
+)
+;
+static
+nsIMEUpdatePreference
+GetUpdatePreference
+(
 )
 ;
 static

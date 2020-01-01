@@ -925,17 +925,12 @@ OnIMESelectionChange
 void
 )
 ;
-#
-ifdef
-NS_ENABLE_TSF
 virtual
 nsIMEUpdatePreference
 GetIMEUpdatePreference
 (
 )
 ;
-#
-endif
 NS_IMETHOD
 GetNonClientMargins
 (
