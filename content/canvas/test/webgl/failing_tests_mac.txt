@@ -99,15 +99,6 @@ line
 html
 conformance
 /
-programs
-/
-program
--
-test
-.
-html
-conformance
-/
 reading
 /
 read
