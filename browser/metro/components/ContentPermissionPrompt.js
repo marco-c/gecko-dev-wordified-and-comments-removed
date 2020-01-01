@@ -74,15 +74,6 @@ geolocation
 geolocation2
 "
 "
-desktop
--
-notification
-"
-:
-"
-desktopNotification
-"
-"
 indexedDB
 "
 :
