@@ -11066,6 +11066,14 @@ rt
 >
 Collect
 (
+js
+:
+:
+gcreason
+:
+:
+CC_FORCED
+nsGCNormal
 )
 ;
 #

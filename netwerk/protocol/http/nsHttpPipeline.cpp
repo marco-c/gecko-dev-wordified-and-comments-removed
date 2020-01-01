@@ -365,7 +365,6 @@ mConnection
 >
 ResumeSend
 (
-trans
 )
 ;
 }
@@ -474,9 +473,6 @@ nsHttpPipeline
 :
 ResumeSend
 (
-nsAHttpTransaction
-*
-trans
 )
 {
 if
@@ -489,7 +485,6 @@ mConnection
 >
 ResumeSend
 (
-trans
 )
 ;
 return
@@ -502,9 +497,6 @@ nsHttpPipeline
 :
 ResumeRecv
 (
-nsAHttpTransaction
-*
-trans
 )
 {
 NS_ASSERTION
@@ -536,7 +528,6 @@ mConnection
 >
 ResumeRecv
 (
-trans
 )
 ;
 }

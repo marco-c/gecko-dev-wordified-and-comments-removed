@@ -2085,6 +2085,16 @@ aNewParent
 =
 0
 ;
+virtual
+PRUint32
+GetGLFrameBufferFormat
+(
+)
+{
+return
+0
+;
+}
 protected
 :
 nsCOMPtr

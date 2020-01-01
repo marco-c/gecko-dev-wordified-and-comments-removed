@@ -17444,14 +17444,6 @@ SecurityInfo
 }
 if
 (
-gHttpHandler
--
->
-IsSpdyEnabled
-(
-)
-&
-&
 !
 mCachePump
 &
