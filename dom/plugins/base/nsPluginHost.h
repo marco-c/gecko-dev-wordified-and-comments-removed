@@ -261,8 +261,10 @@ nsPluginHost
 )
 ;
 static
+already_AddRefed
+<
 nsPluginHost
-*
+>
 GetInst
 (
 )

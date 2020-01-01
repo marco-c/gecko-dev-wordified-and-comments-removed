@@ -1838,8 +1838,10 @@ nsIObserver
 nsITimerCallback
 nsISupportsWeakReference
 )
+already_AddRefed
+<
 nsPluginHost
-*
+>
 nsPluginHost
 :
 :
