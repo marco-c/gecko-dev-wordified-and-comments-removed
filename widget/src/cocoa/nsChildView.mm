@@ -7199,7 +7199,7 @@ NSFunctionKeyMask
 }
 }
 ;
-void
+nsresult
 nsChildView
 :
 :
@@ -7221,7 +7221,7 @@ nsAString
 aUnmodifiedCharacters
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
 ;
 NS_ASSERTION
 (
@@ -7429,7 +7429,10 @@ gOverrideKeyboardLayout
 currentLayout
 ;
 }
-NS_OBJC_END_TRY_ABORT_BLOCK
+return
+NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 #

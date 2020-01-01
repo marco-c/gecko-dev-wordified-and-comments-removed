@@ -1249,7 +1249,7 @@ TearDownView
 )
 ;
 virtual
-void
+nsresult
 SynthesizeNativeKeyEvent
 (
 PRInt32
