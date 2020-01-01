@@ -1682,7 +1682,7 @@ return
 true
 ;
 }
-long
+NPBool
 v
 =
 value
