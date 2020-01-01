@@ -3185,6 +3185,7 @@ function
 BStore_createRecord
 (
 guid
+cryptoMetaURL
 )
 {
 let
@@ -3606,6 +3607,12 @@ getItemIndex
 (
 placeId
 )
+;
+record
+.
+encryption
+=
+cryptoMetaURL
 ;
 this
 .

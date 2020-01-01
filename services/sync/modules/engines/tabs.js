@@ -1298,6 +1298,7 @@ function
 TabStore_createRecord
 (
 id
+cryptoMetaURL
 )
 {
 this
@@ -1386,6 +1387,12 @@ record
 id
 =
 id
+;
+record
+.
+encryption
+=
+cryptoMetaURL
 ;
 return
 record

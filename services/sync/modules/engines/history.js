@@ -2372,6 +2372,7 @@ function
 HistStore_createRecord
 (
 guid
+cryptoMetaURL
 )
 {
 let
@@ -2431,6 +2432,12 @@ record
 .
 histUri
 )
+;
+record
+.
+encryption
+=
+cryptoMetaURL
 ;
 }
 else
