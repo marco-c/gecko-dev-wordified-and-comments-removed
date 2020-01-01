@@ -3,16 +3,6 @@ test
 (
 )
 {
-if
-(
-"
-nsILocalFileMac
-"
-in
-Ci
-)
-return
-;
 waitForExplicitFinish
 (
 )
