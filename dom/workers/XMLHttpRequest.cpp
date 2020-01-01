@@ -5707,9 +5707,9 @@ JSObject
 *
 aGlobal
 const
-Optional
+Nullable
 <
-jsval
+MozXMLHttpRequestParametersWorkers
 >
 &
 aParams
