@@ -7327,6 +7327,11 @@ placespopup
 "
 true
 "
+tooltip
+=
+"
+bhTooltip
+"
 popupsinherittooltip
 =
 "
