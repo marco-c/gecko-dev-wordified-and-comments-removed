@@ -3882,7 +3882,10 @@ font
 )
 ;
 return
-PR_TRUE
+NS_SUCCEEDED
+(
+rv
+)
 ;
 }
 static
