@@ -211,16 +211,6 @@ nsRect
 }
 #
 endif
-nsRect
-&
-ExtendForScaling
-(
-float
-aXMult
-float
-aYMult
-)
-;
 inline
 nsRect
 ConvertAppUnitsRoundOut
