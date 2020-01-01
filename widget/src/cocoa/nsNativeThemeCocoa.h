@@ -110,7 +110,7 @@ aRect
 const
 nsRect
 &
-aClipRect
+aDirtyRect
 )
 ;
 NS_IMETHOD
