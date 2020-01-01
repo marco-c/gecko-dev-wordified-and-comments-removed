@@ -6389,7 +6389,7 @@ JSContext
 *
 cx
 uint32
-u
+index
 )
 {
 if
@@ -6399,7 +6399,7 @@ JSAtom
 :
 hasUintStatic
 (
-u
+index
 )
 )
 return
@@ -6409,7 +6409,7 @@ JSAtom
 :
 uintStatic
 (
-u
+index
 )
 ;
 JSCompartment
@@ -6435,7 +6435,7 @@ dtoaCache
 lookup
 (
 10
-u
+index
 )
 )
 return
@@ -6527,9 +6527,14 @@ cp
 0
 '
 ;
+uint32
+u
+=
+index
+;
 do
 {
-jsuint
+uint32
 newu
 =
 u
@@ -6587,7 +6592,7 @@ dtoaCache
 cache
 (
 10
-u
+index
 str
 )
 ;
