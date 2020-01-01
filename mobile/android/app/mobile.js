@@ -6665,3 +6665,15 @@ useAudioChannelService
 true
 )
 ;
+pref
+(
+"
+security
+.
+csp
+.
+speccompliant
+"
+true
+)
+;
