@@ -1222,7 +1222,7 @@ s
 -
 >
 hdl
-cubeb_onmove
+sndio_onmove
 s
 )
 ;
@@ -1505,7 +1505,7 @@ s
 >
 th
 NULL
-cubeb_mainloop
+sndio_mainloop
 s
 )
 ;
