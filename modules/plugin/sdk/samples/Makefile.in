@@ -417,7 +417,6 @@ mk
 DIRS
 =
 common
-simple
 ifeq
 (
 (
