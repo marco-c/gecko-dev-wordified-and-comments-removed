@@ -4,6 +4,9 @@ nsPIListBoxObject_h__
 #
 define
 nsPIListBoxObject_h__
+class
+nsListBoxBodyFrame
+;
 #
 define
 NS_PILISTBOXOBJECT_IID
@@ -44,7 +47,7 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 NS_PILISTBOXOBJECT_IID
 )
 virtual
-nsIListBoxObject
+nsListBoxBodyFrame
 *
 GetListBoxBody
 (

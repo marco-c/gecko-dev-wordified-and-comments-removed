@@ -88,7 +88,7 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSILISTBOXOBJECT
 virtual
-nsIListBoxObject
+nsListBoxBodyFrame
 *
 GetListBoxBody
 (
@@ -114,7 +114,7 @@ ClearCachedValues
 ;
 protected
 :
-nsIListBoxObject
+nsListBoxBodyFrame
 *
 mListBoxBody
 ;
@@ -151,7 +151,7 @@ PRInt32
 aResult
 )
 {
-nsIListBoxObject
+nsListBoxBodyFrame
 *
 body
 =
@@ -188,7 +188,7 @@ PRInt32
 aResult
 )
 {
-nsIListBoxObject
+nsListBoxBodyFrame
 *
 body
 =
@@ -225,7 +225,7 @@ PRInt32
 aResult
 )
 {
-nsIListBoxObject
+nsListBoxBodyFrame
 *
 body
 =
@@ -261,7 +261,7 @@ PRInt32
 aRowIndex
 )
 {
-nsIListBoxObject
+nsListBoxBodyFrame
 *
 body
 =
@@ -297,7 +297,7 @@ PRInt32
 aRowIndex
 )
 {
-nsIListBoxObject
+nsListBoxBodyFrame
 *
 body
 =
@@ -333,7 +333,7 @@ PRInt32
 aNumLines
 )
 {
-nsIListBoxObject
+nsListBoxBodyFrame
 *
 body
 =
@@ -373,7 +373,7 @@ nsIDOMElement
 _retval
 )
 {
-nsIListBoxObject
+nsListBoxBodyFrame
 *
 body
 =
@@ -419,7 +419,7 @@ aResult
 =
 0
 ;
-nsIListBoxObject
+nsListBoxBodyFrame
 *
 body
 =
@@ -591,7 +591,7 @@ break
 }
 }
 }
-nsIListBoxObject
+nsListBoxBodyFrame
 *
 nsListBoxObject
 :
@@ -733,7 +733,7 @@ yeahBaby
 return
 nsnull
 ;
-nsIListBoxObject
+nsListBoxBodyFrame
 *
 listBoxBody
 =
@@ -751,14 +751,7 @@ NS_ENSURE_TRUE
 listBoxBody
 &
 &
-static_cast
-<
-nsListBoxBodyFrame
-*
->
-(
 listBoxBody
-)
 -
 >
 SetBoxObject
