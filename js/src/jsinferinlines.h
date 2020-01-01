@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+PodOperations
+.
+h
+"
+#
+include
+"
 jsarray
 .
 h
@@ -3807,6 +3816,9 @@ AllocationSiteKey
 (
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this
@@ -5816,6 +5828,9 @@ newValues
 return
 NULL
 ;
+mozilla
+:
+:
 PodZero
 (
 newValues
@@ -6095,6 +6110,9 @@ return
 NULL
 ;
 }
+mozilla
+:
+:
 PodZero
 (
 values
@@ -7512,6 +7530,9 @@ bool
 unknown
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this

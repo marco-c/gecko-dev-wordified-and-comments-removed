@@ -7,6 +7,15 @@ jsion_coderef_h__
 #
 include
 "
+mozilla
+/
+PodOperations
+.
+h
+"
+#
+include
+"
 IonTypes
 .
 h
@@ -2172,6 +2181,9 @@ IonScriptCounts
 (
 )
 {
+mozilla
+:
+:
 PodZero
 (
 this
