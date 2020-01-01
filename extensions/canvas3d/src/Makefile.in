@@ -767,6 +767,8 @@ DEFINES
 -
 DXPCOM_GLUE
 -
+DXPCOM_GLUE_USE_NSPR
+-
 DGLEW_MX
 -
 DGLEW_STATIC
@@ -775,7 +777,6 @@ EXTRA_DSO_LIBS
 =
 js3250
 xpcom
-nspr4
 xpcom_core
 unicharutil_s
 #
@@ -886,6 +887,12 @@ MOZ_CAIRO_CFLAGS
 (
 TK_CFLAGS
 )
+EXTRA_DSO_LIBS
++
+=
+(
+NSPR_LIBS
+)
 ifdef
 MOZ_X11
 endif
@@ -903,6 +910,9 @@ opengl32
 .
 lib
 glu32
+.
+lib
+usp10
 .
 lib
 endif
