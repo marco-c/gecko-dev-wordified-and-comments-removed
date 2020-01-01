@@ -182,6 +182,14 @@ peer_pid
 ;
 }
 ;
+enum
+Side
+{
+Parent
+Child
+Unknown
+}
+;
 public
 :
 AsyncChannel
@@ -208,6 +216,10 @@ MessageLoop
 aIOLoop
 =
 0
+Side
+aSide
+=
+Unknown
 )
 ;
 void
