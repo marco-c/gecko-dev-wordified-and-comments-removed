@@ -6205,6 +6205,7 @@ obj
 #
 ifdef
 DEBUG
+JS_REQUIRES_STACK
 void
 tprint
 (
@@ -6224,6 +6225,7 @@ insa
 ]
 )
 ;
+JS_REQUIRES_STACK
 void
 tprint
 (
@@ -6233,6 +6235,7 @@ char
 format
 )
 ;
+JS_REQUIRES_STACK
 void
 tprint
 (
@@ -6248,6 +6251,7 @@ LIns
 ins
 )
 ;
+JS_REQUIRES_STACK
 void
 tprint
 (
@@ -6269,6 +6273,7 @@ LIns
 ins2
 )
 ;
+JS_REQUIRES_STACK
 void
 tprint
 (
@@ -6296,6 +6301,7 @@ LIns
 ins3
 )
 ;
+JS_REQUIRES_STACK
 void
 tprint
 (
@@ -6329,6 +6335,7 @@ LIns
 ins4
 )
 ;
+JS_REQUIRES_STACK
 void
 tprint
 (
@@ -6368,6 +6375,7 @@ LIns
 ins5
 )
 ;
+JS_REQUIRES_STACK
 void
 tprint
 (
