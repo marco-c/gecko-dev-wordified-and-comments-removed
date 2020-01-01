@@ -121,6 +121,15 @@ static
 PRBool
 SelectorListMatches
 (
+mozilla
+:
+:
+dom
+:
+:
+Element
+*
+aElement
 RuleProcessorData
 &
 aData
