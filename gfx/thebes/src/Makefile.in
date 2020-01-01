@@ -376,9 +376,6 @@ MOZ_PANGO_LIBS
 ZLIB_LIBS
 )
 (
-MOZ_XFT_LIBS
-)
-(
 XLDFLAGS
 )
 (
@@ -454,9 +451,6 @@ EXTRA_DSO_LDOPTS
 ZLIB_LIBS
 )
 (
-MOZ_XFT_LIBS
-)
-(
 XLDFLAGS
 )
 (
@@ -518,12 +512,6 @@ CAIRO_FT_LIBS
 )
 -
 lfontconfig
--
-lpangocairo
--
-1
-.
-0
 endif
 ifeq
 (
