@@ -148,7 +148,7 @@ class
 DeviceManager
 :
     
-logcatNeedsRoot
+_logcatNeedsRoot
 =
 True
     
@@ -1965,11 +1965,16 @@ def
 getIP
 (
 self
-conn_type
+interfaces
 =
+[
 '
 eth0
 '
+'
+wlan0
+'
+]
 )
 :
         
@@ -1995,6 +2000,12 @@ exists
 "
 "
         
+for
+interface
+in
+interfaces
+:
+            
 match
 =
 re
@@ -2014,7 +2025,8 @@ S
 )
 "
 %
-conn_type
+interface
+                             
 self
 .
 shellCheckOutput
@@ -2023,15 +2035,15 @@ shellCheckOutput
 '
 ifconfig
 '
-conn_type
+interface
 ]
 )
 )
-        
+            
 if
 match
 :
-            
+                
 return
 match
 .
@@ -2883,7 +2895,7 @@ root
 =
 self
 .
-logcatNeedsRoot
+_logcatNeedsRoot
 )
     
 def
@@ -2997,7 +3009,7 @@ root
 =
 self
 .
-logcatNeedsRoot
+_logcatNeedsRoot
 )
 .
 split

@@ -11,6 +11,8 @@ re
 import
 os
 import
+shutil
+import
 tempfile
 import
 time
@@ -20,6 +22,48 @@ DeviceManagerADB
 DeviceManager
 )
 :
+    
+_haveRootShell
+=
+False
+    
+_haveSu
+=
+False
+    
+_useRunAs
+=
+False
+    
+_useDDCopy
+=
+False
+    
+_useZip
+=
+False
+    
+_logcatNeedsRoot
+=
+False
+    
+_pollingInterval
+=
+0
+.
+01
+    
+_packageName
+=
+None
+    
+_tempDir
+=
+None
+    
+default_timeout
+=
+300
     
 def
 __init__
@@ -77,93 +121,19 @@ retrylimit
         
 self
 .
-retries
-=
-0
-        
-self
-.
-_sock
-=
-None
-        
-self
-.
-haveRootShell
-=
-False
-        
-self
-.
-haveSu
-=
-False
-        
-self
-.
-useRunAs
-=
-False
-        
-self
-.
-useDDCopy
-=
-False
-        
-self
-.
-useZip
-=
-False
-        
-self
-.
-logcatNeedsRoot
-=
-False
-        
-self
-.
-packageName
-=
-None
-        
-self
-.
-tempDir
-=
-None
-        
-self
-.
 deviceRoot
 =
 deviceRoot
         
 self
 .
-default_timeout
-=
-300
-        
-self
-.
-pollingInterval
-=
-0
-.
-01
-        
-self
-.
-adbPath
+_adbPath
 =
 adbPath
         
 self
 .
-deviceSerial
+_deviceSerial
 =
 deviceSerial
         
@@ -189,7 +159,7 @@ USER
                 
 self
 .
-packageName
+_packageName
 =
 '
 org
@@ -213,7 +183,7 @@ else
                 
 self
 .
-packageName
+_packageName
 =
 '
 org
@@ -229,7 +199,7 @@ packageName
             
 self
 .
-packageName
+_packageName
 =
 packageName
         
@@ -415,12 +385,12 @@ and
 not
 self
 .
-haveRootShell
+_haveRootShell
 and
 not
 self
 .
-haveSu
+_haveSu
 :
             
 raise
@@ -484,7 +454,7 @@ and
 not
 self
 .
-haveRootShell
+_haveRootShell
 :
             
 cmdline
@@ -608,13 +578,13 @@ args
 [
 self
 .
-adbPath
+_adbPath
 ]
         
 if
 self
 .
-deviceSerial
+_deviceSerial
 :
             
 args
@@ -628,7 +598,7 @@ s
 '
 self
 .
-deviceSerial
+_deviceSerial
 ]
 )
         
@@ -725,7 +695,7 @@ sleep
 (
 self
 .
-pollingInterval
+_pollingInterval
 )
             
 ret_code
@@ -988,7 +958,7 @@ destname
 if
 self
 .
-useRunAs
+_useRunAs
 :
             
 remoteTmpFile
@@ -1035,7 +1005,7 @@ remoteTmpFile
 if
 self
 .
-useDDCopy
+_useDDCopy
 :
                 
 self
@@ -1244,7 +1214,7 @@ x
 if
 self
 .
-useZip
+_useZip
 :
             
 try
@@ -1415,7 +1385,7 @@ push
                 
 self
 .
-useZip
+_useZip
 =
 False
                 
@@ -1430,41 +1400,15 @@ remoteDir
 else
 :
             
-for
-root
-dirs
-files
-in
-os
-.
-walk
-(
-localDir
-followlinks
+tmpDir
 =
-True
-)
-:
-                
-relRoot
-=
-os
+tempfile
 .
-path
-.
-relpath
+mkdtemp
 (
-root
-localDir
 )
-                
-for
-f
-in
-files
-:
-                    
-localFile
+            
+tmpDirTarget
 =
 os
 .
@@ -1472,95 +1416,38 @@ path
 .
 join
 (
-root
-f
+tmpDir
+"
+tmp
+"
 )
-                    
-remoteFile
-=
-remoteDir
-+
-"
-/
-"
-                    
-if
-relRoot
-!
-=
-"
+            
+shutil
 .
-"
-:
-                        
-remoteFile
-=
-remoteFile
-+
-relRoot
-+
-"
-/
-"
-                    
-remoteFile
-=
-remoteFile
-+
-f
-                    
+copytree
+(
+localDir
+tmpDirTarget
+)
+            
 self
 .
-pushFile
+_checkCmd
 (
-localFile
-remoteFile
-)
-                
-for
-d
-in
-dirs
-:
-                    
-targetDir
-=
+[
+"
+push
+"
+tmpDirTarget
 remoteDir
-+
-"
-/
-"
-                    
-if
-relRoot
-!
-=
-"
+]
+)
+            
+shutil
 .
-"
-:
-                        
-targetDir
-=
-targetDir
-+
-relRoot
-+
-"
-/
-"
-                    
-targetDir
-=
-targetDir
-+
-d
-                    
-self
-.
-mkDir
+rmtree
 (
-targetDir
+tmpDir
 )
     
 def
@@ -3120,7 +3007,7 @@ exist
 and
 self
 .
-useRunAs
+_useRunAs
 )
 :
                         
@@ -3958,12 +3845,12 @@ if
 not
 self
 .
-tempDir
+_tempDir
 :
             
 self
 .
-tempDir
+_tempDir
 =
 self
 .
@@ -3982,13 +3869,13 @@ mkDir
 (
 self
 .
-tempDir
+_tempDir
 )
         
 return
 self
 .
-tempDir
+_tempDir
     
 def
 getAppRoot
@@ -4068,7 +3955,7 @@ packageName
             
 self
 .
-packageName
+_packageName
 =
 packageName
             
@@ -4087,7 +3974,7 @@ elif
 (
 self
 .
-packageName
+_packageName
 and
 self
 .
@@ -4103,7 +3990,7 @@ data
 +
 self
 .
-packageName
+_packageName
 )
 )
 :
@@ -4119,7 +4006,7 @@ data
 +
 self
 .
-packageName
+_packageName
         
 raise
 DMError
@@ -5265,13 +5152,13 @@ finalArgs
 [
 self
 .
-adbPath
+_adbPath
 ]
         
 if
 self
 .
-deviceSerial
+_deviceSerial
 :
             
 finalArgs
@@ -5285,7 +5172,7 @@ s
 '
 self
 .
-deviceSerial
+_deviceSerial
 ]
 )
         
@@ -5293,12 +5180,14 @@ if
 not
 self
 .
-haveRootShell
+_haveRootShell
 and
 self
 .
-useRunAs
+_useRunAs
 and
+\
+                
 args
 [
 0
@@ -5313,13 +5202,18 @@ args
 [
 1
 ]
-!
-=
+not
+in
+[
 "
 run
 -
 as
 "
+"
+am
+"
+]
 :
             
 args
@@ -5341,7 +5235,7 @@ insert
 2
 self
 .
-packageName
+_packageName
 )
         
 finalArgs
@@ -5390,7 +5284,7 @@ adb
 If
 self
 .
-useRunAs
+_useRunAs
 is
 True
 the
@@ -5404,7 +5298,7 @@ specified
 in
 self
 .
-packageName
+_packageName
         
 returns
 :
@@ -5421,7 +5315,7 @@ Popen
 if
 self
 .
-useRunAs
+_useRunAs
 :
             
 args
@@ -5443,7 +5337,7 @@ insert
 2
 self
 .
-packageName
+_packageName
 )
         
 return
@@ -5515,13 +5409,13 @@ finalArgs
 [
 self
 .
-adbPath
+_adbPath
 ]
         
 if
 self
 .
-deviceSerial
+_deviceSerial
 :
             
 finalArgs
@@ -5535,7 +5429,7 @@ s
 '
 self
 .
-deviceSerial
+_deviceSerial
 ]
 )
         
@@ -5543,12 +5437,14 @@ if
 not
 self
 .
-haveRootShell
+_haveRootShell
 and
 self
 .
-useRunAs
+_useRunAs
 and
+\
+                
 args
 [
 0
@@ -5563,13 +5459,18 @@ args
 [
 1
 ]
-!
-=
+not
+in
+[
 "
 run
 -
 as
 "
+"
+am
+"
+]
 :
             
 args
@@ -5591,7 +5492,7 @@ insert
 2
 self
 .
-packageName
+_packageName
 )
         
 finalArgs
@@ -5672,7 +5573,7 @@ sleep
 (
 self
 .
-pollingInterval
+_pollingInterval
 )
             
 ret_code
@@ -5741,7 +5642,7 @@ finish
 If
 self
 .
-useRunAs
+_useRunAs
 is
 True
 the
@@ -5755,7 +5656,7 @@ specified
 in
 self
 .
-packageName
+_packageName
         
 If
 timeout
@@ -5787,7 +5688,7 @@ if
 (
 self
 .
-useRunAs
+_useRunAs
 )
 :
             
@@ -5810,7 +5711,7 @@ insert
 2
 self
 .
-packageName
+_packageName
 )
         
 return
@@ -6029,7 +5930,7 @@ executed
 if
 self
 .
-adbPath
+_adbPath
 !
 =
 '
@@ -6045,7 +5946,7 @@ access
 (
 self
 .
-adbPath
+_adbPath
 os
 .
 X_OK
@@ -6069,7 +5970,7 @@ s
 "
 self
 .
-adbPath
+_adbPath
 )
         
 try
@@ -6161,7 +6062,7 @@ self
 if
 self
 .
-deviceSerial
+_deviceSerial
 :
             
 deviceStatus
@@ -6177,7 +6078,7 @@ Popen
 [
 self
 .
-adbPath
+_adbPath
 "
 devices
 "
@@ -6234,7 +6135,7 @@ m
 if
 self
 .
-deviceSerial
+_deviceSerial
 =
 =
 m
@@ -6275,7 +6176,7 @@ s
 %
 self
 .
-deviceSerial
+_deviceSerial
 )
             
 elif
@@ -6305,7 +6206,7 @@ s
 (
 self
 .
-deviceSerial
+_deviceSerial
 deviceStatus
 )
 )
@@ -6477,7 +6378,7 @@ replacement
                 
 self
 .
-useDDCopy
+_useDDCopy
 =
 True
                 
@@ -6515,7 +6416,7 @@ self
         
 self
 .
-useRunAs
+_useRunAs
 =
 False
         
@@ -6531,7 +6432,7 @@ if
 (
 self
 .
-packageName
+_packageName
 and
 self
 .
@@ -6568,7 +6469,7 @@ as
 "
 self
 .
-packageName
+_packageName
 "
 mkdir
 "
@@ -6662,7 +6563,7 @@ tmpfile
 if
 self
 .
-useDDCopy
+_useDDCopy
 :
                 
 self
@@ -6680,7 +6581,7 @@ as
 "
 self
 .
-packageName
+_packageName
 "
 dd
 "
@@ -6729,7 +6630,7 @@ as
 "
 self
 .
-packageName
+_packageName
 "
 cp
 "
@@ -6779,11 +6680,11 @@ as
 +
 self
 .
-packageName
+_packageName
                 
 self
 .
-useRunAs
+_useRunAs
 =
 True
             
@@ -6824,7 +6725,7 @@ as
 "
 self
 .
-packageName
+_packageName
 "
 rm
 "
@@ -6895,7 +6796,7 @@ root
             
 self
 .
-haveRootShell
+_haveRootShell
 =
 True
             
@@ -7006,7 +6907,7 @@ root
             
 self
 .
-haveSu
+_haveSu
 =
 True
     
@@ -7115,7 +7016,7 @@ self
         
 self
 .
-useZip
+_useZip
 =
 False
         
@@ -7147,7 +7048,7 @@ directories
             
 self
 .
-useZip
+_useZip
 =
 True
         

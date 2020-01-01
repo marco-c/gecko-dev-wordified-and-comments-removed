@@ -1974,7 +1974,7 @@ self
 .
 _devicemanager
 .
-useDDCopy
+_useDDCopy
 :
                 
 self
@@ -3526,7 +3526,7 @@ self
 .
 _devicemanager
 .
-useDDCopy
+_useDDCopy
 :
             
 self

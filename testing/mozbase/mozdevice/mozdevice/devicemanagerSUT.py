@@ -46,13 +46,13 @@ debug
 =
 2
     
-base_prompt
+_base_prompt
 =
 '
 >
 '
     
-base_prompt_re
+_base_prompt_re
 =
 '
 \
@@ -60,14 +60,14 @@ base_prompt_re
 >
 '
     
-prompt_sep
+_prompt_sep
 =
 '
 \
 x00
 '
     
-prompt_regex
+_prompt_regex
 =
 '
 .
@@ -75,15 +75,15 @@ prompt_regex
 (
 '
 +
-base_prompt_re
+_base_prompt_re
 +
-prompt_sep
+_prompt_sep
 +
 '
 )
 '
     
-agentErrorRE
+_agentErrorRE
 =
 re
 .
@@ -370,7 +370,7 @@ compile
 (
 self
 .
-prompt_regex
+_prompt_regex
 +
 '
 .
@@ -431,7 +431,7 @@ split
 (
 self
 .
-prompt_sep
+_prompt_sep
 )
                     
 index
@@ -456,7 +456,7 @@ line
 =
 self
 .
-prompt_sep
+_prompt_sep
 .
 join
 (
@@ -845,7 +845,7 @@ compile
 (
 self
 .
-prompt_regex
+_prompt_regex
 +
 '
 '
@@ -1627,7 +1627,7 @@ errorMatch
 =
 self
 .
-agentErrorRE
+_agentErrorRE
 .
 match
 (
@@ -3116,6 +3116,9 @@ split
 (
 )
                 
+try
+:
+                    
 if
 (
 len
@@ -3127,7 +3130,7 @@ pidproc
 2
 )
 :
-                    
+                        
 processTuples
 +
 =
@@ -3143,7 +3146,7 @@ pidproc
 ]
 ]
 ]
-                
+                    
 elif
 (
 len
@@ -3155,7 +3158,7 @@ pidproc
 3
 )
 :
-                    
+                        
 processTuples
 +
 =
@@ -3181,6 +3184,70 @@ pidproc
 )
 ]
 ]
+                    
+else
+:
+                        
+raise
+ValueError
+                
+except
+ValueError
+:
+                    
+print
+"
+ERROR
+:
+Unable
+to
+parse
+process
+list
+(
+bug
+805969
+)
+"
+                    
+print
+"
+Line
+:
+%
+s
+\
+nFull
+output
+of
+process
+list
+:
+\
+n
+%
+s
+"
+%
+(
+line
+data
+)
+                    
+raise
+DMError
+(
+"
+Invalid
+process
+line
+:
+%
+s
+"
+%
+line
+)
         
 return
 processTuples
@@ -4082,11 +4149,11 @@ prompt
 =
 self
 .
-base_prompt
+_base_prompt
 +
 self
 .
-prompt_sep
+_prompt_sep
         
 buf
 =
