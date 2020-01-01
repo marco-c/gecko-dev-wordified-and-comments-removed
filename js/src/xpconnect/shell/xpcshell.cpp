@@ -8462,11 +8462,16 @@ return
 1
 ;
 }
+#
+ifdef
+MOZ_ENABLE_LIBXUL
 xpc_LocalizeContext
 (
 cx
 )
 ;
+#
+endif
 nsCOMPtr
 <
 nsIXPConnect
