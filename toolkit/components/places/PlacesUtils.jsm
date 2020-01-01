@@ -6265,6 +6265,7 @@ aData
 .
 charset
 )
+{
 this
 .
 history
@@ -6284,6 +6285,7 @@ aData
 charset
 )
 ;
+}
 if
 (
 aData

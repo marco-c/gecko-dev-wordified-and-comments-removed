@@ -11763,6 +11763,10 @@ if
 (
 !
 mMIMEInfo
+&
+&
+!
+mPrivate
 )
 {
 nsCOMPtr

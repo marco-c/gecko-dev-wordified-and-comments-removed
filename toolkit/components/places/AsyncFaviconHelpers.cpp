@@ -2159,6 +2159,15 @@ canAddToHistory
 !
 !
 canAddToHistory
+&
+&
+aFaviconLoadType
+!
+=
+nsIFaviconService
+:
+:
+FAVICON_LOAD_PRIVATE
 ;
 IconData
 icon

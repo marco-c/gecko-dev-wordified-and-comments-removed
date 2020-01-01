@@ -102,6 +102,10 @@ browser_colorAnalyzer
 .
 js
 \
+browser_favicon_privatebrowsing
+.
+js
+\
 browser_notfound
 .
 js
@@ -293,6 +297,16 @@ sjs
 visituri
 /
 final
+.
+html
+\
+favicon
+-
+normal32
+.
+png
+\
+favicon
 .
 html
 \

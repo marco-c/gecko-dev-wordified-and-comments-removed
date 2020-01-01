@@ -439,12 +439,6 @@ nsACString
 aName
 )
 ;
-bool
-InPrivateBrowsingMode
-(
-)
-const
-;
 public
 :
 nsresult
