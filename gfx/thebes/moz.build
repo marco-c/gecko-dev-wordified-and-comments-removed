@@ -148,6 +148,11 @@ gfxColor
 h
 '
 '
+gfxColorManagement
+.
+h
+'
+'
 gfxContext
 .
 h
@@ -1172,6 +1177,11 @@ cpp
 '
 '
 gfxCachedTempSurface
+.
+cpp
+'
+'
+gfxColorManagement
 .
 cpp
 '
