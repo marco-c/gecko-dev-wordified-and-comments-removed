@@ -5611,10 +5611,7 @@ gfx
 Margin
 &
 aFixedLayerMargins
-gfx
-:
-:
-Point
+ScreenPoint
 &
 aOffset
 )
@@ -5813,10 +5810,7 @@ gfx
 Margin
 &
 aFixedLayerMargins
-gfx
-:
-:
-Point
+ScreenPoint
 &
 aOffset
 )

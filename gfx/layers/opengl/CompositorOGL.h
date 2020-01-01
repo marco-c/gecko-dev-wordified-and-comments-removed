@@ -400,10 +400,7 @@ void
 SetScreenRenderOffset
 (
 const
-gfx
-:
-:
-Point
+ScreenPoint
 &
 aOffset
 )
@@ -617,10 +614,7 @@ mGLContext
 nsIntSize
 mSurfaceSize
 ;
-gfx
-:
-:
-Point
+ScreenPoint
 mRenderOffset
 ;
 class
