@@ -413,6 +413,11 @@ now
 (
 )
 ;
+const
+fuzzySpan
+=
+250
+;
 confirmNextInstall
 (
 )
@@ -480,6 +485,8 @@ ok
 app
 .
 installTime
++
+fuzzySpan
 >
 =
 beforehand
@@ -507,6 +514,8 @@ Date
 now
 (
 )
++
+fuzzySpan
 "
 install
 time
