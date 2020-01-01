@@ -235,10 +235,6 @@ JSParseNode
 *
 pn_next
 ;
-JSTokenStream
-*
-pn_ts
-;
 }
 ;
 #

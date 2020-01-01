@@ -250,9 +250,6 @@ js_NewRegExpOpt
 JSContext
 *
 cx
-JSTokenStream
-*
-ts
 JSString
 *
 str

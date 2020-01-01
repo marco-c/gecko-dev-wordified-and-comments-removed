@@ -6020,7 +6020,6 @@ re
 js_NewRegExpOpt
 (
 cx
-NULL
 src
 opt
 (

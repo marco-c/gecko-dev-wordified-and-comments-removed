@@ -723,6 +723,9 @@ js_ParseNodeToXMLObject
 JSContext
 *
 cx
+JSParseContext
+*
+pc
 JSParseNode
 *
 pn
