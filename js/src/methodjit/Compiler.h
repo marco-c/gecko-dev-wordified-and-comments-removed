@@ -1426,6 +1426,11 @@ leaveBlock
 )
 ;
 void
+jsop_eval
+(
+)
+;
+void
 jsop_binary
 (
 JSOp
