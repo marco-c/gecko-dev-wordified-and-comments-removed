@@ -701,6 +701,16 @@ type
 "
 places
 "
+showRoot
+=
+"
+true
+"
+seltype
+=
+"
+single
+"
 place
 =
 "
