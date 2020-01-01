@@ -4152,6 +4152,14 @@ MOZ_DELETE
 ;
 }
 ;
+static
+const
+jsbytecode
+EnableInterruptsPseudoOpcode
+=
+-
+1
+;
 class
 InterpreterFrameIterator
 ;
@@ -4177,7 +4185,7 @@ FrameRegs
 &
 regs_
 ;
-int
+jsbytecode
 *
 const
 switchMask_
@@ -4204,7 +4212,7 @@ entry
 FrameRegs
 &
 regs
-int
+jsbytecode
 *
 const
 switchMask
@@ -4302,8 +4310,7 @@ enableInterruptsUnconditionally
 *
 switchMask_
 =
--
-1
+EnableInterruptsPseudoOpcode
 ;
 }
 }
