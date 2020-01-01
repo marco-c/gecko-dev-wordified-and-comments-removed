@@ -64,13 +64,7 @@ static
 bool
 IsMozBR
 (
-mozilla
-:
-:
-dom
-:
-:
-Element
+nsINode
 *
 aNode
 )
