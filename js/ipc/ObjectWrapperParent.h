@@ -427,6 +427,9 @@ static
 bool
 JSObject_to_PObjectWrapperParent
 (
+JSContext
+*
+cx
 JSObject
 *
 from
