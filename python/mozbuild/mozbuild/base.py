@@ -980,12 +980,6 @@ topobjdir
         
 topobjdir
 =
-os
-.
-path
-.
-normpath
-(
 config
 [
 '
@@ -993,6 +987,20 @@ topobjdir
 '
 ]
 or
+topobjdir
+        
+if
+topobjdir
+:
+            
+topobjdir
+=
+os
+.
+path
+.
+normpath
+(
 topobjdir
 )
         
