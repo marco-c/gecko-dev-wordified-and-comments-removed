@@ -1594,7 +1594,7 @@ PR_FALSE
 ;
 }
 static
-PRIntn
+PRBool
 TraverseProtos
 (
 nsHashKey
@@ -1648,7 +1648,7 @@ kHashEnumerateNext
 ;
 }
 static
-PRIntn
+PRBool
 UnlinkProtoJSObjects
 (
 nsHashKey
@@ -1699,7 +1699,7 @@ mClosure
 }
 ;
 static
-PRIntn
+PRBool
 TraceProtos
 (
 nsHashKey

@@ -1285,7 +1285,7 @@ equal
 ;
 }
 static
-PRIntn
+PRBool
 TraverseInsertionPoint
 (
 nsHashKey
