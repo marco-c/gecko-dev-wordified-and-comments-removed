@@ -750,7 +750,7 @@ float
 dx
 -
 >
-AppUnitsPerPhysicalInch
+AppUnitsPerInch
 (
 )
 )

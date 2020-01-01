@@ -346,14 +346,11 @@ static
 float
 GetMMPerPixel
 (
+nsIFrame
+*
+aNonSVGFrame
 )
-{
-return
-MM_PER_INCH_FLOAT
-/
-96
 ;
-}
 float
 GetAxisLength
 (

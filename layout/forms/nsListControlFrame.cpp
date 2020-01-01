@@ -855,7 +855,6 @@ aBuilder
 )
 nsDisplaySolidColor
 (
-aBuilder
 this
 nsRect
 (

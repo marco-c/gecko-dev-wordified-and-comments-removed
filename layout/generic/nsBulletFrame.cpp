@@ -638,9 +638,6 @@ public
 :
 nsDisplayBullet
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsBulletFrame
 *
 aFrame
@@ -648,7 +645,6 @@ aFrame
 :
 nsDisplayItem
 (
-aBuilder
 aFrame
 )
 {
@@ -756,8 +752,12 @@ PaintBullet
 (
 *
 aCtx
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 mVisibleRect
 )
@@ -816,7 +816,6 @@ aBuilder
 )
 nsDisplayBullet
 (
-aBuilder
 this
 )
 )

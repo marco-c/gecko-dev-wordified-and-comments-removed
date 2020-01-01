@@ -360,7 +360,6 @@ aBuilder
 )
 nsDisplayGeneric
 (
-aBuilder
 this
 PaintCheckedRadioButton
 "

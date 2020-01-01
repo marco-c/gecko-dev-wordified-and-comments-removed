@@ -368,9 +368,6 @@ public
 :
 nsDisplayMathMLError
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsIFrame
 *
 aFrame
@@ -378,7 +375,6 @@ aFrame
 :
 nsDisplayItem
 (
-aBuilder
 aFrame
 )
 {
@@ -457,8 +453,12 @@ GetStyleContext
 nsPoint
 pt
 =
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 ;
 aCtx
@@ -2429,7 +2429,6 @@ aBuilder
 )
 nsDisplayMathMLError
 (
-aBuilder
 this
 )
 )

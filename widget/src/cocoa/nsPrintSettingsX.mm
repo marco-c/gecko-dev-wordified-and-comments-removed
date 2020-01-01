@@ -716,7 +716,7 @@ mUnwriteableMargin
 .
 top
 =
-NS_POINTS_TO_INT_TWIPS
+NS_POINTS_TO_TWIPS
 (
 paperMargin
 .
@@ -727,7 +727,7 @@ mUnwriteableMargin
 .
 left
 =
-NS_POINTS_TO_INT_TWIPS
+NS_POINTS_TO_TWIPS
 (
 paperMargin
 .
@@ -738,7 +738,7 @@ mUnwriteableMargin
 .
 bottom
 =
-NS_POINTS_TO_INT_TWIPS
+NS_POINTS_TO_TWIPS
 (
 paperMargin
 .
@@ -749,7 +749,7 @@ mUnwriteableMargin
 .
 right
 =
-NS_POINTS_TO_INT_TWIPS
+NS_POINTS_TO_TWIPS
 (
 paperMargin
 .

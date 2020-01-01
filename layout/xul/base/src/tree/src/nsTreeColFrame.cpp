@@ -220,9 +220,6 @@ public
 :
 nsDisplayXULTreeColSplitterTarget
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsIFrame
 *
 aFrame
@@ -230,7 +227,6 @@ aFrame
 :
 nsDisplayItem
 (
-aBuilder
 aFrame
 )
 {
@@ -319,8 +315,12 @@ rect
 =
 aRect
 -
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 ;
 PRBool
@@ -583,7 +583,6 @@ aBuilder
 )
 nsDisplayXULTreeColSplitterTarget
 (
-aBuilder
 this
 )
 )

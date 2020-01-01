@@ -980,8 +980,12 @@ mFrame
 nsPoint
 offset
 =
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 ;
 nsRect
@@ -1069,9 +1073,6 @@ public
 :
 nsDisplayCanvasFocus
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsCanvasFrame
 *
 aFrame
@@ -1079,7 +1080,6 @@ aFrame
 :
 nsDisplayItem
 (
-aBuilder
 aFrame
 )
 {
@@ -1131,8 +1131,12 @@ CanvasArea
 (
 )
 +
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 ;
 }
@@ -1168,8 +1172,12 @@ PaintFocus
 (
 *
 aCtx
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 )
 ;
@@ -1259,7 +1267,6 @@ aBuilder
 )
 nsDisplayCanvasBackground
 (
-aBuilder
 this
 )
 )
@@ -1539,7 +1546,6 @@ aBuilder
 )
 nsDisplayCanvasFocus
 (
-aBuilder
 this
 )
 )

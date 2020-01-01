@@ -3096,7 +3096,7 @@ nsSize
 mPresContext
 -
 >
-CSSTwipsToAppUnits
+TwipsToAppUnits
 (
 NSToIntFloor
 (
@@ -3106,7 +3106,7 @@ pageWidth
 mPresContext
 -
 >
-CSSTwipsToAppUnits
+TwipsToAppUnits
 (
 NSToIntFloor
 (
@@ -13974,7 +13974,7 @@ float
 mDeviceContext
 -
 >
-AppUnitsPerCSSInch
+AppUnitsPerInch
 (
 )
 )
@@ -14304,7 +14304,7 @@ float
 mDeviceContext
 -
 >
-AppUnitsPerCSSInch
+AppUnitsPerInch
 (
 )
 )
@@ -14820,10 +14820,15 @@ deadSpaceGapTwips
 nscoord
 deadSpaceGap
 =
-nsPresContext
-:
-:
-CSSTwipsToAppUnits
+seqFrame
+-
+>
+PresContext
+(
+)
+-
+>
+TwipsToAppUnits
 (
 deadSpaceGapTwips
 )

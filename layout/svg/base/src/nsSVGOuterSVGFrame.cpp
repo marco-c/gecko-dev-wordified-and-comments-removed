@@ -1698,9 +1698,6 @@ public
 :
 nsDisplaySVG
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsSVGOuterSVGFrame
 *
 aFrame
@@ -1708,7 +1705,6 @@ aFrame
 :
 nsDisplayItem
 (
-aBuilder
 aFrame
 )
 {
@@ -1822,8 +1818,12 @@ rectAtOrigin
 =
 aRect
 -
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 ;
 nsRect
@@ -1952,8 +1952,12 @@ Paint
 *
 aCtx
 mVisibleRect
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 )
 ;
@@ -2303,7 +2307,6 @@ aBuilder
 )
 nsDisplaySVG
 (
-aBuilder
 this
 )
 )

@@ -423,7 +423,7 @@ PresContext
 )
 -
 >
-CSSTwipsToAppUnits
+TwipsToAppUnits
 (
 NS_INCHES_TO_TWIPS
 (
@@ -478,10 +478,12 @@ mHeadFootFont
 >
 size
 =
-nsPresContext
-:
-:
-CSSPointsToAppUnits
+PresContext
+(
+)
+-
+>
+PointsToAppUnits
 (
 10
 )
@@ -839,7 +841,7 @@ mMargin
 aPresContext
 -
 >
-CSSTwipsToAppUnits
+TwipsToAppUnits
 (
 marginTwips
 +
@@ -882,7 +884,7 @@ edgeTwips
 PRInt32
 inchInTwips
 =
-NS_INCHES_TO_INT_TWIPS
+NS_INCHES_TO_TWIPS
 (
 3
 .
@@ -961,7 +963,7 @@ mEdgePaperMargin
 aPresContext
 -
 >
-CSSTwipsToAppUnits
+TwipsToAppUnits
 (
 edgeTwips
 +
@@ -1058,7 +1060,7 @@ extraGap
 aPresContext
 -
 >
-CSSTwipsToAppUnits
+TwipsToAppUnits
 (
 gapInTwips
 )
@@ -1092,7 +1094,7 @@ deadSpaceGap
 aPresContext
 -
 >
-CSSTwipsToAppUnits
+TwipsToAppUnits
 (
 gapInTwips
 )
@@ -2741,7 +2743,7 @@ float
 dc
 -
 >
-AppUnitsPerCSSInch
+AppUnitsPerInch
 (
 )
 )
@@ -3346,7 +3348,6 @@ aBuilder
 )
 nsDisplayGeneric
 (
-aBuilder
 this
 :
 :

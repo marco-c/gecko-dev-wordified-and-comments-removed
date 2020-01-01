@@ -244,9 +244,6 @@ public
 :
 nsDisplayXULGroupBackground
 (
-nsDisplayListBuilder
-*
-aBuilder
 nsGroupBoxFrame
 *
 aFrame
@@ -254,7 +251,6 @@ aFrame
 :
 nsDisplayItem
 (
-aBuilder
 aFrame
 )
 {
@@ -362,8 +358,12 @@ PaintBorderBackground
 (
 *
 aCtx
+aBuilder
+-
+>
 ToReferenceFrame
 (
+mFrame
 )
 mVisibleRect
 )
@@ -414,7 +414,6 @@ aBuilder
 )
 nsDisplayXULGroupBackground
 (
-aBuilder
 this
 )
 )

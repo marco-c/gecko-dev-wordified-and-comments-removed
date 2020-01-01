@@ -1345,7 +1345,7 @@ kInitSaveMargins
 PRInt32
 halfInch
 =
-NS_INCHES_TO_INT_TWIPS
+NS_INCHES_TO_TWIPS
 (
 0
 .
@@ -6121,7 +6121,7 @@ errCode
 {
 aTwips
 =
-NS_INCHES_TO_INT_TWIPS
+NS_INCHES_TO_TWIPS
 (
 inches
 )
@@ -6274,7 +6274,7 @@ rv
 {
 aTwips
 =
-NS_INCHES_TO_INT_TWIPS
+NS_INCHES_TO_TWIPS
 (
 float
 (

@@ -385,12 +385,6 @@ GetParent
 )
 ;
 virtual
-float
-GetDPI
-(
-)
-;
-virtual
 nsresult
 SetParent
 (

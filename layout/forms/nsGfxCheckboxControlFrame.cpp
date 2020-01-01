@@ -577,7 +577,6 @@ aBuilder
 )
 nsDisplayGeneric
 (
-aBuilder
 this
 IsIndeterminate
 (

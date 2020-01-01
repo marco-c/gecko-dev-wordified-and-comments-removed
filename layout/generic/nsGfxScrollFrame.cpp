@@ -6554,11 +6554,12 @@ GetVisibleRect
 (
 )
 -
-item
+aBuilder
 -
 >
 ToReferenceFrame
 (
+f
 )
 )
 ;
@@ -7481,7 +7482,6 @@ aBuilder
 )
 nsDisplayOwnLayer
 (
-aBuilder
 aSourceFrame
 aSource
 )

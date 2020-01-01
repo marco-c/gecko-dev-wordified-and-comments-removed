@@ -507,10 +507,12 @@ scriptSpace
 =
 NS_MAX
 (
-nsPresContext
-:
-:
-CSSPointsToAppUnits
+PresContext
+(
+)
+-
+>
+PointsToAppUnits
 (
 0
 .

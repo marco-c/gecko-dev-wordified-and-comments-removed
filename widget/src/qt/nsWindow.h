@@ -343,12 +343,6 @@ GetParent
 void
 )
 ;
-virtual
-float
-GetDPI
-(
-)
-;
 NS_IMETHOD
 Show
 (
