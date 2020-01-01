@@ -4200,12 +4200,16 @@ MSG_DEF
 (
 JSMSG_JSON_BAD_PARSE
 228
-0
+1
 JSEXN_SYNTAXERR
 "
 JSON
 .
 parse
+:
+{
+0
+}
 "
 )
 MSG_DEF
