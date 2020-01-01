@@ -376,7 +376,12 @@ GetFormControls
 (
 )
 ;
-NS_DECL_NSIDOMDOCUMENT
+NS_FORWARD_NSIDOMDOCUMENT
+(
+nsDocument
+:
+:
+)
 NS_FORWARD_NSIDOMNODE
 (
 nsDocument
