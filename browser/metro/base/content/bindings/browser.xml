@@ -5026,6 +5026,14 @@ _active
 =
 val
 ;
+this
+.
+docShellIsActive
+=
+this
+.
+_active
+;
 ]
 ]
 >
