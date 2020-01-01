@@ -17007,9 +17007,6 @@ case
 WM_SYSDEADCHAR
 :
 case
-WM_CONTEXTMENU
-:
-case
 WM_CUT
 :
 case
