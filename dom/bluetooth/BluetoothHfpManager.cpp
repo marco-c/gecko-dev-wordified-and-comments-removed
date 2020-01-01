@@ -941,13 +941,6 @@ Init
 )
 )
 {
-manager
--
->
-Cleanup
-(
-)
-;
 return
 nullptr
 ;
@@ -1523,7 +1516,7 @@ gInShutdown
 =
 true
 ;
-Cleanup
+CloseSocket
 (
 )
 ;
