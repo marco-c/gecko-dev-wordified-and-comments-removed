@@ -7,6 +7,13 @@ mozilla_system_volumecommand_h__
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 mozilla
 /
 RefPtr
