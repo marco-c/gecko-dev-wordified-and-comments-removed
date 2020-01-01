@@ -656,7 +656,7 @@ tests
 =
 img
 -
-blobBuilder
+blobURI
 -
 1
 .
@@ -670,7 +670,7 @@ html
 =
 img
 -
-blobBuilder
+blobURI
 -
 2
 .
