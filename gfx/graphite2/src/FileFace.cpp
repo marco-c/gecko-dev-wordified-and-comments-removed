@@ -12,13 +12,13 @@ FileFace
 .
 h
 "
+#
+ifndef
+GRAPHITE2_NFILEFACE
 using
 namespace
 graphite2
 ;
-#
-ifndef
-GRAPHITE2_NFILEFACE
 FileFace
 :
 :
