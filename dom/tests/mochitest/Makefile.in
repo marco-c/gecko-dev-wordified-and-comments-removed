@@ -455,8 +455,6 @@ sessionstorage
 \
 storageevent
 \
-indexeddb
-\
 (
 NULL
 )

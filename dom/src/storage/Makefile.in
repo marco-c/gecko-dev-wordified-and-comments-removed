@@ -440,10 +440,6 @@ nsDOMStorageMemoryDB
 .
 cpp
 \
-IDBRequest
-.
-cpp
-\
 (
 NULL
 )

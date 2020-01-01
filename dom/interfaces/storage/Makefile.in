@@ -480,14 +480,6 @@ nsIDOMStorageWindow
 .
 idl
 \
-nsIIndexedDatabaseRequest
-.
-idl
-\
-nsIIDBRequest
-.
-idl
-\
 (
 NULL
 )
