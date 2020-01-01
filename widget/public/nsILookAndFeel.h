@@ -128,8 +128,6 @@ eColor__moz_menuhovertext
 eColor__moz_menubarhovertext
 eColor__moz_eventreerow
 eColor__moz_oddtreerow
-eColor__moz_mac_chrome_active
-eColor__moz_mac_chrome_inactive
 eColor__moz_mac_focusring
 eColor__moz_mac_menuselect
 eColor__moz_mac_menushadow

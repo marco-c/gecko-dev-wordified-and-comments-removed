@@ -1196,8 +1196,6 @@ eCSSKeyword__moz_win_browsertabbar_toolbox
 NS_THEME_WIN_BROWSER_TAB_BAR_TOOLBOX
 eCSSKeyword__moz_win_glass
 NS_THEME_WIN_GLASS
-eCSSKeyword__moz_mac_unified_toolbar
-NS_THEME_MOZ_MAC_UNIFIED_TOOLBAR
 eCSSKeyword_UNKNOWN
 -
 1
@@ -1807,16 +1805,6 @@ nsILookAndFeel
 :
 :
 eColor__moz_html_cellhighlighttext
-eCSSKeyword__moz_mac_chrome_active
-nsILookAndFeel
-:
-:
-eColor__moz_mac_chrome_active
-eCSSKeyword__moz_mac_chrome_inactive
-nsILookAndFeel
-:
-:
-eColor__moz_mac_chrome_inactive
 eCSSKeyword__moz_mac_focusring
 nsILookAndFeel
 :
