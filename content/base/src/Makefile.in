@@ -173,6 +173,10 @@ nsCSPService
 .
 cpp
 \
+nsCxPusher
+.
+cpp
+\
 nsDataDocumentContentPolicy
 .
 cpp

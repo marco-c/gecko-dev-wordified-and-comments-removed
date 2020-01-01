@@ -258,6 +258,11 @@ nsCopySupport
 h
 '
 '
+nsCxPusher
+.
+h
+'
+'
 nsDOMFile
 .
 h
