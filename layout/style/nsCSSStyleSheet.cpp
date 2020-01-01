@@ -228,6 +228,13 @@ nsMediaFeatures
 .
 h
 "
+#
+include
+"
+nsDOMClassInfoID
+.
+h
+"
 namespace
 css
 =

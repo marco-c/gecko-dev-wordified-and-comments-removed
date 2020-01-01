@@ -19,6 +19,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsDOMClassInfoID
+.
+h
+"
 nsSVGRect
 :
 :

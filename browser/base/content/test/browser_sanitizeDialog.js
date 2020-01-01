@@ -2382,7 +2382,7 @@ principal
 =
 sm
 .
-getCodebasePrincipal
+getNoAppCodebasePrincipal
 (
 URI
 )

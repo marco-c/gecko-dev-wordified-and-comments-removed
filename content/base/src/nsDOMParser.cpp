@@ -1123,7 +1123,7 @@ rv
 secMan
 -
 >
-GetCodebasePrincipal
+GetSimpleCodebasePrincipal
 (
 mDocumentURI
 getter_AddRefs

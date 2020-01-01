@@ -219,7 +219,9 @@ CreateTab
 PRUint32
 aChromeFlags
 bool
-aIsBrowserFrame
+aIsBrowserElement
+PRUint32
+aAppId
 )
 ;
 void
@@ -419,7 +421,11 @@ aChromeFlags
 const
 bool
 &
-aIsBrowserFrame
+aIsBrowserElement
+const
+PRUint32
+&
+aAppId
 )
 ;
 virtual

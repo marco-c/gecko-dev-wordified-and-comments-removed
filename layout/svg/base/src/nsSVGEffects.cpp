@@ -943,7 +943,7 @@ NS_FRAME_IN_REFLOW
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 mFrame
 )

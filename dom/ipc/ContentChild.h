@@ -196,7 +196,11 @@ aChromeFlags
 const
 bool
 &
-aIsBrowserFrame
+aIsBrowserElement
+const
+PRUint32
+&
+aAppId
 )
 ;
 virtual

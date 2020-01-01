@@ -104,6 +104,13 @@ h
 #
 include
 "
+nsDOMClassInfoID
+.
+h
+"
+#
+include
+"
 mozAutoDocUpdate
 .
 h

@@ -4695,10 +4695,6 @@ LayerOGL
 (
 aManager
 )
-mUploadTask
-(
-nsnull
-)
 {
 #
 ifdef

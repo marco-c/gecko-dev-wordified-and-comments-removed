@@ -109,6 +109,9 @@ class
 nsIThread
 ;
 class
+nsIURI
+;
+class
 nsUrlClassifierDBService
 MOZ_FINAL
 :
@@ -195,9 +198,9 @@ nsUrlClassifierDBService
 nsresult
 LookupURI
 (
-nsIURI
+nsIPrincipal
 *
-uri
+aPrincipal
 nsIUrlClassifierCallback
 *
 c

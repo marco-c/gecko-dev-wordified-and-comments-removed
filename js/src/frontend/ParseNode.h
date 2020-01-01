@@ -4981,6 +4981,12 @@ parent
 Bindings
 bindings
 ;
+size_t
+bufStart
+;
+size_t
+bufEnd
+;
 uint16_t
 level
 ;

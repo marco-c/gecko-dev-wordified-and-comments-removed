@@ -150,7 +150,7 @@ aDirtyRect
 ;
 virtual
 void
-UpdateBounds
+ReflowSVG
 (
 )
 ;

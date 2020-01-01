@@ -323,10 +323,6 @@ nsWyciwygChannel
 (
 )
 :
-PrivateBrowsingConsumer
-(
-this
-)
 mStatus
 (
 NS_OK
@@ -343,7 +339,7 @@ mNeedToWriteCharset
 (
 false
 )
-mPrivate
+mPrivateBrowsing
 (
 false
 )
@@ -902,6 +898,13 @@ mProgressSink
 )
 )
 ;
+mPrivateBrowsing
+=
+NS_UsePrivateBrowsing
+(
+this
+)
+;
 return
 NS_OK
 ;
@@ -1301,12 +1304,6 @@ rv
 )
 return
 rv
-;
-mPrivate
-=
-UsePrivateBrowsing
-(
-)
 ;
 return
 mCacheIOTarget
@@ -2394,7 +2391,7 @@ storagePolicy
 ;
 if
 (
-mPrivate
+mPrivateBrowsing
 |
 |
 mLoadFlags
@@ -2427,7 +2424,7 @@ char
 *
 sessionName
 =
-mPrivate
+mPrivateBrowsing
 ?
 "
 wyciwyg
@@ -2468,7 +2465,7 @@ cacheSession
 >
 SetIsPrivate
 (
-mPrivate
+mPrivateBrowsing
 )
 ;
 if

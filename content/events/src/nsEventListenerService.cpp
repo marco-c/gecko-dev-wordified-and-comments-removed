@@ -115,6 +115,13 @@ h
 "
 #
 endif
+#
+include
+"
+nsDOMClassInfoID
+.
+h
+"
 NS_IMPL_CYCLE_COLLECTION_1
 (
 nsEventListenerInfo

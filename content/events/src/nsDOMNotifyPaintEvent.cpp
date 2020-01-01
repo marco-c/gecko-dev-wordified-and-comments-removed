@@ -51,6 +51,13 @@ nsIFrame
 .
 h
 "
+#
+include
+"
+nsDOMClassInfoID
+.
+h
+"
 nsDOMNotifyPaintEvent
 :
 :

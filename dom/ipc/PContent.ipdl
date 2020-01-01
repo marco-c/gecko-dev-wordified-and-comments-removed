@@ -531,7 +531,9 @@ PBrowser
 PRUint32
 chromeFlags
 bool
-isBrowserFrame
+isBrowserElement
+PRUint32
+appId
 )
 ;
 child

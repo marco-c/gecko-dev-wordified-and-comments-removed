@@ -1434,6 +1434,12 @@ Open
 nsIFile
 *
 cacheDirectory
+nsDiskCache
+:
+:
+CorruptCacheInfo
+*
+corruptInfo
 )
 ;
 nsresult
@@ -1764,6 +1770,12 @@ private
 nsresult
 OpenBlockFiles
 (
+nsDiskCache
+:
+:
+CorruptCacheInfo
+*
+corruptInfo
 )
 ;
 nsresult

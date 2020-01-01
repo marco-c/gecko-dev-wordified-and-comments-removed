@@ -2742,6 +2742,17 @@ svg
 ^
 bug
 621651
+fuzzy
+-
+if
+(
+cocoaWidget
+&
+&
+layersGPUAccelerated
+1
+2
+)
 =
 =
 anim

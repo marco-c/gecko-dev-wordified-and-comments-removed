@@ -626,12 +626,6 @@ mPump
 ;
 nsCOMPtr
 <
-nsIInterfaceRequestor
->
-mCallbacks
-;
-nsCOMPtr
-<
 nsIProgressEventSink
 >
 mProgressSink
@@ -700,6 +694,12 @@ nsCOMPtr
 nsILoadGroup
 >
 mLoadGroup
+;
+nsCOMPtr
+<
+nsIInterfaceRequestor
+>
+mCallbacks
 ;
 nsCOMPtr
 <

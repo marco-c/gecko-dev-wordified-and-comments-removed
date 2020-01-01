@@ -140,13 +140,6 @@ h
 #
 include
 "
-nsDOMPopStateEvent
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Preferences
@@ -178,6 +171,13 @@ h
 include
 "
 nsIScrollableFrame
+.
+h
+"
+#
+include
+"
+nsDOMClassInfoID
 .
 h
 "

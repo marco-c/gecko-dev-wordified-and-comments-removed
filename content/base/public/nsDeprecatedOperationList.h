@@ -162,7 +162,3 @@ DEPRECATED_OPERATION
 (
 MozSlice
 )
-DEPRECATED_OPERATION
-(
-Onuploadprogress
-)

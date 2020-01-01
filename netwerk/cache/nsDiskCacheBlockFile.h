@@ -11,6 +11,13 @@ nsIFile
 .
 h
 "
+#
+include
+"
+nsDiskCache
+.
+h
+"
 class
 nsDiskCacheBlockFile
 {
@@ -70,6 +77,12 @@ PRUint32
 blockSize
 PRUint32
 bitMapSize
+nsDiskCache
+:
+:
+CorruptCacheInfo
+*
+corruptInfo
 )
 ;
 nsresult
