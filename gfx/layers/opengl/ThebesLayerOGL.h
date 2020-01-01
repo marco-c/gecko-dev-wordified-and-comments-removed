@@ -151,9 +151,9 @@ mInvalidatedRect
 ;
 nsRefPtr
 <
-gfxImageSurface
+gfxASurface
 >
-mSoftwareSurface
+mDestinationSurface
 ;
 nsRefPtr
 <
