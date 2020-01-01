@@ -21368,13 +21368,6 @@ pn
 ;
 }
 else
-if
-(
-opn
--
->
-pn_defn
-)
 {
 pn
 -
@@ -21383,6 +21376,14 @@ pn_expr
 =
 NULL
 ;
+if
+(
+opn
+-
+>
+pn_defn
+)
+{
 pn
 -
 >
@@ -21419,6 +21420,7 @@ opn
 tc
 )
 ;
+}
 }
 return
 pn
