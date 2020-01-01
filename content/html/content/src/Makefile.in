@@ -302,6 +302,10 @@ HTMLTextAreaElement
 .
 h
 \
+HTMLTimeElement
+.
+h
+\
 HTMLTitleElement
 .
 h
@@ -549,6 +553,10 @@ HTMLTableSectionElement
 cpp
 \
 HTMLTextAreaElement
+.
+cpp
+\
+HTMLTimeElement
 .
 cpp
 \
