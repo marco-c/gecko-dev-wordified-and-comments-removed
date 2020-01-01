@@ -4966,7 +4966,6 @@ IsZeroWidthUnicodeChar
 PRUnichar
 aChar
 )
-const
 {
 return
 aChar
