@@ -1919,15 +1919,6 @@ nsString
 aFontList
 )
 ;
-static
-nsresult
-MakeUniqueUserFontName
-(
-nsAString
-&
-aName
-)
-;
 }
 ;
 class
