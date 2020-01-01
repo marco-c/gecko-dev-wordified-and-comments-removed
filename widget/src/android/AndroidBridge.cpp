@@ -3093,7 +3093,7 @@ aFullScreen
 mJNIEnv
 -
 >
-CallStaticIntMethod
+CallStaticVoidMethod
 (
 mGeckoAppShellClass
 jSetFullScreen
