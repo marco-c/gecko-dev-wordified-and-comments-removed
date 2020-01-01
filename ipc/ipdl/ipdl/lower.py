@@ -5544,6 +5544,32 @@ msg
 ]
 )
         
+reterror
+=
+cxx
+.
+StmtReturn
+(
+cxx
+.
+ExprVar
+(
+'
+MsgNotKnown
+'
+)
+)
+        
+if
+self
+.
+asyncswitch
+.
+nr_cases
+>
+1
+:
+            
 asynchandler
 .
 addstmt
@@ -5551,6 +5577,16 @@ addstmt
 self
 .
 asyncswitch
+)
+        
+else
+:
+            
+asynchandler
+.
+addstmt
+(
+reterror
 )
         
 cls
@@ -5614,6 +5650,16 @@ reply
 ]
 )
             
+if
+self
+.
+syncswitch
+.
+nr_cases
+>
+1
+:
+                
 synchandler
 .
 addstmt
@@ -5621,6 +5667,16 @@ addstmt
 self
 .
 syncswitch
+)
+            
+else
+:
+                
+synchandler
+.
+addstmt
+(
+reterror
 )
             
 cls
@@ -5684,6 +5740,16 @@ reply
 ]
 )
                 
+if
+self
+.
+rpcswitch
+.
+nr_cases
+>
+1
+:
+                    
 rpchandler
 .
 addstmt
@@ -5691,6 +5757,16 @@ addstmt
 self
 .
 rpcswitch
+)
+                
+else
+:
+                    
+rpchandler
+.
+addstmt
+(
+reterror
 )
                 
 cls
