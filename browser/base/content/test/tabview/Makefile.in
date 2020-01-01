@@ -460,10 +460,6 @@ browser_tabview_bug587231
 .
 js
 \
-browser_tabview_bug587351
-.
-js
-\
 browser_tabview_bug587990
 .
 js
@@ -508,14 +504,6 @@ browser_tabview_bug595943
 .
 js
 \
-browser_tabview_bug596781
-.
-js
-\
-browser_tabview_bug597248
-.
-js
-\
 browser_tabview_bug597399
 .
 js
@@ -525,10 +513,6 @@ browser_tabview_bug598600
 js
 \
 browser_tabview_bug599626
-.
-js
-\
-browser_tabview_bug600645
 .
 js
 \
@@ -597,10 +581,6 @@ search2
 html
 \
 test_bug599626
-.
-html
-\
-test_bug600645
 .
 html
 \
