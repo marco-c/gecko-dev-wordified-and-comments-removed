@@ -1654,12 +1654,10 @@ tmp64
 aTicks
 )
 ;
-LL_MUL
-(
 bigone
-bigone
+*
+=
 tmp64
-)
 ;
 LL_UI2L
 (

@@ -211,12 +211,11 @@ intermediateResult
 seconds
 )
 ;
-LL_MUL
-(
 prTime
+=
 intermediateResult
+*
 microSecondsPerSecond
-)
 ;
 return
 prTime

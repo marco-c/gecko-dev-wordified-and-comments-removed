@@ -5359,12 +5359,11 @@ thousand
 PR_MSEC_PER_SEC
 )
 ;
-LL_MUL
-(
 temp64
+=
 lastModDate
+*
 thousand
-)
 ;
 mRDFService
 -

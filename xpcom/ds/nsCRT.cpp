@@ -779,12 +779,10 @@ str
 '
 )
 {
-LL_MUL
-(
 ll
-ll
+*
+=
 10
-)
 ;
 LL_UI2L
 (

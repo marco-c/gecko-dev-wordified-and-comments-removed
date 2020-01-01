@@ -939,13 +939,12 @@ int64_t
 retval
 )
 {
-LL_MUL
-(
 *
 retval
+=
 p1
+*
 p2
-)
 ;
 return
 NS_OK
