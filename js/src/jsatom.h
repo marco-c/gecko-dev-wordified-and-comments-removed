@@ -567,6 +567,7 @@ DECLARE_PROTO_STR
 define
 DECLARE_CONST_CHAR_STR
 (
+idpart
 id
 text
 )
@@ -576,7 +577,7 @@ char
 js_
 #
 #
-id
+idpart
 #
 #
 _str
