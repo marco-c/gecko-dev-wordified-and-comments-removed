@@ -646,6 +646,10 @@ browser_title
 .
 sjs
 \
+browser_thumbnails
+.
+js
+\
 browser_install
 .
 xml
