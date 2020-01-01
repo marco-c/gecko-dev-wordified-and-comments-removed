@@ -6643,6 +6643,11 @@ obj
 cache
 )
 ;
+bool
+addedSetterStub
+=
+false
+;
 if
 (
 inlinable
@@ -6687,6 +6692,10 @@ shape
 )
 return
 false
+;
+addedSetterStub
+=
+true
 ;
 }
 else
@@ -6753,6 +6762,10 @@ returnAddr
 return
 false
 ;
+addedSetterStub
+=
+true
+;
 }
 }
 }
@@ -6801,6 +6814,10 @@ false
 if
 (
 inlinable
+&
+&
+!
+addedSetterStub
 &
 &
 IsPropertyAddInlineable
