@@ -10,9 +10,11 @@ data
 import
 (
     
+ConfigFileSubstitution
+    
 DirectoryTraversal
     
-ConfigFileSubstitution
+VariablePassthru
     
 ReaderSummary
 )
@@ -364,6 +366,22 @@ path
             
 yield
 sub
+        
+passthru
+=
+VariablePassthru
+(
+sandbox
+)
+        
+if
+passthru
+.
+variables
+:
+            
+yield
+passthru
     
 def
 _emit_directory_traversal_from_sandbox
