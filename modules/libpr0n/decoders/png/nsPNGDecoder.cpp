@@ -491,6 +491,8 @@ CreateFrame
 -
 created
 image
+"
+"
 frame
 with
 %
@@ -1994,6 +1996,8 @@ qcms_profile_create_rgb_with_gamma
 whitePoint
 primaries
 1
+.
+0
 /
 gammaOfFile
 )
@@ -2394,6 +2398,11 @@ inType
 ;
 PRUint32
 intent
+=
+-
+1
+;
+PRUint32
 pIntent
 ;
 if
