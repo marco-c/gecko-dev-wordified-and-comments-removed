@@ -16663,6 +16663,13 @@ res
 return
 res
 ;
+arrayOfNodes
+.
+RemoveObject
+(
+brNode
+)
+;
 }
 res
 =
