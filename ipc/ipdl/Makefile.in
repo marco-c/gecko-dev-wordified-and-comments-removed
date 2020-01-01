@@ -440,13 +440,6 @@ endif
 -
 -
 -
-ifdef
-MOZ_IPDL_TESTS
-DIRS
-+
-=
-test
-endif
 vpath
 %
 .

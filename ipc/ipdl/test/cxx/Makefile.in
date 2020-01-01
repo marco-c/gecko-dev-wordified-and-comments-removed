@@ -75,10 +75,6 @@ config
 autoconf
 .
 mk
-TOOL_DIRS
-+
-=
-app
 MODULE
 =
 ipdlunittest
