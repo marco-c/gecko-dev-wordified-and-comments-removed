@@ -12790,6 +12790,12 @@ PRUint32
 aStopFlags
 )
 {
+mRestorePresentationEvent
+.
+Revoke
+(
+)
+;
 if
 (
 nsIWebNavigation
@@ -12800,12 +12806,6 @@ STOP_CONTENT
 aStopFlags
 )
 {
-mRestorePresentationEvent
-.
-Revoke
-(
-)
-;
 if
 (
 mContentViewer
