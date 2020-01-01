@@ -435,11 +435,6 @@ invalidRegion
 )
 ;
 nsresult
-ForceRedraw
-(
-)
-;
-nsresult
 GetMIMEType
 (
 const
