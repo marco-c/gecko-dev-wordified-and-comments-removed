@@ -1957,6 +1957,13 @@ CM_initMiscItems
 (
 )
 {
+var
+isTextSelected
+=
+this
+.
+isTextSelected
+;
 this
 .
 showItem
@@ -2028,8 +2035,6 @@ context
 -
 searchselect
 "
-this
-.
 isTextSelected
 )
 ;
@@ -2076,6 +2081,9 @@ sep
 this
 .
 inFrame
+&
+&
+isTextSelected
 )
 ;
 if
