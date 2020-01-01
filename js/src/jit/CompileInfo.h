@@ -92,9 +92,8 @@ enum
 ExecutionMode
 {
 SequentialExecution
-=
-0
 ParallelExecution
+DefinitePropertiesAnalysis
 }
 ;
 static

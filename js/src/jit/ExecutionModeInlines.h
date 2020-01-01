@@ -68,6 +68,9 @@ hasParallelIonScript
 (
 )
 ;
+default
+:
+;
 }
 MOZ_ASSUME_UNREACHABLE
 (
@@ -119,6 +122,9 @@ script
 maybeParallelIonScript
 (
 )
+;
+default
+:
 ;
 }
 MOZ_ASSUME_UNREACHABLE
@@ -178,6 +184,9 @@ ionScript
 ;
 return
 ;
+default
+:
+;
 }
 MOZ_ASSUME_UNREACHABLE
 (
@@ -225,6 +234,9 @@ JSScript
 offsetOfParallelIonScript
 (
 )
+;
+default
+:
 ;
 }
 MOZ_ASSUME_UNREACHABLE
@@ -276,6 +288,15 @@ script
 canParallelIonCompile
 (
 )
+;
+case
+DefinitePropertiesAnalysis
+:
+return
+true
+;
+default
+:
 ;
 }
 MOZ_ASSUME_UNREACHABLE
@@ -364,6 +385,9 @@ isParallelIonCompilingOffThread
 (
 )
 ;
+default
+:
+;
 }
 MOZ_ASSUME_UNREACHABLE
 (
@@ -413,6 +437,9 @@ script
 isParallelIonCompilingOffThread
 (
 )
+;
+default
+:
 ;
 }
 MOZ_ASSUME_UNREACHABLE
@@ -469,6 +496,9 @@ CompilerOutput
 :
 :
 ParallelIon
+;
+default
+:
 ;
 }
 MOZ_ASSUME_UNREACHABLE
