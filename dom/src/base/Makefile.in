@@ -662,6 +662,17 @@ offline
 -
 I
 (
+srcdir
+)
+/
+.
+.
+/
+geolocation
+\
+-
+I
+(
 topsrcdir
 )
 /

@@ -417,6 +417,7 @@ events
 storage
 offline
 json
+geolocation
 include
 (
 topsrcdir
