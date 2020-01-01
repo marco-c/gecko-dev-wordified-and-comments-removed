@@ -3525,9 +3525,6 @@ components
 AddonUpdateService
 .
 js
-#
-ifndef
-ANDROID
 BINPATH
 /
 components
@@ -3535,8 +3532,6 @@ components
 AlertsService
 .
 js
-#
-endif
 BINPATH
 /
 components
