@@ -2147,11 +2147,12 @@ public
 :
 OnLookupCompleteRunnable
 (
-nsMainThreadPtrHolder
+const
+nsMainThreadPtrHandle
 <
 nsIDNSListener
 >
-*
+&
 aListener
 nsICancelable
 *
