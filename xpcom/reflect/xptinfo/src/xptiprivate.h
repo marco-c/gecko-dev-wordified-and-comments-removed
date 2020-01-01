@@ -126,7 +126,7 @@ h
 #
 include
 "
-nsSupportsArray
+nsCOMArray
 .
 h
 "
@@ -4458,7 +4458,10 @@ PRLock
 *
 mAdditionalManagersLock
 ;
-nsSupportsArray
+nsCOMArray
+<
+nsISupports
+>
 mAdditionalManagers
 ;
 nsCOMPtr

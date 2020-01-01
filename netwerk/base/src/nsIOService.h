@@ -86,13 +86,6 @@ h
 #
 include
 "
-nsSupportsArray
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
