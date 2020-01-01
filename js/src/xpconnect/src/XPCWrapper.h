@@ -26,6 +26,15 @@ FLAG_RESOLVING
 0x4
 #
 define
+FLAG_IS_UXPC_OBJECT
+(
+1
+<
+<
+29
+)
+#
+define
 HAS_FLAGS
 (
 _val
@@ -172,6 +181,9 @@ cx
 JSObject
 *
 wrappedObj
+JSBool
+*
+privilegeEnabled
 )
 ;
 JSBool
@@ -834,6 +846,7 @@ CanAccessWrapper
 (
 cx
 wrapper
+nsnull
 )
 ;
 if
@@ -898,6 +911,7 @@ CanAccessWrapper
 (
 cx
 wrapper
+nsnull
 )
 ;
 if

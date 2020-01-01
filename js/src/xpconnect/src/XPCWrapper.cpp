@@ -189,6 +189,7 @@ CanAccessWrapper
 (
 cx
 wrappedObj
+nsnull
 )
 )
 )
