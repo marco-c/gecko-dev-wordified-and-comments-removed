@@ -489,7 +489,7 @@ mScx
 mScx
 -
 >
-GetNativeGlobal
+GetWindowProxy
 (
 )
 :

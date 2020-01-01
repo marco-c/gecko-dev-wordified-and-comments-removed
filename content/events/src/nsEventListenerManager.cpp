@@ -4301,7 +4301,7 @@ cx
 context
 -
 >
-GetNativeGlobal
+GetWindowProxy
 (
 )
 )

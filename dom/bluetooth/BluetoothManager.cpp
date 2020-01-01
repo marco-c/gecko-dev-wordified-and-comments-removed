@@ -339,7 +339,7 @@ cx
 sc
 -
 >
-GetNativeGlobal
+GetWindowProxy
 (
 )
 )
