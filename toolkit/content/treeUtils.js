@@ -867,10 +867,8 @@ view
 .
 selection
 .
-select
+clearSelection
 (
--
-1
 )
 ;
 aTree
