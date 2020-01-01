@@ -206,6 +206,10 @@ nsIRunnable
 .
 idl
 \
+nsICancelableRunnable
+.
+idl
+\
 nsIEnvironment
 .
 idl
