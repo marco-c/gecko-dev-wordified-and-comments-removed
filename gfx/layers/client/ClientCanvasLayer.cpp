@@ -366,7 +366,7 @@ mCanvasClient
 TextureFlags
 flags
 =
-0
+TEXTURE_IMMEDIATE_UPLOAD
 ;
 if
 (
