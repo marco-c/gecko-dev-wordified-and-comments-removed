@@ -2912,6 +2912,7 @@ Yarr
 :
 interpret
 (
+cx
 bytecode
 chars
 .
@@ -2958,6 +2959,7 @@ Yarr
 :
 interpret
 (
+cx
 bytecode
 chars
 .
@@ -3204,6 +3206,7 @@ Yarr
 :
 interpret
 (
+cx
 bytecode
 chars
 .

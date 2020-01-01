@@ -7,6 +7,13 @@ YarrInterpreter_h
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 YarrPattern
 .
 h
@@ -1294,6 +1301,9 @@ JS_EXPORT_PRIVATE
 unsigned
 interpret
 (
+JSContext
+*
+cx
 BytecodePattern
 *
 const
@@ -1310,6 +1320,9 @@ output
 unsigned
 interpret
 (
+JSContext
+*
+cx
 BytecodePattern
 *
 const
@@ -1328,6 +1341,9 @@ output
 unsigned
 interpret
 (
+JSContext
+*
+cx
 BytecodePattern
 *
 const
