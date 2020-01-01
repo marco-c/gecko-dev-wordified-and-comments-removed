@@ -3198,6 +3198,13 @@ funobj
 )
 ;
 }
+id
+=
+js_CheckForStringIndex
+(
+id
+)
+;
 const
 Shape
 *
