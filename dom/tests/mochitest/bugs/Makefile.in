@@ -800,6 +800,10 @@ file_bug593174_2
 .
 html
 \
+test_bug612267
+.
+html
+\
 (
 NULL
 )
