@@ -107,10 +107,6 @@ mk
 _BROWSER_FILES
 =
 \
-browser_thumbnails_cache
-.
-js
-\
 browser_thumbnails_capture
 .
 js
