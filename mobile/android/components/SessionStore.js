@@ -2918,7 +2918,6 @@ __SS_restore
 )
 return
 ;
-let
 aHistory
 =
 aHistory
