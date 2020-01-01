@@ -76,13 +76,6 @@ util
 DisplayMetrics
 ;
 import
-java
-.
-nio
-.
-ByteBuffer
-;
-import
 android
 .
 util
@@ -545,10 +538,6 @@ mScreenOrientation
 public
 int
 mNativeWindow
-;
-public
-ByteBuffer
-mBuffer
 ;
 public
 GeckoEvent

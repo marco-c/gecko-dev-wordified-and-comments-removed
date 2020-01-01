@@ -700,12 +700,8 @@ public
 void
 setCheckerboardBitmap
 (
-ByteBuffer
-data
-int
-width
-int
-height
+Bitmap
+bitmap
 RectF
 pageRect
 )
@@ -714,9 +710,7 @@ mCheckerboardLayer
 .
 setBitmap
 (
-data
-width
-height
+bitmap
 )
 ;
 mCheckerboardLayer
