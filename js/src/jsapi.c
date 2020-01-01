@@ -3711,6 +3711,11 @@ js_FinishAtomState
 rt
 )
 ;
+js_FinishDeflatedStringCache
+(
+rt
+)
+;
 js_FinishGC
 (
 rt

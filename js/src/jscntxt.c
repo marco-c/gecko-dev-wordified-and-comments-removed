@@ -1333,11 +1333,6 @@ js_FinishRuntimeScriptState
 rt
 )
 ;
-js_FinishDeflatedStringCache
-(
-rt
-)
-;
 free
 (
 rt
