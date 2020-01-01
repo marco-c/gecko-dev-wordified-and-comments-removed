@@ -8641,13 +8641,6 @@ rv
 return
 1
 ;
-xpc
--
->
-GetSafeJSContext
-(
-)
-;
 {
 JS
 :
