@@ -227,6 +227,13 @@ DidPaintWindow
 {
 }
 virtual
+void
+RequestRepaint
+(
+)
+{
+}
+virtual
 nsEventStatus
 HandleEvent
 (
