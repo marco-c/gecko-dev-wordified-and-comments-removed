@@ -295,6 +295,8 @@ obs
 addObserver
 (
 runInspectorTests
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -320,6 +322,8 @@ obs
 removeObserver
 (
 runInspectorTests
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -332,6 +336,8 @@ obs
 addObserver
 (
 treePanelTests
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 TREEPANELREADY
@@ -432,6 +438,8 @@ obs
 removeObserver
 (
 treePanelTests
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 TREEPANELREADY
@@ -444,6 +452,8 @@ obs
 addObserver
 (
 runContextMenuTest
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 CLOSED
@@ -496,6 +506,8 @@ obs
 removeObserver
 (
 runContextMenuTest
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 CLOSED
@@ -509,6 +521,8 @@ obs
 addObserver
 (
 inspectNodesFromContextTest
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -632,13 +646,22 @@ open
 ;
 is
 (
+!
 contextInspectMenuItem
 .
 hidden
-!
-InspectorUI
+gPrefService
+.
+getBoolPref
+(
+"
+devtools
+.
+inspector
 .
 enabled
+"
+)
 "
 is
 context
@@ -684,6 +707,8 @@ obs
 removeObserver
 (
 inspectNodesFromContextTest
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -697,6 +722,8 @@ obs
 addObserver
 (
 openInspectorForContextTest
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 CLOSED
@@ -790,6 +817,8 @@ obs
 removeObserver
 (
 openInspectorForContextTest
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 CLOSED
@@ -802,6 +831,8 @@ obs
 addObserver
 (
 inspectNodesFromContextTestWhileOpen
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -837,6 +868,8 @@ obs
 removeObserver
 (
 inspectNodesFromContextTestWhileOpen
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -849,6 +882,8 @@ obs
 addObserver
 (
 inspectNodesFromContextTestTrap
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -862,6 +897,8 @@ obs
 addObserver
 (
 inspectNodesFromContextTestHighlight
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING
@@ -934,6 +971,8 @@ obs
 removeObserver
 (
 inspectNodesFromContextTestHighlight
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING
@@ -946,6 +985,8 @@ obs
 addObserver
 (
 finishInspectorTests
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 CLOSED
@@ -996,6 +1037,8 @@ obs
 removeObserver
 (
 inspectNodesFromContextTestTrap
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -1034,6 +1077,8 @@ obs
 removeObserver
 (
 finishInspectorTests
+InspectorUI
+.
 INSPECTOR_NOTIFICATIONS
 .
 CLOSED
