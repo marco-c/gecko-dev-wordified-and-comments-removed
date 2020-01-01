@@ -2364,8 +2364,14 @@ init_error
 }
 gJavaXPCOMLock
 =
-PR_NewLock
+nsAutoLock
+:
+:
+NewLock
 (
+"
+gJavaXPCOMLock
+"
 )
 ;
 gJavaXPCOMInitialized
@@ -2739,7 +2745,10 @@ PR_Unlock
 tempLock
 )
 ;
-PR_DestroyLock
+nsAutoLock
+:
+:
+DestroyLock
 (
 tempLock
 )

@@ -267,7 +267,10 @@ if
 (
 mMonitor
 )
-PR_DestroyMonitor
+nsAutoMonitor
+:
+:
+DestroyMonitor
 (
 mMonitor
 )
