@@ -53,6 +53,10 @@ html
 ref
 .
 html
+asserts
+(
+5
+)
 =
 =
 381497
@@ -65,6 +69,9 @@ html
 f
 .
 html
+#
+bug
+563837
 =
 =
 test

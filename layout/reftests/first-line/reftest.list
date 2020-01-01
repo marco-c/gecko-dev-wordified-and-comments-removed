@@ -228,6 +228,10 @@ blank
 #
 assertion
 test
+asserts
+(
+2
+)
 =
 =
 stress
