@@ -7575,8 +7575,8 @@ proxy_Convert
 proxy_Finalize
 NULL
 NULL
-NULL
 proxy_HasInstance
+NULL
 proxy_TraceObject
 JS_NULL_CLASS_EXT
 {
@@ -7842,10 +7842,10 @@ JS_ConvertStub
 NULL
 NULL
 proxy_Call
-proxy_Construct
 FunctionClass
 .
 hasInstance
+proxy_Construct
 proxy_TraceFunction
 JS_NULL_CLASS_EXT
 {

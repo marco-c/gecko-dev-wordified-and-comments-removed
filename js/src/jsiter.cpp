@@ -6511,8 +6511,8 @@ JS_ConvertStub
 NULL
 NULL
 NULL
-NULL
 stopiter_hasInstance
+NULL
 }
 ;
 #

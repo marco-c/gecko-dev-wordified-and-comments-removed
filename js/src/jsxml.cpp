@@ -26663,8 +26663,8 @@ xml_convert
 NULL
 NULL
 NULL
-NULL
 xml_hasInstance
+NULL
 xml_trace
 JS_NULL_CLASS_EXT
 {

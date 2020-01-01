@@ -1614,6 +1614,7 @@ CType
 FinalizeProtoClass
 NULL
 ConstructAbstract
+NULL
 ConstructAbstract
 }
 ;
@@ -1668,11 +1669,11 @@ ConstructData
 CType
 :
 :
-ConstructData
+HasInstance
 CType
 :
 :
-HasInstance
+ConstructData
 CType
 :
 :
@@ -1713,6 +1714,7 @@ FunctionType
 :
 :
 Call
+NULL
 FunctionType
 :
 :

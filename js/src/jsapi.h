@@ -11178,11 +11178,11 @@ checkAccess
 JSNative
 call
 ;
-JSNative
-construct
-;
 JSHasInstanceOp
 hasInstance
+;
+JSNative
+construct
 ;
 JSTraceOp
 trace

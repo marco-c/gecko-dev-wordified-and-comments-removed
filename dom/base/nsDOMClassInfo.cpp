@@ -33757,7 +33757,6 @@ nsHTMLDocumentSH
 :
 ReleaseDocument
 nsnull
-nsnull
 nsHTMLDocumentSH
 :
 :
@@ -33796,7 +33795,6 @@ nsHTMLDocumentSH
 :
 DocumentAllHelperNewResolve
 JS_ConvertStub
-nsnull
 }
 ;
 static
@@ -33835,7 +33833,6 @@ nsHTMLDocumentSH
 :
 :
 ReleaseDocument
-nsnull
 nsnull
 nsHTMLDocumentSH
 :

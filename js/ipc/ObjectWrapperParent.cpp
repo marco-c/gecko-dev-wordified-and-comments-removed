@@ -566,11 +566,11 @@ CPOW_Call
 ObjectWrapperParent
 :
 :
-CPOW_Construct
+CPOW_HasInstance
 ObjectWrapperParent
 :
 :
-CPOW_HasInstance
+CPOW_Construct
 nsnull
 {
 ObjectWrapperParent

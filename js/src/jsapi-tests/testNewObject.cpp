@@ -535,6 +535,7 @@ JS_ConvertStub
 NULL
 NULL
 NULL
+NULL
 constructHook
 }
 ;
