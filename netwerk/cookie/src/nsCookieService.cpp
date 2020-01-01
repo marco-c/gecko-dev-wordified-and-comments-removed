@@ -304,7 +304,7 @@ const
 PRUint32
 kMaxNumberOfCookies
 =
-1000
+3000
 ;
 static
 const
