@@ -7002,6 +7002,11 @@ JSVAL_DOUBLE
 {
 if
 (
+DEMOTE_THRESHOLD
+>
+0
+&
+&
 guardCount
 >
 DEMOTE_THRESHOLD
