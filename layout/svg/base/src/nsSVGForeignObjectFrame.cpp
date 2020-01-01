@@ -1017,12 +1017,12 @@ nsIDOMSVGMatrix
 >
 tm
 ;
-cssPxToDevPxMatrix
+localTM
 -
 >
 Multiply
 (
-localTM
+cssPxToDevPxMatrix
 getter_AddRefs
 (
 tm
