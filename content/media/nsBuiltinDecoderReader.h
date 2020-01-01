@@ -1772,6 +1772,7 @@ aByteRange
 )
 {
 }
+virtual
 nsresult
 GetIndexByteRanges
 (

@@ -1331,6 +1331,7 @@ NotifyAudioAvailableListener
 (
 )
 ;
+virtual
 void
 DecodeError
 (
