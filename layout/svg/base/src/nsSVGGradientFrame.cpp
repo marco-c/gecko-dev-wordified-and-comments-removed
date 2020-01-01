@@ -1348,6 +1348,14 @@ if
 (
 !
 gradient
+|
+|
+gradient
+-
+>
+CairoStatus
+(
+)
 )
 return
 PR_FALSE
