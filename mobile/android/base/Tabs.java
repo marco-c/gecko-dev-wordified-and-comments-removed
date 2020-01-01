@@ -452,6 +452,12 @@ index
 if
 (
 index
+>
+=
+0
+&
+&
+index
 <
 order
 .
