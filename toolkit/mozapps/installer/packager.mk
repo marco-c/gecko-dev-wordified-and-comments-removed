@@ -3174,9 +3174,6 @@ tar
 xf
 -
 )
-endif
-#
-DMG
 echo
 "
 Linking
@@ -3312,6 +3309,9 @@ Continuing
 .
 .
 .
+endif
+#
+DMG
 endif
 #
 MOZ_PKG_MANIFEST
