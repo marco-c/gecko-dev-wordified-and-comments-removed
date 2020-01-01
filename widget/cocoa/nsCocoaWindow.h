@@ -54,6 +54,10 @@ class
 nsMenuBarX
 ;
 #
+define
+CUIDRAW_MAX_AREA
+500000
+#
 if
 !
 defined
