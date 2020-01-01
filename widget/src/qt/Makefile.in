@@ -631,6 +631,9 @@ lib
 (
 MOZ_XLIB_LDFLAGS
 )
+(
+XLIBS
+)
 #
 If
 not
