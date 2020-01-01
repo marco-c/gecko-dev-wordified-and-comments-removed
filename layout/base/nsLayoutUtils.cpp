@@ -5180,7 +5180,10 @@ nsDisplayListBuilder
 builder
 (
 aFrame
-PR_TRUE
+nsDisplayListBuilder
+:
+:
+EVENT_DELIVERY
 PR_FALSE
 )
 ;
@@ -5978,7 +5981,10 @@ nsDisplayListBuilder
 builder
 (
 aFrame
-PR_FALSE
+nsDisplayListBuilder
+:
+:
+PAINTING
 !
 (
 aFlags

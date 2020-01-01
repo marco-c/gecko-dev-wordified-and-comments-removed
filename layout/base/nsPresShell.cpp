@@ -1203,7 +1203,10 @@ aRange
 mBuilder
 (
 aFrame
-PR_FALSE
+nsDisplayListBuilder
+:
+:
+PAINTING
 PR_FALSE
 )
 {

@@ -6648,7 +6648,10 @@ nsDisplayListBuilder
 builder
 (
 aRootFrame
-PR_FALSE
+nsDisplayListBuilder
+:
+:
+OTHER
 PR_TRUE
 )
 ;
