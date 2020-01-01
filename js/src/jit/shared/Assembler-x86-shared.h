@@ -1528,7 +1528,7 @@ HasSSE2
 ;
 masm
 .
-movsd_rr
+movapd_rr
 (
 src
 .
@@ -1580,7 +1580,7 @@ FPREG
 :
 masm
 .
-movsd_rr
+movapd_rr
 (
 src
 .
@@ -1714,7 +1714,7 @@ FPREG
 :
 masm
 .
-movsd_rr
+movapd_rr
 (
 src
 .
@@ -1833,7 +1833,7 @@ HasSSE2
 ;
 masm
 .
-movss_rr
+movaps_rr
 (
 src
 .
@@ -1885,7 +1885,7 @@ FPREG
 :
 masm
 .
-movss_rr
+movaps_rr
 (
 src
 .
@@ -2019,7 +2019,7 @@ FPREG
 :
 masm
 .
-movss_rr
+movaps_rr
 (
 src
 .
