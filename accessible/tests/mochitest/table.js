@@ -1700,7 +1700,7 @@ is
 (
 acc
 .
-selectedcolumnCount
+selectedColumnCount
 selCols
 .
 length
@@ -1943,7 +1943,7 @@ is
 (
 acc
 .
-selectedrowCount
+selectedRowCount
 selRows
 .
 length
