@@ -230,6 +230,17 @@ wrappedJSObject
 ok
 ;
 var
+todo
+=
+window
+.
+opener
+.
+wrappedJSObject
+.
+todo
+;
+var
 SimpleTest
 =
 window
