@@ -180,6 +180,12 @@ mGIFStruct
 ;
 mGIFStruct
 .
+loop_count
+=
+1
+;
+mGIFStruct
+.
 state
 =
 gif_type
