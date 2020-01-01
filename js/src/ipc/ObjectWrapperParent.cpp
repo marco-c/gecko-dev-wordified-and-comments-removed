@@ -778,9 +778,11 @@ obj
 {
 while
 (
-STOBJ_GET_CLASS
-(
 obj
+-
+>
+getClass
+(
 )
 !
 =
