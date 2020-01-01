@@ -20047,7 +20047,11 @@ aShow
 -
 gNavToolbox
 .
-clientHeight
+getBoundingClientRect
+(
+)
+.
+height
 +
 "
 px
