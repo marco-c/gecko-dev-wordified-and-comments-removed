@@ -652,6 +652,9 @@ GLuint
 mTexture
 ;
 GLTexture
+mExternalBufferTexture
+;
+GLTexture
 mYUVTexture
 [
 3

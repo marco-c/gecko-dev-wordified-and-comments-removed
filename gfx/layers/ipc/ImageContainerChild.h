@@ -279,6 +279,15 @@ SharedImage
 >
 mSharedImagePool
 ;
+nsTArray
+<
+nsRefPtr
+<
+Image
+>
+>
+mImageQueue
+;
 int
 mActiveImageCount
 ;

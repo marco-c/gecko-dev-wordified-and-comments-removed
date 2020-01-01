@@ -50,6 +50,13 @@ CameraCommon
 h
 "
 #
+include
+"
+GonkNativeWindow
+.
+h
+"
+#
 define
 GIHM_TIMING_RECEIVEFRAME
 0
@@ -75,6 +82,8 @@ GonkCamera
 ;
 class
 GonkCameraHardware
+:
+GonkNativeWindowNewFrameCallback
 {
 protected
 :
@@ -135,6 +144,13 @@ aUser
 ;
 public
 :
+virtual
+void
+OnNewFrame
+(
+)
+MOZ_OVERRIDE
+;
 static
 void
 ReleaseHandle
