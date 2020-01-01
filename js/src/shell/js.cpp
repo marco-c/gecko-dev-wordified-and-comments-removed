@@ -13459,6 +13459,10 @@ cx
 &
 sandbox_class
 NULL
+JS
+:
+:
+DontFireOnNewGlobalHook
 )
 )
 ;
@@ -13521,6 +13525,12 @@ return
 NULL
 ;
 }
+JS_FireOnNewGlobalObject
+(
+cx
+obj
+)
+;
 if
 (
 !
@@ -26559,6 +26569,10 @@ cx
 &
 global_class
 NULL
+JS
+:
+:
+DontFireOnNewGlobalHook
 options
 )
 )
@@ -26877,6 +26891,12 @@ domProto
 )
 ;
 }
+JS_FireOnNewGlobalObject
+(
+cx
+glob
+)
+;
 return
 glob
 ;

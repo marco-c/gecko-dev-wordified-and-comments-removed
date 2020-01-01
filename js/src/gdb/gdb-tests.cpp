@@ -279,6 +279,10 @@ cx
 &
 global_class
 NULL
+JS
+:
+:
+FireOnNewGlobalHook
 options
 )
 )

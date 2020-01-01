@@ -763,6 +763,12 @@ MOZ_CRASH
 (
 )
 ;
+JS_FireOnNewGlobalObject
+(
+mSafeJSContext
+glob
+)
+;
 mOwnSafeJSContext
 =
 mSafeJSContext

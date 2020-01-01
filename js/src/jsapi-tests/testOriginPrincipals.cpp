@@ -563,6 +563,10 @@ getGlobalClass
 (
 )
 principals
+JS
+:
+:
+FireOnNewGlobalHook
 )
 )
 ;
