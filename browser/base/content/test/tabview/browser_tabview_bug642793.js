@@ -101,6 +101,7 @@ getContentWindow
 (
 )
 ;
+let
 groupItem
 =
 cw
