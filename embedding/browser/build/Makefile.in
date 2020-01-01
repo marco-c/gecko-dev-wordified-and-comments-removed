@@ -444,7 +444,6 @@ EXTRA_DSO_LIBS
 =
 gkgfx
 thebes
-layers
 CPPSRCS
 =
 \

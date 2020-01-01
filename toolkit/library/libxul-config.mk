@@ -1126,7 +1126,6 @@ STATIC_LIBS
 +
 =
 thebes
-layers
 ycbcr
 COMPONENT_LIBS
 +

@@ -564,9 +564,6 @@ lgkgfx
 -
 lthebes
 \
--
-llayers
-\
 (
 MOZ_JS_LIBS
 )
