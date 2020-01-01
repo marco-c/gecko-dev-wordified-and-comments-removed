@@ -7,6 +7,13 @@ GFX_FONT_H
 #
 include
 "
+prtypes
+.
+h
+"
+#
+include
+"
 nsAlgorithm
 .
 h
