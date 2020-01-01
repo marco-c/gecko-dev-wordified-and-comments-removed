@@ -1,5 +1,4 @@
 #
-#
 This
 Source
 Code
@@ -69,11 +68,6 @@ srcdir
 MODULE
 =
 pippki
-DIRS
-=
-public
-resources
-src
 include
 (
 topsrcdir

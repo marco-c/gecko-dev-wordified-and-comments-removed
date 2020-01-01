@@ -68,10 +68,6 @@ srcdir
 MODULE
 =
 pipboot
-DIRS
-=
-public
-src
 include
 (
 topsrcdir

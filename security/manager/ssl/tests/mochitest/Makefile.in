@@ -1,5 +1,4 @@
 #
-#
 This
 Source
 Code
@@ -69,20 +68,6 @@ srcdir
 MODULE
 =
 pipnss
-DIRS
-=
-\
-browser
-\
-bugs
-\
-mixedcontent
-\
-stricttransportsecurity
-\
-(
-NULL
-)
 include
 (
 topsrcdir

@@ -1,5 +1,4 @@
 #
-#
 This
 Source
 Code
@@ -72,9 +71,6 @@ relativesrcdir
 MODULE
 =
 pipnss
-DIRS
-=
-mochitest
 XPCSHELL_TESTS
 =
 unit
