@@ -2856,6 +2856,9 @@ AddToLoadGroup
 if
 (
 mListenerIsStrongRef
+&
+&
+lastPart
 )
 {
 NS_PRECONDITION
