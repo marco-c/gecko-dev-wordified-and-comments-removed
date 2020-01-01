@@ -630,12 +630,17 @@ SpriteController
 >
 mSpriteController
 ;
+#
+ifdef
+HAVE_ANDROID_OS
 sp
 <
 WeakMessageHandler
 >
 mHandler
 ;
+#
+endif
 PointerResources
 mResources
 ;
