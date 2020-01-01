@@ -131,3 +131,13 @@ nsMediaSnifferModule
 cpp
 '
 ]
+CSRCS
++
+=
+[
+'
+mp3sniff
+.
+c
+'
+]
