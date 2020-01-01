@@ -3911,7 +3911,7 @@ bool
 aHaveFirstLineStyle
 )
 ;
-nsresult
+void
 ConstructBlock
 (
 nsFrameConstructorState
