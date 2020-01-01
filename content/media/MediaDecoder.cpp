@@ -1820,9 +1820,6 @@ this
 )
 )
 ;
-delete
-aResource
-;
 return
 rv
 ;
@@ -3987,10 +3984,6 @@ mResource
 )
 return
 ;
-MediaResource
-*
-activeStream
-;
 bool
 suspended
 =
@@ -3999,8 +3992,6 @@ mResource
 >
 IsSuspendedByCache
 (
-&
-activeStream
 )
 ;
 if

@@ -163,8 +163,10 @@ false
 ;
 }
 virtual
+already_AddRefed
+<
 MediaResource
-*
+>
 CloneData
 (
 MediaDecoder
@@ -480,10 +482,6 @@ virtual
 bool
 IsSuspendedByCache
 (
-MediaResource
-*
-*
-aActiveResource
 )
 {
 return
