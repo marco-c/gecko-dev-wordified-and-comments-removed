@@ -757,9 +757,6 @@ res
 =
 NS_OK
 ;
-char
-ch
-;
 while
 (
 src
@@ -767,11 +764,6 @@ src
 srcEnd
 )
 {
-ch
-=
-*
-src
-;
 bcr
 =
 srcEnd
