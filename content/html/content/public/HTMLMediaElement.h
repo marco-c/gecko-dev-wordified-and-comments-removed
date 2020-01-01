@@ -2082,7 +2082,10 @@ AudioStream
 >
 mAudioStream
 ;
+nsRefPtr
+<
 TimeRanges
+>
 mPlayed
 ;
 double
