@@ -4809,7 +4809,7 @@ getOffset
 void
 writeDataRelocation
 (
-size_t
+BufferOffset
 offs
 )
 {
@@ -4818,6 +4818,10 @@ dataRelocations_
 writeUnsigned
 (
 offs
+.
+getOffset
+(
+)
 )
 ;
 }
