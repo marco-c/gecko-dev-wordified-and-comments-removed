@@ -17597,6 +17597,17 @@ case
 WM_FONTCHANGE
 :
 {
+if
+(
+mWindowType
+!
+=
+eWindowType_invisible
+)
+{
+break
+;
+}
 nsresult
 rv
 ;
