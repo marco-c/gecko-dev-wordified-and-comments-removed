@@ -161,11 +161,11 @@ addObserver
 (
 this
 "
-profile
+sessionstore
 -
-after
+windows
 -
-change
+restored
 "
 true
 )
