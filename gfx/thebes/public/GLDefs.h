@@ -79,10 +79,15 @@ typedef
 float
 GLclampf
 ;
+#
+ifndef
+GLdouble_defined
 typedef
 double
 GLdouble
 ;
+#
+endif
 typedef
 double
 GLclampd
