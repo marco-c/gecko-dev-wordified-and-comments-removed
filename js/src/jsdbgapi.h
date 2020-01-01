@@ -477,7 +477,8 @@ JS_PCToLineNumber
 JSContext
 *
 cx
-RawScript
+JSScript
+*
 script
 jsbytecode
 *

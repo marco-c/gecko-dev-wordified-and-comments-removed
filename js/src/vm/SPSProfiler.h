@@ -577,7 +577,7 @@ jsbytecode
 *
 ipToPC
 (
-RawScript
+UnrootedScript
 script
 size_t
 ip
@@ -630,7 +630,7 @@ jsbytecode
 *
 ipToPC
 (
-RawScript
+UnrootedScript
 script
 size_t
 ip

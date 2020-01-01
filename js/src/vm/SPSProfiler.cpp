@@ -1223,7 +1223,7 @@ SPSProfiler
 :
 ipToPC
 (
-RawScript
+UnrootedScript
 script
 size_t
 ip
