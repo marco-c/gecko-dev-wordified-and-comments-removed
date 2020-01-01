@@ -905,9 +905,7 @@ PRUint16
 aValue
 )
 ;
-const
 PRUint16
-*
 GetZoomAndPanProperty
 (
 )
@@ -1166,9 +1164,6 @@ mPreviousTranslate
 float
 mPreviousScale
 ;
-PRInt32
-mRedrawSuspendCount
-;
 bool
 mStartAnimationOnBindToTree
 ;
@@ -1180,6 +1175,9 @@ mIsPaintingSVGImageElement
 ;
 bool
 mHasChildrenOnlyTransform
+;
+bool
+mUseCurrentView
 ;
 }
 ;

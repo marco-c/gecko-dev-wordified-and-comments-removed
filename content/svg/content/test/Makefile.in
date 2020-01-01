@@ -211,6 +211,16 @@ helper
 .
 svg
 \
+test_fragments
+.
+html
+\
+fragments
+-
+helper
+.
+svg
+\
 getCTM
 -
 helper
