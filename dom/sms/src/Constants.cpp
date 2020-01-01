@@ -29,6 +29,17 @@ sms
 sent
 "
 ;
+const
+char
+*
+kSmsDeliveredObserverTopic
+=
+"
+sms
+-
+delivered
+"
+;
 }
 }
 }
