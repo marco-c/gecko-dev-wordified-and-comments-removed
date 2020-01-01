@@ -15360,6 +15360,7 @@ UseNewTypeForInitializer
 cx
 script
 pc
+JSProto_Array
 )
 )
 {
@@ -15466,6 +15467,7 @@ UseNewTypeForInitializer
 cx
 script
 pc
+JSProto_Object
 )
 )
 {
