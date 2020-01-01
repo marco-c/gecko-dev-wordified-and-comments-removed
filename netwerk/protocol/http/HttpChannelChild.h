@@ -412,6 +412,11 @@ RecvRedirect3Complete
 )
 ;
 bool
+RecvDeleteSelf
+(
+)
+;
+bool
 GetAssociatedContentSecurity
 (
 nsIAssociatedContentSecurity
@@ -602,6 +607,11 @@ Redirect3Complete
 (
 )
 ;
+void
+DeleteSelf
+(
+)
+;
 friend
 class
 AutoEventEnqueuer
@@ -637,6 +647,10 @@ Redirect1Event
 friend
 class
 Redirect3Event
+;
+friend
+class
+DeleteSelfEvent
 ;
 }
 ;

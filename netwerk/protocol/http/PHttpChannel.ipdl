@@ -768,6 +768,10 @@ DocumentChannelCleanup
 (
 )
 ;
+__delete__
+(
+)
+;
 child
 :
 OnStartRequest
@@ -904,9 +908,7 @@ Redirect3Complete
 (
 )
 ;
-both
-:
-__delete__
+DeleteSelf
 (
 )
 ;
