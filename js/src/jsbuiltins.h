@@ -1833,10 +1833,6 @@ js_Array_3num
 )
 JS_DECLARE_CALLINFO
 (
-js_BooleanToString
-)
-JS_DECLARE_CALLINFO
-(
 js_FastNewDate
 )
 JS_DECLARE_CALLINFO
