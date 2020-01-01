@@ -7238,12 +7238,6 @@ newobj
 return
 NS_ERROR_FAILURE
 ;
-JS_SetPrivate
-(
-flat
-nsnull
-)
-;
 JSObject
 *
 propertyHolder
@@ -7307,6 +7301,12 @@ return
 NS_ERROR_FAILURE
 ;
 }
+JS_SetPrivate
+(
+flat
+nsnull
+)
+;
 JSObject
 *
 ww
