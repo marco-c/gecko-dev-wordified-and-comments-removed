@@ -14449,7 +14449,7 @@ WHERE
 parent
 =
 %
-ld
+lld
 "
 nsINavHistoryQueryOptions
 :
