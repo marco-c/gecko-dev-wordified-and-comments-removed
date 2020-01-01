@@ -1295,8 +1295,14 @@ DefineConstants
 JSContext
 *
 cx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 obj
 const
 ConstantSpec

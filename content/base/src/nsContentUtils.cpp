@@ -26508,8 +26508,13 @@ aData
 JS
 :
 :
+MutableHandle
+<
+JS
+:
+:
 Value
-&
+>
 aBlob
 )
 {
@@ -26598,8 +26603,11 @@ WrapNative
 aCx
 scope
 blob
-&
 aBlob
+.
+address
+(
+)
 nullptr
 true
 )

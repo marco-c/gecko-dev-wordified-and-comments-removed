@@ -5289,8 +5289,17 @@ PopFront
 JS
 :
 :
+Rooted
+<
+JS
+:
+:
 Value
+>
 jsData
+(
+cx
+)
 ;
 {
 JSString

@@ -12884,8 +12884,14 @@ GetPluginJSObject
 JSContext
 *
 cx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 obj
 nsNPAPIPluginInstance
 *
