@@ -50,7 +50,7 @@ h
 #
 include
 "
-txTokenizer
+nsWhitespaceTokenizer
 .
 h
 "
@@ -1009,7 +1009,7 @@ nsSubstring
 aString
 )
 {
-txTokenizer
+nsWhitespaceTokenizer
 tokenizer
 (
 aString

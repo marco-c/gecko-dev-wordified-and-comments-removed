@@ -661,6 +661,10 @@ nsHashPropertyBag
 .
 h
 \
+nsWhitespaceTokenizer
+.
+h
+\
 (
 NULL
 )

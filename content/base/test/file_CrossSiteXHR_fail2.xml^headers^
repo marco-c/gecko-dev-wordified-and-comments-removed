@@ -1,0 +1,17 @@
+HTTP
+200
+OK
+Content
+-
+Access
+-
+Control
+:
+allow
+<
+*
+>
+deny
+<
+*
+>

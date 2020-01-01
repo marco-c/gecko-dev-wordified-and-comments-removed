@@ -15,7 +15,7 @@ h
 #
 include
 "
-txTokenizer
+nsWhitespaceTokenizer
 .
 h
 "
@@ -415,7 +415,7 @@ return
 rv
 ;
 }
-txTokenizer
+nsWhitespaceTokenizer
 tok
 (
 attr
@@ -3711,7 +3711,7 @@ if
 attr
 )
 {
-txTokenizer
+nsWhitespaceTokenizer
 tokens
 (
 attr
@@ -3976,7 +3976,7 @@ stripItem
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-txTokenizer
+nsWhitespaceTokenizer
 tokenizer
 (
 attr
