@@ -2284,7 +2284,7 @@ android
 windowSoftInputMode
 =
 "
-stateUnspecified
+stateAlwaysVisible
 |
 adjustResize
 "
