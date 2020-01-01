@@ -364,6 +364,16 @@ XID
 NativeWindowHandle
 ;
 #
+elif
+defined
+(
+XP_MACOSX
+)
+typedef
+intptr_t
+NativeWindowHandle
+;
+#
 else
 #
 error
