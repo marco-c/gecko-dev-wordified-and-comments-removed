@@ -849,6 +849,13 @@ extern
 nanojit
 :
 :
+Config
+NJConfig
+;
+extern
+nanojit
+:
+:
 LogControl
 LogController
 ;
