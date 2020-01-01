@@ -1335,10 +1335,7 @@ GDK_BUTTON_RELEASE_MASK
 ;
 g_signal_connect
 (
-G_OBJECT
-(
 plug
-)
 "
 expose
 -
@@ -1353,10 +1350,7 @@ instanceData
 ;
 g_signal_connect
 (
-G_OBJECT
-(
 plug
-)
 "
 motion_notify_event
 "
@@ -1369,10 +1363,7 @@ instanceData
 ;
 g_signal_connect
 (
-G_OBJECT
-(
 plug
-)
 "
 button_press_event
 "
@@ -1385,10 +1376,7 @@ instanceData
 ;
 g_signal_connect
 (
-G_OBJECT
-(
 plug
-)
 "
 button_release_event
 "
@@ -1401,10 +1389,7 @@ instanceData
 ;
 g_signal_connect
 (
-G_OBJECT
-(
 plug
-)
 "
 delete
 -
@@ -1727,10 +1712,7 @@ gdkColormap
 ;
 g_object_unref
 (
-G_OBJECT
-(
 gdkColormap
-)
 )
 ;
 }
