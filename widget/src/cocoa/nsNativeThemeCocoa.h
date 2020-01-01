@@ -415,8 +415,6 @@ HIRect
 &
 inBoxRect
 PRBool
-inIsDefault
-PRBool
 inDisabled
 PRInt32
 inState
