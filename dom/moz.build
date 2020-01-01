@@ -131,6 +131,9 @@ notification
 permission
 '
 '
+push
+'
+'
 svg
 '
 '
@@ -211,6 +214,9 @@ messages
 '
 '
 power
+'
+'
+push
 '
 '
 quota
