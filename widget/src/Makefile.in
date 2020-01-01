@@ -413,6 +413,7 @@ MODULE
 widget
 DIRS
 =
+shared
 xpwidgets
 ifneq
 (

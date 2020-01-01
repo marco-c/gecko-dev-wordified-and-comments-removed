@@ -150,15 +150,6 @@ aMode
 =
 0
 ;
-nsIWidget
-*
-DOMWindowToWidget
-(
-nsIDOMWindow
-*
-dw
-)
-;
 #
 ifdef
 BASEFILEPICKER_HAS_DISPLAYDIRECTORY

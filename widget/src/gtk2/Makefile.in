@@ -781,6 +781,17 @@ xpwidgets
 -
 I
 (
+srcdir
+)
+/
+.
+.
+/
+shared
+\
+-
+I
+(
 topsrcdir
 )
 /
