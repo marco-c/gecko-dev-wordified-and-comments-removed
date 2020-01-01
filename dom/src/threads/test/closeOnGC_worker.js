@@ -35,3 +35,10 @@ send
 ;
 }
 ;
+postMessage
+(
+"
+ready
+"
+)
+;
