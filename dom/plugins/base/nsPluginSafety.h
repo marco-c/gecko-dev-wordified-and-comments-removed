@@ -36,6 +36,11 @@ define
 CALL_SAFETY_ON
 #
 endif
+PRIntervalTime
+NS_NotifyBeginPluginCall
+(
+)
+;
 void
 NS_NotifyPluginCall
 (
@@ -102,7 +107,7 @@ PR_BEGIN_MACRO
 PRIntervalTime
 startTime
 =
-PR_IntervalNow
+NS_NotifyBeginPluginCall
 (
 )
 ;
@@ -227,7 +232,7 @@ PR_BEGIN_MACRO
 PRIntervalTime
 startTime
 =
-PR_IntervalNow
+NS_NotifyBeginPluginCall
 (
 )
 ;
@@ -343,7 +348,7 @@ PR_BEGIN_MACRO
 PRIntervalTime
 startTime
 =
-PR_IntervalNow
+NS_NotifyBeginPluginCall
 (
 )
 ;
@@ -373,7 +378,7 @@ PR_BEGIN_MACRO
 PRIntervalTime
 startTime
 =
-PR_IntervalNow
+NS_NotifyBeginPluginCall
 (
 )
 ;
