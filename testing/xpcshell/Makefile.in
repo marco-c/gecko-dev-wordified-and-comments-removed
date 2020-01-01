@@ -482,10 +482,6 @@ head
 .
 js
 \
-tail
-.
-js
-\
 (
 NULL
 )

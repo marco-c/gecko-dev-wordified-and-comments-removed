@@ -873,24 +873,6 @@ js
 )
 ]
   
-xpcsTailFile
-=
-[
-os
-.
-path
-.
-join
-(
-testharnessdir
-'
-tail
-.
-js
-'
-)
-]
-  
 singleFile
 =
 None
@@ -1261,11 +1243,7 @@ replace
 for
 f
 in
-(
 testTailFiles
-+
-xpcsTailFile
-)
 ]
 )
     
