@@ -2876,12 +2876,15 @@ GenerateEmailBody
 self
 .
 postdata
+                                 
 self
 .
 numpassed
+                                 
 self
 .
 numfailed
+                                 
 self
 .
 config
@@ -2895,6 +2898,12 @@ account
 serverURL
 '
 ]
+                                 
+self
+.
+firefoxRunner
+.
+url
 )
       
 subj
