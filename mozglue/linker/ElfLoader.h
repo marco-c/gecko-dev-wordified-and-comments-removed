@@ -265,6 +265,7 @@ AtomicRefCount
 Release
 (
 )
+const
 ;
 template
 <
@@ -590,6 +591,7 @@ AtomicRefCount
 Release
 (
 )
+const
 {
 #
 ifdef
@@ -651,6 +653,7 @@ endif
 delete
 static_cast
 <
+const
 LibHandle
 *
 >
