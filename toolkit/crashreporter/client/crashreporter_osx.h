@@ -204,6 +204,12 @@ showReportInfo
 ;
 -
 (
+void
+)
+maybeSubmitReport
+;
+-
+(
 IBAction
 )
 submitReportClicked

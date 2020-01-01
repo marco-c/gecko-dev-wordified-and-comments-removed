@@ -4384,10 +4384,9 @@ break
 case
 IDC_CLOSEBUTTON
 :
-EndCrashReporterDialog
+MaybeSendReport
 (
 hwndDlg
-0
 )
 ;
 break
