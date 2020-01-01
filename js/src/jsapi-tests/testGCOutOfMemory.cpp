@@ -268,7 +268,7 @@ createRuntime
 return
 JS_NewRuntime
 (
-512
+768
 *
 1024
 JS_USE_HELPER_THREADS
