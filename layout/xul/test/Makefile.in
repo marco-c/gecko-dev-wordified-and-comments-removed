@@ -130,6 +130,10 @@ NULL
 MOCHITEST_BROWSER_FILES
 =
 \
+browser_bug685470
+.
+js
+\
 browser_bug703210
 .
 js
