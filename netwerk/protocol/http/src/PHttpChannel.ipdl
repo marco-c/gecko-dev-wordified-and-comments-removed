@@ -552,7 +552,7 @@ AsyncOpen
 nsCString
 uriSpec
 nsCString
-originCharset
+charset
 /
 /
 -
@@ -609,9 +609,9 @@ originalUriSpec
 nsCString
 originalCharset
 nsCString
-documentUriSpec
+docUriSpec
 nsCString
-documentCharset
+docCharset
 PRUint32
 loadFlags
 )

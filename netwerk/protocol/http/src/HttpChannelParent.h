@@ -92,7 +92,7 @@ uriSpec
 const
 nsCString
 &
-originCharset
+charset
 const
 nsCString
 &
