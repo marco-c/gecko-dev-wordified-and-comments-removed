@@ -47,10 +47,11 @@ aDoc
 )
 {
 mFlags
-=
-mFlags
 |
+=
 eHasNumericValue
+|
+eProgressAccessible
 ;
 }
 NS_DECL_ISUPPORTS_INHERITED

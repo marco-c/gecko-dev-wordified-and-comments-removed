@@ -2126,6 +2126,16 @@ ValueChange
 )
 )
 {
+if
+(
+!
+accessible
+-
+>
+IsProgress
+(
+)
+)
 targetDocument
 -
 >
@@ -2136,10 +2146,6 @@ nsIAccessibleEvent
 :
 EVENT_VALUE_CHANGE
 targetNode
-AccEvent
-:
-:
-eRemoveDupes
 )
 ;
 }
