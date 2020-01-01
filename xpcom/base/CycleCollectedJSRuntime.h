@@ -733,6 +733,14 @@ nsISupports
 aSupports
 )
 ;
+void
+DumpJSHeap
+(
+FILE
+*
+aFile
+)
+;
 private
 :
 JSGCThingParticipant

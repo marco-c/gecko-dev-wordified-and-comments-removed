@@ -1252,14 +1252,6 @@ compartment
 )
 ;
 void
-DumpJSHeap
-(
-FILE
-*
-file
-)
-;
-void
 SetLocationForGlobal
 (
 JSObject
