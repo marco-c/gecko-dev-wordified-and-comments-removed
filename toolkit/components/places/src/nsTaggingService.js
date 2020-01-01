@@ -644,10 +644,6 @@ id
 1
 )
 {
-tag
-.
-id
-=
 this
 .
 _createTag
