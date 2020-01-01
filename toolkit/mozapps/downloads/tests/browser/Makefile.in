@@ -523,6 +523,10 @@ _BROWSER_FILES
 +
 =
 \
+browser_cleanup_search
+.
+js
+\
 browser_multiword_search
 .
 js
