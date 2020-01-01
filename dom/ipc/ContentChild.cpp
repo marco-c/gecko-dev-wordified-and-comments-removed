@@ -997,7 +997,7 @@ PCrashReporterChild
 *
 crashreporter
 =
-ManagedPCrashReporter
+ManagedPCrashReporterChild
 (
 )
 [
