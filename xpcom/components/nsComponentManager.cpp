@@ -11097,7 +11097,10 @@ aType
 0
 &
 &
+PRUint32
+(
 aType
+)
 <
 mLoaderData
 .
@@ -13261,7 +13264,7 @@ Length
 ;
 for
 (
-PRInt32
+PRUint32
 i
 =
 0
@@ -13478,7 +13481,10 @@ i
 =
 0
 ;
+PRUint32
+(
 i
+)
 <
 mLoaderData
 .
