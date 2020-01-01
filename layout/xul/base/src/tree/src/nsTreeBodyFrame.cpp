@@ -393,7 +393,7 @@ IBMBIDI
 #
 include
 "
-nsBidiUtils
+nsBidiPresUtils
 .
 h
 "

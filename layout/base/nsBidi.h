@@ -1791,7 +1791,6 @@ PRInt32
 aIndexMap
 )
 ;
-static
 nsresult
 ReorderLogical
 (
@@ -1808,7 +1807,6 @@ aIndexMap
 ;
 #
 endif
-static
 nsresult
 ReorderVisual
 (
@@ -2026,7 +2024,6 @@ nsBidiLevel
 aMaxLevel
 )
 ;
-static
 PRBool
 PrepareReorder
 (
