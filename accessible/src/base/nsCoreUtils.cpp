@@ -1461,6 +1461,9 @@ GetNodeParent
 (
 )
 )
+&
+&
+parentNode
 !
 =
 aRootNode
