@@ -525,6 +525,16 @@ DHAVE_SHELL_SERVICE
 =
 1
 endif
+ifdef
+MOZ_UPDATER
+DEFINES
++
+=
+-
+DMOZ_UPDATER
+=
+1
+endif
 ifneq
 (
 (

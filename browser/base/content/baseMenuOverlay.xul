@@ -1011,6 +1011,9 @@ updateSeparator
 "
 /
 >
+#
+ifdef
+MOZ_UPDATER
 <
 menuitem
 id
@@ -1053,6 +1056,8 @@ checkForUpdates
 "
 /
 >
+#
+endif
 <
 menuseparator
 id
