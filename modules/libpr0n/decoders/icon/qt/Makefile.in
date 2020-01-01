@@ -486,6 +486,11 @@ FORCE_USE_PIC
 DIRS
 =
 public
+EXTRA_COMPONENTS
+=
+gtkqticonsconverter
+.
+manifest
 EXTRA_PP_COMPONENTS
 =
 gtkqticonsconverter
