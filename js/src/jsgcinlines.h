@@ -2196,9 +2196,8 @@ size_t
 thingSize
 )
 {
-AssertCanGC
-(
-)
+AutoAssertNoGC
+nogc
 ;
 JS_ASSERT
 (

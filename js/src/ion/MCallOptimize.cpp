@@ -638,7 +638,9 @@ oracle
 >
 returnTypeSet
 (
-script_
+script
+(
+)
 pc
 &
 barrier
@@ -712,7 +714,9 @@ oracle
 >
 getCallArg
 (
-script_
+script
+(
+)
 argc
 arg
 pc
