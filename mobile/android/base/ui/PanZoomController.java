@@ -347,9 +347,13 @@ switch
 (
 event
 .
-getActionMasked
+getAction
 (
 )
+&
+event
+.
+ACTION_MASK
 )
 {
 case
