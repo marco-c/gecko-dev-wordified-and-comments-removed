@@ -1437,6 +1437,17 @@ true
 #
 endif
 Override
+protected
+boolean
+shouldRestoreSession
+(
+)
+{
+return
+false
+;
+}
+Override
 public
 void
 onTabChanged
