@@ -1215,15 +1215,12 @@ md
 )
 :
         
-setattr
-(
 md
-'
+.
 _cxx
-'
+=
 _struct
 (
-)
 )
         
 md
@@ -2756,6 +2753,14 @@ p
 )
 :
         
+p
+.
+_cxx
+=
+_struct
+(
+)
+        
 if
 p
 .
@@ -3048,6 +3053,32 @@ channelname
 +
 channellistener
         
+p
+.
+_cxx
+.
+managertype
+=
+(
+            
+'
+mozilla
+:
+:
+ipc
+:
+:
+IProtocolManager
+<
+'
++
+channellistener
++
+'
+>
+'
+)
+        
 inherits
 =
 [
@@ -3079,15 +3110,11 @@ cxx
 .
 Inherit
 (
-'
-mozilla
-:
-:
-ipc
-:
-:
-IProtocolManager
-'
+p
+.
+_cxx
+.
+managertype
 )
 )
         
@@ -5379,7 +5406,16 @@ mActorMap
 )
 )
         
-else
+elif
+p
+.
+decl
+.
+type
+.
+isManaged
+(
+)
 :
             
 cls
@@ -5453,20 +5489,15 @@ cxx
 .
 Type
 (
-'
-mozilla
-:
-:
-ipc
-:
-:
-IProtocolManager
-'
+p
+.
+_cxx
+.
+managertype
 ptr
 =
 1
 )
-                        
 '
 mManager
 '
