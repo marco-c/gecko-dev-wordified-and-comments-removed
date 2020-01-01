@@ -316,13 +316,6 @@ gLog
 ;
 #
 endif
-static
-NS_DEFINE_CID
-(
-kXULPrototypeCacheCID
-NS_XULPROTOTYPECACHE_CID
-)
-;
 XULContentSinkImpl
 :
 :
