@@ -6932,11 +6932,6 @@ mToken
 .
 mIdent
 ;
-ToLowerCase
-(
-prefix
-)
-;
 if
 (
 !
@@ -9570,11 +9565,6 @@ if
 mNameSpaceMap
 )
 {
-ToLowerCase
-(
-buffer
-)
-;
 nsCOMPtr
 <
 nsIAtom
@@ -10272,11 +10262,6 @@ if
 mNameSpaceMap
 )
 {
-ToLowerCase
-(
-attr
-)
-;
 nsCOMPtr
 <
 nsIAtom
@@ -18214,11 +18199,6 @@ if
 mNameSpaceMap
 )
 {
-ToLowerCase
-(
-holdIdent
-)
-;
 nsCOMPtr
 <
 nsIAtom
