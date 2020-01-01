@@ -1543,6 +1543,14 @@ win
 .
 modalReturnValue
 ;
+if
+(
+!
+this
+.
+_shuttingDown
+)
+{
 utils
 .
 leaveModalStateWithWindow
@@ -1550,6 +1558,7 @@ leaveModalStateWithWindow
 modalStateWin
 )
 ;
+}
 debug
 (
 "
