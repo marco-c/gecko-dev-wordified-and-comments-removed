@@ -485,6 +485,13 @@ h
 #
 include
 "
+nsCocoaFeatures
+.
+h
+"
+#
+include
+"
 nsCocoaUtils
 .
 h
@@ -493,13 +500,6 @@ h
 include
 "
 nsCocoaWindow
-.
-h
-"
-#
-include
-"
-nsToolkit
 .
 h
 "
@@ -2450,7 +2450,7 @@ SetSystemHelpMenu
 if
 (
 !
-nsToolkit
+nsCocoaFeatures
 :
 :
 OnSnowLeopardOrLater

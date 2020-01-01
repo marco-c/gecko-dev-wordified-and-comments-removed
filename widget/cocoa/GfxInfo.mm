@@ -482,7 +482,7 @@ h
 #
 include
 "
-nsToolkit
+nsCocoaFeatures
 .
 h
 "
@@ -1116,7 +1116,7 @@ AddCrashReportAnnotations
 ;
 mOSXVersion
 =
-nsToolkit
+nsCocoaFeatures
 :
 :
 OSXVersion
@@ -2167,7 +2167,7 @@ FEATURE_WEBGL_OPENGL
 &
 &
 !
-nsToolkit
+nsCocoaFeatures
 :
 :
 OnSnowLeopardOrLater

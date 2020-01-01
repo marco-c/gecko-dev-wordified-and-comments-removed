@@ -577,6 +577,13 @@ h
 #
 include
 "
+nsCocoaFeatures
+.
+h
+"
+#
+include
+"
 nsCocoaUtils
 .
 h
@@ -2542,7 +2549,7 @@ nsAppShell_NSApplication_terminate
 if
 (
 !
-nsToolkit
+nsCocoaFeatures
 :
 :
 OnSnowLeopardOrLater
