@@ -327,7 +327,7 @@ GetNativeStackBaseImpl
 if
 defined
 (
-_WIN32
+_M_IX86
 )
 &
 &
@@ -369,7 +369,7 @@ StackBase
 elif
 defined
 (
-_WIN64
+_M_X64
 )
 &
 &
