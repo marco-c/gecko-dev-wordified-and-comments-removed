@@ -1329,6 +1329,7 @@ bool
 aNoEmptyNodes
 )
 ;
+virtual
 already_AddRefed
 <
 nsIDOMNode
@@ -2158,14 +2159,6 @@ aIndex
 nsIDOMDocument
 *
 aSourceDoc
-const
-nsAString
-&
-aContextStr
-const
-nsAString
-&
-aInfoStr
 nsIDOMNode
 *
 aDestinationNode
