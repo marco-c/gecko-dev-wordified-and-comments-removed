@@ -6188,9 +6188,6 @@ nsIFrame
 aIFrame
 )
 {
-nsAutoDisableGetUsedXAssertions
-disableAssert
-;
 nsSize
 docSizeAppUnits
 ;
