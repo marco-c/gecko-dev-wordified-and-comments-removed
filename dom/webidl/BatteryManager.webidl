@@ -141,9 +141,6 @@ apply
 .
 *
 /
-[
-NoInterfaceObject
-]
 interface
 BatteryManager
 :
