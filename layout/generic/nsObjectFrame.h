@@ -492,7 +492,6 @@ nsDisplayItem
 aItem
 )
 ;
-virtual
 LayerState
 GetLayerState
 (
@@ -983,6 +982,10 @@ aBuilder
 LayerManager
 *
 aManager
+const
+ContainerParameters
+&
+aParameters
 )
 {
 return

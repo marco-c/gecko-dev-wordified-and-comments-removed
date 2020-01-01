@@ -6452,6 +6452,7 @@ GetLayerState
 (
 mBuilder
 mManager
+mParameters
 )
 ;
 nsIFrame
@@ -9003,6 +9004,7 @@ GetLayerState
 (
 aBuilder
 aManager
+aParameters
 )
 =
 =
