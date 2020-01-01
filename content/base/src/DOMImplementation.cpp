@@ -44,7 +44,7 @@ h
 #
 include
 "
-nsDOMDocumentType
+DocumentType
 .
 h
 "
@@ -181,7 +181,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsDOMDocumentType
+DocumentType
 >
 DOMImplementation
 :
@@ -275,7 +275,7 @@ nullptr
 }
 nsRefPtr
 <
-nsDOMDocumentType
+DocumentType
 >
 docType
 =

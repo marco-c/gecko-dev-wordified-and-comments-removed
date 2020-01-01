@@ -205,6 +205,10 @@ DocumentFragment
 .
 h
 \
+DocumentType
+.
+h
+\
 DOMImplementation
 .
 h
@@ -228,6 +232,10 @@ Comment
 cpp
 \
 DirectionalityUtils
+.
+cpp
+\
+DocumentType
 .
 cpp
 \
@@ -320,10 +328,6 @@ nsDOMBlobBuilder
 cpp
 \
 nsDOMCaretPosition
-.
-cpp
-\
-nsDOMDocumentType
 .
 cpp
 \

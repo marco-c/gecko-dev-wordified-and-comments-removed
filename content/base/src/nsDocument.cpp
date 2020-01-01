@@ -301,7 +301,7 @@ h
 #
 include
 "
-nsDOMDocumentType
+DocumentType
 .
 h
 "
@@ -18581,7 +18581,7 @@ aStyleRule
 )
 ;
 }
-nsDOMDocumentType
+DocumentType
 *
 nsIDocument
 :
@@ -18632,7 +18632,7 @@ DOCUMENT_TYPE_NODE
 return
 static_cast
 <
-nsDOMDocumentType
+DocumentType
 *
 >
 (
