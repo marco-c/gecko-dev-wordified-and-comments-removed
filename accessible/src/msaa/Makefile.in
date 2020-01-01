@@ -506,6 +506,10 @@ nsHTMLTableAccessibleWrap
 .
 cpp
 \
+CAccessibleAction
+.
+cpp
+\
 CAccessibleImage
 .
 cpp
@@ -515,6 +519,10 @@ CAccessibleText
 cpp
 \
 CAccessibleEditableText
+.
+cpp
+\
+CAccessibleHyperlink
 .
 cpp
 \
@@ -580,6 +588,10 @@ nsHTMLTableAccessibleWrap
 .
 h
 \
+CAccessibleAction
+.
+h
+\
 CAccessibleImage
 .
 h
@@ -589,6 +601,10 @@ CAccessibleText
 h
 \
 CAccessibleEditableText
+.
+h
+\
+CAccessibleHyperlink
 .
 h
 \

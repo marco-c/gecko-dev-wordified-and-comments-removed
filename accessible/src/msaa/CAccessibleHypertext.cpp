@@ -15,13 +15,6 @@ c
 #
 include
 "
-AccessibleHyperlink_i
-.
-c
-"
-#
-include
-"
 nsIAccessibleHypertext
 .
 h
