@@ -963,6 +963,16 @@ jscpucfg
 h
 "
 #
+if
+_MSC_VER
+<
+1400
+#
+define
+MOZ_NO_VARADIC_MACROS
+#
+endif
+#
 else
 #
 include

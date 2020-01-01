@@ -3941,10 +3941,14 @@ ReverseLister
 pp_init
 =
 NULL
+;
+ReverseLister
 *
 pp_after_sf1
 =
 NULL
+;
+ReverseLister
 *
 pp_after_sf2
 =

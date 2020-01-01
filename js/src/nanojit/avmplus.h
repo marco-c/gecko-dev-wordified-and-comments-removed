@@ -205,13 +205,8 @@ DEBUG
 |
 defined
 (
-_MSC_VER
+MOZ_NO_VARADIC_MACROS
 )
-&
-&
-_MSC_VER
-<
-1400
 #
 if
 !
