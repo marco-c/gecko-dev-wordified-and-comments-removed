@@ -571,9 +571,7 @@ seenError
 =
 true
 ;
-Components
-.
-utils
+Cu
 .
 reportError
 (
@@ -1818,9 +1816,7 @@ this
 then
 (
 null
-Components
-.
-utils
+Cu
 .
 reportError
 )
