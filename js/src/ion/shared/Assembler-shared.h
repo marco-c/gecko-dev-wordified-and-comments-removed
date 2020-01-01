@@ -1098,9 +1098,6 @@ offset_
 ;
 class
 CodeLabel
-:
-public
-TempObject
 {
 AbsoluteLabel
 dest_

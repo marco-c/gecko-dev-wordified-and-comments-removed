@@ -3818,7 +3818,6 @@ i
 )
 {
 CodeLabel
-*
 label
 =
 codeLabels_
@@ -3830,8 +3829,7 @@ Bind
 (
 code
 label
--
->
+.
 dest
 (
 )
@@ -3845,8 +3843,7 @@ raw
 actualOffset
 (
 label
--
->
+.
 src
 (
 )
@@ -5467,7 +5464,6 @@ Assembler
 addCodeLabel
 (
 CodeLabel
-*
 label
 )
 {

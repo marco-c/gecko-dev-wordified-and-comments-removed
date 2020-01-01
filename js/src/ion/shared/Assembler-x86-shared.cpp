@@ -511,7 +511,6 @@ i
 )
 {
 CodeLabel
-*
 label
 =
 codeLabels_
@@ -523,8 +522,7 @@ Bind
 (
 code
 label
--
->
+.
 dest
 (
 )
@@ -536,8 +534,7 @@ raw
 )
 +
 label
--
->
+.
 src
 (
 )
