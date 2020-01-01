@@ -112,6 +112,13 @@ BluetoothFirmware
 h
 "
 #
+include
+"
+BluetoothUtils
+.
+h
+"
+#
 endif
 #
 include
@@ -1812,6 +1819,10 @@ EnsureBluetoothInit
 #
 endif
 StartDBus
+(
+)
+;
+StartBluetoothConnection
 (
 )
 ;
