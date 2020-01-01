@@ -88,7 +88,7 @@ RIL
 const
 DEBUG
 =
-true
+false
 ;
 const
 RADIOINTERFACELAYER_CID
