@@ -1002,6 +1002,14 @@ mCallbackEvent
 NS_DISPATCH_NORMAL
 )
 ;
+mConnection
+=
+nsnull
+;
+mCallbackEvent
+=
+nsnull
+;
 return
 NS_OK
 ;
