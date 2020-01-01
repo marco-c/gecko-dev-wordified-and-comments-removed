@@ -144,6 +144,8 @@ EXPORTS
 mozilla
 .
 dom
+.
+power
 +
 =
 [
@@ -152,17 +154,6 @@ PowerManager
 .
 h
 '
-]
-EXPORTS
-.
-mozilla
-.
-dom
-.
-power
-+
-=
-[
 '
 PowerManagerService
 .
