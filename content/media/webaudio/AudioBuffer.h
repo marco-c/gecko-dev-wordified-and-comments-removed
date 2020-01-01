@@ -254,6 +254,7 @@ JSContext
 *
 aContext
 uint32_t
+*
 aRate
 uint32_t
 *
@@ -307,18 +308,6 @@ nsRefPtr
 ThreadSharedFloatArrayBufferList
 >
 mSharedChannels
-;
-nsRefPtr
-<
-ThreadSharedFloatArrayBufferList
->
-mResampledChannels
-;
-uint32_t
-mResampledChannelsRate
-;
-uint32_t
-mResampledChannelsLength
 ;
 uint32_t
 mLength
