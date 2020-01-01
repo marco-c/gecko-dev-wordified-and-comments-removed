@@ -1140,6 +1140,10 @@ nsCString
 version
 nsCString
 buildID
+nsCString
+name
+nsCString
+UAName
 )
 ;
 /
