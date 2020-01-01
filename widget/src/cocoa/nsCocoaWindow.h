@@ -714,6 +714,13 @@ aAnimation
 )
 ;
 virtual
+gfxASurface
+*
+GetThebesSurface
+(
+)
+;
+virtual
 PRBool
 DragEvent
 (
