@@ -1,6 +1,3 @@
-var
-gTests
-=
 [
 function
 tags_getter_setter
@@ -4746,6 +4743,11 @@ run_next_test
 ;
 }
 ]
+.
+forEach
+(
+add_test
+)
 ;
 const
 QUERY_KEY_TAG

@@ -14,9 +14,6 @@ com
 /
 "
 ;
-let
-gTests
-=
 [
 function
 test_no_bookmark
@@ -448,6 +445,11 @@ this
 ;
 }
 ]
+.
+forEach
+(
+add_test
+)
 ;
 function
 run_test

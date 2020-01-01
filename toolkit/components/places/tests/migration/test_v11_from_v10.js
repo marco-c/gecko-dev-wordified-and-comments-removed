@@ -1364,9 +1364,6 @@ run_next_test
 )
 ;
 }
-let
-gTests
-=
 [
 test_initial_state
 test_moz_bookmarks_guid_exists
@@ -1379,6 +1376,11 @@ test_place_guid_annotation_imported
 test_place_guid_annotation_removed
 test_final_state
 ]
+.
+forEach
+(
+add_test
+)
 ;
 function
 run_test
