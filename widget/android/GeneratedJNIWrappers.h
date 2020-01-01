@@ -76,6 +76,9 @@ jmethodID
 jGetCurrentNetworkInformationWrapper
 ;
 jmethodID
+jGetDensity
+;
+jmethodID
 jGetDpiWrapper
 ;
 jmethodID
@@ -486,6 +489,11 @@ GetCurrentBatteryInformationWrapper
 ;
 jdoubleArray
 GetCurrentNetworkInformationWrapper
+(
+)
+;
+jfloat
+GetDensity
 (
 )
 ;
