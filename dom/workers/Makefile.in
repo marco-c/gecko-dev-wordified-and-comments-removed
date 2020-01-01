@@ -156,6 +156,10 @@ ScriptLoader
 .
 cpp
 \
+URL
+.
+cpp
+\
 TextDecoder
 .
 cpp
@@ -257,6 +261,10 @@ EventTarget
 h
 \
 FileReaderSync
+.
+h
+\
+URL
 .
 h
 \

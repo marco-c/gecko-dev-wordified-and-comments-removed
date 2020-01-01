@@ -462,6 +462,14 @@ content_worker
 .
 js
 \
+test_url
+.
+html
+\
+url_worker
+.
+js
+\
 (
 NULL
 )
