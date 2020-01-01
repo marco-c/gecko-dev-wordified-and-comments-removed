@@ -303,6 +303,11 @@ VerifyReadyForRendering
 (
 )
 ;
+bool
+CreateVertexBuffer
+(
+)
+;
 nsTArray
 <
 SwapChainD3D9
