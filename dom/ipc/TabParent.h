@@ -11,7 +11,7 @@ mozilla
 /
 dom
 /
-IFrameEmbeddingProtocolParent
+PIFrameEmbeddingProtocolParent
 .
 h
 "
@@ -39,7 +39,7 @@ class
 TabParent
 :
 public
-IFrameEmbeddingProtocolParent
+PIFrameEmbeddingProtocolParent
 {
 public
 :

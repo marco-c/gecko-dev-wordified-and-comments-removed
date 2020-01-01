@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_test_TestProcessParent_h
+ipc_test_harness_TestProcessParent_h
 #
 define
-mozilla_test_TestProcessParent_h
+ipc_test_harness_TestProcessParent_h
 1
 #
 include

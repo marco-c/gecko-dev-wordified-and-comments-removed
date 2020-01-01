@@ -1,10 +1,6 @@
 #
 include
 "
-mozilla
-/
-test
-/
 TestThreadChild
 .
 h

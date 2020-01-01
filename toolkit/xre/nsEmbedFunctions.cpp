@@ -224,6 +224,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 ContentProcessThread
 .
 h
@@ -231,6 +235,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 ContentProcessParent
 .
 h
@@ -238,6 +246,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 ContentProcessChild
 .
 h
@@ -1747,7 +1759,7 @@ TestShellCommandParent
 gTestShellParent
 -
 >
-SendTestShellCommandConstructor
+SendPTestShellCommandConstructor
 (
 command
 )

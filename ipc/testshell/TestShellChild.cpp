@@ -21,7 +21,7 @@ mozilla
 ipc
 :
 :
-TestShellCommandProtocolChild
+PTestShellCommandProtocolChild
 ;
 using
 mozilla
@@ -103,12 +103,12 @@ NS_OK
 NS_ERROR_FAILURE
 ;
 }
-TestShellCommandProtocolChild
+PTestShellCommandProtocolChild
 *
 TestShellChild
 :
 :
-TestShellCommandConstructor
+PTestShellCommandConstructor
 (
 const
 nsString
@@ -118,7 +118,7 @@ aCommand
 {
 return
 new
-TestShellCommandProtocolChild
+PTestShellCommandProtocolChild
 (
 )
 ;
@@ -127,9 +127,9 @@ nsresult
 TestShellChild
 :
 :
-TestShellCommandDestructor
+PTestShellCommandDestructor
 (
-TestShellCommandProtocolChild
+PTestShellCommandProtocolChild
 *
 aCommand
 const
@@ -154,9 +154,9 @@ nsresult
 TestShellChild
 :
 :
-RecvTestShellCommandConstructor
+RecvPTestShellCommandConstructor
 (
-TestShellCommandProtocolChild
+PTestShellCommandProtocolChild
 *
 aActor
 const
@@ -229,7 +229,7 @@ NS_ERROR_FAILURE
 nsresult
 rv
 =
-SendTestShellCommandDestructor
+SendPTestShellCommandDestructor
 (
 aActor
 response

@@ -1,9 +1,10 @@
 #
 ifndef
-mozilla_test_TestThreadChild_h
+ipc_test_harness_TestThreadChild_h
 #
 define
-mozilla_test_TestThreadChild_h
+ipc_test_harness_TestThreadChild_h
+1
 #
 include
 "

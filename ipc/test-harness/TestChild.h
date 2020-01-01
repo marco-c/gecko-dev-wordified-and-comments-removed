@@ -1,11 +1,18 @@
 #
+ifndef
+ipc_test_harness_TestChild_h
+#
+define
+ipc_test_harness_TestChild_h
+1
+#
 include
 "
 mozilla
 /
 test
 /
-TestProtocolChild
+PTestProtocolChild
 .
 h
 "
@@ -19,7 +26,7 @@ class
 TestChild
 :
 public
-TestProtocolChild
+PTestProtocolChild
 {
 protected
 :
@@ -97,3 +104,5 @@ TestChild
 ;
 }
 }
+#
+endif

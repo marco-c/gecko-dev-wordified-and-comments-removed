@@ -1,7 +1,7 @@
 IPDLSRCS
 =
 \
-Test
+PTest
 .
 ipdl
 \

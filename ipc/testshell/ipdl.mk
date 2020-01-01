@@ -1,11 +1,11 @@
 IPDLSRCS
 =
 \
-TestShell
+PTestShell
 .
 ipdl
 \
-TestShellCommand
+PTestShellCommand
 .
 ipdl
 \
