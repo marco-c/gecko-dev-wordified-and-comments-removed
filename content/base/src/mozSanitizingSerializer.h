@@ -379,15 +379,6 @@ return
 NS_OK
 ;
 }
-NS_IMETHOD
-AddDocTypeDecl
-(
-const
-nsIParserNode
-&
-aNode
-)
-;
 virtual
 void
 FlushPendingNotifications
