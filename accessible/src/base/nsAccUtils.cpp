@@ -2976,6 +2976,13 @@ nsAccessibilityAtoms
 role
 roleString
 )
+|
+|
+roleString
+.
+IsEmpty
+(
+)
 )
 {
 return
