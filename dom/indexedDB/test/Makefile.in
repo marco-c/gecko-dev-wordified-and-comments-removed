@@ -439,6 +439,10 @@ mk
 TEST_FILES
 =
 \
+event_propagation_iframe
+.
+html
+\
 helpers
 .
 js
@@ -468,6 +472,10 @@ test_cursors
 html
 \
 test_cursor_update_updates_indexes
+.
+html
+\
+test_event_propagation
 .
 html
 \

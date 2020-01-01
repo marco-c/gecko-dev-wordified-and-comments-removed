@@ -267,6 +267,12 @@ thrown
 "
 )
 ;
+event
+.
+preventDefault
+(
+)
+;
 grabEventAndContinueHandler
 (
 event
