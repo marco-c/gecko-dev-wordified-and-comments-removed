@@ -196,8 +196,7 @@ _
 (
 "
 Create
-history
-item
+bookmark
 .
 Won
 '
