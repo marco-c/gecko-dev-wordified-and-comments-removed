@@ -8220,6 +8220,9 @@ n
 file
 =
 Makefile
+(
+TOUCH
+)
 endif
 ifndef
 NO_SUBMAKEFILES_RULE
@@ -8277,6 +8280,9 @@ n
 -
 file
 =
+(
+TOUCH
+)
 endif
 endif
 ifdef
