@@ -1135,6 +1135,12 @@ nsBaseWidget
 *
 mWidget
 ;
+nsRefPtr
+<
+BasicLayerManager
+>
+mLayerManager
+;
 }
 ;
 friend
