@@ -784,7 +784,7 @@ event
 initEvent
 (
 "
-MozEdgeUIGesture
+MozEdgeUICompleted
 "
 true
 false
