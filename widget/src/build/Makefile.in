@@ -491,6 +491,7 @@ EXPAND_LIBNAME
 uuid
 ole32
 oleaut32
+Ws2_32
 )
 ifneq
 (
