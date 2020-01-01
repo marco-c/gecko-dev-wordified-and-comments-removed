@@ -14164,6 +14164,12 @@ NS_PAINT
 mGeckoChild
 )
 ;
+paintEvent
+.
+didSendWillPaint
+=
+true
+;
 nsIntRect
 boundingRect
 =

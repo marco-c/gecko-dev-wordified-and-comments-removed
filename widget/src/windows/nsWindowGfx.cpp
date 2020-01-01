@@ -1077,6 +1077,12 @@ willSendDidPaint
 =
 true
 ;
+event
+.
+didSendWillPaint
+=
+true
+;
 if
 (
 !
