@@ -29,6 +29,9 @@ PrototypeList
 .
 h
 "
+class
+nsCycleCollectionParticipant
+;
 #
 define
 DOM_OBJECT_SLOT
@@ -151,6 +154,10 @@ const
 NativePropertyHooks
 *
 mNativeHooks
+;
+nsCycleCollectionParticipant
+*
+mParticipant
 ;
 }
 ;

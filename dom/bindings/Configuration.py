@@ -1965,6 +1965,18 @@ self
 .
 workers
 or
+                              
+(
+self
+.
+nativeOwnership
+!
+=
+'
+owned
+'
+and
+                               
 desc
 .
 get
@@ -1973,6 +1985,7 @@ get
 wrapperCache
 '
 True
+)
 )
 )
 )
