@@ -305,6 +305,16 @@ Telemetry
 HistogramCount
 ;
 }
+ImageMetadata
+&
+GetImageMetadata
+(
+)
+{
+return
+mImageMetadata
+;
+}
 protected
 :
 virtual
