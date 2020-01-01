@@ -6,16 +6,6 @@ define
 LIBGLESV2_BINARYSTREAM_H_
 #
 include
-<
-string
->
-#
-include
-<
-vector
->
-#
-include
 "
 common
 /

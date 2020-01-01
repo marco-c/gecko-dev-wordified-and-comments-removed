@@ -343,6 +343,8 @@ glProgramBinaryOES
 175
 glGetProgramBinaryOES
 176
+glDrawBuffersEXT
+179
 ;
 EGL
 dependencies
@@ -394,3 +396,9 @@ glBindTexImage
 4
 =
 glBindTexImage
+glCreateRenderer
+177
+NONAME
+glDestroyRenderer
+178
+NONAME

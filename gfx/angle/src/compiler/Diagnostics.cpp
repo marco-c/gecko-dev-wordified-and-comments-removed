@@ -171,15 +171,12 @@ sink
 .
 location
 (
-EncodeSourceLoc
-(
 loc
 .
 file
 loc
 .
 line
-)
 )
 ;
 sink

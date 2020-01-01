@@ -5,7 +5,7 @@ MAJOR_VERSION
 #
 define
 MINOR_VERSION
-0
+2
 #
 define
 BUILD_VERSION
@@ -13,7 +13,7 @@ BUILD_VERSION
 #
 define
 BUILD_REVISION
-2040
+2431
 #
 define
 STRINGIFY

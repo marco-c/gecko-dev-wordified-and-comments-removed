@@ -25,7 +25,10 @@ output
 )
 {
 case
-SH_HLSL_OUTPUT
+SH_HLSL9_OUTPUT
+:
+case
+SH_HLSL11_OUTPUT
 :
 return
 new
@@ -33,6 +36,7 @@ TranslatorHLSL
 (
 type
 spec
+output
 )
 ;
 default

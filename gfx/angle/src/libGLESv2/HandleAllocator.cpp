@@ -1,6 +1,13 @@
 #
 include
 "
+precompiled
+.
+h
+"
+#
+include
+"
 libGLESv2
 /
 HandleAllocator

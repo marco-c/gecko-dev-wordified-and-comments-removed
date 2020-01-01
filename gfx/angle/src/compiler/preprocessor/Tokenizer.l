@@ -10,7 +10,7 @@ c
 )
 2002
 -
-2011
+2013
 The
 ANGLE
 Project
@@ -115,6 +115,8 @@ Copyright
 c
 )
 2011
+-
+2013
 The
 ANGLE
 Project
@@ -1558,6 +1560,17 @@ return
 \
 n
 '
+;
+}
+\
+\
+{
+NEWLINE
+}
+{
++
++
+yylineno
 ;
 }
 .

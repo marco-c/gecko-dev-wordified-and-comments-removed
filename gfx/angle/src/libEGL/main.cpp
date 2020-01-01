@@ -541,7 +541,6 @@ current
 readSurface
 ;
 }
-}
 void
 error
 (
@@ -557,4 +556,5 @@ setCurrentError
 errorCode
 )
 ;
+}
 }
