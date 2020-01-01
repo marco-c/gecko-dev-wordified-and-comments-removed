@@ -7858,6 +7858,14 @@ length
 (
 )
 ;
+SkipRoot
+skip
+(
+cx
+&
+chars
+)
+;
 RootedAtom
 anonymousAtom
 (

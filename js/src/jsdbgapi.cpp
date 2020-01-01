@@ -7382,6 +7382,14 @@ MutableHandleValue
 rval
 )
 {
+SkipRoot
+skipChars
+(
+cx
+&
+chars
+)
+;
 if
 (
 !
