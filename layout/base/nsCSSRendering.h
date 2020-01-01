@@ -319,16 +319,6 @@ aEndBevelOffset
 )
 ;
 static
-nscolor
-TransformColor
-(
-nscolor
-aMapColor
-PRBool
-aNoBackGround
-)
-;
-static
 void
 PaintDecorationLine
 (

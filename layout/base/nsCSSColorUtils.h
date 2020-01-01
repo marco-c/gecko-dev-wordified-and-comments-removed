@@ -36,18 +36,6 @@ b
 )
 )
 void
-NS_Get3DColors
-(
-nscolor
-aResult
-[
-2
-]
-nscolor
-aBackgroundColor
-)
-;
-void
 NS_GetSpecial3DColors
 (
 nscolor
@@ -93,6 +81,9 @@ aSat
 PRUint16
 &
 aValue
+PRUint8
+&
+aAlpha
 )
 ;
 void
@@ -107,6 +98,8 @@ PRUint16
 aSat
 PRUint16
 aValue
+PRUint8
+aAlpha
 )
 ;
 #

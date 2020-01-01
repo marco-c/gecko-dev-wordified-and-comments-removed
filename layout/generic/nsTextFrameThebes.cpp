@@ -13717,12 +13717,16 @@ hue
 sat
 value
 ;
+PRUint8
+alpha
+;
 NS_RGB2HSV
 (
 aColor
 hue
 sat
 value
+alpha
 )
 ;
 if
@@ -13742,6 +13746,7 @@ aColor
 hue
 sat
 value
+alpha
 )
 ;
 }
