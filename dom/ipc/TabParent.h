@@ -663,11 +663,6 @@ Deactivate
 (
 )
 ;
-bool
-Active
-(
-)
-;
 void
 SendMouseEvent
 (
@@ -1168,9 +1163,6 @@ mEventCaptureDepth
 ;
 float
 mDPI
-;
-bool
-mActive
 ;
 bool
 mIsBrowserElement
