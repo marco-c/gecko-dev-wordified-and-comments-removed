@@ -1302,8 +1302,10 @@ logger
 log
 (
 "
-SimpleTest
-finished
+TEST
+-
+END
+|
 "
 +
 TestRunner
@@ -1316,6 +1318,8 @@ _currentTest
 ]
 +
 "
+|
+finished
 in
 "
 +
