@@ -491,6 +491,10 @@ browser_bookmarksProperties
 .
 js
 \
+browser_forgetthissite_single
+.
+js
+\
 (
 NULL
 )
