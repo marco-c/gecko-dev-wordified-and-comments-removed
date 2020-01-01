@@ -2867,6 +2867,16 @@ SetClipRect
 nsnull
 )
 ;
+if
+(
+mFrameLoader
+-
+>
+AsyncScrollEnabled
+(
+)
+)
+{
 const
 nsContentView
 *
@@ -2901,6 +2911,7 @@ aFrame
 aBuilder
 )
 ;
+}
 mContainer
 -
 >

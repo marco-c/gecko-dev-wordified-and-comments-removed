@@ -1205,6 +1205,10 @@ nsnull
 )
 #
 endif
+mRenderMode
+(
+RENDER_MODE_DEFAULT
+)
 {
 }
 nsFrameLoader
