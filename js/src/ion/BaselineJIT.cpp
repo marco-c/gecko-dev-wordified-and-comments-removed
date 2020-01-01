@@ -226,7 +226,7 @@ isConstructing
 {
 IonSpew
 (
-IonSpew_Abort
+IonSpew_BaselineAbort
 "
 BASELINE
 FIXME
@@ -253,7 +253,7 @@ isEvalFrame
 {
 IonSpew
 (
-IonSpew_Abort
+IonSpew_BaselineAbort
 "
 BASELINE
 FIXME
@@ -280,7 +280,7 @@ isGeneratorFrame
 {
 IonSpew
 (
-IonSpew_Abort
+IonSpew_BaselineAbort
 "
 generator
 frame
@@ -303,7 +303,7 @@ isDebuggerFrame
 {
 IonSpew
 (
-IonSpew_Abort
+IonSpew_BaselineAbort
 "
 BASELINE
 FIXME
@@ -330,7 +330,7 @@ annotation
 {
 IonSpew
 (
-IonSpew_Abort
+IonSpew_BaselineAbort
 "
 frame
 is
@@ -1027,7 +1027,7 @@ debugMode
 {
 IonSpew
 (
-IonSpew_Abort
+IonSpew_BaselineAbort
 "
 BASELINE
 FIXME
