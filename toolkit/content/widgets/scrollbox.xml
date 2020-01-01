@@ -2327,6 +2327,10 @@ _stopSmoothScroll
 )
 ;
 else
+this
+.
+requestHandle
+=
 window
 .
 mozRequestAnimationFrame
@@ -4810,6 +4814,10 @@ scrollPosition
 =
 scrollDelta
 ;
+this
+.
+requestHandle
+=
 window
 .
 mozRequestAnimationFrame
