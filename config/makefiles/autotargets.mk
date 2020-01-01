@@ -742,7 +742,9 @@ than
 FAT
 epoch
 .
-touch
+(
+TOUCH
+)
 -
 t
 198001030000
@@ -812,7 +814,9 @@ CURDIR
 MAKECMDGOALS
 )
 "
-touch
+(
+TOUCH
+)
 -
 t
 198001030000
