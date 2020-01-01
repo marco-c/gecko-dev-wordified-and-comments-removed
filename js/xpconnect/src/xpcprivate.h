@@ -2273,6 +2273,7 @@ aName
 ]
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -2292,6 +2293,7 @@ nsCycleCollectionTraversalCallback
 aCb
 )
 const
+MOZ_OVERRIDE
 ;
 public
 :
@@ -2422,6 +2424,7 @@ JSTracer
 *
 trc
 )
+MOZ_OVERRIDE
 ;
 void
 TraceAdditionalNativeGrayRoots
@@ -2430,6 +2433,7 @@ JSTracer
 *
 aTracer
 )
+MOZ_OVERRIDE
 ;
 void
 TraverseAdditionalNativeRoots
@@ -2438,6 +2442,7 @@ nsCycleCollectionNoteRootCallback
 &
 cb
 )
+MOZ_OVERRIDE
 ;
 void
 UnmarkSkippableJSHolders
