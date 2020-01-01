@@ -206,6 +206,11 @@ nsIDOMBluetoothManager
 .
 idl
 '
+'
+nsIDOMBluetoothStatusChangedEvent
+.
+idl
+'
 ]
 CPP_SOURCES
 +

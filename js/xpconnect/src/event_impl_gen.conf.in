@@ -169,6 +169,9 @@ MOZ_B2G_BT
 '
 BluetoothDeviceEvent
 '
+'
+BluetoothStatusChangedEvent
+'
 #
 endif
 #

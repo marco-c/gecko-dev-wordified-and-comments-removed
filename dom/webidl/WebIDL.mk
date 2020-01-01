@@ -1837,6 +1837,10 @@ BluetoothDeviceEvent
 .
 webidl
 \
+BluetoothStatusChangedEvent
+.
+webidl
+\
 (
 NULL
 )
