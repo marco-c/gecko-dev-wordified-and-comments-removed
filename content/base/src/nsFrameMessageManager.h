@@ -909,6 +909,14 @@ nsAString
 aURL
 )
 ;
+bool
+InitTabChildGlobalInternal
+(
+nsISupports
+*
+aScope
+)
+;
 static
 void
 Traverse
