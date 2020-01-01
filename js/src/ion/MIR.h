@@ -5809,6 +5809,7 @@ Compare_Boolean
 Compare_Int32
 Compare_Double
 Compare_String
+Compare_StrictString
 Compare_Object
 Compare_Value
 Compare_Unknown

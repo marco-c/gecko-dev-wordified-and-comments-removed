@@ -278,6 +278,11 @@ CompareS
 \
 _
 (
+CompareStrictS
+)
+\
+_
+(
 CompareB
 )
 \
