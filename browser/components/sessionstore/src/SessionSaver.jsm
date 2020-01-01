@@ -915,6 +915,12 @@ data
 return
 ;
 }
+this
+.
+updateLastSaveTime
+(
+)
+;
 _SessionFile
 .
 write
