@@ -232,7 +232,7 @@ argc
 ;
 void
 JS_FASTCALL
-EnterScript
+ScriptDebugPrologue
 (
 VMFrame
 &
@@ -241,7 +241,7 @@ f
 ;
 void
 JS_FASTCALL
-LeaveScript
+ScriptDebugEpilogue
 (
 VMFrame
 &
