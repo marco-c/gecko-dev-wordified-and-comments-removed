@@ -139,5 +139,10 @@ test_addon_reconciling
 .
 js
 "
+"
+test_addon_wipe
+.
+js
+"
 ]
 }
