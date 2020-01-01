@@ -510,6 +510,10 @@ browser_bug712982_line_ruler_click
 .
 js
 \
+browser_bug700893_dirty_state
+.
+js
+\
 head
 .
 js
