@@ -19,8 +19,10 @@ nsISupports
 {
 public
 :
-virtual
+NS_IMETHOD_
+(
 bool
+)
 IsParserEnabled
 (
 )
