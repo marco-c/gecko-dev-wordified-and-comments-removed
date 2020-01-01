@@ -6074,13 +6074,12 @@ JS_TRUE
 ;
 out_bad
 :
-JSScope
-:
-:
+scope
+-
+>
 destroy
 (
 cx
-scope
 )
 ;
 return

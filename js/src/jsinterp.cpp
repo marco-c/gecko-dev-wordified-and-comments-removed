@@ -970,10 +970,11 @@ shape
 {
 JS_ASSERT
 (
+!
 scope
 -
 >
-owned
+isSharedEmpty
 (
 )
 )

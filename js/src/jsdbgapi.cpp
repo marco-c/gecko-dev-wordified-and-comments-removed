@@ -8224,10 +8224,11 @@ obj
 ;
 if
 (
+!
 scope
 -
 >
-owned
+isSharedEmpty
 (
 )
 )

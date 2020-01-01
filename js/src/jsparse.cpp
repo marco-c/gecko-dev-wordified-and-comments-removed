@@ -14558,13 +14558,6 @@ atom
 )
 ;
 }
-scope
--
->
-object
-=
-NULL
-;
 }
 js_PopStatement
 (

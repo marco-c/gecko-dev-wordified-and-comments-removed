@@ -1663,6 +1663,10 @@ deallocatorThread
 ;
 #
 endif
+JSEmptyScope
+*
+emptyBlockScope
+;
 #
 ifdef
 JS_DUMP_ENUM_CACHE_STATS
