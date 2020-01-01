@@ -136,6 +136,12 @@ uint32_t
 frequentBailoutThreshold
 ;
 uint32_t
+exceptionBailoutThreshold
+;
+bool
+compileTryCatch
+;
+uint32_t
 maxStackArgs
 ;
 uint32_t
@@ -256,6 +262,14 @@ osrPcMismatchesBeforeRecompile
 frequentBailoutThreshold
 (
 10
+)
+exceptionBailoutThreshold
+(
+10
+)
+compileTryCatch
+(
+false
 )
 maxStackArgs
 (

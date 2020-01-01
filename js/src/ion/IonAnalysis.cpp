@@ -252,6 +252,17 @@ MIRGraph
 graph
 )
 {
+if
+(
+graph
+.
+hasTryBlock
+(
+)
+)
+return
+true
+;
 for
 (
 PostorderIterator

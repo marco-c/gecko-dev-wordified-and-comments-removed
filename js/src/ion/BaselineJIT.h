@@ -1161,6 +1161,12 @@ BaselineBailoutInfo
 *
 *
 bailoutInfo
+const
+ExceptionBailoutInfo
+*
+exceptionInfo
+=
+NULL
 )
 ;
 void

@@ -778,6 +778,9 @@ class_
 }
 ;
 struct
+BaselineBailoutInfo
+;
+struct
 ResumeFromException
 {
 static
@@ -808,6 +811,13 @@ RESUME_FORCED_RETURN
 =
 3
 ;
+static
+const
+uint32_t
+RESUME_BAILOUT
+=
+4
+;
 uint8_t
 *
 framePointer
@@ -825,6 +835,10 @@ kind
 ;
 Value
 exception
+;
+BaselineBailoutInfo
+*
+bailoutInfo
 ;
 }
 ;

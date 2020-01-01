@@ -68,6 +68,11 @@ fallthrough
 :
 1
 ;
+bool
+loopEntryInCatchOrFinally
+:
+1
+;
 void
 init
 (
@@ -131,6 +136,9 @@ script
 bool
 init
 (
+JSContext
+*
+cx
 )
 ;
 BytecodeInfo
