@@ -1351,7 +1351,7 @@ shapeGuard
 =
 masm
 .
-branch32_force32
+branch32FixedLength
 (
 Assembler
 :
@@ -6274,7 +6274,7 @@ shapeGuardJump
 =
 masm
 .
-branch32_force32
+branch32FixedLength
 (
 Assembler
 :

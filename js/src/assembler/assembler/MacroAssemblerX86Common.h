@@ -3596,7 +3596,7 @@ cond
 ;
 }
 Jump
-branch32_force32
+branch32FixedLength
 (
 Condition
 cond
@@ -3647,7 +3647,7 @@ dataLabel
 {
 m_assembler
 .
-cmpl_ir
+cmpl_ir_force32
 (
 right
 .
