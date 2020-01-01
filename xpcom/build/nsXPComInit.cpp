@@ -2790,13 +2790,6 @@ RegisterCategoryProviders
 (
 )
 ;
-nsMemoryImpl
-:
-:
-InitFlusher
-(
-)
-;
 NS_CreateServicesFromCategory
 (
 NS_XPCOM_STARTUP_CATEGORY
