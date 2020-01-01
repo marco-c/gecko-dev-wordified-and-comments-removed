@@ -24872,10 +24872,6 @@ lXext
 ]
 XLIBS
 )
-echo
-"
-green
-"
 AC_CHECK_LIB
 (
 Xt
