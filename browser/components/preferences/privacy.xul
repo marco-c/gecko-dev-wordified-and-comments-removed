@@ -1860,7 +1860,7 @@ label
 =
 "
 &
-privateBrowsingPermanent
+privateBrowsingPermanent2
 .
 label
 ;
@@ -1869,7 +1869,7 @@ accesskey
 =
 "
 &
-privateBrowsingPermanent
+privateBrowsingPermanent2
 .
 accesskey
 ;
