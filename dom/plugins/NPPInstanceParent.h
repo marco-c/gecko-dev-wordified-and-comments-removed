@@ -8,6 +8,10 @@ dom_plugins_NPPInstanceParent_h
 #
 include
 "
+mozilla
+/
+plugins
+/
 NPPProtocolParent
 .
 h

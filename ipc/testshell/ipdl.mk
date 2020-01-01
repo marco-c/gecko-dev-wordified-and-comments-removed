@@ -1,0 +1,10 @@
+IPDLSRCS
+=
+\
+TestShell
+.
+ipdl
+\
+(
+NULL
+)

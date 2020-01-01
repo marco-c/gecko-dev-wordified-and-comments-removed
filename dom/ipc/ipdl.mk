@@ -1,0 +1,10 @@
+IPDLSRCS
+=
+\
+IFrameEmbedding
+.
+ipdl
+\
+(
+NULL
+)

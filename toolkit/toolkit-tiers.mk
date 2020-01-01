@@ -558,6 +558,13 @@ gecko
 core
 components
 #
+ifdef
+MOZ_IPC
+tier_gecko_dirs
++
+=
+ipc
+endif
 tier_gecko_dirs
 +
 =
@@ -575,13 +582,6 @@ chardet
 (
 NULL
 )
-ifdef
-MOZ_IPC
-tier_gecko_dirs
-+
-=
-ipc
-endif
 ifdef
 MOZ_ENABLE_GTK2
 ifdef

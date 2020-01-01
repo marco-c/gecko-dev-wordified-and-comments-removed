@@ -18,6 +18,10 @@ ipdl
 ;
 include
 "
+mozilla
+/
+plugins
+/
 PluginMessageUtils
 .
 h

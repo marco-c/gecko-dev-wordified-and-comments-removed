@@ -418,6 +418,7 @@ mk
 DIRS
 +
 =
+ipdl
 chromium
 glue
 testshell
