@@ -482,13 +482,6 @@ mac
 NULL
 )
 endif
-ifdef
-ENABLE_TESTS
-DIRS
-+
-=
-test
-endif
 include
 (
 topsrcdir
