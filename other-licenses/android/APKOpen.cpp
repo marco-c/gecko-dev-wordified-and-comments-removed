@@ -2221,8 +2221,6 @@ CACHE_PATH
 "
 )
 path
-+
-4
 )
 ;
 __android_log_print
@@ -2446,8 +2444,6 @@ cache_fd
 lookupLibCacheFd
 (
 path
-+
-4
 )
 ;
 fd
@@ -2485,8 +2481,6 @@ CACHE_PATH
 "
 )
 path
-+
-4
 )
 ;
 fd
@@ -2546,8 +2540,6 @@ fd
 addLibCacheFd
 (
 path
-+
-4
 fd
 )
 ;
@@ -2585,8 +2577,6 @@ from
 cache
 "
 path
-+
-4
 )
 ;
 #
@@ -2652,8 +2642,6 @@ CACHE_PATH
 "
 )
 path
-+
-4
 )
 ;
 fd
@@ -2784,8 +2772,6 @@ true
 addLibCacheFd
 (
 path
-+
-4
 fd
 )
 ;
@@ -2868,8 +2854,6 @@ skipLibCache
 addLibCacheFd
 (
 path
-+
-4
 fd
 lib_size
 buf
@@ -2883,8 +2867,6 @@ strcmp
 (
 path
 "
-lib
-/
 libxul
 .
 so
@@ -3672,8 +3654,6 @@ name
 mozload
 (
 "
-lib
-/
 lib
 "
 name
