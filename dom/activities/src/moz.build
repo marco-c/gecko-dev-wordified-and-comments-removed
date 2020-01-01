@@ -132,6 +132,11 @@ Activities
 manifest
 '
 '
+ActivityMessageConfigurator
+.
+js
+'
+'
 ActivityOptions
 .
 js

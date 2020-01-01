@@ -3107,6 +3107,13 @@ BINPATH
 /
 components
 /
+ActivityMessageConfigurator
+.
+js
+BINPATH
+/
+components
+/
 TCPSocket
 .
 js
