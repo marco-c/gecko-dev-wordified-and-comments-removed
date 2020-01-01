@@ -593,9 +593,6 @@ XLDFLAGS
 (
 XLIBS
 )
-(
-XEXT_LIBS
-)
 endif
 install
 -
