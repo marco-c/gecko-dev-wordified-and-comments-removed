@@ -5240,10 +5240,11 @@ gradient
 }
 if
 (
+!
 gradient
 -
 >
-mIsToCorner
+mIsLegacySyntax
 )
 {
 aResult
@@ -9376,7 +9377,7 @@ mIsRepeating
 (
 aIsRepeating
 )
-mIsToCorner
+mIsLegacySyntax
 (
 false
 )

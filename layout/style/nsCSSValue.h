@@ -4302,7 +4302,7 @@ bool
 mIsRepeating
 ;
 bool
-mIsToCorner
+mIsLegacySyntax
 ;
 nsCSSValuePair
 mBgPos
@@ -4352,12 +4352,12 @@ aOther
 mIsRepeating
 |
 |
-mIsToCorner
+mIsLegacySyntax
 !
 =
 aOther
 .
-mIsToCorner
+mIsLegacySyntax
 |
 |
 mBgPos

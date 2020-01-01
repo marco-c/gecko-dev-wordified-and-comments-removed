@@ -4016,10 +4016,11 @@ aResult
 .
 mToCorner
 =
+!
 gradient
 -
 >
-mIsToCorner
+mIsLegacySyntax
 ;
 }
 SetGradientCoord
