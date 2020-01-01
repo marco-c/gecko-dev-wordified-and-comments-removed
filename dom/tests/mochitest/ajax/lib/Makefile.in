@@ -445,14 +445,6 @@ AJAX_setup
 .
 js
 \
-MochiKit_packed
-.
-js
-\
-SimpleTest
-.
-js
-\
 test
 .
 css
