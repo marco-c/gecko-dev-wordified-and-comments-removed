@@ -95,6 +95,9 @@ class
 ArrayBufferObject
 ;
 class
+ArrayBufferViewObject
+;
+class
 BaseShape
 ;
 class
@@ -339,6 +342,11 @@ DeclMarker
 (
 Object
 ArrayBufferObject
+)
+DeclMarker
+(
+Object
+ArrayBufferViewObject
 )
 DeclMarker
 (

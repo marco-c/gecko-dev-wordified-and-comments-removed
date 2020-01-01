@@ -1809,6 +1809,11 @@ ArrayBufferObject
 DeclMarkerImpl
 (
 Object
+ArrayBufferViewObject
+)
+DeclMarkerImpl
+(
+Object
 DebugScopeObject
 )
 DeclMarkerImpl

@@ -554,6 +554,9 @@ class
 AutoDebugModeGC
 ;
 class
+ArrayBufferObject
+;
+class
 DebugScopes
 ;
 }
@@ -992,7 +995,10 @@ JSObject
 *
 gcIncomingGrayPointers
 ;
-JSObject
+js
+:
+:
+ArrayBufferObject
 *
 gcLiveArrayBuffers
 ;
