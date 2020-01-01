@@ -71,6 +71,12 @@ gfxContext
 >
 mContext
 ;
+nsRefPtr
+<
+gfxContext
+>
+mSurfaceContext
+;
 gfxRect
 mNativeRect
 ;
