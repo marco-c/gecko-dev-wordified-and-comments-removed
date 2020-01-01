@@ -1085,6 +1085,11 @@ UseCmapsDuringSystemFallback
 )
 ;
 bool
+OpenTypeSVGEnabled
+(
+)
+;
+bool
 UseGraphiteShaping
 (
 )
@@ -1662,6 +1667,9 @@ mAllowDownloadableFonts
 ;
 int8_t
 mGraphiteShapingEnabled
+;
+int8_t
+mOpenTypeSVGEnabled
 ;
 int8_t
 mBidiNumeralOption
