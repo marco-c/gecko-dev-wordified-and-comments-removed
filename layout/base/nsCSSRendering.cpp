@@ -8001,13 +8001,6 @@ aLayer
 mAttachment
 )
 {
-aPresContext
--
->
-SetRenderedPositionVaryingContent
-(
-)
-;
 nsIFrame
 *
 topFrame
