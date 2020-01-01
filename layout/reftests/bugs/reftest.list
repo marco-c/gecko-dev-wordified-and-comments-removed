@@ -23351,6 +23351,12 @@ if
 (
 d2d
 )
+skip
+-
+if
+(
+azureSkiaGL
+)
 =
 =
 555388
@@ -26805,6 +26811,14 @@ xul
 notref
 .
 xul
+fuzzy
+-
+if
+(
+azureSkiaGL
+14
+2000
+)
 =
 =
 670442

@@ -2883,6 +2883,12 @@ false
 ;
 sandbox
 .
+azureSkiaGL
+=
+false
+;
+sandbox
+.
 contentSameGfxBackendAsCanvas
 =
 false
@@ -2968,6 +2974,14 @@ AzureCanvasBackend
 "
 skia
 "
+;
+sandbox
+.
+azureSkiaGL
+=
+info
+.
+AzureSkiaAccelerated
 ;
 sandbox
 .
