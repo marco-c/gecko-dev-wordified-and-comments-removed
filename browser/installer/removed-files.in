@@ -4691,6 +4691,9 @@ default
 default
 .
 xpm
+libjemalloc
+.
+so
 #
 endif
 #
