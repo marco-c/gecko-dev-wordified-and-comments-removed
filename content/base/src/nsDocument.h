@@ -655,7 +655,6 @@ return
 mNameContentList
 &
 &
-!
 mNameContentList
 -
 >
