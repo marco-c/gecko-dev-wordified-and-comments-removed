@@ -914,6 +914,10 @@ HTMLSourceElement
 .
 webidl
 \
+MediaError
+.
+webidl
+\
 (
 NULL
 )

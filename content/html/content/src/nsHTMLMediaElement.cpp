@@ -1674,6 +1674,10 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mSourceLoadCandidate
 )
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
+(
+mError
+)
 for
 (
 uint32_t
@@ -1745,6 +1749,10 @@ mLoadBlockedDoc
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mSourceLoadCandidate
+)
+NS_IMPL_CYCLE_COLLECTION_UNLINK
+(
+mError
 )
 for
 (
@@ -2592,6 +2600,7 @@ mError
 new
 MediaError
 (
+this
 nsIDOMMediaError
 :
 :
@@ -12229,6 +12238,7 @@ mError
 new
 MediaError
 (
+this
 aErrorCode
 )
 ;
