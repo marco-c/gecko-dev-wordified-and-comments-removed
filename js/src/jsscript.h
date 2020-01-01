@@ -1069,6 +1069,11 @@ treatAsRunOnce
 1
 ;
 bool
+hasRunOnce
+:
+1
+;
+bool
 hasBeenCloned
 :
 1

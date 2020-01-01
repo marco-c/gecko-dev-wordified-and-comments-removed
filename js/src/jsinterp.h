@@ -1190,6 +1190,16 @@ rval
 )
 ;
 bool
+RunOnceScriptPrologue
+(
+JSContext
+*
+cx
+HandleScript
+script
+)
+;
+bool
 InitGetterSetterOperation
 (
 JSContext

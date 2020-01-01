@@ -2899,8 +2899,8 @@ HandleValue
 value
 bool
 strict
-bool
-isSetName
+int
+jsop
 )
 ;
 bool
@@ -2929,6 +2929,8 @@ NewCallObject
 JSContext
 *
 cx
+HandleScript
+script
 HandleShape
 shape
 HandleTypeObject
