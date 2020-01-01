@@ -4259,8 +4259,6 @@ StackShape
 (
 Shape
 *
-const
-&
 shape
 )
 :
