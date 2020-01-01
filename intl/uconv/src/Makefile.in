@@ -693,7 +693,6 @@ cpp
 endif
 endif
 endif
-endif
 EXTRA_DSO_LDOPTS
 =
 \
