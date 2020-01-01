@@ -1707,12 +1707,6 @@ Weave
 WEAVE_VERSION
 )
 ;
-Status
-.
-service
-=
-STATUS_OK
-;
 this
 .
 enabled
@@ -2287,13 +2281,6 @@ login
 LOGIN_FAILED_NO_PASSPHRASE
 ;
 }
-else
-Status
-.
-service
-=
-STATUS_OK
-;
 return
 Status
 .
