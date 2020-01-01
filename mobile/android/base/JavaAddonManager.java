@@ -381,9 +381,9 @@ getAbsolutePath
 (
 )
 null
-mApplicationContext
+ClassLoader
 .
-getClassLoader
+getSystemClassLoader
 (
 )
 )
