@@ -113,6 +113,10 @@ mInitialized
 (
 false
 )
+mSizeDecode
+(
+false
+)
 {
 }
 Decoder
@@ -140,8 +144,6 @@ aImage
 imgIDecoderObserver
 *
 aObserver
-PRUint32
-aFlags
 )
 {
 NS_ABORT_IF_FALSE
@@ -167,10 +169,6 @@ aImage
 mObserver
 =
 aObserver
-;
-mFlags
-=
-aFlags
 ;
 nsresult
 rv

@@ -828,9 +828,6 @@ mWorker
 PRUint32
 mBytesDecoded
 ;
-PRUint32
-mDecoderFlags
-;
 PRPackedBool
 mHasSize
 :
@@ -894,8 +891,8 @@ SyncDecode
 nsresult
 InitDecoder
 (
-PRUint32
-dFlags
+bool
+aDoSizeDecode
 )
 ;
 nsresult
