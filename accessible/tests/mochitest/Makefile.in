@@ -526,6 +526,10 @@ role
 .
 js
 \
+value
+.
+js
+\
 test_accessnode_invalidation
 .
 html
@@ -591,10 +595,6 @@ html
 test_elm_media
 .
 html
-\
-test_elm_prgrsmtr
-.
-xul
 \
 test_elm_txtcntnr
 .
@@ -776,6 +776,10 @@ test_textboxes
 html
 \
 test_textboxes
+.
+xul
+\
+test_value
 .
 xul
 \
