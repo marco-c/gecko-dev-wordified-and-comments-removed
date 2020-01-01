@@ -750,12 +750,13 @@ inbetween
 ;
 try
 {
-PlacesUtils
+yield
+BookmarkJSONUtils
 .
-restoreBookmarksFromJSONFile
+importFromFile
 (
 jsonFile
-excludedItemsFromRestore
+true
 )
 ;
 }

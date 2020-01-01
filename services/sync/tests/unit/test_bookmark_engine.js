@@ -1756,11 +1756,13 @@ backup
 "
 )
 ;
-PlacesUtils
+yield
+BookmarkJSONUtils
 .
-restoreBookmarksFromJSONFile
+importFromFile
 (
 backupFile
+true
 )
 ;
 _
