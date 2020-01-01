@@ -2974,10 +2974,6 @@ CallInfo
 *
 inlineCallInfo_
 ;
-MDefinition
-*
-retval_
-;
 }
 ;
 class
