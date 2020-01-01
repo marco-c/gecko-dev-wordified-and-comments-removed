@@ -1075,10 +1075,6 @@ usesScopeChain_
 =
 true
 ;
-isIonInlineable
-=
-false
-;
 break
 ;
 case

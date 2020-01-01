@@ -24190,6 +24190,16 @@ getOperand
 )
 ;
 }
+TypePolicy
+*
+typePolicy
+(
+)
+{
+return
+this
+;
+}
 }
 ;
 class
