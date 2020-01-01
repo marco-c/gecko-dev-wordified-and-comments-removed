@@ -322,6 +322,9 @@ GL_EXT_draw_buffers
 "
 GL_EXT_gpu_shader4
 "
+"
+GL_EXT_blend_minmax
+"
 nullptr
 }
 ;

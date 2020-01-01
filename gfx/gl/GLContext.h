@@ -3087,6 +3087,7 @@ APPLE_vertex_array_object
 ARB_draw_buffers
 EXT_draw_buffers
 EXT_gpu_shader4
+EXT_blend_minmax
 Extensions_Max
 }
 ;
