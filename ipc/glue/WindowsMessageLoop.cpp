@@ -2848,10 +2848,6 @@ if
 StackDepth
 (
 )
-&
-&
-!
-mBlockedOnParent
 )
 {
 NS_RUNTIMEABORT

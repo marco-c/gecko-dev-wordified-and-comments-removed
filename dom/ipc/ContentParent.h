@@ -1746,12 +1746,6 @@ mChildID
 int32_t
 mGeolocationWatchID
 ;
-int
-mRunToCompletionDepth
-;
-bool
-mShouldCallUnblockChild
-;
 nsCOMArray
 <
 nsIMemoryReporter

@@ -95,8 +95,6 @@ IPDLTESTS
 \
 TestActorPunning
 \
-TestBlockChild
-\
 TestBridgeMain
 \
 TestCrashCleanup

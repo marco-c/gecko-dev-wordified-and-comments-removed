@@ -13,10 +13,6 @@ PTestActorPunningSub
 .
 ipdl
 \
-PTestBlockChild
-.
-ipdl
-\
 PTestBridgeMain
 .
 ipdl
