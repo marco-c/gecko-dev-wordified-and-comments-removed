@@ -70,7 +70,7 @@ services
 -
 common
 /
-util
+utils
 .
 js
 "
