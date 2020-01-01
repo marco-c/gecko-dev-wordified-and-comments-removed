@@ -1126,6 +1126,12 @@ aSize
 )
 ;
 }
+#
+if
+defined
+(
+USE_SKIA
+)
 case
 NATIVE_FONT_GDI_FONT_FACE
 :
@@ -1148,6 +1154,8 @@ aSize
 )
 ;
 }
+#
+endif
 #
 endif
 #
