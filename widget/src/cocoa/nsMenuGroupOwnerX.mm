@@ -942,9 +942,14 @@ else
 if
 (
 aContainer
+&
+&
+(
+aContainer
 !
 =
 mContent
+)
 )
 {
 /
