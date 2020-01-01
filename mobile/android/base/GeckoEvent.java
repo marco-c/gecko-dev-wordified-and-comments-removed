@@ -596,10 +596,6 @@ mUnicodeChar
 ;
 public
 int
-mRepeatCount
-;
-public
-int
 mOffset
 mCount
 ;
@@ -924,14 +920,6 @@ mUnicodeChar
 k
 .
 getUnicodeChar
-(
-)
-;
-mRepeatCount
-=
-k
-.
-getRepeatCount
 (
 )
 ;
