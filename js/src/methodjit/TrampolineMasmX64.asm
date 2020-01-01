@@ -437,10 +437,6 @@ SetVMFrameRegs
 :
 PROC
 extern
-UnsetVMFrameRegs
-:
-PROC
-extern
 PushActiveVMFrame
 :
 PROC
@@ -685,15 +681,6 @@ rsp
 ]
 call
 PopActiveVMFrame
-lea
-rcx
-[
-rsp
-+
-20h
-]
-call
-UnsetVMFrameRegs
 add
 rsp
 58h
