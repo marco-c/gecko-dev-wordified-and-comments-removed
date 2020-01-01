@@ -65,12 +65,6 @@ macbundlename
 prefix
 =
 Firefox
-ac_add_options
--
--
-with
--
-ccache
 #
 Package
 js
