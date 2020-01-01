@@ -82,12 +82,12 @@ JSVAL_FALSE
 assert_pretty
 (
 '
-array_hole
+elements_hole
 '
 '
 jsmagic
 (
-JS_ARRAY_HOLE
+JS_ELEMENTS_HOLE
 )
 '
 )

@@ -105,7 +105,7 @@ Rooted
 <
 jsval
 >
-array_hole
+elements_hole
 (
 cx
 js
@@ -249,7 +249,7 @@ null
 (
 void
 )
-array_hole
+elements_hole
 ;
 (
 void
