@@ -648,6 +648,10 @@ browser_webconsole_bug_594477_clickable_output
 .
 js
 \
+browser_webconsole_bug_589162_css_filter
+.
+js
+\
 head
 .
 js
