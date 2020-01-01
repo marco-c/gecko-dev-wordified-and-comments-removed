@@ -14588,9 +14588,6 @@ compareType
 MCompare
 :
 :
-MCompare
-:
-:
 Compare_Null
 )
 cond
