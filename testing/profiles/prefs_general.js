@@ -1081,6 +1081,16 @@ true
 user_pref
 (
 "
+dom
+.
+use_xbl_scopes_for_remote_xul
+"
+true
+)
+;
+user_pref
+(
+"
 network
 .
 activity
