@@ -59,6 +59,12 @@ that
 "
 "
     
+dirs
+=
+set
+(
+)
+    
 topsrcdir
 =
 os
@@ -88,7 +94,10 @@ __file__
 )
 )
     
-print
+dirs
+.
+add
+(
 scriptdir
 [
 len
@@ -99,11 +108,6 @@ topsrcdir
 1
 :
 ]
-    
-dirs
-=
-set
-(
 )
     
 manifest
@@ -129,10 +133,8 @@ get
 )
 :
         
-dirs
-.
-add
-(
+d
+=
 os
 .
 path
@@ -155,6 +157,12 @@ topsrcdir
 1
 :
 ]
+        
+dirs
+.
+add
+(
+d
 )
     
 for
@@ -162,6 +170,21 @@ path
 in
 dirs
 :
+        
+path
+=
+path
+.
+replace
+(
+'
+\
+\
+'
+'
+/
+'
+)
         
 print
 path
