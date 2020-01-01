@@ -4444,9 +4444,10 @@ ntarg
 }
 else
 {
-_err
-=
+setError
+(
 UnknownBranch
+)
 ;
 break
 ;
