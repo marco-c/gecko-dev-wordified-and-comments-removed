@@ -8491,7 +8491,7 @@ Uses
 ;
 }
 }
-void
+bool
 mjit
 :
 :
@@ -8628,7 +8628,7 @@ Changes
 )
 )
 ;
-return
+break
 ;
 }
 #
@@ -8658,6 +8658,9 @@ copyDataIntoReg
 id
 )
 ;
+if
+(
+!
 jsop_getelem_pic
 (
 obj
@@ -8666,6 +8669,9 @@ objReg
 idReg
 tmpReg
 )
+)
+return
+false
 ;
 frame
 .
@@ -8699,7 +8705,7 @@ Changes
 )
 )
 ;
-return
+break
 ;
 }
 #
@@ -8718,11 +8724,14 @@ type
 )
 ;
 }
+return
+true
+;
 }
 #
 ifdef
 JS_POLYIC
-void
+bool
 mjit
 :
 :
@@ -8923,6 +8932,9 @@ jump
 (
 )
 ;
+if
+(
+!
 jsop_getelem_pic
 (
 obj
@@ -8935,6 +8947,9 @@ reg
 )
 tmpReg
 )
+)
+return
+false
 ;
 performedDense
 .
@@ -9001,6 +9016,9 @@ Changes
 1
 )
 )
+;
+return
+true
 ;
 }
 #
@@ -9143,7 +9161,7 @@ Changes
 )
 ;
 }
-void
+bool
 mjit
 :
 :
@@ -9204,6 +9222,7 @@ jsop_getelem_slow
 )
 ;
 return
+true
 ;
 }
 if
@@ -9251,6 +9270,7 @@ jsop_getelem_slow
 )
 ;
 return
+true
 ;
 }
 if
@@ -9301,6 +9321,7 @@ jsop_getelem_slow
 )
 ;
 return
+true
 ;
 }
 if
@@ -9337,6 +9358,7 @@ jsop_getelem_slow
 )
 ;
 return
+true
 ;
 }
 RegisterID
@@ -9428,13 +9450,15 @@ tmpReg
 ;
 #
 else
-return
 jsop_getelem_nopic
 (
 obj
 id
 tmpReg
 )
+;
+return
+true
 ;
 #
 endif
