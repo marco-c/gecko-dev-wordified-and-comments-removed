@@ -209,10 +209,6 @@ test_unsafeDereference
 .
 html
 \
-test_makeGlobalObjectReference
-.
-html
-\
 nonchrome_unsafeDereference
 .
 html
