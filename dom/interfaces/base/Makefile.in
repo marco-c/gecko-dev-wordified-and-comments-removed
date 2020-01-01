@@ -462,6 +462,10 @@ nsIContentPrefService
 .
 idl
 \
+nsIContentURIGrouper
+.
+idl
+\
 nsIDOMClientInformation
 .
 idl

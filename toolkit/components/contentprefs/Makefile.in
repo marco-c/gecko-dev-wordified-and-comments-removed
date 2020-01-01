@@ -419,7 +419,6 @@ autoconf
 mk
 DIRS
 =
-public
 src
 ifdef
 ENABLE_TESTS

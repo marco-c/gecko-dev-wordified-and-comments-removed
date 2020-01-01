@@ -4499,15 +4499,6 @@ components
 /
 contentprefs
 /
-public
-/
-Makefile
-toolkit
-/
-components
-/
-contentprefs
-/
 src
 /
 Makefile
