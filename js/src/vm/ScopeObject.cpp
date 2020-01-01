@@ -368,7 +368,7 @@ nclosed
 script
 -
 >
-nClosedArgs
+numClosedArgs
 (
 )
 ;
@@ -440,7 +440,7 @@ nclosed
 script
 -
 >
-nClosedVars
+numClosedVars
 (
 )
 ;

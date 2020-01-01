@@ -2728,7 +2728,7 @@ nClosedArgs
 script
 -
 >
-nClosedArgs
+numClosedArgs
 (
 )
 ;
@@ -2737,7 +2737,7 @@ nClosedVars
 script
 -
 >
-nClosedVars
+numClosedVars
 (
 )
 ;

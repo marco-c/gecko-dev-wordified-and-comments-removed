@@ -697,7 +697,7 @@ i
 script
 -
 >
-nClosedArgs
+numClosedArgs
 (
 )
 ;
@@ -801,7 +801,7 @@ i
 script
 -
 >
-nClosedVars
+numClosedVars
 (
 )
 ;
@@ -896,7 +896,7 @@ if
 script
 -
 >
-nClosedArgs
+numClosedArgs
 (
 )
 |
@@ -904,7 +904,7 @@ nClosedArgs
 script
 -
 >
-nClosedVars
+numClosedVars
 (
 )
 |
@@ -951,7 +951,7 @@ if
 script
 -
 >
-nClosedArgs
+numClosedArgs
 (
 )
 |
