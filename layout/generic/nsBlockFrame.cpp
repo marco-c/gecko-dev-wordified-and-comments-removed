@@ -31892,7 +31892,7 @@ void
 nsBlockFrame
 :
 :
-CollectFloats
+DoCollectFloats
 (
 nsIFrame
 *
@@ -32114,7 +32114,7 @@ outOfFlowFrame
 )
 ;
 }
-CollectFloats
+DoCollectFloats
 (
 aFrame
 -
@@ -32126,7 +32126,7 @@ aList
 true
 )
 ;
-CollectFloats
+DoCollectFloats
 (
 aFrame
 -
