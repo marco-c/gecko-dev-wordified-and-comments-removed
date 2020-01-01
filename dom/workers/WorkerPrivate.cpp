@@ -3527,9 +3527,6 @@ NotifyRunnable
 public
 WorkerControlRunnable
 {
-bool
-mFromJSObjectFinalizer
-;
 Status
 mStatus
 ;
@@ -3540,8 +3537,6 @@ NotifyRunnable
 WorkerPrivate
 *
 aWorkerPrivate
-bool
-aFromJSObjectFinalizer
 Status
 aStatus
 )
@@ -3551,10 +3546,6 @@ WorkerControlRunnable
 aWorkerPrivate
 WorkerThread
 UnchangedBusyCount
-)
-mFromJSObjectFinalizer
-(
-aFromJSObjectFinalizer
 )
 mStatus
 (
@@ -3599,10 +3590,6 @@ aWorkerPrivate
 )
 {
 return
-mFromJSObjectFinalizer
-?
-true
-:
 aWorkerPrivate
 -
 >
@@ -8168,8 +8155,6 @@ NotifyRunnable
 ParentAsWorkerPrivate
 (
 )
-!
-aCx
 aStatus
 )
 ;
@@ -8724,6 +8709,9 @@ mBusyCount
 =
 =
 0
+&
+&
+mJSObject
 )
 {
 if
@@ -8753,6 +8741,9 @@ mBusyCount
 =
 =
 0
+&
+&
+mJSObject
 )
 {
 if
@@ -8846,6 +8837,17 @@ if
 aRoot
 )
 {
+NS_ASSERTION
+(
+mJSObject
+"
+Nothing
+to
+root
+?
+"
+)
+;
 if
 (
 !
