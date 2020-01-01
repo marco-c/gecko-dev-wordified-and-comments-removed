@@ -631,6 +631,12 @@ major
 )
 ;
 }
+void
+NudgeToIntegers
+(
+void
+)
+;
 private
 :
 static
