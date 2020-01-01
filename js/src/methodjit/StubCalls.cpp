@@ -2043,7 +2043,7 @@ if
 obj
 -
 >
-getProperty
+getGeneric
 (
 cx
 id
@@ -2782,7 +2782,7 @@ if
 obj
 -
 >
-getProperty
+getGeneric
 (
 cx
 id
@@ -9380,7 +9380,7 @@ rval
 obj
 -
 >
-getProperty
+getGeneric
 (
 cx
 id
@@ -9501,7 +9501,7 @@ if
 obj
 -
 >
-getProperty
+getGeneric
 (
 cx
 ATOM_TO_JSID

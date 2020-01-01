@@ -25,6 +25,9 @@ class
 AutoIdVector
 ;
 class
+PropertyName
+;
+class
 SpecialId
 ;
 static
@@ -772,8 +775,9 @@ obj
 JSObject
 *
 receiver
-jsid
-id
+PropertyName
+*
+name
 Value
 *
 vp

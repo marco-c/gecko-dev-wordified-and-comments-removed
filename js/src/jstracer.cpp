@@ -60190,8 +60190,6 @@ ctor
 getProperty
 (
 cx
-ATOM_TO_JSID
-(
 cx
 -
 >
@@ -60201,7 +60199,6 @@ runtime
 atomState
 .
 classPrototypeAtom
-)
 &
 pval
 )
@@ -68988,7 +68985,7 @@ id
 obj
 -
 >
-getProperty
+getGeneric
 (
 cx
 id
@@ -69321,7 +69318,7 @@ addr
 obj
 -
 >
-getProperty
+getGeneric
 (
 cx
 idr
@@ -69496,7 +69493,7 @@ if
 obj
 -
 >
-getProperty
+getGeneric
 (
 cx
 id

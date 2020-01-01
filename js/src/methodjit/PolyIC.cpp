@@ -10513,7 +10513,7 @@ if
 obj
 -
 >
-getProperty
+getGeneric
 (
 cx
 ATOM_TO_JSID
@@ -12141,7 +12141,7 @@ if
 obj
 -
 >
-getProperty
+getGeneric
 (
 f
 .
@@ -16703,7 +16703,7 @@ if
 obj
 -
 >
-getProperty
+getGeneric
 (
 cx
 id
@@ -17211,7 +17211,7 @@ if
 obj
 -
 >
-getProperty
+getGeneric
 (
 cx
 id
@@ -18012,7 +18012,7 @@ if
 obj
 -
 >
-getProperty
+getGeneric
 (
 cx
 id
