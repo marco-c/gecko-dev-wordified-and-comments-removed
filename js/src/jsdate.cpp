@@ -5389,9 +5389,9 @@ JS_FALSE
 result
 =
 (
-utctime
--
 localtime
+-
+utctime
 )
 /
 msPerMinute
