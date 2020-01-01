@@ -3695,6 +3695,13 @@ _jpakeclient
 )
 return
 ;
+const
+JPAKE_ERROR_USERABORT
+=
+Weave
+.
+JPAKE_ERROR_USERABORT
+;
 let
 self
 =
@@ -3847,8 +3854,10 @@ _jpakeclient
 ;
 if
 (
-!
 error
+=
+=
+JPAKE_ERROR_USERABORT
 )
 return
 ;
