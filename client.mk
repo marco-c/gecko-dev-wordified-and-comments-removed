@@ -7054,6 +7054,10 @@ confvars
 sh
 (
 wildcard
+(
+TOPSRCDIR
+)
+/
 *
 /
 )
