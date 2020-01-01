@@ -96,13 +96,9 @@ nsISupports
 .
 idl
 "
-#
-include
-"
+interface
 nsISHEntry
-.
-idl
-"
+;
 /
 *
 *

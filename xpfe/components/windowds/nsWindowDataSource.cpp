@@ -73,6 +73,13 @@ h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestorUtils
 .
 h

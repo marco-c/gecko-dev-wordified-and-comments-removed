@@ -63,13 +63,6 @@ domstubs
 .
 idl
 "
-#
-include
-"
-nsISupports
-.
-idl
-"
 [
 scriptable
 uuid

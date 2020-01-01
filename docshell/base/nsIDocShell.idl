@@ -103,13 +103,6 @@ nsIDocShellTreeItem
 .
 idl
 "
-#
-include
-"
-nsIAtom
-.
-idl
-"
 %
 {
 C
