@@ -9057,6 +9057,14 @@ return
 target
 &
 &
+(
+"
+classList
+"
+in
+target
+&
+&
 target
 .
 classList
@@ -9066,6 +9074,7 @@ contains
 "
 inputHandler
 "
+)
 )
 ;
 }
