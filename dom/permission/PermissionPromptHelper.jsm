@@ -266,6 +266,7 @@ PermissionPromptHelper
 init
 :
 function
+init
 (
 )
 {
@@ -309,6 +310,7 @@ false
 askPermission
 :
 function
+askPermission
 (
 aMessage
 aCallbacks
@@ -344,7 +346,7 @@ readwrite
 ;
 }
 var
-expandedPerms
+expandedPermNames
 =
 expandPermissions
 (
@@ -355,7 +357,7 @@ access
 )
 ;
 let
-installedPerms
+installedPermValues
 =
 [
 ]
@@ -368,7 +370,7 @@ for
 let
 idx
 in
-expandedPerms
+expandedPermNames
 )
 {
 let
@@ -426,7 +428,7 @@ msg
 type
 ;
 let
-perm
+permValue
 =
 permissionManager
 .
@@ -436,11 +438,11 @@ principal
 access
 )
 ;
-installedPerms
+installedPermValues
 .
 push
 (
-perm
+permValue
 )
 ;
 }
@@ -449,12 +451,12 @@ for
 let
 idx
 in
-installedPerms
+installedPermValues
 )
 {
 if
 (
-installedPerms
+installedPermValues
 [
 idx
 ]
@@ -467,7 +469,7 @@ nsIPermissionManager
 DENY_ACTION
 |
 |
-installedPerms
+installedPermValues
 [
 idx
 ]
@@ -495,12 +497,12 @@ for
 let
 idx
 in
-installedPerms
+installedPermValues
 )
 {
 if
 (
-installedPerms
+installedPermValues
 [
 idx
 ]
@@ -579,12 +581,12 @@ for
 let
 idx
 in
-installedPerms
+installedPermValues
 )
 {
 if
 (
-installedPerms
+installedPermValues
 [
 idx
 ]
@@ -611,6 +613,7 @@ return
 observe
 :
 function
+observe
 (
 aSubject
 aTopic
@@ -653,6 +656,7 @@ null
 receiveMessage
 :
 function
+receiveMessage
 (
 aMessage
 )

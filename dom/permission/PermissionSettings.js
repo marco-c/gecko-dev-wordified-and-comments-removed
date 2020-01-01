@@ -223,7 +223,7 @@ get
 function
 get
 (
-aPermission
+aPermName
 aManifestURL
 aOrigin
 aBrowserFlag
@@ -238,7 +238,7 @@ with
 :
 "
 +
-aPermission
+aPermName
 +
 "
 "
@@ -300,7 +300,7 @@ permissionManager
 testExactPermissionFromPrincipal
 (
 principal
-aPermission
+aPermName
 )
 ;
 switch
@@ -382,8 +382,8 @@ set
 function
 set
 (
-aPermission
-aValue
+aPermName
+aPermValue
 aManifestURL
 aOrigin
 aBrowserFlag
@@ -398,7 +398,7 @@ with
 :
 "
 +
-aPermission
+aPermName
 +
 "
 "
@@ -413,7 +413,7 @@ aOrigin
 "
 "
 +
-aValue
+aPermValue
 +
 "
 "
@@ -436,7 +436,7 @@ AddPermission
 {
 type
 :
-aPermission
+aPermName
 origin
 :
 aOrigin
@@ -445,7 +445,7 @@ manifestURL
 aManifestURL
 value
 :
-aValue
+aPermValue
 browserFlag
 :
 aBrowserFlag
@@ -456,6 +456,7 @@ aBrowserFlag
 init
 :
 function
+init
 (
 aWindow
 )
