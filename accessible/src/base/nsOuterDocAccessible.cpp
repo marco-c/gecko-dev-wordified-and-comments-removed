@@ -188,6 +188,7 @@ if
 (
 aWhichChild
 =
+=
 eDeepestChild
 )
 return
