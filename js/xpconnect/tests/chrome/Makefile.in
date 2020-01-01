@@ -281,6 +281,10 @@ file_evalInSandbox
 .
 html
 \
+test_evalInWindow
+.
+xul
+\
 test_exnstack
 .
 xul

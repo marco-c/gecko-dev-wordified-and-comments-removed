@@ -248,6 +248,14 @@ JSObject
 obj
 )
 ;
+bool
+IsReflector
+(
+JSObject
+*
+obj
+)
+;
 }
 namespace
 JS
