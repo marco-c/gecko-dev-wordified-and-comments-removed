@@ -1230,7 +1230,7 @@ Bailout
 ;
 masm
 .
-finalizeABICall
+finishABICall
 (
 )
 ;
@@ -1437,6 +1437,12 @@ ThunkToInterpreter
 ;
 masm
 .
+finishABICall
+(
+)
+;
+masm
+.
 popValue
 (
 JSReturnOperand
@@ -1514,7 +1520,7 @@ HandleException
 ;
 masm
 .
-finalizeABICall
+finishABICall
 (
 )
 ;
