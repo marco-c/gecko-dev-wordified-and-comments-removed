@@ -1675,6 +1675,12 @@ dataTransfer
 ;
 if
 (
+expectedDragData
+=
+=
+null
+|
+|
 dataTransfer
 .
 mozItemCount
@@ -1683,12 +1689,6 @@ mozItemCount
 expectedDragData
 .
 length
-|
-|
-expectedDragData
-=
-=
-null
 )
 throw
 dataTransfer
