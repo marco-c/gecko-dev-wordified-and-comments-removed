@@ -958,7 +958,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Removing
@@ -992,7 +992,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Asked
