@@ -20,6 +20,8 @@ h
 #
 include
 "
+methodjit
+/
 MachineRegs
 .
 h
@@ -38,6 +40,10 @@ h
 #
 include
 "
+methodjit
+/
+nunbox
+/
 FrameEntry
 .
 h

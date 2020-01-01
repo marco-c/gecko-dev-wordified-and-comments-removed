@@ -1,6 +1,8 @@
 #
 include
 "
+methodjit
+/
 MethodJIT
 .
 h
@@ -8,6 +10,8 @@ h
 #
 include
 "
+methodjit
+/
 Compiler
 .
 h

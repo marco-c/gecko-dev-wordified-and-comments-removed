@@ -20,6 +20,8 @@ h
 #
 include
 "
+methodjit
+/
 MachineRegs
 .
 h

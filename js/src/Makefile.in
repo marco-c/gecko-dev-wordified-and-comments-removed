@@ -1477,6 +1477,14 @@ srcdir
 )
 /
 methodjit
+\
+(
+srcdir
+)
+/
+methodjit
+/
+nunbox
 CPPSRCS
 +
 =
@@ -1524,7 +1532,7 @@ Compiler
 .
 cpp
 \
-CodeGen_NaN32
+CodeGenerator
 .
 cpp
 \
@@ -1539,11 +1547,6 @@ cpp
 (
 NULL
 )
-#
-CodeGenerator
-.
-cpp
-\
 #
 PICStubCompiler
 .
