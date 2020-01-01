@@ -3,6 +3,10 @@ use
 strict
 "
 ;
+this
+.
+safeErrorString
+=
 function
 safeErrorString
 (
@@ -54,6 +58,10 @@ description
 "
 ;
 }
+this
+.
+reportException
+=
 function
 reportException
 (
@@ -132,6 +140,10 @@ msg
 ;
 }
 }
+this
+.
+makeInfallible
+=
 function
 makeInfallible
 (
