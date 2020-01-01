@@ -6029,15 +6029,8 @@ HOST_LIBS
 HOST_EXTRA_LIBS
 )
 else
-ifneq
-(
-(
+ifdef
 HOST_CPPSRCS
-)
-(
-USE_HOST_CXX
-)
-)
 (
 HOST_CXX
 )
@@ -6773,6 +6766,8 @@ SUB_LOBJS
 endif
 ifdef
 HAVE_DTRACE
+ifndef
+XP_MACOSX
 ifdef
 DTRACE_PROBE_OBJ
 ifndef
@@ -6804,6 +6799,7 @@ DTRACE_PROBE_OBJ
 (
 OBJS
 )
+endif
 endif
 endif
 endif
@@ -7065,6 +7061,8 @@ CLEANUP2
 )
 ;
 done
+ifndef
+XP_MACOSX
 dtrace
 -
 G
@@ -7085,6 +7083,7 @@ DTRACE_PROBE_OBJ
 (
 PROBE_LOBJS
 )
+endif
 for
 lib
 in
