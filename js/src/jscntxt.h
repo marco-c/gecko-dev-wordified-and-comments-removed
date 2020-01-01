@@ -3306,6 +3306,14 @@ resolvingList
 bool
 generatingError
 ;
+#
+ifdef
+DEBUG
+bool
+rootingUnnecessary
+;
+#
+endif
 JSCompartment
 *
 compartment

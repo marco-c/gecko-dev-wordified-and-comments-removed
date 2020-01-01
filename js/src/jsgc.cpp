@@ -20662,6 +20662,17 @@ gcExactScanningEnabled
 )
 return
 ;
+JS_ASSERT
+(
+!
+cx
+-
+>
+rootingUnnecessary
+)
+;
+return
+;
 AutoCopyFreeListToArenas
 copy
 (
