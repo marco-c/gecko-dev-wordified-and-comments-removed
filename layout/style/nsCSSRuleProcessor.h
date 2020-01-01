@@ -54,6 +54,12 @@ ClearRuleCascades
 (
 )
 ;
+static
+void
+Shutdown
+(
+)
+;
 NS_IMETHOD
 RulesMatching
 (
