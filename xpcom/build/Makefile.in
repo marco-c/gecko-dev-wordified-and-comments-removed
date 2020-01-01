@@ -951,6 +951,14 @@ nsXPCOMCIDInternal
 .
 h
 \
+xrecore
+.
+h
+\
+nsXULAppAPI
+.
+h
+\
 (
 NULL
 )
