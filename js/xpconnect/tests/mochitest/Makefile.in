@@ -313,6 +313,10 @@ test_bug745483
 .
 html
 \
+file_bug758563
+.
+html
+\
 file_nodelists
 .
 html
