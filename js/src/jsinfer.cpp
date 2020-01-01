@@ -21909,6 +21909,15 @@ slotSpan
 (
 )
 ;
+RootedValue
+value
+(
+cx
+UndefinedValue
+(
+)
+)
+;
 if
 (
 !
@@ -21917,9 +21926,7 @@ DefineNativeProperty
 cx
 obj
 id
-UndefinedValue
-(
-)
+value
 NULL
 NULL
 JSPROP_ENUMERATE

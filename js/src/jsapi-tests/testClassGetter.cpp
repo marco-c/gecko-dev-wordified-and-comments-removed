@@ -28,8 +28,10 @@ JS
 :
 HandleId
 id
-jsval
-*
+JS
+:
+:
+MutableHandleValue
 vp
 )
 {

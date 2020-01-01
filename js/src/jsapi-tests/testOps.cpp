@@ -19,8 +19,10 @@ HandleObject
 obj
 JSType
 type
-jsval
-*
+JS
+:
+:
+MutableHandleValue
 rval
 )
 {
@@ -55,6 +57,10 @@ JS_NewNumberValue
 context
 123
 rval
+.
+address
+(
+)
 )
 ;
 return

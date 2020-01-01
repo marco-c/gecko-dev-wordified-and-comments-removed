@@ -694,8 +694,7 @@ HandleObject
 obj
 Value
 idval
-Value
-*
+MutableHandleValue
 vp
 )
 ;

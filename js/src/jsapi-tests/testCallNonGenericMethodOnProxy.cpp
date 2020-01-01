@@ -98,7 +98,9 @@ args
 rval
 (
 )
-=
+.
+set
+(
 JS_GetReservedSlot
 (
 &
@@ -112,6 +114,7 @@ toObject
 (
 )
 CUSTOM_SLOT
+)
 )
 ;
 return

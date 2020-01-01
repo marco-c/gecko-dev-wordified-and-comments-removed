@@ -496,7 +496,7 @@ bool
 *
 aIsNumber
 =
-nullptr
+nsnull
 )
 ;
 static
@@ -1274,7 +1274,7 @@ GetGlobalJSObject
 )
 =
 =
-nullptr
+nsnull
 "
 Multiple
 wrappers
@@ -1436,8 +1436,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-jsval
-*
+JSMutableHandleValue
 vp
 )
 ;
@@ -1452,8 +1451,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-jsval
-*
+JSMutableHandleValue
 vp
 )
 ;
@@ -1470,8 +1468,7 @@ JSHandleId
 id
 JSBool
 strict
-jsval
-*
+JSMutableHandleValue
 vp
 )
 ;
@@ -2908,8 +2905,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-jsval
-*
+JSMutableHandleValue
 vp
 )
 ;
@@ -2967,8 +2963,7 @@ JSHandleObject
 obj
 JSHandleId
 id
-jsval
-*
+JSMutableHandleValue
 vp
 )
 ;
@@ -5347,8 +5342,8 @@ INT_TO_JSVAL
 (
 0x0BA2
 )
-nullptr
-nullptr
+nsnull
+nsnull
 JSPROP_ENUMERATE
 )
 )

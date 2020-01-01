@@ -105,7 +105,7 @@ charset
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 char
@@ -138,7 +138,7 @@ result
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 memcpy
@@ -188,8 +188,7 @@ JSHandleObject
 aObj
 JSHandleId
 aId
-jsval
-*
+JSMutableHandleValue
 aVp
 )
 {
@@ -337,6 +336,10 @@ aCx
 aObj
 aId
 aVp
+.
+address
+(
+)
 )
 ;
 }
