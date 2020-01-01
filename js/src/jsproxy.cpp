@@ -473,7 +473,7 @@ return
 ExternalGetOrSet
 (
 cx
-proxy
+receiver
 id
 CastAsObjectJsval
 (
@@ -538,7 +538,7 @@ cx
 desc
 .
 getter
-proxy
+receiver
 id
 vp
 )
@@ -643,7 +643,7 @@ return
 ExternalGetOrSet
 (
 cx
-proxy
+receiver
 id
 CastAsObjectJsval
 (
@@ -682,7 +682,7 @@ cx
 desc
 .
 setter
-proxy
+receiver
 id
 vp
 )
@@ -779,7 +779,7 @@ return
 ExternalGetOrSet
 (
 cx
-proxy
+receiver
 id
 CastAsObjectJsval
 (
@@ -818,7 +818,7 @@ cx
 desc
 .
 setter
-proxy
+receiver
 id
 vp
 )
@@ -5276,6 +5276,9 @@ cx
 JSObject
 *
 obj
+JSObject
+*
+receiver
 jsid
 id
 Value
@@ -5291,7 +5294,7 @@ get
 (
 cx
 obj
-obj
+receiver
 id
 vp
 )
@@ -5307,6 +5310,9 @@ cx
 JSObject
 *
 obj
+JSObject
+*
+receiver
 jsid
 id
 Value
@@ -5324,7 +5330,7 @@ set
 (
 cx
 obj
-obj
+receiver
 id
 vp
 )
