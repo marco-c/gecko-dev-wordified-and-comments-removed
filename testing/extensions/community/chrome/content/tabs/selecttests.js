@@ -5,6 +5,9 @@ var
 handleCancel
 ;
 var
+handleOK
+;
+var
 sTestrunsWrapper
 ;
 var
@@ -45,6 +48,15 @@ window
 arguments
 [
 1
+]
+;
+handleOK
+=
+window
+.
+arguments
+[
+2
 ]
 ;
 }
@@ -525,6 +537,10 @@ OK
 (
 )
 {
+handleOK
+(
+)
+;
 return
 true
 ;
