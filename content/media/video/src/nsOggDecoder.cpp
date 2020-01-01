@@ -4291,6 +4291,10 @@ mStepDecodeThread
 nsnull
 ;
 }
+StopPlayback
+(
+)
+;
 while
 (
 !
