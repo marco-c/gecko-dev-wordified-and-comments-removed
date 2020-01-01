@@ -332,6 +332,11 @@ compileAndGo
 :
 1
 ;
+bool
+usesEval
+:
+1
+;
 jsbytecode
 *
 main
