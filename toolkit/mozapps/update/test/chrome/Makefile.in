@@ -370,6 +370,14 @@ test_0151_notify_backgroundCheckError
 .
 xul
 \
+test_0161_check_unsupported
+.
+xul
+\
+test_0162_notify_unsupported
+.
+xul
+\
 test_0900_deprecatedUpdateFormat_minor
 .
 xul
