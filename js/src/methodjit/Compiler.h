@@ -2445,6 +2445,16 @@ which
 )
 ;
 #
+else
+void
+typeCheckPopped
+(
+int
+which
+)
+{
+}
+#
 endif
 struct
 BarrierState
