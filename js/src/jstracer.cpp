@@ -44687,9 +44687,6 @@ imacpc
 {
 atoms
 =
-cx
--
->
 fp
 -
 >
