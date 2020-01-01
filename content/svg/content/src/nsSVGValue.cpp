@@ -329,9 +329,16 @@ wr
 =
 0
 )
+{
+NS_RELEASE
+(
+wr
+)
+;
 return
 NS_OK
 ;
+}
 mObservers
 .
 AppendElement
