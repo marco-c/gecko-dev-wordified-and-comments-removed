@@ -2623,13 +2623,6 @@ JS_BIT
 (
 13
 )
-#
-define
-JSOPTION_METHODJIT
-JS_BIT
-(
-14
-)
 extern
 JS_PUBLIC_API
 (
@@ -4985,8 +4978,6 @@ JSCLASS_IS_GLOBAL
 JSCLASS_HAS_RESERVED_SLOTS
 (
 JSProto_LIMIT
-*
-2
 )
 )
 #
@@ -10623,10 +10614,6 @@ double
 d
 )
 {
-ASSERT_DOUBLE_ALIGN
-(
-)
-;
 data
 =
 DOUBLE_TO_JSVAL_IMPL
@@ -10641,10 +10628,6 @@ asDoubleRef
 (
 )
 {
-ASSERT_DOUBLE_ALIGN
-(
-)
-;
 JS_ASSERT
 (
 isDouble
@@ -11487,10 +11470,6 @@ JS_ASSERT
 isDouble
 (
 )
-)
-;
-ASSERT_DOUBLE_ALIGN
-(
 )
 ;
 return
