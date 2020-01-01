@@ -121,6 +121,16 @@ mUnique
 ;
 }
 bool
+IsMultiEntry
+(
+)
+const
+{
+return
+mMultiEntry
+;
+}
+bool
 IsAutoIncrement
 (
 )
@@ -182,6 +192,9 @@ mKeyPath
 ;
 bool
 mUnique
+;
+bool
+mMultiEntry
 ;
 bool
 mAutoIncrement
