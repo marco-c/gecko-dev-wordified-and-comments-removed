@@ -18,7 +18,7 @@ gecko
 .
 sync
 .
-InfoCollections
+ExtendedJSONObject
 ;
 import
 org
@@ -35,14 +35,14 @@ SyncStorageResponse
 ;
 public
 interface
-InfoCollectionsDelegate
+JSONRecordFetchDelegate
 {
 public
 void
 handleSuccess
 (
-InfoCollections
-global
+ExtendedJSONObject
+body
 )
 ;
 public

@@ -58,7 +58,7 @@ socketTimeoutInMillis
 =
 1000
 *
-5
+2
 *
 60
 ;

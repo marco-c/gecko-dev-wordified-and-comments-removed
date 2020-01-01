@@ -332,6 +332,16 @@ true
 ;
 }
 public
+boolean
+shouldSkip
+(
+)
+{
+return
+false
+;
+}
+public
 void
 setStoreDelegate
 (

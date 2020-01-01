@@ -298,7 +298,7 @@ sync
 /
 delegates
 /
-InfoCollectionsDelegate
+JSONRecordFetchDelegate
 .
 java
 sync
@@ -345,6 +345,11 @@ java
 sync
 /
 InfoCollections
+.
+java
+sync
+/
+InfoCounts
 .
 java
 sync
@@ -551,6 +556,11 @@ sync
 jpake
 /
 Zkp
+.
+java
+sync
+/
+JSONRecordFetcher
 .
 java
 sync
@@ -1760,6 +1770,13 @@ sync
 stage
 /
 PasswordsServerSyncStage
+.
+java
+sync
+/
+stage
+/
+SafeConstrainedServer11Repository
 .
 java
 sync
