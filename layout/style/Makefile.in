@@ -750,6 +750,10 @@ nsRuleNode
 .
 cpp
 \
+nsStyleAnimation
+.
+cpp
+\
 nsStyleContext
 .
 cpp
