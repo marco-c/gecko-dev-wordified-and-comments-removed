@@ -5405,7 +5405,7 @@ JS_DEFAULT_SCRIPT_STACK_QUOTA
 (
 size_t
 )
-0x2000000
+0x8000000
 )
 typedef
 void
@@ -9071,8 +9071,6 @@ fh
 JSPrincipals
 *
 principals
-JSVersion
-version
 )
 ;
 extern
