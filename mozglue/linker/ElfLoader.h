@@ -10,6 +10,13 @@ include
 vector
 >
 #
+include
+<
+dlfcn
+.
+h
+>
+#
 undef
 DEBUG
 #
