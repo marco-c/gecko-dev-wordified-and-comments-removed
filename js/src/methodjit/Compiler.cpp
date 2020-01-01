@@ -24001,6 +24001,11 @@ MICInfo
 GET
 )
 ;
+RESERVE_IC_SPACE
+(
+masm
+)
+;
 RegisterID
 objReg
 ;
@@ -24577,6 +24582,11 @@ MICInfo
 :
 :
 SET
+)
+;
+RESERVE_IC_SPACE
+(
+masm
 )
 ;
 RegisterID
