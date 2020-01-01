@@ -43,12 +43,6 @@ Ci
 nsIIDBOpenDBRequest
 ;
 const
-IDBVersionChangeEvent
-=
-Ci
-.
-nsIIDBVersionChangeEvent
-const
 IDBDatabase
 =
 Ci

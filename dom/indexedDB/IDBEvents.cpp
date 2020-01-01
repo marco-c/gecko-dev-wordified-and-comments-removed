@@ -217,7 +217,7 @@ forget
 }
 already_AddRefed
 <
-nsDOMEvent
+IDBVersionChangeEvent
 >
 IDBVersionChangeEvent
 :
