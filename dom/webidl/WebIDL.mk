@@ -131,6 +131,10 @@ ClientRectList
 .
 webidl
 \
+Comment
+.
+webidl
+\
 CSS
 .
 webidl
