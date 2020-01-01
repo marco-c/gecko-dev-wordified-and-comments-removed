@@ -76,6 +76,9 @@ class
 GainNode
 ;
 class
+DelayNode
+;
+class
 AudioContext
 MOZ_FINAL
 :
@@ -195,6 +198,16 @@ GainNode
 >
 CreateGain
 (
+)
+;
+already_AddRefed
+<
+DelayNode
+>
+CreateDelay
+(
+float
+aMaxDelayTime
 )
 ;
 private

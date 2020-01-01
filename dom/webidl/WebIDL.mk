@@ -119,6 +119,10 @@ CSSStyleDeclaration
 .
 webidl
 \
+DelayNode
+.
+webidl
+\
 DOMImplementation
 .
 webidl

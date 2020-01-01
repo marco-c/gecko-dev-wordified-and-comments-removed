@@ -127,6 +127,10 @@ AudioSourceNode
 .
 cpp
 \
+DelayNode
+.
+cpp
+\
 EnableWebAudioCheck
 .
 cpp
@@ -171,6 +175,10 @@ AudioParam
 h
 \
 AudioSourceNode
+.
+h
+\
+DelayNode
 .
 h
 \
