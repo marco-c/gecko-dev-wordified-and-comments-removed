@@ -8272,6 +8272,16 @@ aGlobalObj
 #
 ifdef
 NS_TRACE_MALLOC
+if
+(
+nsContentUtils
+:
+:
+IsCallerChrome
+(
+)
+)
+{
 :
 :
 JS_DefineFunctions
@@ -8281,6 +8291,7 @@ aGlobalObj
 TraceMallocFunctions
 )
 ;
+}
 #
 endif
 #
