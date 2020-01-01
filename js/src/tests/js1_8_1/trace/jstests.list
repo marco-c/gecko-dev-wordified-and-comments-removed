@@ -241,3 +241,7 @@ trace
 test
 .
 js
+script
+testDeepBailFromNonNative
+.
+js
