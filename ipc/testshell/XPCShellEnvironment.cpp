@@ -62,13 +62,6 @@ h
 #
 include
 "
-jsprf
-.
-h
-"
-#
-include
-"
 xpcpublic
 .
 h
