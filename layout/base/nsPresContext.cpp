@@ -7378,6 +7378,9 @@ et
 )
 )
 {
+nsAutoMicroTask
+mt
+;
 nsDOMMediaQueryList
 :
 :
