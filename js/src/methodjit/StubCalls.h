@@ -762,6 +762,15 @@ VMFrame
 f
 )
 ;
+JSBool
+JS_FASTCALL
+InstanceOf
+(
+VMFrame
+&
+f
+)
+;
 }
 }
 }
