@@ -3399,6 +3399,11 @@ UnsuppressPainting
 (
 )
 ;
+if
+(
+mPresShell
+)
+{
 mPresShell
 -
 >
@@ -3406,6 +3411,7 @@ ScrollToAnchor
 (
 )
 ;
+}
 }
 nsJSContext
 :
