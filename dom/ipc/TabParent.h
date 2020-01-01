@@ -509,6 +509,10 @@ nsRect
 &
 documentRect
 const
+gfxMatrix
+&
+transform
+const
 nsString
 &
 bgcolor

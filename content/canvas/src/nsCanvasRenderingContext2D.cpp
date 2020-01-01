@@ -16123,6 +16123,12 @@ child
 SendPDocumentRendererConstructor
 (
 rect
+mThebes
+-
+>
+CurrentMatrix
+(
+)
 nsString
 (
 aBGColor
