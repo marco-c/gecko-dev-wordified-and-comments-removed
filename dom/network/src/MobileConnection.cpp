@@ -1334,12 +1334,12 @@ NS_IMETHODIMP
 MobileConnection
 :
 :
-SendUSSD
+SendMMI
 (
 const
 nsAString
 &
-aUSSDString
+aMMIString
 nsIDOMDOMRequest
 *
 *
@@ -1360,12 +1360,12 @@ return
 mProvider
 -
 >
-SendUSSD
+SendMMI
 (
 GetOwner
 (
 )
-aUSSDString
+aMMIString
 request
 )
 ;
@@ -1374,7 +1374,7 @@ NS_IMETHODIMP
 MobileConnection
 :
 :
-CancelUSSD
+CancelMMI
 (
 nsIDOMDOMRequest
 *
@@ -1396,7 +1396,7 @@ return
 mProvider
 -
 >
-CancelUSSD
+CancelMMI
 (
 GetOwner
 (
