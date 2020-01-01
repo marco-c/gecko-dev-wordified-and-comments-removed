@@ -145,6 +145,12 @@ mDictionaryItems
 [
 ]
 ;
+this
+.
+mWordNode
+=
+null
+;
 }
 initFromEvent
 :
