@@ -7530,12 +7530,10 @@ Class
 *
 clasp
 =
-shape
+type
 -
 >
-getObjectClass
-(
-)
+clasp
 ;
 if
 (

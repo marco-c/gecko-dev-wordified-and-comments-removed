@@ -15571,10 +15571,16 @@ proto
 )
 ;
 return
-SetProto
+SetClassAndProto
 (
 cx
 obj
+obj
+-
+>
+getClass
+(
+)
 proto
 JS_FALSE
 )

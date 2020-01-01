@@ -1005,6 +1005,8 @@ proto
 getNewType
 (
 cx
+&
+DataViewClass
 )
 ;
 if

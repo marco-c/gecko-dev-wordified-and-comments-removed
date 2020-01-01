@@ -6661,6 +6661,7 @@ proto
 getNewType
 (
 cx
+clasp
 )
 )
 ;

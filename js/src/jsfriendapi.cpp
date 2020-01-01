@@ -418,6 +418,12 @@ obj
 splicePrototype
 (
 cx
+obj
+-
+>
+getClass
+(
+)
 tagged
 )
 ;
