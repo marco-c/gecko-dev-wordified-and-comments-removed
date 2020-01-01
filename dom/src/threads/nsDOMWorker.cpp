@@ -3969,6 +3969,10 @@ mWrappedNative
 (
 nsnull
 )
+mErrorHandlerRecursionCount
+(
+0
+)
 mCanceled
 (
 PR_FALSE

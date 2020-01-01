@@ -603,6 +603,14 @@ threadTimeouts_worker
 .
 js
 \
+test_throwingOnerror
+.
+html
+\
+throwingOnerror_worker
+.
+js
+\
 test_xhr
 .
 html

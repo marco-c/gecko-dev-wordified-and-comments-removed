@@ -616,6 +616,9 @@ nsIURI
 >
 mURI
 ;
+PRInt32
+mErrorHandlerRecursionCount
+;
 PRPackedBool
 mCanceled
 ;
