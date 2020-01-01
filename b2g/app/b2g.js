@@ -3650,6 +3650,16 @@ true
 pref
 (
 "
+dom
+.
+experimental_forms
+"
+true
+)
+;
+pref
+(
+"
 gfx
 .
 gralloc

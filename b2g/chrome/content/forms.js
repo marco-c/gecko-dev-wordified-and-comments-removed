@@ -1093,11 +1093,6 @@ typeLowerCase
 {
 case
 "
-number
-"
-:
-case
-"
 date
 "
 :
