@@ -710,6 +710,16 @@ numFrames
 1
 )
 ;
+mImage
+.
+SetFrameAsNonPremult
+(
+numFrames
+-
+1
+true
+)
+;
 PostInvalidation
 (
 mFrameRect

@@ -67,6 +67,13 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_ICANVASELEMENTEXTERNAL_IID
 )
+enum
+{
+RenderFlagPremultAlpha
+=
+0x1
+}
+;
 NS_IMETHOD_
 (
 nsIntSize
@@ -88,6 +95,10 @@ gfxPattern
 :
 GraphicsFilter
 aFilter
+PRUint32
+aFlags
+=
+RenderFlagPremultAlpha
 )
 =
 0

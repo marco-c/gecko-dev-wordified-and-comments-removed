@@ -1,14 +1,5 @@
 conformance
 /
-context
-/
-premultiplyalpha
--
-test
-.
-html
-conformance
-/
 misc
 /
 uninitialized
