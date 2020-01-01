@@ -352,7 +352,7 @@ COMPARE_FLAGS_BRIEF
 =
 1
 ;
-long
+boolean
 compareFrameModels
 (
 in

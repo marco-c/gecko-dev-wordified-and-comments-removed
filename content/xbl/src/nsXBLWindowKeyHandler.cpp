@@ -1896,7 +1896,7 @@ stopped
 )
 {
 return
-NS_OK
+false
 ;
 }
 if

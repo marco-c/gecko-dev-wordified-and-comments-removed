@@ -2432,7 +2432,7 @@ adapterDriverVersionString
 )
 {
 return
-NS_OK
+0
 ;
 }
 PRUint64
