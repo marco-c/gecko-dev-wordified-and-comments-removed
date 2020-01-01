@@ -802,6 +802,10 @@ mGLMaxDrawBuffers
 =
 1
 ;
+mGLMaxTransformFeedbackSeparateAttribs
+=
+0
+;
 mPixelStorePackAlignment
 =
 4
@@ -1060,6 +1064,10 @@ Clear
 )
 ;
 mBoundArrayBuffer
+=
+nullptr
+;
+mBoundTransformFeedbackBuffer
 =
 nullptr
 ;
