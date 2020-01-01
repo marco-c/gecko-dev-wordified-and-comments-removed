@@ -2074,8 +2074,6 @@ MAryControlInstruction
 <
 1
 >
-public
-BoxInputsPolicy
 {
 MTest
 (
@@ -2160,16 +2158,6 @@ getSuccessor
 (
 1
 )
-;
-}
-TypePolicy
-*
-typePolicy
-(
-)
-{
-return
-this
 ;
 }
 }
@@ -2962,11 +2950,6 @@ MPhi
 :
 public
 MDefinition
-public
-InlineForwardListNode
-<
-MPhi
->
 {
 js
 :
