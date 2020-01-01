@@ -1781,9 +1781,7 @@ cx
 BaseProxyHandler
 *
 handler
-const
-Value
-&
+HandleValue
 priv
 JSObject
 *
