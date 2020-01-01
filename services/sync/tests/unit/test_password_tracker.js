@@ -751,6 +751,8 @@ repository
 getLogger
 (
 "
+Sync
+.
 Engine
 .
 Passwords
@@ -772,6 +774,8 @@ repository
 getLogger
 (
 "
+Sync
+.
 Store
 .
 Passwords
@@ -793,6 +797,8 @@ repository
 getLogger
 (
 "
+Sync
+.
 Tracker
 .
 Passwords
