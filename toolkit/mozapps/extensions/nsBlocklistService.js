@@ -1222,10 +1222,15 @@ null
 return
 defaultPrefs
 .
-getCharPref
+getComplexPref
 (
 PREF_GENERAL_USERAGENT_LOCALE
+Ci
+.
+nsIPrefLocalizedString
 )
+.
+data
 ;
 }
 catch
