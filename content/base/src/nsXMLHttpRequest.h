@@ -1488,7 +1488,7 @@ mProgressEventWasDelayed
 PRPackedBool
 mLoadLengthComputable
 ;
-PRUint32
+PRUint64
 mLoadTotal
 ;
 nsCOMPtr
