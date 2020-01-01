@@ -441,14 +441,6 @@ test_keycodes
 .
 xul
 \
-test_wheeltransaction
-.
-xul
-\
-window_wheeltransaction
-.
-xul
-\
 (
 NULL
 )
