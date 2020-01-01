@@ -1680,10 +1680,7 @@ gtk_entry_new
 ;
 g_object_ref_sink
 (
-GTK_OBJECT
-(
 entry
-)
 )
 ;
 settings
@@ -1844,10 +1841,7 @@ NULL
 ;
 g_object_ref_sink
 (
-GTK_OBJECT
-(
 box
-)
 )
 ;
 aMetric
@@ -2355,10 +2349,7 @@ gtk_menu_new
 ;
 g_object_ref_sink
 (
-GTK_OBJECT
-(
 menu
-)
 )
 ;
 gtk_container_add
