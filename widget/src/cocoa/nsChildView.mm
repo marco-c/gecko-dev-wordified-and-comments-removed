@@ -10125,6 +10125,7 @@ arrayWithObjects
 NSFilenamesPboardType
 NSStringPboardType
 NSURLPboardType
+kWildcardPboardType
 nil
 ]
 ]
