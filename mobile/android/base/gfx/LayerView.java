@@ -968,6 +968,14 @@ getView
 (
 )
 ;
+layerView
+.
+mListener
+.
+compositorCreated
+(
+)
+;
 return
 layerView
 .
@@ -1007,6 +1015,11 @@ public
 interface
 Listener
 {
+void
+compositorCreated
+(
+)
+;
 void
 renderRequested
 (
