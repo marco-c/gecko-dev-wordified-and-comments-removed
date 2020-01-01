@@ -65,7 +65,7 @@ h
 #
 include
 "
-nsGkAtoms
+gfxAtoms
 .
 h
 "
@@ -15096,10 +15096,10 @@ groupAtom
 {
 groupAtom
 =
-nsGkAtoms
+gfxAtoms
 :
 :
-Unicode
+x_unicode
 ;
 }
 groupAtom
@@ -19394,7 +19394,7 @@ gfxFontStyle
 :
 language
 (
-nsGkAtoms
+gfxAtoms
 :
 :
 x_western
@@ -19594,7 +19594,7 @@ language
 ;
 language
 =
-nsGkAtoms
+gfxAtoms
 :
 :
 x_western

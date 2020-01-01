@@ -139,7 +139,7 @@ endif
 #
 include
 "
-nsGkAtoms
+gfxAtoms
 .
 h
 "
@@ -1735,10 +1735,10 @@ case
 :
 GetPrefFonts
 (
-nsGkAtoms
+gfxAtoms
 :
 :
-Japanese
+ja
 aFontEntryList
 )
 ;
@@ -1749,7 +1749,7 @@ case
 :
 GetPrefFonts
 (
-nsGkAtoms
+gfxAtoms
 :
 :
 zh_cn
@@ -1763,7 +1763,7 @@ case
 :
 GetPrefFonts
 (
-nsGkAtoms
+gfxAtoms
 :
 :
 ko
@@ -1777,7 +1777,7 @@ case
 :
 GetPrefFonts
 (
-nsGkAtoms
+gfxAtoms
 :
 :
 zh_tw
@@ -1820,10 +1820,10 @@ ja
 {
 GetPrefFonts
 (
-nsGkAtoms
+gfxAtoms
 :
 :
-Japanese
+ja
 aFontEntryList
 )
 ;
@@ -1844,7 +1844,7 @@ zh_cn
 {
 GetPrefFonts
 (
-nsGkAtoms
+gfxAtoms
 :
 :
 zh_cn
@@ -1868,7 +1868,7 @@ zh_hk
 {
 GetPrefFonts
 (
-nsGkAtoms
+gfxAtoms
 :
 :
 zh_hk
@@ -1892,7 +1892,7 @@ zh_tw
 {
 GetPrefFonts
 (
-nsGkAtoms
+gfxAtoms
 :
 :
 zh_tw
@@ -1916,7 +1916,7 @@ ko
 {
 GetPrefFonts
 (
-nsGkAtoms
+gfxAtoms
 :
 :
 ko
@@ -1929,16 +1929,16 @@ aFontEntryList
 endif
 GetPrefFonts
 (
-nsGkAtoms
+gfxAtoms
 :
 :
-Japanese
+ja
 aFontEntryList
 )
 ;
 GetPrefFonts
 (
-nsGkAtoms
+gfxAtoms
 :
 :
 ko
@@ -1947,7 +1947,7 @@ aFontEntryList
 ;
 GetPrefFonts
 (
-nsGkAtoms
+gfxAtoms
 :
 :
 zh_cn
@@ -1956,7 +1956,7 @@ aFontEntryList
 ;
 GetPrefFonts
 (
-nsGkAtoms
+gfxAtoms
 :
 :
 zh_hk
@@ -1965,7 +1965,7 @@ aFontEntryList
 ;
 GetPrefFonts
 (
-nsGkAtoms
+gfxAtoms
 :
 :
 zh_tw
