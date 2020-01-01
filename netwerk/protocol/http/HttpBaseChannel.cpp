@@ -1690,7 +1690,7 @@ LOG
 (
 (
 "
-nsHttpChannel
+HttpBaseChannel
 :
 :
 ApplyContentConversions
