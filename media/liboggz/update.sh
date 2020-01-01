@@ -1593,3 +1593,10 @@ p4
 seek
 .
 patch
+patch
+-
+p4
+<
+warning
+.
+patch
