@@ -506,6 +506,14 @@ PluginThreadChild
 .
 h
 \
+StreamNotifyParent
+.
+h
+\
+StreamNotifyChild
+.
+h
+\
 (
 NULL
 )

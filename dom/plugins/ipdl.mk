@@ -403,6 +403,10 @@ PBrowserStream
 .
 ipdl
 \
+PStreamNotify
+.
+ipdl
+\
 (
 NULL
 )
