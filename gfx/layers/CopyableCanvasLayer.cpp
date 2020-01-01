@@ -334,19 +334,6 @@ Flush
 (
 )
 ;
-if
-(
-mDrawTarget
--
->
-GetType
-(
-)
-=
-=
-BACKEND_COREGRAPHICS_ACCELERATED
-)
-{
 mSurface
 =
 gfxPlatform
@@ -362,7 +349,6 @@ GetThebesSurfaceForDrawTarget
 mDrawTarget
 )
 ;
-}
 }
 if
 (
