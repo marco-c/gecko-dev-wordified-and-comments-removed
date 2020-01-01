@@ -3642,6 +3642,9 @@ resetBufferedGrayRoots
 void
 markBufferedGrayRoots
 (
+JSCompartment
+*
+comp
 )
 ;
 static
