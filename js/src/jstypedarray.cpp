@@ -6107,6 +6107,7 @@ JS_ASSERT
 (
 offset
 <
+=
 length
 )
 ;

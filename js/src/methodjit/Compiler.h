@@ -369,6 +369,9 @@ addrLabel2
 Jump
 oolJump
 ;
+Label
+icCall
+;
 RegisterID
 funObjReg
 ;

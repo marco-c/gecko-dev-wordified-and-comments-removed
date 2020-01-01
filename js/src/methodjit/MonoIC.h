@@ -632,6 +632,11 @@ oolJumpOffset
 16
 ;
 uint32
+icCallOffset
+:
+16
+;
+uint32
 hotPathOffset
 :
 16
@@ -882,6 +887,8 @@ SweepCallICs
 JSScript
 *
 script
+bool
+purgeAll
 )
 ;
 }

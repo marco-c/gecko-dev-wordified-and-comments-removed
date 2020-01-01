@@ -192,6 +192,9 @@ data
 bool
 marked
 ;
+bool
+active
+;
 js
 :
 :
@@ -349,6 +352,8 @@ sweep
 JSContext
 *
 cx
+uint32
+releaseInterval
 )
 ;
 void

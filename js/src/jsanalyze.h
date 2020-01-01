@@ -98,6 +98,11 @@ inTryBlock
 1
 ;
 bool
+safePoint
+:
+1
+;
+bool
 monitorNeeded
 :
 1
