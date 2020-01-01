@@ -3932,7 +3932,7 @@ NS_ERROR
 "
 GL
 supports
-ARB_sync
+OES_EGL_image
 without
 supplying
 its
