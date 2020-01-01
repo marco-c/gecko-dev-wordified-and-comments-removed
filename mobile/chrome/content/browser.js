@@ -7120,6 +7120,12 @@ e
 )
 {
 }
+BrowserUI
+.
+closeAutoComplete
+(
+)
+;
 return
 browser
 ;
