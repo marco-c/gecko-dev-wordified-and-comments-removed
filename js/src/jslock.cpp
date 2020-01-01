@@ -5266,6 +5266,17 @@ cx
 )
 return
 ;
+JS_ASSERT
+(
+!
+scope
+-
+>
+title
+.
+ownercx
+)
+;
 LOGIT
 (
 &
