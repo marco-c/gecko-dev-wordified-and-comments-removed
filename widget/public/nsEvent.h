@@ -66,6 +66,9 @@ nsTooltipEvent
 class
 nsMenuEvent
 ;
+class
+nsSimpleGestureEvent
+;
 struct
 nsTextEventReply
 ;

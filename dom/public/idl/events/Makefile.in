@@ -537,6 +537,10 @@ nsIDOMNotifyPaintEvent
 .
 idl
 \
+nsIDOMSimpleGestureEvent
+.
+idl
+\
 (
 NULL
 )
