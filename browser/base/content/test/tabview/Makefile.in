@@ -820,6 +820,10 @@ browser_tabview_bug649319
 .
 js
 \
+browser_tabview_bug650280
+.
+js
+\
 browser_tabview_bug650573
 .
 js

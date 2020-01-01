@@ -2147,6 +2147,15 @@ hideSearch
 event
 )
 {
+if
+(
+!
+isSearchEnabled
+(
+)
+)
+return
+;
 iQ
 (
 "
