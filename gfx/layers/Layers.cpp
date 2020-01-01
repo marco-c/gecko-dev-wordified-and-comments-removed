@@ -6687,6 +6687,9 @@ aFile
 aPrefix
 )
 ;
+#
+ifdef
+MOZ_DUMP_PAINTING
 if
 (
 AsLayerComposite
@@ -6722,6 +6725,8 @@ aDumpHtml
 )
 ;
 }
+#
+endif
 if
 (
 aDumpHtml
