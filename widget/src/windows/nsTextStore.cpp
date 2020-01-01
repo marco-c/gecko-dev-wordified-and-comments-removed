@@ -5557,14 +5557,6 @@ E_FAIL
 ;
 boundRect
 .
-MoveTo
-(
-0
-0
-)
-;
-boundRect
-.
 IntersectRect
 (
 event
