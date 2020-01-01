@@ -414,7 +414,10 @@ aPresContext
 nsEvent
 *
 aEvent
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 aPoint
 mozilla
 :
@@ -436,7 +439,10 @@ aPresContext
 nsEvent
 *
 aEvent
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 aPoint
 mozilla
 :
@@ -455,7 +461,10 @@ aPresContext
 nsEvent
 *
 aEvent
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 aPoint
 )
 ;

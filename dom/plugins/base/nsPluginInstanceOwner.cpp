@@ -10717,7 +10717,7 @@ nsMouseEvent
 anEvent
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 rootPoint
 (
 -
@@ -10736,11 +10736,17 @@ anEvent
 .
 refPoint
 +
+LayoutDeviceIntPoint
+:
+:
+FromUntyped
+(
 widget
 -
 >
 WidgetToScreenOffset
 (
+)
 )
 ;
 #

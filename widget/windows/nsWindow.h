@@ -1106,17 +1106,6 @@ HDC
 dc
 )
 ;
-nsIntPoint
-*
-GetLastPoint
-(
-)
-{
-return
-&
-mLastPoint
-;
-}
 bool
 IsTopLevelWidget
 (

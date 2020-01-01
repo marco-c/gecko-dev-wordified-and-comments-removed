@@ -8939,10 +8939,16 @@ else
 {
 aPoint
 =
+LayoutDeviceIntPoint
+:
+:
+ToUntyped
+(
 aEvent
 -
 >
 refPoint
+)
 ;
 }
 return

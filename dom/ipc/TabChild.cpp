@@ -8016,7 +8016,7 @@ event
 .
 refPoint
 =
-nsIntPoint
+LayoutDeviceIntPoint
 (
 aRefPoint
 .

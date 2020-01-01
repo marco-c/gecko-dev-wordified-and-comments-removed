@@ -3964,7 +3964,7 @@ dummyEvent
 .
 refPoint
 =
-nsIntPoint
+LayoutDeviceIntPoint
 (
 aX
 -

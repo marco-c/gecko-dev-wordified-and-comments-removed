@@ -5440,7 +5440,13 @@ event
 .
 refPoint
 =
+LayoutDeviceIntPoint
+:
+:
+FromUntyped
+(
 mCachedMousePoint
+)
 ;
 event
 .

@@ -4353,7 +4353,7 @@ aKeyEvent
 .
 refPoint
 =
-nsIntPoint
+LayoutDeviceIntPoint
 (
 0
 0

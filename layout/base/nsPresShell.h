@@ -2879,7 +2879,10 @@ nsIContent
 *
 *
 aTargetToUse
-nsIntPoint
+mozilla
+:
+:
+LayoutDeviceIntPoint
 &
 aTargetPt
 nsIWidget
