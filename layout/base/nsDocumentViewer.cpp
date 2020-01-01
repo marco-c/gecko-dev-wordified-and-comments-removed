@@ -4141,6 +4141,8 @@ NS_OK
 }
 PRBool
 dummy
+=
+PR_FALSE
 ;
 PRInt32
 buttonPressed
