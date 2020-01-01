@@ -632,6 +632,12 @@ sCocoaLog
 #
 endif
 extern
+void
+EnsureLogInitialized
+(
+)
+;
+extern
 NSPasteboard
 *
 globalDragPboard
@@ -747,6 +753,10 @@ nil
 mNativeDragEvent
 =
 nil
+;
+EnsureLogInitialized
+(
+)
 ;
 }
 nsDragService

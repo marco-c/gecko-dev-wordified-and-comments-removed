@@ -582,6 +582,12 @@ sCocoaLog
 ;
 #
 endif
+extern
+void
+EnsureLogInitialized
+(
+)
+;
 nsClipboard
 :
 :
@@ -596,6 +602,10 @@ nsBaseClipboard
 mChangeCount
 =
 0
+;
+EnsureLogInitialized
+(
+)
 ;
 }
 nsClipboard
