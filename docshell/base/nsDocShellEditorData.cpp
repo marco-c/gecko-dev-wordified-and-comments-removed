@@ -95,7 +95,6 @@ mEditingSession
 TearDownEditorOnWindow
 (
 domWindow
-PR_TRUE
 )
 ;
 }

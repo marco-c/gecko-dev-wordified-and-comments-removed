@@ -268,6 +268,9 @@ PRPackedBool
 mMakeWholeDocumentEditable
 ;
 PRPackedBool
+mDisabledJSAndPlugins
+;
+PRPackedBool
 mScriptsEnabled
 ;
 PRPackedBool
