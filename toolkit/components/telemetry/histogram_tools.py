@@ -601,6 +601,20 @@ cpp_guard
         
 self
 .
+_extended_statistics_ok
+=
+definition
+.
+get
+(
+'
+extended_statistics_ok
+'
+False
+)
+        
+self
+.
 compute_bucket_parameters
 (
 definition
@@ -966,6 +980,37 @@ self
 _cpp_guard
     
 def
+extended_statistics_ok
+(
+self
+)
+:
+        
+"
+"
+"
+Return
+True
+if
+gathering
+extended
+statistics
+for
+this
+histogram
+is
+enabled
+.
+"
+"
+"
+        
+return
+self
+.
+_extended_statistics_ok
+    
+def
 ranges
 (
 self
@@ -1204,6 +1249,12 @@ exponential
 '
 :
 general_keys
++
+[
+'
+extended_statistics_ok
+'
+]
             
 }
         

@@ -389,6 +389,8 @@ s
 d
 %
 d
+%
+s
 }
 "
 \
@@ -419,6 +421,20 @@ nsITelemetry_kind
            
 name_index
 desc_index
+           
+"
+true
+"
+if
+histogram
+.
+extended_statistics_ok
+(
+)
+else
+"
+false
+"
 )
     
 if
