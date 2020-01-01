@@ -8754,6 +8754,7 @@ DISPLAY_INIT_OFFSETS
 frame
 this
 aHorizontalPercentBasis
+aVerticalPercentBasis
 aBorder
 aPadding
 )
