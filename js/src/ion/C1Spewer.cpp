@@ -922,6 +922,13 @@ lir
 (
 )
 ;
+if
+(
+!
+lir
+)
+return
+;
 for
 (
 size_t
