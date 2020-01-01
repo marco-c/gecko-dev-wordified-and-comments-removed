@@ -6693,6 +6693,13 @@ onSaveInstanceState
 outState
 )
 ;
+mToast
+.
+onSaveInstanceState
+(
+outState
+)
+;
 outState
 .
 putBoolean
