@@ -1174,6 +1174,11 @@ tests
 Makefile
 intl
 /
+locales
+/
+Makefile
+intl
+/
 lwbrk
 /
 Makefile
