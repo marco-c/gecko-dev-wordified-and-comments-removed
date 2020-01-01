@@ -438,6 +438,8 @@ DIRS
 \
 data
 \
+unit
+\
 (
 NULL
 )
@@ -455,6 +457,18 @@ _TEST_FILES
 =
 \
 index
+.
+html
+\
+offset
+.
+html
+\
+test
+.
+js
+\
+fix
 .
 html
 \
