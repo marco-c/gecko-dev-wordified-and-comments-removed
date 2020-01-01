@@ -13,9 +13,6 @@ mozilla
 namespace
 ipc
 {
-class
-nsCString
-;
 bool
 StartDBus
 (

@@ -209,6 +209,10 @@ BluetoothReplyRunnable
 .
 cpp
 \
+BluetoothPropertyContainer
+.
+cpp
+\
 (
 NULL
 )
