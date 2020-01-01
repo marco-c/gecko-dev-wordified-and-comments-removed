@@ -750,6 +750,15 @@ SetReferrer
 referrer
 )
 ;
+PRBool
+tmpState
+=
+mNeedsAsyncDestroy
+;
+mNeedsAsyncDestroy
+=
+PR_TRUE
+;
 rv
 =
 mDocShell
@@ -765,6 +774,10 @@ nsIWebNavigation
 LOAD_FLAGS_NONE
 PR_FALSE
 )
+;
+mNeedsAsyncDestroy
+=
+tmpState
 ;
 mURIToLoad
 =
@@ -3164,7 +3177,7 @@ nsnull
 if
 (
 (
-mInDestructor
+mNeedsAsyncDestroy
 |
 |
 !
