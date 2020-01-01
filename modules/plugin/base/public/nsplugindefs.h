@@ -157,12 +157,6 @@ NS_INFO_OriginalFilename
 #
 ifndef
 RC_INVOKED
-typedef
-const
-char
-*
-nsMIMEType
-;
 struct
 nsByteRange
 {

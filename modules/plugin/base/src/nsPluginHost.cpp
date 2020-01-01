@@ -2392,7 +2392,8 @@ mInstance
 )
 continue
 ;
-nsMIMEType
+char
+*
 mt
 ;
 nsresult
@@ -5085,7 +5086,8 @@ NS_DECL_ISUPPORTS
 NS_IMETHOD
 GetContentType
 (
-nsMIMEType
+char
+*
 *
 result
 )
@@ -5151,7 +5153,8 @@ void
 SetContentType
 (
 const
-nsMIMEType
+char
+*
 contentType
 )
 ;
@@ -5619,7 +5622,8 @@ nsPluginStreamInfo
 :
 GetContentType
 (
-nsMIMEType
+char
+*
 *
 result
 )
@@ -6234,7 +6238,8 @@ nsPluginStreamInfo
 SetContentType
 (
 const
-nsMIMEType
+char
+*
 contentType
 )
 {

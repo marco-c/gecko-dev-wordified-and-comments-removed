@@ -562,7 +562,7 @@ in
 nsIPluginInstanceOwner
 aOwner
 in
-nsMIMEType
+string
 aMIMEType
 )
 ;
@@ -943,7 +943,7 @@ void
 newStreamFromPlugin
 (
 in
-nsMIMEType
+string
 aType
 in
 string
@@ -1299,7 +1299,7 @@ successful
 /
 readonly
 attribute
-nsMIMEType
+string
 MIMEType
 ;
 /

@@ -444,7 +444,8 @@ PopupControlState
 >
 mPopupStates
 ;
-nsMIMEType
+char
+*
 mMIMEType
 ;
 nsIPluginInstanceOwner

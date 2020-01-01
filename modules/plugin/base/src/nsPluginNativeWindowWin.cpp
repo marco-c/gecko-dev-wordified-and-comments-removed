@@ -699,7 +699,8 @@ if
 inst
 )
 {
-nsMIMEType
+char
+*
 mimetype
 =
 nsnull

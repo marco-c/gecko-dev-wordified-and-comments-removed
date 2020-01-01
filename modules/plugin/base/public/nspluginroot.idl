@@ -518,12 +518,6 @@ nsPluginStreamType
 )
 ;
 native
-nsMIMEType
-(
-nsMIMEType
-)
-;
-native
 nsPluginWindow
 (
 nsPluginWindow
