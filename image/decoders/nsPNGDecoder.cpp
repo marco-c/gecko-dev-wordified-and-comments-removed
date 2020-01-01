@@ -2271,6 +2271,8 @@ png_ptr
 ;
 qcms_data_type
 inType
+=
+QCMS_DATA_RGBA_8
 ;
 uint32_t
 intent
