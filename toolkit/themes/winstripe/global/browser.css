@@ -179,6 +179,8 @@ important
 margin
 :
 0px
+0px
+1px
 !
 important
 ;
@@ -199,12 +201,6 @@ height
 22px
 !
 important
-;
-margin
--
-bottom
-:
-1px
 ;
 }
 .
