@@ -812,6 +812,11 @@ e
 )
 {
 }
+if
+(
+crashID
+)
+{
 this
 .
 sendChromeEvent
@@ -833,6 +838,7 @@ isChrome
 }
 )
 ;
+}
 }
 submitQueuedCrashes
 :
