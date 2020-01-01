@@ -1335,6 +1335,15 @@ haspopup
 )
 ACCESSIBILITY_ATOM
 (
+aria_hidden
+"
+aria
+-
+hidden
+"
+)
+ACCESSIBILITY_ATOM
+(
 aria_invalid
 "
 aria

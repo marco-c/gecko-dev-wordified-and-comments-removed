@@ -1386,6 +1386,14 @@ ATTR_VALTOKEN
 nsAccessibilityAtoms
 :
 :
+aria_hidden
+ATTR_VALTOKEN
+}
+{
+&
+nsAccessibilityAtoms
+:
+:
 aria_invalid
 ATTR_BYPASSOBJ
 |

@@ -62,6 +62,13 @@ nsIAccessibleStates
 STATE_INVALID
 ;
 const
+STATE_INVISIBLE
+=
+nsIAccessibleStates
+.
+STATE_INVISIBLE
+;
+const
 STATE_LINKED
 =
 nsIAccessibleStates
