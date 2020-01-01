@@ -16763,6 +16763,17 @@ cairo_addref_device
 device
 )
 ;
+d2d_device
+-
+>
+mVRAMUsage
++
+=
+_cairo_d2d_compute_surface_mem_size
+(
+newSurf
+)
+;
 return
 &
 newSurf
