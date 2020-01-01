@@ -2336,6 +2336,8 @@ party
 GeckoView
 consumers
 .
+ifndef
+MOZ_DISABLE_GECKOVIEW
 INNER_MAKE_GECKOVIEW_LIBRARY
 =
 \
@@ -2358,6 +2360,18 @@ ABI_DIR
 (
 ABI_DIR
 )
+else
+INNER_MAKE_GECKOVIEW_LIBRARY
+=
+echo
+'
+GeckoView
+library
+packaging
+is
+disabled
+'
+endif
 ifdef
 MOZ_OMX_PLUGIN
 DIST_FILES
