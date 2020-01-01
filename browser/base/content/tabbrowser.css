@@ -344,3 +344,13 @@ ease
 out
 ;
 }
+browser
+[
+pending
+]
+{
+display
+:
+none
+;
+}
