@@ -407,9 +407,9 @@ MOZ_APP_UA_NAME
 Fennec
 MOZ_APP_VERSION
 =
-4
+6
 .
-1a1pre
+0a1
 MOZ_BRANDING_DIRECTORY
 =
 mobile
