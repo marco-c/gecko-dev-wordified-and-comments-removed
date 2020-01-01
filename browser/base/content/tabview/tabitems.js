@@ -6907,11 +6907,17 @@ contentWindow
 let
 maxWidth
 =
+Math
+.
+max
+(
+1
 win
 .
 innerWidth
 -
 25
+)
 ;
 let
 maxHeight
