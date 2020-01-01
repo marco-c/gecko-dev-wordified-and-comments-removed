@@ -1397,7 +1397,29 @@ autoconf213
 '
 HOMEBREW_AUTOCONF213
 )
+        
+]
+        
+if
+self
+.
+os_version
+>
+=
+StrictVersion
+(
+'
+10
+.
+8
+'
+)
+:
             
+packages
+.
+append
+(
 (
 '
 terminal
@@ -1410,8 +1432,7 @@ terminal
 notifier
 '
 )
-        
-]
+)
         
 printed
 =
