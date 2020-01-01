@@ -6554,6 +6554,10 @@ WRAP_MALLOC_LIB
 (
 EXE_DEF_FILE
 )
+(
+call
+CHECK_STDCXX
+)
 else
 #
 !
@@ -7163,6 +7167,10 @@ WRAP_MALLOC_LIB
 )
 (
 BIN_FLAGS
+)
+(
+call
+CHECK_STDCXX
 )
 else
 (
@@ -8095,6 +8103,10 @@ SHLIB_LDENDFILE
 endif
 #
 DTRACE_LIB_DEPENDENT
+(
+call
+CHECK_STDCXX
+)
 ifeq
 (
 _WINNT
