@@ -13937,7 +13937,7 @@ mWidget
 >
 Invalidate
 (
-PR_TRUE
+PR_FALSE
 )
 ;
 }
