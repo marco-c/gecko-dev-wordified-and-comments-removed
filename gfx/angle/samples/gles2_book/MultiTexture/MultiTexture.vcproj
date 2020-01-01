@@ -30,7 +30,7 @@ C
 Version
 =
 "
-9
+8
 .
 00
 "
@@ -411,11 +411,11 @@ OutDir
 )
 &
 #
-x0D
+xD
 ;
 &
 #
-x0A
+xA
 ;
 xcopy
 /
@@ -745,11 +745,11 @@ OutDir
 )
 &
 #
-x0D
+xD
 ;
 &
 #
-x0A
+xA
 ;
 xcopy
 /
