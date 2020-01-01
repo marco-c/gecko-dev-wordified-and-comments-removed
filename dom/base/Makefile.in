@@ -662,6 +662,10 @@ nsPerformance
 .
 cpp
 \
+nsDOMMemoryReporter
+.
+cpp
+\
 (
 NULL
 )
