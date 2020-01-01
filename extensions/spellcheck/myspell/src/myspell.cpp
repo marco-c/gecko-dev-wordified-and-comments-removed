@@ -141,6 +141,9 @@ pAMgr
 delete
 pHMgr
 ;
+delete
+csconv
+;
 csconv
 =
 NULL
