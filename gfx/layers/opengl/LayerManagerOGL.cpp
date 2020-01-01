@@ -1562,10 +1562,16 @@ mThebesLayerCallbackData
 =
 aCallbackData
 ;
+if
+(
+aCallback
+)
+{
 Render
 (
 )
 ;
+}
 mThebesLayerCallback
 =
 nsnull
