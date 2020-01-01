@@ -1008,6 +1008,14 @@ width
 )
 ;
 }
+if
+(
+GetFlag
+(
+LL_GOTLINEBOX
+)
+)
+{
 mLineBox
 -
 >
@@ -1015,6 +1023,7 @@ DisableResizeReflowOptimization
 (
 )
 ;
+}
 }
 mTextIndent
 =
