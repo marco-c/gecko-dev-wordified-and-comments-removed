@@ -694,13 +694,6 @@ components
 dom_telephony
 .
 xpt
-BINPATH
-/
-components
-/
-dom_telephony_worker
-.
-xpt
 #
 endif
 BINPATH
