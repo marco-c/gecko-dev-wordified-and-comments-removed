@@ -590,6 +590,12 @@ mTexture
 gfxIntSize
 mSize
 ;
+nsRefPtr
+<
+GLContext
+>
+mASurfaceAsGLContext
+;
 }
 ;
 }
