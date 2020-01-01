@@ -669,10 +669,6 @@ test_menu_hide
 .
 xul
 \
-test_mousecapture
-.
-xul
-\
 test_focus
 .
 xul
