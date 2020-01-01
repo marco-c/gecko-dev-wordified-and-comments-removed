@@ -214,16 +214,12 @@ ilovejane
 "
 )
 ;
-Weave
-.
 Service
 .
 serverURL
 =
 TEST_SERVER_URL
 ;
-Weave
-.
 Service
 .
 clusterURL
@@ -281,8 +277,6 @@ _fetchInfo
 "
 )
 ;
-Weave
-.
 Service
 .
 _fetchInfo
