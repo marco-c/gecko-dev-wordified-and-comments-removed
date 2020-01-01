@@ -2471,12 +2471,6 @@ NS_SUCCEEDED
 (
 rv
 )
-&
-&
-rv
-!
-=
-NS_SUCCESS_IME_NO_UPDATES
 )
 {
 *
