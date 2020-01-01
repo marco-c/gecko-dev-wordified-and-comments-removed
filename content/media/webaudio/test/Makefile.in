@@ -313,10 +313,6 @@ test_mediaDecoding
 .
 html
 \
-test_decodeMultichannel
-.
-html
-\
 test_mediaElementAudioSourceNode
 .
 html
@@ -534,12 +530,6 @@ mono
 expected
 -
 2
-.
-wav
-\
-audio
--
-quad
 .
 wav
 \
