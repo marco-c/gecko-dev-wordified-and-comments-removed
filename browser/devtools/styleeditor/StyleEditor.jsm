@@ -723,7 +723,7 @@ let
 config
 =
 {
-placeholderText
+initialText
 :
 this
 .
