@@ -36356,10 +36356,6 @@ document
 NS_ERROR_FAILURE
 )
 ;
-mLoadType
-=
-LOAD_PUSHSTATE
-;
 nsString
 dataStr
 ;
@@ -36764,6 +36760,10 @@ nsISHEntry
 oldOSHE
 =
 mOSHE
+;
+mLoadType
+=
+LOAD_PUSHSTATE
 ;
 nsCOMPtr
 <
@@ -37715,6 +37715,9 @@ mLoadType
 =
 =
 LOAD_PUSHSTATE
+&
+&
+mOSHE
 )
 {
 PRUint32
