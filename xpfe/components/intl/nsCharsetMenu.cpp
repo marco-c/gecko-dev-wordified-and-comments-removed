@@ -9686,10 +9686,7 @@ NS_ERROR_NULL_POINTER
 *
 uri
 =
-nsCRT
-:
-:
-strdup
+NS_strdup
 (
 "
 rdf
