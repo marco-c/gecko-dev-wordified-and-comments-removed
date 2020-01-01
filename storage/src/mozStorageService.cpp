@@ -396,14 +396,13 @@ NS_MEMORY_REPORTER_IMPLEMENT
 (
 StorageSQLiteMemoryUsed
 "
-heap
--
-used
+explicit
 /
 storage
 /
 sqlite
 "
+MR_HEAP
 "
 Memory
 used

@@ -778,6 +778,7 @@ pixel
 -
 bytes
 "
+MR_OTHER
 "
 Memory
 used
@@ -787,8 +788,6 @@ canvases
 .
 Each
 canvas
-"
-"
 requires
 (
 width
@@ -797,6 +796,8 @@ height
 *
 4
 )
+"
+"
 bytes
 .
 "

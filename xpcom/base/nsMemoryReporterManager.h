@@ -45,6 +45,8 @@ prefix
 nsCString
 &
 path
+PRInt32
+kind
 nsCString
 &
 desc
@@ -62,6 +64,9 @@ protected
 nsCString
 mPath
 mDesc
+;
+PRInt32
+mKind
 ;
 PRInt64
 mMemoryUsed

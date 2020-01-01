@@ -448,6 +448,9 @@ prefix
 nsCString
 path
 ;
+PRInt32
+kind
+;
 nsCString
 desc
 ;

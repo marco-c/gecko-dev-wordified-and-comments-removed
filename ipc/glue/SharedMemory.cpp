@@ -69,6 +69,7 @@ shmem
 -
 allocated
 "
+MR_OTHER
 "
 Memory
 shared
@@ -77,12 +78,12 @@ other
 processes
 that
 is
-"
-"
 accessible
 (
 but
 not
+"
+"
 necessarily
 mapped
 )
@@ -99,6 +100,7 @@ shmem
 -
 mapped
 "
+MR_OTHER
 "
 Memory
 shared
@@ -107,8 +109,6 @@ other
 processes
 that
 is
-"
-"
 mapped
 into
 the
