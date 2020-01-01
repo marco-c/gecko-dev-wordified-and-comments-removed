@@ -1777,6 +1777,16 @@ user_pref
 "
 dom
 .
+_allow_script_to_close_windows
+"
+true
+)
+;
+user_pref
+(
+"
+dom
+.
 disable_open_during_load
 "
 false
