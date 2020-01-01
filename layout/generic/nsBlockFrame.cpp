@@ -13362,9 +13362,6 @@ height
 topMargin
 ;
 }
-nsMargin
-computedOffsets
-;
 nsHTMLReflowState
 blockHtmlRS
 (
@@ -13469,7 +13466,6 @@ aState
 IsAdjacentWithTop
 (
 )
-computedOffsets
 aLine
 .
 get
@@ -13658,7 +13654,6 @@ aLine
 get
 (
 )
-computedOffsets
 collapsedBottomMargin
 aLine
 -
@@ -25822,9 +25817,6 @@ clearanceFrame
 ;
 }
 }
-nsMargin
-offsets
-;
 rv
 =
 brc
@@ -25836,7 +25828,6 @@ PR_TRUE
 margin
 0
 isAdjacentWithTop
-offsets
 nsnull
 floatRS
 aReflowStatus
