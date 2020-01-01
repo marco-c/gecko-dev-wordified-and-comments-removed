@@ -97,9 +97,6 @@ Presenter
 prototype
 =
 {
-BORDER_PADDING
-:
-2
 attach
 :
 function
@@ -203,6 +200,14 @@ new
 Presenter
 (
 )
+;
+VisualPresenter
+.
+prototype
+.
+BORDER_PADDING
+=
+2
 ;
 VisualPresenter
 .
