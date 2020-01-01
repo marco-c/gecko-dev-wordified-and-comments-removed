@@ -7520,7 +7520,7 @@ shapeMismatches
 .
 append
 (
-expandoGuard
+shapeGuard
 )
 )
 return
