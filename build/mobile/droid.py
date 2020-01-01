@@ -113,11 +113,6 @@ start
 "
 "
 -
-a
-"
-intent
-"
--
 W
 "
 "
@@ -138,6 +133,23 @@ app
 activity
 )
 ]
+    
+if
+intent
+:
+      
+acmd
+.
+extend
+(
+[
+"
+-
+a
+"
+intent
+]
+)
     
 if
 extra_args
