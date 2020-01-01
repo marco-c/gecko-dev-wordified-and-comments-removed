@@ -295,6 +295,14 @@ mozinfo
 '
     
 '
+testing
+/
+mozbase
+/
+manifestdestiny
+'
+    
+'
 xpcom
 /
 idl
