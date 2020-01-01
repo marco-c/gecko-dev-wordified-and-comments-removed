@@ -200,6 +200,12 @@ secondary
 .
 *
 /
+[
+binaryname
+(
+SlowMozOrientation
+)
+]
 readonly
 attribute
 DOMString
@@ -492,6 +498,12 @@ orientation
 .
 *
 /
+[
+binaryname
+(
+SlowMozUnlockOrientation
+)
+]
 void
 mozUnlockOrientation
 (
