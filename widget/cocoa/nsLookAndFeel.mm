@@ -3034,6 +3034,10 @@ smallSystemFontSize
 ;
 break
 ;
+default
+:
+break
+;
 }
 if
 (

@@ -62,6 +62,7 @@ aNativeMenuItem
 ;
 private
 :
+virtual
 ~
 nsMenuItemIconX
 (

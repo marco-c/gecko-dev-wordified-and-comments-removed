@@ -53,6 +53,7 @@ nsScreenManagerCocoa
 (
 )
 ;
+virtual
 ~
 nsScreenManagerCocoa
 (

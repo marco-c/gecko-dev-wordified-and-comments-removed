@@ -2069,11 +2069,6 @@ aHotspotX
 =
 (
 aHotspotX
-<
-0
-|
-|
-aHotspotX
 >
 (
 PRUint32
@@ -2090,11 +2085,6 @@ aHotspotX
 aHotspotY
 =
 (
-aHotspotY
-<
-0
-|
-|
 aHotspotY
 >
 (
