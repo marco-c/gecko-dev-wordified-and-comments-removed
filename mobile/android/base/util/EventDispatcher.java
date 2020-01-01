@@ -515,6 +515,7 @@ listener
 .
 getResponse
 (
+json
 )
 ;
 if

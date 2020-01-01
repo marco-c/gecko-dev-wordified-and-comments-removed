@@ -606,6 +606,10 @@ ProfileMigrator
 .
 java
 \
+Prompt
+.
+java
+\
 PromptService
 .
 java

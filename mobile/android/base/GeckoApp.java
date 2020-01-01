@@ -4931,11 +4931,12 @@ e
 ;
 }
 }
-Override
 public
 String
 getResponse
 (
+JSONObject
+origMessage
 )
 {
 String
@@ -9316,6 +9317,7 @@ mPromptService
 new
 PromptService
 (
+this
 )
 ;
 mTextSelection
