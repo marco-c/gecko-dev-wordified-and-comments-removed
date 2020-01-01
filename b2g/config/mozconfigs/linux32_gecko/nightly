@@ -251,6 +251,11 @@ CXXFLAGS
 =
 -
 DMOZ_ENABLE_JS_DUMP
+GAIADIR
+=
+topsrcdir
+/
+gaia
 .
 "
 topsrcdir
