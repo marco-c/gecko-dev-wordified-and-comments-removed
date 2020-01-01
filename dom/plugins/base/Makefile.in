@@ -177,6 +177,10 @@ nsPluginsDir
 .
 h
 \
+nsPluginSafety
+.
+h
+\
 nsPluginTags
 .
 h

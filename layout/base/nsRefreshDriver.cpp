@@ -2964,7 +2964,7 @@ if
 nsNPAPIPluginInstance
 :
 :
-InPluginCall
+InPluginCallUnsafeForReentry
 (
 )
 )
