@@ -8646,7 +8646,10 @@ ins
 const
 {
 return
-congruentIfOperandsEqual
+MBinaryInstruction
+:
+:
+congruentTo
 (
 ins
 )
