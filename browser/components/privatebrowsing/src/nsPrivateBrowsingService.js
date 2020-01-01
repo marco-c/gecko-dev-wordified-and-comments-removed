@@ -1223,6 +1223,15 @@ resetCloseWindow
 )
 ;
 }
+}
+if
+(
+!
+this
+.
+_quitting
+)
+{
 var
 windowsEnum
 =
