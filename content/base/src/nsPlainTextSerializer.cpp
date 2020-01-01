@@ -6035,6 +6035,17 @@ OutputPreformatted
 )
 &
 &
+!
+(
+mFlags
+&
+nsIDocumentEncoder
+:
+:
+OutputDontRemoveLineEndingSpaces
+)
+&
+&
 (
 aSoftlinebreak
 |

@@ -4068,6 +4068,12 @@ Ci
 .
 nsIDocumentEncoder
 .
+OutputDontRemoveLineEndingSpaces
+|
+Ci
+.
+nsIDocumentEncoder
+.
 OutputLFLineBreak
 |
 Ci
