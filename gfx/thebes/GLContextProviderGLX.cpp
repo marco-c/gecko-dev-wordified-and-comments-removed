@@ -2207,6 +2207,13 @@ AppendElement
 True
 )
 ;
+pbattribs
+.
+AppendElement
+(
+0
+)
+;
 GLXPbuffer
 pbuffer
 =
