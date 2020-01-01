@@ -1152,6 +1152,7 @@ p
 "
 this
 aWindow
+mLastFocusedWindow
 )
 )
 ;
@@ -2144,10 +2145,13 @@ aContext
 >
 mStatus
 )
+NS_ConvertUTF16toUTF8
+(
 aContext
 -
 >
 mHTMLInputType
+)
 .
 get
 (
@@ -2951,7 +2955,6 @@ are
 no
 context
 "
-this
 )
 )
 ;
@@ -4610,7 +4613,7 @@ PR_LOG_ALWAYS
 mCompositionStart
 =
 %
-lu
+u
 "
 mCompositionStart
 )
@@ -5605,11 +5608,11 @@ PR_LOG_ALWAYS
 mStartOffset
 =
 %
-lu
+u
 mEndOffset
 =
 %
-lu
+u
 mRangeType
 =
 %
@@ -5724,11 +5727,11 @@ PR_LOG_ALWAYS
 mStartOffset
 =
 %
-lu
+u
 mEndOffset
 =
 %
-lu
+u
 mRangeType
 =
 %
@@ -5791,7 +5794,7 @@ SetCursorPosition
 aTargetOffset
 =
 %
-lu
+u
 "
 this
 aTargetOffset
