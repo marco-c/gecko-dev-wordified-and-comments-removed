@@ -199,8 +199,7 @@ struct
 nsRect
 ;
 typedef
-unsigned
-long
+PRUptrdiff
 PtrBits
 ;
 class

@@ -786,8 +786,7 @@ nsnull
 private
 :
 typedef
-unsigned
-long
+PRUptrdiff
 PtrBits
 ;
 typedef

@@ -40,8 +40,7 @@ nsCaseTreatment
 h
 "
 typedef
-unsigned
-long
+PRUptrdiff
 PtrBits
 ;
 class

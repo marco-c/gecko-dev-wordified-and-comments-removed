@@ -15,8 +15,7 @@ class
 nsIAtom
 ;
 typedef
-unsigned
-long
+PRUptrdiff
 PtrBits
 ;
 typedef
