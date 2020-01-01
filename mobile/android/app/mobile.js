@@ -2207,6 +2207,16 @@ true
 pref
 (
 "
+dom
+.
+disable_window_print
+"
+true
+)
+;
+pref
+(
+"
 keyword
 .
 enabled
