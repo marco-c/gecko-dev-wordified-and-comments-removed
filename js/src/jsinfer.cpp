@@ -18516,9 +18516,6 @@ case
 JSOP_TABLESWITCH
 :
 case
-JSOP_LOOKUPSWITCH
-:
-case
 JSOP_TRY
 :
 case

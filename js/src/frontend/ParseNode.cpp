@@ -2095,16 +2095,6 @@ pn_left
 pn
 -
 >
-pn_pval
-=
-opn
--
->
-pn_pval
-;
-pn
--
->
 pn_iflags
 =
 opn

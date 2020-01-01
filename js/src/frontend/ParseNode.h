@@ -1563,10 +1563,6 @@ ParseNode
 *
 right
 ;
-Value
-*
-pval
-;
 unsigned
 iflags
 ;

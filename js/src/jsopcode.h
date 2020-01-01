@@ -151,16 +151,6 @@ switch
 /
 #
 define
-JOF_LOOKUPSWITCH
-5
-/
-*
-lookup
-switch
-*
-/
-#
-define
 JOF_QARG
 6
 /
