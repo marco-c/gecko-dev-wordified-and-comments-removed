@@ -571,6 +571,11 @@ url
 =
 testPageURL
 (
+{
+wait
+:
+30000
+}
 )
 ;
 let
@@ -611,9 +616,7 @@ BackgroundPageThumbs
 .
 capture
 (
-testPageURL
-(
-)
+url
 {
 timeout
 :
