@@ -239,7 +239,7 @@ rooted
 mResolver
 -
 >
-Resolve
+ResolveInternal
 (
 cx
 aValue
@@ -402,7 +402,7 @@ rooted
 mResolver
 -
 >
-Reject
+RejectInternal
 (
 cx
 aValue
@@ -665,7 +665,7 @@ Value
 mNextResolver
 -
 >
-Reject
+RejectInternal
 (
 cx
 value
@@ -681,7 +681,7 @@ return
 mNextResolver
 -
 >
-Resolve
+ResolveInternal
 (
 cx
 value
