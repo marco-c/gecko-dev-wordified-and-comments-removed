@@ -16263,7 +16263,7 @@ return
 mAudioChannelAgent
 -
 >
-Init
+InitWithWeakCallback
 (
 mAudioChannelType
 this
