@@ -489,10 +489,6 @@ test_offlineIFrame
 .
 html
 \
-test_offlineMode
-.
-html
-\
 test_bug445544
 .
 html
@@ -777,6 +773,15 @@ jpg
 (
 NULL
 )
+#
+test_offlineMode
+.
+html
+disabled
+due
+to
+bug
+656943
 libs
 :
 :
