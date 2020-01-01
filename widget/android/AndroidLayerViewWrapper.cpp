@@ -53,7 +53,7 @@ static
 jfieldID
 jEGLSurfacePointerField
 =
-nullptr
+0
 ;
 void
 AndroidEGLObject
@@ -124,7 +124,7 @@ AndroidGLController
 :
 jSetGLVersionMethod
 =
-nullptr
+0
 ;
 jmethodID
 AndroidGLController
@@ -132,7 +132,7 @@ AndroidGLController
 :
 jWaitForValidSurfaceMethod
 =
-nullptr
+0
 ;
 jmethodID
 AndroidGLController
@@ -140,7 +140,7 @@ AndroidGLController
 :
 jProvideEGLSurfaceMethod
 =
-nullptr
+0
 ;
 jmethodID
 AndroidGLController
@@ -148,7 +148,7 @@ AndroidGLController
 :
 jResumeCompositorIfValidMethod
 =
-nullptr
+0
 ;
 void
 AndroidGLController
@@ -430,7 +430,7 @@ CheckForException
 )
 )
 return
-nullptr
+NULL
 ;
 return
 reinterpret_cast

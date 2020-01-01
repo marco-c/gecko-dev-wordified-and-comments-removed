@@ -106,6 +106,8 @@ static
 char
 *
 dir
+=
+NULL
 ;
 if
 (

@@ -622,7 +622,7 @@ jenv
 GetByteArrayElements
 (
 bytearray
-nullptr
+NULL
 )
 ;
 if
@@ -903,11 +903,11 @@ if
 s
 =
 =
-nullptr
+NULL
 )
 {
 return
-nullptr
+NULL
 ;
 }
 JNIEnv
@@ -924,7 +924,7 @@ if
 jenv
 )
 return
-nullptr
+NULL
 ;
 s
 -
@@ -1148,7 +1148,7 @@ CheckForException
 obj
 =
 =
-nullptr
+NULL
 )
 {
 jenv
@@ -1168,7 +1168,7 @@ s
 )
 ;
 return
-nullptr
+NULL
 ;
 }
 jint
@@ -1217,7 +1217,7 @@ s
 )
 ;
 return
-nullptr
+NULL
 ;
 }
 s
@@ -1250,7 +1250,7 @@ if
 s
 =
 =
-nullptr
+NULL
 )
 {
 return
@@ -1277,7 +1277,7 @@ if
 s
 =
 =
-nullptr
+NULL
 |
 |
 s
@@ -1286,7 +1286,7 @@ s
 output_unit
 =
 =
-nullptr
+NULL
 )
 {
 return
@@ -1425,7 +1425,7 @@ if
 s
 =
 =
-nullptr
+NULL
 |
 |
 s
@@ -1434,7 +1434,7 @@ s
 output_unit
 =
 =
-nullptr
+NULL
 )
 {
 return
@@ -1493,7 +1493,7 @@ if
 s
 =
 =
-nullptr
+NULL
 |
 |
 s
@@ -1502,7 +1502,7 @@ s
 output_unit
 =
 =
-nullptr
+NULL
 )
 {
 return

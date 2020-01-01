@@ -900,8 +900,8 @@ ifdef
 MOZ_JAVA_COMPOSITOR
 SetCompositor
 (
-nullptr
-nullptr
+NULL
+NULL
 )
 ;
 #
@@ -6358,7 +6358,7 @@ case
 NS_NATIVE_DISPLAY
 :
 return
-nullptr
+NULL
 ;
 case
 NS_NATIVE_WIDGET
@@ -8698,7 +8698,7 @@ event
 .
 pluginEvent
 =
-nullptr
+NULL
 ;
 }
 else
@@ -11836,7 +11836,7 @@ nsWindow
 :
 sCompositorParent
 =
-nullptr
+0
 ;
 nsRefPtr
 <
@@ -11853,7 +11853,7 @@ nsWindow
 :
 sCompositorChild
 =
-nullptr
+0
 ;
 bool
 nsWindow

@@ -274,7 +274,7 @@ AndroidBridge
 :
 sBridge
 =
-nullptr
+0
 ;
 static
 PRUintn
@@ -3051,7 +3051,6 @@ aState
 )
 ;
 }
-static
 jstring
 NewJavaString
 (
@@ -3093,7 +3092,7 @@ CheckForException
 )
 )
 return
-nullptr
+NULL
 ;
 return
 ret
@@ -7411,7 +7410,7 @@ resetting
 mLayerClient
 !
 =
-nullptr
+NULL
 )
 ;
 if
@@ -7437,7 +7436,7 @@ mLayerClient
 ;
 mLayerClient
 =
-nullptr
+NULL
 ;
 }
 AndroidGeckoLayerClient
@@ -7572,7 +7571,7 @@ if
 env
 )
 return
-nullptr
+NULL
 ;
 AutoLocalJNIFrame
 jniFrame
@@ -7795,7 +7794,7 @@ createWindowSurface
 jdpy
 jconf
 surfaceHolder
-nullptr
+NULL
 )
 ;
 if
@@ -11969,7 +11968,7 @@ err
 *
 bits
 =
-nullptr
+NULL
 ;
 *
 width
@@ -12004,7 +12003,7 @@ void
 )
 &
 buffer
-nullptr
+NULL
 )
 )
 !
@@ -12091,7 +12090,7 @@ Surface_lock
 window
 &
 info
-nullptr
+NULL
 true
 )
 )
@@ -12472,7 +12471,7 @@ AndroidBridge
 :
 mLayerClient
 (
-nullptr
+NULL
 )
 {
 }
@@ -12609,7 +12608,7 @@ JavaVM
 *
 vm
 =
-nullptr
+NULL
 ;
 env
 -
@@ -12654,7 +12653,7 @@ JNIEnv
 *
 jEnv
 =
-nullptr
+NULL
 ;
 JavaVM
 *
@@ -12691,7 +12690,7 @@ VM
 )
 ;
 return
-nullptr
+NULL
 ;
 }
 jEnv
@@ -12747,7 +12746,7 @@ AttachCurrentThread
 (
 &
 jEnv
-nullptr
+NULL
 )
 ;
 if
@@ -12769,7 +12768,7 @@ attach
 )
 ;
 return
-nullptr
+NULL
 ;
 }
 PR_SetThreadPrivate
@@ -12793,7 +12792,7 @@ GetJNIForThread
 "
 "
 returning
-nullptr
+NULL
 "
 )
 ;

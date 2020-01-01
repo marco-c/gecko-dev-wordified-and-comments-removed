@@ -1089,7 +1089,7 @@ mEGLImage
 ;
 mEGLImage
 =
-nullptr
+NULL
 ;
 }
 }
@@ -1097,7 +1097,7 @@ nullptr
 endif
 mEGLImage
 =
-nullptr
+NULL
 ;
 if
 (
@@ -1128,7 +1128,7 @@ mHandle
 ;
 mHandle
 =
-nullptr
+NULL
 ;
 }
 }
@@ -1628,12 +1628,10 @@ eglImgAttrs
 )
 ;
 return
-(
 mEGLImage
 !
 =
-nullptr
-)
+NULL
 ;
 }
 bool
@@ -1751,7 +1749,7 @@ sgh
 -
 t839
 "
-nullptr
+NULL
 }
 ;
 bool
