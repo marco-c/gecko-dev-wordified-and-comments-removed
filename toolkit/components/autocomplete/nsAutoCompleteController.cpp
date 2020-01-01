@@ -71,6 +71,13 @@ h
 #
 include
 "
+nsITreeBoxObject
+.
+h
+"
+#
+include
+"
 nsITreeColumns
 .
 h

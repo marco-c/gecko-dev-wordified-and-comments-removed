@@ -100,13 +100,9 @@ nsISupports
 .
 idl
 "
-#
-include
-"
+interface
 nsIDOMElement
-.
-idl
-"
+;
 [
 scriptable
 uuid

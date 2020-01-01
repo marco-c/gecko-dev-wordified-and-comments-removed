@@ -100,13 +100,9 @@ nsISupports
 .
 idl
 "
-#
-include
-"
-domstubs
-.
-idl
-"
+interface
+nsIDOMElement
+;
 interface
 nsITreeView
 ;

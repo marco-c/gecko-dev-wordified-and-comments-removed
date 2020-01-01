@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsIBoxObject
+nsISupports
 .
 idl
 "
@@ -359,6 +359,9 @@ line
 C
 +
 +
+class
+nsIBoxObject
+;
 nsresult
 NS_NewScrollBoxObject
 (

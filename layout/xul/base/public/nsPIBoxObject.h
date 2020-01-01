@@ -5,6 +5,13 @@ nsPIBoxObject_h___
 define
 nsPIBoxObject_h___
 #
+include
+"
+nsIBoxObject
+.
+h
+"
+#
 define
 NS_PIBOXOBJECT_IID
 \

@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsIBoxObject
+nsISupports
 .
 idl
 "
@@ -172,6 +172,9 @@ openedWithKey
 C
 +
 +
+class
+nsIBoxObject
+;
 nsresult
 NS_NewMenuBoxObject
 (

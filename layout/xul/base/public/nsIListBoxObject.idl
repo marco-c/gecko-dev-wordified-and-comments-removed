@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsIBoxObject
+nsISupports
 .
 idl
 "
@@ -185,6 +185,9 @@ item
 C
 +
 +
+class
+nsIBoxObject
+;
 nsresult
 NS_NewListBoxObject
 (

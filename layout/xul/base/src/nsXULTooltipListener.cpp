@@ -137,6 +137,13 @@ h
 #
 include
 "
+nsIBoxObject
+.
+h
+"
+#
+include
+"
 nsEventDispatcher
 .
 h

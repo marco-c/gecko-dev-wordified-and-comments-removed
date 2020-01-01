@@ -59,13 +59,6 @@ MPL
 #
 include
 "
-nsISupports
-.
-idl
-"
-#
-include
-"
 nsIDOMTreeWalker
 .
 idl

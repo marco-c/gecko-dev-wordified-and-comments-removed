@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsIBoxObject
+nsISupports
 .
 idl
 "
@@ -1245,6 +1245,9 @@ alignmentOffset
 C
 +
 +
+class
+nsIBoxObject
+;
 nsresult
 NS_NewPopupBoxObject
 (
