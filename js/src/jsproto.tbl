@@ -758,6 +758,12 @@ Proxy
 37
 js_InitProxyClass
 )
+JS_PROTO
+(
+AnyName
+38
+js_InitNullClass
+)
 #
 undef
 XML_INIT

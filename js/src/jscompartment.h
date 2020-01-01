@@ -857,14 +857,6 @@ debugMode
 JSCList
 scripts
 ;
-JSObject
-*
-anynameObject
-;
-JSObject
-*
-functionNamespaceObject
-;
 JSC
 :
 :
