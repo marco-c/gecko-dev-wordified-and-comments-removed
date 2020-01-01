@@ -2642,12 +2642,6 @@ browserWin
 return
 ;
 }
-browserWin
-.
-focus
-(
-)
-;
 if
 (
 this
