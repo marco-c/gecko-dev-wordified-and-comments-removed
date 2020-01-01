@@ -153,6 +153,11 @@ nsIDOMSmsSegmentInfo
 idl
 '
 '
+nsIMmsService
+.
+idl
+'
+'
 nsIMobileMessageCallback
 .
 idl
@@ -174,6 +179,11 @@ idl
 '
 '
 nsISmsService
+.
+idl
+'
+'
+nsIWapPushApplication
 .
 idl
 '
