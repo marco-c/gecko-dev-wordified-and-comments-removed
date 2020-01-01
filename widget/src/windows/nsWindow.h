@@ -1459,6 +1459,17 @@ aDC
 nsnull
 )
 ;
+void
+OnWindowPosChanged
+(
+WINDOWPOS
+*
+wp
+PRBool
+&
+aResult
+)
+;
 #
 if
 defined
