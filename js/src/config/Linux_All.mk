@@ -414,6 +414,11 @@ CCC
 g
 +
 +
+LD
+=
+g
++
++
 CFLAGS
 +
 =
