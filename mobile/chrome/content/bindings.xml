@@ -10477,6 +10477,15 @@ setup
 userabort
 "
 "
+browser
+:
+sync
+:
+setup
+:
+networkerror
+"
+"
 weave
 :
 service
