@@ -324,7 +324,7 @@ HTMLEmbedElement
 {
 /
 /
-GetSVGDocument
+nsIDOMGetSVGDocument
 Document
 ?
 getSVGDocument

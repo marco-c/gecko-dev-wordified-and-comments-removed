@@ -393,7 +393,7 @@ HTMLIFrameElement
 {
 /
 /
-GetSVGDocument
+nsIDOMGetSVGDocument
 Document
 ?
 getSVGDocument
