@@ -1226,6 +1226,16 @@ XULTextBox
 "
 TYPE_XUL_TEXT_BOX
 )
+virtual
+PRBool
+HasText
+(
+)
+{
+return
+PR_TRUE
+;
+}
 }
 ;
 void
