@@ -5799,6 +5799,16 @@ if
 ok
 )
 {
+*
+aRetValue
+=
+JS
+:
+:
+UndefinedValue
+(
+)
+;
 ReportPendingException
 (
 )
