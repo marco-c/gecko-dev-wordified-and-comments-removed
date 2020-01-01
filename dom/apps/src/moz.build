@@ -207,6 +207,11 @@ AppsUtils
 jsm
 '
 '
+OperatorApps
+.
+jsm
+'
+'
 Webapps
 .
 jsm
