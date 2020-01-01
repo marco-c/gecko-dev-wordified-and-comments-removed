@@ -500,19 +500,6 @@ Python
 :
 2
 .
-4
-'
-        
-'
-Programming
-Language
-:
-:
-Python
-:
-:
-2
-.
 5
 '
         

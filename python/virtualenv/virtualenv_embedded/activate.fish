@@ -153,7 +153,7 @@ end
 end
 #
 unset
-irrelavent
+irrelevant
 variables
 deactivate
 nondestructive

@@ -185,7 +185,7 @@ fi
 }
 #
 unset
-irrelavent
+irrelevant
 variables
 deactivate
 nondestructive

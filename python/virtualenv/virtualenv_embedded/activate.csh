@@ -106,7 +106,7 @@ pydoc
 '
 #
 Unset
-irrelavent
+irrelevant
 variables
 .
 deactivate

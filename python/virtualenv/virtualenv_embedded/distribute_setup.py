@@ -265,7 +265,7 @@ DEFAULT_VERSION
 .
 6
 .
-27
+28
 "
 DEFAULT_URL
 =
@@ -2234,6 +2234,7 @@ _create_fake_setuptools_pkg_info
 =
 _no_sandbox
 (
+    
 _create_fake_setuptools_pkg_info
 )
 def
@@ -2639,6 +2640,7 @@ ws
 .
 find
 (
+            
 pkg_resources
 .
 Requirement
@@ -2648,11 +2650,11 @@ parse
 '
 setuptools
 '
-                                  
 replacement
 =
 False
 )
+            
 )
     
 except
@@ -2665,6 +2667,7 @@ ws
 .
 find
 (
+            
 pkg_resources
 .
 Requirement
@@ -2675,6 +2678,7 @@ parse
 setuptools
 '
 )
+        
 )
     
 if
@@ -2918,15 +2922,7 @@ Relaunching
 '
 )
     
-if
-sys
-.
-argv
-[
-:
-3
-]
-=
+_cmd
 =
 [
 '
@@ -2948,6 +2944,18 @@ externally
 managed
 '
 ]
+    
+if
+sys
+.
+argv
+[
+:
+3
+]
+=
+=
+_cmd
 :
         
 sys
