@@ -12855,6 +12855,11 @@ INVALID_MANIFEST
 "
 ;
 }
+if
+(
+aIsUpdate
+)
+{
 AppsUtils
 .
 ensureSameAppName
@@ -12866,6 +12871,7 @@ manifest
 app
 )
 ;
+}
 if
 (
 !
