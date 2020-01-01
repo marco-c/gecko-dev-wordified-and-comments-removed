@@ -125,6 +125,14 @@ aCbCrSize
 )
 ;
 static
+size_t
+ComputeMinBufferSize
+(
+uint32_t
+aSize
+)
+;
+static
 void
 InitializeBufferInfo
 (
@@ -181,6 +189,12 @@ GetYSize
 ;
 gfxIntSize
 GetCbCrSize
+(
+)
+;
+uint8_t
+*
+GetData
 (
 )
 ;
