@@ -293,6 +293,9 @@ mX
 mY
 mAutoAngle
 ;
+bool
+mIsStart
+;
 virtual
 gfxMatrix
 GetCanvasTM
