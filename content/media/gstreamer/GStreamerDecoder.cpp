@@ -68,6 +68,14 @@ aCodecs
 )
 {
 return
+MediaDecoder
+:
+:
+IsGStreamerEnabled
+(
+)
+&
+&
 GStreamerFormatHelper
 :
 :

@@ -1054,7 +1054,7 @@ gstreamer
 .
 enabled
 "
-true
+false
 )
 ;
 #
