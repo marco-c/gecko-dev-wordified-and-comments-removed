@@ -2154,8 +2154,10 @@ PaintWindow
 (
 this
 region
-false
-true
+nsIWidgetListener
+:
+:
+WILL_SEND_DID_PAINT
 )
 ;
 }
@@ -2209,8 +2211,10 @@ PaintWindow
 (
 this
 region
-false
-true
+nsIWidgetListener
+:
+:
+WILL_SEND_DID_PAINT
 )
 ;
 mTabChild

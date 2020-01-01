@@ -1126,8 +1126,7 @@ PaintWindow
 (
 gWindowToRedraw
 region
-false
-false
+0
 )
 ;
 }
@@ -1252,8 +1251,7 @@ PaintWindow
 (
 gWindowToRedraw
 region
-false
-false
+0
 )
 ;
 }

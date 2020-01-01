@@ -4848,8 +4848,7 @@ PaintWindow
 (
 this
 region
-false
-false
+0
 )
 ;
 }
@@ -4915,8 +4914,7 @@ PaintWindow
 (
 this
 region
-false
-false
+0
 )
 ;
 break

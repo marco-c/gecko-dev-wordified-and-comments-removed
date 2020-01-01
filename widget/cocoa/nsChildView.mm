@@ -8301,8 +8301,7 @@ PaintWindow
 (
 widget
 aRegion
-true
-false
+SENT_WILL_PAINT
 )
 ;
 mIsDispatchPaint
