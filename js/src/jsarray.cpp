@@ -4346,6 +4346,8 @@ attrs
 {
 uint32
 i
+=
+0
 ;
 JSBool
 isIndex
