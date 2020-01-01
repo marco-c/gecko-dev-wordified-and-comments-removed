@@ -481,9 +481,9 @@ LIBS
 NSPR_LIBS
 )
 ifdef
-GNU_CC
+GNU_CXX
 ifdef
-INTEL_CC
+INTEL_CXX
 #
 icc
 gets
@@ -516,6 +516,9 @@ here
 ?
 endif
 else
+#
+not
+INTEL_CXX
 MODULE_OPTIMIZE_FLAGS
 =
 -
@@ -545,6 +548,9 @@ fstrict
 aliasing
 endif
 else
+#
+not
+GNU_CXX
 ifeq
 (
 (
