@@ -93,6 +93,14 @@ select
 :
 text
 ;
+white
+-
+space
+:
+pre
+-
+wrap
+;
 }
 .
 hud
