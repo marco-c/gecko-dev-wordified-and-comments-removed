@@ -221,7 +221,6 @@ aDeep
 aNewNodeInfoManager
 nsnull
 nsnull
-nsnull
 aNodesWithProperties
 aResult
 )
@@ -240,9 +239,6 @@ aNewNodeInfoManager
 JSContext
 *
 aCx
-JSObject
-*
-aOldScope
 JSObject
 *
 aNewScope
@@ -264,7 +260,6 @@ PR_FALSE
 PR_TRUE
 aNewNodeInfoManager
 aCx
-aOldScope
 aNewScope
 aNodesWithProperties
 nsnull
@@ -357,9 +352,6 @@ JSContext
 aCx
 JSObject
 *
-aOldScope
-JSObject
-*
 aNewScope
 nsCOMArray
 <
@@ -415,7 +407,6 @@ aClone
 aDeep
 aNewNodeInfoManager
 aCx
-aOldScope
 aNewScope
 aNodesWithProperties
 nsnull
@@ -460,9 +451,6 @@ aNewNodeInfoManager
 JSContext
 *
 aCx
-JSObject
-*
-aOldScope
 JSObject
 *
 aNewScope
