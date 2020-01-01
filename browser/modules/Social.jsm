@@ -981,8 +981,7 @@ installProvider
 :
 function
 (
-origin
-sourceURI
+doc
 data
 installCallback
 )
@@ -991,8 +990,7 @@ SocialService
 .
 installProvider
 (
-origin
-sourceURI
+doc
 data
 installCallback
 )

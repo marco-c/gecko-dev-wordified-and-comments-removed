@@ -1338,10 +1338,6 @@ Social
 installProvider
 (
 targetDoc
-.
-location
-.
-href
 data
 function
 (
