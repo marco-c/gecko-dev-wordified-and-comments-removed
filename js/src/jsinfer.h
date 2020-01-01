@@ -2954,6 +2954,8 @@ print
 JSContext
 *
 cx
+bool
+force
 )
 ;
 TypeObject
