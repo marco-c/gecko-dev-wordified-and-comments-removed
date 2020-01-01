@@ -116,10 +116,6 @@ webrtcUI
 .
 jsm
 \
-KeywordURLResetPrompter
-.
-jsm
-\
 Social
 .
 jsm
