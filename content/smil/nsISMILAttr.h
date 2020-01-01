@@ -7,7 +7,7 @@ NS_ISMILATTR_H_
 #
 include
 "
-nsStringFwd
+nscore
 .
 h
 "
@@ -22,6 +22,9 @@ nsISMILAnimationElement
 ;
 class
 nsIContent
+;
+class
+nsAString
 ;
 class
 nsISMILAttr

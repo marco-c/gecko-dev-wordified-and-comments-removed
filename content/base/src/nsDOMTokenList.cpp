@@ -56,7 +56,7 @@ nsDOMTokenList
 :
 nsDOMTokenList
 (
-FragmentOrElement
+nsGenericElement
 *
 aElement
 nsIAtom

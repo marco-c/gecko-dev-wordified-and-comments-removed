@@ -746,6 +746,8 @@ sMutationCount
 =
 0
 ;
+#
+endif
 nsEventStates
 Element
 :
@@ -1439,6 +1441,9 @@ locks
 )
 ;
 }
+#
+if
+0
 nsIContent
 *
 nsIContent
@@ -2773,6 +2778,8 @@ aNamespaceURI
 )
 ;
 }
+#
+endif
 nsIContent
 *
 nsGenericElement
@@ -3411,6 +3418,9 @@ aResult
 NS_OK
 ;
 }
+#
+if
+0
 nsContentList
 *
 nsGenericElement
@@ -3469,6 +3479,8 @@ slots
 mChildrenList
 ;
 }
+#
+endif
 nsDOMTokenList
 *
 nsGenericElement
@@ -5096,6 +5108,9 @@ return
 NS_OK
 ;
 }
+#
+if
+0
 NS_IMPL_ISUPPORTS1
 (
 nsNodeWeakReference
@@ -5740,7 +5755,7 @@ nsINodeInfo
 aNodeInfo
 )
 :
-FragmentOrElement
+Element
 (
 aNodeInfo
 )
@@ -6454,6 +6469,8 @@ aReturn
 )
 ;
 }
+#
+endif
 NS_IMETHODIMP
 nsGenericElement
 :
@@ -6556,6 +6573,9 @@ return
 NS_OK
 ;
 }
+#
+if
+0
 nsresult
 nsGenericElement
 :
@@ -6582,6 +6602,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 NS_IMETHODIMP
 nsGenericElement
 :
@@ -9558,6 +9580,9 @@ this
 )
 ;
 }
+#
+if
+0
 already_AddRefed
 <
 nsINodeList
@@ -10618,6 +10643,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 nsICSSDeclaration
 *
 nsGenericElement
@@ -10854,6 +10881,9 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
+#
+if
+0
 NS_IMETHODIMP_
 (
 bool
@@ -15687,6 +15717,9 @@ aInstancePtr
 )
 ;
 }
+#
+if
+0
 nsresult
 nsGenericElement
 :
@@ -15838,6 +15871,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 const
 nsAttrName
 *
@@ -15974,6 +16009,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 bool
 nsGenericElement
 :
@@ -16974,6 +17011,9 @@ return
 false
 ;
 }
+#
+if
+0
 nsEventListenerManager
 *
 nsGenericElement
@@ -17001,6 +17041,8 @@ true
 )
 ;
 }
+#
+endif
 nsGenericElement
 :
 :
@@ -17959,6 +18001,9 @@ AttrCount
 )
 ;
 }
+#
+if
+0
 const
 nsTextFragment
 *
@@ -18094,6 +18139,8 @@ TextLength
 )
 ;
 }
+#
+endif
 #
 ifdef
 DEBUG
@@ -19174,6 +19221,9 @@ out
 }
 #
 endif
+#
+if
+0
 PRUint32
 nsGenericElement
 :
@@ -20226,6 +20276,8 @@ Truncate
 )
 ;
 }
+#
+endif
 static
 nsresult
 ParseSelectorList
@@ -20375,6 +20427,9 @@ return
 NS_OK
 ;
 }
+#
+if
+0
 template
 <
 bool
@@ -20967,6 +21022,8 @@ contentList
 )
 ;
 }
+#
+endif
 bool
 nsGenericElement
 :
@@ -21101,6 +21158,9 @@ return
 rv
 ;
 }
+#
+if
+0
 size_t
 nsGenericElement
 :
@@ -21282,6 +21342,8 @@ GetEnumValue
 )
 ;
 }
+#
+endif
 NS_IMETHODIMP
 nsGenericElement
 :
@@ -21599,5 +21661,3 @@ return
 NS_OK
 ;
 }
-#
-endif

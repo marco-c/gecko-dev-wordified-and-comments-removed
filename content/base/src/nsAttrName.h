@@ -699,6 +699,9 @@ QualifiedName
 ;
 }
 }
+#
+ifdef
+MOZILLA_INTERNAL_API
 void
 GetPrefix
 (
@@ -735,6 +738,8 @@ aStr
 ;
 }
 }
+#
+endif
 PRUint32
 HashValue
 (

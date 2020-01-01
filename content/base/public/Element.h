@@ -7,7 +7,11 @@ mozilla_dom_Element_h__
 #
 include
 "
-nsIContent
+mozilla
+/
+dom
+/
+FragmentOrElement
 .
 h
 "
@@ -130,7 +134,7 @@ class
 Element
 :
 public
-nsIContent
+FragmentOrElement
 {
 public
 :
@@ -146,7 +150,7 @@ nsINodeInfo
 aNodeInfo
 )
 :
-nsIContent
+FragmentOrElement
 (
 aNodeInfo
 )

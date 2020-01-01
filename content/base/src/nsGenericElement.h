@@ -527,7 +527,7 @@ mozilla
 dom
 :
 :
-FragmentOrElement
+Element
 {
 public
 :
@@ -650,6 +650,8 @@ nsAString
 aTextContent
 )
 ;
+#
+endif
 virtual
 void
 UpdateEditableState
@@ -689,6 +691,9 @@ aNullParent
 true
 )
 ;
+#
+if
+0
 virtual
 already_AddRefed
 <
@@ -722,6 +727,8 @@ aStr
 )
 const
 ;
+#
+endif
 nsresult
 SetAttr
 (
@@ -926,6 +933,9 @@ GetAttrCount
 )
 const
 ;
+#
+if
+0
 virtual
 const
 nsTextFragment
@@ -1052,6 +1062,8 @@ SaveSubtreeState
 (
 )
 ;
+#
+endif
 virtual
 nsISMILAttr
 *
@@ -1175,6 +1187,9 @@ const
 ;
 #
 endif
+#
+if
+0
 virtual
 const
 nsAttrValue
@@ -1192,6 +1207,8 @@ nsRuleWalker
 aRuleWalker
 )
 ;
+#
+endif
 virtual
 mozilla
 :
@@ -1226,6 +1243,9 @@ bool
 aNotify
 )
 ;
+#
+if
+0
 NS_IMETHOD_
 (
 bool
@@ -1371,6 +1391,8 @@ PRUint16
 aNodeType
 )
 ;
+#
+endif
 NS_IMETHOD
 GetAttributes
 (
@@ -1380,6 +1402,9 @@ nsIDOMNamedNodeMap
 aAttributes
 )
 ;
+#
+if
+0
 NS_IMETHOD
 GetNamespaceURI
 (
@@ -1412,6 +1437,8 @@ bool
 aReturn
 )
 ;
+#
+endif
 NS_IMETHOD
 HasAttributes
 (
@@ -1420,6 +1447,9 @@ bool
 aHasAttributes
 )
 ;
+#
+if
+0
 NS_IMETHOD
 HasChildNodes
 (
@@ -1522,7 +1552,12 @@ aReturn
 )
 ;
 }
+#
+endif
 NS_DECL_NSIDOMELEMENT
+#
+if
+0
 nsresult
 CloneNode
 (
@@ -1855,6 +1890,8 @@ RecompileScriptEventListeners
 )
 {
 }
+#
+endif
 PRInt32
 GetScrollTop
 (
@@ -2018,6 +2055,9 @@ aName
 )
 const
 ;
+#
+if
+0
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS
 (
 nsGenericElement
@@ -2281,6 +2321,8 @@ kDontCallAfterSetAttr
 =
 false
 ;
+#
+endif
 nsresult
 SetAttrAndNotify
 (
@@ -2345,6 +2387,9 @@ nsresult
 aRetval
 )
 ;
+#
+if
+0
 virtual
 nsresult
 BeforeSetAttr
@@ -2421,6 +2466,8 @@ aStr
 )
 const
 ;
+#
+endif
 virtual
 void
 GetOffsetRect
@@ -2479,8 +2526,6 @@ nsIDOMAttr
 aReturn
 )
 ;
-#
-endif
 public
 :
 #
@@ -2672,6 +2717,8 @@ this
 )
 ;
 }
+#
+endif
 void
 AddToIdTable
 (
@@ -2790,6 +2837,9 @@ DoGetID
 }
 }
 }
+#
+if
+0
 bool
 CheckHandleEventForLinksPrecondition
 (
@@ -2839,9 +2889,6 @@ mAttrsAndChildren
 endif
 private
 :
-#
-if
-0
 nsRect
 GetClientAreaRect
 (
@@ -2859,6 +2906,9 @@ aStyledFrame
 nullptr
 )
 ;
+#
+if
+0
 nsContentList
 *
 GetChildrenList
