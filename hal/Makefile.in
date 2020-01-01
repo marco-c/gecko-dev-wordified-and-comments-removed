@@ -585,6 +585,10 @@ UeventPoller
 .
 cpp
 \
+GonkSwitch
+.
+cpp
+\
 (
 NULL
 )
@@ -724,6 +728,10 @@ FallbackTime
 cpp
 \
 FallbackWakeLocks
+.
+cpp
+\
+FallbackSwitch
 .
 cpp
 \
