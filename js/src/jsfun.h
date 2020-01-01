@@ -1025,15 +1025,6 @@ hasScript
 )
 ;
 return
-JS
-:
-:
-HandleScript
-:
-:
-fromMarkedLocation
-(
-&
 u
 .
 i
@@ -1041,7 +1032,6 @@ i
 s
 .
 script_
-)
 ;
 }
 js
