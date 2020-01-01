@@ -4154,6 +4154,10 @@ aWhichClipboard
 =
 =
 kGlobalClipboard
+&
+&
+!
+mEmptyingForSetData
 )
 {
 OleSetClipboard
