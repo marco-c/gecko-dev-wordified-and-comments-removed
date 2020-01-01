@@ -523,6 +523,11 @@ panel
 -
 arrowbox
 "
+dir
+=
+"
+ltr
+"
 >
 <
 xul
@@ -957,7 +962,7 @@ arrowbox
 .
 style
 .
-MozMarginStart
+marginLeft
 =
 (
 (
@@ -998,6 +1003,7 @@ container
 dir
 =
 "
+ltr
 "
 ;
 anchorClass
@@ -1103,6 +1109,7 @@ container
 dir
 =
 "
+ltr
 "
 ;
 anchorClass
