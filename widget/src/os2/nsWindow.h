@@ -502,6 +502,16 @@ nsIntRect
 aClipRect
 )
 ;
+NS_IMETHOD
+GetToggledKeyState
+(
+PRUint32
+aKeyCode
+PRBool
+*
+aLEDState
+)
+;
 virtual
 void
 *
