@@ -624,7 +624,6 @@ outlen
 sizeof
 (
 PRUnichar
-*
 )
 )
 ;
