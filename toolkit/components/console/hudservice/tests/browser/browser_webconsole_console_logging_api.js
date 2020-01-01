@@ -101,6 +101,13 @@ error
 "
 )
 ;
+testConsoleLoggingAPI
+(
+"
+debug
+"
+)
+;
 finishTest
 (
 )
@@ -417,8 +424,12 @@ node
 ok
 (
 /
+"
 foo
+"
+"
 bar
+"
 /
 .
 test
