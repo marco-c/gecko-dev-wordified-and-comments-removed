@@ -2402,8 +2402,11 @@ for
 ;
 )
 {
-jsid
+RootedId
 nid
+(
+cx
+)
 ;
 if
 (
@@ -2419,8 +2422,11 @@ JS_NextProperty
 (
 cx
 iter
-&
 nid
+.
+address
+(
+)
 )
 )
 return

@@ -1544,7 +1544,7 @@ JSObject
 *
 obj_
 jsid
-id
+id_
 JSWatchPointHandler
 handler
 JSObject
@@ -1556,6 +1556,13 @@ assertSameCompartment
 (
 cx
 obj_
+)
+;
+RootedId
+id
+(
+cx
+id_
 )
 ;
 RootedObject
