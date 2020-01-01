@@ -57,6 +57,11 @@ NS_ENSURE_ARG_POINTER
 aBuffer
 )
 ;
+*
+aBuffer
+=
+nullptr
+;
 uint8_t
 *
 buf
