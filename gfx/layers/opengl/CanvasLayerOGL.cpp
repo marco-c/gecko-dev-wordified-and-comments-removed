@@ -680,6 +680,10 @@ UpdateSurface
 (
 )
 ;
+FireDidTransactionCallback
+(
+)
+;
 mOGLManager
 -
 >
