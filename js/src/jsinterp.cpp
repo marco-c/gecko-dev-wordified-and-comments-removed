@@ -2476,11 +2476,6 @@ setpcmisses
 ;
 P
 (
-slotchanges
-)
-;
-P
-(
 setmisses
 )
 ;

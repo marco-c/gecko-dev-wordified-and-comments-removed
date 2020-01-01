@@ -997,9 +997,6 @@ uint32
 setpcmisses
 ;
 uint32
-slotchanges
-;
-uint32
 setmisses
 ;
 uint32
