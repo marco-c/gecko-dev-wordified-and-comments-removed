@@ -4038,6 +4038,13 @@ uri
 return
 ;
 var
+allowPrivate
+=
+PrivateBrowsingUtils
+.
+permanentPrivateBrowsing
+;
+var
 navWin
 =
 RecentWindow
@@ -4047,7 +4054,7 @@ getMostRecentBrowserWindow
 {
 private
 :
-false
+allowPrivate
 }
 )
 ;
