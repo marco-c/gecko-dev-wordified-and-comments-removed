@@ -2958,6 +2958,11 @@ GetFrom
 mFrameLoader
 )
 ;
+if
+(
+lm
+)
+{
 *
 aBackendType
 =
@@ -2978,6 +2983,7 @@ GetMaxTextureSize
 (
 )
 ;
+}
 if
 (
 CompositorParent
