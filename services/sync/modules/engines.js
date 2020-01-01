@@ -5721,6 +5721,14 @@ _resetClient
 )
 ;
 }
+removeClientData
+:
+function
+removeClientData
+(
+)
+{
+}
 handleHMACMismatch
 :
 function
