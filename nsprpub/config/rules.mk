@@ -2895,13 +2895,6 @@ NEED_ABSOLUTE_PATH
 endif
 ifdef
 NEED_ABSOLUTE_PATH
-PWD
-:
-=
-(
-shell
-pwd
-)
 #
 The
 quotes
@@ -2941,7 +2934,7 @@ filter
 1
 )
 (
-PWD
+CURDIR
 )
 /
 (
