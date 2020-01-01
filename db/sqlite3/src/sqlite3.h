@@ -31,6 +31,14 @@ extern
 #
 endif
 #
+ifndef
+SQLITE_API
+#
+define
+SQLITE_API
+#
+endif
+#
 define
 SQLITE_DEPRECATED
 #
@@ -60,12 +68,29 @@ SQLITE_VERSION
 .
 6
 .
-16
+18
 "
 #
 define
 SQLITE_VERSION_NUMBER
-3006016
+3006018
+#
+define
+SQLITE_SOURCE_ID
+"
+2009
+-
+09
+-
+11
+14
+:
+05
+:
+07
+b084828a771ec40be85f07c590ca99de4f6c24ee
+"
+SQLITE_API
 SQLITE_EXTERN
 const
 char
@@ -73,6 +98,7 @@ sqlite3_version
 [
 ]
 ;
+SQLITE_API
 const
 char
 *
@@ -81,12 +107,23 @@ sqlite3_libversion
 void
 )
 ;
+SQLITE_API
+const
+char
+*
+sqlite3_sourceid
+(
+void
+)
+;
+SQLITE_API
 int
 sqlite3_libversion_number
 (
 void
 )
 ;
+SQLITE_API
 int
 sqlite3_threadsafe
 (
@@ -165,6 +202,7 @@ double
 sqlite3_int64
 #
 endif
+SQLITE_API
 int
 sqlite3_close
 (
@@ -190,6 +228,7 @@ char
 *
 )
 ;
+SQLITE_API
 int
 sqlite3_exec
 (
@@ -1002,6 +1041,32 @@ sqlite3_open_v2
 /
 #
 define
+SQLITE_OPEN_SHAREDCACHE
+0x00020000
+/
+*
+Ok
+for
+sqlite3_open_v2
+(
+)
+*
+/
+#
+define
+SQLITE_OPEN_PRIVATECACHE
+0x00040000
+/
+*
+Ok
+for
+sqlite3_open_v2
+(
+)
+*
+/
+#
+define
 SQLITE_IOCAP_ATOMIC
 0x00000001
 #
@@ -1511,30 +1576,35 @@ SQLITE_ACCESS_READWRITE
 define
 SQLITE_ACCESS_READ
 2
+SQLITE_API
 int
 sqlite3_initialize
 (
 void
 )
 ;
+SQLITE_API
 int
 sqlite3_shutdown
 (
 void
 )
 ;
+SQLITE_API
 int
 sqlite3_os_init
 (
 void
 )
 ;
+SQLITE_API
 int
 sqlite3_os_end
 (
 void
 )
 ;
+SQLITE_API
 SQLITE_EXPERIMENTAL
 int
 sqlite3_config
@@ -1545,6 +1615,7 @@ int
 .
 )
 ;
+SQLITE_API
 SQLITE_EXPERIMENTAL
 int
 sqlite3_db_config
@@ -1803,6 +1874,7 @@ int
 int
 *
 /
+SQLITE_API
 int
 sqlite3_extended_result_codes
 (
@@ -1812,6 +1884,7 @@ int
 onoff
 )
 ;
+SQLITE_API
 sqlite3_int64
 sqlite3_last_insert_rowid
 (
@@ -1819,6 +1892,7 @@ sqlite3
 *
 )
 ;
+SQLITE_API
 int
 sqlite3_changes
 (
@@ -1826,6 +1900,7 @@ sqlite3
 *
 )
 ;
+SQLITE_API
 int
 sqlite3_total_changes
 (
@@ -1833,6 +1908,7 @@ sqlite3
 *
 )
 ;
+SQLITE_API
 void
 sqlite3_interrupt
 (
@@ -1840,6 +1916,7 @@ sqlite3
 *
 )
 ;
+SQLITE_API
 int
 sqlite3_complete
 (
@@ -1849,6 +1926,7 @@ char
 sql
 )
 ;
+SQLITE_API
 int
 sqlite3_complete16
 (
@@ -1858,6 +1936,7 @@ void
 sql
 )
 ;
+SQLITE_API
 int
 sqlite3_busy_handler
 (
@@ -1876,6 +1955,7 @@ void
 *
 )
 ;
+SQLITE_API
 int
 sqlite3_busy_timeout
 (
@@ -1885,6 +1965,7 @@ int
 ms
 )
 ;
+SQLITE_API
 int
 sqlite3_get_table
 (
@@ -1912,6 +1993,7 @@ char
 pzErrmsg
 )
 ;
+SQLITE_API
 void
 sqlite3_free_table
 (
@@ -1921,6 +2003,7 @@ char
 result
 )
 ;
+SQLITE_API
 char
 *
 sqlite3_mprintf
@@ -1933,6 +2016,7 @@ char
 .
 )
 ;
+SQLITE_API
 char
 *
 sqlite3_vmprintf
@@ -1943,6 +2027,7 @@ char
 va_list
 )
 ;
+SQLITE_API
 char
 *
 sqlite3_snprintf
@@ -1958,6 +2043,7 @@ char
 .
 )
 ;
+SQLITE_API
 void
 *
 sqlite3_malloc
@@ -1965,6 +2051,7 @@ sqlite3_malloc
 int
 )
 ;
+SQLITE_API
 void
 *
 sqlite3_realloc
@@ -1974,6 +2061,7 @@ void
 int
 )
 ;
+SQLITE_API
 void
 sqlite3_free
 (
@@ -1981,12 +2069,14 @@ void
 *
 )
 ;
+SQLITE_API
 sqlite3_int64
 sqlite3_memory_used
 (
 void
 )
 ;
+SQLITE_API
 sqlite3_int64
 sqlite3_memory_highwater
 (
@@ -1994,6 +2084,7 @@ int
 resetFlag
 )
 ;
+SQLITE_API
 void
 sqlite3_randomness
 (
@@ -2004,6 +2095,7 @@ void
 P
 )
 ;
+SQLITE_API
 int
 sqlite3_set_authorizer
 (
@@ -2447,6 +2539,7 @@ longer
 used
 *
 /
+SQLITE_API
 SQLITE_EXPERIMENTAL
 void
 *
@@ -2470,6 +2563,7 @@ void
 *
 )
 ;
+SQLITE_API
 SQLITE_EXPERIMENTAL
 void
 *
@@ -2494,6 +2588,7 @@ void
 *
 )
 ;
+SQLITE_API
 void
 sqlite3_progress_handler
 (
@@ -2512,6 +2607,7 @@ void
 *
 )
 ;
+SQLITE_API
 int
 sqlite3_open
 (
@@ -2525,6 +2621,7 @@ sqlite3
 ppDb
 )
 ;
+SQLITE_API
 int
 sqlite3_open16
 (
@@ -2538,6 +2635,7 @@ sqlite3
 ppDb
 )
 ;
+SQLITE_API
 int
 sqlite3_open_v2
 (
@@ -2557,6 +2655,7 @@ char
 zVfs
 )
 ;
+SQLITE_API
 int
 sqlite3_errcode
 (
@@ -2565,6 +2664,7 @@ sqlite3
 db
 )
 ;
+SQLITE_API
 int
 sqlite3_extended_errcode
 (
@@ -2573,6 +2673,7 @@ sqlite3
 db
 )
 ;
+SQLITE_API
 const
 char
 *
@@ -2582,6 +2683,7 @@ sqlite3
 *
 )
 ;
+SQLITE_API
 const
 void
 *
@@ -2596,6 +2698,7 @@ struct
 sqlite3_stmt
 sqlite3_stmt
 ;
+SQLITE_API
 int
 sqlite3_limit
 (
@@ -2647,6 +2750,11 @@ SQLITE_LIMIT_LIKE_PATTERN_LENGTH
 define
 SQLITE_LIMIT_VARIABLE_NUMBER
 9
+#
+define
+SQLITE_LIMIT_TRIGGER_DEPTH
+10
+SQLITE_API
 int
 sqlite3_prepare
 (
@@ -2670,6 +2778,7 @@ char
 pzTail
 )
 ;
+SQLITE_API
 int
 sqlite3_prepare_v2
 (
@@ -2693,6 +2802,7 @@ char
 pzTail
 )
 ;
+SQLITE_API
 int
 sqlite3_prepare16
 (
@@ -2716,6 +2826,7 @@ void
 pzTail
 )
 ;
+SQLITE_API
 int
 sqlite3_prepare16_v2
 (
@@ -2739,6 +2850,7 @@ void
 pzTail
 )
 ;
+SQLITE_API
 const
 char
 *
@@ -2759,6 +2871,7 @@ struct
 sqlite3_context
 sqlite3_context
 ;
+SQLITE_API
 int
 sqlite3_bind_blob
 (
@@ -2780,6 +2893,7 @@ void
 )
 )
 ;
+SQLITE_API
 int
 sqlite3_bind_double
 (
@@ -2789,6 +2903,7 @@ int
 double
 )
 ;
+SQLITE_API
 int
 sqlite3_bind_int
 (
@@ -2798,6 +2913,7 @@ int
 int
 )
 ;
+SQLITE_API
 int
 sqlite3_bind_int64
 (
@@ -2807,6 +2923,7 @@ int
 sqlite3_int64
 )
 ;
+SQLITE_API
 int
 sqlite3_bind_null
 (
@@ -2815,6 +2932,7 @@ sqlite3_stmt
 int
 )
 ;
+SQLITE_API
 int
 sqlite3_bind_text
 (
@@ -2836,6 +2954,7 @@ void
 )
 )
 ;
+SQLITE_API
 int
 sqlite3_bind_text16
 (
@@ -2856,6 +2975,7 @@ void
 )
 )
 ;
+SQLITE_API
 int
 sqlite3_bind_value
 (
@@ -2867,6 +2987,7 @@ sqlite3_value
 *
 )
 ;
+SQLITE_API
 int
 sqlite3_bind_zeroblob
 (
@@ -2877,6 +2998,7 @@ int
 n
 )
 ;
+SQLITE_API
 int
 sqlite3_bind_parameter_count
 (
@@ -2884,6 +3006,7 @@ sqlite3_stmt
 *
 )
 ;
+SQLITE_API
 const
 char
 *
@@ -2894,6 +3017,7 @@ sqlite3_stmt
 int
 )
 ;
+SQLITE_API
 int
 sqlite3_bind_parameter_index
 (
@@ -2905,6 +3029,7 @@ char
 zName
 )
 ;
+SQLITE_API
 int
 sqlite3_clear_bindings
 (
@@ -2912,6 +3037,7 @@ sqlite3_stmt
 *
 )
 ;
+SQLITE_API
 int
 sqlite3_column_count
 (
@@ -2920,6 +3046,7 @@ sqlite3_stmt
 pStmt
 )
 ;
+SQLITE_API
 const
 char
 *
@@ -2931,6 +3058,7 @@ int
 N
 )
 ;
+SQLITE_API
 const
 void
 *
@@ -2942,6 +3070,7 @@ int
 N
 )
 ;
+SQLITE_API
 const
 char
 *
@@ -2952,6 +3081,7 @@ sqlite3_stmt
 int
 )
 ;
+SQLITE_API
 const
 void
 *
@@ -2962,6 +3092,7 @@ sqlite3_stmt
 int
 )
 ;
+SQLITE_API
 const
 char
 *
@@ -2972,6 +3103,7 @@ sqlite3_stmt
 int
 )
 ;
+SQLITE_API
 const
 void
 *
@@ -2982,6 +3114,7 @@ sqlite3_stmt
 int
 )
 ;
+SQLITE_API
 const
 char
 *
@@ -2992,6 +3125,7 @@ sqlite3_stmt
 int
 )
 ;
+SQLITE_API
 const
 void
 *
@@ -3002,6 +3136,7 @@ sqlite3_stmt
 int
 )
 ;
+SQLITE_API
 const
 char
 *
@@ -3012,6 +3147,7 @@ sqlite3_stmt
 int
 )
 ;
+SQLITE_API
 const
 void
 *
@@ -3022,6 +3158,7 @@ sqlite3_stmt
 int
 )
 ;
+SQLITE_API
 int
 sqlite3_step
 (
@@ -3029,6 +3166,7 @@ sqlite3_stmt
 *
 )
 ;
+SQLITE_API
 int
 sqlite3_data_count
 (
@@ -3071,6 +3209,7 @@ endif
 define
 SQLITE3_TEXT
 3
+SQLITE_API
 const
 void
 *
@@ -3082,6 +3221,7 @@ int
 iCol
 )
 ;
+SQLITE_API
 int
 sqlite3_column_bytes
 (
@@ -3091,6 +3231,7 @@ int
 iCol
 )
 ;
+SQLITE_API
 int
 sqlite3_column_bytes16
 (
@@ -3100,6 +3241,7 @@ int
 iCol
 )
 ;
+SQLITE_API
 double
 sqlite3_column_double
 (
@@ -3109,6 +3251,7 @@ int
 iCol
 )
 ;
+SQLITE_API
 int
 sqlite3_column_int
 (
@@ -3118,6 +3261,7 @@ int
 iCol
 )
 ;
+SQLITE_API
 sqlite3_int64
 sqlite3_column_int64
 (
@@ -3127,6 +3271,7 @@ int
 iCol
 )
 ;
+SQLITE_API
 const
 unsigned
 char
@@ -3139,6 +3284,7 @@ int
 iCol
 )
 ;
+SQLITE_API
 const
 void
 *
@@ -3150,6 +3296,7 @@ int
 iCol
 )
 ;
+SQLITE_API
 int
 sqlite3_column_type
 (
@@ -3159,6 +3306,7 @@ int
 iCol
 )
 ;
+SQLITE_API
 sqlite3_value
 *
 sqlite3_column_value
@@ -3169,6 +3317,7 @@ int
 iCol
 )
 ;
+SQLITE_API
 int
 sqlite3_finalize
 (
@@ -3177,6 +3326,7 @@ sqlite3_stmt
 pStmt
 )
 ;
+SQLITE_API
 int
 sqlite3_reset
 (
@@ -3185,6 +3335,7 @@ sqlite3_stmt
 pStmt
 )
 ;
+SQLITE_API
 int
 sqlite3_create_function
 (
@@ -3239,6 +3390,7 @@ sqlite3_context
 )
 )
 ;
+SQLITE_API
 int
 sqlite3_create_function16
 (
@@ -3340,6 +3492,7 @@ only
 #
 ifndef
 SQLITE_OMIT_DEPRECATED
+SQLITE_API
 SQLITE_DEPRECATED
 int
 sqlite3_aggregate_count
@@ -3348,6 +3501,7 @@ sqlite3_context
 *
 )
 ;
+SQLITE_API
 SQLITE_DEPRECATED
 int
 sqlite3_expired
@@ -3356,6 +3510,7 @@ sqlite3_stmt
 *
 )
 ;
+SQLITE_API
 SQLITE_DEPRECATED
 int
 sqlite3_transfer_bindings
@@ -3366,6 +3521,7 @@ sqlite3_stmt
 *
 )
 ;
+SQLITE_API
 SQLITE_DEPRECATED
 int
 sqlite3_global_recover
@@ -3373,6 +3529,7 @@ sqlite3_global_recover
 void
 )
 ;
+SQLITE_API
 SQLITE_DEPRECATED
 void
 sqlite3_thread_cleanup
@@ -3380,6 +3537,7 @@ sqlite3_thread_cleanup
 void
 )
 ;
+SQLITE_API
 SQLITE_DEPRECATED
 int
 sqlite3_memory_alarm
@@ -3401,6 +3559,7 @@ sqlite3_int64
 ;
 #
 endif
+SQLITE_API
 const
 void
 *
@@ -3410,6 +3569,7 @@ sqlite3_value
 *
 )
 ;
+SQLITE_API
 int
 sqlite3_value_bytes
 (
@@ -3417,6 +3577,7 @@ sqlite3_value
 *
 )
 ;
+SQLITE_API
 int
 sqlite3_value_bytes16
 (
@@ -3424,6 +3585,7 @@ sqlite3_value
 *
 )
 ;
+SQLITE_API
 double
 sqlite3_value_double
 (
@@ -3431,6 +3593,7 @@ sqlite3_value
 *
 )
 ;
+SQLITE_API
 int
 sqlite3_value_int
 (
@@ -3438,6 +3601,7 @@ sqlite3_value
 *
 )
 ;
+SQLITE_API
 sqlite3_int64
 sqlite3_value_int64
 (
@@ -3445,6 +3609,7 @@ sqlite3_value
 *
 )
 ;
+SQLITE_API
 const
 unsigned
 char
@@ -3455,6 +3620,7 @@ sqlite3_value
 *
 )
 ;
+SQLITE_API
 const
 void
 *
@@ -3464,6 +3630,7 @@ sqlite3_value
 *
 )
 ;
+SQLITE_API
 const
 void
 *
@@ -3473,6 +3640,7 @@ sqlite3_value
 *
 )
 ;
+SQLITE_API
 const
 void
 *
@@ -3482,6 +3650,7 @@ sqlite3_value
 *
 )
 ;
+SQLITE_API
 int
 sqlite3_value_type
 (
@@ -3489,6 +3658,7 @@ sqlite3_value
 *
 )
 ;
+SQLITE_API
 int
 sqlite3_value_numeric_type
 (
@@ -3496,6 +3666,7 @@ sqlite3_value
 *
 )
 ;
+SQLITE_API
 void
 *
 sqlite3_aggregate_context
@@ -3506,6 +3677,7 @@ int
 nBytes
 )
 ;
+SQLITE_API
 void
 *
 sqlite3_user_data
@@ -3514,6 +3686,7 @@ sqlite3_context
 *
 )
 ;
+SQLITE_API
 sqlite3
 *
 sqlite3_context_db_handle
@@ -3522,6 +3695,7 @@ sqlite3_context
 *
 )
 ;
+SQLITE_API
 void
 *
 sqlite3_get_auxdata
@@ -3532,6 +3706,7 @@ int
 N
 )
 ;
+SQLITE_API
 void
 sqlite3_set_auxdata
 (
@@ -3581,6 +3756,7 @@ sqlite3_destructor_type
 -
 1
 )
+SQLITE_API
 void
 sqlite3_result_blob
 (
@@ -3600,6 +3776,7 @@ void
 )
 )
 ;
+SQLITE_API
 void
 sqlite3_result_double
 (
@@ -3608,6 +3785,7 @@ sqlite3_context
 double
 )
 ;
+SQLITE_API
 void
 sqlite3_result_error
 (
@@ -3619,6 +3797,7 @@ char
 int
 )
 ;
+SQLITE_API
 void
 sqlite3_result_error16
 (
@@ -3630,6 +3809,7 @@ void
 int
 )
 ;
+SQLITE_API
 void
 sqlite3_result_error_toobig
 (
@@ -3637,6 +3817,7 @@ sqlite3_context
 *
 )
 ;
+SQLITE_API
 void
 sqlite3_result_error_nomem
 (
@@ -3644,6 +3825,7 @@ sqlite3_context
 *
 )
 ;
+SQLITE_API
 void
 sqlite3_result_error_code
 (
@@ -3652,6 +3834,7 @@ sqlite3_context
 int
 )
 ;
+SQLITE_API
 void
 sqlite3_result_int
 (
@@ -3660,6 +3843,7 @@ sqlite3_context
 int
 )
 ;
+SQLITE_API
 void
 sqlite3_result_int64
 (
@@ -3668,6 +3852,7 @@ sqlite3_context
 sqlite3_int64
 )
 ;
+SQLITE_API
 void
 sqlite3_result_null
 (
@@ -3675,6 +3860,7 @@ sqlite3_context
 *
 )
 ;
+SQLITE_API
 void
 sqlite3_result_text
 (
@@ -3694,6 +3880,7 @@ void
 )
 )
 ;
+SQLITE_API
 void
 sqlite3_result_text16
 (
@@ -3713,6 +3900,7 @@ void
 )
 )
 ;
+SQLITE_API
 void
 sqlite3_result_text16le
 (
@@ -3732,6 +3920,7 @@ void
 )
 )
 ;
+SQLITE_API
 void
 sqlite3_result_text16be
 (
@@ -3751,6 +3940,7 @@ void
 )
 )
 ;
+SQLITE_API
 void
 sqlite3_result_value
 (
@@ -3760,6 +3950,7 @@ sqlite3_value
 *
 )
 ;
+SQLITE_API
 void
 sqlite3_result_zeroblob
 (
@@ -3769,6 +3960,7 @@ int
 n
 )
 ;
+SQLITE_API
 int
 sqlite3_create_collation
 (
@@ -3801,6 +3993,7 @@ void
 )
 )
 ;
+SQLITE_API
 int
 sqlite3_create_collation_v2
 (
@@ -3842,6 +4035,7 @@ void
 )
 )
 ;
+SQLITE_API
 int
 sqlite3_create_collation16
 (
@@ -3874,6 +4068,7 @@ void
 )
 )
 ;
+SQLITE_API
 int
 sqlite3_collation_needed
 (
@@ -3898,6 +4093,7 @@ char
 )
 )
 ;
+SQLITE_API
 int
 sqlite3_collation_needed16
 (
@@ -3922,6 +4118,7 @@ void
 )
 )
 ;
+SQLITE_API
 int
 sqlite3_key
 (
@@ -3936,6 +4133,7 @@ int
 nKey
 )
 ;
+SQLITE_API
 int
 sqlite3_rekey
 (
@@ -3950,17 +4148,20 @@ int
 nKey
 )
 ;
+SQLITE_API
 int
 sqlite3_sleep
 (
 int
 )
 ;
+SQLITE_API
 SQLITE_EXTERN
 char
 *
 sqlite3_temp_directory
 ;
+SQLITE_API
 int
 sqlite3_get_autocommit
 (
@@ -3968,6 +4169,7 @@ sqlite3
 *
 )
 ;
+SQLITE_API
 sqlite3
 *
 sqlite3_db_handle
@@ -3976,6 +4178,7 @@ sqlite3_stmt
 *
 )
 ;
+SQLITE_API
 sqlite3_stmt
 *
 sqlite3_next_stmt
@@ -3988,6 +4191,7 @@ sqlite3_stmt
 pStmt
 )
 ;
+SQLITE_API
 void
 *
 sqlite3_commit_hook
@@ -4006,6 +4210,7 @@ void
 *
 )
 ;
+SQLITE_API
 void
 *
 sqlite3_rollback_hook
@@ -4024,6 +4229,7 @@ void
 *
 )
 ;
+SQLITE_API
 void
 *
 sqlite3_update_hook
@@ -4050,24 +4256,28 @@ void
 *
 )
 ;
+SQLITE_API
 int
 sqlite3_enable_shared_cache
 (
 int
 )
 ;
+SQLITE_API
 int
 sqlite3_release_memory
 (
 int
 )
 ;
+SQLITE_API
 void
 sqlite3_soft_heap_limit
 (
 int
 )
 ;
+SQLITE_API
 int
 sqlite3_table_column_metadata
 (
@@ -4107,6 +4317,7 @@ int
 pAutoinc
 )
 ;
+SQLITE_API
 int
 sqlite3_load_extension
 (
@@ -4127,6 +4338,7 @@ char
 pzErrMsg
 )
 ;
+SQLITE_API
 int
 sqlite3_enable_load_extension
 (
@@ -4137,6 +4349,7 @@ int
 onoff
 )
 ;
+SQLITE_API
 int
 sqlite3_auto_extension
 (
@@ -4150,6 +4363,7 @@ void
 )
 )
 ;
+SQLITE_API
 void
 sqlite3_reset_auto_extension
 (
@@ -4578,6 +4792,7 @@ SQLITE_INDEX_CONSTRAINT_GE
 define
 SQLITE_INDEX_CONSTRAINT_MATCH
 64
+SQLITE_API
 SQLITE_EXPERIMENTAL
 int
 sqlite3_create_module
@@ -4598,6 +4813,7 @@ void
 pClientData
 )
 ;
+SQLITE_API
 SQLITE_EXPERIMENTAL
 int
 sqlite3_create_module_v2
@@ -4653,6 +4869,7 @@ pVtab
 ;
 }
 ;
+SQLITE_API
 SQLITE_EXPERIMENTAL
 int
 sqlite3_declare_vtab
@@ -4665,6 +4882,7 @@ char
 zSQL
 )
 ;
+SQLITE_API
 SQLITE_EXPERIMENTAL
 int
 sqlite3_overload_function
@@ -4684,6 +4902,7 @@ struct
 sqlite3_blob
 sqlite3_blob
 ;
+SQLITE_API
 int
 sqlite3_blob_open
 (
@@ -4711,6 +4930,7 @@ sqlite3_blob
 ppBlob
 )
 ;
+SQLITE_API
 int
 sqlite3_blob_close
 (
@@ -4718,6 +4938,7 @@ sqlite3_blob
 *
 )
 ;
+SQLITE_API
 int
 sqlite3_blob_bytes
 (
@@ -4725,6 +4946,7 @@ sqlite3_blob
 *
 )
 ;
+SQLITE_API
 int
 sqlite3_blob_read
 (
@@ -4739,6 +4961,7 @@ int
 iOffset
 )
 ;
+SQLITE_API
 int
 sqlite3_blob_write
 (
@@ -4754,6 +4977,7 @@ int
 iOffset
 )
 ;
+SQLITE_API
 sqlite3_vfs
 *
 sqlite3_vfs_find
@@ -4764,6 +4988,7 @@ char
 zVfsName
 )
 ;
+SQLITE_API
 int
 sqlite3_vfs_register
 (
@@ -4773,6 +4998,7 @@ int
 makeDflt
 )
 ;
+SQLITE_API
 int
 sqlite3_vfs_unregister
 (
@@ -4780,6 +5006,7 @@ sqlite3_vfs
 *
 )
 ;
+SQLITE_API
 sqlite3_mutex
 *
 sqlite3_mutex_alloc
@@ -4787,6 +5014,7 @@ sqlite3_mutex_alloc
 int
 )
 ;
+SQLITE_API
 void
 sqlite3_mutex_free
 (
@@ -4794,6 +5022,7 @@ sqlite3_mutex
 *
 )
 ;
+SQLITE_API
 void
 sqlite3_mutex_enter
 (
@@ -4801,6 +5030,7 @@ sqlite3_mutex
 *
 )
 ;
+SQLITE_API
 int
 sqlite3_mutex_try
 (
@@ -4808,6 +5038,7 @@ sqlite3_mutex
 *
 )
 ;
+SQLITE_API
 void
 sqlite3_mutex_leave
 (
@@ -4913,6 +5144,7 @@ sqlite3_mutex
 ;
 }
 ;
+SQLITE_API
 int
 sqlite3_mutex_held
 (
@@ -4920,6 +5152,7 @@ sqlite3_mutex
 *
 )
 ;
+SQLITE_API
 int
 sqlite3_mutex_notheld
 (
@@ -5004,6 +5237,7 @@ page
 list
 *
 /
+SQLITE_API
 sqlite3_mutex
 *
 sqlite3_db_mutex
@@ -5012,6 +5246,7 @@ sqlite3
 *
 )
 ;
+SQLITE_API
 int
 sqlite3_file_control
 (
@@ -5027,6 +5262,7 @@ void
 *
 )
 ;
+SQLITE_API
 int
 sqlite3_test_control
 (
@@ -5073,6 +5309,11 @@ SQLITE_TESTCTRL_ASSERT
 define
 SQLITE_TESTCTRL_ALWAYS
 13
+#
+define
+SQLITE_TESTCTRL_RESERVE
+14
+SQLITE_API
 SQLITE_EXPERIMENTAL
 int
 sqlite3_status
@@ -5125,6 +5366,7 @@ SQLITE_STATUS_PAGECACHE_SIZE
 define
 SQLITE_STATUS_SCRATCH_SIZE
 8
+SQLITE_API
 SQLITE_EXPERIMENTAL
 int
 sqlite3_db_status
@@ -5147,6 +5389,7 @@ resetFlg
 define
 SQLITE_DBSTATUS_LOOKASIDE_USED
 0
+SQLITE_API
 SQLITE_EXPERIMENTAL
 int
 sqlite3_stmt_status
@@ -5313,6 +5556,7 @@ struct
 sqlite3_backup
 sqlite3_backup
 ;
+SQLITE_API
 sqlite3_backup
 *
 sqlite3_backup_init
@@ -5333,6 +5577,7 @@ char
 zSourceName
 )
 ;
+SQLITE_API
 int
 sqlite3_backup_step
 (
@@ -5343,6 +5588,7 @@ int
 nPage
 )
 ;
+SQLITE_API
 int
 sqlite3_backup_finish
 (
@@ -5351,6 +5597,7 @@ sqlite3_backup
 p
 )
 ;
+SQLITE_API
 int
 sqlite3_backup_remaining
 (
@@ -5359,6 +5606,7 @@ sqlite3_backup
 p
 )
 ;
+SQLITE_API
 int
 sqlite3_backup_pagecount
 (
@@ -5367,6 +5615,7 @@ sqlite3_backup
 p
 )
 ;
+SQLITE_API
 int
 sqlite3_unlock_notify
 (
@@ -5389,6 +5638,19 @@ nArg
 void
 *
 pNotifyArg
+)
+;
+SQLITE_API
+int
+sqlite3_strnicmp
+(
+const
+char
+*
+const
+char
+*
+int
 )
 ;
 #
