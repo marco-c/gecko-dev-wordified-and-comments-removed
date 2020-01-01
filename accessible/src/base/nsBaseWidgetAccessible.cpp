@@ -173,16 +173,6 @@ CacheChildren
 (
 )
 {
-mAccChildCount
-=
-IsDefunct
-(
-)
-?
-eChildCountUninitialized
-:
-0
-;
 }
 nsLinkableAccessible
 :

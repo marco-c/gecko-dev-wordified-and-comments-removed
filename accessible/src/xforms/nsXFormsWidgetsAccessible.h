@@ -181,6 +181,7 @@ aExtraState
 ;
 protected
 :
+virtual
 void
 CacheChildren
 (
