@@ -27614,7 +27614,7 @@ security
 -
 policy
 -
-read
+report
 -
 only
 "
