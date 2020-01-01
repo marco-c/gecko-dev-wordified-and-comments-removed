@@ -3338,6 +3338,14 @@ if
 aNewParent
 )
 {
+aNewParent
+-
+>
+AddChild
+(
+this
+)
+;
 newParentWindow
 =
 newParent
