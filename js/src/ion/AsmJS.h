@@ -258,6 +258,12 @@ pc
 }
 }
 ;
+const
+size_t
+AsmJSPageSize
+=
+4096
+;
 static
 const
 size_t

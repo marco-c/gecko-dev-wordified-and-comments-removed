@@ -5377,10 +5377,6 @@ undef
 MSG_DEF
 #
 endif
-InitMemorySubsystem
-(
-)
-;
 if
 (
 !
