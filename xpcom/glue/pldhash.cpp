@@ -50,6 +50,13 @@ nsDebug
 h
 "
 #
+include
+"
+nsAlgorithm
+.
+h
+"
+#
 ifdef
 PL_DHASHMETER
 #
@@ -1135,7 +1142,7 @@ float
 (
 PL_DHASH_MIN_SIZE
 -
-PR_MAX
+NS_MAX
 (
 PL_DHASH_MIN_SIZE
 /
@@ -1187,12 +1194,12 @@ size
 *
 maxAlpha
 -
-PR_MAX
+NS_MAX
 (
 size
 /
 256
-1
+1u
 )
 )
 /

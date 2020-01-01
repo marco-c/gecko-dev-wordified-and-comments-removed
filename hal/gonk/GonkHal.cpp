@@ -1634,7 +1634,7 @@ false
 }
 buf
 [
-PR_MIN
+NS_MIN
 (
 numRead
 n

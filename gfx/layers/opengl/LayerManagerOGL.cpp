@@ -386,7 +386,7 @@ numFramesDrawnInWindow
 ;
 earliestFrameInWindow
 =
-PR_MIN
+NS_MIN
 (
 earliestFrameInWindow
 frame

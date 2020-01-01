@@ -1634,7 +1634,7 @@ false
 }
 mDeltaToNextIdleSwitchInS
 =
-PR_MIN
+NS_MIN
 (
 mDeltaToNextIdleSwitchInS
 curListener
@@ -2260,7 +2260,7 @@ else
 {
 mDeltaToNextIdleSwitchInS
 =
-PR_MIN
+NS_MIN
 (
 mDeltaToNextIdleSwitchInS
 curListener
