@@ -59,6 +59,12 @@ aContent
 aDoc
 )
 {
+mFlags
+=
+mFlags
+|
+eHasNumericValue
+;
 }
 NS_IMPL_ISUPPORTS_INHERITED1
 (
