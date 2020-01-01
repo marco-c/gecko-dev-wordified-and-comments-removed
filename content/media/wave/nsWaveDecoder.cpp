@@ -4467,6 +4467,10 @@ MOZ_COUNT_DTOR
 nsWaveDecoder
 )
 ;
+UnpinForSeek
+(
+)
+;
 }
 PRBool
 nsWaveDecoder
@@ -4591,6 +4595,10 @@ if
 mPlaybackStateMachine
 )
 {
+PinForSeek
+(
+)
+;
 mPlaybackStateMachine
 -
 >
@@ -5686,6 +5694,10 @@ SeekingStopped
 (
 )
 {
+UnpinForSeek
+(
+)
+;
 if
 (
 mShuttingDown

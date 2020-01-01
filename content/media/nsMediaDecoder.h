@@ -472,6 +472,16 @@ StopProgress
 (
 )
 ;
+void
+PinForSeek
+(
+)
+;
+void
+UnpinForSeek
+(
+)
+;
 protected
 :
 nsCOMPtr
@@ -508,6 +518,9 @@ mVideoUpdateLock
 ;
 float
 mPixelAspectRatio
+;
+PRPackedBool
+mPinnedForSeek
 ;
 PRPackedBool
 mSizeChanged
