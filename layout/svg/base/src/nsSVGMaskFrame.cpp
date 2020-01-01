@@ -902,6 +902,8 @@ nsSVGMaskFrame
 :
 GetCanvasTM
 (
+PRUint32
+aFor
 )
 {
 NS_ASSERTION

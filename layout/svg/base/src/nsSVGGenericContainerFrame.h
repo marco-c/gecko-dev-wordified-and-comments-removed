@@ -143,6 +143,8 @@ virtual
 gfxMatrix
 GetCanvasTM
 (
+PRUint32
+aFor
 )
 ;
 }

@@ -479,6 +479,8 @@ nsSVGPatternFrame
 :
 GetCanvasTM
 (
+PRUint32
+aFor
 )
 {
 if
@@ -502,6 +504,7 @@ mSource
 >
 GetCanvasTM
 (
+aFor
 )
 ;
 }
@@ -2773,6 +2776,10 @@ nsSVGUtils
 GetCanvasTM
 (
 aTarget
+nsISVGChildFrame
+:
+:
+FOR_PAINTING
 )
 ;
 {

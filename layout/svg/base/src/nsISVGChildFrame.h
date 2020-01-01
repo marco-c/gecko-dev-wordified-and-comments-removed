@@ -154,6 +154,16 @@ UpdateBounds
 0
 ;
 enum
+RequestingCanvasTMFor
+{
+FOR_PAINTING
+=
+1
+FOR_HIT_TESTING
+FOR_OUTERSVG_TM
+}
+;
+enum
 SVGChangedFlags
 {
 DO_NOT_NOTIFY_RENDERING_OBSERVERS

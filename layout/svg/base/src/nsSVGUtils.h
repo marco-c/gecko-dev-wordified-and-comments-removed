@@ -1175,6 +1175,8 @@ GetCanvasTM
 nsIFrame
 *
 aFrame
+PRUint32
+aFor
 )
 ;
 static
@@ -1184,6 +1186,8 @@ GetUserToCanvasTM
 nsIFrame
 *
 aFrame
+PRUint32
+aFor
 )
 ;
 static
