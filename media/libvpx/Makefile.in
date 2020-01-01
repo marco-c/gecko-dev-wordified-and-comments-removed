@@ -1163,6 +1163,13 @@ OS_ARCH
 )
 WINNT
 )
+ifneq
+(
+(
+OS_TEST
+)
+x86_64
+)
 ASFILES
 +
 =
@@ -1174,6 +1181,7 @@ asm
 (
 NULL
 )
+endif
 endif
 endif
 include
