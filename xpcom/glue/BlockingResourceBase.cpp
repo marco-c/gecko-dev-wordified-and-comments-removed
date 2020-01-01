@@ -97,6 +97,7 @@ BlockingResourceBase
 :
 :
 DDT
+*
 BlockingResourceBase
 :
 :
@@ -332,7 +333,8 @@ mChainPrev
 0
 ;
 sDeadlockDetector
-.
+-
+>
 Add
 (
 mDDEntry
@@ -419,7 +421,8 @@ ResourceAcquisitionArray
 cycle
 (
 sDeadlockDetector
-.
+-
+>
 CheckAcquisition
 (
 chainFront
