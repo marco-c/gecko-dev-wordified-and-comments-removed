@@ -455,6 +455,10 @@ nsIXULDocument
 .
 h
 \
+nsIXULPrototypeCache
+.
+h
+\
 (
 NULL
 )

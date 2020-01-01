@@ -92,6 +92,13 @@ h
 #
 include
 "
+nsIXULPrototypeCache
+.
+h
+"
+#
+include
+"
 nsLayoutCID
 .
 h
