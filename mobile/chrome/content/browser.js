@@ -12976,6 +12976,15 @@ screenH
 ;
 }
 else
+if
+(
+!
+validW
+&
+&
+!
+validH
+)
 {
 viewportW
 =
