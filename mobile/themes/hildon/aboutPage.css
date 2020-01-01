@@ -53,9 +53,7 @@ font
 -
 size
 :
-2
-.
-4mm
+24px
 ;
 }
 #
@@ -89,7 +87,7 @@ padding
 -
 end
 :
-2mm
+16px
 ;
 }
 #
@@ -117,7 +115,7 @@ a
 {
 padding
 :
-2mm
+16px
 ;
 display
 :
@@ -162,8 +160,6 @@ font
 -
 size
 :
-1
-.
-8mm
+18px
 ;
 }
