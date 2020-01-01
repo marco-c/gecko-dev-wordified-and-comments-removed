@@ -616,6 +616,9 @@ sizeOfIncludingThis
 (
 JSMallocSizeOfFun
 mallocSizeOf
+JS
+:
+:
 RuntimeSizes
 *
 rtSizes
@@ -2154,6 +2157,9 @@ finish
 (
 )
 ;
+JS
+:
+:
 PrepareForFullGC
 (
 rt
@@ -2163,6 +2169,9 @@ GC
 (
 rt
 GC_NORMAL
+JS
+:
+:
 gcreason
 :
 :
@@ -2190,6 +2199,9 @@ isHeapBusy
 )
 )
 ;
+JS
+:
+:
 PrepareForFullGC
 (
 rt
@@ -2199,6 +2211,9 @@ GC
 (
 rt
 GC_NORMAL
+JS
+:
+:
 gcreason
 :
 :
@@ -6426,6 +6441,9 @@ onTooMuchMalloc
 TriggerGC
 (
 this
+JS
+:
+:
 gcreason
 :
 :
@@ -6488,6 +6506,9 @@ isHeapBusy
 return
 NULL
 ;
+JS
+:
+:
 ShrinkGCBuffers
 (
 this
@@ -7096,6 +7117,9 @@ JS_THREADSAFE
 &
 defined
 DEBUG
+JS
+:
+:
 AutoCheckRequestDepth
 :
 :
@@ -7154,6 +7178,9 @@ checkRequestDepth
 +
 ;
 }
+JS
+:
+:
 AutoCheckRequestDepth
 :
 :

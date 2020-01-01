@@ -1029,6 +1029,13 @@ data
 const
 ;
 inline
+Value
+returnValue
+(
+)
+const
+;
+inline
 void
 setReturnValue
 (

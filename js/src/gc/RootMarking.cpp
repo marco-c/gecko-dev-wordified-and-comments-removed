@@ -1871,6 +1871,9 @@ pop
 endif
 }
 void
+JS
+:
+:
 AutoIdArray
 :
 :

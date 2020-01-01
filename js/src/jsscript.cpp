@@ -8204,6 +8204,9 @@ ifdef
 JSGC_INCREMENTAL
 if
 (
+JS
+:
+:
 IsIncrementalGCInProgress
 (
 rt

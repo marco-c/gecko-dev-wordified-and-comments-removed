@@ -1629,9 +1629,6 @@ SystemAllocPolicy
 >
 gcSavedRoots
 ;
-bool
-gcRelaxRootChecks
-;
 #
 endif
 uint8_t
@@ -3109,7 +3106,7 @@ gcIsIncremental
 bool
 gcIsFull
 ;
-js
+JS
 :
 :
 gcreason
@@ -3460,7 +3457,7 @@ gcFullCompartmentChecks
 JSGCCallback
 gcCallback
 ;
-js
+JS
 :
 :
 GCSliceCallback

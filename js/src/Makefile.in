@@ -727,6 +727,10 @@ Module
 .
 cpp
 \
+Instruments
+.
+cpp
+\
 (
 NULL
 )
