@@ -1076,6 +1076,9 @@ char
 name
 )
 {
+#
+ifdef
+_MSC_VER
 THREADNAME_INFO
 info
 ;
@@ -1147,6 +1150,8 @@ EXCEPTION_CONTINUE_EXECUTION
 )
 {
 }
+#
+endif
 }
 void
 _PR_MD_CLEAN_THREAD
