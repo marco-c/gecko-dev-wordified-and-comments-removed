@@ -494,6 +494,10 @@ nsIAccessibleEditableText
 .
 js
 \
+relations
+.
+js
+\
 role
 .
 js
@@ -683,6 +687,14 @@ html
 test_nsOuterDocAccessible
 .
 html
+\
+test_relations
+.
+html
+\
+test_relations
+.
+xul
 \
 test_role_nsHyperTextAcc
 .
