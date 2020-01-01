@@ -21311,11 +21311,6 @@ if
 aCSSRootFrame
 -
 >
-StyleContext
-(
-)
--
->
 GetStyleDisplay
 (
 )
@@ -21335,11 +21330,6 @@ if
 HasNonZeroCorner
 (
 aCSSRootFrame
--
->
-StyleContext
-(
-)
 -
 >
 GetStyleBorder

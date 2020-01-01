@@ -5475,9 +5475,6 @@ nsStyleDisplay
 *
 styles
 =
-mStyleContext
--
->
 GetStyleDisplay
 (
 )

@@ -8517,9 +8517,6 @@ font
 .
 stretch
 textRunSize
-mStyleContext
--
->
 GetStyleFont
 (
 )

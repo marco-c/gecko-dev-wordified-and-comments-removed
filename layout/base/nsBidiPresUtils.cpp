@@ -4504,11 +4504,6 @@ if
 frame
 -
 >
-StyleContext
-(
-)
--
->
 GetStyleText
 (
 )
