@@ -43,6 +43,15 @@ nsNativeCharsetUtils
 h
 "
 #
+include
+"
+mozilla
+/
+Preferences
+.
+h
+"
+#
 define
 JSCTYPES_CONTRACTID
 \

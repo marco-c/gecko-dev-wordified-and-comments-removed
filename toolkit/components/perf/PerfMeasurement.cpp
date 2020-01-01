@@ -29,6 +29,15 @@ nsMemory
 h
 "
 #
+include
+"
+mozilla
+/
+Preferences
+.
+h
+"
+#
 define
 JSPERF_CONTRACTID
 \
