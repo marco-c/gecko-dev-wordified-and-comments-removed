@@ -479,10 +479,6 @@ endif
 XPIDLSRCS
 =
 \
-nsIDOMDOMError
-.
-idl
-\
 nsIEntropyCollector
 .
 idl
@@ -622,10 +618,6 @@ EXPORTS_mozilla
 dom
 =
 \
-DOMError
-.
-h
-\
 StructuredCloneTags
 .
 h
@@ -733,10 +725,6 @@ nsPerformance
 cpp
 \
 nsDOMMemoryReporter
-.
-cpp
-\
-DOMError
 .
 cpp
 \
