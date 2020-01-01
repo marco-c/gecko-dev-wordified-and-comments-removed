@@ -14593,6 +14593,11 @@ js_FlushPropertyCache
 cx
 )
 ;
+js_FlushJITCache
+(
+cx
+)
+;
 #
 ifdef
 JS_THREADSAFE
@@ -14712,11 +14717,6 @@ rt
 -
 >
 gsnCache
-)
-;
-js_FlushJITCache
-(
-cx
 )
 ;
 #
