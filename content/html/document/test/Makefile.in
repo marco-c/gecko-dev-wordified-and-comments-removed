@@ -469,7 +469,6 @@ level
 test_bug199692
 .
 html
-\
 _TEST_FILES
 =
 test_bug1682
