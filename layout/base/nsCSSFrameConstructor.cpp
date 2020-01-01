@@ -30623,7 +30623,7 @@ nsChangeHint_UpdateEffects
 nsSVGUtils
 :
 :
-UpdateGraphic
+InvalidateAndScheduleBoundsUpdate
 (
 aFrame
 )
@@ -30634,7 +30634,7 @@ else
 nsSVGUtils
 :
 :
-InvalidateCoveredRegion
+InvalidateBounds
 (
 aFrame
 )
