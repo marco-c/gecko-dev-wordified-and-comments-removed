@@ -40448,7 +40448,7 @@ context_undoCloseTab
 "
 )
 .
-hidden
+disabled
 =
 Cc
 [
