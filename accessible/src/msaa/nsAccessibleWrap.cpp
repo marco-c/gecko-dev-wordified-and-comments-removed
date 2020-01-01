@@ -1339,6 +1339,17 @@ value
 return
 E_FAIL
 ;
+if
+(
+value
+.
+IsEmpty
+(
+)
+)
+return
+S_FALSE
+;
 *
 pszValue
 =
