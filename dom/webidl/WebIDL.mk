@@ -439,6 +439,10 @@ SVGMatrix
 .
 webidl
 \
+SVGMetadataElement
+.
+webidl
+\
 SVGNumberList
 .
 webidl
