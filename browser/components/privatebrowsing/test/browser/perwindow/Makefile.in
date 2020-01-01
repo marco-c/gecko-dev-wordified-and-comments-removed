@@ -113,6 +113,10 @@ browser_privatebrowsing_opendir
 .
 js
 \
+browser_privatebrowsing_theming
+.
+js
+\
 (
 NULL
 )
