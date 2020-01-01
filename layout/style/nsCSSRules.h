@@ -386,6 +386,7 @@ Function
 eURL
 eURLPrefix
 eDomain
+eRegExp
 }
 ;
 struct
