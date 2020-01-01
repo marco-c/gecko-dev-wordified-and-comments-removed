@@ -317,6 +317,10 @@ patcher
 '
 )
 ]
+tag
+=
+>
+patcherToolsRev
 logFile
 =
 >
