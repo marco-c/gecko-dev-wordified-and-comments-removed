@@ -102,6 +102,14 @@ browser_responsivecomputedview
 .
 js
 \
+browser_responsiveui_touch
+.
+js
+\
+touch
+.
+html
+\
 head
 .
 js
