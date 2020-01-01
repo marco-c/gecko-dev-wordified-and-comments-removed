@@ -1,17 +1,3 @@
-if
-(
-!
-ctypes
-)
-{
-throw
-"
-No
-ctypes
-!
-"
-;
-}
 let
 worker
 =

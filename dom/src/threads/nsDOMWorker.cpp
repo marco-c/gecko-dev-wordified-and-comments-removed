@@ -382,6 +382,9 @@ jsval
 aRval
 )
 ;
+#
+ifdef
+BUILD_CTYPES
 static
 JSBool
 CTypesLazyGetter
@@ -399,6 +402,8 @@ jsval
 aVp
 )
 ;
+#
+endif
 private
 :
 static
@@ -1919,6 +1924,9 @@ return
 JS_TRUE
 ;
 }
+#
+ifdef
+BUILD_CTYPES
 JSBool
 nsDOMWorkerFunctions
 :
@@ -2125,6 +2133,8 @@ aVp
 )
 ;
 }
+#
+endif
 JSFunctionSpec
 gDOMWorkerFunctions
 [
@@ -6912,6 +6922,9 @@ success
 PR_FALSE
 )
 ;
+#
+ifdef
+BUILD_CTYPES
 success
 =
 JS_DefineProperty
@@ -6937,6 +6950,8 @@ PR_FALSE
 )
 ;
 }
+#
+endif
 mGlobal
 =
 global
