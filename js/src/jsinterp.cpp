@@ -33008,9 +33008,9 @@ op
 =
 JSOP_CALLXMLNAME
 )
-PUSH_OBJECT
+SLOW_PUSH_THISV
 (
-*
+cx
 obj
 )
 ;
