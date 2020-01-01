@@ -105,7 +105,7 @@ kGenericFont_fantasy
 =
 0x20
 ;
-class
+struct
 gfxFontStyle
 ;
 struct

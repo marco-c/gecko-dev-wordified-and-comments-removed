@@ -51,7 +51,7 @@ nsCSSRect
 class
 nsStyleCoord
 ;
-class
+struct
 nsCSSValuePairList
 ;
 template
