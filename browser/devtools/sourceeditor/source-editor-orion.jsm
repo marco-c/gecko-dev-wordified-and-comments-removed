@@ -254,11 +254,11 @@ chrome
 /
 browser
 /
-content
+skin
+/
+devtools
 /
 orion
--
-mozilla
 .
 css
 "
