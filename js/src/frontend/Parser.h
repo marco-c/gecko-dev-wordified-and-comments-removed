@@ -1575,11 +1575,6 @@ listNode
 )
 ;
 Node
-bracketedExpr
-(
-)
-;
-Node
 letBlock
 (
 LetContext
