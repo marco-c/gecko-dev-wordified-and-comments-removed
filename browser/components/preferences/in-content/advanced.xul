@@ -2982,6 +2982,11 @@ ifdef
 MOZ_METRO
 <
 radio
+id
+=
+"
+autoMetro
+"
 value
 =
 "
@@ -3009,6 +3014,11 @@ accesskey
 >
 <
 hbox
+id
+=
+"
+autoMetroIndent
+"
 class
 =
 "
