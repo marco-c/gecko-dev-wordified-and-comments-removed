@@ -2222,11 +2222,11 @@ javascript
 .
 options
 .
-jit
+tracejit
 .
 content
 "
-false
+true
 )
 ;
 user_pref
