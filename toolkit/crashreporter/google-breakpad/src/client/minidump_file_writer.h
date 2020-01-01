@@ -62,14 +62,6 @@ char
 path
 )
 ;
-void
-SetFile
-(
-const
-int
-file
-)
-;
 bool
 Close
 (
@@ -158,9 +150,6 @@ size
 ;
 int
 file_
-;
-bool
-close_file_when_destroyed_
 ;
 MDRVA
 position_

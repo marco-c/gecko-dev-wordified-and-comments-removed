@@ -905,9 +905,6 @@ string
 response
 error
 ;
-long
-response_code
-;
 bool
 success
 =
@@ -930,8 +927,6 @@ gAuth
 gCACertificateFile
 &
 response
-&
-response_code
 &
 error
 )

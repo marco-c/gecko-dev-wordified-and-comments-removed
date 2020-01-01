@@ -444,7 +444,7 @@ assert
 have_section_base_
 )
 ;
-uint64
+size_t
 skew
 =
 section_base_
@@ -457,7 +457,7 @@ AddressSize
 1
 )
 ;
-uint64
+off_t
 offset
 =
 skew
@@ -468,7 +468,7 @@ buffer
 buffer_base_
 )
 ;
-uint64
+size_t
 aligned
 =
 (

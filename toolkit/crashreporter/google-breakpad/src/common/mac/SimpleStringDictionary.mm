@@ -674,7 +674,6 @@ char
 *
 key
 )
-const
 {
 assert
 (
@@ -705,7 +704,6 @@ MAX_NUM_ENTRIES
 i
 )
 {
-const
 KeyValueEntry
 &
 entry

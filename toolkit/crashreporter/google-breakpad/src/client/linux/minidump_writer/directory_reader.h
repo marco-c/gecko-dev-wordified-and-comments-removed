@@ -53,17 +53,6 @@ common
 /
 linux
 /
-linux_libc_support
-.
-h
-"
-#
-include
-"
-third_party
-/
-lss
-/
 linux_syscall_support
 .
 h
@@ -241,7 +230,7 @@ dent
 >
 d_reclen
 ;
-my_memmove
+memmove
 (
 buf_
 buf_

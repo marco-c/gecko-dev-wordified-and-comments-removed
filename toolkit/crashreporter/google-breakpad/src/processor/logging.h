@@ -17,15 +17,6 @@ string
 #
 include
 "
-common
-/
-using_std_string
-.
-h
-"
-#
-include
-"
 google_breakpad
 /
 common
@@ -177,6 +168,9 @@ ostream
 }
 }
 ;
+std
+:
+:
 string
 HexString
 (
@@ -184,6 +178,9 @@ u_int32_t
 number
 )
 ;
+std
+:
+:
 string
 HexString
 (
@@ -191,6 +188,9 @@ u_int64_t
 number
 )
 ;
+std
+:
+:
 string
 HexString
 (
@@ -201,6 +201,9 @@ number
 int
 ErrnoString
 (
+std
+:
+:
 string
 *
 error_string

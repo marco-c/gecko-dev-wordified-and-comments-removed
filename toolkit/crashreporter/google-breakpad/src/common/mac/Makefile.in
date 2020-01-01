@@ -150,10 +150,6 @@ both
 CPPSRCS
 =
 \
-bootstrap_compat
-.
-cc
-\
 file_id
 .
 cc

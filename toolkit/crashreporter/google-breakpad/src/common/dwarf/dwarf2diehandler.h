@@ -11,11 +11,6 @@ stack
 >
 #
 include
-<
-string
->
-#
-include
 "
 common
 /
@@ -44,15 +39,6 @@ common
 dwarf
 /
 dwarf2reader
-.
-h
-"
-#
-include
-"
-common
-/
-using_std_string
 .
 h
 "
@@ -448,9 +434,6 @@ reported_attributes_end_
 ;
 }
 ;
-std
-:
-:
 stack
 <
 HandlerStack

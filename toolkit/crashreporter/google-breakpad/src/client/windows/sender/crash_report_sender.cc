@@ -229,14 +229,9 @@ else
 if
 (
 http_response
->
+=
 =
 400
-&
-&
-http_response
-<
-500
 )
 {
 return

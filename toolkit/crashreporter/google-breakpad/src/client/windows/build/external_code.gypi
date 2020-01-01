@@ -338,6 +338,9 @@ _CRT_NONSTDC_NO_WARNINGS
 '
 _CRT_NONSTDC_NO_DEPRECATE
 '
+'
+_SCL_SECURE_NO_DEPRECATE
+'
 ]
 '
 msvs_disabled_warnings

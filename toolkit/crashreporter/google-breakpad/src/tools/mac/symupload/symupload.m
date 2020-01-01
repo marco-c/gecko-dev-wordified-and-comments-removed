@@ -1422,10 +1422,6 @@ s
 \
 n
 "
-(
-unsigned
-long
-)
 [
 data
 length

@@ -670,7 +670,6 @@ ctx
 0
 sizeof
 (
-*
 ctx
 )
 )

@@ -69,11 +69,8 @@ context
 ;
 MachoWalker
 (
-void
-*
-memory
-size_t
-size
+int
+file_descriptor
 LoadCommandCallback
 callback
 void
@@ -163,13 +160,6 @@ swap
 ;
 int
 file_
-;
-void
-*
-memory_
-;
-size_t
-memory_size_
 ;
 LoadCommandCallback
 callback_

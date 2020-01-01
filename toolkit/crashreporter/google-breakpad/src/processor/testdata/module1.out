@@ -5,12 +5,6 @@ x86
 module1
 .
 pdb
-INFO
-CODE_ID
-FFFFFFFF
-module1
-.
-exe
 FILE
 1
 file1_1

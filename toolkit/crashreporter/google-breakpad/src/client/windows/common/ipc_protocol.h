@@ -243,9 +243,6 @@ MESSAGE_TAG_REGISTRATION_RESPONSE
 MESSAGE_TAG_REGISTRATION_ACK
 =
 3
-MESSAGE_TAG_UPLOAD_REQUEST
-=
-4
 }
 ;
 struct
@@ -272,7 +269,7 @@ tag
 (
 MESSAGE_TAG_NONE
 )
-id
+pid
 (
 0
 )
@@ -314,7 +311,7 @@ ProtocolMessage
 MessageTag
 arg_tag
 DWORD
-arg_id
+arg_pid
 MINIDUMP_TYPE
 arg_dump_type
 DWORD
@@ -343,9 +340,9 @@ tag
 (
 arg_tag
 )
-id
+pid
 (
-arg_id
+arg_pid
 )
 dump_type
 (
@@ -385,7 +382,7 @@ MessageTag
 tag
 ;
 DWORD
-id
+pid
 ;
 MINIDUMP_TYPE
 dump_type

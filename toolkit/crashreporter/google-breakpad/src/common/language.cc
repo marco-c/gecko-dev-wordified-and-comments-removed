@@ -62,6 +62,7 @@ name
 }
 }
 ;
+const
 CPPLanguage
 CPPLanguageSingleton
 ;

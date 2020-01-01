@@ -1,10 +1,5 @@
 #
 include
-<
-vector
->
-#
-include
 "
 breakpad_googletest_includes
 .
@@ -19,12 +14,6 @@ dwarf_line_to_module
 .
 h
 "
-using
-std
-:
-:
-vector
-;
 using
 google_breakpad
 :
@@ -45,7 +34,7 @@ Module
 ;
 TEST
 (
-SimpleModule
+Simple
 One
 )
 {
@@ -216,7 +205,7 @@ number
 }
 TEST
 (
-SimpleModule
+Simple
 Many
 )
 {
@@ -1396,7 +1385,7 @@ c_str
 }
 TEST
 (
-ModuleErrors
+Errors
 DirectoryZero
 )
 {
@@ -1502,7 +1491,7 @@ c_str
 }
 TEST
 (
-ModuleErrors
+Errors
 BadFileNumber
 )
 {
@@ -1589,7 +1578,7 @@ size
 }
 TEST
 (
-ModuleErrors
+Errors
 BadDirectoryNumber
 )
 {
@@ -1708,7 +1697,7 @@ c_str
 }
 TEST
 (
-ModuleErrors
+Errors
 EmptyLine
 )
 {
@@ -1784,7 +1773,7 @@ size
 }
 TEST
 (
-ModuleErrors
+Errors
 BigLine
 )
 {
