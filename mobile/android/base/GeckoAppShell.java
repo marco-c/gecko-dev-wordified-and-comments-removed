@@ -1249,6 +1249,16 @@ int
 height
 )
 ;
+public
+static
+native
+void
+unlockDatabaseFile
+(
+String
+databasePath
+)
+;
 private
 static
 class
