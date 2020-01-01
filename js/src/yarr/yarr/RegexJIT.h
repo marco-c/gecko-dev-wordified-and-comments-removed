@@ -77,6 +77,10 @@ WTF_CPU_X86
 &
 !
 WTF_COMPILER_MSVC
+&
+&
+!
+WTF_COMPILER_SUNPRO
 #
 define
 YARR_CALL
@@ -251,6 +255,7 @@ output
 return
 JS_EXTENSION
 (
+(
 reinterpret_cast
 <
 RegexJITCode
@@ -262,6 +267,7 @@ m_code
 .
 executableAddress
 (
+)
 )
 )
 (
