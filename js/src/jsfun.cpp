@@ -12473,6 +12473,17 @@ ownerObject
 fun
 )
 ;
+cfun
+-
+>
+u
+.
+i
+.
+script
+=
+NULL
+;
 JSScript
 *
 cscript

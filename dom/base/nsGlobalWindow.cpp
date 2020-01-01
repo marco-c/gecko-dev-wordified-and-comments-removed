@@ -32891,6 +32891,14 @@ if
 mIndexedDB
 )
 {
+if
+(
+!
+IsChromeWindow
+(
+)
+)
+{
 nsCOMPtr
 <
 mozIThirdPartyUtil
@@ -32961,6 +32969,7 @@ nsnull
 return
 NS_OK
 ;
+}
 }
 mIndexedDB
 =

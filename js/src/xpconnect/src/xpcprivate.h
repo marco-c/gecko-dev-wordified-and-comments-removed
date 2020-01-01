@@ -16285,6 +16285,10 @@ JSObject
 proto
 bool
 preferXray
+const
+nsACString
+&
+sandboxName
 )
 ;
 nsresult
@@ -16533,6 +16537,9 @@ JSObject
 >
 *
 expandoMap
+;
+nsCString
+location
 ;
 bool
 RegisterExpandoObject
