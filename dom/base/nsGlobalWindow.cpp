@@ -24112,7 +24112,7 @@ nullptr
 GetPrincipal
 (
 )
-nsnull
+nullptr
 _retval
 )
 ;
