@@ -320,11 +320,6 @@ aVal
 )
 ;
 var
-_themeIDBeingEnabled
-=
-null
-;
-var
 LightweightThemeManager
 =
 {
@@ -1510,10 +1505,6 @@ getUsedTheme
 id
 )
 ;
-_themeIDBeingEnabled
-=
-id
-;
 let
 wrapper
 =
@@ -1521,6 +1512,7 @@ new
 AddonWrapper
 (
 theme
+true
 )
 ;
 if
@@ -1590,10 +1582,6 @@ wrapper
 )
 ;
 }
-_themeIDBeingEnabled
-=
-null
-;
 }
 }
 getAddonByID
@@ -1721,6 +1709,7 @@ function
 AddonWrapper
 (
 aTheme
+aBeingEnabled
 )
 {
 this
@@ -2165,12 +2154,7 @@ function
 {
 if
 (
-_themeIDBeingEnabled
-=
-=
-aTheme
-.
-id
+aBeingEnabled
 )
 return
 false
