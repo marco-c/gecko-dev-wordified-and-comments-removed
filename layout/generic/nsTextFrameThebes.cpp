@@ -23682,6 +23682,8 @@ iter
 .
 SetOriginalOffset
 (
+aOffset
++
 nextClusterStart
 )
 ;
