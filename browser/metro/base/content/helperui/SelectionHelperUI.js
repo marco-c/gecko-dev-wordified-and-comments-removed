@@ -1467,7 +1467,7 @@ openEditSession
 function
 openEditSession
 (
-aBrowser
+aMsgTarget
 aX
 aY
 )
@@ -1475,7 +1475,7 @@ aY
 if
 (
 !
-aBrowser
+aMsgTarget
 |
 |
 this
@@ -1488,7 +1488,7 @@ this
 .
 _init
 (
-aBrowser
+aMsgTarget
 )
 ;
 this
@@ -1522,7 +1522,7 @@ attachEditSession
 function
 attachEditSession
 (
-aBrowser
+aMsgTarget
 aX
 aY
 )
@@ -1530,7 +1530,7 @@ aY
 if
 (
 !
-aBrowser
+aMsgTarget
 |
 |
 this
@@ -1543,7 +1543,7 @@ this
 .
 _init
 (
-aBrowser
+aMsgTarget
 )
 ;
 this
@@ -1577,7 +1577,7 @@ attachToCaret
 function
 attachToCaret
 (
-aBrowser
+aMsgTarget
 aX
 aY
 )
@@ -1594,7 +1594,7 @@ this
 .
 _init
 (
-aBrowser
+aMsgTarget
 )
 ;
 this
