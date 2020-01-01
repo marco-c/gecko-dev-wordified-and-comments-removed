@@ -76,9 +76,6 @@ handleRunSelect
 var
 id
 =
-document
-.
-getElementById
 (
 "
 qa
