@@ -81,10 +81,5 @@ CSPService
 (
 )
 ;
-private
-:
-PRBool
-mEnabled
-;
 }
 ;
