@@ -311,6 +311,10 @@ mHoldInQueue
 =
 mWaitForTouchListeners
 ;
+mDispatchEvents
+=
+true
+;
 if
 (
 mHoldInQueue
