@@ -284,11 +284,6 @@ aState
 )
 ;
 PRBool
-ShouldCheckAllowOrigin
-(
-)
-;
-PRBool
 IsActivelyPlaying
 (
 )
