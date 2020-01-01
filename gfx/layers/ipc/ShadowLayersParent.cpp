@@ -435,6 +435,10 @@ Destroy
 )
 ;
 }
+mHost
+=
+NULL
+;
 }
 bool
 ShadowLayersParent
@@ -2096,6 +2100,17 @@ Frame
 (
 )
 {
+if
+(
+mDestroyed
+)
+{
+return
+NULL
+;
+}
+else
+{
 return
 mHost
 -
@@ -2104,6 +2119,7 @@ GetRenderFrameParent
 (
 )
 ;
+}
 }
 void
 ShadowLayersParent
