@@ -598,10 +598,6 @@ stdin
 write
 (
 sym
-[
-1
-:
-]
 +
 "
 \
@@ -691,7 +687,7 @@ compile
 )
 "
 )
-atos_sym_re
+atos_name_re
 =
 re
 .
@@ -700,8 +696,7 @@ compile
 "
 ^
 (
-\
-S
+.
 +
 )
 \
@@ -806,9 +801,9 @@ file
 address
 )
             
-symresult
+name_result
 =
-atos_sym_re
+atos_name_re
 .
 match
 (
@@ -816,29 +811,42 @@ info
 )
             
 if
-symresult
+name_result
 is
 not
 None
 :
                 
 (
-symbol
+name
 library
 fileline
 )
 =
-symresult
+name_result
 .
 groups
 (
 )
                 
-symbol
+if
+(
+name
+.
+startswith
+(
+"
+_Z
+"
+)
+)
+:
+                    
+name
 =
 cxxfilt
 (
-symbol
+name
 )
                 
 info
@@ -856,7 +864,7 @@ s
 "
 %
 (
-symbol
+name
 fileline
 library
 )
