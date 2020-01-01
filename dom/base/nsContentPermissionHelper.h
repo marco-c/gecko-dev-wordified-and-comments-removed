@@ -156,9 +156,7 @@ parent
 )
 ;
 NS_DECL_ISUPPORTS
-;
 NS_DECL_NSICONTENTPERMISSIONREQUEST
-;
 private
 :
 mozilla
