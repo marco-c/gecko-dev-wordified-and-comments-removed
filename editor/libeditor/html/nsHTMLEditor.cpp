@@ -1660,7 +1660,7 @@ forget
 )
 ;
 }
-nsresult
+void
 nsHTMLEditor
 :
 :
@@ -1682,9 +1682,6 @@ nsHTMLEditorEventListener
 )
 ;
 }
-return
-NS_OK
-;
 }
 nsresult
 nsHTMLEditor

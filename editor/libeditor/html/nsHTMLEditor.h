@@ -1477,7 +1477,7 @@ InitRules
 )
 ;
 virtual
-nsresult
+void
 CreateEventListeners
 (
 )
