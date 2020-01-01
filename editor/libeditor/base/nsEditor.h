@@ -1919,6 +1919,12 @@ eEditorDontEchoPassword
 0
 ;
 }
+virtual
+PRBool
+HasFocus
+(
+)
+;
 protected
 :
 PRUint32

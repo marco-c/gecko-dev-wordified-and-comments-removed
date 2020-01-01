@@ -472,6 +472,10 @@ test_bug537046
 .
 html
 \
+test_contenteditable_focus
+.
+html
+\
 test_select_all_without_body
 .
 html
