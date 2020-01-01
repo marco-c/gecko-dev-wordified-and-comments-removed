@@ -67,7 +67,7 @@ h
 #
 include
 "
-nsIComponentManager
+nsIServiceManager
 .
 h
 "
@@ -723,7 +723,7 @@ Truncate
 ;
 os2Locale
 =
-do_CreateInstance
+do_GetService
 (
 NS_OS2LOCALE_CONTRACTID
 &
