@@ -1057,9 +1057,9 @@ mLastTextAccessible
 =
 textAcc
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIAccessibleEvent
+nsAccEvent
 >
 event
 =
