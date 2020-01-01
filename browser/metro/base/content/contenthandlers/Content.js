@@ -788,13 +788,6 @@ false
 ;
 docShell
 .
-QueryInterface
-(
-Ci
-.
-nsIDocShellHistory
-)
-.
 useGlobalHistory
 =
 true
