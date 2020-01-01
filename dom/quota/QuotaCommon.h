@@ -91,6 +91,13 @@ dom
 :
 quota
 ;
+#
+define
+DSSTORE_FILE_NAME
+"
+.
+DS_Store
+"
 BEGIN_QUOTA_NAMESPACE
 #
 ifdef
