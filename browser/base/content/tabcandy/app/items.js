@@ -2583,6 +2583,9 @@ squishMode
 '
 squish
 '
+defaultGutter
+:
+15
 init
 :
 function
