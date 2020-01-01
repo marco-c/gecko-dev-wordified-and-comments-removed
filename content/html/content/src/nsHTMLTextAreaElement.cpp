@@ -445,7 +445,7 @@ aState
 ;
 virtual
 void
-OnFieldSetDisabledChanged
+FieldSetDisabledChanged
 (
 PRInt32
 aStates
@@ -5139,7 +5139,7 @@ void
 nsHTMLTextAreaElement
 :
 :
-OnFieldSetDisabledChanged
+FieldSetDisabledChanged
 (
 PRInt32
 aStates
@@ -5163,7 +5163,7 @@ NS_EVENT_STATE_INVALID
 nsGenericHTMLFormElement
 :
 :
-OnFieldSetDisabledChanged
+FieldSetDisabledChanged
 (
 aStates
 )

@@ -409,7 +409,7 @@ AllowDrop
 ;
 virtual
 void
-OnFieldSetDisabledChanged
+FieldSetDisabledChanged
 (
 PRInt32
 aStates
