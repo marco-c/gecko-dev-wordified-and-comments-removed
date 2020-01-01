@@ -341,6 +341,15 @@ NotifyDOMTouchListenerAdded
 (
 )
 ;
+void
+ZoomToRect
+(
+const
+gfxRect
+&
+aRect
+)
+;
 protected
 :
 void
