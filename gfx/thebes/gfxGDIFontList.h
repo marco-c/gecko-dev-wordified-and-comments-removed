@@ -1083,7 +1083,7 @@ aNeedsBold
 ;
 virtual
 nsresult
-GetFontTable
+CopyFontTable
 (
 uint32_t
 aTableTag
@@ -1094,6 +1094,7 @@ uint8_t
 &
 aBuffer
 )
+MOZ_OVERRIDE
 ;
 LOGFONTW
 mLogFont
