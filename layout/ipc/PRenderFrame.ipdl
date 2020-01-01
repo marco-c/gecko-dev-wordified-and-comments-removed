@@ -334,6 +334,16 @@ NotifyCompositorTransaction
 )
 ;
 async
+CancelDefaultPanZoom
+(
+)
+;
+async
+DetectScrollableSubframe
+(
+)
+;
+async
 UpdateHitRegion
 (
 nsRegion
