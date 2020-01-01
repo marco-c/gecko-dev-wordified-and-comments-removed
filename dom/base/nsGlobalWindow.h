@@ -3201,13 +3201,12 @@ GetTreeOwnerWindow
 (
 )
 ;
-nsresult
+already_AddRefed
+<
+nsIWebBrowserChrome
+>
 GetWebBrowserChrome
 (
-nsIWebBrowserChrome
-*
-*
-aBrowserChrome
 )
 ;
 nsresult
