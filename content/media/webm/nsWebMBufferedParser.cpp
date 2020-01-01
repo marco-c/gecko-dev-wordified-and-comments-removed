@@ -768,6 +768,8 @@ PRInt64
 aEndOffset
 PRUint64
 aTimecodeScale
+PRInt64
+aStartTimeOffsetNS
 )
 {
 PRUint32
@@ -941,6 +943,7 @@ end
 float
 startTime
 =
+(
 mTimeMapping
 [
 start
@@ -949,12 +952,16 @@ start
 mTimecode
 *
 aTimecodeScale
+-
+aStartTimeOffsetNS
+)
 /
 NS_PER_S
 ;
 float
 endTime
 =
+(
 mTimeMapping
 [
 end
@@ -963,6 +970,9 @@ end
 mTimecode
 *
 aTimecodeScale
+-
+aStartTimeOffsetNS
+)
 /
 NS_PER_S
 ;
