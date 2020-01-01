@@ -2053,7 +2053,10 @@ unit
 "
 )
 ;
-nsCSSDeclaration
+css
+:
+:
+Declaration
 :
 :
 AppendCSSValueToString
@@ -2097,7 +2100,10 @@ unit
 "
 )
 ;
-nsCSSDeclaration
+css
+:
+:
+Declaration
 :
 :
 AppendCSSValueToString
@@ -2212,7 +2218,10 @@ unit
 "
 )
 ;
-nsCSSDeclaration
+css
+:
+:
+Declaration
 :
 :
 AppendCSSValueToString
@@ -2237,7 +2246,10 @@ AppendLiteral
 "
 )
 ;
-nsCSSDeclaration
+css
+:
+:
+Declaration
 :
 :
 AppendCSSValueToString

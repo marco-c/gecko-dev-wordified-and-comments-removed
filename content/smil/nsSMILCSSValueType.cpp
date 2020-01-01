@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsCSSDeclaration
-.
-h
-"
-#
-include
-"
 nsColor
 .
 h

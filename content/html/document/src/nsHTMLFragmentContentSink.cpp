@@ -278,6 +278,14 @@ nsIDOMCSSRule
 .
 h
 "
+namespace
+css
+=
+mozilla
+:
+:
+css
+;
 class
 nsHTMLFragmentContentSink
 :
@@ -4831,7 +4839,10 @@ Truncate
 (
 )
 ;
-nsCSSDeclaration
+css
+:
+:
+Declaration
 *
 style
 =

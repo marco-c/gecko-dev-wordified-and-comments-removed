@@ -4934,6 +4934,8 @@ nsnull
 )
 ;
 }
+namespace
+{
 class
 MappedAttrParser
 {
@@ -4941,9 +4943,6 @@ public
 :
 MappedAttrParser
 (
-mozilla
-:
-:
 css
 :
 :
@@ -5006,7 +5005,10 @@ nsIPrincipal
 *
 mNodePrincipal
 ;
-nsCSSDeclaration
+css
+:
+:
+Declaration
 *
 mDecl
 ;
@@ -5017,9 +5019,6 @@ MappedAttrParser
 :
 MappedAttrParser
 (
-mozilla
-:
-:
 css
 :
 :
@@ -5142,7 +5141,10 @@ mDecl
 mDecl
 =
 new
-nsCSSDeclaration
+css
+:
+:
+Declaration
 (
 )
 ;
@@ -5263,6 +5265,7 @@ forget
 (
 )
 ;
+}
 }
 PRBool
 nsSVGElement

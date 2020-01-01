@@ -87,6 +87,14 @@ h
 "
 #
 endif
+namespace
+css
+=
+mozilla
+:
+:
+css
+;
 #
 define
 MISC_STR_PTR
@@ -1536,7 +1544,10 @@ GetMiscContainer
 (
 )
 ;
-nsCSSDeclaration
+css
+:
+:
+Declaration
 *
 decl
 =

@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsCSSDeclaration
-.
-h
-"
-#
-include
-"
 nsComputedDOMStyle
 .
 h
