@@ -5725,7 +5725,7 @@ stubs
 :
 :
 Add
-JSVAL_TYPE_UNKNOWN
+type
 )
 ;
 else
@@ -5736,7 +5736,7 @@ stubs
 :
 :
 Sub
-JSVAL_TYPE_UNKNOWN
+type
 )
 ;
 frame
@@ -5748,6 +5748,7 @@ post
 |
 |
 popped
+type
 )
 ;
 if
@@ -6013,6 +6014,14 @@ bool
 popped
 )
 {
+JSValueType
+type
+=
+knownArgumentType
+(
+slot
+)
+;
 if
 (
 popped
@@ -6058,7 +6067,7 @@ frame
 pushArg
 (
 slot
-JSVAL_TYPE_UNKNOWN
+type
 )
 ;
 frame
@@ -6078,7 +6087,7 @@ stubs
 :
 :
 Sub
-JSVAL_TYPE_UNKNOWN
+type
 )
 ;
 frame
@@ -6087,6 +6096,7 @@ storeArg
 (
 slot
 popped
+type
 )
 ;
 if
@@ -6128,7 +6138,7 @@ frame
 pushArg
 (
 slot
-JSVAL_TYPE_UNKNOWN
+type
 )
 ;
 jsop_pos
@@ -6158,7 +6168,7 @@ stubs
 :
 :
 Add
-JSVAL_TYPE_UNKNOWN
+type
 )
 ;
 frame
@@ -6167,6 +6177,7 @@ storeArg
 (
 slot
 true
+type
 )
 ;
 frame
