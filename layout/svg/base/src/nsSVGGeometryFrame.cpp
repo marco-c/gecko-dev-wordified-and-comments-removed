@@ -1352,7 +1352,8 @@ fill
 )
 )
 ;
-return
+if
+(
 ps
 -
 >
@@ -1362,9 +1363,11 @@ aContext
 this
 opacity
 )
+)
+return
+PR_TRUE
 ;
 }
-else
 if
 (
 GetStyleSVG
@@ -1683,7 +1686,8 @@ stroke
 )
 )
 ;
-return
+if
+(
 ps
 -
 >
@@ -1693,9 +1697,11 @@ aContext
 this
 opacity
 )
+)
+return
+PR_TRUE
 ;
 }
-else
 if
 (
 GetStyleSVG
