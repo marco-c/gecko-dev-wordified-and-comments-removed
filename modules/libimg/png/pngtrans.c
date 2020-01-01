@@ -3270,8 +3270,6 @@ info
 #
 endif
 }
-#
-endif
 png_voidp
 PNGAPI
 png_get_user_transform_ptr
@@ -3316,5 +3314,7 @@ NULL
 #
 endif
 }
+#
+endif
 #
 endif

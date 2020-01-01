@@ -310,8 +310,14 @@ PNG_INVERT_MONO
 0x0020
 #
 define
-PNG_DITHER
+PNG_QUANTIZE
 0x0040
+/
+*
+formerly
+PNG_DITHER
+*
+/
 #
 define
 PNG_BACKGROUND
@@ -2843,10 +2849,10 @@ row
 endif
 #
 ifdef
-PNG_READ_DITHER_SUPPORTED
+PNG_READ_QUANTIZE_SUPPORTED
 PNG_EXTERN
 void
-png_do_dither
+png_do_quantize
 PNGARG
 (
 (
@@ -2857,7 +2863,7 @@ row
 png_bytep
 palette_lookup
 png_bytep
-dither_lookup
+quantize_lookup
 )
 )
 ;
