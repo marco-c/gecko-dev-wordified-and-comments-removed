@@ -18,7 +18,7 @@ Unbox
 \
 _
 (
-UnboxFloatingPoint
+UnboxDouble
 )
 \
 _
@@ -28,7 +28,7 @@ Box
 \
 _
 (
-BoxFloatingPoint
+BoxDouble
 )
 \
 _
