@@ -487,10 +487,6 @@ test_clear
 .
 html
 \
-test_count
-.
-html
-\
 test_create_index
 .
 html

@@ -470,6 +470,9 @@ nsIIDBKeyRange
 interface
 nsIIDBOpenDBRequest
 ;
+interface
+nsIVariant
+;
 /
 *
 *
@@ -524,7 +527,6 @@ information
 /
 [
 scriptable
-builtinclass
 uuid
 (
 d2889b8f
