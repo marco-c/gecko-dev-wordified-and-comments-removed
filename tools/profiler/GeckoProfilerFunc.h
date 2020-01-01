@@ -51,6 +51,9 @@ mozilla
 :
 TimeDuration
 ;
+class
+ProfilerMarkerPayload
+;
 inline
 void
 *
@@ -92,6 +95,11 @@ const
 char
 *
 aInfo
+ProfilerMarkerPayload
+*
+aPayload
+=
+nullptr
 )
 ;
 void

@@ -153,6 +153,11 @@ GeckoProfilerImpl
 h
 '
 '
+ProfilerMarkers
+.
+h
+'
+'
 PseudoStack
 .
 h
@@ -245,6 +250,11 @@ cpp
 '
 '
 ProfilerIOInterposeObserver
+.
+cpp
+'
+'
+ProfilerMarkers
 .
 cpp
 '
