@@ -43,9 +43,7 @@ relativesrcdir
 =
 dom
 /
-imported
--
-tests
+imptests
 /
 webapps
 /
