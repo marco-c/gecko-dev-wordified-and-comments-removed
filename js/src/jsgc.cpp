@@ -23744,9 +23744,8 @@ c
 >
 arenas
 .
-prepareForIncrementalGC
+purge
 (
-rt
 )
 ;
 }
