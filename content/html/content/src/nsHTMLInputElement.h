@@ -1269,11 +1269,6 @@ return
 PR_TRUE
 ;
 }
-void
-FireOnChange
-(
-)
-;
 nsresult
 VisitGroup
 (
