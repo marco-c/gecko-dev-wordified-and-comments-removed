@@ -1119,6 +1119,10 @@ RESERVED_SLOTS
 6
 ;
 static
+Class
+class_
+;
+static
 RegExpObject
 *
 create

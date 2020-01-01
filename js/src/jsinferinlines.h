@@ -1881,7 +1881,10 @@ JSProto_RegExp
 :
 return
 &
-RegExpClass
+RegExpObject
+:
+:
+class_
 ;
 case
 JSProto_Int8Array

@@ -31168,7 +31168,10 @@ if
 obj
 -
 >
-isRegExp
+is
+<
+RegExpObject
+>
 (
 )
 )

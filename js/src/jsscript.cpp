@@ -13129,7 +13129,10 @@ i
 ]
 -
 >
-asRegExp
+as
+<
+RegExpObject
+>
 (
 )
 )

@@ -3318,7 +3318,10 @@ if
 srcObj
 -
 >
-isRegExp
+is
+<
+RegExpObject
+>
 (
 )
 )
@@ -3330,7 +3333,10 @@ reobj
 srcObj
 -
 >
-asRegExp
+as
+<
+RegExpObject
+>
 (
 )
 ;

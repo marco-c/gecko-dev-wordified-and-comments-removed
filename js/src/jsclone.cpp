@@ -3127,7 +3127,10 @@ if
 obj
 -
 >
-isRegExp
+is
+<
+RegExpObject
+>
 (
 )
 )
@@ -3139,7 +3142,10 @@ reobj
 obj
 -
 >
-asRegExp
+as
+<
+RegExpObject
+>
 (
 )
 ;
