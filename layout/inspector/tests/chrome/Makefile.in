@@ -138,6 +138,14 @@ test_bug708874
 .
 css
 \
+test_bug727834
+.
+xul
+\
+test_bug727834
+.
+css
+\
 (
 NULL
 )
