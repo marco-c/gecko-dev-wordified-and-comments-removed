@@ -1316,6 +1316,7 @@ regress
 396326
 .
 js
+skip
 script
 regress
 -
