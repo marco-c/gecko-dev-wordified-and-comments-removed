@@ -186,6 +186,9 @@ listed
 "
 )
 ;
+return
+null
+;
 }
 function
 confirm_install
@@ -193,6 +196,7 @@ confirm_install
 window
 )
 {
+let
 items
 =
 window

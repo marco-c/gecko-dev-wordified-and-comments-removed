@@ -112,6 +112,9 @@ listed
 "
 )
 ;
+return
+null
+;
 }
 function
 confirm_install

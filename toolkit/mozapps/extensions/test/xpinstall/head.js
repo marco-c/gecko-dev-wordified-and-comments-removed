@@ -183,7 +183,7 @@ path
 )
 {
 var
-path
+chromeRootPath
 =
 getChromeRoot
 (
@@ -195,7 +195,7 @@ jar
 =
 getJar
 (
-path
+chromeRootPath
 )
 ;
 if
@@ -229,7 +229,7 @@ path
 ;
 }
 return
-path
+chromeRootPath
 ;
 }
 Components

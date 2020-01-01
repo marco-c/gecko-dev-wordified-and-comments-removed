@@ -1,3 +1,6 @@
+var
+gNewTab
+;
 function
 test
 (

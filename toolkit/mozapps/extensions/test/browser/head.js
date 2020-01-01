@@ -2531,6 +2531,7 @@ sslStatus
 targetHost
 )
 {
+var
 cert
 =
 sslStatus
