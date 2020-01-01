@@ -1545,16 +1545,6 @@ cHardware
 Equals
 (
 "
-endeavoru
-"
-)
-|
-|
-cHardware
-.
-Equals
-(
-"
 harmony
 "
 )
