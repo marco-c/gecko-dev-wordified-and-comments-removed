@@ -148,6 +148,12 @@ nsDocument
 :
 SetDocumentURI
 ;
+using
+nsDocument
+:
+:
+GetPlugins
+;
 nsHTMLDocument
 (
 )
