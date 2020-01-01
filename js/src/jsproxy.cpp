@@ -223,10 +223,10 @@ return
 false
 ;
 }
-JSProxyHandler
+ProxyHandler
 :
 :
-JSProxyHandler
+ProxyHandler
 (
 void
 *
@@ -239,17 +239,17 @@ family
 )
 {
 }
-JSProxyHandler
+ProxyHandler
 :
 :
 ~
-JSProxyHandler
+ProxyHandler
 (
 )
 {
 }
 bool
-JSProxyHandler
+ProxyHandler
 :
 :
 has
@@ -312,7 +312,7 @@ true
 ;
 }
 bool
-JSProxyHandler
+ProxyHandler
 :
 :
 hasOwn
@@ -375,7 +375,7 @@ true
 ;
 }
 bool
-JSProxyHandler
+ProxyHandler
 :
 :
 get
@@ -566,7 +566,7 @@ vp
 ;
 }
 bool
-JSProxyHandler
+ProxyHandler
 :
 :
 set
@@ -966,7 +966,7 @@ desc
 ;
 }
 bool
-JSProxyHandler
+ProxyHandler
 :
 :
 keys
@@ -1131,7 +1131,7 @@ true
 ;
 }
 bool
-JSProxyHandler
+ProxyHandler
 :
 :
 iterate
@@ -1206,7 +1206,7 @@ vp
 }
 JSString
 *
-JSProxyHandler
+ProxyHandler
 :
 :
 obj_toString
@@ -1258,7 +1258,7 @@ Object
 }
 JSString
 *
-JSProxyHandler
+ProxyHandler
 :
 :
 fun_toString
@@ -1354,7 +1354,7 @@ indent
 ;
 }
 bool
-JSProxyHandler
+ProxyHandler
 :
 :
 defaultValue
@@ -1383,7 +1383,7 @@ vp
 ;
 }
 bool
-JSProxyHandler
+ProxyHandler
 :
 :
 call
@@ -1463,7 +1463,7 @@ ok
 ;
 }
 bool
-JSProxyHandler
+ProxyHandler
 :
 :
 construct
@@ -1537,7 +1537,7 @@ rval
 ;
 }
 bool
-JSProxyHandler
+ProxyHandler
 :
 :
 hasInstance
@@ -1584,7 +1584,7 @@ false
 ;
 }
 JSType
-JSProxyHandler
+ProxyHandler
 :
 :
 typeOf
@@ -1620,7 +1620,7 @@ JSTYPE_OBJECT
 ;
 }
 void
-JSProxyHandler
+ProxyHandler
 :
 :
 finalize
@@ -1635,7 +1635,7 @@ proxy
 {
 }
 void
-JSProxyHandler
+ProxyHandler
 :
 :
 trace
@@ -2358,20 +2358,20 @@ true
 ;
 }
 class
-JSScriptedProxyHandler
+ScriptedProxyHandler
 :
 public
-JSProxyHandler
+ProxyHandler
 {
 public
 :
-JSScriptedProxyHandler
+ScriptedProxyHandler
 (
 )
 ;
 virtual
 ~
-JSScriptedProxyHandler
+ScriptedProxyHandler
 (
 )
 ;
@@ -2601,7 +2601,7 @@ vp
 )
 ;
 static
-JSScriptedProxyHandler
+ScriptedProxyHandler
 singleton
 ;
 }
@@ -2612,25 +2612,25 @@ sScriptedProxyHandlerFamily
 =
 0
 ;
-JSScriptedProxyHandler
+ScriptedProxyHandler
 :
 :
-JSScriptedProxyHandler
+ScriptedProxyHandler
 (
 )
 :
-JSProxyHandler
+ProxyHandler
 (
 &
 sScriptedProxyHandlerFamily
 )
 {
 }
-JSScriptedProxyHandler
+ScriptedProxyHandler
 :
 :
 ~
-JSScriptedProxyHandler
+ScriptedProxyHandler
 (
 )
 {
@@ -2739,7 +2739,7 @@ toObjectOrNull
 ;
 }
 bool
-JSScriptedProxyHandler
+ScriptedProxyHandler
 :
 :
 getPropertyDescriptor
@@ -2865,7 +2865,7 @@ desc
 ;
 }
 bool
-JSScriptedProxyHandler
+ScriptedProxyHandler
 :
 :
 getOwnPropertyDescriptor
@@ -2991,7 +2991,7 @@ desc
 ;
 }
 bool
-JSScriptedProxyHandler
+ScriptedProxyHandler
 :
 :
 defineProperty
@@ -3084,7 +3084,7 @@ addr
 ;
 }
 bool
-JSScriptedProxyHandler
+ScriptedProxyHandler
 :
 :
 getOwnPropertyNames
@@ -3165,7 +3165,7 @@ props
 ;
 }
 bool
-JSScriptedProxyHandler
+ScriptedProxyHandler
 :
 :
 delete_
@@ -3247,7 +3247,7 @@ bp
 ;
 }
 bool
-JSScriptedProxyHandler
+ScriptedProxyHandler
 :
 :
 enumerate
@@ -3328,7 +3328,7 @@ props
 ;
 }
 bool
-JSScriptedProxyHandler
+ScriptedProxyHandler
 :
 :
 fix
@@ -3380,7 +3380,7 @@ vp
 ;
 }
 bool
-JSScriptedProxyHandler
+ScriptedProxyHandler
 :
 :
 has
@@ -3448,7 +3448,7 @@ value
 )
 )
 return
-JSProxyHandler
+ProxyHandler
 :
 :
 has
@@ -3491,7 +3491,7 @@ bp
 ;
 }
 bool
-JSScriptedProxyHandler
+ScriptedProxyHandler
 :
 :
 hasOwn
@@ -3559,7 +3559,7 @@ value
 )
 )
 return
-JSProxyHandler
+ProxyHandler
 :
 :
 hasOwn
@@ -3602,7 +3602,7 @@ bp
 ;
 }
 bool
-JSScriptedProxyHandler
+ScriptedProxyHandler
 :
 :
 get
@@ -3721,7 +3721,7 @@ value
 )
 )
 return
-JSProxyHandler
+ProxyHandler
 :
 :
 get
@@ -3750,7 +3750,7 @@ vp
 ;
 }
 bool
-JSScriptedProxyHandler
+ScriptedProxyHandler
 :
 :
 set
@@ -3873,7 +3873,7 @@ value
 )
 )
 return
-JSProxyHandler
+ProxyHandler
 :
 :
 set
@@ -3907,7 +3907,7 @@ addr
 ;
 }
 bool
-JSScriptedProxyHandler
+ScriptedProxyHandler
 :
 :
 keys
@@ -3973,7 +3973,7 @@ value
 )
 )
 return
-JSProxyHandler
+ProxyHandler
 :
 :
 keys
@@ -4016,7 +4016,7 @@ props
 ;
 }
 bool
-JSScriptedProxyHandler
+ScriptedProxyHandler
 :
 :
 iterate
@@ -4084,7 +4084,7 @@ value
 )
 )
 return
-JSProxyHandler
+ProxyHandler
 :
 :
 iterate
@@ -4124,8 +4124,8 @@ vp
 )
 ;
 }
-JSScriptedProxyHandler
-JSScriptedProxyHandler
+ScriptedProxyHandler
+ScriptedProxyHandler
 :
 :
 singleton
@@ -4214,7 +4214,7 @@ next
 }
 ;
 bool
-JSProxy
+Proxy
 :
 :
 getPropertyDescriptor
@@ -4268,7 +4268,7 @@ desc
 ;
 }
 bool
-JSProxy
+Proxy
 :
 :
 getPropertyDescriptor
@@ -4309,7 +4309,7 @@ cx
 )
 ;
 return
-JSProxy
+Proxy
 :
 :
 getPropertyDescriptor
@@ -4333,7 +4333,7 @@ vp
 ;
 }
 bool
-JSProxy
+Proxy
 :
 :
 getOwnPropertyDescriptor
@@ -4387,7 +4387,7 @@ desc
 ;
 }
 bool
-JSProxy
+Proxy
 :
 :
 getOwnPropertyDescriptor
@@ -4428,7 +4428,7 @@ cx
 )
 ;
 return
-JSProxy
+Proxy
 :
 :
 getOwnPropertyDescriptor
@@ -4452,7 +4452,7 @@ vp
 ;
 }
 bool
-JSProxy
+Proxy
 :
 :
 defineProperty
@@ -4503,7 +4503,7 @@ desc
 ;
 }
 bool
-JSProxy
+Proxy
 :
 :
 defineProperty
@@ -4554,7 +4554,7 @@ desc
 )
 &
 &
-JSProxy
+Proxy
 :
 :
 defineProperty
@@ -4568,7 +4568,7 @@ desc
 ;
 }
 bool
-JSProxy
+Proxy
 :
 :
 getOwnPropertyNames
@@ -4616,7 +4616,7 @@ props
 ;
 }
 bool
-JSProxy
+Proxy
 :
 :
 delete_
@@ -4667,7 +4667,7 @@ bp
 ;
 }
 bool
-JSProxy
+Proxy
 :
 :
 enumerate
@@ -4715,7 +4715,7 @@ props
 ;
 }
 bool
-JSProxy
+Proxy
 :
 :
 fix
@@ -4763,7 +4763,7 @@ vp
 ;
 }
 bool
-JSProxy
+Proxy
 :
 :
 has
@@ -4814,7 +4814,7 @@ bp
 ;
 }
 bool
-JSProxy
+Proxy
 :
 :
 hasOwn
@@ -4865,7 +4865,7 @@ bp
 ;
 }
 bool
-JSProxy
+Proxy
 :
 :
 get
@@ -4920,7 +4920,7 @@ vp
 ;
 }
 bool
-JSProxy
+Proxy
 :
 :
 set
@@ -4978,7 +4978,7 @@ vp
 ;
 }
 bool
-JSProxy
+Proxy
 :
 :
 keys
@@ -5026,7 +5026,7 @@ props
 ;
 }
 bool
-JSProxy
+Proxy
 :
 :
 iterate
@@ -5077,7 +5077,7 @@ vp
 ;
 }
 bool
-JSProxy
+Proxy
 :
 :
 call
@@ -5128,7 +5128,7 @@ vp
 ;
 }
 bool
-JSProxy
+Proxy
 :
 :
 construct
@@ -5183,7 +5183,7 @@ rval
 ;
 }
 bool
-JSProxy
+Proxy
 :
 :
 hasInstance
@@ -5239,7 +5239,7 @@ bp
 ;
 }
 JSType
-JSProxy
+Proxy
 :
 :
 typeOf
@@ -5284,7 +5284,7 @@ proxy
 }
 JSString
 *
-JSProxy
+Proxy
 :
 :
 obj_toString
@@ -5329,7 +5329,7 @@ proxy
 }
 JSString
 *
-JSProxy
+Proxy
 :
 :
 fun_toString
@@ -5376,7 +5376,7 @@ indent
 ;
 }
 bool
-JSProxy
+Proxy
 :
 :
 defaultValue
@@ -5487,7 +5487,7 @@ found
 if
 (
 !
-JSProxy
+Proxy
 :
 :
 has
@@ -5707,7 +5707,7 @@ shortid
 0
 ;
 return
-JSProxy
+Proxy
 :
 :
 defineProperty
@@ -5842,7 +5842,7 @@ id
 )
 ;
 return
-JSProxy
+Proxy
 :
 :
 get
@@ -5999,7 +5999,7 @@ id
 )
 ;
 return
-JSProxy
+Proxy
 :
 :
 set
@@ -6126,7 +6126,7 @@ cx
 if
 (
 !
-JSProxy
+Proxy
 :
 :
 getOwnPropertyDescriptor
@@ -6260,7 +6260,7 @@ cx
 if
 (
 !
-JSProxy
+Proxy
 :
 :
 getOwnPropertyDescriptor
@@ -6291,7 +6291,7 @@ JSPROP_SHORTID
 )
 ;
 return
-JSProxy
+Proxy
 :
 :
 defineProperty
@@ -6410,7 +6410,7 @@ deleted
 if
 (
 !
-JSProxy
+Proxy
 :
 :
 delete_
@@ -6687,7 +6687,7 @@ isProxy
 )
 ;
 return
-JSProxy
+Proxy
 :
 :
 defaultValue
@@ -6851,7 +6851,7 @@ b
 if
 (
 !
-JSProxy
+Proxy
 :
 :
 hasInstance
@@ -6900,7 +6900,7 @@ isProxy
 )
 ;
 return
-JSProxy
+Proxy
 :
 :
 typeOf
@@ -7105,7 +7105,7 @@ isProxy
 )
 ;
 return
-JSProxy
+Proxy
 :
 :
 call
@@ -7159,7 +7159,7 @@ isProxy
 bool
 ok
 =
-JSProxy
+Proxy
 :
 :
 construct
@@ -7269,7 +7269,7 @@ NewProxyObject
 JSContext
 *
 cx
-JSProxyHandler
+ProxyHandler
 *
 handler
 const
@@ -7648,7 +7648,7 @@ NewProxyObject
 (
 cx
 &
-JSScriptedProxyHandler
+ScriptedProxyHandler
 :
 :
 singleton
@@ -7855,7 +7855,7 @@ NewProxyObject
 (
 cx
 &
-JSScriptedProxyHandler
+ScriptedProxyHandler
 :
 :
 singleton
@@ -8601,7 +8601,7 @@ cx
 if
 (
 !
-JSProxy
+Proxy
 :
 :
 fix

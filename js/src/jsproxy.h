@@ -31,7 +31,7 @@ js
 class
 JS_FRIEND_API
 (
-JSProxyHandler
+ProxyHandler
 )
 {
 void
@@ -41,7 +41,7 @@ mFamily
 public
 :
 explicit
-JSProxyHandler
+ProxyHandler
 (
 void
 *
@@ -50,7 +50,7 @@ family
 ;
 virtual
 ~
-JSProxyHandler
+ProxyHandler
 (
 )
 ;
@@ -125,9 +125,6 @@ cx
 JSObject
 *
 proxy
-js
-:
-:
 AutoIdVector
 &
 props
@@ -164,9 +161,6 @@ cx
 JSObject
 *
 proxy
-js
-:
-:
 AutoIdVector
 &
 props
@@ -240,9 +234,6 @@ JSObject
 receiver
 jsid
 id
-js
-:
-:
 Value
 *
 vp
@@ -265,9 +256,6 @@ jsid
 id
 bool
 strict
-js
-:
-:
 Value
 *
 vp
@@ -283,9 +271,6 @@ cx
 JSObject
 *
 proxy
-js
-:
-:
 AutoIdVector
 &
 props
@@ -303,9 +288,6 @@ JSObject
 proxy
 uintN
 flags
-js
-:
-:
 Value
 *
 vp
@@ -323,9 +305,6 @@ JSObject
 proxy
 uintN
 argc
-js
-:
-:
 Value
 *
 vp
@@ -343,15 +322,9 @@ JSObject
 proxy
 uintN
 argc
-js
-:
-:
 Value
 *
 argv
-js
-:
-:
 Value
 *
 rval
@@ -368,9 +341,6 @@ JSObject
 *
 proxy
 const
-js
-:
-:
 Value
 *
 vp
@@ -431,9 +401,6 @@ JSObject
 obj
 JSType
 hint
-js
-:
-:
 Value
 *
 vp
@@ -487,7 +454,7 @@ mFamily
 }
 ;
 class
-JSProxy
+Proxy
 {
 public
 :
@@ -612,9 +579,6 @@ cx
 JSObject
 *
 proxy
-js
-:
-:
 AutoIdVector
 &
 props
@@ -647,9 +611,6 @@ cx
 JSObject
 *
 proxy
-js
-:
-:
 AutoIdVector
 &
 props
@@ -756,9 +717,6 @@ cx
 JSObject
 *
 proxy
-js
-:
-:
 AutoIdVector
 &
 props
@@ -793,9 +751,6 @@ JSObject
 proxy
 uintN
 argc
-js
-:
-:
 Value
 *
 vp
@@ -813,15 +768,9 @@ JSObject
 proxy
 uintN
 argc
-js
-:
-:
 Value
 *
 argv
-js
-:
-:
 Value
 *
 rval
@@ -838,9 +787,6 @@ JSObject
 *
 proxy
 const
-js
-:
-:
 Value
 *
 vp
@@ -901,9 +847,6 @@ JSObject
 obj
 JSType
 hint
-js
-:
-:
 Value
 *
 vp
@@ -946,7 +889,7 @@ inline
 js
 :
 :
-JSProxyHandler
+ProxyHandler
 *
 JSObject
 :
@@ -968,7 +911,7 @@ return
 js
 :
 :
-JSProxyHandler
+ProxyHandler
 *
 )
 getSlot
@@ -1127,7 +1070,7 @@ NewProxyObject
 JSContext
 *
 cx
-JSProxyHandler
+ProxyHandler
 *
 handler
 const

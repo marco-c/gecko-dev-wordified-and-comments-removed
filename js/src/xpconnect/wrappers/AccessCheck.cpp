@@ -68,6 +68,10 @@ jsfriendapi
 .
 h
 "
+using
+namespace
+js
+;
 namespace
 xpc
 {
@@ -1449,7 +1453,7 @@ JSObject
 wrapper
 jsid
 id
-JSWrapper
+Wrapper
 :
 :
 Action
@@ -1474,7 +1478,7 @@ if
 act
 =
 =
-JSWrapper
+Wrapper
 :
 :
 CALL
@@ -1486,7 +1490,7 @@ JSObject
 *
 obj
 =
-JSWrapper
+Wrapper
 :
 :
 wrappedObject
@@ -1580,7 +1584,7 @@ id
 act
 =
 =
-JSWrapper
+Wrapper
 :
 :
 SET
@@ -1631,7 +1635,7 @@ return
 act
 =
 =
-JSWrapper
+Wrapper
 :
 :
 SET
@@ -2050,7 +2054,7 @@ getProxyHandler
 &
 FilteringWrapper
 <
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 CrossOriginAccessiblePropertiesOnly
 >
 :
@@ -2248,7 +2252,7 @@ JSContext
 cx
 jsid
 id
-JSWrapper
+Wrapper
 :
 :
 Action
@@ -2260,7 +2264,7 @@ if
 act
 =
 =
-JSWrapper
+Wrapper
 :
 :
 GET
@@ -2289,7 +2293,7 @@ JSContext
 cx
 jsid
 id
-JSWrapper
+Wrapper
 :
 :
 Action
@@ -2381,7 +2385,7 @@ JSObject
 wrapper
 jsid
 id
-JSWrapper
+Wrapper
 :
 :
 Action
@@ -2395,7 +2399,7 @@ JSObject
 *
 wrappedObject
 =
-JSWrapper
+Wrapper
 :
 :
 wrappedObject
@@ -2408,7 +2412,7 @@ if
 act
 =
 =
-JSWrapper
+Wrapper
 :
 :
 CALL
@@ -2934,7 +2938,7 @@ if
 act
 =
 =
-JSWrapper
+Wrapper
 :
 :
 SET
@@ -2953,7 +2957,7 @@ WRITE
 act
 !
 =
-JSWrapper
+Wrapper
 :
 :
 SET

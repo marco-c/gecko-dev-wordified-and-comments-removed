@@ -679,7 +679,10 @@ class
 nsOuterWindowProxy
 :
 public
-JSWrapper
+js
+:
+:
+Wrapper
 {
 public
 :
@@ -687,7 +690,10 @@ nsOuterWindowProxy
 (
 )
 :
-JSWrapper
+js
+:
+:
+Wrapper
 (
 (
 uintN

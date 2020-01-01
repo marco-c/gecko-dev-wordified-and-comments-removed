@@ -90,7 +90,7 @@ class
 AutoPropDescArrayRooter
 ;
 class
-JSProxyHandler
+ProxyHandler
 ;
 class
 RegExp
@@ -4727,7 +4727,7 @@ inline
 js
 :
 :
-JSProxyHandler
+ProxyHandler
 *
 getProxyHandler
 (
@@ -4785,7 +4785,10 @@ extra
 )
 ;
 inline
-JSWrapper
+js
+:
+:
+Wrapper
 *
 getWrapperHandler
 (

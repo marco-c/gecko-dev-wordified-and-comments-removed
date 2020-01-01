@@ -15323,7 +15323,7 @@ cx
 if
 (
 !
-JSProxy
+Proxy
 :
 :
 getPropertyDescriptor
@@ -17540,7 +17540,7 @@ flags
 return
 own
 ?
-JSProxy
+Proxy
 :
 :
 getOwnPropertyDescriptor
@@ -17552,7 +17552,7 @@ false
 desc
 )
 :
-JSProxy
+Proxy
 :
 :
 getPropertyDescriptor

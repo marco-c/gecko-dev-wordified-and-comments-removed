@@ -94,7 +94,7 @@ FilteringWrapper
 {
 }
 typedef
-JSWrapper
+Wrapper
 :
 :
 Permission
@@ -105,7 +105,7 @@ const
 Permission
 PermitObjectAccess
 =
-JSWrapper
+Wrapper
 :
 :
 PermitObjectAccess
@@ -115,7 +115,7 @@ const
 Permission
 PermitPropertyAccess
 =
-JSWrapper
+Wrapper
 :
 :
 PermitPropertyAccess
@@ -125,7 +125,7 @@ const
 Permission
 DenyAccess
 =
-JSWrapper
+Wrapper
 :
 :
 DenyAccess
@@ -197,7 +197,7 @@ check
 cx
 wrapper
 id
-JSWrapper
+Wrapper
 :
 :
 GET
@@ -419,7 +419,10 @@ vp
 )
 {
 return
-JSProxyHandler
+js
+:
+:
+ProxyHandler
 :
 :
 iterate
@@ -456,7 +459,7 @@ JSObject
 wrapper
 jsid
 id
-JSWrapper
+Wrapper
 :
 :
 Action
@@ -528,7 +531,7 @@ define
 SOW
 FilteringWrapper
 <
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 OnlyIfSubjectIsSystem
 >
 #
@@ -536,7 +539,7 @@ define
 SCSOW
 FilteringWrapper
 <
-JSWrapper
+Wrapper
 OnlyIfSubjectIsSystem
 >
 #
@@ -544,7 +547,7 @@ define
 COW
 FilteringWrapper
 <
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 ExposedPropertiesOnly
 >
 #
@@ -554,7 +557,7 @@ FilteringWrapper
 <
 XrayWrapper
 <
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 >
 \
 CrossOriginAccessiblePropertiesOnly
@@ -564,7 +567,7 @@ define
 NNXOW
 FilteringWrapper
 <
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 CrossOriginAccessiblePropertiesOnly
 >
 #
@@ -574,7 +577,7 @@ FilteringWrapper
 <
 XrayWrapper
 <
-JSWrapper
+Wrapper
 >
 \
 SameOriginOrCrossOriginAccessiblePropertiesOnly
@@ -586,7 +589,7 @@ FilteringWrapper
 <
 XrayWrapper
 <
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 >
 \
 SameOriginOrCrossOriginAccessiblePropertiesOnly

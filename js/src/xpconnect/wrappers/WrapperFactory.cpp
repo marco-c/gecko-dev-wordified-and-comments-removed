@@ -61,10 +61,14 @@ xpcmaps
 .
 h
 "
+using
+namespace
+js
+;
 namespace
 xpc
 {
-JSWrapper
+Wrapper
 WaiveXrayWrapperWrapper
 (
 WrapperFactory
@@ -317,7 +321,7 @@ nsnull
 ;
 wobj
 =
-JSWrapper
+Wrapper
 :
 :
 New
@@ -1040,7 +1044,7 @@ xrayHolder
 =
 nsnull
 ;
-JSWrapper
+Wrapper
 *
 wrapper
 ;
@@ -1086,7 +1090,7 @@ origin
 wrapper
 =
 &
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 singleton
@@ -1147,7 +1151,7 @@ isSystem
 wrapper
 =
 &
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 singleton
@@ -1196,7 +1200,7 @@ innerObject
 typedef
 XrayWrapper
 <
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 >
 Xray
 ;
@@ -1356,7 +1360,7 @@ ClassIsDOMObject
 typedef
 XrayWrapper
 <
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 >
 Xray
 ;
@@ -1400,7 +1404,7 @@ wrapper
 &
 FilteringWrapper
 <
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 ExposedPropertiesOnly
 >
 :
@@ -1438,7 +1442,7 @@ wrapper
 &
 FilteringWrapper
 <
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 OnlyIfSubjectIsSystem
 >
 :
@@ -1482,7 +1486,7 @@ innerObject
 typedef
 XrayWrapper
 <
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 >
 Xray
 ;
@@ -1520,7 +1524,7 @@ else
 wrapper
 =
 &
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 :
 :
 singleton
@@ -1576,7 +1580,7 @@ wrapper
 &
 FilteringWrapper
 <
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 CrossOriginAccessiblePropertiesOnly
 >
 :
@@ -1589,7 +1593,7 @@ else
 typedef
 XrayWrapper
 <
-JSCrossCompartmentWrapper
+CrossCompartmentWrapper
 >
 Xray
 ;
@@ -1655,7 +1659,7 @@ JSObject
 *
 wrapperObj
 =
-JSWrapper
+Wrapper
 :
 :
 New
@@ -1703,7 +1707,7 @@ FilteringWrapper
 <
 XrayWrapper
 <
-JSWrapper
+Wrapper
 >
 SameOriginOrCrossOriginAccessiblePropertiesOnly
 >
@@ -1803,7 +1807,7 @@ JSObject
 *
 wrapperObj
 =
-JSWrapper
+Wrapper
 :
 :
 New
@@ -1987,7 +1991,7 @@ JSObject
 *
 wrapperObj
 =
-JSWrapper
+Wrapper
 :
 :
 New
@@ -2007,7 +2011,7 @@ obj
 &
 FilteringWrapper
 <
-JSWrapper
+Wrapper
 OnlyIfSubjectIsSystem
 >
 :
