@@ -5176,7 +5176,8 @@ nargs
 flags
 )
 \
-{
+JS_FS
+(
 name
 (
 JSNative
@@ -5194,7 +5195,7 @@ JSFUN_FAST_NATIVE
 |
 JSFUN_STUB_GSOPS
 0
-}
+)
 extern
 JS_PUBLIC_API
 (
