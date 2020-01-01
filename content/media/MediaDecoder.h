@@ -1038,11 +1038,6 @@ aReliable
 )
 ;
 bool
-IsSameOriginMedia
-(
-)
-;
-bool
 CanPlayThrough
 (
 )
@@ -1201,13 +1196,6 @@ virtual
 void
 DecodeError
 (
-)
-;
-void
-UpdateSameOriginStatus
-(
-bool
-aSameOrigin
 )
 ;
 MediaDecoderOwner
@@ -1619,9 +1607,6 @@ mTransportSeekable
 ;
 bool
 mMediaSeekable
-;
-bool
-mSameOriginMedia
 ;
 nsCOMPtr
 <
