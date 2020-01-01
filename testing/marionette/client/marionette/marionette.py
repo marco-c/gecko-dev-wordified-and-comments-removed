@@ -6,8 +6,6 @@ import
 sys
 import
 time
-import
-traceback
 from
 client
 import
@@ -3112,9 +3110,13 @@ value
 except
 :
             
-traceback
+exc
+val
+tb
+=
+sys
 .
-print_exc
+exc_info
 (
 )
             
@@ -3124,11 +3126,10 @@ check_for_crash
 (
 )
             
-sys
-.
-exit
-(
-)
+raise
+exc
+val
+tb
         
 self
 .
