@@ -53,7 +53,7 @@ BLOCK
 *
 Version
 :
-NPL
+MPL
 1
 .
 1
@@ -78,11 +78,11 @@ are
 subject
 to
 the
-Netscape
+Mozilla
 Public
 License
-*
 Version
+*
 1
 .
 1
@@ -101,9 +101,9 @@ this
 file
 except
 in
-*
 compliance
 with
+*
 the
 License
 .
@@ -127,7 +127,7 @@ mozilla
 .
 org
 /
-NPL
+MPL
 /
 *
 *
@@ -254,6 +254,7 @@ terms
 of
 *
 either
+of
 the
 GNU
 General
@@ -269,8 +270,8 @@ the
 GPL
 "
 )
-or
 *
+or
 the
 GNU
 Lesser
@@ -351,7 +352,7 @@ the
 terms
 of
 the
-NPL
+MPL
 indicate
 your
 *
@@ -406,7 +407,7 @@ any
 one
 of
 the
-NPL
+MPL
 the
 GPL
 or
