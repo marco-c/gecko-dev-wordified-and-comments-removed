@@ -2021,7 +2021,6 @@ Length
 (
 )
 )
-)
 {
 nsCString
 &
