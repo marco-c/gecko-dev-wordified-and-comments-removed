@@ -5950,6 +5950,13 @@ run
 (
 )
 {
+if
+(
+!
+GeckoInputConnection
+.
+mIMELandscapeFS
+)
 mAutoCompletePopup
 .
 show
