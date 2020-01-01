@@ -3429,10 +3429,6 @@ than
 or
 -
 equal
-OP_UN
-(
-78
-)
 /
 /
 -
@@ -3593,7 +3589,7 @@ Arithmetic
 OP___
 (
 negi
-79
+78
 Op1
 I
 1
@@ -3605,7 +3601,7 @@ int
 OP___
 (
 addi
-80
+79
 Op2
 I
 1
@@ -3617,7 +3613,7 @@ int
 OP___
 (
 subi
-81
+80
 Op2
 I
 1
@@ -3629,7 +3625,7 @@ int
 OP___
 (
 muli
-82
+81
 Op2
 I
 1
@@ -3641,7 +3637,7 @@ int
 OP_86
 (
 divi
-83
+82
 Op2
 I
 1
@@ -3698,7 +3694,7 @@ instruction
 OP_86
 (
 modi
-84
+83
 Op1
 I
 1
@@ -3710,7 +3706,7 @@ int
 OP___
 (
 noti
-85
+84
 Op1
 I
 1
@@ -3724,7 +3720,7 @@ int
 OP___
 (
 andi
-86
+85
 Op2
 I
 1
@@ -3738,7 +3734,7 @@ int
 OP___
 (
 ori
-87
+86
 Op2
 I
 1
@@ -3752,7 +3748,7 @@ int
 OP___
 (
 xori
-88
+87
 Op2
 I
 1
@@ -3766,7 +3762,7 @@ int
 OP___
 (
 lshi
-89
+88
 Op2
 I
 1
@@ -3779,7 +3775,7 @@ int
 OP___
 (
 rshi
-90
+89
 Op2
 I
 1
@@ -3796,7 +3792,7 @@ int
 OP___
 (
 rshui
-91
+90
 Op2
 I
 1
@@ -3815,7 +3811,7 @@ int
 OP_64
 (
 addq
-92
+91
 Op2
 Q
 1
@@ -3827,7 +3823,7 @@ quad
 OP_64
 (
 subq
-93
+92
 Op2
 Q
 1
@@ -3839,7 +3835,7 @@ quad
 OP_64
 (
 andq
-94
+93
 Op2
 Q
 1
@@ -3853,7 +3849,7 @@ quad
 OP_64
 (
 orq
-95
+94
 Op2
 Q
 1
@@ -3867,7 +3863,7 @@ quad
 OP_64
 (
 xorq
-96
+95
 Op2
 Q
 1
@@ -3881,7 +3877,7 @@ quad
 OP_64
 (
 lshq
-97
+96
 Op2
 Q
 1
@@ -3900,7 +3896,7 @@ int
 OP_64
 (
 rshq
-98
+97
 Op2
 Q
 1
@@ -3919,7 +3915,7 @@ int
 OP_64
 (
 rshuq
-99
+98
 Op2
 Q
 1
@@ -3939,7 +3935,7 @@ int
 OP___
 (
 negd
-100
+99
 Op1
 D
 1
@@ -3951,7 +3947,7 @@ double
 OP___
 (
 addd
-101
+100
 Op2
 D
 1
@@ -3963,7 +3959,7 @@ double
 OP___
 (
 subd
-102
+101
 Op2
 D
 1
@@ -3975,7 +3971,7 @@ double
 OP___
 (
 muld
-103
+102
 Op2
 D
 1
@@ -3987,7 +3983,7 @@ double
 OP___
 (
 divd
-104
+103
 Op2
 D
 1
@@ -4057,7 +4053,7 @@ it
 OP___
 (
 modd
-105
+104
 Op2
 D
 1
@@ -4069,7 +4065,7 @@ double
 OP___
 (
 cmovi
-106
+105
 Op3
 I
 1
@@ -4082,7 +4078,7 @@ int
 OP_64
 (
 cmovq
-107
+106
 Op3
 Q
 1
@@ -4092,6 +4088,19 @@ Q
 conditional
 move
 quad
+OP___
+(
+cmovd
+107
+Op3
+D
+1
+)
+/
+/
+conditional
+move
+double
 /
 /
 -

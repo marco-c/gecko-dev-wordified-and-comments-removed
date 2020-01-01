@@ -7339,6 +7339,9 @@ CASE64
 LIR_cmovq
 :
 )
+case
+LIR_cmovd
+:
 countlir_cmov
 (
 )
