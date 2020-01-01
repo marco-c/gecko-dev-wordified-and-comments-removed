@@ -8387,9 +8387,9 @@ aSizes
 )
 ;
 }
-static
+MOZ_EXPORT
 void
-ClearGlobalState
+ClearReports
 (
 )
 {
@@ -9751,7 +9751,7 @@ delete_
 locService
 )
 ;
-ClearGlobalState
+ClearReports
 (
 )
 ;
