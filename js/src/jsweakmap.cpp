@@ -1737,7 +1737,9 @@ HashTableWriteBarrierPost
 cx
 -
 >
-compartment
+zone
+(
+)
 map
 key
 )

@@ -1572,9 +1572,12 @@ void
 *
 allocateFromArena
 (
-JSCompartment
+JS
+:
+:
+Zone
 *
-comp
+zone
 AllocKind
 thingKind
 )

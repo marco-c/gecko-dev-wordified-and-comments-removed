@@ -10976,7 +10976,9 @@ f
 cx
 -
 >
-compartment
+zone
+(
+)
 -
 >
 needsBarrier
@@ -10997,7 +10999,9 @@ f
 cx
 -
 >
-compartment
+zone
+(
+)
 -
 >
 barrierTracer
@@ -11037,7 +11041,9 @@ f
 cx
 -
 >
-compartment
+zone
+(
+)
 -
 >
 needsBarrier
@@ -11092,7 +11098,9 @@ f
 cx
 -
 >
-compartment
+zone
+(
+)
 -
 >
 barrierTracer

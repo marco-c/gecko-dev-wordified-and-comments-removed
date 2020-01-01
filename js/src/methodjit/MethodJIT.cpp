@@ -6352,7 +6352,9 @@ isConstructing
 cx
 -
 >
-compartment
+zone
+(
+)
 -
 >
 compileBarriers
@@ -7582,7 +7584,7 @@ if
 script
 -
 >
-compartment
+zone
 (
 )
 -
@@ -7601,7 +7603,7 @@ trace
 script
 -
 >
-compartment
+zone
 (
 )
 -
@@ -7922,7 +7924,9 @@ constructing
 cx
 -
 >
-compartment
+zone
+(
+)
 -
 >
 needsBarrier

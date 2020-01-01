@@ -2517,9 +2517,12 @@ ArenaHeader
 *
 allocateArena
 (
-JSCompartment
+JS
+:
+:
+Zone
 *
-comp
+zone
 AllocKind
 kind
 )

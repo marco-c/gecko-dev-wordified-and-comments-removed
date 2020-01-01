@@ -14766,7 +14766,7 @@ runtime
 -
 >
 gcStrictCompartmentChecking
-compartment
+zone
 (
 )
 -

@@ -5372,7 +5372,9 @@ if
 cx
 -
 >
-compartment
+zone
+(
+)
 -
 >
 needsBarrier
@@ -5454,7 +5456,9 @@ if
 cx
 -
 >
-compartment
+zone
+(
+)
 -
 >
 needsBarrier
@@ -6733,7 +6737,9 @@ if
 cx
 -
 >
-compartment
+zone
+(
+)
 -
 >
 needsBarrier

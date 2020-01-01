@@ -823,7 +823,7 @@ callee
 .
 set
 (
-compartment
+zone
 (
 )
 MagicValue

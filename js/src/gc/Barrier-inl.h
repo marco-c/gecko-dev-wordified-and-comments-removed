@@ -687,6 +687,11 @@ rt
 -
 >
 atomsCompartment
+-
+>
+zone
+(
+)
 )
 ;
 }

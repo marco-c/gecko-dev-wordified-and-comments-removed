@@ -4084,6 +4084,11 @@ if
 c
 -
 >
+zone
+(
+)
+-
+>
 isCollecting
 (
 )
@@ -4423,6 +4428,11 @@ rt
 atomsCompartment
 -
 >
+zone
+(
+)
+-
+>
 isCollecting
 (
 )
@@ -4530,6 +4540,11 @@ trc
 &
 !
 c
+-
+>
+zone
+(
+)
 -
 >
 isCollecting

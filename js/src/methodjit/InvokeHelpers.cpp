@@ -1826,7 +1826,9 @@ isConstructing
 cx
 -
 >
-compartment
+zone
+(
+)
 -
 >
 compileBarriers
