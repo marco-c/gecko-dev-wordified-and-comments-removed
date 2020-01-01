@@ -9138,6 +9138,7 @@ test
 OS_TARGET
 "
 =
+=
 "
 WINCE
 "
@@ -15081,6 +15082,9 @@ wsock32
 .
 lib
 advapi32
+.
+lib
+psapi
 .
 lib
 "
