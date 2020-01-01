@@ -2517,9 +2517,10 @@ PR_FALSE
 ;
 if
 (
+!
 gGlobalContext
-&
-&
+|
+|
 !
 static_cast
 <
