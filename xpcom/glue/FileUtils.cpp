@@ -619,7 +619,7 @@ false
 }
 #
 ifdef
-MOZ_WIDGET_GONK
+ReadSysFile_PRESENT
 #
 undef
 TEMP_FAILURE_RETRY
