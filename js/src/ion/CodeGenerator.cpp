@@ -893,9 +893,9 @@ LInlineFunctionGuard
 lir
 )
 {
-Operand
-input
-(
+Register
+inputReg
+=
 ToRegister
 (
 lir
@@ -905,13 +905,12 @@ input
 (
 )
 )
-)
 ;
 masm
 .
 cmpPtr
 (
-input
+inputReg
 ImmGCPtr
 (
 lir
