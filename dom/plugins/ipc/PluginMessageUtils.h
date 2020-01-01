@@ -1530,7 +1530,7 @@ paramType
 aResult
 )
 {
-uint64_t
+uint64
 window
 ;
 int32_t
