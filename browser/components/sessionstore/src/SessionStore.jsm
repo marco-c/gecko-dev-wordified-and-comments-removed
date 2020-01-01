@@ -427,15 +427,9 @@ gre
 /
 modules
 /
-commonjs
-/
-sdk
-/
-core
-/
-promise
+Promise
 .
-js
+jsm
 "
 this
 )
@@ -829,6 +823,7 @@ ss_init
 aWindow
 )
 {
+return
 SessionStoreInternal
 .
 init
@@ -2540,6 +2535,7 @@ initService
 (
 )
 ;
+return
 this
 .
 _promiseInitialization
@@ -2553,6 +2549,14 @@ onSuccess
 (
 )
 {
+if
+(
+!
+aWindow
+.
+closed
+)
+{
 self
 .
 onLoad
@@ -2560,6 +2564,7 @@ onLoad
 aWindow
 )
 ;
+}
 }
 )
 ;
