@@ -13719,7 +13719,7 @@ js_valueOf_str
 obj_valueOf
 0
 0
-JS_TypeHandlerThis
+JS_TypeHandlerDynamic
 )
 #
 if
