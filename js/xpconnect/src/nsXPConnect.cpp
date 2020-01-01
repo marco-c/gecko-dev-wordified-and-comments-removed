@@ -10878,6 +10878,8 @@ NS_ERROR_FAILURE
 *
 _retval
 =
+xpc_UnmarkGrayContext
+(
 data
 -
 >
@@ -10888,6 +10890,7 @@ GetJSContextStack
 >
 Peek
 (
+)
 )
 ;
 return
@@ -11319,7 +11322,10 @@ _retval
 *
 _retval
 =
+xpc_UnmarkGrayContext
+(
 cx
+)
 ;
 return
 NS_OK
