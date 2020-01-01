@@ -515,6 +515,10 @@ ImageData
 .
 webidl
 \
+InspectorUtils
+.
+webidl
+\
 LinkStyle
 .
 webidl

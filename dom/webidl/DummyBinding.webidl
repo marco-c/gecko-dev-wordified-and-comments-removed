@@ -151,6 +151,11 @@ ussdReceivedEvent
 (
 )
 ;
+InspectorRGBTriple
+rgbTriple
+(
+)
+;
 }
 ;
 interface
