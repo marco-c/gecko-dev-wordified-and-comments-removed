@@ -2485,7 +2485,7 @@ function
 executeWithCallback
 (
 msg
-async
+useFinish
 )
 {
 curWindow
@@ -2635,7 +2635,7 @@ scriptSrc
 ;
 if
 (
-async
+useFinish
 )
 {
 if
