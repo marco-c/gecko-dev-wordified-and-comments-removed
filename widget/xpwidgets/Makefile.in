@@ -377,6 +377,16 @@ src
 -
 I
 (
+topsrcdir
+)
+/
+view
+/
+src
+\
+-
+I
+(
 srcdir
 )
 \
