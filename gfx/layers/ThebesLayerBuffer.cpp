@@ -1590,6 +1590,14 @@ destBufferRect
 }
 else
 {
+destBufferRect
+=
+neededRegion
+.
+GetBounds
+(
+)
+;
 bufferDimsChanged
 =
 PR_TRUE
