@@ -5139,6 +5139,9 @@ BEGIN_CASE
 JSOP_CONCATN
 )
 {
+#
+ifdef
+JS_TRACER
 JS_ASSERT_IF
 (
 fp
@@ -5216,6 +5219,8 @@ NULL
 }
 else
 {
+#
+endif
 argc
 =
 GET_ARGC
@@ -5225,7 +5230,12 @@ regs
 pc
 )
 ;
+#
+ifdef
+JS_TRACER
 }
+#
+endif
 JSCharBuffer
 buf
 (
@@ -5331,6 +5341,9 @@ str
 )
 )
 ;
+#
+ifdef
+JS_TRACER
 if
 (
 imacro
@@ -5346,6 +5359,8 @@ JSOP_CONCATN_LENGTH
 JSOP_IMACOP_LENGTH
 ;
 }
+#
+endif
 }
 END_CASE
 (

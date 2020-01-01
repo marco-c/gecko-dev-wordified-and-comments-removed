@@ -70428,6 +70428,7 @@ sMaxConcatNSize
 =
 32
 ;
+JS_REQUIRES_STACK
 jsval
 *
 js_ConcatPostImacroStackCleanup
