@@ -607,17 +607,11 @@ words
 )
 ;
 }
-if
-(
-aIsMisspelled
-)
-{
 *
 aIsMisspelled
 =
 PR_TRUE
 ;
-}
 }
 return
 NS_OK
