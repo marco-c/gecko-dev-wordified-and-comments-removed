@@ -2423,12 +2423,6 @@ ensureMPUnlocked
 )
 )
 {
-this
-.
-onPageShow
-(
-)
-;
 return
 false
 ;
