@@ -7707,6 +7707,17 @@ rv
 =
 NS_ERROR_FAILURE
 ;
+NS_ERROR
+(
+"
+Script
+compiled
+without
+principals
+!
+"
+)
+;
 return
 nsnull
 ;
