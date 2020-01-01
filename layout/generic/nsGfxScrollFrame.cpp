@@ -10742,6 +10742,9 @@ y
 ;
 if
 (
+mAsyncScroll
+&
+&
 dest
 =
 =
