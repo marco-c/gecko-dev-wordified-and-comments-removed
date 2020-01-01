@@ -1935,7 +1935,7 @@ overlink
 -
 delay
 "
-80
+70
 )
 ;
 #
