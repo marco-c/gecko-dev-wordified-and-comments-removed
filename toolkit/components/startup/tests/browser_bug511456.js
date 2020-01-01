@@ -37,8 +37,6 @@ startup
 /
 tests
 /
-browser
-/
 beforeunload
 .
 html

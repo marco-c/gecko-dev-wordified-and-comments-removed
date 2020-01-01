@@ -502,8 +502,6 @@ cpp
 endif
 endif
 endif
-ifdef
-ENABLE_TESTS
 ifneq
 (
 mobile
@@ -511,13 +509,9 @@ mobile
 MOZ_BUILD_APP
 )
 )
-DIRS
-+
+TEST_DIRS
 =
 tests
-/
-browser
-endif
 endif
 include
 (
