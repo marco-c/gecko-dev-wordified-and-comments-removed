@@ -185,6 +185,14 @@ PTestSysVShmem
 .
 ipdl
 \
+PTestBadActor
+.
+ipdl
+\
+PTestBadActorSub
+.
+ipdl
+\
 (
 NULL
 )

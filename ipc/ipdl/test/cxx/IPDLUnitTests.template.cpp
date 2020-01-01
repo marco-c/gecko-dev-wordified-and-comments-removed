@@ -309,6 +309,8 @@ IPDLUnitTest
 return
 IPDLUnitTestFromString
 (
+:
+:
 mozilla
 :
 :
@@ -818,6 +820,8 @@ PARENT_DELETE_CASES
 }
 default
 :
+:
+:
 mozilla
 :
 :
@@ -1082,6 +1086,8 @@ IPDLUnitTest
 CHILD_DELETE_CASES
 }
 default
+:
+:
 :
 mozilla
 :
