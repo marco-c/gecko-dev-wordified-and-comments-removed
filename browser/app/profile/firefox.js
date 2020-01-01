@@ -4744,3 +4744,15 @@ blockautorefresh
 false
 )
 ;
+pref
+(
+"
+browser
+.
+places
+.
+importBookmarksHTML
+"
+true
+)
+;

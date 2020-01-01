@@ -507,10 +507,6 @@ nsAnnotationService
 .
 cpp
 \
-nsBookmarksHTML
-.
-cpp
-\
 nsFaviconService
 .
 cpp

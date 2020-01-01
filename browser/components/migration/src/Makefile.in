@@ -486,6 +486,11 @@ REQUIRES
 +
 =
 bookmarks
+else
+REQUIRES
++
+=
+browserplaces
 endif
 CPPSRCS
 =

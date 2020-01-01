@@ -363,6 +363,13 @@ bin
 /
 components
 /
+browserplaces
+.
+xpt
+bin
+/
+components
+/
 browsersearch
 .
 xpt

@@ -486,7 +486,7 @@ bookmarksRoot
 var
 bmStartIndex
 =
-4
+1
 ;
 function
 run_test
