@@ -162,9 +162,11 @@ chrome
 /
 browser
 /
-content
+skin
 /
-splitview
+devtools
+/
+profiler
 .
 css
 "
@@ -186,7 +188,7 @@ browser
 /
 content
 /
-profiler
+splitview
 .
 css
 "
