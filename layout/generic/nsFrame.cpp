@@ -12493,6 +12493,17 @@ NS_ERROR_FAILURE
 ;
 if
 (
+!
+offsets
+.
+content
+-
+>
+IsEditable
+(
+)
+&
+&
 Preferences
 :
 :
