@@ -115,7 +115,7 @@ pn
 >
 isKind
 (
-PNK_LP
+PNK_CALL
 )
 ;
 }
@@ -336,7 +336,7 @@ pn_atom
 )
 ;
 case
-PNK_LB
+PNK_ELEM
 :
 return
 nameExpression
@@ -558,7 +558,7 @@ pos
 >
 isKind
 (
-PNK_RC
+PNK_OBJECT
 )
 )
 return

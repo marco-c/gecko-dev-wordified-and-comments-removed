@@ -2422,7 +2422,7 @@ opn
 >
 isKind
 (
-PNK_RB
+PNK_ARRAY
 )
 |
 |
@@ -2431,7 +2431,7 @@ opn
 >
 isKind
 (
-PNK_RC
+PNK_OBJECT
 )
 )
 ;
@@ -2474,7 +2474,7 @@ opn
 >
 isKind
 (
-PNK_RC
+PNK_OBJECT
 )
 )
 {
