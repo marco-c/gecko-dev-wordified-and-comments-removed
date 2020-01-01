@@ -2800,6 +2800,7 @@ gfxASurface
 :
 SurfaceTypeWin32Printing
 :
+{
 PRInt32
 OSVal
 =
@@ -2826,6 +2827,7 @@ dpi
 ;
 break
 ;
+}
 #
 endif
 #
