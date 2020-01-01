@@ -385,10 +385,6 @@ int
 width
 int
 height
-int
-tileWidth
-int
-tileHeight
 String
 metadata
 )
@@ -411,16 +407,6 @@ width
 "
 +
 height
-+
-"
-"
-+
-tileWidth
-+
-"
-"
-+
-tileHeight
 )
 ;
 if
@@ -1267,8 +1253,6 @@ width
 mScreenSize
 .
 height
-0
-0
 )
 ;
 GeckoAppShell

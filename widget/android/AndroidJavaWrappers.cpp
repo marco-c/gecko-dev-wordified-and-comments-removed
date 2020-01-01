@@ -2531,7 +2531,7 @@ beginDrawing
 "
 "
 (
-IIIILjava
+IILjava
 /
 lang
 /
@@ -3461,7 +3461,7 @@ ReadPointArray
 mPoints
 jenv
 jPoints
-3
+2
 )
 ;
 break
@@ -4650,10 +4650,6 @@ int
 aWidth
 int
 aHeight
-int
-aTileWidth
-int
-aTileHeight
 nsIntRect
 &
 aDirtyRect
@@ -4745,8 +4741,6 @@ wrapped_obj
 jBeginDrawingMethod
 aWidth
 aHeight
-aTileWidth
-aTileHeight
 jMetadata
 )
 ;

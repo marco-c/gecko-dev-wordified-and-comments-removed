@@ -691,10 +691,6 @@ int
 aWidth
 int
 aHeight
-int
-aTileWidth
-int
-aTileHeight
 nsIntRect
 &
 aDirtyRect
