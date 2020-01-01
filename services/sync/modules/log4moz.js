@@ -2212,6 +2212,8 @@ closeStream
 (
 )
 ;
+try
+{
 this
 .
 _file
@@ -2221,6 +2223,13 @@ remove
 false
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 }
 }
 ;
