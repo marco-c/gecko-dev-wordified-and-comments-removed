@@ -291,7 +291,10 @@ mozInlineSpellStatus
 :
 InitForEditorChange
 (
-PRInt32
+nsEditor
+:
+:
+OperationID
 aAction
 nsIDOMNode
 *
@@ -2504,6 +2507,12 @@ status
 .
 InitForEditorChange
 (
+(
+nsEditor
+:
+:
+OperationID
+)
 aAction
 anchorNode
 anchorOffset

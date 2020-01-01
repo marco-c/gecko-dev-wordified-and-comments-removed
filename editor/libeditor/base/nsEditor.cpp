@@ -20738,6 +20738,9 @@ mInlineSpellChecker
 >
 SpellCheckAfterEditorChange
 (
+(
+PRInt32
+)
 action
 aSelection
 previousSelectedNode
