@@ -363,6 +363,11 @@ DelayNode
 cpp
 '
 '
+DelayProcessor
+.
+cpp
+'
+'
 DynamicsCompressorNode
 .
 cpp
