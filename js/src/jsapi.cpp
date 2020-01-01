@@ -4503,6 +4503,11 @@ requestDepth
 0
 ;
 #
+else
+return
+false
+;
+#
 endif
 }
 JS_PUBLIC_API
