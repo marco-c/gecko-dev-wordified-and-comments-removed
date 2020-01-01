@@ -464,11 +464,11 @@ aObject
 ifdef
 DEBUG
 bool
-NPObjectIsRegistered
+NPObjectIsRegisteredForActor
 (
-NPObject
+PluginScriptableObjectChild
 *
-aObject
+aActor
 )
 ;
 #
