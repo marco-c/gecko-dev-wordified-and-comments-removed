@@ -4222,7 +4222,7 @@ PresContext
 nsCSSRendering
 :
 :
-PaintBorder
+PaintBorderWithStyleBorder
 (
 PresContext
 (

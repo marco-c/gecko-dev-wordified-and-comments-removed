@@ -1100,8 +1100,6 @@ aRenderingContext
 this
 aDirtyRect
 rect
-*
-borderStyle
 mStyleContext
 skipSides
 )
@@ -1172,8 +1170,6 @@ aRenderingContext
 this
 aDirtyRect
 rect
-*
-borderStyle
 mStyleContext
 skipSides
 )
@@ -1233,8 +1229,6 @@ aRenderingContext
 this
 aDirtyRect
 rect
-*
-borderStyle
 mStyleContext
 skipSides
 )
@@ -1266,8 +1260,6 @@ Size
 (
 )
 )
-*
-borderStyle
 mStyleContext
 skipSides
 )

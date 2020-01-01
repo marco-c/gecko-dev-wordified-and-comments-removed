@@ -18019,7 +18019,7 @@ PAINTBG_SYNC_DECODE_IMAGES
 nsCSSRendering
 :
 :
-PaintBorder
+PaintBorderWithStyleBorder
 (
 aPresContext
 aRenderingContext
