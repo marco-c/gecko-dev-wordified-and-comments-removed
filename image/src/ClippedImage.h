@@ -18,6 +18,9 @@ namespace
 image
 {
 class
+ClippedImageCachedSurface
+;
+class
 DrawSingleTileCallback
 ;
 class
@@ -34,8 +37,7 @@ virtual
 ClippedImage
 (
 )
-{
-}
+;
 virtual
 nsIntRect
 FrameRect
@@ -158,6 +160,12 @@ aFlags
 )
 MOZ_OVERRIDE
 ;
+NS_IMETHOD
+RequestDiscard
+(
+)
+MOZ_OVERRIDE
+;
 protected
 :
 ClippedImage
@@ -269,6 +277,12 @@ aWhichFrame
 uint32_t
 aFlags
 )
+;
+nsAutoPtr
+<
+ClippedImageCachedSurface
+>
+mCachedSurface
 ;
 nsIntRect
 mClip
