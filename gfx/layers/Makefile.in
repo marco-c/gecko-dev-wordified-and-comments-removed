@@ -486,14 +486,6 @@ BasicLayers
 .
 h
 \
-BasicTiledThebesLayer
-.
-h
-\
-BasicImplData
-.
-h
-\
 ImageLayers
 .
 h
@@ -529,10 +521,6 @@ BasicImages
 cpp
 \
 BasicLayers
-.
-cpp
-\
-BasicTiledThebesLayer
 .
 cpp
 \
@@ -573,10 +561,6 @@ LayerManagerOGL
 cpp
 \
 ThebesLayerOGL
-.
-cpp
-\
-TiledThebesLayerOGL
 .
 cpp
 \
