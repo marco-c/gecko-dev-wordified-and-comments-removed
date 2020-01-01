@@ -507,6 +507,11 @@ ProcessUploadQueue
 )
 ;
 void
+MemoryPressure
+(
+)
+;
+void
 RenderTile
 (
 const

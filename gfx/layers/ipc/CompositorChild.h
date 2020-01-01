@@ -180,6 +180,12 @@ LayerManager
 >
 mLayerManager
 ;
+nsCOMPtr
+<
+nsIObserver
+>
+mMemoryPressureObserver
+;
 static
 CompositorChild
 *

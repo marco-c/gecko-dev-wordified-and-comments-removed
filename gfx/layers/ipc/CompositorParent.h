@@ -398,6 +398,11 @@ PlatformThreadId
 aThreadID
 )
 ;
+bool
+RecvMemoryPressure
+(
+)
+;
 protected
 :
 virtual
