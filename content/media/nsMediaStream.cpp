@@ -870,6 +870,10 @@ mOffset
 =
 0
 ;
+acceptsRanges
+=
+PR_FALSE
+;
 }
 else
 if

@@ -801,6 +801,10 @@ seek13
 .
 js
 \
+seekLies
+.
+sjs
+\
 test_access_control
 .
 html
@@ -974,6 +978,10 @@ test_seek
 html
 \
 test_seek2
+.
+html
+\
+test_seekLies
 .
 html
 \
