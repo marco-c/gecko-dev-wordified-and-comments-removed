@@ -2723,15 +2723,10 @@ try
 data
 =
 yield
-this
-.
-_storage
-.
-getMeasurementValues
-(
 measurement
 .
-id
+getValues
+(
 )
 ;
 }
