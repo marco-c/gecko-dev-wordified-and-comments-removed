@@ -524,12 +524,8 @@ mView
 .
 setViewportSize
 (
-new
-IntSize
-(
 mWidth
 mHeight
-)
 )
 ;
 }
