@@ -937,15 +937,13 @@ uintN
 op
 )
 {
-if
+JS_ASSERT
 (
 op
 =
 =
-JSCOMPARTMENT_NEW
+JSCOMPARTMENT_DESTROY
 )
-return
-JS_TRUE
 ;
 XPCJSRuntime
 *

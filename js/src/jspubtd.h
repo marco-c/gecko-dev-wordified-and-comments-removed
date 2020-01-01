@@ -1055,7 +1055,6 @@ flags
 typedef
 enum
 {
-JSCOMPARTMENT_NEW
 JSCOMPARTMENT_DESTROY
 }
 JSCompartmentOp
