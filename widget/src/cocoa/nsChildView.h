@@ -454,6 +454,12 @@ isPluginView
 ;
 -
 (
+BOOL
+)
+isUsingOpenGL
+;
+-
+(
 void
 )
 swipeWithEvent
