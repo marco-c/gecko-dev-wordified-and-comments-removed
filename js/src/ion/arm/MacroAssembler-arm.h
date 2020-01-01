@@ -2877,6 +2877,17 @@ value
 )
 ;
 Condition
+testNumber
+(
+Condition
+cond
+const
+ValueOperand
+&
+value
+)
+;
+Condition
 testNull
 (
 Condition
