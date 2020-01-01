@@ -605,6 +605,12 @@ nsDisplayListSet
 aOut
 )
 ;
+virtual
+PRBool
+SupportsOrdinalsInChildren
+(
+)
+;
 protected
 :
 #

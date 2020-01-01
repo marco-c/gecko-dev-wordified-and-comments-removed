@@ -600,6 +600,12 @@ return
 PR_TRUE
 ;
 }
+virtual
+PRBool
+SupportsOrdinalsInChildren
+(
+)
+;
 protected
 :
 class
