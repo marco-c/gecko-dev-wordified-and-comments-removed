@@ -168,6 +168,12 @@ nsAString
 aFilter
 )
 ;
+NSArray
+*
+GetFilterList
+(
+)
+;
 protected
 :
 virtual
@@ -192,10 +198,6 @@ const
 nsString
 &
 inTitle
-const
-nsString
-&
-inDefaultName
 PRBool
 inAllowMultiple
 nsCOMArray
@@ -234,12 +236,6 @@ nsILocalFile
 *
 *
 outFile
-)
-;
-NSArray
-*
-GenerateFilterList
-(
 )
 ;
 void
