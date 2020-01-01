@@ -55,7 +55,7 @@ h
 #
 define
 DATABASE_SCHEMA_VERSION
-12
+13
 #
 define
 TOPIC_PLACES_INIT_COMPLETE
@@ -513,6 +513,11 @@ MigrateV11Up
 ;
 nsresult
 CheckAndUpdateGUIDs
+(
+)
+;
+nsresult
+MigrateV13Up
 (
 )
 ;
