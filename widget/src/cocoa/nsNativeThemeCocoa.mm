@@ -6788,6 +6788,12 @@ version
 =
 1
 ;
+tdi
+.
+kind
+=
+kHIThemeTabKindNormal
+;
 PRBool
 isSelected
 =
