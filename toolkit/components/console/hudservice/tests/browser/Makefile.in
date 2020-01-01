@@ -460,6 +460,10 @@ browser_webconsole_netlogging
 .
 js
 \
+browser_webconsole_bug_581231_close_button
+.
+js
+\
 (
 NULL
 )
