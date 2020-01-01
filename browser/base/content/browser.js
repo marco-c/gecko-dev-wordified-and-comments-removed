@@ -13816,6 +13816,9 @@ tipElement
 .
 href
 )
+#
+ifdef
+MOZ_SVG
 |
 |
 (
@@ -13834,6 +13837,11 @@ href
 "
 )
 )
+#
+endif
+/
+/
+MOZ_SVG
 )
 {
 XLinkTitleText
