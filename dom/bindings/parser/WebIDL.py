@@ -7537,17 +7537,10 @@ or
                 
 other
 .
-isDictionary
-(
-)
-or
-other
-.
 isDate
 (
 )
 or
-                
 other
 .
 isNonCallbackInterface
@@ -8629,17 +8622,10 @@ or
                 
 other
 .
-isDictionary
-(
-)
-or
-other
-.
 isDate
 (
 )
 or
-                
 other
 .
 isNonCallbackInterface
@@ -9548,6 +9534,23 @@ isDate
 )
         
 if
+self
+.
+isDictionary
+(
+)
+and
+other
+.
+nullable
+(
+)
+:
+            
+return
+False
+        
+if
 other
 .
 isPrimitive
@@ -9585,35 +9588,10 @@ isDictionary
 :
             
 return
-(
-not
-other
-.
-nullable
-(
-)
-and
-                    
-(
 other
 .
 isNonCallbackInterface
 (
-)
-or
-other
-.
-isSequence
-(
-)
-or
-                     
-other
-.
-isArray
-(
-)
-)
 )
         
 assert
