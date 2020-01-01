@@ -174,7 +174,7 @@ GetShadowLayers
 )
 const
 ;
-Layer
+ContainerLayer
 *
 GetRootLayer
 (

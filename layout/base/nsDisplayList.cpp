@@ -2043,7 +2043,7 @@ BeginTransaction
 }
 nsRefPtr
 <
-Layer
+ContainerLayer
 >
 root
 =
