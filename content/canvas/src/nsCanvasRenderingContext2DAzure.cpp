@@ -4468,6 +4468,13 @@ width
 1
 ;
 }
+else
+{
+mZero
+=
+PR_FALSE
+;
+}
 IntSize
 size
 (
