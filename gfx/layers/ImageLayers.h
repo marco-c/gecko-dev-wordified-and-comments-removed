@@ -872,6 +872,14 @@ PRUint32
 aSize
 )
 ;
+virtual
+PRUint32
+GetDataSize
+(
+)
+=
+0
+;
 protected
 :
 PlanarYCbCrImage

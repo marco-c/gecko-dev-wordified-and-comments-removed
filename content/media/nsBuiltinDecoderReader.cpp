@@ -78,15 +78,6 @@ layers
 :
 PlanarYCbCrImage
 ;
-using
-mozilla
-:
-:
-layers
-:
-:
-PlanarYCbCrImage
-;
 PR_STATIC_ASSERT
 (
 MAX_VIDEO_WIDTH
