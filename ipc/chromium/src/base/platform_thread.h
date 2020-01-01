@@ -64,6 +64,12 @@ defined
 (
 OS_OPENBSD
 )
+|
+|
+defined
+(
+__GLIBC__
+)
 #
 include
 <
