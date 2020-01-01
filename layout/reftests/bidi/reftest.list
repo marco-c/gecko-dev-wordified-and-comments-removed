@@ -1,3 +1,11 @@
+fuzzy
+-
+if
+(
+Android
+6
+8
+)
 =
 =
 bdi
@@ -608,6 +616,14 @@ html
 #
 bug
 712600
+fuzzy
+-
+if
+(
+d2d
+1
+73
+)
 =
 =
 unicode
