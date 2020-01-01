@@ -42,7 +42,7 @@ ctor
 (
 )
 ;
-verifybarriers
+verifyprebarriers
 (
 )
 ;
@@ -51,7 +51,7 @@ f2
 x
 )
 ;
-verifybarriers
+verifyprebarriers
 (
 )
 ;
