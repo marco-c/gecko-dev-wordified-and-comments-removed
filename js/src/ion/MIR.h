@@ -2216,7 +2216,7 @@ length
 )
 <
 (
-int32
+size_t
 )
 (
 high_
@@ -2244,7 +2244,7 @@ length
 )
 <
 (
-int32
+size_t
 )
 (
 high_
