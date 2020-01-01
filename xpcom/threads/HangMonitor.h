@@ -10,6 +10,15 @@ mozilla
 namespace
 HangMonitor
 {
+enum
+ActivityType
+{
+kUIActivity
+kActivityNoUIAVail
+kActivityUIAVail
+kGeneralActivity
+}
+;
 void
 Startup
 (
@@ -23,6 +32,10 @@ Shutdown
 void
 NotifyActivity
 (
+ActivityType
+activityType
+=
+kGeneralActivity
 )
 ;
 void
