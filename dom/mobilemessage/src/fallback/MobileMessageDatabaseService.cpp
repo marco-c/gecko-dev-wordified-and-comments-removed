@@ -55,7 +55,10 @@ MobileMessageDatabaseService
 DeleteMessage
 (
 int32_t
-aMessageId
+*
+aMessageIds
+uint32_t
+aLength
 nsIMobileMessageCallback
 *
 aRequest
