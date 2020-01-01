@@ -465,7 +465,7 @@ MOZ_WIDGET_TOOLKIT
 )
 DIRS
 =
-winstripe
+gnomestripe
 endif
 include
 (
