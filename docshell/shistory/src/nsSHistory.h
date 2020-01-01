@@ -222,6 +222,15 @@ PrintHistory
 #
 endif
 void
+EvictContentViewersInRange
+(
+PRInt32
+aStartIndex
+PRInt32
+aEndIndex
+)
+;
+void
 EvictWindowContentViewers
 (
 PRInt32
