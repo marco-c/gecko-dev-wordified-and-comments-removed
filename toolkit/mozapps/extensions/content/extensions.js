@@ -3668,7 +3668,7 @@ window
 removeEventListener
 (
 "
-command
+select
 "
 noUpdatesDismiss
 true
@@ -5742,7 +5742,7 @@ window
 removeEventListener
 (
 "
-command
+select
 "
 noUpdatesDismiss
 true
@@ -7146,7 +7146,7 @@ window
 addEventListener
 (
 "
-command
+select
 "
 noUpdatesDismiss
 true
