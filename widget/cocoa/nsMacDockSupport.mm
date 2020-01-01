@@ -976,6 +976,8 @@ progress
 .
 phase
 =
+uint8_t
+(
 PR_IntervalToMilliseconds
 (
 PR_IntervalNow
@@ -986,8 +988,7 @@ PR_IntervalNow
 stepsPerSecond
 /
 1000
-%
-32
+)
 ;
 [
 icon

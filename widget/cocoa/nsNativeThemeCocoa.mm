@@ -997,6 +997,8 @@ progress
 .
 phase
 =
+uint8_t
+(
 PR_IntervalToMilliseconds
 (
 PR_IntervalNow
@@ -1005,8 +1007,7 @@ PR_IntervalNow
 )
 /
 milliSecondsPerStep
-%
-32
+)
 ;
 HIThemeDrawTrack
 (
