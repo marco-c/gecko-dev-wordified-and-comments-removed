@@ -139,6 +139,14 @@ test_partially_cached_content
 .
 html
 \
+user_agent
+.
+sjs
+\
+test_user_agent_overrides
+.
+html
+\
 (
 NULL
 )
