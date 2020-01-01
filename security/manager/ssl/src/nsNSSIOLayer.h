@@ -459,6 +459,16 @@ PRUint32
 length
 )
 ;
+void
+SetHandshakeCompleted
+(
+)
+{
+mHandshakeCompleted
+=
+true
+;
+}
 enum
 CertVerificationState
 {
@@ -627,6 +637,9 @@ mNegotiatedNPN
 ;
 bool
 mNPNCompleted
+;
+bool
+mHandshakeCompleted
 ;
 private
 :

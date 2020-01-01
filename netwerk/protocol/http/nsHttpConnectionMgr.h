@@ -377,12 +377,6 @@ mTestedSpdy
 bool
 mSpdyPreferred
 ;
-nsCOMPtr
-<
-nsIX509Cert3
->
-mCert
-;
 }
 ;
 class

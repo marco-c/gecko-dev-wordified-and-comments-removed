@@ -3797,6 +3797,13 @@ nsnull
 0
 )
 ;
+infoObject
+-
+>
+SetHandshakeCompleted
+(
+)
+;
 }
 PORT_Free
 (
