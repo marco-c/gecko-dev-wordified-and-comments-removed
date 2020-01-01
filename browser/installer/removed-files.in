@@ -444,6 +444,11 @@ components
 nsCloseAllWindows
 .
 js
+components
+/
+nsExtensionManager
+.
+js
 #
 ifndef
 XP_MACOSX
