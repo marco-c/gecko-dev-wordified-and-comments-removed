@@ -454,10 +454,6 @@ browser_ApplicationStorage
 .
 js
 \
-browser_Extensions
-.
-js
-\
 browser_Browser
 .
 js
