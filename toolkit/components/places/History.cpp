@@ -8378,7 +8378,7 @@ cpc
 SendSetURITitle
 (
 uri
-nsString
+PromiseFlatString
 (
 aTitle
 )

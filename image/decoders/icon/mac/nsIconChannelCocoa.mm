@@ -1396,10 +1396,7 @@ fileExtension
 NSString
 stringWithUTF8String
 :
-PromiseFlatCString
-(
 fileExt
-)
 .
 get
 (

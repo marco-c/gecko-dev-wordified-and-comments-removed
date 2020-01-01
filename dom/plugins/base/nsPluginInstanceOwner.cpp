@@ -4834,10 +4834,7 @@ nsCRT
 :
 strncmp
 (
-PromiseFlatCString
-(
 charset
-)
 .
 get
 (

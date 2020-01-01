@@ -334,10 +334,7 @@ setInterposePtr
 =
 strdup
 (
-PromiseFlatCString
-(
 setInterpose
-)
 .
 get
 (

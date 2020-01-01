@@ -2000,10 +2000,7 @@ rv
 {
 chmod
 (
-PromiseFlatCString
-(
 path
-)
 .
 get
 (
