@@ -11138,13 +11138,6 @@ RowUnpaginatedHeightProperty
 )
 GK_ATOM
 (
-spaceManagerProperty
-"
-SpaceManagerProperty
-"
-)
-GK_ATOM
-(
 tabWidthProperty
 "
 TabWidthProperty
