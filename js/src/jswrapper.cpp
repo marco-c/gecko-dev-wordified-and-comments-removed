@@ -2074,7 +2074,6 @@ PIERCE
 (
 cx
 wrapper
-mode
 pre
 op
 post
@@ -2154,15 +2153,6 @@ PIERCE
 (
 cx
 wrapper
-(
-flags
-&
-JSRESOLVE_ASSIGNING
-)
-?
-SET
-:
-GET
 cx
 -
 >
@@ -2225,15 +2215,6 @@ PIERCE
 (
 cx
 wrapper
-(
-flags
-&
-JSRESOLVE_ASSIGNING
-)
-?
-SET
-:
-GET
 cx
 -
 >
@@ -2301,7 +2282,6 @@ PIERCE
 (
 cx
 wrapper
-SET
 cx
 -
 >
@@ -2364,7 +2344,6 @@ PIERCE
 (
 cx
 wrapper
-GET
 NOTHING
 Wrapper
 :
@@ -2412,7 +2391,6 @@ PIERCE
 (
 cx
 wrapper
-SET
 cx
 -
 >
@@ -2460,7 +2438,6 @@ PIERCE
 (
 cx
 wrapper
-GET
 NOTHING
 Wrapper
 :
@@ -2508,7 +2485,6 @@ PIERCE
 (
 cx
 wrapper
-GET
 cx
 -
 >
@@ -2558,7 +2534,6 @@ PIERCE
 (
 cx
 wrapper
-GET
 cx
 -
 >
@@ -2632,7 +2607,6 @@ PIERCE
 (
 cx
 wrapper
-GET
 cx
 -
 >
@@ -2745,7 +2719,6 @@ PIERCE
 (
 cx
 wrapper
-SET
 cx
 -
 >
@@ -2836,7 +2809,6 @@ PIERCE
 (
 cx
 wrapper
-GET
 NOTHING
 Wrapper
 :
@@ -3287,7 +3259,6 @@ PIERCE
 (
 cx
 wrapper
-GET
 NOTHING
 Wrapper
 :
