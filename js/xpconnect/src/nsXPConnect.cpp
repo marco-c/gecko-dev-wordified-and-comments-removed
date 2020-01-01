@@ -3215,13 +3215,13 @@ aCOMObj
 ;
 }
 static
-JSDHashOperator
+PLDHashOperator
 MoveableWrapperFinder
 (
-JSDHashTable
+PLDHashTable
 *
 table
-JSDHashEntryHdr
+PLDHashEntryHdr
 *
 hdr
 uint32_t
@@ -3293,7 +3293,7 @@ wn
 )
 ;
 return
-JS_DHASH_NEXT
+PL_DHASH_NEXT
 ;
 }
 NS_IMETHODIMP
