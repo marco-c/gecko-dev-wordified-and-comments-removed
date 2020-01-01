@@ -8,6 +8,12 @@ from
 logging
 import
 *
+from
+logging
+import
+getLoggerClass
+addLevelName
+setLoggerClass
 _default_level
 =
 INFO

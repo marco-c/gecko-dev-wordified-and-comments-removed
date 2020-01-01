@@ -150,14 +150,6 @@ license
 MPL
 '
       
-py_modules
-=
-[
-'
-mozhttpd
-'
-]
-      
 packages
 =
 find_packages
