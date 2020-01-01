@@ -131,6 +131,11 @@ ShouldRenderAgain
 (
 )
 ;
+PRBool
+IsDoublePass
+(
+)
+;
 void
 PaintToContext
 (
