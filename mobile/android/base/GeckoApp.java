@@ -4166,9 +4166,16 @@ getId
 0
 dw
 dh
+dw
+dh
 GeckoAppShell
 .
 SCREENSHOT_THUMBNAIL
+tab
+.
+getThumbnailBuffer
+(
+)
 )
 )
 ;
