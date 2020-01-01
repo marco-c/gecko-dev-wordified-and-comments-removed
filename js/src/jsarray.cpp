@@ -608,6 +608,7 @@ if
 ValueToNumber
 (
 cx
+*
 vp
 &
 d
@@ -837,7 +838,7 @@ ValueToECMAUint32
 cx
 tvr
 .
-addr
+value
 (
 )
 (
@@ -6922,7 +6923,7 @@ idr
 cx
 )
 ;
-CopyableValue
+Value
 idval
 (
 DoubleTag
@@ -8646,6 +8647,7 @@ if
 ValueToNumber
 (
 cx
+*
 invokevp
 &
 cmp
@@ -11167,6 +11169,7 @@ if
 ValueToNumber
 (
 cx
+*
 argv
 &
 d
@@ -11264,6 +11267,7 @@ if
 ValueToNumber
 (
 cx
+*
 argv
 &
 d
@@ -12490,7 +12494,6 @@ if
 ValueToNumber
 (
 cx
-&
 argv
 [
 0
@@ -12565,7 +12568,6 @@ if
 ValueToNumber
 (
 cx
-&
 argv
 [
 1
@@ -12963,7 +12965,6 @@ if
 ValueToNumber
 (
 cx
-&
 vp
 [
 3

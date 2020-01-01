@@ -10982,11 +10982,6 @@ js_TraceAtomState
 trc
 )
 ;
-js_TraceRuntimeNumberState
-(
-trc
-)
-;
 js_MarkTraps
 (
 trc

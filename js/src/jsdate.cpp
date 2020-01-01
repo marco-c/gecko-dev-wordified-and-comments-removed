@@ -2389,7 +2389,6 @@ if
 ValueToNumber
 (
 cx
-&
 argv
 [
 loop
@@ -6642,7 +6641,6 @@ if
 ValueToNumber
 (
 cx
-&
 vp
 [
 2
@@ -6829,7 +6827,6 @@ if
 ValueToNumber
 (
 cx
-&
 argv
 [
 i
@@ -7401,7 +7398,6 @@ if
 ValueToNumber
 (
 cx
-&
 argv
 [
 i
@@ -7859,7 +7855,6 @@ if
 ValueToNumber
 (
 cx
-&
 vp
 [
 2
@@ -10548,7 +10543,6 @@ if
 ValueToNumber
 (
 cx
-&
 argv
 [
 0

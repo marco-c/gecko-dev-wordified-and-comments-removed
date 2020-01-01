@@ -3959,7 +3959,6 @@ if
 ValueToECMAInt32
 (
 cx
-&
 regs
 .
 sp
@@ -3982,7 +3981,6 @@ if
 ValueToECMAInt32
 (
 cx
-&
 regs
 .
 sp
@@ -4764,7 +4762,6 @@ if
 ValueToNumber
 (
 cx
-&
 lref
 &
 l
@@ -4776,7 +4773,6 @@ l
 ValueToNumber
 (
 cx
-&
 rref
 &
 r
@@ -5345,7 +5341,6 @@ if
 ValueToNumber
 (
 cx
-&
 lref
 &
 l
@@ -5357,7 +5352,6 @@ l
 ValueToNumber
 (
 cx
-&
 rref
 &
 r
@@ -5492,7 +5486,6 @@ if
 ValueToECMAInt32
 (
 cx
-&
 regs
 .
 sp
@@ -5515,7 +5508,6 @@ if
 ValueToECMAInt32
 (
 cx
-&
 regs
 .
 sp
@@ -5610,7 +5602,6 @@ if
 ValueToECMAUint32
 (
 cx
-&
 regs
 .
 sp
@@ -5634,7 +5625,6 @@ if
 ValueToECMAInt32
 (
 cx
-&
 regs
 .
 sp
@@ -6152,7 +6142,6 @@ if
 ValueToNumber
 (
 cx
-&
 lref
 &
 l
@@ -6163,7 +6152,6 @@ l
 ValueToNumber
 (
 cx
-&
 rref
 &
 r
@@ -6396,7 +6384,6 @@ if
 ValueToNumber
 (
 cx
-&
 regs
 .
 sp
@@ -6414,7 +6401,6 @@ d1
 ValueToNumber
 (
 cx
-&
 regs
 .
 sp
@@ -6503,7 +6489,6 @@ if
 ValueToNumber
 (
 cx
-&
 regs
 .
 sp
@@ -6520,7 +6505,6 @@ d1
 ValueToNumber
 (
 cx
-&
 regs
 .
 sp
@@ -6780,7 +6764,6 @@ if
 ValueToNumber
 (
 cx
-&
 regs
 .
 sp
@@ -6797,7 +6780,6 @@ d1
 ValueToNumber
 (
 cx
-&
 regs
 .
 sp
@@ -6916,7 +6898,6 @@ if
 ValueToECMAInt32
 (
 cx
-&
 regs
 .
 sp
@@ -7034,7 +7015,6 @@ if
 ValueToNumber
 (
 cx
-&
 regs
 .
 sp

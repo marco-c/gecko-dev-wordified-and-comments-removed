@@ -8985,7 +8985,6 @@ if
 ValueToECMAUint32
 (
 cx
-&
 vp
 [
 2

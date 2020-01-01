@@ -3684,7 +3684,6 @@ if
 ValueToECMAUint32
 (
 cx
-&
 argv
 [
 2
@@ -4131,7 +4130,7 @@ result
 jsval
 localroots
 [
-4
+3
 ]
 =
 {
@@ -4366,16 +4365,6 @@ false
 uint32_t
 lineno
 ;
-localroots
-[
-3
-]
-=
-localroots
-[
-2
-]
-;
 if
 (
 !
@@ -4384,7 +4373,6 @@ ValueToECMAUint32
 cx
 Valueify
 (
-&
 localroots
 [
 2
@@ -4414,7 +4402,7 @@ Valueify
 (
 localroots
 [
-3
+2
 ]
 )
 )
@@ -6257,7 +6245,6 @@ ValueToECMAUint32
 cx
 Valueify
 (
-&
 roots
 [
 4
