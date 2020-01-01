@@ -28,6 +28,9 @@ void
 *
 *
 bp
+void
+*
+stackEnd
 )
 ;
 }
