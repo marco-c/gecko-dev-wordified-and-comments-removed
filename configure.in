@@ -11599,6 +11599,7 @@ AC_MSG_RESULT
 yes
 ]
 )
+[
 NSPR_LDFLAGS
 =
 "
@@ -11611,6 +11612,7 @@ build
 -
 id
 "
+]
 AC_MSG_RESULT
 (
 [
