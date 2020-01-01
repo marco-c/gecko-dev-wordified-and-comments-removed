@@ -183,6 +183,15 @@ seen
 {
 if
 (
+seen
+.
+length
+(
+)
+>
+0
+&
+&
 script
 -
 >
