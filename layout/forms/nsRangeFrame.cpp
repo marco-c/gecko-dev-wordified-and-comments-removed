@@ -1079,8 +1079,6 @@ top
 ;
 nsReflowStatus
 frameStatus
-=
-NS_FRAME_COMPLETE
 ;
 nsHTMLReflowMetrics
 trackDesiredSize
@@ -1183,8 +1181,6 @@ NS_UNCONSTRAINEDSIZE
 ;
 nsReflowStatus
 frameStatus
-=
-NS_FRAME_COMPLETE
 ;
 nsHTMLReflowMetrics
 thumbDesiredSize
@@ -1301,8 +1297,6 @@ NS_UNCONSTRAINEDSIZE
 ;
 nsReflowStatus
 frameStatus
-=
-NS_FRAME_COMPLETE
 ;
 nsHTMLReflowMetrics
 progressDesiredSize
