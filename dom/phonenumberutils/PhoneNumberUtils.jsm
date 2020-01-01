@@ -235,13 +235,6 @@ mcc
 ril
 .
 voiceConnectionInfo
-&
-&
-ril
-.
-voiceConnectionInfo
-.
-network
 )
 {
 mcc
@@ -250,9 +243,7 @@ ril
 .
 voiceConnectionInfo
 .
-network
-.
-previousMcc
+lastKnownMcc
 ;
 }
 if
