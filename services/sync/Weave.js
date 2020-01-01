@@ -435,7 +435,7 @@ principal
 =
 ssm
 .
-getNoAppCodebasePrincipal
+getSimpleCodebasePrincipal
 (
 uri
 )
