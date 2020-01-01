@@ -2419,7 +2419,7 @@ me
 }
 this
 .
-speedX
+_speedX
 =
 tempX
 /
@@ -2427,7 +2427,7 @@ mblen
 ;
 this
 .
-speedY
+_speedY
 =
 tempY
 /
