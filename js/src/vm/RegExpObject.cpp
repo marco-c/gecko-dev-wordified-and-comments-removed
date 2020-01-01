@@ -3047,12 +3047,17 @@ cx
 return
 RegExpRunStatus_Error
 ;
+#
+ifdef
+DEBUG
 const
 size_t
 origLength
 =
 length
 ;
+#
+endif
 size_t
 start
 =

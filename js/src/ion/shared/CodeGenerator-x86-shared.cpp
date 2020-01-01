@@ -3915,7 +3915,13 @@ numeratorCopy
 )
 )
 ;
+mozilla
+:
+:
+DebugOnly
+<
 Register
+>
 output
 =
 ToRegister
