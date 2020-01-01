@@ -6258,12 +6258,12 @@ jobject
 obj
 )
 {
-AndroidGeckoGLLayerClient
+AndroidGeckoLayerClient
 *
 client
 =
 new
-AndroidGeckoGLLayerClient
+AndroidGeckoLayerClient
 (
 )
 ;

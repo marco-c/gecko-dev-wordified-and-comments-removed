@@ -997,12 +997,6 @@ java
 \
 gfx
 /
-GeckoGLLayerClient
-.
-java
-\
-gfx
-/
 GeckoLayerClient
 .
 java
