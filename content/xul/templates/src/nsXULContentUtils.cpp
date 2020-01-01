@@ -982,7 +982,7 @@ if
 dateLiteral
 )
 {
-int64_t
+PRTime
 value
 ;
 rv
@@ -1019,10 +1019,7 @@ FormatPRTime
 nullptr
 kDateFormatShort
 kTimeFormatSeconds
-PRTime
-(
 value
-)
 str
 )
 ;

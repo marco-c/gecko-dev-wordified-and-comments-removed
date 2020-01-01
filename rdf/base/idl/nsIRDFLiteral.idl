@@ -277,8 +277,7 @@ literal
 /
 readonly
 attribute
-long
-long
+PRTime
 Value
 ;
 }

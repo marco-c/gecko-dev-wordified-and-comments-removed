@@ -382,8 +382,7 @@ nsIRDFDate
 GetDateLiteral
 (
 in
-long
-long
+PRTime
 aValue
 )
 ;
