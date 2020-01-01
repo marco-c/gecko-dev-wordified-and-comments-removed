@@ -1478,6 +1478,8 @@ CreateBufferTextureClient
 (
 aFormat
 mTextureFlags
+|
+TEXTURE_FLAGS_DEFAULT
 )
 ;
 }
