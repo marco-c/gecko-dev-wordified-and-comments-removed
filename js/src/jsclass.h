@@ -1849,6 +1849,7 @@ ESClass_Number
 ESClass_String
 ESClass_Boolean
 ESClass_RegExp
+ESClass_ArrayBuffer
 }
 ;
 inline

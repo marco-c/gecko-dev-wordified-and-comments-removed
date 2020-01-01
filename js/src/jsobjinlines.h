@@ -8917,6 +8917,16 @@ isRegExp
 (
 )
 ;
+case
+ESClass_ArrayBuffer
+:
+return
+obj
+.
+isArrayBuffer
+(
+)
+;
 }
 JS_NOT_REACHED
 (
