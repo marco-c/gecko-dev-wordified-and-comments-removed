@@ -66,7 +66,7 @@ class
 ScriptAnalysis
 ;
 }
-struct
+class
 GlobalObject
 ;
 }
