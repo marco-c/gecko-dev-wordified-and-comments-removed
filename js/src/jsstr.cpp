@@ -16153,13 +16153,6 @@ js_str_toString
 )
 JS_FN
 (
-js_toJSON_str
-js_str_toString
-0
-0
-)
-JS_FN
-(
 "
 substring
 "
