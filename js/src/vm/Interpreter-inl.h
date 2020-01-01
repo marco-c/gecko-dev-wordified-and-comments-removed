@@ -983,7 +983,10 @@ if
 obj
 -
 >
-isArguments
+is
+<
+ArgumentsObject
+>
 (
 )
 )
@@ -996,7 +999,10 @@ argsobj
 obj
 -
 >
-asArguments
+as
+<
+ArgumentsObject
+>
 (
 )
 ;

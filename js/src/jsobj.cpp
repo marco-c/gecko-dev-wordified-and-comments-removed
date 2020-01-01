@@ -28203,7 +28203,10 @@ elements
 }
 if
 (
-isArguments
+is
+<
+ArgumentsObject
+>
 (
 )
 )
@@ -28213,7 +28216,10 @@ sizes
 >
 argumentsData
 =
-asArguments
+as
+<
+ArgumentsObject
+>
 (
 )
 .

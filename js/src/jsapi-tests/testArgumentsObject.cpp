@@ -700,7 +700,10 @@ v
 )
 -
 >
-asArguments
+as
+<
+ArgumentsObject
+>
 (
 )
 )
