@@ -997,6 +997,10 @@ MOZ_ASSERT
 false
 )
 ;
+MOZ_NOT_REACHED_MARKER
+(
+)
+;
 }
 }
 return
