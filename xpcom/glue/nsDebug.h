@@ -74,7 +74,7 @@ _expr
 \
 NS_DebugBreak
 (
-NS_DEBUG_ASSERTION
+NS_DEBUG_ABORT
 _msg
 #
 _expr
