@@ -1210,6 +1210,10 @@ app_subframe_bug575561
 .
 html
 \
+browser_contentAreaClick
+.
+js
+\
 (
 NULL
 )
