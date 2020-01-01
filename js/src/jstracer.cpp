@@ -18115,14 +18115,6 @@ trace
 )
 ;
 }
-stackOffset
--
-=
-fi
--
->
-callerHeight
-;
 }
 #
 endif
