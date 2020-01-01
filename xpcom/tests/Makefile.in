@@ -236,6 +236,10 @@ TestAutoPtr
 .
 cpp
 \
+TestAutoRef
+.
+cpp
+\
 TestBloomFilter
 .
 cpp
