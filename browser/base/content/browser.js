@@ -36718,11 +36718,9 @@ _disableUIOnToggle
 {
 if
 (
-this
+PrivateBrowsingUtils
 .
-_privateBrowsingService
-.
-autoStarted
+permanentPrivateBrowsing
 )
 return
 false
@@ -37297,11 +37295,9 @@ documentElement
 ;
 if
 (
-this
+PrivateBrowsingUtils
 .
-_privateBrowsingService
-.
-autoStarted
+permanentPrivateBrowsing
 )
 {
 document
