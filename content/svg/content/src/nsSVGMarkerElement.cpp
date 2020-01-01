@@ -189,7 +189,7 @@ sUnitsMap
 nsGkAtoms
 :
 :
-objectBoundingBox
+strokeWidth
 nsIDOMSVGMarkerElement
 :
 :
