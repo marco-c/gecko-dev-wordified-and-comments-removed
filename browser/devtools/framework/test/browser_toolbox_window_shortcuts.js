@@ -125,14 +125,6 @@ if
 definition
 .
 key
-&
-&
-id
-!
-=
-"
-jsprofiler
-"
 )
 {
 toolIDs
