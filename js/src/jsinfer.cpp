@@ -6679,6 +6679,14 @@ object
 kind
 )
 ;
+if
+(
+nkind
+!
+=
+OBJECT_UNKNOWN
+)
+{
 TypeSet
 *
 elementTypes
@@ -6728,6 +6736,7 @@ script
 false
 )
 ;
+}
 if
 (
 nkind
