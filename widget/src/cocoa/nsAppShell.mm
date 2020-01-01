@@ -3741,6 +3741,7 @@ InGeckoMainEventLoop
 {
 if
 (
+(
 nextEvent
 =
 [
@@ -3758,6 +3759,7 @@ dequeue
 :
 YES
 ]
+)
 )
 {
 [

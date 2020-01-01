@@ -489,16 +489,7 @@ cocoa
 EXPORTS
 +
 =
-\
 nsIMenuBar
-.
-h
-\
-nsIMenu
-.
-h
-\
-nsIMenuItem
 .
 h
 endif

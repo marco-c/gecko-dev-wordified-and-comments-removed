@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsIChangeManager
+nsChangeObserver
 .
 h
 "
@@ -101,7 +101,7 @@ nsMenuX
 public
 nsIMenu
 public
-nsIChangeObserver
+nsChangeObserver
 {
 public
 :
@@ -116,7 +116,7 @@ nsMenuX
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSICHANGEOBSERVER
+NS_DECL_CHANGEOBSERVER
 id
 GetNativeMenuItem
 (
@@ -136,9 +136,9 @@ const
 nsAString
 &
 aAccessKey
-nsIChangeManager
+nsMenuBarX
 *
-aManager
+aMenuBar
 nsIContent
 *
 aNode
@@ -477,9 +477,9 @@ nsISupports
 *
 mParent
 ;
-nsIChangeManager
+nsMenuBarX
 *
-mManager
+mMenuBar
 ;
 nsCOMPtr
 <

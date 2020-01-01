@@ -21,14 +21,7 @@ h
 #
 include
 "
-nsIChangeManager
-.
-h
-"
-#
-include
-"
-nsIWidget
+nsChangeObserver
 .
 h
 "
@@ -60,7 +53,7 @@ nsMenuItemX
 public
 nsIMenuItem
 public
-nsIChangeObserver
+nsChangeObserver
 {
 public
 :
@@ -75,7 +68,7 @@ nsMenuItemX
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSICHANGEOBSERVER
+NS_DECL_CHANGEOBSERVER
 NS_IMETHOD
 Create
 (
@@ -88,9 +81,9 @@ nsString
 aLabel
 EMenuItemType
 aItemType
-nsIChangeManager
+nsMenuBarX
 *
-aManager
+aMenuBar
 nsIContent
 *
 aNode
@@ -239,9 +232,9 @@ nsIMenu
 *
 mMenuParent
 ;
-nsIChangeManager
+nsMenuBarX
 *
-mManager
+mMenuBar
 ;
 nsCOMPtr
 <

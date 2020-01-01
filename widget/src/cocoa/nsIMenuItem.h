@@ -59,10 +59,10 @@ class
 nsIWidget
 ;
 class
-nsIChangeManager
+nsIContent
 ;
 class
-nsIContent
+nsMenuBarX
 ;
 enum
 {
@@ -138,9 +138,9 @@ nsString
 aLabel
 EMenuItemType
 aItemType
-nsIChangeManager
+nsMenuBarX
 *
-aManager
+aMenuBar
 nsIContent
 *
 aNode
