@@ -1313,6 +1313,17 @@ bpp
 ;
 break
 ;
+default
+:
+NS_ERROR
+(
+"
+Bad
+image
+format
+"
+)
+;
 }
 mSize
 =
