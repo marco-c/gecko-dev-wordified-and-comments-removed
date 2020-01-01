@@ -190,6 +190,8 @@ newBrowser
 parentNode
 .
 parentNode
+.
+parentNode
 "
 Panel
 for
