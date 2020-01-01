@@ -756,6 +756,9 @@ controller
 new
 ProfilerController
 (
+this
+.
+target
 )
 ;
 this

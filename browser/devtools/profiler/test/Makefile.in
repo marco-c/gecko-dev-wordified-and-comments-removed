@@ -93,6 +93,10 @@ browser_profiler_profiles
 .
 js
 \
+browser_profiler_remote
+.
+js
+\
 head
 .
 js
