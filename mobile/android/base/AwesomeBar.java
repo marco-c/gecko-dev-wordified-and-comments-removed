@@ -2161,6 +2161,12 @@ toString
 )
 )
 ;
+BrowserDB
+.
+invalidateCachedState
+(
+)
+;
 }
 Override
 public

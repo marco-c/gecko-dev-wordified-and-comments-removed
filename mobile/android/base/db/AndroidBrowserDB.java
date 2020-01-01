@@ -191,6 +191,13 @@ bookmarks
 "
 )
 ;
+public
+void
+invalidateCachedState
+(
+)
+{
+}
 private
 Cursor
 filterAllSites
