@@ -1438,7 +1438,7 @@ this
 .
 video
 .
-HAVE_META_DATA
+HAVE_METADATA
 )
 {
 if
