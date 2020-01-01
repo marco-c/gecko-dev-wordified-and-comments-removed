@@ -1648,6 +1648,12 @@ Ci
 .
 mozIDOMApplicationRegistry2
 #
+elifdef
+MOZ_WIDGET_ANDROID
+Ci
+.
+mozIDOMApplicationRegistry2
+#
 endif
 Ci
 .
@@ -1701,6 +1707,12 @@ mozIDOMApplicationRegistry
 #
 ifdef
 MOZ_B2G
+Ci
+.
+mozIDOMApplicationRegistry2
+#
+elifdef
+MOZ_WIDGET_ANDROID
 Ci
 .
 mozIDOMApplicationRegistry2
