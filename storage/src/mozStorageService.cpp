@@ -176,6 +176,9 @@ sqlite3_enable_shared_cache
 1
 )
 ;
+#
+if
+0
 nsresult
 rv
 ;
@@ -238,6 +241,8 @@ rv
 rv
 )
 ;
+#
+endif
 return
 NS_OK
 ;
