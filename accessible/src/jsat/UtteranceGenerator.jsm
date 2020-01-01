@@ -522,11 +522,6 @@ link
 :
 INCLUDE_DESC
 '
-list
-'
-:
-INCLUDE_DESC
-'
 listitem
 '
 :
