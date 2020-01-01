@@ -444,7 +444,7 @@ IPDLUnitTests
 .
 h
 \
-IPDLUnitTestThreadChild
+IPDLUnitTestProcessChild
 .
 h
 \
@@ -586,7 +586,7 @@ IPDLUnitTestSubprocess
 .
 cpp
 \
-IPDLUnitTestThreadChild
+IPDLUnitTestProcessChild
 .
 cpp
 \

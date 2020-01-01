@@ -467,7 +467,11 @@ GeckoChildProcessHost
 .
 h
 \
-MozillaChildThread
+IOThreadChild
+.
+h
+\
+ProcessChild
 .
 h
 \
@@ -525,11 +529,11 @@ GeckoChildProcessHost
 .
 cpp
 \
-MozillaChildThread
+MessagePump
 .
 cpp
 \
-MessagePump
+ProcessChild
 .
 cpp
 \

@@ -568,7 +568,7 @@ PluginProcessParent
 .
 h
 \
-PluginThreadChild
+PluginProcessChild
 .
 h
 \
@@ -632,6 +632,10 @@ PluginModuleParent
 .
 cpp
 \
+PluginProcessChild
+.
+cpp
+\
 PluginProcessParent
 .
 cpp
@@ -657,10 +661,6 @@ PluginStreamChild
 cpp
 \
 PluginStreamParent
-.
-cpp
-\
-PluginThreadChild
 .
 cpp
 \

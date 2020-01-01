@@ -15,7 +15,7 @@ mozilla
 /
 plugins
 /
-PluginThreadChild
+PluginProcessChild
 .
 h
 "
@@ -26,7 +26,7 @@ mozilla
 plugins
 :
 :
-PluginThreadChild
+PluginProcessChild
 ;
 #
 endif
@@ -534,7 +534,7 @@ GetEnabled
 )
 )
 {
-PluginThreadChild
+PluginProcessChild
 :
 :
 AppendNotesToCrashReport
