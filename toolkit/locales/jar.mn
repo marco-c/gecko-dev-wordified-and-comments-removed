@@ -2126,7 +2126,7 @@ chrome
 /
 mozapps
 /
-xpinstall
+extensions
 /
 xpinstallConfirm
 .
@@ -2149,7 +2149,7 @@ chrome
 /
 mozapps
 /
-xpinstall
+extensions
 /
 xpinstallConfirm
 .

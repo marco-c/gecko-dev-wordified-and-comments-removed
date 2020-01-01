@@ -1509,7 +1509,7 @@ xpinstallConfirm
 .
 css
 (
-xpinstall
+extensions
 /
 xpinstallConfirm
 .
@@ -3236,7 +3236,7 @@ xpinstallConfirm
 .
 css
 (
-xpinstall
+extensions
 /
 xpinstallConfirm
 .
