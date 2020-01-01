@@ -2465,6 +2465,13 @@ GetRenderState
 if
 (
 mDestroyed
+|
+|
+!
+IsValidSharedTexDescriptor
+(
+mFrontBufferDescriptor
+)
 )
 {
 return
