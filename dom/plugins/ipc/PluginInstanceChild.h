@@ -70,7 +70,7 @@ h
 elif
 defined
 (
-OS_MACOSX
+MOZ_WIDGET_COCOA
 )
 #
 include
@@ -1395,7 +1395,7 @@ endif
 if
 defined
 (
-OS_MACOSX
+MOZ_WIDGET_COCOA
 )
 private
 :

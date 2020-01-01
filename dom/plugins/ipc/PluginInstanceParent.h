@@ -48,7 +48,7 @@ h
 elif
 defined
 (
-OS_MACOSX
+MOZ_WIDGET_COCOA
 )
 #
 include
@@ -913,11 +913,8 @@ gotFocus
 )
 ;
 #
-if
-defined
-(
-OS_MACOSX
-)
+ifdef
+MOZ_WIDGET_COCOA
 void
 Invalidate
 (
@@ -1193,7 +1190,7 @@ endif
 if
 defined
 (
-OS_MACOSX
+MOZ_WIDGET_COCOA
 )
 private
 :

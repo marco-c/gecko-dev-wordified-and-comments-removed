@@ -749,7 +749,7 @@ aIdentifier
 ;
 #
 ifdef
-OS_MACOSX
+MOZ_WIDGET_COCOA
 void
 ProcessNativeEvents
 (
