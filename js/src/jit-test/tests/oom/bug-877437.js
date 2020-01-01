@@ -1,3 +1,14 @@
+if
+(
+typeof
+oomAfterAllocations
+=
+=
+'
+function
+'
+)
+{
 x
 =
 [
@@ -39,3 +50,4 @@ oomAfterAllocations
 ;
 }
 )
+}
