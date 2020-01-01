@@ -82,7 +82,7 @@ d
 new
 Date
 (
-foo
+let
 (
 {
 stop
