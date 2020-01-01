@@ -306,6 +306,7 @@ oggz
 OGGZ_READ_CHUNK_SIZE
 )
 <
+=
 0
 )
 {
