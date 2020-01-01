@@ -494,9 +494,6 @@ autofocus
 autofocus
 "
 )
-#
-ifdef
-MOZ_MEDIA
 GK_ATOM
 (
 autoplay
@@ -504,8 +501,6 @@ autoplay
 autoplay
 "
 )
-#
-endif
 GK_ATOM
 (
 autorepeatbutton
@@ -1386,9 +1381,6 @@ control
 control
 "
 )
-#
-ifdef
-MOZ_MEDIA
 GK_ATOM
 (
 controls
@@ -1396,8 +1388,6 @@ controls
 controls
 "
 )
-#
-endif
 GK_ATOM
 (
 coords
@@ -1620,9 +1610,6 @@ defaultvalue
 defaultvalue
 "
 )
-#
-ifdef
-MOZ_MEDIA
 GK_ATOM
 (
 defaultplaybackrate
@@ -1630,8 +1617,6 @@ defaultplaybackrate
 defaultplaybackrate
 "
 )
-#
-endif
 GK_ATOM
 (
 defer
@@ -3439,9 +3424,6 @@ longdesc
 longdesc
 "
 )
-#
-ifdef
-MOZ_MEDIA
 GK_ATOM
 (
 loop
@@ -3449,8 +3431,6 @@ loop
 loop
 "
 )
-#
-endif
 GK_ATOM
 (
 low
@@ -3910,9 +3890,6 @@ multiple
 multiple
 "
 )
-#
-ifdef
-MOZ_MEDIA
 GK_ATOM
 (
 muted
@@ -3920,8 +3897,6 @@ muted
 muted
 "
 )
-#
-endif
 GK_ATOM
 (
 name
@@ -5249,9 +5224,6 @@ plaintext
 plaintext
 "
 )
-#
-ifdef
-MOZ_MEDIA
 GK_ATOM
 (
 playbackrate
@@ -5259,8 +5231,6 @@ playbackrate
 playbackrate
 "
 )
-#
-endif
 GK_ATOM
 (
 pointSize
@@ -5368,9 +5338,6 @@ position
 position
 "
 )
-#
-ifdef
-MOZ_MEDIA
 GK_ATOM
 (
 poster
@@ -5378,8 +5345,6 @@ poster
 poster
 "
 )
-#
-endif
 GK_ATOM
 (
 pre
@@ -5417,9 +5382,6 @@ prefix
 prefix
 "
 )
-#
-ifdef
-MOZ_MEDIA
 GK_ATOM
 (
 preload
@@ -5427,8 +5389,6 @@ preload
 preload
 "
 )
-#
-endif
 GK_ATOM
 (
 preserve
@@ -6293,9 +6253,6 @@ sortStaticsLast
 sortStaticsLast
 "
 )
-#
-ifdef
-MOZ_MEDIA
 GK_ATOM
 (
 source
@@ -6303,8 +6260,6 @@ source
 source
 "
 )
-#
-endif
 GK_ATOM
 (
 space
@@ -7282,9 +7237,6 @@ vertical
 vertical
 "
 )
-#
-ifdef
-MOZ_MEDIA
 GK_ATOM
 (
 audio
@@ -7306,8 +7258,6 @@ videocontrols
 videocontrols
 "
 )
-#
-endif
 GK_ATOM
 (
 viewport
