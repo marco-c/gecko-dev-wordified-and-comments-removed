@@ -513,11 +513,6 @@ SanitizeDownloadedFonts
 )
 ;
 PRBool
-PreserveOTLTablesWhenSanitizing
-(
-)
-;
-PRBool
 UseHarfBuzzForScript
 (
 PRInt32
@@ -824,9 +819,6 @@ mAllowDownloadableFonts
 ;
 PRBool
 mDownloadableFontsSanitize
-;
-PRBool
-mSanitizePreserveOTLTables
 ;
 PRInt32
 mUseHarfBuzzScripts
