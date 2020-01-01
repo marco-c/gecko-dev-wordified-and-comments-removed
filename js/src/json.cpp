@@ -3439,7 +3439,14 @@ length
 obj
 -
 >
-getArrayLength
+as
+<
+ArrayObject
+>
+(
+)
+.
+length
 (
 )
 ;

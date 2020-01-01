@@ -11878,7 +11878,14 @@ JS_ASSERT
 ar
 -
 >
-getArrayLength
+as
+<
+ArrayObject
+>
+(
+)
+.
+length
 (
 )
 =

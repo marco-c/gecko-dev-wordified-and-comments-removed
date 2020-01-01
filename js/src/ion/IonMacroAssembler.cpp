@@ -3547,7 +3547,14 @@ Imm32
 templateObject
 -
 >
-getArrayLength
+as
+<
+ArrayObject
+>
+(
+)
+.
+length
 (
 )
 )
