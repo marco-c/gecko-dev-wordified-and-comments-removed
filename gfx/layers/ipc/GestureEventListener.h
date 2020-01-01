@@ -63,11 +63,6 @@ InputData
 aEvent
 )
 ;
-void
-CancelGesture
-(
-)
-;
 AsyncPanZoomController
 *
 GetAsyncPanZoomController
@@ -164,9 +159,6 @@ mLastTouchInput
 CancelableTask
 *
 mDoubleTapTimeoutTask
-;
-nsIntPoint
-mTouchStartPosition
 ;
 }
 ;

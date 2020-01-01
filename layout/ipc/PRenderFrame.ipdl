@@ -324,11 +324,6 @@ NotifyCompositorTransaction
 )
 ;
 async
-CancelDefaultPanZoom
-(
-)
-;
-async
 __delete__
 (
 )
