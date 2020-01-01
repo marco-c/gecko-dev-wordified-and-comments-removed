@@ -2299,7 +2299,7 @@ Settings
 <
 !
 ENTITY
-contextmenu_top_bookmarks_edit
+contextmenu_top_sites_edit
 "
 Edit
 "
@@ -2307,7 +2307,7 @@ Edit
 <
 !
 ENTITY
-contextmenu_top_bookmarks_pin
+contextmenu_top_sites_pin
 "
 Pin
 Site
@@ -2316,7 +2316,7 @@ Site
 <
 !
 ENTITY
-contextmenu_top_bookmarks_unpin
+contextmenu_top_sites_unpin
 "
 Unpin
 Site
@@ -2983,7 +2983,7 @@ here
 <
 !
 ENTITY
-pin_bookmark_dialog_hint
+pin_site_dialog_hint
 "
 Enter
 a

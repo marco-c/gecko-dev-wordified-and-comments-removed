@@ -1340,7 +1340,7 @@ name
 "
 Widget
 .
-TopBookmarksView
+TopSitesGridView
 "
 parent
 =
@@ -1406,7 +1406,7 @@ name
 "
 Widget
 .
-TopBookmarkItemView
+TopSitesGridItemView
 "
 >
 <
@@ -1516,7 +1516,7 @@ name
 "
 Widget
 .
-BookmarkThumbnailView
+TopSitesThumbnailView
 "
 >
 <
@@ -1560,7 +1560,7 @@ name
 "
 Widget
 .
-TopBookmarkItemPin
+TopSitesGridItemPin
 "
 >
 <
@@ -1619,7 +1619,7 @@ name
 "
 Widget
 .
-TopBookmarkItemTitle
+TopSitesGridItemTitle
 "
 >
 <
@@ -1634,7 +1634,7 @@ textColor
 >
 color
 /
-top_bookmark_item_title
+top_sites_grid_item_title
 <
 /
 item

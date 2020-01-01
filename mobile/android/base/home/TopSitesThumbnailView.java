@@ -80,7 +80,7 @@ ImageView
 ;
 public
 class
-BookmarkThumbnailView
+TopSitesThumbnailView
 extends
 ImageView
 {
@@ -91,7 +91,7 @@ String
 LOGTAG
 =
 "
-GeckoBookmarkThumbnailView
+GeckoTopSitesThumbnailView
 "
 ;
 private
@@ -164,7 +164,7 @@ STROKE
 ;
 }
 public
-BookmarkThumbnailView
+TopSitesThumbnailView
 (
 Context
 context
@@ -183,7 +183,7 @@ false
 ;
 }
 public
-BookmarkThumbnailView
+TopSitesThumbnailView
 (
 Context
 context
@@ -199,12 +199,12 @@ R
 .
 attr
 .
-bookmarkThumbnailViewStyle
+topSitesThumbnailViewStyle
 )
 ;
 }
 public
-BookmarkThumbnailView
+TopSitesThumbnailView
 (
 Context
 context
@@ -357,7 +357,7 @@ R
 .
 drawable
 .
-bookmark_thumbnail_bg
+top_sites_thumbnail_bg
 )
 ;
 drawable

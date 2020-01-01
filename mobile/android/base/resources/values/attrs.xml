@@ -207,7 +207,7 @@ Default
 style
 for
 the
-BookmarkThumbnailView
+TopSitesGridItemView
 -
 -
 >
@@ -216,7 +216,7 @@ attr
 name
 =
 "
-bookmarkThumbnailViewStyle
+topSitesGridItemViewStyle
 "
 format
 =
@@ -233,7 +233,7 @@ Default
 style
 for
 the
-TopBookmarkItemView
+TopSitesGridView
 -
 -
 >
@@ -242,7 +242,7 @@ attr
 name
 =
 "
-topBookmarkItemViewStyle
+topSitesGridViewStyle
 "
 format
 =
@@ -259,7 +259,7 @@ Default
 style
 for
 the
-TopBookmarksView
+TopSitesThumbnailView
 -
 -
 >
@@ -268,7 +268,7 @@ attr
 name
 =
 "
-topBookmarksViewStyle
+topSitesThumbnailViewStyle
 "
 format
 =
@@ -2007,7 +2007,7 @@ styleable
 name
 =
 "
-TopBookmarksView
+TopSitesGridView
 "
 >
 <

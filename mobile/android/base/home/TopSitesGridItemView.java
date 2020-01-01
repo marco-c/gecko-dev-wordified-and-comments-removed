@@ -94,9 +94,9 @@ TextView
 ;
 public
 class
-TopBookmarkItemView
+TopSitesGridItemView
 extends
-RelativeLayout
+LinearLayout
 {
 private
 static
@@ -105,7 +105,7 @@ String
 LOGTAG
 =
 "
-GeckoTopBookmarkItemView
+GeckoTopSitesGridItemView
 "
 ;
 private
@@ -157,7 +157,7 @@ mIsEmpty
 true
 ;
 public
-TopBookmarkItemView
+TopSitesGridItemView
 (
 Context
 context
@@ -171,7 +171,7 @@ null
 ;
 }
 public
-TopBookmarkItemView
+TopSitesGridItemView
 (
 Context
 context
@@ -187,12 +187,12 @@ R
 .
 attr
 .
-topBookmarkItemViewStyle
+topSitesGridItemViewStyle
 )
 ;
 }
 public
-TopBookmarkItemView
+TopSitesGridItemView
 (
 Context
 context
@@ -222,7 +222,7 @@ R
 .
 layout
 .
-top_bookmark_item_view
+top_sites_grid_item_view
 this
 )
 ;
