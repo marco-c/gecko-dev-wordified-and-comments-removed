@@ -246,6 +246,16 @@ aDestTopLeft
 )
 ;
 }
+virtual
+gfxASurface
+:
+:
+MemoryLocation
+GetMemoryLocation
+(
+)
+const
+;
 private
 :
 PRPackedBool
