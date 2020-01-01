@@ -2463,7 +2463,7 @@ NS_OK
 NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
-long
+PRInt32
 nsToolkit
 :
 :
@@ -2474,7 +2474,7 @@ OSXVersion
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
 ;
 static
-long
+PRInt32
 gOSXVersion
 =
 0x0
@@ -2495,6 +2495,10 @@ err
 Gestalt
 (
 gestaltSystemVersion
+(
+SInt32
+*
+)
 &
 gOSXVersion
 )
@@ -2944,6 +2948,17 @@ posed
 return
 NS_ERROR_FAILURE
 ;
+#
+ifdef
+__LP64__
+method_exchangeImplementations
+(
+original
+posed
+)
+;
+#
+else
 IMP
 aMethodImp
 =
@@ -2969,6 +2984,8 @@ method_imp
 =
 aMethodImp
 ;
+#
+endif
 return
 NS_OK
 ;

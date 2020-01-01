@@ -1581,6 +1581,9 @@ return
 ret
 ;
 }
+#
+ifndef
+__LP64__
 static
 char
 *
@@ -1814,6 +1817,8 @@ mRefNum
 ;
 }
 ;
+#
+endif
 nsresult
 nsPluginFile
 :
@@ -1841,6 +1846,9 @@ info
 )
 )
 ;
+#
+ifndef
+__LP64__
 nsAutoCloseResourceObject
 resourceObject
 (
@@ -1856,6 +1864,8 @@ ResourceOpened
 (
 )
 ;
+#
+endif
 nsCAutoString
 path
 ;
@@ -2002,6 +2012,9 @@ name
 )
 ;
 }
+#
+ifndef
+__LP64__
 if
 (
 !
@@ -2024,6 +2037,8 @@ GetPluginString
 )
 ;
 }
+#
+endif
 if
 (
 bundle
@@ -2080,6 +2095,9 @@ description
 )
 ;
 }
+#
+ifndef
+__LP64__
 if
 (
 !
@@ -2102,6 +2120,8 @@ GetPluginString
 )
 ;
 }
+#
+endif
 if
 (
 bundle
@@ -2336,6 +2356,9 @@ infoStrings
 ;
 }
 }
+#
+ifndef
+__LP64__
 if
 (
 !
@@ -2459,6 +2482,8 @@ infoStrings
 ;
 }
 }
+#
+endif
 int
 variantCount
 =

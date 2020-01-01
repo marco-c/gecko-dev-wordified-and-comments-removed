@@ -76,7 +76,7 @@ nsToolkit
 NS_DECL_ISUPPORTS
 NS_DECL_NSITOOLKIT
 static
-long
+PRInt32
 OSXVersion
 (
 )
