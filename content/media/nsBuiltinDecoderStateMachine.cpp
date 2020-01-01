@@ -5192,11 +5192,14 @@ value
 missingFrames
 =
 NS_MIN
+(
+static_cast
 <
-int64_t
+PRInt64
 >
 (
-UINT32_MAX
+PR_UINT32_MAX
+)
 missingFrames
 .
 value
