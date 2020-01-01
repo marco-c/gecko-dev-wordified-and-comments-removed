@@ -644,7 +644,9 @@ _HARNESS_FILES
 (
 INSTALL
 )
-^
+(
+_HARNESS_FILES
+)
 (
 _DEST_DIR
 )
