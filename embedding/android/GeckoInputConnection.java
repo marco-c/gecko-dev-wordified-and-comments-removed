@@ -482,7 +482,8 @@ false
 ;
 mComposingText
 =
-null
+"
+"
 ;
 GeckoAppShell
 .
@@ -2118,7 +2119,8 @@ false
 ;
 mComposingText
 =
-null
+"
+"
 ;
 mUpdateRequest
 =
@@ -2299,6 +2301,9 @@ mComposing
 ;
 String
 mComposingText
+=
+"
+"
 ;
 int
 mCompositionStart
