@@ -5739,6 +5739,9 @@ GetContent
 )
 )
 ;
+#
+ifdef
+OJI
 if
 (
 mContent
@@ -5789,6 +5792,8 @@ InitJavaProperties
 ;
 }
 }
+#
+endif
 return
 NS_OK
 ;
