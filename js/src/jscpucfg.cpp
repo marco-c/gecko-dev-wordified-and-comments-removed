@@ -35,9 +35,6 @@ char
 argv
 )
 {
-int
-dummy1
-;
 printf
 (
 "
