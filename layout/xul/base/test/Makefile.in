@@ -157,6 +157,10 @@ window_resizer_element
 .
 xul
 \
+test_windowminmaxsize
+.
+xul
+\
 (
 NULL
 )
