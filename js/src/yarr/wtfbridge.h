@@ -335,10 +335,6 @@ OwnPtr
 (
 )
 {
-if
-(
-ptr
-)
 js_delete
 (
 ptr

@@ -2106,10 +2106,6 @@ release
 ;
 #
 endif
-if
-(
-bytecode
-)
 js_delete
 <
 BytecodePattern

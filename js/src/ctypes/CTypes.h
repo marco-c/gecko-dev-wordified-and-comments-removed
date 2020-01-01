@@ -1306,10 +1306,6 @@ ffi_closure_free
 closure
 )
 ;
-if
-(
-errResult
-)
 js_free
 (
 errResult

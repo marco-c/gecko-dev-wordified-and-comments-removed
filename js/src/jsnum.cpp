@@ -2839,10 +2839,6 @@ ToCStringBuf
 (
 )
 {
-if
-(
-dbuf
-)
 js_free
 (
 dbuf

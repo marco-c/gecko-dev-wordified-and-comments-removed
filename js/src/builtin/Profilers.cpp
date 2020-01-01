@@ -833,10 +833,6 @@ RequiredStringArg
 (
 )
 {
-if
-(
-mBytes
-)
 js_free
 (
 mBytes

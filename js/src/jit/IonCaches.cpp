@@ -8449,10 +8449,6 @@ destroy
 (
 )
 ;
-if
-(
-stubbedShapes_
-)
 js_delete
 (
 stubbedShapes_

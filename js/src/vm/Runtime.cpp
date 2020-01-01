@@ -1633,10 +1633,6 @@ removeFromThreadList
 #
 ifdef
 JS_WORKER_THREADS
-if
-(
-workerThreadState
-)
 js_delete
 (
 workerThreadState
@@ -1871,10 +1867,6 @@ js_delete
 execAlloc_
 )
 ;
-if
-(
-ionPcScriptCache
-)
 js_delete
 (
 ionPcScriptCache
