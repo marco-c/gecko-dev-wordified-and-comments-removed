@@ -1392,7 +1392,7 @@ BAILOUT_TABLE_SIZE
 return
 false
 ;
-uintN
+unsigned
 bailoutId
 =
 bailouts_

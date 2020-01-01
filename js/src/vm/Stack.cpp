@@ -4298,7 +4298,7 @@ BailoutFrameGuard
 bfg
 )
 {
-uintN
+unsigned
 formalArgs
 =
 fun
@@ -4307,7 +4307,7 @@ nargs
 +
 2
 ;
-uintN
+unsigned
 nvars
 =
 formalArgs
@@ -4483,7 +4483,7 @@ maybefp
 (
 )
 ;
-uintN
+unsigned
 nvars
 =
 2

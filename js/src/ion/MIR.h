@@ -8441,7 +8441,7 @@ PropertyName
 *
 name_
 ;
-uintN
+unsigned
 attrs_
 ;
 private
@@ -8451,7 +8451,7 @@ MDefVar
 PropertyName
 *
 name
-uintN
+unsigned
 attrs
 MDefinition
 *
@@ -8487,7 +8487,7 @@ New
 PropertyName
 *
 name
-uintN
+unsigned
 attrs
 MDefinition
 *
@@ -8515,7 +8515,7 @@ return
 name_
 ;
 }
-uintN
+unsigned
 attrs
 (
 )

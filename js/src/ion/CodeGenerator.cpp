@@ -4310,7 +4310,7 @@ JSContext
 *
 PropertyName
 *
-uintN
+unsigned
 JSObject
 *
 )

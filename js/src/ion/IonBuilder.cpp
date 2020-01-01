@@ -207,9 +207,8 @@ script
 -
 >
 filename
-js_PCToLineNumber
+PCToLineNumber
 (
-cx
 script
 pc
 )
@@ -18461,7 +18460,7 @@ getName
 index
 )
 ;
-uintN
+unsigned
 attrs
 =
 JSPROP_ENUMERATE
