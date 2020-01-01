@@ -3576,11 +3576,11 @@ update
 .
 apply
 -
-wait
+idle
 -
 timeout
 "
-1800000
+600000
 )
 ;
 pref
