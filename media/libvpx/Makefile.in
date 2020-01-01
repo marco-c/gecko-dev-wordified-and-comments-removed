@@ -433,6 +433,16 @@ vpx
 FORCE_STATIC_LIB
 =
 1
+ifeq
+(
+WINNT
+(
+OS_TARGET
+)
+)
+VISIBILITY_FLAGS
+=
+endif
 LOCAL_INCLUDES
 +
 =
