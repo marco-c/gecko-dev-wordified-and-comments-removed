@@ -633,14 +633,8 @@ OS_RELEASE
 OS_LIBS
 +
 =
-/
-usr
-/
-lib
-/
-libdl
-.
-so
+-
+ldl
 endif
 endif
 endif
