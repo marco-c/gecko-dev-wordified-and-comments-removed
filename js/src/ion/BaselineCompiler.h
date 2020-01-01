@@ -766,6 +766,11 @@ emitUseCountIncrement
 )
 ;
 bool
+emitArgumentTypeChecks
+(
+)
+;
+bool
 emitDebugPrologue
 (
 )

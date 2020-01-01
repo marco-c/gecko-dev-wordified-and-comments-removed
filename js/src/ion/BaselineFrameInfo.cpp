@@ -48,6 +48,8 @@ init
 size_t
 nstack
 =
+Max
+(
 script
 -
 >
@@ -57,6 +59,8 @@ script
 -
 >
 nfixed
+1
+)
 ;
 if
 (
