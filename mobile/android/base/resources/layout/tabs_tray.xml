@@ -188,6 +188,16 @@ tabs_tray_list_divider
 RelativeLayout
 android
 :
+id
+=
+"
++
+id
+/
+toolbar
+"
+android
+:
 layout_width
 =
 "
