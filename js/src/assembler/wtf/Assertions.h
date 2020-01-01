@@ -73,7 +73,7 @@ define
 CRASH
 (
 )
-MOZ_Crash
+MOZ_CRASH
 (
 )
 #
