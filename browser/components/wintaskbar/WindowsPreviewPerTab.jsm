@@ -2588,6 +2588,15 @@ case
 tabviewhidden
 "
 :
+if
+(
+!
+AeroPeek
+.
+_prefenabled
+)
+return
+;
 this
 .
 enabled
