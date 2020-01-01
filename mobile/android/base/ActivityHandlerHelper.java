@@ -1041,7 +1041,7 @@ items
 ;
 GeckoAppShell
 .
-getHandler
+getMainHandler
 (
 )
 .
