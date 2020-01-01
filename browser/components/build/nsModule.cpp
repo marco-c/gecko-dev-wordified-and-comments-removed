@@ -545,6 +545,16 @@ kNS_BROWSER_ABOUT_REDIRECTOR_CID
 }
 #
 endif
+{
+NS_ABOUT_MODULE_CONTRACTID_PREFIX
+"
+app
+-
+manager
+"
+&
+kNS_BROWSER_ABOUT_REDIRECTOR_CID
+}
 #
 if
 defined
