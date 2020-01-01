@@ -10780,6 +10780,11 @@ if
 aDragSession
 .
 sourceNode
+&
+&
+aDragSession
+.
+sourceNode
 .
 parentNode
 =
