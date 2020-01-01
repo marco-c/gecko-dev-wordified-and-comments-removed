@@ -15,13 +15,6 @@ h
 #
 include
 "
-jsstdint
-.
-h
-"
-#
-include
-"
 jsutil
 .
 h
@@ -533,7 +526,7 @@ code
 nbytes
 )
 ;
-JS_CLEAR_GSN_CACHE
+JS_PURGE_GSN_CACHE
 (
 cx
 )
