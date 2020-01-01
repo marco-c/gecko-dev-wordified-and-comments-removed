@@ -123,6 +123,15 @@ Shutdown
 )
 ;
 NS_DECL_NSIACCESSIBLEIMAGE
+virtual
+nsresult
+GetAttributesInternal
+(
+nsIPersistentProperties
+*
+aAttributes
+)
+;
 protected
 :
 virtual
