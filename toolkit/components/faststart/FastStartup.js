@@ -246,6 +246,16 @@ RESTART_ENV_VAR
 "
 )
 ;
+setenv
+(
+"
+NO_SPLASH
+"
+"
+1
+"
+)
+;
 let
 appstartup
 =
