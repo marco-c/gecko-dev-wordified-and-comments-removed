@@ -84,17 +84,12 @@ mIntent
 String
 mUri
 ;
-int
-mRestoreMode
-;
 GeckoThread
 (
 Intent
 intent
 String
 uri
-int
-restoreMode
 )
 {
 mIntent
@@ -104,10 +99,6 @@ intent
 mUri
 =
 uri
-;
-mRestoreMode
-=
-restoreMode
 ;
 setName
 (
@@ -412,7 +403,6 @@ getPackageResourcePath
 args
 mUri
 type
-mRestoreMode
 )
 ;
 }
