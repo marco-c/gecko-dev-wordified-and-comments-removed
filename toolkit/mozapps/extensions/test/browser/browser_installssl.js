@@ -88,17 +88,6 @@ SUCCESS
 =
 0
 ;
-const
-PREF_LOGGING_ENABLED
-=
-"
-extensions
-.
-logging
-.
-enabled
-"
-;
 var
 gTests
 =
