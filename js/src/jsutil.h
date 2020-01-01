@@ -445,15 +445,6 @@ JS_BASIC_STATS
 endif
 #
 ifdef
-DEBUG_brendan
-#
-define
-JS_SCOPE_DEPTH_METER
-1
-#
-endif
-#
-ifdef
 JS_BASIC_STATS
 #
 include
