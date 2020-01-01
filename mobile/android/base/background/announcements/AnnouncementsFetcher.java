@@ -388,7 +388,7 @@ now
 <
 GlobalConstants
 .
-BUILD_TIMESTAMP
+BUILD_TIMESTAMP_MSEC
 )
 {
 Logger
