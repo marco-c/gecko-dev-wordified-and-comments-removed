@@ -280,8 +280,6 @@ gVariablesView
 _currHierarchy
 .
 size
-(
-)
 13
 "
 There
@@ -336,8 +334,6 @@ gVariablesView
 _store
 .
 size
-(
-)
 1
 "
 There
@@ -359,8 +355,6 @@ gScope
 _store
 .
 size
-(
-)
 1
 "
 There
@@ -382,8 +376,6 @@ gVariable
 _store
 .
 size
-(
-)
 9
 "
 There
@@ -2028,8 +2020,6 @@ someProp5
 _store
 .
 size
-(
-)
 0
 "
 No
@@ -2056,8 +2046,6 @@ someProp5
 _store
 .
 size
-(
-)
 9
 "
 Some
@@ -3185,8 +3173,6 @@ someProp6
 _store
 .
 size
-(
-)
 0
 "
 No
@@ -3213,8 +3199,6 @@ someProp6
 _store
 .
 size
-(
-)
 10
 "
 Some
@@ -4841,8 +4825,6 @@ arrayItem5
 _store
 .
 size
-(
-)
 0
 "
 No
@@ -4869,8 +4851,6 @@ arrayItem5
 _store
 .
 size
-(
-)
 5
 "
 Some
@@ -4891,8 +4871,6 @@ arrayItem6
 _store
 .
 size
-(
-)
 0
 "
 No
@@ -4919,8 +4897,6 @@ arrayItem6
 _store
 .
 size
-(
-)
 3
 "
 Some
@@ -5199,8 +5175,6 @@ objectItem5
 _store
 .
 size
-(
-)
 0
 "
 No
@@ -5227,8 +5201,6 @@ objectItem5
 _store
 .
 size
-(
-)
 5
 "
 Some
@@ -5249,8 +5221,6 @@ objectItem6
 _store
 .
 size
-(
-)
 0
 "
 No
@@ -5277,8 +5247,6 @@ objectItem6
 _store
 .
 size
-(
-)
 3
 "
 Some
