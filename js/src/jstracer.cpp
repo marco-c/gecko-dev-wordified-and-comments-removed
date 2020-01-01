@@ -30346,6 +30346,17 @@ isconstq
 return
 NULL
 ;
+if
+(
+!
+isNumber
+(
+v
+)
+)
+return
+NULL
+;
 jsbytecode
 *
 pc
