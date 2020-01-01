@@ -255,6 +255,9 @@ mIsDocument
 bool
 mOpened
 ;
+bool
+mIsSrcdocChannel
+;
 }
 ;
 #
