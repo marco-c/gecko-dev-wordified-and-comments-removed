@@ -1229,9 +1229,6 @@ DO_OP
 ;
 }
 }
-jsint
-len
-;
 if
 (
 *
@@ -1320,7 +1317,6 @@ BEGIN_CASE
 JSOP_GOTO
 )
 {
-jsint
 len
 =
 GET_JUMP_OFFSET
@@ -1367,7 +1363,6 @@ cond
 false
 )
 {
-jsint
 len
 =
 GET_JUMP_OFFSET
@@ -1415,7 +1410,6 @@ cond
 false
 )
 {
-jsint
 len
 =
 GET_JUMP_OFFSET
@@ -1463,7 +1457,6 @@ cond
 true
 )
 {
-jsint
 len
 =
 GET_JUMP_OFFSET
@@ -1517,7 +1510,6 @@ cond
 false
 )
 {
-jsint
 len
 =
 GET_JUMP_OFFSET
@@ -1559,7 +1551,6 @@ BEGIN_CASE
 JSOP_GOTOX
 )
 {
-jsint
 len
 =
 GET_JUMPX_OFFSET
@@ -1607,7 +1598,6 @@ cond
 false
 )
 {
-jsint
 len
 =
 GET_JUMPX_OFFSET
@@ -1655,7 +1645,6 @@ cond
 false
 )
 {
-jsint
 len
 =
 GET_JUMPX_OFFSET
@@ -1703,7 +1692,6 @@ cond
 true
 )
 {
-jsint
 len
 =
 GET_JUMPX_OFFSET
@@ -1757,7 +1745,6 @@ cond
 JS_FALSE
 )
 {
-jsint
 len
 =
 GET_JUMPX_OFFSET
@@ -1949,7 +1936,6 @@ regs
 pc
 ;
 \
-jsint
 len
 =
 GET_JUMP_OFFSET
@@ -1968,7 +1954,6 @@ len
 \
 }
 \
-jsint
 len
 =
 1
@@ -5016,7 +5001,6 @@ sp
 -
 -
 ;
-jsint
 len
 =
 GET_JUMP_OFFSET
@@ -5063,7 +5047,6 @@ sp
 -
 -
 ;
-jsint
 len
 =
 GET_JUMPX_OFFSET
@@ -7724,7 +7707,6 @@ PUSH_INT32
 tmp
 )
 ;
-jsint
 len
 =
 JSOP_INCNAME_LENGTH
@@ -8130,7 +8112,6 @@ cs
 nuses
 ;
 }
-jsint
 len
 =
 cs
@@ -8474,7 +8455,6 @@ goto
 error
 ;
 }
-jsint
 len
 =
 JSOP_INCARG_LENGTH
@@ -8802,7 +8782,6 @@ goto
 error
 ;
 }
-jsint
 len
 =
 JSOP_INCGVAR_LENGTH
@@ -13564,7 +13543,6 @@ PUSH_UNDEFINED
 (
 )
 ;
-jsint
 len
 =
 JSOP_NAME_LENGTH
@@ -14094,9 +14072,6 @@ END_CASE
 JSOP_TRUE
 )
 {
-jsint
-len
-;
 BEGIN_CASE
 (
 JSOP_TABLESWITCH
@@ -14266,9 +14241,6 @@ off
 END_VARLEN_CASE
 }
 {
-jsint
-len
-;
 BEGIN_CASE
 (
 JSOP_TABLESWITCHX
@@ -14438,9 +14410,6 @@ off
 END_VARLEN_CASE
 }
 {
-jsint
-len
-;
 BEGIN_CASE
 (
 JSOP_LOOKUPSWITCHX
@@ -18560,7 +18529,6 @@ sp
 rval
 ;
 }
-jsint
 len
 =
 js_CodeSpec
@@ -18593,7 +18561,6 @@ BEGIN_CASE
 JSOP_NEWARRAY
 )
 {
-jsint
 len
 =
 GET_UINT16
@@ -20155,7 +20122,6 @@ PUSH_INT32
 i
 )
 ;
-jsint
 len
 =
 GET_JUMP_OFFSET
@@ -20193,7 +20159,6 @@ main
 +
 JSOP_GOSUBX_LENGTH
 ;
-jsint
 len
 =
 GET_JUMPX_OFFSET
@@ -20274,7 +20239,6 @@ isInt32
 )
 )
 ;
-jsint
 len
 =
 rval
@@ -20508,7 +20472,6 @@ isPrimitive
 )
 )
 {
-jsint
 len
 =
 GET_JUMP_OFFSET
@@ -21744,7 +21707,6 @@ PUSH_HOLE
 (
 )
 ;
-jsint
 len
 =
 GET_JUMP_OFFSET
@@ -21856,7 +21818,6 @@ sp
 -
 -
 ;
-jsint
 len
 =
 GET_JUMP_OFFSET
