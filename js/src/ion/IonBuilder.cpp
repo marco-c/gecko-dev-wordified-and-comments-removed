@@ -2804,7 +2804,7 @@ JSOP_DEFCONST
 return
 jsop_defvar
 (
-GET_SLOTNO
+GET_UINT32_INDEX
 (
 pc
 )
