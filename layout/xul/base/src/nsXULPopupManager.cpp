@@ -1053,6 +1053,11 @@ PRBool
 aShouldFlush
 )
 {
+if
+(
+aShouldFlush
+)
+{
 nsIDocument
 *
 document
@@ -1086,11 +1091,6 @@ if
 (
 presShell
 )
-{
-if
-(
-aShouldFlush
-)
 presShell
 -
 >
@@ -1099,6 +1099,8 @@ FlushPendingNotifications
 Flush_Frames
 )
 ;
+}
+}
 nsIFrame
 *
 frame
@@ -1110,7 +1112,7 @@ GetPrimaryFrame
 (
 )
 ;
-if
+return
 (
 frame
 &
@@ -1125,12 +1127,9 @@ GetType
 =
 aFrameType
 )
-return
+?
 frame
-;
-}
-}
-return
+:
 nsnull
 ;
 }
