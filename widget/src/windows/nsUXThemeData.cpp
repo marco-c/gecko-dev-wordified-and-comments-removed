@@ -438,6 +438,10 @@ version
 =
 VISTA_VERSION
 ;
+Invalidate
+(
+)
+;
 }
 void
 nsUXThemeData
