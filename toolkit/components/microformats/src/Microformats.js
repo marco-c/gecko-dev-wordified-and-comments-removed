@@ -7849,6 +7849,9 @@ name
 "
 :
 {
+plural
+:
+true
 }
 "
 additional
@@ -7868,6 +7871,9 @@ name
 "
 :
 {
+plural
+:
+true
 }
 "
 honorific
@@ -7929,9 +7935,15 @@ org
 ;
 var
 given_name
+=
+[
+]
 ;
 var
 family_name
+=
+[
+]
 ;
 if
 (
@@ -8018,6 +8030,9 @@ length
 )
 {
 given_name
+[
+0
+]
 =
 fns
 [
@@ -8025,6 +8040,9 @@ fns
 ]
 ;
 family_name
+[
+0
+]
 =
 fns
 [
@@ -8060,6 +8078,9 @@ length
 )
 {
 given_name
+[
+0
+]
 =
 fns
 [
@@ -8067,6 +8088,9 @@ fns
 ]
 ;
 family_name
+[
+0
+]
 =
 fns
 [
@@ -8116,6 +8140,9 @@ length
 )
 {
 given_name
+[
+0
+]
 =
 fns
 [
@@ -8123,6 +8150,9 @@ fns
 ]
 ;
 family_name
+[
+0
+]
 =
 fns
 [
@@ -8133,6 +8163,9 @@ fns
 else
 {
 given_name
+[
+0
+]
 =
 fns
 [
@@ -8140,6 +8173,9 @@ fns
 ]
 ;
 family_name
+[
+0
+]
 =
 fns
 [
