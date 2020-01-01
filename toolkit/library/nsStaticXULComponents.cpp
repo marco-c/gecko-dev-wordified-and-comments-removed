@@ -610,11 +610,6 @@ nsImageLib2Module
 \
 MODULE
 (
-nsMediaSnifferModule
-)
-\
-MODULE
-(
 nsGfxModule
 )
 \
