@@ -617,6 +617,13 @@ form
 if
 (
 !
+acForm
+)
+return
+;
+if
+(
+!
 acInputField
 .
 value
