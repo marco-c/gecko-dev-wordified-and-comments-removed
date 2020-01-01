@@ -6075,6 +6075,8 @@ else
 {
 disp
 =
+NULL
+;
 displaySave
 =
 NULL
