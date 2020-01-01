@@ -132,6 +132,10 @@ browser_toolbar_tooltip
 .
 js
 \
+browser_toolbar_webconsole_errors_count
+.
+js
+\
 head
 .
 js
@@ -147,6 +151,10 @@ browser_templater_basic
 html
 \
 browser_toolbar_basic
+.
+html
+\
+browser_toolbar_webconsole_errors_count
 .
 html
 \
