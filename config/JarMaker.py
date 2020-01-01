@@ -2455,9 +2455,21 @@ jarfilepath
       
 except
 OSError
+error
 :
         
-pass
+if
+error
+.
+errno
+!
+=
+errno
+.
+EEXIST
+:
+          
+raise
       
 jf
 =
@@ -3318,12 +3330,33 @@ outdir
 )
 :
         
+try
+:
+          
 os
 .
 makedirs
 (
 outdir
 )
+        
+except
+OSError
+error
+:
+          
+if
+error
+.
+errno
+!
+=
+errno
+.
+EEXIST
+:
+            
+raise
       
 return
 out
