@@ -539,9 +539,9 @@ MOZILLA_HAS_NEON_FLAG
 =
 0
 ;
+}
 #
 endif
-}
 #
 endif
 }
