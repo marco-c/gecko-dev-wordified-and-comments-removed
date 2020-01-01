@@ -112,9 +112,7 @@ the
 form
 :
 #
-Got
-Build
-ID
+buildid
 :
 2007030311
 #
@@ -165,9 +163,8 @@ my
 searchString
 =
 "
-Got
-build
-ID
+buildid
+:
 "
 ;
 open
