@@ -1293,6 +1293,9 @@ sActiveSampler
 NULL
 ;
 }
+#
+ifdef
+ANDROID
 static
 struct
 sigaction
@@ -1396,3 +1399,5 @@ signal
 ;
 }
 }
+#
+endif
