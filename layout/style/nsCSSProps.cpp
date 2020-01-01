@@ -6277,9 +6277,6 @@ CSS_PROP_DOMPROP_PREFIXED
 ;
 #
 define
-CSS_PROP_INCLUDE_NOT_CSS
-#
-define
 ENUM_DATA_FOR_PROPERTY
 (
 name_
@@ -6760,9 +6757,6 @@ CSS_PROP_COLUMN
 ePropertyCount_for_Column
 }
 ;
-#
-undef
-CSS_PROP_INCLUDE_NOT_CSS
 #
 undef
 ENUM_DATA_FOR_PROPERTY
