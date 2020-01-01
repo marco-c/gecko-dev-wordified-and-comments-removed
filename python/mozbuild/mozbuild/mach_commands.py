@@ -1480,6 +1480,20 @@ elif
 state_changed
 :
             
+have_handler
+=
+hasattr
+(
+self
+'
+handler
+'
+)
+            
+if
+have_handler
+:
+                
 self
 .
 handler
@@ -1500,6 +1514,10 @@ refresh
 finally
 :
                 
+if
+have_handler
+:
+                    
 self
 .
 handler
