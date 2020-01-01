@@ -696,6 +696,12 @@ PrefTuple
 pref
 )
 ;
+ClearUserPreference
+(
+nsCString
+prefName
+)
+;
 NotifyAlertsObserver
 (
 nsCString
