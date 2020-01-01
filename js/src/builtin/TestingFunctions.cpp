@@ -4861,13 +4861,6 @@ JSObject
 pmetadata
 )
 {
-Value
-thisv
-=
-UndefinedValue
-(
-)
-;
 RootedValue
 fun
 (
@@ -4906,7 +4899,9 @@ if
 Invoke
 (
 cx
-thisv
+UndefinedValue
+(
+)
 fun
 0
 NULL
