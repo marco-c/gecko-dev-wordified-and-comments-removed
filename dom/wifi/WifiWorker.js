@@ -4909,6 +4909,14 @@ function
 value
 )
 {
+if
+(
+value
+!
+=
+=
+null
+)
 config
 [
 fieldName
