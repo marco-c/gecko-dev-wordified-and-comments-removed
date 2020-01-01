@@ -3197,6 +3197,8 @@ if
 mLayoutManager
 )
 {
+size
+=
 mLayoutManager
 -
 >
@@ -3204,7 +3206,6 @@ GetPrefSize
 (
 this
 aBoxLayoutState
-size
 )
 ;
 nsIBox
@@ -3305,6 +3306,8 @@ if
 (
 mLayoutManager
 )
+mAscent
+=
 mLayoutManager
 -
 >
@@ -3312,7 +3315,6 @@ GetAscent
 (
 this
 aBoxLayoutState
-mAscent
 )
 ;
 else
@@ -3425,6 +3427,8 @@ if
 mLayoutManager
 )
 {
+size
+=
 mLayoutManager
 -
 >
@@ -3432,7 +3436,6 @@ GetMinSize
 (
 this
 aBoxLayoutState
-size
 )
 ;
 nsIBox
@@ -3563,6 +3566,8 @@ if
 mLayoutManager
 )
 {
+size
+=
 mLayoutManager
 -
 >
@@ -3570,7 +3575,6 @@ GetMaxSize
 (
 this
 aBoxLayoutState
-size
 )
 ;
 nsIBox

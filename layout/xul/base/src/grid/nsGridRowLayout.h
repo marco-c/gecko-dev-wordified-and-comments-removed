@@ -101,7 +101,8 @@ nsIGridPart
 aParentGridRow
 )
 ;
-NS_IMETHOD
+virtual
+void
 ChildrenInserted
 (
 nsIBox
@@ -118,7 +119,8 @@ nsIBox
 aChildList
 )
 ;
-NS_IMETHOD
+virtual
+void
 ChildrenAppended
 (
 nsIBox
@@ -132,7 +134,8 @@ nsIBox
 aChildList
 )
 ;
-NS_IMETHOD
+virtual
+void
 ChildrenRemoved
 (
 nsIBox
@@ -146,7 +149,8 @@ nsIBox
 aChildList
 )
 ;
-NS_IMETHOD
+virtual
+void
 ChildrenSet
 (
 nsIBox

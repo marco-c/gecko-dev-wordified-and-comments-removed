@@ -55,7 +55,7 @@ nsSprocketLayout
 )
 {
 }
-NS_IMETHODIMP
+void
 nsGridRowLayout
 :
 :
@@ -81,11 +81,8 @@ aBox
 aState
 )
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 nsGridRowLayout
 :
 :
@@ -108,11 +105,8 @@ aBox
 aState
 )
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 nsGridRowLayout
 :
 :
@@ -135,11 +129,8 @@ aBox
 aState
 )
 ;
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 nsGridRowLayout
 :
 :
@@ -161,9 +152,6 @@ ChildAddedOrRemoved
 aBox
 aState
 )
-;
-return
-NS_OK
 ;
 }
 void
