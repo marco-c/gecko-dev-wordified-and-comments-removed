@@ -1048,6 +1048,9 @@ lhsNeedsRemat
 bool
 rhsNeedsRemat
 ;
+bool
+undoResult
+;
 }
 ;
 void
