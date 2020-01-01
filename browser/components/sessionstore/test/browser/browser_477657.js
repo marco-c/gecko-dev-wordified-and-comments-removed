@@ -3,6 +3,16 @@ test
 (
 )
 {
+if
+(
+"
+nsILocalFileMac
+"
+in
+Ci
+)
+return
+;
 let
 ss
 =
