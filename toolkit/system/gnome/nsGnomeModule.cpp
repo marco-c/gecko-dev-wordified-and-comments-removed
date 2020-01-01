@@ -45,11 +45,16 @@ h
 "
 #
 endif
+#
+ifdef
+MOZ_ENABLE_GCONF
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
 nsGConfService
 Init
 )
+#
+endif
 #
 ifdef
 MOZ_ENABLE_GNOMEVFS
@@ -88,6 +93,9 @@ components
 ]
 =
 {
+#
+ifdef
+MOZ_ENABLE_GCONF
 {
 "
 GConf
@@ -97,6 +105,8 @@ NS_GCONFSERVICE_CID
 NS_GCONFSERVICE_CONTRACTID
 nsGConfServiceConstructor
 }
+#
+endif
 #
 ifdef
 MOZ_ENABLE_GNOMEVFS
