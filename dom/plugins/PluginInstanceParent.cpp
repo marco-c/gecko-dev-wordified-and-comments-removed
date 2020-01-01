@@ -134,6 +134,17 @@ PluginInstanceParent
 (
 )
 {
+if
+(
+mNPP
+)
+mNPP
+-
+>
+pdata
+=
+NULL
+;
 }
 void
 PluginInstanceParent
