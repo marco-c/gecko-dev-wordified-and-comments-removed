@@ -466,14 +466,6 @@ it
 '
 s
 unreliable
-#
-browser_bug427559
-.
-js
-disabled
-temporarily
-.
-.
 _BROWSER_FILES
 =
 browser_bug321000
@@ -505,6 +497,10 @@ moz
 png
 \
 browser_getshortcutoruri
+.
+js
+\
+browser_bug427559
 .
 js
 \

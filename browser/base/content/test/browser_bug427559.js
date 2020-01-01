@@ -93,6 +93,11 @@ load
 function
 (
 )
+setTimeout
+(
+function
+(
+)
 {
 let
 emptyTab
@@ -150,6 +155,8 @@ finish
 )
 ;
 }
+0
+)
 true
 )
 ;
