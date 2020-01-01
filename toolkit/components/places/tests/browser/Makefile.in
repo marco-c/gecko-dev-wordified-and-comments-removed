@@ -474,6 +474,10 @@ browser_settitle
 .
 js
 \
+browser_bug646422
+.
+js
+\
 (
 NULL
 )
