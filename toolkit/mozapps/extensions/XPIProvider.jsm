@@ -30501,11 +30501,13 @@ nextFile
 if
 (
 !
+(
 entry
 instanceof
 Ci
 .
 nsILocalFile
+)
 )
 continue
 ;
