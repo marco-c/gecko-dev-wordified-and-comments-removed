@@ -2612,6 +2612,13 @@ selectionEnd
 ;
 }
 else
+if
+(
+isContentEditable
+(
+element
+)
+)
 {
 let
 win
