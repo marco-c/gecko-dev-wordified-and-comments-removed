@@ -3109,8 +3109,6 @@ nsGlobalWindow
 void
 CleanUp
 (
-bool
-aIgnoreModalDialog
 )
 ;
 void
@@ -4469,7 +4467,6 @@ mLastOpenedURI
 endif
 bool
 mCleanedUp
-mCallCleanUpAfterModalDialogCloses
 ;
 nsCOMPtr
 <
