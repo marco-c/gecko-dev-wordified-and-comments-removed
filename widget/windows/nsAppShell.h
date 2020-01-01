@@ -78,13 +78,6 @@ mozilla
 TimeStamp
 TimeStamp
 ;
-typedef
-mozilla
-:
-:
-Mutex
-Mutex
-;
 nsresult
 Init
 (
