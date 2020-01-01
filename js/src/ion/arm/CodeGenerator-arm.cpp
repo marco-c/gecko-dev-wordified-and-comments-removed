@@ -2730,9 +2730,9 @@ bool
 CodeGeneratorARM
 :
 :
-visitBitNot
+visitBitNotI
 (
-LBitNot
+LBitNotI
 *
 ins
 )

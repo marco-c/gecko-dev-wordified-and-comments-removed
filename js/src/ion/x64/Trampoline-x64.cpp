@@ -2244,7 +2244,7 @@ outReg
 break
 ;
 case
-Type_JSBool
+Type_Int32
 :
 outReg
 =
@@ -2260,7 +2260,7 @@ reserveStack
 (
 sizeof
 (
-JSBool
+int
 )
 )
 ;
@@ -2685,19 +2685,8 @@ Value
 break
 ;
 case
-Type_JSBool
+Type_Int32
 :
-JS_STATIC_ASSERT
-(
-sizeof
-(
-JSBool
-)
-=
-=
-4
-)
-;
 masm
 .
 load32
@@ -2716,7 +2705,7 @@ freeStack
 (
 sizeof
 (
-JSBool
+int
 )
 )
 ;

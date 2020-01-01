@@ -3266,9 +3266,9 @@ bool
 CodeGeneratorX86Shared
 :
 :
-visitBitNot
+visitBitNotI
 (
-LBitNot
+LBitNotI
 *
 ins
 )

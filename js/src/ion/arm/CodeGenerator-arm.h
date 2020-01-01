@@ -320,9 +320,9 @@ ins
 ;
 virtual
 bool
-visitBitNot
+visitBitNotI
 (
-LBitNot
+LBitNotI
 *
 ins
 )
