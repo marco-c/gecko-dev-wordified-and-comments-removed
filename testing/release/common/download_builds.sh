@@ -57,17 +57,6 @@ target_url
 exit
 1
 fi
-cp
-update
-/
-partial
-.
-mar
-update
-/
-update
-.
-mar
 for
 url
 in
