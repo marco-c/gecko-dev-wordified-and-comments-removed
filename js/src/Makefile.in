@@ -604,6 +604,10 @@ SPSProfiler
 .
 cpp
 \
+SelfHosting
+.
+cpp
+\
 TokenStream
 .
 cpp
