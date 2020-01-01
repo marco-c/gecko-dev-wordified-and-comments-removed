@@ -39,9 +39,14 @@ classic
 /
 global
 /
+scrollbars
+.
+css
+(
 xulscrollbars
 .
 css
+)
 +
 skin
 /
