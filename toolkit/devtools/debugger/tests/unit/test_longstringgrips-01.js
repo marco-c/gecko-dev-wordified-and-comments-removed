@@ -362,7 +362,7 @@ longStringClient
 =
 gThreadClient
 .
-longString
+pauseLongString
 (
 grip
 )
