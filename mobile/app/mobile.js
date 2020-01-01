@@ -3568,7 +3568,7 @@ plugin
 .
 disable
 "
-false
+true
 )
 ;
 pref
