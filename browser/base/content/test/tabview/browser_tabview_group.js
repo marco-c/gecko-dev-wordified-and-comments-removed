@@ -634,8 +634,10 @@ hidden
 "
 )
 ;
-finish
+closeGroupItem
 (
+groupItem
+finish
 )
 ;
 }

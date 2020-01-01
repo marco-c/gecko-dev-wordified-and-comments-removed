@@ -291,14 +291,6 @@ tab1
 ]
 )
 ;
-tests
-.
-push
-(
-[
-]
-)
-;
 while
 (
 tests
@@ -425,8 +417,10 @@ reorderTabsBasedOnTabItemOrder
 )
 ;
 }
-testMoveBetweenGroups
+closeGroupItem
 (
+groupItem
+testMoveBetweenGroups
 )
 ;
 }

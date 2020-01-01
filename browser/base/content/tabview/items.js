@@ -469,11 +469,6 @@ drag
 info
 .
 el
-{
-dontClose
-:
-true
-}
 )
 ;
 iQ
