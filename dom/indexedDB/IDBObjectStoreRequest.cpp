@@ -1006,6 +1006,8 @@ nsIVariant
 aKey
 PRBool
 aNoOverwrite
+PRUint8
+aOptionalArgCount
 nsIIDBRequest
 *
 *
@@ -1024,6 +1026,18 @@ thread
 "
 )
 ;
+if
+(
+aOptionalArgCount
+<
+2
+)
+{
+aNoOverwrite
+=
+PR_TRUE
+;
+}
 nsString
 keyString
 ;

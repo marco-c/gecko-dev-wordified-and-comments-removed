@@ -522,6 +522,9 @@ nsIIDBObjectStoreRequest
 :
 nsIIDBObjectStore
 {
+[
+optional_argc
+]
 nsIIDBRequest
 put
 (
@@ -543,7 +546,7 @@ key
 optional
 /
 *
-false
+true
 *
 /
 ]
