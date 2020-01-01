@@ -6808,12 +6808,14 @@ nil
 ;
 while
 (
+(
 superView
 =
 [
 topLevelView
 superview
 ]
+)
 )
 topLevelView
 =
