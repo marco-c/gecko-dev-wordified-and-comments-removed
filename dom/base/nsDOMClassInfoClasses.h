@@ -56,10 +56,6 @@ Attr
 )
 DOMCI_CLASS
 (
-MozNamedAttrMap
-)
-DOMCI_CLASS
-(
 Event
 )
 DOMCI_CLASS

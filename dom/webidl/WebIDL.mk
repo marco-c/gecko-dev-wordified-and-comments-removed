@@ -691,6 +691,10 @@ MozActivity
 .
 webidl
 \
+MozNamedAttrMap
+.
+webidl
+\
 MutationEvent
 .
 webidl

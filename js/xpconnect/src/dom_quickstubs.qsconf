@@ -393,16 +393,6 @@ interfaces
 /
 core
 '
-nsIDOMMozNamedAttrMap
-.
-item
-'
-'
-nsIDOMMozNamedAttrMap
-.
-length
-'
-'
 nsIDOMDOMStringList
 .
 *

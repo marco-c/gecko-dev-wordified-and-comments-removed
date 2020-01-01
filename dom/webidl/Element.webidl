@@ -190,9 +190,6 @@ apply
 *
 /
 interface
-MozNamedAttrMap
-;
-interface
 Element
 :
 Node
