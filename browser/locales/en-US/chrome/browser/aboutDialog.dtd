@@ -64,7 +64,7 @@ version
 <
 !
 ENTITY
-copyrightText
+copyrightInfo
 "
 &
 #
@@ -94,17 +94,6 @@ Foundation
 All
 rights
 reserved
-.
-Some
-trademark
-rights
-used
-under
-license
-from
-The
-Charlton
-Company
 .
 "
 >
