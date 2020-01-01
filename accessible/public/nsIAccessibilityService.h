@@ -491,7 +491,7 @@ aChangeType
 0
 ;
 virtual
-nsresult
+void
 NotifyOfAnchorJumpTo
 (
 nsIContent
