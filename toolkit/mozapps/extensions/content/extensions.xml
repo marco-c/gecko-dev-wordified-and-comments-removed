@@ -2475,6 +2475,8 @@ cmd_useTheme
 /
 >
 <
+xul
+:
 spacer
 flex
 =
