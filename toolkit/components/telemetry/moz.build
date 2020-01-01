@@ -178,6 +178,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+TelemetryFile
+.
+jsm
+'
+'
 TelemetryStopwatch
 .
 jsm
