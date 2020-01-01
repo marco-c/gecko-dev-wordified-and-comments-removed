@@ -242,6 +242,14 @@ arr
 actual
 )
 ;
+print
+(
+x
+y
+op
+z
+)
+;
 assertEq
 (
 "
