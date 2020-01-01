@@ -529,6 +529,7 @@ resource
 :
 /
 /
+app
 /
 modules
 /

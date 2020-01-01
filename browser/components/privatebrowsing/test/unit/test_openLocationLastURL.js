@@ -33,7 +33,7 @@ resource
 :
 /
 /
-gre
+app
 /
 modules
 /
