@@ -590,6 +590,9 @@ c
 cmsio0
 .
 c
+cmsprecache
+.
+c
 LOCAL_INCLUDES
 +
 =
