@@ -804,6 +804,13 @@ mOwner
 return
 NS_ERROR_FAILURE
 ;
+if
+(
+mLockHeld
+)
+return
+NS_OK
+;
 NS_ABORT_IF_FALSE
 (
 !
