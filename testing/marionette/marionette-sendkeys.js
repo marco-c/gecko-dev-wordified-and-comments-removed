@@ -16,8 +16,14 @@ currentTextLength
 element
 .
 value
+?
+element
+.
+value
 .
 length
+:
+0
 ;
 element
 .
