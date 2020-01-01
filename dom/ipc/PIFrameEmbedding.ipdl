@@ -463,6 +463,9 @@ PRUint32
 using
 PRInt32
 ;
+using
+MagicWindowHandle
+;
 namespace
 mozilla
 {
@@ -481,6 +484,16 @@ PDocumentRenderer
 ;
 child
 :
+createWidget
+(
+MagicWindowHandle
+parentWidget
+)
+;
+destroyWidget
+(
+)
+;
 loadURL
 (
 nsCString

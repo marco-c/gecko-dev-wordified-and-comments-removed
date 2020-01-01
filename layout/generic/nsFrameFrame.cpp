@@ -650,6 +650,17 @@ aOther
 )
 ;
 virtual
+nsIFrame
+*
+GetFrame
+(
+)
+{
+return
+this
+;
+}
+virtual
 PRBool
 ReflowFinished
 (

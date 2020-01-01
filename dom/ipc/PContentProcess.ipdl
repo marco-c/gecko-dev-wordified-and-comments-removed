@@ -474,9 +474,6 @@ TabTypes
 h
 "
 ;
-using
-MagicWindowHandle
-;
 namespace
 mozilla
 {
@@ -500,8 +497,6 @@ child
 :
 PIFrameEmbedding
 (
-MagicWindowHandle
-parentWidget
 )
 ;
 ~

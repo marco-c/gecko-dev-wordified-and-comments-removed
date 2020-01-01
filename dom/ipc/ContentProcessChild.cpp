@@ -165,10 +165,6 @@ ContentProcessChild
 :
 AllocPIFrameEmbedding
 (
-const
-MagicWindowHandle
-&
-hwnd
 )
 {
 PIFrameEmbeddingChild
@@ -178,7 +174,6 @@ iframe
 new
 TabChild
 (
-hwnd
 )
 ;
 if
