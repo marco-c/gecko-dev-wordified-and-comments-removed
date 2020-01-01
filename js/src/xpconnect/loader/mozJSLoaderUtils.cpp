@@ -1,11 +1,4 @@
 #
-if
-!
-defined
-(
-XPCONNECT_STANDALONE
-)
-#
 include
 "
 nsAutoPtr
@@ -579,5 +572,3 @@ return
 rv
 ;
 }
-#
-endif
