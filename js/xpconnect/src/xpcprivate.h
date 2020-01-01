@@ -6197,7 +6197,7 @@ v
 js
 :
 :
-GetSlot
+GetObjectSlot
 (
 obj
 JSCLASS_GLOBAL_SLOT_COUNT
