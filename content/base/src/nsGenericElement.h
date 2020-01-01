@@ -2464,10 +2464,6 @@ mControllers
 ;
 }
 ;
-nsNodeWeakReference
-*
-mWeakReference
-;
 nsRefPtr
 <
 nsContentList
