@@ -2617,17 +2617,6 @@ nsFontMetrics
 >
 fm
 ;
-float
-inflation
-=
-nsLayoutUtils
-:
-:
-FontSizeInflationFor
-(
-aReflowState
-)
-;
 nsLayoutUtils
 :
 :
@@ -2638,7 +2627,6 @@ getter_AddRefs
 (
 fm
 )
-inflation
 )
 ;
 aReflowState
