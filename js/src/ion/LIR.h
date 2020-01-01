@@ -2925,6 +2925,10 @@ LMoveGroup
 *
 entryMoveGroup_
 ;
+LMoveGroup
+*
+exitMoveGroup_
+;
 LBlock
 (
 MBasicBlock
@@ -2937,6 +2941,10 @@ block_
 block
 )
 entryMoveGroup_
+(
+NULL
+)
+exitMoveGroup_
 (
 NULL
 )
@@ -3190,6 +3198,12 @@ label
 LMoveGroup
 *
 getEntryMoveGroup
+(
+)
+;
+LMoveGroup
+*
+getExitMoveGroup
 (
 )
 ;
