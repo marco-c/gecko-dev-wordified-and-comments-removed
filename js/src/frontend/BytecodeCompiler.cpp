@@ -1043,10 +1043,9 @@ callerFrame
 {
 parser
 .
-reportErrorNumber
+reportError
 (
 NULL
-JSREPORT_ERROR
 JSMSG_XML_WHOLE_PROGRAM
 )
 ;
@@ -1142,10 +1141,9 @@ arguments
 {
 parser
 .
-reportErrorNumber
+reportError
 (
 NULL
-JSREPORT_ERROR
 JSMSG_ARGUMENTS_AND_REST
 )
 ;
@@ -1649,10 +1647,9 @@ TOK_EOF
 {
 parser
 .
-reportErrorNumber
+reportError
 (
 NULL
-JSREPORT_ERROR
 JSMSG_SYNTAX_ERROR
 )
 ;
