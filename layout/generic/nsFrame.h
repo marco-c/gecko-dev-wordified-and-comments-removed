@@ -1313,16 +1313,9 @@ aBoxLayoutState
 void
 CheckInvalidateSizeChange
 (
-nsPresContext
-*
-aPresContext
 nsHTMLReflowMetrics
 &
-aDesiredSize
-const
-nsHTMLReflowState
-&
-aReflowState
+aNewDesiredSize
 )
 ;
 PRBool

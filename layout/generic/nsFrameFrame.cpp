@@ -2212,9 +2212,7 @@ PR_TRUE
 ;
 CheckInvalidateSizeChange
 (
-aPresContext
 aDesiredSize
-aReflowState
 )
 ;
 FinishAndStoreOverflow

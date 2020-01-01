@@ -5588,9 +5588,7 @@ childBounds
 }
 CheckInvalidateSizeChange
 (
-aPresContext
 aMetrics
-aReflowState
 )
 ;
 FinishAndStoreOverflow
