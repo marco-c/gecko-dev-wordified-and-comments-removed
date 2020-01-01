@@ -4523,15 +4523,6 @@ browser
 )
 return
 ;
-Browser
-.
-keyFilter
-.
-handleEvent
-(
-aEvent
-)
-;
 break
 ;
 case
