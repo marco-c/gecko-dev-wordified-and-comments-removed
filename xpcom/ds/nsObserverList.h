@@ -69,6 +69,13 @@ Attributes
 .
 h
 "
+namespace
+mozilla
+{
+class
+ObserverServiceReporter
+;
+}
 struct
 ObserverRef
 {
@@ -234,6 +241,13 @@ nsObserverList
 public
 nsCharPtrHashKey
 {
+friend
+class
+mozilla
+:
+:
+ObserverServiceReporter
+;
 public
 :
 nsObserverList
