@@ -3604,6 +3604,12 @@ invalid
 "
 )
 ;
+this
+.
+focus
+(
+)
+;
 try
 {
 urlSecurityCheck
