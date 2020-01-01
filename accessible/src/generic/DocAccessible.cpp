@@ -7736,6 +7736,16 @@ jdx
 +
 ;
 }
+if
+(
+!
+child
+-
+>
+IsDoc
+(
+)
+)
 ShutdownChildrenInSubtree
 (
 child
