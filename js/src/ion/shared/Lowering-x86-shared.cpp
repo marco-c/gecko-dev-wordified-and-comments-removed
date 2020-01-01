@@ -409,7 +409,7 @@ lir
 new
 LModPowTwoI
 (
-useRegister
+useRegisterAtStart
 (
 mod
 -
@@ -454,7 +454,7 @@ lhs
 )
 eax
 )
-useRegisterAtStart
+useRegister
 (
 mod
 -
