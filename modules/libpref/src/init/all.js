@@ -28925,8 +28925,6 @@ x
 western
 "
 "
-Charis
-SIL
 Droid
 Serif
 "
@@ -28948,8 +28946,6 @@ x
 western
 "
 "
-Open
-Sans
 Droid
 Sans
 "
@@ -28993,8 +28989,6 @@ x
 western
 "
 "
-Open
-Sans
 Roboto
 Droid
 Sans

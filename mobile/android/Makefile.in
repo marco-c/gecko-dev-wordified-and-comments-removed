@@ -90,7 +90,6 @@ themes
 /
 core
 app
-fonts
 ifndef
 LIBXUL_SDK
 PARALLEL_DIRS
