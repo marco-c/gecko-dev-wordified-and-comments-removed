@@ -249,9 +249,6 @@ type
 =
 "
 "
-optional
-any
-encoderOptions
 )
 ;
 }
