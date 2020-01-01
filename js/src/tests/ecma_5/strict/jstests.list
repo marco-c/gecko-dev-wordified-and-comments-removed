@@ -368,3 +368,11 @@ prologue
 01
 .
 js
+script
+eval
+-
+variable
+-
+environment
+.
+js
