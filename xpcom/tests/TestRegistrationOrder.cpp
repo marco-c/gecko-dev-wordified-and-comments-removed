@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsStringAPI
-.
-h
-"
-#
-include
-"
 nsILocalFile
 .
 h
