@@ -3381,6 +3381,14 @@ None
 )
 ;
 }
+MDefinition
+*
+foldsTo
+(
+bool
+useValueNumbers
+)
+;
 }
 ;
 class
