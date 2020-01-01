@@ -95,7 +95,7 @@ ogg_int64_t
 current_time
 )
 ;
-int
+ogg_int64_t
 (
 *
 duration

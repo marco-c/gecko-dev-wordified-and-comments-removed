@@ -2553,7 +2553,7 @@ stored_offset
 )
 ;
 }
-int
+ogg_int64_t
 oggplay_tcp_reader_duration
 (
 OggPlayReader

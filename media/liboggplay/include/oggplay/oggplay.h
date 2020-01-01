@@ -368,7 +368,7 @@ OggPlay
 player
 )
 ;
-int
+ogg_int64_t
 oggplay_get_duration
 (
 OggPlay
