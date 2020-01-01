@@ -102,6 +102,15 @@ nsRefreshDriver
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsRange
 ;
@@ -2435,6 +2444,7 @@ aEvent
 ;
 class
 nsSynthMouseMoveEvent
+MOZ_FINAL
 :
 public
 nsARefreshObserver

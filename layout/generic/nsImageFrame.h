@@ -53,6 +53,15 @@ imgIContainer
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIFrame
 ;
@@ -1033,6 +1042,7 @@ aRequest
 ;
 class
 IconLoad
+MOZ_FINAL
 :
 public
 nsIObserver

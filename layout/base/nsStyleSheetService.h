@@ -25,6 +25,15 @@ nsIStyleSheet
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsISimpleEnumerator
 ;
@@ -71,6 +80,7 @@ service
 "
 class
 nsStyleSheetService
+MOZ_FINAL
 :
 public
 nsIStyleSheetService

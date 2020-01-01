@@ -62,6 +62,15 @@ gfxFontTest
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 if
 defined
 (
@@ -102,6 +111,7 @@ nsnull
 ;
 class
 FrameTextRunCache
+MOZ_FINAL
 :
 public
 nsExpirationTracker

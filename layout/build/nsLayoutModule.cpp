@@ -343,6 +343,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIEventListenerService
 .
 h
@@ -1439,6 +1448,7 @@ SmsRequestManager
 )
 class
 LayoutShutdownObserver
+MOZ_FINAL
 :
 public
 nsIObserver
