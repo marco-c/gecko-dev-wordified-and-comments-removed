@@ -4,13 +4,11 @@ MagicWindowHandle
 using
 PRUint32
 ;
-sync
 protocol
 IFrameEmbedding
 {
 child
 :
-sync
 init
 (
 MagicWindowHandle
@@ -19,7 +17,7 @@ parentWidget
 ;
 loadURL
 (
-String
+nsCString
 uri
 )
 ;

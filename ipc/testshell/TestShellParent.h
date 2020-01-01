@@ -29,16 +29,6 @@ TestShellProtocolParent
 {
 public
 :
-typedef
-mozilla
-:
-:
-ipc
-:
-:
-String
-String
-;
 TestShellParent
 (
 )

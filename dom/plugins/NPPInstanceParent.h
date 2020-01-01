@@ -85,10 +85,10 @@ nsresult
 AnswerNPN_GetValue
 (
 const
-String
+nsString
 &
 in
-String
+nsString
 *
 out
 )

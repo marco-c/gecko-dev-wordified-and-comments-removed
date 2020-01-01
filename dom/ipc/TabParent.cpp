@@ -107,10 +107,6 @@ spec
 SendloadURL
 (
 spec
-.
-get
-(
-)
 )
 ;
 }
