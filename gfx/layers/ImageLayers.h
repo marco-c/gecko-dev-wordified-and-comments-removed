@@ -290,7 +290,7 @@ return
 mFilter
 ;
 }
-NS_LAYER_DECL_NAME
+MOZ_LAYER_DECL_NAME
 (
 "
 ImageLayer
