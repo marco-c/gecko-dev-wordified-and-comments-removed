@@ -10907,8 +10907,8 @@ allowExpansion
 .
 IntersectRect
 (
-allowExpansion
 boundedRect
+aAllowVisibleRegionExpansion
 )
 ;
 bool
