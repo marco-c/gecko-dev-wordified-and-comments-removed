@@ -552,6 +552,10 @@ test_clonewrapper
 .
 xul
 \
+test_moving_nodeList
+.
+xul
+\
 (
 NULL
 )

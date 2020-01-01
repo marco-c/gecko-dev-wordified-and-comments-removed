@@ -544,6 +544,8 @@ gfxipc_s
 \
 hal_s
 \
+dombindings_s
+\
 (
 NULL
 )

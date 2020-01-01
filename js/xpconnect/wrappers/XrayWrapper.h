@@ -70,6 +70,9 @@ XPCWrappedNativeXrayTraits
 class
 ProxyXrayTraits
 ;
+class
+DOMXrayTraits
+;
 template
 <
 typename
@@ -437,5 +440,16 @@ CrossCompartmentWrapper
 ProxyXrayTraits
 >
 XrayProxy
+;
+typedef
+XrayWrapper
+<
+js
+:
+:
+CrossCompartmentWrapper
+DOMXrayTraits
+>
+XrayDOM
 ;
 }

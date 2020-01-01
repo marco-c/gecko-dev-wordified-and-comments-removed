@@ -416,9 +416,6 @@ true
 }
 }
 BEGIN_WORKERS_NAMESPACE
-namespace
-chromeworker
-{
 bool
 DefineChromeWorkerFunctions
 (
@@ -437,6 +434,5 @@ aCx
 aGlobal
 )
 ;
-}
 }
 END_WORKERS_NAMESPACE

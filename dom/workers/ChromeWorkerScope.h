@@ -11,17 +11,7 @@ Workers
 .
 h
 "
-#
-include
-"
-jspubtd
-.
-h
-"
 BEGIN_WORKERS_NAMESPACE
-namespace
-chromeworker
-{
 bool
 DefineChromeWorkerFunctions
 (
@@ -33,7 +23,6 @@ JSObject
 aGlobal
 )
 ;
-}
 END_WORKERS_NAMESPACE
 #
 endif

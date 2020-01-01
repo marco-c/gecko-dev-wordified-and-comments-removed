@@ -5236,6 +5236,16 @@ new_bindings
 true
 )
 ;
+pref
+(
+"
+dom
+.
+paris_bindings
+"
+true
+)
+;
 #
 ifndef
 XP_WIN

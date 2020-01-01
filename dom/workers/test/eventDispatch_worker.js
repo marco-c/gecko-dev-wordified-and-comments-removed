@@ -19,7 +19,7 @@ target
 !
 =
 =
-null
+self
 |
 |
 event
@@ -28,7 +28,7 @@ currentTarget
 !
 =
 =
-null
+self
 )
 {
 throw
@@ -39,9 +39,7 @@ Error
 Event
 has
 a
-non
--
-null
+bad
 target
 !
 "

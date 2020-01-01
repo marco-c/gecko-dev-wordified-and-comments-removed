@@ -29135,6 +29135,9 @@ aCache
 IsDOMBinding
 (
 )
+&
+&
+obj
 )
 {
 JSCompartment
@@ -29180,14 +29183,11 @@ obj
 )
 ;
 }
-else
-{
 DropJSObjects
 (
 aScriptObjectHolder
 )
 ;
-}
 aCache
 -
 >
