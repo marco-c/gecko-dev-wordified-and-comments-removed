@@ -1400,6 +1400,17 @@ NS_RGB
 )
 GFX_COLOR
 (
+transparent
+NS_RGBA
+(
+0
+0
+0
+0
+)
+)
+GFX_COLOR
+(
 turquoise
 NS_RGB
 (

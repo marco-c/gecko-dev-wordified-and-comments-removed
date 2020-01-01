@@ -2588,11 +2588,6 @@ top_outside
 )
 CSS_KEY
 (
-transparent
-transparent
-)
-CSS_KEY
-(
 tri
 -
 state
