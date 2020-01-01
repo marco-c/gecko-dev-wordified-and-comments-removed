@@ -812,6 +812,10 @@ JSParseContext
 *
 parseContext
 ;
+JSScript
+*
+script
+;
 jsval
 *
 array
