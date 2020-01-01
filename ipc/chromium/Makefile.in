@@ -273,7 +273,7 @@ ifdef
 OS_MACOSX
 #
 {
-CMMSRCS
+DISABLED_CMMSRCS
 +
 =
 \

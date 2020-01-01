@@ -112,7 +112,7 @@ OS_ARCH
 )
 Darwin
 )
-CMMSRCS
+DISABLED_CMMSRCS
 =
 osx_corewlan
 .

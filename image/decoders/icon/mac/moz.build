@@ -103,3 +103,13 @@ LIBRARY_NAME
 '
 imgiconmac_s
 '
+CMMSRCS
++
+=
+[
+'
+nsIconChannelCocoa
+.
+mm
+'
+]

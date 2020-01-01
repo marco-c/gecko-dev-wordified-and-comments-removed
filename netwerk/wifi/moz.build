@@ -191,6 +191,16 @@ nsWifiScannerMac
 cpp
 '
 ]
+CMMSRCS
++
+=
+[
+'
+osx_corewlan
+.
+mm
+'
+]
 elif
 CONFIG
 [
