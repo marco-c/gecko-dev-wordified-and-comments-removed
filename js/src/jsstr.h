@@ -972,6 +972,13 @@ deflatedIntStringTable
 ]
 ;
 static
+const
+char
+deflatedUnitStringTable
+[
+]
+;
+static
 JSString
 *
 unitString
