@@ -2060,9 +2060,6 @@ KEYWORD
 keyword
 )
 ;
-int
-updated
-=
 cr
 .
 update
