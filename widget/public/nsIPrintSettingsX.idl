@@ -663,7 +663,7 @@ writePageFormatToPrefs
 *
 *
 *
-cleanUpAfterDialog
+cleanUpAfterCarbonDialog
 *
 *
 After
