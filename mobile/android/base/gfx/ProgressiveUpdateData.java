@@ -81,7 +81,7 @@ viewportRectBottom
 -
 this
 .
-y
+x
 ;
 this
 .

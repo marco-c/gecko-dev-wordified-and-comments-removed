@@ -1098,15 +1098,6 @@ true
 ;
 }
 bool
-GetRepeatTransaction
-(
-)
-{
-return
-mRepeatTransaction
-;
-}
-bool
 IsRepeatTransaction
 (
 )
@@ -1132,8 +1123,6 @@ aScaleX
 float
 &
 aScaleY
-bool
-aDrawingCritical
 )
 ;
 private

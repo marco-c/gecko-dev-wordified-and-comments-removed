@@ -13655,13 +13655,6 @@ _displayport
 )
 GK_ATOM
 (
-CriticalDisplayPort
-"
-_critical_displayport
-"
-)
-GK_ATOM
-(
 scrollbar_start_backward
 "
 scrollbar

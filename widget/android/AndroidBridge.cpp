@@ -14683,8 +14683,6 @@ Rect
 aDisplayPort
 float
 aDisplayResolution
-bool
-aDrawingCritical
 gfx
 :
 :
@@ -14722,7 +14720,6 @@ ProgressiveUpdateCallback
 aHasPendingNewThebesContent
 aDisplayPort
 aDisplayResolution
-aDrawingCritical
 aViewport
 aScaleX
 aScaleY
