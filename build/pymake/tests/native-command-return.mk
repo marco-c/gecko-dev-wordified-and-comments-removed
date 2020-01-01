@@ -6,7 +6,7 @@ CMD
 =
 %
 pycmd
-asplode
+asplode_return
 PYCOMMANDPATH
 =
 (
