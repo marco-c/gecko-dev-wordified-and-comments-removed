@@ -400,6 +400,14 @@ StopPlugin
 (
 )
 ;
+virtual
+void
+SetIsDocumentActive
+(
+PRBool
+aIsActive
+)
+;
 void
 StopPluginInternal
 (

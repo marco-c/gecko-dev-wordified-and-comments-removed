@@ -595,6 +595,13 @@ PRBool
 aVisible
 )
 ;
+void
+UpdateDocumentActiveState
+(
+PRBool
+aIsActive
+)
+;
 #
 endif
 void
@@ -1091,6 +1098,9 @@ mFlash10Quirks
 endif
 PRPackedBool
 mPluginWindowVisible
+;
+PRPackedBool
+mPluginDocumentActiveState
 ;
 PRPackedBool
 mDestroyWidget
