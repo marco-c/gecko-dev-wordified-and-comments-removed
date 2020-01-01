@@ -13981,6 +13981,8 @@ char
 filename
 PRInt32
 lineNo
+PRBool
+returnStringOnly
 jsval
 *
 rval
