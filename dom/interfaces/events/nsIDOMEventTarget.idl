@@ -1342,6 +1342,7 @@ object
 /
 [
 notxpcom
+nostdcall
 ]
 nsIDOMEventTarget
 GetTargetForDOMEvent
@@ -1396,6 +1397,7 @@ object
 /
 [
 notxpcom
+nostdcall
 ]
 nsIDOMEventTarget
 GetTargetForEventTargetChain
@@ -1533,6 +1535,7 @@ method
 /
 [
 noscript
+nostdcall
 ]
 void
 PreHandleEvent
@@ -1571,6 +1574,7 @@ called
 /
 [
 noscript
+nostdcall
 ]
 void
 WillHandleEvent
@@ -1643,6 +1647,7 @@ method
 /
 [
 noscript
+nostdcall
 ]
 void
 PostHandleEvent
@@ -1792,6 +1797,7 @@ dispatchEvent
 /
 [
 noscript
+nostdcall
 ]
 void
 DispatchDOMEvent
@@ -1853,6 +1859,7 @@ exists
 /
 [
 notxpcom
+nostdcall
 ]
 nsIEventListenerManager
 GetListenerManager
@@ -1877,6 +1884,7 @@ nsIID
 /
 [
 noscript
+nostdcall
 ]
 void
 AddEventListenerByIID
@@ -1903,6 +1911,7 @@ nsIID
 /
 [
 noscript
+nostdcall
 ]
 void
 RemoveEventListenerByIID
@@ -1929,6 +1938,7 @@ group
 /
 [
 noscript
+nostdcall
 ]
 nsIDOMEventGroup
 GetSystemEventGroup
@@ -1973,6 +1983,7 @@ aRv
 /
 [
 notxpcom
+nostdcall
 ]
 nsIScriptContext
 GetContextForEventHandlers
@@ -2006,6 +2017,7 @@ called
 /
 [
 notxpcom
+nostdcall
 ]
 JSContextPtr
 GetJSContextForEventHandlers
