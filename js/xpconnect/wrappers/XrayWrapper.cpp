@@ -1345,7 +1345,7 @@ public
 static
 JSObject
 *
-getInnerObject
+getTargetObject
 (
 JSObject
 *
@@ -2177,7 +2177,7 @@ GetWrappedNative
 XrayTraits
 :
 :
-getInnerObject
+getTargetObject
 (
 wrapper
 )
@@ -5449,7 +5449,7 @@ JSObject
 *
 obj
 =
-getInnerObject
+getTargetObject
 (
 wrapper
 )
@@ -5508,7 +5508,7 @@ JSObject
 *
 obj
 =
-getInnerObject
+getTargetObject
 (
 wrapper
 )
@@ -5643,7 +5643,7 @@ JSObject
 *
 obj
 =
-getInnerObject
+getTargetObject
 (
 wrapper
 )
@@ -5729,7 +5729,7 @@ JSObject
 *
 obj
 =
-getInnerObject
+getTargetObject
 (
 wrapper
 )
@@ -5864,7 +5864,7 @@ JSObject
 *
 obj
 =
-getInnerObject
+getTargetObject
 (
 wrapper
 )
@@ -5985,7 +5985,7 @@ JSObject
 *
 obj
 =
-getInnerObject
+getTargetObject
 (
 wrapper
 )
@@ -6196,7 +6196,7 @@ JSObject
 *
 obj
 =
-getInnerObject
+getTargetObject
 (
 wrapper
 )
@@ -6985,7 +6985,7 @@ obj
 Traits
 :
 :
-getInnerObject
+getTargetObject
 (
 wrapper
 )
@@ -7571,7 +7571,7 @@ obj
 Traits
 :
 :
-getInnerObject
+getTargetObject
 (
 wrapper
 )
@@ -7841,7 +7841,7 @@ obj
 Traits
 :
 :
-getInnerObject
+getTargetObject
 (
 wrapper
 )
@@ -8032,7 +8032,7 @@ obj
 Traits
 :
 :
-getInnerObject
+getTargetObject
 (
 wrapper
 )
@@ -8151,7 +8151,7 @@ obj
 Traits
 :
 :
-getInnerObject
+getTargetObject
 (
 wrapper
 )
