@@ -1447,6 +1447,14 @@ NS_SVG_OFFSCREEN_MAX_DIMENSION
 return
 NS_ERROR_FAILURE
 ;
+const
+fallible_t
+fallible
+=
+fallible_t
+(
+)
+;
 nsAutoArrayPtr
 <
 float
@@ -1454,6 +1462,9 @@ float
 kernel
 (
 new
+(
+fallible
+)
 float
 [
 orderX
