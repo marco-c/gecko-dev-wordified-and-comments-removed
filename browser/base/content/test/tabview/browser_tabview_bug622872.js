@@ -498,7 +498,7 @@ ok
 !
 contentWindow
 .
-GroupItems
+UI
 .
 getActiveOrphanTab
 (
