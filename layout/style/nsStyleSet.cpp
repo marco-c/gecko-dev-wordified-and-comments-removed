@@ -1883,12 +1883,24 @@ nsRuleWalker
 aRuleWalker
 )
 {
-if
+NS_ASSERTION
 (
-!
 aCurrLevelNode
+&
+&
+aCurrLevelNode
+!
+=
+aLastPrevLevelNode
+"
+How
+did
+we
+get
+here
+?
+"
 )
-return
 ;
 nsAutoTArray
 <
@@ -2270,7 +2282,7 @@ lastAgentRN
 aRuleWalker
 -
 >
-GetCurrentNode
+CurrentNode
 (
 )
 ;
@@ -2321,7 +2333,7 @@ lastPresHintRN
 aRuleWalker
 -
 >
-GetCurrentNode
+CurrentNode
 (
 )
 ;
@@ -2378,7 +2390,7 @@ lastUserRN
 aRuleWalker
 -
 >
-GetCurrentNode
+CurrentNode
 (
 )
 ;
@@ -2429,7 +2441,7 @@ lastHTMLPresHintRN
 aRuleWalker
 -
 >
-GetCurrentNode
+CurrentNode
 (
 )
 ;
@@ -2543,7 +2555,7 @@ lastDocRN
 aRuleWalker
 -
 >
-GetCurrentNode
+CurrentNode
 (
 )
 ;
@@ -2594,7 +2606,7 @@ lastOvrRN
 aRuleWalker
 -
 >
-GetCurrentNode
+CurrentNode
 (
 )
 ;
@@ -2801,7 +2813,7 @@ lastImportantRN
 aRuleWalker
 -
 >
-GetCurrentNode
+CurrentNode
 (
 )
 ;
@@ -2837,7 +2849,7 @@ AssertNoCSSRules
 aRuleWalker
 -
 >
-GetCurrentNode
+CurrentNode
 (
 )
 lastImportantRN
@@ -2848,7 +2860,7 @@ AssertNoImportantRules
 aRuleWalker
 -
 >
-GetCurrentNode
+CurrentNode
 (
 )
 lastImportantRN
@@ -3384,7 +3396,7 @@ presContext
 aParentContext
 ruleWalker
 .
-GetCurrentNode
+CurrentNode
 (
 )
 nsnull
@@ -3527,7 +3539,7 @@ presContext
 aParentContext
 ruleWalker
 .
-GetCurrentNode
+CurrentNode
 (
 )
 aPseudoTag
@@ -3785,7 +3797,7 @@ presContext
 aParentContext
 ruleWalker
 .
-GetCurrentNode
+CurrentNode
 (
 )
 nsCSSPseudoElements
@@ -3916,7 +3928,7 @@ adjustedRoot
 =
 ruleWalker
 .
-GetCurrentNode
+CurrentNode
 (
 )
 ;
@@ -3939,7 +3951,7 @@ ruleNode
 =
 ruleWalker
 .
-GetCurrentNode
+CurrentNode
 (
 )
 ;
@@ -4161,7 +4173,7 @@ presContext
 aParentContext
 ruleWalker
 .
-GetCurrentNode
+CurrentNode
 (
 )
 aPseudoTag
@@ -4301,7 +4313,7 @@ presContext
 aParentContext
 ruleWalker
 .
-GetCurrentNode
+CurrentNode
 (
 )
 aPseudoTag
