@@ -202,6 +202,12 @@ origin
 +
 title
 ;
+document
+.
+mozCancelFullScreen
+(
+)
+;
 }
 document
 .
