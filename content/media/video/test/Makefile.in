@@ -480,6 +480,10 @@ test_networkState
 .
 html
 \
+test_onloadedmetadata
+.
+html
+\
 test_paused
 .
 html
