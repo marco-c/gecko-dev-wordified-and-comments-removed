@@ -942,10 +942,9 @@ log
 error
 (
 "
-runtests
-.
-py
-|
+Automation
+Error
+:
 Received
 unexpected
 exception

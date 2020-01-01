@@ -1866,6 +1866,16 @@ pid
             
 print
 "
+TEST
+-
+UNEXPECTED
+-
+FAIL
+|
+remotereftests
+.
+py
+|
 Error
 starting
 server
@@ -2020,6 +2030,16 @@ else
             
 print
 "
+TEST
+-
+UNEXPECTED
+-
+FAIL
+|
+remotereftests
+.
+py
+|
 Timed
 out
 while
@@ -3900,6 +3920,7 @@ DMError
         
 print
 "
+Automation
 Error
 :
 exception
