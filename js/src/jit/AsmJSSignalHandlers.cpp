@@ -1959,8 +1959,11 @@ defined
 XP_MACOSX
 )
 #
-ifdef
+if
+defined
+(
 JS_THREADSAFE
+)
 #
 include
 "
@@ -2601,11 +2604,9 @@ endif
 endif
 #
 if
-(
 defined
 (
 ANDROID
-)
 )
 &
 &
