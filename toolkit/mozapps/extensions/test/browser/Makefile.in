@@ -513,6 +513,10 @@ browser_bug581076
 .
 js
 \
+browser_bug586574
+.
+js
+\
 browser_bug587970
 .
 js
@@ -700,15 +704,6 @@ xhtml
 (
 NULL
 )
-#
-Disabled
-browser_bug586574
-.
-js
-due
-to
-bug
-596174
 include
 (
 topsrcdir
