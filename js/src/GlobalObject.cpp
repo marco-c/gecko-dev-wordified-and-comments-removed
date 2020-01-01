@@ -462,6 +462,13 @@ type
 return
 NULL
 ;
+type
+-
+>
+singleton
+=
+obj
+;
 GlobalObject
 *
 globalObj
