@@ -4984,9 +4984,11 @@ frames
 [
 i
 ]
-=
-=
+.
+isEqualNode
+(
 wantedFrame
+)
 )
 {
 curWindow
