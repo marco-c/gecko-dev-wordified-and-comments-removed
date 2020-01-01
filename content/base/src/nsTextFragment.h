@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsReadableUtils
+.
+h
+"
+#
+include
+"
 nsTraceRefcnt
 .
 h
