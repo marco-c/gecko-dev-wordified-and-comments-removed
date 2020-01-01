@@ -203,14 +203,6 @@ barrier
 )
 ;
 bool
-visitLoadElementV
-(
-LLoadElementV
-*
-load
-)
-;
-bool
 visitLoadElementT
 (
 LLoadElementT

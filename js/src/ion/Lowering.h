@@ -650,6 +650,14 @@ ins
 )
 ;
 bool
+visitLoadElementHole
+(
+MLoadElementHole
+*
+ins
+)
+;
+bool
 visitStoreElement
 (
 MStoreElement
