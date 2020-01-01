@@ -484,14 +484,14 @@ ms
 #
 define
 NS_CC_DELAY
-5000
+6000
 /
 /
 ms
 #
 define
 NS_CC_SKIPPABLE_DELAY
-250
+400
 /
 /
 ms
