@@ -61,12 +61,14 @@ properties
 "
 ;
 const
-REMOTE_PROFILE_NAME
+CHROME_DEBUGGER_PROFILE_NAME
 =
 "
-_remote
+_chrome
 -
-debug
+debugger
+-
+profile
 "
 ;
 const
@@ -2067,7 +2069,7 @@ selectedProfile
 .
 name
 +
-REMOTE_PROFILE_NAME
+CHROME_DEBUGGER_PROFILE_NAME
 ;
 }
 catch
@@ -2077,7 +2079,7 @@ e
 {
 dbgProfileName
 =
-REMOTE_PROFILE_NAME
+CHROME_DEBUGGER_PROFILE_NAME
 ;
 Cu
 .
