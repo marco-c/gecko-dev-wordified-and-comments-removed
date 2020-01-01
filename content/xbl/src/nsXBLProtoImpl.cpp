@@ -694,6 +694,14 @@ v
 cx
 )
 ;
+{
+JSAutoCompartment
+ac
+(
+cx
+global
+)
+;
 bool
 defineOnGlobal
 =
@@ -722,6 +730,7 @@ global
 defineOnGlobal
 )
 ;
+}
 rv
 =
 nsContentUtils
