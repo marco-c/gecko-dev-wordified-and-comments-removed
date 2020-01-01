@@ -10408,7 +10408,7 @@ str
 *
 arg
 ;
-JSTokenStream
+TokenStream
 ts
 (
 cx
@@ -10433,7 +10433,7 @@ arg_length
 args_length
 old_args_length
 ;
-JSTokenType
+TokenKind
 tt
 ;
 if
@@ -10971,7 +10971,7 @@ JS_FALSE
 }
 tt
 =
-js_GetToken
+GetToken
 (
 cx
 &
@@ -11044,7 +11044,7 @@ ok
 name
 &
 &
-js_ReportCompileErrorNumber
+ReportCompileErrorNumber
 (
 cx
 &
@@ -11082,7 +11082,7 @@ after_args
 ;
 tt
 =
-js_GetToken
+GetToken
 (
 cx
 &
@@ -11110,7 +11110,7 @@ after_args
 ;
 tt
 =
-js_GetToken
+GetToken
 (
 cx
 &

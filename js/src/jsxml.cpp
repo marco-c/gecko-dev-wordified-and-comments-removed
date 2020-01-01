@@ -6256,7 +6256,7 @@ if
 uri
 )
 {
-js_ReportCompileErrorNumber
+ReportCompileErrorNumber
 (
 jsc
 -
@@ -6652,7 +6652,7 @@ stackDummy
 )
 )
 {
-js_ReportCompileErrorNumber
+ReportCompileErrorNumber
 (
 cx
 &
@@ -7320,7 +7320,7 @@ pn2
 pn_atom
 )
 {
-js_ReportCompileErrorNumber
+ReportCompileErrorNumber
 (
 cx
 &
@@ -7848,7 +7848,7 @@ qn
 )
 )
 {
-js_ReportCompileErrorNumber
+ReportCompileErrorNumber
 (
 cx
 &
@@ -8048,7 +8048,7 @@ str
 )
 )
 {
-js_ReportCompileErrorNumber
+ReportCompileErrorNumber
 (
 cx
 &
@@ -8237,7 +8237,7 @@ undef
 PN2X_SKIP_CHILD
 syntax
 :
-js_ReportCompileErrorNumber
+ReportCompileErrorNumber
 (
 cx
 &
