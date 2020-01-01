@@ -421,15 +421,6 @@ DIRS
 (
 NULL
 )
-ifdef
-MOZ_ENABLE_GLITZ
-DIRS
-+
-=
-glitz
-/
-src
-endif
 DIRS
 +
 =
