@@ -2173,10 +2173,6 @@ NS_ENSURE_STATE
 GetOwner
 (
 )
-&
-&
-!
-mCanceled
 )
 ;
 GetOwner
