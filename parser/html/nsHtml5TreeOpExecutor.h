@@ -257,6 +257,9 @@ mFlushing
 PRBool
 mCallDidBuildModel
 ;
+nsCString
+mCharsetSwitch
+;
 public
 :
 nsHtml5TreeOpExecutor
@@ -965,6 +968,11 @@ const
 char
 *
 aEncoding
+)
+;
+void
+PerformCharsetSwitch
+(
 )
 ;
 #

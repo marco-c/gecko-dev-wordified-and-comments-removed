@@ -590,6 +590,11 @@ PRBool
 aScriptingEnabled
 )
 ;
+void
+ContinueAfterFailedCharsetSwitch
+(
+)
+;
 #
 ifdef
 DEBUG
