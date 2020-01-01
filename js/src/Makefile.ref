@@ -651,6 +651,12 @@ LDFLAGS
 (
 XLDFLAGS
 )
+LDFLAGS
++
+=
+(
+OS_LDFLAGS
+)
 ifdef
 MOZ_SHARK
 DEFINES
@@ -1851,6 +1857,9 @@ jscpucfg
 o
 (
 CXX
+)
+(
+OS_LDFLAGS
 )
 -
 o

@@ -768,6 +768,18 @@ OS_CONFIG
 =
 Darwin
 else
+ifeq
+(
+(
+OS_ARCH
+)
+Darwin64
+)
+OS_CONFIG
+:
+=
+Darwin64
+else
 OS_CONFIG
 :
 =
@@ -780,6 +792,7 @@ OS_OBJTYPE
 (
 OS_RELEASE
 )
+endif
 endif
 endif
 endif
