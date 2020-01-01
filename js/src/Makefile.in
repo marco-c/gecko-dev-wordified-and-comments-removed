@@ -621,10 +621,6 @@ Statistics
 .
 cpp
 \
-StoreBuffer
-.
-cpp
-\
 StringBuffer
 .
 cpp
@@ -885,10 +881,6 @@ Root
 h
 \
 Statistics
-.
-h
-\
-StoreBuffer
 .
 h
 \

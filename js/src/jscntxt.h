@@ -1701,11 +1701,7 @@ gcMarker
 ;
 void
 *
-gcVerifyPreData
-;
-void
-*
-gcVerifyPostData
+gcVerifyData
 ;
 bool
 gcChunkAllocationSinceLastGC
