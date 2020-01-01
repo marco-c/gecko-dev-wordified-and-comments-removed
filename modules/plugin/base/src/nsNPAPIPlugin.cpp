@@ -3610,7 +3610,7 @@ char
 *
 name
 =
-nsPluginHostImpl
+nsPluginHost
 :
 :
 GetPluginName
@@ -11618,7 +11618,7 @@ nsIPrompt
 >
 prompt
 ;
-nsPluginHostImpl
+nsPluginHost
 :
 :
 GetPrompt

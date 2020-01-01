@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsPluginHostImpl
+nsPluginHost
 .
 h
 "

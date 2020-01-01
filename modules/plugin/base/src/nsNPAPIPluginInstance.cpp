@@ -50,7 +50,7 @@ h
 #
 include
 "
-nsPluginHostImpl
+nsPluginHost
 .
 h
 "
@@ -4381,7 +4381,7 @@ break
 }
 mIsJavaPlugin
 =
-nsPluginHostImpl
+nsPluginHost
 :
 :
 IsJavaMIMEType

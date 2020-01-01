@@ -515,7 +515,7 @@ nsNPAPIPluginInstance
 .
 cpp
 \
-nsPluginHostImpl
+nsPluginHost
 .
 cpp
 \
