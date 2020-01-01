@@ -359,7 +359,7 @@ aSize
 ;
 virtual
 bool
-UseAsyncPainting
+IsOOP
 (
 )
 =
