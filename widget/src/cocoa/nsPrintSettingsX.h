@@ -45,14 +45,6 @@ Init
 (
 )
 ;
-nsresult
-GetUnwriteableMarginInTwips
-(
-nsMargin
-&
-aUnwriteableMargin
-)
-;
 protected
 :
 nsPrintSettingsX
