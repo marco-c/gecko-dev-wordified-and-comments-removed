@@ -704,7 +704,6 @@ return
 rv
 ;
 }
-}
 +
 +
 mEntryCount
@@ -733,6 +732,7 @@ EvictEntriesIfNecessary
 (
 )
 ;
+}
 return
 NS_OK
 ;
