@@ -139,9 +139,7 @@ mozilla
 .
 gecko
 .
-gfx
-.
-LayerView
+GeckoView
 android
 :
 id
