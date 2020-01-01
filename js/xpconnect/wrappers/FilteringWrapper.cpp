@@ -827,7 +827,7 @@ NNXOW
 FilteringWrapper
 <
 CrossCompartmentSecurityWrapper
-CrossOriginAccessiblePropertiesOnly
+Opaque
 >
 #
 define
