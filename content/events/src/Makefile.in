@@ -165,10 +165,6 @@ nsDOMMutationEvent
 .
 cpp
 \
-nsDOMPopupBlockedEvent
-.
-cpp
-\
 nsDOMDeviceMotionEvent
 .
 cpp
