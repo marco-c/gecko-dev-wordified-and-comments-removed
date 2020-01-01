@@ -7,7 +7,7 @@ BenchmarkSuite
 '
 Richards
 '
-34886
+35302
 [
 new
 Benchmark
@@ -222,7 +222,9 @@ holdCount
 .
 "
 ;
-print
+throw
+new
+Error
 (
 msg
 )

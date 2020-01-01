@@ -7,7 +7,7 @@ BenchmarkSuite
 '
 DeltaBlue
 '
-71104
+66118
 [
 new
 Benchmark
@@ -24,7 +24,7 @@ Object
 .
 prototype
 .
-inherits
+inheritsFrom
 =
 function
 (
@@ -773,7 +773,7 @@ addConstraint
 }
 UnaryConstraint
 .
-inherits
+inheritsFrom
 (
 Constraint
 )
@@ -1025,7 +1025,7 @@ str
 }
 StayConstraint
 .
-inherits
+inheritsFrom
 (
 UnaryConstraint
 )
@@ -1062,7 +1062,7 @@ str
 }
 EditConstraint
 .
-inherits
+inheritsFrom
 (
 UnaryConstraint
 )
@@ -1166,7 +1166,7 @@ addConstraint
 }
 BinaryConstraint
 .
-inherits
+inheritsFrom
 (
 Constraint
 )
@@ -1201,7 +1201,7 @@ direction
 (
 this
 .
-v1
+v2
 .
 mark
 !
@@ -1725,7 +1725,7 @@ strength
 }
 ScaleConstraint
 .
-inherits
+inheritsFrom
 (
 BinaryConstraint
 )
@@ -2049,7 +2049,7 @@ strength
 }
 EqualityConstraint
 .
-inherits
+inheritsFrom
 (
 BinaryConstraint
 )
