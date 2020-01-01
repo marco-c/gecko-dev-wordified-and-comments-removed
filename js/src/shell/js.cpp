@@ -25640,7 +25640,7 @@ rt
 =
 JS_NewRuntime
 (
-64L
+128L
 *
 1024L
 *
