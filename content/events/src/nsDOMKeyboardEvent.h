@@ -292,17 +292,6 @@ aCharCode
 )
 ;
 }
-protected
-:
-virtual
-nsresult
-Which
-(
-uint32_t
-*
-aWhich
-)
-;
 }
 ;
 #
