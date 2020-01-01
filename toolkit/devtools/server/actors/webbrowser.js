@@ -2401,6 +2401,14 @@ enabled
 =
 true
 ;
+this
+.
+threadActor
+.
+maybePauseOnExceptions
+(
+)
+;
 }
 }
 }

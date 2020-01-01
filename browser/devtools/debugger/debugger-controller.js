@@ -1417,7 +1417,11 @@ client
 .
 reconfigureThread
 (
+{
+useSourceMaps
+:
 aUseSourceMaps
+}
 (
 aResponse
 )
