@@ -11192,6 +11192,15 @@ expr
 )
 ;
 }
+PR_SetEnv
+(
+"
+NO_AT_BRIDGE
+=
+1
+"
+)
+;
 #
 endif
 #
