@@ -184,7 +184,7 @@ TEST
 1
 true
 x
-=
+!
 =
 likeString
 )

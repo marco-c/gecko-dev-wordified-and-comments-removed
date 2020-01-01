@@ -13417,8 +13417,13 @@ type
 JSTYPE_FUNCTION
 )
 ;
+JS_ASSERT
+(
+obj
+)
+;
 return
-js_TryValueOf
+DefaultValue
 (
 cx
 obj

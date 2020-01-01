@@ -27,14 +27,10 @@ script
 2
 .
 js
-fails
 script
 defaultvalue
 .
 js
-#
-bug
-646129
 script
 toJSON
 -

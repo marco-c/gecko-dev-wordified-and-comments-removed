@@ -4397,7 +4397,7 @@ PropertyStub
 StrictPropertyStub
 EnumerateStub
 ResolveStub
-js_TryValueOf
+ConvertStub
 NULL
 NULL
 NULL
@@ -4442,7 +4442,7 @@ PropertyStub
 StrictPropertyStub
 EnumerateStub
 ResolveStub
-js_TryValueOf
+ConvertStub
 }
 ;
 static
