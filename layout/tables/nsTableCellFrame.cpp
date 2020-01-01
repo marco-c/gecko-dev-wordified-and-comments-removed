@@ -3790,13 +3790,6 @@ NS_TABLE_CELL_HAD_SPECIAL_REFLOW
 )
 ;
 }
-nscoord
-availHeight
-=
-aReflowState
-.
-availableHeight
-;
 nsTableFrame
 :
 :
@@ -3815,7 +3808,9 @@ availSize
 aReflowState
 .
 availableWidth
-availHeight
+aReflowState
+.
+availableHeight
 )
 ;
 nsTableFrame
