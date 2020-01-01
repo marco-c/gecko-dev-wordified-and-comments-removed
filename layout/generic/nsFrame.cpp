@@ -2428,7 +2428,7 @@ view
 view
 -
 >
-SetClientData
+SetFrame
 (
 nsnull
 )
@@ -18310,7 +18310,7 @@ aView
 aView
 -
 >
-SetClientData
+SetFrame
 (
 this
 )
