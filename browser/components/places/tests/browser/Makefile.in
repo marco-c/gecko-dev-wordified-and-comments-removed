@@ -451,6 +451,10 @@ browser_0_library_left_pane_migration
 .
 js
 \
+browser_library_left_pane_fixnames
+.
+js
+\
 browser_425884
 .
 js
@@ -496,6 +500,10 @@ browser_forgetthissite_single
 js
 \
 browser_library_left_pane_commands
+.
+js
+\
+browser_library_multiple_left_panes
 .
 js
 \
