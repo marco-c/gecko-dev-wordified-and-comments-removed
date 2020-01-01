@@ -707,9 +707,10 @@ jsint
 1
 1
 )
-BUILTIN3
+BUILTIN4
 (
 String_p_match
+LO
 LO
 LO
 LO
@@ -719,6 +720,8 @@ JSObject
 JSContext
 *
 JSString
+*
+jsbytecode
 *
 JSObject
 *
