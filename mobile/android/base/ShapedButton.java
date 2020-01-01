@@ -229,7 +229,7 @@ CanvasDelegate
 this
 Mode
 .
-DST_OUT
+DST_IN
 )
 ;
 setWillNotDraw
@@ -344,8 +344,16 @@ mPath
 .
 lineTo
 (
-0
+width
 height
+)
+;
+mPath
+.
+lineTo
+(
+width
+0
 )
 ;
 mPath
@@ -416,7 +424,7 @@ mPath
 .
 lineTo
 (
-width
+0
 height
 )
 ;
@@ -424,7 +432,7 @@ mPath
 .
 lineTo
 (
-width
+0
 0
 )
 ;
