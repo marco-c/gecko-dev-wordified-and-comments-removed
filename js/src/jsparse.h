@@ -3139,6 +3139,9 @@ js
 AutoKeepAtoms
 keepAtoms
 ;
+bool
+foldConstants
+;
 Parser
 (
 JSContext
@@ -3154,6 +3157,10 @@ StackFrame
 cfp
 =
 NULL
+bool
+fold
+=
+true
 )
 ;
 ~

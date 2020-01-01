@@ -674,6 +674,8 @@ prin
 StackFrame
 *
 cfp
+bool
+foldConstants
 )
 :
 js
@@ -744,6 +746,10 @@ cx
 -
 >
 runtime
+)
+foldConstants
+(
+foldConstants
 )
 {
 js
@@ -2894,6 +2900,15 @@ pn_type
 =
 =
 TOK_NUMBER
+&
+&
+tc
+-
+>
+parser
+-
+>
+foldConstants
 )
 {
 left
@@ -3356,6 +3371,10 @@ NULL
 ;
 }
 else
+if
+(
+foldConstants
+)
 {
 if
 (
@@ -29159,6 +29178,9 @@ end
 ;
 if
 (
+foldConstants
+&
+&
 !
 js_FoldConstants
 (
