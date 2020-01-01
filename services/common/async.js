@@ -1,3 +1,6 @@
+#
+ifndef
+MERGED_COMPARTMENT
 this
 .
 EXPORTED_SYMBOLS
@@ -26,6 +29,8 @@ Cu
 =
 Components
 ;
+#
+endif
 const
 CB_READY
 =

@@ -70,6 +70,17 @@ include
 /
 common
 /
+async
+.
+js
+;
+#
+include
+.
+.
+/
+common
+/
 bagheeraclient
 .
 js
