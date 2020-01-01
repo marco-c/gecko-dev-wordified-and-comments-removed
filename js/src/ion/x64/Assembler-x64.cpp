@@ -689,7 +689,7 @@ offset
 )
 )
 ;
-MarkIonCode
+MarkIonCodeUnbarriered
 (
 trc
 child

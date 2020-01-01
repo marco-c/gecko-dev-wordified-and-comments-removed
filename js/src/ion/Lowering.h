@@ -224,6 +224,17 @@ uint32
 argc
 )
 ;
+bool
+emitWriteBarrier
+(
+MInstruction
+*
+ins
+MDefinition
+*
+input
+)
+;
 public
 :
 bool

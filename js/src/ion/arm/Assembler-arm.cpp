@@ -636,6 +636,15 @@ i
 +
 )
 {
+RelativePatch
+&
+rp
+=
+jumps_
+[
+i
+]
+;
 JS_NOT_REACHED
 (
 "
@@ -846,7 +855,7 @@ offset
 )
 )
 ;
-MarkIonCode
+MarkIonCodeUnbarriered
 (
 trc
 child
@@ -1025,7 +1034,7 @@ Relocation
 :
 CODE
 )
-MarkIonCode
+MarkIonCodeUnbarriered
 (
 trc
 IonCode
@@ -2035,12 +2044,10 @@ op_teq
 return
 op_eor
 ;
-default
-:
+}
 return
 op
 ;
-}
 }
 O2RegImmShift
 ion
@@ -6339,9 +6346,6 @@ offset
 ;
 JS_ASSERT
 (
-(
-int32
-)
 prev
 =
 =
@@ -6515,9 +6519,6 @@ NYI
 )
 ;
 }
-#
-if
-0
 void
 Assembler
 :
@@ -6632,8 +6633,6 @@ NYI
 )
 ;
 }
-#
-endif
 void
 Assembler
 :
