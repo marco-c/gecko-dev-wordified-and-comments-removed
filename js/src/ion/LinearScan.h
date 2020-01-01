@@ -56,6 +56,13 @@ h
 #
 include
 "
+StackSlotAllocator
+.
+h
+"
+#
+include
+"
 js
 /
 Vector
@@ -1854,8 +1861,8 @@ liveIn
 VirtualRegisterMap
 vregs
 ;
-StackAssignment
-stackAssignment
+StackSlotAllocator
+stackSlotAllocator
 ;
 UnhandledQueue
 unhandled
