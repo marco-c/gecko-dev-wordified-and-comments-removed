@@ -896,6 +896,13 @@ void
 *
 eor
 ;
+nanojit
+:
+:
+GuardRecord
+*
+nestedExit
+;
 }
 ;
 class
