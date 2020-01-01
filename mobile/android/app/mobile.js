@@ -6925,3 +6925,17 @@ accessfu
 2
 )
 ;
+pref
+(
+"
+network
+.
+manage
+-
+offline
+-
+status
+"
+true
+)
+;

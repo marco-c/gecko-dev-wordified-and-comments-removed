@@ -6521,3 +6521,17 @@ enabled
 true
 )
 ;
+pref
+(
+"
+network
+.
+manage
+-
+offline
+-
+status
+"
+true
+)
+;
