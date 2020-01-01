@@ -2983,11 +2983,6 @@ x
 XPIDL_LINK
 )
 "
--
--
-debug
-=
-10
 else
 #
 !
