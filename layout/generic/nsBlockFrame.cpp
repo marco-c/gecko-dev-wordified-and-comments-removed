@@ -30661,6 +30661,15 @@ nsCSSAnonBoxes
 :
 :
 columnContent
+|
+|
+pseudo
+=
+=
+nsCSSAnonBoxes
+:
+:
+mozSVGText
 )
 &
 &
