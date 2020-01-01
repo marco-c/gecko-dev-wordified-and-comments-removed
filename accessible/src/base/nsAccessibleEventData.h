@@ -106,9 +106,6 @@ aAttributes
 static
 nsIDOMNode
 *
-nsAccEvent
-:
-:
 GetLastEventAtomicRegion
 (
 nsIDOMNode
