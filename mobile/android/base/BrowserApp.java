@@ -1497,11 +1497,8 @@ run
 {
 mBrowserToolbar
 .
-setVisibility
+show
 (
-View
-.
-VISIBLE
 )
 ;
 mBrowserToolbar
