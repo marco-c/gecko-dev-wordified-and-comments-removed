@@ -7568,10 +7568,10 @@ iconUrl
 )
 ;
 }
-handleTabPin
+addAppTab
 :
 function
-GroupItems_handleTabPin
+GroupItems_addAppTab
 (
 xulTab
 )
@@ -7598,10 +7598,10 @@ xulTab
 )
 ;
 }
-handleTabUnpin
+removeAppTab
 :
 function
-GroupItems_handleTabUnpin
+GroupItems_removeAppTab
 (
 xulTab
 )
