@@ -255,7 +255,15 @@ NeedsWidgetInvalidation
 MOZ_OVERRIDE
 {
 return
-false
+Compositor
+:
+:
+GetBackend
+(
+)
+=
+=
+LAYERS_BASIC
 ;
 }
 ShadowableLayer
