@@ -757,11 +757,6 @@ root
 this
 ;
 }
-void
-onDestroy
-(
-)
-;
 verbose_only
 (
 uint32_t
