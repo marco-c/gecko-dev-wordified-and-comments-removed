@@ -57,7 +57,7 @@ h
 #
 include
 "
-SVGMPathElement
+nsSVGMpathElement
 .
 h
 "
@@ -71,10 +71,6 @@ h
 namespace
 mozilla
 {
-using
-namespace
-dom
-;
 SVGMotionSMILAnimationFunction
 :
 :
@@ -598,7 +594,7 @@ GetEnumValue
 ;
 }
 static
-SVGMPathElement
+nsSVGMpathElement
 *
 GetFirstMpathChild
 (
@@ -649,7 +645,7 @@ mpath
 return
 static_cast
 <
-SVGMPathElement
+nsSVGMpathElement
 *
 >
 (
@@ -1079,7 +1075,7 @@ SVGMotionSMILAnimationFunction
 :
 RebuildPathAndVerticesFromMpathElem
 (
-SVGMPathElement
+nsSVGMpathElement
 *
 aMpathElem
 )
@@ -1312,7 +1308,7 @@ mPathSourceType
 =
 ePathSourceType_None
 ;
-SVGMPathElement
+nsSVGMpathElement
 *
 firstMpathChild
 =
