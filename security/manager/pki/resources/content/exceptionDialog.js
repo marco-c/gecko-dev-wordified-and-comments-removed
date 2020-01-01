@@ -234,7 +234,7 @@ gPKIBundle
 formatStringFromName
 (
 "
-addExceptionBrandedWarning
+addExceptionBrandedWarning2
 "
 [
 brandName
