@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsIRunnable
+.
+h
+"
+#
+include
+"
 BluetoothCommon
 .
 h
@@ -88,7 +95,7 @@ aEvent
 nsresult
 Start
 (
-BluetoothReplyRunnable
+nsIRunnable
 *
 aResultRunnable
 )
@@ -96,7 +103,7 @@ aResultRunnable
 nsresult
 Stop
 (
-BluetoothReplyRunnable
+nsIRunnable
 *
 aResultRunnable
 )
@@ -426,7 +433,7 @@ BluetoothService
 nsresult
 StartStopBluetooth
 (
-BluetoothReplyRunnable
+nsIRunnable
 *
 aResultRunnable
 bool
