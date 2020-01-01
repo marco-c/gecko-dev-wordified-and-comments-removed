@@ -3230,6 +3230,11 @@ script
 scriptSource
 (
 )
+-
+>
+hasSourceData
+(
+)
 &
 &
 !
@@ -3248,9 +3253,11 @@ cx
 haveSource
 )
 )
+{
 return
 NULL
 ;
+}
 if
 (
 haveSource
