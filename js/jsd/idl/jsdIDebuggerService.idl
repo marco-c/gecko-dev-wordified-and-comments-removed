@@ -6435,6 +6435,9 @@ in
 unsigned
 long
 maxLines
+[
+optional
+]
 out
 unsigned
 long
