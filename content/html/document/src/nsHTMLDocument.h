@@ -596,7 +596,7 @@ const
 nsAString
 &
 aName
-nsIDOMHTMLFormElement
+nsIContent
 *
 aForm
 nsISupports

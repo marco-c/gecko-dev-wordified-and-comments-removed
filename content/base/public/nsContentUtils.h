@@ -1202,7 +1202,7 @@ static
 PRBool
 BelongsInForm
 (
-nsIDOMHTMLFormElement
+nsIContent
 *
 aForm
 nsIContent

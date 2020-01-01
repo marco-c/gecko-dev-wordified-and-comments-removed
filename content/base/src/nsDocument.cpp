@@ -943,7 +943,7 @@ define
 NAME_NOT_VALID
 (
 (
-nsBaseContentList
+nsSimpleContentList
 *
 )
 1
@@ -1938,6 +1938,9 @@ nsIdentifierMapEntry
 :
 AddNameElement
 (
+nsIDocument
+*
+aDocument
 Element
 *
 aElement
@@ -1952,8 +1955,9 @@ mNameContentList
 mNameContentList
 =
 new
-nsBaseContentList
+nsSimpleContentList
 (
+aDocument
 )
 ;
 }
@@ -10847,6 +10851,7 @@ entry
 >
 AddNameElement
 (
+this
 aElement
 )
 ;
@@ -11957,13 +11962,14 @@ NS_ENSURE_ARG_POINTER
 aReturn
 )
 ;
-nsBaseContentList
+nsSimpleContentList
 *
 elements
 =
 new
-nsBaseContentList
+nsSimpleContentList
 (
+this
 )
 ;
 NS_ADDREF
