@@ -3774,6 +3774,10 @@ nsFlexContainerFrame
 :
 GetSkipSides
 (
+const
+nsHTMLReflowState
+*
+aReflowState
 )
 const
 {

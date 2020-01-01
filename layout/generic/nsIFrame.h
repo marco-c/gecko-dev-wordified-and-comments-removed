@@ -2182,6 +2182,12 @@ ApplySkipSides
 nsMargin
 &
 aMargin
+const
+nsHTMLReflowState
+*
+aReflowState
+=
+nullptr
 )
 const
 ;
@@ -4920,6 +4926,12 @@ virtual
 int
 GetSkipSides
 (
+const
+nsHTMLReflowState
+*
+aReflowState
+=
+nullptr
 )
 const
 {
