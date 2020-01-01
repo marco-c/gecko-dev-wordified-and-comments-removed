@@ -21613,11 +21613,10 @@ atom
 {
 JS_ASSERT
 (
-!
 obj
 -
 >
-sealed
+isExtensible
 (
 )
 )
@@ -22140,11 +22139,10 @@ writable
 ;
 JS_ASSERT
 (
-!
 obj2
 -
 >
-sealed
+isExtensible
 (
 )
 )

@@ -5612,6 +5612,7 @@ NULL
 NULL
 proxy_TraceObject
 NULL
+NULL
 proxy_Finalize
 }
 }
@@ -5667,6 +5668,7 @@ proxy_DeleteProperty
 NULL
 NULL
 proxy_TraceObject
+NULL
 NULL
 proxy_Finalize
 }
@@ -5861,6 +5863,7 @@ proxy_DeleteProperty
 NULL
 proxy_TypeOf_fun
 proxy_TraceObject
+NULL
 NULL
 NULL
 }

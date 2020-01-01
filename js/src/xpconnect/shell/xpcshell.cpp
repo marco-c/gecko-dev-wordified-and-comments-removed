@@ -6139,11 +6139,10 @@ gobj
 if
 (
 !
-JS_SealObject
+JS_DeepFreezeObject
 (
 cx
 obj
-JS_TRUE
 )
 )
 return
