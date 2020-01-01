@@ -25772,6 +25772,9 @@ pc
 case
 BRANCH_EXIT
 :
+case
+CASE_EXIT
+:
 js_AbortRecording
 (
 cx
