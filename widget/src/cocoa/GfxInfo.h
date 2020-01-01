@@ -61,6 +61,15 @@ aDwriteVersion
 ;
 NS_SCRIPTABLE
 NS_IMETHOD
+GetCleartypeParameters
+(
+nsAString
+&
+aCleartypeParams
+)
+;
+NS_SCRIPTABLE
+NS_IMETHOD
 GetAdapterDescription
 (
 nsAString
