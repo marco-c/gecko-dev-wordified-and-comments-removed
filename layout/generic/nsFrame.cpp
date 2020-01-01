@@ -4649,6 +4649,8 @@ HasAnimationsForCompositor
 mContent
 eCSSProperty_opacity
 )
+&
+&
 mContent
 -
 >
