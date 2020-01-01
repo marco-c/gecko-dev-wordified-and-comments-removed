@@ -401,6 +401,9 @@ undef
 NECKO_COOKIES
 #
 undef
+NECKO_WIFI
+#
+undef
 NECKO_PROTOCOL_about
 #
 undef

@@ -946,6 +946,13 @@ bin
 /
 components
 /
+necko_wifi
+.
+xpt
+bin
+/
+components
+/
 necko
 .
 xpt

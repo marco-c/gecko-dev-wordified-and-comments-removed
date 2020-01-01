@@ -970,6 +970,13 @@ components
 necko_viewsource
 .
 xpt
+bin
+\
+components
+\
+necko_wifi
+.
+xpt
 #
 ifdef
 OJI
