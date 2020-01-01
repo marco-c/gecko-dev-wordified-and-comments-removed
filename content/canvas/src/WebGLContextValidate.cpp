@@ -2319,12 +2319,6 @@ mBoundRenderbuffer
 =
 nsnull
 ;
-mMapFramebuffers
-.
-Clear
-(
-)
-;
 MakeContextCurrent
 (
 )
