@@ -514,10 +514,6 @@ nsIAccessible_selects
 .
 js
 \
-nsIAccessible_states
-.
-js
-\
 nsIAccessibleEditableText
 .
 js
@@ -527,6 +523,10 @@ relations
 js
 \
 role
+.
+js
+\
+states
 .
 js
 \
