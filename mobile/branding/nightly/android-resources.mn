@@ -22,8 +22,12 @@ alertdownloads
 png
 mobile
 /
-app
+branding
+/
+nightly
+/
+content
 /
 splash
 .
-bmp
+png
