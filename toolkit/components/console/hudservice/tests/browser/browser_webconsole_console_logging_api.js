@@ -417,12 +417,8 @@ node
 ok
 (
 /
-"
 foo
-"
-"
 bar
-"
 /
 .
 test
