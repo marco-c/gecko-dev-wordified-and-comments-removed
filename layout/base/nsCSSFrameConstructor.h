@@ -3097,7 +3097,7 @@ aContent
 )
 ;
 PRBool
-MaybeRecreateContainerForIBSplitterFrame
+MaybeRecreateContainerForFrameRemoval
 (
 nsIFrame
 *

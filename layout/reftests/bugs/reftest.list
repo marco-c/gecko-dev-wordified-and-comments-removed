@@ -3408,7 +3408,6 @@ html
 ref
 .
 html
-fails
 =
 =
 280708
@@ -3423,9 +3422,6 @@ html
 ref
 .
 html
-#
-bug
-473824
 =
 =
 280708
