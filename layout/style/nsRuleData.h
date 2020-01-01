@@ -260,14 +260,11 @@ name_
 id_
 method_
 flags_
-datastruct_
-member_
-\
 parsevariant_
 kwtable_
+\
 stylestruct_
 stylestructoffset_
-\
 animtype_
 )
 \
@@ -422,10 +419,8 @@ name_
 id_
 method_
 flags_
-datastruct_
-\
-member_
 parsevariant_
+\
 kwtable_
 )
 #
