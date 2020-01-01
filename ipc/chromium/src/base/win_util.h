@@ -97,17 +97,6 @@ access
 )
 ;
 bool
-GetUserSidString
-(
-std
-:
-:
-wstring
-*
-user_sid
-)
-;
-bool
 IsShiftPressed
 (
 )
