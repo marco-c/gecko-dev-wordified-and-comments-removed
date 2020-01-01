@@ -9329,7 +9329,7 @@ aString
 {
 #
 ifdef
-MOZ_B2G
+ANDROID
 if
 (
 !
@@ -14123,7 +14123,7 @@ OwnerDoc
 ;
 #
 ifdef
-MOZ_B2G
+ANDROID
 nsCOMPtr
 <
 nsIDOMDocument
@@ -16093,7 +16093,7 @@ aCanPlay
 {
 #
 ifdef
-MOZ_B2G
+ANDROID
 if
 (
 !
@@ -16165,7 +16165,7 @@ UpdateAudioChannelPlayingState
 {
 #
 ifdef
-MOZ_B2G
+ANDROID
 bool
 playingThroughTheAudioChannel
 =
