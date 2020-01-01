@@ -1232,10 +1232,8 @@ AB_CD
 g
 "
 (
-_ABS_DIST
+JARLOG_DIR
 )
-/
-jarlog
 /
 *
 .
