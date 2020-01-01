@@ -241,7 +241,7 @@ NS_IsCycleCollectorThread
 )
 {
 \
-NS_ERROR
+MOZ_NOT_REACHED
 (
 "
 Changing
