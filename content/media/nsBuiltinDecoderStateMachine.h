@@ -515,6 +515,11 @@ PRInt64
 aUsecs
 )
 ;
+nsresult
+StartDecodeThread
+(
+)
+;
 void
 TimeoutExpired
 (
@@ -662,7 +667,7 @@ StopAudioThread
 )
 ;
 nsresult
-StartDecodeThread
+ScheduleDecodeThread
 (
 )
 ;
@@ -917,6 +922,9 @@ mDecodeThreadWaiting
 ;
 bool
 mRealTime
+;
+bool
+mRequestedNewDecodeThread
 ;
 PRUint32
 mBufferingWait
