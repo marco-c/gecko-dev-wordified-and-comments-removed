@@ -170,6 +170,10 @@ HTMLFontElement
 .
 h
 \
+HTMLFrameElement
+.
+h
+\
 HTMLFrameSetElement
 .
 h

@@ -323,6 +323,10 @@ HTMLFontElement
 .
 webidl
 \
+HTMLFrameElement
+.
+webidl
+\
 HTMLFrameSetElement
 .
 webidl
