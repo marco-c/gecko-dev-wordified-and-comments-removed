@@ -262,10 +262,6 @@ mBlockedAudioTime
 (
 0
 )
-mMessageAffectedTime
-(
-0
-)
 mWrapper
 (
 aWrapper
@@ -746,9 +742,6 @@ MediaSegment
 :
 TYPE_COUNT
 ]
-;
-GraphTime
-mMessageAffectedTime
 ;
 nsDOMMediaStream
 *
