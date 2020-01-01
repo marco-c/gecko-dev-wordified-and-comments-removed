@@ -511,6 +511,14 @@ PRUint32
 )
 ;
 }
+gfxContext
+:
+:
+GraphicsOperator
+OptimalFillOperator
+(
+)
+;
 private
 :
 nsRefPtr
