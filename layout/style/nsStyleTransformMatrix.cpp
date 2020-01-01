@@ -1007,16 +1007,14 @@ aContext
 nsPresContext
 *
 aPresContext
+PRBool
+&
+aInherited
 nscoord
 &
 aOut
 )
 {
-PRBool
-unused
-=
-PR_FALSE
-;
 aOut
 =
 nsRuleNode
@@ -1027,22 +1025,7 @@ CalcLength
 aValue
 aContext
 aPresContext
-unused
-)
-;
-NS_POSTCONDITION
-(
-!
-unused
-"
-How
-did
-we
-inherit
-a
-value
-?
-"
+aInherited
 )
 ;
 }
@@ -1083,6 +1066,9 @@ aContext
 nsPresContext
 *
 aPresContext
+PRBool
+&
+aInherited
 )
 {
 NS_PRECONDITION
@@ -1184,6 +1170,7 @@ Item
 )
 aContext
 aPresContext
+aInherited
 aDelta
 [
 0
@@ -1236,6 +1223,7 @@ Item
 )
 aContext
 aPresContext
+aInherited
 aDelta
 [
 1
@@ -1270,6 +1258,9 @@ aContext
 nsPresContext
 *
 aPresContext
+PRBool
+&
+aInherited
 )
 {
 NS_PRECONDITION
@@ -1318,6 +1309,7 @@ Item
 )
 aContext
 aPresContext
+aInherited
 aDelta
 [
 0
@@ -1370,6 +1362,9 @@ aContext
 nsPresContext
 *
 aPresContext
+PRBool
+&
+aInherited
 )
 {
 NS_PRECONDITION
@@ -1418,6 +1413,7 @@ Item
 )
 aContext
 aPresContext
+aInherited
 aDelta
 [
 1
@@ -1475,6 +1471,9 @@ aContext
 nsPresContext
 *
 aPresContext
+PRBool
+&
+aInherited
 )
 {
 NS_PRECONDITION
@@ -1547,6 +1546,7 @@ SetCoordToValue
 dx
 aContext
 aPresContext
+aInherited
 aDelta
 [
 0
@@ -1607,6 +1607,7 @@ SetCoordToValue
 dy
 aContext
 aPresContext
+aInherited
 aDelta
 [
 1
@@ -2220,6 +2221,9 @@ aContext
 nsPresContext
 *
 aPresContext
+PRBool
+&
+aInherited
 )
 {
 NS_PRECONDITION
@@ -2310,6 +2314,7 @@ mX
 aData
 aContext
 aPresContext
+aInherited
 )
 ;
 break
@@ -2324,6 +2329,7 @@ mY
 aData
 aContext
 aPresContext
+aInherited
 )
 ;
 break
@@ -2339,6 +2345,7 @@ mY
 aData
 aContext
 aPresContext
+aInherited
 )
 ;
 break
@@ -2432,6 +2439,7 @@ mY
 aData
 aContext
 aPresContext
+aInherited
 )
 ;
 break

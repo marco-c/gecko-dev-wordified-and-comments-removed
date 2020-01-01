@@ -92,6 +92,9 @@ aContext
 nsPresContext
 *
 aPresContext
+PRBool
+&
+aInherited
 )
 ;
 void
