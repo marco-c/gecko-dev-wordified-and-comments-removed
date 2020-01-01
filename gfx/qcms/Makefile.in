@@ -254,10 +254,9 @@ transform
 sse1
 .
 c
-Makefile
-Makefile
-.
-in
+(
+GLOBAL_DEPS
+)
 (
 REPORT_BUILD
 )
@@ -297,10 +296,9 @@ transform
 sse2
 .
 c
-Makefile
-Makefile
-.
-in
+(
+GLOBAL_DEPS
+)
 (
 REPORT_BUILD
 )
