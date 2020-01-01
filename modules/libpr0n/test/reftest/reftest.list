@@ -180,6 +180,15 @@ reftest
 .
 list
 #
+GIF
+tests
+include
+gif
+/
+reftest
+.
+list
+#
 APNG
 tests
 include
