@@ -11501,6 +11501,12 @@ compartment
 (
 )
 ;
+AutoEnterAnalysis
+enter
+(
+compartment
+)
+;
 if
 (
 !
@@ -23767,7 +23773,12 @@ cx
 AutoEnterAnalysis
 enter
 (
-cx
+script
+-
+>
+compartment
+(
+)
 )
 ;
 TypeCompartment
