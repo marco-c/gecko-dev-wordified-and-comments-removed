@@ -6376,6 +6376,15 @@ GetChromeEventHandler
 (
 )
 ;
+if
+(
+!
+eventTarget
+)
+{
+return
+;
+}
 }
 nsNotifyPaintEvent
 event
