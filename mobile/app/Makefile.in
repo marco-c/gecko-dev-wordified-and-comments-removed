@@ -512,12 +512,6 @@ STL_FLAGS
 LIBS
 +
 =
-(
-JEMALLOC_LIBS
-)
-LIBS
-+
-=
 \
 (
 EXTRA_DSO_LIBS

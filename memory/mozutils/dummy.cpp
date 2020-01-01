@@ -1,0 +1,7 @@
+void
+_dummy
+(
+void
+)
+{
+}

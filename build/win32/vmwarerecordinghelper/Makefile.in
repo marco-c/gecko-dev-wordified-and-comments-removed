@@ -459,6 +459,8 @@ LIBRARY_NAME
 )
 .
 cpp
+MOZ_UTILS_LDFLAGS
+=
 include
 (
 topsrcdir
