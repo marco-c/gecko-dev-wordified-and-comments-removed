@@ -1641,6 +1641,17 @@ observer
 ;
 }
 public
+void
+registerHistoryObserver
+(
+ContentResolver
+cr
+ContentObserver
+observer
+)
+{
+}
+public
 BitmapDrawable
 getFaviconForUrl
 (
