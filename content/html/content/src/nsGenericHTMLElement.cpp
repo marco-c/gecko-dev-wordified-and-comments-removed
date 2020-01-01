@@ -3771,6 +3771,14 @@ ClearHasFixedDir
 (
 )
 ;
+ClearHasDirAuto
+(
+)
+;
+ClearHasDirAutoSet
+(
+)
+;
 if
 (
 NodeInfo
