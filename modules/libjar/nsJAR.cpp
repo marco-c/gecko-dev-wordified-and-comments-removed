@@ -1419,7 +1419,7 @@ buf
 char
 *
 )
-PR_MALLOC
+malloc
 (
 len
 +
@@ -1469,7 +1469,7 @@ rv
 )
 )
 {
-PR_FREEIF
+free
 (
 buf
 )
