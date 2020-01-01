@@ -1895,6 +1895,9 @@ hasGlobalReallocation
 bool
 oomInVector
 ;
+uint32
+gcNumber
+;
 enum
 {
 NoApplyTricks
