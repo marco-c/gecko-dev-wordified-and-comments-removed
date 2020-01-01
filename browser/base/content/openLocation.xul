@@ -743,6 +743,7 @@ true
 autocompletesearch
 =
 "
+urlinline
 history
 "
 enablehistory
