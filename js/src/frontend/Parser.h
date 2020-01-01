@@ -317,7 +317,7 @@ TreeContext
 ;
 friend
 struct
-Compiler
+BytecodeCompiler
 ;
 bool
 init

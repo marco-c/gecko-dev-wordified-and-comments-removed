@@ -22437,7 +22437,7 @@ TCF_NEED_MUTABLE_SCRIPT
 TCF_NEED_SCRIPT_OBJECT
 ;
 return
-Compiler
+BytecodeCompiler
 :
 :
 compileScript
@@ -23328,7 +23328,7 @@ TCF_NEED_SCRIPT_OBJECT
 ;
 script
 =
-Compiler
+BytecodeCompiler
 :
 :
 compileScript
@@ -23913,7 +23913,7 @@ NULL
 if
 (
 !
-Compiler
+BytecodeCompiler
 :
 :
 compileFunctionBody
@@ -24826,7 +24826,7 @@ JSScript
 *
 script
 =
-Compiler
+BytecodeCompiler
 :
 :
 compileScript

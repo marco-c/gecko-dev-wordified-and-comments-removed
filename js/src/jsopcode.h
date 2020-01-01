@@ -909,7 +909,7 @@ global
 code
 (
 see
-Compiler
+BytecodeCompiler
 :
 :
 compileScript

@@ -1228,7 +1228,7 @@ ensureSharpSlots
 (
 )
 ;
-Compiler
+BytecodeCompiler
 *
 compiler
 (
@@ -1236,7 +1236,7 @@ compiler
 {
 return
 (
-Compiler
+BytecodeCompiler
 *
 )
 parser

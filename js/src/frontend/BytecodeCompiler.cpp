@@ -62,10 +62,10 @@ frontend
 namespace
 js
 {
-Compiler
+BytecodeCompiler
 :
 :
-Compiler
+BytecodeCompiler
 (
 JSContext
 *
@@ -92,7 +92,7 @@ NULL
 }
 JSScript
 *
-Compiler
+BytecodeCompiler
 :
 :
 compileScript
@@ -184,7 +184,7 @@ staticLevel
 callerFrame
 )
 ;
-Compiler
+BytecodeCompiler
 compiler
 (
 cx
@@ -1123,7 +1123,7 @@ out
 ;
 }
 bool
-Compiler
+BytecodeCompiler
 :
 :
 defineGlobals
@@ -1626,7 +1626,7 @@ true
 ;
 }
 bool
-Compiler
+BytecodeCompiler
 :
 :
 compileFunctionBody
@@ -1659,7 +1659,7 @@ JSVersion
 version
 )
 {
-Compiler
+BytecodeCompiler
 compiler
 (
 cx

@@ -5707,7 +5707,7 @@ JSScript
 *
 compiled
 =
-Compiler
+BytecodeCompiler
 :
 :
 compileScript

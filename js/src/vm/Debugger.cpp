@@ -15480,7 +15480,7 @@ JSScript
 *
 script
 =
-Compiler
+BytecodeCompiler
 :
 :
 compileScript
