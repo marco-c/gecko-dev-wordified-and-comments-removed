@@ -8,8 +8,11 @@ OptionParser
 from
 subprocess
 import
-PIPE
 Popen
+PIPE
+from
+util
+import
 check_call
 def
 RequireEnvironmentVariable
