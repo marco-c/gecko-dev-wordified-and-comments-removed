@@ -26492,12 +26492,6 @@ html
 ref
 .
 html
-fails
--
-if
-(
-Android
-)
 =
 =
 650228
