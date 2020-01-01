@@ -423,6 +423,13 @@ jsconsole
 clhandler
 .
 manifest
+PARALLEL_DIRS
+=
+hudservice
+\
+(
+NULL
+)
 include
 (
 topsrcdir

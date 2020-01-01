@@ -1476,7 +1476,8 @@ isProxy
 )
 realm
 =
-null
+"
+"
 ;
 if
 (
