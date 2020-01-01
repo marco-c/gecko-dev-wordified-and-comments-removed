@@ -22,6 +22,13 @@ testNames
 (
 )
 {
+enableLogging
+(
+"
+tree
+"
+)
+;
 var
 request
 =
@@ -249,6 +256,13 @@ markupElms
 length
 )
 {
+disableLogging
+(
+"
+tree
+"
+)
+;
 SimpleTest
 .
 finish
