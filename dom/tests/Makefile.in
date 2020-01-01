@@ -423,9 +423,9 @@ NULL
 XPCSHELL_TESTS
 =
 unit
-ifeq
+ifneq
 (
-browser
+mobile
 (
 MOZ_BUILD_APP
 )

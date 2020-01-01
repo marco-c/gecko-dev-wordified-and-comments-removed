@@ -437,9 +437,9 @@ schema_migration
 (
 NULL
 )
-ifeq
+ifneq
 (
-browser
+mobile
 (
 MOZ_BUILD_APP
 )

@@ -527,9 +527,9 @@ config
 rules
 .
 mk
-ifeq
+ifneq
 (
-browser
+mobile
 (
 MOZ_BUILD_APP
 )

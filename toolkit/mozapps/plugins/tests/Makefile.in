@@ -445,9 +445,9 @@ relativesrcdir
 USE_STATIC_LIBS
 =
 1
-ifeq
+ifneq
 (
-browser
+mobile
 (
 MOZ_BUILD_APP
 )
@@ -566,9 +566,9 @@ BIN_SUFFIX
 )
 cp
 <
-ifeq
+ifneq
 (
-browser
+mobile
 (
 MOZ_BUILD_APP
 )

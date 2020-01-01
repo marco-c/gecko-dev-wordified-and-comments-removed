@@ -517,9 +517,9 @@ bug_461710
 (
 NULL
 )
-ifeq
+ifneq
 (
-browser
+mobile
 (
 MOZ_BUILD_APP
 )

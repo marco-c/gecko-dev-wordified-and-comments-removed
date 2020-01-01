@@ -1302,9 +1302,9 @@ svg
 (
 NULL
 )
-ifeq
+ifneq
 (
-browser
+mobile
 (
 MOZ_BUILD_APP
 )
@@ -1397,9 +1397,9 @@ css
 -
 visited
 /
-ifeq
+ifneq
 (
-browser
+mobile
 (
 MOZ_BUILD_APP
 )
