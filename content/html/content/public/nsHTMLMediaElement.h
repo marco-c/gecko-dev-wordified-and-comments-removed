@@ -393,6 +393,11 @@ PRUint64
 aTime
 )
 ;
+nsresult
+DispatchPendingMediaEvents
+(
+)
+;
 enum
 NextFrameStatus
 {
@@ -946,6 +951,12 @@ nsCOMPtr
 nsIDocument
 >
 mLoadBlockedDoc
+;
+nsTArray
+<
+nsString
+>
+mPendingEvents
 ;
 nsMediaNetworkState
 mNetworkState
