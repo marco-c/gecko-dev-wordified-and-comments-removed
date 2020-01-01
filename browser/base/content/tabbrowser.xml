@@ -8652,6 +8652,7 @@ isRemote
 aRemote
 )
 return
+false
 ;
 /
 /
@@ -8790,6 +8791,9 @@ removeAttribute
 remote
 "
 )
+;
+return
+true
 ;
 ]
 ]
