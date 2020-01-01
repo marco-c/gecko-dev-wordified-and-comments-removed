@@ -436,6 +436,8 @@ UP
 LEFT
 RIGHT
 ENTER
+MENU
+BACK
 }
 public
 interface
