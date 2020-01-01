@@ -1277,6 +1277,15 @@ mRules
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+nsCOMPtr
+<
+nsIEditRules
+>
+kungFuDeathGrip
+(
+mRules
+)
+;
 ForceCompositionEnd
 (
 )
