@@ -1098,11 +1098,6 @@ flagsOffset
 )
 ;
 uint32
-flagsAndFreeslot
-(
-)
-;
-uint32
 shape
 (
 )
