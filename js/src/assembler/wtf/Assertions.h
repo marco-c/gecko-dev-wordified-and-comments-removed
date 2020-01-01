@@ -124,7 +124,7 @@ h
 endif
 #
 if
-WTF_PLATFORM_SYMBIAN
+WTF_OS_SYMBIAN
 #
 include
 <
@@ -478,7 +478,7 @@ ifndef
 CRASH
 #
 if
-WTF_PLATFORM_SYMBIAN
+WTF_OS_SYMBIAN
 #
 define
 CRASH
@@ -574,10 +574,10 @@ endif
 endif
 #
 if
-WTF_PLATFORM_WIN_OS
+WTF_PLATFORM_WIN
 |
 |
-WTF_PLATFORM_SYMBIAN
+WTF_OS_SYMBIAN
 #
 undef
 ASSERT

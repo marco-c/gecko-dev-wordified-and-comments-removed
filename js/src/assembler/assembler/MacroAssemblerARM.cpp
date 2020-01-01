@@ -121,7 +121,7 @@ isVFPPresent
 {
 #
 if
-WTF_PLATFORM_LINUX
+WTF_OS_LINUX
 int
 fd
 =
