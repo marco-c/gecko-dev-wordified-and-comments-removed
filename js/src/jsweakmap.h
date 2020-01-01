@@ -642,7 +642,6 @@ toGCThing
 )
 )
 ;
-else
 return
 true
 ;
