@@ -6367,9 +6367,7 @@ fileLocator
 >
 Get
 (
-"
-Favs
-"
+NS_WIN_FAVORITES_DIR
 NS_GET_IID
 (
 nsIFile
