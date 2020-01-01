@@ -1670,6 +1670,11 @@ bool
 aAudio
 )
 ;
+void
+StopMediaStreams
+(
+)
+;
 WindowTable
 mActiveWindows
 ;
