@@ -417,13 +417,15 @@ nsThebesGfxModuleCtor
 (
 )
 {
-return
 gfxPlatform
 :
 :
 Init
 (
 )
+;
+return
+NS_OK
 ;
 }
 static

@@ -282,7 +282,7 @@ GetPlatform
 )
 ;
 static
-nsresult
+void
 Init
 (
 )
