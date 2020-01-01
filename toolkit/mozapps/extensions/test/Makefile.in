@@ -466,8 +466,6 @@ test_extensionmanager
 DIRS
 =
 \
-browser
-\
 xpinstall
 \
 (
