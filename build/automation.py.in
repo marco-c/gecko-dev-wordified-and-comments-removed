@@ -9721,9 +9721,7 @@ info
 '
 INFO
 |
-automation
-.
-py
+zombiecheck
 |
 Reading
 PID
@@ -9823,9 +9821,7 @@ info
 "
 INFO
 |
-automation
-.
-py
+zombiecheck
 |
 Checking
 for
@@ -9863,9 +9859,7 @@ UNEXPECTED
 -
 FAIL
 |
-automation
-.
-py
+zombiecheck
 |
 child
 process
