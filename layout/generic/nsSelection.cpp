@@ -13467,8 +13467,10 @@ cmp2
 0
 )
 {
+nsRefPtr
+<
 nsRange
-*
+>
 postOverlap
 =
 new
@@ -13583,8 +13585,10 @@ cmp
 0
 )
 {
+nsRefPtr
+<
 nsRange
-*
+>
 preOverlap
 =
 new
