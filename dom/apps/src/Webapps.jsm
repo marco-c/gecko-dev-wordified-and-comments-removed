@@ -2016,7 +2016,11 @@ function
 let
 maxLocalId
 =
-0
+Ci
+.
+nsIScriptSecurityManager
+.
+NO_APP_ID
 ;
 for
 (
@@ -3916,7 +3920,11 @@ localId
 }
 }
 return
-0
+Ci
+.
+nsIScriptSecurityManager
+.
+NO_APP_ID
 ;
 }
 getAllWithoutManifests
