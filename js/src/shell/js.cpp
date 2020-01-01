@@ -2009,6 +2009,10 @@ buffer
 while
 (
 !
+hitEOF
+&
+&
+!
 gQuitting
 )
 ;
