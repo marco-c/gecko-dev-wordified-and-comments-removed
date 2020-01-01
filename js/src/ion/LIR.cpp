@@ -1115,6 +1115,9 @@ fp
 )
 ;
 }
+#
+ifdef
+DEBUG
 static
 void
 PrintUse
@@ -1236,9 +1239,6 @@ virtualRegister
 ;
 }
 }
-#
-ifdef
-DEBUG
 const
 char
 *

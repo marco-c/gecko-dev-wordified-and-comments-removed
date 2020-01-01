@@ -613,6 +613,9 @@ Value
 vp
 )
 {
+#
+ifdef
+DEBUG
 CallArgs
 args
 =
@@ -622,12 +625,13 @@ argc
 vp
 )
 ;
-#
-ifdef
-DEBUG
 if
 (
-argc
+args
+.
+length
+(
+)
 >
 0
 )
