@@ -555,8 +555,9 @@ _mach_command_args
         
 command_args
 .
-append
+insert
 (
+0
 self
 .
 _command_args
