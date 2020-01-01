@@ -681,6 +681,11 @@ size
 =
 16
 "
+class
+=
+"
+typeIcon
+"
 xbl
 :
 inherits
@@ -770,6 +775,11 @@ width
 =
 "
 16
+"
+class
+=
+"
+actionIcon
 "
 /
 >
@@ -900,6 +910,11 @@ goat
 size
 =
 16
+"
+class
+=
+"
+typeIcon
 "
 xbl
 :
