@@ -29,11 +29,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-Element
+nsIContent
 .
 h
 "
@@ -86,13 +82,6 @@ nsCycleCollectionParticipant
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-dom
-;
 nsXPathResult
 :
 :
@@ -757,9 +746,9 @@ AttributeChanged
 nsIDocument
 *
 aDocument
-Element
+nsIContent
 *
-aElement
+aContent
 PRInt32
 aNameSpaceID
 nsIAtom
@@ -771,7 +760,7 @@ aModType
 {
 Invalidate
 (
-aElement
+aContent
 )
 ;
 }

@@ -33,13 +33,6 @@ nsSVGAnimateMotionElement
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-dom
-;
 nsSVGElement
 :
 :
@@ -536,9 +529,9 @@ AttributeChanged
 nsIDocument
 *
 aDocument
-Element
+nsIContent
 *
-aElement
+aContent
 PRInt32
 aNameSpaceID
 nsIAtom

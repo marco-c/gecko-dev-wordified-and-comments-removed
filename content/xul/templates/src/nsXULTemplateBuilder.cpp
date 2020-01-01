@@ -355,13 +355,6 @@ nsXULTemplateQueryProcessorStorage
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-dom
-;
 static
 NS_DEFINE_CID
 (
@@ -3824,9 +3817,9 @@ AttributeChanged
 nsIDocument
 *
 aDocument
-Element
+nsIContent
 *
-aElement
+aContent
 PRInt32
 aNameSpaceID
 nsIAtom
@@ -3838,7 +3831,7 @@ aModType
 {
 if
 (
-aElement
+aContent
 =
 =
 mRoot

@@ -15,11 +15,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-Element
+nsIContent
 .
 h
 "
@@ -142,13 +138,6 @@ nsMutationEvent
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-dom
-;
 PRBool
 nsDOMAttribute
 :
@@ -2782,9 +2771,9 @@ AttributeChanged
 nsIDocument
 *
 aDocument
-Element
+nsIContent
 *
-aElement
+aContent
 PRInt32
 aNameSpaceID
 nsIAtom
@@ -2804,7 +2793,7 @@ GetContentInternal
 ;
 if
 (
-aElement
+aContent
 !
 =
 content
