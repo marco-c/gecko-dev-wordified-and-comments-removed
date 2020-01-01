@@ -352,7 +352,7 @@ if
 sXPConnect
 )
 {
-NS_RELEASE
+NS_IF_RELEASE
 (
 sXPConnect
 )
