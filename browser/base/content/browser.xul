@@ -5062,6 +5062,16 @@ true
 "
 #
 endif
+#
+ifdef
+XP_MACOSX
+tabsontop
+=
+"
+true
+"
+#
+endif
 persist
 =
 "
