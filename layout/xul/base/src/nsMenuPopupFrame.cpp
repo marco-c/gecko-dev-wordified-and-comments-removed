@@ -3788,6 +3788,11 @@ GetDocument
 (
 )
 ;
+if
+(
+document
+)
+{
 nsIPresShell
 *
 shell
@@ -3818,7 +3823,12 @@ mAnchorContent
 )
 ;
 }
-else
+}
+if
+(
+!
+aAnchorFrame
+)
 {
 aAnchorFrame
 =
@@ -3839,7 +3849,6 @@ GetRootFrame
 (
 )
 ;
-}
 if
 (
 !
@@ -3848,6 +3857,7 @@ aAnchorFrame
 return
 NS_OK
 ;
+}
 }
 if
 (
