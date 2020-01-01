@@ -217,6 +217,15 @@ PluginModuleParent
 (
 )
 ;
+NS_OVERRIDE
+virtual
+void
+ActorDestroy
+(
+ActorDestroyReason
+why
+)
+;
 static
 PluginLibrary
 *
@@ -762,6 +771,9 @@ private
 PluginProcessParent
 *
 mSubprocess
+;
+bool
+mShutdown
 ;
 const
 NPNetscapeFuncs
