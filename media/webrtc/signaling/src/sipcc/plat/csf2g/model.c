@@ -1,0 +1,12 @@
+char
+*
+platGetModel
+(
+)
+{
+return
+"
+CSF
+"
+;
+}
