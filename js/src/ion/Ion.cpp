@@ -4967,6 +4967,12 @@ if
 js_IonOptions
 .
 parallelCompilation
+&
+&
+OffThreadCompilationAvailable
+(
+cx
+)
 )
 {
 builder
