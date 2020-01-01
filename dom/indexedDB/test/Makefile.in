@@ -329,6 +329,10 @@ test_multientry
 .
 html
 \
+test_names_sorted
+.
+html
+\
 test_objectCursors
 .
 html
