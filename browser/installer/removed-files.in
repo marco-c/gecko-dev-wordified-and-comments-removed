@@ -208,16 +208,6 @@ components
 components
 .
 list
-#
-ifndef
-LIBXUL_SDK
-components
-/
-DLL_PREFIX
-browsercomps
-DLL_SUFFIX
-#
-endif
 components
 /
 DLL_PREFIX

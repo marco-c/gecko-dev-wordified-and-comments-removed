@@ -303,14 +303,6 @@ NS_LogTerm
 }
 }
 ;
-extern
-const
-mozilla
-:
-:
-Module
-kBrowserModule
-;
 int
 main
 (
@@ -627,12 +619,6 @@ return
 255
 ;
 }
-XRE_AddStaticComponent
-(
-&
-kBrowserModule
-)
-;
 int
 result
 =
