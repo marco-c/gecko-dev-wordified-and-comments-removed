@@ -282,7 +282,6 @@ util
 .
 TimerTask
 ;
-public
 class
 GeckoInputConnection
 extends
