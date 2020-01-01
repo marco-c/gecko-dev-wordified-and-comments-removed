@@ -5789,7 +5789,7 @@ JSVAL_TYPE_NONFUNOBJ
 return
 v
 .
-extractNonDoubleObjectType
+extractNonDoubleObjectTraceType
 (
 )
 ;
@@ -5868,7 +5868,7 @@ JSVAL_TYPE_NONFUNOBJ
 return
 v
 .
-extractNonDoubleObjectType
+extractNonDoubleObjectTraceType
 (
 )
 ;
@@ -21112,7 +21112,7 @@ return
 vp
 -
 >
-extractNonDoubleObjectType
+extractNonDoubleObjectTraceType
 (
 )
 ;
@@ -52188,7 +52188,7 @@ type
 =
 v
 .
-extractNonDoubleObjectType
+extractNonDoubleObjectTraceType
 (
 )
 ;
@@ -52560,7 +52560,7 @@ JSVAL_TAG_OBJECT
 :
 v
 .
-extractNonDoubleObjectTag
+extractNonDoubleObjectTraceTag
 (
 )
 ;
