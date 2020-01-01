@@ -1780,8 +1780,6 @@ dir
 endif
 #
 XPCSHELL_TESTS
-ifndef
-BUILD_STATIC_LIBS
 ifdef
 CPP_UNIT_TESTS
 #
@@ -1919,10 +1917,6 @@ done
 endif
 #
 CPP_UNIT_TESTS
-endif
-#
-!
-BUILD_STATIC_LIBS
 .
 PHONY
 :
@@ -7564,6 +7558,9 @@ LDFLAGS
 LIBS_DIR
 )
 (
+call
+EXPAND_FAKELIBS
+(
 LIBS
 )
 (
@@ -7574,6 +7571,7 @@ EXTRA_LIBS
 )
 (
 WRAP_MALLOC_LIB
+)
 )
 (
 BIN_FLAGS
@@ -7602,6 +7600,9 @@ LDFLAGS
 LIBS_DIR
 )
 (
+call
+EXPAND_FAKELIBS
+(
 LIBS
 )
 (
@@ -7612,6 +7613,7 @@ EXTRA_LIBS
 )
 (
 WRAP_MALLOC_LIB
+)
 )
 (
 BIN_FLAGS
