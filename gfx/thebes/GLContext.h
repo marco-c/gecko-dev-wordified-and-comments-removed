@@ -2456,7 +2456,6 @@ ARB_pixel_buffer_object
 ARB_ES2_compatibility
 OES_texture_float
 ARB_texture_float
-EXT_unpack_subimage
 Extensions_Max
 }
 ;
