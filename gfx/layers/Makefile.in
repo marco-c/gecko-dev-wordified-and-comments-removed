@@ -610,6 +610,14 @@ ShadowLayers
 .
 cpp
 \
+ShadowLayerParent
+.
+cpp
+\
+ShadowLayersParent
+.
+cpp
+\
 (
 NULL
 )
