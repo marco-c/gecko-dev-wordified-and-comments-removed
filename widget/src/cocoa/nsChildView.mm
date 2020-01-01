@@ -34300,6 +34300,11 @@ for
 use
 by
 plugins
+if
+(
+mIsPluginView
+)
+{
 #
 ifndef
 NP_NO_CARBON
@@ -34356,6 +34361,7 @@ pluginEvent
 &
 cocoaEvent
 ;
+}
 }
 mGeckoChild
 -
