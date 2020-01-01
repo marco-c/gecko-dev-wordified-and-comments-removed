@@ -23779,7 +23779,6 @@ js_InvokeConstructor
 (
 cx
 args
-JS_TRUE
 )
 ;
 JSObject

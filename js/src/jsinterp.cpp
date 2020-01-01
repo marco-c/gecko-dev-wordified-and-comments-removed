@@ -1643,7 +1643,6 @@ js_InvokeConstructor
 (
 cx
 args
-JS_TRUE
 )
 :
 js_Invoke
@@ -5017,8 +5016,6 @@ const
 InvokeArgsGuard
 &
 args
-JSBool
-clampReturn
 )
 {
 JSFunction
@@ -5287,6 +5284,13 @@ obj
 return
 JS_FALSE
 ;
+AutoObjectRooter
+tvr
+(
+cx
+obj
+)
+;
 vp
 [
 1
@@ -5318,9 +5322,6 @@ vp
 ;
 if
 (
-clampReturn
-&
-&
 JSVAL_IS_PRIMITIVE
 (
 rval

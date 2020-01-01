@@ -10693,7 +10693,6 @@ InvokeArgsGuard
 vp
 argc
 )
-JS_FALSE
 )
 )
 goto
