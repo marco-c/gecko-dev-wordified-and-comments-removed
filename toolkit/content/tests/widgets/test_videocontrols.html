@@ -278,6 +278,17 @@ durationWidth
 34
 ;
 const
+fullscreenButtonWidth
+=
+document
+.
+mozFullScreenEnabled
+?
+28
+:
+0
+;
+const
 scrubberWidth
 =
 videoWidth
@@ -287,6 +298,8 @@ playButtonWidth
 muteButtonWidth
 -
 durationWidth
+-
+fullscreenButtonWidth
 ;
 const
 scrubberHeight
@@ -341,6 +354,11 @@ the
 bottom
 -
 right
+before
+the
+full
+screen
+button
 const
 muteButtonCenterX
 =
@@ -354,6 +372,8 @@ muteButtonWidth
 /
 2
 )
+-
+fullscreenButtonWidth
 ;
 const
 muteButtonCenterY
