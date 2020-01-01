@@ -73,11 +73,6 @@ misc
 h
 "
 int
-analysis_noisy
-=
-1
-;
-int
 vorbis_analysis
 (
 vorbis_block
@@ -265,6 +260,14 @@ return
 )
 ;
 }
+#
+ifdef
+ANALYSIS
+int
+analysis_noisy
+=
+1
+;
 void
 _analysis_output_always
 (
@@ -286,9 +289,6 @@ ogg_int64_t
 off
 )
 {
-#
-if
-0
 int
 j
 ;
@@ -508,8 +508,6 @@ fclose
 of
 )
 ;
-#
-endif
 }
 void
 _analysis_output
@@ -548,3 +546,5 @@ off
 )
 ;
 }
+#
+endif

@@ -385,7 +385,7 @@ secondstages
 int
 booklist
 [
-256
+512
 ]
 ;
 const

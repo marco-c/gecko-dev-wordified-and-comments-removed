@@ -55,7 +55,7 @@ scales
 h
 "
 #
-define
+undef
 FLOAT_LOOKUP
 #
 undef
