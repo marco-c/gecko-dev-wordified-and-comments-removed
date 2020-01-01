@@ -93,17 +93,8 @@ false
 }
 )
 ;
-executeSoon
-(
-function
-(
-)
-{
 performTest
 (
-)
-;
-}
 )
 ;
 }
@@ -855,7 +846,7 @@ index
 .
 attachment
 .
-expression
+currentExpression
 string
 "
 The
@@ -887,7 +878,7 @@ element
 .
 attachment
 .
-expression
+currentExpression
 string
 "
 The
@@ -1520,7 +1511,7 @@ index
 .
 attachment
 .
-expression
+currentExpression
 string
 "
 The
@@ -1552,7 +1543,7 @@ element
 .
 attachment
 .
-expression
+currentExpression
 string
 "
 The
@@ -1895,7 +1886,7 @@ index
 .
 attachment
 .
-expression
+currentExpression
 string
 "
 The
@@ -1927,7 +1918,7 @@ element
 .
 attachment
 .
-expression
+currentExpression
 string
 "
 The
