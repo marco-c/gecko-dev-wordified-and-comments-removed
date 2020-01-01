@@ -295,6 +295,9 @@ eGfxLog_textrun
 eGfxLog_textrunui
 =
 3
+eGfxLog_cmapdata
+=
+4
 }
 ;
 const
