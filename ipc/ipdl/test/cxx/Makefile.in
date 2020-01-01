@@ -104,6 +104,10 @@ IPDLUnitTestTypes
 .
 h
 \
+IPDLUnitTestUtils
+.
+h
+\
 (
 NULL
 )
@@ -124,6 +128,8 @@ EXPORT_LIBRARY
 1
 IPDLTESTS
 =
+\
+TestActorPunning
 \
 TestBlockChild
 \
