@@ -511,10 +511,6 @@ DrawTargetCairo
 .
 cpp
 \
-ScaledFontCairo
-.
-cpp
-\
 SourceSurfaceCairo
 .
 cpp
