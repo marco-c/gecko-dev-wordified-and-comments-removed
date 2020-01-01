@@ -214,7 +214,7 @@ gravity
 "
 center
 |
-right
+left
 "
 android
 :
@@ -244,7 +244,7 @@ layout_height
 "
 android
 :
-layout_marginRight
+layout_marginLeft
 =
 "
 20dip
