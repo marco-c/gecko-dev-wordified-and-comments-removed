@@ -10580,12 +10580,11 @@ now
 (
 )
 ;
+id
+in
 aIdMap
 .
 used
-[
-id
-]
 ;
 id
 +
