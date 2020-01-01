@@ -5823,10 +5823,6 @@ PRBool
 bState
 )
 {
-mIsVisible
-=
-bState
-;
 if
 (
 mWnd
@@ -6118,6 +6114,10 @@ PR_FALSE
 ;
 #
 endif
+mIsVisible
+=
+bState
+;
 return
 NS_OK
 ;
