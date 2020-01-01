@@ -1651,6 +1651,7 @@ SurfaceDescriptor
 Tnull_t
 TEXTURE_HOST_TILED
 flags
+nullptr
 )
 ;
 mDeprecatedTextureHost

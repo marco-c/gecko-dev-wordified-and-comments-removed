@@ -1198,6 +1198,7 @@ mDeprecatedTextureHostFlags
 mTextureInfo
 .
 mTextureFlags
+this
 )
 ;
 NS_ASSERTION
