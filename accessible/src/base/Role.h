@@ -403,9 +403,6 @@ TERM
 DEFINITION
 =
 128
-LAST_ENTRY
-=
-129
 }
 ;
 }

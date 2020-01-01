@@ -547,10 +547,6 @@ mozTextAccessible
 .
 h
 \
-nsRoleMap
-.
-h
-\
 (
 NULL
 )
