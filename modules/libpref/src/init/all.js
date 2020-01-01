@@ -6145,7 +6145,7 @@ spdy
 .
 enabled
 "
-false
+true
 )
 ;
 pref
