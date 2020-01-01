@@ -1413,6 +1413,7 @@ RenderingMightDependOnFrameSize
 const
 {
 return
+(
 !
 mImage
 .
@@ -1422,6 +1423,16 @@ IsEmpty
 &
 &
 (
+mImage
+.
+GetType
+(
+)
+=
+=
+eStyleImageType_Gradient
+|
+|
 mPosition
 .
 DependsOnFrameSize
@@ -1433,6 +1444,7 @@ mSize
 .
 DependsOnFrameSize
 (
+)
 )
 )
 ;
