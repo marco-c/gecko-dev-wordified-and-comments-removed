@@ -5365,6 +5365,15 @@ config
 autoconf
 .
 mk
+(
+DEPTH
+)
+/
+config
+/
+config
+.
+mk
 #
 #
 #
