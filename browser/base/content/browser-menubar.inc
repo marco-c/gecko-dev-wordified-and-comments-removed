@@ -3797,7 +3797,7 @@ HistoryMenu
 .
 onPopupShowing
 (
-this
+event
 )
 ;
 "
@@ -3808,7 +3808,7 @@ HistoryMenu
 .
 onPopupHidden
 (
-this
+event
 )
 ;
 "
