@@ -1,4 +1,9 @@
 const
+CURRENT_SCHEMA_VERSION
+=
+12
+;
+const
 NS_APP_USER_PROFILE_50_DIR
 =
 "
@@ -542,12 +547,14 @@ avail
 ;
 while
 (
+(
 avail
 =
 bistream
 .
 available
 (
+)
 )
 )
 {

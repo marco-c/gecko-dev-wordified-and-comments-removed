@@ -463,7 +463,7 @@ do_check_eq
 db
 .
 schemaVersion
-11
+CURRENT_SCHEMA_VERSION
 )
 ;
 db
