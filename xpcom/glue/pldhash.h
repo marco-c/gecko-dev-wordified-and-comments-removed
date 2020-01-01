@@ -942,6 +942,15 @@ void
 arg
 )
 ;
+NS_COM_GLUE
+PRUint64
+PL_DHashTableSizeOf
+(
+PLDHashTable
+*
+table
+)
+;
 #
 ifdef
 DEBUG

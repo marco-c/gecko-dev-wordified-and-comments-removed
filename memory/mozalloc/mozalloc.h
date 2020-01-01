@@ -44,6 +44,9 @@ h
 define
 MOZALLOC_HAVE_XMALLOC
 #
+define
+MOZALLOC_HAVE_MALLOC_USABLE_SIZE
+#
 if
 defined
 (
