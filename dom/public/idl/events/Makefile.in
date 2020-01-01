@@ -541,6 +541,10 @@ nsIDOMSimpleGestureEvent
 .
 idl
 \
+nsIDOMNSMouseEvent
+.
+idl
+\
 (
 NULL
 )

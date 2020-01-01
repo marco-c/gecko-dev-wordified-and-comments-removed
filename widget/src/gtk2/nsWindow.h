@@ -1972,6 +1972,9 @@ nsITimer
 >
 mDragLeaveTimer
 ;
+float
+mLastMotionPressure
+;
 static
 PRBool
 sIsDraggingOutOf
