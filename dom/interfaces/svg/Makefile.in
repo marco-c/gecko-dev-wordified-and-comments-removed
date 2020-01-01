@@ -770,6 +770,10 @@ nsIDOMSVGAnimationElement
 .
 idl
 \
+nsIDOMSVGMpathElement
+.
+idl
+\
 nsIDOMSVGSetElement
 .
 idl

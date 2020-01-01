@@ -769,6 +769,10 @@ nsSVGAnimationElement
 .
 cpp
 \
+nsSVGMpathElement
+.
+cpp
+\
 nsSVGSetElement
 .
 cpp
