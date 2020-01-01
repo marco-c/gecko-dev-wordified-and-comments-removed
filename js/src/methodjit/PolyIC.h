@@ -1294,7 +1294,6 @@ endif
 {
 GET
 SET
-SETMETHOD
 NAME
 BIND
 XNAME
@@ -1524,12 +1523,6 @@ kind
 =
 =
 SET
-|
-|
-kind
-=
-=
-SETMETHOD
 ;
 }
 inline

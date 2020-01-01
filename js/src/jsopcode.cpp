@@ -23615,9 +23615,6 @@ break
 case
 JSOP_SETPROP
 :
-case
-JSOP_SETMETHOD
-:
 {
 LOAD_ATOM
 (
@@ -26852,9 +26849,6 @@ break
 ;
 case
 JSOP_INITPROP
-:
-case
-JSOP_INITMETHOD
 :
 LOAD_ATOM
 (

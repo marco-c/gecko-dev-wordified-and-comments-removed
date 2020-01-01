@@ -1431,12 +1431,6 @@ has_shortid
 ;
 DUMP_FLAG
 (
-METHOD
-method
-)
-;
-DUMP_FLAG
-(
 IN_DICTIONARY
 in_dictionary
 )

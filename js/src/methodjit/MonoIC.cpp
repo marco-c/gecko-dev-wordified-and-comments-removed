@@ -443,7 +443,7 @@ shape
 shape
 -
 >
-hasDefaultGetterOrIsMethod
+hasDefaultGetter
 (
 )
 |
@@ -852,14 +852,6 @@ Lookup_Uncacheable
 ;
 if
 (
-shape
--
->
-isMethod
-(
-)
-|
-|
 !
 shape
 -

@@ -5125,12 +5125,6 @@ object
 ;
 }
 bool
-joinable
-(
-)
-const
-;
-bool
 inAnyDynamicScope
 (
 )

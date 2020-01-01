@@ -3723,7 +3723,7 @@ shape
 shape
 -
 >
-hasDefaultGetterOrIsMethod
+hasDefaultGetter
 (
 )
 &
@@ -13783,7 +13783,7 @@ if
 shape
 -
 >
-hasDefaultGetterOrIsMethod
+hasDefaultGetter
 (
 )
 &
@@ -18569,9 +18569,6 @@ break
 case
 JSOP_SETPROP
 :
-case
-JSOP_SETMETHOD
-:
 {
 jsid
 id
@@ -19795,9 +19792,6 @@ break
 ;
 case
 JSOP_INITPROP
-:
-case
-JSOP_INITMETHOD
 :
 {
 const
