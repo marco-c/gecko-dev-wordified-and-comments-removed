@@ -6725,6 +6725,13 @@ breakpoint
 )
 ;
 void
+breakpoint
+(
+Condition
+cc
+)
+;
+void
 compareDouble
 (
 FloatRegister

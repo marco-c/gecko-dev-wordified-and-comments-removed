@@ -3214,6 +3214,10 @@ datastore
 :
 RIS
 shiftImm
+IsUp_
+iu
+=
+IsUp
 )
 :
 DtrOff
@@ -3236,6 +3240,7 @@ encode
 (
 )
 )
+iu
 )
 {
 }
@@ -3250,6 +3255,10 @@ datastore
 :
 RRS
 shiftReg
+IsUp_
+iu
+=
+IsUp
 )
 :
 DtrOff
@@ -3272,6 +3281,7 @@ encode
 (
 )
 )
+iu
 )
 {
 }
@@ -3293,6 +3303,10 @@ ShiftType
 type
 uint32_t
 shift
+IsUp_
+iu
+=
+IsUp
 )
 :
 DtrOffReg
@@ -3306,6 +3320,7 @@ RIS
 (
 shift
 )
+iu
 )
 {
 }
@@ -3327,6 +3342,10 @@ ShiftType
 type
 Register
 rs
+IsUp_
+iu
+=
+IsUp
 )
 :
 DtrOffReg
@@ -3344,6 +3363,7 @@ code
 (
 )
 )
+iu
 )
 {
 }
