@@ -1402,15 +1402,6 @@ return
 ;
 fCallbacks
 .
-size
-=
-sizeof
-(
-fCallbacks
-)
-;
-fCallbacks
-.
 version
 =
 np_callbacks
