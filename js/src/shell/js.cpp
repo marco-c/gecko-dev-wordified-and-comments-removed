@@ -19917,10 +19917,13 @@ c
 )
 -
 >
-getMjitCodeStats
+sizeOfCode
 (
+&
 method
+&
 regexp
+&
 unused
 )
 ;
