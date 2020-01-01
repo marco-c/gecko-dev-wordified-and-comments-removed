@@ -9468,6 +9468,13 @@ ListControlFrame
 )
 GK_ATOM
 (
+menuPopupFrame
+"
+MenuPopupFrame
+"
+)
+GK_ATOM
+(
 objectFrame
 "
 ObjectFrame
