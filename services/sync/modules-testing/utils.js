@@ -347,7 +347,7 @@ syncKey
 |
 |
 "
-foo
+abcdeabcdeabcdeabcdeabcdea
 "
 ;
 ns
