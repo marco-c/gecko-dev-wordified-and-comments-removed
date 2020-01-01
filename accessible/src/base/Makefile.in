@@ -503,6 +503,10 @@ nsAccessibilityAtoms
 .
 cpp
 \
+nsAccessibilityUtils
+.
+cpp
+\
 nsAccessibilityService
 .
 cpp

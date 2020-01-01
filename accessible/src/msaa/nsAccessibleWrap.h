@@ -826,14 +826,6 @@ void
 aOutAccessible
 )
 ;
-NS_IMETHOD
-GetDescription
-(
-nsAString
-&
-aDescription
-)
-;
 static
 STDMETHODIMP
 AccessibleObjectFromWindow

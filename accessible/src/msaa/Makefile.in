@@ -482,10 +482,6 @@ nsRootAccessibleWrap
 .
 cpp
 \
-nsHTMLFormControlAccessibleWrap
-.
-cpp
-\
 nsHTMLWin32ObjectAccessible
 .
 cpp
@@ -521,10 +517,6 @@ nsDocAccessibleWrap
 h
 \
 nsRootAccessibleWrap
-.
-h
-\
-nsHTMLFormControlAccessibleWrap
 .
 h
 \

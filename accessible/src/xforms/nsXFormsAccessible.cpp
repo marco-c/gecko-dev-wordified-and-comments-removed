@@ -54,13 +54,6 @@ nsIPlaintextEditor
 .
 h
 "
-#
-include
-"
-nsIPersistentProperties2
-.
-h
-"
 nsIXFormsUtilityService
 *
 nsXFormsAccessibleBase

@@ -516,10 +516,6 @@ nsRootAccessibleWrap
 .
 h
 \
-nsHTMLFormControlAccessibleWrap
-.
-h
-\
 nsXULMenuAccessibleWrap
 .
 h

@@ -512,10 +512,6 @@ nsXULTreeAccessibleWrap
 .
 h
 \
-nsHTMLFormControlAccessibleWrap
-.
-h
-\
 (
 NULL
 )

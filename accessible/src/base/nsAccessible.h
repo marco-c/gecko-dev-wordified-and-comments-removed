@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsAccessibilityAtoms
+nsAccessibilityUtils
 .
 h
 "

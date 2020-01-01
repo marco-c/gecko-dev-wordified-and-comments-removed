@@ -117,14 +117,6 @@ nsAString
 aName
 )
 ;
-NS_IMETHOD
-GetDescription
-(
-nsAString
-&
-aDescription
-)
-;
 }
 ;
 #

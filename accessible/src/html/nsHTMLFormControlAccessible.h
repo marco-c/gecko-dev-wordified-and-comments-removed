@@ -112,6 +112,15 @@ PRUint32
 _retval
 )
 ;
+NS_IMETHOD
+GetAttributes
+(
+nsIPersistentProperties
+*
+*
+aAttributes
+)
+;
 }
 ;
 class

@@ -127,13 +127,6 @@ h
 #
 include
 "
-nsIPersistentProperties2
-.
-h
-"
-#
-include
-"
 nsMaiInterfaceDocument
 .
 h

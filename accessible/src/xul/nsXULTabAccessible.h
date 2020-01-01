@@ -84,6 +84,15 @@ PRUint8
 index
 )
 ;
+NS_IMETHOD
+GetAttributes
+(
+nsIPersistentProperties
+*
+*
+aAttributes
+)
+;
 }
 ;
 class

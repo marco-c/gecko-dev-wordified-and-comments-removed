@@ -347,6 +347,15 @@ aName
 )
 ;
 NS_IMETHOD
+GetAttributes
+(
+nsIPersistentProperties
+*
+*
+aAttributes
+)
+;
+NS_IMETHOD
 GetParent
 (
 nsIAccessible

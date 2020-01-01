@@ -554,10 +554,6 @@ nsDocAccessibleWrap
 .
 h
 \
-nsHTMLFormControlAccessibleWrap
-.
-h
-\
 nsRootAccessibleWrap
 .
 h
