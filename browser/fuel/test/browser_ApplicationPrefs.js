@@ -1262,6 +1262,8 @@ unlocked
 "
 )
 ;
+return
+;
 waitForExplicitFinish
 (
 )
