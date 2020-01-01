@@ -2071,6 +2071,16 @@ mUnicodeChar
 ;
 }
 int
+RepeatCount
+(
+)
+const
+{
+return
+mRepeatCount
+;
+}
+int
 Offset
 (
 )
@@ -2221,6 +2231,9 @@ mMetaState
 int
 mKeyCode
 mUnicodeChar
+;
+int
+mRepeatCount
 ;
 int
 mOffset
@@ -2434,6 +2447,10 @@ jPointerIndexField
 static
 jfieldID
 jUnicodeCharField
+;
+static
+jfieldID
+jRepeatCountField
 ;
 static
 jfieldID
