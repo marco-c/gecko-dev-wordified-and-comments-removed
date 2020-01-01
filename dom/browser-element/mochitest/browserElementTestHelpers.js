@@ -1055,7 +1055,7 @@ pagethumbnails
 .
 capturing_disabled
 "
-true
+false
 ]
 [
 "
