@@ -11,7 +11,6 @@ ORGANIZER_ROOT_HISTORY_UNSORTED
 "
 place
 :
-&
 beginTime
 =
 -
@@ -56,7 +55,6 @@ ORGANIZER_ROOT_BOOKMARKS
 "
 place
 :
-&
 folder
 =
 2
@@ -76,7 +74,6 @@ ORGANIZER_SUBSCRIPTIONS_QUERY
 "
 place
 :
-&
 annotation
 =
 livemark

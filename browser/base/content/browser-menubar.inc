@@ -3571,9 +3571,6 @@ place
 "
 place
 :
-&
-amp
-;
 beginTime
 =
 -
@@ -4822,9 +4819,6 @@ place
 "
 place
 :
-&
-amp
-;
 folder
 =
 2
