@@ -474,6 +474,10 @@ test_bug646194
 .
 xul
 \
+test_dragdrop
+.
+html
+\
 (
 NULL
 )
