@@ -673,7 +673,7 @@ void
 inline
 ICStub
 *
-stubPtr
+maybeStubPtr
 (
 )
 {

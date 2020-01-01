@@ -3691,6 +3691,8 @@ fp
 (
 )
 ;
+if
+(
 ICStub
 *
 stub
@@ -3698,10 +3700,11 @@ stub
 layout
 -
 >
-stubPtr
+maybeStubPtr
 (
 )
-;
+)
+{
 JS_ASSERT
 (
 ICStub
@@ -3726,6 +3729,7 @@ trace
 trc
 )
 ;
+}
 }
 void
 IonActivationIterator
