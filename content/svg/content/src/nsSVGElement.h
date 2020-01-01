@@ -403,6 +403,13 @@ sLightingEffectsMap
 [
 ]
 ;
+static
+const
+MappedAttributeEntry
+sMaskMap
+[
+]
+;
 NS_IMETHOD
 IsSupported
 (

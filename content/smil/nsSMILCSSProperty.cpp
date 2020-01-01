@@ -753,6 +753,9 @@ case
 eCSSProperty_mask
 :
 case
+eCSSProperty_mask_type
+:
+case
 eCSSProperty_opacity
 :
 case

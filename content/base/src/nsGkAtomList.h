@@ -9221,6 +9221,15 @@ maskContentUnits
 )
 GK_ATOM
 (
+mask_type
+"
+mask
+-
+type
+"
+)
+GK_ATOM
+(
 maskUnits
 "
 maskUnits

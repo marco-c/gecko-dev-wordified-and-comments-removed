@@ -1497,6 +1497,13 @@ kListStyleKTable
 static
 const
 int32_t
+kMaskTypeKTable
+[
+]
+;
+static
+const
+int32_t
 kObjectOpacityKTable
 [
 ]
