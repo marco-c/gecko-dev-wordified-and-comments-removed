@@ -4439,6 +4439,9 @@ PlacesUIUtils
 createMenuItemForNode
 (
 aChild
+aParentPopup
+.
+ownerDocument
 )
 ;
 if

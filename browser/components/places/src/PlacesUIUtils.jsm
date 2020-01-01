@@ -3582,6 +3582,7 @@ function
 PUU_createMenuItemForNode
 (
 aNode
+aDocument
 )
 {
 var
@@ -3590,9 +3591,12 @@ element
 var
 document
 =
+aDocument
+|
+|
 this
 .
-_getCurrentActiveWin
+_getTopBrowserWin
 (
 )
 .
@@ -5586,13 +5590,9 @@ _lmStatusMenuItem
 let
 document
 =
-this
+aPopup
 .
-_getCurrentActiveWin
-(
-)
-.
-document
+ownerDocument
 ;
 aPopup
 .
