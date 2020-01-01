@@ -1298,6 +1298,14 @@ test_bug456262
 .
 html
 \
+test_bug590870
+.
+html
+\
+file_bug590870
+.
+html
+\
 test_bug368972
 .
 html
