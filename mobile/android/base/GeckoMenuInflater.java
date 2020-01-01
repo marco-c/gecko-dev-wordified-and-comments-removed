@@ -788,13 +788,6 @@ item
 checkable
 )
 .
-setCheckable
-(
-item
-.
-checked
-)
-.
 setIcon
 (
 item
