@@ -451,9 +451,15 @@ else
 ifeq
 (
 (
+filter
+-
+out
+WIN95
+WINCE
+(
 OS_TARGET
 )
-WIN95
+)
 )
 CSRCS
 =

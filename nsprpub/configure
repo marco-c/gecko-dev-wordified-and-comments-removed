@@ -7395,10 +7395,10 @@ MOD_MAJOR_VERSION
 4
 MOD_MINOR_VERSION
 =
-7
+8
 MOD_PATCH_VERSION
 =
-4
+0
 NSPR_MODNAME
 =
 nspr20
@@ -40182,6 +40182,14 @@ tr
 '
 \
 012
+'
+'
+'
+|
+tr
+'
+\
+015
 '
 '
 '
