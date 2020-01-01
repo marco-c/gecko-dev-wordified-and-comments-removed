@@ -686,7 +686,7 @@ synthesizeMouse
 var
 gWindowUtils
 =
-window
+aDestWindow
 .
 QueryInterface
 (

@@ -2671,6 +2671,12 @@ GetParentPresShell
 (
 )
 ;
+nsIContent
+*
+GetCurrentEventContent
+(
+)
+;
 nsIFrame
 *
 GetCurrentEventFrame
@@ -3011,6 +3017,8 @@ nsITimer
 >
 mAsyncResizeEventTimer
 ;
+private
+:
 nsIFrame
 *
 mCurrentEventFrame
@@ -3034,6 +3042,8 @@ nsIContent
 >
 mCurrentEventContentStack
 ;
+protected
+:
 nsRevocableEventPtr
 <
 nsSynthMouseMoveEvent
