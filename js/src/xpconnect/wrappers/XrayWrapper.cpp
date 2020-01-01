@@ -1013,7 +1013,7 @@ desc
 >
 shortid
 =
-NULL
+0
 ;
 desc
 -
