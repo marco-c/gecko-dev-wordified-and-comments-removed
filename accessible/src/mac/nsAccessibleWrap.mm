@@ -764,6 +764,9 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
 PRUint32
 role
 =
+nsAccUtils
+:
+:
 Role
 (
 this
@@ -1299,6 +1302,9 @@ children
 .
 if
 (
+nsAccUtils
+:
+:
 MustPrune
 (
 this
@@ -1398,6 +1404,9 @@ children
 .
 if
 (
+nsAccUtils
+:
+:
 MustPrune
 (
 childWrap
@@ -1591,6 +1600,9 @@ children
 .
 if
 (
+nsAccUtils
+:
+:
 MustPrune
 (
 this
@@ -1657,6 +1669,9 @@ any
 if
 (
 !
+nsAccUtils
+:
+:
 MustPrune
 (
 childWrap

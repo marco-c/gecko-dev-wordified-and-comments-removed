@@ -1532,6 +1532,9 @@ testLabelAccessible
 {
 if
 (
+nsAccUtils
+:
+:
 Role
 (
 testLabelAccessible

@@ -1227,6 +1227,9 @@ nsIDOMCSSStyleDeclaration
 >
 cssDecl
 ;
+nsCoreUtils
+:
+:
 GetComputedStyleDeclaration
 (
 EmptyString
@@ -1442,6 +1445,9 @@ nsIDOMCSSStyleDeclaration
 >
 cssDecl
 ;
+nsCoreUtils
+:
+:
 GetComputedStyleDeclaration
 (
 EmptyString

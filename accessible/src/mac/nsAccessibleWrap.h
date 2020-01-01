@@ -214,6 +214,9 @@ curParent
 {
 if
 (
+nsAccUtils
+:
+:
 MustPrune
 (
 curParent

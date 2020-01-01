@@ -2683,7 +2683,7 @@ ifdef
 DEBUG_A11Y
 NS_ASSERTION
 (
-nsAccessible
+nsAccUtils
 :
 :
 IsTextInterfaceSupportCorrect

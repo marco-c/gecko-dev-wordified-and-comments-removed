@@ -351,10 +351,9 @@ GetActionAccessible
 ;
 if
 (
-actionAcc
-&
-&
-(
+nsAccUtils
+:
+:
 State
 (
 actionAcc
@@ -364,7 +363,6 @@ nsIAccessibleStates
 :
 :
 STATE_TRAVERSED
-)
 )
 *
 aState
@@ -892,9 +890,9 @@ walkUpAcc
 ;
 if
 (
-walkUpAcc
-&
-&
+nsAccUtils
+:
+:
 Role
 (
 walkUpAcc
@@ -907,7 +905,9 @@ nsIAccessibleRole
 ROLE_LINK
 &
 &
-(
+nsAccUtils
+:
+:
 State
 (
 walkUpAcc
@@ -917,7 +917,6 @@ nsIAccessibleStates
 :
 :
 STATE_LINKED
-)
 )
 {
 mIsLink

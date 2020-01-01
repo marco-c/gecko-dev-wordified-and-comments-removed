@@ -1337,9 +1337,9 @@ aRole
 {
 if
 (
-mParent
-&
-&
+nsAccUtils
+:
+:
 Role
 (
 mParent
@@ -1351,7 +1351,6 @@ nsIAccessibleRole
 :
 ROLE_COMBOBOX
 )
-{
 *
 aRole
 =
@@ -1360,9 +1359,7 @@ nsIAccessibleRole
 :
 ROLE_COMBOBOX_LIST
 ;
-}
 else
-{
 *
 aRole
 =
@@ -1371,7 +1368,6 @@ nsIAccessibleRole
 :
 ROLE_LIST
 ;
-}
 return
 NS_OK
 ;
@@ -1992,9 +1988,9 @@ aRole
 {
 if
 (
-mParent
-&
-&
+nsAccUtils
+:
+:
 Role
 (
 mParent
@@ -2006,7 +2002,6 @@ nsIAccessibleRole
 :
 ROLE_COMBOBOX_LIST
 )
-{
 *
 aRole
 =
@@ -2015,9 +2010,7 @@ nsIAccessibleRole
 :
 ROLE_COMBOBOX_OPTION
 ;
-}
 else
-{
 *
 aRole
 =
@@ -2026,7 +2019,6 @@ nsIAccessibleRole
 :
 ROLE_OPTION
 ;
-}
 return
 NS_OK
 ;
@@ -2268,6 +2260,9 @@ level
 1
 &
 &
+nsAccUtils
+:
+:
 Role
 (
 this
@@ -3684,6 +3679,9 @@ nsIAccessible
 >
 multiSelect
 =
+nsAccUtils
+:
+:
 GetMultiSelectFor
 (
 optionNode
@@ -3770,6 +3768,9 @@ multiSelect
 PRUint32
 state
 =
+nsAccUtils
+:
+:
 State
 (
 optionAccessible
@@ -6068,6 +6069,9 @@ if
 =
 =
 (
+nsAccUtils
+:
+:
 State
 (
 comboAccessible

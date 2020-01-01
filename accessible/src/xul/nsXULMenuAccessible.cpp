@@ -1353,6 +1353,9 @@ PRBool
 isComboboxOption
 =
 (
+nsAccUtils
+:
+:
 Role
 (
 this
@@ -1420,9 +1423,9 @@ GetParent
 ;
 if
 (
-parentAccessible
-&
-&
+nsAccUtils
+:
+:
 State
 (
 parentAccessible
@@ -1433,12 +1436,10 @@ nsIAccessibleStates
 :
 STATE_INVISIBLE
 )
-{
 isCollapsed
 =
 PR_TRUE
 ;
-}
 if
 (
 isSelected
@@ -1483,7 +1484,9 @@ NS_ERROR_FAILURE
 ;
 NS_ASSERTION
 (
-(
+nsAccUtils
+:
+:
 Role
 (
 grandParentAcc
@@ -1494,7 +1497,6 @@ nsIAccessibleRole
 :
 :
 ROLE_COMBOBOX
-)
 "
 grandparent
 of
@@ -2122,9 +2124,9 @@ parent
 ;
 if
 (
-parent
-&
-&
+nsAccUtils
+:
+:
 Role
 (
 parent
@@ -3180,6 +3182,9 @@ parent
 PRUint32
 role
 =
+nsAccUtils
+:
+:
 Role
 (
 parent

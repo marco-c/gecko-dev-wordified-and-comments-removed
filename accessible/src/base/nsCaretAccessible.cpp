@@ -1534,9 +1534,9 @@ nsIPresShell
 >
 presShell
 =
-mRootAccessible
--
->
+nsCoreUtils
+:
+:
 GetPresShellFor
 (
 lastNodeWithCaret
@@ -1858,9 +1858,9 @@ nsIPresShell
 >
 presShell
 =
-mRootAccessible
--
->
+nsCoreUtils
+:
+:
 GetPresShellFor
 (
 aNode

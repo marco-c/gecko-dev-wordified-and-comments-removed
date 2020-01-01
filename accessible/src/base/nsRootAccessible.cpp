@@ -1719,6 +1719,9 @@ nsIContent
 >
 finalFocusContent
 =
+nsCoreUtils
+:
+:
 GetRoleContent
 (
 finalFocusNode
@@ -1880,6 +1883,9 @@ PR_FALSE
 }
 gLastFocusedAccessiblesState
 =
+nsAccUtils
+:
+:
 State
 (
 finalFocusAccessible
@@ -1888,6 +1894,9 @@ finalFocusAccessible
 PRUint32
 role
 =
+nsAccUtils
+:
+:
 Role
 (
 finalFocusAccessible
@@ -2082,7 +2091,7 @@ nsIPresShell
 >
 shell
 =
-nsAccessNode
+nsCoreUtils
 :
 :
 GetPresShellFor
@@ -2599,6 +2608,9 @@ nsIPresShell
 >
 eventShell
 =
+nsCoreUtils
+:
+:
 GetPresShellFor
 (
 aTargetNode
@@ -2830,6 +2842,9 @@ RadioStateChange
 PRUint32
 state
 =
+nsAccUtils
+:
+:
 State
 (
 accessible
@@ -2913,6 +2928,9 @@ CheckboxStateChange
 PRUint32
 state
 =
+nsAccUtils
+:
+:
 State
 (
 accessible
@@ -3086,6 +3104,9 @@ OpenStateChange
 PRUint32
 state
 =
+nsAccUtils
+:
+:
 State
 (
 accessible
@@ -3455,6 +3476,9 @@ popupshown
 PRUint32
 role
 =
+nsAccUtils
+:
+:
 Role
 (
 accessible
@@ -3535,6 +3559,9 @@ DOMMenuInactive
 {
 if
 (
+nsAccUtils
+:
+:
 Role
 (
 accessible
@@ -3705,6 +3732,9 @@ NS_ERROR_FAILURE
 ;
 if
 (
+nsAccUtils
+:
+:
 State
 (
 containerAccessible
@@ -3741,6 +3771,9 @@ NS_ERROR_FAILURE
 ;
 if
 (
+nsAccUtils
+:
+:
 Role
 (
 containerParent
@@ -4386,6 +4419,9 @@ accessible
 {
 if
 (
+nsAccUtils
+:
+:
 State
 (
 accessible
@@ -4396,11 +4432,9 @@ nsIAccessibleStates
 :
 STATE_INVISIBLE
 )
-{
 return
 nsnull
 ;
-}
 nsCOMPtr
 <
 nsIAccessible

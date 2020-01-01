@@ -212,6 +212,9 @@ nsIContent
 *
 content
 =
+nsCoreUtils
+:
+:
 GetRoleContent
 (
 mDOMNode
@@ -282,6 +285,9 @@ parentAccessible
 ;
 if
 (
+nsAccUtils
+:
+:
 Role
 (
 parentAccessible
@@ -293,7 +299,6 @@ nsIAccessibleRole
 :
 ROLE_GROUPING
 )
-{
 parentAccessible
 .
 swap
@@ -302,7 +307,6 @@ swap
 aRelated
 )
 ;
-}
 }
 }
 return

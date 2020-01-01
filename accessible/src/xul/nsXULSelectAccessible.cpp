@@ -3414,6 +3414,9 @@ listAcc
 ;
 if
 (
+nsAccUtils
+:
+:
 Role
 (
 listAcc
@@ -3453,9 +3456,9 @@ ROLE_CHECKBUTTON
 else
 if
 (
-mParent
-&
-&
+nsAccUtils
+:
+:
 Role
 (
 mParent

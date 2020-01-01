@@ -12,13 +12,6 @@ nsAccessNode
 .
 h
 "
-#
-include
-"
-nsCoreUtils
-.
-h
-"
 PRBool
 nsLangTextAttr
 :
@@ -279,7 +272,7 @@ mIncludeDefAttrValue
 aIncludeDefAttrValue
 )
 {
-nsAccessNode
+nsCoreUtils
 :
 :
 GetComputedStyleDeclaration
@@ -299,7 +292,7 @@ if
 !
 mIncludeDefAttrValue
 )
-nsAccessNode
+nsCoreUtils
 :
 :
 GetComputedStyleDeclaration
@@ -344,7 +337,7 @@ nsIDOMCSSStyleDeclaration
 >
 currStyleDecl
 ;
-nsAccessNode
+nsCoreUtils
 :
 :
 GetComputedStyleDeclaration
