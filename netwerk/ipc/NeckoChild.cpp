@@ -300,7 +300,7 @@ PHttpChannelChild
 NeckoChild
 :
 :
-AllocPHttpChannel
+AllocPHttpChannelChild
 (
 PBrowserChild
 *
@@ -318,7 +318,7 @@ aOpenArgs
 NS_NOTREACHED
 (
 "
-AllocPHttpChannel
+AllocPHttpChannelChild
 should
 not
 be
@@ -336,7 +336,7 @@ bool
 NeckoChild
 :
 :
-DeallocPHttpChannel
+DeallocPHttpChannelChild
 (
 PHttpChannelChild
 *
@@ -349,7 +349,7 @@ IsNeckoChild
 (
 )
 "
-DeallocPHttpChannel
+DeallocPHttpChannelChild
 called
 by
 non
@@ -388,7 +388,7 @@ PFTPChannelChild
 NeckoChild
 :
 :
-AllocPFTPChannel
+AllocPFTPChannelChild
 (
 PBrowserChild
 *
@@ -406,7 +406,7 @@ aOpenArgs
 NS_RUNTIMEABORT
 (
 "
-AllocPFTPChannel
+AllocPFTPChannelChild
 should
 not
 be
@@ -422,7 +422,7 @@ bool
 NeckoChild
 :
 :
-DeallocPFTPChannel
+DeallocPFTPChannelChild
 (
 PFTPChannelChild
 *
@@ -435,7 +435,7 @@ IsNeckoChild
 (
 )
 "
-DeallocPFTPChannel
+DeallocPFTPChannelChild
 called
 by
 non
@@ -474,14 +474,14 @@ PCookieServiceChild
 NeckoChild
 :
 :
-AllocPCookieService
+AllocPCookieServiceChild
 (
 )
 {
 NS_NOTREACHED
 (
 "
-AllocPCookieService
+AllocPCookieServiceChild
 should
 not
 be
@@ -497,7 +497,7 @@ bool
 NeckoChild
 :
 :
-DeallocPCookieService
+DeallocPCookieServiceChild
 (
 PCookieServiceChild
 *
@@ -510,7 +510,7 @@ IsNeckoChild
 (
 )
 "
-DeallocPCookieService
+DeallocPCookieServiceChild
 called
 by
 non
@@ -549,7 +549,7 @@ PWyciwygChannelChild
 NeckoChild
 :
 :
-AllocPWyciwygChannel
+AllocPWyciwygChannelChild
 (
 )
 {
@@ -577,7 +577,7 @@ bool
 NeckoChild
 :
 :
-DeallocPWyciwygChannel
+DeallocPWyciwygChannelChild
 (
 PWyciwygChannelChild
 *
@@ -590,7 +590,7 @@ IsNeckoChild
 (
 )
 "
-DeallocPWyciwygChannel
+DeallocPWyciwygChannelChild
 called
 by
 non
@@ -629,7 +629,7 @@ PWebSocketChild
 NeckoChild
 :
 :
-AllocPWebSocket
+AllocPWebSocketChild
 (
 PBrowserChild
 *
@@ -643,7 +643,7 @@ aSerialized
 NS_NOTREACHED
 (
 "
-AllocPWebSocket
+AllocPWebSocketChild
 should
 not
 be
@@ -659,7 +659,7 @@ bool
 NeckoChild
 :
 :
-DeallocPWebSocket
+DeallocPWebSocketChild
 (
 PWebSocketChild
 *
@@ -695,7 +695,7 @@ PTCPSocketChild
 NeckoChild
 :
 :
-AllocPTCPSocket
+AllocPTCPSocketChild
 (
 const
 nsString
@@ -721,7 +721,7 @@ aBrowser
 NS_NOTREACHED
 (
 "
-AllocPTCPSocket
+AllocPTCPSocketChild
 should
 not
 be
@@ -737,7 +737,7 @@ bool
 NeckoChild
 :
 :
-DeallocPTCPSocket
+DeallocPTCPSocketChild
 (
 PTCPSocketChild
 *
@@ -773,7 +773,7 @@ PRemoteOpenFileChild
 NeckoChild
 :
 :
-AllocPRemoteOpenFile
+AllocPRemoteOpenFileChild
 (
 const
 URIParams
@@ -785,7 +785,7 @@ PBrowserChild
 NS_NOTREACHED
 (
 "
-AllocPRemoteOpenFile
+AllocPRemoteOpenFileChild
 should
 not
 be
@@ -803,7 +803,7 @@ bool
 NeckoChild
 :
 :
-DeallocPRemoteOpenFile
+DeallocPRemoteOpenFileChild
 (
 PRemoteOpenFileChild
 *

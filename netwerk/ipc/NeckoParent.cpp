@@ -752,7 +752,7 @@ PHttpChannelParent
 NeckoParent
 :
 :
-AllocPHttpChannel
+AllocPHttpChannelParent
 (
 PBrowserParent
 *
@@ -796,7 +796,7 @@ printf_stderr
 NeckoParent
 :
 :
-AllocPHttpChannel
+AllocPHttpChannelParent
 :
 "
 "
@@ -854,7 +854,7 @@ bool
 NeckoParent
 :
 :
-DeallocPHttpChannel
+DeallocPHttpChannelParent
 (
 PHttpChannelParent
 *
@@ -935,7 +935,7 @@ PFTPChannelParent
 NeckoParent
 :
 :
-AllocPFTPChannel
+AllocPFTPChannelParent
 (
 PBrowserParent
 *
@@ -979,7 +979,7 @@ printf_stderr
 NeckoParent
 :
 :
-AllocPFTPChannel
+AllocPFTPChannelParent
 :
 "
 "
@@ -1036,7 +1036,7 @@ bool
 NeckoParent
 :
 :
-DeallocPFTPChannel
+DeallocPFTPChannelParent
 (
 PFTPChannelParent
 *
@@ -1117,7 +1117,7 @@ PCookieServiceParent
 NeckoParent
 :
 :
-AllocPCookieService
+AllocPCookieServiceParent
 (
 )
 {
@@ -1132,7 +1132,7 @@ bool
 NeckoParent
 :
 :
-DeallocPCookieService
+DeallocPCookieServiceParent
 (
 PCookieServiceParent
 *
@@ -1151,7 +1151,7 @@ PWyciwygChannelParent
 NeckoParent
 :
 :
-AllocPWyciwygChannel
+AllocPWyciwygChannelParent
 (
 )
 {
@@ -1179,7 +1179,7 @@ bool
 NeckoParent
 :
 :
-DeallocPWyciwygChannel
+DeallocPWyciwygChannelParent
 (
 PWyciwygChannelParent
 *
@@ -1215,7 +1215,7 @@ PWebSocketParent
 NeckoParent
 :
 :
-AllocPWebSocket
+AllocPWebSocketParent
 (
 PBrowserParent
 *
@@ -1255,7 +1255,7 @@ printf_stderr
 NeckoParent
 :
 :
-AllocPWebSocket
+AllocPWebSocketParent
 :
 "
 "
@@ -1326,7 +1326,7 @@ bool
 NeckoParent
 :
 :
-DeallocPWebSocket
+DeallocPWebSocketParent
 (
 PWebSocketParent
 *
@@ -1362,7 +1362,7 @@ PTCPSocketParent
 NeckoParent
 :
 :
-AllocPTCPSocket
+AllocPTCPSocketParent
 (
 const
 nsString
@@ -1547,7 +1547,7 @@ bool
 NeckoParent
 :
 :
-DeallocPTCPSocket
+DeallocPTCPSocketParent
 (
 PTCPSocketParent
 *
@@ -1583,7 +1583,7 @@ PRemoteOpenFileParent
 NeckoParent
 :
 :
-AllocPRemoteOpenFile
+AllocPRemoteOpenFileParent
 (
 const
 URIParams
@@ -2205,7 +2205,7 @@ bool
 NeckoParent
 :
 :
-DeallocPRemoteOpenFile
+DeallocPRemoteOpenFileParent
 (
 PRemoteOpenFileParent
 *

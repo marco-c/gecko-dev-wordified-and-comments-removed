@@ -109,7 +109,7 @@ protected
 virtual
 PHttpChannelParent
 *
-AllocPHttpChannel
+AllocPHttpChannelParent
 (
 PBrowserParent
 *
@@ -144,7 +144,7 @@ aOpenArgs
 ;
 virtual
 bool
-DeallocPHttpChannel
+DeallocPHttpChannelParent
 (
 PHttpChannelParent
 *
@@ -153,13 +153,13 @@ PHttpChannelParent
 virtual
 PCookieServiceParent
 *
-AllocPCookieService
+AllocPCookieServiceParent
 (
 )
 ;
 virtual
 bool
-DeallocPCookieService
+DeallocPCookieServiceParent
 (
 PCookieServiceParent
 *
@@ -168,13 +168,13 @@ PCookieServiceParent
 virtual
 PWyciwygChannelParent
 *
-AllocPWyciwygChannel
+AllocPWyciwygChannelParent
 (
 )
 ;
 virtual
 bool
-DeallocPWyciwygChannel
+DeallocPWyciwygChannelParent
 (
 PWyciwygChannelParent
 *
@@ -183,7 +183,7 @@ PWyciwygChannelParent
 virtual
 PFTPChannelParent
 *
-AllocPFTPChannel
+AllocPFTPChannelParent
 (
 PBrowserParent
 *
@@ -220,7 +220,7 @@ aOpenArgs
 ;
 virtual
 bool
-DeallocPFTPChannel
+DeallocPFTPChannelParent
 (
 PFTPChannelParent
 *
@@ -229,7 +229,7 @@ PFTPChannelParent
 virtual
 PWebSocketParent
 *
-AllocPWebSocket
+AllocPWebSocketParent
 (
 PBrowserParent
 *
@@ -242,7 +242,7 @@ aSerialized
 ;
 virtual
 bool
-DeallocPWebSocket
+DeallocPWebSocketParent
 (
 PWebSocketParent
 *
@@ -251,7 +251,7 @@ PWebSocketParent
 virtual
 PTCPSocketParent
 *
-AllocPTCPSocket
+AllocPTCPSocketParent
 (
 const
 nsString
@@ -277,7 +277,7 @@ aBrowser
 virtual
 PRemoteOpenFileParent
 *
-AllocPRemoteOpenFile
+AllocPRemoteOpenFileParent
 (
 const
 URIParams
@@ -308,7 +308,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPRemoteOpenFile
+DeallocPRemoteOpenFileParent
 (
 PRemoteOpenFileParent
 *
@@ -345,7 +345,7 @@ aBrowser
 ;
 virtual
 bool
-DeallocPTCPSocket
+DeallocPTCPSocketParent
 (
 PTCPSocketParent
 *
