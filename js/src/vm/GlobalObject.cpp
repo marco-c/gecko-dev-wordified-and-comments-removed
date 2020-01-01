@@ -438,6 +438,8 @@ JSScript
 Create
 (
 cx
+NULL
+NULL
 true
 JSVERSION_DEFAULT
 )
