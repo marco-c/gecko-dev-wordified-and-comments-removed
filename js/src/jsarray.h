@@ -297,7 +297,8 @@ array_defineElement
 JSContext
 *
 cx
-HandleObject
+JSObject
+*
 obj
 uint32_t
 index
@@ -320,7 +321,8 @@ array_deleteElement
 JSContext
 *
 cx
-HandleObject
+JSObject
+*
 obj
 uint32_t
 index
@@ -462,10 +464,8 @@ js_NewbornArrayPush
 JSContext
 *
 cx
-js
-:
-:
-HandleObject
+JSObject
+*
 obj
 const
 js

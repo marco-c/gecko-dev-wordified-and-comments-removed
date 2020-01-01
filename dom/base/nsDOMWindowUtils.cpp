@@ -8382,14 +8382,7 @@ OBJECT_TO_JSVAL
 outerize
 (
 aCx
-JS
-:
-:
-RootedVarObject
-(
-aCx
 parent
-)
 )
 )
 ;

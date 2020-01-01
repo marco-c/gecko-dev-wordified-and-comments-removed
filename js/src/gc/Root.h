@@ -163,7 +163,6 @@ T
 address
 (
 )
-const
 {
 return
 ptr
@@ -173,7 +172,6 @@ T
 value
 (
 )
-const
 {
 return
 *
@@ -184,7 +182,6 @@ operator
 T
 (
 )
-const
 {
 return
 value
@@ -198,7 +195,6 @@ operator
 >
 (
 )
-const
 {
 return
 value

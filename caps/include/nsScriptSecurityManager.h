@@ -1240,9 +1240,10 @@ CheckObjectAccess
 JSContext
 *
 cx
-JSHandleObject
+JSObject
+*
 obj
-JSHandleId
+jsid
 id
 JSAccessMode
 mode

@@ -1192,10 +1192,7 @@ js
 :
 HandleObject
 obj
-js
-:
-:
-HandleId
+jsid
 id
 JSNative
 native

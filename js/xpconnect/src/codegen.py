@@ -3461,9 +3461,10 @@ s
 JSContext
 *
 cx
-JSHandleObject
+JSObject
+*
 obj
-JSHandleId
+jsid
 id
 JSBool
 strict
@@ -3490,9 +3491,10 @@ s
 JSContext
 *
 cx
-JSHandleObject
+JSObject
+*
 obj
-JSHandleId
+jsid
 id
 %
 s

@@ -595,9 +595,10 @@ my_resolve
 JSContext
 *
 cx
-JSHandleObject
+JSObject
+*
 obj
-JSHandleId
+jsid
 id
 unsigned
 flags

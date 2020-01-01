@@ -3382,7 +3382,8 @@ cx
 Argument
 (
 '
-JSHandleObject
+JSObject
+*
 '
 '
 obj
@@ -3392,7 +3393,7 @@ obj
 Argument
 (
 '
-JSHandleId
+jsid
 '
 '
 id
@@ -4245,7 +4246,8 @@ cx
 Argument
 (
 '
-JSHandleObject
+JSObject
+*
 '
 '
 obj
@@ -4420,9 +4422,7 @@ false
   
 }
   
-JSObject
-*
-objProto
+obj
 =
 &
 protov
@@ -4466,7 +4466,7 @@ if
 proto
 =
 =
-objProto
+obj
 )
 {
       
@@ -18910,7 +18910,8 @@ cx
 Argument
 (
 '
-JSHandleObject
+JSObject
+*
 '
 '
 obj
@@ -18920,7 +18921,7 @@ obj
 Argument
 (
 '
-JSHandleId
+jsid
 '
 '
 id
@@ -19178,7 +19179,8 @@ cx
 Argument
 (
 '
-JSHandleObject
+JSObject
+*
 '
 '
 obj
@@ -19188,7 +19190,7 @@ obj
 Argument
 (
 '
-JSHandleId
+jsid
 '
 '
 id

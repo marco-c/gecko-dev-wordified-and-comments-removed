@@ -565,7 +565,7 @@ JSOp
 op
 HandleObject
 obj
-HandleId
+jsid
 id
 Value
 *
@@ -1486,14 +1486,12 @@ cx
 obj
 )
 ;
-RootedVarId
+jsid
 id
-(
-cx
+=
 NameToId
 (
 name
-)
 )
 ;
 if
@@ -1532,10 +1530,7 @@ DNP_CACHE_RESULT
 if
 (
 !
-baseops
-:
-:
-SetPropertyHelper
+js_SetPropertyHelper
 (
 cx
 objRoot
@@ -1835,11 +1830,7 @@ obj
 getGeneric
 (
 cx
-RootedVarId
-(
-cx
 id
-)
 vp
 )
 )
@@ -3770,8 +3761,8 @@ Value
 &
 idval
 jsid
-*
-idp
+&
+id
 Value
 *
 vp
@@ -3796,8 +3787,7 @@ i_
 )
 )
 {
-*
-idp
+id
 =
 INT_TO_JSID
 (
@@ -3816,7 +3806,8 @@ InternNonIntElementId
 cx
 obj
 idval
-idp
+&
+id
 vp
 )
 ;
@@ -3976,7 +3967,6 @@ FetchElementId
 cx
 obj
 rref
-&
 id
 res
 )
@@ -4540,7 +4530,7 @@ cx
 JSObject
 *
 obj
-HandleId
+jsid
 id
 const
 Value

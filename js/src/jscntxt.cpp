@@ -4608,11 +4608,9 @@ resetCompartment
 (
 )
 {
-RootedVarObject
+JSObject
+*
 scopeobj
-(
-this
-)
 ;
 if
 (
@@ -4649,9 +4647,7 @@ scopeobj
 goto
 error
 ;
-scopeobj
-=
-GetInnerObject
+OBJ_TO_INNER_OBJECT
 (
 this
 scopeobj
