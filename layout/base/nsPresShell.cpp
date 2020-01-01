@@ -9860,10 +9860,6 @@ NS_ENSURE_STATE
 mHaveShutDown
 )
 ;
-{
-nsAutoScriptBlocker
-scriptBlocker
-;
 mFrameConstructor
 -
 >
@@ -9871,7 +9867,6 @@ ProcessPendingRestyles
 (
 )
 ;
-}
 NS_ENSURE_STATE
 (
 !
@@ -10250,10 +10245,6 @@ kungFuDeathGrip
 this
 )
 ;
-{
-nsAutoScriptBlocker
-scriptBlocker
-;
 mFrameConstructor
 -
 >
@@ -10261,7 +10252,6 @@ ProcessPendingRestyles
 (
 )
 ;
-}
 if
 (
 !
@@ -18601,9 +18591,6 @@ FlushUserFontSet
 (
 )
 ;
-nsAutoScriptBlocker
-scriptBlocker
-;
 mFrameConstructor
 -
 >
@@ -18637,9 +18624,6 @@ if
 mIsDestroying
 )
 {
-nsAutoScriptBlocker
-scriptBlocker
-;
 mFrameConstructor
 -
 >

@@ -3487,11 +3487,6 @@ clone
 )
 const
 ;
-void
-InitializeFinalizeFrameLoaders
-(
-)
-;
 protected
 :
 void
@@ -3563,6 +3558,11 @@ aID
 ;
 void
 DispatchContentLoadedEvents
+(
+)
+;
+void
+InitializeFinalizeFrameLoaders
 (
 )
 ;
@@ -4190,12 +4190,6 @@ nsFrameLoader
 >
 >
 mFinalizableFrameLoaders
-;
-nsCOMPtr
-<
-nsIRunnable
->
-mFrameLoaderRunner
 ;
 nsRevocableEventPtr
 <
