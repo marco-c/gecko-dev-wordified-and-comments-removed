@@ -274,6 +274,12 @@ False
         
 self
 .
+tz_pacific
+=
+False
+        
+self
+.
 expect_error
 =
 '
@@ -335,6 +341,14 @@ valgrind
 self
 .
 valgrind
+        
+t
+.
+tz_pacific
+=
+self
+.
+tz_pacific
         
 t
 .
@@ -626,6 +640,23 @@ valgrind
 options
 .
 valgrind
+                    
+elif
+name
+=
+=
+'
+tz
+-
+pacific
+'
+:
+                        
+test
+.
+tz_pacific
+=
+True
                     
 elif
 name
@@ -1569,6 +1600,33 @@ run
 =
 run_cmd
     
+env
+=
+os
+.
+environ
+.
+copy
+(
+)
+    
+if
+test
+.
+tz_pacific
+:
+        
+env
+[
+'
+TZ
+'
+]
+=
+'
+PST8PDT
+'
+    
 out
 err
 code
@@ -1577,9 +1635,7 @@ timed_out
 run
 (
 cmd
-os
-.
-environ
+env
 OPTIONS
 .
 timeout
