@@ -494,6 +494,10 @@ LoadLibraryRemote
 .
 cpp
 \
+InjectCrashReporter
+.
+cpp
+\
 (
 NULL
 )
