@@ -4886,7 +4886,7 @@ obj
 )
 {
 return
-UncheckedUnwrap
+UnwrapObject
 (
 obj
 )
@@ -4905,7 +4905,7 @@ obj
 )
 {
 return
-UncheckedUnwrap
+UnwrapObject
 (
 obj
 false

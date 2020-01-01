@@ -1787,7 +1787,7 @@ obj
 js
 :
 :
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 false
@@ -3962,7 +3962,7 @@ obj
 js
 :
 :
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -4088,7 +4088,7 @@ obj
 js
 :
 :
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )

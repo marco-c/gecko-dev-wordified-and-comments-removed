@@ -127,7 +127,7 @@ unwrapped
 js
 :
 :
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 false

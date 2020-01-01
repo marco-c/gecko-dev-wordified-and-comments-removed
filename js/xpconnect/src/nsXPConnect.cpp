@@ -5943,7 +5943,7 @@ aJSObj
 js
 :
 :
-CheckedUnwrap
+UnwrapObjectChecked
 (
 aJSObj
 false

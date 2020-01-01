@@ -2073,7 +2073,7 @@ JSObject
 *
 tObj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 &
 v
@@ -2535,7 +2535,7 @@ isWrapper
 )
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -3230,7 +3230,7 @@ toObject
 ;
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )

@@ -3007,7 +3007,7 @@ proxy
 )
 {
 return
-UncheckedUnwrap
+UnwrapObject
 (
 proxy
 )

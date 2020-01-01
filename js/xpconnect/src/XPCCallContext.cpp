@@ -504,7 +504,7 @@ unwrapped
 js
 :
 :
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 false
@@ -1828,7 +1828,7 @@ MOZ_ASSERT
 js
 :
 :
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -1872,7 +1872,7 @@ unwrapped
 js
 :
 :
-UncheckedUnwrap
+UnwrapObject
 (
 obj
 false

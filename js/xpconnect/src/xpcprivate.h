@@ -10817,7 +10817,7 @@ obj
 js
 :
 :
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 false

@@ -191,7 +191,7 @@ obj
 js
 :
 :
-UncheckedUnwrap
+UnwrapObject
 (
 obj
 false
@@ -578,7 +578,7 @@ return
 js
 :
 :
-UncheckedUnwrap
+UnwrapObject
 (
 wrapper
 false

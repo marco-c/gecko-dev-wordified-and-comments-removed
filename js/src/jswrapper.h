@@ -1157,7 +1157,7 @@ JS_FRIEND_API
 JSObject
 *
 )
-UncheckedUnwrap
+UnwrapObject
 (
 JSObject
 *
@@ -1178,7 +1178,7 @@ JS_FRIEND_API
 JSObject
 *
 )
-CheckedUnwrap
+UnwrapObjectChecked
 (
 RawObject
 obj

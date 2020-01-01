@@ -5228,7 +5228,7 @@ inner
 js
 :
 :
-CheckedUnwrap
+UnwrapObjectChecked
 (
 src
 false
@@ -5259,7 +5259,7 @@ inner
 js
 :
 :
-UncheckedUnwrap
+UnwrapObject
 (
 src
 )
@@ -5887,7 +5887,7 @@ unwrapped
 js
 :
 :
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 false

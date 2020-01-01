@@ -1226,7 +1226,7 @@ vp
 ;
 obj
 =
-UncheckedUnwrap
+UnwrapObject
 (
 obj
 true

@@ -8950,7 +8950,7 @@ toObject
 if
 (
 !
-UncheckedUnwrap
+UnwrapObject
 (
 dataObj
 )
@@ -10469,7 +10469,7 @@ JSObject
 *
 wrapped
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 bufobj
 )
@@ -14056,7 +14056,7 @@ isWrapper
 )
 &
 &
-UncheckedUnwrap
+UnwrapObject
 (
 bufobj
 )
@@ -17762,7 +17762,7 @@ if
 (
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -17899,7 +17899,7 @@ if
 (
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -20357,7 +20357,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -20388,7 +20388,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -20419,7 +20419,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -20460,7 +20460,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -20496,7 +20496,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -20761,7 +20761,7 @@ if
 (
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -20827,7 +20827,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -20873,7 +20873,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -20919,7 +20919,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -20965,7 +20965,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -21051,7 +21051,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -21122,7 +21122,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -21193,7 +21193,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -21264,7 +21264,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -21335,7 +21335,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -21406,7 +21406,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -21477,7 +21477,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -21548,7 +21548,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -21619,7 +21619,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -21689,7 +21689,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -21720,7 +21720,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -21760,7 +21760,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -21809,7 +21809,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -21859,7 +21859,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -21932,7 +21932,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -21994,7 +21994,7 @@ obj
 {
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -22082,7 +22082,7 @@ if
 (
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
@@ -22212,7 +22212,7 @@ if
 (
 obj
 =
-CheckedUnwrap
+UnwrapObjectChecked
 (
 obj
 )
