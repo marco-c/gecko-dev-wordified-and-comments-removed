@@ -3440,6 +3440,15 @@ nsIDOMWindow
 aWindow
 )
 ;
+static
+bool
+AllowXULXBLForPrincipal
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
 private
 :
 static
@@ -3761,6 +3770,10 @@ sSameOriginChecker
 static
 PRBool
 sIsHandlingKeyBoardEvent
+;
+static
+PRBool
+sAllowXULXBL_for_file
 ;
 }
 ;
