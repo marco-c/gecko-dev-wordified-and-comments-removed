@@ -552,7 +552,6 @@ isTabViewVisible
 (
 )
 )
-{
 GroupItems
 .
 removeHiddenGroups
@@ -566,7 +565,6 @@ saveAll
 true
 )
 ;
-}
 self
 .
 _save
