@@ -4642,14 +4642,8 @@ if
 nsContentUtils
 :
 :
-IsChromeDoc
+IsCallerChrome
 (
-win
--
->
-GetExtantDoc
-(
-)
 )
 )
 {
