@@ -205,7 +205,7 @@ const
 uint32_t
 CURRENT_VERSION
 =
-2
+3
 ;
 void
 TableUpdate

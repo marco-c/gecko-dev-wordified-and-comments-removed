@@ -2925,7 +2925,7 @@ urlclassifier
 .
 randomizeclient
 "
-true
+false
 )
 ;
 pref
