@@ -1423,6 +1423,10 @@ file_a4_tone
 .
 ogg
 \
+detodos
+.
+opus
+\
 (
 NULL
 )
