@@ -619,6 +619,14 @@ mCallingThread
 ;
 }
 ;
+void
+ForceWALCheckpoint
+(
+mozIStorageConnection
+*
+aDBConn
+)
+;
 }
 }
 #

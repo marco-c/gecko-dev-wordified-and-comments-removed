@@ -1134,6 +1134,9 @@ mCacheObservers
 bool
 mShuttingDown
 ;
+bool
+mBatching
+;
 nsresult
 EnsureKeywordsHash
 (
