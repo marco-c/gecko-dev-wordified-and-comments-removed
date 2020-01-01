@@ -31531,7 +31531,9 @@ uri
 bindingURL
 -
 >
-mURI
+GetURI
+(
+)
 ;
 nsCOMPtr
 <
