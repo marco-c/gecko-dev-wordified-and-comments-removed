@@ -4387,6 +4387,14 @@ fe
 )
 )
 {
+NS_WARNING
+(
+"
+Invalid
+font
+"
+)
+;
 return
 NS_LITERAL_STRING
 (

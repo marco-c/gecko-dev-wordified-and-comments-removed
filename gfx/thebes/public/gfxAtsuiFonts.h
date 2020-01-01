@@ -50,6 +50,10 @@ gfxAtsuiFont
 ATSUFontID
 fontID
 const
+nsAString
+&
+name
+const
 gfxFontStyle
 *
 fontStyle
