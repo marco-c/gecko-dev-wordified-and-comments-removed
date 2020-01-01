@@ -394,6 +394,18 @@ addThis
 (
 )
 ;
+if
+(
+typeof
+newGlobal
+=
+=
+=
+"
+function
+"
+)
+{
 status
 =
 inSection
@@ -446,6 +458,7 @@ addThis
 (
 )
 ;
+}
 test
 (
 )
