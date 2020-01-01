@@ -8241,6 +8241,9 @@ mOwner
 &
 &
 invalidRect
+&
+&
+mWidgetVisible
 )
 {
 nsIView
