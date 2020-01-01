@@ -4257,6 +4257,16 @@ detail
 id
 ]
 ;
+delete
+this
+.
+_installers
+[
+detail
+.
+id
+]
+;
 switch
 (
 detail
