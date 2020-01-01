@@ -270,8 +270,6 @@ video_config_
 "
 VP8
 "
-640
-480
 )
 video_conduit_
 (
