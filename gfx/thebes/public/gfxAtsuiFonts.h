@@ -198,6 +198,15 @@ GetFontEntry
 (
 )
 ;
+PRBool
+Valid
+(
+)
+{
+return
+mValid
+;
+}
 protected
 :
 const
@@ -213,6 +222,9 @@ nsRefPtr
 MacOSFontEntry
 >
 mFontEntry
+;
+PRBool
+mValid
 ;
 PRBool
 mHasMirroring
