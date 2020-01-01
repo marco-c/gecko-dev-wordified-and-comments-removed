@@ -254,6 +254,13 @@ testing
 /
 mozbase
 /
+mozfile
+'
+'
+testing
+/
+mozbase
+/
 mozinfo
 '
 ]
