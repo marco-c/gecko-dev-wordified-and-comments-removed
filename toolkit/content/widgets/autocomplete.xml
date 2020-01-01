@@ -5160,6 +5160,15 @@ true
 ;
 this
 .
+removeAttribute
+(
+"
+width
+"
+)
+;
+this
+.
 mInput
 .
 controller
