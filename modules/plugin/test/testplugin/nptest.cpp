@@ -34,6 +34,13 @@ string
 h
 >
 #
+include
+<
+stdio
+.
+h
+>
+#
 define
 PLUGIN_NAME
 "
