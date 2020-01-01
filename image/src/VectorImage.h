@@ -191,9 +191,6 @@ mRenderingObserver
 nsIntRect
 mRestrictedRegion
 ;
-nsIntSize
-mLastRenderedSize
-;
 bool
 mIsInitialized
 :
