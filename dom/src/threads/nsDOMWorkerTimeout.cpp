@@ -803,9 +803,6 @@ string
 NS_ERROR_FAILURE
 )
 ;
-jsval
-rval
-;
 PRBool
 success
 =
@@ -822,8 +819,7 @@ get
 (
 )
 mLineNumber
-&
-rval
+nsnull
 )
 ;
 if
