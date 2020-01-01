@@ -844,6 +844,10 @@ SVGTSpanElement
 )
 DOMCI_CLASS
 (
+SVGUnknownElement
+)
+DOMCI_CLASS
+(
 SVGUseElement
 )
 DOMCI_CLASS
