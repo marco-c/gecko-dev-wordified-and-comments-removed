@@ -610,6 +610,14 @@ ins
 )
 ;
 bool
+visitFlatClosureUpvars
+(
+MFlatClosureUpvars
+*
+ins
+)
+;
+bool
 visitLoadSlot
 (
 MLoadSlot

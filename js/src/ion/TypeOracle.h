@@ -40,6 +40,7 @@ MIRType_Any
 MIRType_None
 MIRType_Slots
 MIRType_Elements
+MIRType_UpvarSlots
 MIRType_StackFrame
 }
 ;
@@ -1415,6 +1416,14 @@ MIRType_Elements
 return
 "
 Elements
+"
+;
+case
+MIRType_UpvarSlots
+:
+return
+"
+UpvarSlots
 "
 ;
 case

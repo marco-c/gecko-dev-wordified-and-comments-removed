@@ -369,6 +369,11 @@ CallSetProperty
 \
 _
 (
+FlatClosureUpvars
+)
+\
+_
+(
 SetPropertyCache
 )
 \

@@ -9096,7 +9096,12 @@ VirtualRegister
 *
 candidate
 =
-alloc
+mine
+-
+>
+canonicalSpill
+(
+)
 ?
 mine
 :
@@ -9123,7 +9128,12 @@ finishedDoubleSlots_
 .
 append
 (
-interval
+candidate
+-
+>
+lastInterval
+(
+)
 )
 ;
 }
