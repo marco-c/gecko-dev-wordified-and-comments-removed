@@ -701,6 +701,7 @@ eNoValue
 eSwitchAction
 eNoLiveAttr
 kNoReqStates
+eARIASelectable
 }
 {
 "
