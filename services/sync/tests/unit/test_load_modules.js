@@ -3,6 +3,11 @@ modules
 =
 [
 "
+addonutils
+.
+js
+"
+"
 addonsreconciler
 .
 js
