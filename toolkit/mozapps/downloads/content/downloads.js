@@ -3078,9 +3078,10 @@ downloadStrings
 ;
 gDownloadManager
 .
-listener
-=
+addListener
+(
 gDownloadListener
+)
 ;
 var
 activeDownloads
@@ -3504,9 +3505,10 @@ Shutdown
 {
 gDownloadManager
 .
-listener
-=
-null
+removeListener
+(
+gDownloadListener
+)
 ;
 var
 pbi
