@@ -26896,6 +26896,15 @@ OBJECT_FLAG_REENTRANT_FUNCTION
 )
 ;
 }
+JS_ASSERT
+(
+!
+script
+-
+>
+funHasExtensibleScope
+)
+;
 nesting
 -
 >

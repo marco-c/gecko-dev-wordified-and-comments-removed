@@ -159,6 +159,15 @@ if
 outer
 -
 >
+funHasExtensibleScope
+)
+continue
+;
+if
+(
+outer
+-
+>
 hasObjects
 (
 )
