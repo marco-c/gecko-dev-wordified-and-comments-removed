@@ -73679,11 +73679,6 @@ build
 -
 host
 =
-host
--
--
-target
-=
 target
 HOST_CC
 =
@@ -73813,9 +73808,6 @@ build
 -
 -
 host
-=
-host
-target
 =
 target
 "
