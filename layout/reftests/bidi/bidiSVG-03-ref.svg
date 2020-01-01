@@ -33,7 +33,7 @@ text
 x
 =
 "
-100
+400
 "
 y
 =
@@ -53,6 +53,13 @@ bidi
 bidi
 -
 override
+"
+text
+-
+anchor
+=
+"
+end
 "
 >
 in
