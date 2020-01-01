@@ -19758,6 +19758,10 @@ env
 frame
 options
 chars
+.
+get
+(
+)
 length
 NULL
 frame

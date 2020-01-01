@@ -1840,7 +1840,9 @@ const
 CompileOptions
 &
 options
-StableCharPtr
+const
+jschar
+*
 chars
 size_t
 length
@@ -28132,9 +28134,10 @@ length
 )
 ;
 const
-StableCharPtr
+jschar
+*
 chars
-(
+=
 tokenStream
 .
 getTokenbuf
@@ -28143,8 +28146,6 @@ getTokenbuf
 .
 begin
 (
-)
-length
 )
 ;
 RegExpFlag

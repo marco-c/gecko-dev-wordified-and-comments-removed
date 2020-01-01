@@ -33,7 +33,9 @@ const
 CompileOptions
 &
 options
-StableCharPtr
+const
+jschar
+*
 chars
 size_t
 length
@@ -67,7 +69,9 @@ const
 AutoNameVector
 &
 formals
-StableCharPtr
+const
+jschar
+*
 chars
 size_t
 length
