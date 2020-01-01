@@ -112,7 +112,7 @@ class
 Accessible
 ;
 class
-nsHyperTextAccessible
+HyperTextAccessible
 ;
 class
 nsHTMLImageAccessible
@@ -1048,7 +1048,7 @@ mFlags
 eHyperTextAccessible
 ;
 }
-nsHyperTextAccessible
+HyperTextAccessible
 *
 AsHyperText
 (

@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsHyperTextAccessible
+HyperTextAccessible
 .
 h
 "
@@ -1496,7 +1496,7 @@ accWrap
 return
 0
 ;
-nsHyperTextAccessible
+HyperTextAccessible
 *
 textAcc
 =

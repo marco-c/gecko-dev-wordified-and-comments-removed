@@ -230,7 +230,7 @@ DocAccessible
 aDoc
 )
 :
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -240,7 +240,7 @@ aDoc
 NS_IMPL_ISUPPORTS_INHERITED1
 (
 nsHTMLTableCellAccessible
-nsHyperTextAccessible
+HyperTextAccessible
 nsIAccessibleTableCell
 )
 role
@@ -269,7 +269,7 @@ NativeState
 PRUint64
 state
 =
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 NativeState
@@ -359,7 +359,7 @@ NS_ERROR_FAILURE
 nsresult
 rv
 =
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 GetAttributesInternal
@@ -6847,7 +6847,7 @@ aType
 Relation
 rel
 =
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 RelationByType

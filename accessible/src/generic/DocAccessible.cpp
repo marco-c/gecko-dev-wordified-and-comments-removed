@@ -393,7 +393,7 @@ nsIPresShell
 aPresShell
 )
 :
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aRootContent
 this
@@ -710,7 +710,7 @@ IsHyperText
 (
 )
 ?
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 QueryInterface
@@ -765,12 +765,12 @@ status
 NS_IMPL_ADDREF_INHERITED
 (
 DocAccessible
-nsHyperTextAccessible
+HyperTextAccessible
 )
 NS_IMPL_RELEASE_INHERITED
 (
 DocAccessible
-nsHyperTextAccessible
+HyperTextAccessible
 )
 ENameValueFlag
 DocAccessible
@@ -2610,7 +2610,7 @@ ClearCache
 mAccessibleCache
 )
 ;
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 Shutdown
@@ -5085,7 +5085,7 @@ aEvent
 )
 ;
 return
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 HandleAccEvent
@@ -6919,7 +6919,7 @@ nsIAccessibleEvent
 EVENT_TEXT_CARET_MOVED
 )
 {
-nsHyperTextAccessible
+HyperTextAccessible
 *
 hyperText
 =

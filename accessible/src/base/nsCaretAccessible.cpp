@@ -1107,7 +1107,7 @@ nsnull
 return
 ;
 }
-nsHyperTextAccessible
+HyperTextAccessible
 *
 textAcc
 =
@@ -1243,7 +1243,7 @@ nsISelection
 aSelection
 )
 {
-nsHyperTextAccessible
+HyperTextAccessible
 *
 textAcc
 =

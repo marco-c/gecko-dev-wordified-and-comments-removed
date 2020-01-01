@@ -99,7 +99,7 @@ class
 Accessible
 ;
 class
-nsHyperTextAccessible
+HyperTextAccessible
 ;
 class
 nsHTMLTableAccessible
@@ -361,7 +361,7 @@ aAccessible
 )
 ;
 static
-nsHyperTextAccessible
+HyperTextAccessible
 *
 GetTextAccessibleFromSelection
 (

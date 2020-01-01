@@ -121,7 +121,7 @@ h
 #
 import
 "
-nsHyperTextAccessible
+HyperTextAccessible
 .
 h
 "

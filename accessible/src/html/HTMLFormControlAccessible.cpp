@@ -828,7 +828,7 @@ DocAccessible
 aDoc
 )
 :
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -924,7 +924,7 @@ State
 PRUint64
 state
 =
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 State
@@ -1010,7 +1010,7 @@ NativeState
 PRUint64
 state
 =
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 NativeState
@@ -1266,7 +1266,7 @@ DocAccessible
 aDoc
 )
 :
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -1277,7 +1277,7 @@ NS_IMPL_ISUPPORTS_INHERITED3
 (
 HTMLTextFieldAccessible
 Accessible
-nsHyperTextAccessible
+HyperTextAccessible
 nsIAccessibleText
 nsIAccessibleEditableText
 )
@@ -1520,7 +1520,7 @@ aState
 )
 const
 {
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 ApplyARIAState
@@ -1558,7 +1558,7 @@ State
 PRUint64
 state
 =
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 State
@@ -1643,7 +1643,7 @@ NativeState
 PRUint64
 state
 =
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 NativeState
@@ -2234,7 +2234,7 @@ DocAccessible
 aDoc
 )
 :
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -2275,7 +2275,7 @@ aEvent
 nsresult
 rv
 =
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 HandleAccEvent
@@ -2525,7 +2525,7 @@ DocAccessible
 aDoc
 )
 :
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -2698,7 +2698,7 @@ aType
 Relation
 rel
 =
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 RelationByType
@@ -2743,7 +2743,7 @@ DocAccessible
 aDoc
 )
 :
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -2763,7 +2763,7 @@ aType
 Relation
 rel
 =
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 RelationByType
@@ -2849,7 +2849,7 @@ DocAccessible
 aDoc
 )
 :
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -2870,7 +2870,7 @@ aAttributes
 nsresult
 rv
 =
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 GetAttributesInternal
@@ -2935,7 +2935,7 @@ aName
 nsresult
 rv
 =
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 GetNameInternal
@@ -3004,7 +3004,7 @@ aType
 Relation
 rel
 =
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 RelationByType
@@ -3118,7 +3118,7 @@ DocAccessible
 aDoc
 )
 :
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -3153,7 +3153,7 @@ aType
 Relation
 rel
 =
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 RelationByType

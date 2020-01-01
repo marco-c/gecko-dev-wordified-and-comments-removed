@@ -3668,7 +3668,7 @@ DocAccessible
 aDoc
 )
 :
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -3678,7 +3678,7 @@ aDoc
 NS_IMPL_ISUPPORTS_INHERITED1
 (
 nsXULListCellAccessible
-nsHyperTextAccessible
+HyperTextAccessible
 nsIAccessibleTableCell
 )
 NS_IMETHODIMP

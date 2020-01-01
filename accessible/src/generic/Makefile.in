@@ -114,6 +114,10 @@ FormControlAccessible
 .
 cpp
 \
+HyperTextAccessible
+.
+cpp
+\
 OuterDocAccessible
 .
 cpp

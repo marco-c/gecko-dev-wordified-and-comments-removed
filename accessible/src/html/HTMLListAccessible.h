@@ -7,7 +7,7 @@ mozilla_a11y_HTMLListAccessible_h__
 #
 include
 "
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 .
 h
 "
@@ -31,7 +31,7 @@ class
 HTMLListAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :
@@ -45,7 +45,7 @@ DocAccessible
 aDoc
 )
 :
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -81,7 +81,7 @@ class
 HTMLLIAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :

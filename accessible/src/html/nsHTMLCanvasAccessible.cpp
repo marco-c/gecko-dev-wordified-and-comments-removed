@@ -32,7 +32,7 @@ DocAccessible
 aDoc
 )
 :
-nsHyperTextAccessible
+HyperTextAccessible
 (
 aContent
 aDoc

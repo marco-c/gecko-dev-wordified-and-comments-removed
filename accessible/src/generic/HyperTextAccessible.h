@@ -1,9 +1,9 @@
 #
 ifndef
-_nsHyperTextAccessible_H_
+mozilla_a11y_HyperTextAccessible_h__
 #
 define
-_nsHyperTextAccessible_H_
+mozilla_a11y_HyperTextAccessible_h__
 #
 include
 "
@@ -128,7 +128,7 @@ a92e
 \
 }
 class
-nsHyperTextAccessible
+HyperTextAccessible
 :
 public
 AccessibleWrap
@@ -141,7 +141,7 @@ nsIAccessibleEditableText
 {
 public
 :
-nsHyperTextAccessible
+HyperTextAccessible
 (
 nsIContent
 *
@@ -153,7 +153,7 @@ aDoc
 ;
 virtual
 ~
-nsHyperTextAccessible
+HyperTextAccessible
 (
 )
 {
@@ -777,11 +777,11 @@ mOffsets
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
 (
-nsHyperTextAccessible
+HyperTextAccessible
 NS_HYPERTEXTACCESSIBLE_IMPL_CID
 )
 inline
-nsHyperTextAccessible
+HyperTextAccessible
 *
 Accessible
 :
@@ -797,7 +797,7 @@ eHyperTextAccessible
 ?
 static_cast
 <
-nsHyperTextAccessible
+HyperTextAccessible
 *
 >
 (

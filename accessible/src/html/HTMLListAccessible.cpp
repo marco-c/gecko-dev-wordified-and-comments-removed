@@ -54,7 +54,7 @@ a11y
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 HTMLListAccessible
-nsHyperTextAccessible
+HyperTextAccessible
 )
 role
 HTMLListAccessible
@@ -101,7 +101,7 @@ NativeState
 )
 {
 return
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 NativeState
@@ -127,7 +127,7 @@ DocAccessible
 aDoc
 )
 :
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -198,7 +198,7 @@ nsnull
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 HTMLLIAccessible
-nsHyperTextAccessible
+HyperTextAccessible
 )
 void
 HTMLLIAccessible
@@ -212,7 +212,7 @@ mBullet
 =
 nsnull
 ;
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 Shutdown
@@ -265,7 +265,7 @@ NativeState
 )
 {
 return
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 NativeState

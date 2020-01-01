@@ -7,14 +7,14 @@ _nsXULTextAccessible_H_
 #
 include
 "
-nsBaseWidgetAccessible
+HyperTextAccessibleWrap
 .
 h
 "
 #
 include
 "
-nsHyperTextAccessibleWrap
+nsBaseWidgetAccessible
 .
 h
 "
@@ -22,7 +22,7 @@ class
 nsXULTextAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :
@@ -115,7 +115,7 @@ class
 nsXULLinkAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :

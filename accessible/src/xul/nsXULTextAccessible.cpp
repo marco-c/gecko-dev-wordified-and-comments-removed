@@ -118,7 +118,7 @@ DocAccessible
 aDoc
 )
 :
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -177,7 +177,7 @@ NativeState
 )
 {
 return
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 NativeState
@@ -203,7 +203,7 @@ aType
 Relation
 rel
 =
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 RelationByType
@@ -378,7 +378,7 @@ DocAccessible
 aDoc
 )
 :
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -388,7 +388,7 @@ aDoc
 NS_IMPL_ISUPPORTS_INHERITED1
 (
 nsXULLinkAccessible
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 nsIAccessibleHyperLink
 )
 void

@@ -114,6 +114,10 @@ DocAccessibleWrap
 .
 cpp
 \
+HyperTextAccessibleWrap
+.
+cpp
+\
 nsAccessNodeWrap
 .
 cpp
@@ -131,10 +135,6 @@ nsXULListboxAccessibleWrap
 cpp
 \
 nsXULTreeGridAccessibleWrap
-.
-cpp
-\
-nsHyperTextAccessibleWrap
 .
 cpp
 \

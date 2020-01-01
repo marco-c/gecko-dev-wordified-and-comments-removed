@@ -1348,7 +1348,7 @@ interfacesBits
 <
 MAI_INTERFACE_ACTION
 ;
-nsHyperTextAccessible
+HyperTextAccessible
 *
 hyperText
 =

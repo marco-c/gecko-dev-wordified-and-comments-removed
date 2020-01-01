@@ -1,7 +1,7 @@
 #
 include
 "
-nsHyperTextAccessible
+HyperTextAccessible
 .
 h
 "
@@ -203,10 +203,10 @@ mozilla
 :
 a11y
 ;
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
-nsHyperTextAccessible
+HyperTextAccessible
 (
 nsIContent
 *
@@ -230,16 +230,16 @@ eHyperTextAccessible
 }
 NS_IMPL_ADDREF_INHERITED
 (
-nsHyperTextAccessible
+HyperTextAccessible
 AccessibleWrap
 )
 NS_IMPL_RELEASE_INHERITED
 (
-nsHyperTextAccessible
+HyperTextAccessible
 AccessibleWrap
 )
 nsresult
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 QueryInterface
@@ -265,7 +265,7 @@ Equals
 (
 NS_GET_IID
 (
-nsHyperTextAccessible
+HyperTextAccessible
 )
 )
 )
@@ -275,7 +275,7 @@ aInstancePtr
 =
 static_cast
 <
-nsHyperTextAccessible
+HyperTextAccessible
 *
 >
 (
@@ -418,7 +418,7 @@ aInstancePtr
 ;
 }
 role
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 NativeRole
@@ -676,7 +676,7 @@ TEXT_CONTAINER
 ;
 }
 PRUint64
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 NativeState
@@ -762,7 +762,7 @@ states
 ;
 }
 nsIntRect
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetBoundsForString
@@ -1058,7 +1058,7 @@ screenRect
 }
 nsIFrame
 *
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetPosAndText
@@ -1913,7 +1913,7 @@ startFrame
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetText
@@ -2181,7 +2181,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetCharacterCount
@@ -2222,7 +2222,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetCharacterAtOffset
@@ -2285,7 +2285,7 @@ NS_ERROR_INVALID_ARG
 }
 Accessible
 *
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 DOMPointToHypertextOffset
@@ -2761,7 +2761,7 @@ nsnull
 ;
 }
 nsresult
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 HypertextOffsetToDOMPoint
@@ -2803,7 +2803,7 @@ endOffset
 ;
 }
 nsresult
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 HypertextOffsetsToDOMRange
@@ -3141,7 +3141,7 @@ NS_OK
 ;
 }
 PRInt32
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetRelativeOffset
@@ -3556,7 +3556,7 @@ hyperTextOffset
 ;
 }
 nsresult
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetTextHelper
@@ -4279,7 +4279,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetTextBeforeOffset
@@ -4333,7 +4333,7 @@ aText
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetTextAtOffset
@@ -4387,7 +4387,7 @@ aText
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetTextAfterOffset
@@ -4441,7 +4441,7 @@ aText
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetTextAttributes
@@ -4731,7 +4731,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetDefaultTextAttributes
@@ -4805,7 +4805,7 @@ NS_OK
 ;
 }
 PRInt32
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetLevelInternal
@@ -4911,7 +4911,7 @@ GetLevelInternal
 ;
 }
 nsresult
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetAttributesInternal
@@ -5182,7 +5182,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetCharacterExtents
@@ -5221,7 +5221,7 @@ aCoordType
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetRangeExtents
@@ -5321,7 +5321,7 @@ this
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetOffsetAtPoint
@@ -5722,7 +5722,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetLinkCount
@@ -5763,7 +5763,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetLinkAt
@@ -5819,7 +5819,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetLinkIndex
@@ -5871,7 +5871,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetLinkIndexAtOffset
@@ -5916,7 +5916,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 SetAttributes
@@ -5935,7 +5935,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 SetTextContents
@@ -5984,7 +5984,7 @@ NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 InsertText
@@ -6059,7 +6059,7 @@ aText
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 CopyText
@@ -6119,7 +6119,7 @@ Copy
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 CutText
@@ -6179,7 +6179,7 @@ Cut
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 DeleteText
@@ -6247,7 +6247,7 @@ eStrip
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 PasteText
@@ -6312,7 +6312,7 @@ already_AddRefed
 <
 nsIEditor
 >
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetEditor
@@ -6345,7 +6345,7 @@ while
 ancestor
 )
 {
-nsHyperTextAccessible
+HyperTextAccessible
 *
 hyperText
 =
@@ -6461,7 +6461,7 @@ forget
 ;
 }
 nsresult
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 SetSelectionRange
@@ -6687,7 +6687,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 SetCaretOffset
@@ -6705,7 +6705,7 @@ aCaretOffset
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetCaretOffset
@@ -6959,7 +6959,7 @@ NS_OK
 ;
 }
 PRInt32
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 CaretLineNumber
@@ -7303,7 +7303,7 @@ already_AddRefed
 <
 nsFrameSelection
 >
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 FrameSelection
@@ -7332,7 +7332,7 @@ nsnull
 ;
 }
 void
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetSelectionDOMRanges
@@ -7546,7 +7546,7 @@ idx
 }
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetSelectionCount
@@ -7600,7 +7600,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetSelectionBounds
@@ -7808,7 +7808,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 SetSelectionBounds
@@ -8065,7 +8065,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 AddSelection
@@ -8137,7 +8137,7 @@ aEndOffset
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 RemoveSelection
@@ -8239,7 +8239,7 @@ range
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 ScrollSubstringTo
@@ -8308,7 +8308,7 @@ aScrollType
 ;
 }
 NS_IMETHODIMP
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 ScrollSubstringToPoint
@@ -8628,7 +8628,7 @@ NS_OK
 ;
 }
 nsresult
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetNameInternal
@@ -8705,7 +8705,7 @@ NS_OK
 ;
 }
 void
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 InvalidateChildren
@@ -8727,7 +8727,7 @@ InvalidateChildren
 ;
 }
 bool
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 RemoveChild
@@ -8783,7 +8783,7 @@ aAccessible
 ;
 }
 nsresult
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 ContentToRenderedOffset
@@ -8923,7 +8923,7 @@ NS_OK
 ;
 }
 nsresult
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 RenderedToContentOffset
@@ -9059,7 +9059,7 @@ NS_OK
 ;
 }
 bool
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetCharAt
@@ -9177,7 +9177,7 @@ true
 ;
 }
 PRInt32
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetChildOffset
@@ -9324,7 +9324,7 @@ aChildIndex
 ;
 }
 PRInt32
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetChildIndexAtOffset
@@ -9544,7 +9544,7 @@ return
 ;
 }
 nsresult
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetDOMPointByFrameOffset
@@ -9806,7 +9806,7 @@ NS_OK
 ;
 }
 nsresult
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 RangeBoundToHypertextOffset
@@ -9908,7 +9908,7 @@ NS_OK
 ;
 }
 nsresult
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 GetSpellTextAttribute
@@ -10253,7 +10253,7 @@ NS_OK
 ;
 }
 bool
-nsHyperTextAccessible
+HyperTextAccessible
 :
 :
 IsTextRole

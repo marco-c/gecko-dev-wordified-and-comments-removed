@@ -7,14 +7,14 @@ __nsCaretAccessible_h__
 #
 include
 "
-NotificationController
+HyperTextAccessible
 .
 h
 "
 #
 include
 "
-nsHyperTextAccessible
+NotificationController
 .
 h
 "
@@ -150,7 +150,7 @@ mLastUsedSelection
 ;
 nsRefPtr
 <
-nsHyperTextAccessible
+HyperTextAccessible
 >
 mLastTextAccessible
 ;

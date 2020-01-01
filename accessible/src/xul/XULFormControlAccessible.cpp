@@ -2264,7 +2264,7 @@ DocAccessible
 aDoc
 )
 :
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -2275,7 +2275,7 @@ NS_IMPL_ISUPPORTS_INHERITED3
 (
 XULTextFieldAccessible
 Accessible
-nsHyperTextAccessible
+HyperTextAccessible
 nsIAccessibleText
 nsIAccessibleEditableText
 )
@@ -2375,7 +2375,7 @@ aState
 )
 const
 {
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 ApplyARIAState
@@ -2413,7 +2413,7 @@ NativeState
 PRUint64
 state
 =
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 NativeState

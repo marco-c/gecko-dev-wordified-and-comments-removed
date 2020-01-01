@@ -1,13 +1,13 @@
 #
 ifndef
-_NSHYPERTEXTACCESSIBLEWRAP_H
+mozilla_a11y_HyperTextAccessibleWrap_h__
 #
 define
-_NSHYPERTEXTACCESSIBLEWRAP_H
+mozilla_a11y_HyperTextAccessibleWrap_h__
 #
 include
 "
-nsHyperTextAccessible
+HyperTextAccessible
 .
 h
 "
@@ -33,10 +33,10 @@ ia2AccessibleHyperText
 h
 "
 class
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 public
-nsHyperTextAccessible
+HyperTextAccessible
 public
 ia2AccessibleHypertext
 public
@@ -44,7 +44,7 @@ CAccessibleEditableText
 {
 public
 :
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 nsIContent
 *
@@ -54,7 +54,7 @@ DocAccessible
 aDoc
 )
 :
-nsHyperTextAccessible
+HyperTextAccessible
 (
 aContent
 aDoc

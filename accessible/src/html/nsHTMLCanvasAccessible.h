@@ -1,7 +1,7 @@
 #
 include
 "
-nsHyperTextAccessible
+HyperTextAccessible
 .
 h
 "
@@ -15,7 +15,7 @@ class
 nsHTMLCanvasAccessible
 :
 public
-nsHyperTextAccessible
+HyperTextAccessible
 {
 public
 :

@@ -243,7 +243,7 @@ IID_ISimpleDOMDocument
 iid
 )
 return
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 QueryInterface

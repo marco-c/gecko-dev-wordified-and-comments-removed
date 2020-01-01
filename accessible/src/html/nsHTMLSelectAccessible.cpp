@@ -615,7 +615,7 @@ DocAccessible
 aDoc
 )
 :
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -1189,7 +1189,7 @@ aBoundingFrame
 )
 ;
 else
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 :
 :
 GetBoundsRect

@@ -7,7 +7,7 @@ _nsHTMLLinkAccessible_H_
 #
 include
 "
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 .
 h
 "
@@ -15,7 +15,7 @@ class
 nsHTMLLinkAccessible
 :
 public
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 {
 public
 :

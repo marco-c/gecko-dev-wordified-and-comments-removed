@@ -57,6 +57,13 @@ h
 #
 include
 "
+HyperTextAccessibleWrap
+.
+h
+"
+#
+include
+"
 nsAccessiblePivot
 .
 h
@@ -121,13 +128,6 @@ h
 include
 "
 nsHTMLTextAccessible
-.
-h
-"
-#
-include
-"
-nsHyperTextAccessibleWrap
 .
 h
 "
@@ -933,7 +933,7 @@ Accessible
 accessible
 =
 new
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 GetDocAccessible
@@ -5192,7 +5192,7 @@ nsnull
 newAcc
 =
 new
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 content
 docAcc
@@ -6012,7 +6012,7 @@ isHTML
 newAcc
 =
 new
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 content
 docAcc
@@ -7940,7 +7940,7 @@ Accessible
 accessible
 =
 new
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc
@@ -8146,7 +8146,7 @@ Accessible
 accessible
 =
 new
-nsHyperTextAccessibleWrap
+HyperTextAccessibleWrap
 (
 aContent
 aDoc

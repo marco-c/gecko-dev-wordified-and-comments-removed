@@ -8,6 +8,13 @@ h
 #
 include
 "
+HyperTextAccessibleWrap
+.
+h
+"
+#
+include
+"
 nsAccUtils
 .
 h
@@ -16,13 +23,6 @@ h
 include
 "
 nsCoreUtils
-.
-h
-"
-#
-include
-"
-nsHyperTextAccessibleWrap
 .
 h
 "
@@ -827,7 +827,7 @@ LangTextAttr
 :
 LangTextAttr
 (
-nsHyperTextAccessible
+HyperTextAccessible
 *
 aRoot
 nsIContent

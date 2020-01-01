@@ -8,7 +8,7 @@ h
 #
 import
 "
-nsHyperTextAccessible
+HyperTextAccessible
 .
 h
 "
@@ -17,7 +17,7 @@ mozTextAccessible
 :
 mozAccessible
 {
-nsHyperTextAccessible
+HyperTextAccessible
 *
 mGeckoTextAccessible
 ;
