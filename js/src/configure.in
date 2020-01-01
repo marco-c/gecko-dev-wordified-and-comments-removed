@@ -38292,8 +38292,6 @@ printf
 "
 Hello
 World
-\
-n
 "
 )
 ;

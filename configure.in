@@ -66647,8 +66647,6 @@ printf
 "
 Hello
 World
-\
-n
 "
 )
 ;
