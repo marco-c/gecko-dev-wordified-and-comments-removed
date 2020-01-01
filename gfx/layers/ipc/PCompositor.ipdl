@@ -294,10 +294,12 @@ PLayers
 (
 LayersBackend
 backend
+uint64_t
+id
 )
 returns
 (
-int
+int32_t
 maxTextureSize
 )
 ;

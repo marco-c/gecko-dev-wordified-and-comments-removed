@@ -175,6 +175,10 @@ const
 LayersBackend
 &
 aBackend
+const
+uint64_t
+&
+aId
 int
 *
 aMaxTextureSize
