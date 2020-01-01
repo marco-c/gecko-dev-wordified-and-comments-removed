@@ -474,9 +474,6 @@ Infinity
 "
 NaN
 "
-"
-builder
-"
 #
 if
 JS_HAS_XML_SUPPORT
