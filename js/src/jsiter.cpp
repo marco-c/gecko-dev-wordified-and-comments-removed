@@ -6071,6 +6071,8 @@ return
 true
 ;
 }
+namespace
+{
 class
 SingleStringPredicate
 {
@@ -6131,6 +6133,7 @@ true
 }
 }
 ;
+}
 bool
 js_SuppressDeletedProperty
 (
@@ -6219,6 +6222,8 @@ id
 )
 ;
 }
+namespace
+{
 class
 IndexRangePredicate
 {
@@ -6292,6 +6297,7 @@ false
 }
 }
 ;
+}
 bool
 js_SuppressDeletedElements
 (

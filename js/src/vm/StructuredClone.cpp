@@ -4711,6 +4711,8 @@ return
 true
 ;
 }
+namespace
+{
 class
 Chars
 {
@@ -4825,6 +4827,7 @@ NULL
 }
 }
 ;
+}
 JSString
 *
 JSStructuredCloneReader

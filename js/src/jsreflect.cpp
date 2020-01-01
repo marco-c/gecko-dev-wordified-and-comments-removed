@@ -463,6 +463,8 @@ false
 ;
 \
 JS_END_MACRO
+namespace
+{
 class
 NodeBuilder
 {
@@ -3150,6 +3152,7 @@ dst
 ;
 }
 ;
+}
 bool
 NodeBuilder
 :

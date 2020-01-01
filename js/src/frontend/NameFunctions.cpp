@@ -82,6 +82,8 @@ js
 :
 frontend
 ;
+namespace
+{
 class
 NameResolver
 {
@@ -1381,6 +1383,7 @@ nparents
 }
 }
 ;
+}
 bool
 frontend
 :

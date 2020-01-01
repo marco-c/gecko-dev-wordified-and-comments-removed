@@ -5561,6 +5561,8 @@ desc
 )
 ;
 }
+namespace
+{
 class
 AutoPropertyDescArray
 {
@@ -5660,6 +5662,7 @@ descArray_
 }
 }
 ;
+}
 static
 const
 char

@@ -17419,6 +17419,8 @@ JSOP_POP_LENGTH
 1
 )
 ;
+namespace
+{
 class
 EmitLevelManager
 {
@@ -17463,6 +17465,7 @@ emitLevel
 }
 }
 ;
+}
 static
 bool
 EmitCatch

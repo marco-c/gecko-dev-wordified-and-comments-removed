@@ -19473,6 +19473,8 @@ PRMJ_Now
 )
 ;
 }
+namespace
+{
 class
 AutoGCSession
 :
@@ -19495,6 +19497,7 @@ AutoGCSession
 ;
 }
 ;
+}
 AutoTraceSession
 :
 :
@@ -20256,6 +20259,8 @@ i
 #
 endif
 }
+namespace
+{
 class
 AutoGCSlice
 {
@@ -20281,6 +20286,7 @@ runtime
 ;
 }
 ;
+}
 AutoGCSlice
 :
 :
@@ -21699,6 +21705,8 @@ gckind
 GC_SHRINK
 ;
 }
+namespace
+{
 #
 ifdef
 JSGC_GENERATIONAL
@@ -21784,6 +21792,7 @@ JSRuntime
 ;
 #
 endif
+}
 static
 void
 Collect

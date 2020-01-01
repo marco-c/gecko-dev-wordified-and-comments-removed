@@ -248,6 +248,8 @@ freelist
 pn
 ;
 }
+namespace
+{
 class
 NodeStack
 {
@@ -376,6 +378,7 @@ top
 ;
 }
 ;
+}
 static
 bool
 PushNodeChildren

@@ -6787,14 +6787,6 @@ true
 template
 <
 typename
-NativeType
->
-class
-TypedArrayObjectTemplate
-;
-template
-<
-typename
 ElementType
 >
 static
@@ -6846,6 +6838,8 @@ obj
 )
 ;
 }
+namespace
+{
 template
 <
 typename
@@ -13720,6 +13714,7 @@ jsfuncs
 ;
 }
 ;
+}
 template
 <
 typename
@@ -14071,6 +14066,8 @@ index
 )
 ;
 }
+namespace
+{
 template
 <
 >
@@ -14233,6 +14230,7 @@ val
 )
 )
 ;
+}
 }
 static
 NewObjectKind

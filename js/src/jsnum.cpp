@@ -439,6 +439,8 @@ return
 true
 ;
 }
+namespace
+{
 class
 BinaryDigitReader
 {
@@ -684,6 +686,7 @@ bit
 }
 }
 ;
+}
 static
 double
 ComputeAccurateBinaryBaseInteger

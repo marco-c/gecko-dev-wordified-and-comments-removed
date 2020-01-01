@@ -3107,6 +3107,8 @@ return
 res
 ;
 }
+namespace
+{
 class
 TypeConstraintSubset
 :
@@ -3175,6 +3177,7 @@ type
 }
 }
 ;
+}
 void
 StackTypeSet
 :
@@ -3254,6 +3257,8 @@ target
 )
 ;
 }
+namespace
+{
 enum
 PropertyAccessKind
 {
@@ -3383,6 +3388,7 @@ PROPERTY_READ_EXISTING
 >
 TypeConstraintGetPropertyExisting
 ;
+}
 void
 StackTypeSet
 :
@@ -3537,6 +3543,8 @@ id
 )
 ;
 }
+namespace
+{
 template
 <
 PropertyAccessKind
@@ -3637,6 +3645,7 @@ PROPERTY_READ_EXISTING
 >
 TypeConstraintCallPropertyExisting
 ;
+}
 void
 HeapTypeSet
 :
@@ -3708,6 +3717,8 @@ id
 )
 ;
 }
+namespace
+{
 class
 TypeConstraintSetElement
 :
@@ -3802,6 +3813,7 @@ type
 ;
 }
 ;
+}
 void
 StackTypeSet
 :
@@ -3848,6 +3860,8 @@ valueTypes
 )
 ;
 }
+namespace
+{
 class
 TypeConstraintCall
 :
@@ -3901,6 +3915,7 @@ type
 ;
 }
 ;
+}
 void
 StackTypeSet
 :
@@ -3935,6 +3950,8 @@ site
 )
 ;
 }
+namespace
+{
 class
 TypeConstraintArith
 :
@@ -4026,6 +4043,7 @@ type
 ;
 }
 ;
+}
 void
 StackTypeSet
 :
@@ -4072,6 +4090,8 @@ other
 )
 ;
 }
+namespace
+{
 class
 TypeConstraintTransformThis
 :
@@ -4136,6 +4156,7 @@ type
 ;
 }
 ;
+}
 void
 StackTypeSet
 :
@@ -4174,6 +4195,8 @@ target
 )
 ;
 }
+namespace
+{
 class
 TypeConstraintPropagateThis
 :
@@ -4258,6 +4281,7 @@ type
 ;
 }
 ;
+}
 void
 StackTypeSet
 :
@@ -4303,6 +4327,8 @@ types
 )
 ;
 }
+namespace
+{
 class
 TypeConstraintFilterPrimitive
 :
@@ -4376,6 +4402,7 @@ type
 }
 }
 ;
+}
 void
 HeapTypeSet
 :
@@ -4979,6 +5006,8 @@ true
 )
 ;
 }
+namespace
+{
 class
 TypeConstraintSubsetBarrier
 :
@@ -5097,6 +5126,7 @@ type
 }
 }
 ;
+}
 void
 StackTypeSet
 :
@@ -8235,6 +8265,8 @@ object
 )
 ;
 }
+namespace
+{
 class
 TypeConstraintFreeze
 :
@@ -8320,6 +8352,7 @@ info
 }
 }
 ;
+}
 void
 HeapTypeSet
 :
@@ -8644,6 +8677,8 @@ type
 )
 ;
 }
+namespace
+{
 class
 TypeConstraintFreezeObjectFlags
 :
@@ -8773,6 +8808,7 @@ info
 }
 }
 ;
+}
 bool
 StackTypeSet
 :
@@ -9248,6 +9284,8 @@ compiledInfo
 )
 ;
 }
+namespace
+{
 class
 TypeConstraintFreezeOwnProperty
 :
@@ -9366,6 +9404,7 @@ info
 }
 }
 ;
+}
 static
 void
 CheckNewScriptProperties
@@ -10749,6 +10788,8 @@ script
 )
 ;
 }
+namespace
+{
 class
 TypeConstraintFreezeStack
 :
@@ -10809,6 +10850,7 @@ script_
 }
 }
 ;
+}
 TypeCompartment
 :
 :
@@ -23948,6 +23990,8 @@ script_
 )
 ;
 }
+namespace
+{
 class
 TypeConstraintClearDefiniteGetterSetter
 :
@@ -24055,6 +24099,7 @@ type
 }
 }
 ;
+}
 static
 bool
 AddClearDefiniteGetterSetterForPrototypeChain
@@ -24179,6 +24224,8 @@ return
 true
 ;
 }
+namespace
+{
 class
 TypeConstraintClearDefiniteSingle
 :
@@ -24322,6 +24369,7 @@ cx
 }
 }
 ;
+}
 static
 bool
 AnalyzePoppedThis

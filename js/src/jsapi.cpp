@@ -13889,6 +13889,8 @@ return
 true
 ;
 }
+namespace
+{
 class
 AutoHoldZone
 {
@@ -13940,6 +13942,7 @@ holdp
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
+}
 JS_PUBLIC_API
 (
 JSObject
@@ -23936,6 +23939,8 @@ return
 true
 ;
 }
+namespace
+{
 class
 AutoFile
 {
@@ -24026,6 +24031,7 @@ buffer
 }
 }
 ;
+}
 bool
 AutoFile
 :

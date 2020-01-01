@@ -48,6 +48,7 @@ using
 namespace
 js
 ;
+static
 const
 size_t
 WORKER_THREAD_STACK_SIZE

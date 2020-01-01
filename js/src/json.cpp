@@ -717,6 +717,8 @@ append
 )
 ;
 }
+namespace
+{
 class
 StringifyContext
 {
@@ -787,6 +789,7 @@ depth
 ;
 }
 ;
+}
 static
 bool
 Str
@@ -902,6 +905,8 @@ return
 true
 ;
 }
+namespace
+{
 template
 <
 typename
@@ -978,6 +983,7 @@ id
 }
 }
 ;
+}
 template
 <
 typename

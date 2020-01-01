@@ -2851,6 +2851,8 @@ toMIRType
 )
 ;
 }
+namespace
+{
 template
 <
 class
@@ -3329,6 +3331,7 @@ retType_
 }
 }
 ;
+}
 static
 bool
 operator
@@ -4274,6 +4277,8 @@ type
 )
 ;
 }
+namespace
+{
 typedef
 Vector
 <
@@ -4292,8 +4297,6 @@ MBasicBlock
 >
 BlockVector
 ;
-namespace
-{
 class
 MOZ_STACK_CLASS
 ModuleCompiler

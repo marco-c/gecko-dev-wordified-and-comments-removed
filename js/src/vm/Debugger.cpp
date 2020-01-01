@@ -15674,6 +15674,8 @@ return
 true
 ;
 }
+namespace
+{
 class
 BytecodeRangeWithPosition
 :
@@ -16733,6 +16735,7 @@ entries_
 ;
 }
 ;
+}
 static
 bool
 DebuggerScript_getAllOffsets

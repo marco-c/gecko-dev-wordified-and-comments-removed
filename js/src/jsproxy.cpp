@@ -4412,6 +4412,8 @@ CONSTRUCT_SLOT
 )
 ;
 }
+namespace
+{
 class
 ScriptedIndirectProxyHandler
 :
@@ -4752,6 +4754,7 @@ singleton
 ;
 }
 ;
+}
 static
 int
 sScriptedIndirectProxyHandlerFamily

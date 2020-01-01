@@ -6173,6 +6173,8 @@ type_
 )
 ;
 }
+namespace
+{
 class
 DebugScopeProxy
 :
@@ -8357,6 +8359,7 @@ NULL
 }
 }
 ;
+}
 int
 DebugScopeProxy
 :
