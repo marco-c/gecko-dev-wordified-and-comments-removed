@@ -5,11 +5,9 @@ fieldset
 valid
 .
 html
-fieldset
--
-ref
-.
-html
+about
+:
+blank
 =
 =
 fieldset
@@ -17,8 +15,6 @@ fieldset
 invalid
 .
 html
-fieldset
--
-ref
-.
-html
+about
+:
+blank
