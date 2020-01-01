@@ -9376,9 +9376,7 @@ state
 .
 mTreeMatchContext
 .
-mAncestorFilter
-.
-Init
+InitAncestors
 (
 nullptr
 )
@@ -9648,7 +9646,7 @@ return
 NS_OK
 ;
 }
-AncestorFilter
+TreeMatchContext
 :
 :
 AutoAncestorPusher
@@ -9658,8 +9656,6 @@ true
 state
 .
 mTreeMatchContext
-.
-mAncestorFilter
 aDocElement
 )
 ;
@@ -14347,7 +14343,7 @@ aItem
 .
 mContent
 ;
-AncestorFilter
+TreeMatchContext
 :
 :
 AutoAncestorPusher
@@ -14365,8 +14361,6 @@ HasFilter
 aState
 .
 mTreeMatchContext
-.
-mAncestorFilter
 content
 -
 >
@@ -15463,7 +15457,7 @@ aState
 aPendingBinding
 )
 ;
-AncestorFilter
+TreeMatchContext
 :
 :
 AutoAncestorPusher
@@ -15481,8 +15475,6 @@ HasFilter
 aState
 .
 mTreeMatchContext
-.
-mAncestorFilter
 aParent
 -
 >
@@ -26880,9 +26872,7 @@ state
 .
 mTreeMatchContext
 .
-mAncestorFilter
-.
-Init
+InitAncestors
 (
 aContainer
 -
@@ -28461,9 +28451,7 @@ state
 .
 mTreeMatchContext
 .
-mAncestorFilter
-.
-Init
+InitAncestors
 (
 aContainer
 ?
@@ -45729,7 +45717,7 @@ aParentItem
 .
 mContent
 ;
-AncestorFilter
+TreeMatchContext
 :
 :
 AutoAncestorPusher
@@ -45747,8 +45735,6 @@ HasFilter
 aState
 .
 mTreeMatchContext
-.
-mAncestorFilter
 parentContent
 -
 >
