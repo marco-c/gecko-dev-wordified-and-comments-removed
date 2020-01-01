@@ -7016,8 +7016,6 @@ AbstractFramePtr
 fp
 bool
 isConstructing
-bool
-newType
 )
 {
 JS_ASSERT
@@ -7121,7 +7119,11 @@ CreateThisForFunction
 (
 cx
 callee
-newType
+fp
+.
+useNewType
+(
+)
 )
 )
 ;
