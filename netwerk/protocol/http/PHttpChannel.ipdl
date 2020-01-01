@@ -671,6 +671,8 @@ OnStartRequest
 (
 nsHttpResponseHead
 responseHead
+PRBool
+useResponseHead
 )
 ;
 OnDataAvailable

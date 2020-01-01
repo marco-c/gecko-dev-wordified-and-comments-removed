@@ -230,6 +230,10 @@ const
 nsHttpResponseHead
 &
 responseHead
+const
+PRBool
+&
+useResponseHead
 )
 {
 LOG
@@ -257,6 +261,10 @@ mState
 =
 HCC_ONSTART
 ;
+if
+(
+useResponseHead
+)
 mResponseHead
 =
 new
@@ -264,6 +272,11 @@ nsHttpResponseHead
 (
 responseHead
 )
+;
+else
+mResponseHead
+=
+nsnull
 ;
 nsresult
 rv
@@ -289,6 +302,10 @@ return
 false
 ;
 }
+if
+(
+mResponseHead
+)
 SetCookie
 (
 mResponseHead
