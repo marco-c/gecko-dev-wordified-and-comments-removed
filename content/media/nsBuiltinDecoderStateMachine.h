@@ -559,6 +559,13 @@ TimeoutExpired
 (
 )
 ;
+void
+SetFragmentEndTime
+(
+PRInt64
+aEndTime
+)
+;
 protected
 :
 PRBool
@@ -853,6 +860,9 @@ mEndTime
 ;
 PRInt64
 mSeekTime
+;
+PRInt64
+mFragmentEndTime
 ;
 nsRefPtr
 <

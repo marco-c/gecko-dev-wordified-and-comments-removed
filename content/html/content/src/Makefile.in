@@ -702,6 +702,10 @@ nsMediaError
 .
 cpp
 \
+nsMediaFragmentURIParser
+.
+cpp
+\
 nsHTMLSourceElement
 .
 cpp

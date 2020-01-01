@@ -674,6 +674,16 @@ aSeekable
 ;
 virtual
 void
+SetEndTime
+(
+double
+aTime
+)
+=
+0
+;
+virtual
+void
 Invalidate
 (
 )
