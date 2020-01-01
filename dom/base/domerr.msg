@@ -1583,3 +1583,14 @@ abort
 "
 NS_ERROR_DOM_FILEHANDLE_ABORT_ERR
 )
+DOM_MSG_DEF
+(
+NS_ERROR_DOM_JS_EXCEPTION
+"
+A
+callback
+threw
+an
+exception
+"
+)
