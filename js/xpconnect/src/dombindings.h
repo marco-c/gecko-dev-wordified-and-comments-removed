@@ -800,7 +800,7 @@ create
 JSContext
 *
 cx
-XPCWrappedNativeScope
+JSObject
 *
 scope
 ListType

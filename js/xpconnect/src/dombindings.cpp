@@ -2509,7 +2509,7 @@ create
 JSContext
 *
 cx
-XPCWrappedNativeScope
+JSObject
 *
 scope
 ListType
@@ -2536,11 +2536,6 @@ WrapNativeParent
 (
 cx
 scope
--
->
-GetGlobalJSObject
-(
-)
 aList
 -
 >
@@ -2572,11 +2567,6 @@ parent
 !
 =
 scope
--
->
-GetGlobalJSObject
-(
-)
 )
 {
 if
@@ -2593,7 +2583,10 @@ parent
 return
 NULL
 ;
-scope
+}
+XPCWrappedNativeScope
+*
+xpcscope
 =
 XPCWrappedNativeScope
 :
@@ -2604,7 +2597,6 @@ cx
 parent
 )
 ;
-}
 JSObject
 *
 proto
@@ -2612,7 +2604,7 @@ proto
 getPrototype
 (
 cx
-scope
+xpcscope
 triedToWrap
 )
 ;

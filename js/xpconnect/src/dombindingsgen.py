@@ -2556,7 +2556,7 @@ create
 JSContext
 *
 cx
-XPCWrappedNativeScope
+JSObject
 *
 scope
 I
@@ -2648,7 +2648,7 @@ create
 JSContext
 *
 cx
-XPCWrappedNativeScope
+JSObject
 *
 scope
 {
@@ -4394,7 +4394,7 @@ create
 JSContext
 *
 cx
-XPCWrappedNativeScope
+JSObject
 *
 scope
 {

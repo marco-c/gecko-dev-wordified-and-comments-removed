@@ -313,7 +313,7 @@ WrapObject
 JSContext
 *
 cx
-XPCWrappedNativeScope
+JSObject
 *
 scope
 bool
@@ -385,7 +385,7 @@ WrapObject
 JSContext
 *
 cx
-XPCWrappedNativeScope
+JSObject
 *
 scope
 bool
@@ -617,7 +617,7 @@ WrapObject
 JSContext
 *
 cx
-XPCWrappedNativeScope
+JSObject
 *
 scope
 bool
