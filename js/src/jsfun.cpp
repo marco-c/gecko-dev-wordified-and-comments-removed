@@ -663,6 +663,13 @@ NULL
 ;
 if
 (
+iter
+.
+isScript
+(
+)
+&
+&
 !
 iter
 .
