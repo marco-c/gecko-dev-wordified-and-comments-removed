@@ -2340,11 +2340,11 @@ JITScript
 *
 jit
 =
+new
 (
-JITScript
-*
-)
 cursor
+)
+JITScript
 ;
 cursor
 +
