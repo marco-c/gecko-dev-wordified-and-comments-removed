@@ -985,6 +985,8 @@ permissionManager
 remove
 (
 gPermURI
+.
+host
 aPartId
 )
 ;
