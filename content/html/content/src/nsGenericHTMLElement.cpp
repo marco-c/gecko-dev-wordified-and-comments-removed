@@ -341,7 +341,7 @@ h
 #
 include
 "
-nsEventStateManager
+nsIEventStateManager
 .
 h
 "
@@ -4384,7 +4384,7 @@ nsCOMPtr
 nsIContent
 >
 target
-=
+;
 aVisitor
 .
 mPresContext
@@ -4400,6 +4400,10 @@ GetEventTargetContent
 aVisitor
 .
 mEvent
+getter_AddRefs
+(
+target
+)
 )
 ;
 return
@@ -14448,7 +14452,7 @@ if
 presContext
 )
 {
-nsEventStateManager
+nsIEventStateManager
 *
 esm
 =

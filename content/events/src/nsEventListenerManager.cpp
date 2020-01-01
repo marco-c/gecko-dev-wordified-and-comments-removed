@@ -139,6 +139,13 @@ endif
 #
 include
 "
+nsIEventStateManager
+.
+h
+"
+#
+include
+"
 nsPIDOMWindow
 .
 h

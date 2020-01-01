@@ -903,7 +903,7 @@ DEBUG_DOCSHELL_FOCUS
 #
 include
 "
-nsEventStateManager
+nsIEventStateManager
 .
 h
 "

@@ -9180,9 +9180,9 @@ return
 NS_OK
 ;
 }
-if
-(
-!
+PRBool
+eventOK
+;
 aPresContext
 -
 >
@@ -9194,7 +9194,14 @@ EventStateManager
 EventStatusOK
 (
 aEvent
+&
+eventOK
 )
+;
+if
+(
+!
+eventOK
 )
 return
 NS_OK

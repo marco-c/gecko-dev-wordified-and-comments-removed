@@ -262,7 +262,7 @@ h
 #
 include
 "
-nsEventStates
+nsIEventStateManager
 .
 h
 "

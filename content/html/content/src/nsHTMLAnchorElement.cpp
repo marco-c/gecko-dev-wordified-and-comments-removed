@@ -71,6 +71,13 @@ h
 #
 include
 "
+nsIEventStateManager
+.
+h
+"
+#
+include
+"
 nsHTMLDNSPrefetch
 .
 h

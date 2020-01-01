@@ -20,7 +20,7 @@ class
 nsIDOMWindowInternal
 ;
 class
-nsEventStateManager
+nsIEventStateManager
 ;
 class
 nsIFrame
@@ -77,7 +77,7 @@ aElement
 )
 ;
 static
-nsEventStateManager
+nsIEventStateManager
 *
 GetEventStateManagerFor
 (

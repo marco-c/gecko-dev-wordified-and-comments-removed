@@ -328,6 +328,13 @@ h
 #
 include
 "
+nsContentPolicyUtils
+.
+h
+"
+#
+include
+"
 nsCSSFrameConstructor
 .
 h
@@ -370,7 +377,7 @@ h
 #
 include
 "
-nsEventStates
+nsIEventStateManager
 .
 h
 "

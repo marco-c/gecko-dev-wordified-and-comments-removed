@@ -274,6 +274,13 @@ h
 #
 include
 "
+nsIEventStateManager
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLButtonElement
 .
 h

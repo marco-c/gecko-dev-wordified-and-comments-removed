@@ -197,6 +197,13 @@ h
 #
 include
 "
+nsIEventStateManager
+.
+h
+"
+#
+include
+"
 nsFocusManager
 .
 h
@@ -1138,7 +1145,7 @@ window
 ;
 }
 }
-nsEventStateManager
+nsIEventStateManager
 *
 esm
 =

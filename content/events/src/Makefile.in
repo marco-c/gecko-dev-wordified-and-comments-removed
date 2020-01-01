@@ -421,16 +421,6 @@ gkconevents_s
 LIBXUL_LIBRARY
 =
 1
-EXPORTS
-=
-\
-nsEventStateManager
-.
-h
-\
-(
-NULL
-)
 CPPSRCS
 =
 \

@@ -92,6 +92,13 @@ h
 #
 include
 "
+nsIEventStateManager
+.
+h
+"
+#
+include
+"
 nsEventDispatcher
 .
 h

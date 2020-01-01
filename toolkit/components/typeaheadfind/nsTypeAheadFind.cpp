@@ -206,6 +206,13 @@ h
 #
 include
 "
+nsIEventStateManager
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h
