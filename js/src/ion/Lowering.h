@@ -585,6 +585,14 @@ apply
 )
 ;
 bool
+visitBail
+(
+MBail
+*
+bail
+)
+;
+bool
 visitGetDynamicName
 (
 MGetDynamicName

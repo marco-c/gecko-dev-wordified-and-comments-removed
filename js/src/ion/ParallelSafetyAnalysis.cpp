@@ -669,6 +669,10 @@ ApplyArgs
 )
 UNSAFE_OP
 (
+Bail
+)
+UNSAFE_OP
+(
 GetDynamicName
 )
 UNSAFE_OP
