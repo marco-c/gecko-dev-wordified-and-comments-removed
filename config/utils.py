@@ -73,6 +73,7 @@ __init__
 (
 self
 lockfile
+fd
 )
 :
     
@@ -81,6 +82,12 @@ self
 lockfile
 =
 lockfile
+    
+self
+.
+fd
+=
+fd
   
 def
 __del__
@@ -88,6 +95,15 @@ __del__
 self
 )
 :
+    
+os
+.
+close
+(
+self
+.
+fd
+)
     
 os
 .
@@ -333,22 +349,11 @@ sleep
 1
 )
   
-f
-=
 os
-.
-fdopen
-(
-fd
-"
-w
-"
-)
-  
-f
 .
 write
 (
+fd
 "
 %
 d
@@ -363,16 +368,11 @@ getpid
 )
 )
   
-f
-.
-close
-(
-)
-  
 return
 LockFile
 (
 lockfile
+fd
 )
 class
 pushback_iter
