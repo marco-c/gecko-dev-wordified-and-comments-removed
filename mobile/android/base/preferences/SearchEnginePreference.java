@@ -444,6 +444,17 @@ getBitmapFromDataURI
 iconURI
 )
 ;
+if
+(
+iconBitmap
+=
+=
+null
+)
+{
+return
+;
+}
 Bitmap
 scaledIconBitmap
 =
