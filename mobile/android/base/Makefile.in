@@ -177,6 +177,10 @@ AboutHomeSection
 .
 java
 \
+ActivityHandlerHelper
+.
+java
+\
 ActivityResultHandler
 .
 java
