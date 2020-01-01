@@ -1480,7 +1480,7 @@ GetDocument
 )
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 =
@@ -1500,7 +1500,9 @@ it
 s
 the
 root
-content
+"
+"
+element
 "
 )
 ;
@@ -5097,7 +5099,7 @@ GetDocument
 )
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 "

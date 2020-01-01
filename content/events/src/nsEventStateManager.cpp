@@ -12387,7 +12387,7 @@ newFocus
 doc
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 )
@@ -15719,7 +15719,7 @@ targetElement
 mDocument
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 ;

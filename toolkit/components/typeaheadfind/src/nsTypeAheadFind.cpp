@@ -2905,7 +2905,7 @@ rootContent
 doc
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 ;
@@ -4165,7 +4165,7 @@ focusedElement
 document
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 )

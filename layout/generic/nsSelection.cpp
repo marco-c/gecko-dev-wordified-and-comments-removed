@@ -8379,7 +8379,7 @@ rootContent
 doc
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 ;

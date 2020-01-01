@@ -15393,7 +15393,7 @@ Init
 doc
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 )
@@ -16707,7 +16707,7 @@ Init
 doc
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 )
@@ -19448,16 +19448,12 @@ nsCOMPtr
 nsIContent
 >
 rootContent
-;
+=
 doc
 -
 >
-GetRootContent
+GetRootElement
 (
-getter_AddRefs
-(
-rootContent
-)
 )
 ;
 if

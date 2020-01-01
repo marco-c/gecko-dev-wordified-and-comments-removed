@@ -2020,7 +2020,7 @@ node
 =
 do_QueryInterface
 (
-GetRootContent
+GetRootElement
 (
 )
 )

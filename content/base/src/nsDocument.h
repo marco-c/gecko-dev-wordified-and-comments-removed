@@ -1939,9 +1939,15 @@ aDocument
 const
 ;
 virtual
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
-GetRootContentInternal
+GetRootElementInternal
 (
 )
 const

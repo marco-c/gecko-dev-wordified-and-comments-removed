@@ -4613,7 +4613,7 @@ aElement
 mDocument
 -
 >
-GetRootContent
+GetRootElement
 (
 )
 )
