@@ -33,6 +33,15 @@ ccapi
 h
 "
 #
+include
+"
+mozilla
+-
+config
+.
+h
+"
+#
 define
 CCSIP_SRC_SDP_BIT
 0x1
@@ -119,7 +128,9 @@ SIPSDP_ORIGIN_USERNAME
 Mozilla
 -
 SIPUA
+-
 "
+MOZ_APP_UA_VERSION
 #
 define
 SIPSDP_SESSION_NAME
