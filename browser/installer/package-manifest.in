@@ -2474,6 +2474,8 @@ MOZ_UPDATE_CHANNEL
 beta
 BINPATH
 /
+distribution
+/
 extensions
 /
 testpilot
@@ -2482,8 +2484,8 @@ labs
 mozilla
 .
 com
-/
-*
+.
+xpi
 #
 endif
 BINPATH

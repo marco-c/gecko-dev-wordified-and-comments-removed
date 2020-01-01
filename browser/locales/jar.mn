@@ -1500,12 +1500,6 @@ downloads
 settingsChange
 .
 dtd
-#
-if
-MOZ_UPDATE_CHANNEL
-=
-=
-beta
 %
 locale
 testpilot
@@ -1545,5 +1539,3 @@ main
 .
 properties
 )
-#
-endif
