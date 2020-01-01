@@ -263,7 +263,7 @@ getNext
 )
 *
 return
-PR_TRUE
+true
 if
 there
 are
@@ -274,7 +274,7 @@ the
 enumerator
 .
 *
-PR_FALSE
+false
 if
 there
 are
