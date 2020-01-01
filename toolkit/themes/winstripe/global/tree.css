@@ -212,7 +212,7 @@ color
 -
 moz
 -
-Dialog
+cellhighlight
 ;
 }
 treechildren
@@ -423,7 +423,7 @@ color
 -
 moz
 -
-DialogText
+cellhighlighttext
 ;
 }
 tree
@@ -524,7 +524,7 @@ color
 -
 moz
 -
-Dialog
+cellhighlight
 ;
 }
 tree
@@ -557,7 +557,7 @@ color
 -
 moz
 -
-DialogText
+cellhighlighttext
 ;
 }
 tree
@@ -592,14 +592,14 @@ color
 -
 moz
 -
-Dialog
+cellhighlight
 ;
 color
 :
 -
 moz
 -
-DialogText
+cellhighlighttext
 ;
 }
 treechildren
