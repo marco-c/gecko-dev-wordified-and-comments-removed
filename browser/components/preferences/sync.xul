@@ -989,7 +989,7 @@ label
 =
 "
 &
-viewQuota
+viewQuota2
 .
 label
 ;
@@ -1016,7 +1016,7 @@ label
 =
 "
 &
-changePassword
+changePassword2
 .
 label
 ;
@@ -1039,7 +1039,7 @@ label
 =
 "
 &
-mySyncKey
+mySyncKey2
 .
 label
 ;
@@ -1066,7 +1066,7 @@ label
 =
 "
 &
-resetSync
+resetSync2
 .
 label
 ;

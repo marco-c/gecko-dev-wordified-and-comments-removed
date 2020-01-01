@@ -153,7 +153,7 @@ A
 <
 !
 ENTITY
-viewQuota
+viewQuota2
 .
 label
 "
@@ -164,7 +164,7 @@ Quota
 <
 !
 ENTITY
-changePassword
+changePassword2
 .
 label
 "
@@ -175,7 +175,7 @@ Password
 <
 !
 ENTITY
-mySyncKey
+mySyncKey2
 .
 label
 "
@@ -187,7 +187,7 @@ Key
 <
 !
 ENTITY
-resetSync
+resetSync2
 .
 label
 "
