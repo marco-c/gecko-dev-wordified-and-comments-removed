@@ -12156,10 +12156,11 @@ rootFrame
 return
 NS_OK
 ;
-nsTArray
+nsAutoTArray
 <
 nsIFrame
 *
+8
 >
 outFrames
 ;
