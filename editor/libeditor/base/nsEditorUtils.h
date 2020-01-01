@@ -176,9 +176,12 @@ nsAutoSelectionReset
 {
 private
 :
-nsCOMPtr
+nsRefPtr
 <
-nsISelection
+mozilla
+:
+:
+Selection
 >
 mSel
 ;
@@ -190,7 +193,10 @@ public
 :
 nsAutoSelectionReset
 (
-nsISelection
+mozilla
+:
+:
+Selection
 *
 aSel
 nsEditor
