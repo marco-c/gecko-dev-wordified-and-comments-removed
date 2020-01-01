@@ -334,13 +334,13 @@ policy
 .
 window_size
 =
-0
+1024
 ;
 policy
 .
 allow_repeat_tx
 =
-0
+1
 ;
 policy
 .
