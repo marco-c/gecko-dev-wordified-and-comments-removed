@@ -4388,8 +4388,6 @@ ArrayTypeID
 )
 )
 ;
-do
-{
 obj
 -
 >
@@ -4406,10 +4404,7 @@ bufobj
 obj
 -
 >
-setSlot
-(
-FIELD_DATA
-PrivateValue
+setPrivate
 (
 ArrayBuffer
 :
@@ -4418,13 +4413,8 @@ getDataOffset
 (
 bufobj
 )
-)
-)
-;
-}
-while
-(
-0
++
+byteOffset
 )
 ;
 obj
@@ -8671,6 +8661,9 @@ FIELD_MAX
 )
 |
 \
+JSCLASS_HAS_PRIVATE
+|
+\
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_
@@ -8735,6 +8728,9 @@ TypedArray
 :
 FIELD_MAX
 )
+|
+\
+JSCLASS_HAS_PRIVATE
 |
 \
 Class
