@@ -2879,6 +2879,7 @@ mWidget
 Create
 (
 parentWidget
+nsnull
 nsIntRect
 (
 0

@@ -4475,6 +4475,7 @@ mInternalWidget
 >
 Create
 (
+nsnull
 mParentNativeWindow
 bounds
 nsWebBrowser

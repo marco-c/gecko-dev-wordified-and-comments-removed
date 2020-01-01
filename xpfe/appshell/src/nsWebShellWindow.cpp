@@ -623,6 +623,7 @@ nsIWidget
 *
 )
 parentWidget
+nsnull
 r
 nsWebShellWindow
 :

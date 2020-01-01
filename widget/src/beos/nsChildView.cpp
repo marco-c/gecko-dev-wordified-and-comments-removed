@@ -21,11 +21,13 @@ nsresult
 nsChildView
 :
 :
-StandardWindowCreate
+Create
 (
 nsIWidget
 *
 aParent
+nsNativeWidget
+aNativeParent
 const
 nsRect
 &
@@ -44,8 +46,6 @@ aToolkit
 nsWidgetInitData
 *
 aInitData
-nsNativeWidget
-aNativeParent
 )
 {
 NS_ASSERTION

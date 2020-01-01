@@ -2646,6 +2646,7 @@ mWindow
 >
 Create
 (
+nsnull
 aNative
 trect
 :
@@ -2716,6 +2717,7 @@ mWindow
 Create
 (
 aParentWidget
+nsnull
 trect
 :
 :
@@ -2773,6 +2775,7 @@ mWindow
 >
 Create
 (
+nsnull
 parentWidget
 -
 >
@@ -2799,6 +2802,7 @@ mWindow
 Create
 (
 parentWidget
+nsnull
 trect
 :
 :
