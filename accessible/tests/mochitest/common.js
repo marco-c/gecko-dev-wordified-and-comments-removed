@@ -704,6 +704,7 @@ if
 aAccOrElmOrID
 )
 return
+null
 ;
 var
 elm
