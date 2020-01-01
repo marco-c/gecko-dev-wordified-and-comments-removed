@@ -976,6 +976,14 @@ SetVolume
 mInitialVolume
 )
 ;
+mDecoderStateMachine
+-
+>
+SetAudioCaptured
+(
+mInitialAudioCaptured
+)
+;
 if
 (
 mFrameBufferLength
