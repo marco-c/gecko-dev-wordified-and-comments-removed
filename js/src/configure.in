@@ -2872,7 +2872,7 @@ CPPFLAGS
 -
 DANDROID
 -
-I
+isystem
 gonkdir
 /
 bionic
@@ -2882,7 +2882,7 @@ libc
 include
 /
 -
-I
+isystem
 gonkdir
 /
 bionic
@@ -2893,7 +2893,7 @@ kernel
 /
 common
 -
-I
+isystem
 gonkdir
 /
 bionic
@@ -2906,7 +2906,7 @@ arm
 /
 include
 -
-I
+isystem
 gonkdir
 /
 bionic
@@ -2919,7 +2919,7 @@ arch
 -
 arm
 -
-I
+isystem
 gonkdir
 /
 bionic
@@ -2928,7 +2928,7 @@ libm
 /
 include
 -
-I
+isystem
 gonkdir
 /
 frameworks
@@ -2939,7 +2939,7 @@ native
 /
 include
 -
-I
+isystem
 gonkdir
 /
 system
@@ -2948,7 +2948,7 @@ core
 /
 include
 -
-I
+isystem
 gonkdir
 /
 bionic
@@ -3908,7 +3908,7 @@ CPPFLAGS
 =
 "
 -
-I
+isystem
 android_platform
 /
 usr
@@ -3921,13 +3921,6 @@ CFLAGS
 "
 -
 mandroid
--
-I
-android_platform
-/
-usr
-/
-include
 -
 fno
 -
@@ -3945,13 +3938,6 @@ CXXFLAGS
 "
 -
 mandroid
--
-I
-android_platform
-/
-usr
-/
-include
 -
 fno
 -
@@ -13437,7 +13423,7 @@ STLPORT_CPPFLAGS
 =
 "
 -
-I
+isystem
 android_ndk
 /
 sources
@@ -13454,7 +13440,7 @@ libstdc
 /
 include
 -
-I
+isystem
 android_ndk
 /
 sources
@@ -13537,7 +13523,7 @@ STLPORT_CPPFLAGS
 =
 "
 -
-I
+isystem
 android_ndk
 /
 sources
@@ -13615,7 +13601,7 @@ STLPORT_CPPFLAGS
 =
 "
 -
-I
+isystem
 android_ndk
 /
 sources
