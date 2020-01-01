@@ -99,6 +99,10 @@ test_bug827541
 .
 html
 \
+test_bug839753
+.
+html
+\
 test_AudioBuffer
 .
 html
