@@ -364,6 +364,9 @@ start
 end
 )
 ;
+#
+ifdef
+MOZ_ENABLE_PROFILER_SPS
 if
 (
 IOInterposer
@@ -424,6 +427,8 @@ ob
 )
 ;
 }
+#
+endif
 }
 private
 :
