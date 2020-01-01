@@ -469,6 +469,15 @@ malloc
 /
 lib
 endif
+ifdef
+MOZ_TREE_FREETYPE
+tier_platform_dirs
++
+=
+modules
+/
+freetype2
+endif
 tier_platform_dirs
 +
 =
