@@ -2849,6 +2849,10 @@ mString
 nsRect
 mRect
 ;
+nsIWidget
+*
+mFocusedWidget
+;
 }
 mReply
 ;
