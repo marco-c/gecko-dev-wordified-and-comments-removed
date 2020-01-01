@@ -148,11 +148,6 @@ nsIDOMDataTransfer
 idl
 '
 '
-nsIDOMDeviceLightEvent
-.
-idl
-'
-'
 nsIDOMDeviceMotionEvent
 .
 idl

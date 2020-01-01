@@ -100,13 +100,6 @@ optional
 DeviceLightEventInit
 eventInitDict
 )
-HeaderFile
-=
-"
-GeneratedEventClasses
-.
-h
-"
 ]
 interface
 DeviceLightEvent

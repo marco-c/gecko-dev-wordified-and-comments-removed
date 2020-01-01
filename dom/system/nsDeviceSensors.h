@@ -49,13 +49,6 @@ h
 #
 include
 "
-nsIDOMDeviceLightEvent
-.
-h
-"
-#
-include
-"
 nsIDOMDeviceOrientationEvent
 .
 h

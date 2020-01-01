@@ -143,9 +143,6 @@ MozContactChangeEvent
 DeviceOrientationEvent
 '
 '
-DeviceLightEvent
-'
-'
 MozApplicationEvent
 '
 '
