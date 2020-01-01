@@ -123,7 +123,7 @@ Caps
 0
 ;
 virtual
-PRUint32
+PRUint64
 Available
 (
 )
@@ -348,7 +348,7 @@ Caps
 )
 ;
 \
-PRUint32
+PRUint64
 Available
 (
 )

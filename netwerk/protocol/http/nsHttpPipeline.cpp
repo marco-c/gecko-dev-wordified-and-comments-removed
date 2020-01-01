@@ -2113,7 +2113,7 @@ Caps
 0
 ;
 }
-PRUint32
+PRUint64
 nsHttpPipeline
 :
 :
@@ -2121,7 +2121,7 @@ Available
 (
 )
 {
-PRUint32
+PRUint64
 result
 =
 0
@@ -2290,7 +2290,7 @@ mStatus
 nsresult
 rv
 ;
-PRUint32
+PRUint64
 avail
 =
 0
@@ -2408,6 +2408,9 @@ ReadSegments
 (
 ReadFromPipe
 this
+(
+PRUint32
+)
 avail
 countRead
 )
@@ -3208,6 +3211,8 @@ rv
 }
 PRUint32
 n
+;
+PRUint64
 avail
 ;
 nsAHttpTransaction
@@ -3289,7 +3294,17 @@ trans
 ReadSegments
 (
 this
+(
+PRUint32
+)
+NS_MIN
+(
 avail
+(
+PRUint64
+)
+PR_UINT32_MAX
+)
 &
 n
 )

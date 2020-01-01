@@ -496,7 +496,7 @@ nsMultiplexInputStream
 :
 Available
 (
-PRUint32
+PRUint64
 *
 _retval
 )
@@ -514,7 +514,7 @@ mStatus
 nsresult
 rv
 ;
-PRUint32
+PRUint64
 avail
 =
 0
@@ -544,7 +544,7 @@ i
 +
 )
 {
-PRUint32
+PRUint64
 streamAvail
 ;
 rv

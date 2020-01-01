@@ -318,7 +318,7 @@ inStream
 bufStream
 ;
 }
-PRUint32
+PRUint64
 length
 ;
 rv
@@ -336,6 +336,15 @@ NS_ENSURE_SUCCESS
 (
 rv
 rv
+)
+;
+NS_ENSURE_TRUE
+(
+length
+<
+=
+PR_UINT32_MAX
+NS_ERROR_FILE_TOO_BIG
 )
 ;
 PRUint32
@@ -359,6 +368,9 @@ void
 >
 (
 image
+)
+(
+PRUint32
 )
 length
 &

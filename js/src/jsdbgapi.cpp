@@ -4236,9 +4236,16 @@ cx
 obj
 obj
 props
-[
+.
+handleAt
+(
 i
-]
+)
+MutableHandleValue
+:
+:
+fromMarkedLocation
+(
 &
 pd
 [
@@ -4246,6 +4253,7 @@ i
 ]
 .
 value
+)
 )
 )
 goto

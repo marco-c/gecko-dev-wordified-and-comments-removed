@@ -3522,7 +3522,6 @@ cx
 ToObject
 (
 cx
-&
 args
 .
 thisv

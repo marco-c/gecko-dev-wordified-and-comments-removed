@@ -5546,6 +5546,14 @@ testManifest
 )
         
 if
+hasattr
+(
+options
+'
+runOnly
+'
+)
+and
 options
 .
 runOnly

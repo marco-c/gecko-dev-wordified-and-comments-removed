@@ -600,7 +600,7 @@ if
 mAddContentLength
 )
 {
-PRUint32
+PRUint64
 cl
 =
 0
@@ -636,9 +636,6 @@ mContentLength
 .
 AppendInt
 (
-(
-PRInt32
-)
 cl
 )
 ;
@@ -945,7 +942,7 @@ nsMIMEInputStream
 :
 Available
 (
-PRUint32
+PRUint64
 *
 _retval
 )

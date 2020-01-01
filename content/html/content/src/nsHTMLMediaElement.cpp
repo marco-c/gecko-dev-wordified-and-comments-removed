@@ -9465,6 +9465,11 @@ ifdef
 MOZ_MEDIA_PLUGINS
 if
 (
+IsMediaPluginsEnabled
+(
+)
+&
+&
 GetMediaPluginHost
 (
 )
@@ -9577,6 +9582,11 @@ ifdef
 MOZ_MEDIA_PLUGINS
 if
 (
+IsMediaPluginsEnabled
+(
+)
+&
+&
 GetMediaPluginHost
 (
 )
@@ -10074,6 +10084,11 @@ ifdef
 MOZ_MEDIA_PLUGINS
 if
 (
+IsMediaPluginsEnabled
+(
+)
+&
+&
 GetMediaPluginHost
 (
 )

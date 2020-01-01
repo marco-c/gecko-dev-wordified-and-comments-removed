@@ -2934,6 +2934,14 @@ wrapperObj
 return
 NULL
 ;
+if
+(
+type
+=
+=
+XrayForWrappedNative
+)
+{
 JSObject
 *
 xrayHolder
@@ -2973,6 +2981,7 @@ xrayHolder
 )
 )
 ;
+}
 return
 wrapperObj
 ;

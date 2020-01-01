@@ -482,7 +482,7 @@ nullptr
 )
 mBytesRemaining
 (
-PR_UINT32_MAX
+PR_UINT64_MAX
 )
 mStatus
 (
@@ -2310,7 +2310,7 @@ nsGIOInputStream
 :
 Available
 (
-PRUint32
+PRUint64
 *
 aResult
 )
@@ -2325,18 +2325,6 @@ mStatus
 return
 mStatus
 ;
-if
-(
-mBytesRemaining
->
-PR_UINT32_MAX
-)
-*
-aResult
-=
-PR_UINT32_MAX
-;
-else
 *
 aResult
 =

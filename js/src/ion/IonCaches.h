@@ -1629,9 +1629,7 @@ cacheIndex
 JSObject
 *
 obj
-const
-Value
-&
+HandleValue
 idval
 MutableHandleValue
 vp

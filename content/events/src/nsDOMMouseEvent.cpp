@@ -364,6 +364,9 @@ case
 NS_MOUSE_SCROLL_EVENT
 :
 case
+NS_WHEEL_EVENT
+:
+case
 NS_DRAG_EVENT
 :
 case
@@ -628,6 +631,9 @@ case
 NS_MOUSE_SCROLL_EVENT
 :
 case
+NS_WHEEL_EVENT
+:
+case
 NS_DRAG_EVENT
 :
 case
@@ -786,6 +792,9 @@ NS_MOUSE_EVENT
 :
 case
 NS_MOUSE_SCROLL_EVENT
+:
+case
+NS_WHEEL_EVENT
 :
 case
 NS_DRAG_EVENT
@@ -963,6 +972,9 @@ case
 NS_MOUSE_SCROLL_EVENT
 :
 case
+NS_WHEEL_EVENT
+:
+case
 NS_DRAG_EVENT
 :
 case
@@ -1051,6 +1063,9 @@ NS_MOUSE_EVENT
 :
 case
 NS_MOUSE_SCROLL_EVENT
+:
+case
+NS_WHEEL_EVENT
 :
 case
 NS_DRAG_EVENT
@@ -1150,6 +1165,9 @@ NS_MOUSE_EVENT
 :
 case
 NS_MOUSE_SCROLL_EVENT
+:
+case
+NS_WHEEL_EVENT
 :
 case
 NS_DRAG_EVENT

@@ -986,6 +986,9 @@ PAINT_TO_WINDOW
 PAINT_EXISTING_TRANSACTION
 =
 0x100
+PAINT_NO_COMPOSITE
+=
+0x200
 }
 ;
 static
@@ -2908,6 +2911,16 @@ sFontSizeInflationLineThreshold
 ;
 }
 static
+PRInt32
+FontSizeInflationMappingIntercept
+(
+)
+{
+return
+sFontSizeInflationMappingIntercept
+;
+}
+static
 void
 Initialize
 (
@@ -3050,6 +3063,10 @@ sFontSizeInflationMinTwips
 static
 PRUint32
 sFontSizeInflationLineThreshold
+;
+static
+PRInt32
+sFontSizeInflationMappingIntercept
 ;
 }
 ;

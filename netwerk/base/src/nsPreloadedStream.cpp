@@ -134,12 +134,12 @@ nsPreloadedStream
 :
 Available
 (
-PRUint32
+PRUint64
 *
 _retval
 )
 {
-PRUint32
+PRUint64
 avail
 =
 0

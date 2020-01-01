@@ -2768,7 +2768,7 @@ stream
 #
 ifdef
 DEBUG
-PRUint32
+PRUint64
 bytes
 ;
 mMsg

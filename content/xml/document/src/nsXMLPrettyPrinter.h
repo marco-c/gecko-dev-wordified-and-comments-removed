@@ -79,9 +79,6 @@ nsIDocument
 *
 mDocument
 ;
-PRUint32
-mUpdateDepth
-;
 bool
 mUnhookPending
 ;

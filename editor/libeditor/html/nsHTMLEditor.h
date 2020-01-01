@@ -1127,7 +1127,7 @@ outNumTestsFailed
 NS_IMETHOD
 StartOperation
 (
-OperationID
+EditAction
 opID
 nsIEditor
 :

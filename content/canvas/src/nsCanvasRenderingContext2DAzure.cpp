@@ -21035,16 +21035,6 @@ userData
 =
 nullptr
 ;
-if
-(
-aBuilder
--
->
-IsPaintingToWindow
-(
-)
-)
-{
 userData
 =
 new
@@ -21065,7 +21055,6 @@ DidTransactionCallback
 userData
 )
 ;
-}
 canvasLayer
 -
 >

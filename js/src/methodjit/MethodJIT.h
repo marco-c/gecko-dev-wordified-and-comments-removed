@@ -2226,10 +2226,16 @@ struct
 PCLengthEntry
 {
 double
-codeLength
+inlineLength
 ;
 double
 picsLength
+;
+double
+stubLength
+;
+double
+codeLengthAugment
 ;
 }
 ;

@@ -305,7 +305,7 @@ TRUE
 )
 MOZ_BEGIN_ENUM_CLASS
 (
-OperationID
+EditAction
 PRInt32
 )
 ignore
@@ -396,7 +396,7 @@ increaseZIndex
 3018
 MOZ_END_ENUM_CLASS
 (
-OperationID
+EditAction
 )
 inline
 bool
@@ -404,7 +404,7 @@ operator
 !
 (
 const
-OperationID
+EditAction
 &
 aOp
 )
@@ -413,7 +413,7 @@ return
 aOp
 =
 =
-OperationID
+EditAction
 :
 :
 none
@@ -1234,7 +1234,7 @@ public
 NS_IMETHOD
 StartOperation
 (
-OperationID
+EditAction
 opID
 nsIEditor
 :
@@ -2057,7 +2057,7 @@ aKeyEvent
 nsresult
 HandleInlineSpellCheck
 (
-OperationID
+EditAction
 action
 nsISelection
 *
@@ -2770,7 +2770,7 @@ mUpdateCount
 PRInt32
 mPlaceHolderBatch
 ;
-OperationID
+EditAction
 mAction
 ;
 PRUint32

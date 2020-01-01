@@ -298,6 +298,15 @@ using
 nsMouseScrollEvent
 ;
 using
+mozilla
+:
+:
+widget
+:
+:
+WheelEvent
+;
+using
 nsQueryContentEvent
 ;
 using
@@ -1811,9 +1820,9 @@ nsKeyEvent
 event
 )
 ;
-MouseScrollEvent
+MouseWheelEvent
 (
-nsMouseScrollEvent
+WheelEvent
 event
 )
 ;

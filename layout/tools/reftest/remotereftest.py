@@ -1813,9 +1813,19 @@ self
 )
 :
         
-try
+if
+hasattr
+(
+self
+'
+_process
+'
+)
 :
             
+try
+:
+                
 c
 =
 urllib2
@@ -1826,19 +1836,19 @@ self
 .
 shutdownURL
 )
-            
+                
 c
 .
 read
 (
 )
-            
+                
 c
 .
 close
 (
 )
-            
+                
 rtncode
 =
 self
@@ -1848,7 +1858,7 @@ _process
 poll
 (
 )
-            
+                
 if
 (
 rtncode
@@ -1857,7 +1867,7 @@ rtncode
 None
 )
 :
-                
+                    
 self
 .
 _process
@@ -1865,10 +1875,10 @@ _process
 terminate
 (
 )
-        
+            
 except
 :
-            
+                
 self
 .
 _process
