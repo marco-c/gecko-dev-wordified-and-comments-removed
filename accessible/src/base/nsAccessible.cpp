@@ -388,6 +388,15 @@ h
 "
 #
 endif
+#
+include
+"
+mozilla
+/
+unused
+.
+h
+"
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 nsAccessible
@@ -12201,10 +12210,6 @@ GetIndexInParent
 (
 )
 {
-nsAccessible
-*
-parent
-=
 GetParent
 (
 )

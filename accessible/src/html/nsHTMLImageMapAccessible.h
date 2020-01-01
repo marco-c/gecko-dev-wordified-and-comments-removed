@@ -112,6 +112,12 @@ nsHTMLLinkAccessible
 {
 public
 :
+using
+nsAccessible
+:
+:
+GetChildAtPoint
+;
 nsHTMLAreaAccessible
 (
 nsIContent

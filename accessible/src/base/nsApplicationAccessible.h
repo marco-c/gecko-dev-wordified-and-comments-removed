@@ -42,6 +42,12 @@ nsIAccessibleApplication
 {
 public
 :
+using
+nsAccessible
+:
+:
+GetChildAtPoint
+;
 nsApplicationAccessible
 (
 )
