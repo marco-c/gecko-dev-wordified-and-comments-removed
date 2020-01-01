@@ -301,9 +301,6 @@ DASHRepDecoder
 :
 Load
 (
-MediaResource
-*
-aResource
 nsIStreamListener
 *
 *

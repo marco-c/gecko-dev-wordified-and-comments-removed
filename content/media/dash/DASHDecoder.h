@@ -162,12 +162,10 @@ CreateStateMachine
 (
 )
 ;
+virtual
 nsresult
 Load
 (
-MediaResource
-*
-aResource
 nsIStreamListener
 *
 *
@@ -176,6 +174,7 @@ MediaDecoder
 *
 aCloneDonor
 )
+MOZ_OVERRIDE
 ;
 void
 NotifyDownloadEnded

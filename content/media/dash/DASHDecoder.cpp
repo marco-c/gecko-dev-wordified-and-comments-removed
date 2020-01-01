@@ -455,9 +455,6 @@ DASHDecoder
 :
 Load
 (
-MediaResource
-*
-aResource
 nsIStreamListener
 *
 *
@@ -495,7 +492,6 @@ rv
 =
 OpenResource
 (
-aResource
 aStreamListener
 )
 ;
