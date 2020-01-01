@@ -29,9 +29,6 @@ class
 nsIAtom
 ;
 class
-nsISMILAnimationElement
-;
-class
 nsSMILValue
 ;
 class
@@ -40,6 +37,13 @@ nsSVGElement
 namespace
 mozilla
 {
+namespace
+dom
+{
+class
+SVGAnimationElement
+;
+}
 class
 SVGAnimatedTransformList
 {
@@ -204,7 +208,10 @@ nsAString
 &
 aStr
 const
-nsISMILAnimationElement
+dom
+:
+:
+SVGAnimationElement
 *
 aSrcElement
 nsSMILValue

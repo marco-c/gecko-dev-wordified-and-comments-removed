@@ -520,7 +520,10 @@ nsAString
 &
 aStr
 const
-nsISMILAnimationElement
+dom
+:
+:
+SVGAnimationElement
 *
 nsSMILValue
 &

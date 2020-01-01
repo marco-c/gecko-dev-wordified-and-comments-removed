@@ -97,10 +97,6 @@ _MSC_VER
 EXPORTS
 =
 \
-nsISMILAnimationElement
-.
-h
-\
 nsISMILAttr
 .
 h

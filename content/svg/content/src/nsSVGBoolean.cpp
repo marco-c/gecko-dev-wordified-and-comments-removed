@@ -484,7 +484,7 @@ nsAString
 &
 aStr
 const
-nsISMILAnimationElement
+SVGAnimationElement
 *
 nsSMILValue
 &

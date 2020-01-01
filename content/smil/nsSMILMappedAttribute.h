@@ -57,7 +57,13 @@ nsAString
 &
 aStr
 const
-nsISMILAnimationElement
+mozilla
+:
+:
+dom
+:
+:
+SVGAnimationElement
 *
 aSrcElement
 nsSMILValue

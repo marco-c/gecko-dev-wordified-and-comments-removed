@@ -26,9 +26,6 @@ SVGLengthList
 h
 "
 class
-nsISMILAnimationElement
-;
-class
 nsSMILValue
 ;
 class
@@ -37,6 +34,13 @@ nsSVGElement
 namespace
 mozilla
 {
+namespace
+dom
+{
+class
+SVGAnimationElement
+;
+}
 class
 SVGAnimatedLengthList
 {
@@ -234,7 +238,10 @@ nsAString
 &
 aStr
 const
-nsISMILAnimationElement
+dom
+:
+:
+SVGAnimationElement
 *
 aSrcElement
 nsSMILValue

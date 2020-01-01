@@ -26,9 +26,6 @@ SVGPointList
 h
 "
 class
-nsISMILAnimationElement
-;
-class
 nsSMILValue
 ;
 class
@@ -37,6 +34,13 @@ nsSVGElement
 namespace
 mozilla
 {
+namespace
+dom
+{
+class
+SVGAnimationElement
+;
+}
 class
 SVGAnimatedPointList
 {
@@ -227,7 +231,10 @@ nsAString
 &
 aStr
 const
-nsISMILAnimationElement
+dom
+:
+:
+SVGAnimationElement
 *
 aSrcElement
 nsSMILValue

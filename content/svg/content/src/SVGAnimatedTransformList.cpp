@@ -15,7 +15,11 @@ h
 #
 include
 "
-nsISMILAnimationElement
+mozilla
+/
+dom
+/
+SVGAnimationElement
 .
 h
 "
@@ -423,7 +427,10 @@ nsAString
 &
 aStr
 const
-nsISMILAnimationElement
+dom
+:
+:
+SVGAnimationElement
 *
 aSrcElement
 nsSMILValue

@@ -38,9 +38,6 @@ class
 nsISupports
 ;
 class
-nsISMILAnimationElement
-;
-class
 nsSMILValue
 ;
 class
@@ -100,6 +97,9 @@ SVGAngle
 ;
 class
 SVGAnimatedAngle
+;
+class
+SVGAnimationElement
 ;
 }
 }
@@ -496,7 +496,13 @@ nsAString
 &
 aStr
 const
-nsISMILAnimationElement
+mozilla
+:
+:
+dom
+:
+:
+SVGAnimationElement
 *
 aSrcElement
 nsSMILValue

@@ -657,6 +657,14 @@ FORCE_STATIC_LIB
 EXPORTS
 =
 \
+nsSVGClass
+.
+h
+\
+nsSVGElement
+.
+h
+\
 nsSVGFeatures
 .
 h
@@ -666,6 +674,10 @@ nsSVGRect
 h
 \
 SVGAttrValueWrapper
+.
+h
+\
+SVGStringList
 .
 h
 \

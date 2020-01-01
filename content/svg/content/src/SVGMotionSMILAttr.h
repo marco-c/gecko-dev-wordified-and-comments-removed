@@ -15,9 +15,6 @@ class
 nsIContent
 ;
 class
-nsISMILAnimationElement
-;
-class
 nsSMILValue
 ;
 class
@@ -26,6 +23,13 @@ nsSVGElement
 namespace
 mozilla
 {
+namespace
+dom
+{
+class
+SVGAnimationElement
+;
+}
 class
 SVGMotionSMILAttr
 :
@@ -56,7 +60,10 @@ nsAString
 &
 aStr
 const
-nsISMILAnimationElement
+dom
+:
+:
+SVGAnimationElement
 *
 aSrcElement
 nsSMILValue
