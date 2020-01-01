@@ -32,7 +32,6 @@ structure
 to
 the
 device
-.
         
 "
 "
@@ -231,7 +230,7 @@ push1
         
 self
 .
-assertTrue
+assert_
 (
             
 self
@@ -259,7 +258,7 @@ sub
         
 self
 .
-assertTrue
+assert_
 (
 self
 .

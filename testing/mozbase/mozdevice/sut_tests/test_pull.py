@@ -8,12 +8,6 @@ from
 dmunit
 import
 DeviceManagerTestCase
-from
-mozdevice
-.
-devicemanager
-import
-DMError
 class
 PullTestCase
 (
@@ -47,7 +41,7 @@ file
 "
 "
         
-orig
+m_orig
 =
 hashlib
 .
@@ -55,7 +49,7 @@ md5
 (
 )
         
-new
+m_new
 =
 hashlib
 .
@@ -83,7 +77,7 @@ zip
 '
 )
         
-orig
+m_orig
 .
 update
 (
@@ -143,7 +137,7 @@ local_test_file
 remote_test_file
 )
         
-new
+m_new
 .
 update
 (
@@ -161,12 +155,12 @@ self
 .
 assertEqual
 (
-orig
+m_orig
 .
 hexdigest
 (
 )
-new
+m_new
 .
 hexdigest
 (
@@ -196,13 +190,15 @@ remote_missing_file
         
 self
 .
-assertRaises
+assertEqual
 (
-DMError
 self
 .
 dm
 .
 pullFile
+(
 remote_missing_file
+)
+None
 )

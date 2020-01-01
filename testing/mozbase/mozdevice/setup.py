@@ -7,8 +7,20 @@ PACKAGE_VERSION
 '
 0
 .
-21
+18
 '
+deps
+=
+[
+'
+mozprocess
+=
+=
+0
+.
+8
+'
+]
 setup
 (
 name
@@ -97,7 +109,7 @@ tools
 /
 Projects
 /
-Mozbase
+MozBase
 '
       
 license
@@ -124,8 +136,7 @@ False
       
 install_requires
 =
-[
-]
+deps
       
 entry_points
 =
@@ -155,14 +166,6 @@ mozdevice
 dmcli
 :
 cli
-      
-sutini
-=
-mozdevice
-.
-sutini
-:
-main
       
 "
 "

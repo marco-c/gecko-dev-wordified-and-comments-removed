@@ -1,7 +1,6 @@
 from
 devicemanager
 import
-DeviceManager
 DMError
 from
 devicemanagerADB
@@ -17,3 +16,11 @@ import
 DroidADB
 DroidSUT
 DroidConnectByHWID
+from
+emulator
+import
+Emulator
+from
+b2gemulator
+import
+B2GEmulator

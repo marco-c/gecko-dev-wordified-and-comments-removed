@@ -30,7 +30,6 @@ the
 info
 "
 command
-.
         
 "
 "
@@ -54,6 +53,7 @@ uptime
 '
 screen
 '
+                
 '
 memory
 '
@@ -86,3 +86,20 @@ str
 (
 data
 )
+        
+print
+"
+=
+=
+=
+=
+Now
+we
+call
+them
+all
+=
+=
+=
+=
+"
