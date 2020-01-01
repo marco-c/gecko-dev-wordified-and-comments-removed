@@ -33,9 +33,6 @@ nsTArray
 h
 "
 class
-nsIDOMFile
-;
-class
 nsFormData
 :
 public
@@ -89,7 +86,7 @@ const
 nsAString
 &
 aName
-nsIDOMFile
+nsIFile
 *
 aFile
 )
@@ -107,7 +104,7 @@ stringValue
 ;
 nsCOMPtr
 <
-nsIDOMFile
+nsIFile
 >
 fileValue
 ;

@@ -609,6 +609,10 @@ nsIDOMFileReader
 .
 idl
 \
+nsIDOMFileInternal
+.
+idl
+\
 nsIDOMFileList
 .
 idl

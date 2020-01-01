@@ -435,7 +435,7 @@ interface
 nsIDOMWindow
 ;
 interface
-nsIDOMFile
+nsIURI
 ;
 [
 scriptable
@@ -761,8 +761,8 @@ URI
 /
 readonly
 attribute
-nsIDOMFile
-file
+nsIURI
+uri
 ;
 /
 /

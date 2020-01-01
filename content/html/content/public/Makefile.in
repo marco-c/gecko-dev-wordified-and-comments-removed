@@ -474,6 +474,10 @@ nsITextControlElement
 .
 h
 \
+nsIFileControlElement
+.
+h
+\
 nsFormSubmission
 .
 h
