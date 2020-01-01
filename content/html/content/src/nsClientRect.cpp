@@ -311,9 +311,6 @@ const
 nsRect
 &
 aLayoutRect
-nsPresContext
-*
-aPresContext
 )
 {
 double
@@ -335,9 +332,9 @@ t2pScaled
 =
 scale
 /
-aPresContext
--
->
+nsPresContext
+:
+:
 AppUnitsPerCSSPixel
 (
 )

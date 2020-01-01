@@ -362,6 +362,8 @@ eDOMClassInfo_CanvasShortArray_id
 eDOMClassInfo_CanvasUnsignedShortArray_id
 eDOMClassInfo_CanvasIntArray_id
 eDOMClassInfo_CanvasUnsignedIntArray_id
+eDOMClassInfo_PaintRequest_id
+eDOMClassInfo_PaintRequestList_id
 eDOMClassInfoIDCount
 }
 ;

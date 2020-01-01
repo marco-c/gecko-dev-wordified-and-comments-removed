@@ -534,6 +534,14 @@ nsIDOMNotifyPaintEvent
 .
 idl
 \
+nsIDOMPaintRequest
+.
+idl
+\
+nsIDOMPaintRequestList
+.
+idl
+\
 nsIDOMSimpleGestureEvent
 .
 idl

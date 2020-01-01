@@ -1037,6 +1037,10 @@ aView
 const
 nsRegion
 &
+aBlitRegion
+const
+nsRegion
+&
 aUpdateRegion
 )
 ;
