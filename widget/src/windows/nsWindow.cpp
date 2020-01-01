@@ -19429,6 +19429,15 @@ iDeltaPerChar
 }
 }
 }
+if
+(
+!
+scrollEvent
+.
+delta
+)
+break
+;
 scrollEvent
 .
 isShift
