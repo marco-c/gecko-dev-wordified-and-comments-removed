@@ -1000,6 +1000,11 @@ ForwardTransaction
 (
 )
 ;
+void
+MakeSnapshotIfRequired
+(
+)
+;
 nsIntRect
 mTargetBounds
 ;

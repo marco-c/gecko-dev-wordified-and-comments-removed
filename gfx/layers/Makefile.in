@@ -166,6 +166,10 @@ BasicColorLayer
 .
 cpp
 \
+BasicCompositor
+.
+cpp
+\
 BasicContainerLayer
 .
 cpp

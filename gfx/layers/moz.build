@@ -357,6 +357,11 @@ Axis
 h
 '
 '
+BasicCompositor
+.
+h
+'
+'
 CanvasClient
 .
 h
