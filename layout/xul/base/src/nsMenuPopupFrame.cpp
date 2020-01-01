@@ -6533,6 +6533,7 @@ AddLazyChildren
 mContent
 LazyGeneratePopupDone
 nsnull
+PR_TRUE
 )
 ;
 }

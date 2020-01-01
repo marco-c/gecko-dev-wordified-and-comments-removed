@@ -322,6 +322,10 @@ aCallback
 void
 *
 aArg
+PRBool
+aIsSynch
+=
+PR_FALSE
 )
 ;
 void
