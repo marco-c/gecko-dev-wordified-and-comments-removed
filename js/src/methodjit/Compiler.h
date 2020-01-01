@@ -946,16 +946,6 @@ debugMode
 bool
 addTraceHints
 ;
-Compiler
-*
-thisFromCtor
-(
-)
-{
-return
-this
-;
-}
 public
 :
 enum
@@ -1081,7 +1071,7 @@ jsbytecode
 pc
 )
 ;
-bool
+void
 jumpInScript
 (
 Jump
@@ -1126,7 +1116,7 @@ Assembler
 masm
 )
 ;
-bool
+void
 emitStubCmpOp
 (
 BoolStub
@@ -1150,7 +1140,7 @@ iterNext
 (
 )
 ;
-bool
+void
 iterMore
 (
 )
@@ -1201,7 +1191,7 @@ constructThis
 (
 )
 ;
-bool
+void
 jumpAndTrace
 (
 Jump
@@ -1438,11 +1428,6 @@ jsop_getelem_slow
 )
 ;
 void
-jsop_callelem_slow
-(
-)
-;
-void
 jsop_unbrand
 (
 )
@@ -1567,10 +1552,8 @@ leaveBlock
 )
 ;
 void
-emitEval
+jsop_eval
 (
-uint32
-argc
 )
 ;
 void
@@ -1671,7 +1654,7 @@ MaybeRegisterID
 mreg
 )
 ;
-bool
+void
 jsop_relational
 (
 JSOp
@@ -1685,7 +1668,7 @@ JSOp
 fused
 )
 ;
-bool
+void
 jsop_relational_self
 (
 JSOp
@@ -1699,7 +1682,7 @@ JSOp
 fused
 )
 ;
-bool
+void
 jsop_relational_full
 (
 JSOp
@@ -1713,7 +1696,7 @@ JSOp
 fused
 )
 ;
-bool
+void
 jsop_relational_double
 (
 JSOp
@@ -1934,7 +1917,7 @@ jsop_typeof
 (
 )
 ;
-bool
+void
 booleanJumpScript
 (
 JSOp
@@ -1944,7 +1927,7 @@ jsbytecode
 target
 )
 ;
-bool
+void
 jsop_ifneq
 (
 JSOp
@@ -1954,7 +1937,7 @@ jsbytecode
 target
 )
 ;
-bool
+void
 jsop_andor
 (
 JSOp
@@ -1994,19 +1977,6 @@ jsop_setelem
 bool
 jsop_getelem
 (
-bool
-isCall
-)
-;
-bool
-isCacheableBaseAndIndex
-(
-FrameEntry
-*
-obj
-FrameEntry
-*
-id
 )
 ;
 void
@@ -2016,7 +1986,7 @@ JSOp
 op
 )
 ;
-bool
+void
 jsop_equality
 (
 JSOp
@@ -2030,7 +2000,7 @@ JSOp
 fused
 )
 ;
-bool
+void
 jsop_equality_int_string
 (
 JSOp
