@@ -32,13 +32,6 @@ nsAutoPtr
 .
 h
 "
-#
-include
-"
-SurfaceTypes
-.
-h
-"
 class
 nsIWidget
 ;
