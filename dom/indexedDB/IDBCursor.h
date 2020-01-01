@@ -98,7 +98,7 @@ public
 :
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIIDBCURSOR
-NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 (
 IDBCursor
 nsDOMEventTargetHelper
@@ -268,9 +268,8 @@ mCachedValue
 bool
 mHaveCachedValue
 ;
-JSRuntime
-*
-mJSRuntime
+bool
+mValueRooted
 ;
 bool
 mContinueCalled
