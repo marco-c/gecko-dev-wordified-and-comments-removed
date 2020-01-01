@@ -6,17 +6,6 @@ Ci
 nsINavHistoryResultViewObserver
 ;
 const
-ORGANIZER_ROOT_HISTORY_UNSORTED
-=
-"
-place
-:
-type
-=
-1
-"
-;
-const
 ORGANIZER_ROOT_BOOKMARKS
 =
 "
