@@ -55,6 +55,10 @@ nsStyleContext
 *
 *
 aStyles
+PRBool
+aOwnsFactory
+=
+PR_TRUE
 )
 ;
 gfxTextRun
@@ -83,6 +87,10 @@ nsStyleContext
 *
 *
 aStyles
+PRBool
+aOwnsFactory
+=
+PR_TRUE
 )
 ;
 virtual
