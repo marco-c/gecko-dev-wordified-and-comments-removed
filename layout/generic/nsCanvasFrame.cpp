@@ -1467,9 +1467,6 @@ nsCSSRendering
 :
 FindBackground
 (
-PresContext
-(
-)
 this
 &
 bgSC

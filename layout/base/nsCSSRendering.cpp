@@ -4812,9 +4812,6 @@ nsCSSRendering
 :
 FindBackground
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aForFrame
@@ -4828,7 +4825,12 @@ nsIFrame
 *
 rootElementFrame
 =
-aPresContext
+aForFrame
+-
+>
+PresContext
+(
+)
 -
 >
 PresShell
@@ -6742,7 +6744,6 @@ if
 !
 FindBackground
 (
-aPresContext
 aForFrame
 &
 sc
@@ -6886,7 +6887,6 @@ if
 !
 FindBackground
 (
-aPresContext
 aForFrame
 &
 sc

@@ -18800,12 +18800,6 @@ nsCSSRendering
 FindBackground
 (
 aForFrame
--
->
-PresContext
-(
-)
-aForFrame
 &
 sc
 )
@@ -21432,12 +21426,6 @@ nsCSSRendering
 :
 FindBackground
 (
-aBackgroundFrame
--
->
-PresContext
-(
-)
 aBackgroundFrame
 &
 bgSC
