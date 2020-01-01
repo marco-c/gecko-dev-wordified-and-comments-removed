@@ -457,16 +457,6 @@ cpp
 (
 NULL
 )
-CSRCS
-=
-\
-keysym2ucs
-.
-c
-\
-(
-NULL
-)
 CPPSRCS
 =
 \
