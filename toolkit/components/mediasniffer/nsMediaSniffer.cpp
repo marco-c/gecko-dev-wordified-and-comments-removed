@@ -415,14 +415,9 @@ aRequest
 ;
 if
 (
-!
 channel
 )
 {
-return
-NS_ERROR_NOT_AVAILABLE
-;
-}
 nsAutoCString
 contentType
 ;
@@ -474,6 +469,7 @@ UNKNOWN_CONTENT_TYPE
 return
 NS_ERROR_NOT_AVAILABLE
 ;
+}
 }
 const
 uint32_t
