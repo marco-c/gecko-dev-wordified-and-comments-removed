@@ -1190,6 +1190,10 @@ browser_overLinkInLocationBar
 .
 js
 \
+browser_aboutHome
+.
+js
+\
 (
 NULL
 )
