@@ -504,6 +504,12 @@ defined
 (
 EXPORT_JS_API
 )
+|
+|
+defined
+(
+STATIC_EXPORTABLE_JS_API
+)
 #
 define
 JS_PUBLIC_API

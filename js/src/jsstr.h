@@ -1661,7 +1661,8 @@ align
 8
 (
 __1cIJSStringPunitStringTable_
-__1cIJSStringOintStringTable_
+__1cIJSStringSlength2StringTable_
+__1cIJSStringShundredStringTable_
 )
 #
 endif

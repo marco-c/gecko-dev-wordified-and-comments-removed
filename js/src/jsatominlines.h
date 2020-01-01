@@ -73,13 +73,6 @@ isAtomized
 )
 )
 {
-cx
--
->
-weakRoots
-.
-lastAtom
-=
 *
 atomp
 =

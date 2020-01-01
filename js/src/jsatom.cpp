@@ -2603,15 +2603,6 @@ STRING_TO_ATOM
 key
 )
 ;
-cx
--
->
-weakRoots
-.
-lastAtom
-=
-atom
-;
 JS_UNLOCK
 (
 cx
