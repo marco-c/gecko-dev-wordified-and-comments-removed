@@ -3666,7 +3666,7 @@ return
 nsnull
 ;
 }
-NS_ABORT_IF_FALSE
+NS_WARN_IF_FALSE
 (
 ea
 -
