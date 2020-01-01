@@ -1094,13 +1094,14 @@ if
 !
 browserIsRemote
 )
-fuzzy
+fails
 -
 if
 (
 OSX
-1
-4
+&
+&
+layersGPUAccelerated
 )
 fuzzy
 -
