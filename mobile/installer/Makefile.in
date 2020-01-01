@@ -548,7 +548,7 @@ nsinstall
 (
 NULL
 )
-ifndef
+ifdef
 SYSTEM_LIBXUL
 NO_PKG_FILES
 +
