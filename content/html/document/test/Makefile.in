@@ -615,6 +615,16 @@ inner
 .
 html
 \
+test_bug446483
+.
+html
+\
+bug446483
+-
+iframe
+.
+html
+\
 test_bug448564
 .
 html

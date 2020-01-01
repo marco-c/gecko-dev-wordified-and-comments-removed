@@ -892,6 +892,15 @@ aResult
 )
 const
 ;
+virtual
+NS_HIDDEN_
+(
+void
+)
+RemovedFromDocShell
+(
+)
+;
 protected
 :
 nsresult
