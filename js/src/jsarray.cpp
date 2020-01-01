@@ -5344,9 +5344,14 @@ obj
 >
 dslots
 )
-JS_free
-(
 cx
+-
+>
+runtime
+-
+>
+asynchronousFree
+(
 obj
 -
 >
