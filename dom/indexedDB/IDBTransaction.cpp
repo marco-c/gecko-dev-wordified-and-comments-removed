@@ -339,7 +339,8 @@ CreateInternal
 IDBDatabase
 *
 aDatabase
-nsTArray
+const
+Sequence
 <
 nsString
 >

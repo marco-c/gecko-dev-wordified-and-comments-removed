@@ -532,11 +532,6 @@ nsIIDBCursorWithValue
 *
 '
 '
-nsIIDBDatabase
-.
-*
-'
-'
 nsIIDBKeyRange
 .
 *

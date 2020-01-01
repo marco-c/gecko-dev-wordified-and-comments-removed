@@ -92,9 +92,6 @@ MPL
 *
 /
 interface
-IDBDatabase
-;
-interface
 IDBFileHandle
 :
 FileHandle

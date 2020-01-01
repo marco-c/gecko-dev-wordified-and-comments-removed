@@ -516,7 +516,7 @@ forget
 )
 ;
 }
-nsIIDBDatabase
+IDBDatabase
 *
 IDBFileHandle
 :

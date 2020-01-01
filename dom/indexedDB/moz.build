@@ -124,11 +124,6 @@ nsIIDBCursorWithValue
 idl
 '
 '
-nsIIDBDatabase
-.
-idl
-'
-'
 nsIIDBKeyRange
 .
 idl

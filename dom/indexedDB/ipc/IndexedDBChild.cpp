@@ -2143,7 +2143,7 @@ mDatabase
 mRequest
 )
 ;
-nsTArray
+Sequence
 <
 nsString
 >

@@ -36,12 +36,6 @@ Ci
 nsIIDBOpenDBRequest
 ;
 const
-IDBDatabase
-=
-Ci
-.
-nsIIDBDatabase
-const
 IDBRequest
 =
 Ci

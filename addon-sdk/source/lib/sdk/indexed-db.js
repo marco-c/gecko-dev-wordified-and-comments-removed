@@ -361,14 +361,6 @@ nsIIDBOpenDBRequest
 ;
 exports
 .
-IDBDatabase
-=
-Ci
-.
-nsIIDBDatabase
-;
-exports
-.
 IDBRequest
 =
 Ci

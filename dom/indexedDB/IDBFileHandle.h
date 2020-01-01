@@ -37,10 +37,10 @@ FileInfo
 .
 h
 "
-class
-nsIIDBDatabase
-;
 BEGIN_INDEXEDDB_NAMESPACE
+class
+IDBDatabase
+;
 class
 IDBFileHandle
 :
@@ -170,7 +170,7 @@ uint32_t
 aFileSize
 )
 ;
-nsIIDBDatabase
+IDBDatabase
 *
 Database
 (

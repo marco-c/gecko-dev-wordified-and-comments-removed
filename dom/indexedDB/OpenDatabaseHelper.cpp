@@ -9901,7 +9901,7 @@ rv
 rv
 )
 ;
-nsTArray
+Sequence
 <
 nsString
 >

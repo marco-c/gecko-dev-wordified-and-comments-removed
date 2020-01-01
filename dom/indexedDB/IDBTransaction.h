@@ -302,7 +302,8 @@ Create
 IDBDatabase
 *
 aDatabase
-nsTArray
+const
+Sequence
 <
 nsString
 >
@@ -742,7 +743,7 @@ aRv
 )
 const
 ;
-nsIIDBDatabase
+IDBDatabase
 *
 Db
 (
@@ -871,7 +872,8 @@ CreateInternal
 IDBDatabase
 *
 aDatabase
-nsTArray
+const
+Sequence
 <
 nsString
 >
