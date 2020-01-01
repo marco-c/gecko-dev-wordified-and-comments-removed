@@ -2477,11 +2477,7 @@ width
 PRInt32
 height
 )
-{
-return
-NS_ERROR_NOT_IMPLEMENTED
 ;
-}
 NS_IMETHOD
 Render
 (
@@ -2836,6 +2832,15 @@ JSObject
 *
 *
 aRetval
+)
+;
+nsresult
+Initialize
+(
+PRInt32
+width
+PRInt32
+height
 )
 ;
 nsresult
