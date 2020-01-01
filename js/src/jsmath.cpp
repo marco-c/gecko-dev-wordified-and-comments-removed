@@ -2287,7 +2287,6 @@ vp
 )
 ;
 }
-static
 JSBool
 math_sin
 (
