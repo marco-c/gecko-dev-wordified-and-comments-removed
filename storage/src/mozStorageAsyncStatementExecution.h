@@ -298,6 +298,9 @@ SQLiteMutex
 &
 mDBMutex
 ;
+TimeStamp
+mRequestStartDate
+;
 }
 ;
 }
