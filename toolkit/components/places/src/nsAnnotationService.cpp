@@ -4135,7 +4135,7 @@ moz_anno_attributes
 n
 "
 "
-LEFT
+INNER
 JOIN
 moz_annos
 a
@@ -4149,7 +4149,7 @@ a
 anno_attribute_id
 "
 "
-LEFT
+INNER
 JOIN
 moz_places
 h
@@ -4499,7 +4499,7 @@ moz_anno_attributes
 n
 "
 "
-LEFT
+INNER
 JOIN
 moz_items_annos
 a
