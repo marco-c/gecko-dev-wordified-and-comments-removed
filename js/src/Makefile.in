@@ -899,10 +899,6 @@ jsstr
 .
 cpp
 \
-jstask
-.
-cpp
-\
 jstypedarray
 .
 cpp
@@ -1152,10 +1148,6 @@ jsstdint
 h
 \
 jsstr
-.
-h
-\
-jstask
 .
 h
 \
