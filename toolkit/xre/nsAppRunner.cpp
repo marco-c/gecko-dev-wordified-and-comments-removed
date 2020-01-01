@@ -20,10 +20,6 @@ h
 #
 endif
 #
-define
-XPCOM_TRANSLATE_NSGM_ENTRY_POINT
-1
-#
 if
 defined
 (

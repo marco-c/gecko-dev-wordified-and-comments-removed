@@ -1,8 +1,4 @@
 #
-define
-XPCOM_TRANSLATE_NSGM_ENTRY_POINT
-1
-#
 include
 "
 mozilla

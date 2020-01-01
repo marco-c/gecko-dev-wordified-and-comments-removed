@@ -1542,16 +1542,8 @@ ifdef
 LIBXUL_LIBRARY
 ifdef
 IS_COMPONENT
-ifdef
+ifndef
 MODULE_NAME
-DEFINES
-+
-=
--
-DXPCOM_TRANSLATE_NSGM_ENTRY_POINT
-=
-1
-else
 (
 error
 Component
