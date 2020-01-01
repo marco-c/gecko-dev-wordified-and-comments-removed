@@ -391,13 +391,6 @@ h
 #
 include
 "
-nsIInlineEventHandlers
-.
-h
-"
-#
-include
-"
 nsDataHashtable
 .
 h
@@ -1727,8 +1720,6 @@ nsIApplicationCacheContainer
 public
 nsStubMutationObserver
 public
-nsIInlineEventHandlers
-public
 nsIObserver
 {
 public
@@ -2948,7 +2939,6 @@ GetPrincipal
 MOZ_OVERRIDE
 ;
 NS_DECL_NSIAPPLICATIONCACHECONTAINER
-NS_DECL_NSIINLINEEVENTHANDLERS
 NS_DECL_NSIOBSERVER
 virtual
 nsresult

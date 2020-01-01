@@ -113,13 +113,6 @@ h
 #
 include
 "
-nsIInlineEventHandlers
-.
-h
-"
-#
-include
-"
 mozilla
 /
 CORSMode
