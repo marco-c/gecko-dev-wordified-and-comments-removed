@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 let
 Cc
 =
@@ -6261,6 +6266,7 @@ addEventListener
 pagehide
 "
 function
+listener
 (
 )
 {
@@ -6282,9 +6288,7 @@ removeEventListener
 "
 pagehide
 "
-arguments
-.
-callee
+listener
 true
 )
 ;

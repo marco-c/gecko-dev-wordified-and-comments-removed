@@ -1364,9 +1364,6 @@ jmethodID
 jMarkUriVisited
 ;
 jmethodID
-jEmitGeckoAccessibilityEvent
-;
-jmethodID
 jEnableBatteryNotifications
 ;
 jmethodID
