@@ -554,8 +554,6 @@ download
 -
 manager
 \
-history
-\
 sidebar
 \
 (
@@ -580,6 +578,13 @@ extensions
 (
 NULL
 )
+endif
+ifndef
+MOZ_PLACES
+DIRS
++
+=
+history
 endif
 endif
 endif
