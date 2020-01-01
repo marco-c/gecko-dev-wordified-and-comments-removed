@@ -711,8 +711,13 @@ json
 (
 NULL
 )
-ifndef
-ANDROID
+ifneq
+(
+(
+OS_TARGET
+)
+Android
+)
 ifndef
 MOZ_PLATFORM_MAEMO
 _BROWSER_FILES
