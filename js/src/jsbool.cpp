@@ -617,8 +617,12 @@ NULL
 booleanProto
 -
 >
-setPrimitiveThis
+setFixedSlot
 (
+BooleanObject
+:
+:
+PRIMITIVE_VALUE_SLOT
 BooleanValue
 (
 false
