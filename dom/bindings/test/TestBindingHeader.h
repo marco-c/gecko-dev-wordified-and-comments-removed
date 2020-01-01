@@ -2379,6 +2379,17 @@ TestInterface
 &
 )
 ;
+int32_t
+AttrWithLenientThis
+(
+)
+;
+void
+SetAttrWithLenientThis
+(
+int32_t
+)
+;
 bool
 ImplementedProperty
 (
