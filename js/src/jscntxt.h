@@ -1713,6 +1713,9 @@ mjitDataSize
 ;
 #
 endif
+bool
+inOOMReport
+;
 JSRuntime
 (
 )
