@@ -497,6 +497,7 @@ cx
 scopeChain
 NULL
 NULL
+staticLevel
 )
 ;
 TreeContext
@@ -610,12 +611,6 @@ globalScope
 =
 &
 globalScope
-;
-sc
-.
-staticLevel
-=
-staticLevel
 ;
 if
 (
@@ -1211,6 +1206,7 @@ cx
 NULL
 fun
 NULL
+0
 )
 ;
 TreeContext

@@ -222,6 +222,7 @@ scopeChain_
 ;
 public
 :
+const
 unsigned
 staticLevel
 ;
@@ -252,6 +253,8 @@ fun
 FunctionBox
 *
 funbox
+unsigned
+staticLevel
 )
 ;
 #
