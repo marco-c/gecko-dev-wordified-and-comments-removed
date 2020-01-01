@@ -658,6 +658,7 @@ STATE_FOCUSABLE
 |
 STATE_LINKED
 )
+)
 ;
 SimpleTest
 .
