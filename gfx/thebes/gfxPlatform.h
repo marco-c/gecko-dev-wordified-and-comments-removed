@@ -1204,6 +1204,16 @@ eGfxLog
 aWhichLog
 )
 ;
+bool
+WorkAroundDriverBugs
+(
+)
+const
+{
+return
+mWorkAroundDriverBugs
+;
+}
 protected
 :
 gfxPlatform
@@ -1314,6 +1324,9 @@ GfxInfoCollector
 gfxPlatform
 >
 mAzureBackendCollector
+;
+bool
+mWorkAroundDriverBugs
 ;
 }
 ;

@@ -1566,6 +1566,10 @@ mMaxRenderbufferSize
 (
 0
 )
+mWorkAroundDriverBugs
+(
+true
+)
 #
 ifdef
 DEBUG
@@ -4631,6 +4635,16 @@ ClearSafely
 (
 )
 ;
+bool
+WorkAroundDriverBugs
+(
+)
+const
+{
+return
+mWorkAroundDriverBugs
+;
+}
 protected
 :
 nsDataHashtable
@@ -4777,8 +4791,6 @@ biggerDimension
 maxAllowed
 ;
 }
-protected
-:
 nsTArray
 <
 nsIntRect
@@ -4804,6 +4816,9 @@ GLint
 mMaxRenderbufferSize
 ;
 bool
+mWorkAroundDriverBugs
+;
+bool
 IsTextureSizeSafeToPassToDriver
 (
 GLenum
@@ -4820,6 +4835,9 @@ ifdef
 XP_MACOSX
 if
 (
+mWorkAroundDriverBugs
+&
+&
 mVendor
 =
 =
