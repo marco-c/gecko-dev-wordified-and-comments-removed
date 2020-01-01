@@ -117,9 +117,8 @@ mWidgetPainted
 mSymbolsLoaded
 )
 {
-qApp
--
->
+mLoop
+.
 quit
 (
 )
@@ -146,9 +145,8 @@ mWidgetPainted
 mSymbolsLoaded
 )
 {
-qApp
--
->
+mLoop
+.
 quit
 (
 )
@@ -495,9 +493,8 @@ showNormal
 ;
 #
 endif
-qApp
--
->
+mLoop
+.
 exec
 (
 )
