@@ -23958,6 +23958,17 @@ event
 ;
 if
 (
+!
+layerManager
+)
+{
+MOZ_CRASH
+(
+)
+;
+}
+if
+(
 mIsFirstPaint
 &
 &
