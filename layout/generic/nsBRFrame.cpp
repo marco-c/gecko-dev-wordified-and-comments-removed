@@ -823,7 +823,13 @@ top
 }
 }
 return
+NS_MIN
+(
+mRect
+.
+height
 ascent
+)
 ;
 }
 nsIFrame
