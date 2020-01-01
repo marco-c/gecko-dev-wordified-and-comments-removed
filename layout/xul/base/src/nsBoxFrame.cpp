@@ -378,11 +378,6 @@ unset
 mState
 |
 =
-NS_FRAME_IS_BOX
-;
-mState
-|
-=
 NS_STATE_IS_HORIZONTAL
 ;
 mState

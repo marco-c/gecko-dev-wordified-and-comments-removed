@@ -9531,6 +9531,13 @@ InlineFrame
 )
 GK_ATOM
 (
+leafBoxFrame
+"
+LeafBoxFrame
+"
+)
+GK_ATOM
+(
 legendFrame
 "
 LegendFrame
