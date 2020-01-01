@@ -1516,7 +1516,7 @@ PRBool
 nsExternalProtocolHandler
 :
 :
-HaveOSProtocolHandler
+HaveExternalProtocolHandler
 (
 nsIURI
 *
@@ -1551,7 +1551,7 @@ gExtProtSvc
 gExtProtSvc
 -
 >
-OSProtocolHandlerExists
+ExternalProtocolHandlerExists
 (
 scheme
 .
@@ -1682,16 +1682,16 @@ _retval
 )
 {
 PRBool
-haveOSHandler
+haveExternalHandler
 =
-HaveOSProtocolHandler
+HaveExternalProtocolHandler
 (
 aURI
 )
 ;
 if
 (
-haveOSHandler
+haveExternalHandler
 )
 {
 nsCOMPtr
