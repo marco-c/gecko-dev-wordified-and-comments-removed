@@ -100,6 +100,13 @@ h
 #
 include
 "
+nsIDOMTouchEvent
+.
+h
+"
+#
+include
+"
 nsWeakPtr
 .
 h
