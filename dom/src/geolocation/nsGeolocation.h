@@ -350,9 +350,6 @@ nsIGeolocationProvider
 >
 mProvider
 ;
-PRBool
-mProviderStarted
-;
 nsTArray
 <
 nsGeolocation
