@@ -120,8 +120,8 @@ __cplusplus
 MOZ_GCC_VERSION_AT_LEAST
 (
 4
-5
-2
+7
+0
 )
 #
 define
