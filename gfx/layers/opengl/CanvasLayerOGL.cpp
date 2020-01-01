@@ -2159,11 +2159,6 @@ false
 )
 ;
 }
-*
-aNewBack
-=
-mFrontBufferDescriptor
-;
 mFrontBufferDescriptor
 =
 aNewFront
