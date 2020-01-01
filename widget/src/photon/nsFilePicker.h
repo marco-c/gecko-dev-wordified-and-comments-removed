@@ -41,6 +41,13 @@ h
 "
 #
 include
+"
+nsCOMArray
+.
+h
+"
+#
+include
 <
 Pt
 .
@@ -220,9 +227,9 @@ mUnicodeDecoder
 PRInt16
 mSelectedType
 ;
-nsCOMPtr
+nsCOMArray
 <
-nsISupportsArray
+nsILocalFile
 >
 mFiles
 ;

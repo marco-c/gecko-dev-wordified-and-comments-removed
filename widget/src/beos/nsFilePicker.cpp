@@ -601,14 +601,6 @@ numfiles
 {
 nsresult
 rv
-=
-NS_NewISupportsArray
-(
-getter_AddRefs
-(
-mFiles
-)
-)
 ;
 for
 (
@@ -725,9 +717,8 @@ rv
 rv
 =
 mFiles
--
->
-AppendElement
+.
+AppendObject
 (
 file
 )

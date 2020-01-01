@@ -34,6 +34,13 @@ h
 "
 #
 include
+"
+nsCOMArray
+.
+h
+"
+#
+include
 <
 qfiledialog
 .
@@ -44,9 +51,6 @@ nsIWidget
 ;
 class
 nsILocalFile
-;
-class
-nsISupportsArray
 ;
 class
 QFileDialog
@@ -207,9 +211,9 @@ QFileDialog
 *
 mDialog
 ;
-nsCOMPtr
+nsCOMArray
 <
-nsISupportsArray
+nsILocalFile
 >
 mFiles
 ;
