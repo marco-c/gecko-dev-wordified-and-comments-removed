@@ -608,11 +608,6 @@ nsFixedSizeAllocator
 *
 kAttrPool
 ;
-static
-nsFixedSizeAllocator
-*
-kInsPool
-;
 public
 :
 nsIContent
