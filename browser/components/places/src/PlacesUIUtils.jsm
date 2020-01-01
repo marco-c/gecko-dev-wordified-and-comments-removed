@@ -172,7 +172,11 @@ URIFixup
 createFixupURI
 (
 aSpec
-0
+Ci
+.
+nsIURIFixup
+.
+FIXUP_FLAG_NONE
 )
 ;
 }
@@ -3523,7 +3527,7 @@ aWhere
 guessUrlSchemeForUI
 :
 function
-PUU_guessUrlSchemeForUI
+PUIU_guessUrlSchemeForUI
 (
 aUrlString
 )

@@ -2191,7 +2191,7 @@ if
 uri
 )
 {
-var
+let
 names
 =
 PlacesUtils
@@ -2205,7 +2205,7 @@ uri
 ;
 for
 (
-var
+let
 j
 =
 0
@@ -2242,6 +2242,7 @@ itemId
 1
 )
 {
+let
 names
 =
 PlacesUtils
@@ -2257,6 +2258,7 @@ itemId
 ;
 for
 (
+let
 j
 =
 0
@@ -2386,7 +2388,7 @@ split
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -2404,7 +2406,7 @@ i
 {
 for
 (
-var
+let
 j
 =
 0
@@ -3286,18 +3288,6 @@ tabs
 .
 openButtonMultiple
 "
-;
-var
-strings
-=
-document
-.
-getElementById
-(
-"
-placeBundle
-"
-)
 ;
 const
 BRANDING_BUNDLE_URI
@@ -5446,7 +5436,7 @@ uri
 suffix
 )
 ;
-var
+let
 placeSuffix
 =
 i
@@ -5465,7 +5455,7 @@ length
 "
 "
 ;
-var
+let
 resolveShortcuts
 =
 !
