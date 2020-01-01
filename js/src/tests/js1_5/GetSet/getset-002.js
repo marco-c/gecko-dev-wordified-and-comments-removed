@@ -21,11 +21,8 @@ initial
 y
 >
 "
+get
 y
-getter
-:
-function
-get_y
 (
 )
 {
@@ -65,11 +62,8 @@ return
 rv
 ;
 }
+set
 y
-setter
-:
-function
-set_y
 (
 newVal
 )

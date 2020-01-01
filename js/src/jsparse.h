@@ -3112,6 +3112,8 @@ functionDef
 (
 uintN
 lambda
+bool
+namePermitted
 )
 ;
 JSParseNode

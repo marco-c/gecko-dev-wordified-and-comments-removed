@@ -11120,15 +11120,10 @@ npairs
 JSBool
 match
 ;
-#
-if
-JS_HAS_GETTER_SETTER
 JSPropertyOp
 getter
 setter
 ;
-#
-endif
 JSAutoResolveFlags
 rf
 (

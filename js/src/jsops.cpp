@@ -8887,8 +8887,14 @@ toSprop
 (
 )
 ;
-JS_ASSERT
+JS_ASSERT_IF
 (
+sprop
+-
+>
+isDataDescriptor
+(
+)
 sprop
 -
 >
@@ -16315,9 +16321,6 @@ END_CASE
 (
 JSOP_CALLEE
 )
-#
-if
-JS_HAS_GETTER_SETTER
 BEGIN_CASE
 (
 JSOP_GETTER
@@ -16802,8 +16805,6 @@ DO_NEXT_OP
 len
 )
 ;
-#
-endif
 BEGIN_CASE
 (
 JSOP_HOLE

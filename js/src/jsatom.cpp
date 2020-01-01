@@ -367,7 +367,6 @@ js_each_str
 js_eval_str
 js_fileName_str
 js_get_str
-js_getter_str
 js_index_str
 js_input_str
 js_iterator_str
@@ -380,7 +379,6 @@ js_noSuchMethod_str
 js_parent_str
 js_proto_str
 js_set_str
-js_setter_str
 js_stack_str
 js_toLocaleString_str
 js_toSource_str
