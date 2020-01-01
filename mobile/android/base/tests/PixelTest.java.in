@@ -157,8 +157,6 @@ SpecialKey
 MENU
 )
 ;
-mSolo
-.
 waitForText
 (
 "

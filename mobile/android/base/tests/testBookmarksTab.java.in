@@ -258,8 +258,6 @@ getBookmarksList
 (
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -376,8 +374,6 @@ clickOnView
 child
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -474,8 +470,6 @@ clickOnView
 child
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -671,8 +665,6 @@ getBookmarksList
 (
 )
 ;
-mSolo
-.
 waitForText
 (
 url
@@ -1295,8 +1287,6 @@ Bookmark
 from
 Context
 Menu
-mSolo
-.
 waitForText
 (
 "
@@ -1320,8 +1310,6 @@ clickLongOnView
 child
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -1348,8 +1336,6 @@ for
 the
 toaster
 notification
-mSolo
-.
 waitForText
 (
 "
@@ -1380,8 +1366,6 @@ clickLongOnView
 child
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -1493,8 +1477,6 @@ getChildAt
 bookmarkIndex
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -1510,8 +1492,6 @@ clickLongOnView
 child
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -1531,8 +1511,6 @@ Edit
 "
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -1582,8 +1560,6 @@ OK
 "
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -1656,8 +1632,6 @@ getChildAt
 bookmarkIndex
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -1673,8 +1647,6 @@ clickLongOnView
 child
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -1694,8 +1666,6 @@ Edit
 "
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -1796,8 +1766,6 @@ Cancel
 "
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -1837,8 +1805,6 @@ Cancel
 "
 )
 ;
-mSolo
-.
 waitForText
 (
 "

@@ -615,8 +615,6 @@ to
 appear
 in
 list
-mSolo
-.
 waitForText
 (
 ABOUT_HOME_URL
@@ -772,8 +770,6 @@ insertOneBookmark
 (
 )
 ;
-mSolo
-.
 waitForText
 (
 BOOKMARK_TITLE
@@ -1262,8 +1258,6 @@ SpecialKey
 MENU
 )
 ;
-mSolo
-.
 waitForText
 (
 "

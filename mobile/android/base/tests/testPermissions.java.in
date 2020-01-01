@@ -89,8 +89,6 @@ html
 )
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -285,8 +283,6 @@ reloadAndPaint
 (
 )
 ;
-mSolo
-.
 waitForText
 (
 "

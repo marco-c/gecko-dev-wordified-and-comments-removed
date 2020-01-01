@@ -366,8 +366,6 @@ SpecialKey
 MENU
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -680,8 +678,6 @@ Today
 )
 )
 {
-mSolo
-.
 waitForText
 (
 "
@@ -1146,8 +1142,6 @@ getHistoryList
 (
 )
 ;
-mSolo
-.
 waitForText
 (
 url
@@ -1606,8 +1600,6 @@ getHistoryList
 (
 )
 ;
-mSolo
-.
 waitForText
 (
 url

@@ -190,8 +190,6 @@ loadUrl
 GEO_URL
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -287,8 +285,6 @@ loadUrl
 GEO_URL
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -366,8 +362,6 @@ loadUrl
 GEO_URL
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -429,8 +423,6 @@ loadUrl
 OFFLINE_STORAGE_URL
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -509,8 +501,6 @@ loadUrl
 OFFLINE_STORAGE_URL
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -627,8 +617,6 @@ loadUrl
 LOGIN_URL
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -695,8 +683,6 @@ loadUrl
 LOGIN_URL
 )
 ;
-mSolo
-.
 waitForText
 (
 "

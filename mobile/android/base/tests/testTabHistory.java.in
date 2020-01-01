@@ -266,8 +266,6 @@ back
 (
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -301,8 +299,6 @@ back
 (
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -337,8 +333,6 @@ forward
 (
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -369,8 +363,6 @@ reload
 (
 )
 ;
-mSolo
-.
 waitForText
 (
 "

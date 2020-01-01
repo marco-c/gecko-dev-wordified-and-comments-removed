@@ -193,8 +193,6 @@ loadUrl
 url
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -222,8 +220,6 @@ Share
 "
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -492,8 +488,6 @@ Sites
 "
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -723,8 +717,6 @@ String
 openedFrom
 )
 {
-mSolo
-.
 waitForText
 (
 "
@@ -741,8 +733,6 @@ Share
 "
 )
 ;
-mSolo
-.
 waitForText
 (
 "

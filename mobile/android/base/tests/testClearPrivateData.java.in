@@ -194,8 +194,6 @@ SpecialKey
 BACK
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -220,8 +218,6 @@ Settings
 ;
 if
 (
-mSolo
-.
 waitForText
 (
 "

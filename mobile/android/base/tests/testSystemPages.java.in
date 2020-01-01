@@ -661,8 +661,6 @@ selectMenuItem
 item
 )
 ;
-mSolo
-.
 waitForText
 (
 "

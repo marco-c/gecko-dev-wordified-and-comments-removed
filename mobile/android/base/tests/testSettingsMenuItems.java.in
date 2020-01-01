@@ -458,8 +458,6 @@ SpecialKey
 BACK
 )
 ;
-mSolo
-.
 waitForText
 (
 "
@@ -884,8 +882,6 @@ midHeight
 }
 }
 }
-mSolo
-.
 waitForText
 (
 "
