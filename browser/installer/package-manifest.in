@@ -334,7 +334,7 @@ ifndef
 MOZ_DEBUG
 #
 if
-_MSC_VER
+MOZ_MSVC_REDIST
 =
 =
 1400
@@ -364,7 +364,7 @@ msvcr80
 dll
 #
 elif
-_MSC_VER
+MOZ_MSVC_REDIST
 =
 =
 1500
@@ -394,7 +394,7 @@ msvcr90
 dll
 #
 elif
-_MSC_VER
+MOZ_MSVC_REDIST
 =
 =
 1600
@@ -410,7 +410,7 @@ msvcr100
 dll
 #
 elif
-_MSC_VER
+MOZ_MSVC_REDIST
 =
 =
 1700
