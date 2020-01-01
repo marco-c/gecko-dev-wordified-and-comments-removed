@@ -24524,10 +24524,11 @@ JS_GetStringLength
 str
 )
 JSVAL_VOID
+JS_DATA_TO_FUNC_PTR
 (
 JSPropertyOp
-)
 funObj
+)
 nsnull
 JSPROP_ENUMERATE
 |
