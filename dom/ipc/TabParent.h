@@ -166,12 +166,7 @@ nsIDOMElement
 *
 aElement
 )
-{
-mFrameElement
-=
-aElement
 ;
-}
 nsIBrowserDOMWindow
 *
 GetBrowserDOMWindow
@@ -840,6 +835,9 @@ mIMECompositionStart
 ;
 PRUint32
 mIMESeqno
+;
+float
+mDPI
 ;
 private
 :
