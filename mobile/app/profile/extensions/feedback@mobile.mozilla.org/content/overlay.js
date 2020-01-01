@@ -518,13 +518,6 @@ msg
 )
 {
 let
-strings
-=
-Elements
-.
-browserBundle
-;
-let
 value
 =
 "
@@ -725,6 +718,13 @@ eAttemptQuit
 }
 ;
 let
+strings
+=
+Strings
+.
+browser
+;
+let
 buttons
 =
 [
@@ -733,7 +733,7 @@ label
 :
 strings
 .
-getString
+GetStringFromName
 (
 "
 notificationRestart
@@ -756,7 +756,7 @@ message
 =
 strings
 .
-getString
+GetStringFromName
 (
 "
 notificationRestart
