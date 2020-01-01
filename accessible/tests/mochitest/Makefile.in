@@ -470,6 +470,10 @@ longdesc_src
 .
 html
 \
+actions
+.
+js
+\
 attributes
 .
 js
@@ -493,10 +497,6 @@ js
 namerules
 .
 xml
-\
-nsIAccessible_actions
-.
-js
 \
 nsIAccessible_name
 .
