@@ -1352,6 +1352,16 @@ BackEdgeMap
 BackEdgeMap
 backEdgeTable
 ;
+JSCompartment
+*
+thisForCtor
+(
+)
+{
+return
+this
+;
+}
 public
 :
 js
