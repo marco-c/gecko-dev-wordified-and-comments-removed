@@ -27,6 +27,9 @@ nsGlobalWindow
 class
 nsFocusManager
 ;
+class
+nsICSSDeclaration
+;
 enum
 {
 ELEMENT_HAS_PENDING_RESTYLE
@@ -325,7 +328,7 @@ aName
 0
 ;
 virtual
-nsIDOMCSSStyleDeclaration
+nsICSSDeclaration
 *
 GetSMILOverrideStyle
 (

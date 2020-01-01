@@ -15659,7 +15659,7 @@ return
 NS_OK
 ;
 }
-nsIDOMCSSStyleDeclaration
+nsICSSDeclaration
 *
 nsGenericElement
 :
