@@ -1420,6 +1420,14 @@ accesskey
 menupopup
 >
 <
+windowdragbox
+orient
+=
+"
+vertical
+"
+>
+<
 stack
 id
 =
@@ -1660,6 +1668,10 @@ radiogroup
 <
 /
 stack
+>
+<
+/
+windowdragbox
 >
 <
 deck

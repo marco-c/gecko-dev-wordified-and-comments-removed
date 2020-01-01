@@ -2062,6 +2062,14 @@ event
 /
 >
 <
+windowdragbox
+orient
+=
+"
+vertical
+"
+>
+<
 stack
 id
 =
@@ -2470,6 +2478,10 @@ vbox
 <
 /
 stack
+>
+<
+/
+windowdragbox
 >
 <
 notificationbox
