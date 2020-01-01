@@ -443,7 +443,7 @@ BLOCK
 /
 include
 protocol
-PIFrameEmbedding
+PBrowser
 ;
 include
 protocol
@@ -507,10 +507,10 @@ dom
 {
 rpc
 protocol
-PContentProcess
+PContent
 {
 manages
-PIFrameEmbedding
+PBrowser
 ;
 manages
 PTestShell
@@ -520,7 +520,7 @@ PNecko
 ;
 child
 :
-PIFrameEmbedding
+PBrowser
 (
 )
 ;

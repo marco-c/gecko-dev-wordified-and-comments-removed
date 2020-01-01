@@ -34,6 +34,15 @@ h
 #
 include
 "
+mozilla
+/
+unused
+.
+h
+"
+#
+include
+"
 jsobj
 .
 h
@@ -2854,6 +2863,9 @@ mObj
 =
 NULL
 ;
+unused
+<
+<
 ObjectWrapperParent
 :
 :

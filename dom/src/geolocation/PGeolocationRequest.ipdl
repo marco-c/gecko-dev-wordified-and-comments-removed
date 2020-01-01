@@ -398,7 +398,7 @@ BLOCK
 /
 include
 protocol
-PIFrameEmbedding
+PBrowser
 ;
 include
 "
@@ -427,7 +427,7 @@ protocol
 PGeolocationRequest
 {
 manager
-PIFrameEmbedding
+PBrowser
 ;
 parent
 :

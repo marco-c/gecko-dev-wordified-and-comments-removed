@@ -57,7 +57,7 @@ PHttpChannelParent
 *
 AllocPHttpChannel
 (
-PIFrameEmbeddingParent
+PBrowserParent
 *
 iframeEmbedding
 )

@@ -454,7 +454,7 @@ BLOCK
 /
 include
 protocol
-PContentProcess
+PContent
 ;
 include
 protocol
@@ -466,7 +466,7 @@ PCookieService
 ;
 include
 protocol
-PIFrameEmbedding
+PBrowser
 ;
 namespace
 mozilla
@@ -548,7 +548,7 @@ protocol
 PNecko
 {
 manager
-PContentProcess
+PContent
 ;
 manages
 PHttpChannel
@@ -565,7 +565,7 @@ __delete__
 PHttpChannel
 (
 nullable
-PIFrameEmbedding
+PBrowser
 iframeEmbedding
 )
 ;

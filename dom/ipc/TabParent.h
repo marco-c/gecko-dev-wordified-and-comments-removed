@@ -11,7 +11,7 @@ mozilla
 /
 dom
 /
-PIFrameEmbeddingParent
+PBrowserParent
 .
 h
 "
@@ -211,7 +211,7 @@ class
 TabParent
 :
 public
-PIFrameEmbeddingParent
+PBrowserParent
 public
 nsITabParent
 public
@@ -259,7 +259,7 @@ aBrowserDOMWindow
 }
 virtual
 bool
-RecvmoveFocus
+RecvMoveFocus
 (
 const
 bool
@@ -269,7 +269,7 @@ aForward
 ;
 virtual
 bool
-RecvsendEvent
+RecvEvent
 (
 const
 RemoteDOMEvent
@@ -279,7 +279,7 @@ aEvent
 ;
 virtual
 bool
-RecvnotifyProgressChange
+RecvNotifyProgressChange
 (
 const
 PRInt64
@@ -301,7 +301,7 @@ aMaxTotalProgress
 ;
 virtual
 bool
-RecvnotifyStateChange
+RecvNotifyStateChange
 (
 const
 PRUint32
@@ -315,7 +315,7 @@ aStatus
 ;
 virtual
 bool
-RecvnotifyLocationChange
+RecvNotifyLocationChange
 (
 const
 nsCString
@@ -325,7 +325,7 @@ aUri
 ;
 virtual
 bool
-RecvnotifyStatusChange
+RecvNotifyStatusChange
 (
 const
 nsresult
@@ -339,7 +339,7 @@ message
 ;
 virtual
 bool
-RecvnotifySecurityChange
+RecvNotifySecurityChange
 (
 const
 PRUint32
@@ -349,7 +349,7 @@ aState
 ;
 virtual
 bool
-RecvrefreshAttempted
+RecvRefreshAttempted
 (
 const
 nsCString
@@ -370,9 +370,9 @@ aAllowRefresh
 ;
 virtual
 bool
-AnswercreateWindow
+AnswerCreateWindow
 (
-PIFrameEmbeddingParent
+PBrowserParent
 *
 *
 retval
@@ -380,7 +380,7 @@ retval
 ;
 virtual
 bool
-RecvsendSyncMessageToParent
+RecvSyncMessage
 (
 const
 nsString
@@ -400,7 +400,7 @@ aJSONRetVal
 ;
 virtual
 bool
-RecvsendAsyncMessageToParent
+RecvAsyncMessage
 (
 const
 nsString

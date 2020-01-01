@@ -18,7 +18,7 @@ namespace
 dom
 {
 class
-PContentProcessParent
+PContentParent
 ;
 }
 }
@@ -160,7 +160,7 @@ mozilla
 dom
 :
 :
-PContentProcessParent
+PContentParent
 *
 aChild
 )

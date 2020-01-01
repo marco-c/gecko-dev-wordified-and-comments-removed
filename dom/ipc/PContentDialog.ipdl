@@ -433,7 +433,7 @@ BLOCK
 /
 include
 protocol
-PIFrameEmbedding
+PBrowser
 ;
 include
 "
@@ -454,7 +454,7 @@ protocol
 PContentDialog
 {
 manager
-PIFrameEmbedding
+PBrowser
 ;
 child
 :

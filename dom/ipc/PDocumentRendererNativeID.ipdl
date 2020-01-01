@@ -419,7 +419,7 @@ BLOCK
 /
 include
 protocol
-PIFrameEmbedding
+PBrowser
 ;
 namespace
 mozilla
@@ -431,7 +431,7 @@ protocol
 PDocumentRendererNativeID
 {
 manager
-PIFrameEmbedding
+PBrowser
 ;
 parent
 :

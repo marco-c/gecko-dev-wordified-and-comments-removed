@@ -1,9 +1,9 @@
 #
 ifndef
-dom_tabs_ContentProcessThread_h
+dom_tabs_ContentThread_h
 #
 define
-dom_tabs_ContentProcessThread_h
+dom_tabs_ContentThread_h
 1
 #
 include
@@ -30,7 +30,7 @@ h
 #
 include
 "
-ContentProcessChild
+ContentChild
 .
 h
 "
@@ -47,7 +47,7 @@ printf
 (
 "
 [
-ContentProcessProcess
+ContentProcess
 ]
 %
 s
@@ -61,7 +61,7 @@ namespace
 dom
 {
 class
-ContentProcessProcess
+ContentProcess
 :
 public
 mozilla
@@ -84,7 +84,7 @@ ProcessChild
 ;
 public
 :
-ContentProcessProcess
+ContentProcess
 (
 ProcessHandle
 mParentHandle
@@ -97,7 +97,7 @@ mParentHandle
 {
 }
 ~
-ContentProcessProcess
+ContentProcess
 (
 )
 {
@@ -118,8 +118,8 @@ CleanUp
 ;
 private
 :
-ContentProcessChild
-mContentProcess
+ContentChild
+mContent
 ;
 mozilla
 :
@@ -132,7 +132,7 @@ mXREEmbed
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (
-ContentProcessProcess
+ContentProcess
 )
 ;
 }

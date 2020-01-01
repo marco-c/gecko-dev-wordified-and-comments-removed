@@ -428,7 +428,7 @@ BLOCK
 /
 include
 protocol
-PContentProcess
+PContent
 ;
 include
 protocol
@@ -449,7 +449,7 @@ protocol
 PTestShell
 {
 manager
-PContentProcess
+PContent
 ;
 manages
 PTestShellCommand

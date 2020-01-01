@@ -12,7 +12,7 @@ h
 #
 include
 "
-ContentProcessProcess
+ContentProcess
 .
 h
 "
@@ -32,14 +32,14 @@ namespace
 dom
 {
 bool
-ContentProcessProcess
+ContentProcess
 :
 :
 Init
 (
 )
 {
-mContentProcess
+mContent
 .
 Init
 (
@@ -71,7 +71,7 @@ true
 ;
 }
 void
-ContentProcessProcess
+ContentProcess
 :
 :
 CleanUp

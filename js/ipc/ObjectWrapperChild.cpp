@@ -2092,7 +2092,7 @@ v
 return
 false
 ;
-jsint
+jsuint
 i
 =
 JSVAL_TO_INT
