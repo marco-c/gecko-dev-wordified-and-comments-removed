@@ -1295,6 +1295,10 @@ test_bug827126
 .
 html
 \
+test_bug827426
+.
+html
+\
 test_iframe_sandbox_inheritance
 .
 html
