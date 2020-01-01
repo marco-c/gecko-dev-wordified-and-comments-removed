@@ -118,7 +118,7 @@ AutoSetLoadingToFalse
 ;
 friend
 class
-InDocCheckEvent
+CheckPluginStopEvent
 ;
 friend
 class
@@ -811,6 +811,12 @@ nsCOMPtr
 nsIRunnable
 >
 mPendingInstantiateEvent
+;
+nsCOMPtr
+<
+nsIRunnable
+>
+mPendingCheckPluginStopEvent
 ;
 nsCString
 mContentType
