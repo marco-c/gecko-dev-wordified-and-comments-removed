@@ -4197,7 +4197,8 @@ const
 nsRect
 &
 aOldOverflowRect
-nsHTMLReflowMetrics
+const
+nsSize
 &
 aNewDesiredSize
 )
@@ -4248,6 +4249,9 @@ const
 nsSize
 &
 aNewSize
+PRBool
+*
+aHasOutlineOrEffects
 )
 ;
 virtual
