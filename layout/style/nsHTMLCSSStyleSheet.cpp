@@ -432,11 +432,6 @@ aData
 >
 mContent
 ;
-if
-(
-content
-)
-{
 nsICSSStyleRule
 *
 rule
@@ -492,7 +487,6 @@ rule
 ;
 #
 endif
-}
 return
 NS_OK
 ;
