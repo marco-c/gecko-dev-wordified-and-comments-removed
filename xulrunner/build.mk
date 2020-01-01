@@ -551,8 +551,6 @@ installer
 yet
 .
 "
-exit
-1
 package
 :
 (
