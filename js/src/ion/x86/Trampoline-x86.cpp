@@ -1363,7 +1363,6 @@ masm
 .
 linkExitFrame
 (
-edx
 )
 ;
 Label
@@ -1689,7 +1688,6 @@ masm
 .
 linkExitFrame
 (
-edx
 )
 ;
 Register
@@ -1807,9 +1805,16 @@ masm
 .
 movl
 (
-ImmWord
+Operand
+(
+&
+JS_THREAD_DATA
 (
 cx
+)
+-
+>
+ionTop
 )
 cxreg
 )

@@ -529,6 +529,10 @@ uint8
 *
 ionTop
 ;
+JSContext
+*
+ionJSContext
+;
 #
 ifdef
 DEBUG
