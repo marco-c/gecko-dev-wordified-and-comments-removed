@@ -226,6 +226,14 @@ selectAtPoint
 .
 html
 \
+test_bug799299
+.
+xul
+\
+file_bug799299
+.
+xul
+\
 (
 NULL
 )
