@@ -8080,6 +8080,7 @@ ifdef
 XP_MACOSX
 if
 (
+(
 anEvent
 -
 >
@@ -8087,6 +8088,16 @@ message
 =
 =
 NS_MOUSE_ENTER
+|
+|
+anEvent
+-
+>
+message
+=
+=
+NS_MOUSE_SCROLL
+)
 &
 &
 mInstanceOwner
