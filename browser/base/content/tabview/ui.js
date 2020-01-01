@@ -136,12 +136,6 @@ init
 (
 )
 ;
-StoragePolicy
-.
-init
-(
-)
-;
 if
 (
 Storage
@@ -953,7 +947,7 @@ uninit
 (
 )
 ;
-StoragePolicy
+ThumbnailStorage
 .
 uninit
 (
