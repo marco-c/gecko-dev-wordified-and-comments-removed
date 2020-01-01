@@ -439,10 +439,6 @@ mBuffer
 nsIntRegion
 mRegionPendingUpload
 ;
-CancelableTask
-*
-mUploadTask
-;
 ShadowThebesLayerBufferOGL
 mFrontBuffer
 ;
