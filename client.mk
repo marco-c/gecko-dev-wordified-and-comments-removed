@@ -2740,9 +2740,7 @@ TOPSRCDIR
 /
 build
 /
-virtualenv
-/
-packages
+virtualenv_packages
 .
 txt
 \
@@ -2750,11 +2748,13 @@ txt
 TOPSRCDIR
 )
 /
-build
+python
+/
+mozbuild
+/
+mozbuild
 /
 virtualenv
-/
-populate_virtualenv
 .
 py
 \

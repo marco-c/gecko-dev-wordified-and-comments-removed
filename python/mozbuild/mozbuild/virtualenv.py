@@ -2318,6 +2318,9 @@ topobjdir
 self
 .
 virtualenv_root
+self
+.
+manifest_path
 ]
         
 result
@@ -2630,7 +2633,7 @@ sys
 argv
 )
 <
-4
+5
 :
         
 print
@@ -2659,6 +2662,12 @@ path
 to
 /
 virtualenv
+/
+path
+/
+to
+/
+virtualenv_manifest
 '
 )
         
@@ -2677,30 +2686,17 @@ stdout
 )
     
 topsrcdir
+topobjdir
+virtualenv_path
+manifest_path
 =
 sys
 .
 argv
 [
 1
-]
-    
-topobjdir
-=
-sys
-.
-argv
-[
-2
-]
-    
-virtualenv_path
-=
-sys
-.
-argv
-[
-3
+:
+5
 ]
     
 populate
@@ -2726,53 +2722,17 @@ populate
 True
         
 topsrcdir
+topobjdir
+virtualenv_path
+manifest_path
 =
 sys
 .
 argv
 [
 2
+:
 ]
-        
-topobjdir
-=
-sys
-.
-argv
-[
-3
-]
-        
-virtualenv_path
-=
-sys
-.
-argv
-[
-4
-]
-    
-manifest_path
-=
-os
-.
-path
-.
-join
-(
-topsrcdir
-'
-build
-'
-'
-virtualenv
-'
-'
-packages
-.
-txt
-'
-)
     
 manager
 =
