@@ -2554,7 +2554,10 @@ ffi_call
 (
 &
 mCIF
+FFI_FN
+(
 mFunc
+)
 resultValue
 .
 mData
