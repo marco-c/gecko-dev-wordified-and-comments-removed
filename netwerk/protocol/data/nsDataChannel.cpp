@@ -140,6 +140,7 @@ nsCString
 contentType
 contentCharset
 dataBuffer
+hashRef
 ;
 PRBool
 lBase64
@@ -156,6 +157,7 @@ contentType
 contentCharset
 lBase64
 dataBuffer
+hashRef
 )
 ;
 NS_UnescapeURL
