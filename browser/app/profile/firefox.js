@@ -1448,6 +1448,12 @@ updateType
 %
 UPDATE_TYPE
 %
+&
+compatMode
+=
+%
+COMPATIBILITY_MODE
+%
 "
 )
 ;

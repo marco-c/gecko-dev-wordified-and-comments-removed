@@ -5693,6 +5693,8 @@ AR_findMatchingCompatOverride
 (
 aAddonVersion
 aCompatOverrides
+aAppVersion
+aPlatformVersion
 )
 {
 for
@@ -5737,6 +5739,9 @@ TOOLKIT_ID
 )
 appVersion
 =
+aPlatformVersion
+|
+|
 Services
 .
 appinfo
@@ -5746,6 +5751,9 @@ platformVersion
 else
 appVersion
 =
+aAppVersion
+|
+|
 Services
 .
 appinfo
