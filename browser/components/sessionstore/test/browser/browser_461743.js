@@ -81,7 +81,9 @@ loaded
 "
 )
 ;
-this
+tab
+.
+linkedBrowser
 .
 removeEventListener
 (

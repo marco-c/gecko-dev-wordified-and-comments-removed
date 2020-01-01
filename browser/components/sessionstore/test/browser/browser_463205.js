@@ -78,7 +78,9 @@ frameCount
 )
 return
 ;
-this
+tab
+.
+linkedBrowser
 .
 removeEventListener
 (
@@ -244,7 +246,9 @@ frameCount
 )
 return
 ;
-this
+tab2
+.
+linkedBrowser
 .
 removeEventListener
 (
