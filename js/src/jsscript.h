@@ -1058,6 +1058,11 @@ hasSingletons
 1
 ;
 bool
+isActiveEval
+:
+1
+;
+bool
 isCachedEval
 :
 1
