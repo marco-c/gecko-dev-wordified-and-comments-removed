@@ -40,8 +40,6 @@ public
 nsIDOMScriptObjectFactory
 public
 nsIObserver
-public
-nsIExceptionProvider
 {
 public
 :
@@ -51,7 +49,6 @@ nsDOMScriptObjectFactory
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
-NS_DECL_NSIEXCEPTIONPROVIDER
 NS_IMETHOD
 GetScriptRuntime
 (
@@ -167,5 +164,17 @@ mLanguageArray
 NS_STID_ARRAY_UBOUND
 ]
 ;
+}
+;
+class
+nsDOMExceptionProvider
+:
+public
+nsIExceptionProvider
+{
+public
+:
+NS_DECL_ISUPPORTS
+NS_DECL_NSIEXCEPTIONPROVIDER
 }
 ;
