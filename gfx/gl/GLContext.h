@@ -3997,7 +3997,7 @@ i
 {
 if
 (
-strcasecmp
+strcmp
 (
 cur
 extList
