@@ -655,6 +655,15 @@ selectHelperResize
 (
 )
 {
+if
+(
+!
+this
+.
+_list
+)
+return
+;
 this
 .
 showFilter

@@ -1225,6 +1225,9 @@ _delayedInit
 false
 )
 ;
+#
+ifdef
+ANDROID
 let
 alertsService
 =
@@ -1273,6 +1276,8 @@ onCancel
 ADDONS_NOTIFICATION_NAME
 )
 ;
+#
+endif
 }
 _delayedInit
 :
