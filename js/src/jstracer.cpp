@@ -13285,6 +13285,8 @@ DEBUG
 debug_only_printf
 (
 LC_TMMinimal
+|
+LC_TMAbort
 "
 Abort
 recording
