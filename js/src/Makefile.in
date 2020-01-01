@@ -699,14 +699,6 @@ jsapi
 .
 h
 \
-jsatom
-.
-h
-\
-jsatom
-.
-tbl
-\
 jsclass
 .
 h

@@ -25,13 +25,6 @@ qsObjectHelper
 .
 h
 "
-#
-include
-"
-jsatom
-.
-h
-"
 class
 XPCCallContext
 ;

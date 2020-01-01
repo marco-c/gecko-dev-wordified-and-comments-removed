@@ -14,7 +14,7 @@ h
 #
 include
 "
-jsatom
+jsfriendapi
 .
 h
 "
