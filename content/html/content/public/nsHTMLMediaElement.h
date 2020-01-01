@@ -119,7 +119,7 @@ nsHTMLMediaElement
 nsINodeInfo
 *
 aNodeInfo
-PRBool
+PRUint32
 aFromParser
 =
 0
