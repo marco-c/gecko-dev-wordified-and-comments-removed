@@ -6574,8 +6574,6 @@ const
 nsACString
 &
 genericName
-PRBool
-aUseFontSet
 void
 *
 closure
@@ -6650,9 +6648,6 @@ mUserFontSet
 ;
 if
 (
-aUseFontSet
-&
-&
 genericName
 .
 Length
@@ -6833,7 +6828,6 @@ mFamilies
 aLanguage
 PR_TRUE
 PR_FALSE
-PR_TRUE
 FamilyCallback
 &
 data

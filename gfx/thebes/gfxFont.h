@@ -6870,8 +6870,6 @@ const
 nsACString
 &
 aGenericName
-PRBool
-aUseFontSet
 void
 *
 closure
@@ -7179,8 +7177,6 @@ PRBool
 aResolveGeneric
 PRBool
 aResolveFontName
-PRBool
-aUseFontSet
 FontCreationCallback
 fc
 void
@@ -7213,8 +7209,6 @@ const
 nsACString
 &
 aGenericName
-PRBool
-aUseFontSet
 void
 *
 closure
