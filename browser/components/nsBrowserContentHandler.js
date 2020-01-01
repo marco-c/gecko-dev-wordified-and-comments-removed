@@ -2858,7 +2858,7 @@ if
 (
 cmdLine
 .
-findFlag
+handleFlag
 (
 "
 private
@@ -2867,9 +2867,6 @@ window
 "
 false
 )
->
-=
-0
 )
 {
 openWindow
