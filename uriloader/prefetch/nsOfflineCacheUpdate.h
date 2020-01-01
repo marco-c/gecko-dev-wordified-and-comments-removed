@@ -839,6 +839,11 @@ FinishNoNotify
 (
 )
 ;
+void
+AsyncFinishWithError
+(
+)
+;
 nsresult
 EvictOneNonPinned
 (
@@ -1127,6 +1132,9 @@ mDisabled
 ;
 bool
 mUpdateRunning
+;
+bool
+mLowFreeSpace
 ;
 }
 ;
