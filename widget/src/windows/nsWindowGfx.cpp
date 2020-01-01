@@ -792,6 +792,10 @@ sSharedSurfaceData
 =
 nsnull
 ;
+if
+(
+glpDD
+)
 glpDD
 -
 >
