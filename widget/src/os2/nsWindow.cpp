@@ -2440,6 +2440,15 @@ gRollupListener
 >
 Rollup
 (
+inMsg
+=
+=
+WM_LBUTTONDOWN
+?
+&
+mLastRollup
+:
+nsnull
 )
 ;
 if
@@ -2656,6 +2665,9 @@ MPARAM
 mp2
 )
 {
+nsAutoRollup
+autoRollup
+;
 MRESULT
 popupHandlingResult
 ;
@@ -2931,6 +2943,7 @@ gRollupListener
 >
 Rollup
 (
+nsnull
 )
 ;
 }
@@ -4204,6 +4217,7 @@ gRollupListener
 >
 Rollup
 (
+nsnull
 )
 ;
 }

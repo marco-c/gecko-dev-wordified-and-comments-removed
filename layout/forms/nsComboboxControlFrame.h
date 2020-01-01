@@ -572,6 +572,10 @@ aNewIndex
 NS_IMETHOD
 Rollup
 (
+nsIContent
+*
+*
+aLastRolledUp
 )
 ;
 NS_IMETHOD

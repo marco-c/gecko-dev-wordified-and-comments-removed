@@ -714,6 +714,7 @@ gRollupListener
 >
 Rollup
 (
+nsnull
 )
 ;
 }

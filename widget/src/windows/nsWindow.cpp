@@ -4532,6 +4532,9 @@ LPARAM
 lParam
 )
 {
+nsAutoRollup
+autoRollup
+;
 LRESULT
 popupHandlingResult
 ;
@@ -5648,6 +5651,7 @@ gRollupListener
 >
 Rollup
 (
+nsnull
 )
 ;
 CaptureRollupEvents
@@ -32336,6 +32340,9 @@ gRollupMsgId
 LRESULT
 popupHandlingResult
 ;
+nsAutoRollup
+autoRollup
+;
 DealWithPopups
 (
 gRollupMsgWnd
@@ -32789,6 +32796,15 @@ gRollupListener
 >
 Rollup
 (
+inMsg
+=
+=
+WM_LBUTTONDOWN
+?
+&
+mLastRollup
+:
+nsnull
 )
 ;
 gProcessHook

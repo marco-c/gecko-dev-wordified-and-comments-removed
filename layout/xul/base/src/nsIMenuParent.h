@@ -108,17 +108,6 @@ MenuClosed
 =
 0
 ;
-virtual
-PRBool
-IsRecentlyClosed
-(
-nsMenuFrame
-*
-aMenuFrame
-)
-=
-0
-;
 }
 ;
 #

@@ -14765,6 +14765,7 @@ gRollupListener
 >
 Rollup
 (
+nsnull
 )
 ;
 retVal

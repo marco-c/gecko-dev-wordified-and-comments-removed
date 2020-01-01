@@ -236,10 +236,6 @@ mCurrentMenu
 (
 nsnull
 )
-mRecentlyClosedMenu
-(
-nsnull
-)
 mTarget
 (
 nsnull
@@ -1286,10 +1282,6 @@ mCurrentMenu
 =
 aMenuItem
 ;
-mRecentlyClosedMenu
-=
-nsnull
-;
 return
 NS_OK
 ;
@@ -1764,11 +1756,6 @@ mIsActive
 mCurrentMenu
 )
 {
-SetRecentlyClosed
-(
-mCurrentMenu
-)
-;
 mCurrentMenu
 -
 >
