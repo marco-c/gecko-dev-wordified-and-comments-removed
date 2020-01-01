@@ -33,10 +33,9 @@ h
 >
 #
 if
-!
 defined
 (
-MOZ_PLATFORM_MAEMO
+GL_PROVIDER_GLX
 )
 #
 include
@@ -296,10 +295,9 @@ const
 ;
 #
 if
-!
 defined
 (
-MOZ_PLATFORM_MAEMO
+GL_PROVIDER_GLX
 )
 GLXPixmap
 GetGLXPixmap
@@ -353,10 +351,9 @@ mSize
 ;
 #
 if
-!
 defined
 (
-MOZ_PLATFORM_MAEMO
+GL_PROVIDER_GLX
 )
 GLXPixmap
 mGLXPixmap
