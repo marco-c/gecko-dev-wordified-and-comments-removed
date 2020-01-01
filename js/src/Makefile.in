@@ -1378,6 +1378,10 @@ BaselineCompiler
 .
 cpp
 \
+BaselineIC
+.
+cpp
+\
 BaselineFrameInfo
 .
 cpp
