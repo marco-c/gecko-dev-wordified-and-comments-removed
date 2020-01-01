@@ -5623,8 +5623,6 @@ script
 )
 )
 ;
-if
-(
 uintN
 n
 =
@@ -5633,6 +5631,12 @@ bindings
 countArgsAndVars
 (
 )
+;
+if
+(
+n
+>
+0
 )
 {
 JS_ASSERT
