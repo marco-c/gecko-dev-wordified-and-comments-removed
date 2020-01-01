@@ -412,7 +412,6 @@ nsIDOMGeoPositionErrorCallback
 ;
 [
 scriptable
-function
 uuid
 (
 37687DAF
