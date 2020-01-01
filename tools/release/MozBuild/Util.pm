@@ -1108,7 +1108,7 @@ timeout
 ;
 childStartedTime
 =
-localtime
+time
 (
 )
 ;
@@ -1605,7 +1605,7 @@ alarm
 ;
 childEndedTime
 =
-localtime
+time
 (
 )
 ;
