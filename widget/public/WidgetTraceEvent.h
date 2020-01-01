@@ -22,6 +22,11 @@ FireAndWaitForTracerEvent
 (
 )
 ;
+void
+SignalTracerThread
+(
+)
+;
 }
 #
 endif

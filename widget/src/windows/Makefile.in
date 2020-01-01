@@ -519,6 +519,10 @@ GfxInfo
 .
 cpp
 \
+WidgetTraceEvent
+.
+cpp
+\
 (
 NULL
 )
