@@ -1940,7 +1940,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 gfxMatrix
-m
+userSpaceToFilterSpace
 =
 nsSVGUtils
 :
@@ -1966,6 +1966,11 @@ neededRect
 .
 height
 )
+;
+gfxMatrix
+m
+=
+userSpaceToFilterSpace
 ;
 m
 .
@@ -2014,6 +2019,18 @@ rv
 return
 rv
 ;
+tmpState
+.
+GetGfxContext
+(
+)
+-
+>
+Multiply
+(
+userSpaceToFilterSpace
+)
+;
 mPaintCallback
 -
 >
@@ -2024,7 +2041,6 @@ tmpState
 mTargetFrame
 &
 dirty
-userSpaceToFilterSpaceTransform
 )
 ;
 gfxContext

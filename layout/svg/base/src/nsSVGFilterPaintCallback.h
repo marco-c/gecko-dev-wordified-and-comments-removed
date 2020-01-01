@@ -39,9 +39,6 @@ const
 nsIntRect
 *
 aDirtyRect
-nsIDOMSVGMatrix
-*
-aTransform
 )
 =
 0
