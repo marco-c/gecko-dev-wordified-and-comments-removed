@@ -246,7 +246,7 @@ aOverride
 )
 ;
 NS_OVERRIDE
-void
+nsresult
 UpdateSelectedLocale
 (
 )

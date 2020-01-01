@@ -1103,7 +1103,7 @@ CONTENT_NOT_IMPLEMENTED
 )
 ;
 }
-void
+nsresult
 nsChromeRegistryContent
 :
 :
@@ -1111,7 +1111,7 @@ UpdateSelectedLocale
 (
 )
 {
-CONTENT_NOTREACHED
+CONTENT_NOT_IMPLEMENTED
 (
 )
 ;
