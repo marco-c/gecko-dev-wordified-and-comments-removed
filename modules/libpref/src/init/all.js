@@ -753,7 +753,7 @@ pref
 "
 accessibility
 .
-browserwithcaret_shortcut
+browsewithcaret_shortcut
 .
 enabled
 "
