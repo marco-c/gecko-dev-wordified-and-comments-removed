@@ -97,6 +97,10 @@ PTestRacyRPCReplies
 .
 ipdl
 \
+PTestRacyUndefer
+.
+ipdl
+\
 PTestRPCErrorCleanup
 .
 ipdl

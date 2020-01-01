@@ -507,6 +507,8 @@ TestRacyReentry
 \
 TestRacyRPCReplies
 \
+TestRacyUndefer
+\
 TestSanity
 \
 TestSelfManageRoot
