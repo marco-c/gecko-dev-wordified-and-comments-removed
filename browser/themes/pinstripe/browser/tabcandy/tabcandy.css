@@ -669,11 +669,7 @@ group
 {
 position
 :
-relative
-;
-float
-:
-left
+absolute
 ;
 cursor
 :
