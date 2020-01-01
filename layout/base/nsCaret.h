@@ -424,10 +424,8 @@ mDrawn
 mDrawn
 ;
 }
-already_AddRefed
-<
 nsFrameSelection
->
+*
 GetFrameSelection
 (
 )

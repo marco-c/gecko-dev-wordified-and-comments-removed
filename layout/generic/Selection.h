@@ -133,6 +133,17 @@ GetPresShell
 )
 const
 ;
+nsFrameSelection
+*
+GetFrameSelection
+(
+)
+const
+{
+return
+mFrameSelection
+;
+}
 nsIFrame
 *
 GetSelectionAnchorGeometry
