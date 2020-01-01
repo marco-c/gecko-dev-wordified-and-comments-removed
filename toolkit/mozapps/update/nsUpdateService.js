@@ -423,7 +423,7 @@ silent
 "
 ;
 const
-PREF_APP_UPDATE_BACKGROUND
+PREF_APP_UPDATE_STAGE_ENABLED
 =
 "
 app
@@ -2327,7 +2327,7 @@ getPref
 "
 getBoolPref
 "
-PREF_APP_UPDATE_BACKGROUND
+PREF_APP_UPDATE_STAGE_ENABLED
 false
 )
 )
@@ -2345,7 +2345,7 @@ by
 preference
 "
 +
-PREF_APP_UPDATE_BACKGROUND
+PREF_APP_UPDATE_STAGE_ENABLED
 )
 ;
 return
@@ -7255,6 +7255,16 @@ _sendBoolPrefTelemetryPing
 PREF_APP_UPDATE_AUTO
 "
 UPDATER_UPDATES_AUTOMATIC
+"
+)
+;
+this
+.
+_sendBoolPrefTelemetryPing
+(
+PREF_APP_UPDATE_STAGE_ENABLED
+"
+UPDATER_STAGE_ENABLED
 "
 )
 ;
@@ -14547,7 +14557,7 @@ getPref
 "
 getBoolPref
 "
-PREF_APP_UPDATE_BACKGROUND
+PREF_APP_UPDATE_STAGE_ENABLED
 false
 )
 ;
