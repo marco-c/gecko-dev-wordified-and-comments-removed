@@ -1414,7 +1414,9 @@ break
 case
 m
 :
-onMouseUp
+bv
+.
+resumeRendering
 (
 )
 ;
