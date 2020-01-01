@@ -935,7 +935,7 @@ onchange
 "
 gMainPane
 .
-readDownloadDirPref
+displayDownloadDirPref
 (
 )
 ;
