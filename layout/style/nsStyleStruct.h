@@ -769,6 +769,12 @@ IsComplete
 const
 ;
 bool
+IsLoaded
+(
+)
+const
+;
+bool
 IsEmpty
 (
 )

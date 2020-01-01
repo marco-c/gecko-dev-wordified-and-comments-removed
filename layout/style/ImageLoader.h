@@ -1,4 +1,10 @@
 #
+ifndef
+mozilla_css_ImageLoader_h___
+#
+define
+mozilla_css_ImageLoader_h___
+#
 include
 "
 nsClassHashtable
@@ -371,3 +377,5 @@ mInClone
 ;
 }
 }
+#
+endif
