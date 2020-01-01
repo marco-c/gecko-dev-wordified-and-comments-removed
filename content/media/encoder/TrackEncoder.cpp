@@ -329,11 +329,6 @@ mCanceled
 &
 !
 mInitialized
-&
-&
-mSilentDuration
->
-0
 )
 {
 Init
