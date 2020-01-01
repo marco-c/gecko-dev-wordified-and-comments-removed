@@ -491,10 +491,6 @@ browser_bug_416303
 .
 js
 \
-browser_multiword_search
-.
-js
-\
 (
 NULL
 )
@@ -532,6 +528,10 @@ _BROWSER_FILES
 =
 \
 browser_cleanup_search
+.
+js
+\
+browser_multiword_search
 .
 js
 \
