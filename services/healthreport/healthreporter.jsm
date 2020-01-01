@@ -2332,9 +2332,12 @@ recordMessage
 :
 "
 +
-ex
+CommonUtils
 .
-message
+exceptionStr
+(
+ex
+)
 ;
 logMessage
 +
