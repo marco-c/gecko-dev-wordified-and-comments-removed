@@ -754,6 +754,14 @@ SWITCH_HEADPHONES
 )
 )
 ;
+NotifyHeadphonesStatus
+(
+GetCurrentSwitchState
+(
+SWITCH_HEADPHONES
+)
+)
+;
 }
 AudioManager
 :
