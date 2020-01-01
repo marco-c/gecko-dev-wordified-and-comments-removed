@@ -112,7 +112,7 @@ MOZCONFIG
 in
 env
 :
-      
+        
 d
 [
 "
@@ -134,7 +134,7 @@ TOPSRCDIR
 in
 env
 :
-      
+        
 d
 [
 "
@@ -265,7 +265,7 @@ MOZ_APP_NAME
 in
 env
 :
-      
+        
 d
 [
 "
