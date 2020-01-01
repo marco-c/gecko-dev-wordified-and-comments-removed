@@ -944,7 +944,7 @@ commandset
 id
 =
 "
-cmdset_main
+mainCommandSet
 "
 >
 <
