@@ -1784,6 +1784,8 @@ extensions
 ;
 PRBool
 hasKHRImage
+=
+PR_FALSE
 ;
 if
 (
