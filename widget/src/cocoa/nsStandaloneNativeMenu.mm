@@ -959,7 +959,7 @@ i
 +
 )
 {
-NSUInteger
+NSInteger
 targetIndex
 =
 [
@@ -969,7 +969,7 @@ objectAtIndex
 :
 i
 ]
-intValue
+integerValue
 ]
 ;
 NSInteger
