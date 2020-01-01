@@ -577,7 +577,7 @@ global
 js
 :
 :
-GetDefaultGlobalForContext
+DefaultObjectForContextOrNull
 (
 cx
 )

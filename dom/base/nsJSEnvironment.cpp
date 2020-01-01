@@ -7059,7 +7059,7 @@ return
 js
 :
 :
-GetDefaultGlobalForContext
+DefaultObjectForContextOrNull
 (
 mContext
 )

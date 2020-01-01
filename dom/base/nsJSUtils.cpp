@@ -557,7 +557,7 @@ aContext
 js
 :
 :
-GetDefaultGlobalForContext
+DefaultObjectForContextOrNull
 (
 aContext
 )

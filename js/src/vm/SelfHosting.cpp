@@ -3694,7 +3694,7 @@ cx
 js
 :
 :
-GetDefaultGlobalForContext
+DefaultObjectForContextOrNull
 (
 cx
 )

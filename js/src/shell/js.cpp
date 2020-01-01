@@ -14155,7 +14155,7 @@ ac
 construct
 (
 cx
-GetDefaultGlobalForContext
+DefaultObjectForContextOrNull
 (
 cx
 )
