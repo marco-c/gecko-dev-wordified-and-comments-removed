@@ -401,6 +401,9 @@ DEPTH
 /
 .
 .
+/
+.
+.
 topsrcdir
 =
 top_srcdir
@@ -423,6 +426,8 @@ ajax
 offline
 /
 namespace1
+/
+sub2
 include
 (
 DEPTH
@@ -433,10 +438,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-sub
-sub2
 include
 (
 topsrcdir
@@ -450,9 +451,9 @@ mk
 _TEST_FILES
 =
 \
-opp
+script2
 .
-html
+js
 \
 (
 NULL

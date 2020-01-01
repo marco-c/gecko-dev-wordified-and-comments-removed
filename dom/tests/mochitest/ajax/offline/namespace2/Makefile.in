@@ -422,7 +422,7 @@ ajax
 /
 offline
 /
-namespace1
+namespace2
 include
 (
 DEPTH
@@ -433,10 +433,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-sub
-sub2
 include
 (
 topsrcdir
@@ -450,9 +446,9 @@ mk
 _TEST_FILES
 =
 \
-opp
+script3
 .
-html
+js
 \
 (
 NULL
