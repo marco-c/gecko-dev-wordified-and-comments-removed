@@ -144,6 +144,9 @@ trynotesOffset
 uint8
 loopHeaders
 ;
+uint32
+loopBase
+;
 jsbytecode
 *
 main
