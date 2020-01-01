@@ -35809,7 +35809,6 @@ png
 gif
 jpeg
 bmp
-xbm
 icon
 "
 MOZ_IMG_ENCODERS_DEFAULT

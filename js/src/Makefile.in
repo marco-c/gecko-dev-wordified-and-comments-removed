@@ -1885,9 +1885,9 @@ js
 config
 .
 h
-mozilla
+js
 -
-config
+confdefs
 .
 h
 distclean
