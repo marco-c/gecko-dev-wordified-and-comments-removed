@@ -2589,7 +2589,7 @@ pumpMessageLoop
 "
 (
 )
-Z
+V
 "
 )
 ;
@@ -13017,7 +13017,7 @@ jUnlockScreenOrientation
 )
 ;
 }
-bool
+void
 AndroidBridge
 :
 :
@@ -13042,7 +13042,6 @@ if
 env
 )
 return
-false
 ;
 AutoLocalJNIFrame
 jniFrame
@@ -13065,13 +13064,11 @@ pthread_self
 mThread
 )
 return
-false
 ;
-return
 env
 -
 >
-CallStaticBooleanMethod
+CallStaticVoidMethod
 (
 mGeckoAppShellClass
 jPumpMessageLoop
