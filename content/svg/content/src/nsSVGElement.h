@@ -114,9 +114,6 @@ class
 nsSVGViewBox
 ;
 class
-nsSVGPreserveAspectRatio
-;
-class
 nsSVGString
 ;
 struct
@@ -143,7 +140,17 @@ SVGAnimatedPointList
 class
 SVGAnimatedPathSegList
 ;
+class
+SVGAnimatedPreserveAspectRatio
+;
 }
+typedef
+mozilla
+:
+:
+SVGAnimatedPreserveAspectRatio
+nsSVGPreserveAspectRatio
+;
 typedef
 nsStyledElement
 nsSVGElementBase

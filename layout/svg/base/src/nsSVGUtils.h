@@ -107,9 +107,6 @@ class
 nsSVGOuterSVGFrame
 ;
 class
-nsSVGPreserveAspectRatio
-;
-class
 nsIAtom
 ;
 class
@@ -160,6 +157,9 @@ nsSVGDisplayContainerFrame
 namespace
 mozilla
 {
+class
+SVGAnimatedPreserveAspectRatio
+;
 namespace
 dom
 {
@@ -168,6 +168,13 @@ Element
 ;
 }
 }
+typedef
+mozilla
+:
+:
+SVGAnimatedPreserveAspectRatio
+nsSVGPreserveAspectRatio
+;
 #
 ifndef
 M_PI
