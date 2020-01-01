@@ -856,16 +856,7 @@ void
 DisconnectFromPresShell
 (
 )
-{
-StopAutoScrollTimer
-(
-)
 ;
-mShell
-=
-nsnull
-;
-}
 private
 :
 nsresult
