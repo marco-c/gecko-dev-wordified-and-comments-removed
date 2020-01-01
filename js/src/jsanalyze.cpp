@@ -325,8 +325,6 @@ currentOffset
 {
 isJaegerInlineable
 =
-isIonInlineable
-=
 false
 ;
 hasLoops_
