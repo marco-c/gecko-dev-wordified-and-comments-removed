@@ -1,5 +1,6 @@
 const
 {
+components
 Cc
 Ci
 Cu
@@ -514,7 +515,7 @@ aRequest
 if
 (
 !
-Components
+components
 .
 isSuccessCode
 (
