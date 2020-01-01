@@ -176,6 +176,16 @@ JSObject
 k
 )
 {
+JS_ASSERT
+(
+k
+-
+>
+isCrossCompartmentWrapper
+(
+)
+)
+;
 return
 k
 -
