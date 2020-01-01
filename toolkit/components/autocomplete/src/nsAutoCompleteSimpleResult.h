@@ -77,6 +77,12 @@ mValues
 nsStringArray
 mComments
 ;
+nsStringArray
+mImages
+;
+nsStringArray
+mStyles
+;
 nsString
 mSearchString
 ;
