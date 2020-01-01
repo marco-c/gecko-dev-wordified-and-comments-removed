@@ -704,7 +704,7 @@ fp
 =
 f
 .
-entryFp
+entryfp
 )
 ;
 JS_ASSERT
@@ -993,7 +993,7 @@ bumpCommitAndLimit
 (
 f
 .
-entryFp
+entryfp
 f
 .
 regs
@@ -1166,7 +1166,7 @@ script
 flags
 f
 .
-entryFp
+entryfp
 &
 f
 .
@@ -1623,7 +1623,7 @@ newscript
 flags
 f
 .
-entryFp
+entryfp
 &
 f
 .
@@ -2701,7 +2701,7 @@ lastFrame
 (
 f
 .
-entryFp
+entryfp
 =
 =
 f

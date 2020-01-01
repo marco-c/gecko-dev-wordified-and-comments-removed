@@ -5108,7 +5108,7 @@ bumpCommitAndLimit
 (
 f
 .
-entryFp
+entryfp
 f
 .
 regs
@@ -5188,7 +5188,7 @@ bumpCommitAndLimit
 (
 f
 .
-entryFp
+entryfp
 f
 .
 regs
