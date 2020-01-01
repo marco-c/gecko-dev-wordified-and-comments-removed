@@ -41,6 +41,13 @@ nsIAccessibleRole
 ROLE_BUTTONDROPDOWNGRID
 ;
 const
+ROLE_CANVAS
+=
+nsIAccessibleRole
+.
+ROLE_CANVAS
+;
+const
 ROLE_CAPTION
 =
 nsIAccessibleRole
