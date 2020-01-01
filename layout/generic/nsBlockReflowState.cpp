@@ -2610,6 +2610,7 @@ if
 (
 yb
 <
+=
 mY
 +
 mAvailSpaceRect
