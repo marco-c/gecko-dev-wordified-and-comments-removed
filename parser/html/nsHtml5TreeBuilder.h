@@ -218,10 +218,6 @@ tokenizer
 ;
 private
 :
-nsHtml5TreeBuilder
-*
-documentModeHandler
-;
 PRBool
 scriptingEnabled
 ;
@@ -982,15 +978,6 @@ element
 ;
 PRBool
 hasChildren
-(
-nsIContent
-*
-element
-)
-;
-nsIContent
-*
-shallowClone
 (
 nsIContent
 *

@@ -285,6 +285,12 @@ adjustForSvg
 (
 )
 ;
+nsHtml5HtmlAttributes
+*
+cloneAttributes
+(
+)
+;
 static
 void
 initializeStatics

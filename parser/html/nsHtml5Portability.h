@@ -181,6 +181,16 @@ literal
 )
 ;
 static
+nsString
+*
+newStringFromString
+(
+nsString
+*
+string
+)
+;
+static
 jArray
 <
 PRUnichar
