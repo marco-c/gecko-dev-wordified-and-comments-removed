@@ -662,7 +662,7 @@ GeckoEvent
 (
 GeckoEvent
 .
-VISTITED
+VISITED
 uri
 )
 )
