@@ -1138,7 +1138,13 @@ interfaces
 nsIFile
 .
 DIRECTORY_TYPE
+parseInt
+(
+"
 0777
+"
+8
+)
 )
 ;
 var
@@ -1341,7 +1347,13 @@ interfaces
 nsIFile
 .
 DIRECTORY_TYPE
+parseInt
+(
+"
 0777
+"
+8
+)
 )
 ;
 }
