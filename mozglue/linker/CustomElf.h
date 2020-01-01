@@ -615,6 +615,9 @@ r_addend
 ;
 }
 class
+Mappable
+;
+class
 CustomElf
 :
 public
@@ -632,8 +635,9 @@ LibHandle
 >
 Load
 (
-int
-fd
+Mappable
+*
+mappable
 const
 char
 *
@@ -717,8 +721,9 @@ const
 ;
 CustomElf
 (
-int
-fd
+Mappable
+*
+mappable
 const
 char
 *
@@ -729,9 +734,9 @@ LibHandle
 (
 path
 )
-fd
+mappable
 (
-fd
+mappable
 )
 init
 (
@@ -905,8 +910,9 @@ addr
 )
 ;
 }
-AutoCloseFD
-fd
+Mappable
+*
+mappable
 ;
 MappedPtr
 base

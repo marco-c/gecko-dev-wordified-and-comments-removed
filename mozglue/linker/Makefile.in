@@ -114,6 +114,10 @@ CustomElf
 .
 cpp
 \
+Mappable
+.
+cpp
+\
 (
 NULL
 )

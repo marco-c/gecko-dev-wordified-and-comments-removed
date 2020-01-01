@@ -698,6 +698,9 @@ DestructorCaller
 >
 destructors
 ;
+ZipCollection
+zips
+;
 }
 ;
 #
