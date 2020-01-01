@@ -7624,6 +7624,11 @@ BrowserUI
 .
 updateURI
 (
+{
+captionOnly
+:
+true
+}
 )
 ;
 let
@@ -7895,6 +7900,11 @@ BrowserUI
 .
 updateURI
 (
+{
+captionOnly
+:
+true
+}
 )
 ;
 }
@@ -7922,6 +7932,13 @@ Browser
 .
 selectedTab
 )
+{
+BrowserUI
+.
+updateURI
+(
+)
+;
 BrowserUI
 .
 update
@@ -7929,6 +7946,7 @@ update
 TOOLBARSTATE_LOADED
 )
 ;
+}
 if
 (
 aTab
