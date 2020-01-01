@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsIDOMHTMLLegendElement
-.
-h
-"
-#
-include
-"
 nsCSSRendering
 .
 h
