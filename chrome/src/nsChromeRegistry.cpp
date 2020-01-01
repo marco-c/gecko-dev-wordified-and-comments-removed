@@ -535,9 +535,6 @@ GetService
 if
 (
 !
-nsChromeRegistry
-:
-:
 gChromeRegistry
 )
 {
@@ -562,7 +559,7 @@ return
 NULL
 ;
 }
-NS_IF_ADDREF
+NS_ADDREF
 (
 gChromeRegistry
 )
