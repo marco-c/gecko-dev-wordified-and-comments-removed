@@ -5383,7 +5383,11 @@ JSOP_LSH
 )
 {
 return
+ibinary
+(
+LIR_lsh
 false
+)
 ;
 }
 bool
@@ -5395,7 +5399,11 @@ JSOP_RSH
 )
 {
 return
+ibinary
+(
+LIR_rsh
 false
+)
 ;
 }
 bool
@@ -5407,7 +5415,11 @@ JSOP_URSH
 )
 {
 return
+ibinary
+(
+LIR_ush
 false
+)
 ;
 }
 bool
