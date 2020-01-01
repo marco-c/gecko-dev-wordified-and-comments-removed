@@ -54,12 +54,6 @@ nsIconDecoder
 ;
 virtual
 void
-InitInternal
-(
-)
-;
-virtual
-void
 WriteInternal
 (
 const

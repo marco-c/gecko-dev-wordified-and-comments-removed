@@ -60,12 +60,6 @@ nsGIFDecoder2
 ;
 virtual
 void
-InitInternal
-(
-)
-;
-virtual
-void
 WriteInternal
 (
 const
