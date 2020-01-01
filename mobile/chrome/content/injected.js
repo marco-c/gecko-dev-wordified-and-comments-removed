@@ -120,9 +120,6 @@ aErrorCallback
 return
 OpenWebappsMgmt_list
 (
-window
-.
-location
 aSuccessCallback
 aErrorCallback
 )
@@ -140,9 +137,6 @@ aErrorCallback
 return
 OpenWebappsMgmt_uninstall
 (
-window
-.
-location
 aOrigin
 aSuccessCallback
 aErrorCallback

@@ -10415,7 +10415,6 @@ mgmtList
 :
 function
 (
-aFrom
 aSuccessCallback
 aErrorCallback
 )
@@ -10428,11 +10427,6 @@ OpenWebapps
 MgmtList
 "
 {
-from
-:
-aFrom
-.
-href
 callbackID
 :
 OpenWebapps
@@ -10456,7 +10450,6 @@ mgmtUninstall
 :
 function
 (
-aFrom
 aOrigin
 aSuccessCallback
 aErrorCallback
@@ -10470,11 +10463,6 @@ OpenWebapps
 MgmtUninstall
 "
 {
-from
-:
-aFrom
-.
-href
 origin
 :
 aOrigin
@@ -11173,7 +11161,6 @@ importFunction
 (
 function
 (
-aFrom
 aSuccessCallback
 aErrorCallback
 )
@@ -11182,7 +11169,6 @@ OpenWebapps
 .
 mgmtList
 (
-aFrom
 aSuccessCallback
 aErrorCallback
 )
@@ -11199,7 +11185,6 @@ importFunction
 (
 function
 (
-aFrom
 aOrigin
 aSuccessCallback
 aErrorCallback
@@ -11209,7 +11194,6 @@ OpenWebapps
 .
 mgmtUninstall
 (
-aFrom
 aOrigin
 aSuccessCallback
 aErrorCallback
