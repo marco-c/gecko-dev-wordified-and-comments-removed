@@ -1344,7 +1344,7 @@ y
 ;
 d3drect
 .
-bottom
+right
 =
 scissorRect
 .
@@ -1356,7 +1356,7 @@ width
 ;
 d3drect
 .
-right
+bottom
 =
 scissorRect
 .
