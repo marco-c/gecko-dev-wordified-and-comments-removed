@@ -15952,9 +15952,7 @@ homepageURL
 )
 openURL
 (
-uri
-.
-spec
+homepageURL
 )
 ;
 }
