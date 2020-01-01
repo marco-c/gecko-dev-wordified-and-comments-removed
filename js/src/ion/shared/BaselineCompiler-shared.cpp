@@ -233,9 +233,9 @@ Value
 ;
 masm
 .
-store32
+storePtr
 (
-Imm32
+ImmWord
 (
 frameSize
 )
