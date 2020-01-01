@@ -154,6 +154,10 @@ PlanarYCbCrImage
 (
 nullptr
 )
+mCompositable
+(
+aCompositable
+)
 {
 mTextureClient
 =

@@ -128,6 +128,13 @@ SurfaceDescriptor
 aOutDescriptor
 )
 {
+MOZ_ASSERT
+(
+IsValid
+(
+)
+)
+;
 if
 (
 !
@@ -190,6 +197,13 @@ bool
 aInverted
 )
 {
+MOZ_ASSERT
+(
+IsValid
+(
+)
+)
+;
 MOZ_ASSERT
 (
 !
