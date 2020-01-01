@@ -572,7 +572,7 @@ i
 )
 )
 ;
-AudioBlockAddChannelWithScale
+AudioBlockCopyChannelWithScale
 (
 src
 aInput
