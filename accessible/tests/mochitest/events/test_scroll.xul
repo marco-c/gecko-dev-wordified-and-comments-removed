@@ -407,7 +407,7 @@ CDATA
 /
 /
 /
-Hack
+Hacks
 to
 make
 xul
@@ -486,6 +486,12 @@ gFindBarInitialized
 =
 false
 ;
+function
+goSetCommandEnabled
+(
+)
+{
+}
 /
 /
 /
