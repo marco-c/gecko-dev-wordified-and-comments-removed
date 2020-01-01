@@ -7822,6 +7822,10 @@ value
 ;
 if
 (
+!
+listenerWindow
+|
+|
 (
 listenerWindow
 .
