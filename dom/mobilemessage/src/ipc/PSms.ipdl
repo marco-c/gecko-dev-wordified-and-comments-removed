@@ -181,6 +181,14 @@ SendSmsMessageRequest
 }
 ;
 struct
+RetrieveMessageRequest
+{
+int32_t
+messageId
+;
+}
+;
+struct
 GetMessageRequest
 {
 int32_t
@@ -227,6 +235,8 @@ union
 IPCSmsRequest
 {
 SendMessageRequest
+;
+RetrieveMessageRequest
 ;
 GetMessageRequest
 ;
