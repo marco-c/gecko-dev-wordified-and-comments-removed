@@ -244,7 +244,11 @@ h
 #
 include
 "
-nsNodeIterator
+mozilla
+/
+dom
+/
+NodeIterator
 .
 h
 "
@@ -1841,7 +1845,13 @@ dom
 NodeFilterHolder
 filter
 ;
-nsNodeIterator
+mozilla
+:
+:
+dom
+:
+:
+NodeIterator
 iter
 (
 node
