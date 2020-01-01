@@ -455,7 +455,7 @@ mk
 endif
 include
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 toolkit

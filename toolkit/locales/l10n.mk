@@ -955,7 +955,7 @@ MOZ_PKG_DIR
 endif
 include
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 toolkit
