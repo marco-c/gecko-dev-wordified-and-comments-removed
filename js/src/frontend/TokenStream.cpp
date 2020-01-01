@@ -5226,11 +5226,6 @@ error
 double
 dval
 ;
-const
-jschar
-*
-dummy
-;
 if
 (
 !
@@ -5250,7 +5245,7 @@ hasExp
 if
 (
 !
-GetPrefixInteger
+GetDecimalInteger
 (
 cx
 numStart
@@ -5259,9 +5254,6 @@ userbuf
 addressOfNextRawChar
 (
 )
-10
-&
-dummy
 &
 dval
 )
@@ -5272,6 +5264,11 @@ error
 }
 else
 {
+const
+jschar
+*
+dummy
+;
 if
 (
 !
