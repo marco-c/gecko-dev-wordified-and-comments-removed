@@ -1294,6 +1294,11 @@ mozIStorageStatement
 >
 mDBBookmarkToUrlResult
 ;
+void
+FinalizeStatements
+(
+)
+;
 NS_DECL_NSICHARSETRESOLVER
 nsresult
 RecalculateFrecencies
