@@ -170,6 +170,10 @@ HTMLLabelElement
 .
 h
 \
+HTMLLIElement
+.
+h
+\
 HTMLSharedListElement
 .
 h
@@ -288,7 +292,7 @@ nsHTMLInputElement
 .
 cpp
 \
-nsHTMLLIElement
+HTMLLIElement
 .
 cpp
 \
