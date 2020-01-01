@@ -50,7 +50,7 @@ h
 #
 include
 "
-mozStorage
+mozStoragePrivateHelpers
 .
 h
 "

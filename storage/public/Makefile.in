@@ -506,6 +506,10 @@ mozStorageHelper
 .
 h
 \
+mozStorage
+.
+h
+\
 (
 NULL
 )

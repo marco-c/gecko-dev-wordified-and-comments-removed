@@ -78,7 +78,7 @@ h
 #
 include
 "
-mozStorage
+mozStoragePrivateHelpers
 .
 h
 "
@@ -1976,9 +1976,6 @@ SQLITE_MISUSE
 mExecuting
 =
 PR_FALSE
-;
-return
-NS_ERROR_FAILURE
 ;
 }
 else
