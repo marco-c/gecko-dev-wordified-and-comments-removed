@@ -3940,7 +3940,7 @@ LF_FACESIZE
 1
 )
 ;
-nsPromiseFlatString
+nsAutoString
 fontName
 (
 Substring
