@@ -636,9 +636,6 @@ ParseContext
 *
 pc
 StrictMode
-:
-:
-StrictModeState
 sms
 )
 ;

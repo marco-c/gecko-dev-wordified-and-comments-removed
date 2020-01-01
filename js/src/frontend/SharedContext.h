@@ -195,9 +195,6 @@ ContextFlags
 cxFlags
 ;
 StrictMode
-:
-:
-StrictModeState
 strictModeState
 ;
 inline
@@ -216,9 +213,6 @@ FunctionBox
 *
 funbox
 StrictMode
-:
-:
-StrictModeState
 sms
 )
 ;
@@ -684,9 +678,6 @@ uint16_t
 ndefaults
 ;
 StrictMode
-:
-:
-StrictModeState
 strictModeState
 ;
 bool
@@ -714,9 +705,6 @@ ParseContext
 *
 pc
 StrictMode
-:
-:
-StrictModeState
 sms
 )
 ;
@@ -751,9 +739,6 @@ void
 recursivelySetStrictMode
 (
 StrictMode
-:
-:
-StrictModeState
 strictness
 )
 ;

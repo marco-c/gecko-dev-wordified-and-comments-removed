@@ -355,9 +355,6 @@ errno
 0
 )
 StrictMode
-:
-:
-StrictModeState
 StrictModeGetter
 :
 :
@@ -2159,9 +2156,6 @@ ParseContext
 *
 outerpc
 StrictMode
-:
-:
-StrictModeState
 sms
 )
 :
@@ -2340,9 +2334,6 @@ ParseContext
 *
 outerpc
 StrictMode
-:
-:
-StrictModeState
 sms
 )
 {
@@ -7954,9 +7945,6 @@ return
 NULL
 ;
 StrictMode
-:
-:
-StrictModeState
 sms
 =
 (
@@ -8823,9 +8811,6 @@ FunctionBox
 recursivelySetStrictMode
 (
 StrictMode
-:
-:
-StrictModeState
 strictness
 )
 {
