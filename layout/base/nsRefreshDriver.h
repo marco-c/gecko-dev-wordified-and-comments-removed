@@ -244,11 +244,6 @@ imgIRequest
 aRequest
 )
 ;
-void
-ClearAllImageRequests
-(
-)
-;
 bool
 AddStyleFlushObserver
 (
