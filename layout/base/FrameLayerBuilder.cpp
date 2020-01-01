@@ -4662,6 +4662,15 @@ false
 if
 (
 isUniform
+&
+&
+aClip
+.
+mRoundedClipRects
+.
+IsEmpty
+(
+)
 )
 {
 if
