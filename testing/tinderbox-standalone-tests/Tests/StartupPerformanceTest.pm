@@ -41,7 +41,7 @@ dump
 .
 enabled
 "
-1
+true
 )
 ;
 #
