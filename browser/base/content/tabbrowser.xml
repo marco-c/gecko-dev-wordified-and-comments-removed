@@ -12105,6 +12105,12 @@ tabStripBoxObject
 x
 -
 halfIndWidth
+-
+ib
+.
+boxObject
+.
+x
 ;
 /
 /
@@ -12402,6 +12408,12 @@ tabStripBoxObject
 x
 -
 halfIndWidth
+-
+ib
+.
+boxObject
+.
+x
 ;
 /
 /
