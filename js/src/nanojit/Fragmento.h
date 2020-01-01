@@ -306,12 +306,6 @@ MergeTrace
 ;
 class
 Fragment
-:
-public
-avmplus
-:
-:
-GCFinalizedObject
 {
 public
 :
