@@ -263,8 +263,8 @@ nsIView
 aView
 const
 nsRect
-*
-aCombinedArea
+&
+aVisualOverflowArea
 PRUint32
 aFlags
 =

@@ -587,6 +587,10 @@ nsCanvasFrame
 .
 cpp
 \
+nsHTMLReflowMetrics
+.
+cpp
+\
 nsHTMLReflowState
 .
 cpp

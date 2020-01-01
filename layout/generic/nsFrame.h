@@ -1300,9 +1300,9 @@ aIsChild
 void
 ConsiderChildOverflow
 (
-nsRect
+nsOverflowAreas
 &
-aOverflowArea
+aOverflowAreas
 nsIFrame
 *
 aChildFrame
