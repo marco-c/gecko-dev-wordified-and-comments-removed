@@ -2075,6 +2075,14 @@ MOZ_PKG_APPNAME
 \
 -
 -
+platform
+=
+(
+MOZ_PKG_PLATFORM
+)
+\
+-
+-
 download
 -
 base
