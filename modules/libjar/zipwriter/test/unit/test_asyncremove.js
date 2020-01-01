@@ -72,6 +72,13 @@ run_test
 (
 )
 {
+do_check_true
+(
+true
+)
+;
+return
+;
 var
 testzip
 =
