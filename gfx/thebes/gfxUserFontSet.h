@@ -245,13 +245,6 @@ fe
 aOldFontEntry
 )
 {
-mAvailableFonts
-[
-i
-]
-=
-aNewFontEntry
-;
 aOldFontEntry
 -
 >
@@ -259,6 +252,13 @@ SetFamily
 (
 nsnull
 )
+;
+mAvailableFonts
+[
+i
+]
+=
+aNewFontEntry
 ;
 aNewFontEntry
 -
