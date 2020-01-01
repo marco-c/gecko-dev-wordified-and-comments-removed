@@ -5831,3 +5831,17 @@ NULL
 0
 JOF_BYTE
 )
+OPDEF
+(
+JSOP_ACTUALSFILLED
+228
+"
+actualsfilled
+"
+NULL
+3
+0
+1
+0
+JOF_UINT16
+)
