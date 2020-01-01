@@ -340,9 +340,9 @@ public
 :
 CairoImageD3D9
 (
-LayerManagerD3D9
+IDirect3DDevice9
 *
-aManager
+aDevice
 )
 :
 CairoImage
@@ -356,9 +356,9 @@ ImageD3D9
 this
 )
 )
-mManager
+mDevice
 (
-aManager
+aDevice
 )
 {
 }
@@ -414,6 +414,12 @@ nsRefPtr
 gfxASurface
 >
 mCachedSurface
+;
+nsRefPtr
+<
+IDirect3DDevice9
+>
+mDevice
 ;
 nsRefPtr
 <
