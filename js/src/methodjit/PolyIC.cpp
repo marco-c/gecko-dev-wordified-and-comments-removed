@@ -2002,7 +2002,7 @@ address
 else
 {
 JSFunction
-*
+&
 fun
 =
 obj
@@ -2012,7 +2012,7 @@ asCall
 (
 )
 .
-getCalleeFunction
+callee
 (
 )
 ;
@@ -2048,8 +2048,7 @@ slot
 +
 =
 fun
--
->
+.
 nargs
 ;
 slot
@@ -3407,7 +3406,7 @@ cx
 )
 ;
 JSFunction
-*
+&
 fun
 =
 obj
@@ -3417,7 +3416,7 @@ asCall
 (
 )
 .
-getCalleeFunction
+callee
 (
 )
 ;
@@ -3426,8 +3425,7 @@ JSScript
 script
 =
 fun
--
->
+.
 script
 (
 )
@@ -9543,7 +9541,7 @@ lastProperty
 )
 ;
 JSFunction
-*
+&
 fun
 =
 getprop
@@ -9555,7 +9553,7 @@ asCall
 (
 )
 .
-getCalleeFunction
+callee
 (
 )
 ;
@@ -9580,8 +9578,7 @@ slot
 +
 =
 fun
--
->
+.
 nargs
 ;
 slot

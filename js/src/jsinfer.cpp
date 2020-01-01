@@ -16361,6 +16361,7 @@ atom
 =
 CallObjectLambdaName
 (
+*
 script
 -
 >
@@ -25870,6 +25871,7 @@ asCall
 isForEval
 (
 )
+&
 scope
 -
 >
@@ -25877,7 +25879,7 @@ asCall
 (
 )
 .
-getCalleeFunction
+callee
 (
 )
 !
@@ -26098,9 +26100,10 @@ JSFunction
 *
 parentFun
 =
+&
 call
 .
-getCalleeFunction
+callee
 (
 )
 ;
@@ -26633,11 +26636,10 @@ asCall
 (
 )
 .
-getCalleeFunction
+callee
 (
 )
--
->
+.
 script
 (
 )
