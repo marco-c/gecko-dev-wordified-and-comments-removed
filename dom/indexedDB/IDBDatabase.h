@@ -224,6 +224,7 @@ nsString
 Name
 (
 )
+const
 {
 return
 mName
@@ -235,6 +236,7 @@ nsString
 FilePath
 (
 )
+const
 {
 return
 mFilePath
@@ -286,11 +288,13 @@ forget
 )
 ;
 }
+const
 nsCString
 &
 Origin
 (
 )
+const
 {
 return
 mASCIIOrigin
@@ -305,7 +309,12 @@ bool
 IsInvalidated
 (
 )
+const
+{
+return
+mInvalidated
 ;
+}
 void
 DisconnectFromActor
 (
@@ -315,6 +324,7 @@ bool
 IsDisconnectedFromActor
 (
 )
+const
 ;
 void
 CloseInternal
@@ -327,6 +337,7 @@ bool
 IsClosed
 (
 )
+const
 ;
 void
 EnterSetVersionTransaction

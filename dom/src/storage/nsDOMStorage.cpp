@@ -1782,7 +1782,7 @@ appId
 nsIScriptSecurityManager
 :
 :
-NO_APP_ID
+UNKNOWN_APP_ID
 )
 ;
 return

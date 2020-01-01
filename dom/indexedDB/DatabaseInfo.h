@@ -240,16 +240,6 @@ nsIAtom
 aId
 )
 ;
-static
-void
-RemoveAllForOrigin
-(
-const
-nsACString
-&
-aOrigin
-)
-;
 bool
 GetObjectStoreNames
 (

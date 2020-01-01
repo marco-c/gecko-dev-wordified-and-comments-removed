@@ -412,6 +412,13 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
+RecvInvalidate
+(
+)
+MOZ_OVERRIDE
+;
+virtual
+bool
 RecvPIndexedDBTransactionConstructor
 (
 PIndexedDBTransactionChild
@@ -524,9 +531,9 @@ bool
 RecvComplete
 (
 const
-nsresult
+CompleteParams
 &
-aRv
+aParams
 )
 MOZ_OVERRIDE
 ;

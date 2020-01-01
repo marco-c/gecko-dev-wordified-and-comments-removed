@@ -2695,7 +2695,13 @@ mgr
 >
 WaitForOpenAllowed
 (
+OriginOrPatternString
+:
+:
+FromOrigin
+(
 mASCIIOrigin
+)
 openHelper
 -
 >
