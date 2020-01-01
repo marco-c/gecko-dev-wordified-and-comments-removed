@@ -2215,6 +2215,11 @@ h
 pthread_np
 .
 h
+pulse
+/
+pulseaudio
+.
+h
 pwd
 .
 h
