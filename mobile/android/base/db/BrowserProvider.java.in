@@ -4629,7 +4629,7 @@ return
 dbHelper
 ;
 }
-private
+public
 String
 getDatabasePath
 (
