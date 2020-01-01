@@ -426,7 +426,6 @@ mk
 DIRS
 =
 mochitest
-browser
 include
 (
 topsrcdir
