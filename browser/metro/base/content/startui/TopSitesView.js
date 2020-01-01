@@ -95,7 +95,9 @@ _topSitesMax
 =
 aMaxSites
 ;
-window
+StartUI
+.
+chromeWin
 .
 addEventListener
 (
@@ -1644,6 +1646,13 @@ uninit
 (
 )
 {
+if
+(
+this
+.
+_view
+)
+{
 this
 .
 _view
@@ -1652,6 +1661,7 @@ destruct
 (
 )
 ;
+}
 }
 show
 :
