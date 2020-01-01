@@ -1337,9 +1337,10 @@ mEndOffset
 parent
 aOffset
 )
-<
 =
-0
+=
+-
+1
 )
 {
 *
