@@ -1781,7 +1781,7 @@ ownercx
 thread
 -
 >
-requestContext
+requestDepth
 )
 ;
 JSTitle
@@ -2169,7 +2169,7 @@ cx
 thread
 -
 >
-requestContext
+requestDepth
 cx
 -
 >
@@ -2242,7 +2242,7 @@ ownercx
 thread
 -
 >
-requestContext
+requestDepth
 )
 ;
 JS_ASSERT
@@ -2297,7 +2297,7 @@ ownercx
 thread
 -
 >
-requestContext
+requestDepth
 |
 |
 cx
@@ -5128,6 +5128,9 @@ if
 cx
 -
 >
+thread
+-
+>
 lockedSealedTitle
 =
 =
@@ -5135,6 +5138,9 @@ title
 )
 {
 cx
+-
+>
+thread
 -
 >
 lockedSealedTitle
@@ -5320,6 +5326,9 @@ JS_ASSERT
 cx
 -
 >
+thread
+-
+>
 lockedSealedTitle
 !
 =
@@ -5464,10 +5473,16 @@ sealed
 cx
 -
 >
+thread
+-
+>
 lockedSealedTitle
 )
 {
 cx
+-
+>
+thread
 -
 >
 lockedSealedTitle
@@ -5788,6 +5803,9 @@ JS_TRUE
 if
 (
 cx
+-
+>
+thread
 -
 >
 lockedSealedTitle
