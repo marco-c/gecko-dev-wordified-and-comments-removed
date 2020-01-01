@@ -470,6 +470,7 @@ aBookmark
 tag
 "
 )
+{
 PlacesUtils
 .
 tagging
@@ -477,11 +478,14 @@ tagging
 tagURI
 (
 aURI
+[
 "
 test_tag
 "
+]
 )
 ;
+}
 }
 }
 function
