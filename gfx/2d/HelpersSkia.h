@@ -39,6 +39,9 @@ SkShader
 h
 "
 #
+ifdef
+USE_SKIA_GPU
+#
 include
 "
 skia
@@ -47,6 +50,8 @@ GrTypes
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -128,6 +133,9 @@ SkBitmap
 kARGB_8888_Config
 ;
 }
+#
+ifdef
+USE_SKIA_GPU
 static
 inline
 GrPixelConfig
@@ -173,6 +181,8 @@ kRGBA_8888_GrPixelConfig
 ;
 }
 }
+#
+endif
 static
 inline
 void
