@@ -614,6 +614,8 @@ aPath
 nsListIter
 &
 aIter
+PRInt64
+aCurrentTime
 )
 ;
 void
