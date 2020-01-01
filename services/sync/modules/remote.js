@@ -3070,8 +3070,9 @@ done
 yield
 this
 .
-getLatestFromScratch
+_getLatestFromScratch
 (
+this
 self
 .
 cb
