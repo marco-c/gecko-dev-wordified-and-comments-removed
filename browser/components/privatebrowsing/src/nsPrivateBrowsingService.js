@@ -2689,6 +2689,7 @@ _autoStarted
 false
 ;
 }
+}
 get
 helpInfo
 PBS_get_helpInfo
