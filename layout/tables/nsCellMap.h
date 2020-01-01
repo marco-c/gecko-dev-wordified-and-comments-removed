@@ -641,7 +641,7 @@ BCMapCellIterator
 ;
 friend
 class
-BCMapBorderIterator
+BCPaintBorderIterator
 ;
 friend
 class
@@ -1060,7 +1060,7 @@ BCMapCellIterator
 ;
 friend
 class
-BCMapBorderIterator
+BCPaintBorderIterator
 ;
 friend
 class
