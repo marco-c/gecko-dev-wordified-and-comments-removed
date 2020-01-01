@@ -15305,7 +15305,6 @@ SendNativeEvents
 (
 )
 )
-return
 DispatchKeyToPlugin
 (
 aKeyEvent
