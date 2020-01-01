@@ -467,6 +467,10 @@ mOutput
 =
 nullptr
 ;
+mOutput
+=
+nullptr
+;
 }
 NS_RELEASE
 (
