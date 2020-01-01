@@ -24794,6 +24794,11 @@ here
 /
 as
 well
+if
+(
+draggedTab
+)
+{
 delete
 draggedTab
 .
@@ -24804,6 +24809,7 @@ draggedTab
 .
 _dragOffsetY
 ;
+}
 ]
 ]
 >
