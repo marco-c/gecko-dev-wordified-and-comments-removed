@@ -1040,9 +1040,6 @@ endif
 namespace
 js
 {
-GCChunkAllocator
-defaultGCChunkAllocator
-;
 inline
 void
 *
@@ -1086,11 +1083,8 @@ addr
 )
 ;
 }
-JS_FRIEND_API
-(
 void
 *
-)
 AllocGCChunk
 (
 )
@@ -1233,10 +1227,7 @@ return
 p
 ;
 }
-JS_FRIEND_API
-(
 void
-)
 FreeGCChunk
 (
 void
