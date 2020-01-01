@@ -10858,6 +10858,12 @@ ScrollParts
 aParts
 )
 {
+if
+(
+aParts
+.
+mColumnsFrame
+)
 mAdjustWidth
 =
 mRect
@@ -10874,6 +10880,11 @@ GetRect
 )
 .
 width
+;
+else
+mAdjustWidth
+=
+0
 ;
 nscoord
 width
