@@ -348,7 +348,7 @@ mbsdiff
 (
 BIN_SUFFIX
 )
-HOST_CSRCS
+DISABLED_HOST_CSRCS
 =
 bsdiff
 .

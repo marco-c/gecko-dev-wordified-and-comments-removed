@@ -152,7 +152,7 @@ nsinstall_real
 (
 HOST_BIN_SUFFIX
 )
-HOST_CSRCS
+DISABLED_HOST_CSRCS
 =
 nsinstall
 .

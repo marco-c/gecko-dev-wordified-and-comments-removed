@@ -1978,7 +1978,7 @@ VPX_OIE_FORMAT
 =
 gas
 endif
-HOST_CSRCS
+DISABLED_HOST_CSRCS
 =
 obj_int_extract
 .
