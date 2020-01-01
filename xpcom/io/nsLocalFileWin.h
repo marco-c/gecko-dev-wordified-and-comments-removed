@@ -189,6 +189,9 @@ bool
 mDirty
 ;
 bool
+mResolveDirty
+;
+bool
 mFollowSymlinks
 ;
 nsString
@@ -212,6 +215,10 @@ mDirty
 =
 true
 ;
+mResolveDirty
+=
+true
+;
 mShortWorkingPath
 .
 Truncate
@@ -221,6 +228,11 @@ Truncate
 }
 nsresult
 ResolveAndStat
+(
+)
+;
+nsresult
+Resolve
 (
 )
 ;
