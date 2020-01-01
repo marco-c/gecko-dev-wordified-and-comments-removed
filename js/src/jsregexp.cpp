@@ -28963,7 +28963,7 @@ re
 JSRegExp
 *
 )
-obj
+obj2
 -
 >
 getPrivate
