@@ -3560,7 +3560,7 @@ onpopupshowing
 "
 HistoryMenu
 .
-onPoupShowing
+onPopupShowing
 (
 this
 )

@@ -506,7 +506,7 @@ var
 HistoryMenu
 =
 {
-onPoupShowing
+onPopupShowing
 :
 function
 PHM_onPopupShowing
