@@ -262,6 +262,7 @@ ASFILES
 :
 (
 list
+list
 [
 ]
         
@@ -297,6 +298,7 @@ DIRS
 '
 :
 (
+list
 list
 [
 ]
@@ -424,6 +426,7 @@ PARALLEL_DIRS
 :
 (
 list
+list
 [
 ]
         
@@ -495,6 +498,7 @@ TOOL_DIRS
 :
 (
 list
+list
 [
 ]
         
@@ -553,6 +557,7 @@ TEST_DIRS
 '
 :
 (
+list
 list
 [
 ]
@@ -613,6 +618,7 @@ TEST_TOOL_DIRS
 :
 (
 list
+list
 [
 ]
         
@@ -641,6 +647,7 @@ TIERS
 :
 (
 OrderedDict
+dict
 OrderedDict
 (
 )
@@ -809,6 +816,7 @@ EXTERNAL_MAKE_DIRS
 :
 (
 list
+list
 [
 ]
         
@@ -876,6 +884,7 @@ PARALLEL_EXTERNAL_MAKE_DIRS
 :
 (
 list
+list
 [
 ]
         
@@ -898,6 +907,7 @@ CONFIGURE_SUBST_FILES
 '
 :
 (
+list
 list
 [
 ]
@@ -994,6 +1004,7 @@ MODULE
 :
 (
 unicode
+unicode
 "
 "
         
@@ -1071,6 +1082,7 @@ EXPORTS
 :
 (
 HierarchicalStringList
+list
 HierarchicalStringList
 (
 )
@@ -1229,6 +1241,7 @@ PROGRAM
 :
 (
 unicode
+unicode
 "
 "
         
@@ -1282,6 +1295,7 @@ XPIDL_SOURCES
 '
 :
 (
+list
 list
 [
 ]
@@ -1339,6 +1353,7 @@ XPIDL_MODULE
 :
 (
 unicode
+unicode
 "
 "
         
@@ -1393,6 +1408,7 @@ XPIDL_FLAGS
 '
 :
 (
+list
 list
 [
 ]
@@ -1457,6 +1473,7 @@ XPCSHELL_TESTS_MANIFESTS
 '
 :
 (
+list
 list
 [
 ]

@@ -534,10 +534,13 @@ Values
 are
 tuples
 of
+stored
+type
+assigned
+        
 type
 default
 value
-        
 and
 a
 docstring
@@ -715,7 +718,7 @@ deepcopy
 (
 default
 [
-1
+2
 ]
 )
 )
@@ -755,8 +758,13 @@ value
             
 return
         
+stored_type
+input_type
 default
+docs
 =
+\
+            
 self
 .
 _allowed_variables
@@ -764,11 +772,16 @@ _allowed_variables
 get
 (
 name
+(
 None
+None
+None
+None
+)
 )
         
 if
-default
+stored_type
 is
 None
 :
@@ -800,13 +813,19 @@ not
 isinstance
 (
 value
-default
-[
-0
-]
+stored_type
 )
 :
             
+if
+not
+isinstance
+(
+value
+input_type
+)
+:
+                
 self
 .
 last_name_error
@@ -820,18 +839,22 @@ global_ns
 set_type
 '
 name
-                
+                    
 value
-default
-[
-0
-]
+input_type
 )
-            
+                
 raise
 self
 .
 last_name_error
+            
+value
+=
+stored_type
+(
+value
+)
         
 dict
 .

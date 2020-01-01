@@ -138,6 +138,7 @@ self
         
 for
 typ
+inp
 default
 doc
 in
