@@ -2835,6 +2835,11 @@ char
 prop
 )
 {
+NS_ENSURE_ARG
+(
+prop
+)
+;
 nsCStringKey
 key
 (
@@ -3200,6 +3205,11 @@ void
 result
 )
 {
+NS_ENSURE_ARG
+(
+prop
+)
+;
 nsCStringKey
 key
 (
@@ -3438,6 +3448,11 @@ nsISupports
 value
 )
 {
+NS_ENSURE_ARG
+(
+prop
+)
+;
 nsCStringKey
 key
 (
@@ -3538,6 +3553,11 @@ PRBool
 _retval
 )
 {
+NS_ENSURE_ARG
+(
+prop
+)
+;
 *
 _retval
 =
