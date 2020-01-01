@@ -141,15 +141,6 @@ more
 /
 functions
 /
-deleteBufferBadArgs
-.
-html
-conformance
-/
-more
-/
-functions
-/
 uniformfBadArgs
 .
 html

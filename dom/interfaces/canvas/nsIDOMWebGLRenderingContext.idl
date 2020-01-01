@@ -563,6 +563,7 @@ wrappers
 /
 [
 scriptable
+builtinclass
 uuid
 (
 0df9f4ed
@@ -592,6 +593,7 @@ name
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 9eca9c32
@@ -621,6 +623,7 @@ name
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 a6a19e74
@@ -650,6 +653,7 @@ name
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 ac7440a4
@@ -679,6 +683,7 @@ name
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 beea4b38
@@ -716,6 +721,7 @@ index
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 bce8be60
@@ -745,6 +751,7 @@ name
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 c82eacd0
@@ -774,6 +781,7 @@ name
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 a85d4fd0
@@ -811,6 +819,7 @@ name
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 d38b0467
@@ -861,6 +870,7 @@ methods
 /
 [
 scriptable
+builtinclass
 uuid
 (
 70814f32
@@ -900,6 +910,7 @@ etc
 /
 [
 scriptable
+builtinclass
 uuid
 (
 3de3dfd9
@@ -942,6 +953,7 @@ FRAGMENT_SHADER_DERIVATIVE_HINT_OES
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 ef15ae85
