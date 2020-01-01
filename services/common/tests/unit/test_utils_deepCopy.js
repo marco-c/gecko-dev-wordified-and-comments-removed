@@ -7,11 +7,15 @@ resource
 :
 /
 /
+testing
+-
+common
+/
 services
 -
-sync
+common
 /
-util
+utils
 .
 js
 "
@@ -61,6 +65,8 @@ bar
 let
 ret
 =
+TestingUtils
+.
 deepCopy
 (
 thing
