@@ -4581,6 +4581,11 @@ PRInt32
 aHeight
 )
 {
+SetForcedRepaint
+(
+true
+)
+;
 if
 (
 this
