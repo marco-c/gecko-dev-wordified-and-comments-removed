@@ -9285,8 +9285,7 @@ statusText
 ;
 if
 (
-!
-NS_SUCCEEDED
+NS_FAILED
 (
 httpChannel
 -
