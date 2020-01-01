@@ -98,3 +98,13 @@ MODULE
 '
 test_places
 '
+CPP_UNIT_TESTS
++
+=
+[
+'
+test_IHistory
+.
+cpp
+'
+]

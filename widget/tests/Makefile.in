@@ -153,12 +153,6 @@ cpp
 NULL
 )
 endif
-CPP_UNIT_TESTS
-+
-=
-TestAppShellSteadyState
-.
-cpp
 MOCHITEST_CHROME_FILES
 =
 test_bug343416

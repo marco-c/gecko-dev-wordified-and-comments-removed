@@ -79,11 +79,6 @@ config
 autoconf
 .
 mk
-CPP_UNIT_TESTS
-=
-TestTXMgr
-.
-cpp
 include
 (
 topsrcdir

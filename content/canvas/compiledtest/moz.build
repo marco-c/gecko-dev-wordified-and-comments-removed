@@ -93,3 +93,13 @@ MPL
 0
 /
 .
+CPP_UNIT_TESTS
++
+=
+[
+'
+TestWebGLElementArrayCache
+.
+cpp
+'
+]

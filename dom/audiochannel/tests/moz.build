@@ -98,3 +98,13 @@ MODULE
 '
 dom
 '
+CPP_UNIT_TESTS
++
+=
+[
+'
+TestAudioChannelService
+.
+cpp
+'
+]

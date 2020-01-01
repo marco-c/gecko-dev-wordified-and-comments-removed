@@ -76,11 +76,6 @@ config
 autoconf
 .
 mk
-CPP_UNIT_TESTS
-=
-TestStartupCache
-.
-cpp
 LIBS
 +
 =

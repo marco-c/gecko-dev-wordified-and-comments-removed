@@ -97,17 +97,6 @@ srcdir
 /
 .
 .
-CPP_UNIT_TESTS
-:
-=
-\
-TestAudioEventTimeline
-.
-cpp
-\
-(
-NULL
-)
 include
 (
 topsrcdir
