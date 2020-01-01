@@ -1559,7 +1559,13 @@ strResult
 .
 AppendInt
 (
+static_cast
+<
+PRUint32
+>
+(
 result
+)
 )
 ;
 if

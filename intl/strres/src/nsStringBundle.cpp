@@ -3371,7 +3371,13 @@ statusStr
 .
 AppendInt
 (
+static_cast
+<
+PRUint32
+>
+(
 aStatus
+)
 16
 )
 ;
