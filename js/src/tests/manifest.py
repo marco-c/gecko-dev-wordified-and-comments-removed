@@ -747,6 +747,18 @@ split
 )
         
 if
+len
+(
+parts
+)
+=
+=
+0
+:
+            
+pass
+        
+elif
 parts
 [
 0
