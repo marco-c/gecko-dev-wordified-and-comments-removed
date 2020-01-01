@@ -202,14 +202,6 @@ guint
 aLength
 )
 ;
-bool
-WaitForDecodedData
-(
-int
-*
-counter
-)
-;
 void
 NotifyBytesConsumed
 (
