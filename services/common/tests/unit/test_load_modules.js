@@ -8,6 +8,11 @@ async
 js
 "
 "
+bagheeraclient
+.
+js
+"
+"
 log4moz
 .
 js
@@ -50,6 +55,11 @@ test_modules
 [
 "
 aitcserver
+.
+js
+"
+"
+bagheeraserver
 .
 js
 "
