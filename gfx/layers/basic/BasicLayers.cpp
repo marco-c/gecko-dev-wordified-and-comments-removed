@@ -7143,12 +7143,15 @@ aCallback
 void
 *
 aCallbackData
+EndTransactionFlags
+aFlags
 )
 {
 EndTransactionInternal
 (
 aCallback
 aCallbackData
+aFlags
 )
 ;
 }
@@ -7163,6 +7166,8 @@ aCallback
 void
 *
 aCallbackData
+EndTransactionFlags
+aFlags
 )
 {
 #
@@ -7224,6 +7229,14 @@ mTarget
 &
 &
 mRoot
+&
+&
+!
+(
+aFlags
+&
+END_NO_IMMEDIATE_REDRAW
+)
 )
 {
 nsIntRect
@@ -15101,6 +15114,8 @@ aCallback
 void
 *
 aCallbackData
+EndTransactionFlags
+aFlags
 )
 {
 BasicLayerManager
@@ -15110,6 +15125,7 @@ EndTransaction
 (
 aCallback
 aCallbackData
+aFlags
 )
 ;
 ForwardTransaction

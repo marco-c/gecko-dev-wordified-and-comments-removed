@@ -271,6 +271,10 @@ aCallback
 void
 *
 aCallbackData
+EndTransactionFlags
+aFlags
+=
+END_DEFAULT
 )
 ;
 virtual

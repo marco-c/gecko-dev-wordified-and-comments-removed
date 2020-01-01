@@ -2293,6 +2293,10 @@ EndTransaction
 (
 NULL
 NULL
+LayerManager
+:
+:
+END_NO_IMMEDIATE_REDRAW
 )
 ;
 reply

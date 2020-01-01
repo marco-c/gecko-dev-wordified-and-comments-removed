@@ -1544,6 +1544,8 @@ aCallback
 void
 *
 aCallbackData
+EndTransactionFlags
+aFlags
 )
 {
 #
@@ -1594,6 +1596,14 @@ return
 if
 (
 mRoot
+&
+&
+!
+(
+aFlags
+&
+END_NO_IMMEDIATE_REDRAW
+)
 )
 {
 mRoot

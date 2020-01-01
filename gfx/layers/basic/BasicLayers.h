@@ -183,6 +183,10 @@ aCallback
 void
 *
 aCallbackData
+EndTransactionFlags
+aFlags
+=
+END_DEFAULT
 )
 ;
 virtual
@@ -610,6 +614,10 @@ aCallback
 void
 *
 aCallbackData
+EndTransactionFlags
+aFlags
+=
+END_DEFAULT
 )
 ;
 nsIWidget
@@ -724,6 +732,10 @@ aCallback
 void
 *
 aCallbackData
+EndTransactionFlags
+aFlags
+=
+END_DEFAULT
 )
 ;
 virtual
