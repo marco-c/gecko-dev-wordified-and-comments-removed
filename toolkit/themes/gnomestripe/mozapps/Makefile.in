@@ -201,15 +201,6 @@ brianryner
 com
 >
 #
-Pierre
-Chanial
-<
-chanial
-noos
-.
-fr
->
-#
 #
 Alternatively
 the
@@ -410,6 +401,9 @@ DEPTH
 /
 .
 .
+/
+.
+.
 topsrcdir
 =
 top_srcdir
@@ -429,10 +423,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-global
-mozapps
 include
 (
 topsrcdir
