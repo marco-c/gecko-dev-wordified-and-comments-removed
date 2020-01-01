@@ -2776,10 +2776,6 @@ needsBarrier
 )
 )
 ;
-LInstruction
-*
-barrier
-;
 switch
 (
 input
@@ -2793,6 +2789,9 @@ type
 case
 MIRType_Value
 :
+{
+LInstruction
+*
 barrier
 =
 new
@@ -2822,6 +2821,7 @@ ins
 ;
 break
 ;
+}
 case
 MIRType_String
 :
