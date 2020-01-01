@@ -11058,6 +11058,10 @@ aOldEnd
 aNewEnd
 )
 ;
+OnIMESelectionChange
+(
+)
+;
 return
 NS_OK
 ;
