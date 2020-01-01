@@ -331,7 +331,6 @@ parse_options
 (
 options
 jetpack_id
-preferencesBranch
 )
 :
     
@@ -474,7 +473,7 @@ extensions
 .
 "
 +
-preferencesBranch
+jetpack_id
 +
 "
 .

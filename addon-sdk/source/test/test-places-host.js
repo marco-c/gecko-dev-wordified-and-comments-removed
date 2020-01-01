@@ -872,9 +872,9 @@ done
 )
 ;
 }
-console
+assert
 .
-error
+fail
 )
 ;
 }
@@ -2481,9 +2481,9 @@ done
 )
 ;
 }
-console
+assert
 .
-error
+fail
 )
 ;
 }

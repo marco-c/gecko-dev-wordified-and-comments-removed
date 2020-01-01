@@ -2772,13 +2772,6 @@ TelemetryStopwatch
 :
 '
 '
-[
-JavaScript
-Warning
-:
-"
-ReferenceError
-:
 reference
 to
 undefined

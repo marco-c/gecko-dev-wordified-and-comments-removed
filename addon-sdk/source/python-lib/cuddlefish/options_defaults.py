@@ -2,7 +2,7 @@ def
 parse_options_defaults
 (
 options
-preferencesBranch
+jetpack_id
 )
 :
     
@@ -155,7 +155,7 @@ extensions
 .
 "
 +
-preferencesBranch
+jetpack_id
 +
 "
 .

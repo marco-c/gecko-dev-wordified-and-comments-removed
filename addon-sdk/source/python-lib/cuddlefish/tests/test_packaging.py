@@ -174,10 +174,6 @@ deps
 =
 deps
         
-is_running_tests
-=
-True
-        
 )
     
 return

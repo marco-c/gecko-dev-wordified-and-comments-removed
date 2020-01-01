@@ -3248,9 +3248,9 @@ group
 )
 ;
 }
-console
+assert
 .
-error
+fail
 )
 .
 then
@@ -3298,9 +3298,9 @@ done
 )
 ;
 }
-console
+assert
 .
-error
+fail
 )
 ;
 }
@@ -6505,9 +6505,9 @@ done
 then
 (
 null
-console
+assert
 .
-error
+fail
 )
 ;
 }
@@ -6715,9 +6715,9 @@ done
 )
 ;
 }
-console
+assert
 .
-error
+fail
 )
 ;
 }
