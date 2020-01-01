@@ -8254,6 +8254,15 @@ nt_handleEvent
 aEvent
 )
 {
+if
+(
+!
+aEvent
+.
+detail
+)
+return
+;
 let
 [
 tabsVisibility
@@ -8273,11 +8282,6 @@ tabsVisibility
 1
 .
 0
-&
-&
-aEvent
-.
-detail
 )
 this
 .
