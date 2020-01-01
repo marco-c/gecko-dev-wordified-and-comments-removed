@@ -2108,6 +2108,12 @@ arm
 .
 cpp
 \
+MacroAssembler
+-
+arm
+.
+cpp
+\
 (
 NULL
 )

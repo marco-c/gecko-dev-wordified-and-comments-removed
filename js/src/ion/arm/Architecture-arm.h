@@ -55,7 +55,7 @@ const
 uint32
 BAILOUT_TABLE_ENTRY_SIZE
 =
-8
+4
 ;
 class
 Registers
@@ -444,6 +444,19 @@ JSC
 ARMRegisters
 :
 :
+lr
+)
+|
+(
+1
+<
+<
+JSC
+:
+:
+ARMRegisters
+:
+:
 pc
 )
 ;
@@ -687,7 +700,7 @@ JSC
 ARMRegisters
 :
 :
-SD0
+d0
 )
 ;
 static
