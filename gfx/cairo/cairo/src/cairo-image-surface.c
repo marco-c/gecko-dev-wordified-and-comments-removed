@@ -7669,7 +7669,6 @@ boxes
 >
 num_boxes
 <
-=
 1
 &
 &
