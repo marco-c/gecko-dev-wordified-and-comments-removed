@@ -480,6 +480,12 @@ mRemoteWidgetCreated
 bool
 mRemoteFrame
 ;
+nsCOMPtr
+<
+nsIObserver
+>
+mChildHost
+;
 mozilla
 :
 :
