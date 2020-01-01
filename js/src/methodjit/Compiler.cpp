@@ -29727,12 +29727,13 @@ cx
 if
 (
 !
-obj
--
->
+JSObject
+:
+:
 lookupGeneric
 (
 cx
+obj
 id
 &
 holder

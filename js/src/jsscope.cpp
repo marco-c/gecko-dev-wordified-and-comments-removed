@@ -3601,6 +3601,8 @@ changeProperty
 JSContext
 *
 cx
+HandleObject
+obj
 Shape
 *
 shape
@@ -3616,6 +3618,9 @@ setter
 {
 JS_ASSERT
 (
+obj
+-
+>
 nativeContainsNoAllocation
 (
 *
@@ -3664,7 +3669,7 @@ types
 MarkTypePropertyConfigured
 (
 cx
-this
+obj
 shape
 -
 >
@@ -3689,7 +3694,7 @@ types
 AddTypePropertyId
 (
 cx
-this
+obj
 shape
 -
 >
@@ -3735,7 +3740,7 @@ if
 CheckCanChangeAttrs
 (
 cx
-this
+obj
 shape
 &
 attrs
@@ -3783,6 +3788,9 @@ Shape
 *
 newShape
 =
+obj
+-
+>
 putProperty
 (
 cx
@@ -3813,6 +3821,9 @@ maybeShortid
 )
 )
 ;
+obj
+-
+>
 checkShapeConsistency
 (
 )
