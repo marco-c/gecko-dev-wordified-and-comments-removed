@@ -90,6 +90,10 @@ video
 .
 jsm
 \
+JNI
+.
+jsm
+\
 (
 NULL
 )
