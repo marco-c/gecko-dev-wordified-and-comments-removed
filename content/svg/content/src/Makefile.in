@@ -373,10 +373,6 @@ nsSVGTextPositioningElement
 .
 cpp
 \
-nsSVGTitleElement
-.
-cpp
-\
 nsSVGUnknownElement
 .
 cpp
@@ -462,6 +458,10 @@ SVGPreserveAspectRatio
 cpp
 \
 SVGStringList
+.
+cpp
+\
+SVGTitleElement
 .
 cpp
 \
@@ -643,6 +643,10 @@ SVGAnimatedBoolean
 h
 \
 SVGDescElement
+.
+h
+\
+SVGTitleElement
 .
 h
 \

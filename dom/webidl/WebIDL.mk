@@ -463,6 +463,10 @@ SVGPreserveAspectRatio
 .
 webidl
 \
+SVGTitleElement
+.
+webidl
+\
 SVGTransform
 .
 webidl
