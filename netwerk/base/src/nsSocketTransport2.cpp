@@ -5024,6 +5024,7 @@ if
 (
 autodialEnabled
 )
+{
 tryAgain
 =
 nsNativeConnectionHelper
@@ -5031,8 +5032,11 @@ nsNativeConnectionHelper
 :
 OnConnectionFailed
 (
+NS_ConvertUTF8toUTF16
+(
 SocketHost
 (
+)
 )
 .
 get
@@ -5040,6 +5044,7 @@ get
 )
 )
 ;
+}
 }
 #
 endif
