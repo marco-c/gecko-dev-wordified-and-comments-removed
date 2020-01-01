@@ -555,6 +555,9 @@ eSelectNoAmount
 eSelectParagraph
 =
 7
+eSelectWordNoSpace
+=
+8
 }
 ;
 enum

@@ -23254,7 +23254,7 @@ word
 {
 amount
 =
-eSelectWord
+eSelectWordNoSpace
 ;
 keycode
 =
