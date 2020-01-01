@@ -424,6 +424,10 @@ xhtml
 headers
 ^
 \
+browser_search_notification
+.
+js
+\
 (
 NULL
 )
