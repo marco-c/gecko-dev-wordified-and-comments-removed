@@ -859,11 +859,6 @@ if
 (
 !
 errno
-&
-&
-responseCode
-<
-600
 )
 {
 NetdCommand
