@@ -2975,3 +2975,13 @@ decelerationRate
 15
 )
 ;
+pref
+(
+"
+plugin
+.
+default_plugin_disabled
+"
+true
+)
+;
