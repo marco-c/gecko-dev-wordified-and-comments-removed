@@ -812,6 +812,11 @@ pos
 onload
 )
 {
+let
+position
+=
+pos
+;
 browser
 .
 addEventListener
@@ -839,7 +844,7 @@ true
 ;
 TESTS
 [
-pos
+position
 ]
 .
 onload
