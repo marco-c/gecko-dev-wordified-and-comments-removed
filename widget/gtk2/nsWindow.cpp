@@ -15805,16 +15805,6 @@ if
 aAction
 )
 {
-if
-(
-mTransparencyBitmap
-)
-{
-ApplyTransparencyBitmap
-(
-)
-;
-}
 mNeedsShow
 =
 false
