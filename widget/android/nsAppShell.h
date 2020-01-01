@@ -319,9 +319,6 @@ nsIAndroidBrowserApp
 >
 mBrowserApp
 ;
-bool
-mPendingSensorEvents
-;
 }
 ;
 #
