@@ -1657,10 +1657,6 @@ NONE
 OPT
 :
 REF
--
-OPT
-:
-nowin98
 endif
 #
 NS_TRACE_MALLOC
