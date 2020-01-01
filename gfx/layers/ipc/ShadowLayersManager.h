@@ -14,7 +14,7 @@ class
 TargetConfig
 ;
 class
-LayerTransactionParent
+ShadowLayersParent
 ;
 class
 ShadowLayersManager
@@ -25,7 +25,7 @@ virtual
 void
 ShadowLayersUpdated
 (
-LayerTransactionParent
+ShadowLayersParent
 *
 aLayerTree
 const

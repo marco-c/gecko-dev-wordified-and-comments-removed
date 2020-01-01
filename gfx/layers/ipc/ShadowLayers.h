@@ -125,10 +125,10 @@ class
 PLayerChild
 ;
 class
-PLayerTransactionChild
+PLayersChild
 ;
 class
-PLayerTransactionParent
+PLayersParent
 ;
 class
 ShadowableLayer
@@ -488,7 +488,7 @@ MOZ_OVERRIDE
 void
 AttachAsyncCompositable
 (
-PLayerTransactionChild
+PLayersChild
 *
 aLayer
 uint64_t
@@ -554,7 +554,7 @@ aReplies
 void
 SetShadowManager
 (
-PLayerTransactionChild
+PLayersChild
 *
 aShadowManager
 )
@@ -576,7 +576,7 @@ return
 mShadowManager
 ;
 }
-PLayerTransactionChild
+PLayersChild
 *
 GetShadowManager
 (
@@ -692,7 +692,7 @@ ShadowLayerForwarder
 (
 )
 ;
-PLayerTransactionChild
+PLayersChild
 *
 mShadowManager
 ;

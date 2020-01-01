@@ -38,7 +38,7 @@ mozilla
 /
 layers
 /
-LayerTransactionChild
+ShadowLayersChild
 .
 h
 "

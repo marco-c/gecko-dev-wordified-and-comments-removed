@@ -261,7 +261,7 @@ layers
 {
 sync
 protocol
-PLayerTransaction
+PLayers
 {
 manager
 PRenderFrame

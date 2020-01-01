@@ -3789,7 +3789,7 @@ MetroWidget
 :
 GetLayerManager
 (
-PLayerTransactionChild
+PLayersChild
 *
 aShadowManager
 LayersBackend

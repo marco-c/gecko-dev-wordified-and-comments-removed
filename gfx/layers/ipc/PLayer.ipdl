@@ -106,7 +106,7 @@ MPL
 /
 include
 protocol
-PLayerTransaction
+PLayers
 ;
 namespace
 mozilla
@@ -134,7 +134,7 @@ protocol
 PLayer
 {
 manager
-PLayerTransaction
+PLayers
 ;
 /
 *
