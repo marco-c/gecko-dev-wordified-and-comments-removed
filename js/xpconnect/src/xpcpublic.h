@@ -645,6 +645,12 @@ nsIXPConnectWrappedJS
 aWrappedJS
 )
 ;
+extern
+void
+xpc_UnmarkSkippableJSHolders
+(
+)
+;
 NS_EXPORT_
 (
 void

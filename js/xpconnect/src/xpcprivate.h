@@ -2596,6 +2596,11 @@ nsCycleCollectionTraversalCallback
 cb
 )
 ;
+void
+UnmarkSkippableJSHolders
+(
+)
+;
 static
 JSBool
 GCCallback
