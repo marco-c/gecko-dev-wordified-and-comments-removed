@@ -479,6 +479,10 @@ test_link
 .
 html
 \
+test_list
+.
+html
+\
 test_markup
 .
 html
