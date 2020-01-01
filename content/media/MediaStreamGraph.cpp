@@ -1164,6 +1164,13 @@ aStream
 -
 >
 mPullEnabled
+&
+&
+!
+aStream
+-
+>
+mFinished
 )
 {
 for
