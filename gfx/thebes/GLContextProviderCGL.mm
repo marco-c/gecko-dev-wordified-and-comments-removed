@@ -1332,6 +1332,17 @@ aNewSize
 {
 if
 (
+!
+IsOffscreenSizeAllowed
+(
+aNewSize
+)
+)
+return
+false
+;
+if
+(
 mPBuffer
 )
 {
