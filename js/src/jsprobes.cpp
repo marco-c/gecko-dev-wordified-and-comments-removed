@@ -692,7 +692,9 @@ if
 fun
 -
 >
-atom
+displayAtom
+(
+)
 )
 return
 Probes
@@ -710,7 +712,9 @@ cx
 fun
 -
 >
-atom
+displayAtom
+(
+)
 )
 ?
 bytes

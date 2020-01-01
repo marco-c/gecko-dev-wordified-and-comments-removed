@@ -457,6 +457,7 @@ JSAtom
 atom
 (
 )
+const
 {
 return
 hasGuessedAtom
@@ -493,6 +494,7 @@ JSAtom
 displayAtom
 (
 )
+const
 {
 return
 atom_
