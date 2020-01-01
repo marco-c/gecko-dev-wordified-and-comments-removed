@@ -1800,6 +1800,12 @@ if
 aOriginalTransform
 )
 {
+aPatternTransform
+.
+NudgeToIntegers
+(
+)
+;
 return
 ;
 }
@@ -1822,5 +1828,11 @@ aPatternTransform
 aOriginalTransform
 *
 mat
+;
+aPatternTransform
+.
+NudgeToIntegers
+(
+)
 ;
 }
