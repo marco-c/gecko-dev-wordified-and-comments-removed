@@ -826,6 +826,10 @@ sNavigator_id
 ;
 static
 jsid
+sTop_id
+;
+static
+jsid
 sDocument_id
 ;
 static
