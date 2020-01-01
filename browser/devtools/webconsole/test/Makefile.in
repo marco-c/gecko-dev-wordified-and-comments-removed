@@ -521,6 +521,10 @@ browser_longstring_hang
 .
 js
 \
+browser_console_consolejsm_output
+.
+js
+\
 head
 .
 js
