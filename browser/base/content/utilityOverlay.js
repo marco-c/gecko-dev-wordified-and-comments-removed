@@ -2574,7 +2574,7 @@ openFeedbackPage
 openUILinkIn
 (
 "
-http
+https
 :
 /
 /
@@ -2582,7 +2582,7 @@ input
 .
 mozilla
 .
-com
+org
 /
 feedback
 "
