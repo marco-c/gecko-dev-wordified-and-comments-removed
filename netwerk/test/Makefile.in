@@ -604,6 +604,13 @@ TK_CFLAGS
 XPCSHELL_TESTS
 =
 unit
+ifdef
+MOZ_IPC
+XPCSHELL_TESTS
++
+=
+unit_ipc
+endif
 include
 (
 topsrcdir
@@ -627,9 +634,6 @@ DIST
 bin
 /
 TestCookie
-(
-BIN_SUFFIX
-)
 _RES_FILES
 =
 urlparse
@@ -736,6 +740,8 @@ topsrcdir
 netwerk
 /
 dns
+/
+src
 /
 effective_tld_names
 .
