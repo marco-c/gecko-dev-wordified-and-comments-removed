@@ -6113,6 +6113,17 @@ Clear
 (
 )
 ;
+if
+(
+len
+=
+=
+0
+)
+{
+return
+;
+}
 PRUint32
 prevCh
 =
