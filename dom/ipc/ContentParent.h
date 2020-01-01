@@ -239,11 +239,6 @@ ContentParent
 *
 gSingleton
 ;
-void
-Cleanup
-(
-)
-;
 using
 PContentParent
 :
