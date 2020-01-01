@@ -70,15 +70,6 @@ LAST_USED_FLAG
 CROSS_COMPARTMENT
 }
 ;
-typedef
-enum
-{
-PermitObjectAccess
-PermitPropertyAccess
-DenyAccess
-}
-Permission
-;
 static
 JSObject
 *
