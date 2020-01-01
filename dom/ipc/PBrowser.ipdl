@@ -265,12 +265,6 @@ using
 mozilla
 :
 :
-void_t
-;
-using
-mozilla
-:
-:
 WindowsHandle
 ;
 using
@@ -1809,14 +1803,6 @@ LoadURL
 (
 nsCString
 uri
-)
-;
-CacheFileDescriptor
-(
-nsString
-path
-FileDescriptor
-fd
 )
 ;
 UpdateDimensions
