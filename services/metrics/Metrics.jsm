@@ -99,6 +99,9 @@ Metrics
 Collector
 :
 Collector
+DailyValues
+:
+DailyValues
 Measurement
 :
 Measurement

@@ -85,6 +85,9 @@ MODULES_FILES
 policy
 .
 jsm
+sessions
+.
+jsm
 MODULES_DEST
 =
 (
