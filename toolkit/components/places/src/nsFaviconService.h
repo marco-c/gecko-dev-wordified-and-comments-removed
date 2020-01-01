@@ -54,6 +54,13 @@ mozIStorageStatement
 .
 h
 "
+#
+include
+"
+nsIObserver
+.
+h
+"
 class
 FaviconLoadListener
 ;
@@ -62,6 +69,8 @@ nsFaviconService
 :
 public
 nsIFaviconService
+public
+nsIObserver
 {
 public
 :
@@ -214,6 +223,7 @@ FinalizeStatements
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIFAVICONSERVICE
+NS_DECL_NSIOBSERVER
 private
 :
 ~
@@ -296,9 +306,6 @@ aFavicon
 PRBool
 *
 aHasData
-PRTime
-*
-aExpiration
 )
 ;
 nsresult
@@ -321,6 +328,11 @@ aPage
 nsIURI
 *
 aFaviconURI
+)
+;
+nsresult
+ExpireAllFavicons
+(
 )
 ;
 friend
