@@ -102,15 +102,6 @@ attachment
 html
 conformance
 /
-renderbuffers
-/
-renderbuffer
--
-initialization
-.
-html
-conformance
-/
 textures
 /
 texture
