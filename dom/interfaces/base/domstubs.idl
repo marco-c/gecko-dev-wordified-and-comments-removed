@@ -123,6 +123,10 @@ long
 long
 DOMTimeStamp
 ;
+typedef
+double
+DOMHighResTimeStamp
+;
 /
 /
 Core
