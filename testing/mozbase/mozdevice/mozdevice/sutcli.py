@@ -702,12 +702,15 @@ commandname
 command
 )
 in
+sorted
+(
 self
 .
 commands
 .
 iteritems
 (
+)
 )
 :
             

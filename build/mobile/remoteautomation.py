@@ -18,6 +18,7 @@ from
 devicemanager
 import
 NetworkTools
+DMError
 class
 RemoteAutomation
 (
@@ -837,7 +838,7 @@ self
 )
 :
             
-hexpid
+pid
 =
 self
 .
@@ -851,26 +852,16 @@ procName
 )
             
 if
-(
-hexpid
-=
-=
+pid
+is
 None
-)
 :
                 
-hexpid
-=
-"
-0x0
-"
+return
+0
             
 return
-int
-(
-hexpid
-0
-)
+pid
         
 property
         
@@ -881,36 +872,50 @@ self
 )
 :
             
+if
+self
+.
+dm
+.
+fileExists
+(
+self
+.
+proc
+)
+:
+                
+try
+:
+                    
 t
 =
 self
 .
 dm
 .
-getFile
+pullFile
 (
 self
 .
 proc
 )
-            
-if
-t
-=
-=
-None
+                
+except
+DMError
 :
+                    
 return
 '
 '
-            
+                
 tlen
 =
 len
 (
 t
 )
-            
+                
 retVal
 =
 t
@@ -920,13 +925,13 @@ self
 stdoutlen
 :
 ]
-            
+                
 self
 .
 stdoutlen
 =
 tlen
-            
+                
 return
 retVal
 .
@@ -941,6 +946,13 @@ n
 strip
 (
 )
+            
+else
+:
+                
+return
+'
+'
         
 def
 wait

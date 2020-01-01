@@ -81,6 +81,8 @@ mozrunner
 import
 Runner
 import
+devicemanager
+import
 devicemanagerADB
 import
 manifestparser
@@ -2570,6 +2572,8 @@ F_OK
 :
             
 raise
+devicemanager
+.
 DMError
 (
 '
@@ -3159,7 +3163,9 @@ self
 remoteProfile
 )
         
-if
+try
+:
+            
 self
 .
 _devicemanager
@@ -3171,17 +3177,18 @@ self
 .
 remoteProfile
 )
-=
-=
-None
-:
-            
-raise
+        
+except
 devicemanager
 .
-FileError
-(
+DMError
+:
+            
+print
 "
+Automation
+Error
+:
 Unable
 to
 copy
@@ -3190,7 +3197,8 @@ to
 device
 .
 "
-)
+            
+raise
         
 self
 .
@@ -3362,8 +3370,9 @@ options
 profileDir
 )
         
-if
-(
+try
+:
+            
 self
 .
 _devicemanager
@@ -3375,18 +3384,18 @@ options
 .
 remoteProfile
 )
-=
-=
-None
-)
-:
-            
-raise
+        
+except
 devicemanager
 .
-FileError
-(
+DMError
+:
+            
+print
 "
+Automation
+Error
+:
 Failed
 to
 copy
@@ -3395,7 +3404,8 @@ files
 to
 device
 "
-)
+            
+raise
     
 def
 getManifestPath
