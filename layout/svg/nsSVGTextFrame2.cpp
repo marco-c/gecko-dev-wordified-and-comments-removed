@@ -8710,6 +8710,11 @@ GetPrimaryFrame
 (
 )
 ;
+if
+(
+childElementFrame
+)
+{
 childElementFrame
 -
 >
@@ -8734,6 +8739,7 @@ NotifyGlyphMetricsChange
 (
 )
 ;
+}
 }
 }
 else
