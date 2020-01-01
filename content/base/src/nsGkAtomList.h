@@ -12386,6 +12386,13 @@ SVGTextFrame
 )
 GK_ATOM
 (
+svgTextFrame2
+"
+SVGTextFrame2
+"
+)
+GK_ATOM
+(
 svgTextPathFrame
 "
 SVGTextPathFrame
