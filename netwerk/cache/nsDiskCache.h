@@ -32,7 +32,7 @@ enum
 {
 kCurrentVersion
 =
-0x0001000C
+0x0001000D
 }
 ;
 enum
