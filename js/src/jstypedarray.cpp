@@ -841,7 +841,7 @@ ObjectElements
 cx
 -
 >
-malloc_
+calloc_
 (
 size
 +
@@ -868,6 +868,17 @@ elements
 (
 )
 ;
+if
+(
+contents
+)
+memcpy
+(
+elements
+contents
+size
+)
+;
 }
 else
 {
@@ -877,7 +888,6 @@ fixedElements
 (
 )
 ;
-}
 if
 (
 contents
@@ -897,6 +907,7 @@ elements
 size
 )
 ;
+}
 ObjectElements
 *
 header
