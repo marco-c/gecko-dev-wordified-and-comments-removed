@@ -17,7 +17,7 @@ main
 untrap
 (
 main
-22
+24
 )
 ;
 x
@@ -27,6 +27,11 @@ success
 "
 ;
 }
+dis
+(
+main
+)
+;
 function
 failure
 (
@@ -42,7 +47,7 @@ failure
 trap
 (
 main
-22
+24
 "
 failure
 (
