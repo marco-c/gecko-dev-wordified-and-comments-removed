@@ -11884,6 +11884,13 @@ FieldSetFrame
 )
 GK_ATOM
 (
+flexContainerFrame
+"
+FlexContainerFrame
+"
+)
+GK_ATOM
+(
 formControlFrame
 "
 FormControlFrame
