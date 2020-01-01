@@ -1318,6 +1318,16 @@ this
 ;
 }
 virtual
+bool
+DrainSelfOverflowList
+(
+)
+{
+return
+false
+;
+}
+virtual
 nsIScrollableFrame
 *
 GetScrollTargetFrame

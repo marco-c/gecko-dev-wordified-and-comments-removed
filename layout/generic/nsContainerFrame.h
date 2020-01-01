@@ -607,6 +607,12 @@ aStatus
 )
 ;
 virtual
+bool
+DrainSelfOverflowList
+(
+)
+;
+virtual
 nsresult
 StealFrame
 (

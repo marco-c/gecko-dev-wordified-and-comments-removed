@@ -794,6 +794,12 @@ aModType
 )
 ;
 virtual
+bool
+DrainSelfOverflowList
+(
+)
+;
+virtual
 nsresult
 StealFrame
 (
