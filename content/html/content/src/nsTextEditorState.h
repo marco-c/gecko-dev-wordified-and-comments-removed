@@ -368,6 +368,11 @@ Truncate
 )
 ;
 }
+void
+HideSelectionIfBlurred
+(
+)
+;
 private
 :
 nsTextEditorState
