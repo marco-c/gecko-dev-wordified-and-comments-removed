@@ -206,8 +206,8 @@ mHWnd
 DWORD
 mEffectsAllowed
 ;
-bool
-mMovePreferred
+DWORD
+mEffectsPreferred
 ;
 bool
 mTookOwnRef
