@@ -998,3 +998,13 @@ non
 extensible
 .
 js
+script
+freeze
+-
+global
+-
+eval
+-
+const
+.
+js
