@@ -410,9 +410,6 @@ mColor
 float
 mUnifiedToolbarHeight
 ;
-BOOL
-mSuppressPainting
-;
 }
 -
 (
@@ -454,12 +451,6 @@ unifiedToolbarHeight
 float
 )
 titlebarHeight
-;
--
-(
-BOOL
-)
-isPaintingSuppressed
 ;
 -
 (
