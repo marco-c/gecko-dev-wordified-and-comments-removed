@@ -674,6 +674,14 @@ aAttrEnum
 ;
 virtual
 void
+DidAnimateInteger
+(
+PRUint8
+aAttrEnum
+)
+;
+virtual
+void
 DidAnimateEnum
 (
 PRUint8
