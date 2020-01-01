@@ -3617,6 +3617,9 @@ SYSINSTALL
 )
 ^
 (
+DESTDIR
+)
+(
 includedir
 )
 /
@@ -3633,6 +3636,9 @@ SCRIPTS
 SYSINSTALL
 )
 ^
+(
+DESTDIR
+)
 (
 bindir
 )
@@ -3661,6 +3667,9 @@ SYSINSTALL
 LIBRARY
 )
 (
+DESTDIR
+)
+(
 libdir
 )
 endif
@@ -3677,6 +3686,9 @@ SYSINSTALL
 SHARED_LIBRARY
 )
 (
+DESTDIR
+)
+(
 libdir
 )
 endif
@@ -3691,6 +3703,9 @@ SYSINSTALL
 )
 (
 IMPORT_LIBRARY
+)
+(
+DESTDIR
 )
 (
 libdir
