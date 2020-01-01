@@ -106,7 +106,8 @@ it
 will
 encrypt
 and
-backup
+back
+up
 most
 of
 your
@@ -208,7 +209,8 @@ your
 own
 risk
 !
-Backup
+Back
+up
 Firefox
 data
 before
@@ -400,8 +402,7 @@ username
 .
 label
 "
-User
-name
+Username
 :
 "
 >
@@ -493,8 +494,7 @@ createUsername
 label
 "
 Desired
-login
-name
+username
 :
 "
 >
@@ -830,7 +830,8 @@ you
 would
 like
 to
-backup
+back
+up
 and
 synchronize
 to
@@ -1183,7 +1184,8 @@ computer
 has
 now
 been
-setup
+set
+up
 with
 Weave
 .
@@ -1192,7 +1194,8 @@ will
 now
 automatically
 encrypt
-backup
+back
+up
 and
 synchronize
 your
@@ -1348,7 +1351,7 @@ we
 couldn
 '
 t
-log
+sign
 you
 in
 .
