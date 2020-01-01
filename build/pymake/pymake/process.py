@@ -216,6 +216,7 @@ r
 \
 n
 ]
++
 '
   
 '
@@ -413,8 +414,7 @@ self
 .
 arg
 =
-'
-'
+None
         
 self
 .
@@ -461,6 +461,21 @@ argument
 "
 "
         
+if
+self
+.
+arg
+is
+None
+:
+            
+self
+.
+arg
+=
+'
+'
+        
 self
 .
 arg
@@ -501,10 +516,11 @@ needed
 "
         
 if
-not
 self
 .
 arg
+is
+None
 :
             
 return
@@ -626,8 +642,7 @@ self
 .
 arg
 =
-'
-'
+None
     
 def
 _parse_unquoted
@@ -690,6 +705,14 @@ cline
                 
 break
             
+if
+m
+.
+start
+(
+)
+:
+                
 self
 .
 _push
@@ -908,6 +931,12 @@ reach
 here
 "
         
+if
+self
+.
+arg
+:
+            
 self
 .
 _next
