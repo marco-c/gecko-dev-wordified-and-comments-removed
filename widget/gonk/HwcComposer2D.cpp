@@ -1533,12 +1533,8 @@ bufferRect
 =
 nsIntRect
 (
-visibleRect
-.
-x
-visibleRect
-.
-y
+0
+0
 state
 .
 mSize
