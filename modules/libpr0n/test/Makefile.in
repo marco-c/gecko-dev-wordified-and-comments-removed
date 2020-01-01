@@ -435,6 +435,13 @@ tests
 MODULE
 =
 test_libpr0n
+#
+bug
+399542
+temporarily
+disabling
+tests
+#
 XPCSHELL_TESTS
 =
 unit
