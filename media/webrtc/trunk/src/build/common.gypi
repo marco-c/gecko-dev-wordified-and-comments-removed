@@ -1083,8 +1083,11 @@ WEBRTC_ARCH_ARM_V7
 WEBRTC_DETECT_ARM_NEON
 '
 ]
-}
-]
+'
+conditions
+'
+:
+[
 [
 '
 arm_neon
@@ -1111,6 +1114,9 @@ defines
 '
 WEBRTC_DETECT_ARM_NEON
 '
+]
+}
+]
 ]
 }
 ]

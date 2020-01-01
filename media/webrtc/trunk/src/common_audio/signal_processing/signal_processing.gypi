@@ -398,8 +398,11 @@ filter_ar_fast_q12
 c
 '
 ]
-}
-]
+'
+conditions
+'
+:
+[
 [
 '
 arm_neon
@@ -450,6 +453,9 @@ downsample_fast
 .
 c
 '
+]
+}
+]
 ]
 }
 ]
