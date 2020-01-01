@@ -828,8 +828,8 @@ fmt
 .
 .
 )
-{
-}
+JS_BEGIN_MACRO
+JS_END_MACRO
 #
 define
 debug_only_print0
@@ -837,6 +837,8 @@ debug_only_print0
 mask
 str
 )
+JS_BEGIN_MACRO
+JS_END_MACRO
 #
 elif
 defined
@@ -984,6 +986,8 @@ fmt
 .
 .
 )
+JS_BEGIN_MACRO
+JS_END_MACRO
 #
 define
 debug_only_print0
@@ -991,6 +995,8 @@ debug_only_print0
 mask
 str
 )
+JS_BEGIN_MACRO
+JS_END_MACRO
 #
 endif
 #
