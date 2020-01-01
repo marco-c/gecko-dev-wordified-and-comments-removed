@@ -5220,10 +5220,10 @@ GetIonContext
 )
 -
 >
-cx
+compartment
 -
 >
-runtime
+rt
 )
 ScratchReg
 )

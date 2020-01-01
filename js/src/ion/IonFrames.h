@@ -548,6 +548,12 @@ uint32
 frameDepth
 )
 ;
+static
+FrameSizeClass
+ClassLimit
+(
+)
+;
 uint32
 frameSize
 (
