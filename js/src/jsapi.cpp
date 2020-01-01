@@ -1453,6 +1453,12 @@ obj
 cx
 )
 ;
+RootedValue
+val
+(
+cx
+)
+;
 AssertHeapIsIdle
 (
 cx
@@ -1831,6 +1837,11 @@ case
 W
 '
 :
+val
+=
+*
+sp
+;
 str
 =
 ToString
@@ -1839,8 +1850,7 @@ CanGC
 >
 (
 cx
-*
-sp
+val
 )
 ;
 if

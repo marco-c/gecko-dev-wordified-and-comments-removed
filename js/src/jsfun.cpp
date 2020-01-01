@@ -7095,9 +7095,11 @@ CanGC
 (
 cx
 args
-[
+.
+handleAt
+(
 i
-]
+)
 )
 ;
 if
@@ -7617,7 +7619,9 @@ CanGC
 (
 cx
 args
-[
+.
+handleAt
+(
 args
 .
 length
@@ -7625,7 +7629,7 @@ length
 )
 -
 1
-]
+)
 )
 ;
 if

@@ -1326,9 +1326,11 @@ CanGC
 (
 cx
 args
-[
+.
+handleAt
+(
 1
-]
+)
 )
 )
 ;
@@ -3125,7 +3127,7 @@ CanGC
 cx
 args
 .
-get
+handleOrUndefinedAt
 (
 0
 )
@@ -3208,7 +3210,7 @@ CanGC
 cx
 args
 .
-get
+handleOrUndefinedAt
 (
 0
 )

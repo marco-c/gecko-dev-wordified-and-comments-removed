@@ -1830,10 +1830,6 @@ CanGC
 (
 cx
 value
-.
-get
-(
-)
 &
 id
 )

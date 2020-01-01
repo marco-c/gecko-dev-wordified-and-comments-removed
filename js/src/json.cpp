@@ -3065,7 +3065,7 @@ CanGC
 >
 (
 cx
-space
+spaceRoot
 )
 ;
 if
@@ -4054,7 +4054,11 @@ JSString
 str
 =
 (
-argc
+args
+.
+length
+(
+)
 >
 =
 1
@@ -4067,9 +4071,11 @@ CanGC
 (
 cx
 args
-[
+.
+handleAt
+(
 0
-]
+)
 )
 :
 cx
