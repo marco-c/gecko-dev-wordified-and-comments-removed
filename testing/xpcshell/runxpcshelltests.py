@@ -3907,7 +3907,9 @@ True
 )
           
 if
-True
+self
+.
+logfiles
 and
 stdout
 :
