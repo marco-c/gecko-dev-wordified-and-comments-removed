@@ -117,6 +117,10 @@ gBrowser
 .
 selectedTab
 ;
+if
+(
+false
+)
 this
 .
 _addDevMenu
