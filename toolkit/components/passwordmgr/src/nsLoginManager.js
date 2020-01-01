@@ -4874,9 +4874,9 @@ toLowerCase
 ;
 if
 (
-a
+userA
 <
-b
+userB
 )
 return
 -
@@ -4884,9 +4884,9 @@ return
 ;
 if
 (
-b
+userB
 >
-a
+userA
 )
 return
 1
@@ -5105,7 +5105,9 @@ range
 "
 ;
 var
+[
 removedLogin
+]
 =
 this
 .

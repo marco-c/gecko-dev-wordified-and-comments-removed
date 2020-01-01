@@ -480,6 +480,10 @@ test_basic_form_3pw_1
 .
 html
 \
+test_basic_form_autocomplete
+.
+html
+\
 test_bug_227640
 .
 html
