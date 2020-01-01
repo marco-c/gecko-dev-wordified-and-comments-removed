@@ -4910,6 +4910,7 @@ JSClass
 *
 clasp
 ;
+const
 JSObjectOps
 *
 ops
