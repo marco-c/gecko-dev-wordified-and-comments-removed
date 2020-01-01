@@ -6700,7 +6700,7 @@ n
 void
 *
 )
-browser
+this
 NS_ConvertUTF16toUTF8
 (
 documentURI
@@ -6775,7 +6775,7 @@ n
 void
 *
 )
-browser
+this
 NS_ConvertUTF16toUTF8
 (
 documentURI
