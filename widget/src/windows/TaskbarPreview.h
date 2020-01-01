@@ -128,6 +128,12 @@ DetachFromNSWindow
 (
 )
 ;
+PRBool
+IsWindowAvailable
+(
+)
+const
+;
 virtual
 nsresult
 ShowActive
