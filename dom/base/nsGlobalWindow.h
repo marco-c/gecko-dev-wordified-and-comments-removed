@@ -1171,6 +1171,15 @@ LeaveModalState
 (
 )
 ;
+virtual
+NS_HIDDEN_
+(
+void
+)
+SetHasOrientationEventListener
+(
+)
+;
 NS_DECL_NSIDOMVIEWCSS
 NS_DECL_NSIDOMABSTRACTVIEW
 NS_DECL_NSIDOMSTORAGEWINDOW
@@ -2279,6 +2288,11 @@ mNeedsFocus
 ;
 PRPackedBool
 mHasFocus
+:
+1
+;
+PRPackedBool
+mHasAcceleration
 :
 1
 ;

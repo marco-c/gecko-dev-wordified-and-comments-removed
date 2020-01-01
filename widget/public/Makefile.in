@@ -543,6 +543,10 @@ endif
 XPIDLSRCS
 =
 \
+nsIAccelerometer
+.
+idl
+\
 nsIAppShell
 .
 idl

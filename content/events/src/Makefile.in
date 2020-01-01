@@ -515,6 +515,10 @@ nsDOMPopupBlockedEvent
 .
 cpp
 \
+nsDOMOrientationEvent
+.
+cpp
+\
 nsDOMBeforeUnloadEvent
 .
 cpp

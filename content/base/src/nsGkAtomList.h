@@ -10283,6 +10283,13 @@ onMozPressTapGesture
 )
 GK_ATOM
 (
+onMozOrientation
+"
+onMozOrientation
+"
+)
+GK_ATOM
+(
 cdataTagName
 "
 #

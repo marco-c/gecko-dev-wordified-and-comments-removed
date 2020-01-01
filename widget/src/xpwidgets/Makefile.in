@@ -525,6 +525,10 @@ nsClipboardPrivacyHandler
 .
 cpp
 \
+nsAccelerometer
+.
+cpp
+\
 (
 NULL
 )
