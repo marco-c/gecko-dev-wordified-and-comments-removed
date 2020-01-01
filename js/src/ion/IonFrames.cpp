@@ -2751,6 +2751,9 @@ break
 case
 IonFrame_Rectifier
 :
+case
+IonFrame_Bailed_Rectifier
+:
 MarkIonCodeRoot
 (
 trc
