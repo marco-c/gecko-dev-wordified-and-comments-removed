@@ -813,7 +813,7 @@ slotSpan
 (
 )
 ;
-PropertyTable
+ShapeTable
 *
 table
 =

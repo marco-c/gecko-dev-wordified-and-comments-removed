@@ -143,7 +143,7 @@ js
 gc
 ;
 bool
-PropertyTable
+ShapeTable
 :
 :
 init
@@ -562,7 +562,7 @@ cx
 >
 runtime
 ;
-PropertyTable
+ShapeTable
 *
 table
 =
@@ -571,7 +571,7 @@ rt
 >
 new_
 <
-PropertyTable
+ShapeTable
 >
 (
 self
@@ -681,7 +681,7 @@ shift
 Shape
 *
 *
-PropertyTable
+ShapeTable
 :
 :
 search
@@ -1013,7 +1013,7 @@ NULL
 ;
 }
 bool
-PropertyTable
+ShapeTable
 :
 :
 change
@@ -1192,7 +1192,7 @@ true
 ;
 }
 bool
-PropertyTable
+ShapeTable
 :
 :
 grow
@@ -2365,7 +2365,7 @@ getter
 setter
 )
 ;
-PropertyTable
+ShapeTable
 *
 table
 =
@@ -4217,7 +4217,7 @@ inDictionaryMode
 )
 )
 {
-PropertyTable
+ShapeTable
 &
 table
 =
@@ -4392,7 +4392,7 @@ if
 (
 size
 >
-PropertyTable
+ShapeTable
 :
 :
 MIN_SIZE
@@ -4807,7 +4807,7 @@ unowned
 )
 ;
 }
-PropertyTable
+ShapeTable
 &
 table
 =

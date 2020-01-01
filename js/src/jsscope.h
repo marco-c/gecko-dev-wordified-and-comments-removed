@@ -139,7 +139,7 @@ JS_BIT
 2
 ;
 struct
-PropertyTable
+ShapeTable
 {
 static
 const
@@ -201,7 +201,7 @@ Shape
 *
 entries
 ;
-PropertyTable
+ShapeTable
 (
 uint32_t
 nentries
@@ -228,7 +228,7 @@ SHAPE_INVALID_SLOT
 {
 }
 ~
-PropertyTable
+ShapeTable
 (
 )
 {
@@ -516,7 +516,7 @@ UnownedBaseShape
 >
 unowned_
 ;
-PropertyTable
+ShapeTable
 *
 table_
 ;
@@ -745,7 +745,7 @@ table_
 NULL
 ;
 }
-PropertyTable
+ShapeTable
 &
 table
 (
@@ -770,7 +770,7 @@ table_
 void
 setTable
 (
-PropertyTable
+ShapeTable
 *
 table
 )
@@ -1589,7 +1589,7 @@ hasTable
 js
 :
 :
-PropertyTable
+ShapeTable
 &
 table
 (
@@ -3154,7 +3154,7 @@ count
 ;
 }
 bool
-isBigEnoughForAPropertyTable
+isBigEnoughForAShapeTable
 (
 )
 const
@@ -3223,7 +3223,7 @@ if
 count
 >
 =
-PropertyTable
+ShapeTable
 :
 :
 MIN_ENTRIES
@@ -4336,7 +4336,7 @@ if
 start
 -
 >
-isBigEnoughForAPropertyTable
+isBigEnoughForAShapeTable
 (
 )
 )
