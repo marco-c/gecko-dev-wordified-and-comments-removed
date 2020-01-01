@@ -275,6 +275,10 @@ test_nodeToParamConnection
 .
 html
 \
+test_OfflineAudioContext
+.
+html
+\
 test_pannerNode
 .
 html
