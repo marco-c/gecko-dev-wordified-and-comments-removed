@@ -2390,6 +2390,7 @@ if
 (
 aDocument
 )
+{
 return
 aDocument
 -
@@ -2399,6 +2400,7 @@ AddPlugin
 this
 )
 ;
+}
 return
 NS_OK
 ;
