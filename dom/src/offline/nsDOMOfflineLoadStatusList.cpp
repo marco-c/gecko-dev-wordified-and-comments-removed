@@ -1094,6 +1094,7 @@ PRInt32
 )
 aItem
 >
+=
 mItems
 .
 Count
@@ -1738,9 +1739,6 @@ PRUnichar
 aData
 )
 {
-nsresult
-rv
-;
 if
 (
 !
