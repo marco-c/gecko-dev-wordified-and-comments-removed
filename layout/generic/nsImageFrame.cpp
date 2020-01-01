@@ -3499,19 +3499,6 @@ aReflowState
 availableHeight
 )
 {
-if
-(
-nsGkAtoms
-:
-:
-imageFrame
-=
-=
-GetType
-(
-)
-)
-{
 aMetrics
 .
 height
@@ -3534,7 +3521,6 @@ aStatus
 =
 NS_FRAME_NOT_COMPLETE
 ;
-}
 }
 aMetrics
 .
