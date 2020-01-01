@@ -685,10 +685,6 @@ test_mediarecorder_creation
 .
 html
 \
-test_mediarecorder_record_audiocontext
-.
-html
-\
 test_mozHasAudio
 .
 html
