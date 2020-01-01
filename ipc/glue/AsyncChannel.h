@@ -220,6 +220,10 @@ AsyncChannel
 {
 if
 (
+!
+mChild
+&
+&
 mTransport
 )
 Close
