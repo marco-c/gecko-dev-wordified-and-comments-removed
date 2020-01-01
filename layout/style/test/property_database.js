@@ -2688,10 +2688,6 @@ other_values
 "
 15px
 "
-"
-50
-%
-"
 ]
 invalid_values
 :
@@ -2702,6 +2698,10 @@ invalid_values
 "
 -
 1px
+"
+"
+50
+%
 "
 ]
 }
