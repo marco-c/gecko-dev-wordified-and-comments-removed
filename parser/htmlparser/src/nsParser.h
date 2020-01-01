@@ -709,6 +709,12 @@ mParserContext
 ;
 nsCOMPtr
 <
+nsIDTD
+>
+mDTD
+;
+nsCOMPtr
+<
 nsIRequestObserver
 >
 mObserver
