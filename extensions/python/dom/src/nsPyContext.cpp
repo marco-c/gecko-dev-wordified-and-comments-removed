@@ -3867,3 +3867,12 @@ return
 NS_OK
 ;
 }
+void
+nsPythonContext
+:
+:
+ReportPendingException
+(
+)
+{
+}
