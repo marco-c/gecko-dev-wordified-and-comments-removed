@@ -34,6 +34,13 @@ BluetoothTypes
 .
 h
 "
+#
+include
+"
+nsServiceManagerUtils
+.
+h
+"
 USING_BLUETOOTH_NAMESPACE
 BluetoothReplyRunnable
 :

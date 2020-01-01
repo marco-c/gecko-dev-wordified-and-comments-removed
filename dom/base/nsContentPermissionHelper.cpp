@@ -53,6 +53,13 @@ unused
 .
 h
 "
+#
+include
+"
+nsComponentManagerUtils
+.
+h
+"
 using
 mozilla
 :
