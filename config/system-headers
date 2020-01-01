@@ -3253,13 +3253,6 @@ X11
 /
 extensions
 /
-Xinerama
-.
-h
-X11
-/
-extensions
-/
 XShm
 .
 h

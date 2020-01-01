@@ -697,15 +697,6 @@ XLIBS
 (
 MOZ_GTK2_LIBS
 )
-ifdef
-MOZ_ENABLE_XINERAMA
-EXTRA_DSO_LDOPTS
-+
-=
-(
-MOZ_XINERAMA_LIBS
-)
-endif
 ifeq
 (
 (

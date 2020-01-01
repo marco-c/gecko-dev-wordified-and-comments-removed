@@ -669,9 +669,6 @@ workareas
 )
 ;
 }
-#
-ifdef
-MOZ_ENABLE_XINERAMA
 void
 nsScreenGtk
 :
@@ -718,5 +715,3 @@ mRect
 xineRect
 ;
 }
-#
-endif

@@ -1061,15 +1061,6 @@ TK_LIBS
 NULL
 )
 endif
-ifdef
-MOZ_ENABLE_XINERAMA
-EXTRA_DSO_LDOPTS
-+
-=
-(
-MOZ_XINERAMA_LIBS
-)
-endif
 ifneq
 (
 (
