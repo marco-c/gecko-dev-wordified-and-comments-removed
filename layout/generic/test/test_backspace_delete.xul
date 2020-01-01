@@ -430,8 +430,6 @@ restoreEatSpace
 (
 )
 {
-try
-{
 getPrefs
 (
 )
@@ -443,13 +441,6 @@ eat_space_to_next_word
 "
 )
 ;
-}
-catch
-(
-ex
-)
-{
-}
 }
 function
 doCommand
