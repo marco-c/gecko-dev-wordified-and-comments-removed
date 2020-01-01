@@ -689,15 +689,8 @@ hidePopup
 (
 )
 ;
-gDebugger
-.
-DebuggerController
-.
-activeThread
-.
-resume
+closeDebuggerAndFinish
 (
-finish
 )
 ;
 }

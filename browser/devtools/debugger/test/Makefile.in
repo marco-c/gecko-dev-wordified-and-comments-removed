@@ -97,6 +97,10 @@ mk
 MOCHITEST_BROWSER_TESTS
 =
 \
+browser_dbg_leaktest
+.
+js
+\
 browser_dbg_createRemote
 .
 js
