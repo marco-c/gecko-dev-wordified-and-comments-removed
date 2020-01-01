@@ -527,6 +527,9 @@ keys
 "
 iterate
 "
+"
+WeakMap
+"
 }
 ;
 JS_STATIC_ASSERT
