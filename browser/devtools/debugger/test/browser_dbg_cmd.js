@@ -438,16 +438,6 @@ function
 (
 )
 {
-cmd
-(
-"
-dbg
-continue
-"
-function
-(
-)
-{
 is
 (
 output
@@ -582,9 +572,6 @@ deferred
 resolve
 (
 )
-)
-;
-}
 )
 ;
 }
