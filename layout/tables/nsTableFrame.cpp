@@ -13561,7 +13561,6 @@ kidFrame
 kidNextInFlow
 )
 ;
-}
 rowGroups
 .
 InsertElementAt
@@ -13579,6 +13578,7 @@ kidNextInFlow
 )
 )
 ;
+}
 if
 (
 allowRepeatedFooter
@@ -13628,9 +13628,6 @@ GetNextSibling
 ;
 if
 (
-nullptr
-!
-=
 nextSibling
 )
 {
