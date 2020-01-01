@@ -532,15 +532,6 @@ mLastHint
 ;
 }
 ;
-nsresult
-NS_NewCaret
-(
-nsCaret
-*
-*
-aInstancePtrResult
-)
-;
 class
 StCaretHider
 {
