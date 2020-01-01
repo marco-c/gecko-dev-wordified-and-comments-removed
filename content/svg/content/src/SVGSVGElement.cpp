@@ -842,10 +842,6 @@ mUseCurrentView
 false
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsresult
 SVGSVGElement

@@ -82,10 +82,6 @@ SVGMetadataElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsresult
 SVGMetadataElement

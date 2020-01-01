@@ -224,10 +224,6 @@ SVGGradientElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 nsSVGElement
 :

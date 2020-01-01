@@ -123,10 +123,6 @@ SVGClipPathElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 already_AddRefed
 <

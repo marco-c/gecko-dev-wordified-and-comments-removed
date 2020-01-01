@@ -83,10 +83,6 @@ SVGTitleElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 AddMutationObserver
 (
 this

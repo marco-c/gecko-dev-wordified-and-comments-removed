@@ -167,10 +167,6 @@ SVGFEImageElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 AddStatesSilently
 (
 NS_EVENT_STATE_BROKEN

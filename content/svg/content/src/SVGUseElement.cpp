@@ -348,10 +348,6 @@ pop
 #
 endif
 {
-SetIsDOMBinding
-(
-)
-;
 }
 SVGUseElement
 :

@@ -247,12 +247,9 @@ nsIDOMSVGElement
 >
 retval
 =
-do_QueryInterface
-(
 GetRootElement
 (
 rv
-)
 )
 ;
 retval

@@ -230,6 +230,16 @@ nsGkAtoms
 transform
 ;
 }
+virtual
+bool
+IsTransformable
+(
+)
+{
+return
+true
+;
+}
 protected
 :
 nsAutoPtr

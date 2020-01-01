@@ -138,10 +138,6 @@ SVGSwitchElementBase
 aNodeInfo
 )
 {
-SetIsDOMBinding
-(
-)
-;
 }
 void
 SVGSwitchElement
