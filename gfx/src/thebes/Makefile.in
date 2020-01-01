@@ -519,9 +519,12 @@ cpp
 (
 NULL
 )
+ifndef
+WINCE
 _OS_LIBS
 =
 usp10
+endif
 OS_LIBS
 +
 =
