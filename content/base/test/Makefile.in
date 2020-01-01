@@ -1568,6 +1568,14 @@ test_classList
 .
 html
 \
+test_bug313646
+.
+html
+\
+bug313646
+.
+txt
+\
 test_bug489925
 .
 xhtml
