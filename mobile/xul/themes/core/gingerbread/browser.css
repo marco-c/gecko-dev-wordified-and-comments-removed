@@ -747,6 +747,9 @@ png
 )
 bottom
 center
+repeat
+-
+x
 ;
 }
 .
@@ -787,7 +790,7 @@ active
 background
 :
 #
-a5aab2
+ddd
 url
 (
 "
@@ -810,8 +813,11 @@ bg
 png
 "
 )
-bottom
+top
 center
+repeat
+-
+x
 ;
 }
 #
@@ -898,7 +904,7 @@ background
 color
 :
 #
-89d715
+c9ea80
 ;
 background
 -
@@ -966,6 +972,13 @@ active
 {
 background
 -
+color
+:
+#
+b9d880
+;
+background
+-
 image
 :
 url
@@ -1011,7 +1024,7 @@ background
 color
 :
 #
-6579e3
+b2bcf1
 ;
 background
 -
@@ -1077,6 +1090,13 @@ hover
 :
 active
 {
+background
+-
+color
+:
+#
+a7b2ef
+;
 background
 -
 image
