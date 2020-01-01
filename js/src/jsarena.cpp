@@ -790,7 +790,6 @@ aoff
 extra
 hdrsz
 gross
-growth
 ;
 if
 (
