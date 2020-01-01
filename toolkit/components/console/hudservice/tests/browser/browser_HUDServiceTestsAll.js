@@ -3127,6 +3127,8 @@ childNodes
 nodeValue
 "
 null
+\
+n
 "
 "
 '
@@ -3205,6 +3207,8 @@ childNodes
 nodeValue
 "
 undefined
+\
+n
 "
 "
 '
@@ -6886,6 +6890,8 @@ textContent
 id
 =
 header
+\
+n
 "
 "
 (
@@ -6962,6 +6968,8 @@ textContent
 length
 =
 1
+\
+n
 "
 "
 (
@@ -7055,6 +7063,8 @@ textContent
 headerFound
 =
 true
+\
+n
 "
 "
 x
@@ -7104,6 +7114,8 @@ childNodes
 textContent
 "
 undefined
+\
+n
 "
 "
 clear
@@ -7181,6 +7193,8 @@ textContent
 keysResult
 =
 true
+\
+n
 "
 "
 keys
@@ -7256,6 +7270,8 @@ textContent
 valuesResult
 =
 true
+\
+n
 "
 "
 values
@@ -7326,6 +7342,8 @@ n
 b
 :
 2
+\
+n
 "
 "
 pprint
