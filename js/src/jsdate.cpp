@@ -138,6 +138,17 @@ jsobjinlines
 .
 h
 "
+#
+include
+"
+vm
+/
+Stack
+-
+inl
+.
+h
+"
 using
 namespace
 js
@@ -9411,8 +9422,6 @@ cx
 -
 >
 stack
-(
-)
 .
 pushInvokeArgs
 (
@@ -9452,7 +9461,6 @@ Invoke
 (
 cx
 args
-0
 )
 )
 return
