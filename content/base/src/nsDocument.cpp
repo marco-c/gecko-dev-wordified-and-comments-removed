@@ -1,6 +1,13 @@
 #
 include
 "
+nsDocument
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DebugOnly
@@ -89,13 +96,6 @@ h
 include
 "
 nsIInterfaceRequestorUtils
-.
-h
-"
-#
-include
-"
-nsDocument
 .
 h
 "
