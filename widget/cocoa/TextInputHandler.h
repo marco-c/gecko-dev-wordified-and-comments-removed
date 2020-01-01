@@ -2350,6 +2350,7 @@ ModifierKeyArray
 ModifierKeyArray
 mModifierKeys
 ;
+const
 ModifierKey
 *
 GetModifierKeyForNativeKeyCode
@@ -2360,6 +2361,7 @@ aKeyCode
 )
 const
 ;
+const
 ModifierKey
 *
 GetModifierKeyForDeviceDependentFlags
