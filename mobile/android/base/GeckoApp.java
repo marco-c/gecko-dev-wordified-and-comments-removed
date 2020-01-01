@@ -12122,7 +12122,7 @@ sendEventToGecko
 (
 GeckoEvent
 .
-createLoadEvent
+createURILoadEvent
 (
 "
 "
@@ -12202,7 +12202,7 @@ sendEventToGecko
 (
 GeckoEvent
 .
-createLoadEvent
+createURILoadEvent
 (
 uri
 )
@@ -12247,7 +12247,7 @@ sendEventToGecko
 (
 GeckoEvent
 .
-createLoadEvent
+createWebappLoadEvent
 (
 uri
 )
@@ -12294,7 +12294,7 @@ sendEventToGecko
 (
 GeckoEvent
 .
-createLoadEvent
+createBookmarkLoadEvent
 (
 uri
 )
