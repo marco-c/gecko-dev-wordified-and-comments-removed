@@ -95,6 +95,14 @@ argv
 ]
 )
         
+sys
+.
+stdout
+.
+flush
+(
+)
+        
 os
 .
 kill
@@ -106,7 +114,38 @@ SIGKILL
 )
     
 except
+OSError
+e
 :
+        
+print
+"
+timed_run
+.
+py
+:
+exception
+trying
+to
+kill
+process
+:
+%
+d
+(
+%
+s
+)
+"
+%
+(
+e
+.
+errno
+e
+.
+strerror
+)
         
 pass
     
