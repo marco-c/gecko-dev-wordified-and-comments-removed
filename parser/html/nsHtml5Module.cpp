@@ -236,6 +236,13 @@ InitializeStatics
 (
 )
 ;
+nsHtml5TreeOpExecutor
+:
+:
+InitializeStatics
+(
+)
+;
 #
 ifdef
 DEBUG
