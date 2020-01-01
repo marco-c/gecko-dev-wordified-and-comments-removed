@@ -4911,8 +4911,6 @@ decl
 |
 didSanitize
 ;
-rv
-=
 styleRule
 -
 >
@@ -4921,14 +4919,6 @@ GetCssText
 decl
 )
 ;
-if
-(
-NS_SUCCEEDED
-(
-rv
-)
-)
-{
 sanitizedStyleText
 .
 Append
@@ -4936,7 +4926,6 @@ Append
 decl
 )
 ;
-}
 }
 }
 }
