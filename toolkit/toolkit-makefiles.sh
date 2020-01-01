@@ -2938,6 +2938,13 @@ ipc
 interpose
 /
 Makefile
+dom
+/
+system
+/
+cocoa
+/
+Makefile
 image
 /
 decoders
@@ -6663,6 +6670,13 @@ MOZ_B2G_RIL
 then
 add_makefiles
 "
+dom
+/
+system
+/
+b2g
+/
+Makefile
 dom
 /
 telephony
