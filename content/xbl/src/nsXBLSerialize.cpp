@@ -55,6 +55,16 @@ GetNativeContext
 )
 )
 ;
+JS
+:
+:
+RootedObject
+function
+(
+cx
+aFunctionObject
+)
+;
 return
 nsContentUtils
 :
@@ -68,7 +78,7 @@ WriteFunction
 (
 aStream
 cx
-aFunctionObject
+function
 )
 ;
 }
