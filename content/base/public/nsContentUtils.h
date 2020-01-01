@@ -1321,6 +1321,10 @@ aPref
 PRBool
 *
 aVariable
+PRBool
+aDefault
+=
+PR_FALSE
 )
 ;
 static
@@ -1334,6 +1338,10 @@ aPref
 PRInt32
 *
 aVariable
+PRInt32
+aDefault
+=
+0
 )
 ;
 static
