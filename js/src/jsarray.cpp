@@ -106,13 +106,6 @@ h
 #
 include
 "
-jsdtoa
-.
-h
-"
-#
-include
-"
 jsfun
 .
 h
