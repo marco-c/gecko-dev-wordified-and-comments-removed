@@ -15,6 +15,7 @@ XRE_main
 0
 nsnull
 nsnull
+nsnull
 )
 ;
 XRE_GetFileFromPath

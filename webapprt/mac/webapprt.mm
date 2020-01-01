@@ -2180,6 +2180,7 @@ XRE_main
 argc
 argv
 webShellAppData
+0
 )
 ;
 XRE_FreeAppData

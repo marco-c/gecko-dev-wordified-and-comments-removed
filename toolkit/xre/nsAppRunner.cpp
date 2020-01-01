@@ -17753,6 +17753,8 @@ const
 nsXREAppData
 *
 aAppData
+PRUint32
+aFlags
 )
 {
 XREMain
