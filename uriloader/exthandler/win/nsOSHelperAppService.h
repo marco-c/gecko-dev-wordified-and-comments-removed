@@ -134,6 +134,15 @@ nsAString
 result
 )
 ;
+static
+PRBool
+CleanupCmdHandlerPath
+(
+nsAString
+&
+aCommandHandler
+)
+;
 protected
 :
 nsresult
