@@ -2028,6 +2028,12 @@ forget
 "
 )
 ;
+NSCAP_LOG_RELEASE
+(
+this
+mRawPtr
+)
+;
 *
 rhs
 =
@@ -2964,6 +2970,12 @@ to
 forget
 !
 "
+)
+;
+NSCAP_LOG_RELEASE
+(
+this
+mRawPtr
 )
 ;
 *
