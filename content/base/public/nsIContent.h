@@ -803,7 +803,6 @@ aNotify
 =
 0
 ;
-virtual
 bool
 GetAttr
 (
@@ -817,8 +816,6 @@ nsAString
 aResult
 )
 const
-=
-0
 ;
 virtual
 bool
