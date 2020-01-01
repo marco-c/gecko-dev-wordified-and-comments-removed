@@ -111,7 +111,7 @@ Mobile
 SDK
 \
 \
-Smartphone
+PocketPC
 \
 \
 Include
@@ -137,7 +137,7 @@ Mobile
 SDK
 \
 \
-Smartphone
+PocketPC
 \
 \
 Lib
