@@ -1209,7 +1209,8 @@ rdf
 )
 :
             
-assert
+if
+not
 os
 .
 path
@@ -1218,18 +1219,9 @@ isdir
 (
 path
 )
-"
-Addon
-'
-%
-s
-'
-cannot
-be
-installed
-"
-%
-path
+:
+                
+return
             
 addons
 =
@@ -1251,6 +1243,24 @@ os
 listdir
 (
 path
+)
+if
+                    
+os
+.
+path
+.
+isdir
+(
+os
+.
+path
+.
+join
+(
+path
+x
+)
 )
 ]
         
@@ -1504,6 +1514,9 @@ self
 profile
 '
 extensions
+'
+'
+staged
 '
 )
             

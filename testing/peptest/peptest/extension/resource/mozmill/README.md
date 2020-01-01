@@ -105,7 +105,7 @@ github
 .
 com
 /
-mozautomation
+mozilla
 /
 mozmill
 then

@@ -607,15 +607,13 @@ primary
 '
 )
         
-self
-.
-assertRaises
-(
-DuplicateLocationError
+try
+:
+            
 locations
 .
 add_host
-                          
+(
 '
 127
 .
@@ -625,6 +623,24 @@ add_host
 .
 1
 '
+)
+        
+except
+DuplicateLocationError
+:
+            
+self
+.
+assertTrue
+(
+False
+"
+Should
+no
+longer
+throw
+DuplicateLocationError
+"
 )
         
 self
