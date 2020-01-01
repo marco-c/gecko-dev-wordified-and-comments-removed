@@ -127,6 +127,15 @@ reftest
 .
 list
 #
+dom
+/
+include
+dom
+/
+reftest
+.
+list
+#
 bidi
 /
 include
