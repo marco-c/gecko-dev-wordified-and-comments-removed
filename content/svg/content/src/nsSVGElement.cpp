@@ -62,13 +62,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsIDOMMutationEvent
 .
 h

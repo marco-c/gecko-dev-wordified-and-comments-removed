@@ -191,13 +191,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h
@@ -2012,7 +2005,7 @@ send
 DOM
 event
 via
-nsIDOMEventTarget
+EventTarget
 "
 )
 ;

@@ -7,13 +7,6 @@ FileIOObject_h__
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsDOMEventTargetHelper
 .
 h

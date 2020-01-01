@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsINode
+.
+h
+"
+#
+include
+"
 nsDOMEvent
 .
 h

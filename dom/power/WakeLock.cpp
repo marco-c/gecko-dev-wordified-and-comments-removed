@@ -72,13 +72,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h
