@@ -1889,6 +1889,9 @@ aState
 nsIContent
 *
 aContent
+nsStyleContext
+*
+aStyleContext
 nsIFrame
 *
 aFrame
@@ -1898,7 +1901,7 @@ nsFrameItems
 &
 aFrameItems
 PRBool
-aParentIsBlock
+aAllowBlockStyles
 )
 ;
 nsresult
