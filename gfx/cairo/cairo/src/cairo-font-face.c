@@ -1151,6 +1151,14 @@ base
 .
 status
 ;
+if
+(
+options
+!
+=
+NULL
+)
+{
 status
 =
 cairo_font_options_status
@@ -1169,6 +1177,7 @@ status
 return
 status
 ;
+}
 return
 _cairo_font_face_set_error
 (

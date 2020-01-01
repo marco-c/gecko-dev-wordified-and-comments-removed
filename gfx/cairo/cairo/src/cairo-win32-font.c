@@ -893,6 +893,12 @@ logfont
 if
 (
 options
+=
+=
+NULL
+|
+|
+options
 -
 >
 antialias
@@ -1021,6 +1027,13 @@ lfQuality
 DEFAULT_QUALITY
 &
 &
+(
+options
+=
+=
+NULL
+|
+|
 options
 -
 >
@@ -1028,6 +1041,7 @@ antialias
 =
 =
 CAIRO_ANTIALIAS_DEFAULT
+)
 )
 )
 {

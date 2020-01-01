@@ -586,6 +586,8 @@ pixman_int_to_fixed
 (
 width
 )
+-
+1
 ;
 if
 (
@@ -891,10 +893,6 @@ lxi
 )
 ;
 }
-if
-(
-rxs
-)
 WRITE
 (
 image

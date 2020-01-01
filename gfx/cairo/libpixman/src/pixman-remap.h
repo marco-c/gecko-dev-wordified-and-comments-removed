@@ -234,3 +234,7 @@ _moz_pixman_add_trapezoids
 define
 pixman_rasterize_trapezoid
 _moz_pixman_rasterize_trapezoid
+#
+define
+pixman_transform_point_3d
+_moz_pixman_transform_point_3d

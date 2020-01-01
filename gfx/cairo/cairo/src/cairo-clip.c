@@ -2641,9 +2641,6 @@ n_boxes
 &
 boxes
 )
-!
-=
-CAIRO_STATUS_SUCCESS
 )
 return
 (

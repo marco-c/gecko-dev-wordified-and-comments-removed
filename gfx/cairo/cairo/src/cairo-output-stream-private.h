@@ -134,6 +134,15 @@ closure
 )
 ;
 cairo_private
+cairo_output_stream_t
+*
+_cairo_output_stream_create_in_error
+(
+cairo_status_t
+status
+)
+;
+cairo_private
 cairo_status_t
 _cairo_output_stream_close
 (

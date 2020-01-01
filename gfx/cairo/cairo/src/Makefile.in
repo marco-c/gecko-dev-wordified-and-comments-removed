@@ -666,12 +666,6 @@ c
 \
 cairo
 -
-operator
-.
-c
-\
-cairo
--
 output
 -
 stream
