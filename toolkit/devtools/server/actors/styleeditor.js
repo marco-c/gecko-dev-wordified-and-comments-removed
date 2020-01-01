@@ -426,6 +426,8 @@ this
 document
 .
 baseURIObject
+.
+spec
 }
 ;
 }
