@@ -134,7 +134,7 @@ windows
 bug
 752467
 )
-DISABLED_XPCSHELL_TESTS
+XPCSHELL_TESTS
 =
 \
 unit
@@ -646,6 +646,10 @@ browser_739805
 js
 \
 browser_819510_perwindowpb
+.
+js
+\
+browser_833286_atomic_backup
 .
 js
 \
