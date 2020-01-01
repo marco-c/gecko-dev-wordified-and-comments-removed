@@ -705,6 +705,10 @@ entry
 >
 templateObject
 )
+entry
+-
+>
+kind
 )
 ;
 Probes

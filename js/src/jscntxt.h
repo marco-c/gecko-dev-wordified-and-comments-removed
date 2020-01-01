@@ -1299,6 +1299,11 @@ dst
 JSObject
 *
 src
+gc
+:
+:
+AllocKind
+kind
 )
 ;
 }
