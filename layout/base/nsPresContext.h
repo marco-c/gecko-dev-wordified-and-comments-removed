@@ -2215,6 +2215,11 @@ eContext_PrintPreview
 )
 ;
 }
+PRBool
+IsChrome
+(
+)
+;
 const
 nsTArray
 <

@@ -51,6 +51,12 @@ mSID
 PRPackedBool
 mCanStoreInRuleTree
 ;
+PRPackedBool
+mIsImportantRule
+;
+PRUint8
+mLevel
+;
 nsPresContext
 *
 mPresContext
