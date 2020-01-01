@@ -2232,6 +2232,10 @@ Enter
 (
 )
 ;
+CloseAudioStream
+(
+)
+;
 }
 if
 (
