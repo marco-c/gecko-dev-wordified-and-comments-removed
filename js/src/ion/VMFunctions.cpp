@@ -248,10 +248,6 @@ Value
 rval
 )
 {
-AssertCanGC
-(
-)
-;
 RootedFunction
 fun
 (
@@ -373,7 +369,7 @@ canIonCompile
 )
 )
 {
-UnrootedScript
+RawScript
 script
 =
 GetTopIonJSScript
@@ -1233,9 +1229,6 @@ RawObject
 obj
 )
 {
-AutoAssertNoGC
-nogc
-;
 return
 EmulatesUndefined
 (

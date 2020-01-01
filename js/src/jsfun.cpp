@@ -723,7 +723,7 @@ false
 #
 ifdef
 JS_ION
-UnrootedScript
+RawScript
 script
 =
 iter
@@ -2515,10 +2515,6 @@ HandleFunction
 srcFun
 )
 {
-AssertCanGC
-(
-)
-;
 RootedFunction
 clone
 (
@@ -3319,10 +3315,6 @@ bool
 lambdaParen
 )
 {
-AssertCanGC
-(
-)
-;
 StringBuffer
 out
 (
@@ -6158,9 +6150,6 @@ Value
 vp
 )
 {
-AutoAssertNoGC
-nogc
-;
 RawFunction
 fun
 ;
@@ -6207,7 +6196,7 @@ hasScript
 )
 )
 {
-UnrootedScript
+RawScript
 script
 =
 fun
@@ -7942,10 +7931,6 @@ AllocKind
 allocKind
 )
 {
-AssertCanGC
-(
-)
-;
 JS_ASSERT
 (
 parent

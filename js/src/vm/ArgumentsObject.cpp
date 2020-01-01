@@ -257,7 +257,7 @@ ArgumentsData
 data
 )
 {
-UnrootedScript
+RawScript
 script
 =
 frame
@@ -591,10 +591,6 @@ CopyArgs
 copy
 )
 {
-AssertCanGC
-(
-)
-;
 RootedObject
 proto
 (
@@ -864,10 +860,11 @@ create
 (
 cx
 FINALIZE_KIND
-gc
-:
-:
-DefaultHeap
+GetInitialHeap
+(
+GenericObject
+clasp
+)
 shape
 type
 NULL
@@ -3017,6 +3014,8 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Object
 )
+|
+JSCLASS_BACKGROUND_FINALIZE
 JS_PropertyStub
 args_delProperty
 JS_PropertyStub
@@ -3076,6 +3075,8 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Object
 )
+|
+JSCLASS_BACKGROUND_FINALIZE
 JS_PropertyStub
 args_delProperty
 JS_PropertyStub

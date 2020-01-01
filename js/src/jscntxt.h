@@ -829,7 +829,7 @@ static
 bool
 match
 (
-UnrootedScript
+RawScript
 script
 const
 EvalCacheLookup
@@ -1299,6 +1299,11 @@ dst
 JSObject
 *
 src
+gc
+:
+:
+AllocKind
+kind
 )
 ;
 }
@@ -1617,9 +1622,6 @@ gcSavedRoots
 ;
 bool
 gcRelaxRootChecks
-;
-int
-gcAssertNoGCDepth
 ;
 #
 endif
@@ -7042,10 +7044,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
-AutoAssertNoGCOrException
-:
-public
-AutoAssertNoGC
+AutoAssertNoException
 {
 #
 ifdef
@@ -7061,7 +7060,7 @@ hadException
 endif
 public
 :
-AutoAssertNoGCOrException
+AutoAssertNoException
 (
 JSContext
 *
@@ -7089,7 +7088,7 @@ endif
 {
 }
 ~
-AutoAssertNoGCOrException
+AutoAssertNoException
 (
 )
 {

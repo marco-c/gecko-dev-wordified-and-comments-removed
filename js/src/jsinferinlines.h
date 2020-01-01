@@ -1143,9 +1143,6 @@ RawId
 id
 )
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 !
@@ -1644,7 +1641,7 @@ NoCompilerRunning
 bool
 init
 (
-UnrootedScript
+RawScript
 script
 bool
 constructing
@@ -2066,9 +2063,6 @@ JSProtoKey
 key
 )
 {
-js
-:
-:
 RootedObject
 proto
 (
@@ -2328,15 +2322,12 @@ TrackPropertyTypes
 JSContext
 *
 cx
-UnrootedObject
+RawObject
 obj
 RawId
 id
 )
 {
-AutoAssertNoGC
-nogc
-;
 if
 (
 !
@@ -2410,7 +2401,7 @@ EnsureTrackPropertyTypes
 JSContext
 *
 cx
-UnrootedObject
+RawObject
 obj
 RawId
 id
@@ -2531,10 +2522,6 @@ Type
 type
 )
 {
-AssertCanGC
-(
-)
-;
 if
 (
 cx
@@ -2594,10 +2581,6 @@ Value
 value
 )
 {
-AssertCanGC
-(
-)
-;
 if
 (
 cx
@@ -2657,10 +2640,6 @@ Type
 type
 )
 {
-AssertCanGC
-(
-)
-;
 if
 (
 cx
@@ -2710,10 +2689,6 @@ Value
 value
 )
 {
-AssertCanGC
-(
-)
-;
 if
 (
 cx
@@ -2943,9 +2918,6 @@ RawObject
 obj
 )
 {
-AutoAssertNoGC
-nogc
-;
 if
 (
 cx
@@ -3189,9 +3161,6 @@ JSFunction
 fun
 )
 {
-AutoAssertNoGC
-nogc
-;
 if
 (
 !
@@ -3232,7 +3201,7 @@ hasSingletonType
 return
 false
 ;
-UnrootedScript
+RawScript
 script
 =
 fun
@@ -3373,7 +3342,7 @@ TypeScript
 :
 NumTypeSets
 (
-UnrootedScript
+RawScript
 script
 )
 {
@@ -3404,9 +3373,6 @@ RawScript
 script
 )
 {
-AutoAssertNoGC
-nogc
-;
 TypeSet
 *
 types
@@ -3457,9 +3423,6 @@ RawScript
 script
 )
 {
-AutoAssertNoGC
-nogc
-;
 TypeSet
 *
 types
@@ -3512,9 +3475,6 @@ unsigned
 i
 )
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 i
@@ -3583,9 +3543,6 @@ unsigned
 i
 )
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 i
@@ -3650,9 +3607,6 @@ unsigned
 slot
 )
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 slot
@@ -3714,9 +3668,6 @@ JSProtoKey
 key
 )
 {
-js
-:
-:
 RootedObject
 proto
 (
@@ -4415,9 +4366,6 @@ jsbytecode
 pc
 )
 {
-AutoAssertNoGC
-nogc
-;
 #
 ifdef
 JS_ION
@@ -7422,7 +7370,7 @@ TypeCallsite
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -7661,10 +7609,6 @@ compartment
 activeAnalysis
 )
 ;
-AssertCanGC
-(
-)
-;
 JS_ASSERT
 (
 JSID_IS_VOID
@@ -7799,9 +7743,6 @@ return
 NULL
 ;
 }
-AutoAssertNoGC
-nogc
-;
 if
 (
 propertyCount
@@ -7915,9 +7856,6 @@ JSContext
 cx
 )
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 JSID_IS_VOID

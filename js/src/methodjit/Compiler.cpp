@@ -34858,7 +34858,7 @@ offsetOfEnclosingScope
 reg
 )
 ;
-UnrootedShape
+RawShape
 shape
 =
 ScopeCoordinateToStaticScopeShape
@@ -37288,10 +37288,6 @@ uint32_t
 index
 )
 {
-AssertCanGC
-(
-)
-;
 PropertyName
 *
 name
@@ -37579,7 +37575,7 @@ name
 )
 )
 ;
-UnrootedShape
+RawShape
 shape
 =
 globalObj
@@ -37622,10 +37618,7 @@ globalObj
 >
 getSlotRef
 (
-DropUnrooted
-(
 shape
-)
 -
 >
 slot
@@ -45481,10 +45474,6 @@ bool
 testUndefined
 )
 {
-AssertCanGC
-(
-)
-;
 if
 (
 !

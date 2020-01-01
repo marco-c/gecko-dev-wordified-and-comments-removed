@@ -1756,9 +1756,6 @@ MutableHandleFunction
 nextCallee
 )
 {
-AutoAssertNoGC
-nogc
-;
 uint32_t
 exprStackSlots
 =

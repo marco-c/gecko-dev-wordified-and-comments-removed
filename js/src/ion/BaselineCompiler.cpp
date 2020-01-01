@@ -7031,7 +7031,7 @@ offsetOfEnclosingScope
 reg
 )
 ;
-UnrootedShape
+RawShape
 shape
 =
 ScopeCoordinateToStaticScopeShape

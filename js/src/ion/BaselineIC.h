@@ -11149,7 +11149,7 @@ cx
 ICStub
 *
 firstMonitorStub
-UnrootedShape
+RawShape
 shape
 )
 :
@@ -11378,7 +11378,7 @@ Compiler
 JSContext
 *
 cx
-UnrootedShape
+RawShape
 shape
 uint32_t
 type
@@ -11723,7 +11723,7 @@ Compiler
 JSContext
 *
 cx
-UnrootedShape
+RawShape
 shape
 HandleTypeObject
 type
@@ -12039,13 +12039,13 @@ Compiler
 JSContext
 *
 cx
-UnrootedShape
+RawShape
 shape
 HandleTypeObject
 type
-UnrootedObject
+RawObject
 lastProto
-UnrootedShape
+RawShape
 lastProtoShape
 )
 :
@@ -12377,7 +12377,7 @@ Compiler
 JSContext
 *
 cx
-UnrootedShape
+RawShape
 shape
 uint32_t
 type

@@ -2348,10 +2348,6 @@ void
 userRef
 )
 {
-AssertCanGC
-(
-)
-;
 JS_ASSERT
 (
 reportp
@@ -2491,9 +2487,6 @@ JSErrorReport
 report
 )
 {
-AutoAssertNoGC
-nogc
-;
 NonBuiltinScriptFrameIter
 iter
 (
@@ -2571,9 +2564,6 @@ JSContext
 cx
 )
 {
-AutoAssertNoGC
-nogc
-;
 cx
 -
 >
@@ -2769,7 +2759,7 @@ flags
 )
 )
 {
-UnrootedScript
+RawScript
 script
 =
 cx

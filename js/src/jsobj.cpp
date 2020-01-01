@@ -6109,10 +6109,6 @@ NewObjectKind
 newKind
 )
 {
-AssertCanGC
-(
-)
-;
 JS_ASSERT
 (
 clasp
@@ -6232,9 +6228,10 @@ gc
 InitialHeap
 heap
 =
-InitialHeapForNewKind
+GetInitialHeap
 (
 newKind
+clasp
 )
 ;
 JSObject
@@ -6515,9 +6512,10 @@ newObjectFromHit
 (
 cx
 entry
-InitialHeapForNewKind
+GetInitialHeap
 (
 newKind
+clasp
 )
 )
 ;
@@ -6795,9 +6793,10 @@ newObjectFromHit
 (
 cx
 entry
-InitialHeapForNewKind
+GetInitialHeap
 (
 newKind
+clasp
 )
 )
 ;
@@ -7062,9 +7061,11 @@ newObjectFromHit
 (
 cx
 entry
-InitialHeapForNewKind
+GetInitialHeap
 (
 newKind
+&
+ObjectClass
 )
 )
 ;
@@ -7354,7 +7355,7 @@ return
 NULL
 ;
 }
-UnrootedShape
+RawShape
 nshape
 =
 shape
@@ -8021,7 +8022,7 @@ Detecting
 JSContext
 *
 cx
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -8234,7 +8235,7 @@ jsbytecode
 *
 pc
 ;
-UnrootedScript
+RawScript
 script
 =
 cx
@@ -9558,10 +9559,6 @@ cx
 bArg
 )
 ;
-AssertCanGC
-(
-)
-;
 JS_ASSERT
 (
 a
@@ -10131,9 +10128,6 @@ TradeGutsReserved
 reserved
 )
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 a
@@ -15355,10 +15349,6 @@ uint32_t
 slotp
 )
 {
-AssertCanGC
-(
-)
-;
 uint32_t
 slot
 =
@@ -15879,7 +15869,7 @@ return
 true
 ;
 }
-UnrootedShape
+RawShape
 js_AddNativeProperty
 (
 JSContext
@@ -15914,12 +15904,9 @@ id
 )
 )
 return
-UnrootedShape
-(
 NULL
-)
 ;
-UnrootedShape
+RawShape
 shape
 =
 JSObject
@@ -17428,7 +17415,7 @@ return
 true
 ;
 }
-UnrootedShape
+RawShape
 shape
 ;
 if
@@ -17534,14 +17521,6 @@ MutableHandleType
 propp
 )
 {
-if
-(
-allowGC
-)
-AssertCanGC
-(
-)
-;
 typename
 MaybeRooted
 <
@@ -17603,7 +17582,7 @@ return
 true
 ;
 }
-UnrootedShape
+RawShape
 shape
 =
 current
@@ -18238,7 +18217,7 @@ Shape
 propp
 )
 {
-AutoAssertNoGCOrException
+AutoAssertNoException
 nogc
 (
 cx
@@ -18636,7 +18615,7 @@ jsbytecode
 *
 pc
 ;
-UnrootedScript
+RawScript
 script
 =
 cx
@@ -19791,7 +19770,7 @@ Value
 vp
 )
 {
-AutoAssertNoGCOrException
+AutoAssertNoException
 nogc
 (
 cx
@@ -20023,7 +20002,7 @@ propname
 )
 {
 {
-UnrootedScript
+RawScript
 script
 =
 cx
@@ -20121,7 +20100,7 @@ jsbytecode
 *
 pc
 ;
-UnrootedScript
+RawScript
 script
 =
 cx
@@ -22291,9 +22270,6 @@ Value
 vp
 )
 {
-AutoAssertNoGC
-nogc
-;
 if
 (
 JSID_IS_INT
@@ -22334,7 +22310,7 @@ true
 }
 if
 (
-UnrootedShape
+RawShape
 shape
 =
 obj
@@ -24159,7 +24135,7 @@ trc
 debugPrintIndex
 )
 ;
-UnrootedShape
+RawShape
 shape
 ;
 if
@@ -24475,9 +24451,6 @@ Value
 v
 )
 {
-AutoAssertNoGC
-nogc
-;
 if
 (
 v
@@ -24667,7 +24640,7 @@ hasScript
 )
 )
 {
-UnrootedScript
+RawScript
 script
 =
 fun
@@ -26760,9 +26733,6 @@ JSContext
 cx
 )
 {
-AutoAssertNoGC
-nogc
-;
 Sprinter
 sprinter
 (

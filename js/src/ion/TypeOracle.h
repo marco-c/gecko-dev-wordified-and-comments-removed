@@ -115,7 +115,7 @@ virtual
 UnaryTypes
 unaryTypes
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -128,7 +128,7 @@ virtual
 BinaryTypes
 binaryTypes
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -141,7 +141,7 @@ virtual
 Unary
 unaryOp
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -154,7 +154,7 @@ virtual
 Binary
 binaryOp
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -171,7 +171,7 @@ StackTypeSet
 *
 thisTypeSet
 (
-UnrootedScript
+RawScript
 script
 )
 {
@@ -206,7 +206,7 @@ StackTypeSet
 *
 parameterTypeSet
 (
-UnrootedScript
+RawScript
 script
 size_t
 index
@@ -224,7 +224,7 @@ HeapTypeSet
 *
 globalPropertyTypeSet
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -245,7 +245,7 @@ StackTypeSet
 *
 propertyRead
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -296,7 +296,7 @@ virtual
 bool
 propertyReadAccessGetter
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -315,7 +315,7 @@ HeapTypeSet
 *
 globalPropertyWrite
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -344,7 +344,7 @@ StackTypeSet
 *
 returnTypeSet
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -386,7 +386,7 @@ virtual
 bool
 inArrayIsPacked
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -434,7 +434,7 @@ virtual
 bool
 elementReadIsString
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -449,7 +449,7 @@ virtual
 bool
 elementReadShouldAlwaysLoadDoubles
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -464,7 +464,7 @@ virtual
 bool
 elementReadHasExtraIndexedProperty
 (
-UnrootedScript
+RawScript
 jsbytecode
 *
 pc
@@ -478,7 +478,7 @@ virtual
 bool
 elementReadIsPacked
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -493,7 +493,7 @@ virtual
 void
 elementReadGeneric
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -529,7 +529,7 @@ virtual
 bool
 setElementHasWrittenHoles
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -624,7 +624,7 @@ virtual
 bool
 elementWriteNeedsDoubleConversion
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -669,7 +669,7 @@ virtual
 bool
 arrayResultShouldHaveDoubleConversion
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -684,7 +684,7 @@ virtual
 bool
 propertyWriteCanSpecialize
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -699,7 +699,7 @@ virtual
 bool
 propertyWriteNeedsBarrier
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -716,7 +716,7 @@ virtual
 bool
 elementWriteNeedsBarrier
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -731,7 +731,7 @@ virtual
 MIRType
 elementWrite
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -760,7 +760,7 @@ StackTypeSet
 *
 getCallTarget
 (
-UnrootedScript
+RawScript
 caller
 uint32_t
 argc
@@ -804,7 +804,7 @@ StackTypeSet
 *
 getCallArg
 (
-UnrootedScript
+RawScript
 script
 uint32_t
 argc
@@ -827,7 +827,7 @@ StackTypeSet
 *
 getCallReturn
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -909,7 +909,7 @@ virtual
 LazyArgumentsType
 propertyReadMagicArguments
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -924,7 +924,7 @@ virtual
 LazyArgumentsType
 elementReadMagicArguments
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -939,7 +939,7 @@ virtual
 LazyArgumentsType
 elementWriteMagicArguments
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -958,7 +958,7 @@ StackTypeSet
 *
 aliasedVarBarrier
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -989,7 +989,7 @@ public
 UnaryTypes
 unaryTypes
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1018,7 +1018,7 @@ u
 BinaryTypes
 binaryTypes
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1053,7 +1053,7 @@ b
 Unary
 unaryOp
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1082,7 +1082,7 @@ u
 Binary
 binaryOp
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1219,7 +1219,7 @@ bool
 inlinedCall
 )
 ;
-UnrootedScript
+RawScript
 script
 (
 )
@@ -1235,7 +1235,7 @@ get
 UnaryTypes
 unaryTypes
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1245,7 +1245,7 @@ pc
 BinaryTypes
 binaryTypes
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1255,7 +1255,7 @@ pc
 Unary
 unaryOp
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1265,7 +1265,7 @@ pc
 Binary
 binaryOp
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1279,7 +1279,7 @@ StackTypeSet
 *
 thisTypeSet
 (
-UnrootedScript
+RawScript
 script
 )
 ;
@@ -1304,7 +1304,7 @@ StackTypeSet
 *
 parameterTypeSet
 (
-UnrootedScript
+RawScript
 script
 size_t
 index
@@ -1317,7 +1317,7 @@ HeapTypeSet
 *
 globalPropertyTypeSet
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1333,7 +1333,7 @@ StackTypeSet
 *
 propertyRead
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1369,7 +1369,7 @@ id
 bool
 propertyReadAccessGetter
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1383,7 +1383,7 @@ HeapTypeSet
 *
 globalPropertyWrite
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1402,7 +1402,7 @@ StackTypeSet
 *
 returnTypeSet
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1423,7 +1423,7 @@ StackTypeSet
 *
 getCallTarget
 (
-UnrootedScript
+RawScript
 caller
 uint32_t
 argc
@@ -1439,7 +1439,7 @@ StackTypeSet
 *
 getCallArg
 (
-UnrootedScript
+RawScript
 caller
 uint32_t
 argc
@@ -1457,7 +1457,7 @@ StackTypeSet
 *
 getCallReturn
 (
-UnrootedScript
+RawScript
 caller
 jsbytecode
 *
@@ -1477,7 +1477,7 @@ pc
 bool
 inArrayIsPacked
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1510,7 +1510,7 @@ atype
 bool
 elementReadIsString
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1520,7 +1520,7 @@ pc
 bool
 elementReadShouldAlwaysLoadDoubles
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1530,7 +1530,7 @@ pc
 bool
 elementReadHasExtraIndexedProperty
 (
-UnrootedScript
+RawScript
 jsbytecode
 *
 pc
@@ -1539,7 +1539,7 @@ pc
 bool
 elementReadIsPacked
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1549,7 +1549,7 @@ pc
 void
 elementReadGeneric
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1628,7 +1628,7 @@ arrayType
 bool
 elementWriteNeedsDoubleConversion
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1658,7 +1658,7 @@ pc
 bool
 arrayResultShouldHaveDoubleConversion
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1668,7 +1668,7 @@ pc
 bool
 setElementHasWrittenHoles
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1678,7 +1678,7 @@ pc
 bool
 propertyWriteCanSpecialize
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1688,7 +1688,7 @@ pc
 bool
 propertyWriteNeedsBarrier
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1700,7 +1700,7 @@ id
 bool
 elementWriteNeedsBarrier
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1710,7 +1710,7 @@ pc
 MIRType
 elementWrite
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1765,7 +1765,7 @@ StackTypeSet
 *
 aliasedVarBarrier
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1793,7 +1793,7 @@ obj
 LazyArgumentsType
 propertyReadMagicArguments
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1803,7 +1803,7 @@ pc
 LazyArgumentsType
 elementReadMagicArguments
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1813,7 +1813,7 @@ pc
 LazyArgumentsType
 elementWriteMagicArguments
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *

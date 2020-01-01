@@ -199,7 +199,8 @@ return
 frameSize_
 ;
 }
-UnrootedObject
+JSObject
+*
 scopeChain
 (
 )
@@ -302,7 +303,8 @@ CalleeToken
 pointer
 ;
 }
-UnrootedScript
+JSScript
+*
 script
 (
 )
@@ -363,7 +365,8 @@ fun
 NULL
 ;
 }
-UnrootedFunction
+JSFunction
+*
 callee
 (
 )

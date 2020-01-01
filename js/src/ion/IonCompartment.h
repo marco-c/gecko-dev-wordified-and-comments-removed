@@ -1255,7 +1255,7 @@ FinishInvalidation
 FreeOp
 *
 fop
-UnrootedScript
+RawScript
 script
 )
 ;

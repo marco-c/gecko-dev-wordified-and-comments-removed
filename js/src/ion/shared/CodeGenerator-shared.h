@@ -1531,7 +1531,7 @@ framePushed_
 void
 setSource
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1557,7 +1557,7 @@ return
 pc_
 ;
 }
-UnrootedScript
+RawScript
 script
 (
 )
@@ -2261,10 +2261,6 @@ StoreOutputTo
 ool
 )
 {
-AssertCanGC
-(
-)
-;
 LInstruction
 *
 lir

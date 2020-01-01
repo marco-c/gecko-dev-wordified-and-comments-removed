@@ -3053,7 +3053,7 @@ BaselineScript
 :
 toggleDebugTraps
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -3648,7 +3648,7 @@ FinishDiscardBaselineScript
 FreeOp
 *
 fop
-UnrootedScript
+RawScript
 script
 )
 {

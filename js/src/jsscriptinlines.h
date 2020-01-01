@@ -115,7 +115,7 @@ AliasedFormalIter
 js
 :
 :
-UnrootedScript
+RawScript
 script
 )
 :
@@ -223,9 +223,6 @@ opt
 CALLED_FROM_JSOP_EVAL
 )
 {
-AutoAssertNoGC
-nogc
-;
 JSScript
 *
 script
@@ -788,7 +785,7 @@ writeBarrierPre
 js
 :
 :
-UnrootedScript
+RawScript
 script
 )
 {
@@ -843,7 +840,7 @@ isHeapBusy
 js
 :
 :
-UnrootedScript
+RawScript
 tmp
 =
 script
@@ -886,7 +883,7 @@ writeBarrierPost
 js
 :
 :
-UnrootedScript
+RawScript
 script
 void
 *
