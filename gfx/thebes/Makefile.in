@@ -537,14 +537,6 @@ gfxTypes
 .
 h
 \
-gfxUnicodeProperties
-.
-h
-\
-gfxUnicodeScriptCodes
-.
-h
-\
 gfxUtils
 .
 h
@@ -969,10 +961,6 @@ gfxUserFontSet
 cpp
 \
 gfxUtils
-.
-cpp
-\
-gfxUnicodeProperties
 .
 cpp
 \

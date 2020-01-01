@@ -37,7 +37,7 @@ h
 #
 include
 "
-gfxUnicodeProperties
+nsUnicodeProperties
 .
 h
 "
@@ -1596,7 +1596,10 @@ aCh
 PRInt32
 script
 =
-gfxUnicodeProperties
+mozilla
+:
+:
+unicode
 :
 :
 GetScriptCode

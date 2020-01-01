@@ -78,13 +78,6 @@ h
 #
 include
 "
-gfxUnicodeProperties
-.
-h
-"
-#
-include
-"
 graphite2
 /
 Font

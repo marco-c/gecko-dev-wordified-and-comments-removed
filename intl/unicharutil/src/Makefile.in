@@ -424,6 +424,11 @@ FORCE_STATIC_LIB
 LIBXUL_LIBRARY
 =
 1
+DEFINES
++
+=
+-
+DHB_DONT_DEFINE_STDINT
 CPPSRCS
 =
 \
@@ -444,6 +449,10 @@ nsSaveAsCharset
 cpp
 \
 nsUnicodeNormalizer
+.
+cpp
+\
+nsUnicodeProperties
 .
 cpp
 \

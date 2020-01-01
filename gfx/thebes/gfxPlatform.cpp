@@ -145,7 +145,7 @@ h
 #
 include
 "
-gfxUnicodeProperties
+nsUnicodeProperties
 .
 h
 "
@@ -533,7 +533,10 @@ scripts
 #
 define
 HARFBUZZ_SCRIPTS_DEFAULT
-gfxUnicodeProperties
+mozilla
+:
+:
+unicode
 :
 :
 SHAPING_DEFAULT
@@ -2921,7 +2924,10 @@ HARFBUZZ_SCRIPTS_DEFAULT
 PRInt32
 shapingType
 =
-gfxUnicodeProperties
+mozilla
+:
+:
+unicode
 :
 :
 ScriptShapingType
