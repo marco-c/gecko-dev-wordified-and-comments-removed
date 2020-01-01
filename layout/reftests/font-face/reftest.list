@@ -1236,6 +1236,7 @@ failure
 is
 bug
 468217
+random
 HTTP
 (
 .
@@ -1259,6 +1260,9 @@ rule
 ref
 .
 html
+#
+bug
+472267
 HTTP
 (
 .
