@@ -62,6 +62,9 @@ init
 (
 )
 {
+#
+ifdef
+DEBUG
 c1Spewer
 .
 enable
@@ -96,6 +99,8 @@ json
 return
 false
 ;
+#
+endif
 jsonSpewer
 .
 beginFunction

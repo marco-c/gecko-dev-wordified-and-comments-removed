@@ -143,8 +143,17 @@ first_
 (
 true
 )
+fp_
+(
+NULL
+)
 {
 }
+~
+JSONSpewer
+(
+)
+;
 bool
 init
 (

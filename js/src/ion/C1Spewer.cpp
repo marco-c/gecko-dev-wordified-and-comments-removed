@@ -100,6 +100,10 @@ C1Spewer
 (
 )
 {
+if
+(
+spewout_
+)
 fclose
 (
 spewout_
