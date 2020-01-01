@@ -7,15 +7,6 @@ MOZILLA_SMILINTEGERTYPE_H_
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsISMILType
 .
 h
@@ -40,7 +31,6 @@ nsSMILValue
 aValue
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -64,7 +54,6 @@ nsSMILValue
 aSrc
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -80,7 +69,6 @@ nsSMILValue
 aRight
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -97,7 +85,6 @@ uint32_t
 aCount
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -116,7 +103,6 @@ double
 aDistance
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -137,7 +123,6 @@ nsSMILValue
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 static
 SMILIntegerType

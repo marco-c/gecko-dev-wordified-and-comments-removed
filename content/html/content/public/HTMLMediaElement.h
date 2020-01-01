@@ -357,7 +357,6 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
 ;
 nsresult
 SetAttr
@@ -405,7 +404,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -419,7 +417,6 @@ aAttr
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -437,7 +434,6 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -452,14 +448,12 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
 DoneCreatingElement
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -474,14 +468,12 @@ int32_t
 *
 aTabIndex
 )
-MOZ_OVERRIDE
 ;
 virtual
 int32_t
 TabIndexDefault
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -806,7 +798,6 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
 ;
 uint32_t
 GetCurrentLoadID
@@ -1525,7 +1516,6 @@ nsAString
 &
 text
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1536,7 +1526,6 @@ nsAString
 &
 text
 )
-MOZ_OVERRIDE
 ;
 class
 WakeLockBoolWrapper

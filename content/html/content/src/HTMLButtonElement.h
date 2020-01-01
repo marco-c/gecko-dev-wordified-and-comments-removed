@@ -7,15 +7,6 @@ mozilla_dom_HTMLButtonElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
@@ -111,7 +102,6 @@ NS_IMETHOD
 Reset
 (
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SubmitNamesValues
@@ -120,13 +110,11 @@ nsFormSubmission
 *
 aFormSubmission
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SaveState
 (
 )
-MOZ_OVERRIDE
 ;
 bool
 RestoreState
@@ -135,7 +123,6 @@ nsPresState
 *
 aState
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -144,7 +131,6 @@ IsDisabledForEvents
 uint32_t
 aMessage
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -154,7 +140,6 @@ nsEventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -164,7 +149,6 @@ nsEventChainPostVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -179,7 +163,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -187,7 +170,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this
@@ -229,7 +211,6 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -244,21 +225,18 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
 DoneCreatingElement
 (
 )
-MOZ_OVERRIDE
 ;
 nsEventStates
 IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -276,7 +254,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 nsresult
 AfterSetAttr
@@ -293,7 +270,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -312,7 +288,6 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -327,7 +302,6 @@ int32_t
 *
 aTabIndex
 )
-MOZ_OVERRIDE
 ;
 bool
 Autofocus

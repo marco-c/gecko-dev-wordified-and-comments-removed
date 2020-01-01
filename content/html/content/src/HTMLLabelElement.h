@@ -7,15 +7,6 @@ HTMLLabelElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
@@ -163,7 +154,6 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 NS_FORM_LABEL
@@ -173,7 +163,6 @@ NS_IMETHOD
 Reset
 (
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SubmitNamesValues
@@ -182,7 +171,6 @@ nsFormSubmission
 *
 aFormSubmission
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -190,7 +178,6 @@ IsDisabled
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 false
@@ -204,7 +191,6 @@ nsEventChainPostVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -215,7 +201,6 @@ aKeyCausesActivation
 bool
 aIsTrustedEvent
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -230,7 +215,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -238,7 +222,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this

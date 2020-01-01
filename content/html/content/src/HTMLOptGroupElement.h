@@ -7,15 +7,6 @@ mozilla_dom_HTMLOptGroupElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLOptGroupElement
 .
 h
@@ -75,7 +66,6 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -86,7 +76,6 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -96,7 +85,6 @@ nsEventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsEventStates
@@ -104,7 +92,6 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -119,7 +106,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -137,7 +123,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -145,7 +130,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this
@@ -157,7 +141,6 @@ IsDisabled
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 HasAttr

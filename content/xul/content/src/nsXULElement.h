@@ -7,15 +7,6 @@ nsXULElement_h__
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIDOMEvent
 .
 h
@@ -494,7 +485,6 @@ char
 ClassName
 (
 )
-MOZ_OVERRIDE
 {
 return
 "
@@ -507,7 +497,6 @@ uint32_t
 ClassSize
 (
 )
-MOZ_OVERRIDE
 {
 return
 sizeof
@@ -524,7 +513,6 @@ void
 ReleaseSubtree
 (
 )
-MOZ_OVERRIDE
 {
 for
 (
@@ -603,7 +591,6 @@ nsINodeInfo
 *
 aNodeInfos
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -626,7 +613,6 @@ nsINodeInfo
 *
 aNodeInfos
 )
-MOZ_OVERRIDE
 ;
 nsresult
 SetAttrAt
@@ -733,7 +719,6 @@ char
 ClassName
 (
 )
-MOZ_OVERRIDE
 {
 return
 "
@@ -746,7 +731,6 @@ uint32_t
 ClassSize
 (
 )
-MOZ_OVERRIDE
 {
 return
 sizeof
@@ -776,7 +760,6 @@ nsINodeInfo
 *
 aNodeInfos
 )
-MOZ_OVERRIDE
 ;
 nsresult
 SerializeOutOfLine
@@ -810,7 +793,6 @@ nsINodeInfo
 *
 aNodeInfos
 )
-MOZ_OVERRIDE
 ;
 nsresult
 DeserializeOutOfLine
@@ -1019,7 +1001,6 @@ char
 ClassName
 (
 )
-MOZ_OVERRIDE
 {
 return
 "
@@ -1032,7 +1013,6 @@ uint32_t
 ClassSize
 (
 )
-MOZ_OVERRIDE
 {
 return
 sizeof
@@ -1062,7 +1042,6 @@ nsINodeInfo
 *
 aNodeInfos
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1085,7 +1064,6 @@ nsINodeInfo
 *
 aNodeInfos
 )
-MOZ_OVERRIDE
 ;
 nsString
 mValue
@@ -1127,7 +1105,6 @@ char
 ClassName
 (
 )
-MOZ_OVERRIDE
 {
 return
 "
@@ -1140,7 +1117,6 @@ uint32_t
 ClassSize
 (
 )
-MOZ_OVERRIDE
 {
 return
 sizeof
@@ -1170,7 +1146,6 @@ nsINodeInfo
 *
 aNodeInfos
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1193,7 +1168,6 @@ nsINodeInfo
 *
 aNodeInfos
 )
-MOZ_OVERRIDE
 ;
 nsString
 mTarget
@@ -1343,7 +1317,6 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1354,7 +1327,6 @@ aDeep
 bool
 aNullParent
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1365,14 +1337,12 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
 DestroyContent
 (
 )
-MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -1388,7 +1358,6 @@ int32_t
 aIndent
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1403,7 +1372,6 @@ bool
 aDumpAll
 )
 const
-MOZ_OVERRIDE
 {
 }
 #
@@ -1417,7 +1385,6 @@ aKeyCausesActivation
 bool
 aIsTrustedEvent
 )
-MOZ_OVERRIDE
 ;
 nsresult
 ClickWithInputSource
@@ -1433,7 +1400,6 @@ GetBindingParent
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1443,7 +1409,6 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1459,7 +1424,6 @@ aWithMouse
 =
 false
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WalkContentStyleRules
@@ -1468,7 +1432,6 @@ nsRuleWalker
 *
 aRuleWalker
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsChangeHint
@@ -1482,7 +1445,6 @@ int32_t
 aModType
 )
 const
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -1496,7 +1458,6 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
 ;
 void
 SetTemplateGenerated
@@ -1554,7 +1515,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsEventStates
@@ -1562,7 +1522,6 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
 ;
 nsresult
 GetFrameLoader
@@ -1586,7 +1545,6 @@ void
 RecompileScriptEventListeners
 (
 )
-MOZ_OVERRIDE
 ;
 void
 SetXULBindingParent
@@ -1607,7 +1565,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this
@@ -2682,7 +2639,6 @@ nsSlots
 CreateSlots
 (
 )
-MOZ_OVERRIDE
 ;
 nsresult
 LoadSrc
@@ -2717,7 +2673,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -2735,7 +2690,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -2744,7 +2698,6 @@ UpdateEditableState
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -2763,7 +2716,6 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsEventListenerManager
@@ -2777,7 +2729,6 @@ bool
 *
 aDefer
 )
-MOZ_OVERRIDE
 ;
 void
 AddListenerFor

@@ -1001,7 +1001,6 @@ UpdateEditableState
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1019,7 +1018,6 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1034,7 +1032,6 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -1049,7 +1046,6 @@ nsAString
 aStr
 )
 const
-MOZ_OVERRIDE
 ;
 nsresult
 SetAttr
@@ -1153,7 +1149,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 nsresult
 SetParsedAttr
@@ -1250,7 +1245,6 @@ nsCaseTreatment
 aCaseSensitive
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1264,7 +1258,6 @@ aAttribute
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 const
@@ -1276,7 +1269,6 @@ uint32_t
 aIndex
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 uint32_t
@@ -1284,7 +1276,6 @@ GetAttrCount
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1294,7 +1285,6 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -1314,7 +1304,6 @@ aIndent
 0
 )
 const
-MOZ_OVERRIDE
 {
 List
 (
@@ -1339,7 +1328,6 @@ bool
 aDumpAll
 )
 const
-MOZ_OVERRIDE
 ;
 void
 List

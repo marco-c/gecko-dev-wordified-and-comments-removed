@@ -7,15 +7,6 @@ mozilla_dom_HTMLAudioElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsITimer
 .
 h
@@ -137,7 +128,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this

@@ -17,15 +17,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 HTMLMediaElement
@@ -395,7 +386,6 @@ nsAString
 &
 aText
 )
-MOZ_OVERRIDE
 {
 DOMString
 value
@@ -419,7 +409,6 @@ nsAString
 &
 aText
 )
-MOZ_OVERRIDE
 {
 ErrorResult
 rv
@@ -448,7 +437,6 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult

@@ -7,15 +7,6 @@ ReportDecodeResultTask_h_
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 MediaBufferDecoder
 .
 h
@@ -62,7 +53,6 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
 {
 MOZ_ASSERT
 (

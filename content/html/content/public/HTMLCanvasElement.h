@@ -11,15 +11,6 @@ mozilla_dom_HTMLCanvasElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLCanvasElement
 .
 h
@@ -623,7 +614,6 @@ nsIntSize
 GetSizeExternal
 (
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RenderContextsExternal
@@ -641,7 +631,6 @@ aFlags
 =
 RenderFlagPremultAlpha
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -660,7 +649,6 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
 ;
 nsChangeHint
 GetAttributeChangeHint
@@ -673,7 +661,6 @@ int32_t
 aModType
 )
 const
-MOZ_OVERRIDE
 ;
 nsresult
 SetAttr
@@ -721,7 +708,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -736,7 +722,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 nsresult
 CopyInnerTo
@@ -801,7 +786,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this

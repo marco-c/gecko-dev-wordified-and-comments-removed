@@ -7,15 +7,6 @@ HTMLDataListElement_h___
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
@@ -122,7 +113,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 static
 bool
@@ -152,7 +142,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this

@@ -128,7 +128,6 @@ nsAString
 &
 type
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -138,7 +137,6 @@ nsAString
 &
 text
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -148,14 +146,12 @@ nsAString
 &
 charset
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
 FreezeUriAsyncDefer
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 CORSMode
@@ -180,7 +176,6 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -199,7 +194,6 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -214,7 +208,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -232,7 +225,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -240,7 +232,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this
@@ -387,7 +378,6 @@ bool
 HasScriptContent
 (
 )
-MOZ_OVERRIDE
 ;
 }
 ;

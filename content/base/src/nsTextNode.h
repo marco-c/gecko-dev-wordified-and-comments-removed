@@ -9,15 +9,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 Text
@@ -185,7 +176,6 @@ bool
 aCloneText
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -203,7 +193,6 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -218,7 +207,6 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
 ;
 nsresult
 AppendTextForNormalize
@@ -242,7 +230,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this
@@ -262,7 +249,6 @@ int32_t
 aIndent
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -277,7 +263,6 @@ bool
 aDumpAll
 )
 const
-MOZ_OVERRIDE
 ;
 #
 endif

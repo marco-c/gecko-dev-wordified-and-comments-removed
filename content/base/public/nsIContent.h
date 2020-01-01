@@ -7,15 +7,6 @@ nsIContent_h___
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsCaseTreatment
 .
 h
@@ -1504,7 +1495,6 @@ GetBaseURI
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1514,7 +1504,6 @@ nsEventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool

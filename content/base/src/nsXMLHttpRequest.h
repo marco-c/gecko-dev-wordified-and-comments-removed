@@ -7,15 +7,6 @@ nsXMLHttpRequest_h__
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIXMLHttpRequest
 .
 h
@@ -1957,7 +1948,6 @@ void
 DisconnectFromOwner
 (
 )
-MOZ_OVERRIDE
 ;
 protected
 :
@@ -2635,7 +2625,6 @@ nsIDOMEvent
 *
 event
 )
-MOZ_OVERRIDE
 {
 nsCOMPtr
 <

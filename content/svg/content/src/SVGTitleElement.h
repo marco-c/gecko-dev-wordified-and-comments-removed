@@ -7,15 +7,6 @@ mozilla_dom_SVGTitleElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsSVGElement
 .
 h
@@ -130,7 +121,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -148,7 +138,6 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -163,7 +152,6 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -172,7 +160,6 @@ DoneAddingChildren
 bool
 aHaveNotified
 )
-MOZ_OVERRIDE
 ;
 private
 :

@@ -11,15 +11,6 @@ MediaPluginReader_h_
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 MediaResource
 .
 h
@@ -281,7 +272,6 @@ MPAPI
 ColorFormat
 aColorFormat
 )
-MOZ_OVERRIDE
 ;
 already_AddRefed
 <

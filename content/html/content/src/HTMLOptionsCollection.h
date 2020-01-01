@@ -7,15 +7,6 @@ mozilla_dom_HTMLOptionsCollection_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIHTMLCollection
 .
 h
@@ -177,7 +168,6 @@ nsINode
 GetParentObject
 (
 )
-MOZ_OVERRIDE
 ;
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
@@ -318,7 +308,6 @@ ErrorResult
 &
 error
 )
-MOZ_OVERRIDE
 ;
 void
 Add
@@ -400,7 +389,6 @@ nsString
 &
 aNames
 )
-MOZ_OVERRIDE
 ;
 private
 :

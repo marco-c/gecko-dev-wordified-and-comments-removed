@@ -7,15 +7,6 @@ mozilla_dom_HTMLInputElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
@@ -348,7 +339,6 @@ nsIEditor
 *
 aEditor
 )
-MOZ_OVERRIDE
 {
 return
 nsGenericHTMLElement
@@ -368,7 +358,6 @@ nsAString
 &
 aInput
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -378,7 +367,6 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 mType
@@ -388,7 +376,6 @@ NS_IMETHOD
 Reset
 (
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SubmitNamesValues
@@ -397,13 +384,11 @@ nsFormSubmission
 *
 aFormSubmission
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SaveState
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -413,14 +398,12 @@ nsPresState
 *
 aState
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
 AllowDrop
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -429,7 +412,6 @@ IsDisabledForEvents
 uint32_t
 aMessage
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -438,7 +420,6 @@ FieldSetDisabledChanged
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -453,7 +434,6 @@ int32_t
 *
 aTabIndex
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -472,7 +452,6 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsChangeHint
@@ -486,7 +465,6 @@ int32_t
 aModType
 )
 const
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -500,7 +478,6 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -508,7 +485,6 @@ GetAttributeMappingFunction
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -518,7 +494,6 @@ nsEventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -528,7 +503,6 @@ nsEventChainPostVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
 ;
 void
 PostHandleEventForRangeThumb
@@ -588,7 +562,6 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -603,14 +576,12 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
 DoneCreatingElement
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsEventStates
@@ -618,7 +589,6 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetValueChanged
@@ -626,7 +596,6 @@ SetValueChanged
 bool
 aValueChanged
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -636,7 +605,6 @@ IsSingleLineTextControl
 (
 )
 const
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -646,7 +614,6 @@ IsTextArea
 (
 )
 const
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -656,7 +623,6 @@ IsPlainTextControl
 (
 )
 const
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -666,7 +632,6 @@ IsPasswordTextControl
 (
 )
 const
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -675,7 +640,6 @@ int32_t
 GetCols
 (
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -684,7 +648,6 @@ int32_t
 GetWrapCols
 (
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -693,7 +656,6 @@ int32_t
 GetRows
 (
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -705,7 +667,6 @@ nsAString
 &
 aValue
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -715,7 +676,6 @@ ValueChanged
 (
 )
 const
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -730,7 +690,6 @@ bool
 aIgnoreWrap
 )
 const
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -740,7 +699,6 @@ nsIEditor
 GetTextEditor
 (
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -750,7 +708,6 @@ nsISelectionController
 GetSelectionController
 (
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -760,7 +717,6 @@ nsFrameSelection
 GetConstFrameSelection
 (
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BindToFrame
@@ -769,7 +725,6 @@ nsTextControlFrame
 *
 aFrame
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -781,13 +736,11 @@ nsTextControlFrame
 *
 aFrame
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 CreateEditor
 (
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -797,7 +750,6 @@ nsIContent
 GetRootEditorNode
 (
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -807,7 +759,6 @@ nsIContent
 CreatePlaceholderNode
 (
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -817,7 +768,6 @@ nsIContent
 GetPlaceholderNode
 (
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -828,7 +778,6 @@ UpdatePlaceholderVisibility
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -837,7 +786,6 @@ bool
 GetPlaceholderVisibility
 (
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -846,7 +794,6 @@ void
 InitializeKeyboardEventListeners
 (
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -857,7 +804,6 @@ OnValueChanged
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -866,7 +812,6 @@ bool
 HasCachedSelection
 (
 )
-MOZ_OVERRIDE
 ;
 void
 GetDisplayFileName
@@ -964,7 +909,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 FireAsyncClickHandler
@@ -1004,7 +948,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this
@@ -1107,7 +1050,6 @@ aValidationMessage
 ValidityStateType
 aType
 )
-MOZ_OVERRIDE
 ;
 void
 UpdateValueMissingValidityStateForRadio
@@ -2465,7 +2407,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -2483,7 +2424,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 bool
 DispatchSelectEvent
@@ -3390,7 +3330,6 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
 ;
 protected
 :
@@ -3449,7 +3388,6 @@ Done
 int16_t
 aResult
 )
-MOZ_OVERRIDE
 ;
 private
 :

@@ -7,15 +7,6 @@ nsGenericHTMLElement_h___
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsMappedAttributeElement
 .
 h
@@ -1566,7 +1557,6 @@ bool
 UndoScope
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1581,7 +1571,6 @@ ErrorResult
 &
 aError
 )
-MOZ_OVERRIDE
 ;
 nsresult
 GetDataset
@@ -1623,7 +1612,6 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -1638,7 +1626,6 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
 ;
 nsresult
 SetAttr
@@ -1686,7 +1673,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -1700,7 +1686,6 @@ aName
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1716,7 +1701,6 @@ aWithMouse
 =
 false
 )
-MOZ_OVERRIDE
 {
 bool
 isFocusable
@@ -1758,7 +1742,6 @@ aKeyCausesActivation
 bool
 aIsTrustedEvent
 )
-MOZ_OVERRIDE
 ;
 bool
 CheckHandleEventForAnchorsPreconditions
@@ -1813,7 +1796,6 @@ UpdateEditableState
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsEventStates
@@ -1821,7 +1803,6 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
 ;
 void
 DoSetEditableFlag
@@ -1860,7 +1841,6 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
 ;
 bool
 ParseBackgroundAttribute
@@ -1891,7 +1871,6 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -1899,7 +1878,6 @@ GetAttributeMappingFunction
 (
 )
 const
-MOZ_OVERRIDE
 ;
 void
 GetBaseTarget
@@ -2278,7 +2256,6 @@ void
 RecompileScriptEventListeners
 (
 )
-MOZ_OVERRIDE
 ;
 static
 bool
@@ -2369,7 +2346,6 @@ IsLabelable
 (
 )
 const
-MOZ_OVERRIDE
 ;
 static
 bool
@@ -2711,7 +2687,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsEventListenerManager
@@ -2725,7 +2700,6 @@ bool
 *
 aDefer
 )
-MOZ_OVERRIDE
 ;
 virtual
 const
@@ -2739,7 +2713,6 @@ nsAString
 aStr
 )
 const
-MOZ_OVERRIDE
 ;
 nsresult
 NewURIFromString
@@ -3401,7 +3374,6 @@ void
 *
 aInstancePtr
 )
-MOZ_OVERRIDE
 ;
 nsINode
 *
@@ -3418,14 +3390,12 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 void
 SaveSubtreeState
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 mozilla
@@ -3439,7 +3409,6 @@ Element
 GetFormElement
 (
 )
-MOZ_OVERRIDE
 ;
 nsHTMLFormElement
 *
@@ -3460,7 +3429,6 @@ nsIDOMHTMLFormElement
 *
 aForm
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3469,7 +3437,6 @@ ClearForm
 bool
 aRemoveFromForm
 )
-MOZ_OVERRIDE
 ;
 nsresult
 GetForm
@@ -3484,7 +3451,6 @@ NS_IMETHOD
 SaveState
 (
 )
-MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -3498,7 +3464,6 @@ nsPresState
 *
 aState
 )
-MOZ_OVERRIDE
 {
 return
 false
@@ -3509,7 +3474,6 @@ bool
 AllowDrop
 (
 )
-MOZ_OVERRIDE
 {
 return
 true
@@ -3531,7 +3495,6 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3546,14 +3509,12 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
 ;
 virtual
 IMEState
 GetDesiredIMEState
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsEventStates
@@ -3561,7 +3522,6 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -3571,7 +3531,6 @@ nsEventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -3579,7 +3538,6 @@ IsDisabled
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -3629,7 +3587,6 @@ int32_t
 *
 aTabIndex
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -3637,7 +3594,6 @@ IsLabelable
 (
 )
 const
-MOZ_OVERRIDE
 ;
 protected
 :
@@ -3657,7 +3613,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -3675,7 +3630,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 void
 UpdateFormOwner

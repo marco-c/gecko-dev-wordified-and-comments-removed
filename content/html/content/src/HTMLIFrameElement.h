@@ -7,15 +7,6 @@ mozilla_dom_HTMLIFrameElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsGenericHTMLFrameElement
 .
 h
@@ -100,7 +91,6 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -114,7 +104,6 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -122,7 +111,6 @@ GetAttributeMappingFunction
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -137,7 +125,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -145,7 +132,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this
@@ -167,7 +153,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 uint32_t
 GetSandboxFlags
@@ -680,7 +665,6 @@ nsAString
 &
 text
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -691,7 +675,6 @@ nsAString
 &
 text
 )
-MOZ_OVERRIDE
 ;
 virtual
 JSObject

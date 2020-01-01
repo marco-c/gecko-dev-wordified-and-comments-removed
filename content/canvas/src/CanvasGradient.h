@@ -7,15 +7,6 @@ mozilla_dom_CanvasGradient_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -231,7 +222,6 @@ JSObject
 >
 aScope
 )
-MOZ_OVERRIDE
 {
 return
 CanvasGradientBinding

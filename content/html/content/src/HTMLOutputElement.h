@@ -7,15 +7,6 @@ mozilla_dom_HTMLOutputElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
@@ -104,7 +95,6 @@ NS_IMETHOD
 Reset
 (
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SubmitNamesValues
@@ -113,7 +103,6 @@ nsFormSubmission
 *
 aFormSubmission
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -121,7 +110,6 @@ IsDisabled
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 false
@@ -139,7 +127,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 bool
 ParseAttribute
@@ -157,14 +144,12 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
 ;
 nsEventStates
 IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -182,7 +167,6 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
 ;
 void
 DescendantsChanged
@@ -204,7 +188,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this

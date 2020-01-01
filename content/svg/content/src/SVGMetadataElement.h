@@ -7,15 +7,6 @@ mozilla_dom_SVGMetadataElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsSVGElement
 .
 h
@@ -121,7 +112,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 }
 ;

@@ -7,15 +7,6 @@ mozilla_dom_HTMLSharedObjectElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
@@ -134,7 +125,6 @@ nsAString
 &
 aSrc
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetSrc
@@ -144,7 +134,6 @@ nsAString
 &
 aSrc
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetType
@@ -153,7 +142,6 @@ nsAString
 &
 aType
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetType
@@ -163,7 +151,6 @@ nsAString
 &
 aType
 )
-MOZ_OVERRIDE
 ;
 NS_DECL_NSIDOMGETSVGDOCUMENT
 virtual
@@ -182,7 +169,6 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -197,7 +183,6 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -218,7 +203,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -233,14 +217,12 @@ int32_t
 *
 aTabIndex
 )
-MOZ_OVERRIDE
 ;
 virtual
 IMEState
 GetDesiredIMEState
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -249,14 +231,12 @@ DoneAddingChildren
 bool
 aHaveNotified
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
 IsDoneAddingChildren
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -275,7 +255,6 @@ nsAttrValue
 &
 aResult
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsMapRuleToAttributesFunc
@@ -283,7 +262,6 @@ GetAttributeMappingFunction
 (
 )
 const
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -297,7 +275,6 @@ nsIAtom
 aAttribute
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsEventStates
@@ -305,14 +282,12 @@ IntrinsicState
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 void
 DestroyContent
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 uint32_t
@@ -320,7 +295,6 @@ GetCapabilities
 (
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -335,7 +309,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 nsresult
 CopyInnerTo
@@ -367,7 +340,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 static_cast
@@ -978,7 +950,6 @@ nsAString
 &
 text
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -989,7 +960,6 @@ nsAString
 &
 text
 )
-MOZ_OVERRIDE
 ;
 virtual
 JSObject

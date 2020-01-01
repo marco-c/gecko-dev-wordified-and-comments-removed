@@ -7,15 +7,6 @@ nsDOMNotifyPaintEvent_h_
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIDOMNotifyPaintEvent
 .
 h
@@ -95,7 +86,6 @@ NS_IMETHOD
 DuplicatePrivateData
 (
 )
-MOZ_OVERRIDE
 {
 return
 nsDOMEvent
@@ -121,7 +111,6 @@ aMsg
 bool
 aSerializeInterfaceType
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -141,7 +130,6 @@ void
 *
 aIter
 )
-MOZ_OVERRIDE
 ;
 virtual
 JSObject

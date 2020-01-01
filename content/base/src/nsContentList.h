@@ -7,15 +7,6 @@ nsContentList_h___
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsContentListDeclarations
 .
 h
@@ -157,7 +148,6 @@ nsIContent
 *
 aContent
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsIContent
@@ -167,7 +157,6 @@ Item
 uint32_t
 aIndex
 )
-MOZ_OVERRIDE
 ;
 uint32_t
 Length
@@ -364,7 +353,6 @@ nsINode
 GetParentObject
 (
 )
-MOZ_OVERRIDE
 {
 return
 mRoot
@@ -643,7 +631,6 @@ aContent
 bool
 aDoFlush
 )
-MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -653,7 +640,6 @@ nsIContent
 *
 aContent
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsINode
@@ -661,7 +647,6 @@ nsINode
 GetParentObject
 (
 )
-MOZ_OVERRIDE
 {
 return
 mRootNode
@@ -675,7 +660,6 @@ Item
 uint32_t
 aIndex
 )
-MOZ_OVERRIDE
 ;
 virtual
 mozilla
@@ -691,7 +675,6 @@ GetElementAt
 uint32_t
 index
 )
-MOZ_OVERRIDE
 ;
 virtual
 JSObject
@@ -712,7 +695,6 @@ ErrorResult
 &
 error
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -725,7 +707,6 @@ nsString
 &
 aNames
 )
-MOZ_OVERRIDE
 ;
 NS_HIDDEN_
 (
@@ -1254,7 +1235,6 @@ void
 RemoveFromCaches
 (
 )
-MOZ_OVERRIDE
 {
 RemoveFromFuncStringHashtable
 (

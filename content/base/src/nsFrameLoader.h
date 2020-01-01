@@ -586,7 +586,6 @@ nsAString
 &
 aURL
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -607,7 +606,6 @@ StructuredCloneData
 &
 aData
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -618,7 +616,6 @@ nsAString
 &
 aPermission
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -629,7 +626,6 @@ nsAString
 &
 aManifestURL
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -640,7 +636,6 @@ nsAString
 &
 aPermission
 )
-MOZ_OVERRIDE
 ;
 bool
 Show

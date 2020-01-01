@@ -7,15 +7,6 @@ nsIDocument_h___
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 mozFlushType
 .
 h
@@ -657,7 +648,6 @@ GetBaseURI
 (
 )
 const
-MOZ_OVERRIDE
 {
 nsCOMPtr
 <

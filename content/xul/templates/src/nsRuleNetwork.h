@@ -7,15 +7,6 @@ nsRuleNetwork_h__
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -2848,7 +2839,6 @@ bool
 &
 aTakenInstantiations
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult

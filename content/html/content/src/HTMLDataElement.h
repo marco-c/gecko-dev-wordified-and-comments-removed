@@ -7,15 +7,6 @@ mozilla_dom_HTMLDataElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLElement
 .
 h
@@ -119,7 +110,6 @@ nsAString
 &
 text
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -130,7 +120,6 @@ nsAString
 &
 text
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -145,7 +134,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -153,7 +141,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this

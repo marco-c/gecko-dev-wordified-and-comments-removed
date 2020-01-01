@@ -7,15 +7,6 @@ nsDOMScrollAreaEvent_h__
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIDOMScrollAreaEvent
 .
 h
@@ -125,7 +116,6 @@ aMsg
 bool
 aSerializeInterfaceType
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -145,7 +135,6 @@ void
 *
 aIter
 )
-MOZ_OVERRIDE
 ;
 virtual
 JSObject

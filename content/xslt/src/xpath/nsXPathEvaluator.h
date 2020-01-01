@@ -124,7 +124,6 @@ nsIDOMDocument
 *
 aDocument
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 CreateExpression
@@ -159,7 +158,6 @@ nsIDOMXPathExpression
 *
 aResult
 )
-MOZ_OVERRIDE
 ;
 JSObject
 *

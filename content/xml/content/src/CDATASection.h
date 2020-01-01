@@ -7,15 +7,6 @@ mozilla_dom_CDATASection_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIDOMCDATASection
 .
 h
@@ -173,7 +164,6 @@ bool
 aCloneText
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -181,7 +171,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this
@@ -201,7 +190,6 @@ int32_t
 aIndent
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -216,7 +204,6 @@ bool
 aDumpAll
 )
 const
-MOZ_OVERRIDE
 ;
 #
 endif

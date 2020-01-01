@@ -7,15 +7,6 @@ mozilla_dom_HTMLFieldSetElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
@@ -127,7 +118,6 @@ nsEventChainPreVisitor
 &
 aVisitor
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -145,7 +135,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -159,7 +148,6 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -170,7 +158,6 @@ aIndex
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -180,7 +167,6 @@ GetType
 (
 )
 const
-MOZ_OVERRIDE
 {
 return
 NS_FORM_FIELDSET
@@ -190,7 +176,6 @@ NS_IMETHOD
 Reset
 (
 )
-MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SubmitNamesValues
@@ -199,7 +184,6 @@ nsFormSubmission
 *
 aFormSubmission
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -208,7 +192,6 @@ IsDisabledForEvents
 uint32_t
 aMessage
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -223,7 +206,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -231,7 +213,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this

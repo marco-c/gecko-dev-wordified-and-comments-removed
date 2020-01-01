@@ -7,15 +7,6 @@ mozilla_dom_HTMLStyleElement_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLStyleElement
 .
 h
@@ -139,7 +130,6 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -154,7 +144,6 @@ aNullParent
 =
 true
 )
-MOZ_OVERRIDE
 ;
 nsresult
 SetAttr
@@ -202,7 +191,6 @@ aValue
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -216,7 +204,6 @@ aAttribute
 bool
 aNotify
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -231,7 +218,6 @@ nsINode
 aResult
 )
 const
-MOZ_OVERRIDE
 ;
 NS_DECL_NSIMUTATIONOBSERVER_CHARACTERDATACHANGED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTAPPENDED
@@ -357,7 +343,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this
@@ -375,7 +360,6 @@ bool
 *
 aIsInline
 )
-MOZ_OVERRIDE
 ;
 void
 GetStyleSheetInfo
@@ -396,7 +380,6 @@ bool
 *
 aIsAlternate
 )
-MOZ_OVERRIDE
 ;
 void
 ContentChanged

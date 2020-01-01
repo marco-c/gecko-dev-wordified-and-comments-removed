@@ -198,7 +198,6 @@ nsINode
 *
 aContextNode
 )
-MOZ_OVERRIDE
 ;
 nsresult
 GetExprResult
@@ -208,7 +207,6 @@ txAExprResult
 *
 aExprResult
 )
-MOZ_OVERRIDE
 ;
 nsresult
 Clone
@@ -218,7 +216,6 @@ nsIXPathResult
 *
 aResult
 )
-MOZ_OVERRIDE
 ;
 void
 RemoveObserver

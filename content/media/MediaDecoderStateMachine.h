@@ -11,15 +11,6 @@ MediaDecoderStateMachine_h__
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
@@ -278,7 +269,6 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
 ;
 bool
 HasAudio
@@ -672,7 +662,6 @@ NS_IMETHOD
 Run
 (
 )
-MOZ_OVERRIDE
 {
 nsRefPtr
 <

@@ -7,15 +7,6 @@ DocumentType_h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -127,7 +118,6 @@ uint32_t
 aFlags
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 void
@@ -137,7 +127,6 @@ nsAString
 &
 aNodeValue
 )
-MOZ_OVERRIDE
 {
 SetDOMStringToNull
 (
@@ -160,7 +149,6 @@ ErrorResult
 &
 aError
 )
-MOZ_OVERRIDE
 {
 }
 virtual
@@ -170,7 +158,6 @@ nsTextFragment
 GetText
 (
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsGenericDOMDataNode
@@ -184,7 +171,6 @@ bool
 aCloneText
 )
 const
-MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -192,7 +178,6 @@ nsIDOMNode
 AsDOMNode
 (
 )
-MOZ_OVERRIDE
 {
 return
 this

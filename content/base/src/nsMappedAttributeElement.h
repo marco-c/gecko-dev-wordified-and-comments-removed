@@ -7,15 +7,6 @@ NS_MAPPEDATTRIBUTEELEMENT_H_
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsStyledElement
 .
 h
@@ -98,7 +89,6 @@ nsRuleWalker
 *
 aRuleWalker
 )
-MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -117,7 +107,6 @@ nsresult
 *
 aRetval
 )
-MOZ_OVERRIDE
 ;
 }
 ;
