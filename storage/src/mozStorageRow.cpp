@@ -134,7 +134,7 @@ case
 SQLITE_TEXT
 :
 {
-nsAutoString
+nsDependentString
 str
 (
 static_cast
