@@ -53,13 +53,6 @@ nsIRunnable
 .
 h
 "
-#
-include
-"
-nsWeakReference
-.
-h
-"
 struct
 nsAsyncInstantiateEvent
 ;
@@ -87,8 +80,6 @@ public
 nsIInterfaceRequestor
 public
 nsIChannelEventSink
-public
-nsSupportsWeakReference
 {
 friend
 class
