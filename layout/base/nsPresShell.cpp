@@ -34640,6 +34640,9 @@ aData
 1
 '
 ;
+return
+NS_OK
+;
 }
 #
 endif
