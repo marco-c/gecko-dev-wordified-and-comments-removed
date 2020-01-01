@@ -222,22 +222,6 @@ current_subtier_dirs
         
 self
 .
-current_subtier_started
-=
-set
-(
-)
-        
-self
-.
-current_subtier_finished
-=
-set
-(
-)
-        
-self
-.
 current_tier_dir
 =
 None
@@ -647,22 +631,6 @@ current_tier_dirs
                 
 self
 .
-current_subtier_started
-=
-set
-(
-)
-                
-self
-.
-current_subtier_finished
-=
-set
-(
-)
-                
-self
-.
 current_tier_dir
 =
 None
@@ -766,15 +734,6 @@ self
 current_tier_dir_index
 =
 0
-                
-self
-.
-current_subtier_started
-.
-add
-(
-subtier
-)
             
 elif
 action
@@ -807,14 +766,13 @@ self
 .
 current_tier
                 
+assert
+subtier
+=
+=
 self
 .
-current_subtier_finished
-.
-add
-(
-subtier
-)
+current_subtier
             
 elif
 action
