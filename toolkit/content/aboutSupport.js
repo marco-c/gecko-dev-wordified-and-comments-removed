@@ -628,6 +628,10 @@ privacy
 security
 .
 "
+"
+webgl
+.
+"
 ]
 ;
 const
