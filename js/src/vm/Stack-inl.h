@@ -14,7 +14,7 @@ h
 #
 include
 "
-jstracer
+jscompartment
 .
 h
 "
