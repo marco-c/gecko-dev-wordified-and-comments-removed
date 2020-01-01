@@ -322,6 +322,11 @@ JSLocaleCallbacks
 JSLocaleCallbacks
 ;
 typedef
+struct
+JSSecurityCallbacks
+JSSecurityCallbacks
+;
+typedef
 JSBool
 (
 *
