@@ -282,11 +282,6 @@ jemalloc_stats_t
 stats
 )
 ;
-void
-jemalloc_purge_freed_pages
-(
-)
-;
 #
 ifdef
 __cplusplus
