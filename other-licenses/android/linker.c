@@ -10821,9 +10821,6 @@ r_offset
 }
 #
 endif
-return
-0
-;
 }
 static
 unsigned
