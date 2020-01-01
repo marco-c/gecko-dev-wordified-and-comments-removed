@@ -1571,7 +1571,7 @@ ffi_cif
 cif
 )
 {
-unsigned
+int
 i
 ;
 ffi_type
@@ -2354,10 +2354,7 @@ ecif
 .
 rvalue
 fn
-FFI_FN
-(
 ffi_prep_args
-)
 )
 ;
 break
@@ -2385,10 +2382,7 @@ ecif
 .
 rvalue
 fn
-FFI_FN
-(
 ffi_prep_args
-)
 )
 ;
 break
@@ -3324,7 +3318,8 @@ i
 ]
 =
 (
-uintptr_t
+void
+*
 )
 pgr
 +
