@@ -1310,7 +1310,8 @@ ex
 (
 UNPACKAGE
 )
->
+|
+tee
 hdi
 .
 output
