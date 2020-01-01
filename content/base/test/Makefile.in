@@ -1194,6 +1194,10 @@ test_NodeIterator_mutations_2
 .
 html
 \
+test_NodeIterator_mutations_3
+.
+html
+\
 test_bug28293
 .
 html
