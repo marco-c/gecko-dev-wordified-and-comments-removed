@@ -3125,6 +3125,12 @@ defined
 (
 MOZ_PLATFORM_MAEMO
 )
+|
+|
+defined
+(
+MOZ_B2G
+)
 nsCOMPtr
 <
 nsIPropertyBag2
