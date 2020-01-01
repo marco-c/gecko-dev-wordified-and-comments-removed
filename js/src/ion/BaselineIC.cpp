@@ -20739,6 +20739,13 @@ isPrimitive
 (
 )
 )
+&
+&
+val
+.
+isObject
+(
+)
 )
 {
 if
