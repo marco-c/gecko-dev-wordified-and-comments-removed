@@ -117,6 +117,13 @@ MOZ_WIDGET_TOOLKIT
 '
 android
 '
+or
+CONFIG
+[
+'
+NIGHTLY_BUILD
+'
+]
 :
 TEST_DIRS
 +
