@@ -33,6 +33,13 @@ AnnouncementsConstants
 {
 public
 static
+boolean
+DISABLED
+=
+true
+;
+public
+static
 final
 String
 GLOBAL_LOG_TAG
