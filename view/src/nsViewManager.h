@@ -345,13 +345,13 @@ aContext
 virtual
 nsIViewManager
 *
-BeginUpdateViewBatch
+IncrementDisableRefreshCount
 (
-void
 )
 ;
-NS_IMETHOD
-EndUpdateViewBatch
+virtual
+void
+DecrementDisableRefreshCount
 (
 )
 ;
@@ -680,7 +680,7 @@ RootViewManager
 )
 -
 >
-mUpdateBatchCnt
+mRefreshDisableCount
 =
 =
 0
@@ -730,7 +730,7 @@ nsViewManager
 mRootViewManager
 ;
 PRInt32
-mUpdateBatchCnt
+mRefreshDisableCount
 ;
 bool
 mPainting
