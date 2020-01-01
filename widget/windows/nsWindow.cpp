@@ -21090,13 +21090,9 @@ NotifyObservers
 nullptr
 aIsSleepMode
 ?
-"
-sleep_notification
-"
+NS_WIDGET_SLEEP_OBSERVER_TOPIC
 :
-"
-wake_notification
-"
+NS_WIDGET_WAKE_OBSERVER_TOPIC
 nullptr
 )
 ;

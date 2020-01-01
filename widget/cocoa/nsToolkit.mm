@@ -461,9 +461,7 @@ nsToolkit
 :
 PostSleepWakeNotification
 (
-"
-sleep_notification
-"
+NS_WIDGET_SLEEP_OBSERVER_TOPIC
 )
 ;
 :
@@ -573,9 +571,7 @@ nsToolkit
 :
 PostSleepWakeNotification
 (
-"
-wake_notification
-"
+NS_WIDGET_WAKE_OBSERVER_TOPIC
 )
 ;
 break
