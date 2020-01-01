@@ -2066,7 +2066,7 @@ gScreenX
 gScreenY
 +
 16
-false
+true
 )
 ;
 }
@@ -2094,7 +2094,7 @@ rect
 left
 =
 =
-8
+10
 &
 &
 rect
@@ -2102,7 +2102,7 @@ rect
 top
 =
 =
-16
+18
 &
 &
 rect
@@ -3030,9 +3030,6 @@ testname
 }
 }
 {
-end
-:
-true
 testname
 :
 "
