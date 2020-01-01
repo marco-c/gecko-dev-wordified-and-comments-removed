@@ -62,6 +62,13 @@ reftest
 -
 wait
 "
+shape
+-
+rendering
+=
+"
+crispEdges
+"
 >
 <
 g
