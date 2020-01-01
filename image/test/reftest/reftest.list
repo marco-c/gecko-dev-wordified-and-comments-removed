@@ -419,3 +419,17 @@ list
 #
 bug
 852053
+#
+Animated
+image
+disposal
+and
+blending
+operator
+tests
+include
+animated
+/
+reftest
+.
+list
