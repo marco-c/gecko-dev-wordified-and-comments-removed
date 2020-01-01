@@ -650,7 +650,7 @@ mval
 =
 nsIDOMWindowUtils
 .
-MODIFIER_SCROLL
+MODIFIER_SCROLLLOCK
 ;
 }
 if
@@ -672,7 +672,7 @@ if
 (
 aEvent
 .
-winKey
+osKey
 )
 {
 mval
@@ -680,7 +680,7 @@ mval
 =
 nsIDOMWindowUtils
 .
-MODIFIER_WIN
+MODIFIER_OS
 ;
 }
 return

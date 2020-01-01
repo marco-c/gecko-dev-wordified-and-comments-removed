@@ -243,7 +243,7 @@ NumLock
 define
 NS_DOM_KEYNAME_SCROLL
 "
-Scroll
+ScrollLock
 "
 #
 define
@@ -261,7 +261,7 @@ SymbolLock
 define
 NS_DOM_KEYNAME_WIN
 "
-Win
+OS
 "
 #
 endif
