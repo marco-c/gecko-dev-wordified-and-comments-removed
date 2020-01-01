@@ -6152,9 +6152,6 @@ GetParent
 if
 (
 parentWidget
-&
-&
-parentWidget
 !
 =
 aNewWidget
