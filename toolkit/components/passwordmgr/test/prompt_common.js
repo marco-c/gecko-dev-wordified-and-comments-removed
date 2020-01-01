@@ -11,7 +11,7 @@ UniversalXPConnect
 '
 )
 ;
-const
+var
 Ci
 =
 Components
@@ -30,7 +30,7 @@ Ci
 "
 )
 ;
-const
+var
 Cc
 =
 Components
