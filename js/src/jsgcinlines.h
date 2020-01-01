@@ -1223,9 +1223,6 @@ public
 :
 CellIter
 (
-JSContext
-*
-cx
 JSCompartment
 *
 comp
@@ -1309,10 +1306,10 @@ DEBUG
 counter
 =
 &
-cx
+comp
 -
 >
-runtime
+rt
 -
 >
 noGCOrAllocationCheck

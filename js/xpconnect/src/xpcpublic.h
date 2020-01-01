@@ -763,9 +763,9 @@ void
 *
 GetCompartmentName
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 JSCompartment
 *
 c

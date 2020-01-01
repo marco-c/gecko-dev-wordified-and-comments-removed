@@ -1394,7 +1394,6 @@ CellIter
 i
 (
 cx
-cx
 -
 >
 compartment

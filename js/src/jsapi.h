@@ -8145,9 +8145,9 @@ void
 JSIterateCompartmentCallback
 )
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 void
 *
 data
@@ -8163,9 +8163,9 @@ void
 )
 JS_IterateCompartments
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 void
 *
 data
