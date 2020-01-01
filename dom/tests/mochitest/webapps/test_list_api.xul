@@ -376,6 +376,11 @@ QueryInterface
 "
 function
 "
+applyDownload
+:
+"
+function
+"
 getAll
 :
 "
