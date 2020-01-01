@@ -582,6 +582,12 @@ mBlocks
 BlockList
 mReadaheadBlocks
 ;
+BlockList
+mMetadataBlocks
+;
+BlockList
+mPlayedBlocks
+;
 PRUint32
 mPlaybackBytesPerSecond
 ;
