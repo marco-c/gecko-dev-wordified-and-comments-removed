@@ -1814,7 +1814,7 @@ aViewportSize
 mSVGDocumentWrapper
 -
 >
-FlushPreserveAspectRatioOverride
+FlushImageTransformInvalidation
 (
 )
 ;

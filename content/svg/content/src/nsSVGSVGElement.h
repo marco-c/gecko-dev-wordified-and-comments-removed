@@ -704,7 +704,7 @@ IsValid
 }
 virtual
 void
-FlushPreserveAspectRatioOverride
+FlushImageTransformInvalidation
 (
 )
 ;
@@ -1053,7 +1053,7 @@ mStartAnimationOnBindToTree
 #
 endif
 PRPackedBool
-mNeedsPreserveAspectRatioFlush
+mImageNeedsTransformInvalidation
 ;
 }
 ;

@@ -190,7 +190,7 @@ aViewportSize
 )
 ;
 void
-FlushPreserveAspectRatioOverride
+FlushImageTransformInvalidation
 (
 )
 ;
