@@ -305,7 +305,6 @@ _address
 }
 inline
 uint32_t
-FASTCALL
 count_args
 (
 )
@@ -320,7 +319,6 @@ ARGSIZE_MASK_ANY
 }
 inline
 uint32_t
-FASTCALL
 count_iargs
 (
 )
