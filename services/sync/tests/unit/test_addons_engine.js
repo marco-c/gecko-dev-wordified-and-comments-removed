@@ -1026,6 +1026,9 @@ PASSPHRASE
 ;
 generateNewKeys
 (
+Service
+.
+collectionKeys
 )
 ;
 let

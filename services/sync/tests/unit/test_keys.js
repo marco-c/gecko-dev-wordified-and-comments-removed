@@ -55,6 +55,14 @@ js
 "
 )
 ;
+let
+collectionKeys
+=
+new
+CollectionKeyManager
+(
+)
+;
 function
 sha256HMAC
 (
@@ -1244,14 +1252,15 @@ info
 (
 "
 Updating
-CollectionKeys
+collection
+keys
 .
 "
 )
 ;
 do_check_true
 (
-CollectionKeys
+collectionKeys
 .
 updateContents
 (
@@ -1278,7 +1287,7 @@ JSON
 .
 stringify
 (
-CollectionKeys
+collectionKeys
 .
 _collections
 )
@@ -1287,7 +1296,7 @@ _collections
 let
 wbo
 =
-CollectionKeys
+collectionKeys
 .
 asWBO
 (
@@ -1362,7 +1371,7 @@ modified
 ;
 do_check_eq
 (
-CollectionKeys
+collectionKeys
 .
 lastModified
 storage_keys
@@ -1415,7 +1424,7 @@ do_check_true
 bookmarks
 '
 in
-CollectionKeys
+collectionKeys
 .
 _collections
 )
@@ -1426,7 +1435,7 @@ do_check_false
 tabs
 '
 in
-CollectionKeys
+collectionKeys
 .
 _collections
 )
@@ -1458,7 +1467,7 @@ keyBundle
 ;
 do_check_false
 (
-CollectionKeys
+collectionKeys
 .
 updateContents
 (
@@ -1490,7 +1499,7 @@ bookmarks_hmac64
 let
 b2
 =
-CollectionKeys
+collectionKeys
 .
 keyForCollection
 (
@@ -1572,7 +1581,7 @@ b1
 ;
 b2
 =
-CollectionKeys
+collectionKeys
 .
 keyForCollection
 (
@@ -1597,7 +1606,7 @@ info_collections
 ;
 do_check_true
 (
-CollectionKeys
+collectionKeys
 .
 updateNeeded
 (
@@ -1616,7 +1625,7 @@ crypto
 ;
 do_check_false
 (
-CollectionKeys
+collectionKeys
 .
 updateNeeded
 (
@@ -1645,7 +1654,7 @@ now
 ;
 do_check_true
 (
-CollectionKeys
+collectionKeys
 .
 updateNeeded
 (
@@ -1653,7 +1662,7 @@ info_collections
 )
 )
 ;
-CollectionKeys
+collectionKeys
 .
 lastModified
 =
@@ -1661,7 +1670,7 @@ null
 ;
 do_check_true
 (
-CollectionKeys
+collectionKeys
 .
 updateNeeded
 (
@@ -1829,7 +1838,7 @@ coll6
 let
 d1
 =
-CollectionKeys
+collectionKeys
 .
 _compareKeyBundleCollections
 (
@@ -1840,7 +1849,7 @@ coll2
 let
 d2
 =
-CollectionKeys
+collectionKeys
 .
 _compareKeyBundleCollections
 (
@@ -1851,7 +1860,7 @@ coll3
 let
 d3
 =
-CollectionKeys
+collectionKeys
 .
 _compareKeyBundleCollections
 (
@@ -1862,7 +1871,7 @@ coll2
 let
 d4
 =
-CollectionKeys
+collectionKeys
 .
 _compareKeyBundleCollections
 (
@@ -1873,7 +1882,7 @@ coll4
 let
 d5
 =
-CollectionKeys
+collectionKeys
 .
 _compareKeyBundleCollections
 (
@@ -1884,7 +1893,7 @@ coll2
 let
 d6
 =
-CollectionKeys
+collectionKeys
 .
 _compareKeyBundleCollections
 (
@@ -1895,7 +1904,7 @@ coll1
 let
 d7
 =
-CollectionKeys
+collectionKeys
 .
 _compareKeyBundleCollections
 (
@@ -1906,7 +1915,7 @@ coll5
 let
 d8
 =
-CollectionKeys
+collectionKeys
 .
 _compareKeyBundleCollections
 (

@@ -1002,6 +1002,9 @@ run_test
 {
 generateNewKeys
 (
+Service
+.
+collectionKeys
 )
 ;
 run_next_test

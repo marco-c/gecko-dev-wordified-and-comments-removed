@@ -85,6 +85,9 @@ SyncTestingInfrastructure
 ;
 generateNewKeys
 (
+Service
+.
+collectionKeys
 )
 ;
 let

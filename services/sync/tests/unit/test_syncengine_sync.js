@@ -345,6 +345,9 @@ run_test
 {
 generateNewKeys
 (
+Service
+.
+collectionKeys
 )
 ;
 Svc
@@ -1260,6 +1263,9 @@ foo
 ;
 generateNewKeys
 (
+Service
+.
+collectionKeys
 )
 ;
 let
@@ -9118,6 +9124,9 @@ handler
 ;
 generateNewKeys
 (
+Service
+.
+collectionKeys
 )
 ;
 let
@@ -10941,6 +10950,9 @@ handler
 ;
 generateNewKeys
 (
+Service
+.
+collectionKeys
 )
 ;
 let
@@ -11351,7 +11363,9 @@ username
 foo
 "
 ;
-CollectionKeys
+Service
+.
+collectionKeys
 .
 clear
 (
@@ -11515,6 +11529,9 @@ foo
 ;
 generateNewKeys
 (
+Service
+.
+collectionKeys
 )
 ;
 let
