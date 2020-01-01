@@ -45,10 +45,6 @@ FillRule
 aFillRule
 )
 :
-mFigureActive
-(
-false
-)
 mFillRule
 (
 aFillRule
@@ -65,10 +61,6 @@ FillRule
 aFillRule
 )
 :
-mFigureActive
-(
-false
-)
 mFillRule
 (
 aFillRule
@@ -198,9 +190,6 @@ aPoint
 ;
 CGMutablePathRef
 mCGPath
-;
-bool
-mFigureActive
 ;
 Point
 mCurrentPoint
