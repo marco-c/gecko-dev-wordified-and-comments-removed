@@ -1458,6 +1458,12 @@ FloatRegister
 fr
 )
 ;
+IonScriptCounts
+*
+maybeCreateScriptCounts
+(
+)
+;
 }
 ;
 }
