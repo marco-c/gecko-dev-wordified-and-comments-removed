@@ -201,13 +201,6 @@ marionetteScriptFinished
 ;
 "
 )
-        
-time
-.
-sleep
-(
-3
-)
     
 def
 test_no_timeout
