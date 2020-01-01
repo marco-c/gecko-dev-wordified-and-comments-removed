@@ -18622,7 +18622,7 @@ byteLength
 bytesNeeded
 )
 return
-ErrorInvalidValue
+ErrorInvalidOperation
 (
 "
 texSubImage2D
