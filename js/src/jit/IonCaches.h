@@ -1253,10 +1253,6 @@ HandleObject
 obj
 HandlePropertyName
 name
-const
-SafepointIndex
-*
-safepointIndex
 void
 *
 returnAddr
@@ -1278,10 +1274,6 @@ HandleObject
 obj
 HandlePropertyName
 name
-const
-SafepointIndex
-*
-safepointIndex
 void
 *
 returnAddr
@@ -1324,10 +1316,6 @@ HandlePropertyName
 name
 bool
 resetNeeded
-const
-SafepointIndex
-*
-safepointIndex
 void
 *
 returnAddr
@@ -1349,10 +1337,6 @@ HandleObject
 obj
 HandlePropertyName
 name
-const
-SafepointIndex
-*
-safepointIndex
 void
 *
 returnAddr
@@ -2470,10 +2454,6 @@ JSObject
 holder
 HandleShape
 shape
-const
-SafepointIndex
-*
-safepointIndex
 void
 *
 returnAddr
