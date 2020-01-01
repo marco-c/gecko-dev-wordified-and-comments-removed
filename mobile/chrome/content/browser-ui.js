@@ -1121,6 +1121,8 @@ document
 getElementById
 (
 "
+browser
+-
 canvas
 "
 )
@@ -4190,7 +4192,7 @@ cmd_zoomin
 :
 Browser
 .
-content
+canvasBrowser
 .
 zoom
 (
@@ -4207,7 +4209,7 @@ cmd_zoomout
 :
 Browser
 .
-content
+canvasBrowser
 .
 zoom
 (
