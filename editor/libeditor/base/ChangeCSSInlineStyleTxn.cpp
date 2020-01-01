@@ -117,13 +117,6 @@ nsXPCOM
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 class
 nsIEditor
 ;

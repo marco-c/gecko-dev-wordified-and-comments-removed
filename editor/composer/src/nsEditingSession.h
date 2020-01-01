@@ -59,13 +59,6 @@ nscore
 h
 "
 #
-include
-"
-prtypes
-.
-h
-"
-#
 ifndef
 __gen_nsIWebProgressListener_h__
 #

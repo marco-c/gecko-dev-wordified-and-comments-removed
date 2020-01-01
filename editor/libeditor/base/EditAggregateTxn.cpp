@@ -47,13 +47,6 @@ nsString
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 EditAggregateTxn
 :
 :

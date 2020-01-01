@@ -26,13 +26,6 @@ nscore
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 class
 nsIDOMNamedNodeMap
 ;

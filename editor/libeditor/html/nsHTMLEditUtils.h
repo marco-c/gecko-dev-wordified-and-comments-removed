@@ -4,13 +4,6 @@ nsHTMLEditUtils_h__
 #
 define
 nsHTMLEditUtils_h__
-#
-include
-"
-prtypes
-.
-h
-"
 class
 nsIDOMNode
 ;

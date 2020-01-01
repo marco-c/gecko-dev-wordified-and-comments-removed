@@ -287,13 +287,6 @@ nscore
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 class
 nsILoadContext
 ;

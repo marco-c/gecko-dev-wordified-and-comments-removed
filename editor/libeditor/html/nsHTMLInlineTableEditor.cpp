@@ -135,13 +135,6 @@ nscore
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 NS_IMETHODIMP
 nsHTMLEditor
 :

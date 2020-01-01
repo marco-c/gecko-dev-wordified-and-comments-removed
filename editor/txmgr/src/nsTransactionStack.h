@@ -18,13 +18,6 @@ nsDeque
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 class
 nsCycleCollectionTraversalCallback
 ;

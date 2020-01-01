@@ -140,13 +140,6 @@ nsAString
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 class
 nsISupports
 ;

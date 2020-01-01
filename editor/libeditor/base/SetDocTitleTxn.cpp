@@ -114,13 +114,6 @@ nsLiteralString
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 using
 namespace
 mozilla

@@ -146,13 +146,6 @@ nsLiteralString
 h
 "
 #
-include
-"
-prtypes
-.
-h
-"
-#
 ifdef
 DEBUG
 nsresult

@@ -112,13 +112,6 @@ nsRange
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 nsFilteredContentIterator
 :
 :

@@ -147,13 +147,6 @@ nsStringFwd
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 class
 nsISupports
 ;

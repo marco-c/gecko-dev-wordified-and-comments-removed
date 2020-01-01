@@ -110,13 +110,6 @@ nscore
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 nsresult
 nsTextEditRules
 :

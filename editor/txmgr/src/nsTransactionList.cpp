@@ -77,13 +77,6 @@ nscore
 .
 h
 "
-#
-include
-"
-prtypes
-.
-h
-"
 NS_IMPL_ISUPPORTS1
 (
 nsTransactionList

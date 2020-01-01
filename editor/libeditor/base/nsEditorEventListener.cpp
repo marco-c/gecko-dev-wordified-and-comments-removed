@@ -322,13 +322,6 @@ nsString
 h
 "
 #
-include
-"
-prtypes
-.
-h
-"
-#
 ifdef
 HANDLE_NATIVE_TEXT_DIRECTION_SWITCH
 #
