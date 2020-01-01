@@ -438,6 +438,10 @@ utils
 .
 js
 \
+test_defaultValue
+.
+html
+\
 test_getauthenticationinfo
 .
 html
