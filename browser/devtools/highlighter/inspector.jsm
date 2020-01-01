@@ -3663,6 +3663,14 @@ if
 (
 this
 .
+closing
+)
+return
+;
+if
+(
+this
+.
 highlighter
 .
 getNode
