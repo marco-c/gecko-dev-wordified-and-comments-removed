@@ -1273,8 +1273,6 @@ rmtree
 (
 dir
 )
-            
-return
         
 for
 file
