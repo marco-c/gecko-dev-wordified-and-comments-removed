@@ -170,8 +170,6 @@ _MOZBUILD_EXTERNAL_VARIABLES
 :
 =
 \
-CMMSRCS
-\
 CPP_UNIT_TESTS
 \
 DIRS
@@ -2737,13 +2735,14 @@ ifdef
 MACH
 ifndef
 NO_BUILDSTATUS_MESSAGES
+define
 BUILDSTATUS
-=
 echo
 "
 BUILDSTATUS
 1
 "
+endef
 endif
 endif
 #
@@ -4178,8 +4177,6 @@ rules
 mk
 ifndef
 SUPPRESS_DEFAULT_RULES
-ifndef
-TIERS
 default
 all
 :
@@ -4196,9 +4193,6 @@ libs
 MAKE
 )
 tools
-endif
-#
-TIERS
 endif
 #
 SUPPRESS_DEFAULT_RULES
