@@ -928,3 +928,10 @@ p3
 fishsound_reset
 .
 patch
+patch
+-
+p3
+<
+bug504843
+.
+patch

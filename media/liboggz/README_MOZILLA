@@ -179,3 +179,15 @@ faster_seek
 .
 patch
 .
+bug504843
+.
+patch
+:
+Propogate
+read
+errors
+from
+oggz_read_sync
+(
+)
+.

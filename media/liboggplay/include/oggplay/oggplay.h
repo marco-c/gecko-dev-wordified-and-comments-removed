@@ -427,6 +427,16 @@ OggPlay
 player
 )
 ;
+int
+oggplay_set_max_video_frame_pixels
+(
+OggPlay
+*
+player
+int
+max_frame_pixels
+)
+;
 #
 ifdef
 __cplusplus

@@ -834,3 +834,10 @@ p3
 bug518169
 .
 patch
+patch
+-
+p3
+<
+bug504843
+.
+patch
