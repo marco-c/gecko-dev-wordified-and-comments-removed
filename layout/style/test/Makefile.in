@@ -475,6 +475,10 @@ test_condition_text
 .
 html
 \
+test_condition_text_assignment
+.
+html
+\
 test_default_computed_style
 .
 html
