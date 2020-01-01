@@ -1575,6 +1575,7 @@ if
 (
 dataObjCol
 )
+{
 *
 aNumItems
 =
@@ -1585,6 +1586,15 @@ GetNumDataObjects
 (
 )
 ;
+}
+else
+{
+*
+aNumItems
+=
+0
+;
+}
 }
 else
 {
