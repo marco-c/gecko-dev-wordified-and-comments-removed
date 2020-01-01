@@ -888,6 +888,10 @@ JSContext
 *
 cx
 ;
+void
+*
+eos
+;
 }
 ;
 class
