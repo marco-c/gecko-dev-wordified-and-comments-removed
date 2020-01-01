@@ -2241,6 +2241,10 @@ deallocatorThread
 endif
 JSEmptyScope
 *
+emptyArgumentsScope
+;
+JSEmptyScope
+*
 emptyBlockScope
 ;
 #

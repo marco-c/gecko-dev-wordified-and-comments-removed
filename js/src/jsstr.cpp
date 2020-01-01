@@ -95,7 +95,7 @@ h
 #
 include
 "
-jsversion
+jsfun
 .
 h
 "
@@ -180,6 +180,13 @@ h
 include
 "
 jsvector
+.
+h
+"
+#
+include
+"
+jsversion
 .
 h
 "

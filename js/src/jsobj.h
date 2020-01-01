@@ -1584,6 +1584,13 @@ prop
 }
 inline
 bool
+isArguments
+(
+)
+const
+;
+inline
+bool
 isArray
 (
 )

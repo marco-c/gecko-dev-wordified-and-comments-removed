@@ -152,7 +152,10 @@ funobj
 CHECK
 (
 !
-js_IsInternalFunctionObject
+js
+:
+:
+IsInternalFunctionObject
 (
 funobj
 )
