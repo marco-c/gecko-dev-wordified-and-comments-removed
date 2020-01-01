@@ -1766,6 +1766,11 @@ PKG_PATH
 WGET
 )
 -
+-
+no
+-
+cache
+-
 nv
 -
 N
@@ -1837,6 +1842,11 @@ PKG_INST_PATH
 (
 WGET
 )
+-
+-
+no
+-
+cache
 -
 nv
 -
