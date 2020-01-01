@@ -678,6 +678,10 @@ test_clear_site_data
 .
 html
 \
+test_zero_opacity
+.
+html
+\
 (
 NULL
 )
