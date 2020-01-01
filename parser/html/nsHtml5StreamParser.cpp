@@ -3172,6 +3172,10 @@ mReparseForbidden
 =
 PR_TRUE
 ;
+mFeedChardet
+=
+PR_FALSE
+;
 }
 }
 if
@@ -4179,6 +4183,10 @@ mCharsetSource
 =
 kCharsetFromMetaTag
 ;
+mFeedChardet
+=
+PR_FALSE
+;
 return
 PR_FALSE
 ;
@@ -4317,6 +4325,10 @@ return
 PR_FALSE
 ;
 }
+mFeedChardet
+=
+PR_FALSE
+;
 mTreeBuilder
 -
 >
