@@ -52,12 +52,6 @@ StartupSpecialSystemDirectory
 (
 )
 ;
-extern
-void
-ShutdownSpecialSystemDirectory
-(
-)
-;
 enum
 SystemDirectories
 {

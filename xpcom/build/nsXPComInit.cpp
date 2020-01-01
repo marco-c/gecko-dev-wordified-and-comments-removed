@@ -2888,10 +2888,6 @@ Destroy
 (
 )
 ;
-ShutdownSpecialSystemDirectory
-(
-)
-;
 NS_PurgeAtomTable
 (
 )
