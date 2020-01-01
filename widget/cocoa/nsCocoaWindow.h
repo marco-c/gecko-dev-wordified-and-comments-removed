@@ -330,6 +330,13 @@ ChildView
 )
 mainChildView
 ;
+-
+(
+NSArray
+*
+)
+titlebarControls
+;
 end
 interface
 NSWindow
