@@ -1175,7 +1175,7 @@ mPrintState
 mIsDone
 ;
 }
-nsIDOMHTMLCanvasElement
+nsHTMLCanvasElement
 *
 nsHTMLCanvasElement
 :

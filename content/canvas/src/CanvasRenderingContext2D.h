@@ -501,6 +501,11 @@ const
 {
 return
 mCanvasElement
+-
+>
+GetOriginalCanvas
+(
+)
 ;
 }
 void
