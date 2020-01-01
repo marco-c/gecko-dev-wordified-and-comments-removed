@@ -735,12 +735,6 @@ ViewportMetrics
 .
 java
 \
-gfx
-/
-WidgetTileLayer
-.
-java
-\
 ui
 /
 PanZoomController
