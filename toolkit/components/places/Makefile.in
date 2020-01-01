@@ -261,6 +261,10 @@ BookmarkJSONUtils
 .
 jsm
 \
+PlacesBackups
+.
+jsm
+\
 (
 NULL
 )
