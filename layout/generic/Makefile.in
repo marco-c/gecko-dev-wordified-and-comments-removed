@@ -272,8 +272,6 @@ cpp
 (
 NULL
 )
-ifdef
-MOZ_FLEXBOX
 CPPSRCS
 +
 =
@@ -285,7 +283,6 @@ cpp
 (
 NULL
 )
-endif
 ifeq
 (
 cocoa

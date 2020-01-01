@@ -2362,9 +2362,6 @@ ParentType
 aParentType
 )
 ;
-#
-ifdef
-MOZ_FLEXBOX
 inline
 bool
 SkipItemsThatNeedAnonFlexItem
@@ -2385,8 +2382,6 @@ nsFrameConstructorState
 aState
 )
 ;
-#
-endif
 inline
 bool
 SkipWhitespace
@@ -2703,9 +2698,6 @@ mBits
 )
 ;
 }
-#
-ifdef
-MOZ_FLEXBOX
 bool
 NeedsAnonFlexItem
 (
@@ -2715,8 +2707,6 @@ nsFrameConstructorState
 aState
 )
 ;
-#
-endif
 bool
 IsWhitespace
 (
@@ -2818,9 +2808,6 @@ MOZ_DELETE
 ;
 }
 ;
-#
-ifdef
-MOZ_FLEXBOX
 void
 CreateNeededAnonFlexItems
 (
@@ -2835,8 +2822,6 @@ nsIFrame
 aParentFrame
 )
 ;
-#
-endif
 inline
 void
 CreateNeededTablePseudos

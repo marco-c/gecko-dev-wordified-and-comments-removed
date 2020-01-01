@@ -2222,9 +2222,6 @@ case
 eUnit_Float
 :
 {
-#
-ifdef
-MOZ_FLEXBOX
 if
 (
 (
@@ -2285,8 +2282,6 @@ return
 false
 ;
 }
-#
-endif
 float
 startFloat
 =
@@ -9338,9 +9333,6 @@ case
 eUnit_Float
 :
 {
-#
-ifdef
-MOZ_FLEXBOX
 if
 (
 (
@@ -9401,8 +9393,6 @@ return
 false
 ;
 }
-#
-endif
 aResultValue
 .
 SetFloatValue
@@ -14486,9 +14476,6 @@ eUnit_Integer
 break
 ;
 }
-#
-ifdef
-MOZ_FLEXBOX
 case
 eCSSProperty_order
 :
@@ -14522,8 +14509,6 @@ eUnit_Integer
 break
 ;
 }
-#
-endif
 case
 eCSSProperty_text_decoration_color
 :

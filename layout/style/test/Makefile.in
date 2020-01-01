@@ -939,8 +939,6 @@ html
 (
 NULL
 )
-ifdef
-MOZ_FLEXBOX
 MOCHITEST_FILES
 +
 =
@@ -1008,7 +1006,6 @@ html
 (
 NULL
 )
-endif
 _VISITED_REFTEST_FILES
 =
 \

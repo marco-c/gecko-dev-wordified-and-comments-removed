@@ -721,9 +721,6 @@ FrameMetrics
 :
 START_SCROLL_ID
 ;
-#
-ifdef
-MOZ_FLEXBOX
 static
 int32_t
 sIndexOfFlexInDisplayTable
@@ -738,8 +735,6 @@ sAreFlexKeywordIndicesInitialized
 =
 false
 ;
-#
-endif
 typedef
 nsDataHashtable
 <
@@ -789,9 +784,6 @@ return
 sContentMap
 ;
 }
-#
-ifdef
-MOZ_FLEXBOX
 static
 int
 FlexboxEnabledPrefChangeCallback
@@ -944,8 +936,6 @@ return
 0
 ;
 }
-#
-endif
 template
 <
 class
@@ -15442,9 +15432,6 @@ isHorizontalFlexItem
 =
 false
 ;
-#
-ifdef
-MOZ_FLEXBOX
 if
 (
 isFlexItem
@@ -15540,8 +15527,6 @@ flexBasis
 }
 }
 }
-#
-endif
 const
 bool
 isAutoWidth
@@ -24862,9 +24847,6 @@ invalidation
 "
 )
 ;
-#
-ifdef
-MOZ_FLEXBOX
 Preferences
 :
 :
@@ -24880,8 +24862,6 @@ FLEXBOX_ENABLED_PREF_NAME
 nullptr
 )
 ;
-#
-endif
 }
 void
 nsLayoutUtils
@@ -24904,9 +24884,6 @@ sContentMap
 nullptr
 ;
 }
-#
-ifdef
-MOZ_FLEXBOX
 Preferences
 :
 :
@@ -24916,8 +24893,6 @@ FlexboxEnabledPrefChangeCallback
 FLEXBOX_ENABLED_PREF_NAME
 )
 ;
-#
-endif
 }
 void
 nsLayoutUtils

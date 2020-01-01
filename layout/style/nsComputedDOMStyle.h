@@ -2891,9 +2891,6 @@ DoGetAnimationPlayState
 (
 )
 ;
-#
-ifdef
-MOZ_FLEXBOX
 mozilla
 :
 :
@@ -2990,8 +2987,6 @@ DoGetJustifyContent
 (
 )
 ;
-#
-endif
 mozilla
 :
 :

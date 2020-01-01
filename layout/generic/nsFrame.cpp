@@ -17642,9 +17642,6 @@ isHorizontalFlexItem
 =
 false
 ;
-#
-ifdef
-MOZ_FLEXBOX
 if
 (
 isFlexItem
@@ -17735,8 +17732,6 @@ flexBasis
 }
 }
 }
-#
-endif
 if
 (
 widthStyleCoord

@@ -2585,16 +2585,11 @@ RequireWhitespace
 (
 )
 ;
-#
-ifdef
-MOZ_FLEXBOX
 bool
 ParseFlex
 (
 )
 ;
-#
-endif
 bool
 ParseRect
 (
@@ -24696,9 +24691,6 @@ return
 false
 ;
 }
-#
-ifdef
-MOZ_FLEXBOX
 bool
 CSSParserImpl
 :
@@ -24977,8 +24969,6 @@ return
 true
 ;
 }
-#
-endif
 bool
 CSSParserImpl
 :
@@ -28372,9 +28362,6 @@ ParseCursor
 (
 )
 ;
-#
-ifdef
-MOZ_FLEXBOX
 case
 eCSSProperty_flex
 :
@@ -28383,8 +28370,6 @@ ParseFlex
 (
 )
 ;
-#
-endif
 case
 eCSSProperty_font
 :

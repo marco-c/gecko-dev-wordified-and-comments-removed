@@ -634,17 +634,12 @@ h
 #
 endif
 #
-ifdef
-MOZ_FLEXBOX
-#
 include
 "
 nsFlexContainerFrame
 .
 h
 "
-#
-endif
 #
 ifdef
 ACCESSIBILITY
@@ -1788,9 +1783,6 @@ FFWC_nextInFlows
 ;
 #
 endif
-#
-ifdef
-MOZ_FLEXBOX
 static
 inline
 bool
@@ -1829,8 +1821,6 @@ nsCSSAnonBoxes
 anonymousFlexItem
 ;
 }
-#
-endif
 static
 inline
 nsIFrame
@@ -17364,9 +17354,6 @@ nsCSSFrameConstructor
 ConstructInline
 )
 }
-#
-ifdef
-MOZ_FLEXBOX
 {
 NS_STYLE_DISPLAY_FLEX
 FCDATA_DECL
@@ -17383,8 +17370,6 @@ FCDATA_MAY_NEED_SCROLLFRAME
 NS_NewFlexContainerFrame
 )
 }
-#
-endif
 {
 NS_STYLE_DISPLAY_TABLE
 FULL_CTOR_FCDATA
@@ -37795,9 +37780,6 @@ true
 ;
 }
 }
-#
-ifdef
-MOZ_FLEXBOX
 if
 (
 nextSibling
@@ -38042,8 +38024,6 @@ return
 true
 ;
 }
-#
-endif
 #
 ifdef
 MOZ_XUL
@@ -39131,9 +39111,6 @@ table
 }
 }
 ;
-#
-ifdef
-MOZ_FLEXBOX
 void
 nsCSSFrameConstructor
 :
@@ -39599,8 +39576,6 @@ IsDone
 )
 ;
 }
-#
-endif
 void
 nsCSSFrameConstructor
 :
@@ -40261,9 +40236,6 @@ aItems
 aParentFrame
 )
 ;
-#
-ifdef
-MOZ_FLEXBOX
 if
 (
 aParentFrame
@@ -40288,8 +40260,6 @@ aParentFrame
 )
 ;
 }
-#
-endif
 #
 ifdef
 DEBUG
@@ -46053,9 +46023,6 @@ aFrame
 aPrevSibling
 )
 ;
-#
-ifdef
-MOZ_FLEXBOX
 if
 (
 aFrame
@@ -46268,8 +46235,6 @@ true
 ;
 }
 }
-#
-endif
 ParentType
 parentType
 =
@@ -49143,9 +49108,6 @@ return
 false
 ;
 }
-#
-ifdef
-MOZ_FLEXBOX
 bool
 nsCSSFrameConstructor
 :
@@ -49347,8 +49309,6 @@ return
 false
 ;
 }
-#
-endif
 inline
 bool
 nsCSSFrameConstructor

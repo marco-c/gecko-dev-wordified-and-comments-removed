@@ -5169,9 +5169,6 @@ aValue
 break
 ;
 }
-#
-ifdef
-MOZ_FLEXBOX
 case
 eCSSProperty_flex
 :
@@ -5241,8 +5238,6 @@ aValue
 break
 ;
 }
-#
-endif
 case
 eCSSProperty__moz_transform
 :

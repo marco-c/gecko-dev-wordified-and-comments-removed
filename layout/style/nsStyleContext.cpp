@@ -1671,9 +1671,6 @@ NS_STYLE_DISPLAY_BLOCK
 ;
 }
 }
-#
-ifdef
-MOZ_FLEXBOX
 if
 (
 !
@@ -1880,8 +1877,6 @@ displayVal
 }
 }
 }
-#
-endif
 StyleUserInterface
 (
 )

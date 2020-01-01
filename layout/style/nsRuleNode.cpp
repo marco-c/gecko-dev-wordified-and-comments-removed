@@ -556,14 +556,9 @@ NS_STYLE_DISPLAY_BLOCK
 case
 NS_STYLE_DISPLAY_LIST_ITEM
 :
-#
-ifdef
-MOZ_FLEXBOX
 case
 NS_STYLE_DISPLAY_FLEX
 :
-#
-endif
 break
 ;
 case
@@ -575,9 +570,6 @@ NS_STYLE_DISPLAY_TABLE
 ;
 break
 ;
-#
-ifdef
-MOZ_FLEXBOX
 case
 NS_STYLE_DISPLAY_INLINE_FLEX
 :
@@ -587,8 +579,6 @@ NS_STYLE_DISPLAY_FLEX
 ;
 break
 ;
-#
-endif
 default
 :
 display
@@ -33753,9 +33743,6 @@ NS_STYLE_BOX_SIZING_CONTENT
 0
 )
 ;
-#
-ifdef
-MOZ_FLEXBOX
 SetDiscrete
 (
 *
@@ -34067,8 +34054,6 @@ NS_STYLE_JUSTIFY_CONTENT_FLEX_START
 0
 )
 ;
-#
-endif
 const
 nsCSSValue
 *
