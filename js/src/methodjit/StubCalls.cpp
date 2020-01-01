@@ -2062,6 +2062,8 @@ fun
 -
 >
 atom
+(
+)
 -
 >
 asPropertyName

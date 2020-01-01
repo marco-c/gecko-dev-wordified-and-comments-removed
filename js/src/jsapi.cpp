@@ -12482,7 +12482,9 @@ if
 fun
 -
 >
-atom
+displayAtom
+(
+)
 )
 {
 *
@@ -12504,7 +12506,9 @@ bufsize
 fun
 -
 >
-atom
+displayAtom
+(
+)
 0
 )
 ;
@@ -24166,6 +24170,8 @@ fun
 -
 >
 atom
+(
+)
 ;
 }
 JS_PUBLIC_API

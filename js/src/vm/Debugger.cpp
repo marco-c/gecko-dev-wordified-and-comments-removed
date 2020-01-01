@@ -20145,6 +20145,8 @@ toFunction
 -
 >
 atom
+(
+)
 ;
 if
 (

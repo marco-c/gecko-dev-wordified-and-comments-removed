@@ -28489,7 +28489,9 @@ if
 fun
 -
 >
-atom
+displayAtom
+(
+)
 )
 {
 fputs
@@ -28507,7 +28509,9 @@ stderr
 fun
 -
 >
-atom
+displayAtom
+(
+)
 0
 )
 ;
