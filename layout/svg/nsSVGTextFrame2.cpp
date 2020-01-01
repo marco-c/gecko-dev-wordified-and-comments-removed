@@ -8720,6 +8720,7 @@ mFrame
 >
 NotifyGlyphMetricsChange
 (
+ePositioningDirtyDueToMutation
 )
 ;
 }
@@ -8750,6 +8751,7 @@ mFrame
 >
 NotifyGlyphMetricsChange
 (
+ePositioningDirtyDueToMutation
 )
 ;
 }
@@ -8783,6 +8785,7 @@ mFrame
 >
 NotifyGlyphMetricsChange
 (
+ePositioningDirtyDueToMutation
 )
 ;
 }
