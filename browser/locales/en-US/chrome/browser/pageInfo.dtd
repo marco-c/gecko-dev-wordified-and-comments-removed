@@ -914,7 +914,9 @@ ENTITY
 permPopup
 "
 Open
-Popup
+Pop
+-
+up
 Windows
 "
 >

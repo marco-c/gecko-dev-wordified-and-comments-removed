@@ -3024,7 +3024,9 @@ pageReportIcon
 tooltip
 "
 Change
-popup
+pop
+-
+up
 blocking
 settings
 for
@@ -3102,7 +3104,9 @@ editPopupSettingsUnix
 label
 "
 Edit
-Popup
+Pop
+-
+up
 Blocker
 Preferences
 "
@@ -3115,7 +3119,9 @@ editPopupSettings
 label
 "
 Edit
-Popup
+Pop
+-
+up
 Blocker
 Options
 "

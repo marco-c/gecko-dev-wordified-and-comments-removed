@@ -13,7 +13,9 @@ attempted
 to
 open
 a
-popup
+pop
+-
+up
 window
 without
 your
@@ -26,7 +28,9 @@ has
 automatically
 closed
 the
-popup
+pop
+-
+up
 window
 .
 Whenever
@@ -98,7 +102,9 @@ caption
 label
 "
 About
-Popup
+Pop
+-
+up
 Blocking
 "
 >
