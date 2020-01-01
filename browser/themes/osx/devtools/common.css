@@ -2090,9 +2090,8 @@ none
 ;
 padding
 :
-6px
-3px
 5px
+3px
 !
 important
 ;
@@ -2114,6 +2113,12 @@ min
 width
 :
 78px
+;
+min
+-
+height
+:
+32px
 ;
 text
 -

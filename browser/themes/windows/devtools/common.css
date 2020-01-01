@@ -2237,9 +2237,8 @@ none
 ;
 padding
 :
-8px
+5px
 3px
-7px
 ;
 -
 moz
@@ -2259,6 +2258,12 @@ min
 width
 :
 78px
+;
+min
+-
+height
+:
+32px
 ;
 text
 -
