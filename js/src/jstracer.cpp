@@ -62696,6 +62696,9 @@ toString
 (
 )
 ;
+#
+ifdef
+JS_HAS_STATIC_STRINGS
 if
 (
 native
@@ -62816,6 +62819,8 @@ RECORD_CONTINUE
 ;
 }
 else
+#
+endif
 if
 (
 native
@@ -70286,6 +70291,9 @@ JSString
 32
 )
 ;
+#
+ifdef
+JS_HAS_STATIC_STRINGS
 JS_REQUIRES_STACK
 LIns
 *
@@ -70658,6 +70666,8 @@ RECORD_CONTINUE
 ;
 }
 #
+endif
+#
 if
 NJ_EXPANDED_LOADSTORE_SUPPORTED
 &
@@ -70849,6 +70859,9 @@ get
 idx
 )
 ;
+#
+ifdef
+JS_HAS_STATIC_STRINGS
 if
 (
 lval
@@ -70948,6 +70961,8 @@ return
 ARECORD_CONTINUE
 ;
 }
+#
+endif
 if
 (
 lval

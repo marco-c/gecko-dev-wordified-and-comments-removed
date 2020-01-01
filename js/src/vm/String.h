@@ -1951,6 +1951,18 @@ JSString
 )
 )
 ;
+#
+if
+!
+defined
+(
+__ia64__
+)
+#
+define
+JS_HAS_STATIC_STRINGS
+#
+endif
 class
 JSAtom
 :
@@ -1959,6 +1971,9 @@ JSFixedString
 {
 public
 :
+#
+ifdef
+JS_HAS_STATIC_STRINGS
 static
 const
 size_t
@@ -2050,6 +2065,8 @@ intStaticTable
 [
 ]
 ;
+#
+endif
 private
 :
 static
