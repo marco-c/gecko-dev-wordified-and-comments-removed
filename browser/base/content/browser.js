@@ -36464,6 +36464,14 @@ document
 .
 documentElement
 ;
+if
+(
+!
+PrivateBrowsingUtils
+.
+permanentPrivateBrowsing
+)
+{
 docElement
 .
 setAttribute
@@ -36498,6 +36506,7 @@ titlemodifier_privatebrowsing
 )
 )
 ;
+}
 docElement
 .
 setAttribute
