@@ -593,10 +593,15 @@ data
 ctx
 )
 {
+do_test_pending
+(
+)
+;
 httpserver
 .
 stop
 (
+do_test_finished
 )
 ;
 do_check_eq

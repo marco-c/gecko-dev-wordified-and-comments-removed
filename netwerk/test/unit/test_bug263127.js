@@ -64,10 +64,15 @@ status
 file
 )
 {
+do_test_pending
+(
+)
+;
 server
 .
 stop
 (
+do_test_finished
 )
 ;
 if

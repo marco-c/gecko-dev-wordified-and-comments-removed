@@ -570,12 +570,9 @@ end_test
 (
 )
 {
-do_test_finished
-(
-)
-;
 stop_httpserver
 (
+do_test_finished
 )
 ;
 }

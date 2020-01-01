@@ -1832,14 +1832,11 @@ i
 )
 ;
 }
-do_test_finished
-(
-)
-;
 testserver
 .
 stop
 (
+do_test_finished
 )
 ;
 }

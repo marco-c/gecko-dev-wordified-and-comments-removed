@@ -580,12 +580,6 @@ do_check_true
 didResumeServer
 )
 ;
-httpserv
-.
-stop
-(
-)
-;
 aDl
 .
 targetFile
@@ -595,8 +589,11 @@ remove
 false
 )
 ;
-do_test_finished
+httpserv
+.
+stop
 (
+do_test_finished
 )
 ;
 }
@@ -622,10 +619,7 @@ httpserv
 .
 stop
 (
-)
-;
 do_test_finished
-(
 )
 ;
 }

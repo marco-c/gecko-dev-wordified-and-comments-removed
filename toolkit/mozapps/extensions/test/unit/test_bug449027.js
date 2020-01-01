@@ -3065,10 +3065,7 @@ gTestserver
 .
 stop
 (
-)
-;
 do_test_finished
-(
 )
 ;
 }

@@ -857,10 +857,7 @@ httpserver
 .
 stop
 (
-)
-;
 do_test_finished
-(
 )
 ;
 return

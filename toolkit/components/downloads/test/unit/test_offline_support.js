@@ -588,6 +588,7 @@ httpserv
 .
 stop
 (
+do_test_finished
 )
 ;
 aDl
@@ -597,10 +598,6 @@ targetFile
 remove
 (
 false
-)
-;
-do_test_finished
-(
 )
 ;
 }
@@ -626,10 +623,7 @@ httpserv
 .
 stop
 (
-)
-;
 do_test_finished
-(
 )
 ;
 }

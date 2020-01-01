@@ -91,10 +91,7 @@ end_test
 {
 stop_httpserver
 (
-)
-;
 do_test_finished
-(
 )
 ;
 }

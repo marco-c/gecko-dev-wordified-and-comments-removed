@@ -787,10 +787,7 @@ testserver
 .
 stop
 (
-)
-;
 do_test_finished
-(
 )
 ;
 }
