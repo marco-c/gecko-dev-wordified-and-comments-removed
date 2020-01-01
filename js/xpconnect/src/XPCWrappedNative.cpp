@@ -13309,8 +13309,14 @@ nsXPTType
 :
 T_DOMSTRING
 :
-mCallContext
-.
+nsXPConnect
+:
+:
+GetRuntimeInstance
+(
+)
+-
+>
 DeleteString
 (
 (
