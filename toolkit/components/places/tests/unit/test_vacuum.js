@@ -587,6 +587,8 @@ run_test
 (
 )
 {
+return
+;
 while
 (
 gTests
