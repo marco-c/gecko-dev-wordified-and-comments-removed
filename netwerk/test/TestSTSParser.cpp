@@ -15,13 +15,6 @@ h
 #
 include
 "
-plstr
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h
@@ -29,21 +22,7 @@ h
 #
 include
 "
-nsStringGlue
-.
-h
-"
-#
-include
-"
 nsISiteSecurityService
-.
-h
-"
-#
-include
-"
-nsIPermissionManager
 .
 h
 "
@@ -166,9 +145,6 @@ expectedIncludeSubdomains
 nsISiteSecurityService
 *
 sss
-nsIPermissionManager
-*
-pm
 )
 {
 nsCOMPtr
@@ -349,9 +325,6 @@ hdr
 nsISiteSecurityService
 *
 sss
-nsIPermissionManager
-*
-pm
 )
 {
 nsCOMPtr
@@ -540,36 +513,6 @@ rv
 1
 )
 ;
-nsCOMPtr
-<
-nsIPermissionManager
->
-pm
-;
-pm
-=
-do_GetService
-(
-"
-mozilla
-.
-org
-/
-permissionmanager
-;
-1
-"
-&
-rv
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
--
-1
-)
-;
 int
 rv0
 rv1
@@ -620,7 +563,6 @@ false
 100
 false
 sss
-pm
 )
 )
 ;
@@ -641,7 +583,6 @@ false
 100
 false
 sss
-pm
 )
 )
 ;
@@ -662,7 +603,6 @@ false
 100
 false
 sss
-pm
 )
 )
 ;
@@ -683,32 +623,6 @@ false
 100
 false
 sss
-pm
-)
-)
-;
-rvs
-.
-AppendElement
-(
-TestSuccess
-(
-"
-max
--
-age
-=
-\
-"
-100
-\
-"
-"
-false
-100
-false
-sss
-pm
 )
 )
 ;
@@ -733,7 +647,6 @@ false
 100
 false
 sss
-pm
 )
 )
 ;
@@ -758,7 +671,30 @@ false
 100
 false
 sss
-pm
+)
+)
+;
+rvs
+.
+AppendElement
+(
+TestSuccess
+(
+"
+max
+-
+age
+=
+\
+"
+100
+\
+"
+"
+false
+100
+false
+sss
 )
 )
 ;
@@ -790,7 +726,6 @@ false
 100
 false
 sss
-pm
 )
 )
 ;
@@ -811,7 +746,6 @@ false
 100
 false
 sss
-pm
 )
 )
 ;
@@ -832,7 +766,6 @@ false
 100
 false
 sss
-pm
 )
 )
 ;
@@ -853,7 +786,6 @@ false
 100
 false
 sss
-pm
 )
 )
 ;
@@ -874,7 +806,6 @@ false
 100
 false
 sss
-pm
 )
 )
 ;
@@ -895,7 +826,6 @@ false
 100
 false
 sss
-pm
 )
 )
 ;
@@ -916,7 +846,6 @@ false
 100
 false
 sss
-pm
 )
 )
 ;
@@ -939,7 +868,6 @@ false
 100
 true
 sss
-pm
 )
 )
 ;
@@ -964,7 +892,6 @@ false
 100
 true
 sss
-pm
 )
 )
 ;
@@ -987,7 +914,6 @@ false
 100
 true
 sss
-pm
 )
 )
 ;
@@ -1010,7 +936,6 @@ false
 100
 true
 sss
-pm
 )
 )
 ;
@@ -1033,7 +958,6 @@ false
 100
 true
 sss
-pm
 )
 )
 ;
@@ -1056,7 +980,6 @@ false
 100
 true
 sss
-pm
 )
 )
 ;
@@ -1079,7 +1002,6 @@ false
 100
 true
 sss
-pm
 )
 )
 ;
@@ -1102,7 +1024,6 @@ false
 100
 true
 sss
-pm
 )
 )
 ;
@@ -1125,7 +1046,6 @@ false
 100
 true
 sss
-pm
 )
 )
 ;
@@ -1148,7 +1068,6 @@ false
 100
 true
 sss
-pm
 )
 )
 ;
@@ -1172,7 +1091,6 @@ true
 100
 true
 sss
-pm
 )
 )
 ;
@@ -1195,7 +1113,6 @@ true
 100
 false
 sss
-pm
 )
 )
 ;
@@ -1246,7 +1163,6 @@ true
 34520103
 true
 sss
-pm
 )
 )
 ;
@@ -1284,7 +1200,6 @@ true
 100
 false
 sss
-pm
 )
 )
 ;
@@ -1366,7 +1281,6 @@ max
 age
 "
 sss
-pm
 )
 )
 ;
@@ -1382,7 +1296,6 @@ max
 age
 "
 sss
-pm
 )
 )
 ;
@@ -1400,7 +1313,6 @@ age
 p
 "
 sss
-pm
 )
 )
 ;
@@ -1419,7 +1331,6 @@ age
 1p2
 "
 sss
-pm
 )
 )
 ;
@@ -1438,7 +1349,6 @@ age
 20032
 "
 sss
-pm
 )
 )
 ;
@@ -1457,7 +1367,6 @@ age
 20032
 "
 sss
-pm
 )
 )
 ;
@@ -1476,7 +1385,6 @@ age
 20032
 "
 sss
-pm
 )
 )
 ;
@@ -1490,7 +1398,6 @@ TestFailure
 foobar
 "
 sss
-pm
 )
 )
 ;
@@ -1506,7 +1413,6 @@ maxage
 100
 "
 sss
-pm
 )
 )
 ;
@@ -1524,7 +1430,6 @@ ge
 100
 "
 sss
-pm
 )
 )
 ;
@@ -1542,7 +1447,6 @@ ag
 100
 "
 sss
-pm
 )
 )
 ;
@@ -1556,7 +1460,6 @@ TestFailure
 includesubdomains
 "
 sss
-pm
 )
 )
 ;
@@ -1570,7 +1473,6 @@ TestFailure
 ;
 "
 sss
-pm
 )
 )
 ;
@@ -1590,7 +1492,6 @@ age
 100
 "
 sss
-pm
 )
 )
 ;
@@ -1615,7 +1516,6 @@ age
 includeSubdomains
 "
 sss
-pm
 )
 )
 ;
@@ -1634,7 +1534,6 @@ age
 includesubdomains
 "
 sss
-pm
 )
 )
 ;
@@ -1654,7 +1553,6 @@ bar
 foo
 "
 sss
-pm
 )
 )
 ;
@@ -1672,7 +1570,6 @@ age
 100randomstuffhere
 "
 sss
-pm
 )
 )
 ;
@@ -1696,7 +1593,6 @@ age
 200
 "
 sss
-pm
 )
 )
 ;
@@ -1718,7 +1614,6 @@ age
 includeSubdomains
 "
 sss
-pm
 )
 )
 ;
@@ -1740,7 +1635,6 @@ includeSubdomains
 includeSubdomains
 "
 sss
-pm
 )
 )
 ;
@@ -1762,7 +1656,6 @@ includeSubdomains
 unexpected
 "
 sss
-pm
 )
 )
 ;
@@ -1783,7 +1676,6 @@ age
 200
 "
 sss
-pm
 )
 )
 ;
