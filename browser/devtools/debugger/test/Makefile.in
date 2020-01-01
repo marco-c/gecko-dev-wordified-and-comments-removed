@@ -451,6 +451,10 @@ mk
 _BROWSER_TEST_FILES
 =
 \
+browser_dbg_createRemote
+.
+js
+\
 browser_dbg_debuggerstatement
 .
 js
