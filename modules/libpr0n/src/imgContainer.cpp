@@ -464,6 +464,17 @@ framerect
 aRegion
 )
 ;
+if
+(
+framerect
+.
+IsEmpty
+(
+)
+)
+return
+NS_ERROR_NOT_AVAILABLE
+;
 nsAutoPtr
 <
 imgFrame
