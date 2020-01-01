@@ -79,6 +79,15 @@ testing
 mozbase
 /
 mozlog
+moznetwork
+.
+pth
+:
+testing
+/
+mozbase
+/
+moznetwork
 mozprocess
 .
 pth
