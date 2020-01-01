@@ -25113,6 +25113,14 @@ quota
 .
 h
 )
+AC_CHECK_HEADERS
+(
+sys
+/
+sysmacros
+.
+h
+)
 dnl
 Try
 for

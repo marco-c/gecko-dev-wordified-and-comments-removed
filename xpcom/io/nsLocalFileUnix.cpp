@@ -113,6 +113,12 @@ defined
 HAVE_SYS_QUOTA_H
 )
 #
+if
+defined
+(
+HAVE_SYS_SYSMACROS_H
+)
+#
 include
 <
 sys
@@ -121,6 +127,8 @@ sysmacros
 .
 h
 >
+#
+endif
 #
 include
 <
@@ -5081,7 +5089,7 @@ HAVE_SYS_STAT_H
 |
 defined
 (
-HAVE_SYS_QUOTA_H
+HAVE_SYS_SYSMACROS_H
 )
 if
 (
