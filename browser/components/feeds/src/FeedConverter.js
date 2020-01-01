@@ -1827,9 +1827,6 @@ Ci
 nsILocalFile
 )
 ;
-#
-ifdef
-XP_MACOSX
 var
 ios
 =
@@ -1858,7 +1855,7 @@ nsIIOService
 )
 ;
 var
-macURI
+feedURI
 =
 ios
 .
@@ -1871,7 +1868,7 @@ null
 ;
 if
 (
-macURI
+feedURI
 .
 schemeIs
 (
@@ -1881,7 +1878,7 @@ http
 )
 )
 {
-macURI
+feedURI
 .
 scheme
 =
@@ -1891,7 +1888,7 @@ feed
 ;
 spec
 =
-macURI
+feedURI
 .
 spec
 ;
@@ -1906,8 +1903,6 @@ feed
 +
 spec
 ;
-#
-endif
 var
 ss
 =
