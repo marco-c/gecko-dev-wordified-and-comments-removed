@@ -395,7 +395,7 @@ MIRGenerator
 *
 gen
 LIRGraph
-&
+*
 graph
 )
 ;

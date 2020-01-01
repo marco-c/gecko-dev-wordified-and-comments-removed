@@ -141,7 +141,7 @@ MIRGenerator
 *
 gen
 LIRGraph
-&
+*
 graph
 )
 ;

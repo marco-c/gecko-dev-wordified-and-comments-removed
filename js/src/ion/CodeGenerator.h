@@ -120,7 +120,7 @@ MIRGenerator
 *
 gen
 LIRGraph
-&
+*
 graph
 )
 ;
@@ -128,6 +128,11 @@ public
 :
 bool
 generate
+(
+)
+;
+bool
+link
 (
 )
 ;

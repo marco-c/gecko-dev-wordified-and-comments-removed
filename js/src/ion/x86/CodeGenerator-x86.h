@@ -179,7 +179,7 @@ MIRGenerator
 *
 gen
 LIRGraph
-&
+*
 graph
 )
 ;

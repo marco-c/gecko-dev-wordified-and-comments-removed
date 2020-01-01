@@ -97,7 +97,7 @@ MIRGenerator
 *
 gen
 LIRGraph
-&
+*
 graph
 )
 :
@@ -116,6 +116,7 @@ gen
 )
 graph
 (
+*
 graph
 )
 current
@@ -162,7 +163,8 @@ osrEntryOffset_
 frameDepth_
 (
 graph
-.
+-
+>
 localSlotCount
 (
 )
@@ -173,7 +175,8 @@ STACK_SLOT_SIZE
 )
 +
 graph
-.
+-
+>
 argumentSlotCount
 (
 )
