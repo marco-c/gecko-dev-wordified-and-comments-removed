@@ -160,6 +160,8 @@ aDirectory
 mozIStorageConnection
 *
 aConnection
+FactoryPrivilege
+aPrivilege
 )
 ;
 nsresult

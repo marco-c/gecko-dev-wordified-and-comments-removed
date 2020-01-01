@@ -145,6 +145,8 @@ aDirectory
 mozIStorageConnection
 *
 aConnection
+FactoryPrivilege
+aPrivilege
 )
 {
 NS_ASSERTION
@@ -483,6 +485,14 @@ if
 flag
 )
 {
+if
+(
+aPrivilege
+!
+=
+Chrome
+)
+{
 rv
 =
 ss
@@ -499,6 +509,7 @@ rv
 rv
 )
 ;
+}
 }
 else
 {
