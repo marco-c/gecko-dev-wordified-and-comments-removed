@@ -1457,6 +1457,9 @@ gcAssertNoGCDepth
 ;
 #
 endif
+int32_t
+suppressGC
+;
 PerThreadData
 (
 JSRuntime
@@ -2905,9 +2908,6 @@ noGCOrAllocationCheck
 ;
 #
 endif
-int32_t
-inOOMReport
-;
 bool
 jitHardening
 ;

@@ -121,6 +121,14 @@ InNoGCScope
 (
 )
 ;
+JS_FRIEND_API
+(
+bool
+)
+isGCEnabled
+(
+)
+;
 struct
 NullPtr
 {
@@ -2885,8 +2893,11 @@ AssertCanGC
 (
 )
 {
-JS_ASSERT
+JS_ASSERT_IF
 (
+isGCEnabled
+(
+)
 !
 InNoGCScope
 (
