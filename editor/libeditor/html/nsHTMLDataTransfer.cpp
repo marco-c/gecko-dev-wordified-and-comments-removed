@@ -2129,11 +2129,6 @@ res
 )
 ;
 }
-PRBool
-bDidInsert
-=
-PR_FALSE
-;
 nsCOMPtr
 <
 nsIDOMNode
@@ -2188,6 +2183,11 @@ j
 +
 )
 {
+PRBool
+bDidInsert
+=
+PR_FALSE
+;
 nsCOMPtr
 <
 nsIDOMNode
@@ -2797,7 +2797,7 @@ parent
 }
 if
 (
-bDidInsert
+lastInsertNode
 )
 {
 res
