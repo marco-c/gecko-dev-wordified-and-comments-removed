@@ -2017,6 +2017,10 @@ uv_pitch
 (
 y_buf
 -
+(
+PRUint8
+*
+)
 NULL
 )
 &
@@ -2031,6 +2035,10 @@ NULL
 (
 u_buf
 -
+(
+PRUint8
+*
+)
 NULL
 )
 &
@@ -2045,6 +2053,10 @@ NULL
 (
 v_buf
 -
+(
+PRUint8
+*
+)
 NULL
 )
 &
