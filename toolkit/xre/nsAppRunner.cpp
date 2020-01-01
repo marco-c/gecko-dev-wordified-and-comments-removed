@@ -10309,7 +10309,7 @@ airbagEnv
 PR_GetEnv
 (
 "
-MOZ_AIRBAG
+MOZ_CRASHREPORTER
 "
 )
 ;
