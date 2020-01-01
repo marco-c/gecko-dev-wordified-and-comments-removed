@@ -628,7 +628,13 @@ entityID
 }
 startTime
 :
+new
+Date
+(
 startTime
+/
+1000
+)
 totalBytes
 :
 maxBytes
