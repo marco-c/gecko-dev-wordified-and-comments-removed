@@ -409,11 +409,6 @@ PresShell
 textStyleContext
 )
 ;
-if
-(
-newFrame
-)
-{
 newFrame
 -
 >
@@ -432,7 +427,6 @@ SetPrimaryFrame
 newFrame
 )
 ;
-}
 }
 return
 newFrame

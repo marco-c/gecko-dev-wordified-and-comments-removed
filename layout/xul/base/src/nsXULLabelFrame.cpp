@@ -51,10 +51,6 @@ nsXULLabelFrame
 aContext
 )
 ;
-if
-(
-it
-)
 it
 -
 >

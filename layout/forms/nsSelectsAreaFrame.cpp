@@ -67,11 +67,6 @@ nsSelectsAreaFrame
 aContext
 )
 ;
-if
-(
-it
-)
-{
 it
 -
 >
@@ -82,7 +77,6 @@ aFlags
 NS_BLOCK_FLOAT_MGR
 )
 ;
-}
 return
 it
 ;

@@ -2837,11 +2837,6 @@ shell
 colGroupStyle
 )
 ;
-if
-(
-newFrame
-)
-{
 (
 (
 nsTableColGroupFrame
@@ -2866,7 +2861,6 @@ this
 nullptr
 )
 ;
-}
 return
 (
 nsTableColGroupFrame
