@@ -737,6 +737,12 @@ if
 (
 Android
 )
+random
+-
+if
+(
+gtk2Widget
+)
 !
 =
 textarea
@@ -751,6 +757,9 @@ no
 resize
 .
 html
+#
+bug
+834724
 =
 =
 textarea
