@@ -5767,7 +5767,10 @@ History
 UpdateFrecency
 (
 placeId
-PR_FALSE
+IsRealBookmark
+(
+placeId
+)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -8761,7 +8764,10 @@ History
 UpdateFrecency
 (
 placeId
-PR_FALSE
+IsRealBookmark
+(
+placeId
+)
 )
 ;
 NS_ENSURE_SUCCESS
