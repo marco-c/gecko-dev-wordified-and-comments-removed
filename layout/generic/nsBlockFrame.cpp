@@ -14575,14 +14575,8 @@ mHasFloats
 nsCollapsingMargin
 collapsedBottomMargin
 ;
-nsRect
-combinedArea
-(
-0
-0
-0
-0
-)
+nsOverflowAreas
+overflowAreas
 ;
 *
 aKeepReflowGoing
@@ -14603,7 +14597,7 @@ aLine
 -
 >
 mBounds
-combinedArea
+overflowAreas
 frameReflowStatus
 )
 ;
@@ -14649,9 +14643,9 @@ MarkPreviousMarginDirty
 aLine
 -
 >
-SetCombinedArea
+SetOverflowAreas
 (
-combinedArea
+overflowAreas
 )
 ;
 if

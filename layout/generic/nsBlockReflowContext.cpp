@@ -1515,9 +1515,9 @@ aBottomMarginResult
 nsRect
 &
 aInFlowBounds
-nsRect
+nsOverflowAreas
 &
-aCombinedRect
+aOverflowAreas
 nsReflowStatus
 aReflowStatus
 )
@@ -1815,11 +1815,11 @@ y
 0
 )
 ;
-aCombinedRect
+aOverflowAreas
 =
 mMetrics
 .
-mOverflowArea
+mOverflowAreas
 +
 nsPoint
 (

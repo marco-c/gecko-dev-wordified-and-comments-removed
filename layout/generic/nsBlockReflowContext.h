@@ -115,9 +115,9 @@ aBottomMarginResult
 nsRect
 &
 aInFlowBounds
-nsRect
+nsOverflowAreas
 &
-aCombinedRect
+aOverflowAreas
 nsReflowStatus
 aReflowStatus
 )
