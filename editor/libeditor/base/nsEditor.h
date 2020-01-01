@@ -1281,7 +1281,7 @@ bNoBlockCrossing
 PR_FALSE
 )
 ;
-nsCOMPtr
+already_AddRefed
 <
 nsIDOMNode
 >
@@ -1296,7 +1296,7 @@ bNoBlockCrossing
 PR_FALSE
 )
 ;
-nsCOMPtr
+already_AddRefed
 <
 nsIDOMNode
 >

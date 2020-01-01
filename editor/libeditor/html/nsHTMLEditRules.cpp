@@ -22592,8 +22592,6 @@ nsCOMPtr
 nsIDOMNode
 >
 rightmostNode
-;
-rightmostNode
 =
 mHTMLEditor
 -
