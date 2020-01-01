@@ -1661,9 +1661,10 @@ format
 ;
 EGLConfig
 config
-=
-NULL
 ;
+if
+(
+!
 CreateConfig
 (
 &
@@ -1671,11 +1672,6 @@ config
 display
 format
 )
-;
-if
-(
-!
-config
 )
 {
 LOGW
