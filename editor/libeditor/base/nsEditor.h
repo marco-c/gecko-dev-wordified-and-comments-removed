@@ -1029,7 +1029,7 @@ DeleteSelectionAndPrepareToCreateNode
 (
 )
 ;
-NS_IMETHOD
+void
 DoAfterDoTransaction
 (
 nsITransaction
@@ -1037,12 +1037,12 @@ nsITransaction
 aTxn
 )
 ;
-NS_IMETHOD
+void
 DoAfterUndoTransaction
 (
 )
 ;
-NS_IMETHOD
+void
 DoAfterRedoTransaction
 (
 )
