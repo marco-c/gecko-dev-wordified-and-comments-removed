@@ -2132,6 +2132,12 @@ mSmsReceiver
 smsFilter
 )
 ;
+GeckoSmsManager
+.
+init
+(
+)
+;
 if
 (
 !
@@ -2851,6 +2857,12 @@ LOG_FILE_NAME
 "
 destroy
 "
+)
+;
+GeckoSmsManager
+.
+shutdown
+(
 )
 ;
 if
