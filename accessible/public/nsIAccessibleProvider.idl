@@ -448,14 +448,13 @@ XULTabs
 Used
 for
 XUL
-tabpanels
-container
-element
+deck
+frame
 *
 /
 const
 long
-XULTabpanels
+XULDeck
 =
 0x00001019
 ;

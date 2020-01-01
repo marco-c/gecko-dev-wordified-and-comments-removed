@@ -3848,7 +3848,7 @@ interfaces
 .
 nsIAccessibleProvider
 .
-XULTabpanels
+XULDeck
 ;
 ]
 ]
