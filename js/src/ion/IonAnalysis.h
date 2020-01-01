@@ -32,6 +32,14 @@ graph
 )
 ;
 bool
+ReorderBlocks
+(
+MIRGraph
+&
+graph
+)
+;
+void
 RenumberInstructions
 (
 MIRGraph
