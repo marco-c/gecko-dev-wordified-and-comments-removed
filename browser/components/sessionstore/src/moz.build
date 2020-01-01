@@ -129,6 +129,11 @@ DocumentUtils
 jsm
 '
 '
+Messenger
+.
+jsm
+'
+'
 PrivacyLevel
 .
 jsm
