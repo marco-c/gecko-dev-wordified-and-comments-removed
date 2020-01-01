@@ -28,12 +28,6 @@ h
 #
 include
 "
-base
-/
-third_party
-/
-nspr
-/
 prtime
 .
 h
@@ -47,10 +41,6 @@ logging
 .
 h
 "
-using
-namespace
-nspr
-;
 namespace
 base
 {
