@@ -628,6 +628,7 @@ GetSkipSides
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsMargin

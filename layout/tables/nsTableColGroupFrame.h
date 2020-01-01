@@ -397,6 +397,7 @@ GetSkipSides
 (
 )
 const
+MOZ_OVERRIDE
 ;
 int32_t
 mColCount

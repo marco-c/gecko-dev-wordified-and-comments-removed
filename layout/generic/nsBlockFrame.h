@@ -1222,6 +1222,7 @@ GetSkipSides
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void

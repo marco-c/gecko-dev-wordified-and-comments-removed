@@ -639,6 +639,7 @@ GetSkipSides
 (
 )
 const
+MOZ_OVERRIDE
 ;
 nscoord
 ComputeCellXOffset

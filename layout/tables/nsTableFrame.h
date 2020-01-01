@@ -1410,6 +1410,7 @@ GetSkipSides
 (
 )
 const
+MOZ_OVERRIDE
 ;
 public
 :

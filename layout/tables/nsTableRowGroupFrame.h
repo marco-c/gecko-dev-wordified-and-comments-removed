@@ -678,6 +678,7 @@ GetSkipSides
 (
 )
 const
+MOZ_OVERRIDE
 ;
 void
 PlaceChild
