@@ -7,7 +7,9 @@ mozilla_arm_h_
 #
 include
 "
-nscore
+mozilla
+/
+Types
 .
 h
 "
@@ -359,7 +361,7 @@ MOZILLA_PRESUME_EDSP
 )
 extern
 bool
-NS_COM_GLUE
+MFBT_DATA
 edsp_enabled
 ;
 #
@@ -373,7 +375,7 @@ MOZILLA_PRESUME_ARMV6
 )
 extern
 bool
-NS_COM_GLUE
+MFBT_DATA
 armv6_enabled
 ;
 #
@@ -387,7 +389,7 @@ MOZILLA_PRESUME_ARMV7
 )
 extern
 bool
-NS_COM_GLUE
+MFBT_DATA
 armv7_enabled
 ;
 #
@@ -401,7 +403,7 @@ MOZILLA_PRESUME_NEON
 )
 extern
 bool
-NS_COM_GLUE
+MFBT_DATA
 neon_enabled
 ;
 #

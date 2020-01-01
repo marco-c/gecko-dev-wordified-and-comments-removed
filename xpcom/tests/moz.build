@@ -294,11 +294,6 @@ ShowAlignments
 cpp
 '
 '
-ShowSSEConfig
-.
-cpp
-'
-'
 TestAutoPtr
 .
 cpp
