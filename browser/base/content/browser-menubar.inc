@@ -1427,10 +1427,6 @@ accesskey
 /
 >
 <
-menuseparator
-/
->
-<
 menuitem
 id
 =
