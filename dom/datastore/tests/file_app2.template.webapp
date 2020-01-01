@@ -62,9 +62,7 @@ datastore
 /
 tests
 /
-file_readonly
-.
-html
+TESTTOKEN
 "
 "
 icons
