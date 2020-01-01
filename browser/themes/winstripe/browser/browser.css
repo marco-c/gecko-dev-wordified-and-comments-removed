@@ -1047,6 +1047,13 @@ true
 ~
 #
 TabsToolbar
+:
+not
+(
+[
+inFullscreen
+]
+)
 {
 -
 moz
