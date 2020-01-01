@@ -1580,12 +1580,7 @@ gLastMouseButton
 =
 0
 ;
-#
-ifdef
-WINCE
 static
-#
-endif
 PRUint32
 gLastInputEventTime
 =
