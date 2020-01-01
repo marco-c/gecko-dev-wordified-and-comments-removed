@@ -360,14 +360,14 @@ type
 ;
 if
 (
+NS_SUCCEEDED
+(
 GetType
 (
 ext
 type
 )
-=
-=
-NS_OK
+)
 )
 item
 -

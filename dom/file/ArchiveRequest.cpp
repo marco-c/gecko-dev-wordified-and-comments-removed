@@ -345,10 +345,10 @@ aStatus
 {
 if
 (
+NS_FAILED
+(
 aStatus
-!
-=
-NS_OK
+)
 )
 {
 FireError
@@ -682,10 +682,10 @@ str
 ;
 if
 (
+NS_FAILED
+(
 rv
-!
-=
-NS_OK
+)
 |
 |
 !

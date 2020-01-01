@@ -153,6 +153,10 @@ test_archivereader
 .
 html
 \
+test_archivereader_zip_in_zip
+.
+html
+\
 (
 NULL
 )
