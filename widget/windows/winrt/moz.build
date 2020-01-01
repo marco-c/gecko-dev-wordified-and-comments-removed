@@ -162,6 +162,11 @@ nsWinMetroUtils
 .
 cpp
 '
+'
+APZController
+.
+cpp
+'
 ]
 EXTRA_COMPONENTS
 +

@@ -451,6 +451,10 @@ CoreExit
 (
 )
 {
+LogFunction
+(
+)
+;
 HRESULT
 hr
 ;

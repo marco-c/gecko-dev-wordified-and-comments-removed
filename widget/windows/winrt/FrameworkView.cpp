@@ -1025,10 +1025,6 @@ mMetroInput
 =
 nullptr
 ;
-mD2DWindowSurface
-=
-nullptr
-;
 delete
 sSettingsArray
 ;
