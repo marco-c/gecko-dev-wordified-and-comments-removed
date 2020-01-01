@@ -8905,7 +8905,7 @@ nsIDOMNodeList
 aReturn
 )
 {
-void
+nsString
 *
 elementNameData
 =
@@ -8925,8 +8925,7 @@ nsContentList
 *
 elements
 =
-new
-nsContentList
+NS_GetFuncStringContentList
 (
 this
 MatchNameAttribute
@@ -8935,6 +8934,12 @@ nsContentUtils
 :
 DestroyMatchString
 elementNameData
+*
+elementNameData
+)
+.
+get
+(
 )
 ;
 NS_ENSURE_TRUE
@@ -8947,12 +8952,6 @@ NS_ERROR_OUT_OF_MEMORY
 aReturn
 =
 elements
-;
-NS_ADDREF
-(
-*
-aReturn
-)
 ;
 return
 NS_OK
