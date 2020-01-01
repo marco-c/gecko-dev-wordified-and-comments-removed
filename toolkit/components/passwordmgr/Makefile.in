@@ -121,6 +121,16 @@ js
 (
 NULL
 )
+EXTRA_JS_MODULES
+=
+\
+LoginManagerContent
+.
+jsm
+\
+(
+NULL
+)
 include
 (
 topsrcdir
