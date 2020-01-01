@@ -246,10 +246,6 @@ TestRefPtr
 .
 cpp
 \
-TestSettingsAPI
-.
-cpp
-\
 TestTextFormatter
 .
 cpp
