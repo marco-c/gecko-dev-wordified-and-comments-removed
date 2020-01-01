@@ -271,6 +271,14 @@ lir
 )
 ;
 bool
+visitPolyInlineDispatch
+(
+LPolyInlineDispatch
+*
+lir
+)
+;
+bool
 visitIntToString
 (
 LIntToString

@@ -208,6 +208,11 @@ InlineFunctionGuard
 \
 _
 (
+PolyInlineDispatch
+)
+\
+_
+(
 Compare
 )
 \
