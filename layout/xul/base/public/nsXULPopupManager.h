@@ -1113,6 +1113,14 @@ KillMenuTimer
 (
 )
 ;
+void
+CancelMenuTimer
+(
+nsIMenuParent
+*
+aMenuParent
+)
+;
 PRBool
 HandleShortcutNavigation
 (
