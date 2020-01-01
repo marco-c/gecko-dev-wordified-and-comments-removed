@@ -1033,6 +1033,10 @@ test_system_font_serialization
 .
 html
 \
+test_transitions_and_zoom
+.
+html
+\
 test_transitions_cancel_near_end
 .
 html
