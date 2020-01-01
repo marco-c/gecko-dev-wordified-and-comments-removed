@@ -1575,9 +1575,10 @@ IsLabelableControl
 )
 )
 {
-NS_ADDREF
+element
+.
+forget
 (
-content
 )
 ;
 return
