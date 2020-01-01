@@ -2602,6 +2602,11 @@ _logName
 "
 HistoryTracker
 "
+file
+:
+"
+history
+"
 QueryInterface
 :
 XPCOMUtils

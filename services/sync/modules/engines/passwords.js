@@ -1257,6 +1257,11 @@ _logName
 "
 PasswordTracker
 "
+file
+:
+"
+password
+"
 _init
 :
 function
