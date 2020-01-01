@@ -18432,6 +18432,14 @@ extraFeatures
 private
 "
 ;
+defaultArgs
+=
+"
+about
+:
+privatebrowsing
+"
+;
 }
 #
 endif
