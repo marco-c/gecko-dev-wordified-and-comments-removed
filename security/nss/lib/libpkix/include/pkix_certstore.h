@@ -145,6 +145,9 @@ PKIX_CertStore_ImportCrlCallback
 PKIX_CertStore
 *
 store
+PKIX_PL_X500Name
+*
+issuerName
 PKIX_List
 *
 crlList
@@ -174,7 +177,7 @@ PKIX_PL_Date
 *
 date
 PKIX_Boolean
-delayCrlSigCheck
+crlDownloadDone
 PKIX_UInt32
 *
 reasonCode

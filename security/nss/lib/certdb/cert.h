@@ -3117,6 +3117,7 @@ cert
 CERTCertificate
 *
 issuer
+const
 SECItem
 *
 dp

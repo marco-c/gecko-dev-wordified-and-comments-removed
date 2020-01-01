@@ -9,12 +9,11 @@ ZZList
 *
 ZZ_NewList
 (
+void
 )
 {
 ZZList
 *
-list
-;
 list
 =
 (
@@ -53,8 +52,6 @@ thing
 {
 ZZLink
 *
-link
-;
 link
 =
 (

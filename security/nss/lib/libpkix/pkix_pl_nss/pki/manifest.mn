@@ -441,6 +441,10 @@ pkix_pl_crl
 .
 h
 \
+pkix_pl_crldp
+.
+h
+\
 pkix_pl_crlentry
 .
 h
@@ -511,6 +515,10 @@ pkix_pl_certpolicyqualifier
 c
 \
 pkix_pl_crl
+.
+c
+\
+pkix_pl_crldp
 .
 c
 \

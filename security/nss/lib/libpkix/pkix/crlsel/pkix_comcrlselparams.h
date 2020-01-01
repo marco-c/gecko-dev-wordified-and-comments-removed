@@ -32,6 +32,10 @@ PKIX_PL_Cert
 *
 cert
 ;
+PKIX_List
+*
+crldpList
+;
 PKIX_PL_Date
 *
 date

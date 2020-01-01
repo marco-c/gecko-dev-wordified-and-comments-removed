@@ -751,6 +751,11 @@ pkix_EkuChecker_RegisterSelf
 plContext
 )
 ;
+pkix_pl_CrlDp_RegisterSelf
+(
+plContext
+)
+;
 if
 (
 pPlContext

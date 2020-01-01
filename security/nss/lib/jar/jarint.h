@@ -128,9 +128,8 @@ size
 )
 \
 {
+\
 int
-err
-;
 err
 =
 jar_append
@@ -149,9 +148,11 @@ err
 <
 0
 )
+\
 return
 err
 ;
+\
 }
 #
 define

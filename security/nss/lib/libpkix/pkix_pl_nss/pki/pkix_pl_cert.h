@@ -149,6 +149,10 @@ subjectInfoAccess
 PKIX_Boolean
 isUserTrustAnchor
 ;
+PKIX_List
+*
+crldpList
+;
 }
 ;
 PKIX_Error

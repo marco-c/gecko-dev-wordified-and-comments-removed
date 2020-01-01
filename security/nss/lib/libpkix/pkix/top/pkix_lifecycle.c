@@ -305,6 +305,9 @@ plContext
 PKIX_HASHTABLECREATEFAILED
 )
 ;
+#
+ifdef
+PKIX_SOCKETCACHE
 PKIX_CHECK
 (
 PKIX_PL_HashTable_Create
@@ -318,6 +321,8 @@ plContext
 PKIX_HASHTABLECREATEFAILED
 )
 ;
+#
+endif
 if
 (
 pkixLoggerLock
