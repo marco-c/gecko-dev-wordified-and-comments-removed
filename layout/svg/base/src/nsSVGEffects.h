@@ -403,6 +403,11 @@ nsSVGRenderingObserverList
 (
 )
 {
+MOZ_COUNT_CTOR
+(
+nsSVGRenderingObserverList
+)
+;
 mObservers
 .
 Init
@@ -418,6 +423,11 @@ nsSVGRenderingObserverList
 {
 InvalidateAll
 (
+)
+;
+MOZ_COUNT_DTOR
+(
+nsSVGRenderingObserverList
 )
 ;
 }
