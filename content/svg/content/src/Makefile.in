@@ -497,6 +497,10 @@ DOMSVGPointList
 .
 cpp
 \
+DOMSVGTransform
+.
+cpp
+\
 nsDOMSVGZoomEvent
 .
 cpp
@@ -729,10 +733,6 @@ nsSVGTitleElement
 .
 cpp
 \
-nsSVGTransform
-.
-cpp
-\
 nsSVGTransformList
 .
 cpp
@@ -794,6 +794,10 @@ SVGPathSegUtils
 cpp
 \
 SVGPointList
+.
+cpp
+\
+SVGTransform
 .
 cpp
 \
