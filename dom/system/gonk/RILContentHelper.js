@@ -2088,7 +2088,7 @@ updateICCInfo
 (
 rilContext
 .
-iccInfo
+icc
 this
 .
 rilContext
