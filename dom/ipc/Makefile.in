@@ -408,6 +408,16 @@ synth
 /
 ipc
 \
+-
+I
+(
+topsrcdir
+)
+/
+js
+/
+ipc
+\
 (
 NULL
 )

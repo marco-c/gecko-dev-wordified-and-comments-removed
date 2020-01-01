@@ -56,11 +56,11 @@ MPL
 IPDLSRCS
 =
 \
-PContextWrapper
+JavaScriptTypes
 .
-ipdl
+ipdlh
 \
-PObjectWrapper
+PJavaScript
 .
 ipdl
 \

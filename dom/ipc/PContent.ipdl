@@ -179,6 +179,10 @@ protocol
 PTestShell
 ;
 include
+protocol
+PJavaScript
+;
+include
 DOMTypes
 ;
 include
@@ -1017,6 +1021,9 @@ PStorage
 manages
 PTestShell
 ;
+manages
+PJavaScript
+;
 both
 :
 /
@@ -1294,6 +1301,10 @@ PBlob
 (
 BlobConstructorParams
 params
+)
+;
+PJavaScript
+(
 )
 ;
 child

@@ -101,10 +101,6 @@ include
 protocol
 PTestShellCommand
 ;
-include
-protocol
-PContextWrapper
-;
 namespace
 mozilla
 {
@@ -120,9 +116,6 @@ PContent
 ;
 manages
 PTestShellCommand
-;
-manages
-PContextWrapper
 ;
 child
 :
@@ -140,12 +133,6 @@ PTestShellCommand
 (
 nsString
 aCommand
-)
-;
-parent
-:
-PContextWrapper
-(
 )
 ;
 }
