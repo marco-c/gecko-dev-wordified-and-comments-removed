@@ -663,7 +663,7 @@ srcdir
 .
 .
 /
-generic
+xpcom
 \
 -
 I
@@ -675,17 +675,6 @@ srcdir
 .
 /
 html
-\
--
-I
-(
-srcdir
-)
-/
-.
-.
-/
-xpcom
 \
 -
 I
