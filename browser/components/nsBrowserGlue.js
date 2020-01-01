@@ -1085,7 +1085,7 @@ startup
 :
 this
 .
-_onProfileStartup
+_finalUIStartup
 (
 )
 ;
@@ -2657,10 +2657,10 @@ applyPrefDefaults
 )
 ;
 }
-_onProfileStartup
+_finalUIStartup
 :
 function
-BG__onProfileStartup
+BG__finalUIStartup
 (
 )
 {
