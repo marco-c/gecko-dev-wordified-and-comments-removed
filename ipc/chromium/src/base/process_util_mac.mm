@@ -1155,8 +1155,11 @@ mib
 CTL_KERN
 KERN_PROC
 KERN_PROC_UID
+int
+(
 geteuid
 (
+)
 )
 }
 ;
