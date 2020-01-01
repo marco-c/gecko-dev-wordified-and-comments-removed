@@ -1112,13 +1112,6 @@ maxCodeCacheBytes
 JSBool
 needFlush
 ;
-JSBool
-useReservedObjects
-;
-JSObject
-*
-reservedObjects
-;
 REHashMap
 *
 reFragments
