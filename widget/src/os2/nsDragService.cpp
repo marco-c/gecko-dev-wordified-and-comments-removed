@@ -7204,7 +7204,7 @@ nsDependentCString
 (
 buffer
 .
-get
+Elements
 (
 )
 )
@@ -7262,7 +7262,7 @@ nsDependentString
 (
 buffer
 .
-get
+Elements
 (
 )
 )
