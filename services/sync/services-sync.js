@@ -243,7 +243,8 @@ filteredUrls
 (
 about
 :
-blank
+.
+*
 |
 chrome
 :
