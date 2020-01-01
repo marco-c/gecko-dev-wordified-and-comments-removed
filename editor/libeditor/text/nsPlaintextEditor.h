@@ -107,14 +107,6 @@ aReply
 )
 ;
 NS_IMETHOD
-GetReconversionString
-(
-nsReconversionEventReply
-*
-aReply
-)
-;
-NS_IMETHOD
 BeginComposition
 (
 nsTextEventReply

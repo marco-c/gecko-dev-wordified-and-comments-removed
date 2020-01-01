@@ -69,11 +69,5 @@ nsMenuEvent
 struct
 nsTextEventReply
 ;
-struct
-nsReconversionEventReply
-;
-struct
-nsQueryCaretRectEventReply
-;
 #
 endif
