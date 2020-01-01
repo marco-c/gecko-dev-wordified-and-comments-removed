@@ -135,6 +135,12 @@ aContentType
 !
 =
 TYPE_OBJECT
+&
+&
+aContentType
+!
+=
+TYPE_WEBSOCKET
 )
 {
 nsCAutoString

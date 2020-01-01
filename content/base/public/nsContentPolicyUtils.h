@@ -296,6 +296,11 @@ CASE_RETURN
 TYPE_MEDIA
 )
 ;
+CASE_RETURN
+(
+TYPE_WEBSOCKET
+)
+;
 default
 :
 return
