@@ -746,12 +746,6 @@ mHttpChannel
 ;
 nsCOMPtr
 <
-nsILoadGroup
->
-mLoadGroup
-;
-nsCOMPtr
-<
 nsICancelable
 >
 mDNSRequest
