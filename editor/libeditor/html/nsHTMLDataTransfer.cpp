@@ -11837,6 +11837,9 @@ bool
 aTrustedInput
 )
 {
+nsresult
+rv
+;
 nsCOMPtr
 <
 nsIDOMDocumentFragment
@@ -11868,6 +11871,8 @@ do_QueryInterface
 frag
 )
 ;
+rv
+=
 nsContentUtils
 :
 :
@@ -11921,7 +11926,7 @@ frag
 )
 ;
 return
-NS_OK
+rv
 ;
 }
 nsresult

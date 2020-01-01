@@ -739,6 +739,8 @@ do_QueryInterface
 aReturn
 )
 ;
+rv
+=
 nsContentUtils
 :
 :
