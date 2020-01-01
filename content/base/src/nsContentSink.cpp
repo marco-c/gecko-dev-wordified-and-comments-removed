@@ -3553,6 +3553,10 @@ mDeferredLayoutStart
 =
 PR_FALSE
 ;
+FlushTags
+(
+)
+;
 mLayoutStarted
 =
 PR_TRUE
