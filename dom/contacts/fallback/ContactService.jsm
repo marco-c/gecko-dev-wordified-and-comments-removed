@@ -536,6 +536,20 @@ name
 )
 ;
 let
+mm
+=
+aMessage
+.
+target
+.
+QueryInterface
+(
+Ci
+.
+nsIFrameMessageManager
+)
+;
+let
 msg
 =
 aMessage
@@ -971,7 +985,7 @@ result
 )
 )
 ;
-ppmm
+mm
 .
 sendAsyncMessage
 (
@@ -1007,7 +1021,7 @@ function
 aErrorMsg
 )
 {
-ppmm
+mm
 .
 sendAsyncMessage
 (
@@ -1064,7 +1078,7 @@ function
 (
 )
 {
-ppmm
+mm
 .
 sendAsyncMessage
 (
@@ -1104,7 +1118,7 @@ function
 aErrorMsg
 )
 {
-ppmm
+mm
 .
 sendAsyncMessage
 (
@@ -1159,7 +1173,7 @@ function
 (
 )
 {
-ppmm
+mm
 .
 sendAsyncMessage
 (
@@ -1197,7 +1211,7 @@ function
 aErrorMsg
 )
 {
-ppmm
+mm
 .
 sendAsyncMessage
 (
@@ -1249,7 +1263,7 @@ function
 (
 )
 {
-ppmm
+mm
 .
 sendAsyncMessage
 (
@@ -1282,7 +1296,7 @@ function
 aErrorMsg
 )
 {
-ppmm
+mm
 .
 sendAsyncMessage
 (
