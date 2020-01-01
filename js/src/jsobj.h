@@ -25,13 +25,6 @@ jsprvtd
 .
 h
 "
-#
-include
-"
-jsstdint
-.
-h
-"
 struct
 PropertyDescriptor
 {
@@ -271,7 +264,7 @@ value
 get
 set
 ;
-uint8_t
+uint8
 attrs
 ;
 bool
