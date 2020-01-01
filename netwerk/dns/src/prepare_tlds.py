@@ -7,8 +7,6 @@ idna
 import
 re
 import
-sets
-import
 sys
 "
 "
@@ -103,9 +101,7 @@ UTF
   
 domains
 =
-sets
-.
-Set
+set
 (
 )
   

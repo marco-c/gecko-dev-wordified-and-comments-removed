@@ -7,8 +7,6 @@ os
 re
 import
 sys
-import
-sets
 make_dependencies
 =
 [
@@ -10060,9 +10058,7 @@ w
     
 filesIncluded
 =
-sets
-.
-Set
+set
 (
 )
     
@@ -10366,9 +10362,7 @@ writeResultXPCInterfacesArray
 (
 f
 conf
-sets
-.
-ImmutableSet
+frozenset
 (
 resulttypes
 )
