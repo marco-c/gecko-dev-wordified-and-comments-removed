@@ -141,9 +141,17 @@ NULL
 }
 #
 if
+(
 defined
 (
 DEBUG
+)
+|
+|
+defined
+(
+NIGHTLY_BUILD
+)
 )
 &
 &
