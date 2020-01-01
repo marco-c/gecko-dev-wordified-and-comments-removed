@@ -1,7 +1,7 @@
 #
 filter
 substitution
-firstrun
+chrome
 .
 jar
 :
@@ -70,7 +70,7 @@ fennec
 .
 png
 )
-classic
+chrome
 .
 jar
 :
