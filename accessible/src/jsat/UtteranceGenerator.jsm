@@ -1306,11 +1306,16 @@ this
 objectUtteranceFunctions
 .
 defaultFunc
+.
+apply
 (
+this
+[
 aAccessible
 aRoleStr
 aStates
 aFlags
+]
 )
 ;
 return
