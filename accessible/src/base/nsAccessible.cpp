@@ -8994,6 +8994,15 @@ NS_ENSURE_ARG_POINTER
 aAttributes
 )
 ;
+if
+(
+IsDefunct
+(
+)
+)
+return
+NS_ERROR_FAILURE
+;
 nsCOMPtr
 <
 nsIContent
