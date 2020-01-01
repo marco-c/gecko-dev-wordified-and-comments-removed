@@ -552,6 +552,10 @@ aURI
 aFrame
 aReferenceImage
 )
+mValid
+(
+true
+)
 {
 }
 virtual
@@ -573,6 +577,16 @@ DoUpdate
 (
 )
 MOZ_OVERRIDE
+;
+private
+:
+bool
+TargetIsValid
+(
+)
+;
+bool
+mValid
 ;
 }
 ;
