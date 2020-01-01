@@ -52681,6 +52681,8 @@ sqlite3_compileoption_used
 (
 "
 SQLITE_SECURE_DELETE
+=
+1
 "
 )
 ;
@@ -53103,6 +53105,8 @@ sqlite3_compileoption_used
 (
 "
 SQLITE_ENABLE_FTS3
+=
+1
 "
 )
 ;
