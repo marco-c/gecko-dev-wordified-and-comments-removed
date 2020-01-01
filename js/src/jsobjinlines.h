@@ -1872,7 +1872,13 @@ getRawSlots
 {
 JS_ASSERT
 (
-isGlobal
+is
+<
+js
+:
+:
+GlobalObject
+>
 (
 )
 )

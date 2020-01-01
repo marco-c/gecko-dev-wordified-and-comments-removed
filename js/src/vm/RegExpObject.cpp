@@ -420,7 +420,10 @@ getParent
 )
 -
 >
-asGlobal
+as
+<
+GlobalObject
+>
 (
 )
 .

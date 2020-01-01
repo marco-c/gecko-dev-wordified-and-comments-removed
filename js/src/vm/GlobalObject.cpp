@@ -164,7 +164,10 @@ return
 obj
 -
 >
-asGlobal
+as
+<
+GlobalObject
+>
 (
 )
 .
@@ -199,7 +202,10 @@ return
 obj
 -
 >
-asGlobal
+as
+<
+GlobalObject
+>
 (
 )
 .
@@ -1980,7 +1986,10 @@ cx
 obj
 -
 >
-asGlobal
+as
+<
+GlobalObject
+>
 (
 )
 )

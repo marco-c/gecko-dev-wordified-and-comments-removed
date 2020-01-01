@@ -1103,7 +1103,10 @@ INDIRECT_EVAL
 scopeobj
 -
 >
-isGlobal
+is
+<
+GlobalObject
+>
 (
 )
 )

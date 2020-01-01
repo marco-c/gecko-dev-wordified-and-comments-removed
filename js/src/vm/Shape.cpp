@@ -7391,7 +7391,10 @@ if
 proto
 -
 >
-isGlobal
+is
+<
+GlobalObject
+>
 (
 )
 &

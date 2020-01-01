@@ -260,7 +260,10 @@ JS_ASSERT
 proto
 -
 >
-isGlobal
+is
+<
+GlobalObject
+>
 (
 )
 )

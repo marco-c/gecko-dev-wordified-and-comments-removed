@@ -3480,7 +3480,10 @@ cx
 selfHostingGlobal_
 -
 >
-asGlobal
+as
+<
+GlobalObject
+>
 (
 )
 )
