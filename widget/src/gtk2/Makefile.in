@@ -516,6 +516,10 @@ nsGtkIMModule
 .
 cpp
 \
+WidgetTraceEvent
+.
+cpp
+\
 (
 NULL
 )
