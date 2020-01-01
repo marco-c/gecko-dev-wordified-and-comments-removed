@@ -2970,13 +2970,6 @@ BasicLayerManager
 (
 )
 ;
-if
-(
-!
-layerManager
-)
-return
-;
 }
 if
 (

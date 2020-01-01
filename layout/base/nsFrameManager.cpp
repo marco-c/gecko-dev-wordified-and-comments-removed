@@ -1460,11 +1460,6 @@ new
 UndisplayedMap
 ;
 }
-if
-(
-mUndisplayedMap
-)
-{
 nsIContent
 *
 parent
@@ -1537,7 +1532,6 @@ aContent
 aStyleContext
 )
 ;
-}
 }
 void
 nsFrameManager
@@ -8027,16 +8021,6 @@ aChild
 aStyle
 )
 ;
-if
-(
-!
-node
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
-;
-}
 AppendNodeFor
 (
 node
