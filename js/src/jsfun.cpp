@@ -11551,6 +11551,9 @@ fun
 JSObject
 *
 parent
+JSObject
+*
+proto
 )
 {
 JSObject
@@ -11562,7 +11565,7 @@ js_NewObject
 cx
 &
 js_FunctionClass
-NULL
+proto
 parent
 sizeof
 (
@@ -11590,13 +11593,14 @@ return
 clone
 ;
 }
-JS_DEFINE_CALLINFO_3
+JS_DEFINE_CALLINFO_4
 (
 extern
 OBJECT
 js_CloneFunctionObject
 CONTEXT
 FUNCTION
+OBJECT
 OBJECT
 0
 0

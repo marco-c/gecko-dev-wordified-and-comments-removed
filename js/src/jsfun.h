@@ -1088,6 +1088,11 @@ fun
 JSObject
 *
 parent
+JSObject
+*
+proto
+=
+NULL
 )
 ;
 extern
