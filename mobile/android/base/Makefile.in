@@ -10070,8 +10070,10 @@ java
 .
 aidl
 (
-AIDL
+ANDROID_PLATFORM_TOOLS
 )
+/
+aidl
 -
 I
 (
