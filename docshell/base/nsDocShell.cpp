@@ -8366,7 +8366,7 @@ aNumEntries
 {
 mPreviousTransIndex
 =
-PR_MAX
+NS_MAX
 (
 -
 1
@@ -8377,7 +8377,7 @@ aNumEntries
 ;
 mLoadedTransIndex
 =
-PR_MAX
+NS_MAX
 (
 0
 mLoadedTransIndex

@@ -1914,7 +1914,7 @@ NS_ERROR_FAILURE
 ;
 aEntries
 =
-PR_MIN
+NS_MIN
 (
 aEntries
 mLength
@@ -2785,7 +2785,7 @@ return
 }
 startIndex
 =
-PR_MAX
+NS_MAX
 (
 0
 aFromIndex
@@ -2817,7 +2817,7 @@ return
 }
 endIndex
 =
-PR_MIN
+NS_MIN
 (
 mLength
 aFromIndex
@@ -3240,7 +3240,7 @@ gSHistoryList
 PRInt32
 startIndex
 =
-PR_MAX
+NS_MAX
 (
 0
 shist
@@ -3254,7 +3254,7 @@ gHistoryMaxViewers
 PRInt32
 endIndex
 =
-PR_MIN
+NS_MIN
 (
 shist
 -
@@ -3756,7 +3756,7 @@ aEntry
 PRInt32
 startIndex
 =
-PR_MAX
+NS_MAX
 (
 0
 mIndex
@@ -3767,7 +3767,7 @@ gHistoryMaxViewers
 PRInt32
 endIndex
 =
-PR_MIN
+NS_MIN
 (
 mLength
 -
