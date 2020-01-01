@@ -1828,6 +1828,7 @@ AutoCompleteSearch
 (
 aSearchParam
 aSearchString
+mFocusedInput
 aPreviousResult
 getter_AddRefs
 (
