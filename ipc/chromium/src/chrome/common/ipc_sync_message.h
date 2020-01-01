@@ -260,6 +260,13 @@ Message
 msg
 )
 ;
+virtual
+~
+MessageReplyDeserializer
+(
+)
+{
+}
 private
 :
 virtual
