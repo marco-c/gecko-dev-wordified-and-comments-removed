@@ -611,6 +611,7 @@ nsHTMLReflowMetrics
 aMetrics
 )
 ;
+static
 void
 DidReflowChildren
 (
