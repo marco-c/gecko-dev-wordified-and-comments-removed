@@ -487,6 +487,12 @@ keep_running_
 )
 break
 ;
+if
+(
+did_work
+)
+continue
+;
 NS_ProcessNextEvent
 (
 mThread
