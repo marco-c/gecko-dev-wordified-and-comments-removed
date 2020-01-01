@@ -87,6 +87,13 @@ TimeStamp
 .
 h
 "
+#
+include
+"
+VorbisUtils
+.
+h
+"
 using
 namespace
 mozilla

@@ -167,6 +167,10 @@ VideoSegment
 .
 h
 \
+VorbisUtils
+.
+h
+\
 (
 NULL
 )
