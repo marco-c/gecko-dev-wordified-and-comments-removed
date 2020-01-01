@@ -8040,7 +8040,7 @@ R
 .
 id
 .
-home_pager
+home_pager_stub
 )
 ;
 mHomePager
