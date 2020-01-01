@@ -31292,7 +31292,10 @@ if
 obj
 -
 >
-isString
+is
+<
+StringObject
+>
 (
 )
 )

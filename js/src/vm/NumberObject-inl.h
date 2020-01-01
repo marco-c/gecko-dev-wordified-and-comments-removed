@@ -44,7 +44,7 @@ NewBuiltinClassInstance
 (
 cx
 &
-NumberClass
+class_
 )
 ;
 if
@@ -62,7 +62,10 @@ numobj
 obj
 -
 >
-asNumber
+as
+<
+NumberObject
+>
 (
 )
 ;

@@ -8802,7 +8802,10 @@ clasp
 !
 =
 &
-StringClass
+StringObject
+:
+:
+class_
 )
 ;
 }
@@ -8822,7 +8825,10 @@ clasp
 !
 =
 &
-NumberClass
+NumberObject
+:
+:
+class_
 )
 ;
 }
@@ -8842,7 +8848,10 @@ clasp
 !
 =
 &
-BooleanClass
+BooleanObject
+:
+:
+class_
 )
 ;
 }

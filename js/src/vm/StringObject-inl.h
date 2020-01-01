@@ -193,7 +193,7 @@ NewBuiltinClassInstance
 (
 cx
 &
-StringClass
+class_
 newKind
 )
 ;
@@ -217,7 +217,10 @@ cx
 obj
 -
 >
-asString
+as
+<
+StringObject
+>
 (
 )
 )

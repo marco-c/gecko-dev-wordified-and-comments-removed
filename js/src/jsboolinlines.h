@@ -69,7 +69,10 @@ if
 obj
 -
 >
-isBoolean
+is
+<
+BooleanObject
+>
 (
 )
 )
@@ -77,7 +80,10 @@ return
 obj
 -
 >
-asBoolean
+as
+<
+BooleanObject
+>
 (
 )
 .

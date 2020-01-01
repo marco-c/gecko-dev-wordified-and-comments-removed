@@ -51,6 +51,10 @@ RESERVED_SLOTS
 2
 ;
 static
+Class
+class_
+;
+static
 inline
 StringObject
 *

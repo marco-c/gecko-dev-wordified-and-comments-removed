@@ -603,7 +603,10 @@ return
 templateObj_
 -
 >
-asString
+as
+<
+StringObject
+>
 (
 )
 ;
