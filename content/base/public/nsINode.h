@@ -1221,7 +1221,13 @@ return
 mParent
 ;
 }
-nsINode
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 GetElementParent
 (
@@ -1240,6 +1246,11 @@ IsElement
 )
 ?
 mParent
+-
+>
+AsElement
+(
+)
 :
 nsnull
 ;
