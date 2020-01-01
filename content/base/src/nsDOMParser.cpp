@@ -1833,7 +1833,7 @@ aOwner
 ;
 if
 (
-aOwner
+window
 )
 {
 nsCOMPtr
