@@ -8997,10 +8997,9 @@ PushState
 ;
 mCtx
 .
-SetClipRect
+IntersectClip
 (
 aRect
-nsClipCombine_kIntersect
 )
 ;
 }

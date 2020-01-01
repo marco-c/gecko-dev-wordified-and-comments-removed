@@ -1824,10 +1824,9 @@ NS_RGB
 ;
 aRenderingContext
 .
-SetClipRect
+IntersectClip
 (
 aRect
-nsClipCombine_kIntersect
 )
 ;
 nsLayoutUtils
@@ -2979,10 +2978,9 @@ bounds
 }
 aRenderingContext
 .
-SetClipRect
+IntersectClip
 (
 clipRect
-nsClipCombine_kIntersect
 )
 ;
 nsRect

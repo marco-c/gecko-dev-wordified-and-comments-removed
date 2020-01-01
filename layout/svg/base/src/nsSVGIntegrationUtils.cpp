@@ -1356,7 +1356,7 @@ Save
 aCtx
 -
 >
-SetClipRect
+IntersectClip
 (
 aEffectsFrame
 -
@@ -1364,7 +1364,6 @@ aEffectsFrame
 GetVisualOverflowRect
 (
 )
-nsClipCombine_kIntersect
 )
 ;
 gfx

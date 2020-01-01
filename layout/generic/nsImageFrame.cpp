@@ -4615,10 +4615,9 @@ PushState
 ;
 aRenderingContext
 .
-SetClipRect
+IntersectClip
 (
 inner
-nsClipCombine_kIntersect
 )
 ;
 if
