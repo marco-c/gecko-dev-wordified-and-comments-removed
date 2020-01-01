@@ -3996,11 +3996,6 @@ group
 "
 1
 "
-checked
-=
-"
-1
-"
 class
 =
 "
@@ -4071,6 +4066,11 @@ group
 "
 1
 "
+checked
+=
+"
+1
+"
 class
 =
 "
@@ -4124,6 +4124,11 @@ id
 panel
 -
 items
+"
+selectedIndex
+=
+"
+2
 "
 flex
 =
