@@ -14695,6 +14695,16 @@ GetInnerWindow
 (
 )
 {
+if
+(
+!
+mRemovedFromDocShell
+)
+{
+return
+mWindow
+;
+}
 nsCOMPtr
 <
 nsPIDOMWindow
