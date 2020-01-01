@@ -18,10 +18,10 @@ jsutil
 .
 h
 "
-class
+struct
 JSFunction
 ;
-class
+struct
 JSScript
 ;
 namespace
