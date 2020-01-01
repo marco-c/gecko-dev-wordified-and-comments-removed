@@ -4058,7 +4058,7 @@ FreeSystemMetrics
 (
 )
 ;
-NS_RELEASE
+NS_IF_RELEASE
 (
 gPrivateBrowsingObserver
 )
