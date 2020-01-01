@@ -3626,7 +3626,7 @@ orient
 "
 vertical
 "
-right
+end
 =
 "
 2
@@ -8523,7 +8523,7 @@ align
 "
 center
 "
-left
+start
 =
 "
 21
