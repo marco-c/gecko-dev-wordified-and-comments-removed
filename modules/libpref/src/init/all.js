@@ -1218,6 +1218,7 @@ backends
 "
 "
 direct2d
+cairo
 "
 )
 ;
@@ -1299,7 +1300,6 @@ backends
 "
 "
 cairo
-skia
 "
 )
 ;
