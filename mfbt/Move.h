@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_Move_h_
+mozilla_Move_h
 #
 define
-mozilla_Move_h_
+mozilla_Move_h
 namespace
 mozilla
 {

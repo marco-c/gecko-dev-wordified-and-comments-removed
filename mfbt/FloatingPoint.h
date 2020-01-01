@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_FloatingPoint_h_
+mozilla_FloatingPoint_h
 #
 define
-mozilla_FloatingPoint_h_
+mozilla_FloatingPoint_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_AllocPolicy_h_
+mozilla_AllocPolicy_h
 #
 define
-mozilla_AllocPolicy_h_
+mozilla_AllocPolicy_h
 #
 include
 <

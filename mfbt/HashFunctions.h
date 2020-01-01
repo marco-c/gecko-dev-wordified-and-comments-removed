@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_HashFunctions_h_
+mozilla_HashFunctions_h
 #
 define
-mozilla_HashFunctions_h_
+mozilla_HashFunctions_h
 #
 include
 "

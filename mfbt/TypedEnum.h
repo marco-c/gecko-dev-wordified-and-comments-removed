@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_TypedEnum_h_
+mozilla_TypedEnum_h
 #
 define
-mozilla_TypedEnum_h_
+mozilla_TypedEnum_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_NullPtr_h_
+mozilla_NullPtr_h
 #
 define
-mozilla_NullPtr_h_
+mozilla_NullPtr_h
 #
 include
 "

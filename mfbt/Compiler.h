@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_Compiler_h_
+mozilla_Compiler_h
 #
 define
-mozilla_Compiler_h_
+mozilla_Compiler_h
 #
 if
 !

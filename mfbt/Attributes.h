@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_Attributes_h_
+mozilla_Attributes_h
 #
 define
-mozilla_Attributes_h_
+mozilla_Attributes_h
 #
 include
 "

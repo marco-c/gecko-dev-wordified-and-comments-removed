@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_DebugOnly_h_
+mozilla_DebugOnly_h
 #
 define
-mozilla_DebugOnly_h_
+mozilla_DebugOnly_h
 namespace
 mozilla
 {

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_Endian_h_
+mozilla_Endian_h
 #
 define
-mozilla_Endian_h_
+mozilla_Endian_h
 #
 include
 "

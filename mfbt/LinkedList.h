@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_LinkedList_h_
+mozilla_LinkedList_h
 #
 define
-mozilla_LinkedList_h_
+mozilla_LinkedList_h
 #
 include
 "

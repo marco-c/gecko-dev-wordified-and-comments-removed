@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_SHA1_h_
+mozilla_SHA1_h
 #
 define
-mozilla_SHA1_h_
+mozilla_SHA1_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_Util_h_
+mozilla_Util_h
 #
 define
-mozilla_Util_h_
+mozilla_Util_h
 #
 include
 "

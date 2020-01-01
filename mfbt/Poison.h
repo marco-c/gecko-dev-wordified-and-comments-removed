@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_Poison_h_
+mozilla_Poison_h
 #
 define
-mozilla_Poison_h_
+mozilla_Poison_h
 #
 include
 "

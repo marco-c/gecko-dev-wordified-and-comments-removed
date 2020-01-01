@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_CheckedInt_h_
+mozilla_CheckedInt_h
 #
 define
-mozilla_CheckedInt_h_
+mozilla_CheckedInt_h
 #
 define
 MOZ_CHECKEDINT_USE_MFBT

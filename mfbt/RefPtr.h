@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_RefPtr_h_
+mozilla_RefPtr_h
 #
 define
-mozilla_RefPtr_h_
+mozilla_RefPtr_h
 #
 include
 "
@@ -1153,8 +1153,6 @@ ptr
 }
 }
 #
-endif
-#
 if
 0
 using
@@ -1816,5 +1814,7 @@ return
 0
 ;
 }
+#
+endif
 #
 endif

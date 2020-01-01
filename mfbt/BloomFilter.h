@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_BloomFilter_h_
+mozilla_BloomFilter_h
 #
 define
-mozilla_BloomFilter_h_
+mozilla_BloomFilter_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_ThreadLocal_h_
+mozilla_ThreadLocal_h
 #
 define
-mozilla_ThreadLocal_h_
+mozilla_ThreadLocal_h
 #
 if
 defined

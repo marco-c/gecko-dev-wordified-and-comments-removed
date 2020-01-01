@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_Constants_h_
+mozilla_Constants_h
 #
 define
-mozilla_Constants_h_
+mozilla_Constants_h
 #
 ifndef
 M_PI

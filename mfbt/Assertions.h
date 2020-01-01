@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_Assertions_h_
+mozilla_Assertions_h
 #
 define
-mozilla_Assertions_h_
+mozilla_Assertions_h
 #
 include
 "

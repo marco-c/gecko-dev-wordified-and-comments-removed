@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_MathAlgorithms_h_
+mozilla_MathAlgorithms_h
 #
 define
-mozilla_MathAlgorithms_h_
+mozilla_MathAlgorithms_h
 #
 include
 "

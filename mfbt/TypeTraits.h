@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_TypeTraits_h_
+mozilla_TypeTraits_h
 #
 define
-mozilla_TypeTraits_h_
+mozilla_TypeTraits_h
 #
 include
 <

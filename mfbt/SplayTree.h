@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_SplayTree_h_
+mozilla_SplayTree_h
 #
 define
-mozilla_SplayTree_h_
+mozilla_SplayTree_h
 #
 include
 "

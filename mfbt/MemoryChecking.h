@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_MemoryChecking_h_
+mozilla_MemoryChecking_h
 #
 define
-mozilla_MemoryChecking_h_
+mozilla_MemoryChecking_h
 #
 if
 defined

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_RangedPtr_h_
+mozilla_RangedPtr_h
 #
 define
-mozilla_RangedPtr_h_
+mozilla_RangedPtr_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_Atomics_h_
+mozilla_Atomics_h
 #
 define
-mozilla_Atomics_h_
+mozilla_Atomics_h
 #
 include
 "

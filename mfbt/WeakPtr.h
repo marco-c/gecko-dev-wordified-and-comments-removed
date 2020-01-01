@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_WeakPtr_h_
+mozilla_WeakPtr_h
 #
 define
-mozilla_WeakPtr_h_
+mozilla_WeakPtr_h
 #
 include
 "

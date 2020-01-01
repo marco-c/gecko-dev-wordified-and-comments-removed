@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_Range_h_
+mozilla_Range_h
 #
 define
-mozilla_Range_h_
+mozilla_Range_h
 #
 include
 "

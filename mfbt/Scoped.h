@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_Scoped_h_
+mozilla_Scoped_h
 #
 define
-mozilla_Scoped_h_
+mozilla_Scoped_h
 #
 include
 "

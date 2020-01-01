@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_StandardInteger_h_
+mozilla_StandardInteger_h
 #
 define
-mozilla_StandardInteger_h_
+mozilla_StandardInteger_h
 #
 if
 defined
