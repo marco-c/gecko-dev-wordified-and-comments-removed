@@ -621,7 +621,7 @@ GetFloatValue
 }
 aInherited
 =
-PR_TRUE
+PR_FALSE
 ;
 if
 (
@@ -1531,7 +1531,7 @@ aParentCoord
 ;
 aInherited
 =
-PR_TRUE
+PR_FALSE
 ;
 }
 else
@@ -2109,7 +2109,7 @@ NS_COLOR_CURRENTCOLOR
 :
 aInherited
 =
-PR_TRUE
+PR_FALSE
 ;
 aResult
 =
@@ -2169,7 +2169,7 @@ PR_TRUE
 ;
 aInherited
 =
-PR_TRUE
+PR_FALSE
 ;
 }
 return
@@ -2279,7 +2279,7 @@ eCSSUnit_Inherit
 :
 aInherited
 =
-PR_TRUE
+PR_FALSE
 ;
 aField
 =
@@ -2613,7 +2613,7 @@ eCSSUnit_Inherit
 :
 aInherited
 =
-PR_TRUE
+PR_FALSE
 ;
 aField
 =
@@ -7898,7 +7898,6 @@ aContext
 \
 highestNode
 detail
-!
 aRuleData
 -
 >
@@ -9093,7 +9092,7 @@ RTLlogical
 {
 aInherited
 =
-PR_TRUE
+PR_FALSE
 ;
 PRUint8
 dir
@@ -9471,7 +9470,7 @@ parent
 \
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 \
 if
@@ -9916,6 +9915,7 @@ data_
 \
 if
 (
+!
 inherited
 )
 \
@@ -10109,6 +10109,7 @@ data_
 \
 if
 (
+!
 inherited
 )
 \
@@ -10674,7 +10675,7 @@ value
 {
 aInherited
 =
-PR_TRUE
+PR_FALSE
 ;
 nscoord
 parentSize
@@ -10848,7 +10849,7 @@ GetUnit
 {
 aInherited
 =
-PR_TRUE
+PR_FALSE
 ;
 *
 aSize
@@ -10915,7 +10916,7 @@ GetUnit
 {
 aInherited
 =
-PR_TRUE
+PR_FALSE
 ;
 *
 aSize
@@ -10997,7 +10998,7 @@ aScriptLevelAdjustedParentSize
 {
 aInherited
 =
-PR_TRUE
+PR_FALSE
 ;
 *
 aSize
@@ -11591,7 +11592,7 @@ GetUnit
 {
 aInherited
 =
-PR_TRUE
+PR_FALSE
 ;
 aFont
 -
@@ -11843,7 +11844,7 @@ NS_STYLE_FONT_WEIGHT_LIGHTER
 :
 aInherited
 =
-PR_TRUE
+PR_FALSE
 ;
 aFont
 -
@@ -11945,7 +11946,7 @@ NS_FONT_STRETCH_NARROWER
 :
 aInherited
 =
-PR_TRUE
+PR_FALSE
 ;
 aFont
 -
@@ -12157,7 +12158,7 @@ GetUnit
 {
 aInherited
 =
-PR_TRUE
+PR_FALSE
 ;
 aFont
 -
@@ -13121,7 +13122,7 @@ else
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 nsRuleNode
 :
@@ -13672,7 +13673,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 text
 -
@@ -13732,7 +13733,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 text
 -
@@ -13902,7 +13903,7 @@ IsChrome
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 const
 nsStyleFont
@@ -14544,7 +14545,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 ui
 -
@@ -15518,7 +15519,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 display
 -
@@ -15662,7 +15663,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 display
 -
@@ -15760,7 +15761,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 display
 -
@@ -15899,7 +15900,7 @@ NS_STYLE_OVERFLOW_CLIP
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 if
 (
@@ -15988,7 +15989,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 display
 -
@@ -16427,7 +16428,7 @@ NS_STYLE_DISPLAY_INLINE
 ;
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 }
 if
@@ -16467,7 +16468,7 @@ NS_STYLE_FLOAT_NONE
 ;
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 }
 else
@@ -16492,7 +16493,7 @@ mDisplay
 ;
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 }
 }
@@ -16579,7 +16580,7 @@ mTransform
 ;
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 }
 else
@@ -17100,7 +17101,7 @@ mColor
 ;
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 }
 else
@@ -17356,7 +17357,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 bg
 -
@@ -17684,7 +17685,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 bg
 -
@@ -17933,7 +17934,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 bg
 -
@@ -18251,7 +18252,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 border
 -
@@ -18567,7 +18568,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 border
 -
@@ -18785,7 +18786,7 @@ unit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 border
 -
@@ -19168,7 +19169,7 @@ parentContext
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 parentBorder
 -
@@ -20236,7 +20237,7 @@ parentContext
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 if
 (
@@ -20525,7 +20526,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 outline
 -
@@ -20698,7 +20699,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 list
 -
@@ -20751,7 +20752,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 list
 -
@@ -21358,7 +21359,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 pos
 -
@@ -21946,7 +21947,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 count
 =
@@ -22420,7 +22421,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 count
 =
@@ -22690,7 +22691,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 count
 =
@@ -22990,7 +22991,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 quotes
 -
@@ -23367,7 +23368,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 xul
 -
@@ -23619,7 +23620,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 column
 -
@@ -23773,7 +23774,7 @@ GetComputedColumnRuleWidth
 ;
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 }
 else
@@ -23880,7 +23881,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 column
 -
@@ -23916,7 +23917,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 column
 -
@@ -24069,7 +24070,7 @@ parentPaint
 ;
 aInherited
 =
-PR_TRUE
+PR_FALSE
 ;
 }
 else
@@ -24544,7 +24545,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 svg
 -
@@ -24637,7 +24638,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 svg
 -
@@ -24730,7 +24731,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 svg
 -
@@ -24849,7 +24850,7 @@ mStrokeDasharray
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 svg
 -
@@ -25582,7 +25583,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 svgReset
 -
@@ -25739,7 +25740,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 svgReset
 -
@@ -25832,7 +25833,7 @@ GetUnit
 {
 inherited
 =
-PR_TRUE
+PR_FALSE
 ;
 svgReset
 -
