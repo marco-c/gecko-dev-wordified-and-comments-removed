@@ -2450,7 +2450,7 @@ WebGL_MOZ_WEBGL_lose_context
 WebGLExtensionID_Max
 }
 ;
-nsCOMPtr
+nsRefPtr
 <
 WebGLExtension
 >
