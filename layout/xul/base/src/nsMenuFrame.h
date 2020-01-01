@@ -291,8 +291,8 @@ SetInitialChildList
 nsIAtom
 *
 aListName
-nsIFrame
-*
+nsFrameList
+&
 aChildList
 )
 ;
@@ -671,6 +671,14 @@ SetPopupFrame
 (
 nsIFrame
 *
+aChildList
+)
+;
+void
+SetPopupFrame
+(
+nsFrameList
+&
 aChildList
 )
 ;

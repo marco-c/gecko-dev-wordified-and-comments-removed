@@ -2029,8 +2029,8 @@ SetInitialChildList
 nsIAtom
 *
 aListName
-nsIFrame
-*
+nsFrameList
+&
 aChildList
 )
 {
@@ -2040,8 +2040,11 @@ if
 aListName
 &
 &
-!
 aChildList
+.
+IsEmpty
+(
+)
 )
 {
 return

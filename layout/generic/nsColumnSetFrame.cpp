@@ -110,8 +110,8 @@ SetInitialChildList
 nsIAtom
 *
 aListName
-nsIFrame
-*
+nsFrameList
+&
 aChildList
 )
 ;
@@ -913,8 +913,8 @@ SetInitialChildList
 nsIAtom
 *
 aListName
-nsIFrame
-*
+nsFrameList
+&
 aChildList
 )
 {
@@ -934,13 +934,8 @@ supported
 NS_ASSERTION
 (
 aChildList
-&
-&
-!
-aChildList
--
->
-GetNextSibling
+.
+OnlyChild
 (
 )
 "

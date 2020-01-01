@@ -888,8 +888,8 @@ SetInitialChildList
 nsIAtom
 *
 aListName
-nsIFrame
-*
+nsFrameList
+&
 aChildList
 )
 =
@@ -5052,9 +5052,9 @@ firstNewFrame
 ;
 aFrameList
 .
-mFirstChild
-=
-nsnull
+Clear
+(
+)
 ;
 return
 Slice

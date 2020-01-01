@@ -1245,10 +1245,8 @@ GetNextInFlow
 {
 mFrames
 .
-InsertFrames
+SetFrames
 (
-nsnull
-nsnull
 *
 prevOverflowFrames
 )
@@ -4692,8 +4690,8 @@ SetInitialChildList
 nsIAtom
 *
 aListName
-nsIFrame
-*
+nsFrameList
+&
 aChildList
 )
 {
