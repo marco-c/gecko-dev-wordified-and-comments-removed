@@ -620,6 +620,13 @@ element
 Paint
 (
 ctx
+nsLayoutUtils
+:
+:
+GetGraphicsFilterForFrame
+(
+this
+)
 r
 )
 ;

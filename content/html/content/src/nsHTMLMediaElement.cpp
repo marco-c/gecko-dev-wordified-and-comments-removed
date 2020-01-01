@@ -5446,6 +5446,11 @@ Paint
 gfxContext
 *
 aContext
+gfxPattern
+:
+:
+GraphicsFilter
+aFilter
 const
 gfxRect
 &
@@ -5462,6 +5467,7 @@ mDecoder
 Paint
 (
 aContext
+aFilter
 aRect
 )
 ;

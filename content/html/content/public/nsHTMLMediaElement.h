@@ -256,6 +256,11 @@ Paint
 gfxContext
 *
 aContext
+gfxPattern
+:
+:
+GraphicsFilter
+aFilter
 const
 gfxRect
 &
