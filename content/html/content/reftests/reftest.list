@@ -16,6 +16,14 @@ autofocus
 reftest
 .
 list
+include
+toblob
+-
+todataurl
+/
+reftest
+.
+list
 skip
 -
 if
