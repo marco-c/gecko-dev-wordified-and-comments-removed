@@ -638,7 +638,12 @@ node
 roots
 )
 {
+PlacesUtils
+.
+asContainer
+(
 node
+)
 .
 containerOpen
 =
