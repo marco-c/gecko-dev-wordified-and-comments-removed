@@ -37,7 +37,6 @@ gecko
 .
 FloatUtils
 ;
-public
 abstract
 class
 Axis
@@ -298,7 +297,6 @@ value
 )
 ;
 }
-public
 static
 void
 addPrefNames
@@ -357,7 +355,6 @@ PREF_SCROLLING_MIN_SCROLLABLE_DISTANCE
 )
 ;
 }
-public
 static
 void
 setPrefs
