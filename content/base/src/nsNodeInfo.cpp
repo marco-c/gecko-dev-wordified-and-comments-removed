@@ -85,6 +85,13 @@ nsFixedSizeAllocator
 .
 h
 "
+#
+include
+"
+prprf
+.
+h
+"
 static
 const
 size_t
