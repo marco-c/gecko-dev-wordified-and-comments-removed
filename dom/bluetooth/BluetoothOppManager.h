@@ -289,6 +289,8 @@ ReplyToPut
 (
 bool
 aFinal
+bool
+aContinue
 )
 ;
 virtual
@@ -344,6 +346,9 @@ mReceiving
 ;
 bool
 mPutFinal
+;
+bool
+mWaitingForConfirmationFlag
 ;
 nsCOMPtr
 <
