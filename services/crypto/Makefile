@@ -456,6 +456,8 @@ cppflags
 =
 -
 dynamiclib
+-
+DDEBUG
 else
 ifeq
 (
