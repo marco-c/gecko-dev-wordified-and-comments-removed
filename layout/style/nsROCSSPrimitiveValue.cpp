@@ -293,10 +293,9 @@ NS_LITERAL_STRING
 "
 url
 (
-invalid
--
-url
+about
 :
+invalid
 )
 "
 )
