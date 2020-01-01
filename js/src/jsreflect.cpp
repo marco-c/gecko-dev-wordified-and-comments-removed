@@ -13275,7 +13275,7 @@ pndestruct
 )
 =
 =
-TOK_VAR
+TOK_COMMA
 )
 ;
 }
