@@ -28018,7 +28018,7 @@ JSOP_NOP
 0
 )
 return
-JS_FALSE
+false
 ;
 ptrdiff_t
 noteIndex2
@@ -28037,7 +28037,7 @@ noteIndex2
 0
 )
 return
-JS_FALSE
+false
 ;
 ptrdiff_t
 top
@@ -28059,7 +28059,7 @@ top
 0
 )
 return
-JS_FALSE
+false
 ;
 StmtInfo
 stmtInfo
@@ -28087,7 +28087,7 @@ pn_left
 )
 )
 return
-JS_FALSE
+false
 ;
 ptrdiff_t
 off
@@ -28154,7 +28154,7 @@ pn_right
 )
 )
 return
-JS_FALSE
+false
 ;
 ptrdiff_t
 beq
@@ -28181,7 +28181,7 @@ beq
 0
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -28198,7 +28198,7 @@ top
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -28219,7 +28219,7 @@ top
 )
 )
 return
-JS_FALSE
+false
 ;
 return
 PopStatementBCE
