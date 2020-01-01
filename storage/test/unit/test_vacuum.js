@@ -541,6 +541,7 @@ obs
 addObserver
 (
 function
+onVacuum
 (
 aSubject
 aTopic
@@ -553,11 +554,8 @@ obs
 .
 removeObserver
 (
-arguments
-.
-callee
+onVacuum
 aTopic
-false
 )
 ;
 beginVacuumReceived
@@ -592,6 +590,7 @@ obs
 addObserver
 (
 function
+onVacuum
 (
 aSubject
 aTopic
@@ -612,11 +611,8 @@ obs
 .
 removeObserver
 (
-arguments
-.
-callee
+onVacuum
 aTopic
-false
 )
 ;
 }
@@ -673,6 +669,7 @@ obs
 addObserver
 (
 function
+onVacuum
 (
 aSubject
 aTopic
@@ -685,11 +682,8 @@ obs
 .
 removeObserver
 (
-arguments
-.
-callee
+onVacuum
 aTopic
-false
 )
 ;
 print
