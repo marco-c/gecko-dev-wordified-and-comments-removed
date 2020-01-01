@@ -264,10 +264,6 @@ DOMCI_CLASS
 (
 TreeColumn
 )
-DOMCI_CLASS
-(
-TreeColumns
-)
 #
 endif
 DOMCI_CLASS

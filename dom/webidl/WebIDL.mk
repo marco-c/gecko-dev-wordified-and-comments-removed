@@ -1203,6 +1203,10 @@ TransitionEvent
 .
 webidl
 \
+TreeColumns
+.
+webidl
+\
 TreeWalker
 .
 webidl
