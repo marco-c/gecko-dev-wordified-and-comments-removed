@@ -892,14 +892,10 @@ key
 uri
 )
 ;
-yield
 res
 .
 put
 (
-self
-.
-cb
 key
 .
 serialize

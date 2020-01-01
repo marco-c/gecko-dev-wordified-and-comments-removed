@@ -6308,14 +6308,10 @@ meta
 uri
 )
 ;
-yield
 res
 .
 put
 (
-self
-.
-cb
 meta
 .
 serialize
@@ -6370,14 +6366,10 @@ Resource
 userURL
 )
 ;
-yield
 res
 .
 get
 (
-self
-.
-cb
 )
 ;
 let
@@ -6421,7 +6413,6 @@ name
 )
 continue
 ;
-yield
 new
 Resource
 (
@@ -6432,9 +6423,6 @@ name
 .
 delete
 (
-self
-.
-cb
 )
 ;
 }
