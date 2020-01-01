@@ -10661,8 +10661,6 @@ mCompositorParent
 >
 ScheduleRenderOnCompositorThread
 (
-*
-mCompositorThread
 )
 ;
 }
@@ -10685,8 +10683,6 @@ mCompositorParent
 >
 SchedulePauseOnCompositorThread
 (
-*
-mCompositorThread
 )
 ;
 }
@@ -10709,8 +10705,6 @@ mCompositorParent
 >
 ScheduleResumeOnCompositorThread
 (
-*
-mCompositorThread
 )
 ;
 }
