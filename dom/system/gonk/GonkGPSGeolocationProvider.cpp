@@ -68,6 +68,13 @@ h
 #
 include
 "
+nsIDOMIccInfo
+.
+h
+"
+#
+include
+"
 nsIDOMMobileConnection
 .
 h
@@ -1551,7 +1558,7 @@ AGPS_RIL_REQUEST_SETID_MSISDN
 {
 nsCOMPtr
 <
-nsIDOMMozMobileICCInfo
+nsIDOMMozIccInfo
 >
 iccInfo
 ;
@@ -1663,7 +1670,7 @@ rilCtx
 {
 nsCOMPtr
 <
-nsIDOMMozMobileICCInfo
+nsIDOMMozIccInfo
 >
 iccInfo
 ;
