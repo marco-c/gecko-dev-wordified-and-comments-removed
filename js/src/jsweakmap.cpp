@@ -43,13 +43,6 @@ h
 #
 include
 "
-jsgc
-.
-h
-"
-#
-include
-"
 jsgcmark
 .
 h
