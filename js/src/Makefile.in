@@ -1071,14 +1071,6 @@ jsprf
 .
 h
 \
-jspropcache
-.
-h
-\
-jspropcacheinlines
-.
-h
-\
 jsproto
 .
 tbl
