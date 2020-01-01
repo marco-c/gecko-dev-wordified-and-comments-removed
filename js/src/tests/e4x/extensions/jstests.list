@@ -189,3 +189,11 @@ stringify
 xml
 .
 js
+script
+xml
+-
+as
+-
+proto
+.
+js
