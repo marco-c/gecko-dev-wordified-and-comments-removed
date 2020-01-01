@@ -2333,7 +2333,7 @@ bindingHeaders
 add
 (
 "
-jstypedarray
+jsfriendapi
 .
 h
 "
@@ -9506,6 +9506,7 @@ argVal
 toObject
 (
 )
+cx
 )
 )
 {
@@ -15056,6 +15057,7 @@ s
 toObject
 (
 )
+cx
 )
 "
 %
