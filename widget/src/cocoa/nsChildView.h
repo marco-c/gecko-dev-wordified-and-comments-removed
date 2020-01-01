@@ -445,6 +445,12 @@ notification
 ;
 -
 (
+BOOL
+)
+isPluginView
+;
+-
+(
 void
 )
 swipeWithEvent
