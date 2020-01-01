@@ -364,15 +364,7 @@ XPathResult
 )
 DOMCI_CLASS
 (
-StorageObsolete
-)
-DOMCI_CLASS
-(
 Storage
-)
-DOMCI_CLASS
-(
-StorageItem
 )
 DOMCI_CLASS
 (

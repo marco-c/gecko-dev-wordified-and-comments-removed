@@ -102,6 +102,14 @@ file_https
 .
 html
 \
+test_cookieSession
+.
+html
+\
+test_sessionStorageBaseSessionOnly
+.
+html
+\
 test_sessionStorageBase
 .
 html
