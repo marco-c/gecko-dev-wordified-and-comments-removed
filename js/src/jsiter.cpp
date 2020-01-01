@@ -1506,8 +1506,8 @@ ATOM_TO_JSID
 (
 atom
 )
+false
 vp
-NULL
 )
 )
 goto
