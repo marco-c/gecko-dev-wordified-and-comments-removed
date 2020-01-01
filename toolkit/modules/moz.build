@@ -126,6 +126,11 @@ FileUtils
 jsm
 '
 '
+Finder
+.
+jsm
+'
+'
 Geometry
 .
 jsm
