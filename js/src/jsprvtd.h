@@ -42,13 +42,6 @@ typedef
 JSPropertyDescriptor
 PropertyDescriptor
 ;
-enum
-XDRMode
-{
-XDR_ENCODE
-XDR_DECODE
-}
-;
 }
 #
 endif

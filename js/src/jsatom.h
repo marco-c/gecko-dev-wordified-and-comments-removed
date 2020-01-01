@@ -991,6 +991,13 @@ HandleType
 v
 )
 ;
+enum
+XDRMode
+{
+XDR_ENCODE
+XDR_DECODE
+}
+;
 template
 <
 XDRMode
