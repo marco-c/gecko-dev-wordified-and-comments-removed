@@ -486,6 +486,9 @@ mScrollPositionChangedTicks
 PRPackedBool
 mIsContentLoaded
 ;
+PRPackedBool
+mIsLoadCompleteFired
+;
 nsCOMArray
 <
 nsIAccessibleEvent
