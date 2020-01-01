@@ -85,7 +85,7 @@ h
 #
 include
 "
-nsITestProxyOrig
+nsITestProxy
 .
 h
 "
@@ -151,7 +151,7 @@ ProxyTest
 public
 nsIRunnable
 public
-nsITestProxyOrig
+nsITestProxy
 public
 nsISupportsPrimitive
 {
@@ -486,7 +486,7 @@ Equals
 (
 NS_GET_IID
 (
-nsITestProxyOrig
+nsITestProxy
 )
 )
 )
@@ -495,7 +495,7 @@ foundInterface
 =
 static_cast
 <
-nsITestProxyOrig
+nsITestProxy
 *
 >
 (
@@ -663,7 +663,7 @@ nsnull
 ;
 }
 nsresult
-rv
+status
 ;
 if
 (
@@ -671,7 +671,7 @@ if
 foundInterface
 )
 {
-rv
+status
 =
 NS_ERROR_NO_INTERFACE
 ;
@@ -683,7 +683,7 @@ NS_ADDREF
 foundInterface
 )
 ;
-rv
+status
 =
 NS_OK
 ;
@@ -694,7 +694,7 @@ aInstancePtr
 foundInterface
 ;
 return
-rv
+status
 ;
 }
 NS_IMETHOD_
@@ -799,7 +799,7 @@ nsnull
 ;
 nsCOMPtr
 <
-nsITestProxyOrig
+nsITestProxy
 >
 tester
 =
