@@ -5,7 +5,10 @@ BY
 imacro_asm
 .
 js
-from
+FROM
+.
+.
+/
 imacros
 .
 jsasm
@@ -4381,7 +4384,7 @@ JSOP_SETPROP
 JSOP_GETELEM
 *
 /
-2
+3
 /
 *
 JSOP_SETELEM
@@ -4513,7 +4516,7 @@ JSOP_NEXTITER
 JSOP_ENDITER
 *
 /
-7
+8
 /
 *
 JSOP_APPLY
@@ -4597,7 +4600,7 @@ JSOP_ENDINIT
 JSOP_INITPROP
 *
 /
-2
+3
 /
 *
 JSOP_INITELEM
