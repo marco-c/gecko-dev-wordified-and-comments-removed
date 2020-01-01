@@ -22,6 +22,7 @@ graphics
 RectF
 ;
 public
+final
 class
 ImmutableViewportMetrics
 {

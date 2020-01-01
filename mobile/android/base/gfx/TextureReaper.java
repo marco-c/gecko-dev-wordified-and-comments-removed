@@ -21,7 +21,7 @@ util
 .
 ArrayList
 ;
-public
+final
 class
 TextureReaper
 {

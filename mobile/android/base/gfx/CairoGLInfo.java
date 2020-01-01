@@ -18,7 +18,7 @@ opengles
 .
 GL10
 ;
-public
+final
 class
 CairoGLInfo
 {

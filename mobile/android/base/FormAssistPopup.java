@@ -172,6 +172,7 @@ json
 JSONObject
 ;
 public
+final
 class
 FormAssistPopup
 extends
@@ -1652,6 +1653,7 @@ null
 }
 }
 private
+final
 class
 AutoCompleteListAdapter
 extends

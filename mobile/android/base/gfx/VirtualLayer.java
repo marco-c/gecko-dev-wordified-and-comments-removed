@@ -14,7 +14,7 @@ graphics
 .
 Rect
 ;
-public
+final
 class
 VirtualLayer
 extends

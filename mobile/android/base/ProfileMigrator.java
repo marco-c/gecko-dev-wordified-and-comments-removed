@@ -478,6 +478,7 @@ json
 JSONException
 ;
 public
+final
 class
 ProfileMigrator
 {
@@ -2316,6 +2317,7 @@ PREFS_MIGRATE_MOVE_PROFILE_DONE
 ;
 }
 private
+final
 class
 MoveProfileTask
 implements
@@ -2904,6 +2906,7 @@ moveProfilesToAppInstallLocation
 }
 }
 private
+final
 class
 SyncTask
 implements
@@ -4008,6 +4011,7 @@ mContext
 }
 }
 private
+final
 class
 MiscTask
 implements
@@ -4120,6 +4124,7 @@ run
 }
 }
 private
+final
 class
 PlacesRunnable
 implements

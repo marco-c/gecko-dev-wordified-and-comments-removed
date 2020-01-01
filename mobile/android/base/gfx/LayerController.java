@@ -115,6 +115,7 @@ View
 OnTouchListener
 ;
 public
+final
 class
 LayerController
 {

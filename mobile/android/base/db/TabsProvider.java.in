@@ -303,6 +303,7 @@ util
 Log
 ;
 public
+final
 class
 TabsProvider
 extends
@@ -322,6 +323,7 @@ private
 Context
 mContext
 ;
+private
 static
 final
 String
@@ -333,6 +335,7 @@ tabs
 db
 "
 ;
+private
 static
 final
 int
@@ -340,6 +343,7 @@ DATABASE_VERSION
 =
 1
 ;
+private
 static
 final
 String
@@ -349,6 +353,7 @@ TABLE_TABS
 tabs
 "
 ;
+private
 static
 final
 String
@@ -358,6 +363,7 @@ TABLE_CLIENTS
 clients
 "
 ;
+private
 static
 final
 int
@@ -365,6 +371,7 @@ TABS
 =
 600
 ;
+private
 static
 final
 int
@@ -372,6 +379,7 @@ TABS_ID
 =
 601
 ;
+private
 static
 final
 int
@@ -379,6 +387,7 @@ CLIENTS
 =
 602
 ;
+private
 static
 final
 int
@@ -386,6 +395,7 @@ CLIENTS_ID
 =
 603
 ;
+private
 static
 final
 String
@@ -407,6 +417,7 @@ LAST_USED
 DESC
 "
 ;
+private
 static
 final
 String
@@ -420,6 +431,7 @@ LAST_MODIFIED
 DESC
 "
 ;
+private
 static
 final
 String
@@ -429,6 +441,7 @@ INDEX_TABS_GUID
 tabs_guid_index
 "
 ;
+private
 static
 final
 String
@@ -438,6 +451,7 @@ INDEX_TABS_POSITION
 tabs_position_index
 "
 ;
+private
 static
 final
 String
@@ -447,6 +461,7 @@ INDEX_CLIENTS_GUID
 clients_guid_index
 "
 ;
+private
 static
 final
 UriMatcher
@@ -460,6 +475,7 @@ UriMatcher
 NO_MATCH
 )
 ;
+private
 static
 final
 Map
@@ -469,6 +485,7 @@ String
 >
 TABS_PROJECTION_MAP
 ;
+private
 static
 final
 Map
@@ -748,6 +765,7 @@ DatabaseHelper
 >
 mDatabasePerProfile
 ;
+private
 static
 final
 String
@@ -876,6 +894,8 @@ message
 ;
 }
 }
+private
+static
 final
 class
 DatabaseHelper
@@ -2317,12 +2337,6 @@ return
 deleted
 ;
 }
-SuppressWarnings
-(
-"
-fallthrough
-"
-)
 public
 int
 deleteInTransaction
@@ -3361,12 +3375,6 @@ updated
 ;
 }
 Override
-SuppressWarnings
-(
-"
-fallthrough
-"
-)
 public
 Cursor
 query

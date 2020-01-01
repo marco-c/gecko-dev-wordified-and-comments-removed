@@ -44,7 +44,7 @@ util
 .
 Arrays
 ;
-public
+final
 class
 CheckerboardImage
 extends

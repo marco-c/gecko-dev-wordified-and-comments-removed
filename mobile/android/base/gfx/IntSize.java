@@ -40,6 +40,7 @@ lang
 Math
 ;
 public
+final
 class
 IntSize
 {

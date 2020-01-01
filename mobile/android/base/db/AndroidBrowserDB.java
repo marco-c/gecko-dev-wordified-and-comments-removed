@@ -118,7 +118,7 @@ util
 .
 Log
 ;
-public
+final
 class
 AndroidBrowserDB
 implements
@@ -2221,6 +2221,7 @@ b
 }
 private
 static
+final
 class
 AndroidDBCursor
 extends

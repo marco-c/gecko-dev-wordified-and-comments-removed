@@ -109,7 +109,7 @@ json
 .
 JSONException
 ;
-public
+final
 class
 SiteIdentityPopup
 extends
@@ -220,6 +220,7 @@ false
 }
 private
 static
+final
 class
 InstanceHolder
 {

@@ -160,6 +160,7 @@ util
 Log
 ;
 public
+final
 class
 GeckoEvent
 {

@@ -61,7 +61,7 @@ util
 .
 Log
 ;
-public
+final
 class
 GeckoConnectivityReceiver
 extends

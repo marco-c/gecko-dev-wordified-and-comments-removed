@@ -134,6 +134,7 @@ util
 Set
 ;
 public
+final
 class
 SQLiteBridge
 {

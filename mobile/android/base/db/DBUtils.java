@@ -102,6 +102,7 @@ util
 Random
 ;
 public
+final
 class
 DBUtils
 {
@@ -117,7 +118,6 @@ GeckoDBUtils
 ;
 public
 static
-final
 String
 qualifyColumn
 (

@@ -170,7 +170,6 @@ AwesomeBar
 ContextMenuSubject
 ;
 abstract
-public
 class
 AwesomeBarTab
 {
@@ -292,6 +291,8 @@ listener
 ;
 }
 protected
+static
+final
 class
 AwesomeEntryViewHolder
 {

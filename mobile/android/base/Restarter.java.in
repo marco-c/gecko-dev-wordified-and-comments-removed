@@ -140,6 +140,7 @@ gecko
 GeckoAppShell
 ;
 public
+final
 class
 Restarter
 extends
@@ -485,4 +486,3 @@ exit
 ;
 }
 }
-;

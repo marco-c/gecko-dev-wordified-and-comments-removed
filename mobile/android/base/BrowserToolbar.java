@@ -308,7 +308,7 @@ widget
 .
 ViewSwitcher
 ;
-public
+final
 class
 BrowserToolbar
 implements
@@ -3462,7 +3462,9 @@ return
 true
 ;
 }
-public
+private
+static
+final
 class
 MenuPopup
 extends

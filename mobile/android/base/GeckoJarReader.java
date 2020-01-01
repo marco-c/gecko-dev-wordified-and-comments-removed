@@ -90,12 +90,13 @@ util
 .
 Log
 ;
-public
+final
 class
 GeckoJarReader
 {
 private
 static
+final
 String
 LOGTAG
 =

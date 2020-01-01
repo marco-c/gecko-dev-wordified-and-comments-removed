@@ -26,6 +26,7 @@ util
 .
 AttributeSet
 ;
+final
 class
 LinkPreference
 extends

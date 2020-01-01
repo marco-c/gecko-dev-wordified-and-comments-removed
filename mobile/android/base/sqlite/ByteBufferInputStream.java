@@ -35,7 +35,7 @@ nio
 .
 ByteBuffer
 ;
-public
+final
 class
 ByteBufferInputStream
 extends

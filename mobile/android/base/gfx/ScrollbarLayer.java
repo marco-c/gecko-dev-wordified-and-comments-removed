@@ -109,7 +109,7 @@ gecko
 .
 GeckoAppShell
 ;
-public
+final
 class
 ScrollbarLayer
 extends

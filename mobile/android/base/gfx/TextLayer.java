@@ -116,7 +116,7 @@ nio
 .
 IntBuffer
 ;
-public
+final
 class
 TextLayer
 extends

@@ -138,7 +138,6 @@ LOCAL_TABS
 REMOTE_TABS
 }
 public
-static
 interface
 PanelView
 {
@@ -162,7 +161,6 @@ hide
 ;
 }
 public
-static
 interface
 TabsLayoutChangeListener
 {

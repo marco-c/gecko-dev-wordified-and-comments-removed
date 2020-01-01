@@ -93,7 +93,7 @@ RelativeLayout
 .
 LayoutParams
 ;
-public
+final
 class
 FindInPageBar
 extends

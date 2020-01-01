@@ -345,7 +345,7 @@ BrowserContract
 .
 Combined
 ;
-public
+final
 class
 AllPagesTab
 extends
@@ -353,7 +353,7 @@ AwesomeBarTab
 implements
 GeckoEventListener
 {
-public
+private
 static
 final
 String
@@ -429,6 +429,8 @@ mCursorAdapter
 null
 ;
 private
+static
+final
 class
 SearchEntryViewHolder
 {
@@ -982,7 +984,6 @@ private
 interface
 AwesomeBarItem
 {
-public
 void
 onClick
 (
@@ -990,6 +991,7 @@ onClick
 ;
 }
 private
+final
 class
 AwesomeBarCursorItem
 implements
@@ -1107,6 +1109,7 @@ url
 }
 }
 private
+final
 class
 AwesomeBarSearchEngineItem
 implements
@@ -1161,6 +1164,7 @@ mSearchTerm
 }
 }
 private
+final
 class
 AwesomeBarCursorAdapter
 extends
@@ -2285,6 +2289,8 @@ GONE
 }
 ;
 private
+static
+final
 class
 SearchEngine
 {

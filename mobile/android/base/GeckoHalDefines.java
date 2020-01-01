@@ -5,10 +5,16 @@ mozilla
 .
 gecko
 ;
-public
+final
 class
 GeckoHalDefines
 {
+private
+GeckoHalDefines
+(
+)
+{
+}
 public
 static
 final
@@ -99,4 +105,3 @@ SENSOR_ACCURACY_HIGH
 3
 ;
 }
-;

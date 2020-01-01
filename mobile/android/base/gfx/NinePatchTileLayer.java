@@ -64,7 +64,7 @@ opengl
 .
 GLES20
 ;
-public
+final
 class
 NinePatchTileLayer
 extends

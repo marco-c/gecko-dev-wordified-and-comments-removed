@@ -42,7 +42,7 @@ pm
 .
 ActivityInfo
 ;
-public
+final
 class
 GeckoScreenOrientationListener
 {
@@ -56,7 +56,9 @@ LOGTAG
 GeckoScreenOrientationListener
 "
 ;
+private
 static
+final
 class
 OrientationEventListenerImpl
 extends

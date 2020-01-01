@@ -86,6 +86,7 @@ opengl
 GLES20
 ;
 public
+final
 class
 GfxInfoThread
 extends

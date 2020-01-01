@@ -41,6 +41,7 @@ json
 JSONException
 ;
 public
+final
 class
 WebAppAllocator
 {

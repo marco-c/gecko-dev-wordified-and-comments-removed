@@ -125,7 +125,7 @@ view
 .
 View
 ;
-public
+final
 class
 GeckoMenuInflater
 extends
@@ -168,6 +168,8 @@ Context
 mContext
 ;
 private
+static
+final
 class
 ParsedItem
 {

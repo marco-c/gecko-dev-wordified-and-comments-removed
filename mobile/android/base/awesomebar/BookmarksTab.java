@@ -234,13 +234,13 @@ BrowserDB
 .
 URLColumns
 ;
-public
+final
 class
 BookmarksTab
 extends
 AwesomeBarTab
 {
-public
+private
 static
 final
 String
@@ -250,7 +250,7 @@ LOGTAG
 BOOKMARKS_TAB
 "
 ;
-public
+private
 static
 final
 String
@@ -1021,6 +1021,7 @@ url
 ;
 }
 private
+final
 class
 BookmarksListAdapter
 extends
@@ -1837,6 +1838,7 @@ titleView
 }
 }
 private
+final
 class
 BookmarksQueryTask
 extends

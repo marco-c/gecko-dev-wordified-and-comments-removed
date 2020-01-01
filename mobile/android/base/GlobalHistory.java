@@ -88,6 +88,7 @@ db
 .
 BrowserDB
 ;
+final
 class
 GlobalHistory
 {

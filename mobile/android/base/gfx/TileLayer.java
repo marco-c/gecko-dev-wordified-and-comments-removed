@@ -77,7 +77,6 @@ nio
 .
 FloatBuffer
 ;
-public
 abstract
 class
 TileLayer

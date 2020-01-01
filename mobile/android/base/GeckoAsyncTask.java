@@ -5,7 +5,6 @@ mozilla
 .
 gecko
 ;
-public
 abstract
 class
 GeckoAsyncTask
@@ -46,6 +45,7 @@ PRIORITY_NORMAL
 ;
 }
 private
+final
 class
 BackgroundTaskRunnable
 implements

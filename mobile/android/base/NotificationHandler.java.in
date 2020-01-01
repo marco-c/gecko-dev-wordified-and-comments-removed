@@ -151,7 +151,7 @@ net
 .
 Uri
 ;
-public
+final
 class
 NotificationHandler
 extends

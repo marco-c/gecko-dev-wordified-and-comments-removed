@@ -115,6 +115,7 @@ util
 Log
 ;
 public
+final
 class
 ViewportMetrics
 {

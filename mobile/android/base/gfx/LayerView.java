@@ -195,6 +195,7 @@ opengles
 GL10
 ;
 public
+final
 class
 LayerView
 extends
@@ -206,6 +207,7 @@ Callback
 {
 private
 static
+final
 String
 LOGTAG
 =

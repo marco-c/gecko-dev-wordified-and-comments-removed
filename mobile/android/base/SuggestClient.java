@@ -103,7 +103,7 @@ util
 .
 ArrayList
 ;
-public
+final
 class
 SuggestClient
 {

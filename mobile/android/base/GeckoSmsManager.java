@@ -138,6 +138,7 @@ telephony
 .
 SmsMessage
 ;
+final
 class
 PendingIntentUID
 {
@@ -164,6 +165,7 @@ sUID
 ;
 }
 }
+final
 class
 Envelope
 {
@@ -494,6 +496,7 @@ aError
 ;
 }
 }
+final
 class
 Postman
 {
@@ -799,6 +802,7 @@ Envelope
 }
 }
 }
+final
 class
 SmsIOThread
 extends
@@ -874,6 +878,7 @@ loop
 ;
 }
 }
+final
 class
 MessagesListManager
 {
@@ -1226,7 +1231,7 @@ clear
 ;
 }
 }
-public
+final
 class
 GeckoSmsManager
 extends

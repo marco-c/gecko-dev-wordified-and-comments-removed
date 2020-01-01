@@ -69,6 +69,7 @@ util
 .
 Log
 ;
+final
 class
 SubdocumentScrollHelper
 implements
