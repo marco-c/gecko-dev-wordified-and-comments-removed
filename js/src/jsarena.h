@@ -1312,6 +1312,9 @@ mark
 #
 endif
 JS_END_EXTERN_C
+#
+ifdef
+__cplusplus
 namespace
 js
 {
@@ -1727,5 +1730,7 @@ NULL
 ;
 }
 }
+#
+endif
 #
 endif
