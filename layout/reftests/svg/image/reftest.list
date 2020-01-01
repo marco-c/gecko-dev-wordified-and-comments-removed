@@ -310,11 +310,6 @@ ref
 .
 html
 random
--
-if
-(
-winWidget
-)
 =
 =
 img
@@ -333,6 +328,9 @@ dyn
 ref
 .
 html
+#
+Bug
+596478
 #
 XXXdholbert
 Some
