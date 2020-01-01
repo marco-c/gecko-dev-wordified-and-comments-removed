@@ -7530,7 +7530,7 @@ prevTreeNextp
 static
 VMFragment
 *
-LookupAddLoop
+LookupOrAddLoop
 (
 JSTraceMonitor
 *
@@ -28365,6 +28365,12 @@ fused
 :
 1
 ;
+JSContext
+*
+localcx
+=
+cx
+;
 AbortableRecordingStatus
 ars
 =
@@ -28373,7 +28379,7 @@ closeLoop
 )
 ;
 *
-cx
+localcx
 -
 >
 fp
@@ -33474,7 +33480,7 @@ VMFragment
 *
 first
 =
-LookupAddLoop
+LookupOrAddLoop
 (
 tm
 cx
@@ -38454,7 +38460,7 @@ VMFragment
 *
 f
 =
-LookupAddLoop
+LookupOrAddLoop
 (
 tm
 pc

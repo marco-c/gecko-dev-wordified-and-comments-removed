@@ -147,6 +147,7 @@ continue
 ;
 if
 (
+(
 typeMap
 [
 i
@@ -163,8 +164,10 @@ i
 =
 =
 TT_DOUBLE
+)
 |
 |
+(
 typeMap
 [
 i
@@ -181,6 +184,7 @@ i
 =
 =
 TT_INT32
+)
 )
 {
 continue
