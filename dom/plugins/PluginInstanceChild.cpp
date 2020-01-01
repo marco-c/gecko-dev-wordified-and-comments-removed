@@ -5998,6 +5998,7 @@ width
 aWindow
 .
 height
+false
 )
 )
 )
@@ -8871,6 +8872,7 @@ width
 mWindow
 .
 height
+mIsTransparent
 )
 )
 return
@@ -11408,6 +11410,7 @@ mCurrentSurface
 GetSize
 (
 )
+mIsTransparent
 )
 ;
 s

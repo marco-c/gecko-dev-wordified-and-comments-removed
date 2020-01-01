@@ -50,6 +50,8 @@ PRUint32
 aWidth
 PRUint32
 aHeight
+bool
+aTransparent
 )
 ;
 nsresult
@@ -61,6 +63,8 @@ PRUint32
 aWidth
 PRUint32
 aHeight
+bool
+aTransparent
 )
 ;
 nsresult
@@ -109,7 +113,9 @@ PRUint32
 aWidth
 PRUint32
 aHeight
-BITMAPINFOHEADER
+bool
+aTransparent
+BITMAPV4HEADER
 *
 aHeader
 )
@@ -119,7 +125,7 @@ SetupSurface
 (
 HDC
 aHdc
-BITMAPINFOHEADER
+BITMAPV4HEADER
 *
 aHdr
 )

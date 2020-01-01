@@ -1980,6 +1980,11 @@ size
 )
 .
 height
+windesc
+.
+transparent
+(
+)
 )
 )
 surface
@@ -5740,6 +5745,7 @@ width
 newPort
 .
 height
+false
 )
 )
 )

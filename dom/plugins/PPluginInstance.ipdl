@@ -559,6 +559,9 @@ handle
 gfxIntSize
 size
 ;
+bool
+transparent
+;
 }
 ;
 union
