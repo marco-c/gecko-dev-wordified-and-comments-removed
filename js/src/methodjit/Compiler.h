@@ -575,6 +575,15 @@ argc
 )
 ;
 void
+inlineCallHelper
+(
+uint32
+argc
+bool
+callingNew
+)
+;
+void
 jsop_nameinc
 (
 JSOp
