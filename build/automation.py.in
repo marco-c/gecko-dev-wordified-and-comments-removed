@@ -7025,7 +7025,6 @@ self
 .
 killAndGetStackNoScreenshot
 (
-self
 processPID
 utilityPath
 debuggerInfo
