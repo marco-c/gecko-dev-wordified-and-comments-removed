@@ -568,6 +568,12 @@ O3
 fstrict
 -
 aliasing
+-
+fno
+-
+stack
+-
+protector
 #
 We
 normally
