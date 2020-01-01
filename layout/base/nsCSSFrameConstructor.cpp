@@ -24803,9 +24803,8 @@ IsEditable
 aChild
 -
 >
-HasFlag
+MayHaveContentEditableAttr
 (
-NODE_MAY_HAVE_CONTENT_EDITABLE_ATTR
 )
 )
 )
