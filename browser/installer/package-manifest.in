@@ -387,10 +387,6 @@ Base
 Browser
 Files
 ]
-BINPATH
-/
-jsloader
-/
 #
 ifndef
 XP_UNIX

@@ -2340,6 +2340,10 @@ SDK
 endif
 ifdef
 MOZ_OMNIJAR
+GENERATE_CACHE
+?
+=
+true
 OMNIJAR_FILES
 =
 \
@@ -2521,6 +2525,12 @@ OMNIJAR_FILES
 x
 (
 NON_OMNIJAR_FILES
+)
+&
+&
+\
+(
+GENERATE_CACHE
 )
 &
 &
