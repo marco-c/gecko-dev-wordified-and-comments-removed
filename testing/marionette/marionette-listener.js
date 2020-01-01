@@ -9110,6 +9110,10 @@ focus
 )
 ;
 }
+sandbox
+=
+null
+;
 checkTimer
 .
 initWithCallback
