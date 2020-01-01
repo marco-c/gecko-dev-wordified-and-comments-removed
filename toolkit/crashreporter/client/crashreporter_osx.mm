@@ -496,6 +496,10 @@ std
 :
 vector
 ;
+using
+namespace
+CrashReporter
+;
 static
 NSAutoreleasePool
 *
@@ -2389,7 +2393,7 @@ UTF8String
 ]
 ;
 }
-CrashReporterSendCompleted
+SendCompleted
 (
 success
 reply
