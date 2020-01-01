@@ -2821,9 +2821,7 @@ maybePropid
 )
 ;
 }
-const
-HeapId
-&
+jsid
 maybePropid
 (
 )
