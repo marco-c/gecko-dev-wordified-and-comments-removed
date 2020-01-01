@@ -162,15 +162,15 @@ builtinclass
 scriptable
 uuid
 (
-2ae61565
+df3491fd
 -
-1a66
+2243
 -
-4e6e
+427f
 -
-960d
+bd93
 -
-b999c631e5c6
+b0dd3c3e7834
 )
 ]
 interface
@@ -3336,7 +3336,7 @@ on
 setting
 attribute
 DOMString
-MozAlignItems
+alignItems
 ;
 /
 /
@@ -3348,7 +3348,7 @@ on
 setting
 attribute
 DOMString
-MozAlignSelf
+alignSelf
 ;
 /
 /
@@ -3360,7 +3360,7 @@ on
 setting
 attribute
 DOMString
-MozFlex
+flex
 ;
 /
 /
@@ -3372,7 +3372,7 @@ on
 setting
 attribute
 DOMString
-MozFlexBasis
+flexBasis
 ;
 /
 /
@@ -3384,7 +3384,7 @@ on
 setting
 attribute
 DOMString
-MozFlexDirection
+flexDirection
 ;
 /
 /
@@ -3396,7 +3396,7 @@ on
 setting
 attribute
 DOMString
-MozFlexGrow
+flexGrow
 ;
 /
 /
@@ -3408,7 +3408,7 @@ on
 setting
 attribute
 DOMString
-MozFlexShrink
+flexShrink
 ;
 /
 /
@@ -3420,7 +3420,7 @@ on
 setting
 attribute
 DOMString
-MozOrder
+order
 ;
 /
 /
@@ -3432,7 +3432,7 @@ on
 setting
 attribute
 DOMString
-MozJustifyContent
+justifyContent
 ;
 /
 /

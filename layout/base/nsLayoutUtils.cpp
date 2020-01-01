@@ -795,7 +795,7 @@ nsCSSProps
 :
 FindIndexOfKeyword
 (
-eCSSKeyword__moz_flex
+eCSSKeyword_flex
 nsCSSProps
 :
 :
@@ -809,7 +809,7 @@ nsCSSProps
 :
 FindIndexOfKeyword
 (
-eCSSKeyword__moz_inline_flex
+eCSSKeyword_inline_flex
 nsCSSProps
 :
 :
@@ -839,7 +839,7 @@ sIndexOfFlexInDisplayTable
 =
 isFlexboxEnabled
 ?
-eCSSKeyword__moz_flex
+eCSSKeyword_flex
 :
 eCSSKeyword_UNKNOWN
 ;
@@ -862,7 +862,7 @@ sIndexOfInlineFlexInDisplayTable
 =
 isFlexboxEnabled
 ?
-eCSSKeyword__moz_inline_flex
+eCSSKeyword_inline_flex
 :
 eCSSKeyword_UNKNOWN
 ;
