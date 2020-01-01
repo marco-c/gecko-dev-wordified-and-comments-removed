@@ -1712,6 +1712,11 @@ GetAttributedSubstringFromRange
 NSRange
 &
 aRange
+NSRange
+*
+aActualRange
+=
+nullptr
 )
 ;
 NSRange
