@@ -8254,9 +8254,6 @@ aReflowState
 mComputedBorderPadding
 )
 ;
-nscoord
-frameCrossSize
-;
 MainAxisPositionTracker
 mainAxisPosnTracker
 (
@@ -8501,6 +8498,8 @@ contentBoxCrossSize
 )
 ;
 }
+const
+nscoord
 frameCrossSize
 =
 contentBoxCrossSize
