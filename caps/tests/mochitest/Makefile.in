@@ -497,6 +497,12 @@ ACDEFINES
 )
 <
 >
+GARBAGE
++
+=
+test_bug292789
+.
+html
 libs
 :
 :

@@ -968,6 +968,10 @@ AB_CD
 (
 CONFIG_DIR
 )
+GARBARGE_DIRS
++
+=
+instgen
 include
 (
 topsrcdir
