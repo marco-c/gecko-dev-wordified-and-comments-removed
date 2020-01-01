@@ -3188,7 +3188,7 @@ instance
 )
 =
 =
-PR_SUCCESS
+SECSuccess
 )
 {
 continue

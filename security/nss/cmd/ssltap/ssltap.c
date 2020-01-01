@@ -7929,7 +7929,7 @@ case
 PR_FPUTS
 (
 "
-certificate_status
+certificate_status_request
 )
 \
 n

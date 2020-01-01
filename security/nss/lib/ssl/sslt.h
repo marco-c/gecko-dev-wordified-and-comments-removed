@@ -203,9 +203,6 @@ ssl_hmac_md5
 ssl_hmac_sha
 =
 4
-ssl_hmac_sha256
-=
-5
 }
 SSLMACAlgorithm
 ;
@@ -406,9 +403,6 @@ ssl_ec_point_formats_xtn
 11
 #
 endif
-ssl_signature_algorithms_xtn
-=
-13
 ssl_use_srtp_xtn
 =
 14
@@ -427,6 +421,6 @@ SSLExtensionType
 #
 define
 SSL_MAX_EXTENSIONS
-9
+8
 #
 endif
