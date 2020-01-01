@@ -2163,11 +2163,6 @@ aContent
 return
 PR_FALSE
 ;
-NS_RELEASE
-(
-aContent
-)
-;
 if
 (
 currentContent
@@ -2195,6 +2190,11 @@ SafeElementAt
 )
 ;
 }
+NS_RELEASE
+(
+aContent
+)
+;
 return
 mIdContentList
 .
