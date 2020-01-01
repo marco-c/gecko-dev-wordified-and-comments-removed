@@ -34198,12 +34198,7 @@ AssertArgumentsAreSane
 JSContext
 *
 cx
-const
-JS
-:
-:
-Value
-&
+HandleValue
 value
 )
 {

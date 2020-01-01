@@ -8128,8 +8128,7 @@ JSContext
 *
 cx
 const
-Value
-&
+HandleValue
 v
 int64_t
 *
@@ -8209,8 +8208,7 @@ JSContext
 *
 cx
 const
-Value
-&
+HandleValue
 v
 uint64_t
 *
@@ -8290,8 +8288,7 @@ JSContext
 *
 cx
 const
-Value
-&
+HandleValue
 v
 int32_t
 *
@@ -8371,8 +8368,7 @@ JSContext
 *
 cx
 const
-Value
-&
+HandleValue
 v
 uint32_t
 *
@@ -8452,8 +8448,7 @@ JSContext
 *
 cx
 const
-Value
-&
+HandleValue
 v
 uint16_t
 *

@@ -34678,8 +34678,7 @@ ValueToInt32
 JSContext
 *
 cx
-Value
-*
+MutableHandleValue
 val
 )
 {
@@ -34693,9 +34692,6 @@ ToInt32
 (
 cx
 val
-[
-0
-]
 &
 i32
 )
@@ -34704,13 +34700,13 @@ return
 false
 ;
 val
-[
-0
-]
-=
+.
+set
+(
 Int32Value
 (
 i32
+)
 )
 ;
 return

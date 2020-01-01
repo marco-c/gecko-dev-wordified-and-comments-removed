@@ -1811,7 +1811,9 @@ return
 ptr
 ;
 }
+const
 T
+&
 get
 (
 )
@@ -1823,7 +1825,9 @@ ptr
 ;
 }
 operator
+const
 T
+&
 (
 )
 const
