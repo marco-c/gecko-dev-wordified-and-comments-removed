@@ -1197,8 +1197,6 @@ mozilla
 .
 org
 "
-callback_soon
-(
 function
 (
 olda1
@@ -1345,7 +1343,6 @@ run_test_3
 )
 ;
 }
-)
 )
 ;
 }
@@ -2954,9 +2951,8 @@ getTime
 (
 )
 ;
-do_execute_soon
-(
 run_test_8
+(
 )
 ;
 }
@@ -3485,8 +3481,6 @@ mozilla
 .
 org
 "
-callback_soon
-(
 function
 (
 a2
@@ -4247,7 +4241,6 @@ UPDATE_WHEN_NEW_APP_INSTALLED
 ;
 }
 )
-)
 ;
 }
 function
@@ -4473,9 +4466,8 @@ addon
 isCompatible
 )
 ;
-do_execute_soon
-(
 run_test_12
+(
 )
 ;
 }
@@ -6337,9 +6329,8 @@ function
 (
 )
 {
-do_execute_soon
-(
 end_test
+(
 )
 ;
 }

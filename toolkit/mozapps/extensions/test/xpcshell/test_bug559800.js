@@ -212,8 +212,6 @@ mozilla
 .
 org
 "
-callback_soon
-(
 function
 (
 a1
@@ -255,7 +253,6 @@ check_test_1
 ;
 }
 )
-)
 ;
 }
 function
@@ -280,8 +277,6 @@ mozilla
 .
 org
 "
-callback_soon
-(
 function
 (
 a1
@@ -332,7 +327,6 @@ end_test
 )
 ;
 }
-)
 )
 ;
 }
