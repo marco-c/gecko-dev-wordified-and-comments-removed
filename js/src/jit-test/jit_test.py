@@ -589,6 +589,27 @@ options
 .
 valgrind
                     
+elif
+name
+=
+=
+'
+mjitalways
+'
+:
+                        
+test
+.
+jitflags
+.
+append
+(
+'
+-
+a
+'
+)
+                    
 else
 :
                         
@@ -3360,8 +3381,11 @@ copy
 new_test
 .
 jitflags
-=
+.
+extend
+(
 jitflags
+)
             
 job_list
 .

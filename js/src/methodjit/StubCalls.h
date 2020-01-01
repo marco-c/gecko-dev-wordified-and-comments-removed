@@ -263,6 +263,9 @@ void
 *
 codeAddr
 ;
+bool
+unjittable
+;
 void
 init
 (
@@ -279,6 +282,10 @@ NULL
 codeAddr
 =
 NULL
+;
+unjittable
+=
+false
 ;
 }
 }
