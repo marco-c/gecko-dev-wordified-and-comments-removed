@@ -30859,6 +30859,11 @@ telemetryPrompted
 =
 null
 ;
+let
+self
+=
+this
+;
 try
 {
 telemetryPrompted
@@ -30948,10 +30953,10 @@ prefs
 .
 setIntPref
 (
-this
+self
 .
 _PREF_TELEMETRY_PROMPTED
-this
+self
 .
 _TELEMETRY_PROMPT_REV
 )
@@ -30962,7 +30967,7 @@ prefs
 .
 setBoolPref
 (
-this
+self
 .
 _PREF_TELEMETRY_ENABLED
 true
@@ -30999,10 +31004,10 @@ prefs
 .
 setIntPref
 (
-this
+self
 .
 _PREF_TELEMETRY_PROMPTED
-this
+self
 .
 _TELEMETRY_PROMPT_REV
 )
@@ -31013,7 +31018,7 @@ prefs
 .
 setBoolPref
 (
-this
+self
 .
 _PREF_TELEMETRY_REJECTED
 true
