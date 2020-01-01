@@ -3950,7 +3950,7 @@ value
 textValue
 }
 {
-onFailure
+handleError
 :
 function
 (
