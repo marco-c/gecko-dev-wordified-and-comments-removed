@@ -5523,3 +5523,15 @@ accelerated
 true
 )
 ;
+pref
+(
+"
+dom
+.
+telephony
+.
+enabled
+"
+true
+)
+;

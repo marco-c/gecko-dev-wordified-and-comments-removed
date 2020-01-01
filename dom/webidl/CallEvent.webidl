@@ -100,6 +100,15 @@ optional
 CallEventInit
 eventInitDict
 )
+Pref
+=
+"
+dom
+.
+telephony
+.
+enabled
+"
 ]
 interface
 CallEvent

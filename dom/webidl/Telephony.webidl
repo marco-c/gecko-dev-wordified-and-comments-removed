@@ -91,6 +91,17 @@ MPL
 .
 *
 /
+[
+Pref
+=
+"
+dom
+.
+telephony
+.
+enabled
+"
+]
 interface
 Telephony
 :

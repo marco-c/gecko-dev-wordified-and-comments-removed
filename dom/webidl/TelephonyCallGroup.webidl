@@ -111,6 +111,17 @@ MPL
 .
 *
 /
+[
+Pref
+=
+"
+dom
+.
+telephony
+.
+enabled
+"
+]
 interface
 TelephonyCallGroup
 :
