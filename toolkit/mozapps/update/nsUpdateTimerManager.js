@@ -265,7 +265,7 @@ aData
 var
 minInterval
 =
-60000
+30000
 ;
 var
 minFirstInterval
