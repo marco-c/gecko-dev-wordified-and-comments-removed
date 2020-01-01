@@ -159,16 +159,13 @@ n
 continue
         
 if
-url
-.
-contains
-(
-"
+'
 /
 editing
 /
-"
-)
+'
+in
+url
 :
             
 sep
