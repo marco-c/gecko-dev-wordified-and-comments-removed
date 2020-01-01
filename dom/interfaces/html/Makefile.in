@@ -762,10 +762,6 @@ nsIDOMNSHTMLTextAreaElement
 .
 idl
 \
-nsIDOMNSXBLFormControl
-.
-idl
-\
 (
 NULL
 )

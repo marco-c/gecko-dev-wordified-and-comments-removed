@@ -972,7 +972,7 @@ doc
 ;
 nsCOMPtr
 <
-nsIDOMNSDocument
+nsIDocument
 >
 nsDoc
 (
@@ -1362,7 +1362,7 @@ doc
 ;
 nsCOMPtr
 <
-nsIDOMNSDocument
+nsIDocument
 >
 nsDoc
 (

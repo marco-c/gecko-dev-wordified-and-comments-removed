@@ -603,13 +603,6 @@ h
 #
 include
 "
-nsIDOMNSXBLFormControl
-.
-h
-"
-#
-include
-"
 nsIPluginInstance
 .
 h
@@ -9832,10 +9825,6 @@ nsIDOMHTMLSelectElement
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsIDOMNSHTMLSelectElement
-)
-DOM_CLASSINFO_MAP_ENTRY
-(
-nsIDOMNSXBLFormControl
 )
 DOM_CLASSINFO_GENERIC_HTML_MAP_ENTRIES
 DOM_CLASSINFO_MAP_END

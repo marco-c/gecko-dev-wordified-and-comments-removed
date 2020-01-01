@@ -602,6 +602,10 @@ test_bug339494
 .
 xul
 \
+test_bug340571
+.
+html
+\
 test_bug343596
 .
 html

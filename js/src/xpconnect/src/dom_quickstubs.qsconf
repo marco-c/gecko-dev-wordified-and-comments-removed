@@ -1387,7 +1387,7 @@ nsIDOMNSDocument
 activeElement
 '
 '
-nsIDOMNSDocument
+nsIDOMXULDocument
 .
 getBoxObjectFor
 '

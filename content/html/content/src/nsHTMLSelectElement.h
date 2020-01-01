@@ -49,13 +49,6 @@ h
 #
 include
 "
-nsIDOMNSXBLFormControl
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLFormElement
 .
 h
@@ -557,8 +550,6 @@ nsIDOMHTMLSelectElement
 public
 nsIDOMNSHTMLSelectElement
 public
-nsIDOMNSXBLFormControl
-public
 nsISelectElement
 {
 public
@@ -601,7 +592,6 @@ nsGenericHTMLFormElement
 )
 NS_DECL_NSIDOMHTMLSELECTELEMENT
 NS_DECL_NSIDOMNSHTMLSELECTELEMENT
-NS_DECL_NSIDOMNSXBLFORMCONTROL
 virtual
 nsresult
 PreHandleEvent
