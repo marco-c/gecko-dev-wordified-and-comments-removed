@@ -617,12 +617,6 @@ nsCString
 hostLine
 )
 ;
-nsCOMPtr
-<
-nsIThread
->
-mCacheWriteThread
-;
 private
 :
 void
