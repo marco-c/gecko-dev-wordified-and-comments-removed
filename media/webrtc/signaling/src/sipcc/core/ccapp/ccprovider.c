@@ -335,6 +335,13 @@ prcvar
 h
 "
 #
+include
+"
+thread_monitor
+.
+h
+"
+#
 define
 NOTIFY_CALL_STATUS
 (
@@ -11576,6 +11583,11 @@ break
 case
 CCAPP_THREAD_UNLOAD
 :
+thread_ended
+(
+THREADMON_CCAPP
+)
+;
 destroy_ccapp_thread
 (
 )

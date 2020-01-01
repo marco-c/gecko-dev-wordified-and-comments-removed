@@ -286,6 +286,13 @@ platform_api
 h
 "
 #
+include
+"
+thread_monitor
+.
+h
+"
+#
 ifdef
 SAPP_SAPP_GSM
 #
@@ -3544,6 +3551,11 @@ case
 THREAD_UNLOAD
 :
 {
+thread_ended
+(
+THREADMON_SIP
+)
+;
 destroy_sip_thread
 (
 )

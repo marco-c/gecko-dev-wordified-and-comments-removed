@@ -634,11 +634,6 @@ aCallEvent
 CSF
 :
 :
-CC_CallPtr
-aCall
-CSF
-:
-:
 CC_CallInfoPtr
 aInfo
 )

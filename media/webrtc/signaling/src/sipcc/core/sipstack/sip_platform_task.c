@@ -155,6 +155,13 @@ prprf
 h
 "
 #
+include
+"
+thread_monitor
+.
+h
+"
+#
 define
 MAX_SIP_MESSAGES
 8
@@ -914,6 +921,11 @@ Cmd
 case
 THREAD_UNLOAD
 :
+thread_ended
+(
+THREADMON_MSGQ
+)
+;
 quit_thread
 =
 TRUE

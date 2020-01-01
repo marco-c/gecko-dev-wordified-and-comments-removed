@@ -2027,9 +2027,7 @@ CC_SRC_GSM
 ;
 if
 (
-FALSE
-=
-=
+!
 gHardCodeSDPMode
 )
 {
