@@ -1453,6 +1453,15 @@ return
 mZ
 ;
 }
+double
+Distance
+(
+)
+{
+return
+mDistance
+;
+}
 const
 nsIntRect
 &
@@ -1644,6 +1653,9 @@ mX
 mY
 mZ
 ;
+double
+mDistance
+;
 nsString
 mCharacters
 mCharactersExtra
@@ -1747,6 +1759,10 @@ jYField
 static
 jfieldID
 jZField
+;
+static
+jfieldID
+jDistanceField
 ;
 static
 jfieldID
@@ -1882,6 +1898,9 @@ TILE_SIZE
 VISITED
 =
 22
+PROXIMITY_EVENT
+=
+23
 dummy_java_enum_list_end
 }
 ;
