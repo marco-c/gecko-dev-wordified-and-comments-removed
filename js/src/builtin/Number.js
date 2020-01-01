@@ -11,12 +11,6 @@ Number_toLocaleString
 (
 )
 {
-callFunction
-(
-num_CheckThisNumber
-this
-)
-;
 var
 x
 =
