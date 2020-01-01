@@ -481,6 +481,14 @@ ContentProcess
 .
 h
 \
+CrashReporterChild
+.
+h
+\
+CrashReporterParent
+.
+h
+\
 TabParent
 .
 h
@@ -512,6 +520,10 @@ ContentParent
 cpp
 \
 ContentChild
+.
+cpp
+\
+CrashReporterParent
 .
 cpp
 \

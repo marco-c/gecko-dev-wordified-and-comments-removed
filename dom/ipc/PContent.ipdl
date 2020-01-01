@@ -451,6 +451,10 @@ PBrowser
 ;
 include
 protocol
+PCrashReporter
+;
+include
+protocol
 PTestShell
 ;
 include
@@ -627,6 +631,9 @@ manages
 PBrowser
 ;
 manages
+PCrashReporter
+;
+manages
 PTestShell
 ;
 manages
@@ -723,6 +730,10 @@ z
 parent
 :
 PNecko
+(
+)
+;
+PCrashReporter
 (
 )
 ;
