@@ -25006,7 +25006,7 @@ shell
 >
 FlushPendingNotifications
 (
-Flush_Display
+Flush_InterruptibleLayout
 )
 ;
 }
