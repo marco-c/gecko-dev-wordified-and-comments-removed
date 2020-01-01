@@ -2763,12 +2763,6 @@ entry
 "
 )
 ;
-return
-icEntry
-(
-mid
-)
-;
 }
 ICEntry
 &
@@ -3597,9 +3591,6 @@ pc
 "
 )
 ;
-return
-NULL
-;
 }
 jsbytecode
 *
@@ -3806,9 +3797,6 @@ Invalid
 pc
 "
 )
-;
-return
-NULL
 ;
 }
 jsbytecode

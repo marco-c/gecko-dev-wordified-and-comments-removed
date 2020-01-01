@@ -532,8 +532,6 @@ kind
 "
 )
 ;
-break
-;
 }
 return
 result

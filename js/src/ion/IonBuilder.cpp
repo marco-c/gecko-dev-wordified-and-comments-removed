@@ -5724,8 +5724,6 @@ case
 "
 )
 ;
-break
-;
 }
 break
 ;
@@ -5763,9 +5761,6 @@ ifne
 !
 "
 )
-;
-return
-ControlStatus_Error
 ;
 default
 :
@@ -6948,9 +6943,6 @@ loop
 "
 )
 ;
-return
-true
-;
 case
 JSOP_GETELEM
 :
@@ -7668,9 +7660,6 @@ cfgstate
 )
 ;
 }
-return
-ControlStatus_Error
-;
 }
 IonBuilder
 :
@@ -10854,9 +10843,6 @@ state
 "
 )
 ;
-return
-ControlStatus_Error
-;
 }
 *
 breaks
@@ -11109,9 +11095,6 @@ opcode
 "
 )
 ;
-return
-ControlStatus_Error
-;
 }
 return
 ControlStatus_None
@@ -11261,8 +11244,6 @@ source
 note
 "
 )
-;
-return
 ;
 }
 JS_ASSERT
@@ -15041,8 +15022,6 @@ type
 "
 )
 ;
-break
-;
 }
 setCurrentAndSpecializePhis
 (
@@ -15136,8 +15115,6 @@ return
 op
 "
 )
-;
-break
 ;
 }
 if
@@ -15548,9 +15525,6 @@ bitop
 "
 )
 ;
-return
-false
-;
 }
 current
 -
@@ -15856,9 +15830,6 @@ binary
 opcode
 "
 )
-;
-return
-false
 ;
 }
 bool
@@ -30701,9 +30672,6 @@ type
 "
 )
 ;
-return
-false
-;
 }
 }
 bool
@@ -33457,9 +33425,6 @@ type
 "
 )
 ;
-return
-false
-;
 }
 MInstruction
 *
@@ -33656,9 +33621,6 @@ array
 type
 "
 )
-;
-return
-false
 ;
 }
 MLoadTypedArrayElementHole

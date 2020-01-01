@@ -1630,9 +1630,6 @@ type
 "
 )
 ;
-return
-0
-;
 }
 class
 DataViewObject

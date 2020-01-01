@@ -956,8 +956,6 @@ MOZ_CRASH
 (
 )
 ;
-return
-;
 }
 }
 NS_IMETHODIMP

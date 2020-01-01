@@ -562,9 +562,6 @@ type
 "
 )
 ;
-return
-FORMAT_UNKNOWN
-;
 }
 }
 TextureImageTextureHostOGL
@@ -2079,9 +2076,6 @@ type
 .
 "
 )
-;
-return
-false
 ;
 }
 if

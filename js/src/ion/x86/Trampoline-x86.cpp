@@ -2893,8 +2893,6 @@ kind
 "
 )
 ;
-break
-;
 }
 switch
 (

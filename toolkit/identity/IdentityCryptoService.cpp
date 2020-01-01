@@ -1555,14 +1555,9 @@ private
 key
 without
 public
-"
-"
 key
 "
 )
-;
-return
-NS_ERROR_UNEXPECTED
 ;
 }
 return
@@ -2186,10 +2181,6 @@ key
 type
 "
 )
-;
-mRv
-=
-NS_ERROR_UNEXPECTED
 ;
 }
 PK11_FreeSlot

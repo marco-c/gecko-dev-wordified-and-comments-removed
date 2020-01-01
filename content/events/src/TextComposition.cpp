@@ -627,8 +627,6 @@ event
 "
 )
 ;
-break
-;
 }
 return
 NS_OK

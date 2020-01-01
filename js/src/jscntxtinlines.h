@@ -3227,9 +3227,6 @@ kind
 "
 )
 ;
-return
-NoGC
-;
 }
 }
 #

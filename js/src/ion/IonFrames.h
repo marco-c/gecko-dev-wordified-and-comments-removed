@@ -395,9 +395,6 @@ tag
 "
 )
 ;
-return
-NULL
-;
 }
 class
 LSafepoint

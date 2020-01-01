@@ -7287,9 +7287,6 @@ here
 "
 )
 ;
-return
-NS_ERROR_UNEXPECTED
-;
 }
 uint64_t
 RequestedVersion
@@ -7525,9 +7522,6 @@ here
 !
 "
 )
-;
-return
-NS_ERROR_UNEXPECTED
 ;
 }
 private

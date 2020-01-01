@@ -122,11 +122,6 @@ overridden
 "
 )
 ;
-return
-TextureInfo
-(
-)
-;
 }
 LayersBackend
 GetCompositorBackendType

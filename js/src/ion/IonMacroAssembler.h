@@ -3096,8 +3096,6 @@ type
 "
 )
 ;
-break
-;
 }
 }
 template
@@ -3172,8 +3170,6 @@ array
 type
 "
 )
-;
-break
 ;
 }
 }
@@ -5139,12 +5135,6 @@ operation
 "
 )
 ;
-return
-Assembler
-:
-:
-DoubleEqual
-;
 }
 }
 static
@@ -5242,12 +5232,6 @@ operation
 "
 )
 ;
-return
-Assembler
-:
-:
-Equal
-;
 }
 }
 else
@@ -5327,12 +5311,6 @@ comparison
 operation
 "
 )
-;
-return
-Assembler
-:
-:
-Equal
 ;
 }
 }

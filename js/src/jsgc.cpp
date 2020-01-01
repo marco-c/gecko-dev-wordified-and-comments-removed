@@ -2061,9 +2061,6 @@ kind
 "
 )
 ;
-return
-true
-;
 }
 }
 static
@@ -3222,10 +3219,6 @@ found
 .
 "
 )
-;
-return
--
-1
 ;
 }
 ArenaHeader
@@ -16674,9 +16667,6 @@ link
 list
 "
 )
-;
-return
-false
 ;
 }
 static

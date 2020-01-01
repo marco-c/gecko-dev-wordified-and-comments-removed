@@ -371,9 +371,6 @@ request
 "
 )
 ;
-return
-nullptr
-;
 }
 bool
 BluetoothChild

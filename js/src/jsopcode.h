@@ -2589,9 +2589,6 @@ op
 "
 )
 ;
-return
-0
-;
 }
 }
 class

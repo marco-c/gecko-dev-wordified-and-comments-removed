@@ -575,7 +575,7 @@ BottomLeft
 MOZ_CRASH
 (
 "
-Incomplet
+Incomplete
 switch
 "
 )
@@ -636,7 +636,7 @@ TopLeft
 MOZ_CRASH
 (
 "
-Incomplet
+Incomplete
 switch
 "
 )

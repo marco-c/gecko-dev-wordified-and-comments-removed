@@ -1981,8 +1981,6 @@ type
 "
 )
 ;
-break
-;
 }
 return
 false
@@ -2135,8 +2133,6 @@ type
 !
 "
 )
-;
-break
 ;
 }
 return
@@ -2405,9 +2401,6 @@ SendMessageRequest
 !
 "
 )
-;
-return
-false
 ;
 }
 return
@@ -3685,9 +3678,6 @@ parameters
 !
 "
 )
-;
-return
-NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP

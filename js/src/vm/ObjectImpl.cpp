@@ -2264,7 +2264,7 @@ elementsHeader
 )
 )
 ;
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 NYI
@@ -2454,7 +2454,7 @@ elementsHeader
 )
 )
 ;
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 NYI
@@ -2506,7 +2506,7 @@ elementsHeader
 )
 )
 ;
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 NYI
@@ -3275,9 +3275,6 @@ GetOwnProperty
 "
 )
 ;
-return
-false
-;
 }
 RootedShape
 shape
@@ -3569,9 +3566,6 @@ properties
 "
 )
 ;
-return
-false
-;
 }
 bool
 js
@@ -3856,9 +3850,6 @@ kind
 "
 )
 ;
-return
-false
-;
 }
 bool
 js
@@ -3948,9 +3939,6 @@ GetP
 ]
 "
 )
-;
-return
-false
 ;
 }
 AutoPropDescRooter
@@ -4154,9 +4142,6 @@ here
 "
 )
 ;
-return
-false
-;
 }
 while
 (
@@ -4171,9 +4156,6 @@ control
 flow
 "
 )
-;
-return
-false
 ;
 }
 bool
@@ -4260,9 +4242,6 @@ GetP
 ]
 "
 )
-;
-return
-false
 ;
 }
 PropDesc
@@ -4451,9 +4430,6 @@ here
 "
 )
 ;
-return
-false
-;
 }
 while
 (
@@ -4468,9 +4444,6 @@ control
 flow
 "
 )
-;
-return
-false
 ;
 }
 bool
@@ -4545,9 +4518,6 @@ HasProperty
 ]
 "
 )
-;
-return
-false
 ;
 }
 PropDesc
@@ -4625,9 +4595,6 @@ control
 flow
 "
 )
-;
-return
-false
 ;
 }
 bool
@@ -4937,7 +4904,7 @@ succeeded
 )
 ;
 }
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 bad
@@ -4996,7 +4963,7 @@ elementsHeader
 )
 )
 ;
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 NYI
@@ -5052,7 +5019,7 @@ elementsHeader
 )
 )
 ;
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 NYI
@@ -5441,9 +5408,6 @@ SetP
 "
 )
 ;
-return
-false
-;
 }
 PropDesc
 ownDesc
@@ -5655,9 +5619,6 @@ property
 "
 )
 ;
-return
-false
-;
 }
 current
 =
@@ -5718,9 +5679,6 @@ control
 flow
 "
 )
-;
-return
-false
 ;
 }
 void

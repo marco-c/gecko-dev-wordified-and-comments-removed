@@ -1080,9 +1080,6 @@ type
 "
 )
 ;
-return
-nullptr
-;
 }
 mTracks
 .

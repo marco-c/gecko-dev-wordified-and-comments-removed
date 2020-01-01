@@ -806,9 +806,6 @@ fun_getProperty
 "
 )
 ;
-return
-false
-;
 }
 static
 const
@@ -9395,8 +9392,5 @@ get
 here
 "
 )
-;
-return
-false
 ;
 }

@@ -630,9 +630,6 @@ condition
 "
 )
 ;
-return
-Equal
-;
 }
 }
 void

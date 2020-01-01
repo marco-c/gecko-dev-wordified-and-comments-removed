@@ -2021,7 +2021,7 @@ AsmJSParallelTask
 asmData
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Off
@@ -2055,7 +2055,7 @@ IonBuilder
 builder
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Off

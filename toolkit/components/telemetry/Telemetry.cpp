@@ -3730,9 +3730,6 @@ status
 "
 )
 ;
-return
-JS_FALSE
-;
 }
 }
 JSBool

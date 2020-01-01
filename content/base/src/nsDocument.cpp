@@ -48980,16 +48980,7 @@ const
 {
 MOZ_CRASH
 (
-"
-nsDocument
-:
-:
-SizeOfExcludingThis
-"
 )
-;
-return
-0
 ;
 }
 void

@@ -2434,12 +2434,6 @@ type
 "
 )
 ;
-return
-LDefinition
-:
-:
-GENERAL
-;
 }
 }
 }
@@ -3091,9 +3085,6 @@ NYI
 #
 op
 )
-;
-return
-false
 ;
 }
 LIR_OPCODE_LIST

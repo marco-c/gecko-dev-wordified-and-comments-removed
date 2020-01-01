@@ -1091,8 +1091,6 @@ kind
 "
 )
 ;
-break
-;
 }
 return
 true
@@ -18544,8 +18542,6 @@ TOK_ASSIGN
 "
 )
 ;
-break
-;
 case
 PNK_ARRAY
 :
@@ -30849,10 +30845,6 @@ object
 initializer
 "
 )
-;
-assignType
-=
-VALUE
 ;
 }
 AtomIndexAddPtr

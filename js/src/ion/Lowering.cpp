@@ -5022,9 +5022,6 @@ type
 "
 )
 ;
-return
-false
-;
 }
 static
 void
@@ -8677,9 +8674,6 @@ type
 "
 )
 ;
-return
-false
-;
 }
 }
 bool
@@ -8892,9 +8886,6 @@ type
 "
 )
 ;
-return
-false
-;
 }
 }
 bool
@@ -9028,9 +9019,6 @@ type
 "
 )
 ;
-return
-false
-;
 }
 }
 bool
@@ -9083,9 +9071,6 @@ Lower
 MToString
 "
 )
-;
-return
-false
 ;
 case
 MIRType_Double
@@ -9173,9 +9158,6 @@ unexpected
 type
 "
 )
-;
-return
-false
 ;
 }
 }
@@ -9753,9 +9735,6 @@ a
 payload
 "
 )
-;
-return
-false
 ;
 default
 :
@@ -11203,9 +11182,6 @@ MIRType
 "
 )
 ;
-return
-false
-;
 }
 }
 bool
@@ -11684,9 +11660,6 @@ a
 payload
 "
 )
-;
-return
-false
 ;
 default
 :
@@ -12398,9 +12371,6 @@ payload
 "
 )
 ;
-return
-false
-;
 default
 :
 {
@@ -13007,9 +12977,6 @@ unexpected
 type
 "
 )
-;
-return
-false
 ;
 }
 }

@@ -186,9 +186,6 @@ Type
 "
 )
 ;
-return
-nullptr
-;
 }
 }
 void

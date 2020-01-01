@@ -445,11 +445,6 @@ here
 "
 )
 ;
-return
-PickleType
-(
-)
-;
 }
 bool
 FileDescriptor

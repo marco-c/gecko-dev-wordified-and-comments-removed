@@ -9396,9 +9396,6 @@ attribute
 "
 )
 ;
-return
-NS_TEXTRANGE_RAWINPUT
-;
 }
 }
 bool

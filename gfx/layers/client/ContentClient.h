@@ -398,11 +398,6 @@ ContentClient
 "
 )
 ;
-return
-TextureInfo
-(
-)
-;
 }
 private
 :

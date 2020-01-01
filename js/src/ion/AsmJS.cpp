@@ -1865,9 +1865,6 @@ Type
 "
 )
 ;
-return
-MIRType_None
-;
 }
 const
 char
@@ -1962,10 +1959,6 @@ Invalid
 Type
 "
 )
-;
-return
-"
-"
 ;
 }
 }
@@ -2130,12 +2123,6 @@ type
 "
 )
 ;
-return
-AsmJSModule
-:
-:
-Return_Void
-;
 }
 MIRType
 toMIRType
@@ -2175,9 +2162,6 @@ return
 type
 "
 )
-;
-return
-MIRType_None
 ;
 }
 bool
@@ -2294,9 +2278,6 @@ rhs
 type
 "
 )
-;
-return
-false
 ;
 }
 class
@@ -2575,9 +2556,6 @@ rhs
 type
 "
 )
-;
-return
-false
 ;
 }
 class
@@ -3421,11 +3399,6 @@ type
 "
 )
 ;
-return
-Type
-(
-)
-;
 }
 enum
 ArrayStoreEnum
@@ -3516,9 +3489,6 @@ array
 type
 "
 )
-;
-return
-ArrayStore_Doublish
 ;
 }
 typedef
@@ -22806,9 +22776,6 @@ Bad
 literal
 "
 )
-;
-return
-false
 ;
 }
 static

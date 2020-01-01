@@ -341,8 +341,6 @@ AttachType
 "
 )
 ;
-return
-;
 }
 if
 (
@@ -567,8 +565,6 @@ AttachType
 "
 )
 ;
-return
-;
 }
 if
 (
@@ -746,8 +742,6 @@ AttachType
 "
 )
 ;
-return
-;
 }
 if
 (
@@ -915,8 +909,6 @@ AttachType
 "
 )
 ;
-return
-;
 }
 MOZ_CRASH
 (
@@ -931,8 +923,6 @@ AttachType
 .
 "
 )
-;
-return
 ;
 }
 void
@@ -1301,9 +1291,6 @@ format
 .
 "
 )
-;
-return
-nullptr
 ;
 }
 return

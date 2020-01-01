@@ -226,9 +226,6 @@ PR_GetError
 "
 )
 ;
-return
-NS_ERROR_UNEXPECTED
-;
 }
 return
 (

@@ -203,9 +203,6 @@ host
 "
 )
 ;
-return
-nullptr
-;
 }
 }
 TextureHost

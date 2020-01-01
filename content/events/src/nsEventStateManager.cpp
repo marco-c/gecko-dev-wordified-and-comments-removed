@@ -7152,9 +7152,6 @@ event
 "
 )
 ;
-return
-false
-;
 }
 }
 }
@@ -11128,8 +11125,6 @@ comes
 "
 )
 ;
-return
-;
 }
 nsWeakFrame
 targetFrame
@@ -12633,8 +12628,6 @@ comes
 "
 )
 ;
-return
-;
 }
 nsSize
 pageSize
@@ -12902,8 +12895,6 @@ value
 comes
 "
 )
-;
-return
 ;
 }
 nsIntPoint

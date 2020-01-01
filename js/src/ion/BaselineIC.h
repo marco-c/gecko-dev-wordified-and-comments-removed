@@ -1388,11 +1388,6 @@ kind
 "
 )
 ;
-return
-"
-INVALID_KIND
-"
-;
 }
 }
 enum

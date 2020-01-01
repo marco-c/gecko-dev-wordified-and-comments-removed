@@ -1071,9 +1071,6 @@ BinaryArith_Int32
 "
 )
 ;
-return
-false
-;
 }
 EmitReturnFromIC
 (
@@ -1346,9 +1343,6 @@ Unexpected
 op
 "
 )
-;
-return
-false
 ;
 }
 EmitReturnFromIC

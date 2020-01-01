@@ -2091,9 +2091,6 @@ found
 "
 )
 ;
-return
-UINT32_MAX
-;
 }
 template
 <

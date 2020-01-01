@@ -376,9 +376,6 @@ deserialized
 "
 )
 ;
-return
-false
-;
 }
 void
 SetStream

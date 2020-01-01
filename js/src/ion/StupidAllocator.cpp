@@ -182,9 +182,6 @@ register
 "
 )
 ;
-return
-UINT32_MAX
-;
 }
 bool
 StupidAllocator

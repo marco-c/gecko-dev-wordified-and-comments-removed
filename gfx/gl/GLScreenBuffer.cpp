@@ -387,17 +387,6 @@ BindFramebuffer
 "
 )
 ;
-gl
--
->
-raw_fBindFramebuffer
-(
-target
-0
-)
-;
-break
-;
 }
 }
 void
@@ -2470,9 +2459,6 @@ type
 "
 )
 ;
-return
-nullptr
-;
 }
 MOZ_ASSERT
 (
@@ -2718,8 +2704,6 @@ type
 ?
 "
 )
-;
-return
 ;
 }
 mGL

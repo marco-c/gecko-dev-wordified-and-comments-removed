@@ -7251,9 +7251,6 @@ fixed
 "
 )
 ;
-return
-NS_ERROR_NOT_INITIALIZED
-;
 }
 }
 for
@@ -7308,9 +7305,6 @@ fixed
 !
 "
 )
-;
-return
-NS_ERROR_NOT_INITIALIZED
 ;
 }
 }
@@ -8055,9 +8049,6 @@ me
 !
 "
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP

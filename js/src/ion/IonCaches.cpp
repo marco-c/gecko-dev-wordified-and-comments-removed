@@ -14419,17 +14419,7 @@ false
 }
 MOZ_ASSUME_NOT_REACHED
 (
-"
-Shouldn
-'
-t
-get
-here
-"
 )
-;
-return
-false
 ;
 }
 JSObject

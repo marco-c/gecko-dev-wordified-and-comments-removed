@@ -63,9 +63,6 @@ mode
 "
 )
 ;
-return
-false
-;
 }
 static
 inline
@@ -117,9 +114,6 @@ execution
 mode
 "
 )
-;
-return
-NULL
 ;
 }
 static
@@ -365,9 +359,6 @@ mode
 "
 )
 ;
-return
-false
-;
 }
 static
 inline
@@ -417,9 +408,6 @@ execution
 mode
 "
 )
-;
-return
-false
 ;
 }
 static
@@ -476,15 +464,6 @@ execution
 mode
 "
 )
-;
-return
-types
-:
-:
-CompilerOutput
-:
-:
-Ion
 ;
 }
 }

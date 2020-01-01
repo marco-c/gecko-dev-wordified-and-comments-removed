@@ -2794,8 +2794,6 @@ type
 "
 )
 ;
-return
-;
 }
 MConstant
 *

@@ -3289,8 +3289,6 @@ kind
 "
 )
 ;
-break
-;
 }
 switch
 (

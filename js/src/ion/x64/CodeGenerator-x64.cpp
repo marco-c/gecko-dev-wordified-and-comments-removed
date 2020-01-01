@@ -254,9 +254,6 @@ classes
 "
 )
 ;
-return
-0
-;
 }
 bool
 CodeGeneratorX64
@@ -626,9 +623,6 @@ unboxed
 "
 )
 ;
-return
-false
-;
 }
 if
 (
@@ -735,8 +729,6 @@ unboxed
 .
 "
 )
-;
-break
 ;
 }
 return
@@ -2373,9 +2365,6 @@ NYI
 "
 )
 ;
-return
-true
-;
 }
 bool
 CodeGeneratorX64
@@ -2394,9 +2383,6 @@ MOZ_ASSUME_NOT_REACHED
 NYI
 "
 )
-;
-return
-true
 ;
 }
 bool

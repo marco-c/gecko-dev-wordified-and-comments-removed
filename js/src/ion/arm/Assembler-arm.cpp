@@ -3625,9 +3625,6 @@ relocation
 "
 )
 ;
-return
-NULL
-;
 }
 uintptr_t
 Assembler
@@ -3993,9 +3990,6 @@ unsupported
 relocation
 "
 )
-;
-return
-NULL
 ;
 }
 static
@@ -9031,7 +9025,7 @@ int
 offset
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 ARMAssembler
@@ -10046,11 +10040,6 @@ MOZ_ASSUME_NOT_REACHED
 Feature
 NYI
 "
-)
-;
-return
-BufferOffset
-(
 )
 ;
 }

@@ -561,9 +561,6 @@ return
 "
 )
 ;
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 PowerManagerService
@@ -605,9 +602,6 @@ t
 return
 "
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -661,9 +655,6 @@ t
 return
 "
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP

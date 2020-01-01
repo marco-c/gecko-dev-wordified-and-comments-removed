@@ -205,9 +205,6 @@ scale
 "
 )
 ;
-return
-TimesOne
-;
 }
 struct
 Imm32
@@ -287,13 +284,6 @@ MOZ_ASSUME_NOT_REACHED
 Invalid
 scale
 "
-)
-;
-return
-Imm32
-(
--
-1
 )
 ;
 }

@@ -350,9 +350,6 @@ CompositableType
 "
 )
 ;
-return
-nullptr
-;
 }
 }
 void

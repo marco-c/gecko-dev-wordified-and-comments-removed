@@ -12143,9 +12143,6 @@ type
 "
 )
 ;
-return
-false
-;
 }
 return
 true
@@ -12510,9 +12507,6 @@ invalid
 type
 "
 )
-;
-return
-false
 ;
 }
 return
@@ -13253,8 +13247,6 @@ invalid
 abi
 "
 )
-;
-break
 ;
 }
 BuildTypeSource
@@ -14659,8 +14651,6 @@ invalid
 type
 "
 )
-;
-break
 ;
 }
 return
@@ -26902,8 +26892,6 @@ invalid
 abi
 "
 )
-;
-break
 ;
 }
 }

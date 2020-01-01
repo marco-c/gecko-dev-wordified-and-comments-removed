@@ -345,7 +345,7 @@ trc
 ;
 #
 else
-MOZ_NOT_REACHED
+MOZ_ASSUME_NOT_REACHED
 (
 "
 Only

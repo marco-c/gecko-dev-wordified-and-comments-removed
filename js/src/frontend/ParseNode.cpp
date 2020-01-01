@@ -1596,12 +1596,7 @@ cloned
 "
 )
 ;
-return
-NULL
-;
 }
-else
-{
 NULLCHECK
 (
 pn
@@ -1677,7 +1672,6 @@ opn
 >
 pn_blockid
 ;
-}
 break
 ;
 case

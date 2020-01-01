@@ -1160,8 +1160,6 @@ type
 "
 )
 ;
-return
-;
 }
 }
 else
@@ -1267,8 +1265,6 @@ type
 .
 "
 )
-;
-return
 ;
 }
 if

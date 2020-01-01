@@ -656,9 +656,6 @@ modifiers
 "
 )
 ;
-return
-NS_ERROR_FAILURE
-;
 }
 }
 already_AddRefed
@@ -1163,9 +1160,6 @@ event
 !
 "
 )
-;
-return
-0
 ;
 }
 }

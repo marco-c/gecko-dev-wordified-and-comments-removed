@@ -1196,9 +1196,6 @@ MOZ_CRASH
 (
 )
 ;
-return
-NS_ERROR_FAILURE
-;
 }
 }
 nsresult

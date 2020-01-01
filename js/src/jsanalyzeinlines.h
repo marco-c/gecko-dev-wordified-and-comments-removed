@@ -381,9 +381,6 @@ value
 "
 )
 ;
-return
-NULL
-;
 }
 }
 inline

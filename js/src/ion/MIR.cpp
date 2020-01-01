@@ -804,9 +804,6 @@ NYI
 "
 )
 ;
-return
-NULL
-;
 }
 if
 (
@@ -2598,8 +2595,6 @@ unexpected
 type
 "
 )
-;
-break
 ;
 }
 }
@@ -7674,9 +7669,6 @@ conversion
 "
 )
 ;
-return
-MIRType_None
-;
 }
 }
 static
@@ -9890,9 +9882,6 @@ type
 "
 )
 ;
-return
-false
-;
 }
 }
 if
@@ -9992,9 +9981,6 @@ specialization
 "
 )
 ;
-return
-false
-;
 default
 :
 MOZ_ASSUME_NOT_REACHED
@@ -10004,9 +9990,6 @@ Unexpected
 type
 "
 )
-;
-return
-false
 ;
 }
 }
@@ -10107,9 +10090,6 @@ specialization
 "
 )
 ;
-return
-false
-;
 default
 :
 MOZ_ASSUME_NOT_REACHED
@@ -10119,9 +10099,6 @@ Unexpected
 type
 "
 )
-;
-return
-false
 ;
 }
 }
@@ -10398,9 +10375,6 @@ op
 "
 )
 ;
-return
-false
-;
 }
 return
 true
@@ -10547,9 +10521,6 @@ op
 .
 "
 )
-;
-return
-false
 ;
 }
 return

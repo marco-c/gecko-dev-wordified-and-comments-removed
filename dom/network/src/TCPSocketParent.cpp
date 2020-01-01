@@ -548,9 +548,6 @@ type
 "
 )
 ;
-return
-false
-;
 }
 return
 true

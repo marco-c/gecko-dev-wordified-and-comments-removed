@@ -1143,7 +1143,4 @@ NYI
 "
 )
 ;
-return
-true
-;
 }

@@ -155,10 +155,6 @@ IC
 )
 ;
 \
-return
-false
-;
-\
 }
 IONCACHE_KIND_LIST
 (

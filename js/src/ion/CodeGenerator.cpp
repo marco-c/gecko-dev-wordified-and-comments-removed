@@ -20374,9 +20374,6 @@ op
 "
 )
 ;
-return
-false
-;
 }
 }
 typedef
@@ -21467,9 +21464,6 @@ op
 "
 )
 ;
-return
-false
-;
 }
 case
 ParallelExecution
@@ -21579,9 +21573,6 @@ compare
 op
 "
 )
-;
-return
-false
 ;
 }
 }
@@ -36874,9 +36865,6 @@ unexpected
 bitop
 "
 )
-;
-return
-false
 ;
 }
 class

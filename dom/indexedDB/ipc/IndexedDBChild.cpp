@@ -903,9 +903,6 @@ request
 "
 )
 ;
-return
-NULL
-;
 }
 bool
 IndexedDBChild
@@ -2714,9 +2711,6 @@ type
 "
 )
 ;
-return
-false
-;
 }
 FireCompleteEvent
 (
@@ -2755,9 +2749,6 @@ store
 !
 "
 )
-;
-return
-NULL
 ;
 }
 bool
@@ -3244,9 +3235,6 @@ request
 "
 )
 ;
-return
-NULL
-;
 }
 bool
 IndexedDBObjectStoreChild
@@ -3293,9 +3281,6 @@ index
 !
 "
 )
-;
-return
-NULL
 ;
 }
 bool
@@ -3824,9 +3809,6 @@ type
 "
 )
 ;
-return
-false
-;
 }
 actor
 -
@@ -3867,9 +3849,6 @@ request
 !
 "
 )
-;
-return
-NULL
 ;
 }
 bool
@@ -4140,9 +4119,6 @@ request
 "
 )
 ;
-return
-NULL
-;
 }
 bool
 IndexedDBCursorChild
@@ -4311,9 +4287,6 @@ overridden
 !
 "
 )
-;
-return
-false
 ;
 }
 IndexedDBObjectStoreRequestChild
@@ -4587,9 +4560,6 @@ parameters
 "
 )
 ;
-return
-false
-;
 }
 nsresult
 rv
@@ -4854,9 +4824,6 @@ parameters
 "
 )
 ;
-return
-false
-;
 }
 nsresult
 rv
@@ -5016,9 +4983,6 @@ parameters
 !
 "
 )
-;
-return
-false
 ;
 }
 nsresult
@@ -5314,9 +5278,6 @@ me
 "
 )
 ;
-return
-Error
-;
 }
 nsresult
 IPCOpenDatabaseHelper
@@ -5340,9 +5301,6 @@ me
 !
 "
 )
-;
-return
-NS_ERROR_FAILURE
 ;
 }
 nsresult
@@ -5433,9 +5391,6 @@ me
 "
 )
 ;
-return
-Error
-;
 }
 nsresult
 IPCSetVersionHelper
@@ -5459,9 +5414,6 @@ me
 !
 "
 )
-;
-return
-NS_ERROR_FAILURE
 ;
 }
 already_AddRefed
@@ -5564,9 +5516,6 @@ me
 "
 )
 ;
-return
-NS_ERROR_FAILURE
-;
 }
 AsyncConnectionHelper
 :
@@ -5592,9 +5541,6 @@ me
 !
 "
 )
-;
-return
-Error
 ;
 }
 nsresult
@@ -5651,8 +5597,5 @@ me
 !
 "
 )
-;
-return
-NS_ERROR_FAILURE
 ;
 }

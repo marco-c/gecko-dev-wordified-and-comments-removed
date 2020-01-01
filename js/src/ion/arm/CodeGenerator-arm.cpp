@@ -6166,9 +6166,6 @@ opcode
 "
 )
 ;
-return
-false
-;
 }
 return
 true
@@ -10330,9 +10327,6 @@ NYI
 "
 )
 ;
-return
-true
-;
 }
 bool
 CodeGeneratorARM
@@ -10351,9 +10345,6 @@ MOZ_ASSUME_NOT_REACHED
 NYI
 "
 )
-;
-return
-true
 ;
 }
 bool

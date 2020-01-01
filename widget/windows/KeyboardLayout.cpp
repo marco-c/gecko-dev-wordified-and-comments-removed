@@ -2157,8 +2157,6 @@ mOriginalVirtualKeyCode
 "
 )
 ;
-break
-;
 }
 break
 ;
@@ -2277,8 +2275,6 @@ mOriginalVirtualKeyCode
 "
 )
 ;
-break
-;
 }
 break
 ;
@@ -2320,8 +2316,6 @@ Unsupported
 message
 "
 )
-;
-break
 ;
 }
 if
@@ -2978,8 +2972,6 @@ event
 message
 "
 )
-;
-break
 ;
 }
 aKeyEvent
@@ -4432,9 +4424,6 @@ char
 message
 "
 )
-;
-return
-mCharMsg
 ;
 }
 MOZ_ASSERT

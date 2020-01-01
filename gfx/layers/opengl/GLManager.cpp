@@ -355,9 +355,6 @@ manager
 "
 )
 ;
-return
-nullptr
-;
 }
 }
 }

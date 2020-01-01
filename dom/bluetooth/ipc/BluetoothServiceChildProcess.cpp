@@ -657,9 +657,6 @@ called
 "
 )
 ;
-return
-NS_ERROR_FAILURE
-;
 }
 nsresult
 BluetoothServiceChildProcess
@@ -692,9 +689,6 @@ called
 "
 )
 ;
-return
-NS_ERROR_FAILURE
-;
 }
 bool
 BluetoothServiceChildProcess
@@ -722,9 +716,6 @@ called
 !
 "
 )
-;
-return
-false
 ;
 }
 bool
@@ -1195,9 +1186,6 @@ called
 "
 )
 ;
-return
-NS_ERROR_FAILURE
-;
 }
 nsresult
 BluetoothServiceChildProcess
@@ -1219,9 +1207,6 @@ called
 "
 )
 ;
-return
-NS_ERROR_FAILURE
-;
 }
 bool
 BluetoothServiceChildProcess
@@ -1242,9 +1227,6 @@ called
 !
 "
 )
-;
-return
-false
 ;
 }
 bool
@@ -1268,9 +1250,6 @@ called
 !
 "
 )
-;
-return
-false
 ;
 }
 nsresult
@@ -1300,8 +1279,5 @@ called
 !
 "
 )
-;
-return
-NS_ERROR_FAILURE
 ;
 }

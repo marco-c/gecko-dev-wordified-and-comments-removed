@@ -488,9 +488,6 @@ CompilerOutput
 "
 )
 ;
-return
-NULL
-;
 }
 inline
 bool
@@ -1005,9 +1002,6 @@ type
 "
 )
 ;
-return
-0
-;
 }
 }
 inline
@@ -1074,12 +1068,6 @@ Bad
 type
 "
 )
-;
-return
-(
-JSValueType
-)
-0
 ;
 }
 }
@@ -2009,9 +1997,6 @@ proto
 key
 "
 )
-;
-return
-NULL
 ;
 }
 }
@@ -7832,9 +7817,6 @@ Missing
 property
 "
 )
-;
-return
-NULL
 ;
 }
 }

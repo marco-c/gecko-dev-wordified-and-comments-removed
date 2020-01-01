@@ -3739,9 +3739,6 @@ actors
 "
 )
 ;
-return
-nullptr
-;
 #
 else
 MOZ_CRASH
@@ -3757,9 +3754,6 @@ platform
 !
 "
 )
-;
-return
-nullptr
 ;
 #
 endif
@@ -3800,9 +3794,6 @@ platform
 "
 )
 ;
-return
-false
-;
 #
 endif
 }
@@ -3830,9 +3821,6 @@ PSpeechSynthesisChild
 actors
 "
 )
-;
-return
-nullptr
 ;
 #
 else

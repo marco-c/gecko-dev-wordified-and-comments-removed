@@ -6337,10 +6337,6 @@ pool
 "
 )
 ;
-return
--
-1
-;
 }
 void
 writePoolEntry

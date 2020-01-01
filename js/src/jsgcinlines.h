@@ -527,9 +527,6 @@ kind
 "
 )
 ;
-return
-0
-;
 }
 }
 static

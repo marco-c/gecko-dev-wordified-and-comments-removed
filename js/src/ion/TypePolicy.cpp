@@ -1370,9 +1370,6 @@ specialization
 "
 )
 ;
-return
-false
-;
 }
 def
 -
@@ -3067,8 +3064,6 @@ type
 "
 )
 ;
-break
-;
 }
 if
 (
@@ -3312,8 +3307,6 @@ array
 type
 "
 )
-;
-break
 ;
 }
 if

@@ -77,10 +77,6 @@ constant
 "
 )
 ;
-return
--
-1
-;
 }
 static
 inline

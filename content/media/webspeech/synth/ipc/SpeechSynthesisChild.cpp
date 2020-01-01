@@ -170,9 +170,6 @@ request
 "
 )
 ;
-return
-nullptr
-;
 }
 bool
 SpeechSynthesisChild
@@ -511,9 +508,6 @@ child
 "
 )
 ;
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
 }
 NS_IMETHODIMP
 SpeechTaskChild
@@ -551,9 +545,6 @@ from
 child
 "
 )
-;
-return
-NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 void

@@ -7044,12 +7044,6 @@ property
 "
 )
 ;
-mMainAxis
-=
-inlineDimension
-;
-break
-;
 }
 if
 (

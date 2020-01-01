@@ -677,9 +677,6 @@ type
 "
 )
 ;
-return
-0
-;
 }
 }
 inline

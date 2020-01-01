@@ -128,9 +128,6 @@ unreachable
 "
 )
 ;
-return
-0
-;
 }
 public
 :

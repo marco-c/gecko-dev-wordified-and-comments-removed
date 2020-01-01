@@ -2441,13 +2441,6 @@ role
 "
 )
 ;
-aAtkObj
--
->
-role
-=
-ATK_ROLE_UNKNOWN
-;
 }
 ;
 #

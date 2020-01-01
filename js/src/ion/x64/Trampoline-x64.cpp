@@ -2352,9 +2352,6 @@ tables
 "
 )
 ;
-return
-NULL
-;
 }
 IonCode
 *
@@ -2902,8 +2899,6 @@ values
 "
 )
 ;
-break
-;
 }
 }
 }
@@ -3018,8 +3013,6 @@ failure
 kind
 "
 )
-;
-break
 ;
 }
 switch

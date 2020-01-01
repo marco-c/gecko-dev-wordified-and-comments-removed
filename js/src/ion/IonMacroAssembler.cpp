@@ -2138,8 +2138,6 @@ type
 "
 )
 ;
-break
-;
 }
 }
 template
@@ -2433,8 +2431,6 @@ array
 type
 "
 )
-;
-break
 ;
 }
 }
@@ -6934,8 +6930,6 @@ type
 "
 )
 ;
-break
-;
 case
 VMFunction
 :
@@ -7037,8 +7031,6 @@ root
 type
 "
 )
-;
-break
 ;
 case
 VMFunction
