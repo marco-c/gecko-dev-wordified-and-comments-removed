@@ -48,7 +48,7 @@ struct
 nsCSSRendering
 {
 static
-nsresult
+void
 Init
 (
 )
