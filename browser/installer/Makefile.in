@@ -593,16 +593,6 @@ DNSS_DISABLE_DBM
 1
 endif
 ifdef
-MOZ_UPDATER
-DEFINES
-+
-=
--
-DMOZ_UPDATER
-=
-1
-endif
-ifdef
 _MSC_VER
 DEFINES
 +
