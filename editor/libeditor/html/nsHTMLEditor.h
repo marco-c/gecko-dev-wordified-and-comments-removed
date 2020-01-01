@@ -3848,6 +3848,10 @@ friend
 class
 nsWSRunObject
 ;
+friend
+class
+nsHTMLEditorEventListener
+;
 }
 ;
 #
