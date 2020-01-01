@@ -2261,8 +2261,6 @@ count
 aWatchId
 >
 count
-+
-1
 )
 return
 NS_ERROR_FAILURE
