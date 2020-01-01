@@ -509,6 +509,9 @@ ret
 __thread
 int
 foo
+[
+1024
+]
 ;
 __attribute__
 (
