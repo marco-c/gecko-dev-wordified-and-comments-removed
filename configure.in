@@ -42564,6 +42564,17 @@ target
 }
 "
 in
+powerpc
+-
+apple
+-
+darwin
+*
+)
+MOZ_IPC
+=
+;
+;
 *
 -
 wince
