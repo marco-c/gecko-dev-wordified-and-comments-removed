@@ -506,6 +506,9 @@ case
 WM_DEVICECHANGE
 :
 case
+WM_POWERBROADCAST
+:
+case
 WM_NCACTIVATE
 :
 case
