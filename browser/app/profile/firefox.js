@@ -1415,6 +1415,16 @@ pref
 "
 browser
 .
+warnOnQuit
+"
+true
+)
+;
+pref
+(
+"
+browser
+.
 download
 .
 useDownloadDir
