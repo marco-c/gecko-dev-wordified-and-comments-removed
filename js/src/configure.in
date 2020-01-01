@@ -28815,9 +28815,6 @@ and
 replace
 -
 malloc
-and
-disables
-DMDV
 ]
 MOZ_DMD
 =
