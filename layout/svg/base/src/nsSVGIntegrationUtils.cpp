@@ -613,7 +613,7 @@ nsSVGEffects
 :
 GetFilterProperty
 (
-aFrame
+firstFrame
 )
 ;
 if
