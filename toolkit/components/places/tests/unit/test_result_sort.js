@@ -167,7 +167,7 @@ addVisit
 (
 aURI
 aTime
-0
+null
 histsvc
 .
 TRANSITION_TYPED
