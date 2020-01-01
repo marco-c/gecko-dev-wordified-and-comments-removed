@@ -2803,8 +2803,6 @@ LogMessageWithContext
 file
 line
 "
-Warning
-:
 Ignoring
 obsolete
 chrome
