@@ -1336,6 +1336,11 @@ staticArgs
 options
 .
 staticArgs
+preferencesBranch
+:
+options
+.
+preferencesBranch
 modules
 :
 {

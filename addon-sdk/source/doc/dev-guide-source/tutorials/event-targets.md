@@ -540,9 +540,7 @@ XPCOMUtils
 generateQI
 (
 [
-Components
-.
-interfaces
+Ci
 .
 nsINavBookmarkObserver
 ]
