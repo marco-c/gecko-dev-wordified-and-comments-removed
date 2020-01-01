@@ -1744,6 +1744,14 @@ res
 /
 layout
 /
+awesomebar_actionbar
+.
+xml
+\
+res
+/
+layout
+/
 awesomebar_folder_row
 .
 xml
