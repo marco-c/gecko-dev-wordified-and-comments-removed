@@ -19,6 +19,9 @@ xpcpublic
 .
 h
 "
+class
+nsIScriptSecurityManager
+;
 namespace
 XPCNativeWrapper
 {
