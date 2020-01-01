@@ -516,6 +516,9 @@ touchscreen
 "
 /
 >
+#
+ifdef
+MOZ_ANDROID_BEAM
 <
 !
 -
@@ -560,6 +563,8 @@ nfc
 "
 /
 >
+#
+endif
 #
 ifdef
 MOZ_WEBRTC
@@ -1374,6 +1379,9 @@ intent
 -
 filter
 >
+#
+ifdef
+MOZ_ANDROID_BEAM
 <
 intent
 -
@@ -1441,6 +1449,8 @@ intent
 -
 filter
 >
+#
+endif
 <
 meta
 -

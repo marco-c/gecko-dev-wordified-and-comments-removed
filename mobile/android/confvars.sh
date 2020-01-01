@@ -114,6 +114,13 @@ permission
 MOZ_ANDROID_WALLPAPER
 =
 1
+#
+Enable
+NFC
+permission
+MOZ_ANDROID_BEAM
+=
+1
 if
 test
 "
