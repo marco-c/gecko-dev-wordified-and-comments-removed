@@ -339,6 +339,10 @@ file_documentdomain
 .
 html
 \
+test_lookupMethod
+.
+html
+\
 (
 NULL
 )
