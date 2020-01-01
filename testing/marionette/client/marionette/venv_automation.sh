@@ -531,11 +531,7 @@ mozilla
 .
 org
 /
-users
-/
-jgriffin_mozilla
-.
-com
+automation
 /
 mozautolog
 /
