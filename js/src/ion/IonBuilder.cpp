@@ -3526,6 +3526,9 @@ pc
 case
 JSOP_TYPEOF
 :
+case
+JSOP_TYPEOFEXPR
+:
 return
 jsop_typeof
 (
