@@ -1010,6 +1010,12 @@ browser_visibleTabs
 .
 js
 \
+tabview
+/
+browser_visibleTabs_contextMenu
+.
+js
+\
 discovery
 .
 html
