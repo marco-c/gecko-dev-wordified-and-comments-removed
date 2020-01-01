@@ -915,6 +915,7 @@ nsIFrame
 GetParentStyleContextFrame
 (
 )
+const
 {
 return
 DoGetParentStyleContextFrame
@@ -927,6 +928,7 @@ nsIFrame
 DoGetParentStyleContextFrame
 (
 )
+const
 ;
 virtual
 bool

@@ -448,6 +448,7 @@ nsIFrame
 GetParentStyleContextFrame
 (
 )
+const
 ;
 static
 nsIFrame

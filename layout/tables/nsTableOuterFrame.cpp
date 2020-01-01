@@ -386,6 +386,7 @@ nsTableCaptionFrame
 GetParentStyleContextFrame
 (
 )
+const
 {
 NS_PRECONDITION
 (
@@ -1429,6 +1430,7 @@ nsTableOuterFrame
 GetParentStyleContextFrame
 (
 )
+const
 {
 return
 InnerTableFrame

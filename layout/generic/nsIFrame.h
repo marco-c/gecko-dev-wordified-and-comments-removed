@@ -4718,6 +4718,7 @@ nsIFrame
 GetParentStyleContextFrame
 (
 )
+const
 =
 0
 ;
