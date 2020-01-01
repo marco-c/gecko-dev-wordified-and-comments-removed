@@ -433,6 +433,10 @@ generic
 .
 html
 \
+test_bug846906
+.
+xul
+\
 (
 NULL
 )
