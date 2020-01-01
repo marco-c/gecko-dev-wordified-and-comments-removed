@@ -775,6 +775,13 @@ layout_weight
 "
 android
 :
+padding
+=
+"
+15dp
+"
+android
+:
 onClick
 =
 "
@@ -872,6 +879,13 @@ layout_weight
 1
 .
 0
+"
+android
+:
+padding
+=
+"
+15dp
 "
 android
 :
