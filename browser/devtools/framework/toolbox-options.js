@@ -286,7 +286,14 @@ tool
 -
 unregistered
 "
+gDevTools
+.
+_tools
+.
+get
+(
 id
+)
 )
 ;
 }

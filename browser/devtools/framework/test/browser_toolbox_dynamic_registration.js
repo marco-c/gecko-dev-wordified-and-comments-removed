@@ -475,9 +475,16 @@ function
 toolUnregistered
 (
 event
-toolId
+toolDefinition
 )
 {
+let
+toolId
+=
+toolDefinition
+.
+id
+;
 is
 (
 toolId
