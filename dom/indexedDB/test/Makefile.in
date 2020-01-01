@@ -559,6 +559,10 @@ test_global_data
 .
 html
 \
+test_index_empty_keyPath
+.
+html
+\
 test_index_getAll
 .
 html
