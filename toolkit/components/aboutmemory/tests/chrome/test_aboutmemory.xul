@@ -664,7 +664,7 @@ f
 "
 heap
 -
-used
+allocated
 "
 OTHER
 500
@@ -678,7 +678,7 @@ f
 "
 heap
 -
-unused
+unallocated
 "
 OTHER
 100
@@ -1197,7 +1197,7 @@ sums
 "
 heap
 -
-used
+allocated
 "
 and
 all
@@ -1349,7 +1349,7 @@ f
 "
 heap
 -
-used
+allocated
 "
 OTHER
 1000
@@ -1364,7 +1364,7 @@ f
 "
 heap
 -
-unused
+unallocated
 "
 OTHER
 100
@@ -1533,7 +1533,7 @@ for
 "
 heap
 -
-used
+allocated
 "
 non
 -
@@ -1558,7 +1558,7 @@ f
 "
 heap
 -
-used
+allocated
 "
 OTHER
 kUnknown
@@ -2155,7 +2155,7 @@ MB
 -
 heap
 -
-used
+allocated
 \
 n
 \
@@ -2187,7 +2187,7 @@ MB
 -
 heap
 -
-unused
+unallocated
 \
 n
 \
@@ -2390,7 +2390,7 @@ MB
 -
 heap
 -
-used
+allocated
 \
 n
 \
@@ -2435,7 +2435,7 @@ MB
 -
 heap
 -
-unused
+unallocated
 \
 n
 \
@@ -2576,7 +2576,7 @@ MB
 -
 heap
 -
-used
+allocated
 [
 *
 ]
@@ -3003,7 +3003,7 @@ B
 -
 heap
 -
-used
+allocated
 \
 n
 \
@@ -3035,7 +3035,7 @@ B
 -
 heap
 -
-unused
+unallocated
 \
 n
 \
@@ -3237,7 +3237,7 @@ B
 -
 heap
 -
-used
+allocated
 \
 n
 \
@@ -3282,7 +3282,7 @@ B
 -
 heap
 -
-unused
+unallocated
 \
 n
 \
@@ -3436,7 +3436,7 @@ B
 -
 heap
 -
-used
+allocated
 [
 *
 ]

@@ -195,7 +195,7 @@ KB
 )
 HISTOGRAM
 (
-MEMORY_HEAP_USED
+MEMORY_HEAP_ALLOCATED
 1024
 1024
 *
@@ -205,7 +205,7 @@ EXPONENTIAL
 "
 Heap
 memory
-used
+allocated
 (
 KB
 )
