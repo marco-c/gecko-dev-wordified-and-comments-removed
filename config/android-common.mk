@@ -577,6 +577,9 @@ UTF8
 -
 g
 \
+-
+Werror
+\
 (
 NULL
 )
