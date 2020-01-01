@@ -100,13 +100,6 @@ domstubs
 .
 idl
 "
-#
-include
-"
-nsISupports
-.
-idl
-"
 interface
 nsIAtom
 ;

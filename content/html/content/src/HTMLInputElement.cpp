@@ -586,6 +586,13 @@ h
 #
 include
 "
+nsIController
+.
+h
+"
+#
+include
+"
 js
 /
 Date

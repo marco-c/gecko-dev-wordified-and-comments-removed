@@ -517,6 +517,13 @@ h
 "
 #
 include
+"
+nsIController
+.
+h
+"
+#
+include
 <
 algorithm
 >

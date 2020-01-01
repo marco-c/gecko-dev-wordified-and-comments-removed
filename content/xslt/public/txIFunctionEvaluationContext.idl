@@ -94,10 +94,13 @@ MPL
 #
 include
 "
-domstubs
+nsISupports
 .
 idl
 "
+interface
+nsIDOMNode
+;
 interface
 txINodeSet
 ;

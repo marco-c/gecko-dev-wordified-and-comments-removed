@@ -241,6 +241,13 @@ nsTextEditorState
 .
 h
 "
+#
+include
+"
+nsIController
+.
+h
+"
 static
 NS_DEFINE_CID
 (

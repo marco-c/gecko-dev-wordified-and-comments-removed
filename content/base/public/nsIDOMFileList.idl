@@ -94,7 +94,7 @@ MPL
 #
 include
 "
-domstubs
+nsISupports
 .
 idl
 "

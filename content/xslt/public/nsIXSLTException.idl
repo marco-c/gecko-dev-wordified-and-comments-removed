@@ -100,13 +100,9 @@ nsIException
 .
 idl
 "
-#
-include
-"
-domstubs
-.
-idl
-"
+interface
+nsIDOMNode
+;
 [
 scriptable
 uuid

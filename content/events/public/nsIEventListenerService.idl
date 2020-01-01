@@ -96,10 +96,13 @@ MPL
 #
 include
 "
-nsIDOMEventListener
+nsISupports
 .
 idl
 "
+interface
+nsIDOMEventListener
+;
 interface
 nsIDOMEventTarget
 ;

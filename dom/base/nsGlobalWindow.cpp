@@ -183,6 +183,13 @@ nsIScriptTimeoutHandler
 h
 "
 #
+include
+"
+nsIController
+.
+h
+"
+#
 ifdef
 XP_WIN
 #

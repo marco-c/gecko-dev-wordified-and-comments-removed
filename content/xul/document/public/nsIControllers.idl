@@ -96,10 +96,13 @@ MPL
 #
 include
 "
-nsIController
+nsISupports
 .
 idl
 "
+interface
+nsIController
+;
 interface
 nsIDOMXULCommandDispatcher
 ;

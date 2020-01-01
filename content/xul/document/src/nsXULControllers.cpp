@@ -33,6 +33,13 @@ nsDOMClassInfoID
 .
 h
 "
+#
+include
+"
+nsIController
+.
+h
+"
 nsXULControllers
 :
 :
