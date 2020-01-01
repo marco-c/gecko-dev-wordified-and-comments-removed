@@ -15501,11 +15501,11 @@ localtime
 '
 start
 of
-day
+month
 '
 '
 -
-6
+5
 months
 '
 '
@@ -15555,6 +15555,12 @@ currentYear
 tm
 .
 tm_year
+;
+tm
+.
+tm_mday
+=
+1
 ;
 tm
 .
