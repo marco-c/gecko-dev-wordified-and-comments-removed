@@ -19802,6 +19802,9 @@ size_t
 )
 JS_EncodeStringToBuffer
 (
+JSContext
+*
+cx
 JSString
 *
 str
