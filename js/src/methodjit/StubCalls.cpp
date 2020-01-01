@@ -10821,8 +10821,6 @@ IterNext
 VMFrame
 &
 f
-int32
-offset
 )
 {
 JS_ASSERT
@@ -10833,7 +10831,7 @@ regs
 .
 sp
 -
-offset
+1
 >
 =
 f
@@ -10857,7 +10855,7 @@ regs
 sp
 [
 -
-offset
+1
 ]
 .
 isObject
@@ -10877,7 +10875,7 @@ regs
 sp
 [
 -
-offset
+1
 ]
 .
 toObject
