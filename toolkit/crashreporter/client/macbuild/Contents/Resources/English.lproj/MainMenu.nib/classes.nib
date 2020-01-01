@@ -18,6 +18,10 @@ emailMeClicked
 =
 id
 ;
+includeURLClicked
+=
+id
+;
 restartClicked
 =
 id
@@ -74,6 +78,10 @@ NSView
 headerLabel
 =
 NSTextField
+;
+includeURLButton
+=
+NSButton
 ;
 restartButton
 =
