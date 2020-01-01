@@ -1008,8 +1008,11 @@ nrefs
 0
 )
 {
-delete
+destroy
+(
+cx
 this
+)
 ;
 return
 false
