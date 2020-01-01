@@ -1,5 +1,5 @@
 MOZ_APP_VERSION
 =
-1
+2
 .
-1b2pre
+0a1pre
