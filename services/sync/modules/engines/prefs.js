@@ -646,7 +646,7 @@ this
 .
 _log
 .
-warn
+trace
 (
 "
 Unsupported
@@ -828,7 +828,7 @@ this
 .
 _log
 .
-warn
+trace
 (
 "
 Unexpected
@@ -892,7 +892,7 @@ this
 .
 _log
 .
-warn
+trace
 (
 "
 PrefStore
@@ -995,7 +995,7 @@ this
 .
 _log
 .
-warn
+trace
 (
 "
 Ignoring
@@ -1017,7 +1017,7 @@ this
 .
 _log
 .
-warn
+trace
 (
 "
 Ignoring
@@ -1072,7 +1072,7 @@ this
 .
 _log
 .
-warn
+trace
 (
 "
 Ignoring

@@ -399,6 +399,9 @@ bmkUri
 description
 "
 "
+loadInSidebar
+"
+"
 tags
 "
 "
