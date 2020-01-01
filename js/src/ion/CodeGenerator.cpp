@@ -8291,17 +8291,6 @@ LApplyArgsGeneric
 apply
 )
 {
-JSContext
-*
-cx
-=
-GetIonContext
-(
-)
--
->
-cx
-;
 Register
 calleereg
 =
@@ -14165,7 +14154,7 @@ allocKind
 templateObj
 -
 >
-getAllocKind
+tenuredGetAllocKind
 (
 )
 ;
@@ -14854,7 +14843,7 @@ allocKind
 templateObject
 -
 >
-getAllocKind
+tenuredGetAllocKind
 (
 )
 ;
