@@ -4992,9 +4992,6 @@ i
 continue
 ;
 case
-FRAMESET_OK
-:
-case
 IN_HEAD
 :
 case
@@ -5014,6 +5011,9 @@ AFTER_FRAMESET
 :
 continue
 ;
+case
+FRAMESET_OK
+:
 case
 IN_BODY
 :
