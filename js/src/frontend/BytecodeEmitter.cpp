@@ -3341,10 +3341,8 @@ return
 JS_TRUE
 ;
 }
+static
 JSBool
-frontend
-:
-:
 PopStatementBCE
 (
 JSContext

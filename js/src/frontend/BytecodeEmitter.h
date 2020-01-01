@@ -941,17 +941,6 @@ extra
 )
 ;
 JSBool
-PopStatementBCE
-(
-JSContext
-*
-cx
-BytecodeEmitter
-*
-bce
-)
-;
-JSBool
 DefineCompileTimeConstant
 (
 JSContext
