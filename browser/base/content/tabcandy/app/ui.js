@@ -2839,7 +2839,7 @@ function
 {
 self
 .
-delayInit
+_delayInit
 (
 )
 ;
@@ -2861,7 +2861,7 @@ e
 ;
 }
 }
-delayInit
+_delayInit
 :
 function
 (
@@ -4687,12 +4687,15 @@ position
 '
 absolute
 '
-top
+bottom
 :
 5
 right
 :
 5
+zIndex
+:
+99999
 opacity
 :
 .
@@ -4703,7 +4706,8 @@ opacity
 appendTo
 (
 '
-body
+#
+content
 '
 )
 .
