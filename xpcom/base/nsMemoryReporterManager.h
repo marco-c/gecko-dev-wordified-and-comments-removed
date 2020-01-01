@@ -63,10 +63,12 @@ protected
 :
 nsCString
 mPath
-mDesc
 ;
 PRInt32
 mKind
+;
+nsCString
+mDesc
 ;
 PRInt64
 mMemoryUsed
