@@ -22,6 +22,13 @@ ImageData
 .
 h
 "
+#
+include
+"
+XPCQuickStubs
+.
+h
+"
 static
 bool
 GetImageData
