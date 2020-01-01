@@ -403,10 +403,7 @@ PR_FALSE
 )
 mIgnoreKeys
 (
-aPopupType
-!
-=
-ePopupTypeMenu
+PR_FALSE
 )
 mParent
 (

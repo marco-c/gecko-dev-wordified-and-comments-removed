@@ -387,6 +387,11 @@ anonid
 "
 popup
 "
+ignorekeys
+=
+"
+true
+"
 noautofocus
 =
 "
