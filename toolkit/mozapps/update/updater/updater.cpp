@@ -7857,6 +7857,10 @@ if
 useService
 &
 &
+!
+noServiceFallback
+&
+&
 INVALID_HANDLE_VALUE
 =
 =

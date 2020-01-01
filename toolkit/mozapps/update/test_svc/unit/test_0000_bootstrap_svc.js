@@ -122,7 +122,7 @@ checkFilesAfterUpdateSuccess
 (
 )
 ;
-do_test_finished
+checkCallbackServiceLog
 (
 )
 ;
