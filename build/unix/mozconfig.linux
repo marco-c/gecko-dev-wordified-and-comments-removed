@@ -50,3 +50,11 @@ g
 +
 +
 "
+ac_add_options
+-
+-
+enable
+-
+elf
+-
+hack

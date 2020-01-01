@@ -135,3 +135,11 @@ auto
 f
 auto
 "
+ac_add_options
+-
+-
+enable
+-
+elf
+-
+hack
