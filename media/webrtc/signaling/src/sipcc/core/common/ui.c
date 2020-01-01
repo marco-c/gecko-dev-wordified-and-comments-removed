@@ -7001,7 +7001,7 @@ return
 ;
 }
 void
-ui_ice_candidate_add
+ui_update_remote_description
 (
 call_events
 event
@@ -7043,7 +7043,7 @@ call_instance_id
 ;
 post_message_helper
 (
-ICE_CANDIDATE_ADD
+UPDATE_REMOTE_DESC
 event
 nLine
 nCallID
@@ -7051,6 +7051,8 @@ call_instance_id
 sdp
 PC_OK
 )
+;
+return
 ;
 }
 void

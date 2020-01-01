@@ -124,6 +124,9 @@ SETREMOTEDESC
 evUpdateLocalDesc
 =
 UPDATELOCALDESC
+evUpdateRemoteDesc
+=
+UPDATEREMOTEDESC
 evSetLocalDescError
 =
 SETLOCALDESCERROR
@@ -133,12 +136,6 @@ SETREMOTEDESCERROR
 evOnRemoteStreamAdd
 =
 REMOTESTREAMADD
-evAddIceCandidate
-=
-ADDICECANDIDATE
-evAddIceCandidateError
-=
-ADDICECANDIDATEERROR
 evMaxEvent
 }
 call_events
@@ -888,7 +885,7 @@ sdp
 )
 ;
 void
-ui_ice_candidate_add
+ui_update_remote_description
 (
 call_events
 event
