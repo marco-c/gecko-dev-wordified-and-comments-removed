@@ -748,7 +748,7 @@ aMetrics
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 0
 aMetrics
@@ -1301,7 +1301,7 @@ top
 ;
 offset
 =
-PR_MAX
+NS_MAX
 (
 0
 offset

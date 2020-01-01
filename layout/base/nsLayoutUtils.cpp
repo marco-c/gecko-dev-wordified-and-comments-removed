@@ -10118,10 +10118,10 @@ aContentEdgeToBoxSizing
 ;
 result
 =
-PR_MAX
+NS_MAX
 (
 min
-PR_MIN
+NS_MIN
 (
 pref
 fill
@@ -15290,7 +15290,7 @@ x
 aR1
 .
 y
-PR_MAX
+NS_MAX
 (
 aR1
 .
@@ -15299,7 +15299,7 @@ aR2
 .
 width
 )
-PR_MAX
+NS_MAX
 (
 aR1
 .
@@ -15313,7 +15313,7 @@ height
 nscoord
 VStripStart
 =
-PR_MIN
+NS_MIN
 (
 aR1
 .
@@ -15326,7 +15326,7 @@ width
 nscoord
 HStripStart
 =
-PR_MIN
+NS_MIN
 (
 aR1
 .

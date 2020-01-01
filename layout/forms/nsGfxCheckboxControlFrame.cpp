@@ -175,7 +175,7 @@ checkSize
 nscoord
 paintScale
 =
-PR_MIN
+NS_MIN
 (
 rect
 .

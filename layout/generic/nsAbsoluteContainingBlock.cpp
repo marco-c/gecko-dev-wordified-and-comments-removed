@@ -2349,7 +2349,7 @@ Size
 nscoord
 innerWidth
 =
-PR_MIN
+NS_MIN
 (
 oldRect
 .
@@ -2362,7 +2362,7 @@ width
 nscoord
 innerHeight
 =
-PR_MIN
+NS_MIN
 (
 oldRect
 .
@@ -2375,7 +2375,7 @@ height
 nscoord
 outerWidth
 =
-PR_MAX
+NS_MAX
 (
 oldRect
 .
@@ -2388,7 +2388,7 @@ width
 nscoord
 outerHeight
 =
-PR_MAX
+NS_MAX
 (
 oldRect
 .

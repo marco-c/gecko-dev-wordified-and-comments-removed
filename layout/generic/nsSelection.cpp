@@ -10412,7 +10412,7 @@ NS_ERROR_FAILURE
 PRInt32
 minRowIndex
 =
-PR_MIN
+NS_MIN
 (
 aStartRowIndex
 aEndRowIndex
@@ -10421,7 +10421,7 @@ aEndRowIndex
 PRInt32
 maxRowIndex
 =
-PR_MAX
+NS_MAX
 (
 aStartRowIndex
 aEndRowIndex
@@ -10430,7 +10430,7 @@ aEndRowIndex
 PRInt32
 minColIndex
 =
-PR_MIN
+NS_MIN
 (
 aStartColumnIndex
 aEndColumnIndex
@@ -10439,7 +10439,7 @@ aEndColumnIndex
 PRInt32
 maxColIndex
 =
-PR_MAX
+NS_MAX
 (
 aStartColumnIndex
 aEndColumnIndex
@@ -17164,7 +17164,7 @@ aContentOffset
 {
 start
 =
-PR_MAX
+NS_MAX
 (
 0
 startOffset
@@ -17174,7 +17174,7 @@ aContentOffset
 ;
 end
 =
-PR_MIN
+NS_MIN
 (
 aContentLength
 endOffset
@@ -17206,7 +17206,7 @@ aContentLength
 {
 start
 =
-PR_MAX
+NS_MAX
 (
 0
 startOffset
@@ -17242,7 +17242,7 @@ start
 ;
 end
 =
-PR_MIN
+NS_MIN
 (
 aContentLength
 endOffset
@@ -24751,7 +24751,7 @@ levelAfter
 )
 level
 =
-PR_MIN
+NS_MIN
 (
 levelBefore
 levelAfter

@@ -499,7 +499,7 @@ draw
 gfxFloat
 scale
 =
-PR_MIN
+NS_MIN
 (
 aRect
 .

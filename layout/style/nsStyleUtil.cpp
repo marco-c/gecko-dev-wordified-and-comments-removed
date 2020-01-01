@@ -1148,7 +1148,7 @@ else
 {
 smallerSize
 =
-PR_MAX
+NS_MAX
 (
 aFontSize
 -

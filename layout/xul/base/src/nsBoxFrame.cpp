@@ -2391,7 +2391,7 @@ LeftRight
 ;
 result
 =
-PR_MAX
+NS_MAX
 (
 result
 0
@@ -2460,7 +2460,7 @@ LeftRight
 ;
 result
 =
-PR_MAX
+NS_MAX
 (
 result
 0

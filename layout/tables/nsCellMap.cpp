@@ -2141,7 +2141,7 @@ aDamageArea
 .
 y
 =
-PR_MIN
+NS_MIN
 (
 aFirstRowIndex
 aDamageArea
@@ -2153,7 +2153,7 @@ aDamageArea
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 0
 GetRowCount
@@ -2414,7 +2414,7 @@ aDamageArea
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 0
 GetRowCount
@@ -2807,7 +2807,7 @@ aDamageArea
 .
 width
 =
-PR_MAX
+NS_MAX
 (
 0
 GetColCount
@@ -2989,7 +2989,7 @@ aDamageArea
 .
 width
 =
-PR_MAX
+NS_MAX
 (
 0
 GetColCount
@@ -3085,7 +3085,7 @@ aDamageArea
 .
 width
 =
-PR_MAX
+NS_MAX
 (
 1
 aWidth
@@ -3095,7 +3095,7 @@ aDamageArea
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 1
 aHeight
@@ -6808,7 +6808,7 @@ aConsiderSpans
 {
 mContentRowCount
 =
-PR_MAX
+NS_MAX
 (
 aFirstRowIndex
 mContentRowCount
@@ -6840,7 +6840,7 @@ numCols
 ;
 mContentRowCount
 =
-PR_MAX
+NS_MAX
 (
 aFirstRowIndex
 mContentRowCount
@@ -7391,7 +7391,7 @@ origData
 }
 mContentRowCount
 =
-PR_MAX
+NS_MAX
 (
 mContentRowCount
 aRowIndex
@@ -9561,7 +9561,7 @@ startColIndex
 PRInt32
 damageHeight
 =
-PR_MIN
+NS_MIN
 (
 GetRowGroup
 (
@@ -10248,7 +10248,7 @@ cellFrame
 {
 maxCols
 =
-PR_MIN
+NS_MIN
 (
 aColIndex
 +
@@ -10358,7 +10358,7 @@ rowSpan
 {
 rowSpan
 =
-PR_MAX
+NS_MAX
 (
 2
 mContentRowCount
@@ -10905,7 +10905,7 @@ size
 PRUint32
 endIndexForRow
 =
-PR_MIN
+NS_MIN
 (
 endColIndex
 +
@@ -11295,7 +11295,7 @@ return
 PRUint32
 copyEndRowIndex
 =
-PR_MIN
+NS_MIN
 (
 numOrigRows
 PRUint32
@@ -11796,7 +11796,7 @@ numCols
 =
 aInsert
 ?
-PR_MAX
+NS_MAX
 (
 aNumOrigCols
 aColIndex
@@ -14599,7 +14599,7 @@ Length
 ;
 mCurMapRelevantRowCount
 =
-PR_MIN
+NS_MIN
 (
 mCurMapContentRowCount
 rowArrayLength

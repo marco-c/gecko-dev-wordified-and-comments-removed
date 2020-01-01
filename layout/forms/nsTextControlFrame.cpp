@@ -2598,7 +2598,7 @@ scrollableView
 >
 ScrollTo
 (
-PR_MAX
+NS_MAX
 (
 viewRect
 .
@@ -5068,7 +5068,7 @@ charMaxAdvance
 nscoord
 internalPadding
 =
-PR_MAX
+NS_MAX
 (
 0
 charMaxAdvance

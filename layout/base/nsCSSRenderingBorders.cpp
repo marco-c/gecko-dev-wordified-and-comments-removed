@@ -634,7 +634,7 @@ C_TL
 .
 width
 =
-PR_MAX
+NS_MAX
 (
 0
 .
@@ -659,7 +659,7 @@ C_TL
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 0
 .
@@ -684,7 +684,7 @@ C_TR
 .
 width
 =
-PR_MAX
+NS_MAX
 (
 0
 .
@@ -709,7 +709,7 @@ C_TR
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 0
 .
@@ -734,7 +734,7 @@ C_BR
 .
 width
 =
-PR_MAX
+NS_MAX
 (
 0
 .
@@ -759,7 +759,7 @@ C_BR
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 0
 .
@@ -784,7 +784,7 @@ C_BL
 .
 width
 =
-PR_MAX
+NS_MAX
 (
 0
 .
@@ -809,7 +809,7 @@ C_BL
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 0
 .
@@ -991,7 +991,7 @@ gfxSize
 (
 ceil
 (
-PR_MAX
+NS_MAX
 (
 leftWidth
 aRadii
@@ -1004,7 +1004,7 @@ width
 )
 ceil
 (
-PR_MAX
+NS_MAX
 (
 topWidth
 aRadii
@@ -1029,7 +1029,7 @@ gfxSize
 (
 ceil
 (
-PR_MAX
+NS_MAX
 (
 rightWidth
 aRadii
@@ -1042,7 +1042,7 @@ width
 )
 ceil
 (
-PR_MAX
+NS_MAX
 (
 topWidth
 aRadii
@@ -1067,7 +1067,7 @@ gfxSize
 (
 ceil
 (
-PR_MAX
+NS_MAX
 (
 rightWidth
 aRadii
@@ -1080,7 +1080,7 @@ width
 )
 ceil
 (
-PR_MAX
+NS_MAX
 (
 bottomWidth
 aRadii
@@ -1105,7 +1105,7 @@ gfxSize
 (
 ceil
 (
-PR_MAX
+NS_MAX
 (
 leftWidth
 aRadii
@@ -1118,7 +1118,7 @@ width
 )
 ceil
 (
-PR_MAX
+NS_MAX
 (
 bottomWidth
 aRadii
@@ -1911,7 +1911,7 @@ y
 gfxFloat
 k
 =
-PR_MIN
+NS_MIN
 (
 (
 aMidPoint
@@ -3285,7 +3285,7 @@ i
 {
 maxBorderWidth
 =
-PR_MAX
+NS_MAX
 (
 maxBorderWidth
 mBorderWidths
@@ -3395,7 +3395,7 @@ tl
 .
 x
 =
-PR_MIN
+NS_MIN
 (
 tl
 .
@@ -3409,7 +3409,7 @@ tl
 .
 y
 =
-PR_MIN
+NS_MIN
 (
 tl
 .
@@ -3423,7 +3423,7 @@ br
 .
 x
 =
-PR_MAX
+NS_MAX
 (
 br
 .
@@ -3437,7 +3437,7 @@ br
 .
 y
 =
-PR_MAX
+NS_MAX
 (
 br
 .

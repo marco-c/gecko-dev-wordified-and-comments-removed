@@ -2482,7 +2482,7 @@ innerSize
 .
 width
 =
-PR_MAX
+NS_MAX
 (
 innerSize
 .
@@ -2505,7 +2505,7 @@ innerSize
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 innerSize
 .

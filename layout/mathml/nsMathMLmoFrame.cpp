@@ -2691,7 +2691,7 @@ mFlags
 nscoord
 delta
 =
-PR_MAX
+NS_MAX
 (
 container
 .
@@ -2723,7 +2723,7 @@ axisHeight
 ;
 delta
 =
-PR_MAX
+NS_MAX
 (
 initialSize
 .
@@ -2797,7 +2797,7 @@ container
 .
 ascent
 =
-PR_MIN
+NS_MIN
 (
 container
 .
@@ -2816,7 +2816,7 @@ container
 .
 descent
 =
-PR_MIN
+NS_MIN
 (
 container
 .
@@ -2835,7 +2835,7 @@ container
 .
 width
 =
-PR_MIN
+NS_MIN
 (
 container
 .
@@ -2853,7 +2853,7 @@ container
 .
 ascent
 =
-PR_MIN
+NS_MIN
 (
 container
 .
@@ -2872,7 +2872,7 @@ container
 .
 descent
 =
-PR_MIN
+NS_MIN
 (
 container
 .
@@ -2891,7 +2891,7 @@ container
 .
 width
 =
-PR_MIN
+NS_MIN
 (
 container
 .
@@ -3011,7 +3011,7 @@ container
 .
 ascent
 =
-PR_MAX
+NS_MAX
 (
 container
 .
@@ -3030,7 +3030,7 @@ container
 .
 descent
 =
-PR_MAX
+NS_MAX
 (
 container
 .
@@ -3049,7 +3049,7 @@ container
 .
 width
 =
-PR_MAX
+NS_MAX
 (
 container
 .
@@ -3067,7 +3067,7 @@ container
 .
 ascent
 =
-PR_MAX
+NS_MAX
 (
 container
 .
@@ -3086,7 +3086,7 @@ container
 .
 descent
 =
-PR_MAX
+NS_MAX
 (
 container
 .
@@ -3105,7 +3105,7 @@ container
 .
 width
 =
-PR_MAX
+NS_MAX
 (
 container
 .
@@ -3491,7 +3491,7 @@ aDesiredStretchSize
 .
 ascent
 =
-PR_MAX
+NS_MAX
 (
 mBoundingMetrics
 .
@@ -3509,7 +3509,7 @@ aDesiredStretchSize
 .
 ascent
 +
-PR_MAX
+NS_MAX
 (
 mBoundingMetrics
 .

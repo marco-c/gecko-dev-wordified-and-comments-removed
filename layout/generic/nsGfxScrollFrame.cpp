@@ -1605,7 +1605,7 @@ width
 =
 vScrollbarDesiredWidth
 +
-PR_MAX
+NS_MAX
 (
 aKidMetrics
 -
@@ -1620,7 +1620,7 @@ height
 =
 hScrollbarDesiredHeight
 +
-PR_MAX
+NS_MAX
 (
 aKidMetrics
 -
@@ -1645,7 +1645,7 @@ scrollPortSize
 =
 nsSize
 (
-PR_MAX
+NS_MAX
 (
 0
 aState
@@ -1657,7 +1657,7 @@ width
 -
 vScrollbarDesiredWidth
 )
-PR_MAX
+NS_MAX
 (
 0
 aState
@@ -2154,7 +2154,7 @@ NS_UNCONSTRAINEDSIZE
 )
 computedHeight
 =
-PR_MAX
+NS_MAX
 (
 0
 computedHeight
@@ -2166,7 +2166,7 @@ height
 ;
 computedMinHeight
 =
-PR_MAX
+NS_MAX
 (
 0
 computedMinHeight
@@ -2185,7 +2185,7 @@ NS_UNCONSTRAINEDSIZE
 )
 computedMaxHeight
 =
-PR_MAX
+NS_MAX
 (
 0
 computedMaxHeight
@@ -2226,7 +2226,7 @@ mBoxState
 ;
 availWidth
 =
-PR_MAX
+NS_MAX
 (
 0
 availWidth
@@ -8874,7 +8874,7 @@ childRect
 .
 width
 =
-PR_MAX
+NS_MAX
 (
 childRect
 .
@@ -8888,7 +8888,7 @@ childRect
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 childRect
 .
@@ -10343,7 +10343,7 @@ vScroll
 minY
 maxY
 curPosY
-PR_MAX
+NS_MAX
 (
 pageincrement
 pageincrementMin
@@ -10663,7 +10663,7 @@ aRect
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 0
 resizerRect
@@ -10680,7 +10680,7 @@ aRect
 .
 width
 =
-PR_MAX
+NS_MAX
 (
 0
 resizerRect
@@ -11498,7 +11498,7 @@ width
 nscoord
 extraWidth
 =
-PR_MAX
+NS_MAX
 (
 0
 mScrolledFrame

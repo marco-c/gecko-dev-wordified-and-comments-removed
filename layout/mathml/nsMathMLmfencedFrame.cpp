@@ -1379,7 +1379,7 @@ firstChild
 nscoord
 delta
 =
-PR_MAX
+NS_MAX
 (
 containerSize
 .

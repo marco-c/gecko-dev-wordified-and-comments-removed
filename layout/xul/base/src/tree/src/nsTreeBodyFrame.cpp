@@ -1951,7 +1951,7 @@ mRowHeight
 PRInt32
 lastPageTopRow
 =
-PR_MAX
+NS_MAX
 (
 0
 mRowCount
@@ -8618,7 +8618,7 @@ mRowCount
 {
 mTopRowIndex
 =
-PR_MAX
+NS_MAX
 (
 0
 mRowCount
@@ -8743,7 +8743,7 @@ mRowCount
 {
 mTopRowIndex
 =
-PR_MAX
+NS_MAX
 (
 0
 mRowCount
@@ -20045,7 +20045,7 @@ clip
 nscoord
 leftEdge
 =
-PR_MAX
+NS_MAX
 (
 rect
 .
@@ -20058,7 +20058,7 @@ x
 nscoord
 rightEdge
 =
-PR_MIN
+NS_MIN
 (
 rect
 .

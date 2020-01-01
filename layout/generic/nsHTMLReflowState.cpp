@@ -6369,7 +6369,7 @@ break
 ;
 }
 return
-PR_MAX
+NS_MAX
 (
 result
 0
@@ -9473,7 +9473,7 @@ mComputedMaxWidth
 *
 aFrameWidth
 =
-PR_MIN
+NS_MIN
 (
 *
 aFrameWidth
@@ -9484,7 +9484,7 @@ mComputedMaxWidth
 *
 aFrameWidth
 =
-PR_MAX
+NS_MAX
 (
 *
 aFrameWidth
@@ -9508,7 +9508,7 @@ mComputedMaxHeight
 *
 aFrameHeight
 =
-PR_MIN
+NS_MIN
 (
 *
 aFrameHeight
@@ -9519,7 +9519,7 @@ mComputedMaxHeight
 *
 aFrameHeight
 =
-PR_MAX
+NS_MAX
 (
 *
 aFrameHeight

@@ -1113,7 +1113,7 @@ coreData
 nscoord
 leftSpace
 =
-PR_MAX
+NS_MAX
 (
 onePixel
 coreData
@@ -1124,7 +1124,7 @@ leftSpace
 nscoord
 rightSpace
 =
-PR_MAX
+NS_MAX
 (
 onePixel
 coreData
@@ -1422,7 +1422,7 @@ actualClearance
 nscoord
 width
 =
-PR_MAX
+NS_MAX
 (
 bmNum
 .
@@ -1573,7 +1573,7 @@ mBoundingMetrics
 .
 rightBearing
 =
-PR_MAX
+NS_MAX
 (
 dxNum
 +
@@ -1609,7 +1609,7 @@ mBoundingMetrics
 .
 leftBearing
 =
-PR_MIN
+NS_MIN
 (
 dxNum
 +

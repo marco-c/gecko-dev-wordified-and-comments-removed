@@ -828,7 +828,7 @@ bigOpSpacing5
 ;
 delta1
 =
-PR_MAX
+NS_MAX
 (
 bigOpSpacing2
 (
@@ -917,7 +917,7 @@ leftBearing
 nscoord
 maxWidth
 =
-PR_MAX
+NS_MAX
 (
 bmBase
 .
@@ -982,7 +982,7 @@ mBoundingMetrics
 .
 width
 =
-PR_MAX
+NS_MAX
 (
 dxBase
 +
@@ -1026,7 +1026,7 @@ mBoundingMetrics
 .
 leftBearing
 =
-PR_MIN
+NS_MIN
 (
 dxBase
 +
@@ -1044,7 +1044,7 @@ mBoundingMetrics
 .
 rightBearing
 =
-PR_MAX
+NS_MAX
 (
 dxBase
 +
@@ -1074,7 +1074,7 @@ aDesiredSize
 .
 ascent
 +
-PR_MAX
+NS_MAX
 (
 mBoundingMetrics
 .

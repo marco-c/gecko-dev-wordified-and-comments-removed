@@ -1960,7 +1960,7 @@ sum
 )
 f
 =
-PR_MIN
+NS_MIN
 (
 f
 length
@@ -8113,7 +8113,7 @@ scaleX
 =
 scaleY
 =
-PR_MAX
+NS_MAX
 (
 scaleFitX
 scaleFitY
@@ -8126,7 +8126,7 @@ scaleX
 =
 scaleY
 =
-PR_MIN
+NS_MIN
 (
 scaleFitX
 scaleFitY
@@ -10846,7 +10846,7 @@ dashLength
 ;
 minDashLength
 =
-PR_MAX
+NS_MAX
 (
 minDashLength
 twipsPerPixel
@@ -12151,7 +12151,7 @@ return
 gfxFloat
 lineHeight
 =
-PR_MAX
+NS_MAX
 (
 NS_round
 (
@@ -12740,7 +12740,7 @@ lineHeight
 gfxFloat
 flatLengthAtVertex
 =
-PR_MAX
+NS_MAX
 (
 (
 lineHeight
@@ -13168,7 +13168,7 @@ height
 ;
 lineHeight
 =
-PR_MAX
+NS_MAX
 (
 lineHeight
 1
@@ -13195,9 +13195,9 @@ aDescentLimit
 gfxFloat
 suggestedMaxRectHeight
 =
-PR_MAX
+NS_MAX
 (
-PR_MIN
+NS_MIN
 (
 ascent
 descentLimit
@@ -13237,7 +13237,7 @@ lineHeight
 ;
 gap
 =
-PR_MAX
+NS_MAX
 (
 gap
 1
@@ -13281,7 +13281,7 @@ size
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 suggestedMaxRectHeight
 lineHeight
@@ -13353,7 +13353,7 @@ size
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 suggestedMaxRectHeight
 lineHeight
@@ -13441,7 +13441,7 @@ offsetTopAligned
 ;
 offset
 =
-PR_MIN
+NS_MIN
 (
 offsetBottomAligned
 offsetTopAligned
@@ -13494,7 +13494,7 @@ Height
 ;
 extra
 =
-PR_MAX
+NS_MAX
 (
 extra
 lineHeight

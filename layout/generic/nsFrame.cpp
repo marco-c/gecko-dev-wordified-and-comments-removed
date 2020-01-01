@@ -11537,7 +11537,7 @@ else
 {
 xDistance
 =
-PR_MIN
+NS_MIN
 (
 abs
 (
@@ -11615,7 +11615,7 @@ yDistance
 else
 yDistance
 =
-PR_MIN
+NS_MIN
 (
 abs
 (
@@ -12679,7 +12679,7 @@ trailingWhitespace
 ;
 prevLines
 =
-PR_MAX
+NS_MAX
 (
 prevLines
 currentLine
@@ -12997,7 +12997,7 @@ floats_cur
 NSCoordSaturatingAdd
 (
 floats_cur
-PR_MAX
+NS_MAX
 (
 0
 floatWidth
@@ -13050,7 +13050,7 @@ nscoord_MAX
 ;
 prevLines
 =
-PR_MAX
+NS_MAX
 (
 prevLines
 currentLine
@@ -16863,7 +16863,7 @@ mOutlineOffset
 nscoord
 inflateBy
 =
-PR_MAX
+NS_MAX
 (
 width
 +
@@ -28979,7 +28979,7 @@ LeftRight
 ;
 computedWidth
 =
-PR_MAX
+NS_MAX
 (
 computedWidth
 0
@@ -29025,7 +29025,7 @@ TopBottom
 ;
 computedHeight
 =
-PR_MAX
+NS_MAX
 (
 computedHeight
 0

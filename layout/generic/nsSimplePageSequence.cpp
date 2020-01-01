@@ -936,9 +936,9 @@ edgeTwips
 .
 top
 =
-PR_MIN
+NS_MIN
 (
-PR_MAX
+NS_MAX
 (
 edgeTwips
 .
@@ -952,9 +952,9 @@ edgeTwips
 .
 bottom
 =
-PR_MIN
+NS_MIN
 (
-PR_MAX
+NS_MAX
 (
 edgeTwips
 .
@@ -968,9 +968,9 @@ edgeTwips
 .
 left
 =
-PR_MIN
+NS_MIN
 (
-PR_MAX
+NS_MAX
 (
 edgeTwips
 .
@@ -984,9 +984,9 @@ edgeTwips
 .
 right
 =
-PR_MIN
+NS_MIN
 (
-PR_MAX
+NS_MAX
 (
 edgeTwips
 .
@@ -1060,7 +1060,7 @@ mMargin
 nscoord
 extraThreshold
 =
-PR_MAX
+NS_MAX
 (
 pageSize
 .
@@ -1089,7 +1089,7 @@ print_extra_margin
 ;
 gapInTwips
 =
-PR_MAX
+NS_MAX
 (
 0
 gapInTwips
@@ -1108,7 +1108,7 @@ gapInTwips
 ;
 extraGap
 =
-PR_MIN
+NS_MIN
 (
 extraGap
 extraThreshold

@@ -224,7 +224,7 @@ LeftRight
 ;
 computedWidth
 =
-PR_MAX
+NS_MAX
 (
 0
 computedWidth
@@ -269,7 +269,7 @@ TopBottom
 ;
 computedHeight
 =
-PR_MAX
+NS_MAX
 (
 0
 computedHeight
@@ -379,7 +379,7 @@ aValue
 nscoord
 height
 =
-PR_MAX
+NS_MAX
 (
 0
 aValue
@@ -441,7 +441,7 @@ aForce
 nscoord
 height
 =
-PR_MAX
+NS_MAX
 (
 0
 NSToCoordRound
@@ -1793,7 +1793,7 @@ nsnull
 ;
 ascent
 =
-PR_MAX
+NS_MAX
 (
 ascent
 firstKid
@@ -1876,7 +1876,7 @@ HasFixedHeight
 {
 height
 =
-PR_MAX
+NS_MAX
 (
 height
 GetFixedHeight
@@ -1886,7 +1886,7 @@ GetFixedHeight
 ;
 }
 return
-PR_MAX
+NS_MAX
 (
 height
 GetContentHeight
@@ -3480,7 +3480,7 @@ height
 }
 }
 return
-PR_MAX
+NS_MAX
 (
 height
 0
@@ -4313,7 +4313,7 @@ else
 {
 cellMaxHeight
 =
-PR_MAX
+NS_MAX
 (
 cellMaxHeight
 desiredSize
@@ -4540,7 +4540,7 @@ aDesiredSize
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 aDesiredSize
 .
@@ -4589,7 +4589,7 @@ aDesiredSize
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 aDesiredSize
 .
@@ -4640,7 +4640,7 @@ aDesiredSize
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 cellMaxHeight
 styleHeight

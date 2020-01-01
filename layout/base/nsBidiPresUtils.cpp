@@ -1984,7 +1984,7 @@ isTextFrame
 PRInt32
 typeLimit
 =
-PR_MIN
+NS_MIN
 (
 logicalLimit
 lineOffset
@@ -6308,7 +6308,7 @@ start
 PRInt32
 typeLimit
 =
-PR_MIN
+NS_MIN
 (
 limit
 aLength

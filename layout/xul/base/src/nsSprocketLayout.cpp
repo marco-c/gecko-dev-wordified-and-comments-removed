@@ -1158,7 +1158,7 @@ prefSize
 ;
 width
 =
-PR_MIN
+NS_MIN
 (
 prefSize
 .
@@ -1170,7 +1170,7 @@ width
 ;
 height
 =
-PR_MIN
+NS_MIN
 (
 prefSize
 .
@@ -3290,7 +3290,7 @@ currentBox
 >
 flex
 =
-PR_MIN
+NS_MIN
 (
 currentBox
 -
@@ -3341,7 +3341,7 @@ NS_STATE_EQUAL_SIZE
 {
 smallestMaxWidth
 =
-PR_MAX
+NS_MAX
 (
 smallestMaxWidth
 biggestMinWidth

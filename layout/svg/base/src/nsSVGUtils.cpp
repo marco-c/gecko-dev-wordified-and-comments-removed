@@ -6319,7 +6319,7 @@ surfaceSize
 .
 width
 =
-PR_MIN
+NS_MIN
 (
 NS_SVG_OFFSCREEN_MAX_DIMENSION
 surfaceSize
@@ -6331,7 +6331,7 @@ surfaceSize
 .
 height
 =
-PR_MIN
+NS_MIN
 (
 NS_SVG_OFFSCREEN_MAX_DIMENSION
 surfaceSize

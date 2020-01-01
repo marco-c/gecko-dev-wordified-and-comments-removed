@@ -108,7 +108,7 @@ size
 .
 height
 =
-PR_MAX
+NS_MAX
 (
 mRect
 .

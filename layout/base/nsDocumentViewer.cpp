@@ -3998,14 +3998,14 @@ NS_OK
 PRInt32
 len
 =
-PR_MIN
+NS_MIN
 (
 text
 .
 Length
 (
 )
-1024
+1024U
 )
 ;
 nsAutoString

@@ -506,7 +506,7 @@ CSSPixelsToAppUnits
 nscoord
 scriptSpace
 =
-PR_MAX
+NS_MAX
 (
 PresContext
 (
@@ -554,7 +554,7 @@ subScriptShift1
 ;
 subScriptShift1
 =
-PR_MAX
+NS_MAX
 (
 subScriptShift1
 mSubScriptShift
@@ -573,7 +573,7 @@ subScriptShift1
 nscoord
 subScriptShift
 =
-PR_MAX
+NS_MAX
 (
 subScriptShift1
 subScriptShift2
@@ -625,7 +625,7 @@ supScriptShift1
 ;
 supScriptShift1
 =
-PR_MAX
+NS_MAX
 (
 supScriptShift1
 mSupScriptShift
@@ -994,7 +994,7 @@ subDrop
 ;
 trySubScriptShift
 =
-PR_MAX
+NS_MAX
 (
 minSubScriptShift
 subScriptShift
@@ -1004,7 +1004,7 @@ mBoundingMetrics
 .
 descent
 =
-PR_MAX
+NS_MAX
 (
 mBoundingMetrics
 .
@@ -1016,7 +1016,7 @@ descent
 ;
 descent
 =
-PR_MAX
+NS_MAX
 (
 descent
 subScriptSize
@@ -1095,10 +1095,10 @@ xHeight
 ;
 trySupScriptShift
 =
-PR_MAX
+NS_MAX
 (
 minSupScriptShift
-PR_MAX
+NS_MAX
 (
 minShiftFromXHeight
 supScriptShift
@@ -1109,7 +1109,7 @@ mBoundingMetrics
 .
 ascent
 =
-PR_MAX
+NS_MAX
 (
 mBoundingMetrics
 .
@@ -1121,7 +1121,7 @@ ascent
 ;
 ascent
 =
-PR_MAX
+NS_MAX
 (
 ascent
 supScriptSize
@@ -1131,7 +1131,7 @@ ascent
 ;
 width
 =
-PR_MAX
+NS_MAX
 (
 width
 bmSupScript
@@ -1143,7 +1143,7 @@ scriptSpace
 ;
 rightBearing
 =
-PR_MAX
+NS_MAX
 (
 rightBearing
 bmSupScript
@@ -1195,7 +1195,7 @@ mBoundingMetrics
 .
 leftBearing
 =
-PR_MIN
+NS_MIN
 (
 bmSubScript
 .
@@ -1307,7 +1307,7 @@ gap
 }
 maxSubScriptShift
 =
-PR_MAX
+NS_MAX
 (
 maxSubScriptShift
 trySubScriptShift
@@ -1315,7 +1315,7 @@ trySubScriptShift
 ;
 maxSupScriptShift
 =
-PR_MAX
+NS_MAX
 (
 maxSupScriptShift
 trySupScriptShift
@@ -1399,7 +1399,7 @@ mBoundingMetrics
 .
 ascent
 =
-PR_MAX
+NS_MAX
 (
 mBoundingMetrics
 .
@@ -1415,7 +1415,7 @@ mBoundingMetrics
 .
 descent
 =
-PR_MAX
+NS_MAX
 (
 mBoundingMetrics
 .
@@ -1431,7 +1431,7 @@ aDesiredSize
 .
 ascent
 =
-PR_MAX
+NS_MAX
 (
 ascent
 +
@@ -1449,7 +1449,7 @@ aDesiredSize
 .
 ascent
 +
-PR_MAX
+NS_MAX
 (
 descent
 +
@@ -1616,7 +1616,7 @@ bmSupScript
 ;
 width
 =
-PR_MAX
+NS_MAX
 (
 subScriptSize
 .

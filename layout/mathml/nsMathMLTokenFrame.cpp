@@ -797,7 +797,7 @@ aDesiredSize
 .
 ascent
 =
-PR_MAX
+NS_MAX
 (
 mBoundingMetrics
 .
@@ -813,7 +813,7 @@ aDesiredSize
 .
 ascent
 +
-PR_MAX
+NS_MAX
 (
 mBoundingMetrics
 .

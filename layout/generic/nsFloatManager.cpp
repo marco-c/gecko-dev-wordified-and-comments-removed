@@ -1939,7 +1939,7 @@ NS_STYLE_CLEAR_LEFT_AND_RIGHT
 :
 bottom
 =
-PR_MAX
+NS_MAX
 (
 bottom
 tail
@@ -1949,7 +1949,7 @@ mLeftYMost
 ;
 bottom
 =
-PR_MAX
+NS_MAX
 (
 bottom
 tail
@@ -1964,7 +1964,7 @@ NS_STYLE_CLEAR_LEFT
 :
 bottom
 =
-PR_MAX
+NS_MAX
 (
 bottom
 tail
@@ -1979,7 +1979,7 @@ NS_STYLE_CLEAR_RIGHT
 :
 bottom
 =
-PR_MAX
+NS_MAX
 (
 bottom
 tail

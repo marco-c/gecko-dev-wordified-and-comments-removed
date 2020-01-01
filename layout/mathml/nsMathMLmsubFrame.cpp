@@ -274,7 +274,7 @@ aScriptSpace
 {
 aScriptSpace
 =
-PR_MAX
+NS_MAX
 (
 nsPresContext
 :
@@ -460,7 +460,7 @@ dummy
 ;
 subScriptShift
 =
-PR_MAX
+NS_MAX
 (
 subScriptShift
 aUserSubScriptShift
@@ -469,10 +469,10 @@ aUserSubScriptShift
 nscoord
 actualSubScriptShift
 =
-PR_MAX
+NS_MAX
 (
 minSubScriptShift
-PR_MAX
+NS_MAX
 (
 subScriptShift
 minShiftFromXHeight
@@ -486,7 +486,7 @@ boundingMetrics
 .
 ascent
 =
-PR_MAX
+NS_MAX
 (
 bmBase
 .
@@ -502,7 +502,7 @@ boundingMetrics
 .
 descent
 =
-PR_MAX
+NS_MAX
 (
 bmBase
 .
@@ -540,7 +540,7 @@ boundingMetrics
 .
 rightBearing
 =
-PR_MAX
+NS_MAX
 (
 bmBase
 .
@@ -549,7 +549,7 @@ bmBase
 .
 width
 +
-PR_MAX
+NS_MAX
 (
 bmSubScript
 .
@@ -574,7 +574,7 @@ aDesiredSize
 .
 ascent
 =
-PR_MAX
+NS_MAX
 (
 baseSize
 .
@@ -594,7 +594,7 @@ aDesiredSize
 .
 ascent
 +
-PR_MAX
+NS_MAX
 (
 baseSize
 .

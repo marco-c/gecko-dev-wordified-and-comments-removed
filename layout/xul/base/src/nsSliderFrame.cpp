@@ -1551,7 +1551,7 @@ scrollbar
 ;
 maxPos
 =
-PR_MAX
+NS_MAX
 (
 minPos
 maxPos
@@ -1559,10 +1559,10 @@ maxPos
 ;
 curPos
 =
-PR_MAX
+NS_MAX
 (
 minPos
-PR_MIN
+NS_MIN
 (
 curPos
 maxPos
@@ -1644,7 +1644,7 @@ pageIncrement
 ;
 thumbLength
 =
-PR_MAX
+NS_MAX
 (
 thumbLength
 NSToCoordRound
@@ -2864,7 +2864,7 @@ scrollbar
 ;
 maxPos
 =
-PR_MAX
+NS_MAX
 (
 minPos
 maxPos
@@ -2872,10 +2872,10 @@ maxPos
 ;
 curPos
 =
-PR_MAX
+NS_MAX
 (
 minPos
-PR_MIN
+NS_MIN
 (
 curPos
 maxPos
