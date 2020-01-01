@@ -2434,6 +2434,16 @@ parentFile
 )
 )
 ;
+if
+(
+!
+parentFile
+)
+{
+return
+NS_OK
+;
+}
 nsCOMPtr
 <
 nsILocalFile
