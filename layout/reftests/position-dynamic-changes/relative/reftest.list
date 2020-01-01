@@ -1,3 +1,9 @@
+random
+-
+if
+(
+cocoaWidget
+)
 fuzzy
 -
 if
@@ -64,6 +70,12 @@ Bug
 688545
 bug
 742176
+random
+-
+if
+(
+cocoaWidget
+)
 fuzzy
 -
 if
