@@ -1572,7 +1572,7 @@ Info
 plist
 rsync
 -
-a
+av
 (
 DIST
 )
