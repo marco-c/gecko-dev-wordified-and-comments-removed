@@ -695,15 +695,6 @@ favicon
 !
 =
 null
-&
-&
-info
-.
-favicon
-.
-length
->
-0
 )
 {
 bitmap
