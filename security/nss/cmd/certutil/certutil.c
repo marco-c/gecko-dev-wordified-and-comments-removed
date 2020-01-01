@@ -1490,7 +1490,6 @@ trailerLen
 ;
 if
 (
-!
 result
 -
 >
