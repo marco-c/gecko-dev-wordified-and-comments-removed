@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+GuardObjects
+.
+h
+"
+#
+include
+"
 base
 /
 basictypes
@@ -106,7 +115,7 @@ const
 uint32_t
 mSavedOptions
 ;
-JS_DECL_USE_GUARD_OBJECT_NOTIFIER
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
 AutoContextPusher
@@ -114,7 +123,7 @@ AutoContextPusher
 JSContext
 *
 cx
-JS_GUARD_OBJECT_NOTIFIER_PARAM
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mRequest
@@ -141,7 +150,7 @@ JSOPTION_DONT_REPORT_UNCAUGHT
 )
 )
 {
-JS_GUARD_OBJECT_NOTIFIER_INIT
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 mStack
 .
@@ -263,7 +272,7 @@ AutoCheckOperation
 public
 ACOBase
 {
-JS_DECL_USE_GUARD_OBJECT_NOTIFIER
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
 AutoCheckOperation
@@ -274,7 +283,7 @@ owc
 OperationStatus
 *
 statusPtr
-JS_GUARD_OBJECT_NOTIFIER_PARAM
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 ACOBase
@@ -283,7 +292,7 @@ NULL
 owc
 )
 {
-JS_GUARD_OBJECT_NOTIFIER_INIT
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 SetStatusPtr
 (
