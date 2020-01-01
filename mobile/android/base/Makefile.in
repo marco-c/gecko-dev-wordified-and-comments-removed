@@ -5898,9 +5898,11 @@ values
 RES_DIRS
 )
 :
-rm
+(
+RM
+)
 -
-rf
+r
 (
 NSINSTALL
 )

@@ -676,6 +676,8 @@ OS_ARCH
 WINNT
 )
 #
+{
+#
 #
 Control
 the
@@ -745,6 +747,8 @@ bug
 #
 ifndef
 GNU_CC
+#
+{
 LDFLAGS
 +
 =
@@ -759,6 +763,8 @@ OS_TEST
 )
 x86_64
 )
+#
+{
 #
 set
 stack
@@ -779,8 +785,14 @@ STACK
 :
 2097152
 endif
+#
+}
 endif
+#
+}
 endif
+#
+}
 ifeq
 (
 cocoa
@@ -788,6 +800,8 @@ cocoa
 MOZ_WIDGET_TOOLKIT
 )
 )
+#
+{
 libs
 :
 :
@@ -996,9 +1010,9 @@ app
 Contents
 /
 MacOS
-rm
--
-f
+(
+RM
+)
 (
 DIST
 )
@@ -1009,3 +1023,5 @@ bin
 PROGRAM
 )
 endif
+#
+}
