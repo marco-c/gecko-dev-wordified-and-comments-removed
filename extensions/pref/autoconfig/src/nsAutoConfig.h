@@ -134,7 +134,6 @@ emailAddress
 ;
 nsCString
 mBuf
-mCurrProfile
 ;
 nsCOMPtr
 <
