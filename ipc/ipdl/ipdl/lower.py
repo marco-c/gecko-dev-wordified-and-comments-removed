@@ -5544,6 +5544,16 @@ msg
 ]
 )
         
+if
+self
+.
+asyncswitch
+.
+nr_cases
+>
+1
+:
+            
 asynchandler
 .
 addstmt
@@ -5614,6 +5624,16 @@ reply
 ]
 )
             
+if
+self
+.
+syncswitch
+.
+nr_cases
+>
+1
+:
+                
 synchandler
 .
 addstmt
@@ -5684,6 +5704,16 @@ reply
 ]
 )
                 
+if
+self
+.
+rpcswitch
+.
+nr_cases
+>
+1
+:
+                    
 rpchandler
 .
 addstmt
