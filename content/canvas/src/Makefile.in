@@ -171,6 +171,10 @@ CPPSRCS
 +
 =
 \
+WebGLBuffer
+.
+cpp
+\
 WebGLContext
 .
 cpp

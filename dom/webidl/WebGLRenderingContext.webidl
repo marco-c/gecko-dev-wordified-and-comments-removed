@@ -390,6 +390,8 @@ false
 /
 interface
 WebGLBuffer
+{
+}
 ;
 interface
 WebGLFramebuffer

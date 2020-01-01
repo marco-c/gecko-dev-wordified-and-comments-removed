@@ -1372,10 +1372,6 @@ MathMLElement
 )
 DOMCI_CLASS
 (
-WebGLBuffer
-)
-DOMCI_CLASS
-(
 WebGLProgram
 )
 DOMCI_CLASS
