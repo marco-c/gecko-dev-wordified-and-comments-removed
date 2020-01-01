@@ -36691,6 +36691,15 @@ namespaceID
 ;
 if
 (
+aContainer
+-
+>
+GetParent
+(
+)
+&
+&
+(
 tag
 =
 =
@@ -36731,6 +36740,7 @@ aUseXBLForms
 ShouldIgnoreSelectChild
 (
 aContainer
+)
 )
 )
 )
