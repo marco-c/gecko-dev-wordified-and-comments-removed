@@ -478,10 +478,6 @@ overrides
 .
 nsh
 \
-RealProgress
-.
-dll
-\
 ShellLink
 .
 dll
