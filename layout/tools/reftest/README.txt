@@ -521,7 +521,7 @@ Using
 skip
 '
 is
-prefered
+preferred
 to
 simply
 commenting
@@ -2202,7 +2202,7 @@ problems
 it
 is
 untested
-theough
+though
 .
 That
 said
