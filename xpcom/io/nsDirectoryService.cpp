@@ -317,6 +317,16 @@ dirService
 ;
 if
 (
+NS_FAILED
+(
+rv
+)
+)
+return
+rv
+;
+if
+(
 dirService
 )
 {
