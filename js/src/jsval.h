@@ -7,15 +7,6 @@ jsvalimpl_h__
 #
 include
 "
-mozilla
-/
-FloatingPoint
-.
-h
-"
-#
-include
-"
 js
 /
 Utility
