@@ -56,7 +56,7 @@ h
 "
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 #
 include
 "
@@ -338,7 +338,7 @@ mChildProcessHandle
 if
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_COCOA
 )
 mChildTask
 (
@@ -422,7 +422,7 @@ endif
 if
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_COCOA
 )
 if
 (
@@ -592,7 +592,7 @@ get
 ;
 #
 ifdef
-OS_MACOSX
+MOZ_WIDGET_COCOA
 exePath
 =
 exePath
@@ -659,7 +659,7 @@ endif
 }
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 class
 AutoCFTypeObject
 {
@@ -720,7 +720,7 @@ result
 ;
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 CFURLRef
 url
 =
@@ -932,7 +932,7 @@ type
 {
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 if
 (
 type
@@ -2511,7 +2511,7 @@ false
 elif
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_COCOA
 )
 childArgv
 .
@@ -2531,7 +2531,7 @@ endif
 endif
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 std
 :
 :
@@ -2637,7 +2637,7 @@ arch
 ;
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 const
 int
 kTimeoutMs
@@ -3222,7 +3222,7 @@ process
 if
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_COCOA
 )
 mChildTask
 =
