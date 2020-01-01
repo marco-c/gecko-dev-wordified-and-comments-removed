@@ -118,6 +118,9 @@ uint32_t
 maxInlineDepth
 ;
 uint32_t
+smallFunctionMaxInlineDepth
+;
+uint32_t
 smallFunctionMaxBytecodeLength
 ;
 uint32_t
@@ -236,6 +239,10 @@ maxStackArgs
 maxInlineDepth
 (
 3
+)
+smallFunctionMaxInlineDepth
+(
+10
 )
 smallFunctionMaxBytecodeLength
 (
