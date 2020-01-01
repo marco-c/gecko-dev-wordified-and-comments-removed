@@ -234,6 +234,12 @@ using
 mozilla
 :
 :
+LayerPoint
+;
+using
+mozilla
+:
+:
 gfx
 :
 :
@@ -877,7 +883,7 @@ clipRect
 bool
 isFixedPosition
 ;
-gfxPoint
+LayerPoint
 fixedPositionAnchor
 ;
 Margin
