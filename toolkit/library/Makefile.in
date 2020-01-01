@@ -1652,6 +1652,7 @@ call
 EXPAND_LIBNAME
 mfuuid
 wmcodecdspuuid
+strmiids
 )
 endif
 EXTRA_DEPS
