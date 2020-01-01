@@ -1113,6 +1113,10 @@ file_bug391728
 .
 html
 \
+test_bug454325
+.
+html
+\
 file_bug391728_2
 .
 html
