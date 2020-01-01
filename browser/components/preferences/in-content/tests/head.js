@@ -176,7 +176,7 @@ newTabBrowser
 addEventListener
 (
 "
-load
+Initialized
 "
 function
 (
@@ -187,7 +187,7 @@ newTabBrowser
 removeEventListener
 (
 "
-load
+Initialized
 "
 arguments
 .
