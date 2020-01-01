@@ -2774,13 +2774,6 @@ mPNG
 ;
 }
 }
-png_set_crc_action
-(
-png_ptr
-PNG_CRC_NO_CHANGE
-PNG_CRC_ERROR_QUIT
-)
-;
 if
 (
 !
