@@ -21151,14 +21151,11 @@ choiceSet
 )
 ;
 void
-trimToAndMaybePatchTargets
+trimToTargets
 (
 AutoObjectVector
 &
 targets
-AutoObjectVector
-&
-originals
 )
 ;
 }
