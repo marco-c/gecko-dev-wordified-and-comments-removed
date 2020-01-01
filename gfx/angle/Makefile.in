@@ -284,6 +284,10 @@ CPPSRCS
 +
 =
 \
+ArrayBoundsClamper
+.
+cpp
+\
 BuiltInFunctionEmulator
 .
 cpp

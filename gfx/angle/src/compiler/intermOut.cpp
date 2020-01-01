@@ -158,6 +158,17 @@ stream
 <
 "
 array
+[
+"
+<
+<
+getArraySize
+(
+)
+<
+<
+"
+]
 of
 "
 ;

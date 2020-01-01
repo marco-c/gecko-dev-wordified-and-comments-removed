@@ -74,6 +74,15 @@ getShaderType
 SH_FRAGMENT_SHADER
 )
 ;
+getArrayBoundsClamper
+(
+)
+.
+OutputClampingFunctionDefinition
+(
+sink
+)
+;
 TOutputESSL
 outputESSL
 (

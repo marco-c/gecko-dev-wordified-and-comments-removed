@@ -147,6 +147,15 @@ sink
 false
 )
 ;
+getArrayBoundsClamper
+(
+)
+.
+OutputClampingFunctionDefinition
+(
+sink
+)
+;
 TOutputGLSL
 outputGLSL
 (
