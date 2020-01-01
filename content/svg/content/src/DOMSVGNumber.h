@@ -81,9 +81,9 @@ DOMSVGNumber
 DOMSVGNumberList
 *
 aList
-PRUint32
-aAttrEnum
 PRUint8
+aAttrEnum
+PRUint32
 aListIndex
 PRUint8
 aIsAnimValItem
@@ -174,9 +174,9 @@ InsertingIntoList
 DOMSVGNumberList
 *
 aList
-PRUint32
-aAttrEnum
 PRUint8
+aAttrEnum
+PRUint32
 aListIndex
 PRUint8
 aIsAnimValItem
@@ -185,7 +185,7 @@ aIsAnimValItem
 void
 UpdateListIndex
 (
-PRUint8
+PRUint32
 aListIndex
 )
 {

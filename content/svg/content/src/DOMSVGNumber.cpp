@@ -140,9 +140,9 @@ DOMSVGNumber
 DOMSVGNumberList
 *
 aList
-PRUint32
-aAttrEnum
 PRUint8
+aAttrEnum
+PRUint32
 aListIndex
 PRUint8
 aIsAnimValItem
@@ -182,7 +182,7 @@ aAttrEnum
 1
 <
 <
-27
+4
 )
 &
 &
@@ -192,7 +192,7 @@ aListIndex
 1
 <
 <
-4
+27
 )
 &
 &
@@ -407,9 +407,9 @@ InsertingIntoList
 DOMSVGNumberList
 *
 aList
-PRUint32
-aAttrEnum
 PRUint8
+aAttrEnum
+PRUint32
 aListIndex
 PRUint8
 aIsAnimValItem
