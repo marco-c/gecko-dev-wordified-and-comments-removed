@@ -157,6 +157,9 @@ SmartCardEvent
 '
 StyleSheetChangeEvent
 '
+'
+StyleSheetApplicableStateChangeEvent
+'
 #
 ifdef
 MOZ_B2G_BT

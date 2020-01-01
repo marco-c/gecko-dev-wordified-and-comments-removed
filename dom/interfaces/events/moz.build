@@ -308,6 +308,11 @@ nsIDOMStyleSheetChangeEvent
 idl
 '
 '
+nsIDOMStyleSheetApplicableStateChangeEvent
+.
+idl
+'
+'
 nsIDOMTouchEvent
 .
 idl
