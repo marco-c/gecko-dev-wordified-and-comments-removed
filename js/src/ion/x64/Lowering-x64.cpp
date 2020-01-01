@@ -786,7 +786,7 @@ lir
 new
 LDivI
 (
-useFixedAtStart
+useFixed
 (
 div
 -

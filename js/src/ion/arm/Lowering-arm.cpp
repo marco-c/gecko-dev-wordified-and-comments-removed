@@ -1506,7 +1506,7 @@ lir
 new
 LDivI
 (
-useFixedAtStart
+useFixed
 (
 div
 -
@@ -1516,7 +1516,7 @@ lhs
 )
 r0
 )
-useFixedAtStart
+use
 (
 div
 -
@@ -1524,10 +1524,6 @@ div
 rhs
 (
 )
-r1
-)
-tempFixed
-(
 r1
 )
 tempFixed
