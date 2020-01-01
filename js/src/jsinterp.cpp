@@ -942,6 +942,8 @@ isObject
 )
 )
 return
+!
+!
 js_PrimitiveToObject
 (
 cx
@@ -1753,6 +1755,8 @@ clasp
 js_NoSuchMethodClass
 )
 return
+!
+!
 NoSuchMethod
 (
 cx
@@ -2171,6 +2175,8 @@ cx
 #
 endif
 return
+!
+!
 ok
 ;
 }
@@ -2909,6 +2915,8 @@ fp
 rval
 ;
 return
+!
+!
 ok
 ;
 }
@@ -3923,6 +3931,8 @@ hookData
 ;
 }
 return
+!
+!
 ok
 ;
 }
@@ -4344,6 +4354,8 @@ return
 JS_FALSE
 ;
 return
+!
+!
 JS_ReportErrorFlagsAndNumber
 (
 cx
@@ -4517,6 +4529,8 @@ lmask
 JSVAL_STRING_MASK
 )
 return
+!
+!
 js_EqualStrings
 (
 lval
@@ -5440,6 +5454,8 @@ UndefinedTag
 return
 BooleanTag
 (
+!
+!
 JSBOXEDWORD_TO_BOOLEAN
 (
 w
@@ -9330,6 +9346,8 @@ else
 \
 b
 =
+!
+!
 js_ValueToBoolean
 (
 *
@@ -10641,6 +10659,8 @@ true
 slow_path
 :
 return
+!
+!
 js_IteratorNext
 (
 cx
@@ -12242,7 +12262,7 @@ JSOp
 op
 ;
 #
-ifdef
+if
 JS_THREADED_INTERP
 {
 jsint
@@ -12858,8 +12878,6 @@ break
 ;
 #
 endif
-{
-jsint
 len
 =
 0
@@ -12869,7 +12887,6 @@ DO_NEXT_OP
 len
 )
 ;
-}
 case
 JSTRY_FINALLY
 :
@@ -12893,8 +12910,6 @@ throwing
 =
 JS_FALSE
 ;
-{
-jsint
 len
 =
 0
@@ -12904,7 +12919,6 @@ DO_NEXT_OP
 len
 )
 ;
-}
 case
 JSTRY_ITER
 :
