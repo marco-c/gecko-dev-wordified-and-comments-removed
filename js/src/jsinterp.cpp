@@ -24905,6 +24905,12 @@ vp
 +
 argc
 ;
+TRACE_1
+(
+ApplyComplete
+argc
+)
+;
 goto
 do_call_with_specified_vp_and_argc
 ;
