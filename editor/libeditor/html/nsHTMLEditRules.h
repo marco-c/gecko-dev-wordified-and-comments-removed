@@ -676,6 +676,11 @@ nsIEditor
 :
 EDirection
 aAction
+nsIEditor
+:
+:
+EStripWrappers
+aStripWrappers
 bool
 *
 aCancel

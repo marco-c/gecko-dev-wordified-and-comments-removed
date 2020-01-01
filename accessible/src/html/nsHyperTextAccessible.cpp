@@ -6221,6 +6221,10 @@ nsIEditor
 :
 :
 eNone
+nsIEditor
+:
+:
+eStrip
 )
 ;
 }

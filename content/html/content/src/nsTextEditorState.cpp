@@ -7147,6 +7147,10 @@ nsIEditor
 :
 :
 eNone
+nsIEditor
+:
+:
+eStrip
 )
 ;
 }
