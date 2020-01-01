@@ -4655,7 +4655,10 @@ mStringHash
 fontSetGen
 +
 (
-long
+PRUint32
+)
+(
+intptr_t
 )
 aKey
 -
