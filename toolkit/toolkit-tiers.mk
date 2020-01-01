@@ -839,6 +839,12 @@ endif
 tier_platform_dirs
 +
 =
+tools
+/
+profiler
+tier_platform_dirs
++
+=
 xpfe
 /
 components

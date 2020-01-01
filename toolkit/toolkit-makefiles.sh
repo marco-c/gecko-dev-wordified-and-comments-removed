@@ -6550,6 +6550,14 @@ stub
 Makefile
 "
 fi
+add_makefile
+"
+tools
+/
+profiler
+/
+Makefile
+"
 if
 [
 "
