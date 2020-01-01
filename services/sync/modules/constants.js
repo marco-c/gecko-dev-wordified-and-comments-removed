@@ -328,7 +328,7 @@ login
 .
 reason
 .
-password
+account
 "
 METARECORD_DOWNLOAD_FAIL
 :
