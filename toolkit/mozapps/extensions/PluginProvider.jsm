@@ -97,7 +97,7 @@ PluginProvider
 plugins
 :
 null
-getAddon
+getAddonByID
 :
 function
 PL_getAddon
@@ -314,7 +314,7 @@ plugins
 {
 this
 .
-getAddon
+getAddonByID
 (
 id
 function
@@ -339,10 +339,10 @@ results
 )
 ;
 }
-getAddonsWithPendingOperations
+getAddonsWithOperationsByTypes
 :
 function
-PL_getAddonsWithPendingOperations
+PL_getAddonsWithOperationsByTypes
 (
 aTypes
 aCallback
@@ -355,10 +355,10 @@ aCallback
 )
 ;
 }
-getInstalls
+getInstallsByTypes
 :
 function
-PL_getInstalls
+PL_getInstallsByTypes
 (
 aTypes
 aCallback

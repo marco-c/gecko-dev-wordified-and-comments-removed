@@ -99,7 +99,7 @@ length
 ;
 AddonManager
 .
-getAddonsWithPendingOperations
+getAddonsWithOperationsByTypes
 (
 null
 function

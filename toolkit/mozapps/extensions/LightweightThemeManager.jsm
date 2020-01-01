@@ -1563,7 +1563,7 @@ wrapper
 }
 }
 }
-getAddon
+getAddonByID
 :
 function
 (

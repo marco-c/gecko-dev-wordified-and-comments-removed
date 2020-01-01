@@ -519,7 +519,7 @@ run_test_1
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -769,7 +769,7 @@ ensure_test_completed
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -809,7 +809,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -882,7 +882,7 @@ run_test_3
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon2
@@ -1032,7 +1032,7 @@ check_test_3
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon2
@@ -1095,7 +1095,7 @@ run_test_4
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon3
@@ -1261,7 +1261,7 @@ run_test_5
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon3
@@ -1458,7 +1458,7 @@ check_test_5
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon3
@@ -1738,7 +1738,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -2170,7 +2170,7 @@ js
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 1
@@ -2270,7 +2270,7 @@ check_test_7
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 1
@@ -2942,7 +2942,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon2
@@ -3459,7 +3459,7 @@ Error
 ;
 AddonManager
 .
-getAddons
+getAddonsByIDs
 (
 [
 "
@@ -3815,7 +3815,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon4
@@ -3859,7 +3859,7 @@ run_test_10
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon4
@@ -3915,7 +3915,7 @@ run_test_11
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon4
@@ -3976,7 +3976,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon4
@@ -4131,7 +4131,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon7
@@ -4282,7 +4282,7 @@ check_test_13
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon7

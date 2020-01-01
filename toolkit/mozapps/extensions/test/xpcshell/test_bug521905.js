@@ -103,7 +103,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 ID
 function
@@ -164,7 +164,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 ID
 function
@@ -222,7 +222,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 ID
 function

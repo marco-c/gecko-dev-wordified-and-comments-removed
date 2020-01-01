@@ -404,7 +404,7 @@ InstallListener
 ;
 AddonManager
 .
-getAddons
+getAddonsByIDs
 (
 [
 "
@@ -619,7 +619,7 @@ onEnabling
 ;
 AddonManager
 .
-getAddons
+getAddonsByIDs
 (
 [
 "
@@ -755,7 +755,7 @@ theme2
 ;
 AddonManager
 .
-getAddons
+getAddonsByIDs
 (
 [
 "
@@ -980,7 +980,7 @@ classic
 ;
 AddonManager
 .
-getAddons
+getAddonsByIDs
 (
 [
 "
@@ -1387,7 +1387,7 @@ ensure_test_completed
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 1
@@ -1888,7 +1888,7 @@ ensure_test_completed
 ;
 AddonManager
 .
-getAddons
+getAddonsByIDs
 (
 [
 "
@@ -2154,7 +2154,7 @@ onEnabling
 ;
 AddonManager
 .
-getAddons
+getAddonsByIDs
 (
 [
 "
@@ -2367,7 +2367,7 @@ restartManager
 ;
 AddonManager
 .
-getAddons
+getAddonsByIDs
 (
 [
 "
@@ -2498,7 +2498,7 @@ onDisabling
 ;
 AddonManager
 .
-getAddons
+getAddonsByIDs
 (
 [
 "
@@ -2698,7 +2698,7 @@ restartManager
 ;
 AddonManager
 .
-getAddons
+getAddonsByIDs
 (
 [
 "
@@ -2821,7 +2821,7 @@ onUninstalled
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 1
@@ -2917,7 +2917,7 @@ onEnabled
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 2
@@ -2967,7 +2967,7 @@ run_test_9
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 theme1
@@ -3020,7 +3020,7 @@ ensure_test_completed
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 theme1
@@ -3059,7 +3059,7 @@ run_test_10
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 theme2
@@ -3125,7 +3125,7 @@ restartManager
 ;
 AddonManager
 .
-getAddons
+getAddonsByIDs
 (
 [
 "
@@ -3392,7 +3392,7 @@ check_test_11
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 theme1
@@ -3558,7 +3558,7 @@ check_test_12
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 theme1
@@ -3594,7 +3594,7 @@ run_test_13
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 theme1
@@ -3792,7 +3792,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 theme1

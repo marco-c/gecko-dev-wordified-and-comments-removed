@@ -360,9 +360,8 @@ rdf
 ;
 AddonManager
 .
-getInstalls
+getAllInstalls
 (
-null
 function
 (
 activeInstalls
@@ -387,7 +386,7 @@ install
 ;
 AddonManager
 .
-getInstalls
+getInstallsByTypes
 (
 [
 "
@@ -409,7 +408,7 @@ length
 ;
 AddonManager
 .
-getInstalls
+getInstallsByTypes
 (
 [
 "
@@ -497,7 +496,7 @@ ensure_test_completed
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -520,7 +519,7 @@ null
 ;
 AddonManager
 .
-getAddonsWithPendingOperations
+getAddonsWithOperationsByTypes
 (
 null
 function
@@ -561,9 +560,8 @@ restartManager
 ;
 AddonManager
 .
-getInstalls
+getAllInstalls
 (
-null
 function
 (
 activeInstalls
@@ -577,7 +575,7 @@ activeInstalls
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -955,9 +953,8 @@ STATE_AVAILABLE
 ;
 AddonManager
 .
-getInstalls
+getAllInstalls
 (
-null
 function
 (
 activeInstalls
@@ -1184,7 +1181,7 @@ ensure_test_completed
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon2
@@ -1212,9 +1209,8 @@ restartManager
 ;
 AddonManager
 .
-getInstalls
+getAllInstalls
 (
-null
 function
 (
 installs
@@ -1228,7 +1224,7 @@ installs
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon2
@@ -1517,9 +1513,8 @@ STATE_AVAILABLE
 ;
 AddonManager
 .
-getInstalls
+getAllInstalls
 (
-null
 function
 (
 activeInstalls
@@ -1738,7 +1733,7 @@ install
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon2
@@ -1774,7 +1769,7 @@ PENDING_UPGRADE
 ;
 AddonManager
 .
-getInstalls
+getInstallsByTypes
 (
 null
 function
@@ -1809,7 +1804,7 @@ restartManager
 ;
 AddonManager
 .
-getInstalls
+getInstallsByTypes
 (
 null
 function
@@ -1827,7 +1822,7 @@ length
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon2
@@ -2067,7 +2062,7 @@ STATE_AVAILABLE
 ;
 AddonManager
 .
-getInstalls
+getInstallsByTypes
 (
 null
 function
@@ -2254,7 +2249,7 @@ ensure_test_completed
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon3
@@ -2281,9 +2276,8 @@ restartManager
 ;
 AddonManager
 .
-getInstalls
+getAllInstalls
 (
-null
 function
 (
 installs
@@ -2297,7 +2291,7 @@ installs
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon3
@@ -2521,7 +2515,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon3
@@ -2725,7 +2719,7 @@ STATE_AVAILABLE
 ;
 AddonManager
 .
-getInstalls
+getInstallsByTypes
 (
 null
 function
@@ -2826,9 +2820,8 @@ ensure_test_completed
 ;
 AddonManager
 .
-getInstalls
+getAllInstalls
 (
-null
 function
 (
 activeInstalls
@@ -2941,7 +2934,7 @@ STATE_AVAILABLE
 ;
 AddonManager
 .
-getInstalls
+getInstallsByTypes
 (
 null
 function
@@ -3062,9 +3055,8 @@ ensure_test_completed
 ;
 AddonManager
 .
-getInstalls
+getAllInstalls
 (
-null
 function
 (
 activeInstalls
