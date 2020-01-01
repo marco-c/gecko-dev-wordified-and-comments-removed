@@ -4623,10 +4623,6 @@ overflowDeltaY
 .
 0
 )
-viewPortIsScrollTargetParent
-(
-false
-)
 {
 }
 double
@@ -4766,9 +4762,6 @@ overflowDeltaX
 ;
 double
 overflowDeltaY
-;
-bool
-viewPortIsScrollTargetParent
 ;
 }
 ;
