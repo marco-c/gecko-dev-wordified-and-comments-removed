@@ -2593,6 +2593,11 @@ mHasHadScriptHandlingObject
 :
 1
 ;
+PRPackedBool
+mHasWarnedAboutBoxObjects
+:
+1
+;
 PRUint8
 mXMLDeclarationBits
 ;
@@ -2601,7 +2606,7 @@ mDefaultElementType
 ;
 nsInterfaceHashtable
 <
-nsISupportsHashKey
+nsVoidPtrHashKey
 nsPIBoxObject
 >
 *
