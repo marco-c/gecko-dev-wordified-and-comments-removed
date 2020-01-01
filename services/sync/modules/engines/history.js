@@ -2208,9 +2208,7 @@ entry
 +
 record
 .
-cleartext
-.
-uri
+histUri
 )
 ;
 let
@@ -2222,9 +2220,7 @@ makeURI
 (
 record
 .
-cleartext
-.
-uri
+histUri
 )
 ;
 let
@@ -2250,9 +2246,7 @@ _getVisits
 (
 record
 .
-cleartext
-.
-uri
+histUri
 )
 ;
 let
@@ -2371,9 +2365,7 @@ _getGUID
 (
 record
 .
-cleartext
-.
-uri
+histUri
 )
 ;
 if
