@@ -2914,8 +2914,6 @@ png
 tabbrowser
 /
 alltabs
--
-aero
 .
 png
 )
@@ -2936,8 +2934,6 @@ png
 tabbrowser
 /
 newtab
--
-aero
 .
 png
 )
@@ -3030,8 +3026,6 @@ tab
 arrow
 -
 left
--
-aero
 .
 png
 )
@@ -3060,8 +3054,6 @@ tab
 arrow
 -
 right
--
-aero
 .
 png
 )
@@ -3082,8 +3074,6 @@ png
 tabbrowser
 /
 tabDragIndicator
--
-aero
 .
 png
 )
