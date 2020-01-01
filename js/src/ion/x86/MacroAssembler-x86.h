@@ -5382,7 +5382,14 @@ FloatRegister
 &
 dest
 )
+{
+movsd
+(
+dp
+dest
+)
 ;
+}
 void
 branchTruncateDouble
 (
