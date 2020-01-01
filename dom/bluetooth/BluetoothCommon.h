@@ -339,6 +339,12 @@ pairedstatuschanged
 "
 #
 define
+REQUEST_MEDIA_PLAYSTATUS_ID
+"
+requestmediaplaystatus
+"
+#
+define
 BLUETOOTH_ADDRESS_LENGTH
 17
 #
