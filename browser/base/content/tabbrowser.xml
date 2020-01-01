@@ -9423,6 +9423,14 @@ the
 document
 successfully
 loads
+if
+(
+!
+isBlankPageURL
+(
+aURI
+)
+)
 b
 .
 userTypedValue
