@@ -10640,10 +10640,6 @@ happen
 return
 ;
 }
-mPositioningDirty
-=
-true
-;
 UpdateGlyphPositioning
 (
 )
