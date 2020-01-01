@@ -737,6 +737,14 @@ nsContainerFrame
 (
 )
 ;
+void
+DestroyAbsoluteFrames
+(
+nsIFrame
+*
+aDestructRoot
+)
+;
 nsresult
 BuildDisplayListForNonBlockChildren
 (

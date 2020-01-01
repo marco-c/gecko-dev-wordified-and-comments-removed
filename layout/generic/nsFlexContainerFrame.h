@@ -196,15 +196,6 @@ nsFlexContainerFrame
 (
 )
 ;
-virtual
-void
-DestroyFrom
-(
-nsIFrame
-*
-aDestructRoot
-)
-;
 #
 ifdef
 DEBUG

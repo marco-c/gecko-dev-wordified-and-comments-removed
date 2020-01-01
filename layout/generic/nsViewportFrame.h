@@ -63,16 +63,6 @@ ViewportFrame
 )
 {
 }
-virtual
-void
-DestroyFrom
-(
-nsIFrame
-*
-aDestructRoot
-)
-MOZ_OVERRIDE
-;
 NS_IMETHOD
 Init
 (

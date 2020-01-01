@@ -3784,11 +3784,6 @@ SetLayoutManager
 nullptr
 )
 ;
-DestroyAbsoluteFrames
-(
-aDestructRoot
-)
-;
 nsContainerFrame
 :
 :

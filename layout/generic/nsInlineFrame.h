@@ -194,16 +194,6 @@ IsSelfEmpty
 MOZ_OVERRIDE
 ;
 virtual
-void
-DestroyFrom
-(
-nsIFrame
-*
-aDestructRoot
-)
-MOZ_OVERRIDE
-;
-virtual
 bool
 PeekOffsetCharacter
 (

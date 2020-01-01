@@ -186,11 +186,6 @@ nsIFrame
 aDestructRoot
 )
 {
-DestroyAbsoluteFrames
-(
-aDestructRoot
-)
-;
 nsIScrollableFrame
 *
 sf
