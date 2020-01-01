@@ -878,6 +878,12 @@ else
 {
 if
 (
+!
+notification
+.
+dismissed
+&
+&
 browser
 =
 =
