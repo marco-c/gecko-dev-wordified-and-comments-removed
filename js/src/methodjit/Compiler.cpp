@@ -23027,6 +23027,12 @@ useCountAddress
 ;
 if
 (
+isConstructing
+)
+return
+;
+if
+(
 !
 recompileCheckForIon
 )
