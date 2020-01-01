@@ -7323,7 +7323,7 @@ ex
 )
 {
 }
-BookmarksMenuButton
+BookmarkingUI
 .
 uninit
 (
@@ -11933,7 +11933,7 @@ SetPageProxyState
 aState
 )
 {
-BookmarksMenuButton
+BookmarkingUI
 .
 onPageProxyStateChanged
 (
@@ -17631,7 +17631,7 @@ customizeStart
 (
 )
 ;
-BookmarksMenuButton
+BookmarkingUI
 .
 customizeStart
 (
@@ -17995,7 +17995,7 @@ customizeDone
 (
 )
 ;
-BookmarksMenuButton
+BookmarkingUI
 .
 customizeDone
 (
@@ -18036,7 +18036,7 @@ asyncUpdateUI
 (
 )
 ;
-BookmarksMenuButton
+BookmarkingUI
 .
 updateStarState
 (
@@ -18182,7 +18182,7 @@ updatePersonalToolbarStyle
 (
 )
 ;
-BookmarksMenuButton
+BookmarkingUI
 .
 customizeChange
 (
@@ -20169,7 +20169,7 @@ URLBarSetURI
 aLocationURI
 )
 ;
-BookmarksMenuButton
+BookmarkingUI
 .
 updateStarState
 (
@@ -23703,7 +23703,7 @@ init
 (
 )
 ;
-BookmarksMenuButton
+BookmarkingUI
 .
 onToolbarVisibilityChange
 (
