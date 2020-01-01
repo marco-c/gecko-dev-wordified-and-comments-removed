@@ -77,6 +77,8 @@ L
 nosplash
 -
 faststart
+-
+hidden
 "
 )
 ;
