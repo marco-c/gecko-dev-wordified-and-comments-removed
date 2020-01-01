@@ -145,7 +145,7 @@ capitalizeNextChar
 nsContentUtils
 :
 :
-IsPunctuationMark
+IsFirstLetterPunctuation
 (
 aWord
 [

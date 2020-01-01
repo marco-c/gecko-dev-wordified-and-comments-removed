@@ -199,13 +199,6 @@ h
 #
 include
 "
-nsContentPolicyUtils
-.
-h
-"
-#
-include
-"
 nsIDOMDocument
 .
 h

@@ -88,13 +88,6 @@ h
 #
 include
 "
-nsContainerFrame
-.
-h
-"
-#
-include
-"
 nsFirstLetterFrame
 .
 h

@@ -178,13 +178,6 @@ h
 #
 include
 "
-nsISelectionListener
-.
-h
-"
-#
-include
-"
 nsIContentIterator
 .
 h
@@ -328,13 +321,6 @@ h
 include
 "
 nsFrameManager
-.
-h
-"
-#
-include
-"
-nsIScrollableFrame
 .
 h
 "

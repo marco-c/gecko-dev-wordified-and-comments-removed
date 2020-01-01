@@ -200,14 +200,12 @@ sqlite
 MEMORY_STORAGE_SQLITE
 "
 "
-explicit
-/
 images
-/
+-
 content
-/
+-
 used
-/
+-
 uncompressed
 "
 :

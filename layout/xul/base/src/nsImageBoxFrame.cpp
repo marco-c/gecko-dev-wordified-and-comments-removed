@@ -92,13 +92,6 @@ h
 #
 include
 "
-nsStyleConsts
-.
-h
-"
-#
-include
-"
 nsImageMap
 .
 h
@@ -170,13 +163,6 @@ h
 include
 "
 nsIDOMHTMLMapElement
-.
-h
-"
-#
-include
-"
-nsBoxLayoutState
 .
 h
 "

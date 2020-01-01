@@ -204,13 +204,6 @@ h
 #
 include
 "
-nsThemeConstants
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

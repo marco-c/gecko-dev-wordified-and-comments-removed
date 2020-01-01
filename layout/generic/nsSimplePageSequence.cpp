@@ -127,13 +127,6 @@ OFFSET_NOT_SET
 #
 include
 "
-nsIPrintSettings
-.
-h
-"
-#
-include
-"
 nsIPrintOptions
 .
 h

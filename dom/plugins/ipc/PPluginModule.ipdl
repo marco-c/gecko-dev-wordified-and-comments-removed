@@ -742,6 +742,8 @@ rv
 rpc
 NP_Initialize
 (
+uint32_t
+aFlags
 )
 returns
 (
