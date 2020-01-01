@@ -196,9 +196,9 @@ static
 PRInt32
 GetARIAOrDefaultLevel
 (
-nsIAccessible
+nsAccessible
 *
-aAcc
+aAccessible
 )
 ;
 static
@@ -476,7 +476,7 @@ static
 PRBool
 IsARIASelected
 (
-nsIAccessible
+nsAccessible
 *
 aAccessible
 )

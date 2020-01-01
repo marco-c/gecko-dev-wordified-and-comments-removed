@@ -949,7 +949,7 @@ static
 HWND
 GetHWNDFor
 (
-nsIAccessible
+nsAccessible
 *
 aAccessible
 )

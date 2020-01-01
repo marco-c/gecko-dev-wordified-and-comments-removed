@@ -311,7 +311,7 @@ nsIFrame
 aFromFrame
 PRInt32
 aFromOffset
-nsIAccessible
+nsAccessible
 *
 aFromAccessible
 nsSelectionAmount
