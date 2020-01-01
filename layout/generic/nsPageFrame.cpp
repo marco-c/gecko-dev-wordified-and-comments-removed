@@ -1827,7 +1827,7 @@ aRenderingContext
 SetClipRect
 (
 aRect
-nsClipCombine_kReplace
+nsClipCombine_kIntersect
 )
 ;
 nsLayoutUtils
