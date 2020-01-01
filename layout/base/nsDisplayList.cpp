@@ -1838,17 +1838,6 @@ anyVisible
 =
 PR_TRUE
 ;
-nsIFrame
-*
-f
-=
-item
--
->
-GetUnderlyingFrame
-(
-)
-;
 PRBool
 transparentBackground
 =
@@ -1863,9 +1852,6 @@ aBuilder
 &
 transparentBackground
 )
-&
-&
-f
 )
 {
 aBuilder
