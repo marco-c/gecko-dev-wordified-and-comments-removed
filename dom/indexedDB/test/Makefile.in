@@ -660,6 +660,10 @@ browser_permissionsPromptDeny
 .
 js
 \
+browser_privateBrowsing
+.
+js
+\
 browser_quotaPrompt
 .
 html
