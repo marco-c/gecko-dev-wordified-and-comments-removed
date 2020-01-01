@@ -3583,9 +3583,11 @@ int64
 *
 timestamp
 ;
-JS_ARENA_ALLOCATE
+JS_ARENA_ALLOCATE_CAST
 (
 timestamp
+int64
+*
 &
 cx
 -
