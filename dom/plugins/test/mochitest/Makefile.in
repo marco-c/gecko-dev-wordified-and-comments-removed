@@ -690,6 +690,10 @@ test_NPPVpluginWantsAllNetworkStreams
 .
 html
 \
+test_npruntime_npnsetexception
+.
+html
+\
 (
 NULL
 )
@@ -700,14 +704,6 @@ html
 \
 bug
 596491
-#
-test_npruntime_npnsetexception
-.
-html
-\
-Disabled
-for
-e10s
 ifeq
 (
 (

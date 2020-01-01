@@ -457,6 +457,10 @@ protocol
 PPluginInstance
 ;
 include
+protocol
+PPluginScriptableObject
+;
+include
 "
 npapi
 .
@@ -1149,6 +1153,16 @@ returns
 (
 bool
 supported
+)
+;
+sync
+NPN_SetException
+(
+nullable
+PPluginScriptableObject
+actor
+nsCString
+message
 )
 ;
 }
