@@ -231,6 +231,8 @@ const
 nsAString
 &
 aSpecifiedValue
+PRBool
+aUseSVGMode
 Value
 &
 aComputedValue

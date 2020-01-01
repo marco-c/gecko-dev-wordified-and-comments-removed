@@ -172,6 +172,8 @@ const
 nsAString
 &
 aString
+PRBool
+aUseSVGMode
 nsSMILValue
 &
 aValue

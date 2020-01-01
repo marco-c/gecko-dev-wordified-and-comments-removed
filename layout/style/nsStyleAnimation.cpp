@@ -5148,6 +5148,8 @@ const
 nsAString
 &
 aSpecifiedValue
+PRBool
+aUseSVGMode
 )
 {
 nsCSSDeclaration
@@ -5223,6 +5225,19 @@ CSSLoader
 )
 )
 ;
+if
+(
+aUseSVGMode
+)
+{
+parser
+.
+SetSVGMode
+(
+PR_TRUE
+)
+;
+}
 nsCSSProperty
 propertyToCheck
 =
@@ -5414,6 +5429,8 @@ const
 nsAString
 &
 aSpecifiedValue
+PRBool
+aUseSVGMode
 )
 {
 NS_ABORT_IF_FALSE
@@ -5490,6 +5507,7 @@ BuildStyleRule
 aProperty
 aTargetElement
 aSpecifiedValue
+aUseSVGMode
 )
 ;
 if
@@ -5587,6 +5605,8 @@ const
 nsAString
 &
 aSpecifiedValue
+PRBool
+aUseSVGMode
 Value
 &
 aComputedValue
@@ -5641,6 +5661,7 @@ StyleWithDeclarationAdded
 aProperty
 aTargetElement
 aSpecifiedValue
+aUseSVGMode
 )
 ;
 if
