@@ -3062,6 +3062,9 @@ js
 TraceMonitor
 traceMonitor
 ;
+unsigned
+iterationCounter
+;
 #
 endif
 #
