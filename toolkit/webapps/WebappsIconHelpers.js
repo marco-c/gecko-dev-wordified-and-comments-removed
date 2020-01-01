@@ -16,9 +16,11 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
+/
+icons
 /
 webapps
 -
@@ -54,9 +56,11 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
+/
+icons
 /
 webapps
 -
