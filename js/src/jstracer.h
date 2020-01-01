@@ -880,10 +880,6 @@ block
 intptr_t
 ip_adj
 ;
-uint8
-*
-typemap
-;
 union
 {
 struct
