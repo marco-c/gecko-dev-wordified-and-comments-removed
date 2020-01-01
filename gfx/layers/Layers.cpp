@@ -2266,7 +2266,7 @@ GetContentFlags
 (
 )
 &
-CONTENT_NO_TEXT_OVER_TRANSPARENT
+CONTENT_COMPONENT_ALPHA
 )
 {
 aTo
@@ -2274,7 +2274,7 @@ aTo
 =
 "
 [
-noTextOverTransparent
+componentAlpha
 ]
 "
 ;
