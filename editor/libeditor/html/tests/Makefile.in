@@ -595,6 +595,14 @@ test_bug668599
 .
 html
 \
+test_bug674770
+.
+html
+\
+file_bug674770
+.
+html
+\
 test_bug674861
 .
 html
