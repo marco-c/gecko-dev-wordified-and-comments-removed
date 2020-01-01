@@ -682,9 +682,6 @@ IsSync
 const
 {
 return
-!
-!
-(
 mOwner
 -
 >
@@ -693,7 +690,6 @@ GetProxyType
 )
 &
 NS_PROXY_SYNC
-)
 ;
 }
 private

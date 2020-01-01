@@ -3421,8 +3421,6 @@ value
 mDestroyElementFun
 )
 return
-!
-!
 (
 *
 mDestroyElementFun

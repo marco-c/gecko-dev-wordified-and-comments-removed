@@ -968,8 +968,9 @@ GetCompleted
 )
 {
 return
-!
-!
+(
+PRBool
+)
 mCompleted
 ;
 }
