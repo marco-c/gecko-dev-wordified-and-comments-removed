@@ -973,7 +973,13 @@ return
 *
 proxy
 =
+mozilla
+:
+:
 dom
+:
+:
+binding
 :
 :
 instanceIsProxy

@@ -227,10 +227,13 @@ mChromeOnly
 bool
 mDisabled
 ;
-xpc
+mozilla
 :
 :
 dom
+:
+:
+binding
 :
 :
 DefineInterface

@@ -142,10 +142,13 @@ IsProxy
 (
 )
 ?
-xpc
+mozilla
 :
 :
 dom
+:
+:
+binding
 :
 :
 instanceIsProxy

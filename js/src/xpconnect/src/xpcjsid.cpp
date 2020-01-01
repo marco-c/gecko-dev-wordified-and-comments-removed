@@ -1844,10 +1844,13 @@ NS_ERROR_FAILURE
 }
 if
 (
-xpc
+mozilla
 :
 :
 dom
+:
+:
+binding
 :
 :
 instanceIsProxy

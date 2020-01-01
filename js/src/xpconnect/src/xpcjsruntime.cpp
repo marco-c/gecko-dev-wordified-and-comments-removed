@@ -10680,10 +10680,13 @@ str
 }
 ok
 =
-xpc
+mozilla
 :
 :
 dom
+:
+:
+binding
 :
 :
 DefineStaticJSVals

@@ -231,10 +231,13 @@ triedToWrap
 )
 {
 return
-xpc
+mozilla
 :
 :
 dom
+:
+:
+binding
 :
 :
 NodeListBase

@@ -827,12 +827,11 @@ closure
 ;
 }
 }
-}
-namespace
-xpc
-{
 namespace
 dom
+{
+namespace
+binding
 {
 extern
 int
@@ -978,6 +977,7 @@ nsresult
 aResult
 )
 ;
+}
 }
 }
 #
