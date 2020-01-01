@@ -514,7 +514,7 @@ if
 profile
 )
 {
-uint32_t
+size_t
 len
 =
 strlen
@@ -1309,7 +1309,7 @@ i
 +
 )
 {
-uint32_t
+size_t
 strLen
 =
 strlen
