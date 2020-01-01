@@ -1369,6 +1369,12 @@ return
 ;
 }
 }
+Logger
+.
+refreshLogLevels
+(
+)
+;
 Log
 .
 i

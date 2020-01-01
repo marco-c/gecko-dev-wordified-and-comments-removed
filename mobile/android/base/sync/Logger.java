@@ -137,6 +137,7 @@ Boolean
 )
 ;
 public
+static
 synchronized
 void
 refreshLogLevels
