@@ -597,6 +597,13 @@ PrefsSource
 java
 sync
 /
+receivers
+/
+UpgradeReceiver
+.
+java
+sync
+/
 repositories
 /
 android

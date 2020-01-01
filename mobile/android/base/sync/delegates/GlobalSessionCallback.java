@@ -88,6 +88,13 @@ failedClusterURL
 )
 ;
 void
+informUpgradeRequiredResponse
+(
+GlobalSession
+session
+)
+;
+void
 handleAborted
 (
 GlobalSession
