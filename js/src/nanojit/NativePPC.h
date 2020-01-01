@@ -816,7 +816,7 @@ link
 void
 asm_regarg
 (
-ArgType
+ArgSize
 LIns
 *
 Register

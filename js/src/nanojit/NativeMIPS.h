@@ -1152,8 +1152,8 @@ s
 void
 asm_regarg
 (
-ArgType
-ty
+ArgSize
+sz
 LInsp
 p
 Register
@@ -1174,8 +1174,8 @@ stkd
 void
 asm_arg
 (
-ArgType
-ty
+ArgSize
+sz
 LInsp
 arg
 Register
