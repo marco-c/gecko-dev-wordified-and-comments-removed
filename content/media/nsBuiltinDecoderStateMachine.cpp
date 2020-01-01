@@ -194,6 +194,18 @@ LOW_VIDEO_FRAMES
 =
 1
 ;
+#
+ifdef
+MOZ_WIDGET_GONK
+static
+const
+uint32_t
+AMPLE_VIDEO_FRAMES
+=
+3
+;
+#
+else
 static
 const
 uint32_t
@@ -201,6 +213,8 @@ AMPLE_VIDEO_FRAMES
 =
 10
 ;
+#
+endif
 static
 const
 int
