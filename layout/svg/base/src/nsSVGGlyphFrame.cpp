@@ -5842,13 +5842,8 @@ gfxFloat
 advance
 =
 mCurrentAdvance
-/
-nsSVGGlyphFrame
-:
-:
-GetTextRunUnitsFactor
-(
-)
+*
+mMetricsScale
 ;
 CharacterPosition
 cp
