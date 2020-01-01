@@ -613,6 +613,12 @@ breakpoints
 .
 js
 \
+browser_dbg_bug731394_editor
+-
+contextmenu
+.
+js
+\
 head
 .
 js
