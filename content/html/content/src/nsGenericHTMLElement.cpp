@@ -522,7 +522,7 @@ h
 #
 include
 "
-nsPLDOMEvent
+nsAsyncDOMEvent
 .
 h
 "
@@ -15136,12 +15136,12 @@ FullScreenDeniedNotInputDriven
 ;
 nsRefPtr
 <
-nsPLDOMEvent
+nsAsyncDOMEvent
 >
 e
 =
 new
-nsPLDOMEvent
+nsAsyncDOMEvent
 (
 OwnerDoc
 (

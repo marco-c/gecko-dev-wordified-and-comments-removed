@@ -534,7 +534,7 @@ nsXMLEventsElement
 .
 cpp
 \
-nsPLDOMEvent
+nsAsyncDOMEvent
 .
 cpp
 \

@@ -437,7 +437,7 @@ nsIPrivateTextRange
 .
 h
 \
-nsPLDOMEvent
+nsAsyncDOMEvent
 .
 h
 \

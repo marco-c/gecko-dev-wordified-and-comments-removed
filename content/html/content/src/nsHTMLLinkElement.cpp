@@ -148,7 +148,7 @@ h
 #
 include
 "
-nsPLDOMEvent
+nsAsyncDOMEvent
 .
 h
 "
@@ -981,12 +981,12 @@ return
 ;
 nsRefPtr
 <
-nsPLDOMEvent
+nsAsyncDOMEvent
 >
 event
 =
 new
-nsPLDOMEvent
+nsAsyncDOMEvent
 (
 this
 aEventName

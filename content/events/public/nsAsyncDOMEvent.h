@@ -1,9 +1,9 @@
 #
 ifndef
-nsPLDOMEvent_h___
+nsAsyncDOMEvent_h___
 #
 define
-nsPLDOMEvent_h___
+nsAsyncDOMEvent_h___
 #
 include
 "
@@ -47,14 +47,14 @@ nsIDocument
 h
 "
 class
-nsPLDOMEvent
+nsAsyncDOMEvent
 :
 public
 nsRunnable
 {
 public
 :
-nsPLDOMEvent
+nsAsyncDOMEvent
 (
 nsINode
 *
@@ -87,7 +87,7 @@ aDispatchChromeOnly
 )
 {
 }
-nsPLDOMEvent
+nsAsyncDOMEvent
 (
 nsINode
 *
@@ -111,7 +111,7 @@ false
 )
 {
 }
-nsPLDOMEvent
+nsAsyncDOMEvent
 (
 nsINode
 *
@@ -163,7 +163,7 @@ class
 nsLoadBlockingPLDOMEvent
 :
 public
-nsPLDOMEvent
+nsAsyncDOMEvent
 {
 public
 :
@@ -182,7 +182,7 @@ bool
 aDispatchChromeOnly
 )
 :
-nsPLDOMEvent
+nsAsyncDOMEvent
 (
 aEventNode
 aEventType
@@ -223,7 +223,7 @@ nsIDOMEvent
 aEvent
 )
 :
-nsPLDOMEvent
+nsAsyncDOMEvent
 (
 aEventNode
 aEvent

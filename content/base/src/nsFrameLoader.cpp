@@ -304,7 +304,7 @@ h
 #
 include
 "
-nsPLDOMEvent
+nsAsyncDOMEvent
 .
 h
 "
@@ -1559,7 +1559,7 @@ mOwnerContent
 {
 nsRefPtr
 <
-nsPLDOMEvent
+nsAsyncDOMEvent
 >
 event
 =

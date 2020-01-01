@@ -136,7 +136,7 @@ h
 #
 include
 "
-nsPLDOMEvent
+nsAsyncDOMEvent
 .
 h
 "
@@ -9838,12 +9838,12 @@ target
 {
 nsRefPtr
 <
-nsPLDOMEvent
+nsAsyncDOMEvent
 >
 event
 =
 new
-nsPLDOMEvent
+nsAsyncDOMEvent
 (
 target
 aDOMEventName
@@ -9869,7 +9869,7 @@ NS_WARNING
 Failed
 to
 dispatch
-nsPLDOMEvent
+nsAsyncDOMEvent
 "
 )
 ;

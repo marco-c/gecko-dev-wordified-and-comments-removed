@@ -432,7 +432,7 @@ h
 #
 include
 "
-nsPLDOMEvent
+nsAsyncDOMEvent
 .
 h
 "
@@ -5986,7 +5986,7 @@ this
 ;
 (
 new
-nsPLDOMEvent
+nsAsyncDOMEvent
 (
 this
 mutation
