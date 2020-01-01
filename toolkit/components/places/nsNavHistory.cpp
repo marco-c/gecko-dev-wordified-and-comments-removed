@@ -5357,6 +5357,16 @@ EqualsLiteral
 javascript
 "
 )
+|
+|
+scheme
+.
+EqualsLiteral
+(
+"
+blob
+"
+)
 )
 {
 *

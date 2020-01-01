@@ -1639,6 +1639,11 @@ wolrd
 )
 ;
 "
+"
+blob
+:
+foo
+"
 ]
 ;
 let
