@@ -411,15 +411,6 @@ navigation
 MODULE
 =
 test_docshell
-DIRS
-+
-=
-(
-NULL
-)
-XPCSHELL_TESTS
-=
-unit
 include
 (
 DEPTH
