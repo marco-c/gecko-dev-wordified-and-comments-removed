@@ -3925,6 +3925,15 @@ part
 )
 ;
 }
+if
+(
+!
+part
+)
+{
+continue
+;
+}
 let
 partHeaders
 =
