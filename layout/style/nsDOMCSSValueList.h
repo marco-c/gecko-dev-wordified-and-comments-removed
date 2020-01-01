@@ -57,7 +57,7 @@ nsDOMCSSValueList
 (
 )
 ;
-PRBool
+void
 AppendCSSValue
 (
 nsIDOMCSSValue
@@ -76,9 +76,10 @@ aIndex
 return
 mCSSValues
 .
-SafeObjectAt
+SafeElementAt
 (
 aIndex
+nsnull
 )
 ;
 }
@@ -150,9 +151,12 @@ mCommaDelimited
 PRPackedBool
 mReadonly
 ;
-nsCOMArray
+InfallibleTArray
+<
+nsCOMPtr
 <
 nsIDOMCSSValue
+>
 >
 mCSSValues
 ;
