@@ -4999,7 +4999,7 @@ NS_OK
 }
 }
 return
-NS_OK
+NS_ERROR_DOM_BAD_URI
 ;
 }
 NS_ERROR
