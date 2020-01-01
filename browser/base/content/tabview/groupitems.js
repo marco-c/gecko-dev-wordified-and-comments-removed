@@ -9147,6 +9147,7 @@ null
 newGroup
 :
 function
+GroupItems_newGroup
 (
 )
 {

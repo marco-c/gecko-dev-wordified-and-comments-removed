@@ -1617,6 +1617,8 @@ tbattr
 tabbrowser
 -
 multiple
+-
+visible
 "
 oncommand
 =
