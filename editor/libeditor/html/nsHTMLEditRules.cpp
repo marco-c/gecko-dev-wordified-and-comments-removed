@@ -3375,7 +3375,10 @@ li
 {
 if
 (
-nsINode
+dom
+:
+:
+Element
 *
 parent
 =
@@ -3390,11 +3393,6 @@ GetElementParent
 if
 (
 parent
--
->
-AsElement
-(
-)
 -
 >
 IsHTML
@@ -3416,11 +3414,6 @@ else
 if
 (
 parent
--
->
-AsElement
-(
-)
 -
 >
 IsHTML

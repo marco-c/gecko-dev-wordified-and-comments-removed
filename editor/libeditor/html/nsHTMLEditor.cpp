@@ -9134,7 +9134,10 @@ res
 ;
 nsCOMPtr
 <
-nsINode
+dom
+:
+:
+Element
 >
 element
 =
@@ -9149,11 +9152,6 @@ element
 )
 {
 element
--
->
-AsElement
-(
-)
 -
 >
 GetAttr
@@ -9183,11 +9181,6 @@ NS_OK
 if
 (
 element
--
->
-AsElement
-(
-)
 -
 >
 IsHTML
