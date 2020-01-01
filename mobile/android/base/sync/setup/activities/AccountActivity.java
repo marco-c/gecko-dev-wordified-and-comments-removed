@@ -36,7 +36,7 @@ gecko
 .
 sync
 .
-GlobalConstants
+SyncConstants
 ;
 import
 org
@@ -386,6 +386,12 @@ layout
 sync_account
 )
 ;
+ActivityUtils
+.
+prepareLogging
+(
+)
+;
 mContext
 =
 getApplicationContext
@@ -702,6 +708,12 @@ onResume
 super
 .
 onResume
+(
+)
+;
+ActivityUtils
+.
+prepareLogging
 (
 )
 ;
@@ -1439,7 +1451,7 @@ putString
 AccountManager
 .
 KEY_ACCOUNT_TYPE
-GlobalConstants
+SyncConstants
 .
 ACCOUNTTYPE_SYNC
 )
@@ -1451,7 +1463,7 @@ putString
 AccountManager
 .
 KEY_AUTHTOKEN
-GlobalConstants
+SyncConstants
 .
 ACCOUNTTYPE_SYNC
 )

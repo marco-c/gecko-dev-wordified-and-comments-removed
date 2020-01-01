@@ -58,7 +58,7 @@ gecko
 .
 sync
 .
-GlobalConstants
+SyncConstants
 ;
 import
 org
@@ -317,6 +317,12 @@ onResume
 (
 )
 {
+ActivityUtils
+.
+prepareLogging
+(
+)
+;
 Logger
 .
 info
@@ -565,7 +571,7 @@ accountManager
 .
 getAccountsByType
 (
-GlobalConstants
+SyncConstants
 .
 ACCOUNTTYPE_SYNC
 )

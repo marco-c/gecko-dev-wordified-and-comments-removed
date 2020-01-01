@@ -36,13 +36,6 @@ Constants
 import
 android
 .
-app
-.
-Activity
-;
-import
-android
-.
 content
 .
 Context
@@ -79,7 +72,7 @@ public
 class
 SetupFailureActivity
 extends
-Activity
+SyncActivity
 {
 private
 Context

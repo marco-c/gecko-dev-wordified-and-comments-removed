@@ -53,7 +53,7 @@ gecko
 .
 sync
 .
-GlobalConstants
+SyncConstants
 ;
 import
 org
@@ -1013,7 +1013,7 @@ setParameter
 CoreProtocolPNames
 .
 USER_AGENT
-GlobalConstants
+SyncConstants
 .
 SYNC_USER_AGENT
 )

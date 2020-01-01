@@ -84,7 +84,7 @@ public
 class
 WebViewActivity
 extends
-Activity
+SyncActivity
 {
 private
 final

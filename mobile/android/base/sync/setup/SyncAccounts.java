@@ -83,6 +83,17 @@ gecko
 .
 sync
 .
+SyncConstants
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+sync
+.
 Logger
 ;
 import
@@ -325,7 +336,7 @@ c
 .
 getAccountsByType
 (
-GlobalConstants
+SyncConstants
 .
 ACCOUNTTYPE_SYNC
 )
@@ -353,7 +364,7 @@ c
 .
 getAccountsByType
 (
-GlobalConstants
+SyncConstants
 .
 ACCOUNTTYPE_SYNC
 )
@@ -966,7 +977,7 @@ Log
 .
 e
 (
-Logger
+SyncConstants
 .
 GLOBAL_LOG_TAG
 "
@@ -1186,7 +1197,7 @@ new
 Account
 (
 username
-GlobalConstants
+SyncConstants
 .
 ACCOUNTTYPE_SYNC
 )
@@ -1231,7 +1242,7 @@ account
 for
 "
 +
-GlobalConstants
+SyncConstants
 .
 ACCOUNTTYPE_SYNC
 )
@@ -1304,7 +1315,7 @@ Log
 .
 wtf
 (
-Logger
+SyncConstants
 .
 GLOBAL_LOG_TAG
 "
@@ -1353,7 +1364,7 @@ Log
 .
 e
 (
-Logger
+SyncConstants
 .
 GLOBAL_LOG_TAG
 "
@@ -2475,7 +2486,7 @@ intent
 new
 Intent
 (
-GlobalConstants
+SyncConstants
 .
 SYNC_ACCOUNT_DELETED_ACTION
 )
@@ -2491,7 +2502,7 @@ Long
 .
 valueOf
 (
-GlobalConstants
+SyncConstants
 .
 SYNC_ACCOUNT_DELETED_INTENT_VERSION
 )
