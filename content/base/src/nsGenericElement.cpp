@@ -593,13 +593,6 @@ nsTextNode
 h
 "
 #
-include
-"
-dombindings
-.
-h
-"
-#
 ifdef
 MOZ_XUL
 #

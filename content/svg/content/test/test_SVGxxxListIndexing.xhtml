@@ -376,7 +376,7 @@ is
 (
 aListObject
 .
-numberOfItems
+length
 aExpectedListLength
 aListDescription
 +
@@ -438,7 +438,9 @@ i
 )
 ;
 }
-ok
+is
+(
+typeof
 (
 aListObject
 [
@@ -446,11 +448,10 @@ aListObject
 .
 length
 ]
-=
-=
-=
-void
-0
+)
+"
+undefined
+"
 aListDescription
 +
 "
