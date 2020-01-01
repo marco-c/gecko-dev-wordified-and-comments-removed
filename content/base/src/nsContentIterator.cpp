@@ -3378,9 +3378,6 @@ int32_t
 >
 newIndexes
 ;
-if
-(
-!
 oldParentStack
 .
 SetCapacity
@@ -3393,12 +3390,7 @@ Length
 +
 1
 )
-)
-{
-return
-NS_ERROR_FAILURE
 ;
-}
 for
 (
 int32_t
