@@ -3,11 +3,6 @@ IHDR
 )
 M
 t
-tEXtSoftware
-Adobe
-ImageReadyq
-e
-<
 PLTEq
 <
 0
@@ -65,8 +60,8 @@ d
 tRNS
 {
 D
-gIDATx
-|
+dIDAT8
+}
 b
 e
 A
@@ -244,9 +239,11 @@ N
 <
 6
 %
+/
 p
 |
 )
+]
 8
 IEND
 B
