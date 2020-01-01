@@ -1576,6 +1576,14 @@ file_bug498897
 .
 css
 \
+test_bug493881
+.
+js
+\
+test_bug493881
+.
+html
+\
 (
 NULL
 )
