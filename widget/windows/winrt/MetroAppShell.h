@@ -84,6 +84,12 @@ ProcessOneNativeEventIfPresent
 (
 )
 ;
+static
+void
+MarkEventQueueForPurge
+(
+)
+;
 protected
 :
 NS_IMETHOD
@@ -103,6 +109,12 @@ ProcessNextNativeEvent
 (
 bool
 mayWait
+)
+;
+static
+void
+DispatchAllGeckoEvents
+(
 )
 ;
 virtual
