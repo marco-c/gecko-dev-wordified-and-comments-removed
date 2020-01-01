@@ -5823,7 +5823,7 @@ ContextStack
 ;
 JSContext
 *
-cx_
+maybecx_
 ;
 public
 :
@@ -5921,6 +5921,16 @@ cx
 SavedOption
 =
 STOP_AT_SAVED
+)
+;
+StackIter
+(
+JSRuntime
+*
+rt
+StackSegment
+&
+seg
 )
 ;
 bool
