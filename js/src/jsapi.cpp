@@ -437,6 +437,15 @@ include
 "
 vm
 /
+WeakMapObject
+.
+h
+"
+#
+include
+"
+vm
+/
 Xdr
 .
 h
@@ -8220,7 +8229,7 @@ protoClass
 }
 {
 js_InitWeakMapClass
-EAGER_ATOM_AND_CLASP
+EAGER_ATOM_AND_OCLASP
 (
 WeakMap
 )
