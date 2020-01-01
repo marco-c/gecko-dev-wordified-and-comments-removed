@@ -831,6 +831,17 @@ gPopupTests
 [
 gTestIndex
 ]
+;
+document
+.
+location
+.
+hash
+=
+test
+.
+testname
+;
 if
 (
 "
