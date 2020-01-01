@@ -3865,3 +3865,11 @@ contentaction
 h
 #
 endif
+#
+ifndef
+MOZ_TREE_PIXMAN
+pixman
+.
+h
+#
+endif

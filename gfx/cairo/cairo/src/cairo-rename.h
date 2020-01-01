@@ -1303,6 +1303,9 @@ define
 cairo_xlib_surface_set_size
 _moz_cairo_xlib_surface_set_size
 #
+ifdef
+MOZ_TREE_PIXMAN
+#
 define
 pixman_region_set_static_pointers
 _moz_pixman_region_set_static_pointers
@@ -1642,3 +1645,5 @@ _moz_pixman_add_trapezoids
 define
 pixman_rasterize_trapezoid
 _moz_pixman_rasterize_trapezoid
+#
+endif
