@@ -313,6 +313,7 @@ visible
 ;
 whenAppTabIconAdded
 (
+groupItem
 function
 (
 )
@@ -550,6 +551,7 @@ blank
 ;
 whenAppTabIconAdded
 (
+groupItem
 function
 (
 )
@@ -859,7 +861,6 @@ win
 )
 ;
 }
-win
 )
 ;
 win
@@ -919,6 +920,7 @@ blank
 ;
 whenAppTabIconAdded
 (
+groupItem
 function
 (
 )
@@ -942,7 +944,6 @@ pinnedSomeTabs
 )
 ;
 }
-win
 )
 ;
 win
@@ -959,7 +960,6 @@ i
 ;
 }
 }
-win
 )
 ;
 win

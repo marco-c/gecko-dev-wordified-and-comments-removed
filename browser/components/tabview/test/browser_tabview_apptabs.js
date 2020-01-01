@@ -226,6 +226,7 @@ icons
 ;
 whenAppTabIconAdded
 (
+groupItemOne
 function
 (
 )
@@ -308,6 +309,7 @@ test2
 ;
 whenAppTabIconAdded
 (
+groupItemTwo
 function
 (
 )
@@ -427,6 +429,7 @@ two
 ;
 whenAppTabIconAdded
 (
+groupItemOne
 function
 (
 )

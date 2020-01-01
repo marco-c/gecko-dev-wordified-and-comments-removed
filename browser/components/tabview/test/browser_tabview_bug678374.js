@@ -209,6 +209,7 @@ icon
 ;
 whenAppTabIconAdded
 (
+groupItem
 function
 (
 )
@@ -255,7 +256,6 @@ finish
 )
 ;
 }
-win
 )
 ;
 win
