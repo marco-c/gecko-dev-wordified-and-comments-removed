@@ -1326,9 +1326,6 @@ aVisitID
 PRInt64
 *
 aSessionID
-PRInt64
-*
-aRedirectBookmark
 )
 ;
 nsresult
