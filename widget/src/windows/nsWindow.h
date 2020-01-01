@@ -1039,14 +1039,14 @@ aState
 NS_IMETHOD
 SetIMEEnabled
 (
-PRBool
+PRUint32
 aState
 )
 ;
 NS_IMETHOD
 GetIMEEnabled
 (
-PRBool
+PRUint32
 *
 aState
 )
@@ -2082,6 +2082,9 @@ mOldExStyle
 ;
 HIMC
 mOldIMC
+;
+PRUint32
+mIMEEnabled
 ;
 static
 HKL

@@ -7711,7 +7711,7 @@ nsWindow
 :
 SetIMEEnabled
 (
-PRBool
+PRUint32
 aState
 )
 {
@@ -7725,7 +7725,7 @@ nsWindow
 :
 GetIMEEnabled
 (
-PRBool
+PRUint32
 *
 aState
 )
