@@ -10343,7 +10343,13 @@ const
 nsCSSValue
 &
 aRTLLogicalValue
-PRUint8
+mozilla
+:
+:
+css
+:
+:
+Side
 aSide
 nsCSSRect
 &
