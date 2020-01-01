@@ -40,13 +40,6 @@ h
 #
 include
 "
-jstypedarrayinlines
-.
-h
-"
-#
-include
-"
 vm
 /
 BooleanObject
