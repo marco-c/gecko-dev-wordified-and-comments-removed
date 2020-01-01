@@ -861,7 +861,7 @@ MarFile
 mar_wopen
 (
 const
-PRUnichar
+wchar_t
 *
 path
 )
