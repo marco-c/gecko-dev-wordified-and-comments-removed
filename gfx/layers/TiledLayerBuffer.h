@@ -576,12 +576,6 @@ aTileOrigin
 )
 const
 {
-volatile
-float
-resolution
-=
-mResolution
-;
 int
 firstTileX
 =

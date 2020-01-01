@@ -1100,7 +1100,6 @@ compositor
 return
 ;
 }
-volatile
 float
 resolution
 =
