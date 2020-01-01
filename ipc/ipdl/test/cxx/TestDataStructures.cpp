@@ -69,15 +69,19 @@ static
 void
 assert_arrays_equal
 (
+const
 InfallibleTArray
 <
 T
 >
+&
 a
+const
 InfallibleTArray
 <
 T
 >
+&
 b
 )
 {
@@ -1044,7 +1048,7 @@ InfallibleTArray
 int
 >
 i2a
-=
+(
 i1
 [
 1
@@ -1052,6 +1056,7 @@ i1
 .
 get_ArrayOfint
 (
+)
 )
 ;
 test_assert
@@ -1120,7 +1125,7 @@ InfallibleTArray
 double
 >
 i3a
-=
+(
 i1
 [
 2
@@ -1128,6 +1133,7 @@ i1
 .
 get_ArrayOfdouble
 (
+)
 )
 ;
 test_assert
@@ -3820,7 +3826,7 @@ InfallibleTArray
 int
 >
 od2
-=
+(
 o1
 [
 1
@@ -3829,13 +3835,14 @@ o1
 get_ArrayOfint
 (
 )
+)
 ;
 InfallibleTArray
 <
 double
 >
 od3
-=
+(
 o1
 [
 2
@@ -3843,6 +3850,7 @@ o1
 .
 get_ArrayOfdouble
 (
+)
 )
 ;
 test_assert
