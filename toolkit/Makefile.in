@@ -478,10 +478,6 @@ mozapps
 /
 update
 \
-mozapps
-/
-webapps
-\
 obsolete
 \
 profile
