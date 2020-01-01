@@ -5479,5 +5479,11 @@ JSOP_NEWARRAY
 JSOP_HOLE
 *
 /
+0
+/
+*
+JSOP_LOOP
+*
+/
 }
 ;
