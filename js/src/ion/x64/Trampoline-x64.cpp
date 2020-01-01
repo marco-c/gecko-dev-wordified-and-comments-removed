@@ -1258,6 +1258,12 @@ Bailout
 )
 )
 ;
+masm
+.
+finalizeABICall
+(
+)
+;
 uint32
 bailoutFrameSize
 =
@@ -1482,6 +1488,12 @@ void
 *
 HandleException
 )
+)
+;
+masm
+.
+finalizeABICall
+(
 )
 ;
 masm
