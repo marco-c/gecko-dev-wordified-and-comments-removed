@@ -10271,9 +10271,6 @@ JSOPTION_PROFILING
 &
 &
 traceJitEnabled
-&
-&
-methodJitEnabled
 ;
 #
 endif
