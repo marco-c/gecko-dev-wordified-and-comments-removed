@@ -95,10 +95,6 @@ weave_version
 22
 .
 0
-weave_channel
-:
-=
-rel
 weave_id
 :
 =
@@ -134,13 +130,6 @@ Dweave_version
 =
 (
 weave_version
-)
-\
--
-Dweave_channel
-=
-(
-weave_channel
 )
 \
 -
