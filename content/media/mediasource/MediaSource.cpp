@@ -1696,6 +1696,16 @@ NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
 MediaSource
 )
+NS_INTERFACE_MAP_ENTRY
+(
+mozilla
+:
+:
+dom
+:
+:
+MediaSource
+)
 NS_INTERFACE_MAP_END_INHERITING
 (
 nsDOMEventTargetHelper
