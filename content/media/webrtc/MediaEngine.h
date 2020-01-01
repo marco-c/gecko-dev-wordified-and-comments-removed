@@ -271,6 +271,14 @@ aNoise
 =
 0
 ;
+virtual
+bool
+IsFake
+(
+)
+=
+0
+;
 bool
 IsAvailable
 (
