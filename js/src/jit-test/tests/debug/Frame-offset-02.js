@@ -28,11 +28,8 @@ a
 ]
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -96,7 +93,6 @@ frame
 offset
 )
 ;
-}
 }
 ;
 g

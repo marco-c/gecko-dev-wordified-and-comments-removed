@@ -27,11 +27,8 @@ log
 ;
 dbg
 .
-hooks
+onExceptionUnwind
 =
-{
-throw
-:
 function
 (
 )
@@ -52,7 +49,6 @@ oops
 "
 )
 ;
-}
 }
 ;
 dbg

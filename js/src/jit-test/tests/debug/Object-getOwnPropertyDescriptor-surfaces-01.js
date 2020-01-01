@@ -37,11 +37,8 @@ obj
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -60,7 +57,6 @@ obj
 .
 return
 ;
-}
 }
 ;
 g

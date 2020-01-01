@@ -24,11 +24,8 @@ hits
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 f
@@ -83,7 +80,6 @@ hits
 +
 +
 ;
-}
 }
 ;
 function

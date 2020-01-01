@@ -23,11 +23,8 @@ name
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -41,7 +38,6 @@ callee
 .
 name
 ;
-}
 }
 ;
 g

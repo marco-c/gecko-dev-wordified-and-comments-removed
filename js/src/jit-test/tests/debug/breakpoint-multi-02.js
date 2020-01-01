@@ -31,11 +31,8 @@ handlers
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -181,7 +178,6 @@ i
 ]
 )
 ;
-}
 }
 }
 ;

@@ -36,11 +36,8 @@ g
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 stack
@@ -51,7 +48,6 @@ log
 =
 msg
 ;
-}
 }
 ;
 arr
@@ -117,11 +113,8 @@ arr
 0
 ]
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 stack
@@ -141,7 +134,6 @@ return
 1
 }
 ;
-}
 }
 ;
 log

@@ -26,11 +26,8 @@ usingApply
 {
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -94,7 +91,6 @@ n
 return
 result
 ;
-}
 }
 }
 ;

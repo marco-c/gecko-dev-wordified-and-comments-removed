@@ -26,11 +26,8 @@ g
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -106,7 +103,6 @@ join
 "
 )
 ;
-}
 }
 ;
 g

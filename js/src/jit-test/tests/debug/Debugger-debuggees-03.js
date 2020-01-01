@@ -85,11 +85,8 @@ Debugger
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -104,7 +101,6 @@ callee
 .
 name
 ;
-}
 }
 ;
 log

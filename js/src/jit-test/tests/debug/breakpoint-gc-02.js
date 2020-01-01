@@ -89,11 +89,8 @@ g
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -175,7 +172,7 @@ handler
 )
 ;
 }
-}
+;
 g
 .
 eval
@@ -188,10 +185,9 @@ debugger
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-}
+null
 ;
 dbg
 =

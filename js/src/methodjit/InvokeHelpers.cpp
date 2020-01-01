@@ -2242,7 +2242,7 @@ st
 Debugger
 :
 :
-onThrow
+onExceptionUnwind
 (
 cx
 &

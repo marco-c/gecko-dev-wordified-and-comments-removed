@@ -33,11 +33,8 @@ wrappers
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -55,7 +52,6 @@ arguments
 ]
 )
 ;
-}
 }
 ;
 g
@@ -179,11 +175,8 @@ gc
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -204,7 +197,6 @@ pop
 )
 )
 ;
-}
 }
 ;
 g

@@ -55,15 +55,11 @@ g
 ;
 dbg
 .
-hooks
+onEnterFrame
 =
-{
-enterFrame
-:
 g
 .
 f
-}
 ;
 var
 x

@@ -31,11 +31,8 @@ g
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -53,7 +50,6 @@ Error
 name
 )
 ;
-}
 }
 ;
 dbg

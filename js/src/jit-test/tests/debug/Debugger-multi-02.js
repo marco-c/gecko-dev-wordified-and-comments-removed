@@ -34,11 +34,8 @@ g
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 stack
@@ -52,7 +49,6 @@ addDebugger
 (
 )
 ;
-}
 }
 ;
 }

@@ -34,11 +34,8 @@ i
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -57,7 +54,6 @@ i
 +
 +
 ;
-}
 }
 ;
 g
@@ -164,9 +160,7 @@ i
 ;
 dbg
 .
-hooks
-.
-debuggerHandler
+onDebuggerStatement
 =
 function
 (

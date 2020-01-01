@@ -26,11 +26,8 @@ log
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -140,7 +137,6 @@ gc
 (
 )
 ;
-}
 }
 ;
 g

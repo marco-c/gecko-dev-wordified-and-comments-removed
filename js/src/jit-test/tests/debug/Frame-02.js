@@ -24,11 +24,8 @@ g
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 f
@@ -54,7 +51,6 @@ f
 frame
 )
 ;
-}
 }
 ;
 hits

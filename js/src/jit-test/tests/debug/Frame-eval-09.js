@@ -21,11 +21,8 @@ g
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -55,7 +52,6 @@ innervar
 "
 )
 ;
-}
 }
 ;
 var

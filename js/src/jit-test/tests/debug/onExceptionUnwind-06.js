@@ -58,13 +58,9 @@ Debugger
 parent
 )
 .
-hooks
+onExceptionUnwind
 =
-{
-throw
-:
 f
-}
 ;
 "
 )

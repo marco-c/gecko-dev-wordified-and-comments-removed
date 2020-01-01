@@ -137,11 +137,8 @@ hits
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -264,7 +261,6 @@ line0
 true
 )
 ;
-}
 }
 ;
 g

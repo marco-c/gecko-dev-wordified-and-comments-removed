@@ -25,11 +25,8 @@ SEp
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -64,7 +61,6 @@ prototype
 .
 return
 ;
-}
 }
 ;
 g

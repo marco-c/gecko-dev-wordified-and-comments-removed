@@ -30,11 +30,8 @@ cs
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -69,7 +66,6 @@ getChildScripts
 (
 )
 ;
-}
 }
 ;
 g

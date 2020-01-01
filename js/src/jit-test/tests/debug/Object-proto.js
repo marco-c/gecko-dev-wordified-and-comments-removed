@@ -52,11 +52,8 @@ lastval
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -71,7 +68,6 @@ arguments
 0
 ]
 ;
-}
 }
 ;
 return

@@ -31,11 +31,8 @@ g
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 stack
@@ -50,7 +47,6 @@ oops
 "
 }
 ;
-}
 }
 ;
 assertThrowsValue

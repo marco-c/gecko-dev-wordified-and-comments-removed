@@ -23,11 +23,8 @@ type
 ;
 dbg
 .
-hooks
+onEnterFrame
 =
-{
-enterFrame
-:
 function
 (
 frame
@@ -75,7 +72,6 @@ thrown
 +
 exc
 ;
-}
 }
 }
 ;

@@ -24,11 +24,8 @@ count
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -69,7 +66,6 @@ string
 '
 )
 ;
-}
 }
 ;
 function

@@ -27,16 +27,12 @@ Debugger
 parent
 )
 .
-hooks
+onExceptionUnwind
 =
-{
-throw
-:
 function
 (
 )
 {
-}
 }
 ;
 "

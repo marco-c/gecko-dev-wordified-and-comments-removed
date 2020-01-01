@@ -30,11 +30,8 @@ args
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -101,7 +98,6 @@ args
 0
 ]
 ;
-}
 }
 ;
 g

@@ -36,11 +36,8 @@ false
 ;
 dbg
 .
-hooks
+onExceptionUnwind
 =
-{
-throw
-:
 function
 (
 frame
@@ -115,7 +112,6 @@ hit
 =
 true
 ;
-}
 }
 }
 ;

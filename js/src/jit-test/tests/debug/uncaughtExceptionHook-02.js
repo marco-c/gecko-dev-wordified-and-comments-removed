@@ -21,11 +21,8 @@ g
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 )
@@ -41,7 +38,6 @@ value
 "
 }
 ;
-}
 }
 ;
 dbg

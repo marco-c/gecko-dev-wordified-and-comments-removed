@@ -99,11 +99,8 @@ x
 ;
 dbg
 .
-hooks
+onDebuggerStatement
 =
-{
-debuggerHandler
-:
 function
 (
 frame
@@ -125,7 +122,6 @@ x
 return
 )
 ;
-}
 }
 ;
 g1
