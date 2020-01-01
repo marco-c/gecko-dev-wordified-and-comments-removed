@@ -22,6 +22,10 @@ static
 const
 cairo_user_data_key_t
 SHAREDDIB_KEY
+=
+{
+0
+}
 ;
 static
 const
