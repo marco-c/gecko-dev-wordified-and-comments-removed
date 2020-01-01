@@ -1839,6 +1839,11 @@ GetInheritedFrameType
 (
 )
 ;
+bool
+HasUnloadedParent
+(
+)
+;
 nsInterfaceHashtable
 <
 nsCStringHashKey
