@@ -2303,6 +2303,10 @@ rv
 findRegFor
 (
 value
+sse2
+?
+XmmRegs
+:
 FpRegs
 )
 ;
