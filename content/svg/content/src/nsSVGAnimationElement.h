@@ -213,7 +213,13 @@ aAttName
 const
 ;
 virtual
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 GetTargetElementContent
 (

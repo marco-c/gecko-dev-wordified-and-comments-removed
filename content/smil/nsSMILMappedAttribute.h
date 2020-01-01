@@ -30,7 +30,13 @@ nsSMILMappedAttribute
 (
 nsCSSProperty
 aPropID
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 aElement
 )

@@ -7,7 +7,11 @@ NS_SMILTARGETIDENTIFIER_H_
 #
 include
 "
-nsIContent
+mozilla
+/
+dom
+/
+Element
 .
 h
 "
@@ -86,7 +90,13 @@ mIsCSS
 }
 nsRefPtr
 <
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 >
 mElement
 ;

@@ -527,7 +527,13 @@ nsSVGUtils
 public
 :
 static
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 GetParentElement
 (

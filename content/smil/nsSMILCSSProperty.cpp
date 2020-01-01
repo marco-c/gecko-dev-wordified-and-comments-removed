@@ -54,6 +54,13 @@ nsIDOMElement
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 static
 PRBool
 GetCSSComputedValue
@@ -240,7 +247,7 @@ nsSMILCSSProperty
 (
 nsCSSProperty
 aPropID
-nsIContent
+Element
 *
 aElement
 )

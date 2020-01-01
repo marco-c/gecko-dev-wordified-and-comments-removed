@@ -40,6 +40,13 @@ nsISMILAttr
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 NS_IMPL_ADDREF_INHERITED
 (
 nsSVGAnimationElement
@@ -328,7 +335,7 @@ aAttName
 )
 ;
 }
-nsIContent
+Element
 *
 nsSVGAnimationElement
 :
