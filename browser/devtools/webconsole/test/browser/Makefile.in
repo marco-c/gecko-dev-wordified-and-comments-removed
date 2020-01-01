@@ -852,6 +852,10 @@ browser_webconsole_bug_651501_document_body_autocomplete
 .
 js
 \
+browser_webconsole_bug_653531_highlighter_console_helper
+.
+js
+\
 head
 .
 js
