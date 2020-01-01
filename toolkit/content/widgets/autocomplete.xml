@@ -8782,11 +8782,6 @@ content
 <
 xul
 :
-vbox
->
-<
-xul
-:
 hbox
 align
 =
@@ -9171,12 +9166,6 @@ icon
 xul
 :
 hbox
->
-<
-/
-xul
-:
-vbox
 >
 <
 /
