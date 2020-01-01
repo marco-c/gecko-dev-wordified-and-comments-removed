@@ -727,9 +727,14 @@ mRestart
 )
 mRestart
 =
+(
 aMode
 &
 eRestart
+)
+!
+=
+0
 ;
 if
 (
