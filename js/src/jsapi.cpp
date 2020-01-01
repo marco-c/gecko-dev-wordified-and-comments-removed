@@ -26596,7 +26596,15 @@ options
 .
 setCompileAndGo
 (
-true
+obj
+-
+>
+is
+<
+GlobalObject
+>
+(
+)
 )
 ;
 options
