@@ -878,16 +878,6 @@ js
 typedef
 Vector
 <
-JSCompartment
-*
-0
-SystemAllocPolicy
->
-CompartmentVector
-;
-typedef
-Vector
-<
 ScriptOpcodeCountsPair
 0
 SystemAllocPolicy
