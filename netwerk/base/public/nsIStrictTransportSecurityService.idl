@@ -404,6 +404,9 @@ interface
 nsIURI
 ;
 interface
+nsIObserver
+;
+interface
 nsIHttpChannel
 ;
 [
