@@ -12009,6 +12009,13 @@ gcIsNeeded
 )
 return
 ;
+rt
+-
+>
+gcIsNeeded
+=
+JS_TRUE
+;
 js_TriggerAllOperationCallbacks
 (
 rt
