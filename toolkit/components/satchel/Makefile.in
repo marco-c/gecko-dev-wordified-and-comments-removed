@@ -124,6 +124,10 @@ nsFormAutoComplete
 .
 js
 \
+FormHistoryStartup
+.
+js
+\
 nsInputListAutoComplete
 .
 js
@@ -147,6 +151,10 @@ NULL
 )
 EXTRA_JS_MODULES
 =
+\
+FormHistory
+.
+jsm
 \
 nsFormAutoCompleteResult
 .

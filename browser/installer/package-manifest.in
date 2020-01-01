@@ -2616,6 +2616,13 @@ BINPATH
 /
 components
 /
+FormHistoryStartup
+.
+js
+BINPATH
+/
+components
+/
 nsInputListAutoComplete
 .
 js
