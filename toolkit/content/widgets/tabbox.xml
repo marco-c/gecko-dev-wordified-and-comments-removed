@@ -3651,7 +3651,16 @@ name
 _selectedPanel
 "
 >
-null
+this
+.
+childNodes
+.
+item
+(
+this
+.
+selectedIndex
+)
 <
 /
 field
