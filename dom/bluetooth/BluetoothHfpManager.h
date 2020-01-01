@@ -172,6 +172,13 @@ Listen
 (
 )
 ;
+void
+SetVolume
+(
+int
+aVolume
+)
+;
 private
 :
 friend
