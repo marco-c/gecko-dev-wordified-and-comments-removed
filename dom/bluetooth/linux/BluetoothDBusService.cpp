@@ -5819,6 +5819,12 @@ paired
 )
 ;
 }
+else
+{
+return
+DBUS_HANDLER_RESULT_HANDLED
+;
+}
 }
 else
 if

@@ -3612,7 +3612,7 @@ AssignLiteral
 "
 bluetooth
 -
-pairingstatuschanged
+pairedstatuschanged
 "
 )
 ;
