@@ -551,6 +551,17 @@ return
 mEffect
 ;
 }
+IDXGISwapChain
+*
+SwapChain
+(
+)
+const
+{
+return
+mSwapChain
+;
+}
 ReadbackManagerD3D10
 *
 readbackManager
