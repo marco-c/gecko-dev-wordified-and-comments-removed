@@ -2818,17 +2818,6 @@ LowerCaseEqualsLiteral
 _blank
 "
 )
-&
-&
-!
-name
-.
-LowerCaseEqualsLiteral
-(
-"
-_new
-"
-)
 ?
 name
 .
