@@ -2210,6 +2210,15 @@ winsock2
 h
 >
 #
+else
+#
+error
+"
+Platform
+not
+recognized
+"
+#
 endif
 #
 define
