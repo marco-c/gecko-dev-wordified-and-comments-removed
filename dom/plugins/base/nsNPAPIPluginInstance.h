@@ -708,6 +708,13 @@ mFullScreenOrientation
 orientation
 ;
 }
+void
+SetWakeLock
+(
+bool
+aLock
+)
+;
 #
 endif
 nsresult
@@ -1068,6 +1075,9 @@ r
 ;
 PRUint32
 mFullScreenOrientation
+;
+bool
+mWakeLocked
 ;
 #
 endif
