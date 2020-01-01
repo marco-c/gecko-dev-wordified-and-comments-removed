@@ -1724,13 +1724,10 @@ newtable
 cx
 -
 >
-runtime
--
->
-gcMallocBytes
-+
-=
+updateMallocCounter
+(
 nbytes
+)
 ;
 for
 (
