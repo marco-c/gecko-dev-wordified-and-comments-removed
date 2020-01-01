@@ -36,6 +36,13 @@ h
 #
 include
 "
+jsstdint
+.
+h
+"
+#
+include
+"
 jsarena
 .
 h
@@ -16311,7 +16318,7 @@ cx
 obj
 id
 flags
-JS_TRUE
+JS_FALSE
 desc
 )
 ;

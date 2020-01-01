@@ -971,6 +971,10 @@ jsinterp
 .
 h
 \
+jsinttypes
+.
+h
+\
 jsiter
 .
 h
@@ -1048,10 +1052,6 @@ jsscript
 h
 \
 jsstaticcheck
-.
-h
-\
-jsstdint
 .
 h
 \
