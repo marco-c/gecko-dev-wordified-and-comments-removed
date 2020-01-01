@@ -387,11 +387,9 @@ nextRightElement
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 downButton
-1
-1
 {
 }
 )
