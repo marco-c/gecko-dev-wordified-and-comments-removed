@@ -2294,6 +2294,12 @@ return
 mXPConnect
 ;
 }
+JSContext
+*
+GetJSCycleCollectionContext
+(
+)
+;
 JSObject2WrappedJSMap
 *
 GetWrappedJSMap
@@ -2809,7 +2815,7 @@ ActivityCallback
 void
 *
 arg
-PRBool
+JSBool
 active
 )
 ;
@@ -2871,6 +2877,10 @@ mXPConnect
 JSRuntime
 *
 mJSRuntime
+;
+JSContext
+*
+mJSCycleCollectionContext
 ;
 JSObject2WrappedJSMap
 *
@@ -3826,14 +3836,6 @@ inline
 JSContext
 *
 GetJSContext
-(
-)
-const
-;
-inline
-JSContext
-*
-GetSafeJSContext
 (
 )
 const

@@ -359,6 +359,7 @@ js_anonymous_str
 js_apply_str
 js_arguments_str
 js_arity_str
+js_BYTES_PER_ELEMENT_str
 js_call_str
 js_callee_str
 js_caller_str
@@ -668,6 +669,16 @@ js_arity_str
 =
 "
 arity
+"
+;
+const
+char
+js_BYTES_PER_ELEMENT_str
+[
+]
+=
+"
+BYTES_PER_ELEMENT
 "
 ;
 const

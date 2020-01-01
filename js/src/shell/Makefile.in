@@ -447,6 +447,10 @@ jsoptparse
 .
 cpp
 \
+jsheaptools
+.
+cpp
+\
 (
 NULL
 )
