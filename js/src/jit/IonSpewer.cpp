@@ -197,7 +197,7 @@ function
 >
 lineno
 ;
-static
+const
 size_t
 filelen
 =
