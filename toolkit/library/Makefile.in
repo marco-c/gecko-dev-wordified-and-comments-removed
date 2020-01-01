@@ -586,6 +586,11 @@ gtkembedmoz
 (
 LIB_SUFFIX
 )
+DEFINES
++
+=
+-
+DMOZ_ENABLE_GTK2
 endif
 SHARED_LIBRARY_LIBS
 +

@@ -431,9 +431,7 @@ define
 SYSTEMPREF_MODULES
 MODULE
 (
-system
--
-pref
+nsSystemPrefModule
 )
 \
 MODULE
