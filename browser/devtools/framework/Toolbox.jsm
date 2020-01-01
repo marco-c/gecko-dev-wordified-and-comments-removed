@@ -153,6 +153,7 @@ resource
 :
 /
 /
+gre
 /
 modules
 /
@@ -1035,6 +1036,18 @@ TBOX_buildButtons
 frame
 )
 {
+if
+(
+this
+.
+target
+.
+isRemote
+)
+{
+return
+;
+}
 let
 toolbarSpec
 =
