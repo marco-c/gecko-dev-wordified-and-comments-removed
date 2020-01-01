@@ -650,9 +650,6 @@ OS_ARCH
 OS_LIBS
 +
 =
-psapi
-.
-lib
 dbghelp
 .
 lib

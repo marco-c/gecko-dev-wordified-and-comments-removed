@@ -1313,6 +1313,7 @@ winmm
 wsock32
 msimg32
 shlwapi
+psapi
 )
 ifneq
 (
