@@ -452,10 +452,6 @@ nsIEventListener
 .
 h
 \
-nsIMenuListener
-.
-h
-\
 nsWidgetsCID
 .
 h
