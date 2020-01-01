@@ -1530,8 +1530,7 @@ filters
 )
 )
 {
-return
-false
+continue
 ;
 }
 if
