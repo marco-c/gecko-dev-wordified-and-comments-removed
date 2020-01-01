@@ -583,6 +583,11 @@ PRUint32
 aLengthInTextRun
 )
 ;
+void
+InitFontList
+(
+)
+;
 nsRefPtr
 <
 MacOSFamilyEntry
