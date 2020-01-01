@@ -134,6 +134,9 @@ class
 nsHtml5StackNode
 ;
 class
+nsHtml5StateSnapshot
+;
+class
 nsHtml5Portability
 ;
 class

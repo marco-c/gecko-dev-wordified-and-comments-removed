@@ -134,6 +134,9 @@ class
 nsHtml5UTF16Buffer
 ;
 class
+nsHtml5StateSnapshot
+;
+class
 nsHtml5Portability
 ;
 class
@@ -1012,6 +1015,11 @@ getLine
 ;
 PRInt32
 getCol
+(
+)
+;
+PRBool
+isInDataState
 (
 )
 ;
