@@ -41698,6 +41698,11 @@ UpdateImageLockingState
 #
 ifdef
 ACCESSIBILITY
+if
+(
+aIsActive
+)
+{
 nsAccessibilityService
 *
 accService
@@ -41719,6 +41724,7 @@ PresShellActivated
 this
 )
 ;
+}
 }
 #
 endif
