@@ -5175,7 +5175,7 @@ clearPhis
 ;
 graph
 .
-setStackHeight
+setLocalSlotCount
 (
 stackAssignment
 .

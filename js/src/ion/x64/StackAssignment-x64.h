@@ -116,14 +116,12 @@ true
 *
 index
 =
++
++
 height_
-+
-+
 ;
 return
-height_
-<
-MAX_STACK_SLOTS
+true
 ;
 }
 uint32

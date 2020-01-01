@@ -593,6 +593,7 @@ DEFINE_FLAG
 #
 undef
 DEFINE_FLAG
+Total
 }
 ;
 void

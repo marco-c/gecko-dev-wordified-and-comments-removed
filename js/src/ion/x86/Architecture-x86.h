@@ -31,13 +31,6 @@ STACK_SLOT_SIZE
 static
 const
 uint32
-MAX_STACK_SLOTS
-=
-256
-;
-static
-const
-uint32
 DOUBLE_STACK_ALIGNMENT
 =
 2
