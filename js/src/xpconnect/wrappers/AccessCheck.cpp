@@ -1334,7 +1334,7 @@ fp
 )
 scope
 =
-JS_GetFrameScopeChainRaw
+JS_GetGlobalForFrame
 (
 fp
 )
@@ -1347,7 +1347,7 @@ scope
 )
 scope
 =
-JS_GetScopeChain
+JS_GetGlobalForScopeChain
 (
 cx
 )
@@ -1382,11 +1382,7 @@ subject
 =
 GetPrincipal
 (
-JS_GetGlobalForObject
-(
-cx
 scope
-)
 )
 ;
 }

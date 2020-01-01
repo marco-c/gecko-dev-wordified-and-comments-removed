@@ -275,9 +275,8 @@ ac
 enter
 (
 cx
-JS_GetFrameScopeChain
+JS_GetGlobalForFrame
 (
-cx
 fp
 )
 )

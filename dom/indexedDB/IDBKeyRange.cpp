@@ -469,13 +469,9 @@ JSObject
 *
 global
 =
-JS_GetGlobalForObject
+JS_GetGlobalForScopeChain
 (
 aCx
-JS_GetScopeChain
-(
-aCx
-)
 )
 ;
 NS_ENSURE_TRUE

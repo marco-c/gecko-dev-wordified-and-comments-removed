@@ -4113,7 +4113,7 @@ JSObject
 *
 scope
 =
-JS_GetScopeChain
+JS_GetGlobalForScopeChain
 (
 aCx
 )
@@ -4161,7 +4161,7 @@ JSObject
 *
 scope
 =
-JS_GetScopeChain
+JS_GetGlobalForScopeChain
 (
 aCx
 )

@@ -171,7 +171,7 @@ JS_FRIEND_API
 JSObject
 *
 )
-JS_GetFrameScopeChainRaw
+JS_GetGlobalForFrame
 (
 JSStackFrame
 *
@@ -179,7 +179,6 @@ fp
 )
 {
 return
-&
 Valueify
 (
 fp
@@ -187,6 +186,10 @@ fp
 -
 >
 scopeChain
+(
+)
+.
+getGlobal
 (
 )
 ;

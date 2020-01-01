@@ -2801,6 +2801,7 @@ IDX_WRAPPED_JSOBJECT
 (
 (
 (
+(
 id
 =
 =
@@ -2871,6 +2872,7 @@ wrapper
 &
 IsPrivilegedScript
 (
+)
 )
 )
 )

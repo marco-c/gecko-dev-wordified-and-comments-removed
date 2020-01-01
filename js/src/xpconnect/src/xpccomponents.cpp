@@ -14347,7 +14347,7 @@ cx
 ;
 callingScope
 =
-JS_GetScopeChain
+JS_GetGlobalForScopeChain
 (
 cx
 )
@@ -14362,14 +14362,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-callingScope
-=
-JS_GetGlobalForObject
-(
-cx
-callingScope
-)
-;
 }
 nsRefPtr
 <
