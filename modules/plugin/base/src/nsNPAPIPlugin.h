@@ -257,6 +257,16 @@ PluginCrashed
 ;
 #
 endif
+void
+SetIsDefaultPlugin
+(
+)
+;
+PRBool
+IsDefaultPlugin
+(
+)
+;
 protected
 :
 static
@@ -288,6 +298,9 @@ fPRLibrary
 static
 NPNetscapeFuncs
 CALLBACKS
+;
+PRBool
+mIsDefaultPlugin
 ;
 }
 ;
