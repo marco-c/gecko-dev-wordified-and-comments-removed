@@ -1115,6 +1115,8 @@ function
 value
 )
 {
+return
+;
 var
 self
 =
@@ -1414,17 +1416,6 @@ Groups
 dragOptions
 )
 ;
-div
-.
-droppable
-(
-window
-.
-Groups
-.
-dropOptions
-)
-;
 }
 div
 .
@@ -1558,6 +1549,7 @@ position
 }
 )
 ;
+iQ
 (
 "
 <
@@ -1578,6 +1570,7 @@ appendTo
 div
 )
 ;
+iQ
 (
 "
 <
