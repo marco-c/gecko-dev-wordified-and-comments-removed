@@ -4648,12 +4648,6 @@ aNowTime
 )
 ;
 }
-imagesToRefresh
-.
-Clear
-(
-)
-;
 }
 for
 (
