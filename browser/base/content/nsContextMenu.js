@@ -1963,11 +1963,9 @@ context
 -
 viewimageinfo
 "
-(
 this
 .
 onImage
-)
 )
 ;
 }
@@ -5358,7 +5356,7 @@ mediaTab
 "
 this
 .
-mediaURL
+target
 )
 ;
 }
