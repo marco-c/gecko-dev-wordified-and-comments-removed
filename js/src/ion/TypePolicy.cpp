@@ -2329,6 +2329,13 @@ case
 MIRType_Null
 :
 value
+-
+>
+setFoldedUnchecked
+(
+)
+;
+value
 =
 MConstant
 :
@@ -2368,6 +2375,13 @@ MIRType_Object
 case
 MIRType_Undefined
 :
+value
+-
+>
+setFoldedUnchecked
+(
+)
+;
 value
 =
 MConstant
