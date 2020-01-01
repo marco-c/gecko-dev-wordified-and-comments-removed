@@ -66,7 +66,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 MIRGenerator
 :

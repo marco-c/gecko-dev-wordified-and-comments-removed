@@ -37,7 +37,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 AssemblerX86Shared

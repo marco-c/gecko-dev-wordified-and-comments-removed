@@ -108,7 +108,7 @@ class
 StringObject
 ;
 namespace
-ion
+jit
 {
 class
 BaselineInspector

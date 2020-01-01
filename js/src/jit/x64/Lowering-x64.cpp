@@ -57,7 +57,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 bool
 LIRGeneratorX64

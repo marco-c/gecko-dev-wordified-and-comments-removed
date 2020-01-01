@@ -519,7 +519,7 @@ script
 (
 )
 ;
-ion
+jit
 :
 :
 ForbidCompilation
@@ -5048,7 +5048,7 @@ PushBaselineFunApplyArguments
 JSContext
 *
 cx
-ion
+jit
 :
 :
 IonFrameIterator
@@ -5249,7 +5249,7 @@ currentlyRunningInJit
 )
 )
 {
-ion
+jit
 :
 :
 JitActivationIterator
@@ -5263,7 +5263,7 @@ runtime
 )
 )
 ;
-ion
+jit
 :
 :
 IonFrameIterator
@@ -5294,7 +5294,7 @@ isOptimizedJS
 )
 )
 {
-ion
+jit
 :
 :
 InlineFrameIterator
@@ -5422,7 +5422,7 @@ type
 )
 =
 =
-ion
+jit
 :
 :
 IonFrame_Exit

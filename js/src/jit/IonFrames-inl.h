@@ -49,7 +49,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 inline
 void

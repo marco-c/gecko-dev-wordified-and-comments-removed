@@ -64,7 +64,7 @@ class
 AsmJSModule
 ;
 namespace
-ion
+jit
 {
 static
 const
@@ -2800,7 +2800,7 @@ bool
 IsMarked
 (
 const
-ion
+jit
 :
 :
 VMFunction

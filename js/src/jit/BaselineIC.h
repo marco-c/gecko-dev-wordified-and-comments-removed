@@ -57,7 +57,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 ICStub

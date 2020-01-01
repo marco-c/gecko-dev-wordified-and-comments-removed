@@ -102,7 +102,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 LIRGenerator

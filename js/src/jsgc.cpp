@@ -539,7 +539,7 @@ JSExternalString
 )
 sizeof
 (
-ion
+jit
 :
 :
 IonCode
@@ -668,7 +668,7 @@ JSExternalString
 )
 OFFSET
 (
-ion
+jit
 :
 :
 IonCode
@@ -2081,7 +2081,7 @@ runtime
 return
 FinalizeTypedArenas
 <
-ion
+jit
 :
 :
 IonCode
@@ -23856,7 +23856,7 @@ active
 }
 #
 endif
-ion
+jit
 :
 :
 MarkActiveBaselineScripts
@@ -23864,7 +23864,7 @@ MarkActiveBaselineScripts
 zone
 )
 ;
-ion
+jit
 :
 :
 InvalidateAll
@@ -23909,7 +23909,7 @@ JSScript
 (
 )
 ;
-ion
+jit
 :
 :
 FinishInvalidation
@@ -23918,7 +23918,7 @@ fop
 script
 )
 ;
-ion
+jit
 :
 :
 FinishDiscardBaselineScript
@@ -24447,7 +24447,7 @@ JSScript
 (
 )
 ;
-ion
+jit
 :
 :
 PurgeCaches

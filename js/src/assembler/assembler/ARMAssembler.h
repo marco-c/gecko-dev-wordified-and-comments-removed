@@ -54,7 +54,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 Assembler
@@ -764,7 +764,7 @@ class
 js
 :
 :
-ion
+jit
 :
 :
 Assembler
@@ -836,7 +836,7 @@ class
 js
 :
 :
-ion
+jit
 :
 :
 Assembler

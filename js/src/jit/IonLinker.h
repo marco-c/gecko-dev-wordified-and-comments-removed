@@ -67,7 +67,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 Linker

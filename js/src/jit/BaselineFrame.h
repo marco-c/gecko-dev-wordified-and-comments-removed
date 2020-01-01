@@ -43,7 +43,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 BaselineFrame
@@ -1574,7 +1574,7 @@ FramePointerOffset
 js
 :
 :
-ion
+jit
 :
 :
 IonJSFrameLayout
@@ -1597,7 +1597,7 @@ FramePointerOffset
 js
 :
 :
-ion
+jit
 :
 :
 IonJSFrameLayout
@@ -1622,7 +1622,7 @@ FramePointerOffset
 js
 :
 :
-ion
+jit
 :
 :
 IonJSFrameLayout
@@ -1646,7 +1646,7 @@ FramePointerOffset
 js
 :
 :
-ion
+jit
 :
 :
 IonJSFrameLayout

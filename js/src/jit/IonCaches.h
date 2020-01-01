@@ -69,7 +69,7 @@ class
 TypedArrayObject
 ;
 namespace
-ion
+jit
 {
 #
 define

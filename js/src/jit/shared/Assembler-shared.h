@@ -75,7 +75,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 enum
 Scale

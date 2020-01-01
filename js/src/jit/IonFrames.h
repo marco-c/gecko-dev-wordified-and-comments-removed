@@ -81,7 +81,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 typedef
 void
@@ -1104,7 +1104,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 void
 GetPcScript

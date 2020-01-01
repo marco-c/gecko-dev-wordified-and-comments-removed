@@ -433,7 +433,7 @@ MarkIonCodeRoot
 (
 trc
 (
-ion
+jit
 :
 :
 IonCode
@@ -1417,7 +1417,7 @@ JS_ION
 )
 for
 (
-ion
+jit
 :
 :
 JitActivationIterator
@@ -3003,7 +3003,7 @@ static_cast
 js
 :
 :
-ion
+jit
 :
 :
 MacroAssembler
@@ -3044,7 +3044,7 @@ static_cast
 js
 :
 :
-ion
+jit
 :
 :
 AutoTempAllocatorRooter
@@ -4196,7 +4196,7 @@ trc
 #
 ifdef
 JS_ION
-ion
+jit
 :
 :
 IonRuntime
@@ -4537,7 +4537,7 @@ trc
 #
 ifdef
 JS_ION
-ion
+jit
 :
 :
 MarkJitActivations

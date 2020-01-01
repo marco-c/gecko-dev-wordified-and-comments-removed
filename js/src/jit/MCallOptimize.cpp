@@ -72,7 +72,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 IonBuilder
 :

@@ -20,7 +20,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 BaselineCompilerARM
 :

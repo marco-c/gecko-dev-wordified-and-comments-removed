@@ -107,7 +107,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 OutOfLineCode

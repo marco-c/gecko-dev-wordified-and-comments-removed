@@ -212,7 +212,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 using
 mozilla
@@ -230,7 +230,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 OutOfLineUpdateCache
@@ -18811,7 +18811,7 @@ NewGCThingFn
 js
 :
 :
-ion
+jit
 :
 :
 NewGCThing
@@ -21406,7 +21406,7 @@ FunctionInfo
 StringCompareFn
 >
 (
-ion
+jit
 :
 :
 StringsEqual
@@ -21419,7 +21419,7 @@ FunctionInfo
 StringCompareParFn
 >
 (
-ion
+jit
 :
 :
 StringsEqualPar
@@ -21438,7 +21438,7 @@ FunctionInfo
 StringCompareFn
 >
 (
-ion
+jit
 :
 :
 StringsEqual
@@ -21451,7 +21451,7 @@ FunctionInfo
 StringCompareParFn
 >
 (
-ion
+jit
 :
 :
 StringsUnequalPar
@@ -21937,7 +21937,7 @@ FunctionInfo
 CompareFn
 >
 (
-ion
+jit
 :
 :
 LooselyEqual
@@ -21950,7 +21950,7 @@ FunctionInfo
 CompareParFn
 >
 (
-ion
+jit
 :
 :
 LooselyEqualPar
@@ -21969,7 +21969,7 @@ FunctionInfo
 CompareFn
 >
 (
-ion
+jit
 :
 :
 LooselyEqual
@@ -21982,7 +21982,7 @@ FunctionInfo
 CompareParFn
 >
 (
-ion
+jit
 :
 :
 LooselyUnequalPar
@@ -22001,7 +22001,7 @@ FunctionInfo
 CompareFn
 >
 (
-ion
+jit
 :
 :
 StrictlyEqual
@@ -22014,7 +22014,7 @@ FunctionInfo
 CompareParFn
 >
 (
-ion
+jit
 :
 :
 StrictlyEqualPar
@@ -22033,7 +22033,7 @@ FunctionInfo
 CompareFn
 >
 (
-ion
+jit
 :
 :
 StrictlyEqual
@@ -22046,7 +22046,7 @@ FunctionInfo
 CompareParFn
 >
 (
-ion
+jit
 :
 :
 StrictlyUnequalPar
@@ -22065,7 +22065,7 @@ FunctionInfo
 CompareFn
 >
 (
-ion
+jit
 :
 :
 LessThan
@@ -22075,7 +22075,7 @@ FunctionInfo
 CompareParFn
 >
 (
-ion
+jit
 :
 :
 LessThanPar
@@ -22094,7 +22094,7 @@ FunctionInfo
 CompareFn
 >
 (
-ion
+jit
 :
 :
 LessThanOrEqual
@@ -22104,7 +22104,7 @@ FunctionInfo
 CompareParFn
 >
 (
-ion
+jit
 :
 :
 LessThanOrEqualPar
@@ -22123,7 +22123,7 @@ FunctionInfo
 CompareFn
 >
 (
-ion
+jit
 :
 :
 GreaterThan
@@ -22133,7 +22133,7 @@ FunctionInfo
 CompareParFn
 >
 (
-ion
+jit
 :
 :
 GreaterThanPar
@@ -22152,7 +22152,7 @@ FunctionInfo
 CompareFn
 >
 (
-ion
+jit
 :
 :
 GreaterThanOrEqual
@@ -22162,7 +22162,7 @@ FunctionInfo
 CompareParFn
 >
 (
-ion
+jit
 :
 :
 GreaterThanOrEqualPar
@@ -25171,7 +25171,7 @@ FunctionInfo
 CharCodeAtFn
 >
 (
-ion
+jit
 :
 :
 CharCodeAt
@@ -25373,7 +25373,7 @@ FunctionInfo
 StringFromCharCodeFn
 >
 (
-ion
+jit
 :
 :
 StringFromCharCode
@@ -28471,7 +28471,7 @@ FunctionInfo
 ArrayPopShiftFn
 >
 (
-ion
+jit
 :
 :
 ArrayPopDense
@@ -28487,7 +28487,7 @@ FunctionInfo
 ArrayPopShiftFn
 >
 (
-ion
+jit
 :
 :
 ArrayShiftDense
@@ -29238,7 +29238,7 @@ FunctionInfo
 ArrayPushDenseFn
 >
 (
-ion
+jit
 :
 :
 ArrayPushDense
@@ -31032,7 +31032,7 @@ FunctionInfo
 IteratorMoreFn
 >
 (
-ion
+jit
 :
 :
 IteratorMore

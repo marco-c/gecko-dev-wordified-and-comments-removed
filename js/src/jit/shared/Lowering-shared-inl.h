@@ -39,7 +39,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 bool
 LIRGeneratorShared

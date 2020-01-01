@@ -60,7 +60,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 CodeGeneratorX64
 :

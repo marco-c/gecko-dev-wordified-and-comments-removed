@@ -1293,7 +1293,7 @@ ProfiledBlocksFunction
 public
 ProfiledFunction
 {
-ion
+jit
 :
 :
 PerfSpewer
@@ -1311,7 +1311,7 @@ unsigned
 start
 unsigned
 end
-ion
+jit
 :
 :
 PerfSpewer
@@ -1410,7 +1410,7 @@ ExitVector
 typedef
 Vector
 <
-ion
+jit
 :
 :
 AsmJSHeapAccess
@@ -1422,7 +1422,7 @@ HeapAccessVector
 typedef
 Vector
 <
-ion
+jit
 :
 :
 IonScriptCounts
@@ -2393,7 +2393,7 @@ globalDataOffset
 bool
 addFunctionCounts
 (
-ion
+jit
 :
 :
 IonScriptCounts
@@ -2645,7 +2645,7 @@ unsigned
 startCodeOffset
 unsigned
 endCodeOffset
-ion
+jit
 :
 :
 PerfSpewer
@@ -2825,7 +2825,7 @@ length
 )
 ;
 }
-ion
+jit
 :
 :
 IonScriptCounts
@@ -3162,7 +3162,7 @@ bool
 addHeapAccesses
 (
 const
-ion
+jit
 :
 :
 AsmJSHeapAccessVector
@@ -3193,7 +3193,7 @@ length
 )
 ;
 }
-ion
+jit
 :
 :
 AsmJSHeapAccess
@@ -3212,7 +3212,7 @@ i
 ;
 }
 const
-ion
+jit
 :
 :
 AsmJSHeapAccess

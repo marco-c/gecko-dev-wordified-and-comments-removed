@@ -154,7 +154,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 using
 mozilla
@@ -31132,7 +31132,7 @@ types
 ;
 }
 bool
-ion
+jit
 :
 :
 TypeSetIncludes
@@ -31264,7 +31264,7 @@ type
 }
 }
 bool
-ion
+jit
 :
 :
 NeedsPostBarrier

@@ -29,7 +29,7 @@ class
 StackFrame
 ;
 namespace
-ion
+jit
 {
 class
 MIRGraph

@@ -71,7 +71,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 struct
 AllocationIntegrityState

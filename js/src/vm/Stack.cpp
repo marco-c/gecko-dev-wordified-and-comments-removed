@@ -3149,7 +3149,7 @@ data_
 .
 ionFrames_
 =
-ion
+jit
 :
 :
 IonFrameIterator
@@ -3517,7 +3517,7 @@ cx
 js
 :
 :
-ion
+jit
 :
 :
 IonFrameIterator
@@ -3573,7 +3573,7 @@ cx
 js
 :
 :
-ion
+jit
 :
 :
 IonFrameIterator
@@ -4111,7 +4111,7 @@ type
 )
 !
 =
-ion
+jit
 :
 :
 IonFrame_OptimizedJS
@@ -4889,7 +4889,7 @@ isBaselineJS
 )
 )
 {
-ion
+jit
 :
 :
 BaselineFrame
@@ -4904,7 +4904,7 @@ baselineFrame
 (
 )
 ;
-ion
+jit
 :
 :
 JitActivation
@@ -4963,7 +4963,7 @@ data_
 .
 ionFrames_
 =
-ion
+jit
 :
 :
 IonFrameIterator
@@ -6096,7 +6096,7 @@ script
 >
 nfixed
 ;
-ion
+jit
 :
 :
 BaselineFrame
@@ -6229,7 +6229,7 @@ isOptimizedJS
 )
 )
 {
-ion
+jit
 :
 :
 SnapshotIterator
@@ -6609,7 +6609,7 @@ break
 }
 #
 endif
-ion
+jit
 :
 :
 JitActivation
@@ -6691,7 +6691,7 @@ NULL
 ;
 }
 }
-ion
+jit
 :
 :
 JitActivation
@@ -6732,7 +6732,7 @@ prevIonJSContext_
 }
 }
 void
-ion
+jit
 :
 :
 JitActivation

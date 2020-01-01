@@ -322,7 +322,7 @@ JSTRACE_IONCODE
 ;
 static_cast
 <
-ion
+jit
 :
 :
 IonCode

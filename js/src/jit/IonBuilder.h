@@ -29,7 +29,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 CodeGenerator

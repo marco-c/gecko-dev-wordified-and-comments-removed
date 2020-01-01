@@ -113,7 +113,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 using
 mozilla
@@ -2121,7 +2121,7 @@ cx
 module
 )
 ;
-ion
+jit
 :
 :
 IonContext

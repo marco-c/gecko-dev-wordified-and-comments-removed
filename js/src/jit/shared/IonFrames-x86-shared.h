@@ -28,7 +28,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 IonCommonFrameLayout

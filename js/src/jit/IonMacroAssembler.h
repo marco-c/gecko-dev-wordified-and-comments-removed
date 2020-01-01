@@ -140,7 +140,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 MacroAssembler
@@ -371,7 +371,7 @@ cx
 js
 :
 :
-ion
+jit
 :
 :
 TempAllocator

@@ -642,7 +642,7 @@ JS_ION
 )
 for
 (
-ion
+jit
 :
 :
 JitActivationIterator

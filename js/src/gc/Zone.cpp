@@ -308,7 +308,7 @@ needs
 ionUsingBarriers_
 )
 {
-ion
+jit
 :
 :
 ToggleBarriers
@@ -1055,7 +1055,7 @@ active
 }
 #
 endif
-ion
+jit
 :
 :
 MarkActiveBaselineScripts
@@ -1063,7 +1063,7 @@ MarkActiveBaselineScripts
 this
 )
 ;
-ion
+jit
 :
 :
 InvalidateAll
@@ -1108,7 +1108,7 @@ JSScript
 (
 )
 ;
-ion
+jit
 :
 :
 FinishInvalidation
@@ -1117,7 +1117,7 @@ fop
 script
 )
 ;
-ion
+jit
 :
 :
 FinishDiscardBaselineScript

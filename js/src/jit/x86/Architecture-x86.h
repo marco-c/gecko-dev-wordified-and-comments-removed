@@ -19,7 +19,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 static
 const

@@ -372,7 +372,7 @@ class
 WorkerThreadState
 ;
 namespace
-ion
+jit
 {
 class
 IonRuntime
@@ -1923,7 +1923,7 @@ class
 js
 :
 :
-ion
+jit
 :
 :
 JitActivation
@@ -3105,7 +3105,7 @@ bumpAlloc_
 js
 :
 :
-ion
+jit
 :
 :
 IonRuntime
@@ -3156,7 +3156,7 @@ cx
 js
 :
 :
-ion
+jit
 :
 :
 IonRuntime
@@ -3251,7 +3251,7 @@ cx
 js
 :
 :
-ion
+jit
 :
 :
 IonRuntime
@@ -3277,7 +3277,7 @@ cx
 js
 :
 :
-ion
+jit
 :
 :
 IonRuntime
@@ -4750,7 +4750,7 @@ nativeStackLimit
 js
 :
 :
-ion
+jit
 :
 :
 PcScriptCache

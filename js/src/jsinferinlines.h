@@ -359,7 +359,7 @@ false
 {
 }
 inline
-ion
+jit
 :
 :
 IonScript

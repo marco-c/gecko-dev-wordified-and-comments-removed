@@ -176,7 +176,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 uint32_t
 getFlags
@@ -506,7 +506,7 @@ return
 js
 :
 :
-ion
+jit
 :
 :
 getFlags
@@ -525,7 +525,7 @@ return
 js
 :
 :
-ion
+jit
 :
 :
 getFlags
@@ -544,7 +544,7 @@ return
 js
 :
 :
-ion
+jit
 :
 :
 getFlags
@@ -565,7 +565,7 @@ return
 js
 :
 :
-ion
+jit
 :
 :
 getFlags
@@ -580,7 +580,7 @@ HWCAP_VFPv3D16
 js
 :
 :
-ion
+jit
 :
 :
 getFlags
@@ -616,7 +616,7 @@ return
 js
 :
 :
-ion
+jit
 :
 :
 getFlags

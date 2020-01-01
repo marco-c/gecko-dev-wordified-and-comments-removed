@@ -101,7 +101,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 static
 MOZ_CONSTEXPR_VAR
@@ -1377,7 +1377,7 @@ VFPRegIndexSplit
 js
 :
 :
-ion
+jit
 :
 :
 VFPRegister
@@ -5006,7 +5006,7 @@ typedef
 js
 :
 :
-ion
+jit
 :
 :
 AssemblerBufferWithConstantPool

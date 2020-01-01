@@ -86,7 +86,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 SnapshotIterator
 :
@@ -235,7 +235,7 @@ dump
 }
 }
 uint32_t
-ion
+jit
 :
 :
 Bailout
@@ -408,7 +408,7 @@ retval
 ;
 }
 uint32_t
-ion
+jit
 :
 :
 InvalidationBailout
@@ -858,7 +858,7 @@ snapshotOffset
 ;
 }
 uint32_t
-ion
+jit
 :
 :
 ExceptionHandlerBailout
@@ -1001,7 +1001,7 @@ retval
 ;
 }
 bool
-ion
+jit
 :
 :
 EnsureHasScopeObjects
@@ -1056,7 +1056,7 @@ true
 ;
 }
 bool
-ion
+jit
 :
 :
 CheckFrequentBailouts

@@ -24,7 +24,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 inline
 unsigned

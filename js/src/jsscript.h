@@ -77,7 +77,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 struct
 IonScript
@@ -97,7 +97,7 @@ ION_DISABLED_SCRIPT
 js
 :
 :
-ion
+jit
 :
 :
 IonScript
@@ -113,7 +113,7 @@ ION_COMPILING_SCRIPT
 js
 :
 :
-ion
+jit
 :
 :
 IonScript
@@ -129,7 +129,7 @@ BASELINE_DISABLED_SCRIPT
 js
 :
 :
-ion
+jit
 :
 :
 BaselineScript
@@ -728,7 +728,7 @@ PCCounts
 *
 pcCountsVector
 ;
-ion
+jit
 :
 :
 IonScriptCounts
@@ -1545,7 +1545,7 @@ enclosingScopeOrOriginalFunction_
 js
 :
 :
-ion
+jit
 :
 :
 IonScript
@@ -1555,7 +1555,7 @@ ion
 js
 :
 :
-ion
+jit
 :
 :
 BaselineScript
@@ -1565,7 +1565,7 @@ baseline
 js
 :
 :
-ion
+jit
 :
 :
 IonScript
@@ -2301,7 +2301,7 @@ ION_COMPILING_SCRIPT
 js
 :
 :
-ion
+jit
 :
 :
 IonScript
@@ -2325,7 +2325,7 @@ ion
 js
 :
 :
-ion
+jit
 :
 :
 IonScript
@@ -2342,7 +2342,7 @@ ion
 js
 :
 :
-ion
+jit
 :
 :
 IonScript
@@ -2366,7 +2366,7 @@ setIonScript
 js
 :
 :
-ion
+jit
 :
 :
 IonScript
@@ -2406,7 +2406,7 @@ BASELINE_DISABLED_SCRIPT
 js
 :
 :
-ion
+jit
 :
 :
 BaselineScript
@@ -2434,7 +2434,7 @@ setBaselineScript
 js
 :
 :
-ion
+jit
 :
 :
 BaselineScript
@@ -2498,7 +2498,7 @@ ION_COMPILING_SCRIPT
 js
 :
 :
-ion
+jit
 :
 :
 IonScript
@@ -2522,7 +2522,7 @@ parallelIon
 js
 :
 :
-ion
+jit
 :
 :
 IonScript
@@ -2543,7 +2543,7 @@ setParallelIonScript
 js
 :
 :
-ion
+jit
 :
 :
 IonScript
@@ -3024,7 +3024,7 @@ addIonCounts
 js
 :
 :
-ion
+jit
 :
 :
 IonScriptCounts
@@ -3035,7 +3035,7 @@ ionCounts
 js
 :
 :
-ion
+jit
 :
 :
 IonScriptCounts
@@ -5903,7 +5903,7 @@ code
 ]
 ;
 }
-ion
+jit
 :
 :
 IonScriptCounts

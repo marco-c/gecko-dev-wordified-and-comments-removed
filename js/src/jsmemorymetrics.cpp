@@ -1972,7 +1972,7 @@ baselineStubsFallback
 =
 0
 ;
-ion
+jit
 :
 :
 SizeOfBaselineData
@@ -2010,7 +2010,7 @@ cStats
 ionData
 +
 =
-ion
+jit
 :
 :
 SizeOfIonData

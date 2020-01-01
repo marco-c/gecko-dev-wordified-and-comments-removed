@@ -111,7 +111,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 LUse
@@ -6707,7 +6707,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 #
 define

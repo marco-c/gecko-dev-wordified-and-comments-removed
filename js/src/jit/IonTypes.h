@@ -24,7 +24,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 typedef
 uint32_t

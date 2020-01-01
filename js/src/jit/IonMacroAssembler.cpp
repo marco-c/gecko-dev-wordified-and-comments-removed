@@ -118,7 +118,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 namespace
 {
@@ -6241,7 +6241,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-ion
+jit
 :
 :
 HandleException
@@ -6258,7 +6258,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-ion
+jit
 :
 :
 HandleParallelFailure

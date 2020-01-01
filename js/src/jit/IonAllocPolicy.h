@@ -51,7 +51,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 TempAllocator

@@ -11,7 +11,7 @@ class
 SPSProfiler
 ;
 namespace
-ion
+jit
 {
 class
 MacroAssembler

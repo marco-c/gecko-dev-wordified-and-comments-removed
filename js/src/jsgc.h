@@ -136,7 +136,7 @@ MinorCollecting
 }
 ;
 namespace
-ion
+jit
 {
 class
 IonCode
@@ -662,7 +662,7 @@ template
 struct
 MapTypeToTraceKind
 <
-ion
+jit
 :
 :
 IonCode
@@ -4317,7 +4317,7 @@ type
 void
 pushIonCode
 (
-ion
+jit
 :
 :
 IonCode

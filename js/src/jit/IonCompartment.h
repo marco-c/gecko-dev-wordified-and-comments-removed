@@ -85,7 +85,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 FrameSizeClass

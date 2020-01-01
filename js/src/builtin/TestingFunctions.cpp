@@ -4633,7 +4633,7 @@ vp
 #
 ifdef
 CHECK_OSIPOINT_REGISTERS
-ion
+jit
 :
 :
 js_IonOptions

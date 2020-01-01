@@ -87,7 +87,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 using
 mozilla
@@ -99,7 +99,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 MacroAssembler
 &

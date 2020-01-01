@@ -23,7 +23,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 LIRGeneratorX64

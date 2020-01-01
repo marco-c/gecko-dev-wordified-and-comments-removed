@@ -34,7 +34,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 OutOfLineBailout

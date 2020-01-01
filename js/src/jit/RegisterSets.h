@@ -44,7 +44,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 struct
 AnyRegister
@@ -4022,7 +4022,7 @@ opLength_
 uint8_t
 isFloat32Load_
 ;
-ion
+jit
 :
 :
 AnyRegister
@@ -4037,7 +4037,7 @@ loadedReg_
 endif
 JS_STATIC_ASSERT
 (
-ion
+jit
 :
 :
 AnyRegister
@@ -4307,7 +4307,7 @@ return
 isFloat32Load_
 ;
 }
-ion
+jit
 :
 :
 AnyRegister
@@ -4317,7 +4317,7 @@ loadedReg
 const
 {
 return
-ion
+jit
 :
 :
 AnyRegister

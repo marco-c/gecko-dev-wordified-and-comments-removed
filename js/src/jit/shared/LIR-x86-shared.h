@@ -8,7 +8,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 LDivI

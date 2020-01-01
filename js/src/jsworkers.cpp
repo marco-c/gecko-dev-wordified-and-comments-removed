@@ -331,7 +331,7 @@ StartOffThreadIonCompile
 JSContext
 *
 cx
-ion
+jit
 :
 :
 IonBuilder
@@ -411,7 +411,7 @@ static
 void
 FinishOffThreadIonCompile
 (
-ion
+jit
 :
 :
 IonBuilder
@@ -567,7 +567,7 @@ rt
 >
 workerThreadState
 ;
-ion
+jit
 :
 :
 IonCompartment
@@ -616,7 +616,7 @@ i
 +
 )
 {
-ion
+jit
 :
 :
 IonBuilder
@@ -750,7 +750,7 @@ MAIN
 ;
 }
 }
-ion
+jit
 :
 :
 OffThreadCompilationVector
@@ -784,7 +784,7 @@ i
 +
 )
 {
-ion
+jit
 :
 :
 IonBuilder
@@ -811,7 +811,7 @@ script
 )
 )
 {
-ion
+jit
 :
 :
 FinishOffThreadBuilder
@@ -2866,7 +2866,7 @@ unlock
 ;
 do
 {
-ion
+jit
 :
 :
 IonContext
@@ -3076,7 +3076,7 @@ popCopy
 ;
 DebugOnly
 <
-ion
+jit
 :
 :
 ExecutionMode
@@ -3118,7 +3118,7 @@ unlock
 )
 ;
 {
-ion
+jit
 :
 :
 IonContext
@@ -3150,7 +3150,7 @@ ionBuilder
 >
 setBackgroundCodegen
 (
-ion
+jit
 :
 :
 CompileBackEnd
@@ -3863,7 +3863,7 @@ StartOffThreadIonCompile
 JSContext
 *
 cx
-ion
+jit
 :
 :
 IonBuilder

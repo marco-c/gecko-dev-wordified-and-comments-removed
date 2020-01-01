@@ -292,7 +292,7 @@ ArgumentsObject
 :
 MaybeForwardToCallObject
 (
-ion
+jit
 :
 :
 IonJSFrameLayout
@@ -312,7 +312,7 @@ JSFunction
 *
 callee
 =
-ion
+jit
 :
 :
 CalleeTokenToFunction
@@ -494,7 +494,7 @@ JS_ION
 struct
 CopyIonJSFrameArgs
 {
-ion
+jit
 :
 :
 IonJSFrameLayout
@@ -506,7 +506,7 @@ callObj_
 ;
 CopyIonJSFrameArgs
 (
-ion
+jit
 :
 :
 IonJSFrameLayout
@@ -552,7 +552,7 @@ numActualArgs
 unsigned
 numFormals
 =
-ion
+jit
 :
 :
 CalleeTokenToFunction
@@ -1560,7 +1560,7 @@ createForIon
 JSContext
 *
 cx
-ion
+jit
 :
 :
 IonJSFrameLayout
@@ -1570,7 +1570,7 @@ HandleObject
 scopeChain
 )
 {
-ion
+jit
 :
 :
 CalleeToken
@@ -1585,7 +1585,7 @@ calleeToken
 ;
 JS_ASSERT
 (
-ion
+jit
 :
 :
 CalleeTokenIsFunction
@@ -1598,7 +1598,7 @@ RootedScript
 script
 (
 cx
-ion
+jit
 :
 :
 ScriptFromCalleeToken
@@ -1611,7 +1611,7 @@ RootedFunction
 callee
 (
 cx
-ion
+jit
 :
 :
 CalleeTokenToFunction

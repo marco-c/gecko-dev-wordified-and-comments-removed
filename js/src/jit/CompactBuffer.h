@@ -33,7 +33,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 CompactBufferWriter

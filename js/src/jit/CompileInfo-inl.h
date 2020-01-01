@@ -26,7 +26,7 @@ js
 ;
 using
 namespace
-ion
+jit
 ;
 inline
 RegExpObject

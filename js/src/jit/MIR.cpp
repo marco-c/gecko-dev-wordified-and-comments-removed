@@ -134,7 +134,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 using
 mozilla
@@ -2080,7 +2080,7 @@ types
 :
 StackTypeSet
 *
-ion
+jit
 :
 :
 MakeSingletonTypeSet
@@ -3906,7 +3906,7 @@ ntype
 ;
 }
 void
-ion
+jit
 :
 :
 MergeTypes
@@ -12679,7 +12679,7 @@ call
 ;
 }
 bool
-ion
+jit
 :
 :
 ElementAccessIsDenseNative
@@ -12777,7 +12777,7 @@ isNative
 ;
 }
 bool
-ion
+jit
 :
 :
 ElementAccessIsTypedArray
@@ -12876,7 +12876,7 @@ TYPE_MAX
 ;
 }
 bool
-ion
+jit
 :
 :
 ElementAccessIsPacked
@@ -12922,7 +12922,7 @@ OBJECT_FLAG_NON_PACKED
 ;
 }
 bool
-ion
+jit
 :
 :
 ElementAccessHasExtraIndexedProperty
@@ -12982,7 +12982,7 @@ types
 ;
 }
 MIRType
-ion
+jit
 :
 :
 DenseNativeElementType
@@ -13149,7 +13149,7 @@ elementType
 ;
 }
 bool
-ion
+jit
 :
 :
 PropertyReadNeedsTypeBarrier
@@ -13470,7 +13470,7 @@ false
 ;
 }
 bool
-ion
+jit
 :
 :
 PropertyReadNeedsTypeBarrier
@@ -13607,7 +13607,7 @@ false
 ;
 }
 bool
-ion
+jit
 :
 :
 PropertyReadIsIdempotent
@@ -13762,7 +13762,7 @@ true
 ;
 }
 void
-ion
+jit
 :
 :
 AddObjectsForPropertyRead
@@ -14505,7 +14505,7 @@ guard
 ;
 }
 bool
-ion
+jit
 :
 :
 PropertyWriteNeedsTypeBarrier

@@ -12452,7 +12452,7 @@ empty
 #
 ifdef
 JS_ION
-ion
+jit
 :
 :
 Invalidate
@@ -12629,7 +12629,7 @@ false
 #
 ifdef
 JS_ION
-ion
+jit
 :
 :
 InvalidateAll
@@ -12684,7 +12684,7 @@ JSScript
 (
 )
 ;
-ion
+jit
 :
 :
 FinishInvalidation
@@ -13095,7 +13095,7 @@ script
 ;
 if
 (
-ion
+jit
 :
 :
 IsBaselineEnabled

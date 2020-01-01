@@ -4922,7 +4922,7 @@ endif
 #
 ifdef
 JS_ION
-ion
+jit
 :
 :
 AttachFinishedCompilations

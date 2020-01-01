@@ -301,7 +301,7 @@ UnownedBaseShape
 DeclMarker
 (
 IonCode
-ion
+jit
 :
 :
 IonCode
@@ -974,7 +974,7 @@ JSTracer
 trc
 HeapPtr
 <
-ion
+jit
 :
 :
 IonCode
@@ -1206,7 +1206,7 @@ const
 js
 :
 :
-ion
+jit
 :
 :
 VMFunction
@@ -1228,7 +1228,7 @@ ReadBarriered
 js
 :
 :
-ion
+jit
 :
 :
 IonCode

@@ -257,7 +257,7 @@ defaultFreeOp
 #
 ifdef
 JS_ION
-ion
+jit
 :
 :
 ToggleBaselineSPS

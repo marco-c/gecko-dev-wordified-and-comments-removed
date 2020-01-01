@@ -59,10 +59,10 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 bool
-ion
+jit
 :
 :
 SplitCriticalEdges
@@ -239,7 +239,7 @@ true
 ;
 }
 bool
-ion
+jit
 :
 :
 EliminateDeadResumePointOperands
@@ -682,7 +682,7 @@ true
 ;
 }
 bool
-ion
+jit
 :
 :
 EliminateDeadCode
@@ -1138,7 +1138,7 @@ first
 ;
 }
 bool
-ion
+jit
 :
 :
 EliminatePhis
@@ -3375,7 +3375,7 @@ true
 ;
 }
 bool
-ion
+jit
 :
 :
 ApplyTypeInformation
@@ -3412,7 +3412,7 @@ true
 ;
 }
 bool
-ion
+jit
 :
 :
 RenumberBlocks
@@ -3885,7 +3885,7 @@ NULL
 endif
 }
 bool
-ion
+jit
 :
 :
 BuildDominatorTree
@@ -4159,7 +4159,7 @@ true
 ;
 }
 bool
-ion
+jit
 :
 :
 BuildPhiReverseMapping
@@ -4704,7 +4704,7 @@ ins
 #
 endif
 void
-ion
+jit
 :
 :
 AssertBasicGraphCoherency
@@ -5091,7 +5091,7 @@ unmarkBlocks
 #
 endif
 void
-ion
+jit
 :
 :
 AssertGraphCoherency
@@ -5118,7 +5118,7 @@ graph
 endif
 }
 void
-ion
+jit
 :
 :
 AssertExtendedGraphCoherency
@@ -5647,7 +5647,7 @@ check
 ;
 }
 SimpleLinearSum
-ion
+jit
 :
 :
 ExtractLinearSum
@@ -5951,7 +5951,7 @@ ins
 ;
 }
 bool
-ion
+jit
 :
 :
 ExtractLinearInequality
@@ -7018,7 +7018,7 @@ true
 ;
 }
 bool
-ion
+jit
 :
 :
 EliminateRedundantChecks
@@ -7420,7 +7420,7 @@ NULL
 ;
 }
 bool
-ion
+jit
 :
 :
 UnsplitEdges

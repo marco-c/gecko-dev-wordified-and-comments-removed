@@ -26,7 +26,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 MIRGraph

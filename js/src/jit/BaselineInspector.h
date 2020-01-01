@@ -38,7 +38,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 BaselineInspector

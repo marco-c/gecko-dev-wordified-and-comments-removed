@@ -1253,7 +1253,7 @@ DumpIonScriptCounts
 Sprinter
 *
 sp
-ion
+jit
 :
 :
 IonScriptCounts
@@ -1305,7 +1305,7 @@ i
 )
 {
 const
-ion
+jit
 :
 :
 IonBlockCounts
@@ -1696,7 +1696,7 @@ endif
 #
 ifdef
 JS_ION
-ion
+jit
 :
 :
 IonScriptCounts
@@ -10566,7 +10566,7 @@ ionActivity
 =
 0
 ;
-ion
+jit
 :
 :
 IonScriptCounts
@@ -11255,7 +11255,7 @@ append
 '
 )
 ;
-ion
+jit
 :
 :
 IonScriptCounts
@@ -11359,7 +11359,7 @@ append
 )
 ;
 const
-ion
+jit
 :
 :
 IonBlockCounts

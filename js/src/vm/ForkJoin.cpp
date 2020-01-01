@@ -134,7 +134,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 static
 bool
@@ -1789,7 +1789,7 @@ status
 JS_ASSERT_IF
 (
 !
-ion
+jit
 :
 :
 IsBaselineEnabled
@@ -1797,7 +1797,7 @@ IsBaselineEnabled
 cx_
 )
 !
-ion
+jit
 :
 :
 IsEnabled
@@ -1809,7 +1809,7 @@ cx_
 if
 (
 !
-ion
+jit
 :
 :
 IsBaselineEnabled
@@ -1819,7 +1819,7 @@ cx_
 |
 |
 !
-ion
+jit
 :
 :
 IsEnabled
@@ -2630,7 +2630,7 @@ script
 MethodStatus
 mstatus
 =
-ion
+jit
 :
 :
 CanEnterInParallel
@@ -8976,7 +8976,7 @@ cx
 )
 {
 return
-ion
+jit
 :
 :
 IsEnabled
@@ -8985,7 +8985,7 @@ cx
 )
 &
 &
-ion
+jit
 :
 :
 IsBaselineEnabled
@@ -8995,7 +8995,7 @@ cx
 &
 &
 !
-ion
+jit
 :
 :
 js_IonOptions
@@ -9003,7 +9003,7 @@ js_IonOptions
 eagerCompilation
 &
 &
-ion
+jit
 :
 :
 js_IonOptions

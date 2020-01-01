@@ -81,7 +81,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 static
 IonSpewer
@@ -331,7 +331,7 @@ false
 ;
 }
 void
-ion
+jit
 :
 :
 EnableIonDebugLogging
@@ -351,7 +351,7 @@ init
 ;
 }
 void
-ion
+jit
 :
 :
 IonSpewNewFunction
@@ -458,7 +458,7 @@ thread
 }
 }
 void
-ion
+jit
 :
 :
 IonSpewPass
@@ -491,7 +491,7 @@ pass
 ;
 }
 void
-ion
+jit
 :
 :
 IonSpewPass
@@ -528,7 +528,7 @@ ra
 ;
 }
 void
-ion
+jit
 :
 :
 IonSpewEndFunction
@@ -922,7 +922,7 @@ NULL
 }
 FILE
 *
-ion
+jit
 :
 :
 IonSpewFile
@@ -1027,7 +1027,7 @@ false
 ;
 }
 void
-ion
+jit
 :
 :
 CheckLogging
@@ -1252,7 +1252,7 @@ to
 js
 :
 :
-ion
+jit
 :
 :
 Trace
@@ -1867,7 +1867,7 @@ stderr
 ;
 }
 void
-ion
+jit
 :
 :
 IonSpewStartVA
@@ -1906,7 +1906,7 @@ ap
 ;
 }
 void
-ion
+jit
 :
 :
 IonSpewContVA
@@ -1940,7 +1940,7 @@ ap
 ;
 }
 void
-ion
+jit
 :
 :
 IonSpewFin
@@ -1970,7 +1970,7 @@ n
 ;
 }
 void
-ion
+jit
 :
 :
 IonSpewVA
@@ -1999,7 +1999,7 @@ channel
 ;
 }
 void
-ion
+jit
 :
 :
 IonSpew
@@ -2038,7 +2038,7 @@ ap
 ;
 }
 void
-ion
+jit
 :
 :
 IonSpewStart
@@ -2077,7 +2077,7 @@ ap
 ;
 }
 void
-ion
+jit
 :
 :
 IonSpewCont
@@ -2116,7 +2116,7 @@ ap
 ;
 }
 void
-ion
+jit
 :
 :
 IonSpewHeader
@@ -2152,7 +2152,7 @@ channel
 ;
 }
 bool
-ion
+jit
 :
 :
 IonSpewEnabled
@@ -2187,7 +2187,7 @@ filteredOutCompilations
 ;
 }
 void
-ion
+jit
 :
 :
 EnableChannel
@@ -2216,7 +2216,7 @@ channel
 ;
 }
 void
-ion
+jit
 :
 :
 DisableChannel

@@ -52,13 +52,13 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 namespace
 js
 {
 namespace
-ion
+jit
 {
 bool
 ICCompare_Int32

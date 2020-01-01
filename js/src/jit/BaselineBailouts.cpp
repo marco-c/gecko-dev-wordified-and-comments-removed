@@ -86,7 +86,7 @@ namespace
 js
 :
 :
-ion
+jit
 ;
 template
 <
@@ -5485,7 +5485,7 @@ true
 ;
 }
 uint32_t
-ion
+jit
 :
 :
 BailoutIonToBaseline
@@ -6583,7 +6583,7 @@ outerScript
 ;
 }
 uint32_t
-ion
+jit
 :
 :
 FinishBailoutToBaseline

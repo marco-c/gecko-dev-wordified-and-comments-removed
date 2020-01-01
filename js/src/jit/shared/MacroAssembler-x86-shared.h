@@ -66,7 +66,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 class
 MacroAssemblerX86Shared

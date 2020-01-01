@@ -124,7 +124,7 @@ namespace
 js
 {
 namespace
-ion
+jit
 {
 #
 ifdef
@@ -5475,7 +5475,7 @@ NULL
 if
 (
 !
-ion
+jit
 :
 :
 IsEnabled
