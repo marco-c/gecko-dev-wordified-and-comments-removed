@@ -9747,9 +9747,6 @@ tabContainer
 .
 _handleTabTelemetryStart
 (
-this
-.
-tabContainer
 t
 aURI
 )
@@ -10684,9 +10681,6 @@ tabContainer
 .
 _handleTabTelemetryStart
 (
-this
-.
-tabContainer
 aTab
 )
 ;
@@ -24170,15 +24164,6 @@ parameter
 name
 =
 "
-aTabContainer
-"
-/
->
-<
-parameter
-name
-=
-"
 aTab
 "
 /
@@ -24217,7 +24202,7 @@ telemetry
 canRecord
 |
 |
-aTabContainer
+this
 .
 _tabAnimationLoggingEnabled
 )
