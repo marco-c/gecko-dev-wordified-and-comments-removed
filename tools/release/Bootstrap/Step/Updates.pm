@@ -48,7 +48,6 @@ Util
 qw
 (
 CvsCatfile
-SyncToStaging
 GetLocaleManifest
 )
 ;
@@ -1894,7 +1893,7 @@ ausServerUrl
 )
 ;
 my
-externalStagingServer
+stagingServer
 =
 config
 -
@@ -1905,7 +1904,7 @@ var
 =
 >
 '
-externalStagingServer
+stagingServer
 '
 )
 ;
@@ -2712,7 +2711,7 @@ ftp_server
 "
 '
 .
-externalStagingServer
+stagingServer
 .
 '
 /
@@ -3475,10 +3474,6 @@ pushLog
 )
 ;
 }
-SyncToStaging
-(
-)
-;
 #
 Backup
 test
