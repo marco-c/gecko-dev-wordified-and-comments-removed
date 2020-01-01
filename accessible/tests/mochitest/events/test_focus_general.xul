@@ -258,6 +258,14 @@ application
 javascript
 "
 >
+SimpleTest
+.
+expectAssertions
+(
+0
+1
+)
+;
 function
 getColorBtn
 (
