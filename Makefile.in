@@ -445,13 +445,6 @@ RM
 -
 rf
 _tests
-(
-MAKE
-)
--
-C
-config
-export
 TIERS
 +
 =
