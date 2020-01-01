@@ -380,17 +380,6 @@ return
 rgn
 ;
 }
-void
-nsWindowGfx
-:
-:
-OnSettingsChangeGfx
-(
-WPARAM
-wParam
-)
-{
-}
 nsIntRegion
 nsWindow
 :
