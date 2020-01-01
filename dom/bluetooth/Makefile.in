@@ -293,10 +293,6 @@ BluetoothUuid
 .
 cpp
 \
-BluetoothSocket
-.
-cpp
-\
 (
 NULL
 )
