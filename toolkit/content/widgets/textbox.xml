@@ -1579,6 +1579,17 @@ focused
 !
 this
 .
+hasAttribute
+(
+"
+empty
+"
+)
+&
+&
+!
+this
+.
 value
 &
 &

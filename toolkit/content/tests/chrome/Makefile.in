@@ -487,6 +487,10 @@ test_bug263683
 .
 xul
 \
+test_bug418874
+.
+xul
+\
 bug451286_window
 .
 xul
