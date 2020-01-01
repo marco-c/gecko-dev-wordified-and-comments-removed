@@ -3930,6 +3930,8 @@ out
 imacro_asm
 .
 js
+ifndef
+CROSS_COMPILE
 #
 Build
 imacros
@@ -3981,7 +3983,11 @@ out
 cmp
 -
 s
-<
+imacros
+.
+c
+.
+out
 (
 srcdir
 )
@@ -3990,7 +3996,11 @@ srcdir
 |
 |
 cp
-<
+imacros
+.
+c
+.
+out
 (
 srcdir
 )
@@ -4018,3 +4028,4 @@ imacro_asm
 js
 <
 >
+endif
