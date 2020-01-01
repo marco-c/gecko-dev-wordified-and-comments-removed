@@ -21744,7 +21744,7 @@ inDictionaryMode
 )
 )
 {
-PropertyTable
+ShapeTable
 &
 table
 =
@@ -31014,7 +31014,7 @@ if
 obj
 -
 >
-hasPropertyTable
+hasShapeTable
 (
 )
 )
@@ -31022,7 +31022,7 @@ fprintf
 (
 stderr
 "
-hasPropertyTable
+hasShapeTable
 "
 )
 ;
