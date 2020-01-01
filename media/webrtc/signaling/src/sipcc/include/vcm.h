@@ -711,6 +711,8 @@ const
 char
 *
 peerconnection
+cc_boolean
+isControlling
 )
 ;
 short

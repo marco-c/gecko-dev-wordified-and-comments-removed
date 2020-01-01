@@ -119,6 +119,13 @@ ICE_CTX_OPEN
 ICE_CTX_FAILED
 }
 ;
+enum
+Controlling
+{
+ICE_CONTROLLING
+ICE_CONTROLLED
+}
+;
 static
 RefPtr
 <
@@ -242,6 +249,13 @@ std
 string
 >
 attrs
+)
+;
+nsresult
+SetControlling
+(
+Controlling
+controlling
 )
 ;
 nsresult

@@ -10095,6 +10095,13 @@ return
 SM_RC_CLEANUP
 ;
 }
+dcb
+-
+>
+inbound
+=
+FALSE
+;
 if
 (
 msg
@@ -10719,6 +10726,13 @@ return
 SM_RC_CLEANUP
 ;
 }
+dcb
+-
+>
+inbound
+=
+TRUE
+;
 if
 (
 msg
