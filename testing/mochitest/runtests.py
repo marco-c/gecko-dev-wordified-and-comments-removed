@@ -3202,9 +3202,11 @@ abspath
 "
         
 if
-mozinfo
+self
 .
-isWin
+automation
+.
+IS_WIN32
 :
           
 chrometestDir
@@ -3390,7 +3392,7 @@ content
 /
 shell
 .
-xul
+xhtml
 chrome
 :
 /
