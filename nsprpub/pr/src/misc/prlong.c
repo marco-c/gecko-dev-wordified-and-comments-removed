@@ -1,7 +1,7 @@
 #
 include
 "
-primpl
+prlong
 .
 h
 "

@@ -691,10 +691,6 @@ _PR_MD_TLOCKFILE
 define
 _MD_UNLOCKFILE
 _PR_MD_UNLOCKFILE
-extern
-PRBool
-_pr_useUnicode
-;
 #
 ifdef
 MOZ_UNICODE

@@ -226,10 +226,10 @@ MOD_MAJOR_VERSION
 4
 MOD_MINOR_VERSION
 =
-9
+10
 MOD_PATCH_VERSION
 =
-6
+0
 NSPR_MODNAME
 =
 nspr20
@@ -2012,11 +2012,6 @@ fi
 AC_DEFINE
 (
 ANDROID
-)
-AC_DEFINE_UNQUOTED
-(
-ANDROID_VERSION
-android_version
 )
 ;
 ;
@@ -4331,15 +4326,10 @@ AC_TRY_COMPILE
 ]
 [
 return
-(
 0
-)
 ;
 ]
 [
-ac_cv_prog_host_cc_works
-=
-1
 AC_MSG_RESULT
 (
 [
@@ -4347,6 +4337,7 @@ yes
 ]
 )
 ]
+[
 AC_MSG_ERROR
 (
 [
@@ -4364,6 +4355,7 @@ executables
 .
 ]
 )
+]
 )
 CC
 =
@@ -17782,6 +17774,7 @@ AC_CHECK_LIB
 (
 dl
 dlopen
+[
 AC_CHECK_HEADER
 (
 dlfcn
@@ -17795,6 +17788,7 @@ ldl
 OS_LIBS
 "
 )
+]
 )
 ;
 ;
