@@ -510,13 +510,21 @@ communicate
             
 if
 out
-=
-=
+in
+(
 '
 true
 \
 n
 '
+'
+true
+\
+r
+\
+n
+'
+)
 :
                 
 ans
@@ -525,13 +533,21 @@ True
             
 elif
 out
-=
-=
+in
+(
 '
 false
 \
 n
 '
+'
+false
+\
+r
+\
+n
+'
+)
 :
                 
 ans

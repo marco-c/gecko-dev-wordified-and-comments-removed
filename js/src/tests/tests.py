@@ -55,6 +55,17 @@ now
 (
 )
     
+close_fds
+=
+sys
+.
+platform
+!
+=
+'
+win32
+'
+    
 p
 =
 Popen
@@ -71,7 +82,7 @@ stderr
 PIPE
 close_fds
 =
-True
+close_fds
 )
     
 l
