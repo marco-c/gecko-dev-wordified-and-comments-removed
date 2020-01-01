@@ -2344,7 +2344,13 @@ idint
 0
 |
 |
+static_cast
+<
+uint32_t
+>
+(
 idint
+)
 >
 =
 argsObj
