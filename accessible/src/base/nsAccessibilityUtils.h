@@ -435,6 +435,15 @@ aID
 )
 ;
 static
+PRBool
+IsXLink
+(
+nsIContent
+*
+aContent
+)
+;
+static
 nsRoleMapEntry
 *
 GetRoleMapEntry

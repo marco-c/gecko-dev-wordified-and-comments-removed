@@ -8185,6 +8185,15 @@ HasRelatedContent
 (
 content
 )
+|
+|
+nsAccUtils
+:
+:
+IsXLink
+(
+content
+)
 )
 )
 {
