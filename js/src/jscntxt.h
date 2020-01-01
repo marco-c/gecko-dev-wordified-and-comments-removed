@@ -350,8 +350,14 @@ typedef
 struct
 JSTraceMonitor
 {
-JSBool
+JSPackedBool
 onTrace
+;
+JSPackedBool
+prohibitRecording
+;
+JSPackedBool
+useReservedObjects
 ;
 CLS
 (
@@ -406,9 +412,6 @@ needFlush
 JSObject
 *
 reservedObjects
-;
-JSBool
-useReservedObjects
 ;
 CLS
 (
