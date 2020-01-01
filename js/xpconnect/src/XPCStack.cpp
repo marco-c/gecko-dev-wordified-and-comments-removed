@@ -357,10 +357,7 @@ nsIProgrammingLanguage
 :
 JAVASCRIPT
 ;
-JS
-:
-:
-AutoCompartment
+JSAutoCompartment
 ac
 (
 cx
