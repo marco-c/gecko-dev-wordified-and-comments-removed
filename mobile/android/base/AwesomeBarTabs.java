@@ -4303,14 +4303,11 @@ public
 void
 setSearchEngines
 (
+final
 JSONArray
 engines
 )
 {
-mSearchEngines
-=
-engines
-;
 GeckoAppShell
 .
 getMainHandler
@@ -4330,6 +4327,10 @@ run
 (
 )
 {
+mSearchEngines
+=
+engines
+;
 mAllPagesCursorAdapter
 .
 notifyDataSetChanged
