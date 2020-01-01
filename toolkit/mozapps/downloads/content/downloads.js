@@ -3803,7 +3803,7 @@ aCommand
 {
 case
 "
-cmd_cleanup
+cmd_cleanUp
 "
 :
 return
@@ -3952,7 +3952,7 @@ true
 commands
 :
 {
-cmd_cleanup
+cmd_cleanUp
 :
 function
 (
