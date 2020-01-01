@@ -1212,11 +1212,7 @@ false
 A
 locked
 preference
-should
-not
-be
-able
-to
+could
 be
 modified
 .
@@ -1264,10 +1260,8 @@ locked
 A
 single
 preference
-should
-not
-be
-locked
+is
+unlocked
 .
 "
 )
@@ -1331,7 +1325,7 @@ Application
 .
 prefs
 .
-set
+setValue
 '
 fired
 a
@@ -1470,7 +1464,7 @@ Application
 .
 prefs
 .
-set
+setValue
 '
 fired
 a
