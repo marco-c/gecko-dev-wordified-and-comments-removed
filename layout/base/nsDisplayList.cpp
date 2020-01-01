@@ -5369,10 +5369,10 @@ twipsRadii
 PRBool
 hasBorderRadii
 =
-nsCSSRendering
+nsIFrame
 :
 :
-GetBorderRadiusTwips
+ComputeBorderRadii
 (
 mFrame
 -
