@@ -143,6 +143,10 @@ doorhanger
 this
 )
 ;
+hidePopup
+(
+)
+;
 mTextView
 =
 (
@@ -346,6 +350,16 @@ setText
 (
 aText
 )
+;
+}
+public
+Tab
+getTab
+(
+)
+{
+return
+mTab
 ;
 }
 public
