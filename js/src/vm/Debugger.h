@@ -1093,6 +1093,15 @@ fp
 const
 ;
 bool
+observesScript
+(
+JSScript
+*
+script
+)
+const
+;
+bool
 wrapEnvironment
 (
 JSContext
