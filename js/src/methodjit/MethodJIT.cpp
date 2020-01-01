@@ -6058,7 +6058,7 @@ isFunctionFrame
 fp
 -
 >
-markFunctionEpilogueDone
+updateEpilogueFlags
 (
 )
 ;

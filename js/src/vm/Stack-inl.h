@@ -2091,7 +2091,7 @@ void
 StackFrame
 :
 :
-markFunctionEpilogueDone
+updateEpilogueFlags
 (
 )
 {
