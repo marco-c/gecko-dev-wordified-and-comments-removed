@@ -64,7 +64,7 @@ MPL
 ENTITY
 brandShortName
 "
-B2G
+Firefox
 "
 >
 <
@@ -73,7 +73,7 @@ ENTITY
 brandFullName
 "
 Mozilla
-B2G
+Firefox
 "
 >
 <
@@ -89,5 +89,17 @@ Mozilla
 ENTITY
 logoTrademark
 "
+Firefox
+and
+the
+Firefox
+logos
+are
+trademarks
+of
+the
+Mozilla
+Foundation
+.
 "
 >
