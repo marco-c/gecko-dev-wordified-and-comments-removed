@@ -39,7 +39,7 @@ Decoder
 (
 )
 ;
-nsresult
+void
 Init
 (
 RasterImage
@@ -50,7 +50,7 @@ imgIDecoderObserver
 aObserver
 )
 ;
-nsresult
+void
 Write
 (
 const
@@ -61,7 +61,7 @@ PRUint32
 aCount
 )
 ;
-nsresult
+void
 Finish
 (
 )

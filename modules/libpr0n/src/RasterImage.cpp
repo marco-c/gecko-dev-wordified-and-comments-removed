@@ -8415,9 +8415,6 @@ SetSizeDecode
 aDoSizeDecode
 )
 ;
-nsresult
-result
-=
 mDecoder
 -
 >
@@ -8429,7 +8426,12 @@ observer
 ;
 CONTAINER_ENSURE_SUCCESS
 (
-result
+mDecoder
+-
+>
+GetDecoderError
+(
+)
 )
 ;
 mWorker
@@ -8684,9 +8686,6 @@ mInDecoder
 =
 PR_TRUE
 ;
-nsresult
-rv
-=
 mDecoder
 -
 >
@@ -8738,7 +8737,12 @@ UnlockImageData
 }
 CONTAINER_ENSURE_SUCCESS
 (
-rv
+mDecoder
+-
+>
+GetDecoderError
+(
+)
 )
 ;
 mBytesDecoded
