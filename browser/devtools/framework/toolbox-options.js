@@ -260,6 +260,12 @@ toolbox
 ;
 this
 .
+isReady
+=
+false
+;
+this
+.
 panelWin
 .
 restart
@@ -371,6 +377,12 @@ this
 _disableJSClicked
 false
 )
+;
+this
+.
+isReady
+=
+true
 ;
 this
 .
