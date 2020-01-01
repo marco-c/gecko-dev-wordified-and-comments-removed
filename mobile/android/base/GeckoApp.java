@@ -13453,6 +13453,15 @@ this
 )
 ;
 }
+public
+void
+setAccessibilityEnabled
+(
+boolean
+enabled
+)
+{
+}
 Override
 public
 boolean

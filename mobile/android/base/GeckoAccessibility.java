@@ -411,6 +411,15 @@ break
 ;
 }
 }
+GeckoApp
+.
+mAppContext
+.
+setAccessibilityEnabled
+(
+sEnabled
+)
+;
 try
 {
 ret
