@@ -642,6 +642,7 @@ if
 (
 mObj
 )
+{
 mObj
 -
 >
@@ -650,6 +651,11 @@ setPrivate
 NULL
 )
 ;
+mObj
+=
+NULL
+;
+}
 }
 ContextWrapperParent
 *
@@ -2833,6 +2839,14 @@ if
 (
 self
 )
+{
+self
+-
+>
+mObj
+=
+NULL
+;
 ObjectWrapperParent
 :
 :
@@ -2841,6 +2855,7 @@ Send__delete__
 self
 )
 ;
+}
 }
 JSBool
 ObjectWrapperParent
