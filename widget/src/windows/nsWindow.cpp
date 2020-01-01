@@ -33856,12 +33856,6 @@ WM_SIZING
 inMsg
 =
 =
-WM_GETMINMAXINFO
-|
-|
-inMsg
-=
-=
 WM_NCLBUTTONDOWN
 |
 |
