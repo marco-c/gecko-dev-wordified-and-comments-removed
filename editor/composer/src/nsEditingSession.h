@@ -262,9 +262,6 @@ PRPackedBool
 mCanCreateEditor
 ;
 PRPackedBool
-mInteractive
-;
-PRPackedBool
 mScriptsEnabled
 ;
 PRPackedBool

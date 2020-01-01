@@ -486,8 +486,6 @@ editor
 \
 plugin
 \
-txtsvc
-\
 (
 NULL
 )

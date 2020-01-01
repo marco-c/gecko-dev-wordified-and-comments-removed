@@ -5053,7 +5053,6 @@ domWindow
 html
 "
 PR_FALSE
-PR_FALSE
 )
 ;
 return

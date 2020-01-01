@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIEditor
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -99,9 +92,6 @@ iid
 NS_IMETHOD
 Init
 (
-nsIEditor
-*
-aEditor
 nsIDOMNode
 *
 aElement
@@ -143,10 +133,6 @@ nsCOMPtr
 nsIDOMNode
 >
 mRefNode
-;
-nsIEditor
-*
-mEditor
 ;
 nsRangeUpdater
 *

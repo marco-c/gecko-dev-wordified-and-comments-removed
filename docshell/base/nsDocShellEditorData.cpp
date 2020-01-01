@@ -95,7 +95,6 @@ mEditingSession
 TearDownEditorOnWindow
 (
 domWindow
-PR_TRUE
 )
 ;
 }
@@ -163,10 +162,6 @@ mEditor
 nsnull
 ;
 }
-if
-(
-inWaitForUriLoad
-)
 mMakeEditable
 =
 PR_TRUE
@@ -374,15 +369,6 @@ nsnull
 mEditor
 =
 inEditor
-;
-if
-(
-!
-mEditor
-)
-mMakeEditable
-=
-PR_FALSE
 ;
 }
 return
