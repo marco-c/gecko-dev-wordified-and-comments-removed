@@ -541,17 +541,6 @@ media
 libnestegg
 '
 )
-add_tier_dir
-(
-'
-platform
-'
-'
-media
-/
-webvtt
-'
-)
 if
 CONFIG
 [

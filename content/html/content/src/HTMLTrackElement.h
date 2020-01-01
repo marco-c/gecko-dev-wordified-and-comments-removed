@@ -5,14 +5,6 @@ mozilla_dom_HTMLTrackElement_h
 define
 mozilla_dom_HTMLTrackElement_h
 #
-define
-WEBVTT_NO_CONFIG_H
-1
-#
-define
-WEBVTT_STATIC
-1
-#
 include
 "
 mozilla
