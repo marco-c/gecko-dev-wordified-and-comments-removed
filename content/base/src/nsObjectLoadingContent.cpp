@@ -4014,7 +4014,7 @@ pDoc
 (
 do_QueryInterface
 (
-GetOurDocument
+GetOurOwnerDoc
 (
 )
 )
