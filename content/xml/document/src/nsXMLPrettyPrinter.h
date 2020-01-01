@@ -149,6 +149,9 @@ PrettyPrint
 nsIDocument
 *
 aDocument
+PRBool
+*
+aDidPrettyPrint
 )
 ;
 private
