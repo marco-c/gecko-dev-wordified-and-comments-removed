@@ -758,6 +758,16 @@ extensions
 /
 cookie
 \
+-
+I
+(
+topsrcdir
+)
+/
+dom
+/
+base
+\
 (
 NULL
 )
