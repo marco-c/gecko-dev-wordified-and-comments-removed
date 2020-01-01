@@ -74,7 +74,7 @@ aObserver
 )
 ;
 }
-void
+bool
 RemoveObserver
 (
 Observer
@@ -85,6 +85,7 @@ T
 aObserver
 )
 {
+return
 mObservers
 .
 RemoveElement
