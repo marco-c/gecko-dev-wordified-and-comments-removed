@@ -10,7 +10,7 @@ JS_METHODJIT
 &
 &
 defined
-JS_64BIT
+JS_PUNBOX64
 #
 define
 jsjaeger_assembler64_h__

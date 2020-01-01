@@ -5356,7 +5356,7 @@ Value
 #
 if
 defined
-JS_32BIT
+JS_NUNBOX32
 Jump
 notHole
 =
@@ -5383,7 +5383,7 @@ JSVAL_TYPE_MAGIC
 #
 elif
 defined
-JS_64BIT
+JS_PUNBOX64
 masm
 .
 loadTypeTag
@@ -5607,7 +5607,7 @@ JSVAL_SCALE
 #
 if
 defined
-JS_32BIT
+JS_NUNBOX32
 Jump
 notHole
 =
@@ -5634,7 +5634,7 @@ JSVAL_TYPE_MAGIC
 #
 elif
 defined
-JS_64BIT
+JS_PUNBOX64
 masm
 .
 loadTypeTag
@@ -6014,7 +6014,7 @@ Value
 #
 if
 defined
-JS_32BIT
+JS_NUNBOX32
 Jump
 notHole
 =
@@ -6041,7 +6041,7 @@ JSVAL_TYPE_MAGIC
 #
 elif
 defined
-JS_64BIT
+JS_PUNBOX64
 masm
 .
 loadTypeTag
@@ -6179,7 +6179,7 @@ JSVAL_SCALE
 #
 if
 defined
-JS_32BIT
+JS_NUNBOX32
 Jump
 notHole
 =
@@ -6206,7 +6206,7 @@ JSVAL_TYPE_MAGIC
 #
 elif
 defined
-JS_64BIT
+JS_PUNBOX64
 masm
 .
 loadTypeTag

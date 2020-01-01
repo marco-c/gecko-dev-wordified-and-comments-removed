@@ -157,7 +157,7 @@ knownType
 #
 if
 defined
-JS_32BIT
+JS_NUNBOX32
 JSValueTag
 getKnownTag
 (
@@ -175,7 +175,7 @@ tag
 #
 elif
 defined
-JS_64BIT
+JS_PUNBOX64
 JSValueShiftedTag
 getKnownShiftedTag
 (
@@ -242,7 +242,7 @@ type_
 #
 if
 defined
-JS_32BIT
+JS_NUNBOX32
 uint32
 getPayload32
 (
@@ -262,7 +262,7 @@ u32
 #
 elif
 defined
-JS_64BIT
+JS_PUNBOX64
 uint64
 getPayload64
 (
@@ -307,7 +307,7 @@ setConstant
 #
 if
 defined
-JS_32BIT
+JS_NUNBOX32
 v_
 .
 s
@@ -322,7 +322,7 @@ type_
 #
 elif
 defined
-JS_64BIT
+JS_PUNBOX64
 v_
 .
 asBits

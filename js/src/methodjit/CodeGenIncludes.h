@@ -13,7 +13,7 @@ jsjaeger_codegenincs_h__
 #
 if
 defined
-JS_32BIT
+JS_NUNBOX32
 #
 include
 "
@@ -24,7 +24,7 @@ h
 #
 elif
 defined
-JS_64BIT
+JS_PUNBOX64
 #
 include
 "
@@ -38,9 +38,9 @@ else
 error
 "
 Neither
-JS_32BIT
-or
-JS_64BIT
+JS_NUNBOX32
+nor
+JS_PUNBOX32
 is
 defined
 .
