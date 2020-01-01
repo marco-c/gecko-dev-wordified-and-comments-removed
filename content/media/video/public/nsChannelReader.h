@@ -46,6 +46,12 @@ oggplay
 h
 "
 class
+nsIChannel
+;
+class
+nsIStreamListener
+;
+class
 nsChannelReader
 :
 public
@@ -71,6 +77,13 @@ aDecoder
 nsIURI
 *
 aURI
+nsIChannel
+*
+aChannel
+nsIStreamListener
+*
+*
+aStreamListener
 )
 ;
 void

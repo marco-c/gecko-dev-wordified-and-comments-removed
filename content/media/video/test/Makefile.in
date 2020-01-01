@@ -528,6 +528,10 @@ test_seek8
 .
 html
 \
+test_standalone
+.
+html
+\
 test_timeupdate1
 .
 html

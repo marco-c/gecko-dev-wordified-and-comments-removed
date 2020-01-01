@@ -121,6 +121,10 @@ virtual
 nsresult
 Open
 (
+nsIStreamListener
+*
+*
+aStreamListener
 )
 =
 0
@@ -248,6 +252,13 @@ aDecoder
 nsIURI
 *
 aURI
+nsIChannel
+*
+aChannel
+nsIStreamListener
+*
+*
+aListener
 )
 ;
 nsresult

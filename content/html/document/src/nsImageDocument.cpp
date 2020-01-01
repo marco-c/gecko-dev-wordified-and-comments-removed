@@ -375,6 +375,7 @@ ImageListener
 ;
 protected
 :
+virtual
 nsresult
 CreateSyntheticDocument
 (
