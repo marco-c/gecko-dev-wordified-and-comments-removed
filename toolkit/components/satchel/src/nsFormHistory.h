@@ -101,9 +101,9 @@ NS_DECL_NSIOBSERVER
 NS_IMETHOD
 Notify
 (
-nsIContent
+nsIDOMHTMLFormElement
 *
-formNode
+formElt
 nsIDOMWindowInternal
 *
 window

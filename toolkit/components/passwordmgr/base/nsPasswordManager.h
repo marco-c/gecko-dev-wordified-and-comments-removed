@@ -111,9 +111,6 @@ class
 nsIComponentManager
 ;
 class
-nsIContent
-;
-class
 nsIDOMWindowInternal
 ;
 class
@@ -316,9 +313,9 @@ NS_DECL_NSIPROMPTFACTORY
 NS_IMETHOD
 Notify
 (
-nsIContent
+nsIDOMHTMLFormElement
 *
-aFormNode
+aDOMForm
 nsIDOMWindowInternal
 *
 aWindow
