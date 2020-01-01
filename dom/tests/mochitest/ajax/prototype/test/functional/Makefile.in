@@ -410,6 +410,9 @@ DEPTH
 /
 .
 .
+/
+.
+.
 topsrcdir
 =
 top_srcdir
@@ -431,7 +434,9 @@ ajax
 /
 prototype
 /
-dist
+test
+/
+functional
 include
 (
 DEPTH
@@ -455,9 +460,9 @@ mk
 _TEST_FILES
 =
 \
-prototype
+event
 .
-js
+html
 \
 (
 NULL
