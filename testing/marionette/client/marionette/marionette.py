@@ -2511,6 +2511,9 @@ True
 new_sandbox
 =
 True
+special_powers
+=
+False
 )
 :
         
@@ -2563,6 +2566,10 @@ timeout
 newSandbox
 =
 new_sandbox
+                                      
+specialPowers
+=
+special_powers
 )
         
 return
@@ -2584,6 +2591,9 @@ None
 new_sandbox
 =
 True
+special_powers
+=
+False
 )
 :
         
@@ -2632,6 +2642,10 @@ args
 newSandbox
 =
 new_sandbox
+                                      
+specialPowers
+=
+special_powers
 )
         
 return
@@ -2653,6 +2667,9 @@ None
 new_sandbox
 =
 True
+special_powers
+=
+False
 )
 :
         
@@ -2701,6 +2718,10 @@ args
 newSandbox
 =
 new_sandbox
+                                      
+specialPowers
+=
+special_powers
 )
         
 return
