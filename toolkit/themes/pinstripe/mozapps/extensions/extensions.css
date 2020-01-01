@@ -25,9 +25,14 @@ top
 -
 12px
 ;
+visibility
+:
+hidden
+;
 }
 #
 resizerBox
+>
 resizer
 {
 height
@@ -39,6 +44,10 @@ max
 height
 :
 10px
+;
+visibility
+:
+visible
 ;
 }
 #
