@@ -32543,6 +32543,14 @@ res
 =
 NULL
 ;
+#
+ifdef
+JS_MORE_DETERMINISTIC
+return
+true
+;
+#
+endif
 ScriptFrameIter
 frameIter
 (
