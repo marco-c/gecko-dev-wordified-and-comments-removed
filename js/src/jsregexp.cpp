@@ -16883,7 +16883,7 @@ lcbits
 LC_TMRegexp
 )
 delete
-lir
+verbose_filter
 ;
 )
 #
