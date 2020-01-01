@@ -177,7 +177,6 @@ nsIntPoint
 aOffset
 )
 {
-return
 RenderColorLayer
 (
 this
@@ -199,7 +198,6 @@ nsIntPoint
 aOffset
 )
 {
-return
 RenderColorLayer
 (
 this
