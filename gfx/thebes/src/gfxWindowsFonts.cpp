@@ -7725,6 +7725,7 @@ AVERAGE_ITEM_LENGTH
 nsAutoBuffer
 <
 WORD
+PRUint32
 (
 1
 .
@@ -7749,6 +7750,7 @@ mClusters
 nsAutoBuffer
 <
 SCRIPT_VISATTR
+PRUint32
 (
 1
 .
