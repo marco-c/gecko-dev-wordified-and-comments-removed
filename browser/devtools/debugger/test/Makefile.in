@@ -348,6 +348,14 @@ breakpoints
 .
 js
 \
+browser_dbg_bug723071_editor
+-
+breakpoints
+-
+pane
+.
+js
+\
 browser_dbg_bug731394_editor
 -
 contextmenu

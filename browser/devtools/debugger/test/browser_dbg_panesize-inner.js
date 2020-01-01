@@ -223,6 +223,8 @@ getElementById
 (
 "
 stackframes
++
+breakpoints
 "
 )
 ;

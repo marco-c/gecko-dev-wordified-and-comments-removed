@@ -521,7 +521,7 @@ addScript
 (
 ss
 .
-_getScriptLabel
+getScriptLabel
 (
 loc
 url
@@ -575,7 +575,7 @@ addScript
 (
 ss
 .
-_getScriptLabel
+getScriptLabel
 (
 loc
 url
@@ -643,7 +643,7 @@ addScript
 (
 ss
 .
-_getScriptLabel
+getScriptLabel
 (
 loc
 url
@@ -703,7 +703,7 @@ addScript
 (
 ss
 .
-_getScriptLabel
+getScriptLabel
 (
 loc
 url
