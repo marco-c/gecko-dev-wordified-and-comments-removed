@@ -613,6 +613,16 @@ aExtraHint
 )
 ;
 void
+DoRebuildAllStyleData
+(
+RestyleTracker
+&
+aRestyleTracker
+nsChangeHint
+aExtraHint
+)
+;
+void
 PostRestyleEvent
 (
 Element
