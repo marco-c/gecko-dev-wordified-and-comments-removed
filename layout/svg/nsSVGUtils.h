@@ -707,15 +707,6 @@ aFrame
 )
 ;
 static
-void
-InvalidateAndScheduleReflowSVG
-(
-nsIFrame
-*
-aFrame
-)
-;
-static
 bool
 NeedsReflowSVG
 (

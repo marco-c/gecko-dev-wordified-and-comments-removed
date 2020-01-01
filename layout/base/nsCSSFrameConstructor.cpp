@@ -31304,7 +31304,16 @@ true
 nsSVGUtils
 :
 :
-InvalidateAndScheduleReflowSVG
+InvalidateBounds
+(
+aFrame
+false
+)
+;
+nsSVGUtils
+:
+:
+ScheduleReflowSVG
 (
 aFrame
 )

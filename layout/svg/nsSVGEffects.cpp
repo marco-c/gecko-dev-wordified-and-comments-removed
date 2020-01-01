@@ -960,7 +960,16 @@ NS_FRAME_IN_REFLOW
 nsSVGUtils
 :
 :
-InvalidateAndScheduleReflowSVG
+InvalidateBounds
+(
+mFrame
+false
+)
+;
+nsSVGUtils
+:
+:
+ScheduleReflowSVG
 (
 mFrame
 )

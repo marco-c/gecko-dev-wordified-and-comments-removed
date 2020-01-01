@@ -308,7 +308,16 @@ rotate
 nsSVGUtils
 :
 :
-InvalidateAndScheduleReflowSVG
+InvalidateBounds
+(
+this
+false
+)
+;
+nsSVGUtils
+:
+:
+ScheduleReflowSVG
 (
 this
 )
