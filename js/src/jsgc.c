@@ -11652,8 +11652,9 @@ ok
 if
 (
 gckind
-&
-GC_LOCK_HELD
+!
+=
+GC_LAST_DITCH
 )
 JS_UNLOCK_GC
 (
@@ -11671,8 +11672,9 @@ JSGC_BEGIN
 if
 (
 gckind
-&
-GC_LOCK_HELD
+!
+=
+GC_LAST_DITCH
 )
 JS_LOCK_GC
 (
