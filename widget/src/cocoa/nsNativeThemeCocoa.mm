@@ -1201,7 +1201,7 @@ widget
 aFrame
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 ;

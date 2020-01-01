@@ -9607,7 +9607,7 @@ w
 f
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 ;
@@ -10704,7 +10704,7 @@ GetRootFrame
 )
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 ;

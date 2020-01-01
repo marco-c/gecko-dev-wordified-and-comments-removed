@@ -28605,7 +28605,7 @@ widget
 popupFrame
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 ;
@@ -29123,7 +29123,7 @@ return
 PR_FALSE
 ;
 nsPoint
-windowOffset
+widgetOffset
 ;
 nsIWidget
 *
@@ -29132,9 +29132,9 @@ widget
 caretFrame
 -
 >
-GetWindowOffset
+GetNearestWidget
 (
-windowOffset
+widgetOffset
 )
 ;
 if
@@ -29149,7 +29149,7 @@ caretCoords
 .
 MoveBy
 (
-windowOffset
+widgetOffset
 )
 ;
 nsIView

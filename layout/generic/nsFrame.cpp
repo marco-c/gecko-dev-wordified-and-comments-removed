@@ -16210,7 +16210,7 @@ nsIWidget
 nsIFrame
 :
 :
-GetWindow
+GetNearestWidget
 (
 )
 const
@@ -16232,7 +16232,7 @@ nsIWidget
 nsIFrame
 :
 :
-GetWindowOffset
+GetNearestWidget
 (
 nsPoint
 &

@@ -2888,7 +2888,7 @@ GetRootFrame
 )
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 ;
@@ -2965,7 +2965,7 @@ if
 parentWidget
 =
 =
-GetWindow
+GetNearestWidget
 (
 )
 )
@@ -12308,7 +12308,7 @@ win
 mObjectFrame
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 ;
@@ -12473,7 +12473,7 @@ win
 mObjectFrame
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 ;
@@ -12555,7 +12555,7 @@ win
 mObjectFrame
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 ;
@@ -23695,7 +23695,7 @@ win
 frame
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 ;
@@ -26552,7 +26552,7 @@ win
 mObjectFrame
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 ;
@@ -26954,7 +26954,7 @@ widget
 mObjectFrame
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 ;

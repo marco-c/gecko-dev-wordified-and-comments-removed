@@ -3379,7 +3379,7 @@ const
 virtual
 nsIWidget
 *
-GetWindow
+GetNearestWidget
 (
 )
 const
@@ -3387,7 +3387,7 @@ const
 virtual
 nsIWidget
 *
-GetWindowOffset
+GetNearestWidget
 (
 nsPoint
 &

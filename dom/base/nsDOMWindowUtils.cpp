@@ -2181,7 +2181,7 @@ return
 frame
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 ;
@@ -5116,7 +5116,7 @@ targetWidget
 popupFrame
 -
 >
-GetWindow
+GetNearestWidget
 (
 )
 ;
