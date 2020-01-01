@@ -53,6 +53,13 @@ gCheckExistsAttempts
 =
 0
 ;
+const
+tempDir
+=
+do_get_tempdir
+(
+)
+;
 function
 checkFile
 (
@@ -61,7 +68,9 @@ checkFile
 var
 tempFile
 =
-do_get_cwd
+tempDir
+.
+clone
 (
 )
 ;
@@ -457,7 +466,7 @@ n
 var
 outFile
 =
-processDir
+tempDir
 .
 clone
 (
