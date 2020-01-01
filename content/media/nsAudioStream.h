@@ -52,6 +52,12 @@ FORMAT_S16_LE
 FORMAT_FLOAT32
 }
 ;
+virtual
+~
+nsAudioStream
+(
+)
+;
 static
 void
 InitLibrary
@@ -64,7 +70,6 @@ ShutdownLibrary
 (
 )
 ;
-virtual
 nsIThread
 *
 GetThread
