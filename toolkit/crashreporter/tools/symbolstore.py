@@ -862,6 +862,9 @@ None
 copy_debug
 =
 False
+vcsinfo
+=
+False
 )
 :
         
@@ -952,6 +955,12 @@ self
 copy_debug
 =
 copy_debug
+        
+self
+.
+vcsinfo
+=
+vcsinfo
     
 def
 ShouldProcess
@@ -1456,6 +1465,12 @@ rstrip
 )
 )
                             
+if
+self
+.
+vcsinfo
+:
+                                
 filename
 =
 GetVCSFilename
@@ -2222,6 +2237,51 @@ files
 "
 )
     
+parser
+.
+add_option
+(
+"
+-
+v
+"
+"
+-
+-
+vcs
+-
+info
+"
+                      
+action
+=
+"
+store_true
+"
+dest
+=
+"
+vcsinfo
+"
+                      
+help
+=
+"
+Try
+to
+retrieve
+VCS
+info
+for
+each
+FILE
+listed
+in
+the
+output
+"
+)
+    
 (
 options
 args
@@ -2293,6 +2353,12 @@ srcdir
 options
 .
 srcdir
+                                       
+vcsinfo
+=
+options
+.
+vcsinfo
 )
     
 for
