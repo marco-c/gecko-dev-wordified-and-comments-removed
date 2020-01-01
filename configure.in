@@ -49881,6 +49881,16 @@ OS_ARCH
 "
 HOST_OS_ARCH
 "
+-
+a
+"
+OS_ARCH
+"
+!
+=
+"
+WINNT
+"
 ;
 then
 AC_MSG_ERROR

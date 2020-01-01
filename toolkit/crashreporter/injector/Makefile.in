@@ -165,6 +165,8 @@ google
 breakpad
 /
 src
+ifndef
+GNU_CC
 LDFLAGS
 +
 =
@@ -172,3 +174,14 @@ LDFLAGS
 ENTRY
 :
 DummyEntryPoint
+else
+LDFLAGS
++
+=
+-
+Wl
+-
+e
+_DummyEntryPoint
+12
+endif

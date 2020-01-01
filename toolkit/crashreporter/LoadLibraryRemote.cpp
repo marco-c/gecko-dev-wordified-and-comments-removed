@@ -67,8 +67,6 @@ nsWindowsHelpers
 .
 h
 "
-namespace
-{
 typedef
 const
 unsigned
@@ -124,7 +122,6 @@ aView
 }
 }
 ;
-}
 #
 ifndef
 IMAGE_SIZEOF_BASE_RELOCATION
@@ -2196,10 +2193,6 @@ NULL
 ;
 }
 return
-(
-FARPROC
-)
-(
 module
 -
 >
@@ -2223,7 +2216,6 @@ AddressOfFunctions
 idx
 *
 4
-)
 )
 )
 )
