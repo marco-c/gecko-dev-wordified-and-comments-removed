@@ -475,10 +475,6 @@ test_cursor_update_updates_indexes
 .
 html
 \
-test_event_propagation
-.
-html
-\
 test_event_source
 .
 html
@@ -590,6 +586,16 @@ html
 (
 NULL
 )
+#
+disabled
+for
+the
+moment
+#
+test_event_propagation
+.
+html
+\
 ifeq
 (
 browser
