@@ -25,6 +25,13 @@ nsStringGlue
 .
 h
 "
+#
+include
+"
+nsISupportsUtils
+.
+h
+"
 namespace
 mozilla
 {

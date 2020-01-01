@@ -7,7 +7,7 @@ nsSegmentedBuffer_h__
 #
 include
 "
-nsMemory
+nsIMemory
 .
 h
 "

@@ -43,6 +43,13 @@ HashFunctions
 h
 "
 #
+include
+"
+nsTraceRefcnt
+.
+h
+"
+#
 define
 PL_ARENA_CONST_ALIGN_MASK
 3

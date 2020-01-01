@@ -11,13 +11,9 @@ nsXPCOM
 .
 h
 "
-#
-include
-"
+class
 nsIMemory
-.
-h
-"
+;
 #
 define
 NS_MEMORY_CONTRACTID

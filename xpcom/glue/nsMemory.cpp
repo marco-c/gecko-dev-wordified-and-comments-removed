@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsIMemory
+.
+h
+"
+#
+include
+"
 nsXPCOMPrivate
 .
 h

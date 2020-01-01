@@ -20,6 +20,13 @@ nsCRT
 h
 "
 #
+include
+"
+nsDebug
+.
+h
+"
+#
 define
 MAX_GBK_LENGTH
 24066

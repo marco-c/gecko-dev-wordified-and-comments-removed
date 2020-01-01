@@ -13,6 +13,13 @@ nsCRT
 h
 "
 #
+include
+"
+nsTraceRefcnt
+.
+h
+"
+#
 ifdef
 DEBUG_rickg
 #
