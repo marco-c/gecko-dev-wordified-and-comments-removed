@@ -2989,8 +2989,9 @@ usleep
 200
 )
 ;
-IntentionalCrash
+_exit
 (
+1
 )
 ;
 return
