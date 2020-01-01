@@ -13599,7 +13599,7 @@ cache
 let
 state
 =
-null
+CALL_STATE_UNKNOWN
 ;
 for
 each
@@ -13617,6 +13617,9 @@ participants
 if
 (
 state
+!
+=
+CALL_STATE_UNKNOWN
 &
 &
 state
@@ -13629,7 +13632,7 @@ state
 {
 state
 =
-null
+CALL_STATE_UNKNOWN
 ;
 break
 ;
