@@ -19125,6 +19125,14 @@ mViewManager
 mDocument
 -
 >
+FlushExternalResources
+(
+aType
+)
+;
+mDocument
+-
+>
 FlushPendingNotifications
 (
 Flush_ContentAndNotify
