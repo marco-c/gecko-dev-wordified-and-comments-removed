@@ -557,7 +557,7 @@ h
 #
 include
 "
-nsFileDataProtocolHandler
+nsBlobProtocolHandler
 .
 h
 "
@@ -6918,7 +6918,7 @@ Length
 i
 )
 {
-nsFileDataProtocolHandler
+nsBlobProtocolHandler
 :
 :
 RemoveFileDataEntry

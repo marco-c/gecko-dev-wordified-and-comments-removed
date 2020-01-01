@@ -162,7 +162,7 @@ h
 #
 include
 "
-nsFileDataProtocolHandler
+nsBlobProtocolHandler
 .
 h
 "
@@ -1032,7 +1032,7 @@ url
 =
 NS_LITERAL_CSTRING
 (
-FILEDATA_SCHEME
+BLOBURI_SCHEME
 "
 :
 "
@@ -1050,7 +1050,7 @@ NSID_LENGTH
 2
 )
 ;
-nsFileDataProtocolHandler
+nsBlobProtocolHandler
 :
 :
 AddFileDataEntry
@@ -2609,7 +2609,7 @@ mUrl
 narrowUrl
 )
 ;
-nsFileDataProtocolHandler
+nsBlobProtocolHandler
 :
 :
 RemoveFileDataEntry
