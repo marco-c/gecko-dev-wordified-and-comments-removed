@@ -723,6 +723,15 @@ nonBrowserWindowStartup
 false
 )
 ;
+addEventListener
+(
+"
+unload
+"
+nonBrowserWindowShutdown
+false
+)
+;
 <
 /
 script
