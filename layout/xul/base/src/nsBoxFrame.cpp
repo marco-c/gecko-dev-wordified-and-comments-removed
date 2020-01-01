@@ -8657,8 +8657,8 @@ child
 return
 ;
 mFrames
-.
-SetFrames
+=
+nsFrameList
 (
 MergeSort
 (
