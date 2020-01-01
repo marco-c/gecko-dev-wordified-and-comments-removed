@@ -441,6 +441,15 @@ getLayerController
 (
 )
 ;
+if
+(
+controller
+=
+=
+null
+)
+return
+;
 controller
 .
 notifyViewOfGeometryChange
