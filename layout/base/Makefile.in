@@ -626,6 +626,10 @@ nsCSSRendering
 .
 cpp
 \
+nsCSSRenderingBorders
+.
+cpp
+\
 nsCaret
 .
 cpp
