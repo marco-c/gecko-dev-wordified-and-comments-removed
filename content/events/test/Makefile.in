@@ -431,6 +431,10 @@ mk
 _TEST_FILES
 =
 \
+test_bug112294
+.
+html
+\
 test_bug238987
 .
 html
