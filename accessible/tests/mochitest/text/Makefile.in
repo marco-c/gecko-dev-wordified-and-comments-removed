@@ -449,6 +449,10 @@ test_singleline
 .
 html
 \
+test_whitespaces
+.
+html
+\
 (
 NULL
 )
