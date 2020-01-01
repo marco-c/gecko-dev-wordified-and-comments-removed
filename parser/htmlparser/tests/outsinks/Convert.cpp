@@ -1560,9 +1560,14 @@ compareAgainst
 )
 ;
 }
+#
+ifdef
+DEBUG
 nsresult
 rv
 =
+#
+endif
 NS_ShutdownXPCOM
 (
 NULL
