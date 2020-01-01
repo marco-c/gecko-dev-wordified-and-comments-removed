@@ -3275,11 +3275,12 @@ each
 (
 function
 (
+elem
 )
 {
 if
 (
-this
+elem
 !
 =
 self
@@ -3294,7 +3295,7 @@ Items
 .
 item
 (
-this
+elem
 )
 ;
 droppables
@@ -4008,6 +4009,7 @@ each
 (
 function
 (
+elem
 )
 {
 var
@@ -4015,7 +4017,7 @@ this
 =
 iQ
 (
-this
+elem
 )
 ;
 var
