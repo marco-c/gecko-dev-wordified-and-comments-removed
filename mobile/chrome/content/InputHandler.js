@@ -667,6 +667,13 @@ grab
 this
 )
 ;
+Browser
+.
+canvasBrowser
+.
+prepareForPanning
+(
+)
 ws
 .
 dragStart
@@ -717,6 +724,13 @@ sY
 )
 ;
 }
+Browser
+.
+canvasBrowser
+.
+prepareForPanning
+(
+)
 }
 _dragMove
 :
