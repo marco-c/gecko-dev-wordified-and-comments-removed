@@ -613,7 +613,11 @@ domplugins_s
 \
 mozipc_s
 \
+mozipdlgen_s
+\
 chromium_s
+\
+gfxipc_s
 \
 (
 NULL
