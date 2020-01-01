@@ -1293,7 +1293,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 |
 JSCLASS_IMPLEMENTS_BARRIERS
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -1341,7 +1341,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 2
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -1890,7 +1890,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 |
 JSCLASS_IMPLEMENTS_BARRIERS
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -1938,7 +1938,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 2
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub

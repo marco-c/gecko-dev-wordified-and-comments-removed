@@ -779,7 +779,7 @@ JSCLASS_GLOBAL_FLAGS_WITH_SLOTS
 0
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 nsXBLDocGlobalObject_getProperty
 nsXBLDocGlobalObject_setProperty
 JS_EnumerateStub

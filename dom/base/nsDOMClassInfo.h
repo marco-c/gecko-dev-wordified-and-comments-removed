@@ -3679,9 +3679,6 @@ JSObject
 obj
 jsid
 id
-jsval
-*
-vp
 bool
 *
 _retval

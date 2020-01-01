@@ -4424,7 +4424,7 @@ global
 "
 0
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -5005,7 +5005,7 @@ JSCLASS_HAS_PRIVATE
 |
 JSCLASS_NEW_RESOLVE
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 env_setProperty
 env_enumerate

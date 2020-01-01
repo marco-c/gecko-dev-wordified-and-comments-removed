@@ -1673,7 +1673,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 sNumNewEnumerateStateSlots
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
