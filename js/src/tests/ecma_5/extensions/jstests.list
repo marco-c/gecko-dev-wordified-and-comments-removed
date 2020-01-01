@@ -191,6 +191,16 @@ statements
 .
 js
 script
+strict
+-
+option
+-
+redeclared
+-
+parameter
+.
+js
+script
 string
 -
 literal
