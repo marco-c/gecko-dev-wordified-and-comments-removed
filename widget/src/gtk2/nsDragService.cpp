@@ -3780,11 +3780,7 @@ aDataFlavor
 ;
 if
 (
-name
-&
-&
-(
-strcmp
+g_strcmp0
 (
 name
 aDataFlavor
@@ -3792,7 +3788,6 @@ aDataFlavor
 =
 =
 0
-)
 )
 {
 PR_LOG
@@ -3824,11 +3819,8 @@ _retval
 PR_FALSE
 &
 &
-name
-&
-&
 (
-strcmp
+g_strcmp0
 (
 name
 gTextUriListType
@@ -3840,7 +3832,7 @@ gTextUriListType
 &
 &
 (
-strcmp
+g_strcmp0
 (
 aDataFlavor
 kURLMime
@@ -3904,11 +3896,8 @@ _retval
 PR_FALSE
 &
 &
-name
-&
-&
 (
-strcmp
+g_strcmp0
 (
 name
 gMozUrlType
@@ -3920,7 +3909,7 @@ gMozUrlType
 &
 &
 (
-strcmp
+g_strcmp0
 (
 aDataFlavor
 kURLMime
@@ -3980,11 +3969,8 @@ _retval
 PR_FALSE
 &
 &
-name
-&
-&
 (
-strcmp
+g_strcmp0
 (
 name
 kTextMime
@@ -3997,7 +3983,7 @@ kTextMime
 &
 (
 (
-strcmp
+g_strcmp0
 (
 aDataFlavor
 kUnicodeMime
@@ -4009,7 +3995,7 @@ kUnicodeMime
 |
 |
 (
-strcmp
+g_strcmp0
 (
 aDataFlavor
 kFileMime
@@ -4465,7 +4451,7 @@ atom
 ;
 if
 (
-strcmp
+g_strcmp0
 (
 name
 gMimeListType
