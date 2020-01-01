@@ -6537,7 +6537,7 @@ id
 "
 sync
 -
-user
+account
 "
 type
 =
@@ -6550,7 +6550,7 @@ title
 &
 sync
 .
-username
+account
 ;
 "
 /
@@ -6602,7 +6602,7 @@ string
 inputtype
 =
 "
-password
+string
 "
 title
 =
@@ -6610,7 +6610,7 @@ title
 &
 sync
 .
-secretPhrase
+syncKey
 ;
 "
 /
@@ -6647,6 +6647,7 @@ changeName
 (
 this
 )
+;
 "
 collapsed
 =
