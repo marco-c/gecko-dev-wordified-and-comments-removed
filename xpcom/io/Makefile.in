@@ -440,9 +440,8 @@ Darwin
 )
 MODULE_OPTIMIZE_FLAGS
 =
-(
-MOZ_OPTIMIZE_FLAGS
-)
+-
+O3
 -
 fno
 -
