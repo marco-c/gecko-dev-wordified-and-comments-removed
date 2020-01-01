@@ -1092,6 +1092,8 @@ MY_VISIBILITY_FLAGS
 :
 =
 -
+DPIXMAN_USE_INTERNAL_API
+-
 include
 pixman
 .
