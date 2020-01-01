@@ -230,6 +230,10 @@ nsIAccessible
 aFinalAccessible
 =
 nsnull
+PRBool
+aIsEndOffset
+=
+PR_FALSE
 )
 ;
 protected
@@ -339,6 +343,16 @@ nsISelection
 *
 *
 aDomSel
+=
+nsnull
+nsCOMArray
+<
+nsIDOMRange
+>
+*
+aRanges
+=
+nsnull
 )
 ;
 nsresult
