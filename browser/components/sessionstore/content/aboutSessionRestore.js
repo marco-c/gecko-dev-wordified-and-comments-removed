@@ -1430,6 +1430,12 @@ parent
 1
 ]
 ;
+tabState
+.
+hidden
+=
+false
+;
 ss
 .
 setTabState
