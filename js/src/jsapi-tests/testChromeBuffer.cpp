@@ -9,7 +9,12 @@ JSPrincipals
 system_principals
 =
 {
-NULL
+(
+char
+*
+)
+"
+"
 NULL
 NULL
 1
