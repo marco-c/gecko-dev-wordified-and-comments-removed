@@ -766,7 +766,7 @@ else
 {
 lastUpdateTime
 =
-now
+0
 ;
 Services
 .
