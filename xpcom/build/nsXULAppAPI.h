@@ -348,7 +348,6 @@ GeckoProcessType_Default
 0
 GeckoProcessType_Plugin
 GeckoProcessType_Content
-GeckoProcessType_TestHarness
 GeckoProcessType_IPDLUnitTest
 GeckoProcessType_End
 GeckoProcessType_Invalid
@@ -374,9 +373,6 @@ plugin
 "
 "
 tab
-"
-"
-testharness
 "
 "
 ipdlunittest

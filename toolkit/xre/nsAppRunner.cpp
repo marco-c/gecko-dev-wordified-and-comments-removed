@@ -2570,11 +2570,6 @@ Content
 )
 SYNC_ENUMS
 (
-TESTHARNESS
-TestHarness
-)
-SYNC_ENUMS
-(
 IPDLUNITTEST
 IPDLUnitTest
 )

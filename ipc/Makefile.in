@@ -418,9 +418,6 @@ mk
 DIRS
 +
 =
-test
--
-harness
 testshell
 TOOL_DIRS
 =
