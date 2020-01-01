@@ -1,0 +1,4 @@
+new
+Function
+.
+prototype
