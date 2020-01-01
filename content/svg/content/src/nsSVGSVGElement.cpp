@@ -190,6 +190,10 @@ nsIContentIterator
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsresult
 NS_NewContentIterator
 (

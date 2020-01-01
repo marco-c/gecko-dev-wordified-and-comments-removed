@@ -98,6 +98,9 @@ DX
 DY
 }
 ;
+mozilla
+:
+:
 SVGAnimatedLengthList
 mLengthListAttributes
 [

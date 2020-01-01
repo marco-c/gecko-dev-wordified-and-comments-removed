@@ -413,6 +413,10 @@ h
 "
 #
 endif
+using
+namespace
+mozilla
+;
 PR_STATIC_ASSERT
 (
 sizeof
@@ -9418,9 +9422,6 @@ mozAnimateMotionDummyAttr
 {
 return
 new
-mozilla
-:
-:
 SVGMotionSMILAttr
 (
 this
