@@ -149,6 +149,10 @@ replaceable
 .
 html
 \
+test_domcursor
+.
+html
+\
 (
 NULL
 )
