@@ -4842,6 +4842,13 @@ bookmark
 -
 dialog
 "
+class
+=
+"
+content
+-
+dialog
+"
 flex
 =
 "
@@ -7706,6 +7713,13 @@ id
 =
 "
 syncsetup
+-
+dialog
+"
+class
+=
+"
+content
 -
 dialog
 "
