@@ -2133,14 +2133,6 @@ nsnull
 ;
 #
 endif
-LayerManager
-*
-lm
-=
-GetLayerManager
-(
-)
-;
 if
 (
 LayerManager
