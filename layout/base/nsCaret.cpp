@@ -1373,6 +1373,9 @@ PR_TRUE
 if
 (
 mReadOnly
+&
+&
+mBlinkRate
 )
 {
 DrawCaretAfterBriefDelay
@@ -1448,6 +1451,10 @@ frameSelection
 GetCaretBidiLevel
 (
 )
+;
+mBlinkRate
+=
+0
 ;
 nsresult
 rv
