@@ -4183,7 +4183,7 @@ mode
 ;
 }
 PRBool
-forceV4
+enableV4
 ;
 rv
 =
@@ -4197,10 +4197,10 @@ gfx
 .
 color_management
 .
-force_v4
+enablev4
 "
 &
-forceV4
+enableV4
 )
 ;
 if
@@ -4211,7 +4211,7 @@ rv
 )
 &
 &
-forceV4
+enableV4
 )
 {
 qcms_enable_iccv4
