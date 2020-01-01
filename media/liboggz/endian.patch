@@ -47,7 +47,7 @@ include
 /
 oggz
 /
-config
+config_gcc
 .
 h
 +
@@ -63,7 +63,7 @@ include
 /
 oggz
 /
-config
+config_gcc
 .
 h
 -
@@ -100,9 +100,6 @@ undef
 size_t
 *
 /
-#
-undef
-DEBUG
 +
 +
 #
