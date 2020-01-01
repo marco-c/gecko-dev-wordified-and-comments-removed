@@ -709,15 +709,6 @@ Weave
 is
 disabled
 "
-kSyncNotLoggedIn
-:
-"
-User
-is
-not
-logged
-in
-"
 kSyncNetworkOffline
 :
 "
