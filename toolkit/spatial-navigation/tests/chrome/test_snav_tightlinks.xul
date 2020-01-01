@@ -1232,11 +1232,9 @@ content
 "
 )
 ;
-var
-snav
-=
-new
 SpatialNavigation
+.
+init
 (
 x
 )
@@ -1270,6 +1268,12 @@ moveTable
 SimpleTest
 .
 waitForExplicitFinish
+(
+)
+;
+SpatialNavigation
+.
+uninit
 (
 )
 ;
