@@ -3451,9 +3451,6 @@ mCollectionInProgress
 bool
 mScanInProgress
 ;
-bool
-mFollowupCollection
-;
 nsCycleCollectorResults
 *
 mResults
@@ -11296,10 +11293,6 @@ PrepareForCollection
 )
 ;
 }
-mFollowupCollection
-=
-false
-;
 mResults
 =
 aResults
@@ -12148,10 +12141,6 @@ CollectWhite
 )
 "
 )
-;
-mFollowupCollection
-=
-true
 ;
 mWhiteNodes
 -
