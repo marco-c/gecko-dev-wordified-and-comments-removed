@@ -178,6 +178,10 @@ HTMLParagraphElement
 .
 h
 \
+HTMLPreElement
+.
+h
+\
 HTMLSharedListElement
 .
 h
@@ -360,7 +364,7 @@ HTMLParagraphElement
 .
 cpp
 \
-nsHTMLPreElement
+HTMLPreElement
 .
 cpp
 \
