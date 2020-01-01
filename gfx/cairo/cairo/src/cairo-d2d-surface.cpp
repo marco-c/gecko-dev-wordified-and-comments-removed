@@ -15107,6 +15107,9 @@ extents
 if
 (
 clip
+&
+&
+isSolidAlphaMask
 )
 {
 int
