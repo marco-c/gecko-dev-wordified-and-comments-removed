@@ -232,13 +232,13 @@ Source
 Repack
 5
 )
-Updates
+Sign
 6
 )
-Stage
+Updates
 7
 )
-Sign
+Stage
 Details
 -
 -
@@ -310,6 +310,8 @@ push
 to
 stage
 announce
+Sign
+manual
 Updates
 uses
 patcher
@@ -341,5 +343,3 @@ structure
 merge
 updates
 announce
-Sign
-manual

@@ -128,6 +128,9 @@ Source
 Repack
 '
 '
+Sign
+'
+'
 PatcherConfig
 '
 '
@@ -135,9 +138,6 @@ Updates
 '
 '
 Stage
-'
-'
-Sign
 '
 )
 ;
