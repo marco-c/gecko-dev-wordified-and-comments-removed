@@ -3914,13 +3914,6 @@ defined
 (
 XP_WIN
 )
-&
-&
-!
-defined
-(
-WINCE
-)
 if
 (
 nsNativeConnectionHelper
