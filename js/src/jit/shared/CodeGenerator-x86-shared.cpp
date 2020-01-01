@@ -8264,7 +8264,7 @@ TypeObject
 clasp
 )
 )
-ImmWord
+ImmPtr
 (
 guard
 -

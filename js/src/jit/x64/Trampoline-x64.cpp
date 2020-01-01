@@ -3627,7 +3627,7 @@ masm
 .
 mov
 (
-ImmWord
+ImmPtr
 (
 cx
 -
@@ -3856,12 +3856,8 @@ masm
 .
 movePtr
 (
-ImmWord
+ImmPtr
 (
-(
-void
-*
-)
 NULL
 )
 BaselineStubReg

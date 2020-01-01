@@ -1124,7 +1124,7 @@ stackAdjust
 ;
 call
 (
-ImmWord
+ImmPtr
 (
 fun
 )

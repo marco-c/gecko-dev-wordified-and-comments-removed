@@ -8072,9 +8072,9 @@ patchDataWithValueCheck
 (
 CodeLocationLabel
 label
-ImmWord
+ImmPtr
 newValue
-ImmWord
+ImmPtr
 expectedValue
 )
 ;

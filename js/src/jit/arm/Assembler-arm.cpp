@@ -12580,9 +12580,9 @@ patchDataWithValueCheck
 (
 CodeLocationLabel
 label
-ImmWord
+ImmPtr
 newValue
-ImmWord
+ImmPtr
 expectedValue
 )
 {
@@ -12646,9 +12646,12 @@ uint32_t
 val
 =
 =
+uint32_t
+(
 expectedValue
 .
 value
+)
 )
 ;
 reinterpret_cast
@@ -12665,9 +12668,12 @@ ma_movPatchable
 (
 Imm32
 (
+int32_t
+(
 newValue
 .
 value
+)
 )
 dest
 Always
