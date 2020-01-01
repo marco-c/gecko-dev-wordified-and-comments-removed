@@ -97,7 +97,7 @@ JSString
 *
 ConcatStrings
 (
-ThreadSafeContext
+JSContext
 *
 cx
 typename

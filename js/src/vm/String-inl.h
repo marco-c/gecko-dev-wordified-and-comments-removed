@@ -497,7 +497,7 @@ js
 :
 ThreadSafeContext
 *
-maybetcx
+maybecx
 JSString
 *
 *
@@ -515,7 +515,7 @@ js
 :
 ThreadSafeContext
 *
-maybetcx
+maybecx
 JSString
 *
 *
@@ -796,7 +796,7 @@ js
 :
 ThreadSafeContext
 *
-tcx
+cx
 JSString
 *
 left
@@ -840,7 +840,7 @@ js
 :
 StringWriteBarrierPost
 (
-tcx
+cx
 &
 d
 .
@@ -854,7 +854,7 @@ js
 :
 StringWriteBarrierPost
 (
-tcx
+cx
 &
 d
 .
@@ -961,7 +961,7 @@ str
 >
 init
 (
-tcx
+cx
 left
 right
 length
@@ -1040,7 +1040,7 @@ js
 :
 ThreadSafeContext
 *
-tcx
+cx
 JSLinearString
 *
 base
@@ -1097,7 +1097,7 @@ js
 :
 StringWriteBarrierPost
 (
-tcx
+cx
 reinterpret_cast
 <
 JSString
