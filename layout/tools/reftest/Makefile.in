@@ -598,8 +598,10 @@ automation
 py
 \
 (
-CURDIR
+topsrcdir
 )
+/
+build
 /
 automationutils
 .
