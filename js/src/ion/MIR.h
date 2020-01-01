@@ -3555,7 +3555,7 @@ MDefinition
 input
 )
 {
-setOperand
+initOperand
 (
 0
 input
