@@ -3603,7 +3603,9 @@ JSClass
 js_ArgumentsClass
 =
 {
-js_Object_str
+"
+Arguments
+"
 JSCLASS_HAS_PRIVATE
 |
 JSCLASS_NEW_RESOLVE
