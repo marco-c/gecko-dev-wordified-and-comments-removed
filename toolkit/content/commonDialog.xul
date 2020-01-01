@@ -585,6 +585,11 @@ context
 "
 contentAreaContextMenu
 "
+noinitialfocus
+=
+"
+true
+"
 /
 >
 <

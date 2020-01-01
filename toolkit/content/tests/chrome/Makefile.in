@@ -614,6 +614,14 @@ test_righttoleft
 .
 xul
 \
+test_dialogfocus
+.
+xul
+\
+dialog_dialogfocus
+.
+xul
+\
 (
 NULL
 )
