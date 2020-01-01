@@ -696,7 +696,7 @@ duration
 )
 ;
 var
-gMozHasAudioTests
+gTrackTests
 =
 [
 {
@@ -726,7 +726,10 @@ size
 102444
 hasAudio
 :
-undefined
+true
+hasVideo
+:
+false
 }
 {
 name
@@ -760,6 +763,9 @@ size
 hasAudio
 :
 false
+hasVideo
+:
+true
 }
 {
 name
@@ -784,6 +790,9 @@ duration
 .
 081
 hasAudio
+:
+true
+hasVideo
 :
 true
 }
@@ -813,6 +822,9 @@ size
 hasAudio
 :
 false
+hasVideo
+:
+true
 }
 {
 name
