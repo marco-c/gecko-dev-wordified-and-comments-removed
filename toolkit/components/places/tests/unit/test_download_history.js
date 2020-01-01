@@ -267,6 +267,14 @@ NS_LINK_VISITED_EVENT_TOPIC
 aTopic
 )
 {
+do_check_true
+(
+uri_in_db
+(
+testURI
+)
+)
+;
 do_check_eq
 (
 testURI
