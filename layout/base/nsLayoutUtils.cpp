@@ -22234,7 +22234,7 @@ canvas
 nsHTMLCanvasElement
 :
 :
-FromContent
+FromContentOrNull
 (
 aElement
 )
@@ -22260,7 +22260,7 @@ video
 nsHTMLVideoElement
 :
 :
-FromContent
+FromContentOrNull
 (
 aElement
 )
