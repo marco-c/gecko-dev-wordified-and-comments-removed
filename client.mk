@@ -1456,6 +1456,9 @@ upload
 sdk
 installer
 package
+fast
+-
+package
 package
 -
 compare
@@ -1673,6 +1676,8 @@ mobile
 build_and_deploy
 :
 build
+fast
+-
 package
 install
 #
