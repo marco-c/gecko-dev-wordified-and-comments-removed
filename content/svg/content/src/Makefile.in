@@ -997,6 +997,14 @@ SVGPointList
 .
 h
 \
+SVGTransform
+.
+h
+\
+SVGTransformList
+.
+h
+\
 (
 NULL
 )
