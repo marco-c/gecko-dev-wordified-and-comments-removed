@@ -1279,6 +1279,17 @@ oscpu
 2
 1
 )
+fuzzy
+-
+if
+(
+cocoaWidget
+&
+&
+layersGPUAccelerated
+1
+13
+)
 =
 =
 anim

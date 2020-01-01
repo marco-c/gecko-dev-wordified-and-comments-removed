@@ -3758,6 +3758,17 @@ layout
 ref
 .
 svg
+fuzzy
+-
+if
+(
+cocoaWidget
+&
+&
+layersGPUAccelerated
+1
+3
+)
 =
 =
 text
