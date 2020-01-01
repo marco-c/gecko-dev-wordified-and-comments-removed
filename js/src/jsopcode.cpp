@@ -910,6 +910,12 @@ op
 =
 =
 JSOP_SETCALL
+|
+|
+op
+=
+=
+JSOP_APPLY
 )
 ;
 return
@@ -17635,6 +17641,9 @@ JSOP_CALL
 case
 JSOP_EVAL
 :
+case
+JSOP_APPLY
+:
 #
 if
 JS_HAS_LVALUE_RETURN
@@ -17801,6 +17810,12 @@ op
 =
 =
 JSOP_EVAL
+|
+|
+op
+=
+=
+JSOP_APPLY
 |
 |
 (

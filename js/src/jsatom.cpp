@@ -250,6 +250,7 @@ tbl
 undef
 JS_PROTO
 js_anonymous_str
+js_apply_str
 js_arguments_str
 js_arity_str
 js_callee_str
@@ -341,6 +342,16 @@ js_anonymous_str
 =
 "
 anonymous
+"
+;
+const
+char
+js_apply_str
+[
+]
+=
+"
+apply
 "
 ;
 const
