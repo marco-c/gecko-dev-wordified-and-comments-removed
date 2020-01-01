@@ -219,6 +219,9 @@ mOneUnitBorder
 PRPackedBool
 mNoBorderRadius
 ;
+PRPackedBool
+mAvoidStroke
+;
 PRBool
 AreBorderSideFinalStylesSame
 (
