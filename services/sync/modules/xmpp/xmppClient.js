@@ -2360,17 +2360,6 @@ function
 (
 )
 {
-LOG
-(
-"
-waitForDisconnect
-(
-)
-:
-starting
-"
-)
-;
 var
 thread
 =

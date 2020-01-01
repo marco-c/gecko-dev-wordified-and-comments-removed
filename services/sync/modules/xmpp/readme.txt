@@ -22,6 +22,11 @@ that
 a
 Jabber
 server
+capable
+of
+HTTP
+-
+Polling
 is
 running
 on
