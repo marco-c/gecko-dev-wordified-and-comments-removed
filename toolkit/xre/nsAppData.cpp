@@ -469,7 +469,7 @@ aAppData
 ;
 nsAutoPtr
 <
-nsXREAppData
+ScopedAppData
 >
 data
 =
