@@ -378,6 +378,12 @@ GetNaturalBounds
 )
 MOZ_OVERRIDE
 ;
+virtual
+bool
+NeedsPaint
+(
+)
+;
 protected
 :
 nsWindow
