@@ -572,13 +572,12 @@ r
 aDirtyRect
 =
 =
-mozilla
+nsIntRect
 :
 :
-imagelib
-:
-:
-kFullImageSpaceRect
+GetMaxSizedIntRect
+(
+)
 )
 ?
 nsRect
