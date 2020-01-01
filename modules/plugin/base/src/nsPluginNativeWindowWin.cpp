@@ -84,13 +84,6 @@ nsTWeakRef
 .
 h
 "
-static
-NS_DEFINE_CID
-(
-kCPluginManagerCID
-NS_PLUGINMANAGER_CID
-)
-;
 #
 define
 NS_PLUGIN_WINDOW_PROPERTY_ASSOCIATION
