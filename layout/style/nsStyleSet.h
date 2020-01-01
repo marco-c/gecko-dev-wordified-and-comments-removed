@@ -205,7 +205,7 @@ aMallocSizeOf
 )
 const
 ;
-nsresult
+void
 Init
 (
 nsPresContext

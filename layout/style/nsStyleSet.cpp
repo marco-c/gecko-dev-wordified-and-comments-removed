@@ -706,7 +706,7 @@ return
 n
 ;
 }
-nsresult
+void
 nsStyleSet
 :
 :
@@ -751,9 +751,6 @@ GatherRuleProcessors
 (
 eTransitionSheet
 )
-;
-return
-NS_OK
 ;
 }
 nsresult
