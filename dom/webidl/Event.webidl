@@ -506,16 +506,6 @@ attribute
 boolean
 multipleActionsPrevented
 ;
-void
-preventBubble
-(
-)
-;
-void
-preventCapture
-(
-)
-;
 boolean
 getPreventDefault
 (
