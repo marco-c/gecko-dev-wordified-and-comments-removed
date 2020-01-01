@@ -2003,9 +2003,10 @@ flavorStr
 )
 )
 ;
-/
-/
-printf
+PR_LOG
+(
+sCocoaLog
+PR_LOG_ALWAYS
 (
 "
 writing
@@ -2016,6 +2017,10 @@ of
 type
 %
 s
+(
+%
+d
+)
 \
 n
 "
@@ -2023,6 +2028,8 @@ flavorStr
 .
 get
 (
+)
+i
 )
 )
 ;
