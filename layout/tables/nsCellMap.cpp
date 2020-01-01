@@ -9222,12 +9222,12 @@ if
 (
 insertionIndex
 >
-aColIndex
+startColIndex
 )
 {
 insertionIndex
 =
-aColIndex
+startColIndex
 ;
 }
 if
@@ -9270,7 +9270,7 @@ for
 PRInt32
 colX
 =
-aColIndex
+startColIndex
 ;
 colX
 <
