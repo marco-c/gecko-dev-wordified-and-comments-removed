@@ -1561,6 +1561,9 @@ mOriginPrincipal
 ;
 NS_INLINE_DECL_REFCOUNTING
 (
+nsCSSValue
+:
+:
 URL
 )
 protected
@@ -1626,6 +1629,9 @@ mRequest
 ;
 NS_INLINE_DECL_REFCOUNTING
 (
+nsCSSValue
+:
+:
 Image
 )
 }
