@@ -101,6 +101,14 @@ Destroy
 (
 )
 ;
+static
+void
+SuppressFocusEvents
+(
+PRBool
+aSuppress
+)
+;
 protected
 :
 virtual
