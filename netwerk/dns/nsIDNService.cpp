@@ -68,15 +68,6 @@ punycode
 .
 h
 "
-#
-include
-"
-mozilla
-/
-FunctionTimer
-.
-h
-"
 static
 const
 uint32_t
@@ -179,8 +170,6 @@ Init
 (
 )
 {
-NS_TIME_FUNCTION
-;
 nsCOMPtr
 <
 nsIPrefService

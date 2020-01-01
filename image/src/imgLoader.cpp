@@ -12,15 +12,6 @@ include
 "
 mozilla
 /
-FunctionTimer
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Preferences
 .
 h
@@ -4014,8 +4005,6 @@ InitCache
 (
 )
 {
-NS_TIME_FUNCTION
-;
 nsCOMPtr
 <
 nsIObserverService

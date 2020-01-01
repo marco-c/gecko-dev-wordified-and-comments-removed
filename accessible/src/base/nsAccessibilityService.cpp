@@ -300,15 +300,6 @@ include
 "
 mozilla
 /
-FunctionTimer
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 Element
@@ -468,8 +459,6 @@ FocusManager
 (
 )
 {
-NS_TIME_FUNCTION
-;
 }
 nsAccessibilityService
 :

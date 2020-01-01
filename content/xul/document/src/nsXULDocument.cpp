@@ -241,15 +241,6 @@ h
 #
 include
 "
-mozilla
-/
-FunctionTimer
-.
-h
-"
-#
-include
-"
 nsXBLService
 .
 h
@@ -11364,8 +11355,6 @@ ResumeWalk
 (
 )
 {
-NS_TIME_FUNCTION
-;
 nsresult
 rv
 ;

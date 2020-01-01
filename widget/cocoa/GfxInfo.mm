@@ -137,15 +137,6 @@ h
 #
 include
 "
-mozilla
-/
-FunctionTimer
-.
-h
-"
-#
-include
-"
 nsCocoaFeatures
 .
 h
@@ -532,8 +523,6 @@ Init
 (
 )
 {
-NS_TIME_FUNCTION
-;
 nsresult
 rv
 =

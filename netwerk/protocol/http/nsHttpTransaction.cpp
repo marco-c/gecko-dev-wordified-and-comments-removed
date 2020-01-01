@@ -140,15 +140,6 @@ nsIHttpActivityObserver
 .
 h
 "
-#
-include
-"
-mozilla
-/
-FunctionTimer
-.
-h
-"
 using
 namespace
 mozilla
@@ -795,8 +786,6 @@ nsIAsyncInputStream
 responseBody
 )
 {
-NS_TIME_FUNCTION
-;
 nsresult
 rv
 ;

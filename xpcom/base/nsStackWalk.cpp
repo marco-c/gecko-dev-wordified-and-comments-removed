@@ -775,15 +775,6 @@ h
 #
 include
 "
-mozilla
-/
-FunctionTimer
-.
-h
-"
-#
-include
-"
 nspr
 .
 h
@@ -2776,8 +2767,6 @@ gInitialized
 )
 return
 gInitialized
-;
-NS_TIME_FUNCTION
 ;
 if
 (

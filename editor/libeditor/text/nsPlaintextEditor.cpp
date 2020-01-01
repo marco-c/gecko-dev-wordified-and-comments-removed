@@ -12,15 +12,6 @@ include
 "
 mozilla
 /
-FunctionTimer
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Preferences
 .
 h
@@ -575,8 +566,6 @@ uint32_t
 aFlags
 )
 {
-NS_TIME_FUNCTION
-;
 NS_PRECONDITION
 (
 aDoc

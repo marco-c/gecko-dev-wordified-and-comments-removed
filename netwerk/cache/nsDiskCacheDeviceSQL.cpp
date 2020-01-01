@@ -189,15 +189,6 @@ include
 "
 mozilla
 /
-FunctionTimer
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Telemetry
 .
 h
@@ -4391,8 +4382,6 @@ Init
 (
 )
 {
-NS_TIME_FUNCTION
-;
 NS_ENSURE_TRUE
 (
 !

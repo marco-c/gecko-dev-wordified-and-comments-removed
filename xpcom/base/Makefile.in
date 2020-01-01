@@ -182,10 +182,6 @@ nsMemoryReporterManager
 .
 cpp
 \
-FunctionTimer
-.
-cpp
-\
 ClearOnShutdown
 .
 cpp
@@ -288,10 +284,6 @@ EXPORTS_NAMESPACES
 mozilla
 EXPORTS_mozilla
 =
-\
-FunctionTimer
-.
-h
 \
 MapsMemoryReporter
 .

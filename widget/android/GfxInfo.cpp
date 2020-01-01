@@ -15,15 +15,6 @@ h
 #
 include
 "
-mozilla
-/
-FunctionTimer
-.
-h
-"
-#
-include
-"
 prenv
 .
 h

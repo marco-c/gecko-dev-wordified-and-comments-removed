@@ -325,15 +325,6 @@ include
 "
 mozilla
 /
-FunctionTimer
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Preferences
 .
 h
@@ -6278,8 +6269,6 @@ if
 gCMSOutputProfile
 )
 {
-NS_TIME_FUNCTION
-;
 if
 (
 Preferences

@@ -36,15 +36,6 @@ h
 #
 include
 "
-mozilla
-/
-FunctionTimer
-.
-h
-"
-#
-include
-"
 nsDirectoryService
 .
 h
@@ -242,8 +233,6 @@ if
 gInterfaceInfoManager
 )
 {
-NS_TIME_FUNCTION
-;
 gInterfaceInfoManager
 =
 new
@@ -1542,8 +1531,6 @@ AutoRegisterInterfaces
 (
 )
 {
-NS_TIME_FUNCTION
-;
 return
 NS_ERROR_NOT_IMPLEMENTED
 ;

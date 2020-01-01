@@ -136,15 +136,6 @@ include
 "
 mozilla
 /
-FunctionTimer
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Preferences
 .
 h
@@ -5084,8 +5075,6 @@ SyncRealTimeSpell
 (
 )
 {
-NS_TIME_FUNCTION
-;
 bool
 enable
 =
