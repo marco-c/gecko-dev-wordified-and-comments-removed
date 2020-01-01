@@ -2156,7 +2156,6 @@ WeaveCrypto
 .
 rc
 substitute
-:
 =
 perl
 -
