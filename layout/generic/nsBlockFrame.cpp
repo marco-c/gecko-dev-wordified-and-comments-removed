@@ -24630,6 +24630,12 @@ GetParent
 this
 )
 {
+aFlags
+&
+=
+~
+FRAMES_ARE_EMPTY
+;
 break
 ;
 }
