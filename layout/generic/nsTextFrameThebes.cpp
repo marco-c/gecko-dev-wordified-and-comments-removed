@@ -20701,15 +20701,6 @@ CompatibilityMode
 (
 )
 ;
-if
-(
-compatMode
-!
-=
-eCompatibility_NavQuirks
-)
-return
-;
 PRBool
 useOverride
 =

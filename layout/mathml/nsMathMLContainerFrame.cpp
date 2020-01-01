@@ -2374,11 +2374,12 @@ rv
 ;
 rv
 =
-DisplayTextDecorationsAndChildren
+BuildDisplayListForNonBlockChildren
 (
 aBuilder
 aDirtyRect
 aLists
+DISPLAY_CHILD_INLINE
 )
 ;
 NS_ENSURE_SUCCESS

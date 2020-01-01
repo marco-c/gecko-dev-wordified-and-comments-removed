@@ -1994,7 +1994,6 @@ standards
 notref
 .
 html
-fails
 =
 =
 underline
@@ -2017,21 +2016,6 @@ standards
 ref
 .
 html
-#
-bug
-that
-decoration
-is
-drawn
-through
-non
--
-text
-child
-(
-bug
-428599
-)
 fails
 -
 if
@@ -2121,9 +2105,6 @@ zorder
 ref
 .
 html
-#
-bug
-403524
 =
 =
 table
@@ -2186,7 +2167,6 @@ quirks
 ref
 .
 html
-fails
 =
 =
 text
@@ -2241,9 +2221,6 @@ css21
 ref
 .
 html
-#
-bug
-403524
 =
 =
 decoration
