@@ -4269,7 +4269,7 @@ PlacesUtils
 getString
 (
 "
-searchByDefault
+searchBookmarks
 "
 )
 ;
