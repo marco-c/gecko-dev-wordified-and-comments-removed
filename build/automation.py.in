@@ -8913,6 +8913,8 @@ zombie
 child
 processes
 .
+zombieProcesses
+=
 self
 .
 checkForZombies
@@ -8930,6 +8932,8 @@ symbolsPath
 )
 if
 crashed
+or
+zombieProcesses
 :
 status
 =
