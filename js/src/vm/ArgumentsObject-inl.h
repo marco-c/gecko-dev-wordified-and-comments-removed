@@ -7,6 +7,8 @@ ArgumentsObject_inl_h___
 #
 include
 "
+vm
+/
 ArgumentsObject
 .
 h
@@ -14,9 +16,9 @@ h
 #
 include
 "
+vm
+/
 ScopeObject
--
-inl
 .
 h
 "

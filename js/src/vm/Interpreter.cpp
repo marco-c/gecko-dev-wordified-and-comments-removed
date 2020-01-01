@@ -35,13 +35,6 @@ h
 #
 include
 <
-stdio
-.
-h
->
-#
-include
-<
 string
 .
 h
@@ -148,13 +141,6 @@ h
 include
 "
 jsstr
-.
-h
-"
-#
-include
-"
-jsversion
 .
 h
 "

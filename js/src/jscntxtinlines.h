@@ -35,6 +35,13 @@ h
 #
 include
 "
+jsiter
+.
+h
+"
+#
+include
+"
 builtin
 /
 Object

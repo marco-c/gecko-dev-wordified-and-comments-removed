@@ -21,13 +21,6 @@ h
 #
 include
 "
-jsopcode
-.
-h
-"
-#
-include
-"
 vm
 /
 Stack

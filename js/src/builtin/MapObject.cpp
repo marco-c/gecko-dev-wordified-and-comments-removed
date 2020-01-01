@@ -67,15 +67,6 @@ h
 #
 include
 "
-vm
-/
-Stack
-.
-h
-"
-#
-include
-"
 jsobjinlines
 .
 h

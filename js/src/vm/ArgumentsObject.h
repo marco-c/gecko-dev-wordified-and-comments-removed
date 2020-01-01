@@ -14,6 +14,16 @@ h
 namespace
 js
 {
+class
+AbstractFramePtr
+;
+namespace
+ion
+{
+class
+IonJSFrameLayout
+;
+}
 struct
 ArgumentsData
 {

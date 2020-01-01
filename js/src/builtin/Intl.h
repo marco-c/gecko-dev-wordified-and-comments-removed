@@ -7,6 +7,13 @@ Intl_h___
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 js
 /
 RootingAPI
