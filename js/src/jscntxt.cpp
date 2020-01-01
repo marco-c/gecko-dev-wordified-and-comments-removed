@@ -160,12 +160,17 @@ jsstr
 h
 "
 #
+ifdef
+JS_TRACER
+#
 include
 "
 jstracer
 .
 h
 "
+#
+endif
 #
 ifdef
 JS_THREADSAFE

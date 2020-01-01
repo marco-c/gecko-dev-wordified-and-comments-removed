@@ -188,12 +188,17 @@ jsstr
 h
 "
 #
+ifdef
+JS_TRACER
+#
 include
 "
 jstracer
 .
 h
 "
+#
+endif
 #
 ifdef
 INCLUDE_MOZILLA_DTRACE
