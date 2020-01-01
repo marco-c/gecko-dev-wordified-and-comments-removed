@@ -119,6 +119,10 @@ browser_dbg_cmd
 .
 js
 \
+browser_dbg_cmd_blackbox
+.
+js
+\
 browser_dbg_cmd_break
 .
 js
