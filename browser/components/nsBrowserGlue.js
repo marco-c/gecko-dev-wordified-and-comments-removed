@@ -2521,15 +2521,6 @@ n
 }
 }
 }
-else
-{
-this
-.
-ensurePlacesDefaultQueriesInitialized
-(
-)
-;
-}
 }
 _shutdownPlaces
 :
