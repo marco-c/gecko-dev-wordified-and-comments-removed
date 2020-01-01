@@ -791,6 +791,14 @@ nsFileDataProtocolHandler
 .
 cpp
 \
+nsFrameMessageManager
+.
+cpp
+\
+nsInProcessTabChildGlobal
+.
+cpp
+\
 (
 NULL
 )

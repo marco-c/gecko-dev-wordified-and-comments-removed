@@ -3586,6 +3586,10 @@ Push
 JSContext
 *
 cx
+PRBool
+aRequiresScriptContext
+=
+PR_TRUE
 )
 ;
 PRBool
