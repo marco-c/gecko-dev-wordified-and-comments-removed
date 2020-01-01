@@ -112,6 +112,10 @@ Zero_NonZero
 include
 (
 '
+xpcom
+/
+analysis
+/
 mayreturn
 .
 js

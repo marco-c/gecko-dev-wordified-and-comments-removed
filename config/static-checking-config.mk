@@ -29,9 +29,7 @@ DEHYDRA_SCRIPT
 topsrcdir
 )
 /
-xpcom
-/
-analysis
+config
 /
 static
 -
@@ -99,9 +97,9 @@ js
 topsrcdir
 )
 /
-xpcom
+js
 /
-analysis
+src
 /
 jsstack
 .
