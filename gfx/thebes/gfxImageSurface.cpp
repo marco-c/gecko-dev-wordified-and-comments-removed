@@ -344,6 +344,11 @@ Init
 surface
 )
 ;
+if
+(
+mSurfaceValid
+)
+{
 RecordMemoryUsed
 (
 mSize
@@ -360,6 +365,7 @@ gfxImageSurface
 )
 )
 ;
+}
 }
 gfxImageSurface
 :
