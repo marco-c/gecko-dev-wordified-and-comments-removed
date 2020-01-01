@@ -425,6 +425,15 @@ return
 True
     
 def
+isProtocol
+(
+self
+)
+:
+return
+False
+    
+def
 isAsync
 (
 self
@@ -1719,14 +1728,6 @@ errors
         
 self
 .
-visited
-=
-set
-(
-)
-        
-self
-.
 depth
 =
 0
@@ -1740,27 +1741,26 @@ tu
 :
         
 if
+hasattr
+(
+tu
+'
+_tchecked
+'
+)
+and
 tu
 .
-filename
-in
-self
-.
-visited
+_tchecked
 :
             
 return
         
-self
-.
-visited
-.
-add
-(
 tu
 .
-filename
-)
+_tchecked
+=
+True
         
 self
 .
