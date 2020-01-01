@@ -469,7 +469,7 @@ initWithPath
 /
 bin
 /
-test
+echo
 "
 )
 ;
