@@ -207,13 +207,6 @@ friend
 class
 TransactionFactory
 ;
-friend
-class
-nsDerivedSafe
-<
-IMETextTxn
->
-;
 }
 ;
 #

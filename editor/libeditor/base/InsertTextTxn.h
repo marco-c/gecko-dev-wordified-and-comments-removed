@@ -182,13 +182,6 @@ friend
 class
 TransactionFactory
 ;
-friend
-class
-nsDerivedSafe
-<
-InsertTextTxn
->
-;
 }
 ;
 #

@@ -7497,7 +7497,7 @@ nsRefPtr
 <
 nsStandardURL
 >
-otherPtr
+other
 ;
 nsresult
 rv
@@ -7510,15 +7510,9 @@ QueryInterface
 kThisImplCID
 getter_AddRefs
 (
-otherPtr
-)
-)
-;
-nsStandardURL
-*
 other
-=
-otherPtr
+)
+)
 ;
 if
 (
@@ -7893,6 +7887,10 @@ ensure
 file
 "
 other
+.
+get
+(
+)
 other
 -
 >
