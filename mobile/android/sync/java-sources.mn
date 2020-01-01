@@ -302,6 +302,15 @@ jpake
 /
 stage
 /
+DeleteChannel
+.
+java
+sync
+/
+jpake
+/
+stage
+/
 GetChannelStage
 .
 java

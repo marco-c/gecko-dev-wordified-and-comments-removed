@@ -410,7 +410,7 @@ abort
 (
 Constants
 .
-JPAKE_ERROR_INVALID
+JPAKE_ERROR_CHANNEL
 )
 ;
 return
@@ -441,7 +441,7 @@ abort
 (
 Constants
 .
-JPAKE_ERROR_INTERNAL
+JPAKE_ERROR_CHANNEL
 )
 ;
 return
