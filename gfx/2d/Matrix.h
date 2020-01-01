@@ -810,6 +810,12 @@ _32
 0f
 ;
 }
+GFX2D_API
+void
+NudgeToIntegers
+(
+)
+;
 private
 :
 static

@@ -443,6 +443,15 @@ other
 )
 ;
 void
+MultiplyAndNudgeToIntegers
+(
+const
+gfxMatrix
+&
+other
+)
+;
+void
 SetMatrix
 (
 const
