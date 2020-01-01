@@ -1268,6 +1268,8 @@ createQWidget
 MozQWidget
 *
 parent
+nsNativeWidget
+nativeParent
 nsWidgetInitData
 *
 aInitData
