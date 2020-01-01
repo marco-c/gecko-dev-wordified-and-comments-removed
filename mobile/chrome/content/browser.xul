@@ -5395,7 +5395,7 @@ ignore
 top
 =
 "
-72
+0
 "
 left
 =
@@ -5521,13 +5521,6 @@ id
 bookmarklist
 -
 header
-"
-style
-=
-"
-height
-:
-60px
 "
 >
 <
@@ -5748,13 +5741,6 @@ id
 folder
 -
 header
-"
-style
-=
-"
-height
-:
-60px
 "
 >
 <
