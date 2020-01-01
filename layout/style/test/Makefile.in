@@ -471,6 +471,10 @@ test_computed_style_no_pseudo
 .
 html
 \
+test_condition_text
+.
+html
+\
 test_default_computed_style
 .
 html

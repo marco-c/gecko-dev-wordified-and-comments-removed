@@ -130,7 +130,15 @@ nsIDOMCSSCharsetRule
 .
 idl
 \
+nsIDOMCSSConditionRule
+.
+idl
+\
 nsIDOMCSSFontFaceRule
+.
+idl
+\
+nsIDOMCSSGroupingRule
 .
 idl
 \
