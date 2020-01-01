@@ -1110,6 +1110,10 @@ if
 context
 )
 {
+StartDragSession
+(
+)
+;
 mGrabWidget
 =
 gtk_grab_get_current
@@ -1153,10 +1157,6 @@ NS_ERROR_FAILURE
 gtk_target_list_unref
 (
 sourceList
-)
-;
-StartDragSession
-(
 )
 ;
 return
