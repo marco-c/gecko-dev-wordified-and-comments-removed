@@ -239,12 +239,6 @@ StartBuffering
 (
 )
 ;
-virtual
-void
-LoadMetadata
-(
-)
-;
 NS_IMETHOD
 Run
 (
@@ -360,6 +354,7 @@ PRBool
 OnAudioThread
 (
 )
+const
 {
 return
 IsCurrentThread
@@ -372,6 +367,7 @@ PRBool
 OnStateMachineThread
 (
 )
+const
 {
 return
 mDecoder
@@ -677,6 +673,11 @@ mCurrentFrameTime
 }
 PRInt64
 GetDecodedAudioDuration
+(
+)
+;
+nsresult
+DecodeMetadata
 (
 )
 ;
