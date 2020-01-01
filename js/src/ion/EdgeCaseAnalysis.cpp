@@ -89,6 +89,11 @@ analyzeLate
 (
 )
 {
+uint32
+nextId
+=
+1
+;
 for
 (
 ReversePostorderIterator
@@ -150,6 +155,17 @@ iter
 +
 +
 )
+{
+iter
+-
+>
+setId
+(
+nextId
++
++
+)
+;
 iter
 -
 >
@@ -157,6 +173,7 @@ analyzeEdgeCasesForward
 (
 )
 ;
+}
 }
 for
 (
