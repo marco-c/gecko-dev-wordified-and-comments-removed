@@ -7,6 +7,15 @@ nsEventStateManager_h__
 #
 include
 "
+mozilla
+/
+TypedEnum
+.
+h
+"
+#
+include
+"
 nsEvent
 .
 h
