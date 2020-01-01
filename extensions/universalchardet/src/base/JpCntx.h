@@ -45,6 +45,7 @@ JapaneseContextAnalysis
 {
 Reset
 (
+PR_FALSE
 )
 ;
 }
@@ -148,14 +149,14 @@ order
 float
 GetConfidence
 (
-PRBool
-aIsPreferredLanguage
+void
 )
 ;
 void
 Reset
 (
-void
+PRBool
+aIsPreferredLanguage
 )
 ;
 void
@@ -212,6 +213,9 @@ NUM_OF_CATEGORY
 ;
 PRUint32
 mTotalRel
+;
+PRUint32
+mDataThreshold
 ;
 PRInt32
 mLastCharOrder

@@ -29,12 +29,14 @@ mContextAnalyser
 .
 Reset
 (
+mIsPreferredLanguage
 )
 ;
 mDistributionAnalyser
 .
 Reset
 (
+mIsPreferredLanguage
 )
 ;
 }
@@ -245,7 +247,6 @@ mContextAnalyser
 .
 GetConfidence
 (
-mIsPreferredLanguage
 )
 ;
 float
@@ -255,7 +256,6 @@ mDistributionAnalyser
 .
 GetConfidence
 (
-mIsPreferredLanguage
 )
 ;
 return
