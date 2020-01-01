@@ -180,6 +180,12 @@ engine
 .
 _tracker
 ;
+tracker
+.
+persistChangedIDs
+=
+false
+;
 const
 addon1ID
 =
@@ -239,14 +245,6 @@ resetScore
 tracker
 .
 clearChangedIDs
-(
-)
-;
-tracker
-.
-_lazySave
-.
-clear
 (
 )
 ;
