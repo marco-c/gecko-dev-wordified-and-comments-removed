@@ -396,6 +396,14 @@ case
 dblclick
 "
 :
+if
+(
+!
+SelectionHelperUI
+.
+isActive
+)
+{
 setTimeout
 (
 function
@@ -423,6 +431,7 @@ clientY
 50
 )
 ;
+}
 break
 ;
 }
