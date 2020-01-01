@@ -725,6 +725,12 @@ DEBUGGER_FORCELOCAL_PREF
 marionette_forcelocal
 )
 ;
+if
+(
+!
+marionette_forcelocal
+)
+{
 let
 insaneSacrificialGoat
 =
@@ -743,6 +749,7 @@ asyncListen
 this
 )
 ;
+}
 this
 .
 init
