@@ -456,7 +456,7 @@ mAwesomeBarParams
 ;
 private
 View
-mAwesomeBarContent
+mUrlDisplayContainer
 ;
 private
 View
@@ -1279,7 +1279,7 @@ dimen
 forward_default_offset
 )
 ;
-mAwesomeBarContent
+mUrlDisplayContainer
 =
 mLayout
 .
@@ -1289,7 +1289,7 @@ R
 .
 id
 .
-awesome_bar_content
+awesome_bar_display_container
 )
 ;
 mAwesomeBarEntry
@@ -5369,7 +5369,7 @@ ViewGroup
 .
 MarginLayoutParams
 )
-mAwesomeBarContent
+mUrlDisplayContainer
 .
 getLayoutParams
 (
@@ -5381,7 +5381,7 @@ leftMargin
 =
 0
 ;
-mAwesomeBarContent
+mUrlDisplayContainer
 .
 requestLayout
 (
@@ -5411,7 +5411,7 @@ ViewGroup
 .
 MarginLayoutParams
 )
-mAwesomeBarContent
+mUrlDisplayContainer
 .
 getLayoutParams
 (
@@ -5496,7 +5496,7 @@ mForward
 0
 )
 ;
-mAwesomeBarContent
+mUrlDisplayContainer
 .
 requestLayout
 (
