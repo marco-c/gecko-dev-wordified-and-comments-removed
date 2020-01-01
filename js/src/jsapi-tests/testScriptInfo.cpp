@@ -151,10 +151,13 @@ startLine
 =
 1000
 ;
-JSScript
-*
+js
+:
+:
+RootedScript
 script
-=
+(
+cx
 JS_CompileScript
 (
 cx
@@ -166,6 +169,7 @@ code
 )
 __FILE__
 startLine
+)
 )
 ;
 CHECK

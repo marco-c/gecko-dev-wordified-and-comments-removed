@@ -56,10 +56,13 @@ vp
 )
 )
 ;
-JSObject
-*
+js
+:
+:
+RootedObject
 obj
-=
+(
+cx
 JS_NewObjectForConstructor
 (
 cx
@@ -75,6 +78,7 @@ js
 ObjectClass
 )
 vp
+)
 )
 ;
 if

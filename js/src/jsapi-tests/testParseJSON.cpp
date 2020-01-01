@@ -994,8 +994,11 @@ cx
 expectedArg
 )
 ;
-jsval
+RootedValue
 v
+(
+cx
+)
 ;
 str
 =
@@ -1016,8 +1019,11 @@ str
 length
 (
 )
-&
 v
+.
+address
+(
+)
 )
 )
 ;
