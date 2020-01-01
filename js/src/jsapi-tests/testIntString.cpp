@@ -10,8 +10,11 @@ BEGIN_TEST
 testIntString_bug515273
 )
 {
-jsval
+jsvalRoot
 v
+(
+cx
+)
 ;
 EVAL
 (
@@ -21,8 +24,11 @@ EVAL
 '
 ;
 "
-&
 v
+.
+addr
+(
+)
 )
 ;
 JSString
@@ -32,6 +38,10 @@ str
 JSVAL_TO_STRING
 (
 v
+.
+value
+(
+)
 )
 ;
 const

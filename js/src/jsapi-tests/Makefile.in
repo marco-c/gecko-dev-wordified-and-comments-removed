@@ -457,6 +457,10 @@ testIntString
 .
 cpp
 \
+testIsAboutToBeFinalized
+.
+cpp
+\
 testLookup
 .
 cpp
