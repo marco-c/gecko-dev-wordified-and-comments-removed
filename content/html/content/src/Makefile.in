@@ -427,10 +427,6 @@ LIBXUL_LIBRARY
 EXPORTS
 =
 \
-nsImageMapUtils
-.
-h
-\
 nsClientRect
 .
 h
@@ -458,10 +454,6 @@ nsGenericHTMLElement
 cpp
 \
 nsFormSubmission
-.
-cpp
-\
-nsImageMapUtils
 .
 cpp
 \
