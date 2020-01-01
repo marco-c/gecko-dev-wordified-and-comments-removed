@@ -1644,6 +1644,10 @@ nsNPAPIPlugin
 :
 PluginCrashed
 (
+const
+nsAString
+&
+dumpID
 )
 {
 nsRefPtr
@@ -1668,6 +1672,7 @@ host
 PluginCrashed
 (
 this
+dumpID
 )
 ;
 }

@@ -512,6 +512,10 @@ PluginCrashed
 nsNPAPIPlugin
 *
 plugin
+const
+nsAString
+&
+dumpID
 )
 ;
 #

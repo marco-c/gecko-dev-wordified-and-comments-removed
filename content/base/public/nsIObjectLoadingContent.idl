@@ -1014,6 +1014,12 @@ noscript
 void
 pluginCrashed
 (
+in
+AString
+pluginName
+in
+boolean
+submittedCrashReport
 )
 ;
 }

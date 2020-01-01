@@ -229,6 +229,10 @@ MOZ_IPC
 void
 PluginCrashed
 (
+const
+nsAString
+&
+dumpID
 )
 ;
 #
