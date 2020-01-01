@@ -434,6 +434,10 @@ xpc_map_end
 .
 h
 \
+nsAutoJSValHolder
+.
+h
+\
 (
 NULL
 )
