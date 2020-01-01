@@ -30432,7 +30432,7 @@ pn_left
 )
 )
 return
-JS_FALSE
+false
 ;
 ptrdiff_t
 top
@@ -30452,7 +30452,7 @@ top
 0
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -30466,7 +30466,7 @@ JSOP_POP
 0
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -30482,7 +30482,7 @@ pn_right
 )
 )
 return
-JS_FALSE
+false
 ;
 ptrdiff_t
 off
@@ -30526,9 +30526,10 @@ getOp
 (
 )
 ;
+return
+true
+;
 }
-else
-{
 JS_ASSERT
 (
 pn
@@ -30574,7 +30575,7 @@ pn2
 )
 )
 return
-JS_FALSE
+false
 ;
 ptrdiff_t
 top
@@ -30594,7 +30595,7 @@ top
 0
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -30608,7 +30609,7 @@ JSOP_POP
 0
 )
 return
-JS_FALSE
+false
 ;
 ptrdiff_t
 jmp
@@ -30641,7 +30642,7 @@ pn2
 )
 )
 return
-JS_FALSE
+false
 ;
 ptrdiff_t
 off
@@ -30661,7 +30662,7 @@ off
 0
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -30675,7 +30676,7 @@ JSOP_POP
 0
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -30697,7 +30698,7 @@ jmp
 )
 )
 return
-JS_FALSE
+false
 ;
 jmp
 =
@@ -30715,7 +30716,7 @@ pn2
 )
 )
 return
-JS_FALSE
+false
 ;
 pn2
 =
@@ -30798,7 +30799,6 @@ pn_next
 pn_next
 )
 ;
-}
 return
 true
 ;
