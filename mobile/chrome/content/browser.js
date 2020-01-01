@@ -954,16 +954,6 @@ style
 in
 [
 "
-viewport
--
-width
-"
-"
-viewport
--
-height
-"
-"
 window
 -
 width
