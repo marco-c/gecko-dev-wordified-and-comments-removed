@@ -920,7 +920,7 @@ FM_RADIO_OPERATION_STATUS_FAIL
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 uint8_t
@@ -1084,7 +1084,7 @@ break
 }
 }
 return
-NULL
+nullptr
 ;
 }
 void
@@ -1310,9 +1310,9 @@ pthread_create
 (
 &
 sRadioThread
-NULL
+nullptr
 runTavaruaRadio
-NULL
+nullptr
 )
 ;
 }
@@ -1365,7 +1365,7 @@ radio
 pthread_join
 (
 sRadioThread
-NULL
+nullptr
 )
 ;
 close

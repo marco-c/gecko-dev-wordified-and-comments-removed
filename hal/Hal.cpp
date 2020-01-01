@@ -2565,7 +2565,7 @@ SwitchObserverList
 *
 sSwitchObserverLists
 =
-NULL
+nullptr
 ;
 static
 SwitchObserverList
@@ -2594,7 +2594,7 @@ if
 sSwitchObserverLists
 =
 =
-NULL
+nullptr
 )
 {
 sSwitchObserverLists
@@ -2659,7 +2659,7 @@ sSwitchObserverLists
 ;
 sSwitchObserverLists
 =
-NULL
+nullptr
 ;
 }
 void

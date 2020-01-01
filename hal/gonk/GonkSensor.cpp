@@ -1024,7 +1024,7 @@ sensor_t
 *
 sensors
 =
-NULL
+nullptr
 ;
 int
 size
@@ -1154,7 +1154,7 @@ sSensorDevice
 {
 sSensorModule
 =
-NULL
+nullptr
 ;
 LOGE
 (

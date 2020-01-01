@@ -160,7 +160,7 @@ Gamepad
 :
 mDevice
 (
-NULL
+nullptr
 )
 mSuperIndex
 (
@@ -196,7 +196,7 @@ return
 mDevice
 =
 =
-NULL
+nullptr
 ;
 }
 void
@@ -206,7 +206,7 @@ clear
 {
 mDevice
 =
-NULL
+nullptr
 ;
 buttons
 .
@@ -313,7 +313,7 @@ i
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 const
@@ -367,7 +367,7 @@ i
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 }
@@ -396,7 +396,7 @@ elements
 IOHIDDeviceCopyMatchingElements
 (
 device
-NULL
+nullptr
 kIOHIDOptionsTypeNone
 )
 ;
@@ -1344,7 +1344,7 @@ if
 dict
 )
 return
-NULL
+nullptr
 ;
 CFNumberRef
 number
@@ -1369,7 +1369,7 @@ dict
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 CFDictionarySetValue
@@ -1409,7 +1409,7 @@ dict
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 CFDictionarySetValue
@@ -1440,7 +1440,7 @@ DarwinGamepadService
 :
 mManager
 (
-NULL
+nullptr
 )
 {
 }
@@ -1457,7 +1457,7 @@ if
 mManager
 !
 =
-NULL
+nullptr
 )
 CFRelease
 (
@@ -1478,7 +1478,7 @@ if
 mManager
 !
 =
-NULL
+nullptr
 )
 return
 ;
@@ -1575,7 +1575,7 @@ void
 )
 criteria_arr
 2
-NULL
+nullptr
 )
 ;
 if
@@ -1729,7 +1729,7 @@ manager
 ;
 mManager
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1744,7 +1744,7 @@ DarwinGamepadService
 *
 gService
 =
-NULL
+nullptr
 ;
 void
 StartMonitoringGamepadStatus
@@ -1796,7 +1796,7 @@ gService
 ;
 gService
 =
-NULL
+nullptr
 ;
 }
 }

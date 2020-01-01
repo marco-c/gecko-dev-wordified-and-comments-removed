@@ -453,7 +453,7 @@ FAILED
 CoCreateInstance
 (
 CLSID_SensorManager
-NULL
+nullptr
 CLSCTX_INPROC_SERVER
 IID_ISensorManager
 getter_AddRefs
@@ -557,7 +557,7 @@ SUCCEEDED
 CoCreateInstance
 (
 CLSID_PortableDeviceValues
-NULL
+nullptr
 CLSCTX_INPROC_SERVER
 IID_IPortableDeviceValues
 getter_AddRefs
@@ -686,7 +686,7 @@ sAccelerometer
 >
 SetEventSink
 (
-NULL
+nullptr
 )
 ;
 sAccelerometer

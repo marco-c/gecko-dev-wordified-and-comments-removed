@@ -774,7 +774,7 @@ ShutdownUevent
 {
 sPoller
 =
-NULL
+nullptr
 ;
 }
 void
