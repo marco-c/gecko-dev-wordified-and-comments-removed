@@ -951,6 +951,10 @@ test_initial_storage
 .
 html
 \
+test_keyframes_rules
+.
+html
+\
 test_media_queries
 .
 html

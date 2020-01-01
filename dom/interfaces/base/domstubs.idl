@@ -656,6 +656,9 @@ interface
 nsIDOMCSSRuleList
 ;
 interface
+nsIDOMMozCSSKeyframeRule
+;
+interface
 nsIDOMCSSStyleSheet
 ;
 interface

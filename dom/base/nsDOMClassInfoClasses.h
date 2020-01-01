@@ -1434,3 +1434,11 @@ DOMCI_CLASS
 (
 EventException
 )
+DOMCI_CLASS
+(
+MozCSSKeyframeRule
+)
+DOMCI_CLASS
+(
+MozCSSKeyframesRule
+)
