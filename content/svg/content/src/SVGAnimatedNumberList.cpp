@@ -175,7 +175,7 @@ domWrapper
 domWrapper
 -
 >
-InternalAnimValListWillChangeTo
+InternalBaseValListWillChangeTo
 (
 SVGNumberList
 (
