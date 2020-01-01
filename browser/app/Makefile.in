@@ -236,6 +236,14 @@ ico
 NULL
 )
 ifdef
+MOZILLA_OFFICIAL
+DEFINES
++
+=
+-
+DMOZILLA_OFFICIAL
+endif
+ifdef
 LIBXUL_SDK
 #
 {
