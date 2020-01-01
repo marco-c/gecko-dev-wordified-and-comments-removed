@@ -104,6 +104,15 @@ Mode
 aMode
 )
 ;
+void
+CloseDescriptor
+(
+const
+TransportDescriptor
+&
+aTd
+)
+;
 }
 }
 #
