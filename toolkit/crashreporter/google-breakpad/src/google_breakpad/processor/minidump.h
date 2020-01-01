@@ -116,6 +116,16 @@ MinidumpObject
 )
 {
 }
+bool
+valid
+(
+)
+const
+{
+return
+valid_
+;
+}
 protected
 :
 explicit

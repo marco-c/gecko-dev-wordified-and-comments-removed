@@ -64,6 +64,13 @@ MDVectorSaveAreaPPC
 define
 MD_CONTEXT_PPC_GPR_COUNT
 32
+#
+pragma
+pack
+(
+push
+4
+)
 typedef
 struct
 {
@@ -109,6 +116,12 @@ vector_save
 }
 MDRawContextPPC
 ;
+#
+pragma
+pack
+(
+pop
+)
 #
 define
 MD_CONTEXT_PPC
