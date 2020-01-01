@@ -1907,6 +1907,11 @@ aEvent
 .
 DOM_VK_ESCAPE
 :
+case
+aEvent
+.
+DOM_VK_TAB
+:
 break
 ;
 default
