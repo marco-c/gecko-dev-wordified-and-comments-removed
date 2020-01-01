@@ -905,8 +905,14 @@ aRenderingContext
 nsIFrame
 *
 aFrame
-nsSize
+nsIFrame
+:
+:
+IntrinsicSize
+&
 aIntrinsicSize
+nsSize
+aIntrinsicRatio
 nsSize
 aCBSize
 nsSize
