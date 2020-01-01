@@ -12584,7 +12584,7 @@ isCollecting
 (
 )
 )
-MarkAtoms
+MarkAtomState
 (
 trc
 )
@@ -19524,7 +19524,7 @@ gcstats
 PHASE_SWEEP_ATOMS
 )
 ;
-SweepAtoms
+SweepAtomState
 (
 rt
 )
