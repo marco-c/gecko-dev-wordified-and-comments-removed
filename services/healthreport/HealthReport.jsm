@@ -24,6 +24,9 @@ CrashesProvider
 Metrics
 "
 "
+PlacesProvider
+"
+"
 ProfileMetadataProvider
 "
 "
