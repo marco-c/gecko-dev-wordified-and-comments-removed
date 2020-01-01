@@ -240,7 +240,7 @@ SetStyle
 (
 nsStyleStructID
 aSID
-nsStyleStruct
+void
 *
 aStruct
 )
@@ -281,7 +281,7 @@ Mark
 NS_HIDDEN_
 (
 const
-nsStyleStruct
+void
 *
 )
 NS_FASTCALL
@@ -330,7 +330,7 @@ STYLE_STRUCT
 NS_HIDDEN_
 (
 const
-nsStyleStruct
+void
 *
 )
 PeekStyleData
@@ -341,7 +341,7 @@ aSID
 ;
 NS_HIDDEN_
 (
-nsStyleStruct
+void
 *
 )
 GetUniqueStyleData

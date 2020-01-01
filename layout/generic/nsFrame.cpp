@@ -25601,7 +25601,7 @@ aStatus
 ;
 }
 const
-nsStyleStruct
+void
 *
 nsFrame
 :

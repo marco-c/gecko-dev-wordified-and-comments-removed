@@ -215,9 +215,6 @@ class
 nsIAtom
 ;
 struct
-nsStyleStruct
-;
-struct
 nsStyleBackground
 ;
 template

@@ -32,9 +32,6 @@ STYLE_STRUCT
 nsStyleStructID_Length
 }
 ;
-struct
-nsStyleStruct
-;
 #
 define
 NS_STYLE_INHERIT_BIT

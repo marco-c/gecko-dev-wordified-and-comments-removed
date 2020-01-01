@@ -301,7 +301,7 @@ static
 void
 PostResolveCallback
 (
-nsStyleStruct
+void
 *
 aStyleStruct
 nsRuleData
@@ -439,7 +439,7 @@ static
 void
 ProcessTableRulesAttribute
 (
-nsStyleStruct
+void
 *
 aStyleStruct
 nsRuleData
@@ -778,7 +778,7 @@ static
 void
 TbodyPostResolveCallback
 (
-nsStyleStruct
+void
 *
 aStyleStruct
 nsRuleData
@@ -864,7 +864,7 @@ static
 void
 RowPostResolveCallback
 (
-nsStyleStruct
+void
 *
 aStyleStruct
 nsRuleData
@@ -950,7 +950,7 @@ static
 void
 ColgroupPostResolveCallback
 (
-nsStyleStruct
+void
 *
 aStyleStruct
 nsRuleData
@@ -1036,7 +1036,7 @@ static
 void
 ColPostResolveCallback
 (
-nsStyleStruct
+void
 *
 aStyleStruct
 nsRuleData
@@ -1075,7 +1075,7 @@ static
 void
 UngroupedColPostResolveCallback
 (
-nsStyleStruct
+void
 *
 aStyleStruct
 nsRuleData

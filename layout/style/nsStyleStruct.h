@@ -154,15 +154,7 @@ define
 NS_RULE_NODE_LEVEL_SHIFT
 28
 struct
-nsStyleStruct
-{
-}
-;
-struct
 nsStyleFont
-:
-public
-nsStyleStruct
 {
 nsStyleFont
 (
@@ -305,9 +297,6 @@ endif
 ;
 struct
 nsStyleColor
-:
-public
-nsStyleStruct
 {
 nsStyleColor
 (
@@ -411,9 +400,6 @@ mColor
 ;
 struct
 nsStyleBackground
-:
-public
-nsStyleStruct
 {
 nsStyleBackground
 (
@@ -624,9 +610,6 @@ NS_SPACING_BORDER
 2
 struct
 nsStyleMargin
-:
-public
-nsStyleStruct
 {
 nsStyleMargin
 (
@@ -736,9 +719,6 @@ mCachedMargin
 ;
 struct
 nsStylePadding
-:
-public
-nsStyleStruct
 {
 nsStylePadding
 (
@@ -1167,9 +1147,6 @@ tpp
 )
 struct
 nsStyleBorder
-:
-public
-nsStyleStruct
 {
 nsStyleBorder
 (
@@ -1938,9 +1915,6 @@ mTwipsPerPixel
 ;
 struct
 nsStyleOutline
-:
-public
-nsStyleStruct
 {
 nsStyleOutline
 (
@@ -2279,9 +2253,6 @@ mTwipsPerPixel
 ;
 struct
 nsStyleList
-:
-public
-nsStyleStruct
 {
 nsStyleList
 (
@@ -2394,9 +2365,6 @@ mImageRegion
 ;
 struct
 nsStylePosition
-:
-public
-nsStyleStruct
 {
 nsStylePosition
 (
@@ -2521,9 +2489,6 @@ mZIndex
 ;
 struct
 nsStyleTextReset
-:
-public
-nsStyleStruct
 {
 nsStyleTextReset
 (
@@ -2630,9 +2595,6 @@ mVerticalAlign
 ;
 struct
 nsStyleText
-:
-public
-nsStyleStruct
 {
 nsStyleText
 (
@@ -2789,9 +2751,6 @@ NS_STYLE_WHITESPACE_MOZ_PRE_WRAP
 ;
 struct
 nsStyleVisibility
-:
-public
-nsStyleStruct
 {
 nsStyleVisibility
 (
@@ -2943,9 +2902,6 @@ NS_STYLE_VISIBILITY_COLLAPSE
 ;
 struct
 nsStyleDisplay
-:
-public
-nsStyleStruct
 {
 nsStyleDisplay
 (
@@ -3295,9 +3251,6 @@ NS_STYLE_OVERFLOW_HIDDEN
 ;
 struct
 nsStyleTable
-:
-public
-nsStyleStruct
 {
 nsStyleTable
 (
@@ -3410,9 +3363,6 @@ mSpan
 ;
 struct
 nsStyleTableBorder
-:
-public
-nsStyleStruct
 {
 nsStyleTableBorder
 (
@@ -3701,9 +3651,6 @@ nsnull
 }
 struct
 nsStyleQuotes
-:
-public
-nsStyleStruct
 {
 nsStyleQuotes
 (
@@ -4045,9 +3992,6 @@ mQuotes
 ;
 struct
 nsStyleContent
-:
-public
-nsStyleStruct
 {
 nsStyleContent
 (
@@ -4533,9 +4477,6 @@ mResets
 ;
 struct
 nsStyleUIReset
-:
-public
-nsStyleStruct
 {
 nsStyleUIReset
 (
@@ -4664,9 +4605,6 @@ nsCursorImage
 ;
 struct
 nsStyleUserInterface
-:
-public
-nsStyleStruct
 {
 nsStyleUserInterface
 (
@@ -4792,9 +4730,6 @@ aSource
 ;
 struct
 nsStyleXUL
-:
-public
-nsStyleStruct
 {
 nsStyleXUL
 (
@@ -4908,9 +4843,6 @@ mBoxPack
 ;
 struct
 nsStyleColumn
-:
-public
-nsStyleStruct
 {
 nsStyleColumn
 (
@@ -5128,9 +5060,6 @@ aOther
 ;
 struct
 nsStyleSVG
-:
-public
-nsStyleStruct
 {
 nsStyleSVG
 (
@@ -5302,9 +5231,6 @@ mTextRendering
 ;
 struct
 nsStyleSVGReset
-:
-public
-nsStyleStruct
 {
 nsStyleSVGReset
 (

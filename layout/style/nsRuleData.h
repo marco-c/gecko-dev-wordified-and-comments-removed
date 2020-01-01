@@ -34,7 +34,7 @@ void
 nsPostResolveFunc
 )
 (
-nsStyleStruct
+void
 *
 aStyleStruct
 nsRuleData
