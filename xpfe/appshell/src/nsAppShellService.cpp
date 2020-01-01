@@ -1680,7 +1680,7 @@ thisContext
 thisContext
 -
 >
-SetUsePrivateBrowsing
+SetPrivateBrowsing
 (
 isPrivateBrowsingWindow
 )

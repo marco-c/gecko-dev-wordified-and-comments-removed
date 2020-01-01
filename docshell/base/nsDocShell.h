@@ -766,6 +766,12 @@ SetUsePrivateBrowsing
 bool
 )
 ;
+NS_IMETHOD
+SetPrivateBrowsing
+(
+bool
+)
+;
 nsresult
 RestoreFromHistory
 (
