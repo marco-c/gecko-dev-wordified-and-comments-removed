@@ -1817,6 +1817,13 @@ this
 _initialState
 ;
 }
+if
+(
+this
+.
+_lastSessionCrashed
+)
+{
 aWindow
 .
 setTimeout
@@ -1827,6 +1834,7 @@ retryDownloads
 0
 )
 ;
+}
 }
 var
 tabbrowser
