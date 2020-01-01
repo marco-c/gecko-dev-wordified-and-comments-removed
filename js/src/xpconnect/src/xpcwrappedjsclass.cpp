@@ -789,6 +789,15 @@ fun
 ;
 if
 (
+XPCPerThreadData
+:
+:
+IsMainThread
+(
+ccx
+)
+&
+&
 !
 STOBJ_IS_SYSTEM
 (
