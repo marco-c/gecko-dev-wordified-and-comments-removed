@@ -791,7 +791,7 @@ AddEventListener
 aType
 aListener
 aUseCapture
-PR_FALSE
+false
 1
 )
 ;
@@ -869,7 +869,7 @@ AddSystemEventListener
 aType
 aListener
 aUseCapture
-PR_FALSE
+false
 1
 )
 ;

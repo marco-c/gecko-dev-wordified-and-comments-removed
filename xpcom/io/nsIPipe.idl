@@ -1111,11 +1111,11 @@ pipeOut
 bool
 nonBlockingInput
 =
-PR_FALSE
+false
 bool
 nonBlockingOutput
 =
-PR_FALSE
+false
 uint32_t
 segmentSize
 =
@@ -1367,11 +1367,11 @@ maxSize
 bool
 nonBlockingInput
 =
-PR_FALSE
+false
 bool
 nonBlockingOutput
 =
-PR_FALSE
+false
 nsIMemory
 *
 segmentAlloc

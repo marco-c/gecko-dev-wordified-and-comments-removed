@@ -1900,7 +1900,7 @@ idx
 bool
 b
 =
-PR_FALSE
+false
 ;
 mozilla
 :
