@@ -170,8 +170,6 @@ run_test
 (
 )
 {
-return
-;
 var
 uri1
 =
