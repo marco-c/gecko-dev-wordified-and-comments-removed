@@ -9389,6 +9389,14 @@ PR_TRUE
 NS_ASSERTION
 (
 res
+|
+|
+sCollector
+-
+>
+mParams
+.
+mDoNothing
 "
 suspectCurrent
 should
