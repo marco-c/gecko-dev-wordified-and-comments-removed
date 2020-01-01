@@ -48,6 +48,13 @@ jsapi
 .
 h
 "
+#
+include
+"
+jsscript
+.
+h
+"
 using
 namespace
 js
@@ -668,6 +675,9 @@ log
 Type
 type
 const
+JS
+:
+:
 CompileOptions
 &
 options
