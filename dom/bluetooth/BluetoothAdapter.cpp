@@ -2883,8 +2883,8 @@ PairUnpair
 (
 bool
 aPair
-nsIDOMBluetoothDevice
-*
+BluetoothDevice
+&
 aDevice
 ErrorResult
 &
@@ -2946,8 +2946,7 @@ nsAutoString
 addr
 ;
 aDevice
--
->
+.
 GetAddress
 (
 addr
@@ -3063,8 +3062,8 @@ BluetoothAdapter
 :
 Pair
 (
-nsIDOMBluetoothDevice
-*
+BluetoothDevice
+&
 aDevice
 ErrorResult
 &
@@ -3089,8 +3088,8 @@ BluetoothAdapter
 :
 Unpair
 (
-nsIDOMBluetoothDevice
-*
+BluetoothDevice
+&
 aDevice
 ErrorResult
 &

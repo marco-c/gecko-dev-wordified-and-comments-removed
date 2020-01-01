@@ -1869,6 +1869,10 @@ BluetoothAdapter
 .
 webidl
 \
+BluetoothDevice
+.
+webidl
+\
 BluetoothDeviceEvent
 .
 webidl
