@@ -6656,6 +6656,10 @@ JSProperty
 propp
 )
 ;
+#
+define
+JSRESOLVE_INFER
+0xffff
 inline
 bool
 js_IsCacheableNonGlobalScope
