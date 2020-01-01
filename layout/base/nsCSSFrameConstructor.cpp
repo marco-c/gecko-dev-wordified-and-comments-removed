@@ -19145,6 +19145,11 @@ contentFrame
 nsnull
 ;
 PRBool
+canHaveGeneratedContent
+=
+PR_TRUE
+;
+PRBool
 isBlockFrame
 =
 PR_FALSE
@@ -19300,6 +19305,10 @@ aDocElement
 styleContext
 )
 ;
+canHaveGeneratedContent
+=
+PR_FALSE
+;
 }
 else
 {
@@ -19445,7 +19454,7 @@ ProcessChildren
 aState
 aDocElement
 contentFrame
-PR_TRUE
+canHaveGeneratedContent
 childItems
 isBlockFrame
 )
