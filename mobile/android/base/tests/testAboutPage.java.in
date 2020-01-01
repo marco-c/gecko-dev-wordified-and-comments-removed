@@ -94,7 +94,7 @@ getActivity
 (
 )
 "
-awesome_bar
+awesome_bar_title
 "
 )
 ;
@@ -400,7 +400,7 @@ getActivity
 (
 )
 "
-awesome_bar
+awesome_bar_title
 "
 )
 ;
