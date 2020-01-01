@@ -5019,8 +5019,8 @@ _now
 )
 ;
 #
-ifdef
-PRERELEASE_BUILD
+ifndef
+RELEASE_BUILD
 try
 {
 Services
