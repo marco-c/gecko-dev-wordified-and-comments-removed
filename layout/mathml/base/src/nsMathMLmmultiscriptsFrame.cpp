@@ -439,6 +439,14 @@ font
 >
 mFont
 nsnull
+PresContext
+(
+)
+-
+>
+GetUserFontSet
+(
+)
 )
 ;
 nsCOMPtr

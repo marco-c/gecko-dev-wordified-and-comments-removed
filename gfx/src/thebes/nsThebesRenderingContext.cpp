@@ -3908,6 +3908,9 @@ aFont
 nsIAtom
 *
 aLangGroup
+gfxUserFontSet
+*
+aUserFontSet
 )
 {
 PR_LOG
@@ -3948,6 +3951,7 @@ GetMetricsFor
 (
 aFont
 aLangGroup
+aUserFontSet
 *
 getter_AddRefs
 (

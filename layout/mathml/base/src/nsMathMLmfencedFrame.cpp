@@ -946,6 +946,12 @@ font
 >
 mFont
 nsnull
+aPresContext
+-
+>
+GetUserFontSet
+(
+)
 )
 ;
 aReflowState

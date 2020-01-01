@@ -2529,6 +2529,14 @@ GetStyleFont
 >
 mFont
 nsnull
+PresContext
+(
+)
+-
+>
+GetUserFontSet
+(
+)
 )
 ;
 aRenderingContext

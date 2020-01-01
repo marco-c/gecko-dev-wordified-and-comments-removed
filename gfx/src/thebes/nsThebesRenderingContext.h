@@ -253,6 +253,9 @@ aFont
 nsIAtom
 *
 aLangGroup
+gfxUserFontSet
+*
+aUserFontSet
 )
 ;
 NS_IMETHOD
