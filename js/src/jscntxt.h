@@ -7438,6 +7438,10 @@ SHAPEVECTOR
 =
 -
 17
+TYPE
+=
+-
+18
 }
 ;
 private
