@@ -1558,11 +1558,6 @@ let
 randomFailingSyncTests
 =
 [
-"
-test_browserGlue_smartBookmarks
-.
-js
-"
 ]
 ;
 let
