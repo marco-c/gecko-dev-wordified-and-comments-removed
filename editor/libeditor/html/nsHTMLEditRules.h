@@ -2053,7 +2053,7 @@ nsIDOMNode
 outSelectableNode
 )
 ;
-nsresult
+bool
 InDifferentTableElements
 (
 nsIDOMNode
@@ -2062,9 +2062,17 @@ aNode1
 nsIDOMNode
 *
 aNode2
+)
+;
 bool
+InDifferentTableElements
+(
+nsINode
 *
-aResult
+aNode1
+nsINode
+*
+aNode2
 )
 ;
 nsresult
