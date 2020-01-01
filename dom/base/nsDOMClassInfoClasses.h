@@ -176,10 +176,6 @@ HTMLBaseElement
 )
 DOMCI_CLASS
 (
-HTMLBaseFontElement
-)
-DOMCI_CLASS
-(
 HTMLBodyElement
 )
 DOMCI_CLASS

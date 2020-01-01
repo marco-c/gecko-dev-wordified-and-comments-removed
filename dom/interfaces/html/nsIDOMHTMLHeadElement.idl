@@ -526,6 +526,9 @@ nsIDOMHTMLHeadElement
 :
 nsIDOMHTMLElement
 {
+[
+noscript
+]
 attribute
 DOMString
 profile

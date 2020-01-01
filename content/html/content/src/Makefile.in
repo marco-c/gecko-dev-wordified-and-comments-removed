@@ -517,15 +517,7 @@ nsHTMLHRElement
 .
 cpp
 \
-nsHTMLHeadElement
-.
-cpp
-\
 nsHTMLHeadingElement
-.
-cpp
-\
-nsHTMLHtmlElement
 .
 cpp
 \

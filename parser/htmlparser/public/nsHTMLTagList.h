@@ -54,7 +54,7 @@ Shared
 HTML_TAG
 (
 basefont
-Shared
+Span
 )
 HTML_TAG
 (
@@ -234,7 +234,7 @@ Heading
 HTML_TAG
 (
 head
-Head
+Shared
 )
 HTML_TAG
 (
@@ -244,7 +244,7 @@ HR
 HTML_TAG
 (
 html
-Html
+Shared
 )
 HTML_TAG
 (

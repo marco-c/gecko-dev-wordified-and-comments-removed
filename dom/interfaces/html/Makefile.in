@@ -444,10 +444,6 @@ nsIDOMHTMLBaseElement
 .
 idl
 \
-nsIDOMHTMLBaseFontElement
-.
-idl
-\
 nsIDOMHTMLBodyElement
 .
 idl
