@@ -1376,12 +1376,8 @@ DeleteLineList
 presContext
 mLines
 aDestructRoot
-)
-;
+&
 mFrames
-.
-Clear
-(
 )
 ;
 nsFrameList
@@ -1430,6 +1426,11 @@ overflowLines
 >
 mLines
 aDestructRoot
+&
+overflowLines
+-
+>
+mFrames
 )
 ;
 delete

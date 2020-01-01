@@ -1641,6 +1641,9 @@ aLines
 nsIFrame
 *
 aDestructRoot
+nsFrameList
+*
+aFrames
 )
 ;
 static
