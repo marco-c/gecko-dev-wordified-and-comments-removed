@@ -41798,11 +41798,4 @@ CreateBogusNodeIfNeeded
 selection
 )
 ;
-mEditor
--
->
-SyncRealTimeSpell
-(
-)
-;
 }
