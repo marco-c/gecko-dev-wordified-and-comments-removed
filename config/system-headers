@@ -3842,3 +3842,16 @@ proxy
 h
 #
 endif
+#
+if
+MOZ_PLATFORM_MAEMO
+=
+=
+6
+contentaction
+/
+contentaction
+.
+h
+#
+endif
