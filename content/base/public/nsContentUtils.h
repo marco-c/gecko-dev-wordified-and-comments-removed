@@ -1329,16 +1329,6 @@ aNameSpaceID
 )
 ;
 static
-nsAdoptingString
-GetLocalizedStringPref
-(
-const
-char
-*
-aPref
-)
-;
-static
 void
 RegisterPrefCallback
 (
