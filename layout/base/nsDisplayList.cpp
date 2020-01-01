@@ -617,7 +617,7 @@ activeScrolledRoot
 nsLayoutUtils
 :
 :
-IsScrolledByRootContentDocumentDisplayportScrolling
+ScrolledByViewportScrolling
 (
 activeScrolledRoot
 aBuilder

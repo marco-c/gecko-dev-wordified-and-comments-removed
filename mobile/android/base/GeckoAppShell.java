@@ -2329,17 +2329,6 @@ getPath
 )
 )
 ;
-GeckoAppShell
-.
-putenv
-(
-"
-MOZ_ENABLE_FIXED_POSITION_LAYERS
-=
-1
-"
-)
-;
 putLocaleEnv
 (
 )

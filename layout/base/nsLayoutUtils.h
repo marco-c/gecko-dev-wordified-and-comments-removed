@@ -552,7 +552,7 @@ nsnull
 ;
 static
 bool
-IsScrolledByRootContentDocumentDisplayportScrolling
+ScrolledByViewportScrolling
 (
 nsIFrame
 *
