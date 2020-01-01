@@ -2614,6 +2614,11 @@ gUpdates
 update
 .
 version
+gUpdates
+.
+update
+.
+platformVersion
 nsIUpdateItem
 .
 TYPE_ADDON

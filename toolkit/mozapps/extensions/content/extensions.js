@@ -6076,6 +6076,8 @@ iconURL
 "
 "
 type
+"
+"
 )
 ;
 items
