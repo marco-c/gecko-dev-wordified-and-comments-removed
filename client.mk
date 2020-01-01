@@ -1106,6 +1106,12 @@ layout
 \
 mozilla
 /
+memory
+/
+jemalloc
+\
+mozilla
+/
 jpeg
 \
 mozilla
