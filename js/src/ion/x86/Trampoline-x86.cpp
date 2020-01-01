@@ -1184,7 +1184,7 @@ eax
 ;
 masm
 .
-movzxh
+movzwl
 (
 Operand
 (

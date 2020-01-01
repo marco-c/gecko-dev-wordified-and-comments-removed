@@ -1185,6 +1185,13 @@ jsop_getelem_dense
 )
 ;
 bool
+jsop_getelem_typed
+(
+int
+arrayType
+)
+;
+bool
 jsop_setelem
 (
 )
