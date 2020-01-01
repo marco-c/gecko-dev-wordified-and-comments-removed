@@ -243,6 +243,14 @@ CSS_KEY
 -
 moz
 -
+element
+_moz_element
+)
+CSS_KEY
+(
+-
+moz
+-
 eventreerow
 _moz_eventreerow
 )

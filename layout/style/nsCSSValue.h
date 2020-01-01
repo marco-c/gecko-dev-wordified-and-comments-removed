@@ -326,6 +326,9 @@ eCSSUnit_Local_Font
 eCSSUnit_Font_Format
 =
 16
+eCSSUnit_Element
+=
+17
 eCSSUnit_Array
 =
 20
@@ -812,7 +815,7 @@ mUnit
 mUnit
 <
 =
-eCSSUnit_Font_Format
+eCSSUnit_Element
 ;
 }
 PRBool
