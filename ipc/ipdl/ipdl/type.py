@@ -11766,8 +11766,6 @@ s
                                
 bridgeProto
 .
-type
-.
 name
 (
 )
