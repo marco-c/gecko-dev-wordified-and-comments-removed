@@ -164,12 +164,16 @@ regress
 js
 #
 slow
+skip
 script
 regress
 -
 331719
 .
 js
+#
+bug
+530774
 skip
 script
 regress
