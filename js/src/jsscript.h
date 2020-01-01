@@ -1604,7 +1604,6 @@ typeMonitor
 JSContext
 *
 cx
-const
 jsbytecode
 *
 pc
