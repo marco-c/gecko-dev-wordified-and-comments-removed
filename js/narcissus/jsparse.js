@@ -4239,9 +4239,6 @@ HOOK
 COLON
 :
 2
-CONDITIONAL
-:
-2
 OR
 :
 4
@@ -4376,7 +4373,7 @@ COMMA
 ASSIGN
 :
 2
-CONDITIONAL
+HOOK
 :
 3
 OR
@@ -4897,12 +4894,6 @@ Invalid
 label
 "
 )
-;
-n
-.
-type
-=
-CONDITIONAL
 ;
 -
 -
