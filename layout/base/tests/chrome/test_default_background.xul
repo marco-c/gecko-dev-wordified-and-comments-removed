@@ -257,12 +257,12 @@ window
 open
 (
 "
-chrome_content_integration_window
+default_background_window
 .
 xul
 "
 "
-chrome_content_integration
+default_background
 "
 "
 chrome
