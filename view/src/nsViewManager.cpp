@@ -4222,11 +4222,6 @@ y
 nsRect
 baseViewDimensions
 ;
-if
-(
-baseView
-)
-{
 baseView
 -
 >
@@ -4235,7 +4230,6 @@ GetDimensions
 baseViewDimensions
 )
 ;
-}
 nsPoint
 pt
 ;
