@@ -1201,8 +1201,9 @@ instruction
 =
 0x
 %
-08llx
+08
 "
+PRIx64
 frame_index
 frame
 -

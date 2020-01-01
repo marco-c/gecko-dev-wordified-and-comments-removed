@@ -105,6 +105,8 @@ WriteMinidumpToFile
 (
 buffer
 0
+0
+NULL
 )
 ;
 doneWritingReport
