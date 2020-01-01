@@ -2893,14 +2893,9 @@ true
 ;
 Value
 v
-;
-v
-.
-copy
-(
+=
 *
 vp
-)
 ;
 return
 obj_setProperty

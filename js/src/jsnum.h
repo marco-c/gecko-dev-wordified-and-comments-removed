@@ -754,10 +754,7 @@ return
 ValueToNumberSlow
 (
 cx
-copyable_cast
-(
 v
-)
 out
 )
 ;
@@ -812,11 +809,8 @@ if
 ValueToNumberSlow
 (
 cx
-copyable_cast
-(
 *
 vp
-)
 &
 d
 )

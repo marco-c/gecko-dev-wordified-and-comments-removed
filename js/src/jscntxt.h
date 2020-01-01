@@ -6309,14 +6309,11 @@ AutoGCRooter
 cx
 JSVAL
 )
-{
 val
-.
-copy
 (
 v
 )
-;
+{
 JS_GUARD_OBJECT_NOTIFIER_INIT
 ;
 }
