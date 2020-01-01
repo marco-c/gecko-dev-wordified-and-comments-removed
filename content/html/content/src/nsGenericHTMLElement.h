@@ -3336,6 +3336,17 @@ GetFormElement
 (
 )
 ;
+nsHTMLFormElement
+*
+GetForm
+(
+)
+const
+{
+return
+mForm
+;
+}
 virtual
 void
 SetForm
