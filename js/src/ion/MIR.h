@@ -9686,9 +9686,6 @@ MUnaryInstruction
 public
 TestPolicy
 {
-MIRType
-specialization_
-;
 public
 :
 MNot
