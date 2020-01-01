@@ -79,7 +79,9 @@ i
 ok
 (
 !
-FillInHTMLTooltip
+tooltip
+.
+fillInPageTooltip
 (
 i
 )
@@ -106,7 +108,9 @@ foo
 ;
 ok
 (
-FillInHTMLTooltip
+tooltip
+.
+fillInPageTooltip
 (
 i
 )
@@ -136,7 +140,9 @@ bar
 ;
 ok
 (
-FillInHTMLTooltip
+tooltip
+.
+fillInPageTooltip
 (
 i
 )

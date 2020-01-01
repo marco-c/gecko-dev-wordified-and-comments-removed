@@ -56,7 +56,9 @@ e
 ok
 (
 !
-FillInHTMLTooltip
+tooltip
+.
+fillInPageTooltip
 (
 e
 )
@@ -91,7 +93,9 @@ aBarred
 ok
 (
 !
-FillInHTMLTooltip
+tooltip
+.
+fillInPageTooltip
 (
 e
 )
@@ -117,7 +121,9 @@ else
 {
 ok
 (
-FillInHTMLTooltip
+tooltip
+.
+fillInPageTooltip
 (
 e
 )
@@ -159,7 +165,9 @@ title
 ok
 (
 !
-FillInHTMLTooltip
+tooltip
+.
+fillInPageTooltip
 (
 e
 )
@@ -201,7 +209,9 @@ novalidate
 ok
 (
 !
-FillInHTMLTooltip
+tooltip
+.
+fillInPageTooltip
 (
 e
 )
