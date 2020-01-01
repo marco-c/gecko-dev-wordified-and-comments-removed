@@ -1204,9 +1204,6 @@ mZeroEffectiveSpanBox
 PRPackedBool
 mContainsFloat
 ;
-PRPackedBool
-mHasNonemptyContent
-;
 nscoord
 mLeftEdge
 ;
