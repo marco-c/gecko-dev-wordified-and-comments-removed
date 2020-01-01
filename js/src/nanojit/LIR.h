@@ -1513,6 +1513,8 @@ char
 _lirNames
 [
 LIR_last
++
+1
 ]
 ;
 )
