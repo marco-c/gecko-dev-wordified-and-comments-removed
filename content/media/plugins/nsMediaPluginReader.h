@@ -52,10 +52,10 @@ Decoder
 *
 mPlugin
 ;
-PRBool
+bool
 mHasAudio
 ;
-PRBool
+bool
 mHasVideo
 ;
 nsIntRect

@@ -3408,7 +3408,7 @@ SUBPIXEL_OFFSET_EPSILON
 02
 ;
 static
-PRBool
+bool
 SubpixelOffsetFuzzyEqual
 (
 gfxPoint
