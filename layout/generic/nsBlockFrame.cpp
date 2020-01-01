@@ -18353,6 +18353,17 @@ mPresContext
 IsVisualMode
 (
 )
+|
+|
+GetStyleVisibility
+(
+)
+-
+>
+mDirection
+=
+=
+NS_STYLE_DIRECTION_RTL
 )
 {
 nsBidiPresUtils
