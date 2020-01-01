@@ -1564,7 +1564,7 @@ nsGkAtoms
 :
 onoffline
 {
-NS_EVENT
+NS_OFFLINE
 EventNameType_HTMLXUL
 }
 }
@@ -1575,7 +1575,7 @@ nsGkAtoms
 :
 ononline
 {
-NS_EVENT
+NS_ONLINE
 EventNameType_HTMLXUL
 }
 }
