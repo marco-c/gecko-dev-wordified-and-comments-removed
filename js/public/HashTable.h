@@ -1778,21 +1778,19 @@ capacity
 }
 private
 :
-static
 HashNumber
 hash1
 (
 HashNumber
 hash0
-uint32_t
-shift
 )
+const
 {
 return
 hash0
 >
 >
-shift
+hashShift
 ;
 }
 struct
@@ -1811,8 +1809,6 @@ hash2
 (
 HashNumber
 curKeyHash
-uint32_t
-hashShift
 )
 const
 {
@@ -2040,7 +2036,6 @@ h1
 hash1
 (
 keyHash
-hashShift
 )
 ;
 Entry
@@ -2116,7 +2111,6 @@ dh
 hash2
 (
 keyHash
-hashShift
 )
 ;
 Entry
@@ -2291,7 +2285,6 @@ h1
 hash1
 (
 keyHash
-hashShift
 )
 ;
 Entry
@@ -2335,7 +2328,6 @@ dh
 hash2
 (
 keyHash
-hashShift
 )
 ;
 while
@@ -2890,7 +2882,6 @@ h1
 hash1
 (
 keyHash
-hashShift
 )
 ;
 DoubleHash
@@ -2899,7 +2890,6 @@ dh
 hash2
 (
 keyHash
-hashShift
 )
 ;
 Entry
