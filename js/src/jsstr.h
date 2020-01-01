@@ -929,14 +929,6 @@ JSContext
 cx
 )
 ;
-void
-mark
-(
-JSTracer
-*
-trc
-)
-;
 static
 size_t
 offsetOfLengthAndFlags
@@ -1100,6 +1092,8 @@ friend
 class
 JSString
 ;
+public
+:
 void
 mark
 (
@@ -1108,8 +1102,6 @@ JSTracer
 trc
 )
 ;
-public
-:
 JS_ALWAYS_INLINE
 const
 jschar
