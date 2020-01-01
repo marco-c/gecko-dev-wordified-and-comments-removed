@@ -86,6 +86,8 @@ style
 /
 Gecko
 .
+Translucent
+.
 NoActionBar
 "
 >

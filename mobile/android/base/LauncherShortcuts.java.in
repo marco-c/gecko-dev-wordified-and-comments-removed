@@ -634,6 +634,8 @@ allocator
 findAndAllocateIndex
 (
 uri
+title
+favicon
 )
 ;
 Intent

@@ -2525,6 +2525,14 @@ res
 /
 anim
 /
+grow_fade_in_center
+.
+xml
+\
+res
+/
+anim
+/
 shrink_fade_out
 .
 xml
