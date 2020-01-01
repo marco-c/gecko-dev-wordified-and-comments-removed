@@ -2217,9 +2217,9 @@ android
 background
 "
 >
-color
+drawable
 /
-background_light
+home_page_title_background
 <
 /
 item
