@@ -18567,6 +18567,15 @@ gcreason
 :
 :
 CC_FORCED
+|
+|
+reason
+=
+=
+gcreason
+:
+:
+DEBUG_MODE_GC
 ;
 }
 static
