@@ -18,7 +18,7 @@ PR_FALSE
 )
 mWrapFind
 (
-PR_FALSE
+PR_TRUE
 )
 mEntireWord
 (
