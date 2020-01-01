@@ -281,7 +281,7 @@ mPluginComplexTextInputRequested
 ;
 NSOpenGLContext
 *
-mContext
+mGLContext
 ;
 enum
 {
