@@ -3085,6 +3085,11 @@ nsHttpConnectionInfo
 >
 ci
 ;
+if
+(
+mConnection
+)
+{
 mConnection
 -
 >
@@ -3096,8 +3101,12 @@ ci
 )
 )
 ;
+}
 if
 (
+ci
+&
+&
 ci
 -
 >
