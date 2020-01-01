@@ -76,6 +76,15 @@ FileUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
 bool
 mozilla
 :
@@ -89,6 +98,8 @@ PRInt64
 aLength
 )
 {
+NS_TIME_FUNCTION
+;
 #
 if
 defined
