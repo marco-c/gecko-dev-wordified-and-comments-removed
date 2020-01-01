@@ -269,14 +269,11 @@ triggerNextTest
 }
 else
 {
-do_test_finished
-(
-)
-;
 httpserver
 .
 stop
 (
+do_test_finished
 )
 ;
 }
