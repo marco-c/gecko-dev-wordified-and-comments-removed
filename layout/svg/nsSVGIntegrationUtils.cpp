@@ -1802,6 +1802,14 @@ nsIFrame
 :
 eSVGGeometry
 )
+|
+|
+aFrame
+-
+>
+IsSVGText
+(
+)
 )
 {
 svgGeomFramePos
