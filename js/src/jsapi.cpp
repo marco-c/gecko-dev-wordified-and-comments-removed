@@ -26232,6 +26232,12 @@ column
 (
 0
 )
+element
+(
+NullPtr
+(
+)
+)
 compileAndGo
 (
 cx
