@@ -1632,6 +1632,7 @@ aNewOffset
 aNewOffset
 aOldOffset
 aOldOffset
+true
 )
 ;
 sendAsyncMessage
