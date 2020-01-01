@@ -4710,11 +4710,11 @@ report
 DONT_REPORT_ERROR
 )
 {
-JSFunction
-*
+RootedFunction
 fun
-=
-NULL
+(
+cx
+)
 ;
 if
 (

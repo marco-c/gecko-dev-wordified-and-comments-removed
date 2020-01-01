@@ -3576,8 +3576,7 @@ types
 TypeSet
 *
 target
-JSObject
-*
+HandleObject
 singleton
 jsid
 singletonId
