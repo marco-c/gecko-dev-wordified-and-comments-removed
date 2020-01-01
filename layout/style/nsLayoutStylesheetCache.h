@@ -37,10 +37,13 @@ MemoryReporting
 h
 "
 class
+nsCSSStyleSheet
+;
+class
 nsIFile
 ;
 class
-nsCSSStyleSheet
+nsIMemoryReporter
 ;
 class
 nsIURI
@@ -56,9 +59,6 @@ Loader
 ;
 }
 }
-class
-nsIMemoryReporter
-;
 class
 nsLayoutStylesheetCache
 MOZ_FINAL
@@ -257,8 +257,10 @@ nsCSSStyleSheet
 >
 mFullScreenOverrideSheet
 ;
+nsCOMPtr
+<
 nsIMemoryReporter
-*
+>
 mReporter
 ;
 }
