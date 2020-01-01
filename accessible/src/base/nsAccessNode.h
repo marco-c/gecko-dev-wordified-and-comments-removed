@@ -146,14 +146,6 @@ return
 mContent
 ;
 }
-virtual
-nsIDocument
-*
-GetDocumentNode
-(
-)
-const
-;
 bool
 IsContent
 (

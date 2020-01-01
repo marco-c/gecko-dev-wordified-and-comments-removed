@@ -945,7 +945,7 @@ ownerContent
 mDocument
 -
 >
-GetDocumentNode
+DocumentNode
 (
 )
 -
@@ -955,7 +955,7 @@ FindContentForSubDocument
 childDoc
 -
 >
-GetDocumentNode
+DocumentNode
 (
 )
 )

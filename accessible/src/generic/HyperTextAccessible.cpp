@@ -6291,7 +6291,7 @@ docNode
 mDoc
 -
 >
-GetDocumentNode
+DocumentNode
 (
 )
 ;
@@ -6466,7 +6466,7 @@ docNode
 mDoc
 -
 >
-GetDocumentNode
+DocumentNode
 (
 )
 ;

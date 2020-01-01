@@ -770,7 +770,7 @@ IsTabDocument
 doc
 -
 >
-GetDocumentNode
+DocumentNode
 (
 )
 )

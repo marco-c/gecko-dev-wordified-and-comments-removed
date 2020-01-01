@@ -4422,7 +4422,7 @@ OwnerDoc
 aDoc
 -
 >
-GetDocumentNode
+DocumentNode
 (
 )
 )

@@ -265,10 +265,9 @@ return
 mDocument
 ;
 }
-virtual
 nsIDocument
 *
-GetDocumentNode
+DocumentNode
 (
 )
 const
