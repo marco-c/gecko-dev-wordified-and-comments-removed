@@ -113,6 +113,11 @@ nsIDOMCSSFontFaceRule
 idl
 '
 '
+nsIDOMCSSFontFeatureValuesRule
+.
+idl
+'
+'
 nsIDOMCSSGroupingRule
 .
 idl

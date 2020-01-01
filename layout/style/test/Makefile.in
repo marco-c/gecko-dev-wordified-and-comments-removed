@@ -516,6 +516,10 @@ test_font_family_parsing
 .
 html
 \
+test_font_feature_values_parsing
+.
+html
+\
 test_garbage_at_end_of_declarations
 .
 html
