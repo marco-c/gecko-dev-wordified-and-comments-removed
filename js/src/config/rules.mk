@@ -16132,6 +16132,14 @@ INSTALL
 INSTALL
 )
 "
+echo
+"
+VPATH
+=
+(
+VPATH
+)
+"
 showhost
 :
 echo
