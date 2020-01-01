@@ -500,6 +500,7 @@ array
 object
 .
 html
+#
 origin
 -
 clean
@@ -507,6 +508,13 @@ clean
 conformance
 .
 html
+#
+is
+obsolete
+because
+of
+bug
+656277
 point
 -
 size
