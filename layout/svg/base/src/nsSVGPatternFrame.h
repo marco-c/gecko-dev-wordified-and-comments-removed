@@ -369,9 +369,6 @@ PRPackedBool
 mLoopFlag
 ;
 PRPackedBool
-mPaintLoopFlag
-;
-PRPackedBool
 mNoHRefURI
 ;
 }
