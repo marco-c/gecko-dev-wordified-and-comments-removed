@@ -486,7 +486,7 @@ jsdouble
 )
 BUILTIN1
 (
-doubleToInt32
+DoubleToInt32
 F
 LO
 int32
@@ -496,7 +496,7 @@ jsdouble
 )
 BUILTIN1
 (
-doubleToUint32
+DoubleToUint32
 F
 LO
 int32
@@ -612,7 +612,7 @@ jsint
 )
 BUILTIN3
 (
-ConcatStrings
+FastConcatStrings
 LO
 LO
 LO
@@ -794,7 +794,7 @@ jsval
 )
 BUILTIN2
 (
-ValueToIterator
+ValueToEnumerator
 LO
 LO
 LO
@@ -845,7 +845,7 @@ Fragment
 )
 BUILTIN2
 (
-NewObject
+FastNewObject
 LO
 LO
 LO

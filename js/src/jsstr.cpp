@@ -413,6 +413,8 @@ left
 JSString
 *
 right
+uintN
+gcflag
 )
 {
 size_t
@@ -633,6 +635,7 @@ js_NewString
 cx
 s
 n
+gcflag
 )
 ;
 if
@@ -12743,6 +12746,8 @@ jschar
 chars
 size_t
 length
+uintN
+gcflag
 )
 {
 JSString
@@ -12774,6 +12779,8 @@ JSString
 js_NewGCThing
 (
 cx
+gcflag
+|
 GCX_STRING
 sizeof
 (
@@ -14283,7 +14290,8 @@ return
 h
 ;
 }
-JSBool
+bool
+JS_FASTCALL
 js_EqualStrings
 (
 JSString
@@ -14403,7 +14411,8 @@ return
 JS_TRUE
 ;
 }
-intN
+jsint
+JS_FASTCALL
 js_CompareStrings
 (
 JSString

@@ -2486,7 +2486,7 @@ fid
 )
 {
 case
-F_doubleToUint32
+F_DoubleToUint32
 :
 if
 (
@@ -2546,7 +2546,7 @@ oprnd1
 break
 ;
 case
-F_doubleToInt32
+F_DoubleToInt32
 :
 if
 (
@@ -12731,7 +12731,7 @@ lir
 >
 insCall
 (
-F_doubleToInt32
+F_DoubleToInt32
 &
 f
 )
@@ -14080,9 +14080,9 @@ op
 =
 LIR_ush
 ?
-F_doubleToUint32
+F_DoubleToUint32
 :
-F_doubleToInt32
+F_DoubleToInt32
 &
 a
 )
@@ -17487,7 +17487,7 @@ lir
 >
 insCall
 (
-F_ConcatStrings
+F_FastConcatStrings
 args
 )
 ;
@@ -17845,7 +17845,7 @@ lir
 >
 insCall
 (
-F_NewObject
+F_FastNewObject
 args
 )
 ;
@@ -22714,7 +22714,7 @@ lir
 >
 insCall
 (
-F_ValueToIterator
+F_ValueToEnumerator
 args
 )
 ;

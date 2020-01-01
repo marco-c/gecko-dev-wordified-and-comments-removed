@@ -40,6 +40,10 @@ jstypes
 h
 "
 #
+define
+FASTCALL
+JS_FASTCALL
+#
 ifdef
 _MSC_VER
 #
@@ -49,10 +53,6 @@ __msvc_only
 x
 )
 x
-#
-define
-FASTCALL
-__fastcall
 #
 include
 <
@@ -67,15 +67,6 @@ define
 __msvc_only
 (
 x
-)
-#
-define
-FASTCALL
-__attribute__
-(
-(
-fastcall
-)
 )
 #
 endif
