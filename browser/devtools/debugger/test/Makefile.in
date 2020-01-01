@@ -235,6 +235,12 @@ browser_dbg_panesize
 .
 js
 \
+browser_dbg_panesize
+-
+inner
+.
+js
+\
 browser_dbg_stack
 -
 01
