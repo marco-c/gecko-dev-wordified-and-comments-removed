@@ -56,7 +56,7 @@ h
 #
 include
 "
-qcms
+lcms
 .
 h
 "
@@ -182,12 +182,10 @@ PRUint8
 *
 interlacebuf
 ;
-qcms_profile
-*
+cmsHPROFILE
 mInProfile
 ;
-qcms_transform
-*
+cmsHTRANSFORM
 mTransform
 ;
 gfx_format

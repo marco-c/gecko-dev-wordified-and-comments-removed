@@ -472,8 +472,6 @@ thebes
 \
 cairo
 \
-qcms
-\
 (
 NULL
 )

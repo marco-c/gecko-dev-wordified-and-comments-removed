@@ -615,7 +615,7 @@ MOZ_COMPONENT_LIBS
 lthebes
 \
 (
-QCMS_LIBS
+LCMS_LIBS
 )
 \
 (

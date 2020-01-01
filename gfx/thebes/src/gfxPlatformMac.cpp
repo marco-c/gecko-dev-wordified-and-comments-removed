@@ -111,7 +111,7 @@ h
 #
 include
 "
-qcms
+lcms
 .
 h
 "
@@ -1526,8 +1526,7 @@ return
 threshold
 ;
 }
-qcms_profile
-*
+cmsHPROFILE
 gfxPlatformMac
 :
 :
@@ -1560,8 +1559,7 @@ noErr
 return
 nsnull
 ;
-qcms_profile
-*
+cmsHPROFILE
 profile
 =
 nsnull
@@ -1627,9 +1625,12 @@ path
 {
 profile
 =
-qcms_profile_from_path
+cmsOpenProfileFromFile
 (
 path
+"
+r
+"
 )
 ;
 #
@@ -1669,7 +1670,7 @@ cmPathBasedProfile
 :
 profile
 =
-qcms_profile_from_path
+cmsOpenProfileFromFile
 (
 device
 .
@@ -1678,6 +1679,9 @@ u
 pathLoc
 .
 path
+"
+r
+"
 )
 ;
 #

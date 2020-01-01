@@ -445,7 +445,9 @@ imglib2
 JPEG_REQUIRES
 )
 \
-qcms
+(
+LCMS_REQUIRES
+)
 \
 (
 NULL

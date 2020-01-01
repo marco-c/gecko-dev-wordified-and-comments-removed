@@ -545,9 +545,9 @@ endif
 tier_external_dirs
 +
 =
-gfx
+modules
 /
-qcms
+lcms
 #
 #
 tier

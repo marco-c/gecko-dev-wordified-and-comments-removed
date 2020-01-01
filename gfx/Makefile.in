@@ -422,7 +422,6 @@ thebes
 public
 idl
 src
-qcms
 ifdef
 ENABLE_TESTS
 ifndef
