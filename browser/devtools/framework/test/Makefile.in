@@ -125,6 +125,10 @@ browser_toolbox_window_shortcuts
 .
 js
 \
+browser_toolbox_tabsswitch_shortcuts
+.
+js
+\
 browser_toolbox_window_title_changes
 .
 js
