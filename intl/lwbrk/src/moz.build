@@ -194,6 +194,16 @@ nsRuleBreaker
 cpp
 '
 ]
+CSRCS
++
+=
+[
+'
+rulebrk
+.
+c
+'
+]
 LIBRARY_NAME
 =
 '
