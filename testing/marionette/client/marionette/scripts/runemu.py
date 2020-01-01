@@ -27,6 +27,10 @@ x86
 noWindow
 =
 False
+                
+userdata
+=
+None
 )
 :
     
@@ -43,6 +47,10 @@ arch
 noWindow
 =
 noWindow
+                    
+userdata
+=
+userdata
 )
     
 qemu
@@ -338,6 +346,40 @@ emulator
 '
 )
     
+parser
+.
+add_option
+(
+'
+-
+-
+userdata
+'
+dest
+=
+'
+userdata
+'
+action
+=
+'
+store
+'
+                      
+help
+=
+'
+path
+to
+userdata
+.
+img
+file
+to
+use
+'
+)
+    
 options
 args
 =
@@ -407,4 +449,10 @@ noWindow
 options
 .
 noWindow
+                
+userdata
+=
+options
+.
+userdata
 )

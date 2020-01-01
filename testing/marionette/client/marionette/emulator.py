@@ -194,7 +194,11 @@ arch
 "
 x86
 "
+                 
 emulatorBinary
+=
+None
+userdata
 =
 None
 )
@@ -308,6 +312,22 @@ expanduser
 (
 homedir
 )
+        
+self
+.
+dataImg
+=
+userdata
+        
+self
+.
+copy_userdata
+=
+self
+.
+dataImg
+is
+None
     
 def
 _check_for_b2g
@@ -756,6 +776,13 @@ self
 sysDir
 )
         
+if
+not
+self
+.
+dataImg
+:
+            
 self
 .
 dataImg
@@ -1906,6 +1933,21 @@ start_adb
 (
 )
         
+qemu_args
+=
+self
+.
+args
+[
+:
+]
+        
+if
+self
+.
+copy_userdata
+:
+            
 self
 .
 _tmp_userdata
@@ -1920,7 +1962,7 @@ prefix
 marionette
 '
 )
-        
+            
 shutil
 .
 copyfile
@@ -1932,16 +1974,7 @@ self
 .
 _tmp_userdata
 )
-        
-qemu_args
-=
-self
-.
-args
-[
-:
-]
-        
+            
 qemu_args
 [
 qemu_args
