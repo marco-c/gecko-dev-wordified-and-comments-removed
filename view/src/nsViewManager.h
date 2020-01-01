@@ -1261,16 +1261,6 @@ nsIRegion
 result
 )
 ;
-static
-nsPoint
-ComputeViewOffset
-(
-const
-nsView
-*
-aView
-)
-;
 PRBool
 IsRefreshEnabled
 (
