@@ -315,10 +315,6 @@ ParseNode
 *
 yieldNode
 ;
-CompileError
-*
-queuedStrictModeError
-;
 private
 :
 ParseContext
@@ -394,15 +390,6 @@ inline
 bool
 init
 (
-)
-;
-inline
-void
-setQueuedStrictModeError
-(
-CompileError
-*
-e
 )
 ;
 unsigned
