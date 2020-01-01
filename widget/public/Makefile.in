@@ -677,10 +677,6 @@ cocoa
 XPIDLSRCS
 +
 =
-nsIEventSink
-.
-idl
-\
 nsIPrintSettingsX
 .
 idl

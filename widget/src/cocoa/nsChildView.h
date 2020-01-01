@@ -61,13 +61,6 @@ h
 #
 include
 "
-nsIEventSink
-.
-h
-"
-#
-include
-"
 nsIScrollableView
 .
 h
@@ -432,8 +425,6 @@ public
 nsIPluginWidget
 public
 nsIKBStateControl
-public
-nsIEventSink
 {
 private
 :
@@ -454,7 +445,6 @@ nsChildView
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIEVENTSINK
 NS_IMETHOD
 ResetInputState
 (
