@@ -9571,7 +9571,6 @@ false
 return
 ;
 }
-else
 if
 (
 mIMEMaskEvents
