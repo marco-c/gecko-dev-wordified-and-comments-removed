@@ -125,6 +125,8 @@ ParallelBailoutOutOfMemory
 ParallelBailoutUnsupported
 ParallelBailoutUnsupportedStringComparison
 ParallelBailoutUnsupportedSparseArray
+ParallelBailoutRequestedGC
+ParallelBailoutRequestedZoneGC
 }
 ;
 struct
