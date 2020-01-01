@@ -75,7 +75,15 @@ namespace
 dom
 {
 struct
+DictionaryBase
+{
+}
+;
+struct
 MainThreadDictionaryBase
+:
+public
+DictionaryBase
 {
 protected
 :

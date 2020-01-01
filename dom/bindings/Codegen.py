@@ -57302,8 +57302,6 @@ parent
 inheritance
 =
 "
-:
-public
 %
 s
 "
@@ -57327,8 +57325,6 @@ workers
 inheritance
 =
 "
-:
-public
 MainThreadDictionaryBase
 "
         
@@ -57338,6 +57334,7 @@ else
 inheritance
 =
 "
+DictionaryBase
 "
         
 memberDecls
@@ -57395,6 +57392,8 @@ struct
 {
 selfName
 }
+:
+public
 {
 inheritance
 }
