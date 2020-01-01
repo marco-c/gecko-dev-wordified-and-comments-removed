@@ -9887,6 +9887,9 @@ uintN
 defaultFlags
 )
 {
+#
+ifdef
+JS_TRACER
 if
 (
 JS_ON_TRACE
@@ -9903,6 +9906,8 @@ bailExit
 >
 lookupFlags
 ;
+#
+endif
 JS_ASSERT_NOT_ON_TRACE
 (
 cx
