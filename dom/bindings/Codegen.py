@@ -58459,7 +58459,7 @@ JSObject
 *
 "
 "
-aCallable
+aCallback
 "
 )
              
@@ -58494,7 +58494,7 @@ CallbackFunction
 (
 cx
 aOwner
-aCallable
+aCallback
 aInited
 )
 "
@@ -58712,7 +58712,7 @@ setupCall
 CallSetup
 s
 (
-mCallable
+mCallback
 )
 ;
 \
@@ -58785,7 +58785,7 @@ s
 GetContext
 (
 )
-mCallable
+mCallback
 thisObj
 )
 ;
@@ -59504,7 +59504,7 @@ JS
 ObjectValue
 (
 *
-mCallable
+mCallback
 )
 \
 n
@@ -60022,7 +60022,7 @@ obj
 '
 :
 '
-mCallable
+mCallback
 '
                 
 '

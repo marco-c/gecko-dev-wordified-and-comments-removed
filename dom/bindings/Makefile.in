@@ -289,7 +289,7 @@ BindingUtils
 .
 cpp
 \
-CallbackFunction
+CallbackObject
 .
 cpp
 \
@@ -331,6 +331,10 @@ BindingUtils
 h
 \
 CallbackFunction
+.
+h
+\
+CallbackObject
 .
 h
 \
