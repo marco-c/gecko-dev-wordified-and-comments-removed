@@ -1514,6 +1514,15 @@ rgba
 255
 .
 0
+NS_GET_A
+(
+rgba
+)
+/
+255
+.
+0
+*
 opacity
 *
 aOpacity

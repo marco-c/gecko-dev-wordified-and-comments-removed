@@ -12069,6 +12069,15 @@ floodColor
 255
 .
 0
+NS_GET_A
+(
+floodColor
+)
+/
+255
+.
+0
+*
 floodOpacity
 )
 ;
