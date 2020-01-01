@@ -2579,6 +2579,9 @@ obj
 ;
 }
 inline
+js
+:
+:
 NativeIterator
 *
 JSObject
@@ -2591,6 +2594,9 @@ const
 {
 return
 (
+js
+:
+:
 NativeIterator
 *
 )
@@ -2606,6 +2612,9 @@ JSObject
 :
 setNativeIterator
 (
+js
+:
+:
 NativeIterator
 *
 ni

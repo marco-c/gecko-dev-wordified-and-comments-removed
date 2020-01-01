@@ -750,9 +750,13 @@ JSObject
 obj
 )
 ;
+namespace
+js
+{
 struct
 NativeIterator
 ;
+}
 const
 uint32
 JS_INITIAL_NSLOTS
@@ -3255,6 +3259,9 @@ zeroRegExpLastIndex
 )
 ;
 inline
+js
+:
+:
 NativeIterator
 *
 getNativeIterator
@@ -3266,6 +3273,9 @@ inline
 void
 setNativeIterator
 (
+js
+:
+:
 NativeIterator
 *
 )
