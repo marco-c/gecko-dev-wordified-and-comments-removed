@@ -40,10 +40,6 @@ DatabaseInfo
 (
 )
 :
-id
-(
-0
-)
 nextObjectStoreId
 (
 1
@@ -64,7 +60,8 @@ static
 bool
 Get
 (
-PRUint32
+nsIAtom
+*
 aId
 DatabaseInfo
 *
@@ -85,7 +82,8 @@ static
 void
 Remove
 (
-PRUint32
+nsIAtom
+*
 aId
 )
 ;
@@ -115,7 +113,8 @@ name
 PRUint64
 version
 ;
-PRUint32
+nsIAtom
+*
 id
 ;
 nsString
@@ -230,7 +229,8 @@ static
 bool
 Get
 (
-PRUint32
+nsIAtom
+*
 aDatabaseId
 const
 nsAString
@@ -255,7 +255,8 @@ static
 void
 Remove
 (
-PRUint32
+nsIAtom
+*
 aDatabaseId
 const
 nsAString
@@ -275,7 +276,8 @@ keyPath
 bool
 autoIncrement
 ;
-PRUint32
+nsIAtom
+*
 databaseId
 ;
 nsTArray

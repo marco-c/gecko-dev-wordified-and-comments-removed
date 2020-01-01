@@ -398,7 +398,8 @@ public
 :
 AutoRemoveObjectStore
 (
-PRUint32
+nsIAtom
+*
 aId
 const
 nsAString
@@ -449,7 +450,10 @@ mId
 }
 private
 :
-PRUint32
+nsCOMPtr
+<
+nsIAtom
+>
 mId
 ;
 nsString

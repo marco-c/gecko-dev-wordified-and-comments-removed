@@ -121,6 +121,11 @@ NS_OK
 NS_DECL_ISUPPORTS
 NS_DECL_NSIRUNNABLE
 nsresult
+Init
+(
+)
+;
+nsresult
 Dispatch
 (
 nsIEventTarget
@@ -240,6 +245,12 @@ mASCIIOrigin
 PRUint64
 mRequestedVersion
 ;
+nsCOMPtr
+<
+nsIAtom
+>
+mDatabaseId
+;
 nsTArray
 <
 nsAutoPtr
@@ -257,9 +268,6 @@ mDataVersion
 ;
 nsString
 mDatabaseFilePath
-;
-PRUint32
-mDatabaseId
 ;
 PRInt64
 mLastObjectStoreId

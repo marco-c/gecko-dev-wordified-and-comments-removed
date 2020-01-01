@@ -1184,7 +1184,8 @@ public
 :
 AutoRemoveIndex
 (
-PRUint32
+nsIAtom
+*
 aDatabaseId
 const
 nsAString
@@ -1306,7 +1307,10 @@ mDatabaseId
 }
 private
 :
-PRUint32
+nsCOMPtr
+<
+nsIAtom
+>
 mDatabaseId
 ;
 nsString

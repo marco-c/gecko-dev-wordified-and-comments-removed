@@ -491,7 +491,10 @@ mKeyPath
 bool
 mAutoIncrement
 ;
-PRUint32
+nsCOMPtr
+<
+nsIAtom
+>
 mDatabaseId
 ;
 PRUint32
