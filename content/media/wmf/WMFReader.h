@@ -139,12 +139,12 @@ MOZ_OVERRIDE
 ;
 private
 :
-void
+HRESULT
 ConfigureAudioDecoder
 (
 )
 ;
-void
+HRESULT
 ConfigureVideoDecoder
 (
 )
