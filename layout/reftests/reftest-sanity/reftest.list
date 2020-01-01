@@ -407,7 +407,6 @@ html
 about
 :
 blank
-random
 =
 =
 zoom
@@ -422,6 +421,3 @@ invalidation
 ref
 .
 html
-#
-bug
-472244

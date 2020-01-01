@@ -14150,13 +14150,13 @@ DrawWindow
 nsIDOMWindow
 *
 aWindow
-PRInt32
+float
 aX
-PRInt32
+float
 aY
-PRInt32
+float
 aW
-PRInt32
+float
 aH
 const
 nsAString
