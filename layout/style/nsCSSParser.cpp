@@ -5410,8 +5410,6 @@ point
 "
 )
 ;
-do
-{
 if
 (
 !
@@ -5427,17 +5425,6 @@ return
 PR_FALSE
 ;
 }
-}
-while
-(
-eCSSToken_WhiteSpace
-=
-=
-mToken
-.
-mType
-)
-;
 aURL
 =
 mToken
