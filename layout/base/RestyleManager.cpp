@@ -8866,8 +8866,7 @@ StyleSet
 #
 ifdef
 ACCESSIBILITY
-bool
-wasFrameVisible
+mWasFrameVisible
 =
 nsIPresShell
 :
@@ -10799,7 +10798,7 @@ if
 isFrameVisible
 !
 =
-wasFrameVisible
+mWasFrameVisible
 )
 {
 if
