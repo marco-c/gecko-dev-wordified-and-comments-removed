@@ -10336,6 +10336,9 @@ content
 navigator
 -
 item
+button
+-
+image
 previous
 -
 button
@@ -10370,6 +10373,9 @@ content
 navigator
 -
 item
+button
+-
+image
 next
 -
 button

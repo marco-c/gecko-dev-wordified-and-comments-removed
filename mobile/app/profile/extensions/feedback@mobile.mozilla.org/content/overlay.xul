@@ -567,6 +567,16 @@ group
 "
 1
 "
+class
+=
+"
+panel
+-
+button
+button
+-
+image
+"
 linkedpanel
 =
 "
