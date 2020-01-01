@@ -1080,9 +1080,9 @@ operation
 ENTITY
 debuggerUI
 .
-searchLine
+searchGoToLine
 "
-Jump
+Go
 to
 line
 "
@@ -1092,11 +1092,11 @@ line
 ENTITY
 debuggerUI
 .
-searchLine
+searchGoToLine
 .
 key
 "
-J
+L
 "
 >
 <
