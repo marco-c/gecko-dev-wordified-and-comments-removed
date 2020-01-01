@@ -3566,6 +3566,10 @@ gcStrictCompartmentChecking
 (
 false
 )
+gcDisableStrictProxyCheckingCount
+(
+0
+)
 gcIncrementalState
 (
 gc

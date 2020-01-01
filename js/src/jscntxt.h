@@ -1702,6 +1702,9 @@ gcTriggerReason
 bool
 gcStrictCompartmentChecking
 ;
+uintptr_t
+gcDisableStrictProxyCheckingCount
+;
 js
 :
 :
