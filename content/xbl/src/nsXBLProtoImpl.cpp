@@ -690,7 +690,10 @@ nsIXPConnectJSObjectHolder
 >
 wrapper
 ;
-jsval
+JS
+:
+:
+Value
 v
 ;
 rv
@@ -1224,7 +1227,10 @@ GetName
 )
 )
 ;
-jsval
+JS
+:
+:
+Value
 dummy
 ;
 if
@@ -1364,7 +1370,10 @@ hasProp
 hasProp
 )
 {
-jsval
+JS
+:
+:
+Value
 dummy
 ;
 :

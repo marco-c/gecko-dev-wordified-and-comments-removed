@@ -5083,7 +5083,10 @@ ar
 jscontext
 )
 ;
-jsval
+JS
+:
+:
+Value
 v
 ;
 nsCOMPtr
@@ -5131,7 +5134,10 @@ if
 mDB
 )
 {
-jsval
+JS
+:
+:
+Value
 jsdatabase
 ;
 rv
@@ -5201,7 +5207,10 @@ NS_ERROR_FAILURE
 ;
 }
 {
-jsval
+JS
+:
+:
+Value
 jsbuilder
 ;
 nsCOMPtr

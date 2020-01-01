@@ -1824,7 +1824,10 @@ cx
 scopeObject
 )
 ;
-jsval
+JS
+:
+:
+Value
 result
 =
 JSVAL_NULL

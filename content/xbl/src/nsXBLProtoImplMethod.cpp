@@ -1229,7 +1229,10 @@ nsIXPConnectJSObjectHolder
 >
 wrapper
 ;
-jsval
+JS
+:
+:
+Value
 v
 ;
 nsresult
@@ -1382,7 +1385,10 @@ rv
 )
 )
 {
-jsval
+JS
+:
+:
+Value
 retval
 ;
 ok

@@ -4440,7 +4440,10 @@ docInfo
 continue
 ;
 }
-jsval
+JS
+:
+:
+Value
 protoBinding
 =
 :
@@ -4969,7 +4972,10 @@ buf
 }
 }
 }
-jsval
+JS
+:
+:
+Value
 val
 ;
 JSObject
