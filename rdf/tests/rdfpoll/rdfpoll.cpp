@@ -1011,7 +1011,7 @@ source
 )
 ;
 return
-rv
+1
 ;
 }
 nsCOMPtr
@@ -1031,7 +1031,7 @@ if
 remote
 )
 return
-NS_ERROR_UNEXPECTED
+1
 ;
 rv
 =
@@ -1069,7 +1069,7 @@ rv
 )
 )
 return
-rv
+1
 ;
 nsCOMPtr
 <
@@ -1089,7 +1089,7 @@ if
 observer
 )
 return
-NS_ERROR_OUT_OF_MEMORY
+1
 ;
 rv
 =
@@ -1109,7 +1109,7 @@ rv
 )
 )
 return
-rv
+1
 ;
 while
 (
@@ -1148,7 +1148,7 @@ rv
 )
 )
 return
-rv
+1
 ;
 if
 (
@@ -1187,6 +1187,6 @@ pollinterval
 ;
 }
 return
-NS_OK
+0
 ;
 }

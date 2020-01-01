@@ -201,7 +201,7 @@ rv
 ;
 \
 return
-rv
+1
 ;
 \
 }
@@ -529,12 +529,13 @@ while
 done
 )
 {
-NS_ENSURE_STATE
+NS_ENSURE_TRUE
 (
 NS_ProcessNextEvent
 (
 thread
 )
+1
 )
 ;
 remote
@@ -614,6 +615,6 @@ serialization
 )
 ;
 return
-NS_OK
+0
 ;
 }
