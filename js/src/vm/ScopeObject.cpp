@@ -4570,15 +4570,11 @@ maybeBlock
 |
 |
 !
-JSScript
-:
-:
-isValidOffset
-(
 script
 -
 >
-objectsOffset
+hasObjects
+(
 )
 )
 return
