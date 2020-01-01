@@ -460,6 +460,13 @@ gInstance
 =
 this
 ;
+mUserAgent
+.
+SetIsVoid
+(
+PR_TRUE
+)
+;
 #
 ifdef
 XP_MACOSX
@@ -2819,6 +2826,13 @@ GetUserAgent
 {
 if
 (
+mUserAgent
+.
+IsVoid
+(
+)
+&
+&
 !
 CallNPN_UserAgent
 (
