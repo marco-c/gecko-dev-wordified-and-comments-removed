@@ -3695,6 +3695,9 @@ wipe
 (
 )
 ;
+throw
+e
+;
 }
 ret
 .
