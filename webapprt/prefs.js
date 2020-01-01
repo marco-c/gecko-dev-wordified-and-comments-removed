@@ -20,3 +20,17 @@ xul
 "
 )
 ;
+pref
+(
+"
+general
+.
+useragent
+.
+compatMode
+.
+firefox
+"
+true
+)
+;
