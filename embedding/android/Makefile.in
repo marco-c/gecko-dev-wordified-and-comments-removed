@@ -765,6 +765,10 @@ blocklist
 .
 xml
 \
+chrome
+.
+manifest
+\
 (
 NULL
 )
