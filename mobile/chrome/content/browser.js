@@ -6713,13 +6713,6 @@ _hideScrollbars
 (
 )
 ;
-let
-browser
-=
-getBrowser
-(
-)
-;
 browser
 .
 _updateCSSViewport
