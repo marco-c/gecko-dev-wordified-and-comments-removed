@@ -552,6 +552,16 @@ id
 "
 infoContainer
 "
+#
+ifndef
+XP_MACOSX
+pack
+=
+"
+center
+"
+#
+endif
 >
 <
 !
