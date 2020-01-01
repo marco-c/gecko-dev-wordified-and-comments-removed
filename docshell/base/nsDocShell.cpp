@@ -7063,7 +7063,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsDocShell
 :
 :
@@ -7077,7 +7077,6 @@ mTiming
 )
 {
 return
-NS_OK
 ;
 }
 mTiming
@@ -7093,9 +7092,6 @@ mTiming
 NotifyNavigationStart
 (
 )
-;
-return
-NS_OK
 ;
 }
 bool
@@ -25407,11 +25403,6 @@ MaybeInitTiming
 (
 )
 ;
-if
-(
-mTiming
-)
-{
 mTiming
 -
 >
@@ -25424,7 +25415,6 @@ mLoadType
 )
 )
 ;
-}
 }
 if
 (
@@ -27675,17 +27665,10 @@ if
 mContentViewer
 )
 {
-rv
-=
 MaybeInitTiming
 (
 )
 ;
-if
-(
-mTiming
-)
-{
 mTiming
 -
 >
@@ -27693,7 +27676,6 @@ NotifyBeforeUnload
 (
 )
 ;
-}
 bool
 okToUnload
 ;

@@ -1769,7 +1769,7 @@ nsISHEntry
 aEntry
 )
 ;
-nsresult
+void
 MaybeInitTiming
 (
 )
