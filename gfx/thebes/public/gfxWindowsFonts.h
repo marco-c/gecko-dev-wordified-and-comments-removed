@@ -1348,6 +1348,10 @@ const
 gfxFontStyle
 *
 aStyle
+PRBool
+aNeedsBold
+=
+PR_FALSE
 )
 ;
 protected
@@ -1574,6 +1578,12 @@ FontEntry
 >
 *
 list
+nsTArray
+<
+PRPackedBool
+>
+*
+aNeedsBold
 )
 ;
 void
@@ -1752,6 +1762,12 @@ FontEntry
 >
 >
 mFontEntries
+;
+nsTArray
+<
+PRPackedBool
+>
+mFontNeedsBold
 ;
 const
 char
