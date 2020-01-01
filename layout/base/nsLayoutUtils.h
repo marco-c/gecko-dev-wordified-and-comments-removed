@@ -2913,6 +2913,15 @@ IsAnimationLoggingEnabled
 )
 ;
 static
+gfxSize
+GetMaximumAnimatedScale
+(
+nsIContent
+*
+aContent
+)
+;
+static
 bool
 UseBackgroundNearestFiltering
 (
