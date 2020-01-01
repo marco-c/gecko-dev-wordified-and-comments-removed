@@ -9639,6 +9639,12 @@ canHaveHorizontal
 PRBool
 canHaveVertical
 ;
+if
+(
+!
+mIsRoot
+)
+{
 ScrollbarStyles
 styles
 =
@@ -9649,12 +9655,6 @@ GetScrollbarStyles
 (
 )
 ;
-if
-(
-!
-mIsRoot
-)
-{
 canHaveHorizontal
 =
 styles
