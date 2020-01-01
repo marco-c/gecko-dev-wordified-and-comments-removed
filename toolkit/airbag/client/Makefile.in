@@ -812,7 +812,9 @@ e
 "
 s
 /
+%
 APP_NAME
+%
 /
 (
 MOZ_APP_DISPLAYNAME
