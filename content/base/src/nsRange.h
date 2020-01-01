@@ -334,6 +334,15 @@ aEndOffset
 nsINode
 *
 aRoot
+#
+ifdef
+DEBUG
+bool
+aNotInsertedYet
+=
+false
+#
+endif
 )
 ;
 }
