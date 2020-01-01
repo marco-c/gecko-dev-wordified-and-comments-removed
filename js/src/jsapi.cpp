@@ -20974,12 +20974,12 @@ shape
 "
 )
 ;
-obj
--
->
-setPrivate
+JS_ASSERT
 (
 tmp
+=
+=
+pdata
 )
 ;
 }
