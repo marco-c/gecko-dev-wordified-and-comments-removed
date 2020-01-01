@@ -455,6 +455,10 @@ mk
 _TEST_FILES
 =
 \
+test_404
+.
+html
+\
 test_errorPropagation
 .
 html
