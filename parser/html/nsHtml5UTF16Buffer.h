@@ -249,9 +249,4 @@ h
 }
 ;
 #
-ifdef
-nsHtml5UTF16Buffer_cpp__
-#
-endif
-#
 endif

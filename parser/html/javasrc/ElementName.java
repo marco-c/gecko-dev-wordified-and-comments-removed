@@ -116,6 +116,7 @@ static
 ElementName
 elementNameByBuffer
 (
+NoLength
 char
 [
 ]
@@ -235,6 +236,7 @@ static
 int
 bufToHash
 (
+NoLength
 char
 [
 ]

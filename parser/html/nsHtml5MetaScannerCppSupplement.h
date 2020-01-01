@@ -80,6 +80,9 @@ jArray
 PRUnichar
 PRInt32
 >
+:
+:
+newJArray
 (
 36
 )
@@ -102,12 +105,6 @@ nsHtml5MetaScanner
 MOZ_COUNT_DTOR
 (
 nsHtml5MetaScanner
-)
-;
-strBuf
-.
-release
-(
 )
 ;
 }

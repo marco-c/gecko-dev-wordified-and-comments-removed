@@ -257,6 +257,9 @@ jArray
 PRUnichar
 PRInt32
 >
+:
+:
+newJArray
 (
 len
 )
@@ -318,6 +321,9 @@ jArray
 PRUnichar
 PRInt32
 >
+:
+:
+newJArray
 (
 len
 )

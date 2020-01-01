@@ -245,16 +245,6 @@ local
 public
 static
 void
-releaseArray
-(
-Object
-arr
-)
-{
-}
-public
-static
-void
 retainElement
 (
 Object

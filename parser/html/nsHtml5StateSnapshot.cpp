@@ -511,12 +511,6 @@ release
 )
 ;
 }
-stack
-.
-release
-(
-)
-;
 for
 (
 PRInt32
@@ -555,12 +549,6 @@ release
 ;
 }
 }
-listOfActiveFormattingElements
-.
-release
-(
-)
-;
 ;
 }
 void

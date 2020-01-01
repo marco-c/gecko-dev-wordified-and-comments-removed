@@ -329,9 +329,4 @@ releaseStatics
 }
 ;
 #
-ifdef
-nsHtml5StackNode_cpp__
-#
-endif
-#
 endif
