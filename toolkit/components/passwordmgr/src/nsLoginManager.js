@@ -4312,11 +4312,7 @@ passwordField
 =
 pwFields
 [
-pwFields
-.
-length
--
-1
+0
 ]
 .
 element
