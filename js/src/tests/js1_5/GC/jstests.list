@@ -134,6 +134,7 @@ js
 #
 slow
 skip
+script
 regress
 -
 324278
