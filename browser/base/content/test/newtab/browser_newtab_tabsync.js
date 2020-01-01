@@ -265,7 +265,7 @@ modified
 )
 ;
 yield
-simulateExternalDrop
+simulateDrop
 (
 1
 )
@@ -304,8 +304,8 @@ oldSites
 yield
 simulateDrop
 (
-2
 1
+2
 )
 ;
 checkGrid
