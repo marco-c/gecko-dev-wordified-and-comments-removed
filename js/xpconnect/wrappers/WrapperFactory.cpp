@@ -658,7 +658,7 @@ subsumes
 AccessCheck
 :
 :
-subsumes
+subsumesIgnoringDomain
 (
 js
 :

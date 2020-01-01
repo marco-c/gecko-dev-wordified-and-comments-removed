@@ -4843,6 +4843,16 @@ wobj
 newTarget
 )
 ;
+JS_ASSERT
+(
+wobj
+-
+>
+isWrapper
+(
+)
+)
+;
 wcompartment
 -
 >
