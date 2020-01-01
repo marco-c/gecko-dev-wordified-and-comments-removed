@@ -86,9 +86,9 @@ callObjShape_
 (
 NULL
 )
-bindingArray_
+bindingArrayAndFlag_
 (
-NULL
+TEMPORARY_STORAGE_BIT
 )
 numArgs_
 (
@@ -135,7 +135,9 @@ script
 >
 bindings
 .
-bindingArray_
+bindingArray
+(
+)
 )
 p_
 (

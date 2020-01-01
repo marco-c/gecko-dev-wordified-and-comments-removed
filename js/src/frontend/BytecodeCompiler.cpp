@@ -489,7 +489,7 @@ script
 >
 bindings
 .
-init
+initWithTemporaryStorage
 (
 cx
 0
