@@ -1547,6 +1547,10 @@ argc
 bool
 forInProlog
 (
+JSObject
+*
+&
+iterobj
 nanojit
 :
 :
