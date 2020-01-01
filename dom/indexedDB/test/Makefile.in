@@ -249,6 +249,10 @@ test_file_put_get_values
 .
 html
 \
+test_file_replace
+.
+html
+\
 test_file_resurrection_delete
 .
 html
