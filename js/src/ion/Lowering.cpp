@@ -3568,7 +3568,7 @@ lir
 new
 LDoubleToInt32
 (
-use
+useRegister
 (
 opd
 )
