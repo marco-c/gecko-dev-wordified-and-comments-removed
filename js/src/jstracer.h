@@ -2228,6 +2228,10 @@ shapes
 (
 alloc
 )
+visiting
+(
+false
+)
 {
 }
 TreeFragment
@@ -2328,6 +2332,9 @@ execs
 ;
 uintN
 iters
+;
+bool
+visiting
 ;
 inline
 unsigned
