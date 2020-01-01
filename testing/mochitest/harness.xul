@@ -751,6 +751,11 @@ org
 /
 xhtml
 "
+id
+=
+"
+xulharness
+"
 >
 <
 div
