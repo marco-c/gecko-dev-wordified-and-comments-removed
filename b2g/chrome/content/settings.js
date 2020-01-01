@@ -441,7 +441,8 @@ SettingsListener
 observe
 (
 key
-false
+"
+"
 function
 (
 value
@@ -485,10 +486,18 @@ SettingsListener
 observe
 (
 key
-false
+null
 function
 (
 value
+)
+{
+if
+(
+value
+!
+=
+null
 )
 {
 Services
@@ -501,6 +510,7 @@ key
 value
 )
 ;
+}
 }
 )
 ;
