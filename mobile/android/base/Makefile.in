@@ -484,6 +484,10 @@ SQLiteBridgeException
 .
 java
 \
+ReaderModeUtils
+.
+java
+\
 RemoteTabs
 .
 java

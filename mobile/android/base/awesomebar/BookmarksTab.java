@@ -1045,11 +1045,12 @@ FIXED_READING_LIST_ID
 {
 url
 =
-AwesomeBar
+ReaderModeUtils
 .
-getReaderForUrl
+getAboutReaderForUrl
 (
 url
+true
 )
 ;
 }
