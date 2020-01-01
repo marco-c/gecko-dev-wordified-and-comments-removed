@@ -307,6 +307,13 @@ nsImageUpdateFlags_kBitsChanged
 r
 )
 ;
+mImage
+-
+>
+DecodingComplete
+(
+)
+;
 if
 (
 mObserver

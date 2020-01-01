@@ -199,6 +199,13 @@ Close
 (
 )
 {
+mImage
+-
+>
+DecodingComplete
+(
+)
+;
 if
 (
 mObserver
@@ -246,7 +253,7 @@ Flush
 )
 {
 return
-NS_ERROR_NOT_IMPLEMENTED
+NS_OK
 ;
 }
 NS_IMETHODIMP
