@@ -3189,6 +3189,10 @@ MaybePreLoadImage
 nsIURI
 *
 uri
+const
+nsAString
+&
+aCrossOriginAttr
 )
 ;
 virtual
