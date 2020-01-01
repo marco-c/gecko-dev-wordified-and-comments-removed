@@ -361,13 +361,6 @@ kcalleeAreaSize
 =
 80
 ;
-static
-const
-int
-NJ_PAGE_SIZE_SPARC
-=
-8192
-;
 #
 define
 BIT_ROUND_UP
