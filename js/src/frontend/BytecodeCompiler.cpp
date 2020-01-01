@@ -48,13 +48,21 @@ jsinferinlines
 .
 h
 "
+using
 namespace
 js
-{
-Compiler
+;
+using
+namespace
+js
 :
 :
-Compiler
+frontend
+;
+BytecodeCompiler
+:
+:
+BytecodeCompiler
 (
 JSContext
 *
@@ -81,7 +89,7 @@ NULL
 }
 JSScript
 *
-Compiler
+BytecodeCompiler
 :
 :
 compileScript
@@ -124,7 +132,7 @@ staticLevel
 TokenKind
 tt
 ;
-JSParseNode
+ParseNode
 *
 pn
 ;
@@ -151,7 +159,7 @@ TCF_NEED_MUTABLE_SCRIPT
 |
 TCF_COMPILE_FOR_EVAL
 |
-TCF_NEED_SCRIPT_OBJECT
+TCF_NEED_SCRIPT_GLOBAL
 )
 )
 )
@@ -173,7 +181,7 @@ staticLevel
 callerFrame
 )
 ;
-Compiler
+BytecodeCompiler
 compiler
 (
 cx
@@ -214,7 +222,7 @@ parser
 .
 tokenStream
 ;
-JSCodeGenerator
+CodeGenerator
 cg
 (
 &
@@ -234,7 +242,7 @@ cg
 init
 (
 cx
-JSTreeContext
+TreeContext
 :
 :
 USED_AS_TREE_CONTEXT
@@ -466,7 +474,7 @@ isFunctionFrame
 )
 )
 {
-JSObjectBox
+ObjectBox
 *
 funbox
 =
@@ -666,7 +674,7 @@ out
 if
 (
 !
-js_FoldConstants
+FoldConstants
 (
 cx
 pn
@@ -700,7 +708,7 @@ NULL
 if
 (
 !
-js_EmitTree
+EmitTree
 (
 cx
 &
@@ -753,11 +761,11 @@ false
 ;
 #
 endif
-RecycleTree
+cg
+.
+freeTree
 (
 pn
-&
-cg
 )
 ;
 }
@@ -1006,7 +1014,7 @@ slot
 }
 if
 (
-js_Emit1
+Emit1
 (
 cx
 &
@@ -1112,7 +1120,7 @@ out
 ;
 }
 bool
-Compiler
+BytecodeCompiler
 :
 :
 defineGlobals
@@ -1284,9 +1292,6 @@ slot
 )
 ;
 }
-js
-:
-:
 Vector
 <
 JSScript
@@ -1635,7 +1640,7 @@ true
 ;
 }
 bool
-Compiler
+BytecodeCompiler
 :
 :
 compileFunctionBody
@@ -1668,7 +1673,7 @@ JSVersion
 version
 )
 {
-Compiler
+BytecodeCompiler
 compiler
 (
 cx
@@ -1708,7 +1713,7 @@ parser
 .
 tokenStream
 ;
-JSCodeGenerator
+CodeGenerator
 funcg
 (
 &
@@ -1728,7 +1733,7 @@ funcg
 init
 (
 cx
-JSTreeContext
+TreeContext
 :
 :
 USED_AS_TREE_CONTEXT
@@ -1797,7 +1802,7 @@ mungeCurrentToken
 TOK_NAME
 )
 ;
-JSParseNode
+ParseNode
 *
 fn
 =
@@ -1926,7 +1931,7 @@ mungeCurrentToken
 TOK_LC
 )
 ;
-JSParseNode
+ParseNode
 *
 pn
 =
@@ -1991,7 +1996,7 @@ else
 if
 (
 !
-js_FoldConstants
+FoldConstants
 (
 cx
 pn
@@ -2082,7 +2087,7 @@ pn_body
 if
 (
 !
-js_EmitFunctionScript
+EmitFunctionScript
 (
 cx
 &
@@ -2102,5 +2107,4 @@ pn
 =
 NULL
 ;
-}
 }

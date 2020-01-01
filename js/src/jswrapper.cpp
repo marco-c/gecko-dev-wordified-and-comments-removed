@@ -1042,7 +1042,7 @@ wrapper
 )
 -
 >
-setProperty
+setGeneric
 (
 cx
 id
@@ -4657,6 +4657,9 @@ ret
 }
 template
 class
+js
+:
+:
 SecurityWrapper
 <
 Wrapper
@@ -4664,6 +4667,9 @@ Wrapper
 ;
 template
 class
+js
+:
+:
 SecurityWrapper
 <
 CrossCompartmentWrapper

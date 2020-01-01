@@ -11,6 +11,13 @@ jsinferinlines
 .
 h
 "
+#
+include
+"
+jsobjinlines
+.
+h
+"
 inline
 void
 JSObject
