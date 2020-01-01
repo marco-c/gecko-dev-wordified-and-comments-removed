@@ -4258,16 +4258,8 @@ position
 =
 0
 )
-{
-mBookmarksAdapter
-.
-moveToParentFolder
-(
-)
-;
 return
 ;
-}
 Cursor
 cursor
 =
