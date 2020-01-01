@@ -15425,6 +15425,14 @@ RC
 "
 echo
 "
+MC
+=
+(
+MC
+)
+"
+echo
+"
 CFLAGS
 =
 (
