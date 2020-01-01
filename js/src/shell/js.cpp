@@ -10504,7 +10504,7 @@ fun
 obj
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 ;
@@ -12980,7 +12980,7 @@ callee
 (
 )
 .
-getFunctionPrivate
+toFunction
 (
 )
 -
@@ -14485,7 +14485,7 @@ fun
 funobj
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 ;

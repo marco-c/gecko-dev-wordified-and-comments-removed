@@ -11605,7 +11605,7 @@ rdata
 lambda
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 ;

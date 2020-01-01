@@ -4853,7 +4853,7 @@ fun
 obj
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 ;
@@ -12208,7 +12208,7 @@ funbox
 object
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 -

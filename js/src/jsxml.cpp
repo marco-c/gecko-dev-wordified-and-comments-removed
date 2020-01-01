@@ -26412,7 +26412,7 @@ vp
 )
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 ;

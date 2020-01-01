@@ -294,10 +294,6 @@ f
 struct
 UncachedCallResult
 {
-JSObject
-*
-callee
-;
 JSFunction
 *
 fun
@@ -314,10 +310,6 @@ init
 (
 )
 {
-callee
-=
-NULL
-;
 fun
 =
 NULL

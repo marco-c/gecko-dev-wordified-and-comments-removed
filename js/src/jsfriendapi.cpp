@@ -158,7 +158,7 @@ return
 obj
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 ;

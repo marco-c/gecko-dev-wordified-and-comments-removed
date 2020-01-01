@@ -1665,7 +1665,7 @@ f
 :
 obj
 =
-js_ValueToFunctionObject
+js_ValueToFunction
 (
 cx
 sp
@@ -1700,7 +1700,7 @@ JSFunction
 obj
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 ;
@@ -2137,7 +2137,7 @@ v
 ;
 obj
 =
-js_ValueToFunctionObject
+js_ValueToFunction
 (
 cx
 vp
@@ -11049,7 +11049,7 @@ fun
 obj
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 ;
@@ -14380,18 +14380,12 @@ return
 NULL
 ;
 }
-JSObject
-*
-funobj
-;
 if
 (
 !
 IsFunctionObject
 (
 cval
-&
-funobj
 )
 )
 {
@@ -21075,7 +21069,7 @@ fun
 funobj
 -
 >
-getFunctionPrivate
+toFunction
 (
 )
 ;
