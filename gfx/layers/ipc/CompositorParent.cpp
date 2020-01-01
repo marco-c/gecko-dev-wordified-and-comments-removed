@@ -3935,15 +3935,6 @@ data
 mController
 ;
 }
-else
-{
-controller
-=
-GetDefaultPanZoomController
-(
-)
-;
-}
 if
 (
 controller

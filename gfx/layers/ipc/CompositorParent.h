@@ -549,17 +549,6 @@ int
 height
 )
 ;
-virtual
-AsyncPanZoomController
-*
-GetDefaultPanZoomController
-(
-)
-{
-return
-nullptr
-;
-}
 private
 :
 void
