@@ -647,6 +647,11 @@ modname
 accesskey
 ;
 "
+control
+=
+"
+device_name
+"
 /
 >
 <
@@ -707,6 +712,11 @@ filename
 .
 accesskey
 ;
+"
+control
+=
+"
+device_path
 "
 /
 >
