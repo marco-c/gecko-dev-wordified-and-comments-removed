@@ -697,16 +697,6 @@ mFrameRect
 }
 #
 endif
-mImage
--
->
-EndFrameDecode
-(
-numFrames
--
-1
-)
-;
 PostFrameStop
 (
 )
