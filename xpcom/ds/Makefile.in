@@ -594,10 +594,6 @@ nsCRT
 .
 h
 \
-nsDoubleHashtable
-.
-h
-\
 nsExpirationTracker
 .
 h
