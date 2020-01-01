@@ -212,11 +212,6 @@ xul
 "
 ;
 const
-CRC_ERROR
-=
-4
-;
-const
 ADDON_ID_SUFFIX
 =
 "

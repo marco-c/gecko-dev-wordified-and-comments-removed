@@ -342,6 +342,16 @@ failed
 "
 ;
 const
+CRC_ERROR
+=
+4
+;
+const
+WRITE_ERROR
+=
+7
+;
+const
 FILE_BACKUP_LOG
 =
 "
