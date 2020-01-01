@@ -506,3 +506,9 @@ return
 promise
 ;
 }
+module
+.
+exports
+=
+{
+}
