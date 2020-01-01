@@ -324,9 +324,11 @@ android
 background
 =
 "
+android
+:
 color
 /
-background_normal
+white
 "
 android
 :
