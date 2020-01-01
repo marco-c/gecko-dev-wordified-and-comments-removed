@@ -20205,14 +20205,9 @@ entryResumePoint
 )
 -
 >
-replaceOperand
+discardOperand
 (
 funIndex
-callInfo
-.
-fun
-(
-)
 )
 ;
 inlineBlock
