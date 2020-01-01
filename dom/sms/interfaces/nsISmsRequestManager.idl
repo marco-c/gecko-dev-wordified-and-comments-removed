@@ -70,10 +70,7 @@ interface
 nsIDOMMozSmsRequest
 ;
 interface
-nsPIDOMWindow
-;
-interface
-nsIScriptContext
+nsIDOMMozSmsManager
 ;
 %
 {
@@ -233,11 +230,8 @@ long
 createRequest
 (
 in
-nsPIDOMWindow
-aWindow
-in
-nsIScriptContext
-aScriptContext
+nsIDOMMozSmsManager
+aManager
 out
 nsIDOMMozSmsRequest
 aRequest

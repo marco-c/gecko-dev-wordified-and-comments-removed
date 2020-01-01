@@ -202,7 +202,9 @@ GetOwnerDocument
 if
 (
 !
-mOwner
+GetOwner
+(
+)
 )
 {
 return
@@ -217,7 +219,9 @@ doc
 =
 do_QueryInterface
 (
-mOwner
+GetOwner
+(
+)
 -
 >
 GetExtantDocument
