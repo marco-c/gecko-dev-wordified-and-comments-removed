@@ -8184,7 +8184,7 @@ toolkit
 /
 themes
 /
-winstripe
+windows
 /
 help
 /
