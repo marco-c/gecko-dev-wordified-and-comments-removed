@@ -134,14 +134,7 @@ color
 3
 ]
 =
-(
-float
-)
-(
-mColor
-.
-a
-)
+opacity
 ;
 const
 gfx3DMatrix
