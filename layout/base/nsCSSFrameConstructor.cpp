@@ -13905,11 +13905,6 @@ NS_NewHTMLVideoFrame
 endif
 SIMPLE_TAG_CREATE
 (
-isindex
-NS_NewIsIndexFrame
-)
-SIMPLE_TAG_CREATE
-(
 progress
 NS_NewProgressFrame
 )

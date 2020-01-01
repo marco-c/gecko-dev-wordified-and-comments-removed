@@ -523,10 +523,6 @@ nsListControlFrame
 .
 cpp
 \
-nsIsIndexFrame
-.
-cpp
-\
 nsSelectsAreaFrame
 .
 cpp
