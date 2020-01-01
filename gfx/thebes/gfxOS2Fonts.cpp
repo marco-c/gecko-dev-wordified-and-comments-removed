@@ -2082,7 +2082,7 @@ fcMatch
 =
 FcFontMatch
 (
-NULL
+nullptr
 fcPattern
 &
 fcRes
@@ -2173,7 +2173,7 @@ fcMatch
 =
 FcFontMatch
 (
-NULL
+nullptr
 fcPattern
 &
 fcRes

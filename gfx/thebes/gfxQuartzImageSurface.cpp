@@ -45,7 +45,7 @@ CairoSurface
 )
 =
 =
-NULL
+nullptr
 )
 return
 ;

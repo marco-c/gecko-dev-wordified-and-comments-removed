@@ -148,7 +148,7 @@ if
 sDefaultFeaturesDescriptor
 =
 =
-NULL
+nullptr
 )
 {
 CreateDefaultFeaturesDescriptor

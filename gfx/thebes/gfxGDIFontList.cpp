@@ -1032,7 +1032,7 @@ swapToBigEndian
 aTableTag
 )
 0
-NULL
+nullptr
 0
 )
 ;
@@ -1462,7 +1462,7 @@ else
 SCRIPT_CACHE
 sc
 =
-NULL
+nullptr
 ;
 HRESULT
 rv
@@ -1498,7 +1498,7 @@ oldFont
 ;
 ReleaseDC
 (
-NULL
+nullptr
 dc
 )
 ;
@@ -2809,7 +2809,7 @@ i
 aliasName
 &
 lenAlias
-NULL
+nullptr
 &
 valueType
 (

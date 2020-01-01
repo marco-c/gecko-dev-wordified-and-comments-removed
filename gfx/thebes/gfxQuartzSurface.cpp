@@ -57,7 +57,7 @@ aForPrinting
 :
 mCGContext
 (
-NULL
+nullptr
 )
 mSize
 (

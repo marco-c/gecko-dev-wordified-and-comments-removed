@@ -166,7 +166,7 @@ NS_PRECONDITION
 aMetrics
 !
 =
-NULL
+nullptr
 "
 aMetrics
 must
@@ -181,7 +181,7 @@ NS_PRECONDITION
 aSpaceGlyph
 !
 =
-NULL
+nullptr
 "
 aSpaceGlyph
 must
@@ -1664,7 +1664,7 @@ NS_PRECONDITION
 aExtents
 !
 =
-NULL
+nullptr
 "
 aExtents
 must

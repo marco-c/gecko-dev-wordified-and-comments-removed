@@ -166,8 +166,8 @@ CurrentSurface
 return
 CurrentSurface
 (
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }

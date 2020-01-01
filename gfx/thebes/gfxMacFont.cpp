@@ -252,7 +252,7 @@ needsOblique
 mFontEntry
 !
 =
-NULL
+nullptr
 )
 &
 &
@@ -1786,8 +1786,8 @@ CTFontCreateWithGraphicsFont
 (
 mCGFont
 mAdjustedSize
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if

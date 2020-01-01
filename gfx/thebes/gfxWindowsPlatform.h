@@ -164,7 +164,7 @@ aContext
 {
 dc
 =
-NULL
+nullptr
 ;
 nsRefPtr
 <
@@ -285,7 +285,7 @@ dc
 =
 GetDC
 (
-NULL
+nullptr
 )
 ;
 SetGraphicsMode
@@ -312,7 +312,7 @@ needsRelease
 {
 ReleaseDC
 (
-NULL
+nullptr
 dc
 )
 ;

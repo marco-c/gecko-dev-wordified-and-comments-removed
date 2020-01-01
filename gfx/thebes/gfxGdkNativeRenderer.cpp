@@ -254,7 +254,7 @@ numClipRects
 &
 clipRect
 :
-NULL
+nullptr
 numClipRects
 )
 ;

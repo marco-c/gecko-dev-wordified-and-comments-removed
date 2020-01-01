@@ -57,7 +57,7 @@ aPattern
 :
 mGfxPattern
 (
-NULL
+nullptr
 )
 {
 mPattern
@@ -81,7 +81,7 @@ aColor
 :
 mGfxPattern
 (
-NULL
+nullptr
 )
 {
 mPattern
@@ -115,7 +115,7 @@ surface
 :
 mGfxPattern
 (
-NULL
+nullptr
 )
 {
 mPattern
@@ -148,7 +148,7 @@ y1
 :
 mGfxPattern
 (
-NULL
+nullptr
 )
 {
 mPattern
@@ -183,7 +183,7 @@ radius1
 :
 mGfxPattern
 (
-NULL
+nullptr
 )
 {
 mPattern
@@ -215,11 +215,11 @@ aTransform
 :
 mPattern
 (
-NULL
+nullptr
 )
 mGfxPattern
 (
-NULL
+nullptr
 )
 mSourceSurface
 (
@@ -297,7 +297,7 @@ mPattern
 {
 mStops
 =
-NULL
+nullptr
 ;
 if
 (
@@ -754,7 +754,7 @@ cairo_surface_t
 *
 surf
 =
-NULL
+nullptr
 ;
 cairo_pattern_get_surface
 (
@@ -1404,7 +1404,7 @@ mPattern
 {
 mStops
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1429,7 +1429,7 @@ cairo_surface_t
 *
 surf
 =
-NULL
+nullptr
 ;
 cairo_pattern_get_surface
 (
@@ -1539,7 +1539,7 @@ cairo_surface_t
 *
 surf
 =
-NULL
+nullptr
 ;
 cairo_pattern_get_surface
 (

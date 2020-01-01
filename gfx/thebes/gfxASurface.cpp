@@ -424,7 +424,7 @@ if
 csurf
 )
 return
-NULL
+nullptr
 ;
 return
 (
@@ -1108,7 +1108,7 @@ if
 mSurfaceValid
 )
 return
-NULL
+nullptr
 ;
 return
 cairo_surface_get_user_data

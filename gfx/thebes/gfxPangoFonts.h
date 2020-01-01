@@ -198,7 +198,7 @@ PangoLanguage
 *
 aLang
 =
-NULL
+nullptr
 )
 ;
 class
@@ -274,7 +274,7 @@ FcPattern
 *
 aMatchPattern
 =
-NULL
+nullptr
 )
 ;
 gfxFcFontSet

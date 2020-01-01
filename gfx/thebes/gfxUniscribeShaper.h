@@ -62,7 +62,7 @@ aFont
 )
 mScriptCache
 (
-NULL
+nullptr
 )
 {
 MOZ_COUNT_CTOR

@@ -331,7 +331,7 @@ FcCharSet
 *
 charset
 =
-NULL
+nullptr
 ;
 FcPatternGetCharSet
 (
@@ -680,7 +680,7 @@ mFontFace
 &
 sFontEntryKey
 this
-NULL
+nullptr
 )
 ;
 mPatterns
@@ -739,8 +739,8 @@ cairo_font_face_set_user_data
 mFontFace
 &
 sFontEntryKey
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 cairo_font_face_destroy
@@ -1558,7 +1558,7 @@ NS_PRECONDITION
 aFace
 !
 =
-NULL
+nullptr
 "
 aFace
 is
@@ -1907,7 +1907,7 @@ ToFcChar8
 "
 )
 0
-NULL
+nullptr
 )
 ;
 if
@@ -1941,7 +1941,7 @@ charset
 FcFreeTypeCharSet
 (
 mFace
-NULL
+nullptr
 )
 )
 ;
@@ -2400,7 +2400,7 @@ if
 fontPattern
 )
 return
-NULL
+nullptr
 ;
 mFonts
 [
@@ -3638,7 +3638,7 @@ FcPattern
 *
 truncateMarker
 =
-NULL
+nullptr
 ;
 for
 (
@@ -3846,7 +3846,7 @@ sets
 1
 mSortPattern
 FcFalse
-NULL
+nullptr
 &
 result
 )
@@ -3860,12 +3860,12 @@ own
 (
 FcFontSetSort
 (
-NULL
+nullptr
 sets
 1
 mSortPattern
 FcFalse
-NULL
+nullptr
 &
 result
 )
@@ -3878,7 +3878,7 @@ if
 truncateMarker
 !
 =
-NULL
+nullptr
 &
 &
 fontSet
@@ -3989,10 +3989,10 @@ FcFontSet
 (
 FcFontSort
 (
-NULL
+nullptr
 mSortPattern
 FcFalse
-NULL
+nullptr
 &
 result
 )
@@ -4130,7 +4130,7 @@ FcCharSet
 *
 newChars
 =
-NULL
+nullptr
 ;
 FcPatternGetCharSet
 (
@@ -4268,7 +4268,7 @@ aIsPrinterFont
 {
 FcConfigSubstitute
 (
-NULL
+nullptr
 aPattern
 FcMatchPattern
 )
@@ -5413,7 +5413,7 @@ FcPattern
 *
 basePattern
 =
-NULL
+nullptr
 ;
 if
 (
@@ -5701,7 +5701,7 @@ mScaledFont
 &
 sGfxFontKey
 this
-NULL
+nullptr
 )
 ;
 }
@@ -5718,8 +5718,8 @@ cairo_scaled_font_set_user_data
 mScaledFont
 &
 sGfxFontKey
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -5896,7 +5896,7 @@ Shutdown
 {
 gFTLibrary
 =
-NULL
+nullptr
 ;
 }
 gfxFontEntry
@@ -5975,7 +5975,7 @@ fullname
 ;
 FcConfigSubstitute
 (
-NULL
+nullptr
 pattern
 FcMatchPattern
 )
@@ -6107,7 +6107,7 @@ if
 font
 )
 return
-NULL
+nullptr
 ;
 gfxFT2LockedFace
 face
@@ -6125,7 +6125,7 @@ get
 )
 )
 return
-NULL
+nullptr
 ;
 gFTLibrary
 =
@@ -6288,7 +6288,7 @@ renderPattern
 (
 FcFontRenderPrepare
 (
-NULL
+nullptr
 aRequestedPattern
 aFontPattern
 )
@@ -7362,7 +7362,7 @@ if
 aLanguage
 )
 return
-NULL
+nullptr
 ;
 nsAutoCString
 lang
@@ -7386,7 +7386,7 @@ IsEmpty
 )
 )
 return
-NULL
+nullptr
 ;
 return
 pango_language_from_string

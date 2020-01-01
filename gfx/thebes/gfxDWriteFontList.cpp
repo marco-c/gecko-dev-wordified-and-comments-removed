@@ -1284,7 +1284,7 @@ swapToBigEndian
 aTableTag
 )
 0
-NULL
+nullptr
 0
 )
 ;
@@ -1388,7 +1388,7 @@ void
 *
 tableContext
 =
-NULL
+nullptr
 ;
 BOOL
 exists
@@ -2137,7 +2137,7 @@ GetFiles
 (
 &
 numberOfFiles
-NULL
+nullptr
 )
 )
 )
@@ -3273,8 +3273,8 @@ GetTimeFormat
 (
 LOCALE_INVARIANT
 TIME_FORCE24HOURFORMAT
-NULL
-NULL
+nullptr
+nullptr
 nowTime
 256
 )
@@ -3283,8 +3283,8 @@ GetDateFormat
 (
 LOCALE_INVARIANT
 0
-NULL
-NULL
+nullptr
+nullptr
 nowDate
 256
 )
@@ -3744,8 +3744,8 @@ GetTimeFormat
 (
 LOCALE_INVARIANT
 TIME_FORCE24HOURFORMAT
-NULL
-NULL
+nullptr
+nullptr
 nowTime
 256
 )
@@ -3754,8 +3754,8 @@ GetDateFormat
 (
 LOCALE_INVARIANT
 0
-NULL
-NULL
+nullptr
+nullptr
 nowDate
 256
 )
@@ -5235,7 +5235,7 @@ i
 aliasName
 &
 lenAlias
-NULL
+nullptr
 &
 valueType
 (
@@ -6420,7 +6420,7 @@ L
 "
 Arial
 "
-NULL
+nullptr
 DWRITE_FONT_WEIGHT_REGULAR
 DWRITE_FONT_STYLE_NORMAL
 DWRITE_FONT_STRETCH_NORMAL
@@ -6587,7 +6587,7 @@ fallbackLayout
 >
 Draw
 (
-NULL
+nullptr
 mFallbackRenderer
 50
 .

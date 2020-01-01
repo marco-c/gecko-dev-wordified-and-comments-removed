@@ -196,7 +196,7 @@ gfxIntSize
 ;
 mData
 =
-NULL
+nullptr
 ;
 mStride
 =

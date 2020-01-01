@@ -2575,7 +2575,7 @@ HashMatchEntry
 MoveEntry
 PL_DHashClearEntryStub
 PL_DHashFinalizeStub
-NULL
+nullptr
 }
 ;
 if
@@ -2900,7 +2900,7 @@ timestamp
 strtoul
 (
 beginning
-NULL
+nullptr
 10
 )
 ;
@@ -2935,7 +2935,7 @@ filesize
 strtoul
 (
 beginning
-NULL
+nullptr
 10
 )
 ;
@@ -3759,7 +3759,7 @@ index
 strtoul
 (
 beginning
-NULL
+nullptr
 10
 )
 ;
@@ -3830,7 +3830,7 @@ weight
 strtoul
 (
 beginning
-NULL
+nullptr
 10
 )
 ;
@@ -3864,7 +3864,7 @@ stretch
 strtol
 (
 beginning
-NULL
+nullptr
 10
 )
 ;
@@ -5671,7 +5671,7 @@ FindExInfoStandard
 &
 results
 FindExSearchNameMatch
-NULL
+nullptr
 0
 )
 ;
@@ -6297,7 +6297,7 @@ dirent
 *
 ent
 =
-NULL
+nullptr
 ;
 while
 (
@@ -6311,7 +6311,7 @@ d
 )
 !
 =
-NULL
+nullptr
 )
 {
 int
