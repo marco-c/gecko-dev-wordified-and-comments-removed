@@ -1152,6 +1152,13 @@ sync
 /
 setup
 /
+SyncAccounts
+.
+java
+sync
+/
+setup
+/
 SyncAuthenticatorService
 .
 java
