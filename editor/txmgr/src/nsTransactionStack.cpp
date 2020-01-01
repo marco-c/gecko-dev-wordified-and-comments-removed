@@ -391,8 +391,7 @@ cb
 NoteNativeChild
 (
 item
-&
-NS_CYCLE_COLLECTION_NAME
+NS_CYCLE_COLLECTION_PARTICIPANT
 (
 nsTransactionItem
 )
