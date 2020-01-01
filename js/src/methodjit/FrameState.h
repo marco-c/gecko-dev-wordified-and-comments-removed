@@ -276,6 +276,16 @@ tag
 ;
 inline
 void
+pushSynced
+(
+JSValueMask32
+tag
+RegisterID
+reg
+)
+;
+inline
+void
 push
 (
 const
