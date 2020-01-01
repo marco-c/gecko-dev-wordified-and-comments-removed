@@ -313,6 +313,12 @@ child
 itemId
 ;
 }
+tags
+.
+containerOpen
+=
+false
+;
 _
 (
 "
