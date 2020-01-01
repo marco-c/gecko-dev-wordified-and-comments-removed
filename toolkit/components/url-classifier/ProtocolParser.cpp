@@ -332,11 +332,17 @@ Init
 nsICryptoHash
 *
 aHasher
+bool
+aPerClientRandomize
 )
 {
 mCryptoHash
 =
 aHasher
+;
+mPerClientRandomize
+=
+aPerClientRandomize
 ;
 return
 NS_OK
@@ -2229,6 +2235,8 @@ ToUint32
 mHashKey
 &
 codedHash
+!
+mPerClientRandomize
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2480,6 +2488,8 @@ ToUint32
 mHashKey
 &
 codedHash
+!
+mPerClientRandomize
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2866,6 +2876,8 @@ domHash
 mHashKey
 &
 codedHash
+!
+mPerClientRandomize
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2987,6 +2999,8 @@ ToUint32
 mHashKey
 &
 codedHash
+!
+mPerClientRandomize
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3181,6 +3195,8 @@ domHash
 mHashKey
 &
 codedHash
+!
+mPerClientRandomize
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3372,6 +3388,8 @@ domHash
 mHashKey
 &
 codedHash
+!
+mPerClientRandomize
 )
 ;
 NS_ENSURE_SUCCESS

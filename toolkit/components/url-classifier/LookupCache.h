@@ -290,6 +290,8 @@ aKey
 PRUint32
 *
 aOut
+bool
+aPassthrough
 )
 ;
 LookupCache
@@ -301,6 +303,8 @@ aTableName
 nsIFile
 *
 aStoreFile
+bool
+aPerClientRandomize
 )
 ;
 ~
@@ -466,6 +470,9 @@ mHeader
 ;
 bool
 mPrimed
+;
+bool
+mPerClientRandomize
 ;
 nsCString
 mTableName

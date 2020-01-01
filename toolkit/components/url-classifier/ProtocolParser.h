@@ -70,6 +70,8 @@ Init
 nsICryptoHash
 *
 aHasher
+bool
+mPerClientRandomize
 )
 ;
 nsresult
@@ -410,6 +412,9 @@ mChunkState
 ;
 PRUint32
 mHashKey
+;
+bool
+mPerClientRandomize
 ;
 nsCOMPtr
 <

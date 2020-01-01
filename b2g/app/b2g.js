@@ -2972,6 +2972,16 @@ pref
 "
 urlclassifier
 .
+randomizeclient
+"
+true
+)
+;
+pref
+(
+"
+urlclassifier
+.
 gethashtables
 "
 "

@@ -278,6 +278,9 @@ bool
 mCheckPhishing
 ;
 bool
+mPerClientRandomize
+;
+bool
 mInUpdate
 ;
 nsTArray
