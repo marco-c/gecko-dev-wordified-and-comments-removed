@@ -24656,7 +24656,7 @@ if
 oldproto
 -
 >
-setUncacheableProto
+protoShapeChange
 (
 cx
 )

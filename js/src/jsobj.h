@@ -1873,9 +1873,8 @@ hasUncacheableProto
 )
 const
 ;
-inline
 bool
-setUncacheableProto
+protoShapeChange
 (
 JSContext
 *
