@@ -385,15 +385,6 @@ GetTargetFromFrame
 (
 )
 ;
-nsresult
-ReportWrongPropertyAccessWarning
-(
-const
-char
-*
-aPropertyName
-)
-;
 nsEvent
 *
 mEvent
