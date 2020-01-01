@@ -707,10 +707,6 @@ BlockingResourceBase
 .
 h
 \
-COMPtrAndFlag
-.
-h
-\
 CondVar
 .
 h
