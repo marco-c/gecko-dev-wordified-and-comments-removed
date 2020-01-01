@@ -18112,6 +18112,9 @@ STRIP
 echo
 not_strip
 '
+PKG_SKIP_STRIP
+=
+1
 XARGS
 =
 xargs
