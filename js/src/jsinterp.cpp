@@ -11982,6 +11982,10 @@ if
 ToIdOperation
 (
 cx
+script
+regs
+.
+pc
 objval
 idval
 res
