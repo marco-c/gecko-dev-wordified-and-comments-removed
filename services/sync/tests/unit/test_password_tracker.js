@@ -519,6 +519,14 @@ resetScore
 (
 )
 ;
+tracker
+.
+_lazySave
+.
+clear
+(
+)
+;
 Svc
 .
 Obs
