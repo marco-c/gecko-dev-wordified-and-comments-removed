@@ -2643,6 +2643,9 @@ const
 nsFrameConstructorState
 &
 aState
+nsIFrame
+*
+aRootElementFrame
 )
 ;
 nsIFrame
