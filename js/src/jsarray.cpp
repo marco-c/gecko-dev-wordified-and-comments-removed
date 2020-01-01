@@ -14688,9 +14688,10 @@ callable
 return
 false
 ;
-Value
+RootedValue
 thisv
-=
+(
+cx
 args
 .
 length
@@ -14707,6 +14708,7 @@ args
 :
 UndefinedValue
 (
+)
 )
 ;
 uint32_t
@@ -15134,9 +15136,10 @@ callable
 return
 false
 ;
-Value
+RootedValue
 thisv
-=
+(
+cx
 args
 .
 length
@@ -15153,6 +15156,7 @@ args
 :
 UndefinedValue
 (
+)
 )
 ;
 RootedObject
@@ -15519,9 +15523,10 @@ callable
 return
 false
 ;
-Value
+RootedValue
 thisv
-=
+(
+cx
 args
 .
 length
@@ -15538,6 +15543,7 @@ args
 :
 UndefinedValue
 (
+)
 )
 ;
 RootedObject

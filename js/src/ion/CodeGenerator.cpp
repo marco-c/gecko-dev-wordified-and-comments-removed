@@ -18967,8 +18967,7 @@ pf
 JSContext
 *
 HandleValue
-PropertyName
-*
+HandlePropertyName
 MutableHandleValue
 )
 ;
