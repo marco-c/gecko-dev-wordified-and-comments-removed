@@ -4113,3 +4113,14 @@ padding_xlarge
 ;
 }
 }
+notification
+>
+button
+{
+margin
+-
+bottom
+:
+margin_normal
+;
+}
