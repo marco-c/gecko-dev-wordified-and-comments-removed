@@ -6235,8 +6235,15 @@ JSPROP_SHARED
 )
 )
 ;
-JS_ASSERT
+JS_ASSERT_IF
 (
+getter
+!
+=
+sprop
+-
+>
+getter
 !
 sprop
 -
