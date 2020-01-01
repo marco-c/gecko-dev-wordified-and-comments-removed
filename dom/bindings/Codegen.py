@@ -69998,22 +69998,12 @@ self
 .
 root
 =
-CGWrapper
+CGIncludeGuard
 (
+interfaceName
 self
 .
 root
-declarePre
-=
-"
-#
-pragma
-once
-\
-n
-\
-n
-"
 )
         
 self
