@@ -457,14 +457,7 @@ ww
 =
 SpecialPowers
 .
-wrap
-(
-SpecialPowers
-.
-Components
-)
-.
-classes
+Cc
 [
 "
 mozilla
