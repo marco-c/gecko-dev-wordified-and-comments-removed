@@ -520,7 +520,7 @@ background
 "
 drawable
 /
-address_bar_url_default
+address_bar_url
 "
 android
 :
@@ -604,7 +604,7 @@ android
 layout_height
 =
 "
-38dip
+40dip
 "
 android
 :
