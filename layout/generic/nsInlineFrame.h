@@ -261,6 +261,12 @@ CanContinueTextRun
 )
 const
 ;
+virtual
+void
+PullOverflowsFromPrevInFlow
+(
+)
+;
 void
 StealAllFrames
 (
@@ -550,6 +556,12 @@ aReflowState
 nsReflowStatus
 &
 aStatus
+)
+;
+virtual
+void
+PullOverflowsFromPrevInFlow
+(
 )
 ;
 void

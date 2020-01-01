@@ -4422,6 +4422,13 @@ GetLineIterator
 =
 0
 ;
+virtual
+void
+PullOverflowsFromPrevInFlow
+(
+)
+{
+}
 protected
 :
 nsRect

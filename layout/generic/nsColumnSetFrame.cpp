@@ -3992,6 +3992,15 @@ nsReflowStatus
 aStatus
 )
 {
+nsPresContext
+:
+:
+InterruptPreventer
+noInterrupts
+(
+aPresContext
+)
+;
 DO_GLOBAL_REFLOW_COUNT
 (
 "
