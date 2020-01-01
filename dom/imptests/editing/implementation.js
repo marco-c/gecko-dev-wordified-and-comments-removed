@@ -2192,6 +2192,9 @@ return
 false
 ;
 }
+var
+ret
+=
 commands
 [
 command
@@ -2202,6 +2205,53 @@ action
 value
 )
 ;
+if
+(
+ret
+!
+=
+=
+true
+&
+&
+ret
+!
+=
+=
+false
+)
+{
+throw
+"
+execCommand
+(
+)
+didn
+'
+t
+return
+true
+or
+false
+:
+"
++
+ret
+;
+}
+if
+(
+ret
+=
+=
+=
+false
+)
+{
+return
+false
+;
+}
 return
 true
 ;
@@ -13998,6 +14048,7 @@ transparent
 )
 {
 return
+false
 ;
 }
 setSelectionValue
@@ -14007,6 +14058,9 @@ backcolor
 "
 value
 )
+;
+return
+true
 ;
 }
 standardInlineValueCommand
@@ -14086,6 +14140,9 @@ bold
 )
 ;
 }
+return
+true
+;
 }
 inlineCommandActivatedValues
 :
@@ -14223,6 +14280,7 @@ value
 )
 {
 return
+false
 ;
 }
 getAllEffectivelyContainedNodes
@@ -14303,6 +14361,9 @@ createlink
 value
 )
 ;
+return
+true
+;
 }
 }
 ;
@@ -14325,6 +14386,9 @@ fontname
 "
 value
 )
+;
+return
+true
 ;
 }
 standardInlineValueCommand
@@ -14635,6 +14699,7 @@ null
 )
 {
 return
+false
 ;
 }
 setSelectionValue
@@ -14644,6 +14709,9 @@ fontsize
 "
 value
 )
+;
+return
+true
 ;
 }
 indeterm
@@ -15272,6 +15340,7 @@ transparent
 )
 {
 return
+false
 ;
 }
 setSelectionValue
@@ -15281,6 +15350,9 @@ forecolor
 "
 value
 )
+;
+return
+true
 ;
 }
 standardInlineValueCommand
@@ -15412,6 +15484,7 @@ transparent
 )
 {
 return
+false
 ;
 }
 setSelectionValue
@@ -15421,6 +15494,9 @@ hilitecolor
 "
 value
 )
+;
+return
+true
 ;
 }
 indeterm
@@ -15591,6 +15667,9 @@ italic
 )
 ;
 }
+return
+true
+;
 }
 inlineCommandActivatedValues
 :
@@ -16168,6 +16247,9 @@ null
 }
 )
 ;
+return
+true
+;
 }
 }
 ;
@@ -16216,6 +16298,9 @@ through
 )
 ;
 }
+return
+true
+;
 }
 inlineCommandActivatedValues
 :
@@ -16274,6 +16359,9 @@ subscript
 )
 ;
 }
+return
+true
+;
 }
 indeterm
 :
@@ -16428,6 +16516,9 @@ superscript
 )
 ;
 }
+return
+true
+;
 }
 indeterm
 :
@@ -16579,6 +16670,9 @@ underline
 )
 ;
 }
+return
+true
+;
 }
 inlineCommandActivatedValues
 :
@@ -16774,6 +16868,9 @@ unlink
 )
 ;
 }
+return
+true
+;
 }
 }
 ;
@@ -26747,6 +26844,7 @@ deleteSelection
 )
 ;
 return
+true
 ;
 }
 canonicalizeWhitespace
@@ -26990,6 +27088,7 @@ offset
 )
 ;
 return
+true
 ;
 }
 else
@@ -27195,6 +27294,7 @@ deleteSelection
 )
 ;
 return
+true
 ;
 }
 if
@@ -27206,6 +27306,7 @@ node
 )
 {
 return
+true
 ;
 }
 if
@@ -27398,6 +27499,7 @@ node
 )
 ;
 return
+true
 ;
 }
 var
@@ -27639,6 +27741,7 @@ i
 ;
 }
 return
+true
 ;
 }
 if
@@ -27658,6 +27761,7 @@ table
 )
 {
 return
+true
 ;
 }
 if
@@ -27742,6 +27846,7 @@ startOffset
 )
 ;
 return
+true
 ;
 }
 if
@@ -27902,6 +28007,7 @@ true
 )
 ;
 return
+true
 ;
 }
 if
@@ -28208,6 +28314,7 @@ pop
 )
 ;
 return
+true
 ;
 }
 while
@@ -28351,6 +28458,9 @@ backward
 }
 )
 ;
+return
+true
+;
 }
 }
 ;
@@ -28462,6 +28572,7 @@ value
 )
 {
 return
+false
 ;
 }
 var
@@ -28851,6 +28962,9 @@ value
 )
 ;
 }
+return
+true
+;
 }
 indeterm
 :
@@ -29254,6 +29368,7 @@ deleteSelection
 )
 ;
 return
+true
 ;
 }
 canonicalizeWhitespace
@@ -29616,6 +29731,7 @@ deleteSelection
 )
 ;
 return
+true
 ;
 }
 if
@@ -29627,6 +29743,7 @@ node
 )
 {
 return
+true
 ;
 }
 if
@@ -29723,6 +29840,7 @@ deleteSelection
 )
 ;
 return
+true
 ;
 }
 var
@@ -29866,6 +29984,7 @@ table
 )
 {
 return
+true
 ;
 }
 if
@@ -29929,6 +30048,7 @@ endOffset
 )
 ;
 return
+true
 ;
 }
 if
@@ -30039,6 +30159,7 @@ true
 )
 ;
 return
+true
 ;
 }
 while
@@ -30149,6 +30270,9 @@ endOffset
 deleteSelection
 (
 )
+;
+return
+true
 ;
 }
 }
@@ -30547,6 +30671,9 @@ sublist
 )
 ;
 }
+return
+true
+;
 }
 }
 ;
@@ -30733,6 +30860,7 @@ startContainer
 )
 {
 return
+true
 ;
 }
 if
@@ -30971,6 +31099,9 @@ collapse
 true
 )
 ;
+return
+true
+;
 }
 }
 ;
@@ -31018,6 +31149,7 @@ startContainer
 )
 {
 return
+true
 ;
 }
 var
@@ -31046,6 +31178,7 @@ lastChild
 )
 {
 return
+true
 ;
 }
 var
@@ -31255,6 +31388,9 @@ i
 )
 ;
 }
+return
+true
+;
 }
 }
 ;
@@ -31284,6 +31420,7 @@ value
 )
 {
 return
+false
 ;
 }
 deleteSelection
@@ -31327,6 +31464,7 @@ startContainer
 )
 {
 return
+true
 ;
 }
 if
@@ -31480,6 +31618,9 @@ height
 "
 )
 ;
+return
+true
+;
 }
 }
 ;
@@ -31532,6 +31673,7 @@ startContainer
 )
 {
 return
+true
 ;
 }
 if
@@ -31565,6 +31707,7 @@ startContainer
 )
 {
 return
+true
 ;
 }
 if
@@ -31600,6 +31743,7 @@ parentNode
 )
 {
 return
+true
 ;
 }
 if
@@ -31919,6 +32063,9 @@ br
 )
 ;
 }
+return
+true
+;
 }
 }
 ;
@@ -31942,6 +32089,9 @@ toggleLists
 ol
 "
 )
+;
+return
+true
 }
 indeterm
 :
@@ -32027,6 +32177,7 @@ startContainer
 )
 {
 return
+true
 ;
 }
 var
@@ -32423,6 +32574,7 @@ startContainer
 )
 {
 return
+true
 ;
 }
 container
@@ -32488,6 +32640,7 @@ container
 )
 ;
 return
+true
 ;
 }
 while
@@ -32710,6 +32863,7 @@ offset
 ;
 }
 return
+true
 ;
 }
 if
@@ -32865,6 +33019,7 @@ container
 )
 ;
 return
+true
 ;
 }
 var
@@ -33416,6 +33571,9 @@ newContainer
 0
 )
 ;
+return
+true
+;
 }
 }
 ;
@@ -33465,6 +33623,7 @@ startContainer
 )
 {
 return
+true
 ;
 }
 if
@@ -33508,6 +33667,7 @@ i
 ;
 }
 return
+true
 ;
 }
 if
@@ -33520,6 +33680,7 @@ value
 )
 {
 return
+true
 ;
 }
 if
@@ -33542,6 +33703,7 @@ action
 )
 ;
 return
+true
 ;
 }
 var
@@ -33988,6 +34150,9 @@ collapse
 false
 )
 ;
+return
+true
+;
 }
 }
 ;
@@ -34011,6 +34176,9 @@ toggleLists
 ul
 "
 )
+;
+return
+true
 }
 indeterm
 :
@@ -34073,6 +34241,9 @@ justifySelection
 center
 "
 )
+;
+return
+true
 }
 indeterm
 :
@@ -34370,6 +34541,9 @@ justifySelection
 justify
 "
 )
+;
+return
+true
 }
 indeterm
 :
@@ -34667,6 +34841,9 @@ justifySelection
 left
 "
 )
+;
+return
+true
 }
 indeterm
 :
@@ -34964,6 +35141,9 @@ justifySelection
 right
 "
 )
+;
+return
+true
 }
 indeterm
 :
@@ -35622,6 +35802,9 @@ values
 )
 ;
 }
+return
+true
+;
 }
 }
 ;
@@ -35667,7 +35850,13 @@ defaultSingleLineContainerName
 =
 value
 ;
+return
+true
+;
 }
+return
+false
+;
 }
 value
 :
@@ -35739,6 +35928,9 @@ target
 )
 ;
 }
+return
+true
+;
 }
 }
 ;
@@ -35769,6 +35961,9 @@ toLowerCase
 "
 false
 "
+;
+return
+true
 ;
 }
 state
@@ -35809,6 +36004,9 @@ toLowerCase
 "
 false
 "
+;
+return
+true
 ;
 }
 }
@@ -36364,6 +36562,9 @@ recordCurrentOverrides
 (
 )
 ;
+var
+ret
+=
 oldAction
 (
 value
@@ -36384,6 +36585,9 @@ overrides
 )
 ;
 }
+return
+ret
+;
 }
 ;
 }
