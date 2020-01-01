@@ -2033,7 +2033,7 @@ self
 .
 stdout_proc
 .
-waitForFinish
+wait
 (
 )
             

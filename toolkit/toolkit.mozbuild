@@ -1592,6 +1592,11 @@ peptest
 '
 testing
 /
+profiles
+'
+'
+testing
+/
 mozbase
 '
 '
