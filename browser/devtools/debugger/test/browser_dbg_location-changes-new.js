@@ -576,7 +576,7 @@ L10N
 getStr
 (
 "
-noScriptsText
+noSourcesText
 "
 )
 ;

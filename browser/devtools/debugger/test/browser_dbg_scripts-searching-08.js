@@ -37,7 +37,7 @@ gEditor
 null
 ;
 var
-gScripts
+gSources
 =
 null
 ;
@@ -241,18 +241,6 @@ testScriptSearching
 (
 )
 {
-gDebugger
-.
-DebuggerController
-.
-activeThread
-.
-resume
-(
-function
-(
-)
-{
 gEditor
 =
 gDebugger
@@ -261,7 +249,7 @@ DebuggerView
 .
 editor
 ;
-gScripts
+gSources
 =
 gDebugger
 .
@@ -289,9 +277,6 @@ _searchbox
 ;
 doSearch
 (
-)
-;
-}
 )
 ;
 }
@@ -363,7 +348,7 @@ url
 n
 "
 +
-gScripts
+gSources
 .
 selectedValue
 +
@@ -399,7 +384,7 @@ n
 let
 url
 =
-gScripts
+gSources
 .
 selectedValue
 ;
@@ -548,7 +533,7 @@ url
 n
 "
 +
-gScripts
+gSources
 .
 selectedValue
 +
@@ -584,7 +569,7 @@ n
 let
 url
 =
-gScripts
+gSources
 .
 selectedValue
 ;
@@ -740,7 +725,7 @@ url
 n
 "
 +
-gScripts
+gSources
 .
 selectedValue
 +
@@ -776,7 +761,7 @@ n
 let
 url
 =
-gScripts
+gSources
 .
 selectedValue
 ;
@@ -925,7 +910,7 @@ url
 n
 "
 +
-gScripts
+gSources
 .
 selectedValue
 +
@@ -961,7 +946,7 @@ n
 let
 url
 =
-gScripts
+gSources
 .
 selectedValue
 ;
@@ -1256,7 +1241,7 @@ gEditor
 =
 null
 ;
-gScripts
+gSources
 =
 null
 ;

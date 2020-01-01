@@ -122,11 +122,6 @@ StackFrames
 _container
 .
 _list
-childNodes
-=
-frames
-.
-childNodes
 localScope
 =
 gDebugger
@@ -141,6 +136,10 @@ querySelector
 (
 "
 .
+variables
+-
+view
+-
 scope
 "
 )
@@ -152,6 +151,12 @@ querySelector
 (
 "
 .
+variables
+-
+view
+-
+element
+-
 details
 "
 )

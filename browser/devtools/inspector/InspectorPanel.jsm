@@ -3801,6 +3801,14 @@ pseudoclass
 "
 )
 ;
+this
+.
+breadcrumbs
+.
+scroll
+(
+)
+;
 }
 clearPseudoClasses
 :

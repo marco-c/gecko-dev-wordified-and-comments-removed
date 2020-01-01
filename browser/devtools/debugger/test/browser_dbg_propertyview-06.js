@@ -1085,6 +1085,12 @@ querySelector
 (
 "
 .
+variables
+-
+view
+-
+element
+-
 details
 "
 )
@@ -1125,6 +1131,12 @@ querySelector
 (
 "
 .
+variables
+-
+view
+-
+element
+-
 details
 "
 )

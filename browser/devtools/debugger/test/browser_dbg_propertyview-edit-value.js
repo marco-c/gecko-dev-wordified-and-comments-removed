@@ -33,7 +33,7 @@ null
 ;
 requestLongerTimeout
 (
-2
+3
 )
 ;
 function
@@ -184,6 +184,10 @@ querySelector
 (
 "
 .
+variables
+-
+view
+-
 scope
 "
 )
@@ -195,6 +199,12 @@ querySelector
 (
 "
 .
+variables
+-
+view
+-
+element
+-
 details
 "
 )
@@ -549,6 +559,10 @@ querySelector
 (
 "
 .
+variables
+-
+view
+-
 scope
 "
 )
@@ -560,6 +574,12 @@ querySelector
 (
 "
 .
+variables
+-
+view
+-
+element
+-
 details
 "
 )

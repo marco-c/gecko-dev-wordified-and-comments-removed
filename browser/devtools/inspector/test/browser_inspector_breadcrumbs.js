@@ -551,9 +551,11 @@ querySelector
 (
 "
 .
-inspector
--
 breadcrumbs
+-
+widget
+-
+item
 -
 id
 "
@@ -608,9 +610,11 @@ querySelector
 (
 "
 .
-inspector
--
 breadcrumbs
+-
+widget
+-
+item
 -
 id
 "

@@ -417,6 +417,10 @@ querySelectorAll
 (
 "
 .
+variables
+-
+view
+-
 scope
 "
 )
@@ -431,6 +435,12 @@ querySelector
 (
 "
 .
+variables
+-
+view
+-
+element
+-
 details
 "
 )
@@ -660,9 +670,9 @@ querySelector
 (
 "
 .
-dbg
+variables
 -
-variable
+view
 -
 edit
 "

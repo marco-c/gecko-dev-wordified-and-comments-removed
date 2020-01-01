@@ -9679,7 +9679,9 @@ debugger
 .
 ui
 .
-stackframes
+panes
+-
+sources
 -
 width
 "
@@ -9695,7 +9697,9 @@ debugger
 .
 ui
 .
-variables
+panes
+-
+instruments
 -
 width
 "

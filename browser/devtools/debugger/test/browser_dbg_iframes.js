@@ -8,6 +8,11 @@ gTab
 =
 null
 ;
+var
+gDebugger
+=
+null
+;
 const
 TEST_URL
 =
@@ -42,7 +47,6 @@ gPane
 =
 aPane
 ;
-let
 gDebugger
 =
 gPane
@@ -360,6 +364,10 @@ gPane
 null
 ;
 gTab
+=
+null
+;
+gDebugger
 =
 null
 ;
