@@ -3314,6 +3314,13 @@ return
 false
 ;
 }
+Groups
+.
+setActiveGroup
+(
+self
+)
+;
 var
 startBounds
 =
