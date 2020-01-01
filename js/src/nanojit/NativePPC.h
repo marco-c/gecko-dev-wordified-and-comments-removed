@@ -614,13 +614,6 @@ FpRegs
 =
 0xffffffff00000000LL
 ;
-static
-const
-bool
-CalleeRegsNeedExplicitSaving
-=
-true
-;
 #
 ifdef
 NANOJIT_64BIT
@@ -942,7 +935,7 @@ LARGEST_BRANCH_PATCH
 *
 sizeof
 (
-Nins
+NIns
 )
 ;
 inline

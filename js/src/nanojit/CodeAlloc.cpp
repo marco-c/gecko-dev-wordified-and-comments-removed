@@ -1287,8 +1287,6 @@ flushICache
 (
 CodeList
 *
-&
-blocks
 )
 {
 FlushInstructionCache
