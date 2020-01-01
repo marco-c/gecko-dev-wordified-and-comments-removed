@@ -1014,7 +1014,7 @@ bool
 aForDefaultAction
 )
 ;
-nscoord
+nsSize
 GetScrollAmount
 (
 nsPresContext
