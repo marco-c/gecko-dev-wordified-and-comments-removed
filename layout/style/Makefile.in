@@ -658,6 +658,10 @@ Loader
 .
 cpp
 \
+nsAnimationManager
+.
+cpp
+\
 nsCSSParser
 .
 cpp

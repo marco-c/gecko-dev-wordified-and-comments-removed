@@ -555,6 +555,7 @@ eDocSheet
 eStyleAttrSheet
 eOverrideSheet
 eTransitionSheet
+eAnimationSheet
 eSheetTypeCount
 }
 ;
@@ -907,6 +908,17 @@ nsCSSPseudoElements
 :
 Type
 aPseudoType
+PRBool
+aDoAnimation
+mozilla
+:
+:
+dom
+:
+:
+Element
+*
+aElementForAnimation
 )
 ;
 nsPresContext

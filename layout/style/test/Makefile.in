@@ -723,6 +723,10 @@ test_acid3_test46
 .
 html
 \
+test_animations
+.
+html
+\
 test_any_dynamic
 .
 html
