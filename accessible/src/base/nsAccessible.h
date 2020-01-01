@@ -63,14 +63,14 @@ h
 #
 include
 "
-nsAccessibleRelationWrap
+nsIAccessibleEvent
 .
 h
 "
 #
 include
 "
-nsIAccessibleEvent
+nsRelUtils
 .
 h
 "

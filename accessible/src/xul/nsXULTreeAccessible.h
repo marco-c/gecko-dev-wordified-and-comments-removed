@@ -435,14 +435,14 @@ void
 )
 ;
 NS_IMETHOD
-GetAccessibleRelated
+GetRelationByType
 (
 PRUint32
 aRelationType
-nsIAccessible
+nsIAccessibleRelation
 *
 *
-aRelated
+aRelation
 )
 ;
 NS_IMETHOD

@@ -67,14 +67,14 @@ NS_OK
 ;
 }
 NS_IMETHOD
-GetAccessibleRelated
+GetRelationByType
 (
 PRUint32
 aRelationType
-nsIAccessible
+nsIAccessibleRelation
 *
 *
-aRelated
+aRelation
 )
 ;
 virtual
