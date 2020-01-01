@@ -11863,6 +11863,13 @@ FieldSetFrame
 )
 GK_ATOM
 (
+formControlFrame
+"
+FormControlFrame
+"
+)
+GK_ATOM
+(
 frameSetFrame
 "
 FrameSetFrame
