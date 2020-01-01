@@ -1300,6 +1300,10 @@ crashreporter
 symbols
 \
 (
+EXTRA_TEST_ARGS
+)
+\
+(
 DIST
 )
 /
@@ -1540,6 +1544,14 @@ name
 =
 (
 MOZ_APP_NAME
+)
+\
+-
+-
+verbose
+\
+(
+EXTRA_TEST_ARGS
 )
 \
 (
