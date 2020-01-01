@@ -441,6 +441,10 @@ numDominated_
 (
 0
 )
+loopHeader_
+(
+NULL
+)
 {
 }
 bool

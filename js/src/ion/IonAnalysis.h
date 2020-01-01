@@ -82,6 +82,14 @@ MIRGraph
 graph
 )
 ;
+bool
+FindNaturalLoops
+(
+MIRGraph
+&
+graph
+)
+;
 }
 }
 #
