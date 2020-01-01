@@ -88,6 +88,22 @@ M
 S
 "
 ;
+const
+LOG_PREFIX_SUCCESS
+=
+"
+success
+-
+"
+;
+const
+LOG_PREFIX_ERROR
+=
+"
+error
+-
+"
+;
 Cu
 .
 import
@@ -2682,9 +2698,10 @@ fapp
 _resetFileLog
 :
 function
-resetFileLog
+_resetFileLog
 (
 flushToFile
+filenamePrefix
 )
 {
 let
@@ -2719,6 +2736,8 @@ try
 let
 filename
 =
+filenamePrefix
++
 Date
 .
 now
@@ -2727,7 +2746,7 @@ now
 +
 "
 .
-log
+txt
 "
 ;
 let
@@ -3051,6 +3070,7 @@ file
 logOnError
 "
 )
+LOG_PREFIX_ERROR
 )
 ;
 }
@@ -3130,6 +3150,7 @@ file
 logOnError
 "
 )
+LOG_PREFIX_ERROR
 )
 ;
 break
@@ -3168,6 +3189,7 @@ file
 logOnSuccess
 "
 )
+LOG_PREFIX_SUCCESS
 )
 ;
 this
