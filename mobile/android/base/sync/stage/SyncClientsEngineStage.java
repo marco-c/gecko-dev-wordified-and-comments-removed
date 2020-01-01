@@ -145,17 +145,6 @@ gecko
 .
 sync
 .
-Utils
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-sync
-.
 crypto
 .
 CryptoException
