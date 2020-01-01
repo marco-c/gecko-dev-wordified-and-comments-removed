@@ -1138,6 +1138,11 @@ nsISupports
 aState
 )
 ;
+void
+DispatchDOMWindowCreated
+(
+)
+;
 virtual
 NS_HIDDEN_
 (
