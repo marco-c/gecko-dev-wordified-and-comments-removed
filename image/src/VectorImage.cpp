@@ -2643,6 +2643,7 @@ gfxASurface
 :
 ImageFormatARGB32
 aFilter
+aFlags
 )
 ;
 MOZ_ASSERT
