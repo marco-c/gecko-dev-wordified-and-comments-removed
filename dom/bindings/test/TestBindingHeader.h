@@ -2816,6 +2816,8 @@ int8_t
 void
 PassDictionary
 (
+JSContext
+*
 const
 Dict
 &
@@ -2824,6 +2826,8 @@ Dict
 void
 ReceiveDictionary
 (
+JSContext
+*
 Dict
 &
 )
@@ -2839,6 +2843,8 @@ GrandparentDict
 void
 PassSequenceOfDictionaries
 (
+JSContext
+*
 const
 Sequence
 <
@@ -2850,6 +2856,8 @@ Dict
 void
 PassDictionaryOrLong
 (
+JSContext
+*
 const
 Dict
 &
@@ -2864,6 +2872,8 @@ int32_t
 void
 PassDictContainingDict
 (
+JSContext
+*
 const
 DictContainingDict
 &
@@ -2980,6 +2990,8 @@ TestInterface
 void
 Overload2
 (
+JSContext
+*
 const
 Dict
 &
