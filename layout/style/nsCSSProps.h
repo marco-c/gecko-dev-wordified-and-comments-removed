@@ -1264,6 +1264,13 @@ kAlignItemsKTable
 static
 const
 PRInt32
+kAlignSelfKTable
+[
+]
+;
+static
+const
+PRInt32
 kFlexDirectionKTable
 [
 ]

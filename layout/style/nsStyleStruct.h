@@ -4208,6 +4208,9 @@ PRUint8
 mAlignItems
 ;
 PRUint8
+mAlignSelf
+;
+PRUint8
 mFlexDirection
 ;
 PRUint8

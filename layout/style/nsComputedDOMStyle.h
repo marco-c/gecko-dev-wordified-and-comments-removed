@@ -1605,6 +1605,12 @@ DoGetAlignItems
 ;
 nsIDOMCSSValue
 *
+DoGetAlignSelf
+(
+)
+;
+nsIDOMCSSValue
+*
 DoGetFlexDirection
 (
 )
