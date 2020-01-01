@@ -6736,7 +6736,15 @@ serverTime
 aFromHttp
 )
 )
+{
+if
+(
+!
+aFromHttp
+)
+break
 ;
+}
 }
 void
 nsCookieService
