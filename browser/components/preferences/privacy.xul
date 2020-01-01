@@ -895,7 +895,7 @@ label
 &
 dntTrackingNotOkay
 .
-label
+label2
 ;
 "
 accesskey
@@ -927,7 +927,7 @@ label
 &
 dntTrackingOkay
 .
-label
+label2
 ;
 "
 accesskey
@@ -960,7 +960,7 @@ label
 &
 dntTrackingNopref
 .
-label
+label2
 ;
 "
 accesskey

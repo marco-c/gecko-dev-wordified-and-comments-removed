@@ -74,7 +74,7 @@ Tracking
 ENTITY
 dntTrackingNopref
 .
-label
+label2
 "
 Do
 not
@@ -85,7 +85,6 @@ about
 my
 tracking
 preferences
-.
 "
 >
 <
@@ -103,7 +102,7 @@ o
 ENTITY
 dntTrackingNotOkay
 .
-label
+label2
 "
 Tell
 sites
@@ -115,7 +114,6 @@ want
 to
 be
 tracked
-.
 "
 >
 <
@@ -133,7 +131,7 @@ n
 ENTITY
 dntTrackingOkay
 .
-label
+label2
 "
 Tell
 sites
@@ -143,7 +141,6 @@ want
 to
 be
 tracked
-.
 "
 >
 <
