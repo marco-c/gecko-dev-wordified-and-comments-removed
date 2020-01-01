@@ -2441,7 +2441,6 @@ null
 ;
 if
 (
-!
 filter
 .
 startDate
