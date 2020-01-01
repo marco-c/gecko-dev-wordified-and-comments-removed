@@ -48,17 +48,12 @@ h
 #
 endif
 #
-ifndef
-MOZ_OLD_LINKER
-#
 include
 "
 ElfLoader
 .
 h
 "
-#
-endif
 #
 ifdef
 DEBUG
