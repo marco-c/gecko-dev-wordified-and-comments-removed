@@ -19,6 +19,13 @@ nsNetUtil
 .
 h
 "
+#
+include
+"
+nsVoidArray
+.
+h
+"
 class
 nsCLineString
 :
