@@ -4107,6 +4107,14 @@ if
 (
 !
 updateSurface
+|
+|
+updateSurface
+-
+>
+CairoStatus
+(
+)
 )
 return
 NULL
