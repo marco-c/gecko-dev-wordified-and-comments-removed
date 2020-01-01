@@ -29,7 +29,7 @@ MAX_TIMEOUT_RUNS
 const
 APP_TIMER_TIMEOUT
 =
-15000
+20000
 ;
 let
 gAppTimer

@@ -26,11 +26,6 @@ MAX_TIMEOUT_RUNS
 =
 300
 ;
-const
-APP_TIMER_TIMEOUT
-=
-15000
-;
 let
 gTimeoutRuns
 =
