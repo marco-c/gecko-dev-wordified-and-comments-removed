@@ -5744,8 +5744,6 @@ if
 SelectionHelperUI
 .
 isActive
-(
-)
 )
 {
 SelectionHelperUI
