@@ -519,15 +519,9 @@ std
 :
 min
 (
-(
-float
-)
 mVisibleWidth
 /
 mImageWidth
-(
-float
-)
 mVisibleHeight
 /
 mImageHeight
@@ -586,10 +580,10 @@ nsIContent
 >
 mImageContent
 ;
-int32_t
+float
 mVisibleWidth
 ;
-int32_t
+float
 mVisibleHeight
 ;
 int32_t
@@ -3126,7 +3120,7 @@ mVisibleWidth
 nsPresContext
 :
 :
-AppUnitsToIntCSSPixels
+AppUnitsToFloatCSSPixels
 (
 visibleArea
 .
@@ -3138,7 +3132,7 @@ mVisibleHeight
 nsPresContext
 :
 :
-AppUnitsToIntCSSPixels
+AppUnitsToFloatCSSPixels
 (
 visibleArea
 .
