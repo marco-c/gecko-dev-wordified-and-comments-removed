@@ -334,12 +334,6 @@ sizeof
 (
 IonBailedRectifierFrameLayout
 )
-+
-sizeof
-(
-void
-*
-)
 ;
 }
 }
