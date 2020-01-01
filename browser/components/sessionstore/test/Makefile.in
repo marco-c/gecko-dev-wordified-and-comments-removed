@@ -134,7 +134,7 @@ windows
 bug
 752467
 )
-XPCSHELL_TESTS
+DISABLED_XPCSHELL_TESTS
 =
 \
 unit
