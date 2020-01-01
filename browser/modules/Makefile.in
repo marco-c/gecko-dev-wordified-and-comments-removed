@@ -136,6 +136,10 @@ KeywordURLResetPrompter
 .
 jsm
 \
+Social
+.
+jsm
+\
 SharedFrame
 .
 jsm
@@ -147,10 +151,6 @@ EXTRA_PP_JS_MODULES
 =
 \
 RecentWindow
-.
-jsm
-\
-Social
 .
 jsm
 \
