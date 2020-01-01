@@ -3039,9 +3039,12 @@ MaxDifference
 ;
 #
 endif
-nsCOMPtr
+nsRefPtr
 <
-nsIURI
+nsCSSValue
+:
+:
+URL
 >
 mBinding
 ;

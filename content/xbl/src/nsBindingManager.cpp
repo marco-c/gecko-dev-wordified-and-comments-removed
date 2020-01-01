@@ -2657,6 +2657,9 @@ aContent
 nsIURI
 *
 aURL
+nsIPrincipal
+*
+aOriginPrincipal
 )
 {
 nsresult
@@ -2707,6 +2710,7 @@ LoadBindings
 (
 aContent
 aURL
+aOriginPrincipal
 PR_TRUE
 getter_AddRefs
 (
@@ -2936,6 +2940,9 @@ aBoundDoc
 nsIURI
 *
 aURL
+nsIPrincipal
+*
+aOriginPrincipal
 )
 {
 NS_PRECONDITION
@@ -2998,6 +3005,7 @@ LoadBindingDocumentInfo
 nsnull
 aBoundDoc
 aURL
+aOriginPrincipal
 PR_TRUE
 getter_AddRefs
 (

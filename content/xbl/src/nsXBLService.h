@@ -94,6 +94,9 @@ aContent
 nsIURI
 *
 aURL
+nsIPrincipal
+*
+aOriginPrincipal
 PRBool
 aAugmentFlag
 nsXBLBinding
@@ -146,6 +149,9 @@ aBoundDocument
 nsIURI
 *
 aBindingURI
+nsIPrincipal
+*
+aOriginPrincipal
 PRBool
 aForceSyncLoad
 nsIXBLDocumentInfo
@@ -236,6 +242,9 @@ nsIURI
 aURI
 PRBool
 aPeekFlag
+nsIPrincipal
+*
+aOriginPrincipal
 PRBool
 *
 aIsReady
@@ -256,6 +265,9 @@ nsIURI
 aURI
 PRBool
 aPeekFlag
+nsIPrincipal
+*
+aOriginPrincipal
 PRBool
 *
 aIsReady

@@ -117,6 +117,9 @@ class
 nsRunnableMethod
 ;
 class
+nsIPrincipal
+;
+class
 nsBindingManager
 :
 public
@@ -306,6 +309,9 @@ aContent
 nsIURI
 *
 aURL
+nsIPrincipal
+*
+aOriginPrincipal
 )
 ;
 nsresult
@@ -328,6 +334,9 @@ aBoundDoc
 nsIURI
 *
 aURL
+nsIPrincipal
+*
+aOriginPrincipal
 )
 ;
 nsresult
