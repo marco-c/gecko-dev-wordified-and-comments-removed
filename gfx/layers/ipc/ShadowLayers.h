@@ -166,6 +166,9 @@ class
 SurfaceDescriptor
 ;
 class
+SurfaceDescriptorTiles
+;
+class
 ThebesBuffer
 ;
 class
@@ -173,9 +176,6 @@ TiledLayerComposer
 ;
 class
 Transaction
-;
-class
-SurfaceDescriptor
 ;
 class
 CanvasSurface
@@ -511,9 +511,10 @@ PaintedTiledLayerBuffer
 CompositableClient
 *
 aCompositable
-BasicTiledLayerBuffer
-*
-aTiledLayerBuffer
+const
+SurfaceDescriptorTiles
+&
+aTileLayerDescriptor
 )
 MOZ_OVERRIDE
 ;
