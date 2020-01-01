@@ -1383,7 +1383,7 @@ entrySnapshot
 )
 -
 >
-getInput
+getOperand
 (
 i
 )

@@ -581,7 +581,7 @@ uses
 copy
 -
 >
-getInput
+getOperand
 (
 0
 )
@@ -676,7 +676,7 @@ continue
 ins
 -
 >
-getInput
+getOperand
 (
 i
 )
@@ -866,7 +866,7 @@ input
 phi
 -
 >
-getInput
+getOperand
 (
 i
 )
@@ -1230,7 +1230,7 @@ ins
 phi
 -
 >
-getInput
+getOperand
 (
 i
 )

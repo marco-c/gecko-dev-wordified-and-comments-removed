@@ -64,7 +64,7 @@ toBox
 )
 -
 >
-getInput
+getOperand
 (
 0
 )

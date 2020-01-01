@@ -1974,7 +1974,7 @@ entrySnapshot
 )
 -
 >
-getInput
+getOperand
 (
 i
 )
@@ -2065,11 +2065,6 @@ use
 index
 (
 )
-)
--
->
-ins
-(
 )
 =
 =
@@ -2240,7 +2235,7 @@ entrySnapshot
 )
 -
 >
-getInput
+getOperand
 (
 i
 )

@@ -806,7 +806,7 @@ integerValue
 ins
 -
 >
-getInput
+getOperand
 (
 i
 )
