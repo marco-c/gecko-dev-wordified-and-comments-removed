@@ -2101,7 +2101,7 @@ browserWin
 .
 gBrowser
 ;
-let
+var
 tabCandyContainer
 =
 browserWin
