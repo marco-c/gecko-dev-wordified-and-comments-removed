@@ -534,7 +534,7 @@ received
 :
 {
 "
-sms
+wappush
 "
 :
 [
