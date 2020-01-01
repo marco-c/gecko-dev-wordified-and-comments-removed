@@ -28642,7 +28642,7 @@ aContent
 nsCSSAnonBoxes
 :
 :
-mozAnonymousBlock
+mozMathMLAnonymousBlock
 mrowContext
 )
 ;
