@@ -98,6 +98,14 @@ PARALLEL_DIRS
 =
 [
 '
+encoder
+'
+]
+PARALLEL_DIRS
++
+=
+[
+'
 webaudio
 '
 ]
