@@ -5477,14 +5477,6 @@ Value
 vp
 )
 ;
-inline
-JSObject
-*
-getThrowTypeError
-(
-)
-const
-;
 bool
 swap
 (
