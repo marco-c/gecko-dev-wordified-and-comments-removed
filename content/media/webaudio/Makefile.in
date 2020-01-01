@@ -143,6 +143,10 @@ GainNode
 .
 cpp
 \
+PannerNode
+.
+cpp
+\
 (
 NULL
 )
@@ -191,6 +195,10 @@ DelayNode
 h
 \
 GainNode
+.
+h
+\
+PannerNode
 .
 h
 \
