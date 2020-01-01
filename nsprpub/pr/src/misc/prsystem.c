@@ -1079,6 +1079,8 @@ hInfo
 ;
 mach_msg_type_number_t
 count
+=
+HOST_BASIC_INFO_COUNT
 ;
 int
 result
@@ -1109,7 +1111,7 @@ bytes
 =
 hInfo
 .
-memory_size
+max_mem
 ;
 #
 elif
