@@ -2701,6 +2701,8 @@ mLength
 aFromIndex
 +
 gHistoryMaxViewers
++
+1
 )
 ;
 }
