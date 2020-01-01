@@ -287,6 +287,8 @@ aEvent
 if
 (
 inPrivateBrowsingMode
+(
+)
 &
 &
 !
