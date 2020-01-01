@@ -5735,6 +5735,15 @@ homeDir
 return
 NS_ERROR_FAILURE
 ;
+#
+ifdef
+ANDROID
+aLocal
+=
+false
+;
+#
+endif
 if
 (
 aLocal
