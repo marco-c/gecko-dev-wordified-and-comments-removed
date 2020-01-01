@@ -980,7 +980,7 @@ nsIDOMFileReader
 LOADING
 )
 return
-NS_OK
+NS_ERROR_DOM_FILE_ABORT_ERR
 ;
 mProgressEventWasDelayed
 =
