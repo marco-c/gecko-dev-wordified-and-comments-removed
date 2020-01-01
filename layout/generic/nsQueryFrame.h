@@ -346,7 +346,7 @@ nsXULScrollFrame_id
 ViewportFrame_id
 NON_FRAME_MARKER
 =
-0x40000000
+0x20000000
 }
 ;
 virtual

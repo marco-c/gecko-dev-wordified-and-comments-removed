@@ -528,6 +528,10 @@ nsLayoutUtils
 .
 h
 \
+nsPresArena
+.
+h
+\
 nsPresContext
 .
 h
