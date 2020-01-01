@@ -841,3 +841,10 @@ p3
 bug481921
 .
 patch
+patch
+-
+p3
+<
+aspect_ratio
+.
+patch

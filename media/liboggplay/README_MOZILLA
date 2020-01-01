@@ -172,3 +172,14 @@ not
 being
 used
 .
+aspect
+-
+ratio
+:
+Adds
+oggplay_get_video_aspect_ratio
+used
+for
+bug
+480058
+.
