@@ -1270,6 +1270,9 @@ aOutEvent
 )
 ;
 bool
+mMarkedDestroying
+;
+bool
 mIsDestroyed
 ;
 }
