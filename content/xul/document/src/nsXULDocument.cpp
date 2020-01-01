@@ -453,6 +453,13 @@ nsCCUncollectableMarker
 .
 h
 "
+#
+include
+"
+ImageErrors
+.
+h
+"
 static
 NS_DEFINE_CID
 (
@@ -17833,7 +17840,7 @@ acontext
 )
 {
 return
-NS_OK
+NS_IMAGELIB_ERROR_LOAD_ABORTED
 ;
 }
 NS_IMETHODIMP

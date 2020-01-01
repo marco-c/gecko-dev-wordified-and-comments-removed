@@ -476,6 +476,8 @@ appshell
 \
 util
 \
+imglib2
+\
 (
 NULL
 )
