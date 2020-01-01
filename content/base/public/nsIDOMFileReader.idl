@@ -432,7 +432,7 @@ interface
 nsIDOMEventListener
 ;
 interface
-nsIDOMFile
+nsIDOMBlob
 ;
 interface
 nsIDOMFileError
@@ -441,15 +441,15 @@ nsIDOMFileError
 scriptable
 uuid
 (
-5db0ce80
+71c32f16
 -
-de44
+ea5d
 -
-40c0
+415e
 -
-a346
+9303
 -
-e28aac4aa978
+0db981c17bed
 )
 ]
 interface
@@ -461,7 +461,7 @@ void
 readAsBinaryString
 (
 in
-nsIDOMFile
+nsIDOMBlob
 filedata
 )
 ;
@@ -469,7 +469,7 @@ void
 readAsText
 (
 in
-nsIDOMFile
+nsIDOMBlob
 filedata
 [
 optional
@@ -483,7 +483,7 @@ void
 readAsDataURL
 (
 in
-nsIDOMFile
+nsIDOMBlob
 file
 )
 ;

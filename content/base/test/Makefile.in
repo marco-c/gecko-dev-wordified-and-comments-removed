@@ -875,6 +875,10 @@ test_fileapi
 .
 html
 \
+test_fileapi_slice
+.
+html
+\
 test_bug403868
 .
 xml

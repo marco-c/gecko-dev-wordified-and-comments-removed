@@ -59,7 +59,7 @@ class
 nsIMultiplexInputStream
 ;
 class
-nsIDOMFile
+nsIDOMBlob
 ;
 class
 nsFormSubmission
@@ -102,9 +102,9 @@ const
 nsAString
 &
 aName
-nsIDOMFile
+nsIDOMBlob
 *
-aFile
+aBlob
 )
 =
 0
@@ -319,9 +319,9 @@ const
 nsAString
 &
 aName
-nsIDOMFile
+nsIDOMBlob
 *
-aFile
+aBlob
 )
 ;
 virtual

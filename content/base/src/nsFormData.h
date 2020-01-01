@@ -98,9 +98,9 @@ const
 nsAString
 &
 aName
-nsIDOMFile
+nsIDOMBlob
 *
-aFile
+aBlob
 )
 ;
 NS_IMETHOD
@@ -135,7 +135,7 @@ stringValue
 ;
 nsCOMPtr
 <
-nsIDOMFile
+nsIDOMBlob
 >
 fileValue
 ;

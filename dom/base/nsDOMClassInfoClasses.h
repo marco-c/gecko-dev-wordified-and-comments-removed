@@ -1167,6 +1167,10 @@ FileList
 )
 DOMCI_CLASS
 (
+Blob
+)
+DOMCI_CLASS
+(
 File
 )
 DOMCI_CLASS
