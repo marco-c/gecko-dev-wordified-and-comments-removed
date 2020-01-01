@@ -8295,12 +8295,6 @@ doxygen
 )
 MOZ_PATH_PROG
 (
-WHOAMI
-whoami
-:
-)
-MOZ_PATH_PROG
-(
 AUTOCONF
 autoconf
 :
