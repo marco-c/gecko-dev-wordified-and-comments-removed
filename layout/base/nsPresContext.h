@@ -2995,8 +2995,10 @@ nsRefreshDriver
 >
 mRefreshDriver
 ;
+nsRefPtr
+<
 nsTransitionManager
-*
+>
 mTransitionManager
 ;
 nsIAtom
