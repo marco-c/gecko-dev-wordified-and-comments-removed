@@ -110,5 +110,8 @@ relSignalStrength
 long
 linkSpeed
 ;
+DOMString
+ipAddress
+;
 }
 ;
