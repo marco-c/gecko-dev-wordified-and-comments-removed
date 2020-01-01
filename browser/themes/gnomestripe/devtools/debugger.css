@@ -1776,14 +1776,7 @@ panes
 not
 (
 [
-stackframesAndBreakpointsHidden
-]
-)
-:
-not
-(
-[
-variablesHidden
+panesHidden
 ]
 )
 {

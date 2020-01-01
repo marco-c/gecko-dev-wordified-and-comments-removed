@@ -241,7 +241,7 @@ aOptions
 {
 DebuggerView
 .
-showPanesIfPreffered
+showPanesSoon
 (
 )
 ;

@@ -188,7 +188,7 @@ DebuggerView
 .
 Options
 .
-_poeItem
+_pauseOnExceptionsItem
 .
 setAttribute
 (
@@ -206,7 +206,7 @@ DebuggerView
 .
 Options
 .
-_togglePOE
+_togglePauseOnExceptions
 (
 )
 ;
