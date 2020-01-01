@@ -1888,7 +1888,7 @@ INT32
 Type
 (
 '
-int32
+int32_t
 '
 )
 Type
@@ -1908,7 +1908,7 @@ UINT32
 Type
 (
 '
-uint32
+uint32_t
 '
 )
 Type
@@ -1918,7 +1918,7 @@ UINT32PTR
 Type
 (
 '
-uint32
+uint32_t
 '
 ptr
 =

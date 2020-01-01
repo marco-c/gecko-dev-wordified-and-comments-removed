@@ -2687,7 +2687,7 @@ i
 i
 )
 {
-uint32
+uint32_t
 checksum
 =
 i
@@ -2709,7 +2709,7 @@ j
 )
 {
 const
-uint32
+uint32_t
 kReversedPolynomial
 =
 0xedb88320L

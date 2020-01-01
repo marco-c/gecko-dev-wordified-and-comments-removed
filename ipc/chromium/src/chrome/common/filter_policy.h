@@ -32,7 +32,7 @@ static
 bool
 ValidType
 (
-int32
+int32_t
 type
 )
 {
@@ -53,7 +53,7 @@ static
 Type
 FromInt
 (
-int32
+int32_t
 type
 )
 {

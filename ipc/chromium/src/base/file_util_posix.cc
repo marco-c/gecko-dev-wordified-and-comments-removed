@@ -3695,7 +3695,7 @@ data_
 =
 static_cast
 <
-uint8
+uint8_t
 *
 >
 (

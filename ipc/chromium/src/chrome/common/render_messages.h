@@ -363,7 +363,7 @@ Time
 struct
 ViewMsg_Navigate_Params
 {
-int32
+int32_t
 page_id
 ;
 GURL
@@ -398,7 +398,7 @@ request_time
 struct
 ViewHostMsg_FrameNavigate_Params
 {
-int32
+int32_t
 page_id
 ;
 GURL
@@ -715,10 +715,10 @@ ResourceType
 Type
 resource_type
 ;
-uint32
+uint32_t
 request_context
 ;
-int32
+int32_t
 app_cache_context_id
 ;
 scoped_refptr
@@ -6222,7 +6222,7 @@ TYPE_FILE
 FilePath
 file_path
 ;
-uint64
+uint64_t
 offset
 length
 ;

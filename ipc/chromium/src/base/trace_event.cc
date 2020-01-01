@@ -675,7 +675,7 @@ tick
 -
 trace_start_time_
 ;
-int64
+int64_t
 usec
 =
 delta

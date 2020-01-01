@@ -99,7 +99,7 @@ namespace
 base
 {
 const
-int64
+int64_t
 Time
 :
 :
@@ -329,7 +329,7 @@ timestruct
 ;
 #
 endif
-int64
+int64_t
 milliseconds
 ;
 if
@@ -447,7 +447,7 @@ exploded
 )
 const
 {
-int64
+int64_t
 milliseconds
 =
 us_
@@ -698,7 +698,7 @@ absolute_micro
 (
 static_cast
 <
-int64
+int64_t
 >
 (
 ts
@@ -715,7 +715,7 @@ kMicrosecondsPerSecond
 (
 static_cast
 <
-int64
+int64_t
 >
 (
 ts

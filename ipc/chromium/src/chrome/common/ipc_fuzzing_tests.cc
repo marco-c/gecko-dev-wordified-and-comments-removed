@@ -121,7 +121,7 @@ IPCMessageIntegrity
 ReadBeyondBufferStr
 )
 {
-uint32
+uint32_t
 v1
 =
 kuint32max
@@ -202,7 +202,7 @@ IPCMessageIntegrity
 ReadBeyondBufferWStr
 )
 {
-uint32
+uint32_t
 v1
 =
 kuint32max
@@ -502,7 +502,7 @@ std
 :
 vector
 <
-int64
+int64_t
 >
 vec
 ;
@@ -584,7 +584,7 @@ std
 :
 vector
 <
-int64
+int64_t
 >
 vec
 ;

@@ -122,7 +122,7 @@ const
 StringPiece
 &
 mb
-uint32
+uint32_t
 code_page
 )
 {
@@ -237,7 +237,7 @@ std
 wstring
 &
 wide
-uint32
+uint32_t
 code_page
 )
 {

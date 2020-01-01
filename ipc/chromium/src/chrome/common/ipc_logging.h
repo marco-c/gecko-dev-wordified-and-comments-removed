@@ -227,7 +227,7 @@ static
 void
 GetMessageText
 (
-uint16
+uint16_t
 type
 std
 :
@@ -270,7 +270,7 @@ void
 LogFunction
 )
 (
-uint16
+uint16_t
 type
 std
 :

@@ -1718,7 +1718,7 @@ TotalCount
 )
 const
 ;
-int64
+int64_t
 sum
 (
 )
@@ -1728,7 +1728,7 @@ return
 sum_
 ;
 }
-int64
+int64_t
 redundant_count
 (
 )
@@ -1797,7 +1797,7 @@ protected
 Counts
 counts_
 ;
-int64
+int64_t
 sum_
 ;
 private
@@ -1808,7 +1808,7 @@ HistogramTest
 CorruptSampleCounts
 )
 ;
-int64
+int64_t
 redundant_count_
 ;
 }
@@ -2110,7 +2110,7 @@ i
 )
 const
 ;
-uint32
+uint32_t
 range_checksum
 (
 )
@@ -2289,7 +2289,7 @@ ValidateBucketRanges
 const
 ;
 virtual
-uint32
+uint32_t
 CalculateRangeChecksum
 (
 )
@@ -2331,10 +2331,10 @@ Initialize
 )
 ;
 static
-uint32
+uint32_t
 Crc32
 (
-uint32
+uint32_t
 sum
 Sample
 range
@@ -2372,13 +2372,13 @@ void
 WriteAsciiBucketContext
 (
 const
-int64
+int64_t
 past
 const
 Count
 current
 const
-int64
+int64_t
 remaining
 const
 size_t
@@ -2426,7 +2426,7 @@ const
 ;
 static
 const
-uint32
+uint32_t
 kCrcTable
 [
 256
@@ -2454,7 +2454,7 @@ flags_
 Ranges
 ranges_
 ;
-uint32
+uint32_t
 range_checksum_
 ;
 SampleSet

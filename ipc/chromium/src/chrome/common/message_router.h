@@ -112,7 +112,7 @@ msg
 void
 AddRoute
 (
-int32
+int32_t
 routing_id
 IPC
 :
@@ -128,7 +128,7 @@ listener
 void
 RemoveRoute
 (
-int32
+int32_t
 routing_id
 )
 ;

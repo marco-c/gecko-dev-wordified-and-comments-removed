@@ -44,7 +44,7 @@ public
 :
 static
 const
-int32
+int32_t
 kNoTimeout
 ;
 class
@@ -131,7 +131,7 @@ virtual
 void
 OnChannelConnected
 (
-int32
+int32_t
 peer_pid
 )
 {
@@ -187,7 +187,7 @@ reply
 void
 SetReplyTimeoutMs
 (
-int32
+int32_t
 aTimeoutMs
 )
 {
@@ -207,7 +207,7 @@ aTimeoutMs
 kNoTimeout
 :
 (
-int32
+int32_t
 )
 ceil
 (
@@ -424,7 +424,7 @@ mPendingReply
 0
 ;
 }
-int32
+int32_t
 NextSeqno
 (
 )
@@ -454,7 +454,7 @@ mProcessingSyncMessage
 Message
 mRecvd
 ;
-int32
+int32_t
 mNextSeqno
 ;
 static
@@ -471,7 +471,7 @@ aWaitTimedOut
 bool
 mInTimeoutSecondHalf
 ;
-int32
+int32_t
 mTimeoutMs
 ;
 #

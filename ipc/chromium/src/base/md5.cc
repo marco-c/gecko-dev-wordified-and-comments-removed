@@ -24,13 +24,13 @@ h
 struct
 Context
 {
-uint32
+uint32_t
 buf
 [
 4
 ]
 ;
-uint32
+uint32_t
 bits
 [
 2
@@ -57,7 +57,7 @@ unsigned
 longs
 )
 {
-uint32
+uint32_t
 t
 ;
 do
@@ -65,7 +65,7 @@ do
 t
 =
 (
-uint32
+uint32_t
 )
 (
 (
@@ -108,7 +108,7 @@ buf
 ;
 *
 (
-uint32
+uint32_t
 *
 )
 buf
@@ -246,13 +246,13 @@ static
 void
 MD5Transform
 (
-uint32
+uint32_t
 buf
 [
 4
 ]
 const
-uint32
+uint32_t
 in
 [
 16
@@ -260,7 +260,7 @@ in
 )
 {
 register
-uint32
+uint32_t
 a
 b
 c
@@ -1472,7 +1472,7 @@ char
 )
 inbuf
 ;
-uint32
+uint32_t
 t
 ;
 t
@@ -1500,7 +1500,7 @@ t
 +
 (
 (
-uint32
+uint32_t
 )
 len
 <
@@ -1532,7 +1532,7 @@ bits
 =
 static_cast
 <
-uint32
+uint32_t
 >
 (
 len
@@ -1620,7 +1620,7 @@ ctx
 >
 buf
 (
-uint32
+uint32_t
 *
 )
 ctx
@@ -1674,7 +1674,7 @@ ctx
 >
 buf
 (
-uint32
+uint32_t
 *
 )
 ctx
@@ -1807,7 +1807,7 @@ ctx
 >
 buf
 (
-uint32
+uint32_t
 *
 )
 ctx
@@ -1850,7 +1850,7 @@ in
 ;
 (
 (
-uint32
+uint32_t
 *
 )
 ctx
@@ -1872,7 +1872,7 @@ bits
 ;
 (
 (
-uint32
+uint32_t
 *
 )
 ctx
@@ -1899,7 +1899,7 @@ ctx
 >
 buf
 (
-uint32
+uint32_t
 *
 )
 ctx

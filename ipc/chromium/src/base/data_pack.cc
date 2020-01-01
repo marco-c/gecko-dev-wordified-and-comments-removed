@@ -227,7 +227,7 @@ false
 ;
 }
 const
-uint32
+uint32_t
 *
 ptr
 =
@@ -246,7 +246,7 @@ data
 )
 )
 ;
-uint32
+uint32_t
 version
 =
 ptr

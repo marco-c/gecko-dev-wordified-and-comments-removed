@@ -563,7 +563,7 @@ defined
 (
 OS_WIN
 )
-uint64
+uint64_t
 FileTimeAsUint64
 (
 const

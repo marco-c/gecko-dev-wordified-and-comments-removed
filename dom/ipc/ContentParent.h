@@ -389,7 +389,7 @@ protected
 void
 OnChannelConnected
 (
-int32
+int32_t
 pid
 )
 ;

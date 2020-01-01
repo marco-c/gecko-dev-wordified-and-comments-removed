@@ -150,13 +150,13 @@ const
 char
 *
 path
-uint32
+uint32_t
 *
 result
 )
 ;
 static
-uint32
+uint32_t
 GetSupportedArchitecturesForProcessType
 (
 GeckoProcessType
@@ -194,7 +194,7 @@ aExtraOpts
 StringVector
 (
 )
-int32
+int32_t
 timeoutMs
 =
 0
@@ -239,7 +239,7 @@ virtual
 void
 OnChannelConnected
 (
-int32
+int32_t
 peer_pid
 )
 ;

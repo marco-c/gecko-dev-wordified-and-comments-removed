@@ -97,7 +97,7 @@ Create
 (
 size_t
 size
-uint32
+uint32_t
 sequence_num
 )
 {

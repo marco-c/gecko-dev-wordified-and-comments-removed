@@ -81,7 +81,7 @@ namespace
 base
 {
 const
-int64
+int64_t
 Time
 :
 :
@@ -114,7 +114,7 @@ Time
 (
 static_cast
 <
-int64
+int64_t
 >
 (
 now
@@ -246,7 +246,7 @@ Time
 (
 static_cast
 <
-int64
+int64_t
 >
 (
 seconds

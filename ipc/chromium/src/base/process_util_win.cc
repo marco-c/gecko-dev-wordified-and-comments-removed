@@ -2735,7 +2735,7 @@ true
 ;
 }
 static
-uint64
+uint64_t
 FileTimeToUTC
 (
 const
@@ -2819,7 +2819,7 @@ return
 0
 ;
 }
-int64
+int64_t
 system_time
 =
 (
@@ -2836,7 +2836,7 @@ user_time
 /
 processor_count_
 ;
-int64
+int64_t
 time
 =
 FileTimeToUTC
@@ -2874,14 +2874,14 @@ return
 0
 ;
 }
-int64
+int64_t
 system_time_delta
 =
 system_time
 -
 last_system_time_
 ;
-int64
+int64_t
 time_delta
 =
 time

@@ -181,7 +181,7 @@ OS_WIN
 PlatformThreadId
 owning_thread_id_
 ;
-int32
+int32_t
 recursion_count_shadow_
 ;
 bool

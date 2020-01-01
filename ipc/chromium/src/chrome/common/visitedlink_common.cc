@@ -234,7 +234,7 @@ canonical_url
 size_t
 url_len
 const
-uint8
+uint8_t
 salt
 [
 LINK_SALT_LENGTH
@@ -306,7 +306,7 @@ return
 bit_cast
 <
 Fingerprint
-uint8
+uint8_t
 [
 8
 ]
@@ -315,7 +315,7 @@ uint8
 *
 reinterpret_cast
 <
-uint8
+uint8_t
 (
 *
 )

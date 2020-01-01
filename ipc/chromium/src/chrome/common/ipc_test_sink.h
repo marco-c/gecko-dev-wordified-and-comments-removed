@@ -94,7 +94,7 @@ Message
 *
 GetFirstMessageMatching
 (
-uint16
+uint16_t
 id
 )
 const
@@ -104,7 +104,7 @@ Message
 *
 GetUniqueMessageMatching
 (
-uint16
+uint16_t
 id
 )
 const

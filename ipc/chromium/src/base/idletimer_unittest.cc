@@ -64,7 +64,7 @@ mock_timer_started
 bool
 MockIdleTimeSource
 (
-int32
+int32_t
 *
 milliseconds_interval_since_last_event
 )
@@ -86,7 +86,7 @@ milliseconds_interval_since_last_event
 =
 static_cast
 <
-int32
+int32_t
 >
 (
 delta

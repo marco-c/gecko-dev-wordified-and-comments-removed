@@ -703,7 +703,7 @@ const
 char
 *
 path
-uint32
+uint32_t
 *
 result
 )
@@ -915,7 +915,7 @@ NS_ERROR_NOT_IMPLEMENTED
 #
 endif
 }
-uint32
+uint32_t
 GeckoChildProcessHost
 :
 :
@@ -937,7 +937,7 @@ GeckoProcessType_Plugin
 )
 {
 static
-uint32
+uint32_t
 pluginContainerArchs
 =
 0
@@ -3567,7 +3567,7 @@ GeckoChildProcessHost
 :
 OnChannelConnected
 (
-int32
+int32_t
 peer_pid
 )
 {

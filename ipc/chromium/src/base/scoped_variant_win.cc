@@ -515,7 +515,7 @@ ScopedVariant
 :
 Set
 (
-int8
+int8_t
 i8
 )
 {
@@ -561,7 +561,7 @@ ScopedVariant
 :
 Set
 (
-uint8
+uint8_t
 ui8
 )
 {
@@ -607,7 +607,7 @@ ScopedVariant
 :
 Set
 (
-int16
+int16_t
 i16
 )
 {
@@ -653,7 +653,7 @@ ScopedVariant
 :
 Set
 (
-uint16
+uint16_t
 ui16
 )
 {
@@ -699,7 +699,7 @@ ScopedVariant
 :
 Set
 (
-int32
+int32_t
 i32
 )
 {
@@ -745,7 +745,7 @@ ScopedVariant
 :
 Set
 (
-uint32
+uint32_t
 ui32
 )
 {
@@ -791,7 +791,7 @@ ScopedVariant
 :
 Set
 (
-int64
+int64_t
 i64
 )
 {
@@ -837,7 +837,7 @@ ScopedVariant
 :
 Set
 (
-uint64
+uint64_t
 ui64
 )
 {

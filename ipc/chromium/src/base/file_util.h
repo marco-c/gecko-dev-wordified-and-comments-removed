@@ -1043,7 +1043,7 @@ const
 FilePath
 &
 file_path
-int64
+int64_t
 *
 file_size
 )
@@ -1058,7 +1058,7 @@ std
 wstring
 &
 file_path
-int64
+int64_t
 *
 file_size
 )
@@ -1066,7 +1066,7 @@ file_size
 struct
 FileInfo
 {
-int64
+int64_t
 size
 ;
 bool
@@ -1511,7 +1511,7 @@ file_name
 )
 ;
 const
-uint8
+uint8_t
 *
 data
 (
@@ -1576,7 +1576,7 @@ file_
 ;
 #
 endif
-uint8
+uint8_t
 *
 data_
 ;

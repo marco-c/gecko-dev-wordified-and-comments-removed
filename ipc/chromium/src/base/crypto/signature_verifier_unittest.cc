@@ -31,7 +31,7 @@ BasicTest
 )
 {
 const
-uint8
+uint8_t
 tbs_certificate
 [
 1017
@@ -1058,7 +1058,7 @@ tbs_certificate
 }
 ;
 const
-uint8
+uint8_t
 signature_algorithm
 [
 15
@@ -1083,7 +1083,7 @@ signature_algorithm
 }
 ;
 const
-uint8
+uint8_t
 signature
 [
 256
@@ -1349,7 +1349,7 @@ signature
 }
 ;
 const
-uint8
+uint8_t
 public_key_info
 [
 294
@@ -1787,7 +1787,7 @@ EXPECT_TRUE
 ok
 )
 ;
-uint8
+uint8_t
 bad_tbs_certificate
 [
 sizeof
@@ -1871,7 +1871,7 @@ ok
 ;
 #
 endif
-uint8
+uint8_t
 bad_signature
 [
 sizeof

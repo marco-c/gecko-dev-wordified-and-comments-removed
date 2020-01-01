@@ -226,7 +226,7 @@ ChildThread
 :
 AddRoute
 (
-int32
+int32_t
 routing_id
 IPC
 :
@@ -269,7 +269,7 @@ ChildThread
 :
 RemoveRoute
 (
-int32
+int32_t
 routing_id
 )
 {

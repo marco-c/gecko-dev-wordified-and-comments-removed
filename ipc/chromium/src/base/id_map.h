@@ -47,7 +47,7 @@ base
 :
 hash_map
 <
-int32
+int32_t
 T
 *
 >
@@ -131,7 +131,7 @@ end
 )
 ;
 }
-int32
+int32_t
 Add
 (
 T
@@ -139,7 +139,7 @@ T
 data
 )
 {
-int32
+int32_t
 this_id
 =
 next_id_
@@ -189,7 +189,7 @@ AddWithID
 T
 *
 data
-int32
+int32_t
 id
 )
 {
@@ -228,7 +228,7 @@ data
 void
 Remove
 (
-int32
+int32_t
 id
 )
 {
@@ -359,7 +359,7 @@ T
 *
 Lookup
 (
-int32
+int32_t
 id
 )
 const
@@ -411,7 +411,7 @@ size
 }
 protected
 :
-int32
+int32_t
 next_id_
 ;
 HashTable

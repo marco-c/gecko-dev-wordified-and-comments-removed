@@ -997,7 +997,7 @@ std
 :
 numeric_limits
 <
-int32
+int32_t
 >
 :
 :

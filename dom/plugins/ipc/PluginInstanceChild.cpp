@@ -2530,7 +2530,7 @@ int
 drawingModel
 =
 (
-int16
+int16_t
 )
 (
 intptr_t
@@ -2705,7 +2705,7 @@ int
 eventModel
 =
 (
-int16
+int16_t
 )
 (
 intptr_t

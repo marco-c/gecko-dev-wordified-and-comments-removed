@@ -78,7 +78,7 @@ public
 :
 TestDataStructuresSub
 (
-uint32
+uint32_t
 i
 )
 :
@@ -121,7 +121,7 @@ destruction
 )
 ;
 }
-uint32
+uint32_t
 mI
 ;
 }

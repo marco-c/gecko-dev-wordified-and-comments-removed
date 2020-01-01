@@ -199,7 +199,7 @@ effect
 )
 ;
 static
-int32
+int32_t
 GetDragIdentity
 (
 )
@@ -229,7 +229,7 @@ IDropTargetHelper
 cached_drop_target_helper_
 ;
 static
-int32
+int32_t
 drag_identity_
 ;
 HWND

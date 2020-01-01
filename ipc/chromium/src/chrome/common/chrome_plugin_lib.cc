@@ -1086,7 +1086,7 @@ if
 CP_VersionNegotiate_
 )
 {
-uint16
+uint16_t
 selected_version
 =
 0

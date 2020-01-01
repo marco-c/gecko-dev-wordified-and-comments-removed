@@ -238,7 +238,7 @@ ResourceType
 :
 Type
 resource_type
-uint32
+uint32_t
 request_context
 int
 app_cache_context_id
@@ -272,9 +272,9 @@ const
 FilePath
 &
 path
-uint64
+uint64_t
 offset
-uint64
+uint64_t
 length
 )
 ;
@@ -282,7 +282,7 @@ virtual
 void
 SetUploadIdentifier
 (
-int64
+int64_t
 identifier
 )
 ;
@@ -430,7 +430,7 @@ ResourceType
 :
 Type
 resource_type
-uint32
+uint32_t
 request_context
 int
 app_cache_context_id
@@ -660,9 +660,9 @@ const
 FilePath
 &
 path
-uint64
+uint64_t
 offset
-uint64
+uint64_t
 length
 )
 {
@@ -720,7 +720,7 @@ IPCResourceLoaderBridge
 :
 SetUploadIdentifier
 (
-int64
+int64_t
 identifier
 )
 {
@@ -1371,9 +1371,9 @@ Message
 message
 int
 request_id
-int64
+int64_t
 position
-int64
+int64_t
 size
 )
 {
@@ -1518,9 +1518,9 @@ Message
 message
 int
 request_id
-int64
+int64_t
 position
-int64
+int64_t
 size
 )
 {
@@ -2740,7 +2740,7 @@ ResourceType
 :
 Type
 resource_type
-uint32
+uint32_t
 request_context
 int
 app_cache_context_id

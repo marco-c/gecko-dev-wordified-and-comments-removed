@@ -149,7 +149,7 @@ Trigger
 (
 Action
 action
-int32
+int32_t
 msg
 )
 :
@@ -166,7 +166,7 @@ msg
 Action
 mAction
 ;
-int32
+int32_t
 mMsg
 ;
 }
@@ -199,7 +199,7 @@ ProcessHandle
 ProcessHandle
 ;
 virtual
-int32
+int32_t
 Register
 (
 ListenerT
@@ -209,12 +209,12 @@ ListenerT
 0
 ;
 virtual
-int32
+int32_t
 RegisterID
 (
 ListenerT
 *
-int32
+int32_t
 )
 =
 0
@@ -224,7 +224,7 @@ ListenerT
 *
 Lookup
 (
-int32
+int32_t
 )
 =
 0
@@ -233,7 +233,7 @@ virtual
 void
 Unregister
 (
-int32
+int32_t
 )
 =
 0
@@ -242,7 +242,7 @@ virtual
 void
 RemoveManagee
 (
-int32
+int32_t
 ListenerT
 *
 )
@@ -263,7 +263,7 @@ SharedMemory
 :
 SharedMemoryType
 bool
-int32
+int32_t
 *
 )
 =
@@ -278,7 +278,7 @@ Shmem
 :
 SharedMemory
 *
-int32
+int32_t
 *
 )
 =
@@ -292,7 +292,7 @@ SharedMemory
 *
 LookupSharedMemory
 (
-int32
+int32_t
 )
 =
 0

@@ -276,7 +276,7 @@ translate
 =
 NULL
 ;
-uint32
+uint32_t
 page_count
 ;
 BOOL
@@ -902,7 +902,7 @@ value
 =
 NULL
 ;
-uint32
+uint32_t
 size
 ;
 BOOL

@@ -123,7 +123,7 @@ Message
 :
 Message
 (
-int32
+int32_t
 routing_id
 msgid_t
 type
@@ -216,7 +216,7 @@ rpc_remote_stack_depth_guess
 =
 static_cast
 <
-uint32
+uint32_t
 >
 (
 -
@@ -232,7 +232,7 @@ rpc_local_stack_depth
 =
 static_cast
 <
-uint32
+uint32_t
 >
 (
 -
@@ -412,7 +412,7 @@ Message
 :
 set_sent_time
 (
-int64
+int64_t
 time
 )
 {
@@ -449,7 +449,7 @@ time
 )
 ;
 }
-int64
+int64_t
 Message
 :
 :
@@ -491,7 +491,7 @@ data
 =
 sizeof
 (
-int64
+int64_t
 )
 ;
 return
@@ -500,7 +500,7 @@ return
 reinterpret_cast
 <
 const
-int64
+int64_t
 *
 >
 (
@@ -515,7 +515,7 @@ Message
 :
 set_received_time
 (
-int64
+int64_t
 time
 )
 const

@@ -33,7 +33,7 @@ NumberOfProcessors
 )
 ;
 static
-int64
+int64_t
 AmountOfPhysicalMemory
 (
 )
@@ -61,7 +61,7 @@ AmountOfPhysicalMemory
 ;
 }
 static
-int64
+int64_t
 AmountOfFreeDiskSpace
 (
 const
@@ -118,13 +118,13 @@ static
 void
 OperatingSystemVersionNumbers
 (
-int32
+int32_t
 *
 major_version
-int32
+int32_t
 *
 minor_version
-int32
+int32_t
 *
 bugfix_version
 )

@@ -238,10 +238,10 @@ std
 string
 headers
 ;
-uint32
+uint32_t
 expected_length
 ;
-uint32
+uint32_t
 last_modified
 ;
 bool

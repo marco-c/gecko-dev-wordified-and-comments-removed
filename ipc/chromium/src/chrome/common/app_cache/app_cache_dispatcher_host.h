@@ -121,7 +121,7 @@ const
 GURL
 &
 document_url
-int64
+int64_t
 cache_document_was_loaded_from
 const
 GURL

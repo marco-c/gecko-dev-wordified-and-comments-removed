@@ -106,7 +106,7 @@ TimeTicks
 ;
 namespace
 {
-int64
+int64_t
 FileTimeToMicroseconds
 (
 const
@@ -118,7 +118,7 @@ ft
 return
 bit_cast
 <
-int64
+int64_t
 FILETIME
 >
 (
@@ -131,7 +131,7 @@ ft
 void
 MicrosecondsToFileTime
 (
-int64
+int64_t
 us
 FILETIME
 *
@@ -170,7 +170,7 @@ ft
 bit_cast
 <
 FILETIME
-int64
+int64_t
 >
 (
 us
@@ -179,7 +179,7 @@ us
 )
 ;
 }
-int64
+int64_t
 CurrentWallclockMicroseconds
 (
 )
@@ -213,7 +213,7 @@ Time
 :
 kMillisecondsPerSecond
 ;
-int64
+int64_t
 initial_time
 =
 0
@@ -244,7 +244,7 @@ CurrentWallclockMicroseconds
 }
 }
 const
-int64
+int64_t
 Time
 :
 :
@@ -938,7 +938,7 @@ IsUsingHighResClock
 )
 )
 {
-int64
+int64_t
 now
 =
 UnreliableNow
@@ -1044,7 +1044,7 @@ ReliableNow
 )
 ;
 }
-int64
+int64_t
 UnreliableNow
 (
 )
@@ -1061,7 +1061,7 @@ now
 return
 static_cast
 <
-int64
+int64_t
 >
 (
 now
@@ -1072,7 +1072,7 @@ ticks_per_microsecond_
 )
 ;
 }
-int64
+int64_t
 ReliableNow
 (
 )
@@ -1101,7 +1101,7 @@ InMicroseconds
 float
 ticks_per_microsecond_
 ;
-int64
+int64_t
 skew_
 ;
 DISALLOW_COPY_AND_ASSIGN

@@ -133,7 +133,7 @@ static
 double
 CIEConvertNonLinear
 (
-uint8
+uint8_t
 color_component
 )
 {
@@ -205,7 +205,7 @@ CIE_XYZ
 xyz
 )
 {
-uint8
+uint8_t
 r
 =
 SkColorGetR
@@ -213,7 +213,7 @@ SkColorGetR
 c
 )
 ;
-uint8
+uint8_t
 g
 =
 SkColorGetG
@@ -221,7 +221,7 @@ SkColorGetG
 c
 )
 ;
-uint8
+uint8_t
 b
 =
 SkColorGetB
@@ -502,7 +502,7 @@ fz
 ;
 }
 static
-uint8
+uint8_t
 sRGBColorComponentFromLinearComponent
 (
 double
@@ -570,14 +570,14 @@ min
 (
 static_cast
 <
-uint8
+uint8_t
 >
 (
 255
 )
 static_cast
 <
-uint8
+uint8_t
 >
 (
 result
@@ -680,7 +680,7 @@ xyz
 .
 Z
 ;
-uint8
+uint8_t
 r
 =
 sRGBColorComponentFromLinearComponent
@@ -688,7 +688,7 @@ sRGBColorComponentFromLinearComponent
 r_linear
 )
 ;
-uint8
+uint8_t
 g
 =
 sRGBColorComponentFromLinearComponent
@@ -696,7 +696,7 @@ sRGBColorComponentFromLinearComponent
 g_linear
 )
 ;
-uint8
+uint8_t
 b
 =
 sRGBColorComponentFromLinearComponent

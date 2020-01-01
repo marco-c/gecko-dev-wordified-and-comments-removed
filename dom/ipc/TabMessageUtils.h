@@ -94,7 +94,7 @@ NativeThreadId
 #
 else
 typedef
-int32
+int32_t
 NativeThreadId
 ;
 #

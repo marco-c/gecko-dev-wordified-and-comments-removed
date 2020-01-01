@@ -154,7 +154,7 @@ void
 *
 *
 iter
-int16
+int16_t
 *
 result
 )
@@ -167,7 +167,7 @@ void
 *
 *
 iter
-uint16
+uint16_t
 *
 result
 )
@@ -246,7 +246,7 @@ void
 *
 *
 iter
-int32
+int32_t
 *
 result
 )
@@ -259,7 +259,7 @@ void
 *
 *
 iter
-uint32
+uint32_t
 *
 result
 )
@@ -272,7 +272,7 @@ void
 *
 *
 iter
-int64
+int64_t
 *
 result
 )
@@ -285,7 +285,7 @@ void
 *
 *
 iter
-uint64
+uint64_t
 *
 result
 )
@@ -408,12 +408,12 @@ char
 data
 int
 length
-uint32
+uint32_t
 alignment
 =
 sizeof
 (
-uint32
+uint32_t
 )
 )
 const
@@ -452,7 +452,7 @@ value
 bool
 WriteInt16
 (
-int16
+int16_t
 value
 )
 {
@@ -471,7 +471,7 @@ value
 bool
 WriteUInt16
 (
-uint16
+uint16_t
 value
 )
 {
@@ -516,7 +516,7 @@ value
 return
 WriteInt64
 (
-int64
+int64_t
 (
 value
 )
@@ -534,7 +534,7 @@ value
 return
 WriteUInt64
 (
-uint64
+uint64_t
 (
 value
 )
@@ -551,7 +551,7 @@ value
 return
 WriteUInt64
 (
-uint64
+uint64_t
 (
 value
 )
@@ -561,7 +561,7 @@ value
 bool
 WriteInt32
 (
-int32
+int32_t
 value
 )
 {
@@ -580,7 +580,7 @@ value
 bool
 WriteUInt32
 (
-uint32
+uint32_t
 value
 )
 {
@@ -599,7 +599,7 @@ value
 bool
 WriteInt64
 (
-int64
+int64_t
 value
 )
 {
@@ -618,7 +618,7 @@ value
 bool
 WriteUInt64
 (
-uint64
+uint64_t
 value
 )
 {
@@ -663,7 +663,7 @@ value
 return
 WriteInt64
 (
-int64
+int64_t
 (
 value
 )
@@ -743,12 +743,12 @@ void
 data
 int
 data_len
-uint32
+uint32_t
 alignment
 =
 sizeof
 (
-uint32
+uint32_t
 )
 )
 ;
@@ -790,7 +790,7 @@ end_of_payload
 struct
 Header
 {
-uint32
+uint32_t
 payload_size
 ;
 }
@@ -939,7 +939,7 @@ end_of_payload
 }
 protected
 :
-uint32
+uint32_t
 payload_size
 (
 )
@@ -1027,7 +1027,7 @@ payload_size
 )
 ;
 }
-uint32
+uint32_t
 capacity
 (
 )
@@ -1041,9 +1041,9 @@ char
 *
 BeginWrite
 (
-uint32
+uint32_t
 length
-uint32
+uint32_t
 alignment
 )
 ;
@@ -1060,15 +1060,15 @@ length
 bool
 Resize
 (
-uint32
+uint32_t
 new_capacity
 )
 ;
 static
-uint32
+uint32_t
 AlignInt
 (
-uint32
+uint32_t
 i
 int
 alignment
@@ -1120,7 +1120,7 @@ AlignInt
 bytes
 sizeof
 (
-uint32
+uint32_t
 )
 )
 ;
@@ -1131,7 +1131,7 @@ char
 *
 FindNext
 (
-uint32
+uint32_t
 header_size
 const
 char
@@ -1154,13 +1154,13 @@ Header
 *
 header_
 ;
-uint32
+uint32_t
 header_size_
 ;
-uint32
+uint32_t
 capacity_
 ;
-uint32
+uint32_t
 variable_buffer_offset_
 ;
 FRIEND_TEST

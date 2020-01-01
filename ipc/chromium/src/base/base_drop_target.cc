@@ -32,7 +32,7 @@ cached_drop_target_helper_
 =
 NULL
 ;
-int32
+int32_t
 BaseDropTarget
 :
 :

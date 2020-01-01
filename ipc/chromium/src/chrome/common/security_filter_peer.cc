@@ -553,9 +553,9 @@ SecurityFilterPeer
 :
 OnUploadProgress
 (
-uint64
+uint64_t
 position
-uint64
+uint64_t
 size
 )
 {

@@ -150,7 +150,7 @@ View
 IPC_MESSAGE_CONTROL1
 (
 ViewMsg_SetNextPageID
-int32
+int32_t
 )
 IPC_MESSAGE_CONTROL4
 (
@@ -161,7 +161,7 @@ gfx
 NativeViewId
 ModalDialogEvent
 WebPreferences
-int32
+int32_t
 )
 IPC_MESSAGE_CONTROL3
 (
@@ -347,15 +347,15 @@ IPC_MESSAGE_ROUTED3
 (
 ViewMsg_Resource_DownloadProgress
 int
-int64
-int64
+int64_t
+int64_t
 )
 IPC_MESSAGE_ROUTED3
 (
 ViewMsg_Resource_UploadProgress
 int
-int64
-int64
+int64_t
+int64_t
 )
 IPC_MESSAGE_ROUTED2
 (
@@ -686,7 +686,7 @@ FilePath
 IPC_MESSAGE_ROUTED1
 (
 ViewMsg_GetApplicationInfo
-int32
+int32_t
 )
 IPC_MESSAGE_ROUTED3
 (
@@ -754,12 +754,12 @@ IPC_MESSAGE_CONTROL3
 AppCacheMsg_AppCacheSelected
 int
 int
-int64
+int64_t
 )
 IPC_MESSAGE_ROUTED4
 (
 ViewMsg_AutofillSuggestions
-int64
+int64_t
 int
 std
 :
@@ -968,7 +968,7 @@ ViewHostMsg_FrameNavigate_Params
 IPC_MESSAGE_ROUTED2
 (
 ViewHostMsg_UpdateState
-int32
+int32_t
 std
 :
 :
@@ -977,7 +977,7 @@ string
 IPC_MESSAGE_ROUTED2
 (
 ViewHostMsg_UpdateTitle
-int32
+int32_t
 std
 :
 :
@@ -994,7 +994,7 @@ wstring
 IPC_MESSAGE_ROUTED2
 (
 ViewHostMsg_UpdateTargetURL
-int32
+int32_t
 GURL
 )
 IPC_MESSAGE_ROUTED0
@@ -1172,7 +1172,7 @@ std
 :
 vector
 <
-uint8
+uint8_t
 >
 )
 IPC_SYNC_MESSAGE_CONTROL2_1
@@ -1184,14 +1184,14 @@ std
 :
 vector
 <
-uint8
+uint8_t
 >
 std
 :
 :
 vector
 <
-uint8
+uint8_t
 >
 )
 IPC_SYNC_MESSAGE_ROUTED1_2
@@ -1238,7 +1238,7 @@ IPC_MESSAGE_CONTROL3
 (
 ViewHostMsg_PageContents
 GURL
-int32
+int32_t
 std
 :
 :
@@ -1254,7 +1254,7 @@ SkBitmap
 IPC_MESSAGE_ROUTED2
 (
 ViewHostMsg_UpdateFavIconURL
-int32
+int32_t
 GURL
 )
 IPC_MESSAGE_ROUTED0
@@ -1463,7 +1463,7 @@ bool
 IPC_MESSAGE_ROUTED3
 (
 ViewHostMsg_PageHasOSDD
-int32
+int32_t
 GURL
 bool
 )
@@ -1523,7 +1523,7 @@ std
 :
 :
 wstring
-int32
+int32_t
 std
 :
 :
@@ -1663,7 +1663,7 @@ std
 :
 :
 string
-int32
+int32_t
 )
 IPC_SYNC_MESSAGE_ROUTED4_1
 (
@@ -1683,7 +1683,7 @@ string
 IPC_MESSAGE_ROUTED2
 (
 ViewHostMsg_DidGetApplicationInfo
-int32
+int32_t
 webkit_glue
 :
 :
@@ -1744,7 +1744,7 @@ StringType
 IPC_SYNC_MESSAGE_CONTROL0_1
 (
 ViewHostMsg_GetCPBrowsingContext
-uint32
+uint32_t
 )
 IPC_MESSAGE_ROUTED1
 (
@@ -1829,7 +1829,7 @@ AppCacheMsg_SelectAppCache
 int
 int
 GURL
-int64
+int64_t
 GURL
 )
 IPC_SYNC_MESSAGE_ROUTED1_1
@@ -1855,7 +1855,7 @@ std
 :
 :
 wstring
-int64
+int64_t
 int
 )
 IPC_MESSAGE_ROUTED2

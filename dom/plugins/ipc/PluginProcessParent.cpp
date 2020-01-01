@@ -178,7 +178,7 @@ GetCurrentProcessArchitecture
 (
 )
 ;
-uint32
+uint32_t
 containerArchitectures
 =
 GetSupportedArchitecturesForProcessType
@@ -186,7 +186,7 @@ GetSupportedArchitecturesForProcessType
 GeckoProcessType_Plugin
 )
 ;
-uint32
+uint32_t
 pluginLibArchitectures
 =
 currentArchitecture

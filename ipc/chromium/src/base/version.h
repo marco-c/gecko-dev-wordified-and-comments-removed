@@ -98,7 +98,7 @@ std
 :
 vector
 <
-uint16
+uint16_t
 >
 &
 components
@@ -134,7 +134,7 @@ std
 :
 vector
 <
-uint16
+uint16_t
 >
 components_
 ;

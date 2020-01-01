@@ -59,7 +59,7 @@ h
 namespace
 IPC
 {
-uint32
+uint32_t
 SyncMessage
 :
 :
@@ -93,9 +93,9 @@ SyncMessage
 :
 SyncMessage
 (
-int32
+int32_t
 routing_id
-uint16
+uint16_t
 type
 PriorityValue
 priority

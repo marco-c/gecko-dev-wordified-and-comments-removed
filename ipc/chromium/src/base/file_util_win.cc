@@ -2595,7 +2595,7 @@ srand
 (
 static_cast
 <
-uint32
+uint32_t
 >
 (
 time
@@ -4044,7 +4044,7 @@ data_
 =
 static_cast
 <
-uint8
+uint8_t
 *
 >
 (

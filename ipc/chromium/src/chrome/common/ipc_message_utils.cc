@@ -49,13 +49,13 @@ SkBitmap
 Config
 fConfig
 ;
-uint32
+uint32_t
 fWidth
 ;
-uint32
+uint32_t
 fHeight
 ;
-uint32
+uint32_t
 fRowBytes
 ;
 void

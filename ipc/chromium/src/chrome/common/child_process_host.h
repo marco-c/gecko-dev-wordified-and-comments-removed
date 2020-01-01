@@ -258,7 +258,7 @@ virtual
 void
 OnChannelConnected
 (
-int32
+int32_t
 peer_pid
 )
 {
@@ -407,7 +407,7 @@ virtual
 void
 OnChannelConnected
 (
-int32
+int32_t
 peer_pid
 )
 ;

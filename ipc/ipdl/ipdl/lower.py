@@ -534,11 +534,8 @@ _protocolIdType
     
 return
 Type
-(
-'
-int32
-'
-)
+.
+INT32
 def
 _actorName
 (
@@ -609,11 +606,8 @@ _actorIdType
     
 return
 Type
-(
-'
-int32
-'
-)
+.
+INT32
 def
 _actorId
 (
@@ -12355,7 +12349,7 @@ Decl
 Type
 (
 '
-int32
+int32_t
 '
 const
 =
@@ -12402,7 +12396,7 @@ Decl
 Type
 (
 '
-int32
+int32_t
 '
 const
 =

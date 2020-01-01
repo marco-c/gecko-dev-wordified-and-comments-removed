@@ -648,7 +648,7 @@ std
 :
 vector
 <
-uint8
+uint8_t
 >
 *
 buffer
@@ -756,7 +756,7 @@ std
 :
 vector
 <
-uint8
+uint8_t
 >
 buffer
 ;

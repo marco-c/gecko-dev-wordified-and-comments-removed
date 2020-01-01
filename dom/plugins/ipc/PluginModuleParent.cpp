@@ -1073,7 +1073,7 @@ kChildTimeoutPref
 0
 )
 ;
-int32
+int32_t
 timeoutMs
 =
 (

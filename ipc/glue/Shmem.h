@@ -94,7 +94,7 @@ Shmem
 public
 :
 typedef
-int32
+int32_t
 id_t
 ;
 typedef
@@ -519,7 +519,7 @@ base
 :
 ProcessHandle
 aProcess
-int32
+int32_t
 routingId
 )
 ;
@@ -536,7 +536,7 @@ base
 :
 ProcessHandle
 aProcess
-int32
+int32_t
 routingId
 )
 ;
@@ -627,7 +627,7 @@ const
 {
 }
 static
-uint32
+uint32_t
 *
 PtrToSize
 (
@@ -664,7 +664,7 @@ Size
 return
 reinterpret_cast
 <
-uint32
+uint32_t
 *
 >
 (
@@ -672,7 +672,7 @@ endOfSegment
 -
 sizeof
 (
-uint32
+uint32_t
 )
 )
 ;

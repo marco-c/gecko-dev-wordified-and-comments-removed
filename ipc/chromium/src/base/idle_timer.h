@@ -56,7 +56,7 @@ bool
 IdleTimeSource
 )
 (
-int32
+int32_t
 *
 milliseconds_interval_since_last_event
 )

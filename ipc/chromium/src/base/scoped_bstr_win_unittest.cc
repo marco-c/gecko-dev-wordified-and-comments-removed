@@ -48,7 +48,7 @@ L
 456789
 "
 ;
-uint32
+uint32_t
 test1_len
 =
 arraysize
@@ -58,7 +58,7 @@ kTestString1
 -
 1
 ;
-uint32
+uint32_t
 test2_len
 =
 arraysize
@@ -573,7 +573,7 @@ kSourceStrEmpty
 empty
 )
 ;
-uint32
+uint32_t
 l1
 =
 SysStringLen
@@ -581,7 +581,7 @@ SysStringLen
 stack_bstr
 )
 ;
-uint32
+uint32_t
 l2
 =
 SysStringLen
@@ -592,7 +592,7 @@ kSourceStr
 )
 )
 ;
-uint32
+uint32_t
 l3
 =
 SysStringLen

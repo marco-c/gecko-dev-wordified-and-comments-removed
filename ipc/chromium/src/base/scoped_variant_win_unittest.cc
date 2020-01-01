@@ -622,7 +622,7 @@ Set
 (
 static_cast
 <
-int8
+int8_t
 >
 (
 '
@@ -692,7 +692,7 @@ Set
 (
 static_cast
 <
-int32
+int32_t
 >
 (
 123
@@ -725,7 +725,7 @@ Set
 (
 static_cast
 <
-int64
+int64_t
 >
 (
 123
@@ -758,7 +758,7 @@ Set
 (
 static_cast
 <
-uint8
+uint8_t
 >
 (
 123
@@ -825,7 +825,7 @@ Set
 (
 static_cast
 <
-uint32
+uint32_t
 >
 (
 123
@@ -858,7 +858,7 @@ Set
 (
 static_cast
 <
-uint64
+uint64_t
 >
 (
 123

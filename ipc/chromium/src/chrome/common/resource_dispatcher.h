@@ -174,7 +174,7 @@ ResourceType
 :
 Type
 resource_type
-uint32
+uint32_t
 request_context
 int
 app_cache_context_id
@@ -360,9 +360,9 @@ Message
 message
 int
 request_id
-int64
+int64_t
 position
-int64
+int64_t
 size
 )
 ;
@@ -378,9 +378,9 @@ Message
 message
 int
 request_id
-int64
+int64_t
 position
-int64
+int64_t
 size
 )
 ;

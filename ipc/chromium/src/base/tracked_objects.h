@@ -246,7 +246,7 @@ return
 life_duration_
 ;
 }
-int64
+int64_t
 square_duration
 (
 )
@@ -305,7 +305,7 @@ base
 TimeDelta
 life_duration_
 ;
-int64
+int64_t
 square_duration_
 ;
 }
@@ -452,7 +452,7 @@ life_duration
 )
 ;
 }
-int64
+int64_t
 square_duration
 (
 )

@@ -70,7 +70,7 @@ public
 :
 ShmemCreated
 (
-int32
+int32_t
 routingId
 const
 id_t
@@ -123,7 +123,7 @@ IPC
 WriteParam
 (
 this
-int32
+int32_t
 (
 SharedMemory
 :
@@ -203,7 +203,7 @@ msg
 iter
 reinterpret_cast
 <
-int32
+int32_t
 *
 >
 (
@@ -272,7 +272,7 @@ ifdef
 MOZ_HAVE_SHAREDMEMORYSYSV
 ShmemCreated
 (
-int32
+int32_t
 routingId
 const
 id_t
@@ -325,7 +325,7 @@ IPC
 WriteParam
 (
 this
-int32
+int32_t
 (
 SharedMemory
 :
@@ -447,7 +447,7 @@ public
 :
 ShmemDestroyed
 (
-int32
+int32_t
 routingId
 const
 id_t
@@ -775,10 +775,10 @@ home
 struct
 Header
 {
-uint32
+uint32_t
 mSize
 ;
-uint32
+uint32_t
 mUnsafe
 ;
 char
@@ -1609,7 +1609,7 @@ mSize
 =
 static_cast
 <
-uint32
+uint32_t
 >
 (
 aNBytes
@@ -2093,7 +2093,7 @@ aNBytes
 +
 sizeof
 (
-uint32
+uint32_t
 )
 )
 SharedMemoryBasic
@@ -2131,7 +2131,7 @@ aNBytes
 +
 sizeof
 (
-uint32
+uint32_t
 )
 )
 SharedMemorySysV
@@ -2165,7 +2165,7 @@ segment
 =
 static_cast
 <
-uint32
+uint32_t
 >
 (
 aNBytes
@@ -2277,7 +2277,7 @@ size
 +
 sizeof
 (
-uint32
+uint32_t
 )
 )
 ;
@@ -2618,7 +2618,7 @@ base
 :
 ProcessHandle
 aProcess
-int32
+int32_t
 routingId
 )
 {
@@ -2776,7 +2776,7 @@ base
 :
 ProcessHandle
 aProcess
-int32
+int32_t
 routingId
 )
 {

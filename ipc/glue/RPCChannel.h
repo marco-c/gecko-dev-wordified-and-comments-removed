@@ -187,7 +187,7 @@ virtual
 void
 OnChannelConnected
 (
-int32
+int32_t
 peer_pid
 )
 {
@@ -383,7 +383,7 @@ virtual
 bool
 OnSpecialMessage
 (
-uint16
+uint16_t
 id
 const
 Message
@@ -663,7 +663,7 @@ mDirection
 void
 Describe
 (
-int32
+int32_t
 *
 id
 const

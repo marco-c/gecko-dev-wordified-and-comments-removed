@@ -205,10 +205,10 @@ PluginResponseUtils
 public
 :
 static
-uint32
+uint32_t
 CPLoadFlagsToNetFlags
 (
-uint32
+uint32_t
 flags
 )
 ;
@@ -264,7 +264,7 @@ alloc
 (
 static_cast
 <
-uint32
+uint32_t
 >
 (
 str
@@ -319,7 +319,7 @@ void
 STDCALL
 CPB_Alloc
 (
-uint32
+uint32_t
 size
 )
 ;

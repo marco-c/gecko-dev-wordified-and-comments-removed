@@ -226,7 +226,7 @@ ScopedBstr
 :
 SetByteLen
 (
-uint32
+uint32_t
 bytes
 )
 {
@@ -248,13 +248,13 @@ NULL
 bstr
 "
 ;
-uint32
+uint32_t
 *
 data
 =
 reinterpret_cast
 <
-uint32
+uint32_t
 *
 >
 (
@@ -270,7 +270,7 @@ data
 bytes
 ;
 }
-uint32
+uint32_t
 ScopedBstr
 :
 :
@@ -286,7 +286,7 @@ bstr_
 )
 ;
 }
-uint32
+uint32_t
 ScopedBstr
 :
 :

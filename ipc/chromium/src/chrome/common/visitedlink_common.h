@@ -48,11 +48,11 @@ VisitedLinkCommon
 public
 :
 typedef
-uint64
+uint64_t
 Fingerprint
 ;
 typedef
-int32
+int32_t
 Hash
 ;
 static
@@ -156,7 +156,7 @@ UNIT_TEST
 void
 GetUsageStatistics
 (
-int32
+int32_t
 *
 table_size
 VisitedLinkCommon
@@ -186,10 +186,10 @@ protected
 struct
 SharedHeader
 {
-uint32
+uint32_t
 length
 ;
-uint8
+uint8_t
 salt
 [
 LINK_SALT_LENGTH
@@ -200,7 +200,7 @@ LINK_SALT_LENGTH
 Fingerprint
 FingerprintAt
 (
-int32
+int32_t
 table_offset
 )
 const
@@ -231,7 +231,7 @@ canonical_url
 size_t
 url_len
 const
-uint8
+uint8_t
 salt
 [
 LINK_SALT_LENGTH
@@ -244,7 +244,7 @@ HashFingerprint
 (
 Fingerprint
 fingerprint
-int32
+int32_t
 table_length
 )
 {
@@ -293,10 +293,10 @@ Fingerprint
 *
 hash_table_
 ;
-int32
+int32_t
 table_length_
 ;
-uint8
+uint8_t
 salt_
 [
 LINK_SALT_LENGTH

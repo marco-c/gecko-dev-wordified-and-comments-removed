@@ -66,7 +66,7 @@ static
 TimeDelta
 FromDays
 (
-int64
+int64_t
 days
 )
 ;
@@ -74,7 +74,7 @@ static
 TimeDelta
 FromHours
 (
-int64
+int64_t
 hours
 )
 ;
@@ -82,7 +82,7 @@ static
 TimeDelta
 FromMinutes
 (
-int64
+int64_t
 minutes
 )
 ;
@@ -90,7 +90,7 @@ static
 TimeDelta
 FromSeconds
 (
-int64
+int64_t
 secs
 )
 ;
@@ -98,7 +98,7 @@ static
 TimeDelta
 FromMilliseconds
 (
-int64
+int64_t
 ms
 )
 ;
@@ -106,11 +106,11 @@ static
 TimeDelta
 FromMicroseconds
 (
-int64
+int64_t
 us
 )
 ;
-int64
+int64_t
 ToInternalValue
 (
 )
@@ -144,7 +144,7 @@ InSecondsF
 )
 const
 ;
-int64
+int64_t
 InSeconds
 (
 )
@@ -156,13 +156,13 @@ InMillisecondsF
 )
 const
 ;
-int64
+int64_t
 InMilliseconds
 (
 )
 const
 ;
-int64
+int64_t
 InMicroseconds
 (
 )
@@ -291,7 +291,7 @@ TimeDelta
 operator
 *
 (
-int64
+int64_t
 a
 )
 const
@@ -309,7 +309,7 @@ TimeDelta
 operator
 /
 (
-int64
+int64_t
 a
 )
 const
@@ -329,7 +329,7 @@ operator
 *
 =
 (
-int64
+int64_t
 a
 )
 {
@@ -349,7 +349,7 @@ operator
 /
 =
 (
-int64
+int64_t
 a
 )
 {
@@ -363,7 +363,7 @@ return
 this
 ;
 }
-int64
+int64_t
 operator
 /
 (
@@ -523,7 +523,7 @@ TimeDelta
 operator
 *
 (
-int64
+int64_t
 a
 TimeDelta
 td
@@ -532,7 +532,7 @@ td
 explicit
 TimeDelta
 (
-int64
+int64_t
 delta_us
 )
 :
@@ -542,7 +542,7 @@ delta_us
 )
 {
 }
-int64
+int64_t
 delta_
 ;
 }
@@ -552,7 +552,7 @@ TimeDelta
 operator
 *
 (
-int64
+int64_t
 a
 TimeDelta
 td
@@ -576,21 +576,21 @@ public
 :
 static
 const
-int64
+int64_t
 kMillisecondsPerSecond
 =
 1000
 ;
 static
 const
-int64
+int64_t
 kMicrosecondsPerMillisecond
 =
 1000
 ;
 static
 const
-int64
+int64_t
 kMicrosecondsPerSecond
 =
 kMicrosecondsPerMillisecond
@@ -599,7 +599,7 @@ kMillisecondsPerSecond
 ;
 static
 const
-int64
+int64_t
 kMicrosecondsPerMinute
 =
 kMicrosecondsPerSecond
@@ -608,7 +608,7 @@ kMicrosecondsPerSecond
 ;
 static
 const
-int64
+int64_t
 kMicrosecondsPerHour
 =
 kMicrosecondsPerMinute
@@ -617,7 +617,7 @@ kMicrosecondsPerMinute
 ;
 static
 const
-int64
+int64_t
 kMicrosecondsPerDay
 =
 kMicrosecondsPerHour
@@ -626,7 +626,7 @@ kMicrosecondsPerHour
 ;
 static
 const
-int64
+int64_t
 kMicrosecondsPerWeek
 =
 kMicrosecondsPerDay
@@ -635,14 +635,14 @@ kMicrosecondsPerDay
 ;
 static
 const
-int64
+int64_t
 kNanosecondsPerMicrosecond
 =
 1000
 ;
 static
 const
-int64
+int64_t
 kNanosecondsPerSecond
 =
 kNanosecondsPerMicrosecond
@@ -810,7 +810,7 @@ static
 Time
 FromInternalValue
 (
-int64
+int64_t
 us
 )
 {
@@ -834,7 +834,7 @@ Time
 parsed_time
 )
 ;
-int64
+int64_t
 ToInternalValue
 (
 )
@@ -1143,7 +1143,7 @@ exploded
 ;
 Time
 (
-int64
+int64_t
 us
 )
 :
@@ -1155,10 +1155,10 @@ us
 }
 static
 const
-int64
+int64_t
 kTimeTToMicrosecondsOffset
 ;
-int64
+int64_t
 us_
 ;
 }
@@ -1194,7 +1194,7 @@ TimeDelta
 :
 FromDays
 (
-int64
+int64_t
 days
 )
 {
@@ -1217,7 +1217,7 @@ TimeDelta
 :
 FromHours
 (
-int64
+int64_t
 hours
 )
 {
@@ -1240,7 +1240,7 @@ TimeDelta
 :
 FromMinutes
 (
-int64
+int64_t
 minutes
 )
 {
@@ -1263,7 +1263,7 @@ TimeDelta
 :
 FromSeconds
 (
-int64
+int64_t
 secs
 )
 {
@@ -1286,7 +1286,7 @@ TimeDelta
 :
 FromMilliseconds
 (
-int64
+int64_t
 ms
 )
 {
@@ -1309,7 +1309,7 @@ TimeDelta
 :
 FromMicroseconds
 (
-int64
+int64_t
 us
 )
 {
@@ -1360,7 +1360,7 @@ ticks_
 0
 ;
 }
-int64
+int64_t
 ToInternalValue
 (
 )
@@ -1617,7 +1617,7 @@ PageLoadTrackerUnitTest
 explicit
 TimeTicks
 (
-int64
+int64_t
 ticks
 )
 :
@@ -1627,7 +1627,7 @@ ticks
 )
 {
 }
-int64
+int64_t
 ticks_
 ;
 #

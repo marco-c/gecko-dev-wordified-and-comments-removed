@@ -98,7 +98,7 @@ bytes
 void
 SetByteLen
 (
-uint32
+uint32_t
 bytes
 )
 ;
@@ -116,13 +116,13 @@ Receive
 (
 )
 ;
-uint32
+uint32_t
 Length
 (
 )
 const
 ;
-uint32
+uint32_t
 ByteLength
 (
 )
@@ -178,7 +178,7 @@ ScopedBstr
 ;
 template
 <
-uint32
+uint32_t
 string_bytes
 >
 class
@@ -200,7 +200,7 @@ COMPILE_ASSERT
 (
 sizeof
 (
-uint32
+uint32_t
 )
 =
 =
@@ -297,7 +297,7 @@ protected
 struct
 BstrInternal
 {
-uint32
+uint32_t
 len_
 ;
 wchar_t

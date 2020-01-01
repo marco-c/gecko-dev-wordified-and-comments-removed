@@ -180,7 +180,7 @@ TimeDelta
 max_time
 )
 {
-int64
+int64_t
 usecs
 =
 max_time

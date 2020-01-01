@@ -42,12 +42,12 @@ h
 namespace
 base
 {
-uint64
+uint64_t
 RandUint64
 (
 )
 {
-uint64
+uint64_t
 number
 ;
 int
