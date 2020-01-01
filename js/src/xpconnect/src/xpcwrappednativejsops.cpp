@@ -1402,7 +1402,7 @@ JS_NewFunction
 ccx
 XPC_WN_DoubleWrappedGetter
 0
-JSFUN_GETTER
+0
 obj
 name
 )

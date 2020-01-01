@@ -5730,7 +5730,7 @@ OBJECT
 nanojit
 :
 :
-ACC_STORE_ANY
+ACCSET_STORE_ANY
 )
 )
 )
@@ -5783,7 +5783,7 @@ OBJECT
 nanojit
 :
 :
-ACC_STORE_ANY
+ACCSET_STORE_ANY
 )
 )
 )
@@ -5836,7 +5836,7 @@ OBJECT
 nanojit
 :
 :
-ACC_STORE_ANY
+ACCSET_STORE_ANY
 )
 )
 )
@@ -5889,7 +5889,7 @@ OBJECT
 nanojit
 :
 :
-ACC_STORE_ANY
+ACCSET_STORE_ANY
 )
 )
 )
@@ -5942,7 +5942,7 @@ OBJECT
 nanojit
 :
 :
-ACC_STORE_ANY
+ACCSET_STORE_ANY
 )
 )
 )
@@ -5995,7 +5995,7 @@ OBJECT
 nanojit
 :
 :
-ACC_STORE_ANY
+ACCSET_STORE_ANY
 )
 )
 )
@@ -6048,7 +6048,7 @@ OBJECT
 nanojit
 :
 :
-ACC_STORE_ANY
+ACCSET_STORE_ANY
 )
 )
 )
@@ -6101,7 +6101,7 @@ OBJECT
 nanojit
 :
 :
-ACC_STORE_ANY
+ACCSET_STORE_ANY
 )
 )
 )
@@ -6158,7 +6158,7 @@ OBJECT
 nanojit
 :
 :
-ACC_STORE_ANY
+ACCSET_STORE_ANY
 )
 )
 )
@@ -6215,7 +6215,7 @@ OBJECT
 nanojit
 :
 :
-ACC_STORE_ANY
+ACCSET_STORE_ANY
 )
 )
 )
@@ -6272,7 +6272,7 @@ OBJECT
 nanojit
 :
 :
-ACC_STORE_ANY
+ACCSET_STORE_ANY
 )
 )
 )

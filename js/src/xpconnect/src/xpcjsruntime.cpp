@@ -5106,7 +5106,12 @@ JS_FALSE
 JS_SetNativeStackQuota
 (
 cx
-512
+128
+*
+sizeof
+(
+size_t
+)
 *
 1024
 )
@@ -5114,7 +5119,12 @@ cx
 JS_SetScriptStackQuota
 (
 cx
-100
+25
+*
+sizeof
+(
+size_t
+)
 *
 1024
 *
