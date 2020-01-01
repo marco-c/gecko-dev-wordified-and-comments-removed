@@ -34,6 +34,11 @@ Callee
 \
 _
 (
+ForceUse
+)
+\
+_
+(
 TableSwitch
 )
 \
