@@ -518,9 +518,14 @@ mfbt
 sources
 itself
 .
-include
+MFBT_ROOT
+=
 (
 srcdir
+)
+include
+(
+MFBT_ROOT
 )
 /
 sources
