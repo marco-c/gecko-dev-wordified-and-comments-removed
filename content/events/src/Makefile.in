@@ -499,6 +499,10 @@ nsDOMMouseEvent
 .
 cpp
 \
+nsDOMMouseScrollEvent
+.
+cpp
+\
 nsDOMMutationEvent
 .
 cpp
