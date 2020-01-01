@@ -14113,6 +14113,12 @@ if
 vScroll
 )
 {
+const
+double
+kScrollMultiplier
+=
+3
+;
 nscoord
 fontHeight
 =
@@ -14121,6 +14127,8 @@ GetLineScrollAmount
 )
 .
 height
+*
+kScrollMultiplier
 ;
 nscoord
 pageincrement
