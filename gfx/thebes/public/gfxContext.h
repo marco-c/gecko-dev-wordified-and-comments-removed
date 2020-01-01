@@ -172,6 +172,11 @@ gfxPoint
 pt
 )
 ;
+void
+NewSubPath
+(
+)
+;
 gfxPoint
 CurrentPoint
 (
