@@ -1946,8 +1946,8 @@ widthRange
 new
 Range
 (
-60
-70
+40
+45
 )
 ;
 proportion
