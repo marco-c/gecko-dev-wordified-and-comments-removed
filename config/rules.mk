@@ -2703,6 +2703,8 @@ sh
 endif
 ifdef
 MACH
+ifndef
+NO_BUILDSTATUS_MESSAGES
 BUILDSTATUS
 =
 echo
@@ -2710,6 +2712,7 @@ echo
 BUILDSTATUS
 1
 "
+endif
 endif
 #
 Static
