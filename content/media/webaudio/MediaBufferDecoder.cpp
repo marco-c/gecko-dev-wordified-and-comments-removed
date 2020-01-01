@@ -238,7 +238,7 @@ BufferDecoder
 (
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 void
 BeginDecoding
 (
@@ -511,7 +511,7 @@ mResource
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS0
+NS_IMPL_ISUPPORTS0
 (
 BufferDecoder
 )

@@ -169,7 +169,7 @@ mSample
 bool
 mReadFinished
 ;
-nsAutoRefCnt
+ThreadSafeAutoRefCnt
 mRefCnt
 ;
 NS_DECL_OWNINGTHREAD
