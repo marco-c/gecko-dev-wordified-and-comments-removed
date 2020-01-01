@@ -123,3 +123,6 @@ reflect
 jsm
 '
 ]
+LIBXUL_LIBRARY
+=
+True

@@ -507,3 +507,6 @@ nsUpdateDriver
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True

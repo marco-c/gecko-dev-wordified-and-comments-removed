@@ -602,3 +602,6 @@ LIBRARY_NAME
 '
 xpcomds_s
 '
+LIBXUL_LIBRARY
+=
+True

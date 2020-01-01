@@ -82,9 +82,6 @@ MSVC_ENABLE_PGO
 MOZILLA_INTERNAL_API
 =
 1
-LIBXUL_LIBRARY
-=
-1
 include
 (
 topsrcdir

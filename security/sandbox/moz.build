@@ -120,3 +120,6 @@ Sandbox
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True

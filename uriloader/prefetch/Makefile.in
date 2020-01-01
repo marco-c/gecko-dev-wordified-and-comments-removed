@@ -79,9 +79,6 @@ mk
 LIBRARY_NAME
 =
 prefetch_s
-LIBXUL_LIBRARY
-=
-1
 LOCAL_INCLUDES
 =
 \

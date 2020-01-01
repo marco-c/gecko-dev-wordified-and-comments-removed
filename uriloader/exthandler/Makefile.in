@@ -152,9 +152,6 @@ OSDIR
 LIBRARY_NAME
 =
 exthandler_s
-LIBXUL_LIBRARY
-=
-1
 ifeq
 (
 (

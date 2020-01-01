@@ -347,3 +347,6 @@ nsNativeTheme
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True

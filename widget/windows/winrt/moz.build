@@ -183,3 +183,6 @@ MetroUIUtils
 manifest
 '
 ]
+LIBXUL_LIBRARY
+=
+True

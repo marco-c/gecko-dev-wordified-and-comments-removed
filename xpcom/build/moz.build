@@ -300,3 +300,6 @@ nsXPComInit
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True

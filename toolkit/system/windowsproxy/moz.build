@@ -113,3 +113,6 @@ LIBRARY_NAME
 '
 windowsproxy
 '
+LIBXUL_LIBRARY
+=
+True

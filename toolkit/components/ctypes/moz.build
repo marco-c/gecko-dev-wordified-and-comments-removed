@@ -131,3 +131,6 @@ ctypes
 jsm
 '
 ]
+LIBXUL_LIBRARY
+=
+True

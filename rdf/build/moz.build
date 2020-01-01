@@ -123,3 +123,6 @@ LIBRARY_NAME
 '
 rdf
 '
+LIBXUL_LIBRARY
+=
+True

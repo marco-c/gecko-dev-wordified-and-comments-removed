@@ -113,3 +113,6 @@ LIBRARY_NAME
 '
 androidproxy
 '
+LIBXUL_LIBRARY
+=
+True

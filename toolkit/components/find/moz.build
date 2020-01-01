@@ -123,3 +123,6 @@ LIBRARY_NAME
 '
 mozfind_s
 '
+LIBXUL_LIBRARY
+=
+True

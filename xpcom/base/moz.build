@@ -653,3 +653,6 @@ nsCrashOnException
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True

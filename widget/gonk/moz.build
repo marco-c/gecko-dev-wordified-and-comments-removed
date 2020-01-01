@@ -373,3 +373,6 @@ HwcComposer2D
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True

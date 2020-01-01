@@ -129,3 +129,6 @@ nsShmImage
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True

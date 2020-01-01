@@ -686,3 +686,6 @@ SanityTest
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True

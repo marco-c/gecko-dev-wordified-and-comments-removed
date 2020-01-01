@@ -79,9 +79,6 @@ mk
 LIBRARY_NAME
 =
 widget_shared_x11
-LIBXUL_LIBRARY
-=
-1
 CSRCS
 =
 \

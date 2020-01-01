@@ -149,9 +149,6 @@ mk
 LIBRARY_NAME
 =
 nativewindow
-LIBXUL_LIBRARY
-=
-1
 STL_FLAGS
 =
 include

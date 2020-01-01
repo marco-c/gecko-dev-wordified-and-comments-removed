@@ -81,9 +81,6 @@ widget_winrt
 EXPORT_LIBRARY
 =
 1
-LIBXUL_LIBRARY
-=
-1
 DEFINES
 +
 =

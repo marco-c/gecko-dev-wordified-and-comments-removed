@@ -131,3 +131,6 @@ nsXULAlerts
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True

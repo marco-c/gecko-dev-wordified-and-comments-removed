@@ -108,3 +108,6 @@ nsModule
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True

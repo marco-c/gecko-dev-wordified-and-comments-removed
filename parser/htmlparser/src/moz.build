@@ -178,3 +178,6 @@ LIBRARY_NAME
 '
 htmlpars
 '
+LIBXUL_LIBRARY
+=
+True

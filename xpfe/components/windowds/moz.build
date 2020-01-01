@@ -128,3 +128,6 @@ LIBRARY_NAME
 '
 windowds
 '
+LIBXUL_LIBRARY
+=
+True

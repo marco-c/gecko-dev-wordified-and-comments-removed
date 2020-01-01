@@ -169,3 +169,6 @@ LIBRARY_NAME
 '
 remoteservice
 '
+LIBXUL_LIBRARY
+=
+True

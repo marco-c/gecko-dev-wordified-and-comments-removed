@@ -123,3 +123,6 @@ LIBRARY_NAME
 '
 storagecomps
 '
+LIBXUL_LIBRARY
+=
+True

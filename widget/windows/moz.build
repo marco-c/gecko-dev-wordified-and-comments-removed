@@ -430,3 +430,6 @@ nsTextStore
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True

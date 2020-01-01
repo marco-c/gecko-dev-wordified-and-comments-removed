@@ -287,3 +287,6 @@ mozqorientationsensorfilter
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True

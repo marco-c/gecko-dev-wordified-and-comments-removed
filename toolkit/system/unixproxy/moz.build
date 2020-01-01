@@ -133,3 +133,6 @@ LIBRARY_NAME
 '
 unixproxy
 '
+LIBXUL_LIBRARY
+=
+True

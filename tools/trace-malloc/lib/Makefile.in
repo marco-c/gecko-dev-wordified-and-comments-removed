@@ -88,9 +88,6 @@ win_srcdir
 tm
 .
 def
-LIBXUL_LIBRARY
-=
-1
 STL_FLAGS
 =
 CSRCS

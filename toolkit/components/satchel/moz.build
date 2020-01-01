@@ -201,3 +201,6 @@ FormHistory
 jsm
 '
 ]
+LIBXUL_LIBRARY
+=
+True

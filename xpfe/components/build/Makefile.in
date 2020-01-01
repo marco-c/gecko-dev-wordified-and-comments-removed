@@ -82,12 +82,6 @@ appcomps
 EXPORT_LIBRARY
 =
 1
-LIBXUL_LIBRARY
-=
-1
-#
-General
-includes
 SHARED_LIBRARY_LIBS
 +
 =

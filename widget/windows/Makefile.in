@@ -91,9 +91,6 @@ RESFILE
 widget
 .
 res
-LIBXUL_LIBRARY
-=
-1
 DEFINES
 +
 =

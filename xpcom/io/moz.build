@@ -642,3 +642,6 @@ CocoaFileUtils
 mm
 '
 ]
+LIBXUL_LIBRARY
+=
+True

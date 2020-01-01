@@ -84,9 +84,6 @@ RESFILE
 widget
 .
 res
-LIBXUL_LIBRARY
-=
-1
 SHARED_LIBRARY_LIBS
 =
 \

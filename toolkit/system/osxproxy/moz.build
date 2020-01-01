@@ -113,3 +113,6 @@ LIBRARY_NAME
 '
 osxproxy
 '
+LIBXUL_LIBRARY
+=
+True

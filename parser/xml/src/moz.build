@@ -143,3 +143,6 @@ LIBRARY_NAME
 '
 saxp
 '
+LIBXUL_LIBRARY
+=
+True

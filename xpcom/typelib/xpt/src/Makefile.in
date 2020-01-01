@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBXUL_LIBRARY
-=
-1
 DIST_INSTALL
 =
 1
