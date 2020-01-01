@@ -519,13 +519,6 @@ nsISupports
 const
 unsigned
 short
-SINGLE
-=
-0
-;
-const
-unsigned
-short
 LEFT_OPEN
 =
 1

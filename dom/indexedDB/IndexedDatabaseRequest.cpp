@@ -2561,7 +2561,12 @@ PRUint16
 nsIIDBKeyRange
 :
 :
-SINGLE
+LEFT_BOUND
+|
+nsIIDBKeyRange
+:
+:
+RIGHT_BOUND
 )
 )
 ;

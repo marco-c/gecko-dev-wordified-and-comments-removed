@@ -74,10 +74,7 @@ IDBKeyRange
 :
 mFlags
 (
-nsIIDBKeyRange
-:
-:
-SINGLE
+0
 )
 {
 }
