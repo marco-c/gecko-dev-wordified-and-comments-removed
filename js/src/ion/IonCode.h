@@ -1215,15 +1215,9 @@ const
 {
 JS_ASSERT
 (
+containsCodeAddress
+(
 retAddr
->
-method
-(
-)
--
->
-raw
-(
 )
 )
 ;

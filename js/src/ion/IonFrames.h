@@ -453,6 +453,13 @@ masm
 static
 const
 uintptr_t
+FRAMESIZE_SHIFT
+=
+3
+;
+static
+const
+uintptr_t
 FRAMETYPE_BITS
 =
 3
@@ -1040,7 +1047,7 @@ return
 frameSize
 <
 <
-FRAMETYPE_BITS
+FRAMESIZE_SHIFT
 )
 |
 type

@@ -237,6 +237,13 @@ frameSize_
 )
 {
 }
+IonFrameIterator
+(
+IonJSFrameLayout
+*
+fp
+)
+;
 FrameType
 type
 (

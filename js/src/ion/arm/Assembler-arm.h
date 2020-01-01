@@ -309,7 +309,7 @@ const
 Register
 OsrFrameReg
 =
-r10
+r3
 ;
 static
 const

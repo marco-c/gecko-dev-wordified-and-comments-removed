@@ -108,7 +108,17 @@ CallNative
 \
 _
 (
+CallConstructor
+)
+\
+_
+(
 StackArg
+)
+\
+_
+(
+CreateThis
 )
 \
 _

@@ -110,7 +110,7 @@ return
 descriptor_
 >
 >
-FRAMETYPE_BITS
+FRAMESIZE_SHIFT
 ;
 }
 void
@@ -128,7 +128,7 @@ descriptor_
 size
 <
 <
-FRAMETYPE_BITS
+FRAMESIZE_SHIFT
 )
 |
 type
