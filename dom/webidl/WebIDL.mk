@@ -303,6 +303,10 @@ HTMLAnchorElement
 .
 webidl
 \
+HTMLAppletElement
+.
+webidl
+\
 HTMLAreaElement
 .
 webidl
@@ -352,6 +356,10 @@ HTMLDocument
 webidl
 \
 HTMLElement
+.
+webidl
+\
+HTMLEmbedElement
 .
 webidl
 \

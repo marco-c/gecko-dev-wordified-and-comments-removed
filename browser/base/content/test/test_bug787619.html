@@ -257,13 +257,11 @@ element
 let
 objLC
 =
-plugin
+SpecialPowers
 .
-QueryInterface
+wrap
 (
-Ci
-.
-nsIObjectLoadingContent
+plugin
 )
 ;
 ok
