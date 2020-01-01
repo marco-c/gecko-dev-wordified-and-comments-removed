@@ -1920,9 +1920,6 @@ js_common_atom_count
 atom
 )
 =
-COMMON_ATOMS_START
-(
-&
 cx
 -
 >
@@ -1930,6 +1927,9 @@ runtime
 -
 >
 atomState
+.
+commonAtomsStart
+(
 )
 [
 index

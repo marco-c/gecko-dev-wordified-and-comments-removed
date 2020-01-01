@@ -679,7 +679,6 @@ strlen
 (
 name
 )
-0
 )
 ;
 if
@@ -1389,7 +1388,6 @@ strlen
 (
 s
 )
-0
 )
 ;
 if
@@ -2027,7 +2025,6 @@ strlen
 (
 name
 )
-0
 )
 ;
 if
