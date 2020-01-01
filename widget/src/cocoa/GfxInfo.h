@@ -32,6 +32,10 @@ GfxInfoBase
 {
 public
 :
+GfxInfo
+(
+)
+;
 NS_SCRIPTABLE
 NS_IMETHOD
 GetD2DEnabled
@@ -260,6 +264,11 @@ nsnull
 private
 :
 void
+GetDeviceInfo
+(
+)
+;
+void
 AddCrashReportAnnotations
 (
 )
@@ -281,6 +290,12 @@ mDriverDate
 ;
 nsString
 mDeviceKey
+;
+PRUint32
+mAdapterVendorID
+;
+PRUint32
+mAdapterDeviceID
 ;
 PRUint32
 mRendererIDs
