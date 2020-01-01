@@ -220,11 +220,6 @@ mm
 (
 NULL
 )
-DEFINES
-+
-=
--
-DNO_STABS_SUPPORT
 #
 need
 static
