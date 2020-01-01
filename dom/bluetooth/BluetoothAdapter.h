@@ -67,9 +67,6 @@ MediaPlayStatus
 }
 BEGIN_BLUETOOTH_NAMESPACE
 class
-BluetoothDevice
-;
-class
 BluetoothSignal
 ;
 class
@@ -308,8 +305,8 @@ DOMRequest
 >
 Pair
 (
-BluetoothDevice
-&
+nsIDOMBluetoothDevice
+*
 aDevice
 ErrorResult
 &
@@ -322,8 +319,8 @@ DOMRequest
 >
 Unpair
 (
-BluetoothDevice
-&
+nsIDOMBluetoothDevice
+*
 aDevice
 ErrorResult
 &
@@ -681,8 +678,8 @@ PairUnpair
 (
 bool
 aPair
-BluetoothDevice
-&
+nsIDOMBluetoothDevice
+*
 aDevice
 ErrorResult
 &
