@@ -3964,7 +3964,6 @@ GetEditor
 (
 )
 ;
-}
 return
 nsnull
 ;
@@ -4002,7 +4001,6 @@ GetSelectionController
 (
 )
 ;
-}
 return
 nsnull
 ;
@@ -4037,7 +4035,6 @@ GetConstFrameSelection
 (
 )
 ;
-}
 return
 nsnull
 ;
@@ -4075,7 +4072,6 @@ BindToFrame
 aFrame
 )
 ;
-}
 return
 NS_ERROR_FAILURE
 ;
@@ -4146,7 +4142,6 @@ PrepareEditor
 (
 )
 ;
-}
 return
 NS_ERROR_FAILURE
 ;
@@ -4184,7 +4179,6 @@ GetRootNode
 (
 )
 ;
-}
 return
 nsnull
 ;
@@ -4222,7 +4216,6 @@ GetPlaceholderNode
 (
 )
 ;
-}
 return
 nsnull
 ;
