@@ -1867,7 +1867,7 @@ str
 ;
 str
 .
-utf8characters
+UTF8Characters
 =
 "
 alert
@@ -1886,13 +1886,13 @@ failed
 ;
 str
 .
-utf8length
+UTF8Length
 =
 strlen
 (
 str
 .
-utf8characters
+UTF8Characters
 )
 ;
 NPN_Evaluate
@@ -1977,7 +1977,7 @@ NPVARIANT_TO_STRING
 rval
 )
 .
-utf8characters
+UTF8Characters
 )
 ;
 NPN_ReleaseVariantValue
@@ -2016,7 +2016,7 @@ str
 ;
 str
 .
-utf8characters
+UTF8Characters
 =
 "
 document
@@ -2059,13 +2059,13 @@ p
 ;
 str
 .
-utf8length
+UTF8Length
 =
 strlen
 (
 str
 .
-utf8characters
+UTF8Characters
 )
 ;
 NPN_Evaluate
@@ -2263,7 +2263,7 @@ NPVARIANT_TO_STRING
 rval
 )
 .
-utf8characters
+UTF8Characters
 )
 ;
 }
