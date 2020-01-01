@@ -740,7 +740,7 @@ getService
 (
 ci
 .
-nsIBranch
+nsIPrefBranch
 )
 .
 getComplexValue
@@ -892,6 +892,8 @@ er
 {
 }
 }
+try
+{
 cacheService
 .
 evictEntries
@@ -903,6 +905,13 @@ nsICache
 STORE_ANYWHERE
 )
 ;
+}
+catch
+(
+er
+)
+{
+}
 }
 get
 canClear
