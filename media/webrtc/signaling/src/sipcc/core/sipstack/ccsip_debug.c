@@ -922,15 +922,6 @@ NULL
 return
 ;
 }
-CSFLogDebug
-(
-"
-sipstack
-"
-"
-"
-)
-;
 if
 (
 strstr
