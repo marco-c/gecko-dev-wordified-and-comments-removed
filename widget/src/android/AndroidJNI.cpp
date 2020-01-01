@@ -838,6 +838,10 @@ BatteryInformation
 (
 mLevel
 mCharging
+-
+1
+.
+0
 )
 )
 ;

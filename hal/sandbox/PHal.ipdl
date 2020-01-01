@@ -473,6 +473,9 @@ level
 bool
 charging
 ;
+double
+remainingTime
+;
 }
 ;
 }

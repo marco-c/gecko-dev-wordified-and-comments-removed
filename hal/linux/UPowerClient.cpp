@@ -360,6 +360,15 @@ IsCharging
 (
 )
 ;
+aBatteryInfo
+-
+>
+remainingTime
+(
+)
+=
+kUnknownRemainingTime
+;
 }
 UPowerClient
 *
@@ -982,6 +991,7 @@ aListener
 -
 >
 mCharging
+kUnknownRemainingTime
 )
 )
 ;

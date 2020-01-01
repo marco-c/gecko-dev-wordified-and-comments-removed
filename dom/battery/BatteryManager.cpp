@@ -699,6 +699,14 @@ charging
 (
 )
 ;
+mRemainingTime
+=
+aBatteryInfo
+.
+remainingTime
+(
+)
+;
 }
 void
 BatteryManager
