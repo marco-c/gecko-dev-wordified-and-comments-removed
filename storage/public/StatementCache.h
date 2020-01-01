@@ -201,7 +201,7 @@ mCachedStatements
 Enumerate
 (
 FinalizeCachedStatements
-NULL
+nullptr
 )
 ;
 (

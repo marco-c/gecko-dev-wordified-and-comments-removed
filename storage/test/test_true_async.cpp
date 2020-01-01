@@ -69,13 +69,13 @@ PRThread
 *
 watched_thread
 =
-NULL
+nullptr
 ;
 PRThread
 *
 last_non_watched_thread
 =
-NULL
+nullptr
 ;
 extern
 "

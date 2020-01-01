@@ -49,7 +49,7 @@ eMutex
 )
 mMutex
 (
-NULL
+nullptr
 )
 {
 }

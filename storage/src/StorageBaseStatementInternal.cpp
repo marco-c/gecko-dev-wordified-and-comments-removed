@@ -256,7 +256,7 @@ StorageBaseStatementInternal
 :
 mAsyncStatement
 (
-NULL
+nullptr
 )
 {
 }

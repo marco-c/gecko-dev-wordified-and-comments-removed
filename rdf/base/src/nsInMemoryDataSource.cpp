@@ -650,7 +650,7 @@ hash
 .
 mPropertyHash
 DeletePropertyHashEntry
-NULL
+nullptr
 )
 ;
 PL_DHashTableDestroy
@@ -2809,7 +2809,7 @@ PL_DHashTableEnumerate
 &
 mForwardArcs
 DeleteForwardArcsEntry
-NULL
+nullptr
 )
 ;
 PL_DHashTableFinish

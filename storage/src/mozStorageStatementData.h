@@ -367,7 +367,7 @@ mStatement
 ;
 mStatement
 =
-NULL
+nullptr
 ;
 }
 }

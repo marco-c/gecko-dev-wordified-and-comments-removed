@@ -168,8 +168,8 @@ Connection
 (
 aDB
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 do_check_eq

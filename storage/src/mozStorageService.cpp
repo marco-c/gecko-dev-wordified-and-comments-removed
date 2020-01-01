@@ -1694,7 +1694,7 @@ sqliteMemRoundup
 sqliteMemInit
 &
 sqliteMemShutdown
-NULL
+nullptr
 }
 ;
 }

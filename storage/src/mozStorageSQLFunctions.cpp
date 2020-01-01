@@ -933,8 +933,8 @@ p
 -
 >
 xFunc
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
