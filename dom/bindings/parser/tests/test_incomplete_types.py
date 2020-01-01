@@ -276,13 +276,7 @@ attr
 type
 .
 name
-.
-QName
-(
-)
 "
-:
-:
 FooInterface
 "
                   
@@ -347,13 +341,7 @@ check
 returnType
 .
 name
-.
-QName
-(
-)
 "
-:
-:
 FooInterface
 "
                   
@@ -380,13 +368,7 @@ args
 type
 .
 name
-.
-QName
-(
-)
 "
-:
-:
 FooInterface
 "
                   
