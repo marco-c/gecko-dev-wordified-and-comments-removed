@@ -2309,13 +2309,16 @@ js_malloc
 size
 )
 ;
-JS_ASSERT
+if
 (
+!
 trc
 -
 >
 root
 )
+goto
+oom
 ;
 trc
 -
@@ -2355,7 +2358,8 @@ init
 (
 )
 )
-return
+goto
+oom
 ;
 trc
 -
@@ -2386,6 +2390,8 @@ trc
 ;
 VerifyNode
 *
+node
+;
 node
 =
 trc
