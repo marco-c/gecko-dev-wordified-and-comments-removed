@@ -708,13 +708,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsIXPConnect
 .
 h

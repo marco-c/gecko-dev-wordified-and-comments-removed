@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsDOMJSUtils
 .
 h

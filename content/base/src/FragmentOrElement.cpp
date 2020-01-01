@@ -408,13 +408,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsIDOMEventListener
 .
 h

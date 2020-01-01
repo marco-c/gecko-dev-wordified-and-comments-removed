@@ -164,13 +164,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsUnicharUtils
 .
 h

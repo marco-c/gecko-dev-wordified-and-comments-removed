@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsFrameLoader
 .
 h
