@@ -179,6 +179,7 @@ SharedContext
 {
 JSContext
 *
+const
 context
 ;
 private
