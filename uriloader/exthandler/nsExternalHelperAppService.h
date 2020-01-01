@@ -420,9 +420,6 @@ nsIFile
 >
 mTemporaryPrivateFilesList
 ;
-bool
-mInPrivateBrowsing
-;
 }
 ;
 class
