@@ -320,15 +320,6 @@ return
 mEnablePersistentHttpsCaching
 ;
 }
-PRBool
-PromptTempRedirect
-(
-)
-{
-return
-mPromptTempRedirect
-;
-}
 nsHttpAuthCache
 *
 AuthCache
@@ -843,9 +834,6 @@ mUserAgentIsDirty
 ;
 PRPackedBool
 mUseCache
-;
-PRPackedBool
-mPromptTempRedirect
 ;
 PRPackedBool
 mSendSecureXSiteReferrer

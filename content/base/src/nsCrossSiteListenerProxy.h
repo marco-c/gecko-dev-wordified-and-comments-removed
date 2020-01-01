@@ -1,10 +1,4 @@
 #
-ifndef
-nsCrossSiteListenerProxy_h__
-#
-define
-nsCrossSiteListenerProxy_h__
-#
 include
 "
 nsIStreamListener
@@ -204,5 +198,3 @@ mPreflightHeaders
 ;
 }
 ;
-#
-endif
