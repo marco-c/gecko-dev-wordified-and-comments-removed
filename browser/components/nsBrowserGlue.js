@@ -4807,14 +4807,14 @@ PREF_TELEMETRY_SERVER_OWNER
 )
 ;
 var
-telemetryText
+telemetryPrompt
 =
 browserBundle
 .
 formatStringFromName
 (
 "
-telemetryText
+telemetryPrompt
 "
 [
 productName
@@ -4924,7 +4924,7 @@ notifyBox
 .
 appendNotification
 (
-telemetryText
+telemetryPrompt
 "
 telemetry
 "
@@ -5067,7 +5067,7 @@ notifyBox
 .
 appendNotification
 (
-telemetryText
+telemetryPrompt
 "
 telemetry
 "
