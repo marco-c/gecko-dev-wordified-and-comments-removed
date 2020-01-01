@@ -592,7 +592,7 @@ exception_type
 &
 exception_code
 )
-exit
+_exit
 (
 exception_type
 )
@@ -682,7 +682,7 @@ exception_type
 &
 exception_code
 )
-exit
+_exit
 (
 exception_type
 )
