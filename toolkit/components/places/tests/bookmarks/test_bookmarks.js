@@ -530,7 +530,7 @@ newId
 =
 bmsvc
 .
-insertItem
+insertBookmark
 (
 testRoot
 uri
@@ -549,6 +549,8 @@ com
 bmsvc
 .
 DEFAULT_INDEX
+"
+"
 )
 ;
 do_check_eq
@@ -954,7 +956,7 @@ newId2
 =
 bmsvc
 .
-insertItem
+insertBookmark
 (
 workFolder
 uri
@@ -973,6 +975,8 @@ org
 "
 )
 0
+"
+"
 )
 ;
 do_check_eq
@@ -1024,7 +1028,7 @@ newId3
 =
 bmsvc
 .
-insertItem
+insertBookmark
 (
 workFolder
 uri
@@ -1045,6 +1049,8 @@ com
 bmsvc
 .
 DEFAULT_INDEX
+"
+"
 )
 ;
 do_check_eq
@@ -1127,7 +1133,7 @@ newId4
 =
 bmsvc
 .
-insertItem
+insertBookmark
 (
 workFolder
 uri
@@ -1148,6 +1154,8 @@ org
 bmsvc
 .
 DEFAULT_INDEX
+"
+"
 )
 ;
 do_check_eq
@@ -1219,7 +1227,7 @@ newId5
 =
 bmsvc
 .
-insertItem
+insertBookmark
 (
 homeFolder
 uri
@@ -1238,6 +1246,8 @@ com
 bmsvc
 .
 DEFAULT_INDEX
+"
+"
 )
 ;
 do_check_eq
@@ -1297,7 +1307,7 @@ newId6
 =
 bmsvc
 .
-insertItem
+insertBookmark
 (
 testRoot
 uri
@@ -1319,6 +1329,8 @@ group
 bmsvc
 .
 DEFAULT_INDEX
+"
+"
 )
 ;
 do_check_eq
@@ -1598,7 +1610,7 @@ testRoot
 ;
 bmsvc
 .
-insertItem
+insertBookmark
 (
 root
 uri
@@ -1614,6 +1626,8 @@ com
 "
 )
 1
+"
+"
 )
 ;
 bmsvc
@@ -1654,7 +1668,7 @@ kwTestItemId
 =
 bmsvc
 .
-insertItem
+insertBookmark
 (
 testRoot
 uri
@@ -1672,6 +1686,8 @@ com
 bmsvc
 .
 DEFAULT_INDEX
+"
+"
 )
 ;
 try
@@ -1884,7 +1900,7 @@ newId8
 =
 bmsvc
 .
-insertItem
+insertBookmark
 (
 testRoot
 uri
@@ -1903,6 +1919,8 @@ com
 bmsvc
 .
 DEFAULT_INDEX
+"
+"
 )
 ;
 var
@@ -1956,7 +1974,7 @@ DEFAULT_INDEX
 ;
 bmsvc
 .
-insertItem
+insertBookmark
 (
 tmpFolder
 uri
@@ -1975,6 +1993,8 @@ com
 bmsvc
 .
 DEFAULT_INDEX
+"
+"
 )
 ;
 bmsvc
@@ -2371,18 +2391,13 @@ DEFAULT_INDEX
 ;
 bmsvc
 .
-setItemTitle
-(
-bmsvc
-.
-insertItem
+insertBookmark
 (
 testFolder
 mURI
 bmsvc
 .
 DEFAULT_INDEX
-)
 "
 title
 1
@@ -2391,18 +2406,13 @@ title
 ;
 bmsvc
 .
-setItemTitle
-(
-bmsvc
-.
-insertItem
+insertBookmark
 (
 testFolder
 mURI
 bmsvc
 .
 DEFAULT_INDEX
-)
 "
 title
 2
@@ -2549,7 +2559,7 @@ newId10
 =
 bmsvc
 .
-insertItem
+insertBookmark
 (
 testRoot
 uri
@@ -2568,6 +2578,8 @@ com
 bmsvc
 .
 DEFAULT_INDEX
+"
+"
 )
 ;
 var
@@ -2719,7 +2731,7 @@ newId11
 =
 bmsvc
 .
-insertItem
+insertBookmark
 (
 testRoot
 uri
@@ -2738,6 +2750,8 @@ com
 bmsvc
 .
 DEFAULT_INDEX
+"
+"
 )
 ;
 var
@@ -2805,7 +2819,7 @@ newId12
 =
 bmsvc
 .
-insertItem
+insertBookmark
 (
 testRoot
 uri
@@ -2822,6 +2836,8 @@ com
 "
 )
 1
+"
+"
 )
 ;
 var
@@ -2910,7 +2926,7 @@ newId13
 =
 bmsvc
 .
-insertItem
+insertBookmark
 (
 testRoot
 uri
@@ -2929,6 +2945,8 @@ com
 bmsvc
 .
 DEFAULT_INDEX
+"
+"
 )
 ;
 do_check_eq
@@ -3540,7 +3558,7 @@ newId14
 =
 bmsvc
 .
-insertItem
+insertBookmark
 (
 testRoot
 uri
@@ -3559,6 +3577,8 @@ tld
 bmsvc
 .
 DEFAULT_INDEX
+"
+"
 )
 ;
 var
@@ -3699,13 +3719,15 @@ a
 ;
 bmsvc
 .
-insertItem
+insertBookmark
 (
 testRoot
 uri1
 bmsvc
 .
 DEFAULT_INDEX
+"
+"
 )
 ;
 histsvc
@@ -3856,7 +3878,7 @@ item
 =
 bmsvc
 .
-insertItem
+insertBookmark
 (
 parent
 uri
@@ -3870,6 +3892,8 @@ blank
 bmsvc
 .
 DEFAULT_INDEX
+"
+"
 )
 ;
 bmsvc

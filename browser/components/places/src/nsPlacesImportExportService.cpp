@@ -3419,7 +3419,7 @@ rv
 mBookmarksService
 -
 >
-InsertItem
+InsertBookmark
 (
 frame
 .
@@ -3431,6 +3431,9 @@ mBookmarksService
 -
 >
 DEFAULT_INDEX
+EmptyString
+(
+)
 &
 frame
 .
@@ -3444,7 +3447,7 @@ NS_SUCCEEDED
 rv
 )
 "
-InsertItem
+InsertBookmark
 failed
 "
 )
