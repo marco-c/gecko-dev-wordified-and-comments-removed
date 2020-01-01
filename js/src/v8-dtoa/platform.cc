@@ -313,6 +313,8 @@ FP_PZERO
 return
 FP_ZERO
 ;
+default
+:
 ASSERT
 (
 rv
