@@ -213,7 +213,7 @@ aOldStyleContext
 nsSVGEffects
 :
 :
-InvalidateRenderingObservers
+InvalidateDirectRenderingObservers
 (
 this
 )
@@ -336,7 +336,7 @@ viewBox
 nsSVGEffects
 :
 :
-InvalidateRenderingObservers
+InvalidateDirectRenderingObservers
 (
 this
 )
@@ -380,7 +380,7 @@ false
 nsSVGEffects
 :
 :
-InvalidateRenderingObservers
+InvalidateDirectRenderingObservers
 (
 this
 )
