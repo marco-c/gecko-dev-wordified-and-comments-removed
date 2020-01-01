@@ -1204,12 +1204,12 @@ final
 String
 homepageUrl
 =
-jsonobj
+addonJSON
 .
 getString
 (
 "
-learnmoreURL
+homepageURL
 "
 )
 ;
