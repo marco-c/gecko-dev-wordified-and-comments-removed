@@ -841,6 +841,12 @@ bdi
 )
 ;
 }
+Directionality
+GetComputedDirectionality
+(
+)
+const
+;
 protected
 :
 virtual
