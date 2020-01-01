@@ -1087,6 +1087,10 @@ run
 return
 ;
 }
+setDevPixelEqualToPx
+(
+)
+;
 requestLongerTimeout
 (
 3
