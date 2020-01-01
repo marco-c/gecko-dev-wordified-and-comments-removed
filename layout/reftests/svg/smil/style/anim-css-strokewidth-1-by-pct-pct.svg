@@ -77,6 +77,12 @@ width
 5
 %
 ;
+shape
+-
+rendering
+:
+crispEdges
+;
 }
 <
 /

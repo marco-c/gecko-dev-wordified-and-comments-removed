@@ -66,6 +66,12 @@ width
 :
 10
 ;
+shape
+-
+rendering
+:
+crispEdges
+;
 }
 <
 /

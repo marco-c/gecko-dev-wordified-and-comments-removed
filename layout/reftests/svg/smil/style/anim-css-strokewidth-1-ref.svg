@@ -17,6 +17,13 @@ org
 /
 svg
 "
+shape
+-
+rendering
+=
+"
+crispEdges
+"
 >
 <
 rect
