@@ -80,6 +80,14 @@ decompilation
 .
 js
 script
+uneval
+-
+strict
+-
+functions
+.
+js
+script
 watch
 -
 inherited
