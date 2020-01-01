@@ -971,8 +971,6 @@ ret
 =
 c_fn
 (
-data
-.
 ifname
 ints
 .
