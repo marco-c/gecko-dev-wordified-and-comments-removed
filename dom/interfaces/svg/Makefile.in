@@ -120,10 +120,6 @@ nsIDOMSVGAnimatedString
 .
 idl
 \
-nsIDOMSVGClipPathElement
-.
-idl
-\
 nsIDOMSVGDocument
 .
 idl
