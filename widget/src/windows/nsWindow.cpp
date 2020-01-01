@@ -27822,6 +27822,12 @@ GWL_EXSTYLE
 exStyle
 )
 ;
+#
+if
+MOZ_WINSDK_TARGETVER
+>
+=
+MOZ_NTDDI_LONGHORN
 if
 (
 mTransparencyMode
@@ -27838,6 +27844,8 @@ sizeof
 mGlassMargins
 )
 ;
+#
+endif
 mTransparencyMode
 =
 aMode
