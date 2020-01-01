@@ -7877,14 +7877,6 @@ GET_IT
 WANT_HASINSTANCE
 )
 JSBool
-WantTrace
-(
-)
-GET_IT
-(
-WANT_TRACE
-)
-JSBool
 WantEquality
 (
 )
