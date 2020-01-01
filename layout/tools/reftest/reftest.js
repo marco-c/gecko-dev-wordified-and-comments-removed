@@ -5148,6 +5148,15 @@ Focus
 (
 )
 {
+if
+(
+gBrowserIsRemote
+)
+{
+return
+false
+;
+}
 var
 fm
 =
