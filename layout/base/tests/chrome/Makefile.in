@@ -87,10 +87,6 @@ mk
 MOCHITEST_CHROME_FILES
 =
 \
-paint_listener
-.
-js
-\
 test_bug370436
 .
 html

@@ -131,6 +131,10 @@ NativeKeyCodes
 .
 js
 \
+paint_listener
+.
+js
+\
 (
 DEPTH
 )
