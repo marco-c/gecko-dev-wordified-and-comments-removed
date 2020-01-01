@@ -1060,6 +1060,17 @@ g
 )
 MOZ_OVERRIDE
 ;
+typedef
+Base
+Permissive
+;
+typedef
+SecurityWrapper
+<
+Base
+>
+Restrictive
+;
 }
 ;
 typedef
