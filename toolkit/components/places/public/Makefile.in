@@ -453,7 +453,7 @@ nsILivemarkService
 .
 idl
 \
-nsIRemoteContainer
+nsIDynamicContainer
 .
 idl
 \

@@ -10910,7 +10910,7 @@ rv
 ;
 nsCOMPtr
 <
-nsINavHistoryQueryResultNode
+nsINavHistoryContainerResultNode
 >
 rootNode
 ;
