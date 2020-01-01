@@ -822,14 +822,6 @@ aSelection
 )
 ;
 NS_IMETHOD
-GetWrapWidth
-(
-PRInt32
-*
-aWrapCol
-)
-;
-NS_IMETHOD
 ScrollSelectionIntoView
 (
 PRBool
