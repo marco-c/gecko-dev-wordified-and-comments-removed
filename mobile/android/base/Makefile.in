@@ -1029,6 +1029,12 @@ java
 \
 gfx
 /
+ImmutableViewportMetrics
+.
+java
+\
+gfx
+/
 InputConnectionHandler
 .
 java

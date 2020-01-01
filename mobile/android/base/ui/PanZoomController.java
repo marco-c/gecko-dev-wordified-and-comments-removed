@@ -925,10 +925,16 @@ getValidViewportMetrics
 if
 (
 !
+(
+new
+ViewportMetrics
+(
 mController
 .
 getViewportMetrics
 (
+)
+)
 )
 .
 fuzzyEquals
