@@ -1222,11 +1222,6 @@ DidCreateGlobal
 )
 ;
 void
-DestroyCx
-(
-)
-;
-void
 LoadFrameScriptInternal
 (
 const
