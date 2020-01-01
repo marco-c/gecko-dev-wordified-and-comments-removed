@@ -618,10 +618,6 @@ java
 java
 .
 files
-GARBAGE_DIRS
-+
-=
-org
 include
 (
 topsrcdir
