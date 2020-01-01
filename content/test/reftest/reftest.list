@@ -21,6 +21,12 @@ canvas
 test
 /
 reftest
+skip
+-
+if
+(
+xulFennec
+)
 include
 .
 .
