@@ -101,6 +101,10 @@ GLContext
 .
 h
 \
+GLContextTypes
+.
+h
+\
 GLContextSymbols
 .
 h
