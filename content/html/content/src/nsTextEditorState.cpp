@@ -4036,6 +4036,14 @@ nsIPlaintextEditor
 :
 eEditorWidgetMask
 ;
+editorFlags
+|
+=
+nsIPlaintextEditor
+:
+:
+eEditorUseAsyncUpdatesMask
+;
 PRBool
 shouldInitializeEditor
 =
