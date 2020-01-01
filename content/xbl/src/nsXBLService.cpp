@@ -1900,13 +1900,6 @@ n
 }
 else
 {
-doc
--
->
-ClearScriptHandlingObject
-(
-)
-;
 if
 (
 count
@@ -5755,13 +5748,6 @@ NS_ENSURE_SUCCESS
 (
 rv
 rv
-)
-;
-doc
--
->
-ClearScriptHandlingObject
-(
 )
 ;
 doc
