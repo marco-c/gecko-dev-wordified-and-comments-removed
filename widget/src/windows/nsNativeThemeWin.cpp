@@ -5951,7 +5951,7 @@ NS_THEME_MENURADIO
 :
 right
 =
-11
+8
 ;
 left
 =
