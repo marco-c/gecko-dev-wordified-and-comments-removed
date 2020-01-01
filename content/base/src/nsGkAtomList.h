@@ -11071,6 +11071,13 @@ PreEffectsBBoxProperty
 )
 GK_ATOM
 (
+preTransformBBoxProperty
+"
+PreTransformBBoxProperty
+"
+)
+GK_ATOM
+(
 rowUnpaginatedHeightProperty
 "
 RowUnpaginatedHeightProperty
