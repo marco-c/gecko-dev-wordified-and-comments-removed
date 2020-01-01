@@ -1580,7 +1580,7 @@ JS_ASSERT
 use
 -
 >
-owner
+ins
 (
 )
 -
@@ -1747,7 +1747,7 @@ JS_ASSERT
 use
 -
 >
-owner
+ins
 (
 )
 -
@@ -1776,7 +1776,7 @@ if
 use
 -
 >
-owner
+ins
 (
 )
 -
@@ -1817,7 +1817,7 @@ next
 use
 -
 >
-owner
+ins
 (
 )
 -
