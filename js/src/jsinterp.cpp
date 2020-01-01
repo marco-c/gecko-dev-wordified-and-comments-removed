@@ -5227,6 +5227,17 @@ toObject
 )
 )
 ;
+if
+(
+lval
+.
+isUndefined
+(
+)
+)
+return
+true
+;
 return
 lval
 .
