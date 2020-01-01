@@ -10649,11 +10649,6 @@ mHealthRecorder
 .
 close
 (
-GeckoAppShell
-.
-getEventDispatcher
-(
-)
 )
 ;
 mHealthRecorder
