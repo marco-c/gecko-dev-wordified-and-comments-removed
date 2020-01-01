@@ -338,6 +338,9 @@ DISABLE_ALL_LOADS
 NS_IMETHODIMP
 Initialize
 (
+nsISupports
+*
+aOwner
 JSContext
 *
 cx
