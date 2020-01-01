@@ -362,6 +362,12 @@ aRenderingContext
 InitOffsets
 (
 aContainingBlockWidth
+frame
+-
+>
+GetType
+(
+)
 )
 ;
 }
@@ -422,6 +428,9 @@ ComputePadding
 (
 nscoord
 aContainingBlockWidth
+nsIAtom
+*
+aFrameType
 )
 ;
 protected
@@ -431,6 +440,9 @@ InitOffsets
 (
 nscoord
 aContainingBlockWidth
+nsIAtom
+*
+aFrameType
 const
 nsMargin
 *
@@ -971,6 +983,9 @@ protected
 void
 InitFrameType
 (
+nsIAtom
+*
+aFrameType
 )
 ;
 void
@@ -984,6 +999,9 @@ InitResizeFlags
 nsPresContext
 *
 aPresContext
+nsIAtom
+*
+aFrameType
 )
 ;
 void
@@ -1004,6 +1022,9 @@ const
 nsMargin
 *
 aPadding
+nsIAtom
+*
+aFrameType
 )
 ;
 nsIFrame
@@ -1044,6 +1065,9 @@ cbrs
 nsHypotheticalBox
 &
 aHypotheticalBox
+nsIAtom
+*
+aFrameType
 )
 ;
 void
@@ -1060,6 +1084,9 @@ nscoord
 aContainingBlockWidth
 nscoord
 aContainingBlockHeight
+nsIAtom
+*
+aFrameType
 )
 ;
 void
@@ -1111,6 +1138,9 @@ nscoord
 aAvailWidth
 nscoord
 aComputedWidth
+nsIAtom
+*
+aFrameType
 )
 ;
 }
