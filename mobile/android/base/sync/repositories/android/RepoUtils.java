@@ -182,7 +182,7 @@ String
 LOG_TAG
 =
 "
-DBUtils
+RepoUtils
 "
 ;
 public
@@ -1049,7 +1049,7 @@ computeParentFields
 BookmarkRecord
 rec
 String
-suggestedParentID
+suggestedParentGUID
 String
 suggestedParentName
 )
@@ -1108,7 +1108,7 @@ null
 {
 realParent
 =
-suggestedParentID
+suggestedParentGUID
 ;
 }
 else
@@ -1125,7 +1125,7 @@ parent
 ID
 "
 +
-suggestedParentID
+suggestedParentGUID
 +
 "
 for
@@ -1216,7 +1216,7 @@ bookmarkFromMirrorCursor
 Cursor
 cur
 String
-parentId
+parentGUID
 String
 parentName
 JSONArray
