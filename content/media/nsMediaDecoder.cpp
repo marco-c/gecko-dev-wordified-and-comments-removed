@@ -689,7 +689,7 @@ PROGRESS_MS
 mElement
 -
 >
-DispatchAsyncProgressEvent
+DispatchAsyncEvent
 (
 NS_LITERAL_STRING
 (
