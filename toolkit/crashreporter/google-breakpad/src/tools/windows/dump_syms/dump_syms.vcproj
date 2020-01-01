@@ -303,6 +303,9 @@ lib
 &
 quot
 ;
+imagehlp
+.
+lib
 "
 LinkIncremental
 =
@@ -599,6 +602,9 @@ lib
 &
 quot
 ;
+imagehlp
+.
+lib
 "
 LinkIncremental
 =

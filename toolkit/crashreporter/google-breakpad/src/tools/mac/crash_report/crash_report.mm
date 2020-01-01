@@ -823,7 +823,7 @@ string
 cpu
 )
 {
-int
+size_t
 frame_count
 =
 stack
@@ -846,7 +846,7 @@ buffer
 ;
 for
 (
-int
+size_t
 frame_index
 =
 0
@@ -892,7 +892,7 @@ printf
 (
 "
 %
-2d
+2zu
 "
 frame_index
 )
@@ -2610,6 +2610,11 @@ dump
 int
 thread_count
 =
+static_cast
+<
+int
+>
+(
 process_state
 .
 threads
@@ -2619,6 +2624,7 @@ threads
 >
 size
 (
+)
 )
 ;
 const

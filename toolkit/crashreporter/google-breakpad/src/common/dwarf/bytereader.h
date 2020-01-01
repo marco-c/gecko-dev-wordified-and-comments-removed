@@ -301,7 +301,7 @@ have_data_base_
 bool
 have_function_base_
 ;
-size_t
+uint64
 section_base_
 text_base_
 data_base_

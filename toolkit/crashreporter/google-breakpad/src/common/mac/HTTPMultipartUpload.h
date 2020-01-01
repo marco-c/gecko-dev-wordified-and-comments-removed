@@ -1,9 +1,9 @@
 #
 import
 <
-Cocoa
+Foundation
 /
-Cocoa
+Foundation
 .
 h
 >

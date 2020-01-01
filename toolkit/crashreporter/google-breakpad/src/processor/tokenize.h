@@ -14,6 +14,15 @@ include
 <
 vector
 >
+#
+include
+"
+common
+/
+using_std_string
+.
+h
+"
 namespace
 google_breakpad
 {
@@ -45,9 +54,6 @@ void
 StringToVector
 (
 const
-std
-:
-:
 string
 &
 str

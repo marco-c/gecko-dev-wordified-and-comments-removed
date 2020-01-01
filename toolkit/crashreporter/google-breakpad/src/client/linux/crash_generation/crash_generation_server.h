@@ -16,6 +16,15 @@ include
 <
 string
 >
+#
+include
+"
+common
+/
+using_std_string
+.
+h
+"
 namespace
 google_breakpad
 {
@@ -42,9 +51,6 @@ ClientInfo
 *
 client_info
 const
-std
-:
-:
 string
 *
 file_path
@@ -84,9 +90,6 @@ exit_context
 bool
 generate_dumps
 const
-std
-:
-:
 string
 *
 dump_path
@@ -143,9 +146,6 @@ revents
 bool
 MakeMinidumpFilename
 (
-std
-:
-:
 string
 &
 outFilename
@@ -181,9 +181,6 @@ exit_context_
 bool
 generate_dumps_
 ;
-std
-:
-:
 string
 dump_dir_
 ;

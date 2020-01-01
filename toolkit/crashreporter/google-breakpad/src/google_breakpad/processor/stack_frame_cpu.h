@@ -32,7 +32,7 @@ google_breakpad
 struct
 WindowsFrameInfo
 ;
-struct
+class
 CFIFrameInfo
 ;
 struct
@@ -107,17 +107,6 @@ CONTEXT_VALID_ALL
 1
 }
 ;
-enum
-FrameTrust
-{
-FRAME_TRUST_NONE
-FRAME_TRUST_SCAN
-FRAME_TRUST_CFI_SCAN
-FRAME_TRUST_FP
-FRAME_TRUST_CFI
-FRAME_TRUST_CONTEXT
-}
-;
 StackFrameX86
 (
 )
@@ -128,10 +117,6 @@ context
 context_validity
 (
 CONTEXT_VALID_NONE
-)
-trust
-(
-FRAME_TRUST_NONE
 )
 windows_frame_info
 (
@@ -153,9 +138,6 @@ context
 ;
 int
 context_validity
-;
-FrameTrust
-trust
 ;
 WindowsFrameInfo
 *

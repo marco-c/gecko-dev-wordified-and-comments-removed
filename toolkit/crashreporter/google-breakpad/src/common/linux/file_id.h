@@ -69,6 +69,7 @@ static
 bool
 ElfFileIdentifierFromMappedFile
 (
+const
 void
 *
 base
