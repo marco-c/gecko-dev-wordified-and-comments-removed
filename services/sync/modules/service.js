@@ -2426,6 +2426,13 @@ delay
 function
 (
 )
+{
+Status
+.
+ready
+=
+true
+;
 Svc
 .
 Obs
@@ -2440,6 +2447,8 @@ service
 ready
 "
 )
+;
+}
 0
 )
 ;

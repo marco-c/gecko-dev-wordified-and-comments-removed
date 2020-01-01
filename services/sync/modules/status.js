@@ -58,6 +58,9 @@ let
 Status
 =
 {
+ready
+:
+false
 get
 login
 (
