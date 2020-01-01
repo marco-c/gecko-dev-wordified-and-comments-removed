@@ -1251,6 +1251,14 @@ GetParent
 ;
 return
 parent
+&
+&
+parent
+-
+>
+IsElement
+(
+)
 ?
 parent
 -
