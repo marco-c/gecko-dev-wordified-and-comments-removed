@@ -194,6 +194,11 @@ canCallHook
 :
 1
 ;
+bool
+forcedTypeBarrier
+:
+1
+;
 uint32
 stubsGenerated
 :
@@ -214,6 +219,10 @@ hit
 false
 ;
 slowCallPatched
+=
+false
+;
+forcedTypeBarrier
 =
 false
 ;
