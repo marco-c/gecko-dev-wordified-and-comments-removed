@@ -3680,10 +3680,6 @@ ClearHasDirAuto
 (
 )
 ;
-ClearHasDirAutoSet
-(
-)
-;
 SetHasFixedDir
 (
 )
@@ -3724,10 +3720,6 @@ SetHasDirAuto
 else
 {
 ClearHasDirAuto
-(
-)
-;
-ClearHasDirAutoSet
 (
 )
 ;
