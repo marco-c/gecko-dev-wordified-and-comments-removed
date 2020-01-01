@@ -4378,7 +4378,7 @@ bState
 )
 Invalidate
 (
-PR_TRUE
+PR_FALSE
 )
 ;
 #
