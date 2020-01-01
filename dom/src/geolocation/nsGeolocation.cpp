@@ -836,7 +836,10 @@ PR_USEC_PER_MSEC
 maximumAge
 <
 =
+PRTime
+(
 cachedPositionTime
+)
 )
 )
 {
@@ -3434,7 +3437,10 @@ count
 0
 |
 |
+PRUint32
+(
 aWatchId
+)
 >
 count
 )
