@@ -35455,8 +35455,17 @@ dnl
 =
 if
 test
+-
+n
 "
 GNU_CC
+"
+-
+a
+-
+z
+"
+CLANG_CC
 "
 ;
 then
