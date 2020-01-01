@@ -776,6 +776,8 @@ nsHttpResponseHead
 responseHead
 PRBool
 useResponseHead
+RequestHeaderTuples
+requestHeaders
 PRBool
 isFromCache
 PRBool

@@ -401,17 +401,6 @@ nsAsyncCallback
 void
 )
 ;
-nsHttpResponseHead
-*
-GetResponseHead
-(
-)
-const
-{
-return
-mResponseHead
-;
-}
 void
 InternalSetUploadStream
 (
