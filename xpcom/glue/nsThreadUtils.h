@@ -772,7 +772,7 @@ base_type
 ;
 #
 ifdef
-HAVE_STDCALL
+NS_HAVE_STDCALL
 template
 <
 class
@@ -787,7 +787,7 @@ nsRunnableMethodTraits
 <
 R
 (
-__stdcall
+NS_STDCALL
 C
 :
 :
