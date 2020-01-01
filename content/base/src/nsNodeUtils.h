@@ -334,6 +334,15 @@ nsINode
 aNode
 )
 ;
+static
+void
+DestroySubtree
+(
+nsIContent
+*
+aRoot
+)
+;
 private
 :
 friend
