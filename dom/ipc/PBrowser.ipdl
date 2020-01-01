@@ -144,6 +144,10 @@ PIndexedDB
 ;
 include
 "
+mozilla
+/
+dom
+/
 TabMessageUtils
 .
 h

@@ -108,9 +108,6 @@ tests
 endif
 EXPORTS
 =
-TabMessageUtils
-.
-h
 PCOMContentPermissionRequestChild
 .
 h
