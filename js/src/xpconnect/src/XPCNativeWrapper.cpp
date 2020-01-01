@@ -3317,6 +3317,17 @@ if
 (
 !
 wrapperObj
+|
+|
+!
+:
+:
+JS_SetPrototype
+(
+cx
+wrapperObj
+nsnull
+)
 )
 {
 return
