@@ -543,6 +543,14 @@ win_srcdir
 nptest
 .
 def
+OS_LIBS
++
+=
+(
+call
+EXPAND_LIBNAME
+msimg32
+)
 endif
 include
 (
