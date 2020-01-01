@@ -1371,8 +1371,10 @@ aStatus
 ;
 virtual
 bool
-GetShouldAccelerate
+ComputeShouldAccelerate
 (
+bool
+aDefault
 )
 ;
 virtual

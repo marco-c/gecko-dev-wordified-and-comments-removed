@@ -12247,7 +12247,7 @@ top
 >
 MAX_ACCELERATED_DIMENSION
 )
-mUseAcceleratedRendering
+mUseLayersAcceleration
 =
 false
 ;
@@ -12258,13 +12258,13 @@ prefs
 .
 mAccelerateByDefault
 )
-mUseAcceleratedRendering
+mUseLayersAcceleration
 =
 true
 ;
 if
 (
-mUseAcceleratedRendering
+mUseLayersAcceleration
 )
 {
 if

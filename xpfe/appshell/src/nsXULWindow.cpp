@@ -6005,7 +6005,7 @@ rv
 mWindow
 -
 >
-SetAcceleratedRendering
+SetLayersAcceleration
 (
 isAccelerated
 )

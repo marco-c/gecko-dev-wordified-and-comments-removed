@@ -7463,8 +7463,10 @@ bool
 nsChildView
 :
 :
-GetShouldAccelerate
+ComputeShouldAccelerate
 (
+bool
+aDefault
 )
 {
 /
@@ -7518,8 +7520,9 @@ return
 nsBaseWidget
 :
 :
-GetShouldAccelerate
+ComputeShouldAccelerate
 (
+aDefault
 )
 ;
 }
@@ -7582,8 +7585,9 @@ UseOffMainThreadCompositing
 )
 &
 &
-GetShouldAccelerate
+ComputeShouldAccelerate
 (
+mUseLayersAcceleration
 )
 ;
 }

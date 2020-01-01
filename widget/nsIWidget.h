@@ -2147,7 +2147,7 @@ GetInputContext
 0
 ;
 NS_IMETHOD
-SetAcceleratedRendering
+SetLayersAcceleration
 (
 bool
 aEnabled
