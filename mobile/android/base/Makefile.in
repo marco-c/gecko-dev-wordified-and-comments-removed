@@ -1976,16 +1976,6 @@ layout
 -
 v11
 /
-awesomebar
-.
-xml
-\
-res
-/
-layout
--
-v11
-/
 gecko_app
 .
 xml
