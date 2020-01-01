@@ -445,6 +445,10 @@ EGLUtils
 .
 h
 \
+ForceDiscreteGPUHelperCGL
+.
+h
+\
 (
 NULL
 )
