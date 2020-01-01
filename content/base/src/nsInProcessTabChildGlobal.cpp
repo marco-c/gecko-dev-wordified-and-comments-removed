@@ -658,7 +658,6 @@ nsFrameMessageManager
 (
 this
 nullptr
-mCx
 mozilla
 :
 :

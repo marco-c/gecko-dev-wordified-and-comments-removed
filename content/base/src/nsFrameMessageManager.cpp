@@ -3673,7 +3673,6 @@ aSync
 aCloneData
 objectsArray
 aJSONRetVal
-mContext
 )
 :
 NS_OK
@@ -3950,10 +3949,6 @@ mOwnedCallback
 =
 nullptr
 ;
-mContext
-=
-nullptr
-;
 }
 void
 nsFrameMessageManager
@@ -3998,10 +3993,6 @@ mOwnedCallback
 =
 nullptr
 ;
-mContext
-=
-nullptr
-;
 if
 (
 !
@@ -4043,7 +4034,6 @@ mm
 new
 nsFrameMessageManager
 (
-nullptr
 nullptr
 nullptr
 MM_CHROME
@@ -6654,7 +6644,6 @@ nsFrameMessageManager
 (
 nullptr
 nullptr
-nullptr
 MM_CHROME
 |
 MM_PROCESSMANAGER
@@ -6766,7 +6755,6 @@ nsFrameMessageManager
 :
 :
 sParentProcessManager
-nullptr
 MM_CHROME
 |
 MM_PROCESSMANAGER
@@ -6788,7 +6776,6 @@ nsFrameMessageManager
 :
 :
 sParentProcessManager
-nullptr
 MM_CHROME
 |
 MM_PROCESSMANAGER
@@ -6869,7 +6856,6 @@ new
 nsFrameMessageManager
 (
 cb
-nullptr
 nullptr
 MM_PROCESSMANAGER
 |
