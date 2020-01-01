@@ -1119,8 +1119,6 @@ WebGLContext
 public
 nsIDOMWebGLRenderingContext
 public
-nsIDOMWebGLRenderingContext_MOZILLA_2_0_BRANCH
-public
 nsICanvasRenderingContextInternal
 public
 nsSupportsWeakReference
@@ -1144,7 +1142,6 @@ WebGLContext
 nsIDOMWebGLRenderingContext
 )
 NS_DECL_NSIDOMWEBGLRENDERINGCONTEXT
-NS_DECL_NSIDOMWEBGLRENDERINGCONTEXT_MOZILLA_2_0_BRANCH
 NS_IMETHOD
 SetCanvasElement
 (
