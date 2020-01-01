@@ -16,15 +16,6 @@ h
 #
 include
 "
-mozilla
-/
-RangedPtr
-.
-h
-"
-#
-include
-"
 jscntxt
 .
 h

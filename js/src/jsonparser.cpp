@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+RangedPtr
+.
+h
+"
+#
+include
+"
 jsarray
 .
 h
