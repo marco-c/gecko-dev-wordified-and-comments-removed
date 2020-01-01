@@ -2433,9 +2433,17 @@ IonScriptCounts
 *
 unassociatedScriptCounts_
 ;
+#
+if
+defined
+(
+JS_ION_PERF
+)
 PerfSpewer
 perfSpewer_
 ;
+#
+endif
 }
 ;
 }
