@@ -6268,7 +6268,7 @@ eNone
 nsIEditor
 :
 :
-eStrip
+eNoStrip
 )
 ;
 NS_ENSURE_SUCCESS
