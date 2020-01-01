@@ -7229,7 +7229,7 @@ ltr
 ;
 }
 #
-PopupAutoComplete
+UrlbarAutoComplete
 {
 direction
 :
@@ -7239,7 +7239,7 @@ important
 ;
 }
 #
-PopupAutoComplete
+UrlbarAutoComplete
 [
 chromedir
 =
@@ -7258,7 +7258,7 @@ rtl
 ;
 }
 #
-PopupAutoComplete
+UrlbarAutoComplete
 .
 autocomplete
 -
