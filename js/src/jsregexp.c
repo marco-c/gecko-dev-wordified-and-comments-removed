@@ -174,6 +174,7 @@ tbl
 #
 undef
 REOP_DEF
+REOP_LIMIT
 }
 REOp
 ;
