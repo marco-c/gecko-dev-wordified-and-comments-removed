@@ -510,6 +510,14 @@ index
 )
 ;
 void
+jsop_eleminc
+(
+JSOp
+op
+VoidStub
+)
+;
+void
 jsop_bitop
 (
 JSOp
