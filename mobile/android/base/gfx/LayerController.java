@@ -1272,11 +1272,6 @@ true
 ;
 }
 return
-aboutToCheckerboard
-(
-)
-&
-&
 mPanZoomController
 .
 getRedrawHint
