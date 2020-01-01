@@ -449,7 +449,6 @@ commandChecked
 /
 styling
 [
-Throws
 Constant
 ]
 readonly

@@ -167,9 +167,6 @@ attribute
 SVGAnimatedString
 className
 ;
-[
-Throws
-]
 readonly
 attribute
 CSSStyleDeclaration

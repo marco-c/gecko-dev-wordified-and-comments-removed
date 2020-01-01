@@ -168,11 +168,8 @@ aNotify
 ;
 nsICSSDeclaration
 *
-GetStyle
+Style
 (
-nsresult
-*
-retval
 )
 ;
 protected
