@@ -242,6 +242,13 @@ JavaScript
 global
 -
 constructor
+-
+maybe
+dom
+.
+mozContacts
+.
+enabled
 mozContact
 mozilla
 .
