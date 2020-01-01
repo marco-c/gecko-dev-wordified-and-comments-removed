@@ -2323,6 +2323,7 @@ ih
 new
 InputHandler
 (
+container
 )
 ;
 BrowserUI
