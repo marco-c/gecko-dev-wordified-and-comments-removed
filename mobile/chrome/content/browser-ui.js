@@ -2250,12 +2250,12 @@ getAttribute
 "
 mode
 "
+)
 !
 =
 "
 edit
 "
-)
 )
 icons
 .
@@ -2326,12 +2326,12 @@ getAttribute
 "
 mode
 "
+)
 !
 =
 "
 edit
 "
-)
 )
 icons
 .
