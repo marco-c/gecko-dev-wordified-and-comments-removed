@@ -635,6 +635,7 @@ temp
 512
 ]
 ;
+const
 char
 *
 dot
@@ -662,7 +663,6 @@ the
 -
 d
 option
-!
 !
 \
 n
@@ -696,11 +696,9 @@ NULL
 int
 len
 =
-(
 dot
 -
 dll_name
-)
 ;
 if
 (

@@ -1548,6 +1548,8 @@ limit
 {
 AFM_Stream
 stream
+=
+NULL
 ;
 FT_Error
 error

@@ -798,6 +798,8 @@ parser
 ;
 AFM_FontInfo
 fi
+=
+NULL
 ;
 FT_Error
 error

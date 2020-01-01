@@ -402,6 +402,8 @@ delta_cnt
 FT_Short
 *
 deltas
+=
+NULL
 ;
 FT_UInt
 runcnt
@@ -2067,7 +2069,7 @@ fvar_head
 .
 axisCount
 >
-0x3ffe
+0x3FFE
 |
 |
 fvar_head
@@ -2088,7 +2090,7 @@ fvar_head
 .
 instanceCount
 >
-0x7eff
+0x7EFF
 |
 |
 fvar_head

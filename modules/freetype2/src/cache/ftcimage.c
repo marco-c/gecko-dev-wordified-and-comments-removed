@@ -149,6 +149,8 @@ error
 ;
 FTC_INode
 inode
+=
+NULL
 ;
 if
 (

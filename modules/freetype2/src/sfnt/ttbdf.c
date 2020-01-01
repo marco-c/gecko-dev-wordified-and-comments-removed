@@ -180,7 +180,7 @@ table
 {
 error
 =
-FT_Err_Invalid_Table
+SFNT_Err_Invalid_Table
 ;
 goto
 Exit
@@ -403,7 +403,7 @@ bdf
 ;
 error
 =
-FT_Err_Invalid_Table
+SFNT_Err_Invalid_Table
 ;
 goto
 Exit
@@ -449,7 +449,7 @@ size
 FT_Error
 error
 =
-0
+SFNT_Err_Ok
 ;
 FT_Byte
 *
@@ -531,7 +531,7 @@ count
 ;
 error
 =
-FT_Err_Invalid_Argument
+SFNT_Err_Invalid_Argument
 ;
 if
 (
@@ -797,7 +797,7 @@ value
 ;
 error
 =
-0
+SFNT_Err_Ok
 ;
 goto
 Exit
@@ -829,7 +829,7 @@ value
 ;
 error
 =
-0
+SFNT_Err_Ok
 ;
 goto
 Exit
@@ -855,7 +855,7 @@ value
 ;
 error
 =
-0
+SFNT_Err_Ok
 ;
 goto
 Exit

@@ -652,8 +652,6 @@ hints
 FT_Outline
 *
 outline
-FT_Bool
-get_inflections
 )
 ;
 FT_LOCAL

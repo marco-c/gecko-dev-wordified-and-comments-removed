@@ -137,7 +137,7 @@ ss
 FT_Error
 error
 =
-FT_Err_Ok
+AF_Err_Ok
 ;
 AFModulePIC
 *

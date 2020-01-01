@@ -575,7 +575,7 @@ out
 \
 objs
 \
-freetype2312
+freetype241
 .
 lib
 "
@@ -866,7 +866,7 @@ out
 \
 objs
 \
-freetype2312_D
+freetype241_D
 .
 lib
 "
@@ -1169,7 +1169,7 @@ out
 "
 lib
 \
-freetype2312_D
+freetype241_D
 .
 lib
 "
@@ -1193,7 +1193,7 @@ out
 \
 objs
 \
-freetype2312MT_D
+freetype241MT_D
 .
 lib
 "
@@ -1473,7 +1473,7 @@ out
 "
 lib
 \
-freetype2312
+freetype241
 .
 lib
 "
@@ -1497,7 +1497,7 @@ out
 \
 objs
 \
-freetype2312MT
+freetype241MT
 .
 lib
 "
@@ -1789,7 +1789,7 @@ out
 \
 objs
 \
-freetype2312
+freetype241
 .
 lib
 "
@@ -1811,7 +1811,7 @@ out
 \
 objs
 \
-freetype2312ST
+freetype241ST
 .
 lib
 "
@@ -2135,7 +2135,7 @@ out
 \
 objs
 \
-freetype2312_D
+freetype241_D
 .
 lib
 "
@@ -2159,7 +2159,7 @@ out
 \
 objs
 \
-freetype2312ST_D
+freetype241ST_D
 .
 lib
 "

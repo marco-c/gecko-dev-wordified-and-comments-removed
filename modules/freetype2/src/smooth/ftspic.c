@@ -119,7 +119,7 @@ pic_container
 FT_Error
 error
 =
-FT_Err_Ok
+Smooth_Err_Ok
 ;
 SmoothPIC
 *

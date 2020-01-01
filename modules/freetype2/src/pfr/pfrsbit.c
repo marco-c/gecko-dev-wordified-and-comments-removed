@@ -1239,7 +1239,7 @@ aformat
 FT_Error
 error
 =
-0
+PFR_Err_Ok
 ;
 FT_Byte
 flags
@@ -1701,7 +1701,7 @@ target
 FT_Error
 error
 =
-0
+PFR_Err_Ok
 ;
 PFR_BitWriterRec
 writer

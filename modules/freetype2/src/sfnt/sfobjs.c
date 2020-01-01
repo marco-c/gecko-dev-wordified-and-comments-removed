@@ -91,6 +91,8 @@ memory
 FT_String
 *
 string
+=
+NULL
 ;
 FT_UInt
 len
@@ -213,6 +215,8 @@ memory
 FT_String
 *
 string
+=
+NULL
 ;
 FT_UInt
 len

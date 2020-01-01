@@ -227,6 +227,8 @@ error
 ;
 FT_Pointer
 p
+=
+NULL
 ;
 (
 void
@@ -1245,7 +1247,7 @@ zstream
 FT_Error
 error
 =
-0
+Gzip_Err_Ok
 ;
 zip
 -
@@ -2075,7 +2077,7 @@ zip_buff
 }
 error
 =
-0
+Gzip_Err_Ok
 ;
 }
 }

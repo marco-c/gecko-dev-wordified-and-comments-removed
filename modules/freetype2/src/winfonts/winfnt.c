@@ -19,6 +19,9 @@ include
 FT_INTERNAL_OBJECTS_H
 #
 include
+FT_TRUETYPE_IDS_H
+#
+include
 "
 winfnt
 .
@@ -3102,13 +3105,13 @@ charmap
 .
 platform_id
 =
-0
+TT_PLATFORM_APPLE_UNICODE
 ;
 charmap
 .
 encoding_id
 =
-0
+TT_APPLE_ID_DEFAULT
 ;
 charmap
 .
@@ -3139,7 +3142,7 @@ charmap
 .
 platform_id
 =
-1
+TT_PLATFORM_MACINTOSH
 ;
 }
 error

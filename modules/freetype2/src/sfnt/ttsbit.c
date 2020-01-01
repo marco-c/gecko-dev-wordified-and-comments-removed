@@ -1022,7 +1022,7 @@ stream
 FT_Error
 error
 =
-0
+SFNT_Err_Ok
 ;
 FT_Memory
 memory

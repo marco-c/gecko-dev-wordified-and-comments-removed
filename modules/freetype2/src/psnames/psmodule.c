@@ -1363,7 +1363,7 @@ error
 )
 error
 =
-PSnames_Err_Invalid_Argument
+PSnames_Err_No_Unicode_Glyph_Name
 ;
 }
 else

@@ -824,6 +824,8 @@ error
 ;
 FT_Glyph
 glyph
+=
+NULL
 ;
 *
 aglyph

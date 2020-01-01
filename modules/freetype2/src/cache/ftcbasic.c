@@ -2558,7 +2558,7 @@ if
 desc
 )
 return
-FT_Err_Invalid_Argument
+FTC_Err_Invalid_Argument
 ;
 ftc_image_type_from_old_desc
 (

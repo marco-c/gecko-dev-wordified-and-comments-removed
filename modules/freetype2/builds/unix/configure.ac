@@ -110,9 +110,9 @@ FreeType
 [
 2
 .
-3
+4
 .
-12
+1
 ]
 [
 freetype
@@ -148,11 +148,11 @@ DLL
 version_info
 =
 '
-10
+11
 :
-0
+1
 :
-4
+5
 '
 AC_SUBST
 (

@@ -436,7 +436,7 @@ _idx
 \
 error
 =
-0
+FTC_Err_Ok
 ;
 \
 node
@@ -771,7 +771,7 @@ error
 error
 !
 =
-FT_Err_Out_Of_Memory
+FTC_Err_Out_Of_Memory
 )
 \
 break

@@ -5062,7 +5062,6 @@ af_glyph_hints_reload
 (
 hints
 outline
-0
 )
 ;
 if

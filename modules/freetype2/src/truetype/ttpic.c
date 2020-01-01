@@ -155,7 +155,7 @@ pic_container
 FT_Error
 error
 =
-FT_Err_Ok
+TT_Err_Ok
 ;
 TTModulePIC
 *

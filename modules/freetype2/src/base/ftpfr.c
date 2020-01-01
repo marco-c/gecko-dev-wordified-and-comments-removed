@@ -21,7 +21,13 @@ face
 {
 FT_Service_PfrMetrics
 service
+=
+NULL
 ;
+if
+(
+face
+)
 FT_FACE_LOOKUP_SERVICE
 (
 face

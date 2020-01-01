@@ -2056,10 +2056,7 @@ manager
 -
 >
 faces
-(
-FTC_MruNode_CompareFunc
-)
-NULL
+ftc_face_node_compare
 face_id
 )
 ;

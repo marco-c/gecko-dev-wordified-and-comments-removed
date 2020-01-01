@@ -2240,6 +2240,14 @@ nmetrics
 =
 nmetrics
 ;
+if
+(
+!
+nmetrics
+)
+return
+PCF_Err_Invalid_Table
+;
 FT_TRACE4
 (
 (

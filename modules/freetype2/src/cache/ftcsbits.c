@@ -752,7 +752,7 @@ NULL
 ;
 error
 =
-0
+FTC_Err_Ok
 ;
 if
 (
@@ -856,7 +856,7 @@ total
 {
 error
 =
-FT_Err_Invalid_Argument
+FTC_Err_Invalid_Argument
 ;
 goto
 Exit

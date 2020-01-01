@@ -371,7 +371,7 @@ _node
 \
 error
 =
-0
+FTC_Err_Ok
 ;
 \
 _first

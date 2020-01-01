@@ -245,7 +245,7 @@ advance
 ;
 error
 =
-0
+PFR_Err_Ok
 ;
 }
 }

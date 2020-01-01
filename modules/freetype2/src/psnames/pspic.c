@@ -149,7 +149,7 @@ pic_container
 FT_Error
 error
 =
-FT_Err_Ok
+PSnames_Err_Ok
 ;
 PSModulePIC
 *

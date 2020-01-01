@@ -119,7 +119,7 @@ pic_container
 FT_Error
 error
 =
-FT_Err_Ok
+Raster_Err_Ok
 ;
 RasterPIC
 *

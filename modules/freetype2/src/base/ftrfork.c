@@ -2376,6 +2376,8 @@ insertion
 char
 *
 new_name
+=
+NULL
 ;
 const
 char

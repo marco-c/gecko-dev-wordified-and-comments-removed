@@ -2140,6 +2140,8 @@ aglobals
 {
 PSH_Globals
 globals
+=
+NULL
 ;
 FT_Error
 error

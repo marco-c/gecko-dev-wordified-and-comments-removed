@@ -22,6 +22,7 @@ Copyright
 2006
 2008
 2009
+2010
 by
 #
 David
@@ -1505,7 +1506,8 @@ from
 GNU
 config
 '
-CVS
+git
+repository
 )
 relative
 to
@@ -1515,6 +1517,7 @@ tmp
 directory
 used
 during
+#
 make
 dist
 '

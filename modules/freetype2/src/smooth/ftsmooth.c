@@ -719,12 +719,12 @@ if
 (
 width
 >
-0xFFFFU
+0x7FFFU
 |
 |
 height
 >
-0xFFFFU
+0x7FFFU
 )
 {
 FT_ERROR

@@ -36,6 +36,8 @@ aloader
 {
 FT_GlyphLoader
 loader
+=
+NULL
 ;
 FT_Error
 error
