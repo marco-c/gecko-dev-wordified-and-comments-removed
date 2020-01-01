@@ -463,6 +463,10 @@ test_bug509732
 .
 xul
 \
+test_bug554279
+.
+xul
+\
 test_bug557987
 .
 xul
