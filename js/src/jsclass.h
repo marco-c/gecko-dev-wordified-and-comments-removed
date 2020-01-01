@@ -945,7 +945,7 @@ typedef
 JSBool
 (
 *
-AttributesOp
+PropertyAttributesOp
 )
 (
 JSContext
@@ -954,8 +954,9 @@ cx
 JSObject
 *
 obj
-jsid
-id
+PropertyName
+*
+name
 uintN
 *
 attrsp
@@ -1352,8 +1353,8 @@ setSpecial
 GenericAttributesOp
 getGenericAttributes
 ;
-AttributesOp
-getAttributes
+PropertyAttributesOp
+getPropertyAttributes
 ;
 ElementAttributesOp
 getElementAttributes
@@ -1364,8 +1365,8 @@ getSpecialAttributes
 GenericAttributesOp
 setGenericAttributes
 ;
-AttributesOp
-setAttributes
+PropertyAttributesOp
+setPropertyAttributes
 ;
 ElementAttributesOp
 setElementAttributes

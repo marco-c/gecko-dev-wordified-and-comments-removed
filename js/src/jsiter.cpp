@@ -4412,7 +4412,7 @@ object
 )
 -
 >
-getAttributes
+getGenericAttributes
 (
 cx
 *
