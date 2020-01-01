@@ -121,6 +121,15 @@ h
 #
 include
 "
+builtin
+/
+RegExp
+.
+h
+"
+#
+include
+"
 jsinterpinlines
 .
 h
@@ -2231,6 +2240,7 @@ buffer
 .
 finalize
 (
+f
 )
 ;
 repatcher
@@ -3742,6 +3752,7 @@ linker
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
@@ -4282,6 +4293,7 @@ linker
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
@@ -5112,18 +5124,17 @@ masm
 storeArg
 (
 1
-ImmPtr
+ImmIntPtr
 (
+intptr_t
 (
-void
-*
-)
 ic
 .
 frameSize
 .
 staticArgc
 (
+)
 )
 )
 )
@@ -5169,7 +5180,7 @@ if
 native
 =
 =
-js_regexp_exec
+regexp_exec
 &
 &
 !
@@ -5184,7 +5195,7 @@ pc
 )
 native
 =
-js_regexp_test
+regexp_test
 ;
 masm
 .
@@ -5323,6 +5334,7 @@ linker
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
@@ -6898,6 +6910,7 @@ linker
 .
 finalize
 (
+f
 )
 ;
 JaegerSpew
