@@ -633,9 +633,12 @@ forgetEverything
 (
 )
 {
-sync
+syncAndKill
 (
-masm
+Registers
+:
+:
+AvailRegs
 )
 ;
 for
