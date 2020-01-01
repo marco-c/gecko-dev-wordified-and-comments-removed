@@ -15612,7 +15612,7 @@ MOZ_OPTIMIZE_FLAGS
 =
 '
 -
-O1
+Ox
 '
 AR_FLAGS
 =
