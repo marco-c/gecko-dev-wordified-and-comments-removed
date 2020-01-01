@@ -818,7 +818,7 @@ void
 ShutDownProcess
 (
 bool
-aFromActorDestroyed
+aCloseWithError
 )
 ;
 PCompositorParent
