@@ -4836,6 +4836,9 @@ mShouldPresent
 bool
 mIsScreenCleared
 ;
+bool
+mDisableFragHighP
+;
 template
 <
 typename
