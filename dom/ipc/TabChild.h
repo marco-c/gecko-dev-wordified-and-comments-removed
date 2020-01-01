@@ -609,7 +609,9 @@ TabChild
 PRUint32
 aChromeFlags
 bool
-aIsBrowserFrame
+aIsBrowserElement
+PRUint32
+aAppId
 )
 ;
 virtual
@@ -1362,7 +1364,10 @@ bool
 mDidFakeShow
 ;
 bool
-mIsBrowserFrame
+mIsBrowserElement
+;
+PRUint32
+mAppId
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (
