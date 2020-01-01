@@ -311,6 +311,16 @@ reexpand
 .
 js
 \
+(
+filter
+disabled
+-
+temporarily
+-
+-
+bug
+-
+782179
 browser_dbg_reload
 -
 same
@@ -318,6 +328,7 @@ same
 script
 .
 js
+)
 \
 browser_dbg_reload
 -
@@ -486,12 +497,6 @@ js
 browser_dbg_pause
 -
 resume
-.
-js
-\
-browser_dbg_pause
--
-warning
 .
 js
 \
