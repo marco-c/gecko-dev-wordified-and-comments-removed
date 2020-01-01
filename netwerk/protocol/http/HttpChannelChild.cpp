@@ -892,6 +892,14 @@ mValue
 )
 ;
 }
+gHttpHandler
+-
+>
+OnExamineResponse
+(
+this
+)
+;
 nsresult
 rv
 =
