@@ -135,10 +135,6 @@ testWebDevLimits
 true
 )
 ;
-expectUncaughtException
-(
-)
-;
 content
 .
 location
@@ -482,10 +478,6 @@ bogus
 )
 ;
 "
-;
-expectUncaughtException
-(
-)
 ;
 head
 .

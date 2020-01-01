@@ -693,10 +693,6 @@ waitForExplicitFinish
 (
 )
 ;
-ignoreAllUncaughtExceptions
-(
-)
-;
 tab1
 =
 gBrowser
