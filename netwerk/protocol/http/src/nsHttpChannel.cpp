@@ -2989,6 +2989,13 @@ mCaps
 =
 NS_HTTP_LOAD_ANONYMOUS
 ;
+mConnectionInfo
+-
+>
+SetAnonymous
+(
+)
+;
 }
 nsCOMPtr
 <
