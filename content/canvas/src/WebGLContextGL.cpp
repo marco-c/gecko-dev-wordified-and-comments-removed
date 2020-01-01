@@ -2537,7 +2537,7 @@ MakeContextCurrent
 (
 )
 ;
-GLenum
+uint32
 usage
 ;
 if
@@ -2587,7 +2587,7 @@ argv
 )
 )
 {
-GLsizei
+int32
 size
 ;
 if
