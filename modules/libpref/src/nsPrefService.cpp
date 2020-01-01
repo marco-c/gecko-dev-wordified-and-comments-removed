@@ -3882,12 +3882,6 @@ specialFiles
 if
 defined
 (
-XP_MAC
-)
-|
-|
-defined
-(
 XP_MACOSX
 )
 "
