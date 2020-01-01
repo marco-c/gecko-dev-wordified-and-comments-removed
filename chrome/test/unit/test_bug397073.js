@@ -101,9 +101,6 @@ prototype
 pos
 :
 0
-array
-:
-null
 hasMoreElements
 :
 function

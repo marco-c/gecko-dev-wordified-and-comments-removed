@@ -394,10 +394,6 @@ prototype
 _index
 :
 0
-_contents
-:
-[
-]
 hasMoreElements
 :
 function
