@@ -4341,6 +4341,10 @@ Alloc
 (
 bufferSize
 )
+.
+get
+(
+)
 ;
 }
 NS_ASSERTION

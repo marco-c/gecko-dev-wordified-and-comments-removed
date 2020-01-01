@@ -81,6 +81,13 @@ nsStaticAtom
 .
 h
 "
+#
+include
+"
+nsCOMPtr
+.
+h
+"
 static
 PRUnichar
 gNullChar
@@ -691,8 +698,10 @@ this
 ;
 }
 }
+already_AddRefed
+<
 nsStringBuffer
-*
+>
 nsStringBuffer
 :
 :
@@ -810,7 +819,10 @@ hdr
 ;
 }
 return
+dont_AddRef
+(
 hdr
+)
 ;
 }
 nsStringBuffer

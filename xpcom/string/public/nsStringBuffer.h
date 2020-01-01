@@ -4,6 +4,14 @@ nsStringBuffer_h__
 #
 define
 nsStringBuffer_h__
+template
+<
+class
+T
+>
+struct
+already_AddRefed
+;
 class
 nsStringBuffer
 {
@@ -22,8 +30,10 @@ mStorageSize
 public
 :
 static
+already_AddRefed
+<
 nsStringBuffer
-*
+>
 Alloc
 (
 size_t

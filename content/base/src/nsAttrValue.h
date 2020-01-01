@@ -1364,8 +1364,10 @@ EnsureEmptyAtomArray
 (
 )
 ;
+already_AddRefed
+<
 nsStringBuffer
-*
+>
 GetStringBuffer
 (
 const
