@@ -150,6 +150,10 @@ Types
 .
 h
 \
+Tools
+.
+h
+\
 UserData
 .
 h
@@ -161,6 +165,10 @@ CPPSRCS
 =
 \
 Factory
+.
+cpp
+\
+Rect
 .
 cpp
 \
