@@ -116,6 +116,13 @@ h
 #
 endif
 #
+include
+"
+nsBindingManager
+.
+h
+"
+#
 define
 IMPL_MUTATION_NOTIFICATION
 (
