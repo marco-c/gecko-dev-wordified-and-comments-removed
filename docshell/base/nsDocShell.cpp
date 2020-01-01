@@ -16621,9 +16621,6 @@ mUseErrorPages
 &
 &
 aURI
-&
-&
-aFailedChannel
 )
 {
 LoadErrorPage
