@@ -205,6 +205,17 @@ Init
 (
 )
 ;
+virtual
+uint32_t
+OperatingSystemVersion
+(
+)
+const
+{
+return
+mWindowsVersion
+;
+}
 #
 ifdef
 DEBUG

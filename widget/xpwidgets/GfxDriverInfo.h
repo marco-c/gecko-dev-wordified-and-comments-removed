@@ -204,6 +204,9 @@ GfxDriverInfo
 OperatingSystem
 mOperatingSystem
 ;
+uint32_t
+mOperatingSystemVersion
+;
 nsString
 mAdapterVendor
 ;
@@ -283,6 +286,12 @@ mDeviceVendors
 [
 DeviceVendorMax
 ]
+;
+nsString
+mModel
+mHardware
+mProduct
+mManufacturer
 ;
 }
 ;
