@@ -33,13 +33,6 @@ nsContentUtils
 .
 h
 "
-#
-include
-"
-nsDOMMemoryReporter
-.
-h
-"
 class
 nsXMLCDATASection
 :
@@ -83,11 +76,6 @@ NS_FORWARD_NSIDOMTEXT
 nsGenericDOMDataNode
 :
 :
-)
-NS_DECL_AND_IMPL_DOM_MEMORY_REPORTER_SIZEOF
-(
-nsXMLCDATASection
-nsGenericDOMDataNode
 )
 virtual
 PRBool

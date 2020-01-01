@@ -227,13 +227,6 @@ nsHashtable
 .
 h
 "
-#
-include
-"
-nsIDOMNode
-.
-h
-"
 struct
 nsNativeKeyEvent
 ;
@@ -245,6 +238,9 @@ nsIXPConnect
 ;
 class
 nsIContent
+;
+class
+nsIDOMNode
 ;
 class
 nsIDOMKeyEvent
@@ -365,6 +361,9 @@ nsIWidget
 ;
 class
 nsIDragSession
+;
+class
+nsPIDOMWindow
 ;
 class
 nsIPresShell

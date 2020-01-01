@@ -1,7 +1,7 @@
 #
 include
 "
-nsLocation
+nsGlobalWindow
 .
 h
 "
@@ -233,13 +233,6 @@ h
 include
 "
 nsJSUtils
-.
-h
-"
-#
-include
-"
-jsdbgapi
 .
 h
 "
