@@ -24,13 +24,6 @@ nsIIDBCursor
 .
 h
 "
-#
-include
-"
-jsapi
-.
-h
-"
 class
 nsIRunnable
 ;
