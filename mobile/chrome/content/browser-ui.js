@@ -3083,6 +3083,12 @@ init
 (
 )
 ;
+WebappsUI
+.
+init
+(
+)
+;
 let
 addonIDs
 =

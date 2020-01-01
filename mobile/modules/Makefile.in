@@ -442,6 +442,10 @@ video
 .
 jsm
 \
+openWebapps
+.
+jsm
+\
 (
 NULL
 )
