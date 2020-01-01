@@ -920,8 +920,6 @@ JSObject
 NAMESPACE_CLASS_RESERVED_SLOTS
 )
 |
-JSCLASS_MARK_IS_TRACE
-|
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Namespace
@@ -1438,8 +1436,6 @@ JSObject
 QNAME_CLASS_RESERVED_SLOTS
 )
 |
-JSCLASS_MARK_IS_TRACE
-|
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_QName
@@ -1486,8 +1482,6 @@ JSObject
 QNAME_CLASS_RESERVED_SLOTS
 )
 |
-JSCLASS_MARK_IS_TRACE
-|
 JSCLASS_IS_ANONYMOUS
 PropertyStub
 PropertyStub
@@ -1516,8 +1510,6 @@ JSObject
 :
 QNAME_CLASS_RESERVED_SLOTS
 )
-|
-JSCLASS_MARK_IS_TRACE
 |
 JSCLASS_IS_ANONYMOUS
 PropertyStub
@@ -1727,6 +1719,19 @@ getClass
 js_AttributeNameClass
 )
 {
+JS
+:
+:
+Anchor
+<
+JSString
+*
+>
+anchor
+(
+str
+)
+;
 size_t
 length
 =
@@ -25498,8 +25503,6 @@ js_XMLClass
 js_XML_str
 JSCLASS_HAS_PRIVATE
 |
-JSCLASS_MARK_IS_TRACE
-|
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_XML
@@ -25518,10 +25521,7 @@ NULL
 NULL
 NULL
 xml_hasInstance
-JS_CLASS_TRACE
-(
 xml_trace
-)
 JS_NULL_CLASS_EXT
 {
 xml_lookupProperty
@@ -25533,7 +25533,6 @@ xml_setAttributes
 xml_deleteProperty
 xml_enumerate
 xml_typeOf
-NULL
 xml_fix
 NULL
 xml_clear
@@ -38465,8 +38464,6 @@ XMLFilter
 JSCLASS_HAS_PRIVATE
 |
 JSCLASS_IS_ANONYMOUS
-|
-JSCLASS_MARK_IS_TRACE
 PropertyStub
 PropertyStub
 PropertyStub
@@ -38481,10 +38478,7 @@ NULL
 NULL
 NULL
 NULL
-JS_CLASS_TRACE
-(
 xmlfilter_trace
-)
 }
 ;
 JSBool

@@ -604,6 +604,15 @@ f
 ;
 void
 JS_FASTCALL
+PushImplicitThisForGlobal
+(
+VMFrame
+&
+f
+)
+;
+void
+JS_FASTCALL
 GetUpvar
 (
 VMFrame

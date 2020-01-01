@@ -4940,14 +4940,6 @@ JS_TypeHandlerFloat
 )
 JS_FN_TYPE
 (
-js_toJSON_str
-js_num_valueOf
-0
-0
-JS_TypeHandlerThis
-)
-JS_FN_TYPE
-(
 "
 toFixed
 "

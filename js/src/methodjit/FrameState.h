@@ -751,6 +751,16 @@ payload
 ;
 inline
 void
+pushUntypedValue
+(
+const
+Value
+&
+value
+)
+;
+inline
+void
 pushNumber
 (
 RegisterID
