@@ -22188,7 +22188,7 @@ target
 removeEventListener
 (
 "
-readystate
+readystatechange
 "
 onContentRSChange
 )
