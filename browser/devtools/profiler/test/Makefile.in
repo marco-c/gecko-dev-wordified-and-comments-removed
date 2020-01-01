@@ -129,6 +129,10 @@ browser_profiler_gecko_data
 .
 js
 \
+browser_profiler_io
+.
+js
+\
 head
 .
 js
