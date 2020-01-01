@@ -2761,6 +2761,13 @@ EnsureSafeToHandOutCSSRules
 void
 NotifyInvalidation
 (
+PRUint32
+aFlags
+)
+;
+void
+NotifyInvalidation
+(
 const
 nsRect
 &
@@ -2826,6 +2833,10 @@ mRequests
 Clear
 (
 )
+;
+mAllInvalidated
+=
+false
 ;
 }
 bool
@@ -3917,6 +3928,11 @@ mPrefChangePendingNeedsReflow
 ;
 unsigned
 mMayHaveFixedBackgroundFrames
+:
+1
+;
+unsigned
+mAllInvalidated
 :
 1
 ;
