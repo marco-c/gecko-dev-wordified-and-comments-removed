@@ -115,9 +115,9 @@ C
 /
 x64
 compiler
-does
+doesn
 '
-nt
+t
 support
 MMX
 and
@@ -126,7 +126,7 @@ assembler
 .
 Use
 SSE2
-intrin
+intrinsics
 .
 +
 +
