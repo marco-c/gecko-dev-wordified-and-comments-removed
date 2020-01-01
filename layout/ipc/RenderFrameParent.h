@@ -198,6 +198,7 @@ void
 ShadowLayersUpdated
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 BuildDisplayList

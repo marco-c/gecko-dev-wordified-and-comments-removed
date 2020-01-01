@@ -485,7 +485,9 @@ include
 "
 mozilla
 /
-Util
+layers
+/
+CompositorParent
 .
 h
 "
@@ -494,9 +496,7 @@ include
 "
 mozilla
 /
-layers
-/
-Compositor
+Util
 .
 h
 "
@@ -10219,12 +10219,11 @@ LayerManagerOGL
 *
 >
 (
-compositor
-:
-:
+mCompositorParent
+-
+>
 GetLayerManager
 (
-mCompositorParent
 )
 )
 ;

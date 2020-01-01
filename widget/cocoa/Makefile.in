@@ -832,3 +832,17 @@ CoreUI
 (
 NULL
 )
+include
+(
+topsrcdir
+)
+/
+ipc
+/
+chromium
+/
+chromium
+-
+config
+.
+mk
