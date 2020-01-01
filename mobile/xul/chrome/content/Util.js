@@ -904,7 +904,7 @@ sysInfo
 get
 (
 "
-isTablet
+tablet
 "
 )
 ;
