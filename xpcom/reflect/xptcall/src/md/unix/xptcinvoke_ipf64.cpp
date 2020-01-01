@@ -12,13 +12,6 @@ stdint
 .
 h
 >
-#
-include
-<
-iostream
-.
-h
->
 extern
 "
 C
