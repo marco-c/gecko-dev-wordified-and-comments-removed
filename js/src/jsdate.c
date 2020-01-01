@@ -4235,6 +4235,7 @@ js_NewDouble
 (
 cx
 t
+0
 )
 ;
 if
@@ -4353,6 +4354,7 @@ js_NewDouble
 (
 cx
 result
+0
 )
 ;
 if
@@ -9236,6 +9238,7 @@ js_NewDouble
 cx
 0
 .
+0
 0
 )
 ;
