@@ -572,6 +572,16 @@ test_viewport
 .
 html
 \
+zoom
+-
+helper
+.
+svg
+\
+test_zoom
+.
+xhtml
+\
 (
 NULL
 )

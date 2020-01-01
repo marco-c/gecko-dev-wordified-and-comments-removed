@@ -3100,7 +3100,7 @@ PRBool
 scaling
 =
 (
-s
+mPreviousScale
 !
 =
 mCurrentScale
