@@ -3219,6 +3219,11 @@ this
 mBrowser
 .
 contentWindow
+&
+&
+aWebProgress
+.
+isLoadingDocument
 )
 this
 .
