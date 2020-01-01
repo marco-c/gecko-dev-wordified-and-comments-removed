@@ -5208,17 +5208,6 @@ function
 (
 )
 {
-BrowserUI
-.
-showPanel
-(
-"
-addons
--
-container
-"
-)
-;
 var
 mgr
 =
