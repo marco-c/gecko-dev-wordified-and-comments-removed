@@ -2830,6 +2830,8 @@ isDigiNotarIssuedCert
 =
 true
 ;
+break
+;
 }
 }
 if
