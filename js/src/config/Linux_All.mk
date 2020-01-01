@@ -522,6 +522,9 @@ OS_CFLAGS
 =
 -
 DAVMPLUS_IA32
+NANOJIT_ARCH
+=
+i386
 ifeq
 (
 gcc
