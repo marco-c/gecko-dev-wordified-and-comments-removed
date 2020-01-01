@@ -522,6 +522,14 @@ test_bug563642
 .
 html
 \
+test_bug564115
+.
+html
+\
+bug564115_window
+.
+html
+\
 (
 NULL
 )
