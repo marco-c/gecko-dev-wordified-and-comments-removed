@@ -451,6 +451,9 @@ slots
 )
 ;
 }
+#
+ifdef
+DEBUG
 static
 void
 DumpNunboxPart
@@ -550,6 +553,8 @@ name
 ;
 }
 }
+#
+endif
 void
 SafepointWriter
 :

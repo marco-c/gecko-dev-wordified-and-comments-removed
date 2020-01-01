@@ -3623,7 +3623,6 @@ toDefinition
 (
 )
 )
-;
 return
 true
 ;
