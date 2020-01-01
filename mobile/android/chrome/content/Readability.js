@@ -1506,9 +1506,6 @@ this
 .
 _cleanStyles
 (
-this
-.
-_doc
 articleContent
 )
 ;
