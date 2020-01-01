@@ -208,9 +208,8 @@ function
 (
 )
 {
-this
-.
-bounds
+var
+newBounds
 =
 Utils
 .
@@ -230,9 +229,7 @@ _getSizeExtra
 (
 )
 ;
-this
-.
-bounds
+newBounds
 .
 width
 +
@@ -241,9 +238,7 @@ extra
 .
 x
 ;
-this
-.
-bounds
+newBounds
 .
 height
 +
@@ -251,6 +246,12 @@ height
 extra
 .
 y
+;
+this
+.
+bounds
+=
+newBounds
 ;
 this
 .
