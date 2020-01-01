@@ -4989,7 +4989,7 @@ richlistbox
 id
 =
 "
-pref
+prefs
 -
 list
 "
@@ -5385,6 +5385,15 @@ description
 ;
 <
 button
+id
+=
+"
+prefs
+-
+clear
+-
+data
+"
 label
 =
 "
