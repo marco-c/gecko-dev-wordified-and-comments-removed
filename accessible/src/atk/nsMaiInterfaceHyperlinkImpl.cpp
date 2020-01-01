@@ -57,11 +57,13 @@ aImpl
 )
 )
 ;
-NS_ENSURE_TRUE
+if
 (
+!
 accWrap
-nsnull
 )
+return
+nsnull
 ;
 nsCOMPtr
 <

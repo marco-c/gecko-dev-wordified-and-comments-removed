@@ -489,11 +489,13 @@ obj
 )
 )
 ;
-NS_ENSURE_TRUE
+if
 (
+!
 accWrap
-FALSE
 )
+return
+FALSE
 ;
 nsCOMPtr
 <
