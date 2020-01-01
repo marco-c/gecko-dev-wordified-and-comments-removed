@@ -499,10 +499,6 @@ nsIStyleSheetLinkingElement
 .
 h
 \
-nsIPrivateDOMImplementation
-.
-h
-\
 nsIContentSerializer
 .
 h
