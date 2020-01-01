@@ -1010,6 +1010,10 @@ file_htmlserializer_1_no_body
 .
 html
 \
+file_htmlserializer_1_wrap
+.
+html
+\
 test_bug424359
 -
 2
@@ -1445,6 +1449,10 @@ file_xhtmlserializer_1_sibling_body_only_body
 xhtml
 \
 file_xhtmlserializer_1_no_body
+.
+xhtml
+\
+file_xhtmlserializer_1_wrap
 .
 xhtml
 \
