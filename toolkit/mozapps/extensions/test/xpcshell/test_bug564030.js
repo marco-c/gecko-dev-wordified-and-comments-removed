@@ -108,12 +108,15 @@ maxVersion
 profileDir
 )
 ;
+setExtensionModifiedTime
+(
+dest
 dest
 .
 lastModifiedTime
 -
-=
 5000
+)
 ;
 startupManager
 (
