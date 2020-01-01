@@ -2831,7 +2831,7 @@ if
 aSigno
 =
 =
-SIGUSR2
+SIGUSR1
 )
 {
 sAlarmData
@@ -3076,7 +3076,7 @@ if
 (
 sigaction
 (
-SIGUSR2
+SIGUSR1
 &
 actions
 NULL
@@ -3090,7 +3090,7 @@ HAL_LOG
 Failed
 to
 set
-SIGUSR2
+SIGUSR1
 signal
 for
 alarm
@@ -3214,7 +3214,7 @@ err
 pthread_kill
 (
 sAlarmFireWatcherThread
-SIGUSR2
+SIGUSR1
 )
 ;
 MOZ_ASSERT
