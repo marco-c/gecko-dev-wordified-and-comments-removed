@@ -4117,16 +4117,6 @@ LIns
 scopeChain
 (
 )
-;
-JS_REQUIRES_STACK
-nanojit
-:
-:
-LIns
-*
-entryScopeChain
-(
-)
 const
 ;
 JS_REQUIRES_STACK
@@ -5540,7 +5530,7 @@ clearFrameSlotsFromCache
 ;
 JS_REQUIRES_STACK
 void
-putActivationObjects
+putArguments
 (
 )
 ;
