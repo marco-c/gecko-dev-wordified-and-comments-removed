@@ -4618,7 +4618,7 @@ LIns
 *
 ins
 ;
-ssize_t
+ptrdiff_t
 offset
 =
 -
