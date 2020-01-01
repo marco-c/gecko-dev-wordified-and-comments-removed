@@ -388,7 +388,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 this
 .
@@ -701,7 +701,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 this
 .
@@ -1078,7 +1078,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 this
 .
@@ -1241,7 +1241,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 this
 .
