@@ -3545,6 +3545,8 @@ numDefs
 (
 )
 const
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 Defs
@@ -3557,6 +3559,8 @@ getDef
 size_t
 index
 )
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 &
@@ -3571,6 +3575,8 @@ numOperands
 (
 )
 const
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 Operands
@@ -3583,6 +3589,8 @@ getOperand
 size_t
 index
 )
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 &
@@ -3597,6 +3605,8 @@ numTemps
 (
 )
 const
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 Temps
@@ -3609,6 +3619,8 @@ getTemp
 size_t
 index
 )
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 &
@@ -3628,6 +3640,8 @@ LDefinition
 &
 def
 )
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 defs_
 [
@@ -3647,6 +3661,8 @@ LAllocation
 &
 a
 )
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 operands_
 [
@@ -3666,6 +3682,8 @@ LDefinition
 &
 a
 )
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 temps_
 [

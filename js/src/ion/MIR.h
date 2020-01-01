@@ -2497,6 +2497,8 @@ MDefinition
 *
 operand
 )
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 operands_
 [
@@ -2530,6 +2532,8 @@ getUseFor
 size_t
 index
 )
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 &
@@ -2549,6 +2553,8 @@ size_t
 index
 )
 const
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 operands_
@@ -2566,6 +2572,8 @@ numOperands
 (
 )
 const
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 Arity
@@ -3656,6 +3664,8 @@ MDefinition
 *
 operand
 )
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 operands_
 [
@@ -3707,6 +3717,8 @@ getUseFor
 size_t
 index
 )
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 &
@@ -3726,6 +3738,8 @@ size_t
 index
 )
 const
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 operands_
@@ -3743,6 +3757,8 @@ numOperands
 (
 )
 const
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 Arity
@@ -3753,6 +3769,8 @@ numSuccessors
 (
 )
 const
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 Successors
@@ -3766,6 +3784,8 @@ size_t
 i
 )
 const
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 successors_
@@ -3783,6 +3803,8 @@ MBasicBlock
 *
 succ
 )
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 successors_
 [
@@ -5087,6 +5109,8 @@ size_t
 index
 )
 const
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 operands_
@@ -5104,6 +5128,8 @@ numOperands
 (
 )
 const
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 operands_
@@ -5122,6 +5148,8 @@ MDefinition
 *
 operand
 )
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 operands_
 [
@@ -5155,6 +5183,8 @@ getUseFor
 size_t
 index
 )
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 &
@@ -22027,6 +22057,8 @@ MDefinition
 *
 operand
 )
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 JS_ASSERT
 (
@@ -22062,6 +22094,8 @@ getUseFor
 size_t
 index
 )
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 JS_ASSERT
 (
@@ -22084,6 +22118,8 @@ size_t
 index
 )
 const
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 JS_ASSERT
 (
@@ -22106,6 +22142,8 @@ numOperands
 (
 )
 const
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 1
@@ -22163,6 +22201,8 @@ numSuccessors
 (
 )
 const
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 map_
@@ -22189,6 +22229,8 @@ MBasicBlock
 *
 successor
 )
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 setSuccessor
 (
@@ -22205,6 +22247,8 @@ size_t
 i
 )
 const
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 JS_ASSERT
 (

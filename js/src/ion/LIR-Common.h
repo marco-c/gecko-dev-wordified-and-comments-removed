@@ -702,6 +702,8 @@ numSuccessors
 (
 )
 const
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 Succs
@@ -715,6 +717,8 @@ size_t
 i
 )
 const
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 return
 successors_
@@ -732,6 +736,8 @@ MBasicBlock
 *
 successor
 )
+MOZ_FINAL
+MOZ_OVERRIDE
 {
 successors_
 [
