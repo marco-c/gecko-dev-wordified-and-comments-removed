@@ -230,15 +230,3 @@ MODULE
 '
 necko
 '
-EXPORTS
-+
-=
-[
-'
-necko
--
-config
-.
-h
-'
-]
