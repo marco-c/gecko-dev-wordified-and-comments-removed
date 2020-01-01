@@ -6377,7 +6377,7 @@ aMetrics
 -
 >
 superscriptOffset
-=
+<
 =
 0
 |
@@ -6411,7 +6411,7 @@ aMetrics
 -
 >
 subscriptOffset
-=
+<
 =
 0
 |
