@@ -6722,6 +6722,19 @@ rv
 )
 return
 ;
+nsCxPusher
+cxPusher
+;
+if
+(
+cxPusher
+.
+Push
+(
+mContent
+)
+)
+{
 helper
 -
 >
@@ -6732,6 +6745,7 @@ cx
 obj
 )
 ;
+}
 }
 nsIObjectFrame
 *

@@ -150,6 +150,14 @@ rv
 return
 rv
 ;
+if
+(
+!
+cx
+)
+return
+NS_ERROR_NOT_AVAILABLE
+;
 JSObject
 *
 window
