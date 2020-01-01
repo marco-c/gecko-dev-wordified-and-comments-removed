@@ -271,6 +271,15 @@ waitForExplicitFinish
 (
 )
 ;
+var
+options
+=
+{
+maximumAge
+:
+0
+}
+;
 /
 /
 one
@@ -286,7 +295,7 @@ getCurrentPosition
 (
 successCallback
 null
-null
+options
 )
 ;
 setTimeout
