@@ -433,7 +433,7 @@ XRE_TakeMinidumpForChild
 (
 PRUint32
 aChildPid
-nsIFile
+nsILocalFile
 *
 *
 aDump
