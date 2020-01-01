@@ -5944,7 +5944,7 @@ f
 write
 (
 "
-js
+JS
 :
 :
 AutoValueRooter
@@ -9021,13 +9021,6 @@ EDIT
 include
 "
 jsapi
-.
-h
-"
-#
-include
-"
-jscntxt
 .
 h
 "

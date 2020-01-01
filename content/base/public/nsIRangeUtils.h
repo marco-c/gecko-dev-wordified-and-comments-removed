@@ -12,7 +12,7 @@ nsISupports
 h
 "
 class
-nsIDOMRange
+nsRange
 ;
 class
 nsIDOMNode
@@ -77,7 +77,7 @@ CompareNodeToRange
 nsIContent
 *
 aNode
-nsIDOMRange
+nsRange
 *
 aRange
 bool

@@ -2217,7 +2217,7 @@ IsEmpty
 )
 &
 &
-nsToolkit
+WinUtils
 :
 :
 VistaCreateItemFromParsingNameInit
@@ -2235,10 +2235,10 @@ if
 (
 SUCCEEDED
 (
-nsToolkit
+WinUtils
 :
 :
-createItemFromParsingName
+SHCreateItemFromParsingName
 (
 aInitialDir
 .
@@ -3562,7 +3562,7 @@ IsEmpty
 )
 &
 &
-nsToolkit
+WinUtils
 :
 :
 VistaCreateItemFromParsingNameInit
@@ -3580,10 +3580,10 @@ if
 (
 SUCCEEDED
 (
-nsToolkit
+WinUtils
 :
 :
-createItemFromParsingName
+SHCreateItemFromParsingName
 (
 aInitialDir
 .

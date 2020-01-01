@@ -504,10 +504,10 @@ nameWord
 )
 &
 ~
+uintptr_t
 (
-jsuword
-)
 1
+)
 )
 )
 #
@@ -523,10 +523,10 @@ nameWord
 nameWord
 )
 &
+uintptr_t
 (
-jsuword
-)
 1
+)
 )
 )
 !

@@ -515,6 +515,10 @@ test_tree
 .
 xul
 \
+test_visibility
+.
+html
+\
 z_frames
 .
 html

@@ -53,7 +53,7 @@ DEBUG
 #
 include
 "
-nsIRange
+nsRange
 .
 h
 "
@@ -814,7 +814,7 @@ nsTHashtable
 <
 nsPtrHashKey
 <
-nsIRange
+nsRange
 >
 >
 RangeHashTable

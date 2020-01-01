@@ -508,7 +508,7 @@ gStackBaseThreadIndex
 #
 else
 static
-jsuword
+uintptr_t
 gStackBase
 ;
 #
@@ -16323,7 +16323,7 @@ double
 )
 (
 (
-jsuword
+uintptr_t
 )
 obj
 -
@@ -29119,7 +29119,7 @@ else
 gStackBase
 =
 (
-jsuword
+uintptr_t
 )
 &
 stackDummy

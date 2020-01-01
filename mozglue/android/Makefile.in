@@ -460,6 +460,19 @@ LOCAL_INCLUDES
 -
 I
 (
+srcdir
+)
+/
+.
+.
+/
+linker
+LOCAL_INCLUDES
++
+=
+-
+I
+(
 topsrcdir
 )
 /
@@ -468,6 +481,8 @@ toolkit
 components
 /
 startup
+ifdef
+MOZ_OLD_LINKER
 LOCAL_INCLUDES
 +
 =
@@ -494,6 +509,7 @@ DEFINES
 =
 -
 DANDROID_ARM_LINKER
+endif
 endif
 EXPORTS
 =

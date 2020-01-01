@@ -26,6 +26,13 @@ nsMathUtils
 .
 h
 "
+#
+include
+"
+jsapi
+.
+h
+"
 typedef
 NS_STDCALL_FUNCPROTO
 (
@@ -91,7 +98,7 @@ self
 xpc_qsSelfRef
 selfref
 ;
-js
+JS
 :
 :
 AutoValueRooter
@@ -750,7 +757,7 @@ value
 )
 )
 ;
-js
+JS
 :
 :
 AutoObjectRooter
@@ -849,7 +856,7 @@ NULL
 NULL
 )
 ;
-js
+JS
 :
 :
 AutoObjectRooter
@@ -1345,7 +1352,7 @@ self
 xpc_qsSelfRef
 selfref
 ;
-js
+JS
 :
 :
 AutoValueRooter
@@ -1662,7 +1669,7 @@ self
 xpc_qsSelfRef
 selfref
 ;
-js
+JS
 :
 :
 AutoValueRooter
@@ -1824,7 +1831,7 @@ JS_DoubleToInt32
 yd
 )
 ;
-js
+JS
 :
 :
 AutoValueRooter
@@ -2066,7 +2073,7 @@ jsval_value
 )
 )
 ;
-js
+JS
 :
 :
 AutoValueRooter

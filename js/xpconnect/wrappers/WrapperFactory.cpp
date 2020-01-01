@@ -61,6 +61,13 @@ XPCMaps
 .
 h
 "
+#
+include
+"
+jscntxt
+.
+h
+"
 using
 namespace
 js

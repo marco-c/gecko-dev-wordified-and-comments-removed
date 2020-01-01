@@ -2989,7 +2989,7 @@ ToRegister
 limit
 )
 ;
-jsuword
+uintptr_t
 *
 limitAddr
 =

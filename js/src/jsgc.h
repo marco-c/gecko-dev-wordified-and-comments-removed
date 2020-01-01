@@ -174,7 +174,7 @@ lval
 )
 (
 (
-jsuword
+uintptr_t
 )
 (
 lval
@@ -193,7 +193,7 @@ lval
 )
 (
 (
-jsuword
+uintptr_t
 )
 (
 lval
@@ -5041,7 +5041,7 @@ js_IsAddressableGCThing
 JSRuntime
 *
 rt
-jsuword
+uintptr_t
 w
 js
 :
@@ -5061,15 +5061,6 @@ thing
 namespace
 js
 {
-extern
-void
-MarkRuntime
-(
-JSTracer
-*
-trc
-)
-;
 extern
 void
 TraceRuntime
@@ -5660,7 +5651,7 @@ JS_ASSERT
 (
 !
 (
-jsuword
+uintptr_t
 (
 chunk
 )
@@ -5675,7 +5666,7 @@ ChunkMask
 return
 HashNumber
 (
-jsuword
+uintptr_t
 (
 chunk
 )
@@ -5710,7 +5701,7 @@ JS_ASSERT
 (
 !
 (
-jsuword
+uintptr_t
 (
 k
 )
@@ -5726,7 +5717,7 @@ JS_ASSERT
 (
 !
 (
-jsuword
+uintptr_t
 (
 l
 )
@@ -5766,7 +5757,7 @@ GCChunkSet
 struct
 ConservativeGCThreadData
 {
-jsuword
+uintptr_t
 *
 nativeStackTop
 ;
@@ -5775,7 +5766,7 @@ union
 jmp_buf
 jmpbuf
 ;
-jsuword
+uintptr_t
 words
 [
 JS_HOWMANY
@@ -5786,7 +5777,7 @@ jmp_buf
 )
 sizeof
 (
-jsuword
+uintptr_t
 )
 )
 ]

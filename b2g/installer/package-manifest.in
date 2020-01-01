@@ -2389,7 +2389,7 @@ BINPATH
 /
 components
 /
-libalerts_s
+libalerts
 .
 dylib
 #

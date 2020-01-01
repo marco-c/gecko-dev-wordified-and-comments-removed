@@ -148,13 +148,6 @@ h
 #
 include
 "
-jscntxt
-.
-h
-"
-#
-include
-"
 jsfriendapi
 .
 h
@@ -660,7 +653,7 @@ JSVAL_TO_OBJECT
 aData
 )
 ;
-js
+JS
 :
 :
 AutoValueRooter

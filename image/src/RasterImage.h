@@ -157,14 +157,6 @@ b143
 }
 \
 }
-#
-define
-UINT64_MAX_VAL
-PRUint64
-(
--
-1
-)
 namespace
 mozilla
 {

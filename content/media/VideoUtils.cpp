@@ -19,6 +19,15 @@ prtypes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StdInt
+.
+h
+"
 bool
 AddOverflow32
 (
@@ -148,7 +157,7 @@ b
 {
 if
 (
-PR_INT64_MIN
+INT64_MIN
 -
 b
 <
@@ -170,7 +179,7 @@ true
 else
 if
 (
-PR_INT64_MAX
+INT64_MAX
 -
 b
 >
@@ -269,7 +278,7 @@ NS_ASSERTION
 a
 =
 =
-PR_INT64_MIN
+INT64_MIN
 "
 How
 else
@@ -323,7 +332,7 @@ NS_ASSERTION
 b
 =
 =
-PR_INT64_MIN
+INT64_MIN
 "
 How
 else
@@ -539,7 +548,7 @@ if
 (
 lo
 >
-PR_INT64_MAX
+INT64_MAX
 )
 {
 return
