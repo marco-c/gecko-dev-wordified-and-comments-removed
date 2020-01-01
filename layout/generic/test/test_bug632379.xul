@@ -1803,11 +1803,7 @@ synthesizeKey
 }
 SimpleTest
 .
-waitForExplicitFinish
-(
-)
-;
-addLoadEvent
+waitForFocus
 (
 doTest
 )
