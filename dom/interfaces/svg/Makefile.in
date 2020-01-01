@@ -180,6 +180,10 @@ nsIDOMSVGFilters
 .
 idl
 \
+nsIDOMSVGFitToViewBox
+.
+idl
+\
 nsIDOMSVGForeignObjectElem
 .
 idl
@@ -277,6 +281,10 @@ nsIDOMSVGSwitchElement
 idl
 \
 nsIDOMSVGSymbolElement
+.
+idl
+\
+nsIDOMSVGTests
 .
 idl
 \
