@@ -3692,6 +3692,13 @@ new
 )
 GK_ATOM
 (
+newline
+"
+newline
+"
+)
+GK_ATOM
+(
 nextBidi
 "
 NextBidi
