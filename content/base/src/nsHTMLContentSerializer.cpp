@@ -774,6 +774,8 @@ NS_ERROR_FAILURE
 ;
 PRBool
 forceFormat
+=
+PR_FALSE
 ;
 if
 (

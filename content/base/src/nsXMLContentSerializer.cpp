@@ -3678,6 +3678,8 @@ NS_ERROR_FAILURE
 ;
 PRBool
 forceFormat
+=
+PR_FALSE
 ;
 if
 (
@@ -4126,6 +4128,8 @@ NS_ERROR_FAILURE
 ;
 PRBool
 forceFormat
+=
+PR_FALSE
 outputElementEnd
 ;
 outputElementEnd
@@ -4715,6 +4719,10 @@ aContent
 PRBool
 hasChildren
 ;
+aForceFormat
+=
+PR_FALSE
+;
 if
 (
 NS_SUCCEEDED
@@ -4738,10 +4746,6 @@ return
 PR_FALSE
 ;
 }
-aForceFormat
-=
-PR_FALSE
-;
 return
 PR_TRUE
 ;
