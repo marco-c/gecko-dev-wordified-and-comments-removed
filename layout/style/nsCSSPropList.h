@@ -7914,6 +7914,3 @@ endif
 #
 undef
 CSS_PROP_DOMPROP_PREFIXED
-(
-name_
-)
