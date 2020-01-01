@@ -328,13 +328,6 @@ h
 #
 include
 "
-nsIDOMViewCSS
-.
-h
-"
-#
-include
-"
 nsIXBLService
 .
 h
