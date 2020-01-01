@@ -1592,6 +1592,17 @@ matches
 )
 ;
 }
+if
+(
+matches
+.
+Length
+(
+)
+>
+0
+)
+{
 AutoCompleteResultComparator
 comparator
 (
@@ -1701,6 +1712,7 @@ rv
 rv
 )
 ;
+}
 }
 }
 return
