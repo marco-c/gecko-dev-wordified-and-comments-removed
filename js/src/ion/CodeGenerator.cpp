@@ -3204,14 +3204,9 @@ masm
 .
 movePtr
 (
-ImmWord
+ImmGCPtr
 (
 argumentsRectifier
--
->
-raw
-(
-)
 )
 objreg
 )
