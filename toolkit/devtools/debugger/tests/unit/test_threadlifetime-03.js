@@ -98,15 +98,6 @@ aEvent
 aPacket
 )
 {
-aPacket
-.
-frame
-.
-arguments
-[
-0
-]
-;
 let
 grips
 =
