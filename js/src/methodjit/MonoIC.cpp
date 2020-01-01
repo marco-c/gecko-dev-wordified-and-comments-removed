@@ -3672,7 +3672,7 @@ Assembler
 NonZero
 Imm32
 (
-t1
+1
 )
 t0
 )
