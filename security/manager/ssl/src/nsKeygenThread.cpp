@@ -47,6 +47,15 @@ PSMRunnable
 .
 h
 "
+#
+include
+"
+mozilla
+/
+DebugOnly
+.
+h
+"
 using
 namespace
 mozilla
@@ -770,7 +779,10 @@ if
 notifyObserver
 )
 {
+DebugOnly
+<
 nsresult
+>
 rv
 =
 NS_DispatchToMainThread

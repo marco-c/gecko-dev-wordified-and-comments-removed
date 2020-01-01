@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+DebugOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
@@ -451,7 +460,10 @@ if
 notifyObserver
 )
 {
+DebugOnly
+<
 nsresult
+>
 rv
 =
 NS_DispatchToMainThread

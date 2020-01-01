@@ -527,6 +527,8 @@ locker
 ;
 nsresult
 rv
+=
+NS_OK
 ;
 SECStatus
 srv
