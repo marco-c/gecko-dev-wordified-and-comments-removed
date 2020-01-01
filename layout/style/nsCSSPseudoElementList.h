@@ -143,3 +143,17 @@ anonymous
 )
 #
 endif
+CSS_PSEUDO_ELEMENT
+(
+mozProgressBar
+"
+:
+-
+moz
+-
+progress
+-
+bar
+"
+0
+)
