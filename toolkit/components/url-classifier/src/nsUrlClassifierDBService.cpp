@@ -13933,7 +13933,7 @@ ResetDatabase
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsUrlClassifierDBService
 :
 :
