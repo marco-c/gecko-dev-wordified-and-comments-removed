@@ -13191,13 +13191,11 @@ parent
 if
 (
 !
-(
 sprop
 -
 >
-flags
-&
-SPROP_HAS_SHORTID
+hasShortID
+(
 )
 )
 continue

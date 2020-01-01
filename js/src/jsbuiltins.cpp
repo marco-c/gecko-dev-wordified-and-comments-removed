@@ -1184,7 +1184,9 @@ attrs
 sprop
 -
 >
-flags
+getFlags
+(
+)
 sprop
 -
 >
