@@ -1023,7 +1023,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-bool
+void
 BluetoothServiceChildProcess
 :
 :
@@ -1061,9 +1061,6 @@ aAdapterPath
 aProfileId
 )
 )
-;
-return
-true
 ;
 }
 void

@@ -538,7 +538,7 @@ aPath
 0
 ;
 virtual
-bool
+void
 Connect
 (
 const
