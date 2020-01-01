@@ -926,14 +926,6 @@ QuickTime
 framework
 IOKit
 \
--
-framework
-Cocoa
-\
--
-framework
-Foundation
-\
 (
 NULL
 )

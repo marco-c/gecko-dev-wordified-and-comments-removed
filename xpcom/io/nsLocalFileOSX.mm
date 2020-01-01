@@ -475,6 +475,13 @@ h
 #
 include
 "
+nsObjCExceptions
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -580,6 +587,15 @@ include
 Carbon
 /
 Carbon
+.
+h
+>
+#
+import
+<
+Cocoa
+/
+Cocoa
 .
 h
 >
@@ -1051,6 +1067,8 @@ FSRef
 rhs
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 return
 (
 :
@@ -1065,6 +1083,11 @@ rhs
 =
 =
 noErr
+)
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+false
 )
 ;
 }
@@ -1209,6 +1232,8 @@ nsILocalFileMac
 parent
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_ENSURE_ARG
 (
 parent
@@ -1300,6 +1325,8 @@ err
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHOD
 HasMoreElements
@@ -1309,6 +1336,8 @@ PRBool
 result
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 mNext
@@ -1449,6 +1478,8 @@ Close
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHOD
 GetNext
@@ -1583,6 +1614,8 @@ Close
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 mIterator
@@ -1620,6 +1653,8 @@ nsnull
 }
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 private
@@ -1738,12 +1773,16 @@ StAEDesc
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 :
 :
 AEDisposeDesc
 (
 this
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 }
@@ -2076,6 +2115,8 @@ src
 mFollowLinksDirty
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 /
 /
 A
@@ -2112,6 +2153,8 @@ CFRetain
 mTargetRef
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 nsLocalFile
 :
@@ -2121,6 +2164,8 @@ nsLocalFile
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 mBaseRef
@@ -2142,6 +2187,8 @@ CFRelease
 (
 mTargetRef
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 /
@@ -2326,7 +2373,7 @@ nsILocalFile
 nsIFile
 nsIHashable
 )
-NS_METHOD
+NS_IMETHODIMP
 nsLocalFile
 :
 :
@@ -2640,6 +2687,8 @@ nsACString
 aNode
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 Check
@@ -2754,6 +2803,8 @@ NS_OK
 return
 NS_ERROR_FAILURE
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 *
@@ -2772,6 +2823,8 @@ Normalize
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 Check
@@ -2994,6 +3047,8 @@ pathStrRef
 return
 rv
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 *
@@ -3024,6 +3079,8 @@ PRUint32
 permissions
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 type
@@ -3497,6 +3554,8 @@ MacErrorMapper
 err
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 *
@@ -3517,6 +3576,8 @@ nsAString
 aLeafName
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsCAutoString
 nativeString
 ;
@@ -3546,6 +3607,8 @@ aLeafName
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 NS_IMETHODIMP
@@ -3592,6 +3655,8 @@ nsACString
 aNativeLeafName
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 Check
@@ -3643,6 +3708,8 @@ leafStrRef
 return
 rv
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsLocalFile
@@ -3656,6 +3723,8 @@ nsACString
 aNativeLeafName
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 Check
@@ -3766,6 +3835,8 @@ parentURLRef
 }
 return
 rv
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -4010,6 +4081,8 @@ nsACString
 newName
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 Check
@@ -4432,6 +4505,8 @@ newBaseRef
 return
 rv
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 *
@@ -4455,6 +4530,8 @@ PRBool
 recursive
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 Check
@@ -4642,6 +4719,8 @@ PR_FALSE
 return
 rv
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 *
@@ -4663,6 +4742,8 @@ PRUint32
 aPermissions
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_ENSURE_ARG_POINTER
 (
 aPermissions
@@ -4745,6 +4826,8 @@ mode
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsLocalFile
@@ -4756,6 +4839,8 @@ PRUint32
 aPermissions
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 FSRef
 fsRef
 ;
@@ -4851,6 +4936,8 @@ MacErrorMapper
 err
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 *
@@ -4923,6 +5010,8 @@ PRInt64
 aLastModifiedTime
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 Check
@@ -5007,6 +5096,8 @@ contentModDate
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsLocalFile
@@ -5018,6 +5109,8 @@ PRInt64
 aLastModifiedTime
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 Check
@@ -5224,6 +5317,8 @@ err
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 *
@@ -5295,6 +5390,8 @@ PRInt64
 aFileSize
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_ENSURE_ARG_POINTER
 (
 aFileSize
@@ -5405,6 +5502,8 @@ dataLogicalSize
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsLocalFile
@@ -5416,6 +5515,8 @@ PRInt64
 aFileSize
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 Check
@@ -5504,6 +5605,8 @@ MacErrorMapper
 (
 err
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -5632,6 +5735,8 @@ nsACString
 aNativeTarget
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 !
@@ -5679,6 +5784,8 @@ pathStrRef
 }
 return
 rv
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -5755,6 +5862,8 @@ nsACString
 aNativePath
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 Check
@@ -5806,6 +5915,8 @@ pathStrRef
 }
 return
 rv
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -5895,6 +6006,8 @@ PRBool
 _retval
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 Check
@@ -5990,6 +6103,8 @@ S_IWUSR
 }
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -6094,6 +6209,8 @@ PRBool
 _retval
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 Check
@@ -6184,6 +6301,8 @@ PR_TRUE
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 *
@@ -6205,6 +6324,8 @@ PRBool
 _retval
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_ENSURE_ARG_POINTER
 (
 _retval
@@ -6374,6 +6495,8 @@ PR_TRUE
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 *
@@ -6395,6 +6518,8 @@ PRBool
 _retval
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_ENSURE_ARG_POINTER
 (
 _retval
@@ -6478,6 +6603,8 @@ kFSNodeIsDirectoryMask
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -6500,6 +6627,8 @@ PRBool
 _retval
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_ENSURE_ARG_POINTER
 (
 _retval
@@ -6584,6 +6713,8 @@ kFSNodeIsDirectoryMask
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 *
@@ -6605,6 +6736,8 @@ PRBool
 _retval
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 Check
@@ -6683,6 +6816,8 @@ isAlias
 }
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -7251,6 +7386,8 @@ nsIFile
 aParent
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_ENSURE_ARG_POINTER
 (
 aParent
@@ -7475,6 +7612,8 @@ parentURLRef
 }
 return
 rv
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -7833,6 +7972,8 @@ nsACString
 filePath
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsCAutoString
 fixedPath
 ;
@@ -8117,6 +8258,8 @@ pathAsCFString
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 *
@@ -8141,6 +8284,8 @@ nsILocalFile
 aFile
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_ENSURE_ARG
 (
 aFile
@@ -8207,6 +8352,8 @@ urlRef
 ;
 return
 rv
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -8604,6 +8751,8 @@ PRInt64
 aDiskSpaceAvailable
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 Check
@@ -8720,6 +8869,8 @@ freeBytes
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -8956,6 +9107,8 @@ nsACString
 aPersistentDescriptor
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 FSRef
 fsRef
 ;
@@ -9086,6 +9239,8 @@ buf
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsLocalFile
@@ -9099,6 +9254,8 @@ nsACString
 aPersistentDescriptor
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 aPersistentDescriptor
@@ -9423,6 +9580,8 @@ InitWithFSRef
 resolvedFSRef
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 *
@@ -9441,6 +9600,8 @@ Reveal
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 FSRef
 fsRefToReveal
 ;
@@ -9706,6 +9867,8 @@ process
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 *
@@ -9724,6 +9887,8 @@ Launch
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 FSRef
 fsRef
 ;
@@ -9762,6 +9927,8 @@ MacErrorMapper
 (
 err
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -10001,6 +10168,8 @@ FSRef
 aFSRef
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_ENSURE_ARG
 (
 aFSRef
@@ -10047,6 +10216,8 @@ NS_OK
 return
 rv
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 *
@@ -10075,6 +10246,8 @@ FSSpec
 aFileSpec
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_ENSURE_ARG
 (
 aFileSpec
@@ -10332,6 +10505,8 @@ MacErrorMapper
 err
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 *
@@ -10355,6 +10530,8 @@ OSType
 aAppCreator
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 FSRef
 fsRef
 ;
@@ -10393,6 +10570,8 @@ InitWithFSRef
 fsRef
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 *
@@ -10414,6 +10593,8 @@ CFURLRef
 _retval
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_ENSURE_ARG_POINTER
 (
 _retval
@@ -10450,6 +10631,8 @@ whichURLRef
 NS_OK
 :
 NS_ERROR_FAILURE
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -10505,6 +10688,8 @@ FSSpec
 _retval
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_ENSURE_ARG_POINTER
 (
 _retval
@@ -10756,6 +10941,8 @@ err
 return
 rv
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 *
@@ -10777,6 +10964,8 @@ PRInt64
 aFileSizeWithResFork
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_ENSURE_ARG_POINTER
 (
 aFileSizeWithResFork
@@ -10852,6 +11041,8 @@ rsrcLogicalSize
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 *
@@ -10872,6 +11063,8 @@ OSType
 aFileType
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_ENSURE_ARG_POINTER
 (
 aFileType
@@ -10941,6 +11134,8 @@ fileType
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsLocalFile
@@ -10952,6 +11147,8 @@ OSType
 aFileType
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 FSRef
 fsRef
 ;
@@ -10991,6 +11188,8 @@ MacErrorMapper
 (
 err
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -11012,6 +11211,8 @@ OSType
 aFileCreator
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_ENSURE_ARG_POINTER
 (
 aFileCreator
@@ -11081,6 +11282,8 @@ fileCreator
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsLocalFile
@@ -11092,6 +11295,8 @@ OSType
 aFileCreator
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 FSRef
 fsRef
 ;
@@ -11131,6 +11336,8 @@ MacErrorMapper
 (
 err
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -11267,6 +11474,8 @@ PRBool
 aLaunchInBackground
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 PRBool
 isExecutable
 ;
@@ -11444,6 +11653,8 @@ err
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 *
@@ -11473,6 +11684,8 @@ PRBool
 aLaunchInBackground
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsresult
 rv
 ;
@@ -11712,6 +11925,8 @@ err
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 *
@@ -11733,6 +11948,8 @@ PRBool
 _retval
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_ENSURE_ARG
 (
 _retval
@@ -11949,6 +12166,8 @@ PR_TRUE
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsLocalFile
@@ -12079,6 +12298,8 @@ nsACString
 outBundleIdentifier
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsresult
 rv
 =
@@ -12155,6 +12376,8 @@ urlRef
 }
 return
 rv
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -12340,6 +12563,8 @@ CFURLRef
 aCFURLRef
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_ENSURE_ARG
 (
 aCFURLRef
@@ -12382,6 +12607,8 @@ PR_FALSE
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 nsresult
 nsLocalFile
@@ -12391,6 +12618,8 @@ UpdateTargetRef
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 Check
@@ -12520,6 +12749,8 @@ PR_FALSE
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 nsresult
 nsLocalFile
@@ -12534,6 +12765,8 @@ PRBool
 bForceUpdateCache
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 bForceUpdateCache
@@ -12624,6 +12857,8 @@ cause
 return
 NS_ERROR_FILE_NOT_FOUND
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 nsresult
 nsLocalFile
@@ -12636,6 +12871,8 @@ nsACString
 path
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsresult
 rv
 =
@@ -12691,6 +12928,8 @@ pathStrRef
 return
 rv
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 nsresult
 nsLocalFile
@@ -12709,6 +12948,8 @@ PRBool
 followLinks
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 Check
@@ -12957,6 +13198,8 @@ MacErrorMapper
 err
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 const
 PRInt64
@@ -13158,6 +13401,8 @@ nsACString
 aOutStr
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsresult
 rv
 =
@@ -13270,6 +13515,8 @@ NS_OK
 return
 rv
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 /
@@ -13308,6 +13555,8 @@ PRUint32
 aResult
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 CFStringRef
 pathStrRef
 =
@@ -13345,6 +13594,8 @@ path
 ;
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -14125,6 +14376,8 @@ ProcessSerialNumber
 outPsn
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 ProcessInfoRec
 info
 ;
@@ -14238,6 +14491,11 @@ noErr
 return
 procNotFound
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+procNotFound
+)
+;
 }
 /
 /
@@ -14326,6 +14584,8 @@ nsAString
 aResult
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 static
 PRBool
 sChecked
@@ -14606,5 +14866,7 @@ CFRelease
 (
 inStr
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }

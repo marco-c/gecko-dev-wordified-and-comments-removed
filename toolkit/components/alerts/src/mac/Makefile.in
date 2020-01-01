@@ -545,10 +545,6 @@ EXTRA_DSO_LDOPTS
 framework
 Carbon
 \
--
-framework
-Cocoa
-\
 (
 XPCOM_GLUE_LDOPTS
 )
