@@ -93,12 +93,6 @@ Init
 (
 )
 ;
-static
-bool
-CheckAndLogBackgroundThreadUse
-(
-)
-;
 protected
 :
 nsresult
