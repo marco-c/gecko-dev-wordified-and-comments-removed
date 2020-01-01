@@ -27878,15 +27878,13 @@ outOfFlowFrame
 {
 NS_ASSERTION
 (
+!
 aDestroyQueue
 .
-IndexOf
+Contains
 (
 outOfFlowFrame
 )
-=
-=
-kNotFound
 "
 out
 -
