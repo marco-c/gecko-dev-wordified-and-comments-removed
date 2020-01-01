@@ -1802,6 +1802,17 @@ eChildCountUninitialized
 return
 ;
 }
+if
+(
+mAccChildCount
+!
+=
+eChildCountUninitialized
+)
+{
+return
+;
+}
 mAccChildCount
 =
 0
