@@ -86,11 +86,3 @@ a
 '
 )
 ;
-assertEq
-(
-finalizeCount
-(
-)
-1
-)
-;

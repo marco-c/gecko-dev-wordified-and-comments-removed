@@ -548,9 +548,9 @@ endif
 bool
 verifyRange
 (
-JITScript
+JITChunk
 *
-jit
+chunk
 )
 {
 return
@@ -561,7 +561,7 @@ JSC
 :
 JITCode
 (
-jit
+chunk
 -
 >
 code
@@ -571,7 +571,7 @@ m_code
 executableAddress
 (
 )
-jit
+chunk
 -
 >
 code
@@ -842,9 +842,9 @@ NativeStubLinker
 Assembler
 &
 masm
-JITScript
+JITChunk
 *
-jit
+chunk
 jsbytecode
 *
 pc
@@ -860,9 +860,9 @@ JSC
 :
 METHOD_CODE
 )
-jit
+chunk
 (
-jit
+chunk
 )
 pc
 (
@@ -914,9 +914,9 @@ endif
 }
 private
 :
-JITScript
+JITChunk
 *
-jit
+chunk
 ;
 jsbytecode
 *
