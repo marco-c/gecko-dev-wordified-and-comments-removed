@@ -2700,10 +2700,6 @@ svg
 #
 bug
 652050
-asserts
-(
-3
-)
 =
 =
 symbol
@@ -2718,10 +2714,6 @@ symbol
 ref
 .
 svg
-#
-see
-bug
-563481
 =
 =
 text

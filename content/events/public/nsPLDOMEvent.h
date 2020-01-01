@@ -111,6 +111,16 @@ PR_FALSE
 )
 {
 }
+nsPLDOMEvent
+(
+nsINode
+*
+aEventNode
+nsEvent
+&
+aEvent
+)
+;
 NS_IMETHOD
 Run
 (
@@ -121,7 +131,7 @@ PostDOMEvent
 (
 )
 ;
-nsresult
+void
 RunDOMEventWhenSafe
 (
 )

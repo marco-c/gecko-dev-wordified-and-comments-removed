@@ -809,15 +809,6 @@ nsAString
 aTextContent
 )
 {
-mozAutoSubtreeModified
-subtree
-(
-GetOwnerDoc
-(
-)
-nsnull
-)
-;
 return
 nsContentUtils
 :
@@ -2526,6 +2517,11 @@ aOldNodeInfo
 )
 {
 }
+void
+FireNodeRemovedForChildren
+(
+)
+;
 protected
 :
 nsresult

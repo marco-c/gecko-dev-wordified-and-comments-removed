@@ -1302,10 +1302,6 @@ svg
 lime
 .
 svg
-asserts
-(
-9
-)
 =
 =
 anim
@@ -1320,13 +1316,6 @@ svg
 lime
 .
 svg
-#
-the
-asserts
-here
-are
-bug
-563481
 #
 animate
 the
