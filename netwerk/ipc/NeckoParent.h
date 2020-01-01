@@ -59,7 +59,9 @@ AllocPHttpChannel
 (
 PBrowserParent
 *
-browser
+const
+SerializedLoadContext
+&
 )
 ;
 virtual

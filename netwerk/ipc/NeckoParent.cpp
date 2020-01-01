@@ -162,6 +162,10 @@ AllocPHttpChannel
 PBrowserParent
 *
 browser
+const
+SerializedLoadContext
+&
+loadContext
 )
 {
 HttpChannelParent
@@ -172,6 +176,7 @@ new
 HttpChannelParent
 (
 browser
+loadContext
 )
 ;
 p

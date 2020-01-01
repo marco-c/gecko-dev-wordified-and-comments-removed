@@ -71,7 +71,9 @@ AllocPHttpChannel
 (
 PBrowserChild
 *
-iframeEmbedding
+const
+SerializedLoadContext
+&
 )
 ;
 virtual

@@ -164,13 +164,6 @@ prio
 h
 "
 ;
-include
-"
-SerializedLoadContext
-.
-h
-"
-;
 using
 RequestHeaderTuples
 ;
@@ -182,12 +175,6 @@ nsHttpResponseHead
 ;
 using
 nsHttpAtom
-;
-using
-IPC
-:
-:
-SerializedLoadContext
 ;
 using
 PRNetAddr
@@ -364,8 +351,6 @@ nsCString
 appCacheClientID
 bool
 allowSpdy
-SerializedLoadContext
-loadContext
 )
 ;
 /
