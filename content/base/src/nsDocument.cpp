@@ -9001,11 +9001,6 @@ get
 }
 #
 endif
-SetPrincipal
-(
-nsnull
-)
-;
 mSecurityInfo
 =
 nsnull
@@ -9188,6 +9183,11 @@ nsnull
 mDOMStyleSheets
 =
 nsnull
+;
+SetPrincipal
+(
+nsnull
+)
 ;
 mOriginalURI
 =
