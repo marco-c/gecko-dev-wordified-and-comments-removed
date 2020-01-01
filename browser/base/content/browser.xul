@@ -2750,6 +2750,11 @@ enablehistory
 "
 true
 "
+timeout
+=
+"
+100
+"
 maxrows
 =
 "
