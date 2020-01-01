@@ -7723,6 +7723,10 @@ nsIWebNavigation
 STOP_NETWORK
 )
 ;
+EnsureOnloadBlocker
+(
+)
+;
 }
 nsCOMPtr
 <

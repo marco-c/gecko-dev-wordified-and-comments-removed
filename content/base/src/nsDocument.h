@@ -3575,6 +3575,11 @@ nsDocument
 (
 )
 ;
+void
+EnsureOnloadBlocker
+(
+)
+;
 nsCString
 mReferrer
 ;
