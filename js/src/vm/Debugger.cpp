@@ -13777,7 +13777,10 @@ hasCallObj
 &
 &
 !
-CreateFunCallObject
+CallObject
+:
+:
+createForFunction
 (
 cx
 fp

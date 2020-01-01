@@ -1021,6 +1021,13 @@ BINPATH
 /
 components
 /
+html5
+.
+xpt
+BINPATH
+/
+components
+/
 htmlparser
 .
 xpt

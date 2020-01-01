@@ -1261,6 +1261,15 @@ if
 (
 !
 presShell
+|
+|
+!
+presShell
+-
+>
+GetRootFrame
+(
+)
 )
 return
 nsnull

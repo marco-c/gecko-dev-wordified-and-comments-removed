@@ -5624,7 +5624,7 @@ aNameSpaceID
 ns
 )
 ;
-GetAttributeNodeNS
+GetAttributeNodeNSInternal
 (
 ns
 nsDependentAtomString

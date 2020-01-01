@@ -1132,7 +1132,7 @@ contextList
 ;
 }
 JSDebugHooks
-globalDebugHooks
+debugHooks
 ;
 bool
 debugMode
@@ -1824,6 +1824,9 @@ regexpCode
 size_t
 *
 stackCommitted
+size_t
+*
+gcMarker
 )
 ;
 void
@@ -1906,11 +1909,6 @@ next
 ;
 #
 endif
-extern
-const
-JSDebugHooks
-js_NullDebugHooks
-;
 namespace
 js
 {
@@ -2855,11 +2853,6 @@ checkGCRooters
 endif
 #
 endif
-const
-JSDebugHooks
-*
-debugHooks
-;
 JSSecurityCallbacks
 *
 securityCallbacks

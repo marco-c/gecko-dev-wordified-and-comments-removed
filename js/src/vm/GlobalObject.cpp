@@ -1492,7 +1492,7 @@ JSContext
 cx
 )
 {
-HeapValue
+HeapSlot
 &
 v
 =
@@ -1523,9 +1523,8 @@ v
 .
 set
 (
-compartment
-(
-)
+this
+RUNTIME_CODEGEN_ENABLED
 BooleanValue
 (
 (

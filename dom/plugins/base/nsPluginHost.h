@@ -313,7 +313,7 @@ LoadPlugins
 )
 ;
 nsresult
-InstantiatePluginForChannel
+CreateListenerForChannel
 (
 nsIChannel
 *

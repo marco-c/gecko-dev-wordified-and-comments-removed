@@ -268,6 +268,14 @@ nsIDocShell
 aDocShell
 )
 ;
+void
+MaybeRemoveMutationObserver
+(
+nsINode
+*
+aNode
+)
+;
 static
 PLDHashOperator
 RemoveForDocumentEnumerator

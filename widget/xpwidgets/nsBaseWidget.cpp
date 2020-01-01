@@ -328,6 +328,10 @@ mUseAcceleratedRendering
 (
 false
 )
+mForceLayersAcceleration
+(
+false
+)
 mTemporarilyUseBasicLayerManager
 (
 false
@@ -2606,8 +2610,7 @@ disabled
 false
 )
 ;
-bool
-forceAcceleration
+mForceLayersAcceleration
 =
 Preferences
 :
@@ -2787,7 +2790,7 @@ false
 ;
 if
 (
-forceAcceleration
+mForceLayersAcceleration
 )
 return
 true
@@ -3129,6 +3132,7 @@ layerManager
 >
 Initialize
 (
+mForceLayersAcceleration
 )
 )
 {
