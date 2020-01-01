@@ -4018,12 +4018,7 @@ active
 =
 true
 )
-{
-active_
-=
-active
 ;
-}
 bool
 isInterpreter
 (
