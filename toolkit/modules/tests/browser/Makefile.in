@@ -65,6 +65,10 @@ browser_Deprecated
 .
 js
 \
+browser_Finder
+.
+js
+\
 browser_Geometry
 .
 js
