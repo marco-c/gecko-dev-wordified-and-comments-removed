@@ -259,6 +259,12 @@ int32
 depth
 )
 ;
+MDefinition
+*
+scopeChain
+(
+)
+;
 void
 initSlot
 (
@@ -352,6 +358,14 @@ pushSlot
 (
 uint32
 slot
+)
+;
+void
+setScopeChain
+(
+MDefinition
+*
+ins
 )
 ;
 MDefinition

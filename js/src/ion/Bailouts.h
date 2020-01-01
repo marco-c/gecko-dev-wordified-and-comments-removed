@@ -370,6 +370,17 @@ ionScript
 }
 }
 ;
+bool
+EnsureHasCallObject
+(
+JSContext
+*
+cx
+StackFrame
+*
+fp
+)
+;
 uint32
 Bailout
 (

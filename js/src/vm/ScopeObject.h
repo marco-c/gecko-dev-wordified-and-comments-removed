@@ -175,6 +175,8 @@ CALLEE_SLOT
 =
 1
 ;
+public
+:
 static
 CallObject
 *
@@ -192,8 +194,6 @@ HandleFunction
 callee
 )
 ;
-public
-:
 static
 const
 uint32_t
@@ -371,6 +371,13 @@ copyUnaliasedValues
 StackFrame
 *
 fp
+)
+;
+static
+inline
+size_t
+offsetOfCallee
+(
 )
 ;
 }

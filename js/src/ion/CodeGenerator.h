@@ -433,6 +433,14 @@ ool
 )
 ;
 bool
+visitNewCallObject
+(
+LNewCallObject
+*
+lir
+)
+;
+bool
 visitInitProp
 (
 LInitProp
