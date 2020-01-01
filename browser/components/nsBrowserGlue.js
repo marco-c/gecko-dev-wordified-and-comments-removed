@@ -1458,14 +1458,14 @@ BG__init
 )
 {
 let
-addObserver
+os
 =
 Services
 .
 obs
-.
-addObserver
 ;
+os
+.
 addObserver
 (
 this
@@ -1477,6 +1477,8 @@ shutdown
 false
 )
 ;
+os
+.
 addObserver
 (
 this
@@ -1492,6 +1494,8 @@ defaults
 false
 )
 ;
+os
+.
 addObserver
 (
 this
@@ -1505,6 +1509,8 @@ startup
 false
 )
 ;
+os
+.
 addObserver
 (
 this
@@ -1518,6 +1524,8 @@ restored
 false
 )
 ;
+os
+.
 addObserver
 (
 this
@@ -1533,6 +1541,8 @@ history
 false
 )
 ;
+os
+.
 addObserver
 (
 this
@@ -1546,6 +1556,8 @@ requested
 false
 )
 ;
+os
+.
 addObserver
 (
 this
@@ -1562,6 +1574,8 @@ false
 #
 ifdef
 OBSERVE_LASTWINDOW_CLOSE_TOPICS
+os
+.
 addObserver
 (
 this
@@ -1577,6 +1591,8 @@ requested
 false
 )
 ;
+os
+.
 addObserver
 (
 this
@@ -1594,6 +1610,8 @@ false
 ;
 #
 endif
+os
+.
 addObserver
 (
 this
@@ -1605,6 +1623,8 @@ save
 false
 )
 ;
+os
+.
 addObserver
 (
 this
@@ -1624,6 +1644,8 @@ _isPlacesInitObserver
 =
 true
 ;
+os
+.
 addObserver
 (
 this
@@ -1643,6 +1665,8 @@ _isPlacesLockedObserver
 =
 true
 ;
+os
+.
 addObserver
 (
 this
@@ -1656,6 +1680,8 @@ complete
 false
 )
 ;
+os
+.
 addObserver
 (
 this
@@ -1682,14 +1708,14 @@ BG__dispose
 )
 {
 let
-removeObserver
+os
 =
 Services
 .
 obs
-.
-removeObserver
 ;
+os
+.
 removeObserver
 (
 this
@@ -1700,6 +1726,8 @@ shutdown
 "
 )
 ;
+os
+.
 removeObserver
 (
 this
@@ -1714,6 +1742,8 @@ defaults
 "
 )
 ;
+os
+.
 removeObserver
 (
 this
@@ -1726,6 +1756,8 @@ startup
 "
 )
 ;
+os
+.
 removeObserver
 (
 this
@@ -1738,6 +1770,8 @@ restored
 "
 )
 ;
+os
+.
 removeObserver
 (
 this
@@ -1752,6 +1786,8 @@ history
 "
 )
 ;
+os
+.
 removeObserver
 (
 this
@@ -1764,6 +1800,8 @@ requested
 "
 )
 ;
+os
+.
 removeObserver
 (
 this
@@ -1779,6 +1817,8 @@ granted
 #
 ifdef
 OBSERVE_LASTWINDOW_CLOSE_TOPICS
+os
+.
 removeObserver
 (
 this
@@ -1793,6 +1833,8 @@ requested
 "
 )
 ;
+os
+.
 removeObserver
 (
 this
@@ -1809,6 +1851,8 @@ granted
 ;
 #
 endif
+os
+.
 removeObserver
 (
 this
@@ -1841,6 +1885,8 @@ this
 .
 _isPlacesInitObserver
 )
+os
+.
 removeObserver
 (
 this
@@ -1859,6 +1905,8 @@ this
 .
 _isPlacesLockedObserver
 )
+os
+.
 removeObserver
 (
 this
@@ -1877,6 +1925,8 @@ this
 .
 _isPlacesShutdownObserver
 )
+os
+.
 removeObserver
 (
 this
