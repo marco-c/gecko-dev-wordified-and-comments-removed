@@ -1065,10 +1065,9 @@ SHELL_WRAPPER1
 removeObserver
 jstring
 )
-SHELL_WRAPPER2
+SHELL_WRAPPER1
 (
 onChangeNetworkLinkStatus
-jstring
 jstring
 )
 SHELL_WRAPPER1
