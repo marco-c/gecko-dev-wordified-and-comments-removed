@@ -4518,7 +4518,7 @@ BACKGROUND_PERCEIVABLE
 .
 Nice
 "
-10
+7
 )
 ;
 pref
