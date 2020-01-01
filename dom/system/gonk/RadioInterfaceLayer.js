@@ -6938,7 +6938,9 @@ signalStrength
 =
 message
 .
-gsmDBM
+voice
+.
+signalStrength
 |
 |
 voiceInfo
@@ -6948,7 +6950,9 @@ relSignalStrength
 =
 message
 .
-gsmRelative
+voice
+.
+relSignalStrength
 )
 {
 voiceInfo
@@ -6957,7 +6961,9 @@ signalStrength
 =
 message
 .
-gsmDBM
+voice
+.
+signalStrength
 ;
 voiceInfo
 .
@@ -6965,7 +6971,9 @@ relSignalStrength
 =
 message
 .
-gsmRelative
+voice
+.
+relSignalStrength
 ;
 gMessageManager
 .
@@ -7001,7 +7009,9 @@ signalStrength
 =
 message
 .
-gsmDBM
+data
+.
+signalStrength
 |
 |
 dataInfo
@@ -7011,7 +7021,9 @@ relSignalStrength
 =
 message
 .
-gsmRelative
+data
+.
+relSignalStrength
 )
 {
 dataInfo
@@ -7020,7 +7032,9 @@ signalStrength
 =
 message
 .
-gsmDBM
+data
+.
+signalStrength
 ;
 dataInfo
 .
@@ -7028,7 +7042,9 @@ relSignalStrength
 =
 message
 .
-gsmRelative
+data
+.
+relSignalStrength
 ;
 gMessageManager
 .
