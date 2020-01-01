@@ -141,6 +141,9 @@ network
 class
 Connection
 ;
+class
+MobileConnection
+;
 }
 namespace
 power
@@ -344,6 +347,15 @@ network
 Connection
 >
 mConnection
+;
+nsRefPtr
+<
+network
+:
+:
+MobileConnection
+>
+mMobileConnection
 ;
 #
 ifdef
