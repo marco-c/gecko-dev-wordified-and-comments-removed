@@ -13236,9 +13236,6 @@ get
 }
 if
 (
-sPostGCEventsToConsole
-|
-|
 sPostGCEventsToObserver
 )
 {
@@ -14739,9 +14736,6 @@ get
 }
 if
 (
-sPostGCEventsToConsole
-|
-|
 sPostGCEventsToObserver
 )
 {
