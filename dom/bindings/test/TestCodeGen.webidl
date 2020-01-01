@@ -1545,6 +1545,11 @@ Float64Array
 arg
 )
 ;
+Uint8Array
+receiveUint8Array
+(
+)
+;
 /
 /
 String
