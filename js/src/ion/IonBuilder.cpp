@@ -1547,15 +1547,6 @@ script
 argumentsHasVarBinding
 (
 )
-&
-&
-!
-script
--
->
-needsArgsObj
-(
-)
 )
 {
 lazyArguments_
