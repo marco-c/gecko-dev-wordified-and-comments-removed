@@ -400,6 +400,7 @@ DOMSVGLengthList
 InternalList
 (
 )
+const
 {
 SVGAnimatedLengthList
 *

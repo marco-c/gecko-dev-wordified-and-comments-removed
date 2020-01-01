@@ -400,6 +400,7 @@ DOMSVGNumberList
 InternalList
 (
 )
+const
 {
 SVGAnimatedNumberList
 *
