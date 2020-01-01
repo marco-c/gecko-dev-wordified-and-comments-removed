@@ -132,11 +132,6 @@ nsIDOMNavigatorGeolocation
 .
 idl
 '
-'
-nsIGeolocation
-.
-idl
-'
 ]
 XPIDL_MODULE
 =

@@ -327,6 +327,10 @@ GainNode
 .
 webidl
 \
+Geolocation
+.
+webidl
+\
 HTMLAnchorElement
 .
 webidl

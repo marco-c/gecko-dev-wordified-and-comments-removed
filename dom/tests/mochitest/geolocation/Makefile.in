@@ -89,6 +89,10 @@ test_allowWatch
 .
 html
 \
+test_cachedPosition
+.
+html
+\
 test_cancelCurrent
 .
 html
