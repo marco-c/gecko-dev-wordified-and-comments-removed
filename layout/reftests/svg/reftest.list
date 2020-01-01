@@ -120,10 +120,6 @@ svg
 pass
 .
 svg
-#
-crashes
-linux
-#
 =
 =
 pseudo
@@ -136,6 +132,10 @@ svg
 pass
 .
 svg
+#
+crashes
+linux
+#
 =
 =
 pseudo
