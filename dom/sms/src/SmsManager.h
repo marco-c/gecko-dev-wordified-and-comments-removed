@@ -103,6 +103,17 @@ aRequest
 )
 ;
 nsresult
+Delete
+(
+PRInt32
+aId
+nsIDOMMozSmsRequest
+*
+*
+aRequest
+)
+;
+nsresult
 DispatchTrustedSmsEventToSelf
 (
 const
