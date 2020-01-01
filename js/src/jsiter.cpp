@@ -540,6 +540,9 @@ cx
 JSObject
 *
 obj
+JSObject
+*
+pobj
 jsid
 id
 bool
@@ -614,7 +617,7 @@ true
 ;
 if
 (
-obj
+pobj
 -
 >
 getProto
@@ -743,6 +746,9 @@ cx
 JSObject
 *
 obj
+JSObject
+*
+pobj
 uintN
 flags
 HashSet
@@ -765,14 +771,14 @@ cx
 JS_LOCK_OBJ
 (
 cx
-obj
+pobj
 )
 ;
 JSScope
 *
 scope
 =
-obj
+pobj
 -
 >
 scope
@@ -827,6 +833,7 @@ Enumerate
 (
 cx
 obj
+pobj
 sprop
 -
 >
@@ -910,6 +917,9 @@ cx
 JSObject
 *
 obj
+JSObject
+*
+pobj
 uintN
 flags
 HashSet
@@ -926,7 +936,7 @@ props
 size_t
 count
 =
-obj
+pobj
 -
 >
 getDenseArrayCount
@@ -941,7 +951,7 @@ count
 size_t
 capacity
 =
-obj
+pobj
 -
 >
 getDenseArrayCapacity
@@ -952,7 +962,7 @@ jsval
 *
 vp
 =
-obj
+pobj
 -
 >
 dslots
@@ -992,6 +1002,7 @@ Enumerate
 (
 cx
 obj
+pobj
 INT_TO_JSVAL
 (
 i
@@ -1080,16 +1091,22 @@ props
 cx
 )
 ;
+JSObject
+*
+pobj
+=
+obj
+;
 while
 (
-obj
+pobj
 )
 {
 JSClass
 *
 clasp
 =
-obj
+pobj
 -
 >
 getClass
@@ -1098,7 +1115,7 @@ getClass
 ;
 if
 (
-obj
+pobj
 -
 >
 isNative
@@ -1106,7 +1123,7 @@ isNative
 )
 &
 &
-obj
+pobj
 -
 >
 map
@@ -1141,7 +1158,7 @@ clasp
 enumerate
 (
 cx
-obj
+pobj
 )
 )
 return
@@ -1154,6 +1171,7 @@ EnumerateNativeProperties
 (
 cx
 obj
+pobj
 flags
 ht
 props
@@ -1166,7 +1184,7 @@ false
 else
 if
 (
-obj
+pobj
 -
 >
 isDenseArray
@@ -1181,6 +1199,7 @@ EnumerateDenseArrayProperties
 (
 cx
 obj
+pobj
 flags
 ht
 props
@@ -1198,7 +1217,7 @@ state
 if
 (
 !
-obj
+pobj
 -
 >
 enumerate
@@ -1228,6 +1247,7 @@ EnumerateNativeProperties
 (
 cx
 obj
+pobj
 flags
 ht
 props
@@ -1250,7 +1270,7 @@ id
 if
 (
 !
-obj
+pobj
 -
 >
 enumerate
@@ -1282,6 +1302,7 @@ Enumerate
 (
 cx
 obj
+pobj
 id
 true
 flags
@@ -1299,7 +1320,7 @@ if
 (
 JS_UNLIKELY
 (
-obj
+pobj
 -
 >
 isXML
@@ -1316,9 +1337,9 @@ JSITER_OWNONLY
 )
 break
 ;
-obj
+pobj
 =
-obj
+pobj
 -
 >
 getProto
