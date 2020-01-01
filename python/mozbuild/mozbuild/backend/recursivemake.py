@@ -2830,18 +2830,6 @@ add
 k
 )
             
-full
-=
-os
-.
-path
-.
-join
-(
-man_dir
-k
-)
-            
 fh
 =
 FileAvoidWrite
@@ -2859,8 +2847,10 @@ k
             
 manifest
 .
-write_fileobj
+write
 (
+fileobj
+=
 fh
 )
             

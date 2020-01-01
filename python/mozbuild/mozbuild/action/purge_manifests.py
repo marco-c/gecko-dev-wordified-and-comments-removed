@@ -50,9 +50,9 @@ manifest_path
 manifest
 =
 PurgeManifest
-.
-from_path
 (
+path
+=
 manifest_path
 )
     
