@@ -22161,9 +22161,9 @@ nsContentUtils
 :
 IsNamedItem
 (
-nsIContent
+Element
 *
-aContent
+aElement
 )
 {
 nsGenericHTMLElement
@@ -22175,7 +22175,7 @@ nsGenericHTMLElement
 :
 FromContent
 (
-aContent
+aElement
 )
 ;
 if

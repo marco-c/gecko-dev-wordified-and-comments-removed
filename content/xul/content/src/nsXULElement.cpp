@@ -1207,7 +1207,7 @@ nsIDocument
 aDocument
 PRBool
 aIsScriptable
-nsIContent
+Element
 *
 *
 aResult

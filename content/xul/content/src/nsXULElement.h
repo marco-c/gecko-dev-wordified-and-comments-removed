@@ -1461,7 +1461,13 @@ nsIDocument
 aDocument
 PRBool
 aIsScriptable
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 *
 aResult
