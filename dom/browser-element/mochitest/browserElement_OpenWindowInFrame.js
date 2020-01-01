@@ -150,7 +150,9 @@ detail
 .
 features
 "
-features
+dialog
+=
+1
 "
 )
 ;
