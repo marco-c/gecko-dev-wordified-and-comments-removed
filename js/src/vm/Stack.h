@@ -1844,6 +1844,11 @@ Op
 op
 )
 ;
+void
+cleanupTornValues
+(
+)
+;
 ArgumentsObject
 &
 argsObj
