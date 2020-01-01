@@ -1217,13 +1217,8 @@ STATE_FOCUSED
 }
 if
 (
-nsCoreUtils
-:
-:
-IsDocumentBusy
-(
-mDocument
-)
+!
+mIsLoaded
 )
 {
 *

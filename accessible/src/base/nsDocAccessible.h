@@ -417,6 +417,16 @@ mIsLoaded
 PR_TRUE
 ;
 }
+void
+MarkAsLoading
+(
+)
+{
+mIsLoaded
+=
+PR_FALSE
+;
+}
 virtual
 void
 *

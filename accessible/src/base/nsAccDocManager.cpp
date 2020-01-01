@@ -666,6 +666,13 @@ reloadEvent
 )
 ;
 }
+docAcc
+-
+>
+MarkAsLoading
+(
+)
+;
 nsRefPtr
 <
 AccEvent
@@ -1020,7 +1027,6 @@ nsIAccessibleEvent
 :
 :
 EVENT_DOCUMENT_LOAD_COMPLETE
-PR_TRUE
 )
 ;
 }
@@ -1039,8 +1045,6 @@ nsIDocument
 aDocument
 PRUint32
 aLoadEventType
-PRBool
-aMarkAsLoaded
 )
 {
 nsDocAccessible
@@ -1089,10 +1093,6 @@ docAcc
 return
 ;
 }
-if
-(
-aMarkAsLoaded
-)
 docAcc
 -
 >

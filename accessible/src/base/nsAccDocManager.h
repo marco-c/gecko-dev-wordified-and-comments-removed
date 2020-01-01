@@ -175,10 +175,6 @@ nsIDocument
 aDocument
 PRUint32
 aLoadEventType
-PRBool
-aMarkAsLoaded
-=
-PR_FALSE
 )
 ;
 PRBool
