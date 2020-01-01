@@ -101,6 +101,10 @@ browser_addons
 .
 js
 \
+browser_social_activation
+.
+js
+\
 browser_social_perwindowPB
 .
 js
@@ -144,6 +148,14 @@ js
 browser_social_errorPage
 .
 js
+\
+social_activate
+.
+html
+\
+social_activate_iframe
+.
+html
 \
 social_panel
 .
