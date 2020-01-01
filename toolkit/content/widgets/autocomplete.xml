@@ -763,11 +763,6 @@ textbox
 -
 input
 "
-flex
-=
-"
-1
-"
 allowevents
 =
 "
