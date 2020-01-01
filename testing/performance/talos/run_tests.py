@@ -2018,6 +2018,19 @@ firefox
 ]
 )
   
+if
+browser_config
+[
+'
+profile_path
+'
+]
+!
+=
+{
+}
+:
+    
 browser_config
 [
 '
