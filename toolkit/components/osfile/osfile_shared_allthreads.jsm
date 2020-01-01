@@ -15,7 +15,7 @@ new
 Error
 (
 "
-osfile_shared
+osfile_shared_allthreads
 .
 jsm
 cannot
