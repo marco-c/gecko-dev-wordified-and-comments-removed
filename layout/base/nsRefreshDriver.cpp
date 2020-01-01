@@ -2506,6 +2506,11 @@ do_CreateInstance
 NS_TIMER_CONTRACTID
 )
 ;
+if
+(
+timer
+)
+{
 timer
 .
 forget
@@ -2530,6 +2535,15 @@ nsITimer
 TYPE_ONE_SHOT
 )
 ;
+}
+else
+{
+timeEndPeriod
+(
+1
+)
+;
+}
 }
 #
 endif
