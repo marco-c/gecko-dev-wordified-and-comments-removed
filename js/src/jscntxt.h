@@ -3744,6 +3744,9 @@ size_t
 gcBytes
 ;
 size_t
+gcTriggerBytes
+;
+size_t
 gcLastBytes
 ;
 size_t
@@ -3751,9 +3754,6 @@ gcMaxBytes
 ;
 size_t
 gcMaxMallocBytes
-;
-size_t
-gcNewArenaTriggerBytes
 ;
 uint32
 gcEmptyArenaPoolLifespan
@@ -3770,9 +3770,6 @@ gcMarkingTracer
 ;
 uint32
 gcTriggerFactor
-;
-size_t
-gcTriggerBytes
 ;
 volatile
 JSBool

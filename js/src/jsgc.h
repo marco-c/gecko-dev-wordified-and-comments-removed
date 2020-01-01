@@ -2232,6 +2232,8 @@ float
 GC_HEAP_GROWTH_FACTOR
 =
 3
+.
+0f
 ;
 static
 inline
@@ -3676,9 +3678,6 @@ GC_NORMAL
 GC_LAST_CONTEXT
 =
 1
-GC_LOCK_HELD
-=
-0x10
 }
 JSGCInvocationKind
 ;
