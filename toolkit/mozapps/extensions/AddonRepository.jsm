@@ -3324,12 +3324,14 @@ author
 "
 )
 ;
-for
+Array
+.
+forEach
 (
-let
-authorNode
-of
 authorNodes
+function
+(
+aAuthorNode
 )
 {
 let
@@ -3339,7 +3341,7 @@ self
 .
 _getDescendantTextContent
 (
-authorNode
+aAuthorNode
 "
 name
 "
@@ -3352,7 +3354,7 @@ self
 .
 _getDescendantTextContent
 (
-authorNode
+aAuthorNode
 "
 link
 "
@@ -3371,7 +3373,7 @@ link
 =
 null
 )
-continue
+return
 ;
 let
 author
@@ -3429,6 +3431,8 @@ author
 ;
 }
 }
+)
+;
 break
 ;
 case
@@ -3448,12 +3452,14 @@ preview
 "
 )
 ;
-for
+Array
+.
+forEach
 (
-let
-previewNode
-of
 previewNodes
+function
+(
+aPreviewNode
 )
 {
 let
@@ -3463,7 +3469,7 @@ self
 .
 _getUniqueDescendant
 (
-previewNode
+aPreviewNode
 "
 full
 "
@@ -3476,7 +3482,7 @@ full
 =
 null
 )
-continue
+return
 ;
 let
 fullURL
@@ -3524,7 +3530,7 @@ self
 .
 _getUniqueDescendant
 (
-previewNode
+aPreviewNode
 "
 thumbnail
 "
@@ -3574,7 +3580,7 @@ self
 .
 _getDescendantTextContent
 (
-previewNode
+aPreviewNode
 "
 caption
 "
@@ -3615,7 +3621,7 @@ screenshots
 ;
 if
 (
-previewNode
+aPreviewNode
 .
 getAttribute
 (
@@ -3647,6 +3653,8 @@ screenshot
 )
 ;
 }
+)
+;
 break
 ;
 case
