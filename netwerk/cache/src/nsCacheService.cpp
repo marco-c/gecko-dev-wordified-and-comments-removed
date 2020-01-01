@@ -607,6 +607,7 @@ observerService
 ;
 for
 (
+unsigned
 int
 i
 =
@@ -672,6 +673,7 @@ NS_ERROR_FAILURE
 ;
 for
 (
+unsigned
 int
 i
 =
@@ -823,6 +825,7 @@ obs
 {
 for
 (
+unsigned
 int
 i
 =
@@ -872,6 +875,7 @@ prefs
 {
 for
 (
+unsigned
 int
 i
 =
@@ -1929,13 +1933,18 @@ PR_FALSE
 }
 }
 }
-#
-if
-DEBUG
 if
 (
 !
 directory
+&
+&
+PR_GetEnv
+(
+"
+NECKO_DEV_ENABLE_DISK_CACHE
+"
+)
 )
 {
 rv
@@ -1950,8 +1959,6 @@ directory
 )
 ;
 }
-#
-endif
 if
 (
 directory
