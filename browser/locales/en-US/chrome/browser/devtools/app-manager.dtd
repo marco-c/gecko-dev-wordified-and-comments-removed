@@ -75,9 +75,8 @@ Manager
 ENTITY
 index
 .
-projects
+projects2
 "
-My
 Apps
 "
 >
@@ -86,9 +85,8 @@ Apps
 ENTITY
 index
 .
-device
+device2
 "
-My
 Device
 "
 >
