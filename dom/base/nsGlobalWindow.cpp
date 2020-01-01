@@ -2686,7 +2686,7 @@ nsTimeout
 )
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_NATIVE_CLASS
+NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 nsTimeout
 )
@@ -5517,7 +5517,8 @@ cb
 NoteNativeChild
 (
 timeout
-NS_CYCLE_COLLECTION_PARTICIPANT
+&
+NS_CYCLE_COLLECTION_NAME
 (
 nsTimeout
 )
@@ -35349,6 +35350,12 @@ nsContentUtils
 :
 :
 IsCallerChrome
+(
+)
+&
+&
+!
+IsPartOfApp
 (
 )
 &
