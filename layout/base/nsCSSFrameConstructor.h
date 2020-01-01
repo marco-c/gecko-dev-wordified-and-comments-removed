@@ -2312,6 +2312,9 @@ inline
 PRBool
 SkipWhitespace
 (
+nsFrameConstructorState
+&
+aState
 )
 ;
 void
@@ -2575,6 +2578,9 @@ mBits
 PRBool
 IsWhitespace
 (
+nsFrameConstructorState
+&
+aState
 )
 const
 ;
@@ -2666,9 +2672,13 @@ aOther
 ;
 }
 ;
+inline
 nsresult
 CreateNeededTablePseudos
 (
+nsFrameConstructorState
+&
+aState
 FrameConstructionItemList
 &
 aItems
