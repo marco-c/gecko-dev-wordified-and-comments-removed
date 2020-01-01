@@ -98,11 +98,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMGetSVGDocument
-.
-idl
-'
-'
 nsIDOMSVGAnimatedEnum
 .
 idl

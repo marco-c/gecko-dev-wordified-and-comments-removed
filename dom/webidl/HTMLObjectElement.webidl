@@ -485,7 +485,7 @@ HTMLObjectElement
 {
 /
 /
-nsIDOMGetSVGDocument
+GetSVGDocument
 Document
 ?
 getSVGDocument

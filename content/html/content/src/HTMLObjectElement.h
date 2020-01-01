@@ -41,13 +41,6 @@ nsIConstraintValidation
 .
 h
 "
-#
-include
-"
-nsIDOMGetSVGDocument
-.
-h
-"
 namespace
 mozilla
 {
@@ -66,8 +59,6 @@ public
 nsIDOMHTMLObjectElement
 public
 nsIConstraintValidation
-public
-nsIDOMGetSVGDocument
 {
 public
 :
@@ -102,7 +93,6 @@ TabIndexDefault
 MOZ_OVERRIDE
 ;
 NS_DECL_NSIDOMHTMLOBJECTELEMENT
-NS_DECL_NSIDOMGETSVGDOCUMENT
 virtual
 nsresult
 BindToTree
