@@ -135,9 +135,6 @@ Run
 ;
 }
 #
-ifdef
-MOZ_DEBUG
-#
 define
 ASSERT_ON_THREAD
 (
@@ -195,15 +192,5 @@ while
 0
 )
 }
-#
-else
-#
-define
-ASSERT_ON_THREAD
-(
-t
-)
-#
-endif
 #
 endif
