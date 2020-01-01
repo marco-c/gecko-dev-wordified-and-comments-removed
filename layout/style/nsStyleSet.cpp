@@ -3396,7 +3396,6 @@ PresContext
 aElement
 &
 ruleWalker
-PR_TRUE
 )
 ;
 FileRules

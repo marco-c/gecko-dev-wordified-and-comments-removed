@@ -55,6 +55,9 @@ nsCSSSelectorList
 struct
 CascadeEnumData
 ;
+struct
+TreeMatchContext
+;
 class
 nsCSSRuleProcessor
 :
@@ -137,9 +140,9 @@ dom
 Element
 *
 aElement
-RuleProcessorData
+TreeMatchContext
 &
-aData
+aTreeMatchContext
 nsCSSSelectorList
 *
 aSelectorList
