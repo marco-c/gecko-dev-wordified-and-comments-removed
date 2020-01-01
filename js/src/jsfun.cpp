@@ -1479,7 +1479,7 @@ if
 fun
 -
 >
-isNative
+isBuiltin
 (
 )
 |
