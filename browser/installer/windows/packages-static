@@ -1417,6 +1417,13 @@ bin
 \
 components
 \
+nsPlacesTransactionsService
+.
+js
+bin
+\
+components
+\
 nsPostUpdateWin
 .
 js

@@ -431,6 +431,14 @@ XPIDLSRCS
 nsIPlacesImportExportService
 .
 idl
+\
+nsIPlacesTransactionsService
+.
+idl
+\
+(
+NULL
+)
 include
 (
 topsrcdir

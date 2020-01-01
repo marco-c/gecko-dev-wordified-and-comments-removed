@@ -476,6 +476,11 @@ CPPSRCS
 nsPlacesImportExportService
 .
 cpp
+EXTRA_COMPONENTS
+=
+nsPlacesTransactionsService
+.
+js
 include
 (
 topsrcdir

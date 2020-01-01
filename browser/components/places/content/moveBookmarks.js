@@ -200,7 +200,11 @@ transactions
 push
 (
 new
-PlacesMoveItemTransaction
+PlacesUtils
+.
+txn
+.
+moveItem
 (
 this
 .
@@ -210,7 +214,7 @@ i
 ]
 .
 itemId
-selectedFolderID
+selectedFolderId
 -
 1
 )
@@ -230,8 +234,11 @@ length
 var
 txn
 =
-new
-PlacesAggregateTransaction
+PlacesUtils
+.
+ptm
+.
+aggregateTransactions
 (
 "
 Move
