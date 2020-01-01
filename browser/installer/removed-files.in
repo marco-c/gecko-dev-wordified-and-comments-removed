@@ -4288,6 +4288,16 @@ modules
 DownloadPaths
 .
 jsm
+#
+ifdef
+XP_WIN
+modules
+/
+DownloadTaskbarProgress
+.
+jsm
+#
+endif
 modules
 /
 DownloadUtils
