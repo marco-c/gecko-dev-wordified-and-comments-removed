@@ -712,6 +712,12 @@ test_bug372964
 .
 html
 \
+test_bug372964
+-
+2
+.
+html
+\
 test_bug373181
 .
 xhtml
