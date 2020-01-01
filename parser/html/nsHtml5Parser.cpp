@@ -1783,12 +1783,6 @@ GetContainer
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-container
-NS_ERROR_NOT_AVAILABLE
-)
-;
 Initialize
 (
 doc
