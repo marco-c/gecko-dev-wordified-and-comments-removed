@@ -549,6 +549,10 @@ NetworkGeolocationProvider
 .
 js
 \
+GPSDGeolocationProvider
+.
+js
+\
 (
 NULL
 )
