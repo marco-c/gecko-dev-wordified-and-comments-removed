@@ -7,6 +7,15 @@ BooleanObject_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 jsbool
 .
 h
@@ -132,6 +141,7 @@ private
 BooleanObject
 (
 )
+MOZ_DELETE
 ;
 BooleanObject
 &
@@ -143,6 +153,7 @@ BooleanObject
 &
 bo
 )
+MOZ_DELETE
 ;
 }
 ;

@@ -1,5 +1,14 @@
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 stdlib
 .
@@ -7048,6 +7057,7 @@ const
 RegExpGuard
 &
 )
+MOZ_DELETE
 ;
 void
 operator
@@ -7057,6 +7067,7 @@ const
 RegExpGuard
 &
 )
+MOZ_DELETE
 ;
 JSContext
 *

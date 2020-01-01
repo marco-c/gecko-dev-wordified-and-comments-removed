@@ -7,6 +7,15 @@ StringObject_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 jsobj
 .
 h
@@ -212,6 +221,7 @@ private
 StringObject
 (
 )
+MOZ_DELETE
 ;
 StringObject
 &
@@ -223,6 +233,7 @@ StringObject
 &
 so
 )
+MOZ_DELETE
 ;
 }
 ;

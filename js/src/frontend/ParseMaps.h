@@ -7,6 +7,15 @@ ParseMaps_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 ds
 /
 InlineMap
@@ -839,6 +848,7 @@ AtomDecls
 &
 other
 )
+MOZ_DELETE
 ;
 void
 operator
@@ -849,6 +859,7 @@ AtomDecls
 &
 other
 )
+MOZ_DELETE
 ;
 AtomDeclNode
 *

@@ -7,6 +7,15 @@ NumberObject_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 jsnum
 .
 h
@@ -132,6 +141,7 @@ private
 NumberObject
 (
 )
+MOZ_DELETE
 ;
 NumberObject
 &
@@ -143,6 +153,7 @@ NumberObject
 &
 so
 )
+MOZ_DELETE
 ;
 }
 ;
