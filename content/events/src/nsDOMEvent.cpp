@@ -2560,7 +2560,7 @@ GetSecurityManager
 IsCapabilityEnabled
 (
 "
-UniversalBrowserWrite
+UniversalXPConnect
 "
 &
 enabled

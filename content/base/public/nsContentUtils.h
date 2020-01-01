@@ -652,12 +652,8 @@ IsCallerTrustedForWrite
 ;
 static
 bool
-IsCallerTrustedForCapability
+CallerHasUniversalXPConnect
 (
-const
-char
-*
-aCapability
 )
 ;
 static

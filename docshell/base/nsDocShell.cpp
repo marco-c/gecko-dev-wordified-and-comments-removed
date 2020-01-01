@@ -6680,7 +6680,7 @@ securityManager
 IsCapabilityEnabled
 (
 "
-UniversalBrowserWrite
+UniversalXPConnect
 "
 &
 ubwEnabled
@@ -30061,7 +30061,7 @@ securityManager
 IsCapabilityEnabled
 (
 "
-UniversalBrowserWrite
+UniversalXPConnect
 "
 &
 ubwEnabled
