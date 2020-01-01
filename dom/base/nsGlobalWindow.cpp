@@ -27258,6 +27258,9 @@ nsXBLPrototypeHandler
 *
 aKey
 nsScriptObjectHolder
+<
+JSObject
+>
 &
 aHandler
 )
@@ -27406,7 +27409,7 @@ Put
 aKey
 aHandler
 .
-getObject
+get
 (
 )
 )

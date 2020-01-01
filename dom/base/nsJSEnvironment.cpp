@@ -6326,6 +6326,9 @@ aLineNo
 PRUint32
 aVersion
 nsScriptObjectHolder
+<
+JSScript
+>
 &
 aScriptObject
 )
@@ -6488,7 +6491,7 @@ rv
 =
 aScriptObject
 .
-setScript
+set
 (
 script
 )
@@ -7075,6 +7078,9 @@ aLineNo
 PRUint32
 aVersion
 nsScriptObjectHolder
+<
+JSObject
+>
 &
 aHandler
 )
@@ -7327,7 +7333,7 @@ holder
 return
 aHandler
 .
-setObject
+set
 (
 handler
 )
@@ -8171,6 +8177,9 @@ JSObject
 *
 aHandler
 nsScriptObjectHolder
+<
+JSObject
+>
 &
 aBoundHandler
 )
@@ -8339,7 +8348,7 @@ NULL
 }
 aBoundHandler
 .
-setObject
+set
 (
 funobj
 )
@@ -8533,6 +8542,9 @@ nsIObjectInputStream
 *
 aStream
 nsScriptObjectHolder
+<
+JSScript
+>
 &
 aResult
 )
@@ -8755,7 +8767,7 @@ rv
 return
 aResult
 .
-setScript
+set
 (
 result
 )

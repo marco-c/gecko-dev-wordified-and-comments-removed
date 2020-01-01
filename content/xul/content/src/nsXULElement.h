@@ -929,6 +929,9 @@ void
 Set
 (
 nsScriptObjectHolder
+<
+JSScript
+>
 &
 aHolder
 )
@@ -972,7 +975,7 @@ Set
 (
 aHolder
 .
-getScript
+get
 (
 )
 )
