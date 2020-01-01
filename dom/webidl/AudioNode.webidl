@@ -269,6 +269,9 @@ for
 all
 inputs
 .
+[
+SetterThrows
+]
 attribute
 unsigned
 long
