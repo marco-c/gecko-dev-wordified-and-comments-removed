@@ -94,13 +94,7 @@ verbose
 SetDatablockOptimize
 on
 SetCompress
-force
-SetCompressor
-/
-FINAL
-/
-SOLID
-lzma
+off
 CRCCheck
 on
 RequestExecutionLevel
@@ -1156,6 +1150,8 @@ VIAddVersionKey
 OriginalFilename
 "
 "
+setup
+-
 stub
 .
 exe
@@ -1166,6 +1162,8 @@ BrandFullName
 "
 OutFile
 "
+setup
+-
 stub
 .
 exe
