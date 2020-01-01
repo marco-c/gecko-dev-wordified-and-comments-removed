@@ -1682,6 +1682,8 @@ aResult
 {
 uint32_t
 keyNameIndex
+=
+0
 ;
 if
 (
