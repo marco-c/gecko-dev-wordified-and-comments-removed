@@ -10893,6 +10893,7 @@ while
 ptContent
 &
 &
+(
 !
 ptContent
 -
@@ -10911,6 +10912,7 @@ ptContent
 >
 IsInAnonymousSubtree
 (
+)
 )
 )
 {
