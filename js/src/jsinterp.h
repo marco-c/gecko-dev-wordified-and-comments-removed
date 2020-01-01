@@ -61,6 +61,10 @@ jsbytecode
 *
 pc
 ;
+JSStackFrame
+*
+fp
+;
 }
 JSFrameRegs
 ;

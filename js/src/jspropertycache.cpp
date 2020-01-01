@@ -129,6 +129,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 flags
@@ -347,6 +349,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 getScript
@@ -1138,6 +1142,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 getScript
@@ -1190,6 +1196,17 @@ tmp
 uint32
 vcap
 ;
+JSStackFrame
+*
+fp
+=
+cx
+-
+>
+fp
+(
+)
+;
 JS_ASSERT
 (
 this
@@ -1207,9 +1224,6 @@ JS_ASSERT
 uintN
 (
 (
-cx
--
->
 fp
 -
 >
@@ -1217,9 +1231,6 @@ hasIMacroPC
 (
 )
 ?
-cx
--
->
 fp
 -
 >
@@ -1230,9 +1241,6 @@ getIMacroPC
 pc
 )
 -
-cx
--
->
 fp
 -
 >
@@ -1244,9 +1252,6 @@ getScript
 code
 )
 <
-cx
--
->
 fp
 -
 >
@@ -1264,9 +1269,6 @@ op
 js_GetOpcode
 (
 cx
-cx
--
->
 fp
 -
 >

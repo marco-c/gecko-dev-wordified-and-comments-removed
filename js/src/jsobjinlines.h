@@ -2404,7 +2404,9 @@ cx
 cx
 -
 >
-fp
+maybefp
+(
+)
 clasp
 )
 ;
@@ -2581,7 +2583,9 @@ if
 cx
 -
 >
-fp
+hasfp
+(
+)
 )
 {
 global
@@ -2614,6 +2618,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 getScopeChain
@@ -2885,7 +2891,9 @@ cx
 cx
 -
 >
-fp
+maybefp
+(
+)
 clasp
 )
 ;

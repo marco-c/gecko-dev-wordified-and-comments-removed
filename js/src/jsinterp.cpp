@@ -2150,9 +2150,11 @@ fp
 =
 frame
 .
-getFrame
+getRegs
 (
 )
+.
+fp
 ;
 Value
 *
@@ -2786,6 +2788,8 @@ cx
 -
 >
 fp
+(
+)
 =
 =
 fp
@@ -3018,6 +3022,8 @@ cx
 -
 >
 fp
+(
+)
 ;
 JSObject
 *
@@ -4299,7 +4305,9 @@ down
 cx
 -
 >
-fp
+maybefp
+(
+)
 )
 ?
 down
@@ -6292,6 +6300,8 @@ cx
 -
 >
 fp
+(
+)
 ;
 Value
 *
@@ -6486,6 +6496,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 getScopeChain
@@ -6523,6 +6535,8 @@ cx
 -
 >
 fp
+(
+)
 )
 )
 ;
@@ -6542,6 +6556,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 setScopeChain
@@ -6624,6 +6640,8 @@ cx
 -
 >
 fp
+(
+)
 )
 &
 &
@@ -6680,6 +6698,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 base
@@ -6706,6 +6726,8 @@ cx
 -
 >
 fp
+(
+)
 ;
 for
 (
@@ -7255,6 +7277,8 @@ cx
 -
 >
 fp
+(
+)
 ;
 regs
 =
@@ -11885,6 +11909,8 @@ cx
 -
 >
 fp
+(
+)
 ;
 JSScript
 *
@@ -12269,6 +12295,8 @@ cx
 -
 >
 fp
+(
+)
 ;
 \
 script
@@ -14474,6 +14502,8 @@ cx
 -
 >
 fp
+(
+)
 ;
 script
 =
@@ -25378,6 +25408,12 @@ newfp
 ;
 regs
 .
+fp
+=
+newfp
+;
+regs
+.
 pc
 =
 newscript
@@ -25400,6 +25436,8 @@ cx
 -
 >
 fp
+(
+)
 )
 ;
 fp
