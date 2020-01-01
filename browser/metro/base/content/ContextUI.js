@@ -574,12 +574,6 @@ function
 (
 )
 {
-this
-.
-_clearDelayedTimeout
-(
-)
-;
 Elements
 .
 navbar
