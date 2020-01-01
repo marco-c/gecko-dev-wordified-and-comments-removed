@@ -243,10 +243,7 @@ aBaseURI
 0
 ;
 virtual
-NS_HIDDEN_
-(
 void
-)
 SetPrincipal
 (
 nsIPrincipal
@@ -257,11 +254,8 @@ aPrincipal
 0
 ;
 virtual
-NS_HIDDEN_
-(
 nsIPrincipal
 *
-)
 Principal
 (
 )
@@ -322,11 +316,8 @@ aOwnerRule
 0
 ;
 virtual
-NS_HIDDEN_
-(
 nsXMLNameSpaceMap
 *
-)
 GetNameSpaceMap
 (
 )

@@ -315,10 +315,7 @@ const
 ;
 #
 endif
-NS_HIDDEN_
-(
 void
-)
 CoverValue
 (
 nsCSSProperty

@@ -76,7 +76,6 @@ nsCSSParser
 {
 public
 :
-NS_HIDDEN
 nsCSSParser
 (
 mozilla
@@ -97,7 +96,6 @@ aSheet
 nsnull
 )
 ;
-NS_HIDDEN
 ~
 nsCSSParser
 (
@@ -130,7 +128,6 @@ const
 ;
 public
 :
-NS_HIDDEN
 operator
 bool
 (
@@ -143,10 +140,7 @@ return
 mImpl
 ;
 }
-NS_HIDDEN_
-(
 nsresult
-)
 SetStyleSheet
 (
 nsICSSStyleSheet
@@ -154,10 +148,7 @@ nsICSSStyleSheet
 aSheet
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 SetQuirkMode
 (
 PRBool
@@ -167,10 +158,7 @@ aQuirkMode
 #
 ifdef
 MOZ_SVG
-NS_HIDDEN_
-(
 nsresult
-)
 SetSVGMode
 (
 PRBool
@@ -179,10 +167,7 @@ aSVGMode
 ;
 #
 endif
-NS_HIDDEN_
-(
 nsresult
-)
 SetChildLoader
 (
 mozilla
@@ -196,10 +181,7 @@ Loader
 aChildLoader
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 Parse
 (
 nsIUnicharInputStream
@@ -220,10 +202,7 @@ PRBool
 aAllowUnsafeRules
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 ParseStyleAttribute
 (
 const
@@ -245,10 +224,7 @@ nsICSSStyleRule
 aResult
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 ParseAndAppendDeclaration
 (
 const
@@ -276,10 +252,7 @@ PRBool
 aClearOldDecl
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 ParseRule
 (
 const
@@ -303,10 +276,7 @@ nsICSSRule
 aResult
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 ParseProperty
 (
 const
@@ -335,10 +305,7 @@ PRBool
 aIsImportant
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 ParseMediaList
 (
 const
@@ -357,10 +324,7 @@ PRBool
 aHTMLMode
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 ParseColorString
 (
 const
@@ -377,10 +341,7 @@ nscolor
 aColor
 )
 ;
-NS_HIDDEN_
-(
 nsresult
-)
 ParseSelectorString
 (
 const

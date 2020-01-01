@@ -893,10 +893,7 @@ mDirty
 }
 ;
 inline
-NS_HIDDEN_
-(
 void
-)
 nsRuleNode
 :
 :
@@ -935,10 +932,7 @@ RuleNodeInUse
 }
 }
 inline
-NS_HIDDEN_
-(
 void
-)
 nsRuleNode
 :
 :
