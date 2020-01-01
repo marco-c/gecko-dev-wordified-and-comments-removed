@@ -3241,6 +3241,12 @@ repo
 "
 )
 ;
+Util
+.
+forceOnline
+(
+)
+;
 if
 (
 this
@@ -3937,6 +3943,12 @@ _isXPInstallEnabled
 )
 )
 return
+;
+Util
+.
+forceOnline
+(
+)
 ;
 let
 items

@@ -2657,6 +2657,12 @@ aURI
 )
 return
 ;
+Util
+.
+forceOnline
+(
+)
+;
 Browser
 .
 hideSidebars
@@ -2811,6 +2817,12 @@ _edit
 popup
 .
 closePopup
+(
+)
+;
+Util
+.
+forceOnline
 (
 )
 ;
