@@ -4667,10 +4667,8 @@ IsEmpty
 )
 )
 {
-ContentParent
-*
-contentParent
-=
+MOZ_ASSERT
+(
 mObjectStore
 -
 >
@@ -4687,10 +4685,6 @@ Database
 GetContentParent
 (
 )
-;
-MOZ_ASSERT
-(
-contentParent
 )
 ;
 uint32_t

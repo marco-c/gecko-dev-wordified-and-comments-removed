@@ -502,6 +502,9 @@ AndroidBridge
 h
 "
 #
+undef
+LOG
+#
 define
 LOG
 (

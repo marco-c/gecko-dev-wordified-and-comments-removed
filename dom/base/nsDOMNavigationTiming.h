@@ -496,9 +496,6 @@ DOMTimeMilliSec
 mUnloadEnd
 ;
 DOMTimeMilliSec
-mNavigationEnd
-;
-DOMTimeMilliSec
 mLoadEventStart
 ;
 DOMTimeMilliSec

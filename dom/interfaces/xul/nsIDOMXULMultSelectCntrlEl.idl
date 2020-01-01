@@ -213,6 +213,12 @@ attribute
 long
 selectedCount
 ;
+[
+binaryname
+(
+MultiGetSelectedItem
+)
+]
 nsIDOMXULSelectControlItemElement
 getSelectedItem
 (

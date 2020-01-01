@@ -3248,7 +3248,7 @@ node
 controlElement
 -
 >
-GetSelectedItem
+MultiGetSelectedItem
 (
 i
 getter_AddRefs

@@ -808,6 +808,12 @@ ConsoleListener
 >
 mConsoleListener
 ;
+PRUint64
+mID
+;
+AppInfo
+mAppInfo
+;
 #
 ifdef
 ANDROID
@@ -816,12 +822,6 @@ mScreenSize
 ;
 #
 endif
-PRUint64
-mID
-;
-AppInfo
-mAppInfo
-;
 static
 ContentChild
 *

@@ -692,10 +692,6 @@ mANPDrawingModel
 (
 0
 )
-mOnScreen
-(
-true
-)
 mFullScreenOrientation
 (
 dom
@@ -784,6 +780,15 @@ else
 mUsePluginLayersPref
 (
 false
+)
+#
+endif
+#
+ifdef
+MOZ_WIDGET_ANDROID
+mOnScreen
+(
+true
 )
 #
 endif

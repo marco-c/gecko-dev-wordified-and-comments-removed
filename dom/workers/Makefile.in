@@ -13,7 +13,6 @@ the
 Mozilla
 Public
 #
-#
 License
 v
 .
@@ -32,9 +31,8 @@ not
 distributed
 with
 this
+#
 file
-#
-#
 You
 can
 obtain
@@ -67,6 +65,10 @@ srcdir
 VPATH
 =
 srcdir
+FAIL_ON_WARNINGS
+:
+=
+1
 include
 (
 DEPTH
