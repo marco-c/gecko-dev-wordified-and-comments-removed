@@ -347,7 +347,7 @@ nsDocumentEncoder
 .
 cpp
 \
-nsDocumentFragment
+DocumentFragment
 .
 cpp
 \
