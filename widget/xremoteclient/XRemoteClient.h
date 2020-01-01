@@ -95,7 +95,7 @@ const
 char
 *
 aProfile
-int32_t
+PRInt32
 argc
 char
 *
@@ -190,7 +190,7 @@ const
 char
 *
 aCommand
-int32_t
+PRInt32
 argc
 char
 *
@@ -236,7 +236,7 @@ DoSendCommandLine
 (
 Window
 aWindow
-int32_t
+PRInt32
 argc
 char
 *

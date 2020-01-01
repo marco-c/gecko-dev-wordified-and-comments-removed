@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsIFile
+nsILocalFile
 .
 h
 "
@@ -71,7 +71,7 @@ gfxASurface
 aSurface
 )
 {
-nsAutoCString
+nsCAutoString
 tmpDir
 (
 getenv
@@ -100,7 +100,7 @@ rv
 rv
 )
 ;
-nsAutoCString
+nsCAutoString
 filename
 (
 "
@@ -266,9 +266,9 @@ aTitle
 PRUnichar
 *
 aPrintToFileName
-int32_t
+PRInt32
 aStartPage
-int32_t
+PRInt32
 aEndPage
 )
 {
@@ -289,7 +289,7 @@ targetPath
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 destFile
 ;

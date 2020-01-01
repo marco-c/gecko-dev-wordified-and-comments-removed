@@ -86,7 +86,7 @@ PRLogModuleInfo
 *
 sFilePickerLog
 =
-nullptr
+nsnull
 ;
 #
 endif
@@ -159,7 +159,7 @@ const
 nsAString
 &
 title
-int16_t
+PRInt16
 mode
 )
 {
@@ -181,7 +181,7 @@ nsFilePicker
 :
 AppendFilters
 (
-int32_t
+PRInt32
 filterMask
 )
 {
@@ -232,7 +232,7 @@ return
 NS_OK
 ;
 }
-nsAutoCString
+nsCAutoString
 filter
 name
 ;
@@ -346,7 +346,7 @@ nsFilePicker
 :
 GetFilterIndex
 (
-int32_t
+PRInt32
 *
 aFilterIndex
 )
@@ -366,7 +366,7 @@ nsFilePicker
 :
 SetFilterIndex
 (
-int32_t
+PRInt32
 aFilterIndex
 )
 {
@@ -384,7 +384,7 @@ nsFilePicker
 :
 GetFile
 (
-nsIFile
+nsILocalFile
 *
 *
 aFile
@@ -398,7 +398,7 @@ aFile
 *
 aFile
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -415,7 +415,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 (
@@ -475,7 +475,7 @@ aFileURL
 {
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 ;
@@ -562,12 +562,12 @@ nsFilePicker
 :
 Show
 (
-int16_t
+PRInt16
 *
 aReturn
 )
 {
-nsAutoCString
+nsCAutoString
 directory
 ;
 if
@@ -587,7 +587,7 @@ directory
 QStringList
 filters
 ;
-uint32_t
+PRUint32
 count
 =
 mFilters
@@ -598,7 +598,7 @@ Length
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -1083,7 +1083,7 @@ modeSave
 {
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 ;
@@ -1147,7 +1147,7 @@ const
 nsAString
 &
 aTitle
-int16_t
+PRInt16
 mode
 )
 {

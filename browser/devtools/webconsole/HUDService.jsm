@@ -4760,6 +4760,10 @@ HUD_SERVICE
 prototype
 =
 {
+lastInputValue
+:
+"
+"
 getStr
 :
 function

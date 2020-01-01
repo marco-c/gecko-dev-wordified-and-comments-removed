@@ -188,16 +188,6 @@ nsIURI
 aURI
 )
 {
-#
-if
-_MSC_VER
-<
-1200
-return
-NS_ERROR_NOT_AVAILABLE
-;
-#
-else
 nsAutoString
 path
 ;
@@ -419,8 +409,6 @@ Release
 return
 rv
 ;
-#
-endif
 }
 #
 elif

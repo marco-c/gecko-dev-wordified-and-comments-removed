@@ -136,7 +136,7 @@ nsMenuX
 )
 ;
 static
-int32_t
+PRInt32
 sIndexingMenuLevel
 ;
 NS_DECL_CHANGEOBSERVER
@@ -177,7 +177,7 @@ nsIContent
 aNode
 )
 ;
-uint32_t
+PRUint32
 GetItemCount
 (
 )
@@ -186,14 +186,14 @@ nsMenuObjectX
 *
 GetItemAt
 (
-uint32_t
+PRUint32
 aPos
 )
 ;
 nsresult
 GetVisibleItemCount
 (
-uint32_t
+PRUint32
 &
 aCount
 )
@@ -202,7 +202,7 @@ nsMenuObjectX
 *
 GetVisibleItemAt
 (
-uint32_t
+PRUint32
 aPos
 )
 ;
@@ -342,7 +342,7 @@ mMenuObjectsArray
 nsString
 mLabel
 ;
-uint32_t
+PRUint32
 mVisibleItemsCount
 ;
 nsMenuObjectX

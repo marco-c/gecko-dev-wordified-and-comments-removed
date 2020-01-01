@@ -42,11 +42,11 @@ nsBaseClipboard
 {
 mClipboardOwner
 =
-nullptr
+nsnull
 ;
 mTransferable
 =
-nullptr
+nsnull
 ;
 mIgnoreEmptyNotification
 =
@@ -89,7 +89,7 @@ aTransferable
 nsIClipboardOwner
 *
 anOwner
-int32_t
+PRInt32
 aWhichClipboard
 )
 {
@@ -241,7 +241,7 @@ GetData
 nsITransferable
 *
 aTransferable
-int32_t
+PRInt32
 aWhichClipboard
 )
 {
@@ -301,7 +301,7 @@ nsBaseClipboard
 :
 EmptyClipboard
 (
-int32_t
+PRInt32
 aWhichClipboard
 )
 {
@@ -374,9 +374,9 @@ char
 *
 *
 aFlavorList
-uint32_t
+PRUint32
 aLength
-int32_t
+PRInt32
 aWhichClipboard
 bool
 *

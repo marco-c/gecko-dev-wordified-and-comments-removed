@@ -1264,7 +1264,7 @@ const
 nsAString
 &
 aPrinterName
-uint32_t
+PRUint32
 aFlags
 )
 {
@@ -1283,7 +1283,7 @@ nsIPrintSettings
 kInitSaveMargins
 )
 {
-int32_t
+PRInt32
 halfInch
 =
 NS_INCHES_TO_INT_TWIPS
@@ -1631,7 +1631,7 @@ b
 nsAutoString
 str
 ;
-int32_t
+PRInt32
 iVal
 ;
 double
@@ -1752,7 +1752,7 @@ nsIPrintSettings
 kInitSavePaperSize
 )
 {
-int32_t
+PRInt32
 sizeUnit
 sizeType
 ;
@@ -2926,7 +2926,7 @@ const
 nsAString
 &
 aPrinterName
-uint32_t
+PRUint32
 aFlags
 )
 {
@@ -3284,7 +3284,7 @@ nsIPrintSettings
 kInitSavePaperSize
 )
 {
-int16_t
+PRInt16
 sizeUnit
 sizeType
 ;
@@ -3380,7 +3380,7 @@ GetPrefName
 kPrintPaperSizeUnit
 aPrinterName
 )
-int32_t
+PRInt32
 (
 sizeUnit
 )
@@ -3403,7 +3403,7 @@ GetPrefName
 kPrintPaperSizeType
 aPrinterName
 )
-int32_t
+PRInt32
 (
 sizeType
 )
@@ -3472,10 +3472,10 @@ PRUnichar
 *
 uStr
 ;
-int32_t
+PRInt32
 iVal
 ;
-int16_t
+PRInt16
 iVal16
 ;
 double
@@ -4142,7 +4142,7 @@ GetPrefName
 kPrintPaperData
 aPrinterName
 )
-int32_t
+PRInt32
 (
 iVal16
 )
@@ -4760,7 +4760,7 @@ nsPrintOptions
 :
 GetNativeData
 (
-int16_t
+PRInt16
 aDataType
 void
 *
@@ -5144,7 +5144,7 @@ aPrinterName
 ;
 #
 ifdef
-DEBUG
+NS_DEBUG
 nsXPIDLString
 printerName
 ;
@@ -5291,7 +5291,7 @@ PRUnichar
 *
 prtName
 =
-nullptr
+nsnull
 ;
 nsresult
 rv
@@ -5338,7 +5338,7 @@ n
 r
 "
 ;
-int32_t
+PRInt32
 x
 ;
 for
@@ -5350,7 +5350,7 @@ x
 x
 <
 (
-int32_t
+PRInt32
 )
 strlen
 (
@@ -5370,7 +5370,7 @@ replaceStr
 x
 ]
 ;
-int32_t
+PRInt32
 i
 =
 0
@@ -5425,7 +5425,7 @@ const
 PRUnichar
 *
 aPrefName
-int32_t
+PRInt32
 *
 _retval
 )
@@ -5474,7 +5474,7 @@ prefName
 NS_ERROR_FAILURE
 )
 ;
-int32_t
+PRInt32
 iVal
 ;
 nsresult
@@ -5516,7 +5516,7 @@ nsIPrintSettings
 aPS
 bool
 aUsePNP
-uint32_t
+PRUint32
 aFlags
 )
 {
@@ -5643,7 +5643,7 @@ nsIPrintSettings
 aPS
 bool
 aUsePrinterNamePrefix
-uint32_t
+PRUint32
 aFlags
 )
 {
@@ -5700,7 +5700,7 @@ NS_ENSURE_ARG_POINTER
 aPrefId
 )
 ;
-nsAutoCString
+nsCAutoString
 str
 ;
 nsresult
@@ -5811,7 +5811,7 @@ const
 char
 *
 aPrefId
-int32_t
+PRInt32
 &
 aTwips
 const
@@ -5880,7 +5880,7 @@ IsEmpty
 )
 )
 {
-nsresult
+PRInt32
 errCode
 ;
 float
@@ -5929,7 +5929,7 @@ const
 char
 *
 aPrefId
-int32_t
+PRInt32
 aTwips
 )
 {
@@ -5941,7 +5941,7 @@ NS_TWIPS_TO_INCHES
 aTwips
 )
 ;
-nsAutoCString
+nsCAutoString
 inchesStr
 ;
 inchesStr
@@ -5971,7 +5971,7 @@ const
 char
 *
 aPrefId
-int32_t
+PRInt32
 &
 aTwips
 const
@@ -5980,7 +5980,7 @@ char
 aMarginPref
 )
 {
-int32_t
+PRInt32
 value
 ;
 nsresult
@@ -6058,7 +6058,7 @@ const
 char
 *
 aPrefId
-int32_t
+PRInt32
 aTwips
 )
 {
@@ -6068,7 +6068,7 @@ Preferences
 SetInt
 (
 aPrefId
-int32_t
+PRInt32
 (
 NS_TWIPS_TO_INCHES
 (
@@ -6096,10 +6096,10 @@ const
 char
 *
 aPrefId
-int16_t
+PRInt16
 &
 aJust
-int16_t
+PRInt16
 aInitValue
 )
 {
@@ -6185,7 +6185,7 @@ const
 char
 *
 aPrefId
-int16_t
+PRInt16
 aJust
 )
 {
@@ -6732,7 +6732,7 @@ char
 *
 mName
 ;
-uint32_t
+PRUint32
 mFlag
 ;
 }
@@ -6932,7 +6932,7 @@ nsIPrintSettings
 kInitSaveAll
 }
 {
-nullptr
+nsnull
 0
 }
 }
@@ -6950,7 +6950,7 @@ Name
 "
 )
 ;
-int32_t
+PRInt32
 i
 =
 0
@@ -6965,7 +6965,7 @@ i
 mName
 !
 =
-nullptr
+nsnull
 )
 {
 printf

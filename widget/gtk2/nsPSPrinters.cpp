@@ -279,7 +279,7 @@ i
 +
 )
 {
-nsAutoCString
+nsCAutoString
 fullName
 (
 NS_CUPS_PRINTER
@@ -383,7 +383,7 @@ default
 )
 )
 ;
-nsAutoCString
+nsCAutoString
 list
 (
 PR_GetEnv
@@ -451,7 +451,7 @@ BeginWriting
 state
 )
 ;
-nullptr
+nsnull
 !
 =
 name
@@ -460,7 +460,7 @@ name
 =
 PL_strtok_r
 (
-nullptr
+nsnull
 "
 "
 &
@@ -482,7 +482,7 @@ default
 )
 )
 {
-nsAutoCString
+nsCAutoString
 fullName
 (
 NS_POSTSCRIPT_DRIVER_NAME

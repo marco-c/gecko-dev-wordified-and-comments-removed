@@ -48,7 +48,7 @@ bool
 gRollupConsumeRollupEvent
 ;
 extern
-uint32_t
+PRUint32
 gOS2Flags
 ;
 #
@@ -217,7 +217,7 @@ aBorderStyle
 HWND
 hClient
 ;
-uint32_t
+PRUint32
 fcfFlags
 =
 GetFCFlags
@@ -351,7 +351,7 @@ rcl
 yBottom
 )
 ;
-int32_t
+PRInt32
 pmY
 =
 WinQuerySysValue
@@ -452,7 +452,7 @@ return
 hClient
 ;
 }
-uint32_t
+PRUint32
 os2FrameWindow
 :
 :
@@ -464,7 +464,7 @@ nsBorderStyle
 aBorderStyle
 )
 {
-uint32_t
+PRUint32
 style
 =
 FCF_TITLEBAR
@@ -757,7 +757,7 @@ bool
 aState
 )
 {
-uint32_t
+PRUint32
 ulFlags
 ;
 if
@@ -781,7 +781,7 @@ SWP_SHOW
 |
 SWP_ACTIVATE
 ;
-uint32_t
+PRUint32
 ulStyle
 =
 WinQueryWindowULong
@@ -790,7 +790,7 @@ mFrameWnd
 QWL_STYLE
 )
 ;
-int32_t
+PRInt32
 sizeMode
 ;
 mOwner
@@ -990,9 +990,9 @@ os2FrameWindow
 :
 Move
 (
-int32_t
+PRInt32
 aX
-int32_t
+PRInt32
 aY
 )
 {
@@ -1031,9 +1031,9 @@ os2FrameWindow
 :
 Resize
 (
-int32_t
+PRInt32
 aWidth
-int32_t
+PRInt32
 aHeight
 bool
 aRepaint
@@ -1062,13 +1062,13 @@ os2FrameWindow
 :
 Resize
 (
-int32_t
+PRInt32
 aX
-int32_t
+PRInt32
 aY
-int32_t
+PRInt32
 aWidth
-int32_t
+PRInt32
 aHeight
 bool
 aRepaint
@@ -1116,7 +1116,7 @@ if
 mNeedActivation
 )
 {
-int32_t
+PRInt32
 sizeMode
 ;
 mOwner
@@ -1164,11 +1164,11 @@ os2FrameWindow
 :
 SetSizeMode
 (
-int32_t
+PRInt32
 aMode
 )
 {
-int32_t
+PRInt32
 previousMode
 ;
 mOwner
@@ -1522,7 +1522,7 @@ aTitle
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -1595,7 +1595,7 @@ break
 nsAutoCharBuffer
 title
 ;
-int32_t
+PRInt32
 titleLength
 ;
 WideCharToMultiByte
@@ -1692,7 +1692,7 @@ hWorkingIcon
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 iconFile
 ;
@@ -1720,7 +1720,7 @@ if
 iconFile
 )
 {
-nsAutoCString
+nsCAutoString
 path
 ;
 iconFile
@@ -1828,10 +1828,10 @@ ConstrainPosition
 (
 bool
 aAllowSlop
-int32_t
+PRInt32
 *
 aX
-int32_t
+PRInt32
 *
 aY
 )
@@ -1876,7 +1876,7 @@ nsIScreen
 >
 screen
 ;
-int32_t
+PRInt32
 left
 top
 width

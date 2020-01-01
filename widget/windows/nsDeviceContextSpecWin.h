@@ -46,15 +46,6 @@ windows
 .
 h
 >
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsIWidget
 ;
@@ -89,9 +80,9 @@ aTitle
 PRUnichar
 *
 aPrintToFileName
-int32_t
+PRInt32
 aStartPage
-int32_t
+PRInt32
 aEndPage
 )
 {
@@ -188,7 +179,7 @@ nsIPrintSettings
 *
 aPS
 =
-nullptr
+nsnull
 )
 ;
 static
@@ -261,7 +252,6 @@ mPrintSettings
 ;
 class
 nsPrinterEnumeratorWin
-MOZ_FINAL
 :
 public
 nsIPrinterEnumerator

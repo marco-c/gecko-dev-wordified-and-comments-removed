@@ -1,4 +1,10 @@
 #
+if
+MOZ_WINSDK_TARGETVER
+>
+=
+MOZ_NTDDI_WIN7
+#
 include
 "
 mozilla
@@ -204,7 +210,7 @@ mThumbButtons
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -378,7 +384,7 @@ TaskbarWindowPreview
 :
 GetButton
 (
-uint32_t
+PRUint32
 index
 nsITaskbarPreviewButton
 *
@@ -648,9 +654,9 @@ SetProgressState
 (
 nsTaskbarProgressState
 aState
-uint64_t
+PRUint64
 aCurrentValue
-uint64_t
+PRUint64
 aMaxValue
 )
 {
@@ -1062,7 +1068,7 @@ case
 WM_COMMAND
 :
 {
-uint32_t
+PRUint32
 id
 =
 LOWORD
@@ -1070,7 +1076,7 @@ LOWORD
 wParam
 )
 ;
-uint32_t
+PRUint32
 index
 =
 id
@@ -1384,7 +1390,7 @@ TaskbarWindowPreview
 :
 UpdateButton
 (
-uint32_t
+PRUint32
 index
 )
 {
@@ -1435,3 +1441,5 @@ NS_OK
 }
 }
 }
+#
+endif

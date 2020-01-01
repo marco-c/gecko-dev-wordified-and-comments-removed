@@ -102,7 +102,7 @@ aFlavor
 void
 *
 aDataBuff
-uint32_t
+PRUint32
 aDataLen
 nsISupports
 *
@@ -362,7 +362,7 @@ void
 *
 *
 aDataBuff
-uint32_t
+PRUint32
 aDataLen
 )
 {
@@ -376,7 +376,7 @@ return
 *
 aDataBuff
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -407,7 +407,7 @@ if
 plainText
 )
 {
-nsAutoCString
+nsCAutoString
 data
 ;
 plainText
@@ -478,13 +478,13 @@ ConvertUnicodeToPlatformPlainText
 PRUnichar
 *
 inUnicode
-int32_t
+PRInt32
 inUnicodeLen
 char
 *
 *
 outPlainTextData
-int32_t
+PRInt32
 *
 outPlainTextLen
 )
@@ -517,7 +517,7 @@ NS_PLATFORMCHARSET_CONTRACTID
 rv
 )
 ;
-nsAutoCString
+nsCAutoString
 platformCharset
 ;
 if
@@ -675,13 +675,13 @@ const
 char
 *
 inText
-int32_t
+PRInt32
 inTextLen
 PRUnichar
 *
 *
 outUnicode
-int32_t
+PRInt32
 *
 outUnicodeLen
 )
@@ -722,7 +722,7 @@ if
 hasConverter
 )
 {
-nsAutoCString
+nsCAutoString
 platformCharset
 ;
 nsCOMPtr
@@ -950,7 +950,7 @@ void
 *
 *
 ioData
-int32_t
+PRInt32
 *
 ioLengthInBytes
 )
@@ -1121,7 +1121,7 @@ oldBuffer
 =
 buffAsUnichar
 ;
-int32_t
+PRInt32
 newLengthInChars
 ;
 retVal

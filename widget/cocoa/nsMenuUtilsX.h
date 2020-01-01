@@ -64,7 +64,7 @@ nsString
 itemLabel
 )
 ;
-uint8_t
+PRUint8
 GeckoModifiersForNodeAttribute
 (
 const
@@ -77,7 +77,7 @@ unsigned
 int
 MacModifiersForGeckoModifiers
 (
-uint8_t
+PRUint8
 geckoModifiers
 )
 ;

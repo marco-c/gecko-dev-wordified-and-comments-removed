@@ -1709,12 +1709,12 @@ void
 (
 JS_FASTCALL
 *
-VoidStubAtom
+VoidStubName
 )
 (
 VMFrame
 &
-JSAtom
+PropertyName
 *
 )
 ;

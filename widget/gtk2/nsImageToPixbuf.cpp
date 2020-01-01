@@ -189,7 +189,7 @@ if
 frame
 )
 return
-nullptr
+nsnull
 ;
 return
 ImgSurfaceToPixbuf
@@ -220,9 +220,9 @@ ImgSurfaceToPixbuf
 gfxImageSurface
 *
 aImgSurface
-int32_t
+PRInt32
 aWidth
-int32_t
+PRInt32
 aHeight
 )
 {
@@ -245,9 +245,9 @@ if
 pixbuf
 )
 return
-nullptr
+nsnull
 ;
-uint32_t
+PRUint32
 rowstride
 =
 gdk_pixbuf_get_rowstride
@@ -301,7 +301,7 @@ Format
 ;
 for
 (
-int32_t
+PRInt32
 row
 =
 0
@@ -317,7 +317,7 @@ row
 {
 for
 (
-int32_t
+PRInt32
 col
 =
 0
@@ -345,13 +345,13 @@ rowstride
 *
 col
 ;
-uint32_t
+PRUint32
 *
 cairoPixel
 =
 reinterpret_cast
 <
-uint32_t
+PRUint32
 *
 >
 (
@@ -380,7 +380,7 @@ ImageFormatARGB32
 )
 {
 const
-uint8_t
+PRUint8
 a
 =
 (
@@ -394,7 +394,7 @@ cairoPixel
 0xFF
 ;
 const
-uint8_t
+PRUint8
 r
 =
 unpremultiply
@@ -412,7 +412,7 @@ a
 )
 ;
 const
-uint8_t
+PRUint8
 g
 =
 unpremultiply
@@ -430,7 +430,7 @@ a
 )
 ;
 const
-uint8_t
+PRUint8
 b
 =
 unpremultiply
@@ -494,7 +494,7 @@ format
 )
 ;
 const
-uint8_t
+PRUint8
 r
 =
 (
@@ -508,7 +508,7 @@ cairoPixel
 0xFF
 ;
 const
-uint8_t
+PRUint8
 g
 =
 (
@@ -522,7 +522,7 @@ cairoPixel
 0xFF
 ;
 const
-uint8_t
+PRUint8
 b
 =
 (
@@ -580,9 +580,9 @@ SurfaceToPixbuf
 gfxASurface
 *
 aSurface
-int32_t
+PRInt32
 aWidth
-int32_t
+PRInt32
 aHeight
 )
 {
@@ -605,7 +605,7 @@ surface
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 nsRefPtr
@@ -673,7 +673,7 @@ if
 imgSurface
 )
 return
-nullptr
+nsnull
 ;
 nsRefPtr
 <
@@ -693,7 +693,7 @@ if
 context
 )
 return
-nullptr
+nsnull
 ;
 context
 -

@@ -72,7 +72,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 const
 nsRect
@@ -93,7 +93,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 nsIntMargin
 *
@@ -113,7 +113,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 nsIntMargin
 *
@@ -133,7 +133,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 nsRect
 *
@@ -149,7 +149,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 nsIntSize
 *
@@ -165,7 +165,7 @@ WidgetStateChanged
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 nsIAtom
 *
@@ -192,7 +192,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 )
 ;
@@ -202,7 +202,7 @@ bool
 )
 WidgetIsContainer
 (
-uint8_t
+PRUint8
 aWidgetType
 )
 ;
@@ -218,7 +218,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 )
 ;
@@ -234,7 +234,7 @@ GetWidgetTransparency
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 )
 ;
@@ -261,7 +261,7 @@ aFrame
 bool
 GetGtkWidgetAndState
 (
-uint8_t
+PRUint8
 aWidgetType
 nsIFrame
 *
@@ -283,7 +283,7 @@ GetExtraSizeForWidget
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 nsIntMargin
 *
@@ -298,13 +298,13 @@ nsIFrame
 aFrame
 )
 ;
-uint8_t
+PRUint8
 mDisabledWidgetTypes
 [
 32
 ]
 ;
-uint8_t
+PRUint8
 mSafeWidgetStates
 [
 1024

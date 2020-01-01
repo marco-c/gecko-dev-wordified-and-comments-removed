@@ -77,7 +77,7 @@ m_cRef
 )
 m_hCursor
 (
-nullptr
+nsnull
 )
 mUserCancelled
 (
@@ -386,7 +386,7 @@ else
 {
 m_hCursor
 =
-nullptr
+nsnull
 ;
 }
 }

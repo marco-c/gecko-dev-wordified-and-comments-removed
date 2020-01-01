@@ -74,7 +74,7 @@ anArrayTransferables
 nsIScriptableRegion
 *
 aRegion
-uint32_t
+PRUint32
 aActionType
 )
 ;
@@ -91,7 +91,7 @@ GetData
 nsITransferable
 *
 aTransferable
-uint32_t
+PRUint32
 aItemIndex
 )
 ;
@@ -110,7 +110,7 @@ _retval
 NS_IMETHOD
 GetNumDropItems
 (
-uint32_t
+PRUint32
 *
 aNumItems
 )

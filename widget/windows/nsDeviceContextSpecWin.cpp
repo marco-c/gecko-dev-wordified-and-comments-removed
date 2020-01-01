@@ -152,6 +152,13 @@ h
 #
 include
 "
+nsILocalFile
+.
+h
+"
+#
+include
+"
 nsIFile
 .
 h
@@ -276,13 +283,13 @@ return
 mPrinters
 !
 =
-nullptr
+nsnull
 ;
 }
 LPWSTR
 GetItemFromList
 (
-int32_t
+PRInt32
 aInx
 )
 {
@@ -297,7 +304,7 @@ ElementAt
 aInx
 )
 :
-nullptr
+nsnull
 ;
 }
 nsresult
@@ -313,7 +320,7 @@ nsString
 aDefaultPrinterName
 )
 ;
-uint32_t
+PRUint32
 GetNumPrinters
 (
 )
@@ -378,7 +385,7 @@ GlobalPrinters
 :
 mPrinters
 =
-nullptr
+nsnull
 ;
 typedef
 struct
@@ -818,7 +825,7 @@ true
 }
 ;
 const
-int32_t
+PRInt32
 kNumPaperSizes
 =
 41
@@ -832,11 +839,11 @@ nsDeviceContextSpecWin
 {
 mDriverName
 =
-nullptr
+nsnull
 ;
 mDeviceName
 =
-nullptr
+nsnull
 ;
 mDevMode
 =
@@ -858,12 +865,12 @@ nsDeviceContextSpecWin
 {
 SetDeviceName
 (
-nullptr
+nsnull
 )
 ;
 SetDriverName
 (
-nullptr
+nsnull
 )
 ;
 SetDevMode
@@ -893,7 +900,7 @@ psWin
 >
 SetDeviceName
 (
-nullptr
+nsnull
 )
 ;
 psWin
@@ -901,7 +908,7 @@ psWin
 >
 SetDriverName
 (
-nullptr
+nsnull
 )
 ;
 psWin
@@ -1454,7 +1461,7 @@ leafName
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 (
@@ -1555,7 +1562,7 @@ fileName
 )
 ;
 }
-int16_t
+PRInt16
 dialogResult
 ;
 filePicker
@@ -1584,7 +1591,7 @@ NS_ERROR_ABORT
 }
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 localFile
 ;
@@ -2016,7 +2023,7 @@ CheckForPrintToFile
 (
 mPrintSettings
 deviceName
-nullptr
+nsnull
 )
 ;
 if
@@ -2172,7 +2179,7 @@ PRUnichar
 *
 printerName
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -2248,7 +2255,7 @@ aIsPrintPreview
 CheckForPrintToFile
 (
 mPrintSettings
-nullptr
+nsnull
 printerName
 )
 ;
@@ -2280,7 +2287,7 @@ if
 aStr
 !
 =
-nullptr
+nsnull
 )
 {
 if
@@ -2288,7 +2295,7 @@ if
 aNewStr
 !
 =
-nullptr
+nsnull
 &
 &
 wcslen
@@ -2320,13 +2327,13 @@ aStr
 ;
 aStr
 =
-nullptr
+nsnull
 ;
 }
 }
 if
 (
-nullptr
+nsnull
 !
 =
 aNewStr
@@ -2395,7 +2402,7 @@ gfxASurface
 >
 newSurface
 ;
-int16_t
+PRInt16
 outputFormat
 =
 0
@@ -2467,7 +2474,7 @@ TWIPS_PER_POINT_FLOAT
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 =
@@ -2643,7 +2650,7 @@ NS_OK
 *
 surface
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_FAILURE
@@ -2743,7 +2750,7 @@ MapPaperSizeToNativeEnum
 (
 LPDEVMODEW
 aDevMode
-int16_t
+PRInt16
 aType
 double
 aW
@@ -2798,7 +2805,7 @@ DM_PAPERWIDTH
 endif
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -3038,7 +3045,7 @@ if
 aPrintSettings
 )
 {
-int16_t
+PRInt16
 type
 ;
 aPrintSettings
@@ -3061,7 +3068,7 @@ nsIPrintSettings
 kPaperSizeNativeData
 )
 {
-int16_t
+PRInt16
 paperEnum
 ;
 aPrintSettings
@@ -3109,7 +3116,7 @@ DM_PAPERSIZE
 }
 else
 {
-int16_t
+PRInt16
 unit
 ;
 double
@@ -3152,7 +3159,7 @@ height
 )
 ;
 }
-int32_t
+PRInt32
 orientation
 ;
 aPrintSettings
@@ -3189,7 +3196,7 @@ dmFields
 =
 DM_ORIENTATION
 ;
-int32_t
+PRInt32
 copies
 ;
 aPrintSettings
@@ -3663,7 +3670,7 @@ if
 aPrintSettings
 =
 =
-nullptr
+nsnull
 )
 {
 return
@@ -3733,7 +3740,7 @@ if
 doingOrientation
 )
 {
-int32_t
+PRInt32
 orientation
 =
 aDevMode
@@ -3744,7 +3751,7 @@ dmOrientation
 =
 DMORIENT_PORTRAIT
 ?
-int32_t
+PRInt32
 (
 nsIPrintSettings
 :
@@ -3776,7 +3783,7 @@ aPrintSettings
 >
 SetNumCopies
 (
-int32_t
+PRInt32
 (
 aDevMode
 -
@@ -3867,7 +3874,7 @@ dmPaperSize
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -3909,7 +3916,7 @@ i
 .
 mIsInches
 ?
-int16_t
+PRInt16
 (
 nsIPrintSettings
 :
@@ -3944,7 +3951,7 @@ false
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -4023,7 +4030,7 @@ i
 .
 mIsInches
 ?
-int16_t
+PRInt16
 (
 nsIPrintSettings
 :
@@ -4285,7 +4292,7 @@ aPrinterNameList
 *
 aPrinterNameList
 =
-nullptr
+nsnull
 ;
 nsresult
 rv
@@ -4340,7 +4347,7 @@ return
 rv
 ;
 }
-uint32_t
+PRUint32
 numPrinters
 =
 GlobalPrinters
@@ -4379,7 +4386,7 @@ printers
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-uint32_t
+PRUint32
 printerInx
 =
 0
@@ -4504,12 +4511,12 @@ if
 mPrinters
 !
 =
-nullptr
+nsnull
 )
 {
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -4545,7 +4552,7 @@ mPrinters
 ;
 mPrinters
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -4948,7 +4955,7 @@ IsEmpty
 {
 for
 (
-uint32_t
+PRUint32
 i
 =
 0

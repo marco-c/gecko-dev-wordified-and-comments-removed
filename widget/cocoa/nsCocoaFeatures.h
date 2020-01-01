@@ -17,7 +17,7 @@ nsCocoaFeatures
 public
 :
 static
-int32_t
+PRInt32
 OSXVersion
 (
 )
@@ -34,16 +34,10 @@ OnLionOrLater
 (
 )
 ;
-static
-bool
-SupportCoreAnimationPlugins
-(
-)
-;
 private
 :
 static
-int32_t
+PRInt32
 mOSXVersion
 ;
 }

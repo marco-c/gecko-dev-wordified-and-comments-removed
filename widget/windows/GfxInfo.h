@@ -29,6 +29,7 @@ GfxInfo
 (
 )
 ;
+NS_SCRIPTABLE
 NS_IMETHOD
 GetD2DEnabled
 (
@@ -37,6 +38,7 @@ bool
 aD2DEnabled
 )
 ;
+NS_SCRIPTABLE
 NS_IMETHOD
 GetDWriteEnabled
 (
@@ -45,6 +47,16 @@ bool
 aDWriteEnabled
 )
 ;
+NS_SCRIPTABLE
+NS_IMETHOD
+GetAzureEnabled
+(
+bool
+*
+aAzureEnabled
+)
+;
+NS_SCRIPTABLE
 NS_IMETHOD
 GetDWriteVersion
 (
@@ -53,6 +65,7 @@ nsAString
 aDwriteVersion
 )
 ;
+NS_SCRIPTABLE
 NS_IMETHOD
 GetCleartypeParameters
 (
@@ -61,6 +74,7 @@ nsAString
 aCleartypeParams
 )
 ;
+NS_SCRIPTABLE
 NS_IMETHOD
 GetAdapterDescription
 (
@@ -69,6 +83,7 @@ nsAString
 aAdapterDescription
 )
 ;
+NS_SCRIPTABLE
 NS_IMETHOD
 GetAdapterDriver
 (
@@ -77,6 +92,7 @@ nsAString
 aAdapterDriver
 )
 ;
+NS_SCRIPTABLE
 NS_IMETHOD
 GetAdapterVendorID
 (
@@ -85,6 +101,7 @@ nsAString
 aAdapterVendorID
 )
 ;
+NS_SCRIPTABLE
 NS_IMETHOD
 GetAdapterDeviceID
 (
@@ -93,6 +110,7 @@ nsAString
 aAdapterDeviceID
 )
 ;
+NS_SCRIPTABLE
 NS_IMETHOD
 GetAdapterRAM
 (
@@ -101,6 +119,7 @@ nsAString
 aAdapterRAM
 )
 ;
+NS_SCRIPTABLE
 NS_IMETHOD
 GetAdapterDriverVersion
 (
@@ -109,6 +128,7 @@ nsAString
 aAdapterDriverVersion
 )
 ;
+NS_SCRIPTABLE
 NS_IMETHOD
 GetAdapterDriverDate
 (
@@ -117,6 +137,7 @@ nsAString
 aAdapterDriverDate
 )
 ;
+NS_SCRIPTABLE
 NS_IMETHOD
 GetAdapterDescription2
 (
@@ -125,6 +146,7 @@ nsAString
 aAdapterDescription
 )
 ;
+NS_SCRIPTABLE
 NS_IMETHOD
 GetAdapterDriver2
 (
@@ -133,6 +155,7 @@ nsAString
 aAdapterDriver
 )
 ;
+NS_SCRIPTABLE
 NS_IMETHOD
 GetAdapterVendorID2
 (
@@ -141,6 +164,7 @@ nsAString
 aAdapterVendorID
 )
 ;
+NS_SCRIPTABLE
 NS_IMETHOD
 GetAdapterDeviceID2
 (
@@ -149,6 +173,7 @@ nsAString
 aAdapterDeviceID
 )
 ;
+NS_SCRIPTABLE
 NS_IMETHOD
 GetAdapterRAM2
 (
@@ -157,6 +182,7 @@ nsAString
 aAdapterRAM
 )
 ;
+NS_SCRIPTABLE
 NS_IMETHOD
 GetAdapterDriverVersion2
 (
@@ -165,6 +191,7 @@ nsAString
 aAdapterDriverVersion
 )
 ;
+NS_SCRIPTABLE
 NS_IMETHOD
 GetAdapterDriverDate2
 (
@@ -173,6 +200,7 @@ nsAString
 aAdapterDriverDate
 )
 ;
+NS_SCRIPTABLE
 NS_IMETHOD
 GetIsGPU2Active
 (
@@ -218,9 +246,9 @@ virtual
 nsresult
 GetFeatureStatusImpl
 (
-int32_t
+PRInt32
 aFeature
-int32_t
+PRInt32
 *
 aStatus
 nsAString
@@ -237,7 +265,7 @@ OperatingSystem
 *
 aOS
 =
-nullptr
+nsnull
 )
 ;
 virtual
@@ -282,7 +310,7 @@ mAdapterVendorID
 nsString
 mAdapterDeviceID
 ;
-uint32_t
+PRUint32
 mAdapterSubsysID
 ;
 nsString
@@ -306,10 +334,10 @@ mAdapterVendorID2
 nsString
 mAdapterDeviceID2
 ;
-uint32_t
+PRUint32
 mAdapterSubsysID2
 ;
-uint32_t
+PRUint32
 mWindowsVersion
 ;
 bool

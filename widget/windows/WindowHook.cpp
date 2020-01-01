@@ -52,7 +52,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 NS_ENSURE_TRUE
 (
-nullptr
+nsnull
 =
 =
 data
@@ -348,7 +348,7 @@ data
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 WindowHook
@@ -394,7 +394,7 @@ if
 data
 )
 return
-nullptr
+nsnull
 ;
 data
 -
@@ -531,7 +531,7 @@ data
 return
 false
 ;
-uint32_t
+PRUint32
 length
 =
 data
@@ -545,7 +545,7 @@ Length
 ;
 for
 (
-uint32_t
+PRUint32
 midx
 =
 0

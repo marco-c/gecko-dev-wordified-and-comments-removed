@@ -664,7 +664,7 @@ error_code
 mozilla
 :
 :
-MonitorAutoEnter
+MonitorAutoLock
 mon
 (
 mMonitorMountInProgress
@@ -733,7 +733,7 @@ this
 mozilla
 :
 :
-MonitorAutoEnter
+MonitorAutoLock
 mon
 (
 mMonitorMountInProgress

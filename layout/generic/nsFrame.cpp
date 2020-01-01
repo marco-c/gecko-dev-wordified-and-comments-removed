@@ -19733,6 +19733,7 @@ mChangeHint
 ;
 class
 LayerActivityTracker
+MOZ_FINAL
 :
 public
 nsExpirationTracker

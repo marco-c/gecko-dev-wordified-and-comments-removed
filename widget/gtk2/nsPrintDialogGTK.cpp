@@ -84,7 +84,7 @@ h
 #
 include
 "
-nsIFile
+nsILocalFile
 .
 h
 "
@@ -1112,7 +1112,7 @@ get
 )
 )
 ;
-int16_t
+PRInt16
 frameUIFlag
 ;
 aSettings

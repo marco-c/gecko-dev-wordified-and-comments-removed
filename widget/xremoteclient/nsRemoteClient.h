@@ -75,7 +75,7 @@ const
 char
 *
 aProfile
-int32_t
+PRInt32
 argc
 char
 *

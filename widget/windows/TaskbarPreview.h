@@ -5,6 +5,12 @@ __mozilla_widget_TaskbarPreview_h__
 define
 __mozilla_widget_TaskbarPreview_h__
 #
+if
+MOZ_WINSDK_TARGETVER
+>
+=
+MOZ_NTDDI_WIN7
+#
 include
 <
 windows
@@ -208,9 +214,9 @@ UpdateTooltip
 void
 DrawBitmap
 (
-uint32_t
+PRUint32
 width
-uint32_t
+PRUint32
 height
 bool
 isPreview
@@ -251,5 +257,7 @@ sActivePreview
 ;
 }
 }
+#
+endif
 #
 endif

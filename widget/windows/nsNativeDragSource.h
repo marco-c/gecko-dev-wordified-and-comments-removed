@@ -39,18 +39,8 @@ oleidl
 .
 h
 >
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsNativeDragSource
-MOZ_FINAL
 :
 public
 IDropSource
@@ -126,7 +116,7 @@ m_cRef
 ;
 nsCOMPtr
 <
-nsIDOMDataTransfer
+nsIDOMNSDataTransfer
 >
 mDataTransfer
 ;

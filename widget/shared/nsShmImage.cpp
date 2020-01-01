@@ -165,7 +165,7 @@ dpy
 aVisual
 aDepth
 ZPixmap
-nullptr
+nsnull
 &
 (
 shm
@@ -191,7 +191,7 @@ mImage
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 size_t
@@ -258,7 +258,7 @@ size
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 shm
@@ -400,7 +400,7 @@ gShmAvailable
 false
 ;
 return
-nullptr
+nsnull
 ;
 }
 shm
@@ -526,7 +526,7 @@ gShmAvailable
 false
 ;
 return
-nullptr
+nsnull
 ;
 }
 return
@@ -651,7 +651,7 @@ XCreateGC
 dpy
 d
 0
-nullptr
+nsnull
 )
 ;
 for
@@ -774,7 +774,7 @@ XCreateGC
 dpy
 d
 0
-nullptr
+nsnull
 )
 ;
 cairo_rectangle_t
@@ -878,12 +878,15 @@ Display
 *
 dpy
 =
-gfxQtPlatform
-:
-:
-GetXDisplay
-(
 aWindow
+-
+>
+x11Info
+(
+)
+.
+display
+(
 )
 ;
 Drawable
@@ -892,7 +895,7 @@ d
 aWindow
 -
 >
-winId
+handle
 (
 )
 ;
@@ -904,7 +907,7 @@ XCreateGC
 dpy
 d
 0
-nullptr
+nsnull
 )
 ;
 QRect
@@ -1031,7 +1034,7 @@ return
 !
 aImage
 ?
-nullptr
+nsnull
 :
 aImage
 -

@@ -169,7 +169,7 @@ aPrintSelectionOnly
 NS_IMETHOD
 GetPrintRange
 (
-int16_t
+PRInt16
 *
 aPrintRange
 )
@@ -177,14 +177,14 @@ aPrintRange
 NS_IMETHOD
 SetPrintRange
 (
-int16_t
+PRInt16
 aPrintRange
 )
 ;
 NS_IMETHOD
 GetStartPageRange
 (
-int32_t
+PRInt32
 *
 aStartPageRange
 )
@@ -192,14 +192,14 @@ aStartPageRange
 NS_IMETHOD
 SetStartPageRange
 (
-int32_t
+PRInt32
 aStartPageRange
 )
 ;
 NS_IMETHOD
 GetEndPageRange
 (
-int32_t
+PRInt32
 *
 aEndPageRange
 )
@@ -207,7 +207,7 @@ aEndPageRange
 NS_IMETHOD
 SetEndPageRange
 (
-int32_t
+PRInt32
 aEndPageRange
 )
 ;
@@ -244,7 +244,7 @@ aPrintInColor
 NS_IMETHOD
 GetOrientation
 (
-int32_t
+PRInt32
 *
 aOrientation
 )
@@ -252,7 +252,7 @@ aOrientation
 NS_IMETHOD
 SetOrientation
 (
-int32_t
+PRInt32
 aOrientation
 )
 ;
@@ -295,7 +295,7 @@ aPrinter
 NS_IMETHOD
 GetNumCopies
 (
-int32_t
+PRInt32
 *
 aNumCopies
 )
@@ -303,7 +303,7 @@ aNumCopies
 NS_IMETHOD
 SetNumCopies
 (
-int32_t
+PRInt32
 aNumCopies
 )
 ;
@@ -409,7 +409,7 @@ aPaperHeight
 NS_IMETHOD
 SetPaperSizeUnit
 (
-int16_t
+PRInt16
 aPaperSizeUnit
 )
 ;
@@ -434,7 +434,7 @@ GetPageRanges
 (
 nsTArray
 <
-int32_t
+PRInt32
 >
 &
 aPages
@@ -483,7 +483,7 @@ aPS
 GtkUnit
 GetGTKUnit
 (
-int16_t
+PRInt16
 aGeckoUnit
 )
 ;

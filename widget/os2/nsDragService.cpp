@@ -56,7 +56,7 @@ h
 #
 include
 "
-nsIFile
+nsILocalFile
 .
 h
 "
@@ -321,7 +321,7 @@ outText
 void
 SaveTypeAndSource
 (
-nsIFile
+nsILocalFile
 *
 file
 nsIDOMDocument
@@ -544,7 +544,7 @@ aTransferables
 nsIScriptableRegion
 *
 aRegion
-uint32_t
+PRUint32
 aActionType
 )
 {
@@ -712,7 +712,7 @@ nsISupports
 >
 genericData
 ;
-uint32_t
+PRUint32
 len
 =
 0
@@ -1129,19 +1129,19 @@ mMimeType
 ;
 mSourceDocument
 =
-nullptr
+nsnull
 ;
 mSourceNode
 =
-nullptr
+nsnull
 ;
 mSelection
 =
-nullptr
+nsnull
 ;
 mDataTransfer
 =
-nullptr
+nsnull
 ;
 mUserCancelled
 =
@@ -1153,7 +1153,7 @@ false
 ;
 mImage
 =
-nullptr
+nsnull
 ;
 mImageX
 =
@@ -1277,7 +1277,7 @@ if
 urlObject
 )
 {
-nsAutoCString
+nsCAutoString
 filename
 ;
 urlObject
@@ -1684,7 +1684,7 @@ nsDragService
 :
 GetNumDropItems
 (
-uint32_t
+PRUint32
 *
 aNumDropItems
 )
@@ -1720,7 +1720,7 @@ GetData
 nsITransferable
 *
 aTransferable
-uint32_t
+PRUint32
 aItemIndex
 )
 {
@@ -1766,7 +1766,7 @@ rv
 return
 rv
 ;
-uint32_t
+PRUint32
 cnt
 ;
 flavorList
@@ -1886,7 +1886,7 @@ nsISupports
 >
 data
 ;
-uint32_t
+PRUint32
 tmpDataLen
 =
 0
@@ -1965,7 +1965,7 @@ _retval
 =
 false
 ;
-uint32_t
+PRUint32
 numDragItems
 =
 0
@@ -1993,7 +1993,7 @@ NS_OK
 ;
 for
 (
-uint32_t
+PRUint32
 itemIndex
 =
 0
@@ -2071,7 +2071,7 @@ if
 flavorList
 )
 {
-uint32_t
+PRUint32
 numFlavors
 ;
 flavorList
@@ -2085,7 +2085,7 @@ numFlavors
 ;
 for
 (
-uint32_t
+PRUint32
 flavorIndex
 =
 0
@@ -2245,7 +2245,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 ;
@@ -2315,10 +2315,10 @@ webPersist
 SaveURI
 (
 linkURI
-nullptr
-nullptr
-nullptr
-nullptr
+nsnull
+nsnull
+nsnull
+nsnull
 file
 )
 ;
@@ -2339,7 +2339,7 @@ nsIURI
 aURI
 )
 {
-nsAutoCString
+nsCAutoString
 strUri
 ;
 aURI
@@ -2363,7 +2363,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 ;
@@ -2498,7 +2498,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 ;
@@ -2662,7 +2662,7 @@ GetData
 strData
 )
 ;
-int32_t
+PRInt32
 lineIndex
 =
 strData
@@ -2770,7 +2770,7 @@ Length
 )
 )
 {
-uint32_t
+PRUint32
 strLth
 =
 NS_MIN
@@ -2827,7 +2827,7 @@ return
 NS_OK
 ;
 }
-nsAutoCString
+nsCAutoString
 strTitle
 ;
 nsCOMPtr
@@ -2847,7 +2847,7 @@ if
 urlObj
 )
 {
-nsAutoCString
+nsCAutoString
 strFile
 ;
 urlObj
@@ -2914,7 +2914,7 @@ Length
 1
 )
 {
-nsAutoCString
+nsCAutoString
 :
 :
 const_iterator
@@ -2998,7 +2998,7 @@ GetSpec
 strTitle
 )
 ;
-int32_t
+PRInt32
 index
 =
 strTitle
@@ -3432,7 +3432,7 @@ pdinfo
 MRESULT
 &
 mr
-uint32_t
+PRUint32
 *
 dragFlags
 )
@@ -3757,14 +3757,6 @@ if
 trans
 )
 {
-trans
--
->
-Init
-(
-nullptr
-)
-;
 bool
 isUrl
 =
@@ -3932,7 +3924,7 @@ someText
 {
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 ;
@@ -3952,7 +3944,7 @@ file
 )
 )
 {
-nsAutoCString
+nsCAutoString
 textStr
 ;
 NS_GetURLSpecFromFile
@@ -4075,7 +4067,7 @@ usDrop
 =
 DOR_NODROP
 ;
-uint32_t
+PRUint32
 action
 ;
 USHORT
@@ -4171,7 +4163,7 @@ DragLeaveMsg
 (
 PDRAGINFO
 pdinfo
-uint32_t
+PRUint32
 *
 dragFlags
 )
@@ -4223,7 +4215,7 @@ DropHelpMsg
 (
 PDRAGINFO
 pdinfo
-uint32_t
+PRUint32
 *
 dragFlags
 )
@@ -4299,7 +4291,7 @@ nsDragService
 :
 ExitSession
 (
-uint32_t
+PRUint32
 *
 dragFlags
 )
@@ -4381,7 +4373,7 @@ PDRAGINFO
 pdinfo
 HWND
 hwnd
-uint32_t
+PRUint32
 *
 dragFlags
 )
@@ -4789,7 +4781,7 @@ true
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 ;
@@ -4809,7 +4801,7 @@ file
 )
 )
 {
-nsAutoCString
+nsCAutoString
 textStr
 ;
 NS_GetURLSpecFromFile
@@ -4983,7 +4975,7 @@ PDRAGTRANSFER
 pdxfer
 USHORT
 usResult
-uint32_t
+PRUint32
 *
 dragFlags
 )
@@ -5512,7 +5504,7 @@ rv
 }
 else
 {
-uint32_t
+PRUint32
 len
 ;
 nsCOMPtr
@@ -5728,7 +5720,7 @@ if
 url
 )
 {
-nsAutoCString
+nsCAutoString
 extension
 ;
 url
@@ -6121,7 +6113,7 @@ else
 {
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 ;
@@ -6144,7 +6136,7 @@ file
 )
 )
 {
-nsAutoCString
+nsCAutoString
 textStr
 ;
 NS_GetURLSpecFromFile
@@ -7111,7 +7103,7 @@ NS_OK
 void
 SaveTypeAndSource
 (
-nsIFile
+nsILocalFile
 *
 file
 nsIDOMDocument
@@ -7270,7 +7262,7 @@ ignore
 )
 return
 ;
-nsAutoCString
+nsCAutoString
 url
 ;
 srcUri
@@ -7308,7 +7300,7 @@ aResult
 nsAutoCharBuffer
 buffer
 ;
-int32_t
+PRInt32
 bufLength
 ;
 WideCharToMultiByte
@@ -7366,7 +7358,7 @@ aResult
 nsAutoChar16Buffer
 buffer
 ;
-int32_t
+PRInt32
 bufLength
 ;
 MultiByteToWideChar

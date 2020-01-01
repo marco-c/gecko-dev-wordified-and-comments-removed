@@ -35,7 +35,7 @@ class
 nsIWidget
 ;
 class
-nsIFile
+nsILocalFile
 ;
 struct
 IDataObject
@@ -66,9 +66,9 @@ char
 *
 *
 aFlavorList
-uint32_t
+PRUint32
 aLength
-int32_t
+PRInt32
 aWhichClipboard
 bool
 *
@@ -135,7 +135,7 @@ void
 *
 *
 aData
-uint32_t
+PRUint32
 *
 aLen
 )
@@ -159,7 +159,7 @@ void
 *
 *
 aData
-uint32_t
+PRUint32
 *
 aLen
 )
@@ -174,7 +174,7 @@ void
 *
 *
 aData
-uint32_t
+PRUint32
 *
 aLen
 )
@@ -198,7 +198,7 @@ protected
 NS_IMETHOD
 SetNativeClipboardData
 (
-int32_t
+PRInt32
 aWhichClipboard
 )
 ;
@@ -208,7 +208,7 @@ GetNativeClipboardData
 nsITransferable
 *
 aTransferable
-int32_t
+PRInt32
 aWhichClipboard
 )
 ;
@@ -235,7 +235,7 @@ void
 *
 *
 outData
-uint32_t
+PRUint32
 *
 outDataLen
 )
@@ -253,7 +253,7 @@ void
 *
 *
 outData
-uint32_t
+PRUint32
 *
 outDataLen
 )
@@ -271,7 +271,7 @@ void
 *
 *
 outData
-uint32_t
+PRUint32
 *
 outDataLen
 )
@@ -289,7 +289,7 @@ void
 *
 *
 outData
-uint32_t
+PRUint32
 *
 outDataLen
 )
@@ -298,7 +298,7 @@ static
 void
 ResolveShortcut
 (
-nsIFile
+nsILocalFile
 *
 inFileName
 nsACString

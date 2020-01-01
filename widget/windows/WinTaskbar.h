@@ -5,6 +5,12 @@ __WinTaskbar_h__
 define
 __WinTaskbar_h__
 #
+if
+MOZ_WINSDK_TARGETVER
+>
+=
+MOZ_NTDDI_WIN7
+#
 include
 <
 windows
@@ -25,15 +31,6 @@ nsIWinTaskbar
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 namespace
 mozilla
 {
@@ -42,7 +39,6 @@ widget
 {
 class
 WinTaskbar
-MOZ_FINAL
 :
 public
 nsIWinTaskbar
@@ -102,5 +98,7 @@ mTaskbar
 ;
 }
 }
+#
+endif
 #
 endif

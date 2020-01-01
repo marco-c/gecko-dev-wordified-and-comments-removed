@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsIFile
+nsILocalFile
 .
 h
 "
@@ -418,7 +418,7 @@ _retval
 *
 _retval
 =
-nullptr
+nsnull
 ;
 nsPrintSettingsGTK
 *
@@ -664,7 +664,7 @@ nsPrintSettingsGTK
 :
 GetPrintRange
 (
-int16_t
+PRInt16
 *
 aPrintRange
 )
@@ -724,7 +724,7 @@ nsPrintSettingsGTK
 :
 SetPrintRange
 (
-int16_t
+PRInt16
 aPrintRange
 )
 {
@@ -778,7 +778,7 @@ nsPrintSettingsGTK
 :
 GetStartPageRange
 (
-int32_t
+PRInt32
 *
 aStartPageRange
 )
@@ -812,7 +812,7 @@ aStartPageRange
 }
 else
 {
-int32_t
+PRInt32
 start
 (
 lstRanges
@@ -876,11 +876,11 @@ nsPrintSettingsGTK
 :
 SetStartPageRange
 (
-int32_t
+PRInt32
 aStartPageRange
 )
 {
-int32_t
+PRInt32
 endRange
 ;
 GetEndPageRange
@@ -926,7 +926,7 @@ nsPrintSettingsGTK
 :
 GetEndPageRange
 (
-int32_t
+PRInt32
 *
 aEndPageRange
 )
@@ -960,7 +960,7 @@ aEndPageRange
 }
 else
 {
-int32_t
+PRInt32
 end
 (
 lstRanges
@@ -1024,11 +1024,11 @@ nsPrintSettingsGTK
 :
 SetEndPageRange
 (
-int32_t
+PRInt32
 aEndPageRange
 )
 {
-int32_t
+PRInt32
 startRange
 ;
 GetStartPageRange
@@ -1160,7 +1160,7 @@ nsPrintSettingsGTK
 :
 GetOrientation
 (
-int32_t
+PRInt32
 *
 aOrientation
 )
@@ -1220,7 +1220,7 @@ nsPrintSettingsGTK
 :
 SetOrientation
 (
-int32_t
+PRInt32
 aOrientation
 )
 {
@@ -1445,7 +1445,7 @@ pdf
 }
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 ;
@@ -1471,7 +1471,7 @@ rv
 rv
 )
 ;
-nsAutoCString
+nsCAutoString
 url
 ;
 rv
@@ -1686,7 +1686,7 @@ nsPrintSettingsGTK
 :
 GetNumCopies
 (
-int32_t
+PRInt32
 *
 aNumCopies
 )
@@ -1714,7 +1714,7 @@ nsPrintSettingsGTK
 :
 SetNumCopies
 (
-int32_t
+PRInt32
 aNumCopies
 )
 {
@@ -1950,7 +1950,7 @@ nsPrintSettingsGTK
 :
 GetGTKUnit
 (
-int16_t
+PRInt16
 aGeckoUnit
 )
 {
@@ -2386,7 +2386,7 @@ nsPrintSettingsGTK
 :
 SetPaperSizeUnit
 (
-int16_t
+PRInt16
 aPaperSizeUnit
 )
 {
@@ -2553,7 +2553,7 @@ GetPageRanges
 (
 nsTArray
 <
-int32_t
+PRInt32
 >
 &
 aPages

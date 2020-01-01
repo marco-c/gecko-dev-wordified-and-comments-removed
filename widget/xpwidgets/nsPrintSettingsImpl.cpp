@@ -164,7 +164,7 @@ mIsInitedFromPrefs
 false
 )
 {
-int32_t
+PRInt32
 marginWidth
 =
 NS_INCHES_TO_INT_TWIPS
@@ -307,7 +307,7 @@ aPrintSession
 *
 aPrintSession
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -400,7 +400,7 @@ nsPrintSettings
 :
 GetStartPageRange
 (
-int32_t
+PRInt32
 *
 aStartPageRange
 )
@@ -420,7 +420,7 @@ nsPrintSettings
 :
 SetStartPageRange
 (
-int32_t
+PRInt32
 aStartPageRange
 )
 {
@@ -438,7 +438,7 @@ nsPrintSettings
 :
 GetEndPageRange
 (
-int32_t
+PRInt32
 *
 aEndPageRange
 )
@@ -458,7 +458,7 @@ nsPrintSettings
 :
 SetEndPageRange
 (
-int32_t
+PRInt32
 aEndPageRange
 )
 {
@@ -552,7 +552,7 @@ nsPrintSettings
 :
 GetOrientation
 (
-int32_t
+PRInt32
 *
 aOrientation
 )
@@ -577,7 +577,7 @@ nsPrintSettings
 :
 SetOrientation
 (
-int32_t
+PRInt32
 aOrientation
 )
 {
@@ -630,7 +630,7 @@ else
 *
 aColorspace
 =
-nullptr
+nsnull
 ;
 }
 return
@@ -714,7 +714,7 @@ else
 *
 aResolutionName
 =
-nullptr
+nsnull
 ;
 }
 return
@@ -884,7 +884,7 @@ nsPrintSettings
 :
 GetNumCopies
 (
-int32_t
+PRInt32
 *
 aNumCopies
 )
@@ -909,7 +909,7 @@ nsPrintSettings
 :
 SetNumCopies
 (
-int32_t
+PRInt32
 aNumCopies
 )
 {
@@ -1085,7 +1085,7 @@ nsPrintSettings
 :
 GetOutputFormat
 (
-int16_t
+PRInt16
 *
 aOutputFormat
 )
@@ -1110,7 +1110,7 @@ nsPrintSettings
 :
 SetOutputFormat
 (
-int16_t
+PRInt16
 aOutputFormat
 )
 {
@@ -1128,7 +1128,7 @@ nsPrintSettings
 :
 GetPrintPageDelay
 (
-int32_t
+PRInt32
 *
 aPrintPageDelay
 )
@@ -1148,7 +1148,7 @@ nsPrintSettings
 :
 SetPrintPageDelay
 (
-int32_t
+PRInt32
 aPrintPageDelay
 )
 {
@@ -2097,7 +2097,7 @@ nsPrintSettings
 :
 GetPrintRange
 (
-int16_t
+PRInt16
 *
 aPrintRange
 )
@@ -2122,7 +2122,7 @@ nsPrintSettings
 :
 SetPrintRange
 (
-int16_t
+PRInt16
 aPrintRange
 )
 {
@@ -2175,7 +2175,7 @@ else
 *
 aTitle
 =
-nullptr
+nsnull
 ;
 }
 return
@@ -2259,7 +2259,7 @@ else
 *
 aDocURL
 =
-nullptr
+nsnull
 ;
 }
 return
@@ -2308,7 +2308,7 @@ nsPrintSettings
 :
 GetPrintOptions
 (
-int32_t
+PRInt32
 aType
 bool
 *
@@ -2341,7 +2341,7 @@ nsPrintSettings
 :
 SetPrintOptions
 (
-int32_t
+PRInt32
 aType
 bool
 aTurnOnOff
@@ -2377,7 +2377,7 @@ nsPrintSettings
 :
 GetPrintOptionsBits
 (
-int32_t
+PRInt32
 *
 aBits
 )
@@ -2408,7 +2408,7 @@ PRUnichar
 aTitle
 nsHeaderFooterEnum
 aType
-int16_t
+PRInt16
 aJust
 )
 {
@@ -2420,7 +2420,7 @@ aTitle
 *
 aTitle
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -2558,7 +2558,7 @@ PRUnichar
 aTitle
 nsHeaderFooterEnum
 aType
-int16_t
+PRInt16
 aJust
 )
 {
@@ -2925,7 +2925,7 @@ nsPrintSettings
 :
 GetPrintFrameTypeUsage
 (
-int16_t
+PRInt16
 *
 aPrintFrameTypeUsage
 )
@@ -2950,7 +2950,7 @@ nsPrintSettings
 :
 SetPrintFrameTypeUsage
 (
-int16_t
+PRInt16
 aPrintFrameTypeUsage
 )
 {
@@ -2968,7 +2968,7 @@ nsPrintSettings
 :
 GetPrintFrameType
 (
-int16_t
+PRInt16
 *
 aPrintFrameType
 )
@@ -2982,7 +2982,7 @@ aPrintFrameType
 aPrintFrameType
 =
 (
-int32_t
+PRInt32
 )
 mPrintFrameType
 ;
@@ -2996,7 +2996,7 @@ nsPrintSettings
 :
 SetPrintFrameType
 (
-int16_t
+PRInt16
 aPrintFrameType
 )
 {
@@ -3178,7 +3178,7 @@ else
 *
 aPaperName
 =
-nullptr
+nsnull
 ;
 }
 return
@@ -3262,7 +3262,7 @@ else
 *
 aPlexName
 =
-nullptr
+nsnull
 ;
 }
 return
@@ -3311,7 +3311,7 @@ nsPrintSettings
 :
 GetHowToEnableFrameUI
 (
-int16_t
+PRInt16
 *
 aHowToEnableFrameUI
 )
@@ -3336,7 +3336,7 @@ nsPrintSettings
 :
 SetHowToEnableFrameUI
 (
-int16_t
+PRInt16
 aHowToEnableFrameUI
 )
 {
@@ -3483,7 +3483,7 @@ nsPrintSettings
 :
 GetPaperSizeUnit
 (
-int16_t
+PRInt16
 *
 aPaperSizeUnit
 )
@@ -3508,7 +3508,7 @@ nsPrintSettings
 :
 SetPaperSizeUnit
 (
-int16_t
+PRInt16
 aPaperSizeUnit
 )
 {
@@ -3526,7 +3526,7 @@ nsPrintSettings
 :
 GetPaperSizeType
 (
-int16_t
+PRInt16
 *
 aPaperSizeType
 )
@@ -3551,7 +3551,7 @@ nsPrintSettings
 :
 SetPaperSizeType
 (
-int16_t
+PRInt16
 aPaperSizeType
 )
 {
@@ -3569,7 +3569,7 @@ nsPrintSettings
 :
 GetPaperData
 (
-int16_t
+PRInt16
 *
 aPaperData
 )
@@ -3594,7 +3594,7 @@ nsPrintSettings
 :
 SetPaperData
 (
-int16_t
+PRInt16
 aPaperData
 )
 {
@@ -3912,7 +3912,7 @@ GetPageRanges
 (
 nsTArray
 <
-int32_t
+PRInt32
 >
 &
 aPages
@@ -4291,7 +4291,7 @@ mPrintPageDelay
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0

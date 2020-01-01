@@ -459,7 +459,7 @@ PRenderFrame
 ;
 include
 "
-IPC
+gfxipc
 /
 ShadowLayerUtils
 .

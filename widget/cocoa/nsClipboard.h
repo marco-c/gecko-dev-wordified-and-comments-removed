@@ -56,9 +56,9 @@ char
 *
 *
 aFlavorList
-uint32_t
+PRUint32
 aLength
-int32_t
+PRInt32
 aWhichClipboard
 bool
 *
@@ -116,7 +116,7 @@ protected
 NS_IMETHOD
 SetNativeClipboardData
 (
-int32_t
+PRInt32
 aWhichClipboard
 )
 ;
@@ -126,7 +126,7 @@ GetNativeClipboardData
 nsITransferable
 *
 aTransferable
-int32_t
+PRInt32
 aWhichClipboard
 )
 ;

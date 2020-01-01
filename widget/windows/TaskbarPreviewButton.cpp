@@ -1,4 +1,10 @@
 #
+if
+MOZ_WINSDK_TARGETVER
+>
+=
+MOZ_NTDDI_WIN7
+#
 include
 <
 windows
@@ -60,7 +66,7 @@ TaskbarPreviewButton
 TaskbarWindowPreview
 *
 preview
-uint32_t
+PRUint32
 index
 )
 :
@@ -631,3 +637,5 @@ mIndex
 }
 }
 }
+#
+endif

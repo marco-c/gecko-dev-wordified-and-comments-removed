@@ -1,4 +1,10 @@
 #
+if
+MOZ_WINSDK_TARGETVER
+>
+=
+MOZ_NTDDI_WIN7
+#
 include
 "
 TaskbarTabPreview
@@ -837,7 +843,7 @@ TaskbarTabPreview
 *
 preview
 (
-nullptr
+nsnull
 )
 ;
 if
@@ -1633,3 +1639,5 @@ NS_OK
 }
 }
 }
+#
+endif

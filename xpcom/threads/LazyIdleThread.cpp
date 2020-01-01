@@ -128,12 +128,8 @@ LazyIdleThread
 :
 LazyIdleThread
 (
-uint32_t
+PRUint32
 aIdleTimeoutMS
-const
-nsCSubstring
-&
-aName
 ShutdownMethod
 aShutdownMethod
 nsIObserver
@@ -162,7 +158,7 @@ aIdleObserver
 )
 mQueuedRunnables
 (
-nullptr
+nsnull
 )
 mIdleTimeoutMS
 (
@@ -191,10 +187,6 @@ false
 mIdleTimeoutEnabled
 (
 true
-)
-mName
-(
-aName
 )
 {
 NS_ASSERTION
@@ -686,15 +678,6 @@ InitThread
 (
 )
 {
-PR_SetCurrentThreadName
-(
-mName
-.
-BeginReading
-(
-)
-)
-;
 nsCOMPtr
 <
 nsIThreadInternal
@@ -792,7 +775,7 @@ thread
 >
 SetObserver
 (
-nullptr
+nsnull
 )
 )
 )
@@ -1073,7 +1056,7 @@ nsIThread
 this
 )
 IDLE_THREAD_TOPIC
-nullptr
+nsnull
 )
 ;
 }
@@ -1177,11 +1160,11 @@ thread
 }
 mQueuedRunnables
 =
-nullptr
+nsnull
 ;
 mThread
 =
-nullptr
+nsnull
 ;
 {
 MutexAutoLock
@@ -1250,7 +1233,7 @@ rv
 ;
 mIdleTimer
 =
-nullptr
+nsnull
 ;
 }
 if
@@ -1287,7 +1270,7 @@ NS_OK
 }
 for
 (
-uint32_t
+PRUint32
 index
 =
 0
@@ -1512,7 +1495,7 @@ Dispatch
 nsIRunnable
 *
 aEvent
-uint32_t
+PRUint32
 aFlags
 )
 {
@@ -1641,7 +1624,7 @@ aPRThread
 *
 aPRThread
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_NOT_AVAILABLE
@@ -1687,7 +1670,7 @@ now
 ;
 mIdleObserver
 =
-nullptr
+nsnull
 ;
 NS_ENSURE_SUCCESS
 (
@@ -1847,7 +1830,7 @@ OnProcessNextEvent
 nsIThreadInternal
 *
 bool
-uint32_t
+PRUint32
 )
 {
 return
@@ -1862,7 +1845,7 @@ AfterProcessNextEvent
 (
 nsIThreadInternal
 *
-uint32_t
+PRUint32
 )
 {
 bool

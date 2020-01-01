@@ -66,7 +66,7 @@ aFlavor
 )
 mCacheFileName
 (
-nullptr
+nsnull
 )
 {
 }
@@ -93,7 +93,7 @@ SetData
 nsISupports
 *
 inData
-uint32_t
+PRUint32
 inDataLen
 )
 ;
@@ -104,7 +104,7 @@ nsISupports
 *
 *
 outData
-uint32_t
+PRUint32
 *
 outDataLen
 )
@@ -160,7 +160,7 @@ WriteCache
 nsISupports
 *
 aData
-uint32_t
+PRUint32
 aDataLen
 )
 ;
@@ -171,7 +171,7 @@ nsISupports
 *
 *
 aData
-uint32_t
+PRUint32
 *
 aDataLen
 )
@@ -182,7 +182,7 @@ nsISupports
 >
 mData
 ;
-uint32_t
+PRUint32
 mDataLen
 ;
 const
@@ -238,17 +238,6 @@ nsIFormatConverter
 >
 mFormatConv
 ;
-bool
-mPrivateData
-;
-#
-if
-DEBUG
-bool
-mInitialized
-;
-#
-endif
 }
 ;
 #

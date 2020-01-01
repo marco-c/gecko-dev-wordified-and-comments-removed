@@ -465,6 +465,15 @@ mTransactionIncomplete
 true
 ;
 }
+bool
+IsTransactionIncomplete
+(
+)
+{
+return
+mTransactionIncomplete
+;
+}
 already_AddRefed
 <
 gfxContext

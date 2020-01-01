@@ -96,7 +96,7 @@ nsBidiKeyboard
 :
 SetLangFromBidiLevel
 (
-uint8_t
+PRUint8
 aLevel
 )
 {
@@ -493,7 +493,7 @@ keyboards
 GetKeyboardLayoutList
 (
 0
-nullptr
+nsnull
 )
 ;
 if

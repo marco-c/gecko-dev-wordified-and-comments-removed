@@ -78,7 +78,7 @@ h
 #
 include
 "
-nsIFile
+nsILocalFile
 .
 h
 "
@@ -182,10 +182,10 @@ return
 mGlobalPrinterList
 !
 =
-nullptr
+nsnull
 ;
 }
-uint32_t
+PRUint32
 GetNumPrinters
 (
 )
@@ -198,7 +198,7 @@ nsString
 *
 GetStringAt
 (
-int32_t
+PRInt32
 aInx
 )
 {
@@ -263,7 +263,7 @@ GlobalPrinters
 :
 mGlobalPrinterList
 =
-nullptr
+nsnull
 ;
 ULONG
 GlobalPrinters
@@ -282,11 +282,11 @@ nsDeviceContextSpecOS2
 :
 mQueue
 (
-nullptr
+nsnull
 )
 mPrintDC
 (
-nullptr
+nsnull
 )
 mPrintingStarted
 (
@@ -393,7 +393,7 @@ GetDriverType
 printer
 )
 ;
-int32_t
+PRInt32
 orientation
 ;
 aPrintSettings
@@ -476,7 +476,7 @@ pDJP
 +
 +
 ;
-int32_t
+PRInt32
 copies
 ;
 aPrintSettings
@@ -633,7 +633,7 @@ if
 aPrintSettings
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_FAILURE
@@ -979,7 +979,7 @@ aPrintSettings
 >
 SetNumCopies
 (
-int32_t
+PRInt32
 (
 pDJP
 -
@@ -1085,7 +1085,7 @@ tofile
 =
 false
 ;
-int32_t
+PRInt32
 copies
 =
 1
@@ -1094,13 +1094,13 @@ PRUnichar
 *
 printer
 =
-nullptr
+nsnull
 ;
 PRUnichar
 *
 printfile
 =
-nullptr
+nsnull
 ;
 mPrintSettings
 -
@@ -1176,7 +1176,7 @@ if
 printfile
 !
 =
-nullptr
+nsnull
 )
 {
 strcpy
@@ -1200,7 +1200,7 @@ if
 printer
 !
 =
-nullptr
+nsnull
 )
 strcpy
 (
@@ -1379,7 +1379,7 @@ if
 printfile
 !
 =
-nullptr
+nsnull
 )
 nsMemory
 :
@@ -1394,7 +1394,7 @@ if
 printer
 !
 =
-nullptr
+nsnull
 )
 nsMemory
 :
@@ -1602,7 +1602,7 @@ gfxASurface
 >
 newSurface
 ;
-int16_t
+PRInt16
 outputFormat
 ;
 mPrintSettings
@@ -1784,7 +1784,7 @@ CCHMAXPATH
 0
 '
 ;
-nsAutoCString
+nsCAutoString
 printString
 (
 printName
@@ -1884,7 +1884,7 @@ TWIPS_PER_POINT_FLOAT
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 =
@@ -2009,7 +2009,7 @@ char
 *
 filename
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -2373,7 +2373,7 @@ newSurface
 *
 surface
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_FAILURE
@@ -2423,13 +2423,13 @@ Length
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 nsAutoCharBuffer
 buffer
 ;
-int32_t
+PRInt32
 bufLength
 ;
 WideCharToMultiByte
@@ -2478,9 +2478,9 @@ aTitle
 PRUnichar
 *
 aPrintToFileName
-int32_t
+PRInt32
 aStartPage
-int32_t
+PRInt32
 aEndPage
 )
 {
@@ -2538,7 +2538,7 @@ get
 ;
 #
 endif
-int16_t
+PRInt16
 outputFormat
 ;
 mPrintSettings
@@ -2659,7 +2659,7 @@ EndDocument
 (
 )
 {
-int16_t
+PRInt16
 outputFormat
 ;
 mPrintSettings
@@ -2784,7 +2784,7 @@ BeginPage
 (
 )
 {
-int16_t
+PRInt16
 outputFormat
 ;
 mPrintSettings
@@ -2902,7 +2902,7 @@ aPrinterNameList
 *
 aPrinterNameList
 =
-nullptr
+nsnull
 ;
 nsDeviceContextSpecOS2
 :
@@ -3442,7 +3442,7 @@ GetRootBranch
 )
 =
 =
-nullptr
+nsnull
 )
 ;
 for
@@ -3481,7 +3481,7 @@ printer
 nsAutoChar16Buffer
 printerName
 ;
-int32_t
+PRInt32
 printerNameLength
 ;
 nsresult
@@ -3520,12 +3520,12 @@ if
 prefFailed
 )
 {
-nsAutoCString
+nsCAutoString
 printerDescription
 ;
 printerDescription
 =
-nsAutoCString
+nsCAutoString
 (
 nsDeviceContextSpecOS2
 :
@@ -3551,7 +3551,7 @@ printerDescription
 printerDescription
 +
 =
-nsAutoCString
+nsCAutoString
 (
 nsDeviceContextSpecOS2
 :
@@ -3571,7 +3571,7 @@ printerDescription
 )
 "
 ;
-nsAutoCString
+nsCAutoString
 prefName
 (
 "
@@ -3627,7 +3627,7 @@ aDefaultPrinterName
 {
 aDefaultPrinterName
 =
-nullptr
+nsnull
 ;
 nsresult
 rv
@@ -3684,7 +3684,7 @@ printer
 nsAutoChar16Buffer
 printerName
 ;
-int32_t
+PRInt32
 printerNameLength
 ;
 MultiByteToWideChar
@@ -3739,7 +3739,7 @@ mGlobalPrinterList
 ;
 mGlobalPrinterList
 =
-nullptr
+nsnull
 ;
 mGlobalNumPrinters
 =

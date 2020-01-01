@@ -118,7 +118,7 @@ h
 #
 include
 "
-nsIFile
+nsILocalFile
 .
 h
 "
@@ -242,10 +242,10 @@ return
 mGlobalPrinterList
 !
 =
-nullptr
+nsnull
 ;
 }
-uint32_t
+PRUint32
 GetNumPrinters
 (
 )
@@ -267,7 +267,7 @@ nsString
 *
 GetStringAt
 (
-int32_t
+PRInt32
 aInx
 )
 {
@@ -351,22 +351,22 @@ aSupportsPaperSizeChange
 void
 SetNumPaperSizeRecords
 (
-int32_t
+PRInt32
 aCount
 )
 ;
 void
 SetPaperRecord
 (
-int32_t
+PRInt32
 aIndex
 const
 char
 *
 aName
-int32_t
+PRInt32
 aWidthMM
-int32_t
+PRInt32
 aHeightMM
 bool
 aIsInch
@@ -389,14 +389,14 @@ aSupportsOrientationChange
 void
 SetNumOrientationRecords
 (
-int32_t
+PRInt32
 aCount
 )
 ;
 void
 SetOrientationRecord
 (
-int32_t
+PRInt32
 aIndex
 const
 char
@@ -421,14 +421,14 @@ aSupportsPlexChange
 void
 SetNumPlexRecords
 (
-int32_t
+PRInt32
 aCount
 )
 ;
 void
 SetPlexRecord
 (
-int32_t
+PRInt32
 aIndex
 const
 char
@@ -453,14 +453,14 @@ aSupportsResolutionChange
 void
 SetNumResolutionNameRecords
 (
-int32_t
+PRInt32
 aCount
 )
 ;
 void
 SetResolutionNameRecord
 (
-int32_t
+PRInt32
 aIndex
 const
 char
@@ -485,14 +485,14 @@ aSupportsColorspace
 void
 SetNumColorspaceRecords
 (
-int32_t
+PRInt32
 aCount
 )
 ;
 void
 SetColorspaceRecord
 (
-int32_t
+PRInt32
 aIndex
 const
 char
@@ -583,7 +583,7 @@ const
 char
 *
 tagname
-int32_t
+PRInt32
 value
 )
 ;
@@ -622,6 +622,7 @@ value
 nsPrintfCString
 prefName
 (
+256
 PRINTERFEATURES_PREF
 "
 .
@@ -663,13 +664,14 @@ const
 char
 *
 tagname
-int32_t
+PRInt32
 value
 )
 {
 nsPrintfCString
 prefName
 (
+256
 PRINTERFEATURES_PREF
 "
 .
@@ -720,6 +722,7 @@ value
 nsPrintfCString
 prefName
 (
+256
 PRINTERFEATURES_PREF
 "
 .
@@ -843,7 +846,7 @@ nsPrinterFeatures
 :
 SetNumPaperSizeRecords
 (
-int32_t
+PRInt32
 aCount
 )
 {
@@ -864,15 +867,15 @@ nsPrinterFeatures
 :
 SetPaperRecord
 (
-int32_t
+PRInt32
 aIndex
 const
 char
 *
 aPaperName
-int32_t
+PRInt32
 aWidthMM
-int32_t
+PRInt32
 aHeightMM
 bool
 aIsInch
@@ -882,6 +885,7 @@ SetCharValue
 (
 nsPrintfCString
 (
+256
 "
 paper
 .
@@ -903,6 +907,7 @@ SetIntValue
 (
 nsPrintfCString
 (
+256
 "
 paper
 .
@@ -924,6 +929,7 @@ SetIntValue
 (
 nsPrintfCString
 (
+256
 "
 paper
 .
@@ -945,6 +951,7 @@ SetBoolValue
 (
 nsPrintfCString
 (
+256
 "
 paper
 .
@@ -1007,7 +1014,7 @@ nsPrinterFeatures
 :
 SetNumOrientationRecords
 (
-int32_t
+PRInt32
 aCount
 )
 {
@@ -1028,7 +1035,7 @@ nsPrinterFeatures
 :
 SetOrientationRecord
 (
-int32_t
+PRInt32
 aIndex
 const
 char
@@ -1040,6 +1047,7 @@ SetCharValue
 (
 nsPrintfCString
 (
+256
 "
 orientation
 .
@@ -1102,7 +1110,7 @@ nsPrinterFeatures
 :
 SetNumPlexRecords
 (
-int32_t
+PRInt32
 aCount
 )
 {
@@ -1123,7 +1131,7 @@ nsPrinterFeatures
 :
 SetPlexRecord
 (
-int32_t
+PRInt32
 aIndex
 const
 char
@@ -1135,6 +1143,7 @@ SetCharValue
 (
 nsPrintfCString
 (
+256
 "
 plex
 .
@@ -1197,7 +1206,7 @@ nsPrinterFeatures
 :
 SetNumResolutionNameRecords
 (
-int32_t
+PRInt32
 aCount
 )
 {
@@ -1218,7 +1227,7 @@ nsPrinterFeatures
 :
 SetResolutionNameRecord
 (
-int32_t
+PRInt32
 aIndex
 const
 char
@@ -1230,6 +1239,7 @@ SetCharValue
 (
 nsPrintfCString
 (
+256
 "
 resolution
 .
@@ -1292,7 +1302,7 @@ nsPrinterFeatures
 :
 SetNumColorspaceRecords
 (
-int32_t
+PRInt32
 aCount
 )
 {
@@ -1313,7 +1323,7 @@ nsPrinterFeatures
 :
 SetColorspaceRecord
 (
-int32_t
+PRInt32
 aIndex
 const
 char
@@ -1325,6 +1335,7 @@ SetCharValue
 (
 nsPrintfCString
 (
+256
 "
 colorspace
 .
@@ -1532,7 +1543,7 @@ GlobalPrinters
 :
 mGlobalPrinterList
 =
-nullptr
+nsnull
 ;
 nsDeviceContextSpecGTK
 :
@@ -1657,7 +1668,7 @@ aSurface
 *
 aSurface
 =
-nullptr
+nsnull
 ;
 const
 char
@@ -1737,7 +1748,7 @@ tmp
 "
 &
 buf
-nullptr
+nsnull
 )
 ;
 if
@@ -1855,7 +1866,7 @@ rv
 return
 rv
 ;
-int16_t
+PRInt16
 format
 ;
 mPrintSettings
@@ -1959,7 +1970,7 @@ mGtkPrinter
 ?
 static_cast
 <
-int16_t
+PRInt16
 >
 (
 nsIPrintSettings
@@ -1970,7 +1981,7 @@ kOutputFormatPDF
 :
 static_cast
 <
-int16_t
+PRInt16
 >
 (
 nsIPrintSettings
@@ -2050,7 +2061,7 @@ surfaceSize
 }
 else
 {
-int32_t
+PRInt32
 orientation
 ;
 mPrintSettings
@@ -2406,7 +2417,7 @@ aJob
 ;
 (
 (
-nsIFile
+nsILocalFile
 *
 )
 aData
@@ -2427,12 +2438,12 @@ gpointer
 aData
 )
 {
-nsIFile
+nsILocalFile
 *
 spoolFile
 =
 (
-nsIFile
+nsILocalFile
 *
 )
 aData
@@ -2455,9 +2466,9 @@ aTitle
 PRUnichar
 *
 aPrintToFileName
-int32_t
+PRInt32
 aStartPage
-int32_t
+PRInt32
 aEndPage
 )
 {
@@ -2531,7 +2542,7 @@ mSpoolName
 get
 (
 )
-nullptr
+nsnull
 )
 )
 return
@@ -2562,7 +2573,7 @@ targetPath
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 destFile
 ;
@@ -2756,6 +2767,7 @@ modulename
 nsPrintfCString
 name
 (
+512
 "
 print
 .
@@ -2829,6 +2841,7 @@ printername
 nsPrintfCString
 name
 (
+512
 "
 print
 .
@@ -2898,6 +2911,7 @@ modulename
 nsPrintfCString
 name
 (
+512
 "
 print
 .
@@ -2961,6 +2975,7 @@ rv
 nsPrintfCString
 name
 (
+512
 "
 print
 .
@@ -3100,7 +3115,7 @@ aPrinterNameList
 *
 aPrinterNameList
 =
-nullptr
+nsnull
 ;
 nsresult
 rv
@@ -3129,7 +3144,7 @@ return
 rv
 ;
 }
-uint32_t
+PRUint32
 numPrinters
 =
 GlobalPrinters
@@ -3182,7 +3197,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-uint32_t
+PRUint32
 count
 =
 0
@@ -3452,7 +3467,7 @@ type
 pmPostScript
 )
 {
-int32_t
+PRInt32
 slash
 =
 printerName
@@ -3488,6 +3503,7 @@ SET_PRINTER_FEATURES_VIA_PREFS
 nsPrintfCString
 prefName
 (
+256
 PRINTERFEATURES_PREF
 "
 .
@@ -3518,7 +3534,7 @@ false
 ;
 #
 endif
-nsAutoCString
+nsCAutoString
 filename
 ;
 if
@@ -3527,7 +3543,7 @@ NS_FAILED
 (
 CopyPrinterCharPref
 (
-nullptr
+nsnull
 printerName
 "
 filename
@@ -3573,6 +3589,7 @@ filename
 =
 nsPrintfCString
 (
+PATH_MAX
 "
 %
 s
@@ -3725,7 +3742,7 @@ true
 ;
 #
 endif
-nsAutoCString
+nsCAutoString
 orientation
 ;
 if
@@ -4115,7 +4132,7 @@ true
 ;
 #
 endif
-nsAutoCString
+nsCAutoString
 papername
 ;
 if
@@ -4440,7 +4457,7 @@ if
 hasSpoolerCmd
 )
 {
-nsAutoCString
+nsCAutoString
 command
 ;
 if
@@ -4597,7 +4614,7 @@ printerList
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -4672,7 +4689,7 @@ mGlobalPrinterList
 ;
 mGlobalPrinterList
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -4691,7 +4708,7 @@ aDefaultPrinterName
 *
 aDefaultPrinterName
 =
-nullptr
+nsnull
 ;
 bool
 allocate

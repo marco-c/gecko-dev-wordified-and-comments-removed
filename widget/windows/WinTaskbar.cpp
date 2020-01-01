@@ -1,4 +1,10 @@
 #
+if
+MOZ_WINSDK_TARGETVER
+>
+=
+MOZ_NTDDI_WIN7
+#
 include
 "
 WinTaskbar
@@ -389,7 +395,7 @@ ppv
 SHGetPropertyStoreForWindowPtr
 funcGetProStore
 =
-nullptr
+nsnull
 ;
 HMODULE
 hDLL
@@ -554,7 +560,6 @@ rv
 }
 class
 DefaultController
-MOZ_FINAL
 :
 public
 nsITaskbarPreviewController
@@ -586,7 +591,7 @@ DefaultController
 :
 GetWidth
 (
-uint32_t
+PRUint32
 *
 aWidth
 )
@@ -620,7 +625,7 @@ DefaultController
 :
 GetHeight
 (
-uint32_t
+PRUint32
 *
 aHeight
 )
@@ -659,7 +664,7 @@ float
 aThumbnailAspectRatio
 )
 {
-uint32_t
+PRUint32
 width
 height
 ;
@@ -730,9 +735,9 @@ DrawThumbnail
 nsIDOMCanvasRenderingContext2D
 *
 ctx
-uint32_t
+PRUint32
 width
-uint32_t
+PRUint32
 height
 bool
 *
@@ -941,7 +946,7 @@ WinTaskbar
 :
 mTaskbar
 (
-nullptr
+nsnull
 )
 {
 }
@@ -1046,7 +1051,7 @@ exists
 exists
 )
 {
-nsAutoCString
+nsCAutoString
 path
 ;
 if
@@ -1361,7 +1366,7 @@ false
 SetCurrentProcessExplicitAppUserModelIDPtr
 funcAppUserModelID
 =
-nullptr
+nsnull
 ;
 bool
 retVal
@@ -2031,3 +2036,5 @@ NS_OK
 }
 }
 }
+#
+endif

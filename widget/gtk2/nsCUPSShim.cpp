@@ -210,7 +210,7 @@ i
 #
 ifdef
 DEBUG
-nsAutoCString
+nsCAutoString
 msg
 (
 gSymName
@@ -250,7 +250,7 @@ mCupsLib
 ;
 mCupsLib
 =
-nullptr
+nsnull
 ;
 return
 false

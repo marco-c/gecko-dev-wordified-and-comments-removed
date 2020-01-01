@@ -713,7 +713,7 @@ aUsername
 aProfile
 aCommand
 0
-nullptr
+nsnull
 aDesktopStartupID
 aResponse
 aWindowFound
@@ -738,7 +738,7 @@ const
 char
 *
 aProfile
-int32_t
+PRInt32
 argc
 char
 *
@@ -777,7 +777,7 @@ SendCommandInternal
 aProgram
 aUsername
 aProfile
-nullptr
+nsnull
 argc
 argv
 aDesktopStartupID
@@ -853,7 +853,7 @@ const
 char
 *
 aCommand
-int32_t
+PRInt32
 argc
 char
 *
@@ -2123,7 +2123,7 @@ data_return
 )
 continue
 ;
-double
+PRFloat64
 version
 =
 PR_strtod
@@ -2133,7 +2133,7 @@ char
 *
 )
 data_return
-nullptr
+nsnull
 )
 ;
 XFree
@@ -2733,7 +2733,7 @@ nDESKTOP_STARTUP_ID
 =
 "
 ;
-int32_t
+PRInt32
 len
 =
 strlen
@@ -2900,7 +2900,7 @@ DoSendCommandLine
 (
 Window
 aWindow
-int32_t
+PRInt32
 argc
 char
 *
@@ -2953,7 +2953,7 @@ DESKTOP_STARTUP_ID
 =
 "
 ;
-int32_t
+PRInt32
 argvlen
 =
 strlen
@@ -2977,7 +2977,7 @@ argc
 i
 )
 {
-int32_t
+PRInt32
 len
 =
 strlen
@@ -3021,12 +3021,12 @@ argvlen
 len
 ;
 }
-int32_t
+PRInt32
 *
 buffer
 =
 (
-int32_t
+PRInt32
 *
 )
 malloc
@@ -3039,7 +3039,7 @@ argc
 +
 sizeof
 (
-int32_t
+PRInt32
 )
 *
 (
@@ -3174,7 +3174,7 @@ bufend
 #
 ifdef
 DEBUG_bsmedberg
-int32_t
+PRInt32
 debug_argc
 =
 TO_LITTLE_ENDIAN32
@@ -3230,7 +3230,7 @@ debug_workingdir
 debug_argc
 )
 ;
-int32_t
+PRInt32
 *
 debug_offset
 =

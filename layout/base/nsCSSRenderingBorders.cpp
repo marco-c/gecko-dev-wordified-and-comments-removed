@@ -5416,6 +5416,15 @@ if
 mContext
 -
 >
+IsCairo
+(
+)
+&
+&
+(
+mContext
+-
+>
 OriginalSurface
 (
 )
@@ -5449,6 +5458,7 @@ gfxASurface
 :
 :
 SurfaceTypeQuartz
+)
 )
 {
 gradientOffset
