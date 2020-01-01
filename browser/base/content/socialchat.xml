@@ -261,6 +261,11 @@ context
 "
 contentAreaContextMenu
 "
+tooltip
+=
+"
+aHTMLTooltip
+"
 xbl
 :
 inherits
