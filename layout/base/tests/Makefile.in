@@ -835,6 +835,10 @@ test_scroll_selection_into_view
 .
 html
 \
+test_bug582771
+.
+html
+\
 (
 NULL
 )
