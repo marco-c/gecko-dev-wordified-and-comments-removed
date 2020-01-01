@@ -5387,7 +5387,7 @@ XPI_ODA_BUFFER_SIZE
 PRUint32
 amt
 =
-PR_MIN
+NS_MIN
 (
 XPI_ODA_BUFFER_SIZE
 length
@@ -5497,7 +5497,7 @@ amt
 ;
 amt
 =
-PR_MIN
+NS_MIN
 (
 XPI_ODA_BUFFER_SIZE
 length

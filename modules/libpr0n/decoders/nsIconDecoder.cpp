@@ -288,7 +288,7 @@ iconStateReadPixels
 :
 bytesToRead
 =
-PR_MIN
+NS_MIN
 (
 aCount
 mPixBytesTotal

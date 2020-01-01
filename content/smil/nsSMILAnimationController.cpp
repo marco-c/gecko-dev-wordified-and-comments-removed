@@ -1705,7 +1705,7 @@ Length
 ;
 sampleTime
 =
-PR_MAX
+NS_MAX
 (
 nextMilestone
 .
@@ -1799,7 +1799,10 @@ continue
 nsSMILTime
 containerTime
 =
-PR_MAX
+NS_MAX
+<
+nsSMILTime
+>
 (
 0
 containerTimeValue

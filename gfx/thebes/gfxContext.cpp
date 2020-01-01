@@ -1637,7 +1637,7 @@ i
 ;
 xmin
 =
-PR_MIN
+NS_MIN
 (
 xmin
 x
@@ -1648,7 +1648,7 @@ i
 ;
 xmax
 =
-PR_MAX
+NS_MAX
 (
 xmax
 x
@@ -1659,7 +1659,7 @@ i
 ;
 ymin
 =
-PR_MIN
+NS_MIN
 (
 ymin
 y
@@ -1670,7 +1670,7 @@ i
 ;
 ymax
 =
-PR_MAX
+NS_MAX
 (
 ymax
 y

@@ -1930,7 +1930,7 @@ PR_TRUE
 PRInt32
 newLength
 =
-PR_MAX
+NS_MAX
 (
 oldLength
 kTxNodeSetMinSize

@@ -2388,7 +2388,7 @@ LOCAL_GL_NO_ERROR
 :
 mGLMaxVaryingVectors
 =
-PR_MIN
+NS_MIN
 (
 maxVertexOutputComponents
 minFragmentInputComponents

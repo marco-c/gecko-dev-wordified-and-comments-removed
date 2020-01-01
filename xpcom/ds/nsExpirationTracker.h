@@ -588,7 +588,7 @@ for
 {
 index
 =
-PR_MIN
+NS_MIN
 (
 index
 generation

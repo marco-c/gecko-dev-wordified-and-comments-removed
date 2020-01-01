@@ -4999,7 +4999,10 @@ Length
 (
 )
 +
-PR_MIN
+NS_MIN
+<
+PRUint32
+>
 (
 32
 mSpec

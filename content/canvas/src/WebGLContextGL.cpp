@@ -3520,10 +3520,10 @@ NS_OK
 GLint
 actual_x
 =
-PR_MIN
+NS_MIN
 (
 framebufferWidth
-PR_MAX
+NS_MAX
 (
 0
 x
@@ -3533,10 +3533,10 @@ x
 GLint
 actual_x_plus_width
 =
-PR_MIN
+NS_MIN
 (
 framebufferWidth
-PR_MAX
+NS_MAX
 (
 0
 x
@@ -3564,10 +3564,10 @@ x
 GLint
 actual_y
 =
-PR_MIN
+NS_MIN
 (
 framebufferHeight
-PR_MAX
+NS_MAX
 (
 0
 y
@@ -3577,10 +3577,10 @@ y
 GLint
 actual_y_plus_height
 =
-PR_MIN
+NS_MIN
 (
 framebufferHeight
-PR_MAX
+NS_MAX
 (
 0
 y
@@ -13882,7 +13882,7 @@ NS_OK
 GLint
 subrect_x
 =
-PR_MAX
+NS_MAX
 (
 x
 0
@@ -13891,7 +13891,7 @@ x
 GLint
 subrect_end_x
 =
-PR_MIN
+NS_MIN
 (
 x
 +
@@ -13909,7 +13909,7 @@ subrect_x
 GLint
 subrect_y
 =
-PR_MAX
+NS_MAX
 (
 y
 0
@@ -13918,7 +13918,7 @@ y
 GLint
 subrect_end_y
 =
-PR_MIN
+NS_MIN
 (
 y
 +

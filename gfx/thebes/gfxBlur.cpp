@@ -1438,7 +1438,7 @@ break
 PRInt32
 sMin
 =
-PR_MAX
+NS_MAX
 (
 x
 -
@@ -1449,7 +1449,7 @@ aRadius
 PRInt32
 sMax
 =
-PR_MIN
+NS_MIN
 (
 x
 +
@@ -1483,7 +1483,10 @@ s
 {
 v
 =
-PR_MAX
+NS_MAX
+<
+PRInt32
+>
 (
 v
 aInput
@@ -1692,7 +1695,7 @@ break
 PRInt32
 sMin
 =
-PR_MAX
+NS_MAX
 (
 y
 -
@@ -1703,7 +1706,7 @@ aRadius
 PRInt32
 sMax
 =
-PR_MIN
+NS_MIN
 (
 y
 +
@@ -1737,7 +1740,10 @@ s
 {
 v
 =
-PR_MAX
+NS_MAX
+<
+PRInt32
+>
 (
 v
 aInput

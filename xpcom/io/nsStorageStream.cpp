@@ -1,6 +1,13 @@
 #
 include
 "
+nsAlgorithm
+.
+h
+"
+#
+include
+"
 nsStorageStream
 .
 h
@@ -632,7 +639,7 @@ mSegmentEnd
 }
 count
 =
-PR_MIN
+NS_MIN
 (
 availableInSegment
 remaining
@@ -1551,7 +1558,7 @@ mSegmentEnd
 =
 mReadCursor
 +
-PR_MIN
+NS_MIN
 (
 mSegmentSize
 available
@@ -1566,7 +1573,7 @@ mReadCursor
 }
 count
 =
-PR_MIN
+NS_MIN
 (
 availableInSegment
 remainingCapacity
@@ -1918,7 +1925,7 @@ mSegmentEnd
 =
 mReadCursor
 +
-PR_MIN
+NS_MIN
 (
 mSegmentSize
 -

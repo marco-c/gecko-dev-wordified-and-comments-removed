@@ -1344,7 +1344,7 @@ mTime
 PRInt64
 startTime
 =
-PR_MIN
+NS_MIN
 (
 videoStartTime
 audioStartTime

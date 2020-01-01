@@ -2818,7 +2818,7 @@ ifdef
 DEBUG
 rootLocation
 =
-PR_MAX
+NS_MAX
 (
 rootLocation
 j

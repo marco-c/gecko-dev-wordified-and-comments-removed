@@ -7627,7 +7627,7 @@ radiusY
 double
 leftDistance
 =
-PR_ABS
+NS_ABS
 (
 aLineStart
 -
@@ -7638,7 +7638,7 @@ x
 double
 rightDistance
 =
-PR_ABS
+NS_ABS
 (
 aBoxSize
 .
@@ -7653,7 +7653,7 @@ x
 double
 topDistance
 =
-PR_ABS
+NS_ABS
 (
 aLineStart
 -
@@ -7664,7 +7664,7 @@ y
 double
 bottomDistance
 =
-PR_ABS
+NS_ABS
 (
 aBoxSize
 .

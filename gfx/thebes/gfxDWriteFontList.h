@@ -176,7 +176,7 @@ GetStretch
 PRUint16
 weight
 =
-PR_ROUNDUP
+NS_ROUNDUP
 (
 aFont
 -

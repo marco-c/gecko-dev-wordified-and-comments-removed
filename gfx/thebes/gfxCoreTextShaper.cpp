@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsAlgorithm
+.
+h
+"
+#
+include
+"
 prmem
 .
 h
@@ -1467,7 +1474,7 @@ NO_GLYPH
 {
 glyphEnd
 =
-PR_MAX
+NS_MAX
 (
 glyphEnd
 charToGlyph
@@ -1814,7 +1821,7 @@ continue
 }
 baseCharIndex
 =
-PR_MAX
+NS_MAX
 (
 baseCharIndex
 aRunStart
@@ -1822,7 +1829,7 @@ aRunStart
 ;
 endCharIndex
 =
-PR_MIN
+NS_MIN
 (
 endCharIndex
 aRunStart

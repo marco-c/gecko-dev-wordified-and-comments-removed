@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsAlgorithm
+.
+h
+"
+#
+include
+"
 nsIAtom
 .
 h

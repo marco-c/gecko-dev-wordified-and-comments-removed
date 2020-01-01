@@ -4031,7 +4031,7 @@ yThreshold
 ;
 if
 (
-PR_ABS
+NS_ABS
 (
 clientX
 -
@@ -4044,7 +4044,7 @@ mOriginalX
 xThreshold
 |
 |
-PR_ABS
+NS_ABS
 (
 clientY
 -

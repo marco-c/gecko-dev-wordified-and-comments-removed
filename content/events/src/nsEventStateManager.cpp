@@ -3516,7 +3516,7 @@ height
 ;
 if
 (
-PR_ABS
+NS_ABS
 (
 aScrollLines
 )
@@ -5920,7 +5920,7 @@ break
 ;
 if
 (
-PR_ABS
+NS_ABS
 (
 gPixelScrollDeltaX
 )
@@ -6016,7 +6016,7 @@ break
 ;
 if
 (
-PR_ABS
+NS_ABS
 (
 gPixelScrollDeltaY
 )
@@ -8749,7 +8749,7 @@ WidgetToScreenOffset
 ;
 if
 (
-PR_ABS
+NS_ABS
 (
 pt
 .
@@ -8763,7 +8763,7 @@ x
 pixelThresholdX
 |
 |
-PR_ABS
+NS_ABS
 (
 pt
 .

@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsAlgorithm
+.
+h
+"
+#
+include
+"
 nsBufferedStreams
 .
 h
@@ -1338,7 +1345,7 @@ count
 PRUint32
 amt
 =
-PR_MIN
+NS_MIN
 (
 count
 mFillPoint
@@ -2321,7 +2328,7 @@ count
 PRUint32
 amt
 =
-PR_MIN
+NS_MIN
 (
 count
 mBufferSize
@@ -2703,7 +2710,7 @@ count
 PRUint32
 left
 =
-PR_MIN
+NS_MIN
 (
 count
 mBufferSize
@@ -2796,7 +2803,7 @@ read
 ;
 mFillPoint
 =
-PR_MAX
+NS_MAX
 (
 mFillPoint
 mCursor

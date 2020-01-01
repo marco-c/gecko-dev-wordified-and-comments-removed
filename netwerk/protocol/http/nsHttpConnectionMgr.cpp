@@ -2008,7 +2008,7 @@ else
 {
 timeToNextExpire
 =
-PR_MIN
+NS_MIN
 (
 timeToNextExpire
 conn

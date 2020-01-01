@@ -379,7 +379,7 @@ return
 ;
 count
 =
-PR_ABS
+NS_ABS
 (
 count
 )
@@ -676,7 +676,7 @@ return
 ;
 count
 =
-PR_ABS
+NS_ABS
 (
 count
 )

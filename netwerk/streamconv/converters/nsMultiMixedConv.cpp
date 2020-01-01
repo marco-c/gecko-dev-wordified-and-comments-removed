@@ -1933,7 +1933,7 @@ LF
 )
 bufAmt
 =
-PR_MIN
+NS_MIN
 (
 mTokenLen
 -

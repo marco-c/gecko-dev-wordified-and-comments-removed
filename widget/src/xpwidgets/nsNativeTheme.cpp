@@ -2286,7 +2286,7 @@ aMinimumFrameRate
 ;
 timeout
 =
-PR_MIN
+NS_MIN
 (
 mAnimatedContentTimeout
 timeout

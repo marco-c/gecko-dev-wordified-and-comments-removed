@@ -3666,7 +3666,7 @@ viewer
 PRInt32
 distance
 =
-PR_ABS
+NS_ABS
 (
 shist
 -
@@ -4707,7 +4707,7 @@ count2
 PRInt32
 count
 =
-PR_MAX
+NS_MAX
 (
 count1
 count2

@@ -1857,7 +1857,7 @@ bufLen
 PRUint32
 n
 =
-PR_MIN
+NS_MIN
 (
 bufLen
 aCount

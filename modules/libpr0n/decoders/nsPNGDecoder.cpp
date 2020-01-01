@@ -1110,7 +1110,7 @@ return
 PRUint32
 bytesToRead
 =
-PR_MIN
+NS_MIN
 (
 aCount
 BYTES_NEEDED_FOR_DIMENSIONS

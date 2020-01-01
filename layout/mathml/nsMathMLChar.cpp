@@ -2941,7 +2941,7 @@ PRBool
 (
 float
 (
-PR_ABS
+NS_ABS
 (
 a
 -
@@ -3010,7 +3010,7 @@ PRBool
 (
 float
 (
-PR_ABS
+NS_ABS
 (
 b
 -
@@ -3188,14 +3188,14 @@ b
 )
 ;
 return
-PR_ABS
+NS_ABS
 (
 a
 -
 b
 )
 <
-PR_ABS
+NS_ABS
 (
 olda
 -

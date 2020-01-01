@@ -1043,7 +1043,7 @@ strB
 v2
 .
 strB
-PR_MIN
+NS_MIN
 (
 v1
 .

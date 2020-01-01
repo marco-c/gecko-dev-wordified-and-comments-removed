@@ -1575,7 +1575,7 @@ Size
 PRInt32
 fetchCount
 =
-PR_MAX
+NS_MAX
 (
 1
 entry
@@ -1587,7 +1587,7 @@ FetchCount
 )
 ;
 return
-PR_MIN
+NS_MIN
 (
 PR_FloorLog2
 (

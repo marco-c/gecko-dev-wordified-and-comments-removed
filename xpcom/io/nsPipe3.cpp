@@ -84,6 +84,13 @@ nsAtomicRefcnt
 .
 h
 "
+#
+include
+"
+nsAlgorithm
+.
+h
+"
 using
 namespace
 mozilla
@@ -3299,7 +3306,7 @@ cursor2
 PRUint32
 lim
 =
-PR_MIN
+NS_MIN
 (
 strLen
 len2

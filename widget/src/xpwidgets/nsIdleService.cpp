@@ -1206,7 +1206,7 @@ else
 {
 nextWaitTime
 =
-PR_MIN
+NS_MIN
 (
 nextWaitTime
 curListener

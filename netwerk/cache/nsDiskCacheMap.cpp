@@ -5550,7 +5550,7 @@ nsDiskCacheRecord
 PRInt32
 maxRecordCount
 =
-PR_MIN
+NS_MIN
 (
 PRInt32
 (

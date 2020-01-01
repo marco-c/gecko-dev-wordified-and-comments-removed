@@ -3814,7 +3814,10 @@ ENSURE_CALLED_BEFORE_ASYNC_OPEN
 ;
 mRedirectionLimit
 =
-PR_MIN
+NS_MIN
+<
+PRUint32
+>
 (
 value
 0xff

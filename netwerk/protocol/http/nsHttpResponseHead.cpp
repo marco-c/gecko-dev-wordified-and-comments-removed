@@ -1063,7 +1063,7 @@ ageValue
 *
 result
 =
-PR_MAX
+NS_MAX
 (
 *
 result

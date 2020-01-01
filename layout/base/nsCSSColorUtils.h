@@ -23,7 +23,7 @@ a
 b
 )
 \
-PR_ABS
+NS_ABS
 (
 NS_GetLuminosity
 (

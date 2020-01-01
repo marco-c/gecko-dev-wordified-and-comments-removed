@@ -1521,10 +1521,10 @@ mFileSize
 ;
 mFileSize
 =
-PR_MIN
+NS_MIN
 (
 maxPreallocate
-PR_MAX
+NS_MAX
 (
 mFileSize
 minPreallocate
@@ -1534,7 +1534,7 @@ minPreallocate
 }
 mFileSize
 =
-PR_MIN
+NS_MIN
 (
 mFileSize
 maxFileSize

@@ -3474,7 +3474,7 @@ textRanges
 LONG
 start
 =
-PR_MIN
+NS_MIN
 (
 mCompositionSelection
 .
@@ -3487,7 +3487,7 @@ acpEnd
 LONG
 end
 =
-PR_MAX
+NS_MAX
 (
 mCompositionSelection
 .
@@ -3553,7 +3553,7 @@ NS_TEXTRANGE_SELECTEDRAWTEXT
 LONG
 caretPosition
 =
-PR_MAX
+NS_MAX
 (
 mCompositionSelection
 .
@@ -4188,7 +4188,7 @@ mCompositionView
 {
 compOldEnd
 =
-PR_MIN
+NS_MIN
 (
 LONG
 (
@@ -4203,7 +4203,7 @@ mCompositionStart
 ;
 compNewEnd
 =
-PR_MIN
+NS_MIN
 (
 LONG
 (
@@ -4225,7 +4225,7 @@ mCompositionStart
 ;
 compNewStart
 =
-PR_MAX
+NS_MAX
 (
 acpStart
 mCompositionStart
@@ -4350,7 +4350,10 @@ BeginReading
 (
 )
 +
-PR_MAX
+NS_MAX
+<
+LONG
+>
 (
 compNewStart
 -
@@ -4419,7 +4422,7 @@ TS_E_INVALIDPOS
 ;
 length
 =
-PR_MIN
+NS_MIN
 (
 length
 event
@@ -6887,7 +6890,7 @@ mTextChange
 .
 acpStart
 =
-PR_MIN
+NS_MIN
 (
 mTextChange
 .
@@ -6902,7 +6905,7 @@ mTextChange
 .
 acpOldEnd
 =
-PR_MAX
+NS_MAX
 (
 mTextChange
 .
@@ -6917,7 +6920,7 @@ mTextChange
 .
 acpNewEnd
 =
-PR_MAX
+NS_MAX
 (
 mTextChange
 .

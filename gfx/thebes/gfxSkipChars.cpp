@@ -877,7 +877,10 @@ for
 PRUint32
 chars
 =
-PR_MIN
+NS_MIN
+<
+PRUint32
+>
 (
 255
 charCount

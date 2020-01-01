@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsAlgorithm
+.
+h
+"
+#
+include
+"
 prcpucfg
 .
 h
@@ -482,7 +489,7 @@ aStart
 ;
 end
 =
-PR_MIN
+NS_MIN
 (
 aEnd
 (
@@ -1074,7 +1081,10 @@ const
 PRUint32
 end
 =
-PR_MIN
+NS_MIN
+<
+PRUint32
+>
 (
 aEnd
 -
@@ -1371,7 +1381,10 @@ const
 PRUint32
 end
 =
-PR_MIN
+NS_MIN
+<
+PRUint32
+>
 (
 aEnd
 -

@@ -953,7 +953,10 @@ srcConsumed
 ;
 srcConsumed
 =
-PR_MAX
+NS_MAX
+<
+PRUint32
+>
 (
 srcConsumed
 0

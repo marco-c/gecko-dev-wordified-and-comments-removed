@@ -761,7 +761,7 @@ else
 int
 lineSize
 =
-PR_MIN
+NS_MIN
 (
 other
 -

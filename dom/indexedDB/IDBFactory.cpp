@@ -2869,7 +2869,7 @@ GetIndexedDBQuota
 return
 PRUint32
 (
-PR_MAX
+NS_MAX
 (
 gIndexedDBQuota
 0
@@ -4709,7 +4709,7 @@ j
 ;
 mLastIndexId
 =
-PR_MAX
+NS_MAX
 (
 indexInfo
 .
@@ -4720,7 +4720,7 @@ mLastIndexId
 }
 mLastObjectStoreId
 =
-PR_MAX
+NS_MAX
 (
 objectStoreInfo
 -

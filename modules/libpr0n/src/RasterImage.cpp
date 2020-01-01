@@ -7303,7 +7303,7 @@ GetIsPaletted
 PRInt32
 width
 =
-PR_MIN
+NS_MIN
 (
 aSrcRect
 .
@@ -7320,7 +7320,7 @@ x
 PRInt32
 height
 =
-PR_MIN
+NS_MIN
 (
 aSrcRect
 .
@@ -9802,7 +9802,7 @@ NS_OK
 PRUint32
 bytesToDecode
 =
-PR_MIN
+NS_MIN
 (
 aMaxBytes
 mSourceData
