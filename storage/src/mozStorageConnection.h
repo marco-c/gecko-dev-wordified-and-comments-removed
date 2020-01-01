@@ -203,6 +203,9 @@ nsIThread
 >
 mAsyncExecutionThread
 ;
+PRBool
+mAsyncExecutionThreadShuttingDown
+;
 PRLock
 *
 mTransactionMutex

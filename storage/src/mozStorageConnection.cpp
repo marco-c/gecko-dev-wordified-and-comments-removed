@@ -197,6 +197,10 @@ AsyncExecutionMutex
 "
 )
 )
+mAsyncExecutionThreadShuttingDown
+(
+PR_FALSE
+)
 mTransactionMutex
 (
 nsAutoLock
@@ -868,6 +872,11 @@ mutex
 mAsyncExecutionMutex
 )
 ;
+mAsyncExecutionThreadShuttingDown
+=
+PR_TRUE
+;
+}
 if
 (
 mAsyncExecutionThread
@@ -884,7 +893,6 @@ mAsyncExecutionThread
 =
 nsnull
 ;
-}
 }
 #
 ifdef
@@ -3869,6 +3877,13 @@ mutex
 (
 mAsyncExecutionMutex
 )
+;
+if
+(
+mAsyncExecutionThreadShuttingDown
+)
+return
+nsnull
 ;
 if
 (
