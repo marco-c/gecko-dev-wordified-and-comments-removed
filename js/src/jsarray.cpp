@@ -4980,7 +4980,6 @@ valtype
 =
 GetValueType
 (
-cx
 vector
 [
 i

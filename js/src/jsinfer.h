@@ -1031,9 +1031,6 @@ inline
 Type
 GetValueType
 (
-JSContext
-*
-cx
 const
 Value
 &
@@ -1535,7 +1532,7 @@ inline
 void
 addType
 (
-JSContext
+ExclusiveContext
 *
 cx
 Type
@@ -1546,7 +1543,7 @@ inline
 void
 setOwnProperty
 (
-JSContext
+ExclusiveContext
 *
 cx
 bool
@@ -2880,7 +2877,7 @@ HeapTypeSet
 *
 getProperty
 (
-JSContext
+ExclusiveContext
 *
 cx
 jsid
@@ -2894,11 +2891,11 @@ HeapTypeSet
 *
 maybeGetProperty
 (
-jsid
-id
-JSContext
+ExclusiveContext
 *
 cx
+jsid
+id
 )
 ;
 inline
@@ -2919,7 +2916,7 @@ i
 bool
 addProperty
 (
-JSContext
+ExclusiveContext
 *
 cx
 jsid
@@ -2933,7 +2930,7 @@ pprop
 bool
 addDefiniteProperties
 (
-JSContext
+ExclusiveContext
 *
 cx
 JSObject
@@ -2962,7 +2959,7 @@ proto
 void
 addPropertyType
 (
-JSContext
+ExclusiveContext
 *
 cx
 jsid
@@ -2974,7 +2971,7 @@ type
 void
 addPropertyType
 (
-JSContext
+ExclusiveContext
 *
 cx
 jsid
@@ -2988,7 +2985,7 @@ value
 void
 addPropertyType
 (
-JSContext
+ExclusiveContext
 *
 cx
 const
@@ -3002,7 +2999,7 @@ type
 void
 addPropertyType
 (
-JSContext
+ExclusiveContext
 *
 cx
 const
@@ -3018,7 +3015,7 @@ value
 void
 markPropertyConfigured
 (
-JSContext
+ExclusiveContext
 *
 cx
 jsid
@@ -3028,7 +3025,7 @@ id
 void
 markStateChange
 (
-JSContext
+ExclusiveContext
 *
 cx
 )
@@ -3036,7 +3033,7 @@ cx
 void
 setFlags
 (
-JSContext
+ExclusiveContext
 *
 cx
 TypeObjectFlags
@@ -3046,7 +3043,7 @@ flags
 void
 markUnknown
 (
-JSContext
+ExclusiveContext
 *
 cx
 )
@@ -3054,7 +3051,7 @@ cx
 void
 clearNewScript
 (
-JSContext
+ExclusiveContext
 *
 cx
 )
@@ -4107,7 +4104,7 @@ private
 void
 setTypeToHomogenousArray
 (
-JSContext
+ExclusiveContext
 *
 cx
 JSObject
@@ -4122,7 +4119,7 @@ public
 void
 fixArrayType
 (
-JSContext
+ExclusiveContext
 *
 cx
 JSObject
@@ -4133,7 +4130,7 @@ obj
 void
 fixObjectType
 (
-JSContext
+ExclusiveContext
 *
 cx
 JSObject
@@ -4144,7 +4141,7 @@ obj
 void
 fixRestArgumentsType
 (
-JSContext
+ExclusiveContext
 *
 cx
 JSObject
@@ -4285,7 +4282,7 @@ fop
 void
 setPendingNukeTypes
 (
-JSContext
+ExclusiveContext
 *
 cx
 )

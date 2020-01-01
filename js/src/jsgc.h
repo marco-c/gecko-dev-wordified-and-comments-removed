@@ -5278,7 +5278,7 @@ public
 :
 AutoSuppressGC
 (
-JSContext
+ExclusiveContext
 *
 cx
 )

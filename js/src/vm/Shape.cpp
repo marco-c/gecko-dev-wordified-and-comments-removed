@@ -4755,7 +4755,7 @@ JSObject
 :
 rollbackProperties
 (
-JSContext
+ExclusiveContext
 *
 cx
 uint32_t
