@@ -1828,6 +1828,11 @@ inherit
 )
 CSS_KEY
 (
+initial
+initial
+)
+CSS_KEY
+(
 inline
 inline
 )
