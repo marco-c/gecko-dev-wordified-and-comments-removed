@@ -2600,6 +2600,8 @@ unichar
 "
 )
 ;
+/
+/
 ok
 (
 found
@@ -3699,6 +3701,8 @@ expected
 .
 int
 "
+non
+-
 instant
 reset
 element
@@ -3718,6 +3722,8 @@ expected
 .
 bool
 "
+non
+-
 instant
 reset
 element
@@ -3737,6 +3743,8 @@ expected
 .
 string
 "
+non
+-
 instant
 reset
 element
@@ -3756,6 +3764,8 @@ expected
 .
 wstring_data
 "
+non
+-
 instant
 reset
 element
@@ -3775,6 +3785,8 @@ expected
 .
 unichar_data
 "
+non
+-
 instant
 reset
 element
@@ -3782,6 +3794,8 @@ unichar
 "
 )
 ;
+/
+/
 ok
 (
 found
@@ -3794,6 +3808,8 @@ expected
 .
 file_data
 "
+non
+-
 instant
 reset
 element
