@@ -2468,7 +2468,7 @@ types
 :
 TypeObject
 *
-getTypeFunctionPrototype
+getTypePrototypeNewObject
 (
 JSContext
 *
@@ -2484,7 +2484,7 @@ types
 :
 TypeObject
 *
-getTypeFunctionNewObject
+getTypePrototype
 (
 JSContext
 *

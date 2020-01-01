@@ -7038,9 +7038,10 @@ char
 *
 name
 JSBool
-monitorNeeded
-JSBool
-isArray
+unknownProperties
+JSTypeObject
+*
+proto
 )
 ;
 extern

@@ -4722,8 +4722,6 @@ fp
 thisValue
 (
 )
-false
-true
 )
 ;
 AutoPreserveEnumerators
