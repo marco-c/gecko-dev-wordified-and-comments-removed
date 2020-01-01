@@ -118,6 +118,7 @@ imgIRequest
 ;
 [
 ChromeOnly
+OverrideBuiltins
 ]
 interface
 ImageDocument
