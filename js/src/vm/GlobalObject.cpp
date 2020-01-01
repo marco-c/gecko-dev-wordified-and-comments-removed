@@ -932,12 +932,10 @@ NULL
 if
 (
 !
-objectProto
--
->
 setNewTypeUnknown
 (
 cx
+objectProto
 )
 )
 return
@@ -1224,12 +1222,10 @@ NULL
 if
 (
 !
-functionProto
--
->
 setNewTypeUnknown
 (
 cx
+functionProto
 )
 )
 return
