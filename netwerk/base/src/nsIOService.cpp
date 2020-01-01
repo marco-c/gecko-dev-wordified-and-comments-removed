@@ -940,6 +940,15 @@ gIOService
 =
 this
 ;
+if
+(
+XRE_GetProcessType
+(
+)
+=
+=
+GeckoProcessType_Default
+)
 mNetworkLinkService
 =
 do_GetService
