@@ -552,6 +552,10 @@ test_nodelists
 .
 xul
 \
+test_getweakmapkeys
+.
+xul
+\
 (
 NULL
 )
