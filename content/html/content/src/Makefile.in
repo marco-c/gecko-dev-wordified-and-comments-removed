@@ -146,6 +146,10 @@ HTMLBRElement
 .
 h
 \
+HTMLButtonElement
+.
+h
+\
 HTMLDataListElement
 .
 h
@@ -324,7 +328,7 @@ HTMLBodyElement
 .
 cpp
 \
-nsHTMLButtonElement
+HTMLButtonElement
 .
 cpp
 \
