@@ -13219,12 +13219,6 @@ gInPrintPreviewMode
 =
 false
 ;
-FullZoom
-.
-setSettingValue
-(
-)
-;
 toggleAffectedChrome
 (
 false
@@ -22258,6 +22252,7 @@ onLocationChange
 gBrowser
 .
 currentURI
+true
 )
 ;
 var
@@ -22598,6 +22593,7 @@ FullZoom
 onLocationChange
 (
 aLocationURI
+false
 aBrowser
 )
 ;
