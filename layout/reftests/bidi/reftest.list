@@ -327,12 +327,6 @@ mixedChartype
 ref
 .
 html
-random
--
-if
-(
-winWidget
-)
 =
 =
 mixedChartype
@@ -347,12 +341,6 @@ mixedChartype
 ref
 .
 html
-random
--
-if
-(
-winWidget
-)
 =
 =
 mixedChartype

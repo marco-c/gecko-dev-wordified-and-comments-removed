@@ -1171,12 +1171,7 @@ HB_DIRECTION_IS_FORWARD
 c
 -
 >
-buffer
--
->
-props
-.
-direction
+original_direction
 )
 )
 return
@@ -1868,6 +1863,11 @@ hb_set_unicode_props
 c
 )
 ;
+hb_ensure_native_direction
+(
+c
+)
+;
 hb_form_clusters
 (
 c
@@ -1880,11 +1880,6 @@ c
 ;
 {
 hb_mirror_chars
-(
-c
-)
-;
-hb_ensure_native_direction
 (
 c
 )
