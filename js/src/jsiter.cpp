@@ -4909,6 +4909,13 @@ jsid
 id
 )
 {
+id
+=
+js_CheckForStringIndex
+(
+id
+)
+;
 return
 SuppressDeletedPropertyHelper
 (
