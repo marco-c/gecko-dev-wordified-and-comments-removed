@@ -929,8 +929,8 @@ v
 ;
 }
 #
-ifdef
-DEBUG
+if
+1
 #
 undef
 BEFORE_GL_CALL
@@ -4608,8 +4608,8 @@ true
 )
 ;
 #
-ifdef
-DEBUG
+if
+1
 printf_stderr
 (
 "
@@ -4653,8 +4653,8 @@ mPlatformContext
 return
 ;
 #
-ifdef
-DEBUG
+if
+1
 printf_stderr
 (
 "
@@ -9562,8 +9562,8 @@ EGLSurface
 surface
 ;
 #
-ifdef
-DEBUG
+if
+1
 sEGLLibrary
 .
 DumpEGLConfig
@@ -10521,8 +10521,8 @@ configs
 ]
 ;
 #
-ifdef
-DEBUG
+if
+1
 sEGLLibrary
 .
 DumpEGLConfig
