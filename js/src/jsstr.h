@@ -3994,7 +3994,7 @@ v
 )
 ;
 }
-extern
+inline
 bool
 ValueToStringBuffer
 (
