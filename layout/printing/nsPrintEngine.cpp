@@ -1802,6 +1802,14 @@ nsIDOMDocument
 aDoc
 )
 {
+nsRefPtr
+<
+nsPrintEngine
+>
+kungfuDeathGrip
+=
+this
+;
 nsresult
 rv
 =
