@@ -1890,6 +1890,13 @@ pango
 /
 pango
 -
+break
+.
+h
+pango
+/
+pango
+-
 fontmap
 .
 h
