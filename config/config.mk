@@ -443,10 +443,8 @@ most
 -
 once
 flag
-#
 ifdef
 INCLUDED_CONFIG_MK
-#
 (
 error
 Don
@@ -459,7 +457,6 @@ mk
 twice
 !
 )
-#
 endif
 INCLUDED_CONFIG_MK
 =

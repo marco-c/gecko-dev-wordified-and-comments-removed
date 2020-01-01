@@ -496,16 +496,6 @@ OS_ARCH
 )
 Linux
 )
-include
-(
-topsrcdir
-)
-/
-config
-/
-config
-.
-mk
 #
 need
 this
