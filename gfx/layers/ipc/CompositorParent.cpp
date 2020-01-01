@@ -590,10 +590,17 @@ mCompositorID
 )
 )
 ;
+if
+(
+!
+sCurrentCompositor
+)
+{
 sCurrentCompositor
 =
 this
 ;
+}
 }
 PlatformThreadId
 CompositorParent
