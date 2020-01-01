@@ -9768,13 +9768,8 @@ NS_OK
 ;
 }
 #
-ifdef
+ifndef
 WINCE
-return
-NS_OK
-;
-#
-endif
 if
 (
 isHTML
@@ -9849,6 +9844,8 @@ DFCS_PUSHED
 |
 DFCS_FLAT
 ;
+#
+endif
 return
 NS_OK
 ;
