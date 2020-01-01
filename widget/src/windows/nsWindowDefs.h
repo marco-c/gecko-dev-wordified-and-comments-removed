@@ -366,6 +366,15 @@ L
 MozillaDropShadowWindowClass
 "
 ;
+const
+LPCWSTR
+kClassNameTemp
+=
+L
+"
+MozillaTempWindowClass
+"
+;
 static
 const
 PRUint32
