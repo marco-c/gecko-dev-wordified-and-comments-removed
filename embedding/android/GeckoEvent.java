@@ -524,10 +524,6 @@ int
 mNativeWindow
 ;
 public
-int
-mTabId
-;
-public
 GeckoEvent
 (
 )
