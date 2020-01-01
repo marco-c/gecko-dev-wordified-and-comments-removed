@@ -5218,12 +5218,6 @@ return
 mGlobalJSObject
 ;
 }
-JSObject
-*
-GetPrototypeNoHelper
-(
-)
-;
 nsIPrincipal
 *
 GetPrincipal
@@ -5666,10 +5660,6 @@ JS
 :
 ObjectPtr
 mXBLScope
-;
-JSObject
-*
-mPrototypeNoHelper
 ;
 XPCContext
 *
