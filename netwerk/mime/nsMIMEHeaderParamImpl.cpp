@@ -1406,11 +1406,6 @@ RFC_5987_DECODING
 ;
 if
 (
-!
-needUnquote
-&
-&
-(
 caseB
 |
 |
@@ -1419,7 +1414,6 @@ caseCorDStart
 &
 &
 acceptContinuations
-)
 )
 )
 {

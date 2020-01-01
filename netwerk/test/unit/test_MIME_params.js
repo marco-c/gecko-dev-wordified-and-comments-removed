@@ -1651,9 +1651,9 @@ DQUOTE
 "
 attachment
 "
-Cr
-.
-NS_ERROR_INVALID_ARG
+"
+A
+"
 ]
 [
 "
