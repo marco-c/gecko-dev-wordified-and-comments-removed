@@ -6572,12 +6572,6 @@ isArray
 ;
 inline
 bool
-isTypeCallerMonitored
-(
-)
-;
-inline
-bool
 markTypeCallerUnexpected
 (
 js
