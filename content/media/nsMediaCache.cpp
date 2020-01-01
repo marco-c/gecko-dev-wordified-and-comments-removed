@@ -551,6 +551,15 @@ GetResourceID
 =
 =
 mResourceID
+&
+&
+!
+stream
+-
+>
+IsClosed
+(
+)
 )
 return
 stream
