@@ -542,14 +542,9 @@ test_actions_aria
 .
 html
 \
-(
-warning
 test_actions_inputs
 .
 html
-temporarily
-disabled
-)
 \
 test_actions
 .
@@ -620,10 +615,6 @@ html
 test_events_caretmove
 .
 html
-\
-test_events_focus
-.
-xul
 \
 test_events_mutation
 .
@@ -743,10 +734,6 @@ html
 test_relations
 .
 xul
-\
-test_relations_table
-.
-html
 \
 test_role_nsHyperTextAcc
 .
