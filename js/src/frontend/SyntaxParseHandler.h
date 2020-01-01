@@ -943,6 +943,17 @@ kid
 )
 {
 }
+bool
+isUnparenthesizedYield
+(
+Node
+pn
+)
+{
+return
+false
+;
+}
 void
 setOp
 (
