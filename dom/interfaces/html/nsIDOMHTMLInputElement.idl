@@ -372,6 +372,13 @@ double
 valueAsNumber
 ;
 [
+implicit_jscontext
+]
+attribute
+jsval
+valueAsDate
+;
+[
 optional_argc
 ]
 void

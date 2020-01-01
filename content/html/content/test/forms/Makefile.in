@@ -247,6 +247,10 @@ test_input_sanitization
 .
 html
 \
+test_valueasdate_attribute
+.
+html
+\
 (
 NULL
 )
