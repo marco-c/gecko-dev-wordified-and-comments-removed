@@ -864,9 +864,6 @@ nsIFile
 >
 mCustomProfileDir
 ;
-nsCString
-mClientID
-;
 nsCOMPtr
 <
 nsIApplicationCache
