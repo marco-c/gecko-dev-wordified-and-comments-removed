@@ -587,6 +587,14 @@ window_keys
 .
 xul
 \
+test_preferences_beforeaccept
+.
+xul
+\
+window_preferences_beforeaccept
+.
+xul
+\
 (
 NULL
 )
