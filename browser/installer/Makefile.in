@@ -450,8 +450,6 @@ regxpcom
 xpcshell
 *
 \
-js
-\
 xpidl
 *
 \
