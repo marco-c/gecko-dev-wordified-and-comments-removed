@@ -31,7 +31,7 @@ Components
 .
 interfaces
 .
-nsIAppStartup_MOZILLA_2_0
+nsIAppStartup
 )
 .
 getStartupInfo
