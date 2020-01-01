@@ -627,6 +627,12 @@ TArrayOfuint8_t
 AutoSafeJSContext
 cx
 ;
+JSAutoRequest
+ar
+(
+cx
+)
+;
 JS
 :
 :
