@@ -2533,7 +2533,7 @@ nsHTMLInputElement
 Multiple
 multiple
 )
-NS_IMPL_INT_ATTR
+NS_IMPL_NON_NEGATIVE_INT_ATTR
 (
 nsHTMLInputElement
 MaxLength

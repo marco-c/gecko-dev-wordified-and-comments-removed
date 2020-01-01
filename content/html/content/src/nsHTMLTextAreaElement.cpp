@@ -1234,7 +1234,7 @@ nsHTMLTextAreaElement
 Disabled
 disabled
 )
-NS_IMPL_INT_ATTR
+NS_IMPL_NON_NEGATIVE_INT_ATTR
 (
 nsHTMLTextAreaElement
 MaxLength
