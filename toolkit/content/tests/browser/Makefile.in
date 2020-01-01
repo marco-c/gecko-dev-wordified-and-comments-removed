@@ -132,6 +132,10 @@ browser_default_image_filename
 .
 js
 \
+browser_Troubleshoot
+.
+js
+\
 (
 NULL
 )

@@ -480,6 +480,10 @@ WindowDraggingUtils
 .
 jsm
 \
+Troubleshoot
+.
+jsm
+\
 (
 NULL
 )
