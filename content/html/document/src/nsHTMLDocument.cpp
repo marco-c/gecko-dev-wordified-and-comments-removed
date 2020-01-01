@@ -12709,8 +12709,10 @@ Flush_Style
 )
 ;
 }
+nsCOMPtr
+<
 nsPIDOMWindow
-*
+>
 window
 =
 GetWindow
