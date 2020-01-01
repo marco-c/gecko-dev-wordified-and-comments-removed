@@ -230,6 +230,14 @@ test_browserElement_inproc_GetScreenshot
 .
 html
 \
+browserElement_BadScreenshot
+.
+js
+\
+test_browserElement_inproc_BadScreenshot
+.
+html
+\
 browserElement_SetVisible
 .
 js
@@ -780,6 +788,10 @@ test_browserElement_oop_Iconchange
 html
 \
 test_browserElement_oop_GetScreenshot
+.
+html
+\
+test_browserElement_oop_BadScreenshot
 .
 html
 \

@@ -100,6 +100,8 @@ iframe
 .
 getScreenshot
 (
+1000
+1000
 )
 .
 onsuccess
@@ -164,6 +166,8 @@ iframe
 .
 getScreenshot
 (
+1000
+1000
 )
 .
 onsuccess
