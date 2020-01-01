@@ -145,7 +145,11 @@ if
 aThreadClient
 )
 {
-dump
+Components
+.
+utils
+.
+reportError
 (
 "
 Couldn
@@ -160,11 +164,6 @@ thread
 aResponse
 .
 error
-+
-"
-\
-n
-"
 )
 ;
 return

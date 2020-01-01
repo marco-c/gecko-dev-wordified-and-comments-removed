@@ -141,16 +141,6 @@ frames
 0
 ]
 ;
-dump
-(
-JSON
-.
-stringify
-(
-frame
-)
-)
-;
 do_check_eq
 (
 objActor1
