@@ -3990,9 +3990,6 @@ nsIScriptEventManager
 >
 mScriptEventManager
 ;
-nsString
-mBaseTarget
-;
 PRUint32
 mUpdateNestLevel
 ;
