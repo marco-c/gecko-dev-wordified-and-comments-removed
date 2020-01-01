@@ -107,6 +107,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSITHREADPOOLLISTENER
 private
 :
+virtual
 ~
 TransactionThreadPoolListener
 (
