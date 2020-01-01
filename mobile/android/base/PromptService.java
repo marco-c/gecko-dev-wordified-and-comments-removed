@@ -233,6 +233,17 @@ json
 .
 JSONObject
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+gfx
+.
+LayerController
+;
 public
 class
 PromptService
