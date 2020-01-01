@@ -466,6 +466,10 @@ nsICRLInfo
 .
 idl
 \
+nsIX509Cert
+.
+idl
+\
 nsIX509CertDB
 .
 idl
@@ -561,6 +565,10 @@ nsITokenDialogs
 idl
 \
 nsITokenPasswordDialogs
+.
+idl
+\
+nsISSLStatus
 .
 idl
 \
