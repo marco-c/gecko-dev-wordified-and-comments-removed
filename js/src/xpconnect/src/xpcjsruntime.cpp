@@ -3273,7 +3273,10 @@ cx
 )
 )
 {
-JS_TriggerOperationCallback
+js
+:
+:
+TriggerOperationCallback
 (
 cx
 )
