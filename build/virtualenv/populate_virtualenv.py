@@ -496,10 +496,6 @@ topsrcdir
                                            
 self
 .
-topobjdir
-                                           
-self
-.
 virtualenv_root
                                            
 self
