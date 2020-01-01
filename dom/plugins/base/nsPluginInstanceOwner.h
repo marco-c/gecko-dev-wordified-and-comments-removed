@@ -1017,15 +1017,6 @@ value
 ifdef
 ANDROID
 void
-AddPluginView
-(
-const
-gfxRect
-&
-aRect
-)
-;
-void
 RemovePluginView
 (
 )
