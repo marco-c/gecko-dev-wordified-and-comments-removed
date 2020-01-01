@@ -289,9 +289,16 @@ ret
 var
 reply_len
 =
+ctypes
+.
+UInt64
+.
+lo
+(
 len
 .
 value
+)
 ;
 if
 (
