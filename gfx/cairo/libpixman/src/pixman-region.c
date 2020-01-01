@@ -47,13 +47,6 @@ private
 .
 h
 "
-#
-include
-"
-pixman
-.
-h
-"
 typedef
 struct
 pixman_region16_point

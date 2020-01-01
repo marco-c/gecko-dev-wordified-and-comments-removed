@@ -35,13 +35,6 @@ h
 include
 "
 pixman
-.
-h
-"
-#
-include
-"
-pixman
 -
 private
 .

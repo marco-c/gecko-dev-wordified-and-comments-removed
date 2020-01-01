@@ -96,6 +96,9 @@ LSBFirst
 #
 endif
 #
+undef
+DEBUG
+#
 define
 DEBUG
 0
@@ -185,6 +188,11 @@ INT16_MIN
 1
 )
 #
+endif
+#
+ifndef
+INT16_MAX
+#
 define
 INT16_MAX
 (
@@ -205,6 +213,11 @@ INT32_MIN
 1
 )
 #
+endif
+#
+ifndef
+INT32_MAX
+#
 define
 INT32_MAX
 (
@@ -221,6 +234,11 @@ UINT32_MIN
 (
 0
 )
+#
+endif
+#
+ifndef
+UINT32_MAX
 #
 define
 UINT32_MAX
