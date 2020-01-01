@@ -429,6 +429,16 @@ mk
 MODULE
 =
 test_necko
+EXTRA_COMPONENTS
+=
+\
+httpd
+.
+js
+\
+(
+NULL
+)
 XPIDLSRCS
 =
 \
