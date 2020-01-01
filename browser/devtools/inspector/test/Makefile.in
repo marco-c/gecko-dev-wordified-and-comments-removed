@@ -206,6 +206,10 @@ browser_inspector_bug_650804_search
 .
 html
 \
+browser_inspector_bug_840156_destroy_after_navigation
+.
+js
+\
 head
 .
 js
