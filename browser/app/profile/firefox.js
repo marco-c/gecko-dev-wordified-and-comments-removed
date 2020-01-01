@@ -2175,7 +2175,7 @@ urlbar
 .
 delay
 "
-0
+50
 )
 ;
 pref
