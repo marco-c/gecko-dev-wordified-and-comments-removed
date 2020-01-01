@@ -220,6 +220,10 @@ test_fromUserInput
 .
 html
 \
+test_label
+.
+xul
+\
 test_menu
 .
 xul

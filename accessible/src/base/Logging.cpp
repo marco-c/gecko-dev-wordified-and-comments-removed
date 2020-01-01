@@ -365,7 +365,7 @@ MOZ_PROFILING
 !
 defined
 (
-MOZ_DEBUG
+DEBUG
 )
 |
 |

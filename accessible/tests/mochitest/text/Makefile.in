@@ -96,6 +96,10 @@ test_hypertext
 .
 html
 \
+test_label
+.
+xul
+\
 test_passwords
 .
 html
