@@ -6590,6 +6590,11 @@ void
 handler
 )
 ;
+void
+handleFailureWithHandlerTail
+(
+)
+;
 public
 :
 void

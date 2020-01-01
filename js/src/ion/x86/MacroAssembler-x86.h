@@ -6117,6 +6117,11 @@ handler
 )
 ;
 void
+handleFailureWithHandlerTail
+(
+)
+;
+void
 makeFrameDescriptor
 (
 Register
