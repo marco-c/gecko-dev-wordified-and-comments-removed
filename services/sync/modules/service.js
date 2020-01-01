@@ -944,6 +944,11 @@ WeaveSvc
 prototype
 =
 {
+_lock
+:
+Utils
+.
+lock
 _localLock
 :
 Wrap
