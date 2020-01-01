@@ -283,7 +283,7 @@ class
 imgIRequest
 ;
 class
-imgILoader
+imgLoader
 ;
 class
 imgICache
@@ -1491,7 +1491,7 @@ aRequest
 )
 ;
 static
-imgILoader
+imgLoader
 *
 GetImgLoaderForDocument
 (
@@ -1501,7 +1501,7 @@ aDoc
 )
 ;
 static
-imgILoader
+imgLoader
 *
 GetImgLoaderForChannel
 (
@@ -4533,12 +4533,12 @@ InitImgLoader
 )
 ;
 static
-imgILoader
+imgLoader
 *
 sImgLoader
 ;
 static
-imgILoader
+imgLoader
 *
 sPrivateImgLoader
 ;

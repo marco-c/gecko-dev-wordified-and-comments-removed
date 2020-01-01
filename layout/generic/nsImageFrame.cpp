@@ -309,7 +309,7 @@ h
 #
 include
 "
-imgILoader
+imgLoader
 .
 h
 "
@@ -8514,9 +8514,9 @@ realURI
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-imgILoader
+imgLoader
 >
 il
 =
