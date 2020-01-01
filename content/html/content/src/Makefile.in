@@ -498,6 +498,10 @@ NULL
 CPPSRCS
 =
 \
+nsClientRect
+.
+cpp
+\
 nsGenericHTMLElement
 .
 cpp
@@ -691,10 +695,6 @@ nsHTMLTextAreaElement
 cpp
 \
 nsHTMLTitleElement
-.
-cpp
-\
-nsTextRectangle
 .
 cpp
 \

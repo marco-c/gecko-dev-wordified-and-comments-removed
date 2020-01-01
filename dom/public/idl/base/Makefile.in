@@ -541,11 +541,11 @@ nsIDOMNSFeatureFactory
 .
 idl
 \
-nsIDOMTextRectangle
+nsIDOMClientRect
 .
 idl
 \
-nsIDOMTextRectangleList
+nsIDOMClientRectList
 .
 idl
 \

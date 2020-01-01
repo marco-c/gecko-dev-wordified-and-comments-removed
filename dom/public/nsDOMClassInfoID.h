@@ -300,8 +300,8 @@ eDOMClassInfo_DOMParser_id
 eDOMClassInfo_XMLSerializer_id
 eDOMClassInfo_XMLHttpProgressEvent_id
 eDOMClassInfo_XMLHttpRequest_id
-eDOMClassInfo_TextRectangle_id
-eDOMClassInfo_TextRectangleList_id
+eDOMClassInfo_ClientRect_id
+eDOMClassInfo_ClientRectList_id
 #
 if
 defined
