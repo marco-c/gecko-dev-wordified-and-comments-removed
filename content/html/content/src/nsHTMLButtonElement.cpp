@@ -850,8 +850,16 @@ aIsFocusable
 #
 ifdef
 XP_MACOSX
+(
 !
 aWithMouse
+|
+|
+nsFocusManager
+:
+:
+sMouseFocusesFormControl
+)
 &
 &
 #

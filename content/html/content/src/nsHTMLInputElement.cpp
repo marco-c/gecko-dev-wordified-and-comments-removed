@@ -10814,6 +10814,12 @@ defaultFocusable
 =
 !
 aWithMouse
+|
+|
+nsFocusManager
+:
+:
+sMouseFocusesFormControl
 ;
 #
 else

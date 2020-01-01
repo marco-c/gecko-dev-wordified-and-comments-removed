@@ -1081,6 +1081,16 @@ pref
 "
 accessibility
 .
+mouse_focuses_formcontrol
+"
+false
+)
+;
+pref
+(
+"
+accessibility
+.
 typeaheadfind
 "
 true

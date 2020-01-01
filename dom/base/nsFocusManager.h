@@ -153,6 +153,10 @@ nsIContent
 aContent
 )
 ;
+static
+PRBool
+sMouseFocusesFormControl
+;
 protected
 :
 nsFocusManager
