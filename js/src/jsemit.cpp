@@ -258,10 +258,6 @@ sizeof
 JSTryNote
 )
 )
-using
-namespace
-js
-;
 static
 JSBool
 NewTryNote
@@ -870,7 +866,7 @@ numBuf
 12
 ]
 ;
-TokenStream
+JSTokenStream
 *
 ts
 ;
@@ -4225,7 +4221,7 @@ growth
 #
 ifdef
 DEBUG_brendan
-TokenStream
+JSTokenStream
 *
 ts
 =
@@ -8394,7 +8390,7 @@ slot
 SLOTNO_LIMIT
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 CG_TS
@@ -18053,7 +18049,7 @@ JS_BIT
 )
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 CG_TS
@@ -19842,7 +19838,7 @@ pc
 JSOp
 op
 ;
-TokenType
+JSTokenType
 type
 ;
 uint32
@@ -21348,7 +21344,7 @@ TCF_IN_FOR_INIT
 ;
 if
 (
-TokenTypeIsDecl
+TOKEN_TYPE_IS_DECL
 (
 type
 )
@@ -21805,7 +21801,7 @@ isConst
 )
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 CG_TS
@@ -22379,12 +22375,12 @@ JS_FALSE
 ;
 if
 (
-TokenTypeIsDecl
-(
-PN_TYPE
+TOKEN_TYPE_IS_DECL
 (
 pn3
-)
+-
+>
+pn_type
 )
 )
 {
@@ -24639,7 +24635,7 @@ TCF_IN_FUNCTION
 )
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 CG_TS
@@ -25269,7 +25265,7 @@ lineno
 if
 (
 !
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 CG_TS
@@ -26132,7 +26128,7 @@ pn2
 JSOP_SETNAME
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 TS
@@ -29986,7 +29982,7 @@ pn_xflags
 PNX_DESTRUCT
 )
 {
-ReportCompileErrorNumber
+js_ReportCompileErrorNumber
 (
 cx
 CG_TS
