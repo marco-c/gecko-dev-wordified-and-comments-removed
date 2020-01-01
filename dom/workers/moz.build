@@ -180,11 +180,6 @@ Navigator
 h
 '
 '
-TextEncoder
-.
-h
-'
-'
 URL
 .
 h
@@ -276,11 +271,6 @@ cpp
 '
 '
 ScriptLoader
-.
-cpp
-'
-'
-TextEncoder
 .
 cpp
 '
