@@ -104,6 +104,10 @@ nsIDOMNavigatorSystemMessages
 .
 idl
 \
+nsISystemMessagesInternal
+.
+idl
+\
 (
 NULL
 )
