@@ -674,8 +674,6 @@ DATE_CO_FLAGS
 mozilla
 /
 js
-/
-src
 fi
 cd
 mozilla
