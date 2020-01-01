@@ -370,6 +370,7 @@ find
 (
 array
 predicate
+fallback
 )
 {
 var
@@ -417,6 +418,9 @@ index
 1
 ;
 }
+return
+fallback
+;
 }
 exports
 .

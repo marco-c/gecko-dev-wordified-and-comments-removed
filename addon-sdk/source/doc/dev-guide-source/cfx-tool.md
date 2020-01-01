@@ -5064,6 +5064,10 @@ com
 addon
 /
 latest
+/
+pluginName
+.
+xpi
 -
 -
 update
@@ -5080,6 +5084,12 @@ com
 addon
 /
 update_rdf
+/
+pluginName
+.
+update
+.
+rdf
 <
 /
 pre
@@ -5107,6 +5117,12 @@ com
 addon
 /
 update_rdf
+/
+pluginName
+.
+update
+.
+rdf
 as
 the
 value
@@ -5129,6 +5145,10 @@ com
 addon
 /
 latest
+/
+pluginName
+.
+xpi
 as
 the
 value
