@@ -427,7 +427,6 @@ mk
 MODULE
 =
 test_dm
-#
 XPCSHELL_TESTS
 =
 unit
