@@ -748,6 +748,12 @@ PRUint64
 aProcessId
 )
 ;
+ClearMessageList
+(
+PRInt32
+aListId
+)
+;
 __delete__
 (
 )

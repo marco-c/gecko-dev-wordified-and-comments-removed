@@ -1303,6 +1303,13 @@ PRUint64
 aProcessId
 )
 ;
+void
+ClearMessageList
+(
+PRInt32
+aListId
+)
+;
 bool
 IsTablet
 (
@@ -1555,6 +1562,9 @@ jCreateMessageList
 ;
 jmethodID
 jGetNextMessageinList
+;
+jmethodID
+jClearMessageList
 ;
 jclass
 jEGLSurfaceImplClass
