@@ -24,6 +24,8 @@ enum
 DeliveryState
 {
 eDeliveryState_Sent
+=
+0
 eDeliveryState_Received
 eDeliveryState_Unknown
 eDeliveryState_EndGuard
