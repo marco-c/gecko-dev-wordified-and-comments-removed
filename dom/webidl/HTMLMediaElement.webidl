@@ -538,11 +538,6 @@ MediaStream
 ?
 mozSrcObject
 ;
-readonly
-attribute
-double
-initialTime
-;
 attribute
 boolean
 mozPreservesPitch
