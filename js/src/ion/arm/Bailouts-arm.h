@@ -52,6 +52,8 @@ BailoutStack
 uintptr_t
 frameClassId_
 ;
+public
+:
 union
 {
 uintptr_t
@@ -62,6 +64,8 @@ tableOffset_
 ;
 }
 ;
+private
+:
 double
 fpregs_
 [
@@ -208,6 +212,9 @@ BailoutStack
 {
 uintptr_t
 snapshotOffset_
+;
+uint32
+pad
 ;
 public
 :
