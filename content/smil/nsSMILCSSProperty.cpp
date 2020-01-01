@@ -727,6 +727,9 @@ case
 eCSSProperty_color_interpolation_filters
 :
 case
+eCSSProperty_cursor
+:
+case
 eCSSProperty_display
 :
 case
