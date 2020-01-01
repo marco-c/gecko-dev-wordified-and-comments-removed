@@ -2101,6 +2101,13 @@ ClearBrokenState
 (
 )
 ;
+if
+(
+LoadingEnabled
+(
+)
+)
+{
 nsContentUtils
 :
 :
@@ -2121,6 +2128,7 @@ MaybeLoadImage
 )
 )
 ;
+}
 }
 return
 rv
