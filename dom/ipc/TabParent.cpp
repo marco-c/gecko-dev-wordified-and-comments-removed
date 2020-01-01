@@ -1862,13 +1862,6 @@ event
 ;
 if
 (
-sEventCapturer
-!
-=
-this
-&
-&
-(
 event
 .
 message
@@ -1883,7 +1876,6 @@ message
 =
 =
 NS_TOUCH_CANCEL
-)
 )
 {
 for
@@ -1924,6 +1916,7 @@ i
 >
 mChanged
 )
+{
 e
 .
 touches
@@ -1933,6 +1926,7 @@ RemoveElementAt
 i
 )
 ;
+}
 }
 }
 MaybeForwardEventToRenderFrame
