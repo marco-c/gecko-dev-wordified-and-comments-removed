@@ -84,6 +84,8 @@ NS_COM
 PRUint32
 nsCycleCollector_collect
 (
+PRBool
+aDrawGraph
 )
 ;
 NS_COM

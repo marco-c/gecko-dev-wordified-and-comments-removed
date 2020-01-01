@@ -2285,6 +2285,8 @@ nsDOMWindowUtils
 :
 GarbageCollect
 (
+PRBool
+aDrawGraphs
 )
 {
 #
@@ -2309,6 +2311,7 @@ nsJSContext
 :
 CC
 (
+aDrawGraphs
 )
 ;
 return

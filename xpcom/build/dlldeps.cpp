@@ -1437,6 +1437,7 @@ nsXPCOMCycleCollectionParticipant
 ;
 nsCycleCollector_collect
 (
+PR_FALSE
 )
 ;
 #
