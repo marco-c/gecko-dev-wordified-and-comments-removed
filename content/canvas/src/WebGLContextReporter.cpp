@@ -8,6 +8,13 @@ h
 #
 include
 "
+WebGLMemoryMultiReporterWrapper
+.
+h
+"
+#
+include
+"
 nsIMemoryReporter
 .
 h

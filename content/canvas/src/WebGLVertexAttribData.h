@@ -4,13 +4,6 @@ WEBGLVERTEXATTRIBDATA_H_
 #
 define
 WEBGLVERTEXATTRIBDATA_H_
-#
-include
-"
-WebGLObjectModel
-.
-h
-"
 namespace
 mozilla
 {

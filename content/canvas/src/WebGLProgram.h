@@ -14,13 +14,6 @@ h
 #
 include
 "
-WebGLShader
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
@@ -46,6 +39,12 @@ h
 namespace
 mozilla
 {
+class
+WebGLShader
+;
+class
+WebGLUniformInfo
+;
 typedef
 nsDataHashtable
 <

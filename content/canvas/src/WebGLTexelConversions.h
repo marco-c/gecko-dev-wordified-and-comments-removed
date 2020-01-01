@@ -15,7 +15,7 @@ endif
 #
 include
 "
-WebGLTexture
+WebGLTypes
 .
 h
 "

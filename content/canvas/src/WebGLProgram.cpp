@@ -8,6 +8,13 @@ h
 #
 include
 "
+WebGLShader
+.
+h
+"
+#
+include
+"
 WebGLProgram
 .
 h

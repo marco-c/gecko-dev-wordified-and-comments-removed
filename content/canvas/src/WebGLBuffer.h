@@ -7,6 +7,13 @@ WEBGLBUFFER_H_
 #
 include
 "
+WebGLObjectModel
+.
+h
+"
+#
+include
+"
 WebGLElementArrayCache
 .
 h
@@ -14,7 +21,7 @@ h
 #
 include
 "
-WebGLObjectModel
+GLDefs
 .
 h
 "
@@ -37,6 +44,9 @@ h
 namespace
 mozilla
 {
+class
+WebGLElementArrayCache
+;
 class
 WebGLBuffer
 MOZ_FINAL

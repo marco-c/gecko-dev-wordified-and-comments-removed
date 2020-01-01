@@ -8,6 +8,13 @@ h
 #
 include
 "
+WebGLTexture
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
