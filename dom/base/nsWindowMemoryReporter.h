@@ -105,6 +105,9 @@ mLayoutStyleSets
 size_t
 mLayoutTextRuns
 ;
+size_t
+mLayoutPresContext
+;
 }
 ;
 class

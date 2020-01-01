@@ -3044,6 +3044,9 @@ aStyleSetsSize
 size_t
 *
 aTextRunsSize
+size_t
+*
+aPresContextSize
 )
 const
 ;
