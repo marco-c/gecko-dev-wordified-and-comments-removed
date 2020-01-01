@@ -299,6 +299,12 @@ up
 "
 )
 ;
+docShell
+.
+isActive
+=
+true
+;
 sendAsyncMsg
 (
 "
