@@ -368,9 +368,6 @@ locales
 libs
 -
 *
-BOTH_MANIFESTS
-=
-1
 (
 MAKE
 )
@@ -388,9 +385,6 @@ PREF_DIR
 defaults
 /
 pref
-BOTH_MANIFESTS
-=
-1
 ifeq
 (
 (
@@ -422,9 +416,6 @@ XPI_NAME
 locale
 -
 *
-BOTH_MANIFESTS
-=
-1
 endif
 #
 Tailored

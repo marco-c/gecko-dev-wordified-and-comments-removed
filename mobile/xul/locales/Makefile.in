@@ -366,9 +366,6 @@ locales
 libs
 -
 *
-BOTH_MANIFESTS
-=
-1
 (
 MAKE
 )
@@ -386,9 +383,6 @@ PREF_DIR
 defaults
 /
 preferences
-BOTH_MANIFESTS
-=
-1
 #
 Tailored
 target

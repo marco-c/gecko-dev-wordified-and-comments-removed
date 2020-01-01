@@ -707,9 +707,6 @@ locales
 libs
 -
 *
-BOTH_MANIFESTS
-=
-1
 (
 MAKE
 )
@@ -734,9 +731,6 @@ XPI_NAME
 locale
 -
 *
-BOTH_MANIFESTS
-=
-1
 (
 MAKE
 )
@@ -761,9 +755,6 @@ XPI_NAME
 locale
 -
 *
-BOTH_MANIFESTS
-=
-1
 (
 MAKE
 )
@@ -786,9 +777,6 @@ XPI_NAME
 locale
 -
 *
-BOTH_MANIFESTS
-=
-1
 (
 MAKE
 )
@@ -806,9 +794,6 @@ PREF_DIR
 (
 PREF_DIR
 )
-BOTH_MANIFESTS
-=
-1
 (
 MAKE
 )
@@ -831,9 +816,6 @@ XPI_NAME
 locale
 -
 *
-BOTH_MANIFESTS
-=
-1
 repackage
 -
 win32
