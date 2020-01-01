@@ -742,8 +742,8 @@ aIsTabSwitch
 browser
 .
 contentDocument
-instanceof
-ImageDocument
+.
+mozSyntheticDocument
 )
 {
 ZoomManager
@@ -1008,8 +1008,8 @@ if
 browser
 .
 contentDocument
-instanceof
-ImageDocument
+.
+mozSyntheticDocument
 )
 return
 ;
@@ -1097,8 +1097,8 @@ gInPrintPreviewMode
 content
 .
 document
-instanceof
-ImageDocument
+.
+mozSyntheticDocument
 )
 return
 ;
@@ -1139,8 +1139,8 @@ if
 content
 .
 document
-instanceof
-ImageDocument
+.
+mozSyntheticDocument
 )
 )
 Services

@@ -1029,6 +1029,10 @@ browser_bug710878
 .
 js
 \
+browser_bug719271
+.
+js
+\
 browser_canonizeURL
 .
 js
@@ -1265,6 +1269,10 @@ js
 moz
 .
 png
+\
+video
+.
+ogg
 \
 test_bug435035
 .
