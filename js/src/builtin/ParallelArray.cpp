@@ -4421,7 +4421,9 @@ cx
 js_NewFunction
 (
 cx
-NULL
+NullPtr
+(
+)
 NonGenericMethod
 <
 lengthGetter
@@ -4429,7 +4431,9 @@ lengthGetter
 0
 0
 global
-NULL
+NullPtr
+(
+)
 )
 )
 ;
@@ -4440,7 +4444,9 @@ cx
 js_NewFunction
 (
 cx
-NULL
+NullPtr
+(
+)
 NonGenericMethod
 <
 dimensionsGetter
@@ -4448,7 +4454,9 @@ dimensionsGetter
 0
 0
 global
-NULL
+NullPtr
+(
+)
 )
 )
 ;

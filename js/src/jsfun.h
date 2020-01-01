@@ -1290,8 +1290,10 @@ js_NewFunction
 JSContext
 *
 cx
-JSObject
-*
+js
+:
+:
+HandleObject
 funobj
 JSNative
 native
@@ -1304,8 +1306,10 @@ js
 :
 HandleObject
 parent
-JSAtom
-*
+js
+:
+:
+HandleAtom
 atom
 js
 :
