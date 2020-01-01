@@ -2919,6 +2919,16 @@ NOT_FROM_PARSER
 nsresult
 rv
 =
+const_cast
+<
+nsHTMLInputElement
+*
+>
+(
+this
+)
+-
+>
 CopyInnerTo
 (
 it

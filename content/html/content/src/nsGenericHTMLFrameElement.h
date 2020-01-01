@@ -214,7 +214,6 @@ nsGenericElement
 *
 aDest
 )
-const
 ;
 NS_IMETHOD
 GetTabIndex

@@ -2693,6 +2693,16 @@ get
 nsresult
 rv
 =
+const_cast
+<
+nsXTFElementWrapper
+*
+>
+(
+this
+)
+-
+>
 CopyInnerTo
 (
 wrapper

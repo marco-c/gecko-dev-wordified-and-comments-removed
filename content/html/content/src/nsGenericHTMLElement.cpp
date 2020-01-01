@@ -1221,7 +1221,6 @@ nsGenericElement
 *
 aDst
 )
-const
 {
 nsresult
 rv

@@ -917,7 +917,6 @@ nsGenericElement
 *
 aDest
 )
-const
 ;
 virtual
 nsresult

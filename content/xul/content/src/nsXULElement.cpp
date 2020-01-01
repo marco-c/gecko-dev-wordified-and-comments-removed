@@ -1670,6 +1670,16 @@ NS_ERROR_OUT_OF_MEMORY
 nsresult
 rv
 =
+const_cast
+<
+nsXULElement
+*
+>
+(
+this
+)
+-
+>
 CopyInnerTo
 (
 element

@@ -945,7 +945,6 @@ nsGenericElement
 *
 aDest
 )
-const
 {
 if
 (

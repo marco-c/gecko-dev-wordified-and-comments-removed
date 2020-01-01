@@ -15921,7 +15921,6 @@ nsGenericElement
 *
 aDst
 )
-const
 {
 PRUint32
 i

@@ -910,6 +910,16 @@ Init
 rv
 |
 =
+const_cast
+<
+nsSVGSVGElement
+*
+>
+(
+this
+)
+-
+>
 CopyInnerTo
 (
 it

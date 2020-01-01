@@ -1971,7 +1971,6 @@ nsGenericElement
 *
 aDest
 )
-const
 {
 if
 (

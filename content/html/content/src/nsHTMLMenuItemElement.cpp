@@ -643,6 +643,16 @@ NOT_FROM_PARSER
 nsresult
 rv
 =
+const_cast
+<
+nsHTMLMenuItemElement
+*
+>
+(
+this
+)
+-
+>
 CopyInnerTo
 (
 it

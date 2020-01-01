@@ -373,7 +373,6 @@ nsGenericElement
 *
 aDest
 )
-const
 ;
 already_AddRefed
 <

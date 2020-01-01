@@ -210,7 +210,6 @@ nsGenericElement
 *
 aDest
 )
-const
 ;
 NS_METHOD
 SetAttribute

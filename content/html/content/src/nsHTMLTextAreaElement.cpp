@@ -930,7 +930,6 @@ nsGenericElement
 *
 aDest
 )
-const
 ;
 virtual
 nsresult
@@ -4911,7 +4910,6 @@ nsGenericElement
 *
 aDest
 )
-const
 {
 nsresult
 rv

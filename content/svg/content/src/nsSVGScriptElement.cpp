@@ -483,6 +483,16 @@ Init
 rv
 |
 =
+const_cast
+<
+nsSVGScriptElement
+*
+>
+(
+this
+)
+-
+>
 CopyInnerTo
 (
 it

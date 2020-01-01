@@ -450,6 +450,16 @@ Init
 rv
 |
 =
+const_cast
+<
+nsSVGUseElement
+*
+>
+(
+this
+)
+-
+>
 CopyInnerTo
 (
 it
