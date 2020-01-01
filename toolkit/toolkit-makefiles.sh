@@ -6251,13 +6251,6 @@ tests
 mochitest
 /
 Makefile
-js
-/
-ctypes
-/
-tests
-/
-Makefile
 layout
 /
 forms
