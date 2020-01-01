@@ -54,11 +54,6 @@ success
 "
 ;
 }
-dis
-(
-parent
-)
-;
 parent
 (
 )

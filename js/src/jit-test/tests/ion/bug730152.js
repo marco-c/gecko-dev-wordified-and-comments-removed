@@ -1,3 +1,15 @@
+if
+(
+typeof
+verifybarriers
+!
+=
+=
+"
+undefined
+"
+)
+{
 for
 (
 var
@@ -36,4 +48,5 @@ yield
 )
 )
 {
+}
 }
