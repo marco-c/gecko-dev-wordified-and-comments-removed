@@ -624,9 +624,6 @@ visibility
 hidden
 ;
 }
-%
-ifdef
-MOZ_PLACES_BOOKMARKS
 toolbarpaletteitem
 [
 place
@@ -647,8 +644,6 @@ display
 none
 ;
 }
-%
-endif
 menu
 .
 bookmark
@@ -11120,9 +11115,6 @@ gif
 )
 ;
 }
-%
-ifdef
-MOZ_PLACES_BOOKMARKS
 .
 toolbar
 -
@@ -11402,5 +11394,3 @@ colors
 000000
 ;
 }
-%
-endif
