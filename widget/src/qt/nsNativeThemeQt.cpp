@@ -868,9 +868,11 @@ true
 PRInt32
 p2a
 =
-GetAppUnitsPerDevPixel
-(
 aContext
+-
+>
+AppUnitsPerDevPixel
+(
 )
 ;
 QRect
@@ -1966,9 +1968,11 @@ style
 PRInt32
 p2a
 =
-GetAppUnitsPerDevPixel
-(
 aContext
+-
+>
+AppUnitsPerDevPixel
+(
 )
 ;
 switch

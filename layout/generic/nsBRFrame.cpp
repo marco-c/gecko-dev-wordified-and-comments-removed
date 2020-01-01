@@ -467,10 +467,8 @@ rendContext
 mStyleContext
 )
 ;
-nsCOMPtr
-<
 nsIFontMetrics
->
+*
 fm
 =
 aReflowState
@@ -478,7 +476,7 @@ aReflowState
 rendContext
 -
 >
-GetFontMetrics
+FontMetrics
 (
 )
 ;

@@ -4097,15 +4097,13 @@ aRenderingContext
 mStyleContext
 )
 ;
-nsCOMPtr
-<
 nsIFontMetrics
->
+*
 fm
 =
 aRenderingContext
 .
-GetFontMetrics
+FontMetrics
 (
 )
 ;

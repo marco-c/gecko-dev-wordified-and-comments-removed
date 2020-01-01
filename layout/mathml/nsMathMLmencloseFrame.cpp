@@ -1578,15 +1578,13 @@ GetUserFontSet
 )
 )
 ;
-nsCOMPtr
-<
 nsIFontMetrics
->
+*
 fm
 =
 aRenderingContext
 .
-GetFontMetrics
+FontMetrics
 (
 )
 ;
