@@ -76531,6 +76531,8 @@ mkdir
 -
 p
 _virtualenv
+PYTHONDONTWRITEBYTECODE
+=
 PYTHON
 _topsrcdir
 /
