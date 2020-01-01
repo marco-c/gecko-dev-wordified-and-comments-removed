@@ -1027,12 +1027,6 @@ mReachability
 &
 flags
 )
-|
-|
-flags
-=
-=
-0
 )
 {
 mStatusKnown
