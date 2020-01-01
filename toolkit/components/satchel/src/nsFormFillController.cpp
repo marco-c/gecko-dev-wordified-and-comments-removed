@@ -2599,6 +2599,7 @@ mController
 >
 HandleEnter
 (
+PR_FALSE
 &
 cancel
 )

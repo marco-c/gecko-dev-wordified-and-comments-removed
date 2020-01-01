@@ -155,6 +155,8 @@ PostSearchCleanup
 nsresult
 EnterMatch
 (
+PRBool
+aIsPopupSelection
 )
 ;
 nsresult
@@ -254,7 +256,7 @@ mTree
 nsString
 mSearchString
 ;
-PRPackedBool
+PRInt8
 mEnterAfterSearch
 ;
 PRPackedBool
