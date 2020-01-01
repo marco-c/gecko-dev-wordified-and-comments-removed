@@ -515,6 +515,15 @@ cairo_debug_reset_static_data
 (
 )
 ;
+#
+if
+0
+FcFini
+(
+)
+;
+#
+endif
 }
 PRBool
 gfxPlatform

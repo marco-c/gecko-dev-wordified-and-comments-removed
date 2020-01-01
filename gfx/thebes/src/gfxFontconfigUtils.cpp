@@ -1466,6 +1466,15 @@ gfxFontNameList
 aResult
 )
 {
+printf
+(
+"
+GetResolvedFonts
+\
+n
+"
+)
+;
 FcPattern
 *
 pat
