@@ -3303,6 +3303,12 @@ Weave
 more
 awesomer
 '
+)
+;
+res_headers
+.
+setHeader
+(
 '
 X
 -
