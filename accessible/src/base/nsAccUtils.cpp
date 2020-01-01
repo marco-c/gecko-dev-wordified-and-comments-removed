@@ -3121,6 +3121,7 @@ if
 (
 accessible
 )
+{
 accessible
 -
 >
@@ -3130,6 +3131,12 @@ GetRoleInternal
 role
 )
 ;
+NS_RELEASE
+(
+accessible
+)
+;
+}
 }
 return
 role
