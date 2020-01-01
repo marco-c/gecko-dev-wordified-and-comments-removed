@@ -600,6 +600,10 @@ browser_cancel
 .
 js
 \
+browser_multipackage
+.
+js
+\
 unsigned
 .
 xpi
@@ -653,6 +657,10 @@ empty
 xpi
 \
 corrupt
+.
+xpi
+\
+multipackage
 .
 xpi
 \
