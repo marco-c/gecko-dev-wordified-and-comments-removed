@@ -1186,7 +1186,7 @@ nsCOMPtr
 nsIEditor
 >
 editor
-;
+=
 static_cast
 <
 nsGenericHTMLElement
@@ -1199,10 +1199,6 @@ node
 >
 GetEditorInternal
 (
-getter_AddRefs
-(
-editor
-)
 )
 ;
 if
