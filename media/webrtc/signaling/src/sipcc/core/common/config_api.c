@@ -359,7 +359,7 @@ id
 #
 define
 MAX_CONFIG_VAL_PRINT_LEN
-256
+258
 void
 print_config_value
 (

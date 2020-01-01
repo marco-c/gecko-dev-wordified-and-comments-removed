@@ -165,7 +165,7 @@ cc_string_t
 label
 )
 {
-CCAPP_ERROR
+CCAPP_DEBUG
 (
 DEB_F_PREFIX
 "
