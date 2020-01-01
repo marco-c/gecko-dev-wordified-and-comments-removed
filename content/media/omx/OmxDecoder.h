@@ -35,6 +35,13 @@ h
 #
 include
 "
+GonkNativeWindowClient
+.
+h
+"
+#
+include
+"
 GonkIOSurfaceImage
 .
 h
@@ -367,6 +374,12 @@ sp
 GonkNativeWindow
 >
 mNativeWindow
+;
+sp
+<
+GonkNativeWindowClient
+>
+mNativeWindowClient
 ;
 sp
 <
