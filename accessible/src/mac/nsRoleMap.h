@@ -65,7 +65,7 @@ AXHelpTag
 "
 NSAccessibilityUnknownRole
 NSAccessibilityListRole
-NSAccessibilityRowRole
+NSAccessibilityGroupRole
 NSAccessibilityOutlineRole
 NSAccessibilityRowRole
 NSAccessibilityRadioButtonRole
