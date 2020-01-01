@@ -3529,15 +3529,9 @@ Kit
 WINSDK_TARGETVER
 =
 602
-#
-Allow
-a
-higher
-api
-set
 WINVER
 =
-602
+502
 #
 toolkit
 /
