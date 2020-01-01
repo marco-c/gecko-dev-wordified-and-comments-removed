@@ -583,6 +583,10 @@ nsDOMSimpleGestureEvent
 .
 cpp
 \
+nsDOMEventTargetHelper
+.
+cpp
+\
 (
 NULL
 )
