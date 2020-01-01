@@ -55,6 +55,7 @@ MPL
 /
 .
 DEPTH
+:
 =
 .
 .
@@ -62,12 +63,15 @@ DEPTH
 .
 .
 topsrcdir
+:
 =
 top_srcdir
 srcdir
+:
 =
 srcdir
 VPATH
+:
 =
 srcdir
 include
@@ -81,9 +85,11 @@ autoconf
 .
 mk
 MODULE
+:
 =
 editor
 EXPORTS
+:
 =
 \
 nsEditorCID
