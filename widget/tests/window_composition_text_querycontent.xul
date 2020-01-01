@@ -939,13 +939,13 @@ interfaces
 nsIWebNavigation
 ;
 const
-nsIEditorDocShell
+nsIDocShell
 =
 Components
 .
 interfaces
 .
-nsIEditorDocShell
+nsIDocShell
 ;
 function
 hitEventLoop
@@ -1023,7 +1023,7 @@ nsIWebNavigation
 .
 QueryInterface
 (
-nsIEditorDocShell
+nsIDocShell
 )
 .
 editor

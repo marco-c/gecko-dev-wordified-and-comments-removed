@@ -3943,10 +3943,6 @@ nsIContentViewerContainer
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIEditorDocShell
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsIWebPageDescriptor
 )
 NS_INTERFACE_MAP_ENTRY

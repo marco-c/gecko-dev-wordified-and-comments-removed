@@ -181,10 +181,6 @@ nsIURIFixup
 .
 idl
 \
-nsIEditorDocShell
-.
-idl
-\
 nsIWebPageDescriptor
 .
 idl

@@ -110,13 +110,6 @@ h
 #
 include
 "
-nsIEditorDocShell
-.
-h
-"
-#
-include
-"
 nsIFormControl
 .
 h

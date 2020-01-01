@@ -87,13 +87,6 @@ h
 #
 include
 "
-nsIEditorDocShell
-.
-h
-"
-#
-include
-"
 nsISimpleEnumerator
 .
 h
