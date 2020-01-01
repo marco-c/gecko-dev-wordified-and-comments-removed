@@ -2927,6 +2927,11 @@ Ci
 nsIAuthInformation
 .
 NEED_DOMAIN
+&
+&
+aAuthInfo
+.
+domain
 )
 username
 =
