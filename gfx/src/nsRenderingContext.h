@@ -138,7 +138,10 @@ AppUnitsPerDevPixel
 )
 {
 return
+NSToIntRound
+(
 mP2A
+)
 ;
 }
 void
