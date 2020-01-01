@@ -6818,6 +6818,11 @@ toolbar
 -
 additional
 "
+removable
+=
+"
+true
+"
 >
 <
 toolbarbutton
