@@ -5008,7 +5008,7 @@ browser
 .
 places
 .
-createdDefaultQueries
+createdSmartBookmarks
 "
 false
 )
