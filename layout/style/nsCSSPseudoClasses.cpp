@@ -177,6 +177,12 @@ aType
 =
 =
 ePseudoClass_mozLocaleDir
+|
+|
+aType
+=
+=
+ePseudoClass_dir
 ;
 }
 bool
