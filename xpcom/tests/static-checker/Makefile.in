@@ -456,6 +456,14 @@ TestFinalTemplate
 .
 cpp
 \
+TestFinalFunction
+.
+cpp
+\
+TestFinalGrandparentFunction
+.
+cpp
+\
 (
 NULL
 )
