@@ -461,6 +461,10 @@ browser_privatebrowsing_certexceptionsui
 .
 js
 \
+browser_privatebrowsing_commandline_toggle
+.
+js
+\
 browser_privatebrowsing_crh
 .
 js
