@@ -516,10 +516,6 @@ MozSmsFilter
 )
 DOMCI_CLASS
 (
-MozSmsCursor
-)
-DOMCI_CLASS
-(
 MozSmsSegmentInfo
 )
 DOMCI_CLASS

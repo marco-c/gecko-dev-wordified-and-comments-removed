@@ -242,6 +242,10 @@ NULL
 CPPSRCS
 =
 \
+MobileMessageCursorCallback
+.
+cpp
+\
 SmsManager
 .
 cpp
@@ -299,10 +303,6 @@ SmsFilter
 cpp
 \
 SmsSegmentInfo
-.
-cpp
-\
-SmsCursor
 .
 cpp
 \
