@@ -3328,6 +3328,9 @@ template
 object
 someObj
 ;
+boolean
+prototype
+;
 object
 ?
 anotherObj
