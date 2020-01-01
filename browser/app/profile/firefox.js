@@ -6356,7 +6356,7 @@ frecency
 .
 typedVisitBonus
 "
-500
+2000
 )
 ;
 pref
