@@ -14218,6 +14218,9 @@ this
 .
 _hostChanged
 =
+true
+;
+if
 (
 location
 !
@@ -14227,13 +14230,6 @@ this
 browser
 .
 lastSpec
-)
-;
-if
-(
-this
-.
-_hostChanged
 )
 {
 this
