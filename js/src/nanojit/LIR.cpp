@@ -649,9 +649,14 @@ clear
 (
 )
 ;
+#
+ifdef
+DEBUG
 delete
 names
 ;
+#
+endif
 _frago
 =
 0
