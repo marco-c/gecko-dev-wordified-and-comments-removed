@@ -227,14 +227,6 @@ ThemeNeedsComboboxDropmarker
 (
 )
 ;
-virtual
-nsTransparencyMode
-GetWidgetTransparency
-(
-PRUint8
-aWidgetType
-)
-;
 nsNativeThemeGTK
 (
 )
