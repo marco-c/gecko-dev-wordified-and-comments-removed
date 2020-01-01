@@ -321,6 +321,9 @@ downloads
 title
 ;
 "
+#
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
 statictitle
 =
 "
@@ -330,6 +333,8 @@ downloads
 title
 ;
 "
+#
+endif
 width
 =
 "
