@@ -16474,6 +16474,7 @@ push
 )
 #
 endif
+const
 JSString
 JSString
 :
@@ -16629,6 +16630,7 @@ INVALID_SMALL_CHAR
 define
 R
 TO_SMALL_CHAR
+const
 JSString
 :
 :
@@ -16697,6 +16699,7 @@ A
 define
 R
 FROM_SMALL_CHAR
+const
 jschar
 JSString
 :
@@ -16815,6 +16818,7 @@ push
 )
 #
 endif
+const
 JSString
 JSString
 :
@@ -17067,6 +17071,7 @@ push
 )
 #
 endif
+const
 JSString
 JSString
 :
@@ -17247,8 +17252,10 @@ c
 100
 )
 )
+const
 JSString
 *
+const
 JSString
 :
 :
@@ -18619,6 +18626,12 @@ chars
 UNIT_STRING_LIMIT
 )
 return
+const_cast
+<
+JSString
+*
+>
+(
 &
 JSString
 :
@@ -18628,6 +18641,7 @@ unitStringTable
 *
 chars
 ]
+)
 ;
 while
 (
