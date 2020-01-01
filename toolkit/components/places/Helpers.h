@@ -408,14 +408,11 @@ PlacesEvent
 :
 public
 nsRunnable
-public
-mozIStorageCompletionCallback
 {
 public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIRUNNABLE
-NS_DECL_MOZISTORAGECOMPLETIONCALLBACK
 PlacesEvent
 (
 const
