@@ -71,6 +71,10 @@ uintptr_t
 '
     
 '
+nsresult
+'
+    
+'
 nsString
 '
     
