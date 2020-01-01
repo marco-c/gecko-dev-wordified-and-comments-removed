@@ -1078,9 +1078,6 @@ mWinlessPopupSurrogateHWND
 nsIntPoint
 mPluginSize
 ;
-nsIntPoint
-mPluginOffset
-;
 WNDPROC
 mWinlessThrottleOldWndProc
 ;
