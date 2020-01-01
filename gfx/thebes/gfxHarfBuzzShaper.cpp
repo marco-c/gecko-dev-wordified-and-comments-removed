@@ -2862,11 +2862,8 @@ sHBFontFuncs
 {
 sHBFontFuncs
 =
-hb_font_funcs_copy
-(
 hb_font_funcs_create
 (
-)
 )
 ;
 hb_font_funcs_set_glyph_func
@@ -2895,11 +2892,8 @@ HBGetKerning
 ;
 sHBUnicodeFuncs
 =
-hb_unicode_funcs_copy
-(
 hb_unicode_funcs_create
 (
-)
 )
 ;
 hb_unicode_funcs_set_mirroring_func
