@@ -136,10 +136,6 @@ nsStubDocumentObserver
 .
 h
 \
-nsStubImageDecoderObserver
-.
-h
-\
 nsStubMutationObserver
 .
 h
@@ -444,10 +440,6 @@ nsScriptLoader
 cpp
 \
 nsStubDocumentObserver
-.
-cpp
-\
-nsStubImageDecoderObserver
 .
 cpp
 \
