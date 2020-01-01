@@ -1544,9 +1544,8 @@ report
 >
 lineno
 =
-js_PCToLineNumber
+PCToLineNumber
 (
-cx
 iter
 .
 fp
