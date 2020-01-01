@@ -1377,6 +1377,14 @@ aOrigin
 =
 0
 ;
+virtual
+PRUint32
+GetSerial
+(
+)
+=
+0
+;
 protected
 :
 nsPIDOMWindow
