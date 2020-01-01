@@ -160,6 +160,12 @@ html
 \
 test_inspector
 -
+reload
+.
+html
+\
+test_inspector
+-
 retain
 .
 html
