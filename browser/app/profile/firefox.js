@@ -1682,6 +1682,17 @@ true
 pref
 (
 "
+keyword
+.
+URL
+"
+"
+"
+)
+;
+pref
+(
+"
 general
 .
 useragent
