@@ -649,7 +649,7 @@ currentIonScript
 currentIonScript
 -
 >
-containsCodeAddress
+containsReturnAddress
 (
 returnAddr
 )
@@ -706,7 +706,7 @@ JS_ASSERT
 ionScript
 -
 >
-containsCodeAddress
+containsReturnAddress
 (
 returnAddr
 )
