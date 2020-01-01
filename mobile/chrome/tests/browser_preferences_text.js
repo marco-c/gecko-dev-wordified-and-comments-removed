@@ -1104,6 +1104,7 @@ region
 "
 )
 ;
+var
 images
 =
 expected
