@@ -115,10 +115,9 @@ ok
 (
 InspectorUI
 .
-isTreePanelOpen
+isInspectorOpen
 "
 Inspector
-Panel
 is
 open
 "
@@ -375,7 +374,7 @@ ok
 !
 InspectorUI
 .
-isTreePanelOpen
+isInspectorOpen
 "
 Inspector
 Panel
@@ -454,7 +453,7 @@ ok
 (
 InspectorUI
 .
-isTreePanelOpen
+isInspectorOpen
 "
 Inspector
 Panel
@@ -662,12 +661,6 @@ testEnd
 notificationBox
 =
 null
-;
-InspectorUI
-.
-isDirty
-=
-false
 ;
 gBrowser
 .
