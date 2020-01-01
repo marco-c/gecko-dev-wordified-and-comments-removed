@@ -13395,7 +13395,7 @@ object
 getProperty
 (
 cx
-JSID_VOID
+id
 false
 )
 ;
