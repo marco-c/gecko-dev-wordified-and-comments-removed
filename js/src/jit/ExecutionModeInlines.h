@@ -16,6 +16,13 @@ CompileInfo
 .
 h
 "
+#
+include
+"
+jsscriptinlines
+.
+h
+"
 namespace
 js
 {
