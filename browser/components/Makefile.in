@@ -483,8 +483,6 @@ sessionstore
 shell
 \
 sidebar
-/
-src
 \
 tabview
 \
