@@ -500,6 +500,9 @@ NSPR_LIBS
 (
 NULL
 )
+NSDISTMODE
+=
+copy
 include
 (
 topsrcdir
