@@ -1609,6 +1609,11 @@ nsIDOMHTMLImageElement
 width
 '
 '
+nsIDOMHTMLImageElement
+.
+complete
+'
+'
 nsIDOMHTMLInputElement
 .
 defaultChecked
@@ -2022,11 +2027,6 @@ scrollIntoView
 nsIDOMNSHTMLFrameElement
 .
 contentWindow
-'
-'
-nsIDOMNSHTMLImageElement
-.
-complete
 '
 '
 nsIDOMNSHTMLInputElement

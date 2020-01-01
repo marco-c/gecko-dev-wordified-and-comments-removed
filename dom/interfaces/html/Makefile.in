@@ -714,10 +714,6 @@ nsIDOMNSHTMLHRElement
 .
 idl
 \
-nsIDOMNSHTMLImageElement
-.
-idl
-\
 nsIDOMNSHTMLInputElement
 .
 idl
