@@ -4053,11 +4053,13 @@ res
 res
 )
 ;
-NS_ENSURE_TRUE
+if
 (
+!
 bCollapsed
-NS_OK
 )
+return
+NS_OK
 ;
 res
 =
