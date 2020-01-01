@@ -1490,7 +1490,8 @@ self
 .
 testvars
 =
-None
+{
+}
         
 self
 .
@@ -1512,9 +1513,6 @@ device
         
 if
 testvars
-is
-not
-None
 :
             
 if
@@ -1663,6 +1661,19 @@ self
 .
 logcat_dir
 )
+        
+self
+.
+testvars
+[
+'
+xml_output
+'
+]
+=
+self
+.
+xml_output
         
 self
 .
