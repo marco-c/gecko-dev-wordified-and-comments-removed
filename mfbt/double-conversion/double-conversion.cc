@@ -779,7 +779,7 @@ mode
 )
 const
 {
-assert
+ASSERT
 (
 mode
 =
