@@ -1322,8 +1322,8 @@ int32
 c
 ;
 ptrdiff_t
-len
-olen
+llen
+ulen
 ;
 if
 (
@@ -1357,7 +1357,7 @@ linebuf
 limit
 )
 {
-len
+ulen
 =
 userbuf
 .
@@ -1369,7 +1369,7 @@ ptr
 ;
 if
 (
-len
+ulen
 <
 =
 0
@@ -1390,7 +1390,7 @@ return
 EOF
 ;
 }
-len
+ulen
 =
 fillUserbuf
 (
@@ -1398,7 +1398,7 @@ fillUserbuf
 ;
 JS_ASSERT
 (
-len
+ulen
 >
 =
 0
@@ -1406,7 +1406,7 @@ len
 ;
 if
 (
-len
+ulen
 =
 =
 0
@@ -1421,10 +1421,6 @@ return
 EOF
 ;
 }
-olen
-=
-len
-;
 userbuf
 .
 limit
@@ -1433,7 +1429,7 @@ userbuf
 .
 base
 +
-len
+ulen
 ;
 userbuf
 .
@@ -1455,7 +1451,7 @@ lineno
 userbuf
 .
 ptr
-len
+ulen
 &
 listenerTSData
 listenerData
@@ -1579,6 +1575,15 @@ break
 }
 }
 }
+else
+{
+JS_ASSERT
+(
+!
+file
+)
+;
+}
 if
 (
 nl
@@ -1587,7 +1592,7 @@ userbuf
 .
 limit
 )
-len
+ulen
 =
 (
 nl
@@ -1601,7 +1606,7 @@ ptr
 ;
 if
 (
-len
+ulen
 >
 =
 (
@@ -1610,7 +1615,13 @@ ptrdiff_t
 LINE_LIMIT
 )
 {
-len
+JS_ASSERT
+(
+!
+file
+)
+;
+ulen
 =
 LINE_LIMIT
 -
@@ -1636,7 +1647,7 @@ base
 userbuf
 .
 ptr
-len
+ulen
 )
 ;
 userbuf
@@ -1644,11 +1655,11 @@ userbuf
 ptr
 +
 =
-len
+ulen
 ;
-olen
+llen
 =
-len
+ulen
 ;
 if
 (
@@ -1677,7 +1688,7 @@ linebuf
 .
 base
 [
-len
+llen
 -
 1
 ]
@@ -1693,7 +1704,7 @@ linebuf
 .
 base
 [
-len
+llen
 -
 1
 ]
@@ -1745,7 +1756,7 @@ linebuf
 .
 base
 [
-len
+llen
 -
 2
 ]
@@ -1761,7 +1772,7 @@ linebuf
 .
 base
 [
-len
+llen
 -
 1
 ]
@@ -1777,7 +1788,7 @@ linebuf
 .
 base
 [
-len
+llen
 -
 2
 ]
@@ -1787,7 +1798,7 @@ len
 n
 '
 ;
-len
+llen
 -
 -
 ;
@@ -1816,7 +1827,7 @@ linebuf
 .
 base
 [
-len
+llen
 -
 1
 ]
@@ -1829,7 +1840,7 @@ linebuf
 .
 base
 [
-len
+llen
 -
 1
 ]
@@ -1842,7 +1853,7 @@ linebuf
 .
 base
 [
-len
+llen
 -
 1
 ]
@@ -1862,7 +1873,7 @@ linebuf
 .
 base
 +
-len
+llen
 ;
 linebuf
 .
@@ -1921,7 +1932,7 @@ TSF_NLFLAG
 ;
 linelen
 =
-olen
+ulen
 ;
 }
 c
