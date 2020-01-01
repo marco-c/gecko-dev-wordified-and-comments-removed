@@ -155,4 +155,14 @@ BROWSER_INTENT_PACKAGE
 App
 "
 ;
+public
+static
+final
+String
+ACCOUNTTYPE_SYNC
+=
+"
+MOZ_ANDROID_SHARED_ACCOUNT_TYPE
+"
+;
 }

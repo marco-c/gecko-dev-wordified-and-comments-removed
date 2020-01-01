@@ -47,6 +47,17 @@ gecko
 .
 sync
 .
+GlobalConstants
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+sync
+.
 Logger
 ;
 import
@@ -291,7 +302,7 @@ c
 .
 getAccountsByType
 (
-Constants
+GlobalConstants
 .
 ACCOUNTTYPE_SYNC
 )
@@ -1124,7 +1135,7 @@ new
 Account
 (
 username
-Constants
+GlobalConstants
 .
 ACCOUNTTYPE_SYNC
 )
@@ -1169,7 +1180,7 @@ account
 for
 "
 +
-Constants
+GlobalConstants
 .
 ACCOUNTTYPE_SYNC
 )

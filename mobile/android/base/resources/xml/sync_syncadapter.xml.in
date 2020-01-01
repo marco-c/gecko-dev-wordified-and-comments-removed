@@ -122,11 +122,7 @@ android
 accountType
 =
 "
-org
-.
-mozilla
-.
-firefox_sync
+MOZ_ANDROID_SHARED_ACCOUNT_TYPE
 "
 android
 :
