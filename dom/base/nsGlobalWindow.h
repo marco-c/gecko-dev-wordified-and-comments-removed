@@ -1827,6 +1827,17 @@ aTimeout
 )
 ;
 void
+RunTimeout
+(
+)
+{
+RunTimeout
+(
+nsnull
+)
+;
+}
+void
 ClearAllTimeouts
 (
 )
