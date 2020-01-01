@@ -8084,7 +8084,7 @@ plugins
 .
 enabled
 .
-javaplugin2
+javaplugin2_npapi
 .
 plugin
 "
