@@ -929,6 +929,12 @@ IsEmpty
 ;
 }
 PRBool
+HaveResolvedEndTimes
+(
+)
+const
+;
+PRBool
 EndHasEventConditions
 (
 )
