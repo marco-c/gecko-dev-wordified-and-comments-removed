@@ -1465,7 +1465,7 @@ menuitem
 id
 =
 "
-menu_SelectTable
+menu_SelectTable_cm
 "
 label
 =
@@ -1497,7 +1497,7 @@ menuitem
 id
 =
 "
-menu_SelectRow
+menu_SelectRow_cm
 "
 label
 =
@@ -1529,7 +1529,7 @@ menuitem
 id
 =
 "
-menu_SelectColumn
+menu_SelectColumn_cm
 "
 label
 =
@@ -1561,7 +1561,7 @@ menuitem
 id
 =
 "
-menu_SelectCell
+menu_SelectCell_cm
 "
 label
 =
@@ -1593,7 +1593,7 @@ menuitem
 id
 =
 "
-menu_SelectAllCells
+menu_SelectAllCells_cm
 "
 label
 =
@@ -1662,7 +1662,7 @@ menuitem
 id
 =
 "
-menu_DeleteTable
+menu_DeleteTable_cm
 "
 label
 =
@@ -1694,7 +1694,7 @@ menuitem
 id
 =
 "
-menu_DeleteRow
+menu_DeleteRow_cm
 "
 label
 =
@@ -1726,7 +1726,7 @@ menuitem
 id
 =
 "
-menu_DeleteColumn
+menu_DeleteColumn_cm
 "
 label
 =
@@ -1758,7 +1758,7 @@ menuitem
 id
 =
 "
-menu_DeleteCell
+menu_DeleteCell_cm
 "
 label
 =
@@ -1790,7 +1790,7 @@ menuitem
 id
 =
 "
-menu_DeleteCellContents
+menu_DeleteCellContents_cm
 "
 label
 =
