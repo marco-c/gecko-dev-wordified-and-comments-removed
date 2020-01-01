@@ -2918,7 +2918,6 @@ Write
 (
 buf
 numValues
-PR_TRUE
 )
 ;
 mEventManager
@@ -3079,7 +3078,6 @@ sound
 AudioDataLength
 (
 )
-PR_TRUE
 )
 ;
 offset

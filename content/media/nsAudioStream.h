@@ -115,8 +115,6 @@ void
 aBuf
 PRUint32
 aCount
-PRBool
-aBlocking
 )
 =
 0
