@@ -1009,11 +1009,11 @@ version
 aAddon
 .
 version
-homepageURL
+learnmoreURL
 :
 aAddon
 .
-homepageURL
+learnmoreURL
 iconURL
 :
 aAddon

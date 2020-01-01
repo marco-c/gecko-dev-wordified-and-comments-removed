@@ -1209,7 +1209,7 @@ addonJSON
 getString
 (
 "
-homepageURL
+learnmoreURL
 "
 )
 ;
