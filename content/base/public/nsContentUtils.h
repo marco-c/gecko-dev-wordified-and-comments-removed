@@ -146,13 +146,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
