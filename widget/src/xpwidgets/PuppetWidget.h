@@ -616,8 +616,11 @@ mIMEPreference
 PRPackedBool
 mIMEComposing
 ;
-PRPackedBool
-mIMESuppressNotifySel
+PRUint32
+mIMELastReceivedSeqno
+;
+PRUint32
+mIMELastBlurSeqno
 ;
 }
 ;

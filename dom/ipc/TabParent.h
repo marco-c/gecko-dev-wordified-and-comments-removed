@@ -279,6 +279,9 @@ aFocus
 nsIMEUpdatePreference
 *
 aPreference
+PRUint32
+*
+aSeqno
 )
 ;
 virtual
@@ -303,6 +306,10 @@ virtual
 bool
 RecvNotifyIMESelection
 (
+const
+PRUint32
+&
+aSeqno
 const
 PRUint32
 &
@@ -727,7 +734,6 @@ aEvent
 bool
 SendCompositionEvent
 (
-const
 nsCompositionEvent
 &
 event
@@ -736,7 +742,6 @@ event
 bool
 SendTextEvent
 (
-const
 nsTextEvent
 &
 event
@@ -745,7 +750,6 @@ event
 bool
 SendSelectionEvent
 (
-const
 nsSelectionEvent
 &
 event
@@ -926,6 +930,9 @@ mIMECompositionText
 ;
 PRUint32
 mIMECompositionStart
+;
+PRUint32
+mIMESeqno
 ;
 private
 :

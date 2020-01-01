@@ -3529,6 +3529,11 @@ nsTextEvent
 )
 {
 }
+public
+:
+PRUint32
+seqno
+;
 #
 endif
 public
@@ -3615,6 +3620,11 @@ nsCompositionEvent
 )
 {
 }
+public
+:
+PRUint32
+seqno
+;
 #
 endif
 public
@@ -4179,6 +4189,11 @@ nsSelectionEvent
 )
 {
 }
+public
+:
+PRUint32
+seqno
+;
 #
 endif
 public
