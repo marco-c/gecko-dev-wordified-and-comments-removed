@@ -494,9 +494,9 @@ uint32
 nconsts
 uint32
 nglobals
-uint32
+uint16
 nClosedArgs
-uint32
+uint16
 nClosedVars
 )
 ;
