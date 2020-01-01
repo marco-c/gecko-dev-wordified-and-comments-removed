@@ -259,10 +259,10 @@ forEach
 (
 function
 (
-win
+aWin
 )
 {
-win
+aWin
 .
 close
 (
@@ -279,7 +279,7 @@ testOnWindow
 true
 function
 (
-win
+aWin
 )
 {
 info
@@ -295,7 +295,7 @@ window
 checkDisableOption
 (
 true
-win
+aWin
 function
 (
 )
@@ -305,7 +305,7 @@ testOnWindow
 false
 function
 (
-win
+aPrivWin
 )
 {
 info
@@ -321,7 +321,7 @@ window
 checkDisableOption
 (
 false
-win
+aPrivWin
 finish
 )
 ;
