@@ -6566,15 +6566,11 @@ gURLBar
 )
 gURLBar
 .
-setAttribute
-(
-"
-emptytext
-"
+emptyText
+=
 gURLBarEmptyText
 .
 value
-)
 ;
 gNavToolbox
 .
