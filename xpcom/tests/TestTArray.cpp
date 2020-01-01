@@ -470,8 +470,9 @@ extra
 )
 !
 =
--
-1
+ary
+.
+NoIndex
 )
 return
 PR_FALSE
@@ -1977,8 +1978,9 @@ EmptyCString
 )
 !
 =
--
-1
+strArray
+.
+NoIndex
 )
 return
 PR_FALSE
@@ -3132,8 +3134,9 @@ IndexOf
 )
 =
 =
--
-1
+array
+.
+NoIndex
 ;
 }
 typedef
