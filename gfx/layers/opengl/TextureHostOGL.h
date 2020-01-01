@@ -193,7 +193,7 @@ aTextureUnit
 ;
 virtual
 void
-ReleaseTexture
+UnbindTexture
 (
 )
 =
@@ -412,7 +412,7 @@ mTexImage
 }
 virtual
 void
-ReleaseTexture
+UnbindTexture
 (
 )
 MOZ_OVERRIDE
@@ -694,7 +694,7 @@ mWrapMode
 }
 virtual
 void
-ReleaseTexture
+UnbindTexture
 (
 )
 MOZ_OVERRIDE
@@ -1154,7 +1154,7 @@ aTextureUnit
 ;
 }
 void
-ReleaseTexture
+UnbindTexture
 (
 )
 MOZ_OVERRIDE
@@ -1542,7 +1542,7 @@ aUnit
 ;
 }
 void
-ReleaseTexture
+UnbindTexture
 (
 )
 MOZ_OVERRIDE
@@ -2082,7 +2082,7 @@ LOCAL_GL_TEXTURE0
 ;
 }
 void
-ReleaseTexture
+UnbindTexture
 (
 )
 MOZ_OVERRIDE
@@ -2432,7 +2432,7 @@ mTextureHandle
 ;
 }
 void
-ReleaseTexture
+UnbindTexture
 (
 )
 MOZ_OVERRIDE
@@ -2736,7 +2736,7 @@ mTextureHandle
 }
 virtual
 void
-ReleaseTexture
+UnbindTexture
 (
 )
 MOZ_OVERRIDE
@@ -3090,7 +3090,7 @@ aTextureUnit
 MOZ_OVERRIDE
 ;
 void
-ReleaseTexture
+UnbindTexture
 (
 )
 MOZ_OVERRIDE
