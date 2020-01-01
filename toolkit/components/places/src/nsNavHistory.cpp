@@ -402,13 +402,13 @@ importDefaults
 "
 #
 define
-PREF_BROWSER_CREATEDDEFAULTQUERIES
+PREF_BROWSER_CREATEDSMARTBOOKMARKS
 "
 browser
 .
 places
 .
-createdDefaultQueries
+createdSmartBookmarks
 "
 #
 define
@@ -2089,7 +2089,7 @@ prefs
 >
 SetBoolPref
 (
-PREF_BROWSER_CREATEDDEFAULTQUERIES
+PREF_BROWSER_CREATEDSMARTBOOKMARKS
 PR_FALSE
 )
 ;
