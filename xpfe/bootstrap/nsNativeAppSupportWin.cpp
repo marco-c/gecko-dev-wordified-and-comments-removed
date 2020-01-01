@@ -4959,14 +4959,6 @@ PR_FALSE
 settings
 -
 >
-SetIsHandlingMNG
-(
-PR_FALSE
-)
-;
-settings
--
->
 SetIsHandlingBMP
 (
 PR_FALSE

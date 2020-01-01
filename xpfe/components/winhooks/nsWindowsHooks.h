@@ -157,9 +157,6 @@ PRBool
 mHandlePNG
 ;
 PRBool
-mHandleMNG
-;
-PRBool
 mHandleXBM
 ;
 PRBool
@@ -272,7 +269,6 @@ FileTypeRegistryEntry
 jpg
 gif
 png
-mng
 xbm
 bmp
 ico
