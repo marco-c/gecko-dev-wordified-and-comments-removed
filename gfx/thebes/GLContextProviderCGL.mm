@@ -2560,6 +2560,14 @@ return
 nsnull
 ;
 }
+gGlobalContext
+-
+>
+SetIsGlobalSharedContext
+(
+PR_TRUE
+)
+;
 }
 return
 gGlobalContext
