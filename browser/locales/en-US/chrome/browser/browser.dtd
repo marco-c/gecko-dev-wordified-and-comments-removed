@@ -3124,12 +3124,12 @@ l
 ENTITY
 urlbar
 .
-placeholder
+placeholder2
 "
-Go
-to
-a
-Website
+Search
+or
+enter
+address
 "
 >
 <
