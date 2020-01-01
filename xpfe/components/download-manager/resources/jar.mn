@@ -1,6 +1,3 @@
-#
-ifndef
-MOZ_XUL_APP
 comm
 .
 jar
@@ -77,5 +74,3 @@ downloadmanager
 .
 properties
 )
-#
-endif

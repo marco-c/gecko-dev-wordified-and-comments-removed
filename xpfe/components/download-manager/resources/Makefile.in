@@ -415,8 +415,6 @@ config
 autoconf
 .
 mk
-ifndef
-MOZ_XUL_APP
 ifneq
 (
 (
@@ -451,7 +449,6 @@ else
 DIRS
 =
 unix
-endif
 endif
 endif
 include
