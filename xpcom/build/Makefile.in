@@ -518,7 +518,7 @@ cpp
 (
 NULL
 )
-ifdef
+ifndef
 MOZ_ENABLE_LIBXUL
 ifeq
 (
