@@ -39,6 +39,13 @@ h
 #
 include
 "
+jsstdint
+.
+h
+"
+#
+include
+"
 jsbit
 .
 h
