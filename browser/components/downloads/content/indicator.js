@@ -729,6 +729,7 @@ showEventNotification
 function
 DIV_showEventNotification
 (
+aType
 )
 {
 if
@@ -782,9 +783,7 @@ setAttribute
 "
 notification
 "
-"
-true
-"
+aType
 )
 ;
 this
@@ -1211,6 +1210,7 @@ attention
 true
 "
 )
+;
 }
 else
 {
