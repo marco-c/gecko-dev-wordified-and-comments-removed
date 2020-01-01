@@ -141,6 +141,12 @@ here
 "
 )
 ;
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 if
 (
 !
@@ -150,12 +156,6 @@ Connected
 )
 return
 false
-;
-MutexAutoLock
-lock
-(
-mMutex
-)
 ;
 mPendingReply
 =

@@ -398,6 +398,9 @@ MessageLoop
 *
 mWorkerLoop
 ;
+bool
+mChild
+;
 }
 ;
 }
