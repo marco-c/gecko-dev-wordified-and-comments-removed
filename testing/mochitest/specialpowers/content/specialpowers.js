@@ -1376,11 +1376,6 @@ getContext
 "
 )
 ;
-var
-flags
-=
-0
-;
 ctx
 .
 drawWindow
