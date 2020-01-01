@@ -292,9 +292,6 @@ PRBool
 mSkipSource
 ;
 PRBool
-mIsReadOnlyRequest
-;
-PRBool
 CheckAndSetState
 (
 AVScanState
