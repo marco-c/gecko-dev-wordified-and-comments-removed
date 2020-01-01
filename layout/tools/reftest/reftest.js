@@ -3010,6 +3010,17 @@ OpenGL
 ;
 sandbox
 .
+layersOMTC
+=
+gWindowUtils
+.
+layerManagerRemote
+=
+=
+true
+;
+sandbox
+.
 B2G
 =
 xr

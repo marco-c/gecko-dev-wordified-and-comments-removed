@@ -32,13 +32,6 @@ Thread
 ;
 }
 namespace
-gfx
-{
-class
-Size
-;
-}
-namespace
 x11_util
 {
 Display

@@ -16827,16 +16827,23 @@ mytype
 =
 ptype
         
+for
+toplvl
+in
+ptype
+.
+toplevels
+(
+)
+:
+            
 self
 .
 walkDownTheProtocolTree
 (
-ptype
-.
-toplevel
-(
+toplvl
 )
-)
+;
         
 return
 self

@@ -32,6 +32,10 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
 LayersTypes
 .
 h
@@ -125,7 +129,7 @@ namespace
 layers
 {
 class
-ImageContainerChild
+ImageClient
 ;
 class
 SharedPlanarYCbCrImage
@@ -992,11 +996,9 @@ CompositionNotifySink
 *
 mCompositionNotifySink
 ;
-nsRefPtr
-<
-ImageContainerChild
->
-mImageContainerChild
+ImageClient
+*
+mImageClient
 ;
 }
 ;

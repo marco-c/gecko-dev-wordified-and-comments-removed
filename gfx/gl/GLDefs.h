@@ -154,6 +154,11 @@ void
 GLeglImage
 ;
 typedef
+void
+*
+EGLImage
+;
+typedef
 int
 EGLint
 ;

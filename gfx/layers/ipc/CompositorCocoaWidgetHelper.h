@@ -14,12 +14,12 @@ class
 CompositorParent
 ;
 class
-LayerManager
+LayerManagerComposite
 ;
 namespace
 compositor
 {
-LayerManager
+LayerManagerComposite
 *
 GetLayerManager
 (

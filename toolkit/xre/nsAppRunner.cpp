@@ -15540,6 +15540,14 @@ PR_GetEnv
 MOZ_USE_OMTC
 "
 )
+|
+|
+PR_GetEnv
+(
+"
+MOZ_OMTC_ENABLED
+"
+)
 )
 {
 XInitThreads

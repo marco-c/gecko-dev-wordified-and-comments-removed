@@ -50,6 +50,9 @@ namespace
 layers
 {
 class
+Image
+;
+class
 ShmemYCbCrImage
 {
 public

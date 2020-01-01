@@ -143,6 +143,9 @@ layers
 struct
 FrameMetrics
 ;
+struct
+TextureFactoryIdentifier
+;
 }
 namespace
 layout
@@ -310,12 +313,9 @@ actor
 ScrollingBehavior
 *
 scrolling
-LayersBackend
+TextureFactoryIdentifier
 *
-backend
-int32_t
-*
-maxTextureSize
+identifier
 uint64_t
 *
 layersId
@@ -882,6 +882,7 @@ bool
 &
 stickDocument
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1155,12 +1156,9 @@ AllocPRenderFrame
 ScrollingBehavior
 *
 aScrolling
-LayersBackend
+TextureFactoryIdentifier
 *
-aBackend
-int32_t
-*
-aMaxTextureSize
+aTextureFactoryIdentifier
 uint64_t
 *
 aLayersId

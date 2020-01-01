@@ -57,6 +57,7 @@ SCALE_NONE
 SCALE_STRETCH
 }
 ;
+virtual
 void
 SetContainer
 (

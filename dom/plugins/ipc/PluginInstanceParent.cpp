@@ -4015,6 +4015,12 @@ pbd
 )
 ;
 }
+mozilla
+:
+:
+plugins
+:
+:
 SurfaceDescriptor
 PluginInstanceParent
 :
@@ -4110,6 +4116,12 @@ GetShmem
 #
 endif
 return
+mozilla
+:
+:
+plugins
+:
+:
 SurfaceDescriptor
 (
 )

@@ -332,6 +332,7 @@ IntRect
 *
 aOut
 )
+const
 {
 *
 aOut

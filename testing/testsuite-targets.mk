@@ -1618,11 +1618,9 @@ SYMBOLS_PATH
 (
 EXTRA_TEST_ARGS
 )
-"
 (
 1
 )
-"
 |
 tee
 .
@@ -1884,6 +1882,7 @@ reftest
 (
 call
 RUN_REFTEST
+"
 (
 topsrcdir
 )
@@ -1891,6 +1890,7 @@ topsrcdir
 (
 TEST_PATH
 )
+"
 )
 (
 CHECK_TEST_ERROR
@@ -2191,6 +2191,7 @@ ipc
 (
 call
 RUN_REFTEST
+"
 (
 topsrcdir
 )
@@ -2198,6 +2199,7 @@ topsrcdir
 (
 TEST_PATH
 )
+"
 (
 OOP_CONTENT
 )
@@ -2230,6 +2232,7 @@ gpu
 (
 call
 RUN_REFTEST
+"
 (
 topsrcdir
 )
@@ -2237,6 +2240,7 @@ topsrcdir
 (
 TEST_PATH
 )
+"
 (
 OOP_CONTENT
 )
@@ -2264,6 +2268,7 @@ crashtest
 (
 call
 RUN_REFTEST
+"
 (
 topsrcdir
 )
@@ -2271,6 +2276,7 @@ topsrcdir
 (
 TEST_PATH
 )
+"
 )
 (
 CHECK_TEST_ERROR
@@ -2296,6 +2302,7 @@ ipc
 (
 call
 RUN_REFTEST
+"
 (
 topsrcdir
 )
@@ -2303,6 +2310,7 @@ topsrcdir
 (
 TEST_PATH
 )
+"
 (
 OOP_CONTENT
 )
@@ -2335,6 +2343,7 @@ gpu
 (
 call
 RUN_REFTEST
+"
 (
 topsrcdir
 )
@@ -2342,6 +2351,7 @@ topsrcdir
 (
 TEST_PATH
 )
+"
 (
 OOP_CONTENT
 )
@@ -2402,6 +2412,7 @@ jstests
 (
 call
 RUN_REFTEST
+"
 (
 DIST
 )
@@ -2413,6 +2424,7 @@ TESTS_PATH
 jstests
 .
 list
+"
 -
 -
 extra

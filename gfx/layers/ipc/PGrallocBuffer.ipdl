@@ -114,10 +114,6 @@ PImageBridge
 ;
 include
 protocol
-PImageContainer
-;
-include
-protocol
 PLayers
 ;
 namespace
@@ -199,11 +195,7 @@ PCompositor
 or
 PImageContainer
 manager
-PCompositor
-or
 PImageBridge
-or
-PImageContainer
 or
 PLayers
 ;

@@ -365,8 +365,6 @@ cocoa
 MOZ_WIDGET_TOOLKIT
 )
 )
-ifdef
-MOZ_ENABLE_SKIA
 CPPSRCS
 +
 =
@@ -378,7 +376,6 @@ cpp
 (
 NULL
 )
-endif
 endif
 ifeq
 (

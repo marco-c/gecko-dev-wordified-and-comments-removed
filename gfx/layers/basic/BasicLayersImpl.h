@@ -438,7 +438,12 @@ ShadowLayerChild
 (
 op
 .
-layerChild
+textureChild
+(
+)
+-
+>
+Manager
 (
 )
 )
