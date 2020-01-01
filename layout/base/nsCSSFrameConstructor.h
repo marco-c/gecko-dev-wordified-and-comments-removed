@@ -1339,6 +1339,8 @@ aStyleDisplay
 nsFrameItems
 &
 aFrameItems
+PRBool
+aHasPseudoParent
 )
 ;
 nsresult
@@ -1825,6 +1827,8 @@ aAddedToFrameList
 nsFrameItems
 &
 aFrameItems
+PRBool
+aHasPseudoParent
 )
 ;
 typedef
