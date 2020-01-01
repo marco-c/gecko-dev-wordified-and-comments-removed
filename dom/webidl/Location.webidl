@@ -181,11 +181,6 @@ Unforgeable
 interface
 Location
 {
-stringifier
-attribute
-DOMString
-href
-;
 void
 assign
 (
