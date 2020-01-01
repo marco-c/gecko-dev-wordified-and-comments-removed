@@ -401,6 +401,7 @@ return
 canvas
 ;
 }
+;
 AnimatedZoom
 .
 prototype
@@ -695,6 +696,7 @@ restore
 )
 ;
 }
+;
 AnimatedZoom
 .
 prototype
@@ -834,6 +836,7 @@ return
 true
 ;
 }
+;
 AnimatedZoom
 .
 prototype
@@ -985,6 +988,7 @@ e
 ;
 }
 }
+;
 AnimatedZoom
 .
 prototype
@@ -1054,3 +1058,4 @@ null
 ;
 }
 }
+;

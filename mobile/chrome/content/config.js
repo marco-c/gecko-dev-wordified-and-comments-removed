@@ -1230,6 +1230,7 @@ aIndex
 +
 1
 ]
+;
 if
 (
 !
@@ -2108,6 +2109,7 @@ high
 /
 2
 )
+;
 element
 =
 prefs

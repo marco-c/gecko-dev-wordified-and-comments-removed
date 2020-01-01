@@ -7063,6 +7063,7 @@ bv
 allowZoom
 )
 return
+null
 ;
 let
 zoomRect
@@ -9221,6 +9222,7 @@ engine
 }
 }
 }
+;
 function
 ContentCustomClicker
 (
@@ -15333,6 +15335,7 @@ png
 }
 }
 }
+;
 function
 rendererFactory
 (
@@ -15519,6 +15522,7 @@ browser
 contentWindow
 ;
 }
+;
 wrapper
 .
 drawContent
