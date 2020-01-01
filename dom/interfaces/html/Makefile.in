@@ -746,10 +746,6 @@ nsIDOMNSHTMLOptionCollectn
 .
 idl
 \
-nsIDOMNSHTMLOptionElement
-.
-idl
-\
 nsIDOMNSHTMLSelectElement
 .
 idl

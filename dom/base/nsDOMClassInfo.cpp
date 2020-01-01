@@ -667,13 +667,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLOptionElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLOptionsCollection
 .
 h
@@ -10647,10 +10640,6 @@ DOM_CLASSINFO_MAP_BEGIN
 (
 HTMLOptionElement
 nsIDOMHTMLOptionElement
-)
-DOM_CLASSINFO_MAP_ENTRY
-(
-nsIDOMNSHTMLOptionElement
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
