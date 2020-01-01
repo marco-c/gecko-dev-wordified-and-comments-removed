@@ -43,14 +43,7 @@ h
 #
 include
 "
-nsIThebesFontMetrics
-.
-h
-"
-#
-include
-"
-gfxFont
+nsIFontMetrics
 .
 h
 "
