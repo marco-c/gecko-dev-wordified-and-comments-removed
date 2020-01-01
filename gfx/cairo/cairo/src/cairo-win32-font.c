@@ -848,9 +848,8 @@ dwMinorVersion
 )
 ;
 }
-static
 BYTE
-_get_system_quality
+_cairo_win32_get_system_text_quality
 (
 void
 )
@@ -877,7 +876,7 @@ font_smoothing
 _cairo_win32_print_gdi_error
 (
 "
-_get_system_quality
+_cairo_win32_get_system_text_quality
 "
 )
 ;
@@ -913,7 +912,7 @@ smoothing_type
 _cairo_win32_print_gdi_error
 (
 "
-_get_system_quality
+_cairo_win32_get_system_text_quality
 "
 )
 ;
@@ -1051,7 +1050,7 @@ f
 >
 quality
 =
-_get_system_quality
+_cairo_win32_get_system_text_quality
 (
 )
 ;
