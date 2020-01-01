@@ -209,6 +209,10 @@ outoflinexulscript
 .
 js
 \
+subscript
+.
+js
+\
 test_cows
 .
 xul
