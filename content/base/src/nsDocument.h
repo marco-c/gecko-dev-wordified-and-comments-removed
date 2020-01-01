@@ -1640,12 +1640,6 @@ Element
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_SIZEOF_EXCLUDING_THIS
-using
-nsINode
-:
-:
-GetScriptTypeID
-;
 virtual
 void
 Reset

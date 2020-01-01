@@ -374,12 +374,10 @@ getScriptTypeID
 const
 {
 return
-mContext
--
->
-GetScriptTypeID
-(
-)
+nsIProgrammingLanguage
+:
+:
+JAVASCRIPT
 ;
 }
 protected
