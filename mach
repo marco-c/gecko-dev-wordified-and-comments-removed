@@ -117,10 +117,10 @@ version_info
 [
 0
 ]
-=
+!
 =
 2
-and
+or
 sys
 .
 version_info
@@ -139,6 +139,12 @@ Python
 7
 or
 above
+(
+but
+not
+Python
+3
+)
 is
 required
 to
@@ -153,6 +159,7 @@ print
 You
 are
 running
+Python
 '
 platform
 .
