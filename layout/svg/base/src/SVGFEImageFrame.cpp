@@ -83,6 +83,8 @@ aContext
 {
 AddStateBits
 (
+NS_FRAME_SVG_LAYOUT
+|
 NS_STATE_SVG_NONDISPLAY_CHILD
 )
 ;
@@ -196,6 +198,16 @@ PRInt32
 aModType
 )
 ;
+virtual
+bool
+UpdateOverflow
+(
+)
+{
+return
+false
+;
+}
 }
 ;
 nsIFrame
