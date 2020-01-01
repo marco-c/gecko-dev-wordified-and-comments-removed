@@ -584,6 +584,9 @@ observe
 function
 ClientEngine_observe
 (
+subject
+topic
+data
 )
 {
 switch
