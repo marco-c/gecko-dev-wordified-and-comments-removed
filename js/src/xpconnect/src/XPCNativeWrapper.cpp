@@ -5038,11 +5038,6 @@ nsIPrincipal
 aObjectPrincipal
 )
 {
-CheckWindow
-(
-wrapper
-)
-;
 if
 (
 aObjectPrincipal
