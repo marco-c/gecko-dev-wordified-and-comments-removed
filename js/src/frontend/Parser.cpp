@@ -4962,7 +4962,7 @@ JSMSG_DESTRUCT_DUP_ARG
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 ParseNode
@@ -5185,7 +5185,7 @@ tt
 TOK_ERROR
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -5230,7 +5230,7 @@ JSMSG_SEMI_BEFORE_STMNT
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 (
@@ -5245,7 +5245,7 @@ TOK_SEMI
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -10057,7 +10057,7 @@ name
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -10082,7 +10082,7 @@ ptr
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -10103,7 +10103,7 @@ ptr
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 else
@@ -10245,7 +10245,7 @@ ptr
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -10271,7 +10271,7 @@ tc
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 else
@@ -10342,7 +10342,7 @@ if
 pnu
 )
 return
-JS_FALSE
+false
 ;
 }
 LinkUseToDef
@@ -10430,7 +10430,7 @@ CONST
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -10496,7 +10496,7 @@ if
 pn2
 )
 return
-JS_FALSE
+false
 ;
 pn2
 -
@@ -10541,7 +10541,7 @@ pn
 )
 )
 return
-JS_FALSE
+false
 ;
 pn
 -
@@ -11162,7 +11162,7 @@ parser
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -11242,7 +11242,7 @@ PND_INITIALIZED
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -11336,7 +11336,7 @@ JSMSG_BAD_LEFTSIDE_OF_ASS
 )
 )
 return
-JS_FALSE
+false
 ;
 break
 ;
@@ -11381,11 +11381,11 @@ JSMSG_BAD_LEFTSIDE_OF_ASS
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -11910,7 +11910,7 @@ pn
 primaryExpr
 (
 tt
-JS_FALSE
+false
 )
 ;
 tc
@@ -18963,7 +18963,7 @@ pn2
 primaryExpr
 (
 tt
-JS_FALSE
+false
 )
 ;
 tc
@@ -21471,7 +21471,7 @@ JSMSG_BAD_INCOP_OPERAND
 )
 )
 return
-JS_FALSE
+false
 ;
 #
 if
@@ -21550,7 +21550,7 @@ op
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 ParseNode
@@ -21753,7 +21753,7 @@ pn2
 =
 memberExpr
 (
-JS_TRUE
+true
 )
 ;
 if
@@ -21972,7 +21972,7 @@ pn
 =
 memberExpr
 (
-JS_TRUE
+true
 )
 ;
 if
@@ -23837,7 +23837,7 @@ pn3
 primaryExpr
 (
 tt
-JS_FALSE
+false
 )
 ;
 tc
@@ -25022,7 +25022,7 @@ TSF_OPERAND
 )
 )
 return
-JS_TRUE
+true
 ;
 GenexpGuard
 guard
@@ -25051,7 +25051,7 @@ if
 argNode
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -25104,7 +25104,7 @@ js_yield_str
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 #
@@ -25133,7 +25133,7 @@ argNode
 )
 )
 return
-JS_FALSE
+false
 ;
 argNode
 =
@@ -25148,7 +25148,7 @@ if
 argNode
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -25178,7 +25178,7 @@ js_generator_str
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -25199,7 +25199,7 @@ argNode
 )
 )
 return
-JS_FALSE
+false
 ;
 arg0
 =
@@ -25243,11 +25243,11 @@ JSMSG_PAREN_AFTER_ARGS
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 ParseNode
@@ -25315,7 +25315,7 @@ ctorExpr
 =
 memberExpr
 (
-JS_FALSE
+false
 )
 ;
 if
@@ -25424,7 +25424,7 @@ lhs
 primaryExpr
 (
 tt
-JS_FALSE
+false
 )
 ;
 if
@@ -25958,7 +25958,7 @@ pn3
 primaryExpr
 (
 tt
-JS_TRUE
+true
 )
 ;
 if
@@ -27533,7 +27533,7 @@ pn2
 =
 xmlExpr
 (
-JS_TRUE
+true
 )
 ;
 if
@@ -28032,7 +28032,7 @@ pn2
 =
 xmlExpr
 (
-JS_TRUE
+true
 )
 ;
 pn
@@ -28183,7 +28183,7 @@ TSF_XMLTEXTMODE
 XML_CHECK_FOR_ERROR_AND_EOF
 (
 tt
-JS_FALSE
+false
 )
 ;
 JS_ASSERT
@@ -28293,7 +28293,7 @@ TSF_OPERAND
 XML_CHECK_FOR_ERROR_AND_EOF
 (
 tt
-JS_FALSE
+false
 )
 ;
 if
@@ -28321,7 +28321,7 @@ pn2
 =
 xmlExpr
 (
-JS_FALSE
+false
 )
 ;
 if
@@ -28354,7 +28354,7 @@ pn2
 =
 xmlElementOrList
 (
-JS_FALSE
+false
 )
 ;
 if
@@ -28528,7 +28528,7 @@ TOK_XMLETAGO
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 ParseNode
@@ -31969,7 +31969,7 @@ pn
 =
 xmlElementOrListRoot
 (
-JS_TRUE
+true
 )
 ;
 if
@@ -32503,7 +32503,7 @@ genexp
 *
 genexp
 =
-JS_FALSE
+false
 ;
 GenexpGuard
 guard
@@ -32677,7 +32677,7 @@ end
 *
 genexp
 =
-JS_TRUE
+true
 ;
 }
 }
