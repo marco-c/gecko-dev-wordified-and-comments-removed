@@ -432,11 +432,6 @@ FORCE_STATIC_LIB
 EXPORT_LIBRARY
 =
 1
-EXPORTS
-=
-TabMessageUtils
-.
-h
 EXPORTS_NAMESPACES
 =
 mozilla
@@ -493,10 +488,6 @@ TabParent
 cpp
 \
 TabChild
-.
-cpp
-\
-TabMessageUtils
 .
 cpp
 \
