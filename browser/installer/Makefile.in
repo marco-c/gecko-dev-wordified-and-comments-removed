@@ -456,6 +456,9 @@ package
 manifest
 .
 in
+MOZ_PKG_FATAL_WARNINGS
+=
+1
 MOZ_NONLOCALIZED_PKG_LIST
 =
 \
