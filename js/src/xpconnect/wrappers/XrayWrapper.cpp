@@ -1443,7 +1443,7 @@ true
 ;
 }
 extern
-JSCrossCompartmentWrapper
+CrossOriginWrapper
 XrayWrapperWaivedWrapper
 ;
 static
