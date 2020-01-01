@@ -329,13 +329,13 @@ SurfaceDescriptorX11
 struct
 YUVImage
 {
-Shmem
+SurfaceDescriptor
 Ydata
 ;
-Shmem
+SurfaceDescriptor
 Udata
 ;
-Shmem
+SurfaceDescriptor
 Vdata
 ;
 nsIntRect
