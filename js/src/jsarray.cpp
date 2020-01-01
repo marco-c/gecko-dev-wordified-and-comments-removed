@@ -9721,8 +9721,8 @@ rval
 )
 ;
 }
-JS_FASTCALL
 JSBool
+JS_FASTCALL
 js_ArrayCompPush
 (
 JSContext
