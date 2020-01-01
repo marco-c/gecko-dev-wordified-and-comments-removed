@@ -194,6 +194,10 @@ ClearOnShutdown
 .
 cpp
 \
+VisualEventTracer
+.
+cpp
+\
 (
 NULL
 )
@@ -306,6 +310,10 @@ AvailableMemoryTracker
 h
 \
 StackWalk
+.
+h
+\
+VisualEventTracer
 .
 h
 \
