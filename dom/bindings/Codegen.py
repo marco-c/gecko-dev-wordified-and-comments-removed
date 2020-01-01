@@ -43857,7 +43857,7 @@ JSObject
 *
 '
 '
-wrapper
+wrapper_
 '
 )
                 
@@ -43877,7 +43877,7 @@ Argument
 jsid
 '
 '
-id
+id_
 '
 )
                 
@@ -43957,6 +43957,28 @@ to
 filter
 here
 .
+  
+js
+:
+:
+RootedObject
+wrapper
+(
+cx
+wrapper_
+)
+;
+  
+js
+:
+:
+RootedId
+id
+(
+cx
+id_
+)
+;
   
 return
 js
@@ -46144,8 +46166,14 @@ cx
 Argument
 (
 '
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 '
 '
 proxy
@@ -46155,7 +46183,13 @@ proxy
 Argument
 (
 '
+JS
+:
+:
+Handle
+<
 jsid
+>
 '
 '
 id
