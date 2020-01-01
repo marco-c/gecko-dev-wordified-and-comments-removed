@@ -714,12 +714,11 @@ UsingXCompositing
 )
 )
 {
-XSync
+FinishX
 (
 DefaultXDisplay
 (
 )
-False
 )
 ;
 }

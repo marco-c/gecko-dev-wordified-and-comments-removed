@@ -536,6 +536,12 @@ mMaxTextureSize
 aMaxTextureSize
 ;
 }
+static
+void
+PlatformSyncBeforeUpdate
+(
+)
+;
 protected
 :
 ShadowLayerForwarder
@@ -711,12 +717,6 @@ PlatformDestroySharedSurface
 SurfaceDescriptor
 *
 aSurface
-)
-;
-static
-void
-PlatformSyncBeforeUpdate
-(
 )
 ;
 Transaction

@@ -464,17 +464,7 @@ virtual
 BasicShadowableThebesLayer
 (
 )
-{
-DestroyBackBuffer
-(
-)
 ;
-MOZ_COUNT_DTOR
-(
-BasicShadowableThebesLayer
-)
-;
-}
 virtual
 void
 PaintThebes
