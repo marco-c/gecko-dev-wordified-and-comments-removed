@@ -852,6 +852,12 @@ nsIContent
 aOriginatingElement
 )
 ;
+PRBool
+CheckFormValidity
+(
+)
+const
+;
 public
 :
 void

@@ -1119,7 +1119,7 @@ NS_INTERFACE_TABLE_HEAD_CYCLE_COLLECTION_INHERITED
 (
 nsHTMLInputElement
 )
-NS_HTML_CONTENT_INTERFACE_TABLE8
+NS_HTML_CONTENT_INTERFACE_TABLE9
 (
 nsHTMLInputElement
 nsIDOMHTMLInputElement
@@ -1130,6 +1130,7 @@ imgIDecoderObserver
 nsIImageLoadingContent
 imgIContainerObserver
 nsIDOMNSEditableElement
+nsConstraintValidation
 )
 NS_HTML_CONTENT_INTERFACE_TABLE_TO_MAP_SEGUE
 (
@@ -10698,7 +10699,6 @@ if
 (
 IsCandidateForConstraintValidation
 (
-this
 )
 )
 {
@@ -11947,9 +11947,6 @@ nsAString
 aError
 )
 {
-nsresult
-rv
-=
 nsConstraintValidation
 :
 :
@@ -11985,7 +11982,7 @@ NS_EVENT_STATE_VALID
 ;
 }
 return
-rv
+NS_OK
 ;
 }
 PRBool

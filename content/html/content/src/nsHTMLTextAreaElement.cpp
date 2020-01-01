@@ -1102,7 +1102,7 @@ NS_INTERFACE_TABLE_HEAD_CYCLE_COLLECTION_INHERITED
 (
 nsHTMLTextAreaElement
 )
-NS_HTML_CONTENT_INTERFACE_TABLE5
+NS_HTML_CONTENT_INTERFACE_TABLE6
 (
 nsHTMLTextAreaElement
 nsIDOMHTMLTextAreaElement
@@ -1110,6 +1110,7 @@ nsIDOMNSHTMLTextAreaElement
 nsITextControlElement
 nsIDOMNSEditableElement
 nsIMutationObserver
+nsConstraintValidation
 )
 NS_HTML_CONTENT_INTERFACE_TABLE_TO_MAP_SEGUE
 (
@@ -3538,7 +3539,6 @@ if
 (
 IsCandidateForConstraintValidation
 (
-this
 )
 )
 {
@@ -4061,9 +4061,6 @@ nsAString
 aError
 )
 {
-nsresult
-rv
-=
 nsConstraintValidation
 :
 :
@@ -4099,7 +4096,7 @@ NS_EVENT_STATE_VALID
 ;
 }
 return
-rv
+NS_OK
 ;
 }
 PRBool

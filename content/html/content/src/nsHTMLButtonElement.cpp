@@ -584,10 +584,11 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLButtonElement
 )
-NS_HTML_CONTENT_INTERFACE_TABLE1
+NS_HTML_CONTENT_INTERFACE_TABLE2
 (
 nsHTMLButtonElement
 nsIDOMHTMLButtonElement
+nsConstraintValidation
 )
 NS_HTML_CONTENT_INTERFACE_TABLE_TO_MAP_SEGUE
 (
@@ -2454,7 +2455,6 @@ if
 (
 IsCandidateForConstraintValidation
 (
-this
 )
 )
 {
@@ -2488,9 +2488,6 @@ nsAString
 aError
 )
 {
-nsresult
-rv
-=
 nsConstraintValidation
 :
 :
@@ -2526,7 +2523,7 @@ NS_EVENT_STATE_VALID
 ;
 }
 return
-rv
+NS_OK
 ;
 }
 PRBool

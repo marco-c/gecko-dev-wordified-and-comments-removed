@@ -1884,6 +1884,12 @@ IsLabelableControl
 )
 const
 ;
+PRBool
+IsSubmittableControl
+(
+)
+const
+;
 virtual
 nsresult
 BindToTree
