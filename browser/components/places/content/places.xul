@@ -2779,6 +2779,11 @@ menubar
 endif
 <
 spacer
+id
+=
+"
+libraryToolbarSpacer
+"
 flex
 =
 "
