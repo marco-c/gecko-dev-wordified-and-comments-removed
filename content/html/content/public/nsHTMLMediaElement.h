@@ -117,6 +117,13 @@ Mutex
 .
 h
 "
+#
+include
+"
+nsTimeRanges
+.
+h
+"
 typedef
 PRUint16
 nsMediaNetworkState
@@ -1363,6 +1370,12 @@ nsRefPtr
 nsAudioStream
 >
 mAudioStream
+;
+nsTimeRanges
+mPlayed
+;
+double
+mCurrentPlayRangeStart
 ;
 bool
 mAllowAudioData

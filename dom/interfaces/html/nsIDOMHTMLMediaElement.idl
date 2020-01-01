@@ -751,6 +751,11 @@ paused
 readonly
 attribute
 nsIDOMTimeRanges
+played
+;
+readonly
+attribute
+nsIDOMTimeRanges
 seekable
 ;
 readonly
