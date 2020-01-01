@@ -508,9 +508,8 @@ BYTES
 description
 :
 "
-(
-description
-)
+Desc
+.
 "
 amount
 :
