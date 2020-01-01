@@ -4924,6 +4924,13 @@ toolkit
 /
 mozapps
 /
+readstrings
+/
+Makefile
+toolkit
+/
+mozapps
+/
 update
 /
 Makefile
