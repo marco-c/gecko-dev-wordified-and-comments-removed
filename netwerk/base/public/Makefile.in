@@ -591,6 +591,10 @@ nsIPermissionManager
 .
 idl
 \
+nsIPrivateBrowsingService
+.
+idl
+\
 nsIProgressEventSink
 .
 idl
