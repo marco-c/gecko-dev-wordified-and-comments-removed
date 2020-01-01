@@ -456,6 +456,12 @@ close
 ;
 }
 }
+executeSoon
+(
+function
+(
+)
+{
 let
 currentTest
 =
@@ -481,6 +487,9 @@ waitForBrowserState
 (
 testState
 currentTest
+)
+;
+}
 )
 ;
 }
@@ -1951,6 +1960,12 @@ close
 (
 )
 ;
+executeSoon
+(
+function
+(
+)
+{
 reopenedWindow
 =
 ss
@@ -2023,6 +2038,9 @@ false
 ;
 }
 false
+)
+;
+}
 )
 ;
 }
@@ -2132,8 +2150,9 @@ close
 (
 )
 ;
-runNextTest
+executeSoon
 (
+runNextTest
 )
 ;
 }

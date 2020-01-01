@@ -1596,6 +1596,13 @@ close
 (
 )
 ;
+executeSoon
+(
+moveAlong
+)
+;
+yield
+;
 let
 pbWin
 =

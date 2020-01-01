@@ -1721,6 +1721,12 @@ close
 (
 )
 ;
+executeSoon
+(
+function
+(
+)
+{
 win
 =
 ss
@@ -1760,6 +1766,9 @@ whenDelayedStartupFinished
 (
 win
 check
+)
+;
+}
 )
 ;
 }
