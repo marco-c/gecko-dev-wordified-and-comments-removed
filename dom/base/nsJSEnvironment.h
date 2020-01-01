@@ -467,12 +467,6 @@ IsContextInitialized
 ;
 virtual
 void
-FinalizeContext
-(
-)
-;
-virtual
-void
 ScriptEvaluated
 (
 bool
