@@ -2189,7 +2189,7 @@ GetVisibleRegion
 gfxUtils
 :
 :
-ClipToRegion
+ClipToRegionSnapped
 (
 aTarget
 aLayer
