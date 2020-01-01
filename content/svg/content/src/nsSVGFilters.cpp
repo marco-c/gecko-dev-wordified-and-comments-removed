@@ -23249,7 +23249,9 @@ if
 x
 =
 =
-0
+rect
+.
+x
 )
 {
 xflag
@@ -23265,7 +23267,9 @@ x
 =
 rect
 .
-width
+XMost
+(
+)
 -
 1
 )
@@ -23287,7 +23291,9 @@ if
 y
 =
 =
-0
+rect
+.
+y
 )
 {
 yflag
@@ -23303,7 +23309,9 @@ y
 =
 rect
 .
-height
+YMost
+(
+)
 -
 1
 )
