@@ -13320,7 +13320,7 @@ pluginEvent
 wParam
 =
 (
-uint32
+uint32_t
 )
 aHPS
 ;
@@ -13329,7 +13329,7 @@ pluginEvent
 lParam
 =
 (
-uint32
+uint32_t
 )
 &
 rectl

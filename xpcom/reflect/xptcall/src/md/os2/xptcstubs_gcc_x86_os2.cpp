@@ -38,7 +38,7 @@ regparm
 )
 PrepareAndDispatch
 (
-uint32
+uint32_t
 methodIndex
 nsXPTCStubBase
 *

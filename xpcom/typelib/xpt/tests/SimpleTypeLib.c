@@ -206,7 +206,7 @@ FILE
 *
 out
 ;
-uint32
+uint32_t
 len
 header_sz
 ;

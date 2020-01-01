@@ -871,7 +871,7 @@ aIdval
 )
 )
 ;
-int32
+int32_t
 slot
 =
 JSID_TO_INT
@@ -2256,7 +2256,7 @@ aIdval
 )
 )
 ;
-int32
+int32_t
 slot
 =
 JSID_TO_INT
@@ -2823,7 +2823,7 @@ aMessage
 JSString
 *
 aFilename
-uint32
+uint32_t
 aLineNumber
 bool
 aMainRuntime
@@ -3065,7 +3065,7 @@ aMessage
 JSString
 *
 aFilename
-uint32
+uint32_t
 aLineNumber
 bool
 aIsTrusted
@@ -3200,7 +3200,7 @@ aIdval
 )
 )
 ;
-int32
+int32_t
 slot
 =
 JSID_TO_INT
@@ -3990,7 +3990,7 @@ aIdval
 )
 )
 ;
-int32
+int32_t
 slot
 =
 JSID_TO_INT
@@ -4555,7 +4555,7 @@ aMessage
 JSString
 *
 aFilename
-uint32
+uint32_t
 aLineNumber
 bool
 aMainRuntime

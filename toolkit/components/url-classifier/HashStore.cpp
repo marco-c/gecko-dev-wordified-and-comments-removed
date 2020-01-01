@@ -196,13 +196,13 @@ namespace
 safebrowsing
 {
 const
-uint32
+uint32_t
 STORE_MAGIC
 =
 0x1231af3b
 ;
 const
-uint32
+uint32_t
 CURRENT_VERSION
 =
 2
@@ -1085,7 +1085,7 @@ rv
 )
 ;
 const
-uint32
+uint32_t
 CHECKSUM_SIZE
 =
 16
@@ -1415,7 +1415,7 @@ do_QueryInterface
 mInputStream
 )
 ;
-uint32
+uint32_t
 offset
 =
 sizeof
@@ -1438,7 +1438,7 @@ numSubChunks
 *
 sizeof
 (
-uint32
+uint32_t
 )
 ;
 nsresult
@@ -2932,7 +2932,7 @@ count
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -3181,7 +3181,7 @@ count
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -3278,7 +3278,7 @@ count
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -3387,7 +3387,7 @@ count
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -3774,7 +3774,7 @@ T
 iterEnd
 )
 {
-uint32
+uint32_t
 start
 =
 iterStart
@@ -3786,7 +3786,7 @@ Elements
 (
 )
 ;
-uint32
+uint32_t
 count
 =
 iterEnd
@@ -3920,7 +3920,7 @@ subIter
 subEnd
 )
 {
-int32
+int32_t
 cmp
 =
 addIter
@@ -4102,7 +4102,7 @@ removeIter
 removeEnd
 )
 {
-int32
+int32_t
 cmp
 =
 removeIter
@@ -4604,7 +4604,7 @@ uint32_t
 aPrefixes
 )
 {
-uint32
+uint32_t
 cnt
 =
 aPrefixes
@@ -4665,7 +4665,7 @@ NS_ERROR_FAILURE
 }
 for
 (
-uint32
+uint32_t
 i
 =
 0

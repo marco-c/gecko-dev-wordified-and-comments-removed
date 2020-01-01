@@ -114,13 +114,13 @@ namespace
 safebrowsing
 {
 const
-uint32
+uint32_t
 LOOKUPCACHE_MAGIC
 =
 0x1231af3e
 ;
 const
-uint32
+uint32_t
 CURRENT_VERSION
 =
 1
@@ -625,7 +625,7 @@ Length
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -745,7 +745,7 @@ return
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -3189,7 +3189,7 @@ Length
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0

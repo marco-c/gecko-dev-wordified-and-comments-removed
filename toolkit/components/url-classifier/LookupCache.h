@@ -475,13 +475,13 @@ aAddPrefixes
 struct
 Header
 {
-uint32
+uint32_t
 magic
 ;
-uint32
+uint32_t
 version
 ;
-uint32
+uint32_t
 numCompletions
 ;
 }

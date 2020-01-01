@@ -56,7 +56,7 @@ PrepareAndDispatch
 nsXPTCStubBase
 *
 self
-uint32
+uint32_t
 methodIndex
 uint32_t
 *
@@ -76,7 +76,7 @@ PrepareAndDispatch
 nsXPTCStubBase
 *
 self
-uint32
+uint32_t
 methodIndex
 uint32_t
 *

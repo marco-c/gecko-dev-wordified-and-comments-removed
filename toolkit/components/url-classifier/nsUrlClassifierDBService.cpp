@@ -2111,7 +2111,7 @@ Forwards
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -3930,7 +3930,7 @@ cacheMisses
 {
 for
 (
-uint32
+uint32_t
 i
 =
 0

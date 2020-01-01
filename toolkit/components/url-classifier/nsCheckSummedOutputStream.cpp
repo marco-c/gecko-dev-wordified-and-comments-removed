@@ -227,7 +227,7 @@ Update
 reinterpret_cast
 <
 const
-uint8
+uint8_t
 *
 >
 (

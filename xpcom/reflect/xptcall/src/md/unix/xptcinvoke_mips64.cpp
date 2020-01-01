@@ -30,7 +30,7 @@ extern
 "
 C
 "
-uint32
+uint32_t
 invoke_count_words
 (
 uint32_t

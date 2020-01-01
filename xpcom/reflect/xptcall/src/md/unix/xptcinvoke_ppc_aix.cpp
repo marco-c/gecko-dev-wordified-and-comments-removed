@@ -69,10 +69,10 @@ fprData
 typedef
 struct
 {
-uint32
+uint32_t
 hi
 ;
-uint32
+uint32_t
 lo
 ;
 }
@@ -80,7 +80,7 @@ DU
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -145,7 +145,7 @@ T_I8
 *
 (
 (
-int32
+int32_t
 *
 )
 l_d
@@ -169,7 +169,7 @@ T_I16
 *
 (
 (
-int32
+int32_t
 *
 )
 l_d
@@ -193,7 +193,7 @@ T_I32
 *
 (
 (
-int32
+int32_t
 *
 )
 l_d
@@ -223,7 +223,7 @@ T_U64
 *
 (
 (
-uint32
+uint32_t
 *
 )
 l_d
@@ -245,7 +245,7 @@ hi
 *
 (
 (
-uint32
+uint32_t
 *
 )
 l_d
@@ -273,7 +273,7 @@ T_DOUBLE
 *
 (
 (
-uint32
+uint32_t
 *
 )
 l_d
@@ -295,7 +295,7 @@ hi
 *
 (
 (
-uint32
+uint32_t
 *
 )
 l_d
@@ -343,7 +343,7 @@ T_U8
 *
 (
 (
-uint32
+uint32_t
 *
 )
 l_d
@@ -367,7 +367,7 @@ T_U16
 *
 (
 (
-uint32
+uint32_t
 *
 )
 l_d
@@ -391,7 +391,7 @@ T_U32
 *
 (
 (
-uint32
+uint32_t
 *
 )
 l_d
@@ -459,7 +459,7 @@ T_BOOL
 *
 (
 (
-uint32
+uint32_t
 *
 )
 l_d
@@ -483,7 +483,7 @@ T_CHAR
 *
 (
 (
-uint32
+uint32_t
 *
 )
 l_d
@@ -507,7 +507,7 @@ T_WCHAR
 *
 (
 (
-int32
+int32_t
 *
 )
 l_d

@@ -887,7 +887,7 @@ true
 PIMAGE_IMPORT_DESCRIPTOR
 desc
 ;
-uint32
+uint32_t
 size
 ;
 desc

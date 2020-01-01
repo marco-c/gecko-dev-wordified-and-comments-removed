@@ -518,7 +518,7 @@ aIdval
 )
 )
 ;
-int32
+int32_t
 slot
 =
 JSID_TO_INT

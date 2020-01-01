@@ -15818,7 +15818,7 @@ ClearTimeout
 JSContext
 *
 aCx
-uint32
+uint32_t
 aId
 )
 {

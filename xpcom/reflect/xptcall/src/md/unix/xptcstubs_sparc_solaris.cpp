@@ -34,9 +34,9 @@ PrepareAndDispatch
 nsXPTCStubBase
 *
 self
-uint32
+uint32_t
 methodIndex
-uint32
+uint32_t
 *
 args
 )
@@ -44,10 +44,10 @@ args
 typedef
 struct
 {
-uint32
+uint32_t
 hi
 ;
-uint32
+uint32_t
 lo
 ;
 }

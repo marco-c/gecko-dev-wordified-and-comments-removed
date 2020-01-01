@@ -4068,7 +4068,7 @@ space
 to
 pop
 a
-uint8
+uint8_t
 !
 "
 )
@@ -4122,7 +4122,7 @@ space
 to
 pop
 a
-uint16
+uint16_t
 !
 "
 )
@@ -4182,7 +4182,7 @@ space
 to
 pop
 a
-uint32
+uint32_t
 !
 "
 )

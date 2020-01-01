@@ -439,7 +439,7 @@ params
 i
 ]
 ;
-uint8
+uint8_t
 flags
 =
 paramInfo
