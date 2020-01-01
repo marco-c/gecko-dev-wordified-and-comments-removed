@@ -3787,7 +3787,7 @@ cachedir
 "
         
 for
-filename
+fileglobs
 in
 [
 os
@@ -3809,16 +3809,29 @@ in
 xpidllex
 .
 py
+*
 "
 "
 xpidlyacc
 .
 py
+*
 "
 ]
 ]
 :
             
+for
+filename
+in
+glob
+.
+glob
+(
+fileglobs
+)
+:
+                
 os
 .
 remove
