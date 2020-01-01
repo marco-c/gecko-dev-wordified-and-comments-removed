@@ -3552,6 +3552,10 @@ mCg
 =
 NULL
 ;
+mData
+=
+NULL
+;
 return
 false
 ;
@@ -3641,6 +3645,10 @@ mColorSpace
 NULL
 ;
 mCg
+=
+NULL
+;
+mData
 =
 NULL
 ;
