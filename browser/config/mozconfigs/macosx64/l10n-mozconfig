@@ -62,3 +62,15 @@ ac_add_options
 with
 -
 ccache
+.
+"
+topsrcdir
+/
+build
+/
+mozconfig
+.
+common
+.
+override
+"

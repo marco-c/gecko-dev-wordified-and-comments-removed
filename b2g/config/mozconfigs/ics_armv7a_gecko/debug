@@ -185,3 +185,17 @@ ResponseCode
 .
 h
 "
+.
+"
+topsrcdir
+/
+b2g
+/
+config
+/
+mozconfigs
+/
+common
+.
+override
+"

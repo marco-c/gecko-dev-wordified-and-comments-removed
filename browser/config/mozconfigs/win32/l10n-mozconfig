@@ -100,3 +100,15 @@ mozconfig
 .
 vs2010
 fi
+.
+"
+topsrcdir
+/
+build
+/
+mozconfig
+.
+common
+.
+override
+"

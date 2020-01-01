@@ -94,3 +94,17 @@ mozconfig
 .
 vs2010
 fi
+.
+"
+topsrcdir
+/
+xulrunner
+/
+config
+/
+mozconfigs
+/
+common
+.
+override
+"

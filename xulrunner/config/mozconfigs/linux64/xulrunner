@@ -78,3 +78,17 @@ usr
 bin
 /
 ccache
+.
+"
+topsrcdir
+/
+xulrunner
+/
+config
+/
+mozconfigs
+/
+common
+.
+override
+"

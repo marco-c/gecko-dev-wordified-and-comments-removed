@@ -78,3 +78,15 @@ win64
 mozconfig
 .
 vs2010
+.
+"
+topsrcdir
+/
+build
+/
+mozconfig
+.
+common
+.
+override
+"

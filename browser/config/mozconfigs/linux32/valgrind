@@ -47,3 +47,15 @@ freorder
 -
 blocks
 "
+.
+"
+topsrcdir
+/
+build
+/
+mozconfig
+.
+common
+.
+override
+"
