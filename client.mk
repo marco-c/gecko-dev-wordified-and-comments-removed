@@ -3332,7 +3332,6 @@ fi
 ;
 #
 Because
-the
 SpiderMonkey
 can
 be
