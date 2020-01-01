@@ -618,7 +618,7 @@ channelAToBDelegate
 ;
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "
@@ -672,7 +672,7 @@ storeEnd
 {
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "
@@ -685,7 +685,7 @@ onFlowCompleted
 ;
 Logger
 .
-info
+debug
 (
 LOG_TAG
 "
@@ -746,7 +746,7 @@ storeEnd
 {
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "
@@ -759,7 +759,7 @@ onFlowCompleted
 ;
 Logger
 .
-info
+debug
 (
 LOG_TAG
 "
@@ -1407,7 +1407,7 @@ bundle
 {
 Logger
 .
-info
+debug
 (
 LOG_TAG
 "
@@ -1440,7 +1440,7 @@ flowAToBCompleted
 {
 Logger
 .
-info
+debug
 (
 LOG_TAG
 "
@@ -1525,7 +1525,7 @@ null
 {
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "
@@ -1582,7 +1582,7 @@ flowBToACompleted
 {
 Logger
 .
-info
+debug
 (
 LOG_TAG
 "
@@ -1629,7 +1629,7 @@ bundle
 ;
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "

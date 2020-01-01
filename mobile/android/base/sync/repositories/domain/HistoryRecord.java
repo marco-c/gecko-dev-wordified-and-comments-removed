@@ -654,6 +654,10 @@ HistoryRecord
 "
 +
 o
+.
+getClass
+(
+)
 )
 ;
 return
@@ -832,15 +836,12 @@ if
 (
 Logger
 .
-shouldLogVerbose
-(
-LOG_TAG
-)
+LOG_PERSONAL_INFORMATION
 )
 {
 Logger
 .
-trace
+pii
 (
 LOG_TAG
 "
@@ -876,7 +877,7 @@ toJSONString
 ;
 Logger
 .
-trace
+pii
 (
 LOG_TAG
 "

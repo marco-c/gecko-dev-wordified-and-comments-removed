@@ -909,7 +909,7 @@ ex
 }
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "

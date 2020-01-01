@@ -344,7 +344,7 @@ lastModified
 {
 Logger
 .
-info
+debug
 (
 LOG_TAG
 "
@@ -380,7 +380,7 @@ null
 {
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "
@@ -415,7 +415,7 @@ return
 }
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "
@@ -435,7 +435,7 @@ session
 }
 Logger
 .
-info
+debug
 (
 LOG_TAG
 "
@@ -669,7 +669,7 @@ null
 {
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "
@@ -699,7 +699,7 @@ defaultKeyChanged
 {
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "
@@ -728,7 +728,7 @@ changedKeys
 }
 Logger
 .
-info
+debug
 (
 LOG_TAG
 "
@@ -1007,7 +1007,7 @@ persistedKeysExist
 {
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "
@@ -1077,7 +1077,7 @@ isEmpty
 {
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "

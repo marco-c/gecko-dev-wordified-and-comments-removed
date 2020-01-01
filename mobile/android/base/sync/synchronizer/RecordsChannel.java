@@ -490,7 +490,7 @@ InvalidSessionTransitionException
 {
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "
@@ -710,7 +710,7 @@ fetchEnd
 {
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "
@@ -728,7 +728,7 @@ done
 ;
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "
@@ -900,7 +900,7 @@ storeEnd
 {
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "
@@ -977,7 +977,7 @@ source
 {
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "
@@ -1027,7 +1027,7 @@ sink
 {
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "

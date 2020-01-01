@@ -262,11 +262,11 @@ return
 }
 Logger
 .
-debug
+pii
 (
 LOG_TAG
 "
-username
+Username
 :
 "
 +
@@ -279,7 +279,7 @@ debug
 (
 LOG_TAG
 "
-running
+Running
 first
 stage
 .

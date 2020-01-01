@@ -1944,7 +1944,7 @@ byteCount
 {
 Logger
 .
-info
+debug
 (
 LOG_TAG
 "
@@ -2032,7 +2032,7 @@ response
 {
 Logger
 .
-info
+trace
 (
 LOG_TAG
 "
@@ -2134,7 +2134,7 @@ null
 {
 Logger
 .
-debug
+trace
 (
 LOG_TAG
 "
@@ -2249,7 +2249,7 @@ size
 {
 Logger
 .
-debug
+trace
 (
 LOG_TAG
 "
@@ -2321,7 +2321,7 @@ response
 ;
 Logger
 .
-debug
+trace
 (
 LOG_TAG
 "
@@ -2471,7 +2471,7 @@ return
 }
 Logger
 .
-info
+debug
 (
 LOG_TAG
 "
@@ -2533,10 +2533,8 @@ LOG_TAG
 Got
 request
 error
-:
+.
 "
-+
-ex
 ex
 )
 ;

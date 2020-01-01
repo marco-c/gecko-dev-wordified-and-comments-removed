@@ -399,11 +399,11 @@ AUTH_NODE_SUFFIX
 ;
 Logger
 .
-debug
+pii
 (
 LOG_TAG
 "
-nodeUrl
+NodeUrl
 :
 "
 +
