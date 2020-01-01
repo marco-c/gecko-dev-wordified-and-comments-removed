@@ -447,10 +447,6 @@ test_bug519928
 .
 html
 \
-bug678842_subframe
-.
-html
-\
 (
 NULL
 )
@@ -462,10 +458,6 @@ test_bug434998
 xul
 \
 test_bug338427
-.
-html
-\
-test_bug678842
 .
 html
 \
