@@ -955,7 +955,7 @@ handleCtrlTab
 =
 false
 ;
-window
+document
 .
 addEventListener
 (
@@ -963,7 +963,7 @@ addEventListener
 keypress
 "
 this
-true
+false
 )
 ;
 }
@@ -1032,7 +1032,7 @@ this
 false
 )
 ;
-window
+document
 .
 removeEventListener
 (
@@ -1040,7 +1040,7 @@ removeEventListener
 keypress
 "
 this
-true
+false
 )
 ;
 }
@@ -2955,7 +2955,7 @@ _deferOnTabSelect
 [
 ]
 ;
-window
+document
 .
 addEventListener
 (
@@ -2963,10 +2963,10 @@ addEventListener
 keyup
 "
 this
-true
+false
 )
 ;
-window
+document
 .
 addEventListener
 (
@@ -2974,7 +2974,7 @@ addEventListener
 keydown
 "
 this
-true
+false
 )
 ;
 this
@@ -3389,7 +3389,7 @@ stopScroll
 (
 )
 ;
-window
+document
 .
 removeEventListener
 (
@@ -3397,10 +3397,10 @@ removeEventListener
 keyup
 "
 this
-true
+false
 )
 ;
-window
+document
 .
 removeEventListener
 (
@@ -3408,7 +3408,7 @@ removeEventListener
 keydown
 "
 this
-true
+false
 )
 ;
 while
