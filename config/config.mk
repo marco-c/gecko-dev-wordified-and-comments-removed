@@ -4798,6 +4798,9 @@ OPTIMIZE_JARS_CMD
 PYTHON
 )
 (
+call
+core_abspath
+(
 topsrcdir
 )
 /
@@ -4806,3 +4809,4 @@ config
 optimizejars
 .
 py
+)
