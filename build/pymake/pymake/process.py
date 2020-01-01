@@ -1553,9 +1553,12 @@ self
         
 oldenv
 =
+dict
+(
 os
 .
 environ
+)
         
 try
 :
@@ -1572,10 +1575,21 @@ cwd
 os
 .
 environ
-=
+.
+clear
+(
+)
+            
+os
+.
+environ
+.
+update
+(
 self
 .
 env
+)
             
 if
 self
@@ -1874,8 +1888,19 @@ finally
 os
 .
 environ
-=
+.
+clear
+(
+)
+            
+os
+.
+environ
+.
+update
+(
 oldenv
+)
         
 return
 0
