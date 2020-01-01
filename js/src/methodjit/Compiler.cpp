@@ -3021,10 +3021,10 @@ cx
 types
 :
 :
-AutoEnterCompilation
+CompilerOutput
 :
 :
-JM
+MethodJIT
 )
 ;
 if
