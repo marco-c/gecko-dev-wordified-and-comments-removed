@@ -562,6 +562,10 @@ nsPlacesExpiration
 .
 js
 \
+nsMicrosummaryService
+.
+js
+\
 (
 NULL
 )

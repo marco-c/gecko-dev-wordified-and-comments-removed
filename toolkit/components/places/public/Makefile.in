@@ -482,6 +482,10 @@ mozIPlacesAutoComplete
 .
 idl
 \
+nsIMicrosummaryService
+.
+idl
+\
 (
 NULL
 )
