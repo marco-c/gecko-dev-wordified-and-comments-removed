@@ -4535,7 +4535,7 @@ NULL
 NULL
 NULL
 NULL
-NULL
+array_trace
 JS_NULL_CLASS_EXT
 {
 array_lookupProperty
@@ -4547,7 +4547,6 @@ array_setAttributes
 array_deleteProperty
 NULL
 array_typeOf
-array_trace
 array_fix
 NULL
 NULL
