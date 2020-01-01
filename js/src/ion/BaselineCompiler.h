@@ -168,6 +168,11 @@ JSOP_POP
 \
 _
 (
+JSOP_POPN
+)
+\
+_
+(
 JSOP_DUP
 )
 \
