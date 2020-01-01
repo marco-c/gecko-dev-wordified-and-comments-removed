@@ -534,6 +534,8 @@ DIRS
 \
 autocomplete
 \
+satchel
+\
 (
 NULL
 )
@@ -546,13 +548,6 @@ DIRS
 +
 =
 search
-endif
-ifdef
-MOZ_XUL
-DIRS
-+
-=
-satchel
 endif
 endif
 #
