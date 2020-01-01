@@ -20084,10 +20084,6 @@ AC_DEFINE
 (
 JS_CPU_X64
 )
-AC_DEFINE
-(
-JS_64BIT
-)
 ;
 ;
 arm

@@ -243,6 +243,9 @@ NULL
 {
 NULL
 }
+#
+ifdef
+CHECK_SCRIPT_OWNER
 reinterpret_cast
 <
 JSThread
@@ -251,6 +254,8 @@ JSThread
 (
 1
 )
+#
+endif
 }
 ;
 #
