@@ -1068,6 +1068,7 @@ aData
 localDir
 (
 aManifest
+aZipPath
 )
 =
 >
@@ -1089,6 +1090,7 @@ install
 (
 aData
 aManifest
+aZipPath
 )
 ;
 if
