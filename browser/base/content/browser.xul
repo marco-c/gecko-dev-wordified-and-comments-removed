@@ -1077,6 +1077,11 @@ browsingmode
 "
 normal
 "
+fullscreenbutton
+=
+"
+true
+"
 persist
 =
 "
