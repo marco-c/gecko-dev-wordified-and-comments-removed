@@ -490,6 +490,9 @@ ContentAppended
 nsIContent
 *
 aContainer
+nsIContent
+*
+aFirstNewContent
 PRInt32
 aNewIndexInContainer
 )
@@ -512,6 +515,7 @@ aContainer
 (
 doc
 aContainer
+aFirstNewContent
 aNewIndexInContainer
 )
 )

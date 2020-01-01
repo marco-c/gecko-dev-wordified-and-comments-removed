@@ -7912,8 +7912,10 @@ aDocument
 nsIContent
 *
 aContainer
+nsIContent
+*
+aFirstNewContent
 PRInt32
-aNewIndexInContainer
 )
 {
 ContentInserted
@@ -7921,7 +7923,7 @@ ContentInserted
 aDocument
 aContainer
 nsnull
-aNewIndexInContainer
+0
 )
 ;
 }
@@ -7941,7 +7943,6 @@ nsIContent
 *
 aChild
 PRInt32
-aIndexInContainer
 )
 {
 if

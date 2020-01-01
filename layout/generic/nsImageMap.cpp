@@ -4426,8 +4426,10 @@ aDocument
 nsIContent
 *
 aContainer
+nsIContent
+*
+aFirstNewContent
 PRInt32
-aNewIndexInContainer
 )
 {
 MaybeUpdateAreas
@@ -4452,7 +4454,6 @@ nsIContent
 *
 aChild
 PRInt32
-aIndexInContainer
 )
 {
 MaybeUpdateAreas

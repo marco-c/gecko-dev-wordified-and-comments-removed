@@ -15534,6 +15534,7 @@ nsNodeUtils
 ContentAppended
 (
 parent
+aKid
 aIndex
 )
 ;
@@ -18125,6 +18126,15 @@ firstInsPos
 =
 insPos
 ;
+nsIContent
+*
+firstInsertedContent
+=
+fragChildren
+[
+0
+]
+;
 for
 (
 i
@@ -18193,6 +18203,7 @@ nsIContent
 (
 this
 )
+firstInsertedContent
 firstInsPos
 )
 ;
@@ -18237,6 +18248,7 @@ nsIContent
 (
 this
 )
+firstInsertedContent
 firstInsPos
 )
 ;

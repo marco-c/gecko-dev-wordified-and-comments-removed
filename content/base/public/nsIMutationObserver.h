@@ -158,6 +158,9 @@ aDocument
 nsIContent
 *
 aContainer
+nsIContent
+*
+aFirstNewContent
 PRInt32
 aNewIndexInContainer
 )
@@ -343,6 +346,10 @@ aDocument
 nsIContent
 *
 aContainer
+\
+nsIContent
+*
+aFirstNewContent
 \
 PRInt32
 aNewIndexInContainer
@@ -596,6 +603,10 @@ aDocument
 nsIContent
 *
 aContainer
+\
+nsIContent
+*
+aFirstNewContent
 \
 PRInt32
 aNewIndexInContainer

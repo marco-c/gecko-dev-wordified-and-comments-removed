@@ -5563,6 +5563,13 @@ nsNodeUtils
 ContentAppended
 (
 aContainer
+aContainer
+-
+>
+GetChildAt
+(
+aStartIndex
+)
 aStartIndex
 )
 ;

@@ -2685,8 +2685,10 @@ aDocument
 nsIContent
 *
 aContainer
+nsIContent
+*
+aFirstNewContent
 PRInt32
-aNewIndexInContainer
 )
 {
 DocumentMutated
@@ -2710,7 +2712,6 @@ nsIContent
 *
 aChild
 PRInt32
-aIndexInContainer
 )
 {
 DocumentMutated

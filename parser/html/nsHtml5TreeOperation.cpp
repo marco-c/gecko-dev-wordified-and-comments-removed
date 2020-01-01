@@ -801,6 +801,7 @@ nsNodeUtils
 ContentAppended
 (
 aParent
+aNode
 childCount
 )
 ;
@@ -1203,6 +1204,13 @@ nsNodeUtils
 ContentAppended
 (
 parent
+parent
+-
+>
+GetChildAt
+(
+childCount
+)
 childCount
 )
 ;

@@ -4878,8 +4878,10 @@ aDocument
 nsIContent
 *
 aContainer
+nsIContent
+*
+aFirstNewContent
 PRInt32
-aNewIndexInContainer
 )
 {
 mStylesheet
@@ -4903,7 +4905,6 @@ nsIContent
 *
 aChild
 PRInt32
-aIndexInContainer
 )
 {
 mStylesheet

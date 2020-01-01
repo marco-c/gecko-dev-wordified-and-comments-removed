@@ -3310,6 +3310,13 @@ nsNodeUtils
 ContentAppended
 (
 container
+container
+-
+>
+GetChildAt
+(
+newIndexInContainer
+)
 newIndexInContainer
 )
 ;

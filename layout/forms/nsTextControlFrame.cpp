@@ -12040,8 +12040,10 @@ aDocument
 nsIContent
 *
 aContainer
+nsIContent
+*
+aFirstNewContent
 PRInt32
-aNewIndexInContainer
 )
 {
 mTextControl
@@ -12068,7 +12070,6 @@ nsIContent
 *
 aChild
 PRInt32
-aIndexInContainer
 )
 {
 mTextControl

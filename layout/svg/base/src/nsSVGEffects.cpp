@@ -612,8 +612,10 @@ aDocument
 nsIContent
 *
 aContainer
+nsIContent
+*
+aFirstNewContent
 PRInt32
-aNewIndexInContainer
 )
 {
 DoUpdate
@@ -637,7 +639,6 @@ nsIContent
 *
 aChild
 PRInt32
-aIndexInContainer
 )
 {
 DoUpdate
