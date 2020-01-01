@@ -2351,7 +2351,7 @@ aManager
 ImageLayer
 (
 aManager
-NULL
+nullptr
 )
 LayerOGL
 (

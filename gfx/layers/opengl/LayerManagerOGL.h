@@ -57,7 +57,7 @@ i
 char
 *
 )
-NULL
+nullptr
 +
 (
 i

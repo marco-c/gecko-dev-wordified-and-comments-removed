@@ -84,7 +84,7 @@ aManager
 CanvasLayer
 (
 aManager
-NULL
+nullptr
 )
 LayerOGL
 (

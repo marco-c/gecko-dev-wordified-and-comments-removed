@@ -2032,7 +2032,7 @@ aManager
 ContainerLayer
 (
 aManager
-NULL
+nullptr
 )
 LayerOGL
 (
