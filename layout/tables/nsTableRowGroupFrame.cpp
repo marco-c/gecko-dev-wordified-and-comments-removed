@@ -119,6 +119,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+layout
+;
 nsTableRowGroupFrame
 :
 :
@@ -4934,12 +4941,10 @@ list
 "
 )
 ;
-nsAutoPtr
-<
-nsFrameList
->
+AutoFrameListPtr
 overflows
 (
+aPresContext
 StealOverflowFrames
 (
 )
@@ -4996,6 +5001,7 @@ aRow
 ;
 if
 (
+!
 overflows
 -
 >
@@ -5003,8 +5009,7 @@ IsEmpty
 (
 )
 )
-return
-;
+{
 mFrames
 .
 InsertFrames
@@ -5015,6 +5020,7 @@ rowBefore
 overflows
 )
 ;
+}
 }
 static
 nsTableRowFrame
