@@ -54496,10 +54496,8 @@ break
 }
 }
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 CollectRestyles
 (
 nsISupports

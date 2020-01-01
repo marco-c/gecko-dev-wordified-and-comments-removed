@@ -221,11 +221,9 @@ this
 ;
 }
 }
-PR_STATIC_CALLBACK
-(
+static
 void
 *
-)
 PSArenaAllocCB
 (
 size_t
@@ -252,10 +250,8 @@ aSize
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 PSArenaFreeCB
 (
 size_t

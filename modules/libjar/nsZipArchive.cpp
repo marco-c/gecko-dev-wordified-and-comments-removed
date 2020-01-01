@@ -1141,11 +1141,9 @@ msg
 endif
 #
 else
-PR_STATIC_CALLBACK
-(
+static
 void
 *
-)
 zlibAlloc
 (
 void
@@ -1213,10 +1211,8 @@ size
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 zlibFree
 (
 void

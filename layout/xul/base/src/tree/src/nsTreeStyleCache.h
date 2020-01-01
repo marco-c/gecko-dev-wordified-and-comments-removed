@@ -341,7 +341,6 @@ aInputWord
 ;
 static
 PRBool
-PR_CALLBACK
 DeleteDFAState
 (
 nsHashKey
@@ -357,7 +356,6 @@ closure
 ;
 static
 PRBool
-PR_CALLBACK
 ReleaseStyleContext
 (
 nsHashKey

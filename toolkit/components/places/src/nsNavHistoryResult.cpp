@@ -3245,7 +3245,6 @@ res
 ;
 }
 PRInt32
-PR_CALLBACK
 nsNavHistoryContainerResultNode
 :
 :
@@ -3275,7 +3274,6 @@ mBookmarkIndex
 ;
 }
 PRInt32
-PR_CALLBACK
 nsNavHistoryContainerResultNode
 :
 :
@@ -3411,7 +3409,6 @@ value
 ;
 }
 PRInt32
-PR_CALLBACK
 nsNavHistoryContainerResultNode
 :
 :
@@ -3439,7 +3436,6 @@ closure
 ;
 }
 PRInt32
-PR_CALLBACK
 nsNavHistoryContainerResultNode
 :
 :
@@ -3524,7 +3520,6 @@ value
 ;
 }
 PRInt32
-PR_CALLBACK
 nsNavHistoryContainerResultNode
 :
 :
@@ -3555,7 +3550,6 @@ closure
 ;
 }
 PRInt32
-PR_CALLBACK
 nsNavHistoryContainerResultNode
 :
 :
@@ -3640,7 +3634,6 @@ value
 ;
 }
 PRInt32
-PR_CALLBACK
 nsNavHistoryContainerResultNode
 :
 :
@@ -3671,7 +3664,6 @@ closure
 ;
 }
 PRInt32
-PR_CALLBACK
 nsNavHistoryContainerResultNode
 :
 :
@@ -3756,7 +3748,6 @@ value
 ;
 }
 PRInt32
-PR_CALLBACK
 nsNavHistoryContainerResultNode
 :
 :
@@ -3787,7 +3778,6 @@ closure
 ;
 }
 PRInt32
-PR_CALLBACK
 nsNavHistoryContainerResultNode
 :
 :
@@ -3915,7 +3905,6 @@ value
 ;
 }
 PRInt32
-PR_CALLBACK
 nsNavHistoryContainerResultNode
 :
 :
@@ -3943,7 +3932,6 @@ closure
 ;
 }
 PRInt32
-PR_CALLBACK
 nsNavHistoryContainerResultNode
 :
 :
@@ -4107,7 +4095,6 @@ value
 ;
 }
 PRInt32
-PR_CALLBACK
 nsNavHistoryContainerResultNode
 :
 :
@@ -4135,7 +4122,6 @@ closure
 ;
 }
 PRInt32
-PR_CALLBACK
 nsNavHistoryContainerResultNode
 :
 :
@@ -4889,7 +4875,6 @@ value
 ;
 }
 PRInt32
-PR_CALLBACK
 nsNavHistoryContainerResultNode
 :
 :
@@ -4917,7 +4902,6 @@ closure
 ;
 }
 PRInt32
-PR_CALLBACK
 nsNavHistoryContainerResultNode
 :
 :
@@ -4996,7 +4980,6 @@ value
 ;
 }
 PRInt32
-PR_CALLBACK
 nsNavHistoryContainerResultNode
 :
 :
@@ -5027,7 +5010,6 @@ closure
 ;
 }
 PRInt32
-PR_CALLBACK
 nsNavHistoryContainerResultNode
 :
 :
@@ -5115,7 +5097,6 @@ value
 ;
 }
 PRInt32
-PR_CALLBACK
 nsNavHistoryContainerResultNode
 :
 :
@@ -7166,7 +7147,6 @@ node
 }
 static
 void
-PR_CALLBACK
 setTitleCallback
 (
 nsNavHistoryResultNode
@@ -11009,7 +10989,6 @@ NS_OK
 }
 static
 void
-PR_CALLBACK
 setFaviconCallback
 (
 nsNavHistoryResultNode
@@ -14216,10 +14195,8 @@ NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 nsNavHistoryResult
 )
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 RemoveBookmarkFolderObserversCallback
 (
 nsTrimInt64HashKey
@@ -14271,10 +14248,8 @@ nsnull
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 TraverseBookmarkFolderObservers
 (
 nsTrimInt64HashKey

@@ -301,10 +301,8 @@ gInitialized
 =
 PR_FALSE
 ;
-PR_STATIC_CALLBACK
-(
+static
 nsresult
-)
 Initialize
 (
 nsIModule
@@ -404,10 +402,8 @@ Init
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 Shutdown
 (
 nsIModule

@@ -1191,7 +1191,6 @@ rv
 ;
 }
 PRIntn
-PR_CALLBACK
 nsHttpConnectionMgr
 :
 :
@@ -1246,7 +1245,6 @@ kHashEnumerateNext
 ;
 }
 PRIntn
-PR_CALLBACK
 nsHttpConnectionMgr
 :
 :
@@ -1352,7 +1350,6 @@ kHashEnumerateNext
 ;
 }
 PRIntn
-PR_CALLBACK
 nsHttpConnectionMgr
 :
 :
@@ -1700,7 +1697,6 @@ kHashEnumerateNext
 ;
 }
 PRIntn
-PR_CALLBACK
 nsHttpConnectionMgr
 :
 :

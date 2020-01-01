@@ -60,7 +60,6 @@ toolkit
 }
 ;
 void
-PR_CALLBACK
 RunPump
 (
 void

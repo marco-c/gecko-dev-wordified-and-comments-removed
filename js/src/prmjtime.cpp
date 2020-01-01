@@ -795,7 +795,6 @@ ifdef
 JS_THREADSAFE
 static
 PRStatus
-PR_CALLBACK
 NowInit
 (
 void

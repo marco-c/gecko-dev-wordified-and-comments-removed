@@ -1707,10 +1707,8 @@ nsnull
 ;
 }
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 xpc_ThreadDataDtorCB
 (
 void

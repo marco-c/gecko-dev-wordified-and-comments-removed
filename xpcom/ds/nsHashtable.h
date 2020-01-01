@@ -189,7 +189,6 @@ typedef
 PRIntn
 (
 *
-PR_CALLBACK
 nsHashtableEnumFunc
 )
 (
@@ -208,7 +207,6 @@ typedef
 nsresult
 (
 *
-PR_CALLBACK
 nsHashtableReadEntryFunc
 )
 (
@@ -229,7 +227,6 @@ typedef
 void
 (
 *
-PR_CALLBACK
 nsHashtableFreeEntryFunc
 )
 (
@@ -248,7 +245,6 @@ typedef
 nsresult
 (
 *
-PR_CALLBACK
 nsHashtableWriteDataFunc
 )
 (
@@ -413,7 +409,6 @@ void
 *
 (
 *
-PR_CALLBACK
 nsHashtableCloneElementFunc
 )
 (
@@ -487,7 +482,6 @@ protected
 :
 static
 PLDHashOperator
-PR_CALLBACK
 CopyElement
 (
 PLDHashTable
@@ -535,7 +529,6 @@ typedef
 PRBool
 (
 *
-PR_CALLBACK
 EnumFunc
 )
 (
@@ -684,7 +677,6 @@ private
 :
 static
 PRBool
-PR_CALLBACK
 ReleaseElement
 (
 nsHashKey
@@ -697,7 +689,6 @@ void
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 EnumerateCopy
 (
 PLDHashTable

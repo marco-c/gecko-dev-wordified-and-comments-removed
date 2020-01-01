@@ -1111,7 +1111,6 @@ aOther
 }
 ;
 static
-PR_CALLBACK
 PLDHashNumber
 ChildrenHashHashKey
 (
@@ -1125,7 +1124,6 @@ aKey
 )
 ;
 static
-PR_CALLBACK
 PRBool
 ChildrenHashMatchEntry
 (
@@ -1147,7 +1145,6 @@ PLDHashTableOps
 ChildrenHashOps
 ;
 static
-PR_CALLBACK
 PLDHashOperator
 EnqueueRuleNodeChildren
 (

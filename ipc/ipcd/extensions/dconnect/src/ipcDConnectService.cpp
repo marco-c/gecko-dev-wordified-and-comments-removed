@@ -5740,10 +5740,8 @@ return
 rv
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 DestroyDConnectInstance
 (
 const

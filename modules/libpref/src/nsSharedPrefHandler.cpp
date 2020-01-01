@@ -130,7 +130,6 @@ kCurrentPrefsTransactionDataVersion
 ;
 static
 PRBool
-PR_CALLBACK
 enumFind
 (
 void
@@ -143,7 +142,6 @@ aData
 ;
 static
 PRBool
-PR_CALLBACK
 enumFree
 (
 void
@@ -1463,7 +1461,6 @@ NS_OK
 }
 static
 PRBool
-PR_CALLBACK
 enumFind
 (
 void
@@ -1519,7 +1516,6 @@ elemStr
 }
 static
 PRBool
-PR_CALLBACK
 enumFree
 (
 void

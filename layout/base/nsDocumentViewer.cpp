@@ -7467,10 +7467,8 @@ return
 NS_OK
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 AppendAgentSheet
 (
 nsIStyleSheet
@@ -7510,10 +7508,8 @@ return
 PR_TRUE
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 PrependUserSheet
 (
 nsIStyleSheet

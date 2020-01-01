@@ -861,7 +861,6 @@ true
 ;
 }
 void
-PR_CALLBACK
 HandleConnection
 (
 void
@@ -1820,7 +1819,6 @@ ci
 ;
 }
 void
-PR_CALLBACK
 StartServer
 (
 void
@@ -2881,7 +2879,6 @@ return
 ;
 }
 PRIntn
-PR_CALLBACK
 freeHashItems
 (
 PLHashEntry

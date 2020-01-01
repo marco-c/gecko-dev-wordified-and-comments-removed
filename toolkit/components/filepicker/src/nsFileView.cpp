@@ -3437,10 +3437,8 @@ i
 ;
 }
 }
-PR_STATIC_CALLBACK
-(
+static
 int
-)
 SortNameCallback
 (
 const
@@ -3516,10 +3514,8 @@ leafName2
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 int
-)
 SortSizeCallback
 (
 const
@@ -3616,10 +3612,8 @@ size2
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 int
-)
 SortDateCallback
 (
 const

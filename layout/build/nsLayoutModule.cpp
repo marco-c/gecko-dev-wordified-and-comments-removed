@@ -1168,10 +1168,8 @@ aResult
 ;
 #
 endif
-PR_STATIC_CALLBACK
-(
+static
 nsresult
-)
 Initialize
 (
 nsIModule
@@ -1363,7 +1361,6 @@ gInitialized
 PR_FALSE
 ;
 nsresult
-PR_CALLBACK
 Initialize
 (
 nsIModule

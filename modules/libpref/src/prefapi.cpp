@@ -222,10 +222,8 @@ BOGUS_DEFAULT_BOOL_PREF_VALUE
 -
 2
 )
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 clearPrefEntry
 (
 PLDHashTable
@@ -298,10 +296,8 @@ entrySize
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 matchPrefEntry
 (
 PLDHashTable
@@ -1402,7 +1398,6 @@ PL_DHASH_NEXT
 ;
 }
 int
-PR_CALLBACK
 pref_CompareStrings
 (
 const
@@ -2051,10 +2046,8 @@ return
 rv
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 pref_DeleteItem
 (
 PLDHashTable
@@ -2418,10 +2411,8 @@ return
 rv
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 pref_ClearUserPref
 (
 PLDHashTable

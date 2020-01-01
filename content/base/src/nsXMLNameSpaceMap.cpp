@@ -622,10 +622,8 @@ return
 nsnull
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 DeleteEntry
 (
 void

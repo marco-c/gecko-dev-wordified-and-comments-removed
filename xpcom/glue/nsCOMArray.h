@@ -650,7 +650,6 @@ typedef
 PRBool
 (
 *
-PR_CALLBACK
 nsCOMArrayEnumFunc
 )
 (
@@ -714,7 +713,6 @@ typedef
 int
 (
 *
-PR_CALLBACK
 nsCOMArrayComparatorFunc
 )
 (

@@ -258,10 +258,8 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_0
 (
 nsXULTemplateQueryProcessorRDF
 )
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 BindingDependenciesTraverser
 (
 nsISupports
@@ -336,10 +334,8 @@ return
 PL_DHASH_NEXT
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 MemoryElementTraverser
 (
 const
@@ -415,10 +411,8 @@ return
 PL_DHASH_NEXT
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 RuleToBindingTraverser
 (
 nsISupports

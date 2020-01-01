@@ -484,7 +484,6 @@ key
 ;
 }
 void
-PR_CALLBACK
 _scriptHook
 (
 JSDContext
@@ -883,7 +882,6 @@ V
 }
 }
 PRUintn
-PR_CALLBACK
 _executionHook
 (
 JSDContext
@@ -1373,7 +1371,6 @@ JSD_HOOK_RETURN_CONTINUE
 ;
 }
 PRUintn
-PR_CALLBACK
 _errorReporter
 (
 JSDContext

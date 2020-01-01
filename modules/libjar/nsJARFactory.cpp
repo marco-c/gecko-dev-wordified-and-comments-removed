@@ -238,7 +238,6 @@ nsJARURIConstructor
 ;
 static
 void
-PR_CALLBACK
 nsJarShutdown
 (
 nsIModule

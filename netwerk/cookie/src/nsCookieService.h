@@ -727,7 +727,6 @@ gCookieService
 ;
 friend
 PLDHashOperator
-PR_CALLBACK
 removeExpiredCallback
 (
 nsCookieEntry

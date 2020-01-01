@@ -310,10 +310,8 @@ PRUnichar
 aValue
 )
 ;
-PR_STATIC_CALLBACK
-(
+static
 int
-)
 SortComparison
 (
 const

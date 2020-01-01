@@ -105,7 +105,6 @@ mozSanitizingHTMLSerializer
 ;
 static
 PRBool
-PR_CALLBACK
 ReleaseProperties
 (
 nsHashKey

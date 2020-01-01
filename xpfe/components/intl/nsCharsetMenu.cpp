@@ -1484,7 +1484,6 @@ len
 ;
 static
 int
-PR_CALLBACK
 CompareMenuItems
 (
 const

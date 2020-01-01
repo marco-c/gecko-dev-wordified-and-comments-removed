@@ -842,10 +842,8 @@ PRLogModuleInfo
 *
 gNegotiateLog
 ;
-PR_STATIC_CALLBACK
-(
+static
 nsresult
-)
 InitNegotiateAuth
 (
 nsIModule
@@ -874,10 +872,8 @@ InitNegotiateAuth
 nsnull
 #
 endif
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 DestroyNegotiateAuth
 (
 nsIModule

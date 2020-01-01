@@ -374,10 +374,8 @@ ipcDConnectServiceUnregisterProc
 endif
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 nsresult
-)
 ipcdclient_init
 (
 nsIModule
@@ -391,10 +389,8 @@ IPC_Init
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 ipcdclient_shutdown
 (
 nsIModule

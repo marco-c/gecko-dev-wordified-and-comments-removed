@@ -26,7 +26,6 @@ g_NodeLookupTable
 ;
 static
 PLHashNumber
-PR_CALLBACK
 HashFunction
 (
 const
@@ -43,7 +42,6 @@ key
 ;
 }
 PRIntn
-PR_CALLBACK
 HashComparator
 (
 const

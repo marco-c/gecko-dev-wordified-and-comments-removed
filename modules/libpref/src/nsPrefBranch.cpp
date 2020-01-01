@@ -160,10 +160,8 @@ pWeakRef
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 pref_enumChild
 (
 PLDHashTable
@@ -179,10 +177,8 @@ void
 arg
 )
 ;
-PR_STATIC_CALLBACK
-(
+static
 nsresult
-)
 NotifyObserver
 (
 const
@@ -3139,10 +3135,8 @@ return
 NS_OK
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 nsresult
-)
 NotifyObserver
 (
 const
@@ -3776,10 +3770,8 @@ return
 NS_OK
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 pref_enumChild
 (
 PLDHashTable

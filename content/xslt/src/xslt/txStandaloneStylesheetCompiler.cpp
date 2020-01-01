@@ -385,10 +385,8 @@ txDriver
 (
 _userData
 )
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 startElement
 (
 void
@@ -438,10 +436,8 @@ aAtts
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 endElement
 (
 void
@@ -485,10 +481,8 @@ aName
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 charData
 (
 void
@@ -535,10 +529,8 @@ aLength
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 int
-)
 externalEntityRefHandler
 (
 XML_Parser

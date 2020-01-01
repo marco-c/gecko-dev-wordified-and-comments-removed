@@ -1900,10 +1900,8 @@ RedirectHash
 RedirectHash
 mRecentRedirects
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 ExpireNonrecentRedirects
 (
 nsCStringHashKey

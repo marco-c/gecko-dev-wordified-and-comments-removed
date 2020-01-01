@@ -95,7 +95,6 @@ protected
 :
 static
 PRBool
-PR_CALLBACK
 HashEnum
 (
 nsHashKey

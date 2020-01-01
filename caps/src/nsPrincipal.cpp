@@ -3408,10 +3408,8 @@ denied
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 AppendCapability
 (
 nsHashKey
@@ -4064,10 +4062,8 @@ return
 NS_OK
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 nsresult
-)
 ReadAnnotationEntry
 (
 nsIObjectInputStream
@@ -4157,10 +4153,8 @@ return
 NS_OK
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 FreeAnnotationEntry
 (
 nsIObjectInputStream
@@ -4554,10 +4548,8 @@ return
 NS_OK
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 nsresult
-)
 WriteScalarValue
 (
 nsIObjectOutputStream

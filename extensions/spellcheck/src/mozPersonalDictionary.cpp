@@ -619,10 +619,8 @@ return
 res
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 AddHostToStringArray
 (
 nsUniCharEntry

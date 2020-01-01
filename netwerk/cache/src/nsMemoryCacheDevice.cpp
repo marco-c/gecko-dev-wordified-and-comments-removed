@@ -2034,7 +2034,6 @@ ifdef
 DEBUG
 static
 PLDHashOperator
-PR_CALLBACK
 CountEntry
 (
 PLDHashTable

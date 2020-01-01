@@ -4593,7 +4593,6 @@ NS_OK
 ;
 }
 PRBool
-PR_CALLBACK
 nsProtocolProxyService
 :
 :

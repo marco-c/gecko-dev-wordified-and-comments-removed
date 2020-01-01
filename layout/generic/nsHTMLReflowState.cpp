@@ -6297,10 +6297,8 @@ aContainingBlockRS
 }
 }
 }
-PR_STATIC_CALLBACK
-(
+static
 int
-)
 PrefsChanged
 (
 const

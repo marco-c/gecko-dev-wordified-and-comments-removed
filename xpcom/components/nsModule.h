@@ -44,7 +44,6 @@ C
 "
 NS_EXPORT
 nsresult
-PR_CALLBACK
 NSGetModule
 (
 nsIComponentManager

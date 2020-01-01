@@ -34,10 +34,8 @@ resultIndex
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 FindElementCallback
 (
 void

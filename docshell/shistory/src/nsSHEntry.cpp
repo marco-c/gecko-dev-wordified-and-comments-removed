@@ -426,10 +426,8 @@ mOwner
 )
 {
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 ClearParentPtr
 (
 nsISHEntry

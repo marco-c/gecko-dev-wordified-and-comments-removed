@@ -568,10 +568,8 @@ NS_OK
 }
 #
 endif
-PR_STATIC_CALLBACK
-(
+static
 int
-)
 ScanDirComparator
 (
 nsIFile

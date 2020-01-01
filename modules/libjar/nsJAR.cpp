@@ -177,10 +177,8 @@ storedEntryDigest
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 DeleteManifestEntry
 (
 nsHashKey
@@ -4404,7 +4402,6 @@ NS_ERROR_OUT_OF_MEMORY
 }
 static
 PRBool
-PR_CALLBACK
 DropZipReaderCache
 (
 nsHashKey
@@ -4789,7 +4786,6 @@ rv
 }
 static
 PRBool
-PR_CALLBACK
 FindOldestZip
 (
 nsHashKey
@@ -4893,7 +4889,6 @@ found
 ;
 static
 PRBool
-PR_CALLBACK
 FindZip
 (
 nsHashKey
@@ -5120,7 +5115,6 @@ NS_OK
 }
 static
 PRBool
-PR_CALLBACK
 FindFlushableZip
 (
 nsHashKey

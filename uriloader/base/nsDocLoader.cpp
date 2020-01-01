@@ -258,10 +258,8 @@ mUploading
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 RequestInfoHashInitEntry
 (
 PLDHashTable
@@ -4886,10 +4884,8 @@ return
 info
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 RemoveInfoCallback
 (
 PLDHashTable
@@ -4944,10 +4940,8 @@ nsnull
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 CalcMaxProgressCallback
 (
 PLDHashTable

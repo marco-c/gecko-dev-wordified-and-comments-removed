@@ -397,7 +397,6 @@ private
 :
 static
 PLDHashOperator
-PR_CALLBACK
 AddToFormHistoryCB
 (
 const

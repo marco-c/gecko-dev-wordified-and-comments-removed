@@ -290,10 +290,8 @@ rv
 matches
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 xpti_InterfaceWriter
 (
 PLDHashTable

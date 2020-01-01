@@ -87,7 +87,6 @@ protected
 :
 static
 PRBool
-PR_CALLBACK
 ClearEnumerator
 (
 nsHashKey

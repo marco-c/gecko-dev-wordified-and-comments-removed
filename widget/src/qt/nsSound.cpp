@@ -142,7 +142,6 @@ WAV_MIN_LENGTH
 typedef
 int
 (
-PR_CALLBACK
 *
 EsdOpenSoundType
 )
@@ -156,7 +155,6 @@ host
 typedef
 int
 (
-PR_CALLBACK
 *
 EsdCloseType
 )
@@ -167,7 +165,6 @@ int
 typedef
 int
 (
-PR_CALLBACK
 *
 EsdPlayStreamType
 )
@@ -185,7 +182,6 @@ char
 typedef
 int
 (
-PR_CALLBACK
 *
 EsdAudioOpenType
 )
@@ -196,7 +192,6 @@ void
 typedef
 int
 (
-PR_CALLBACK
 *
 EsdAudioWriteType
 )
@@ -210,7 +205,6 @@ int
 typedef
 void
 (
-PR_CALLBACK
 *
 EsdAudioCloseType
 )

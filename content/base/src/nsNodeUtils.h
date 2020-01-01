@@ -352,7 +352,6 @@ private
 :
 friend
 PLDHashOperator
-PR_CALLBACK
 AdoptFunc
 (
 nsAttrHashKey

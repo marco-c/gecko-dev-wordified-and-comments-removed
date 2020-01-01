@@ -320,10 +320,8 @@ nsIconProtocolHandlerConstructor
 }
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 nsresult
-)
 IconDecoderModuleCtor
 (
 nsIModule
@@ -335,10 +333,8 @@ return
 NS_OK
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 IconDecoderModuleDtor
 (
 nsIModule

@@ -20128,7 +20128,6 @@ LL_ZERO
 ;
 static
 int
-PR_CALLBACK
 ComparePluginFileInDirectory
 (
 const

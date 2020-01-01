@@ -725,7 +725,6 @@ prefAtom
 }
 ;
 PRBool
-PR_CALLBACK
 sysPrefDeleteObserver
 (
 void
@@ -2211,7 +2210,6 @@ nsnull
 }
 ;
 PRBool
-PR_CALLBACK
 gconfDeleteObserver
 (
 void

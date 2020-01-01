@@ -3191,10 +3191,8 @@ aOutputURI
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 ExpireFailedFaviconsCallback
 (
 nsCStringHashKey

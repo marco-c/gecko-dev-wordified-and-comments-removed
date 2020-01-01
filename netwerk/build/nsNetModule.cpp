@@ -2276,10 +2276,8 @@ return
 rv
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 nsresult
-)
 nsNetStartup
 (
 nsIModule
@@ -2304,7 +2302,6 @@ NS_ERROR_OUT_OF_MEMORY
 }
 static
 void
-PR_CALLBACK
 nsNetShutdown
 (
 nsIModule

@@ -2632,7 +2632,6 @@ count
 }
 ;
 static
-PR_CALLBACK
 PLDHashOperator
 zeroGenerationCallback
 (
@@ -2809,7 +2808,6 @@ root
 )
 ;
 static
-PR_CALLBACK
 PLDHashOperator
 ageSelectionCallback
 (
@@ -4179,10 +4177,8 @@ mNode
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 PtrToNodeMatchEntry
 (
 PLDHashTable
@@ -9812,10 +9808,8 @@ PR_TRUE
 #
 ifdef
 DEBUG_CC
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 AddExpectedGarbage
 (
 nsVoidPtrHashKey

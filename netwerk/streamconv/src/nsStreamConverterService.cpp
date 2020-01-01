@@ -152,7 +152,6 @@ mAdjacencyList
 }
 static
 PRBool
-PR_CALLBACK
 DeleteAdjacencyEntry
 (
 nsHashKey
@@ -927,7 +926,6 @@ NS_OK
 }
 static
 PRBool
-PR_CALLBACK
 InitBFSTable
 (
 nsHashKey
@@ -1067,7 +1065,6 @@ PR_TRUE
 }
 static
 PRBool
-PR_CALLBACK
 DeleteBFSEntry
 (
 nsHashKey

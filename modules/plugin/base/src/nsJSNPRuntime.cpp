@@ -4059,10 +4059,8 @@ mJSObjWrapper
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashNumber
-)
 JSObjWrapperHash
 (
 PLDHashTable
@@ -4115,10 +4113,8 @@ mNpp
 2
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 JSObjWrapperHashMatchEntry
 (
 PLDHashTable
@@ -7383,10 +7379,8 @@ return
 obj
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 JSObjWrapperPluginDestroyedCallback
 (
 PLDHashTable
@@ -7510,10 +7504,8 @@ cx
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 NPObjWrapperPluginDestroyedCallback
 (
 PLDHashTable

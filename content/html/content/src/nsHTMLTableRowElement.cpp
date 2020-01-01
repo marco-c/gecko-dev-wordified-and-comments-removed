@@ -758,10 +758,8 @@ return
 NS_OK
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 IsCell
 (
 nsIContent

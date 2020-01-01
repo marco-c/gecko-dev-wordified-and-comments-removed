@@ -312,7 +312,6 @@ elem
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 CopyKey
 (
 nsStringHashKey

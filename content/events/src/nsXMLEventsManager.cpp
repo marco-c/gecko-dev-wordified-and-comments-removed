@@ -1027,10 +1027,8 @@ return
 NS_OK
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 EnumAndUnregisterListener
 (
 nsISupports
@@ -1062,10 +1060,8 @@ return
 PL_DHASH_NEXT
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 EnumAndSetIncomplete
 (
 nsISupports

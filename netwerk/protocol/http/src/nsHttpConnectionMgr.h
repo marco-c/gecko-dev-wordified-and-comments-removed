@@ -348,7 +348,6 @@ mMaxPipelinedRequests
 ;
 static
 PRIntn
-PR_CALLBACK
 ProcessOneTransactionCB
 (
 nsHashKey
@@ -361,7 +360,6 @@ void
 ;
 static
 PRIntn
-PR_CALLBACK
 PurgeOneIdleConnectionCB
 (
 nsHashKey
@@ -374,7 +372,6 @@ void
 ;
 static
 PRIntn
-PR_CALLBACK
 PruneDeadConnectionsCB
 (
 nsHashKey
@@ -387,7 +384,6 @@ void
 ;
 static
 PRIntn
-PR_CALLBACK
 ShutdownPassCB
 (
 nsHashKey

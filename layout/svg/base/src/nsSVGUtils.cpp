@@ -915,10 +915,8 @@ svg
 enabled
 "
 ;
-PR_STATIC_CALLBACK
-(
+static
 int
-)
 SVGPrefChanged
 (
 const

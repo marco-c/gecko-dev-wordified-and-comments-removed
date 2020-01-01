@@ -379,7 +379,6 @@ aOpen
 ;
 static
 int
-PR_CALLBACK
 Compare
 (
 const

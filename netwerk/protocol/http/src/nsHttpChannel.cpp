@@ -10736,10 +10736,8 @@ Content_Encoding
 ;
 }
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 CopyProperties
 (
 const

@@ -438,10 +438,8 @@ rv
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 JSBool
-)
 nsXBLDocGlobalObject_getProperty
 (
 JSContext
@@ -473,10 +471,8 @@ ACCESS_GET_PROPERTY
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 JSBool
-)
 nsXBLDocGlobalObject_setProperty
 (
 JSContext
@@ -508,10 +504,8 @@ ACCESS_SET_PROPERTY
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 JSBool
-)
 nsXBLDocGlobalObject_checkAccess
 (
 JSContext
@@ -570,10 +564,8 @@ translated
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 nsXBLDocGlobalObject_finalize
 (
 JSContext
@@ -632,10 +624,8 @@ nativeThis
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 JSBool
-)
 nsXBLDocGlobalObject_resolve
 (
 JSContext
@@ -1638,7 +1628,6 @@ PR_FALSE
 }
 static
 PRIntn
-PR_CALLBACK
 TraverseProtos
 (
 nsHashKey
@@ -1693,7 +1682,6 @@ kHashEnumerateNext
 }
 static
 PRIntn
-PR_CALLBACK
 UnlinkProtoJSObjects
 (
 nsHashKey
@@ -1745,7 +1733,6 @@ mClosure
 ;
 static
 PRIntn
-PR_CALLBACK
 TraceProtos
 (
 nsHashKey
@@ -2197,7 +2184,6 @@ NS_OK
 }
 static
 PRBool
-PR_CALLBACK
 DeletePrototypeBinding
 (
 nsHashKey
@@ -2345,7 +2331,6 @@ NS_OK
 ;
 }
 PRBool
-PR_CALLBACK
 FlushScopedSkinSheets
 (
 nsHashKey

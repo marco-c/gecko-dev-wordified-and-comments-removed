@@ -375,7 +375,6 @@ aVirtualKey
 ;
 static
 int
-PR_CALLBACK
 CompareDeadKeyEntries
 (
 const

@@ -333,7 +333,6 @@ typedef
 void
 (
 *
-PR_CALLBACK
 TraceCallback
 )
 (

@@ -307,7 +307,6 @@ mFlags
 typedef
 nsresult
 (
-PR_CALLBACK
 *
 nsModuleConstructorProc
 )
@@ -320,7 +319,6 @@ self
 typedef
 void
 (
-PR_CALLBACK
 *
 nsModuleDestructorProc
 )

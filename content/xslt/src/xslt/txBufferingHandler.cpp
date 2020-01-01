@@ -1063,10 +1063,8 @@ transaction
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 deleteTransaction
 (
 void
@@ -1157,10 +1155,8 @@ mIter
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 flushTransaction
 (
 void

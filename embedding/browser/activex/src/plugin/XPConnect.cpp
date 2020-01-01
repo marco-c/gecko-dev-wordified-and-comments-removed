@@ -1565,7 +1565,6 @@ nsnull
 typedef
 nsresult
 (
-PR_CALLBACK
 *
 Moz1XGetComponentManagerFunc
 )

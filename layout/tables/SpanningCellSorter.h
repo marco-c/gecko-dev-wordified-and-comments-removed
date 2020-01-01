@@ -181,10 +181,8 @@ static
 PLDHashTableOps
 HashTableOps
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashNumber
-)
 HashTableHashKey
 (
 PLDHashTable
@@ -196,10 +194,8 @@ void
 key
 )
 ;
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 HashTableMatchEntry
 (
 PLDHashTable
@@ -215,10 +211,8 @@ void
 key
 )
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 FillSortedArray
 (
 PLDHashTable

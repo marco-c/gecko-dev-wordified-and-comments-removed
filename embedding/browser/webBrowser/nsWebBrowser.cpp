@@ -400,7 +400,6 @@ InternalDestroy
 ;
 }
 PRBool
-PR_CALLBACK
 deleteListener
 (
 void
@@ -6410,7 +6409,6 @@ NS_OK
 ;
 }
 nsEventStatus
-PR_CALLBACK
 nsWebBrowser
 :
 :

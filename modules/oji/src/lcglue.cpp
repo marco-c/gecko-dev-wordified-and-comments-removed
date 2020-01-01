@@ -236,7 +236,6 @@ mValid
 ;
 static
 void
-PR_CALLBACK
 detach_JVMContext
 (
 void

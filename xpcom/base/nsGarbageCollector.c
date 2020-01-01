@@ -82,7 +82,6 @@ void
 ;
 static
 PRStatus
-PR_CALLBACK
 scanner
 (
 PRThread

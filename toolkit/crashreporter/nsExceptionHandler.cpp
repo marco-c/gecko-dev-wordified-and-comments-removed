@@ -3358,7 +3358,6 @@ end
 }
 static
 PLDHashOperator
-PR_CALLBACK
 EnumerateEntries
 (
 const

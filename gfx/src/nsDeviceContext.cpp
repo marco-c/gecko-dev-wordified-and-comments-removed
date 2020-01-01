@@ -148,7 +148,6 @@ endif
 }
 static
 PRBool
-PR_CALLBACK
 DeleteValue
 (
 nsHashKey

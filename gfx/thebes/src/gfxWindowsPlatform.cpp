@@ -160,7 +160,6 @@ aName
 ;
 }
 int
-PR_CALLBACK
 gfxWindowsPlatform
 :
 :
@@ -542,7 +541,6 @@ mStringArray
 }
 ;
 PLDHashOperator
-PR_CALLBACK
 gfxWindowsPlatform
 :
 :
@@ -1221,7 +1219,6 @@ aFamilyArray
 }
 static
 PLDHashOperator
-PR_CALLBACK
 AppendFamily
 (
 nsStringHashKey
@@ -2040,7 +2037,6 @@ bestMatch
 }
 ;
 PLDHashOperator
-PR_CALLBACK
 gfxWindowsPlatform
 :
 :

@@ -217,7 +217,6 @@ c
 }
 static
 PLDHashOperator
-PR_CALLBACK
 AddToHistoryCB
 (
 const

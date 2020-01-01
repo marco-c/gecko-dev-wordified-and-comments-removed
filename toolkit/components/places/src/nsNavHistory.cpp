@@ -19502,7 +19502,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 nsNavHistory
 :
 :
@@ -23804,10 +23803,8 @@ return
 PR_FALSE
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 ExpireNonrecentEventsCallback
 (
 nsCStringHashKey

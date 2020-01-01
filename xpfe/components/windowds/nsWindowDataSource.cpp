@@ -1209,10 +1209,8 @@ resultWindow
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 findWindow
 (
 nsHashKey

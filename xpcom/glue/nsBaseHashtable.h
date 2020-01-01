@@ -303,7 +303,6 @@ typedef
 PLDHashOperator
 (
 *
-PR_CALLBACK
 EnumReadFunction
 )
 (
@@ -378,7 +377,6 @@ typedef
 PLDHashOperator
 (
 *
-PR_CALLBACK
 EnumFunction
 )
 (

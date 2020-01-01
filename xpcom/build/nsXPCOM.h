@@ -216,7 +216,6 @@ nsITraceRefcnt
 typedef
 nsresult
 (
-PR_CALLBACK
 *
 nsGetModuleProc
 )

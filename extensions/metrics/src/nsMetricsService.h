@@ -566,7 +566,6 @@ GetRandomUploadInterval
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 PruneDisabledCollectors
 (
 const
@@ -586,7 +585,6 @@ userData
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 DetachCollector
 (
 const
@@ -603,7 +601,6 @@ userData
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 NotifyNewLog
 (
 const

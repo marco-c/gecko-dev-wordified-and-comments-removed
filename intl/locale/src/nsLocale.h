@@ -90,7 +90,6 @@ value
 ;
 static
 PLHashNumber
-PR_CALLBACK
 Hash_HashFunction
 (
 const
@@ -101,7 +100,6 @@ key
 ;
 static
 PRIntn
-PR_CALLBACK
 Hash_CompareNSString
 (
 const
@@ -116,7 +114,6 @@ s2
 ;
 static
 PRIntn
-PR_CALLBACK
 Hash_EnumerateDelete
 (
 PLHashEntry
@@ -131,7 +128,6 @@ arg
 ;
 static
 PRIntn
-PR_CALLBACK
 Hash_EnumerateCopy
 (
 PLHashEntry

@@ -313,10 +313,8 @@ ipcILockService
 *
 gLockService
 ;
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 TestThread
 (
 void

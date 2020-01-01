@@ -528,7 +528,6 @@ private
 :
 static
 PLDHashOperator
-PR_CALLBACK
 enumfunc_createenumerator
 (
 CategoryLeaf
@@ -542,7 +541,6 @@ userArg
 }
 ;
 PLDHashOperator
-PR_CALLBACK
 EntryEnumerator
 :
 :
@@ -1310,7 +1308,6 @@ success
 }
 ;
 PLDHashOperator
-PR_CALLBACK
 enumfunc_pentries
 (
 CategoryLeaf
@@ -1481,7 +1478,6 @@ private
 :
 static
 PLDHashOperator
-PR_CALLBACK
 enumfunc_createenumerator
 (
 const
@@ -1577,7 +1573,6 @@ enumObj
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 CategoryEnumerator
 :
 :
@@ -2525,7 +2520,6 @@ success
 }
 ;
 PLDHashOperator
-PR_CALLBACK
 enumfunc_categories
 (
 const

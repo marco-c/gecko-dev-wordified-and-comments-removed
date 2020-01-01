@@ -469,10 +469,8 @@ mContentList
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashNumber
-)
 ContentListHashtableHashKey
 (
 PLDHashTable
@@ -508,10 +506,8 @@ GetHash
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 ContentListHashtableMatchEntry
 (
 PLDHashTable

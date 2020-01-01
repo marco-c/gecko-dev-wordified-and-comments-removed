@@ -425,7 +425,6 @@ aDocShell
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 RemoveForDOMDocumentEnumerator
 (
 nsISupports

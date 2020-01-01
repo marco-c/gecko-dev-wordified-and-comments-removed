@@ -244,7 +244,6 @@ ReleaseProperties
 ;
 }
 PRBool
-PR_CALLBACK
 mozSanitizingHTMLSerializer
 :
 :

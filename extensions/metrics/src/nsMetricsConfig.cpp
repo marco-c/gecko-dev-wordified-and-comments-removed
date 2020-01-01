@@ -1848,7 +1848,6 @@ Clear
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 nsMetricsConfig
 :
 :

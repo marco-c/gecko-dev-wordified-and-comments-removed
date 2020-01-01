@@ -26,10 +26,8 @@ prthread
 .
 h
 "
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 DeleteDirThreadFunc
 (
 void

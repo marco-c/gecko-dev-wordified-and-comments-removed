@@ -8281,7 +8281,6 @@ Shutdown
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 nsCacheService
 :
 :
@@ -8422,7 +8421,6 @@ i
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 nsCacheService
 :
 :

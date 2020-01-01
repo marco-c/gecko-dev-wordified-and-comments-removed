@@ -80,7 +80,6 @@ gDisableXULCache
 ;
 static
 int
-PR_CALLBACK
 DisableXULCacheChangedCallback
 (
 const

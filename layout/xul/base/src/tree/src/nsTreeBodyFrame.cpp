@@ -416,10 +416,8 @@ kWidgetCID
 NS_CHILD_CID
 )
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 CancelImageRequest
 (
 const

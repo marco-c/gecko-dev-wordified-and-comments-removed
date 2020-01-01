@@ -135,7 +135,6 @@ nsIDOMEventListener
 nsIMetricsCollector
 )
 PLDHashOperator
-PR_CALLBACK
 nsUICommandCollector
 :
 :
@@ -217,7 +216,6 @@ PL_DHASH_NEXT
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 nsUICommandCollector
 :
 :

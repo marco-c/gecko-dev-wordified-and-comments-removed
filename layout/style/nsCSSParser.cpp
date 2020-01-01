@@ -2365,10 +2365,8 @@ mScannerInited
 endif
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 AppendRuleToArray
 (
 nsICSSRule
@@ -2398,10 +2396,8 @@ aRule
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 AppendRuleToSheet
 (
 nsICSSRule

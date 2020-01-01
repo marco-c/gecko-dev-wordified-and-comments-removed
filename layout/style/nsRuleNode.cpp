@@ -178,7 +178,6 @@ mRuleNode
 ;
 }
 ;
-PR_CALLBACK
 PLDHashNumber
 nsRuleNode
 :
@@ -226,7 +225,6 @@ mRule
 )
 ;
 }
-PR_CALLBACK
 PRBool
 nsRuleNode
 :
@@ -2626,7 +2624,6 @@ sz
 )
 ;
 }
-PR_CALLBACK
 PLDHashOperator
 nsRuleNode
 :
@@ -3659,7 +3656,6 @@ nsRuleNode
 RuleDetail
 (
 *
-PR_CALLBACK
 CheckCallbackFn
 )
 (
@@ -3843,13 +3839,11 @@ aInheritedCount
 ;
 }
 }
-PR_STATIC_CALLBACK
-(
+static
 nsRuleNode
 :
 :
 RuleDetail
-)
 CheckFontCallback
 (
 const
@@ -4102,13 +4096,11 @@ return
 aResult
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 nsRuleNode
 :
 :
 RuleDetail
-)
 CheckColorCallback
 (
 const
@@ -26153,10 +26145,8 @@ mDependentBits
 NS_RULE_NODE_GC_MARK
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 SweepRuleNodeChildren
 (
 PLDHashTable

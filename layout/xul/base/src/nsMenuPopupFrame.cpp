@@ -2421,7 +2421,6 @@ aYPos
 }
 }
 void
-PR_CALLBACK
 LazyGeneratePopupDone
 (
 nsIContent

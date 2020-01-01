@@ -1025,10 +1025,8 @@ aInstancePtr
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 nsresult
-)
 RegisterGenericFactory
 (
 nsIComponentRegistrar

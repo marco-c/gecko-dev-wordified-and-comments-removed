@@ -145,10 +145,8 @@ InitJVMConfigList
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 FreeJVMConfig
 (
 nsHashKey
@@ -184,10 +182,8 @@ return
 PR_TRUE
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 AppendJVMConfig
 (
 nsHashKey

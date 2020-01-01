@@ -21,7 +21,6 @@ gCount
 ;
 static
 void
-PR_CALLBACK
 run
 (
 void

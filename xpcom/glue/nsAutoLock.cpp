@@ -162,7 +162,6 @@ name
 static
 void
 *
-PR_CALLBACK
 _hash_alloc_table
 (
 void
@@ -182,7 +181,6 @@ size
 }
 static
 void
-PR_CALLBACK
 _hash_free_table
 (
 void
@@ -203,7 +201,6 @@ item
 static
 PLHashEntry
 *
-PR_CALLBACK
 _hash_alloc_entry
 (
 void
@@ -222,7 +219,6 @@ PLHashEntry
 }
 static
 void
-PR_CALLBACK
 _hash_free_entry
 (
 void
@@ -287,10 +283,8 @@ _hash_alloc_entry
 _hash_free_entry
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PRIntn
-)
 _purge_one
 (
 PLHashEntry
@@ -341,10 +335,8 @@ return
 HT_ENUMERATE_NEXT
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 OnSemaphoreRecycle
 (
 void
@@ -376,10 +368,8 @@ OrderTableLock
 ;
 }
 }
-PR_STATIC_CALLBACK
-(
+static
 PLHashNumber
-)
 _hash_pointer
 (
 const

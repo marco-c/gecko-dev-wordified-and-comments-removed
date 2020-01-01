@@ -420,10 +420,8 @@ placeholderFrame
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 PlaceholderMapMatchEntry
 (
 PLDHashTable
@@ -530,10 +528,8 @@ frame
 #
 if
 0
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 PrimaryFrameMapMatchEntry
 (
 PLDHashTable
@@ -1898,10 +1894,8 @@ PL_DHASH_REMOVE
 ;
 }
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashOperator
-)
 UnregisterPlaceholders
 (
 PLDHashTable
@@ -7509,10 +7503,8 @@ nsnull
 ;
 }
 }
-PR_STATIC_CALLBACK
-(
+static
 PRIntn
-)
 RemoveUndisplayedEntry
 (
 PLHashEntry

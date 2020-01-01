@@ -123,10 +123,8 @@ mIndex
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 matchNameKeysCaseInsensitive
 (
 PLDHashTable
@@ -241,10 +239,8 @@ Length
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLDHashNumber
-)
 caseInsensitiveStringHashKey
 (
 PLDHashTable

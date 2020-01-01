@@ -305,10 +305,8 @@ nsIDispatchSupportConstructor
 endif
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 nsresult
-)
 xpcModuleCtor
 (
 nsIModule
@@ -374,10 +372,8 @@ return
 NS_OK
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 xpcModuleDtor
 (
 nsIModule

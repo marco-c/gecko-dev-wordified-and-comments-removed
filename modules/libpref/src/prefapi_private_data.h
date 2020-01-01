@@ -44,7 +44,6 @@ arg
 )
 ;
 int
-PR_CALLBACK
 pref_CompareStrings
 (
 const

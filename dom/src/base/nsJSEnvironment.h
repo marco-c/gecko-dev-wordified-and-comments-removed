@@ -912,7 +912,6 @@ mGlobalWrapperRef
 ;
 static
 int
-PR_CALLBACK
 JSOptionChangedCallback
 (
 const

@@ -240,7 +240,6 @@ BlobImpl
 static
 void
 *
-PR_CALLBACK
 DataSourceAllocTable
 (
 void
@@ -273,7 +272,6 @@ size
 }
 static
 void
-PR_CALLBACK
 DataSourceFreeTable
 (
 void
@@ -307,7 +305,6 @@ item
 static
 PLHashEntry
 *
-PR_CALLBACK
 DataSourceAllocEntry
 (
 void
@@ -343,7 +340,6 @@ PLHashEntry
 }
 static
 void
-PR_CALLBACK
 DataSourceFreeEntry
 (
 void
@@ -425,7 +421,6 @@ mResource
 ;
 static
 PLDHashNumber
-PR_CALLBACK
 HashKey
 (
 PLDHashTable
@@ -457,7 +452,6 @@ key
 }
 static
 PRBool
-PR_CALLBACK
 MatchEntry
 (
 PLDHashTable
@@ -553,7 +547,6 @@ mKey
 ;
 static
 PLDHashNumber
-PR_CALLBACK
 HashKey
 (
 PLDHashTable
@@ -585,7 +578,6 @@ key
 }
 static
 PRBool
-PR_CALLBACK
 MatchEntry
 (
 PLDHashTable
@@ -679,7 +671,6 @@ mKey
 ;
 static
 PLDHashNumber
-PR_CALLBACK
 HashKey
 (
 PLDHashTable
@@ -709,7 +700,6 @@ key
 }
 static
 PRBool
-PR_CALLBACK
 MatchEntry
 (
 PLDHashTable
@@ -797,7 +787,6 @@ mKey
 ;
 static
 PLDHashNumber
-PR_CALLBACK
 HashKey
 (
 PLDHashTable
@@ -876,7 +865,6 @@ h32
 }
 static
 PRBool
-PR_CALLBACK
 MatchEntry
 (
 PLDHashTable
@@ -1235,7 +1223,6 @@ mBlob
 ;
 static
 PLDHashNumber
-PR_CALLBACK
 HashKey
 (
 PLDHashTable
@@ -1320,7 +1307,6 @@ h
 }
 static
 PRBool
-PR_CALLBACK
 MatchEntry
 (
 PLDHashTable

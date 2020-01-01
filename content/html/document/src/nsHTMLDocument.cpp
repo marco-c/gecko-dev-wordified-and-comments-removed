@@ -788,7 +788,6 @@ outCommandID
 ;
 static
 int
-PR_CALLBACK
 MyPrefChangedCallback
 (
 const

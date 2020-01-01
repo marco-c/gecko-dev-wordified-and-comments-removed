@@ -70,7 +70,6 @@ h
 "
 static
 nsEventStatus
-PR_CALLBACK
 HandleEvent
 (
 nsGUIEvent
@@ -458,7 +457,6 @@ nsnull
 ;
 }
 nsEventStatus
-PR_CALLBACK
 HandleEvent
 (
 nsGUIEvent

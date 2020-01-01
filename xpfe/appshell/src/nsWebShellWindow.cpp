@@ -1109,7 +1109,6 @@ NS_OK
 ;
 }
 nsEventStatus
-PR_CALLBACK
 nsWebShellWindow
 :
 :

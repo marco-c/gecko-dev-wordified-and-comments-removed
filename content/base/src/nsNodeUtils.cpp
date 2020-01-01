@@ -2029,7 +2029,6 @@ mNodesWithProperties
 }
 ;
 PLDHashOperator
-PR_CALLBACK
 AdoptFunc
 (
 nsAttrHashKey

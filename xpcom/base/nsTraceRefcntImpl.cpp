@@ -498,7 +498,6 @@ dtor
 static
 void
 *
-PR_CALLBACK
 DefaultAllocTable
 (
 void
@@ -517,7 +516,6 @@ size
 }
 static
 void
-PR_CALLBACK
 DefaultFreeTable
 (
 void
@@ -537,7 +535,6 @@ item
 static
 PLHashEntry
 *
-PR_CALLBACK
 DefaultAllocEntry
 (
 void
@@ -558,7 +555,6 @@ PLHashEntry
 }
 static
 void
-PR_CALLBACK
 SerialNumberFreeEntry
 (
 void
@@ -603,7 +599,6 @@ he
 }
 static
 void
-PR_CALLBACK
 TypesToLogFreeEntry
 (
 void
@@ -1075,7 +1070,6 @@ cnt
 }
 static
 PRIntn
-PR_CALLBACK
 DumpEntry
 (
 PLHashEntry
@@ -1135,7 +1129,6 @@ HT_ENUMERATE_NEXT
 }
 static
 PRIntn
-PR_CALLBACK
 TotalEntries
 (
 PLHashEntry
@@ -2030,7 +2023,6 @@ mAllStats
 ;
 static
 void
-PR_CALLBACK
 BloatViewFreeEntry
 (
 void
@@ -2240,7 +2232,6 @@ entry
 }
 static
 PRIntn
-PR_CALLBACK
 DumpSerialNumbers
 (
 PLHashEntry
@@ -3477,7 +3468,6 @@ PR_FALSE
 }
 static
 PLHashNumber
-PR_CALLBACK
 HashNumber
 (
 const
@@ -4454,10 +4444,8 @@ extern
 C
 "
 {
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 PrintStackFrame
 (
 void

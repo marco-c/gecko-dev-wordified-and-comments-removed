@@ -59,7 +59,6 @@ NS_DECL_NSIDOMEVENTLISTENER
 NS_DECL_NSIMETRICSCOLLECTOR
 static
 PLDHashOperator
-PR_CALLBACK
 AddCommandEventListener
 (
 const
@@ -75,7 +74,6 @@ userArg
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 RemoveCommandEventListener
 (
 const

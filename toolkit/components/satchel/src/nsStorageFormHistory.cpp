@@ -3032,7 +3032,6 @@ c
 }
 }
 PLDHashOperator
-PR_CALLBACK
 nsFormHistoryImporter
 :
 :

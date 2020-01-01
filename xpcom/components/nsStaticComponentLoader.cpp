@@ -100,10 +100,8 @@ next
 ;
 }
 ;
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 info_ClearEntry
 (
 PLDHashTable
@@ -143,10 +141,8 @@ StaticModuleInfo
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRBool
-)
 info_InitEntry
 (
 PLDHashTable

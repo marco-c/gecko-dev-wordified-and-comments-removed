@@ -221,10 +221,8 @@ Truncate
 ;
 }
 }
-PR_STATIC_CALLBACK
-(
+static
 void
-)
 FinalizeInstallTriggerGlobal
 (
 JSContext

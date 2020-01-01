@@ -360,7 +360,6 @@ type
 )
 static
 type
-PR_CALLBACK
 #
 define
 LOCAL

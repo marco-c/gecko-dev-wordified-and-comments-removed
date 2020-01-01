@@ -117,7 +117,6 @@ PL_DHashFinalizeStub
 nsnull
 }
 ;
-PR_CALLBACK
 PLDHashNumber
 SpanningCellSorter
 :
@@ -140,7 +139,6 @@ key
 )
 ;
 }
-PR_CALLBACK
 PRBool
 SpanningCellSorter
 :
@@ -470,7 +468,6 @@ return
 PR_TRUE
 ;
 }
-PR_CALLBACK
 PLDHashOperator
 SpanningCellSorter
 :

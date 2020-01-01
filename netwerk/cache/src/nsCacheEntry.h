@@ -1266,7 +1266,6 @@ private
 :
 static
 PLDHashNumber
-PR_CALLBACK
 HashKey
 (
 PLDHashTable
@@ -1280,7 +1279,6 @@ key
 ;
 static
 PRBool
-PR_CALLBACK
 MatchEntry
 (
 PLDHashTable
@@ -1298,7 +1296,6 @@ key
 ;
 static
 void
-PR_CALLBACK
 MoveEntry
 (
 PLDHashTable
@@ -1315,7 +1312,6 @@ to
 ;
 static
 void
-PR_CALLBACK
 ClearEntry
 (
 PLDHashTable
@@ -1328,7 +1324,6 @@ entry
 ;
 static
 void
-PR_CALLBACK
 Finalize
 (
 PLDHashTable
@@ -1338,7 +1333,6 @@ table
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 FreeCacheEntries
 (
 PLDHashTable
@@ -1356,7 +1350,6 @@ arg
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 VisitEntry
 (
 PLDHashTable

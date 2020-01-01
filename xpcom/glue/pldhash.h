@@ -333,7 +333,6 @@ void
 *
 (
 *
-PR_CALLBACK
 PLDHashAllocTable
 )
 (
@@ -348,7 +347,6 @@ typedef
 void
 (
 *
-PR_CALLBACK
 PLDHashFreeTable
 )
 (
@@ -364,7 +362,6 @@ typedef
 PLDHashNumber
 (
 *
-PR_CALLBACK
 PLDHashHashKey
 )
 (
@@ -381,7 +378,6 @@ typedef
 PRBool
 (
 *
-PR_CALLBACK
 PLDHashMatchEntry
 )
 (
@@ -402,7 +398,6 @@ typedef
 void
 (
 *
-PR_CALLBACK
 PLDHashMoveEntry
 )
 (
@@ -422,7 +417,6 @@ typedef
 void
 (
 *
-PR_CALLBACK
 PLDHashClearEntry
 )
 (
@@ -438,7 +432,6 @@ typedef
 void
 (
 *
-PR_CALLBACK
 PLDHashFinalize
 )
 (
@@ -451,7 +444,6 @@ typedef
 PRBool
 (
 *
-PR_CALLBACK
 PLDHashInitEntry
 )
 (
@@ -920,7 +912,6 @@ typedef
 PLDHashOperator
 (
 *
-PR_CALLBACK
 PLDHashEnumerator
 )
 (

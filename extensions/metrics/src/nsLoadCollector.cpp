@@ -1946,7 +1946,6 @@ NS_OK
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 nsLoadCollector
 :
 :

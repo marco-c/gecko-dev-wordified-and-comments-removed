@@ -423,7 +423,6 @@ aAssertion
 }
 static
 PLDHashOperator
-PR_CALLBACK
 DeletePropertyHashEntry
 (
 PLDHashTable
@@ -915,7 +914,6 @@ mTarget
 }
 }
 PLDHashOperator
-PR_CALLBACK
 Assertion
 :
 :
@@ -1065,7 +1063,6 @@ mReadCount
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 DeleteForwardArcsEntry
 (
 PLDHashTable
@@ -1083,7 +1080,6 @@ aArg
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 ResourceEnumerator
 (
 PLDHashTable
@@ -1192,7 +1188,6 @@ protected
 :
 static
 PLDHashOperator
-PR_CALLBACK
 SweepForwardArcsEntries
 (
 PLDHashTable
@@ -2243,7 +2238,6 @@ InMemoryArcsEnumeratorImpl
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 ArcEnumerator
 (
 PLDHashTable
@@ -2371,7 +2365,6 @@ aEnumerator
 }
 ;
 PLDHashOperator
-PR_CALLBACK
 InMemoryArcsEnumeratorImpl
 :
 :
@@ -3441,7 +3434,6 @@ this
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 InMemoryDataSource
 :
 :
@@ -7183,7 +7175,6 @@ NS_OK
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 InMemoryDataSource
 :
 :
@@ -8339,7 +8330,6 @@ NS_OK
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 InMemoryDataSource
 :
 :
@@ -8775,7 +8765,6 @@ mRv
 }
 ;
 PLDHashOperator
-PR_CALLBACK
 SubjectEnumerator
 (
 PLDHashTable
@@ -8963,7 +8952,6 @@ mOuter
 }
 ;
 PLDHashOperator
-PR_CALLBACK
 TriplesInnerEnumerator
 (
 PLDHashTable
@@ -9125,7 +9113,6 @@ PL_DHASH_NEXT
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 TriplesEnumerator
 (
 PLDHashTable

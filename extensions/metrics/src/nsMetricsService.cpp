@@ -924,7 +924,6 @@ this
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 nsMetricsService
 :
 :
@@ -3344,7 +3343,6 @@ disabledCollectors
 }
 ;
 PLDHashOperator
-PR_CALLBACK
 nsMetricsService
 :
 :
@@ -3457,7 +3455,6 @@ PL_DHASH_REMOVE
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 nsMetricsService
 :
 :

@@ -552,7 +552,6 @@ void
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 DeactivateAndClearEntry
 (
 PLDHashTable
@@ -570,7 +569,6 @@ arg
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 RemoveActiveEntry
 (
 PLDHashTable

@@ -3132,10 +3132,8 @@ nsHTMLTags
 :
 gTagAtomTable
 ;
-PR_STATIC_CALLBACK
-(
+static
 PLHashNumber
-)
 HTMLTagsHashCodeUCPtr
 (
 const
@@ -3166,10 +3164,8 @@ str
 )
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PRIntn
-)
 HTMLTagsKeyCompareUCPtr
 (
 const
@@ -3220,10 +3216,8 @@ str2
 0
 ;
 }
-PR_STATIC_CALLBACK
-(
+static
 PLHashNumber
-)
 HTMLTagsHashCodeAtom
 (
 const
