@@ -171,6 +171,10 @@ gfxFont
 .
 cpp
 \
+gfxFontFeatures
+.
+cpp
+\
 gfxFontMissingGlyphs
 .
 cpp

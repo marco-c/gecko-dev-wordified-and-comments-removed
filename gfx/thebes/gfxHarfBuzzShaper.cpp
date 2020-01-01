@@ -4076,6 +4076,17 @@ aShapedText
 DisableLigatures
 (
 )
+mFont
+-
+>
+GetFontEntry
+(
+)
+-
+>
+FamilyName
+(
+)
 mergedFeatures
 )
 )
