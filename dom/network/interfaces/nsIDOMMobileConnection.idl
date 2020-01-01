@@ -1373,6 +1373,9 @@ RequestNotSupported
 '
 IllegalSIMorME
 '
+'
+InvalidParameter
+'
 or
 '
 GenericFailure
@@ -1505,6 +1508,9 @@ RadioNotAvailable
 RequestNotSupported
 '
 *
+'
+InvalidParameter
+'
 or
 '
 GenericFailure
@@ -1599,7 +1605,7 @@ RequestNotSupported
 IllegalSIMorME
 '
 '
-InvalidCallBarringOption
+InvalidParameter
 '
 or
 '
@@ -1727,7 +1733,7 @@ RequestNotSupported
 '
 *
 '
-InvalidCallBarringOption
+InvalidParameter
 '
 or
 '
