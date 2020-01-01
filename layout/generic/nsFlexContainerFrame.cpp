@@ -429,8 +429,8 @@ aMargin
 left
 ;
 }
-NS_STACK_CLASS
 class
+MOZ_STACK_CLASS
 FlexboxAxisTracker
 {
 public
@@ -2934,8 +2934,8 @@ return
 numAutoMargins
 ;
 }
-NS_STACK_CLASS
 class
+MOZ_STACK_CLASS
 PositionTracker
 {
 public
@@ -3116,8 +3116,8 @@ mAxis
 ;
 }
 ;
-NS_STACK_CLASS
 class
+MOZ_STACK_CLASS
 MainAxisPositionTracker
 :
 public
@@ -3217,8 +3217,8 @@ mJustifyContent
 class
 SingleLineCrossAxisPositionTracker
 ;
-NS_STACK_CLASS
 class
+MOZ_STACK_CLASS
 CrossAxisPositionTracker
 :
 public
@@ -3243,8 +3243,8 @@ aReflowState
 ;
 }
 ;
-NS_STACK_CLASS
 class
+MOZ_STACK_CLASS
 SingleLineCrossAxisPositionTracker
 :
 public

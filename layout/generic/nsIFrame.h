@@ -3158,7 +3158,7 @@ aContent
 0
 ;
 struct
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 ContentOffsets
 {
 nsCOMPtr
@@ -3262,7 +3262,7 @@ aFlags
 ;
 }
 struct
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 Cursor
 {
 nsCOMPtr

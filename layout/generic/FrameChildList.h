@@ -247,7 +247,7 @@ mID
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 FrameChildListArrayIterator
 {
 public
@@ -399,7 +399,7 @@ mCurrentIndex
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 FrameChildListIterator
 :
 public

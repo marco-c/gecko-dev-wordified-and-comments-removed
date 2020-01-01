@@ -8571,7 +8571,7 @@ NS_OK
 ;
 }
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsIRenderingContextBidiProcessor
 :
 public

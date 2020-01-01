@@ -99,7 +99,7 @@ struct
 TreeMatchContext
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 AncestorFilter
 {
 friend
@@ -275,7 +275,7 @@ endif
 }
 ;
 struct
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 TreeMatchContext
 {
 void
@@ -734,7 +734,7 @@ mCurrentStyleScope
 ;
 }
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 AutoAncestorPusher
 {
 public
@@ -849,7 +849,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 AutoFlexItemStyleFixupSkipper
 {
 public
@@ -1154,7 +1154,7 @@ UsePrivateBrowsing
 }
 ;
 struct
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 RuleProcessorData
 {
 RuleProcessorData
@@ -1214,7 +1214,7 @@ mScope
 }
 ;
 struct
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 ElementDependentRuleProcessorData
 :
 public
@@ -1331,7 +1331,7 @@ mTreeMatchContext
 }
 ;
 struct
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 ElementRuleProcessorData
 :
 public
@@ -1394,7 +1394,7 @@ walker
 }
 ;
 struct
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 PseudoElementRuleProcessorData
 :
 public
@@ -1487,7 +1487,7 @@ mPseudoType
 }
 ;
 struct
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 AnonBoxRuleProcessorData
 :
 public
@@ -1549,7 +1549,7 @@ mPseudoTag
 ifdef
 MOZ_XUL
 struct
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 XULTreeRuleProcessorData
 :
 public
@@ -1656,7 +1656,7 @@ mComparator
 #
 endif
 struct
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 StateRuleProcessorData
 :
 public
@@ -1717,7 +1717,7 @@ mStateMask
 }
 ;
 struct
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 AttributeRuleProcessorData
 :
 public

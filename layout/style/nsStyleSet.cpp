@@ -8571,6 +8571,7 @@ flags
 ;
 }
 struct
+MOZ_STACK_CLASS
 StatefulData
 :
 public
@@ -8848,6 +8849,7 @@ mHint
 ;
 }
 struct
+MOZ_STACK_CLASS
 AttributeData
 :
 public

@@ -112,7 +112,6 @@ SVGFilterElement
 }
 }
 class
-NS_STACK_CLASS
 nsSVGFilterInstance
 {
 public

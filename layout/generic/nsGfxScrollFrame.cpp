@@ -737,6 +737,7 @@ scrollFrame
 ;
 }
 struct
+MOZ_STACK_CLASS
 ScrollReflowState
 {
 const
