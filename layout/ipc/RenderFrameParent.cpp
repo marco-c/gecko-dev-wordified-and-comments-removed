@@ -3559,6 +3559,14 @@ aLists
 nsDisplayList
 shadowTree
 ;
+ContainerLayer
+*
+container
+=
+GetRootLayer
+(
+)
+;
 if
 (
 aBuilder
@@ -3567,6 +3575,9 @@ aBuilder
 IsForEventDelivery
 (
 )
+&
+&
+container
 )
 {
 nsRect
@@ -3600,9 +3611,7 @@ aBuilder
 ;
 BuildListForLayer
 (
-GetRootLayer
-(
-)
+container
 mFrameLoader
 offset
 aBuilder
