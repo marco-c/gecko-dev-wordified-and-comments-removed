@@ -801,9 +801,6 @@ int32_t
 aIndex
 )
 {
-bool
-result
-=
 mArray
 .
 EnsureLengthAtLeast
@@ -813,11 +810,6 @@ aIndex
 1
 )
 ;
-if
-(
-result
-)
-{
 nsISupports
 *
 oldObject
@@ -842,9 +834,8 @@ NS_IF_RELEASE
 oldObject
 )
 ;
-}
 return
-result
+true
 ;
 }
 bool
