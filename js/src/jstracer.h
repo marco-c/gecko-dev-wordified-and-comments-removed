@@ -1288,6 +1288,10 @@ startTime
 ;
 #
 endif
+InterpState
+*
+prev
+;
 uint32
 builtinStatus
 ;
