@@ -40724,6 +40724,8 @@ buttonPressed
 ;
 PRBool
 checkState
+=
+PR_FALSE
 ;
 rv
 =
