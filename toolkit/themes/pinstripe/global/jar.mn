@@ -568,6 +568,16 @@ global
 webConsole
 .
 css
+*
+skin
+/
+classic
+/
+global
+/
+webConsole_networkPanel
+.
+css
 skin
 /
 classic
