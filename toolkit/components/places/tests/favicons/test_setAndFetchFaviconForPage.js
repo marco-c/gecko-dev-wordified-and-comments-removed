@@ -224,6 +224,7 @@ test_privateBrowsing_bookmarked
 if
 (
 !
+(
 "
 mozilla
 .
@@ -236,8 +237,9 @@ privatebrowsing
 in
 Cc
 )
+)
 {
-run_next_next
+run_next_test
 (
 )
 ;

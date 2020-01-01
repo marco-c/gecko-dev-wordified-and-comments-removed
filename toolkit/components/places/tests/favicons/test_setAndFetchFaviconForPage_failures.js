@@ -371,6 +371,7 @@ test_privateBrowsing_nonBookmarkedURI
 if
 (
 !
+(
 "
 mozilla
 .
@@ -382,6 +383,7 @@ privatebrowsing
 "
 in
 Cc
+)
 )
 {
 run_next_test
