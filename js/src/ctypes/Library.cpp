@@ -48,7 +48,7 @@ nsNativeCharsetUtils
 h
 "
 namespace
-mozilla
+js
 {
 namespace
 ctypes
