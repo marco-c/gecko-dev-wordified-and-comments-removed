@@ -261,6 +261,8 @@ trying
 /
 dev
 /
+graphics
+/
 fb0
 "
 )
@@ -334,6 +336,8 @@ back
 on
 /
 dev
+/
+graphics
 /
 fb0
 .
