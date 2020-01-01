@@ -246,7 +246,7 @@ this
 .
 service
 .
-userAPI
+userAPIURI
 +
 this
 .
