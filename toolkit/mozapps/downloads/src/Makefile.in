@@ -435,6 +435,10 @@ DownloadUtils
 .
 jsm
 \
+DownloadLastDir
+.
+jsm
+\
 (
 NULL
 )
