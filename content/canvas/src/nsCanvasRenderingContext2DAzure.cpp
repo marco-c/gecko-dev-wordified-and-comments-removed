@@ -11744,12 +11744,6 @@ fontStyle
 >
 mFont
 .
-featureSettings
-fontStyle
--
->
-mFont
-.
 languageOverride
 )
 ;

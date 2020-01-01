@@ -146,9 +146,6 @@ gfxFontFeature
 fontFeatureSettings
 ;
 nsString
-featureSettings
-;
-nsString
 languageOverride
 ;
 nsFont
@@ -175,12 +172,6 @@ aSizeAdjust
 0
 .
 0f
-const
-nsString
-*
-aFeatureSettings
-=
-nsnull
 const
 nsString
 *
@@ -213,12 +204,6 @@ aSizeAdjust
 0
 .
 0f
-const
-nsString
-*
-aFeatureSettings
-=
-nsnull
 const
 nsString
 *

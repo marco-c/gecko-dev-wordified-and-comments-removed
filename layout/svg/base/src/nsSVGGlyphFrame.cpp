@@ -7142,9 +7142,6 @@ systemFont
 printerFont
 font
 .
-featureSettings
-font
-.
 languageOverride
 )
 ;
