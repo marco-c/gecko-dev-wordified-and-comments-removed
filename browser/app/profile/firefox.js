@@ -9547,7 +9547,7 @@ layoutview
 .
 enabled
 "
-false
+true
 )
 ;
 pref
