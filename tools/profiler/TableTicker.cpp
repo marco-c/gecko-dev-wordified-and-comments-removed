@@ -5974,7 +5974,9 @@ sResponsivenessLoc
 void
 mozilla_sampler_responsiveness1
 (
+const
 TimeStamp
+&
 aTime
 )
 {
