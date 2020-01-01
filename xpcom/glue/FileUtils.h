@@ -105,6 +105,7 @@ mFD
 ;
 }
 ;
+NS_COM_GLUE
 bool
 fallocate
 (
