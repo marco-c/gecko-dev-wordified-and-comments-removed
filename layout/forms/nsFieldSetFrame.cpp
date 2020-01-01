@@ -993,7 +993,7 @@ aRenderingContext
 this
 aDirtyRect
 rect
-PR_TRUE
+0
 )
 ;
 nsCSSRendering

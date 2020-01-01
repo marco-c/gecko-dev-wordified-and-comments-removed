@@ -275,6 +275,13 @@ aStartAtParent
 PR_FALSE
 )
 ;
+enum
+{
+PAINT_WILL_PAINT_BORDER
+=
+0x01
+}
+;
 static
 void
 PaintBackground
@@ -296,8 +303,8 @@ const
 nsRect
 &
 aBorderArea
-PRBool
-aUsePrintSettings
+PRUint32
+aFlags
 nsRect
 *
 aBGClipRect
@@ -334,10 +341,8 @@ const
 nsStyleBorder
 &
 aBorder
-PRBool
-aUsePrintSettings
-=
-PR_FALSE
+PRUint32
+aFlags
 nsRect
 *
 aBGClipRect

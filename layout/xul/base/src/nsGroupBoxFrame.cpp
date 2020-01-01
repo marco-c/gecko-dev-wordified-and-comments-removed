@@ -102,6 +102,16 @@ aResult
 }
 #
 endif
+virtual
+PRBool
+HonorPrintBackgroundSettings
+(
+)
+{
+return
+PR_FALSE
+;
+}
 void
 PaintBorderBackground
 (
@@ -589,7 +599,7 @@ aRenderingContext
 this
 aDirtyRect
 rect
-PR_FALSE
+0
 )
 ;
 if

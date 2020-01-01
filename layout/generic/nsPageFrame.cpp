@@ -3002,7 +3002,7 @@ aRenderingContext
 this
 rect
 backgroundRect
-PR_TRUE
+0
 )
 ;
 nsLayoutUtils

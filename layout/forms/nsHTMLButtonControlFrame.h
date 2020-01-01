@@ -320,6 +320,16 @@ aResult
 }
 #
 endif
+virtual
+PRBool
+HonorPrintBackgroundSettings
+(
+)
+{
+return
+PR_FALSE
+;
+}
 void
 SetFocus
 (
