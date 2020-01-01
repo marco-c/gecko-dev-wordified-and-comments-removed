@@ -80,7 +80,6 @@ h
 if
 LINUX_VERSION_CODE
 <
-=
 KERNEL_VERSION
 (
 2
