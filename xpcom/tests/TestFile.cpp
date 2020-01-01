@@ -56,6 +56,7 @@ VerifyResult
 (
 nsresult
 aRV
+const
 char
 *
 aMsg

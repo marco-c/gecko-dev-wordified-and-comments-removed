@@ -374,6 +374,7 @@ aLayoutObject
 PRBool
 HasDescendant
 (
+const
 char
 *
 aTagName

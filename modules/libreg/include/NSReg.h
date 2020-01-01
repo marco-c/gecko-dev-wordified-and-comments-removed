@@ -604,6 +604,7 @@ HREG
 hReg
 RKEY
 key
+const
 char
 *
 name

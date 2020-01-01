@@ -733,12 +733,6 @@ nsnull
 {
 char
 *
-sonamesListFromPref
-=
-PREF_PLUGINS_SONAME
-;
-char
-*
 sonameList
 =
 NULL
@@ -755,7 +749,7 @@ prefs
 >
 GetCharPref
 (
-sonamesListFromPref
+PREF_PLUGINS_SONAME
 &
 sonameList
 )
@@ -1215,7 +1209,7 @@ prefs
 >
 SetCharPref
 (
-sonamesListFromPref
+PREF_PLUGINS_SONAME
 (
 const
 char
