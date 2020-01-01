@@ -291,6 +291,13 @@ nsIWidget
 aNewParent
 )
 ;
+NS_IMETHOD
+MakeFullScreen
+(
+bool
+aFullScreen
+)
+;
 virtual
 float
 GetDPI
