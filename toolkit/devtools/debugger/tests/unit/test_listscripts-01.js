@@ -177,7 +177,9 @@ do_check_eq
 script
 .
 startLine
-46
+gDebuggee
+.
+line0
 )
 ;
 do_check_eq
@@ -186,6 +188,15 @@ script
 .
 lineCount
 4
+)
+;
+do_check_true
+(
+!
+!
+script
+.
+source
 )
 ;
 gThreadClient
