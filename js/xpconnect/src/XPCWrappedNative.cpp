@@ -6455,6 +6455,8 @@ wrapperChanger
 JSObject
 *
 flat
+=
+nullptr
 ;
 nsWrapperCache
 *
@@ -6566,6 +6568,10 @@ rv
 return
 rv
 ;
+if
+(
+wrapper
+)
 flat
 =
 wrapper
