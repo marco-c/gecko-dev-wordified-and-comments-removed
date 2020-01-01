@@ -2846,6 +2846,7 @@ ARB_texture_non_power_of_two
 ARB_pixel_buffer_object
 ARB_ES2_compatibility
 OES_texture_float
+OES_texture_float_linear
 ARB_texture_float
 EXT_unpack_subimage
 OES_standard_derivatives

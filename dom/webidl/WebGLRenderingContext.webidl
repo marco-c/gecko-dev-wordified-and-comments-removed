@@ -4783,3 +4783,11 @@ WebGLExtensionTextureFloat
 {
 }
 ;
+[
+NoInterfaceObject
+]
+interface
+WebGLExtensionTextureFloatLinear
+{
+}
+;

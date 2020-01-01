@@ -280,6 +280,11 @@ WebGLExtensionTextureFloat
 cpp
 '
 '
+WebGLExtensionTextureFloatLinear
+.
+cpp
+'
+'
 WebGLFramebuffer
 .
 cpp

@@ -219,6 +219,9 @@ GL_ARB_ES2_compatibility
 GL_OES_texture_float
 "
 "
+GL_OES_texture_float_linear
+"
+"
 GL_ARB_texture_float
 "
 "
