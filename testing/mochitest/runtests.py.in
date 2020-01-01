@@ -3220,6 +3220,9 @@ PROFILE_DIRECTORY
 options
 .
 browserArgs
+runSSLTunnel
+=
+True
 utilityPath
 =
 options
