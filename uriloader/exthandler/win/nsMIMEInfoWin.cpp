@@ -450,7 +450,7 @@ seinfo
 .
 fMask
 =
-NULL
+0
 ;
 seinfo
 .
