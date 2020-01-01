@@ -143,11 +143,6 @@ nsIContentViewer
 aDocViewer
 )
 ;
-static
-nsICSSStyleSheet
-*
-gUAStyleSheet
-;
 #
 ifdef
 MOZ_SVG
