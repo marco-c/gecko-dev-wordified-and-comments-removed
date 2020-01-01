@@ -50,6 +50,9 @@ class
 mozStorageConnection
 ;
 class
+nsIXPConnect
+;
+class
 mozStorageService
 :
 public
@@ -75,6 +78,13 @@ GetSingleton
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_MOZISTORAGESERVICE
+static
+nsIXPConnect
+*
+XPConnect
+(
+)
+;
 private
 :
 virtual
@@ -99,6 +109,11 @@ static
 mozStorageService
 *
 gStorageService
+;
+static
+nsIXPConnect
+*
+sXPConnect
 ;
 }
 ;
