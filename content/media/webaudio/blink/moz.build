@@ -153,6 +153,11 @@ HRTFPanner
 cpp
 '
 '
+PeriodicWave
+.
+cpp
+'
+'
 Reverb
 .
 cpp
