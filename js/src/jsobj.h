@@ -1316,7 +1316,10 @@ initializedLength
 ;
 }
 ;
+JS_FRIEND_API
+(
 size_t
+)
 sizeOfSlotsArray
 (
 size_t
