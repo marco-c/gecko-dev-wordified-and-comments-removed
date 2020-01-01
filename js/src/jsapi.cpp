@@ -2674,7 +2674,6 @@ value
 return
 TypeOfValue
 (
-cx
 value
 )
 ;

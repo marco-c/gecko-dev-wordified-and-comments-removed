@@ -47832,9 +47832,11 @@ TypeOf
 JSType
 type
 =
-JS_TypeOfValue
+js
+:
+:
+TypeOfValue
 (
-cx
 val
 )
 ;
@@ -47846,6 +47848,11 @@ TypeName
 (
 type
 cx
+-
+>
+runtime
+(
+)
 )
 )
 ;
