@@ -39,7 +39,9 @@ center
 }
 richlistitem
 .
-preftitle
+preferences
+-
+title
 {
 pointer
 -
@@ -78,7 +80,9 @@ false
 "
 ]
 .
-preftitle
+preferences
+-
+title
 {
 font
 -
@@ -295,7 +299,9 @@ false
 "
 ]
 .
-preftitle
+preferences
+-
+title
 {
 font
 -
@@ -308,8 +314,7 @@ bold
 editor
 -
 setting
-.
-prefbox
+setting
 {
 border
 -

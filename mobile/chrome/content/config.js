@@ -1474,7 +1474,9 @@ setAttribute
 class
 "
 "
-preftitle
+preferences
+-
+title
 "
 )
 ;
@@ -1528,7 +1530,9 @@ setAttribute
 class
 "
 "
-prefvalue
+preferences
+-
+value
 "
 )
 ;
