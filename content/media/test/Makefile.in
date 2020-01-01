@@ -729,6 +729,10 @@ dynamic_redirect
 .
 sjs
 \
+dynamic_resource
+.
+sjs
+\
 file_access_controls
 .
 html
@@ -914,6 +918,10 @@ test_load
 html
 \
 test_load_candidates
+.
+html
+\
+test_load_same_resource
 .
 html
 \
