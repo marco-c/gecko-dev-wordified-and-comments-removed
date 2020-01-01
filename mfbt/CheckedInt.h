@@ -798,7 +798,7 @@ typename
 T
 >
 inline
-T
+bool
 HasSignBit
 (
 T
@@ -806,7 +806,7 @@ x
 )
 {
 return
-T
+bool
 (
 typename
 UnsignedType
