@@ -89,7 +89,6 @@ background
 reftest
 .
 list
-#
 include
 pngsuite
 -
@@ -107,7 +106,6 @@ corrupted
 reftest
 .
 list
-#
 include
 pngsuite
 -
@@ -116,7 +114,6 @@ filtering
 reftest
 .
 list
-#
 include
 pngsuite
 -
@@ -133,7 +130,6 @@ oddsizes
 reftest
 .
 list
-#
 include
 pngsuite
 -
