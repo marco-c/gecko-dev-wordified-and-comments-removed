@@ -11562,7 +11562,7 @@ NS_IMETHODIMP
 nsDocShell
 :
 :
-GetSameTypeParentIgnoreBrowserAndAppBoundaries
+GetParentIgnoreBrowserFrame
 (
 nsIDocShell
 *
@@ -47575,7 +47575,7 @@ nsIDocShell
 >
 parent
 ;
-GetSameTypeParentIgnoreBrowserAndAppBoundaries
+GetParentIgnoreBrowserFrame
 (
 getter_AddRefs
 (
