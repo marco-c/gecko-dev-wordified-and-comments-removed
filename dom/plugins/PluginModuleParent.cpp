@@ -2378,14 +2378,9 @@ string
 intval
 )
 )
-{
-delete
-ident
-;
 return
 nsnull
 ;
-}
 mIdentifiers
 .
 Put
