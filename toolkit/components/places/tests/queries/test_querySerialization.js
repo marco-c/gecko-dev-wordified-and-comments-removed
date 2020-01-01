@@ -2084,6 +2084,18 @@ subswitches
 {
 if
 (
+p
+in
+aQuery1
+&
+&
+p
+in
+aQuery2
+)
+{
+if
+(
 aQuery1
 [
 p
@@ -2132,6 +2144,7 @@ p
 return
 false
 ;
+}
 }
 }
 else
