@@ -1342,6 +1342,15 @@ setAttribute
 value
 "
 aValue
+!
+=
+=
+null
+?
+aValue
+:
+"
+"
 )
 ;
 }
