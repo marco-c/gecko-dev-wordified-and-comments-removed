@@ -72,7 +72,7 @@ hints
 :
 '
 <
-node
+selector
 >
 '
 markup
@@ -88,7 +88,7 @@ ERROR
 args
 :
 {
-node
+selector
 :
 {
 message
@@ -138,7 +138,7 @@ ERROR
 args
 :
 {
-node
+selector
 :
 {
 message
@@ -190,7 +190,7 @@ ERROR
 args
 :
 {
-node
+selector
 :
 {
 message
@@ -246,7 +246,7 @@ VALID
 args
 :
 {
-node
+selector
 :
 {
 message
@@ -298,7 +298,7 @@ ERROR
 args
 :
 {
-node
+selector
 :
 {
 message
@@ -352,7 +352,7 @@ VALID
 args
 :
 {
-node
+selector
 :
 {
 message
@@ -404,7 +404,7 @@ VALID
 args
 :
 {
-node
+selector
 :
 {
 message
@@ -460,7 +460,7 @@ VALID
 args
 :
 {
-node
+selector
 :
 {
 message
@@ -514,7 +514,7 @@ VALID
 args
 :
 {
-node
+selector
 :
 {
 message

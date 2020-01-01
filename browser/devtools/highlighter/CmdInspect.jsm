@@ -76,7 +76,7 @@ params
 name
 :
 "
-node
+selector
 "
 type
 :
@@ -133,7 +133,7 @@ openInspectorUI
 (
 args
 .
-node
+selector
 )
 ;
 }
