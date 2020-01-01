@@ -661,14 +661,11 @@ id
 aId
 )
 {
-_prefs
+this
 .
-setBoolPref
+themeChanged
 (
-"
-isThemeSelected
-"
-false
+null
 )
 ;
 AddonManagerPrivate
