@@ -645,6 +645,10 @@ nsISelection2
 .
 idl
 \
+nsISelection3
+.
+idl
+\
 nsISelectionController
 .
 idl
