@@ -13115,6 +13115,11 @@ inner_window
 )
 ;
 }
+if
+(
+!
+mIsTopLevel
+)
 Resize
 (
 mBounds
