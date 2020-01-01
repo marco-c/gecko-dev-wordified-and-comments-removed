@@ -566,6 +566,10 @@ nsIDOMPopStateEvent
 .
 idl
 \
+nsIDOMCloseEvent
+.
+idl
+\
 (
 NULL
 )

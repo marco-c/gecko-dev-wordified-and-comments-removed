@@ -1334,3 +1334,7 @@ DOMCI_CLASS
 (
 WebSocket
 )
+DOMCI_CLASS
+(
+CloseEvent
+)
