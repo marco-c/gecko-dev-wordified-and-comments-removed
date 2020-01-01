@@ -831,6 +831,10 @@ browser_pluginnotification
 .
 js
 \
+browser_popupUI
+.
+js
+\
 browser_relatedTabs
 .
 js
