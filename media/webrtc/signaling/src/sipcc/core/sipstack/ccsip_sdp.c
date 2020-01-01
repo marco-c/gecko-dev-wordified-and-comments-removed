@@ -861,7 +861,7 @@ char
 *
 sipsdp_write_to_buf
 (
-cc_sdp_t
+sdp_t
 *
 sdp_info
 uint32_t
@@ -888,13 +888,6 @@ if
 (
 !
 sdp_info
-|
-|
-!
-sdp_info
--
->
-src_sdp
 )
 {
 CCSIP_DEBUG_ERROR
@@ -925,9 +918,6 @@ rc
 sdp_build
 (
 sdp_info
--
->
-src_sdp
 &
 fs
 )

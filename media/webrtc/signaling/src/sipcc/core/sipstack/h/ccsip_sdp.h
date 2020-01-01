@@ -506,7 +506,7 @@ char
 *
 sipsdp_write_to_buf
 (
-cc_sdp_t
+sdp_t
 *
 uint32_t
 *

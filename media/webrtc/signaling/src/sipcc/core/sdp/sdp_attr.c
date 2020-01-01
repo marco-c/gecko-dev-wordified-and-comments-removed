@@ -2389,6 +2389,10 @@ src_ptr
 +
 ;
 }
+src_ptr
+=
+temp_ptr
+;
 while
 (
 !
@@ -5766,6 +5770,7 @@ codec_info_found
 TRUE
 ;
 }
+else
 if
 (
 cpr_strncasecmp
