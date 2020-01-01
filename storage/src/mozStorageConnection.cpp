@@ -3219,7 +3219,6 @@ duration
 ToMilliseconds
 (
 )
-false
 )
 ;
 }
@@ -3589,7 +3588,6 @@ duration
 ToMilliseconds
 (
 )
-true
 )
 ;
 }
