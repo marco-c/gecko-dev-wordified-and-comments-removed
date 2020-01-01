@@ -370,6 +370,19 @@ caf37097be41
 Register
 resource
 aliases
+#
+(
+Note
+for
+tests
+these
+are
+also
+set
+up
+in
+addResourceAlias
+)
 resource
 services
 -
@@ -378,6 +391,7 @@ resource
 :
 /
 /
+gre
 /
 modules
 /
@@ -393,6 +407,7 @@ resource
 :
 /
 /
+gre
 /
 modules
 /
@@ -408,6 +423,7 @@ resource
 :
 /
 /
+gre
 /
 modules
 /

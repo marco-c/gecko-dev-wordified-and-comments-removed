@@ -63,10 +63,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 services
 -
 common
@@ -86,10 +82,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 services
 -
 common
@@ -108,10 +100,6 @@ import
 resource
 :
 /
-/
-gre
-/
-modules
 /
 services
 -
