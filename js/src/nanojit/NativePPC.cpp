@@ -4000,7 +4000,7 @@ if
 p
 -
 >
-isUsed
+isExtant
 (
 )
 )
@@ -4114,7 +4114,7 @@ if
 p
 -
 >
-isUsed
+isExtant
 (
 )
 )

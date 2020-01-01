@@ -1964,7 +1964,7 @@ if
 p
 -
 >
-isUsed
+isExtant
 (
 )
 )
@@ -2078,7 +2078,7 @@ if
 arg
 -
 >
-isUsed
+isExtant
 (
 )
 &
