@@ -456,6 +456,10 @@ test_computed_style_no_pseudo
 .
 html
 \
+test_default_computed_style
+.
+html
+\
 test_css_cross_domain
 .
 html

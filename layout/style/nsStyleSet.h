@@ -298,9 +298,12 @@ nsStyleContext
 *
 aParentContext
 const
-nsCOMArray
+nsTArray
+<
+nsCOMPtr
 <
 nsIStyleRule
+>
 >
 &
 aRules
