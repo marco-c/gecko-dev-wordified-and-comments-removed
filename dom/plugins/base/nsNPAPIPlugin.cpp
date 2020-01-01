@@ -2838,6 +2838,7 @@ nsIOutputStream
 stream
 )
 ;
+virtual
 ~
 nsNPAPIStreamWrapper
 (
