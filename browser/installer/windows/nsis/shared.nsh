@@ -4984,12 +4984,6 @@ exe
 "
 Push
 "
-xpicleanup
-.
-exe
-"
-Push
-"
 {
 FileMainEXE
 }
