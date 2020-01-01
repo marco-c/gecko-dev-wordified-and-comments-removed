@@ -1292,6 +1292,9 @@ globalDebugHooks
 JSBool
 debugMode
 ;
+JSBool
+hadOutOfMemory
+;
 #
 ifdef
 JS_TRACER

@@ -1000,6 +1000,14 @@ types
 TypeCompartment
 types
 ;
+bool
+condenseTypes
+(
+JSContext
+*
+cx
+)
+;
 #
 ifdef
 JS_TRACER

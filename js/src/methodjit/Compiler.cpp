@@ -3491,6 +3491,15 @@ cx
 isExceptionPending
 (
 )
+|
+|
+cx
+-
+>
+runtime
+-
+>
+hadOutOfMemory
 )
 ;
 return
