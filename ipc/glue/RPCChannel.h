@@ -1020,11 +1020,6 @@ const
 void
 DumpRPCStack
 (
-FILE
-*
-outfile
-=
-NULL
 const
 char
 *
