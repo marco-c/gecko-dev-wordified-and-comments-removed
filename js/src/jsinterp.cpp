@@ -12756,6 +12756,7 @@ obj
 setGeneric
 (
 cx
+obj
 id
 rval
 .
@@ -15361,6 +15362,7 @@ parent
 setProperty
 (
 cx
+parent
 name
 rval
 .
@@ -16450,6 +16452,7 @@ baseops
 SetPropertyHelper
 (
 cx
+obj
 obj
 id
 0
@@ -18015,10 +18018,14 @@ script
 strictModeCode
 )
 ;
+Rooted
+<
 JSObject
 *
+>
 obj
-=
+(
+cx
 &
 regs
 .
@@ -18030,6 +18037,7 @@ sp
 .
 toObject
 (
+)
 )
 ;
 Value
@@ -18066,6 +18074,7 @@ obj
 setGeneric
 (
 cx
+obj
 id
 &
 rval
