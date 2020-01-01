@@ -2664,7 +2664,7 @@ push
 make_promise_test
 (
 function
-every_resolve
+all_resolve
 (
 test
 )
@@ -2743,7 +2743,7 @@ promise
 return
 Promise
 .
-every
+all
 (
 promises
 )
@@ -2799,7 +2799,7 @@ push
 make_promise_test
 (
 function
-every_reject
+all_reject
 (
 test
 )
@@ -2888,7 +2888,7 @@ promise
 return
 Promise
 .
-every
+all
 (
 promises
 )
@@ -2946,7 +2946,7 @@ push
 make_promise_test
 (
 function
-every_resolve_no_promises
+all_resolve_no_promises
 (
 test
 )
@@ -2955,7 +2955,7 @@ try
 {
 Promise
 .
-every
+all
 (
 null
 )
@@ -2964,7 +2964,7 @@ do_check_true
 (
 false
 "
-every
+all
 (
 )
 should
@@ -2985,7 +2985,7 @@ do_check_true
 (
 true
 "
-every
+all
 (
 )
 fails
@@ -3007,7 +3007,7 @@ p1
 =
 Promise
 .
-every
+all
 (
 [
 ]
@@ -3021,15 +3021,22 @@ onResolve
 val
 )
 {
-do_check_eq
+do_check_true
 (
-typeof
+Array
+.
+isArray
 (
 val
 )
-"
-undefined
-"
+&
+&
+val
+.
+length
+=
+=
+0
 )
 ;
 }
@@ -3040,7 +3047,7 @@ p2
 =
 Promise
 .
-every
+all
 (
 [
 1
@@ -3085,7 +3092,7 @@ val3
 return
 Promise
 .
-every
+all
 (
 [
 p1
