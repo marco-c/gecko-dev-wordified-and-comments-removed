@@ -219,8 +219,12 @@ jsautooplen
 h
 "
 #
-ifdef
-js_invoke_c__
+if
+!
+JS_LONE_INTERPRET
+^
+defined
+jsinvoke_cpp___
 uint32
 js_GenerateShape
 (
@@ -2751,6 +2755,7 @@ return
 JS_TRUE
 ;
 }
+JS_STATIC_INTERPRET
 jsval
 *
 js_AllocRawStack
@@ -2873,6 +2878,7 @@ return
 sp
 ;
 }
+JS_STATIC_INTERPRET
 void
 js_FreeRawStack
 (
@@ -3564,6 +3570,7 @@ return
 JS_TRUE
 ;
 }
+JS_STATIC_INTERPRET
 JSObject
 *
 js_ComputeGlobalThis
@@ -4188,6 +4195,7 @@ return
 proto
 ;
 }
+JS_STATIC_INTERPRET
 JSBool
 js_OnUnknownMethod
 (
@@ -7263,6 +7271,7 @@ ok
 #
 if
 JS_HAS_EXPORT_IMPORT
+JS_STATIC_INTERPRET
 JSBool
 js_ImportProperty
 (
@@ -8851,6 +8860,7 @@ idp
 )
 ;
 }
+JS_STATIC_INTERPRET
 JSBool
 js_EnterWith
 (
@@ -9044,6 +9054,7 @@ return
 JS_TRUE
 ;
 }
+JS_STATIC_INTERPRET
 void
 js_LeaveWith
 (
@@ -9208,6 +9219,7 @@ return
 NULL
 ;
 }
+JS_STATIC_INTERPRET
 jsint
 js_CountWithBlocks
 (
@@ -9462,6 +9474,7 @@ return
 normalUnwind
 ;
 }
+JS_STATIC_INTERPRET
 JSBool
 js_DoIncDec
 (
@@ -9650,6 +9663,7 @@ JS_TRUE
 #
 ifdef
 DEBUG
+JS_STATIC_INTERPRET
 void
 js_TraceOpcode
 (
@@ -10171,6 +10185,7 @@ JSOP_LIMIT
 HIST_NSLOTS
 ]
 ;
+JS_STATIC_INTERPRET
 void
 js_MeterOpcodePair
 (
@@ -10198,6 +10213,7 @@ op2
 ]
 ;
 }
+JS_STATIC_INTERPRET
 void
 js_MeterSlotOpcode
 (
@@ -11058,7 +11074,10 @@ fp
 #
 endif
 #
-else
+endif
+#
+ifndef
+jsinvoke_cpp___
 #
 define
 PUSH
