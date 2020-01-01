@@ -11,6 +11,12 @@ jstypes
 .
 h
 >
+namespace
+js
+{
+namespace
+ion
+{
 typedef
 uint32_t
 uint32
@@ -43,5 +49,7 @@ typedef
 uint32
 BailoutId
 ;
+}
+}
 #
 endif
