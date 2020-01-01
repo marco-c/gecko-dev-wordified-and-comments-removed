@@ -211,6 +211,16 @@ NULL
 LOCAL_INCLUDES
 =
 \
+-
+I
+(
+topsrcdir
+)
+/
+image
+/
+src
+\
 (
 NULL
 )
