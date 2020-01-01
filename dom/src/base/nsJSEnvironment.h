@@ -955,12 +955,6 @@ public
 :
 NS_DECL_ISUPPORTS
 virtual
-void
-ShutDown
-(
-)
-;
-virtual
 PRUint32
 GetScriptTypeID
 (
@@ -1017,6 +1011,12 @@ object
 static
 void
 Startup
+(
+)
+;
+static
+void
+Shutdown
 (
 )
 ;

@@ -51,14 +51,6 @@ GetScriptTypeID
 0
 ;
 virtual
-void
-ShutDown
-(
-)
-=
-0
-;
-virtual
 nsresult
 ParseVersion
 (

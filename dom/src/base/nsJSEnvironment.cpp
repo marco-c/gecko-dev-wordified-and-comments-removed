@@ -15560,7 +15560,7 @@ void
 nsJSRuntime
 :
 :
-ShutDown
+Shutdown
 (
 )
 {

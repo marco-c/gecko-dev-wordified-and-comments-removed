@@ -153,12 +153,6 @@ nsCID
 aConstructorCID
 )
 ;
-static
-nsresult
-Startup
-(
-)
-;
 protected
 :
 PRBool
