@@ -25129,7 +25129,7 @@ ki
 .
 dwExtraInfo
 =
-NULL
+0
 ;
 sRedirectedKeyDownEventPreventedDefault
 =

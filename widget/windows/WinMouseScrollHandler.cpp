@@ -1162,7 +1162,7 @@ LPARAM
 target
 )
 :
-NULL
+0
 ;
 wParam
 =
@@ -6510,6 +6510,7 @@ majorVersion
 15
 |
 |
+(
 majorVersion
 =
 =
@@ -6520,6 +6521,7 @@ minorVersion
 =
 =
 0
+)
 ;
 }
 bool

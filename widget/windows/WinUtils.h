@@ -67,6 +67,15 @@ nsIDownloader
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsWindow
 ;
@@ -78,6 +87,7 @@ widget
 {
 class
 myDownloadObserver
+MOZ_FINAL
 :
 public
 nsIDownloadObserver
@@ -355,6 +365,7 @@ VistaCreateItemFromParsingNameInit
 ;
 class
 AsyncFaviconDataReady
+MOZ_FINAL
 :
 public
 nsIFaviconDataCallback

@@ -129,9 +129,9 @@ ACCESSIBILITY
 #
 include
 "
-OLEACC
+oleacc
 .
-H
+h
 "
 #
 include
