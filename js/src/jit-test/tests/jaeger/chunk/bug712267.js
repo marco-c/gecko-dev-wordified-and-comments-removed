@@ -1,13 +1,3 @@
-evaluate
-(
-"
-mjitChunkLimit
-(
-5
-)
-"
-)
-;
 expected
 =
 100

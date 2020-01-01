@@ -1,8 +1,3 @@
-mjitChunkLimit
-(
-42
-)
-;
 Function
 (
 "

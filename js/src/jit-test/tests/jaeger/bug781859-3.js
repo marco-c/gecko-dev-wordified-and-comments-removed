@@ -1,8 +1,3 @@
-mjitChunkLimit
-(
-10
-)
-;
 function
 e
 (

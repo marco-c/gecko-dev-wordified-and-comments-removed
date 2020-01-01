@@ -35,11 +35,6 @@ arr
 m
 ;
 }
-mjitChunkLimit
-(
-10
-)
-;
 arr
 =
 new
