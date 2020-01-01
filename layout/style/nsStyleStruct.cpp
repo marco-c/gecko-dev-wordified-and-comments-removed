@@ -138,6 +138,15 @@ prlog
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 MOZ_STATIC_ASSERT
 (
 (
@@ -1888,7 +1897,7 @@ mColor
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 result

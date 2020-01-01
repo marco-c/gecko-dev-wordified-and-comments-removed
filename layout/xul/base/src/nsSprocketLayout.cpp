@@ -61,6 +61,15 @@ StackArena
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 nsBoxLayout
 *
 nsSprocketLayout
@@ -3170,7 +3179,7 @@ childCount
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 maxFlex
 >

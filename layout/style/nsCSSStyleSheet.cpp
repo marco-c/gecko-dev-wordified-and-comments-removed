@@ -235,6 +235,15 @@ nsDOMClassInfoID
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 using
 namespace
 mozilla
@@ -7083,7 +7092,7 @@ aOld
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 index
 =

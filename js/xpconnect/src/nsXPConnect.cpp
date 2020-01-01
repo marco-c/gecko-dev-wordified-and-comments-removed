@@ -21,6 +21,15 @@ include
 "
 mozilla
 /
+Likely
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -592,7 +601,7 @@ GetXPConnect
 if
 (
 !
-NS_LIKELY
+MOZ_LIKELY
 (
 NS_IsMainThread
 (
@@ -2792,7 +2801,7 @@ kind
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 tracer
 -
@@ -8933,7 +8942,7 @@ aRecursionDepth
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mEventDepth
 =

@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+Likely
+.
+h
+"
+#
+include
+"
 nsBox
 .
 h
@@ -1916,7 +1925,7 @@ aDisp
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 aDisp
 -

@@ -45,6 +45,15 @@ Preferences
 h
 "
 #
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
+#
 ifdef
 MOZ_PLATFORM_MAEMO
 #
@@ -1135,7 +1144,7 @@ aWindow
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 IsDestroyed
 (
@@ -1196,7 +1205,7 @@ aWindow
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 IsDestroyed
 (
@@ -1305,7 +1314,7 @@ IsEditable
 )
 |
 |
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 IsDestroyed
 (
@@ -1464,7 +1473,7 @@ GetContext
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 im
@@ -1789,7 +1798,7 @@ GetContext
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 im
@@ -1837,7 +1846,7 @@ aCaller
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 IsDestroyed
 (
@@ -1953,7 +1962,7 @@ aCaller
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 IsDestroyed
 (
@@ -2045,7 +2054,7 @@ GetContext
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 im
@@ -2107,7 +2116,7 @@ aAction
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 IsDestroyed
 (

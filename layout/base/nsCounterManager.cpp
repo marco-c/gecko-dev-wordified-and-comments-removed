@@ -26,6 +26,15 @@ nsTArray
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 bool
 nsCounterUseNode
 :
@@ -1092,7 +1101,7 @@ true
 }
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 !
 counterList

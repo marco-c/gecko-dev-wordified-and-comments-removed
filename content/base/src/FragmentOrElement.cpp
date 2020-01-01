@@ -12,6 +12,15 @@ include
 "
 mozilla
 /
+Likely
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 FragmentOrElement
@@ -7038,7 +7047,7 @@ FragmentOrElement
 )
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 cb
 .

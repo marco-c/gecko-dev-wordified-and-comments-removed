@@ -47,6 +47,15 @@ nsParserConstants
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 NS_IMPL_ISUPPORTS1
 (
 nsHTMLTokenizer
@@ -1911,7 +1920,7 @@ eHTMLTag_unknown
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 theToken
 !
@@ -2753,7 +2762,7 @@ theAllocator
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 endToken
 !

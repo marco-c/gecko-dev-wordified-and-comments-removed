@@ -65,6 +65,15 @@ ImageLoader
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 namespace
 css
 =
@@ -279,7 +288,7 @@ get
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 mValue
@@ -2096,7 +2105,7 @@ get
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 mValue
@@ -3612,7 +3621,7 @@ PRUnichar
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 buffer

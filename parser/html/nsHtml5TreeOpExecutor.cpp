@@ -195,6 +195,15 @@ nsIHTMLDocument
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 using
 namespace
 mozilla
@@ -1427,7 +1436,7 @@ EndDocUpdate
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 mParser
@@ -1751,7 +1760,7 @@ iter
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 mParser
@@ -2091,7 +2100,7 @@ this
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 mParser
@@ -2117,7 +2126,7 @@ FlushSpeculativeLoads
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 mParser
@@ -2244,7 +2253,7 @@ first
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 mParser
@@ -2285,7 +2294,7 @@ scriptElement
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 iter
 =
@@ -2300,7 +2309,7 @@ break
 else
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 nsContentSink
 :
@@ -2392,7 +2401,7 @@ eNotFlushing
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 mParser
@@ -2481,7 +2490,7 @@ FlushSpeculativeLoads
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 mParser
@@ -2631,7 +2640,7 @@ iter
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 mParser
@@ -2687,7 +2696,7 @@ eNotFlushing
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 mParser
@@ -2955,7 +2964,7 @@ EndDocUpdate
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 mParser
@@ -3254,7 +3263,7 @@ EndDocUpdate
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 mParser

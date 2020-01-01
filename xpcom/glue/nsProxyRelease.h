@@ -33,6 +33,15 @@ nsThreadUtils
 h
 "
 #
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
+#
 ifdef
 XPCOM_GLUE_AVOID_NSPR
 #
@@ -267,7 +276,7 @@ get
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 NS_IsMainThread

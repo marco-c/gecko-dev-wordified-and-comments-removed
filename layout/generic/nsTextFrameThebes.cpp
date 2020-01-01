@@ -402,6 +402,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element
@@ -413,7 +422,7 @@ include
 "
 mozilla
 /
-Util
+Likely
 .
 h
 "
@@ -431,7 +440,7 @@ include
 "
 mozilla
 /
-Attributes
+Util
 .
 h
 "
@@ -11934,7 +11943,7 @@ mStartFrame
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 f
 !
@@ -12000,7 +12009,7 @@ nullptr
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 f
 !
@@ -37650,7 +37659,7 @@ whitespaceCount
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 offset
 >

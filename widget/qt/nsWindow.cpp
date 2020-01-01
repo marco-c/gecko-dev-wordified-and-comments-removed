@@ -289,6 +289,15 @@ h
 #
 include
 "
+mozilla
+/
+Likely
+.
+h
+"
+#
+include
+"
 nsIWidgetListener
 .
 h
@@ -4919,7 +4928,7 @@ gBufferSurface
 }
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 targetSurface
@@ -5132,7 +5141,7 @@ WILL_SEND_DID_PAINT
 }
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mIsDestroyed
 )
@@ -6515,7 +6524,7 @@ nsMouseEvent
 eRightButton
 &
 &
-NS_LIKELY
+MOZ_LIKELY
 (
 !
 mIsDestroyed
@@ -7742,7 +7751,7 @@ downEvent
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mIsDestroyed
 )

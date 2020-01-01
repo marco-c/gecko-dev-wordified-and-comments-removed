@@ -10,6 +10,15 @@ h
 #
 include
 "
+mozilla
+/
+Likely
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
@@ -25262,7 +25271,7 @@ EndWriting
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 iter
@@ -25389,7 +25398,7 @@ BeginWriting
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 dest
@@ -25520,7 +25529,7 @@ EndWriting
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 iter
@@ -25647,7 +25656,7 @@ BeginWriting
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 dest

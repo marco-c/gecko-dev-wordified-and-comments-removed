@@ -15,6 +15,15 @@ Attributes
 h
 "
 #
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
+#
 ifdef
 MOZILLA_INTERNAL_API
 #
@@ -1236,7 +1245,7 @@ XP_WIN
 )
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 lowIOPrioritySet
 )
@@ -1259,7 +1268,7 @@ XP_MACOSX
 )
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 lowIOPrioritySet
 )

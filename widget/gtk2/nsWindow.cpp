@@ -284,6 +284,15 @@ include
 "
 mozilla
 /
+Likely
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -7821,7 +7830,7 @@ nrects
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 rects
@@ -7868,7 +7877,7 @@ cr
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 rects
 -
@@ -8800,7 +8809,7 @@ shaped
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 !
 mIsDestroyed
@@ -8999,7 +9008,7 @@ UseShm
 )
 &
 &
-NS_LIKELY
+MOZ_LIKELY
 (
 !
 mIsDestroyed
@@ -11000,7 +11009,7 @@ nsMouseEvent
 eRightButton
 &
 &
-NS_LIKELY
+MOZ_LIKELY
 (
 !
 mIsDestroyed
@@ -11887,7 +11896,7 @@ isKeyDownCancelled
 )
 &
 &
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mIsDestroyed
 )
@@ -13038,7 +13047,7 @@ if
 mGdkWindow
 |
 |
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mIsDestroyed
 )

@@ -202,6 +202,15 @@ h
 #
 include
 "
+mozilla
+/
+Likely
+.
+h
+"
+#
+include
+"
 nsEventListenerManager
 .
 h
@@ -5807,7 +5816,7 @@ nsGlobalWindow
 )
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 cb
 .

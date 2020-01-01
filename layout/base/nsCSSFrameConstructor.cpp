@@ -10,6 +10,15 @@ h
 #
 include
 "
+mozilla
+/
+Likely
+.
+h
+"
+#
+include
+"
 nsCSSFrameConstructor
 .
 h
@@ -4351,7 +4360,7 @@ ifdef
 MOZ_XUL
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 aIsOutOfFlowPopup
 )
@@ -8183,7 +8192,7 @@ styleContext
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 newFrame
@@ -8346,7 +8355,7 @@ styleContext
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 colFrame
@@ -8434,7 +8443,7 @@ styleContext
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 newCol
@@ -8611,7 +8620,7 @@ borderCollapse
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 newFrame
@@ -8701,7 +8710,7 @@ true
 }
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 cellInnerFrame
@@ -9662,7 +9671,7 @@ viewport
 endif
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 display
 -
@@ -9758,7 +9767,7 @@ styleContext
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 contentFrame
@@ -11093,7 +11102,7 @@ pagePseudoStyle
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 aPageFrame
@@ -11144,7 +11153,7 @@ pageContentPseudoStyle
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 pageContentFrame
@@ -11242,7 +11251,7 @@ canvasPseudoStyle
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 aCanvasFrame
@@ -12241,7 +12250,7 @@ styleContext
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 newFrame
@@ -12784,7 +12793,7 @@ aStyleContext
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 newFrame
@@ -14783,7 +14792,7 @@ blockContext
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 blockFrame
@@ -18087,7 +18096,7 @@ mPendingBinding
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 NS_FAILED
 (
@@ -18770,7 +18779,7 @@ NS_BLOCK_MARGIN_ROOT
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 blockFrame
@@ -43948,7 +43957,7 @@ newSC
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 newTextFrame
@@ -48764,7 +48773,7 @@ aForAnimation
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mPresShell
 -

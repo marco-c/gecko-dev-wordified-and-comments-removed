@@ -307,6 +307,15 @@ Util
 h
 "
 #
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
+#
 ifdef
 IBMBIDI
 #
@@ -12316,7 +12325,7 @@ to
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 !
 aFromOverflowLine

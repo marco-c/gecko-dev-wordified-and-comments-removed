@@ -86,6 +86,15 @@ h
 #
 include
 "
+mozilla
+/
+Likely
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLFormElement
 .
 h
@@ -173,7 +182,7 @@ IsBlack
 )
 &
 &
-NS_LIKELY
+MOZ_LIKELY
 (
 !
 cb

@@ -112,6 +112,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 static
 const
 char
@@ -287,7 +296,7 @@ nsJSScriptTimeoutHandler
 )
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 cb
 .

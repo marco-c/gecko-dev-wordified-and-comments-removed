@@ -89,6 +89,15 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 void
 nsPrimitiveHelpers
 :
@@ -237,7 +246,7 @@ aDataLen
 if
 (
 !
-NS_LIKELY
+MOZ_LIKELY
 (
 buffer
 )

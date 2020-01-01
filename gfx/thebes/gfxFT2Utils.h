@@ -21,6 +21,15 @@ gfxFT2FontBase
 h
 "
 #
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
+#
 define
 FLOAT_FROM_26_6
 (
@@ -210,7 +219,7 @@ XScale
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 mFace

@@ -91,6 +91,15 @@ Util
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 namespace
 mozilla
 {
@@ -3407,7 +3416,7 @@ x
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 left
 <
@@ -3473,7 +3482,7 @@ XMost
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 right
 <

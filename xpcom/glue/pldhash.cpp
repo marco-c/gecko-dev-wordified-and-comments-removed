@@ -57,6 +57,15 @@ nsAlgorithm
 h
 "
 #
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
+#
 ifdef
 PL_DHASHMETER
 #
@@ -1852,7 +1861,7 @@ for
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 ENTRY_IS_REMOVED
 (

@@ -28,6 +28,15 @@ nsMai
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 AtkSocketEmbedType
 AtkSocketAccessible
 :
@@ -435,7 +444,7 @@ Interface
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 aIface

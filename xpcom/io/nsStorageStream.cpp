@@ -71,6 +71,15 @@ Attributes
 h
 "
 #
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
+#
 if
 defined
 (
@@ -553,7 +562,7 @@ while
 remaining
 |
 |
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 firstTime
 )

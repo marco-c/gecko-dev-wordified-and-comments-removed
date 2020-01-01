@@ -108,6 +108,15 @@ Telemetry
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 using
 namespace
 mozilla
@@ -408,7 +417,7 @@ break
 }
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 error
 )

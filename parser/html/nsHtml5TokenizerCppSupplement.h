@@ -1,3 +1,12 @@
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 void
 nsHtml5Tokenizer
 :
@@ -102,7 +111,7 @@ c
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -201,7 +210,7 @@ c
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -277,7 +286,7 @@ c
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -349,7 +358,7 @@ c
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -379,7 +388,7 @@ c
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -512,7 +521,7 @@ ch
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -545,7 +554,7 @@ ch
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -575,7 +584,7 @@ ch
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -606,7 +615,7 @@ errGarbageAfterLtSlash
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -634,7 +643,7 @@ errLtSlashGt
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -662,7 +671,7 @@ errCharRefLacksSemicolon
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -690,7 +699,7 @@ errNoDigitsInNCR
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -718,7 +727,7 @@ errGtInSystemId
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -746,7 +755,7 @@ errGtInPublicId
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -774,7 +783,7 @@ errNamelessDoctype
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -802,7 +811,7 @@ errConsecutiveHyphens
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -830,7 +839,7 @@ errPrematureEndOfComment
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -858,7 +867,7 @@ errBogusComment
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -886,7 +895,7 @@ errSlashNotFollowedByGt
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -914,7 +923,7 @@ errNoSpaceBetweenAttributes
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -942,7 +951,7 @@ errAttributeValueMissing
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -970,7 +979,7 @@ errEqualsSignBeforeAttributeName
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -998,7 +1007,7 @@ errLtGt
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -1026,7 +1035,7 @@ errProcessingInstruction
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -1054,7 +1063,7 @@ errUnescapedAmpersandInterpretedAsCharacterReference
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -1082,7 +1091,7 @@ errNotSemicolonTerminated
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -1110,7 +1119,7 @@ errNoNamedCharacterMatch
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -1140,7 +1149,7 @@ c
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -1168,7 +1177,7 @@ errExpectedPublicId
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -1196,7 +1205,7 @@ errBogusDoctype
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -1224,7 +1233,7 @@ errNcrSurrogate
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -1252,7 +1261,7 @@ errNcrCr
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -1280,7 +1289,7 @@ errNcrInC1Range
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -1308,7 +1317,7 @@ errEofInPublicId
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -1336,7 +1345,7 @@ errEofInComment
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -1364,7 +1373,7 @@ errEofInDoctype
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -1392,7 +1401,7 @@ errEofInAttributeValue
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -1420,7 +1429,7 @@ errEofInAttributeName
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -1448,7 +1457,7 @@ errEofWithoutGt
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -1476,7 +1485,7 @@ errEofInTagName
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -1504,7 +1513,7 @@ errEofInEndTag
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -1532,7 +1541,7 @@ errEofAfterLt
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -1560,7 +1569,7 @@ errNcrOutOfRange
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -1588,7 +1597,7 @@ errNcrUnassigned
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -1616,7 +1625,7 @@ errDuplicateAttribute
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -1644,7 +1653,7 @@ errEofInSystemId
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -1672,7 +1681,7 @@ errExpectedSystemId
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -1700,7 +1709,7 @@ errMissingSpaceBeforeDoctypeName
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -1728,7 +1737,7 @@ errHyphenHyphenBang
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -1756,7 +1765,7 @@ errNcrControlChar
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -1784,7 +1793,7 @@ errNcrZero
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mViewSource
 )
@@ -1812,7 +1821,7 @@ errNoSpaceBetweenDoctypeSystemKeywordAndQuote
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -1840,7 +1849,7 @@ errNoSpaceBetweenPublicAndSystemIds
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )
@@ -1868,7 +1877,7 @@ errNoSpaceBetweenDoctypePublicKeywordAndQuote
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mViewSource
 )

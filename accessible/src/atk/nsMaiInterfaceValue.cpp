@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+Likely
+.
+h
+"
+#
+include
+"
 AccessibleWrap
 .
 h
@@ -530,7 +539,7 @@ aIface
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 aIface

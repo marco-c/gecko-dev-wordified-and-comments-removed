@@ -77,6 +77,15 @@ nsMathMLParts
 h
 "
 #
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
+#
 define
 STRETCH_CONSIDER_ACTUAL_SIZE
 0x00000001
@@ -799,7 +808,7 @@ aFrameList
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 aListID
 =
@@ -867,7 +876,7 @@ aFrameList
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 aListID
 =
@@ -931,7 +940,7 @@ aOldFrame
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 aListID
 =
@@ -1126,7 +1135,7 @@ aFrameList
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 aListID
 =
@@ -1194,7 +1203,7 @@ aFrameList
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 aListID
 =
@@ -1258,7 +1267,7 @@ aOldFrame
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 aListID
 =

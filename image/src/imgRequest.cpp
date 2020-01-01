@@ -188,6 +188,15 @@ h
 #
 include
 "
+mozilla
+/
+Likely
+.
+h
+"
+#
+include
+"
 DiscardTracker
 .
 h
@@ -380,7 +389,7 @@ false
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 gInitializedPrefCaches

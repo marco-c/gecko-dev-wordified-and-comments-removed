@@ -21,6 +21,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Likely
+.
+h
+"
+#
+include
 <
 atk
 /
@@ -431,7 +440,7 @@ aIface
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 aIface

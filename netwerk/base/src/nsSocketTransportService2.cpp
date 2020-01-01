@@ -115,6 +115,15 @@ Preferences
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 namespace
 mozilla
 {
@@ -3523,7 +3532,7 @@ UINT16_MAX
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 pollInterval
 >

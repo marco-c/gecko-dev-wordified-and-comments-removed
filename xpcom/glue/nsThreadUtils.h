@@ -72,6 +72,15 @@ nsThreadIDs
 h
 "
 #
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
+#
 ifdef
 MOZILLA_INTERNAL_API
 #
@@ -894,7 +903,7 @@ Run
 {
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mReceiver
 .

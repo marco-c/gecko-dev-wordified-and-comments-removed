@@ -60,6 +60,15 @@ nsStyleStructInlines
 h
 "
 #
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
+#
 ifdef
 DEBUG
 static
@@ -239,7 +248,7 @@ nsLineBox
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 mFlags
 .
@@ -492,7 +501,7 @@ toCount
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 !
 aFromLine
@@ -1934,7 +1943,7 @@ front
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 line
 -
@@ -2114,7 +2123,7 @@ curFrame
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 aEnd
 -

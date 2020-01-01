@@ -14,6 +14,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Likely
+.
+h
+"
+#
+include
 FT_TRUETYPE_TAGS_H
 #
 include
@@ -176,7 +185,7 @@ NULL
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 mFace
@@ -1439,7 +1448,7 @@ aCharCode
 {
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 mFace
@@ -1539,7 +1548,7 @@ NULL
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 mFace
@@ -1670,7 +1679,7 @@ false
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 length
 >
@@ -1691,7 +1700,7 @@ size_type
 )
 |
 |
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 aBuffer
@@ -1723,7 +1732,7 @@ length
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 error
 !

@@ -26,6 +26,15 @@ Attributes
 h
 "
 #
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
+#
 define
 NS_ERROR_MODULE_XPCOM
 1
@@ -374,7 +383,7 @@ _nsresult
 (
 bool
 )
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 NS_FAILED_impl
 (
@@ -392,7 +401,7 @@ _nsresult
 (
 bool
 )
-NS_LIKELY
+MOZ_LIKELY
 (
 !
 NS_FAILED_impl
@@ -423,7 +432,7 @@ NS_FAILED
 _nsresult
 )
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 NS_FAILED_impl
 (
@@ -438,7 +447,7 @@ NS_SUCCEEDED
 _nsresult
 )
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 !
 NS_FAILED_impl

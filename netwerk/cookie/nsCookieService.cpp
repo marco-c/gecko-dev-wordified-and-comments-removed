@@ -268,6 +268,15 @@ h
 #
 include
 "
+mozilla
+/
+Likely
+.
+h
+"
+#
+include
+"
 nsIAppsService
 .
 h
@@ -9079,7 +9088,7 @@ state
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 !
 mDBState
@@ -9099,7 +9108,7 @@ return
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 mDefaultDBState
 -
@@ -9586,7 +9595,7 @@ state
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 !
 mDBState

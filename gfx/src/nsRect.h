@@ -64,6 +64,15 @@ BaseRect
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
 struct
 nsIntRect
 ;
@@ -271,7 +280,7 @@ right
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 w
 >
@@ -322,7 +331,7 @@ xdiff
 }
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 w
 >
@@ -345,7 +354,7 @@ w
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 nx
 <
@@ -411,7 +420,7 @@ bottom
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 h
 >
@@ -462,7 +471,7 @@ ydiff
 }
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 h
 >
@@ -485,7 +494,7 @@ h
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 ny
 <
@@ -640,7 +649,7 @@ x
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 w
 >
@@ -703,7 +712,7 @@ x
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 w
 >
@@ -767,7 +776,7 @@ y
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 h
 >
@@ -830,7 +839,7 @@ y
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 h
 >

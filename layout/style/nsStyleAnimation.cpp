@@ -117,6 +117,15 @@ h
 #
 include
 "
+mozilla
+/
+Likely
+.
+h
+"
+#
+include
+"
 prlog
 .
 h
@@ -5194,7 +5203,7 @@ aValue
 )
 {
 return
-NS_LIKELY
+MOZ_LIKELY
 (
 !
 MOZ_DOUBLE_IS_NaN
@@ -5220,7 +5229,7 @@ aValue
 )
 {
 return
-NS_LIKELY
+MOZ_LIKELY
 (
 !
 MOZ_DOUBLE_IS_NaN
@@ -18449,7 +18458,7 @@ get
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 mValue

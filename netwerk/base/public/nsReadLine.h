@@ -19,6 +19,15 @@ nsIInputStream
 h
 "
 #
+include
+"
+mozilla
+/
+Likely
+.
+h
+"
+#
 define
 kLineBufferSize
 4096
@@ -204,7 +213,7 @@ rv
 )
 |
 |
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 bytesRead
 =
@@ -269,7 +278,7 @@ start
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 eolchar
 =
@@ -347,7 +356,7 @@ break
 }
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 eolchar
 !

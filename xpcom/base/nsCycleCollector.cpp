@@ -301,7 +301,7 @@ include
 "
 mozilla
 /
-Mutex
+CondVar
 .
 h
 "
@@ -310,7 +310,16 @@ include
 "
 mozilla
 /
-CondVar
+Likely
+.
+h
+"
+#
+include
+"
+mozilla
+/
+Mutex
 .
 h
 "
@@ -6681,7 +6690,7 @@ root
 )
 |
 |
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 WantAllTraces
 (
@@ -6989,7 +6998,7 @@ mMergeCompartments
 mMergeCompartments
 &
 &
-NS_LIKELY
+MOZ_LIKELY
 (
 !
 WantAllTraces
@@ -7769,7 +7778,7 @@ edgeName
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 WantDebugInfo
 (
@@ -7799,7 +7808,7 @@ child
 )
 |
 |
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 WantAllTraces
 (

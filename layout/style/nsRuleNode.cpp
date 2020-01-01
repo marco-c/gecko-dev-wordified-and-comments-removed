@@ -224,6 +224,15 @@ include
 "
 mozilla
 /
+Likely
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LookAndFeel
 .
 h
@@ -9259,7 +9268,7 @@ mPostResolveCallback
 &
 &
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 res
 !
@@ -9331,7 +9340,7 @@ mPresContext
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 fontData
 !
@@ -9434,7 +9443,7 @@ nsStyleDisplay
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 disp
 !
@@ -9476,7 +9485,7 @@ mPresContext
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 vis
 !
@@ -9517,7 +9526,7 @@ nsStyleText
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 text
 !
@@ -9558,7 +9567,7 @@ nsStyleTextReset
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 text
 !
@@ -9600,7 +9609,7 @@ mPresContext
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 color
 !
@@ -9641,7 +9650,7 @@ nsStyleBackground
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 bg
 !
@@ -9682,7 +9691,7 @@ nsStyleMargin
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 margin
 !
@@ -9724,7 +9733,7 @@ mPresContext
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 border
 !
@@ -9765,7 +9774,7 @@ nsStylePadding
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 padding
 !
@@ -9807,7 +9816,7 @@ mPresContext
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 outline
 !
@@ -9848,7 +9857,7 @@ nsStyleList
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 list
 !
@@ -9889,7 +9898,7 @@ nsStylePosition
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 pos
 !
@@ -9930,7 +9939,7 @@ nsStyleTable
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 table
 !
@@ -9972,7 +9981,7 @@ mPresContext
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 table
 !
@@ -10013,7 +10022,7 @@ nsStyleContent
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 content
 !
@@ -10054,7 +10063,7 @@ nsStyleQuotes
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 quotes
 !
@@ -10095,7 +10104,7 @@ nsStyleUserInterface
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 ui
 !
@@ -10136,7 +10145,7 @@ nsStyleUIReset
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 ui
 !
@@ -10177,7 +10186,7 @@ nsStyleXUL
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 xul
 !
@@ -10219,7 +10228,7 @@ mPresContext
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 column
 !
@@ -10260,7 +10269,7 @@ nsStyleSVG
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 svg
 !
@@ -10301,7 +10310,7 @@ nsStyleSVGReset
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 svgReset
 !
@@ -10871,7 +10880,7 @@ ctorargs_
 \
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 data_
@@ -11085,7 +11094,7 @@ ctorargs_
 \
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 data_
@@ -11340,7 +11349,7 @@ nsInheritedStyleData
 \
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 aHighestNode
@@ -11671,7 +11680,7 @@ nsResetStyleData
 \
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 aHighestNode
@@ -23733,7 +23742,7 @@ here
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 url
 -
@@ -39588,7 +39597,7 @@ aSID
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 data
 !
@@ -39601,7 +39610,7 @@ data
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 aComputeData
@@ -39620,7 +39629,7 @@ aContext
 ;
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 data
 !
@@ -39774,7 +39783,7 @@ name_
 \
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 data
 !
@@ -39790,7 +39799,7 @@ data
 \
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 aComputeData
@@ -39829,7 +39838,7 @@ aContext
 \
 if
 (
-NS_LIKELY
+MOZ_LIKELY
 (
 data
 !

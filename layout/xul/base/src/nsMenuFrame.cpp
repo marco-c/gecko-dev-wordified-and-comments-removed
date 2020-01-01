@@ -241,7 +241,7 @@ include
 "
 mozilla
 /
-Services
+Attributes
 .
 h
 "
@@ -250,7 +250,7 @@ include
 "
 mozilla
 /
-Preferences
+Likely
 .
 h
 "
@@ -268,7 +268,16 @@ include
 "
 mozilla
 /
-Attributes
+Preferences
+.
+h
+"
+#
+include
+"
+mozilla
+/
+Services
 .
 h
 "
@@ -1077,7 +1086,7 @@ this
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 !
 mTimerMediator
@@ -5774,7 +5783,7 @@ NS_OK
 ;
 if
 (
-NS_UNLIKELY
+MOZ_UNLIKELY
 (
 aPrevFrame
 &
