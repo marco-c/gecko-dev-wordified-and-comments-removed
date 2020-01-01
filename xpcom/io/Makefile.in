@@ -441,13 +441,16 @@ Darwin
 MODULE_OPTIMIZE_FLAGS
 =
 -
-O3
+Os
 -
 fno
 -
 strict
 -
 aliasing
+(
+MOZ_OPTIMIZE_SIZE_TWEAK
+)
 endif
 endif
 CPPSRCS
