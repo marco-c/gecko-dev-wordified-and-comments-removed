@@ -650,13 +650,6 @@ rsp
 %
 rdi
 call
-SetVMFrameRegs
-movq
-%
-rsp
-%
-rdi
-call
 PushActiveVMFrame
 /
 *

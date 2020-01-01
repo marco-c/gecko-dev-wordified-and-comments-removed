@@ -626,8 +626,6 @@ pushl
 %
 esp
 call
-SetVMFrameRegs
-call
 PushActiveVMFrame
 popl
 %

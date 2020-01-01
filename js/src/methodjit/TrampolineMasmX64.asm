@@ -433,10 +433,6 @@ js_InternalThrow
 :
 PROC
 extern
-SetVMFrameRegs
-:
-PROC
-extern
 PushActiveVMFrame
 :
 PROC
@@ -646,15 +642,6 @@ rsp
 sub
 rsp
 20h
-call
-SetVMFrameRegs
-lea
-rcx
-[
-rsp
-+
-20h
-]
 call
 PushActiveVMFrame
 add

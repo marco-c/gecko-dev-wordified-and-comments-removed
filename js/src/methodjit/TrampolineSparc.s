@@ -535,13 +535,6 @@ fp
 !
 stubRejoin
 call
-SetVMFrameRegs
-mov
-%
-sp
-%
-o0
-call
 PushActiveVMFrame
 mov
 %

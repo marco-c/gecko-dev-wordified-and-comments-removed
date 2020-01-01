@@ -433,9 +433,6 @@ extern
 js_InternalThrow
 .
 extern
-SetVMFrameRegs
-.
-extern
 PushActiveVMFrame
 .
 extern
@@ -667,15 +664,6 @@ rsp
 sub
 rsp
 0x20
-call
-SetVMFrameRegs
-lea
-rcx
-[
-rsp
-+
-0x20
-]
 call
 PushActiveVMFrame
 add
