@@ -10524,6 +10524,9 @@ isScrollable
 !
 isXUL
 ;
+#
+ifndef
+MOZ_WIDGET_ANDROID
 if
 (
 isHTML
@@ -10557,6 +10560,8 @@ isScrollable
 false
 ;
 }
+#
+endif
 if
 (
 isPaginated
