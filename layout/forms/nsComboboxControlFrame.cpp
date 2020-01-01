@@ -2919,9 +2919,10 @@ height
 below
 |
 |
-below
+dropdownSize
+.
+height
 >
-=
 above
 ;
 nsPoint
