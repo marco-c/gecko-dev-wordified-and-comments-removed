@@ -1539,17 +1539,6 @@ GetRootView
 rootView
 )
 ;
-nsIView
-*
-rootParent
-=
-rootView
--
->
-GetParent
-(
-)
-;
 nsIDocument
 *
 doc
