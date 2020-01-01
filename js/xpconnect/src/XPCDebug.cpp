@@ -478,8 +478,14 @@ cx
 xpcDumpEvalErrorReporter
 )
 ;
-jsval
+js
+:
+:
+RootedValue
 rval
+(
+cx
+)
 ;
 JSString
 *

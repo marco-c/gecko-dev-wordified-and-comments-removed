@@ -99,6 +99,9 @@ public
 :
 BytecodeRange
 (
+JSContext
+*
+cx
 JSScript
 *
 script
@@ -106,6 +109,7 @@ script
 :
 script
 (
+cx
 script
 )
 pc
@@ -195,8 +199,7 @@ pc
 }
 private
 :
-JSScript
-*
+RootedScript
 script
 ;
 jsbytecode

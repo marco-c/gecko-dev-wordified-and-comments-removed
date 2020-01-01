@@ -3005,8 +3005,7 @@ char
 filename
 unsigned
 lineno
-Value
-*
+MutableHandleValue
 rval
 )
 ;

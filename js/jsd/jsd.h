@@ -2481,8 +2481,10 @@ unsigned
 lineno
 JSBool
 eatExceptions
-jsval
-*
+JS
+:
+:
+MutableHandleValue
 rval
 )
 ;
@@ -2513,8 +2515,10 @@ unsigned
 lineno
 JSBool
 eatExceptions
-jsval
-*
+JS
+:
+:
+MutableHandleValue
 rval
 )
 ;
