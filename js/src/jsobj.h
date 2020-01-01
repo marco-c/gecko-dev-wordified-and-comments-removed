@@ -1888,7 +1888,10 @@ numSlots
 const
 {
 return
+uint32
+(
 capacity
+)
 ;
 }
 size_t

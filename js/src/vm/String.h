@@ -1731,6 +1731,8 @@ TYPE_LIMIT
 )
 ;
 return
+intN
+(
 d
 .
 s
@@ -1738,6 +1740,7 @@ s
 u2
 .
 externalType
+)
 ;
 }
 void

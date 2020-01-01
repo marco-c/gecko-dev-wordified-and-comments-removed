@@ -340,9 +340,12 @@ l
 )
 ;
 return
+HashNumber
+(
 JSID_BITS
 (
 l
+)
 )
 ;
 }
