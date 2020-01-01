@@ -21190,6 +21190,10 @@ UnionAdditionalOverflow
 nsPresContext
 *
 aPresContext
+const
+nsHTMLReflowState
+&
+aBlockReflowState
 PropertyProvider
 &
 aProvider
@@ -35647,6 +35651,12 @@ boundingBox
 UnionAdditionalOverflow
 (
 presContext
+*
+aLineLayout
+.
+GetLineContainerRS
+(
+)
 provider
 &
 aMetrics
@@ -36713,6 +36723,10 @@ nsTextFrame
 :
 RecomputeOverflow
 (
+const
+nsHTMLReflowState
+&
+aBlockReflowState
 )
 {
 nsRect
@@ -36831,6 +36845,7 @@ UnionAdditionalOverflow
 PresContext
 (
 )
+aBlockReflowState
 provider
 &
 vis
