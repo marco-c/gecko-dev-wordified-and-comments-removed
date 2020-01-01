@@ -2506,14 +2506,6 @@ rebuildView
 (
 )
 ;
-self
-.
-_list
-.
-focus
-(
-)
-;
 }
 setTimeout
 (
