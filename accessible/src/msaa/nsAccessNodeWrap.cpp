@@ -172,7 +172,6 @@ nsAccessNodeWrap
 nsAccessNode
 nsIWinAccessNode
 )
-;
 NS_IMETHODIMP
 nsAccessNodeWrap
 :
@@ -327,6 +326,7 @@ SID_IAccessibleContentDocument
 0xa5d8e1f3
 0x3571
 0x4d8f
+{
 0x95
 0x21
 0x07
@@ -335,6 +335,7 @@ SID_IAccessibleContentDocument
 0xfb
 0x07
 0x2e
+}
 }
 ;
 if
@@ -536,6 +537,7 @@ IID_SimpleDOMDeprecated
 0x0c539790
 0x12e4
 0x11cf
+{
 0xb6
 0x61
 0x00
@@ -544,6 +546,7 @@ IID_SimpleDOMDeprecated
 0x4c
 0xd6
 0xd8
+}
 }
 ;
 if
