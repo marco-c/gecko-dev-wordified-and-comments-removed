@@ -2752,6 +2752,16 @@ id
 )
 ;
 #
+elif
+defined
+(
+XP_MACOSX
+)
+#
+warning
+IMPLEMENT
+ME
+#
 else
 #
 error
