@@ -2039,6 +2039,11 @@ datetime
 local
 "
 :
+case
+"
+range
+"
+:
 type
 =
 typeLowerCase
