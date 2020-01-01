@@ -3187,9 +3187,6 @@ aEvent
 case
 NS_MOUSE_EVENT
 :
-case
-NS_POPUP_EVENT
-:
 return
 NS_NewDOMMouseEvent
 (
