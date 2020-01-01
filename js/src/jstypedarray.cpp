@@ -706,13 +706,7 @@ JSObject
 *
 delegate
 =
-NewNonFunction
-<
-WithProto
-:
-:
-Given
->
+NewObjectWithGivenProto
 (
 cx
 &

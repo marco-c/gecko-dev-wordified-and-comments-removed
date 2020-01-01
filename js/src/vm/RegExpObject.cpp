@@ -1815,12 +1815,13 @@ JSObject
 *
 clone
 =
-NewNativeClassInstance
+NewObjectWithGivenProto
 (
 cx
 &
 RegExpClass
 proto
+NULL
 )
 ;
 if

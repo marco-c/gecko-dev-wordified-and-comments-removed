@@ -141,6 +141,7 @@ cx
 NumberClass
 &
 proto
+NULL
 gc
 :
 :
