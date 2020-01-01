@@ -2940,7 +2940,7 @@ resize
 "
 this
 .
-_boundUpdatePreview
+_boundResizePreview
 true
 )
 ;

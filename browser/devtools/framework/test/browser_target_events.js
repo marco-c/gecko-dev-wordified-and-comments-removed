@@ -240,7 +240,13 @@ once
 "
 navigate
 "
+executeSoon
+.
+bind
+(
+null
 onNavigate
+)
 )
 ;
 }

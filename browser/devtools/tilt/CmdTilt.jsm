@@ -306,6 +306,13 @@ aTarget
 aChangeHandler
 )
 {
+if
+(
+aTarget
+.
+tab
+)
+{
 let
 browserWindow
 =
@@ -337,6 +344,7 @@ change
 aChangeHandler
 )
 ;
+}
 }
 }
 exec
