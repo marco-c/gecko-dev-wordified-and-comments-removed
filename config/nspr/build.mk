@@ -410,14 +410,6 @@ TIERS
 +
 =
 nspr
-ifdef
-GC_LEAK_DETECTOR
-tier_nspr_staticdirs
-=
-gc
-/
-boehm
-endif
 ifndef
 MOZ_NATIVE_NSPR
 tier_nspr_staticdirs
