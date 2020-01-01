@@ -3048,6 +3048,7 @@ if
 (
 MOZ_WIDGET_TOOLKIT
 =
+=
 "
 cocoa
 "
