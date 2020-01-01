@@ -658,6 +658,11 @@ Round
 (
 )
 ;
+void
+RoundOut
+(
+)
+;
 gfxPoint
 TopLeft
 (
