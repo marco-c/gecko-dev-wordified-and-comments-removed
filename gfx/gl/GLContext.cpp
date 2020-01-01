@@ -15088,6 +15088,11 @@ GuaranteeResolve
 (
 )
 {
+if
+(
+mScreen
+)
+{
 mScreen
 -
 >
@@ -15095,6 +15100,7 @@ AssureBlitted
 (
 )
 ;
+}
 fFinish
 (
 )
