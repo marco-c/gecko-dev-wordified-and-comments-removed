@@ -12518,6 +12518,9 @@ Record_EnterFrame
 }
 #
 endif
+#
+ifdef
+JS_METHODJIT
 if
 (
 !
@@ -12602,6 +12605,8 @@ inline_return
 ;
 }
 }
+#
+endif
 op
 =
 (
