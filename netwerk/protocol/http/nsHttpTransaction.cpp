@@ -770,7 +770,7 @@ nsHttpTransaction
 :
 Init
 (
-uint8_t
+uint32_t
 caps
 nsHttpConnectionInfo
 *
@@ -2002,7 +2002,7 @@ return
 mStatus
 ;
 }
-uint8_t
+uint32_t
 nsHttpTransaction
 :
 :

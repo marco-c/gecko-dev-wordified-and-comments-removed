@@ -2086,7 +2086,7 @@ return
 mStatus
 ;
 }
-uint8_t
+uint32_t
 nsHttpPipeline
 :
 :

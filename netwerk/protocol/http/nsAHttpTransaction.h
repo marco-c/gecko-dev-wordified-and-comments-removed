@@ -112,7 +112,7 @@ Status
 0
 ;
 virtual
-uint8_t
+uint32_t
 Caps
 (
 )
@@ -335,7 +335,7 @@ Status
 )
 ;
 \
-uint8_t
+uint32_t
 Caps
 (
 )

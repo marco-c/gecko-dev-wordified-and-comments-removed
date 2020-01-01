@@ -139,7 +139,7 @@ nsHttpTransaction
 nsresult
 Init
 (
-uint8_t
+uint32_t
 caps
 nsHttpConnectionInfo
 *
@@ -617,7 +617,7 @@ mPriority
 uint16_t
 mRestartCount
 ;
-uint8_t
+uint32_t
 mCaps
 ;
 enum

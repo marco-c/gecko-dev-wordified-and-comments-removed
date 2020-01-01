@@ -1457,7 +1457,7 @@ Init
 nsIURI
 *
 uri
-uint8_t
+uint32_t
 caps
 nsProxyInfo
 *

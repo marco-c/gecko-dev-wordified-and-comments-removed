@@ -1359,7 +1359,7 @@ Activate
 nsAHttpTransaction
 *
 trans
-uint8_t
+uint32_t
 caps
 int32_t
 pri
@@ -1584,7 +1584,7 @@ nsHttpConnection
 :
 SetupNPN
 (
-uint8_t
+uint32_t
 caps
 )
 {

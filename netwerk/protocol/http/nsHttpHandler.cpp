@@ -2051,7 +2051,7 @@ AddConnectionHeader
 nsHttpHeaderArray
 *
 request
-uint8_t
+uint32_t
 caps
 )
 {
@@ -7910,7 +7910,7 @@ nsHttpChannel
 )
 ;
 }
-uint8_t
+uint32_t
 caps
 =
 mCapabilities
