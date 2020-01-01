@@ -2019,12 +2019,6 @@ cpp
 (
 NULL
 )
-ifdef
-_MSC_VER
-HAVE_COMPILER_FLAG_MSSSE3
-=
-1
-endif
 endif
 ifneq
 (
