@@ -568,7 +568,8 @@ aFirstChild
 )
 const
 ;
-PRBool
+inline
+void
 EnsureBidiContinuation
 (
 nsIFrame
@@ -585,9 +586,6 @@ PRInt32
 aStart
 PRInt32
 aEnd
-PRBool
-&
-aLineNeedsUpdate
 )
 ;
 void
