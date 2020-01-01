@@ -19053,6 +19053,15 @@ now
 "
 )
 ;
+nsRect
+containingBlock
+(
+0
+0
+containingBlockWidth
+containingBlockHeight
+)
+;
 absoluteContainer
 -
 >
@@ -19062,8 +19071,7 @@ container
 aPresContext
 aReflowState
 aStatus
-containingBlockWidth
-containingBlockHeight
+containingBlock
 aConstrainHeight
 true
 true
