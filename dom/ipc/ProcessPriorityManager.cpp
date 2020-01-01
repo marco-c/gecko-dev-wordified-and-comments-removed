@@ -1668,6 +1668,16 @@ CurrentProcessIsForeground
 (
 )
 {
+if
+(
+!
+sManager
+)
+{
+return
+true
+;
+}
 return
 sManager
 -
