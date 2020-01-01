@@ -12562,6 +12562,11 @@ fun
 script
 (
 )
+.
+get
+(
+nogc
+)
 ;
 jsbytecode
 *

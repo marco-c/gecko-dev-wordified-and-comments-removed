@@ -3144,6 +3144,11 @@ iter
 script
 (
 )
+.
+get
+(
+nogc
+)
 iter
 .
 pc

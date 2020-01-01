@@ -658,6 +658,11 @@ iter
 script
 (
 )
+.
+get
+(
+nogc
+)
 ;
 if
 (
@@ -5848,6 +5853,11 @@ fun
 >
 script
 (
+)
+.
+get
+(
+nogc
 )
 ;
 JS_ASSERT
