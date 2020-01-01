@@ -623,6 +623,10 @@ SVGTransformList
 .
 webidl
 \
+SVGTSpanElement
+.
+webidl
+\
 SVGURIReference
 .
 webidl
