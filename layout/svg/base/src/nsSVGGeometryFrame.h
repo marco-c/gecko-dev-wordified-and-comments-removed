@@ -124,6 +124,14 @@ aContext
 )
 ;
 PRBool
+HasStroke
+(
+gfxContext
+*
+aContext
+)
+;
+void
 SetupCairoStrokeGeometry
 (
 gfxContext
@@ -131,7 +139,7 @@ gfxContext
 aContext
 )
 ;
-PRBool
+void
 SetupCairoStrokeHitGeometry
 (
 gfxContext
