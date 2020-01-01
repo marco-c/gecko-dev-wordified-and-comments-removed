@@ -1147,6 +1147,19 @@ copy
 (
 )
     
+env
+[
+'
+TZ
+'
+]
+=
+'
+US
+/
+Pacific
+'
+    
 if
 test
 .
