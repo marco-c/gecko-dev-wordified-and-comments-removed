@@ -597,6 +597,9 @@ src
 (
 NULL
 )
+TOOL_DIRS
+=
+app
 include
 (
 topsrcdir
