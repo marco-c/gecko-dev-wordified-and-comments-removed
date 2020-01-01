@@ -489,6 +489,12 @@ rtl
 ref
 .
 html
+fails
+-
+if
+(
+Android
+)
 !
 =
 text

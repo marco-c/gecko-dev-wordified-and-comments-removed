@@ -238,6 +238,12 @@ multiple
 ref
 .
 html
+fails
+-
+if
+(
+Android
+)
 =
 =
 select
@@ -256,6 +262,12 @@ fieldset
 ref
 .
 html
+fails
+-
+if
+(
+Android
+)
 =
 =
 select

@@ -22,6 +22,12 @@ textarea
 ref
 .
 html
+fails
+-
+if
+(
+Android
+)
 =
 =
 textarea
@@ -34,6 +40,12 @@ textarea
 ref
 .
 html
+fails
+-
+if
+(
+Android
+)
 =
 =
 textarea

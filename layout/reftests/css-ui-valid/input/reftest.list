@@ -22,6 +22,12 @@ input
 ref
 .
 html
+fails
+-
+if
+(
+Android
+)
 =
 =
 input
@@ -34,6 +40,12 @@ input
 ref
 .
 html
+fails
+-
+if
+(
+Android
+)
 =
 =
 input
