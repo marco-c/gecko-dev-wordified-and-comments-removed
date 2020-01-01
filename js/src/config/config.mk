@@ -384,11 +384,6 @@ core_abspath
 )
 )
 )
-RM
-=
-rm
--
-f
 #
 LIBXUL_DIST
 is
