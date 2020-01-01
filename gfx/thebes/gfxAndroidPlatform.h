@@ -153,10 +153,7 @@ GetOffscreenFormat
 )
 {
 return
-gfxASurface
-:
-:
-ImageFormatRGB16_565
+mOffscreenFormat
 ;
 }
 mozilla
@@ -310,6 +307,11 @@ FT_Library
 GetFTLibrary
 (
 )
+;
+private
+:
+gfxImageFormat
+mOffscreenFormat
 ;
 }
 ;
