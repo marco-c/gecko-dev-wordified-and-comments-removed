@@ -61,7 +61,7 @@ add
 "
 Test
 :
-Focus
+FocusRoot
 "
 function
 (
