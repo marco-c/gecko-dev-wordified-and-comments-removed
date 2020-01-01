@@ -1727,7 +1727,6 @@ PresContext
 >
 SetBidiEnabled
 (
-PR_TRUE
 )
 ;
 }

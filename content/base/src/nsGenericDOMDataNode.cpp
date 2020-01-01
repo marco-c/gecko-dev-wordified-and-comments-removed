@@ -2604,7 +2604,6 @@ aDocument
 >
 SetBidiEnabled
 (
-PR_TRUE
 )
 ;
 }
@@ -4482,7 +4481,6 @@ document
 >
 SetBidiEnabled
 (
-PR_TRUE
 )
 ;
 }

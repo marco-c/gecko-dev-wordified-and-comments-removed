@@ -17413,7 +17413,6 @@ mPresContext
 >
 SetBidiEnabled
 (
-PR_TRUE
 )
 ;
 }

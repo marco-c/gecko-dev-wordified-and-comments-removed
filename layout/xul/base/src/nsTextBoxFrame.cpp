@@ -2017,7 +2017,6 @@ presContext
 >
 SetBidiEnabled
 (
-PR_TRUE
 )
 ;
 nsBidiPresUtils

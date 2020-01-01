@@ -5219,8 +5219,6 @@ nsPresContext
 :
 SetBidiEnabled
 (
-PRBool
-aBidiEnabled
 )
 const
 {
@@ -5250,7 +5248,6 @@ doc
 >
 SetBidiEnabled
 (
-aBidiEnabled
 )
 ;
 }
@@ -5360,7 +5357,6 @@ aSource
 {
 SetBidiEnabled
 (
-PR_TRUE
 )
 ;
 }
