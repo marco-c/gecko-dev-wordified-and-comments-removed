@@ -972,7 +972,7 @@ loadValue
 (
 Address
 (
-rsp
+BaselineStackReg
 STUB_FRAME_SIZE
 +
 objectOffset
