@@ -2647,12 +2647,6 @@ Are3DTransformsEnabled
 )
 ;
 static
-bool
-UseBackgroundNearestFiltering
-(
-)
-;
-static
 void
 UnionChildOverflow
 (
