@@ -617,8 +617,6 @@ mozipc_s
 \
 mozipdlgen_s
 \
-chromium_s
-\
 ipcshell_s
 \
 gfxipc_s
@@ -677,6 +675,13 @@ gkgfx
 (
 NULL
 )
+ifdef
+MOZ_IPC
+STATIC_LIBS
++
+=
+chromium_s
+endif
 ifndef
 WINCE
 ifdef

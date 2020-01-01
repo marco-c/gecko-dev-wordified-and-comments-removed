@@ -575,6 +575,10 @@ crashing_subpage
 .
 html
 \
+test_GCrace
+.
+html
+\
 (
 NULL
 )
