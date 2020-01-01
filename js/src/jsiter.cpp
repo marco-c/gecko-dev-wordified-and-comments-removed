@@ -975,6 +975,7 @@ getDenseArrayCapacity
 (
 )
 ;
+const
 Value
 *
 vp

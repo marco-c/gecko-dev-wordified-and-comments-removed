@@ -734,8 +734,8 @@ cx
 )
 ;
 v
-.
-setBoolean
+=
+BooleanValue
 (
 (
 !

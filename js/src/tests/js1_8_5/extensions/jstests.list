@@ -488,6 +488,12 @@ regress
 .
 js
 script
+regress
+-
+637985
+.
+js
+script
 is
 -
 generator

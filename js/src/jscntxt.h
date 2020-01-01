@@ -1228,9 +1228,6 @@ callHook
 #
 endif
 JSCList
-watchPointList
-;
-JSCList
 debuggerList
 ;
 void
@@ -1281,10 +1278,6 @@ endif
 PRCondVar
 *
 stateChange
-;
-PRLock
-*
-debuggerLock
 ;
 JSThread
 :
