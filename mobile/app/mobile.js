@@ -2476,7 +2476,7 @@ plugins
 .
 enabled
 "
-false
+true
 )
 ;
 #
