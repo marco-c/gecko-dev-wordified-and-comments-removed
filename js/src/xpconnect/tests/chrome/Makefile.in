@@ -548,6 +548,10 @@ test_precisegc
 .
 xul
 \
+test_nodelists
+.
+xul
+\
 (
 NULL
 )
