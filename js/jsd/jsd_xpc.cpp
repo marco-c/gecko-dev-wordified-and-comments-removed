@@ -1564,7 +1564,7 @@ state
 frame
 )
 ;
-nsDependentCString
+nsCString
 url
 (
 JSD_GetScriptFilename
