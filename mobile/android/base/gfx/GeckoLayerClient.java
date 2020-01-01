@@ -534,6 +534,12 @@ destroy
 (
 )
 ;
+mMarginsAnimator
+.
+destroy
+(
+)
+;
 }
 private
 boolean
