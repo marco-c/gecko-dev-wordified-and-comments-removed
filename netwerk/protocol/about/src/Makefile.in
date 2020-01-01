@@ -445,10 +445,6 @@ nsAboutBlank
 .
 cpp
 \
-nsAboutBloat
-.
-cpp
-\
 nsAboutCache
 .
 cpp
@@ -460,6 +456,15 @@ cpp
 (
 NULL
 )
+ifdef
+NS_BUILD_REFCNT_LOGGING
+CPPSRCS
++
+=
+nsAboutBloat
+.
+cpp
+endif
 LOCAL_INCLUDES
 =
 -

@@ -546,12 +546,17 @@ nsSafeAboutProtocolHandler
 ifdef
 NECKO_PROTOCOL_about
 #
+ifdef
+NS_BUILD_REFCNT_LOGGING
+#
 include
 "
 nsAboutBloat
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -2975,6 +2980,9 @@ Create
 #
 ifdef
 NECKO_PROTOCOL_about
+#
+ifdef
+NS_BUILD_REFCNT_LOGGING
 {
 "
 about
@@ -2991,6 +2999,8 @@ nsAboutBloat
 :
 Create
 }
+#
+endif
 {
 "
 about
