@@ -51,10 +51,8 @@ expect
 '
 SyntaxError
 :
-yield
-not
-in
-function
+syntax
+error
 '
 ;
 eval
@@ -73,6 +71,7 @@ actual
 No
 Error
 '
+;
 }
 catch
 (
@@ -94,6 +93,8 @@ actual
 summary
 +
 '
+:
+global
 :
 yield
 =
@@ -151,6 +152,8 @@ actual
 summary
 +
 '
+:
+global
 :
 let
 =
