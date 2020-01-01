@@ -2026,7 +2026,7 @@ audioSources
 ;
 audioCount
 =
-videoSources
+audioSources
 .
 Length
 (
