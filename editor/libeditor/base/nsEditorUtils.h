@@ -42,13 +42,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsEditor
 .
 h

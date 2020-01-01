@@ -566,7 +566,11 @@ aAtom
 void
 BuildCSSDeclarations
 (
-nsVoidArray
+nsTArray
+<
+nsIAtom
+*
+>
 &
 aPropertyArray
 nsTArray
@@ -604,7 +608,11 @@ const
 nsAString
 *
 aValue
-nsVoidArray
+nsTArray
+<
+nsIAtom
+*
+>
 &
 aPropertyArray
 nsTArray

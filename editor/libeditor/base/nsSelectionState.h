@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -144,7 +144,10 @@ IsEmpty
 ;
 protected
 :
-nsVoidArray
+nsTArray
+<
+nsRangeStore
+>
 mArray
 ;
 friend
@@ -352,7 +355,11 @@ aNewOffset
 ;
 protected
 :
-nsVoidArray
+nsTArray
+<
+nsRangeStore
+*
+>
 mArray
 ;
 PRBool
