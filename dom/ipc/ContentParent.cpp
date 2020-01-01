@@ -11712,6 +11712,16 @@ GetRandomValues
 length
 )
 ;
+if
+(
+!
+buf
+)
+{
+return
+true
+;
+}
 randomValues
 -
 >
