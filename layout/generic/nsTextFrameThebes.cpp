@@ -22909,11 +22909,6 @@ false
 ;
 nscolor
 overrideColor
-=
-nscolor
-(
-0
-)
 ;
 nscoord
 frameTopOffset
