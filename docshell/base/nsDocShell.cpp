@@ -25651,9 +25651,14 @@ if
 mEditorData
 )
 {
+#
+ifdef
+DEBUG
 nsresult
-res
+rv
 =
+#
+endif
 mEditorData
 -
 >
@@ -25666,7 +25671,7 @@ NS_ASSERTION
 (
 NS_SUCCEEDED
 (
-res
+rv
 )
 "
 Failed
