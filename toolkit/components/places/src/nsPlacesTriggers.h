@@ -18,6 +18,7 @@ EXCLUDED_VISIT_TYPES
 0
 4
 7
+8
 "
 #
 define
