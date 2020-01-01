@@ -3067,6 +3067,10 @@ GeckoApp
 .
 mAppContext
 .
+getLayerView
+(
+)
+.
 getLayerClient
 (
 )

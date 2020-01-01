@@ -175,6 +175,10 @@ listener
 {
 mGeckoApp
 .
+getLayerView
+(
+)
+.
 getLayerClient
 (
 )
