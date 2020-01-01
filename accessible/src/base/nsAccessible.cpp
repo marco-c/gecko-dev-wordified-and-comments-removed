@@ -10881,7 +10881,10 @@ content
 )
 content
 =
-do_QueryInterface
+nsCoreUtils
+:
+:
+GetRoleContent
 (
 mDOMNode
 )
