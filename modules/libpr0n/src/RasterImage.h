@@ -82,6 +82,15 @@ DiscardTracker
 h
 "
 #
+include
+"
+mozilla
+/
+TimeStamp
+.
+h
+"
+#
 ifdef
 DEBUG
 #
@@ -1224,6 +1233,9 @@ private
 :
 nsWeakPtr
 mContainer
+;
+TimeDuration
+mDecodeTime
 ;
 }
 ;
