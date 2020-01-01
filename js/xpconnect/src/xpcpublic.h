@@ -7,6 +7,13 @@ xpcpublic_h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 jsproxy
 .
 h
