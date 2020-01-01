@@ -323,16 +323,6 @@ PBrowser
 browser
 )
 ;
-/
-/
-Request
-that
-the
-parent
-open
-a
-file
-.
 PRemoteOpenFile
 (
 URIParams
