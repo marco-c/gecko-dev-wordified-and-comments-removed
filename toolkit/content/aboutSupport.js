@@ -1584,6 +1584,8 @@ null
 ;
 try
 {
+d2dSuggestedDriverVersion
+=
 gfxInfo
 .
 getFeatureSuggestedDriverVersion
