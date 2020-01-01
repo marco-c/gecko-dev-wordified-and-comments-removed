@@ -27740,6 +27740,7 @@ jsStateObj
 JSVAL_NULL
 ;
 nsAutoGCRoot
+root
 (
 &
 jsStateObj
