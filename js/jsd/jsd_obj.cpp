@@ -346,9 +346,14 @@ JSDObject
 *
 jsdobj
 ;
-JSScript
-*
+JS
+:
+:
+RootedScript
 script
+(
+cx
+)
 ;
 JSDScript
 *
