@@ -147,6 +147,9 @@ prio
 h
 "
 ;
+include
+IPCSerializableParams
+;
 using
 RequestHeaderTuples
 ;
@@ -164,12 +167,6 @@ IPC
 :
 :
 URI
-;
-using
-IPC
-:
-:
-InputStream
 ;
 using
 IPC
@@ -328,7 +325,7 @@ RequestHeaderTuples
 requestHeaders
 nsHttpAtom
 requestMethod
-InputStream
+OptionalInputStreamParams
 uploadStream
 bool
 uploadStreamHasHeaders

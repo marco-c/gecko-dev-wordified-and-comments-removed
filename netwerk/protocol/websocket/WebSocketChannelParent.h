@@ -149,7 +149,7 @@ bool
 RecvSendBinaryStream
 (
 const
-InputStream
+InputStreamParams
 &
 aStream
 const
