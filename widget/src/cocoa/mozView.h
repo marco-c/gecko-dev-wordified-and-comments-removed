@@ -124,6 +124,12 @@ void
 )
 maybeInitContextMenuTracking
 ;
+-
+(
+BOOL
+)
+isPluginView
+;
 end
 interface
 NSObject
