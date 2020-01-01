@@ -111,9 +111,6 @@ class
 nsIDOMNodeList
 ;
 class
-nsITimer
-;
-class
 nsRootAccessible
 ;
 class
@@ -612,11 +609,6 @@ static
 nsIStringBundle
 *
 gKeyStringBundle
-;
-static
-nsITimer
-*
-gDoCommandTimer
 ;
 #
 ifdef
