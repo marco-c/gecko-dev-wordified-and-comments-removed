@@ -530,6 +530,8 @@ minidumps
 dumpDir
 )
         
+crashed
+=
 automationutils
 .
 checkForCrashes
@@ -570,6 +572,9 @@ s
 (
 dumpDir
 )
+        
+return
+crashed
     
 def
 initializeProfile

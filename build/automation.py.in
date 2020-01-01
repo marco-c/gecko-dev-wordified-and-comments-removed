@@ -8342,6 +8342,7 @@ profileDir
 symbolsPath
 )
 :
+return
 automationutils
 .
 checkForCrashes
@@ -8898,6 +8899,8 @@ checkForZombies
 (
 processLog
 )
+crashed
+=
 self
 .
 checkForCrashes
@@ -8905,6 +8908,12 @@ checkForCrashes
 profileDir
 symbolsPath
 )
+if
+crashed
+:
+status
+=
+1
 if
 os
 .
