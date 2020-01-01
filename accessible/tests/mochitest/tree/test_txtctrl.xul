@@ -547,15 +547,6 @@ children
 [
 ]
 }
-{
-role
-:
-ROLE_WHITESPACE
-children
-:
-[
-]
-}
 ]
 }
 ;

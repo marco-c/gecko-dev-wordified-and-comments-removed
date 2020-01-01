@@ -98,6 +98,10 @@ test_doc
 .
 html
 \
+test_general
+.
+xul
+\
 test_gettext
 .
 html
@@ -109,10 +113,6 @@ html
 test_lineboundary
 .
 html
-\
-test_label
-.
-xul
 \
 test_passwords
 .
