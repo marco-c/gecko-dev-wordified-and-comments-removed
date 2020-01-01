@@ -15775,12 +15775,6 @@ _listener
 flags
 )
 ;
-BrowserUI
-.
-closeAutoComplete
-(
-)
-;
 return
 browser
 ;
