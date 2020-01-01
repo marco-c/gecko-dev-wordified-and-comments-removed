@@ -428,14 +428,14 @@ config
 autoconf
 .
 mk
-DIRS
+PARALLEL_DIRS
 =
+\
+app
 \
 setup
 \
 stub
-\
-app
 \
 examples
 \
@@ -470,7 +470,7 @@ OS_ARCH
 )
 )
 )
-DIRS
+PARALLEL_DIRS
 +
 =
 tools
