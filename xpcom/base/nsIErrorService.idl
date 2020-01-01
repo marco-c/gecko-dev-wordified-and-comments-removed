@@ -573,7 +573,7 @@ stringBundleURL
 *
 *
 *
-Registers
+Unregisters
 a
 string
 bundle
