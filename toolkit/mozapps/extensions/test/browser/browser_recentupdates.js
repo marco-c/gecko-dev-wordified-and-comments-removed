@@ -537,7 +537,7 @@ mozilla
 org
 "
 "
-addon2
+addon3
 tests
 .
 mozilla
@@ -648,7 +648,7 @@ expected
 item
 based
 on
-recenty
+recentness
 of
 update
 "
