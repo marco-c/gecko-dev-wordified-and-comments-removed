@@ -5731,6 +5731,12 @@ Uses
 )
 )
 ;
+stubcc
+.
+leave
+(
+)
+;
 OOL_STUBCALL
 (
 stubs
