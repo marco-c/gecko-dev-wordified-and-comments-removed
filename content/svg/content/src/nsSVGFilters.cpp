@@ -27263,6 +27263,11 @@ if
 GetParent
 (
 )
+&
+&
+GetParent
+(
+)
 -
 >
 IsSVG
