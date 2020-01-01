@@ -17429,16 +17429,6 @@ UPDATE_TYPE_NEWVERSION
 =
 64
 ;
-if
-(
-"
-onCompatibilityUpdated
-"
-in
-this
-.
-listener
-)
 reason
 |
 =
