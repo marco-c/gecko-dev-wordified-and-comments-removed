@@ -1116,14 +1116,6 @@ funArg
 )
 ;
 bool
-SetCallOperation
-(
-JSContext
-*
-cx
-)
-;
-bool
 GetAndClearException
 (
 JSContext
