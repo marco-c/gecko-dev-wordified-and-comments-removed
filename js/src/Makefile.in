@@ -1509,6 +1509,10 @@ mozilla
 EXPORTS_mozilla
 =
 \
+RangedPtr
+.
+h
+\
 Types
 .
 h
