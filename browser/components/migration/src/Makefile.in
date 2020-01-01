@@ -457,6 +457,10 @@ nsBrowserProfileMigratorUtils
 .
 cpp
 \
+nsIEHistoryEnumerator
+.
+cpp
+\
 (
 NULL
 )
