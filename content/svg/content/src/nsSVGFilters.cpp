@@ -26421,7 +26421,7 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsSVGFEImageElement
 )
-NS_NODE_INTERFACE_TABLE8
+NS_NODE_INTERFACE_TABLE9
 (
 nsSVGFEImageElement
 nsIDOMNode
@@ -26432,6 +26432,7 @@ nsIDOMSVGFEImageElement
 nsIDOMSVGURIReference
 imgIDecoderObserver
 nsIImageLoadingContent
+imgIOnloadBlocker
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (

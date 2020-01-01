@@ -2838,7 +2838,7 @@ NS_INTERFACE_TABLE_HEAD_CYCLE_COLLECTION_INHERITED
 (
 nsHTMLInputElement
 )
-NS_HTML_CONTENT_INTERFACE_TABLE8
+NS_HTML_CONTENT_INTERFACE_TABLE9
 (
 nsHTMLInputElement
 nsIDOMHTMLInputElement
@@ -2847,6 +2847,7 @@ nsIPhonetic
 imgIDecoderObserver
 nsIImageLoadingContent
 imgIContainerObserver
+imgIOnloadBlocker
 nsIDOMNSEditableElement
 nsIConstraintValidation
 )

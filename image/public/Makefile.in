@@ -84,6 +84,9 @@ GRE_MODULE
 1
 EXPORTS
 =
+ImageErrors
+.
+h
 ImageLogging
 .
 h
@@ -115,6 +118,10 @@ imgIEncoder
 idl
 \
 imgILoader
+.
+idl
+\
+imgIOnloadBlocker
 .
 idl
 \
