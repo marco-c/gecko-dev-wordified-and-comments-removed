@@ -430,6 +430,16 @@ __deleting_dtor
 "
 :
 true
+"
+mozilla
+:
+:
+CycleCollectedJSRuntime
+.
+DescribeCustomObjects
+"
+:
+true
 }
 ;
 function
