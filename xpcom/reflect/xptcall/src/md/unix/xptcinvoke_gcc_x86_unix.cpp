@@ -327,7 +327,7 @@ C
 "
 {
 nsresult
-_NS_InvokeByIndex
+_NS_InvokeByIndex_P
 (
 nsISupports
 *
@@ -345,7 +345,7 @@ EXPORT_XPCOM_API
 (
 nsresult
 )
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 (
 nsISupports
 *
@@ -360,7 +360,7 @@ params
 )
 {
 return
-_NS_InvokeByIndex
+_NS_InvokeByIndex_P
 (
 that
 methodIndex
@@ -409,7 +409,7 @@ globl
 "
 SYMBOL_UNDERSCORE
 "
-_NS_InvokeByIndex
+_NS_InvokeByIndex_P
 \
 n
 \
@@ -417,7 +417,7 @@ t
 "
 SYMBOL_UNDERSCORE
 "
-_NS_InvokeByIndex
+_NS_InvokeByIndex_P
 :
 \
 n
@@ -432,7 +432,7 @@ globl
 "
 SYMBOL_UNDERSCORE
 "
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 \
 n
 \
@@ -444,14 +444,14 @@ type
 "
 SYMBOL_UNDERSCORE
 "
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 function
 \
 n
 "
 SYMBOL_UNDERSCORE
 "
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 :
 \
 n
@@ -926,13 +926,13 @@ size
 "
 SYMBOL_UNDERSCORE
 "
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 .
 -
 "
 SYMBOL_UNDERSCORE
 "
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 \
 n
 \

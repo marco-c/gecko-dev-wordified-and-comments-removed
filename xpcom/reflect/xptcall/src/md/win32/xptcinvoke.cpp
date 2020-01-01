@@ -464,7 +464,7 @@ naked
 )
 nsresult
 NS_FROZENCALL
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 (
 nsISupports
 *

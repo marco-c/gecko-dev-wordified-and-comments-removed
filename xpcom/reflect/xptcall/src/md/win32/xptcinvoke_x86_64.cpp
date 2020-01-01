@@ -439,7 +439,7 @@ EXPORT_XPCOM_API
 (
 nsresult
 )
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 (
 nsISupports
 *

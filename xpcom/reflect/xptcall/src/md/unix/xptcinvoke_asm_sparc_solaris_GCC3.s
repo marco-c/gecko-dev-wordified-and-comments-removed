@@ -477,11 +477,11 @@ ABI
 /
 .
 global
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 /
 *
 *
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 (
 nsISupports
 *
@@ -498,7 +498,7 @@ params
 ;
 *
 /
-NS_InvokeByIndex
+NS_InvokeByIndex_P
 :
 save
 %
