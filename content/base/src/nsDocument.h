@@ -1044,7 +1044,7 @@ ChangeCallbackEntry
 >
 mChangeCallbacks
 ;
-nsCOMPtr
+nsRefPtr
 <
 Element
 >
