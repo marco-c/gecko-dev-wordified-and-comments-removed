@@ -1087,6 +1087,10 @@ const
 nsRect
 *
 aTargetRect
+const
+nsIntRect
+*
+aSubimageRect
 )
 =
 0
