@@ -1172,9 +1172,6 @@ if
 xblAccessible
 )
 {
-nsresult
-rv
-=
 xblAccessible
 -
 >
