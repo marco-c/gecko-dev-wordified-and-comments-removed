@@ -8875,14 +8875,14 @@ formElement
 )
 )
 ;
+index
+=
 form
 -
 >
 IndexOfControl
 (
 control
-&
-index
 )
 ;
 if
