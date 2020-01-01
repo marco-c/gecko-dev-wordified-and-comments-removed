@@ -334,15 +334,6 @@ reset
 (
 )
 ;
-copyToProfile
-(
-'
-animals
-.
-sqlite
-'
-)
-;
 expectedConsoleMessages
 .
 push
@@ -418,8 +409,6 @@ flex
 datasources
 =
 "
-profile
-:
 animals
 .
 sqlite

@@ -402,11 +402,6 @@ srcdir
 VPATH
 =
 srcdir
-relativesrcdir
-=
-ipc
-/
-testshell
 include
 (
 DEPTH

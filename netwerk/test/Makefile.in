@@ -408,11 +408,6 @@ srcdir
 VPATH
 =
 srcdir
-relativesrcdir
-=
-netwerk
-/
-test
 include
 (
 DEPTH
@@ -759,7 +754,7 @@ _tests
 xpcshell
 /
 (
-relativesrcdir
+MODULE
 )
 /
 unit
@@ -789,7 +784,7 @@ _tests
 xpcshell
 /
 (
-relativesrcdir
+MODULE
 )
 /
 unit

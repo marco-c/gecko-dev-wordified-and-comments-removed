@@ -429,15 +429,6 @@ srcdir
 VPATH
 =
 srcdir
-relativesrcdir
-=
-toolkit
-/
-components
-/
-commandlines
-/
-test
 include
 (
 DEPTH

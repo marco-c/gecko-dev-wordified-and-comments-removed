@@ -427,13 +427,6 @@ srcdir
 VPATH
 =
 srcdir
-relativesrcdir
-=
-netwerk
-/
-test
-/
-httpserver
 include
 (
 DEPTH

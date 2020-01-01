@@ -651,7 +651,7 @@ _tests
 xpcshell
 /
 (
-relativesrcdir
+MODULE
 )
 /
 unit
@@ -670,7 +670,7 @@ _tests
 xpcshell
 /
 (
-relativesrcdir
+MODULE
 )
 /
 unit
@@ -714,7 +714,7 @@ _tests
 xpcshell
 /
 (
-relativesrcdir
+MODULE
 )
 /
 unit

@@ -415,15 +415,6 @@ srcdir
 VPATH
 =
 srcdir
-relativesrcdir
-=
-toolkit
-/
-components
-/
-urlformatter
-/
-tests
 include
 (
 DEPTH

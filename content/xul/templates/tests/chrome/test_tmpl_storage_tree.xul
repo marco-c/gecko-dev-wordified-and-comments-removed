@@ -252,15 +252,6 @@ waitForExplicitFinish
 (
 )
 ;
-copyToProfile
-(
-'
-animals
-.
-sqlite
-'
-)
-;
 var
 testid
 =
@@ -1383,8 +1374,6 @@ flex
 datasources
 =
 "
-profile
-:
 animals
 .
 sqlite

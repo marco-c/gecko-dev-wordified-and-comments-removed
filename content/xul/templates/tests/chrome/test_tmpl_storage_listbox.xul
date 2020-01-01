@@ -254,15 +254,6 @@ waitForExplicitFinish
 (
 )
 ;
-copyToProfile
-(
-'
-animals
-.
-sqlite
-'
-)
-;
 var
 testid
 =
@@ -411,8 +402,6 @@ rows
 datasources
 =
 "
-profile
-:
 animals
 .
 sqlite

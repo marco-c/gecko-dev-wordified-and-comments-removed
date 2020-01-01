@@ -246,15 +246,6 @@ script
 [
 CDATA
 [
-copyToProfile
-(
-'
-animals
-.
-sqlite
-'
-)
-;
 SimpleTest
 .
 waitForExplicitFinish
@@ -407,8 +398,6 @@ root
 datasources
 =
 "
-profile
-:
 animals
 .
 sqlite

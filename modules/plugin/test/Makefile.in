@@ -417,13 +417,6 @@ srcdir
 VPATH
 =
 srcdir
-relativesrcdir
-=
-modules
-/
-plugin
-/
-test
 include
 (
 DEPTH

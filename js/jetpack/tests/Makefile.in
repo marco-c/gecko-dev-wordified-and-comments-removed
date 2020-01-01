@@ -414,13 +414,6 @@ srcdir
 VPATH
 =
 srcdir
-relativesrcdir
-=
-js
-/
-jetpack
-/
-tests
 include
 (
 DEPTH

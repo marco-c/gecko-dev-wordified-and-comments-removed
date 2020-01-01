@@ -413,15 +413,6 @@ srcdir
 VPATH
 =
 srcdir
-relativesrcdir
-=
-security
-/
-manager
-/
-ssl
-/
-tests
 MODULE
 =
 pipnss

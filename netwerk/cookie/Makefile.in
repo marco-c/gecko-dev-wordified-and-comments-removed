@@ -402,11 +402,6 @@ srcdir
 VPATH
 =
 srcdir
-relativesrcdir
-=
-netwerk
-/
-cookie
 include
 (
 DEPTH

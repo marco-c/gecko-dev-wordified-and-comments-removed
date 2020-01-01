@@ -399,11 +399,6 @@ srcdir
 VPATH
 =
 srcdir
-relativesrcdir
-=
-gfx
-/
-tests
 include
 (
 DEPTH

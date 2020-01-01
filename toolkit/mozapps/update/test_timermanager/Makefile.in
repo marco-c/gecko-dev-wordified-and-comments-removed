@@ -424,15 +424,6 @@ srcdir
 VPATH
 =
 srcdir
-relativesrcdir
-=
-toolkit
-/
-mozapps
-/
-update
-/
-test_timermanager
 include
 (
 DEPTH

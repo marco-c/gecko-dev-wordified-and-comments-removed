@@ -415,13 +415,6 @@ srcdir
 VPATH
 =
 srcdir
-relativesrcdir
-=
-modules
-/
-libjar
-/
-test
 include
 (
 DEPTH
