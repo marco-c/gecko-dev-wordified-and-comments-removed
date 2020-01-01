@@ -482,6 +482,10 @@ nsSVGFilterFrame
 .
 cpp
 \
+nsSVGFilterInstance
+.
+cpp
+\
 nsSVGGFrame
 .
 cpp
