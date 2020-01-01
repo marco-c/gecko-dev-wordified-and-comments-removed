@@ -1775,6 +1775,15 @@ Element
 aImageElement
 )
 ;
+[
+ChromeOnly
+]
+readonly
+attribute
+URI
+?
+documentURIObject
+;
 }
 ;
 /
