@@ -12964,6 +12964,7 @@ ScrollWindowEx
 mWnd
 aDx
 aDy
+NULL
 (
 nsnull
 !
@@ -12974,7 +12975,6 @@ aClipRect
 &
 trect
 :
-NULL
 NULL
 NULL
 NULL
