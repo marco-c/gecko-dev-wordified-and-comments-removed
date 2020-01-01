@@ -168,6 +168,13 @@ stateHidden
 activity
 android
 :
+noHistory
+=
+"
+true
+"
+android
+:
 name
 =
 "
@@ -189,6 +196,13 @@ SetupFailureActivity
 >
 <
 activity
+android
+:
+noHistory
+=
+"
+true
+"
 android
 :
 name
