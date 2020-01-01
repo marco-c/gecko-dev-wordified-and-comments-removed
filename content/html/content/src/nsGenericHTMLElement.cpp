@@ -9774,7 +9774,7 @@ nsresult
 nsGenericHTMLElement
 :
 :
-GetFloatAttr
+GetDoubleAttr
 (
 nsIAtom
 *
@@ -9814,7 +9814,7 @@ Type
 nsAttrValue
 :
 :
-eFloatValue
+eDoubleValue
 )
 {
 *
@@ -9823,7 +9823,7 @@ aResult
 attrVal
 -
 >
-GetFloatValue
+GetDoubleValue
 (
 )
 ;
@@ -9844,7 +9844,7 @@ nsresult
 nsGenericHTMLElement
 :
 :
-SetFloatAttr
+SetDoubleAttr
 (
 nsIAtom
 *

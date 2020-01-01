@@ -1554,7 +1554,7 @@ NS_HIDDEN_
 (
 nsresult
 )
-GetFloatAttr
+GetDoubleAttr
 (
 nsIAtom
 *
@@ -1570,7 +1570,7 @@ NS_HIDDEN_
 (
 nsresult
 )
-SetFloatAttr
+SetDoubleAttr
 (
 nsIAtom
 *
@@ -2954,7 +2954,7 @@ aValue
 {
 \
 return
-GetFloatAttr
+GetDoubleAttr
 (
 nsGkAtoms
 :
@@ -2984,7 +2984,7 @@ aValue
 {
 \
 return
-SetFloatAttr
+SetDoubleAttr
 (
 nsGkAtoms
 :

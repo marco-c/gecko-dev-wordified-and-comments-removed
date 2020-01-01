@@ -5519,7 +5519,7 @@ end
 return
 aResult
 .
-ParseFloatValue
+ParseDoubleValue
 (
 aValue
 )
