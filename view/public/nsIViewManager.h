@@ -565,6 +565,16 @@ aTime
 =
 0
 ;
+static
+nsIView
+*
+GetDisplayRootFor
+(
+nsIView
+*
+aView
+)
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
