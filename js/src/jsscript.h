@@ -398,9 +398,6 @@ ExecutablePool
 *
 execPool
 ;
-unsigned
-npics
-;
 js
 :
 :
