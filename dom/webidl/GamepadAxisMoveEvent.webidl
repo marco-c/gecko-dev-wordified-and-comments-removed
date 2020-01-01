@@ -99,6 +99,8 @@ dom
 .
 gamepad
 .
+non_standard_events
+.
 enabled
 "
 Constructor

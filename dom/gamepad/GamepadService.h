@@ -276,6 +276,9 @@ bool
 mEnabled
 ;
 bool
+mNonstandardEventsEnabled
+;
+bool
 mStarted
 ;
 bool
