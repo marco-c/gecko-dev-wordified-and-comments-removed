@@ -58,10 +58,6 @@ nsIInputStream
 *
 *
 result
-nsIChannel
-*
-*
-channel
 )
 ;
 }
