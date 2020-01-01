@@ -2551,8 +2551,6 @@ advance
 )
 )
 ;
-return
-;
 }
 for
 (
@@ -2746,7 +2744,7 @@ blockedTime
 <
 nextCurrentTime
 -
-mCurrentTime
+prevCurrentTime
 )
 {
 for
