@@ -346,6 +346,13 @@ esp
 static
 const
 Register
+FramePointer
+=
+ebp
+;
+static
+const
+Register
 ReturnReg
 =
 eax

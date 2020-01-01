@@ -1020,7 +1020,7 @@ masm
 movq
 (
 rsp
-rbp
+r9
 )
 ;
 {
@@ -1079,7 +1079,7 @@ b
 =
 BaseIndex
 (
-rbp
+r9
 r8
 TimesEight
 sizeof
@@ -1190,14 +1190,14 @@ masm
 subq
 (
 rsp
-rbp
+r9
 )
 ;
 masm
 .
 makeFrameDescriptor
 (
-rbp
+r9
 IonFrame_Rectifier
 )
 ;
@@ -1219,7 +1219,7 @@ masm
 .
 push
 (
-rbp
+r9
 )
 ;
 masm
@@ -1302,7 +1302,7 @@ masm
 .
 pop
 (
-rbp
+r9
 )
 ;
 masm
@@ -1313,7 +1313,7 @@ Imm32
 (
 FRAMESIZE_SHIFT
 )
-rbp
+r9
 )
 ;
 masm
@@ -1334,7 +1334,7 @@ masm
 .
 addq
 (
-rbp
+r9
 rsp
 )
 ;
