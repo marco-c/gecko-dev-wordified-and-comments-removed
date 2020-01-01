@@ -26,6 +26,13 @@ jsprvtd
 h
 "
 #
+include
+"
+jsvalue
+.
+h
+"
+#
 ifndef
 _MSC_VER
 #

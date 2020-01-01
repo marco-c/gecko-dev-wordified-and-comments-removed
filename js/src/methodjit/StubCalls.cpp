@@ -8589,6 +8589,10 @@ f
 .
 scratch
 ;
+if
+(
+type
+)
 obj
 -
 >
@@ -8686,6 +8690,10 @@ THROWV
 NULL
 )
 ;
+if
+(
+type
+)
 obj
 -
 >
@@ -8698,6 +8706,11 @@ return
 obj
 ;
 }
+JS_ASSERT
+(
+type
+)
+;
 JSObject
 *
 obj

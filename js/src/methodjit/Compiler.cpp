@@ -28006,6 +28006,17 @@ TypeObject
 *
 type
 =
+NULL
+;
+if
+(
+script
+-
+>
+compileAndGo
+)
+type
+=
 script
 -
 >
