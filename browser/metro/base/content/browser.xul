@@ -5267,7 +5267,7 @@ oncommand
 "
 FlyoutPanelsUI
 .
-AboutFlyout
+AboutFlyoutPanel
 .
 appUpdater
 .
