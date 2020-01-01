@@ -3521,6 +3521,15 @@ intBounds
 .
 height
 ;
+nsRefPtr
+<
+nsPluginInstanceOwner
+>
+instanceOwnerRef
+(
+mInstanceOwner
+)
+;
 if
 (
 mInstanceOwner
@@ -3555,7 +3564,7 @@ pi
 )
 ;
 }
-mInstanceOwner
+instanceOwnerRef
 -
 >
 ReleasePluginPort
