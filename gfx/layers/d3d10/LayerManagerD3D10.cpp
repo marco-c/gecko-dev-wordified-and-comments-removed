@@ -919,7 +919,7 @@ mTarget
 aTarget
 ;
 }
-bool
+void
 LayerManagerD3D10
 :
 :
@@ -973,9 +973,6 @@ nsnull
 mTarget
 =
 nsnull
-;
-return
-true
 ;
 }
 already_AddRefed
