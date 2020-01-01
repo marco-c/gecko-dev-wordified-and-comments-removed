@@ -151,6 +151,8 @@ BEGIN
 \
 "
 INSERT
+OR
+IGNORE
 INTO
 moz_places_temp
 (
