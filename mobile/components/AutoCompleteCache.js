@@ -701,7 +701,9 @@ MODE_CREATE
 MODE_TRUNCATE
 )
 PERMS_FILE
-0
+ostream
+.
+DEFER_OPEN
 )
 ;
 converter
