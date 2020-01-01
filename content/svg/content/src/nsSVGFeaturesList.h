@@ -548,7 +548,7 @@ feature
 BasicFilter
 "
 )
-SVG_UNSUPPORTED_FEATURE
+SVG_SUPPORTED_FEATURE
 (
 "
 http
@@ -928,7 +928,7 @@ SVG
 animation
 "
 )
-SVG_UNSUPPORTED_FEATURE
+SVG_SUPPORTED_FEATURE
 (
 "
 http
@@ -1098,7 +1098,7 @@ svg
 static
 "
 )
-SVG_UNSUPPORTED_FEATURE
+SVG_SUPPORTED_FEATURE
 (
 "
 org
