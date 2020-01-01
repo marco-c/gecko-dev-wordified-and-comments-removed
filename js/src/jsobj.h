@@ -77,17 +77,8 @@ call
 JSNative
 construct
 ;
-JSXDRObjectOp
-xdrObject
-;
 JSHasInstanceOp
 hasInstance
-;
-JSSetObjectSlotOp
-setProto
-;
-JSSetObjectSlotOp
-setParent
 ;
 JSTraceOp
 trace

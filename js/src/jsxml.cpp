@@ -26408,10 +26408,7 @@ NULL
 NULL
 NULL
 NULL
-NULL
 xml_hasInstance
-js_SetProtoOrParent
-js_SetProtoOrParent
 js_TraceObject
 xml_clear
 NULL

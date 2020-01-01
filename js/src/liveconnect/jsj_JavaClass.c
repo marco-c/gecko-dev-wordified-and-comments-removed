@@ -1739,10 +1739,7 @@ NULL
 NULL
 jsj_JavaConstructorWrapper
 jsj_JavaConstructorWrapper
-NULL
 JavaClass_hasInstance
-NULL
-NULL
 NULL
 NULL
 jsj_wrapper_getRequiredSlot

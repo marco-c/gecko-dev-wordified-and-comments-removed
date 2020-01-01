@@ -330,10 +330,7 @@ NULL
 NATIVE_DROP_PROPERTY
 js_Call
 js_Construct
-NULL
 js_HasInstance
-js_SetProtoOrParent
-js_SetProtoOrParent
 js_TraceObject
 js_Clear
 js_GetRequiredSlot
@@ -10550,9 +10547,6 @@ NATIVE_DROP_PROPERTY
 NULL
 NULL
 NULL
-NULL
-js_SetProtoOrParent
-js_SetProtoOrParent
 js_TraceObject
 js_Clear
 NULL

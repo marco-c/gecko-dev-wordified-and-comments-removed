@@ -3717,9 +3717,6 @@ NULL
 NULL
 NULL
 NULL
-NULL
-NULL
-NULL
 jsj_wrapper_getRequiredSlot
 jsj_wrapper_setRequiredSlot
 }
