@@ -976,6 +976,9 @@ Connect
 (
 )
 {
+#
+ifndef
+CHROMIUM_MOZILLA_BUILD
 DLOG
 (
 WARNING
@@ -988,6 +991,8 @@ called
 twice
 "
 ;
+#
+endif
 if
 (
 !
