@@ -652,6 +652,10 @@ browser_bug611242
 .
 js
 \
+browser_bug638292
+.
+js
+\
 unsigned
 .
 xpi
@@ -753,6 +757,10 @@ hashRedirect
 sjs
 \
 bug540558
+.
+html
+\
+bug638292
 .
 html
 \
