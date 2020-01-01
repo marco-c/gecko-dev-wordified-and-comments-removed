@@ -53,6 +53,9 @@ nsIPresShell
 class
 nsIContent
 ;
+struct
+nsRoleMapEntry
+;
 class
 nsAccessibilityService
 :
@@ -137,6 +140,11 @@ nsIAccessible
 *
 *
 aAccessibleOut
+nsRoleMapEntry
+*
+aRoleMapEntry
+=
+nsnull
 )
 ;
 nsresult
