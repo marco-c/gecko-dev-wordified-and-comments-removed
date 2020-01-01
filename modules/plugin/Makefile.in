@@ -500,7 +500,7 @@ default
 os2
 endif
 ifdef
-PBBUILD
+PBBUILD_BIN
 ifeq
 (
 (
