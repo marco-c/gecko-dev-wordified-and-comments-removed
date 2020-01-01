@@ -651,6 +651,12 @@ do_QueryInterface
 aDoc
 )
 ;
+NS_ENSURE_TRUE
+(
+doc
+NS_OK
+)
+;
 nsIPresShell
 *
 presShell
