@@ -3216,6 +3216,10 @@ mCharacterCount
 (
 aLength
 )
+mHashCode
+(
+0
+)
 {
 NS_ADDREF
 (
