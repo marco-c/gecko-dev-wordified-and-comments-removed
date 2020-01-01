@@ -469,6 +469,10 @@ head
 .
 js
 \
+browser_bug562890
+.
+js
+\
 browser_bug562899
 .
 js
