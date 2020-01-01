@@ -69,6 +69,9 @@ cgLayer
 cairo_rectangle_int_t
 extents
 ;
+cairo_bool_t
+ownsData
+;
 }
 cairo_quartz_surface_t
 ;
