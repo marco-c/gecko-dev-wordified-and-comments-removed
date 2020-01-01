@@ -498,6 +498,9 @@ mSourceUrl
 nsString
 mTempFileExtension
 ;
+nsString
+mTempLeafName
+;
 nsCOMPtr
 <
 nsIMIMEInfo
