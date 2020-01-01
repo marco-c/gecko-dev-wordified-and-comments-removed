@@ -119,6 +119,9 @@ class
 BrowserStreamChild
 ;
 class
+StreamNotifyChild
+;
+class
 PluginInstanceChild
 :
 public
@@ -131,6 +134,10 @@ BrowserStreamChild
 friend
 class
 PluginStreamChild
+;
+friend
+class
+StreamNotifyChild
 ;
 #
 ifdef
@@ -527,16 +534,6 @@ InvalidateRect
 NPRect
 *
 aInvalidRect
-)
-;
-bool
-NotifyStream
-(
-StreamNotifyChild
-*
-notifyData
-NPReason
-reason
 )
 ;
 uint32_t

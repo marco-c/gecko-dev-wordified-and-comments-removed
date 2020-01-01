@@ -93,7 +93,7 @@ Represents
 NPP_URLNotify
 *
 /
-rpc
+async
 __delete__
 (
 NPReason
