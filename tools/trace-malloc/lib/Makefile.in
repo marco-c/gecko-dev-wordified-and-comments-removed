@@ -502,6 +502,11 @@ imagehlp
 .
 lib
 endif
+DEFINES
++
+=
+-
+DMOZ_NO_MOZALLOC
 ifdef
 WRAP_SYSTEM_INCLUDES
 DEFINES
