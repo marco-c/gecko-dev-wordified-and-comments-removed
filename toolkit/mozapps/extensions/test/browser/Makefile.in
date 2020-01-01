@@ -477,6 +477,10 @@ browser_dragdrop
 .
 js
 \
+browser_sorting
+.
+js
+\
 browser_updatessl
 .
 js
