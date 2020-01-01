@@ -1007,6 +1007,10 @@ browser_urlbarTrimURLs
 .
 js
 \
+browser_urlbar_search_healthreport
+.
+js
+\
 browser_urlHighlight
 .
 js
