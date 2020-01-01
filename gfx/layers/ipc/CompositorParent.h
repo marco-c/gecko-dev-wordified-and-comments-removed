@@ -135,6 +135,16 @@ Composite
 (
 )
 ;
+#
+ifdef
+MOZ_WIDGET_ANDROID
+void
+RegisterCompositorWithJava
+(
+)
+;
+#
+endif
 nsRefPtr
 <
 LayerManager
