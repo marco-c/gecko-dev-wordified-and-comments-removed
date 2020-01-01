@@ -102,13 +102,3 @@ events
 none
 ;
 }
-html
-xul
-|
-scrollbar
-{
-display
-:
-none
-;
-}
