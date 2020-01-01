@@ -2949,7 +2949,7 @@ const
 ;
 inline
 JSObject
-&
+*
 getCallObjCallee
 (
 )
@@ -2968,7 +2968,7 @@ void
 setCallObjCallee
 (
 JSObject
-&
+*
 callee
 )
 ;
