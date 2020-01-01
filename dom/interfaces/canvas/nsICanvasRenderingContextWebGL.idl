@@ -433,6 +433,13 @@ nsISupports
 .
 idl
 "
+#
+include
+"
+nsIVariant
+.
+idl
+"
 interface
 nsIDOMElement
 ;
@@ -4130,7 +4137,7 @@ DOMString
 name
 )
 ;
-void
+nsIVariant
 getParameter
 (
 in
