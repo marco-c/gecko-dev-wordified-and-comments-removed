@@ -9081,17 +9081,6 @@ options
 .
 userBit
 ;
-script
--
->
-maxInlineDepth_
-=
-uint8_t
-(
--
-1
-)
-;
 return
 script
 ;
