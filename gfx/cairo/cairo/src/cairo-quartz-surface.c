@@ -8326,6 +8326,7 @@ return
 cairo_quartz_surface_create_cg_layer
 (
 abstract_surface
+content
 width
 height
 )
@@ -12350,6 +12351,8 @@ cairo_quartz_surface_create_cg_layer
 cairo_surface_t
 *
 surface
+cairo_content_t
+content
 unsigned
 int
 width
@@ -12387,7 +12390,7 @@ return
 cairo_surface_create_similar
 (
 surface
-CAIRO_CONTENT_COLOR_ALPHA
+content
 width
 height
 )
@@ -12432,7 +12435,7 @@ cairo_surface_t
 _cairo_quartz_surface_create_internal
 (
 NULL
-CAIRO_CONTENT_COLOR_ALPHA
+content
 width
 height
 )
@@ -12497,7 +12500,7 @@ surf
 _cairo_quartz_surface_create_internal
 (
 ctx
-CAIRO_CONTENT_COLOR_ALPHA
+content
 width
 height
 )

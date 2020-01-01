@@ -276,6 +276,10 @@ surface
 cairo_quartz_surface_create_cg_layer
 (
 mSurface
+(
+cairo_content_t
+)
+aType
 aSize
 .
 width
