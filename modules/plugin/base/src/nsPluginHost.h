@@ -1192,9 +1192,6 @@ mAllowAlienStarHandler
 PRPackedBool
 mDefaultPluginDisabled
 ;
-PRPackedBool
-mJavaEnabled
-;
 nsPluginInstanceTagList
 mPluginInstanceTagList
 ;
