@@ -522,10 +522,14 @@ nsISupports
 *
 *
 Calls
-onPageExpired
+onDeleteVisits
+and
+onDeleteURI
+notifications
 on
 registered
 listeners
+*
 with
 the
 history

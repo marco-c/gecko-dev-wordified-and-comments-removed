@@ -229,13 +229,12 @@ aValue
 expiredURI
 :
 null
-onPageExpired
+onDeleteVisits
 :
 function
 (
 aURI
 aVisitTime
-aWholeEntry
 )
 {
 this

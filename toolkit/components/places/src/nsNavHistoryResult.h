@@ -269,16 +269,13 @@ aValue
 ;
 \
 NS_IMETHOD
-OnPageExpired
+OnDeleteVisits
 (
 nsIURI
 *
 aURI
 PRTime
 aVisitTime
-\
-PRBool
-aWholeEntry
 )
 ;
 #

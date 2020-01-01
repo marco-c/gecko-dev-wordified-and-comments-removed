@@ -277,13 +277,12 @@ visitTime
 :
 -
 1
-onPageExpired
+onDeleteVisits
 :
 function
 (
 aURI
 aVisitTime
-aWholeEntry
 )
 {
 do_check_true
@@ -305,11 +304,6 @@ this
 .
 visitTime
 aVisitTime
-)
-;
-do_check_false
-(
-aWholeEntry
 )
 ;
 do_check_false
