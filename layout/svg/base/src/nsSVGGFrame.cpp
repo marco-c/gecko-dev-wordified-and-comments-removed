@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsSVGClipPathFrame
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h
