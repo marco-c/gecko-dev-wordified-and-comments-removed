@@ -96,6 +96,9 @@ NJ_LOG2_PAGE_SIZE
 12
 ;
 #
+define
+NJ_ARM_VFP
+#
 ifdef
 NJ_ARM_VFP
 #
@@ -770,13 +773,6 @@ asm_add_imm
 Register
 Register
 int32_t
-)
-;
-\
-void
-asm_fcmp
-(
-LInsp
 )
 ;
 \

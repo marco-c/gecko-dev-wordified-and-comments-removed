@@ -973,9 +973,6 @@ LIns
 cond
 )
 ;
-#
-ifndef
-NJ_SOFTFLOAT
 void
 asm_fcmp
 (
@@ -1008,8 +1005,6 @@ NIns
 target
 )
 ;
-#
-endif
 void
 asm_mmq
 (
