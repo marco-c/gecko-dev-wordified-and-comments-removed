@@ -488,13 +488,7 @@ mImageSurface
 ;
 }
 PRUint32
-EstimateHeapMemoryUsed
-(
-)
-const
-;
-PRUint32
-EstimateNonheapMemoryUsed
+EstimateMemoryUsed
 (
 )
 const

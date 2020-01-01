@@ -134,7 +134,7 @@ GetDataSize
 ;
 virtual
 PRUint32
-GetDecodedHeapSize
+GetDecodedDataSize
 (
 )
 =
@@ -142,15 +142,7 @@ GetDecodedHeapSize
 ;
 virtual
 PRUint32
-GetDecodedNonheapSize
-(
-)
-=
-0
-;
-virtual
-PRUint32
-GetSourceHeapSize
+GetSourceDataSize
 (
 )
 =

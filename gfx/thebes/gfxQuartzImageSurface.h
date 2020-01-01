@@ -55,12 +55,6 @@ GetAsImageSurface
 (
 )
 ;
-virtual
-PRInt32
-KnownMemoryUsed
-(
-)
-;
 }
 ;
 #
