@@ -3864,12 +3864,6 @@ GetPresShell
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-presShell
-NS_ERROR_FAILURE
-)
-;
 mPresShell
 =
 do_GetWeakReference
