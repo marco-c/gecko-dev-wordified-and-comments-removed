@@ -4468,7 +4468,7 @@ firstTab
 {
 BrowserUI
 .
-setURI
+updateURI
 (
 )
 ;
@@ -12702,7 +12702,7 @@ selectedTab
 {
 BrowserUI
 .
-setURI
+updateURI
 (
 )
 ;
@@ -12976,6 +12976,14 @@ _tab
 Browser
 .
 selectedTab
+&
+&
+!
+BrowserUI
+.
+isAutoCompleteOpen
+(
+)
 )
 {
 if
