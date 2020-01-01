@@ -217,6 +217,9 @@ public
 :
 nsDisplayRemote
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -227,6 +230,7 @@ aRemoteFrame
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 mRemoteFrame
