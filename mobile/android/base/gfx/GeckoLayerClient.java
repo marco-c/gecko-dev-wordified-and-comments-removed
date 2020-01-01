@@ -199,6 +199,7 @@ boolean
 mRecordDrawTimes
 ;
 private
+final
 DrawTimingQueue
 mDrawTimingQueue
 ;
@@ -215,14 +216,11 @@ ImmutableViewportMetrics
 mFrameMetrics
 ;
 private
-String
-mLastCheckerboardColor
-;
-private
 DrawListener
 mDrawListener
 ;
 private
+final
 ViewTransform
 mCurrentViewTransform
 ;
