@@ -586,6 +586,7 @@ more
 of
 firefox
 thunderbird
+fennec
 -
 b
 branches

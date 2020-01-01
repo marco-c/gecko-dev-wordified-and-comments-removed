@@ -583,8 +583,9 @@ product
 required
 .
 firefox
-|
 thunderbird
+or
+fennec
 -
 b
 branch
@@ -863,6 +864,11 @@ thunderbird
 "
 product
 "
+!
+=
+"
+fennec
+"
 ]
 ]
 ;
@@ -880,8 +886,9 @@ be
 one
 of
 firefox
-or
 thunderbird
+or
+fennec
 "
 LINENO
 fi

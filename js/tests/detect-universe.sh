@@ -672,6 +672,7 @@ more
 of
 firefox
 thunderbird
+fennec
 js
 -
 b

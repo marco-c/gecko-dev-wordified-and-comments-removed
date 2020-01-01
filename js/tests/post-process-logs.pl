@@ -1177,6 +1177,13 @@ eq
 "
 thunderbird
 "
+|
+|
+test_product
+eq
+"
+fennec
+"
 )
 {
 test_buildtype

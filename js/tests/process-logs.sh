@@ -846,6 +846,15 @@ browser
 ;
 ;
 *
+fennec
+*
+)
+testtype
+=
+browser
+;
+;
+*
 )
 error
 "

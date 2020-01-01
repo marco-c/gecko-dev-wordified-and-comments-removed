@@ -717,6 +717,7 @@ list
 of
 js
 firefox
+fennec
 -
 b
 branches
@@ -1625,6 +1626,15 @@ shell
 ;
 *
 firefox
+*
+)
+testtype
+=
+browser
+;
+;
+*
+fennec
 *
 )
 testtype

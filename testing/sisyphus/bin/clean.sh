@@ -451,6 +451,8 @@ in
 firefox
 |
 thunderbird
+|
+fennec
 )
 #
 cd

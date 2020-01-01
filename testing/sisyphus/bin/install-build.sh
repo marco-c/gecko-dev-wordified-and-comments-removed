@@ -564,8 +564,9 @@ product
 required
 .
 firefox
-|
 thunderbird
+or
+fennec
 -
 b
 branch
@@ -997,7 +998,7 @@ LINENO
 fi
 ;
 ;
-mac
+darwin
 )
 #
 answer
@@ -1016,7 +1017,7 @@ expect
 ex
 filename
 #
-now
+Now
 get
 the
 volume
@@ -1174,6 +1175,21 @@ disk
 ;
 ;
 esac
+if
+[
+[
+"
+product
+"
+!
+=
+"
+fennec
+"
+]
+]
+;
+then
 #
 #
 patch
@@ -1295,5 +1311,6 @@ run
 mozilla
 .
 diff
+fi
 fi
 fi

@@ -760,6 +760,8 @@ firefox
 thunderbird
 |
 js
+|
+fennec
 -
 b
 branch
@@ -1503,6 +1505,8 @@ EXE_EXT
 firefox
 |
 thunderbird
+|
+fennec
 )
 if
 [
