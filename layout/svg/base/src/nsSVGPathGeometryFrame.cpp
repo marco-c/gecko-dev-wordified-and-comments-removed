@@ -144,7 +144,7 @@ mContent
 )
 -
 >
-IsDependentAttribute
+AttributeDefinesGeometry
 (
 aAttribute
 )

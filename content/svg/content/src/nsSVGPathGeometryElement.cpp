@@ -25,8 +25,9 @@ PRBool
 nsSVGPathGeometryElement
 :
 :
-IsDependentAttribute
+AttributeDefinesGeometry
 (
+const
 nsIAtom
 *
 aName

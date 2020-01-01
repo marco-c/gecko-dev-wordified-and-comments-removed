@@ -222,8 +222,9 @@ PRBool
 nsSVGPolyElement
 :
 :
-IsDependentAttribute
+AttributeDefinesGeometry
 (
+const
 nsIAtom
 *
 aName

@@ -86,8 +86,9 @@ aNodeInfo
 ;
 virtual
 PRBool
-IsDependentAttribute
+AttributeDefinesGeometry
 (
+const
 nsIAtom
 *
 aName
