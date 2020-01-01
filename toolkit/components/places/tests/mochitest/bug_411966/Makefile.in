@@ -68,15 +68,7 @@ VPATH
 srcdir
 relativesrcdir
 =
-toolkit
-/
-components
-/
-places
-/
-tests
-/
-bug_411966
+relativesrcdir
 include
 (
 DEPTH

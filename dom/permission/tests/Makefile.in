@@ -74,11 +74,7 @@ VPATH
 srcdir
 relativesrcdir
 =
-dom
-/
-permission
-/
-tests
+relativesrcdir
 include
 (
 DEPTH
