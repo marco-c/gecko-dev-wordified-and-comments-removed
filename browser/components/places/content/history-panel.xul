@@ -892,6 +892,11 @@ selection
 "
 link
 "
+selectiontype
+=
+"
+single
+"
 oncommand
 =
 "
