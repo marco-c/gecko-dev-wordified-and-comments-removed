@@ -323,6 +323,14 @@ va_list
 args
 )
 ;
+int
+dbus_returns_int32
+(
+DBusMessage
+*
+reply
+)
+;
 }
 }
 #
