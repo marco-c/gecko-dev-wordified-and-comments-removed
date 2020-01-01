@@ -5374,13 +5374,12 @@ ind
 obj
 -
 >
-getSlotRef
+setSlot
 (
 ind
-)
-.
-setUndefined
+UndefinedValue
 (
+)
 )
 ;
 obj
