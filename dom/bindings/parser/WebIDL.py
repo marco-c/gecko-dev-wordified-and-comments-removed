@@ -4423,6 +4423,25 @@ loopPoint
         
 return
 None
+    
+def
+getExtendedAttribute
+(
+self
+name
+)
+:
+        
+return
+self
+.
+_extendedAttrDict
+.
+get
+(
+name
+None
+)
 class
 IDLDictionary
 (

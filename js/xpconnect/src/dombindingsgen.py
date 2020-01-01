@@ -6434,6 +6434,7 @@ Wrapper
 :
 :
 DefineDOMInterface
+nullptr
 )
 ;
 \
