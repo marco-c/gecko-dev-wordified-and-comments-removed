@@ -8035,11 +8035,10 @@ curWindow
 ;
 if
 (
-utils
-.
-isElementDisplayed
+checkVisible
 (
 el
+command_id
 )
 )
 {
