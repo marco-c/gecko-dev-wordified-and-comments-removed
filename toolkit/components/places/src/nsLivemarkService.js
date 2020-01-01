@@ -2942,6 +2942,12 @@ aSourceOffset
 aCount
 )
 {
+if
+(
+this
+.
+_processor
+)
 this
 .
 _processor
@@ -3091,6 +3097,12 @@ return
 }
 try
 {
+if
+(
+this
+.
+_processor
+)
 this
 .
 _processor
