@@ -415,12 +415,6 @@ PRInt32
 mMouseScreenX
 mMouseScreenY
 ;
-nsCOMPtr
-<
-nsIDOMEvent
->
-mCachedMouseEvent
-;
 enum
 {
 kTooltipMouseMoveTolerance
