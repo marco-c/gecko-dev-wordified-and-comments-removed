@@ -4746,9 +4746,6 @@ opcode
 case
 LIR_ldf
 :
-case
-LIR_ldfc
-:
 if
 (
 _config
@@ -4862,9 +4859,6 @@ return
 ;
 case
 LIR_ld32f
-:
-case
-LIR_ldc32f
 :
 if
 (
@@ -9968,9 +9962,6 @@ op
 case
 LIR_ldzb
 :
-case
-LIR_ldcb
-:
 if
 (
 isU12
@@ -10015,9 +10006,6 @@ return
 ;
 case
 LIR_ldzs
-:
-case
-LIR_ldcs
 :
 if
 (
@@ -10064,9 +10052,6 @@ return
 case
 LIR_ld
 :
-case
-LIR_ldc
-:
 if
 (
 isU12
@@ -10112,9 +10097,6 @@ return
 case
 LIR_ldsb
 :
-case
-LIR_ldcsb
-:
 if
 (
 isU8
@@ -10159,9 +10141,6 @@ return
 ;
 case
 LIR_ldss
-:
-case
-LIR_ldcss
 :
 if
 (

@@ -14278,9 +14278,6 @@ opcode
 case
 LIR_ldq
 :
-case
-LIR_ldqc
-:
 beginLoadRegs
 (
 ins
@@ -14310,9 +14307,6 @@ break
 case
 LIR_ldf
 :
-case
-LIR_ldfc
-:
 beginLoadRegs
 (
 ins
@@ -14341,9 +14335,6 @@ break
 ;
 case
 LIR_ld32f
-:
-case
-LIR_ldc32f
 :
 beginLoadRegs
 (
@@ -14457,9 +14448,6 @@ op
 case
 LIR_ldzb
 :
-case
-LIR_ldcb
-:
 MOVZX8M
 (
 r
@@ -14471,9 +14459,6 @@ break
 ;
 case
 LIR_ldzs
-:
-case
-LIR_ldcs
 :
 MOVZX16M
 (
@@ -14487,9 +14472,6 @@ break
 case
 LIR_ld
 :
-case
-LIR_ldc
-:
 MOVLRM
 (
 r
@@ -14502,9 +14484,6 @@ break
 case
 LIR_ldsb
 :
-case
-LIR_ldcsb
-:
 MOVSX8M
 (
 r
@@ -14516,9 +14495,6 @@ break
 ;
 case
 LIR_ldss
-:
-case
-LIR_ldcss
 :
 MOVSX16M
 (
