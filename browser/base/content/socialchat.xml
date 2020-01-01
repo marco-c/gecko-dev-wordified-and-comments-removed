@@ -1533,7 +1533,7 @@ child
 =
 this
 .
-lastChild
+lastElementChild
 ;
 while
 (
@@ -1553,7 +1553,7 @@ child
 =
 child
 .
-previousSibling
+previousElementSibling
 ;
 }
 ]
@@ -1599,7 +1599,7 @@ child
 =
 this
 .
-firstChild
+firstElementChild
 ;
 while
 (
@@ -1620,7 +1620,7 @@ child
 =
 child
 .
-nextSibling
+nextElementSibling
 ;
 }
 ]
@@ -2972,7 +2972,7 @@ while
 (
 this
 .
-firstChild
+firstElementChild
 )
 {
 this
@@ -2981,7 +2981,7 @@ _remove
 (
 this
 .
-firstChild
+firstElementChild
 )
 ;
 }
