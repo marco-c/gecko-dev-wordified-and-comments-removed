@@ -547,6 +547,8 @@ ElementRestyler
 nsPresContext
 *
 aPresContext
+nsChangeHint
+aHintsHandledByAncestors
 )
 ;
 ElementRestyler
@@ -592,7 +594,7 @@ eNotifyHidden
 ;
 public
 :
-nsChangeHint
+void
 Restyle
 (
 nsPresContext
@@ -607,8 +609,6 @@ aParentContent
 nsStyleChangeList
 *
 aChangeList
-nsChangeHint
-aMinChange
 nsChangeHint
 aParentFrameHintsNotHandledForDescendants
 nsRestyleHint
@@ -630,6 +630,15 @@ TreeMatchContext
 aTreeMatchContext
 )
 ;
+nsChangeHint
+HintsHandledForFrame
+(
+)
+{
+return
+mHintsHandled
+;
+}
 private
 :
 void
@@ -651,9 +660,6 @@ nsStyleChangeList
 *
 aChangeList
 nsChangeHint
-&
-aMinChange
-nsChangeHint
 aParentHintsNotHandledForDescendants
 nsChangeHint
 &
@@ -668,6 +674,9 @@ nsPresContext
 *
 const
 mPresContext
+;
+nsChangeHint
+mHintsHandled
 ;
 }
 ;
