@@ -329,6 +329,10 @@ file_exnstack
 .
 html
 \
+file_expandosharing
+.
+html
+\
 (
 NULL
 )
