@@ -1221,9 +1221,7 @@ metrics
 .
 tmAscent
 *
-0
-.
-56
+DEFAULT_XHEIGHT_FACTOR
 )
 ;
 }
@@ -1397,9 +1395,7 @@ metrics
 .
 tmAscent
 *
-0
-.
-56f
+DEFAULT_XHEIGHT_FACTOR
 )
 ;
 mMetrics
