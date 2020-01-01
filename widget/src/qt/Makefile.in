@@ -521,10 +521,6 @@ nsWidgetFactory
 .
 cpp
 \
-nsCommonWidget
-.
-cpp
-\
 nsWindow
 .
 cpp
