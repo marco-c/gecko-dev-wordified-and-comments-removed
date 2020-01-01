@@ -127,6 +127,10 @@ console
 "
 )
 ;
+waitForExplicitFinish
+(
+)
+;
 if
 (
 !
@@ -141,13 +145,13 @@ open
 (
 )
 ;
+}
 setTimeout
 (
 checkConsole
 500
 )
 ;
-}
 }
 function
 checkConsole
@@ -217,6 +221,10 @@ console
 console
 .
 close
+(
+)
+;
+finish
 (
 )
 ;
