@@ -591,16 +591,7 @@ nsRect
 &
 aDisplayPort
 )
-{
-mHasDisplayPort
-=
-PR_TRUE
 ;
-mDisplayPort
-=
-aDisplayPort
-;
-}
 const
 nsRect
 *
