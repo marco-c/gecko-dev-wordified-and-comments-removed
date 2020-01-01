@@ -558,6 +558,10 @@ test_frameWrapping
 .
 html
 \
+test_bug585745
+.
+html
+\
 test_bug589028
 .
 html
