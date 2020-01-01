@@ -65,6 +65,8 @@ xpcom
 \
 pipnss
 \
+sqlite3
+\
 (
 ZLIB_REQUIRES
 )
@@ -110,6 +112,10 @@ srcdir
 .
 /
 build
+\
+(
+SQLITE_CFLAGS
+)
 \
 (
 NULL
