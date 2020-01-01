@@ -5237,6 +5237,13 @@ type
 JSVAL_TYPE_DOUBLE
 &
 &
+masm
+.
+supportsFloatingPointSqrt
+(
+)
+&
+&
 (
 argType
 =
@@ -5568,6 +5575,13 @@ type
 =
 =
 JSVAL_TYPE_DOUBLE
+&
+&
+masm
+.
+supportsFloatingPointSqrt
+(
+)
 &
 &
 (
