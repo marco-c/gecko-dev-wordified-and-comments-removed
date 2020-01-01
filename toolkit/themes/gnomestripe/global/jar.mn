@@ -129,6 +129,16 @@ classic
 /
 global
 /
+groupbox
+.
+css
++
+skin
+/
+classic
+/
+global
+/
 menu
 /
 Menu
