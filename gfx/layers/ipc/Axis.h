@@ -181,7 +181,7 @@ GetOrigin
 )
 ;
 float
-GetViewportLength
+GetCompositionLength
 (
 )
 ;
@@ -196,7 +196,7 @@ GetPageLength
 )
 ;
 float
-GetViewportEnd
+GetCompositionEnd
 (
 )
 ;
