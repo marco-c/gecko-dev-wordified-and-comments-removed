@@ -2380,7 +2380,7 @@ the
 cache
 would
 be
-corrupted
+clean
 with
 the
 disk
