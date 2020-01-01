@@ -417,6 +417,9 @@ version
 CC
 =
 cl
+CXX
+=
+cl
 RANLIB
 =
 echo
