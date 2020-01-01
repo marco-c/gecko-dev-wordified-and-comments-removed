@@ -138,6 +138,7 @@ eDOMClassInfo_TreeContentView_id
 endif
 eDOMClassInfo_Crypto_id
 eDOMClassInfo_CRMFObject_id
+eDOMClassInfo_Pkcs11_id
 eDOMClassInfo_TreeWalker_id
 eDOMClassInfo_CSSRect_id
 eDOMClassInfo_ChromeWindow_id
@@ -301,8 +302,8 @@ eDOMClassInfo_XPathException_id
 eDOMClassInfo_XPathExpression_id
 eDOMClassInfo_XPathNSResolver_id
 eDOMClassInfo_XPathResult_id
-eDOMClassInfo_StorageObsolete_id
 eDOMClassInfo_Storage_id
+eDOMClassInfo_Storage2_id
 eDOMClassInfo_StorageList_id
 eDOMClassInfo_StorageItem_id
 eDOMClassInfo_StorageEvent_id
@@ -323,6 +324,7 @@ eDOMClassInfo_XULCommandEvent_id
 eDOMClassInfo_CommandEvent_id
 eDOMClassInfo_OfflineResourceList_id
 eDOMClassInfo_LoadStatus_id
+eDOMClassInfo_LoadStatusEvent_id
 eDOMClassInfo_FileList_id
 eDOMClassInfo_File_id
 eDOMClassInfo_FileException_id
