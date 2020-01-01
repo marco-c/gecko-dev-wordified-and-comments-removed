@@ -52,6 +52,12 @@ void
 ;
 #
 endif
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 AtkSocketAccessible
 :
@@ -120,5 +126,7 @@ aOutAccessible
 ;
 }
 ;
+}
+}
 #
 endif

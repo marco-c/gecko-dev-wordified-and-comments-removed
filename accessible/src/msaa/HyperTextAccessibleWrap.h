@@ -25,6 +25,12 @@ ia2AccessibleHyperText
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 HyperTextAccessibleWrap
 :
@@ -86,5 +92,7 @@ aEndOffset
 ;
 }
 ;
+}
+}
 #
 endif

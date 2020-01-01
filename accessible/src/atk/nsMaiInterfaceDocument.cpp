@@ -35,6 +35,13 @@ Likely
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 static
 const
 char

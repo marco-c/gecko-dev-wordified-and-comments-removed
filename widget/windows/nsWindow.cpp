@@ -19557,6 +19557,9 @@ objId
 OBJID_CLIENT
 )
 {
+a11y
+:
+:
 Accessible
 *
 rootAccessible
@@ -30149,6 +30152,9 @@ NS_LOG_WMGETOBJECT_WNDACC
 aWnd
 )
 \
+a11y
+:
+:
 Accessible
 *
 acc
@@ -30481,6 +30487,9 @@ aHwnd
 )
 #
 endif
+a11y
+:
+:
 Accessible
 *
 nsWindow

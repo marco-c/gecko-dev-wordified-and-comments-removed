@@ -85,6 +85,15 @@ nsPoint
 .
 h
 "
+struct
+nsRoleMapEntry
+;
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 nsAccessNode
 ;
@@ -96,9 +105,6 @@ HyperTextAccessible
 ;
 class
 DocAccessible
-;
-struct
-nsRoleMapEntry
 ;
 class
 nsAccUtils
@@ -649,5 +655,7 @@ aAccessible
 ;
 }
 ;
+}
+}
 #
 endif

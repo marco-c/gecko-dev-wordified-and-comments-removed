@@ -18,6 +18,12 @@ AccEvent
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 nsAccEvent
 :
@@ -429,5 +435,7 @@ MOZ_DELETE
 ;
 }
 ;
+}
+}
 #
 endif

@@ -12,6 +12,13 @@ nsAccUtils
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 void
 nsEventShell
 :

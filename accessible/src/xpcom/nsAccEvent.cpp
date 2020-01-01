@@ -19,6 +19,13 @@ DocAccessible
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 NS_IMPL_ISUPPORTS1
 (
 nsAccEvent

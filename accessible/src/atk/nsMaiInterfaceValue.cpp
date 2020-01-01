@@ -28,6 +28,13 @@ nsMai
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 extern
 "
 C

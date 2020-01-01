@@ -12,6 +12,13 @@ nsMaiHyperlink
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 #
 define
 MAI_TYPE_ATK_HYPERLINK

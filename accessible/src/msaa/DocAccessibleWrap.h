@@ -25,6 +25,12 @@ nsIDocShellTreeItem
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 DocAccessibleWrap
 :
@@ -190,5 +196,7 @@ mHWND
 ;
 }
 ;
+}
+}
 #
 endif

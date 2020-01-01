@@ -18,15 +18,15 @@ nsTArray
 .
 h
 "
-class
-Accessible
-;
 namespace
 mozilla
 {
 namespace
 a11y
 {
+class
+Accessible
+;
 class
 AccCollector
 {
@@ -201,8 +201,6 @@ aAccessible
 ;
 friend
 class
-:
-:
 Accessible
 ;
 }

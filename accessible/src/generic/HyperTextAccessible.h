@@ -64,8 +64,6 @@ idx
 ;
 }
 ;
-}
-}
 enum
 EGetTextType
 {
@@ -472,12 +470,6 @@ const
 protected
 :
 virtual
-mozilla
-:
-:
-a11y
-:
-:
 ENameValueFlag
 NativeName
 (
@@ -758,6 +750,8 @@ this
 :
 nullptr
 ;
+}
+}
 }
 #
 endif

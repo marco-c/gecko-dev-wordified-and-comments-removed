@@ -10564,6 +10564,9 @@ ifdef
 ACCESSIBILITY
 already_AddRefed
 <
+a11y
+:
+:
 Accessible
 >
 nsChildView
@@ -10589,6 +10592,9 @@ ShouldA11yBeEnabled
 return
 nullptr
 ;
+a11y
+:
+:
 Accessible
 *
 docAccessible
@@ -10638,6 +10644,9 @@ in
 our
 weak
 ptr
+a11y
+:
+:
 Accessible
 *
 acc
@@ -27107,6 +27116,9 @@ mGeckoChild
 ;
 nsRefPtr
 <
+a11y
+:
+:
 Accessible
 >
 accessible

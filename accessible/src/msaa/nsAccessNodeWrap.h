@@ -144,6 +144,12 @@ GetExceptionInformation
 return
 E_FAIL
 ;
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 AccTextChangeEvent
 ;
@@ -529,6 +535,8 @@ gTextEvent
 ;
 }
 ;
+}
+}
 HRESULT
 GetHRESULT
 (

@@ -550,6 +550,12 @@ Super0
 )
 \
 IMPL_IUNKNOWN_QUERY_TAIL
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 AccessibleWrap
 :
@@ -1341,5 +1347,7 @@ NAVRELATION_DESCRIPTION_FOR
 ;
 }
 ;
+}
+}
 #
 endif

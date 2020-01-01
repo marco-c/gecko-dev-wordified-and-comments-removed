@@ -76,6 +76,12 @@ newvalue
 ;
 }
 ;
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 MaiHyperlink
 ;
@@ -296,5 +302,7 @@ void
 ;
 }
 ;
+}
+}
 #
 endif

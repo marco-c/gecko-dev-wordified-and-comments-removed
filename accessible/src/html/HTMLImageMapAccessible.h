@@ -196,15 +196,7 @@ CacheChildren
 ;
 }
 ;
-}
-}
 inline
-mozilla
-:
-:
-a11y
-:
-:
 HTMLImageMapAccessible
 *
 Accessible
@@ -221,12 +213,6 @@ IsImageMapAccessible
 ?
 static_cast
 <
-mozilla
-:
-:
-a11y
-:
-:
 HTMLImageMapAccessible
 *
 >
@@ -236,6 +222,8 @@ this
 :
 nullptr
 ;
+}
+}
 }
 #
 endif

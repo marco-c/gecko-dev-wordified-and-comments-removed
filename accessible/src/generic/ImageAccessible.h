@@ -150,15 +150,7 @@ aIndex
 ;
 }
 ;
-}
-}
 inline
-mozilla
-:
-:
-a11y
-:
-:
 ImageAccessible
 *
 Accessible
@@ -175,12 +167,6 @@ IsImage
 ?
 static_cast
 <
-mozilla
-:
-:
-a11y
-:
-:
 ImageAccessible
 *
 >
@@ -190,6 +176,8 @@ this
 :
 nullptr
 ;
+}
+}
 }
 #
 endif

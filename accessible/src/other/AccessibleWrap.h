@@ -1,9 +1,9 @@
 #
 ifndef
-_AccessibleWrap_H_
+mozilla_a11y_AccessibleWrap_h_
 #
 define
-_AccessibleWrap_H_
+mozilla_a11y_AccessibleWrap_h_
 #
 include
 "
@@ -18,6 +18,12 @@ Accessible
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 AccessibleWrap
 :
@@ -59,5 +65,7 @@ NS_OK
 }
 }
 ;
+}
+}
 #
 endif

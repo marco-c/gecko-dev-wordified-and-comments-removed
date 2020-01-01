@@ -233,6 +233,12 @@ mai_atk_object_get_type
 void
 )
 ;
+mozilla
+:
+:
+a11y
+:
+:
 AccessibleWrap
 *
 GetAccessibleWrap

@@ -33,6 +33,13 @@ nsIPersistentProperties2
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 STDMETHODIMP
 ia2AccessibleText
 :

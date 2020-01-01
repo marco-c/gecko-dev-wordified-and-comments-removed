@@ -33,6 +33,13 @@ nsINodeList
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 struct
 WalkState
 {

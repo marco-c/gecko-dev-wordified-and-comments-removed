@@ -120,15 +120,7 @@ mText
 ;
 }
 ;
-}
-}
 inline
-mozilla
-:
-:
-a11y
-:
-:
 TextLeafAccessible
 *
 Accessible
@@ -145,12 +137,6 @@ eTextLeafAccessible
 ?
 static_cast
 <
-mozilla
-:
-:
-a11y
-:
-:
 TextLeafAccessible
 *
 >
@@ -160,6 +146,8 @@ this
 :
 nullptr
 ;
+}
+}
 }
 #
 endif

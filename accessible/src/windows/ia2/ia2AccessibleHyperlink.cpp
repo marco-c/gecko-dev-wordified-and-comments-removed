@@ -33,6 +33,13 @@ nsIWinAccessNode
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 STDMETHODIMP
 ia2AccessibleHyperlink
 :

@@ -22,6 +22,12 @@ Element
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 AccEvent
 ;
@@ -31,12 +37,6 @@ Accessible
 class
 DocAccessible
 ;
-namespace
-mozilla
-{
-namespace
-a11y
-{
 class
 FocusManager
 {

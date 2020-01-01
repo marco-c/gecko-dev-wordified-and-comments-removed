@@ -26,6 +26,12 @@ struct
 _AtkHyperlink
 AtkHyperlink
 ;
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 MaiHyperlink
 {
@@ -100,5 +106,7 @@ aClass
 ;
 }
 ;
+}
+}
 #
 endif

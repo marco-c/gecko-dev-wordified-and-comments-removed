@@ -66,6 +66,12 @@ mozAccessible
 ;
 #
 endif
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 AccessibleWrap
 :
@@ -254,5 +260,7 @@ mNativeInited
 ;
 }
 ;
+}
+}
 #
 endif

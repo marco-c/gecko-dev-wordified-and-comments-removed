@@ -248,15 +248,7 @@ const
 ;
 }
 ;
-}
-}
 inline
-mozilla
-:
-:
-a11y
-:
-:
 HTMLLIAccessible
 *
 Accessible
@@ -273,12 +265,6 @@ eHTMLListItemAccessible
 ?
 static_cast
 <
-mozilla
-:
-:
-a11y
-:
-:
 HTMLLIAccessible
 *
 >
@@ -288,6 +274,8 @@ this
 :
 nullptr
 ;
+}
+}
 }
 #
 endif

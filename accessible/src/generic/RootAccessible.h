@@ -230,15 +230,7 @@ mCaretAccessible
 ;
 }
 ;
-}
-}
 inline
-mozilla
-:
-:
-a11y
-:
-:
 RootAccessible
 *
 Accessible
@@ -270,6 +262,8 @@ this
 :
 nullptr
 ;
+}
+}
 }
 #
 endif

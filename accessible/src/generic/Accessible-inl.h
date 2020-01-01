@@ -18,6 +18,12 @@ nsARIAMap
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+a11y
+{
 inline
 mozilla
 :
@@ -176,6 +182,8 @@ valueRule
 =
 eNoValue
 ;
+}
+}
 }
 #
 endif

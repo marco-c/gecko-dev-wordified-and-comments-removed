@@ -11,6 +11,12 @@ DocAccessible
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 DocAccessibleWrap
 :
@@ -40,5 +46,7 @@ DocAccessibleWrap
 ;
 }
 ;
+}
+}
 #
 endif

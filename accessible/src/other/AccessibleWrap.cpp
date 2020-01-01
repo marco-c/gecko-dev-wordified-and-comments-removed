@@ -5,6 +5,13 @@ AccessibleWrap
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 AccessibleWrap
 :
 :

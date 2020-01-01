@@ -740,15 +740,7 @@ const
 ;
 }
 ;
-}
-}
 inline
-mozilla
-:
-:
-a11y
-:
-:
 XULTreeAccessible
 *
 Accessible
@@ -765,12 +757,6 @@ IsXULTree
 ?
 static_cast
 <
-mozilla
-:
-:
-a11y
-:
-:
 XULTreeAccessible
 *
 >
@@ -780,6 +766,8 @@ this
 :
 nullptr
 ;
+}
+}
 }
 #
 endif

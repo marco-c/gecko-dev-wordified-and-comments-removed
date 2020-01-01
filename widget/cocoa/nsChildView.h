@@ -1648,6 +1648,12 @@ ifdef
 ACCESSIBILITY
 already_AddRefed
 <
+mozilla
+:
+:
+a11y
+:
+:
 Accessible
 >
 GetDocumentAccessible
