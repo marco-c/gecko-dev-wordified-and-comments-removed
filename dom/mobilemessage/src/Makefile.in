@@ -186,6 +186,10 @@ MmsMessage
 .
 h
 \
+SmsRequest
+.
+h
+\
 SmsSegmentInfo
 .
 h
@@ -238,14 +242,6 @@ NULL
 CPPSRCS
 =
 \
-MobileMessageCursorCallback
-.
-cpp
-\
-MobileMessageThread
-.
-cpp
-\
 SmsManager
 .
 cpp
@@ -290,6 +286,10 @@ SmsChild
 .
 cpp
 \
+SmsRequest
+.
+cpp
+\
 MobileMessageCallback
 .
 cpp
@@ -299,6 +299,10 @@ SmsFilter
 cpp
 \
 SmsSegmentInfo
+.
+cpp
+\
+SmsCursor
 .
 cpp
 \

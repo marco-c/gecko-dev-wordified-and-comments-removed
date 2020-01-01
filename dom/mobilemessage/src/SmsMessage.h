@@ -13,7 +13,7 @@ dom
 /
 mobilemessage
 /
-SmsTypes
+PSms
 .
 h
 "

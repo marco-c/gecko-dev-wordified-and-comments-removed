@@ -591,7 +591,7 @@ ok
 (
 request
 instanceof
-DOMRequest
+MozSmsRequest
 "
 request
 is
@@ -1322,7 +1322,7 @@ ok
 (
 request
 instanceof
-DOMRequest
+MozSmsRequest
 "
 request
 is

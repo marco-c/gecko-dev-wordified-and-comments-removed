@@ -111,7 +111,7 @@ Delete
 (
 int32_t
 aId
-nsIDOMDOMRequest
+nsIDOMMozSmsRequest
 *
 *
 aRequest

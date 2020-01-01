@@ -495,7 +495,7 @@ ok
 (
 request
 instanceof
-DOMRequest
+MozSmsRequest
 "
 request
 is
