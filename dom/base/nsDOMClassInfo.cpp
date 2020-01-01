@@ -25797,6 +25797,13 @@ id
 sLocation_id
 )
 {
+win
+-
+>
+EnsureInnerWindow
+(
+)
+;
 nsCOMPtr
 <
 nsIDOMLocation
