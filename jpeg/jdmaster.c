@@ -16,8 +16,7 @@ jpeglib
 h
 "
 const
-unsigned
-char
+JSAMPLE
 static_range_table
 [
 (
