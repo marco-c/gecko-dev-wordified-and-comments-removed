@@ -2585,7 +2585,7 @@ PR_FALSE
 ;
 }
 PRBool
-rv
+success
 =
 tryCharset
 (
@@ -2611,7 +2611,7 @@ charsetIndex
 1
 ;
 return
-rv
+success
 ;
 }
 void

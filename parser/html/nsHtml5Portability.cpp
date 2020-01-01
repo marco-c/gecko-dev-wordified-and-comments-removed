@@ -136,14 +136,14 @@ literal
 {
 nsString
 *
-rv
+str
 =
 new
 nsString
 (
 )
 ;
-rv
+str
 -
 >
 AssignASCII
@@ -152,7 +152,7 @@ literal
 )
 ;
 return
-rv
+str
 ;
 }
 jArray
@@ -195,7 +195,7 @@ jArray
 PRUnichar
 PRInt32
 >
-rv
+arr
 =
 jArray
 <
@@ -208,7 +208,7 @@ len
 ;
 memcpy
 (
-rv
+arr
 temp
 .
 BeginReading
@@ -223,7 +223,7 @@ PRUnichar
 )
 ;
 return
-rv
+arr
 ;
 }
 jArray
@@ -256,7 +256,7 @@ jArray
 PRUnichar
 PRInt32
 >
-rv
+arr
 =
 jArray
 <
@@ -269,7 +269,7 @@ len
 ;
 memcpy
 (
-rv
+arr
 string
 -
 >
@@ -285,7 +285,7 @@ PRUnichar
 )
 ;
 return
-rv
+arr
 ;
 }
 void
@@ -656,6 +656,7 @@ isIndexPrompt
 (
 )
 {
+const
 char
 *
 literal
@@ -680,7 +681,7 @@ jArray
 PRUnichar
 PRInt32
 >
-rv
+arr
 =
 jArray
 <
@@ -707,7 +708,7 @@ i
 i
 )
 {
-rv
+arr
 [
 i
 ]
@@ -719,7 +720,7 @@ i
 ;
 }
 return
-rv
+arr
 ;
 }
 void

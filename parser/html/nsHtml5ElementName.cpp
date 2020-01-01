@@ -240,7 +240,7 @@ else
 {
 nsHtml5ElementName
 *
-rv
+elementName
 =
 nsHtml5ElementName
 :
@@ -254,7 +254,7 @@ nsIAtom
 *
 name
 =
-rv
+elementName
 -
 >
 name
@@ -291,7 +291,7 @@ length
 ;
 }
 return
-rv
+elementName
 ;
 }
 }

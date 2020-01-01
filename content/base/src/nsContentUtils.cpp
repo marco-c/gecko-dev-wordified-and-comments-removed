@@ -15680,7 +15680,7 @@ document
 )
 ;
 PRBool
-bHTML
+isHTML
 =
 htmlDoc
 &
@@ -15690,13 +15690,13 @@ bCaseSensitive
 ;
 if
 (
-bHTML
+isHTML
 &
 &
 nsHtml5Module
 :
 :
-Enabled
+sEnabled
 )
 {
 nsCOMPtr
@@ -16361,7 +16361,7 @@ contentsink
 {
 if
 (
-bHTML
+isHTML
 )
 {
 nsCOMPtr
@@ -16413,7 +16413,7 @@ sink
 {
 if
 (
-bHTML
+isHTML
 )
 {
 rv
@@ -16551,7 +16551,7 @@ aFragment
 nsnull
 tagStack
 !
-bHTML
+isHTML
 contentType
 mode
 )

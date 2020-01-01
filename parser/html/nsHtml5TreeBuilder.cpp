@@ -7193,7 +7193,7 @@ charsetloop_end
 ;
 nsString
 *
-rv
+charset
 =
 nsnull
 ;
@@ -7222,7 +7222,7 @@ buffer
 length
 ;
 }
-rv
+charset
 =
 nsHtml5Portability
 :
@@ -7244,7 +7244,7 @@ release
 )
 ;
 return
-rv
+charset
 ;
 }
 void

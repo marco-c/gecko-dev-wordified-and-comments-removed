@@ -2548,7 +2548,7 @@ loadAsHtml5
 nsHtml5Module
 :
 :
-Enabled
+sEnabled
 ;
 if
 (
@@ -2629,7 +2629,7 @@ if
 (
 contentType
 .
-Equals
+EqualsLiteral
 (
 "
 text
@@ -3769,10 +3769,8 @@ aSink
 {
 NS_ASSERTION
 (
-(
 !
 loadAsHtml5
-)
 "
 Panic
 :
@@ -7228,7 +7226,7 @@ loadAsHtml5
 nsHtml5Module
 :
 :
-Enabled
+sEnabled
 ;
 nsresult
 rv

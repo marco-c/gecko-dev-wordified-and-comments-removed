@@ -1469,6 +1469,17 @@ aSystemId
 voidString
 )
 ;
+NS_ASSERTION
+(
+docType
+"
+Doctype
+creation
+failed
+.
+"
+)
+;
 nsCOMPtr
 <
 nsIContent

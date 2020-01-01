@@ -13633,7 +13633,7 @@ continue
 }
 }
 String
-rv
+charset
 =
 null
 ;
@@ -13662,7 +13662,7 @@ buffer
 length
 ;
 }
-rv
+charset
 =
 Portability
 .
@@ -13684,7 +13684,7 @@ buffer
 )
 ;
 return
-rv
+charset
 ;
 }
 private

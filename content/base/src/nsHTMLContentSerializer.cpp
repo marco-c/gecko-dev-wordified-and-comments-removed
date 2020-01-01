@@ -166,6 +166,13 @@ nsHtml5Module
 .
 h
 "
+#
+include
+"
+nsIHTMLDocument
+.
+h
+"
 static
 const
 char
@@ -259,13 +266,6 @@ return
 NS_OK
 ;
 }
-#
-include
-"
-nsIHTMLDocument
-.
-h
-"
 void
 nsHTMLContentSerializer
 :
@@ -382,7 +382,7 @@ loopForward
 nsHtml5Module
 :
 :
-Enabled
+sEnabled
 ;
 }
 }
