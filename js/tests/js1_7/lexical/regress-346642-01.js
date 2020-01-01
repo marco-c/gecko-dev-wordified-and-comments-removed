@@ -846,12 +846,10 @@ function
 {
 while
 (
-(
 [
 ]
 =
 e
-)
 )
 {
 }
@@ -906,14 +904,12 @@ function
 {
 while
 (
-(
 [
 ]
 =
 a
 (
 b
-)
 )
 )
 {
