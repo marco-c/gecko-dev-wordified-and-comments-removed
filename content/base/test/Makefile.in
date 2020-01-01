@@ -996,10 +996,6 @@ helper
 .
 xml
 \
-test_bug444030
-.
-xhtml
-\
 (
 NULL
 )
