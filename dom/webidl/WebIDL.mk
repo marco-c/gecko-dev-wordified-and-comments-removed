@@ -527,6 +527,10 @@ MediaStream
 .
 webidl
 \
+MessageEvent
+.
+webidl
+\
 MutationObserver
 .
 webidl

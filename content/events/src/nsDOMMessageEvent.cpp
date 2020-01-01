@@ -140,6 +140,10 @@ mDataRooted
 false
 )
 {
+SetIsDOMBinding
+(
+)
+;
 }
 nsDOMMessageEvent
 :
