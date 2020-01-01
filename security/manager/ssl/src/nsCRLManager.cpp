@@ -1623,8 +1623,8 @@ sec_rv
 SECSuccess
 )
 {
-goto
-loser
+return
+NS_ERROR_FAILURE
 ;
 }
 if
@@ -1705,12 +1705,6 @@ aCrls
 return
 NS_OK
 ;
-loser
-:
-return
-NS_ERROR_FAILURE
-;
-;
 }
 NS_IMETHODIMP
 nsCRLManager
@@ -1770,8 +1764,8 @@ sec_rv
 SECSuccess
 )
 {
-goto
-loser
+return
+NS_ERROR_FAILURE
 ;
 }
 if
@@ -1870,12 +1864,6 @@ PR_FALSE
 }
 return
 NS_OK
-;
-loser
-:
-return
-NS_ERROR_FAILURE
-;
 ;
 }
 NS_IMETHODIMP
