@@ -96,13 +96,6 @@ indexedDBQuota
 "
 indexedDBQuota
 "
-"
-openWebappsManage
-"
-:
-"
-openWebappsManage
-"
 }
 ;
 const
