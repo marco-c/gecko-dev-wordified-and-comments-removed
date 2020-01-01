@@ -312,6 +312,8 @@ PRUint32
 aChannels
 PRUint32
 aRate
+bool
+aHasAudio
 )
 :
 mDecoder
@@ -325,6 +327,10 @@ aChannels
 mRate
 (
 aRate
+)
+mHasAudio
+(
+aHasAudio
 )
 {
 }
@@ -340,6 +346,7 @@ MetadataLoaded
 (
 mChannels
 mRate
+mHasAudio
 )
 ;
 return
@@ -353,6 +360,10 @@ mChannels
 const
 PRUint32
 mRate
+;
+const
+bool
+mHasAudio
 ;
 }
 ;
@@ -7125,6 +7136,9 @@ mAudioChannels
 mInfo
 .
 mAudioRate
+HasAudio
+(
+)
 )
 ;
 NS_DispatchToMainThread

@@ -5904,6 +5904,10 @@ mCORSMode
 (
 CORS_NONE
 )
+mHasAudio
+(
+false
+)
 {
 #
 ifdef
@@ -9409,6 +9413,8 @@ PRUint32
 aChannels
 PRUint32
 aRate
+bool
+aHasAudio
 )
 {
 mChannels
@@ -9418,6 +9424,10 @@ aChannels
 mRate
 =
 aRate
+;
+mHasAudio
+=
+aHasAudio
 ;
 ChangeReadyState
 (

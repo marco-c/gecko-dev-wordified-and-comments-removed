@@ -901,6 +901,8 @@ PRUint32
 aChannels
 PRUint32
 aRate
+bool
+aHasAudio
 )
 ;
 void

@@ -1061,6 +1061,10 @@ test_audiowrite
 .
 html
 \
+test_mozHasAudio
+.
+html
+\
 (
 NULL
 )
