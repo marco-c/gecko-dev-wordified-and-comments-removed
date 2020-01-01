@@ -3461,7 +3461,7 @@ NS_ENSURE_ARG_POINTER
 aFile
 )
 ;
-nsCString
+nsString
 path
 ;
 nsresult
@@ -3470,7 +3470,7 @@ rv
 aFile
 -
 >
-GetNativePath
+GetPath
 (
 path
 )
@@ -3488,7 +3488,7 @@ rc
 :
 sqlite3_quota_file
 (
-PromiseFlatCString
+NS_ConvertUTF16toUTF8
 (
 path
 )
