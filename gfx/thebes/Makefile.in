@@ -71,6 +71,10 @@ gfxDrawable
 .
 h
 \
+gfxFailure
+.
+h
+\
 gfxFont
 .
 h
