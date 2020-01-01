@@ -2586,6 +2586,10 @@ osrEntryOffset_
 (
 0
 )
+skipArgCheckEntryOffset_
+(
+0
+)
 invalidateEpilogueOffset_
 (
 0
