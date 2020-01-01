@@ -450,6 +450,10 @@ js
 EXTRA_COMPONENTS
 =
 \
+BrowserStartup
+.
+js
+\
 geolocationPrompt
 .
 js
