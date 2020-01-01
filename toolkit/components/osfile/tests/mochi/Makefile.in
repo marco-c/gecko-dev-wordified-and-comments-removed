@@ -89,6 +89,14 @@ test_osfile_back
 .
 xul
 \
+worker_handler
+.
+js
+\
+worker_test_osfile_shared
+.
+js
+\
 worker_test_osfile_unix
 .
 js
