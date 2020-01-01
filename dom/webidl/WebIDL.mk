@@ -163,6 +163,10 @@ CFStateChangeEvent
 .
 webidl
 \
+ChannelSplitterNode
+.
+webidl
+\
 CharacterData
 .
 webidl

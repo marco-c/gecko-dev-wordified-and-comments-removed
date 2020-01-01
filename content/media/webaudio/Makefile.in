@@ -141,6 +141,10 @@ BiquadFilterNode
 .
 cpp
 \
+ChannelSplitterNode
+.
+cpp
+\
 DelayNode
 .
 cpp
