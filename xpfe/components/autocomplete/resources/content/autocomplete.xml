@@ -2996,7 +2996,7 @@ this
 .
 self
 .
-closeResultPopup
+closePopup
 (
 )
 ;
@@ -5193,7 +5193,7 @@ false
 ;
 this
 .
-closeResultPopup
+closePopup
 (
 )
 ;
@@ -5726,7 +5726,7 @@ yet
 /
 always
 call
-openResultPopup
+openPopup
 .
 .
 .
@@ -5854,7 +5854,7 @@ endUpdateBatch
 ;
 this
 .
-openResultPopup
+openPopup
 (
 )
 ;
@@ -6030,7 +6030,7 @@ repaint
 empty
 this
 .
-openResultPopup
+openPopup
 (
 )
 ;
@@ -6039,7 +6039,7 @@ else
 {
 this
 .
-closeResultPopup
+closePopup
 (
 )
 ;
@@ -6825,7 +6825,7 @@ autoComplete
 ;
 this
 .
-closeResultPopup
+closePopup
 (
 )
 ;
@@ -7054,7 +7054,7 @@ false
 ;
 this
 .
-closeResultPopup
+closePopup
 (
 )
 ;
@@ -7738,7 +7738,7 @@ aEvent
 ;
 this
 .
-closeResultPopup
+closePopup
 (
 )
 ;
@@ -7785,7 +7785,7 @@ undoAutoComplete
 ;
 this
 .
-closeResultPopup
+closePopup
 (
 )
 ;
@@ -7828,7 +7828,7 @@ clearTimer
 ;
 this
 .
-closeResultPopup
+closePopup
 (
 )
 ;
@@ -8067,7 +8067,7 @@ clearTimer
 ;
 this
 .
-closeResultPopup
+closePopup
 (
 )
 ;
@@ -8362,7 +8362,7 @@ true
 ;
 this
 .
-openResultPopup
+openPopup
 (
 )
 ;
@@ -9043,7 +9043,7 @@ method
 name
 =
 "
-openResultPopup
+openPopup
 "
 >
 <
@@ -9172,7 +9172,7 @@ method
 name
 =
 "
-closeResultPopup
+closePopup
 "
 >
 <
