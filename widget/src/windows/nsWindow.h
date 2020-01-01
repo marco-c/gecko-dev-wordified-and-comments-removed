@@ -1414,11 +1414,16 @@ aDC
 nsnull
 )
 ;
+#
+ifdef
+CAIRO_HAS_DDRAW_SURFACE
 PRBool
 OnPaintImageDDraw16
 (
 )
 ;
+#
+endif
 virtual
 PRBool
 OnResize
