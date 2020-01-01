@@ -137,13 +137,6 @@ layout_marginLeft
 "
 android
 :
-layout_marginRight
-=
-"
-10dp
-"
-android
-:
 scaleType
 =
 "
@@ -183,6 +176,13 @@ layout_weight
 =
 "
 1
+"
+android
+:
+layout_marginLeft
+=
+"
+10dp
 "
 android
 :
