@@ -755,7 +755,7 @@ if
 mOptions
 )
 {
-PRUint32
+PRInt32
 tempAge
 ;
 nsresult
@@ -777,10 +777,18 @@ NS_SUCCEEDED
 rv
 )
 )
+{
+if
+(
+tempAge
+>
+0
+)
 maximumAge
 =
 tempAge
 ;
+}
 }
 if
 (
@@ -826,7 +834,7 @@ this
 )
 ;
 }
-PRUint32
+PRInt32
 timeout
 ;
 if
