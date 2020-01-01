@@ -2850,7 +2850,7 @@ _amount
 ;
 aT
 .
-_hasProblem
+_isUnknown
 =
 true
 ;
@@ -3290,7 +3290,7 @@ _amount
 ;
 heapUnclassifiedT
 .
-_hasProblem
+_isUnknown
 =
 true
 ;
@@ -5081,7 +5081,7 @@ aShowSubtrees
 aHasKids
 aDesc
 aName
-aHasProblem
+aIsUnknown
 aIsInvalid
 aNMerged
 )
@@ -5262,7 +5262,7 @@ span
 ;
 if
 (
-aHasProblem
+aIsUnknown
 )
 {
 const
@@ -6242,7 +6242,7 @@ aT
 _name
 aT
 .
-_hasProblem
+_isUnknown
 tIsInvalid
 aT
 .
@@ -6446,7 +6446,7 @@ _amount
 ;
 this
 .
-_hasProblem
+_isUnknown
 =
 true
 ;
@@ -6468,7 +6468,7 @@ aDescription
 ;
 this
 .
-asString
+_asString
 =
 this
 .
@@ -6750,27 +6750,6 @@ undefined
 )
 ;
 var
-hasProblem
-=
-false
-;
-if
-(
-r
-.
-_amount
-=
-=
-=
-kUnknown
-)
-{
-hasProblem
-=
-true
-;
-}
-var
 o
 =
 new
@@ -6801,7 +6780,7 @@ if
 (
 o
 .
-asString
+_asString
 .
 length
 >
@@ -6812,7 +6791,7 @@ maxStringLength
 =
 o
 .
-asString
+_asString
 .
 length
 ;
@@ -6893,7 +6872,7 @@ pad
 (
 o
 .
-asString
+_asString
 maxStringLength
 '
 '
@@ -6917,7 +6896,7 @@ o
 _path
 o
 .
-_hasProblem
+_isUnknown
 oIsInvalid
 )
 ;
