@@ -8785,6 +8785,17 @@ flex
 xul
 :
 image
+class
+=
+"
+chrome
+-
+select
+-
+option
+-
+image
+"
 anonid
 =
 "
