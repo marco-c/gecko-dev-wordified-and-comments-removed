@@ -47,6 +47,7 @@ f
 eval
 (
 "
+(
 function
 (
 )
@@ -57,6 +58,7 @@ x
 /
 ;
 }
+)
 "
 )
 ;
@@ -68,5 +70,19 @@ watch
 x
 '
 f
+)
+;
+reportCompare
+(
+"
+ok
+"
+"
+ok
+"
+"
+bug
+533876
+"
 )
 ;
