@@ -169,7 +169,7 @@ Bridge
 )
 -
 >
-GetHandlersForProtocol
+GetHandlersForURL
 (
 aScheme
 )
@@ -201,7 +201,7 @@ return
 nsMIMEInfoAndroid
 :
 :
-GetMimeInfoForProtocol
+GetMimeInfoForURL
 (
 aScheme
 found

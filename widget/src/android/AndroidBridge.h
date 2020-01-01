@@ -310,12 +310,12 @@ mSurfaceView
 ;
 }
 PRBool
-GetHandlersForProtocol
+GetHandlersForURL
 (
 const
 char
 *
-aScheme
+aURL
 nsIMutableArray
 *
 handlersArray
@@ -826,7 +826,7 @@ jmethodID
 jGetHandlersForMimeType
 ;
 jmethodID
-jGetHandlersForProtocol
+jGetHandlersForURL
 ;
 jmethodID
 jOpenUriExternal

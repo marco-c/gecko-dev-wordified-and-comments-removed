@@ -63,12 +63,12 @@ aMimeInfo
 ;
 static
 nsresult
-GetMimeInfoForProtocol
+GetMimeInfoForURL
 (
 const
 nsACString
 &
-aScheme
+aURL
 PRBool
 *
 found
