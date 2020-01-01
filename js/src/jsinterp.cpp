@@ -34838,7 +34838,7 @@ cx
 compartment
 -
 >
-getDebuggers
+getDebuggees
 (
 )
 .
