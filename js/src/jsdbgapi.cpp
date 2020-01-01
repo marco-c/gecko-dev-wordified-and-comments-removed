@@ -3745,7 +3745,9 @@ propid
 return
 JS_FALSE
 ;
-CHECK_FOR_STRING_INDEX
+propid
+=
+js_CheckForStringIndex
 (
 propid
 )
