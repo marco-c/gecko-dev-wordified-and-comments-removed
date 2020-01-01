@@ -752,10 +752,6 @@ sConstructor_id
 ;
 static
 jsid
-sPrototype_id
-;
-static
-jsid
 s_content_id
 ;
 static
