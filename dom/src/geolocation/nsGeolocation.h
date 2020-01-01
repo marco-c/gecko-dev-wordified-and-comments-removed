@@ -462,14 +462,6 @@ GetCachedPosition
 (
 )
 ;
-PRBool
-IsBetterPosition
-(
-nsIDOMGeoPosition
-*
-aSomewhere
-)
-;
 nsresult
 StartDevice
 (
