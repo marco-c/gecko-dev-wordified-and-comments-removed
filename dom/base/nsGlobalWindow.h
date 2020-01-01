@@ -387,7 +387,7 @@ MOZ_WEBSPEECH
 #
 include
 "
-nsIDOMSpeechSynthesisGetter
+nsISpeechSynthesisGetter
 .
 h
 "
@@ -819,7 +819,7 @@ endif
 ifdef
 MOZ_WEBSPEECH
 public
-nsIDOMSpeechSynthesisGetter
+nsISpeechSynthesisGetter
 #
 endif
 {
@@ -998,7 +998,7 @@ endif
 #
 ifdef
 MOZ_WEBSPEECH
-NS_DECL_NSIDOMSPEECHSYNTHESISGETTER
+NS_DECL_NSISPEECHSYNTHESISGETTER
 #
 endif
 NS_DECL_NSIDOMWINDOWPERFORMANCE

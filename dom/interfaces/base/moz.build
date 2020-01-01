@@ -344,7 +344,7 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMSpeechSynthesisGetter
+nsISpeechSynthesisGetter
 .
 idl
 '

@@ -344,7 +344,7 @@ nsIDOMJSWindow
 dump
 '
 '
-nsIDOMSpeechSynthesisGetter
+nsISpeechSynthesisGetter
 .
 speechSynthesis
 '
