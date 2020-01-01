@@ -564,16 +564,6 @@ config
 autoconf
 .
 mk
-config
-/
-myrules
-.
-mk
-config
-/
-myconfig
-.
-mk
 \
 unallmakefiles
 mozilla
