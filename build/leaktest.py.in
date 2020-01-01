@@ -671,6 +671,14 @@ NO_EM_RESTART
 "
 1
 "
+if
+not
+"
+XPCOM_DEBUG_BREAK
+"
+in
+browserEnv
+:
 browserEnv
 [
 "
@@ -679,7 +687,7 @@ XPCOM_DEBUG_BREAK
 ]
 =
 "
-warn
+stack
 "
 if
 automation
