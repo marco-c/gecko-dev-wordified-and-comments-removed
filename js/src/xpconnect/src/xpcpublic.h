@@ -411,7 +411,7 @@ IsProxy
 |
 |
 !
-IS_SLIM_WRAPPER_OBJECT
+IS_SLIM_WRAPPER
 (
 wrapper
 )
@@ -453,7 +453,7 @@ scope
 &
 &
 (
-IS_SLIM_WRAPPER_OBJECT
+IS_SLIM_WRAPPER
 (
 wrapper
 )
