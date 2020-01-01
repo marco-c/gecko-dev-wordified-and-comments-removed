@@ -414,6 +414,11 @@ emittingForInit
 :
 1
 ;
+bool
+emittingRunOnceLambda
+:
+1
+;
 const
 bool
 hasGlobalScope
@@ -546,6 +551,11 @@ return
 true
 ;
 }
+bool
+isInLoop
+(
+)
+;
 bool
 checkSingletonContext
 (

@@ -1291,6 +1291,16 @@ hasSingletons
 1
 ;
 bool
+treatAsRunOnce
+:
+1
+;
+bool
+hasBeenCloned
+:
+1
+;
+bool
 isActiveEval
 :
 1
