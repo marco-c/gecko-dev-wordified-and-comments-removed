@@ -4143,10 +4143,6 @@ else
 if
 (
 aValue
-|
-|
-!
-mEditorInitialized
 )
 {
 rv
@@ -4157,8 +4153,7 @@ mBoundFrame
 UpdateValueDisplay
 (
 PR_TRUE
-!
-mEditorInitialized
+PR_FALSE
 aValue
 )
 ;
