@@ -444,11 +444,6 @@ Dinline
 =
 __inline
 \
--
-DFORCE_UINT64_T
-=
-1
-\
 (
 NULL
 )
