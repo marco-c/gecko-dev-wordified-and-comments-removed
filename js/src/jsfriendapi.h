@@ -1138,6 +1138,9 @@ void
 data
 )
 ;
+#
+ifdef
+JS_HAS_CTYPES
 extern
 JS_FRIEND_API
 (
@@ -1152,6 +1155,8 @@ JSObject
 obj
 )
 ;
+#
+endif
 namespace
 shadow
 {
