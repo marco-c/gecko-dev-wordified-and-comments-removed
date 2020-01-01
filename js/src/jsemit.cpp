@@ -12884,7 +12884,7 @@ js_Emit1
 (
 cx
 cg
-JSOP_NULL
+JSOP_PUSH
 )
 <
 0
