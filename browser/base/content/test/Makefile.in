@@ -412,15 +412,6 @@ base
 content
 /
 test
-DIRS
-+
-=
-\
-tabview
-\
-(
-NULL
-)
 include
 (
 DEPTH

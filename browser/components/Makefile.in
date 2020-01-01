@@ -483,8 +483,8 @@ sessionstore
 shell
 \
 sidebar
-/
-src
+\
+tabview
 \
 migration
 \
