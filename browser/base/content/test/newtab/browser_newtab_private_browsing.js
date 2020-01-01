@@ -186,8 +186,7 @@ addNewTabPageTab
 checkGrid
 (
 "
-0p
-1
+0
 2
 3
 4
@@ -197,7 +196,6 @@ checkGrid
 8
 "
 )
-;
 }
 function
 togglePrivateBrowsing
