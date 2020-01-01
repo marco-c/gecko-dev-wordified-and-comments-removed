@@ -820,6 +820,31 @@ isJSImplemented
 (
 )
             
+elif
+key
+=
+=
+'
+isNavigatorProperty
+'
+:
+                
+getter
+=
+lambda
+x
+:
+x
+.
+interface
+.
+getNavigatorProperty
+(
+)
+!
+=
+None
+            
 else
 :
                 
