@@ -34456,7 +34456,7 @@ self
 PRUint32
 message
 =
-keyDown
+isKeyDown
 ?
 NS_KEY_DOWN
 :
