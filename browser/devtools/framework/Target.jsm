@@ -1193,6 +1193,14 @@ aPacket
 .
 title
 ;
+event
+.
+nativeConsoleAPI
+=
+aPacket
+.
+nativeConsoleAPI
+;
 if
 (
 aPacket
