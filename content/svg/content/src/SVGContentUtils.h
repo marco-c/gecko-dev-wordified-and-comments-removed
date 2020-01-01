@@ -35,9 +35,6 @@ class
 nsIDocument
 ;
 class
-nsIDOMSVGElement
-;
-class
 nsIFrame
 ;
 class
@@ -316,10 +313,8 @@ aContent
 )
 ;
 static
-already_AddRefed
-<
-nsIDOMSVGElement
->
+nsSVGElement
+*
 GetNearestViewportElement
 (
 nsIContent

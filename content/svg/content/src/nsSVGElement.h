@@ -1196,10 +1196,8 @@ ErrorResult
 rv
 )
 ;
-already_AddRefed
-<
 nsSVGElement
->
+*
 GetViewportElement
 (
 )
