@@ -551,6 +551,12 @@ something
 ok
 (
 true
+"
+didn
+'
+t
+crash
+"
 )
 ;
 ]

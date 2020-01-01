@@ -62,6 +62,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+unused
+.
+h
+"
+#
+include
 <
 stdio
 .
@@ -1220,6 +1229,9 @@ inode
 path
 )
 ;
+unused
+<
+<
 fscanf
 (
 aFile
