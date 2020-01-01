@@ -178,6 +178,9 @@ FilePath
 result
 )
 {
+#
+ifndef
+CHROMIUM_MOZILLA_BUILD
 switch
 (
 key
@@ -1346,6 +1349,8 @@ result
 =
 cur
 ;
+#
+endif
 return
 true
 ;

@@ -11,7 +11,7 @@ h
 "
 #
 ifdef
-OS_LINUX
+MOZ_WIDGET_GTK2
 #
 include
 <
@@ -798,7 +798,7 @@ InitGraphics
 if
 defined
 (
-OS_LINUX
+MOZ_WIDGET_GTK2
 )
 gtk_init
 (

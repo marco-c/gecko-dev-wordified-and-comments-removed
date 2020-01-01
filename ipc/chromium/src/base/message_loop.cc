@@ -106,6 +106,13 @@ defined
 (
 OS_LINUX
 )
+&
+&
+!
+defined
+(
+CHROMIUM_MOZILLA_BUILD
+)
 #
 include
 "
@@ -496,6 +503,13 @@ elif
 defined
 (
 OS_LINUX
+)
+&
+&
+!
+defined
+(
+CHROMIUM_MOZILLA_BUILD
 )
 pump_
 =
