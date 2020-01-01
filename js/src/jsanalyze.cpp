@@ -1034,6 +1034,8 @@ compartment
 -
 >
 debugMode
+(
+)
 )
 {
 for
@@ -1110,6 +1112,8 @@ compartment
 -
 >
 debugMode
+(
+)
 )
 usesRval
 =

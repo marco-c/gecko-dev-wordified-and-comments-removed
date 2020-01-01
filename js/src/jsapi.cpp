@@ -3396,7 +3396,7 @@ false
 endif
 debugMode
 =
-JS_FALSE
+false
 ;
 return
 js_InitThreads
