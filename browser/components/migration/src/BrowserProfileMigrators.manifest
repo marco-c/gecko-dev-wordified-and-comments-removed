@@ -124,6 +124,9 @@ acba
 -
 48deaca63386
 }
+#
+ifdef
+HAS_IE_MIGRATOR
 component
 {
 3d2532e3
@@ -168,6 +171,11 @@ b7ba
 -
 968f5899d3a4
 }
+#
+endif
+#
+ifdef
+HAS_SAFARI_MIGRATOR
 component
 {
 4b609ecf
@@ -212,3 +220,5 @@ safari
 -
 dc149e474da1
 }
+#
+endif
