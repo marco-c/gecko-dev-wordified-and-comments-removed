@@ -1591,6 +1591,14 @@ aLEDState
 =
 0
 ;
+virtual
+nsresult
+ForceNativeMenuReload
+(
+)
+=
+0
+;
 protected
 :
 nsCOMPtr
