@@ -2189,6 +2189,15 @@ display
 :
 none
 ;
+-
+moz
+-
+user
+-
+focus
+:
+normal
+;
 }
 #
 notification
