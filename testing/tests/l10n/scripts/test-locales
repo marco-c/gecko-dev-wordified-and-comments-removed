@@ -1249,7 +1249,7 @@ level
 (
 logging
 .
-INFO
+WARNING
 +
 10
 *

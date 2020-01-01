@@ -208,6 +208,16 @@ CompareLocales
 .
 compare
 (
+apps
+=
+[
+'
+browser
+'
+'
+mail
+'
+]
 )
   
 def
@@ -273,6 +283,24 @@ cmp
 details
 -
 '
+        
+self
+.
+components
+=
+Paths
+.
+Components
+(
+[
+'
+browser
+'
+'
+mail
+'
+]
+)
       
 def
 getDetails
@@ -430,7 +458,7 @@ name
           
 counts
 [
-Paths
+self
 .
 components
 [
@@ -610,7 +638,7 @@ name
           
 counts
 [
-Paths
+self
 .
 components
 [
