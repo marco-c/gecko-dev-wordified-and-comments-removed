@@ -1034,9 +1034,7 @@ cx
 JSObject
 *
 obj
-const
 jsval
-*
 v
 JSBool
 *
@@ -1051,7 +1049,6 @@ JS_ASSERT
 (
 JSVAL_IS_OBJECT
 (
-*
 v
 )
 )
@@ -1060,7 +1057,6 @@ obj2
 =
 JSVAL_TO_OBJECT
 (
-*
 v
 )
 ;
@@ -1676,9 +1672,7 @@ cx
 JSObject
 *
 qn
-const
 Value
-*
 v
 JSBool
 *
@@ -1692,8 +1686,7 @@ obj2
 obj2
 =
 v
--
->
+.
 asObjectOrNull
 (
 )
@@ -24562,9 +24555,7 @@ cx
 JSObject
 *
 obj
-const
 Value
-*
 JSBool
 *
 bp

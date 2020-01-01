@@ -542,9 +542,6 @@ JSFunction
 fun
 )
 ;
-#
-ifdef
-__cpluscplus
 extern
 JS_PUBLIC_API
 (
@@ -560,8 +557,6 @@ JSFunction
 fun
 )
 ;
-#
-endif
 extern
 JS_PUBLIC_API
 (

@@ -2455,9 +2455,7 @@ cx
 JSObject
 *
 obj
-const
 jsval
-*
 v
 JSBool
 *
@@ -2627,9 +2625,7 @@ cx
 JSObject
 *
 obj
-const
 jsval
-*
 v
 JSBool
 *
@@ -3182,9 +3178,7 @@ cx
 JSObject
 *
 obj
-const
 Value
-*
 v
 JSBool
 *
@@ -3242,9 +3236,7 @@ cx
 JSObject
 *
 obj
-const
 Value
-*
 v
 JSBool
 *
