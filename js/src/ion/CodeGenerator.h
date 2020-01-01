@@ -1167,6 +1167,14 @@ lir
 )
 ;
 bool
+visitParConcat
+(
+LParConcat
+*
+lir
+)
+;
+bool
 visitCharCodeAt
 (
 LCharCodeAt

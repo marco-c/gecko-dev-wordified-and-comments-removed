@@ -513,6 +513,11 @@ Concat
 \
 _
 (
+ParConcat
+)
+\
+_
+(
 CharCodeAt
 )
 \
