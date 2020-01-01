@@ -1148,15 +1148,6 @@ bool
 bNoBlockCrossing
 )
 ;
-nsresult
-GetWidget
-(
-nsIWidget
-*
-*
-aWidget
-)
-;
 virtual
 nsresult
 InstallEventListeners

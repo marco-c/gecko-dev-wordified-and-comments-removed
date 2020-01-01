@@ -174,6 +174,16 @@ bool
 aDiscard
 )
 ;
+nsresult
+NotifyIME
+(
+widget
+:
+:
+NotificationToIME
+aNotification
+)
+;
 private
 :
 nsPresContext

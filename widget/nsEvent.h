@@ -181,6 +181,14 @@ typedef
 uint16_t
 Modifiers
 ;
+enum
+NotificationToIME
+{
+NOTIFY_IME_OF_CURSOR_POS_CHANGED
+REQUEST_TO_COMMIT_COMPOSITION
+REQUEST_TO_CANCEL_COMPOSITION
+}
+;
 }
 }
 #
