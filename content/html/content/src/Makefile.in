@@ -206,6 +206,10 @@ HTMLMapElement
 .
 h
 \
+HTMLMenuItemElement
+.
+h
+\
 HTMLMetaElement
 .
 h
@@ -432,7 +436,7 @@ nsHTMLMenuElement
 .
 cpp
 \
-nsHTMLMenuItemElement
+HTMLMenuItemElement
 .
 cpp
 \
