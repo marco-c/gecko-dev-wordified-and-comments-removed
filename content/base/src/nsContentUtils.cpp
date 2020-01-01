@@ -30361,10 +30361,10 @@ return
 mCx
 ;
 }
-SafeAutoJSContext
+AutoSafeJSContext
 :
 :
-SafeAutoJSContext
+AutoSafeJSContext
 (
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM_IN_IMPL
 )

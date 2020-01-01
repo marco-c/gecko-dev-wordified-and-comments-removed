@@ -505,7 +505,7 @@ NS_OK
 mozilla
 :
 :
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 nsDependentString

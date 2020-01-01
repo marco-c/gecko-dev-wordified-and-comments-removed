@@ -2657,7 +2657,7 @@ PRUnichar
 aData
 )
 {
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 nsDependentString

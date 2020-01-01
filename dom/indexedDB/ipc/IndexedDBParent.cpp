@@ -1497,7 +1497,7 @@ MOZ_ASSERT
 xpc
 )
 ;
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 JS

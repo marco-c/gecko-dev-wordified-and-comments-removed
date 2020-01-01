@@ -63,7 +63,7 @@ mTemporaryRefs
 =
 0
 ;
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 JS

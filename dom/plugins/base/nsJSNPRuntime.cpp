@@ -8228,7 +8228,7 @@ npp
 )
 ;
 }
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 JSAutoRequest

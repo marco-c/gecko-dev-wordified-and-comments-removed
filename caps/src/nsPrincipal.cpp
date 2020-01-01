@@ -1951,7 +1951,7 @@ SetSecurityPolicy
 nullptr
 )
 ;
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 JSPrincipals

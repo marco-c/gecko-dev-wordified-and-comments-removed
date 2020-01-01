@@ -419,7 +419,7 @@ using
 mozilla
 :
 :
-SafeAutoJSContext
+AutoSafeJSContext
 ;
 USING_WORKERS_NAMESPACE
 using
@@ -2806,7 +2806,7 @@ AssertIsOnMainThread
 (
 )
 ;
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 JSAutoRequest

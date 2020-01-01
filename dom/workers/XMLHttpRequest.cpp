@@ -4273,7 +4273,7 @@ data
 )
 )
 {
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 JSAutoRequest
@@ -5423,7 +5423,7 @@ type
 ;
 }
 {
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 JSAutoRequest

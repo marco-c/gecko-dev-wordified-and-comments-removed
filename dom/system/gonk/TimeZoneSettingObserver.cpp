@@ -804,7 +804,7 @@ return
 NS_OK
 ;
 }
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 nsDependentString

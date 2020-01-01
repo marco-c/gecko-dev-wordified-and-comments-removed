@@ -4903,14 +4903,14 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 ;
 class
 MOZ_STACK_CLASS
-SafeAutoJSContext
+AutoSafeJSContext
 :
 public
 AutoJSContext
 {
 public
 :
-SafeAutoJSContext
+AutoSafeJSContext
 (
 MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )

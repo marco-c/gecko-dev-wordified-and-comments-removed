@@ -16304,7 +16304,7 @@ if
 mJunkScope
 )
 {
-SafeAutoJSContext
+AutoSafeJSContext
 cx
 ;
 SandboxOptions
