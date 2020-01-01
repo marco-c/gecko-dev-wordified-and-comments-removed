@@ -481,7 +481,7 @@ C
 #
 include
 "
-jsapi
+jspubtd
 .
 h
 "
