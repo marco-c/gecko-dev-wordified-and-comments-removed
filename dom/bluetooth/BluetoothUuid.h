@@ -30,6 +30,9 @@ HANDSFREE_AG
 OBJECT_PUSH
 =
 0x1105
+HID
+=
+0x1124
 }
 ;
 class
