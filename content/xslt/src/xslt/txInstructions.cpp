@@ -1968,7 +1968,6 @@ rtf
 >
 flushToHandler
 (
-&
 aEs
 .
 mResultHandler
