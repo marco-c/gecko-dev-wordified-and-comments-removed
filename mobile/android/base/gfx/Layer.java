@@ -12,7 +12,7 @@ android
 .
 graphics
 .
-PointF
+Point
 ;
 import
 android
@@ -58,11 +58,11 @@ boolean
 mInTransaction
 ;
 private
-PointF
+Point
 mOrigin
 ;
 private
-PointF
+Point
 mNewOrigin
 ;
 public
@@ -80,14 +80,10 @@ ReentrantLock
 mOrigin
 =
 new
-PointF
+Point
 (
 0
-.
-0f
 0
-.
-0f
 )
 ;
 }
@@ -280,7 +276,7 @@ mInTransaction
 ;
 }
 public
-PointF
+Point
 getOrigin
 (
 )
@@ -293,7 +289,7 @@ public
 void
 setOrigin
 (
-PointF
+Point
 newOrigin
 )
 {
