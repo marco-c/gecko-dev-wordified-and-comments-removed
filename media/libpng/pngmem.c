@@ -137,7 +137,7 @@ NULL
 png_struct
 dummy_struct
 ;
-memset
+png_memset
 (
 &
 dummy_struct
@@ -256,7 +256,7 @@ NULL
 png_struct
 dummy_struct
 ;
-memset
+png_memset
 (
 &
 dummy_struct

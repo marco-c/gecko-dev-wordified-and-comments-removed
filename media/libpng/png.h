@@ -12,7 +12,7 @@ PNG_LIBPNG_VER_STRING
 .
 5
 .
-11
+13
 "
 #
 define
@@ -25,10 +25,10 @@ version
 .
 5
 .
-11
+13
 -
-June
-14
+September
+27
 2012
 \
 n
@@ -52,7 +52,7 @@ PNG_LIBPNG_VER_MINOR
 #
 define
 PNG_LIBPNG_VER_RELEASE
-11
+13
 #
 define
 PNG_LIBPNG_VER_BUILD
@@ -130,14 +130,14 @@ PNG_LIBPNG_BUILD_STABLE
 #
 define
 PNG_LIBPNG_VER
-10511
+10513
 /
 *
 1
 .
 5
 .
-11
+13
 *
 /
 #
@@ -279,7 +279,7 @@ endif
 typedef
 char
 *
-png_libpng_version_1_5_11
+png_libpng_version_1_5_13
 ;
 typedef
 struct
@@ -2350,7 +2350,6 @@ double
 green
 )
 )
-;
 PNG_FIXED_EXPORT
 (
 33
@@ -2367,7 +2366,6 @@ png_fixed_point
 green
 )
 )
-;
 PNG_EXPORT
 (
 34
@@ -2500,7 +2498,6 @@ double
 output_gamma
 )
 )
-;
 PNG_FIXED_EXPORT
 (
 228
@@ -2515,7 +2512,6 @@ png_fixed_point
 output_gamma
 )
 )
-;
 #
 endif
 #
@@ -2885,7 +2881,6 @@ double
 background_gamma
 )
 )
-;
 PNG_FIXED_EXPORT
 (
 215
@@ -2904,7 +2899,6 @@ png_fixed_point
 background_gamma
 )
 )
-;
 #
 endif
 #
@@ -3028,7 +3022,6 @@ double
 override_file_gamma
 )
 )
-;
 PNG_FIXED_EXPORT
 (
 208
@@ -3043,7 +3036,6 @@ png_fixed_point
 override_file_gamma
 )
 )
-;
 #
 endif
 #
@@ -3476,7 +3468,6 @@ png_const_doublep
 filter_costs
 )
 )
-;
 PNG_FIXED_EXPORT
 (
 209
@@ -3495,7 +3486,6 @@ png_const_fixed_point_p
 filter_costs
 )
 )
-;
 #
 endif
 #
@@ -4620,7 +4610,6 @@ png_const_infop
 info_ptr
 )
 )
-;
 PNG_FIXED_EXPORT
 (
 210
@@ -4633,7 +4622,6 @@ png_const_infop
 info_ptr
 )
 )
-;
 PNG_EXPORT
 (
 126
@@ -4781,7 +4769,6 @@ double
 blue_y
 )
 )
-;
 PNG_FP_EXPORT
 (
 230
@@ -4821,7 +4808,6 @@ double
 blue_Z
 )
 )
-;
 #
 ifdef
 PNG_FIXED_POINT_SUPPORTED
@@ -4861,7 +4847,6 @@ png_fixed_point
 int_blue_y
 )
 )
-;
 #
 endif
 PNG_FIXED_EXPORT
@@ -4903,7 +4888,6 @@ png_fixed_point
 int_blue_Z
 )
 )
-;
 #
 endif
 #
@@ -4937,7 +4921,6 @@ double
 blue_y
 )
 )
-;
 PNG_FP_EXPORT
 (
 232
@@ -4968,7 +4951,6 @@ double
 blue_Z
 )
 )
-;
 PNG_FIXED_EXPORT
 (
 136
@@ -4997,7 +4979,6 @@ png_fixed_point
 int_blue_y
 )
 )
-;
 PNG_FIXED_EXPORT
 (
 233
@@ -5028,7 +5009,6 @@ png_fixed_point
 int_blue_Z
 )
 )
-;
 #
 endif
 #
@@ -5049,7 +5029,6 @@ double
 file_gamma
 )
 )
-;
 PNG_FIXED_EXPORT
 (
 138
@@ -5065,7 +5044,6 @@ png_fixed_point
 int_file_gamma
 )
 )
-;
 #
 endif
 #
@@ -5085,7 +5063,6 @@ double
 file_gamma
 )
 )
-;
 PNG_FIXED_EXPORT
 (
 140
@@ -5100,7 +5077,6 @@ png_fixed_point
 int_file_gamma
 )
 )
-;
 #
 endif
 #
@@ -5769,7 +5745,6 @@ double
 height
 )
 )
-;
 #
 ifdef
 PNG_FLOATING_ARITHMETIC_SUPPORTED
@@ -5794,7 +5769,6 @@ png_fixed_point
 height
 )
 )
-;
 #
 endif
 PNG_EXPORT
@@ -5835,7 +5809,6 @@ double
 height
 )
 )
-;
 PNG_FIXED_EXPORT
 (
 213
@@ -5854,7 +5827,6 @@ png_fixed_point
 height
 )
 )
-;
 PNG_EXPORT
 (
 171
@@ -6262,7 +6234,6 @@ png_const_infop
 info_ptr
 )
 )
-;
 #
 ifdef
 PNG_FIXED_POINT_SUPPORTED
@@ -6278,7 +6249,6 @@ png_const_infop
 info_ptr
 )
 )
-;
 #
 endif
 PNG_FP_EXPORT
@@ -6293,7 +6263,6 @@ png_const_infop
 info_ptr
 )
 )
-;
 #
 ifdef
 PNG_FIXED_POINT_SUPPORTED
@@ -6309,7 +6278,6 @@ png_const_infop
 info_ptr
 )
 )
-;
 #
 endif
 #

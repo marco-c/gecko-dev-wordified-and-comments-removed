@@ -640,6 +640,12 @@ __noreturn__
 #
 endif
 #
+if
+__GNUC__
+>
+=
+3
+#
 ifndef
 PNG_ALLOCATED
 #
@@ -707,6 +713,8 @@ __attribute__
 __deprecated__
 )
 )
+#
+endif
 #
 endif
 #
@@ -860,6 +868,7 @@ type
 name
 args
 )
+;
 #
 else
 #
@@ -898,6 +907,7 @@ type
 name
 args
 )
+;
 #
 else
 #
