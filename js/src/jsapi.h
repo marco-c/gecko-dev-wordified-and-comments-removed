@@ -11864,7 +11864,7 @@ const
 JSContext
 *
 cx
-JSBool
+int
 entering
 )
 ;

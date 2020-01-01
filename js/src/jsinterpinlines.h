@@ -3071,6 +3071,7 @@ fp
 fun
 (
 )
+script_
 )
 ;
 #
@@ -3148,6 +3149,7 @@ fp
 fun
 (
 )
+script_
 )
 ;
 }
@@ -3691,6 +3693,16 @@ JSBool
 ok
 )
 {
+if
+(
+!
+fp
+-
+>
+isExecuteFrame
+(
+)
+)
 Probes
 :
 :
@@ -3701,6 +3713,12 @@ fp
 -
 >
 maybeFun
+(
+)
+fp
+-
+>
+maybeScript
 (
 )
 )
