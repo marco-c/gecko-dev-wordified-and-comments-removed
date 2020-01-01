@@ -501,7 +501,7 @@ _getStaticMethodID
 delete
 this
 .
-_getStatisMethodID
+_getStaticMethodID
 ;
 return
 this
