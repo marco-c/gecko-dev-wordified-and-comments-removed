@@ -4835,6 +4835,17 @@ if
 isLTR
 &
 &
+charToGlyph
+[
+charEnd
++
+1
+]
+=
+=
+NO_GLYPH
+&
+&
 NS_IS_LOW_SURROGATE
 (
 aString
