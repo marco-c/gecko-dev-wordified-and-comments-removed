@@ -42,6 +42,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -171,8 +178,10 @@ char
 *
 mNotifyURL
 ;
+nsRefPtr
+<
 nsNPAPIPluginInstance
-*
+>
 mInst
 ;
 NPStream
