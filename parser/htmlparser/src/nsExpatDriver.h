@@ -460,7 +460,7 @@ nsString
 mURISpec
 ;
 PRUint64
-mWindowID
+mInnerWindowID
 ;
 }
 ;

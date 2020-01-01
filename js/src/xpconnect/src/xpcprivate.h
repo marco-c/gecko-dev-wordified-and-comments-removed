@@ -14634,7 +14634,13 @@ nsCString
 mCategory
 ;
 PRUint64
-mWindowID
+mOuterWindowID
+;
+PRUint64
+mInnerWindowID
+;
+PRUint64
+mTimeStamp
 ;
 }
 ;

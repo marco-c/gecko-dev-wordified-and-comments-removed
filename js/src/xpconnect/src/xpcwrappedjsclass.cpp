@@ -4561,7 +4561,7 @@ JavaScript
 nsJSUtils
 :
 :
-GetCurrentlyRunningCodeWindowID
+GetCurrentlyRunningCodeInnerWindowID
 (
 cx
 )

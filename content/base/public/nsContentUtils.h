@@ -1684,7 +1684,7 @@ char
 *
 aCategory
 PRUint64
-aWindowId
+aInnerWindowId
 =
 0
 )
@@ -3244,16 +3244,6 @@ nsIDOMNodeList
 *
 *
 aReturn
-)
-;
-static
-nsIWidget
-*
-WidgetForDocument
-(
-nsIDocument
-*
-aDoc
 )
 ;
 static

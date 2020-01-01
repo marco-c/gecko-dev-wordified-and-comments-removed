@@ -842,7 +842,7 @@ aMessage
 )
 ;
 PRUint64
-GetOuterWindowId
+GetInnerWindowId
 (
 )
 ;

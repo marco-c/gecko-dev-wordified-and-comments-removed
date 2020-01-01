@@ -244,13 +244,13 @@ PrefEnabled
 ;
 const
 PRUint64
-WindowID
+InnerWindowID
 (
 )
 const
 {
 return
-mWindowID
+mInnerWindowID
 ;
 }
 const
@@ -443,7 +443,7 @@ PRUint32
 mScriptLine
 ;
 PRUint64
-mWindowID
+mInnerWindowID
 ;
 private
 :

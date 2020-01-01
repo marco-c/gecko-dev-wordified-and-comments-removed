@@ -3925,7 +3925,7 @@ rv
 )
 ;
 PRUint64
-windowID
+innerWindowID
 =
 GetPresContext
 (
@@ -3937,7 +3937,7 @@ Document
 )
 -
 >
-OuterWindowID
+InnerWindowID
 (
 )
 ;
@@ -3973,7 +3973,7 @@ aFlags
 CSS
 Loader
 "
-windowID
+innerWindowID
 )
 ;
 if

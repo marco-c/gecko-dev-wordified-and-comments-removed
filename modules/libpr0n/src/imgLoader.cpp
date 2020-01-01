@@ -7912,12 +7912,12 @@ doc
 request
 -
 >
-SetWindowID
+SetInnerWindowID
 (
 doc
 -
 >
-OuterWindowID
+InnerWindowID
 (
 )
 )

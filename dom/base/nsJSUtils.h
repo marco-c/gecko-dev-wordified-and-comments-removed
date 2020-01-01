@@ -107,7 +107,7 @@ aContext
 ;
 static
 PRUint64
-GetCurrentlyRunningCodeWindowID
+GetCurrentlyRunningCodeInnerWindowID
 (
 JSContext
 *

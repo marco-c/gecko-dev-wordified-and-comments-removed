@@ -728,7 +728,7 @@ javascript
 "
 this
 .
-getWindowId
+getInnerWindowId
 (
 contentWindow
 )
@@ -2126,10 +2126,10 @@ _previousLocation
 null
 ;
 }
-getWindowId
+getInnerWindowId
 :
 function
-SP_getWindowId
+SP_getInnerWindowId
 (
 aWindow
 )
@@ -2151,7 +2151,7 @@ Ci
 nsIDOMWindowUtils
 )
 .
-outerWindowID
+currentInnerWindowID
 ;
 }
 onLoad

@@ -549,7 +549,7 @@ PRUint32
 mScriptLine
 ;
 PRUint64
-mWindowID
+mInnerWindowID
 ;
 private
 :

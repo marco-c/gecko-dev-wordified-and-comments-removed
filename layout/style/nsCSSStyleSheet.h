@@ -402,9 +402,8 @@ nsIDocument
 aDocument
 )
 ;
-virtual
 PRUint64
-FindOwningWindowID
+FindOwningWindowInnerID
 (
 )
 const

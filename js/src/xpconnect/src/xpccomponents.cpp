@@ -11052,12 +11052,12 @@ NS_OK
 ;
 const
 PRUint64
-windowID
+innerWindowID
 =
 nsJSUtils
 :
 :
-GetCurrentlyRunningCodeWindowID
+GetCurrentlyRunningCodeInnerWindowID
 (
 cx
 )
@@ -11154,7 +11154,7 @@ flags
 XPConnect
 JavaScript
 "
-windowID
+innerWindowID
 )
 ;
 if
@@ -11335,7 +11335,7 @@ lineNo
 XPConnect
 JavaScript
 "
-windowID
+innerWindowID
 )
 ;
 if

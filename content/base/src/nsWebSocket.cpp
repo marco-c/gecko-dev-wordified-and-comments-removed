@@ -1483,7 +1483,7 @@ Socket
 mOwner
 -
 >
-WindowID
+InnerWindowID
 (
 )
 )
@@ -2642,7 +2642,7 @@ mScriptLine
 (
 0
 )
-mWindowID
+mInnerWindowID
 (
 0
 )
@@ -6135,12 +6135,12 @@ pc
 ;
 }
 }
-mWindowID
+mInnerWindowID
 =
 nsJSUtils
 :
 :
-GetCurrentlyRunningCodeWindowID
+GetCurrentlyRunningCodeInnerWindowID
 (
 cx
 )
