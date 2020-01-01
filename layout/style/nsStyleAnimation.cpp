@@ -3209,17 +3209,6 @@ mismatch
 "
 )
 ;
-nsCSSKeyword
-tfunc
-=
-nsStyleTransformMatrix
-:
-:
-TransformFunctionOf
-(
-a1
-)
-;
 NS_ABORT_IF_FALSE
 (
 a1
