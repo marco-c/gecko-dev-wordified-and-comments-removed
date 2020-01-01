@@ -1189,7 +1189,7 @@ newrev
 atable
 -
 >
-amap
+arev
 =
 newrev
 ;
