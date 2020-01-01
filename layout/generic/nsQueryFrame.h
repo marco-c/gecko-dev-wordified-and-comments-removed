@@ -233,7 +233,6 @@ nsISVGSVGFrame_id
 nsIScrollableFrame_id
 nsIScrollbarFrame_id
 nsIScrollbarMediator_id
-nsIScrollPositionListener_id
 nsISelectControlFrame_id
 nsIStatefulFrame_id
 nsITableCellLayout_id
