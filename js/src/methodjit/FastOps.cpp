@@ -2382,11 +2382,6 @@ if
 target
 )
 {
-fixDoubleTypes
-(
-target
-)
-;
 frame
 .
 syncAndKillEverything
@@ -2918,11 +2913,6 @@ if
 target
 )
 {
-fixDoubleTypes
-(
-target
-)
-;
 Jump
 sj
 =
@@ -5297,11 +5287,6 @@ jsbytecode
 target
 )
 {
-fixDoubleTypes
-(
-target
-)
-;
 FrameEntry
 *
 fe
@@ -5441,11 +5426,6 @@ jsbytecode
 target
 )
 {
-fixDoubleTypes
-(
-target
-)
-;
 FrameEntry
 *
 fe
