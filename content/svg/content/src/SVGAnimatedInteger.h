@@ -7,13 +7,6 @@ mozilla_dom_SVGAnimatedInteger_h
 #
 include
 "
-nsIDOMSVGAnimatedEnum
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h

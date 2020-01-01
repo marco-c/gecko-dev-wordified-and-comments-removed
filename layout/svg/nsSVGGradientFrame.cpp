@@ -49,13 +49,6 @@ h
 #
 include
 "
-nsIDOMSVGAnimatedNumber
-.
-h
-"
-#
-include
-"
 nsSVGEffects
 .
 h

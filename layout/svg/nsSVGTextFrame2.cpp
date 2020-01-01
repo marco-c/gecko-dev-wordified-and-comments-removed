@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsIDOMSVGAnimatedNumber
-.
-h
-"
-#
-include
-"
 nsIDOMSVGLength
 .
 h

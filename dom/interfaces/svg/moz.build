@@ -98,16 +98,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMSVGAnimatedEnum
-.
-idl
-'
-'
-nsIDOMSVGAnimatedNumber
-.
-idl
-'
-'
 nsIDOMSVGElement
 .
 idl

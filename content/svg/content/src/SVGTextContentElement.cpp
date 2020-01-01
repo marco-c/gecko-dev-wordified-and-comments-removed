@@ -41,13 +41,6 @@ SVGIRect
 .
 h
 "
-#
-include
-"
-nsIDOMSVGAnimatedEnum
-.
-h
-"
 namespace
 mozilla
 {

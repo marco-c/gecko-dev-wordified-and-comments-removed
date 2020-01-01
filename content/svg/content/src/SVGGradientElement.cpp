@@ -68,13 +68,6 @@ h
 #
 include
 "
-nsIDOMSVGAnimatedEnum
-.
-h
-"
-#
-include
-"
 nsSVGElement
 .
 h
