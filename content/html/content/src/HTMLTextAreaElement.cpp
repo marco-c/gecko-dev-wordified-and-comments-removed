@@ -5281,7 +5281,7 @@ NS_IMETHODIMP_
 (
 void
 )
-nsHTMLTextAreaElement
+HTMLTextAreaElement
 :
 :
 GetDefaultValueFromContent
