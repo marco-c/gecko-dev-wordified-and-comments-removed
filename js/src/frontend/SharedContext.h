@@ -1,9 +1,9 @@
 #
 ifndef
-TreeContext_h__
+SharedContext_h__
 #
 define
-TreeContext_h__
+SharedContext_h__
 #
 include
 "

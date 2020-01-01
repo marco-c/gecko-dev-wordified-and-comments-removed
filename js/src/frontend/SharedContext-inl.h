@@ -1,9 +1,9 @@
 #
 ifndef
-TreeContext_inl_h__
+SharedContext_inl_h__
 #
 define
-TreeContext_inl_h__
+SharedContext_inl_h__
 #
 include
 "
@@ -18,7 +18,7 @@ include
 "
 frontend
 /
-TreeContext
+SharedContext
 .
 h
 "
