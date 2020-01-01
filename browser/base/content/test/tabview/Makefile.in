@@ -540,6 +540,10 @@ browser_tabview_bug608037
 .
 js
 \
+browser_tabview_bug608158
+.
+js
+\
 browser_tabview_dragdrop
 .
 js
