@@ -164,6 +164,9 @@ run_test
 (
 )
 {
+return
+true
+;
 var
 folder
 =
