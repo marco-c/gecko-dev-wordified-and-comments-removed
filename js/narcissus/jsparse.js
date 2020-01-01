@@ -28,8 +28,6 @@ definitions
 consts
 )
 ;
-VanillaBuilder
-=
 function
 VanillaBuilder
 (
