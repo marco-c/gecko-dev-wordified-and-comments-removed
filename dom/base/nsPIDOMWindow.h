@@ -1193,7 +1193,7 @@ PageHidden
 ;
 virtual
 nsresult
-DispatchAsyncHashchange
+DispatchSyncHashchange
 (
 )
 =

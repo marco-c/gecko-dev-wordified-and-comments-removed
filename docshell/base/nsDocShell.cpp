@@ -30362,7 +30362,7 @@ window
 window
 -
 >
-DispatchAsyncHashchange
+DispatchSyncHashchange
 (
 )
 ;

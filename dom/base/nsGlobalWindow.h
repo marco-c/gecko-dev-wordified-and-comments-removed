@@ -1503,7 +1503,7 @@ PageHidden
 ;
 virtual
 nsresult
-DispatchAsyncHashchange
+DispatchSyncHashchange
 (
 )
 ;
@@ -1895,11 +1895,6 @@ aPopupWindowFeatures
 ;
 void
 FireOfflineStatusEvent
-(
-)
-;
-nsresult
-FireHashchange
 (
 )
 ;
