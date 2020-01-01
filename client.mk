@@ -2325,6 +2325,12 @@ sh
 TOPSRCDIR
 )
 /
+CLOBBER
+\
+(
+TOPSRCDIR
+)
+/
 nsprpub
 /
 configure
