@@ -165,7 +165,7 @@ req
 =
 deviceStorage
 .
-stat
+freeSpace
 (
 )
 ;
@@ -204,8 +204,6 @@ e
 target
 .
 result
-.
-freeBytes
 ;
 debug
 (
