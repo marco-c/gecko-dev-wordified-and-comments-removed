@@ -60,7 +60,7 @@ extern
 SECStatus
 SECKEY_CopySubjectPublicKeyInfo
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTSubjectPublicKeyInfo
@@ -329,7 +329,7 @@ extern
 SECStatus
 SECKEY_CopyPrivateKeyInfo
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECKEYPrivateKeyInfo
@@ -353,7 +353,7 @@ extern
 SECStatus
 SECKEY_CopyEncryptedPrivateKeyInfo
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECKEYEncryptedPrivateKeyInfo

@@ -397,8 +397,6 @@ monitorLock
 lock
 )
 ;
-cleanup
-:
 PKIX_RETURN_NO_LOGGER
 (
 MONITORLOCK

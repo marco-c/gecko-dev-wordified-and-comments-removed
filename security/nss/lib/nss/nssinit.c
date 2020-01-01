@@ -3835,6 +3835,10 @@ pk11sdr_Shutdown
 (
 )
 ;
+nss_DestroyErrorStack
+(
+)
+;
 nssArena_Shutdown
 (
 )

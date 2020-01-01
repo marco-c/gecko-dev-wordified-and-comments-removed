@@ -425,7 +425,6 @@ pkix_pl_OcspRequest_Create
 cert
 cid
 validity
-PKIX_FALSE
 NULL
 &
 uriFound
@@ -668,13 +667,6 @@ cid
 -
 >
 certID
-&
-&
-!
-cid
--
->
-certIDWasConsumed
 )
 {
 PKIX_Error

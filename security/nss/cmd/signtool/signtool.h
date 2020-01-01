@@ -94,13 +94,6 @@ h
 #
 include
 "
-secmodi
-.
-h
-"
-#
-include
-"
 plhash
 .
 h
@@ -660,6 +653,10 @@ errorCount
 extern
 int
 warningCount
+;
+extern
+secuPWData
+pwdata
 ;
 #
 endif

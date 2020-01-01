@@ -324,7 +324,7 @@ avas
 struct
 CERTNameStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -338,7 +338,7 @@ rdns
 struct
 CERTValidityStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -378,7 +378,7 @@ signature
 struct
 CERTSubjectPublicKeyInfoStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -546,7 +546,7 @@ keyID
 struct
 CERTSubjectListStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -574,7 +574,7 @@ entry
 struct
 CERTCertificateStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -813,7 +813,7 @@ SEC_CERT_CLASS_EMAIL
 struct
 CERTDERCertsStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -842,7 +842,7 @@ attrValue
 struct
 CERTCertificateRequestStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -885,7 +885,7 @@ certs
 int
 len
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -913,7 +913,7 @@ CERTCertListStr
 PRCList
 list
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -1019,7 +1019,7 @@ extensions
 struct
 CERTCrlStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -1067,7 +1067,7 @@ dummy
 struct
 CERTSignedCrlStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -1121,7 +1121,7 @@ opaque
 struct
 CERTCrlHeadNodeStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -1158,7 +1158,7 @@ crl
 struct
 CERTDistNamesStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -1515,7 +1515,7 @@ SEC_CERT_NICKNAMES_CA
 struct
 CERTCertNicknamesStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -1939,7 +1939,7 @@ l
 struct
 CERTGeneralNameListStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -2011,7 +2011,7 @@ notBefore
 SECItem
 notAfter
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -2139,7 +2139,7 @@ prev
 struct
 CERTVerifyLogStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -2188,7 +2188,7 @@ handle
 CERTCertificate
 *
 cert
-int64
+PRTime
 time
 void
 *
@@ -2310,7 +2310,7 @@ CERTPolicyInfo
 typedef
 struct
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -2339,7 +2339,7 @@ CERTNoticeReference
 typedef
 struct
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -2358,7 +2358,7 @@ CERTUserNotice
 typedef
 struct
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -2385,7 +2385,7 @@ CERTPolicyMap
 typedef
 struct
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -2457,6 +2457,9 @@ cert_pi_certStores
 cert_pi_trustAnchors
 =
 11
+cert_pi_useAIACertFetch
+=
+12
 cert_pi_max
 }
 CERTValParamInType
@@ -2792,6 +2795,22 @@ value
 ;
 }
 CERTValOutParam
+;
+typedef
+enum
+CertStrictnessLevels
+{
+CERT_N2A_READABLE
+=
+0
+CERT_N2A_STRICT
+=
+10
+CERT_N2A_INVERTIBLE
+=
+20
+}
+CertStrictnessLevel
 ;
 #
 define

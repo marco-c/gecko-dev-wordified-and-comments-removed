@@ -896,11 +896,7 @@ Name
 :
 _CRL_Distribution_Points
 |
-X520_Title
-|
-"
 asdfsdf
-"
 |
 Reasons
 :

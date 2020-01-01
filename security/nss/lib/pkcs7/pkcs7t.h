@@ -123,7 +123,7 @@ SEC_PKCS7Attribute
 struct
 SEC_PKCS7ContentInfoStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;

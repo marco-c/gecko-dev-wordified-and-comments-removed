@@ -407,6 +407,9 @@ fullPath
 PR_GetLibraryFilePathname
 (
 NameOfThisSharedLib
+(
+PRFuncPtr
+)
 &
 loader_LoadLibrary
 )

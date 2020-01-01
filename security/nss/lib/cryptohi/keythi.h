@@ -115,7 +115,7 @@ SEC_END_PROTOS
 struct
 SECKEYRSAPublicKeyStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -135,7 +135,7 @@ SECKEYRSAPublicKey
 struct
 SECKEYPQGParamsStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -174,7 +174,7 @@ SECKEYDSAPublicKey
 struct
 SECKEYDHParamsStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -194,7 +194,7 @@ SECKEYDHParams
 struct
 SECKEYDHPublicKeyStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -584,7 +584,7 @@ struct
 PRCList
 list
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -610,7 +610,7 @@ struct
 PRCList
 list
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

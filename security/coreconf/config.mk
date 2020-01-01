@@ -985,6 +985,7 @@ OpenBSD
 \
 OpenVMS
 AIX
+RISCOS
 ifeq
 (
 (

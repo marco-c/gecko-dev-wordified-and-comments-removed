@@ -1152,14 +1152,6 @@ lockTrace
 unlockTrace
 )
 ;
-nssCertificateStore_Check
-(
-&
-lockTrace
-&
-unlockTrace
-)
-;
 c
 -
 >
@@ -4087,7 +4079,7 @@ PORT_Assert
 "
 CERT_ClosePermCertDB
 is
-Depricated
+Deprecated
 "
 =
 =
@@ -4115,7 +4107,7 @@ PORT_Assert
 "
 CERT_OpenCertDBFilename
 is
-Depricated
+Deprecated
 "
 =
 =
@@ -4143,7 +4135,7 @@ PORT_Assert
 "
 SECKEY_HashPassword
 is
-Depricated
+Deprecated
 "
 =
 =
@@ -4176,7 +4168,7 @@ PORT_Assert
 "
 CERT_TraversePermCertsForSubject
 is
-Depricated
+Deprecated
 "
 =
 =
@@ -4209,7 +4201,7 @@ PORT_Assert
 "
 CERT_TraversePermCertsForNickname
 is
-Depricated
+Deprecated
 "
 =
 =

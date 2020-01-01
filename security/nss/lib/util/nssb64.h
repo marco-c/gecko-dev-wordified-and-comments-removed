@@ -131,7 +131,7 @@ SECItem
 *
 NSSBase64_DecodeBuffer
 (
-PRArenaPool
+PLArenaPool
 *
 arenaOpt
 SECItem
@@ -151,7 +151,7 @@ char
 *
 NSSBase64_EncodeItem
 (
-PRArenaPool
+PLArenaPool
 *
 arenaOpt
 char

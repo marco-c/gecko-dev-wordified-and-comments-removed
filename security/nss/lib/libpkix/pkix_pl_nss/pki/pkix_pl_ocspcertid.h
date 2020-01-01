@@ -28,9 +28,6 @@ CERTOCSPCertID
 *
 certID
 ;
-PRBool
-certIDWasConsumed
-;
 }
 ;
 PKIX_Error

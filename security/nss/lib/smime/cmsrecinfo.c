@@ -1728,12 +1728,6 @@ rv
 =
 SECSuccess
 ;
-SECItem
-*
-params
-=
-NULL
-;
 NSSCMSRecipientEncryptedKey
 *
 rek

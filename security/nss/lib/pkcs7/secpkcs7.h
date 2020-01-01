@@ -498,7 +498,7 @@ SECItem
 *
 SEC_PKCS7EncodeItem
 (
-PRArenaPool
+PLArenaPool
 *
 pool
 SECItem
@@ -606,7 +606,7 @@ extern
 SECStatus
 SEC_PKCS7EncryptContents
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SEC_PKCS7ContentInfo
@@ -624,7 +624,7 @@ extern
 SECStatus
 SEC_PKCS7DecryptContents
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SEC_PKCS7ContentInfo

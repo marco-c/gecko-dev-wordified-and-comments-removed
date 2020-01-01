@@ -68,7 +68,7 @@ extern
 SECStatus
 DER_Encode
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -126,7 +126,7 @@ extern
 SECStatus
 DER_SetInteger
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -140,7 +140,7 @@ extern
 SECStatus
 DER_SetUInteger
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -176,7 +176,7 @@ DER_TimeToUTCTime
 SECItem
 *
 result
-int64
+PRTime
 time
 )
 ;
@@ -184,13 +184,13 @@ extern
 SECStatus
 DER_TimeToUTCTimeArena
 (
-PRArenaPool
+PLArenaPool
 *
 arenaOpt
 SECItem
 *
 dst
-int64
+PRTime
 gmttime
 )
 ;
@@ -198,7 +198,7 @@ extern
 SECStatus
 DER_AsciiToTime
 (
-int64
+PRTime
 *
 result
 const
@@ -211,7 +211,7 @@ extern
 SECStatus
 DER_UTCTimeToTime
 (
-int64
+PRTime
 *
 result
 const
@@ -267,7 +267,7 @@ DER_TimeToGeneralizedTime
 SECItem
 *
 dst
-int64
+PRTime
 gmttime
 )
 ;
@@ -275,13 +275,13 @@ extern
 SECStatus
 DER_TimeToGeneralizedTimeArena
 (
-PRArenaPool
+PLArenaPool
 *
 arenaOpt
 SECItem
 *
 dst
-int64
+PRTime
 gmttime
 )
 ;
@@ -289,7 +289,7 @@ extern
 SECStatus
 DER_GeneralizedTimeToTime
 (
-int64
+PRTime
 *
 dst
 const
@@ -303,7 +303,7 @@ char
 *
 CERT_UTCTime2FormattedAscii
 (
-int64
+PRTime
 utcTime
 char
 *
@@ -319,7 +319,7 @@ char
 *
 CERT_GenTime2FormattedAscii
 (
-int64
+PRTime
 genTime
 char
 *
@@ -343,7 +343,7 @@ extern
 SECStatus
 DER_EncodeTimeChoice
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem

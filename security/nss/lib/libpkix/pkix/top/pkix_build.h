@@ -125,6 +125,9 @@ PKIX_PL_AIAMgr
 *
 aiaMgr
 ;
+PKIX_Boolean
+useAIAForCertFetching
+;
 }
 ;
 struct
@@ -183,9 +186,6 @@ canBeCached
 ;
 PKIX_Boolean
 useOnlyLocal
-;
-PKIX_Boolean
-alreadyTriedAIA
 ;
 PKIX_Boolean
 revChecking

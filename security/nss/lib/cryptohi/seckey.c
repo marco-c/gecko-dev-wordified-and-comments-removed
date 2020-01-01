@@ -1653,7 +1653,6 @@ count
 {
 SECStatus
 rv
-rvCompare
 ;
 SECOidData
 *

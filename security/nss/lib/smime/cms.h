@@ -52,7 +52,7 @@ NSSCMSDecoderContext
 *
 NSS_CMSDecoder_Start
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 NSSCMSContentCallback
@@ -979,7 +979,7 @@ extern
 SECStatus
 NSS_CMSSignedData_AddDigest
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 NSSCMSSignedData
@@ -1520,7 +1520,7 @@ subIndex
 SECStatus
 NSS_CMSRecipientInfo_Encode
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 const

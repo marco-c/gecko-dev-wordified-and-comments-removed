@@ -2065,6 +2065,9 @@ return
 rv
 ;
 }
+#
+ifdef
+NSS_ENABLE_ECC
 static
 unsigned
 char
@@ -2336,6 +2339,8 @@ return
 privKeyBytes
 ;
 }
+#
+endif
 SECStatus
 EC_NewKey
 (

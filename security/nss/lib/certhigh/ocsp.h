@@ -88,6 +88,14 @@ ocspFailureMode
 ;
 extern
 SECStatus
+CERT_SetOCSPTimeout
+(
+PRUint32
+seconds
+)
+;
+extern
+SECStatus
 CERT_ClearOCSPCache
 (
 void
@@ -154,7 +162,7 @@ CERT_CreateOCSPRequest
 CERTCertList
 *
 certList
-int64
+PRTime
 time
 PRBool
 addServiceLocator
@@ -182,7 +190,7 @@ SECItem
 *
 CERT_EncodeOCSPRequest
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTOCSPRequest
@@ -236,7 +244,7 @@ SECItem
 *
 CERT_GetEncodedOCSPResponse
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTCertList
@@ -245,7 +253,7 @@ certList
 char
 *
 location
-int64
+PRTime
 time
 PRBool
 addServiceLocator
@@ -324,7 +332,7 @@ handle
 CERTCertificate
 *
 cert
-int64
+PRTime
 time
 void
 *
@@ -347,7 +355,7 @@ certID
 CERTCertificate
 *
 signerCert
-int64
+PRTime
 time
 )
 ;
@@ -368,7 +376,7 @@ CERT_CreateOCSPCertID
 CERTCertificate
 *
 cert
-int64
+PRTime
 time
 )
 ;

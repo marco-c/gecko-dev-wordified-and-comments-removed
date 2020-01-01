@@ -268,7 +268,8 @@ void
 )
 &
 list_certs
-NULL
+&
+pwdata
 )
 ;
 if
@@ -494,7 +495,8 @@ cert
 PK11_FindCertFromNickname
 (
 key
-NULL
+&
+pwdata
 )
 ;
 if
@@ -638,7 +640,8 @@ certUsageObjectSigner
 PR_Now
 (
 )
-NULL
+&
+pwdata
 &
 errlog
 )
@@ -1135,7 +1138,8 @@ dbhandle
 cert
 PR_TRUE
 certUsageObjectSigner
-NULL
+&
+pwdata
 )
 ;
 if
@@ -1273,7 +1277,8 @@ dbhandle
 issuerCert
 PR_TRUE
 certUsageVerifyCA
-NULL
+&
+pwdata
 )
 ;
 if

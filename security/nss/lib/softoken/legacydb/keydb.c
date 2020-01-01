@@ -5581,6 +5581,12 @@ oid
 ;
 entryData
 .
+type
+=
+siBuffer
+;
+entryData
+.
 len
 =
 dbkey

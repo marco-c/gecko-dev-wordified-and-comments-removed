@@ -205,6 +205,8 @@ __nss_freebl_sccsid
 volatile
 char
 c
+;
+c
 =
 __nss_freebl_rcsid
 [

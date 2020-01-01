@@ -183,7 +183,7 @@ args
 struct
 SEC_PKCS12BaggageStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -200,7 +200,7 @@ luggage_size
 struct
 SEC_PKCS12PVKAdditionalDataStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -219,7 +219,7 @@ pvkAdditionalContent
 struct
 SEC_PKCS12PVKSupportingDataStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -251,7 +251,7 @@ nThumbs
 struct
 SEC_PKCS12ESPVKItemStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -294,7 +294,7 @@ derCert
 struct
 SEC_PKCS12SafeBagStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -336,7 +336,7 @@ uniSafeBagName
 struct
 SEC_PKCS12SafeContentsStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -362,7 +362,7 @@ possibleSwapUnicode
 struct
 SEC_PKCS12PrivateKeyStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -392,7 +392,7 @@ derCert
 struct
 SEC_PKCS12PrivateKeyBagStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -409,7 +409,7 @@ bag_size
 struct
 SEC_PKCS12CertAndCRLStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -447,7 +447,7 @@ duplicate
 struct
 SEC_PKCS12X509CertCRLStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -466,7 +466,7 @@ derLeafCert
 struct
 SEC_PKCS12SDSICertStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -481,7 +481,7 @@ thumbprint
 struct
 SEC_PKCS12CertAndCRLBagStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -498,7 +498,7 @@ bag_size
 struct
 SEC_PKCS12SecretAdditionalStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -517,7 +517,7 @@ secretAdditionalContent
 struct
 SEC_PKCS12SecretStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -538,7 +538,7 @@ uniSecretName
 struct
 SEC_PKCS12SecretItemStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -553,7 +553,7 @@ subFolder
 struct
 SEC_PKCS12SecretBagStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -581,7 +581,7 @@ macSalt
 struct
 SEC_PKCS12PFXItemStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -608,7 +608,7 @@ swapUnicode
 struct
 SEC_PKCS12BaggageItemStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -633,7 +633,7 @@ nSecrets
 struct
 SEC_PKCS12Baggage_OLDStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;
@@ -650,7 +650,7 @@ luggage_size
 struct
 SEC_PKCS12AuthenticatedSafeStr
 {
-PRArenaPool
+PLArenaPool
 *
 poolp
 ;

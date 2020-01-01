@@ -781,9 +781,6 @@ ava
 int
 rv
 ;
-unsigned
-maxLen
-;
 ava
 =
 PORT_ArenaZNew

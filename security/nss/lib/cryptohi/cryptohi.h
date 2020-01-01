@@ -207,7 +207,7 @@ extern
 SECStatus
 SEC_DerSignData
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem

@@ -561,7 +561,7 @@ PRBool
 checkSig
 SECCertUsage
 requiredUsage
-PRUint64
+PRTime
 time
 void
 *

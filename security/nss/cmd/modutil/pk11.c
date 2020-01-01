@@ -3367,11 +3367,6 @@ return
 NO_SUCH_TOKEN_ERR
 ;
 }
-PK11_SetPasswordFunc
-(
-SECU_GetModulePassword
-)
-;
 if
 (
 !

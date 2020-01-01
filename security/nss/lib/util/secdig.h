@@ -81,7 +81,7 @@ SECItem
 *
 SGN_EncodeDigestInfo
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SECItem
@@ -106,7 +106,7 @@ extern
 SECStatus
 SGN_CopyDigestInfo
 (
-PRArenaPool
+PLArenaPool
 *
 poolp
 SGNDigestInfo

@@ -44,11 +44,6 @@ len
 )
 {
 PRUint32
-result_len
-=
-0
-;
-PRUint32
 decimal_numbers
 =
 0

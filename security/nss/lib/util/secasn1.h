@@ -38,7 +38,7 @@ SEC_ASN1DecoderContext
 *
 SEC_ASN1DecoderStart
 (
-PRArenaPool
+PLArenaPool
 *
 pool
 void
@@ -138,7 +138,7 @@ extern
 SECStatus
 SEC_ASN1Decode
 (
-PRArenaPool
+PLArenaPool
 *
 pool
 void
@@ -160,7 +160,7 @@ extern
 SECStatus
 SEC_ASN1DecodeItem
 (
-PRArenaPool
+PLArenaPool
 *
 pool
 void
@@ -180,7 +180,7 @@ extern
 SECStatus
 SEC_QuickDERDecodeItem
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 void
@@ -353,7 +353,7 @@ SECItem
 *
 SEC_ASN1EncodeItem
 (
-PRArenaPool
+PLArenaPool
 *
 pool
 SECItem
@@ -374,7 +374,7 @@ SECItem
 *
 SEC_ASN1EncodeInteger
 (
-PRArenaPool
+PLArenaPool
 *
 pool
 SECItem
@@ -389,7 +389,7 @@ SECItem
 *
 SEC_ASN1EncodeUnsignedInteger
 (
-PRArenaPool
+PLArenaPool
 *
 pool
 SECItem

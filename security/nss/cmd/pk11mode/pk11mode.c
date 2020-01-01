@@ -30997,7 +30997,6 @@ hClientKey
 =
 CK_INVALID_HANDLE
 )
-;
 (
 void
 )
@@ -32793,7 +32792,6 @@ path
 Database
 path
 location
-)
 \
 n
 "
@@ -32812,7 +32810,6 @@ prefix
 >
 DataBase
 prefix
-)
 \
 n
 "

@@ -95,7 +95,7 @@ extern
 SECStatus
 SECOID_SetAlgorithmID
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECAlgorithmID
@@ -112,7 +112,7 @@ extern
 SECStatus
 SECOID_CopyAlgorithmID
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECAlgorithmID

@@ -848,6 +848,10 @@ attrVal
 +
 ;
 }
+pkixTempErrorReceived
+=
+PKIX_FALSE
+;
 }
 sreAttr
 =

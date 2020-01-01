@@ -38,7 +38,7 @@ SECItem
 *
 SECITEM_AllocItem
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -53,7 +53,7 @@ extern
 SECStatus
 SECITEM_ReallocItem
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -99,7 +99,7 @@ extern
 SECStatus
 SECITEM_CopyItem
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 SECItem
@@ -127,7 +127,7 @@ SECItem
 *
 SECITEM_ArenaDupItem
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 const

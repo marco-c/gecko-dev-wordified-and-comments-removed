@@ -2256,6 +2256,13 @@ CERT_DIR
 certName
 .
 cert
+-
+f
+"
+{
+R_PWFILE
+}
+"
 >
 output
 2
@@ -2534,7 +2541,13 @@ status
 -
 o
 "
+echo
 status
+|
+cut
+-
+c
+1
 "
 =
 "
@@ -2602,7 +2615,7 @@ extraOpt
 =
 "
 -
-p
+pp
 -
 o
 explPolicy
@@ -2644,6 +2657,10 @@ cmd
 cmd
 >
 tmpLogFile
+2
+>
+&
+1
 if
 [
 -

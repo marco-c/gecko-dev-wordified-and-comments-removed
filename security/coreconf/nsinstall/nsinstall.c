@@ -184,6 +184,12 @@ defined
 (
 BEOS
 )
+|
+|
+defined
+(
+__riscos__
+)
 #
 undef
 HAVE_LCHOWN

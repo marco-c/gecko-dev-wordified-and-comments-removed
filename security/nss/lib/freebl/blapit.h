@@ -483,7 +483,7 @@ AESKeyWrapContext
 struct
 RSAPublicKeyStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -503,7 +503,7 @@ RSAPublicKey
 struct
 RSAPrivateKeyStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -544,7 +544,7 @@ RSAPrivateKey
 struct
 PQGParamsStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -567,7 +567,7 @@ PQGParams
 struct
 PQGVerifyStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -626,7 +626,7 @@ DSAPrivateKey
 struct
 DHParamsStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -646,7 +646,7 @@ DHParams
 struct
 DHPublicKeyStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -669,7 +669,7 @@ DHPublicKey
 struct
 DHPrivateKeyStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -768,7 +768,7 @@ ECCurve
 struct
 ECParamsStr
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

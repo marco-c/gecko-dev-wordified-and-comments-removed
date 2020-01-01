@@ -203,7 +203,7 @@ SECOidData
 *
 bagTypeTag
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -254,7 +254,7 @@ SECItem
 *
 encodedSafeBags
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

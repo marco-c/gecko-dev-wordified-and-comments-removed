@@ -30,7 +30,7 @@ static
 PKIX_Boolean
 socketTraceFlag
 =
-PKIX_TRUE
+PKIX_FALSE
 ;
 static
 void
@@ -4514,12 +4514,6 @@ buf
 [
 PR_NETDB_BUF_SIZE
 ]
-;
-char
-*
-localCopyName
-=
-NULL
 ;
 PKIX_ENTER
 (
