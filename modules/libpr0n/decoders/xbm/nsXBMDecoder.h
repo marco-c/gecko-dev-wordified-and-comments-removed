@@ -191,6 +191,9 @@ mIsCursor
 PRPackedBool
 mIsX10
 ;
+PRPackedBool
+mHasNoAlpha
+;
 enum
 {
 RECV_HEADER

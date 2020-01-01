@@ -446,6 +446,8 @@ gfx
 \
 imglib2
 \
+thebes
+\
 (
 NULL
 )

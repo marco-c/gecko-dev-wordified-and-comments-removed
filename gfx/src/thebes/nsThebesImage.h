@@ -295,6 +295,11 @@ return
 mImageSurface
 ;
 }
+void
+SetHasNoAlpha
+(
+)
+;
 protected
 :
 static
