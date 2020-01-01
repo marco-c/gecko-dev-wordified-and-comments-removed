@@ -342,6 +342,12 @@ bidi
 :
 embed
 ;
+text
+-
+transform
+:
+none
+;
 }
 .
 mainBox
