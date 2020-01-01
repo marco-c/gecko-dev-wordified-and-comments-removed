@@ -713,6 +713,14 @@ return
 mAllowUseAsSource
 ;
 }
+static
+uint8_t
+BytesPerPixel
+(
+gfxImageFormat
+aImageFormat
+)
+;
 protected
 :
 gfxASurface
