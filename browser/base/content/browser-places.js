@@ -3362,7 +3362,7 @@ strings
 getString
 (
 "
-menuOpenAllInTabs
+menuRestoreAllTabs
 .
 label
 "
@@ -3381,7 +3381,7 @@ strings
 getString
 (
 "
-menuOpenAllInTabs
+menuRestoreAllTabs
 .
 accesskey
 "
