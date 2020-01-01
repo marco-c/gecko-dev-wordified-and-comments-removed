@@ -1403,6 +1403,12 @@ bool
 aHighResolution
 )
 ;
+static
+uint64_t
+ComputeProcessUptime
+(
+)
+;
 TimeStampValue
 mValue
 ;

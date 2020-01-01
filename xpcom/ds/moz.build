@@ -514,6 +514,11 @@ nsVariant
 .
 cpp
 '
+'
+TimeStamp
+.
+cpp
+'
 ]
 if
 CONFIG
