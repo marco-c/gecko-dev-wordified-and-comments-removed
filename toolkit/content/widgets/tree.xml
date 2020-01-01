@@ -3419,7 +3419,7 @@ keypress
 keycode
 =
 "
-vk_enter
+VK_ENTER
 "
 >
 <
@@ -3483,7 +3483,7 @@ keypress
 keycode
 =
 "
-vk_return
+VK_RETURN
 "
 >
 <
@@ -3547,7 +3547,7 @@ keypress
 keycode
 =
 "
-vk_escape
+VK_ESCAPE
 "
 >
 <
@@ -3599,7 +3599,7 @@ keypress
 keycode
 =
 "
-vk_left
+VK_LEFT
 "
 >
 <
@@ -3823,7 +3823,7 @@ keypress
 keycode
 =
 "
-vk_right
+VK_RIGHT
 "
 >
 <
@@ -4113,7 +4113,7 @@ keypress
 keycode
 =
 "
-vk_up
+VK_UP
 "
 modifiers
 =
@@ -4313,7 +4313,7 @@ keypress
 keycode
 =
 "
-vk_down
+VK_DOWN
 "
 modifiers
 =
@@ -4525,7 +4525,7 @@ keypress
 keycode
 =
 "
-vk_up
+VK_UP
 "
 modifiers
 =
@@ -4640,7 +4640,7 @@ keypress
 keycode
 =
 "
-vk_down
+VK_DOWN
 "
 modifiers
 =
@@ -4754,7 +4754,7 @@ keypress
 keycode
 =
 "
-vk_page_up
+VK_PAGE_UP
 "
 modifiers
 =
@@ -4937,7 +4937,7 @@ keypress
 keycode
 =
 "
-vk_page_down
+VK_PAGE_DOWN
 "
 modifiers
 =
@@ -5139,7 +5139,7 @@ keypress
 keycode
 =
 "
-vk_page_up
+VK_PAGE_UP
 "
 modifiers
 =
@@ -5320,7 +5320,7 @@ keypress
 keycode
 =
 "
-vk_page_down
+VK_PAGE_DOWN
 "
 modifiers
 =
@@ -5521,7 +5521,7 @@ keypress
 keycode
 =
 "
-vk_home
+VK_HOME
 "
 modifiers
 =
@@ -5643,7 +5643,7 @@ keypress
 keycode
 =
 "
-vk_end
+VK_END
 "
 modifiers
 =
@@ -5774,7 +5774,7 @@ keypress
 keycode
 =
 "
-vk_home
+VK_HOME
 "
 modifiers
 =
@@ -5862,7 +5862,7 @@ keypress
 keycode
 =
 "
-vk_end
+VK_END
 "
 modifiers
 =

@@ -1386,7 +1386,7 @@ keypress
 keycode
 =
 "
-vk_enter
+VK_ENTER
 "
 action
 =
@@ -1421,7 +1421,7 @@ keypress
 keycode
 =
 "
-vk_return
+VK_RETURN
 "
 action
 =
@@ -1456,7 +1456,7 @@ keypress
 keycode
 =
 "
-vk_up
+VK_UP
 "
 action
 =
@@ -1481,7 +1481,7 @@ keypress
 keycode
 =
 "
-vk_left
+VK_LEFT
 "
 action
 =
@@ -1506,7 +1506,7 @@ keypress
 keycode
 =
 "
-vk_down
+VK_DOWN
 "
 action
 =
@@ -1531,7 +1531,7 @@ keypress
 keycode
 =
 "
-vk_right
+VK_RIGHT
 "
 action
 =
@@ -1556,7 +1556,7 @@ keypress
 keycode
 =
 "
-vk_up
+VK_UP
 "
 modifiers
 =
@@ -1571,6 +1571,7 @@ this
 selected
 =
 null
+;
 "
 /
 >
@@ -1584,7 +1585,7 @@ keypress
 keycode
 =
 "
-vk_down
+VK_DOWN
 "
 modifiers
 =
@@ -1599,6 +1600,7 @@ this
 selected
 =
 null
+;
 "
 /
 >
@@ -1612,7 +1614,7 @@ keypress
 keycode
 =
 "
-vk_left
+VK_LEFT
 "
 modifiers
 =
@@ -1627,6 +1629,7 @@ this
 selected
 =
 null
+;
 "
 /
 >
@@ -1640,7 +1643,7 @@ keypress
 keycode
 =
 "
-vk_right
+VK_RIGHT
 "
 modifiers
 =
@@ -1655,6 +1658,7 @@ this
 selected
 =
 null
+;
 "
 /
 >
@@ -1668,7 +1672,7 @@ keypress
 keycode
 =
 "
-vk_delete
+VK_DELETE
 "
 action
 =

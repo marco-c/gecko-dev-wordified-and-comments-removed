@@ -4437,7 +4437,7 @@ keypress
 keycode
 =
 "
-vk_up
+VK_UP
 "
 modifiers
 =
@@ -4480,7 +4480,7 @@ keypress
 keycode
 =
 "
-vk_down
+VK_DOWN
 "
 modifiers
 =
@@ -4522,7 +4522,7 @@ keypress
 keycode
 =
 "
-vk_home
+VK_HOME
 "
 modifiers
 =
@@ -4567,7 +4567,7 @@ keypress
 keycode
 =
 "
-vk_end
+VK_END
 "
 modifiers
 =
@@ -4619,7 +4619,7 @@ keypress
 keycode
 =
 "
-vk_page_up
+VK_PAGE_UP
 "
 modifiers
 =
@@ -4667,7 +4667,7 @@ keypress
 keycode
 =
 "
-vk_page_down
+VK_PAGE_DOWN
 "
 modifiers
 =
