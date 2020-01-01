@@ -441,7 +441,6 @@ appstartup
 find
 webbrowserpersist
 commandhandler
-ui
 ifdef
 MOZ_XUL
 ifdef
