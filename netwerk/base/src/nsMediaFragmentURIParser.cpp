@@ -1815,6 +1815,9 @@ gotTemporal
 &
 &
 gotSpatial
+&
+&
+gotResolution
 )
 {
 break
