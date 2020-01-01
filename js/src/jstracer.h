@@ -1038,6 +1038,13 @@ TraceRecorder
 ;
 JSStackFrame
 *
+getGlobalFrame
+(
+)
+const
+;
+JSStackFrame
+*
 getEntryFrame
 (
 )
