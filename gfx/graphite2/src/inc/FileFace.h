@@ -7,7 +7,9 @@ GRAPHITE2_NFILEFACE
 #
 include
 <
-cstdio
+stdio
+.
+h
 >
 #
 include

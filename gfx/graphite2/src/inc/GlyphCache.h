@@ -127,16 +127,6 @@ glyphid
 )
 const
 ;
-uint16
-glyphAttr
-(
-uint16
-gid
-uint16
-gattr
-)
-const
-;
 CLASS_NEW_DELETE
 ;
 private

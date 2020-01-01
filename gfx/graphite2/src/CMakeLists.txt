@@ -567,12 +567,6 @@ virtual
 -
 dtor
 -
-fdiagnostics
--
-show
--
-option
--
 fno
 -
 rtti
@@ -752,12 +746,6 @@ non
 virtual
 -
 dtor
--
-fdiagnostics
--
-show
--
-option
 -
 fno
 -

@@ -3594,12 +3594,7 @@ return
 nGlyphId
 ;
 }
-return
--
-1
-;
 }
-else
 {
 size_t
 nStrSizeGoal
