@@ -19115,7 +19115,9 @@ aFile
 |
 0x20
 0600
-0
+ostream
+.
+DEFER_OPEN
 )
 ;
 var
