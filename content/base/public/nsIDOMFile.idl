@@ -433,6 +433,9 @@ nsIInputStream
 interface
 nsIURI
 ;
+interface
+nsIPrincipal
+;
 [
 scriptable
 uuid
@@ -569,10 +572,13 @@ handler
 [
 noscript
 ]
-readonly
-attribute
 DOMString
-internalUrl
+getInternalUrl
+(
+in
+nsIPrincipal
+principal
+)
 ;
 /
 /

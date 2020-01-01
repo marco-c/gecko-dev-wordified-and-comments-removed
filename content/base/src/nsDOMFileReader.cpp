@@ -1776,6 +1776,7 @@ nsDOMFileInternalUrlHolder
 urlHolder
 (
 mFile
+mPrincipal
 )
 ;
 nsCOMPtr
