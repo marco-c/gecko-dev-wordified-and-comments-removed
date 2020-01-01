@@ -143,8 +143,6 @@ src
 WebappRT
 .
 launchURI
-.
-spec
 )
 ;
 }
