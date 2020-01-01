@@ -257,8 +257,9 @@ mVersion
 =
 0
 ;
-free
+JS_free
 (
+aCx
 jsBytes
 )
 ;
@@ -280,8 +281,9 @@ jsBytes
 mSize
 )
 ;
-free
+JS_free
 (
+aCx
 jsBytes
 )
 ;
