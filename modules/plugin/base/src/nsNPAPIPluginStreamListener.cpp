@@ -3132,6 +3132,15 @@ if
 (
 !
 mInst
+|
+|
+!
+mInst
+-
+>
+CanFireNotifications
+(
+)
 )
 {
 return
