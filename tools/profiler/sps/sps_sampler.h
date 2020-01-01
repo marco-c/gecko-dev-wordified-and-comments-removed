@@ -46,6 +46,10 @@ extern
 pthread_key_t
 pkey_stack
 ;
+extern
+bool
+stack_key_initialized
+;
 #
 define
 SAMPLER_INIT
@@ -607,6 +611,14 @@ char
 aInfo
 )
 {
+if
+(
+!
+stack_key_initialized
+)
+return
+NULL
+;
 Stack
 *
 stack

@@ -87,6 +87,9 @@ pkey_stack
 pthread_key_t
 pkey_ticker
 ;
+bool
+stack_key_initialized
+;
 TimeStamp
 sLastTracerEvent
 ;
@@ -1576,6 +1579,10 @@ init
 return
 ;
 }
+stack_key_initialized
+=
+true
+;
 Stack
 *
 stack
