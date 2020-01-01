@@ -1317,6 +1317,11 @@ insertBack
 cx
 )
 ;
+js_InitRandom
+(
+cx
+)
+;
 if
 (
 first
@@ -5154,6 +5159,10 @@ outstandingRequests
 #
 endif
 resolveFlags
+(
+0
+)
+rngSeed
 (
 0
 )
