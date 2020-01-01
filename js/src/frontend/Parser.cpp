@@ -10097,7 +10097,6 @@ fun
 funName
 type
 kind
-strict
 becameStrict
 )
 )
@@ -10250,7 +10249,6 @@ fun
 funName
 type
 kind
-strict
 becameStrict
 )
 )
@@ -10407,7 +10405,6 @@ fun
 funName
 type
 kind
-strict
 becameStrict
 )
 )
@@ -10582,7 +10579,6 @@ fun
 funName
 Normal
 Statement
-strict
 NULL
 )
 )
@@ -10720,8 +10716,6 @@ FunctionType
 type
 FunctionSyntaxKind
 kind
-bool
-strict
 bool
 *
 becameStrict
