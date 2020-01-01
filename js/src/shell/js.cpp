@@ -21073,6 +21073,8 @@ v
 datap
 &
 nbytes
+NULL
+NULL
 )
 )
 return
@@ -21304,6 +21306,8 @@ byteLength
 JS_STRUCTURED_CLONE_VERSION
 &
 v
+NULL
+NULL
 )
 )
 {

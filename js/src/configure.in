@@ -11726,6 +11726,17 @@ CPU_ARCH
 arm
 ;
 ;
+mips
+|
+mipsel
+)
+CPU_ARCH
+=
+"
+mips
+"
+;
+;
 esac
 if
 test
