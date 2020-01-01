@@ -11217,8 +11217,9 @@ next
 )
 ;
 }
+static
 bool
-instIsGuard
+InstIsGuard
 (
 Instruction
 *
@@ -11313,8 +11314,9 @@ ph
 NULL
 ;
 }
+static
 bool
-instIsBNop
+InstIsBNop
 (
 Instruction
 *
@@ -11402,8 +11404,9 @@ decode
 4
 ;
 }
+static
 bool
-instIsArtificialGuard
+InstIsArtificialGuard
 (
 Instruction
 *
@@ -11418,7 +11421,7 @@ ph
 if
 (
 !
-instIsGuard
+InstIsGuard
 (
 inst
 ph
@@ -11464,7 +11467,7 @@ ph
 ;
 if
 (
-instIsGuard
+InstIsGuard
 (
 this
 &
@@ -11483,7 +11486,7 @@ size
 ;
 if
 (
-instIsArtificialGuard
+InstIsArtificialGuard
 (
 ret
 &
@@ -11504,7 +11507,7 @@ size
 ;
 if
 (
-instIsBNop
+InstIsBNop
 (
 ret
 )
