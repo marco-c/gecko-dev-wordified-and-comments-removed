@@ -2838,6 +2838,16 @@ export
 XSUNTRANSPORT
 XSUNSMESIZE
 fi
+#
+Disable
+Gnome
+crash
+dialog
+GNOME_DISABLE_CRASH_DIALOG
+=
+1
+export
+GNOME_DISABLE_CRASH_DIALOG
 if
 [
 "
