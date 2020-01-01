@@ -26,13 +26,6 @@ h
 #
 include
 "
-jsproxy
-.
-h
-"
-#
-include
-"
 jspropertytree
 .
 h

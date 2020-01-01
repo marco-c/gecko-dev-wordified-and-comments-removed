@@ -2355,11 +2355,6 @@ if
 obj
 -
 >
-asObjectPtr
-(
-)
--
->
 isExtensible
 (
 )

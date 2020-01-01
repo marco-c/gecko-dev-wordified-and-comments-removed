@@ -4703,6 +4703,13 @@ proto
 }
 inline
 bool
+isExtensible
+(
+)
+const
+;
+inline
+bool
 isDenseArray
 (
 )
