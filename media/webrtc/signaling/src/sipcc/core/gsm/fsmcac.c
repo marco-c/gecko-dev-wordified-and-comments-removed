@@ -573,7 +573,7 @@ timer
 "
 GSM_CAC_FAILURE_TIMER
 TIMER_EXPIRATION
-gsm_msgq
+gsm_msg_queue
 )
 ;
 if

@@ -18927,7 +18927,7 @@ lsm_tmr_tones
 "
 GSM_MULTIPART_TONES_TIMER
 TIMER_EXPIRATION
-gsm_msgq
+gsm_msg_queue
 )
 ;
 lsm_continuous_tmr_tones
@@ -18939,7 +18939,7 @@ lsm_continuous_tmr_tones
 "
 GSM_CONTINUOUS_TONES_TIMER
 TIMER_EXPIRATION
-gsm_msgq
+gsm_msg_queue
 )
 ;
 lsm_tone_duration_tmr
@@ -18951,7 +18951,7 @@ lsm_tone_duration_tmr
 "
 GSM_TONE_DURATION_TIMER
 TIMER_EXPIRATION
-gsm_msgq
+gsm_msg_queue
 )
 ;
 lsm_init_config
