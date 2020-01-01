@@ -330,13 +330,6 @@ Services
 um
 .
 activeUpdate
-&
-&
-Services
-.
-aus
-.
-isDownloading
 )
 {
 this
