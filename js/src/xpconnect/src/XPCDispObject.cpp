@@ -646,7 +646,7 @@ EXCEPINFO
 exception
 ;
 {
-AutoJSSuspendRequest
+JSAutoSuspendRequest
 req
 (
 ccx
