@@ -200,6 +200,10 @@ nsIAsyncVerifyRedirectCallback
 .
 idl
 \
+nsIBackgroundFileSaver
+.
+idl
+\
 nsIBufferedStreams
 .
 idl

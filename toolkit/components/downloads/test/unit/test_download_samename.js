@@ -228,6 +228,12 @@ Ci
 nsIDownload
 )
 ;
+do_execute_soon
+(
+function
+(
+)
+{
 downloadUtils
 .
 downloadManager
@@ -255,6 +261,9 @@ resumeDownload
 dl
 .
 id
+)
+;
+}
 )
 ;
 }
