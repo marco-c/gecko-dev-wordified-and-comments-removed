@@ -1284,13 +1284,6 @@ BINPATH
 /
 components
 /
-profiler
-.
-xpt
-BINPATH
-/
-components
-/
 proxyObject
 .
 xpt
