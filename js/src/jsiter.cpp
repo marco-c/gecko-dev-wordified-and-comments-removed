@@ -1786,6 +1786,15 @@ flags
 &
 JSITER_OWNONLY
 )
+&
+&
+cx
+-
+>
+regs
+-
+>
+pc
 )
 {
 JS_ASSERT
