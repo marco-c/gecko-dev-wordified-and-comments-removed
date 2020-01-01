@@ -281,10 +281,6 @@ testTypedArrays
 .
 cpp
 \
-testUTF8
-.
-cpp
-\
 testValueABI
 .
 cpp

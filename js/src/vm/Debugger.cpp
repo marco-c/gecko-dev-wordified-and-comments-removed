@@ -25258,7 +25258,6 @@ strlen
 s
 )
 InternAtom
-NormalEncoding
 )
 ;
 if

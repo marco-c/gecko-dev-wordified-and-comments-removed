@@ -436,10 +436,6 @@ argv
 :
 NULL
 ;
-JS_SetCStringsAreUTF8
-(
-)
-;
 for
 (
 JSAPITest
