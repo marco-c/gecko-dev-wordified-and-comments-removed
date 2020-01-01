@@ -453,7 +453,7 @@ mDetectedCharset
 "
 UTF
 -
-16BE
+16
 "
 ;
 break
@@ -512,7 +512,7 @@ mDetectedCharset
 "
 UTF
 -
-32BE
+32
 "
 ;
 else
@@ -631,7 +631,7 @@ mDetectedCharset
 "
 UTF
 -
-32LE
+32
 "
 ;
 else
@@ -653,7 +653,7 @@ mDetectedCharset
 "
 UTF
 -
-16LE
+16
 "
 ;
 break
