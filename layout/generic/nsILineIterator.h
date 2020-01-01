@@ -98,6 +98,10 @@ FindLineContaining
 nsIFrame
 *
 aFrame
+PRInt32
+aStartLine
+=
+0
 )
 =
 0
