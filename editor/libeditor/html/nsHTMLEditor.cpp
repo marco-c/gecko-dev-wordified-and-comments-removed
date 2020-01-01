@@ -25054,12 +25054,11 @@ nsIFrame
 *
 frame
 =
-ps
+content
 -
 >
-GetPrimaryFrameFor
+GetPrimaryFrame
 (
-content
 )
 ;
 nsIFrame

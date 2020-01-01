@@ -1623,12 +1623,11 @@ nsIFrame
 *
 frame
 =
-presShell
+content
 -
 >
-GetPrimaryFrameFor
+GetPrimaryFrame
 (
-content
 )
 ;
 if
