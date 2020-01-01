@@ -506,6 +506,14 @@ desc
 .
 value
 ;
+else
+vp
+-
+>
+setUndefined
+(
+)
+;
 if
 (
 desc
