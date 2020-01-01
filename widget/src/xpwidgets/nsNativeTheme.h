@@ -458,6 +458,14 @@ aEventStates
 )
 ;
 PRBool
+IsVerticalProgress
+(
+nsIFrame
+*
+aFrame
+)
+;
+PRBool
 IsReadOnly
 (
 nsIFrame
