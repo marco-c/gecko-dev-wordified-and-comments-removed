@@ -72,6 +72,15 @@ cairo_t
 cr
 )
 ;
+cairo_public
+void
+cairo_quartz_finish_cg_context_with_clip
+(
+cairo_t
+*
+cr
+)
+;
 #
 if
 CAIRO_HAS_QUARTZ_FONT
