@@ -1023,10 +1023,14 @@ NULL
 ;
 #
 endif
-SideExit
+VMSideExit
 *
 lr
 =
+(
+VMSideExit
+*
+)
 rec
 -
 >

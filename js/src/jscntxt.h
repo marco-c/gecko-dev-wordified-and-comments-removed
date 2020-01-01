@@ -311,7 +311,6 @@ void
 *
 #
 endif
-typedef
 struct
 JSTraceMonitor
 {
@@ -366,7 +365,6 @@ Fragmento
 reFragmento
 ;
 }
-JSTraceMonitor
 ;
 #
 ifdef
