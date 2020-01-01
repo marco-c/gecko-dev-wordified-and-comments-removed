@@ -2333,6 +2333,16 @@ this
 clickSelectsAll
 &
 &
+document
+.
+activeElement
+=
+=
+this
+.
+inputField
+&
+&
 this
 .
 inputField
