@@ -486,6 +486,10 @@ remote_autocomplete
 .
 js
 \
+remote_contentpopup
+.
+js
+\
 remote_head
 .
 js
@@ -555,6 +559,14 @@ browser_click_content
 js
 \
 browser_contacts
+.
+js
+\
+browser_contentpopup
+.
+html
+\
+browser_contentpopup
 .
 js
 \
