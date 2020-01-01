@@ -212,7 +212,7 @@ JS
 :
 :
 Value
-&
+*
 aRetValue
 )
 =

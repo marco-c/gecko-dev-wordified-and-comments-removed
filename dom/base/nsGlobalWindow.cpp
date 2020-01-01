@@ -40172,6 +40172,7 @@ FastGetGlobalJSObject
 )
 options
 false
+&
 ignored
 )
 ;

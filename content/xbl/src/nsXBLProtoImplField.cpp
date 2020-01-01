@@ -491,6 +491,7 @@ mFieldTextLength
 aBoundNode
 options
 false
+&
 result
 )
 ;

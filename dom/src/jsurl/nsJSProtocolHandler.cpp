@@ -1390,6 +1390,7 @@ script
 globalJSObject
 options
 true
+&
 v
 )
 ;

@@ -188,7 +188,7 @@ JS
 :
 :
 Value
-&
+*
 aRetValue
 )
 ;

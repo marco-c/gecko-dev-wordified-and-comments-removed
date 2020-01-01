@@ -7258,7 +7258,6 @@ utf16script
 obj
 options
 false
-*
 rval
 )
 ;

@@ -3987,6 +3987,7 @@ GetGlobalJSObject
 )
 options
 false
+&
 ignored
 )
 ;

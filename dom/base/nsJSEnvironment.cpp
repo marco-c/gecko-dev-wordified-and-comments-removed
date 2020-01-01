@@ -5447,7 +5447,7 @@ JS
 :
 :
 Value
-&
+*
 aRetValue
 )
 {
@@ -5480,6 +5480,7 @@ mIsInitialized
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+*
 aRetValue
 =
 JSVAL_VOID
@@ -5641,7 +5642,6 @@ aScript
 Length
 (
 )
-&
 aRetValue
 )
 ;
@@ -5653,6 +5653,7 @@ ok
 !
 JSVAL_IS_VOID
 (
+*
 aRetValue
 )
 &
@@ -5667,6 +5668,7 @@ str
 JS_ValueToString
 (
 mContext
+*
 aRetValue
 )
 ;
@@ -5676,6 +5678,7 @@ ok
 !
 str
 ;
+*
 aRetValue
 =
 ok
