@@ -2147,7 +2147,7 @@ finalizeLoop
 CFGState
 &
 state
-MInstruction
+MDefinition
 *
 last
 )
@@ -2571,7 +2571,7 @@ pc
 JSOP_IFNEX
 )
 ;
-MInstruction
+MDefinition
 *
 last
 =
@@ -2696,7 +2696,7 @@ pc
 JSOP_IFNEX
 )
 ;
-MInstruction
+MDefinition
 *
 ins
 =
@@ -2916,7 +2916,7 @@ pc
 JSOP_IFNEX
 )
 ;
-MInstruction
+MDefinition
 *
 ins
 =
@@ -4671,7 +4671,7 @@ return
 false
 ;
 }
-MInstruction
+MDefinition
 *
 ins
 =
@@ -4914,9 +4914,9 @@ JSOp
 op
 )
 {
-MInstruction
+MDefinition
 *
-ins
+def
 ;
 switch
 (
@@ -4926,7 +4926,7 @@ op
 case
 JSOP_RETURN
 :
-ins
+def
 =
 current
 -
@@ -4940,6 +4940,9 @@ break
 case
 JSOP_STOP
 :
+{
+MInstruction
+*
 ins
 =
 MConstant
@@ -4960,11 +4963,16 @@ add
 ins
 )
 ;
+def
+=
+ins
+;
 break
 ;
+}
 default
 :
-ins
+def
 =
 NULL
 ;
@@ -4989,7 +4997,7 @@ MReturn
 :
 New
 (
-ins
+def
 )
 ;
 current
@@ -5064,7 +5072,7 @@ JSOp
 op
 )
 {
-MInstruction
+MDefinition
 *
 right
 =
@@ -5075,7 +5083,7 @@ pop
 (
 )
 ;
-MInstruction
+MDefinition
 *
 left
 =

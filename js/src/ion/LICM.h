@@ -124,7 +124,7 @@ toHoist
 bool
 isInLoop
 (
-MInstruction
+MDefinition
 *
 ins
 )

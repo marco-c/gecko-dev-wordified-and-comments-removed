@@ -45,7 +45,7 @@ Y
 >
 *
 lir
-MInstruction
+MDefinition
 *
 mir
 const
@@ -130,7 +130,7 @@ Y
 >
 *
 lir
-MInstruction
+MDefinition
 *
 mir
 LDefinition
@@ -193,7 +193,7 @@ Temps
 >
 *
 lir
-MInstruction
+MDefinition
 *
 mir
 )
@@ -231,7 +231,7 @@ Temps
 >
 *
 lir
-MInstruction
+MDefinition
 *
 mir
 LDefinition
@@ -360,7 +360,7 @@ LIRGenerator
 :
 ensureDefined
 (
-MInstruction
+MDefinition
 *
 mir
 )
@@ -379,6 +379,11 @@ if
 (
 !
 mir
+-
+>
+toInstruction
+(
+)
 -
 >
 accept
@@ -410,7 +415,7 @@ LIRGenerator
 :
 useRegister
 (
-MInstruction
+MDefinition
 *
 mir
 )
@@ -435,7 +440,7 @@ LIRGenerator
 :
 use
 (
-MInstruction
+MDefinition
 *
 mir
 )
@@ -460,7 +465,7 @@ LIRGenerator
 :
 useOrConstant
 (
-MInstruction
+MDefinition
 *
 mir
 )
@@ -503,7 +508,7 @@ LIRGenerator
 :
 useRegisterOrConstant
 (
-MInstruction
+MDefinition
 *
 mir
 )
@@ -553,7 +558,7 @@ LIRGenerator
 :
 useKeepaliveOrConstant
 (
-MInstruction
+MDefinition
 *
 mir
 )
@@ -603,7 +608,7 @@ LIRGenerator
 :
 useFixed
 (
-MInstruction
+MDefinition
 *
 mir
 Register
@@ -627,7 +632,7 @@ LIRGenerator
 :
 useFixed
 (
-MInstruction
+MDefinition
 *
 mir
 FloatRegister

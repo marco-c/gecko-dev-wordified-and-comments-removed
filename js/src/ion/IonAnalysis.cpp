@@ -222,7 +222,7 @@ js
 :
 Vector
 <
-MInstruction
+MDefinition
 *
 0
 IonAllocPolicy
@@ -234,12 +234,12 @@ private
 bool
 addToWorklist
 (
-MInstruction
+MDefinition
 *
 ins
 )
 ;
-MInstruction
+MDefinition
 *
 popFromWorklist
 (
@@ -248,7 +248,7 @@ popFromWorklist
 bool
 canSpecializeAtDef
 (
-MInstruction
+MDefinition
 *
 ins
 )
@@ -256,7 +256,7 @@ ins
 bool
 reflow
 (
-MInstruction
+MDefinition
 *
 ins
 )
@@ -279,7 +279,7 @@ insertConversions
 bool
 inspectUses
 (
-MInstruction
+MDefinition
 *
 ins
 )
@@ -287,7 +287,7 @@ ins
 bool
 inspectOperands
 (
-MInstruction
+MDefinition
 *
 ins
 )
@@ -295,7 +295,7 @@ ins
 bool
 propagateUsedTypes
 (
-MInstruction
+MDefinition
 *
 ins
 )
@@ -311,7 +311,7 @@ phi
 bool
 fixup
 (
-MInstruction
+MDefinition
 *
 ins
 )
@@ -319,7 +319,7 @@ ins
 void
 rewriteUses
 (
-MInstruction
+MDefinition
 *
 old
 MInstruction
@@ -365,7 +365,7 @@ TypeAnalyzer
 :
 addToWorklist
 (
-MInstruction
+MDefinition
 *
 ins
 )
@@ -401,7 +401,7 @@ return
 true
 ;
 }
-MInstruction
+MDefinition
 *
 TypeAnalyzer
 :
@@ -410,7 +410,7 @@ popFromWorklist
 (
 )
 {
-MInstruction
+MDefinition
 *
 ins
 =
@@ -627,7 +627,7 @@ TypeAnalyzer
 :
 inspectOperands
 (
-MInstruction
+MDefinition
 *
 ins
 )
@@ -698,7 +698,7 @@ TypeAnalyzer
 :
 inspectUses
 (
-MInstruction
+MDefinition
 *
 ins
 )
@@ -822,7 +822,7 @@ TypeAnalyzer
 :
 propagateUsedTypes
 (
-MInstruction
+MDefinition
 *
 ins
 )
@@ -859,7 +859,7 @@ i
 +
 )
 {
-MInstruction
+MDefinition
 *
 input
 =
@@ -945,7 +945,7 @@ empty
 )
 )
 {
-MInstruction
+MDefinition
 *
 ins
 =
@@ -1033,7 +1033,7 @@ TypeAnalyzer
 :
 rewriteUses
 (
-MInstruction
+MDefinition
 *
 old
 MInstruction
@@ -1079,7 +1079,7 @@ more
 )
 )
 {
-MInstruction
+MDefinition
 *
 use
 =
@@ -1223,7 +1223,7 @@ i
 +
 )
 {
-MInstruction
+MDefinition
 *
 ins
 =
@@ -1275,7 +1275,7 @@ TypeAnalyzer
 :
 fixup
 (
-MInstruction
+MDefinition
 *
 ins
 )
@@ -1425,6 +1425,10 @@ block
 >
 insertAfter
 (
+(
+MInstruction
+*
+)
 ins
 unbox
 )
@@ -1452,7 +1456,7 @@ more
 )
 )
 {
-MInstruction
+MDefinition
 *
 use
 =
@@ -1591,6 +1595,10 @@ block
 >
 insertBefore
 (
+(
+MInstruction
+*
+)
 use
 box
 )
@@ -1638,6 +1646,10 @@ block
 >
 insertBefore
 (
+(
+MInstruction
+*
+)
 use
 unbox
 )
@@ -1721,7 +1733,7 @@ more
 )
 )
 {
-MInstruction
+MDefinition
 *
 ins
 =

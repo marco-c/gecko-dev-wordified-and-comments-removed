@@ -553,7 +553,7 @@ finalizeLoop
 CFGState
 &
 state
-MInstruction
+MDefinition
 *
 last
 )

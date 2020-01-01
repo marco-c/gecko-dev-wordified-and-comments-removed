@@ -41,6 +41,9 @@ class
 MIRGraph
 ;
 class
+MDefinition
+;
+class
 MInstruction
 ;
 class
@@ -135,7 +138,7 @@ inline
 bool
 ensureDefined
 (
-MInstruction
+MDefinition
 *
 mir
 )
@@ -143,7 +146,7 @@ mir
 LUse
 use
 (
-MInstruction
+MDefinition
 *
 mir
 LUse
@@ -154,7 +157,7 @@ inline
 LUse
 use
 (
-MInstruction
+MDefinition
 *
 mir
 )
@@ -163,7 +166,7 @@ inline
 LUse
 useRegister
 (
-MInstruction
+MDefinition
 *
 mir
 )
@@ -172,7 +175,7 @@ inline
 LUse
 useFixed
 (
-MInstruction
+MDefinition
 *
 mir
 Register
@@ -183,7 +186,7 @@ inline
 LUse
 useFixed
 (
-MInstruction
+MDefinition
 *
 mir
 FloatRegister
@@ -194,7 +197,7 @@ inline
 LAllocation
 useOrConstant
 (
-MInstruction
+MDefinition
 *
 mir
 )
@@ -203,7 +206,7 @@ inline
 LAllocation
 useKeepaliveOrConstant
 (
-MInstruction
+MDefinition
 *
 mir
 )
@@ -212,7 +215,7 @@ inline
 LAllocation
 useRegisterOrConstant
 (
-MInstruction
+MDefinition
 *
 mir
 )
@@ -226,7 +229,7 @@ LInstruction
 lir
 size_t
 n
-MInstruction
+MDefinition
 *
 mir
 )
@@ -263,7 +266,7 @@ Temps
 >
 *
 lir
-MInstruction
+MDefinition
 *
 mir
 const
@@ -291,7 +294,7 @@ Temps
 >
 *
 lir
-MInstruction
+MDefinition
 *
 mir
 LDefinition
@@ -325,7 +328,7 @@ Temps
 >
 *
 lir
-MInstruction
+MDefinition
 *
 mir
 )
@@ -349,7 +352,7 @@ Temps
 >
 *
 lir
-MInstruction
+MDefinition
 *
 mir
 LDefinition
@@ -380,13 +383,13 @@ lowerForALU
 LMathI
 *
 ins
-MInstruction
+MDefinition
 *
 mir
-MInstruction
+MDefinition
 *
 lhs
-MInstruction
+MDefinition
 *
 rhs
 )
@@ -462,7 +465,7 @@ rewriteDefsInSnapshots
 MInstruction
 *
 ins
-MInstruction
+MDefinition
 *
 old
 )
@@ -499,6 +502,15 @@ phi
 ;
 public
 :
+virtual
+bool
+lowerPhi
+(
+MPhi
+*
+phi
+)
+;
 bool
 doBitOp
 (
@@ -507,14 +519,6 @@ op
 MInstruction
 *
 ins
-)
-;
-bool
-lowerPhi
-(
-MPhi
-*
-phi
 )
 ;
 public

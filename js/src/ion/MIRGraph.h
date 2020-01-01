@@ -456,9 +456,9 @@ i
 ;
 }
 void
-allocInstructionId
+allocDefinitionId
 (
-MInstruction
+MDefinition
 *
 ins
 )
@@ -521,9 +521,9 @@ uint32
 struct
 StackSlot
 {
-MInstruction
+MDefinition
 *
-ins
+def
 ;
 uint32
 copyOf
@@ -541,17 +541,17 @@ nextCopy
 void
 set
 (
-MInstruction
+MDefinition
 *
-ins
+def
 )
 {
 this
 -
 >
-ins
+def
 =
-ins
+def
 ;
 copyOf
 =
@@ -657,7 +657,7 @@ setSlot
 (
 uint32
 slot
-MInstruction
+MDefinition
 *
 ins
 )
@@ -765,7 +765,7 @@ id_
 id
 ;
 }
-MInstruction
+MDefinition
 *
 peek
 (
@@ -778,7 +778,7 @@ initSlot
 (
 uint32
 index
-MInstruction
+MDefinition
 *
 ins
 )
@@ -800,7 +800,7 @@ arg
 void
 push
 (
-MInstruction
+MDefinition
 *
 ins
 )
@@ -819,7 +819,7 @@ uint32
 local
 )
 ;
-MInstruction
+MDefinition
 *
 pop
 (
@@ -1314,7 +1314,7 @@ MBasicBlock
 child
 )
 ;
-MInstruction
+MDefinition
 *
 getSlot
 (
@@ -1359,7 +1359,7 @@ numOperands
 )
 ;
 }
-MInstruction
+MDefinition
 *
 getEntrySlot
 (
@@ -1576,7 +1576,7 @@ phiIndex_
 MInstructionIterator
 iter_
 ;
-MInstruction
+MDefinition
 *
 getIns
 (
@@ -1661,7 +1661,7 @@ iter_
 +
 ;
 }
-MInstruction
+MDefinition
 *
 operator
 *
@@ -1674,7 +1674,7 @@ getIns
 )
 ;
 }
-MInstruction
+MDefinition
 *
 operator
 -
