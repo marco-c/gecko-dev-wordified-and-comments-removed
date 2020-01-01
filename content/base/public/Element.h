@@ -3111,11 +3111,6 @@ nsRect
 aRect
 )
 ;
-nsIntSize
-GetPaddingRectSize
-(
-)
-;
 nsIFrame
 *
 GetStyledFrame
