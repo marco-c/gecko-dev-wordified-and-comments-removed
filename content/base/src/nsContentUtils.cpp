@@ -15336,9 +15336,6 @@ nsScriptObjectTracer
 aTracer
 )
 {
-PRBool
-newHolder
-;
 nsresult
 rv
 =
