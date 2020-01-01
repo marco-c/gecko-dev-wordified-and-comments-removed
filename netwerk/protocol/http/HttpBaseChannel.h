@@ -849,14 +849,6 @@ bool
 aLoadUnblocked
 )
 ;
-NS_IMETHOD
-GetPacingTelemetryID
-(
-uint32_t
-*
-aID
-)
-;
 inline
 void
 CleanRedirectCacheChainIfNecessary
