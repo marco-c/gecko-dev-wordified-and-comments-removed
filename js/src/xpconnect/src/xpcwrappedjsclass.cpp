@@ -5783,7 +5783,7 @@ js_Invoke
 cx
 argc
 stackbase
-JSINVOKE_INTERNAL
+0
 )
 ;
 result

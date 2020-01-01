@@ -4620,8 +4620,6 @@ cx
 thisp
 fval
 flags
-|
-JSINVOKE_INTERNAL
 2
 args
 &
@@ -6250,8 +6248,6 @@ cx
 argc
 invokevp
 flags
-|
-JSINVOKE_INTERNAL
 )
 ;
 if
