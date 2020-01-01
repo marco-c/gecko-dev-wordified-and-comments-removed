@@ -14178,6 +14178,15 @@ rt
 }
 #
 endif
+#
+ifdef
+JS_TRACER
+PurgeJITOracle
+(
+)
+;
+#
+endif
 if
 (
 rt

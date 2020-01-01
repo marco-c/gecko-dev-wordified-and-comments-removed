@@ -1040,9 +1040,6 @@ SystemAllocPolicy
 >
 RecordAttemptMap
 ;
-class
-Oracle
-;
 struct
 TraceMonitor
 {
@@ -1087,10 +1084,6 @@ assembler
 FrameInfoCache
 *
 frameCache
-;
-Oracle
-*
-oracle
 ;
 TraceRecorder
 *
