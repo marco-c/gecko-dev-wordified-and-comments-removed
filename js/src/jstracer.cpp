@@ -10108,13 +10108,7 @@ lir
 >
 insStorei
 (
-lir
--
->
-insImmPtr
-(
-lr
-)
+ret
 lirbuf
 -
 >
