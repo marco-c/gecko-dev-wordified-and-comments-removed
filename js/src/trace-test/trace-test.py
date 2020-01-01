@@ -2379,6 +2379,17 @@ args
 :
 ]
     
+JS
+=
+os
+.
+path
+.
+realpath
+(
+JS
+)
+    
 if
 OPTIONS
 .
