@@ -46978,8 +46978,9 @@ Need
 alsa
 for
 Ogg
-or
 Wave
+or
+WebM
 decoding
 on
 Linux
@@ -46996,6 +46997,11 @@ ogg
 disable
 -
 wave
+-
+-
+disable
+-
+webm
 .
 (
 On
