@@ -695,13 +695,8 @@ aTargetIndex
 ]
 -
 >
-QueryInterface
+QueryNativeInterface
 (
-(
-const
-nsID
-&
-)
 IID_IUnknown
 (
 void
