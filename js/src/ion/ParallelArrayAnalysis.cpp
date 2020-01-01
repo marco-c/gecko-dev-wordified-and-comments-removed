@@ -870,10 +870,6 @@ SAFE_OP
 (
 MonitorTypes
 )
-UNSAFE_OP
-(
-PostWriteBarrier
-)
 SAFE_OP
 (
 GetPropertyCache

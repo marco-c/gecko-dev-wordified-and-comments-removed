@@ -1037,14 +1037,6 @@ ins
 )
 ;
 bool
-visitPostWriteBarrier
-(
-MPostWriteBarrier
-*
-ins
-)
-;
-bool
 visitArrayLength
 (
 MArrayLength

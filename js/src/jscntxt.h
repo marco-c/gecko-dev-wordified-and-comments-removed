@@ -1160,15 +1160,6 @@ this
 ;
 }
 inline
-void
-clearNurseryObjects
-(
-JSRuntime
-*
-rt
-)
-;
-inline
 bool
 lookupProto
 (
