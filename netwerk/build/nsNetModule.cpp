@@ -164,6 +164,13 @@ h
 #
 include
 "
+nsDNSPrefetch
+.
+h
+"
+#
+include
+"
 nsNetCID
 .
 h
@@ -2343,6 +2350,13 @@ gNetStrings
 gNetStrings
 =
 nsnull
+;
+nsDNSPrefetch
+:
+:
+Shutdown
+(
+)
 ;
 }
 static

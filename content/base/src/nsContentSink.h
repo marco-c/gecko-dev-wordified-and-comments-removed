@@ -557,6 +557,15 @@ PRBool
 aExplicit
 )
 ;
+void
+PrefetchDNS
+(
+const
+nsAString
+&
+aHref
+)
+;
 nsresult
 GetChannelCacheKey
 (
