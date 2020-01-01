@@ -343,6 +343,9 @@ aSpeed
 1
 ;
 let
+status
+;
+let
 (
 transfer
 =
