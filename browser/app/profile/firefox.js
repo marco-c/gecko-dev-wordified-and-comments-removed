@@ -4989,3 +4989,13 @@ createdDefaultQueries
 false
 )
 ;
+pref
+(
+"
+browser
+.
+ssl_override_behavior
+"
+1
+)
+;
