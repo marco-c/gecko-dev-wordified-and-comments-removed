@@ -2011,6 +2011,7 @@ function
 sendStkResponse
 (
 window
+command
 response
 )
 {
@@ -2041,6 +2042,12 @@ NS_ERROR_UNEXPECTED
 )
 ;
 }
+response
+.
+command
+=
+command
+;
 cpmm
 .
 sendAsyncMessage
