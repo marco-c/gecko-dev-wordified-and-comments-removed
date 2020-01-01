@@ -1,10 +1,4 @@
 #
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
-#
 include
 <
 windows
@@ -1662,5 +1656,3 @@ S_OK
 }
 }
 }
-#
-endif

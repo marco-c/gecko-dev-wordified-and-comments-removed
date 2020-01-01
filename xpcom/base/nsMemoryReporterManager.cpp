@@ -1010,12 +1010,6 @@ s
 ullAvailVirtual
 ;
 }
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
 static
 PRInt64
 GetPrivate
@@ -1112,8 +1106,6 @@ to
 .
 "
 )
-#
-endif
 static
 PRInt64
 GetResident
@@ -2740,12 +2732,6 @@ defined
 (
 XP_WIN
 )
-&
-&
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
 REGISTER
 (
 Private

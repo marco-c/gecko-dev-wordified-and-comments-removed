@@ -1,9 +1,3 @@
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
 namespace
 mozilla
 {
@@ -53,5 +47,3 @@ StopAudioSession
 ;
 }
 }
-#
-endif

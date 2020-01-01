@@ -2441,12 +2441,6 @@ AssertPluginThread
 if
 defined
 XP_WIN
-&
-&
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
 mozilla
 :
 :
@@ -2684,11 +2678,6 @@ if
 !
 defined
 XP_WIN
-|
-|
-MOZ_WINSDK_TARGETVER
-<
-MOZ_NTDDI_LONGHORN
 NS_RUNTIMEABORT
 (
 "

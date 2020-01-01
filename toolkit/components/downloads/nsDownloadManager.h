@@ -10,14 +10,6 @@ defined
 (
 XP_WIN
 )
-&
-&
-(
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
-)
 #
 define
 DOWNLOAD_SCANNER

@@ -3734,12 +3734,6 @@ minidump_type
 =
 MiniDumpNormal
 ;
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
 DWORD
 version_size
 =
@@ -3899,8 +3893,6 @@ MiniDumpWithFullMemoryInfo
 }
 }
 }
-#
-endif
 #
 endif
 gExceptionHandler

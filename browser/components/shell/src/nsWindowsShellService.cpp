@@ -1013,12 +1013,6 @@ bool
 aIsDefaultBrowser
 )
 {
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
 IApplicationAssociationRegistration
 *
 pAAR
@@ -1081,8 +1075,6 @@ return
 true
 ;
 }
-#
-endif
 return
 false
 ;
