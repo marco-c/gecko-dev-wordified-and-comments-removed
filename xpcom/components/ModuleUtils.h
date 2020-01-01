@@ -9,15 +9,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Module
 .
 h
@@ -455,7 +446,6 @@ mozilla
 {
 class
 GenericModule
-MOZ_FINAL
 :
 public
 nsIModule

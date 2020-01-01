@@ -7,15 +7,6 @@ nsDirectoryIndexStream_h__
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIFile
 .
 h
@@ -57,7 +48,6 @@ h
 "
 class
 nsDirectoryIndexStream
-MOZ_FINAL
 :
 public
 nsIInputStream
