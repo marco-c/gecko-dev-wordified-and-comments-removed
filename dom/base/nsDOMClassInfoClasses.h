@@ -711,10 +711,6 @@ SVGMaskElement
 )
 DOMCI_CLASS
 (
-SVGSwitchElement
-)
-DOMCI_CLASS
-(
 SVGSymbolElement
 )
 DOMCI_CLASS
