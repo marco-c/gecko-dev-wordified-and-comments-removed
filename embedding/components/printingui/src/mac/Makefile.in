@@ -452,12 +452,13 @@ NULL
 DIRS
 =
 printpde
-CPPSRCS
+CMMSRCS
 =
-\
 nsPrintingPromptServiceX
 .
-cpp
+mm
+CPPSRCS
+=
 \
 nsPrintProgressParams
 .
