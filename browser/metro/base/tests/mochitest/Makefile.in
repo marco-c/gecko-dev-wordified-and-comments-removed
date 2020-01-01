@@ -230,6 +230,14 @@ browser_selection_urlbar
 .
 js
 \
+browser_selection_contenteditable
+.
+js
+\
+browser_selection_contenteditable
+.
+html
+\
 (
 NULL
 )
