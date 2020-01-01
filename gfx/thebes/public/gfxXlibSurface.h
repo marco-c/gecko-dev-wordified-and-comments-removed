@@ -80,6 +80,10 @@ const
 gfxIntSize
 &
 size
+int
+depth
+=
+0
 )
 ;
 gfxXlibSurface

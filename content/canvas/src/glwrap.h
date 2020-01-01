@@ -52,14 +52,6 @@ define
 GLAPI
 #
 endif
-#
-ifdef
-WINCE
-#
-define
-USE_GLES2
-#
-endif
 typedef
 char
 realGLboolean
@@ -1622,6 +1614,9 @@ program
 PFNGLLINKPROGRAMPROC
 fLinkProgram
 ;
+#
+if
+0
 typedef
 void
 *
@@ -1655,6 +1650,8 @@ target
 PFNGLUNAMPBUFFERPROC
 fUnmapBuffer
 ;
+#
+endif
 typedef
 void
 (
