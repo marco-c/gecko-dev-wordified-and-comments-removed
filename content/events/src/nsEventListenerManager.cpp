@@ -1798,7 +1798,7 @@ ls
 {
 nsCOMPtr
 <
-nsIDOMEventListener
+nsIJSEventListener
 >
 scriptListener
 ;
