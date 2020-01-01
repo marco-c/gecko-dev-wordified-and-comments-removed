@@ -4998,6 +4998,12 @@ forceContainerResize
 (
 )
 ;
+bv
+.
+updateDefaultZoom
+(
+)
+;
 document
 .
 getElementById
