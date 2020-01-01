@@ -3272,7 +3272,7 @@ TypeObject
 ;
 JS_STATIC_ASSERT
 (
-JS_ARRAY_LENGTH
+NS_ARRAY_LENGTH
 (
 trace_types
 )
