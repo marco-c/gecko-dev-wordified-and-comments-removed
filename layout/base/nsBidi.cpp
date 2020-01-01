@@ -6717,8 +6717,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 PRInt32
 nsBidi
 :
@@ -7203,5 +7201,7 @@ return
 NS_OK
 ;
 }
+#
+endif
 #
 endif
