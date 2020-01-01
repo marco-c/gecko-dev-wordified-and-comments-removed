@@ -262,3 +262,13 @@ blockID
 "
 )
 ;
+pref
+(
+"
+general
+.
+smoothScroll
+"
+true
+)
+;
