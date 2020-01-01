@@ -8454,7 +8454,7 @@ atomMap
 i
 )
 ;
-JS_CallTracer
+js_CallGCMarker
 (
 trc
 JSVAL_TO_TRACEABLE
@@ -8522,7 +8522,7 @@ objects
 i
 )
 ;
-JS_CallTracer
+js_CallGCMarker
 (
 trc
 objarray
@@ -8599,7 +8599,7 @@ regexps
 i
 )
 ;
-JS_CallTracer
+js_CallGCMarker
 (
 trc
 objarray
@@ -8641,7 +8641,7 @@ object
 "
 )
 ;
-JS_CallTracer
+js_CallGCMarker
 (
 trc
 script

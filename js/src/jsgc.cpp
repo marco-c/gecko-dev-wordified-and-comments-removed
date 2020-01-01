@@ -9746,11 +9746,8 @@ gcMarkLaterCount
 )
 ;
 }
-JS_PUBLIC_API
-(
 void
-)
-JS_CallTracer
+js_CallGCMarker
 (
 JSTracer
 *
@@ -10253,7 +10250,7 @@ else
 return
 ;
 }
-JS_CallTracer
+js_CallGCMarker
 (
 trc
 thing
@@ -10790,7 +10787,7 @@ vec
 )
 ;
 \
-JS_CallTracer
+js_CallGCMarker
 (
 trc
 JSVAL_TO_TRACEABLE

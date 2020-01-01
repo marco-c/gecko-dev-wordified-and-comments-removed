@@ -2246,7 +2246,7 @@ size_t
 number
 )
 ;
-JS_CallTracer
+js_CallGCMarker
 (
 trc
 ATOM_ENTRY_KEY
@@ -2350,7 +2350,7 @@ size_t
 number
 )
 ;
-JS_CallTracer
+js_CallGCMarker
 (
 trc
 ATOM_ENTRY_KEY

@@ -23399,7 +23399,7 @@ xml_vector
 i
 )
 ;
-JS_CallTracer
+js_CallGCMarker
 (
 trc
 xml
@@ -28714,7 +28714,7 @@ vector
 i
 )
 ;
-JS_CallTracer
+js_CallGCMarker
 (
 trc
 obj

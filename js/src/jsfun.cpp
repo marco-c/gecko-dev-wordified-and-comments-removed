@@ -14791,7 +14791,7 @@ entry
 index
 )
 ;
-JS_CallTracer
+js_CallGCMarker
 (
 trc
 ATOM_TO_STRING
@@ -14963,7 +14963,7 @@ fun
 nargs
 )
 ;
-JS_CallTracer
+js_CallGCMarker
 (
 trc
 ATOM_TO_STRING
