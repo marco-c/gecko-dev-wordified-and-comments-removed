@@ -184,10 +184,10 @@ fails
 if
 (
 MOZ_WIDGET_TOOLKIT
-=
+!
 =
 "
-cocoa
+gtk2
 "
 )
 =
@@ -201,5 +201,7 @@ ref
 .
 html
 #
-Bug
-386753
+Linux
+-
+specific
+bug
