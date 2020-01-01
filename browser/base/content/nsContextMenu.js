@@ -7570,6 +7570,16 @@ type
 "
 password
 "
+&
+&
+aNode
+.
+type
+!
+=
+"
+image
+"
 )
 ;
 return
