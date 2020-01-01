@@ -517,6 +517,10 @@ pngrio
 .
 c
 \
+pngrtran
+.
+c
+\
 pngrutil
 .
 c
@@ -561,10 +565,6 @@ pngwrite
 c
 \
 pngwtran
-.
-c
-\
-pngrtran
 .
 c
 \
