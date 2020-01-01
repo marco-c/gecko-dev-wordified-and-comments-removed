@@ -589,6 +589,13 @@ true
 }
 ;
 }
+module
+.
+exports
+=
+{
+}
+;
 require
 (
 '
