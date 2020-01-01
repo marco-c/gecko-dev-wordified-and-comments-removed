@@ -445,6 +445,10 @@ test_offlineResources
 .
 html
 \
+test_isLocallyAvailable
+.
+html
+\
 (
 NULL
 )
