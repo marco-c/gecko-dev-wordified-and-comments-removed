@@ -380,6 +380,8 @@ RecalcQuotesAndCounters
 void
 WillDestroyFrameTree
 (
+PRBool
+aDestroyingPresShell
 )
 ;
 PRUint32
@@ -3016,6 +3018,9 @@ mCounterManager
 ;
 PRUint16
 mUpdateCount
+;
+PRUint32
+mFocusSuppressCount
 ;
 PRPackedBool
 mQuotesDirty
