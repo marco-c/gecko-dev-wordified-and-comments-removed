@@ -509,6 +509,10 @@ browser_bug420160
 .
 js
 \
+browser_bug441778
+.
+js
+\
 autodiscovery
 .
 html
