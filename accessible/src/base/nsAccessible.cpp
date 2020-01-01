@@ -11598,7 +11598,7 @@ nsIContent
 >
 content
 =
-do_QueryInterface
+GetRoleContent
 (
 mDOMNode
 )
