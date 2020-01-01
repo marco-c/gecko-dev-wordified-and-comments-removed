@@ -11,9 +11,9 @@ HTTP
 bug415761
 .
 sjs
-ref
+bug415761
 .
-png
+ico
 skip
 -
 if
