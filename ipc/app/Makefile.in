@@ -75,11 +75,6 @@ config
 autoconf
 .
 mk
-PROGRAM
-=
-(
-MOZ_CHILD_PROCESS_NAME
-)
 ifneq
 (
 (

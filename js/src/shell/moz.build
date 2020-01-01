@@ -93,3 +93,11 @@ MPL
 0
 /
 .
+PROGRAM
+=
+CONFIG
+[
+'
+JS_SHELL_NAME
+'
+]

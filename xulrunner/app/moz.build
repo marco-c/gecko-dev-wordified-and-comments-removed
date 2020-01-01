@@ -101,3 +101,8 @@ DIRS
 profile
 '
 ]
+PROGRAM
+=
+'
+xulrunner
+'

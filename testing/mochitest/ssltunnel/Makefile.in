@@ -97,12 +97,6 @@ STL
 wrappers
 STL_FLAGS
 =
-PROGRAM
-=
-ssltunnel
-(
-BIN_SUFFIX
-)
 CPPSRCS
 =
 ssltunnel

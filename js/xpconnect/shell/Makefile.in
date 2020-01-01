@@ -76,12 +76,6 @@ config
 autoconf
 .
 mk
-PROGRAM
-=
-xpcshell
-(
-BIN_SUFFIX
-)
 SDK_BINARY
 =
 (
