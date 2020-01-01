@@ -956,6 +956,12 @@ reg
 ;
 inline
 void
+syncThis
+(
+)
+;
+inline
+void
 learnThisIsObject
 (
 bool
