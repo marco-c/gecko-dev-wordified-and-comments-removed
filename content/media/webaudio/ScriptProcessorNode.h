@@ -268,7 +268,7 @@ Stop
 {
 mPlayingRef
 .
-Drop
+ForceDrop
 (
 this
 )
@@ -290,7 +290,7 @@ const
 uint32_t
 mNumberOfOutputChannels
 ;
-SelfReference
+SelfCountedReference
 <
 ScriptProcessorNode
 >
