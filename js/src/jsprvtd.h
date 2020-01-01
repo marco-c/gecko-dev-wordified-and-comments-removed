@@ -296,11 +296,6 @@ JSThread
 ;
 typedef
 struct
-JSThreadData
-JSThreadData
-;
-typedef
-struct
 JSToken
 JSToken
 ;
@@ -318,11 +313,6 @@ typedef
 struct
 JSTokenStream
 JSTokenStream
-;
-typedef
-struct
-JSTraceMonitor
-JSTraceMonitor
 ;
 typedef
 struct
