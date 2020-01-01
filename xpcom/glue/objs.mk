@@ -497,6 +497,10 @@ nsTObserverArray
 .
 cpp
 \
+nsCycleCollectionParticipant
+.
+cpp
+\
 (
 NULL
 )

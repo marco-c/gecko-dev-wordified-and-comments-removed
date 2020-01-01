@@ -486,10 +486,6 @@ nsCycleCollector
 .
 cpp
 \
-nsCycleCollectionParticipant
-.
-cpp
-\
 (
 NULL
 )
@@ -673,9 +669,6 @@ nsCycleCollector
 .
 h
 \
-nsCycleCollectionParticipant
-.
-h
 XPIDLSRCS
 =
 \

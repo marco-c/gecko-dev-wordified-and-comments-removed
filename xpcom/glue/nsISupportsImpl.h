@@ -368,7 +368,7 @@ refcnt
 if
 (
 !
-nsCycleCollector_forget
+NS_CycleCollectorForget
 (
 owner
 )
@@ -483,7 +483,7 @@ purple
 if
 (
 !
-nsCycleCollector_suspect
+NS_CycleCollectorSuspect
 (
 owner
 )
@@ -511,7 +511,7 @@ purple
 if
 (
 !
-nsCycleCollector_forget
+NS_CycleCollectorForget
 (
 owner
 )

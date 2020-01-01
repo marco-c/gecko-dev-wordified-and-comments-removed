@@ -19,7 +19,7 @@ xpt_struct
 .
 h
 "
-struct
+class
 nsCycleCollectionTraversalCallback
 ;
 #

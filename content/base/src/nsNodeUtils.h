@@ -51,7 +51,7 @@ E
 class
 nsCOMArray
 ;
-struct
+class
 nsCycleCollectionTraversalCallback
 ;
 struct

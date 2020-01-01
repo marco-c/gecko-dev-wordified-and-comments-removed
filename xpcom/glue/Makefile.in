@@ -672,6 +672,10 @@ nsTObserverArray
 .
 h
 \
+nsCycleCollectionParticipant
+.
+h
+\
 (
 NULL
 )
