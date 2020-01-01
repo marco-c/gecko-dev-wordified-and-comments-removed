@@ -1184,6 +1184,12 @@ png_ptr
 =
 =
 NULL
+|
+|
+ptr
+=
+=
+NULL
 )
 return
 ;
@@ -1830,6 +1836,7 @@ png_uint_32
 ifndef
 PNG_USER_MEM_SUPPORTED
 if
+(
 (
 png_ptr
 -
