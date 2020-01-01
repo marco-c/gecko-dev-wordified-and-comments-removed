@@ -1060,22 +1060,19 @@ temp
             
 break
           
-lines
+data
++
 =
 temp
-.
-split
-(
-'
-\
-n
-'
-)
           
 for
 line
 in
-lines
+data
+.
+splitlines
+(
+)
 :
             
 if
@@ -1092,11 +1089,6 @@ line
 found
 =
 True
-          
-data
-+
-=
-temp
           
 if
 (
