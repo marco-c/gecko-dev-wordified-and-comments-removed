@@ -773,7 +773,6 @@ JSContext
 *
 (
 )
-const
 {
 return
 mCx
