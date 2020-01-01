@@ -2699,6 +2699,12 @@ init
 (
 )
 ;
+CapturePickerUI
+.
+init
+(
+)
+;
 let
 addonIDs
 =
