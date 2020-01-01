@@ -96,7 +96,7 @@ out
 -
 pedantic
 (
-OX_CFLAGS
+OS_CFLAGS
 )
 )
 OS_CXXFLAGS
