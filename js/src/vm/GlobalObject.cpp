@@ -1606,8 +1606,6 @@ self
 addDataProperty
 (
 cx
-NameToId
-(
 cx
 -
 >
@@ -1616,7 +1614,6 @@ names
 )
 .
 Object
-)
 JSProto_Object
 +
 JSProto_LIMIT
@@ -1637,8 +1634,6 @@ self
 addDataProperty
 (
 cx
-NameToId
-(
 cx
 -
 >
@@ -1647,7 +1642,6 @@ names
 )
 .
 Function
-)
 JSProto_Function
 +
 JSProto_LIMIT

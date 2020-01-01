@@ -1385,8 +1385,6 @@ if
 addDataProperty
 (
 cx
-NameToId
-(
 cx
 -
 >
@@ -1395,7 +1393,6 @@ names
 )
 .
 lastIndex
-)
 LAST_INDEX_SLOT
 JSPROP_PERMANENT
 )
@@ -1422,8 +1419,6 @@ self
 addDataProperty
 (
 cx
-NameToId
-(
 cx
 -
 >
@@ -1432,7 +1427,6 @@ names
 )
 .
 source
-)
 SOURCE_SLOT
 attrs
 )
@@ -1452,8 +1446,6 @@ self
 addDataProperty
 (
 cx
-NameToId
-(
 cx
 -
 >
@@ -1462,7 +1454,6 @@ names
 )
 .
 global
-)
 GLOBAL_FLAG_SLOT
 attrs
 )
@@ -1482,8 +1473,6 @@ self
 addDataProperty
 (
 cx
-NameToId
-(
 cx
 -
 >
@@ -1492,7 +1481,6 @@ names
 )
 .
 ignoreCase
-)
 IGNORE_CASE_FLAG_SLOT
 attrs
 )
@@ -1512,8 +1500,6 @@ self
 addDataProperty
 (
 cx
-NameToId
-(
 cx
 -
 >
@@ -1522,7 +1508,6 @@ names
 )
 .
 multiline
-)
 MULTILINE_FLAG_SLOT
 attrs
 )
@@ -1540,8 +1525,6 @@ self
 addDataProperty
 (
 cx
-NameToId
-(
 cx
 -
 >
@@ -1550,7 +1533,6 @@ names
 )
 .
 sticky
-)
 STICKY_FLAG_SLOT
 attrs
 )
