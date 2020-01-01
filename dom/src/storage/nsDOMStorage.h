@@ -1435,7 +1435,7 @@ nsSubstring
 aNewValue
 )
 ;
-nsresult
+void
 InitAsSessionStorageFork
 (
 nsIPrincipal
@@ -1445,7 +1445,7 @@ const
 nsSubstring
 &
 aDocumentURI
-nsIDOMStorageObsolete
+nsDOMStorage
 *
 aStorage
 )
