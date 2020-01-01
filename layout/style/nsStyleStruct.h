@@ -146,6 +146,9 @@ imgIRequest
 class
 imgIContainer
 ;
+struct
+nsCSSValueList
+;
 #
 include
 "
@@ -4883,8 +4886,10 @@ mResize
 PRUint8
 mClipFlags
 ;
-PRPackedBool
-mTransformPresent
+const
+nsCSSValueList
+*
+mSpecifiedTransform
 ;
 nsStyleTransformMatrix
 mTransform
@@ -5055,7 +5060,9 @@ NS_STYLE_POSITION_RELATIVE
 mPosition
 |
 |
-mTransformPresent
+HasTransform
+(
+)
 ;
 }
 PRBool
@@ -5111,7 +5118,10 @@ HasTransform
 const
 {
 return
-mTransformPresent
+mSpecifiedTransform
+!
+=
+nsnull
 ;
 }
 }
