@@ -6250,6 +6250,15 @@ buffer
 "
 )
 ;
+if
+(
+bufSlot
+.
+isObject
+(
+)
+)
+{
 ArrayBufferObject
 &
 buf
@@ -6296,6 +6305,7 @@ dataPointer
 offset
 )
 ;
+}
 IsSlotMarked
 (
 &
