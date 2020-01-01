@@ -78,10 +78,6 @@ mk
 EXTRA_COMPONENTS
 =
 \
-AlertsService
-.
-js
-\
 ContentPermissionPrompt
 .
 js

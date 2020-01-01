@@ -3377,13 +3377,6 @@ BINPATH
 /
 components
 /
-AlertsService
-.
-js
-BINPATH
-/
-components
-/
 BlocklistPrompt
 .
 js
