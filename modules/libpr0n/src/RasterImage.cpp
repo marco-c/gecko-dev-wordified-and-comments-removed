@@ -9265,6 +9265,9 @@ const
 nsIntRect
 &
 aSubimage
+const
+nsIntSize
+&
 PRUint32
 aFlags
 )

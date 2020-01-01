@@ -2520,6 +2520,7 @@ FILTER_GOOD
 scale
 outRect
 imgSize
+destSize
 imgIContainer
 :
 :
