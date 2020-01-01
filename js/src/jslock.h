@@ -1757,6 +1757,7 @@ extern
 JSBool
 js_CompareAndSwap
 (
+volatile
 jsword
 *
 w
@@ -1781,6 +1782,7 @@ extern
 void
 js_AtomicClearMask
 (
+volatile
 jsword
 *
 w
