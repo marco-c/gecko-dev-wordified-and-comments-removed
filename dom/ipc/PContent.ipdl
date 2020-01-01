@@ -736,6 +736,12 @@ gfxIntSize
 size
 )
 ;
+FlushMemory
+(
+nsString
+reason
+)
+;
 parent
 :
 PNecko
