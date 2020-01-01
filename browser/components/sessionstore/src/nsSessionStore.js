@@ -1958,6 +1958,12 @@ STATE_QUITTING
 )
 return
 ;
+this
+.
+_lastSessionState
+=
+null
+;
 let
 openWindows
 =
