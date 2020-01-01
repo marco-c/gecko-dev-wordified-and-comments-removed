@@ -17751,6 +17751,12 @@ NS_THEME_RADIO
 aWidgetType
 =
 =
+NS_THEME_RANGE
+|
+|
+aWidgetType
+=
+=
 NS_THEME_CHECKBOX
 )
 return
