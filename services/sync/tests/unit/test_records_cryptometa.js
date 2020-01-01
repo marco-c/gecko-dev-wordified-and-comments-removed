@@ -72,8 +72,6 @@ services
 -
 sync
 /
-base_records
-/
 identity
 .
 js
