@@ -719,7 +719,7 @@ NPPVpluginNativeAccessibleAtkPlugId
 NPPVpluginCancelSrcStream
 =
 20
-NPPVSupportsAdvancedKeyHandling
+NPPVsupportsAdvancedKeyHandling
 =
 21
 NPPVpluginUsesDOMForCursorBool
@@ -866,6 +866,9 @@ NPNVsupportsCocoaBool
 NPNVsupportsUpdatedCocoaTextInputBool
 =
 3002
+NPNVsupportsCompositingCoreAnimationPluginsBool
+=
+74656
 #
 endif
 #
@@ -1867,6 +1870,7 @@ defined
 (
 XP_UNIX
 )
+const
 char
 *
 NPP_GetMIMEDescription

@@ -1872,6 +1872,7 @@ void
 )
 ;
 typedef
+const
 char
 *
 (
@@ -1882,6 +1883,7 @@ NP_GetMIMEDescriptionFunc
 void
 )
 ;
+const
 char
 *
 NP_GetMIMEDescription
@@ -1945,6 +1947,7 @@ void
 )
 ;
 typedef
+const
 char
 *
 (
@@ -1957,6 +1960,7 @@ void
 ;
 NP_EXPORT
 (
+const
 char
 *
 )

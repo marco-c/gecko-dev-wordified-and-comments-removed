@@ -3250,6 +3250,7 @@ XP_UNIX
 )
 NP_EXPORT
 (
+const
 char
 *
 )
@@ -3268,6 +3269,7 @@ defined
 (
 XP_OS2
 )
+const
 char
 *
 NP_GetMIMEDescription
