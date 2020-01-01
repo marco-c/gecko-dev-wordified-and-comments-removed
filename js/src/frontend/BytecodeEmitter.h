@@ -233,7 +233,7 @@ array
 ;
 }
 ;
-class
+struct
 StmtInfoBCE
 ;
 struct
