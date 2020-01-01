@@ -12740,6 +12740,13 @@ baseURIProperty
 )
 GK_ATOM
 (
+lockedStyleStates
+"
+lockedStyleStates
+"
+)
+GK_ATOM
+(
 Japanese
 "
 ja

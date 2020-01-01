@@ -458,6 +458,14 @@ R
 .
 woff
 \
+test_bug708874
+.
+xul
+\
+test_bug708874
+.
+css
+\
 (
 NULL
 )
