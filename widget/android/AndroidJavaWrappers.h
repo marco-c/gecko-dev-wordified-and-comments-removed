@@ -2092,6 +2092,9 @@ NETWORK_CHANGED
 PROXIMITY_EVENT
 =
 23
+ACTIVITY_RESUMING
+=
+24
 dummy_java_enum_list_end
 }
 ;
