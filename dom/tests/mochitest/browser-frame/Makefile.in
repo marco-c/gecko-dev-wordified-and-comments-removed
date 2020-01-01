@@ -158,6 +158,10 @@ test_browserFrame9
 .
 html
 \
+test_browserFrame10
+.
+html
+\
 test_browserFrame_keyEvents
 .
 html
