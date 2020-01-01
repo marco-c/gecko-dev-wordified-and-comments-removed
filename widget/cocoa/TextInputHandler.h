@@ -602,6 +602,14 @@ bool
 aCmdIsPressed
 )
 ;
+static
+KeyNameIndex
+ComputeGeckoKeyNameIndex
+(
+UInt32
+aNativeKeyCode
+)
+;
 protected
 :
 bool
