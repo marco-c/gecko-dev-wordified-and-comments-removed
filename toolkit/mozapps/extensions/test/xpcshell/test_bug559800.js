@@ -300,6 +300,10 @@ version
 "
 )
 ;
+shutdownManager
+(
+)
+;
 do_check_true
 (
 gExtensionsJSON
