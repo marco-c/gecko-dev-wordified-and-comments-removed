@@ -1466,7 +1466,7 @@ waitForText
 "
 about
 :
-firefox
+home
 "
 )
 ;
@@ -1622,7 +1622,7 @@ waitForText
 "
 about
 :
-firefox
+home
 "
 )
 ;
@@ -1757,7 +1757,7 @@ waitForText
 "
 about
 :
-firefox
+home
 "
 )
 ;
@@ -1797,7 +1797,7 @@ waitForText
 "
 about
 :
-firefox
+home
 "
 )
 ;
