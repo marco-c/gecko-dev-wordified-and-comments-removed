@@ -116,6 +116,10 @@ test_SpecialPowersExtension2
 .
 html
 \
+test_SpecialPowersPushPermissions
+.
+html
+\
 file_SpecialPowersFrame1
 .
 html
