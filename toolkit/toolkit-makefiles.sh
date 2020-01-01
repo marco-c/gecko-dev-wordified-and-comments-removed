@@ -753,13 +753,6 @@ gfx
 /
 src
 /
-os2
-/
-Makefile
-gfx
-/
-src
-/
 windows
 /
 Makefile
