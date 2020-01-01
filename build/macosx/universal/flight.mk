@@ -1062,6 +1062,8 @@ s
 #
 INSTALLER_DIR
 .
+ifdef
+ENABLE_TESTS
 #
 Now
 repeat
@@ -1293,3 +1295,4 @@ package
 stage
 ;
 fi
+endif
