@@ -3224,7 +3224,7 @@ CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 Column
 mColumnRuleColor
 0
-nsnull
+kBorderColorKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
 )
@@ -4357,7 +4357,7 @@ CSS_PROPERTY_PARSE_VALUE
 Margin
 mOutlineStyle
 0
-kBorderStyleKTable
+kOutlineStyleKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )

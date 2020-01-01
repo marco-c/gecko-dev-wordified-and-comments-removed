@@ -30104,6 +30104,16 @@ colorValue
 GetUnit
 (
 )
+|
+|
+eCSSUnit_Enumerated
+=
+=
+colorValue
+.
+GetUnit
+(
+)
 )
 {
 column
