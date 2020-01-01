@@ -1769,9 +1769,8 @@ result
 ;
 /
 *
-DEPRECATED
-:
-use
+deprecated
+Use
 Components
 .
 utils
@@ -1815,6 +1814,9 @@ XPCNativeWrapper
 )
 *
 /
+[
+deprecated
+]
 void
 lookupMethod
 (
@@ -1822,9 +1824,8 @@ lookupMethod
 ;
 /
 *
-DEPRECATED
-:
-use
+deprecated
+Use
 Components
 .
 utils
@@ -1834,6 +1835,9 @@ instead
 .
 *
 /
+[
+deprecated
+]
 void
 reportError
 (

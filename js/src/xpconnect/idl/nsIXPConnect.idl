@@ -4714,7 +4714,7 @@ aCaller
 *
 *
 *
-Deprecated
+deprecated
 do
 -
 nothing
@@ -4722,6 +4722,9 @@ function
 .
 *
 /
+[
+deprecated
+]
 void
 syncJSContexts
 (
@@ -4822,14 +4825,7 @@ JavaScript
 .
 *
 *
-NOTE
-:
-This
-method
-is
-DEPRECATED
-.
-*
+deprecated
 Use
 nsIThreadJSContextStack
 :
@@ -4839,6 +4835,9 @@ instead
 .
 *
 /
+[
+deprecated
+]
 void
 setSafeJSContextForCurrentThread
 (
