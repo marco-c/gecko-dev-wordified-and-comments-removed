@@ -2585,7 +2585,11 @@ const
 int
 DataAlignment
 =
-4
+sizeof
+(
+void
+*
+)
 ;
 IonScript
 *
