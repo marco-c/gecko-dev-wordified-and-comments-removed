@@ -421,9 +421,9 @@ ins
 ;
 virtual
 bool
-visitBitOp
+visitBitOpI
 (
-LBitOp
+LBitOpI
 *
 ins
 )

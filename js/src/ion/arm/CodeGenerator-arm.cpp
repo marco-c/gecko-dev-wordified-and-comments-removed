@@ -2887,9 +2887,9 @@ bool
 CodeGeneratorARM
 :
 :
-visitBitOp
+visitBitOpI
 (
-LBitOp
+LBitOpI
 *
 ins
 )

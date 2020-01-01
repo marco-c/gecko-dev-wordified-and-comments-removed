@@ -3333,9 +3333,9 @@ bool
 CodeGeneratorX86Shared
 :
 :
-visitBitOp
+visitBitOpI
 (
-LBitOp
+LBitOpI
 *
 ins
 )

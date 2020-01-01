@@ -1327,12 +1327,12 @@ rhs
 }
 else
 {
-LBitOp
+LBitOpI
 *
 LAnd
 =
 new
-LBitOp
+LBitOpI
 (
 JSOP_BITAND
 )

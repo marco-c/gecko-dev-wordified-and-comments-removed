@@ -118,7 +118,12 @@ BitNotV
 \
 _
 (
-BitOp
+BitOpI
+)
+\
+_
+(
+BitOpV
 )
 \
 _
