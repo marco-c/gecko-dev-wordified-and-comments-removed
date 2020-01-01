@@ -211,6 +211,17 @@ mit
 edu
 >
 #
+Serge
+Gautherie
+<
+sgautherie
+.
+bz
+free
+.
+fr
+>
+#
 #
 Alternatively
 the
@@ -447,6 +458,7 @@ from
 automationutils
 import
 addCommonOptions
+processLeakLog
 #
 Path
 to
@@ -3795,8 +3807,6 @@ care
 to
 call
 |
-automation
-.
 processLeakLog
 (
 )
@@ -3986,8 +3996,6 @@ server
 stop
 (
 )
-automation
-.
 processLeakLog
 (
 LEAK_REPORT_FILE
