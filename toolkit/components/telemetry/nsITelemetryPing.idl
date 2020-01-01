@@ -139,5 +139,10 @@ boolean
 aSync
 )
 ;
+void
+gatherStartup
+(
+)
+;
 }
 ;
