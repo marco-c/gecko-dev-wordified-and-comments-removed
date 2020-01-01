@@ -78,6 +78,15 @@ config
 autoconf
 .
 mk
+ifdef
+MOZ_SOCIAL
+#
+social
+is
+turned
+off
+for
+android
 MOCHITEST_BROWSER_FILES
 =
 \
@@ -124,6 +133,7 @@ js
 (
 NULL
 )
+endif
 include
 (
 topsrcdir

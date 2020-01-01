@@ -75,6 +75,15 @@ config
 autoconf
 .
 mk
+ifdef
+MOZ_SOCIAL
+#
+social
+is
+turned
+off
+for
+android
 EXTRA_JS_MODULES
 =
 \
@@ -105,6 +114,7 @@ jsm
 (
 NULL
 )
+endif
 include
 (
 topsrcdir

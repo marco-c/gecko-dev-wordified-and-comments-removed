@@ -61,7 +61,7 @@ MOZ_APP_VENDOR
 Mozilla
 MOZ_APP_VERSION
 =
-24
+23
 .
 0a1
 MOZ_APP_UA_NAME
@@ -142,6 +142,8 @@ MOZ_RAW
 =
 1
 MOZ_PLACES
+=
+MOZ_SOCIAL
 =
 MOZ_ANDROID_HISTORY
 =
@@ -224,13 +226,5 @@ navigator
 .
 mozPay
 MOZ_PAY
-=
-1
-#
-Enable
-UI
-for
-healthreporter
-MOZ_SERVICES_HEALTHREPORT
 =
 1

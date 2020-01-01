@@ -78,6 +78,15 @@ config
 autoconf
 .
 mk
+ifdef
+MOZ_SOCIAL
+#
+social
+is
+turned
+off
+for
+android
 DISABLED_XPCSHELL_TESTS
 =
 \
@@ -86,6 +95,7 @@ xpcshell
 (
 NULL
 )
+endif
 include
 (
 topsrcdir
