@@ -102,10 +102,6 @@ kMinRecordCount
 512
 #
 define
-kMaxRecordCount
-16384
-#
-define
 kSeparateFile
 0
 #
@@ -1363,6 +1359,10 @@ mBuffer
 (
 nsnull
 )
+mMaxRecordCount
+(
+16384
+)
 {
 }
 ~
@@ -1409,6 +1409,13 @@ FlushRecords
 (
 PRBool
 unswap
+)
+;
+void
+NotifyCapacityChange
+(
+PRUint32
+capacity
 )
 ;
 nsresult
@@ -1885,6 +1892,9 @@ mBuffer
 ;
 nsDiskCacheHeader
 mHeader
+;
+PRInt32
+mMaxRecordCount
 ;
 }
 ;

@@ -4457,6 +4457,13 @@ mCacheCapacity
 )
 ;
 }
+mCacheMap
+.
+NotifyCapacityChange
+(
+capacity
+)
+;
 }
 PRUint32
 nsDiskCacheDevice
