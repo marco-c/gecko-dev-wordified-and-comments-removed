@@ -913,7 +913,8 @@ mIncoming
 >
 mData
 RilRawData
-.
+:
+:
 MAX_DATA_SIZE
 )
 ;
@@ -1005,7 +1006,8 @@ if
 ret
 <
 RilRawData
-.
+:
+:
 MAX_DATA_SIZE
 )
 {

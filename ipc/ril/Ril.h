@@ -21,9 +21,6 @@ class
 MessageLoop
 ;
 }
-class
-nsIThread
-;
 namespace
 mozilla
 {
