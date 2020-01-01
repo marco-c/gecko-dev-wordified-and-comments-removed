@@ -474,9 +474,11 @@ f
 DEPTH
 )
 /
-(
-mochitestdir
-)
+_tests
+/
+testing
+/
+mochitest
 /
 chrome
 /

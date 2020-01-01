@@ -508,9 +508,11 @@ f
 DEPTH
 )
 /
-(
-mochitestdir
-)
+_tests
+/
+testing
+/
+mochitest
 /
 tests
 /

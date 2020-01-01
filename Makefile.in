@@ -677,14 +677,6 @@ RM
 r
 _tests
 (
-RM
-)
--
-r
-(
-mochitestdir
-)
-(
 topsrcdir
 )
 /

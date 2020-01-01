@@ -485,12 +485,6 @@ DEPTH
 )
 endif
 ifndef
-mochitestdir
-mochitestdir
-=
-_mochitest
-endif
-ifndef
 INCLUDED_AUTOCONF_MK
 include
 (

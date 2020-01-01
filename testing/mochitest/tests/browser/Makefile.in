@@ -418,6 +418,10 @@ VPATH
 srcdir
 relativesrcdir
 =
+testing
+/
+mochitest
+/
 tests
 /
 browser
@@ -581,9 +585,11 @@ f
 DEPTH
 )
 /
-(
-mochitestdir
-)
+_tests
+/
+testing
+/
+mochitest
 /
 browser
 /
