@@ -257,17 +257,6 @@ PRUint32
 aLength
 )
 ;
-NS_COM_GLUE
-void
-NS_MakeRandomString
-(
-char
-*
-buf
-PRInt32
-bufLen
-)
-;
 #
 define
 FF
