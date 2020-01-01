@@ -300,7 +300,7 @@ vorbis_block
 *
 vorbis_look_residue
 *
-float
+int
 *
 *
 int
@@ -321,10 +321,7 @@ vorbis_block
 *
 vorbis_look_residue
 *
-float
-*
-*
-float
+int
 *
 *
 int
@@ -333,6 +330,7 @@ int
 long
 *
 *
+int
 )
 ;
 int
@@ -392,14 +390,14 @@ booklist
 ]
 ;
 const
-float
+int
 classmetric1
 [
 64
 ]
 ;
 const
-float
+int
 classmetric2
 [
 64
