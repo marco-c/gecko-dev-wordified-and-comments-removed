@@ -2110,17 +2110,6 @@ sLastMouseButton
 HDC
 mPaintDC
 ;
-static
-nsAutoPtr
-<
-PRUint8
->
-sSharedSurfaceData
-;
-static
-gfxIntSize
-sSharedSurfaceSize
-;
 #
 ifdef
 MOZ_XUL
