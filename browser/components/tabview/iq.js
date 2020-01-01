@@ -3687,6 +3687,9 @@ mousemove
 click
 '
 '
+dblclick
+'
+'
 resize
 '
 '
