@@ -267,6 +267,14 @@ RILContentHelper
 .
 js
 \
+NetworkInterfaceListService
+.
+manifest
+\
+NetworkInterfaceListService
+.
+js
+\
 (
 NULL
 )
