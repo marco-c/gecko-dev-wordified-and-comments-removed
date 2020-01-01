@@ -991,6 +991,10 @@ JSObject
 )
 1
 )
+#
+define
+WN_XRAYEXPANDOCHAIN_SLOT
+0
 inline
 void
 SetWNExpandoChain
@@ -1014,7 +1018,7 @@ obj
 JS_SetReservedSlot
 (
 obj
-WRAPPER_MULTISLOT
+WN_XRAYEXPANDOCHAIN_SLOT
 JS
 :
 :
@@ -1047,7 +1051,7 @@ return
 JS_GetReservedSlot
 (
 obj
-WRAPPER_MULTISLOT
+WN_XRAYEXPANDOCHAIN_SLOT
 )
 .
 toObjectOrNull

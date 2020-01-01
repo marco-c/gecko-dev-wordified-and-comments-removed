@@ -312,10 +312,6 @@ ext
 isWrappedNative
 ;
 }
-#
-define
-WRAPPER_MULTISLOT
-0
 static
 inline
 bool
