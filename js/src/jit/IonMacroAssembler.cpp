@@ -8491,6 +8491,9 @@ Register
 output
 Label
 *
+truncateFail
+Label
+*
 fail
 IntConversionBehavior
 behavior
@@ -8527,6 +8530,10 @@ branchTruncateDouble
 (
 src
 output
+truncateFail
+?
+truncateFail
+:
 fail
 )
 ;
@@ -8562,6 +8569,9 @@ handleStringEntry
 Label
 *
 handleStringRejoin
+Label
+*
+truncateDoubleSlow
 Register
 stringReg
 FloatRegister
@@ -8824,6 +8834,7 @@ convertDoubleToInt
 (
 temp
 output
+truncateDoubleSlow
 fail
 behavior
 )
@@ -9367,6 +9378,7 @@ fpu
 (
 )
 output
+NULL
 fail
 behavior
 )
