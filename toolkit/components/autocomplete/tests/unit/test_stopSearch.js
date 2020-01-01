@@ -507,6 +507,12 @@ handleEndComposition
 (
 )
 ;
+controller
+.
+handleText
+(
+)
+;
 }
 function
 (
