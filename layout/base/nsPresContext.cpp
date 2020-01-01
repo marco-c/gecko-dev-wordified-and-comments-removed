@@ -842,16 +842,6 @@ aCharset
 LowerCaseEqualsLiteral
 (
 "
-ibm864
-"
-)
-|
-|
-aCharset
-.
-LowerCaseEqualsLiteral
-(
-"
 ibm862
 "
 )
