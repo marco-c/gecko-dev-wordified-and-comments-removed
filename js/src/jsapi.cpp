@@ -19335,6 +19335,14 @@ key
 JSVAL_VOID
 )
 ;
+JS_SetReservedSlot
+(
+cx
+obj
+JSRESERVED_GLOBAL_EVAL_ALLOWED
+JSVAL_VOID
+)
+;
 }
 js_InitRandom
 (

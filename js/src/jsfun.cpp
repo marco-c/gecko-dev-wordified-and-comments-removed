@@ -11715,6 +11715,7 @@ if
 js_CheckContentSecurityPolicy
 (
 cx
+parent
 )
 )
 {
