@@ -746,6 +746,13 @@ patch
 -
 p3
 <
+trac497
+.
+patch
+patch
+-
+p3
+<
 fishsound_reset
 .
 patch
