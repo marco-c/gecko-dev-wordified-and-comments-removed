@@ -19783,7 +19783,10 @@ nsIPrincipal
 >
 sysPrin
 ;
+DebugOnly
+<
 nsresult
+>
 rv
 =
 sSecurityManager
