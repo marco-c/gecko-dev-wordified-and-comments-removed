@@ -544,6 +544,10 @@ file_moving_xhr
 .
 html
 \
+test_vibrator
+.
+html
+\
 (
 NULL
 )
