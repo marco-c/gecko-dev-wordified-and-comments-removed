@@ -32,6 +32,14 @@ defaultvalue
 .
 js
 script
+equality
+-
+to
+-
+boolean
+.
+js
+script
 toJSON
 -
 01
