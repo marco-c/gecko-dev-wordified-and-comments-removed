@@ -265,6 +265,10 @@ nsMathMLmrootFrame
 .
 cpp
 \
+nsMathMLSelectedFrame
+.
+cpp
+\
 nsMathMLmactionFrame
 .
 cpp
