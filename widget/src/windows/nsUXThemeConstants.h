@@ -64,6 +64,10 @@ BP_CHECKBOX
 3
 #
 define
+BP_GROUPBOX
+4
+#
+define
 TFP_TEXTFIELD
 1
 #
