@@ -10858,11 +10858,6 @@ NS_OK
 ;
 }
 PRUint32
-ariaState
-=
-0
-;
-PRUint32
 index
 =
 0
@@ -10897,7 +10892,8 @@ mRoleMapEntry
 return
 NS_OK
 ;
-ariaState
+*
+aState
 &
 =
 ~
@@ -10906,7 +10902,8 @@ nsIAccessibleStates
 :
 STATE_READONLY
 ;
-ariaState
+*
+aState
 |
 =
 mRoleMapEntry
