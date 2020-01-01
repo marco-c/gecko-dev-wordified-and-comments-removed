@@ -1797,8 +1797,22 @@ popPopup
 function
 popPopup
 (
+aPanel
 )
 {
+if
+(
+aPanel
+!
+=
+this
+.
+_popup
+.
+panel
+)
+return
+;
 this
 .
 _popup
@@ -7992,6 +8006,7 @@ BrowserUI
 .
 popPopup
 (
+this
 )
 ;
 }
@@ -8597,6 +8612,7 @@ BrowserUI
 .
 popPopup
 (
+this
 )
 ;
 }
@@ -9148,6 +9164,7 @@ BrowserUI
 .
 popPopup
 (
+this
 )
 ;
 }
@@ -12694,6 +12711,7 @@ BrowserUI
 .
 popPopup
 (
+this
 )
 ;
 this
@@ -13836,6 +13854,7 @@ BrowserUI
 .
 popPopup
 (
+this
 )
 ;
 }
@@ -14311,6 +14330,16 @@ ch_hide
 (
 )
 {
+if
+(
+this
+.
+_panel
+.
+hidden
+)
+return
+;
 this
 .
 popupState
@@ -14340,6 +14369,7 @@ BrowserUI
 .
 popPopup
 (
+this
 )
 ;
 }
@@ -14929,6 +14959,7 @@ BrowserUI
 .
 popPopup
 (
+this
 )
 ;
 }
@@ -15821,6 +15852,7 @@ BrowserUI
 .
 popPopup
 (
+this
 )
 ;
 }
