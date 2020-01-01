@@ -618,8 +618,6 @@ GetResponseHeader
 NS_LITERAL_CSTRING
 (
 "
-Content
--
 Access
 -
 Control
