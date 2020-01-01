@@ -36784,14 +36784,14 @@ allowed
 "
 geolocation
 .
-allow
+alwaysAllow
 "
 denied
 :
 "
 geolocation
 .
-dontAllow
+neverAllow
 "
 }
 "
