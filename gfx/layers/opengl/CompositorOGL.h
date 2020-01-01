@@ -112,7 +112,7 @@ aSurfaceHeight
 -
 1
 bool
-aIsRenderingToEGLSurface
+aUseExternalSurfaceSize
 =
 false
 )
@@ -721,7 +721,7 @@ bool
 mHasBGRA
 ;
 bool
-mIsRenderingToEGLSurface
+mUseExternalSurfaceSize
 ;
 bool
 mFrameInProgress

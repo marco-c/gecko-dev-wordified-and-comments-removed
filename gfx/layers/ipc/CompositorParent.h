@@ -111,7 +111,7 @@ nsIWidget
 *
 aWidget
 bool
-aRenderToEGLSurface
+aUseExternalSurfaceSize
 =
 false
 int
@@ -547,7 +547,7 @@ bool
 mPaused
 ;
 bool
-mRenderToEGLSurface
+mUseExternalSurfaceSize
 ;
 nsIntSize
 mEGLSurfaceSize

@@ -496,7 +496,7 @@ nsIWidget
 *
 aWidget
 bool
-aRenderToEGLSurface
+aUseExternalSurfaceSize
 int
 aSurfaceWidth
 int
@@ -515,9 +515,9 @@ mPaused
 (
 false
 )
-mRenderToEGLSurface
+mUseExternalSurfaceSize
 (
-aRenderToEGLSurface
+aUseExternalSurfaceSize
 )
 mEGLSurfaceSize
 (
@@ -1168,12 +1168,12 @@ height
 {
 NS_ASSERTION
 (
-mRenderToEGLSurface
+mUseExternalSurfaceSize
 "
 Compositor
 created
 without
-RenderToEGLSurface
+UseExternalSurfaceSize
 provided
 "
 )
@@ -2280,7 +2280,7 @@ width
 mEGLSurfaceSize
 .
 height
-mRenderToEGLSurface
+mUseExternalSurfaceSize
 )
 )
 ;

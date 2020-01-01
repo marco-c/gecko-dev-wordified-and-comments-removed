@@ -1810,7 +1810,7 @@ aSurfaceWidth
 int
 aSurfaceHeight
 bool
-aIsRenderingToEGLSurface
+aUseExternalSurfaceSize
 )
 :
 mWidget
@@ -1833,9 +1833,9 @@ mHasBGRA
 (
 0
 )
-mIsRenderingToEGLSurface
+mUseExternalSurfaceSize
 (
-aIsRenderingToEGLSurface
+aUseExternalSurfaceSize
 )
 mFrameInProgress
 (
@@ -4317,7 +4317,7 @@ rect
 ;
 if
 (
-mIsRenderingToEGLSurface
+mUseExternalSurfaceSize
 )
 {
 rect
@@ -6649,7 +6649,7 @@ rect
 ;
 if
 (
-mIsRenderingToEGLSurface
+mUseExternalSurfaceSize
 )
 {
 rect
@@ -7034,7 +7034,7 @@ rect
 ;
 if
 (
-mIsRenderingToEGLSurface
+mUseExternalSurfaceSize
 )
 {
 rect
