@@ -878,6 +878,12 @@ gcChunkSet
 js
 :
 :
+GCChunkSet
+gcSystemChunkSet
+;
+js
+:
+:
 RootedValueMap
 gcRootsHash
 ;
@@ -1394,14 +1400,6 @@ wrapObjectCallback
 JSPreWrapCallback
 preWrapObjectCallback
 ;
-#
-ifdef
-JS_METHODJIT
-size_t
-mjitDataSize
-;
-#
-endif
 int32
 inOOMReport
 ;
