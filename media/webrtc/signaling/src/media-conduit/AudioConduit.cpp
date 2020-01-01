@@ -2492,6 +2492,9 @@ channel
 ;
 if
 (
+mEngineReceiving
+&
+&
 mTransport
 &
 &

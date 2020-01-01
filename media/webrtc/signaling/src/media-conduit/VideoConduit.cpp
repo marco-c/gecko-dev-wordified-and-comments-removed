@@ -2900,6 +2900,9 @@ len
 ;
 if
 (
+mEngineReceiving
+&
+&
 mTransport
 &
 &
