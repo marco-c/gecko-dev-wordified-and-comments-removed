@@ -34073,6 +34073,8 @@ false
 ;
 baseobj
 =
+globalObj
+?
 script
 -
 >
@@ -34083,6 +34085,8 @@ fullAtomIndex
 PC
 )
 )
+:
+NULL
 ;
 break
 ;
