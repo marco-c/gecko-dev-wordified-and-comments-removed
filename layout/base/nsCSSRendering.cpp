@@ -2067,13 +2067,6 @@ GradientCache
 (
 )
 ;
-nsCSSBorderRenderer
-:
-:
-Init
-(
-)
-;
 }
 void
 nsCSSRendering
@@ -2096,13 +2089,6 @@ gGradientCache
 gGradientCache
 =
 nullptr
-;
-nsCSSBorderRenderer
-:
-:
-Shutdown
-(
-)
 ;
 }
 static
