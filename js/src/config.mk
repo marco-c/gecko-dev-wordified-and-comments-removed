@@ -880,7 +880,7 @@ aliasing
 BUILTINS_OPTIMIZER
 =
 -
-O9
+O3
 -
 fstrict
 -
