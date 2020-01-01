@@ -29020,12 +29020,13 @@ ifdef
 DEBUG
 op2
 =
-JSOp
+js_GetOpcode
 (
+cx
+script
 pc2
-[
++
 JSOP_SETMETHOD_LENGTH
-]
 )
 ;
 JS_ASSERT
