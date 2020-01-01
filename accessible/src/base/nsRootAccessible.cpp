@@ -2117,6 +2117,15 @@ GetCurrentFocus
 (
 )
 ;
+if
+(
+!
+focusedNode
+)
+{
+return
+;
+}
 nsCOMPtr
 <
 nsIDOMDocumentEvent
