@@ -92,6 +92,12 @@ _M_X64
 )
 &
 &
+defined
+(
+_MSC_VER
+)
+&
+&
 _MSC_VER
 <
 =
