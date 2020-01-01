@@ -351,6 +351,16 @@ recursion
 .
 js
 script
+assign
+-
+to
+-
+callee
+-
+name
+.
+js
+script
 directive
 -
 prologue
