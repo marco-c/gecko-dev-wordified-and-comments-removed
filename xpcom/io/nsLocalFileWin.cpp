@@ -10596,6 +10596,12 @@ thisshort
 if
 (
 thisr
+!
+=
+0
+&
+&
+thisr
 <
 sizeof
 (
