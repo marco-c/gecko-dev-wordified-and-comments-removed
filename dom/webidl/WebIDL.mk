@@ -1439,6 +1439,10 @@ URLUtils
 .
 webidl
 \
+VideoPlaybackQuality
+.
+webidl
+\
 VideoStreamTrack
 .
 webidl
