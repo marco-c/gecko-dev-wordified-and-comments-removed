@@ -266,6 +266,11 @@ etag
 aApp
 .
 etag
+packageEtag
+:
+aApp
+.
+packageEtag
 installerAppId
 :
 aApp
