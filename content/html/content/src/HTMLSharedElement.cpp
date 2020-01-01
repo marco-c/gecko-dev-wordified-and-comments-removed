@@ -221,12 +221,6 @@ HTMLSharedElement
 ValueType
 valuetype
 )
-NS_IMPL_BOOL_ATTR
-(
-HTMLSharedElement
-Compact
-compact
-)
 NS_IMPL_URI_ATTR
 (
 HTMLSharedElement
