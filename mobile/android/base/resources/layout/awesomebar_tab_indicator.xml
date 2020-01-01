@@ -79,8 +79,6 @@ MPL
 -
 >
 <
-Gecko
-.
 TextView
 xmlns
 :
@@ -175,9 +173,8 @@ android
 textColor
 =
 "
-color
-/
-awesome_bar_title
+#
+222222
 "
 /
 >

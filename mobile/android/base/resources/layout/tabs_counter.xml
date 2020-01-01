@@ -79,8 +79,6 @@ MPL
 -
 >
 <
-Gecko
-.
 TextView
 xmlns
 :
@@ -134,13 +132,6 @@ textColor
 color
 /
 tabs_counter_color
-"
-android
-:
-duplicateParentState
-=
-"
-true
 "
 android
 :

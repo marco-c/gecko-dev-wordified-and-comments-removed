@@ -317,8 +317,6 @@ paddingRight
 /
 >
 <
-Gecko
-.
 TextSwitcher
 android
 :
@@ -379,8 +377,6 @@ center_horizontal
 /
 >
 <
-Gecko
-.
 ImageButton
 android
 :
@@ -429,7 +425,7 @@ src
 "
 drawable
 /
-menu_level
+menu
 "
 android
 :
@@ -569,8 +565,6 @@ true
 "
 >
 <
-Gecko
-.
 RelativeLayout
 android
 :
@@ -614,8 +608,6 @@ true
 "
 >
 <
-Gecko
-.
 ImageView
 style
 =
@@ -770,8 +762,6 @@ true
 "
 >
 <
-Gecko
-.
 ImageView
 android
 :
@@ -840,8 +830,6 @@ view
 >
 <
 /
-Gecko
-.
 RelativeLayout
 >
 <
@@ -1196,8 +1184,6 @@ gone
 /
 >
 <
-Gecko
-.
 TextView
 android
 :
@@ -1260,18 +1246,8 @@ android
 textColor
 =
 "
-color
-/
-awesome_bar_title
-"
-android
-:
-textColorHint
-=
-"
-color
-/
-awesome_bar_title_hint
+#
+222222
 "
 android
 :

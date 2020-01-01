@@ -422,8 +422,6 @@ paddingRight
 /
 >
 <
-Gecko
-.
 TextSwitcher
 android
 :
@@ -575,8 +573,6 @@ true
 "
 >
 <
-Gecko
-.
 Button
 android
 :
@@ -632,7 +628,7 @@ background
 "
 drawable
 /
-address_bar_url
+address_bar_url_level
 "
 /
 >
@@ -995,8 +991,6 @@ gone
 /
 >
 <
-Gecko
-.
 TextView
 android
 :
@@ -1059,18 +1053,8 @@ android
 textColor
 =
 "
-color
-/
-awesome_bar_title
-"
-android
-:
-textColorHint
-=
-"
-color
-/
-awesome_bar_title_hint
+#
+222222
 "
 android
 :
