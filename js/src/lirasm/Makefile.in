@@ -546,3 +546,13 @@ PrivateFrameworks
 framework
 CHUD
 endif
+check
+:
+:
+(
+srcdir
+)
+/
+testlirc
+.
+sh
