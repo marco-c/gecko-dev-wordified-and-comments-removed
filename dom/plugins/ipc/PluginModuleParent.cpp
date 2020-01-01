@@ -6412,6 +6412,12 @@ DWORD
 processID
 )
 {
+if
+(
+!
+mShutdown
+)
+{
 GetIPCChannel
 (
 )
@@ -6430,6 +6436,7 @@ OtherProcess
 false
 )
 ;
+}
 }
 #
 endif
