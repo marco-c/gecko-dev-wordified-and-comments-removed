@@ -4309,6 +4309,7 @@ lib
 endif
 ifdef
 MOZ_VTUNE
+#
 CXXFLAGS
 +
 =
@@ -4327,6 +4328,7 @@ VTune
 Analyzer
 /
 Include
+#
 EXTRA_DSO_LDOPTS
 +
 =
@@ -4348,6 +4350,7 @@ Lib
 VtuneApi
 .
 lib
+#
 LIBS
 +
 =

@@ -5739,8 +5739,8 @@ JS_FALSE
 #
 endif
 #
-ifdef
-MOZ_VTUNE
+if
+0
 if
 (
 !
@@ -5814,8 +5814,8 @@ Stop
 #
 endif
 #
-ifdef
-MOZ_VTUNE
+if
+0
 if
 (
 !
@@ -5943,8 +5943,8 @@ JS_FALSE
 #
 endif
 #
-ifdef
-MOZ_VTUNE
+if
+0
 if
 (
 !
@@ -6022,8 +6022,8 @@ JS_FALSE
 #
 endif
 #
-ifdef
-MOZ_VTUNE
+if
+0
 if
 (
 !
