@@ -1177,6 +1177,16 @@ bool
 aTerminated
 )
 {
+if
+(
+!
+mParser
+)
+{
+return
+NS_OK
+;
+}
 DidBuildModelImpl
 (
 aTerminated

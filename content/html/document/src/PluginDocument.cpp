@@ -670,6 +670,10 @@ document
 )
 ;
 }
+BecomeInteractive
+(
+)
+;
 }
 else
 {

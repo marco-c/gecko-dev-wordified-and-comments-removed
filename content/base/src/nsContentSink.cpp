@@ -5802,10 +5802,6 @@ aTerminated
 if
 (
 mDocument
-&
-&
-!
-aTerminated
 )
 {
 MOZ_ASSERT

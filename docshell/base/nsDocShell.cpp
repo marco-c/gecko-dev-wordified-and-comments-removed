@@ -28571,6 +28571,10 @@ refreshURIList
 )
 )
 ;
+mIsRestoringDocument
+=
+true
+;
 rv
 =
 mContentViewer
@@ -28581,6 +28585,10 @@ Open
 windowState
 mLSHE
 )
+;
+mIsRestoringDocument
+=
+false
 ;
 nsAutoPtr
 <
