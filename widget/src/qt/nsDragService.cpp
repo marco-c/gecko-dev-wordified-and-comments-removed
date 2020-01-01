@@ -87,9 +87,6 @@ nsDragService
 delete
 mHiddenWidget
 ;
-delete
-mDrag
-;
 }
 NS_IMETHODIMP
 nsDragService
