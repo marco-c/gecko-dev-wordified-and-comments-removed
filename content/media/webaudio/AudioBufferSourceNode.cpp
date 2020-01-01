@@ -1545,6 +1545,11 @@ currentInSampleRate
 finalSampleRate
 )
 ;
+speex_resampler_skip_zeros
+(
+mResampler
+)
+;
 }
 }
 }
