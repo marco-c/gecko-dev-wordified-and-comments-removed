@@ -44037,7 +44037,7 @@ JSObject
 *
 '
 '
-wrapper
+wrapper_
 '
 )
                 
@@ -44121,6 +44121,21 @@ to
 filter
 here
 .
+  
+JS
+:
+:
+Rooted
+<
+JSObject
+*
+>
+wrapper
+(
+cx
+wrapper_
+)
+;
   
 return
 js
@@ -48170,11 +48185,18 @@ JSContext
 cx
 '
 )
+                
 Argument
 (
 '
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 '
 '
 proxy
