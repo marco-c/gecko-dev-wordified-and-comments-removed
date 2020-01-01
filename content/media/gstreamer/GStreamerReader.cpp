@@ -713,9 +713,6 @@ channels
 1
 2
 }
-rate
-=
-44100
 width
 =
 32
@@ -736,9 +733,6 @@ channels
 1
 2
 }
-rate
-=
-44100
 width
 =
 32
@@ -782,9 +776,6 @@ channels
 1
 2
 }
-rate
-=
-48000
 width
 =
 16
@@ -805,9 +796,6 @@ channels
 1
 2
 }
-rate
-=
-48000
 width
 =
 16
