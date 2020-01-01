@@ -724,7 +724,7 @@ break
 }
 }
 typedef
-uint32_t
+nsresult
 (
 *
 vtable_func
