@@ -34555,6 +34555,13 @@ obj
 )
 )
 {
+guardDenseArray
+(
+obj
+obj_ins
+BRANCH_EXIT
+)
+;
 aobj
 =
 OBJ_GET_PROTO
