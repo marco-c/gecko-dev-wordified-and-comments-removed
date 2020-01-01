@@ -1502,6 +1502,12 @@ aWidgetType
 =
 =
 NS_THEME_DROPDOWN
+|
+|
+aWidgetType
+=
+=
+NS_THEME_DROPDOWN_BUTTON
 )
 {
 if

@@ -3058,6 +3058,13 @@ type
 "
 menu
 "
+xbl
+:
+inherits
+=
+"
+open
+"
 /
 >
 <
