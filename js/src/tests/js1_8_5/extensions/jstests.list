@@ -21,12 +21,6 @@ script
 typedarray
 .
 js
-script
-typedarray
--
-prototype
-.
-js
 skip
 -
 if
@@ -143,5 +137,11 @@ script
 worker
 -
 timeout
+.
+js
+script
+scripted
+-
+proxies
 .
 js

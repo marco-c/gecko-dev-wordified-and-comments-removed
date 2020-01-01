@@ -94,9 +94,3 @@ js1_8_5
 jstests
 .
 list
-include
-proxies
-/
-jstests
-.
-list
