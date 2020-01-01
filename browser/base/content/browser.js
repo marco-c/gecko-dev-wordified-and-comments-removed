@@ -29467,6 +29467,8 @@ clipboard
 return
 ;
 clipboard
+=
+clipboard
 .
 replace
 (
