@@ -2279,9 +2279,6 @@ FASTCALL
 jsint
 builtin_UnboxInt32
 (
-JSContext
-*
-cx
 jsval
 v
 )
