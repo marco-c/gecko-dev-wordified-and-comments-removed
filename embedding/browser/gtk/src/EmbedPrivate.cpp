@@ -1500,6 +1500,11 @@ nsIWebNavigation
 :
 :
 LOAD_FLAGS_NONE
+|
+nsIWebNavigation
+:
+:
+LOAD_FLAGS_ALLOW_THIRD_PARTY_FIXUP
 nsnull
 nsnull
 nsnull
