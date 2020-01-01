@@ -461,6 +461,10 @@ test_whitespaces
 .
 html
 \
+test_words
+.
+html
+\
 (
 NULL
 )
