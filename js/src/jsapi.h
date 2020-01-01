@@ -8754,7 +8754,7 @@ cx
 JSObject
 *
 obj
-jsint
+uint32
 index
 )
 ;
@@ -8771,7 +8771,7 @@ cx
 JSObject
 *
 obj
-jsint
+uint32
 index
 jsval
 *
