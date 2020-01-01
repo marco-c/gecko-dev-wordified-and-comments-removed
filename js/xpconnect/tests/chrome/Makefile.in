@@ -273,6 +273,10 @@ test_wrappers
 .
 xul
 \
+test_bug720619
+.
+xul
+\
 (
 NULL
 )
