@@ -530,7 +530,7 @@ nsresult
 rv
 )
 ;
-void
+bool
 xpc_qsThrowMethodFailedWithDetails
 (
 JSContext
