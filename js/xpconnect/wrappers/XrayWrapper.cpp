@@ -329,14 +329,7 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 NULL
-NULL
-NULL
-NULL
-NULL
-NULL
-NULL
-NULL
-NULL
+JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
 }
