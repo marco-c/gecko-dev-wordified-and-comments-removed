@@ -3467,7 +3467,7 @@ aY
 )
 ;
 void
-AddPositioningOffet
+AddPositioningOffset
 (
 PRInt32
 &

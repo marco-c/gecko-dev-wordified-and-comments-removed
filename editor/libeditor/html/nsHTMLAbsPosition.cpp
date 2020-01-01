@@ -2046,7 +2046,7 @@ void
 nsHTMLEditor
 :
 :
-AddPositioningOffet
+AddPositioningOffset
 (
 PRInt32
 &
@@ -2231,7 +2231,7 @@ absolute
 PR_FALSE
 )
 ;
-AddPositioningOffet
+AddPositioningOffset
 (
 x
 y
