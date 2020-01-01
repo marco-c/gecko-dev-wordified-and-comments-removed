@@ -166,7 +166,7 @@ function
 {
 #
 if
-WTF_PLATFORM_WIN
+WTF_COMPILER_MSVC
 &
 &
 !
