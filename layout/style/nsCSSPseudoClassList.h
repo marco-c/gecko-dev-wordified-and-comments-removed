@@ -112,6 +112,17 @@ root
 root
 "
 )
+CSS_PSEUDO_CLASS
+(
+any
+"
+:
+-
+moz
+-
+any
+"
+)
 CSS_STATE_PSEUDO_CLASS
 (
 link

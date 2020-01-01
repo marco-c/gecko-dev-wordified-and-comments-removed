@@ -48,6 +48,15 @@ nsIAtom
 aAtom
 )
 ;
+static
+PRBool
+HasSelectorListArg
+(
+nsIAtom
+*
+aAtom
+)
+;
 #
 define
 CSS_PSEUDO_CLASS
