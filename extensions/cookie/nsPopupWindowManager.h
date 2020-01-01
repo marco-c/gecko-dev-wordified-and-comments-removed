@@ -40,9 +40,6 @@ nsWeakReference
 h
 "
 class
-nsIURI
-;
-class
 nsPopupWindowManager
 :
 public
