@@ -8180,6 +8180,14 @@ rindex
 PRInt32
 sortorder
 ;
+if
+(
+!
+mQueryProcessor
+)
+return
+0
+;
 mQueryProcessor
 -
 >

@@ -105,13 +105,6 @@ h
 #
 include
 "
-nsIPrefBranch
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h
@@ -1020,7 +1013,7 @@ EnsurePluginLoaded
 (
 nsPluginTag
 *
-plugin
+aPluginTag
 )
 ;
 bool
@@ -1028,7 +1021,7 @@ IsRunningPlugin
 (
 nsPluginTag
 *
-plugin
+aPluginTag
 )
 ;
 nsresult
@@ -1139,12 +1132,6 @@ nsCOMPtr
 nsIFile
 >
 mPluginRegFile
-;
-nsCOMPtr
-<
-nsIPrefBranch
->
-mPrefService
 ;
 #
 ifdef

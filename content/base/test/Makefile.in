@@ -1458,6 +1458,10 @@ test_mutationobservers
 .
 html
 \
+mutationobserver_dialog
+.
+html
+\
 (
 NULL
 )
@@ -2746,6 +2750,10 @@ file_bug650386_report
 sjs
 \
 test_bug719533
+.
+html
+\
+test_bug737087
 .
 html
 \

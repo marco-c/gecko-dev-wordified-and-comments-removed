@@ -2095,7 +2095,7 @@ editor
 .
 use_css
 "
-true
+false
 )
 ;
 pref
