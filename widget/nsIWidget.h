@@ -225,12 +225,6 @@ NS_NATIVE_SCREEN
 define
 NS_NATIVE_SHELLWIDGET
 10
-/
-/
-Get
-the
-shell
-GtkWidget
 #
 define
 NS_NATIVE_SHAREABLE_WINDOW

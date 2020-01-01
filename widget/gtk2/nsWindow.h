@@ -1339,13 +1339,10 @@ DestroyChildWindows
 (
 )
 ;
-void
-GetToplevelWidget
-(
 GtkWidget
 *
-*
-aWidget
+GetToplevelWidget
+(
 )
 ;
 nsWindow
