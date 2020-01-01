@@ -266,8 +266,6 @@ authenticator
 ;
 this
 .
-data
-.
 payload
 =
 {
@@ -291,8 +289,6 @@ keyData
 )
 this
 .
-data
-.
 payload
 .
 key_data
@@ -303,8 +299,6 @@ value
 )
 {
 this
-.
-data
 .
 payload
 .
@@ -318,8 +312,6 @@ _privateKeyUri
 (
 )
 this
-.
-data
 .
 payload
 .
@@ -383,8 +375,6 @@ value
 )
 {
 this
-.
-data
 .
 payload
 .
@@ -468,8 +458,6 @@ authenticator
 ;
 this
 .
-data
-.
 payload
 =
 {
@@ -499,8 +487,6 @@ salt
 )
 this
 .
-data
-.
 payload
 .
 salt
@@ -511,8 +497,6 @@ value
 )
 {
 this
-.
-data
 .
 payload
 .
@@ -527,8 +511,6 @@ iv
 )
 this
 .
-data
-.
 payload
 .
 iv
@@ -539,8 +521,6 @@ value
 )
 {
 this
-.
-data
 .
 payload
 .
@@ -554,8 +534,6 @@ keyData
 (
 )
 this
-.
-data
 .
 payload
 .
@@ -567,8 +545,6 @@ value
 )
 {
 this
-.
-data
 .
 payload
 .
