@@ -144,6 +144,14 @@ EnsureEditorInitialized
 =
 0
 ;
+virtual
+nsresult
+ScrollSelectionIntoView
+(
+)
+=
+0
+;
 }
 ;
 #
