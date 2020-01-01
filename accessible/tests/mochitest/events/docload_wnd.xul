@@ -340,6 +340,13 @@ gOpenerWnd
 .
 invokerChecker
 ;
+var
+asyncInvokerChecker
+=
+gOpenerWnd
+.
+asyncInvokerChecker
+;
 const
 STATE_BUSY
 =
@@ -389,6 +396,17 @@ gOpenerWnd
 .
 nsIAccessibleStateChangeEvent
 ;
+/
+/
+gOpenerWnd
+.
+gA11yEventDumpToConsole
+=
+true
+;
+/
+/
+debug
 /
 /
 /
@@ -1052,7 +1070,7 @@ s
 coalesced
 .
 new
-invokerChecker
+asyncInvokerChecker
 (
 EVENT_REORDER
 getContainer
@@ -1142,7 +1160,7 @@ documentReloadChecker
 true
 )
 new
-invokerChecker
+asyncInvokerChecker
 (
 EVENT_REORDER
 getContainer
@@ -1221,7 +1239,7 @@ documentReloadChecker
 false
 )
 new
-invokerChecker
+asyncInvokerChecker
 (
 EVENT_REORDER
 getContainer
@@ -1329,7 +1347,7 @@ s
 coalesced
 .
 new
-invokerChecker
+asyncInvokerChecker
 (
 EVENT_REORDER
 getContainer

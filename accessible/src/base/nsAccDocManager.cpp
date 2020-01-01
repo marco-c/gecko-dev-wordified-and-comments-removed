@@ -1680,10 +1680,6 @@ AccEvent
 eCoalesceFromSameSubtree
 )
 ;
-if
-(
-reorderEvent
-)
 docAcc
 -
 >
