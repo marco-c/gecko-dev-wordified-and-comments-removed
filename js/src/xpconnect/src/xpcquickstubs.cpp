@@ -2912,6 +2912,10 @@ behavior
 !
 =
 eStringify
+|
+|
+!
+pval
 )
 {
 (
@@ -2936,9 +2940,9 @@ PRUint32
 SetIsVoid
 (
 behavior
+!
 =
-=
-eNull
+eEmpty
 )
 ;
 mValid
