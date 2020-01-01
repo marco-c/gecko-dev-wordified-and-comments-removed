@@ -16,10 +16,6 @@ nsITheme
 ;
 #
 define
-DEFAULT_ORDINAL_GROUP
-1
-#
-define
 NS_STATE_IS_ROOT
 NS_FRAME_STATE_BIT
 (
