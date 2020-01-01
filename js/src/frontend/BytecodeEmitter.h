@@ -305,6 +305,13 @@ BytecodeEmitter
 *
 parent
 ;
+Rooted
+<
+JSScript
+*
+>
+script
+;
 struct
 {
 jsbytecode
@@ -442,6 +449,12 @@ parser
 SharedContext
 *
 sc
+Handle
+<
+JSScript
+*
+>
+script
 unsigned
 lineno
 bool
