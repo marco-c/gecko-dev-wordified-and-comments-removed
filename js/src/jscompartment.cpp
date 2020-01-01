@@ -743,11 +743,9 @@ runtime
 >
 sameCompartmentWrapObjectCallback
 )
-{
 return
 true
 ;
-}
 RootedObject
 wrapped
 (
@@ -1766,7 +1764,7 @@ jsid
 idp
 )
 {
-MOZ_ASSERT
+JS_ASSERT
 (
 *
 idp

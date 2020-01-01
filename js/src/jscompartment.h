@@ -1055,7 +1055,6 @@ JSTracer
 trc
 )
 ;
-inline
 bool
 wrap
 (
@@ -1146,7 +1145,7 @@ return
 true
 ;
 }
-MOZ_ASSERT
+JS_ASSERT
 (
 vp
 .
