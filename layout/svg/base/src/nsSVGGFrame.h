@@ -16,9 +16,6 @@ nsSVGDisplayContainerFrame
 nsSVGGFrameBase
 ;
 class
-nsISVGFilterFrame
-;
-class
 nsSVGGFrame
 :
 public
