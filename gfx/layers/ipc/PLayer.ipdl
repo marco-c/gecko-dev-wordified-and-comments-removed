@@ -129,7 +129,7 @@ contexts
 .
 *
 /
-async
+sync
 protocol
 PLayer
 {
@@ -270,7 +270,6 @@ immediately
 /
 parent
 :
-async
 __delete__
 (
 )

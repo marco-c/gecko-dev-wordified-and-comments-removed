@@ -2992,12 +2992,6 @@ IsTransformed
 )
 const
 ;
-bool
-HasOpacity
-(
-)
-const
-;
 virtual
 bool
 IsSVGTransformed
