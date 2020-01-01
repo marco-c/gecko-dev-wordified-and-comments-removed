@@ -47,7 +47,7 @@ x
 .
 type
 "
-object
+with
 "
 )
 ;
