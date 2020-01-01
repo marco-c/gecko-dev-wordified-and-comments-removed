@@ -249,16 +249,6 @@ aListener
 )
 {
 }
-virtual
-void
-SetTrackEnabled
-(
-TrackID
-aTrackID
-bool
-aEnabled
-)
-;
 bool
 IsFinished
 (
