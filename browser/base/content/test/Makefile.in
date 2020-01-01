@@ -1023,6 +1023,10 @@ browser_bug664672
 .
 js
 \
+browser_canonizeURL
+.
+js
+\
 browser_findbarClose
 .
 js
