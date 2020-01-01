@@ -81,6 +81,16 @@ DoesFallbackKeyExist
 (
 )
 ;
+BOOL
+IsLocalFile
+(
+LPCWSTR
+file
+BOOL
+&
+isLocal
+)
+;
 #
 define
 SVC_NAME
