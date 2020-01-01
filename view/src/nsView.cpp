@@ -682,14 +682,6 @@ mWidgetIsTopLevel
 =
 false
 ;
-mPendingRefresh
-=
-false
-;
-mNeedsToTriggerPaintAfterRefresh
-=
-false
-;
 }
 void
 nsView

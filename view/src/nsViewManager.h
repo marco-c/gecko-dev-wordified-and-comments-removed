@@ -390,7 +390,7 @@ InvalidateHierarchy
 )
 ;
 virtual
-bool
+void
 ProcessPendingUpdates
 (
 )
@@ -416,7 +416,7 @@ FlushPendingInvalidates
 (
 )
 ;
-bool
+void
 ProcessPendingUpdatesForView
 (
 nsView
@@ -496,6 +496,9 @@ Refresh
 nsView
 *
 aView
+nsIWidget
+*
+aWidget
 const
 nsIntRegion
 &
@@ -723,6 +726,9 @@ mPainting
 ;
 bool
 mRecursiveRefreshPending
+;
+bool
+mHasPendingUpdates
 ;
 bool
 mHasPendingWidgetGeometryChanges

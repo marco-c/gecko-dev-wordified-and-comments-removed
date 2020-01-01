@@ -389,15 +389,6 @@ mViewManagerFlushIsPending
 false
 ;
 }
-bool
-ViewManagerFlushIsPending
-(
-)
-{
-return
-mViewManagerFlushIsPending
-;
-}
 void
 ScheduleFrameRequestCallbacks
 (

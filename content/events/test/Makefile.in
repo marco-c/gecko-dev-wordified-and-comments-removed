@@ -203,10 +203,6 @@ test_bug426082
 .
 html
 \
-bug426082
-.
-html
-\
 test_bug427537
 .
 html
@@ -344,12 +340,6 @@ test_bug615597
 html
 \
 test_bug656379
--
-1
-.
-html
-\
-bug656379
 -
 1
 .

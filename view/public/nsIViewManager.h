@@ -481,7 +481,7 @@ aView
 )
 ;
 virtual
-bool
+void
 ProcessPendingUpdates
 (
 )
