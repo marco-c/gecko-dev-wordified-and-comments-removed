@@ -1171,6 +1171,11 @@ AsmJSLink
 cpp
 '
 '
+AsmJSModule
+.
+cpp
+'
+'
 AsmJSSignalHandlers
 .
 cpp

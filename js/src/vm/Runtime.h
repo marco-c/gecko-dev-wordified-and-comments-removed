@@ -171,6 +171,15 @@ h
 #
 include
 "
+ion
+/
+AsmJSSignalHandlers
+.
+h
+"
+#
+include
+"
 js
 /
 HashTable

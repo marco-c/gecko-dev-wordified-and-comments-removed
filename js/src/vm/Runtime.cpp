@@ -138,6 +138,15 @@ include
 "
 ion
 /
+AsmJSSignalHandlers
+.
+h
+"
+#
+include
+"
+ion
+/
 IonCompartment
 .
 h
