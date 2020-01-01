@@ -671,6 +671,10 @@ run_test
 (
 )
 {
+do_get_profile
+(
+)
+;
 do_test_pending
 (
 )
