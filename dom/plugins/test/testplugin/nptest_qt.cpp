@@ -674,13 +674,6 @@ button
 >
 y
 ;
-instanceData
--
->
-mouseUpEventCount
-+
-+
-;
 break
 ;
 }

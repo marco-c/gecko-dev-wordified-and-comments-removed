@@ -343,9 +343,6 @@ NPAsyncSurface
 *
 backBuffer
 ;
-int32_t
-mouseUpEventCount
-;
 }
 InstanceData
 ;
