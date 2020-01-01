@@ -15980,7 +15980,10 @@ pc
 )
 -
 >
-asStaticBlock
+as
+<
+StaticBlockObject
+>
 (
 )
 ;

@@ -124,6 +124,9 @@ Bindings
 class
 Nursery
 ;
+class
+StaticBlockObject
+;
 static
 const
 uint32_t

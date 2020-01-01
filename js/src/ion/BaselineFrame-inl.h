@@ -276,7 +276,10 @@ JS_ASSERT
 scopeChain_
 -
 >
-asClonedBlock
+as
+<
+ClonedBlockObject
+>
 (
 )
 .
