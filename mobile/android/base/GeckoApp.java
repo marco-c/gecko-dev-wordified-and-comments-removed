@@ -8867,6 +8867,16 @@ mIsRestoringActivity
 =
 true
 ;
+Telemetry
+.
+HistogramAdd
+(
+"
+FENNEC_RESTORING_ACTIVITY
+"
+1
+)
+;
 }
 mMainHandler
 =
@@ -9047,7 +9057,7 @@ Telemetry
 HistogramAdd
 (
 "
-OUT_OF_MEMORY_KILLED
+FENNEC_WAS_KILLED
 "
 1
 )
@@ -9137,7 +9147,7 @@ Telemetry
 HistogramAdd
 (
 "
-OUT_OF_MEMORY_KILLED
+FENNEC_WAS_KILLED
 "
 1
 )
