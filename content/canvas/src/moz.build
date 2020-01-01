@@ -255,6 +255,11 @@ WebGLExtensionDepthTexture
 cpp
 '
 '
+WebGLExtensionDrawBuffers
+.
+cpp
+'
+'
 WebGLExtensionElementIndexUint
 .
 cpp

@@ -2872,6 +2872,8 @@ EXT_packed_depth_stencil
 OES_element_index_uint
 OES_vertex_array_object
 ARB_vertex_array_object
+ARB_draw_buffers
+EXT_draw_buffers
 Extensions_Max
 }
 ;
@@ -6105,6 +6107,7 @@ fDrawBuffers
 (
 GLsizei
 n
+const
 GLenum
 *
 bufs
