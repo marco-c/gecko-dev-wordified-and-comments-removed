@@ -335,7 +335,7 @@ GetName
 (
 nsAString
 &
-_retval
+aName
 )
 ;
 NS_IMETHOD

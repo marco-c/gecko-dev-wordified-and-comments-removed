@@ -179,12 +179,13 @@ nsAString
 _retval
 )
 ;
-NS_IMETHOD
-GetName
+virtual
+nsresult
+GetNameInternal
 (
 nsAString
 &
-_retval
+aName
 )
 ;
 }

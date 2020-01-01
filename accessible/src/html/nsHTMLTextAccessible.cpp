@@ -478,11 +478,11 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLBRAccessible
 :
 :
-GetName
+GetNameInternal
 (
 nsAString
 &
@@ -531,11 +531,11 @@ aShell
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsHTMLLabelAccessible
 :
 :
-GetName
+GetNameInternal
 (
 nsAString
 &
