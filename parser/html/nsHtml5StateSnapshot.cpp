@@ -549,7 +549,6 @@ release
 ;
 }
 }
-;
 }
 void
 nsHtml5StateSnapshot

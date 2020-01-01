@@ -424,12 +424,5 @@ release
 ;
 }
 }
-Portability
-.
-retainElement
-(
-formPointer
-)
-;
 }
 }

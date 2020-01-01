@@ -1378,16 +1378,6 @@ destructor
 {
 Portability
 .
-releaseLocal
-(
-local
-[
-0
-]
-)
-;
-Portability
-.
 deleteArray
 (
 local
