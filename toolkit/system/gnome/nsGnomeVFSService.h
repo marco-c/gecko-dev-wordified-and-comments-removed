@@ -12,6 +12,15 @@ nsIGnomeVFSService
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_GNOMEVFSSERVICE_CID
 \
@@ -32,6 +41,7 @@ NS_GNOMEVFSSERVICE_CID
 }
 class
 nsGnomeVFSService
+MOZ_FINAL
 :
 public
 nsIGnomeVFSService
