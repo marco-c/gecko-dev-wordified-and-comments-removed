@@ -39,6 +39,9 @@ add
 {
 date
 :
+new
+Date
+(
 Date
 .
 now
@@ -46,6 +49,7 @@ now
 )
 +
 143
+)
 ignoreTimezone
 :
 true
@@ -141,9 +145,8 @@ add
 {
 date
 :
+new
 Date
-.
-now
 (
 )
 ignoreTimezone
@@ -243,6 +246,9 @@ add
 {
 date
 :
+new
+Date
+(
 Date
 .
 now
@@ -250,6 +256,7 @@ now
 )
 -
 5
+)
 ignoreTimezone
 :
 true
@@ -345,6 +352,9 @@ counter
 let
 date
 =
+new
+Date
+(
 Date
 .
 now
@@ -352,6 +362,7 @@ now
 )
 +
 57
+)
 ;
 function
 onAlarmFired
@@ -449,6 +460,9 @@ cb
 let
 d
 =
+new
+Date
+(
 Date
 .
 now
@@ -456,6 +470,7 @@ now
 )
 +
 100
+)
 ;
 let
 called
@@ -569,6 +584,9 @@ fired
 var
 delay
 =
+new
+Date
+(
 Date
 .
 now
@@ -576,6 +594,7 @@ now
 )
 +
 100
+)
 ;
 function
 check
