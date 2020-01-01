@@ -188,13 +188,7 @@ DeferredUpdateMessage
 HWND
 aHWnd
 )
-:
-hWnd
-(
-aHWnd
-)
-{
-}
+;
 virtual
 void
 Run
@@ -204,7 +198,10 @@ Run
 private
 :
 HWND
-hWnd
+mWnd
+;
+RECT
+mUpdateRect
 ;
 }
 ;
