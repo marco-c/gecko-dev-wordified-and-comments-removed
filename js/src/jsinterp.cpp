@@ -21850,9 +21850,11 @@ id
 rval
 )
 )
+{
 goto
 error
 ;
+}
 END_PC_HINT
 (
 )
@@ -22474,9 +22476,11 @@ id
 rval
 )
 )
+{
 goto
 error
 ;
+}
 END_PC_HINT
 (
 )
