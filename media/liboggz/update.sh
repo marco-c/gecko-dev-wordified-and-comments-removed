@@ -1600,3 +1600,10 @@ p4
 warning
 .
 patch
+patch
+-
+p3
+<
+oggz_off_t
+.
+patch
