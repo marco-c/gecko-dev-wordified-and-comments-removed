@@ -171,6 +171,12 @@ class
 :
 nsSVGTextPathFrame
 ;
+friend
+class
+:
+:
+nsSVGTextFrame2
+;
 protected
 :
 friend

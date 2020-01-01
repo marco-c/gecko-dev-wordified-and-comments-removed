@@ -608,6 +608,10 @@ nsSVGTextFrame
 )
 FRAME_ID
 (
+nsSVGTextFrame2
+)
+FRAME_ID
+(
 nsSVGTextPathFrame
 )
 FRAME_ID
