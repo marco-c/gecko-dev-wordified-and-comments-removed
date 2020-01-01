@@ -19496,7 +19496,11 @@ pn
 >
 pn_dflags
 &
+(
+PND_ASSIGNED
+|
 PND_FUNARG
+)
 ;
 }
 LinkUseToDef
