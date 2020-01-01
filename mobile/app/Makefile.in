@@ -673,6 +673,8 @@ ini
 Build
 BuildID
 )
+ifndef
+MOZ_BUILD_DATE
 APP_BUILDID
 =
 (
@@ -699,6 +701,13 @@ print
 -
 buildid
 )
+else
+APP_BUILDID
+=
+(
+MOZ_BUILD_DATE
+)
+endif
 APP_ICON
 =
 mobile
