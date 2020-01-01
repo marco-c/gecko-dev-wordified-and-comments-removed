@@ -734,6 +734,12 @@ run_test
 (
 )
 {
+if
+(
+DISABLE_TESTS_BUG_618233
+)
+return
+;
 Svc
 .
 Prefs
