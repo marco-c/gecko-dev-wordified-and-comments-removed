@@ -166,13 +166,6 @@ h
 "
 #
 include
-"
-gfxAtoms
-.
-h
-"
-#
-include
 <
 cairo
 .
