@@ -3159,10 +3159,6 @@ mLibrary
 (
 aLibrary
 )
-mStreamListeners
-(
-nsnull
-)
 mMIMEType
 (
 nsnull
