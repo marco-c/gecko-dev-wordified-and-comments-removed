@@ -678,9 +678,6 @@ data
 bool
 active
 ;
-bool
-hasDebugModeCodeToDrop
-;
 js
 :
 :
