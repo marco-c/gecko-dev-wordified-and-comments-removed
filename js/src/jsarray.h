@@ -565,8 +565,7 @@ dest
 )
 ;
 JSBool
-JS_FASTCALL
-js_ObjectHasNumericPropertiesInAnyPrototype
+js_PrototypeHasIndexedProperties
 (
 JSContext
 *
