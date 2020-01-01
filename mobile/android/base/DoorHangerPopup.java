@@ -214,6 +214,11 @@ setOutsideTouchable
 true
 )
 ;
+setFocusable
+(
+true
+)
+;
 setWindowLayoutMode
 (
 GeckoApp

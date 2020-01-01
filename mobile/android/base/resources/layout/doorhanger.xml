@@ -116,6 +116,13 @@ doorhanger_title
 "
 android
 :
+focusable
+=
+"
+true
+"
+android
+:
 layout_width
 =
 "
