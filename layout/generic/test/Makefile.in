@@ -528,7 +528,7 @@ html
 \
 test_backspace_delete
 .
-html
+xul
 \
 (
 NULL
