@@ -8092,8 +8092,6 @@ G
 -
 C
 -
-32
--
 s
 (
 MOZILLA_DTRACE_SRC
@@ -8473,8 +8471,6 @@ dtrace
 G
 -
 C
--
-32
 -
 s
 (
