@@ -30,7 +30,7 @@ class
 nsIFormProcessor
 ;
 class
-nsIFormSubmission
+nsFormSubmission
 ;
 #
 define
@@ -203,7 +203,7 @@ Reset
 NS_IMETHOD
 SubmitNamesValues
 (
-nsIFormSubmission
+nsFormSubmission
 *
 aFormSubmission
 nsIContent

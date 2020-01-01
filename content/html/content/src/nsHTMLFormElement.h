@@ -769,9 +769,9 @@ aEvent
 nsresult
 BuildSubmission
 (
-nsCOMPtr
+nsRefPtr
 <
-nsIFormSubmission
+nsFormSubmission
 >
 &
 aFormSubmission
@@ -783,7 +783,7 @@ aEvent
 nsresult
 SubmitSubmission
 (
-nsIFormSubmission
+nsFormSubmission
 *
 aFormSubmission
 )
@@ -791,7 +791,7 @@ aFormSubmission
 nsresult
 WalkFormElements
 (
-nsIFormSubmission
+nsFormSubmission
 *
 aFormSubmission
 nsIContent
@@ -886,9 +886,9 @@ mSubmitPopupState
 PRBool
 mSubmitInitiatedFromUserInput
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFormSubmission
+nsFormSubmission
 >
 mPendingSubmission
 ;

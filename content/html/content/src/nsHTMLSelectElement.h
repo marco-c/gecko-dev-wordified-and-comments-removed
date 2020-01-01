@@ -661,7 +661,7 @@ Reset
 NS_IMETHOD
 SubmitNamesValues
 (
-nsIFormSubmission
+nsFormSubmission
 *
 aFormSubmission
 nsIContent
