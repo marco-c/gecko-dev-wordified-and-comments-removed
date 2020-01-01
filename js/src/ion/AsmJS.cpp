@@ -29129,6 +29129,9 @@ extern
 bool
 EnsureAsmJSSignalHandlersInstalled
 (
+JSRuntime
+*
+rt
 )
 ;
 bool
@@ -29245,6 +29248,10 @@ if
 !
 EnsureAsmJSSignalHandlersInstalled
 (
+cx
+-
+>
+runtime
 )
 )
 return
