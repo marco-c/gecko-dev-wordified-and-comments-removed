@@ -9084,10 +9084,13 @@ JSObject
 *
 obj
 =
-ComputeThisFromVp
+js_ValueToNonNullObject
 (
 cx
 vp
+[
+1
+]
 )
 ;
 if
