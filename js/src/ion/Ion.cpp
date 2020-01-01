@@ -3049,11 +3049,6 @@ BuildSSA
 "
 )
 ;
-AssertGraphCoherency
-(
-graph
-)
-;
 if
 (
 !
@@ -3084,7 +3079,7 @@ graph
 if
 (
 !
-ReorderBlocks
+RenumberBlocks
 (
 graph
 )
@@ -3095,7 +3090,7 @@ false
 IonSpewPass
 (
 "
-Reorder
+Renumber
 Blocks
 "
 )
