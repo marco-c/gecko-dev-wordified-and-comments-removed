@@ -459,6 +459,11 @@ aProperty
 )
 ;
 }
+PRBool
+EnsureMutable
+(
+)
+;
 void
 ClearData
 (
