@@ -180,6 +180,10 @@ FR
 "
 ]
 ;
+do_get_profile
+(
+)
+;
 var
 workingDir
 =
@@ -208,7 +212,7 @@ nsIProperties
 get
 (
 "
-TmpD
+ProfD
 "
 Ci
 .
@@ -399,6 +403,12 @@ QueryInterface
 Ci
 .
 nsIToolkitChromeRegistry
+)
+;
+chromeReg
+.
+checkForNewChrome
+(
 )
 ;
 var
@@ -725,11 +735,4 @@ test
 )
 ;
 }
-manifest
-.
-remove
-(
-false
-)
-;
 }
