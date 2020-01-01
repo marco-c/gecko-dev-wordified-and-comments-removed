@@ -42,6 +42,12 @@ Thumbnails_init
 (
 )
 {
+if
+(
+gMultiProcessBrowser
+)
+return
+;
 try
 {
 if
@@ -155,6 +161,12 @@ Thumbnails_uninit
 (
 )
 {
+if
+(
+gMultiProcessBrowser
+)
+return
+;
 PageThumbs
 .
 removeExpirationFilter

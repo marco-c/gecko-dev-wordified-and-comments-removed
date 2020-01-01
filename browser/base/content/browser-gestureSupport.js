@@ -75,6 +75,12 @@ GS_init
 aAddListener
 )
 {
+if
+(
+gMultiProcessBrowser
+)
+return
+;
 const
 gestureEvents
 =
@@ -1862,6 +1868,12 @@ function
 (
 )
 {
+if
+(
+gMultiProcessBrowser
+)
+return
+;
 if
 (
 !
