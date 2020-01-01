@@ -2415,7 +2415,7 @@ mType
 gfx
 :
 :
-YV16
+YV12
 ;
 }
 else
