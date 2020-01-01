@@ -145,6 +145,17 @@ apply
 .
 *
 /
+[
+Constructor
+(
+optional
+DOMString
+data
+=
+"
+"
+)
+]
 interface
 Text
 :
