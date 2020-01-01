@@ -6950,6 +6950,13 @@ ResetDownstreamState
 (
 )
 ;
+self
+-
+>
+ResumeRecv
+(
+)
+;
 return
 NS_OK
 ;
@@ -7254,6 +7261,10 @@ FlushOutputQueue
 (
 )
 ;
+ResumeRecv
+(
+)
+;
 if
 (
 stream
@@ -7470,10 +7481,6 @@ complete
 this
 stream
 )
-)
-;
-ResumeRecv
-(
 )
 ;
 SetWriteCallbacks
