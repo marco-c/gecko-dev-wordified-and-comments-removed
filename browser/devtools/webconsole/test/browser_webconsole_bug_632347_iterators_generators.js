@@ -883,7 +883,7 @@ find
 "
 iter2
 :
-Object
+Iterator
 "
 false
 )
