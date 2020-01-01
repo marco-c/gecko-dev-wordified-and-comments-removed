@@ -576,6 +576,14 @@ nsCocoaTextInputHandler
 .
 mm
 \
+nsMacDockSupport
+.
+mm
+\
+nsStandaloneNativeMenu
+.
+mm
+\
 (
 NULL
 )

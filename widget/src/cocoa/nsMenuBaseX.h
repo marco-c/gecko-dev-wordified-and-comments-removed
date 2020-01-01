@@ -33,6 +33,7 @@ nsMenuObjectTypeX
 eMenuBarObjectType
 eSubmenuObjectType
 eMenuItemObjectType
+eStandaloneNativeMenuObjectType
 }
 ;
 class

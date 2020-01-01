@@ -559,6 +559,14 @@ test_platform_colors
 .
 xul
 \
+test_standalone_native_menu
+.
+xul
+\
+standalone_native_menu_window
+.
+xul
+\
 (
 NULL
 )
