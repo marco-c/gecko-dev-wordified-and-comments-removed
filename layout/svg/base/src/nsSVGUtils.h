@@ -218,6 +218,9 @@ NS_SVGEnabled
 (
 )
 ;
+#
+undef
+CLIP_MASK
 class
 nsSVGRenderState
 {
