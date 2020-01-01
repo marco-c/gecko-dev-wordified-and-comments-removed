@@ -6,11 +6,11 @@ define
 CAIRO_XLIB_H
 #
 include
-<
+"
 cairo
 .
 h
->
+"
 #
 if
 CAIRO_HAS_XLIB_SURFACE

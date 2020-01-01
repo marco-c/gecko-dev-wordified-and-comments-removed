@@ -3917,7 +3917,7 @@ mattr
 cairo_int_status_t
 status
 ;
-cairo_pattern_union_t
+cairo_solid_pattern_t
 tmp
 ;
 if
@@ -3986,18 +3986,8 @@ _cairo_pattern_init_solid
 (
 &
 tmp
-.
-solid
 &
 combined
-CAIRO_COLOR_IS_OPAQUE
-(
-&
-combined
-)
-?
-CAIRO_CONTENT_COLOR
-:
 CAIRO_CONTENT_COLOR_ALPHA
 )
 ;
@@ -4685,7 +4675,6 @@ cairo_color_t
 *
 )
 color
-NULL
 )
 ;
 if
