@@ -3389,7 +3389,7 @@ s
 +
 n
 ;
-jsuint
+uint32_t
 index
 =
 JS7_UNDEC
@@ -3400,12 +3400,12 @@ cp
 +
 )
 ;
-jsuint
+uint32_t
 oldIndex
 =
 0
 ;
-jsuint
+uint32_t
 c
 =
 0

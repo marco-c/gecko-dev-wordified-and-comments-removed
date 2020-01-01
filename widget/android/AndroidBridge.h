@@ -1307,11 +1307,10 @@ EmitGeckoAccessibilityEvent
 PRInt32
 eventType
 const
-nsAString
-&
-role
-const
-nsAString
+nsTArray
+<
+nsString
+>
 &
 text
 const
@@ -1836,6 +1835,9 @@ jEGLContextClass
 ;
 jclass
 jEGL10Class
+;
+jclass
+jStringClass
 ;
 int
 (

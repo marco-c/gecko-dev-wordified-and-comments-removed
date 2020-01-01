@@ -139,10 +139,6 @@ id
 #
 endif
 JS_BEGIN_EXTERN_C
-typedef
-uint32_t
-jsuint
-;
 #
 ifdef
 WIN32

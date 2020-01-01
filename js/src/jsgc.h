@@ -2753,7 +2753,7 @@ init
 (
 )
 ;
-jsuint
+unsigned
 findDecommittedArenaOffset
 (
 )
@@ -7308,6 +7308,16 @@ RunDebugGC
 JSContext
 *
 cx
+)
+;
+void
+SetDeterministicGC
+(
+JSContext
+*
+cx
+bool
+enabled
 )
 ;
 #

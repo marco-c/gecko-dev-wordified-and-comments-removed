@@ -740,7 +740,9 @@ aDestructRoot
 )
 ;
 }
+const
 nsFrameList
+&
 nsTableOuterFrame
 :
 :

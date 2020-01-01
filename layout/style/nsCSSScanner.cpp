@@ -2315,10 +2315,6 @@ ReportUnexpectedParams
 (
 aMessage
 params
-ArrayLength
-(
-params
-)
 )
 ;
 }

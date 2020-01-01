@@ -525,7 +525,7 @@ dashes
 {
 static
 const
-jsuint
+uint32_t
 MAX_NUM_DASHES
 =
 1
@@ -551,7 +551,7 @@ JSVAL_TO_OBJECT
 patternArray
 )
 ;
-jsuint
+uint32_t
 length
 ;
 if

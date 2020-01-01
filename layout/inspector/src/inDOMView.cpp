@@ -437,10 +437,6 @@ InitAtoms
 NS_RegisterStaticAtoms
 (
 Atoms_info
-ArrayLength
-(
-Atoms_info
-)
 )
 ;
 }

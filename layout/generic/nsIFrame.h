@@ -2257,7 +2257,9 @@ GetBaseline
 ;
 }
 virtual
+const
 nsFrameList
+&
 GetChildList
 (
 ChildListID
@@ -2267,7 +2269,9 @@ const
 =
 0
 ;
+const
 nsFrameList
+&
 PrincipalChildList
 (
 )

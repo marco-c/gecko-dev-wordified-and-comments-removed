@@ -61,7 +61,7 @@ js_IdIsIndex
 (
 jsid
 id
-jsuint
+uint32_t
 *
 indexp
 )
@@ -95,7 +95,7 @@ JS_FALSE
 indexp
 =
 (
-jsuint
+uint32_t
 )
 i
 ;
@@ -278,7 +278,7 @@ cx
 JSObject
 *
 obj
-jsuint
+uint32_t
 *
 lengthp
 )
@@ -353,7 +353,7 @@ cx
 JSObject
 *
 aobj
-jsuint
+uint32_t
 length
 js
 :

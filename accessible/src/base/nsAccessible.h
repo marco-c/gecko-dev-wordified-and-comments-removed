@@ -461,6 +461,11 @@ NativeState
 (
 )
 ;
+PRUint64
+VisibilityState
+(
+)
+;
 virtual
 nsresult
 GetAttributesInternal
@@ -1573,11 +1578,6 @@ nsIFrame
 *
 *
 aRelativeFrame
-)
-;
-PRUint64
-VisibilityState
-(
 )
 ;
 nsresult

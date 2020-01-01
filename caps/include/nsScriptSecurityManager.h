@@ -1244,6 +1244,16 @@ vp
 )
 ;
 static
+JSPrincipals
+*
+ObjectPrincipalFinder
+(
+JSObject
+*
+obj
+)
+;
+static
 JSBool
 ContentSecurityPolicyPermitsJSAction
 (

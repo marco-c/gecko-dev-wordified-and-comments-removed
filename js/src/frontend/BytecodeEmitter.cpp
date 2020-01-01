@@ -5209,7 +5209,7 @@ slot
 JS_ASSERT
 (
 (
-jsuint
+unsigned
 )
 slot
 <
@@ -12199,7 +12199,7 @@ toInt32
 if
 (
 (
-jsuint
+unsigned
 )
 (
 i
@@ -12215,7 +12215,7 @@ JS_BIT
 >
 =
 (
-jsuint
+unsigned
 )
 JS_BIT
 (
@@ -14917,7 +14917,7 @@ emitOption
 DefineVars
 )
 ;
-jsuint
+unsigned
 index
 ;
 ParseNode
@@ -15985,7 +15985,7 @@ ParseNode
 rhs
 )
 {
-jsuint
+unsigned
 depth
 limit
 i
@@ -20145,6 +20145,7 @@ return
 true
 ;
 }
+MOZ_NEVER_INLINE
 static
 bool
 EmitTry
@@ -21259,6 +21260,7 @@ bce
 #
 if
 JS_HAS_BLOCK_SCOPE
+MOZ_NEVER_INLINE
 static
 bool
 EmitLet
@@ -22188,6 +22190,7 @@ true
 }
 #
 endif
+MOZ_NEVER_INLINE
 static
 bool
 EmitLexicalScope
@@ -28362,6 +28365,7 @@ return
 true
 ;
 }
+MOZ_NEVER_INLINE
 static
 bool
 EmitLabel

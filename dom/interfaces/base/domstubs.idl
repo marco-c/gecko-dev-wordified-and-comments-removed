@@ -713,3 +713,6 @@ Power
 interface
 nsIDOMMozPowerManager
 ;
+interface
+nsIDOMMozWakeLock
+;

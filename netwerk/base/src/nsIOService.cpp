@@ -503,7 +503,7 @@ false
 )
 mManageOfflineStatus
 (
-true
+false
 )
 mSettingOffline
 (
@@ -4563,10 +4563,6 @@ rv
 =
 NS_OK
 ;
-InitializeNetworkLinkService
-(
-)
-;
 bool
 wasManaged
 =
@@ -4575,6 +4571,10 @@ mManageOfflineStatus
 mManageOfflineStatus
 =
 aManage
+;
+InitializeNetworkLinkService
+(
+)
 ;
 if
 (

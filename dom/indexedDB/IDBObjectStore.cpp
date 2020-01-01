@@ -2291,7 +2291,7 @@ JSVAL_TO_OBJECT
 key
 )
 ;
-jsuint
+uint32_t
 arrayLength
 ;
 if
@@ -2312,7 +2312,7 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 }
 for
 (
-jsuint
+uint32_t
 arrayIndex
 =
 0
@@ -7162,7 +7162,7 @@ JSVAL_TO_OBJECT
 aKeyPath
 )
 ;
-jsuint
+uint32_t
 length
 ;
 if
@@ -7200,7 +7200,7 @@ length
 ;
 for
 (
-jsuint
+uint32_t
 index
 =
 0

@@ -2998,6 +2998,10 @@ mObjectHolderRoots
 JSDHashTable
 mJSHolders
 ;
+PRLock
+*
+mWatchdogLock
+;
 PRCondVar
 *
 mWatchdogWakeup
@@ -3017,6 +3021,10 @@ mWatchdogHibernating
 ;
 PRTime
 mLastActiveTime
+;
+friend
+class
+AutoLockWatchdog
 ;
 }
 ;
@@ -11667,7 +11675,9 @@ ccx
 JSObject
 *
 aJSObj
-jsval
+const
+nsAString
+&
 aName
 nsIVariant
 *

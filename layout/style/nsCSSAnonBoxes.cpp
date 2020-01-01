@@ -153,10 +153,6 @@ AddRefAtoms
 NS_RegisterStaticAtoms
 (
 CSSAnonBoxes_info
-ArrayLength
-(
-CSSAnonBoxes_info
-)
 )
 ;
 }

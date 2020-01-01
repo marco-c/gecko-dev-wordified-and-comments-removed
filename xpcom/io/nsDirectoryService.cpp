@@ -1180,10 +1180,6 @@ rv
 NS_RegisterStaticAtoms
 (
 directory_atoms
-ArrayLength
-(
-directory_atoms
-)
 )
 ;
 nsAppFileLocationProvider

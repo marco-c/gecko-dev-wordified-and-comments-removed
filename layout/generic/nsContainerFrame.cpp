@@ -946,7 +946,9 @@ aDestructRoot
 )
 ;
 }
+const
 nsFrameList
+&
 nsContainerFrame
 :
 :
