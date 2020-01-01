@@ -1719,6 +1719,9 @@ __init__
 self
 loc
 spec
+state
+=
+None
 )
 :
         
@@ -1735,6 +1738,12 @@ self
 spec
 =
 spec
+        
+self
+.
+state
+=
+state
     
 def
 basename
@@ -1749,6 +1758,21 @@ self
 spec
 .
 baseid
+    
+def
+isActor
+(
+self
+)
+:
+        
+return
+self
+.
+state
+is
+not
+None
     
 def
 __str__
