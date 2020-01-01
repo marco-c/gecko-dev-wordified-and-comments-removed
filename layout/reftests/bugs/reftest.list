@@ -19909,6 +19909,9 @@ random
 if
 (
 cocoaWidget
+&
+&
+layersGPUAccelerated
 )
 =
 =
@@ -20247,6 +20250,9 @@ random
 if
 (
 cocoaWidget
+&
+&
+layersGPUAccelerated
 )
 =
 =
@@ -20267,6 +20273,9 @@ random
 if
 (
 cocoaWidget
+&
+&
+layersGPUAccelerated
 )
 =
 =
@@ -20603,6 +20612,9 @@ random
 if
 (
 cocoaWidget
+&
+&
+layersGPUAccelerated
 )
 =
 =

@@ -395,6 +395,9 @@ random
 if
 (
 cocoaWidget
+&
+&
+layersGPUAccelerated
 )
 =
 =
