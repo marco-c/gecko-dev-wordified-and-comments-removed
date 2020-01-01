@@ -1669,8 +1669,10 @@ sCanLaunchSubprocesses
 false
 ;
 }
+already_AddRefed
+<
 ContentParent
-*
+>
 ContentParent
 :
 :
@@ -1754,8 +1756,10 @@ Length
 (
 )
 ;
+nsRefPtr
+<
 ContentParent
-*
+>
 p
 =
 (
@@ -1787,6 +1791,10 @@ gNonAppContentParents
 ;
 return
 p
+.
+forget
+(
+)
 ;
 }
 nsRefPtr
@@ -1826,6 +1834,10 @@ p
 ;
 return
 p
+.
+forget
+(
+)
 ;
 }
 namespace
@@ -2109,8 +2121,10 @@ HasOwnApp
 {
 if
 (
+nsRefPtr
+<
 ContentParent
-*
+>
 cp
 =
 GetNewOrUsed
