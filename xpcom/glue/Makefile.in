@@ -470,16 +470,6 @@ build
 (
 NULL
 )
-CSRCS
-=
-\
-(
-XPCOM_GLUE_SRC_LCSRCS
-)
-\
-(
-NULL
-)
 CPPSRCS
 =
 \

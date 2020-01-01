@@ -586,16 +586,6 @@ a
 >
 )
 endif
-CSRCS
-=
-\
-(
-XPCOM_GLUE_SRC_LCSRCS
-)
-\
-(
-NULL
-)
 CPPSRCS
 =
 \
@@ -743,9 +733,6 @@ GARBAGE
 +
 =
 (
-XPCOM_GLUE_SRC_LCSRCS
-)
-(
 XPCOM_GLUE_SRC_LCPPSRCS
 )
 (
@@ -801,9 +788,6 @@ endif
 export
 :
 :
-(
-XPCOM_GLUE_SRC_CSRCS
-)
 (
 XPCOM_GLUE_SRC_CPPSRCS
 )

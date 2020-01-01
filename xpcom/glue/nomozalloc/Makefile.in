@@ -481,16 +481,6 @@ build
 (
 NULL
 )
-CSRCS
-=
-\
-(
-XPCOM_GLUE_SRC_LCSRCS
-)
-\
-(
-NULL
-)
 CPPSRCS
 =
 \
@@ -531,9 +521,6 @@ NULL
 GARBAGE
 +
 =
-(
-CSRCS
-)
 (
 CPPSRCS
 )
@@ -684,9 +671,6 @@ endif
 export
 :
 :
-(
-XPCOM_GLUE_SRC_CSRCS
-)
 (
 XPCOM_GLUE_SRC_CPPSRCS
 )
