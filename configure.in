@@ -1569,6 +1569,11 @@ dnl
 set
 up
 compilers
+TOOLCHAIN_PREFIX
+=
+"
+gonk_toolchain_prefix
+"
 AS
 =
 "
@@ -73023,6 +73028,10 @@ MOZ_WEBGL
 AC_SUBST
 (
 MOZ_HELP_VIEWER
+)
+AC_SUBST
+(
+TOOLCHAIN_PREFIX
 )
 AC_SUBST
 (

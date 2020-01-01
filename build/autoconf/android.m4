@@ -567,6 +567,16 @@ dnl
 set
 up
 compilers
+TOOLCHAIN_PREFIX
+=
+"
+android_toolchain
+/
+bin
+/
+android_tool_prefix
+-
+"
 AS
 =
 "
