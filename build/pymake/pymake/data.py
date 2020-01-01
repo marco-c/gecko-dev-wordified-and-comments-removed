@@ -11265,6 +11265,22 @@ target
 "
 "
         
+flavor
+source
+value
+=
+self
+.
+variables
+.
+get
+(
+'
+.
+DEFAULT_GOAL
+'
+)
+        
 if
 self
 .
@@ -11279,6 +11295,10 @@ t
 .
 PHONY
 '
+and
+value
+is
+None
 :
             
 self
@@ -11286,6 +11306,26 @@ self
 defaulttarget
 =
 t
+            
+self
+.
+variables
+.
+set
+(
+'
+.
+DEFAULT_GOAL
+'
+Variables
+.
+FLAVOR_SIMPLE
+                               
+Variables
+.
+SOURCE_AUTOMATIC
+t
+)
     
 def
 getpatternvariables

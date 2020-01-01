@@ -13979,9 +13979,15 @@ touch
 fi
 .
 DEFAULT_GOAL
-?
+:
 =
+(
+or
+(
+OVERRIDE_DEFAULT_GOAL
+)
 default
+)
 #
 #
 #

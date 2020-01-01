@@ -378,8 +378,7 @@ locales
 /
 installer
 endif
-.
-DEFAULT_GOAL
+OVERRIDE_DEFAULT_GOAL
 :
 =
 installer

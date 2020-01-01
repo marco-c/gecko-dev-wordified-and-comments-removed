@@ -249,8 +249,7 @@ mbsdiff
 (
 HOST_BIN_SUFFIX
 )
-.
-DEFAULT_GOAL
+OVERRIDE_DEFAULT_GOAL
 :
 =
 full
