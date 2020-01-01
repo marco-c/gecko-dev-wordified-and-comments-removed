@@ -120,7 +120,7 @@ modules
 /
 services
 -
-sync
+common
 /
 log4moz
 .
