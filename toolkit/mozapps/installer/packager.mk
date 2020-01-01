@@ -2416,6 +2416,9 @@ bin
 /
 szip
 (
+MOZ_SZIP_FLAGS
+)
+(
 STAGEPATH
 )
 (
