@@ -580,6 +580,10 @@ TestTextFormatter
 .
 cpp
 \
+TestTimeStamp
+.
+cpp
+\
 (
 NULL
 )
