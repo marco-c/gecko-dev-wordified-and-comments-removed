@@ -55,6 +55,12 @@ branding
 /
 firefox
 "
+                 
+"
+services
+/
+sync
+"
 )
 :
     
