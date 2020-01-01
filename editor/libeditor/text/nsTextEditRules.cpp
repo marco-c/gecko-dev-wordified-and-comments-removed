@@ -2547,6 +2547,14 @@ res
 if
 (
 truncated
+&
+&
+outString
+-
+>
+IsEmpty
+(
+)
 )
 {
 *
