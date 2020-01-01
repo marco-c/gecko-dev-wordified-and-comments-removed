@@ -674,6 +674,11 @@ NS_ENSURE_STATE
 domDoc
 )
 ;
+bool
+oldHidden
+=
+mHidden
+;
 domDoc
 -
 >
@@ -686,6 +691,12 @@ mHidden
 if
 (
 mLocked
+&
+&
+oldHidden
+!
+=
+mHidden
 )
 {
 hal
