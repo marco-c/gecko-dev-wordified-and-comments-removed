@@ -2469,12 +2469,9 @@ JSErr_Limit
 JSErrNum
 ;
 extern
-JS_FRIEND_API
-(
 const
 JSErrorFormatString
 *
-)
 js_GetErrorMessage
 (
 void

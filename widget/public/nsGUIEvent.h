@@ -33,6 +33,14 @@ nsStringGlue
 h
 "
 #
+ifdef
+WIN32
+#
+undef
+ERROR
+#
+endif
+#
 include
 "
 nsCOMPtr
