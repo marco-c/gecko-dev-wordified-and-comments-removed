@@ -106,10 +106,6 @@ nvars
 (
 0
 )
-nupvars
-(
-0
-)
 hasDup_
 (
 false
