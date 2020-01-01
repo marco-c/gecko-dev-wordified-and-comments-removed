@@ -42482,7 +42482,7 @@ onerror
 function
 callback
 (
-optoins
+options
 )
 {
 let
@@ -42607,7 +42607,7 @@ onerror
 function
 callback
 (
-optoins
+options
 )
 {
 let
