@@ -4723,6 +4723,12 @@ ins
 NameResult
 &
 nr
+JSObject
+*
+*
+scopeObjp
+=
+NULL
 )
 ;
 JS_REQUIRES_STACK
