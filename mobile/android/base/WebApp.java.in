@@ -190,6 +190,15 @@ mozilla
 .
 gecko
 .
+GeckoEvent
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 WebAppAllocator
 ;
 import
