@@ -2257,9 +2257,6 @@ gcSweepCompartment
 int
 gcSweepKindIndex
 ;
-bool
-gcAbortSweepAfterCurrentGroup
-;
 js
 :
 :

@@ -3940,10 +3940,6 @@ gcSweepKindIndex
 (
 0
 )
-gcAbortSweepAfterCurrentGroup
-(
-false
-)
 gcArenasAllocatedDuringSweep
 (
 NULL
