@@ -551,7 +551,7 @@ aContent
 )
 ;
 virtual
-nsISupports
+nsIContent
 *
 GetNodeAt
 (

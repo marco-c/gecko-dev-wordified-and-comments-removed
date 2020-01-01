@@ -6930,7 +6930,7 @@ aReturn
 )
 ;
 }
-nsISupports
+nsIContent
 *
 nsHTMLOptionCollection
 :
@@ -6952,7 +6952,7 @@ NS_OK
 return
 static_cast
 <
-Element
+nsIContent
 *
 >
 (
