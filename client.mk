@@ -1666,6 +1666,16 @@ clobber_all
 :
 clean
 #
+helper
+target
+for
+mobile
+build_and_deploy
+:
+build
+package
+install
+#
 Do
 everything
 from
