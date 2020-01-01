@@ -7891,6 +7891,15 @@ case
 AndroidKeyEvent
 :
 :
+KEYCODE_BACK
+:
+return
+NS_VK_ESCAPE
+;
+case
+AndroidKeyEvent
+:
+:
 KEYCODE_DPAD_UP
 :
 return
