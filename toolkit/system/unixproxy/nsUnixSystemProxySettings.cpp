@@ -1936,6 +1936,7 @@ masterProxySwitch
 if
 (
 !
+(
 IsProxyMode
 (
 "
@@ -1944,8 +1945,8 @@ manual
 )
 |
 |
-!
 masterProxySwitch
+)
 )
 {
 aResult
