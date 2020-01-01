@@ -160,14 +160,14 @@ mDispatchChromeOnly
 }
 ;
 class
-nsLoadBlockingPLDOMEvent
+nsLoadBlockingAsyncDOMEvent
 :
 public
 nsAsyncDOMEvent
 {
 public
 :
-nsLoadBlockingPLDOMEvent
+nsLoadBlockingAsyncDOMEvent
 (
 nsINode
 *
@@ -213,7 +213,7 @@ BlockOnload
 ;
 }
 }
-nsLoadBlockingPLDOMEvent
+nsLoadBlockingAsyncDOMEvent
 (
 nsINode
 *
@@ -253,7 +253,7 @@ BlockOnload
 }
 }
 ~
-nsLoadBlockingPLDOMEvent
+nsLoadBlockingAsyncDOMEvent
 (
 )
 ;

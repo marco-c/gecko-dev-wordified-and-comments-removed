@@ -3431,7 +3431,7 @@ nsAsyncDOMEvent
 event
 =
 new
-nsLoadBlockingPLDOMEvent
+nsLoadBlockingAsyncDOMEvent
 (
 thisNode
 aEventType

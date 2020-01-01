@@ -302,11 +302,11 @@ this
 )
 ;
 }
-nsLoadBlockingPLDOMEvent
+nsLoadBlockingAsyncDOMEvent
 :
 :
 ~
-nsLoadBlockingPLDOMEvent
+nsLoadBlockingAsyncDOMEvent
 (
 )
 {
