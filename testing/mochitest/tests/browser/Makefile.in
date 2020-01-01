@@ -169,6 +169,12 @@ browser_fail_timeout
 js
 \
 #
+browser_fail_unexpectedTimeout
+.
+js
+\
+#
+#
 Disabled
 because
 it
