@@ -1,0 +1,9 @@
+var
+object
+=
+{
+null
+:
+true
+}
+;
