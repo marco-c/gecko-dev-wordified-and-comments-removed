@@ -4877,13 +4877,10 @@ JSContext
 *
 cx
 =
-xpc_UnmarkGrayContext
-(
 ccx
 .
 GetJSContext
 (
-)
 )
 ;
 if
