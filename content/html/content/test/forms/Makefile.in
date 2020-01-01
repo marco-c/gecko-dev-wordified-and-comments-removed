@@ -315,6 +315,10 @@ test_restore_form_elements
 .
 html
 \
+test_select_selectedOptions
+.
+html
+\
 (
 NULL
 )

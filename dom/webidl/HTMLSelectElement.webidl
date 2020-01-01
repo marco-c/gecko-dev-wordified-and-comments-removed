@@ -271,10 +271,6 @@ HTMLOptionElement
 option
 )
 ;
-/
-/
-NYI
-:
 readonly
 attribute
 HTMLCollection
