@@ -445,7 +445,7 @@ nsNavHistoryQueryOptions
 >
 mOptions
 ;
-PRUint32
+PRUint16
 mSortingMode
 ;
 nsCString
@@ -1886,7 +1886,7 @@ nsCOMArrayComparatorFunc
 SortComparator
 ;
 virtual
-PRUint32
+PRUint16
 GetSortType
 (
 )
@@ -1904,7 +1904,7 @@ static
 SortComparator
 GetSortingComparator
 (
-PRUint32
+PRUint16
 aSortType
 )
 ;
@@ -2554,7 +2554,7 @@ Refresh
 )
 ;
 virtual
-PRUint32
+PRUint16
 GetSortType
 (
 )

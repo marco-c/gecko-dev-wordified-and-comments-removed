@@ -3242,6 +3242,12 @@ amp
 excludeItems
 =
 1
+&
+amp
+;
+queryType
+=
+1
 "
 hidecolumnpicker
 =
