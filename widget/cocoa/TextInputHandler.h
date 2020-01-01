@@ -563,6 +563,12 @@ aNativeKeyEvent
 nsKeyEvent
 &
 aKeyEvent
+const
+nsAString
+*
+aInsertString
+=
+nsnull
 )
 ;
 PRUint32
@@ -609,6 +615,8 @@ InitKeyPressEvent
 NSEvent
 *
 aNativeKeyEvent
+PRUnichar
+aInsertChar
 nsKeyEvent
 &
 aKeyEvent
@@ -785,6 +793,12 @@ aNativeKeyEvent
 nsKeyEvent
 &
 aKeyEvent
+const
+nsAString
+*
+aInsertString
+=
+nsnull
 )
 ;
 nsresult
