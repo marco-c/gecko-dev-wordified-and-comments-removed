@@ -6034,6 +6034,9 @@ intStatic
 i
 )
 ;
+#
+ifdef
+JS_HAS_STATIC_STRINGS
 if
 (
 jsuint
@@ -6096,6 +6099,8 @@ c
 )
 ;
 }
+#
+endif
 if
 (
 JSFlatString

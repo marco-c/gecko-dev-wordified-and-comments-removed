@@ -422,9 +422,6 @@ target
 ac_configure_args
 =
 ac_configure_args
-BUILD_MODULES
-=
-BUILD_MODULES
 MOZILLA_VERSION
 =
 MOZILLA_VERSION

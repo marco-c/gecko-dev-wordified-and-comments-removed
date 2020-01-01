@@ -6662,7 +6662,7 @@ S0
 ;
 m_assembler
 .
-fdtr_u
+doubleTransfer
 (
 true
 dest
@@ -6736,10 +6736,8 @@ offset
 ;
 m_assembler
 .
-fmem_imm_off
+floatTransfer
 (
-true
-false
 true
 dest
 address
@@ -6748,9 +6746,6 @@ base
 address
 .
 offset
->
->
-2
 )
 ;
 m_assembler
@@ -7102,11 +7097,9 @@ address
 {
 m_assembler
 .
-fmem_imm_off
+floatTransfer
 (
 false
-false
-true
 src
 address
 .

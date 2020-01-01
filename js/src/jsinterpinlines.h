@@ -493,11 +493,8 @@ mjit
 TryCompile
 (
 cx
-ifg_
-.
-fp
-(
-)
+script_
+false
 )
 ;
 if
@@ -1465,6 +1462,8 @@ compartment
 -
 >
 debugMode
+(
+)
 )
 ScriptDebugPrologue
 (
@@ -1519,6 +1518,8 @@ compartment
 -
 >
 debugMode
+(
+)
 )
 ok
 =
@@ -1617,6 +1618,8 @@ compartment
 -
 >
 debugMode
+(
+)
 )
 ScriptDebugPrologue
 (
@@ -1669,6 +1672,8 @@ compartment
 -
 >
 debugMode
+(
+)
 )
 return
 ScriptDebugEpilogue
