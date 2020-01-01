@@ -517,10 +517,6 @@ testGetPropertyDefault
 .
 cpp
 \
-testHashTable
-.
-cpp
-\
 testIndexToString
 .
 cpp
