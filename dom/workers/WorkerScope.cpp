@@ -4089,7 +4089,8 @@ _ID_Count
 -
 1
 false
-NULL
+&
+sNativePropertyHooks
 }
 ;
 JSPropertySpec
