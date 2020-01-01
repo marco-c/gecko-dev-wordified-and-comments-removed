@@ -1988,6 +1988,9 @@ size_t
 length
 intN
 type
+void
+*
+closure
 )
 {
 d
@@ -2014,9 +2017,19 @@ s
 .
 u2
 .
-externalStringType
+externalType
 =
 type
+;
+d
+.
+s
+.
+u3
+.
+externalClosure
+=
+closure
 ;
 }
 JS_ALWAYS_INLINE
@@ -2038,6 +2051,9 @@ size_t
 length
 intN
 type
+void
+*
+closure
 )
 {
 JS_ASSERT
@@ -2094,6 +2110,7 @@ init
 chars
 length
 type
+closure
 )
 ;
 cx
@@ -2933,7 +2950,7 @@ finalizer
 =
 str_finalizers
 [
-externalStringType
+externalType
 (
 )
 ]
@@ -2959,7 +2976,7 @@ finalizer
 =
 str_finalizers
 [
-externalStringType
+externalType
 (
 )
 ]
