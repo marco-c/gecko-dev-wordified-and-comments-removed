@@ -5,6 +5,10 @@ function
 notifyParent
 (
 status
+data
+=
+{
+}
 )
 {
 if
@@ -40,6 +44,9 @@ gInstanceUID
 status
 :
 status
+data
+:
+data
 }
 "
 *
