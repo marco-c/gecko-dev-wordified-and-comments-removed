@@ -476,6 +476,10 @@ test_windowProperties
 .
 html
 \
+test_clipboard_events
+.
+html
+\
 (
 NULL
 )
