@@ -2026,6 +2026,11 @@ PRBool
 aValueChanged
 )
 {
+PRBool
+previousValue
+=
+mValueChanged
+;
 mValueChanged
 =
 aValueChanged
@@ -2055,6 +2060,12 @@ EmptyValue
 }
 if
 (
+mValueChanged
+!
+=
+previousValue
+&
+&
 HasAttr
 (
 kNameSpaceID_None
