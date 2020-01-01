@@ -72,13 +72,6 @@ str
 {
 JS_ASSERT
 (
-nativeEmpty
-(
-)
-)
-;
-JS_ASSERT
-(
 gc
 :
 :
@@ -93,6 +86,13 @@ getAllocKind
 2
 )
 ;
+if
+(
+nativeEmpty
+(
+)
+)
+{
 if
 (
 isDelegate
@@ -143,6 +143,7 @@ getProto
 )
 )
 ;
+}
 }
 JS_ASSERT
 (
