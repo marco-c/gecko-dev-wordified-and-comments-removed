@@ -157,6 +157,15 @@ resource
 h
 >
 #
+ifndef
+RUSAGE_THREAD
+#
+define
+RUSAGE_THREAD
+1
+#
+endif
+#
 define
 STORE
 0
@@ -3222,7 +3231,7 @@ usage1
 ;
 getrusage
 (
-RUSAGE_SELF
+RUSAGE_THREAD
 &
 usage1
 )
@@ -3697,7 +3706,7 @@ usage2
 ;
 getrusage
 (
-RUSAGE_SELF
+RUSAGE_THREAD
 &
 usage2
 )
