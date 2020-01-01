@@ -5772,11 +5772,9 @@ allocateCache
 cache
 )
 ;
-masm
-.
-PushRegsInMask
+saveLive
 (
-liveRegs
+ins
 )
 ;
 pushArg
@@ -5845,11 +5843,9 @@ cache
 return
 false
 ;
-masm
-.
-PopRegsInMask
+restoreLive
 (
-liveRegs
+ins
 )
 ;
 masm
