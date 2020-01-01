@@ -460,6 +460,10 @@ http_upload
 .
 cc
 \
+string_utils
+.
+cc
+\
 (
 NULL
 )
