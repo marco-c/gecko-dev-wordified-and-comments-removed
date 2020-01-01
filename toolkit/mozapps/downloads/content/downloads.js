@@ -1043,11 +1043,6 @@ aDownload
 size
 )
 ;
-updateTime
-(
-dl
-)
-;
 if
 (
 gSearchTerms
