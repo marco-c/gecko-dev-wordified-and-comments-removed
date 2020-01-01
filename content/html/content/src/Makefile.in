@@ -158,6 +158,10 @@ HTMLDivElement
 .
 h
 \
+HTMLFieldSetElement
+.
+h
+\
 HTMLFontElement
 .
 h
@@ -344,7 +348,7 @@ HTMLDivElement
 .
 cpp
 \
-nsHTMLFieldSetElement
+HTMLFieldSetElement
 .
 cpp
 \
