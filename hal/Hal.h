@@ -4,7 +4,6 @@ mozilla_Hal_h
 #
 define
 mozilla_Hal_h
-1
 #
 include
 "
