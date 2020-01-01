@@ -2667,6 +2667,7 @@ DAVLocks
 default
 '
 ]
+;
 this
 .
 _log
@@ -2913,6 +2914,7 @@ this
 __authFailed
 =
 newValue
+;
 }
 QueryInterface
 :
@@ -2943,6 +2945,7 @@ equals
 (
 v
 )
+;
 }
 )
 )
