@@ -36,11 +36,6 @@ tabs
 ;
 hideTabView
 (
-function
-(
-)
-{
-}
 )
 ;
 }
@@ -106,11 +101,6 @@ groupItem
 closeGroupItem
 (
 groupItem
-function
-(
-)
-{
-}
 )
 ;
 }

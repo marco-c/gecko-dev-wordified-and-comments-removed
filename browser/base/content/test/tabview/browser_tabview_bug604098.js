@@ -43,11 +43,6 @@ tabs
 ;
 hideTabView
 (
-function
-(
-)
-{
-}
 )
 ;
 }
