@@ -56,13 +56,3 @@ data
 yyyy
 :
 zz
-:
-a
-message
-dispatched
-because
-of
-eof
-data
-:
-1
