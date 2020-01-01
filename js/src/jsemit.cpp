@@ -17529,6 +17529,11 @@ flags
 TCF_FUN_UNBRAND_THIS
 )
 {
+CG_SWITCH_TO_PROLOG
+(
+cg
+)
+;
 if
 (
 js_Emit1
@@ -17542,6 +17547,11 @@ JSOP_UNBRANDTHIS
 )
 return
 false
+;
+CG_SWITCH_TO_MAIN
+(
+cg
+)
 ;
 }
 return
