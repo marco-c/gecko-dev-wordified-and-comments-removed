@@ -1906,7 +1906,13 @@ js
 :
 WeakMapTracer
 (
+js
+:
+:
+GetRuntime
+(
 cx
+)
 cb
 )
 mCb

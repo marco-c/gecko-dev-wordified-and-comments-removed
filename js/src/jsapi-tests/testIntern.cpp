@@ -134,7 +134,6 @@ strOk
 !
 JS_IsAboutToBeFinalized
 (
-cx
 sw
 .
 str

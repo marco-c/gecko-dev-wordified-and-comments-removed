@@ -681,9 +681,6 @@ const
 bool
 hasAnyLiveHooks
 (
-JSContext
-*
-cx
 )
 const
 ;

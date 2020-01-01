@@ -87,7 +87,6 @@ if
 (
 JS_IsAboutToBeFinalized
 (
-cx
 p
 )
 )

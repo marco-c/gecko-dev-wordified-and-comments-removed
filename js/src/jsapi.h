@@ -9911,9 +9911,6 @@ JSBool
 )
 JS_IsAboutToBeFinalized
 (
-JSContext
-*
-cx
 void
 *
 thing

@@ -911,9 +911,6 @@ inline
 bool
 IsMarked
 (
-JSContext
-*
-cx
 const
 js
 :
@@ -935,7 +932,6 @@ return
 !
 IsAboutToBeFinalized
 (
-cx
 v
 )
 ;
@@ -947,9 +943,6 @@ inline
 bool
 IsMarked
 (
-JSContext
-*
-cx
 JSObject
 *
 o
@@ -959,7 +952,6 @@ return
 !
 IsAboutToBeFinalized
 (
-cx
 o
 )
 ;
@@ -968,9 +960,6 @@ inline
 bool
 IsMarked
 (
-JSContext
-*
-cx
 Cell
 *
 cell
@@ -980,7 +969,6 @@ return
 !
 IsAboutToBeFinalized
 (
-cx
 cell
 )
 ;

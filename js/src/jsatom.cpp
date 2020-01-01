@@ -1729,9 +1729,9 @@ interned_atom
 void
 js_SweepAtomState
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 )
 {
 JSAtomState
@@ -1739,10 +1739,7 @@ JSAtomState
 state
 =
 &
-cx
--
->
-runtime
+rt
 -
 >
 atomState
@@ -1798,7 +1795,6 @@ JS_ASSERT
 !
 IsAboutToBeFinalized
 (
-cx
 entry
 .
 asPtr
@@ -1814,7 +1810,6 @@ if
 (
 IsAboutToBeFinalized
 (
-cx
 entry
 .
 asPtr

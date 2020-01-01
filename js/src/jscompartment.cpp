@@ -2172,7 +2172,6 @@ JS_ASSERT_IF
 (
 IsAboutToBeFinalized
 (
-cx
 e
 .
 front
@@ -2186,7 +2185,6 @@ key
 !
 IsAboutToBeFinalized
 (
-cx
 e
 .
 front
@@ -2212,7 +2210,6 @@ if
 (
 IsAboutToBeFinalized
 (
-cx
 e
 .
 front
@@ -2225,7 +2222,6 @@ key
 |
 IsAboutToBeFinalized
 (
-cx
 e
 .
 front
@@ -2273,7 +2269,6 @@ emptyTypeObject
 &
 IsAboutToBeFinalized
 (
-cx
 emptyTypeObject
 )
 )
@@ -3582,7 +3577,6 @@ scriptGone
 =
 IsAboutToBeFinalized
 (
-cx
 script
 )
 ;
@@ -3669,7 +3663,6 @@ scriptGone
 |
 IsAboutToBeFinalized
 (
-cx
 bp
 -
 >
