@@ -528,6 +528,10 @@ test_datalist_element
 .
 html
 \
+test_form_attributes_reflection
+.
+html
+\
 (
 NULL
 )
