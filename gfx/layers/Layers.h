@@ -365,6 +365,10 @@ mId
 (
 0
 )
+mInTransaction
+(
+false
+)
 {
 InitLog
 (
@@ -1108,6 +1112,16 @@ return
 true
 ;
 }
+bool
+IsInTransaction
+(
+)
+const
+{
+return
+mInTransaction
+;
+}
 protected
 :
 nsRefPtr
@@ -1155,6 +1169,9 @@ sLog
 ;
 uint64_t
 mId
+;
+bool
+mInTransaction
 ;
 private
 :

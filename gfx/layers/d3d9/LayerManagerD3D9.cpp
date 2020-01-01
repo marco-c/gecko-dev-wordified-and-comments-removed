@@ -442,6 +442,10 @@ BeginTransaction
 (
 )
 {
+mInTransaction
+=
+true
+;
 }
 void
 LayerManagerD3D9
@@ -454,6 +458,10 @@ gfxContext
 aTarget
 )
 {
+mInTransaction
+=
+true
+;
 mTarget
 =
 aTarget
@@ -478,6 +486,10 @@ EndTransactionFlags
 aFlags
 )
 {
+mInTransaction
+=
+false
+;
 if
 (
 !
@@ -523,6 +535,10 @@ EndTransactionFlags
 aFlags
 )
 {
+mInTransaction
+=
+false
+;
 mDeviceResetCount
 =
 mDeviceManager
