@@ -4902,6 +4902,12 @@ arguments
 false
 )
 ;
+content
+.
+focus
+(
+)
+;
 }
 else
 loadOneOrMoreURIs
