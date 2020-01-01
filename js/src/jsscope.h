@@ -894,11 +894,7 @@ sprop
 getter
 (
 cx
-OBJ_THIS_OBJECT
-(
-cx
 obj
-)
 SPROP_USERID
 (
 sprop
@@ -992,11 +988,7 @@ sprop
 setter
 (
 cx
-OBJ_THIS_OBJECT
-(
-cx
 obj
-)
 SPROP_USERID
 (
 sprop
