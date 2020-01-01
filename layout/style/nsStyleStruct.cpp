@@ -10578,12 +10578,14 @@ aOther
 .
 mResize
 )
+{
 NS_UpdateHint
 (
 hint
 nsChangeHint_ReconstructFrame
 )
 ;
+}
 if
 (
 mFloats
