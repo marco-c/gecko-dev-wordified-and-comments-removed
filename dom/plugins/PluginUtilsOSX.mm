@@ -759,15 +759,11 @@ inView
 nil
 ]
 ;
-/
-/
 [
 eventTimer
 invalidate
 ]
 ;
-/
-/
 [
 eventProcessor
 release
@@ -776,7 +772,10 @@ release
 return
 NPERR_NO_ERROR
 ;
-NS_OBJC_END_TRY_ABORT_BLOCK
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+NPERR_GENERIC_ERROR
+)
 ;
 }
 void
