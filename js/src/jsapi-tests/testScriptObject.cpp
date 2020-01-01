@@ -42,7 +42,6 @@ i
 ;
 i
 <
-=
 code_size
 ;
 i
