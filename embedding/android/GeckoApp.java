@@ -1704,7 +1704,7 @@ outFile
 lastModified
 (
 )
->
+=
 =
 fileEntry
 .
