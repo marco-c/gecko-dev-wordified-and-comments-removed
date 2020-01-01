@@ -1313,10 +1313,6 @@ JSString
 *
 str
 ;
-JSScript
-*
-script
-;
 jsval
 result
 ;
