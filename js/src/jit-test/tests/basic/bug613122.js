@@ -28,6 +28,9 @@ a
 splice
 (
 0
+a
+.
+length
 )
 ;
 a

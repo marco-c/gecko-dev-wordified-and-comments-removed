@@ -457,6 +457,9 @@ aItems
 splice
 (
 0
+aItems
+.
+length
 )
 ;
 var

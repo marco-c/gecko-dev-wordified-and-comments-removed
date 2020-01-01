@@ -3377,6 +3377,11 @@ _kids
 splice
 (
 i0
+aT
+.
+_kids
+.
+length
 )
 ;
 var

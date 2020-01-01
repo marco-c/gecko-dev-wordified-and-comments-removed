@@ -1754,6 +1754,11 @@ installListeners
 splice
 (
 0
+this
+.
+installListeners
+.
+length
 )
 ;
 this
@@ -1763,6 +1768,11 @@ addonListeners
 splice
 (
 0
+this
+.
+addonListeners
+.
+length
 )
 ;
 this
@@ -1772,6 +1782,11 @@ typeListeners
 splice
 (
 0
+this
+.
+typeListeners
+.
+length
 )
 ;
 for

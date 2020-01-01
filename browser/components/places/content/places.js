@@ -195,6 +195,11 @@ _backHistory
 splice
 (
 0
+this
+.
+_backHistory
+.
+length
 )
 ;
 document
@@ -663,6 +668,11 @@ _forwardHistory
 splice
 (
 0
+this
+.
+_forwardHistory
+.
+length
 )
 ;
 }

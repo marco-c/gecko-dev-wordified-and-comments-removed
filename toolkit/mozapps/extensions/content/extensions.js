@@ -1448,6 +1448,11 @@ splice
 this
 .
 pos
+this
+.
+states
+.
+length
 )
 ;
 this
@@ -1516,6 +1521,11 @@ splice
 this
 .
 pos
+this
+.
+states
+.
+length
 )
 ;
 this
