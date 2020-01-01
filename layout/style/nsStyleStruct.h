@@ -4306,16 +4306,6 @@ WidthDependsOnContainer
 const
 {
 return
-mWidth
-.
-GetUnit
-(
-)
-=
-=
-eStyleUnit_Auto
-|
-|
 WidthCoordDependsOnContainer
 (
 mWidth
