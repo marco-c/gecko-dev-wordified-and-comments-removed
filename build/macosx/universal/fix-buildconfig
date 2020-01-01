@@ -1036,10 +1036,6 @@ leading
 <
 h1
 >
-and
-<
-p
->
 .
 while
 (
@@ -1057,11 +1053,14 @@ line
 eq
 '
 <
-p
+h1
 >
+about
+:
+buildconfig
 <
 /
-p
+h1
 >
 '
 )
