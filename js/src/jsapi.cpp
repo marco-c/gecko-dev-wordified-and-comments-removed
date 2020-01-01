@@ -3663,7 +3663,16 @@ JSVAL_HOLE
 )
 =
 =
-3
+(
+2
+|
+(
+JSVAL_HOLE_FLAG
+>
+>
+JSVAL_TAGBITS
+)
+)
 )
 ;
 JS_ASSERT
@@ -3674,7 +3683,7 @@ JSVAL_ARETURN
 )
 =
 =
-4
+8
 )
 ;
 js_NewRuntimeWasCalled
