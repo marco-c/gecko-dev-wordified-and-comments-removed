@@ -1335,6 +1335,12 @@ nsHTMLMediaElement
 Loop
 loop
 )
+NS_IMPL_BOOL_ATTR
+(
+nsHTMLMediaElement
+DefaultMuted
+muted
+)
 NS_IMPL_ENUM_ATTR_DEFAULT_VALUE
 (
 nsHTMLMediaElement

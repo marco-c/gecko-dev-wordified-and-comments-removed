@@ -897,6 +897,10 @@ test_decoder_disable
 .
 html
 \
+test_defaultMuted
+.
+html
+\
 test_delay_load
 .
 html
