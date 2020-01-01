@@ -143,6 +143,10 @@ browser_context_menu_tests_01
 .
 html
 \
+browser_context_menu_tests_02
+.
+html
+\
 (
 NULL
 )
