@@ -2987,6 +2987,16 @@ sFontSizeInflationLineThreshold
 ;
 }
 static
+bool
+FontSizeInflationForceEnabled
+(
+)
+{
+return
+sFontSizeInflationForceEnabled
+;
+}
+static
 int32_t
 FontSizeInflationMappingIntercept
 (
@@ -3147,6 +3157,10 @@ sFontSizeInflationMappingIntercept
 static
 uint32_t
 sFontSizeInflationMaxRatio
+;
+static
+bool
+sFontSizeInflationForceEnabled
 ;
 }
 ;
