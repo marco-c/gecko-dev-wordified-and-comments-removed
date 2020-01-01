@@ -1,6 +1,11 @@
+#
+filter
+substitution
 xulrunner
 (
-MOZ_APP_VERSION
+GRE_MILESTONE
+-
+GRE_BUILDID
 )
 unstable
 ;
