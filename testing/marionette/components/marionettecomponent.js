@@ -563,6 +563,7 @@ DEBUGGER_ENABLED_PREF
 }
 catch
 (
+e
 )
 {
 }
