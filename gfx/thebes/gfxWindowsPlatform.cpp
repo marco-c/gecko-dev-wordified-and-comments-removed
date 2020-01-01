@@ -2934,7 +2934,7 @@ MAXDWORD
 swprintf_s
 (
 size
-sizeof
+NS_ARRAY_LENGTH
 (
 size
 )
