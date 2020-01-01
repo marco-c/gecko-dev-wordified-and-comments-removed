@@ -1118,6 +1118,10 @@ GuardRecord
 *
 lastTreeCallGuard
 ;
+void
+*
+rpAtLastTreeCall
+;
 }
 ;
 class
