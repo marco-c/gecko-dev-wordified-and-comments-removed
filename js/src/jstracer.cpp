@@ -48749,6 +48749,16 @@ isObject
 )
 )
 {
+JS_NOT_REACHED
+(
+"
+FIXME
+"
+)
+;
+#
+if
+0
 if
 (
 l
@@ -48836,6 +48846,8 @@ l
 r
 )
 ;
+#
+endif
 }
 else
 if

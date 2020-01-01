@@ -5957,15 +5957,14 @@ JSObject
 obj
 )
 {
+return
 obj
 -
 >
 setSystem
 (
+cx
 )
-;
-return
-true
 ;
 }
 JS_FRIEND_API
