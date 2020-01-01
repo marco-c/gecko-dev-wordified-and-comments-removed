@@ -1861,6 +1861,12 @@ mBufSize
 =
 kMaxBufferSize
 ;
+char
+*
+buffer
+=
+mBuffer
+;
 mBuffer
 =
 (
@@ -1879,6 +1885,11 @@ if
 mBuffer
 )
 {
+free
+(
+buffer
+)
+;
 mBufSize
 =
 0
