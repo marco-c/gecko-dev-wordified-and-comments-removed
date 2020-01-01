@@ -447,6 +447,10 @@ mk
 _TEST_FILES
 =
 \
+test_doc
+.
+html
+\
 test_list_editabledoc
 .
 html

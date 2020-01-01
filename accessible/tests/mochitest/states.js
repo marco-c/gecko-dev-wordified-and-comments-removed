@@ -188,6 +188,13 @@ nsIAccessibleStates
 EXT_STATE_SINGLE_LINE
 ;
 const
+EXT_STATE_STALE
+=
+nsIAccessibleStates
+.
+EXT_STATE_STALE
+;
+const
 EXT_STATE_SUPPORTS_AUTOCOMPLETION
 =
 nsIAccessibleStates
