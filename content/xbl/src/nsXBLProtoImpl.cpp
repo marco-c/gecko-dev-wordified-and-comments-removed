@@ -718,6 +718,15 @@ cb
 )
 const
 {
+if
+(
+!
+mClassObject
+)
+{
+return
+;
+}
 nsXBLProtoImplMember
 *
 member
