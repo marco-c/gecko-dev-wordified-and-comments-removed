@@ -2705,13 +2705,11 @@ endif
 {
 JS_ASSERT
 (
+!
 rt
 -
 >
-gcLevel
-=
-=
-0
+gcRunning
 )
 ;
 JS_UNLOCK_GC
