@@ -190,9 +190,6 @@ apply
 *
 /
 interface
-Attr
-;
-interface
 MozNamedAttrMap
 ;
 interface
@@ -886,6 +883,7 @@ Obsolete
 methods
 .
 Attr
+?
 getAttributeNode
 (
 DOMString
@@ -896,6 +894,7 @@ name
 Throws
 ]
 Attr
+?
 setAttributeNode
 (
 Attr
@@ -906,6 +905,7 @@ newAttr
 Throws
 ]
 Attr
+?
 removeAttributeNode
 (
 Attr
@@ -916,6 +916,7 @@ oldAttr
 Throws
 ]
 Attr
+?
 getAttributeNodeNS
 (
 DOMString
@@ -929,6 +930,7 @@ localName
 Throws
 ]
 Attr
+?
 setAttributeNodeNS
 (
 Attr

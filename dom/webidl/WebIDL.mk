@@ -119,6 +119,10 @@ AudioParam
 .
 webidl
 \
+Attr
+.
+webidl
+\
 BatteryManager
 .
 webidl

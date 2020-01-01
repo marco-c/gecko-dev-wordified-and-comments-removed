@@ -319,9 +319,6 @@ idl
 *
 /
 interface
-Attr
-;
-interface
 Comment
 ;
 interface
