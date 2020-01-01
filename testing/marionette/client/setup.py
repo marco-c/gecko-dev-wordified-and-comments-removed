@@ -85,7 +85,7 @@ mozhttpd
         
 '
 mozprocess
-=
+>
 =
 0
 .
@@ -93,7 +93,7 @@ mozprocess
 '
 '
 mozrunner
-=
+>
 =
 5
 .
