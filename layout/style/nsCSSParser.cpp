@@ -13149,10 +13149,10 @@ endif
 nsCSSPseudoClasses
 :
 :
-notPseudo
+ePseudoClass_notPseudo
 =
 =
-pseudo
+pseudoClassType
 |
 |
 nsCSSPseudoClasses
@@ -13160,7 +13160,7 @@ nsCSSPseudoClasses
 :
 HasStringArg
 (
-pseudo
+pseudoClassType
 )
 |
 |
@@ -13169,7 +13169,7 @@ nsCSSPseudoClasses
 :
 HasNthPairArg
 (
-pseudo
+pseudoClassType
 )
 |
 |
@@ -13178,7 +13178,7 @@ nsCSSPseudoClasses
 :
 HasSelectorListArg
 (
-pseudo
+pseudoClassType
 )
 )
 )
@@ -13312,7 +13312,7 @@ nsCSSPseudoClasses
 :
 HasStringArg
 (
-pseudo
+pseudoClassType
 )
 )
 {
@@ -13334,7 +13334,7 @@ nsCSSPseudoClasses
 :
 HasNthPairArg
 (
-pseudo
+pseudoClassType
 )
 )
 {
@@ -13357,7 +13357,7 @@ nsCSSPseudoClasses
 :
 HasSelectorListArg
 (
-pseudo
+pseudoClassType
 )
 "
 unexpected
