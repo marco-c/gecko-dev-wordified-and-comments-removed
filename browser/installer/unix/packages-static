@@ -1434,6 +1434,13 @@ bin
 /
 components
 /
+GPSDGeolocationProvider
+.
+js
+bin
+/
+components
+/
 nsSidebar
 .
 js
