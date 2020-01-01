@@ -546,11 +546,13 @@ member
         
 prefixArgCount
 =
-3
-if
-haveCallee
-else
 2
++
+int
+(
+haveCallee
+)
+;
         
 mayTrace
 =
