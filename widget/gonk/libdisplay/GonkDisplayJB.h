@@ -73,6 +73,14 @@ enabled
 ;
 virtual
 void
+OnEnabled
+(
+OnEnabledCallbackType
+callback
+)
+;
+virtual
+void
 *
 GetHWCDevice
 (
@@ -187,6 +195,9 @@ mWidth
 ;
 uint32_t
 mHeight
+;
+OnEnabledCallbackType
+mEnabledCallback
 ;
 }
 ;

@@ -82,6 +82,14 @@ enabled
 ;
 virtual
 void
+OnEnabled
+(
+OnEnabledCallbackType
+callback
+)
+;
+virtual
+void
 *
 GetHWCDevice
 (
