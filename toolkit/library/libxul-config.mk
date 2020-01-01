@@ -1361,6 +1361,15 @@ MOZ_LIBEVENT_LIBS
 )
 endif
 ifdef
+MOZ_NATIVE_LIBVPX
+EXTRA_DSO_LDOPTS
++
+=
+(
+MOZ_LIBVPX_LIBS
+)
+endif
+ifdef
 MOZ_SYDNEYAUDIO
 ifeq
 (

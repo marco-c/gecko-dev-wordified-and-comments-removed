@@ -510,5 +510,9 @@ content
 src
 \
 (
+MOZ_LIBVPX_INCLUDES
+)
+\
+(
 NULL
 )
