@@ -323,6 +323,10 @@ HTMLLIElement
 .
 webidl
 \
+HTMLMenuElement
+.
+webidl
+\
 HTMLOListElement
 .
 webidl
