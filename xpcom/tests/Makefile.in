@@ -234,10 +234,6 @@ TestAutoRef
 .
 cpp
 \
-TestBloomFilter
-.
-cpp
-\
 TestCOMArray
 .
 cpp
