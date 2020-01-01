@@ -4654,7 +4654,10 @@ script
 -
 >
 mSrcURI
-0
+nsIScriptSecurityManager
+:
+:
+ALLOW_CHROME
 )
 ;
 }
