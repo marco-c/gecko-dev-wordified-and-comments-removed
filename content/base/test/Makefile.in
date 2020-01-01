@@ -424,6 +424,8 @@ DIRS
 \
 chrome
 \
+websocket_hybi
+\
 (
 NULL
 )
