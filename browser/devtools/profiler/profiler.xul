@@ -164,8 +164,6 @@ browser
 /
 content
 /
-devtools
-/
 splitview
 .
 css
@@ -187,8 +185,6 @@ chrome
 browser
 /
 content
-/
-devtools
 /
 profiler
 .

@@ -175,8 +175,6 @@ browser
 /
 content
 /
-devtools
-/
 source
 -
 editor
@@ -322,8 +320,6 @@ chrome
 browser
 /
 content
-/
-devtools
 /
 scratchpad
 .

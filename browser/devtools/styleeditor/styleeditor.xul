@@ -148,8 +148,6 @@ browser
 /
 content
 /
-devtools
-/
 splitview
 .
 css
@@ -241,8 +239,6 @@ browser
 /
 content
 /
-devtools
-/
 styleeditor
 .
 css
@@ -324,8 +320,6 @@ chrome
 browser
 /
 content
-/
-devtools
 /
 source
 -

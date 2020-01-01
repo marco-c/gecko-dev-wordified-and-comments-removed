@@ -46,8 +46,6 @@ browser
 /
 content
 /
-devtools
-/
 scratchpad
 .
 xul
