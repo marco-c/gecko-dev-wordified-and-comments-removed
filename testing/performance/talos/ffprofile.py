@@ -101,6 +101,8 @@ Sullivan
 )
 '
 import
+platform
+import
 os
 import
 re
@@ -115,12 +117,15 @@ ffprocess
 import
 config
 if
-config
+platform
 .
-OS
-is
+system
+(
+)
+=
+=
 "
-linux
+Linux
 "
 :
     
@@ -129,12 +134,15 @@ ffprofile_linux
 import
 *
 elif
-config
+platform
 .
-OS
-is
+system
+(
+)
+=
+=
 "
-win32
+Windows
 "
 :
     

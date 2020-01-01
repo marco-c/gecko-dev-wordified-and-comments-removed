@@ -143,6 +143,8 @@ Sullivan
 )
 '
 import
+platform
+import
 os
 import
 re
@@ -161,13 +163,15 @@ ffinfo
 import
 config
 if
-config
+platform
 .
-OS
+system
+(
+)
 =
 =
 "
-linux
+Linux
 "
 :
     
@@ -176,13 +180,15 @@ tp_linux
 import
 *
 elif
-config
+platform
 .
-OS
+system
+(
+)
 =
 =
 "
-win32
+Windows
 "
 :
     

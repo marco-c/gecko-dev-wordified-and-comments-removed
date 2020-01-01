@@ -37,12 +37,6 @@ Annie
 Sullivan
 )
 '
-OS
-=
-r
-'
-win32
-'
 BROWSER_HEIGHT
 =
 768
