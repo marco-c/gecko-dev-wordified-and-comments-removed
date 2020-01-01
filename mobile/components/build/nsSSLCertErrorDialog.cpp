@@ -10,7 +10,6 @@ NS_IMPL_THREADSAFE_ISUPPORTS1
 nsSSLCertErrorDialog
 nsISSLCertErrorDialog
 )
-;
 NS_IMETHODIMP
 nsSSLCertErrorDialog
 :
