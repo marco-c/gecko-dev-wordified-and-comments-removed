@@ -3123,7 +3123,7 @@ NS_DEFINE_CLASSINFO_DATA
 (
 Attr
 nsAttributeSH
-DOM_DEFAULT_SCRIPTABLE_FLAGS
+NODE_SCRIPTABLE_FLAGS
 )
 NS_DEFINE_CLASSINFO_DATA
 (
@@ -15231,9 +15231,9 @@ doc
 {
 nsCOMPtr
 <
-nsIContent
+nsINode
 >
-content
+n
 (
 do_QueryInterface
 (
@@ -15246,7 +15246,7 @@ doc
 >
 AddReference
 (
-content
+n
 aWrapper
 )
 ;
