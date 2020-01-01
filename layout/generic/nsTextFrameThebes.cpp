@@ -507,7 +507,7 @@ TEXT_WHITESPACE_FLAGS
 #
 define
 TEXT_BLINK_ON
-0x80000000
+0x20000000
 struct
 TextRunMappedFlow
 {

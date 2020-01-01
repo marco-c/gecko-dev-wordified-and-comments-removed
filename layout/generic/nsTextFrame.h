@@ -48,7 +48,7 @@ PropertyProvider
 #
 define
 TEXT_HAS_NONCOLLAPSED_CHARACTERS
-0x02000000
+0x80000000
 class
 nsTextFrame
 :
