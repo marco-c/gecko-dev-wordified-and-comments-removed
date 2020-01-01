@@ -12065,6 +12065,12 @@ png
 repeat
 stretch
 ;
+border
+-
+radius
+:
+0
+;
 }
 .
 tabbrowser
