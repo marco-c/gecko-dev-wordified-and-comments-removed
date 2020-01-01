@@ -589,6 +589,8 @@ TabChild
 (
 PRUint32
 aChromeFlags
+bool
+aIsBrowserFrame
 )
 ;
 virtual
@@ -1216,6 +1218,9 @@ mLastBackgroundColor
 ;
 bool
 mDidFakeShow
+;
+bool
+mIsBrowserFrame
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (

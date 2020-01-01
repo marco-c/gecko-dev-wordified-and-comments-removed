@@ -2343,6 +2343,11 @@ nsIContent
 aOffsetParent
 )
 ;
+nsIntSize
+GetPaddingRectSize
+(
+)
+;
 nsIFrame
 *
 GetStyledFrame

@@ -126,11 +126,6 @@ void
 *
 tempPoolMark
 ;
-StackFrame
-*
-const
-callerFrame
-;
 ParseNodeAllocator
 allocator
 ;
@@ -186,9 +181,6 @@ unsigned
 ln
 JSVersion
 version
-StackFrame
-*
-cfp
 bool
 foldConstants
 bool
@@ -493,11 +485,6 @@ functionBody
 (
 FunctionBodyType
 type
-)
-;
-bool
-checkForArgumentsAndRest
-(
 )
 ;
 private

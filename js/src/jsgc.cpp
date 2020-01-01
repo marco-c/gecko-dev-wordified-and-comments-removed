@@ -12700,6 +12700,17 @@ gcIncrementalState
 =
 =
 NO_INCREMENTAL
+&
+&
+!
+rt
+-
+>
+gcHelperThread
+.
+sweeping
+(
+)
 )
 {
 PrepareCompartmentForGC

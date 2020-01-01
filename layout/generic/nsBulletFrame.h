@@ -488,9 +488,6 @@ mListener
 nsSize
 mIntrinsicSize
 ;
-nsSize
-mComputedSize
-;
 PRInt32
 mOrdinal
 ;

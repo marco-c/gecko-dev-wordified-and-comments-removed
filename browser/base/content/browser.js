@@ -7343,8 +7343,6 @@ visible
 )
 )
 {
-this
-.
 DeveloperToolbar
 .
 show

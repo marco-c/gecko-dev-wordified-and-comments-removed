@@ -556,6 +556,10 @@ test_bug716226
 .
 html
 \
+test_bug765590
+.
+html
+\
 test_cascade
 .
 html

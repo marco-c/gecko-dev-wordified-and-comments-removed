@@ -4675,7 +4675,7 @@ aType
 nsIDOMCSSRule
 :
 :
-UNKNOWN_RULE
+NAMESPACE_RULE
 ;
 return
 NS_OK

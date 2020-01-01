@@ -12918,7 +12918,7 @@ toUTCStringFun
 baseops
 :
 :
-DefineProperty
+DefineGeneric
 (
 cx
 dateProto

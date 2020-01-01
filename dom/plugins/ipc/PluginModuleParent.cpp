@@ -986,6 +986,11 @@ if
 (
 !
 mShutdown
+&
+&
+OkToCleanup
+(
+)
 )
 Close
 (

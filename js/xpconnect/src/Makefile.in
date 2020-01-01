@@ -188,7 +188,7 @@ XPCString
 .
 cpp
 \
-XPCThreadContext
+XPCJSContextStack
 .
 cpp
 \
