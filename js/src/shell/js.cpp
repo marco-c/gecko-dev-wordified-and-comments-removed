@@ -27137,11 +27137,6 @@ argv
 envp
 )
 ;
-JS_CommenceRuntimeShutDown
-(
-rt
-)
-;
 DestroyContext
 (
 cx

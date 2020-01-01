@@ -389,6 +389,15 @@ js
 :
 PropertyTree
 ;
+friend
+bool
+HasUnreachableGCThings
+(
+TreeFragment
+*
+f
+)
+;
 protected
 :
 mutable

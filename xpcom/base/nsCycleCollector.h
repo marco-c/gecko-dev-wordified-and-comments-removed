@@ -52,14 +52,6 @@ p
 =
 0
 ;
-virtual
-void
-CommenceShutdown
-(
-)
-=
-0
-;
 #
 ifdef
 DEBUG_CC

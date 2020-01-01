@@ -1748,12 +1748,6 @@ p
 ;
 virtual
 void
-CommenceShutdown
-(
-)
-;
-virtual
-void
 Collect
 (
 )

@@ -7080,6 +7080,15 @@ friend
 class
 BoxArg
 ;
+friend
+void
+TraceMonitor
+:
+:
+sweep
+(
+)
+;
 public
 :
 static
