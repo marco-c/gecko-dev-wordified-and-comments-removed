@@ -926,7 +926,9 @@ sdcard
 "
 ]
 =
-None
+"
+10MB
+"
         
 self
 .
