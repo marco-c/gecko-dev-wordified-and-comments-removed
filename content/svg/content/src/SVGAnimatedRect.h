@@ -128,9 +128,6 @@ SVGIRect
 >
 GetBaseVal
 (
-ErrorResult
-&
-aRv
 )
 ;
 already_AddRefed
@@ -139,9 +136,6 @@ SVGIRect
 >
 GetAnimVal
 (
-ErrorResult
-&
-aRv
 )
 ;
 private
