@@ -4693,6 +4693,7 @@ GetIsPaletted
 (
 )
 )
+{
 CopyFrameImage
 (
 aPrevFrame
@@ -4744,6 +4745,7 @@ compositingFrame
 prevFrameRect
 )
 ;
+}
 }
 }
 }
