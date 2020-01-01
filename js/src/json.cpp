@@ -3275,7 +3275,10 @@ JS_ASSERT
 obj
 -
 >
-isProxy
+is
+<
+ProxyObject
+>
 (
 )
 )

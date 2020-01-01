@@ -5699,13 +5699,6 @@ NYI
 )
 ;
 }
-inline
-bool
-isProxy
-(
-)
-const
-;
 protected
 :
 #

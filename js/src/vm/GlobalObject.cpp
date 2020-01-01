@@ -481,7 +481,10 @@ toObject
 (
 )
 .
-isProxy
+is
+<
+ProxyObject
+>
 (
 )
 ;
@@ -630,7 +633,10 @@ if
 obj
 -
 >
-isProxy
+is
+<
+ProxyObject
+>
 (
 )
 |
@@ -662,7 +668,10 @@ setter
 obj
 -
 >
-isProxy
+is
+<
+ProxyObject
+>
 (
 )
 ?

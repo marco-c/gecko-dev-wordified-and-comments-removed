@@ -2744,9 +2744,14 @@ obj
 if
 (
 !
-IsProxy
-(
 obj
+-
+>
+is
+<
+ProxyObject
+>
+(
 )
 )
 {

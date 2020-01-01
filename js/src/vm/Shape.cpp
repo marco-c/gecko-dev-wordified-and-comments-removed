@@ -5588,10 +5588,16 @@ preventExtensions
 endif
 if
 (
+Downcast
+(
 obj
+)
 -
 >
-isProxy
+is
+<
+ProxyObject
+>
 (
 )
 )

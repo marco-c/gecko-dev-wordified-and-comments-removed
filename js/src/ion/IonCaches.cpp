@@ -1719,7 +1719,10 @@ if
 obj
 -
 >
-isProxy
+is
+<
+ProxyObject
+>
 (
 )
 )
@@ -6345,7 +6348,10 @@ JS_ASSERT
 checkObj
 -
 >
-isProxy
+is
+<
+ProxyObject
+>
 (
 )
 )

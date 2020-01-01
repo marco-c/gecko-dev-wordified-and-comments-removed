@@ -54,6 +54,15 @@ include
 "
 vm
 /
+ProxyObject
+.
+h
+"
+#
+include
+"
+vm
+/
 StringBuffer
 .
 h
@@ -1059,7 +1068,10 @@ JS_ASSERT
 wrappedBool
 -
 >
-isProxy
+is
+<
+ProxyObject
+>
 (
 )
 )

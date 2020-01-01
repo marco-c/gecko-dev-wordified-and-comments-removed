@@ -1394,7 +1394,10 @@ JS_ASSERT_IF
 native
 !
 =
-FunctionProxyClass
+FunctionProxyObject
+:
+:
+class_
 .
 construct
 &

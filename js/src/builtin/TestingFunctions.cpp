@@ -1699,7 +1699,10 @@ toObject
 (
 )
 .
-isProxy
+is
+<
+ProxyObject
+>
 (
 )
 )

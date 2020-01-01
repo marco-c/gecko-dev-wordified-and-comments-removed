@@ -1523,7 +1523,10 @@ getClass
 !
 =
 &
-ObjectProxyClass
+ObjectProxyObject
+:
+:
+class_
 |
 |
 existing
