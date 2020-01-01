@@ -195,16 +195,7 @@ bool
 SupportsPipelining
 (
 )
-{
-return
-mSupportsPipelining
-&
-&
-IsKeepAlive
-(
-)
 ;
-}
 bool
 IsKeepAlive
 (
@@ -713,6 +704,9 @@ mProxyConnectInProgress
 ;
 PRUint32
 mHttp1xTransactionCount
+;
+PRUint32
+mRemainingConnectionUses
 ;
 nsAHttpTransaction
 :
