@@ -258,13 +258,7 @@ prmjtime
 h
 "
 #
-if
-!
-defined
-JS_THREADSAFE
-&
-&
-defined
+ifdef
 JS_TRACER
 #
 include
