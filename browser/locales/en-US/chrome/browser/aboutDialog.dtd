@@ -94,16 +94,6 @@ C
 <
 !
 ENTITY
-licenseLink
-"
-about
-:
-license
-"
->
-<
-!
-ENTITY
 licenseLinkText
 "
 Licensing
