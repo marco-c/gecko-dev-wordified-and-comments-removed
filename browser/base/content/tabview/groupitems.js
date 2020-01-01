@@ -6263,12 +6263,6 @@ box
 options
 )
 {
-this
-.
-topChild
-=
-null
-;
 let
 arrangeOptions
 ;
@@ -6318,6 +6312,12 @@ z
 }
 else
 {
+this
+.
+topChild
+=
+null
+;
 this
 .
 _isStacked
