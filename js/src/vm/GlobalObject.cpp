@@ -1790,6 +1790,7 @@ cx
 ObjectClass
 NULL
 self
+TenuredObject
 )
 ;
 if
