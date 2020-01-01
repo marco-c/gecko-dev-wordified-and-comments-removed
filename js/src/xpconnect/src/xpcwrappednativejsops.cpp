@@ -3627,6 +3627,13 @@ nsnull
 nsnull
 nsnull
 nsnull
+nsnull
+nsnull
+nsnull
+nsnull
+nsnull
+nsnull
+nsnull
 JS_VALUEIFY
 (
 js
