@@ -960,11 +960,11 @@ this
 ;
 this
 .
-_toggleShowVariablesSearchbox
+_toggleShowVariablesFilterBox
 =
 this
 .
-_toggleShowVariablesSearchbox
+_toggleShowVariablesFilterBox
 .
 bind
 (
@@ -1063,7 +1063,7 @@ nonenum
 ;
 this
 .
-_showVariablesSearchboxItem
+_showVariablesFilterBoxItem
 =
 document
 .
@@ -1074,7 +1074,9 @@ show
 -
 vars
 -
-searchbox
+filter
+-
+box
 "
 )
 ;
@@ -1122,7 +1124,7 @@ variablesNonEnumVisible
 ;
 this
 .
-_showVariablesSearchboxItem
+_showVariablesFilterBoxItem
 .
 setAttribute
 (
@@ -1286,10 +1288,10 @@ true
 "
 ;
 }
-_toggleShowVariablesSearchbox
+_toggleShowVariablesFilterBox
 :
 function
-DVO__toggleShowVariablesSearchbox
+DVO__toggleShowVariablesFilterBox
 (
 )
 {
@@ -1305,7 +1307,7 @@ variablesSearchboxVisible
 =
 this
 .
-_showVariablesSearchboxItem
+_showVariablesFilterBoxItem
 .
 getAttribute
 (
@@ -1332,7 +1334,7 @@ null
 _showVariablesNonEnumItem
 :
 null
-_showVariablesSearchboxItem
+_showVariablesFilterBoxItem
 :
 null
 }

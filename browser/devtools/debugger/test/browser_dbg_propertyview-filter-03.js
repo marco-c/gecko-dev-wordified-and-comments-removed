@@ -225,7 +225,7 @@ DebuggerView
 .
 Options
 .
-_showVariablesSearchboxItem
+_showVariablesFilterBoxItem
 .
 getAttribute
 (
@@ -255,7 +255,7 @@ DebuggerView
 .
 Options
 .
-_showVariablesSearchboxItem
+_showVariablesFilterBoxItem
 .
 setAttribute
 (
@@ -273,7 +273,7 @@ DebuggerView
 .
 Options
 .
-_toggleShowVariablesSearchbox
+_toggleShowVariablesFilterBox
 (
 )
 ;
@@ -367,7 +367,7 @@ DebuggerView
 .
 Options
 .
-_showVariablesSearchboxItem
+_showVariablesFilterBoxItem
 .
 getAttribute
 (
@@ -397,7 +397,7 @@ DebuggerView
 .
 Options
 .
-_showVariablesSearchboxItem
+_showVariablesFilterBoxItem
 .
 setAttribute
 (
@@ -415,7 +415,7 @@ DebuggerView
 .
 Options
 .
-_toggleShowVariablesSearchbox
+_toggleShowVariablesFilterBox
 (
 )
 ;
@@ -513,7 +513,7 @@ DebuggerView
 .
 Options
 .
-_showVariablesSearchboxItem
+_showVariablesFilterBoxItem
 .
 getAttribute
 (

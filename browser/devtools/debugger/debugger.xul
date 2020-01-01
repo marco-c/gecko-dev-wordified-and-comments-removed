@@ -760,7 +760,7 @@ command
 id
 =
 "
-toggleShowVariablesSearchbox
+toggleShowVariablesFilterBox
 "
 oncommand
 =
@@ -769,7 +769,7 @@ DebuggerView
 .
 Options
 .
-_toggleShowVariablesSearchbox
+_toggleShowVariablesFilterBox
 (
 )
 "
@@ -1452,7 +1452,9 @@ show
 -
 vars
 -
-searchbox
+filter
+-
+box
 "
 type
 =
@@ -1465,7 +1467,7 @@ label
 &
 debuggerUI
 .
-showVarsSearch
+showVarsFilter
 ;
 "
 accesskey
@@ -1474,7 +1476,7 @@ accesskey
 &
 debuggerUI
 .
-showVarsSearch
+showVarsFilter
 .
 key
 ;
@@ -1482,7 +1484,7 @@ key
 command
 =
 "
-toggleShowVariablesSearchbox
+toggleShowVariablesFilterBox
 "
 /
 >

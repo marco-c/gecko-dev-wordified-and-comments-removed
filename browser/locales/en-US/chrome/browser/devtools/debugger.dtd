@@ -637,7 +637,7 @@ NOTE
 (
 debuggerUI
 .
-showVarsSearch
+showVarsFilter
 )
 :
 This
@@ -655,7 +655,8 @@ of
 a
 designated
 variables
-searchbox
+filter
+box
 .
 -
 -
@@ -665,11 +666,12 @@ searchbox
 ENTITY
 debuggerUI
 .
-showVarsSearch
+showVarsFilter
 "
 Show
 variables
-searchbox
+filter
+box
 "
 >
 <
@@ -677,7 +679,7 @@ searchbox
 ENTITY
 debuggerUI
 .
-showVarsSearch
+showVarsFilter
 .
 key
 "
