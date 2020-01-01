@@ -10744,7 +10744,7 @@ start
 JSObject
 *
 found
-JSPropCacheEntry
+PropertyCacheEntry
 *
 entry
 )
@@ -10884,12 +10884,11 @@ gcNumber
 sample
 |
 |
-PCVCAP_SHAPE
-(
 entry
 -
 >
-vcap
+vshape
+(
 )
 !
 =

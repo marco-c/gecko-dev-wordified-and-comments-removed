@@ -3453,7 +3453,10 @@ cacheable
 ;
 }
 extern
-JSPropCacheEntry
+js
+:
+:
+PropertyCacheEntry
 *
 js_FindPropertyHelper
 (
