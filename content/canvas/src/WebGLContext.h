@@ -1646,7 +1646,7 @@ WebGLuint
 mActiveTexture
 ;
 WebGLenum
-mSynthesizedGLError
+mWebGLError
 ;
 PRBool
 mShaderValidation

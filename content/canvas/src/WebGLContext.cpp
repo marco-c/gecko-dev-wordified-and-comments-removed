@@ -971,7 +971,7 @@ mActiveTexture
 =
 0
 ;
-mSynthesizedGLError
+mWebGLError
 =
 LOCAL_GL_NO_ERROR
 ;
