@@ -246,6 +246,10 @@ MobileMessageCursorCallback
 .
 cpp
 \
+MobileMessageThread
+.
+cpp
+\
 SmsManager
 .
 cpp
