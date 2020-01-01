@@ -995,6 +995,12 @@ select_dialog_item
 if
 (
 mSelected
+!
+=
+null
+&
+&
+mSelected
 .
 length
 >
@@ -1046,6 +1052,12 @@ aMenuList
 ;
 if
 (
+mSelected
+!
+=
+null
+&
+&
 mSelected
 .
 length
@@ -1200,6 +1212,10 @@ setAdapter
 adapter
 this
 )
+;
+mSelected
+=
+null
 ;
 }
 }
