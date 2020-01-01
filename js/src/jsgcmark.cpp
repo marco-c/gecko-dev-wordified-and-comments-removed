@@ -2498,9 +2498,6 @@ JS_ASSERT_IF
 gcmarker
 -
 >
-context
--
->
 runtime
 -
 >
@@ -2514,9 +2511,6 @@ compartment
 =
 =
 gcmarker
--
->
-context
 -
 >
 runtime
