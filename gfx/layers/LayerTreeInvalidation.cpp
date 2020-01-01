@@ -818,10 +818,6 @@ mLayer
 GetInvalidRegion
 (
 )
-.
-GetBounds
-(
-)
 mTransform
 )
 ;
