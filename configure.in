@@ -68936,6 +68936,17 @@ OS_ARCH
 !
 =
 "
+SunOS
+"
+-
+a
+\
+"
+OS_ARCH
+"
+!
+=
+"
 WINNT
 "
 -
