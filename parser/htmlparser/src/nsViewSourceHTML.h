@@ -416,8 +416,9 @@ fallback
 ;
 protected
 :
-nsCString
-mCharset
+nsParser
+*
+mParser
 ;
 nsIHTMLContentSink
 *
