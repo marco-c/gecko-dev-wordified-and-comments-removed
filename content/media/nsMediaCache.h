@@ -134,10 +134,6 @@ mChannelEnded
 (
 false
 )
-mUsingNullPrincipal
-(
-false
-)
 mChannelOffset
 (
 0
@@ -706,9 +702,6 @@ mCacheSuspended
 ;
 bool
 mChannelEnded
-;
-bool
-mUsingNullPrincipal
 ;
 PRInt64
 mChannelOffset
