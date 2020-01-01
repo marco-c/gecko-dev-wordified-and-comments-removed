@@ -648,6 +648,9 @@ mAttachedStack
 PRPackedBool
 mProcessingAttachedStack
 ;
+PRPackedBool
+mDestroyed
+;
 PRUint32
 mAttachedStackSizeOnOutermost
 ;
