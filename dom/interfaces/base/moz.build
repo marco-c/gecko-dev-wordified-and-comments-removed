@@ -153,6 +153,11 @@ nsIDOMConstructor
 idl
 '
 '
+nsIDOMGlobalObjectConstructor
+.
+idl
+'
+'
 nsIDOMGlobalPropertyInitializer
 .
 idl
