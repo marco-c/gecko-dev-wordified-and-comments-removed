@@ -103,7 +103,7 @@ h
 #
 include
 "
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 .
 h
 "
@@ -1657,7 +1657,7 @@ GetAnimValue
 )
 ;
 }
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 nsSVGPatternFrame
 :
@@ -1669,7 +1669,7 @@ nsIContent
 aDefault
 )
 {
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 thisTransformList
 =
@@ -1752,7 +1752,7 @@ GetPatternTransform
 (
 )
 {
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 animTransformList
 =

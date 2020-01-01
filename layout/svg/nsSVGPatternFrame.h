@@ -43,7 +43,7 @@ class
 SVGAnimatedPreserveAspectRatio
 ;
 class
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 ;
 }
 typedef
@@ -246,7 +246,7 @@ mContent
 mozilla
 :
 :
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 GetPatternTransformList
 (

@@ -7,11 +7,7 @@ MOZILLA_DOMSVGTRANSFORMLIST_H__
 #
 include
 "
-mozilla
-/
-dom
-/
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 .
 h
 "
@@ -109,10 +105,7 @@ DOMSVGTransformList
 )
 DOMSVGTransformList
 (
-dom
-:
-:
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 *
 aAList
 const
@@ -575,10 +568,7 @@ mItems
 ;
 nsRefPtr
 <
-dom
-:
-:
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 >
 mAList
 ;

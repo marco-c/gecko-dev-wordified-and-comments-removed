@@ -178,7 +178,7 @@ class
 SVGAnimatedPreserveAspectRatio
 ;
 class
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 ;
 class
 SVGStringList
@@ -281,8 +281,8 @@ typedef
 mozilla
 :
 :
-nsSVGAnimatedTransformList
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
+SVGAnimatedTransformList
 ;
 typedef
 mozilla
@@ -1086,7 +1086,7 @@ nullptr
 ;
 }
 virtual
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 GetAnimatedTransformList
 (

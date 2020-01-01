@@ -5,17 +5,6 @@ mozilla
 /
 dom
 /
-SVGAnimatedTransformList
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 SVGTransformableElement
 .
 h
@@ -39,6 +28,13 @@ mozilla
 dom
 /
 SVGSVGElement
+.
+h
+"
+#
+include
+"
+DOMSVGAnimatedTransformList
 .
 h
 "
@@ -104,7 +100,7 @@ nsSVGElement
 )
 already_AddRefed
 <
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 >
 SVGTransformableElement
 :
@@ -114,7 +110,7 @@ Transform
 )
 {
 return
-SVGAnimatedTransformList
+DOMSVGAnimatedTransformList
 :
 :
 GetDOMWrapper
@@ -544,7 +540,7 @@ DidAnimateTransformList
 )
 ;
 }
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 *
 SVGTransformableElement
 :
@@ -571,7 +567,7 @@ DO_ALLOCATE
 mTransforms
 =
 new
-nsSVGAnimatedTransformList
+SVGAnimatedTransformList
 (
 )
 ;

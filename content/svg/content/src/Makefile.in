@@ -102,6 +102,10 @@ DOMSVGAnimatedNumberList
 .
 cpp
 \
+DOMSVGAnimatedTransformList
+.
+cpp
+\
 DOMSVGLength
 .
 cpp
@@ -155,10 +159,6 @@ nsISVGPoint
 cpp
 \
 nsSVGAngle
-.
-cpp
-\
-nsSVGAnimatedTransformList
 .
 cpp
 \
@@ -658,10 +658,6 @@ FORCE_STATIC_LIB
 EXPORTS
 =
 \
-nsSVGAnimatedTransformList
-.
-h
-\
 nsSVGClass
 .
 h
@@ -720,10 +716,6 @@ SVGAnimatedBoolean
 h
 \
 SVGAnimatedLength
-.
-h
-\
-SVGAnimatedTransformList
 .
 h
 \
