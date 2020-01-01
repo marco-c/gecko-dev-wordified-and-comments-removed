@@ -1904,6 +1904,14 @@ file_bug562137
 .
 txt
 \
+test_bug548193
+.
+html
+\
+file_bug548193
+.
+sjs
+\
 (
 NULL
 )
