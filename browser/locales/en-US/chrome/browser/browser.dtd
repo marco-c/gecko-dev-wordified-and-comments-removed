@@ -3457,13 +3457,11 @@ site
 <
 !
 ENTITY
-downloadMonitor
+downloadMonitor2
 .
 tooltip
 "
-Double
--
-click
+Click
 to
 open
 downloads

@@ -4869,7 +4869,7 @@ tooltiptext
 =
 "
 &
-downloadMonitor
+downloadMonitor2
 .
 tooltip
 ;
@@ -4878,14 +4878,6 @@ hidden
 =
 "
 true
-"
-ondblclick
-=
-"
-doCommand
-(
-)
-;
 "
 command
 =
