@@ -85,6 +85,16 @@ config
 config
 .
 mk
+EXTRA_JS_MODULES
+=
+\
+video
+.
+jsm
+\
+(
+NULL
+)
 include
 (
 topsrcdir
