@@ -2053,6 +2053,11 @@ theDir
 "
 ;
 }
+if
+(
+theDir
+)
+{
 [
 thePanel
 setDirectoryURL
@@ -2071,6 +2076,7 @@ YES
 ]
 ]
 ;
+}
 int
 result
 ;
@@ -2637,6 +2643,11 @@ PanelDefaultDirectory
 (
 )
 ;
+if
+(
+theDir
+)
+{
 [
 thePanel
 setDirectoryURL
@@ -2655,6 +2666,7 @@ YES
 ]
 ]
 ;
+}
 nsCocoaUtils
 :
 :
@@ -2954,6 +2966,11 @@ PanelDefaultDirectory
 (
 )
 ;
+if
+(
+theDir
+)
+{
 [
 thePanel
 setDirectoryURL
@@ -2972,6 +2989,7 @@ YES
 ]
 ]
 ;
+}
 /
 /
 load
