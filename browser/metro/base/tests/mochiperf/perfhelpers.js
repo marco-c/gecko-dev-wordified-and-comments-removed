@@ -44,7 +44,7 @@ declareTest
 function
 declareTest
 (
-aUID
+aUUID
 aName
 aCategory
 aSubCategory
@@ -55,7 +55,7 @@ this
 .
 _uid
 =
-aUID
+aUUID
 ;
 this
 .
@@ -69,7 +69,7 @@ _toJsonStr
 {
 id
 :
-aUID
+aUUID
 version
 :
 kDataSetVersion
