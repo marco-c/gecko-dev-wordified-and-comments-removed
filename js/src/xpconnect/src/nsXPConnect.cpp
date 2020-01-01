@@ -50,13 +50,6 @@ h
 #
 include
 "
-jsobj
-.
-h
-"
-#
-include
-"
 jsscript
 .
 h

@@ -511,7 +511,7 @@ val
 ;
 if
 (
-OBJ_GET_PROPERTY
+JS_GetPropertyById
 (
 ccx
 mainObj
@@ -1071,7 +1071,7 @@ resolved
 JS_TRUE
 ;
 return
-OBJ_DEFINE_PROPERTY
+JS_DefinePropertyById
 (
 ccx
 obj
@@ -1089,7 +1089,6 @@ propFlags
 &
 ~
 JSPROP_ENUMERATE
-nsnull
 )
 ;
 }
@@ -1211,7 +1210,7 @@ id
 )
 &
 &
-OBJ_DEFINE_PROPERTY
+JS_DefinePropertyById
 (
 ccx
 obj
@@ -1226,7 +1225,6 @@ propFlags
 &
 ~
 JSPROP_ENUMERATE
-nsnull
 )
 ;
 }
@@ -1353,7 +1351,7 @@ resolved
 JS_TRUE
 ;
 return
-OBJ_DEFINE_PROPERTY
+JS_DefinePropertyById
 (
 ccx
 obj
@@ -1366,7 +1364,6 @@ funobj
 )
 nsnull
 propFlags
-nsnull
 )
 ;
 }
@@ -1487,7 +1484,7 @@ id
 )
 &
 &
-OBJ_DEFINE_PROPERTY
+JS_DefinePropertyById
 (
 ccx
 obj
@@ -1502,7 +1499,6 @@ propFlags
 &
 ~
 JSPROP_ENUMERATE
-nsnull
 )
 ;
 }
@@ -1570,7 +1566,7 @@ id
 )
 &
 &
-OBJ_DEFINE_PROPERTY
+JS_DefinePropertyById
 (
 ccx
 obj
@@ -1579,7 +1575,6 @@ val
 nsnull
 nsnull
 propFlags
-nsnull
 )
 ;
 }
@@ -1759,7 +1754,7 @@ id
 )
 &
 &
-OBJ_DEFINE_PROPERTY
+JS_DefinePropertyById
 (
 ccx
 obj
@@ -1768,7 +1763,6 @@ funval
 nsnull
 nsnull
 propFlags
-nsnull
 )
 ;
 }
@@ -1851,7 +1845,7 @@ id
 )
 &
 &
-OBJ_DEFINE_PROPERTY
+JS_DefinePropertyById
 (
 ccx
 obj
@@ -1868,7 +1862,6 @@ JSPropertyOp
 funobj
 )
 propFlags
-nsnull
 )
 ;
 }

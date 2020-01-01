@@ -1637,7 +1637,7 @@ goto
 pre_call_clean_up
 ;
 }
-OBJ_SET_PROPERTY
+JS_SetPropertyById
 (
 cx
 out_obj
@@ -1926,7 +1926,7 @@ i
 |
 |
 !
-OBJ_GET_PROPERTY
+JS_GetPropertyById
 (
 cx
 JSVAL_TO_OBJECT

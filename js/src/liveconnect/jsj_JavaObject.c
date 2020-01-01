@@ -22,6 +22,13 @@ h
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 jsobj
 .
 h
@@ -1603,6 +1610,11 @@ proto_chain
 ;
 JSBool
 found_in_proto
+;
+js_LeaveTrace
+(
+cx
+)
 ;
 found_in_proto
 =

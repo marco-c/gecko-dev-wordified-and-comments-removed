@@ -22,13 +22,6 @@ h
 #
 include
 "
-jsobj
-.
-h
-"
-#
-include
-"
 jscntxt
 .
 h
@@ -2928,7 +2921,7 @@ ok
 =
 isSet
 ?
-OBJ_SET_PROPERTY
+JS_SetPropertyById
 (
 cx
 wrappedObj
@@ -2936,7 +2929,7 @@ asId
 vp
 )
 :
-OBJ_GET_PROPERTY
+JS_GetPropertyById
 (
 cx
 wrappedObj
