@@ -42,7 +42,7 @@ JSContext
 *
 cx_
 ;
-AutoObjectVector
+AutoScriptVector
 worklist_
 ;
 bool
@@ -100,8 +100,8 @@ cx
 bool
 appendToWorklist
 (
-HandleFunction
-fun
+HandleScript
+script
 )
 ;
 ExecutionMode
