@@ -275,6 +275,9 @@ const
 QStyleOptionGraphicsItem
 *
 aOption
+QWidget
+*
+aWidget
 )
 ;
 static

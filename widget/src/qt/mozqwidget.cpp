@@ -203,6 +203,7 @@ DoPaint
 (
 aPainter
 aOption
+aWidget
 )
 ;
 }
