@@ -1685,11 +1685,9 @@ chrome
 :
 /
 /
-browser
+places
 /
 locale
-/
-places
 /
 places
 .
