@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_Capabilities_h
+mozilla_AppProcessPermissions_h
 #
 define
-mozilla_Capabilities_h
+mozilla_AppProcessPermissions_h
 namespace
 mozilla
 {
@@ -25,7 +25,7 @@ PHalParent
 ;
 }
 bool
-AppProcessHasPermissions
+AssertAppProcessPermission
 (
 mozilla
 :
@@ -43,7 +43,7 @@ aPermission
 )
 ;
 bool
-AppProcessHasPermission
+AssertAppProcessPermission
 (
 mozilla
 :
@@ -61,7 +61,7 @@ aPermission
 )
 ;
 bool
-AppProcessHasPermission
+AssertAppProcessPermission
 (
 mozilla
 :
