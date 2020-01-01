@@ -3952,7 +3952,7 @@ breakpad
 reportURL
 "
 "
-http
+https
 :
 /
 /

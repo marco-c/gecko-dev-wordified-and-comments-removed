@@ -1407,7 +1407,7 @@ breakpad
 reportURL
 "
 "
-http
+https
 :
 /
 /

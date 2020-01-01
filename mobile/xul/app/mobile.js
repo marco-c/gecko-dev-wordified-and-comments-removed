@@ -3899,7 +3899,7 @@ breakpad
 reportURL
 "
 "
-http
+https
 :
 /
 /
