@@ -134,6 +134,9 @@ mAttemptingQuit
 PRPackedBool
 mRestart
 ;
+PRPackedBool
+mInterrupted
+;
 }
 ;
 #

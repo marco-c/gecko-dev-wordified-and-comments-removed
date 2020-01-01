@@ -7502,6 +7502,14 @@ XPI_showUpgradeUI
 (
 )
 {
+Services
+.
+startup
+.
+interrupted
+=
+true
+;
 if
 (
 !
