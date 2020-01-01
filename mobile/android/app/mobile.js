@@ -5950,7 +5950,7 @@ reader
 .
 font_size
 "
-4
+3
 )
 ;
 pref
