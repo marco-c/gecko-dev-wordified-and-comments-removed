@@ -365,7 +365,7 @@ if
 ss
 -
 >
-setSource
+setSourceCopy
 (
 cx
 chars
@@ -1245,7 +1245,7 @@ if
 ss
 -
 >
-setSource
+setSourceCopy
 (
 cx
 chars
