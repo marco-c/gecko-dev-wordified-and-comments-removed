@@ -13686,7 +13686,12 @@ deadSpaceGapTwips
 nscoord
 deadSpaceGap
 =
-mPresContext
+seqFrame
+-
+>
+PresContext
+(
+)
 -
 >
 TwipsToAppUnits
@@ -13716,6 +13721,8 @@ GetPosition
 )
 .
 y
+-
+deadSpaceGap
 )
 )
 ;
