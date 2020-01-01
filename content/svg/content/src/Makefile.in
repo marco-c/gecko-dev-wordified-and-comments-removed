@@ -501,6 +501,14 @@ DOMSVGPointList
 .
 cpp
 \
+DOMSVGStringList
+.
+cpp
+\
+DOMSVGTests
+.
+cpp
+\
 DOMSVGTransform
 .
 cpp
@@ -790,6 +798,10 @@ SVGPathSegUtils
 cpp
 \
 SVGPointList
+.
+cpp
+\
+SVGStringList
 .
 cpp
 \

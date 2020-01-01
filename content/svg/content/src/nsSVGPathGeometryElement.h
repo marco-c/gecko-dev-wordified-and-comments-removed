@@ -14,6 +14,13 @@ h
 #
 include
 "
+DOMSVGTests
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -78,6 +85,8 @@ nsSVGPathGeometryElement
 :
 public
 nsSVGPathGeometryElementBase
+public
+DOMSVGTests
 {
 public
 :
@@ -90,6 +99,7 @@ nsINodeInfo
 aNodeInfo
 )
 ;
+NS_DECL_ISUPPORTS_INHERITED
 virtual
 bool
 AttributeDefinesGeometry

@@ -179,13 +179,14 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsSVGAnimateTransformElement
 )
-NS_NODE_INTERFACE_TABLE5
+NS_NODE_INTERFACE_TABLE6
 (
 nsSVGAnimateTransformElement
 nsIDOMNode
 nsIDOMElement
 nsIDOMSVGElement
 nsIDOMSVGAnimationElement
+nsIDOMSVGTests
 nsIDOMSVGAnimateTransformElement
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO

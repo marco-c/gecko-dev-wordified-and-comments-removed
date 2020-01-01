@@ -4390,6 +4390,16 @@ mIMETextNode
 nsnull
 ;
 }
+if
+(
+mIsIMEComposing
+)
+{
+NotifyEditorObservers
+(
+)
+;
+}
 }
 return
 rv

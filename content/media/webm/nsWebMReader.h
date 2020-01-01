@@ -636,6 +636,9 @@ mHasVideo
 bool
 mHasAudio
 ;
+PRInt32
+mForceStereoMode
+;
 }
 ;
 #

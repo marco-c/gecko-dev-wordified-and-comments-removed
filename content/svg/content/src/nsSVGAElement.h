@@ -42,6 +42,13 @@ h
 #
 include
 "
+DOMSVGTests
+.
+h
+"
+#
+include
+"
 Link
 .
 h
@@ -57,6 +64,8 @@ public
 nsSVGAElementBase
 public
 nsIDOMSVGAElement
+public
+DOMSVGTests
 public
 nsIDOMSVGURIReference
 public

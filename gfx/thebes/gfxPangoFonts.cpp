@@ -340,7 +340,7 @@ gfx
 .
 printing
 "
-class
+struct
 gfxPangoFcFont
 ;
 int

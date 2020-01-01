@@ -11029,7 +11029,7 @@ rv
 IsCapabilityEnabled
 (
 "
-UniversalBrowserWrite
+UniversalXPConnect
 "
 &
 privileged

@@ -21,6 +21,13 @@ nsIDOMSVGDefsElement
 .
 h
 "
+#
+include
+"
+DOMSVGTests
+.
+h
+"
 using
 namespace
 mozilla
@@ -36,6 +43,8 @@ public
 nsSVGDefsElementBase
 public
 nsIDOMSVGDefsElement
+public
+DOMSVGTests
 {
 protected
 :
@@ -144,12 +153,13 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsSVGDefsElement
 )
-NS_NODE_INTERFACE_TABLE4
+NS_NODE_INTERFACE_TABLE5
 (
 nsSVGDefsElement
 nsIDOMNode
 nsIDOMElement
 nsIDOMSVGElement
+nsIDOMSVGTests
 nsIDOMSVGDefsElement
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO

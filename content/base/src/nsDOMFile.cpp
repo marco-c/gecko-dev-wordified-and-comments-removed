@@ -550,11 +550,8 @@ if
 nsContentUtils
 :
 :
-IsCallerTrustedForCapability
+CallerHasUniversalXPConnect
 (
-"
-UniversalFileRead
-"
 )
 )
 {

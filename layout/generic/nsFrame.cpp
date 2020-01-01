@@ -20434,6 +20434,9 @@ GetTransformMatrix
 (
 nsIFrame
 *
+aStopAtAncestor
+nsIFrame
+*
 *
 aOutAncestor
 )
@@ -20584,6 +20587,13 @@ aOutAncestor
 IsTransformed
 (
 )
+&
+&
+*
+aOutAncestor
+!
+=
+aStopAtAncestor
 )
 {
 nsIFrame
