@@ -163,10 +163,12 @@ testData
 {
 width
 :
-800
+980
 scale
 :
-1
+800
+/
+980
 }
 {
 width
@@ -408,7 +410,7 @@ style
 .
 width
 "
-800px
+980px
 "
 "
 Normal
@@ -417,7 +419,7 @@ browser
 '
 width
 is
-800
+980
 pixels
 "
 )

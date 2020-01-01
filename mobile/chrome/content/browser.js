@@ -33,7 +33,7 @@ selectedBrowser
 const
 kDefaultBrowserWidth
 =
-800
+980
 ;
 window
 .
