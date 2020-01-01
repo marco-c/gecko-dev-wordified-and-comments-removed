@@ -1308,12 +1308,6 @@ eventName
 ]
 ;
 int
-evlen
-=
-strlen
-(
-filterVar
-)
 pos
 =
 0
