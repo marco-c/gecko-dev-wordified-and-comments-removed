@@ -1295,6 +1295,18 @@ mAudioSeekTimeUs
 -
 1
 ;
+if
+(
+frame
+.
+mSize
+=
+=
+0
+)
+return
+true
+;
 nsAutoArrayPtr
 <
 AudioDataValue
@@ -1364,7 +1376,7 @@ isValid
 )
 {
 return
-NS_ERROR_FAILURE
+false
 ;
 }
 mAudioQueue
