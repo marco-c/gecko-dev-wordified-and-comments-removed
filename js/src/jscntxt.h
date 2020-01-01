@@ -788,6 +788,14 @@ JSScript
 script
 )
 ;
+void
+purge
+(
+JSContext
+*
+cx
+)
+;
 }
 ;
 }

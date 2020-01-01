@@ -914,6 +914,14 @@ return
 Compile_Okay
 ;
 }
+void
+PurgeShapeDependencies
+(
+JSContext
+*
+cx
+)
+;
 }
 }
 #

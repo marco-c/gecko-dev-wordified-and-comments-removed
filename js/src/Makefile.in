@@ -1576,6 +1576,10 @@ MonoIC
 .
 cpp
 \
+PolyIC
+.
+cpp
+\
 ImmutableSync
 .
 cpp
