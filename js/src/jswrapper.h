@@ -18,6 +18,7 @@ jsproxy
 .
 h
 "
+JS_BEGIN_EXTERN_C
 class
 JSWrapper
 :
@@ -1006,5 +1007,6 @@ flags
 )
 ;
 }
+JS_END_EXTERN_C
 #
 endif
