@@ -217,7 +217,7 @@ limit
 ;
 public
 Cursor
-getTopBookmarks
+getTopSites
 (
 ContentResolver
 cr
@@ -700,7 +700,7 @@ limit
 public
 static
 Cursor
-getTopBookmarks
+getTopSites
 (
 ContentResolver
 cr
@@ -709,11 +709,11 @@ limit
 )
 {
 Cursor
-topBookmarks
+topSites
 =
 sDb
 .
-getTopBookmarks
+getTopSites
 (
 cr
 limit
@@ -735,7 +735,7 @@ new
 TopSitesCursorWrapper
 (
 pinnedSites
-topBookmarks
+topSites
 limit
 )
 ;
