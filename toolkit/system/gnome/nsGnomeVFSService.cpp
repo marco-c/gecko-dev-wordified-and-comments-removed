@@ -87,7 +87,6 @@ h
 }
 class
 nsGnomeVFSMimeApp
-MOZ_FINAL
 :
 public
 nsIGnomeVFSMimeApp
@@ -237,7 +236,7 @@ nsGnomeVFSMimeApp
 :
 GetExpectsURIs
 (
-int32_t
+PRInt32
 *
 aExpects
 )
@@ -334,7 +333,6 @@ NS_OK
 }
 class
 UTF8StringEnumerator
-MOZ_FINAL
 :
 public
 nsIUTF8StringEnumerator
@@ -365,7 +363,7 @@ nsCString
 >
 mStrings
 ;
-uint32_t
+PRUint32
 mIndex
 ;
 }
@@ -459,7 +457,7 @@ aSchemes
 *
 aSchemes
 =
-nullptr
+nsnull
 ;
 nsRefPtr
 <
@@ -598,7 +596,7 @@ nsACString
 aMimeType
 )
 {
-nsAutoCString
+nsCAutoString
 fileExtToUse
 (
 "
@@ -657,7 +655,7 @@ aApp
 *
 aApp
 =
-nullptr
+nsnull
 ;
 GnomeVFSMimeApplication
 *
@@ -763,7 +761,7 @@ nsIURI
 aURI
 )
 {
-nsAutoCString
+nsCAutoString
 spec
 ;
 aURI

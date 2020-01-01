@@ -48,7 +48,7 @@ char
 *
 fDescription
 ;
-uint32_t
+PRUint32
 fVariantCount
 ;
 char

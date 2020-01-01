@@ -7,13 +7,6 @@ nsContentSupportMap_h__
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 pldhash
 .
 h
@@ -118,7 +111,7 @@ entry
 mMatch
 =
 =
-nullptr
+nsnull
 "
 over
 -
@@ -165,7 +158,7 @@ mMap
 ops
 )
 return
-false
+PR_FALSE
 ;
 PLDHashEntryHdr
 *
@@ -187,7 +180,7 @@ hdr
 )
 )
 return
-false
+PR_FALSE
 ;
 Entry
 *
@@ -211,7 +204,7 @@ entry
 mMatch
 ;
 return
-true
+PR_TRUE
 ;
 }
 nsresult

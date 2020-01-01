@@ -111,7 +111,7 @@ nsJARProtocolHandler
 *
 gJarHandler
 =
-nullptr
+nsnull
 ;
 nsJARProtocolHandler
 :
@@ -246,7 +246,7 @@ if
 gJarHandler
 )
 return
-nullptr
+nsnull
 ;
 NS_ADDREF
 (
@@ -277,7 +277,7 @@ gJarHandler
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 }
@@ -347,7 +347,7 @@ nsJARProtocolHandler
 :
 GetDefaultPort
 (
-int32_t
+PRInt32
 *
 result
 )
@@ -368,7 +368,7 @@ nsJARProtocolHandler
 :
 GetProtocolFlags
 (
-uint32_t
+PRUint32
 *
 result
 )
@@ -562,7 +562,7 @@ nsJARProtocolHandler
 :
 AllowPort
 (
-int32_t
+PRInt32
 port
 const
 char
@@ -576,7 +576,7 @@ _retval
 *
 _retval
 =
-false
+PR_FALSE
 ;
 return
 NS_OK

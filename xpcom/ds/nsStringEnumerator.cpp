@@ -47,18 +47,8 @@ nsSupportsPrimitives
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsStringEnumerator
-MOZ_FINAL
 :
 public
 nsIStringEnumerator
@@ -280,7 +270,7 @@ mCArray
 }
 ;
 inline
-uint32_t
+PRUint32
 Count
 (
 )
@@ -303,7 +293,7 @@ Length
 )
 ;
 }
-uint32_t
+PRUint32
 mIndex
 ;
 nsCOMPtr
@@ -607,6 +597,7 @@ T
 *
 *
 aResult
+NS_INPARAM
 )
 {
 if

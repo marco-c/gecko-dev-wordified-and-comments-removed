@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsIPluginStreamListener
+.
+h
+"
+#
+include
+"
 nsPluginsDir
 .
 h
@@ -73,7 +80,7 @@ h
 #
 include
 "
-nsIFile
+nsILocalFile
 .
 h
 "
@@ -669,7 +676,7 @@ res
 prefs
 !
 =
-nullptr
+nsnull
 )
 )
 {
@@ -1182,7 +1189,7 @@ nsIFile
 file
 )
 {
-nsAutoCString
+nsCAutoString
 filename
 ;
 if
@@ -1373,7 +1380,7 @@ NS_ERROR_FILE_NOT_FOUND
 nsresult
 rv
 ;
-nsAutoCString
+nsCAutoString
 path
 ;
 rv
@@ -1522,7 +1529,7 @@ outLibrary
 endif
 #
 ifdef
-DEBUG
+NS_DEBUG
 printf
 (
 "
@@ -1551,16 +1558,6 @@ pLibrary
 ;
 #
 endif
-if
-(
-!
-pLibrary
-)
-{
-return
-NS_ERROR_FAILURE
-;
-}
 return
 NS_OK
 ;
@@ -1583,13 +1580,13 @@ outLibrary
 *
 outLibrary
 =
-nullptr
+nsnull
 ;
 info
 .
 fVersion
 =
-nullptr
+nsnull
 ;
 nsresult
 rv
@@ -1731,7 +1728,7 @@ return
 rv
 ;
 }
-nsAutoCString
+nsCAutoString
 path
 ;
 if
@@ -1765,7 +1762,7 @@ get
 )
 )
 ;
-nsAutoCString
+nsCAutoString
 fileName
 ;
 if
@@ -1830,6 +1827,9 @@ name
 =
 NULL
 ;
+NPError
+nperr
+=
 npGetValue
 (
 NULL
@@ -1876,6 +1876,8 @@ description
 =
 NULL
 ;
+nperr
+=
 npGetValue
 (
 NULL
@@ -1934,7 +1936,7 @@ info
 fName
 !
 =
-nullptr
+nsnull
 )
 PL_strfree
 (
@@ -1950,7 +1952,7 @@ info
 fDescription
 !
 =
-nullptr
+nsnull
 )
 PL_strfree
 (
@@ -1961,7 +1963,7 @@ fDescription
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -1987,7 +1989,7 @@ i
 ]
 !
 =
-nullptr
+nsnull
 )
 PL_strfree
 (
@@ -2009,7 +2011,7 @@ i
 ]
 !
 =
-nullptr
+nsnull
 )
 PL_strfree
 (
@@ -2031,7 +2033,7 @@ i
 ]
 !
 =
-nullptr
+nsnull
 )
 PL_strfree
 (
@@ -2072,7 +2074,7 @@ info
 fFullPath
 !
 =
-nullptr
+nsnull
 )
 PL_strfree
 (
@@ -2088,7 +2090,7 @@ info
 fFileName
 !
 =
-nullptr
+nsnull
 )
 PL_strfree
 (
@@ -2104,7 +2106,7 @@ info
 fVersion
 !
 =
-nullptr
+nsnull
 )
 PL_strfree
 (

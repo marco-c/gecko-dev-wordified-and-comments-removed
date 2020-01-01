@@ -61,10 +61,6 @@ unsigned
 int
 serial
 ;
-unsigned
-int
-divisor
-;
 }
 ;
 class
@@ -445,8 +441,6 @@ count
 TranslatedAttribute
 *
 outAttribs
-GLsizei
-instances
 )
 ;
 private
@@ -471,8 +465,6 @@ std
 :
 size_t
 count
-GLsizei
-instances
 )
 const
 ;
@@ -493,8 +485,6 @@ const
 VertexAttribute
 &
 attribute
-GLsizei
-instances
 )
 ;
 Context

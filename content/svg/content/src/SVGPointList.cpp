@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 SVGPointList
 .
 h
@@ -31,7 +22,7 @@ h
 #
 include
 "
-nsError
+nsDOMError
 .
 h
 "
@@ -150,7 +141,7 @@ buf
 50
 ]
 ;
-uint32_t
+PRUint32
 last
 =
 mItems
@@ -163,7 +154,7 @@ Length
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -187,7 +178,7 @@ nsTextFormatter
 snprintf
 (
 buf
-ArrayLength
+NS_ARRAY_LENGTH
 (
 buf
 )
@@ -312,7 +303,7 @@ nsCharSeparatedTokenizer
 SEPARATOR_OPTIONAL
 )
 ;
-nsAutoCString
+nsCAutoString
 str1
 str2
 ;

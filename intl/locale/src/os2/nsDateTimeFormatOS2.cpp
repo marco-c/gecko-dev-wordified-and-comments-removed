@@ -127,7 +127,7 @@ UniChar
 *
 pString
 =
-nullptr
+NULL
 ;
 LocaleObject
 locObj
@@ -201,7 +201,7 @@ pString
 {
 f24Hour
 =
-true
+PR_TRUE
 ;
 }
 switch

@@ -102,15 +102,6 @@ nsIXMLHttpRequest
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsXULTemplateQueryProcessorXML
 ;
@@ -136,7 +127,6 @@ NS_IXMLQUERY_IID
 }
 class
 nsXMLQuery
-MOZ_FINAL
 :
 public
 nsISupports
@@ -290,7 +280,6 @@ NS_IXMLQUERY_IID
 )
 class
 nsXULTemplateResultSetXML
-MOZ_FINAL
 :
 public
 nsISimpleEnumerator
@@ -315,7 +304,7 @@ nsIDOMXPathResult
 >
 mResults
 ;
-uint32_t
+PRUint32
 mPosition
 ;
 public
@@ -357,7 +346,6 @@ mPosition
 ;
 class
 nsXULTemplateQueryProcessorXML
-MOZ_FINAL
 :
 public
 nsIXULTemplateQueryProcessor
@@ -372,7 +360,7 @@ nsXULTemplateQueryProcessorXML
 :
 mGenerationStarted
 (
-false
+PR_FALSE
 )
 {
 }

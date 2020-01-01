@@ -8,14 +8,14 @@ h
 #
 include
 "
-nsBoxLayoutState
+nsIFrame
 .
 h
 "
 #
 include
 "
-nsIFrame
+nsBoxLayoutState
 .
 h
 "
@@ -28,11 +28,11 @@ nsGridRow
 :
 mIsBogus
 (
-false
+PR_FALSE
 )
 mBox
 (
-nullptr
+nsnull
 )
 mFlex
 (
@@ -85,7 +85,7 @@ nsGridRow
 :
 Init
 (
-nsIFrame
+nsIBox
 *
 aBox
 bool
@@ -159,6 +159,9 @@ nsGridRow
 :
 IsCollapsed
 (
+nsBoxLayoutState
+&
+aState
 )
 {
 return
@@ -170,6 +173,7 @@ mBox
 >
 IsCollapsed
 (
+aState
 )
 ;
 }

@@ -27,6 +27,9 @@ nsSVGAttrTearoffTable
 h
 "
 #
+ifdef
+MOZ_SMIL
+#
 include
 "
 nsSMILValue
@@ -40,6 +43,8 @@ SVGLengthListSMILType
 .
 h
 "
+#
+endif
 namespace
 mozilla
 {
@@ -145,7 +150,7 @@ SVGAnimatedLengthList
 :
 ClearBaseValue
 (
-uint32_t
+PRUint32
 aAttrEnum
 )
 {
@@ -197,7 +202,7 @@ aNewAnimValue
 nsSVGElement
 *
 aElement
-uint32_t
+PRUint32
 aAttrEnum
 )
 {
@@ -291,7 +296,7 @@ ClearAnimValue
 nsSVGElement
 *
 aElement
-uint32_t
+PRUint32
 aAttrEnum
 )
 {
@@ -323,7 +328,7 @@ mBaseVal
 }
 mAnimVal
 =
-nullptr
+nsnull
 ;
 aElement
 -
@@ -334,6 +339,9 @@ aAttrEnum
 )
 ;
 }
+#
+ifdef
+MOZ_SMIL
 nsISMILAttr
 *
 SVGAnimatedLengthList
@@ -344,9 +352,9 @@ ToSMILAttr
 nsSVGElement
 *
 aSVGElement
-uint8_t
+PRUint8
 aAttrEnum
-uint8_t
+PRUint8
 aAxis
 bool
 aCanZeroPadList
@@ -454,11 +462,11 @@ val
 ;
 aPreventCachingOfSandwich
 =
-false
+PR_FALSE
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -477,7 +485,7 @@ Length
 i
 )
 {
-uint8_t
+PRUint8
 unit
 =
 (
@@ -523,7 +531,7 @@ SVG_LENGTHTYPE_EXS
 {
 aPreventCachingOfSandwich
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -728,4 +736,6 @@ mAttrEnum
 ;
 }
 }
+#
+endif
 }

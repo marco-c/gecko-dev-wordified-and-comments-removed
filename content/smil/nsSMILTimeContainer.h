@@ -92,7 +92,7 @@ virtual
 void
 Pause
 (
-uint32_t
+PRUint32
 aType
 )
 ;
@@ -100,14 +100,14 @@ virtual
 void
 Resume
 (
-uint32_t
+PRUint32
 aType
 )
 ;
 bool
 IsPausedByType
 (
-uint32_t
+PRUint32
 aType
 )
 const
@@ -208,7 +208,7 @@ ClearNeedsRewind
 {
 mNeedsRewind
 =
-false
+PR_FALSE
 ;
 }
 bool
@@ -228,7 +228,7 @@ MarkSeekFinished
 {
 mIsSeeking
 =
-false
+PR_FALSE
 ;
 }
 nsresult
@@ -364,7 +364,7 @@ mNeedsRewind
 bool
 mIsSeeking
 ;
-uint32_t
+PRUint32
 mPauseState
 ;
 struct

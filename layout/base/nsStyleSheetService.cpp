@@ -107,7 +107,7 @@ nsStyleSheetService
 :
 gInstance
 =
-nullptr
+nsnull
 ;
 nsStyleSheetService
 :
@@ -167,7 +167,7 @@ nsStyleSheetService
 {
 gInstance
 =
-nullptr
+nsnull
 ;
 nsLayoutStatics
 :
@@ -198,7 +198,7 @@ aCategory
 nsISimpleEnumerator
 *
 aEnumerator
-uint32_t
+PRUint32
 aSheetType
 )
 {
@@ -278,7 +278,7 @@ nsISupportsCStrings
 "
 )
 ;
-nsAutoCString
+nsCAutoString
 name
 ;
 icStr
@@ -336,7 +336,7 @@ aSheetType
 ;
 }
 }
-int32_t
+PRInt32
 nsStyleSheetService
 :
 :
@@ -356,7 +356,7 @@ sheetURI
 {
 for
 (
-int32_t
+PRInt32
 i
 =
 sheets
@@ -534,7 +534,7 @@ LoadAndRegisterSheet
 nsIURI
 *
 aSheetURI
-uint32_t
+PRUint32
 aSheetType
 )
 {
@@ -633,7 +633,7 @@ Count
 1
 ]
 message
-nullptr
+nsnull
 )
 ;
 }
@@ -651,7 +651,7 @@ LoadAndRegisterSheetInternal
 nsIURI
 *
 aSheetURI
-uint32_t
+PRUint32
 aSheetType
 )
 {
@@ -716,7 +716,7 @@ aSheetType
 =
 =
 AGENT_SHEET
-true
+PR_TRUE
 getter_AddRefs
 (
 sheet
@@ -761,7 +761,7 @@ SheetRegistered
 nsIURI
 *
 sheetURI
-uint32_t
+PRUint32
 aSheetType
 bool
 *
@@ -827,7 +827,7 @@ UnregisterSheet
 nsIURI
 *
 sheetURI
-uint32_t
+PRUint32
 aSheetType
 )
 {
@@ -850,7 +850,7 @@ NS_ENSURE_ARG_POINTER
 sheetURI
 )
 ;
-int32_t
+PRInt32
 foundIndex
 =
 FindSheetByURI
@@ -950,7 +950,7 @@ NotifyObservers
 (
 sheet
 message
-nullptr
+nsnull
 )
 ;
 return

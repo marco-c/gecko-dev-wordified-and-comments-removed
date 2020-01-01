@@ -71,7 +71,7 @@ mimeInfo
 *
 aFound
 =
-false
+PR_FALSE
 ;
 if
 (

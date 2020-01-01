@@ -204,7 +204,7 @@ signal
 =
 0
 ;
-uint32_t
+PRUint32
 strength_vals_count
 =
 sizeof
@@ -219,7 +219,7 @@ val_strength_t
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -434,17 +434,17 @@ DLADM_STRSIZE
 1
 ]
 ;
-uint32_t
+PRUint32
 section
 =
 0
 ;
-uint32_t
+PRUint32
 sout_scan
 =
 0
 ;
-uint32_t
+PRUint32
 wlan_put
 =
 0
@@ -479,7 +479,7 @@ escape
 {
 escape
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -521,7 +521,7 @@ sout_char
 {
 escape
 =
-true
+PR_TRUE
 ;
 continue
 ;

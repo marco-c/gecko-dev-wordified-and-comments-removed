@@ -395,7 +395,7 @@ rootBox
 >
 SetPopupSetFrame
 (
-nullptr
+nsnull
 )
 ;
 }
@@ -478,8 +478,8 @@ popupChild
 LayoutPopup
 (
 aState
-nullptr
-false
+nsnull
+PR_FALSE
 )
 ;
 }
@@ -644,8 +644,8 @@ mPopupList
 .
 InsertFrames
 (
-nullptr
-nullptr
+nsnull
+nsnull
 aPopupFrameList
 )
 ;
@@ -662,7 +662,7 @@ List
 FILE
 *
 out
-int32_t
+PRInt32
 aIndent
 )
 const
@@ -766,7 +766,7 @@ GetNextSibling
 }
 if
 (
-nullptr
+nsnull
 !
 =
 GetPrevContinuation
@@ -800,7 +800,7 @@ GetPrevContinuation
 }
 if
 (
-nullptr
+nsnull
 !
 =
 GetNextContinuation
@@ -880,11 +880,6 @@ state
 016llx
 ]
 "
-(
-unsigned
-long
-long
-)
 mState
 )
 ;
@@ -1129,7 +1124,7 @@ aIndent
 }
 outputOneList
 =
-true
+PR_TRUE
 ;
 fprintf
 (
@@ -1398,7 +1393,7 @@ out
 ;
 outputOneList
 =
-true
+PR_TRUE
 ;
 }
 if

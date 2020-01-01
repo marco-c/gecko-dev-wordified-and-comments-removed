@@ -141,15 +141,6 @@ plstr
 h
 "
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 ifdef
 MOZ_WIDGET_COCOA
 #
@@ -245,7 +236,6 @@ NS_COMMANDLINE_CID
 }
 class
 nsCommandLine
-MOZ_FINAL
 :
 public
 nsICommandLineRunner
@@ -315,7 +305,7 @@ arg
 void
 resolveShortcutURL
 (
-nsIFile
+nsILocalFile
 *
 aFile
 nsACString
@@ -349,7 +339,7 @@ nsString
 >
 mArgs
 ;
-uint32_t
+PRUint32
 mState
 ;
 nsCOMPtr
@@ -382,7 +372,7 @@ STATE_INITIAL_LAUNCH
 )
 mPreventDefault
 (
-false
+PR_FALSE
 )
 {
 }
@@ -405,7 +395,7 @@ nsCommandLine
 :
 GetLength
 (
-int32_t
+PRInt32
 *
 aResult
 )
@@ -413,7 +403,7 @@ aResult
 *
 aResult
 =
-int32_t
+PRInt32
 (
 mArgs
 .
@@ -432,7 +422,7 @@ nsCommandLine
 :
 GetArgument
 (
-int32_t
+PRInt32
 aIndex
 nsAString
 &
@@ -448,7 +438,7 @@ aIndex
 NS_ENSURE_ARG_MAX
 (
 aIndex
-int32_t
+PRInt32
 (
 mArgs
 .
@@ -483,7 +473,7 @@ nsAString
 aFlag
 bool
 aCaseSensitive
-int32_t
+PRInt32
 *
 aResult
 )
@@ -530,7 +520,7 @@ caseICmp
 ;
 for
 (
-uint32_t
+PRUint32
 f
 =
 0
@@ -627,9 +617,9 @@ nsCommandLine
 :
 RemoveArguments
 (
-int32_t
+PRInt32
 aStart
-int32_t
+PRInt32
 aEnd
 )
 {
@@ -641,7 +631,7 @@ aStart
 ;
 NS_ENSURE_ARG_MAX
 (
-uint32_t
+PRUint32
 (
 aEnd
 )
@@ -656,7 +646,7 @@ Length
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 aEnd
@@ -703,7 +693,7 @@ aResult
 nsresult
 rv
 ;
-int32_t
+PRInt32
 found
 ;
 rv
@@ -734,7 +724,7 @@ found
 *
 aResult
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -743,7 +733,7 @@ NS_OK
 *
 aResult
 =
-true
+PR_TRUE
 ;
 RemoveArguments
 (
@@ -775,7 +765,7 @@ aResult
 nsresult
 rv
 ;
-int32_t
+PRInt32
 found
 ;
 rv
@@ -807,7 +797,7 @@ aResult
 .
 SetIsVoid
 (
-true
+PR_TRUE
 )
 ;
 return
@@ -819,7 +809,7 @@ if
 found
 =
 =
-int32_t
+PRInt32
 (
 mArgs
 .
@@ -885,7 +875,7 @@ nsCommandLine
 :
 GetState
 (
-uint32_t
+PRUint32
 *
 aResult
 )
@@ -1097,7 +1087,7 @@ rv
 rv
 )
 ;
-nsAutoCString
+nsCAutoString
 path
 ;
 NS_CopyUnicodeToNative
@@ -1180,7 +1170,7 @@ XP_UNIX
 )
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 lf
 (
@@ -1242,7 +1232,7 @@ return
 NS_OK
 ;
 }
-nsAutoCString
+nsCAutoString
 nativeArg
 ;
 NS_CopyUnicodeToNative
@@ -1251,7 +1241,7 @@ aArgument
 nativeArg
 )
 ;
-nsAutoCString
+nsCAutoString
 newpath
 ;
 mWorkingDir
@@ -1336,7 +1326,7 @@ XP_WIN32
 )
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 lf
 (
@@ -1464,7 +1454,7 @@ XP_OS2
 )
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 lf
 (
@@ -1498,7 +1488,7 @@ rv
 )
 )
 {
-nsAutoCString
+nsCAutoString
 fullPath
 ;
 mWorkingDir
@@ -1509,7 +1499,7 @@ GetNativePath
 fullPath
 )
 ;
-nsAutoCString
+nsCAutoString
 carg
 ;
 NS_CopyUnicodeToNative
@@ -1671,7 +1661,7 @@ workingDirURI
 }
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 lf
 (
@@ -1706,7 +1696,7 @@ Normalize
 (
 )
 ;
-nsAutoCString
+nsCAutoString
 url
 ;
 resolveShortcutURL
@@ -1732,7 +1722,7 @@ io
 NewURI
 (
 url
-nullptr
+nsnull
 workingDirURI
 aResult
 )
@@ -1759,7 +1749,7 @@ NS_ConvertUTF16toUTF8
 (
 aArgument
 )
-nullptr
+nsnull
 workingDirURI
 aResult
 )
@@ -1839,7 +1829,7 @@ nsCommandLine
 :
 resolveShortcutURL
 (
-nsIFile
+nsILocalFile
 *
 aFile
 nsACString
@@ -1917,7 +1907,7 @@ nsCommandLine
 :
 Init
 (
-int32_t
+PRInt32
 argc
 char
 *
@@ -1926,7 +1916,7 @@ argv
 nsIFile
 *
 aWorkingDir
-uint32_t
+PRUint32
 aState
 )
 {
@@ -1942,7 +1932,7 @@ aState
 2
 )
 ;
-int32_t
+PRInt32
 i
 ;
 mWorkingDir
@@ -2381,7 +2371,7 @@ strenum
 NS_ERROR_UNEXPECTED
 )
 ;
-nsAutoCString
+nsCAutoString
 entry
 ;
 bool
@@ -2636,7 +2626,7 @@ strenum
 NS_ERROR_UNEXPECTED
 )
 ;
-nsAutoCString
+nsCAutoString
 entry
 ;
 bool
@@ -2819,7 +2809,7 @@ rv
 EnumerateValidators
 (
 EnumValidate
-nullptr
+nsnull
 )
 ;
 if
@@ -2837,7 +2827,7 @@ rv
 EnumerateHandlers
 (
 EnumRun
-nullptr
+nsnull
 )
 ;
 if

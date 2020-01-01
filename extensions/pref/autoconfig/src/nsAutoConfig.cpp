@@ -168,7 +168,7 @@ rv
 ;
 mLoaded
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -218,7 +218,7 @@ after
 -
 change
 "
-true
+PR_TRUE
 )
 ;
 return
@@ -266,7 +266,7 @@ IsEmpty
 *
 aConfigURL
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -357,13 +357,13 @@ context
 nsIInputStream
 *
 aIStream
-uint64_t
+PRUint32
 aSourceOffset
-uint32_t
+PRUint32
 aLength
 )
 {
-uint32_t
+PRUint32
 amt
 size
 ;
@@ -506,7 +506,7 @@ if
 pHTTPCon
 )
 {
-uint32_t
+PRUint32
 httpStatus
 ;
 pHTTPCon
@@ -568,10 +568,10 @@ mBuf
 Length
 (
 )
-nullptr
-false
-true
-false
+nsnull
+PR_FALSE
+PR_TRUE
+PR_FALSE
 )
 ;
 if
@@ -609,7 +609,7 @@ file
 ;
 mLoaded
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -787,7 +787,7 @@ downloadAutoConfig
 nsresult
 rv
 ;
-nsAutoCString
+nsCAutoString
 emailAddr
 ;
 nsXPIDLCString
@@ -847,7 +847,7 @@ return
 NS_OK
 ;
 }
-int32_t
+PRInt32
 index
 =
 mConfigURL
@@ -929,7 +929,7 @@ prefs
 >
 GetBranch
 (
-nullptr
+nsnull
 getter_AddRefs
 (
 mPrefBranch
@@ -1129,8 +1129,8 @@ mConfigURL
 get
 (
 )
-nullptr
-nullptr
+nsnull
+nsnull
 )
 ;
 if
@@ -1207,9 +1207,9 @@ getter_AddRefs
 channel
 )
 url
-nullptr
-nullptr
-nullptr
+nsnull
+nsnull
+nsnull
 nsIRequest
 :
 :
@@ -1239,7 +1239,7 @@ channel
 AsyncOpen
 (
 this
-nullptr
+nsnull
 )
 ;
 if
@@ -1265,7 +1265,7 @@ firstTime
 {
 firstTime
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -1295,7 +1295,7 @@ thread
 )
 )
 ;
-int32_t
+PRInt32
 minutes
 ;
 rv
@@ -1402,7 +1402,7 @@ rv
 ;
 mLoaded
 =
-true
+PR_TRUE
 ;
 bool
 failCache
@@ -1495,7 +1495,7 @@ ios
 >
 SetOffline
 (
-true
+PR_TRUE
 )
 ;
 if
@@ -1521,7 +1521,7 @@ network
 .
 online
 "
-false
+PR_FALSE
 )
 ;
 if
@@ -1669,10 +1669,10 @@ rv
 return
 rv
 ;
-int64_t
+PRInt64
 fileSize
 ;
-uint32_t
+PRUint32
 fs
 amt
 =
@@ -1744,10 +1744,10 @@ EvaluateAdminConfigScript
 (
 buf
 fs
-nullptr
-false
-true
-false
+nsnull
+PR_FALSE
+PR_TRUE
+PR_FALSE
 )
 ;
 }
@@ -1790,7 +1790,7 @@ nsIOutputStream
 >
 outStr
 ;
-uint32_t
+PRUint32
 amt
 ;
 rv
@@ -1998,7 +1998,7 @@ PromptForEMailAddress
 emailAddr
 )
 ;
-int32_t
+PRInt32
 commandIndex
 =
 prefValue
@@ -2346,7 +2346,7 @@ promptService
 >
 Prompt
 (
-nullptr
+nsnull
 title
 .
 get
@@ -2361,7 +2361,7 @@ getter_Copies
 (
 emailResult
 )
-nullptr
+nsnull
 &
 check
 &

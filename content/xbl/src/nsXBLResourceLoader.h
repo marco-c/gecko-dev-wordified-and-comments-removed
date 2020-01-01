@@ -40,6 +40,9 @@ class
 nsIAtom
 ;
 class
+nsIDocument
+;
+class
 nsIScriptContext
 ;
 class
@@ -83,7 +86,7 @@ nsXBLResource
 ;
 mNext
 =
-nullptr
+nsnull
 ;
 mType
 =
@@ -188,14 +191,6 @@ NotifyBoundElements
 (
 )
 ;
-nsresult
-Write
-(
-nsIObjectOutputStream
-*
-aStream
-)
-;
 nsXBLPrototypeBinding
 *
 mBinding
@@ -218,7 +213,7 @@ mLoadingResources
 bool
 mInLoadResourcesFunc
 ;
-int16_t
+PRInt16
 mPendingSheets
 ;
 nsCOMArray

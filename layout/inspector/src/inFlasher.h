@@ -107,7 +107,7 @@ aRenderContext
 nscolor
 mColor
 ;
-uint16_t
+PRUint16
 mThickness
 ;
 bool

@@ -27,11 +27,13 @@ nsTraversal
 nsINode
 *
 aRoot
-uint32_t
+PRUint32
 aWhatToShow
 nsIDOMNodeFilter
 *
 aFilter
+bool
+aExpandEntityReferences
 )
 ;
 virtual
@@ -48,7 +50,7 @@ nsINode
 >
 mRoot
 ;
-uint32_t
+PRUint32
 mWhatToShow
 ;
 nsCOMPtr
@@ -56,6 +58,9 @@ nsCOMPtr
 nsIDOMNodeFilter
 >
 mFilter
+;
+bool
+mExpandEntityReferences
 ;
 bool
 mInAcceptNode
@@ -66,7 +71,7 @@ TestNode
 nsINode
 *
 aNode
-int16_t
+PRInt16
 *
 _filtered
 )

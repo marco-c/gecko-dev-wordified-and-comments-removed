@@ -96,13 +96,13 @@ TransmitAutomaticData
 NS_IMETHOD
 UpdatePresentationDataFromChildAt
 (
-int32_t
+PRInt32
 aFirstIndex
-int32_t
+PRInt32
 aLastIndex
-uint32_t
+PRUint32
 aFlagsValues
-uint32_t
+PRUint32
 aFlagsToUpdate
 )
 ;
@@ -156,7 +156,7 @@ nsMathMLmfracFrame
 )
 ;
 virtual
-int
+PRIntn
 GetSkipSides
 (
 )

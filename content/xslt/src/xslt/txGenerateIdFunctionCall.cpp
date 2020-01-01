@@ -66,7 +66,7 @@ aResult
 *
 aResult
 =
-nullptr
+nsnull
 ;
 if
 (

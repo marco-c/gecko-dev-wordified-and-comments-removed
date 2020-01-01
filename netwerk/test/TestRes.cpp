@@ -302,7 +302,7 @@ serv
 NewChannel
 (
 url
-nullptr
+nsnull
 getter_AddRefs
 (
 channel
@@ -377,7 +377,7 @@ while
 1
 )
 {
-uint32_t
+PRUint32
 amt
 ;
 rv
@@ -592,7 +592,7 @@ nsIEventQueue
 *
 gEventQ
 =
-nullptr
+nsnull
 ;
 class
 Listener
@@ -827,7 +827,7 @@ str
 }
 gDone
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -845,9 +845,9 @@ ctxt
 nsIInputStream
 *
 inStr
-uint64_t
+PRUint32
 sourceOffset
-uint32_t
+PRUint32
 count
 )
 {
@@ -867,7 +867,7 @@ count
 0
 )
 {
-uint32_t
+PRUint32
 amt
 ;
 rv
@@ -1024,7 +1024,7 @@ serv
 NewChannel
 (
 url
-nullptr
+nsnull
 getter_AddRefs
 (
 channel
@@ -1057,7 +1057,7 @@ if
 listener
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -1069,7 +1069,7 @@ channel
 >
 AsyncOpen
 (
-nullptr
+nsnull
 listener
 )
 ;
@@ -1167,8 +1167,8 @@ getter_AddRefs
 (
 servMan
 )
-nullptr
-nullptr
+nsnull
+nsnull
 )
 ;
 nsCOMPtr
@@ -1200,7 +1200,7 @@ registrar
 >
 AutoRegister
 (
-nullptr
+nsnull
 )
 ;
 NS_ASSERTION
@@ -1333,7 +1333,7 @@ rv
 =
 NS_ShutdownXPCOM
 (
-nullptr
+nsnull
 )
 ;
 NS_ASSERTION

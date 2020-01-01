@@ -59,7 +59,7 @@ Length
 1
 )
 :
-nullptr
+nsnull
 ;
 }
 inline
@@ -93,7 +93,7 @@ void
 *
 object
 =
-nullptr
+nsnull
 ;
 NS_ASSERTION
 (
@@ -118,7 +118,7 @@ isEmpty
 )
 {
 const
-uint32_t
+PRUint32
 count
 =
 Length
@@ -157,7 +157,7 @@ IsEmpty
 ;
 }
 inline
-int32_t
+PRInt32
 size
 (
 )
@@ -239,7 +239,7 @@ Length
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 return
@@ -260,7 +260,7 @@ txStack
 *
 mStack
 ;
-uint32_t
+PRUint32
 mPosition
 ;
 }

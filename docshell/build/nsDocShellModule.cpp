@@ -107,7 +107,7 @@ endif
 if
 defined
 (
-MOZ_WIDGET_ANDROID
+ANDROID
 )
 |
 |
@@ -128,7 +128,7 @@ endif
 if
 defined
 (
-MOZ_WIDGET_ANDROID
+ANDROID
 )
 #
 include
@@ -209,7 +209,7 @@ NS_OK
 }
 gInitialized
 =
-true
+PR_TRUE
 ;
 nsresult
 rv
@@ -260,7 +260,7 @@ Shutdown
 ;
 gInitialized
 =
-false
+PR_FALSE
 ;
 }
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
@@ -329,7 +329,7 @@ endif
 if
 defined
 (
-MOZ_WIDGET_ANDROID
+ANDROID
 )
 |
 |
@@ -347,7 +347,7 @@ endif
 if
 defined
 (
-MOZ_WIDGET_ANDROID
+ANDROID
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
@@ -445,7 +445,7 @@ endif
 if
 defined
 (
-MOZ_WIDGET_ANDROID
+ANDROID
 )
 |
 |
@@ -464,7 +464,7 @@ endif
 if
 defined
 (
-MOZ_WIDGET_ANDROID
+ANDROID
 )
 NS_DEFINE_NAMED_CID
 (
@@ -619,7 +619,7 @@ endif
 if
 defined
 (
-MOZ_WIDGET_ANDROID
+ANDROID
 )
 |
 |
@@ -640,7 +640,7 @@ endif
 if
 defined
 (
-MOZ_WIDGET_ANDROID
+ANDROID
 )
 {
 &
@@ -829,14 +829,6 @@ kNS_ABOUT_REDIRECTOR_MODULE_CID
 {
 NS_ABOUT_MODULE_CONTRACTID_PREFIX
 "
-compartments
-"
-&
-kNS_ABOUT_REDIRECTOR_MODULE_CID
-}
-{
-NS_ABOUT_MODULE_CONTRACTID_PREFIX
-"
 memory
 "
 &
@@ -933,7 +925,7 @@ endif
 if
 defined
 (
-MOZ_WIDGET_ANDROID
+ANDROID
 )
 |
 |
@@ -952,7 +944,7 @@ endif
 if
 defined
 (
-MOZ_WIDGET_ANDROID
+ANDROID
 )
 {
 NS_EXTERNALURLHANDLERSERVICE_CONTRACTID

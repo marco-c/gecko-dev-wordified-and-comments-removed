@@ -109,7 +109,7 @@ nsStyleContext
 aOldStyleContext
 )
 ;
-int32_t
+PRInt32
 GetColIndex
 (
 )
@@ -118,7 +118,7 @@ const
 void
 SetColIndex
 (
-int32_t
+PRInt32
 aColIndex
 )
 ;
@@ -196,12 +196,12 @@ GetSplittableType
 )
 const
 ;
-int32_t
+PRInt32
 GetSpan
 (
 )
 ;
-int32_t
+PRInt32
 Count
 (
 )
@@ -242,7 +242,7 @@ aBorder
 void
 SetContinuousBCBorderWidth
 (
-uint8_t
+PRUint8
 aForSide
 BCPixelSize
 aPixelValue
@@ -254,7 +254,7 @@ DEBUG
 void
 Dump
 (
-int32_t
+PRInt32
 aIndent
 )
 ;
@@ -281,7 +281,7 @@ mPrefPercent
 ;
 mHasSpecifiedCoord
 =
-false
+PR_FALSE
 ;
 }
 void
@@ -357,7 +357,7 @@ mMinCoord
 ;
 mHasSpecifiedCoord
 =
-true
+PR_TRUE
 ;
 }
 if
@@ -679,7 +679,7 @@ mSpanPrefPercent
 nscoord
 mFinalWidth
 ;
-uint32_t
+PRUint32
 mColIndex
 :
 16
@@ -705,7 +705,7 @@ mHasSpecifiedCoord
 }
 ;
 inline
-int32_t
+PRInt32
 nsTableColFrame
 :
 :
@@ -725,7 +725,7 @@ nsTableColFrame
 :
 SetColIndex
 (
-int32_t
+PRInt32
 aColIndex
 )
 {
@@ -804,7 +804,7 @@ nsMargin
 aBorder
 )
 {
-int32_t
+PRInt32
 aPixelsToTwips
 =
 nsPresContext

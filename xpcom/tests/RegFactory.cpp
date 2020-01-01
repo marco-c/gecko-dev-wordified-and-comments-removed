@@ -43,7 +43,7 @@ h
 #
 include
 "
-nsIFile
+nsILocalFile
 .
 h
 "
@@ -162,7 +162,7 @@ path
 {
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 ;
@@ -175,7 +175,7 @@ NS_ConvertUTF8toUTF16
 (
 path
 )
-true
+PR_TRUE
 getter_AddRefs
 (
 file
@@ -332,7 +332,7 @@ u
 :
 gUnreg
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -581,8 +581,8 @@ getter_AddRefs
 (
 servMan
 )
-nullptr
-nullptr
+nsnull
+nsnull
 )
 ;
 if
@@ -631,7 +631,7 @@ registrar
 >
 AutoRegister
 (
-nullptr
+nsnull
 )
 ;
 ret

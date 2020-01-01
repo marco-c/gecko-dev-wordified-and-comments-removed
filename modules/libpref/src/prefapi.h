@@ -26,7 +26,7 @@ char
 *
 stringVal
 ;
-int32_t
+PRInt32
 intVal
 ;
 bool
@@ -51,7 +51,7 @@ defaultPref
 PrefValue
 userPref
 ;
-uint16_t
+PRUint16
 flags
 ;
 }
@@ -140,7 +140,7 @@ const
 char
 *
 pref
-int32_t
+PRInt32
 value
 bool
 set_default
@@ -179,7 +179,7 @@ const
 char
 *
 pref
-int32_t
+PRInt32
 *
 return_int
 bool

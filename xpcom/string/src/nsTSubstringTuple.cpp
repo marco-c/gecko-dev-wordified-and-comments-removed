@@ -10,7 +10,7 @@ Length
 )
 const
 {
-uint32_t
+PRUint32
 len
 ;
 if
@@ -60,7 +60,7 @@ WriteTo
 char_type
 *
 buf
-uint32_t
+PRUint32
 bufLen
 )
 const
@@ -92,7 +92,7 @@ small
 "
 )
 ;
-uint32_t
+PRUint32
 headLen
 =
 bufLen
@@ -350,7 +350,7 @@ end
 )
 )
 return
-true
+PR_TRUE
 ;
 if
 (

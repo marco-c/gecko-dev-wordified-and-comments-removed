@@ -45,7 +45,7 @@ h
 #
 include
 "
-nsIFile
+nsILocalFile
 .
 h
 "
@@ -157,15 +157,6 @@ h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsWildCard
 .
 h
@@ -212,7 +203,6 @@ file
 "
 class
 nsFileResult
-MOZ_FINAL
 :
 public
 nsIAutoCompleteResult
@@ -242,7 +232,7 @@ mValues
 nsAutoString
 mSearchString
 ;
-uint16_t
+PRUint16
 mSearchResult
 ;
 }
@@ -286,7 +276,7 @@ RESULT_IGNORED
 ;
 else
 {
-int32_t
+PRInt32
 slashPos
 =
 mSearchString
@@ -304,7 +294,7 @@ RESULT_FAILURE
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 directory
 ;
@@ -345,7 +335,7 @@ First
 NS_NewLocalFile
 (
 parent
-true
+PR_TRUE
 getter_AddRefs
 (
 directory
@@ -365,7 +355,7 @@ NS_FAILED
 NS_NewLocalFile
 (
 aSearchParam
-true
+PR_TRUE
 getter_AddRefs
 (
 directory
@@ -477,7 +467,7 @@ nextItem
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 nextFile
 (
@@ -584,7 +574,7 @@ nsFileResult
 :
 GetSearchResult
 (
-uint16_t
+PRUint16
 *
 aSearchResult
 )
@@ -609,7 +599,7 @@ nsFileResult
 :
 GetDefaultIndex
 (
-int32_t
+PRInt32
 *
 aDefaultIndex
 )
@@ -656,7 +646,7 @@ nsFileResult
 :
 GetMatchCount
 (
-uint32_t
+PRUint32
 *
 aMatchCount
 )
@@ -683,34 +673,9 @@ NS_IMETHODIMP
 nsFileResult
 :
 :
-GetTypeAheadResult
-(
-bool
-*
-aTypeAheadResult
-)
-{
-NS_ENSURE_ARG_POINTER
-(
-aTypeAheadResult
-)
-;
-*
-aTypeAheadResult
-=
-false
-;
-return
-NS_OK
-;
-}
-NS_IMETHODIMP
-nsFileResult
-:
-:
 GetValueAt
 (
-int32_t
+PRInt32
 index
 nsAString
 &
@@ -734,7 +699,7 @@ nsFileResult
 :
 GetLabelAt
 (
-int32_t
+PRInt32
 index
 nsAString
 &
@@ -755,7 +720,7 @@ nsFileResult
 :
 GetCommentAt
 (
-int32_t
+PRInt32
 index
 nsAString
 &
@@ -778,7 +743,7 @@ nsFileResult
 :
 GetStyleAt
 (
-int32_t
+PRInt32
 index
 nsAString
 &
@@ -801,7 +766,7 @@ nsFileResult
 :
 GetImageAt
 (
-int32_t
+PRInt32
 index
 nsAString
 &
@@ -824,7 +789,7 @@ nsFileResult
 :
 RemoveValueAt
 (
-int32_t
+PRInt32
 rowIndex
 bool
 removeFromDb
@@ -836,7 +801,6 @@ NS_OK
 }
 class
 nsFileComplete
-MOZ_FINAL
 :
 public
 nsIAutoCompleteSearch
@@ -1050,10 +1014,10 @@ nsIDateTimeFormat
 >
 mDateFormatter
 ;
-int16_t
+PRInt16
 mSortType
 ;
-int32_t
+PRInt32
 mTotalRows
 ;
 nsTArray
@@ -1201,15 +1165,15 @@ mTotalRows
 )
 mShowHiddenFiles
 (
-false
+PR_FALSE
 )
 mDirectoryFilter
 (
-false
+PR_FALSE
 )
 mReverseSort
 (
-false
+PR_FALSE
 )
 {
 }
@@ -1221,7 +1185,7 @@ nsFileView
 (
 )
 {
-uint32_t
+PRUint32
 count
 =
 mCurrentFilters
@@ -1232,7 +1196,7 @@ Length
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -1445,7 +1409,7 @@ mDirectoryFilter
 =
 aOnlyDirs
 ;
-uint32_t
+PRUint32
 dirCount
 ;
 mDirList
@@ -1462,7 +1426,7 @@ if
 mDirectoryFilter
 )
 {
-int32_t
+PRInt32
 rowDiff
 =
 mTotalRows
@@ -1561,7 +1525,7 @@ nsFileView
 :
 GetSortType
 (
-int16_t
+PRInt16
 *
 aSortType
 )
@@ -1601,7 +1565,7 @@ nsFileView
 :
 Sort
 (
-int16_t
+PRInt16
 aSortType
 bool
 aReverseSort
@@ -1918,7 +1882,7 @@ nsAString
 aFilterString
 )
 {
-uint32_t
+PRUint32
 filterCount
 =
 mCurrentFilters
@@ -1929,7 +1893,7 @@ Length
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -1980,7 +1944,7 @@ end
 ;
 while
 (
-true
+PR_TRUE
 )
 {
 while
@@ -2127,7 +2091,7 @@ BeginUpdateBatch
 (
 )
 ;
-uint32_t
+PRUint32
 count
 ;
 mDirList
@@ -2206,7 +2170,7 @@ aFiles
 *
 aFiles
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -2216,7 +2180,7 @@ mSelection
 return
 NS_OK
 ;
-int32_t
+PRInt32
 numRanges
 ;
 mSelection
@@ -2228,7 +2192,7 @@ GetRangeCount
 numRanges
 )
 ;
-uint32_t
+PRUint32
 dirCount
 ;
 mDirList
@@ -2258,7 +2222,7 @@ fileArray
 ;
 for
 (
-int32_t
+PRInt32
 range
 =
 0
@@ -2272,7 +2236,7 @@ numRanges
 range
 )
 {
-int32_t
+PRInt32
 rangeBegin
 rangeEnd
 ;
@@ -2290,7 +2254,7 @@ rangeEnd
 ;
 for
 (
-int32_t
+PRInt32
 itemIndex
 =
 rangeBegin
@@ -2316,7 +2280,7 @@ if
 itemIndex
 <
 (
-int32_t
+PRInt32
 )
 dirCount
 )
@@ -2357,7 +2321,7 @@ fileArray
 AppendElement
 (
 curFile
-false
+PR_FALSE
 )
 ;
 }
@@ -2380,7 +2344,7 @@ nsFileView
 :
 GetRowCount
 (
-int32_t
+PRInt32
 *
 aRowCount
 )
@@ -2446,7 +2410,7 @@ nsFileView
 :
 GetRowProperties
 (
-int32_t
+PRInt32
 aIndex
 nsISupportsArray
 *
@@ -2463,7 +2427,7 @@ nsFileView
 :
 GetCellProperties
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -2473,7 +2437,7 @@ nsISupportsArray
 aProperties
 )
 {
-uint32_t
+PRUint32
 dirCount
 ;
 mDirList
@@ -2490,7 +2454,7 @@ if
 aRow
 <
 (
-int32_t
+PRInt32
 )
 dirCount
 )
@@ -2545,7 +2509,7 @@ nsFileView
 :
 IsContainer
 (
-int32_t
+PRInt32
 aIndex
 bool
 *
@@ -2555,7 +2519,7 @@ aIsContainer
 *
 aIsContainer
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -2567,7 +2531,7 @@ nsFileView
 :
 IsContainerOpen
 (
-int32_t
+PRInt32
 aIndex
 bool
 *
@@ -2577,7 +2541,7 @@ aIsOpen
 *
 aIsOpen
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -2589,7 +2553,7 @@ nsFileView
 :
 IsContainerEmpty
 (
-int32_t
+PRInt32
 aIndex
 bool
 *
@@ -2599,7 +2563,7 @@ aIsEmpty
 *
 aIsEmpty
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -2611,7 +2575,7 @@ nsFileView
 :
 IsSeparator
 (
-int32_t
+PRInt32
 aIndex
 bool
 *
@@ -2621,7 +2585,7 @@ aIsSeparator
 *
 aIsSeparator
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -2658,9 +2622,9 @@ nsFileView
 :
 CanDrop
 (
-int32_t
+PRInt32
 aIndex
-int32_t
+PRInt32
 aOrientation
 nsIDOMDataTransfer
 *
@@ -2673,7 +2637,7 @@ aCanDrop
 *
 aCanDrop
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -2685,9 +2649,9 @@ nsFileView
 :
 Drop
 (
-int32_t
+PRInt32
 aRow
-int32_t
+PRInt32
 aOrientation
 nsIDOMDataTransfer
 *
@@ -2704,9 +2668,9 @@ nsFileView
 :
 GetParentIndex
 (
-int32_t
+PRInt32
 aRowIndex
-int32_t
+PRInt32
 *
 aParentIndex
 )
@@ -2727,9 +2691,9 @@ nsFileView
 :
 HasNextSibling
 (
-int32_t
+PRInt32
 aRowIndex
-int32_t
+PRInt32
 aAfterIndex
 bool
 *
@@ -2759,9 +2723,9 @@ nsFileView
 :
 GetLevel
 (
-int32_t
+PRInt32
 aIndex
-int32_t
+PRInt32
 *
 aLevel
 )
@@ -2781,7 +2745,7 @@ nsFileView
 :
 GetImageSrc
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -2801,12 +2765,12 @@ nsFileView
 :
 GetProgressMode
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
 aCol
-int32_t
+PRInt32
 *
 aProgressMode
 )
@@ -2821,7 +2785,7 @@ nsFileView
 :
 GetCellValue
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -2841,7 +2805,7 @@ nsFileView
 :
 GetCellText
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -2851,7 +2815,7 @@ nsAString
 aCellText
 )
 {
-uint32_t
+PRUint32
 dirCount
 fileCount
 ;
@@ -2887,14 +2851,14 @@ if
 aRow
 <
 (
-int32_t
+PRInt32
 )
 dirCount
 )
 {
 isDirectory
 =
-true
+PR_TRUE
 ;
 curFile
 =
@@ -2915,7 +2879,7 @@ mTotalRows
 {
 isDirectory
 =
-false
+PR_FALSE
 ;
 curFile
 =
@@ -2995,7 +2959,7 @@ colID
 )
 )
 {
-PRTime
+PRInt64
 lastModTime
 ;
 curFile
@@ -3015,7 +2979,7 @@ mDateFormatter
 >
 FormatPRTime
 (
-nullptr
+nsnull
 kDateFormatShort
 kTimeFormatSeconds
 lastModTime
@@ -3044,7 +3008,7 @@ SetCapacity
 ;
 else
 {
-int64_t
+PRInt64
 fileSize
 ;
 curFile
@@ -3100,7 +3064,7 @@ nsFileView
 :
 ToggleOpenState
 (
-int32_t
+PRInt32
 aIndex
 )
 {
@@ -3141,7 +3105,7 @@ nsFileView
 :
 CycleCell
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -3158,7 +3122,7 @@ nsFileView
 :
 IsEditable
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -3171,7 +3135,7 @@ aIsEditable
 *
 aIsEditable
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -3183,7 +3147,7 @@ nsFileView
 :
 IsSelectable
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -3196,7 +3160,7 @@ aIsSelectable
 *
 aIsSelectable
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -3208,7 +3172,7 @@ nsFileView
 :
 SetCellValue
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -3229,7 +3193,7 @@ nsFileView
 :
 SetCellText
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -3270,7 +3234,7 @@ const
 PRUnichar
 *
 aAction
-int32_t
+PRInt32
 aRow
 )
 {
@@ -3288,7 +3252,7 @@ const
 PRUnichar
 *
 aAction
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -3307,7 +3271,7 @@ FilterFiles
 (
 )
 {
-uint32_t
+PRUint32
 count
 =
 0
@@ -3341,7 +3305,7 @@ Clear
 (
 )
 ;
-uint32_t
+PRUint32
 filterCount
 =
 mCurrentFilters
@@ -3358,7 +3322,7 @@ file
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -3427,7 +3391,7 @@ isHidden
 {
 for
 (
-uint32_t
+PRUint32
 j
 =
 0
@@ -3502,7 +3466,7 @@ ElementAt
 (
 j
 )
-true
+PR_TRUE
 )
 =
 =
@@ -3544,7 +3508,7 @@ nsISupportsArray
 aArray
 )
 {
-uint32_t
+PRUint32
 count
 ;
 aArray
@@ -3558,7 +3522,7 @@ count
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -3762,7 +3726,7 @@ const
 aElement2
 )
 ;
-int64_t
+PRInt64
 size1
 size2
 ;
@@ -3860,7 +3824,7 @@ const
 aElement2
 )
 ;
-PRTime
+PRInt64
 time1
 time2
 ;
@@ -3973,7 +3937,7 @@ default
 return
 ;
 }
-uint32_t
+PRUint32
 count
 ;
 aArray
@@ -3997,7 +3961,7 @@ nsIFile
 count
 ]
 ;
-uint32_t
+PRUint32
 i
 ;
 for
@@ -4048,7 +4012,7 @@ nsIFile
 *
 )
 compareFunc
-nullptr
+nsnull
 )
 ;
 for

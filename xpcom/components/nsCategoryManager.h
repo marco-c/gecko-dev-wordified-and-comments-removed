@@ -42,15 +42,6 @@ Mutex
 h
 "
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 define
 NS_CATEGORYMANAGER_CLASSNAME
 "
@@ -180,7 +171,7 @@ Clear
 )
 ;
 }
-uint32_t
+PRUint32
 Count
 (
 )
@@ -194,7 +185,7 @@ lock
 mLock
 )
 ;
-uint32_t
+PRUint32
 tCount
 =
 mTable
@@ -282,7 +273,6 @@ mLock
 ;
 class
 nsCategoryManager
-MOZ_FINAL
 :
 public
 nsICategoryManager

@@ -111,6 +111,9 @@ virtual
 bool
 IsCollapsed
 (
+nsBoxLayoutState
+&
+aBoxLayoutState
 )
 ;
 virtual
@@ -182,7 +185,7 @@ RelayoutChildAtOrdinal
 nsBoxLayoutState
 &
 aState
-nsIFrame
+nsIBox
 *
 aChild
 )
@@ -197,7 +200,7 @@ const
 nsPoint
 &
 aPoint
-nsIFrame
+nsIBox
 *
 *
 aBox
@@ -321,7 +324,7 @@ static
 void
 AddBorderAndPadding
 (
-nsIFrame
+nsIBox
 *
 aBox
 nsSize
@@ -333,7 +336,7 @@ static
 void
 AddMargin
 (
-nsIFrame
+nsIBox
 *
 aChild
 nsSize
@@ -435,7 +438,7 @@ virtual
 void
 GetLayoutFlags
 (
-uint32_t
+PRUint32
 &
 aFlags
 )

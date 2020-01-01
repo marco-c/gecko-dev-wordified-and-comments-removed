@@ -62,15 +62,6 @@ nsWeakReference
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsClientAuthRemember
 {
@@ -146,7 +137,6 @@ mDBKey
 ;
 class
 nsClientAuthRememberEntry
-MOZ_FINAL
 :
 public
 PLDHashEntryHdr
@@ -259,7 +249,7 @@ aKey
 return
 PL_DHashStringKey
 (
-nullptr
+nsnull
 aKey
 )
 ;
@@ -268,7 +258,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-false
+PR_FALSE
 }
 ;
 inline
@@ -309,7 +299,6 @@ mHostWithCert
 ;
 class
 nsClientAuthRememberService
-MOZ_FINAL
 :
 public
 nsIObserver

@@ -60,15 +60,6 @@ nsISimpleEnumerator
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 struct
 ObserverRef
 {
@@ -103,7 +94,7 @@ aObserver
 :
 isWeakRef
 (
-false
+PR_FALSE
 )
 ref
 (
@@ -120,7 +111,7 @@ aWeak
 :
 isWeakRef
 (
-true
+PR_TRUE
 )
 ref
 (
@@ -320,11 +311,6 @@ nsIObserver
 aArray
 )
 ;
-void
-UnmarkGrayStrongObservers
-(
-)
-;
 private
 :
 nsTArray
@@ -337,7 +323,6 @@ mObservers
 ;
 class
 nsObserverEnumerator
-MOZ_FINAL
 :
 public
 nsISimpleEnumerator
@@ -361,7 +346,7 @@ nsObserverEnumerator
 )
 {
 }
-int32_t
+PRInt32
 mIndex
 ;
 nsCOMArray

@@ -711,7 +711,7 @@ return
 str
 ;
 }
-int32_t
+PRInt32
 nsUnescapeCount
 (
 char
@@ -958,9 +958,9 @@ char
 *
 rv
 =
-nullptr
+nsnull
 ;
-uint32_t
+PRUint32
 len
 =
 PL_strlen
@@ -980,7 +980,7 @@ PR_UINT32_MAX
 )
 )
 return
-nullptr
+nsnull
 ;
 rv
 =
@@ -1343,7 +1343,7 @@ const
 PRUnichar
 *
 aSourceBuffer
-int32_t
+PRInt32
 aSourceBufferLen
 )
 {
@@ -1356,7 +1356,10 @@ aSourceBufferLen
 {
 aSourceBufferLen
 =
-NS_strlen
+nsCRT
+:
+:
+strlen
 (
 aSourceBuffer
 )
@@ -1364,7 +1367,7 @@ aSourceBuffer
 }
 if
 (
-uint32_t
+PRUint32
 (
 aSourceBufferLen
 )
@@ -1391,7 +1394,7 @@ PRUnichar
 )
 )
 return
-nullptr
+nsnull
 ;
 PRUnichar
 *
@@ -1438,7 +1441,7 @@ if
 resultBuffer
 )
 {
-int32_t
+PRInt32
 i
 ;
 for
@@ -1941,9 +1944,9 @@ const
 char
 *
 part
-int32_t
+PRInt32
 partLen
-uint32_t
+PRUint32
 flags
 nsACString
 &
@@ -1965,7 +1968,7 @@ pointer
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 int
@@ -2219,7 +2222,7 @@ i
 ;
 writing
 =
-true
+PR_TRUE
 ;
 }
 tempBuffer
@@ -2362,9 +2365,9 @@ const
 char
 *
 str
-int32_t
+PRInt32
 len
-uint32_t
+PRUint32
 flags
 nsACString
 &
@@ -2386,7 +2389,7 @@ pointer
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -2634,7 +2637,7 @@ F
 {
 writing
 =
-true
+PR_TRUE
 ;
 if
 (

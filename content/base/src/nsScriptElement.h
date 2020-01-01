@@ -70,7 +70,7 @@ HasScriptContent
 0
 ;
 virtual
-bool
+nsresult
 MaybeProcessScript
 (
 )

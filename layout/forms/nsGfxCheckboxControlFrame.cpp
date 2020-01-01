@@ -73,6 +73,13 @@ nsCSSAnonBoxes
 .
 h
 "
+#
+include
+"
+nsIDOMHTMLInputElement
+.
+h
+"
 static
 void
 PaintCheckMark
@@ -116,7 +123,7 @@ GetUsedBorderAndPadding
 )
 ;
 const
-int32_t
+PRInt32
 checkPolygonX
 [
 ]
@@ -135,7 +142,7 @@ checkPolygonX
 }
 ;
 const
-int32_t
+PRInt32
 checkPolygonY
 [
 ]
@@ -153,7 +160,7 @@ checkPolygonY
 }
 ;
 const
-int32_t
+PRInt32
 checkNumPoints
 =
 sizeof
@@ -163,11 +170,11 @@ checkPolygonX
 /
 sizeof
 (
-int32_t
+PRInt32
 )
 ;
 const
-int32_t
+PRInt32
 checkSize
 =
 9
@@ -218,7 +225,7 @@ checkNumPoints
 ;
 for
 (
-int32_t
+PRInt32
 polyIndex
 =
 0
@@ -432,7 +439,7 @@ ifdef
 ACCESSIBILITY
 already_AddRefed
 <
-Accessible
+nsAccessible
 >
 nsGfxCheckboxControlFrame
 :
@@ -476,7 +483,7 @@ PresShell
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 #

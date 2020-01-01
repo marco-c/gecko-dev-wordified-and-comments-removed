@@ -13,12 +13,8 @@ DOMSVGAnimatedTransformList
 h
 "
 #
-include
-"
-nsISMILAnimationElement
-.
-h
-"
+ifdef
+MOZ_SMIL
 #
 include
 "
@@ -54,6 +50,8 @@ prdtoa
 .
 h
 "
+#
+endif
 namespace
 mozilla
 {
@@ -161,7 +159,7 @@ else
 {
 mIsAttrSet
 =
-true
+PR_TRUE
 ;
 }
 return
@@ -210,7 +208,7 @@ Clear
 ;
 mIsAttrSet
 =
-false
+PR_FALSE
 ;
 }
 nsresult
@@ -354,7 +352,7 @@ Length
 }
 mAnimVal
 =
-nullptr
+nsnull
 ;
 aElement
 -
@@ -388,6 +386,9 @@ IsEmpty
 mAnimVal
 ;
 }
+#
+ifdef
+MOZ_SMIL
 nsISMILAttr
 *
 SVGAnimatedTransformList
@@ -530,7 +531,7 @@ aValue
 ;
 aPreventCachingOfSandwich
 =
-false
+PR_FALSE
 ;
 return
 aValue
@@ -605,7 +606,7 @@ params
 f
 }
 ;
-int32_t
+PRInt32
 numParsed
 =
 ParseParameterList
@@ -615,7 +616,7 @@ params
 3
 )
 ;
-uint16_t
+PRUint16
 transformType
 ;
 if
@@ -888,7 +889,7 @@ aIter
 ;
 }
 }
-int32_t
+PRInt32
 SVGAnimatedTransformList
 :
 :
@@ -904,7 +905,7 @@ aSpec
 float
 *
 aVars
-int32_t
+PRInt32
 aNVars
 )
 {
@@ -1217,4 +1218,6 @@ mElement
 ;
 }
 }
+#
+endif
 }

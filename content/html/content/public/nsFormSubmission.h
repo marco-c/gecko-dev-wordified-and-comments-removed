@@ -116,7 +116,7 @@ SupportsIsindexSubmission
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 virtual

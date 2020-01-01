@@ -108,13 +108,9 @@ bool
 RecvNotifyStateEvent
 (
 const
-uint32_t
+PRUint32
 &
 stateEvent
-const
-uint64_t
-&
-byteProgress
 )
 ;
 virtual
@@ -178,7 +174,7 @@ nsIApplicationCache
 aApplicationCache
 )
 ;
-void
+nsresult
 GatherObservers
 (
 nsCOMArray
@@ -266,9 +262,6 @@ nsCOMPtr
 nsIDOMWindow
 >
 mWindow
-;
-uint64_t
-mByteProgress
 ;
 }
 ;

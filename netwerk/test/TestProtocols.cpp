@@ -231,15 +231,6 @@ h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsISimpleEnumerator
 .
 h
@@ -286,7 +277,7 @@ PRLogModuleInfo
 *
 gTestLog
 =
-nullptr
+nsnull
 ;
 #
 endif
@@ -334,7 +325,7 @@ gResume
 false
 ;
 static
-uint64_t
+PRUint64
 gStartAt
 =
 0
@@ -428,7 +419,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsAutoCString
+nsCAutoString
 proxyHost
 ;
 proxyHost
@@ -926,7 +917,7 @@ get
 )
 ;
 }
-int64_t
+PRInt64
 mBytesRead
 ;
 PRTime
@@ -1038,7 +1029,7 @@ channel
 nsIChannel
 *
 newChannel
-uint32_t
+PRUint32
 flags
 nsIAsyncVerifyRedirectCallback
 *
@@ -1148,7 +1139,7 @@ const
 PRUnichar
 *
 passwordRealm
-uint32_t
+PRUint32
 savePassword
 const
 PRUnichar
@@ -1166,7 +1157,7 @@ _retval
 *
 _retval
 =
-false
+PR_FALSE
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -1190,7 +1181,7 @@ const
 PRUnichar
 *
 passwordRealm
-uint32_t
+PRUint32
 savePassword
 PRUnichar
 *
@@ -1558,7 +1549,7 @@ buf
 *
 _retval
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -1582,7 +1573,7 @@ const
 PRUnichar
 *
 passwordRealm
-uint32_t
+PRUint32
 savePassword
 PRUnichar
 *
@@ -1596,7 +1587,7 @@ _retval
 *
 _retval
 =
-false
+PR_FALSE
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -1708,7 +1699,6 @@ if
 (
 gVerbose
 )
-{
 LOG
 (
 (
@@ -1738,8 +1728,7 @@ URL
 )
 )
 ;
-}
-nsAutoCString
+nsCAutoString
 value
 ;
 nsCOMPtr
@@ -1895,7 +1884,7 @@ get
 )
 )
 ;
-int32_t
+PRInt32
 length
 =
 -
@@ -1915,7 +1904,6 @@ length
 )
 )
 )
-{
 LOG
 (
 (
@@ -1934,9 +1922,7 @@ length
 )
 )
 ;
-}
 else
-{
 LOG
 (
 (
@@ -1953,7 +1939,6 @@ n
 )
 )
 ;
-}
 }
 nsCOMPtr
 <
@@ -2044,7 +2029,7 @@ if
 foo
 )
 {
-nsAutoCString
+nsCAutoString
 spec
 ;
 foo
@@ -2095,7 +2080,7 @@ if
 propbag
 )
 {
-int64_t
+PRInt64
 len
 ;
 nsresult
@@ -2118,7 +2103,6 @@ NS_SUCCEEDED
 rv
 )
 )
-{
 LOG
 (
 (
@@ -2139,7 +2123,6 @@ len
 )
 ;
 }
-}
 nsCOMPtr
 <
 nsIHttpChannelInternal
@@ -2157,7 +2140,7 @@ if
 httpChannelInt
 )
 {
-uint32_t
+PRUint32
 majorVer
 minorVer
 ;
@@ -2182,7 +2165,6 @@ NS_SUCCEEDED
 rv
 )
 )
-{
 LOG
 (
 (
@@ -2204,7 +2186,6 @@ minorVer
 )
 )
 ;
-}
 }
 nsCOMPtr
 <
@@ -2325,7 +2306,7 @@ n
 )
 )
 ;
-nsAutoCString
+nsCAutoString
 entityID
 ;
 nsresult
@@ -2407,9 +2388,9 @@ context
 nsIInputStream
 *
 aIStream
-uint64_t
+PRUint32
 aSourceOffset
-uint32_t
+PRUint32
 aLength
 )
 {
@@ -2419,7 +2400,7 @@ buf
 1025
 ]
 ;
-uint32_t
+PRUint32
 amt
 size
 ;
@@ -2445,7 +2426,7 @@ size
 =
 NS_MIN
 <
-uint32_t
+PRUint32
 >
 (
 aLength
@@ -2601,7 +2582,7 @@ connectTime
 double
 readTime
 ;
-uint32_t
+PRUint32
 httpStatus
 ;
 bool
@@ -2692,7 +2673,7 @@ httpStatus
 ;
 bHTTPURL
 =
-true
+PR_TRUE
 ;
 }
 LOG
@@ -2727,7 +2708,6 @@ if
 (
 bHTTPURL
 )
-{
 LOG
 (
 (
@@ -2745,7 +2725,6 @@ httpStatus
 )
 )
 ;
-}
 if
 (
 NS_ERROR_UNKNOWN_HOST
@@ -2846,7 +2825,7 @@ info
 mBytesRead
 =
 =
-int64_t
+PRInt64
 (
 0
 )
@@ -2879,7 +2858,7 @@ bps
 n
 "
 (
-double
+PRFloat64
 )
 (
 info
@@ -2887,7 +2866,7 @@ info
 >
 mBytesRead
 *
-int64_t
+PRInt64
 (
 8
 )
@@ -2985,7 +2964,6 @@ NS_OK
 }
 class
 NotificationCallbacks
-MOZ_FINAL
 :
 public
 nsIInterfaceRequestor
@@ -3045,7 +3023,7 @@ if
 sink
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -3101,7 +3079,7 @@ if
 prompt
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -3187,8 +3165,8 @@ nsDependentCString
 (
 aUrlString
 )
-nullptr
-nullptr
+nsnull
+nsnull
 getter_AddRefs
 (
 pURL
@@ -3287,7 +3265,7 @@ pChannel
 )
 pURL
 pService
-nullptr
+nsnull
 callbacks
 )
 ;
@@ -3354,7 +3332,7 @@ timed
 >
 SetTimingEnabled
 (
-true
+PR_TRUE
 )
 ;
 nsCOMPtr
@@ -3398,7 +3376,6 @@ NS_SUCCEEDED
 rv
 )
 )
-{
 LOG
 (
 (
@@ -3416,7 +3393,6 @@ n
 )
 )
 ;
-}
 }
 nsCOMPtr
 <
@@ -3458,7 +3434,7 @@ Sample
 Value
 "
 )
-false
+PR_FALSE
 )
 ;
 if
@@ -3588,7 +3564,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsAutoCString
+nsCAutoString
 id
 ;
 if
@@ -3702,7 +3678,7 @@ rv
 ;
 }
 static
-int32_t
+PRInt32
 FindChar
 (
 nsCString
@@ -3717,7 +3693,7 @@ char
 *
 b
 ;
-int32_t
+PRInt32
 len
 =
 NS_CStringGetData
@@ -3729,7 +3705,7 @@ b
 ;
 for
 (
-int32_t
+PRInt32
 offset
 =
 0
@@ -3778,7 +3754,7 @@ char
 *
 b
 ;
-uint32_t
+PRUint32
 len
 =
 NS_CStringGetData
@@ -3844,7 +3820,7 @@ rv
 =
 NS_OK
 ;
-int32_t
+PRInt32
 len
 offset
 ;
@@ -3998,23 +3974,6 @@ get
 )
 )
 ;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-{
-PR_Close
-(
-fd
-)
-;
-return
-rv
-;
-}
 }
 }
 }
@@ -4134,7 +4093,7 @@ q
 )
 gAskUserForInput
 =
-false
+PR_FALSE
 ;
 else
 StartLoadingURL
@@ -4294,9 +4253,9 @@ rv
 =
 NS_InitXPCOM2
 (
-nullptr
-nullptr
-nullptr
+nsnull
+nsnull
+nsnull
 )
 ;
 if
@@ -4307,8 +4266,7 @@ rv
 )
 )
 return
--
-1
+rv
 ;
 {
 int
@@ -4363,7 +4321,7 @@ verbose
 {
 gVerbose
 =
-true
+PR_TRUE
 ;
 continue
 ;
@@ -4419,7 +4377,7 @@ console
 {
 gAskUserForInput
 =
-true
+PR_TRUE
 ;
 continue
 ;
@@ -4444,7 +4402,7 @@ resume
 {
 gResume
 =
-true
+PR_TRUE
 ;
 PR_sscanf
 (
@@ -4593,18 +4551,10 @@ PumpEvents
 }
 NS_ShutdownXPCOM
 (
-nullptr
+nsnull
 )
 ;
 return
-NS_FAILED
-(
 rv
-)
-?
--
-1
-:
-0
 ;
 }

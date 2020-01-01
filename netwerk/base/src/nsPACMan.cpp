@@ -164,7 +164,6 @@ result
 }
 class
 PendingPACQuery
-MOZ_FINAL
 :
 public
 PRCList
@@ -210,7 +209,7 @@ this
 nsresult
 Start
 (
-uint32_t
+PRUint32
 flags
 )
 ;
@@ -262,7 +261,7 @@ PendingPACQuery
 :
 Start
 (
-uint32_t
+PRUint32
 flags
 )
 {
@@ -313,7 +312,7 @@ return
 rv
 ;
 }
-nsAutoCString
+nsCAutoString
 host
 ;
 rv
@@ -407,7 +406,7 @@ pacString
 ;
 mCallback
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -424,7 +423,7 @@ NS_ERROR_ABORT
 ;
 mDNSRequest
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -446,7 +445,7 @@ status
 {
 mDNSRequest
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -461,7 +460,7 @@ PR_REMOVE_LINK
 this
 )
 ;
-nsAutoCString
+nsCAutoString
 pacString
 ;
 status
@@ -498,11 +497,11 @@ nsPACMan
 :
 mLoadPending
 (
-false
+PR_FALSE
 )
 mShutdown
 (
-false
+PR_FALSE
 )
 mScheduledReload
 (
@@ -533,7 +532,7 @@ NS_ASSERTION
 mLoader
 =
 =
-nullptr
+nsnull
 "
 pac
 man
@@ -548,7 +547,7 @@ NS_ASSERTION
 mPAC
 =
 =
-nullptr
+nsnull
 "
 pac
 man
@@ -594,11 +593,11 @@ NS_ERROR_ABORT
 ;
 mPAC
 =
-nullptr
+nsnull
 ;
 mShutdown
 =
-true
+PR_TRUE
 ;
 }
 nsresult
@@ -660,7 +659,7 @@ mPAC
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-nsAutoCString
+nsCAutoString
 spec
 host
 ;
@@ -932,7 +931,7 @@ rv
 ;
 mLoadPending
 =
-true
+PR_TRUE
 ;
 }
 CancelExistingLoad
@@ -963,7 +962,7 @@ LL_MAXINT
 ;
 mPAC
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -979,7 +978,7 @@ StartLoading
 {
 mLoadPending
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -1076,7 +1075,7 @@ channel
 AsyncOpen
 (
 mLoader
-nullptr
+nsnull
 )
 )
 )
@@ -1120,7 +1119,7 @@ mScheduledReload
 )
 LoadPACFromURI
 (
-nullptr
+nsnull
 )
 ;
 }
@@ -1132,12 +1131,12 @@ OnLoadFailure
 (
 )
 {
-int32_t
+PRInt32
 minInterval
 =
 5
 ;
-int32_t
+PRInt32
 maxInterval
 =
 300
@@ -1191,7 +1190,7 @@ maxInterval
 )
 ;
 }
-int32_t
+PRInt32
 interval
 =
 minInterval
@@ -1245,7 +1244,7 @@ PR_Now
 (
 )
 +
-int64_t
+PRInt64
 (
 interval
 )
@@ -1297,7 +1296,7 @@ NS_ERROR_ABORT
 ;
 mLoader
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -1449,10 +1448,10 @@ nsISupports
 context
 nsresult
 status
-uint32_t
+PRUint32
 dataLen
 const
-uint8_t
+PRUint8
 *
 data
 )
@@ -1478,7 +1477,7 @@ NS_OK
 }
 mLoader
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -1494,7 +1493,7 @@ loader
 )
 )
 {
-nsAutoCString
+nsCAutoString
 pacURI
 ;
 {
@@ -1654,7 +1653,7 @@ status
 )
 mPAC
 =
-nullptr
+nsnull
 ;
 ProcessPendingQ
 (
@@ -1725,7 +1724,7 @@ promptFac
 >
 GetPrompt
 (
-nullptr
+nsnull
 iid
 reinterpret_cast
 <
@@ -1788,7 +1787,7 @@ oldChannel
 nsIChannel
 *
 newChannel
-uint32_t
+PRUint32
 flags
 nsIAsyncVerifyRedirectCallback
 *

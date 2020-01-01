@@ -18,7 +18,7 @@ aResourceSet
 :
 mResources
 (
-nullptr
+nsnull
 )
 mCount
 (
@@ -197,7 +197,7 @@ NS_PRECONDITION
 aResource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -230,7 +230,7 @@ mCount
 mCapacity
 )
 {
-int32_t
+PRInt32
 capacity
 =
 mCapacity
@@ -259,7 +259,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 mCount
@@ -390,7 +390,7 @@ res
 ;
 found
 =
-true
+PR_TRUE
 ;
 }
 +
@@ -421,7 +421,7 @@ const
 {
 for
 (
-int32_t
+PRInt32
 i
 =
 mCount
@@ -449,10 +449,10 @@ i
 aResource
 )
 return
-true
+PR_TRUE
 ;
 }
 return
-false
+PR_FALSE
 ;
 }

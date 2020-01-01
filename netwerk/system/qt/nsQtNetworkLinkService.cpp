@@ -145,7 +145,7 @@ nsQtNetworkLinkService
 :
 GetLinkType
 (
-uint32_t
+PRUint32
 *
 aLinkType
 )
@@ -302,7 +302,7 @@ xpcom
 -
 shutdown
 "
-false
+PR_FALSE
 )
 ;
 if
@@ -334,7 +334,7 @@ close
 -
 granted
 "
-false
+PR_FALSE
 )
 ;
 if

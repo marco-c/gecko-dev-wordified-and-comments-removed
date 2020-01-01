@@ -56,7 +56,7 @@ nsOCSPResponder
 )
 ;
 static
-int32_t
+PRInt32
 CmpCAName
 (
 nsIOCSPResponder
@@ -68,7 +68,7 @@ b
 )
 ;
 static
-int32_t
+PRInt32
 CompareEntries
 (
 nsIOCSPResponder

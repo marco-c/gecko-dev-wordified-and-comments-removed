@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsHTMLEntities
 .
 h
@@ -42,10 +33,6 @@ pldhash
 .
 h
 "
-using
-namespace
-mozilla
-;
 struct
 EntityNode
 {
@@ -54,7 +41,7 @@ char
 *
 mStr
 ;
-int32_t
+PRInt32
 mUnicode
 ;
 }
@@ -172,7 +159,7 @@ aHdr
 )
 ;
 const
-int32_t
+PRInt32
 ucode
 =
 NS_PTR_TO_INT32
@@ -230,7 +217,7 @@ matchNodeString
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
 PL_DHashFinalizeStub
-nullptr
+nsnull
 }
 ;
 static
@@ -246,7 +233,7 @@ matchNodeUnicode
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
 PL_DHashFinalizeStub
-nullptr
+nsnull
 }
 ;
 static
@@ -308,9 +295,9 @@ define
 NS_HTML_ENTITY_COUNT
 (
 (
-int32_t
+PRInt32
 )
-ArrayLength
+NS_ARRAY_LENGTH
 (
 gEntityArray
 )
@@ -339,12 +326,12 @@ PL_DHashTableInit
 gEntityToUnicode
 &
 EntityToUnicodeOps
-nullptr
+nsnull
 sizeof
 (
 EntityNodeEntry
 )
-uint32_t
+PRUint32
 (
 NS_HTML_ENTITY_COUNT
 /
@@ -359,7 +346,7 @@ gEntityToUnicode
 .
 ops
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -374,12 +361,12 @@ PL_DHashTableInit
 gUnicodeToEntity
 &
 UnicodeToEntityOps
-nullptr
+nsnull
 sizeof
 (
 EntityNodeEntry
 )
-uint32_t
+PRUint32
 (
 NS_HTML_ENTITY_COUNT
 /
@@ -404,7 +391,7 @@ gUnicodeToEntity
 .
 ops
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -421,7 +408,9 @@ gEntityArray
 *
 node_end
 =
-ArrayEnd
+gEntityArray
++
+NS_ARRAY_LENGTH
 (
 gEntityArray
 )
@@ -596,7 +585,7 @@ gEntityToUnicode
 .
 ops
 =
-nullptr
+nsnull
 ;
 }
 if
@@ -616,11 +605,11 @@ gUnicodeToEntity
 .
 ops
 =
-nullptr
+nsnull
 ;
 }
 }
-int32_t
+PRInt32
 nsHTMLEntities
 :
 :
@@ -671,7 +660,7 @@ Last
 )
 )
 {
-nsAutoCString
+nsCAutoString
 temp
 (
 aEntity
@@ -745,7 +734,7 @@ node
 mUnicode
 ;
 }
-int32_t
+PRInt32
 nsHTMLEntities
 :
 :
@@ -757,7 +746,7 @@ nsAString
 aEntity
 )
 {
-nsAutoCString
+nsCAutoString
 theEntity
 ;
 theEntity
@@ -810,7 +799,7 @@ nsHTMLEntities
 :
 UnicodeToEntity
 (
-int32_t
+PRInt32
 aUnicode
 )
 {
@@ -862,7 +851,7 @@ entry
 )
 )
 return
-nullptr
+nsnull
 ;
 return
 entry
@@ -876,7 +865,7 @@ mStr
 }
 #
 ifdef
-DEBUG
+NS_DEBUG
 #
 include
 <
@@ -893,7 +882,7 @@ nsTestEntityTable
 (
 )
 {
-int32_t
+PRInt32
 value
 ;
 nsHTMLEntities
@@ -1019,7 +1008,7 @@ nsHTMLEntities
 :
 EntityToUnicode
 (
-nsAutoCString
+nsCAutoString
 (
 "
 "
@@ -1045,7 +1034,7 @@ nsHTMLEntities
 :
 EntityToUnicode
 (
-nsAutoCString
+nsCAutoString
 (
 "
 zzzzz

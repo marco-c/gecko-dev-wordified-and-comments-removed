@@ -35,6 +35,13 @@ h
 #
 include
 "
+nsIFrame
+.
+h
+"
+#
+include
+"
 nsIDOMEventListener
 .
 h

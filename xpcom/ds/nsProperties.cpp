@@ -120,14 +120,16 @@ NS_ENSURE_ARG
 prop
 )
 ;
+return
 Put
 (
 prop
 value
 )
-;
-return
+?
 NS_OK
+:
+NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
@@ -233,7 +235,7 @@ char
 *
 keys
 ;
-uint32_t
+PRUint32
 next
 ;
 nsresult
@@ -328,7 +330,7 @@ nsProperties
 :
 GetKeys
 (
-uint32_t
+PRUint32
 *
 count
 char
@@ -348,7 +350,7 @@ NS_ENSURE_ARG
 keys
 )
 ;
-uint32_t
+PRUint32
 n
 =
 Count
@@ -430,7 +432,7 @@ rv
 {
 for
 (
-uint32_t
+PRUint32
 i
 =
 0

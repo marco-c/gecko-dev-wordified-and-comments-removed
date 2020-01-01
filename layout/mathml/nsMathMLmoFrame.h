@@ -50,7 +50,7 @@ virtual
 void
 SetAdditionalStyleContext
 (
-int32_t
+PRInt32
 aIndex
 nsStyleContext
 *
@@ -62,7 +62,7 @@ nsStyleContext
 *
 GetAdditionalStyleContext
 (
-int32_t
+PRInt32
 aIndex
 )
 const
@@ -132,12 +132,12 @@ aRenderingContext
 NS_IMETHOD
 AttributeChanged
 (
-int32_t
+PRInt32
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-int32_t
+PRInt32
 aModType
 )
 ;
@@ -179,7 +179,7 @@ nsMathMLmoFrame
 )
 ;
 virtual
-int
+PRIntn
 GetSkipSides
 (
 )

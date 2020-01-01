@@ -65,7 +65,7 @@ virtual
 bool
 IsFrameOfType
 (
-uint32_t
+PRUint32
 aFlags
 )
 const
@@ -119,10 +119,9 @@ nsSize
 aBorder
 nsSize
 aPadding
-uint32_t
-aFlags
+bool
+aShrinkWrap
 )
-MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -134,7 +133,7 @@ const
 ;
 #
 ifdef
-DEBUG
+NS_DEBUG
 NS_IMETHOD
 GetFrameName
 (

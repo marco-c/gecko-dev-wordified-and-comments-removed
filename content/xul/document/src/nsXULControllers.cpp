@@ -29,14 +29,14 @@ h
 #
 include
 "
-nsContentUtils
+nsString
 .
 h
 "
 #
 include
 "
-nsDOMClassInfoID
+nsContentUtils
 .
 h
 "
@@ -75,7 +75,7 @@ DeleteControllers
 (
 )
 {
-uint32_t
+PRUint32
 count
 =
 mControllers
@@ -86,7 +86,7 @@ Length
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -141,7 +141,7 @@ NS_PRECONDITION
 aOuter
 =
 =
-nullptr
+nsnull
 "
 no
 aggregation
@@ -221,7 +221,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
 nsXULControllers
 )
 {
-uint32_t
+PRUint32
 i
 count
 =
@@ -339,9 +339,9 @@ _retval
 *
 _retval
 =
-nullptr
+nsnull
 ;
-uint32_t
+PRUint32
 count
 =
 mControllers
@@ -352,7 +352,7 @@ Length
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -450,7 +450,7 @@ nsXULControllers
 :
 InsertControllerAt
 (
-uint32_t
+PRUint32
 aIndex
 nsIController
 *
@@ -501,7 +501,7 @@ NS_ASSERTION
 inserted
 !
 =
-nullptr
+nsnull
 "
 Insertion
 of
@@ -520,7 +520,7 @@ nsXULControllers
 :
 RemoveControllerAt
 (
-uint32_t
+PRUint32
 aIndex
 nsIController
 *
@@ -536,7 +536,7 @@ _retval
 *
 _retval
 =
-nullptr
+nsnull
 ;
 nsXULControllerData
 *
@@ -585,7 +585,7 @@ nsXULControllers
 :
 GetControllerAt
 (
-uint32_t
+PRUint32
 aIndex
 nsIController
 *
@@ -601,7 +601,7 @@ _retval
 *
 _retval
 =
-nullptr
+nsnull
 ;
 nsXULControllerData
 *
@@ -686,7 +686,7 @@ NS_ASSERTION
 appended
 !
 =
-nullptr
+nsnull
 "
 Appending
 controller
@@ -721,7 +721,7 @@ controller
 )
 )
 ;
-uint32_t
+PRUint32
 count
 =
 mControllers
@@ -732,7 +732,7 @@ Length
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -828,7 +828,7 @@ GetControllerId
 nsIController
 *
 controller
-uint32_t
+PRUint32
 *
 _retval
 )
@@ -838,7 +838,7 @@ NS_ENSURE_ARG_POINTER
 _retval
 )
 ;
-uint32_t
+PRUint32
 count
 =
 mControllers
@@ -849,7 +849,7 @@ Length
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -934,7 +934,7 @@ nsXULControllers
 :
 GetControllerById
 (
-uint32_t
+PRUint32
 controllerID
 nsIController
 *
@@ -947,7 +947,7 @@ NS_ENSURE_ARG_POINTER
 _retval
 )
 ;
-uint32_t
+PRUint32
 count
 =
 mControllers
@@ -958,7 +958,7 @@ Length
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -1020,7 +1020,7 @@ nsXULControllers
 :
 GetControllerCount
 (
-uint32_t
+PRUint32
 *
 _retval
 )

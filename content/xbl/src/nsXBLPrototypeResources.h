@@ -32,6 +32,9 @@ class
 nsIAtom
 ;
 class
+nsIDocument
+;
+class
 nsIScriptContext
 ;
 class
@@ -82,14 +85,6 @@ aElement
 nsresult
 FlushSkinSheets
 (
-)
-;
-nsresult
-Write
-(
-nsIObjectOutputStream
-*
-aStream
 )
 ;
 nsXBLPrototypeResources

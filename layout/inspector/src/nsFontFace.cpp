@@ -44,7 +44,7 @@ nsFontFace
 gfxFontEntry
 *
 aFontEntry
-uint8_t
+PRUint8
 aMatchType
 nsCSSFontFaceRule
 *
@@ -296,7 +296,7 @@ nsFontFace
 :
 GetSrcIndex
 (
-int32_t
+PRInt32
 *
 aSrcIndex
 )
@@ -407,7 +407,7 @@ mUserFontData
 mURI
 )
 {
-nsAutoCString
+nsCAutoString
 spec
 ;
 mFontEntry
@@ -581,7 +581,7 @@ userFontData
 "
 )
 ;
-uint32_t
+PRUint32
 formatFlags
 =
 mFontEntry
@@ -791,7 +791,7 @@ userFontData
 mMetaOrigLen
 )
 {
-nsAutoCString
+nsCAutoString
 str
 ;
 str

@@ -132,7 +132,7 @@ mReason
 }
 ;
 static
-int32_t
+PRInt32
 sIsFlushing
 ;
 static

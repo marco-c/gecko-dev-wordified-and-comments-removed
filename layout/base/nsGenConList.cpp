@@ -65,7 +65,7 @@ mFirstNode
 ;
 mFirstNode
 =
-nullptr
+nsnull
 ;
 mSize
 =
@@ -89,7 +89,7 @@ if
 mFirstNode
 )
 return
-false
+PR_FALSE
 ;
 nsGenConNode
 *
@@ -113,7 +113,7 @@ aFrame
 {
 destroyed
 =
-true
+PR_TRUE
 ;
 node
 =
@@ -145,10 +145,10 @@ isLastNode
 {
 mFirstNode
 =
-nullptr
+nsnull
 ;
 return
-true
+PR_TRUE
 ;
 }
 else
@@ -187,7 +187,7 @@ aFrame
 {
 destroyed
 =
-true
+PR_TRUE
 ;
 nsGenConNode
 *
@@ -227,7 +227,7 @@ destroyed
 ;
 }
 inline
-int32_t
+PRInt32
 PseudoCompareType
 (
 nsIFrame
@@ -409,7 +409,7 @@ nsIContent
 *
 content2
 ;
-int32_t
+PRInt32
 pseudoType1
 =
 PseudoCompareType
@@ -419,7 +419,7 @@ frame1
 content1
 )
 ;
-int32_t
+PRInt32
 pseudoType2
 =
 PseudoCompareType
@@ -523,7 +523,7 @@ pseudoType1
 ;
 }
 }
-int32_t
+PRInt32
 cmp
 =
 nsLayoutUtils
@@ -595,7 +595,7 @@ mFirstNode
 }
 else
 {
-uint32_t
+PRUint32
 first
 =
 0
@@ -614,7 +614,7 @@ Prev
 mFirstNode
 )
 ;
-uint32_t
+PRUint32
 curIndex
 =
 mSize
@@ -629,7 +629,7 @@ first
 last
 )
 {
-uint32_t
+PRUint32
 test
 =
 (

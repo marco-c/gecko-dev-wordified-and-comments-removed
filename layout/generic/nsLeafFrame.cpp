@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsContainerFrame
+nsHTMLContainerFrame
 .
 h
 "

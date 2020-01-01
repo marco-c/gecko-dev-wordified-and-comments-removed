@@ -8,16 +8,7 @@ h
 #
 include
 "
-nsIFile
-.
-h
-"
-#
-include
-"
-mozilla
-/
-Attributes
+nsILocalFile
 .
 h
 "
@@ -26,7 +17,6 @@ nsIFile
 ;
 class
 nsAppFileLocationProvider
-MOZ_FINAL
 :
 public
 nsIDirectoryServiceProvider2
@@ -53,7 +43,7 @@ protected
 NS_METHOD
 CloneMozBinDirectory
 (
-nsIFile
+nsILocalFile
 *
 *
 aLocalFile
@@ -62,7 +52,7 @@ aLocalFile
 NS_METHOD
 GetProductDirectory
 (
-nsIFile
+nsILocalFile
 *
 *
 aLocalFile
@@ -75,7 +65,7 @@ false
 NS_METHOD
 GetDefaultUserProfileRoot
 (
-nsIFile
+nsILocalFile
 *
 *
 aLocalFile
@@ -89,7 +79,7 @@ false
 if
 defined
 (
-MOZ_WIDGET_COCOA
+XP_MACOSX
 )
 static
 bool
@@ -101,7 +91,7 @@ IsOSXLeopard
 endif
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 mMozBinDirectory
 ;

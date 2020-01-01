@@ -13,7 +13,7 @@ nsXPTCStubBase
 self
 uint32
 methodIndex
-uint32_t
+PRUint32
 *
 args
 )
@@ -45,10 +45,10 @@ nsXPTMethodInfo
 *
 info
 ;
-uint8_t
+PRUint8
 paramCount
 ;
-uint8_t
+PRUint8
 i
 ;
 nsresult
@@ -89,7 +89,7 @@ iface_info
 >
 GetMethodInfo
 (
-uint16_t
+PRUint16
 (
 methodIndex
 )
@@ -146,7 +146,7 @@ params
 "
 )
 ;
-uint32_t
+PRUint32
 *
 ap
 =
@@ -259,7 +259,7 @@ i8
 *
 (
 (
-int8_t
+PRInt8
 *
 )
 ap
@@ -283,7 +283,7 @@ i16
 *
 (
 (
-int16_t
+PRInt16
 *
 )
 ap
@@ -307,7 +307,7 @@ i32
 *
 (
 (
-int32_t
+PRInt32
 *
 )
 ap
@@ -331,7 +331,7 @@ i64
 *
 (
 (
-int64_t
+PRInt64
 *
 )
 ap
@@ -359,7 +359,7 @@ u8
 *
 (
 (
-uint8_t
+PRUint8
 *
 )
 ap
@@ -383,7 +383,7 @@ u16
 *
 (
 (
-uint16_t
+PRUint16
 *
 )
 ap
@@ -407,7 +407,7 @@ u32
 *
 (
 (
-uint32_t
+PRUint32
 *
 )
 ap
@@ -431,7 +431,7 @@ u64
 *
 (
 (
-uint64_t
+PRUint64
 *
 )
 ap
@@ -589,7 +589,7 @@ self
 CallMethod
 (
 (
-uint16_t
+PRUint16
 )
 methodIndex
 info

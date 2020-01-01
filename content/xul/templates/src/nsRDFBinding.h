@@ -101,11 +101,11 @@ aTargetVariable
 )
 mHasDependency
 (
-false
+PR_FALSE
 )
 mNext
 (
-nullptr
+nsnull
 )
 {
 MOZ_COUNT_CTOR
@@ -132,7 +132,7 @@ RDFBindingSet
 {
 protected
 :
-int32_t
+PRInt32
 mCount
 ;
 RDFBinding
@@ -151,7 +151,7 @@ mCount
 )
 mFirst
 (
-nullptr
+nsnull
 )
 {
 MOZ_COUNT_CTOR
@@ -169,7 +169,7 @@ NS_INLINE_DECL_REFCOUNTING
 (
 RDFBindingSet
 )
-int32_t
+PRInt32
 Count
 (
 )
@@ -238,7 +238,7 @@ nsXULTemplateResultRDF
 aResult
 )
 ;
-int32_t
+PRInt32
 LookupTargetIndex
 (
 nsIAtom
@@ -278,11 +278,11 @@ nsBindingValues
 :
 mBindings
 (
-nullptr
+nsnull
 )
 mValues
 (
-nullptr
+nsnull
 )
 {
 MOZ_COUNT_CTOR

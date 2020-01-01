@@ -62,15 +62,6 @@ nsWeakReference
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsCertOverride
 {
@@ -193,7 +184,7 @@ this
 nsCString
 mAsciiHost
 ;
-int32_t
+PRInt32
 mPort
 ;
 bool
@@ -245,7 +236,6 @@ ob
 ;
 class
 nsCertOverrideEntry
-MOZ_FINAL
 :
 public
 PLDHashEntryHdr
@@ -364,7 +354,7 @@ aKey
 return
 PL_DHashStringKey
 (
-nullptr
+nsnull
 aKey
 )
 ;
@@ -373,7 +363,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-false
+PR_FALSE
 }
 ;
 inline
@@ -414,7 +404,6 @@ mHostWithPort
 ;
 class
 nsCertOverrideService
-MOZ_FINAL
 :
 public
 nsICertOverrideService
@@ -485,7 +474,7 @@ const
 nsACString
 &
 aHostName
-int32_t
+PRInt32
 aPort
 nsACString
 &
@@ -540,7 +529,7 @@ const
 nsACString
 &
 host
-int32_t
+PRInt32
 port
 nsIX509Cert
 *

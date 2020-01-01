@@ -174,7 +174,7 @@ virtual
 nsresult
 UnsetAttr
 (
-int32_t
+PRInt32
 aNamespaceID
 nsIAtom
 *
@@ -187,7 +187,7 @@ virtual
 bool
 ParseAttribute
 (
-int32_t
+PRInt32
 aNamespaceID
 nsIAtom
 *
@@ -214,17 +214,6 @@ GetClassInfo
 (
 )
 ;
-virtual
-nsIDOMNode
-*
-AsDOMNode
-(
-)
-{
-return
-this
-;
-}
 protected
 :
 class

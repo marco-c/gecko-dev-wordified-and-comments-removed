@@ -73,7 +73,7 @@ aLocalName
 nsIAtom
 *
 aLowercaseLocalName
-int32_t
+PRInt32
 aNsID
 const
 nsString
@@ -95,7 +95,7 @@ nsSubstring
 &
 aLocalName
 const
-int32_t
+PRInt32
 aNsID
 const
 nsString
@@ -186,7 +186,7 @@ aLocalName
 nsIAtom
 *
 aLowercaseLocalName
-int32_t
+PRInt32
 aNsID
 )
 =
@@ -204,7 +204,7 @@ nsSubstring
 &
 aLocalName
 const
-int32_t
+PRInt32
 aNsID
 )
 =
@@ -230,7 +230,7 @@ aLocalName
 nsIAtom
 *
 aLowercaseLocalName
-int32_t
+PRInt32
 aNsID
 \
 const
@@ -254,7 +254,7 @@ nsSubstring
 aLocalName
 \
 const
-int32_t
+PRInt32
 aNsID
 \
 const
@@ -345,7 +345,7 @@ nsIAtom
 *
 aLowercaseLocalName
 \
-int32_t
+PRInt32
 aNsID
 )
 ;
@@ -364,7 +364,7 @@ nsSubstring
 aName
 \
 const
-int32_t
+PRInt32
 aNsID
 )
 ;
@@ -442,7 +442,7 @@ const
 nsSubstring
 &
 aName
-int32_t
+PRInt32
 aNsID
 txAXMLEventHandler
 *
@@ -484,7 +484,7 @@ nsSubstring
 &
 aName
 \
-int32_t
+PRInt32
 aNsID
 \
 txAXMLEventHandler

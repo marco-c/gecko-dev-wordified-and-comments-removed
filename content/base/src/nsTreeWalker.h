@@ -65,11 +65,13 @@ nsTreeWalker
 nsINode
 *
 aRoot
-uint32_t
+PRUint32
 aWhatToShow
 nsIDOMNodeFilter
 *
 aFilter
+bool
+aExpandEntityReferences
 )
 ;
 virtual

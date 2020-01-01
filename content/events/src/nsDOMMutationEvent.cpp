@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
 nsDOMMutationEvent
 .
 h
@@ -23,6 +16,13 @@ h
 include
 "
 nsMutationEvent
+.
+h
+"
+#
+include
+"
+nsContentUtils
 .
 h
 "
@@ -52,7 +52,7 @@ aEvent
 new
 nsMutationEvent
 (
-false
+PR_FALSE
 0
 )
 )
@@ -63,7 +63,7 @@ mEventIsInternal
 aEvent
 =
 =
-nullptr
+nsnull
 )
 ;
 }
@@ -98,7 +98,7 @@ mutation
 ;
 mEvent
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -148,7 +148,7 @@ aRelatedNode
 *
 aRelatedNode
 =
-nullptr
+nsnull
 ;
 nsMutationEvent
 *
@@ -325,7 +325,7 @@ nsDOMMutationEvent
 :
 GetAttrChange
 (
-uint16_t
+PRUint16
 *
 aAttrChange
 )
@@ -396,7 +396,7 @@ const
 nsAString
 &
 aAttrNameArg
-uint16_t
+PRUint16
 aAttrChangeArg
 )
 {
@@ -537,7 +537,7 @@ aEvent
 ;
 if
 (
-nullptr
+nsnull
 =
 =
 it

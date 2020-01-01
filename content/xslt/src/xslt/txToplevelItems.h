@@ -7,7 +7,7 @@ TRANSFRMX_TXTOPLEVELITEMS_H
 #
 include
 "
-nsError
+txError
 .
 h
 "

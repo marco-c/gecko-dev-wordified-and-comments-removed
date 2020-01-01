@@ -97,7 +97,7 @@ JSStackGuard
 :
 mJSStack
 (
-nullptr
+nsnull
 )
 {
 nsresult
@@ -142,7 +142,7 @@ mJSStack
 >
 Push
 (
-nullptr
+nsnull
 )
 ;
 if
@@ -154,7 +154,7 @@ rv
 )
 mJSStack
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -189,7 +189,7 @@ NS_ASSERTION
 cx
 =
 =
-nullptr
+nsnull
 "
 JSContextStack
 mismatch

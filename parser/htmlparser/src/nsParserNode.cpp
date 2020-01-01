@@ -53,7 +53,7 @@ mRefCnt
 )
 mGenericState
 (
-false
+PR_FALSE
 )
 mUseCount
 (
@@ -61,11 +61,11 @@ mUseCount
 )
 mToken
 (
-nullptr
+nsnull
 )
 mTokenAllocator
 (
-nullptr
+nsnull
 )
 {
 MOZ_COUNT_CTOR
@@ -78,7 +78,7 @@ ifdef
 HEAP_ALLOCATED_NODES
 mNodeAllocator
 =
-nullptr
+nsnull
 ;
 #
 endif
@@ -105,7 +105,7 @@ mRefCnt
 )
 mGenericState
 (
-false
+PR_FALSE
 )
 mUseCount
 (
@@ -192,7 +192,7 @@ this
 }
 mNodeAllocator
 =
-nullptr
+nsnull
 ;
 #
 endif
@@ -239,7 +239,7 @@ mToken
 }
 mGenericState
 =
-false
+PR_FALSE
 ;
 mUseCount
 =
@@ -318,7 +318,7 @@ EmptyString
 )
 ;
 }
-int32_t
+PRInt32
 nsCParserNode
 :
 :
@@ -343,7 +343,7 @@ GetTypeID
 0
 ;
 }
-int32_t
+PRInt32
 nsCParserNode
 :
 :
@@ -368,7 +368,7 @@ GetTokenType
 0
 ;
 }
-int32_t
+PRInt32
 nsCParserNode
 :
 :
@@ -391,7 +391,7 @@ nsCParserNode
 :
 GetKeyAt
 (
-uint32_t
+PRUint32
 anIndex
 )
 const
@@ -410,7 +410,7 @@ nsCParserNode
 :
 GetValueAt
 (
-uint32_t
+PRUint32
 anIndex
 )
 const
@@ -421,7 +421,7 @@ EmptyString
 )
 ;
 }
-int32_t
+PRInt32
 nsCParserNode
 :
 :
@@ -467,7 +467,7 @@ return
 1
 ;
 }
-int32_t
+PRInt32
 nsCParserNode
 :
 :
@@ -705,7 +705,7 @@ aToken
 )
 ;
 }
-int32_t
+PRInt32
 nsCParserStartNode
 :
 :
@@ -716,7 +716,7 @@ askToken
 )
 const
 {
-int32_t
+PRInt32
 result
 =
 0
@@ -763,7 +763,7 @@ nsCParserStartNode
 :
 GetKeyAt
 (
-uint32_t
+PRUint32
 anIndex
 )
 const
@@ -771,7 +771,7 @@ const
 if
 (
 (
-int32_t
+PRInt32
 )
 anIndex
 <
@@ -829,14 +829,14 @@ nsCParserStartNode
 :
 GetValueAt
 (
-uint32_t
+PRUint32
 anIndex
 )
 const
 {
 if
 (
-int32_t
+PRInt32
 (
 anIndex
 )
@@ -993,10 +993,10 @@ theTagName
 )
 ;
 }
-int32_t
+PRInt32
 index
 ;
-int32_t
+PRInt32
 size
 =
 mAttributes

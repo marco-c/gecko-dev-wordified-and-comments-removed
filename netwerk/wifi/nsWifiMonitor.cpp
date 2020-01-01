@@ -123,7 +123,7 @@ nsWifiMonitor
 :
 mKeepGoing
 (
-true
+PR_TRUE
 )
 mReentrantMonitor
 (
@@ -182,7 +182,7 @@ xpcom
 -
 shutdown
 "
-false
+PR_FALSE
 )
 ;
 LOG
@@ -254,7 +254,7 @@ n
 ;
 mKeepGoing
 =
-false
+PR_FALSE
 ;
 ReentrantMonitorAutoEnter
 mon
@@ -333,7 +333,7 @@ mReentrantMonitor
 ;
 mKeepGoing
 =
-true
+PR_TRUE
 ;
 mListeners
 .
@@ -394,7 +394,7 @@ mReentrantMonitor
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -450,7 +450,7 @@ Length
 {
 mKeepGoing
 =
-false
+PR_FALSE
 ;
 mon
 .
@@ -460,7 +460,7 @@ Notify
 ;
 mThread
 =
-nullptr
+nsnull
 ;
 }
 return
@@ -469,7 +469,6 @@ NS_OK
 }
 class
 nsPassErrorToWifiListeners
-MOZ_FINAL
 :
 public
 nsIRunnable
@@ -551,7 +550,7 @@ n
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -611,14 +610,6 @@ n
 )
 )
 ;
-PR_SetCurrentThreadName
-(
-"
-Wifi
-Monitor
-"
-)
-;
 nsresult
 rv
 =
@@ -670,7 +661,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -756,7 +747,6 @@ NS_OK
 }
 class
 nsCallWifiListeners
-MOZ_FINAL
 :
 public
 nsIRunnable
@@ -852,7 +842,7 @@ n
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -958,7 +948,7 @@ mReentrantMonitor
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -997,7 +987,7 @@ i
 .
 mHasSentData
 =
-true
+PR_TRUE
 ;
 currentListeners
 -
@@ -1027,7 +1017,7 @@ Count
 0
 )
 {
-uint32_t
+PRUint32
 resultCount
 =
 aAccessPoints
@@ -1067,7 +1057,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0

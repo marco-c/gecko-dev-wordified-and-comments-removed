@@ -83,7 +83,7 @@ const
 char
 *
 aBuf
-uint32_t
+PRUint32
 aLen
 )
 ;
@@ -124,6 +124,12 @@ GetConfidence
 void
 )
 ;
+void
+SetOpion
+(
+)
+{
+}
 protected
 :
 nsCodingStateMachine

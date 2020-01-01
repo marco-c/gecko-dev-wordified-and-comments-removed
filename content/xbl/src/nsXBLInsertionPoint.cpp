@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsXBLBinding
 .
 h
@@ -20,7 +27,7 @@ nsXBLInsertionPoint
 nsIContent
 *
 aParentElement
-uint32_t
+PRUint32
 aIndex
 nsIContent
 *
@@ -62,7 +69,7 @@ UninstallAnonymousContent
 mDefaultContent
 -
 >
-OwnerDoc
+GetOwnerDoc
 (
 )
 mDefaultContent
@@ -70,7 +77,7 @@ mDefaultContent
 ;
 }
 }
-NS_IMPL_CYCLE_COLLECTION_NATIVE_CLASS
+NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 nsXBLInsertionPoint
 )
@@ -105,7 +112,7 @@ tmp
 mDefaultContent
 -
 >
-OwnerDoc
+GetOwnerDoc
 (
 )
 tmp
@@ -193,7 +200,7 @@ nsXBLInsertionPoint
 :
 ChildAt
 (
-uint32_t
+PRUint32
 aIndex
 )
 {
@@ -215,7 +222,7 @@ Matches
 nsIContent
 *
 aContent
-uint32_t
+PRUint32
 aIndex
 )
 {
@@ -236,7 +243,7 @@ mIndex
 &
 (
 (
-int32_t
+PRInt32
 )
 aIndex
 )
@@ -271,7 +278,7 @@ UninstallAnonymousContent
 mDefaultContent
 -
 >
-OwnerDoc
+GetOwnerDoc
 (
 )
 mDefaultContent

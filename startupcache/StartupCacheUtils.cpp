@@ -94,7 +94,7 @@ NewObjectInputStreamFromBuffer
 char
 *
 buffer
-uint32_t
+PRUint32
 len
 nsIObjectInputStream
 *
@@ -347,7 +347,7 @@ char
 *
 *
 buffer
-uint32_t
+PRUint32
 *
 len
 )
@@ -381,8 +381,9 @@ rv
 rv
 )
 ;
-uint64_t
-avail64
+PRUint32
+avail
+read
 ;
 rv
 =
@@ -392,7 +393,7 @@ inputStream
 Available
 (
 &
-avail64
+avail
 )
 ;
 NS_ENSURE_SUCCESS
@@ -400,23 +401,6 @@ NS_ENSURE_SUCCESS
 rv
 rv
 )
-;
-NS_ENSURE_TRUE
-(
-avail64
-<
-=
-PR_UINT32_MAX
-NS_ERROR_FILE_TOO_BIG
-)
-;
-uint32_t
-avail
-=
-(
-uint32_t
-)
-avail64
 ;
 nsAutoArrayPtr
 <
@@ -430,9 +414,6 @@ char
 avail
 ]
 )
-;
-uint32_t
-read
 ;
 rv
 =
@@ -521,7 +502,7 @@ inline
 bool
 canonicalizeBase
 (
-nsAutoCString
+nsCAutoString
 &
 spec
 nsACString
@@ -537,7 +518,7 @@ Type
 aType
 )
 {
-nsAutoCString
+nsCAutoString
 base
 ;
 nsresult
@@ -571,7 +552,7 @@ Length
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -584,7 +565,7 @@ spec
 get
 (
 )
-false
+PR_FALSE
 base
 .
 Length
@@ -593,7 +574,7 @@ Length
 )
 )
 return
-false
+PR_FALSE
 ;
 out
 .
@@ -632,7 +613,7 @@ Length
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 NS_EXPORT
@@ -661,7 +642,7 @@ uri
 =
 in
 ;
-nsAutoCString
+nsCAutoString
 spec
 ;
 if
@@ -776,8 +757,8 @@ ioService
 NewURI
 (
 spec
-nullptr
-nullptr
+nsnull
+nsnull
 getter_AddRefs
 (
 uri
@@ -950,7 +931,7 @@ rv
 rv
 )
 ;
-nsAutoCString
+nsCAutoString
 path
 ;
 rv
@@ -1057,7 +1038,7 @@ rv
 rv
 )
 ;
-nsAutoCString
+nsCAutoString
 path
 ;
 rv
@@ -1095,7 +1076,7 @@ path
 }
 else
 {
-nsAutoCString
+nsCAutoString
 spec
 ;
 rv

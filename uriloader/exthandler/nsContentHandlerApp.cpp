@@ -217,7 +217,7 @@ nsIInterfaceRequestor
 aWindowContext
 )
 {
-nsAutoCString
+nsCAutoString
 spec
 ;
 nsresult

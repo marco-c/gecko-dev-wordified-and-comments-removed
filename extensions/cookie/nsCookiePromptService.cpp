@@ -106,14 +106,14 @@ const
 nsACString
 &
 aHostname
-int32_t
+PRInt32
 aCookiesFromHost
 bool
 aChangingCookie
 bool
 *
 aRememberDecision
-int32_t
+PRInt32
 *
 aAccept
 )
@@ -234,7 +234,7 @@ objects
 AppendElement
 (
 aCookie
-false
+PR_FALSE
 )
 ;
 if
@@ -405,7 +405,7 @@ rv
 return
 rv
 ;
-int32_t
+PRInt32
 tempValue
 ;
 block

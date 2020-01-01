@@ -160,7 +160,7 @@ ParseNPTHH
 nsDependentSubstring
 &
 aString
-uint32_t
+PRUint32
 &
 aHour
 )
@@ -171,7 +171,7 @@ ParseNPTMM
 nsDependentSubstring
 &
 aString
-uint32_t
+PRUint32
 &
 aMinute
 )
@@ -182,12 +182,12 @@ ParseNPTSS
 nsDependentSubstring
 &
 aString
-uint32_t
+PRUint32
 &
 aSecond
 )
 ;
-nsAutoCString
+nsCAutoString
 mHash
 ;
 nsTArray

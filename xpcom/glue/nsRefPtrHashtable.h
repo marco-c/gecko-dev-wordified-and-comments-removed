@@ -96,7 +96,7 @@ bool
 *
 aFound
 =
-nullptr
+nsnull
 )
 const
 ;
@@ -232,7 +232,7 @@ pRefPtr
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 if
@@ -242,10 +242,10 @@ pRefPtr
 *
 pRefPtr
 =
-nullptr
+nsnull
 ;
 return
-false
+PR_FALSE
 ;
 }
 template
@@ -302,7 +302,7 @@ aFound
 *
 aFound
 =
-true
+PR_TRUE
 ;
 return
 ent
@@ -318,10 +318,10 @@ aFound
 *
 aFound
 =
-false
+PR_FALSE
 ;
 return
-nullptr
+nsnull
 ;
 }
 template
@@ -407,7 +407,7 @@ mLock
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 if
@@ -417,7 +417,7 @@ pRefPtr
 *
 pRefPtr
 =
-nullptr
+nsnull
 ;
 PR_Unlock
 (
@@ -428,7 +428,7 @@ mLock
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 #

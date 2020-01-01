@@ -120,7 +120,7 @@ mContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 name
@@ -471,7 +471,7 @@ GetHrefURI
 nsnull
 ;
 }
-PRBool
+bool
 nsHTMLLinkAccessible
 :
 :

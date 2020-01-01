@@ -176,7 +176,7 @@ aBuffer
 end
 )
 {
-uint32_t
+PRUint32
 bytesRead
 ;
 nsresult
@@ -216,7 +216,7 @@ bytesRead
 *
 more
 =
-false
+PR_FALSE
 ;
 return
 rv
@@ -432,7 +432,7 @@ current
 *
 more
 =
-true
+PR_TRUE
 ;
 return
 NS_OK

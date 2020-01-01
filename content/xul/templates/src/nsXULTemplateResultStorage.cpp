@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 nsXULTemplateResultStorage
 .
 h
@@ -110,7 +103,7 @@ aIsContainer
 *
 aIsContainer
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -130,7 +123,7 @@ aIsEmpty
 *
 aIsEmpty
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -150,7 +143,7 @@ aMayProcessChildren
 *
 aMayProcessChildren
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -172,7 +165,7 @@ char
 *
 uri
 =
-nullptr
+nsnull
 ;
 mNode
 -
@@ -280,7 +273,7 @@ return
 NS_OK
 ;
 }
-int32_t
+PRInt32
 idx
 =
 mResultSet
@@ -354,7 +347,7 @@ if
 mResultSet
 )
 {
-int32_t
+PRInt32
 idx
 =
 mResultSet
@@ -395,7 +388,7 @@ NS_OK
 *
 aValue
 =
-nullptr
+nsnull
 ;
 return
 NS_OK

@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsEnumeratorUtils
 .
 h
@@ -144,7 +135,7 @@ aResult
 *
 aResult
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -164,7 +155,7 @@ aResult
 *
 aResult
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -248,7 +239,6 @@ NS_OK
 }
 class
 nsSingletonEnumerator
-MOZ_FINAL
 :
 public
 nsISimpleEnumerator
@@ -323,9 +313,9 @@ mConsumed
 (
 mValue
 ?
-false
+PR_FALSE
 :
-true
+PR_TRUE
 )
 ;
 }
@@ -430,7 +420,7 @@ NS_ERROR_UNEXPECTED
 ;
 mConsumed
 =
-true
+PR_TRUE
 ;
 *
 aResult
@@ -474,7 +464,7 @@ if
 enumer
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -496,7 +486,6 @@ NS_OK
 }
 class
 nsUnionEnumerator
-MOZ_FINAL
 :
 public
 nsISimpleEnumerator
@@ -578,11 +567,11 @@ secondEnumerator
 )
 mConsumed
 (
-false
+PR_FALSE
 )
 mAtSecond
 (
-false
+PR_FALSE
 )
 {
 }
@@ -642,7 +631,7 @@ mConsumed
 *
 aResult
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -684,7 +673,7 @@ NS_OK
 ;
 mAtSecond
 =
-true
+PR_TRUE
 ;
 }
 rv
@@ -718,11 +707,11 @@ NS_OK
 *
 aResult
 =
-false
+PR_FALSE
 ;
 mConsumed
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -809,7 +798,7 @@ secondEnumerator
 *
 result
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -854,7 +843,7 @@ if
 enumer
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY

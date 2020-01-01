@@ -49,7 +49,7 @@ nsDOMStorageMemoryDB
 :
 mPreloading
 (
-false
+PR_FALSE
 )
 {
 }
@@ -88,7 +88,7 @@ public
 nsStorageItemsTable
 mTable
 ;
-int32_t
+PRInt32
 mUsageDelta
 ;
 nsInMemoryStorage
@@ -110,7 +110,7 @@ nsDOMStoragePersistentDB
 *
 aPreloadDB
 =
-nullptr
+nsnull
 )
 ;
 nsresult
@@ -173,11 +173,11 @@ nsAString
 aValue
 bool
 aSecure
-int32_t
+PRInt32
 aQuota
 bool
 aExcludeOfflineFromUsage
-int32_t
+PRInt32
 *
 aNewUsage
 )
@@ -209,7 +209,7 @@ nsAString
 aKey
 bool
 aExcludeOfflineFromUsage
-int32_t
+PRInt32
 aKeyUsage
 )
 ;
@@ -269,7 +269,7 @@ DOMStorageImpl
 aStorage
 bool
 aExcludeOfflineFromUsage
-int32_t
+PRInt32
 *
 aUsage
 )
@@ -283,7 +283,7 @@ nsACString
 aDomain
 bool
 aIncludeSubDomains
-int32_t
+PRInt32
 *
 aUsage
 )
@@ -313,7 +313,7 @@ nsACString
 aQuotaDomainDBKey
 bool
 aExcludeOfflineFromUsage
-int32_t
+PRInt32
 *
 aUsage
 )

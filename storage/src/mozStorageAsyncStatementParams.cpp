@@ -73,7 +73,7 @@ NS_ASSERTION
 mStatement
 !
 =
-nullptr
+nsnull
 "
 mStatement
 is
@@ -292,7 +292,7 @@ NS_ERROR_INVALID_ARG
 *
 _retval
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -315,7 +315,7 @@ JSObject
 aScopeObj
 jsid
 aId
-uint32_t
+PRUint32
 aFlags
 JSObject
 *
@@ -350,7 +350,7 @@ aId
 )
 )
 {
-uint32_t
+PRUint32
 idx
 =
 JSID_TO_INT
@@ -368,8 +368,8 @@ aCtx
 aScopeObj
 idx
 JSVAL_VOID
-nullptr
-nullptr
+nsnull
+nsnull
 0
 )
 ;
@@ -397,8 +397,8 @@ aCtx
 aScopeObj
 aId
 JSVAL_VOID
-nullptr
-nullptr
+nsnull
+nsnull
 0
 )
 ;
@@ -422,7 +422,7 @@ ok
 ?
 aScopeObj
 :
-nullptr
+nsnull
 ;
 return
 NS_OK

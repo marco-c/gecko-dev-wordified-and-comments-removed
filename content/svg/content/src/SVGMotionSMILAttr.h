@@ -12,15 +12,6 @@ nsISMILAttr
 h
 "
 class
-nsIContent
-;
-class
-nsISMILAnimationElement
-;
-class
-nsSMILValue
-;
-class
 nsSVGElement
 ;
 namespace

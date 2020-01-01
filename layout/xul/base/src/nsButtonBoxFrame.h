@@ -44,7 +44,7 @@ nsBoxFrame
 (
 aPresShell
 aContext
-false
+PR_FALSE
 )
 {
 UpdateMouseThrough
@@ -97,7 +97,7 @@ aEvent
 DoMouseClick
 (
 aEvent
-false
+PR_FALSE
 )
 ;
 }

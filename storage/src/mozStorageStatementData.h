@@ -385,7 +385,7 @@ mParamsArray
 ;
 }
 inline
-uint32_t
+PRUint32
 needsTransaction
 (
 )

@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 SVGTransformListParser
 .
 h
@@ -31,7 +22,7 @@ h
 #
 include
 "
-nsError
+nsDOMError
 .
 h
 "
@@ -45,6 +36,13 @@ h
 #
 include
 "
+nsReadableUtils
+.
+h
+"
+#
+include
+"
 nsCRT
 .
 h
@@ -52,7 +50,14 @@ h
 #
 include
 "
-nsDOMClassInfoID
+nsContentUtils
+.
+h
+"
+#
+include
+"
+nsIDOMClassInfo
 .
 h
 "
@@ -295,7 +300,7 @@ delimiterStart
 0
 '
 ;
-uint32_t
+PRUint32
 len
 ;
 if
@@ -303,6 +308,9 @@ if
 (
 len
 =
+nsCRT
+:
+:
 strlen
 (
 mTokenPos
@@ -390,7 +398,7 @@ getter_AddRefs
 (
 keyatom
 )
-true
+PR_TRUE
 )
 ;
 if
@@ -557,7 +565,7 @@ getter_AddRefs
 (
 keyatom
 )
-false
+PR_FALSE
 )
 ;
 if
@@ -569,7 +577,7 @@ rv
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -629,11 +637,11 @@ matrix
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 nsresult
@@ -645,9 +653,9 @@ MatchNumberArguments
 float
 *
 aResult
-uint32_t
+PRUint32
 aMaxNum
-uint32_t
+PRUint32
 *
 aParsedNum
 )
@@ -787,7 +795,7 @@ t
 2
 ]
 ;
-uint32_t
+PRUint32
 count
 ;
 ENSURE_MATCHED
@@ -795,7 +803,7 @@ ENSURE_MATCHED
 MatchNumberArguments
 (
 t
-ArrayLength
+NS_ARRAY_LENGTH
 (
 t
 )
@@ -887,7 +895,7 @@ s
 2
 ]
 ;
-uint32_t
+PRUint32
 count
 ;
 ENSURE_MATCHED
@@ -895,7 +903,7 @@ ENSURE_MATCHED
 MatchNumberArguments
 (
 s
-ArrayLength
+NS_ARRAY_LENGTH
 (
 s
 )
@@ -988,7 +996,7 @@ r
 3
 ]
 ;
-uint32_t
+PRUint32
 count
 ;
 ENSURE_MATCHED
@@ -996,7 +1004,7 @@ ENSURE_MATCHED
 MatchNumberArguments
 (
 r
-ArrayLength
+NS_ARRAY_LENGTH
 (
 r
 )
@@ -1094,7 +1102,7 @@ GetNextToken
 float
 skew
 ;
-uint32_t
+PRUint32
 count
 ;
 ENSURE_MATCHED
@@ -1164,7 +1172,7 @@ GetNextToken
 float
 skew
 ;
-uint32_t
+PRUint32
 count
 ;
 ENSURE_MATCHED
@@ -1237,7 +1245,7 @@ m
 6
 ]
 ;
-uint32_t
+PRUint32
 count
 ;
 ENSURE_MATCHED
@@ -1245,7 +1253,7 @@ ENSURE_MATCHED
 MatchNumberArguments
 (
 m
-ArrayLength
+NS_ARRAY_LENGTH
 (
 m
 )

@@ -79,7 +79,7 @@ gfxUserFontSet
 *
 aUserFontSet
 =
-nullptr
+nsnull
 )
 ;
 void
@@ -200,7 +200,7 @@ return
 mLanguage
 ;
 }
-int32_t
+PRInt32
 GetMaxStringLength
 (
 )
@@ -212,7 +212,7 @@ const
 char
 *
 aString
-uint32_t
+PRUint32
 aLength
 nsRenderingContext
 *
@@ -226,7 +226,7 @@ const
 PRUnichar
 *
 aString
-uint32_t
+PRUint32
 aLength
 nsRenderingContext
 *
@@ -240,7 +240,7 @@ const
 char
 *
 aString
-uint32_t
+PRUint32
 aLength
 nscoord
 aX
@@ -258,7 +258,7 @@ const
 PRUnichar
 *
 aString
-uint32_t
+PRUint32
 aLength
 nscoord
 aX
@@ -279,21 +279,7 @@ const
 PRUnichar
 *
 aString
-uint32_t
-aLength
-nsRenderingContext
-*
-aContext
-)
-;
-nsBoundingMetrics
-GetInkBoundsForVisualOverflow
-(
-const
-PRUnichar
-*
-aString
-uint32_t
+PRUint32
 aLength
 nsRenderingContext
 *
@@ -346,7 +332,7 @@ GetUserFontSet
 )
 ;
 }
-uint32_t
+PRUint32
 AppUnitsPerDevPixel
 (
 )
@@ -387,7 +373,7 @@ nsDeviceContext
 *
 mDeviceContext
 ;
-uint32_t
+PRUint32
 mP2A
 ;
 bool

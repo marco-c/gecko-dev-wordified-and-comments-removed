@@ -61,7 +61,7 @@ aData
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 nsInt2StrHashtable
@@ -74,9 +74,9 @@ nsInt2StrHashtable
 mHashtable
 (
 CloneCString
-nullptr
+nsnull
 DeleteCString
-nullptr
+nsnull
 16
 )
 {
@@ -87,7 +87,7 @@ nsInt2StrHashtable
 :
 Put
 (
-uint32_t
+PRUint32
 key
 const
 char
@@ -109,7 +109,7 @@ if
 value
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -157,7 +157,7 @@ nsInt2StrHashtable
 :
 Get
 (
-uint32_t
+PRUint32
 key
 )
 {
@@ -190,10 +190,10 @@ if
 value
 =
 =
-nullptr
+nsnull
 )
 return
-nullptr
+nsnull
 ;
 return
 NS_strdup
@@ -208,7 +208,7 @@ nsInt2StrHashtable
 :
 Remove
 (
-uint32_t
+PRUint32
 key
 )
 {
@@ -290,7 +290,7 @@ if
 serv
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -327,7 +327,7 @@ nsErrorService
 :
 RegisterErrorStringBundle
 (
-int16_t
+PRInt16
 errorModule
 const
 char
@@ -351,7 +351,7 @@ nsErrorService
 :
 UnregisterErrorStringBundle
 (
-int16_t
+PRInt16
 errorModule
 )
 {
@@ -370,7 +370,7 @@ nsErrorService
 :
 GetErrorStringBundle
 (
-int16_t
+PRInt16
 errorModule
 char
 *
@@ -394,7 +394,7 @@ if
 value
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -427,13 +427,7 @@ mErrorStringBundleKeyMap
 .
 Put
 (
-static_cast
-<
-uint32_t
->
-(
 error
-)
 stringBundleKey
 )
 ;
@@ -453,13 +447,7 @@ mErrorStringBundleKeyMap
 .
 Remove
 (
-static_cast
-<
-uint32_t
->
-(
 error
-)
 )
 ;
 }
@@ -485,13 +473,7 @@ mErrorStringBundleKeyMap
 .
 Get
 (
-static_cast
-<
-uint32_t
->
-(
 error
-)
 )
 ;
 if
@@ -499,7 +481,7 @@ if
 value
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY

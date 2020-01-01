@@ -100,10 +100,10 @@ m_processCanceled
 nsString
 m_pendingStatus
 ;
-int32_t
+PRInt32
 m_pendingStateFlags
 ;
-nsresult
+PRInt32
 m_pendingStateValue
 ;
 nsCOMPtr

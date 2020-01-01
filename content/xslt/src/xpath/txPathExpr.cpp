@@ -135,7 +135,7 @@ aResult
 *
 aResult
 =
-nullptr
+nsnull
 ;
 nsRefPtr
 <
@@ -232,9 +232,9 @@ NS_OK
 }
 res
 =
-nullptr
+nsnull
 ;
-uint32_t
+PRUint32
 i
 len
 =
@@ -702,7 +702,7 @@ addAndTransfer
 newSet
 )
 ;
-bool
+MBool
 filterWS
 =
 aContext
@@ -830,7 +830,7 @@ PathExpr
 :
 getSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 )
 {
@@ -854,7 +854,7 @@ get
 (
 )
 :
-nullptr
+nsnull
 ;
 }
 void
@@ -863,7 +863,7 @@ PathExpr
 :
 setSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 Expr
 *
@@ -935,7 +935,7 @@ aContext
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 Expr
@@ -968,10 +968,10 @@ NO_CONTEXT
 )
 {
 return
-false
+PR_FALSE
 ;
 }
-uint32_t
+PRUint32
 i
 len
 =
@@ -1042,12 +1042,12 @@ context
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 }
 return
-false
+PR_FALSE
 ;
 }
 #
@@ -1108,7 +1108,7 @@ dest
 )
 ;
 }
-uint32_t
+PRUint32
 i
 len
 =

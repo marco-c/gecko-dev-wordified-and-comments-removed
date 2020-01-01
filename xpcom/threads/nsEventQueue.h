@@ -75,8 +75,8 @@ HasPendingEvent
 return
 GetEvent
 (
-false
-nullptr
+PR_FALSE
+nsnull
 )
 ;
 }
@@ -92,7 +92,7 @@ runnable
 return
 GetEvent
 (
-false
+PR_FALSE
 runnable
 )
 ;
@@ -109,7 +109,7 @@ runnable
 return
 GetEvent
 (
-true
+PR_TRUE
 runnable
 )
 ;
@@ -225,10 +225,10 @@ Page
 *
 mTail
 ;
-uint16_t
+PRUint16
 mOffsetHead
 ;
-uint16_t
+PRUint16
 mOffsetTail
 ;
 }

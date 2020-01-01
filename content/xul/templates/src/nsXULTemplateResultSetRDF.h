@@ -39,15 +39,6 @@ nsXULTemplateResultRDF
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsXULTemplateQueryProcessorRDF
 ;
@@ -56,7 +47,6 @@ nsXULTemplateResultRDF
 ;
 class
 nsXULTemplateResultSetRDF
-MOZ_FINAL
 :
 public
 nsISimpleEnumerator
@@ -124,11 +114,11 @@ aInstantiations
 )
 mCurrent
 (
-nullptr
+nsnull
 )
 mCheckedNext
 (
-false
+PR_FALSE
 )
 {
 }

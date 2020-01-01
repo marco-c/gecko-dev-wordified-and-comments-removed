@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsIFile
+nsILocalFile
 .
 h
 "
@@ -71,7 +71,7 @@ aRv
 {
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 lf
 (
@@ -85,7 +85,7 @@ aRv
 NS_ENSURE_TRUE
 (
 lf
-nullptr
+nsnull
 )
 ;
 lf
@@ -103,7 +103,7 @@ nsIURI
 *
 uri
 =
-nullptr
+nsnull
 ;
 nsresult
 rv
@@ -277,9 +277,9 @@ rv
 =
 NS_InitXPCOM2
 (
-nullptr
-nullptr
-nullptr
+nsnull
+nsnull
+nsnull
 )
 ;
 if
@@ -392,7 +392,7 @@ uri
 }
 NS_ShutdownXPCOM
 (
-nullptr
+nsnull
 )
 ;
 return

@@ -215,7 +215,7 @@ IsEmpty
 )
 )
 {
-int32_t
+PRInt32
 lastSeparatorPos
 =
 interpose
@@ -227,7 +227,7 @@ RFind
 "
 )
 ;
-int32_t
+PRInt32
 lastTriggerPos
 =
 interpose
@@ -272,7 +272,7 @@ Truncate
 ;
 needsReset
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -292,7 +292,7 @@ lastSeparatorPos
 ;
 needsReset
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -573,7 +573,7 @@ SanitizeEnvironmentVariables
 (
 )
 ;
-SetDllDirectory
+NS_SetDllDirectory
 (
 L
 "

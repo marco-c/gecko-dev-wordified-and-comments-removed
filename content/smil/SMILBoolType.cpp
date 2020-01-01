@@ -67,7 +67,7 @@ mU
 .
 mBool
 =
-false
+PR_FALSE
 ;
 aValue
 .
@@ -109,7 +109,7 @@ mU
 .
 mBool
 =
-false
+PR_FALSE
 ;
 aValue
 .
@@ -265,7 +265,7 @@ const
 nsSMILValue
 &
 aValueToAdd
-uint32_t
+PRUint32
 aCount
 )
 const

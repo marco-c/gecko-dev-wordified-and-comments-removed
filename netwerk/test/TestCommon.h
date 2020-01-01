@@ -18,15 +18,6 @@ nsThreadUtils
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 inline
 int
 test_common_init
@@ -53,7 +44,6 @@ false
 ;
 class
 nsQuitPumpingEvent
-MOZ_FINAL
 :
 public
 nsIRunnable
@@ -68,7 +58,7 @@ Run
 {
 gKeepPumpingEvents
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -100,7 +90,7 @@ do_GetCurrentThread
 ;
 gKeepPumpingEvents
 =
-true
+PR_TRUE
 ;
 while
 (

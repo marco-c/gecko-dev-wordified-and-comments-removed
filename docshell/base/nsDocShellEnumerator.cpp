@@ -24,13 +24,13 @@ nsDocShellEnumerator
 :
 nsDocShellEnumerator
 (
-int32_t
+PRInt32
 inEnumerationDirection
 )
 :
 mRootItem
 (
-nullptr
+nsnull
 )
 mCurIndex
 (
@@ -45,7 +45,7 @@ typeAll
 )
 mArrayValid
 (
-false
+PR_FALSE
 )
 mEnumerationDirection
 (
@@ -87,7 +87,7 @@ outCurItem
 *
 outCurItem
 =
-nullptr
+nsnull
 ;
 nsresult
 rv
@@ -170,7 +170,7 @@ outHasMore
 *
 outHasMore
 =
-false
+PR_FALSE
 ;
 nsresult
 rv
@@ -277,7 +277,7 @@ nsDocShellEnumerator
 :
 GetEnumDocShellType
 (
-int32_t
+PRInt32
 *
 aEnumerationItemType
 )
@@ -302,7 +302,7 @@ nsDocShellEnumerator
 :
 SetEnumDocShellType
 (
-int32_t
+PRInt32
 aEnumerationItemType
 )
 {
@@ -352,7 +352,7 @@ mArrayValid
 {
 mArrayValid
 =
-true
+PR_TRUE
 ;
 return
 BuildDocShellArray
@@ -381,7 +381,7 @@ Clear
 ;
 mArrayValid
 =
-false
+PR_FALSE
 ;
 mCurIndex
 =
@@ -479,7 +479,7 @@ rv
 return
 rv
 ;
-int32_t
+PRInt32
 itemType
 ;
 if
@@ -535,7 +535,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-int32_t
+PRInt32
 numChildren
 ;
 rv
@@ -561,7 +561,7 @@ rv
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -671,7 +671,7 @@ rv
 return
 rv
 ;
-int32_t
+PRInt32
 numChildren
 ;
 rv
@@ -697,7 +697,7 @@ rv
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 numChildren
@@ -763,7 +763,7 @@ return
 rv
 ;
 }
-int32_t
+PRInt32
 itemType
 ;
 if

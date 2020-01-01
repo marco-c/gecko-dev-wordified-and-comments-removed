@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsDOMClassInfoID
+nsIDOMClassInfo
 .
 h
 "
@@ -99,7 +99,7 @@ nsXPathNamespace
 :
 GetNodeType
 (
-uint16_t
+PRUint16
 *
 aNodeType
 )
@@ -346,8 +346,6 @@ CloneNode
 (
 bool
 deep
-uint8_t
-aOptionalArgc
 nsIDOMNode
 *
 *

@@ -19,9 +19,13 @@ NS_PAINT_FLAG_TABLE_BG_PAINT
 define
 NS_PAINT_FLAG_TABLE_CELL_BG_PASS
 0x00000002
-class
+#
+include
+"
 nsIFrame
-;
+.
+h
+"
 class
 nsTableFrame
 ;
@@ -68,7 +72,7 @@ const
 nsPoint
 &
 aPt
-uint32_t
+PRUint32
 aBGPaintFlags
 )
 ;
@@ -103,7 +107,7 @@ return
 PaintRowGroup
 (
 aFrame
-false
+PR_FALSE
 )
 ;
 }
@@ -119,7 +123,7 @@ return
 PaintRow
 (
 aFrame
-false
+PR_FALSE
 )
 ;
 }
@@ -307,7 +311,7 @@ ColData
 {
 mColGroup
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -344,7 +348,7 @@ ColData
 *
 mCols
 ;
-uint32_t
+PRUint32
 mNumCols
 ;
 TableBackgroundData
@@ -359,7 +363,7 @@ mCellRect
 nsStyleBorder
 mZeroBorder
 ;
-uint32_t
+PRUint32
 mBGPaintFlags
 ;
 }

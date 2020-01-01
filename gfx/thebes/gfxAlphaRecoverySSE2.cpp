@@ -49,7 +49,7 @@ align
 )
 )
 static
-uint32_t
+PRUint32
 greenMaski
 [
 ]
@@ -69,7 +69,7 @@ align
 )
 )
 static
-uint32_t
+PRUint32
 alphaMaski
 [
 ]
@@ -102,7 +102,7 @@ __x86_64__
 )
 )
 static
-uint32_t
+PRUint32
 greenMaski
 [
 ]
@@ -124,7 +124,7 @@ aligned
 }
 ;
 static
-uint32_t
+PRUint32
 alphaMaski
 [
 ]
@@ -174,7 +174,7 @@ greenMaski
 alphaMaski
 )
 static
-uint32_t
+PRUint32
 greenMaski
 [
 ]
@@ -187,7 +187,7 @@ greenMaski
 }
 ;
 static
-uint32_t
+PRUint32
 alphaMaski
 [
 ]
@@ -299,7 +299,7 @@ ImageFormatRGB24
 )
 )
 return
-false
+PR_FALSE
 ;
 blackSurf
 -
@@ -381,7 +381,7 @@ Stride
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 __m128i
@@ -410,7 +410,7 @@ alphaMaski
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -426,7 +426,7 @@ height
 i
 )
 {
-int32_t
+PRInt32
 j
 =
 0
@@ -451,7 +451,7 @@ width
 *
 (
 (
-uint32_t
+PRUint32
 *
 )
 blackData
@@ -462,7 +462,7 @@ RecoverPixel
 *
 reinterpret_cast
 <
-uint32_t
+PRUint32
 *
 >
 (
@@ -471,7 +471,7 @@ blackData
 *
 reinterpret_cast
 <
-uint32_t
+PRUint32
 *
 >
 (
@@ -820,7 +820,7 @@ width
 *
 (
 (
-uint32_t
+PRUint32
 *
 )
 blackData
@@ -831,7 +831,7 @@ RecoverPixel
 *
 reinterpret_cast
 <
-uint32_t
+PRUint32
 *
 >
 (
@@ -840,7 +840,7 @@ blackData
 *
 reinterpret_cast
 <
-uint32_t
+PRUint32
 *
 >
 (
@@ -900,22 +900,22 @@ MarkDirty
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 static
-int32_t
+PRInt32
 ByteAlignment
 (
-int32_t
+PRInt32
 aAlignToLog2
-int32_t
+PRInt32
 aX
-int32_t
+PRInt32
 aY
 =
 0
-int32_t
+PRInt32
 aStride
 =
 1
@@ -986,7 +986,7 @@ COLOR_ALPHA
 ;
 static
 const
-int32_t
+PRInt32
 kByteAlignLog2
 =
 GoodAlignmentLog2
@@ -995,14 +995,14 @@ GoodAlignmentLog2
 ;
 static
 const
-int32_t
+PRInt32
 bpp
 =
 4
 ;
 static
 const
-int32_t
+PRInt32
 pixPerAlign
 =
 (
@@ -1025,7 +1025,7 @@ GetSize
 )
 ;
 const
-int32_t
+PRInt32
 stride
 =
 bpp
@@ -1066,7 +1066,7 @@ aRect
 ;
 }
 const
-int32_t
+PRInt32
 x
 =
 aRect
@@ -1089,7 +1089,7 @@ aRect
 height
 ;
 const
-int32_t
+PRInt32
 r
 =
 x
@@ -1097,7 +1097,7 @@ x
 w
 ;
 const
-int32_t
+PRInt32
 sw
 =
 surfaceSize
@@ -1105,7 +1105,7 @@ surfaceSize
 width
 ;
 const
-int32_t
+PRInt32
 strideAlign
 =
 ByteAlignment
@@ -1114,7 +1114,7 @@ kByteAlignLog2
 stride
 )
 ;
-int32_t
+PRInt32
 dx
 dy
 dr

@@ -411,7 +411,7 @@ nsGIOMimeApp
 :
 GetExpectsURIs
 (
-int32_t
+PRInt32
 *
 aExpects
 )
@@ -556,7 +556,7 @@ nsCString
 >
 mStrings
 ;
-uint32_t
+PRUint32
 mIndex
 ;
 }
@@ -650,7 +650,7 @@ aSchemes
 *
 aSchemes
 =
-nullptr
+nsnull
 ;
 nsRefPtr
 <
@@ -1053,7 +1053,7 @@ error
 =
 NULL
 ;
-nsAutoCString
+nsCAutoString
 contentType
 (
 "
@@ -1156,7 +1156,7 @@ nsACString
 aMimeType
 )
 {
-nsAutoCString
+nsCAutoString
 fileExtToUse
 (
 "
@@ -1264,7 +1264,7 @@ aApp
 *
 aApp
 =
-nullptr
+nsnull
 ;
 GAppInfo
 *
@@ -1335,7 +1335,7 @@ aApp
 *
 aApp
 =
-nullptr
+nsnull
 ;
 char
 *
@@ -1516,7 +1516,7 @@ nsIURI
 aURI
 )
 {
-nsAutoCString
+nsCAutoString
 spec
 ;
 aURI
@@ -1716,7 +1716,7 @@ NULL
 *
 appInfo
 =
-nullptr
+nsnull
 ;
 GAppInfo
 *

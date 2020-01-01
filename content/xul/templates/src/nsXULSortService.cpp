@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsINameSpaceManager
 .
 h
@@ -150,7 +157,7 @@ aSortState
 -
 >
 sort
-true
+PR_TRUE
 )
 ;
 nsAutoString
@@ -206,7 +213,7 @@ nsGkAtoms
 :
 sortDirection
 direction
-true
+PR_TRUE
 )
 ;
 if
@@ -428,7 +435,7 @@ NS_LITERAL_STRING
 true
 "
 )
-true
+PR_TRUE
 )
 ;
 child
@@ -442,7 +449,7 @@ nsGkAtoms
 :
 sortDirection
 sortDirection
-true
+PR_TRUE
 )
 ;
 }
@@ -467,7 +474,7 @@ nsGkAtoms
 :
 :
 sortActive
-true
+PR_TRUE
 )
 ;
 child
@@ -480,7 +487,7 @@ nsGkAtoms
 :
 :
 sortDirection
-true
+PR_TRUE
 )
 ;
 }
@@ -911,7 +918,7 @@ nsSortState
 )
 privateData
 ;
-int32_t
+PRInt32
 sortOrder
 =
 0
@@ -949,7 +956,7 @@ right
 -
 >
 result
-nullptr
+nsnull
 sortState
 -
 >
@@ -961,7 +968,7 @@ sortOrder
 }
 else
 {
-int32_t
+PRInt32
 length
 =
 sortState
@@ -975,7 +982,7 @@ Count
 ;
 for
 (
-int32_t
+PRInt32
 t
 =
 0
@@ -1152,7 +1159,7 @@ rv
 rv
 )
 ;
-uint32_t
+PRUint32
 numResults
 =
 items
@@ -1169,7 +1176,7 @@ numResults
 return
 NS_OK
 ;
-uint32_t
+PRUint32
 i
 ;
 if
@@ -1180,7 +1187,7 @@ aSortState
 inbetweenSeparatorSort
 )
 {
-uint32_t
+PRUint32
 startIndex
 =
 0
@@ -1444,7 +1451,7 @@ parent
 =
 parent
 ;
-int32_t
+PRInt32
 index
 =
 parent
@@ -1461,7 +1468,7 @@ parent
 RemoveChildAt
 (
 index
-true
+PR_TRUE
 )
 ;
 }
@@ -1514,7 +1521,7 @@ parent
 AppendChildTo
 (
 child
-true
+PR_TRUE
 )
 ;
 if
@@ -1645,9 +1652,9 @@ contentSortInfo
 >
 &
 aData
-int32_t
+PRInt32
 aStart
-int32_t
+PRInt32
 aNumItems
 )
 {
@@ -1658,7 +1665,7 @@ aNumItems
 1
 )
 {
-int32_t
+PRInt32
 upPoint
 =
 (
@@ -1671,7 +1678,7 @@ aNumItems
 +
 aStart
 ;
-int32_t
+PRInt32
 downPoint
 =
 (
@@ -1684,7 +1691,7 @@ aNumItems
 +
 aStart
 ;
-int32_t
+PRInt32
 half
 =
 aNumItems
@@ -1775,14 +1782,14 @@ aSortState
 >
 lastWasFirst
 =
-false
+PR_FALSE
 ;
 aSortState
 -
 >
 lastWasLast
 =
-false
+PR_FALSE
 ;
 }
 nsAutoString
@@ -2122,7 +2129,7 @@ twostate
 )
 noNaturalState
 =
-true
+PR_TRUE
 ;
 }
 if
@@ -2152,7 +2159,7 @@ aSortState
 >
 invertSort
 =
-false
+PR_FALSE
 ;
 nsAutoString
 existingsort
@@ -2223,7 +2230,7 @@ aSortState
 >
 invertSort
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -2253,7 +2260,7 @@ aSortState
 >
 invertSort
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -2306,13 +2313,13 @@ aSortState
 >
 initialized
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
 ;
 }
-int32_t
+PRInt32
 XULSortServiceImpl
 :
 :
@@ -2326,7 +2333,7 @@ const
 nsAString
 &
 aRight
-uint32_t
+PRUint32
 aSortHints
 )
 {
@@ -2337,10 +2344,10 @@ aSortHints
 SORT_INTEGER
 )
 {
-nsresult
+PRInt32
 err
 ;
-int32_t
+PRInt32
 leftint
 =
 PromiseFlatString
@@ -2362,7 +2369,7 @@ err
 )
 )
 {
-int32_t
+PRInt32
 rightint
 =
 PromiseFlatString
@@ -2425,7 +2432,7 @@ if
 collation
 )
 {
-int32_t
+PRInt32
 result
 ;
 collation
@@ -2540,7 +2547,7 @@ sortState
 .
 processor
 =
-nullptr
+nsnull
 ;
 return
 rv

@@ -71,7 +71,7 @@ h
 #
 include
 "
-nsDOMClassInfoID
+nsDOMClassInfo
 .
 h
 "
@@ -158,14 +158,14 @@ GetVisibleByFlag
 bool
 *
 aVisible
-uint32_t
+PRUint32
 aChromeFlag
 )
 {
 *
 aVisible
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -183,7 +183,7 @@ browserChrome
 NS_OK
 )
 ;
-uint32_t
+PRUint32
 chromeFlags
 ;
 NS_ENSURE_SUCCESS
@@ -208,7 +208,7 @@ aChromeFlag
 *
 aVisible
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -222,7 +222,7 @@ SetVisibleByFlag
 (
 bool
 aVisible
-uint32_t
+PRUint32
 aChromeFlag
 )
 {
@@ -269,7 +269,7 @@ securityManager
 IsCapabilityEnabled
 (
 "
-UniversalXPConnect
+UniversalBrowserWrite
 "
 &
 enabled
@@ -283,7 +283,7 @@ enabled
 return
 NS_OK
 ;
-uint32_t
+PRUint32
 chromeFlags
 ;
 NS_ENSURE_SUCCESS
@@ -360,13 +360,13 @@ if
 domwin
 )
 return
-nullptr
+nsnull
 ;
 nsIWebBrowserChrome
 *
 browserChrome
 =
-nullptr
+nsnull
 ;
 mDOMWindow
 -
@@ -790,7 +790,7 @@ aVisible
 *
 aVisible
 =
-true
+PR_TRUE
 ;
 nsCOMPtr
 <
@@ -830,7 +830,7 @@ if
 scroller
 )
 {
-int32_t
+PRInt32
 prefValue
 ;
 scroller
@@ -882,7 +882,7 @@ Scrollbar_Never
 *
 aVisible
 =
-false
+PR_FALSE
 ;
 }
 }
@@ -927,7 +927,7 @@ securityManager
 IsCapabilityEnabled
 (
 "
-UniversalXPConnect
+UniversalBrowserWrite
 "
 &
 enabled
@@ -979,7 +979,7 @@ if
 scroller
 )
 {
-int32_t
+PRInt32
 prefValue
 ;
 if

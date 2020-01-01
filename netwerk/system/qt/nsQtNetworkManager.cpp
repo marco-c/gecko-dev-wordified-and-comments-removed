@@ -69,7 +69,7 @@ nsQtNetworkManager
 :
 gQtNetworkManager
 =
-nullptr
+nsnull
 ;
 void
 nsQtNetworkManager
@@ -153,7 +153,7 @@ gQtNetworkManager
 ;
 gQtNetworkManager
 =
-nullptr
+nsnull
 ;
 }
 nsQtNetworkManager

@@ -140,7 +140,7 @@ mU
 .
 mPtr
 =
-nullptr
+nsnull
 ;
 aValue
 .
@@ -345,7 +345,7 @@ const
 nsSMILValue
 &
 aValueToAdd
-uint32_t
+PRUint32
 aCount
 )
 const
@@ -529,7 +529,7 @@ NS_ERROR_OUT_OF_MEMORY
 }
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -624,7 +624,7 @@ NS_ERROR_FAILURE
 }
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -790,7 +790,7 @@ total
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -1152,7 +1152,7 @@ value
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -1189,7 +1189,7 @@ NS_OK
 }
 for
 (
-uint32_t
+PRUint32
 i
 =
 0

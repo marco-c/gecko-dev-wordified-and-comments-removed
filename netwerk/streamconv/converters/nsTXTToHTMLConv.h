@@ -166,7 +166,7 @@ if
 _s
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -222,10 +222,10 @@ rv
 }
 protected
 :
-int32_t
+PRInt32
 FindToken
 (
-int32_t
+PRInt32
 cursor
 convToken
 *
@@ -233,12 +233,12 @@ convToken
 _retval
 )
 ;
-int32_t
+PRInt32
 CatHTML
 (
-int32_t
+PRInt32
 front
-int32_t
+PRInt32
 back
 )
 ;

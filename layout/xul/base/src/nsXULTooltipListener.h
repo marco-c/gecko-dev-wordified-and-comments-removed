@@ -79,18 +79,8 @@ nsWeakPtr
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsXULTooltipListener
-MOZ_FINAL
 :
 public
 nsIDOMEventListener
@@ -162,7 +152,7 @@ ClearTooltipCache
 {
 mInstance
 =
-nullptr
+nsnull
 ;
 }
 protected
@@ -181,7 +171,7 @@ bool
 sShowTooltips
 ;
 static
-uint32_t
+PRUint32
 sTooltipListenerCount
 ;
 void
@@ -300,7 +290,7 @@ void
 aListener
 )
 ;
-int32_t
+PRInt32
 mMouseScreenX
 mMouseScreenY
 ;
@@ -309,6 +299,9 @@ enum
 kTooltipMouseMoveTolerance
 =
 7
+kTooltipShowTime
+=
+500
 }
 ;
 bool
@@ -323,7 +316,7 @@ mIsSourceTree
 bool
 mNeedTitletip
 ;
-int32_t
+PRInt32
 mLastTreeRow
 ;
 nsCOMPtr

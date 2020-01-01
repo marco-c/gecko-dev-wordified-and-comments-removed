@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsError
+mozStorage
 .
 h
 "
@@ -44,7 +44,7 @@ mozIStorageConnection
 aConnection
 bool
 aCommitOnComplete
-int32_t
+PRInt32
 aType
 =
 mozIStorageConnection
@@ -59,7 +59,7 @@ aConnection
 )
 mHasTransaction
 (
-false
+PR_FALSE
 )
 mCommitOnComplete
 (
@@ -67,7 +67,7 @@ aCommitOnComplete
 )
 mCompleted
 (
-false
+PR_FALSE
 )
 {
 if
@@ -144,7 +144,7 @@ NS_OK
 ;
 mCompleted
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -173,7 +173,7 @@ rv
 )
 mHasTransaction
 =
-false
+PR_FALSE
 ;
 return
 rv
@@ -197,7 +197,7 @@ NS_OK
 ;
 mCompleted
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -256,7 +256,7 @@ rv
 )
 mHasTransaction
 =
-false
+PR_FALSE
 ;
 return
 rv
@@ -345,7 +345,7 @@ Abandon
 {
 mStatement
 =
-nullptr
+nsnull
 ;
 }
 protected
@@ -358,17 +358,5 @@ mStatement
 ;
 }
 ;
-#
-define
-MOZ_STORAGE_UNIQUIFY_QUERY_STR
-"
-/
-*
-"
-__FILE__
-"
-*
-/
-"
 #
 endif

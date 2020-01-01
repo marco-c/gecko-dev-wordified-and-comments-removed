@@ -169,10 +169,10 @@ LastSelectedBlock
 TSDBlockSelectionStatus
 *
 aSelectionStatus
-int32_t
+PRInt32
 *
 aSelectionOffset
-int32_t
+PRInt32
 *
 aSelectionLength
 )
@@ -206,9 +206,9 @@ aIsDone
 NS_IMETHOD
 SetSelection
 (
-int32_t
+PRInt32
 aOffset
-int32_t
+PRInt32
 aLength
 )
 =

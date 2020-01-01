@@ -94,11 +94,11 @@ accumulate
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 bool
@@ -149,7 +149,7 @@ NS_OK
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 return
@@ -185,7 +185,7 @@ aAttribute
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 return
@@ -218,7 +218,7 @@ aAttName
 )
 )
 return
-false
+PR_FALSE
 ;
 return
 nsSMILAnimationFunction
@@ -252,7 +252,7 @@ aAttName
 )
 )
 return
-nullptr
+nsnull
 ;
 return
 nsSMILAnimationFunction
@@ -287,7 +287,7 @@ aAttName
 )
 )
 return
-nullptr
+nsnull
 ;
 return
 nsSMILAnimationFunction
@@ -310,6 +310,6 @@ WillReplace
 const
 {
 return
-true
+PR_TRUE
 ;
 }

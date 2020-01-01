@@ -20,7 +20,6 @@ h
 "
 class
 nsDOMValidityState
-MOZ_FINAL
 :
 public
 nsIDOMValidityState
@@ -50,7 +49,7 @@ Disconnect
 {
 mConstraintValidation
 =
-nullptr
+nsnull
 ;
 }
 inline

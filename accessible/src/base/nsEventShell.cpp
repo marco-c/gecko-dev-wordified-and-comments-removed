@@ -30,7 +30,7 @@ aEvent
 )
 return
 ;
-Accessible
+nsAccessible
 *
 accessible
 =
@@ -86,7 +86,7 @@ aEvent
 ;
 sEventTargetNode
 =
-nullptr
+nsnull
 ;
 }
 void
@@ -95,9 +95,9 @@ nsEventShell
 :
 FireEvent
 (
-uint32_t
+PRUint32
 aEventType
-Accessible
+nsAccessible
 *
 aAccessible
 EIsFromUserInput

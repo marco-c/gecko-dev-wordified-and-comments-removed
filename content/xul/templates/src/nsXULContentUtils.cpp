@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -18,6 +9,13 @@ h
 include
 "
 nsIContent
+.
+h
+"
+#
+include
+"
+nsINodeInfo
 .
 h
 "
@@ -224,10 +222,6 @@ nsEscape
 .
 h
 "
-using
-namespace
-mozilla
-;
 static
 NS_DEFINE_CID
 (
@@ -689,7 +683,7 @@ FindChildByTag
 nsIContent
 *
 aElement
-int32_t
+PRInt32
 aNameSpaceID
 nsIAtom
 *
@@ -758,7 +752,7 @@ NS_OK
 *
 aResult
 =
-nullptr
+nsnull
 ;
 return
 NS_RDF_NO_VALUE
@@ -792,7 +786,7 @@ nsFixedString
 id
 (
 buf
-ArrayLength
+NS_ARRAY_LENGTH
 (
 buf
 )
@@ -982,7 +976,7 @@ if
 dateLiteral
 )
 {
-PRTime
+PRInt64
 value
 ;
 rv
@@ -1016,10 +1010,13 @@ gFormat
 >
 FormatPRTime
 (
-nullptr
+nsnull
 kDateFormatShort
 kTimeFormatSeconds
+PRTime
+(
 value
+)
 str
 )
 ;
@@ -1060,7 +1057,7 @@ if
 intLiteral
 )
 {
-int32_t
+PRInt32
 value
 ;
 rv
@@ -1288,7 +1285,7 @@ rv
 rv
 )
 ;
-nsAutoCString
+nsCAutoString
 ref
 ;
 NS_EscapeURL
@@ -1472,7 +1469,7 @@ rv
 rv
 )
 ;
-nsAutoCString
+nsCAutoString
 ref
 ;
 uri
@@ -1499,7 +1496,7 @@ nsXULContentUtils
 :
 GetResource
 (
-int32_t
+PRInt32
 aNameSpaceID
 nsIAtom
 *
@@ -1515,7 +1512,7 @@ NS_PRECONDITION
 aAttribute
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -1548,7 +1545,7 @@ nsXULContentUtils
 :
 GetResource
 (
-int32_t
+PRInt32
 aNameSpaceID
 const
 nsAString
@@ -1573,7 +1570,7 @@ nsFixedString
 uri
 (
 buf
-ArrayLength
+NS_ARRAY_LENGTH
 (
 buf
 )
@@ -1733,7 +1730,7 @@ NS_PRECONDITION
 aDocument
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -1753,7 +1750,7 @@ NS_PRECONDITION
 aElement
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -1787,7 +1784,7 @@ NS_ASSERTION
 xuldoc
 !
 =
-nullptr
+nsnull
 "
 not
 a
@@ -1852,7 +1849,7 @@ NS_ASSERTION
 dispatcher
 !
 =
-nullptr
+nsnull
 "
 no
 dispatcher
@@ -1949,7 +1946,7 @@ NS_ASSERTION
 domelement
 !
 =
-nullptr
+nsnull
 "
 not
 a

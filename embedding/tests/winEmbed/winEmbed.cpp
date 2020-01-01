@@ -1245,7 +1245,7 @@ xulrunner
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 xuldir
 ;
@@ -1257,7 +1257,7 @@ nsCString
 (
 path
 )
-false
+PR_FALSE
 getter_AddRefs
 (
 xuldir
@@ -1284,7 +1284,7 @@ lastslash
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 appdir
 ;
@@ -1296,7 +1296,7 @@ nsCString
 (
 path
 )
-false
+PR_FALSE
 getter_AddRefs
 (
 appdir
@@ -1319,7 +1319,7 @@ XRE_InitEmbedding2
 (
 xuldir
 appdir
-nullptr
+nsnull
 )
 ;
 if
@@ -1472,7 +1472,7 @@ nsIWebBrowserChrome
 :
 :
 CHROME_ALL
-nullptr
+nsnull
 getter_AddRefs
 (
 chrome
@@ -1534,9 +1534,9 @@ nsIWebNavigation
 :
 :
 LOAD_FLAGS_NONE
-nullptr
-nullptr
-nullptr
+nsnull
+nsnull
+nsnull
 )
 ;
 }
@@ -1734,7 +1734,7 @@ bottom
 rect
 .
 top
-true
+PR_TRUE
 )
 ;
 webBrowserAsWin
@@ -1742,7 +1742,7 @@ webBrowserAsWin
 >
 SetVisibility
 (
-true
+PR_TRUE
 )
 ;
 }
@@ -2203,7 +2203,7 @@ nsIWebBrowserChrome
 *
 chrome
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -2427,9 +2427,9 @@ nsIWebNavigation
 :
 :
 LOAD_FLAGS_NONE
-nullptr
-nullptr
-nullptr
+nsnull
+nsnull
+nsnull
 )
 ;
 }
@@ -3113,13 +3113,25 @@ winembed
 ;
 nsCOMPtr
 <
+nsILocalFile
+>
+localAppDataDir
+(
+do_QueryInterface
+(
+appDataDir
+)
+)
+;
+nsCOMPtr
+<
 nsProfileDirServiceProvider
 >
 locProvider
 ;
 NS_NewProfileDirServiceProvider
 (
-true
+PR_TRUE
 getter_AddRefs
 (
 locProvider
@@ -3159,7 +3171,7 @@ locProvider
 >
 SetProfileDir
 (
-appDataDir
+localAppDataDir
 )
 ;
 }
@@ -3177,7 +3189,7 @@ chrome
 HWND
 hwndDialog
 ;
-uint32_t
+PRUint32
 chromeFlags
 ;
 chrome
@@ -3469,7 +3481,7 @@ nsIWebBrowser
 >
 browser
 =
-nullptr
+nsnull
 ;
 chrome
 -
@@ -3509,7 +3521,7 @@ chrome
 >
 SetWebBrowser
 (
-nullptr
+nsnull
 )
 ;
 NS_RELEASE
@@ -3561,7 +3573,7 @@ SetWindowLongPtr
 (
 hwndBrowser
 GWLP_USERDATA
-0
+nsnull
 )
 ;
 DestroyWindow
@@ -3868,9 +3880,9 @@ UpdateProgress
 nsIWebBrowserChrome
 *
 aChrome
-int32_t
+PRInt32
 aCurrent
-int32_t
+PRInt32
 aMax
 )
 {
@@ -3953,7 +3965,7 @@ ShowContextMenu
 nsIWebBrowserChrome
 *
 aChrome
-uint32_t
+PRUint32
 aContextFlags
 nsIDOMEvent
 *
@@ -3973,9 +3985,9 @@ ShowTooltip
 nsIWebBrowserChrome
 *
 aChrome
-int32_t
+PRInt32
 aXCoords
-int32_t
+PRInt32
 aYCoords
 const
 PRUnichar
@@ -4039,9 +4051,9 @@ SizeTo
 nsIWebBrowserChrome
 *
 aChrome
-int32_t
+PRInt32
 aWidth
-int32_t
+PRInt32
 aHeight
 )
 {
@@ -4083,7 +4095,7 @@ hbrowser
 browserRect
 )
 ;
-int32_t
+PRInt32
 decoration_x
 =
 (
@@ -4106,7 +4118,7 @@ browserRect
 right
 )
 ;
-int32_t
+PRInt32
 decoration_y
 =
 (
@@ -4156,7 +4168,7 @@ WebBrowserChromeUI
 :
 GetResourceStringById
 (
-int32_t
+PRInt32
 aID
 char
 *
@@ -4248,7 +4260,7 @@ AppCallbacks
 :
 CreateBrowserWindow
 (
-uint32_t
+PRUint32
 aChromeFlags
 nsIWebBrowserChrome
 *
@@ -4375,7 +4387,7 @@ ShowWindow
 (
 *
 aNewWindow
-true
+PR_TRUE
 )
 ;
 return
@@ -4416,7 +4428,7 @@ FALSE
 )
 ;
 }
-uint32_t
+PRUint32
 AppCallbacks
 :
 :
@@ -4480,7 +4492,7 @@ NULL
 {
 aRunCondition
 =
-false
+PR_FALSE
 ;
 break
 ;
@@ -4524,7 +4536,7 @@ hFakeEvent
 ;
 return
 (
-uint32_t
+PRUint32
 )
 msg
 .

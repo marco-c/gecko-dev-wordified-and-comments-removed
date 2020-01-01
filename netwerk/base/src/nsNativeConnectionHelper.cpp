@@ -65,7 +65,7 @@ IsLinkUp
 )
 )
 return
-false
+PR_FALSE
 ;
 #
 endif
@@ -92,7 +92,7 @@ hostName
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 bool

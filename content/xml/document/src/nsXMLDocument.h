@@ -122,7 +122,7 @@ nsIContentSink
 *
 aSink
 =
-nullptr
+nsnull
 )
 ;
 virtual
@@ -158,16 +158,6 @@ nsXPCClassInfo
 GetClassInfo
 (
 )
-;
-virtual
-void
-DocSizeOfExcludingThis
-(
-nsWindowSizes
-*
-aWindowSizes
-)
-const
 ;
 protected
 :

@@ -247,12 +247,6 @@ waitForExplicitFinish
 (
 )
 ;
-SimpleTest
-.
-ignoreAllUncaughtExceptions
-(
-)
-;
 function
 openPopup
 (

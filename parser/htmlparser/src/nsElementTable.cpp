@@ -2687,26 +2687,6 @@ gInHead
 0
 }
 {
-eHTMLTag_meter
-eHTMLTag_unknown
-eHTMLTag_unknown
-&
-gRootTags
-&
-gRootTags
-0
-0
-0
-0
-kFormControl
-kFlowEntity
-kNone
-0
-kDefaultPropRange
-0
-0
-}
-{
 eHTMLTag_multicol
 eHTMLTag_unknown
 eHTMLTag_unknown
@@ -4071,7 +4051,7 @@ gBodyKids
 ;
 #
 ifdef
-DEBUG
+NS_DEBUG
 void
 CheckElementTable
 (
@@ -4125,7 +4105,7 @@ list
 }
 #
 endif
-int32_t
+PRInt32
 nsHTMLElement
 :
 :
@@ -4138,7 +4118,7 @@ eHTMLTags
 aChildTag
 )
 {
-int32_t
+PRInt32
 theChildIndex
 =
 aContext
@@ -4196,7 +4176,7 @@ nsHTMLElement
 :
 HasSpecialProperty
 (
-int32_t
+PRInt32
 aProperty
 )
 const
@@ -4265,7 +4245,7 @@ nsHTMLElement
 :
 IsMemberOf
 (
-int32_t
+PRInt32
 aSet
 )
 const
@@ -4284,7 +4264,7 @@ nsHTMLElement
 :
 ContainsSet
 (
-int32_t
+PRInt32
 aSet
 )
 const
@@ -4704,7 +4684,7 @@ mCount
 )
 result
 =
-true
+PR_TRUE
 ;
 }
 return
@@ -4745,7 +4725,7 @@ eHTMLTag_head
 :
 result
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -4753,7 +4733,7 @@ default
 :
 result
 =
-false
+PR_FALSE
 ;
 }
 return
@@ -4845,7 +4825,7 @@ kLegalOpen
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -4870,7 +4850,7 @@ mCount
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 }
@@ -4894,7 +4874,7 @@ mExclusionBits
 {
 result
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -4956,7 +4936,7 @@ mCount
 )
 result
 =
-true
+PR_TRUE
 ;
 }
 if
@@ -5004,7 +4984,7 @@ eHTMLTag_tr
 :
 result
 =
-true
+PR_TRUE
 ;
 default
 :
@@ -5069,7 +5049,7 @@ aExclusively
 {
 aExclusively
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -5084,7 +5064,7 @@ kHeadContent
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 if
@@ -5101,14 +5081,14 @@ kHeadMisc
 {
 aExclusively
 =
-false
+PR_FALSE
 ;
 return
-true
+PR_TRUE
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 bool
@@ -5202,7 +5182,7 @@ allowDepthSearch
 else
 result
 =
-true
+PR_TRUE
 ;
 }
 return
@@ -5322,7 +5302,7 @@ eHTMLTag_u
 :
 result
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -5358,7 +5338,7 @@ eHTMLTag_var
 :
 result
 =
-false
+PR_FALSE
 ;
 default
 :
@@ -5376,12 +5356,12 @@ nsHTMLElement
 :
 CanContainType
 (
-int32_t
+PRInt32
 aType
 )
 const
 {
-int32_t
+PRInt32
 answer
 =
 mInclusionBits
@@ -5431,7 +5411,7 @@ eHTMLTag_whitespace
 :
 result
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -5478,7 +5458,7 @@ eHTMLTag_whitespace
 :
 result
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -5529,14 +5509,14 @@ CanAutoCloseTag
 nsDTDContext
 &
 aContext
-int32_t
+PRInt32
 aIndex
 eHTMLTags
 aChildTag
 )
 const
 {
-int32_t
+PRInt32
 thePos
 ;
 bool
@@ -5594,7 +5574,7 @@ eHTMLTag_td
 {
 result
 =
-false
+PR_FALSE
 ;
 break
 ;
@@ -5613,7 +5593,7 @@ GetCloseTargetForEndTag
 nsDTDContext
 &
 aContext
-int32_t
+PRInt32
 anIndex
 nsDTDMode
 aMode
@@ -6128,7 +6108,7 @@ GetEndRootTags
 (
 )
 ;
-int32_t
+PRInt32
 theIndexCopy
 =
 theIndex
@@ -6256,7 +6236,7 @@ IsTableElement
 )
 )
 {
-int32_t
+PRInt32
 theLastTable
 =
 aContext
@@ -6266,7 +6246,7 @@ LastOf
 eHTMLTag_table
 )
 ;
-int32_t
+PRInt32
 theLastOfMe
 =
 aContext
@@ -6453,7 +6433,7 @@ kLegalOpen
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 if
@@ -6505,7 +6485,7 @@ mCount
 )
 )
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -6546,7 +6526,7 @@ mCount
 )
 )
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -6562,7 +6542,7 @@ mTagID
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -6589,7 +6569,7 @@ mTagID
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 }
@@ -6616,7 +6596,7 @@ mTagID
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 }
@@ -6643,7 +6623,7 @@ mTagID
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 }
@@ -6676,7 +6656,7 @@ kCDATA
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 }
@@ -6694,7 +6674,7 @@ mParentBits
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 if
@@ -6719,7 +6699,7 @@ mCount
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 }
@@ -6744,12 +6724,12 @@ eDTDMode_quirks
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 }
 return
-false
+PR_FALSE
 ;
 }
 #

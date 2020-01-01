@@ -232,7 +232,7 @@ ent
 mData
 ;
 return
-true
+PR_TRUE
 ;
 }
 if
@@ -242,10 +242,10 @@ retVal
 *
 retVal
 =
-nullptr
+nsnull
 ;
 return
-false
+PR_FALSE
 ;
 }
 template
@@ -331,7 +331,7 @@ aOut
 {
 aOut
 =
-nullptr
+nsnull
 ;
 nsAutoPtr
 <
@@ -454,7 +454,7 @@ mLock
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 if
@@ -464,7 +464,7 @@ retVal
 *
 retVal
 =
-nullptr
+nsnull
 ;
 PR_Unlock
 (
@@ -475,7 +475,7 @@ mLock
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 #

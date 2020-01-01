@@ -445,7 +445,7 @@ Equals
 nsIAtom
 *
 aLocalName
-int32_t
+PRInt32
 aNamespaceID
 )
 const
@@ -511,7 +511,7 @@ NamespaceID
 )
 ;
 }
-int32_t
+PRInt32
 NamespaceID
 (
 )
@@ -534,10 +534,10 @@ NamespaceID
 )
 ;
 }
-int32_t
+PRInt32
 NamespaceEquals
 (
-int32_t
+PRInt32
 aNamespaceID
 )
 const
@@ -609,7 +609,7 @@ IsAtom
 (
 )
 ?
-nullptr
+nsnull
 :
 NodeInfo
 (
@@ -699,9 +699,6 @@ QualifiedName
 ;
 }
 }
-#
-ifdef
-MOZILLA_INTERNAL_API
 void
 GetPrefix
 (
@@ -738,9 +735,7 @@ aStr
 ;
 }
 }
-#
-endif
-uint32_t
+PRUint32
 HashValue
 (
 )

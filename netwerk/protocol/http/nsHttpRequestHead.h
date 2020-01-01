@@ -54,6 +54,12 @@ NS_HTTP_VERSION_1_1
 )
 {
 }
+~
+nsHttpRequestHead
+(
+)
+{
+}
 void
 SetMethod
 (
@@ -92,18 +98,6 @@ mRequestURI
 s
 ;
 }
-const
-nsHttpHeaderArray
-&
-Headers
-(
-)
-const
-{
-return
-mHeaders
-;
-}
 nsHttpHeaderArray
 &
 Headers
@@ -118,7 +112,6 @@ nsHttpAtom
 Method
 (
 )
-const
 {
 return
 mMethod
@@ -128,7 +121,6 @@ nsHttpVersion
 Version
 (
 )
-const
 {
 return
 mVersion
@@ -140,7 +132,6 @@ nsCSubstring
 RequestURI
 (
 )
-const
 {
 return
 mRequestURI
@@ -154,7 +145,6 @@ PeekHeader
 nsHttpAtom
 h
 )
-const
 {
 return
 mHeaders
@@ -200,7 +190,6 @@ nsACString
 &
 v
 )
-const
 {
 return
 mHeaders
@@ -251,7 +240,6 @@ char
 *
 v
 )
-const
 {
 return
 mHeaders
@@ -273,7 +261,6 @@ char
 *
 v
 )
-const
 {
 return
 mHeaders
@@ -307,13 +294,7 @@ mMethod
 nsHttpVersion
 mVersion
 ;
-mozilla
-:
-:
-net
-:
-:
-InfallableCopyCString
+nsCString
 mRequestURI
 ;
 }

@@ -24,15 +24,6 @@ h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIInputStreamTee
 .
 h
@@ -122,7 +113,6 @@ args
 endif
 class
 nsInputStreamTee
-MOZ_FINAL
 :
 public
 nsIInputStreamTee
@@ -161,7 +151,7 @@ const
 char
 *
 buf
-uint32_t
+PRUint32
 count
 )
 ;
@@ -176,9 +166,9 @@ void
 const
 char
 *
-uint32_t
-uint32_t
-uint32_t
+PRUint32
+PRUint32
+PRUint32
 *
 )
 ;
@@ -234,7 +224,7 @@ const
 char
 *
 aBuf
-uint32_t
+PRUint32
 aCount
 nsIOutputStream
 *
@@ -295,7 +285,7 @@ NS_ASSERTION
 isNonBlocking
 =
 =
-false
+PR_FALSE
 "
 mSink
 is
@@ -405,7 +395,7 @@ get
 )
 )
 ;
-uint32_t
+PRUint32
 totalBytesWritten
 =
 0
@@ -418,7 +408,7 @@ mCount
 nsresult
 rv
 ;
-uint32_t
+PRUint32
 bytesWritten
 =
 0
@@ -526,7 +516,7 @@ mBuf
 ;
 mBuf
 =
-nullptr
+nsnull
 ;
 }
 private
@@ -535,7 +525,7 @@ char
 *
 mBuf
 ;
-uint32_t
+PRUint32
 mCount
 ;
 nsCOMPtr
@@ -561,7 +551,7 @@ nsInputStreamTee
 :
 mLock
 (
-nullptr
+nsnull
 )
 mSinkIsValid
 (
@@ -618,7 +608,7 @@ const
 char
 *
 buf
-uint32_t
+PRUint32
 count
 )
 {
@@ -740,7 +730,7 @@ null
 nsresult
 rv
 ;
-uint32_t
+PRUint32
 totalBytesWritten
 =
 0
@@ -750,7 +740,7 @@ while
 count
 )
 {
-uint32_t
+PRUint32
 bytesWritten
 =
 0
@@ -859,11 +849,11 @@ const
 char
 *
 fromSegment
-uint32_t
+PRUint32
 offset
-uint32_t
+PRUint32
 count
-uint32_t
+PRUint32
 *
 writeCount
 )
@@ -933,7 +923,7 @@ writeCount
 0
 )
 :
-true
+PR_TRUE
 )
 "
 writer
@@ -1012,7 +1002,7 @@ nsInputStreamTee
 :
 Available
 (
-uint64_t
+PRUint32
 *
 avail
 )
@@ -1042,9 +1032,9 @@ Read
 char
 *
 buf
-uint32_t
+PRUint32
 count
-uint32_t
+PRUint32
 *
 bytesRead
 )
@@ -1107,9 +1097,9 @@ writer
 void
 *
 closure
-uint32_t
+PRUint32
 count
-uint32_t
+PRUint32
 *
 bytesRead
 )
@@ -1496,7 +1486,7 @@ NS_NewInputStreamTeeAsync
 result
 source
 sink
-nullptr
+nsnull
 )
 ;
 }

@@ -65,7 +65,7 @@ PRLogModuleInfo
 *
 gIOThreadPoolLog
 =
-nullptr
+nsnull
 ;
 #
 endif
@@ -171,10 +171,10 @@ PRCondVar
 *
 mExitThreadCV
 ;
-uint32_t
+PRUint32
 mNumThreads
 ;
-uint32_t
+PRUint32
 mNumIdleThreads
 ;
 PRCList
@@ -182,9 +182,6 @@ mEventQ
 ;
 bool
 mShutdown
-;
-nsThreadPoolNaming
-mNaming
 ;
 }
 ;
@@ -234,7 +231,7 @@ mNumIdleThreads
 ;
 mShutdown
 =
-false
+PR_FALSE
 ;
 mLock
 =
@@ -328,7 +325,7 @@ shutdown
 -
 threads
 "
-false
+PR_FALSE
 )
 ;
 return
@@ -453,7 +450,7 @@ mLock
 ;
 mShutdown
 =
-true
+PR_TRUE
 ;
 PR_NotifyAllCondVar
 (
@@ -624,7 +621,7 @@ IsOnCurrentThread
 *
 result
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -697,19 +694,6 @@ nsIOThreadPool
 *
 )
 arg
-;
-pool
--
->
-mNaming
-.
-SetThreadPoolName
-(
-"
-IO
-Thread
-"
-)
 ;
 LOG
 (

@@ -177,7 +177,7 @@ nsIRDFResource
 aProperty
 bool
 aInline
-int32_t
+PRInt32
 *
 aSkipped
 )
@@ -284,11 +284,11 @@ friend
 class
 QNameCollector
 ;
-uint32_t
+PRUint32
 mPrefixID
 ;
 static
-int32_t
+PRInt32
 gRefCnt
 ;
 static

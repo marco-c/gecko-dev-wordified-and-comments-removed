@@ -105,7 +105,7 @@ nsMathMLmsupFrame
 )
 ;
 virtual
-int
+PRIntn
 GetSkipSides
 (
 )

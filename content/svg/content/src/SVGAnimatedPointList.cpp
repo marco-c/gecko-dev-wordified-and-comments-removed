@@ -27,6 +27,9 @@ nsSVGAttrTearoffTable
 h
 "
 #
+ifdef
+MOZ_SMIL
+#
 include
 "
 nsSMILValue
@@ -40,6 +43,8 @@ SVGPointListSMILType
 .
 h
 "
+#
+endif
 namespace
 mozilla
 {
@@ -100,7 +105,7 @@ DOMSVGPointList
 *
 animValWrapper
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -412,7 +417,7 @@ mBaseVal
 }
 mAnimVal
 =
-nullptr
+nsnull
 ;
 aElement
 -
@@ -422,6 +427,9 @@ DidAnimatePointList
 )
 ;
 }
+#
+ifdef
+MOZ_SMIL
 nsISMILAttr
 *
 SVGAnimatedPointList
@@ -532,7 +540,7 @@ val
 }
 aPreventCachingOfSandwich
 =
-false
+PR_FALSE
 ;
 return
 rv
@@ -728,4 +736,6 @@ mElement
 ;
 }
 }
+#
+endif
 }

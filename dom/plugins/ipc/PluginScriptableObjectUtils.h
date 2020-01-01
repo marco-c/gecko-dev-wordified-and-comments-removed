@@ -146,7 +146,7 @@ object
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 if
@@ -159,7 +159,7 @@ parent
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 return
@@ -293,7 +293,7 @@ here
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 }
@@ -368,7 +368,7 @@ module
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 return
@@ -428,7 +428,7 @@ instance
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 return
@@ -589,7 +589,7 @@ PluginInstanceParent
 *
 aInstance
 =
-nullptr
+nsnull
 )
 ;
 template
@@ -717,7 +717,7 @@ const
 NPVariant
 *
 aArgs
-uint32_t
+PRUint32
 aCount
 PluginInstanceParent
 *
@@ -731,7 +731,7 @@ false
 {
 for
 (
-uint32_t
+PRUint32
 index
 =
 0
@@ -795,7 +795,7 @@ const
 NPVariant
 *
 aArgs
-uint32_t
+PRUint32
 aCount
 PluginInstanceChild
 *
@@ -809,7 +809,7 @@ false
 {
 for
 (
-uint32_t
+PRUint32
 index
 =
 0
@@ -883,7 +883,7 @@ EnsureAndGetShadowArray
 (
 )
 ;
-uint32_t
+PRUint32
 count
 =
 vars
@@ -894,7 +894,7 @@ Length
 ;
 for
 (
-uint32_t
+PRUint32
 index
 =
 0

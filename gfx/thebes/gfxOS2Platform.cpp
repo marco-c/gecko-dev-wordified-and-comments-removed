@@ -47,7 +47,7 @@ gfxOS2Platform
 :
 sFontconfigUtils
 =
-nullptr
+nsnull
 ;
 gfxOS2Platform
 :
@@ -151,7 +151,7 @@ Shutdown
 ;
 sFontconfigUtils
 =
-nullptr
+nsnull
 ;
 cairo_os2_fini
 (
@@ -233,7 +233,7 @@ gfxASurface
 *
 newSurface
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -261,7 +261,10 @@ new
 gfxOS2Surface
 (
 aSize
-OptimalFormatForContent
+gfxASurface
+:
+:
+FormatFromContent
 (
 contentType
 )
@@ -286,7 +289,10 @@ new
 gfxImageSurface
 (
 aSize
-OptimalFormatForContent
+gfxASurface
+:
+:
+FormatFromContent
 (
 contentType
 )
@@ -296,7 +302,7 @@ contentType
 else
 {
 return
-nullptr
+nsnull
 ;
 }
 NS_IF_ADDREF
@@ -608,7 +614,7 @@ gfxOS2Platform
 :
 FindFontForChar
 (
-uint32_t
+PRUint32
 aCh
 gfxOS2Font
 *
@@ -651,7 +657,7 @@ aCh
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 nsTArray
@@ -660,7 +666,7 @@ nsString
 >
 fontList
 ;
-nsAutoCString
+nsCAutoString
 generic
 ;
 nsresult
@@ -691,7 +697,7 @@ rv
 {
 for
 (
-uint32_t
+PRUint32
 i
 =
 3
@@ -863,6 +869,6 @@ aCh
 )
 ;
 return
-nullptr
+nsnull
 ;
 }

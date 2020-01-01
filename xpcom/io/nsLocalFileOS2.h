@@ -175,7 +175,7 @@ MakeDirty
 {
 mDirty
 =
-true
+PR_TRUE
 ;
 }
 nsresult
@@ -217,7 +217,7 @@ move
 nsresult
 SetModDate
 (
-int64_t
+PRInt64
 aLastModifiedTime
 )
 ;

@@ -487,7 +487,7 @@ mFlags
 .
 mIsTopOfPage
 =
-true
+PR_TRUE
 ;
 kidReflowState
 .
@@ -495,7 +495,7 @@ mFlags
 .
 mTableIsSplittable
 =
-true
+PR_TRUE
 ;
 nscoord
 xc
@@ -812,7 +812,7 @@ mPD
 mDateTimeStr
 !
 =
-nullptr
+nsnull
 )
 {
 aNewStr
@@ -1002,7 +1002,7 @@ mPD
 mDocTitle
 !
 =
-nullptr
+nsnull
 )
 {
 aNewStr
@@ -1073,7 +1073,7 @@ mPD
 mDocURL
 !
 =
-nullptr
+nsnull
 )
 {
 aNewStr
@@ -1187,7 +1187,7 @@ const
 nsRect
 &
 aRect
-int32_t
+PRInt32
 aJust
 const
 nsString
@@ -1345,7 +1345,7 @@ nscoord
 aHeight
 )
 {
-int32_t
+PRInt32
 numStrs
 =
 0
@@ -1497,7 +1497,7 @@ nsRenderingContext
 aRenderingContext
 nsHeaderFooterEnum
 aHeaderFooter
-int32_t
+PRInt32
 aJust
 const
 nsString
@@ -1583,10 +1583,10 @@ aStr
 str
 )
 ;
-int32_t
+PRInt32
 indx
 ;
-int32_t
+PRInt32
 textWidth
 =
 0
@@ -1602,11 +1602,11 @@ get
 (
 )
 ;
-int32_t
+PRInt32
 len
 =
 (
-int32_t
+PRInt32
 )
 str
 .
@@ -1639,7 +1639,7 @@ text
 0
 0
 len
-int32_t
+PRInt32
 (
 contentWidth
 )
@@ -2080,9 +2080,9 @@ nsPageFrame
 :
 SetPageNumInfo
 (
-int32_t
+PRInt32
 aPageNumber
-int32_t
+PRInt32
 aTotalPages
 )
 {
@@ -2215,7 +2215,7 @@ mPD
 -
 >
 mHeadFootFont
-nullptr
+nsnull
 pc
 -
 >
@@ -2809,7 +2809,7 @@ aContext
 )
 mHaveReflowed
 (
-false
+PR_FALSE
 )
 {
 }
@@ -2935,7 +2935,7 @@ CSSPixelsToAppUnits
 ;
 mHaveReflowed
 =
-true
+PR_TRUE
 ;
 aStatus
 =

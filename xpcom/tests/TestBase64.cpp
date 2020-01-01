@@ -45,7 +45,7 @@ Chunk
 {
 Chunk
 (
-uint32_t
+PRUint32
 l
 const
 char
@@ -63,7 +63,7 @@ c
 )
 {
 }
-uint32_t
+PRUint32
 mLength
 ;
 const
@@ -126,7 +126,7 @@ sir
 Chunk
 (
 0
-nullptr
+nsnull
 )
 }
 ;
@@ -161,7 +161,7 @@ sir
 Chunk
 (
 0
-nullptr
+nsnull
 )
 }
 ;
@@ -182,7 +182,7 @@ I
 Chunk
 (
 0
-nullptr
+nsnull
 )
 }
 ;
@@ -203,7 +203,7 @@ Hi
 Chunk
 (
 0
-nullptr
+nsnull
 )
 }
 ;
@@ -231,7 +231,7 @@ ob
 Chunk
 (
 0
-nullptr
+nsnull
 )
 }
 ;
@@ -259,7 +259,7 @@ b
 Chunk
 (
 0
-nullptr
+nsnull
 )
 }
 ;
@@ -323,7 +323,7 @@ e
 Chunk
 (
 0
-nullptr
+nsnull
 )
 }
 ;
@@ -395,7 +395,7 @@ THERE
 Chunk
 (
 0
-nullptr
+nsnull
 )
 }
 ;
@@ -471,8 +471,8 @@ QUxMIFRIRVNFIFdPUkxEUyBBUkUgWU9VUlMgRVhDRVBUIEVVUk9QQS4gQVRURU1QVCBOTyBMQU5ESU5H
 )
 Test
 (
-nullptr
-nullptr
+nsnull
+nsnull
 )
 }
 ;
@@ -547,7 +547,7 @@ aResult
 ;
 private
 :
-uint32_t
+PRUint32
 mTestNumber
 ;
 const
@@ -592,7 +592,7 @@ FakeInputStream
 :
 Available
 (
-uint64_t
+PRUint32
 *
 aAvailable
 )
@@ -651,9 +651,9 @@ Read
 char
 *
 aBuffer
-uint32_t
+PRUint32
 aCount
-uint32_t
+PRUint32
 *
 aOut
 )
@@ -673,9 +673,9 @@ aWriter
 void
 *
 aClosure
-uint32_t
+PRUint32
 aCount
-uint32_t
+PRUint32
 *
 aRead
 )
@@ -700,7 +700,7 @@ mChunk
 mLength
 )
 {
-uint32_t
+PRUint32
 written
 =
 0
@@ -764,7 +764,7 @@ aIsBlocking
 *
 aIsBlocking
 =
-false
+PR_FALSE
 ;
 return
 NS_OK

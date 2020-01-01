@@ -33,13 +33,6 @@ nsContentUtils
 .
 h
 "
-#
-include
-"
-nsDOMClassInfoID
-.
-h
-"
 nsDOMCSSRGBColor
 :
 :

@@ -51,7 +51,7 @@ USE
 Type
 mType
 ;
-int32_t
+PRInt32
 mValueAfter
 ;
 nsCounterNode
@@ -78,7 +78,7 @@ ChangeNode
 ;
 nsCounterNode
 (
-int32_t
+PRInt32
 aContentIndex
 Type
 aType
@@ -98,11 +98,11 @@ mValueAfter
 )
 mScopeStart
 (
-nullptr
+nsnull
 )
 mScopePrev
 (
-nullptr
+nsnull
 )
 {
 }
@@ -143,7 +143,7 @@ nsCSSValue
 Array
 *
 aCounterStyle
-uint32_t
+PRUint32
 aContentIndex
 bool
 aAllCounters
@@ -216,7 +216,7 @@ nsCounterChangeNode
 public
 nsCounterNode
 {
-int32_t
+PRInt32
 mChangeValue
 ;
 nsCounterChangeNode
@@ -229,9 +229,9 @@ nsCounterNode
 :
 Type
 aChangeType
-int32_t
+PRInt32
 aChangeValue
-int32_t
+PRInt32
 aPropIndex
 )
 :
@@ -442,7 +442,7 @@ nsGenConList
 )
 mDirty
 (
-false
+PR_FALSE
 )
 {
 }
@@ -552,7 +552,7 @@ aNode
 ;
 }
 static
-int32_t
+PRInt32
 ValueBefore
 (
 nsCounterNode
@@ -606,7 +606,7 @@ SetDirty
 {
 mDirty
 =
-true
+PR_TRUE
 ;
 }
 private
@@ -686,7 +686,7 @@ AddResetOrIncrement
 nsIFrame
 *
 aFrame
-int32_t
+PRInt32
 aIndex
 const
 nsStyleCounterData

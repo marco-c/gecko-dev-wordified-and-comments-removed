@@ -128,7 +128,7 @@ aCommand
 nsIDOMWindow
 *
 aWindow
-uint32_t
+PRUint32
 aTimestamp
 )
 ;
@@ -144,7 +144,7 @@ aBuffer
 nsIDOMWindow
 *
 aWindow
-uint32_t
+PRUint32
 aTimestamp
 )
 ;
@@ -156,7 +156,7 @@ const
 nsACString
 &
 aDesktopStartupID
-uint32_t
+PRUint32
 aTimestamp
 )
 =

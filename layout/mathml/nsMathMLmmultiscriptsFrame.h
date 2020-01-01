@@ -81,7 +81,7 @@ nsMathMLmmultiscriptsFrame
 )
 ;
 virtual
-int
+PRIntn
 GetSkipSides
 (
 )

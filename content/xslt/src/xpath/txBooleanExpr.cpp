@@ -30,7 +30,7 @@ aResult
 *
 aResult
 =
-nullptr
+nsnull
 ;
 bool
 lval
@@ -74,7 +74,7 @@ recycler
 >
 getBoolResult
 (
-true
+PR_TRUE
 aResult
 )
 ;
@@ -104,7 +104,7 @@ recycler
 >
 getBoolResult
 (
-false
+PR_FALSE
 aResult
 )
 ;

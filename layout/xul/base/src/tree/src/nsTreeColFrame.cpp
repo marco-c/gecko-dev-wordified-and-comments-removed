@@ -43,6 +43,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsIBoxObject
 .
 h
@@ -184,7 +191,7 @@ aDestructRoot
 {
 InvalidateColumns
 (
-false
+PR_FALSE
 )
 ;
 nsBoxFrame
@@ -348,7 +355,7 @@ XMost
 {
 right
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -369,7 +376,7 @@ x
 {
 left
 =
-true
+PR_TRUE
 ;
 }
 if
@@ -581,12 +588,12 @@ nsTreeColFrame
 :
 AttributeChanged
 (
-int32_t
+PRInt32
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-int32_t
+PRInt32
 aModType
 )
 {
@@ -712,7 +719,7 @@ nsITreeBoxObject
 *
 result
 =
-nullptr
+nsnull
 ;
 nsIContent
 *

@@ -90,7 +90,7 @@ char
 *
 kTraceDelimiter
 ;
-nsAutoCString
+nsCAutoString
 mTrace
 ;
 public
@@ -562,7 +562,7 @@ HasMore
 hasMore
 )
 ;
-nsAutoCString
+nsCAutoString
 charset
 ;
 while
@@ -868,7 +868,7 @@ while
 hasMore
 )
 {
-nsAutoCString
+nsCAutoString
 detectorName
 ;
 res
@@ -1174,7 +1174,7 @@ n
 "
 )
 ;
-uint32_t
+PRUint32
 encCount
 =
 0
@@ -1182,7 +1182,7 @@ decCount
 =
 0
 ;
-uint32_t
+PRUint32
 basicEncCount
 =
 0
@@ -1196,7 +1196,7 @@ nsCString
 >
 allCharsets
 ;
-nsAutoCString
+nsCAutoString
 charset
 ;
 bool
@@ -1254,7 +1254,7 @@ nsAutoString
 prop
 str
 ;
-uint32_t
+PRUint32
 count
 =
 allCharsets
@@ -1265,7 +1265,7 @@ Length
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -1318,6 +1318,8 @@ nsCOMPtr
 nsIUnicodeDecoder
 >
 dec
+=
+NULL
 ;
 res
 =
@@ -1366,7 +1368,7 @@ decCount
 }
 #
 ifdef
-DEBUG
+NS_DEBUG
 if
 (
 dec
@@ -1422,6 +1424,8 @@ nsCOMPtr
 nsIUnicodeEncoder
 >
 enc
+=
+NULL
 ;
 res
 =
@@ -1470,7 +1474,7 @@ encCount
 }
 #
 ifdef
-DEBUG
+NS_DEBUG
 if
 (
 enc
@@ -1559,7 +1563,12 @@ str
 ;
 if
 (
+(
 dec
+!
+=
+NULL
+)
 &
 &
 (
@@ -1616,7 +1625,12 @@ str
 ;
 if
 (
+(
 enc
+!
+=
+NULL
+)
 &
 &
 (
@@ -1673,7 +1687,12 @@ str
 ;
 if
 (
+(
 dec
+!
+=
+NULL
+)
 &
 &
 (
@@ -1730,7 +1749,12 @@ str
 ;
 if
 (
+(
 enc
+!
+=
+NULL
+)
 &
 &
 (
@@ -2273,14 +2297,14 @@ dest
 aDest
 )
 ;
-int32_t
+PRInt32
 srcLen
 =
 aSrcEnd
 -
 src
 ;
-int32_t
+PRInt32
 destLen
 =
 aDestEnd
@@ -2352,7 +2376,7 @@ dest
 aDest
 )
 ;
-int32_t
+PRInt32
 destLen
 =
 aDestEnd

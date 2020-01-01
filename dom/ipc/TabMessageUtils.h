@@ -7,7 +7,7 @@ TABMESSAGE_UTILS_H
 #
 include
 "
-ipc
+IPC
 /
 IPCMessageUtils
 .
@@ -16,7 +16,7 @@ h
 #
 include
 "
-nsIDOMEvent
+nsIPrivateDOMEvent
 .
 h
 "
@@ -50,7 +50,7 @@ RemoteDOMEvent
 {
 nsCOMPtr
 <
-nsIDOMEvent
+nsIPrivateDOMEvent
 >
 mEvent
 ;
@@ -150,7 +150,7 @@ mEvent
 Serialize
 (
 aMsg
-true
+PR_TRUE
 )
 ;
 }

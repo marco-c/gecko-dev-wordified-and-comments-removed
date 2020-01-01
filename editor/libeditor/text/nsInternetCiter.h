@@ -7,14 +7,7 @@ nsInternetCiter_h__
 #
 include
 "
-nscore
-.
-h
-"
-#
-include
-"
-prtypes
+nsString
 .
 h
 "
@@ -57,9 +50,9 @@ const
 nsAString
 &
 aInString
-uint32_t
+PRUint32
 aWrapCol
-uint32_t
+PRUint32
 aFirstLineOffset
 bool
 aRespectNewlines
@@ -83,7 +76,7 @@ nsAString
 aOutString
 bool
 aLinebreaksToo
-int32_t
+PRInt32
 *
 aCiteLevel
 )

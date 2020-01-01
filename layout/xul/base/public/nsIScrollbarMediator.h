@@ -29,9 +29,9 @@ PositionChanged
 nsScrollbarFrame
 *
 aScrollbar
-int32_t
+PRInt32
 aOldIndex
-int32_t
+PRInt32
 &
 aNewIndex
 )
@@ -44,9 +44,9 @@ ScrollbarButtonPressed
 nsScrollbarFrame
 *
 aScrollbar
-int32_t
+PRInt32
 aOldIndex
-int32_t
+PRInt32
 aNewIndex
 )
 =

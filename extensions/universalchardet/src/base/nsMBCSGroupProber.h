@@ -67,7 +67,7 @@ public
 :
 nsMBCSGroupProber
 (
-uint32_t
+PRUint32
 aLanguageFilter
 )
 ;
@@ -84,7 +84,7 @@ const
 char
 *
 aBuf
-uint32_t
+PRUint32
 aLen
 )
 ;
@@ -117,6 +117,12 @@ GetConfidence
 void
 )
 ;
+void
+SetOpion
+(
+)
+{
+}
 #
 ifdef
 DEBUG_chardet
@@ -147,7 +153,7 @@ nsUniversalDetector
 :
 NumDetectors
 ]
-uint32_t
+PRUint32
 &
 offset
 )
@@ -172,13 +178,13 @@ mIsActive
 NUM_OF_PROBERS
 ]
 ;
-int32_t
+PRInt32
 mBestGuess
 ;
-uint32_t
+PRUint32
 mActiveNum
 ;
-uint32_t
+PRUint32
 mKeepNext
 ;
 }

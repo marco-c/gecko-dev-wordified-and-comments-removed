@@ -14,11 +14,11 @@ nsSMILInterval
 :
 mBeginFixed
 (
-false
+PR_FALSE
 )
 mEndFixed
 (
-false
+PR_FALSE
 )
 {
 }
@@ -47,11 +47,11 @@ mEnd
 )
 mBeginFixed
 (
-false
+PR_FALSE
 )
 mEndFixed
 (
-false
+PR_FALSE
 )
 {
 NS_ABORT_IF_FALSE
@@ -163,7 +163,7 @@ aFiltered
 {
 for
 (
-int32_t
+PRInt32
 i
 =
 mDependentTimes
@@ -238,7 +238,7 @@ ReleaseFixedEndpoint
 }
 mBegin
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -258,7 +258,7 @@ ReleaseFixedEndpoint
 }
 mEnd
 =
-nullptr
+nsnull
 ;
 }
 nsSMILInstanceTime
@@ -518,7 +518,7 @@ FixBegin
 ;
 mBeginFixed
 =
-true
+PR_TRUE
 ;
 mBegin
 -
@@ -587,7 +587,7 @@ FixEnd
 ;
 mEndFixed
 =
-true
+PR_TRUE
 ;
 mEnd
 -
@@ -724,7 +724,7 @@ mBegin
 mEnd
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -735,7 +735,7 @@ IsEmpty
 )
 )
 return
-false
+PR_FALSE
 ;
 return
 (

@@ -219,7 +219,7 @@ aResult
 )
 ;
 nsresult
-OpenWindowInternal
+OpenWindowJSInternal
 (
 nsIDOMWindow
 *
@@ -237,14 +237,12 @@ char
 *
 aFeatures
 bool
-aCalledFromJS
-bool
 aDialog
-bool
-aNavigate
 nsIArray
 *
 argv
+bool
+aCalledFromJS
 nsIDOMWindow
 *
 *
@@ -286,12 +284,9 @@ aURI
 )
 ;
 static
-uint32_t
+PRUint32
 CalculateChromeFlags
 (
-nsIDOMWindow
-*
-aParent
 const
 char
 *
@@ -307,7 +302,7 @@ aHasChromeParent
 )
 ;
 static
-int32_t
+PRInt32
 WinHasOption
 (
 const
@@ -318,7 +313,7 @@ const
 char
 *
 aName
-int32_t
+PRInt32
 aDefault
 bool
 *

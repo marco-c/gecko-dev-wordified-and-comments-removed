@@ -32,6 +32,7 @@ xpcomFile
 GetFrozenFunctionsFunc
 *
 func
+NS_OUTPARAM
 )
 ;
 NS_HIDDEN_

@@ -32,15 +32,6 @@ nsCycleCollectionParticipant
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsITreeBoxObject
 ;
@@ -49,7 +40,6 @@ nsTreeRange
 ;
 class
 nsTreeSelection
-MOZ_FINAL
 :
 public
 nsINativeTreeSelection
@@ -117,7 +107,7 @@ mTree
 bool
 mSuppressed
 ;
-int32_t
+PRInt32
 mCurrentIndex
 ;
 nsCOMPtr
@@ -126,7 +116,7 @@ nsITreeColumn
 >
 mCurrentColumn
 ;
-int32_t
+PRInt32
 mShiftSelectPivot
 ;
 nsTreeRange

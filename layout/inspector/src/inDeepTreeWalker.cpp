@@ -77,11 +77,11 @@ inDeepTreeWalker
 :
 mShowAnonymousContent
 (
-false
+PR_FALSE
 )
 mShowSubDocuments
 (
-false
+PR_FALSE
 )
 mWhatToShow
 (
@@ -192,7 +192,7 @@ Init
 nsIDOMNode
 *
 aRoot
-uint32_t
+PRUint32
 aWhatToShow
 )
 {
@@ -246,7 +246,7 @@ inDeepTreeWalker
 :
 GetWhatToShow
 (
-uint32_t
+PRUint32
 *
 aWhatToShow
 )
@@ -348,7 +348,7 @@ _retval
 *
 _retval
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -443,7 +443,7 @@ _retval
 *
 _retval
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -539,7 +539,7 @@ _retval
 *
 _retval
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -574,7 +574,7 @@ nsIDOMNode
 >
 kid
 ;
-uint32_t
+PRUint32
 length
 ;
 top
@@ -651,7 +651,7 @@ _retval
 *
 _retval
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -798,7 +798,7 @@ _retval
 *
 _retval
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -959,7 +959,7 @@ Length
 *
 _retval
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -1056,7 +1056,7 @@ mCurrentNode
 ;
 #
 endif
-uint32_t
+PRUint32
 lastChildCallsToMake
 =
 0
@@ -1146,7 +1146,7 @@ node
 *
 _retval
 =
-nullptr
+nsnull
 ;
 return
 NS_OK

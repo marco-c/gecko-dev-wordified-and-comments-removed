@@ -154,7 +154,7 @@ nsCacheEntry
 entry
 nsCacheAccessMode
 mode
-uint32_t
+PRUint32
 offset
 nsIInputStream
 *
@@ -173,7 +173,7 @@ nsCacheEntry
 entry
 nsCacheAccessMode
 mode
-uint32_t
+PRUint32
 offset
 nsIOutputStream
 *
@@ -205,7 +205,7 @@ OnDataSizeChange
 nsCacheEntry
 *
 entry
-int32_t
+PRInt32
 deltaSize
 )
 =

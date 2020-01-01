@@ -87,7 +87,7 @@ nsXPCOMDetector
 :
 nsXPCOMDetector
 (
-uint32_t
+PRUint32
 aLanguageFilter
 )
 :
@@ -127,7 +127,7 @@ NS_ASSERTION
 mObserver
 =
 =
-nullptr
+nsnull
 "
 Init
 twice
@@ -136,7 +136,7 @@ twice
 ;
 if
 (
-nullptr
+nsnull
 =
 =
 aObserver
@@ -162,7 +162,7 @@ const
 char
 *
 aBuf
-uint32_t
+PRUint32
 aLen
 bool
 *
@@ -174,7 +174,7 @@ NS_ASSERTION
 mObserver
 !
 =
-nullptr
+nsnull
 "
 have
 not
@@ -186,7 +186,7 @@ yet
 if
 (
 (
-nullptr
+nsnull
 =
 =
 aBuf
@@ -194,7 +194,7 @@ aBuf
 |
 |
 (
-nullptr
+nsnull
 =
 =
 oDontFeedMe
@@ -249,13 +249,13 @@ mDetectedCharset
 *
 oDontFeedMe
 =
-true
+PR_TRUE
 ;
 }
 *
 oDontFeedMe
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -274,7 +274,7 @@ NS_ASSERTION
 mObserver
 !
 =
-nullptr
+nsnull
 "
 have
 not
@@ -288,7 +288,7 @@ ifdef
 DEBUG_chardet
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -350,7 +350,7 @@ NS_ASSERTION
 mObserver
 !
 =
-nullptr
+nsnull
 "
 have
 not
@@ -398,7 +398,7 @@ nsXPCOMStringDetector
 :
 nsXPCOMStringDetector
 (
-uint32_t
+PRUint32
 aLanguageFilter
 )
 :
@@ -473,7 +473,7 @@ const
 char
 *
 aBuf
-uint32_t
+PRUint32
 aLen
 const
 char
@@ -487,7 +487,7 @@ oConf
 {
 mResult
 =
-nullptr
+nsnull
 ;
 this
 -

@@ -97,7 +97,7 @@ aContext
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 txSingleNodeContext
@@ -132,7 +132,7 @@ res
 NS_ENSURE_SUCCESS
 (
 rv
-false
+PR_FALSE
 )
 ;
 return

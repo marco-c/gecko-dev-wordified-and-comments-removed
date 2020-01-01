@@ -142,16 +142,16 @@ Init
 nsresult
 Renumber
 (
-int32_t
+PRInt32
 aStartIndex
-int32_t
+PRInt32
 aIncrement
 )
 ;
 nsresult
 SetNextValue
 (
-int32_t
+PRInt32
 aIndex
 )
 ;
@@ -173,7 +173,7 @@ nsIRDFResource
 mContainer
 ;
 static
-int32_t
+PRInt32
 gRefCnt
 ;
 static
@@ -193,7 +193,7 @@ kRDF_nextVal
 ;
 }
 ;
-int32_t
+PRInt32
 RDFContainerImpl
 :
 :
@@ -300,7 +300,7 @@ NS_PRECONDITION
 aDataSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -320,7 +320,7 @@ NS_PRECONDITION
 aContainer
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -410,7 +410,7 @@ RDFContainerImpl
 :
 GetCount
 (
-int32_t
+PRInt32
 *
 aCount
 )
@@ -445,7 +445,7 @@ GetTarget
 (
 mContainer
 kRDF_nextVal
-true
+PR_TRUE
 getter_AddRefs
 (
 nextValNode
@@ -537,10 +537,10 @@ nextValStr
 s
 )
 ;
-int32_t
+PRInt32
 nextVal
 ;
-nsresult
+PRInt32
 err
 ;
 nextVal
@@ -635,7 +635,7 @@ NS_PRECONDITION
 aElement
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -689,7 +689,7 @@ Assert
 mContainer
 nextVal
 aElement
-true
+PR_TRUE
 )
 ;
 if
@@ -736,7 +736,7 @@ NS_PRECONDITION
 aElement
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -754,7 +754,7 @@ NS_ERROR_NULL_POINTER
 nsresult
 rv
 ;
-int32_t
+PRInt32
 idx
 ;
 rv
@@ -877,7 +877,7 @@ InsertElementAt
 nsIRDFNode
 *
 aElement
-int32_t
+PRInt32
 aIndex
 bool
 aRenumber
@@ -900,7 +900,7 @@ NS_PRECONDITION
 aElement
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -939,7 +939,7 @@ NS_ERROR_ILLEGAL_VALUE
 nsresult
 rv
 ;
-int32_t
+PRInt32
 count
 ;
 rv
@@ -1050,7 +1050,7 @@ Assert
 mContainer
 ordinal
 aElement
-true
+PR_TRUE
 )
 ;
 if
@@ -1073,7 +1073,7 @@ RDFContainerImpl
 :
 RemoveElementAt
 (
-int32_t
+PRInt32
 aIndex
 bool
 aRenumber
@@ -1098,7 +1098,7 @@ NS_ERROR_NOT_INITIALIZED
 *
 _retval
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -1112,7 +1112,7 @@ NS_ERROR_ILLEGAL_VALUE
 nsresult
 rv
 ;
-int32_t
+PRInt32
 count
 ;
 rv
@@ -1187,7 +1187,7 @@ GetTarget
 (
 mContainer
 ordinal
-true
+PR_TRUE
 getter_AddRefs
 (
 old
@@ -1283,7 +1283,7 @@ IndexOf
 nsIRDFNode
 *
 aElement
-int32_t
+PRInt32
 *
 aIndex
 )
@@ -1322,11 +1322,11 @@ RDFContainerImpl
 :
 mDataSource
 (
-nullptr
+nsnull
 )
 mContainer
 (
-nullptr
+nsnull
 )
 {
 }
@@ -1661,9 +1661,9 @@ RDFContainerImpl
 :
 Renumber
 (
-int32_t
+PRInt32
 aStartIndex
-int32_t
+PRInt32
 aIncrement
 )
 {
@@ -1690,7 +1690,7 @@ aIncrement
 return
 NS_OK
 ;
-int32_t
+PRInt32
 count
 ;
 rv
@@ -1740,7 +1740,7 @@ return
 rv
 ;
 }
-int32_t
+PRInt32
 i
 ;
 if
@@ -1783,7 +1783,7 @@ propagatable
 >
 SetPropagateChanges
 (
-false
+PR_FALSE
 )
 ;
 }
@@ -1851,7 +1851,7 @@ rv
 {
 err
 =
-true
+PR_TRUE
 ;
 continue
 ;
@@ -1888,7 +1888,7 @@ rv
 {
 err
 =
-true
+PR_TRUE
 ;
 continue
 ;
@@ -1908,7 +1908,7 @@ GetTargets
 (
 mContainer
 oldOrdinal
-true
+PR_TRUE
 getter_AddRefs
 (
 targets
@@ -1925,7 +1925,7 @@ rv
 {
 err
 =
-true
+PR_TRUE
 ;
 continue
 ;
@@ -1959,7 +1959,7 @@ rv
 {
 err
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -2000,7 +2000,7 @@ rv
 {
 err
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -2022,7 +2022,7 @@ NS_ASSERTION
 element
 !
 =
-nullptr
+nsnull
 "
 something
 funky
@@ -2040,7 +2040,7 @@ element
 {
 err
 =
-true
+PR_TRUE
 ;
 rv
 =
@@ -2071,7 +2071,7 @@ rv
 {
 err
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -2086,7 +2086,7 @@ Assert
 mContainer
 newOrdinal
 element
-true
+PR_TRUE
 )
 ;
 if
@@ -2099,7 +2099,7 @@ rv
 {
 err
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -2145,7 +2145,7 @@ rv
 {
 err
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -2159,7 +2159,7 @@ propagatable
 >
 SetPropagateChanges
 (
-true
+PR_TRUE
 )
 ;
 }
@@ -2182,7 +2182,7 @@ RDFContainerImpl
 :
 SetNextValue
 (
-int32_t
+PRInt32
 aIndex
 )
 {
@@ -2220,7 +2220,7 @@ GetTarget
 (
 mContainer
 kRDF_nextVal
-true
+PR_TRUE
 getter_AddRefs
 (
 nextValNode
@@ -2328,7 +2328,7 @@ Assert
 mContainer
 kRDF_nextVal
 nextVal
-true
+PR_TRUE
 )
 ;
 if
@@ -2399,7 +2399,7 @@ GetTarget
 (
 mContainer
 kRDF_nextVal
-true
+PR_TRUE
 getter_AddRefs
 (
 nextValNode
@@ -2485,7 +2485,7 @@ rv
 return
 rv
 ;
-int32_t
+PRInt32
 nextVal
 =
 0
@@ -2717,7 +2717,7 @@ Assert
 mContainer
 kRDF_nextVal
 nextValLiteral
-true
+PR_TRUE
 )
 ;
 if

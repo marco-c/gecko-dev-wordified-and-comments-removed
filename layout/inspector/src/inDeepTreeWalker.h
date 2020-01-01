@@ -50,7 +50,7 @@ nsIDOMNodeList
 >
 kids
 ;
-uint32_t
+PRUint32
 lastIndex
 ;
 }
@@ -104,7 +104,7 @@ nsIDOMNode
 >
 mCurrentNode
 ;
-uint32_t
+PRUint32
 mWhatToShow
 ;
 nsAutoTArray

@@ -28,7 +28,7 @@ nsString
 password
 )
 {
-uint32_t
+PRUint32
 flags
 ;
 aAuthInfo
@@ -50,7 +50,7 @@ nsIAuthInformation
 NEED_DOMAIN
 )
 {
-int32_t
+PRInt32
 idx
 =
 user
@@ -149,7 +149,7 @@ machineProcessing
 nsCString
 &
 host
-int32_t
+PRInt32
 *
 port
 )
@@ -183,7 +183,7 @@ rv
 )
 return
 ;
-uint32_t
+PRUint32
 flags
 ;
 aAuthInfo
@@ -256,7 +256,7 @@ nsIProxyInfo
 "
 )
 ;
-nsAutoCString
+nsCAutoString
 idnhost
 ;
 info
@@ -431,7 +431,7 @@ return
 nsCString
 host
 ;
-int32_t
+PRInt32
 port
 =
 -
@@ -441,7 +441,7 @@ NS_GetAuthHostPort
 (
 aChannel
 aAuthInfo
-true
+PR_TRUE
 host
 &
 port

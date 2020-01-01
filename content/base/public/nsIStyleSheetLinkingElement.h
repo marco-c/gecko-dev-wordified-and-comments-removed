@@ -12,6 +12,9 @@ nsISupports
 h
 "
 class
+nsIDocument
+;
+class
 nsICSSLoaderObserver
 ;
 class
@@ -132,7 +135,7 @@ virtual
 void
 SetLineNumber
 (
-uint32_t
+PRUint32
 aLineNumber
 )
 =

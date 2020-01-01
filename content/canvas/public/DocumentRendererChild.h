@@ -18,6 +18,13 @@ h
 #
 include
 "
+nsICanvasRenderingContextInternal
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -74,7 +81,7 @@ const
 nsString
 &
 bgcolor
-uint32_t
+PRUint32
 renderFlags
 bool
 flushLayout

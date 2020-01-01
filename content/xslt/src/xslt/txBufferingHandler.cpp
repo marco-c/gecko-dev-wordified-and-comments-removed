@@ -72,7 +72,7 @@ txCharacterTransaction
 (
 txTransactionType
 aType
-uint32_t
+PRUint32
 aLength
 )
 :
@@ -105,7 +105,7 @@ txOutputTransaction
 )
 ;
 }
-uint32_t
+PRUint32
 mLength
 ;
 }
@@ -240,7 +240,7 @@ aLocalName
 nsIAtom
 *
 aLowercaseLocalName
-int32_t
+PRInt32
 aNsID
 )
 :
@@ -303,7 +303,7 @@ nsIAtom
 >
 mLowercaseLocalName
 ;
-int32_t
+PRInt32
 mNsID
 ;
 }
@@ -325,7 +325,7 @@ const
 nsSubstring
 &
 aLocalName
-int32_t
+PRInt32
 aNsID
 )
 :
@@ -375,7 +375,7 @@ mPrefix
 nsString
 mLocalName
 ;
-int32_t
+PRInt32
 mNsID
 ;
 }
@@ -397,7 +397,7 @@ const
 nsSubstring
 &
 aLocalName
-int32_t
+PRInt32
 aNsID
 const
 nsString
@@ -455,7 +455,7 @@ mPrefix
 nsString
 mLocalName
 ;
-int32_t
+PRInt32
 mNsID
 ;
 nsString
@@ -482,7 +482,7 @@ aLocalName
 nsIAtom
 *
 aLowercaseLocalName
-int32_t
+PRInt32
 aNsID
 const
 nsString
@@ -553,7 +553,7 @@ nsIAtom
 >
 mLowercaseLocalName
 ;
-int32_t
+PRInt32
 mNsID
 ;
 nsString
@@ -570,7 +570,7 @@ txBufferingHandler
 :
 mCanAddAttribute
 (
-false
+PR_FALSE
 )
 {
 MOZ_COUNT_CTOR
@@ -615,7 +615,7 @@ aLocalName
 nsIAtom
 *
 aLowercaseLocalName
-int32_t
+PRInt32
 aNsID
 const
 nsString
@@ -683,7 +683,7 @@ nsSubstring
 &
 aLocalName
 const
-int32_t
+PRInt32
 aNsID
 const
 nsString
@@ -758,7 +758,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 mCanAddAttribute
 =
-false
+PR_FALSE
 ;
 txOutputTransaction
 :
@@ -895,7 +895,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 mCanAddAttribute
 =
-false
+PR_FALSE
 ;
 txOutputTransaction
 *
@@ -984,7 +984,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 mCanAddAttribute
 =
-false
+PR_FALSE
 ;
 txOutputTransaction
 *
@@ -1039,7 +1039,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 mCanAddAttribute
 =
-false
+PR_FALSE
 ;
 txOutputTransaction
 *
@@ -1126,7 +1126,7 @@ aLocalName
 nsIAtom
 *
 aLowercaseLocalName
-int32_t
+PRInt32
 aNsID
 )
 {
@@ -1138,7 +1138,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 mCanAddAttribute
 =
-true
+PR_TRUE
 ;
 txOutputTransaction
 *
@@ -1183,7 +1183,7 @@ nsSubstring
 &
 aLocalName
 const
-int32_t
+PRInt32
 aNsID
 )
 {
@@ -1195,7 +1195,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 mCanAddAttribute
 =
-true
+PR_TRUE
 ;
 txOutputTransaction
 *
@@ -1253,7 +1253,7 @@ txResultBuffer
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -1303,7 +1303,7 @@ aTransaction
 )
 =
 =
-nullptr
+nsnull
 )
 {
 return
@@ -1741,7 +1741,7 @@ iter
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -1795,7 +1795,7 @@ getLastTransaction
 (
 )
 {
-int32_t
+PRInt32
 last
 =
 mTransactions
@@ -1814,7 +1814,7 @@ last
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 return

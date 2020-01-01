@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsBindingManager
 .
 h
@@ -129,7 +136,7 @@ nsListBoxObject
 :
 mListBoxBody
 (
-nullptr
+nsnull
 )
 {
 }
@@ -139,7 +146,7 @@ nsListBoxObject
 :
 GetRowCount
 (
-int32_t
+PRInt32
 *
 aResult
 )
@@ -150,7 +157,7 @@ body
 =
 GetListBoxBody
 (
-true
+PR_TRUE
 )
 ;
 if
@@ -176,7 +183,7 @@ nsListBoxObject
 :
 GetNumberOfVisibleRows
 (
-int32_t
+PRInt32
 *
 aResult
 )
@@ -187,7 +194,7 @@ body
 =
 GetListBoxBody
 (
-true
+PR_TRUE
 )
 ;
 if
@@ -213,7 +220,7 @@ nsListBoxObject
 :
 GetIndexOfFirstVisibleRow
 (
-int32_t
+PRInt32
 *
 aResult
 )
@@ -224,7 +231,7 @@ body
 =
 GetListBoxBody
 (
-true
+PR_TRUE
 )
 ;
 if
@@ -250,7 +257,7 @@ nsListBoxObject
 :
 EnsureIndexIsVisible
 (
-int32_t
+PRInt32
 aRowIndex
 )
 {
@@ -260,7 +267,7 @@ body
 =
 GetListBoxBody
 (
-true
+PR_TRUE
 )
 ;
 if
@@ -286,7 +293,7 @@ nsListBoxObject
 :
 ScrollToIndex
 (
-int32_t
+PRInt32
 aRowIndex
 )
 {
@@ -296,7 +303,7 @@ body
 =
 GetListBoxBody
 (
-true
+PR_TRUE
 )
 ;
 if
@@ -322,7 +329,7 @@ nsListBoxObject
 :
 ScrollByLines
 (
-int32_t
+PRInt32
 aNumLines
 )
 {
@@ -332,7 +339,7 @@ body
 =
 GetListBoxBody
 (
-true
+PR_TRUE
 )
 ;
 if
@@ -358,7 +365,7 @@ nsListBoxObject
 :
 GetItemAtIndex
 (
-int32_t
+PRInt32
 index
 nsIDOMElement
 *
@@ -372,7 +379,7 @@ body
 =
 GetListBoxBody
 (
-true
+PR_TRUE
 )
 ;
 if
@@ -402,7 +409,7 @@ GetIndexOfItem
 nsIDOMElement
 *
 aElement
-int32_t
+PRInt32
 *
 aResult
 )
@@ -418,7 +425,7 @@ body
 =
 GetListBoxBody
 (
-true
+PR_TRUE
 )
 ;
 if
@@ -491,7 +498,7 @@ kids
 aParent
 -
 >
-OwnerDoc
+GetOwnerDoc
 (
 )
 -
@@ -517,7 +524,7 @@ kids
 )
 return
 ;
-uint32_t
+PRUint32
 i
 ;
 kids
@@ -610,7 +617,7 @@ shell
 =
 GetPresShell
 (
-false
+PR_FALSE
 )
 ;
 if
@@ -620,7 +627,7 @@ shell
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 nsIFrame
@@ -631,7 +638,7 @@ aFlush
 ?
 GetFrame
 (
-false
+PR_FALSE
 )
 :
 mContent
@@ -647,7 +654,7 @@ if
 frame
 )
 return
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -675,7 +682,7 @@ if
 content
 )
 return
-nullptr
+nsnull
 ;
 frame
 =
@@ -692,7 +699,7 @@ if
 frame
 )
 return
-nullptr
+nsnull
 ;
 nsIScrollableFrame
 *
@@ -709,7 +716,7 @@ if
 scrollFrame
 )
 return
-nullptr
+nsnull
 ;
 nsIFrame
 *
@@ -728,7 +735,7 @@ if
 yeahBaby
 )
 return
-nullptr
+nsnull
 ;
 nsListBoxBodyFrame
 *
@@ -751,7 +758,7 @@ SetBoxObject
 (
 this
 )
-nullptr
+nsnull
 )
 ;
 mListBoxBody
@@ -792,7 +799,7 @@ ClearCachedValues
 {
 mListBoxBody
 =
-nullptr
+nsnull
 ;
 }
 nsresult

@@ -30,7 +30,7 @@ aResult
 *
 aResult
 =
-nullptr
+nsnull
 ;
 nsRefPtr
 <

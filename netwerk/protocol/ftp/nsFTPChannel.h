@@ -144,13 +144,6 @@ nsFtpProtocolHandler
 .
 h
 "
-#
-include
-"
-nsNetUtil
-.
-h
-"
 class
 nsFtpChannel
 :
@@ -191,7 +184,7 @@ mStartPos
 )
 mResumeRequested
 (
-false
+PR_FALSE
 )
 mLastModifiedTime
 (
@@ -223,7 +216,7 @@ return
 mResumeRequested
 ;
 }
-uint64_t
+PRUint64
 StartPos
 (
 )
@@ -372,7 +365,7 @@ nsIInputStream
 >
 mUploadStream
 ;
-uint64_t
+PRUint64
 mStartPos
 ;
 nsCString

@@ -7,13 +7,6 @@ nsHashtable_h__
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 pldhash
 .
 h
@@ -100,7 +93,7 @@ void
 )
 ;
 virtual
-uint32_t
+PRUint32
 HashCode
 (
 void
@@ -182,10 +175,10 @@ enum
 {
 kHashEnumerateStop
 =
-false
+PR_FALSE
 kHashEnumerateNext
 =
-true
+PR_TRUE
 }
 ;
 typedef
@@ -278,7 +271,7 @@ public
 :
 nsHashtable
 (
-uint32_t
+PRUint32
 aSize
 =
 16
@@ -294,7 +287,7 @@ nsHashtable
 (
 )
 ;
-int32_t
+PRInt32
 Count
 (
 void
@@ -445,7 +438,7 @@ destroyElementFun
 void
 *
 destroyElementClosure
-uint32_t
+PRUint32
 aSize
 =
 16
@@ -491,7 +484,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-uint32_t
+PRUint32
 i
 void
 *
@@ -527,7 +520,7 @@ public
 :
 nsSupportsHashtable
 (
-uint32_t
+PRUint32
 aSize
 =
 16
@@ -549,7 +542,7 @@ nsSupportsHashtable
 (
 )
 ;
-int32_t
+PRInt32
 Count
 (
 void
@@ -596,7 +589,7 @@ nsISupports
 *
 value
 =
-nullptr
+nsnull
 )
 ;
 nsISupports
@@ -619,7 +612,7 @@ nsISupports
 *
 value
 =
-nullptr
+nsnull
 )
 ;
 nsHashtable
@@ -678,7 +671,7 @@ PLDHashTable
 PLDHashEntryHdr
 *
 hdr
-uint32_t
+PRUint32
 i
 void
 *
@@ -776,7 +769,7 @@ mKey
 )
 ;
 }
-uint32_t
+PRUint32
 HashCode
 (
 void
@@ -870,16 +863,6 @@ aStream
 )
 const
 ;
-nsISupports
-*
-GetValue
-(
-)
-{
-return
-mKey
-;
-}
 }
 ;
 class
@@ -890,14 +873,14 @@ nsHashKey
 {
 protected
 :
-uint32_t
+PRUint32
 mKey
 ;
 public
 :
 nsPRUint32Key
 (
-uint32_t
+PRUint32
 key
 )
 {
@@ -915,7 +898,7 @@ mKey
 key
 ;
 }
-uint32_t
+PRUint32
 HashCode
 (
 void
@@ -968,7 +951,7 @@ mKey
 )
 ;
 }
-uint32_t
+PRUint32
 GetValue
 (
 )
@@ -1041,7 +1024,7 @@ mKey
 key
 ;
 }
-uint32_t
+PRUint32
 HashCode
 (
 void
@@ -1166,7 +1149,7 @@ const
 char
 *
 str
-int32_t
+PRInt32
 strLen
 =
 -
@@ -1199,7 +1182,7 @@ nsCStringKey
 void
 )
 ;
-uint32_t
+PRUint32
 HashCode
 (
 void
@@ -1254,7 +1237,7 @@ return
 mStr
 ;
 }
-uint32_t
+PRUint32
 GetStringLength
 (
 )
@@ -1270,7 +1253,7 @@ char
 *
 mStr
 ;
-uint32_t
+PRUint32
 mStrLen
 ;
 Ownership
@@ -1308,7 +1291,7 @@ const
 PRUnichar
 *
 str
-int32_t
+PRInt32
 strLen
 =
 -
@@ -1341,7 +1324,7 @@ nsStringKey
 void
 )
 ;
-uint32_t
+PRUint32
 HashCode
 (
 void
@@ -1396,7 +1379,7 @@ return
 mStr
 ;
 }
-uint32_t
+PRUint32
 GetStringLength
 (
 )
@@ -1412,7 +1395,7 @@ PRUnichar
 *
 mStr
 ;
-uint32_t
+PRUint32
 mStrLen
 ;
 Ownership

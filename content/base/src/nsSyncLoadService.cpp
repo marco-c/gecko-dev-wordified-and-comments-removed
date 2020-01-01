@@ -71,7 +71,7 @@ h
 #
 include
 "
-nsIPrincipal
+nsIScriptSecurityManager
 .
 h
 "
@@ -137,7 +137,7 @@ nsSyncLoader
 :
 mLoading
 (
-false
+PR_FALSE
 )
 {
 }
@@ -452,7 +452,7 @@ aResult
 *
 aResult
 =
-nullptr
+nsnull
 ;
 nsresult
 rv
@@ -538,7 +538,7 @@ q
 1
 "
 )
-false
+PR_FALSE
 )
 ;
 if
@@ -627,12 +627,12 @@ StartDocumentLoad
 kLoadAsData
 mChannel
 loadGroup
-nullptr
+nsnull
 getter_AddRefs
 (
 listener
 )
-true
+PR_TRUE
 )
 ;
 NS_ENSURE_SUCCESS
@@ -679,7 +679,7 @@ nsCORSListenerProxy
 listener
 aLoaderPrincipal
 mChannel
-false
+PR_FALSE
 &
 rv
 )
@@ -762,7 +762,7 @@ NS_ERROR_FAILURE
 }
 mChannel
 =
-nullptr
+nsnull
 ;
 NS_ENSURE_SUCCESS
 (
@@ -817,7 +817,7 @@ mChannel
 AsyncOpen
 (
 this
-nullptr
+nsnull
 )
 ;
 if
@@ -830,7 +830,7 @@ rv
 {
 mLoading
 =
-true
+PR_TRUE
 ;
 nsIThread
 *
@@ -861,7 +861,7 @@ thread
 >
 ProcessNextEvent
 (
-true
+PR_TRUE
 &
 processedEvent
 )
@@ -885,7 +885,7 @@ NS_ERROR_UNEXPECTED
 }
 mListener
 =
-nullptr
+nsnull
 ;
 NS_ENSURE_SUCCESS
 (
@@ -936,7 +936,7 @@ rv
 ;
 mLoading
 =
-true
+PR_TRUE
 ;
 rv
 =
@@ -952,7 +952,7 @@ mChannel
 ;
 mLoading
 =
-false
+PR_FALSE
 ;
 return
 rv
@@ -1052,7 +1052,7 @@ rv
 }
 mLoading
 =
-false
+PR_FALSE
 ;
 return
 rv
@@ -1070,7 +1070,7 @@ aOldChannel
 nsIChannel
 *
 aNewChannel
-uint32_t
+PRUint32
 aFlags
 nsIAsyncVerifyRedirectCallback
 *
@@ -1168,7 +1168,7 @@ getter_AddRefs
 channel
 )
 aURI
-nullptr
+nsnull
 aLoadGroup
 )
 ;
@@ -1312,7 +1312,7 @@ aIn
 )
 )
 {
-int32_t
+PRInt32
 chunkSize
 ;
 rv
@@ -1343,7 +1343,7 @@ chunkSize
 =
 NS_MIN
 (
-int32_t
+PRInt32
 (
 PR_UINT16_MAX
 )
@@ -1381,7 +1381,7 @@ aListener
 OnStartRequest
 (
 aChannel
-nullptr
+nsnull
 )
 ;
 if
@@ -1392,7 +1392,7 @@ rv
 )
 )
 {
-uint64_t
+PRUint32
 sourceOffset
 =
 0
@@ -1402,7 +1402,7 @@ while
 1
 )
 {
-uint64_t
+PRUint32
 readCount
 =
 0
@@ -1446,16 +1446,6 @@ NS_OK
 break
 ;
 }
-if
-(
-readCount
->
-PR_UINT32_MAX
-)
-readCount
-=
-PR_UINT32_MAX
-;
 rv
 =
 aListener
@@ -1464,22 +1454,9 @@ aListener
 OnDataAvailable
 (
 aChannel
-nullptr
+nsnull
 aIn
-(
-uint32_t
-)
-NS_MIN
-(
 sourceOffset
-(
-uint64_t
-)
-PR_UINT32_MAX
-)
-(
-uint32_t
-)
 readCount
 )
 ;
@@ -1524,7 +1501,7 @@ aListener
 OnStopRequest
 (
 aChannel
-nullptr
+nsnull
 rv
 )
 ;

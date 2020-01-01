@@ -140,7 +140,7 @@ Alloc
 (
 static_cast
 <
-uint32_t
+PRUint32
 >
 (
 n
@@ -250,7 +250,7 @@ T
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 template
@@ -278,7 +278,7 @@ T
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 #

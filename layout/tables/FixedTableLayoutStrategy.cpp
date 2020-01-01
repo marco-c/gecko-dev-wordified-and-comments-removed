@@ -100,7 +100,7 @@ GetCellMap
 (
 )
 ;
-int32_t
+PRInt32
 colCount
 =
 cellMap
@@ -146,7 +146,7 @@ colCount
 }
 for
 (
-int32_t
+PRInt32
 col
 =
 0
@@ -298,7 +298,7 @@ width
 bool
 originates
 ;
-int32_t
+PRInt32
 colSpan
 ;
 nsTableCellFrame
@@ -602,7 +602,7 @@ GetCellMap
 (
 )
 ;
-int32_t
+PRInt32
 colCount
 =
 cellMap
@@ -650,7 +650,7 @@ nscoord
 >
 oldColWidths
 ;
-uint32_t
+PRUint32
 unassignedCount
 =
 0
@@ -680,7 +680,7 @@ specTotal
 ;
 for
 (
-int32_t
+PRInt32
 col
 =
 0
@@ -902,7 +902,7 @@ width
 bool
 originates
 ;
-int32_t
+PRInt32
 colSpan
 ;
 nsTableCellFrame
@@ -1245,7 +1245,7 @@ pctTotal
 ;
 for
 (
-int32_t
+PRInt32
 col
 =
 0
@@ -1360,7 +1360,7 @@ unassignedCount
 ;
 for
 (
-int32_t
+PRInt32
 col
 =
 0
@@ -1453,7 +1453,7 @@ specTotal
 ;
 for
 (
-int32_t
+PRInt32
 col
 =
 0
@@ -1646,7 +1646,7 @@ pctTotal
 ;
 for
 (
-int32_t
+PRInt32
 col
 =
 0
@@ -1817,14 +1817,14 @@ redistribute
 }
 else
 {
-int32_t
+PRInt32
 colsLeft
 =
 colCount
 ;
 for
 (
-int32_t
+PRInt32
 col
 =
 0
@@ -1940,7 +1940,7 @@ redistribute
 }
 for
 (
-int32_t
+PRInt32
 col
 =
 0
@@ -2014,8 +2014,8 @@ DidResizeColumns
 (
 )
 ;
+}
 break
 ;
-}
 }
 }

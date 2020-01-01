@@ -298,7 +298,7 @@ if
 os2Locale
 !
 =
-nullptr
+nsnull
 )
 {
 if
@@ -559,7 +559,7 @@ locale_string
 {
 return
 (
-false
+PR_FALSE
 )
 ;
 }
@@ -706,7 +706,7 @@ language
 ;
 return
 (
-false
+PR_FALSE
 )
 ;
 }
@@ -724,7 +724,7 @@ src
 {
 return
 (
-true
+PR_TRUE
 )
 ;
 }
@@ -815,7 +815,7 @@ language
 ;
 return
 (
-false
+PR_FALSE
 )
 ;
 }
@@ -947,7 +947,7 @@ country
 ;
 return
 (
-false
+PR_FALSE
 )
 ;
 }
@@ -966,7 +966,7 @@ src
 {
 return
 (
-true
+PR_TRUE
 )
 ;
 }
@@ -1052,7 +1052,7 @@ country
 ;
 return
 (
-false
+PR_FALSE
 )
 ;
 }
@@ -1180,7 +1180,7 @@ extra
 ;
 return
 (
-false
+PR_FALSE
 )
 ;
 }
@@ -1199,7 +1199,7 @@ src
 {
 return
 (
-true
+PR_TRUE
 )
 ;
 }
@@ -1353,7 +1353,7 @@ modifier
 ;
 return
 (
-false
+PR_FALSE
 )
 ;
 }
@@ -1372,7 +1372,7 @@ src
 {
 return
 (
-true
+PR_TRUE
 )
 ;
 }
@@ -1422,7 +1422,7 @@ extra
 ;
 return
 (
-false
+PR_FALSE
 )
 ;
 }

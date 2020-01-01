@@ -147,11 +147,11 @@ aEnd
 )
 mPrev
 (
-nullptr
+nsnull
 )
 mNext
 (
-nullptr
+nsnull
 )
 {
 }

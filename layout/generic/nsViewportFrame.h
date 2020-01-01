@@ -195,7 +195,7 @@ aY
 nsIFrame
 *
 aForChild
-uint32_t
+PRUint32
 aFlags
 )
 ;

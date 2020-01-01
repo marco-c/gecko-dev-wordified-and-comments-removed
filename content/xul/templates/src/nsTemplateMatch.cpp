@@ -102,7 +102,7 @@ aMatch
 ;
 aMatch
 =
-nullptr
+nsnull
 ;
 }
 nsresult
@@ -117,7 +117,7 @@ aQuerySet
 nsTemplateRule
 *
 aRule
-int16_t
+PRInt16
 aRuleIndex
 nsIXULTemplateResult
 *

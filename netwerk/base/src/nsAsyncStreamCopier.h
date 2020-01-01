@@ -83,7 +83,7 @@ nsresult
 *
 status
 =
-nullptr
+nsnull
 )
 ;
 void
@@ -149,7 +149,7 @@ mLock
 nsAsyncCopyMode
 mMode
 ;
-uint32_t
+PRUint32
 mChunkSize
 ;
 nsresult

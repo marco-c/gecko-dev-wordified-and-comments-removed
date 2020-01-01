@@ -47,14 +47,14 @@ net
 {
 const
 static
-int32_t
+PRInt32
 kDefaultWSPort
 =
 80
 ;
 const
 static
-int32_t
+PRInt32
 kDefaultWSSPort
 =
 443
@@ -85,6 +85,7 @@ void
 *
 *
 result
+NS_OUTPARAM
 )
 =
 0

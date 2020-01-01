@@ -10,7 +10,7 @@ h
 #
 include
 "
-ipc
+IPC
 /
 IPCMessageUtils
 .
@@ -133,7 +133,7 @@ mEvent
 ;
 mEvent
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -266,7 +266,7 @@ aCancelable
 nsIDOMWindow
 *
 aView
-int32_t
+PRInt32
 aDetail
 float
 aX
@@ -313,10 +313,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP_
-(
 void
-)
 nsDOMScrollAreaEvent
 :
 :
@@ -358,7 +355,7 @@ nsDOMEvent
 Serialize
 (
 aMsg
-false
+PR_FALSE
 )
 ;
 float
@@ -433,10 +430,7 @@ val
 )
 ;
 }
-NS_IMETHODIMP_
-(
 bool
-)
 nsDOMScrollAreaEvent
 :
 :
@@ -465,7 +459,7 @@ Deserialize
 aMsg
 aIter
 )
-false
+PR_FALSE
 )
 ;
 float
@@ -486,7 +480,7 @@ aIter
 &
 x
 )
-false
+PR_FALSE
 )
 ;
 NS_ENSURE_TRUE
@@ -501,7 +495,7 @@ aIter
 &
 y
 )
-false
+PR_FALSE
 )
 ;
 NS_ENSURE_TRUE
@@ -516,7 +510,7 @@ aIter
 &
 width
 )
-false
+PR_FALSE
 )
 ;
 NS_ENSURE_TRUE
@@ -531,7 +525,7 @@ aIter
 &
 height
 )
-false
+PR_FALSE
 )
 ;
 mClientArea
@@ -545,7 +539,7 @@ height
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 nsresult

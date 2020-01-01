@@ -211,7 +211,7 @@ h
 #
 include
 "
-nsError
+nsDOMError
 .
 h
 "
@@ -262,15 +262,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 FunctionTimer
 .
 h
@@ -285,7 +276,7 @@ TIME_URILOADER_FUNCTION
 req
 )
 \
-nsAutoCString
+nsCAutoString
 name__
 (
 "
@@ -362,7 +353,7 @@ nsURILoader
 :
 mLog
 =
-nullptr
+nsnull
 ;
 #
 endif
@@ -411,7 +402,6 @@ PR_LOG_DEBUG
 )
 class
 nsDocumentOpenInfo
-MOZ_FINAL
 :
 public
 nsIStreamListener
@@ -427,7 +417,7 @@ nsDocumentOpenInfo
 nsIInterfaceRequestor
 *
 aWindowContext
-uint32_t
+PRUint32
 aFlags
 nsURILoader
 *
@@ -510,7 +500,7 @@ nsIInterfaceRequestor
 >
 m_originalContext
 ;
-uint32_t
+PRUint32
 mFlags
 ;
 nsCString
@@ -579,7 +569,7 @@ nsDocumentOpenInfo
 nsIInterfaceRequestor
 *
 aWindowContext
-uint32_t
+PRUint32
 aFlags
 nsURILoader
 *
@@ -715,7 +705,7 @@ rv
 )
 )
 {
-uint32_t
+PRUint32
 responseCode
 =
 0
@@ -972,9 +962,9 @@ aCtxt
 nsIInputStream
 *
 inStr
-uint64_t
+PRUint32
 sourceOffset
-uint32_t
+PRUint32
 count
 )
 {
@@ -1298,7 +1288,7 @@ forceExternalHandling
 =
 false
 ;
-uint32_t
+PRUint32
 disposition
 ;
 rv
@@ -1330,7 +1320,7 @@ DISPOSITION_ATTACHMENT
 )
 forceExternalHandling
 =
-true
+PR_TRUE
 ;
 LOG
 (
@@ -1413,7 +1403,7 @@ DONT_RETARGET
 )
 )
 {
-int32_t
+PRInt32
 count
 =
 mURILoader
@@ -1433,7 +1423,7 @@ listener
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -1658,7 +1648,7 @@ NS_OK
 }
 }
 }
-nsAutoCString
+nsCAutoString
 handlerContractID
 (
 NS_CONTENT_HANDLER_CONTRACTID_PREFIX
@@ -1836,7 +1826,7 @@ rv
 {
 m_targetStreamListener
 =
-nullptr
+nsnull
 ;
 }
 else
@@ -2063,7 +2053,7 @@ DoContent
 mContentType
 request
 m_originalContext
-false
+PR_FALSE
 getter_AddRefs
 (
 m_targetStreamListener
@@ -2088,7 +2078,7 @@ loadFlags
 ;
 m_targetStreamListener
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -2308,7 +2298,7 @@ nextLink
 >
 m_targetStreamListener
 =
-nullptr
+nsnull
 ;
 nextLink
 -
@@ -2466,7 +2456,7 @@ mContentType
 get
 (
 )
-false
+PR_FALSE
 getter_Copies
 (
 typeToUse
@@ -2495,7 +2485,7 @@ interested
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -2535,7 +2525,7 @@ rv
 {
 m_targetStreamListener
 =
-nullptr
+nsnull
 ;
 }
 LOG
@@ -2564,7 +2554,7 @@ return
 m_targetStreamListener
 !
 =
-nullptr
+nsnull
 ;
 }
 nsLoadFlags
@@ -2698,10 +2688,10 @@ loadFlags
 ;
 m_targetStreamListener
 =
-nullptr
+nsnull
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -2724,7 +2714,7 @@ load
 ;
 m_targetStreamListener
 =
-nullptr
+nsnull
 ;
 }
 NS_ASSERTION
@@ -2743,7 +2733,7 @@ listener
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 nsURILoader
@@ -2948,7 +2938,7 @@ uri
 )
 )
 ;
-nsAutoCString
+nsCAutoString
 spec
 ;
 uri
@@ -3000,7 +2990,7 @@ IS_CONTENT_PREFERRED
 :
 0
 aWindowContext
-false
+PR_FALSE
 getter_AddRefs
 (
 loader
@@ -3023,7 +3013,7 @@ channel
 AsyncOpen
 (
 loader
-nullptr
+nsnull
 )
 ;
 if
@@ -3082,7 +3072,7 @@ OpenChannel
 nsIChannel
 *
 channel
-uint32_t
+PRUint32
 aFlags
 nsIInterfaceRequestor
 *
@@ -3154,7 +3144,7 @@ uri
 )
 )
 ;
-nsAutoCString
+nsCAutoString
 spec
 ;
 uri
@@ -3467,7 +3457,7 @@ loadGroup
 AddRequest
 (
 channel
-nullptr
+nsnull
 )
 ;
 if
@@ -3481,7 +3471,7 @@ oldGroup
 RemoveRequest
 (
 channel
-nullptr
+nsnull
 NS_BINDING_RETARGETED
 )
 ;
@@ -3533,7 +3523,7 @@ OpenChannel
 nsIChannel
 *
 channel
-uint32_t
+PRUint32
 aFlags
 nsIInterfaceRequestor
 *
@@ -3564,7 +3554,7 @@ pending
 {
 pending
 =
-false
+PR_FALSE
 ;
 }
 return

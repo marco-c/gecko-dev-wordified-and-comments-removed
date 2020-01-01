@@ -42,7 +42,7 @@ virtual
 void
 SetUnknown
 (
-uint64_t
+PRUint64
 aSequenceNumber
 )
 =
@@ -59,7 +59,7 @@ const
 nsIntRect
 &
 aRect
-uint64_t
+PRUint64
 aSequenceNumber
 )
 =
@@ -126,7 +126,7 @@ mSize
 .
 height
 )
-nullptr
+nsnull
 )
 *
 SnapTransform
@@ -139,7 +139,7 @@ gfxRect
 0
 0
 )
-nullptr
+nsnull
 )
 ;
 }
@@ -258,7 +258,7 @@ SetUnknown
 ;
 mSink
 =
-nullptr
+nsnull
 ;
 }
 void
@@ -279,7 +279,7 @@ aLayer
 {
 mBackgroundLayer
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -294,7 +294,7 @@ return
 mBackgroundLayerOffset
 ;
 }
-uint64_t
+PRUint64
 AllocateSequenceNumber
 (
 )
@@ -335,7 +335,7 @@ AllocateSequenceNumber
 }
 mBackgroundLayer
 =
-nullptr
+nsnull
 ;
 mBackgroundColor
 =
@@ -381,7 +381,7 @@ mSize
 )
 mBackgroundLayer
 (
-nullptr
+nsnull
 )
 mBackgroundLayerOffset
 (
@@ -414,7 +414,7 @@ char
 aPrefix
 )
 ;
-uint64_t
+PRUint64
 mSequenceCounter
 ;
 nsAutoPtr

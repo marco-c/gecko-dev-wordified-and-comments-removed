@@ -91,7 +91,7 @@ return
 mCallback
 !
 =
-nullptr
+nsnull
 ;
 }
 nsIEventTarget
@@ -120,7 +120,7 @@ DispatchCallbackSync
 {
 DispatchCallback
 (
-false
+PR_FALSE
 )
 ;
 }

@@ -48,7 +48,7 @@ nsSubstring
 aSource
 PRUnichar
 aSeparatorChar
-uint32_t
+PRUint32
 aFlags
 =
 0
@@ -56,15 +56,15 @@ aFlags
 :
 mFirstTokenBeganWithWhitespace
 (
-false
+PR_FALSE
 )
 mLastTokenEndedWithWhitespace
 (
-false
+PR_FALSE
 )
 mLastTokenEndedWithSeparator
 (
-false
+PR_FALSE
 )
 mSeparatorChar
 (
@@ -106,7 +106,7 @@ mIter
 {
 mFirstTokenBeganWithWhitespace
 =
-true
+PR_TRUE
 ;
 +
 +
@@ -278,7 +278,7 @@ mIter
 ;
 mLastTokenEndedWithWhitespace
 =
-false
+PR_FALSE
 ;
 while
 (
@@ -297,7 +297,7 @@ mIter
 {
 mLastTokenEndedWithWhitespace
 =
-true
+PR_TRUE
 ;
 +
 +
@@ -447,7 +447,7 @@ mLastTokenEndedWithSeparator
 PRUnichar
 mSeparatorChar
 ;
-uint32_t
+PRUint32
 mFlags
 ;
 }
@@ -470,7 +470,7 @@ nsSubstring
 aSource
 PRUnichar
 aSeparatorChar
-uint32_t
+PRUint32
 aFlags
 =
 0

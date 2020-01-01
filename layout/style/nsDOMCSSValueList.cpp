@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsError
+nsDOMError
 .
 h
 "
@@ -30,13 +30,6 @@ h
 include
 "
 nsContentUtils
-.
-h
-"
-#
-include
-"
-nsDOMClassInfoID
 .
 h
 "
@@ -129,7 +122,7 @@ nsDOMCSSValueList
 :
 GetLength
 (
-uint32_t
+PRUint32
 *
 aLength
 )
@@ -153,7 +146,7 @@ nsDOMCSSValueList
 :
 Item
 (
-uint32_t
+PRUint32
 aIndex
 nsIDOMCSSValue
 *
@@ -198,7 +191,7 @@ Truncate
 (
 )
 ;
-uint32_t
+PRUint32
 count
 =
 mCSSValues
@@ -249,7 +242,7 @@ tmpStr
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -410,7 +403,7 @@ nsDOMCSSValueList
 :
 GetCssValueType
 (
-uint16_t
+PRUint16
 *
 aValueType
 )

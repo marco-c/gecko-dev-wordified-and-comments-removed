@@ -42,6 +42,13 @@ h
 #
 include
 "
+nsIUGenCategory
+.
+h
+"
+#
+include
+"
 mozITXTToHTMLConv
 .
 h
@@ -112,6 +119,12 @@ mLanguage
 ;
 nsString
 mCharset
+;
+nsCOMPtr
+<
+nsIUGenCategory
+>
+mCategories
 ;
 nsCOMPtr
 <

@@ -127,7 +127,7 @@ NS_OK
 ;
 aTakenInstantiations
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -322,7 +322,7 @@ rv
 )
 aTakenInstantiations
 =
-true
+PR_TRUE
 ;
 }
 return

@@ -133,7 +133,7 @@ nsCMSMessage
 {
 m_cmsMsg
 =
-nullptr
+nsnull
 ;
 }
 nsCMSMessage
@@ -232,7 +232,7 @@ VerifySignature
 return
 CommonVerifySignature
 (
-nullptr
+nsnull
 0
 )
 ;
@@ -256,7 +256,7 @@ isAlreadyShutDown
 )
 )
 return
-nullptr
+nsnull
 ;
 if
 (
@@ -264,7 +264,7 @@ if
 m_cmsMsg
 )
 return
-nullptr
+nsnull
 ;
 if
 (
@@ -275,7 +275,7 @@ m_cmsMsg
 )
 )
 return
-nullptr
+nsnull
 ;
 NSSCMSContentInfo
 *
@@ -293,7 +293,7 @@ if
 cinfo
 )
 return
-nullptr
+nsnull
 ;
 NSSCMSSignedData
 *
@@ -314,7 +314,7 @@ if
 sigd
 )
 return
-nullptr
+nsnull
 ;
 PR_ASSERT
 (
@@ -741,7 +741,7 @@ si
 certList
 !
 =
-nullptr
+nsnull
 ?
 "
 yes
@@ -757,7 +757,7 @@ no
 *
 scert
 =
-nullptr
+nsnull
 ;
 }
 return
@@ -802,7 +802,7 @@ unsigned
 char
 *
 aDigestData
-uint32_t
+PRUint32
 aDigestDataLen
 )
 {
@@ -836,7 +836,7 @@ unsigned
 char
 *
 aDigestData
-uint32_t
+PRUint32
 aDigestDataLen
 )
 {
@@ -881,19 +881,19 @@ NSSCMSContentInfo
 *
 cinfo
 =
-nullptr
+nsnull
 ;
 NSSCMSSignedData
 *
 sigd
 =
-nullptr
+nsnull
 ;
 NSSCMSSignerInfo
 *
 si
 ;
-int32_t
+PRInt32
 nsigners
 ;
 nsresult
@@ -1075,7 +1075,7 @@ CERT_GetDefaultCertDB
 (
 )
 certUsageEmailRecipient
-true
+PR_TRUE
 )
 !
 =
@@ -1146,7 +1146,7 @@ si
 -
 >
 cert
-true
+PR_TRUE
 certificateUsageEmailSigner
 si
 -
@@ -1247,8 +1247,7 @@ goto
 loser
 ;
 }
-SECStatus
-stat
+rv
 =
 CERT_PKIXVerifyCert
 (
@@ -1275,7 +1274,7 @@ pwfn_arg
 ;
 if
 (
-stat
+rv
 !
 =
 SECSuccess
@@ -1744,7 +1743,7 @@ return
 CommonAsyncVerifySignature
 (
 aListener
-nullptr
+nsnull
 0
 )
 ;
@@ -1762,7 +1761,7 @@ unsigned
 char
 *
 aDigestData
-uint32_t
+PRUint32
 aDigestDataLen
 )
 {
@@ -1800,7 +1799,7 @@ unsigned
 char
 *
 aDigestData
-uint32_t
+PRUint32
 aDigestDataLen
 )
 {
@@ -1870,7 +1869,7 @@ job
 >
 digest_data
 =
-nullptr
+nsnull
 ;
 }
 job
@@ -1933,11 +1932,11 @@ nsZeroTerminatedCertArray
 :
 mCerts
 (
-nullptr
+nsnull
 )
 mPoolp
 (
-nullptr
+nsnull
 )
 mSize
 (
@@ -2001,7 +2000,7 @@ mCerts
 {
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -2041,14 +2040,14 @@ mPoolp
 PORT_FreeArena
 (
 mPoolp
-false
+PR_FALSE
 )
 ;
 }
 bool
 allocate
 (
-uint32_t
+PRUint32
 count
 )
 {
@@ -2057,7 +2056,7 @@ if
 mPoolp
 )
 return
-false
+PR_FALSE
 ;
 mSize
 =
@@ -2069,7 +2068,7 @@ if
 mSize
 )
 return
-false
+PR_FALSE
 ;
 mPoolp
 =
@@ -2084,7 +2083,7 @@ if
 mPoolp
 )
 return
-false
+PR_FALSE
 ;
 mCerts
 =
@@ -2115,11 +2114,11 @@ if
 mCerts
 )
 return
-false
+PR_FALSE
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -2140,17 +2139,17 @@ mCerts
 i
 ]
 =
-nullptr
+nsnull
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 void
 set
 (
-uint32_t
+PRUint32
 i
 CERTCertificate
 *
@@ -2209,7 +2208,7 @@ CERTCertificate
 *
 get
 (
-uint32_t
+PRUint32
 i
 )
 {
@@ -2223,7 +2222,7 @@ isAlreadyShutDown
 )
 )
 return
-nullptr
+nsnull
 ;
 if
 (
@@ -2233,7 +2232,7 @@ i
 mSize
 )
 return
-nullptr
+nsnull
 ;
 return
 CERT_DupCertificate
@@ -2262,7 +2261,7 @@ isAlreadyShutDown
 )
 )
 return
-nullptr
+nsnull
 ;
 return
 mCerts
@@ -2279,7 +2278,7 @@ PLArenaPool
 *
 mPoolp
 ;
-uint32_t
+PRUint32
 mSize
 ;
 }
@@ -2344,7 +2343,7 @@ bulkAlgTag
 int
 keySize
 ;
-uint32_t
+PRUint32
 i
 ;
 nsCOMPtr
@@ -2358,7 +2357,7 @@ rv
 =
 NS_ERROR_FAILURE
 ;
-uint32_t
+PRUint32
 recipientCertCount
 ;
 aRecipientCerts
@@ -2524,7 +2523,7 @@ if
 m_cmsMsg
 =
 =
-nullptr
+nsnull
 )
 {
 PR_LOG
@@ -2573,7 +2572,7 @@ keySize
 )
 =
 =
-nullptr
+nsnull
 )
 {
 PR_LOG
@@ -2664,8 +2663,8 @@ NSS_CMSContentInfo_SetContent_Data
 (
 m_cmsMsg
 cinfo
-nullptr
-false
+nsnull
+PR_FALSE
 )
 !
 =
@@ -2744,7 +2743,7 @@ rc
 )
 =
 =
-nullptr
+nsnull
 )
 {
 PR_LOG
@@ -2831,7 +2830,7 @@ m_cmsMsg
 ;
 m_cmsMsg
 =
-nullptr
+nsnull
 ;
 }
 return
@@ -2854,7 +2853,7 @@ unsigned
 char
 *
 aDigestData
-uint32_t
+PRUint32
 aDigestDataLen
 )
 {
@@ -2902,11 +2901,11 @@ CERTCertificate
 *
 scert
 =
-nullptr
+nsnull
 *
 ecert
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -3142,8 +3141,8 @@ NSS_CMSContentInfo_SetContent_Data
 (
 m_cmsMsg
 cinfo
-nullptr
-true
+nsnull
+PR_TRUE
 )
 !
 =
@@ -3615,7 +3614,7 @@ m_cmsMsg
 ;
 m_cmsMsg
 =
-nullptr
+nsnull
 ;
 }
 return
@@ -3636,7 +3635,7 @@ nsCMSDecoder
 :
 m_dcx
 (
-nullptr
+nsnull
 )
 {
 }
@@ -3710,7 +3709,7 @@ m_dcx
 ;
 m_dcx
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -3821,7 +3820,7 @@ const
 char
 *
 buf
-int32_t
+PRInt32
 len
 )
 {
@@ -3921,7 +3920,7 @@ m_dcx
 ;
 m_dcx
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -3976,7 +3975,7 @@ nsCMSEncoder
 :
 m_ecx
 (
-nullptr
+nsnull
 )
 {
 }
@@ -4142,7 +4141,7 @@ if
 m_ecx
 =
 =
-nullptr
+nsnull
 )
 {
 PR_LOG
@@ -4185,7 +4184,7 @@ const
 char
 *
 aBuf
-int32_t
+PRInt32
 aLen
 )
 {
@@ -4349,7 +4348,7 @@ NS_ERROR_FAILURE
 }
 m_ecx
 =
-nullptr
+nsnull
 ;
 return
 rv

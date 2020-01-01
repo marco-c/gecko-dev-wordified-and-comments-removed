@@ -189,7 +189,7 @@ Length
 PORT_FreeArena
 (
 arena
-false
+PR_FALSE
 )
 ;
 return
@@ -215,7 +215,7 @@ pki
 PORT_FreeArena
 (
 arena
-false
+PR_FALSE
 )
 ;
 return
@@ -238,7 +238,7 @@ pki
 ;
 pki
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -249,7 +249,7 @@ publicKey
 PORT_FreeArena
 (
 arena
-false
+PR_FALSE
 )
 ;
 return
@@ -302,7 +302,7 @@ publicKey
 PORT_FreeArena
 (
 arena
-false
+PR_FALSE
 )
 ;
 return
@@ -352,7 +352,7 @@ publicKey
 PORT_FreeArena
 (
 arena
-false
+PR_FALSE
 )
 ;
 return
@@ -417,7 +417,7 @@ publicKey
 PORT_FreeArena
 (
 arena
-false
+PR_FALSE
 )
 ;
 *

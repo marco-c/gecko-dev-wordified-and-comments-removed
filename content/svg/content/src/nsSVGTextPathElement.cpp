@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsSVGStylableElement
 .
 h
@@ -52,7 +43,7 @@ h
 #
 include
 "
-nsError
+nsDOMError
 .
 h
 "
@@ -63,10 +54,6 @@ nsContentUtils
 .
 h
 "
-using
-namespace
-mozilla
-;
 nsSVGElement
 :
 :
@@ -130,7 +117,7 @@ nsIDOMSVGTextPathElement
 TEXTPATH_METHODTYPE_STRETCH
 }
 {
-nullptr
+nsnull
 0
 }
 }
@@ -167,7 +154,7 @@ nsIDOMSVGTextPathElement
 TEXTPATH_SPACINGTYPE_EXACT
 }
 {
-nullptr
+nsnull
 0
 }
 }
@@ -231,7 +218,7 @@ nsGkAtoms
 :
 href
 kNameSpaceID_XLink
-true
+PR_TRUE
 }
 }
 ;
@@ -258,7 +245,7 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsSVGTextPathElement
 )
-NS_NODE_INTERFACE_TABLE7
+NS_NODE_INTERFACE_TABLE6
 (
 nsSVGTextPathElement
 nsIDOMNode
@@ -266,7 +253,6 @@ nsIDOMElement
 nsIDOMSVGElement
 nsIDOMSVGTextPathElement
 nsIDOMSVGTextContentElement
-nsIDOMSVGTests
 nsIDOMSVGURIReference
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
@@ -437,6 +423,10 @@ FindAttributeDependence
 (
 name
 map
+NS_ARRAY_LENGTH
+(
+map
+)
 )
 |
 |
@@ -487,7 +477,7 @@ LengthAttributesInfo
 (
 mLengthAttributes
 sLengthInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sLengthInfo
 )
@@ -510,7 +500,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sEnumInfo
 )
@@ -533,7 +523,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sStringInfo
 )

@@ -46,7 +46,7 @@ struct
 nsRuleData
 {
 const
-uint32_t
+PRUint32
 mSIDs
 ;
 bool
@@ -55,7 +55,7 @@ mCanStoreInRuleTree
 bool
 mIsImportantRule
 ;
-uint8_t
+PRUint8
 mLevel
 ;
 nsPresContext
@@ -85,7 +85,7 @@ nsStyleStructID_Length
 ;
 nsRuleData
 (
-uint32_t
+PRUint32
 aSIDs
 nsCSSValue
 *
@@ -260,10 +260,9 @@ name_
 id_
 method_
 flags_
-pref_
 parsevariant_
-\
 kwtable_
+\
 stylestruct_
 stylestructoffset_
 animtype_
@@ -420,9 +419,8 @@ name_
 id_
 method_
 flags_
-pref_
-\
 parsevariant_
+\
 kwtable_
 )
 #

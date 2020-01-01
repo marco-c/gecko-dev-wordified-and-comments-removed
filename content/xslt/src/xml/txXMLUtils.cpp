@@ -60,7 +60,7 @@ aQName
 txNamespaceMap
 *
 aResolver
-bool
+MBool
 aUseDefault
 )
 {
@@ -126,7 +126,7 @@ colon
 )
 )
 ;
-int32_t
+PRInt32
 namespaceID
 =
 aResolver
@@ -188,7 +188,7 @@ aResolver
 >
 lookupNamespace
 (
-nullptr
+nsnull
 )
 :
 kNameSpaceID_None
@@ -223,7 +223,7 @@ nsIAtom
 *
 *
 aLocalName
-int32_t
+PRInt32
 *
 aNameSpaceID
 )
@@ -233,14 +233,14 @@ PRUnichar
 *
 uriEnd
 =
-nullptr
+nsnull
 ;
 const
 PRUnichar
 *
 nameEnd
 =
-nullptr
+nsnull
 ;
 const
 PRUnichar
@@ -382,7 +382,7 @@ pos
 *
 aPrefix
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -404,7 +404,7 @@ pos
 *
 aPrefix
 =
-nullptr
+nsnull
 ;
 }
 *
@@ -539,7 +539,7 @@ else
 *
 aPrefix
 =
-nullptr
+nsnull
 ;
 *
 aLocalName
@@ -567,7 +567,7 @@ nsAString
 src
 )
 {
-int32_t
+PRInt32
 idx
 =
 src
@@ -692,12 +692,12 @@ start
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 }
 return
-true
+PR_TRUE
 ;
 }
 void
@@ -717,7 +717,7 @@ origValue
 piValue
 )
 ;
-uint32_t
+PRUint32
 origLength
 =
 origValue
@@ -726,7 +726,7 @@ Length
 (
 )
 ;
-uint32_t
+PRUint32
 conversionLoop
 =
 0
@@ -819,7 +819,7 @@ conversionLoop
 ;
 }
 }
-bool
+MBool
 XMLUtils
 :
 :
@@ -870,7 +870,7 @@ preserve
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 if
@@ -886,7 +886,7 @@ _default
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 }
@@ -901,6 +901,6 @@ moveToParent
 )
 ;
 return
-false
+PR_FALSE
 ;
 }

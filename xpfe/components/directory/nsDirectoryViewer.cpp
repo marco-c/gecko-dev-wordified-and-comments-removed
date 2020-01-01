@@ -48,6 +48,9 @@ nsIEnumerator
 h
 "
 #
+ifdef
+MOZ_RDF
+#
 include
 "
 nsIRDFService
@@ -68,6 +71,8 @@ rdf
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -204,6 +209,13 @@ h
 #
 include
 "
+nsIDOMDocument
+.
+h
+"
+#
+include
+"
 nsIDOMElement
 .
 h
@@ -263,6 +275,9 @@ FORMAT_XUL
 =
 3
 ;
+#
+ifdef
+MOZ_RDF
 static
 NS_DEFINE_CID
 (
@@ -270,6 +285,8 @@ kRDFServiceCID
 NS_RDFSERVICE_CID
 )
 ;
+#
+endif
 static
 const
 char
@@ -284,6 +301,9 @@ ftp
 /
 "
 ;
+#
+ifdef
+MOZ_RDF
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsHTTPIndex
@@ -948,7 +968,7 @@ mRequestor
 {
 mBindToGlobalObject
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -1243,7 +1263,7 @@ uri
 )
 )
 ;
-nsAutoCString
+nsCAutoString
 entryuriC
 ;
 uri
@@ -1309,7 +1329,7 @@ Assert
 entry
 kNC_URL
 URLVal
-true
+PR_TRUE
 )
 ;
 mDirectory
@@ -1355,7 +1375,7 @@ Assert
 mDirectory
 kNC_Loading
 kTrueLiteral
-true
+PR_TRUE
 )
 ;
 if
@@ -1467,7 +1487,7 @@ Assert
 mDirectory
 kNC_Comment
 comment
-true
+PR_TRUE
 )
 ;
 if
@@ -1506,9 +1526,9 @@ aContext
 nsIInputStream
 *
 aStream
-uint64_t
+PRUint32
 aSourceOffset
-uint32_t
+PRUint32
 aCount
 )
 {
@@ -1620,7 +1640,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsAutoCString
+nsCAutoString
 entryuriC
 (
 baseStr
@@ -1660,7 +1680,7 @@ Append
 filename
 )
 ;
-uint32_t
+PRUint32
 type
 ;
 rv
@@ -1808,7 +1828,7 @@ Assert
 entry
 kNC_URL
 lit
-true
+PR_TRUE
 )
 ;
 if
@@ -1908,7 +1928,7 @@ Assert
 entry
 kNC_Description
 lit
-true
+PR_TRUE
 )
 ;
 if
@@ -1921,7 +1941,7 @@ rv
 return
 rv
 ;
-int64_t
+PRInt64
 size
 ;
 rv
@@ -1945,7 +1965,7 @@ rv
 return
 rv
 ;
-int64_t
+PRInt64
 minus1
 =
 LL_MAXUINT
@@ -1959,7 +1979,7 @@ minus1
 )
 )
 {
-int32_t
+PRInt32
 intSize
 ;
 LL_L2I
@@ -2005,7 +2025,7 @@ Assert
 entry
 kNC_ContentLength
 val
-true
+PR_TRUE
 )
 ;
 if
@@ -2089,11 +2109,11 @@ Assert
 entry
 kNC_LastModified
 val
-true
+PR_TRUE
 )
 ;
 }
-uint32_t
+PRUint32
 type
 ;
 rv
@@ -2254,7 +2274,7 @@ Assert
 entry
 kNC_FileType
 lit
-true
+PR_TRUE
 )
 ;
 if
@@ -2277,7 +2297,7 @@ Assert
 entry
 kNC_IsContainer
 kTrueLiteral
-true
+PR_TRUE
 )
 ;
 else
@@ -2286,7 +2306,7 @@ Assert
 entry
 kNC_IsContainer
 kFalseLiteral
-true
+PR_TRUE
 )
 ;
 AddElement
@@ -2332,11 +2352,11 @@ nsHTTPIndex
 :
 mBindToGlobalObject
 (
-true
+PR_TRUE
 )
 mRequestor
 (
-nullptr
+nsnull
 )
 {
 }
@@ -2352,7 +2372,7 @@ aRequestor
 :
 mBindToGlobalObject
 (
-true
+PR_TRUE
 )
 mRequestor
 (
@@ -2382,16 +2402,16 @@ Cancel
 ;
 mTimer
 =
-nullptr
+nsnull
 ;
 }
 mConnectionList
 =
-nullptr
+nsnull
 ;
 mNodeList
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -2835,7 +2855,7 @@ mDirRDF
 RegisterDataSource
 (
 this
-false
+PR_FALSE
 )
 ;
 if
@@ -2872,7 +2892,7 @@ NS_PRECONDITION
 aBaseURL
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -2951,7 +2971,7 @@ Assert
 baseRes
 kNC_IsContainer
 kTrueLiteral
-true
+PR_TRUE
 )
 ;
 return
@@ -2979,7 +2999,7 @@ aResult
 *
 aResult
 =
-nullptr
+nsnull
 ;
 nsHTTPIndex
 *
@@ -3120,7 +3140,7 @@ GetTarget
 (
 r
 kNC_URL
-true
+PR_TRUE
 getter_AddRefs
 (
 node
@@ -3234,7 +3254,7 @@ GetTarget
 (
 r
 kNC_IsContainer
-true
+PR_TRUE
 getter_AddRefs
 (
 node
@@ -3330,7 +3350,7 @@ NS_PRECONDITION
 uri
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -3367,7 +3387,7 @@ httpindex
 )
 =
 =
-nullptr
+nsnull
 )
 return
 (
@@ -3408,7 +3428,7 @@ NS_ERROR_UNEXPECTED
 *
 _retval
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -3523,7 +3543,7 @@ NS_ERROR_UNEXPECTED
 *
 _retval
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -3700,7 +3720,7 @@ hasResults
 )
 doNetworkRequest
 =
-false
+PR_FALSE
 ;
 }
 if
@@ -3711,7 +3731,7 @@ doNetworkRequest
 mConnectionList
 )
 {
-int32_t
+PRInt32
 connectionIndex
 =
 mConnectionList
@@ -3992,7 +4012,7 @@ httpIndex
 )
 return
 ;
-uint32_t
+PRUint32
 numItems
 =
 0
@@ -4039,7 +4059,7 @@ mConnectionList
 GetElementAt
 (
 (
-uint32_t
+PRUint32
 )
 0
 getter_AddRefs
@@ -4057,7 +4077,7 @@ mConnectionList
 RemoveElementAt
 (
 (
-uint32_t
+PRUint32
 )
 0
 )
@@ -4170,8 +4190,8 @@ getter_AddRefs
 channel
 )
 url
-nullptr
-nullptr
+nsnull
+nsnull
 )
 ;
 }
@@ -4252,7 +4272,7 @@ numItems
 =
 10
 ;
-int32_t
+PRInt32
 loop
 ;
 for
@@ -4264,7 +4284,7 @@ loop
 loop
 <
 (
-int32_t
+PRInt32
 )
 numItems
 ;
@@ -4288,7 +4308,7 @@ mNodeList
 GetElementAt
 (
 (
-uint32_t
+PRUint32
 )
 0
 getter_AddRefs
@@ -4306,7 +4326,7 @@ mNodeList
 RemoveElementAt
 (
 (
-uint32_t
+PRUint32
 )
 0
 )
@@ -4337,7 +4357,7 @@ mNodeList
 GetElementAt
 (
 (
-uint32_t
+PRUint32
 )
 0
 getter_AddRefs
@@ -4355,7 +4375,7 @@ mNodeList
 RemoveElementAt
 (
 (
-uint32_t
+PRUint32
 )
 0
 )
@@ -4386,7 +4406,7 @@ mNodeList
 GetElementAt
 (
 (
-uint32_t
+PRUint32
 )
 0
 getter_AddRefs
@@ -4404,7 +4424,7 @@ mNodeList
 RemoveElementAt
 (
 (
-uint32_t
+PRUint32
 )
 0
 )
@@ -4473,7 +4493,7 @@ Assert
 src
 prop
 target
-true
+PR_TRUE
 )
 ;
 }
@@ -4515,7 +4535,7 @@ numItems
 {
 refireTimer
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -4561,7 +4581,7 @@ numItems
 {
 refireTimer
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -4593,7 +4613,7 @@ httpIndex
 >
 mTimer
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -4999,7 +5019,7 @@ mInner
 *
 result
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -5051,7 +5071,7 @@ aSource
 *
 result
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -5077,7 +5097,7 @@ result
 *
 result
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -5149,7 +5169,7 @@ NS_ERROR_UNEXPECTED
 *
 _retval
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -5500,6 +5520,8 @@ rv
 )
 ;
 }
+#
+endif
 nsDirectoryViewerFactory
 :
 :
@@ -5579,6 +5601,9 @@ source
 0
 )
 ;
+#
+ifdef
+MOZ_RDF
 if
 (
 !
@@ -5776,7 +5801,7 @@ getter_AddRefs
 channel
 )
 uri
-nullptr
+nsnull
 aLoadGroup
 )
 ;
@@ -5844,7 +5869,7 @@ channel
 AsyncOpen
 (
 listener
-nullptr
+nsnull
 )
 ;
 if
@@ -5968,6 +5993,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 (
 void
 )
@@ -6214,7 +6241,7 @@ text
 html
 "
 listener
-nullptr
+nsnull
 aDocListenerResult
 )
 ;

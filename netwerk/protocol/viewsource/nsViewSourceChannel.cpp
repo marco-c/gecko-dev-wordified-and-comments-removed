@@ -109,11 +109,6 @@ mCachingChannel
 )
 NS_INTERFACE_MAP_ENTRY_CONDITIONAL
 (
-nsIApplicationCacheChannel
-mApplicationCacheChannel
-)
-NS_INTERFACE_MAP_ENTRY_CONDITIONAL
-(
 nsIUploadChannel
 mUploadChannel
 )
@@ -148,7 +143,7 @@ mOriginalURI
 =
 uri
 ;
-nsAutoCString
+nsCAutoString
 path
 ;
 nsresult
@@ -195,7 +190,7 @@ rv
 return
 rv
 ;
-nsAutoCString
+nsCAutoString
 scheme
 ;
 rv
@@ -256,8 +251,8 @@ pService
 NewChannel
 (
 path
-nullptr
-nullptr
+nsnull
+nsnull
 getter_AddRefs
 (
 mChannel
@@ -297,13 +292,6 @@ mChannel
 )
 ;
 mCachingChannel
-=
-do_QueryInterface
-(
-mChannel
-)
-;
-mApplicationCacheChannel
 =
 do_QueryInterface
 (
@@ -598,7 +586,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsAutoCString
+nsCAutoString
 spec
 ;
 uri
@@ -613,7 +601,7 @@ return
 NS_NewURI
 (
 aURI
-nsAutoCString
+nsCAutoString
 (
 NS_LITERAL_CSTRING
 (
@@ -627,7 +615,7 @@ source
 +
 spec
 )
-nullptr
+nsnull
 )
 ;
 }
@@ -670,7 +658,7 @@ rv
 {
 mOpened
 =
-true
+PR_TRUE
 ;
 }
 return
@@ -735,7 +723,7 @@ nsIViewSourceChannel
 (
 this
 )
-nullptr
+nsnull
 )
 ;
 nsresult
@@ -773,7 +761,7 @@ nsIViewSourceChannel
 (
 this
 )
-nullptr
+nsnull
 rv
 )
 ;
@@ -787,7 +775,7 @@ rv
 {
 mOpened
 =
-true
+PR_TRUE
 ;
 }
 return
@@ -800,7 +788,7 @@ nsViewSourceChannel
 :
 GetLoadFlags
 (
-uint32_t
+PRUint32
 *
 aLoadFlags
 )
@@ -857,7 +845,7 @@ nsViewSourceChannel
 :
 SetLoadFlags
 (
-uint32_t
+PRUint32
 aLoadFlags
 )
 {
@@ -880,9 +868,9 @@ nsIChannel
 LOAD_DOCUMENT_URI
 )
 ?
-true
+PR_TRUE
 :
-false
+PR_FALSE
 ;
 return
 mChannel
@@ -946,7 +934,7 @@ IsEmpty
 nsresult
 rv
 ;
-nsAutoCString
+nsCAutoString
 contentType
 ;
 rv
@@ -1089,7 +1077,7 @@ nsViewSourceChannel
 :
 GetContentDisposition
 (
-uint32_t
+PRUint32
 *
 aContentDisposition
 )
@@ -1170,7 +1158,7 @@ nsViewSourceChannel
 :
 GetContentLength
 (
-int32_t
+PRInt32
 *
 aContentLength
 )
@@ -1197,7 +1185,7 @@ nsViewSourceChannel
 :
 SetContentLength
 (
-int32_t
+PRInt32
 aContentLength
 )
 {
@@ -1599,7 +1587,7 @@ nsIViewSourceChannel
 (
 this
 )
-nullptr
+nsnull
 aStatus
 )
 ;
@@ -1639,9 +1627,9 @@ aContext
 nsIInputStream
 *
 aInputStream
-uint64_t
+PRUint32
 aSourceOffset
-uint32_t
+PRUint32
 aLength
 )
 {
@@ -1927,7 +1915,7 @@ nsViewSourceChannel
 :
 GetRedirectionLimit
 (
-uint32_t
+PRUint32
 *
 aRedirectionLimit
 )
@@ -1953,7 +1941,7 @@ nsViewSourceChannel
 :
 SetRedirectionLimit
 (
-uint32_t
+PRUint32
 aRedirectionLimit
 )
 {
@@ -1978,7 +1966,7 @@ nsViewSourceChannel
 :
 GetResponseStatus
 (
-uint32_t
+PRUint32
 *
 aResponseStatus
 )
@@ -2250,7 +2238,7 @@ Type
 "
 )
 ;
-nsAutoCString
+nsCAutoString
 contentType
 ;
 nsresult

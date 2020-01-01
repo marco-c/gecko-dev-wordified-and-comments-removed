@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsIFile
+nsILocalFile
 .
 h
 "
@@ -172,7 +172,7 @@ ifdef
 MOZ_PROFILELOCKING
 mProfileDirLock
 (
-nullptr
+nsnull
 )
 #
 endif
@@ -182,7 +182,7 @@ aNotifyObservers
 )
 mSharingEnabled
 (
-false
+PR_FALSE
 )
 {
 }
@@ -341,7 +341,7 @@ ifdef
 MOZ_PROFILELOCKING
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 dirToLock
 ;
@@ -351,12 +351,18 @@ mSharingEnabled
 )
 dirToLock
 =
+do_QueryInterface
+(
 mNonSharedProfileDir
+)
 ;
 else
 dirToLock
 =
+do_QueryInterface
+(
 mProfileDir
+)
 ;
 rv
 =
@@ -366,7 +372,7 @@ mProfileDirLock
 Lock
 (
 dirToLock
-nullptr
+nsnull
 )
 ;
 if
@@ -428,7 +434,7 @@ observerService
 >
 NotifyObservers
 (
-nullptr
+nsnull
 "
 profile
 -
@@ -448,7 +454,7 @@ observerService
 >
 NotifyObservers
 (
-nullptr
+nsnull
 "
 profile
 -
@@ -565,7 +571,7 @@ observerService
 >
 NotifyObservers
 (
-nullptr
+nsnull
 "
 profile
 -
@@ -634,7 +640,7 @@ NS_ERROR_FAILURE
 *
 persistant
 =
-true
+PR_TRUE
 ;
 nsIFile
 *
@@ -1307,7 +1313,7 @@ nsIFile
 >
 profileDirParent
 ;
-nsAutoCString
+nsCAutoString
 profileDirName
 ;
 (
@@ -1780,7 +1786,7 @@ return
 rv
 ;
 }
-nsAutoCString
+nsCAutoString
 leafName
 ;
 rv
@@ -1999,7 +2005,7 @@ aProvider
 *
 aProvider
 =
-nullptr
+nsnull
 ;
 nsProfileDirServiceProvider
 *

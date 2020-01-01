@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsContainerFrame
+nsHTMLContainerFrame
 .
 h
 "
@@ -135,8 +135,8 @@ nsSize
 aBorder
 nsSize
 aPadding
-uint32_t
-aFlags
+bool
+aShrinkWrap
 )
 {
 NS_ASSERTION
@@ -443,7 +443,7 @@ kidReflowState
 mStyleBorder
 -
 >
-GetComputedBorderWidth
+GetActualBorderWidth
 (
 NS_SIDE_RIGHT
 )

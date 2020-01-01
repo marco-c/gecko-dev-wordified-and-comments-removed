@@ -106,7 +106,7 @@ twice
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 aPackages
@@ -136,7 +136,7 @@ i
 }
 for
 (
-uint32_t
+PRUint32
 i
 =
 aResources
@@ -166,7 +166,7 @@ i
 }
 for
 (
-uint32_t
+PRUint32
 i
 =
 aOverrides
@@ -273,7 +273,7 @@ charset
 get
 (
 )
-nullptr
+nsnull
 io
 )
 ;
@@ -323,7 +323,7 @@ charset
 get
 (
 )
-nullptr
+nsnull
 io
 )
 ;
@@ -379,7 +379,7 @@ charset
 get
 (
 )
-nullptr
+nsnull
 io
 )
 ;
@@ -430,6 +430,9 @@ skinBaseURI
 =
 skin
 ;
+nsresult
+rv
+=
 mPackagesHash
 .
 Put
@@ -439,6 +442,15 @@ aPackage
 package
 entry
 )
+;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+return
 ;
 }
 void
@@ -564,7 +576,7 @@ charset
 get
 (
 )
-nullptr
+nsnull
 io
 )
 ;
@@ -661,7 +673,7 @@ charset
 get
 (
 )
-nullptr
+nsnull
 io
 )
 ;
@@ -696,7 +708,7 @@ charset
 get
 (
 )
-nullptr
+nsnull
 io
 )
 ;
@@ -757,7 +769,7 @@ entry
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 if
@@ -820,7 +832,7 @@ contentBaseURI
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 nsresult
@@ -833,7 +845,7 @@ const
 nsCString
 &
 aPackage
-uint32_t
+PRUint32
 *
 aFlags
 )

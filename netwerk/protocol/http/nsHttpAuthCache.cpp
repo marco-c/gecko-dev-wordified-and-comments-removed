@@ -53,7 +53,7 @@ const
 char
 *
 host
-int32_t
+PRInt32
 port
 nsCString
 &
@@ -168,7 +168,7 @@ nsHttpAuthCache
 :
 mDB
 (
-nullptr
+nsnull
 )
 {
 }
@@ -266,7 +266,7 @@ const
 char
 *
 host
-int32_t
+PRInt32
 port
 const
 char
@@ -314,7 +314,7 @@ path
 )
 )
 ;
-nsAutoCString
+nsCAutoString
 key
 ;
 nsHttpAuthNode
@@ -371,7 +371,7 @@ const
 char
 *
 host
-int32_t
+PRInt32
 port
 const
 char
@@ -419,7 +419,7 @@ realm
 )
 )
 ;
-nsAutoCString
+nsCAutoString
 key
 ;
 nsHttpAuthNode
@@ -476,7 +476,7 @@ const
 char
 *
 host
-int32_t
+PRInt32
 port
 const
 char
@@ -575,7 +575,7 @@ return
 rv
 ;
 }
-nsAutoCString
+nsCAutoString
 key
 ;
 nsHttpAuthNode
@@ -687,7 +687,7 @@ const
 char
 *
 host
-int32_t
+PRInt32
 port
 const
 char
@@ -702,7 +702,7 @@ mDB
 )
 return
 ;
-nsAutoCString
+nsCAutoString
 key
 ;
 GetAuthKey
@@ -780,7 +780,7 @@ const
 char
 *
 host
-int32_t
+PRInt32
 port
 nsCString
 &
@@ -793,7 +793,7 @@ if
 mDB
 )
 return
-nullptr
+nsnull
 ;
 GetAuthKey
 (
@@ -829,7 +829,7 @@ AllocTable
 void
 *
 self
-size_t
+PRSize
 size
 )
 {
@@ -902,7 +902,7 @@ self
 PLHashEntry
 *
 he
-unsigned
+PRUintn
 flag
 )
 {
@@ -1023,7 +1023,10 @@ domainLen
 =
 domain
 ?
-NS_strlen
+nsCRT
+:
+:
+strlen
 (
 domain
 )
@@ -1035,7 +1038,10 @@ userLen
 =
 user
 ?
-NS_strlen
+nsCRT
+:
+:
+strlen
 (
 user
 )
@@ -1047,7 +1053,10 @@ passLen
 =
 pass
 ?
-NS_strlen
+nsCRT
+:
+:
+strlen
 (
 pass
 )
@@ -1227,15 +1236,15 @@ mUser
 ;
 mUser
 =
-nullptr
+nsnull
 ;
 mPass
 =
-nullptr
+nsnull
 ;
 mDomain
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -1371,6 +1380,9 @@ strncmp
 (
 aPath
 curpath
+nsCRT
+:
+:
 strlen
 (
 curpath
@@ -1398,6 +1410,9 @@ newAuthPath
 int
 newpathLen
 =
+nsCRT
+:
+:
 strlen
 (
 aPath
@@ -1444,7 +1459,7 @@ newAuthPath
 >
 mNext
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -1515,6 +1530,9 @@ realmLen
 =
 realm
 ?
+nsCRT
+:
+:
 strlen
 (
 realm
@@ -1527,6 +1545,9 @@ credsLen
 =
 creds
 ?
+nsCRT
+:
+:
 strlen
 (
 creds
@@ -1539,6 +1560,9 @@ challLen
 =
 chall
 ?
+nsCRT
+:
+:
 strlen
 (
 chall
@@ -1691,9 +1715,9 @@ mIdent
 .
 Set
 (
-nullptr
-nullptr
-nullptr
+nsnull
+nsnull
+nsnull
 )
 ;
 }
@@ -1849,7 +1873,7 @@ path
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -1938,6 +1962,9 @@ strncmp
 (
 path
 entryPath
+nsCRT
+:
+:
 strlen
 (
 entryPath
@@ -1960,7 +1987,7 @@ mNext
 }
 }
 return
-nullptr
+nsnull
 ;
 }
 nsHttpAuthEntry
@@ -1990,7 +2017,7 @@ realm
 "
 "
 ;
-uint32_t
+PRUint32
 i
 ;
 for
@@ -2040,7 +2067,7 @@ entry
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 nsresult

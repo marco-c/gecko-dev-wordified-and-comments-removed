@@ -64,7 +64,7 @@ NS_IDOCUMENT_OBSERVER_IID
 }
 }
 typedef
-uint32_t
+PRUint32
 nsUpdateType
 ;
 #

@@ -223,7 +223,7 @@ PRLogModuleInfo
 *
 gLog
 =
-nullptr
+nsnull
 ;
 #
 endif
@@ -284,7 +284,7 @@ aTarget
 aTruthValue
 )
 :
-nullptr
+nsnull
 ;
 }
 static
@@ -328,7 +328,7 @@ Assertion
 aSource
 )
 :
-nullptr
+nsnull
 ;
 }
 static
@@ -397,7 +397,7 @@ hash
 .
 mPropertyHash
 =
-nullptr
+nsnull
 ;
 }
 aAssertion
@@ -431,7 +431,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-uint32_t
+PRUint32
 aNumber
 void
 *
@@ -553,7 +553,7 @@ as
 .
 mMarked
 =
-true
+PR_TRUE
 ;
 }
 inline
@@ -582,7 +582,7 @@ as
 .
 mMarked
 =
-false
+PR_FALSE
 ;
 }
 nsIRDFResource
@@ -632,7 +632,7 @@ as
 }
 u
 ;
-uint16_t
+PRUint16
 mRefCnt
 ;
 bool
@@ -699,7 +699,7 @@ aSource
 )
 mNext
 (
-nullptr
+nsnull
 )
 mRefCnt
 (
@@ -707,7 +707,7 @@ mRefCnt
 )
 mHashEntry
 (
-true
+PR_TRUE
 )
 {
 MOZ_COUNT_CTOR
@@ -731,7 +731,7 @@ PL_NewDHashTable
 PL_DHashGetStubOps
 (
 )
-nullptr
+nsnull
 sizeof
 (
 Entry
@@ -764,7 +764,7 @@ aSource
 )
 mNext
 (
-nullptr
+nsnull
 )
 mRefCnt
 (
@@ -772,7 +772,7 @@ mRefCnt
 )
 mHashEntry
 (
-false
+PR_FALSE
 )
 {
 MOZ_COUNT_CTOR
@@ -825,7 +825,7 @@ as
 .
 mInvNext
 =
-nullptr
+nsnull
 ;
 u
 .
@@ -841,7 +841,7 @@ as
 .
 mMarked
 =
-false
+PR_FALSE
 ;
 }
 Assertion
@@ -925,7 +925,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-uint32_t
+PRUint32
 aNumber
 void
 *
@@ -999,7 +999,7 @@ as
 .
 mInvNext
 =
-nullptr
+nsnull
 ;
 doomed
 -
@@ -1055,10 +1055,10 @@ nsIRDFObserver
 >
 mObservers
 ;
-uint32_t
+PRUint32
 mNumObservers
 ;
-uint32_t
+PRUint32
 mReadCount
 ;
 static
@@ -1071,7 +1071,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-uint32_t
+PRUint32
 aNumber
 void
 *
@@ -1088,7 +1088,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-uint32_t
+PRUint32
 aNumber
 void
 *
@@ -1196,7 +1196,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-uint32_t
+PRUint32
 aNumber
 void
 *
@@ -1244,7 +1244,7 @@ hdr
 >
 mAssertions
 :
-nullptr
+nsnull
 ;
 }
 Assertion
@@ -1286,7 +1286,7 @@ hdr
 >
 mAssertions
 :
-nullptr
+nsnull
 ;
 }
 void
@@ -1477,6 +1477,9 @@ nsIRDFNode
 *
 mValue
 ;
+PRInt32
+mCount
+;
 bool
 mTruthValue
 ;
@@ -1597,7 +1600,7 @@ aTarget
 aTruthValue
 )
 :
-nullptr
+nsnull
 ;
 }
 static
@@ -1696,7 +1699,11 @@ aTarget
 )
 mValue
 (
-nullptr
+nsnull
+)
+mCount
+(
+0
 )
 mTruthValue
 (
@@ -1704,7 +1711,7 @@ aTruthValue
 )
 mNextAssertion
 (
-nullptr
+nsnull
 )
 {
 NS_ADDREF
@@ -1790,7 +1797,7 @@ hdr
 >
 mAssertions
 :
-nullptr
+nsnull
 ;
 }
 }
@@ -1929,7 +1936,7 @@ mValue
 *
 aResult
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -2016,7 +2023,7 @@ mValue
 }
 foundIt
 =
-true
+PR_TRUE
 ;
 }
 Assertion
@@ -2075,7 +2082,7 @@ foundIt
 *
 aResult
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -2085,7 +2092,7 @@ NS_OK
 *
 aResult
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -2142,7 +2149,7 @@ mValue
 ;
 mValue
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -2246,7 +2253,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-uint32_t
+PRUint32
 aNumber
 void
 *
@@ -2306,7 +2313,7 @@ aSource
 aTarget
 )
 :
-nullptr
+nsnull
 ;
 }
 static
@@ -2376,7 +2383,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-uint32_t
+PRUint32
 aNumber
 void
 *
@@ -2454,7 +2461,7 @@ aTarget
 )
 mCurrent
 (
-nullptr
+nsnull
 )
 {
 NS_ADDREF
@@ -2538,7 +2545,7 @@ get
 }
 mAssertion
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -2643,7 +2650,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -2666,7 +2673,7 @@ mCurrent
 *
 aResult
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -2677,7 +2684,7 @@ if
 mHashArcs
 )
 {
-uint32_t
+PRUint32
 itemCount
 ;
 nsresult
@@ -2743,7 +2750,7 @@ itemCount
 *
 aResult
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -2819,7 +2826,7 @@ false
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 mAlreadyReturned
@@ -2853,7 +2860,7 @@ next
 {
 alreadyReturned
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -2877,7 +2884,7 @@ mCurrent
 *
 aResult
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -2887,7 +2894,7 @@ NS_OK
 *
 aResult
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -2951,7 +2958,7 @@ mCurrent
 ;
 mCurrent
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -2978,7 +2985,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -2996,7 +3003,7 @@ NS_ERROR_NULL_POINTER
 *
 aResult
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -3160,7 +3167,7 @@ InMemoryAssertionEnumeratorImpl
 ;
 static
 const
-int32_t
+PRInt32
 kNumBuckets
 =
 sizeof
@@ -3175,7 +3182,7 @@ size_t
 ;
 static
 const
-int32_t
+PRInt32
 kInitialSize
 =
 1024
@@ -3196,17 +3203,17 @@ mForwardArcs
 .
 ops
 =
-nullptr
+nsnull
 ;
 mReverseArcs
 .
 ops
 =
-nullptr
+nsnull
 ;
 mPropagateChanges
 =
-true
+PR_TRUE
 ;
 }
 nsresult
@@ -3227,7 +3234,7 @@ mForwardArcs
 PL_DHashGetStubOps
 (
 )
-nullptr
+nsnull
 sizeof
 (
 Entry
@@ -3240,7 +3247,7 @@ mForwardArcs
 .
 ops
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -3256,7 +3263,7 @@ mReverseArcs
 PL_DHashGetStubOps
 (
 )
-nullptr
+nsnull
 sizeof
 (
 Entry
@@ -3269,7 +3276,7 @@ mReverseArcs
 .
 ops
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -3398,7 +3405,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-uint32_t
+PRUint32
 aNumber
 void
 *
@@ -3472,7 +3479,7 @@ as
 .
 mInvNext
 =
-nullptr
+nsnull
 ;
 doomed
 -
@@ -3711,7 +3718,7 @@ aTarget
 )
 !
 =
-nullptr
+nsnull
 )
 {
 resource
@@ -3763,7 +3770,7 @@ aTarget
 )
 !
 =
-nullptr
+nsnull
 )
 {
 nsXPIDLString
@@ -3860,7 +3867,7 @@ NS_PRECONDITION
 uri
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -3878,7 +3885,7 @@ NS_ERROR_NULL_POINTER
 *
 uri
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -3909,7 +3916,7 @@ NS_PRECONDITION
 source
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -3929,7 +3936,7 @@ NS_PRECONDITION
 property
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -3949,7 +3956,7 @@ NS_PRECONDITION
 target
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -4043,7 +4050,7 @@ NS_OK
 *
 source
 =
-nullptr
+nsnull
 ;
 return
 NS_RDF_NO_VALUE
@@ -4074,7 +4081,7 @@ NS_PRECONDITION
 source
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -4094,7 +4101,7 @@ NS_PRECONDITION
 property
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -4114,7 +4121,7 @@ NS_PRECONDITION
 target
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -4188,7 +4195,7 @@ hdr
 >
 mAssertions
 :
-nullptr
+nsnull
 ;
 while
 (
@@ -4248,7 +4255,7 @@ for
 as
 !
 =
-nullptr
+nsnull
 ;
 as
 =
@@ -4318,7 +4325,7 @@ NS_OK
 *
 target
 =
-nullptr
+nsnull
 ;
 return
 NS_RDF_NO_VALUE
@@ -4429,7 +4436,7 @@ hdr
 >
 mAssertions
 :
-nullptr
+nsnull
 ;
 while
 (
@@ -4473,7 +4480,7 @@ mTruthValue
 *
 hasAssertion
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -4495,7 +4502,7 @@ for
 as
 !
 =
-nullptr
+nsnull
 ;
 as
 =
@@ -4558,7 +4565,7 @@ continue
 *
 hasAssertion
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -4567,7 +4574,7 @@ NS_OK
 *
 hasAssertion
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -4598,7 +4605,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -4618,7 +4625,7 @@ NS_PRECONDITION
 aTarget
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -4638,7 +4645,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -4663,7 +4670,7 @@ InMemoryAssertionEnumeratorImpl
 Create
 (
 this
-nullptr
+nsnull
 aProperty
 aTarget
 aTruthValue
@@ -4716,7 +4723,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -4736,7 +4743,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -4756,7 +4763,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -4783,7 +4790,7 @@ Create
 this
 aSource
 aProperty
-nullptr
+nsnull
 aTruthValue
 )
 ;
@@ -4863,7 +4870,7 @@ Assertion
 *
 as
 =
-nullptr
+nsnull
 ;
 bool
 haveHash
@@ -4923,7 +4930,7 @@ hdr
 >
 mAssertions
 :
-nullptr
+nsnull
 ;
 while
 (
@@ -5108,7 +5115,7 @@ hdr
 >
 mAssertions
 :
-nullptr
+nsnull
 ;
 if
 (
@@ -5268,7 +5275,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -5288,7 +5295,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -5308,7 +5315,7 @@ NS_PRECONDITION
 aTarget
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -5370,11 +5377,11 @@ rv
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 (
-int32_t
+PRInt32
 )
 mNumObservers
 -
@@ -5493,7 +5500,7 @@ Assertion
 *
 as
 =
-nullptr
+nsnull
 ;
 bool
 haveHash
@@ -5553,7 +5560,7 @@ hdr
 >
 mAssertions
 :
-nullptr
+nsnull
 ;
 bool
 first
@@ -5585,7 +5592,7 @@ break
 }
 first
 =
-false
+PR_FALSE
 ;
 prev
 =
@@ -5725,7 +5732,7 @@ root
 SetForwardArcs
 (
 aSource
-nullptr
+nsnull
 )
 ;
 }
@@ -5922,7 +5929,7 @@ ifdef
 DEBUG
 foundReverseArc
 =
-true
+PR_TRUE
 ;
 #
 endif
@@ -5982,7 +5989,7 @@ as
 .
 mInvNext
 =
-nullptr
+nsnull
 ;
 as
 -
@@ -6018,7 +6025,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -6038,7 +6045,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -6058,7 +6065,7 @@ NS_PRECONDITION
 aTarget
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -6119,10 +6126,10 @@ rv
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
-int32_t
+PRInt32
 (
 mNumObservers
 )
@@ -6210,7 +6217,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -6230,7 +6237,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -6250,7 +6257,7 @@ NS_PRECONDITION
 aOldTarget
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -6270,7 +6277,7 @@ NS_PRECONDITION
 aNewTarget
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -6336,7 +6343,7 @@ LockedAssert
 aSource
 aProperty
 aNewTarget
-true
+PR_TRUE
 )
 ;
 if
@@ -6351,10 +6358,10 @@ rv
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
-int32_t
+PRInt32
 (
 mNumObservers
 )
@@ -6443,7 +6450,7 @@ NS_PRECONDITION
 aOldSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -6463,7 +6470,7 @@ NS_PRECONDITION
 aNewSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -6483,7 +6490,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -6503,7 +6510,7 @@ NS_PRECONDITION
 aTarget
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -6569,7 +6576,7 @@ LockedAssert
 aNewSource
 aProperty
 aTarget
-true
+PR_TRUE
 )
 ;
 if
@@ -6584,10 +6591,10 @@ rv
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
-int32_t
+PRInt32
 (
 mNumObservers
 )
@@ -6667,7 +6674,7 @@ NS_PRECONDITION
 aObserver
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -6717,7 +6724,7 @@ NS_PRECONDITION
 aObserver
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -6806,7 +6813,7 @@ aArc
 *
 result
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -6827,7 +6834,7 @@ mInvNext
 *
 result
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -6909,7 +6916,7 @@ hdr
 >
 mAssertions
 :
-nullptr
+nsnull
 ;
 if
 (
@@ -6919,7 +6926,7 @@ val
 *
 result
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -6962,7 +6969,7 @@ aArc
 *
 result
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -6979,7 +6986,7 @@ mNext
 *
 result
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -7005,7 +7012,7 @@ NS_PRECONDITION
 aTarget
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -7030,7 +7037,7 @@ InMemoryArcsEnumeratorImpl
 Create
 (
 this
-nullptr
+nsnull
 aTarget
 )
 ;
@@ -7076,7 +7083,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -7102,7 +7109,7 @@ Create
 (
 this
 aSource
-nullptr
+nsnull
 )
 ;
 if
@@ -7139,7 +7146,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-uint32_t
+PRUint32
 aNumber
 void
 *
@@ -7295,7 +7302,7 @@ aResult
 *
 aResult
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -7332,10 +7339,10 @@ BeginUpdateBatch
 {
 for
 (
-int32_t
+PRInt32
 i
 =
-int32_t
+PRInt32
 (
 mNumObservers
 )
@@ -7387,10 +7394,10 @@ EndUpdateBatch
 {
 for
 (
-int32_t
+PRInt32
 i
 =
-int32_t
+PRInt32
 (
 mNumObservers
 )
@@ -7608,7 +7615,7 @@ hdr
 >
 mAssertions
 :
-nullptr
+nsnull
 ;
 if
 (
@@ -7683,7 +7690,7 @@ first
 >
 mNext
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -7763,7 +7770,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -7783,7 +7790,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -7803,7 +7810,7 @@ NS_PRECONDITION
 aTarget
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -7877,7 +7884,7 @@ hdr
 >
 mAssertions
 :
-nullptr
+nsnull
 ;
 while
 (
@@ -7928,7 +7935,7 @@ Mark
 *
 aDidMark
 =
-true
+PR_TRUE
 ;
 #
 ifdef
@@ -7966,7 +7973,7 @@ for
 as
 !
 =
-nullptr
+nsnull
 ;
 as
 =
@@ -8036,7 +8043,7 @@ Mark
 *
 aDidMark
 =
-true
+PR_TRUE
 ;
 #
 ifdef
@@ -8061,7 +8068,7 @@ NS_OK
 *
 aDidMark
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -8096,7 +8103,7 @@ SweepInfo
 info
 =
 {
-nullptr
+nsnull
 &
 mReverseArcs
 &
@@ -8178,10 +8185,10 @@ mHashEntry
 {
 for
 (
-int32_t
+PRInt32
 i
 =
-int32_t
+PRInt32
 (
 mNumObservers
 )
@@ -8267,7 +8274,7 @@ as
 .
 mInvNext
 =
-nullptr
+nsnull
 ;
 doomed
 -
@@ -8294,7 +8301,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-uint32_t
+PRUint32
 aNumber
 void
 *
@@ -8410,7 +8417,7 @@ Assertion
 *
 prev
 =
-nullptr
+nsnull
 ;
 while
 (
@@ -8542,7 +8549,7 @@ Assertion
 *
 rprev
 =
-nullptr
+nsnull
 ;
 while
 (
@@ -8607,7 +8614,7 @@ as
 .
 mInvNext
 =
-nullptr
+nsnull
 ;
 break
 ;
@@ -8726,7 +8733,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-uint32_t
+PRUint32
 aNumber
 void
 *
@@ -8798,9 +8805,9 @@ mVisitor
 Visit
 (
 subject
-nullptr
-nullptr
-true
+nsnull
+nsnull
+PR_TRUE
 )
 ;
 if
@@ -8913,7 +8920,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-uint32_t
+PRUint32
 aNumber
 void
 *
@@ -9074,7 +9081,7 @@ aTable
 PLDHashEntryHdr
 *
 aHdr
-uint32_t
+PRUint32
 aNumber
 void
 *

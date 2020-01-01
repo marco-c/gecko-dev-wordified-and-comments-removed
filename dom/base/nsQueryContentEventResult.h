@@ -19,15 +19,6 @@ nsRect
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsQueryContentEvent
 ;
@@ -36,7 +27,6 @@ nsIWidget
 ;
 class
 nsQueryContentEventResult
-MOZ_FINAL
 :
 public
 nsIQueryContentEventResult
@@ -68,10 +58,10 @@ aEvent
 ;
 protected
 :
-uint32_t
+PRUint32
 mEventID
 ;
-uint32_t
+PRUint32
 mOffset
 ;
 nsString

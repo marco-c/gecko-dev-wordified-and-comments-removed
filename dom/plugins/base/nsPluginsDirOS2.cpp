@@ -325,7 +325,7 @@ string
 ;
 }
 static
-uint32_t
+PRUint32
 CalculateVariantCount
 (
 char
@@ -333,7 +333,7 @@ char
 mimeTypes
 )
 {
-uint32_t
+PRUint32
 variants
 =
 1
@@ -343,7 +343,7 @@ if
 mimeTypes
 =
 =
-nullptr
+nsnull
 )
 return
 0
@@ -389,7 +389,7 @@ char
 *
 MakeStringArray
 (
-uint32_t
+PRUint32
 variants
 char
 *
@@ -410,11 +410,11 @@ variants
 data
 =
 =
-nullptr
+nsnull
 )
 )
 return
-nullptr
+nsnull
 ;
 char
 *
@@ -441,10 +441,10 @@ if
 array
 =
 =
-nullptr
+nsnull
 )
 return
-nullptr
+nsnull
 ;
 char
 *
@@ -454,7 +454,7 @@ data
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -485,7 +485,7 @@ if
 p
 !
 =
-nullptr
+nsnull
 )
 *
 p
@@ -517,7 +517,7 @@ static
 void
 FreeStringArray
 (
-uint32_t
+PRUint32
 variants
 char
 *
@@ -539,14 +539,14 @@ variants
 array
 =
 =
-nullptr
+nsnull
 )
 )
 return
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -568,7 +568,7 @@ i
 ]
 !
 =
-nullptr
+nsnull
 )
 {
 PL_strfree
@@ -584,7 +584,7 @@ array
 i
 ]
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -605,7 +605,7 @@ nsIFile
 file
 )
 {
-nsAutoCString
+nsCAutoString
 leaf
 ;
 if
@@ -637,7 +637,7 @@ get
 ;
 if
 (
-nullptr
+nsnull
 !
 =
 leafname
@@ -751,7 +751,7 @@ mPlugin
 return
 NS_ERROR_NULL_POINTER
 ;
-nsAutoCString
+nsCAutoString
 temp
 ;
 mPlugin
@@ -779,7 +779,7 @@ return
 outLibrary
 =
 =
-nullptr
+nsnull
 ?
 NS_ERROR_FAILURE
 :
@@ -804,7 +804,7 @@ outLibrary
 *
 outLibrary
 =
-nullptr
+nsnull
 ;
 nsresult
 rv
@@ -828,7 +828,7 @@ CCHMAXPATH
 APIRET
 ret
 ;
-nsAutoCString
+nsCAutoString
 path
 ;
 if
@@ -849,7 +849,7 @@ path
 return
 rv
 ;
-nsAutoCString
+nsCAutoString
 fileName
 ;
 if
@@ -889,7 +889,7 @@ info
 .
 fVersion
 =
-nullptr
+nsnull
 ;
 while
 (
@@ -941,7 +941,7 @@ NP_INFO_MIMEType
 ;
 if
 (
-nullptr
+nsnull
 =
 =
 mimeType
@@ -960,7 +960,7 @@ NP_INFO_FileOpenName
 ;
 if
 (
-nullptr
+nsnull
 =
 =
 mimeDescription
@@ -979,7 +979,7 @@ NP_INFO_FileExtents
 ;
 if
 (
-nullptr
+nsnull
 =
 =
 extensions
@@ -1014,7 +1014,7 @@ info
 fMimeTypeArray
 =
 =
-nullptr
+nsnull
 )
 break
 ;
@@ -1032,7 +1032,7 @@ mimeDescription
 ;
 if
 (
-nullptr
+nsnull
 =
 =
 info
@@ -1055,7 +1055,7 @@ extensions
 ;
 if
 (
-nullptr
+nsnull
 =
 =
 info
@@ -1131,7 +1131,7 @@ info
 fName
 !
 =
-nullptr
+nsnull
 )
 PL_strfree
 (
@@ -1147,7 +1147,7 @@ info
 fFullPath
 !
 =
-nullptr
+nsnull
 )
 PL_strfree
 (
@@ -1163,7 +1163,7 @@ info
 fFileName
 !
 =
-nullptr
+nsnull
 )
 PL_strfree
 (
@@ -1179,7 +1179,7 @@ info
 fVersion
 !
 =
-nullptr
+nsnull
 )
 PL_strfree
 (
@@ -1195,7 +1195,7 @@ info
 fDescription
 !
 =
-nullptr
+nsnull
 )
 PL_strfree
 (
@@ -1211,7 +1211,7 @@ info
 fMimeTypeArray
 !
 =
-nullptr
+nsnull
 )
 FreeStringArray
 (
@@ -1230,7 +1230,7 @@ info
 fMimeDescriptionArray
 !
 =
-nullptr
+nsnull
 )
 FreeStringArray
 (
@@ -1249,7 +1249,7 @@ info
 fExtensionArray
 !
 =
-nullptr
+nsnull
 )
 FreeStringArray
 (

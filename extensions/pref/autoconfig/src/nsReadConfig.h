@@ -68,7 +68,7 @@ const
 char
 *
 aFileName
-int32_t
+PRInt32
 obscureValue
 bool
 isEncoded

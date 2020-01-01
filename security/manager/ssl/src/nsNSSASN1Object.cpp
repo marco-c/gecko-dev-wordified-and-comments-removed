@@ -200,7 +200,7 @@ val
 ;
 }
 static
-int32_t
+PRInt32
 getDERItemLength
 (
 unsigned
@@ -229,7 +229,7 @@ data
 +
 +
 ;
-int32_t
+PRInt32
 length
 =
 -
@@ -238,7 +238,7 @@ length
 *
 indefinite
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -319,7 +319,7 @@ else
 *
 indefinite
 =
-true
+PR_TRUE
 ;
 length
 =
@@ -421,10 +421,10 @@ bytesUsed
 bool
 indefinite
 ;
-int32_t
+PRInt32
 len
 ;
-uint32_t
+PRUint32
 type
 ;
 rv
@@ -451,7 +451,7 @@ rv
 parentObjects
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_FAILURE
@@ -715,7 +715,7 @@ parentObjects
 AppendElement
 (
 asn1Obj
-false
+PR_FALSE
 )
 ;
 }
@@ -751,7 +751,7 @@ nsNSSASN1Sequence
 *
 retval
 =
-nullptr
+nsnull
 ;
 nsresult
 rv
@@ -813,7 +813,7 @@ if
 retval
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_FAILURE
@@ -846,11 +846,11 @@ mTag
 )
 mIsValidContainer
 (
-true
+PR_TRUE
 )
 mIsExpanded
 (
-true
+PR_TRUE
 )
 {
 }
@@ -880,7 +880,7 @@ if
 mASN1Objects
 =
 =
-nullptr
+nsnull
 )
 {
 mASN1Objects
@@ -931,7 +931,7 @@ nsNSSASN1Sequence
 :
 GetTag
 (
-uint32_t
+PRUint32
 *
 aTag
 )
@@ -951,7 +951,7 @@ nsNSSASN1Sequence
 :
 SetTag
 (
-uint32_t
+PRUint32
 aTag
 )
 {
@@ -969,7 +969,7 @@ nsNSSASN1Sequence
 :
 GetType
 (
-uint32_t
+PRUint32
 *
 aType
 )
@@ -989,7 +989,7 @@ nsNSSASN1Sequence
 :
 SetType
 (
-uint32_t
+PRUint32
 aType
 )
 {
@@ -1187,7 +1187,7 @@ mTag
 )
 mData
 (
-nullptr
+nsnull
 )
 mLen
 (
@@ -1261,7 +1261,7 @@ nsNSSASN1PrintableItem
 :
 GetTag
 (
-uint32_t
+PRUint32
 *
 aTag
 )
@@ -1281,7 +1281,7 @@ nsNSSASN1PrintableItem
 :
 SetTag
 (
-uint32_t
+PRUint32
 aTag
 )
 {
@@ -1299,7 +1299,7 @@ nsNSSASN1PrintableItem
 :
 GetType
 (
-uint32_t
+PRUint32
 *
 aType
 )
@@ -1319,7 +1319,7 @@ nsNSSASN1PrintableItem
 :
 SetType
 (
-uint32_t
+PRUint32
 aType
 )
 {
@@ -1340,7 +1340,7 @@ SetData
 char
 *
 data
-uint32_t
+PRUint32
 len
 )
 {
@@ -1422,7 +1422,7 @@ mData
 ;
 mData
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -1444,7 +1444,7 @@ char
 *
 *
 outData
-uint32_t
+PRUint32
 *
 outLen
 )

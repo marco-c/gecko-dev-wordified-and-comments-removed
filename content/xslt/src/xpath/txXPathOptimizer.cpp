@@ -71,7 +71,7 @@ aRecycler
 nsresult
 getVariable
 (
-int32_t
+PRInt32
 aNamespace
 nsIAtom
 *
@@ -122,7 +122,7 @@ context
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 void
@@ -145,7 +145,7 @@ context
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 txResultRecycler
@@ -198,11 +198,11 @@ txXPathNode
 *
 >
 (
-nullptr
+nsnull
 )
 ;
 }
-uint32_t
+PRUint32
 size
 (
 )
@@ -224,7 +224,7 @@ return
 1
 ;
 }
-uint32_t
+PRUint32
 position
 (
 )
@@ -272,7 +272,7 @@ aOutExpr
 *
 aOutExpr
 =
-nullptr
+nsnull
 ;
 nsresult
 rv
@@ -395,7 +395,7 @@ return
 NS_OK
 ;
 }
-uint32_t
+PRUint32
 i
 =
 0
@@ -423,7 +423,7 @@ Expr
 *
 newExpr
 =
-nullptr
+nsnull
 ;
 rv
 =
@@ -564,7 +564,7 @@ txNameTest
 *
 nameTest
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -772,7 +772,7 @@ PathExpr
 aInExpr
 )
 ;
-uint32_t
+PRUint32
 i
 ;
 Expr
@@ -1115,7 +1115,7 @@ path
 setSubExprAt
 (
 1
-nullptr
+nsnull
 )
 ;
 return
@@ -1168,7 +1168,7 @@ aInExpr
 nsresult
 rv
 ;
-uint32_t
+PRUint32
 current
 ;
 Expr
@@ -1256,9 +1256,9 @@ txUnionNodeTest
 *
 unionTest
 =
-nullptr
+nsnull
 ;
-uint32_t
+PRUint32
 i
 ;
 for
@@ -1429,7 +1429,7 @@ step
 >
 setNodeTest
 (
-nullptr
+nsnull
 )
 ;
 uni
@@ -1472,7 +1472,7 @@ uni
 setSubExprAt
 (
 0
-nullptr
+nsnull
 )
 ;
 *

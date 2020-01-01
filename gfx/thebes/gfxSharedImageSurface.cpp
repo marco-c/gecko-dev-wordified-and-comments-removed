@@ -58,13 +58,13 @@ SHM_KEY
 struct
 SharedImageInfo
 {
-int32_t
+PRInt32
 width
 ;
-int32_t
+PRInt32
 height
 ;
-int32_t
+PRInt32
 format
 ;
 }
@@ -381,7 +381,7 @@ size
 )
 )
 return
-nullptr
+nsnull
 ;
 nsRefPtr
 <
@@ -416,7 +416,7 @@ CairoStatus
 0
 )
 ?
-nullptr
+nsnull
 :
 s
 .

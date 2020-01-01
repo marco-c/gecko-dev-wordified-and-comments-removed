@@ -100,7 +100,7 @@ identityInvalid
 *
 identityInvalid
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -141,7 +141,7 @@ nsISupports
 *
 *
 continuationState
-uint32_t
+PRUint32
 *
 aFlags
 char
@@ -200,7 +200,7 @@ isBasicAuth
 NS_ERROR_UNEXPECTED
 )
 ;
-nsAutoCString
+nsCAutoString
 userpass
 ;
 LossyCopyUTF16toASCII
@@ -306,7 +306,7 @@ nsHttpBasicAuth
 :
 GetAuthFlags
 (
-uint32_t
+nsresult
 *
 flags
 )

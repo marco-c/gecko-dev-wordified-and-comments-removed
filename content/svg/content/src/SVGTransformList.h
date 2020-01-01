@@ -7,14 +7,7 @@ MOZILLA_SVGTRANSFORMLIST_H__
 #
 include
 "
-gfxMatrix
-.
-h
-"
-#
-include
-"
-nsDebug
+SVGTransform
 .
 h
 "
@@ -28,7 +21,7 @@ h
 #
 include
 "
-SVGTransform
+nsSVGElement
 .
 h
 "
@@ -86,7 +79,7 @@ IsEmpty
 )
 ;
 }
-uint32_t
+PRUint32
 Length
 (
 )
@@ -107,7 +100,7 @@ operator
 [
 ]
 (
-uint32_t
+PRUint32
 aIndex
 )
 const
@@ -143,7 +136,7 @@ mItems
 bool
 SetCapacity
 (
-uint32_t
+PRUint32
 size
 )
 {
@@ -203,7 +196,7 @@ operator
 [
 ]
 (
-uint32_t
+PRUint32
 aIndex
 )
 {
@@ -217,7 +210,7 @@ aIndex
 bool
 SetLength
 (
-uint32_t
+PRUint32
 aNumberOfItems
 )
 {
@@ -256,7 +249,7 @@ Clear
 bool
 InsertItem
 (
-uint32_t
+PRUint32
 aIndex
 const
 SVGTransform
@@ -300,7 +293,7 @@ aTransform
 void
 ReplaceItem
 (
-uint32_t
+PRUint32
 aIndex
 const
 SVGTransform
@@ -339,7 +332,7 @@ aTransform
 void
 RemoveItem
 (
-uint32_t
+PRUint32
 aIndex
 )
 {

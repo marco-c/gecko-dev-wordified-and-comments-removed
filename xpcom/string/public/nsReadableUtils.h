@@ -101,6 +101,7 @@ aSource
 nsACString
 &
 aDest
+NS_OUTPARAM
 )
 ;
 void
@@ -113,6 +114,7 @@ aSource
 nsAString
 &
 aDest
+NS_OUTPARAM
 )
 ;
 void
@@ -125,6 +127,7 @@ aSource
 nsACString
 &
 aDest
+NS_OUTPARAM
 )
 ;
 void
@@ -137,6 +140,7 @@ aSource
 nsAString
 &
 aDest
+NS_OUTPARAM
 )
 ;
 void
@@ -149,6 +153,7 @@ aSource
 nsACString
 &
 aDest
+NS_OUTPARAM
 )
 ;
 void
@@ -161,6 +166,7 @@ aSource
 nsAString
 &
 aDest
+NS_OUTPARAM
 )
 ;
 void
@@ -173,6 +179,7 @@ aSource
 nsACString
 &
 aDest
+NS_OUTPARAM
 )
 ;
 void
@@ -185,6 +192,7 @@ aSource
 nsAString
 &
 aDest
+NS_OUTPARAM
 )
 ;
 void
@@ -311,11 +319,11 @@ const
 nsAString
 &
 aSource
-uint32_t
+PRUint32
 *
 aUTF8Count
 =
-nullptr
+nsnull
 )
 ;
 PRUnichar
@@ -346,11 +354,11 @@ const
 nsACString
 &
 aSource
-uint32_t
+PRUint32
 *
 aUTF16Count
 =
-nullptr
+nsnull
 )
 ;
 PRUnichar
@@ -361,12 +369,12 @@ const
 nsAString
 &
 aSource
-uint32_t
+PRUint32
 aSrcOffset
 PRUnichar
 *
 aDest
-uint32_t
+PRUint32
 aLength
 )
 ;
@@ -783,7 +791,7 @@ const_iterator
 aSearchEnd
 )
 ;
-uint32_t
+PRUint32
 CountCharInReadable
 (
 const
@@ -794,7 +802,7 @@ PRUnichar
 aChar
 )
 ;
-uint32_t
+PRUint32
 CountCharInReadable
 (
 const
@@ -903,21 +911,7 @@ EmptyCString
 (
 )
 ;
-const
-nsAFlatString
-&
-NullString
-(
-)
-;
-const
-nsAFlatCString
-&
-NullCString
-(
-)
-;
-int32_t
+PRInt32
 CompareUTF8toUTF16
 (
 const
@@ -934,7 +928,7 @@ void
 AppendUCS4ToUTF16
 (
 const
-uint32_t
+PRUint32
 aSource
 nsAString
 &
@@ -953,7 +947,7 @@ EnsureStringLength
 T
 &
 aStr
-uint32_t
+PRUint32
 aLen
 )
 {

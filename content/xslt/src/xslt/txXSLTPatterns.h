@@ -49,7 +49,7 @@ txPattern
 ;
 }
 virtual
-bool
+MBool
 matches
 (
 const
@@ -94,7 +94,7 @@ Expr
 *
 getSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 )
 =
@@ -104,7 +104,7 @@ virtual
 void
 setSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 Expr
 *
@@ -118,7 +118,7 @@ txPattern
 *
 getSubPatternAt
 (
-uint32_t
+PRUint32
 aPos
 )
 =
@@ -128,7 +128,7 @@ virtual
 void
 setSubPatternAt
 (
-uint32_t
+PRUint32
 aPos
 txPattern
 *
@@ -159,7 +159,7 @@ endif
 define
 TX_DECL_PATTERN_BASE
 \
-bool
+MBool
 matches
 (
 const
@@ -183,7 +183,7 @@ Expr
 *
 getSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 )
 ;
@@ -192,7 +192,7 @@ virtual
 void
 setSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 Expr
 *
@@ -205,7 +205,7 @@ txPattern
 *
 getSubPatternAt
 (
-uint32_t
+PRUint32
 aPos
 )
 ;
@@ -214,7 +214,7 @@ virtual
 void
 setSubPatternAt
 (
-uint32_t
+PRUint32
 aPos
 txPattern
 *
@@ -260,14 +260,14 @@ _class
 :
 getSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 )
 \
 {
 \
 return
-nullptr
+nsnull
 ;
 \
 }
@@ -279,7 +279,7 @@ _class
 :
 setSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 Expr
 *
@@ -315,14 +315,14 @@ _class
 :
 getSubPatternAt
 (
-uint32_t
+PRUint32
 aPos
 )
 \
 {
 \
 return
-nullptr
+nsnull
 ;
 \
 }
@@ -334,7 +334,7 @@ _class
 :
 setSubPatternAt
 (
-uint32_t
+PRUint32
 aPos
 txPattern
 *
@@ -464,7 +464,7 @@ txRootPattern
 :
 mSerialize
 (
-true
+PR_TRUE
 )
 {
 }
@@ -542,7 +542,7 @@ aPrefix
 nsIAtom
 *
 aLocalName
-int32_t
+PRInt32
 aNSID
 const
 nsAString

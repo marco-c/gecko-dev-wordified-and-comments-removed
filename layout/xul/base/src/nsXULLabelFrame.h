@@ -74,12 +74,12 @@ aDestructRoot
 NS_IMETHOD
 AttributeChanged
 (
-int32_t
+PRInt32
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-int32_t
+PRInt32
 aModType
 )
 ;

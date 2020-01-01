@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsError
+nsNetError
 .
 h
 "
@@ -58,15 +58,6 @@ h
 include
 "
 prio
-.
-h
-"
-#
-include
-"
-mozilla
-/
-Attributes
 .
 h
 "
@@ -161,11 +152,11 @@ mLock
 )
 mFD
 (
-nullptr
+nsnull
 )
 mAttached
 (
-false
+PR_FALSE
 )
 {
 if
@@ -440,7 +431,7 @@ rv
 ;
 mAttached
 =
-true
+PR_TRUE
 ;
 mPollFlags
 =
@@ -463,7 +454,7 @@ OnSocketReady
 PRFileDesc
 *
 fd
-int16_t
+PRInt16
 outFlags
 )
 {
@@ -679,7 +670,7 @@ mFD
 ;
 mFD
 =
-nullptr
+nsnull
 ;
 }
 if
@@ -700,7 +691,7 @@ nsIServerSocketListener
 *
 listener
 =
-nullptr
+nsnull
 ;
 {
 MutexAutoLock
@@ -740,11 +731,11 @@ nsServerSocket
 :
 Init
 (
-int32_t
+PRInt32
 aPort
 bool
 aLoopbackOnly
-int32_t
+PRInt32
 aBackLog
 )
 {
@@ -805,7 +796,7 @@ const
 PRNetAddr
 *
 aAddr
-int32_t
+PRInt32
 aBackLog
 )
 {
@@ -814,7 +805,7 @@ NS_ENSURE_TRUE
 mFD
 =
 =
-nullptr
+nsnull
 NS_ERROR_ALREADY_INITIALIZED
 )
 ;
@@ -866,7 +857,7 @@ value
 .
 reuse_addr
 =
-true
+PR_TRUE
 ;
 PR_SetSocketOption
 (
@@ -887,7 +878,7 @@ value
 .
 non_blocking
 =
-true
+PR_TRUE
 ;
 PR_SetSocketOption
 (
@@ -1031,7 +1022,7 @@ mFD
 ;
 mFD
 =
-nullptr
+nsnull
 ;
 }
 return
@@ -1055,7 +1046,6 @@ namespace
 {
 class
 ServerSocketListenerProxy
-MOZ_FINAL
 :
 public
 nsIServerSocketListener
@@ -1364,7 +1354,7 @@ NS_ENSURE_TRUE
 mListener
 =
 =
-nullptr
+nsnull
 NS_ERROR_IN_PROGRESS
 )
 ;
@@ -1408,12 +1398,12 @@ nsServerSocket
 :
 GetPort
 (
-int32_t
+PRInt32
 *
 aResult
 )
 {
-uint16_t
+PRUint16
 port
 ;
 if
@@ -1448,7 +1438,7 @@ port
 aResult
 =
 (
-int32_t
+PRInt32
 )
 PR_ntohs
 (

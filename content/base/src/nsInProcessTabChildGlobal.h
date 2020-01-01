@@ -129,11 +129,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 nsInProcessTabChildGlobal
 nsDOMEventTargetHelper
 )
-NS_FORWARD_SAFE_NSIMESSAGELISTENERMANAGER
-(
-mMessageManager
-)
-NS_FORWARD_SAFE_NSIMESSAGESENDER
+NS_FORWARD_SAFE_NSIFRAMEMESSAGEMANAGER
 (
 mMessageManager
 )
@@ -151,7 +147,7 @@ aObject
 JSContext
 *
 aCx
-uint8_t
+PRUint8
 aArgc
 jsval
 *
@@ -279,7 +275,7 @@ AddEventListener
 aType
 aListener
 aUseCapture
-false
+PR_FALSE
 2
 )
 ;
@@ -298,7 +294,7 @@ bool
 aUseCapture
 bool
 aWantsUntrusted
-uint8_t
+PRUint8
 optional_argc
 )
 {
@@ -478,9 +474,6 @@ mLoadingScript
 ;
 bool
 mDelayedDisconnect
-;
-bool
-mIsBrowserFrame
 ;
 public
 :

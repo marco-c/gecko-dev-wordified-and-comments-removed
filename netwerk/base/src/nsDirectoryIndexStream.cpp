@@ -236,7 +236,7 @@ name2
 )
 ;
 }
-nsAutoCString
+nsCAutoString
 name1
 name2
 ;
@@ -332,7 +332,7 @@ PR_LOG_DEBUG
 )
 )
 {
-nsAutoCString
+nsCAutoString
 path
 ;
 aDir
@@ -596,7 +596,7 @@ mArray
 Sort
 (
 compare
-nullptr
+nsnull
 )
 ;
 #
@@ -611,7 +611,7 @@ AppendLiteral
 "
 )
 ;
-nsAutoCString
+nsCAutoString
 url
 ;
 rv
@@ -804,7 +804,7 @@ nsDirectoryIndexStream
 :
 Available
 (
-uint64_t
+PRUint32
 *
 aLength
 )
@@ -824,7 +824,7 @@ if
 mOffset
 <
 (
-int32_t
+PRInt32
 )
 mBuf
 .
@@ -878,9 +878,9 @@ Read
 char
 *
 aBuf
-uint32_t
+PRUint32
 aCount
-uint32_t
+PRUint32
 *
 aReadCount
 )
@@ -912,7 +912,7 @@ mStatus
 return
 mStatus
 ;
-uint32_t
+PRUint32
 nread
 =
 0
@@ -922,7 +922,7 @@ while
 mOffset
 <
 (
-int32_t
+PRInt32
 )
 mBuf
 .
@@ -984,7 +984,7 @@ Truncate
 ;
 while
 (
-uint32_t
+PRUint32
 (
 mBuf
 .
@@ -1041,7 +1041,7 @@ PR_LOG_DEBUG
 )
 )
 {
-nsAutoCString
+nsCAutoString
 path
 ;
 current
@@ -1132,7 +1132,7 @@ continue
 }
 #
 endif
-int64_t
+PRInt64
 fileSize
 =
 0
@@ -1146,7 +1146,7 @@ GetFileSize
 fileSize
 )
 ;
-PRTime
+PRInt64
 fileInfoModifyTime
 =
 0
@@ -1179,7 +1179,7 @@ char
 *
 escaped
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -1239,7 +1239,7 @@ url_Path
 }
 else
 {
-nsAutoCString
+nsCAutoString
 leafname
 ;
 rv
@@ -1528,7 +1528,7 @@ while
 mOffset
 <
 (
-int32_t
+PRInt32
 )
 mBuf
 .
@@ -1592,9 +1592,9 @@ writer
 void
 *
 closure
-uint32_t
+PRUint32
 count
-uint32_t
+PRUint32
 *
 _retval
 )
@@ -1617,7 +1617,7 @@ aNonBlocking
 *
 aNonBlocking
 =
-false
+PR_FALSE
 ;
 return
 NS_OK

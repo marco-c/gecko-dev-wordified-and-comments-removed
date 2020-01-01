@@ -1,4 +1,10 @@
 #
+if
+MOZ_WINSDK_TARGETVER
+>
+=
+MOZ_NTDDI_LONGHORN
+#
 include
 "
 nsDownloadScanner
@@ -71,7 +77,7 @@ h
 #
 include
 "
-nsIPrefBranch
+nsIPrefBranch2
 .
 h
 "
@@ -204,7 +210,7 @@ nsDownloadScanner
 :
 mAESExists
 (
-false
+PR_FALSE
 )
 {
 }
@@ -267,7 +273,7 @@ NS_ERROR_NOT_AVAILABLE
 }
 mAESExists
 =
-true
+PR_TRUE
 ;
 mWatchdog
 =
@@ -299,7 +305,7 @@ rv
 )
 mWatchdog
 =
-nullptr
+nsnull
 ;
 }
 else
@@ -377,11 +383,11 @@ n
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 AVCheckPolicyState
@@ -417,7 +423,7 @@ aTarget
 return
 AVPOLICY_DOWNLOAD
 ;
-nsAutoCString
+nsCAutoString
 source
 ;
 rv
@@ -892,7 +898,7 @@ AVSCAN_NOTSTARTED
 )
 mSkipSource
 (
-false
+PR_FALSE
 )
 {
 InitializeCriticalSection
@@ -967,7 +973,7 @@ NS_OK
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 ;
@@ -1025,7 +1031,7 @@ rv
 rv
 )
 ;
-nsAutoCString
+nsCAutoString
 name
 ;
 rv
@@ -1075,7 +1081,7 @@ rv
 rv
 )
 ;
-nsAutoCString
+nsCAutoString
 origin
 ;
 rv
@@ -1381,7 +1387,7 @@ downloadState
 ;
 mDownload
 =
-nullptr
+nsnull
 ;
 NS_RELEASE_THIS
 (
@@ -1587,7 +1593,7 @@ GetExceptionCode
 {
 gotException
 =
-true
+PR_TRUE
 ;
 }
 MOZ_SEH_TRY
@@ -1609,7 +1615,7 @@ GetExceptionCode
 {
 gotException
 =
-true
+PR_TRUE
 ;
 }
 if
@@ -1716,7 +1722,7 @@ AVSCAN_SCANNING
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 #
@@ -2677,3 +2683,5 @@ return
 0
 ;
 }
+#
+endif

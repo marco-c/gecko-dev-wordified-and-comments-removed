@@ -245,9 +245,6 @@ void
 aPC
 void
 *
-aSP
-void
-*
 aClosure
 )
 {
@@ -336,8 +333,7 @@ NS_StackWalk
 (
 PrintStackFrame
 2
-nullptr
-0
+nsnull
 )
 ;
 printf
@@ -439,7 +435,7 @@ signum
 endif
 #
 ifdef
-MOZ_WIDGET_GTK
+MOZ_WIDGET_GTK2
 #
 include
 <
@@ -453,7 +449,7 @@ endif
 if
 defined
 (
-MOZ_WIDGET_GTK
+MOZ_WIDGET_GTK2
 )
 &
 &
@@ -630,7 +626,7 @@ Divide
 by
 zero
 "
-nullptr
+nsnull
 __FILE__
 __LINE__
 )
@@ -1531,7 +1527,7 @@ endif
 if
 defined
 (
-MOZ_WIDGET_GTK
+MOZ_WIDGET_GTK2
 )
 &
 &

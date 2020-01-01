@@ -43,9 +43,6 @@ class
 nsIPresShell
 ;
 class
-nsILoadContext
-;
-class
 nsCopySupport
 {
 public
@@ -60,7 +57,7 @@ aSel
 nsIDocument
 *
 aDoc
-int16_t
+PRInt16
 aClipboardID
 )
 ;
@@ -102,7 +99,7 @@ const
 nsACString
 &
 aMimeType
-uint32_t
+PRUint32
 aFlags
 nsISelection
 *
@@ -122,10 +119,7 @@ ImageCopy
 nsIImageLoadingContent
 *
 aImageElement
-nsILoadContext
-*
-aLoadContext
-int32_t
+PRInt32
 aCopyFlags
 )
 ;
@@ -188,7 +182,7 @@ static
 bool
 FireClipboardEvent
 (
-int32_t
+PRInt32
 aType
 nsIPresShell
 *

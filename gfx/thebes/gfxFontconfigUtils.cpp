@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 gfxFontconfigUtils
 .
 h
@@ -24,7 +15,7 @@ h
 #
 include
 "
-nsGkAtoms
+gfxAtoms
 .
 h
 "
@@ -99,14 +90,14 @@ gfxFontconfigUtils
 :
 sUtils
 =
-nullptr
+nsnull
 ;
 static
 nsILanguageAtomService
 *
 gLangService
 =
-nullptr
+nsnull
 ;
 void
 gfxFontconfigUtils
@@ -126,7 +117,7 @@ sUtils
 ;
 sUtils
 =
-nullptr
+nsnull
 ;
 }
 NS_IF_RELEASE
@@ -135,7 +126,7 @@ gLangService
 )
 ;
 }
-uint8_t
+PRUint8
 gfxFontconfigUtils
 :
 :
@@ -154,22 +145,22 @@ case
 FC_SLANT_ITALIC
 :
 return
-NS_FONT_STYLE_ITALIC
+FONT_STYLE_ITALIC
 ;
 case
 FC_SLANT_OBLIQUE
 :
 return
-NS_FONT_STYLE_OBLIQUE
+FONT_STYLE_OBLIQUE
 ;
 default
 :
 return
-NS_FONT_STYLE_NORMAL
+FONT_STYLE_NORMAL
 ;
 }
 }
-uint8_t
+PRUint8
 gfxFontconfigUtils
 :
 :
@@ -199,7 +190,7 @@ FcResultMatch
 )
 {
 return
-NS_FONT_STYLE_NORMAL
+FONT_STYLE_NORMAL
 ;
 }
 return
@@ -228,7 +219,7 @@ aFontStyle
 style
 =
 =
-NS_FONT_STYLE_ITALIC
+FONT_STYLE_ITALIC
 )
 return
 FC_SLANT_ITALIC
@@ -240,7 +231,7 @@ aFontStyle
 style
 =
 =
-NS_FONT_STYLE_OBLIQUE
+FONT_STYLE_OBLIQUE
 )
 return
 FC_SLANT_OBLIQUE
@@ -316,7 +307,7 @@ FC_WEIGHT_EXTRABLACK
 215
 #
 endif
-uint16_t
+PRUint16
 gfxFontconfigUtils
 :
 :
@@ -345,7 +336,7 @@ weight
 FcResultMatch
 )
 return
-NS_FONT_WEIGHT_NORMAL
+FONT_WEIGHT_NORMAL
 ;
 if
 (
@@ -495,7 +486,7 @@ gfxFontconfigUtils
 :
 FcWeightForBaseWeight
 (
-int8_t
+PRInt8
 aBaseWeight
 )
 {
@@ -584,7 +575,7 @@ FC_WEIGHT_THIN
 FC_WEIGHT_EXTRABLACK
 ;
 }
-int16_t
+PRInt16
 gfxFontconfigUtils
 :
 :
@@ -771,7 +762,7 @@ gfxFontconfigUtils
 :
 FcWidthForThebesStretch
 (
-int16_t
+PRInt16
 aStretch
 )
 {
@@ -844,7 +835,7 @@ gfxFontStyle
 aFontStyle
 )
 {
-int8_t
+PRInt8
 weight
 =
 aFontStyle
@@ -976,7 +967,7 @@ nsIAtom
 aLangGroup
 )
 {
-nsAutoCString
+nsCAutoString
 lang
 ;
 gfxFontconfigUtils
@@ -1151,7 +1142,7 @@ false
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -1197,14 +1188,14 @@ get
 ;
 for
 (
-uint32_t
+PRUint32
 g
 =
 0
 ;
 g
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sFontconfigGenerics
 )
@@ -1241,7 +1232,7 @@ get
 {
 useWeakBinding
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -1363,7 +1354,7 @@ rv
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -1401,7 +1392,7 @@ Sort
 (
 )
 ;
-int32_t
+PRInt32
 serif
 =
 0
@@ -1599,7 +1590,7 @@ MozLangGroups
 =
 {
 {
-nsGkAtoms
+gfxAtoms
 :
 :
 x_western
@@ -1608,7 +1599,7 @@ en
 "
 }
 {
-nsGkAtoms
+gfxAtoms
 :
 :
 x_central_euro
@@ -1617,7 +1608,7 @@ pl
 "
 }
 {
-nsGkAtoms
+gfxAtoms
 :
 :
 x_cyrillic
@@ -1626,7 +1617,7 @@ ru
 "
 }
 {
-nsGkAtoms
+gfxAtoms
 :
 :
 x_baltic
@@ -1635,7 +1626,7 @@ lv
 "
 }
 {
-nsGkAtoms
+gfxAtoms
 :
 :
 x_devanagari
@@ -1644,7 +1635,7 @@ hi
 "
 }
 {
-nsGkAtoms
+gfxAtoms
 :
 :
 x_tamil
@@ -1653,7 +1644,7 @@ ta
 "
 }
 {
-nsGkAtoms
+gfxAtoms
 :
 :
 x_armn
@@ -1662,7 +1653,7 @@ hy
 "
 }
 {
-nsGkAtoms
+gfxAtoms
 :
 :
 x_beng
@@ -1671,7 +1662,7 @@ bn
 "
 }
 {
-nsGkAtoms
+gfxAtoms
 :
 :
 x_cans
@@ -1680,7 +1671,7 @@ iu
 "
 }
 {
-nsGkAtoms
+gfxAtoms
 :
 :
 x_ethi
@@ -1689,7 +1680,7 @@ am
 "
 }
 {
-nsGkAtoms
+gfxAtoms
 :
 :
 x_geor
@@ -1698,7 +1689,7 @@ ka
 "
 }
 {
-nsGkAtoms
+gfxAtoms
 :
 :
 x_gujr
@@ -1707,7 +1698,7 @@ gu
 "
 }
 {
-nsGkAtoms
+gfxAtoms
 :
 :
 x_guru
@@ -1716,7 +1707,7 @@ pa
 "
 }
 {
-nsGkAtoms
+gfxAtoms
 :
 :
 x_khmr
@@ -1725,7 +1716,7 @@ km
 "
 }
 {
-nsGkAtoms
+gfxAtoms
 :
 :
 x_knda
@@ -1734,7 +1725,7 @@ kn
 "
 }
 {
-nsGkAtoms
+gfxAtoms
 :
 :
 x_mlym
@@ -1743,7 +1734,7 @@ ml
 "
 }
 {
-nsGkAtoms
+gfxAtoms
 :
 :
 x_orya
@@ -1752,7 +1743,7 @@ or
 "
 }
 {
-nsGkAtoms
+gfxAtoms
 :
 :
 x_sinh
@@ -1761,7 +1752,7 @@ si
 "
 }
 {
-nsGkAtoms
+gfxAtoms
 :
 :
 x_telu
@@ -1770,7 +1761,7 @@ te
 "
 }
 {
-nsGkAtoms
+gfxAtoms
 :
 :
 x_tibt
@@ -1779,14 +1770,14 @@ bo
 "
 }
 {
-nsGkAtoms
+gfxAtoms
 :
 :
-Unicode
+x_unicode
 0
 }
 {
-nsGkAtoms
+gfxAtoms
 :
 :
 x_user_def
@@ -1939,7 +1930,7 @@ NS_PRECONDITION
 aFcLang
 !
 =
-nullptr
+nsnull
 "
 aFcLang
 must
@@ -1954,7 +1945,7 @@ MozLangGroupData
 *
 langGroup
 =
-nullptr
+nsnull
 ;
 for
 (
@@ -1966,7 +1957,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 MozLangGroups
 )
@@ -2072,7 +2063,7 @@ pos
 =
 languages
 ;
-true
+PR_TRUE
 ;
 +
 +
@@ -2357,7 +2348,7 @@ FcResultMatch
 continue
 ;
 }
-nsAutoCString
+nsCAutoString
 strFamily
 (
 family
@@ -2443,7 +2434,7 @@ UpdateFontList
 return
 UpdateFontListInternal
 (
-true
+PR_TRUE
 )
 ;
 }
@@ -2791,7 +2782,7 @@ p
 kComma
 )
 ;
-nsAutoCString
+nsCAutoString
 name
 (
 Substring
@@ -2805,8 +2796,8 @@ name
 .
 CompressWhitespace
 (
-false
-true
+PR_FALSE
+PR_TRUE
 )
 ;
 mAliasForMultiFonts
@@ -3131,7 +3122,7 @@ end
 }
 for
 (
-uint32_t
+PRUint32
 j
 =
 0
@@ -3253,7 +3244,7 @@ i
 {
 equal
 =
-false
+PR_FALSE
 ;
 break
 ;
@@ -3353,7 +3344,7 @@ aAborted
 {
 aAborted
 =
-false
+PR_FALSE
 ;
 nsresult
 rv
@@ -3436,7 +3427,7 @@ aFamilyName
 )
 !
 =
-nullptr
+nsnull
 ;
 }
 const
@@ -3520,7 +3511,7 @@ family
 FcResultMatch
 )
 return
-false
+PR_FALSE
 ;
 aFullname
 -
@@ -3596,7 +3587,7 @@ style
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -3620,7 +3611,7 @@ key
 =
 mKey
 ;
-nsAutoCString
+nsCAutoString
 fullname
 ;
 if
@@ -3808,7 +3799,7 @@ v
 0
 )
 {
-nsAutoCString
+nsCAutoString
 name
 ;
 if
@@ -3940,7 +3931,7 @@ FcLangDifferentLang
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -4215,7 +4206,7 @@ if
 entry
 )
 return
-nullptr
+nsnull
 ;
 FcLangResult
 best
@@ -4461,7 +4452,7 @@ NULL
 ;
 UpdateFontListInternal
 (
-true
+PR_TRUE
 )
 ;
 return
@@ -4500,7 +4491,7 @@ entry
 GetLangSupportEntry
 (
 aLang
-false
+PR_FALSE
 )
 ;
 if
@@ -4545,7 +4536,7 @@ entry
 GetLangSupportEntry
 (
 aLang
-true
+PR_TRUE
 )
 ;
 if
@@ -4576,7 +4567,7 @@ aName
 {
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -4605,10 +4596,10 @@ i
 )
 )
 return
-true
+PR_TRUE
 ;
 }
 return
-false
+PR_FALSE
 ;
 }

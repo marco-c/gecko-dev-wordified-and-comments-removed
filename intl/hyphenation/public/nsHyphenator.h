@@ -26,7 +26,7 @@ nsTArray
 h
 "
 class
-nsIURI
+nsIUGenCategory
 ;
 class
 nsHyphenator
@@ -35,9 +35,9 @@ public
 :
 nsHyphenator
 (
-nsIURI
+nsIFile
 *
-aURI
+aFile
 )
 ;
 NS_INLINE_DECL_REFCOUNTING
@@ -76,6 +76,12 @@ protected
 void
 *
 mDict
+;
+nsCOMPtr
+<
+nsIUGenCategory
+>
+mCategories
 ;
 }
 ;

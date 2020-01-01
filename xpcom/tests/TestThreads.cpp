@@ -341,7 +341,7 @@ twice
 ;
 mWasRun
 =
-true
+PR_TRUE
 ;
 PR_Sleep
 (
@@ -389,7 +389,7 @@ num
 )
 mWasRun
 (
-false
+PR_FALSE
 )
 {
 PR_AtomicIncrement
@@ -400,7 +400,7 @@ gNum
 ;
 }
 static
-int32_t
+PRInt32
 GetGlobalCount
 (
 )
@@ -430,10 +430,10 @@ run
 protected
 :
 static
-int32_t
+PRInt32
 gNum
 ;
-int32_t
+PRInt32
 mNum
 ;
 bool
@@ -441,7 +441,7 @@ mWasRun
 ;
 }
 ;
-int32_t
+PRInt32
 nsStressRunner
 :
 :
@@ -885,9 +885,9 @@ rv
 =
 NS_InitXPCOM2
 (
-nullptr
-nullptr
-nullptr
+nsnull
+nsnull
+nsnull
 )
 ;
 if
@@ -1250,7 +1250,7 @@ rv
 =
 NS_ShutdownXPCOM
 (
-nullptr
+nsnull
 )
 ;
 if

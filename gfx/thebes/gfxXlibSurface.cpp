@@ -64,6 +64,17 @@ Preferences
 .
 h
 "
+#
+include
+"
+cairo
+-
+xlib
+-
+xrender
+.
+h
+"
 using
 namespace
 mozilla
@@ -89,7 +100,7 @@ visual
 :
 mPixmapTaken
 (
-false
+PR_FALSE
 )
 mDisplay
 (
@@ -167,7 +178,7 @@ size
 :
 mPixmapTaken
 (
-false
+PR_FALSE
 )
 mDisplay
 (
@@ -258,7 +269,7 @@ size
 :
 mPixmapTaken
 (
-false
+PR_FALSE
 )
 mDisplay
 (
@@ -344,7 +355,7 @@ csurf
 :
 mPixmapTaken
 (
-false
+PR_FALSE
 )
 mSize
 (
@@ -412,7 +423,7 @@ csurf
 Init
 (
 csurf
-true
+PR_TRUE
 )
 ;
 }
@@ -445,7 +456,7 @@ mGLXPixmap
 gl
 :
 :
-sDefGLXLib
+sGLXLibrary
 .
 DestroyPixmap
 (
@@ -573,7 +584,7 @@ Pixmap
 ;
 mPixmapTaken
 =
-true
+PR_TRUE
 ;
 RecordMemoryUsed
 (
@@ -621,7 +632,7 @@ Pixmap
 ;
 mPixmapTaken
 =
-false
+PR_FALSE
 ;
 RecordMemoryFreed
 (
@@ -675,7 +686,7 @@ if
 drawable
 )
 return
-nullptr
+nsnull
 ;
 nsRefPtr
 <
@@ -715,7 +726,7 @@ CairoStatus
 0
 )
 return
-nullptr
+nsnull
 ;
 return
 result
@@ -768,7 +779,7 @@ if
 drawable
 )
 return
-nullptr
+nsnull
 ;
 nsRefPtr
 <
@@ -805,7 +816,7 @@ CairoStatus
 0
 )
 return
-nullptr
+nsnull
 ;
 return
 result
@@ -868,7 +879,7 @@ mSurfaceValid
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 if
@@ -1256,7 +1267,7 @@ aVisualForColormap
 defaultVisual
 ;
 return
-true
+PR_TRUE
 ;
 }
 if
@@ -1274,7 +1285,7 @@ c_class
 TrueColor
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -1303,7 +1314,7 @@ sDisplayTable
 >
 mDisplays
 ;
-uint32_t
+PRUint32
 d
 =
 displays
@@ -1353,7 +1364,7 @@ if
 codes
 )
 return
-false
+PR_FALSE
 ;
 XESetCloseDisplay
 (
@@ -1394,7 +1405,7 @@ mColormapEntries
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -1472,7 +1483,7 @@ entry
 mVisual
 ;
 return
-true
+PR_TRUE
 ;
 }
 }
@@ -1540,7 +1551,7 @@ aVisualForColormap
 aVisual
 ;
 return
-true
+PR_TRUE
 ;
 }
 int
@@ -1590,7 +1601,7 @@ sDisplayTable
 ;
 sDisplayTable
 =
-nullptr
+nsnull
 ;
 }
 return
@@ -1618,7 +1629,7 @@ if
 mSurfaceValid
 )
 return
-false
+PR_FALSE
 ;
 XRenderPictFormat
 *
@@ -2157,7 +2168,7 @@ mGLXPixmap
 gl
 :
 :
-sDefGLXLib
+sGLXLibrary
 .
 CreatePixmap
 (

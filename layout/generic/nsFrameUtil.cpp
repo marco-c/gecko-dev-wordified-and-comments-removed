@@ -42,7 +42,7 @@ h
 "
 #
 ifdef
-DEBUG
+NS_DEBUG
 class
 nsFrameUtil
 :
@@ -71,7 +71,7 @@ aFile1
 FILE
 *
 aFile2
-int32_t
+PRInt32
 aRegressionOutput
 =
 0
@@ -181,7 +181,7 @@ char
 *
 type
 ;
-uint32_t
+PRUint32
 state
 ;
 nsRect
@@ -276,10 +276,10 @@ char
 *
 attributes
 ;
-int32_t
+PRInt32
 num
 ;
-int32_t
+PRInt32
 size
 ;
 char
@@ -310,7 +310,7 @@ aNode
 FILE
 *
 aOutputFile
-int32_t
+PRInt32
 aIndent
 )
 ;
@@ -324,7 +324,7 @@ aNode
 FILE
 *
 aOutputFile
-int32_t
+PRInt32
 aIndent
 )
 ;
@@ -388,7 +388,7 @@ if
 c
 )
 return
-nullptr
+nsnull
 ;
 memcpy
 (
@@ -404,7 +404,7 @@ c
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 nsFrameUtil
@@ -419,15 +419,15 @@ NodeList
 :
 next
 (
-nullptr
+nsnull
 )
 node
 (
-nullptr
+nsnull
 )
 name
 (
-nullptr
+nsnull
 )
 {
 }
@@ -444,7 +444,7 @@ NodeList
 {
 if
 (
-nullptr
+nsnull
 !
 =
 name
@@ -456,7 +456,7 @@ name
 }
 if
 (
-nullptr
+nsnull
 !
 =
 node
@@ -488,7 +488,7 @@ aLists
 {
 while
 (
-nullptr
+nsnull
 !
 =
 aLists
@@ -524,11 +524,11 @@ Node
 :
 next
 (
-nullptr
+nsnull
 )
 type
 (
-nullptr
+nsnull
 )
 state
 (
@@ -536,7 +536,7 @@ state
 )
 lists
 (
-nullptr
+nsnull
 )
 {
 }
@@ -553,7 +553,7 @@ Node
 {
 if
 (
-nullptr
+nsnull
 !
 =
 type
@@ -565,7 +565,7 @@ type
 }
 if
 (
-nullptr
+nsnull
 !
 =
 lists
@@ -597,7 +597,7 @@ aList
 {
 while
 (
-nullptr
+nsnull
 !
 =
 aList
@@ -622,7 +622,7 @@ next
 }
 }
 static
-int32_t
+PRInt32
 GetInt
 (
 nsFrameUtil
@@ -652,14 +652,14 @@ aAttr
 ;
 if
 (
-nullptr
+nsnull
 !
 =
 value
 )
 {
 return
-int32_t
+PRInt32
 (
 atoi
 (
@@ -704,14 +704,14 @@ aFile
 ;
 if
 (
-nullptr
+nsnull
 =
 =
 tag
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 if
@@ -735,7 +735,7 @@ delete
 tag
 ;
 return
-nullptr
+nsnull
 ;
 }
 Node
@@ -847,7 +847,7 @@ aFile
 ;
 if
 (
-nullptr
+nsnull
 =
 =
 tag
@@ -1070,7 +1070,7 @@ aFile
 ;
 if
 (
-nullptr
+nsnull
 =
 =
 tag
@@ -1136,7 +1136,7 @@ tag
 ;
 if
 (
-nullptr
+nsnull
 =
 =
 child
@@ -1415,7 +1415,7 @@ Tag
 :
 name
 (
-nullptr
+nsnull
 )
 type
 (
@@ -1423,7 +1423,7 @@ open
 )
 attributes
 (
-nullptr
+nsnull
 )
 num
 (
@@ -1435,7 +1435,7 @@ size
 )
 values
 (
-nullptr
+nsnull
 )
 {
 }
@@ -1450,7 +1450,7 @@ Tag
 (
 )
 {
-int32_t
+PRInt32
 i
 n
 =
@@ -1525,7 +1525,7 @@ num
 size
 )
 {
-int32_t
+PRInt32
 newSize
 =
 size
@@ -1650,7 +1650,7 @@ char
 aAttr
 )
 {
-int32_t
+PRInt32
 i
 n
 =
@@ -1695,7 +1695,7 @@ i
 }
 }
 return
-nullptr
+nsnull
 ;
 }
 static
@@ -1781,7 +1781,7 @@ c
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -1804,7 +1804,7 @@ break
 }
 }
 return
-true
+PR_TRUE
 ;
 }
 static
@@ -1833,7 +1833,7 @@ c
 0
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -1850,11 +1850,11 @@ aFile
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 static
@@ -1914,7 +1914,7 @@ c
 0
 )
 return
-nullptr
+nsnull
 ;
 if
 (
@@ -2016,7 +2016,7 @@ aFile
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 char
@@ -2066,7 +2066,7 @@ c
 0
 )
 return
-nullptr
+nsnull
 ;
 if
 (
@@ -2232,7 +2232,7 @@ aFile
 if
 (
 (
-nullptr
+nsnull
 =
 =
 attr
@@ -2253,7 +2253,7 @@ char
 *
 value
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -2275,7 +2275,7 @@ aFile
 ;
 if
 (
-nullptr
+nsnull
 =
 =
 value
@@ -2326,7 +2326,7 @@ aFile
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 if
@@ -2399,7 +2399,7 @@ tag
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 void
@@ -2470,7 +2470,7 @@ if
 num
 )
 {
-int32_t
+PRInt32
 i
 n
 =
@@ -2602,7 +2602,7 @@ aResult
 {
 NS_PRECONDITION
 (
-nullptr
+nsnull
 !
 =
 aResult
@@ -2614,7 +2614,7 @@ pointer
 ;
 if
 (
-nullptr
+nsnull
 =
 =
 aResult
@@ -2679,7 +2679,7 @@ aNode
 FILE
 *
 aOutputFile
-int32_t
+PRInt32
 aIndent
 )
 {
@@ -2769,13 +2769,13 @@ aNode
 FILE
 *
 aOutputFile
-int32_t
+PRInt32
 aIndent
 )
 {
 while
 (
-nullptr
+nsnull
 !
 =
 aNode
@@ -2802,7 +2802,7 @@ lists
 ;
 if
 (
-nullptr
+nsnull
 !
 =
 lists
@@ -2810,7 +2810,7 @@ lists
 {
 while
 (
-nullptr
+nsnull
 !
 =
 lists
@@ -2920,7 +2920,7 @@ next
 {
 if
 (
-nullptr
+nsnull
 =
 =
 tree1
@@ -2928,7 +2928,7 @@ tree1
 {
 if
 (
-nullptr
+nsnull
 =
 =
 tree2
@@ -2950,13 +2950,13 @@ n
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 else
 if
 (
-nullptr
+nsnull
 =
 =
 tree2
@@ -2975,7 +2975,7 @@ n
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -3059,7 +3059,7 @@ stdout
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 static
@@ -3175,7 +3175,7 @@ stdout
 ;
 result
 =
-false
+PR_FALSE
 ;
 }
 if
@@ -3310,7 +3310,7 @@ stdout
 ;
 result
 =
-false
+PR_FALSE
 ;
 }
 if
@@ -3389,7 +3389,7 @@ for
 {
 if
 (
-nullptr
+nsnull
 =
 =
 list1
@@ -3397,7 +3397,7 @@ list1
 {
 if
 (
-nullptr
+nsnull
 !
 =
 list2
@@ -3457,7 +3457,7 @@ stdout
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 else
@@ -3468,7 +3468,7 @@ break
 }
 if
 (
-nullptr
+nsnull
 =
 =
 list2
@@ -3528,7 +3528,7 @@ stdout
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -3601,7 +3601,7 @@ null
 ;
 result
 =
-false
+PR_FALSE
 ;
 }
 else
@@ -3664,7 +3664,7 @@ aFile1
 FILE
 *
 aFile2
-int32_t
+PRInt32
 aRegressionOutput
 )
 {
@@ -3807,7 +3807,7 @@ aInputFile
 ;
 if
 (
-nullptr
+nsnull
 !
 =
 tree1

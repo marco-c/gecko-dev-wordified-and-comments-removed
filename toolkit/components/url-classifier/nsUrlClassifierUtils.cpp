@@ -72,7 +72,7 @@ static
 char
 int_to_hex_digit
 (
-int32_t
+PRInt32
 i
 )
 {
@@ -149,7 +149,7 @@ num
 {
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -180,12 +180,12 @@ i
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 }
 return
-true
+PR_TRUE
 ;
 }
 static
@@ -210,7 +210,7 @@ Length
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -252,12 +252,12 @@ X
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 for
 (
-uint32_t
+PRUint32
 i
 =
 2
@@ -288,12 +288,12 @@ i
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 }
 return
-true
+PR_TRUE
 ;
 }
 static
@@ -318,7 +318,7 @@ Length
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -335,12 +335,12 @@ num
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 for
 (
-uint32_t
+PRUint32
 i
 =
 1
@@ -393,12 +393,12 @@ i
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 }
 return
-true
+PR_TRUE
 ;
 }
 nsUrlClassifierUtils
@@ -410,7 +410,7 @@ nsUrlClassifierUtils
 :
 mEscapeCharmap
 (
-nullptr
+nsnull
 )
 {
 }
@@ -488,7 +488,7 @@ innerURI
 =
 uri
 ;
-nsAutoCString
+nsCAutoString
 host
 ;
 innerURI
@@ -527,7 +527,7 @@ rv
 rv
 )
 ;
-nsAutoCString
+nsCAutoString
 path
 ;
 rv
@@ -546,7 +546,7 @@ rv
 rv
 )
 ;
-int32_t
+PRInt32
 ref
 =
 path
@@ -572,7 +572,7 @@ SetLength
 ref
 )
 ;
-nsAutoCString
+nsCAutoString
 temp
 ;
 rv
@@ -615,7 +615,7 @@ nsACString
 _retval
 )
 {
-nsAutoCString
+nsCAutoString
 unescaped
 ;
 if
@@ -652,7 +652,7 @@ hostname
 )
 ;
 }
-nsAutoCString
+nsCAutoString
 cleaned
 ;
 CleanupHostname
@@ -661,7 +661,7 @@ unescaped
 cleaned
 )
 ;
-nsAutoCString
+nsCAutoString
 temp
 ;
 ParseIPAddress
@@ -696,7 +696,7 @@ cleaned
 SpecialEncode
 (
 cleaned
-false
+PR_FALSE
 _retval
 )
 ;
@@ -725,13 +725,13 @@ Truncate
 (
 )
 ;
-nsAutoCString
+nsCAutoString
 decodedPath
 (
 path
 )
 ;
-nsAutoCString
+nsCAutoString
 temp
 ;
 while
@@ -770,7 +770,7 @@ Truncate
 SpecialEncode
 (
 decodedPath
-true
+PR_TRUE
 _retval
 )
 ;
@@ -1125,7 +1125,7 @@ allowOctal
 =
 true
 ;
-uint32_t
+PRUint32
 i
 ;
 for
@@ -1172,7 +1172,7 @@ part
 {
 for
 (
-uint32_t
+PRUint32
 j
 =
 1
@@ -1232,7 +1232,7 @@ j
 {
 allowOctal
 =
-false
+PR_FALSE
 ;
 break
 ;
@@ -1259,7 +1259,7 @@ i
 +
 )
 {
-nsAutoCString
+nsCAutoString
 canonical
 ;
 if
@@ -1376,7 +1376,7 @@ const
 nsACString
 &
 num
-uint32_t
+PRUint32
 bytes
 bool
 allowOctal
@@ -1405,7 +1405,7 @@ Length
 return
 ;
 }
-uint32_t
+PRUint32
 val
 ;
 if
@@ -1734,7 +1734,7 @@ c
 ;
 changed
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -1920,7 +1920,7 @@ nsACString
 _retval
 )
 {
-nsAutoCString
+nsCAutoString
 base64
 (
 key
@@ -1931,7 +1931,7 @@ UnUrlsafeBase64
 base64
 )
 ;
-uint32_t
+PRUint32
 destLength
 ;
 destLength

@@ -168,7 +168,7 @@ CERTCertificate
 *
 cert
 =
-nullptr
+nsnull
 )
 ;
 static
@@ -202,7 +202,7 @@ mCert
 bool
 mPermDelete
 ;
-uint32_t
+PRUint32
 mCertType
 ;
 nsCOMPtr
@@ -317,7 +317,7 @@ CERTCertList
 *
 certList
 =
-nullptr
+nsnull
 bool
 adopt
 =

@@ -96,7 +96,7 @@ size_t
 slen
 )
 {
-nsAutoCString
+nsCAutoString
 native
 ;
 nsDependentString
@@ -386,12 +386,12 @@ ctypes
 &
 ctypes
 )
-)
-return
-false
-;
+|
+|
+!
 JS_SetCTypesCallbacks
 (
+cx
 JSVAL_TO_OBJECT
 (
 ctypes
@@ -399,6 +399,9 @@ ctypes
 &
 sCallbacks
 )
+)
+return
+false
 ;
 if
 (
@@ -471,7 +474,7 @@ cx
 JSObject
 *
 obj
-uint32_t
+PRUint32
 argc
 jsval
 *

@@ -70,7 +70,7 @@ h
 "
 #
 ifdef
-DEBUG
+NS_DEBUG
 #
 include
 <
@@ -222,7 +222,7 @@ nsRDFDataSourceDataSource
 :
 kNC_Name
 =
-nullptr
+nsnull
 ;
 nsIRDFResource
 *
@@ -231,7 +231,7 @@ nsRDFDataSourceDataSource
 :
 kNC_Value
 =
-nullptr
+nsnull
 ;
 nsIRDFResource
 *
@@ -240,7 +240,7 @@ nsRDFDataSourceDataSource
 :
 kNC_Child
 =
-nullptr
+nsnull
 ;
 nsRDFDataSourceDataSource
 :
@@ -305,7 +305,7 @@ aLoaded
 *
 aLoaded
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -340,7 +340,7 @@ datasource
 "
 )
 ;
-nsAutoCString
+nsCAutoString
 mInnerURI
 ;
 mInnerURI
@@ -994,7 +994,7 @@ GetTargets
 (
 aSource
 arc
-true
+PR_TRUE
 getter_AddRefs
 (
 targetEnumerator

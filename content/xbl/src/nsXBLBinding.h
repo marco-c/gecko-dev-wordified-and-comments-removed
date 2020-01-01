@@ -114,7 +114,7 @@ nsXBLBinding
 (
 )
 ;
-NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
+NS_INLINE_DECL_REFCOUNTING
 (
 nsXBLBinding
 )
@@ -296,7 +296,7 @@ nsIAtom
 *
 GetBaseTag
 (
-int32_t
+PRInt32
 *
 aNameSpaceID
 )
@@ -325,7 +325,7 @@ obj
 )
 const
 ;
-void
+nsresult
 GetInsertionPointsFor
 (
 nsIContent
@@ -354,7 +354,7 @@ const
 nsIContent
 *
 aChild
-uint32_t
+PRUint32
 *
 aIndex
 )
@@ -363,7 +363,7 @@ nsIContent
 *
 GetSingleInsertionPoint
 (
-uint32_t
+PRUint32
 *
 aIndex
 bool
@@ -377,7 +377,7 @@ AttributeChanged
 nsIAtom
 *
 aAttribute
-int32_t
+PRInt32
 aNameSpaceID
 bool
 aRemoveFlag
@@ -435,7 +435,7 @@ aClassName
 nsXBLPrototypeBinding
 *
 aProtoBinding
-JSObject
+void
 *
 *
 aClassObject
@@ -464,12 +464,6 @@ aParent
 ;
 protected
 :
-bool
-mIsStyleBinding
-;
-bool
-mMarkedForDeath
-;
 nsXBLPrototypeBinding
 *
 mPrototypeBinding
@@ -497,6 +491,12 @@ nsInsertionPointList
 >
 *
 mInsertionPointTable
+;
+bool
+mIsStyleBinding
+;
+bool
+mMarkedForDeath
 ;
 }
 ;

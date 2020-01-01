@@ -82,7 +82,7 @@ csurf
 Init
 (
 csurf
-true
+PR_TRUE
 )
 ;
 }
@@ -95,7 +95,7 @@ gfxQuartzImageSurface
 )
 {
 }
-int32_t
+PRInt32
 gfxQuartzImageSurface
 :
 :
@@ -146,7 +146,7 @@ if
 mSurfaceValid
 )
 return
-nullptr
+nsnull
 ;
 cairo_surface_t
 *
@@ -184,7 +184,7 @@ QuartzImageSurface
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 nsRefPtr

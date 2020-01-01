@@ -32,7 +32,7 @@ const
 nsStaticAtom
 *
 aInfo
-uint32_t
+PRUint32
 aInfoCount
 )
 {
@@ -75,10 +75,10 @@ mAtom
 )
 )
 return
-true
+PR_TRUE
 ;
 }
 return
-false
+PR_FALSE
 ;
 }

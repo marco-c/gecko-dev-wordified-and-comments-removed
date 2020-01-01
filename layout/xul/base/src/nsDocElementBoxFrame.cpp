@@ -124,13 +124,6 @@ nsContentUtils
 .
 h
 "
-#
-include
-"
-nsContentList
-.
-h
-"
 class
 nsDocElementBoxFrame
 :
@@ -177,7 +170,7 @@ nsBoxFrame
 (
 aShell
 aContext
-true
+PR_TRUE
 )
 {
 }
@@ -202,7 +195,7 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
-uint32_t
+PRUint32
 aFilter
 )
 ;
@@ -210,7 +203,7 @@ virtual
 bool
 IsFrameOfType
 (
-uint32_t
+PRUint32
 aFlags
 )
 const
@@ -232,7 +225,7 @@ eReplaced
 )
 )
 return
-false
+PR_FALSE
 ;
 return
 nsBoxFrame
@@ -403,7 +396,7 @@ nsGkAtoms
 :
 :
 popupgroup
-nullptr
+nsnull
 kNameSpaceID_XUL
 nsIDOMNode
 :
@@ -463,7 +456,7 @@ nsGkAtoms
 :
 :
 tooltip
-nullptr
+nsnull
 kNameSpaceID_XUL
 nsIDOMNode
 :
@@ -503,7 +496,7 @@ mTooltipContent
 >
 SetAttr
 (
-kNameSpaceID_None
+nsnull
 nsGkAtoms
 :
 :
@@ -514,7 +507,7 @@ NS_LITERAL_STRING
 true
 "
 )
-false
+PR_FALSE
 )
 ;
 if
@@ -543,7 +536,7 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
-uint32_t
+PRUint32
 aFilter
 )
 {

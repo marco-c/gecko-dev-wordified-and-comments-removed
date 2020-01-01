@@ -117,9 +117,9 @@ PRUnichar
 *
 *
 aCertDetailsList
-uint32_t
+PRUint32
 aCount
-int32_t
+PRInt32
 *
 aSelectedIndex
 nsAString
@@ -133,7 +133,7 @@ aCanceled
 *
 aCanceled
 =
-true
+PR_TRUE
 ;
 nsCOMPtr
 <
@@ -228,7 +228,7 @@ rv
 rv
 )
 ;
-uint32_t
+PRUint32
 i
 ;
 for
@@ -346,7 +346,7 @@ rv
 rv
 )
 ;
-int32_t
+PRInt32
 status
 ;
 rv
@@ -378,7 +378,7 @@ status
 *
 aCanceled
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -386,7 +386,7 @@ else
 *
 aCanceled
 =
-false
+PR_FALSE
 ;
 rv
 =

@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsSVGPolyElement
 .
 h
@@ -111,7 +102,7 @@ GetDOMWrapper
 (
 key
 this
-false
+PR_FALSE
 )
 .
 get
@@ -154,7 +145,7 @@ GetDOMWrapper
 (
 key
 this
-true
+PR_TRUE
 )
 .
 get
@@ -199,6 +190,10 @@ FindAttributeDependence
 (
 name
 map
+NS_ARRAY_LENGTH
+(
+map
+)
 )
 |
 |
@@ -234,10 +229,10 @@ nsGkAtoms
 points
 )
 return
-true
+PR_TRUE
 ;
 return
-false
+PR_FALSE
 ;
 }
 void
@@ -295,7 +290,7 @@ prevAngle
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -497,7 +492,7 @@ points
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 1

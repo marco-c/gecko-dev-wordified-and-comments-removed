@@ -79,7 +79,7 @@ aSourceVariable
 )
 mSource
 (
-nullptr
+nsnull
 )
 mProperty
 (
@@ -91,7 +91,7 @@ aTargetVariable
 )
 mTarget
 (
-nullptr
+nsnull
 )
 {
 #
@@ -283,7 +283,7 @@ aTargetVariable
 )
 mTarget
 (
-nullptr
+nsnull
 )
 {
 #
@@ -455,7 +455,7 @@ aSourceVariable
 )
 mSource
 (
-nullptr
+nsnull
 )
 mProperty
 (
@@ -623,7 +623,7 @@ aCantHandleYet
 *
 aCantHandleYet
 =
-false
+PR_FALSE
 ;
 nsIRDFDataSource
 *
@@ -688,7 +688,7 @@ mSource
 {
 hasSourceBinding
 =
-true
+PR_TRUE
 ;
 sourceRes
 =
@@ -743,7 +743,7 @@ mTarget
 {
 hasTargetBinding
 =
-true
+PR_TRUE
 ;
 targetValue
 =
@@ -896,7 +896,7 @@ HasAssertion
 sourceRes
 mProperty
 targetValue
-true
+PR_TRUE
 &
 hasAssertion
 )
@@ -1034,7 +1034,7 @@ GetTargets
 (
 sourceRes
 mProperty
-true
+PR_TRUE
 getter_AddRefs
 (
 results
@@ -1053,7 +1053,7 @@ GetSources
 (
 mProperty
 targetValue
-true
+PR_TRUE
 getter_AddRefs
 (
 results
@@ -1167,7 +1167,7 @@ NS_ASSERTION
 value
 !
 =
-nullptr
+nsnull
 "
 target
 is
@@ -1276,7 +1276,7 @@ NS_ASSERTION
 source
 !
 =
-nullptr
+nsnull
 "
 source
 is
@@ -1444,7 +1444,7 @@ NS_ERROR_UNEXPECTED
 *
 aCantHandleYet
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -1525,7 +1525,7 @@ aTarget
 {
 result
 =
-false
+PR_FALSE
 ;
 }
 else
@@ -1556,7 +1556,7 @@ aTarget
 ;
 result
 =
-true
+PR_TRUE
 ;
 }
 #

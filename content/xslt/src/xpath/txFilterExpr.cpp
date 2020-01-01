@@ -37,7 +37,7 @@ aResult
 *
 aResult
 =
-nullptr
+nsnull
 ;
 nsRefPtr
 <
@@ -107,7 +107,7 @@ exprRes
 ;
 exprRes
 =
-nullptr
+nsnull
 ;
 nsRefPtr
 <
@@ -181,7 +181,7 @@ FilterExpr
 :
 getSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 )
 {
@@ -215,7 +215,7 @@ FilterExpr
 :
 setSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 Expr
 *

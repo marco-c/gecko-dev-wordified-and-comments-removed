@@ -23,10 +23,6 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 net
@@ -118,7 +114,7 @@ h
 #
 include
 "
-nsIPrefBranch
+nsIPrefBranch2
 .
 h
 "
@@ -137,13 +133,6 @@ nsEscape
 h
 "
 #
-include
-"
-nsAlgorithm
-.
-h
-"
-#
 if
 defined
 (
@@ -153,7 +142,7 @@ PRLogModuleInfo
 *
 gFTPLog
 =
-nullptr
+nsnull
 ;
 #
 endif
@@ -221,7 +210,7 @@ nsFtpProtocolHandler
 *
 gFtpHandler
 =
-nullptr
+nsnull
 ;
 nsFtpProtocolHandler
 :
@@ -340,7 +329,7 @@ called
 ;
 gFtpHandler
 =
-nullptr
+nsnull
 ;
 }
 NS_IMPL_THREADSAFE_ISUPPORTS4
@@ -386,7 +375,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIPrefBranch
+nsIPrefBranch2
 >
 branch
 =
@@ -441,7 +430,7 @@ AddObserver
 (
 IDLE_TIMEOUT_PREF
 this
-true
+PR_TRUE
 )
 ;
 if
@@ -454,7 +443,7 @@ rv
 return
 rv
 ;
-int32_t
+PRInt32
 val
 ;
 rv
@@ -479,9 +468,9 @@ rv
 mDataQoSBits
 =
 (
-uint8_t
+PRUint8
 )
-clamped
+NS_CLAMP
 (
 val
 0
@@ -497,7 +486,7 @@ AddObserver
 (
 QOS_DATA_PREF
 this
-true
+PR_TRUE
 )
 ;
 if
@@ -532,9 +521,9 @@ rv
 mControlQoSBits
 =
 (
-uint8_t
+PRUint8
 )
-clamped
+NS_CLAMP
 (
 val
 0
@@ -550,7 +539,7 @@ AddObserver
 (
 QOS_CONTROL_PREF
 this
-true
+PR_TRUE
 )
 ;
 if
@@ -604,7 +593,7 @@ go
 -
 offline
 "
-true
+PR_TRUE
 )
 ;
 observerService
@@ -622,7 +611,7 @@ active
 -
 logins
 "
-true
+PR_TRUE
 )
 ;
 }
@@ -660,7 +649,7 @@ nsFtpProtocolHandler
 :
 GetDefaultPort
 (
-int32_t
+PRInt32
 *
 result
 )
@@ -680,7 +669,7 @@ nsFtpProtocolHandler
 :
 GetProtocolFlags
 (
-uint32_t
+PRUint32
 *
 result
 )
@@ -723,7 +712,7 @@ nsIURI
 result
 )
 {
-nsAutoCString
+nsCAutoString
 spec
 (
 aSpec
@@ -753,7 +742,7 @@ BeginWriting
 (
 )
 ;
-int32_t
+PRInt32
 len
 =
 NS_UnescapeURL
@@ -877,7 +866,7 @@ return
 NewProxiedChannel
 (
 url
-nullptr
+nsnull
 result
 )
 ;
@@ -974,7 +963,7 @@ nsFtpProtocolHandler
 :
 AllowPort
 (
-int32_t
+PRInt32
 port
 const
 char
@@ -1118,9 +1107,9 @@ pointer
 *
 _retval
 =
-nullptr
+nsnull
 ;
-nsAutoCString
+nsCAutoString
 spec
 ;
 aKey
@@ -1157,9 +1146,9 @@ timerStruct
 *
 ts
 =
-nullptr
+nsnull
 ;
-uint32_t
+PRUint32
 i
 ;
 bool
@@ -1214,7 +1203,7 @@ key
 {
 found
 =
-true
+PR_TRUE
 ;
 mRootConnectionList
 .
@@ -1248,7 +1237,7 @@ ts
 >
 conn
 =
-nullptr
+nsnull
 ;
 delete
 ts
@@ -1302,7 +1291,7 @@ mSessionId
 return
 NS_ERROR_FAILURE
 ;
-nsAutoCString
+nsCAutoString
 spec
 ;
 aKey
@@ -1479,7 +1468,7 @@ Length
 IDLE_CONNECTION_LIMIT
 )
 {
-uint32_t
+PRUint32
 i
 ;
 for
@@ -1662,7 +1651,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-int32_t
+PRInt32
 val
 ;
 nsresult
@@ -1711,9 +1700,9 @@ rv
 mDataQoSBits
 =
 (
-uint8_t
+PRUint8
 )
-clamped
+NS_CLAMP
 (
 val
 0
@@ -1742,9 +1731,9 @@ rv
 mControlQoSBits
 =
 (
-uint8_t
+PRUint8
 )
-clamped
+NS_CLAMP
 (
 val
 0
@@ -1831,7 +1820,7 @@ ClearAllConnections
 (
 )
 {
-uint32_t
+PRUint32
 i
 ;
 for

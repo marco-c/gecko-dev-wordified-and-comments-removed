@@ -27,6 +27,9 @@ nsSVGAttrTearoffTable
 h
 "
 #
+ifdef
+MOZ_SMIL
+#
 include
 "
 nsSMILValue
@@ -40,6 +43,8 @@ SVGNumberListSMILType
 .
 h
 "
+#
+endif
 namespace
 mozilla
 {
@@ -108,7 +113,7 @@ newBaseValue
 }
 mIsBaseSet
 =
-true
+PR_TRUE
 ;
 rv
 =
@@ -149,7 +154,7 @@ SVGAnimatedNumberList
 :
 ClearBaseValue
 (
-uint32_t
+PRUint32
 aAttrEnum
 )
 {
@@ -189,7 +194,7 @@ Clear
 ;
 mIsBaseSet
 =
-false
+PR_FALSE
 ;
 }
 nsresult
@@ -205,7 +210,7 @@ aNewAnimValue
 nsSVGElement
 *
 aElement
-uint32_t
+PRUint32
 aAttrEnum
 )
 {
@@ -299,7 +304,7 @@ ClearAnimValue
 nsSVGElement
 *
 aElement
-uint32_t
+PRUint32
 aAttrEnum
 )
 {
@@ -331,7 +336,7 @@ mBaseVal
 }
 mAnimVal
 =
-nullptr
+nsnull
 ;
 aElement
 -
@@ -342,6 +347,9 @@ aAttrEnum
 )
 ;
 }
+#
+ifdef
+MOZ_SMIL
 nsISMILAttr
 *
 SVGAnimatedNumberList
@@ -352,7 +360,7 @@ ToSMILAttr
 nsSVGElement
 *
 aSVGElement
-uint8_t
+PRUint8
 aAttrEnum
 )
 {
@@ -455,7 +463,7 @@ val
 }
 aPreventCachingOfSandwich
 =
-false
+PR_FALSE
 ;
 return
 rv
@@ -653,4 +661,6 @@ mAttrEnum
 ;
 }
 }
+#
+endif
 }

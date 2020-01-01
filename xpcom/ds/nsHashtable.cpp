@@ -54,19 +54,6 @@ nsCRT
 .
 h
 "
-#
-include
-"
-mozilla
-/
-HashFunctions
-.
-h
-"
-using
-namespace
-mozilla
-;
 struct
 HTEntry
 :
@@ -124,7 +111,7 @@ key
 key
 )
 return
-true
+PR_TRUE
 ;
 const
 nsHashKey
@@ -227,14 +214,14 @@ hashEntry
 >
 key
 =
-nullptr
+nsnull
 ;
 hashEntry
 -
 >
 value
 =
-nullptr
+nsnull
 ;
 }
 static
@@ -250,7 +237,7 @@ matchKeyEntry
 PL_DHashMoveEntryStub
 clearHashEntry
 PL_DHashFinalizeStub
-nullptr
+nsnull
 }
 ;
 struct
@@ -275,7 +262,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-uint32_t
+PRUint32
 i
 void
 *
@@ -376,7 +363,7 @@ nsHashtable
 :
 nsHashtable
 (
-uint32_t
+PRUint32
 aInitSize
 bool
 threadSafe
@@ -388,7 +375,7 @@ NULL
 )
 mEnumerating
 (
-false
+PR_FALSE
 )
 {
 MOZ_COUNT_CTOR
@@ -405,7 +392,7 @@ PL_DHashTableInit
 mHashtable
 &
 hashtableOps
-nullptr
+nsnull
 sizeof
 (
 HTEntry
@@ -433,7 +420,7 @@ mHashtable
 .
 ops
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -538,7 +525,7 @@ mLock
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 PLDHashEntryHdr
@@ -603,7 +590,7 @@ mHashtable
 ops
 )
 return
-nullptr
+nsnull
 ;
 if
 (
@@ -723,7 +710,7 @@ mHashtable
 ops
 )
 return
-nullptr
+nsnull
 ;
 if
 (
@@ -767,7 +754,7 @@ entry
 >
 value
 :
-nullptr
+nsnull
 ;
 if
 (
@@ -802,7 +789,7 @@ mHashtable
 ops
 )
 return
-nullptr
+nsnull
 ;
 if
 (
@@ -852,7 +839,7 @@ entry
 {
 res
 =
-nullptr
+nsnull
 ;
 }
 else
@@ -895,7 +882,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-uint32_t
+PRUint32
 i
 void
 *
@@ -961,7 +948,7 @@ mHashtable
 ops
 )
 return
-nullptr
+nsnull
 ;
 bool
 threadSafe
@@ -970,7 +957,7 @@ threadSafe
 mLock
 !
 =
-nullptr
+nsnull
 )
 ;
 nsHashtable
@@ -1027,7 +1014,7 @@ mEnumerating
 ;
 mEnumerating
 =
-true
+PR_TRUE
 ;
 _HashEnumerateArgs
 thunk
@@ -1067,7 +1054,7 @@ PLDHashTable
 PLDHashEntryHdr
 *
 hdr
-uint32_t
+PRUint32
 i
 void
 *
@@ -1180,7 +1167,7 @@ destroyFunc
 {
 thunkp
 =
-nullptr
+nsnull
 ;
 }
 else
@@ -1231,11 +1218,11 @@ aRetVal
 :
 mLock
 (
-nullptr
+nsnull
 )
 mEnumerating
 (
-false
+PR_FALSE
 )
 {
 MOZ_COUNT_CTOR
@@ -1295,7 +1282,7 @@ rv
 )
 )
 {
-uint32_t
+PRUint32
 count
 ;
 rv
@@ -1326,7 +1313,7 @@ PL_DHashTableInit
 mHashtable
 &
 hashtableOps
-nullptr
+nsnull
 sizeof
 (
 HTEntry
@@ -1344,7 +1331,7 @@ mHashtable
 .
 ops
 =
-nullptr
+nsnull
 ;
 rv
 =
@@ -1355,7 +1342,7 @@ else
 {
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -1406,7 +1393,7 @@ aFreeEntryFunc
 (
 aStream
 key
-nullptr
+nsnull
 )
 ;
 }
@@ -1507,7 +1494,7 @@ mRetVal
 rv
 ;
 return
-true
+PR_TRUE
 ;
 }
 nsresult
@@ -1541,7 +1528,7 @@ threadSafe
 mLock
 !
 =
-nullptr
+nsnull
 )
 ;
 nsresult
@@ -1565,7 +1552,7 @@ rv
 return
 rv
 ;
-uint32_t
+PRUint32
 count
 =
 mHashtable
@@ -1642,7 +1629,7 @@ aResult
 :
 mKey
 (
-nullptr
+nsnull
 )
 {
 bool
@@ -1677,7 +1664,7 @@ aStream
 >
 ReadObject
 (
-true
+PR_TRUE
 &
 mKey
 )
@@ -1707,7 +1694,7 @@ nonnull
 mKey
 !
 =
-nullptr
+nsnull
 )
 ;
 nsresult
@@ -1739,7 +1726,7 @@ aStream
 WriteObject
 (
 mKey
-true
+PR_TRUE
 )
 ;
 return
@@ -1784,7 +1771,7 @@ mOwnership
 NEVER_OWN
 )
 {
-uint32_t
+PRUint32
 len
 =
 mStrLen
@@ -2002,7 +1989,7 @@ const
 char
 *
 str
-int32_t
+PRInt32
 strLen
 Ownership
 own
@@ -2040,7 +2027,7 @@ if
 mStrLen
 =
 =
-uint32_t
+PRUint32
 (
 -
 1
@@ -2098,7 +2085,7 @@ nsCStringKey
 )
 ;
 }
-uint32_t
+PRUint32
 nsCStringKey
 :
 :
@@ -2109,9 +2096,17 @@ void
 const
 {
 return
-HashString
+nsCRT
+:
+:
+HashCode
 (
 mStr
+(
+PRUint32
+*
+)
+&
 mStrLen
 )
 ;
@@ -2162,7 +2157,7 @@ NS_ASSERTION
 mStrLen
 !
 =
-uint32_t
+PRUint32
 (
 -
 1
@@ -2182,7 +2177,7 @@ other
 mStrLen
 !
 =
-uint32_t
+PRUint32
 (
 -
 1
@@ -2205,7 +2200,7 @@ other
 mStrLen
 )
 return
-false
+PR_FALSE
 ;
 return
 memcmp
@@ -2253,7 +2248,7 @@ mStrLen
 NEVER_OWN
 )
 ;
-uint32_t
+PRUint32
 len
 =
 mStrLen
@@ -2333,7 +2328,7 @@ aResult
 :
 mStr
 (
-nullptr
+nsnull
 )
 mStrLen
 (
@@ -2344,7 +2339,7 @@ mOwnership
 OWN
 )
 {
-nsAutoCString
+nsCAutoString
 str
 ;
 nsresult
@@ -2451,7 +2446,7 @@ mOwnership
 NEVER_OWN
 )
 {
-uint32_t
+PRUint32
 len
 =
 mStrLen
@@ -2666,7 +2661,7 @@ const
 PRUnichar
 *
 str
-int32_t
+PRInt32
 strLen
 Ownership
 own
@@ -2704,7 +2699,7 @@ if
 mStrLen
 =
 =
-uint32_t
+PRUint32
 (
 -
 1
@@ -2712,7 +2707,10 @@ uint32_t
 )
 mStrLen
 =
-NS_strlen
+nsCRT
+:
+:
+strlen
 (
 str
 )
@@ -2762,7 +2760,7 @@ nsStringKey
 )
 ;
 }
-uint32_t
+PRUint32
 nsStringKey
 :
 :
@@ -2773,9 +2771,17 @@ void
 const
 {
 return
-HashString
+nsCRT
+:
+:
+HashCode
 (
 mStr
+(
+PRUint32
+*
+)
+&
 mStrLen
 )
 ;
@@ -2826,7 +2832,7 @@ NS_ASSERTION
 mStrLen
 !
 =
-uint32_t
+PRUint32
 (
 -
 1
@@ -2846,7 +2852,7 @@ other
 mStrLen
 !
 =
-uint32_t
+PRUint32
 (
 -
 1
@@ -2869,7 +2875,7 @@ other
 mStrLen
 )
 return
-false
+PR_FALSE
 ;
 return
 memcmp
@@ -2917,7 +2923,7 @@ mStrLen
 NEVER_OWN
 )
 ;
-uint32_t
+PRUint32
 len
 =
 (
@@ -2989,7 +2995,7 @@ aResult
 :
 mStr
 (
-nullptr
+nsnull
 )
 mStrLen
 (
@@ -3084,7 +3090,7 @@ destroyElementFun
 void
 *
 destroyElementClosure
-uint32_t
+PRUint32
 aSize
 bool
 threadSafe
@@ -3138,7 +3144,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-uint32_t
+PRUint32
 i
 void
 *
@@ -3196,7 +3202,7 @@ if
 newElement
 =
 =
-nullptr
+nsnull
 )
 return
 PL_DHASH_STOP
@@ -3234,7 +3240,7 @@ mHashtable
 ops
 )
 return
-nullptr
+nsnull
 ;
 bool
 threadSafe
@@ -3247,7 +3253,7 @@ mLock
 )
 threadSafe
 =
-true
+PR_TRUE
 ;
 nsObjectHashtable
 *
@@ -3337,7 +3343,7 @@ mDestroyElementClosure
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 bool
@@ -3376,7 +3382,7 @@ element
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 nsSupportsHashtable
@@ -3390,7 +3396,7 @@ nsSupportsHashtable
 Enumerate
 (
 ReleaseElement
-nullptr
+nsnull
 )
 ;
 }
@@ -3462,7 +3468,7 @@ return
 prev
 !
 =
-nullptr
+nsnull
 ;
 }
 nsISupports
@@ -3495,7 +3501,7 @@ if
 data
 )
 return
-nullptr
+nsnull
 ;
 nsISupports
 *
@@ -3578,7 +3584,7 @@ return
 data
 !
 =
-nullptr
+nsnull
 ;
 }
 PLDHashOperator
@@ -3592,7 +3598,7 @@ PLDHashTable
 PLDHashEntryHdr
 *
 hdr
-uint32_t
+PRUint32
 i
 void
 *
@@ -3679,7 +3685,7 @@ mHashtable
 ops
 )
 return
-nullptr
+nsnull
 ;
 bool
 threadSafe
@@ -3688,7 +3694,7 @@ threadSafe
 mLock
 !
 =
-nullptr
+nsnull
 )
 ;
 nsSupportsHashtable
@@ -3727,7 +3733,7 @@ Reset
 Enumerate
 (
 ReleaseElement
-nullptr
+nsnull
 )
 ;
 nsHashtable

@@ -7,15 +7,6 @@ nsAutoRef_h_
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nscore
 .
 h
@@ -243,7 +234,6 @@ SimpleRef
 operator
 =
 (
-*
 this
 )
 ;
@@ -751,9 +741,10 @@ Void
 )
 {
 return
-nullptr
+nsnull
 ;
 }
+;
 }
 ;
 template
@@ -1033,7 +1024,6 @@ ThisClass
 &
 aSmartRef
 )
-MOZ_DELETE
 ;
 public
 :

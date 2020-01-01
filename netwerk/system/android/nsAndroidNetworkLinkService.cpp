@@ -92,7 +92,7 @@ connection
 *
 aIsUp
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -173,7 +173,7 @@ nsAndroidNetworkLinkService
 :
 GetLinkType
 (
-uint32_t
+PRUint32
 *
 aLinkType
 )

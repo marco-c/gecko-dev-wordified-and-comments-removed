@@ -139,7 +139,7 @@ ConIcConnection
 *
 gConnection
 =
-nullptr
+nsnull
 ;
 static
 bool
@@ -156,7 +156,7 @@ ReentrantMonitor
 *
 gReentrantMonitor
 =
-nullptr
+nsnull
 ;
 static
 void
@@ -251,7 +251,7 @@ InternalState_Disconnected
 ;
 gConnectionCallbackInvoked
 =
-true
+PR_TRUE
 ;
 mon
 .
@@ -284,7 +284,7 @@ NS_IsMainThread
 gConnection
 )
 return
-false
+PR_FALSE
 ;
 ReentrantMonitorAutoEnter
 mon
@@ -295,7 +295,7 @@ gReentrantMonitor
 ;
 gConnectionCallbackInvoked
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -348,10 +348,10 @@ gInternalState
 InternalState_Connected
 )
 return
-true
+PR_TRUE
 ;
 return
-false
+PR_FALSE
 ;
 }
 void
@@ -415,7 +415,7 @@ if
 gConnection
 )
 return
-true
+PR_TRUE
 ;
 gReentrantMonitor
 =
@@ -433,7 +433,7 @@ if
 gReentrantMonitor
 )
 return
-false
+PR_FALSE
 ;
 DBusError
 error
@@ -472,7 +472,7 @@ bus
 dbus_connection_setup_with_g_main
 (
 dbusConnection
-nullptr
+nsnull
 )
 ;
 gConnection
@@ -503,10 +503,10 @@ gReentrantMonitor
 ;
 gReentrantMonitor
 =
-nullptr
+nsnull
 ;
 return
-false
+PR_FALSE
 ;
 }
 g_signal_connect
@@ -524,7 +524,7 @@ G_CALLBACK
 (
 connection_event_callback
 )
-nullptr
+nsnull
 )
 ;
 g_object_set
@@ -540,12 +540,12 @@ connection
 -
 events
 "
-true
-nullptr
+PR_TRUE
+nsnull
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 void
@@ -558,7 +558,7 @@ Shutdown
 {
 gConnection
 =
-nullptr
+nsnull
 ;
 if
 (

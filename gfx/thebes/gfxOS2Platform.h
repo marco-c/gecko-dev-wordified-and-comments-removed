@@ -176,7 +176,7 @@ gfxOS2Font
 >
 FindFontForChar
 (
-uint32_t
+PRUint32
 aCh
 gfxOS2Font
 *
@@ -186,7 +186,7 @@ aFont
 bool
 noFontWithChar
 (
-uint32_t
+PRUint32
 aCh
 )
 {

@@ -57,7 +57,7 @@ nsISupportsArray
 aInputWord
 )
 {
-uint32_t
+PRUint32
 count
 ;
 aInputWord
@@ -93,10 +93,10 @@ mTransitionTable
 new
 nsObjectHashtable
 (
-nullptr
-nullptr
+nsnull
+nsnull
 DeleteDFAState
-nullptr
+nsnull
 )
 ;
 }
@@ -161,7 +161,7 @@ currState
 }
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -263,7 +263,7 @@ nsStyleContext
 *
 result
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -330,10 +330,10 @@ mCache
 new
 nsObjectHashtable
 (
-nullptr
-nullptr
+nsnull
+nsnull
 ReleaseStyleContext
-nullptr
+nsnull
 )
 ;
 }
@@ -385,7 +385,7 @@ delete
 entry
 ;
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -426,6 +426,6 @@ Release
 )
 ;
 return
-true
+PR_TRUE
 ;
 }

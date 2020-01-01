@@ -90,7 +90,7 @@ return
 mCacheEntry
 !
 =
-nullptr
+nsnull
 ;
 }
 public
@@ -109,7 +109,7 @@ mStreamIO
 bool
 mDoomed
 ;
-uint8_t
+PRUint8
 mGeneration
 ;
 nsDiskCacheDeviceDeactivateEntryEvent
@@ -167,7 +167,7 @@ nsDiskCacheBinding
 *
 FindActiveBinding
 (
-uint32_t
+PRUint32
 hashNumber
 )
 ;

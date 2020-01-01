@@ -55,7 +55,7 @@ nsSubstring
 &
 aName
 const
-int32_t
+PRInt32
 aNsID
 )
 ;

@@ -135,7 +135,7 @@ newbinding
 >
 mHasDependency
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -277,7 +277,7 @@ if
 valuesArray
 )
 return
-false
+PR_FALSE
 ;
 RDFBinding
 *
@@ -285,7 +285,7 @@ binding
 =
 mFirst
 ;
-int32_t
+PRInt32
 count
 =
 0
@@ -343,7 +343,7 @@ aTarget
 ;
 needSync
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -380,7 +380,7 @@ aTarget
 ;
 needSync
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -615,7 +615,7 @@ mNext
 ;
 }
 }
-int32_t
+PRInt32
 RDFBindingSet
 :
 :
@@ -630,7 +630,7 @@ RDFBinding
 aBinding
 )
 {
-int32_t
+PRInt32
 idx
 =
 0
@@ -724,12 +724,12 @@ mValues
 ;
 mValues
 =
-nullptr
+nsnull
 ;
 }
 mBindings
 =
-nullptr
+nsnull
 ;
 }
 nsresult
@@ -747,7 +747,7 @@ ClearBindingSet
 (
 )
 ;
-int32_t
+PRInt32
 count
 =
 aBindings
@@ -790,7 +790,7 @@ else
 {
 mValues
 =
-nullptr
+nsnull
 ;
 }
 return
@@ -818,7 +818,7 @@ aValue
 *
 aValue
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -832,7 +832,7 @@ RDFBinding
 *
 binding
 ;
-int32_t
+PRInt32
 idx
 =
 mBindings
@@ -959,7 +959,7 @@ binding
 -
 >
 mPredicate
-true
+PR_TRUE
 aValue
 )
 ;

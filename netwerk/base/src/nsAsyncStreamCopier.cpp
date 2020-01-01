@@ -62,7 +62,7 @@ PRLogModuleInfo
 *
 gStreamCopierLog
 =
-nullptr
+nsnull
 ;
 #
 endif
@@ -110,7 +110,7 @@ NS_OK
 )
 mIsPending
 (
-false
+PR_FALSE
 )
 {
 #
@@ -263,7 +263,7 @@ mLock
 ;
 mCopierCtx
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -272,7 +272,7 @@ mIsPending
 {
 mIsPending
 =
-false
+PR_FALSE
 ;
 mStatus
 =
@@ -288,11 +288,11 @@ mObserverContext
 ;
 mObserver
 =
-nullptr
+nsnull
 ;
 mObserverContext
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -611,7 +611,7 @@ aLoadGroup
 *
 aLoadGroup
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -651,7 +651,7 @@ bool
 sourceBuffered
 bool
 sinkBuffered
-uint32_t
+PRUint32
 chunkSize
 bool
 closeSource
@@ -839,7 +839,7 @@ rv
 }
 mIsPending
 =
-true
+PR_TRUE
 ;
 mObserverContext
 =
@@ -878,13 +878,6 @@ NS_ADDREF_THIS
 (
 )
 ;
-{
-MutexAutoLock
-lock
-(
-mLock
-)
-;
 rv
 =
 NS_AsyncCopy
@@ -904,7 +897,6 @@ mCopierCtx
 )
 )
 ;
-}
 if
 (
 NS_FAILED

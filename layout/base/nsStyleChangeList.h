@@ -7,15 +7,6 @@ nsStyleChangeList_h___
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
@@ -51,7 +42,7 @@ mHint
 ;
 static
 const
-uint32_t
+PRUint32
 kStyleChangeBufferSize
 =
 10
@@ -70,7 +61,7 @@ nsStyleChangeList
 (
 )
 ;
-int32_t
+PRInt32
 Count
 (
 void
@@ -84,7 +75,7 @@ mCount
 nsresult
 ChangeAt
 (
-int32_t
+PRInt32
 aIndex
 nsIFrame
 *
@@ -103,7 +94,7 @@ const
 nsresult
 ChangeAt
 (
-int32_t
+PRInt32
 aIndex
 const
 nsStyleChangeData
@@ -161,10 +152,10 @@ nsStyleChangeData
 *
 mArray
 ;
-int32_t
+PRInt32
 mArraySize
 ;
-int32_t
+PRInt32
 mCount
 ;
 nsStyleChangeData
@@ -181,7 +172,6 @@ const
 nsStyleChangeList
 &
 )
-MOZ_DELETE
 ;
 }
 ;

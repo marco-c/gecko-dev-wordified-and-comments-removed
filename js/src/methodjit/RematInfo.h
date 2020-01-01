@@ -75,7 +75,7 @@ Address
 ;
 static
 const
-int32_t
+int32
 CONSTANT
 =
 -
@@ -94,7 +94,7 @@ union
 RegisterID
 reg_
 ;
-int32_t
+int32
 offset_
 ;
 }
@@ -103,7 +103,7 @@ static
 StateRemat
 FromInt32
 (
-int32_t
+int32
 i32
 )
 {
@@ -225,7 +225,7 @@ offset_
 offset_
 <
 =
-int32_t
+int32
 (
 JSC
 :
@@ -247,7 +247,7 @@ return
 offset_
 >
 =
-int32_t
+int32
 (
 sizeof
 (
@@ -261,7 +261,7 @@ offset_
 0
 ;
 }
-int32_t
+int32
 toInt32
 (
 )
@@ -340,7 +340,7 @@ struct
 {
 union
 {
-int32_t
+int32
 typeRemat_
 ;
 JSValueType
@@ -349,7 +349,7 @@ knownType_
 }
 type
 ;
-int32_t
+int32
 dataRemat_
 :
 MIN_STATE_REMAT_BITS

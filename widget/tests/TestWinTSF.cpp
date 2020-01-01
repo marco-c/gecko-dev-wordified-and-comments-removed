@@ -258,7 +258,7 @@ h
 #
 include
 "
-nsIDOMElement
+nsIDOMNSElement
 .
 h
 "
@@ -347,7 +347,7 @@ TestApp
 :
 mFailed
 (
-false
+PR_FALSE
 )
 {
 }
@@ -496,7 +496,7 @@ TestNotificationTextChange
 nsIWidget
 *
 aWidget
-uint32_t
+PRUint32
 aCode
 const
 nsAString
@@ -590,13 +590,13 @@ aWebProgress
 nsIRequest
 *
 aRequest
-int32_t
+PRInt32
 aCurSelfProgress
-int32_t
+PRInt32
 aMaxSelfProgress
-int32_t
+PRInt32
 aCurTotalProgress
-int32_t
+PRInt32
 aMaxTotalProgress
 )
 {
@@ -619,8 +619,6 @@ aRequest
 nsIURI
 *
 aLocation
-uint32_t
-aFlags
 )
 {
 return
@@ -663,7 +661,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-uint32_t
+PRUint32
 aState
 )
 {
@@ -1643,7 +1641,7 @@ private
 ULONG
 mRefCnt
 ;
-uint32_t
+PRUint32
 mCurrentIndex
 ;
 public
@@ -1852,7 +1850,7 @@ E_FAIL
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -2605,7 +2603,7 @@ E_OUTOFMEMORY
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -2779,7 +2777,7 @@ hr
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -2946,11 +2944,11 @@ mRefCnt
 )
 mTextChanged
 (
-false
+PR_FALSE
 )
 mSelChanged
 (
-false
+PR_FALSE
 )
 {
 mAttrProp
@@ -3601,7 +3599,7 @@ end
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -3744,7 +3742,7 @@ pChange
 {
 mTextChanged
 =
-true
+PR_TRUE
 ;
 mTextChangeData
 =
@@ -3763,7 +3761,7 @@ void
 {
 mSelChanged
 =
-true
+PR_TRUE
 ;
 return
 S_OK
@@ -4279,11 +4277,11 @@ NULL
 ;
 mContextBase
 =
-nullptr
+nsnull
 ;
 mContextTop
 =
-nullptr
+nsnull
 ;
 return
 S_OK
@@ -4325,7 +4323,7 @@ E_FAIL
 }
 mContextTop
 =
-nullptr
+nsnull
 ;
 return
 S_OK
@@ -4482,7 +4480,7 @@ TSFDocumentMgrImpl
 *
 mFocusedDocument
 ;
-int32_t
+PRInt32
 mFocusCount
 ;
 TSFMgrImpl
@@ -4498,7 +4496,7 @@ test
 )
 mTest
 (
-nullptr
+nsnull
 )
 mRefCnt
 (
@@ -4506,11 +4504,11 @@ mRefCnt
 )
 mDeactivated
 (
-false
+PR_FALSE
 )
 mFocusedDocument
 (
-nullptr
+nsnull
 )
 mFocusCount
 (
@@ -4692,7 +4690,7 @@ void
 {
 mDeactivated
 =
-true
+PR_TRUE
 ;
 return
 S_OK
@@ -5515,7 +5513,7 @@ mFocusedDocument
 >
 mStore
 :
-nullptr
+nsnull
 ;
 }
 TSFContextImpl
@@ -5532,7 +5530,7 @@ mFocusedDocument
 >
 mContextBase
 :
-nullptr
+nsnull
 ;
 }
 TSFAttrPropImpl
@@ -5557,7 +5555,7 @@ context
 >
 mAttrProp
 :
-nullptr
+nsnull
 ;
 }
 }
@@ -5655,7 +5653,7 @@ mMgr
 >
 mFocusedDocument
 =
-nullptr
+nsnull
 ;
 -
 -
@@ -5744,7 +5742,7 @@ about
 :
 blank
 "
-nullptr
+nsnull
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5760,7 +5758,7 @@ appShellService
 >
 CreateTopLevelWindow
 (
-nullptr
+nsnull
 uri
 nsIWebBrowserChrome
 :
@@ -5768,6 +5766,7 @@ nsIWebBrowserChrome
 CHROME_DEFAULT
 800
 600
+mAppShell
 getter_AddRefs
 (
 mWindow
@@ -5892,12 +5891,12 @@ properly
 ;
 mFailed
 =
-true
+PR_TRUE
 ;
 }
 mMgr
 =
-nullptr
+nsnull
 ;
 return
 mFailed
@@ -6689,7 +6688,7 @@ widget
 >
 Show
 (
-true
+PR_TRUE
 )
 ;
 widget
@@ -6714,19 +6713,19 @@ void
 {
 mCurrentNode
 =
-nullptr
+nsnull
 ;
 mInput
 =
-nullptr
+nsnull
 ;
 mTextArea
 =
-nullptr
+nsnull
 ;
 mButton
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -6753,11 +6752,11 @@ Close
 ;
 win
 =
-nullptr
+nsnull
 ;
 mWindow
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -6772,7 +6771,7 @@ Exit
 ;
 mAppShell
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -6883,7 +6882,7 @@ aWebProgress
 nsIRequest
 *
 aRequest
-uint32_t
+PRUint32
 aStateFlags
 nsresult
 aStatus
@@ -6977,7 +6976,7 @@ TestApp
 :
 :
 TestFocus
-false
+PR_FALSE
 )
 )
 passed
@@ -7043,7 +7042,7 @@ clustering
 ;
 mFailed
 =
-true
+PR_TRUE
 ;
 }
 printf
@@ -7205,7 +7204,7 @@ TestApp
 :
 :
 TestNotification
-false
+PR_FALSE
 )
 )
 passed
@@ -7235,7 +7234,7 @@ input
 ;
 mFailed
 =
-true
+PR_TRUE
 ;
 }
 printf
@@ -7402,7 +7401,7 @@ TestApp
 :
 :
 TestNotification
-false
+PR_FALSE
 )
 )
 passed
@@ -7432,7 +7431,7 @@ textarea
 ;
 mFailed
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -7447,7 +7446,7 @@ initialization
 ;
 mFailed
 =
-true
+PR_TRUE
 ;
 }
 Term
@@ -7467,7 +7466,7 @@ TestFocus
 void
 )
 {
-uint32_t
+PRUint32
 focus
 =
 mMgr
@@ -7537,7 +7536,7 @@ set
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 rv
@@ -7599,7 +7598,7 @@ changed
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 rv
@@ -7662,11 +7661,11 @@ changed
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -7679,7 +7678,7 @@ void
 )
 {
 const
-uint32_t
+PRUint32
 STRING_LENGTH
 =
 2
@@ -7711,7 +7710,7 @@ string
 2
 ]
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -7738,7 +7737,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 TS_TEXTCHANGE
@@ -7804,7 +7803,7 @@ SetText
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 TsViewCookie
@@ -7845,7 +7844,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 hr
@@ -7885,7 +7884,7 @@ GetActiveView
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -7913,7 +7912,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 hr
@@ -7963,7 +7962,7 @@ letter
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -7991,7 +7990,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 hr
@@ -8041,7 +8040,7 @@ accent
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -8069,7 +8068,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 hr
@@ -8117,7 +8116,7 @@ whole
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 nonEmpty
@@ -8165,11 +8164,11 @@ rect
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -8229,7 +8228,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 sel
@@ -8307,7 +8306,7 @@ continueTest
 =
 succeeded
 =
-false
+PR_FALSE
 ;
 }
 if
@@ -8340,7 +8339,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 hr
@@ -8412,7 +8411,7 @@ aTestName
 ;
 succeeded
 =
-false
+PR_FALSE
 ;
 }
 }
@@ -8463,7 +8462,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 HRESULT
@@ -8515,7 +8514,7 @@ GetSelection
 ;
 succeeded
 =
-false
+PR_FALSE
 ;
 }
 const
@@ -8556,7 +8555,7 @@ SELECTION1_SELEND
 {
 succeeded
 =
-false
+PR_FALSE
 ;
 }
 const
@@ -8599,7 +8598,7 @@ SELECTION2_SELEND
 {
 succeeded
 =
-false
+PR_FALSE
 ;
 }
 const
@@ -8642,7 +8641,7 @@ SELECTION3_SELEND
 {
 succeeded
 =
-false
+PR_FALSE
 ;
 }
 return
@@ -8659,7 +8658,7 @@ void
 )
 {
 const
-uint32_t
+PRUint32
 BUFFER_SIZE
 =
 (
@@ -8667,7 +8666,7 @@ BUFFER_SIZE
 )
 ;
 const
-uint32_t
+PRUint32
 RUNINFO_SIZE
 =
 (
@@ -8731,7 +8730,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 hr
@@ -8821,7 +8820,7 @@ GetText
 ;
 succeeded
 =
-false
+PR_FALSE
 ;
 }
 if
@@ -8849,11 +8848,11 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 const
-uint32_t
+PRUint32
 GETTEXT2_START
 =
 (
@@ -8861,7 +8860,7 @@ GETTEXT2_START
 )
 ;
 const
-uint32_t
+PRUint32
 GETTEXT2_END
 =
 (
@@ -8875,7 +8874,7 @@ Length
 )
 ;
 const
-uint32_t
+PRUint32
 GETTEXT2_BUFFER_SIZE
 =
 (
@@ -8968,7 +8967,7 @@ GetText
 ;
 succeeded
 =
-false
+PR_FALSE
 ;
 }
 if
@@ -8996,11 +8995,11 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 const
-uint32_t
+PRUint32
 SETTEXT1_START
 =
 (
@@ -9008,7 +9007,7 @@ SETTEXT1_START
 )
 ;
 const
-uint32_t
+PRUint32
 SETTEXT1_TAIL_LENGTH
 =
 (
@@ -9016,7 +9015,7 @@ SETTEXT1_TAIL_LENGTH
 )
 ;
 const
-uint32_t
+PRUint32
 SETTEXT1_END
 =
 (
@@ -9042,7 +9041,7 @@ string
 ;
 continueTest
 =
-true
+PR_TRUE
 ;
 hr
 =
@@ -9134,11 +9133,11 @@ continueTest
 =
 succeeded
 =
-false
+PR_FALSE
 ;
 }
 const
-uint32_t
+PRUint32
 SETTEXT1_FINAL_LENGTH
 =
 (
@@ -9197,7 +9196,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 hr
@@ -9275,7 +9274,7 @@ continueTest
 =
 succeeded
 =
-false
+PR_FALSE
 ;
 break
 ;
@@ -9380,7 +9379,7 @@ SetText
 ;
 succeeded
 =
-false
+PR_FALSE
 ;
 }
 }
@@ -9409,12 +9408,12 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 continueTest
 =
-true
+PR_TRUE
 ;
 hr
 =
@@ -9505,7 +9504,7 @@ continueTest
 =
 succeeded
 =
-false
+PR_FALSE
 ;
 }
 if
@@ -9556,7 +9555,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 hr
@@ -9638,7 +9637,7 @@ continueTest
 =
 succeeded
 =
-false
+PR_FALSE
 ;
 break
 ;
@@ -9705,7 +9704,7 @@ SetText
 ;
 succeeded
 =
-false
+PR_FALSE
 ;
 }
 }
@@ -9747,7 +9746,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 TS_SELECTION_ACP
@@ -9833,7 +9832,7 @@ nsISelectionController
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 selCon
@@ -9849,7 +9848,7 @@ nsISelectionController
 :
 :
 SELECTION_FOCUS_REGION
-true
+PR_TRUE
 )
 ;
 nsCOMPtr
@@ -9881,7 +9880,7 @@ nsIDOMWindow
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 RECT
@@ -9893,7 +9892,7 @@ textRect2
 BOOL
 clipped
 ;
-int32_t
+PRInt32
 val
 ;
 TsViewCookie
@@ -10006,7 +10005,7 @@ failed
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -10034,7 +10033,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 hr
@@ -10074,7 +10073,7 @@ GetActiveView
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -10102,7 +10101,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 bool
@@ -10160,7 +10159,7 @@ GetWnd
 ;
 succeeded
 =
-false
+PR_FALSE
 ;
 }
 :
@@ -10196,7 +10195,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 hr
@@ -10292,7 +10291,7 @@ GetScreenExt
 ;
 succeeded
 =
-false
+PR_FALSE
 ;
 }
 const
@@ -10340,7 +10339,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 hr
@@ -10454,7 +10453,7 @@ GETTEXTEXT1_END
 ;
 succeeded
 =
-false
+PR_FALSE
 ;
 }
 const
@@ -10502,7 +10501,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 hr
@@ -10616,7 +10615,7 @@ GETTEXTEXT2_END
 ;
 succeeded
 =
-false
+PR_FALSE
 ;
 }
 const
@@ -10664,7 +10663,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 hr
@@ -10790,7 +10789,7 @@ GETTEXTEXT3_END
 ;
 succeeded
 =
-false
+PR_FALSE
 ;
 }
 return
@@ -10840,7 +10839,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 TS_SELECTION_ACP
@@ -10920,11 +10919,11 @@ aTestName
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 const
-uint32_t
+PRUint32
 bufferSize
 =
 0x100
@@ -10993,7 +10992,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 hr
@@ -11076,7 +11075,7 @@ aTestName
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 acpCurrent
@@ -11133,11 +11132,11 @@ aTestName
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -11174,7 +11173,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 nsRefPtr
@@ -11224,7 +11223,7 @@ QueryInterface
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 const
@@ -11319,7 +11318,7 @@ composition
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -11347,7 +11346,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 TS_TEXTCHANGE
@@ -11447,7 +11446,7 @@ InsertTextAtSelection
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 sel
@@ -11483,7 +11482,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 mMgr
@@ -11546,7 +11545,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 mMgr
@@ -11610,7 +11609,7 @@ OnStartComposition
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -11638,7 +11637,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 NS_NAMED_LITERAL_STRING
@@ -11752,7 +11751,7 @@ SetText
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 sel
@@ -11802,7 +11801,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 const
@@ -11945,7 +11944,7 @@ SetText
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 sel
@@ -12073,7 +12072,7 @@ referenceString
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -12100,7 +12099,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 const
@@ -12174,7 +12173,7 @@ composition
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -12202,7 +12201,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 mMgr
@@ -12255,7 +12254,7 @@ OnEndComposition
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -12278,7 +12277,7 @@ referenceString
 )
 )
 return
-false
+PR_FALSE
 ;
 const
 LONG
@@ -12341,7 +12340,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 mMgr
@@ -12408,7 +12407,7 @@ composition
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -12436,7 +12435,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 mMgr
@@ -12493,7 +12492,7 @@ composition
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -12522,10 +12521,10 @@ referenceString
 )
 )
 return
-false
+PR_FALSE
 ;
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -12537,7 +12536,7 @@ TestNotificationTextChange
 nsIWidget
 *
 aWidget
-uint32_t
+PRUint32
 aCode
 const
 nsAString
@@ -12599,7 +12598,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 mMgr
@@ -12612,7 +12611,7 @@ GetFocusedContext
 >
 mTextChanged
 =
-false
+PR_FALSE
 ;
 nsresult
 nsr
@@ -12766,7 +12765,7 @@ nsISelectionController
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 nsr
@@ -12776,8 +12775,8 @@ selCon
 >
 CompleteMove
 (
-false
-false
+PR_FALSE
+PR_FALSE
 )
 ;
 if
@@ -12801,7 +12800,7 @@ CompleteMove
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -12829,7 +12828,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 mMgr
@@ -12842,7 +12841,7 @@ GetFocusedContext
 >
 mSelChanged
 =
-false
+PR_FALSE
 ;
 nsr
 =
@@ -12851,8 +12850,8 @@ selCon
 >
 CharacterMove
 (
-true
-false
+PR_TRUE
+PR_FALSE
 )
 ;
 if
@@ -12887,7 +12886,7 @@ CharacterMove
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -12915,7 +12914,7 @@ null
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 mMgr
@@ -12928,7 +12927,7 @@ GetFocusedContext
 >
 mSelChanged
 =
-false
+PR_FALSE
 ;
 nsr
 =
@@ -12937,8 +12936,8 @@ selCon
 >
 CharacterMove
 (
-true
-true
+PR_TRUE
+PR_TRUE
 )
 ;
 if
@@ -12976,7 +12975,7 @@ extend
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 nsCOMPtr
@@ -13008,7 +13007,7 @@ nsIWidget
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 NS_NAMED_LITERAL_STRING
@@ -13072,7 +13071,7 @@ change
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 const
@@ -13123,7 +13122,7 @@ change
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 const
@@ -13177,11 +13176,11 @@ change
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -13212,7 +13211,7 @@ messages
 "
 )
 ;
-uint32_t
+PRUint32
 testStringLength
 =
 mTestString
@@ -13267,7 +13266,7 @@ nsIWidget
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 HWND
@@ -13313,7 +13312,7 @@ EM_CANUNDO
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -13341,7 +13340,7 @@ EM_CANREDO
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -13370,7 +13369,7 @@ EM_UNDO
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 nsAutoString
@@ -13432,7 +13431,7 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -13461,7 +13460,7 @@ EM_CANREDO
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -13490,7 +13489,7 @@ EM_REDO
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 mTextArea
@@ -13549,7 +13548,7 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 TS_SELECTION_ACP
@@ -13626,7 +13625,7 @@ SetSelection
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 :
@@ -13692,7 +13691,7 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 :
@@ -13758,7 +13757,7 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 :
@@ -13835,7 +13834,7 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 sel
@@ -13890,7 +13889,7 @@ SetSelection
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 :
@@ -13956,7 +13955,7 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 sel
@@ -14011,7 +14010,7 @@ SetSelection
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 :
@@ -14075,7 +14074,7 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -14104,7 +14103,7 @@ EM_CANPASTE
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -14133,7 +14132,7 @@ EM_CANPASTE
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -14162,7 +14161,7 @@ EM_CANPASTE
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 :
@@ -14228,7 +14227,7 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 sel
@@ -14283,7 +14282,7 @@ SetSelection
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 :
@@ -14354,7 +14353,7 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 :
@@ -14420,11 +14419,11 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -14454,7 +14453,7 @@ Truncate
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -14568,24 +14567,25 @@ EmptyString
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 nsCOMPtr
 <
-nsIDOMElement
+nsIDOMNSElement
 >
-textArea
-=
+textAreaNS
+(
 do_QueryInterface
 (
 mTextArea
+)
 )
 ;
 if
 (
 !
-textArea
+textAreaNS
 )
 {
 fail
@@ -14594,7 +14594,7 @@ fail
 TestScrollMessages
 :
 get
-nsIDOMElement
+nsIDOMNSElement
 "
 )
 ;
@@ -14615,7 +14615,7 @@ EmptyString
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 #
@@ -14632,7 +14632,7 @@ aFailureCondition
 )
 {
 \
-nsAutoCString
+nsCAutoString
 str
 (
 aDescription
@@ -14686,7 +14686,7 @@ EmptyString
 ;
 \
 return
-false
+PR_FALSE
 ;
 \
 }
@@ -14704,7 +14704,7 @@ GetNativeData
 NS_NATIVE_WINDOW
 )
 ;
-textArea
+textAreaNS
 -
 >
 SetScrollTop
@@ -14712,7 +14712,7 @@ SetScrollTop
 0
 )
 ;
-textArea
+textAreaNS
 -
 >
 SetScrollLeft
@@ -14765,16 +14765,16 @@ EmptyString
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
-int32_t
+PRInt32
 x
 y
 prevX
 prevY
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollTop
@@ -14783,7 +14783,7 @@ GetScrollTop
 y
 )
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollLeft
@@ -14869,7 +14869,7 @@ EmptyString
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 prevX
@@ -14880,7 +14880,7 @@ prevY
 =
 y
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollTop
@@ -14889,7 +14889,7 @@ GetScrollTop
 y
 )
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollLeft
@@ -14899,13 +14899,13 @@ x
 )
 ;
 const
-int32_t
+PRInt32
 kLineWidth
 =
 x
 ;
 const
-int32_t
+PRInt32
 kLineHeight
 =
 y
@@ -14987,7 +14987,7 @@ EmptyString
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 prevX
@@ -14998,7 +14998,7 @@ prevY
 =
 y
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollTop
@@ -15007,7 +15007,7 @@ GetScrollTop
 y
 )
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollLeft
@@ -15093,7 +15093,7 @@ EmptyString
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 prevX
@@ -15104,7 +15104,7 @@ prevY
 =
 y
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollTop
@@ -15113,7 +15113,7 @@ GetScrollTop
 y
 )
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollLeft
@@ -15199,7 +15199,7 @@ EmptyString
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 prevX
@@ -15210,7 +15210,7 @@ prevY
 =
 y
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollTop
@@ -15219,7 +15219,7 @@ GetScrollTop
 y
 )
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollLeft
@@ -15305,7 +15305,7 @@ EmptyString
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 prevX
@@ -15316,7 +15316,7 @@ prevY
 =
 y
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollTop
@@ -15325,7 +15325,7 @@ GetScrollTop
 y
 )
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollLeft
@@ -15367,13 +15367,13 @@ WM_HSCROLL
 )
 ;
 const
-int32_t
+PRInt32
 kPageWidth
 =
 x
 ;
 const
-int32_t
+PRInt32
 kPageHeight
 =
 y
@@ -15426,7 +15426,7 @@ prevY
 =
 y
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollTop
@@ -15435,7 +15435,7 @@ GetScrollTop
 y
 )
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollLeft
@@ -15521,7 +15521,7 @@ EmptyString
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 prevX
@@ -15532,7 +15532,7 @@ prevY
 =
 y
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollTop
@@ -15541,7 +15541,7 @@ GetScrollTop
 y
 )
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollLeft
@@ -15627,7 +15627,7 @@ EmptyString
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 prevX
@@ -15638,7 +15638,7 @@ prevY
 =
 y
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollTop
@@ -15647,7 +15647,7 @@ GetScrollTop
 y
 )
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollLeft
@@ -15733,7 +15733,7 @@ EmptyString
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 prevX
@@ -15744,7 +15744,7 @@ prevY
 =
 y
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollTop
@@ -15753,7 +15753,7 @@ GetScrollTop
 y
 )
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollLeft
@@ -15839,7 +15839,7 @@ EmptyString
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 prevX
@@ -15850,7 +15850,7 @@ prevY
 =
 y
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollTop
@@ -15859,7 +15859,7 @@ GetScrollTop
 y
 )
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollLeft
@@ -15928,7 +15928,7 @@ prevY
 =
 y
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollTop
@@ -15937,7 +15937,7 @@ GetScrollTop
 y
 )
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollLeft
@@ -16030,7 +16030,7 @@ prevY
 =
 y
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollTop
@@ -16039,7 +16039,7 @@ GetScrollTop
 y
 )
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollLeft
@@ -16125,7 +16125,7 @@ EmptyString
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 prevX
@@ -16136,7 +16136,7 @@ prevY
 =
 y
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollTop
@@ -16145,7 +16145,7 @@ GetScrollTop
 y
 )
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollLeft
@@ -16231,7 +16231,7 @@ EmptyString
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 prevX
@@ -16242,7 +16242,7 @@ prevY
 =
 y
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollTop
@@ -16251,7 +16251,7 @@ GetScrollTop
 y
 )
 ;
-textArea
+textAreaNS
 -
 >
 GetScrollLeft
@@ -16312,7 +16312,7 @@ EmptyString
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -16360,7 +16360,7 @@ docShell
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 nsCOMPtr
@@ -16395,7 +16395,7 @@ presShell
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 nsCOMPtr
@@ -16418,7 +16418,7 @@ viewManager
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 rv

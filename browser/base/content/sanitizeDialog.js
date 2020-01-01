@@ -2843,13 +2843,6 @@ nsITransferable
 ;
 trans
 .
-init
-(
-null
-)
-;
-trans
-.
 setTransferData
 (
 '

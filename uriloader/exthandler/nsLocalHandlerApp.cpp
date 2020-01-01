@@ -161,7 +161,7 @@ aHandlerApp
 *
 _retval
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -225,7 +225,7 @@ mExecutable
 *
 _retval
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -243,7 +243,7 @@ executable
 return
 NS_OK
 ;
-uint32_t
+PRUint32
 len
 ;
 localHandlerApp
@@ -271,7 +271,7 @@ NS_OK
 ;
 for
 (
-uint32_t
+PRUint32
 idx
 =
 0
@@ -347,7 +347,7 @@ nsIInterfaceRequestor
 aWindowContext
 )
 {
-nsAutoCString
+nsCAutoString
 spec
 ;
 aURI
@@ -438,7 +438,7 @@ process
 >
 Run
 (
-false
+PR_FALSE
 &
 string
 1
@@ -494,7 +494,7 @@ nsLocalHandlerApp
 :
 GetParameterCount
 (
-uint32_t
+PRUint32
 *
 aParameterCount
 )
@@ -559,7 +559,7 @@ nsLocalHandlerApp
 :
 GetParameter
 (
-uint32_t
+PRUint32
 parameterIndex
 nsAString
 &

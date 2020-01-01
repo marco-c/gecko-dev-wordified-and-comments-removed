@@ -143,7 +143,7 @@ virtual
 bool
 IsNodeOfType
 (
-uint32_t
+PRUint32
 aFlags
 )
 const
@@ -176,17 +176,6 @@ GetClassInfo
 (
 )
 ;
-virtual
-nsIDOMNode
-*
-AsDOMNode
-(
-)
-{
-return
-this
-;
-}
 protected
 :
 nsString

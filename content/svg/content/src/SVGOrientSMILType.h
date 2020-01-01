@@ -11,9 +11,6 @@ nsISMILType
 .
 h
 "
-class
-nsSMILValue
-;
 namespace
 mozilla
 {
@@ -90,7 +87,7 @@ const
 nsSMILValue
 &
 aValueToAdd
-uint32_t
+PRUint32
 aCount
 )
 const

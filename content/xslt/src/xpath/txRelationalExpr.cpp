@@ -1,6 +1,13 @@
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 txExpr
 .
 h
@@ -151,10 +158,10 @@ strResult
 NS_ENSURE_SUCCESS
 (
 rv
-false
+PR_FALSE
 )
 ;
-int32_t
+PRInt32
 i
 ;
 for
@@ -215,12 +222,12 @@ aRight
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 }
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -306,10 +313,10 @@ strResult
 NS_ENSURE_SUCCESS
 (
 rv
-false
+PR_FALSE
 )
 ;
-int32_t
+PRInt32
 i
 ;
 for
@@ -370,12 +377,12 @@ strResult
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 }
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -483,6 +490,7 @@ numberValue
 ;
 result
 =
+DOUBLE_COMPARE
 (
 lval
 =
@@ -668,6 +676,7 @@ LESS_THAN
 :
 {
 return
+DOUBLE_COMPARE
 (
 leftDbl
 <
@@ -680,6 +689,7 @@ LESS_OR_EQUAL
 :
 {
 return
+DOUBLE_COMPARE
 (
 leftDbl
 <
@@ -693,6 +703,7 @@ GREATER_THAN
 :
 {
 return
+DOUBLE_COMPARE
 (
 leftDbl
 >
@@ -705,6 +716,7 @@ GREATER_OR_EQUAL
 :
 {
 return
+DOUBLE_COMPARE
 (
 leftDbl
 >
@@ -731,7 +743,7 @@ cases
 }
 }
 return
-false
+PR_FALSE
 ;
 }
 nsresult
@@ -752,7 +764,7 @@ aResult
 *
 aResult
 =
-nullptr
+nsnull
 ;
 nsRefPtr
 <

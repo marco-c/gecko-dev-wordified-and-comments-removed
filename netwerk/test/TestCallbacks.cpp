@@ -111,15 +111,6 @@ h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsISimpleEnumerator
 .
 h
@@ -152,7 +143,7 @@ gError
 false
 ;
 static
-int32_t
+PRInt32
 gKeepRunning
 =
 0
@@ -211,7 +202,6 @@ NS_IEQUALS_IID
 )
 class
 ConsumerContext
-MOZ_FINAL
 :
 public
 nsIEquals
@@ -238,7 +228,7 @@ _retval
 *
 _retval
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -250,7 +240,7 @@ this
 *
 _retval
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -316,7 +306,7 @@ mOnStart
 bool
 mOnStop
 ;
-int32_t
+PRInt32
 mOnDataCount
 ;
 nsCOMPtr
@@ -401,7 +391,7 @@ n
 }
 mOnStart
 =
-true
+PR_TRUE
 ;
 nsresult
 rv
@@ -490,7 +480,7 @@ mOnStart
 {
 gError
 =
-true
+PR_TRUE
 ;
 fprintf
 (
@@ -548,7 +538,7 @@ mOnDataCount
 ;
 mOnStop
 =
-true
+PR_TRUE
 ;
 nsresult
 rv
@@ -608,9 +598,9 @@ aContext
 nsIInputStream
 *
 aIStream
-uint64_t
+PRUint32
 aOffset
-uint32_t
+PRUint32
 aLength
 )
 {
@@ -642,7 +632,7 @@ mOnStart
 {
 gError
 =
-true
+PR_TRUE
 ;
 fprintf
 (
@@ -718,7 +708,7 @@ mOnStart
 =
 mOnStop
 =
-false
+PR_FALSE
 ;
 mOnDataCount
 =
@@ -764,7 +754,7 @@ mOnStart
 {
 gError
 =
-true
+PR_TRUE
 ;
 fprintf
 (
@@ -790,7 +780,7 @@ mOnStop
 {
 gError
 =
-true
+PR_TRUE
 ;
 fprintf
 (
@@ -1017,7 +1007,7 @@ same
 {
 gError
 =
-true
+PR_TRUE
 ;
 fprintf
 (
@@ -1095,16 +1085,16 @@ argc
 {
 cmdLineURL
 =
-true
+PR_TRUE
 ;
 }
 rv
 =
 NS_InitXPCOM2
 (
-nullptr
-nullptr
-nullptr
+nsnull
+nsnull
+nsnull
 )
 ;
 if
@@ -1115,8 +1105,7 @@ rv
 )
 )
 return
--
-1
+rv
 ;
 if
 (
@@ -1162,8 +1151,7 @@ rv
 )
 )
 return
--
-1
+rv
 ;
 PumpEvents
 (
@@ -1171,7 +1159,7 @@ PumpEvents
 ;
 NS_ShutdownXPCOM
 (
-nullptr
+nsnull
 )
 ;
 if
@@ -1211,7 +1199,7 @@ n
 ;
 }
 return
-0
+rv
 ;
 }
 nsresult

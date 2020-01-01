@@ -34,6 +34,9 @@ class
 nsIDOMEventTarget
 ;
 class
+nsIXBLDocumentInfo
+;
+class
 nsXBLSpecialDocInfo
 ;
 class
@@ -113,7 +116,7 @@ aEventType
 nsXBLPrototypeHandler
 *
 aHandler
-uint32_t
+PRUint32
 aCharCode
 bool
 aIgnoreShiftKey
@@ -139,7 +142,7 @@ inEventType
 nsIDOMKeyEvent
 *
 inEvent
-uint32_t
+PRUint32
 aCharCode
 bool
 aIgnoreShiftKey
@@ -179,7 +182,7 @@ nsXBLSpecialDocInfo
 sXBLSpecialDocInfo
 ;
 static
-uint32_t
+PRUint32
 sRefCnt
 ;
 }

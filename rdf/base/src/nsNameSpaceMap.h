@@ -56,7 +56,7 @@ aPrefix
 )
 mNext
 (
-nullptr
+nsnull
 )
 {
 MOZ_COUNT_CTOR
@@ -166,7 +166,7 @@ const_iterator
 :
 mCurrent
 (
-nullptr
+nsnull
 )
 {
 }
@@ -352,7 +352,7 @@ const
 return
 const_iterator
 (
-nullptr
+nsnull
 )
 ;
 }

@@ -81,12 +81,12 @@ aDestructRoot
 NS_IMETHOD
 AttributeChanged
 (
-int32_t
+PRInt32
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-int32_t
+PRInt32
 aModType
 )
 ;
@@ -366,7 +366,7 @@ StopRepeat
 ;
 mTrustedEvent
 =
-false
+PR_FALSE
 ;
 break
 ;
@@ -495,12 +495,12 @@ nsAutoRepeatBoxFrame
 :
 AttributeChanged
 (
-int32_t
+PRInt32
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-int32_t
+PRInt32
 aModType
 )
 {
@@ -534,7 +534,7 @@ Notify
 {
 DoMouseClick
 (
-nullptr
+nsnull
 mTrustedEvent
 )
 ;

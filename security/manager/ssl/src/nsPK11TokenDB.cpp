@@ -208,8 +208,8 @@ Trim
 (
 "
 "
-false
-true
+PR_FALSE
+PR_TRUE
 )
 ;
 const
@@ -261,8 +261,8 @@ Trim
 (
 "
 "
-false
-true
+PR_FALSE
+PR_TRUE
 )
 ;
 mTokenHWVersion
@@ -376,8 +376,8 @@ Trim
 (
 "
 "
-false
-true
+PR_FALSE
+PR_TRUE
 )
 ;
 }
@@ -452,7 +452,7 @@ mSlot
 ;
 mSlot
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -894,7 +894,7 @@ srv
 PK11_Authenticate
 (
 mSlot
-true
+PR_TRUE
 mUIContext
 )
 ;
@@ -1034,7 +1034,7 @@ nsPK11Token
 :
 GetMinimumPasswordLength
 (
-int32_t
+PRInt32
 *
 aMinimumPasswordLength
 )
@@ -1128,7 +1128,7 @@ NS_ERROR_NOT_AVAILABLE
 SECStatus
 srv
 ;
-int32_t
+PRInt32
 prerr
 ;
 NS_ConvertUTF16toUTF8
@@ -1167,7 +1167,7 @@ SECSuccess
 *
 _retval
 =
-false
+PR_FALSE
 ;
 prerr
 =
@@ -1193,7 +1193,7 @@ else
 *
 _retval
 =
-true
+PR_TRUE
 ;
 }
 return
@@ -1287,7 +1287,7 @@ nsPK11Token
 :
 GetAskPasswordTimes
 (
-int32_t
+PRInt32
 *
 rvAskTimes
 )
@@ -1332,7 +1332,7 @@ nsPK11Token
 :
 GetAskPasswordTimeout
 (
-int32_t
+PRInt32
 *
 rvAskTimeout
 )
@@ -1378,10 +1378,10 @@ nsPK11Token
 SetAskPasswordDefaults
 (
 const
-int32_t
+PRInt32
 askTimes
 const
-int32_t
+PRInt32
 askTimeout
 )
 {
@@ -1902,7 +1902,7 @@ le
 *
 _retval
 =
-nullptr
+nsnull
 ;
 nsresult
 rv
@@ -1932,8 +1932,8 @@ list
 PK11_GetAllTokens
 (
 CKM_INVALID_MECHANISM
-false
-false
+PR_FALSE
+PR_FALSE
 0
 )
 ;
@@ -1968,7 +1968,7 @@ PK11_GetNextSafe
 (
 list
 le
-false
+PR_FALSE
 )
 )
 {

@@ -159,7 +159,7 @@ mSize
 ;
 }
 virtual
-int32_t
+PRInt32
 GetDefaultContextFlags
 (
 )

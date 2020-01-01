@@ -86,7 +86,7 @@ const
 0
 ;
 virtual
-int32_t
+PRInt32
 GetNodeType
 (
 )
@@ -95,7 +95,7 @@ const
 0
 ;
 virtual
-int32_t
+PRInt32
 GetTokenType
 (
 )
@@ -104,7 +104,7 @@ const
 0
 ;
 virtual
-int32_t
+PRInt32
 GetAttributeCount
 (
 bool
@@ -122,7 +122,7 @@ nsAString
 &
 GetKeyAt
 (
-uint32_t
+PRUint32
 anIndex
 )
 const
@@ -135,7 +135,7 @@ nsAString
 &
 GetValueAt
 (
-uint32_t
+PRUint32
 anIndex
 )
 const
@@ -143,7 +143,7 @@ const
 0
 ;
 virtual
-int32_t
+PRInt32
 TranslateToUnicodeStr
 (
 nsString
@@ -166,7 +166,7 @@ aToken
 0
 ;
 virtual
-int32_t
+PRInt32
 GetSourceLineNumber
 (
 void

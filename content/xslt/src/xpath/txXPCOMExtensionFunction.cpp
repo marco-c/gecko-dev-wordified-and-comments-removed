@@ -89,15 +89,6 @@ txXPathObjectAdaptor
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 NS_IMPL_ISUPPORTS1
 (
 txXPathObjectAdaptor
@@ -105,7 +96,6 @@ txIXPathObject
 )
 class
 txFunctionEvaluationContext
-MOZ_FINAL
 :
 public
 txIFunctionEvaluationContext
@@ -131,7 +121,7 @@ ClearContext
 {
 mContext
 =
-nullptr
+nsnull
 ;
 }
 private
@@ -182,7 +172,7 @@ txFunctionEvaluationContext
 :
 GetPosition
 (
-uint32_t
+PRUint32
 *
 aPosition
 )
@@ -213,7 +203,7 @@ txFunctionEvaluationContext
 :
 GetSize
 (
-uint32_t
+PRUint32
 *
 aSize
 )
@@ -340,11 +330,13 @@ const
 nsIID
 &
 aIID
-uint16_t
+PRUint16
 aMethodIndex
 #
 ifdef
 TX_TO_STRING
+PRInt32
+aNamespaceID
 nsIAtom
 *
 aName
@@ -379,12 +371,15 @@ mHelper
 nsIID
 mIID
 ;
-uint16_t
+PRUint16
 mMethodIndex
 ;
 #
 ifdef
 TX_TO_STRING
+PRInt32
+mNamespaceID
+;
 nsCOMPtr
 <
 nsIAtom
@@ -413,11 +408,13 @@ const
 nsIID
 &
 aIID
-uint16_t
+PRUint16
 aMethodIndex
 #
 ifdef
 TX_TO_STRING
+PRInt32
+aNamespaceID
 nsIAtom
 *
 aName
@@ -443,6 +440,10 @@ aMethodIndex
 #
 ifdef
 TX_TO_STRING
+mNamespaceID
+(
+aNamespaceID
+)
 mName
 (
 aName
@@ -466,7 +467,7 @@ nsIID
 *
 *
 aArray
-uint32_t
+PRUint32
 aCount
 )
 :
@@ -499,7 +500,7 @@ nsIID
 *
 mArray
 ;
-uint32_t
+PRUint32
 mCount
 ;
 }
@@ -518,7 +519,7 @@ aName
 nsIID
 &
 aIID
-uint16_t
+PRUint16
 &
 aMethodIndex
 nsISupports
@@ -590,9 +591,9 @@ nsIID
 *
 iidArray
 =
-nullptr
+nsnull
 ;
-uint32_t
+PRUint32
 iidCount
 =
 0
@@ -635,7 +636,7 @@ GetUTF16String
 (
 )
 ;
-nsAutoCString
+nsCAutoString
 methodName
 ;
 PRUnichar
@@ -668,7 +669,7 @@ letter
 {
 upperNext
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -692,7 +693,7 @@ letter
 ;
 upperNext
 =
-false
+PR_FALSE
 ;
 }
 +
@@ -700,7 +701,7 @@ false
 name
 ;
 }
-uint32_t
+PRUint32
 i
 ;
 for
@@ -753,7 +754,7 @@ rv
 rv
 )
 ;
-uint16_t
+PRUint16
 methodIndex
 ;
 const
@@ -787,7 +788,7 @@ rv
 )
 )
 {
-uint8_t
+PRUint8
 paramCount
 =
 methodInfo
@@ -878,7 +879,7 @@ const
 nsCString
 &
 aContractID
-int32_t
+PRInt32
 aNamespaceID
 nsIAtom
 *
@@ -895,7 +896,7 @@ aFunction
 nsIID
 iid
 ;
-uint16_t
+PRUint16
 methodIndex
 =
 0
@@ -953,6 +954,7 @@ methodIndex
 #
 ifdef
 TX_TO_STRING
+aNamespaceID
 aName
 #
 endif
@@ -983,7 +985,7 @@ nsIInterfaceInfo
 aInfo
 )
 {
-uint8_t
+PRUint8
 tag
 =
 aParam
@@ -1139,7 +1141,7 @@ txParamArrayHolder
 bool
 Init
 (
-uint8_t
+PRUint8
 aCount
 )
 ;
@@ -1162,7 +1164,7 @@ nsXPTCVariant
 >
 mArray
 ;
-uint8_t
+PRUint8
 mCount
 ;
 }
@@ -1175,7 +1177,7 @@ txParamArrayHolder
 (
 )
 {
-uint8_t
+PRUint8
 i
 ;
 for
@@ -1319,7 +1321,7 @@ txParamArrayHolder
 :
 Init
 (
-uint8_t
+PRUint8
 aCount
 )
 {
@@ -1342,7 +1344,7 @@ mArray
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 memset
@@ -1358,7 +1360,7 @@ nsXPTCVariant
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 nsresult
@@ -1444,7 +1446,7 @@ rv
 rv
 )
 ;
-uint8_t
+PRUint8
 paramCount
 =
 methodInfo
@@ -1454,7 +1456,7 @@ GetParamCount
 (
 )
 ;
-uint8_t
+PRUint8
 inArgs
 =
 paramCount
@@ -1517,7 +1519,7 @@ txFunctionEvaluationContext
 *
 context
 ;
-uint32_t
+PRUint32
 paramStart
 =
 0
@@ -1612,7 +1614,7 @@ else
 {
 context
 =
-nullptr
+nsnull
 ;
 }
 if
@@ -1634,7 +1636,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-uint32_t
+PRUint32
 i
 ;
 for
@@ -2420,7 +2422,7 @@ aContext
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 #

@@ -29,7 +29,7 @@ mContentStream
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-int64_t
+PRInt64
 len
 =
 ContentLength64
@@ -43,7 +43,7 @@ len
 0
 )
 {
-uint64_t
+PRUint32
 avail
 ;
 nsresult
@@ -92,7 +92,7 @@ avail
 }
 EnableSynthesizedProgressEvents
 (
-true
+PR_TRUE
 )
 ;
 NS_ADDREF

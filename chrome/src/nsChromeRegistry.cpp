@@ -50,7 +50,7 @@ h
 #
 include
 "
-nsError
+nsDOMError
 .
 h
 "
@@ -303,9 +303,9 @@ LogMessageWithContext
 nsIURI
 *
 aURL
-uint32_t
+PRUint32
 aLineNumber
-uint32_t
+PRUint32
 flags
 const
 char
@@ -411,13 +411,19 @@ NS_ConvertUTF8toUTF16
 (
 formatted
 )
+.
+get
+(
+)
 NS_ConvertUTF8toUTF16
 (
 spec
 )
-EmptyString
+.
+get
 (
 )
+nsnull
 aLineNumber
 0
 flags
@@ -460,7 +466,7 @@ nsChromeRegistry
 {
 gChromeRegistry
 =
-nullptr
+nsnull
 ;
 }
 NS_INTERFACE_MAP_BEGIN
@@ -565,11 +571,17 @@ Init
 (
 )
 {
+if
+(
+!
 mOverrideTable
 .
 Init
 (
 )
+)
+return
+NS_ERROR_FAILURE
 ;
 gChromeRegistry
 =
@@ -577,7 +589,7 @@ this
 ;
 mInitialized
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -635,7 +647,7 @@ URI
 ;
 #
 endif
-nsAutoCString
+nsCAutoString
 path
 ;
 rv
@@ -724,7 +736,7 @@ slash
 "
 )
 ;
-int32_t
+PRInt32
 slash
 =
 path
@@ -790,7 +802,7 @@ slash
 =
 =
 (
-int32_t
+PRInt32
 )
 path
 .
@@ -876,7 +888,7 @@ kSlash
 nsresult
 rv
 ;
-nsAutoCString
+nsCAutoString
 provider
 path
 ;
@@ -904,7 +916,7 @@ IsEmpty
 )
 )
 {
-nsAutoCString
+nsCAutoString
 package
 ;
 rv
@@ -1232,7 +1244,7 @@ chromeURL
 NS_NOINTERFACE
 )
 ;
-nsAutoCString
+nsCAutoString
 package
 provider
 path
@@ -1279,7 +1291,7 @@ provider
 path
 )
 ;
-uint32_t
+PRUint32
 flags
 ;
 rv
@@ -1417,7 +1429,7 @@ NS_NewURI
 (
 aResult
 path
-nullptr
+nsnull
 baseURI
 )
 ;
@@ -1520,7 +1532,7 @@ windowMediator
 >
 GetEnumerator
 (
-nullptr
+nsnull
 getter_AddRefs
 (
 windowEnumerator
@@ -1606,7 +1618,7 @@ windowMediator
 >
 GetEnumerator
 (
-nullptr
+nsnull
 getter_AddRefs
 (
 windowEnumerator
@@ -1736,7 +1748,7 @@ nsIChromeRegistry
 this
 )
 NS_CHROME_FLUSH_SKINS_TOPIC
-nullptr
+nsnull
 )
 ;
 }
@@ -1775,10 +1787,10 @@ isChrome
 isChrome
 )
 return
-true
+PR_TRUE
 ;
 return
-false
+PR_FALSE
 ;
 }
 nsresult
@@ -1809,7 +1821,7 @@ frames
 )
 )
 ;
-uint32_t
+PRUint32
 length
 ;
 frames
@@ -1821,7 +1833,7 @@ GetLength
 length
 )
 ;
-uint32_t
+PRUint32
 j
 ;
 for
@@ -1958,7 +1970,7 @@ newAgentSheets
 ;
 for
 (
-int32_t
+PRInt32
 l
 =
 0
@@ -2018,7 +2030,7 @@ document
 LoadChromeSheetSync
 (
 uri
-true
+PR_TRUE
 getter_AddRefs
 (
 newSheet
@@ -2121,7 +2133,7 @@ nsIStyleSheet
 >
 newSheets
 ;
-int32_t
+PRInt32
 count
 =
 document
@@ -2131,7 +2143,7 @@ GetNumberOfStyleSheets
 (
 )
 ;
-int32_t
+PRInt32
 i
 ;
 for
@@ -2219,7 +2231,7 @@ GetOriginalURI
 (
 )
 :
-nullptr
+nsnull
 ;
 if
 (
@@ -2244,7 +2256,7 @@ document
 LoadChromeSheetSync
 (
 uri
-false
+PR_FALSE
 getter_AddRefs
 (
 newSheet
@@ -2332,7 +2344,7 @@ nsIChromeRegistry
 )
 this
 NS_CHROME_FLUSH_TOPIC
-nullptr
+nsnull
 )
 ;
 }
@@ -2387,7 +2399,7 @@ windowMediator
 >
 GetEnumerator
 (
-nullptr
+nsnull
 getter_AddRefs
 (
 windowEnumerator
@@ -2503,7 +2515,7 @@ location
 >
 Reload
 (
-false
+PR_FALSE
 )
 ;
 if
@@ -2567,7 +2579,7 @@ rv
 *
 aResult
 =
-false
+PR_FALSE
 ;
 #
 ifdef
@@ -2622,7 +2634,7 @@ url
 NS_NOINTERFACE
 )
 ;
-nsAutoCString
+nsCAutoString
 provider
 file
 ;
@@ -2656,7 +2668,7 @@ skin
 *
 aResult
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -2682,7 +2694,7 @@ rv
 *
 aResult
 =
-false
+PR_FALSE
 ;
 #
 ifdef
@@ -2754,7 +2766,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsAutoCString
+nsCAutoString
 package
 ;
 rv
@@ -2773,7 +2785,7 @@ rv
 rv
 )
 ;
-uint32_t
+PRUint32
 flags
 ;
 rv
@@ -2841,7 +2853,7 @@ if
 chromeURL
 )
 return
-false
+PR_FALSE
 ;
 bool
 isChrome
@@ -2875,9 +2887,9 @@ rv
 isChrome
 )
 return
-false
+PR_FALSE
 ;
-nsAutoCString
+nsCAutoString
 package
 ;
 rv
@@ -2898,9 +2910,9 @@ rv
 )
 )
 return
-false
+PR_FALSE
 ;
-uint32_t
+PRUint32
 flags
 ;
 rv

@@ -137,7 +137,7 @@ virtual
 bool
 IsFrameOfType
 (
-uint32_t
+PRUint32
 aFlags
 )
 const

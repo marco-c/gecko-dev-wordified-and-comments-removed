@@ -94,9 +94,9 @@ DistributePctWidthToColumns
 (
 float
 aSpanPrefPct
-int32_t
+PRInt32
 aFirstCol
-int32_t
+PRInt32
 aColCount
 )
 ;
@@ -105,9 +105,9 @@ DistributeWidthToColumns
 (
 nscoord
 aWidth
-int32_t
+PRInt32
 aFirstCol
-int32_t
+PRInt32
 aColCount
 BtlsWidthType
 aWidthType

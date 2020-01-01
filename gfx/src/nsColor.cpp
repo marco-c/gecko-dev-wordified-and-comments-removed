@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 plstr
 .
 h
@@ -84,10 +75,6 @@ nsStaticNameTable
 .
 h
 "
-using
-namespace
-mozilla
-;
 #
 define
 GFX_COLOR
@@ -151,7 +138,7 @@ GFX_COLOR
 define
 eColorName_COUNT
 (
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kColorNames
 )
@@ -168,7 +155,7 @@ nsStaticCaseInsensitiveNameTable
 *
 gColorTable
 =
-nullptr
+nsnull
 ;
 void
 nsColorNames
@@ -215,7 +202,7 @@ DEBUG
 {
 for
 (
-uint32_t
+PRUint32
 index
 =
 0
@@ -229,7 +216,7 @@ eColorName_COUNT
 index
 )
 {
-nsAutoCString
+nsCAutoString
 temp1
 (
 kColorNames
@@ -238,7 +225,7 @@ index
 ]
 )
 ;
-nsAutoCString
+nsCAutoString
 temp2
 (
 kColorNames
@@ -304,7 +291,7 @@ gColorTable
 ;
 gColorTable
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -650,7 +637,7 @@ continue
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 int
@@ -821,11 +808,11 @@ b
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 NS_GFX_
@@ -856,7 +843,7 @@ transparent
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 int
@@ -1072,7 +1059,7 @@ f
 {
 haveNonzero
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -1209,7 +1196,7 @@ b
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 NS_GFX_
@@ -1233,9 +1220,9 @@ if
 gColorTable
 )
 return
-false
+PR_FALSE
 ;
-int32_t
+PRInt32
 id
 =
 gColorTable
@@ -1255,7 +1242,7 @@ id
 {
 NS_ASSERTION
 (
-uint32_t
+PRUint32
 (
 id
 )
@@ -1286,11 +1273,11 @@ id
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 #
@@ -1336,13 +1323,13 @@ nscolor
 aFG
 )
 {
-int
+PRIntn
 r
 g
 b
 a
 ;
-int
+PRIntn
 bgAlpha
 =
 NS_GET_A
@@ -1350,7 +1337,7 @@ NS_GET_A
 aBG
 )
 ;
-int
+PRIntn
 fgAlpha
 =
 NS_GET_A
@@ -1376,7 +1363,7 @@ fgAlpha
 +
 a
 ;
-int
+PRIntn
 blendAlpha
 ;
 if
@@ -1616,7 +1603,7 @@ float
 l
 )
 {
-uint8_t
+PRUint8
 r
 g
 b
@@ -1669,7 +1656,7 @@ m2
 ;
 r
 =
-uint8_t
+PRUint8
 (
 255
 *
@@ -1691,7 +1678,7 @@ h
 ;
 g
 =
-uint8_t
+PRUint8
 (
 255
 *
@@ -1705,7 +1692,7 @@ h
 ;
 b
 =
-uint8_t
+PRUint8
 (
 255
 *

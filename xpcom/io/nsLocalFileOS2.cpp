@@ -89,10 +89,6 @@ nsTraceRefcntImpl
 .
 h
 "
-using
-namespace
-mozilla
-;
 #
 define
 CHECK_mWorkingPath
@@ -249,17 +245,17 @@ static
 void
 myLL_L2II
 (
-int64_t
+PRInt64
 result
-int32_t
+PRInt32
 *
 hi
-int32_t
+PRInt32
 *
 lo
 )
 {
-int64_t
+PRInt64
 a64
 b64
 ;
@@ -919,19 +915,19 @@ nsDirEnumerator
 :
 mDir
 (
-nullptr
+nsnull
 )
 {
 }
 nsresult
 Init
 (
-nsIFile
+nsILocalFile
 *
 parent
 )
 {
-nsAutoCString
+nsCAutoString
 filepath
 ;
 parent
@@ -989,7 +985,7 @@ if
 mDir
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_FAILURE
@@ -1018,7 +1014,7 @@ if
 mNext
 =
 =
-nullptr
+nsnull
 &
 &
 mDir
@@ -1039,7 +1035,7 @@ if
 entry
 =
 =
-nullptr
+nsnull
 )
 {
 PRStatus
@@ -1062,12 +1058,12 @@ NS_ERROR_FAILURE
 ;
 mDir
 =
-nullptr
+nsnull
 ;
 *
 result
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -1175,7 +1171,7 @@ result
 mNext
 !
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -1237,7 +1233,7 @@ result
 ;
 mNext
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -1255,7 +1251,7 @@ result
 *
 result
 =
-nullptr
+nsnull
 ;
 bool
 hasMore
@@ -1298,7 +1294,7 @@ result
 ;
 mNext
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -1346,7 +1342,7 @@ NS_ERROR_FAILURE
 ;
 mDir
 =
-nullptr
+nsnull
 ;
 }
 return
@@ -1371,13 +1367,13 @@ mDir
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 mParent
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 mNext
 ;
@@ -1416,10 +1412,10 @@ Init
 ;
 private
 :
-uint32_t
+PRUint32
 mDrives
 ;
-uint8_t
+PRUint8
 mLetter
 ;
 }
@@ -1553,7 +1549,7 @@ mDrives
 *
 aNext
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -1612,7 +1608,7 @@ mLetter
 +
 +
 ;
-nsIFile
+nsILocalFile
 *
 file
 ;
@@ -1625,7 +1621,7 @@ nsDependentCString
 (
 drive
 )
-false
+PR_FALSE
 &
 file
 )
@@ -1683,7 +1679,7 @@ TypeEaEnumerator
 :
 mEaBuf
 (
-nullptr
+nsnull
 )
 {
 }
@@ -1714,7 +1710,7 @@ char
 *
 GetNext
 (
-uint32_t
+PRUint32
 *
 lth
 )
@@ -1924,7 +1920,7 @@ TypeEaEnumerator
 :
 GetNext
 (
-uint32_t
+PRUint32
 *
 lth
 )
@@ -1933,7 +1929,7 @@ char
 *
 result
 =
-nullptr
+nsnull
 ;
 while
 (
@@ -2028,7 +2024,7 @@ nsLocalFile
 :
 mDirty
 (
-true
+PR_TRUE
 )
 {
 }
@@ -2132,7 +2128,7 @@ other
 :
 mDirty
 (
-true
+PR_TRUE
 )
 mWorkingPath
 (
@@ -2288,7 +2284,7 @@ NS_ERROR_FILE_NOT_FOUND
 ;
 mDirty
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -2448,7 +2444,7 @@ mWorkingPath
 =
 filePath
 ;
-int32_t
+PRInt32
 len
 =
 mWorkingPath
@@ -2503,9 +2499,9 @@ nsLocalFile
 :
 OpenNSPRFileDesc
 (
-int32_t
+PRInt32
 flags
-int32_t
+PRInt32
 mode
 PRFileDesc
 *
@@ -2651,9 +2647,9 @@ nsLocalFile
 :
 Create
 (
-uint32_t
+PRUint32
 type
-uint32_t
+PRUint32
 attributes
 )
 {
@@ -2989,7 +2985,7 @@ PromiseFlatCString
 (
 node
 )
-false
+PR_FALSE
 )
 ;
 }
@@ -3012,7 +3008,7 @@ PromiseFlatCString
 (
 node
 )
-true
+PR_TRUE
 )
 ;
 }
@@ -3306,7 +3302,7 @@ mWorkingPath
 path
 )
 ;
-int32_t
+PRInt32
 rootIdx
 =
 2
@@ -3501,7 +3497,7 @@ rootIdx
 rootIdx
 <
 (
-int32_t
+PRInt32
 )
 path
 .
@@ -3544,7 +3540,7 @@ rootIdx
 =
 =
 (
-int32_t
+PRInt32
 )
 path
 .
@@ -3588,7 +3584,7 @@ pathBuffer
 rootIdx
 )
 ;
-int32_t
+PRInt32
 len
 begin
 end
@@ -3600,7 +3596,7 @@ while
 end
 <
 (
-int32_t
+PRInt32
 )
 path
 .
@@ -3709,7 +3705,7 @@ len
 2
 )
 {
-int32_t
+PRInt32
 prev
 =
 normal
@@ -3801,7 +3797,7 @@ len
 )
 ;
 }
-int32_t
+PRInt32
 filePathLen
 =
 normal
@@ -3899,7 +3895,7 @@ if
 temp
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_FILE_UNRECOGNIZED_PATH
@@ -3934,7 +3930,7 @@ if
 leaf
 =
 =
-nullptr
+nsnull
 )
 leaf
 =
@@ -3995,16 +3991,16 @@ if
 temp
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_FILE_UNRECOGNIZED_PATH
 ;
-int32_t
+PRInt32
 offset
 =
 (
-int32_t
+PRInt32
 )
 (
 _mbsrchr
@@ -4312,10 +4308,10 @@ NS_ENSURE_STATE
 mutArray
 )
 ;
-int32_t
+PRInt32
 cnt
 ;
-uint32_t
+PRUint32
 lth
 ;
 char
@@ -4372,7 +4368,7 @@ rv
 )
 )
 {
-nsAutoCString
+nsCAutoString
 temp
 ;
 temp
@@ -4397,7 +4393,7 @@ mutArray
 AppendElement
 (
 typeString
-false
+PR_FALSE
 )
 ;
 cnt
@@ -4459,7 +4455,7 @@ _retval
 *
 _retval
 =
-false
+PR_FALSE
 ;
 TypeEaEnumerator
 typeEnum
@@ -4484,7 +4480,7 @@ rv
 return
 rv
 ;
-uint32_t
+PRUint32
 lth
 ;
 char
@@ -4529,7 +4525,7 @@ lth
 *
 _retval
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -4650,7 +4646,7 @@ IsEmpty
 return
 NS_ERROR_FAILURE
 ;
-uint32_t
+PRUint32
 cnt
 =
 CountCharInReadable
@@ -4660,7 +4656,7 @@ fileTypes
 '
 )
 ;
-uint32_t
+PRUint32
 lth
 =
 fileTypes
@@ -4680,7 +4676,7 @@ TYPEEA2
 )
 )
 ;
-uint32_t
+PRUint32
 size
 =
 sizeof
@@ -5091,7 +5087,7 @@ IsEmpty
 return
 NS_ERROR_FAILURE
 ;
-uint32_t
+PRUint32
 lth
 =
 sizeof
@@ -5335,10 +5331,10 @@ move
 nsresult
 rv
 ;
-nsAutoCString
+nsCAutoString
 filePath
 ;
-nsAutoCString
+nsCAutoString
 destPath
 ;
 destParent
@@ -5368,7 +5364,7 @@ IsEmpty
 )
 )
 {
-nsAutoCString
+nsCAutoString
 aFileName
 ;
 sourceFile
@@ -5966,7 +5962,7 @@ rv
 return
 rv
 ;
-nsAutoCString
+nsCAutoString
 allocatedNewName
 ;
 if
@@ -6094,16 +6090,6 @@ getter_AddRefs
 targetIterator
 )
 )
-;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-return
-rv
 ;
 bool
 more
@@ -6270,7 +6256,7 @@ rv
 =
 Remove
 (
-false
+PR_FALSE
 )
 ;
 NS_ENSURE_SUCCESS
@@ -6290,7 +6276,7 @@ MakeDirty
 (
 )
 ;
-nsAutoCString
+nsCAutoString
 newParentPath
 ;
 newParentDir
@@ -6321,7 +6307,7 @@ IsEmpty
 )
 )
 {
-nsAutoCString
+nsCAutoString
 aFileName
 ;
 GetNativeLeafName
@@ -6378,7 +6364,7 @@ CopyMove
 (
 newParentDir
 newName
-false
+PR_FALSE
 )
 ;
 }
@@ -6402,7 +6388,7 @@ CopyMove
 (
 newParentDir
 newName
-false
+PR_FALSE
 )
 ;
 }
@@ -6426,7 +6412,7 @@ CopyMove
 (
 newParentDir
 newName
-true
+PR_TRUE
 )
 ;
 }
@@ -6484,7 +6470,7 @@ nsTraceRefcntImpl
 :
 SetActivityIsLegal
 (
-false
+PR_FALSE
 )
 ;
 #
@@ -6509,7 +6495,7 @@ nsTraceRefcntImpl
 :
 SetActivityIsLegal
 (
-true
+PR_TRUE
 )
 ;
 #
@@ -6714,7 +6700,7 @@ nsLocalFile
 :
 GetLastModifiedTime
 (
-PRTime
+PRInt64
 *
 aLastModifiedTime
 )
@@ -6750,7 +6736,7 @@ rv
 return
 rv
 ;
-int64_t
+PRInt64
 usecPerMsec
 ;
 LL_I2L
@@ -6779,7 +6765,7 @@ nsLocalFile
 :
 GetLastModifiedTimeOfLink
 (
-PRTime
+PRInt64
 *
 aLastModifiedTime
 )
@@ -6794,7 +6780,7 @@ nsLocalFile
 :
 SetLastModifiedTime
 (
-PRTime
+PRInt64
 aLastModifiedTime
 )
 {
@@ -6818,7 +6804,7 @@ nsLocalFile
 :
 SetLastModifiedTimeOfLink
 (
-PRTime
+PRInt64
 aLastModifiedTime
 )
 {
@@ -6832,7 +6818,7 @@ nsLocalFile
 :
 SetModDate
 (
-PRTime
+PRInt64
 aLastModifiedTime
 )
 {
@@ -7035,7 +7021,7 @@ nsLocalFile
 :
 GetPermissions
 (
-uint32_t
+PRUint32
 *
 aPermissions
 )
@@ -7125,7 +7111,7 @@ nsLocalFile
 :
 GetPermissionsOfLink
 (
-uint32_t
+PRUint32
 *
 aPermissionsOfLink
 )
@@ -7140,7 +7126,7 @@ nsLocalFile
 :
 SetPermissions
 (
-uint32_t
+PRUint32
 aPermissions
 )
 {
@@ -7291,7 +7277,7 @@ nsLocalFile
 :
 SetPermissionsOfLink
 (
-uint32_t
+PRUint32
 aPermissions
 )
 {
@@ -7305,7 +7291,7 @@ nsLocalFile
 :
 GetFileSize
 (
-int64_t
+PRInt64
 *
 aFileSize
 )
@@ -7358,7 +7344,7 @@ nsLocalFile
 :
 GetFileSizeOfLink
 (
-int64_t
+PRInt64
 *
 aFileSize
 )
@@ -7373,7 +7359,7 @@ nsLocalFile
 :
 SetFileSize
 (
-int64_t
+PRInt64
 aFileSize
 )
 {
@@ -7443,7 +7429,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-int32_t
+PRInt32
 hi
 lo
 ;
@@ -7493,7 +7479,7 @@ nsLocalFile
 :
 GetDiskSpaceAvailable
 (
-int64_t
+PRInt64
 *
 aDiskSpaceAvailable
 )
@@ -7624,17 +7610,17 @@ NS_ENSURE_ARG_POINTER
 aParent
 )
 ;
-nsAutoCString
+nsCAutoString
 parentPath
 (
 mWorkingPath
 )
 ;
-int32_t
+PRInt32
 offset
 =
 (
-int32_t
+PRInt32
 )
 (
 _mbsrchr
@@ -7700,7 +7686,7 @@ parentPath
 {
 aParent
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -7735,7 +7721,7 @@ AssignLiteral
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 localFile
 ;
@@ -7745,7 +7731,7 @@ rv
 NS_NewNativeLocalFile
 (
 parentPath
-false
+PR_FALSE
 getter_AddRefs
 (
 localFile
@@ -7798,7 +7784,7 @@ _retval
 *
 _retval
 =
-false
+PR_FALSE
 ;
 MakeDirty
 (
@@ -7846,7 +7832,7 @@ _retval
 *
 _retval
 =
-false
+PR_FALSE
 ;
 nsresult
 rv
@@ -7952,7 +7938,7 @@ _retval
 *
 _retval
 =
-false
+PR_FALSE
 ;
 nsresult
 rv
@@ -7974,7 +7960,7 @@ rv
 *
 _retval
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -8003,7 +7989,7 @@ _retval
 *
 _retval
 =
-false
+PR_FALSE
 ;
 nsresult
 rv
@@ -8047,7 +8033,7 @@ isFile
 return
 rv
 ;
-nsAutoCString
+nsCAutoString
 path
 ;
 GetNativeTarget
@@ -8249,7 +8235,7 @@ bat
 *
 _retval
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -8274,7 +8260,7 @@ _retval
 *
 _retval
 =
-false
+PR_FALSE
 ;
 nsresult
 rv
@@ -8328,7 +8314,7 @@ _retval
 *
 _retval
 =
-false
+PR_FALSE
 ;
 nsresult
 rv
@@ -8382,7 +8368,7 @@ _retval
 *
 _retval
 =
-false
+PR_FALSE
 ;
 nsresult
 rv
@@ -8487,7 +8473,7 @@ _retval
 *
 _retval
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -8512,7 +8498,7 @@ _retval
 *
 _retval
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -8542,7 +8528,7 @@ NS_ENSURE_ARG
 _retval
 )
 ;
-nsAutoCString
+nsCAutoString
 inFilePath
 ;
 inFile
@@ -8590,9 +8576,9 @@ CHECK_mWorkingPath
 *
 _retval
 =
-false
+PR_FALSE
 ;
-nsAutoCString
+nsCAutoString
 myFilePath
 ;
 if
@@ -8610,7 +8596,7 @@ GetNativePath
 myFilePath
 )
 ;
-int32_t
+PRInt32
 myFilePathLen
 =
 myFilePath
@@ -8619,7 +8605,7 @@ Length
 (
 )
 ;
-nsAutoCString
+nsCAutoString
 inFilePath
 ;
 if
@@ -8681,7 +8667,7 @@ myFilePathLen
 *
 _retval
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -8731,7 +8717,7 @@ aFollowLinks
 *
 aFollowLinks
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -8774,7 +8760,7 @@ rv
 *
 entries
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -8890,7 +8876,7 @@ if
 dirEnum
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -8999,7 +8985,7 @@ isDirectory
 =
 false
 ;
-nsAutoCString
+nsCAutoString
 path
 ;
 IsDirectory
@@ -9123,7 +9109,7 @@ nsACString
 path
 bool
 followLinks
-nsIFile
+nsILocalFile
 *
 *
 result
@@ -9143,7 +9129,7 @@ if
 file
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -9229,7 +9215,7 @@ EmptyCString
 )
 )
 ;
-nsAutoCString
+nsCAutoString
 tmp
 ;
 nsresult
@@ -9281,7 +9267,7 @@ IsEmpty
 return
 NS_OK
 ;
-nsAutoCString
+nsCAutoString
 tmp
 ;
 nsresult
@@ -9333,7 +9319,7 @@ IsEmpty
 return
 NS_OK
 ;
-nsAutoCString
+nsCAutoString
 tmp
 ;
 nsresult
@@ -9373,7 +9359,7 @@ nsAString
 aLeafName
 )
 {
-nsAutoCString
+nsCAutoString
 tmp
 ;
 nsresult
@@ -9431,7 +9417,7 @@ EmptyCString
 )
 )
 ;
-nsAutoCString
+nsCAutoString
 tmp
 ;
 nsresult
@@ -9511,7 +9497,7 @@ EmptyCString
 )
 )
 ;
-nsAutoCString
+nsCAutoString
 tmp
 ;
 nsresult
@@ -9573,7 +9559,7 @@ EmptyCString
 )
 )
 ;
-nsAutoCString
+nsCAutoString
 tmp
 ;
 nsresult
@@ -9635,7 +9621,7 @@ EmptyCString
 )
 )
 ;
-nsAutoCString
+nsCAutoString
 tmp
 ;
 nsresult
@@ -9676,7 +9662,7 @@ nsAString
 _retval
 )
 {
-nsAutoCString
+nsCAutoString
 tmp
 ;
 nsresult
@@ -9741,7 +9727,7 @@ otherfile
 *
 aResult
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -9761,7 +9747,7 @@ nsLocalFile
 :
 GetHashCode
 (
-uint32_t
+PRUint32
 *
 aResult
 )
@@ -9769,9 +9755,16 @@ aResult
 *
 aResult
 =
-HashString
+nsCRT
+:
+:
+HashCode
 (
 mWorkingPath
+.
+get
+(
+)
 )
 ;
 return
@@ -9787,13 +9780,13 @@ nsAString
 path
 bool
 followLinks
-nsIFile
+nsILocalFile
 *
 *
 result
 )
 {
-nsAutoCString
+nsCAutoString
 buf
 ;
 nsresult
@@ -9816,7 +9809,7 @@ rv
 *
 result
 =
-nullptr
+nsnull
 ;
 return
 rv

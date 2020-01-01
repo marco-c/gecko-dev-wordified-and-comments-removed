@@ -83,7 +83,7 @@ aBaseUri
 absUrl
 )
 ;
-int32_t
+PRInt32
 hash
 =
 absUrl
@@ -98,7 +98,7 @@ PRUnichar
 )
 )
 ;
-uint32_t
+PRUint32
 urlEnd
 fragStart
 fragEnd
@@ -255,7 +255,7 @@ aResult
 *
 aResult
 =
-nullptr
+nsnull
 ;
 txExecutionState
 *
@@ -353,10 +353,10 @@ rv
 nsAutoString
 baseURI
 ;
-bool
+MBool
 baseURISet
 =
-false
+MB_FALSE
 ;
 if
 (
@@ -399,7 +399,7 @@ rv
 ;
 baseURISet
 =
-true
+MB_TRUE
 ;
 if
 (
@@ -465,7 +465,7 @@ exprResult1
 )
 )
 ;
-int32_t
+PRInt32
 i
 ;
 for

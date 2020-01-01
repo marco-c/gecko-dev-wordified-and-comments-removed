@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -189,10 +180,6 @@ nsIDTD
 .
 h
 "
-using
-namespace
-mozilla
-;
 static
 NS_DEFINE_IID
 (
@@ -372,7 +359,7 @@ void
 NS_IMETHOD
 SetParser
 (
-nsParserBase
+nsIParser
 *
 aParser
 )
@@ -406,7 +393,7 @@ GetTarget
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 NS_IMETHOD
@@ -435,7 +422,7 @@ aDataSource
 )
 ;
 static
-int32_t
+PRInt32
 gRefCnt
 ;
 static
@@ -541,7 +528,7 @@ const
 PRUnichar
 *
 aText
-int32_t
+PRInt32
 aLength
 )
 ;
@@ -626,7 +613,7 @@ bool
 *
 aIsAnonymous
 =
-nullptr
+nsnull
 )
 ;
 nsresult
@@ -654,11 +641,11 @@ aAttributes
 nsIRDFResource
 *
 aSubject
-int32_t
+PRInt32
 *
 aCount
 =
-nullptr
+nsnull
 )
 ;
 void
@@ -675,10 +662,10 @@ PRUnichar
 *
 mText
 ;
-int32_t
+PRInt32
 mTextLength
 ;
-int32_t
+PRInt32
 mTextSize
 ;
 void
@@ -754,7 +741,7 @@ mState
 RDFContentSinkParseMode
 mParseMode
 ;
-int32_t
+PRInt32
 PushContext
 (
 nsIRDFResource
@@ -785,7 +772,7 @@ nsIRDFResource
 *
 GetContextElement
 (
-int32_t
+PRInt32
 ancestor
 =
 0
@@ -822,7 +809,7 @@ mDocumentURL
 ;
 }
 ;
-int32_t
+PRInt32
 RDFContentSinkImpl
 :
 :
@@ -983,7 +970,7 @@ RDFContentSinkImpl
 :
 mText
 (
-nullptr
+nsnull
 )
 mTextLength
 (
@@ -1003,11 +990,11 @@ eRDFContentSinkParseMode_Literal
 )
 mContextStack
 (
-nullptr
+nsnull
 )
 mDocumentURL
 (
-nullptr
+nsnull
 )
 {
 if
@@ -1174,6 +1161,10 @@ gRDFContainerUtils
 NS_RegisterStaticAtoms
 (
 rdf_atoms
+NS_ARRAY_LENGTH
+(
+rdf_atoms
+)
 )
 ;
 }
@@ -1262,7 +1253,7 @@ tag
 )
 )
 ;
-int32_t
+PRInt32
 i
 =
 mContextStack
@@ -1285,7 +1276,7 @@ nsIRDFResource
 *
 resource
 =
-nullptr
+nsnull
 ;
 RDFContentSinkState
 state
@@ -1456,7 +1447,7 @@ NS_ERROR_NULL_POINTER
 *
 result
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -1562,11 +1553,11 @@ PRUnichar
 *
 *
 aAtts
-uint32_t
+PRUint32
 aAttsCount
-int32_t
+PRInt32
 aIndex
-uint32_t
+PRUint32
 aLineNumber
 )
 {
@@ -1844,7 +1835,7 @@ GetContextElement
 0
 )
 resource
-true
+PR_TRUE
 )
 ;
 }
@@ -1903,7 +1894,7 @@ const
 PRUnichar
 *
 aData
-uint32_t
+PRUint32
 aLength
 )
 {
@@ -1960,7 +1951,7 @@ const
 PRUnichar
 *
 aData
-uint32_t
+PRUint32
 aLength
 )
 {
@@ -2010,7 +2001,7 @@ const
 PRUnichar
 *
 aEncoding
-int32_t
+PRInt32
 aStandalone
 )
 {
@@ -2061,7 +2052,7 @@ arguments
 *
 _retval
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -2255,7 +2246,7 @@ RDFContentSinkImpl
 :
 SetParser
 (
-nsParserBase
+nsIParser
 *
 aParser
 )
@@ -2280,7 +2271,7 @@ NS_PRECONDITION
 aURL
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -2328,7 +2319,7 @@ NS_PRECONDITION
 aDataSource
 !
 =
-nullptr
+nsnull
 "
 SetDataSource
 null
@@ -2345,7 +2336,7 @@ NS_ASSERTION
 mDataSource
 !
 =
-nullptr
+nsnull
 "
 Couldn
 '
@@ -2392,13 +2383,13 @@ rdf_IsDataInBuffer
 PRUnichar
 *
 buffer
-int32_t
+PRInt32
 length
 )
 {
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -2462,11 +2453,11 @@ r
 continue
 ;
 return
-true
+PR_TRUE
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 void
@@ -2571,10 +2562,10 @@ case
 eRDFContentSinkParseMode_Int
 :
 {
-nsresult
+PRInt32
+i
 err
 ;
-int32_t
 i
 =
 value
@@ -2793,7 +2784,7 @@ GetContextElement
 0
 )
 node
-true
+PR_TRUE
 )
 ;
 }
@@ -2824,7 +2815,7 @@ const
 PRUnichar
 *
 aText
-int32_t
+PRInt32
 aLength
 )
 {
@@ -2867,7 +2858,7 @@ mTextSize
 4096
 ;
 }
-int32_t
+PRInt32
 amount
 =
 mTextSize
@@ -2881,7 +2872,7 @@ amount
 aLength
 )
 {
-int32_t
+PRInt32
 newSize
 =
 (
@@ -3108,7 +3099,7 @@ aIsAnonymous
 *
 aIsAnonymous
 =
-false
+PR_FALSE
 ;
 nsAutoString
 relURI
@@ -3127,7 +3118,7 @@ relURI
 )
 )
 {
-nsAutoCString
+nsCAutoString
 uri
 ;
 rv
@@ -3201,12 +3192,12 @@ aIsAnonymous
 *
 aIsAnonymous
 =
-false
+PR_FALSE
 ;
-nsAutoCString
+nsCAutoString
 name
 ;
-nsAutoCString
+nsCAutoString
 ref
 (
 '
@@ -3293,7 +3284,7 @@ aIsAnonymous
 *
 aIsAnonymous
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -3463,7 +3454,7 @@ relURI
 nsresult
 rv
 ;
-nsAutoCString
+nsCAutoString
 uri
 ;
 rv
@@ -3624,7 +3615,7 @@ aAttributes
 nsIRDFResource
 *
 aSubject
-int32_t
+PRInt32
 *
 aCount
 )
@@ -3846,7 +3837,7 @@ Assert
 aSubject
 property
 target
-true
+PR_TRUE
 )
 ;
 }
@@ -4057,7 +4048,7 @@ NS_ERROR_UNEXPECTED
 }
 PushContext
 (
-nullptr
+nsnull
 mState
 mParseMode
 )
@@ -4154,7 +4145,7 @@ RDF_NAMESPACE_URI
 {
 isaTypedNode
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -4233,7 +4224,7 @@ else
 {
 isaTypedNode
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -4299,7 +4290,7 @@ Assert
 source
 kRDF_type
 type
-true
+PR_TRUE
 )
 ;
 if
@@ -4456,7 +4447,7 @@ if
 target
 )
 {
-int32_t
+PRInt32
 count
 ;
 rv
@@ -4514,7 +4505,7 @@ GetContextElement
 )
 property
 target
-true
+PR_TRUE
 )
 ;
 if
@@ -4707,7 +4698,7 @@ resource
 }
 PushContext
 (
-nullptr
+nsnull
 mState
 mParseMode
 )
@@ -4933,7 +4924,7 @@ kXMLNSAtom
 {
 preferred
 =
-nullptr
+nsnull
 ;
 }
 sink
@@ -5237,7 +5228,7 @@ mMakeFn
 (
 mDataSource
 aContainer
-nullptr
+nsnull
 )
 ;
 }
@@ -5331,7 +5322,7 @@ GetTarget
 (
 aContainer
 kRDF_nextVal
-true
+PR_TRUE
 getter_AddRefs
 (
 nextval
@@ -5381,7 +5372,7 @@ Assert
 aContainer
 kRDF_instanceOf
 aContainerType
-true
+PR_TRUE
 )
 ;
 NS_ASSERTION
@@ -5421,14 +5412,14 @@ RDFContentSinkImpl
 :
 GetContextElement
 (
-int32_t
+PRInt32
 ancestor
 )
 {
 if
 (
 (
-nullptr
+nsnull
 =
 =
 mContextStack
@@ -5436,7 +5427,7 @@ mContextStack
 |
 |
 (
-uint32_t
+PRUint32
 (
 ancestor
 )
@@ -5452,7 +5443,7 @@ Length
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 return
@@ -5476,7 +5467,7 @@ ancestor
 mResource
 ;
 }
-int32_t
+PRInt32
 RDFContentSinkImpl
 :
 :
@@ -5592,7 +5583,7 @@ aParseMode
 if
 (
 (
-nullptr
+nsnull
 =
 =
 mContextStack
@@ -5613,7 +5604,7 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
-uint32_t
+PRUint32
 i
 =
 mContextStack
@@ -5686,7 +5677,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nullptr
+nsnull
 "
 null
 ptr

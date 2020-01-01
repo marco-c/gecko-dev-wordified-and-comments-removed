@@ -7,13 +7,6 @@ __NS_SVGRECT_H__
 #
 include
 "
-gfxRect
-.
-h
-"
-#
-include
-"
 nsIDOMSVGRect
 .
 h
@@ -21,9 +14,7 @@ h
 #
 include
 "
-mozilla
-/
-Attributes
+gfxRect
 .
 h
 "
@@ -75,7 +66,6 @@ rect
 ;
 class
 nsSVGRect
-MOZ_FINAL
 :
 public
 nsIDOMSVGRect

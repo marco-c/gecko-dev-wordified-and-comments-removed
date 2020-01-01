@@ -227,7 +227,7 @@ aContainer
 aMember
 )
 :
-nullptr
+nsnull
 ;
 }
 void
@@ -372,7 +372,7 @@ mMember
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 protected

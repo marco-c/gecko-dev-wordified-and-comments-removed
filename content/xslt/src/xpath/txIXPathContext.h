@@ -45,7 +45,7 @@ resolveNamespacePrefix
 nsIAtom
 *
 aPrefix
-int32_t
+PRInt32
 &
 aID
 )
@@ -59,7 +59,7 @@ resolveFunctionCall
 nsIAtom
 *
 aName
-int32_t
+PRInt32
 aID
 FunctionCall
 *
@@ -81,7 +81,7 @@ virtual
 void
 SetErrorOffset
 (
-uint32_t
+PRUint32
 aOffset
 )
 =
@@ -105,7 +105,7 @@ virtual
 nsresult
 getVariable
 (
-int32_t
+PRInt32
 aNamespace
 nsIAtom
 *
@@ -119,7 +119,7 @@ aResult
 0
 ;
 virtual
-bool
+MBool
 isStripSpaceAllowed
 (
 const
@@ -171,7 +171,7 @@ TX_DECL_MATCH_CONTEXT
 nsresult
 getVariable
 (
-int32_t
+PRInt32
 aNamespace
 nsIAtom
 *
@@ -184,7 +184,7 @@ aResult
 )
 ;
 \
-bool
+MBool
 isStripSpaceAllowed
 (
 const
@@ -237,7 +237,7 @@ getContextNode
 0
 ;
 virtual
-uint32_t
+PRUint32
 size
 (
 )
@@ -245,7 +245,7 @@ size
 0
 ;
 virtual
-uint32_t
+PRUint32
 position
 (
 )
@@ -269,13 +269,13 @@ getContextNode
 )
 ;
 \
-uint32_t
+PRUint32
 size
 (
 )
 ;
 \
-uint32_t
+PRUint32
 position
 (
 )

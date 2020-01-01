@@ -59,7 +59,7 @@ NS_ASSERTION
 mStatement
 !
 =
-nullptr
+nsnull
 "
 mStatement
 is
@@ -300,7 +300,7 @@ NS_ERROR_INVALID_ARG
 *
 _retval
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -321,7 +321,7 @@ aCtx
 JSObject
 *
 aScopeObj
-uint32_t
+PRUint32
 aEnumOp
 jsval
 *
@@ -392,12 +392,12 @@ null
 "
 )
 ;
-uint32_t
+PRUint32
 index
 =
 static_cast
 <
-uint32_t
+PRUint32
 >
 (
 JSVAL_TO_INT
@@ -424,7 +424,7 @@ return
 NS_OK
 ;
 }
-nsAutoCString
+nsCAutoString
 name
 ;
 nsresult
@@ -499,7 +499,7 @@ _idp
 *
 _retval
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -552,7 +552,7 @@ JSObject
 aScopeObj
 jsid
 aId
-uint32_t
+PRUint32
 aFlags
 JSObject
 *
@@ -587,7 +587,7 @@ aId
 )
 )
 {
-uint32_t
+PRUint32
 idx
 =
 JSID_TO_INT
@@ -615,8 +615,8 @@ aCtx
 aScopeObj
 idx
 JSVAL_VOID
-nullptr
-nullptr
+nsnull
+nsnull
 JSPROP_ENUMERATE
 )
 ;
@@ -672,7 +672,7 @@ nameChars
 nameLength
 )
 ;
-uint32_t
+PRUint32
 idx
 ;
 nsresult
@@ -706,8 +706,8 @@ aCtx
 aScopeObj
 aId
 JSVAL_VOID
-nullptr
-nullptr
+nsnull
+nsnull
 JSPROP_ENUMERATE
 )
 ;
@@ -732,7 +732,7 @@ ok
 ?
 aScopeObj
 :
-nullptr
+nsnull
 ;
 return
 NS_OK

@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsIFile
+nsILocalFile
 .
 h
 "
@@ -95,7 +95,7 @@ nsIFile
 *
 aLocalProfileDir
 =
-nullptr
+nsnull
 )
 ;
 virtual

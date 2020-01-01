@@ -74,12 +74,12 @@ defined
 ANDROID
 )
 return
-true
+PR_TRUE
 ;
 #
 else
 return
-false
+PR_FALSE
 ;
 #
 endif

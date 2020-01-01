@@ -213,7 +213,7 @@ NSSErrorsService
 :
 IsNSSErrorCode
 (
-int32_t
+PRInt32
 aNSPRCode
 bool
 *
@@ -252,7 +252,7 @@ NSSErrorsService
 :
 GetXPCOMFromNSSError
 (
-int32_t
+PRInt32
 aNSPRCode
 nsresult
 *
@@ -288,9 +288,6 @@ NS_ERROR_INVALID_ARG
 *
 aXPCOMErrorCode
 =
-(
-nsresult
-)
 NS_ERROR_GENERATE_FAILURE
 (
 NS_ERROR_MODULE_SECURITY
@@ -312,7 +309,7 @@ GetErrorClass
 (
 nsresult
 aXPCOMErrorCode
-uint32_t
+PRUint32
 *
 aErrorClass
 )
@@ -344,7 +341,7 @@ NS_ERROR_SEVERITY_ERROR
 return
 NS_ERROR_FAILURE
 ;
-int32_t
+PRInt32
 aNSPRCode
 =
 -
@@ -402,9 +399,6 @@ SSL_ERROR_BAD_CERT_DOMAIN
 case
 SEC_ERROR_EXPIRED_CERTIFICATE
 :
-case
-SEC_ERROR_CERT_SIGNATURE_ALGORITHM_DISABLED
-:
 *
 aErrorClass
 =
@@ -461,7 +455,7 @@ NS_ERROR_SEVERITY_ERROR
 return
 NS_ERROR_FAILURE
 ;
-int32_t
+PRInt32
 aNSPRCode
 =
 -

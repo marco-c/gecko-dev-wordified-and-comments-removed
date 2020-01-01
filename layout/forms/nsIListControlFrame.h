@@ -51,7 +51,7 @@ virtual
 void
 GetOptionText
 (
-int32_t
+PRInt32
 aIndex
 nsAString
 &
@@ -61,7 +61,7 @@ aStr
 0
 ;
 virtual
-int32_t
+PRInt32
 GetSelectedIndex
 (
 )
@@ -98,8 +98,16 @@ GetHeightOfARow
 0
 ;
 virtual
-int32_t
+PRInt32
 GetNumberOfOptions
+(
+)
+=
+0
+;
+virtual
+void
+SyncViewWithFrame
 (
 )
 =
@@ -133,7 +141,7 @@ virtual
 void
 ComboboxFinish
 (
-int32_t
+PRInt32
 aIndex
 )
 =

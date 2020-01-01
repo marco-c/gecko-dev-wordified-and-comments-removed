@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsIPrivateDOMEvent
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -170,7 +177,7 @@ window
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 return

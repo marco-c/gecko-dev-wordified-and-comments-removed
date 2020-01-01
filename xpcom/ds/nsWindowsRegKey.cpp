@@ -183,13 +183,13 @@ nsWindowsRegKey
 :
 Open
 (
-uint32_t
+PRUint32
 rootKey
 const
 nsAString
 &
 path
-uint32_t
+PRUint32
 mode
 )
 {
@@ -242,13 +242,13 @@ nsWindowsRegKey
 :
 Create
 (
-uint32_t
+PRUint32
 rootKey
 const
 nsAString
 &
 path
-uint32_t
+PRUint32
 mode
 )
 {
@@ -313,7 +313,7 @@ const
 nsAString
 &
 path
-uint32_t
+PRUint32
 mode
 nsIWindowsRegKey
 *
@@ -394,7 +394,7 @@ const
 nsAString
 &
 path
-uint32_t
+PRUint32
 mode
 nsIWindowsRegKey
 *
@@ -471,7 +471,7 @@ nsWindowsRegKey
 :
 GetChildCount
 (
-uint32_t
+PRUint32
 *
 result
 )
@@ -528,7 +528,7 @@ nsWindowsRegKey
 :
 GetChildName
 (
-uint32_t
+PRUint32
 index
 nsAString
 &
@@ -681,7 +681,7 @@ nsWindowsRegKey
 :
 GetValueCount
 (
-uint32_t
+PRUint32
 *
 result
 )
@@ -738,7 +738,7 @@ nsWindowsRegKey
 :
 GetValueName
 (
-uint32_t
+PRUint32
 index
 nsAString
 &
@@ -970,7 +970,7 @@ const
 nsAString
 &
 name
-uint32_t
+PRUint32
 *
 result
 )
@@ -1350,7 +1350,7 @@ const
 nsAString
 &
 name
-uint32_t
+PRUint32
 *
 result
 )
@@ -1417,7 +1417,7 @@ const
 nsAString
 &
 name
-uint64_t
+PRUint64
 *
 result
 )
@@ -1700,7 +1700,7 @@ const
 nsAString
 &
 name
-uint32_t
+PRUint32
 value
 )
 {
@@ -1762,7 +1762,7 @@ const
 nsAString
 &
 name
-uint64_t
+PRUint64
 value
 )
 {
@@ -2054,7 +2054,7 @@ mWatchRecursive
 *
 result
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -2062,7 +2062,7 @@ else
 *
 result
 =
-false
+PR_FALSE
 ;
 }
 return

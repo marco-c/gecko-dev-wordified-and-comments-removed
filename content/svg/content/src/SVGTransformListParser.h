@@ -70,9 +70,9 @@ MatchNumberArguments
 float
 *
 aResult
-uint32_t
+PRUint32
 aMaxNum
-uint32_t
+PRUint32
 *
 aParsedNum
 )

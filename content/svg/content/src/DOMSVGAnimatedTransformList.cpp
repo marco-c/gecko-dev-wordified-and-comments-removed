@@ -188,10 +188,8 @@ nsSVGElement
 aElement
 )
 {
-nsRefPtr
-<
 DOMSVGAnimatedTransformList
->
+*
 wrapper
 =
 sSVGAnimatedTransformListTearoffTable
@@ -224,12 +222,13 @@ wrapper
 )
 ;
 }
+NS_ADDREF
+(
+wrapper
+)
+;
 return
 wrapper
-.
-forget
-(
-)
 ;
 }
 DOMSVGAnimatedTransformList
@@ -278,7 +277,7 @@ DOMSVGAnimatedTransformList
 :
 InternalBaseValListWillChangeLengthTo
 (
-uint32_t
+PRUint32
 aNewLength
 )
 {
@@ -340,7 +339,7 @@ DOMSVGAnimatedTransformList
 :
 InternalAnimValListWillChangeLengthTo
 (
-uint32_t
+PRUint32
 aNewLength
 )
 {

@@ -464,7 +464,7 @@ value
 =
 Weave
 .
-Identity
+Service
 .
 account
 ;
@@ -740,9 +740,7 @@ browser
 /
 content
 /
-sync
-/
-setup
+syncSetup
 .
 xul
 "
@@ -807,9 +805,7 @@ browser
 /
 content
 /
-sync
-/
-quota
+syncQuota
 .
 xul
 "
@@ -883,9 +879,7 @@ browser
 /
 content
 /
-sync
-/
-addDevice
+syncAddDevice
 .
 xul
 "

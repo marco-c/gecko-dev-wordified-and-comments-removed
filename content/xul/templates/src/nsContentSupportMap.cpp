@@ -30,7 +30,7 @@ mMap
 PL_DHashGetStubOps
 (
 )
-nullptr
+nsnull
 sizeof
 (
 Entry
@@ -42,7 +42,7 @@ mMap
 .
 ops
 =
-nullptr
+nsnull
 ;
 }
 void

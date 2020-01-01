@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-FloatingPoint
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h
@@ -92,12 +83,13 @@ txUnionPattern
 )
 ;
 return
-MOZ_DOUBLE_NaN
-(
-)
+Double
+:
+:
+NaN
 ;
 }
-bool
+MBool
 txUnionPattern
 :
 :
@@ -112,7 +104,7 @@ txIMatchContext
 aContext
 )
 {
-uint32_t
+PRUint32
 i
 len
 =
@@ -153,12 +145,12 @@ aContext
 )
 {
 return
-true
+MB_TRUE
 ;
 }
 }
 return
-false
+MB_FALSE
 ;
 }
 txPattern
@@ -187,7 +179,7 @@ txUnionPattern
 :
 getSubPatternAt
 (
-uint32_t
+PRUint32
 aPos
 )
 {
@@ -206,7 +198,7 @@ txUnionPattern
 :
 setSubPatternAt
 (
-uint32_t
+PRUint32
 aPos
 txPattern
 *
@@ -269,7 +261,7 @@ txUnionPattern
 endif
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -384,7 +376,7 @@ return
 NS_OK
 ;
 }
-bool
+MBool
 txLocPathPattern
 :
 :
@@ -414,7 +406,7 @@ error
 "
 )
 ;
-uint32_t
+PRUint32
 pos
 =
 mSteps
@@ -451,7 +443,7 @@ aContext
 )
 )
 return
-false
+MB_FALSE
 ;
 txXPathTreeWalker
 walker
@@ -482,7 +474,7 @@ if
 pos
 )
 return
-true
+MB_TRUE
 ;
 step
 =
@@ -518,7 +510,7 @@ aContext
 )
 )
 return
-false
+MB_FALSE
 ;
 hasParent
 =
@@ -535,7 +527,7 @@ blockWalker
 walker
 )
 ;
-uint32_t
+PRUint32
 blockPos
 =
 pos
@@ -551,7 +543,7 @@ if
 hasParent
 )
 return
-false
+MB_FALSE
 ;
 step
 =
@@ -637,7 +629,7 @@ walker
 }
 }
 return
-true
+MB_TRUE
 ;
 }
 double
@@ -680,7 +672,7 @@ txLocPathPattern
 :
 getSubPatternAt
 (
-uint32_t
+PRUint32
 aPos
 )
 {
@@ -704,7 +696,7 @@ get
 (
 )
 :
-nullptr
+nsnull
 ;
 }
 void
@@ -713,7 +705,7 @@ txLocPathPattern
 :
 setSubPatternAt
 (
-uint32_t
+PRUint32
 aPos
 txPattern
 *
@@ -795,7 +787,7 @@ txLocPathPattern
 endif
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -888,7 +880,7 @@ endif
 }
 #
 endif
-bool
+MBool
 txRootPattern
 :
 :
@@ -1050,7 +1042,7 @@ atom
 ;
 }
 }
-bool
+MBool
 txIdPattern
 :
 :
@@ -1078,7 +1070,7 @@ aNode
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 nsIContent
@@ -1192,7 +1184,7 @@ id
 "
 )
 ;
-uint32_t
+PRUint32
 k
 count
 =
@@ -1306,7 +1298,7 @@ endif
 }
 #
 endif
-bool
+MBool
 txKeyPattern
 :
 :
@@ -1354,7 +1346,7 @@ aNode
 NS_ENSURE_TRUE
 (
 contextDoc
-false
+PR_FALSE
 )
 ;
 nsRefPtr
@@ -1375,7 +1367,7 @@ mName
 *
 contextDoc
 mValue
-true
+PR_TRUE
 getter_AddRefs
 (
 nodes
@@ -1385,7 +1377,7 @@ nodes
 NS_ENSURE_SUCCESS
 (
 rv
-false
+PR_FALSE
 )
 ;
 return
@@ -1561,7 +1553,7 @@ endif
 }
 #
 endif
-bool
+MBool
 txStepPattern
 :
 :
@@ -1598,7 +1590,7 @@ aContext
 )
 )
 return
-false
+MB_FALSE
 ;
 txXPathTreeWalker
 walker
@@ -1636,7 +1628,7 @@ moveToParent
 )
 {
 return
-false
+MB_FALSE
 ;
 }
 if
@@ -1647,7 +1639,7 @@ isEmpty
 )
 {
 return
-true
+MB_TRUE
 ;
 }
 nsRefPtr
@@ -1678,7 +1670,7 @@ nodes
 NS_ENSURE_SUCCESS
 (
 rv
-false
+MB_FALSE
 )
 ;
 bool
@@ -1785,10 +1777,10 @@ newNodes
 NS_ENSURE_SUCCESS
 (
 rv
-false
+MB_FALSE
 )
 ;
-uint32_t
+PRUint32
 i
 predLen
 =
@@ -1820,10 +1812,10 @@ clear
 (
 )
 ;
-bool
+MBool
 contextIsInPredicate
 =
-false
+MB_FALSE
 ;
 txNodeSetContext
 predContext
@@ -1871,7 +1863,7 @@ exprResult
 NS_ENSURE_SUCCESS
 (
 rv
-false
+PR_FALSE
 )
 ;
 switch
@@ -1930,7 +1922,7 @@ aNode
 )
 contextIsInPredicate
 =
-true
+MB_TRUE
 ;
 newNodes
 -
@@ -1975,7 +1967,7 @@ aNode
 )
 contextIsInPredicate
 =
-true
+MB_TRUE
 ;
 newNodes
 -
@@ -2013,7 +2005,7 @@ contextIsInPredicate
 )
 {
 return
-false
+MB_FALSE
 ;
 }
 predicate
@@ -2056,7 +2048,7 @@ exprResult
 NS_ENSURE_SUCCESS
 (
 rv
-false
+PR_FALSE
 )
 ;
 if
@@ -2157,7 +2149,7 @@ txStepPattern
 :
 getSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 )
 {
@@ -2177,7 +2169,7 @@ txStepPattern
 :
 setSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 Expr
 *

@@ -117,7 +117,7 @@ nsStreamConverterService
 :
 mAdjacencyList
 (
-nullptr
+nsnull
 )
 {
 }
@@ -215,7 +215,7 @@ delete
 entry
 ;
 return
-true
+PR_TRUE
 ;
 }
 nsresult
@@ -231,10 +231,10 @@ mAdjacencyList
 new
 nsObjectHashtable
 (
-nullptr
-nullptr
+nsnull
+nsnull
 DeleteAdjacencyEntry
-nullptr
+nsnull
 )
 ;
 if
@@ -341,7 +341,7 @@ rv
 )
 )
 {
-nsAutoCString
+nsCAutoString
 entryString
 ;
 rv
@@ -364,7 +364,7 @@ rv
 return
 rv
 ;
-nsAutoCString
+nsCAutoString
 contractID
 (
 NS_ISTREAMCONVERTER_KEY
@@ -431,7 +431,7 @@ aContractID
 nsresult
 rv
 ;
-nsAutoCString
+nsCAutoString
 fromStr
 toStr
 ;
@@ -563,7 +563,7 @@ data
 >
 key
 =
-nullptr
+nsnull
 ;
 delete
 data
@@ -694,7 +694,7 @@ data
 >
 key
 =
-nullptr
+nsnull
 ;
 delete
 data
@@ -808,13 +808,13 @@ nsCString
 aToRes
 )
 {
-nsAutoCString
+nsCAutoString
 ContractIDStr
 (
 aContractID
 )
 ;
-int32_t
+PRInt32
 fromLoc
 =
 ContractIDStr
@@ -827,7 +827,7 @@ from
 "
 )
 ;
-int32_t
+PRInt32
 toLoc
 =
 ContractIDStr
@@ -870,7 +870,7 @@ toLoc
 +
 3
 ;
-nsAutoCString
+nsCAutoString
 fromStr
 toStr
 ;
@@ -968,7 +968,7 @@ if
 BFSTable
 )
 return
-false
+PR_FALSE
 ;
 BFSState
 *
@@ -983,7 +983,7 @@ if
 state
 )
 return
-false
+PR_FALSE
 ;
 state
 -
@@ -1005,7 +1005,7 @@ state
 >
 predecessor
 =
-nullptr
+nsnull
 ;
 SCTableData
 *
@@ -1034,7 +1034,7 @@ delete
 state
 ;
 return
-false
+PR_FALSE
 ;
 }
 data
@@ -1056,7 +1056,7 @@ data
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 static
@@ -1103,13 +1103,13 @@ data
 >
 key
 =
-nullptr
+nsnull
 ;
 delete
 data
 ;
 return
-true
+PR_TRUE
 ;
 }
 class
@@ -1184,9 +1184,9 @@ NS_ERROR_NULL_POINTER
 *
 aEdgeList
 =
-nullptr
+nsnull
 ;
-int32_t
+PRInt32
 vertexCount
 =
 mAdjacencyList
@@ -1209,10 +1209,10 @@ NS_ERROR_FAILURE
 nsObjectHashtable
 lBFSTable
 (
-nullptr
-nullptr
+nsnull
+nsnull
 DeleteBFSEntry
-nullptr
+nsnull
 )
 ;
 mAdjacencyList
@@ -1244,7 +1244,7 @@ problem
 "
 )
 ;
-nsAutoCString
+nsCAutoString
 fromC
 toC
 ;
@@ -1515,7 +1515,7 @@ headVertexState
 return
 NS_ERROR_FAILURE
 ;
-int32_t
+PRInt32
 edgeCount
 =
 edges
@@ -1527,7 +1527,7 @@ Count
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -1759,10 +1759,10 @@ cur
 ;
 cur
 =
-nullptr
+nsnull
 ;
 }
-nsAutoCString
+nsCAutoString
 fromStr
 toStr
 ;
@@ -1785,7 +1785,7 @@ rv
 return
 rv
 ;
-nsAutoCString
+nsCAutoString
 ContractIDPrefix
 (
 NS_ISTREAMCONVERTER_KEY
@@ -1931,7 +1931,7 @@ predecessorData
 )
 break
 ;
-nsAutoCString
+nsCAutoString
 newContractID
 (
 ContractIDPrefix
@@ -2076,7 +2076,7 @@ rv
 return
 rv
 ;
-nsAutoCString
+nsCAutoString
 contractID
 ;
 contractID
@@ -2172,7 +2172,7 @@ nsCString
 *
 converterChain
 =
-nullptr
+nsnull
 ;
 rv
 =
@@ -2251,7 +2251,7 @@ NS_ERROR_NULL_POINTER
 nsresult
 rv
 ;
-nsAutoCString
+nsCAutoString
 contractID
 ;
 contractID
@@ -2347,7 +2347,7 @@ nsCString
 *
 converterChain
 =
-nullptr
+nsnull
 ;
 rv
 =
@@ -2370,10 +2370,10 @@ return
 NS_ERROR_FAILURE
 ;
 }
-int32_t
+PRInt32
 edgeCount
 =
-int32_t
+PRInt32
 (
 converterChain
 -
@@ -2412,7 +2412,7 @@ convertedData
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 edgeCount
@@ -2470,7 +2470,7 @@ return
 rv
 ;
 }
-nsAutoCString
+nsCAutoString
 fromStr
 toStr
 ;
@@ -2628,7 +2628,7 @@ NS_ERROR_NULL_POINTER
 nsresult
 rv
 ;
-nsAutoCString
+nsCAutoString
 contractID
 ;
 contractID
@@ -2724,7 +2724,7 @@ nsCString
 *
 converterChain
 =
-nullptr
+nsnull
 ;
 rv
 =
@@ -2755,10 +2755,10 @@ finalListener
 =
 aListener
 ;
-int32_t
+PRInt32
 edgeCount
 =
-int32_t
+PRInt32
 (
 converterChain
 -
@@ -2844,7 +2844,7 @@ registered
 "
 )
 ;
-nsAutoCString
+nsCAutoString
 fromStr
 toStr
 ;
@@ -3002,7 +3002,7 @@ NS_PRECONDITION
 aStreamConv
 !
 =
-nullptr
+nsnull
 "
 null
 ptr

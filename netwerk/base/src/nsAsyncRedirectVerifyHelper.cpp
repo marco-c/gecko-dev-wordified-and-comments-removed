@@ -204,7 +204,7 @@ nsAsyncRedirectVerifyHelper
 :
 mCallbackInitiated
 (
-false
+PR_FALSE
 )
 mExpectedCallbacks
 (
@@ -260,7 +260,7 @@ oldChan
 nsIChannel
 *
 newChan
-uint32_t
+PRUint32
 flags
 bool
 synchronize
@@ -316,7 +316,7 @@ synchronize
 )
 mWaitingForRedirectCallback
 =
-true
+PR_TRUE
 ;
 nsresult
 rv
@@ -486,7 +486,7 @@ oldChannel
 nsIChannel
 *
 newChannel
-uint32_t
+PRUint32
 flags
 )
 {
@@ -741,11 +741,11 @@ return
 }
 mCallbackInitiated
 =
-false
+PR_FALSE
 ;
 mWaitingForRedirectCallback
 =
-false
+PR_FALSE
 ;
 nsRefPtr
 <
@@ -895,7 +895,7 @@ mResult
 ;
 mCallbackInitiated
 =
-true
+PR_TRUE
 ;
 if
 (

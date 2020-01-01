@@ -27,15 +27,6 @@ nsCOMArray
 h
 "
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 ifndef
 __nsWifiAccessPoint__
 #
@@ -43,7 +34,6 @@ define
 __nsWifiAccessPoint__
 class
 nsWifiAccessPoint
-MOZ_FINAL
 :
 public
 nsIWifiAccessPoint
@@ -91,6 +81,7 @@ mSignal
 signal
 ;
 }
+;
 void
 setMac
 (
@@ -192,6 +183,7 @@ mMac
 0
 ;
 }
+;
 void
 setSSID
 (
@@ -253,6 +245,7 @@ mSsidLen
 ;
 }
 }
+;
 }
 ;
 bool

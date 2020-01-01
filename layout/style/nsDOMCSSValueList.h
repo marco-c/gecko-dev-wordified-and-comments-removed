@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsTArray
+nsCOMArray
 .
 h
 "
@@ -69,7 +69,7 @@ nsIDOMCSSValue
 *
 GetItemAt
 (
-uint32_t
+PRUint32
 aIndex
 )
 {
@@ -79,7 +79,7 @@ mCSSValues
 SafeElementAt
 (
 aIndex
-nullptr
+nsnull
 )
 ;
 }

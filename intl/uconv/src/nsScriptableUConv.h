@@ -65,7 +65,7 @@ char
 *
 *
 _retval
-int32_t
+PRInt32
 *
 aLength
 )
@@ -77,7 +77,7 @@ const
 nsAString
 &
 aSrc
-int32_t
+PRInt32
 *
 aOutLen
 char

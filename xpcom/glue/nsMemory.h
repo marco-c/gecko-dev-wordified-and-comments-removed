@@ -114,7 +114,7 @@ Realloc
 void
 *
 ptr
-size_t
+PRSize
 size
 )
 {
@@ -163,7 +163,7 @@ const
 void
 *
 ptr
-size_t
+PRSize
 size
 )
 ;
@@ -188,10 +188,10 @@ freeFunc
 \
 PR_BEGIN_MACRO
 \
-int32_t
+PRInt32
 iter_
 =
-int32_t
+PRInt32
 (
 size
 )

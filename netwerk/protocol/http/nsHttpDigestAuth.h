@@ -33,15 +33,6 @@ nsCOMPtr
 h
 "
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 define
 ALGO_SPECIFIED
 0x01
@@ -75,7 +66,6 @@ NONCE_COUNT_LENGTH
 8
 class
 nsHttpDigestAuth
-MOZ_FINAL
 :
 public
 nsIHttpAuthenticator
@@ -122,7 +112,7 @@ const
 nsAFlatCString
 &
 nonce
-uint16_t
+PRUint16
 qop
 const
 char
@@ -152,7 +142,7 @@ const
 nsAFlatCString
 &
 realm
-uint16_t
+PRUint16
 algorithm
 const
 nsAFlatCString
@@ -178,7 +168,7 @@ const
 nsAFlatCString
 &
 http_uri_path
-uint16_t
+PRUint16
 qop
 const
 char
@@ -211,10 +201,10 @@ opaque
 bool
 *
 stale
-uint16_t
+PRUint16
 *
 algorithm
-uint16_t
+PRUint16
 *
 qop
 )
@@ -226,7 +216,7 @@ const
 char
 *
 buf
-uint32_t
+PRUint32
 len
 )
 ;

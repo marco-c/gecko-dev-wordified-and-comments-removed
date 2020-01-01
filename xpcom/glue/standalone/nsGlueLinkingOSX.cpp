@@ -707,7 +707,7 @@ aSymbolName
 NSSymbol
 sym
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -749,7 +749,7 @@ if
 sym
 )
 return
-nullptr
+nsnull
 ;
 return
 NSAddressOfSymbol
@@ -775,7 +775,7 @@ mach_header
 *
 lib
 =
-nullptr
+nsnull
 ;
 if
 (

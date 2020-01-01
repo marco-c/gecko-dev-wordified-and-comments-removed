@@ -31,7 +31,7 @@ mContent
 ;
 union
 {
-uint32_t
+PRUint32
 mIndex
 ;
 nsIContent
@@ -52,7 +52,7 @@ ChildIterator
 :
 mContent
 (
-nullptr
+nsnull
 )
 mChild
 (
@@ -60,7 +60,7 @@ mChild
 )
 mNodes
 (
-nullptr
+nsnull
 )
 {
 }
@@ -462,7 +462,7 @@ XBLInvolved
 )
 )
 {
-int32_t
+PRInt32
 index
 =
 mNodes
@@ -520,7 +520,7 @@ else
 {
 mChild
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -534,7 +534,7 @@ return
 mNodes
 !
 =
-nullptr
+nsnull
 ;
 }
 static
@@ -554,7 +554,7 @@ aLast
 ;
 private
 :
-uint32_t
+PRUint32
 length
 (
 )
@@ -573,7 +573,7 @@ me
 "
 )
 ;
-uint32_t
+PRUint32
 l
 ;
 mNodes

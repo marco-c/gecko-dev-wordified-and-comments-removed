@@ -49,7 +49,7 @@ nsIDOMNodeIterator
 public
 nsTraversal
 public
-nsStubMutationObserver
+nsStubMutationObserver2
 {
 public
 :
@@ -60,11 +60,13 @@ nsNodeIterator
 nsINode
 *
 aRoot
-uint32_t
+PRUint32
 aWhatToShow
 nsIDOMNodeFilter
 *
 aFilter
+bool
+aExpandEntityReferences
 )
 ;
 virtual
@@ -74,6 +76,7 @@ nsNodeIterator
 )
 ;
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTREMOVED
+NS_DECL_NSIMUTATIONOBSERVER2_ATTRIBUTECHILDREMOVED
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
 nsNodeIterator
@@ -90,10 +93,11 @@ NodePointer
 :
 mNode
 (
-nullptr
+nsnull
 )
 {
 }
+;
 NodePointer
 (
 nsINode
@@ -179,7 +183,7 @@ Clear
 {
 mNode
 =
-nullptr
+nsnull
 ;
 }
 nsINode

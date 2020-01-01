@@ -153,7 +153,7 @@ protected
 void
 FormatSizeString
 (
-int64_t
+PRInt64
 inSize
 nsString
 &

@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsLocalFileUnicode
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -119,7 +126,7 @@ nsLocalFile
 :
 InitWithFile
 (
-nsIFile
+nsILocalFile
 *
 aFile
 )
@@ -129,7 +136,7 @@ NS_ENSURE_ARG
 aFile
 )
 ;
-nsAutoCString
+nsCAutoString
 path
 ;
 aFile
@@ -184,9 +191,9 @@ nsLocalFile
 :
 CreateUnique
 (
-uint32_t
+PRUint32
 type
-uint32_t
+PRUint32
 attributes
 )
 {
@@ -214,7 +221,7 @@ pathName
 ;
 #
 else
-nsAutoCString
+nsCAutoString
 pathName
 leafName
 rootName
@@ -299,7 +306,7 @@ return
 rv
 ;
 const
-int32_t
+PRInt32
 lastDot
 =
 leafName
@@ -334,7 +341,7 @@ return
 rv
 ;
 const
-int32_t
+PRInt32
 lastDot
 =
 leafName
@@ -386,7 +393,7 @@ if
 longName
 )
 {
-int32_t
+PRInt32
 maxRootLength
 =
 (
@@ -675,7 +682,7 @@ platform
 #
 endif
 static
-int32_t
+PRInt32
 SplitPath
 (
 PRUnichar
@@ -685,7 +692,7 @@ PRUnichar
 *
 *
 nodeArray
-int32_t
+PRInt32
 arrayLen
 )
 {
@@ -805,7 +812,7 @@ nsLocalFile
 :
 GetRelativeDescriptor
 (
-nsIFile
+nsILocalFile
 *
 fromFile
 nsACString
@@ -819,7 +826,7 @@ fromFile
 )
 ;
 const
-int32_t
+PRInt32
 kMaxNodesInPath
 =
 32
@@ -850,7 +857,7 @@ fromNodes
 kMaxNodesInPath
 ]
 ;
-int32_t
+PRInt32
 thisNodeCnt
 fromNodeCnt
 nodeIndex
@@ -1009,7 +1016,7 @@ break
 #
 endif
 }
-int32_t
+PRInt32
 branchIndex
 =
 nodeIndex
@@ -1098,7 +1105,7 @@ nsLocalFile
 :
 SetRelativeDescriptor
 (
-nsIFile
+nsILocalFile
 *
 fromFile
 const
@@ -1308,10 +1315,22 @@ nodeBegin
 nodeEnd
 ;
 }
+nsCOMPtr
+<
+nsILocalFile
+>
+targetLocalFile
+(
+do_QueryInterface
+(
+targetFile
+)
+)
+;
 return
 InitWithFile
 (
-targetFile
+targetLocalFile
 )
 ;
 }

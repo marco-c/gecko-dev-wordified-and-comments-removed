@@ -87,7 +87,7 @@ const
 ;
 #
 ifdef
-DEBUG
+NS_DEBUG
 NS_IMETHOD
 GetFrameName
 (
@@ -103,9 +103,9 @@ virtual
 void
 SetPageNumInfo
 (
-int32_t
+PRInt32
 aPageNumber
-int32_t
+PRInt32
 aTotalPages
 )
 ;
@@ -185,7 +185,7 @@ const
 nsRect
 &
 aRect
-int32_t
+PRInt32
 aJust
 const
 nsString
@@ -201,7 +201,7 @@ nsRenderingContext
 aRenderingContext
 nsHeaderFooterEnum
 aHeaderFooter
-int32_t
+PRInt32
 aJust
 const
 nsString
@@ -261,10 +261,10 @@ nsString
 aNewStr
 )
 ;
-int32_t
+PRInt32
 mPageNum
 ;
-int32_t
+PRInt32
 mTotNumPages
 ;
 nsSharedPageData
@@ -320,7 +320,7 @@ const
 ;
 #
 ifdef
-DEBUG
+NS_DEBUG
 NS_IMETHOD
 GetFrameName
 (

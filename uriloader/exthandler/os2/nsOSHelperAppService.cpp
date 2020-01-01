@@ -64,7 +64,7 @@ h
 #
 include
 "
-nsIFile
+nsILocalFile
 .
 h
 "
@@ -459,7 +459,7 @@ case
 :
 semicolonFound
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -808,7 +808,7 @@ prefValue
 {
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 (
@@ -943,7 +943,7 @@ helpers
 .
 private_mime_types_file
 "
-nullptr
+nsnull
 mimeFileName
 )
 ;
@@ -1006,7 +1006,7 @@ helpers
 .
 global_mime_types_file
 "
-nullptr
+nsnull
 mimeFileName
 )
 ;
@@ -1144,7 +1144,7 @@ NS_OK
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 (
@@ -1222,7 +1222,7 @@ file
 1
 -
 1
-false
+PR_FALSE
 )
 ;
 if
@@ -1453,7 +1453,7 @@ netscapeFormat
 nsAutoString
 buf
 ;
-nsAutoCString
+nsCAutoString
 cBuf
 ;
 bool
@@ -2032,7 +2032,7 @@ helpers
 .
 private_mime_types_file
 "
-nullptr
+nsnull
 mimeFileName
 )
 ;
@@ -2095,7 +2095,7 @@ helpers
 .
 global_mime_types_file
 "
-nullptr
+nsnull
 mimeFileName
 )
 ;
@@ -2265,7 +2265,7 @@ netscapeFormat
 nsAutoString
 buf
 ;
-nsAutoCString
+nsCAutoString
 cBuf
 ;
 bool
@@ -4023,7 +4023,7 @@ false
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 (
@@ -4101,7 +4101,7 @@ file
 1
 -
 1
-false
+PR_FALSE
 )
 ;
 if
@@ -4158,7 +4158,7 @@ nsString
 entry
 buffer
 ;
-nsAutoCString
+nsCAutoString
 cBuffer
 ;
 entry
@@ -4609,7 +4609,7 @@ start_option_iter
 ;
 equalSignFound
 =
-false
+PR_FALSE
 ;
 while
 (
@@ -4651,7 +4651,7 @@ case
 :
 equalSignFound
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -4769,7 +4769,7 @@ test
 )
 )
 {
-nsAutoCString
+nsCAutoString
 testCommand
 ;
 rv
@@ -4832,7 +4832,7 @@ get
 {
 match
 =
-false
+PR_FALSE
 ;
 }
 }
@@ -4973,12 +4973,12 @@ aProtocolScheme
 *
 aHandlerExists
 =
-false
+PR_FALSE
 ;
 nsresult
 rv
 ;
-nsAutoCString
+nsCAutoString
 branchName
 =
 NS_LITERAL_CSTRING
@@ -4994,7 +4994,7 @@ nsDependentCString
 aProtocolScheme
 )
 ;
-nsAutoCString
+nsCAutoString
 prefName
 =
 branchName
@@ -5079,7 +5079,7 @@ rv
 *
 aHandlerExists
 =
-true
+PR_TRUE
 ;
 }
 return
@@ -5110,7 +5110,7 @@ IsEmpty
 )
 )
 return
-nullptr
+nsnull
 ;
 LOG
 (
@@ -5170,7 +5170,7 @@ rv
 )
 )
 return
-nullptr
+nsnull
 ;
 NS_LossyConvertUTF16toASCII
 asciiMajorType
@@ -5252,10 +5252,10 @@ IsEmpty
 )
 {
 return
-nullptr
+nsnull
 ;
 }
-nsAutoCString
+nsCAutoString
 mimeType
 (
 asciiMajorType
@@ -5286,7 +5286,7 @@ if
 mimeInfo
 )
 return
-nullptr
+nsnull
 ;
 NS_ADDREF
 (
@@ -5567,7 +5567,7 @@ IsEmpty
 )
 )
 return
-nullptr
+nsnull
 ;
 LOG
 (
@@ -5660,7 +5660,7 @@ rv
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 nsDependentSubstring
@@ -5782,7 +5782,7 @@ IsEmpty
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 mailcap_description
@@ -5831,7 +5831,7 @@ if
 mimeInfo
 )
 return
-nullptr
+nsnull
 ;
 NS_ADDREF
 (
@@ -6067,7 +6067,7 @@ rv
 ;
 }
 static
-uint32_t
+PRUint32
 WpsGetDefaultHandler
 (
 const
@@ -6117,11 +6117,11 @@ rwsSvc
 )
 sUseRws
 =
-false
+PR_FALSE
 ;
 else
 {
-uint32_t
+PRUint32
 handle
 ;
 if
@@ -6214,7 +6214,7 @@ exists
 nsAutoString
 ustr
 ;
-uint32_t
+PRUint32
 handle
 =
 WpsGetDefaultHandler
@@ -6245,10 +6245,10 @@ if
 exists
 )
 {
-nsAutoCString
+nsCAutoString
 extLower
 ;
-nsAutoCString
+nsCAutoString
 cstr
 ;
 ToLowerCase
@@ -6322,7 +6322,7 @@ IsEmpty
 )
 )
 {
-nsAutoCString
+nsCAutoString
 extUpper
 ;
 ToUpperCase
@@ -6474,7 +6474,7 @@ nsMIMEInfoOS2
 _retval
 )
 ;
-nsAutoCString
+nsCAutoString
 ext
 ;
 if
@@ -6669,7 +6669,7 @@ EmptyString
 ;
 gotPromoted
 =
-true
+PR_TRUE
 ;
 }
 nsAutoString
@@ -6714,7 +6714,7 @@ handlerApp
 ;
 gotPromoted
 =
-true
+PR_TRUE
 ;
 }
 if
@@ -6769,7 +6769,7 @@ useHelperApp
 ;
 }
 }
-uint32_t
+PRUint32
 handle
 =
 WpsGetDefaultHandler
@@ -6835,7 +6835,7 @@ aFound
 *
 aFound
 =
-true
+PR_TRUE
 ;
 nsMIMEInfoOS2
 *
@@ -6952,7 +6952,7 @@ retval
 *
 aFound
 =
-false
+PR_FALSE
 ;
 retval
 =
@@ -7154,7 +7154,7 @@ _retval
 nsresult
 rv
 ;
-nsAutoCString
+nsCAutoString
 branchName
 =
 NS_LITERAL_CSTRING
@@ -7167,10 +7167,10 @@ applications
 +
 aScheme
 ;
-nsAutoCString
+nsCAutoString
 applicationName
 ;
-nsAutoCString
+nsCAutoString
 prefName
 =
 branchName
@@ -7268,7 +7268,7 @@ prefString
 }
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 application
 ;
@@ -7284,7 +7284,7 @@ get
 (
 )
 )
-false
+PR_FALSE
 getter_AddRefs
 (
 application

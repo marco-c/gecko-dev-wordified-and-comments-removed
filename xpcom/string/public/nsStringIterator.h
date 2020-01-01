@@ -764,7 +764,7 @@ const
 value_type
 *
 s
-uint32_t
+PRUint32
 n
 )
 {

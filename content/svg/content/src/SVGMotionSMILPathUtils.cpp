@@ -40,13 +40,6 @@ nsContentUtils
 .
 h
 "
-#
-include
-"
-nsSVGUtils
-.
-h
-"
 namespace
 mozilla
 {
@@ -80,7 +73,7 @@ commands
 ;
 mHaveReceivedCommands
 =
-true
+PR_TRUE
 ;
 mGfxContext
 .
@@ -128,7 +121,7 @@ commands
 ;
 mHaveReceivedCommands
 =
-true
+PR_TRUE
 ;
 float
 xVal
@@ -146,7 +139,7 @@ yVal
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 mGfxContext
@@ -161,7 +154,7 @@ yVal
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -184,7 +177,7 @@ aSegmentDistance
 {
 mHaveReceivedCommands
 =
-true
+PR_TRUE
 ;
 float
 xVal
@@ -202,7 +195,7 @@ yVal
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 gfxPoint
@@ -242,7 +235,7 @@ yVal
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -265,7 +258,7 @@ aSegmentDistance
 {
 mHaveReceivedCommands
 =
-true
+PR_TRUE
 ;
 float
 xVal
@@ -283,7 +276,7 @@ yVal
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 mGfxContext
@@ -312,7 +305,7 @@ yVal
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 already_AddRefed
@@ -401,7 +394,7 @@ nextToken
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -428,7 +421,7 @@ nextToken
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -448,7 +441,7 @@ hasMoreTokens
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 float
@@ -483,7 +476,7 @@ NS_ENSURE_FINITE2
 (
 xRes
 yRes
-false
+PR_FALSE
 )
 ;
 aXVal
@@ -495,7 +488,7 @@ aYVal
 yRes
 ;
 return
-true
+PR_TRUE
 ;
 }
 nsresult

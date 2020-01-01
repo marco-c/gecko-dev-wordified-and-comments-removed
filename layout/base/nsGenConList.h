@@ -53,7 +53,7 @@ nsIFrame
 mPseudoFrame
 ;
 const
-int32_t
+PRInt32
 mContentIndex
 ;
 nsCOMPtr
@@ -64,13 +64,13 @@ mText
 ;
 nsGenConNode
 (
-int32_t
+PRInt32
 aContentIndex
 )
 :
 mPseudoFrame
 (
-nullptr
+nsnull
 )
 mContentIndex
 (
@@ -102,7 +102,7 @@ CheckFrameAssertions
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 virtual
@@ -123,7 +123,7 @@ NS_ASSERTION
 (
 mContentIndex
 <
-int32_t
+PRInt32
 (
 mPseudoFrame
 -
@@ -242,7 +242,7 @@ nsGenConNode
 *
 mFirstNode
 ;
-uint32_t
+PRUint32
 mSize
 ;
 public
@@ -253,7 +253,7 @@ nsGenConList
 :
 mFirstNode
 (
-nullptr
+nsnull
 )
 mSize
 (

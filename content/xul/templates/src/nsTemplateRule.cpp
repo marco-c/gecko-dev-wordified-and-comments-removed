@@ -79,7 +79,7 @@ aNegate
 )
 mNext
 (
-nullptr
+nsnull
 )
 {
 SetRelation
@@ -131,7 +131,7 @@ aNegate
 )
 mNext
 (
-nullptr
+nsnull
 )
 {
 SetRelation
@@ -144,7 +144,7 @@ if
 aIsMultiple
 )
 {
-int32_t
+PRInt32
 start
 =
 0
@@ -204,7 +204,7 @@ if
 (
 start
 <
-int32_t
+PRInt32
 (
 aTargets
 .
@@ -283,7 +283,7 @@ aNegate
 )
 mNext
 (
-nullptr
+nsnull
 )
 {
 SetRelation
@@ -517,7 +517,7 @@ rightString
 }
 else
 {
-uint32_t
+PRUint32
 length
 =
 mTargetList
@@ -528,7 +528,7 @@ Length
 ;
 for
 (
-uint32_t
+PRUint32
 t
 =
 0
@@ -616,7 +616,7 @@ IsEmpty
 )
 match
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -664,10 +664,10 @@ case
 eGreater
 :
 {
-nsresult
+PRInt32
 err
 ;
-int32_t
+PRInt32
 leftint
 =
 PromiseFlatString
@@ -689,7 +689,7 @@ err
 )
 )
 {
-int32_t
+PRInt32
 rightint
 =
 PromiseFlatString
@@ -757,7 +757,7 @@ if
 collation
 )
 {
-int32_t
+PRInt32
 sortOrder
 ;
 collation
@@ -770,7 +770,7 @@ mIgnoreCase
 ?
 static_cast
 <
-int32_t
+PRInt32
 >
 (
 nsICollation
@@ -781,7 +781,7 @@ kCollationCaseInSensitive
 :
 static_cast
 <
-int32_t
+PRInt32
 >
 (
 nsICollation
@@ -865,7 +865,7 @@ if
 collation
 )
 {
-int32_t
+PRInt32
 sortOrder
 ;
 collation
@@ -878,7 +878,7 @@ mIgnoreCase
 ?
 static_cast
 <
-int32_t
+PRInt32
 >
 (
 nsICollation
@@ -889,7 +889,7 @@ kCollationCaseInSensitive
 :
 static_cast
 <
-int32_t
+PRInt32
 >
 (
 nsICollation
@@ -1115,11 +1115,11 @@ aAction
 )
 mBindings
 (
-nullptr
+nsnull
 )
 mConditions
 (
-nullptr
+nsnull
 )
 {
 MOZ_COUNT_CTOR
@@ -1166,11 +1166,11 @@ mAction
 )
 mBindings
 (
-nullptr
+nsnull
 )
 mConditions
 (
-nullptr
+nsnull
 )
 {
 MOZ_COUNT_CTOR
@@ -1342,7 +1342,7 @@ aResult
 )
 )
 return
-false
+PR_FALSE
 ;
 condition
 =
@@ -1387,7 +1387,7 @@ match
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -1419,7 +1419,7 @@ mBindings
 binding
 !
 =
-nullptr
+nsnull
 ;
 binding
 =
@@ -1466,11 +1466,11 @@ aTargetVariable
 )
 )
 return
-true
+PR_TRUE
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 nsresult
@@ -1584,7 +1584,7 @@ newbinding
 >
 mParent
 =
-nullptr
+nsnull
 ;
 newbinding
 -

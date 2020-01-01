@@ -69,7 +69,7 @@ gfxWindowsSurface
 (
 HWND
 wnd
-uint32_t
+PRUint32
 flags
 =
 0
@@ -79,7 +79,7 @@ gfxWindowsSurface
 (
 HDC
 dc
-uint32_t
+PRUint32
 flags
 =
 0
@@ -136,7 +136,7 @@ aSize
 void
 InitWithDC
 (
-uint32_t
+PRUint32
 flags
 )
 ;
@@ -220,15 +220,8 @@ EndPage
 )
 ;
 virtual
-int32_t
+PRInt32
 GetDefaultContextFlags
-(
-)
-const
-;
-const
-gfxIntSize
-GetSize
 (
 )
 const

@@ -43,14 +43,7 @@ h
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
-nsError
+nsIDOMClassInfo
 .
 h
 "
@@ -97,13 +90,6 @@ mozilla
 dom
 /
 Element
-.
-h
-"
-#
-include
-"
-nsServiceManagerUtils
 .
 h
 "
@@ -181,7 +167,7 @@ aAllocator
 nsIContent
 *
 aContent
-int32_t
+PRInt32
 aParentIndex
 )
 {
@@ -214,7 +200,7 @@ aContent
 aParentIndex
 )
 :
-nullptr
+nsnull
 ;
 }
 static
@@ -255,7 +241,7 @@ Row
 nsIContent
 *
 aContent
-int32_t
+PRInt32
 aParentIndex
 )
 :
@@ -427,10 +413,10 @@ nsIContent
 *
 mContent
 ;
-int32_t
+PRInt32
 mParentIndex
 ;
-int32_t
+PRInt32
 mSubtreeSize
 ;
 private
@@ -460,7 +446,7 @@ size_t
 )
 {
 }
-int8_t
+PRInt8
 mFlags
 ;
 }
@@ -475,19 +461,19 @@ void
 :
 mBoxObject
 (
-nullptr
+nsnull
 )
 mSelection
 (
-nullptr
+nsnull
 )
 mRoot
 (
-nullptr
+nsnull
 )
 mDocument
 (
-nullptr
+nsnull
 )
 {
 static
@@ -506,7 +492,7 @@ Row
 ;
 static
 const
-int32_t
+PRInt32
 kNumBuckets
 =
 sizeof
@@ -521,7 +507,7 @@ size_t
 ;
 static
 const
-int32_t
+PRInt32
 kInitialSize
 =
 16
@@ -652,7 +638,7 @@ nsTreeContentView
 :
 GetRowCount
 (
-int32_t
+PRInt32
 *
 aRowCount
 )
@@ -715,7 +701,7 @@ IsCallerTrustedForWrite
 )
 )
 return
-true
+PR_TRUE
 ;
 nsCOMPtr
 <
@@ -781,7 +767,7 @@ nsTreeContentView
 :
 GetRowProperties
 (
-int32_t
+PRInt32
 aIndex
 nsISupportsArray
 *
@@ -803,7 +789,7 @@ aIndex
 &
 aIndex
 <
-int32_t
+PRInt32
 (
 mRows
 .
@@ -827,7 +813,7 @@ aIndex
 aIndex
 >
 =
-int32_t
+PRInt32
 (
 mRows
 .
@@ -936,7 +922,7 @@ nsTreeContentView
 :
 GetCellProperties
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -966,7 +952,7 @@ aRow
 &
 aRow
 <
-int32_t
+PRInt32
 (
 mRows
 .
@@ -990,7 +976,7 @@ aRow
 aRow
 >
 =
-int32_t
+PRInt32
 (
 mRows
 .
@@ -1176,7 +1162,7 @@ nsTreeContentView
 :
 IsContainer
 (
-int32_t
+PRInt32
 aIndex
 bool
 *
@@ -1193,7 +1179,7 @@ aIndex
 &
 aIndex
 <
-int32_t
+PRInt32
 (
 mRows
 .
@@ -1217,7 +1203,7 @@ aIndex
 aIndex
 >
 =
-int32_t
+PRInt32
 (
 mRows
 .
@@ -1252,7 +1238,7 @@ nsTreeContentView
 :
 IsContainerOpen
 (
-int32_t
+PRInt32
 aIndex
 bool
 *
@@ -1269,7 +1255,7 @@ aIndex
 &
 aIndex
 <
-int32_t
+PRInt32
 (
 mRows
 .
@@ -1293,7 +1279,7 @@ aIndex
 aIndex
 >
 =
-int32_t
+PRInt32
 (
 mRows
 .
@@ -1328,7 +1314,7 @@ nsTreeContentView
 :
 IsContainerEmpty
 (
-int32_t
+PRInt32
 aIndex
 bool
 *
@@ -1345,7 +1331,7 @@ aIndex
 &
 aIndex
 <
-int32_t
+PRInt32
 (
 mRows
 .
@@ -1369,7 +1355,7 @@ aIndex
 aIndex
 >
 =
-int32_t
+PRInt32
 (
 mRows
 .
@@ -1404,7 +1390,7 @@ nsTreeContentView
 :
 IsSeparator
 (
-int32_t
+PRInt32
 aIndex
 bool
 *
@@ -1421,7 +1407,7 @@ aIndex
 &
 aIndex
 <
-int32_t
+PRInt32
 (
 mRows
 .
@@ -1445,7 +1431,7 @@ aIndex
 aIndex
 >
 =
-int32_t
+PRInt32
 (
 mRows
 .
@@ -1488,7 +1474,7 @@ _retval
 *
 _retval
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -1500,9 +1486,9 @@ nsTreeContentView
 :
 CanDrop
 (
-int32_t
+PRInt32
 aIndex
-int32_t
+PRInt32
 aOrientation
 nsIDOMDataTransfer
 *
@@ -1522,7 +1508,7 @@ aIndex
 &
 aIndex
 <
-int32_t
+PRInt32
 (
 mRows
 .
@@ -1546,7 +1532,7 @@ aIndex
 aIndex
 >
 =
-int32_t
+PRInt32
 (
 mRows
 .
@@ -1561,7 +1547,7 @@ NS_ERROR_INVALID_ARG
 *
 _retval
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -1573,9 +1559,9 @@ nsTreeContentView
 :
 Drop
 (
-int32_t
+PRInt32
 aRow
-int32_t
+PRInt32
 aOrientation
 nsIDOMDataTransfer
 *
@@ -1592,7 +1578,7 @@ aRow
 &
 aRow
 <
-int32_t
+PRInt32
 (
 mRows
 .
@@ -1616,7 +1602,7 @@ aRow
 aRow
 >
 =
-int32_t
+PRInt32
 (
 mRows
 .
@@ -1638,9 +1624,9 @@ nsTreeContentView
 :
 GetParentIndex
 (
-int32_t
+PRInt32
 aRowIndex
-int32_t
+PRInt32
 *
 _retval
 )
@@ -1655,7 +1641,7 @@ aRowIndex
 &
 aRowIndex
 <
-int32_t
+PRInt32
 (
 mRows
 .
@@ -1680,7 +1666,7 @@ aRowIndex
 aRowIndex
 >
 =
-int32_t
+PRInt32
 (
 mRows
 .
@@ -1713,9 +1699,9 @@ nsTreeContentView
 :
 HasNextSibling
 (
-int32_t
+PRInt32
 aRowIndex
-int32_t
+PRInt32
 aAfterIndex
 bool
 *
@@ -1732,7 +1718,7 @@ aRowIndex
 &
 aRowIndex
 <
-int32_t
+PRInt32
 (
 mRows
 .
@@ -1757,7 +1743,7 @@ aRowIndex
 aRowIndex
 >
 =
-int32_t
+PRInt32
 (
 mRows
 .
@@ -1769,7 +1755,7 @@ Length
 return
 NS_ERROR_INVALID_ARG
 ;
-int32_t
+PRInt32
 parentIndex
 =
 mRows
@@ -1788,7 +1774,7 @@ parentIndex
 0
 )
 {
-int32_t
+PRInt32
 lastIndex
 =
 parentIndex
@@ -1851,7 +1837,7 @@ else
 *
 _retval
 =
-uint32_t
+PRUint32
 (
 aRowIndex
 )
@@ -1875,9 +1861,9 @@ nsTreeContentView
 :
 GetLevel
 (
-int32_t
+PRInt32
 aIndex
-int32_t
+PRInt32
 *
 _retval
 )
@@ -1892,7 +1878,7 @@ aIndex
 &
 aIndex
 <
-int32_t
+PRInt32
 (
 mRows
 .
@@ -1916,7 +1902,7 @@ aIndex
 aIndex
 >
 =
-int32_t
+PRInt32
 (
 mRows
 .
@@ -1928,7 +1914,7 @@ Length
 return
 NS_ERROR_INVALID_ARG
 ;
-int32_t
+PRInt32
 level
 =
 0
@@ -1983,7 +1969,7 @@ nsTreeContentView
 :
 GetImageSrc
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -2014,7 +2000,7 @@ aRow
 &
 aRow
 <
-int32_t
+PRInt32
 (
 mRows
 .
@@ -2038,7 +2024,7 @@ aRow
 aRow
 >
 =
-int32_t
+PRInt32
 (
 mRows
 .
@@ -2121,12 +2107,12 @@ nsTreeContentView
 :
 GetProgressMode
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
 aCol
-int32_t
+PRInt32
 *
 _retval
 )
@@ -2146,7 +2132,7 @@ aRow
 &
 aRow
 <
-int32_t
+PRInt32
 (
 mRows
 .
@@ -2170,7 +2156,7 @@ aRow
 aRow
 >
 =
-int32_t
+PRInt32
 (
 mRows
 .
@@ -2258,7 +2244,7 @@ nsGkAtoms
 :
 :
 undetermined
-nullptr
+nsnull
 }
 ;
 switch
@@ -2317,7 +2303,7 @@ nsTreeContentView
 :
 GetCellValue
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -2348,7 +2334,7 @@ aRow
 &
 aRow
 <
-int32_t
+PRInt32
 (
 mRows
 .
@@ -2372,7 +2358,7 @@ aRow
 aRow
 >
 =
-int32_t
+PRInt32
 (
 mRows
 .
@@ -2455,7 +2441,7 @@ nsTreeContentView
 :
 GetCellText
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -2486,7 +2472,7 @@ aRow
 &
 aRow
 <
-int32_t
+PRInt32
 (
 mRows
 .
@@ -2519,7 +2505,7 @@ aRow
 aRow
 >
 =
-int32_t
+PRInt32
 (
 mRows
 .
@@ -2792,7 +2778,7 @@ do_QueryInterface
 bodyElement
 )
 ;
-int32_t
+PRInt32
 index
 =
 0
@@ -2819,7 +2805,7 @@ nsTreeContentView
 :
 ToggleOpenState
 (
-int32_t
+PRInt32
 aIndex
 )
 {
@@ -2833,7 +2819,7 @@ aIndex
 &
 aIndex
 <
-int32_t
+PRInt32
 (
 mRows
 .
@@ -2857,7 +2843,7 @@ aIndex
 aIndex
 >
 =
-int32_t
+PRInt32
 (
 mRows
 .
@@ -2906,7 +2892,7 @@ NS_LITERAL_STRING
 false
 "
 )
-true
+PR_TRUE
 )
 ;
 else
@@ -2929,7 +2915,7 @@ NS_LITERAL_STRING
 true
 "
 )
-true
+PR_TRUE
 )
 ;
 return
@@ -3072,7 +3058,7 @@ nsGkAtoms
 :
 :
 descending
-nullptr
+nsnull
 }
 ;
 switch
@@ -3209,7 +3195,7 @@ nsTreeContentView
 :
 CycleCell
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -3226,7 +3212,7 @@ nsTreeContentView
 :
 IsEditable
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -3239,7 +3225,7 @@ _retval
 *
 _retval
 =
-false
+PR_FALSE
 ;
 NS_ENSURE_NATIVE_COLUMN
 (
@@ -3256,7 +3242,7 @@ aRow
 &
 aRow
 <
-int32_t
+PRInt32
 (
 mRows
 .
@@ -3280,7 +3266,7 @@ aRow
 aRow
 >
 =
-int32_t
+PRInt32
 (
 mRows
 .
@@ -3295,7 +3281,7 @@ NS_ERROR_INVALID_ARG
 *
 _retval
 =
-true
+PR_TRUE
 ;
 Row
 *
@@ -3366,7 +3352,7 @@ eCaseMatters
 *
 _retval
 =
-false
+PR_FALSE
 ;
 }
 }
@@ -3380,7 +3366,7 @@ nsTreeContentView
 :
 IsSelectable
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -3405,7 +3391,7 @@ aRow
 &
 aRow
 <
-int32_t
+PRInt32
 (
 mRows
 .
@@ -3429,7 +3415,7 @@ aRow
 aRow
 >
 =
-int32_t
+PRInt32
 (
 mRows
 .
@@ -3444,7 +3430,7 @@ NS_ERROR_INVALID_ARG
 *
 _retval
 =
-true
+PR_TRUE
 ;
 Row
 *
@@ -3515,7 +3501,7 @@ eCaseMatters
 *
 _retval
 =
-false
+PR_FALSE
 ;
 }
 }
@@ -3529,7 +3515,7 @@ nsTreeContentView
 :
 SetCellValue
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -3555,7 +3541,7 @@ aRow
 &
 aRow
 <
-int32_t
+PRInt32
 (
 mRows
 .
@@ -3579,7 +3565,7 @@ aRow
 aRow
 >
 =
-int32_t
+PRInt32
 (
 mRows
 .
@@ -3649,7 +3635,7 @@ nsGkAtoms
 :
 value
 aValue
-true
+PR_TRUE
 )
 ;
 }
@@ -3663,7 +3649,7 @@ nsTreeContentView
 :
 SetCellText
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -3689,7 +3675,7 @@ aRow
 &
 aRow
 <
-int32_t
+PRInt32
 (
 mRows
 .
@@ -3713,7 +3699,7 @@ aRow
 aRow
 >
 =
-int32_t
+PRInt32
 (
 mRows
 .
@@ -3783,7 +3769,7 @@ nsGkAtoms
 :
 label
 aValue
-true
+PR_TRUE
 )
 ;
 }
@@ -3817,7 +3803,7 @@ const
 PRUnichar
 *
 aAction
-int32_t
+PRInt32
 aRow
 )
 {
@@ -3835,7 +3821,7 @@ const
 PRUnichar
 *
 aAction
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -3852,7 +3838,7 @@ nsTreeContentView
 :
 GetItemAtIndex
 (
-int32_t
+PRInt32
 aIndex
 nsIDOMElement
 *
@@ -3870,7 +3856,7 @@ aIndex
 &
 aIndex
 <
-int32_t
+PRInt32
 (
 mRows
 .
@@ -3894,7 +3880,7 @@ aIndex
 aIndex
 >
 =
-int32_t
+PRInt32
 (
 mRows
 .
@@ -3948,7 +3934,7 @@ GetIndexOfItem
 nsIDOMElement
 *
 aItem
-int32_t
+PRInt32
 *
 _retval
 )
@@ -3991,12 +3977,12 @@ dom
 Element
 *
 aElement
-int32_t
+PRInt32
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-int32_t
+PRInt32
 aModType
 )
 {
@@ -4058,7 +4044,7 @@ nsIContent
 *
 parent
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -4260,7 +4246,7 @@ _true
 eCaseMatters
 )
 ;
-int32_t
+PRInt32
 index
 =
 FindContent
@@ -4279,7 +4265,7 @@ index
 0
 )
 {
-int32_t
+PRInt32
 count
 =
 RemoveRow
@@ -4445,7 +4431,7 @@ nsGkAtoms
 treeitem
 )
 {
-int32_t
+PRInt32
 index
 =
 FindContent
@@ -4659,7 +4645,7 @@ nsGkAtoms
 treeseparator
 )
 {
-int32_t
+PRInt32
 index
 =
 FindContent
@@ -4741,7 +4727,7 @@ if
 parent
 )
 {
-int32_t
+PRInt32
 index
 =
 FindContent
@@ -4882,7 +4868,7 @@ IsXUL
 )
 )
 {
-int32_t
+PRInt32
 index
 =
 FindContent
@@ -4930,7 +4916,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-int32_t
+PRInt32
 )
 {
 for
@@ -4978,7 +4964,7 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
+PRInt32
 )
 {
 NS_ASSERTION
@@ -5154,7 +5140,7 @@ nsGkAtoms
 treechildren
 )
 {
-int32_t
+PRInt32
 index
 =
 FindContent
@@ -5184,7 +5170,7 @@ row
 >
 SetEmpty
 (
-false
+PR_FALSE
 )
 ;
 if
@@ -5217,7 +5203,7 @@ IsOpen
 )
 )
 {
-int32_t
+PRInt32
 count
 =
 EnsureSubtree
@@ -5283,7 +5269,7 @@ nsGkAtoms
 treerow
 )
 {
-int32_t
+PRInt32
 index
 =
 FindContent
@@ -5340,7 +5326,7 @@ if
 parent
 )
 {
-int32_t
+PRInt32
 index
 =
 FindContent
@@ -5384,7 +5370,7 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
+PRInt32
 aIndexInContainer
 nsIContent
 *
@@ -5564,7 +5550,7 @@ nsGkAtoms
 treechildren
 )
 {
-int32_t
+PRInt32
 index
 =
 FindContent
@@ -5594,10 +5580,10 @@ row
 >
 SetEmpty
 (
-true
+PR_TRUE
 )
 ;
-int32_t
+PRInt32
 count
 =
 RemoveSubtree
@@ -5654,7 +5640,7 @@ nsGkAtoms
 treeseparator
 )
 {
-int32_t
+PRInt32
 index
 =
 FindContent
@@ -5670,7 +5656,7 @@ index
 0
 )
 {
-int32_t
+PRInt32
 count
 =
 RemoveRow
@@ -5706,7 +5692,7 @@ nsGkAtoms
 treerow
 )
 {
-int32_t
+PRInt32
 index
 =
 FindContent
@@ -5763,7 +5749,7 @@ if
 parent
 )
 {
-int32_t
+PRInt32
 index
 =
 FindContent
@@ -5827,9 +5813,9 @@ Serialize
 nsIContent
 *
 aContent
-int32_t
+PRInt32
 aParentIndex
-int32_t
+PRInt32
 *
 aIndex
 nsTArray
@@ -5899,7 +5885,7 @@ Tag
 (
 )
 ;
-int32_t
+PRInt32
 count
 =
 aRows
@@ -5979,9 +5965,9 @@ SerializeItem
 nsIContent
 *
 aContent
-int32_t
+PRInt32
 aParentIndex
-int32_t
+PRInt32
 *
 aIndex
 nsTArray
@@ -6060,7 +6046,7 @@ row
 >
 SetContainer
 (
-true
+PR_TRUE
 )
 ;
 if
@@ -6088,7 +6074,7 @@ row
 >
 SetOpen
 (
-true
+PR_TRUE
 )
 ;
 nsIContent
@@ -6120,7 +6106,7 @@ IsXUL
 )
 )
 {
-int32_t
+PRInt32
 count
 =
 aRows
@@ -6129,7 +6115,7 @@ Length
 (
 )
 ;
-int32_t
+PRInt32
 index
 =
 0
@@ -6169,7 +6155,7 @@ row
 >
 SetEmpty
 (
-true
+PR_TRUE
 )
 ;
 }
@@ -6199,7 +6185,7 @@ row
 >
 SetEmpty
 (
-true
+PR_TRUE
 )
 ;
 }
@@ -6214,9 +6200,9 @@ SerializeSeparator
 nsIContent
 *
 aContent
-int32_t
+PRInt32
 aParentIndex
-int32_t
+PRInt32
 *
 aIndex
 nsTArray
@@ -6268,7 +6254,7 @@ row
 >
 SetSeparator
 (
-true
+PR_TRUE
 )
 ;
 aRows
@@ -6291,12 +6277,12 @@ aContainer
 nsIContent
 *
 aContent
-int32_t
+PRInt32
 *
 aIndex
 )
 {
-uint32_t
+PRUint32
 childCount
 =
 aContainer
@@ -6320,7 +6306,7 @@ return
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -6534,13 +6520,13 @@ aIndex
 }
 }
 }
-int32_t
+PRInt32
 nsTreeContentView
 :
 :
 EnsureSubtree
 (
-int32_t
+PRInt32
 aIndex
 )
 {
@@ -6601,7 +6587,7 @@ Row
 >
 rows
 ;
-int32_t
+PRInt32
 index
 =
 0
@@ -6625,7 +6611,7 @@ aIndex
 rows
 )
 ;
-int32_t
+PRInt32
 count
 =
 rows
@@ -6664,13 +6650,13 @@ return
 count
 ;
 }
-int32_t
+PRInt32
 nsTreeContentView
 :
 :
 RemoveSubtree
 (
-int32_t
+PRInt32
 aIndex
 )
 {
@@ -6683,7 +6669,7 @@ mRows
 aIndex
 ]
 ;
-int32_t
+PRInt32
 count
 =
 row
@@ -6693,7 +6679,7 @@ mSubtreeSize
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -6784,7 +6770,7 @@ nsIContent
 aChild
 )
 {
-int32_t
+PRInt32
 grandParentIndex
 =
 -
@@ -6840,7 +6826,7 @@ tree
 {
 insertRow
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -6874,7 +6860,7 @@ IsOpen
 )
 insertRow
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -6883,7 +6869,7 @@ if
 insertRow
 )
 {
-int32_t
+PRInt32
 index
 =
 0
@@ -6896,7 +6882,7 @@ aChild
 index
 )
 ;
-int32_t
+PRInt32
 count
 =
 InsertRow
@@ -6925,15 +6911,15 @@ count
 ;
 }
 }
-int32_t
+PRInt32
 nsTreeContentView
 :
 :
 InsertRow
 (
-int32_t
+PRInt32
 aParentIndex
-int32_t
+PRInt32
 aIndex
 nsIContent
 *
@@ -7021,7 +7007,7 @@ aIndex
 rows
 )
 ;
-int32_t
+PRInt32
 count
 =
 rows
@@ -7051,13 +7037,13 @@ return
 count
 ;
 }
-int32_t
+PRInt32
 nsTreeContentView
 :
 :
 RemoveRow
 (
-int32_t
+PRInt32
 aIndex
 )
 {
@@ -7070,7 +7056,7 @@ mRows
 aIndex
 ]
 ;
-int32_t
+PRInt32
 count
 =
 row
@@ -7080,7 +7066,7 @@ mSubtreeSize
 +
 1
 ;
-int32_t
+PRInt32
 parentIndex
 =
 row
@@ -7099,7 +7085,7 @@ row
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 1
@@ -7171,7 +7157,7 @@ ClearRows
 {
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -7208,11 +7194,11 @@ Clear
 ;
 mRoot
 =
-nullptr
+nsnull
 ;
 mBody
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -7229,7 +7215,7 @@ this
 ;
 mDocument
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -7239,7 +7225,7 @@ nsTreeContentView
 :
 OpenContainer
 (
-int32_t
+PRInt32
 aIndex
 )
 {
@@ -7257,10 +7243,10 @@ row
 >
 SetOpen
 (
-true
+PR_TRUE
 )
 ;
-int32_t
+PRInt32
 count
 =
 EnsureSubtree
@@ -7300,7 +7286,7 @@ nsTreeContentView
 :
 CloseContainer
 (
-int32_t
+PRInt32
 aIndex
 )
 {
@@ -7318,10 +7304,10 @@ row
 >
 SetOpen
 (
-false
+PR_FALSE
 )
 ;
-int32_t
+PRInt32
 count
 =
 RemoveSubtree
@@ -7356,7 +7342,7 @@ count
 ;
 }
 }
-int32_t
+PRInt32
 nsTreeContentView
 :
 :
@@ -7369,7 +7355,7 @@ aContent
 {
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -7417,9 +7403,9 @@ nsTreeContentView
 :
 UpdateSubtreeSizes
 (
-int32_t
+PRInt32
 aParentIndex
-int32_t
+PRInt32
 count
 )
 {
@@ -7463,15 +7449,15 @@ nsTreeContentView
 :
 UpdateParentIndexes
 (
-int32_t
+PRInt32
 aIndex
-int32_t
+PRInt32
 aSkip
-int32_t
+PRInt32
 aCount
 )
 {
-int32_t
+PRInt32
 count
 =
 mRows
@@ -7482,7 +7468,7 @@ Length
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 aIndex
@@ -7549,7 +7535,7 @@ nsIAtom
 >
 colAtom
 ;
-int32_t
+PRInt32
 colIndex
 ;
 aCol
@@ -7576,9 +7562,9 @@ nsIContent
 *
 result
 =
-nullptr
+nsnull
 ;
-int32_t
+PRInt32
 j
 =
 0

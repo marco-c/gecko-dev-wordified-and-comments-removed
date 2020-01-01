@@ -135,7 +135,7 @@ OTHER_EXPR
 ;
 }
 typedef
-uint16_t
+PRUint16
 ResultType
 ;
 enum
@@ -189,7 +189,7 @@ aType
 ;
 }
 typedef
-uint16_t
+PRUint16
 ContextSensitivity
 ;
 enum
@@ -237,7 +237,7 @@ Expr
 *
 getSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 )
 =
@@ -247,7 +247,7 @@ virtual
 void
 setSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 Expr
 *
@@ -378,7 +378,7 @@ Expr
 *
 getSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 )
 ;
@@ -386,7 +386,7 @@ aPos
 void
 setSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 Expr
 *
@@ -460,14 +460,14 @@ _class
 :
 getSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 )
 \
 {
 \
 return
-nullptr
+nsnull
 ;
 \
 }
@@ -479,7 +479,7 @@ _class
 :
 setSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 Expr
 *
@@ -523,7 +523,7 @@ _class
 :
 getSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 )
 \
@@ -545,7 +545,7 @@ _Expr1
 }
 \
 return
-nullptr
+nsnull
 ;
 \
 }
@@ -557,7 +557,7 @@ _class
 :
 setSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 Expr
 *
@@ -617,7 +617,7 @@ _class
 :
 getSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 )
 \
@@ -654,7 +654,7 @@ break
 }
 \
 return
-nullptr
+nsnull
 ;
 \
 }
@@ -666,7 +666,7 @@ _class
 :
 setSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 Expr
 *
@@ -753,7 +753,7 @@ _class
 :
 getSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 )
 \
@@ -777,7 +777,7 @@ _class
 :
 setSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 Expr
 *
@@ -847,9 +847,9 @@ virtual
 bool
 requireParams
 (
-int32_t
+PRInt32
 aParamCountMin
-int32_t
+PRInt32
 aParamCountMax
 txIEvalContext
 *
@@ -861,14 +861,14 @@ Expr
 *
 getSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 )
 ;
 void
 setSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 Expr
 *
@@ -1164,9 +1164,9 @@ aPrefix
 nsIAtom
 *
 aLocalName
-int32_t
+PRInt32
 aNSID
-uint16_t
+PRUint16
 aNodeType
 )
 ;
@@ -1188,12 +1188,12 @@ nsIAtom
 >
 mLocalName
 ;
-int32_t
+PRInt32
 mNamespace
 ;
 private
 :
-uint16_t
+PRUint16
 mNodeType
 ;
 }
@@ -1408,7 +1408,7 @@ Expr
 *
 getSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 )
 {
@@ -1424,7 +1424,7 @@ aPos
 void
 setSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 Expr
 *
@@ -1661,7 +1661,7 @@ new
 NumberResult
 (
 aDbl
-nullptr
+nsnull
 )
 )
 {
@@ -1680,7 +1680,7 @@ new
 StringResult
 (
 aStr
-nullptr
+nsnull
 )
 )
 {
@@ -1953,7 +1953,7 @@ aPrefix
 nsIAtom
 *
 aLocalName
-int32_t
+PRInt32
 aNSID
 )
 ;
@@ -1972,7 +1972,7 @@ nsIAtom
 >
 mLocalName
 ;
-int32_t
+PRInt32
 mNamespace
 ;
 }
@@ -2005,7 +2005,7 @@ pathOp
 void
 deleteExprAt
 (
-uint32_t
+PRUint32
 aPos
 )
 {
@@ -2038,7 +2038,7 @@ TX_DECL_OPTIMIZABLE_EXPR
 PathOperator
 getPathOpAt
 (
-uint32_t
+PRUint32
 aPos
 )
 {
@@ -2071,7 +2071,7 @@ pathOp
 void
 setPathOpAt
 (
-uint32_t
+PRUint32
 aPos
 PathOperator
 aPathOp
@@ -2165,7 +2165,7 @@ TX_TO_STRING
 :
 mSerialize
 (
-true
+PR_TRUE
 )
 #
 endif
@@ -2230,7 +2230,7 @@ NS_ERROR_OUT_OF_MEMORY
 void
 deleteExprAt
 (
-uint32_t
+PRUint32
 aPos
 )
 {
@@ -2286,7 +2286,7 @@ public
 :
 txNamedAttributeStep
 (
-int32_t
+PRInt32
 aNsID
 nsIAtom
 *
@@ -2299,7 +2299,7 @@ aLocalName
 TX_DECL_EXPR
 private
 :
-int32_t
+PRInt32
 mNamespace
 ;
 nsCOMPtr

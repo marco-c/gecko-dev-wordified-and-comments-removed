@@ -44,9 +44,9 @@ aPrefix
 nsIAtom
 *
 aLocalName
-int32_t
+PRInt32
 aNSID
-uint16_t
+PRUint16
 aNodeType
 )
 :
@@ -213,7 +213,7 @@ aNode
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -231,7 +231,7 @@ _asterix
 mPrefix
 )
 return
-true
+MB_TRUE
 ;
 if
 (
@@ -265,7 +265,7 @@ aNode
 )
 )
 return
-false
+MB_FALSE
 ;
 if
 (
@@ -278,7 +278,7 @@ nsGkAtoms
 _asterix
 )
 return
-true
+MB_TRUE
 ;
 return
 txXPathNodeUtils

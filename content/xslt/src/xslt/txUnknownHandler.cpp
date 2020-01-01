@@ -49,7 +49,7 @@ aEs
 )
 mFlushed
 (
-false
+PR_FALSE
 )
 {
 MOZ_COUNT_CTOR_INHERITED
@@ -89,7 +89,7 @@ aLocalName
 nsIAtom
 *
 aLowercaseLocalName
-int32_t
+PRInt32
 aNsID
 const
 nsString
@@ -142,7 +142,7 @@ nsSubstring
 &
 aLocalName
 const
-int32_t
+PRInt32
 aNsID
 const
 nsString
@@ -308,7 +308,7 @@ rv
 =
 createHandlerAndFlush
 (
-false
+PR_FALSE
 EmptyString
 (
 )
@@ -449,7 +449,7 @@ aLocalName
 nsIAtom
 *
 aLowercaseLocalName
-int32_t
+PRInt32
 aNsID
 )
 {
@@ -582,7 +582,7 @@ nsSubstring
 &
 aLocalName
 const
-int32_t
+PRInt32
 aNsID
 )
 {
@@ -687,7 +687,7 @@ nsSubstring
 &
 aName
 const
-int32_t
+PRInt32
 aNsID
 )
 {
@@ -799,7 +799,7 @@ this
 ;
 mFlushed
 =
-true
+PR_TRUE
 ;
 nsAutoPtr
 <

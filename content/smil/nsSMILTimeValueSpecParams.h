@@ -40,7 +40,7 @@ INDEFINITE
 )
 mSyncBegin
 (
-false
+PR_FALSE
 )
 mRepeatIterationOrAccessKey
 (
@@ -78,7 +78,7 @@ mEventSymbol
 bool
 mSyncBegin
 ;
-uint32_t
+PRUint32
 mRepeatIterationOrAccessKey
 ;
 }

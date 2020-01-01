@@ -78,10 +78,10 @@ nsIX509Cert
 >
 mServerCert
 ;
-uint32_t
+PRUint32
 mKeyLength
 ;
-uint32_t
+PRUint32
 mSecretKeyLength
 ;
 nsXPIDLCString

@@ -1,7 +1,7 @@
 #
 include
 "
-nsError
+txError
 .
 h
 "
@@ -44,7 +44,7 @@ aResult
 *
 aResult
 =
-nullptr
+nsnull
 ;
 nsAutoString
 err
@@ -107,7 +107,7 @@ aContext
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 #

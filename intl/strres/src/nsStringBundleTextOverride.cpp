@@ -53,7 +53,7 @@ URLPropertyElement
 nsIPropertyElement
 *
 aRealElement
-uint32_t
+PRUint32
 aURLLength
 )
 :
@@ -84,7 +84,7 @@ nsIPropertyElement
 >
 mRealElement
 ;
-uint32_t
+PRUint32
 mURLLength
 ;
 }
@@ -392,7 +392,7 @@ bundles
 "
 )
 ;
-nsAutoCString
+nsCAutoString
 customStringsURLSpec
 ;
 rv
@@ -621,7 +621,7 @@ do_QueryInterface
 sup
 )
 ;
-nsAutoCString
+nsCAutoString
 key
 ;
 nsAutoString
@@ -711,7 +711,7 @@ nsAString
 aResult
 )
 {
-nsAutoCString
+nsCAutoString
 combinedURL
 (
 aURL
@@ -861,7 +861,7 @@ aResult
 ;
 mCurrent
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -924,7 +924,7 @@ if
 mCurrent
 )
 {
-nsAutoCString
+nsCAutoString
 curKey
 ;
 mCurrent
@@ -963,16 +963,16 @@ hasMore
 )
 mCurrent
 =
-nullptr
+PR_FALSE
 ;
 *
 aResult
 =
 mCurrent
 ?
-true
+PR_TRUE
 :
-false
+PR_FALSE
 ;
 return
 NS_OK

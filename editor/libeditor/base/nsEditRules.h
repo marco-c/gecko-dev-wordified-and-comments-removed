@@ -24,13 +24,6 @@ NS_IEDITRULES_IID
 0x71
 }
 }
-#
-include
-"
-nsEditor
-.
-h
-"
 class
 nsPlaintextEditor
 ;
@@ -44,7 +37,7 @@ public
 :
 nsRulesInfo
 (
-EditAction
+int
 aAction
 )
 :
@@ -61,7 +54,7 @@ nsRulesInfo
 )
 {
 }
-EditAction
+int
 action
 ;
 }
@@ -98,7 +91,7 @@ DetachEditor
 NS_IMETHOD
 BeforeEdit
 (
-EditAction
+PRInt32
 action
 nsIEditor
 :
@@ -112,7 +105,7 @@ aDirection
 NS_IMETHOD
 AfterEdit
 (
-EditAction
+PRInt32
 action
 nsIEditor
 :
@@ -126,10 +119,7 @@ aDirection
 NS_IMETHOD
 WillDoAction
 (
-mozilla
-:
-:
-Selection
+nsISelection
 *
 aSelection
 nsRulesInfo

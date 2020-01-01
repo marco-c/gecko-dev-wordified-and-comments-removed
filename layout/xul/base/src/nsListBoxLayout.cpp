@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsIFrame
+.
+h
+"
+#
+include
+"
 nsBox
 .
 h
@@ -79,7 +86,7 @@ nsListBoxLayout
 :
 GetPrefSize
 (
-nsIFrame
+nsIBox
 *
 aBox
 nsBoxLayoutState
@@ -262,7 +269,7 @@ nsListBoxLayout
 :
 GetMinSize
 (
-nsIFrame
+nsIBox
 *
 aBox
 nsBoxLayoutState
@@ -445,7 +452,7 @@ nsListBoxLayout
 :
 GetMaxSize
 (
-nsIFrame
+nsIBox
 *
 aBox
 nsBoxLayoutState
@@ -581,7 +588,7 @@ nsListBoxLayout
 :
 Layout
 (
-nsIFrame
+nsIBox
 *
 aBox
 nsBoxLayoutState
@@ -603,7 +610,7 @@ nsListBoxLayout
 :
 LayoutInternal
 (
-nsIFrame
+nsIBox
 *
 aBox
 nsBoxLayoutState
@@ -611,7 +618,7 @@ nsBoxLayoutState
 aState
 )
 {
-int32_t
+PRInt32
 redrawStart
 =
 -
@@ -726,7 +733,7 @@ return
 NS_OK
 ;
 }
-nsIFrame
+nsIBox
 *
 box
 =
@@ -862,7 +869,7 @@ aState
 }
 else
 {
-int32_t
+PRInt32
 newPos
 =
 yOffset

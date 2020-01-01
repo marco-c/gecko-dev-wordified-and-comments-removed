@@ -266,7 +266,7 @@ nsACString
 aPath
 )
 {
-nsAutoCString
+nsCAutoString
 leafName
 ;
 aFile
@@ -392,7 +392,7 @@ fpTime
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -584,7 +584,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsAutoCString
+nsCAutoString
 filePath
 ;
 aFile
@@ -610,7 +610,7 @@ if
 sUseRws
 )
 {
-uint32_t
+PRUint32
 appHandle
 ;
 GetDefaultAppHandle
@@ -652,7 +652,7 @@ rwsSvc
 {
 sUseRws
 =
-false
+PR_FALSE
 ;
 }
 else
@@ -711,7 +711,7 @@ return
 rv
 ;
 }
-nsAutoCString
+nsCAutoString
 appPath
 ;
 if
@@ -830,7 +830,7 @@ rwsSvc
 {
 sUseRws
 =
-false
+PR_FALSE
 ;
 }
 else
@@ -910,7 +910,7 @@ process
 >
 Run
 (
-false
+PR_FALSE
 &
 strPath
 1
@@ -1035,7 +1035,7 @@ nsMIMEInfoOS2
 :
 GetDefaultAppHandle
 (
-uint32_t
+PRUint32
 *
 aHandle
 )
@@ -1077,7 +1077,7 @@ nsMIMEInfoOS2
 :
 SetDefaultAppHandle
 (
-uint32_t
+PRUint32
 aHandle
 )
 {
@@ -1156,7 +1156,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsAutoCString
+nsCAutoString
 urlSpec
 ;
 aURL
@@ -1175,7 +1175,7 @@ SetSpec
 urlSpec
 )
 ;
-nsAutoCString
+nsCAutoString
 uProtocol
 ;
 uri
@@ -1186,7 +1186,7 @@ GetScheme
 uProtocol
 )
 ;
-nsAutoCString
+nsCAutoString
 branchName
 =
 NS_LITERAL_CSTRING
@@ -1199,7 +1199,7 @@ applications
 +
 uProtocol
 ;
-nsAutoCString
+nsCAutoString
 prefName
 =
 branchName
@@ -1221,10 +1221,10 @@ get
 )
 )
 ;
-nsAutoCString
+nsCAutoString
 applicationName
 ;
-nsAutoCString
+nsCAutoString
 parameters
 ;
 if
@@ -1289,7 +1289,7 @@ NS_ERROR_FAILURE
 ;
 }
 }
-nsAutoCString
+nsCAutoString
 uURL
 uUsername
 uPassword
@@ -1297,11 +1297,11 @@ uHost
 uPort
 uPath
 ;
-nsAutoCString
+nsCAutoString
 uEmail
 uGroup
 ;
-int32_t
+PRInt32
 iPort
 ;
 aURL
@@ -1585,7 +1585,7 @@ Append
 prefString
 )
 ;
-int32_t
+PRInt32
 pos
 =
 parameters
@@ -1607,7 +1607,7 @@ pos
 kNotFound
 )
 {
-nsAutoCString
+nsCAutoString
 uURL
 ;
 aURL
@@ -1652,7 +1652,7 @@ uURL
 ;
 replaced
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -2049,7 +2049,7 @@ get
 ;
 #
 endif
-int32_t
+PRInt32
 pos
 ;
 pos
@@ -2075,7 +2075,7 @@ kNotFound
 {
 replaced
 =
-true
+PR_TRUE
 ;
 parameters
 .
@@ -2114,7 +2114,7 @@ kNotFound
 {
 replaced
 =
-true
+PR_TRUE
 ;
 parameters
 .
@@ -2153,7 +2153,7 @@ kNotFound
 {
 replaced
 =
-true
+PR_TRUE
 ;
 parameters
 .
@@ -2192,7 +2192,7 @@ kNotFound
 {
 replaced
 =
-true
+PR_TRUE
 ;
 parameters
 .
@@ -2231,7 +2231,7 @@ kNotFound
 {
 replaced
 =
-true
+PR_TRUE
 ;
 parameters
 .
@@ -2270,7 +2270,7 @@ kNotFound
 {
 replaced
 =
-true
+PR_TRUE
 ;
 parameters
 .
@@ -2309,7 +2309,7 @@ kNotFound
 {
 replaced
 =
-true
+PR_TRUE
 ;
 parameters
 .
@@ -2348,7 +2348,7 @@ kNotFound
 {
 replaced
 =
-true
+PR_TRUE
 ;
 parameters
 .
@@ -2387,7 +2387,7 @@ kNotFound
 {
 replaced
 =
-true
+PR_TRUE
 ;
 parameters
 .
@@ -2468,14 +2468,14 @@ params
 ;
 #
 endif
-int32_t
+PRInt32
 numParams
 =
 1
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 application
 ;
@@ -2491,7 +2491,7 @@ get
 (
 )
 )
-false
+PR_FALSE
 getter_AddRefs
 (
 application
@@ -2551,7 +2551,7 @@ nsDependentCString
 (
 szAppPath
 )
-false
+PR_FALSE
 getter_AddRefs
 (
 application
@@ -2588,7 +2588,7 @@ COMSPEC
 "
 )
 )
-false
+PR_FALSE
 getter_AddRefs
 (
 application
@@ -2685,7 +2685,7 @@ process
 >
 Run
 (
-false
+PR_FALSE
 params
 numParams
 )
@@ -2931,7 +2931,7 @@ rv
 rv
 )
 ;
-nsAutoCString
+nsCAutoString
 fileURLSpec
 ;
 if
@@ -2966,7 +2966,7 @@ moztmp
 )
 ;
 }
-nsAutoCString
+nsCAutoString
 iconURLSpec
 (
 NS_LITERAL_CSTRING

@@ -90,7 +90,7 @@ char
 str
 )
 ;
-int32_t
+PRInt32
 nsUnescapeCount
 (
 char
@@ -116,7 +116,7 @@ const
 PRUnichar
 *
 aSourceBuffer
-int32_t
+PRInt32
 aSourceBufferLen
 =
 -
@@ -261,9 +261,9 @@ const
 char
 *
 str
-int32_t
+PRInt32
 len
-uint32_t
+PRUint32
 flags
 nsACString
 &
@@ -277,9 +277,9 @@ const
 char
 *
 str
-int32_t
+PRInt32
 len
-uint32_t
+PRUint32
 flags
 nsACString
 &
@@ -287,7 +287,7 @@ result
 )
 ;
 inline
-int32_t
+PRInt32
 NS_UnescapeURL
 (
 char
@@ -312,7 +312,7 @@ const
 nsCSubstring
 &
 str
-uint32_t
+PRUint32
 flags
 nsCSubstring
 &
@@ -354,7 +354,7 @@ const
 nsCSubstring
 &
 str
-uint32_t
+PRUint32
 flags
 nsCSubstring
 &
@@ -421,7 +421,7 @@ if
 esc
 )
 return
-false
+PR_FALSE
 ;
 aEscaped
 .
@@ -431,7 +431,7 @@ esc
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 inline

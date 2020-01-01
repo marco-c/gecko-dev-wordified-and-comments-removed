@@ -234,7 +234,7 @@ aPresContext
 FILE
 *
 out
-int32_t
+PRInt32
 aIndent
 )
 ;

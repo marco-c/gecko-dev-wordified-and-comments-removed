@@ -243,6 +243,15 @@ pack
 ref
 .
 xhtml
+fails
+-
+if
+(
+Android
+&
+&
+layersOpenGL
+)
 =
 =
 not
@@ -348,9 +357,6 @@ fails
 if
 (
 Android
-&
-&
-browserIsRemote
 )
 =
 =
@@ -369,7 +375,6 @@ xhtml
 #
 bug
 650597
-732569
 fails
 =
 =

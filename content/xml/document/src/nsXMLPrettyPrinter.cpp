@@ -149,11 +149,15 @@ nsXMLPrettyPrinter
 :
 mDocument
 (
-nullptr
+nsnull
+)
+mUpdateDepth
+(
+0
 )
 mUnhookPending
 (
-false
+PR_FALSE
 )
 {
 }
@@ -200,7 +204,7 @@ aDidPrettyPrint
 *
 aDidPrettyPrint
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -390,7 +394,7 @@ NS_OK
 *
 aDidPrettyPrint
 =
-true
+PR_TRUE
 ;
 nsresult
 rv
@@ -451,9 +455,9 @@ nsSyncLoadService
 LoadDocument
 (
 xslUri
-nullptr
-nullptr
-true
+nsnull
+nsnull
+PR_TRUE
 getter_AddRefs
 (
 xslDocument
@@ -841,7 +845,7 @@ mUnhookPending
 {
 mUnhookPending
 =
-true
+PR_TRUE
 ;
 nsContentUtils
 :
@@ -952,7 +956,7 @@ prettyprint
 }
 mDocument
 =
-nullptr
+nsnull
 ;
 NS_RELEASE_THIS
 (
@@ -971,12 +975,12 @@ aDocument
 Element
 *
 aElement
-int32_t
+PRInt32
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-int32_t
+PRInt32
 aModType
 )
 {
@@ -1001,7 +1005,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-int32_t
+PRInt32
 aNewIndexInContainer
 )
 {
@@ -1026,7 +1030,7 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
+PRInt32
 aIndexInContainer
 )
 {
@@ -1051,7 +1055,7 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
+PRInt32
 aIndexInContainer
 nsIContent
 *
@@ -1078,7 +1082,7 @@ aNode
 {
 mDocument
 =
-nullptr
+nsnull
 ;
 NS_RELEASE_THIS
 (

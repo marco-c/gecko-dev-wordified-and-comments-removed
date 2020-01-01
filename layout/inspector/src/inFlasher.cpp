@@ -76,7 +76,7 @@ mThickness
 )
 mInvert
 (
-false
+PR_FALSE
 )
 {
 }
@@ -248,7 +248,7 @@ inFlasher
 :
 GetThickness
 (
-uint16_t
+PRUint16
 *
 aThickness
 )
@@ -277,7 +277,7 @@ inFlasher
 :
 SetThickness
 (
-uint16_t
+PRUint16
 aThickness
 )
 {
@@ -563,7 +563,7 @@ GetNextContinuation
 )
 =
 =
-nullptr
+nsnull
 ;
 DrawOutline
 (
@@ -586,7 +586,7 @@ isLastFrame
 ;
 isFirstFrame
 =
-false
+PR_FALSE
 ;
 }
 frame
@@ -684,18 +684,8 @@ presShell
 ScrollContentIntoView
 (
 content
-nsIPresShell
-:
-:
-ScrollAxis
-(
-)
-nsIPresShell
-:
-:
-ScrollAxis
-(
-)
+NS_PRESSHELL_SCROLL_ANYWHERE
+NS_PRESSHELL_SCROLL_ANYWHERE
 nsIPresShell
 :
 :

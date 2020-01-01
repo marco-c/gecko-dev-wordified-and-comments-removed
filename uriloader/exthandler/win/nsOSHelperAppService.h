@@ -206,7 +206,7 @@ char
 *
 aTypeHint
 =
-nullptr
+nsnull
 )
 ;
 nsresult
@@ -258,10 +258,18 @@ aType
 ;
 private
 :
+#
+if
+MOZ_WINSDK_TARGETVER
+>
+=
+MOZ_NTDDI_LONGHORN
 IApplicationAssociationRegistration
 *
 mAppAssoc
 ;
+#
+endif
 }
 ;
 #

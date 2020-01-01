@@ -113,7 +113,7 @@ mServerURL
 bool
 mFinished
 ;
-uint32_t
+PRUint32
 mAttrCount
 ;
 char
@@ -124,7 +124,7 @@ mAttrs
 nsString
 mResults
 ;
-uint32_t
+PRUint32
 mProtocolVersion
 ;
 nsresult

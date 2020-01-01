@@ -246,7 +246,7 @@ const
 char
 *
 aBuf
-uint32_t
+PRUint32
 aLen
 )
 {
@@ -400,7 +400,7 @@ GetCharSetName
 (
 )
 {
-int32_t
+PRInt32
 finalsub
 =
 mFinalCharLogicalScore

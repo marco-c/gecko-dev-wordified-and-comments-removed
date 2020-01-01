@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsIFile
+nsILocalFile
 .
 h
 "
@@ -174,11 +174,11 @@ app
 )
 )
 return
-false
+PR_FALSE
 ;
 else
 return
-true
+PR_TRUE
 ;
 }
 else
@@ -190,7 +190,7 @@ gconf
 bool
 isEnabled
 ;
-nsAutoCString
+nsCAutoString
 handler
 ;
 if
@@ -213,14 +213,14 @@ handler
 )
 )
 return
-false
+PR_FALSE
 ;
 return
 isEnabled
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 nsresult
@@ -334,7 +334,7 @@ giovfs
 )
 return
 ;
-nsAutoCString
+nsCAutoString
 name
 ;
 if
@@ -409,7 +409,7 @@ IsEmpty
 )
 )
 {
-int32_t
+PRInt32
 firstSpace
 =
 name
@@ -435,7 +435,7 @@ Truncate
 firstSpace
 )
 ;
-int32_t
+PRInt32
 lastSlash
 =
 name
@@ -491,7 +491,7 @@ nsACString
 aFileExt
 )
 {
-nsAutoCString
+nsCAutoString
 mimeType
 ;
 nsCOMPtr
@@ -540,7 +540,7 @@ stream
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 }
@@ -563,7 +563,7 @@ if
 gnomevfs
 )
 return
-nullptr
+nsnull
 ;
 if
 (
@@ -594,7 +594,7 @@ stream
 )
 )
 return
-nullptr
+nsnull
 ;
 }
 return
@@ -634,13 +634,13 @@ aMIMEType
 NS_ENSURE_TRUE
 (
 mimeInfo
-nullptr
+nsnull
 )
 ;
-nsAutoCString
+nsCAutoString
 name
 ;
-nsAutoCString
+nsCAutoString
 description
 ;
 nsCOMPtr
@@ -688,7 +688,7 @@ gioHandlerApp
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 gioHandlerApp
@@ -728,7 +728,7 @@ if
 gnomevfs
 )
 return
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -759,7 +759,7 @@ gnomeHandlerApp
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 gnomeHandlerApp
@@ -797,7 +797,7 @@ af
 desktop
 "
 ;
-nsAutoCString
+nsCAutoString
 realName
 (
 dgettext

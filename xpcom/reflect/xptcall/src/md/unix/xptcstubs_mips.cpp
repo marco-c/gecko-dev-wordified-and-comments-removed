@@ -12,15 +12,6 @@ xptiprivate
 .
 h
 "
-#
-include
-"
-mozilla
-/
-StandardInteger
-.
-h
-"
 extern
 "
 C
@@ -31,9 +22,9 @@ PrepareAndDispatch
 nsXPTCStubBase
 *
 self
-uint32_t
+PRUint32
 methodIndex
-uint32_t
+PRUint32
 *
 args
 )
@@ -63,10 +54,10 @@ nsXPTMethodInfo
 *
 info
 ;
-uint8_t
+PRUint8
 paramCount
 ;
-uint8_t
+PRUint8
 i
 ;
 nsresult
@@ -91,7 +82,7 @@ mEntry
 >
 GetMethodInfo
 (
-uint16_t
+PRUint16
 (
 methodIndex
 )
@@ -148,7 +139,7 @@ params
 "
 )
 ;
-uint32_t
+PRUint32
 *
 ap
 =
@@ -254,7 +245,7 @@ T_I64
 if
 (
 (
-intptr_t
+PRWord
 )
 ap
 &
@@ -274,7 +265,7 @@ i64
 *
 (
 (
-int64_t
+PRInt64
 *
 )
 ap
@@ -295,7 +286,7 @@ T_U64
 if
 (
 (
-intptr_t
+PRWord
 )
 ap
 &
@@ -315,7 +306,7 @@ u64
 *
 (
 (
-int64_t
+PRInt64
 *
 )
 ap
@@ -336,7 +327,7 @@ T_DOUBLE
 if
 (
 (
-intptr_t
+PRWord
 )
 ap
 &
@@ -405,7 +396,7 @@ val
 i8
 =
 (
-int8_t
+PRInt8
 )
 *
 ap
@@ -426,7 +417,7 @@ val
 i16
 =
 (
-int16_t
+PRInt16
 )
 *
 ap
@@ -447,7 +438,7 @@ val
 i32
 =
 (
-int32_t
+PRInt32
 )
 *
 ap
@@ -468,7 +459,7 @@ val
 u8
 =
 (
-uint8_t
+PRUint8
 )
 *
 ap
@@ -489,7 +480,7 @@ val
 u16
 =
 (
-uint16_t
+PRUint16
 )
 *
 ap
@@ -510,7 +501,7 @@ val
 u32
 =
 (
-uint32_t
+PRUint32
 )
 *
 ap
@@ -630,7 +621,7 @@ mOuter
 CallMethod
 (
 (
-uint16_t
+PRUint16
 )
 methodIndex
 info

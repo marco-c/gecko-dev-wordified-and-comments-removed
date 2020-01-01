@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsIFile
+nsILocalFile
 .
 h
 "
@@ -126,7 +126,7 @@ saveToDisk
 )
 mAlwaysAskBeforeHandling
 (
-true
+PR_TRUE
 )
 {
 }
@@ -158,7 +158,7 @@ saveToDisk
 )
 mAlwaysAskBeforeHandling
 (
-true
+PR_TRUE
 )
 {
 }
@@ -192,7 +192,7 @@ saveToDisk
 )
 mAlwaysAskBeforeHandling
 (
-true
+PR_TRUE
 )
 {
 }
@@ -261,7 +261,7 @@ found
 =
 false
 ;
-uint32_t
+PRUint32
 extCount
 =
 mExtensions
@@ -281,7 +281,7 @@ NS_OK
 ;
 for
 (
-uint8_t
+PRUint8
 i
 =
 0
@@ -320,7 +320,7 @@ nsCaseInsensitiveCStringComparator
 {
 found
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -395,7 +395,7 @@ extension
 "
 )
 ;
-uint32_t
+PRUint32
 extCount
 =
 mExtensions
@@ -404,7 +404,7 @@ Length
 (
 )
 ;
-uint8_t
+PRUint8
 i
 ;
 bool
@@ -452,7 +452,7 @@ nsCaseInsensitiveCStringComparator
 {
 found
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -627,7 +627,7 @@ aMIMEInfo
 return
 NS_ERROR_NULL_POINTER
 ;
-nsAutoCString
+nsCAutoString
 type
 ;
 nsresult
@@ -689,7 +689,7 @@ extList
 aExtensions
 )
 ;
-int32_t
+PRInt32
 breakLocation
 =
 -
@@ -963,7 +963,7 @@ GetLocalFileFromURI
 nsIURI
 *
 aURI
-nsIFile
+nsILocalFile
 *
 *
 aFile
@@ -1138,7 +1138,7 @@ rv
 rv
 )
 ;
-nsAutoCString
+nsCAutoString
 path
 ;
 aFile
@@ -1320,7 +1320,7 @@ aResult
 )
 )
 return
-nullptr
+nsnull
 ;
 *
 aResult
@@ -1342,7 +1342,7 @@ aResult
 )
 )
 return
-nullptr
+nsnull
 ;
 return
 process
@@ -1410,7 +1410,7 @@ process
 >
 Run
 (
-false
+PR_FALSE
 &
 string
 1
@@ -1475,7 +1475,7 @@ process
 >
 Runw
 (
-false
+PR_FALSE
 &
 string
 1
@@ -1596,7 +1596,7 @@ mDefaultApplication
 return
 NS_ERROR_FILE_NOT_FOUND
 ;
-nsAutoCString
+nsCAutoString
 nativePath
 ;
 aFile

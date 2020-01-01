@@ -212,7 +212,7 @@ kAllTags
 ;
 #
 ifdef
-DEBUG
+NS_DEBUG
 extern
 void
 CheckElementTable
@@ -236,7 +236,7 @@ if
 aTest
 )
 {
-int32_t
+PRInt32
 result
 =
 (
@@ -256,7 +256,7 @@ aTest
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 struct
@@ -359,7 +359,7 @@ kBlock
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 inline
@@ -396,7 +396,7 @@ kBlockEntity
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 inline
@@ -433,7 +433,7 @@ kSpecial
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 inline
@@ -470,7 +470,7 @@ kPhrase
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 inline
@@ -507,7 +507,7 @@ kFontStyle
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 inline
@@ -560,7 +560,7 @@ eHTMLTag_colgroup
 :
 result
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -568,7 +568,7 @@ default
 :
 result
 =
-false
+PR_FALSE
 ;
 }
 return
@@ -576,7 +576,7 @@ result
 ;
 }
 static
-int32_t
+PRInt32
 GetIndexOfChildOrSynonym
 (
 nsDTDContext
@@ -657,7 +657,7 @@ GetCloseTargetForEndTag
 nsDTDContext
 &
 aContext
-int32_t
+PRInt32
 anIndex
 nsDTDMode
 aMode
@@ -693,7 +693,7 @@ mSpecialParents
 bool
 IsMemberOf
 (
-int32_t
+PRInt32
 aType
 )
 const
@@ -701,7 +701,7 @@ const
 bool
 ContainsSet
 (
-int32_t
+PRInt32
 aType
 )
 const
@@ -709,7 +709,7 @@ const
 bool
 CanContainType
 (
-int32_t
+PRInt32
 aType
 )
 const
@@ -752,7 +752,7 @@ CanAutoCloseTag
 nsDTDContext
 &
 aContext
-int32_t
+PRInt32
 aIndex
 eHTMLTags
 aTag
@@ -762,7 +762,7 @@ const
 bool
 HasSpecialProperty
 (
-int32_t
+PRInt32
 aProperty
 )
 const
@@ -937,7 +937,7 @@ mExclusionBits
 int
 mSpecialProperties
 ;
-uint32_t
+PRUint32
 mPropagateRange
 ;
 const

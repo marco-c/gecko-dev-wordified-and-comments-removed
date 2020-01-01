@@ -202,7 +202,7 @@ char
 *
 mBytes
 ;
-uint32_t
+PRUint32
 mByteLen
 ;
 const
@@ -232,7 +232,7 @@ _bytes
 -
 1
 _type
-nullptr
+nsnull
 }
 #
 define
@@ -250,7 +250,7 @@ _bytes
 )
 -
 1
-nullptr
+nsnull
 _func
 }
 static
@@ -260,14 +260,14 @@ sSnifferEntries
 ]
 ;
 static
-uint32_t
+PRUint32
 sSnifferEntryNum
 ;
 char
 *
 mBuffer
 ;
-uint32_t
+PRUint32
 mBufferLen
 ;
 bool

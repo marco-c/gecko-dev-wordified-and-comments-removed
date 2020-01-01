@@ -200,11 +200,6 @@ Element
 aElement
 )
 ;
-bool
-IsWhitelistedEvent
-(
-)
-;
 void
 RegisterEventListener
 (
@@ -274,15 +269,6 @@ nsSMILTimeContainer
 *
 aSrcContainer
 )
-;
-bool
-ApplyOffset
-(
-nsSMILTimeValue
-&
-aTime
-)
-const
 ;
 nsSMILTimedElement
 *
@@ -400,7 +386,6 @@ mReferencedElement
 ;
 class
 EventListener
-MOZ_FINAL
 :
 public
 nsIDOMEventListener
@@ -427,7 +412,7 @@ Disconnect
 {
 mSpec
 =
-nullptr
+nsnull
 ;
 }
 NS_DECL_ISUPPORTS

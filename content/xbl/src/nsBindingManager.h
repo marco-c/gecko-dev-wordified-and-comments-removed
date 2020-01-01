@@ -208,12 +208,6 @@ RemovedFromDocumentInternal
 (
 aContent
 aOldDocument
-aContent
--
->
-GetBindingParent
-(
-)
 )
 ;
 }
@@ -227,9 +221,6 @@ aContent
 nsIDocument
 *
 aOldDocument
-nsIContent
-*
-aContentBindingParent
 )
 ;
 nsIAtom
@@ -239,7 +230,7 @@ ResolveTag
 nsIContent
 *
 aContent
-int32_t
+PRInt32
 *
 aNameSpaceID
 )
@@ -348,7 +339,7 @@ const
 nsIContent
 *
 aChild
-uint32_t
+PRUint32
 *
 aIndex
 )
@@ -360,7 +351,7 @@ GetSingleInsertionPoint
 nsIContent
 *
 aParent
-uint32_t
+PRUint32
 *
 aIndex
 bool
@@ -443,7 +434,7 @@ aBinding
 void
 ProcessAttachedQueue
 (
-uint32_t
+PRUint32
 aSkipSize
 =
 0
@@ -666,7 +657,7 @@ aContainer
 nsIContent
 *
 aChild
-uint32_t
+PRUint32
 aIndexInContainer
 bool
 aAppend
@@ -682,11 +673,11 @@ aContainer
 nsIContent
 *
 aInsertionParent
-uint32_t
+PRUint32
 aIndexInContainer
-int32_t
+PRInt32
 aAppend
-int32_t
+PRInt32
 *
 aInsertionIndex
 )
@@ -753,7 +744,7 @@ mProcessingAttachedStack
 bool
 mDestroyed
 ;
-uint32_t
+PRUint32
 mAttachedStackSizeOnOutermost
 ;
 friend

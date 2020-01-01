@@ -53,15 +53,6 @@ txStack
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsIContent
 ;
@@ -97,7 +88,6 @@ nsINode
 ;
 class
 txTransformNotifier
-MOZ_FINAL
 :
 public
 nsIScriptLoaderObserver
@@ -196,7 +186,7 @@ nsIScriptElement
 >
 mScriptElements
 ;
-uint32_t
+PRUint32
 mPendingStylesheetCount
 ;
 bool
@@ -255,7 +245,7 @@ const
 nsSubstring
 &
 aName
-int32_t
+PRInt32
 aNsID
 nsIDOMDocument
 *
@@ -320,7 +310,7 @@ aPrefix
 nsIAtom
 *
 aLocalName
-int32_t
+PRInt32
 aNsID
 const
 nsString
@@ -337,7 +327,7 @@ aPrefix
 nsIAtom
 *
 aLocalName
-int32_t
+PRInt32
 aNsID
 )
 ;
@@ -383,7 +373,7 @@ txTransformNotifier
 >
 mNotifier
 ;
-uint32_t
+PRUint32
 mTreeDepth
 mBadChildLevel
 ;

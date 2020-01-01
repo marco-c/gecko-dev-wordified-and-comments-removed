@@ -42,7 +42,7 @@ nsXBLInsertionPoint
 nsIContent
 *
 aParentElement
-uint32_t
+PRUint32
 aIndex
 nsIContent
 *
@@ -54,7 +54,7 @@ nsXBLInsertionPoint
 (
 )
 ;
-NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
+NS_INLINE_DECL_REFCOUNTING
 (
 nsXBLInsertionPoint
 )
@@ -75,10 +75,10 @@ ClearInsertionParent
 {
 mParentElement
 =
-nullptr
+nsnull
 ;
 }
-int32_t
+PRInt32
 GetInsertionIndex
 (
 )
@@ -144,7 +144,7 @@ aChildElement
 void
 InsertChildAt
 (
-int32_t
+PRInt32
 aIndex
 nsIContent
 *
@@ -176,7 +176,7 @@ aChildElement
 )
 ;
 }
-int32_t
+PRInt32
 ChildCount
 (
 )
@@ -193,11 +193,11 @@ nsIContent
 *
 ChildAt
 (
-uint32_t
+PRUint32
 aIndex
 )
 ;
-int32_t
+PRInt32
 IndexOf
 (
 nsIContent
@@ -220,7 +220,7 @@ Matches
 nsIContent
 *
 aContent
-uint32_t
+PRUint32
 aIndex
 )
 ;
@@ -235,7 +235,7 @@ nsIContent
 *
 mParentElement
 ;
-int32_t
+PRInt32
 mIndex
 ;
 nsCOMArray

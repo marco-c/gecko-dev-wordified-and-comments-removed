@@ -93,7 +93,7 @@ event
 >
 serial
 ;
-nsAutoCString
+nsCAutoString
 message
 ;
 if
@@ -332,7 +332,7 @@ buffer
 )
 ;
 }
-nsAutoCString
+nsCAutoString
 notes
 ;
 if
@@ -471,7 +471,7 @@ notes
 .
 AppendInt
 (
-uint32_t
+PRUint32
 (
 age
 )
@@ -543,7 +543,7 @@ notes
 .
 AppendInt
 (
-uint32_t
+PRUint32
 (
 event
 -

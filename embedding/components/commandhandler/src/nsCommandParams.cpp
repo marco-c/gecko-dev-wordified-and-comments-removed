@@ -31,19 +31,6 @@ nsCommandParams
 .
 h
 "
-#
-include
-"
-mozilla
-/
-HashFunctions
-.
-h
-"
-using
-namespace
-mozilla
-;
 PLDHashTableOps
 nsCommandParams
 :
@@ -152,7 +139,7 @@ const
 char
 *
 name
-int16_t
+PRInt16
 *
 _retval
 )
@@ -220,7 +207,7 @@ _retval
 *
 _retval
 =
-false
+PR_FALSE
 ;
 HashEntry
 *
@@ -273,7 +260,7 @@ const
 char
 *
 name
-int32_t
+PRInt32
 *
 _retval
 )
@@ -286,7 +273,7 @@ _retval
 *
 _retval
 =
-false
+PR_FALSE
 ;
 HashEntry
 *
@@ -575,7 +562,7 @@ _retval
 *
 _retval
 =
-nullptr
+nsnull
 ;
 HashEntry
 *
@@ -688,7 +675,7 @@ const
 char
 *
 name
-int32_t
+PRInt32
 value
 )
 {
@@ -1010,7 +997,7 @@ return
 foundEntry
 ;
 return
-nullptr
+nsnull
 ;
 }
 nsCommandParams
@@ -1023,7 +1010,7 @@ nsCommandParams
 :
 GetIndexedEntry
 (
-int32_t
+PRInt32
 index
 )
 {
@@ -1054,7 +1041,7 @@ PL_DHASH_TABLE_SIZE
 mValuesHash
 )
 ;
-uint32_t
+PRUint32
 entryCount
 =
 0
@@ -1074,7 +1061,7 @@ continue
 if
 (
 (
-int32_t
+PRInt32
 )
 entryCount
 =
@@ -1099,10 +1086,10 @@ limit
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
-uint32_t
+PRUint32
 nsCommandParams
 :
 :
@@ -1137,7 +1124,7 @@ PL_DHASH_TABLE_SIZE
 mValuesHash
 )
 ;
-uint32_t
+PRUint32
 entryCount
 =
 0
@@ -1179,7 +1166,7 @@ const
 char
 *
 name
-uint8_t
+PRUint8
 entryType
 HashEntry
 *
@@ -1308,7 +1295,10 @@ key
 )
 {
 return
-HashString
+nsCRT
+:
+:
+HashCode
 (
 (
 const

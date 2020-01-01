@@ -96,18 +96,8 @@ nsIRDFLiteral
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 TriplesVisitor
-MOZ_FINAL
 :
 public
 rdfITripleVisitor
@@ -164,7 +154,7 @@ aResource
 nsCString
 res
 ;
-uint32_t
+PRUint32
 writeCount
 wroteCount
 ;
@@ -367,7 +357,7 @@ nsIRDFInt
 >
 intLit
 ;
-uint32_t
+PRUint32
 wroteCount
 ;
 if
@@ -396,7 +386,7 @@ aObject
 )
 !
 =
-nullptr
+nsnull
 )
 {
 const
@@ -413,7 +403,7 @@ GetValueConst
 value
 )
 ;
-nsAutoCString
+nsCAutoString
 object
 ;
 object
@@ -442,7 +432,7 @@ AppendLiteral
 "
 )
 ;
-uint32_t
+PRUint32
 writeCount
 =
 object
@@ -491,10 +481,10 @@ aObject
 )
 !
 =
-nullptr
+nsnull
 )
 {
-int32_t
+PRInt32
 value
 ;
 intLit
@@ -509,6 +499,7 @@ value
 nsPrintfCString
 object
 (
+128
 "
 \
 "
@@ -539,7 +530,7 @@ integer
 value
 )
 ;
-uint32_t
+PRUint32
 writeCount
 =
 object
@@ -600,7 +591,6 @@ wroteCount
 }
 class
 rdfTriplesSerializer
-MOZ_FINAL
 :
 public
 rdfISerializer
@@ -636,7 +626,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nullptr
+nsnull
 "
 null
 ptr

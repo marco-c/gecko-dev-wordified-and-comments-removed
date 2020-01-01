@@ -28,7 +28,7 @@ class
 nsCString
 ;
 typedef
-uint32_t
+PRUint32
 nscolor
 ;
 #
@@ -130,7 +130,7 @@ _rgba
 )
 (
 (
-uint8_t
+PRUint8
 )
 (
 (
@@ -148,7 +148,7 @@ _rgba
 )
 (
 (
-uint8_t
+PRUint8
 )
 (
 (
@@ -171,7 +171,7 @@ _rgba
 )
 (
 (
-uint8_t
+PRUint8
 )
 (
 (
@@ -194,7 +194,7 @@ _rgba
 )
 (
 (
-uint8_t
+PRUint8
 )
 (
 (

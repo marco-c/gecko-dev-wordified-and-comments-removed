@@ -76,7 +76,7 @@ mCookiesLifetimePolicy
 )
 mCookiesAlwaysAcceptSession
 (
-false
+PR_FALSE
 )
 {
 }
@@ -139,10 +139,10 @@ nsIPrivateBrowsingService
 >
 mPBService
 ;
-int64_t
+PRInt64
 mCookiesLifetimeSec
 ;
-uint8_t
+PRUint8
 mCookiesLifetimePolicy
 ;
 bool

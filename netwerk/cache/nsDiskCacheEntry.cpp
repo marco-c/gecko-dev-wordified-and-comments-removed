@@ -63,7 +63,7 @@ nsCacheEntry
 *
 entry
 =
-nullptr
+nsnull
 ;
 nsresult
 rv
@@ -101,7 +101,7 @@ rv
 entry
 )
 return
-nullptr
+nsnull
 ;
 entry
 -
@@ -176,7 +176,7 @@ delete
 entry
 ;
 return
-nullptr
+nsnull
 ;
 }
 const
@@ -207,8 +207,6 @@ nsISupports
 >
 infoObj
 ;
-rv
-=
 NS_DeserializeObject
 (
 nsDependentCString
@@ -221,21 +219,6 @@ infoObj
 )
 )
 ;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-{
-delete
-entry
-;
-return
-nullptr
-;
-}
 entry
 -
 >
@@ -361,7 +344,7 @@ nsDiskCacheEntryInfo
 :
 GetFetchCount
 (
-int32_t
+PRInt32
 *
 aFetchCount
 )
@@ -389,7 +372,7 @@ nsDiskCacheEntryInfo
 :
 GetLastFetched
 (
-uint32_t
+PRUint32
 *
 aLastFetched
 )
@@ -417,7 +400,7 @@ nsDiskCacheEntryInfo
 :
 GetLastModified
 (
-uint32_t
+PRUint32
 *
 aLastModified
 )
@@ -445,7 +428,7 @@ nsDiskCacheEntryInfo
 :
 GetExpirationTime
 (
-uint32_t
+PRUint32
 *
 aExpirationTime
 )
@@ -486,7 +469,7 @@ aStreamBased
 *
 aStreamBased
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -498,7 +481,7 @@ nsDiskCacheEntryInfo
 :
 GetDataSize
 (
-uint32_t
+PRUint32
 *
 aDataSize
 )

@@ -370,7 +370,7 @@ nsNameSpaceMap
 mNameSpaces
 ;
 static
-int32_t
+PRInt32
 gRefCnt
 ;
 static
@@ -1162,7 +1162,7 @@ aConsumer
 ;
 }
 ;
-int32_t
+PRInt32
 RDFXMLDataSourceImpl
 :
 :
@@ -1215,7 +1215,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -1298,11 +1298,11 @@ void
 :
 mIsWritable
 (
-true
+PR_TRUE
 )
 mIsDirty
 (
-false
+PR_FALSE
 )
 mLoadState
 (
@@ -1590,7 +1590,7 @@ getter_AddRefs
 channel
 )
 aURL
-nullptr
+nsnull
 )
 ;
 if
@@ -1689,7 +1689,7 @@ rv
 return
 rv
 ;
-int32_t
+PRInt32
 i
 ;
 for
@@ -1748,10 +1748,10 @@ aConsumer
 OnStartRequest
 (
 channel
-nullptr
+nsnull
 )
 ;
-uint64_t
+PRUint32
 offset
 =
 0
@@ -1782,7 +1782,7 @@ rv
 )
 break
 ;
-uint64_t
+PRUint32
 avail
 ;
 if
@@ -1812,16 +1812,6 @@ avail
 )
 break
 ;
-if
-(
-avail
->
-PR_UINT32_MAX
-)
-avail
-=
-PR_UINT32_MAX
-;
 rv
 =
 aConsumer
@@ -1830,12 +1820,9 @@ aConsumer
 OnDataAvailable
 (
 channel
-nullptr
+nsnull
 bufStream
 offset
-(
-uint32_t
-)
 avail
 )
 ;
@@ -1882,7 +1869,7 @@ aConsumer
 OnStopRequest
 (
 channel
-nullptr
+nsnull
 rv
 )
 ;
@@ -1938,7 +1925,7 @@ OnError
 (
 this
 rv
-nullptr
+nsnull
 )
 ;
 obs
@@ -1997,7 +1984,7 @@ NS_PRECONDITION
 mInner
 !
 =
-nullptr
+nsnull
 "
 not
 initialized
@@ -2079,7 +2066,7 @@ kResourceURIPrefix
 {
 mIsWritable
 =
-false
+PR_FALSE
 ;
 }
 rv
@@ -2090,7 +2077,7 @@ gRDFService
 RegisterDataSource
 (
 this
-false
+PR_FALSE
 )
 ;
 if
@@ -2122,7 +2109,7 @@ aURI
 *
 aURI
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -2134,7 +2121,7 @@ return
 NS_OK
 ;
 }
-nsAutoCString
+nsCAutoString
 spec
 ;
 mURL
@@ -2341,7 +2328,7 @@ NS_RDF_ASSERTION_ACCEPTED
 )
 mIsDirty
 =
-true
+PR_TRUE
 ;
 return
 rv
@@ -2411,7 +2398,7 @@ NS_RDF_ASSERTION_ACCEPTED
 )
 mIsDirty
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -2486,7 +2473,7 @@ NS_RDF_ASSERTION_ACCEPTED
 )
 mIsDirty
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -2561,7 +2548,7 @@ NS_RDF_ASSERTION_ACCEPTED
 )
 mIsDirty
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -2828,7 +2815,7 @@ NS_PRECONDITION
 aURI
 !
 =
-nullptr
+nsnull
 "
 not
 initialized
@@ -2956,7 +2943,7 @@ NS_ERROR_NOT_INITIALIZED
 #
 ifdef
 PR_LOGGING
-nsAutoCString
+nsCAutoString
 spec
 ;
 mURL
@@ -3013,7 +3000,7 @@ mURL
 {
 mIsDirty
 =
-false
+PR_FALSE
 ;
 }
 return
@@ -3060,7 +3047,7 @@ aIsReadOnly
 )
 mIsWritable
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -3078,7 +3065,7 @@ aOldChannel
 nsIChannel
 *
 aNewChannel
-uint32_t
+PRUint32
 aFlags
 nsIAsyncVerifyRedirectCallback
 *
@@ -3190,8 +3177,7 @@ oldPrincipal
 CheckMayLoad
 (
 newURI
-false
-false
+PR_FALSE
 )
 ;
 if
@@ -3216,8 +3202,7 @@ oldPrincipal
 CheckMayLoad
 (
 newOriginalURI
-false
-false
+PR_FALSE
 )
 ;
 }
@@ -3256,7 +3241,7 @@ aBlocking
 #
 ifdef
 PR_LOGGING
-nsAutoCString
+nsCAutoString
 spec
 ;
 if
@@ -3459,7 +3444,7 @@ this
 ;
 mListener
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -3479,10 +3464,10 @@ rv
 NS_OpenURI
 (
 this
-nullptr
+nsnull
 mURL
-nullptr
-nullptr
+nsnull
+nsnull
 this
 )
 ;
@@ -3517,7 +3502,7 @@ void
 #
 ifdef
 PR_LOGGING
-nsAutoCString
+nsCAutoString
 spec
 ;
 if
@@ -3570,7 +3555,7 @@ eLoadState_Loading
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 mObservers
@@ -3633,7 +3618,7 @@ void
 #
 ifdef
 PR_LOGGING
-nsAutoCString
+nsCAutoString
 spec
 ;
 if
@@ -3680,7 +3665,7 @@ get
 endif
 for
 (
-int32_t
+PRInt32
 i
 =
 mObservers
@@ -3743,7 +3728,7 @@ void
 #
 ifdef
 PR_LOGGING
-nsAutoCString
+nsCAutoString
 spec
 ;
 if
@@ -3790,7 +3775,7 @@ get
 endif
 for
 (
-int32_t
+PRInt32
 i
 =
 mObservers
@@ -3853,7 +3838,7 @@ void
 #
 ifdef
 PR_LOGGING
-nsAutoCString
+nsCAutoString
 spec
 ;
 if
@@ -3930,7 +3915,7 @@ Sweep
 }
 for
 (
-int32_t
+PRInt32
 i
 =
 mObservers
@@ -4119,7 +4104,7 @@ status
 {
 for
 (
-int32_t
+PRInt32
 i
 =
 mObservers
@@ -4163,7 +4148,7 @@ OnError
 (
 this
 status
-nullptr
+nsnull
 )
 ;
 }
@@ -4186,7 +4171,7 @@ status
 ;
 mListener
 =
-nullptr
+nsnull
 ;
 return
 rv
@@ -4207,9 +4192,9 @@ ctxt
 nsIInputStream
 *
 inStr
-uint64_t
+PRUint32
 sourceOffset
-uint32_t
+PRUint32
 count
 )
 {

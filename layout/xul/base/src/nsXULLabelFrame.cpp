@@ -149,7 +149,7 @@ EventStateManager
 (
 )
 ;
-uint32_t
+PRUint32
 key
 =
 accessKey
@@ -228,7 +228,7 @@ rv
 return
 RegUnregAccessKey
 (
-true
+PR_TRUE
 )
 ;
 }
@@ -245,7 +245,7 @@ aDestructRoot
 {
 RegUnregAccessKey
 (
-false
+PR_FALSE
 )
 ;
 nsBlockFrame
@@ -263,12 +263,12 @@ nsXULLabelFrame
 :
 AttributeChanged
 (
-int32_t
+PRInt32
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-int32_t
+PRInt32
 aModType
 )
 {
@@ -306,7 +306,7 @@ control
 )
 RegUnregAccessKey
 (
-true
+PR_TRUE
 )
 ;
 return
@@ -332,7 +332,7 @@ XULLabelFrame
 }
 #
 ifdef
-DEBUG
+NS_DEBUG
 NS_IMETHODIMP
 nsXULLabelFrame
 :

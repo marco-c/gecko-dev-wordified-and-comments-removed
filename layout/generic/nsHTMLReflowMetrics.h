@@ -105,6 +105,12 @@ aIndex
 {
 NS_ASSERTION
 (
+0
+<
+=
+aIndex
+&
+&
 aIndex
 <
 2
@@ -135,6 +141,12 @@ const
 {
 NS_ASSERTION
 (
+0
+<
+=
+aIndex
+&
+&
 aIndex
 <
 2
@@ -735,7 +747,7 @@ height
 nscoord
 ascent
 ;
-uint32_t
+PRUint32
 mFlags
 ;
 enum
@@ -826,7 +838,7 @@ UnionOverflowAreasWithDesiredBounds
 ;
 nsHTMLReflowMetrics
 (
-uint32_t
+PRUint32
 aFlags
 =
 0

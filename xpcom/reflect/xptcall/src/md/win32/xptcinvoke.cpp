@@ -25,10 +25,10 @@ void
 __fastcall
 invoke_copy_to_stack
 (
-uint32_t
+PRUint32
 *
 d
-uint32_t
+PRUint32
 paramCount
 nsXPTCVariant
 *
@@ -98,7 +98,7 @@ T_I8
 *
 (
 (
-int8_t
+PRInt8
 *
 )
 d
@@ -122,7 +122,7 @@ T_I16
 *
 (
 (
-int16_t
+PRInt16
 *
 )
 d
@@ -146,7 +146,7 @@ T_I32
 *
 (
 (
-int32_t
+PRInt32
 *
 )
 d
@@ -170,7 +170,7 @@ T_I64
 *
 (
 (
-int64_t
+PRInt64
 *
 )
 d
@@ -198,7 +198,7 @@ T_U8
 *
 (
 (
-uint8_t
+PRUint8
 *
 )
 d
@@ -222,7 +222,7 @@ T_U16
 *
 (
 (
-uint16_t
+PRUint16
 *
 )
 d
@@ -246,7 +246,7 @@ T_U32
 *
 (
 (
-uint32_t
+PRUint32
 *
 )
 d
@@ -270,7 +270,7 @@ T_U64
 *
 (
 (
-uint64_t
+PRUint64
 *
 )
 d
@@ -474,9 +474,9 @@ NS_InvokeByIndex_P
 nsISupports
 *
 that
-uint32_t
+PRUint32
 methodIndex
-uint32_t
+PRUint32
 paramCount
 nsXPTCVariant
 *

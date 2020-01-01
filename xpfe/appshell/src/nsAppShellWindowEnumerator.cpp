@@ -1,13 +1,6 @@
 #
 include
 "
-nsAppShellWindowEnumerator
-.
-h
-"
-#
-include
-"
 nsIContentViewer
 .
 h
@@ -16,6 +9,13 @@ h
 include
 "
 nsIDocShell
+.
+h
+"
+#
+include
+"
+nsIDocumentViewer
 .
 h
 "
@@ -72,6 +72,13 @@ h
 include
 "
 nsIXULWindow
+.
+h
+"
+#
+include
+"
+nsAppShellWindowEnumerator
 .
 h
 "
@@ -267,7 +274,10 @@ element
 )
 node
 =
+do_QueryInterface
+(
 element
+)
 ;
 }
 }
@@ -393,7 +403,7 @@ nsWindowInfo
 nsIXULWindow
 *
 inWindow
-int32_t
+PRInt32
 inTimeStamp
 )
 :
@@ -415,8 +425,8 @@ normalZ
 {
 ReferenceSelf
 (
-true
-true
+PR_TRUE
+PR_TRUE
 )
 ;
 }
@@ -732,7 +742,7 @@ aTypeString
 )
 mCurrentPosition
 (
-nullptr
+nsnull
 )
 {
 mWindowMediator
@@ -832,9 +842,9 @@ retval
 =
 mCurrentPosition
 ?
-true
+PR_TRUE
 :
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -918,7 +928,7 @@ NS_ERROR_INVALID_ARG
 *
 retval
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -1010,7 +1020,7 @@ NS_ERROR_INVALID_ARG
 *
 retval
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -1107,7 +1117,7 @@ if
 mCurrentPosition
 )
 return
-nullptr
+nsnull
 ;
 info
 =
@@ -1156,7 +1166,7 @@ mYounger
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 nsASXULWindowEarlyToLateEnumerator
@@ -1229,7 +1239,7 @@ if
 mCurrentPosition
 )
 return
-nullptr
+nsnull
 ;
 info
 =
@@ -1278,7 +1288,7 @@ mYounger
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 nsASDOMWindowFrontToBackEnumerator
@@ -1351,7 +1361,7 @@ if
 mCurrentPosition
 )
 return
-nullptr
+nsnull
 ;
 info
 =
@@ -1400,7 +1410,7 @@ mLower
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 nsASXULWindowFrontToBackEnumerator
@@ -1473,7 +1483,7 @@ if
 mCurrentPosition
 )
 return
-nullptr
+nsnull
 ;
 info
 =
@@ -1522,7 +1532,7 @@ mLower
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 nsASDOMWindowBackToFrontEnumerator
@@ -1558,7 +1568,7 @@ mTopmostWindow
 >
 mHigher
 :
-nullptr
+nsnull
 ;
 AdjustInitialPosition
 (
@@ -1604,7 +1614,7 @@ if
 mCurrentPosition
 )
 return
-nullptr
+nsnull
 ;
 info
 =
@@ -1664,7 +1674,7 @@ mHigher
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 nsASXULWindowBackToFrontEnumerator
@@ -1700,7 +1710,7 @@ mTopmostWindow
 >
 mHigher
 :
-nullptr
+nsnull
 ;
 AdjustInitialPosition
 (
@@ -1746,7 +1756,7 @@ if
 mCurrentPosition
 )
 return
-nullptr
+nsnull
 ;
 info
 =
@@ -1806,6 +1816,6 @@ mHigher
 ;
 }
 return
-nullptr
+nsnull
 ;
 }

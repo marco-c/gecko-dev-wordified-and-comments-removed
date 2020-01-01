@@ -96,7 +96,7 @@ const
 void
 *
 ptr
-size_t
+PRSize
 size
 )
 {
@@ -155,7 +155,7 @@ rv
 )
 )
 return
-nullptr
+nsnull
 ;
 return
 mem

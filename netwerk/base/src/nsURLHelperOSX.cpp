@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsIFile
+nsILocalFile
 .
 h
 "
@@ -50,7 +50,7 @@ nsCString
 *
 gVolumeList
 =
-nullptr
+nsnull
 ;
 static
 bool
@@ -86,7 +86,7 @@ gVolumeList
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 }
@@ -242,7 +242,7 @@ component_end
 directory_end
 )
 ;
-nsAutoCString
+nsCAutoString
 flatComponent
 (
 (
@@ -259,7 +259,7 @@ NS_UnescapeURL
 flatComponent
 )
 ;
-int32_t
+PRInt32
 foundIndex
 =
 gVolumeList
@@ -294,7 +294,7 @@ gVolumeList
 ;
 gVolumeList
 =
-nullptr
+nsnull
 ;
 }
 static
@@ -478,7 +478,7 @@ result
 nsresult
 rv
 ;
-nsAutoCString
+nsCAutoString
 ePath
 ;
 rv
@@ -501,7 +501,7 @@ rv
 return
 rv
 ;
-nsAutoCString
+nsCAutoString
 escPath
 ;
 NS_NAMED_LITERAL_CSTRING
@@ -592,7 +592,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 localFile
 ;
@@ -603,7 +603,7 @@ NS_NewNativeLocalFile
 EmptyCString
 (
 )
-true
+PR_TRUE
 getter_AddRefs
 (
 localFile
@@ -620,7 +620,7 @@ rv
 return
 rv
 ;
-nsAutoCString
+nsCAutoString
 directory
 fileBaseName
 fileExtension
@@ -670,7 +670,7 @@ esc_AlwaysCopy
 path
 )
 ;
-nsAutoCString
+nsCAutoString
 possibleVolName
 ;
 if
@@ -712,7 +712,7 @@ get
 )
 &
 testRef
-nullptr
+nsnull
 )
 !
 =
@@ -720,7 +720,7 @@ noErr
 )
 bHFSPath
 =
-true
+PR_TRUE
 ;
 }
 if

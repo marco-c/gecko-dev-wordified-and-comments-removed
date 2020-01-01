@@ -47,7 +47,7 @@ public
 :
 nsDocShellEnumerator
 (
-int32_t
+PRInt32
 inEnumerationDirection
 )
 ;
@@ -81,7 +81,7 @@ aEnumerationRootItem
 nsresult
 GetEnumDocShellType
 (
-int32_t
+PRInt32
 *
 aEnumerationItemType
 )
@@ -89,7 +89,7 @@ aEnumerationItemType
 nsresult
 SetEnumDocShellType
 (
-int32_t
+PRInt32
 aEnumerationItemType
 )
 ;
@@ -149,17 +149,17 @@ nsWeakPtr
 >
 mItemArray
 ;
-uint32_t
+PRUint32
 mCurIndex
 ;
-int32_t
+PRInt32
 mDocShellType
 ;
 bool
 mArrayValid
 ;
 const
-int8_t
+PRInt8
 mEnumerationDirection
 ;
 }

@@ -30,15 +30,6 @@ h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIDNSListener
 .
 h
@@ -51,7 +42,6 @@ nsIDNSService
 ;
 class
 nsDNSPrefetch
-MOZ_FINAL
 :
 public
 nsIDNSListener
@@ -175,7 +165,7 @@ mEndTimestamp
 nsresult
 Prefetch
 (
-uint16_t
+PRUint16
 flags
 )
 ;

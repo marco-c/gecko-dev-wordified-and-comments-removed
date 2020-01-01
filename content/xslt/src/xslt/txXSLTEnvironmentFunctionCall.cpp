@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsError
+txError
 .
 h
 "
@@ -58,7 +58,7 @@ aResult
 *
 aResult
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -688,7 +688,7 @@ TX_XSLTFunctionAvailable
 nsIAtom
 *
 aName
-int32_t
+PRInt32
 aNameSpaceID
 )
 ;

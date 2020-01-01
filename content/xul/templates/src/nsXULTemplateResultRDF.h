@@ -53,18 +53,8 @@ nsRDFBinding
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsXULTemplateResultRDF
-MOZ_FINAL
 :
 public
 nsIXULTemplateResult
@@ -130,7 +120,7 @@ Processor
 (
 )
 :
-nullptr
+nsnull
 )
 ;
 }

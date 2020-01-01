@@ -78,17 +78,6 @@ GetClassInfo
 )
 ;
 virtual
-nsIDOMNode
-*
-AsDOMNode
-(
-)
-{
-return
-this
-;
-}
-virtual
 nsIAtom
 *
 GetIDAttributeName
@@ -135,7 +124,7 @@ virtual
 nsresult
 UnsetAttr
 (
-int32_t
+PRInt32
 aNameSpaceID
 nsIAtom
 *
@@ -148,7 +137,7 @@ virtual
 bool
 ParseAttribute
 (
-int32_t
+PRInt32
 aNamespaceID
 nsIAtom
 *

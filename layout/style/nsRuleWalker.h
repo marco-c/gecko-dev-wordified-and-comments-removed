@@ -216,7 +216,7 @@ mRoot
 void
 SetLevel
 (
-uint8_t
+PRUint8
 aLevel
 bool
 aImportance
@@ -263,7 +263,7 @@ mCheckForImportantRules
 aCheckForImportantRules
 ;
 }
-uint8_t
+PRUint8
 GetLevel
 (
 )
@@ -311,7 +311,7 @@ nsRuleNode
 *
 mRoot
 ;
-uint8_t
+PRUint8
 mLevel
 ;
 bool

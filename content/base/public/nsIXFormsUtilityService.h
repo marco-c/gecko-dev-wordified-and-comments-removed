@@ -153,7 +153,7 @@ IsInRange
 nsIDOMNode
 *
 aElement
-uint32_t
+PRUint32
 *
 aState
 )

@@ -200,7 +200,7 @@ nsWyciwygProtocolHandler
 :
 GetDefaultPort
 (
-int32_t
+PRInt32
 *
 result
 )
@@ -215,7 +215,7 @@ nsWyciwygProtocolHandler
 :
 AllowPort
 (
-int32_t
+PRInt32
 port
 const
 char
@@ -229,7 +229,7 @@ _retval
 *
 _retval
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -377,7 +377,7 @@ NS_ENSURE_TRUE
 gNeckoChild
 !
 =
-nullptr
+nsnull
 NS_ERROR_FAILURE
 )
 ;
@@ -439,7 +439,7 @@ wcc
 }
 else
 {
-nsAutoCString
+nsCAutoString
 path
 ;
 rv
@@ -458,7 +458,7 @@ rv
 rv
 )
 ;
-int32_t
+PRInt32
 slashIndex
 =
 path
@@ -490,7 +490,7 @@ Length
 )
 <
 (
-uint32_t
+PRUint32
 )
 slashIndex
 +
@@ -582,7 +582,7 @@ nsWyciwygProtocolHandler
 :
 GetProtocolFlags
 (
-uint32_t
+PRUint32
 *
 result
 )

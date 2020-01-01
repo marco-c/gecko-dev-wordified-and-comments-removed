@@ -29,6 +29,20 @@ h
 #
 include
 "
+nsIDOMXULDocument
+.
+h
+"
+#
+include
+"
+nsIDOMHTMLDocument
+.
+h
+"
+#
+include
+"
 nsIDOMElement
 .
 h
@@ -148,7 +162,7 @@ h
 #
 include
 "
-nsError
+nsDOMError
 .
 h
 "
@@ -156,13 +170,6 @@ h
 include
 "
 nsEventDispatcher
-.
-h
-"
-#
-include
-"
-nsDOMClassInfoID
 .
 h
 "
@@ -192,7 +199,7 @@ aDocument
 )
 mUpdaters
 (
-nullptr
+nsnull
 )
 {
 #
@@ -352,7 +359,7 @@ doomed
 }
 mDocument
 =
-nullptr
+nsnull
 ;
 }
 already_AddRefed
@@ -404,7 +411,7 @@ GetTopWindowRoot
 }
 }
 return
-nullptr
+nsnull
 ;
 }
 nsIContent
@@ -423,7 +430,7 @@ aWindow
 *
 aWindow
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -473,7 +480,7 @@ nsFocusManager
 GetFocusedDescendant
 (
 rootWindow
-true
+PR_TRUE
 aWindow
 )
 ;
@@ -481,7 +488,7 @@ aWindow
 }
 }
 return
-nullptr
+nsnull
 ;
 }
 NS_IMETHODIMP
@@ -499,7 +506,7 @@ aElement
 *
 aElement
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -573,7 +580,7 @@ aWindow
 *
 aWindow
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -810,7 +817,7 @@ AdvanceFocus
 return
 AdvanceFocusIntoSubtree
 (
-nullptr
+nsnull
 )
 ;
 }
@@ -864,7 +871,7 @@ fm
 MoveFocus
 (
 win
-nullptr
+nsnull
 nsIFocusManager
 :
 :
@@ -973,7 +980,7 @@ NS_PRECONDITION
 aElement
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -987,12 +994,6 @@ aElement
 )
 return
 NS_ERROR_NULL_POINTER
-;
-NS_ENSURE_TRUE
-(
-mDocument
-NS_ERROR_UNEXPECTED
-)
 ;
 nsresult
 rv
@@ -1050,7 +1051,7 @@ aElement
 {
 #
 ifdef
-DEBUG
+NS_DEBUG
 if
 (
 PR_LOG_TEST
@@ -1060,7 +1061,7 @@ PR_LOG_NOTICE
 )
 )
 {
-nsAutoCString
+nsCAutoString
 eventsC
 targetsC
 aeventsC
@@ -1200,7 +1201,7 @@ mNext
 }
 #
 ifdef
-DEBUG
+NS_DEBUG
 if
 (
 PR_LOG_TEST
@@ -1210,7 +1211,7 @@ PR_LOG_NOTICE
 )
 )
 {
-nsAutoCString
+nsCAutoString
 aeventsC
 atargetsC
 ;
@@ -1312,7 +1313,7 @@ NS_PRECONDITION
 aElement
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -1359,7 +1360,7 @@ aElement
 {
 #
 ifdef
-DEBUG
+NS_DEBUG
 if
 (
 PR_LOG_TEST
@@ -1369,7 +1370,7 @@ PR_LOG_NOTICE
 )
 )
 {
-nsAutoCString
+nsCAutoString
 eventsC
 targetsC
 ;
@@ -1569,7 +1570,7 @@ mUpdaters
 updater
 !
 =
-nullptr
+nsnull
 ;
 updater
 =
@@ -1626,7 +1627,7 @@ NS_ASSERTION
 content
 !
 =
-nullptr
+nsnull
 "
 not
 an
@@ -1652,7 +1653,7 @@ content
 }
 for
 (
-int32_t
+PRInt32
 u
 =
 0
@@ -1697,7 +1698,7 @@ NS_ASSERTION
 document
 !
 =
-nullptr
+nsnull
 "
 element
 has
@@ -1715,7 +1716,7 @@ continue
 ;
 #
 ifdef
-DEBUG
+NS_DEBUG
 if
 (
 PR_LOG_TEST
@@ -1725,7 +1726,7 @@ PR_LOG_NOTICE
 )
 )
 {
-nsAutoCString
+nsCAutoString
 aeventnameC
 ;
 CopyUTF16toUTF8
@@ -1805,7 +1806,7 @@ nsEventStatus_eIgnore
 nsEvent
 event
 (
-true
+PR_TRUE
 NS_XUL_COMMAND_UPDATE
 )
 ;
@@ -1818,7 +1819,7 @@ content
 context
 &
 event
-nullptr
+nsnull
 &
 status
 )
@@ -1857,9 +1858,9 @@ EqualsLiteral
 )
 )
 return
-true
+PR_TRUE
 ;
-int32_t
+PRInt32
 indx
 =
 aList
@@ -1881,7 +1882,7 @@ indx
 1
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -1922,7 +1923,7 @@ PRUnichar
 )
 )
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -1978,11 +1979,11 @@ PRUnichar
 )
 )
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 NS_IMETHODIMP
@@ -2080,7 +2081,7 @@ aSuppressFocusScroll
 *
 aSuppressFocusScroll
 =
-false
+PR_FALSE
 ;
 return
 NS_OK

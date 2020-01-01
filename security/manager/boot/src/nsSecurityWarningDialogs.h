@@ -79,9 +79,6 @@ PRUnichar
 showAgainName
 bool
 aAsync
-const
-uint32_t
-aBucket
 )
 ;
 nsresult
@@ -102,9 +99,6 @@ const
 PRUnichar
 *
 showAgainName
-const
-uint32_t
-aBucket
 bool
 *
 _result

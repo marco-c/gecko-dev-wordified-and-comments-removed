@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsIGlobalHistory
+.
+h
+"
+#
+include
+"
 nsIGlobalHistory2
 .
 h
@@ -144,8 +151,8 @@ history
 AddURI
 (
 aSource
-false
-true
+PR_FALSE
+PR_TRUE
 aReferrer
 )
 ;
@@ -193,7 +200,7 @@ NotifyObservers
 (
 aSource
 NS_LINK_VISITED_EVENT_TOPIC
-nullptr
+nsnull
 )
 ;
 }

@@ -52,11 +52,11 @@ nsDBusService
 {
 mConnection
 =
-nullptr
+nsnull
 ;
 mSingleClient
 =
-nullptr
+nsnull
 ;
 }
 nsDBusService
@@ -98,7 +98,7 @@ Cancel
 }
 gSingleton
 =
-nullptr
+nsnull
 ;
 }
 NS_IMPL_ISUPPORTS1
@@ -118,7 +118,7 @@ nsDBusService
 :
 gSingleton
 =
-nullptr
+nsnull
 ;
 already_AddRefed
 <
@@ -200,7 +200,7 @@ rv
 {
 mSingleClient
 =
-nullptr
+nsnull
 ;
 }
 return
@@ -233,7 +233,7 @@ client
 ;
 mSingleClient
 =
-nullptr
+nsnull
 ;
 }
 DBusPendingCall
@@ -255,7 +255,7 @@ DBusPendingCall
 *
 reply
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -278,7 +278,7 @@ reply
 {
 reply
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -319,7 +319,7 @@ HandleDBusDisconnect
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 return
@@ -418,7 +418,7 @@ Cancel
 ;
 mReconnectTimer
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -492,7 +492,7 @@ mConnection
 ;
 mConnection
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -563,7 +563,7 @@ rv
 {
 mReconnectTimer
 =
-nullptr
+nsnull
 ;
 return
 ;
@@ -596,7 +596,7 @@ NS_ERROR_FAILURE
 dbus_connection_set_exit_on_disconnect
 (
 mConnection
-false
+PR_FALSE
 )
 ;
 dbus_connection_setup_with_g_main

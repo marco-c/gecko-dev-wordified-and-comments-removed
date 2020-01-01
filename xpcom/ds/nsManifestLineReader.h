@@ -29,7 +29,7 @@ nsManifestLineReader
 :
 mBase
 (
-nullptr
+nsnull
 )
 {
 }
@@ -45,7 +45,7 @@ Init
 char
 *
 base
-uint32_t
+PRUint32
 flen
 )
 {
@@ -81,7 +81,7 @@ mNext
 mLimit
 )
 return
-false
+PR_FALSE
 ;
 mCur
 =
@@ -141,7 +141,7 @@ mNext
 break
 ;
 return
-true
+PR_TRUE
 ;
 }
 +
@@ -154,7 +154,7 @@ mLength
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 int
@@ -311,7 +311,7 @@ return
 mCur
 ;
 }
-uint32_t
+PRUint32
 LineLength
 (
 )
@@ -352,7 +352,7 @@ char
 *
 mCur
 ;
-uint32_t
+PRUint32
 mLength
 ;
 char

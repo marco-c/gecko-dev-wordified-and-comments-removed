@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsAccessibilityAtoms
-.
-h
-"
-#
-include
-"
 nsAccUtils
 .
 h
@@ -210,7 +203,7 @@ if
 imgContainer
 )
 {
-PRBool
+bool
 animated
 ;
 imgContainer
@@ -250,7 +243,7 @@ nsAString
 aName
 )
 {
-PRBool
+bool
 hasAltAttrib
 =
 mContent
@@ -259,7 +252,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 alt
@@ -694,7 +687,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 src
@@ -716,7 +709,7 @@ nsAccUtils
 SetAccAttr
 (
 aAttributes
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
 src
@@ -727,7 +720,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsHTMLImageAccessible
 :
 :
@@ -751,14 +744,14 @@ mContent
 HasAttr
 (
 kNameSpaceID_None
-nsAccessibilityAtoms
+nsGkAtoms
 :
 :
-longDesc
+longdesc
 )
 ;
 }
-PRBool
+bool
 nsHTMLImageAccessible
 :
 :

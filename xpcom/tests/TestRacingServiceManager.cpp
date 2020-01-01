@@ -75,15 +75,6 @@ include
 "
 mozilla
 /
-Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ReentrantMonitor
 .
 h
@@ -217,12 +208,12 @@ factory
 ;
 1
 "
-int32_t
+PRInt32
 gComponent1Count
 =
 0
 ;
-int32_t
+PRInt32
 gComponent2Count
 =
 0
@@ -231,7 +222,7 @@ ReentrantMonitor
 *
 gReentrantMonitor
 =
-nullptr
+nsnull
 ;
 bool
 gCreateInstanceCalled
@@ -306,7 +297,7 @@ mReentrantMonitorPtr
 *
 mReentrantMonitorPtr
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -321,7 +312,6 @@ mReentrantMonitorPtr
 ;
 class
 Factory
-MOZ_FINAL
 :
 public
 nsIFactory
@@ -335,7 +325,7 @@ Factory
 :
 mFirstComponentCreated
 (
-false
+PR_FALSE
 )
 {
 }
@@ -378,7 +368,6 @@ nsIFactory
 )
 class
 Component1
-MOZ_FINAL
 :
 public
 nsISupports
@@ -390,7 +379,7 @@ Component1
 (
 )
 {
-int32_t
+PRInt32
 count
 =
 PR_AtomicIncrement
@@ -440,7 +429,6 @@ nsISupports
 NS_INTERFACE_MAP_END
 class
 Component2
-MOZ_FINAL
 :
 public
 nsISupports
@@ -452,7 +440,7 @@ Component2
 (
 )
 {
-int32_t
+PRInt32
 count
 =
 PR_AtomicIncrement
@@ -542,7 +530,7 @@ gReentrantMonitor
 ;
 gCreateInstanceCalled
 =
-true
+PR_TRUE
 ;
 mon
 .
@@ -645,7 +633,7 @@ Runnable
 :
 mFirstRunnableDone
 (
-false
+PR_FALSE
 )
 {
 }
@@ -969,7 +957,7 @@ gReentrantMonitor
 ;
 gMainThreadWaiting
 =
-true
+PR_TRUE
 ;
 mon
 .
@@ -1015,7 +1003,7 @@ gMainThreadWaiting
 =
 gCreateInstanceCalled
 =
-false
+PR_FALSE
 ;
 gFactory
 -
@@ -1027,11 +1015,11 @@ runnable
 >
 mFirstRunnableDone
 =
-true
+PR_TRUE
 ;
 component
 =
-nullptr
+nsnull
 ;
 rv
 =
@@ -1060,7 +1048,7 @@ gReentrantMonitor
 ;
 gMainThreadWaiting
 =
-true
+PR_TRUE
 ;
 mon
 .

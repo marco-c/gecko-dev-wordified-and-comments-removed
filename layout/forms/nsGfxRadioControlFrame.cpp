@@ -130,7 +130,7 @@ ifdef
 ACCESSIBILITY
 already_AddRefed
 <
-Accessible
+nsAccessible
 >
 nsGfxRadioControlFrame
 :
@@ -174,7 +174,7 @@ PresShell
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 #

@@ -148,7 +148,7 @@ cx
 JSObject
 *
 obj
-uint32_t
+PRUint32
 argc
 jsval
 *

@@ -93,7 +93,7 @@ rv
 #
 ifdef
 DEBUG
-int32_t
+PRInt32
 state
 ;
 (
@@ -217,7 +217,7 @@ JSObject
 *
 obj
 =
-nullptr
+nsnull
 ;
 rv
 =

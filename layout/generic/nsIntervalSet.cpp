@@ -31,7 +31,7 @@ aAllocatorClosure
 :
 mList
 (
-nullptr
+nsnull
 )
 mAlloc
 (
@@ -382,7 +382,7 @@ mEnd
 aBegin
 )
 return
-true
+PR_TRUE
 ;
 current
 =
@@ -393,7 +393,7 @@ mNext
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 bool
@@ -440,7 +440,7 @@ mEnd
 aEnd
 )
 return
-true
+PR_TRUE
 ;
 current
 =
@@ -451,6 +451,6 @@ mNext
 ;
 }
 return
-false
+PR_FALSE
 ;
 }

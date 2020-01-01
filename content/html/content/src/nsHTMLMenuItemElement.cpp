@@ -206,11 +206,11 @@ mResult
 aMenuItem
 ;
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 protected
@@ -277,7 +277,7 @@ ClearChecked
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 protected
@@ -334,7 +334,7 @@ mExcludeMenuItem
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 *
@@ -348,7 +348,7 @@ IsCheckedDirty
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 protected
@@ -393,7 +393,7 @@ SetCheckedDirty
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 }
@@ -426,11 +426,11 @@ aVisitor2
 )
 mContinue1
 (
-true
+PR_TRUE
 )
 mContinue2
 (
-true
+PR_TRUE
 )
 {
 }
@@ -613,7 +613,7 @@ const
 *
 aResult
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -643,16 +643,6 @@ NOT_FROM_PARSER
 nsresult
 rv
 =
-const_cast
-<
-nsHTMLMenuItemElement
-*
->
-(
-this
-)
--
->
 CopyInnerTo
 (
 it
@@ -970,7 +960,7 @@ originalCheckedValue
 {
 SetChecked
 (
-true
+PR_TRUE
 )
 ;
 aVisitor
@@ -1067,7 +1057,7 @@ mItemFlags
 NS_ORIGINAL_CHECKED_VALUE
 )
 ;
-uint8_t
+PRUint8
 oldType
 =
 NS_MENUITEM_TYPE
@@ -1100,7 +1090,7 @@ selectedRadio
 >
 SetChecked
 (
-true
+PR_TRUE
 )
 ;
 if
@@ -1113,7 +1103,7 @@ CMD_TYPE_RADIO
 {
 SetChecked
 (
-false
+PR_FALSE
 )
 ;
 }
@@ -1203,7 +1193,7 @@ nsHTMLMenuItemElement
 :
 ParseAttribute
 (
-int32_t
+PRInt32
 aNamespaceID
 nsIAtom
 *
@@ -1245,7 +1235,7 @@ ParseEnumValue
 (
 aValue
 kMenuItemTypeTable
-false
+PR_FALSE
 )
 ;
 if
@@ -1295,7 +1285,7 @@ aValue
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 }
@@ -1359,7 +1349,7 @@ nsContentUtils
 GetNodeTextContent
 (
 this
-false
+PR_FALSE
 text
 )
 ;
@@ -1367,8 +1357,8 @@ text
 .
 CompressWhitespace
 (
-true
-true
+PR_TRUE
+PR_TRUE
 )
 ;
 aText
@@ -1382,13 +1372,13 @@ nsHTMLMenuItemElement
 :
 AfterSetAttr
 (
-int32_t
+PRInt32
 aNameSpaceID
 nsIAtom
 *
 aName
 const
-nsAttrValue
+nsAString
 *
 aValue
 bool
@@ -1666,7 +1656,6 @@ info1Empty
 info2Empty
 |
 |
-(
 info1
 .
 mValue
@@ -1689,7 +1678,6 @@ Equals
 info2
 .
 mValue
-)
 )
 )
 {
@@ -1726,7 +1714,7 @@ nsHTMLMenuItemElement
 *
 result
 =
-nullptr
+nsnull
 ;
 GetCheckedVisitor
 visitor

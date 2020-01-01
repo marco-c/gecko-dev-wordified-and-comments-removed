@@ -108,7 +108,7 @@ const
 nsACString
 &
 aCharset
-int32_t
+PRInt32
 aSource
 )
 ;
@@ -123,7 +123,7 @@ const
 nsACString
 &
 aCharset
-int32_t
+PRInt32
 aSource
 )
 ;
@@ -146,7 +146,7 @@ Peek
 PRUnichar
 &
 ch
-uint32_t
+PRUint32
 aOffset
 =
 0
@@ -158,9 +158,9 @@ Peek
 nsAString
 &
 aStr
-int32_t
+PRInt32
 aNumChars
-int32_t
+PRInt32
 aOffset
 =
 0
@@ -176,7 +176,7 @@ aSkipChar
 nsresult
 SkipWhitespace
 (
-int32_t
+PRInt32
 &
 aNewlinesSkipped
 )
@@ -203,7 +203,7 @@ ReadNumber
 nsString
 &
 aString
-int32_t
+PRInt32
 aBase
 )
 ;
@@ -213,7 +213,7 @@ ReadWhitespace
 nsScannerSharedSubstring
 &
 aString
-int32_t
+PRInt32
 &
 aNewlinesSkipped
 bool
@@ -230,7 +230,7 @@ aStart
 nsScannerIterator
 &
 aEnd
-int32_t
+PRInt32
 &
 aNewlinesSkipped
 )
@@ -292,7 +292,7 @@ bool
 addTerminal
 )
 ;
-int32_t
+PRInt32
 Mark
 (
 void
@@ -329,7 +329,7 @@ const
 char
 *
 aBuffer
-uint32_t
+PRUint32
 aLen
 nsIRequest
 *
@@ -364,7 +364,7 @@ const
 nsACString
 &
 aCharset
-int32_t
+PRInt32
 aSource
 )
 ;
@@ -448,7 +448,7 @@ mIncremental
 anIncrValue
 ;
 }
-int32_t
+PRInt32
 FirstNonWhitespacePosition
 (
 )
@@ -477,7 +477,7 @@ Buffer
 nsIRequest
 *
 aRequest
-int32_t
+PRInt32
 aErrorPos
 =
 -
@@ -514,16 +514,16 @@ if
 buf
 )
 return
-false
+PR_FALSE
 ;
 AppendToBuffer
 (
 buf
-nullptr
+nsnull
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 nsScannerString
@@ -545,7 +545,7 @@ mFirstInvalidPosition
 nsString
 mFilename
 ;
-uint32_t
+PRUint32
 mCountRemaining
 ;
 bool
@@ -557,10 +557,10 @@ mHasInvalidCharacter
 PRUnichar
 mReplacementCharacter
 ;
-int32_t
+PRInt32
 mFirstNonWhitespacePosition
 ;
-int32_t
+PRInt32
 mCharsetSource
 ;
 nsCString

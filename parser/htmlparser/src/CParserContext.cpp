@@ -110,7 +110,7 @@ aCommand
 )
 mMultipart
 (
-true
+PR_TRUE
 )
 mCopyUnused
 (
@@ -271,7 +271,7 @@ result
 =
 NS_OK
 ;
-int32_t
+PRInt32
 type
 =
 aDTD

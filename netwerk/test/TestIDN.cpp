@@ -185,7 +185,7 @@ if
 converter
 )
 {
-nsAutoCString
+nsCAutoString
 buf
 ;
 nsresult

@@ -53,7 +53,7 @@ error
 *
 aResult
 =
-nullptr
+nsnull
 ;
 nsRefPtr
 <
@@ -352,7 +352,7 @@ moveToParent
 {
 cont
 =
-false
+PR_FALSE
 ;
 break
 ;
@@ -425,7 +425,7 @@ moveToParent
 {
 cont
 =
-false
+PR_FALSE
 ;
 break
 ;
@@ -586,7 +586,7 @@ moveToParent
 {
 cont
 =
-false
+PR_FALSE
 ;
 break
 ;
@@ -659,7 +659,7 @@ moveToParent
 {
 cont
 =
-false
+PR_FALSE
 ;
 break
 ;
@@ -1066,7 +1066,7 @@ LocationStep
 :
 getSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 )
 {
@@ -1086,7 +1086,7 @@ LocationStep
 :
 setSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 Expr
 *

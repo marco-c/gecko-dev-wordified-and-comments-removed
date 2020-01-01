@@ -57,7 +57,7 @@ h
 #
 include
 "
-nsError
+nsDOMError
 .
 h
 "
@@ -138,7 +138,7 @@ sel
 >
 SetTree
 (
-nullptr
+nsnull
 )
 ;
 mView
@@ -146,13 +146,13 @@ mView
 >
 SetTree
 (
-nullptr
+nsnull
 )
 ;
 }
 mView
 =
-nullptr
+nsnull
 ;
 nsBoxObject
 :
@@ -171,7 +171,7 @@ nsTreeBoxObject
 :
 mTreeBody
 (
-nullptr
+nsnull
 )
 {
 }
@@ -200,7 +200,7 @@ aResult
 *
 aResult
 =
-nullptr
+nsnull
 ;
 ChildIterator
 iter
@@ -372,7 +372,7 @@ if
 frame
 )
 return
-nullptr
+nsnull
 ;
 }
 if
@@ -403,7 +403,7 @@ if
 frame
 )
 return
-nullptr
+nsnull
 ;
 }
 nsCOMPtr
@@ -432,7 +432,7 @@ if
 content
 )
 return
-nullptr
+nsnull
 ;
 frame
 =
@@ -449,7 +449,7 @@ if
 frame
 )
 return
-nullptr
+nsnull
 ;
 nsTreeBodyFrame
 *
@@ -474,7 +474,7 @@ GetTreeBoxObject
 =
 =
 this
-nullptr
+nsnull
 )
 ;
 mTreeBody
@@ -514,7 +514,7 @@ GetTreeBody
 *
 aView
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -645,7 +645,7 @@ IsCallerTrustedForWrite
 )
 )
 return
-true
+PR_TRUE
 ;
 nsCOMPtr
 <
@@ -676,11 +676,11 @@ EnsureNative
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 NS_IMETHODIMP
@@ -747,7 +747,7 @@ aFocused
 *
 aFocused
 =
-false
+PR_FALSE
 ;
 nsTreeBodyFrame
 *
@@ -824,7 +824,7 @@ aElement
 *
 aElement
 =
-nullptr
+nsnull
 ;
 nsTreeBodyFrame
 *
@@ -866,7 +866,7 @@ aColumns
 *
 aColumns
 =
-nullptr
+nsnull
 ;
 nsTreeBodyFrame
 *
@@ -899,7 +899,7 @@ nsTreeBoxObject
 :
 GetRowHeight
 (
-int32_t
+PRInt32
 *
 aRowHeight
 )
@@ -940,7 +940,7 @@ nsTreeBoxObject
 :
 GetRowWidth
 (
-int32_t
+PRInt32
 *
 aRowWidth
 )
@@ -981,7 +981,7 @@ nsTreeBoxObject
 :
 GetFirstVisibleRow
 (
-int32_t
+PRInt32
 *
 aFirstVisibleRow
 )
@@ -1022,7 +1022,7 @@ nsTreeBoxObject
 :
 GetLastVisibleRow
 (
-int32_t
+PRInt32
 *
 aLastVisibleRow
 )
@@ -1063,7 +1063,7 @@ nsTreeBoxObject
 :
 GetHorizontalPosition
 (
-int32_t
+PRInt32
 *
 aHorizontalPosition
 )
@@ -1104,7 +1104,7 @@ nsTreeBoxObject
 :
 GetPageLength
 (
-int32_t
+PRInt32
 *
 aPageLength
 )
@@ -1154,7 +1154,7 @@ aRegion
 *
 aRegion
 =
-nullptr
+nsnull
 ;
 nsTreeBodyFrame
 *
@@ -1187,7 +1187,7 @@ nsTreeBoxObject
 :
 EnsureRowIsVisible
 (
-int32_t
+PRInt32
 aRow
 )
 {
@@ -1222,7 +1222,7 @@ nsTreeBoxObject
 :
 EnsureCellIsVisible
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -1264,7 +1264,7 @@ nsTreeBoxObject
 :
 ScrollToRow
 (
-int32_t
+PRInt32
 aRow
 )
 {
@@ -1300,7 +1300,7 @@ nsTreeBoxObject
 :
 ScrollByLines
 (
-int32_t
+PRInt32
 aNumLines
 )
 {
@@ -1335,7 +1335,7 @@ nsTreeBoxObject
 :
 ScrollByPages
 (
-int32_t
+PRInt32
 aNumPages
 )
 {
@@ -1370,7 +1370,7 @@ nsTreeBoxObject
 :
 ScrollToCell
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -1445,7 +1445,7 @@ nsTreeBoxObject
 :
 ScrollToHorizontalPosition
 (
-int32_t
+PRInt32
 aHorizontalPosition
 )
 {
@@ -1548,7 +1548,7 @@ nsTreeBoxObject
 :
 InvalidateRow
 (
-int32_t
+PRInt32
 aIndex
 )
 {
@@ -1583,7 +1583,7 @@ nsTreeBoxObject
 :
 InvalidateCell
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -1622,9 +1622,9 @@ nsTreeBoxObject
 :
 InvalidateRange
 (
-int32_t
+PRInt32
 aStart
-int32_t
+PRInt32
 aEnd
 )
 {
@@ -1660,9 +1660,9 @@ nsTreeBoxObject
 :
 InvalidateColumnRange
 (
-int32_t
+PRInt32
 aStart
-int32_t
+PRInt32
 aEnd
 nsITreeColumn
 *
@@ -1702,11 +1702,11 @@ nsTreeBoxObject
 :
 GetRowAt
 (
-int32_t
+PRInt32
 x
-int32_t
+PRInt32
 y
-int32_t
+PRInt32
 *
 aRow
 )
@@ -1749,11 +1749,11 @@ nsTreeBoxObject
 :
 GetCellAt
 (
-int32_t
+PRInt32
 aX
-int32_t
+PRInt32
 aY
-int32_t
+PRInt32
 *
 aRow
 nsITreeColumn
@@ -1773,7 +1773,7 @@ aRow
 *
 aCol
 =
-nullptr
+nsnull
 ;
 nsTreeBodyFrame
 *
@@ -1810,7 +1810,7 @@ nsTreeBoxObject
 :
 GetCoordsForCellItem
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -1819,16 +1819,16 @@ const
 nsACString
 &
 aElement
-int32_t
+PRInt32
 *
 aX
-int32_t
+PRInt32
 *
 aY
-int32_t
+PRInt32
 *
 aWidth
-int32_t
+PRInt32
 *
 aHeight
 )
@@ -1884,7 +1884,7 @@ nsTreeBoxObject
 :
 IsCellCropped
 (
-int32_t
+PRInt32
 aRow
 nsITreeColumn
 *
@@ -1897,7 +1897,7 @@ aIsCropped
 *
 aIsCropped
 =
-false
+PR_FALSE
 ;
 nsTreeBodyFrame
 *
@@ -1932,9 +1932,9 @@ nsTreeBoxObject
 :
 RowCountChanged
 (
-int32_t
+PRInt32
 aIndex
-int32_t
+PRInt32
 aDelta
 )
 {
@@ -2070,7 +2070,7 @@ ClearCachedValues
 {
 mTreeBody
 =
-nullptr
+nsnull
 ;
 }
 nsresult

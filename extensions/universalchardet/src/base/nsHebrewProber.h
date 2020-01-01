@@ -54,7 +54,7 @@ const
 char
 *
 aBuf
-uint32_t
+PRUint32
 aLen
 )
 ;
@@ -95,6 +95,13 @@ float
 .
 0
 ;
+}
+virtual
+void
+SetOpion
+(
+)
+{
 }
 void
 SetModelProbers
@@ -145,7 +152,7 @@ char
 c
 )
 ;
-int32_t
+PRInt32
 mFinalCharLogicalScore
 mFinalCharVisualScore
 ;

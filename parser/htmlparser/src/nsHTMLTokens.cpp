@@ -206,7 +206,7 @@ AppendNCR
 nsSubstring
 &
 aString
-int32_t
+PRInt32
 aNCRValue
 )
 ;
@@ -222,7 +222,7 @@ nsScanner
 aScanner
 bool
 aIECompatible
-int32_t
+PRInt32
 aFlag
 )
 {
@@ -257,7 +257,7 @@ amp
 =
 0
 ;
-int32_t
+PRInt32
 theNCRValue
 =
 0
@@ -464,7 +464,7 @@ NS_OK
 }
 else
 {
-nsresult
+PRInt32
 err
 ;
 theNCRValue
@@ -520,7 +520,7 @@ ConsumeUntil
 nsScannerSharedSubstring
 &
 aString
-int32_t
+PRInt32
 &
 aNewlineCount
 nsScanner
@@ -534,7 +534,7 @@ bool
 aAllowNewlines
 bool
 aIECompatEntities
-int32_t
+PRInt32
 aFlag
 )
 {
@@ -558,7 +558,7 @@ ReadUntil
 (
 aString
 aEndCondition
-false
+PR_FALSE
 )
 ;
 if
@@ -739,7 +739,7 @@ else
 {
 done
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -800,7 +800,7 @@ aTag
 {
 mEmpty
 =
-false
+PR_FALSE
 ;
 mContainerInfo
 =
@@ -811,7 +811,7 @@ ifdef
 DEBUG
 mAttributed
 =
-false
+PR_FALSE
 ;
 #
 endif
@@ -834,7 +834,7 @@ eHTMLTag_unknown
 {
 mEmpty
 =
-false
+PR_FALSE
 ;
 mContainerInfo
 =
@@ -852,7 +852,7 @@ ifdef
 DEBUG
 mAttributed
 =
-false
+PR_FALSE
 ;
 #
 endif
@@ -877,7 +877,7 @@ aTag
 {
 mEmpty
 =
-false
+PR_FALSE
 ;
 mContainerInfo
 =
@@ -895,12 +895,12 @@ ifdef
 DEBUG
 mAttributed
 =
-false
+PR_FALSE
 ;
 #
 endif
 }
-int32_t
+PRInt32
 CStartToken
 :
 :
@@ -931,7 +931,7 @@ return
 mTypeID
 ;
 }
-int32_t
+PRInt32
 CStartToken
 :
 :
@@ -981,7 +981,7 @@ aChar
 nsScanner
 &
 aScanner
-int32_t
+PRInt32
 aFlag
 )
 {
@@ -1012,7 +1012,7 @@ tagIdent
 mTypeID
 =
 (
-int32_t
+PRInt32
 )
 nsHTMLTags
 :
@@ -1352,7 +1352,7 @@ aChar
 nsScanner
 &
 aScanner
-int32_t
+PRInt32
 aFlag
 )
 {
@@ -1383,7 +1383,7 @@ tagIdent
 mTypeID
 =
 (
-int32_t
+PRInt32
 )
 nsHTMLTags
 :
@@ -1503,7 +1503,7 @@ return
 result
 ;
 }
-int32_t
+PRInt32
 CEndToken
 :
 :
@@ -1556,7 +1556,7 @@ return
 mTypeID
 ;
 }
-int32_t
+PRInt32
 CEndToken
 :
 :
@@ -1747,7 +1747,7 @@ aName
 )
 ;
 }
-int32_t
+PRInt32
 CTextToken
 :
 :
@@ -1759,7 +1759,7 @@ return
 eToken_text
 ;
 }
-int32_t
+PRInt32
 CTextToken
 :
 :
@@ -1786,7 +1786,7 @@ aChar
 nsScanner
 &
 aScanner
-int32_t
+PRInt32
 aFlag
 )
 {
@@ -1931,7 +1931,7 @@ ReadUntil
 start
 end
 theEndCondition
-false
+PR_FALSE
 )
 ;
 if
@@ -2100,7 +2100,7 @@ else
 {
 done
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -2133,7 +2133,7 @@ const
 nsAString
 &
 aEndTagName
-int32_t
+PRInt32
 aFlag
 bool
 &
@@ -2206,7 +2206,7 @@ ltslash
 +
 aEndTagName
 ;
-uint32_t
+PRUint32
 termStrLen
 =
 theTerminalString
@@ -2253,7 +2253,7 @@ endPos
 &
 (
 (
-uint32_t
+PRUint32
 )
 ltOffset
 .
@@ -2390,7 +2390,7 @@ endPos
 {
 found
 =
-true
+PR_TRUE
 ;
 theTermStrPos
 =
@@ -2564,11 +2564,11 @@ ltOffset
 ;
 aFlushTokens
 =
-true
+PR_TRUE
 ;
 done
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -2597,14 +2597,14 @@ theAltTermStrPos
 ;
 theLastIteration
 =
-true
+PR_TRUE
 ;
 }
 else
 {
 done
 =
-true
+PR_TRUE
 ;
 result
 =
@@ -2676,7 +2676,7 @@ const
 nsAString
 &
 aEndTagName
-int32_t
+PRInt32
 aFlag
 bool
 &
@@ -2736,12 +2736,12 @@ currPos
 endPos
 altEndPos
 ;
-uint32_t
+PRUint32
 truncPos
 =
 0
 ;
-int32_t
+PRInt32
 truncNewlineCount
 =
 0
@@ -2800,7 +2800,7 @@ ltslash
 +
 aEndTagName
 ;
-uint32_t
+PRUint32
 termStrLen
 =
 theTerminalString
@@ -2809,7 +2809,7 @@ Length
 (
 )
 ;
-uint32_t
+PRUint32
 commentStartLen
 =
 commentStart
@@ -2833,8 +2833,8 @@ theContent
 mNewlineCount
 aScanner
 theEndCondition
-true
-false
+PR_TRUE
+PR_FALSE
 aFlag
 )
 ;
@@ -2888,7 +2888,7 @@ IsEmpty
 )
 )
 {
-uint32_t
+PRUint32
 where
 =
 0
@@ -2982,7 +2982,7 @@ where
 }
 aDiscardFirstNewline
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -3010,7 +3010,7 @@ IsIncremental
 {
 aFound
 =
-true
+PR_TRUE
 ;
 result
 =
@@ -3047,8 +3047,8 @@ aScanner
 SetPosition
 (
 altEndPos
-false
-true
+PR_FALSE
+PR_TRUE
 )
 ;
 }
@@ -3068,7 +3068,7 @@ else
 {
 aFound
 =
-false
+PR_FALSE
 ;
 }
 return
@@ -3222,7 +3222,7 @@ r
 {
 aFound
 =
-true
+PR_TRUE
 ;
 mTextValue
 .
@@ -3240,8 +3240,8 @@ aScanner
 SetPosition
 (
 currPos
-false
-true
+PR_FALSE
+PR_TRUE
 )
 ;
 break
@@ -3560,7 +3560,7 @@ aName
 )
 ;
 }
-int32_t
+PRInt32
 CCDATASectionToken
 :
 :
@@ -3583,7 +3583,7 @@ aChar
 nsScanner
 &
 aScanner
-int32_t
+PRInt32
 aFlag
 )
 {
@@ -3659,7 +3659,7 @@ ReadUntil
 (
 mTextValue
 theEndCondition
-false
+PR_FALSE
 )
 ;
 if
@@ -3889,7 +3889,7 @@ aChar
 ;
 canClose
 =
-true
+PR_TRUE
 ;
 }
 bool
@@ -3980,7 +3980,7 @@ ReadUntil
 (
 dummy
 kGreaterThan
-false
+PR_FALSE
 )
 ;
 }
@@ -4020,7 +4020,7 @@ aChar
 ;
 done
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -4028,7 +4028,7 @@ else
 {
 done
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -4051,7 +4051,7 @@ IsIncremental
 {
 mInError
 =
-true
+PR_TRUE
 ;
 result
 =
@@ -4113,7 +4113,7 @@ aName
 )
 ;
 }
-int32_t
+PRInt32
 CMarkupDeclToken
 :
 :
@@ -4136,7 +4136,7 @@ aChar
 nsScanner
 &
 aScanner
-int32_t
+PRInt32
 aFlag
 )
 {
@@ -4254,7 +4254,7 @@ ReadUntil
 start
 end
 theEndCondition
-false
+PR_FALSE
 )
 ;
 if
@@ -4462,7 +4462,7 @@ start
 ;
 done
 =
-true
+PR_TRUE
 ;
 }
 break
@@ -4496,7 +4496,7 @@ else
 {
 done
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -4520,7 +4520,7 @@ result
 {
 mInError
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -4637,7 +4637,7 @@ current
 =
 aCurrent
 ;
-int32_t
+PRInt32
 dashes
 =
 0
@@ -4670,7 +4670,7 @@ aGt
 current
 ;
 return
-true
+PR_TRUE
 ;
 }
 if
@@ -4705,7 +4705,7 @@ current
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 nsresult
@@ -4995,8 +4995,8 @@ aScanner
 SetPosition
 (
 lt
-false
-true
+PR_FALSE
+PR_TRUE
 )
 ;
 return
@@ -5188,7 +5188,7 @@ kMinus
 {
 goodComment
 =
-true
+PR_TRUE
 ;
 -
 -
@@ -5258,7 +5258,7 @@ current
 ;
 goodComment
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -5274,7 +5274,7 @@ beginLastMinus
 {
 goodComment
 =
-true
+PR_TRUE
 ;
 }
 if
@@ -5593,8 +5593,8 @@ aScanner
 SetPosition
 (
 lt
-false
-true
+PR_FALSE
+PR_TRUE
 )
 ;
 return
@@ -5616,14 +5616,14 @@ aChar
 nsScanner
 &
 aScanner
-int32_t
+PRInt32
 aFlag
 )
 {
 nsresult
 result
 =
-NS_OK
+PR_TRUE
 ;
 if
 (
@@ -5690,7 +5690,7 @@ AsString
 )
 ;
 }
-int32_t
+PRInt32
 CCommentToken
 :
 :
@@ -5715,7 +5715,7 @@ eHTMLTag_newline
 )
 {
 }
-int32_t
+PRInt32
 CNewlineToken
 :
 :
@@ -5773,7 +5773,7 @@ gNewlineStr
 ;
 gNewlineStr
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -5807,7 +5807,7 @@ aChar
 nsScanner
 &
 aScanner
-int32_t
+PRInt32
 aFlag
 )
 {
@@ -5899,7 +5899,7 @@ eHTMLTag_unknown
 {
 mHasEqualWithoutValue
 =
-false
+PR_FALSE
 ;
 }
 CAttributeToken
@@ -5931,7 +5931,7 @@ aName
 ;
 mHasEqualWithoutValue
 =
-false
+PR_FALSE
 ;
 }
 CAttributeToken
@@ -5974,10 +5974,10 @@ aKey
 ;
 mHasEqualWithoutValue
 =
-false
+PR_FALSE
 ;
 }
-int32_t
+PRInt32
 CAttributeToken
 :
 :
@@ -6094,13 +6094,13 @@ aChar
 nsScannerSharedSubstring
 &
 aString
-int32_t
+PRInt32
 &
 aNewlineCount
 nsScanner
 &
 aScanner
-int32_t
+PRInt32
 aFlag
 )
 {
@@ -6126,7 +6126,7 @@ apostrophe
 "
 )
 ;
-uint32_t
+PRUint32
 origLen
 =
 aString
@@ -6265,8 +6265,8 @@ aNewlineCount
 aScanner
 *
 terminateCondition
-true
-true
+PR_TRUE
+PR_TRUE
 aFlag
 )
 ;
@@ -6354,8 +6354,8 @@ aScanner
 SetPosition
 (
 theOffset
-false
-true
+PR_FALSE
+PR_TRUE
 )
 ;
 result
@@ -6366,8 +6366,8 @@ aString
 aNewlineCount
 aScanner
 theAttributeTerminator
-false
-true
+PR_FALSE
+PR_TRUE
 aFlag
 )
 ;
@@ -6408,7 +6408,7 @@ aChar
 nsScannerIterator
 &
 aCurrent
-int32_t
+PRInt32
 &
 aNewlineCount
 )
@@ -6502,7 +6502,7 @@ aChar
 nsScanner
 &
 aScanner
-int32_t
+PRInt32
 aFlag
 )
 {
@@ -6674,7 +6674,7 @@ ReadUntil
 start
 end
 theEndCondition
-false
+PR_FALSE
 )
 ;
 if
@@ -6972,7 +6972,7 @@ NS_OK
 ;
 mInError
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -6987,11 +6987,11 @@ aChar
 {
 mHasEqualWithoutValue
 =
-true
+PR_TRUE
 ;
 mInError
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -7012,8 +7012,8 @@ mTextValue
 mNewlineCount
 aScanner
 theAttributeTerminator
-false
-true
+PR_FALSE
+PR_TRUE
 aFlag
 )
 ;
@@ -7067,11 +7067,11 @@ else
 {
 mHasEqualWithoutValue
 =
-true
+PR_TRUE
 ;
 mInError
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -7116,7 +7116,7 @@ NS_IPARSER_FLAG_XML
 {
 mInError
 =
-true
+PR_TRUE
 ;
 }
 if
@@ -7375,7 +7375,7 @@ aName
 )
 ;
 }
-int32_t
+PRInt32
 CWhitespaceToken
 :
 :
@@ -7398,7 +7398,7 @@ aChar
 nsScanner
 &
 aScanner
-int32_t
+PRInt32
 aFlag
 )
 {
@@ -7419,8 +7419,8 @@ SetPosition
 -
 -
 start
-false
-true
+PR_FALSE
+PR_TRUE
 )
 ;
 bool
@@ -7552,7 +7552,7 @@ aChar
 nsScanner
 &
 aScanner
-int32_t
+PRInt32
 aFlag
 )
 {
@@ -7570,7 +7570,7 @@ return
 result
 ;
 }
-int32_t
+PRInt32
 CEntityToken
 :
 :
@@ -7618,12 +7618,12 @@ GetChar
 aChar
 )
 ;
-int32_t
+PRInt32
 rightBraceCount
 =
 0
 ;
-int32_t
+PRInt32
 leftBraceCount
 =
 0
@@ -8011,7 +8011,7 @@ NOT_USED
 0xfffd
 static
 const
-uint16_t
+PRUint16
 PA_HackTable
 [
 ]
@@ -8058,7 +8058,7 @@ AppendNCR
 nsSubstring
 &
 aString
-int32_t
+PRInt32
 aNCRValue
 )
 {
@@ -8096,7 +8096,7 @@ aString
 )
 ;
 }
-int32_t
+PRInt32
 CEntityToken
 :
 :
@@ -8107,7 +8107,7 @@ nsString
 aString
 )
 {
-int32_t
+PRInt32
 value
 =
 0
@@ -8141,10 +8141,10 @@ kHashsign
 theChar0
 )
 {
-nsresult
+PRInt32
 err
 =
-NS_OK
+0
 ;
 value
 =
@@ -8159,10 +8159,10 @@ kAutoDetect
 ;
 if
 (
-NS_SUCCEEDED
-(
+0
+=
+=
 err
-)
 )
 {
 AppendNCR
@@ -8281,7 +8281,7 @@ PRUnichar
 *
 GetTagName
 (
-int32_t
+PRInt32
 aTag
 )
 {
@@ -8374,7 +8374,7 @@ aChar
 nsScanner
 &
 aScanner
-int32_t
+PRInt32
 aFlag
 )
 {
@@ -8418,7 +8418,7 @@ ReadUntil
 (
 mTextValue
 kGreaterThan
-false
+PR_FALSE
 )
 ;
 if
@@ -8451,7 +8451,7 @@ Last
 {
 done
 =
-true
+PR_TRUE
 ;
 }
 aScanner
@@ -8488,7 +8488,7 @@ IsIncremental
 {
 mInError
 =
-true
+PR_TRUE
 ;
 result
 =
@@ -8499,7 +8499,7 @@ return
 result
 ;
 }
-int32_t
+PRInt32
 CInstructionToken
 :
 :
@@ -8574,7 +8574,7 @@ aChar
 nsScanner
 &
 aScanner
-int32_t
+PRInt32
 aFlag
 )
 {
@@ -8640,7 +8640,7 @@ ReadUntil
 start
 end
 theEndCondition
-false
+PR_FALSE
 )
 ;
 if
@@ -8709,7 +8709,7 @@ error
 ;
 mInError
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -8726,7 +8726,7 @@ IsIncremental
 {
 mInError
 =
-true
+PR_TRUE
 ;
 result
 =
@@ -8761,7 +8761,7 @@ return
 result
 ;
 }
-int32_t
+PRInt32
 CDoctypeDeclToken
 :
 :

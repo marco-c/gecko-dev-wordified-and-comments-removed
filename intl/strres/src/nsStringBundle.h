@@ -97,7 +97,7 @@ protected
 nsresult
 GetStringFromID
 (
-int32_t
+PRInt32
 aID
 nsAString
 &
@@ -166,7 +166,7 @@ PRUnichar
 *
 *
 aParams
-uint32_t
+PRUint32
 aLength
 PRUnichar
 *

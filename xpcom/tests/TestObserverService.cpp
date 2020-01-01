@@ -56,15 +56,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
 <
 stdio
 .
@@ -160,7 +151,6 @@ get
 }
 class
 TestObserver
-MOZ_FINAL
 :
 public
 nsIObserver
@@ -481,7 +471,7 @@ topicA
 get
 (
 )
-false
+PR_FALSE
 )
 ;
 testResult
@@ -523,7 +513,7 @@ topicA
 get
 (
 )
-false
+PR_FALSE
 )
 ;
 testResult
@@ -565,7 +555,7 @@ topicB
 get
 (
 )
-false
+PR_FALSE
 )
 ;
 testResult
@@ -1019,6 +1009,6 @@ rv
 ;
 }
 return
-0
+NS_OK
 ;
 }

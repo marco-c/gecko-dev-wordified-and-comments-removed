@@ -97,13 +97,6 @@ h
 #
 include
 "
-nsContentList
-.
-h
-"
-#
-include
-"
 nsContentCreatorFunctions
 .
 h
@@ -224,7 +217,7 @@ nsGfxButtonControlFrame
 :
 IsFileBrowseButton
 (
-int32_t
+PRInt32
 type
 )
 {
@@ -362,7 +355,7 @@ mTextContent
 SetText
 (
 label
-false
+PR_FALSE
 )
 ;
 if
@@ -391,7 +384,7 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
-uint32_t
+PRUint32
 aFilter
 )
 {
@@ -419,7 +412,7 @@ nsIFrame
 *
 newFrame
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -498,7 +491,7 @@ Init
 (
 mTextContent
 parentFrame
-nullptr
+nsnull
 )
 ;
 mTextContent
@@ -625,7 +618,7 @@ form
 NS_ERROR_UNEXPECTED
 )
 ;
-int32_t
+PRInt32
 type
 =
 form
@@ -877,12 +870,12 @@ nsGfxButtonControlFrame
 :
 AttributeChanged
 (
-int32_t
+PRInt32
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-int32_t
+PRInt32
 aModType
 )
 {
@@ -932,7 +925,7 @@ mTextContent
 SetText
 (
 label
-true
+PR_TRUE
 )
 ;
 }
@@ -973,7 +966,7 @@ IsLeaf
 const
 {
 return
-true
+PR_TRUE
 ;
 }
 nsIFrame

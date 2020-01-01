@@ -119,7 +119,7 @@ PR_LOG_DEBUG
 )
 )
 {
-nsAutoCString
+nsCAutoString
 props
 ;
 nsResourceSet
@@ -354,7 +354,7 @@ aCantHandleYet
 *
 aCantHandleYet
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -716,7 +716,7 @@ if
 rdfcontainer
 )
 {
-int32_t
+PRInt32
 index
 ;
 rv
@@ -750,7 +750,7 @@ index
 )
 isconsistent
 =
-true
+PR_TRUE
 ;
 }
 if
@@ -812,7 +812,7 @@ containerRes
 *
 property
 memberValue
-true
+PR_TRUE
 &
 hasAssertion
 )
@@ -834,7 +834,7 @@ hasAssertion
 {
 isconsistent
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -1313,7 +1313,7 @@ GetSources
 (
 property
 memberValue
-true
+PR_TRUE
 getter_AddRefs
 (
 sources
@@ -1596,7 +1596,7 @@ GetTargets
 containerRes
 *
 property
-true
+PR_TRUE
 getter_AddRefs
 (
 results
@@ -1616,7 +1616,7 @@ GetSources
 *
 property
 memberValue
-true
+PR_TRUE
 getter_AddRefs
 (
 results
@@ -1736,7 +1736,7 @@ NS_ASSERTION
 value
 !
 =
-nullptr
+nsnull
 "
 member
 is
@@ -1822,7 +1822,7 @@ NS_ASSERTION
 valueRes
 !
 =
-nullptr
+nsnull
 "
 container
 is
@@ -2001,7 +2001,7 @@ NS_ERROR_UNEXPECTED
 *
 aCantHandleYet
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -2079,7 +2079,7 @@ if
 rdfc
 )
 return
-false
+PR_FALSE
 ;
 rv
 =
@@ -2101,7 +2101,7 @@ rv
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -2260,11 +2260,11 @@ aTarget
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 void

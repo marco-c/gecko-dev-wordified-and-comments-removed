@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsError
+nsDOMError
 .
 h
 "
@@ -47,7 +47,7 @@ h
 #
 include
 "
-nsDOMClassInfoID
+nsIDOMClassInfo
 .
 h
 "
@@ -102,7 +102,7 @@ nsXPathResult
 :
 mDocument
 (
-nullptr
+nsnull
 )
 mCurrentPos
 (
@@ -114,11 +114,11 @@ ANY_TYPE
 )
 mInvalidIteratorState
 (
-true
+PR_TRUE
 )
 mBooleanResult
 (
-false
+PR_FALSE
 )
 mNumberResult
 (
@@ -309,7 +309,7 @@ nsXPathResult
 :
 GetResultType
 (
-uint16_t
+PRUint16
 *
 aResultType
 )
@@ -470,7 +470,7 @@ else
 *
 aSingleNodeValue
 =
-nullptr
+nsnull
 ;
 }
 return
@@ -508,7 +508,7 @@ nsXPathResult
 :
 GetSnapshotLength
 (
-uint32_t
+PRUint32
 *
 aSnapshotLength
 )
@@ -529,7 +529,7 @@ NS_ERROR_DOM_TYPE_ERR
 aSnapshotLength
 =
 (
-uint32_t
+PRUint32
 )
 mResultNodes
 .
@@ -593,7 +593,7 @@ if
 mCurrentPos
 <
 (
-uint32_t
+PRUint32
 )
 mResultNodes
 .
@@ -621,7 +621,7 @@ else
 *
 aResult
 =
-nullptr
+nsnull
 ;
 }
 return
@@ -634,7 +634,7 @@ nsXPathResult
 :
 SnapshotItem
 (
-uint32_t
+PRUint32
 aIndex
 nsIDOMNode
 *
@@ -694,7 +694,7 @@ this
 ;
 mDocument
 =
-nullptr
+nsnull
 ;
 Invalidate
 (
@@ -719,7 +719,7 @@ nsIContent
 aNode
 )
 :
-nullptr
+nsnull
 )
 ;
 }
@@ -758,12 +758,12 @@ aDocument
 Element
 *
 aElement
-int32_t
+PRInt32
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-int32_t
+PRInt32
 aModType
 )
 {
@@ -788,7 +788,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-int32_t
+PRInt32
 aNewIndexInContainer
 )
 {
@@ -813,7 +813,7 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
+PRInt32
 aIndexInContainer
 )
 {
@@ -838,7 +838,7 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
+PRInt32
 aIndexInContainer
 nsIContent
 *
@@ -860,7 +860,7 @@ SetExprResult
 txAExprResult
 *
 aExprResult
-uint16_t
+PRUint16
 aResultType
 nsINode
 *
@@ -933,7 +933,7 @@ this
 ;
 mDocument
 =
-nullptr
+nsnull
 ;
 }
 mResultNodes
@@ -1010,7 +1010,7 @@ nsIDOMNode
 >
 node
 ;
-int32_t
+PRInt32
 i
 count
 =
@@ -1077,7 +1077,7 @@ count
 {
 mResult
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -1095,7 +1095,7 @@ NS_OK
 }
 mInvalidIteratorState
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -1228,7 +1228,7 @@ nsIContent
 *
 ctxBindingParent
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -1337,7 +1337,7 @@ return
 }
 mInvalidIteratorState
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -1354,7 +1354,7 @@ this
 ;
 mDocument
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -1426,7 +1426,7 @@ nodeSet
 new
 txNodeSet
 (
-nullptr
+nsnull
 )
 ;
 if
@@ -1439,7 +1439,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-uint32_t
+PRUint32
 i
 count
 =
@@ -1529,7 +1529,7 @@ aResult
 *
 aResult
 =
-nullptr
+nsnull
 ;
 if
 (

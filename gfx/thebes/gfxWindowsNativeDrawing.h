@@ -92,7 +92,7 @@ const
 gfxRect
 &
 nativeRect
-uint32_t
+PRUint32
 nativeDrawFlags
 =
 CANNOT_DRAW_TO_COLOR_ALPHA
@@ -152,10 +152,10 @@ mContext
 gfxRect
 mNativeRect
 ;
-uint32_t
+PRUint32
 mNativeDrawFlags
 ;
-uint8_t
+PRUint8
 mRenderState
 ;
 gfxPoint

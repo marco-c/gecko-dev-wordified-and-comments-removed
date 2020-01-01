@@ -206,7 +206,7 @@ mMilliseconds
 aMillis
 ;
 }
-int8_t
+PRInt8
 CompareTo
 (
 const

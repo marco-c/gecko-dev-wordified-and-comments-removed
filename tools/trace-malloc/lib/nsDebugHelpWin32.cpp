@@ -105,7 +105,7 @@ DHWImportHooker
 :
 gLock
 =
-nullptr
+nsnull
 ;
 DHWImportHooker
 *
@@ -114,7 +114,7 @@ DHWImportHooker
 :
 gHooks
 =
-nullptr
+nsnull
 ;
 GETPROCADDRESS
 DHWImportHooker
@@ -122,7 +122,7 @@ DHWImportHooker
 :
 gRealGetProcAddress
 =
-nullptr
+nsnull
 ;
 static
 bool
@@ -154,7 +154,7 @@ gTried
 {
 gTried
 =
-true
+PR_TRUE
 ;
 HMODULE
 module
@@ -246,7 +246,7 @@ dw
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 #
@@ -284,7 +284,7 @@ dhw
 name_
 )
 return
-false
+PR_FALSE
 ;
 #
 ifdef
@@ -316,7 +316,7 @@ undef
 INIT_PROC
 gInitialized
 =
-true
+PR_TRUE
 ;
 }
 return
@@ -521,7 +521,7 @@ info
 .
 AllocationBase
 :
-nullptr
+nsnull
 ;
 }
 DHWImportHooker
@@ -545,7 +545,7 @@ aExcludeOurModule
 :
 mNext
 (
-nullptr
+nsnull
 )
 mModuleName
 (
@@ -557,7 +557,7 @@ aFunctionName
 )
 mOriginal
 (
-nullptr
+nsnull
 )
 mHook
 (
@@ -571,11 +571,11 @@ ThisModule
 (
 )
 :
-nullptr
+nsnull
 )
 mHooking
 (
-true
+PR_TRUE
 )
 {
 if
@@ -654,7 +654,7 @@ gLock
 ;
 mHooking
 =
-false
+PR_FALSE
 ;
 PatchAllModules
 (
@@ -724,7 +724,7 @@ gLock
 ;
 gLock
 =
-nullptr
+nsnull
 ;
 PR_Unlock
 (
@@ -881,7 +881,7 @@ mIgnoreModule
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 PIMAGE_IMPORT_DESCRIPTOR
@@ -898,7 +898,7 @@ PIMAGE_IMPORT_DESCRIPTOR
 dhwImageDirectoryEntryToData
 (
 aModule
-true
+PR_TRUE
 IMAGE_DIRECTORY_ENTRY_IMPORT
 &
 size
@@ -911,7 +911,7 @@ desc
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 for
@@ -972,7 +972,7 @@ Name
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 PIMAGE_THUNK_DATA
@@ -1095,7 +1095,7 @@ sizeof
 (
 replacement
 )
-nullptr
+nsnull
 )
 ;
 if
@@ -1130,7 +1130,7 @@ GetLastError
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 else
@@ -1149,7 +1149,7 @@ result
 }
 }
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -1213,7 +1213,7 @@ gLock
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 HMODULE

@@ -98,7 +98,7 @@ nsXMLElement
 :
 UnsetAttr
 (
-int32_t
+PRInt32
 aNameSpaceID
 nsIAtom
 *
@@ -137,7 +137,7 @@ RemoveFromIdTable
 ;
 isId
 =
-true
+PR_TRUE
 ;
 }
 nsMutationGuard
@@ -264,7 +264,7 @@ GetAtomValue
 (
 )
 :
-nullptr
+nsnull
 ;
 }
 void
@@ -504,7 +504,7 @@ nsXMLElement
 :
 ParseAttribute
 (
-int32_t
+PRInt32
 aNamespaceID
 nsIAtom
 *
@@ -552,7 +552,7 @@ ClearHasID
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 aResult
@@ -576,11 +576,11 @@ GetAtomValue
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 nsresult

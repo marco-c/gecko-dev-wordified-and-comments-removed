@@ -37,7 +37,7 @@ aResult
 *
 aResult
 =
-nullptr
+nsnull
 ;
 nsRefPtr
 <
@@ -70,7 +70,7 @@ rv
 rv
 )
 ;
-uint32_t
+PRUint32
 i
 len
 =
@@ -171,7 +171,7 @@ exprResult
 ;
 exprResult
 =
-nullptr
+nsnull
 ;
 rv
 =
@@ -261,7 +261,7 @@ ContextSensitivity
 aContext
 )
 {
-uint32_t
+PRUint32
 i
 len
 =
@@ -301,12 +301,12 @@ aContext
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 }
 return
-false
+PR_FALSE
 ;
 }
 #
@@ -323,7 +323,7 @@ nsAString
 dest
 )
 {
-uint32_t
+PRUint32
 i
 ;
 for

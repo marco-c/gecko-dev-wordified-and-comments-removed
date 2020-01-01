@@ -98,7 +98,7 @@ ref
 }
 }
 return
-nullptr
+nsnull
 ;
 }
 nsresult
@@ -217,7 +217,7 @@ nsISupports
 aElement
 )
 {
-uint32_t
+PRUint32
 index
 =
 aArray

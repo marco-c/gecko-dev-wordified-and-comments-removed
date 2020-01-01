@@ -54,10 +54,6 @@ nsINameSpaceManager
 .
 h
 "
-using
-namespace
-mozilla
-;
 nsBoxLayout
 *
 nsStackLayout
@@ -65,7 +61,7 @@ nsStackLayout
 :
 gInstance
 =
-nullptr
+nsnull
 ;
 #
 define
@@ -184,7 +180,7 @@ nsStackLayout
 :
 GetPrefSize
 (
-nsIFrame
+nsIBox
 *
 aBox
 nsBoxLayoutState
@@ -199,7 +195,7 @@ prefSize
 0
 )
 ;
-nsIFrame
+nsIBox
 *
 child
 =
@@ -310,7 +306,7 @@ nsStackLayout
 :
 GetMinSize
 (
-nsIFrame
+nsIBox
 *
 aBox
 nsBoxLayoutState
@@ -325,7 +321,7 @@ minSize
 0
 )
 ;
-nsIFrame
+nsIBox
 *
 child
 =
@@ -436,7 +432,7 @@ nsStackLayout
 :
 GetMaxSize
 (
-nsIFrame
+nsIBox
 *
 aBox
 nsBoxLayoutState
@@ -451,7 +447,7 @@ NS_INTRINSICSIZE
 NS_INTRINSICSIZE
 )
 ;
-nsIFrame
+nsIBox
 *
 child
 =
@@ -584,7 +580,7 @@ nsStackLayout
 :
 GetAscent
 (
-nsIFrame
+nsIBox
 *
 aBox
 nsBoxLayoutState
@@ -597,7 +593,7 @@ vAscent
 =
 0
 ;
-nsIFrame
+nsIBox
 *
 child
 =
@@ -666,7 +662,7 @@ return
 vAscent
 ;
 }
-uint8_t
+PRUint8
 nsStackLayout
 :
 :
@@ -675,7 +671,7 @@ GetOffset
 nsBoxLayoutState
 &
 aState
-nsIFrame
+nsIBox
 *
 aChild
 nsMargin
@@ -717,7 +713,7 @@ NS_STATE_STACK_NOT_POSITIONED
 return
 0
 ;
-uint8_t
+PRUint8
 offsetSpecified
 =
 0
@@ -757,7 +753,7 @@ NS_STYLE_DIRECTION_LTR
 nsAutoString
 value
 ;
-nsresult
+PRInt32
 error
 ;
 content
@@ -1194,7 +1190,7 @@ nsStackLayout
 :
 Layout
 (
-nsIFrame
+nsIBox
 *
 aBox
 nsBoxLayoutState
@@ -1218,7 +1214,7 @@ grow
 ;
 do
 {
-nsIFrame
+nsIBox
 *
 child
 =
@@ -1231,7 +1227,7 @@ GetChildBox
 ;
 grow
 =
-false
+PR_FALSE
 ;
 while
 (
@@ -1337,7 +1333,7 @@ margin
 nsMargin
 offset
 ;
-uint8_t
+PRUint8
 offsetSpecified
 =
 GetOffset
@@ -1427,15 +1423,18 @@ childRect
 .
 width
 =
-clamped
+NS_MAX
 (
-width
 min
 .
 width
+NS_MIN
+(
 max
 .
 width
+width
+)
 )
 ;
 }
@@ -1577,15 +1576,18 @@ childRect
 .
 height
 =
-clamped
+NS_MAX
 (
-height
 min
 .
 height
+NS_MIN
+(
 max
 .
 height
+height
+)
 )
 ;
 }
@@ -1737,7 +1739,7 @@ LeftRight
 ;
 grow
 =
-true
+PR_TRUE
 ;
 }
 if
@@ -1773,7 +1775,7 @@ TopBottom
 ;
 grow
 =
-true
+PR_TRUE
 ;
 }
 }

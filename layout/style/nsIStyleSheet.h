@@ -191,7 +191,7 @@ FILE
 out
 =
 stdout
-int32_t
+PRInt32
 aIndent
 =
 0
@@ -202,17 +202,6 @@ const
 ;
 #
 endif
-virtual
-size_t
-SizeOfIncludingThis
-(
-nsMallocSizeOfFun
-aMallocSizeOf
-)
-const
-=
-0
-;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

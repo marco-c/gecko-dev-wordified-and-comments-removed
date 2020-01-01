@@ -84,7 +84,7 @@ aKey
 )
 mForceCompositing
 (
-false
+PR_FALSE
 )
 {
 }
@@ -110,7 +110,7 @@ mAnimationFunctions
 )
 mForceCompositing
 (
-false
+PR_FALSE
 )
 {
 }
@@ -163,7 +163,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-false
+PR_FALSE
 }
 ;
 void
@@ -199,7 +199,7 @@ ToggleForceCompositing
 {
 mForceCompositing
 =
-true
+PR_TRUE
 ;
 }
 void
@@ -226,7 +226,7 @@ CreateSMILAttr
 (
 )
 ;
-uint32_t
+PRUint32
 GetFirstFuncToAffectSandwich
 (
 )

@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsGUIEvent
 .
 h
@@ -94,7 +101,7 @@ aShell
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 nsIFrame
@@ -120,7 +127,7 @@ rootFrame
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 if
@@ -329,7 +336,7 @@ virtual
 bool
 IsFrameOfType
 (
-uint32_t
+PRUint32
 aFlags
 )
 const
@@ -351,7 +358,7 @@ eReplaced
 )
 )
 return
-false
+PR_FALSE
 ;
 return
 nsBoxFrame
@@ -434,12 +441,12 @@ nsBoxFrame
 (
 aShell
 aContext
-true
+PR_TRUE
 )
 {
 mPopupSetFrame
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -690,7 +697,7 @@ rv
 #
 ifdef
 DEBUG_REFLOW
-int32_t
+PRInt32
 gReflows
 =
 0
@@ -793,7 +800,7 @@ DisplayBorderBackgroundOutline
 (
 aBuilder
 aLists
-true
+PR_TRUE
 )
 ;
 NS_ENSURE_SUCCESS

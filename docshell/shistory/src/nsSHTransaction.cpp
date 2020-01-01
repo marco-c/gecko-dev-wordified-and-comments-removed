@@ -14,11 +14,11 @@ nsSHTransaction
 :
 mPersist
 (
-true
+PR_TRUE
 )
 mPrev
 (
-nullptr
+nsnull
 )
 {
 }

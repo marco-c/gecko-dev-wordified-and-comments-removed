@@ -78,20 +78,11 @@ h
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 rdfIDataSource
 .
 h
 "
-int32_t
+PRInt32
 nsRDFXMLSerializer
 :
 :
@@ -887,16 +878,16 @@ const
 char
 *
 buf
-uint32_t
+PRUint32
 size
 )
 {
-uint32_t
+PRUint32
 written
 =
 0
 ;
-uint32_t
+PRUint32
 remaining
 =
 size
@@ -911,7 +902,7 @@ remaining
 nsresult
 rv
 ;
-uint32_t
+PRUint32
 cb
 ;
 if
@@ -1045,7 +1036,7 @@ do
 {
 isNewPrefix
 =
-true
+PR_TRUE
 ;
 qname
 .
@@ -1128,7 +1119,7 @@ nsIAtom
 *
 outPrefix
 =
-nullptr
+nsnull
 ;
 prefix
 .
@@ -1152,7 +1143,7 @@ nsIRDFResource
 aResource
 )
 {
-nsAutoCString
+nsCAutoString
 uri
 qname
 ;
@@ -1240,6 +1231,7 @@ Length
 )
 )
 ;
+return
 mQNames
 .
 Put
@@ -1247,12 +1239,13 @@ Put
 aResource
 qname
 )
-;
-return
+?
 NS_OK
+:
+NS_ERROR_FAILURE
 ;
 }
-int32_t
+PRInt32
 i
 =
 uri
@@ -1293,6 +1286,7 @@ i
 1
 )
 {
+return
 mQNames
 .
 Put
@@ -1300,9 +1294,10 @@ Put
 aResource
 uri
 )
-;
-return
+?
 NS_OK
+:
+NS_ERROR_FAILURE
 ;
 }
 }
@@ -1366,6 +1361,7 @@ i
 )
 )
 ;
+return
 mQNames
 .
 Put
@@ -1373,9 +1369,10 @@ Put
 aResource
 qname
 )
-;
-return
+?
 NS_OK
+:
+NS_ERROR_FAILURE
 ;
 }
 nsresult
@@ -1426,7 +1423,7 @@ aProperty
 kRDF_instanceOf
 )
 return
-true
+PR_TRUE
 ;
 if
 (
@@ -1436,7 +1433,7 @@ aProperty
 kRDF_nextVal
 )
 return
-true
+PR_TRUE
 ;
 bool
 isOrdinal
@@ -1458,10 +1455,10 @@ if
 isOrdinal
 )
 return
-true
+PR_TRUE
 ;
 return
-false
+PR_FALSE
 ;
 }
 static
@@ -1525,7 +1522,7 @@ nsCString
 s
 )
 {
-uint32_t
+PRUint32
 newLength
 origLength
 ;
@@ -1809,7 +1806,7 @@ nsCString
 s
 )
 {
-int32_t
+PRInt32
 i
 =
 0
@@ -2142,10 +2139,10 @@ aValue
 )
 !
 =
-nullptr
+nsnull
 )
 {
-nsAutoCString
+nsCAutoString
 uri
 ;
 resource
@@ -2250,7 +2247,7 @@ aValue
 )
 !
 =
-nullptr
+nsnull
 )
 {
 const
@@ -2331,10 +2328,10 @@ aValue
 )
 !
 =
-nullptr
+nsnull
 )
 {
-int32_t
+PRInt32
 value
 ;
 number
@@ -2346,7 +2343,7 @@ GetValue
 value
 )
 ;
-nsAutoCString
+nsCAutoString
 n
 ;
 n
@@ -2412,7 +2409,7 @@ aValue
 )
 !
 =
-nullptr
+nsnull
 )
 {
 PRTime
@@ -2427,7 +2424,7 @@ GetValue
 value
 )
 ;
-nsAutoCString
+nsCAutoString
 s
 ;
 rdf_FormatDate
@@ -2591,7 +2588,7 @@ nsIRDFResource
 aProperty
 bool
 aInline
-int32_t
+PRInt32
 *
 aSkipped
 )
@@ -2601,7 +2598,7 @@ rv
 =
 NS_OK
 ;
-int32_t
+PRInt32
 skipped
 =
 0
@@ -2619,7 +2616,7 @@ GetTargets
 (
 aResource
 aProperty
-true
+PR_TRUE
 getter_AddRefs
 (
 assertions
@@ -2727,7 +2724,7 @@ PRUnichar
 *
 literalVal
 =
-nullptr
+nsnull
 ;
 literal
 -
@@ -2784,7 +2781,7 @@ r
 {
 needsChild
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -2914,7 +2911,7 @@ GetTarget
 (
 aResource
 kRDF_type
-true
+PR_TRUE
 getter_AddRefs
 (
 typeNode
@@ -2957,7 +2954,7 @@ typeQName
 ;
 }
 }
-nsAutoCString
+nsCAutoString
 uri
 ;
 rv
@@ -3166,7 +3163,7 @@ nsIRDFResource
 >
 visited
 ;
-int32_t
+PRInt32
 skipped
 =
 0
@@ -3306,7 +3303,7 @@ SerializeProperty
 aStream
 aResource
 property
-true
+PR_TRUE
 &
 skipped
 )
@@ -3478,7 +3475,7 @@ SerializeProperty
 aStream
 aResource
 property
-false
+PR_FALSE
 &
 skipped
 )
@@ -3705,10 +3702,10 @@ aMember
 )
 !
 =
-nullptr
+nsnull
 )
 {
-nsAutoCString
+nsCAutoString
 uri
 ;
 resource
@@ -3813,7 +3810,7 @@ aMember
 )
 !
 =
-nullptr
+nsnull
 )
 {
 const
@@ -3908,10 +3905,10 @@ aMember
 )
 !
 =
-nullptr
+nsnull
 )
 {
-int32_t
+PRInt32
 value
 ;
 number
@@ -3923,7 +3920,7 @@ GetValue
 value
 )
 ;
-nsAutoCString
+nsCAutoString
 n
 ;
 n
@@ -3989,7 +3986,7 @@ aMember
 )
 !
 =
-nullptr
+nsnull
 )
 {
 PRTime
@@ -4004,7 +4001,7 @@ GetValue
 value
 )
 ;
-nsAutoCString
+nsCAutoString
 s
 ;
 rdf_FormatDate
@@ -4160,7 +4157,7 @@ aContainer
 nsresult
 rv
 ;
-nsAutoCString
+nsCAutoString
 tag
 ;
 if
@@ -4235,7 +4232,7 @@ else
 {
 NS_ASSERTION
 (
-false
+PR_FALSE
 "
 huh
 ?
@@ -4291,7 +4288,7 @@ rv
 return
 rv
 ;
-nsAutoCString
+nsCAutoString
 uri
 ;
 if
@@ -4551,7 +4548,7 @@ NS_ASSERTION
 element
 !
 =
-nullptr
+nsnull
 "
 not
 an
@@ -4736,7 +4733,7 @@ aContainer
 ;
 wroteDescription
 =
-true
+PR_TRUE
 ;
 }
 NS_RELEASE
@@ -4979,7 +4976,7 @@ rv
 return
 rv
 ;
-nsAutoCString
+nsCAutoString
 prefix
 ;
 entry
@@ -5037,7 +5034,7 @@ rv
 return
 rv
 ;
-nsAutoCString
+nsCAutoString
 uri
 (
 entry
@@ -5142,7 +5139,6 @@ n
 }
 class
 QNameCollector
-MOZ_FINAL
 :
 public
 rdfITripleVisitor
@@ -5238,7 +5234,7 @@ mQNames
 Get
 (
 resType
-nullptr
+nsnull
 )
 )
 {
@@ -5268,7 +5264,7 @@ mQNames
 Get
 (
 aPredicate
-nullptr
+nsnull
 )
 )
 {
@@ -5622,7 +5618,7 @@ HasAssertion
 aResource
 kRDF_instanceOf
 aType
-true
+PR_TRUE
 &
 result
 )
@@ -5635,7 +5631,7 @@ rv
 )
 )
 return
-false
+PR_FALSE
 ;
 return
 result

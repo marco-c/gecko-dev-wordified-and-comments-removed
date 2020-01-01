@@ -70,7 +70,7 @@ class
 txInstruction
 :
 public
-txObject
+TxObject
 {
 public
 :
@@ -486,7 +486,7 @@ public
 :
 txLREAttribute
 (
-int32_t
+PRInt32
 aNamespaceID
 nsIAtom
 *
@@ -502,7 +502,7 @@ aValue
 )
 ;
 TX_DECL_TXINSTRUCTION
-int32_t
+PRInt32
 mNamespaceID
 ;
 nsCOMPtr
@@ -994,7 +994,7 @@ public
 :
 txStartLREElement
 (
-int32_t
+PRInt32
 aNamespaceID
 nsIAtom
 *
@@ -1005,7 +1005,7 @@ aPrefix
 )
 ;
 TX_DECL_TXINSTRUCTION
-int32_t
+PRInt32
 mNamespaceID
 ;
 nsCOMPtr

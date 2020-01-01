@@ -26,15 +26,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsIIDNService
 ;
@@ -164,7 +155,7 @@ aKey
 return
 PL_DHashStringKey
 (
-nullptr
+nsnull
 aKey
 )
 ;
@@ -173,7 +164,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-true
+PR_TRUE
 }
 ;
 void
@@ -244,7 +235,6 @@ mData
 ;
 class
 nsEffectiveTLDService
-MOZ_FINAL
 :
 public
 nsIEffectiveTLDService
@@ -271,7 +261,7 @@ GetBaseDomainInternal
 nsCString
 &
 aHostname
-uint32_t
+PRUint32
 aAdditionalParts
 nsACString
 &

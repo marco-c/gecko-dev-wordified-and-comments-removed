@@ -46,7 +46,7 @@ OnSocketReady
 PRFileDesc
 *
 fd
-int16_t
+PRInt16
 outFlags
 )
 ;

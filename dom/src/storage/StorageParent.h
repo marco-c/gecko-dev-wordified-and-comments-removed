@@ -75,7 +75,7 @@ const
 bool
 &
 aSessionOnly
-uint32_t
+PRUint32
 *
 aLength
 nsresult
@@ -95,7 +95,7 @@ bool
 &
 aSessionOnly
 const
-uint32_t
+PRUint32
 &
 aIndex
 nsString
@@ -190,7 +190,7 @@ const
 bool
 &
 aSessionOnly
-int32_t
+PRInt32
 *
 aOldCount
 nsresult
@@ -268,10 +268,6 @@ bool
 &
 aSessionOnly
 const
-bool
-&
-aPrivate
-const
 nsCString
 &
 aDomain
@@ -288,18 +284,9 @@ nsCString
 &
 aQuotaETLDplus1DomainDBKey
 const
-uint32_t
+PRUint32
 &
 aStorageType
-)
-;
-bool
-RecvUpdatePrivateState
-(
-const
-bool
-&
-aEnabled
 )
 ;
 nsRefPtr

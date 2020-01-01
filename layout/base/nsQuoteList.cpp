@@ -86,7 +86,7 @@ this
 else
 dirty
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -109,7 +109,7 @@ SetText
 Text
 (
 )
-false
+PR_FALSE
 )
 ;
 }
@@ -166,7 +166,7 @@ GetStyleQuotes
 (
 )
 ;
-int32_t
+PRInt32
 quotesCount
 =
 styleQuotes
@@ -176,7 +176,7 @@ QuotesCount
 (
 )
 ;
-int32_t
+PRInt32
 quoteDepth
 =
 Depth
@@ -321,7 +321,7 @@ return
 ;
 do
 {
-int32_t
+PRInt32
 oldDepth
 =
 node

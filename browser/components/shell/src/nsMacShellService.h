@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsIFile
+nsILocalFile
 .
 h
 "
@@ -48,7 +48,7 @@ nsMacShellService
 :
 mCheckedThisSession
 (
-false
+PR_FALSE
 )
 {
 }
@@ -71,7 +71,7 @@ private
 :
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 mBackgroundFile
 ;

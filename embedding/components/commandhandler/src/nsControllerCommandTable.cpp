@@ -42,11 +42,11 @@ nsControllerCommandTable
 mCommandsTable
 (
 NUM_COMMANDS_BOUNDS
-false
+PR_FALSE
 )
 mMutable
 (
-true
+PR_TRUE
 )
 {
 }
@@ -76,7 +76,7 @@ void
 {
 mMutable
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -282,7 +282,7 @@ aResult
 *
 aResult
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -445,7 +445,7 @@ aResult
 *
 aResult
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -473,7 +473,7 @@ get
 )
 !
 =
-nullptr
+nsnull
 )
 ;
 return
@@ -743,7 +743,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nullptr
+nsnull
 "
 null
 ptr

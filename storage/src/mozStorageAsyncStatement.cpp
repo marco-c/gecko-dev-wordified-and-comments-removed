@@ -166,7 +166,7 @@ NS_DECL_ISUPPORTS
 NS_IMETHODIMP
 GetInterfaces
 (
-uint32_t
+PRUint32
 *
 _count
 nsIID
@@ -190,7 +190,7 @@ _array
 NS_IMETHODIMP
 GetHelperForLanguage
 (
-uint32_t
+PRUint32
 aLanguage
 nsISupports
 *
@@ -226,7 +226,7 @@ NS_OK
 *
 _helper
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -244,7 +244,7 @@ _contractID
 *
 _contractID
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -262,7 +262,7 @@ _desc
 *
 _desc
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -280,7 +280,7 @@ _id
 *
 _id
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -289,7 +289,7 @@ NS_OK
 NS_IMETHODIMP
 GetImplementationLanguage
 (
-uint32_t
+PRUint32
 *
 _language
 )
@@ -309,7 +309,7 @@ NS_OK
 NS_IMETHODIMP
 GetFlags
 (
-uint32_t
+PRUint32
 *
 _flags
 )
@@ -317,7 +317,7 @@ _flags
 *
 _flags
 =
-0
+nsnull
 ;
 return
 NS_OK
@@ -701,7 +701,7 @@ array
 NS_ENSURE_SUCCESS
 (
 rv
-nullptr
+nsnull
 )
 ;
 mParamsArray
@@ -749,7 +749,7 @@ mParamsArray
 NS_ENSURE_TRUE
 (
 params
-nullptr
+nsnull
 )
 ;
 rv
@@ -765,7 +765,7 @@ params
 NS_ENSURE_SUCCESS
 (
 rv
-nullptr
+nsnull
 )
 ;
 params
@@ -773,7 +773,7 @@ params
 >
 unlock
 (
-nullptr
+nsnull
 )
 ;
 mParamsArray
@@ -840,7 +840,7 @@ Connection
 *
 forgottenConn
 =
-nullptr
+nsnull
 ;
 mDBConnection
 .
@@ -929,11 +929,11 @@ params
 >
 mStatement
 =
-nullptr
+nsnull
 ;
 mStatementParamsHolder
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -1081,11 +1081,14 @@ mAsyncStatement
 int
 rc
 =
+prepareStmt
+(
 mDBConnection
 -
 >
-prepareStatement
+GetNativeConnection
 (
+)
 mSQLString
 &
 mAsyncStatement
@@ -1162,7 +1165,7 @@ endif
 *
 _stmt
 =
-nullptr
+nsnull
 ;
 return
 rc
@@ -1232,7 +1235,7 @@ _data
 =
 StatementData
 (
-nullptr
+nsnull
 bindingParamsArray
 (
 )
@@ -1262,7 +1265,7 @@ if
 mFinalized
 )
 return
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -1435,7 +1438,7 @@ AsyncStatement
 :
 GetState
 (
-int32_t
+PRInt32
 *
 _state
 )

@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nscore
 .
 h
@@ -70,10 +61,6 @@ nsCRT
 .
 h
 "
-using
-namespace
-mozilla
-;
 struct
 iso_pair
 {
@@ -115,7 +102,7 @@ nsWin32Locale
 :
 localeNameToLCID
 =
-nullptr
+NULL
 ;
 nsWin32Locale
 :
@@ -126,7 +113,7 @@ nsWin32Locale
 :
 lcidToLocaleName
 =
-nullptr
+NULL
 ;
 #
 ifndef
@@ -2115,7 +2102,7 @@ SUBLANG_CHINESE_MACAU
 #
 define
 LENGTH_MAPPING_LIST
-ArrayLength
+NS_ARRAY_LENGTH
 (
 iso_list
 )
@@ -2627,7 +2614,7 @@ LCIDToLocaleName
 }
 sInitialized
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -2745,7 +2732,7 @@ char
 *
 country_code
 ;
-size_t
+int
 i
 j
 ;
@@ -3032,7 +3019,7 @@ DWORD
 lang_id
 sublang_id
 ;
-size_t
+int
 i
 j
 ;
@@ -3301,7 +3288,7 @@ test_internal_tables
 void
 )
 {
-size_t
+int
 i
 ;
 for

@@ -152,7 +152,7 @@ txXPathNode
 nsINode
 *
 aNode
-uint32_t
+PRUint32
 aIndex
 nsINode
 *
@@ -262,7 +262,7 @@ Root
 (
 )
 :
-nullptr
+nsnull
 ;
 }
 bool
@@ -395,12 +395,12 @@ nsINode
 *
 mNode
 ;
-uint32_t
+PRUint32
 mRefCountRoot
 :
 1
 ;
-uint32_t
+PRUint32
 mIndex
 :
 31
@@ -413,7 +413,7 @@ txNamespaceManager
 public
 :
 static
-int32_t
+PRInt32
 getNamespaceID
 (
 const
@@ -427,7 +427,7 @@ nsresult
 getNamespaceURI
 (
 const
-int32_t
+PRInt32
 aID
 nsAString
 &
@@ -437,7 +437,7 @@ aResult
 }
 ;
 inline
-int32_t
+PRInt32
 txNamespaceManager
 :
 :
@@ -449,7 +449,7 @@ nsAString
 aNamespaceURI
 )
 {
-int32_t
+PRInt32
 namespaceID
 =
 kNameSpaceID_Unknown
@@ -480,7 +480,7 @@ txNamespaceManager
 getNamespaceURI
 (
 const
-int32_t
+PRInt32
 aID
 nsAString
 &

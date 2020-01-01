@@ -36,7 +36,10 @@ class
 nsIDOMNode
 ;
 class
-nsPIDOMWindow
+nsIDOMWindow
+;
+class
+nsIDOMDocument
 ;
 class
 nsIDOMDragEvent
@@ -71,7 +74,7 @@ static
 nsresult
 GetDragData
 (
-nsPIDOMWindow
+nsIDOMWindow
 *
 aWindow
 nsIContent
@@ -88,10 +91,9 @@ aDataTransfer
 bool
 *
 aCanDrag
-nsISelection
+bool
 *
-*
-aSelection
+aDragSelection
 nsIContent
 *
 *

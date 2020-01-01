@@ -17,7 +17,7 @@ txTextHandler
 :
 txTextHandler
 (
-bool
+MBool
 aOnlyText
 )
 :
@@ -46,7 +46,7 @@ aLocalName
 nsIAtom
 *
 aLowercaseLocalName
-int32_t
+PRInt32
 aNsID
 const
 nsString
@@ -72,7 +72,7 @@ nsSubstring
 &
 aLocalName
 const
-int32_t
+PRInt32
 aNsID
 const
 nsString
@@ -214,7 +214,7 @@ nsIAtom
 *
 aLowercaseLocalName
 const
-int32_t
+PRInt32
 aNsID
 )
 {
@@ -244,7 +244,7 @@ nsSubstring
 &
 aLocalName
 const
-int32_t
+PRInt32
 aNsID
 )
 {

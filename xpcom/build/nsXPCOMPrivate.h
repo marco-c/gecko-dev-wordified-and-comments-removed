@@ -157,7 +157,7 @@ nsAString
 path
 bool
 followLinks
-nsIFile
+nsILocalFile
 *
 *
 result
@@ -176,7 +176,7 @@ nsACString
 path
 bool
 followLinks
-nsIFile
+nsILocalFile
 *
 *
 result
@@ -231,8 +231,8 @@ nsStringContainer
 const
 PRUnichar
 *
-uint32_t
-uint32_t
+PRUint32
+PRUint32
 )
 ;
 typedef
@@ -247,7 +247,7 @@ nsStringContainer
 )
 ;
 typedef
-uint32_t
+PRUint32
 (
 *
 StringGetDataFunc
@@ -265,7 +265,7 @@ bool
 )
 ;
 typedef
-uint32_t
+PRUint32
 (
 *
 StringGetMutableDataFunc
@@ -273,7 +273,7 @@ StringGetMutableDataFunc
 (
 nsAString
 &
-uint32_t
+PRUint32
 PRUnichar
 *
 *
@@ -304,7 +304,7 @@ nsAString
 const
 PRUnichar
 *
-uint32_t
+PRUint32
 )
 ;
 typedef
@@ -316,12 +316,12 @@ StringSetDataRangeFunc
 (
 nsAString
 &
-uint32_t
-uint32_t
+PRUint32
+PRUint32
 const
 PRUnichar
 *
-uint32_t
+PRUint32
 )
 ;
 typedef
@@ -386,8 +386,8 @@ nsCStringContainer
 const
 char
 *
-uint32_t
-uint32_t
+PRUint32
+PRUint32
 )
 ;
 typedef
@@ -402,7 +402,7 @@ nsCStringContainer
 )
 ;
 typedef
-uint32_t
+PRUint32
 (
 *
 CStringGetDataFunc
@@ -420,7 +420,7 @@ bool
 )
 ;
 typedef
-uint32_t
+PRUint32
 (
 *
 CStringGetMutableDataFunc
@@ -428,7 +428,7 @@ CStringGetMutableDataFunc
 (
 nsACString
 &
-uint32_t
+PRUint32
 char
 *
 *
@@ -459,7 +459,7 @@ nsACString
 const
 char
 *
-uint32_t
+PRUint32
 )
 ;
 typedef
@@ -471,12 +471,12 @@ CStringSetDataRangeFunc
 (
 nsACString
 &
-uint32_t
-uint32_t
+PRUint32
+PRUint32
 const
 char
 *
-uint32_t
+PRUint32
 )
 ;
 typedef
@@ -556,7 +556,7 @@ void
 AllocFunc
 )
 (
-size_t
+PRSize
 size
 )
 ;
@@ -571,7 +571,7 @@ ReallocFunc
 void
 *
 ptr
-size_t
+PRSize
 size
 )
 ;
@@ -594,7 +594,7 @@ void
 DebugBreakFunc
 )
 (
-uint32_t
+PRUint32
 aSeverity
 const
 char
@@ -608,7 +608,7 @@ const
 char
 *
 aFile
-int32_t
+PRInt32
 aLine
 )
 ;
@@ -634,7 +634,7 @@ nsrefcnt
 const
 char
 *
-uint32_t
+PRUint32
 )
 ;
 typedef
@@ -664,7 +664,7 @@ void
 const
 char
 *
-uint32_t
+PRUint32
 )
 ;
 typedef
@@ -715,8 +715,8 @@ InvokeByIndexFunc
 (
 nsISupports
 *
-uint32_t
-uint32_t
+PRUint32
+PRUint32
 nsXPTCVariant
 *
 )
@@ -740,9 +740,7 @@ nsPurpleBufferEntry
 CycleCollectorSuspect2Func
 )
 (
-void
-*
-nsCycleCollectionParticipant
+nsISupports
 *
 )
 ;
@@ -775,7 +773,7 @@ RegisterXPCOMExitRoutineFunc
 (
 XPCOMExitRoutine
 exitRoutine
-uint32_t
+PRUint32
 priority
 )
 ;
@@ -794,10 +792,10 @@ typedef
 struct
 XPCOMFunctions
 {
-uint32_t
+PRUint32
 version
 ;
-uint32_t
+PRUint32
 size
 ;
 InitFunc

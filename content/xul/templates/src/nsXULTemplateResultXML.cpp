@@ -48,7 +48,7 @@ nsXMLBinding
 h
 "
 static
-uint32_t
+PRUint32
 sTemplateId
 =
 0
@@ -125,7 +125,7 @@ GetBaseURI
 (
 )
 ;
-nsAutoCString
+nsCAutoString
 spec
 ;
 uri
@@ -236,7 +236,7 @@ else
 *
 aIsContainer
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -307,7 +307,7 @@ IsElement
 *
 aIsEmpty
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -318,7 +318,7 @@ NS_OK
 *
 aIsEmpty
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -338,7 +338,7 @@ aMayProcessChildren
 *
 aMayProcessChildren
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -378,7 +378,7 @@ aResource
 *
 aResource
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -428,7 +428,7 @@ nsXMLBinding
 *
 binding
 ;
-int32_t
+PRInt32
 idx
 =
 mRequiredValues
@@ -610,7 +610,7 @@ mNode
 }
 else
 {
-int32_t
+PRInt32
 idx
 =
 mRequiredValues
@@ -721,7 +721,7 @@ Processor
 (
 )
 :
-nullptr
+nsnull
 ;
 if
 (

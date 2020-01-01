@@ -96,7 +96,7 @@ mLock
 )
 mLastEvent
 (
-nullptr
+nsnull
 )
 mCoalesceAll
 (
@@ -162,9 +162,9 @@ nsITransport
 transport
 nsresult
 status
-uint64_t
+PRUint64
 progress
-uint64_t
+PRUint64
 progressMax
 )
 :
@@ -226,7 +226,7 @@ mProxy
 >
 mLastEvent
 =
-nullptr
+nsnull
 ;
 }
 mProxy
@@ -244,7 +244,7 @@ mProgressMax
 )
 ;
 return
-NS_OK
+nsnull
 ;
 }
 nsRefPtr
@@ -262,10 +262,10 @@ mTransport
 nsresult
 mStatus
 ;
-uint64_t
+PRUint64
 mProgress
 ;
-uint64_t
+PRUint64
 mProgressMax
 ;
 }
@@ -286,9 +286,9 @@ nsITransport
 transport
 nsresult
 status
-uint64_t
+PRUint64
 progress
-uint64_t
+PRUint64
 progressMax
 )
 {
@@ -424,7 +424,7 @@ mLock
 ;
 mLastEvent
 =
-nullptr
+nsnull
 ;
 }
 }

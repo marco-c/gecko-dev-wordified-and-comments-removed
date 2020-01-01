@@ -136,7 +136,7 @@ void
 *
 mem
 ;
-int32_t
+PRInt32
 len
 =
 (
@@ -222,7 +222,7 @@ void
 *
 mem
 ;
-int32_t
+PRInt32
 len
 =
 (
@@ -302,7 +302,7 @@ PL_DHashMatchStringKey
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
 PL_DHashFinalizeStub
-nullptr
+nsnull
 }
 ;
 enum
@@ -337,7 +337,7 @@ aProps
 :
 mHaveMultiLine
 (
-false
+PR_FALSE
 )
 mState
 (
@@ -374,14 +374,14 @@ mKey
 Trim
 (
 trimThese
-false
-true
+PR_FALSE
+PR_TRUE
 )
 ;
 PRUnichar
 backup_char
 ;
-uint32_t
+PRUint32
 minLength
 =
 mMinLength
@@ -418,8 +418,8 @@ mValue
 Trim
 (
 trimThese
-false
-true
+PR_FALSE
+PR_TRUE
 )
 ;
 if
@@ -481,11 +481,11 @@ const
 PRUnichar
 *
 aFromSegment
-uint32_t
+PRUint32
 aToOffset
-uint32_t
+PRUint32
 aCount
-uint32_t
+PRUint32
 *
 aWriteCount
 )
@@ -497,7 +497,7 @@ const
 PRUnichar
 *
 aBuffer
-uint32_t
+PRUint32
 aBufferLength
 )
 ;
@@ -598,7 +598,7 @@ mKey
 nsAutoString
 mValue
 ;
-uint32_t
+PRUint32
 mUnicodeValuesRead
 ;
 PRUnichar
@@ -610,7 +610,7 @@ mHaveMultiLine
 bool
 mMultiLineCanSkipN
 ;
-uint32_t
+PRUint32
 mMinLength
 ;
 EParserState
@@ -754,7 +754,7 @@ mHaveMultiLine
 )
 mHaveMultiLine
 =
-false
+PR_FALSE
 ;
 else
 mValue
@@ -788,7 +788,7 @@ mMultiLineCanSkipN
 {
 mMultiLineCanSkipN
 =
-false
+PR_FALSE
 ;
 tokenStart
 =
@@ -821,7 +821,7 @@ oldValue
 ;
 mHaveMultiLine
 =
-false
+PR_FALSE
 ;
 break
 ;
@@ -852,7 +852,7 @@ t
 {
 mMultiLineCanSkipN
 =
-false
+PR_FALSE
 ;
 tokenStart
 =
@@ -865,7 +865,7 @@ break
 }
 mHaveMultiLine
 =
-false
+PR_FALSE
 ;
 tokenStart
 =
@@ -1030,7 +1030,7 @@ n
 :
 mHaveMultiLine
 =
-true
+PR_TRUE
 ;
 mMultiLineCanSkipN
 =
@@ -1209,7 +1209,7 @@ tokenStart
 cur
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -1250,7 +1250,7 @@ break
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 NS_METHOD
@@ -1269,11 +1269,11 @@ const
 PRUnichar
 *
 aFromSegment
-uint32_t
+PRUint32
 aToOffset
-uint32_t
+PRUint32
 aCount
-uint32_t
+PRUint32
 *
 aWriteCount
 )
@@ -1319,7 +1319,7 @@ const
 PRUnichar
 *
 aBuffer
-uint32_t
+PRUint32
 aBufferLength
 )
 {
@@ -1344,7 +1344,7 @@ PRUnichar
 *
 tokenStart
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -1642,7 +1642,7 @@ nsPersistentProperties
 :
 mIn
 (
-nullptr
+nsnull
 )
 {
 mSubclass
@@ -1660,7 +1660,7 @@ mTable
 .
 ops
 =
-nullptr
+nsnull
 ;
 PL_INIT_ARENA_POOL
 (
@@ -1717,7 +1717,7 @@ PL_DHashTableInit
 mTable
 &
 property_HashTableOps
-nullptr
+nsnull
 sizeof
 (
 PropertyTableEntry
@@ -1730,7 +1730,7 @@ mTable
 .
 ops
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -1778,7 +1778,7 @@ if
 props
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -1889,7 +1889,7 @@ parser
 mSubclass
 )
 ;
-uint32_t
+PRUint32
 nProcessed
 ;
 while
@@ -1924,7 +1924,7 @@ nProcessed
 ;
 mIn
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -2034,6 +2034,13 @@ NS_WARNING
 (
 nsPrintfCString
 (
+aKey
+.
+Length
+(
+)
++
+30
 "
 the
 property
@@ -2220,7 +2227,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-uint32_t
+PRUint32
 i
 void
 *
@@ -2349,7 +2356,7 @@ entryCount
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-uint32_t
+PRUint32
 n
 =
 PL_DHashTableEnumerate
@@ -2499,7 +2506,7 @@ nsPersistentProperties
 :
 GetKeys
 (
-uint32_t
+PRUint32
 *
 count
 char
@@ -2551,7 +2558,7 @@ if
 propElem
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY

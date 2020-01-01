@@ -27,7 +27,7 @@ nsTSubstring_CharT
 base_string_type
 ;
 typedef
-uint32_t
+PRUint32
 size_type
 ;
 public
@@ -46,7 +46,7 @@ b
 :
 mHead
 (
-nullptr
+nsnull
 )
 mFragA
 (
@@ -77,7 +77,7 @@ head
 )
 mFragA
 (
-nullptr
+nsnull
 )
 mFragB
 (
@@ -97,7 +97,7 @@ WriteTo
 char_type
 *
 buf
-uint32_t
+PRUint32
 bufLen
 )
 const

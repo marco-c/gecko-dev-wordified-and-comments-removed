@@ -293,7 +293,7 @@ status
 NS_IMETHOD
 Available
 (
-uint64_t
+PRUint32
 *
 result
 )
@@ -306,9 +306,9 @@ fun
 void
 *
 closure
-uint32_t
+PRUint32
 count
-uint32_t
+PRUint32
 *
 result
 )
@@ -321,7 +321,7 @@ const
 char
 *
 data
-uint32_t
+PRUint32
 dataLen
 )
 ;
@@ -623,7 +623,7 @@ mNextState
 bool
 mKeepRunning
 ;
-int32_t
+PRInt32
 mResponseCode
 ;
 nsCString
@@ -644,7 +644,7 @@ mTryingCachedControl
 bool
 mRETRFailed
 ;
-uint64_t
+PRUint64
 mFileSize
 ;
 nsCString
@@ -662,7 +662,7 @@ nsIProxyInfo
 >
 mProxyInfo
 ;
-int32_t
+PRInt32
 mServerType
 ;
 nsString
@@ -689,10 +689,7 @@ mInternalError
 bool
 mReconnectAndLoginAgain
 ;
-bool
-mCacheConnection
-;
-int32_t
+PRInt32
 mPort
 ;
 nsString
@@ -729,7 +726,7 @@ bool
 mServerIsIPv6
 ;
 static
-uint32_t
+PRUint32
 mSessionStartTime
 ;
 PRNetAddr

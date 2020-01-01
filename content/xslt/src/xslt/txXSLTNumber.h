@@ -7,7 +7,7 @@ TRANSFRMX_TXXSLTNUMBER_H
 #
 include
 "
-nsError
+txError
 .
 h
 "
@@ -141,7 +141,7 @@ aTail
 )
 ;
 static
-int32_t
+PRInt32
 getSiblingCount
 (
 txXPathTreeWalker
@@ -165,7 +165,7 @@ aWalker
 )
 ;
 static
-bool
+MBool
 isAlphaNumeric
 (
 PRUnichar
@@ -190,7 +190,7 @@ virtual
 void
 appendNumber
 (
-int32_t
+PRInt32
 aNumber
 nsAString
 &

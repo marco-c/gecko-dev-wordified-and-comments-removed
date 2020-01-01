@@ -48,9 +48,7 @@ fontconfig
 .
 h
 >
-template
-<
->
+NS_SPECIALIZE_TEMPLATE
 class
 nsAutoRefTraits
 <
@@ -97,9 +95,7 @@ ptr
 }
 }
 ;
-template
-<
->
+NS_SPECIALIZE_TEMPLATE
 class
 nsAutoRefTraits
 <
@@ -131,9 +127,7 @@ ptr
 }
 }
 ;
-template
-<
->
+NS_SPECIALIZE_TEMPLATE
 class
 nsAutoRefTraits
 <
@@ -484,7 +478,7 @@ aChar8Ptr
 ;
 }
 static
-uint8_t
+PRUint8
 FcSlantToThebesStyle
 (
 int
@@ -492,7 +486,7 @@ aFcSlant
 )
 ;
 static
-uint8_t
+PRUint8
 GetThebesStyle
 (
 FcPattern
@@ -501,7 +495,7 @@ aPattern
 )
 ;
 static
-uint16_t
+PRUint16
 GetThebesWeight
 (
 FcPattern
@@ -510,7 +504,7 @@ aPattern
 )
 ;
 static
-int16_t
+PRInt16
 GetThebesStretch
 (
 FcPattern
@@ -532,7 +526,7 @@ static
 int
 FcWeightForBaseWeight
 (
-int8_t
+PRInt8
 aBaseWeight
 )
 ;
@@ -540,7 +534,7 @@ static
 int
 FcWidthForThebesStretch
 (
-int16_t
+PRInt16
 aStretch
 )
 ;
@@ -636,7 +630,7 @@ FcChar8
 aKey
 )
 {
-uint32_t
+PRUint32
 hash
 =
 0
@@ -687,7 +681,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-true
+PR_TRUE
 }
 ;
 }
@@ -774,7 +768,7 @@ mKey
 .
 SetIsVoid
 (
-true
+PR_TRUE
 )
 ;
 }
@@ -916,7 +910,7 @@ aFont
 )
 !
 =
-nullptr
+nsnull
 ;
 }
 const
@@ -1014,7 +1008,7 @@ aFont
 )
 !
 =
-nullptr
+nsnull
 ;
 }
 const
@@ -1038,7 +1032,7 @@ enum
 {
 ALLOW_MEMMOVE
 =
-false
+PR_FALSE
 }
 ;
 private

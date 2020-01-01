@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsIDOMDocument
+.
+h
+"
+#
+include
+"
 nsIDOMEventTarget
 .
 h
@@ -106,7 +113,7 @@ aContent
 nsresult
 rv
 ;
-int32_t
+PRInt32
 nameSpaceID
 ;
 if
@@ -122,7 +129,7 @@ GetDocument
 aDocument
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -177,7 +184,7 @@ IsEmpty
 )
 )
 return
-false
+PR_FALSE
 ;
 nsAutoString
 handlerURIStr
@@ -191,7 +198,7 @@ nsIContent
 *
 handler
 =
-nullptr
+nsnull
 ;
 nsAutoString
 observerID
@@ -217,9 +224,9 @@ handlerURIStr
 {
 hasHandlerURI
 =
-true
+PR_TRUE
 ;
-nsAutoCString
+nsCAutoString
 handlerRef
 ;
 nsCOMPtr
@@ -264,7 +271,7 @@ getter_AddRefs
 handlerURI
 )
 handlerURIStr
-nullptr
+nsnull
 baseURI
 )
 ;
@@ -334,7 +341,7 @@ if
 handler
 )
 return
-false
+PR_FALSE
 ;
 aContent
 -
@@ -429,7 +436,7 @@ nsIContent
 *
 observer
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -566,7 +573,7 @@ eli
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 else
@@ -576,7 +583,7 @@ eli
 }
 }
 return
-false
+PR_FALSE
 ;
 }
 nsXMLEventsListener
@@ -708,11 +715,11 @@ mPhase
 }
 mObserver
 =
-nullptr
+nsnull
 ;
 mHandler
 =
-nullptr
+nsnull
 ;
 }
 void
@@ -737,7 +744,7 @@ mElement
 ;
 mElement
 =
-nullptr
+nsnull
 ;
 }
 bool
@@ -821,7 +828,7 @@ mTarget
 {
 targetMatched
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -869,7 +876,7 @@ mTarget
 )
 targetMatched
 =
-true
+PR_TRUE
 ;
 }
 if
@@ -1208,11 +1215,11 @@ aContent
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 void
@@ -1355,12 +1362,12 @@ aDocument
 Element
 *
 aElement
-int32_t
+PRInt32
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-int32_t
+PRInt32
 aModType
 )
 {
@@ -1585,7 +1592,7 @@ aContainer
 nsIContent
 *
 aFirstNewContent
-int32_t
+PRInt32
 aNewIndexInContainer
 )
 {
@@ -1610,7 +1617,7 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
+PRInt32
 aIndexInContainer
 )
 {
@@ -1635,7 +1642,7 @@ aContainer
 nsIContent
 *
 aChild
-int32_t
+PRInt32
 aIndexInContainer
 nsIContent
 *
@@ -1689,7 +1696,7 @@ aChild
 )
 ;
 }
-uint32_t
+PRUint32
 count
 =
 aChild
@@ -1701,7 +1708,7 @@ GetChildCount
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0

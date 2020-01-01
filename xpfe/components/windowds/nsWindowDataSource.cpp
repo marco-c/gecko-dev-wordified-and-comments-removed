@@ -84,7 +84,7 @@ nsIDocShell
 .
 h
 "
-uint32_t
+PRUint32
 nsWindowDataSource
 :
 :
@@ -99,7 +99,7 @@ nsWindowDataSource
 :
 kNC_Name
 =
-nullptr
+nsnull
 ;
 nsIRDFResource
 *
@@ -108,7 +108,7 @@ nsWindowDataSource
 :
 kNC_WindowRoot
 =
-nullptr
+nsnull
 ;
 nsIRDFResource
 *
@@ -117,7 +117,7 @@ nsWindowDataSource
 :
 kNC_KeyIndex
 =
-nullptr
+nsnull
 ;
 nsIRDFService
 *
@@ -126,9 +126,9 @@ nsWindowDataSource
 :
 gRDFService
 =
-nullptr
+nsnull
 ;
-uint32_t
+PRUint32
 nsWindowDataSource
 :
 :
@@ -425,7 +425,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-false
+PR_FALSE
 )
 ;
 }
@@ -506,11 +506,11 @@ NS_XPCOM_SHUTDOWN_OBSERVER_ID
 {
 mContainer
 =
-nullptr
+nsnull
 ;
 mInner
 =
-nullptr
+nsnull
 ;
 }
 return
@@ -689,7 +689,7 @@ GetTarget
 (
 windowResource
 kNC_Name
-true
+PR_TRUE
 getter_AddRefs
 (
 oldTitleNode
@@ -724,7 +724,7 @@ Assert
 windowResource
 kNC_Name
 newTitleLiteral
-true
+PR_TRUE
 )
 ;
 if
@@ -762,7 +762,7 @@ nsIXULWindow
 window
 )
 {
-nsAutoCString
+nsCAutoString
 windowId
 (
 NS_LITERAL_CSTRING
@@ -903,7 +903,7 @@ GetTarget
 (
 resource
 kNC_KeyIndex
-true
+PR_TRUE
 getter_AddRefs
 (
 oldKeyNode
@@ -932,7 +932,7 @@ do_QueryInterface
 oldKeyNode
 )
 ;
-int32_t
+PRInt32
 winIndex
 =
 -
@@ -966,7 +966,7 @@ mContainer
 RemoveElement
 (
 resource
-true
+PR_TRUE
 )
 ;
 nsCOMPtr
@@ -1073,7 +1073,7 @@ rv
 )
 continue
 ;
-int32_t
+PRInt32
 currentIndex
 =
 -
@@ -1115,7 +1115,7 @@ GetTarget
 (
 windowResource
 kNC_KeyIndex
-true
+PR_TRUE
 getter_AddRefs
 (
 newKeyNode
@@ -1169,7 +1169,7 @@ Assert
 windowResource
 kNC_KeyIndex
 newKeyInt
-true
+PR_TRUE
 )
 ;
 else
@@ -1287,11 +1287,11 @@ GetValue
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 NS_IMETHODIMP
@@ -1340,7 +1340,7 @@ windowResource
 get
 (
 )
-nullptr
+nsnull
 }
 ;
 mWindowResources
@@ -1519,7 +1519,7 @@ aProperty
 kNC_KeyIndex
 )
 {
-int32_t
+PRInt32
 theIndex
 =
 0

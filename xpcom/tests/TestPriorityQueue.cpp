@@ -42,7 +42,7 @@ T
 *
 aExpectedSequence
 const
-uint32_t
+PRUint32
 aSequenceLength
 )
 {
@@ -58,7 +58,7 @@ aQueue
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0

@@ -61,15 +61,6 @@ nsCycleCollectionParticipant
 h
 "
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 define
 NS_IXPATHRESULT_IID
 \
@@ -107,7 +98,7 @@ SetExprResult
 txAExprResult
 *
 aExprResult
-uint16_t
+PRUint16
 aResultType
 nsINode
 *
@@ -149,7 +140,6 @@ NS_IXPATHRESULT_IID
 )
 class
 nsXPathResult
-MOZ_FINAL
 :
 public
 nsIDOMXPathResult
@@ -196,7 +186,7 @@ SetExprResult
 txAExprResult
 *
 aExprResult
-uint16_t
+PRUint16
 aResultType
 nsINode
 *
@@ -232,7 +222,7 @@ static
 bool
 isSnapshot
 (
-uint16_t
+PRUint16
 aResultType
 )
 {
@@ -253,7 +243,7 @@ static
 bool
 isIterator
 (
-uint16_t
+PRUint16
 aResultType
 )
 {
@@ -274,7 +264,7 @@ static
 bool
 isNode
 (
-uint16_t
+PRUint16
 aResultType
 )
 {
@@ -357,10 +347,10 @@ nsIDocument
 >
 mDocument
 ;
-uint32_t
+PRUint32
 mCurrentPos
 ;
-uint16_t
+PRUint16
 mResultType
 ;
 nsWeakPtr

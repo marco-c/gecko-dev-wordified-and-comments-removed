@@ -114,7 +114,7 @@ NativeState
 )
 ;
 virtual
-PRBool
+bool
 GetAllowsAnonChildAccessibles
 (
 )
@@ -170,7 +170,7 @@ NativeRole
 )
 ;
 virtual
-PRBool
+bool
 GetAllowsAnonChildAccessibles
 (
 )
@@ -312,7 +312,7 @@ aAccessible
 nsnull
 )
 ;
-PRBool
+bool
 mIsSelect1Element
 ;
 }

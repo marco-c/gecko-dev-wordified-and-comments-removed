@@ -146,14 +146,14 @@ virtual
 void
 FixFilePermissions
 (
-nsIFile
+nsILocalFile
 *
 aFile
 )
 ;
 private
 :
-uint32_t
+PRUint32
 mPermissions
 ;
 }

@@ -749,7 +749,7 @@ minms
 )
 mHasMinMs
 (
-true
+PR_TRUE
 )
 mEnabled
 (
@@ -809,7 +809,7 @@ mMinMs
 )
 mHasMinMs
 (
-false
+PR_FALSE
 )
 mEnabled
 (

@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsIFile
+nsILocalFile
 .
 h
 "
@@ -59,7 +59,7 @@ aValue
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 static
@@ -108,7 +108,7 @@ GetStrings
 (
 aSection
 StringCB
-nullptr
+nsnull
 )
 ;
 printf
@@ -120,7 +120,7 @@ n
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 int
@@ -169,7 +169,7 @@ return
 }
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 lf
 ;
@@ -185,7 +185,7 @@ argv
 1
 ]
 )
-true
+PR_TRUE
 getter_AddRefs
 (
 lf

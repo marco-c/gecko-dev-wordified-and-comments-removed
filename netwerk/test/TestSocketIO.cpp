@@ -203,7 +203,7 @@ nsIEventQueue
 *
 gEventQ
 =
-nullptr
+nsnull
 ;
 class
 TestListener
@@ -284,9 +284,9 @@ context
 nsIInputStream
 *
 aIStream
-uint32_t
+PRUint32
 aSourceOffset
-uint32_t
+PRUint32
 aLength
 )
 {
@@ -322,7 +322,7 @@ buf
 1025
 ]
 ;
-uint32_t
+PRUint32
 amt
 ;
 while
@@ -669,7 +669,7 @@ transport
 AsyncRead
 (
 listener
-nullptr
+nsnull
 0
 0
 0
@@ -705,9 +705,9 @@ context
 nsIOutputStream
 *
 output
-uint32_t
+PRUint32
 offset
-uint32_t
+PRUint32
 count
 )
 {
@@ -737,7 +737,7 @@ count
 )
 )
 ;
-uint32_t
+PRUint32
 writeCount
 ;
 nsresult
@@ -806,7 +806,7 @@ request
 )
 )
 ;
-uint32_t
+PRUint32
 n
 ;
 return
@@ -833,7 +833,7 @@ nsIInputStream
 is
 )
 {
-uint32_t
+PRUint32
 bytesRead
 ;
 char
@@ -1002,7 +1002,7 @@ usage
 argv
 )
 ;
-int
+PRIntn
 i
 =
 0
@@ -1046,7 +1046,7 @@ argv
 ;
 sync
 =
-true
+PR_TRUE
 ;
 i
 =
@@ -1344,7 +1344,7 @@ CreateTransport
 (
 hostName
 port
-nullptr
+nsnull
 0
 0
 getter_AddRefs
@@ -1408,7 +1408,7 @@ TestProvider
 (
 buffer
 )
-nullptr
+nsnull
 0
 0
 0
@@ -1681,7 +1681,7 @@ d
 n
 "
 (
-int32_t
+PRInt32
 )
 (
 endTime

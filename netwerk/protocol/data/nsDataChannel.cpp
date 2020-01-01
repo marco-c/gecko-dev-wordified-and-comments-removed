@@ -111,7 +111,7 @@ NS_ERROR_NOT_INITIALIZED
 nsresult
 rv
 ;
-nsAutoCString
+nsCAutoString
 spec
 ;
 rv
@@ -207,7 +207,7 @@ nsIOService
 gDefaultSegmentSize
 PR_UINT32_MAX
 async
-true
+PR_TRUE
 )
 ;
 if
@@ -220,7 +220,7 @@ rv
 return
 rv
 ;
-uint32_t
+PRUint32
 contentLen
 ;
 if
@@ -229,7 +229,7 @@ lBase64
 )
 {
 const
-uint32_t
+PRUint32
 dataLen
 =
 dataBuffer
@@ -238,7 +238,7 @@ Length
 (
 )
 ;
-int32_t
+PRInt32
 resultLen
 =
 0
@@ -329,7 +329,7 @@ get
 (
 )
 dataLen
-nullptr
+nsnull
 )
 ;
 if

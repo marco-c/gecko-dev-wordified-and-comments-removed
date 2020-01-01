@@ -182,7 +182,7 @@ PR_LOG_DEBUG
 )
 )
 {
-nsAutoCString
+nsCAutoString
 props
 ;
 nsResourceSet
@@ -394,7 +394,7 @@ aCantHandleYet
 *
 aCantHandleYet
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -722,7 +722,7 @@ rv
 return
 rv
 ;
-int32_t
+PRInt32
 count
 ;
 rv
@@ -825,7 +825,7 @@ GetTarget
 valueres
 *
 property
-true
+PR_TRUE
 getter_AddRefs
 (
 target
@@ -847,7 +847,7 @@ if
 target
 !
 =
-nullptr
+nsnull
 )
 {
 empty
@@ -987,7 +987,7 @@ NS_ASSERTION
 property
 !
 =
-nullptr
+nsnull
 "
 not
 a
@@ -1252,7 +1252,7 @@ if
 rdfc
 )
 return
-false
+PR_FALSE
 ;
 rv
 =
@@ -1274,7 +1274,7 @@ rv
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -1425,11 +1425,11 @@ aSource
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 void

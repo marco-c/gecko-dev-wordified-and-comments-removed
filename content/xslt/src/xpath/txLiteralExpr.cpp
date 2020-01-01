@@ -103,12 +103,12 @@ txLiteralExpr
 :
 getSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 void
@@ -117,7 +117,7 @@ txLiteralExpr
 :
 setSubExprAt
 (
-uint32_t
+PRUint32
 aPos
 Expr
 *
@@ -146,7 +146,7 @@ aContext
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 #
@@ -248,7 +248,7 @@ txAExprResult
 NUMBER
 :
 {
-txDouble
+Double
 :
 :
 toString

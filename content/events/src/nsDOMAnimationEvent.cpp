@@ -56,7 +56,7 @@ aEvent
 new
 nsAnimationEvent
 (
-false
+PR_FALSE
 0
 EmptyString
 (
@@ -74,14 +74,14 @@ aEvent
 {
 mEventIsInternal
 =
-false
+PR_FALSE
 ;
 }
 else
 {
 mEventIsInternal
 =
-true
+PR_TRUE
 ;
 mEvent
 -
@@ -114,7 +114,7 @@ AnimationEvent
 ;
 mEvent
 =
-nullptr
+nsnull
 ;
 }
 }

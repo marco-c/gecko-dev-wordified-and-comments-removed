@@ -548,7 +548,7 @@ FindChildByTag
 nsIContent
 *
 aElement
-int32_t
+PRInt32
 aNameSpaceID
 nsIAtom
 *
@@ -653,7 +653,7 @@ static
 nsresult
 GetResource
 (
-int32_t
+PRInt32
 aNameSpaceID
 nsIAtom
 *
@@ -668,7 +668,7 @@ static
 nsresult
 GetResource
 (
-int32_t
+PRInt32
 aNameSpaceID
 const
 nsAString

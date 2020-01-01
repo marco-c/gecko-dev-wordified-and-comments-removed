@@ -75,11 +75,11 @@ height
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 static
@@ -111,7 +111,7 @@ struct
 nsRect
 rect
 ;
-int64_t
+PRInt64
 expectedArea
 ;
 }
@@ -320,7 +320,7 @@ true
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -423,7 +423,7 @@ i
 ;
 success
 =
-false
+PR_FALSE
 ;
 }
 }
@@ -461,7 +461,7 @@ nsRect
 rect1
 rect2
 ;
-int64_t
+PRInt64
 expectedArea
 ;
 }
@@ -548,7 +548,7 @@ true
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -666,7 +666,7 @@ i
 ;
 success
 =
-false
+PR_FALSE
 ;
 }
 }
@@ -744,11 +744,11 @@ rectangle
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 static
@@ -821,11 +821,11 @@ rectangle
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 public
@@ -909,7 +909,7 @@ nsRect
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -919,7 +919,7 @@ TestNonRectangular
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -929,7 +929,7 @@ TwoRectTest
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -939,7 +939,7 @@ TestContainsSpecifiedRect
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -949,7 +949,7 @@ TestContainsSpecifiedOverflowingRect
 )
 )
 return
-false
+PR_FALSE
 ;
 passed
 (
@@ -959,7 +959,7 @@ TestLargestRegion
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 }

@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsError
+txError
 .
 h
 "
@@ -166,7 +166,7 @@ getContextNode
 mode
 &
 aEs
-nullptr
+nsnull
 &
 frame
 )
@@ -410,7 +410,7 @@ getContextNode
 mMode
 &
 aEs
-nullptr
+nsnull
 &
 frame
 )
@@ -544,7 +544,7 @@ nsIAtom
 >
 prefix
 ;
-uint32_t
+PRUint32
 lnameStart
 =
 0
@@ -582,7 +582,7 @@ get
 1
 ;
 }
-int32_t
+PRInt32
 nsId
 =
 kNameSpaceID_None
@@ -789,7 +789,7 @@ aName
 )
 mBailTarget
 (
-nullptr
+nsnull
 )
 {
 }
@@ -980,7 +980,7 @@ popResultHandler
 )
 )
 ;
-uint32_t
+PRUint32
 length
 =
 handler
@@ -992,7 +992,7 @@ Length
 (
 )
 ;
-int32_t
+PRInt32
 pos
 =
 0
@@ -1013,7 +1013,7 @@ FindChar
 -
 '
 (
-uint32_t
+PRUint32
 )
 pos
 )
@@ -1030,7 +1030,7 @@ pos
 if
 (
 (
-uint32_t
+PRUint32
 )
 pos
 =
@@ -1167,7 +1167,7 @@ getPrefix
 aNode
 )
 localName
-nullptr
+nsnull
 txXPathNodeUtils
 :
 :
@@ -1304,7 +1304,7 @@ getPrefix
 aNode
 )
 localName
-nullptr
+nsnull
 txXPathNodeUtils
 :
 :
@@ -1385,7 +1385,7 @@ getPrefix
 attr
 )
 localName
-nullptr
+nsnull
 txXPathNodeUtils
 :
 :
@@ -1539,7 +1539,7 @@ mResultHandler
 characters
 (
 nodeValue
-false
+PR_FALSE
 )
 ;
 }
@@ -1557,7 +1557,7 @@ txCopy
 :
 mBailTarget
 (
-nullptr
+nsnull
 )
 {
 }
@@ -1636,7 +1636,7 @@ mResultHandler
 characters
 (
 empty
-false
+PR_FALSE
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1651,7 +1651,7 @@ aEs
 .
 pushBool
 (
-false
+PR_FALSE
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1701,7 +1701,7 @@ getPrefix
 node
 )
 localName
-nullptr
+nsnull
 txXPathNodeUtils
 :
 :
@@ -1723,7 +1723,7 @@ aEs
 .
 pushBool
 (
-true
+PR_TRUE
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1862,7 +1862,7 @@ exprRes
 )
 )
 ;
-int32_t
+PRInt32
 i
 ;
 for
@@ -1981,7 +1981,7 @@ mResultHandler
 characters
 (
 value
-false
+PR_FALSE
 )
 ;
 }
@@ -2244,7 +2244,7 @@ txLREAttribute
 :
 txLREAttribute
 (
-int32_t
+PRInt32
 aNamespaceID
 nsIAtom
 *
@@ -2635,7 +2635,7 @@ mResultHandler
 characters
 (
 res
-false
+PR_FALSE
 )
 ;
 }
@@ -2803,7 +2803,7 @@ aSelect
 )
 mBailTarget
 (
-nullptr
+nsnull
 )
 {
 }
@@ -2922,7 +2922,7 @@ NS_OK
 txNodeSorter
 sorter
 ;
-uint32_t
+PRUint32
 i
 count
 =
@@ -3175,11 +3175,11 @@ aEs
 .
 pushTemplateRule
 (
-nullptr
+nsnull
 txExpandedName
 (
 )
-nullptr
+nsnull
 )
 ;
 return
@@ -3202,7 +3202,7 @@ aEs
 .
 pushParamMap
 (
-nullptr
+nsnull
 )
 ;
 }
@@ -3769,7 +3769,7 @@ rv
 rv
 )
 ;
-int32_t
+PRInt32
 nsId
 =
 kNameSpaceID_None
@@ -3780,7 +3780,7 @@ nsIAtom
 >
 prefix
 ;
-uint32_t
+PRUint32
 lnameStart
 =
 0
@@ -3957,7 +3957,7 @@ NS_ERROR_XSLT_BAD_NODE_NAME
 {
 success
 =
-false
+PR_FALSE
 ;
 rv
 =
@@ -3971,7 +3971,7 @@ characters
 EmptyString
 (
 )
-false
+PR_FALSE
 )
 ;
 }
@@ -4005,7 +4005,7 @@ txStartLREElement
 :
 txStartLREElement
 (
-int32_t
+PRInt32
 aNamespaceID
 nsIAtom
 *
@@ -4084,7 +4084,7 @@ aEs
 .
 pushBool
 (
-true
+PR_TRUE
 )
 ;
 NS_ENSURE_SUCCESS

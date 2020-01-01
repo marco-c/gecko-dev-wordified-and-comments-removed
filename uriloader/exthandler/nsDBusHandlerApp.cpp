@@ -239,16 +239,16 @@ dbusHandlerApp
 *
 _retval
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
 ;
 }
-nsAutoCString
+nsCAutoString
 service
 ;
-nsAutoCString
+nsCAutoString
 method
 ;
 nsresult
@@ -273,7 +273,7 @@ rv
 *
 _retval
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -300,7 +300,7 @@ rv
 *
 _retval
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -342,7 +342,7 @@ nsIInterfaceRequestor
 aWindowContext
 )
 {
-nsAutoCString
+nsCAutoString
 spec
 ;
 nsresult
@@ -416,7 +416,7 @@ NS_ERROR_FAILURE
 }
 if
 (
-nullptr
+nsnull
 =
 =
 connection
@@ -475,7 +475,7 @@ NS_ERROR_FAILURE
 dbus_message_set_no_reply
 (
 msg
-true
+PR_TRUE
 )
 ;
 DBusMessageIter

@@ -43,7 +43,7 @@ nsPresState
 :
 mContentData
 (
-nullptr
+nsnull
 )
 mScrollState
 (
@@ -52,11 +52,11 @@ mScrollState
 )
 mDisabledSet
 (
-false
+PR_FALSE
 )
 mDisabled
 (
-false
+PR_FALSE
 )
 {
 }
@@ -90,11 +90,11 @@ ClearNonScrollState
 {
 mContentData
 =
-nullptr
+nsnull
 ;
 mDisabledSet
 =
-false
+PR_FALSE
 ;
 }
 bool
@@ -119,7 +119,7 @@ aDisabled
 ;
 mDisabledSet
 =
-true
+PR_TRUE
 ;
 }
 bool

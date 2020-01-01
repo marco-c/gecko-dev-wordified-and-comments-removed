@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsIConstraintValidation
 .
 h
@@ -88,7 +95,7 @@ mCheckedChanged
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -111,7 +118,7 @@ mExcludeElement
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 nsRefPtr
@@ -155,7 +162,7 @@ GetCheckedChanged
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 bool
@@ -178,7 +185,7 @@ mExcludeElement
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 nsHTMLInputElement
@@ -215,6 +222,6 @@ true
 )
 ;
 return
-true
+PR_TRUE
 ;
 }

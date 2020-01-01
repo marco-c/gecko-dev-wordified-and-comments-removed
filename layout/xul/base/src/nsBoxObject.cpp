@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h
@@ -64,7 +71,7 @@ h
 #
 include
 "
-nsDOMClassInfoID
+nsIDOMClassInfo
 .
 h
 "
@@ -96,6 +103,13 @@ h
 "
 #
 endif
+#
+include
+"
+nsIFrame
+.
+h
+"
 #
 include
 "
@@ -264,7 +278,7 @@ void
 :
 mContent
 (
-nullptr
+nsnull
 )
 {
 }
@@ -306,7 +320,7 @@ aResult
 *
 aResult
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -341,11 +355,11 @@ Clear
 {
 mPropertyTable
 =
-nullptr
+nsnull
 ;
 mContent
 =
-nullptr
+nsnull
 ;
 }
 void
@@ -383,7 +397,7 @@ if
 shell
 )
 return
-nullptr
+nsnull
 ;
 if
 (
@@ -407,7 +421,7 @@ mContent
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 return
@@ -437,7 +451,7 @@ mContent
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 nsIDocument
@@ -458,7 +472,7 @@ doc
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 if
@@ -519,7 +533,7 @@ frame
 =
 GetFrame
 (
-true
+PR_TRUE
 )
 ;
 if
@@ -668,7 +682,7 @@ x
 border
 -
 >
-GetComputedBorderWidth
+GetActualBorderWidth
 (
 NS_SIDE_LEFT
 )
@@ -681,7 +695,7 @@ y
 border
 -
 >
-GetComputedBorderWidth
+GetActualBorderWidth
 (
 NS_SIDE_TOP
 )
@@ -706,7 +720,7 @@ x
 parentBorder
 -
 >
-GetComputedBorderWidth
+GetActualBorderWidth
 (
 NS_SIDE_LEFT
 )
@@ -719,7 +733,7 @@ y
 parentBorder
 -
 >
-GetComputedBorderWidth
+GetActualBorderWidth
 (
 NS_SIDE_TOP
 )
@@ -832,7 +846,7 @@ frame
 =
 GetFrame
 (
-true
+PR_TRUE
 )
 ;
 if
@@ -877,7 +891,7 @@ nsBoxObject
 :
 GetX
 (
-int32_t
+PRInt32
 *
 aResult
 )
@@ -907,7 +921,7 @@ nsBoxObject
 :
 GetY
 (
-int32_t
+PRInt32
 *
 aResult
 )
@@ -937,7 +951,7 @@ nsBoxObject
 :
 GetWidth
 (
-int32_t
+PRInt32
 *
 aResult
 )
@@ -967,7 +981,7 @@ nsBoxObject
 :
 GetHeight
 (
-int32_t
+PRInt32
 *
 aResult
 )
@@ -997,7 +1011,7 @@ nsBoxObject
 :
 GetScreenX
 (
-int32_t
+PRInt32
 *
 _retval
 )
@@ -1040,7 +1054,7 @@ nsBoxObject
 :
 GetScreenY
 (
-int32_t
+PRInt32
 *
 _retval
 )
@@ -1111,7 +1125,7 @@ mPropertyTable
 *
 aResult
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -1183,6 +1197,10 @@ mPropertyTable
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+if
+(
+NS_FAILED
+(
 mPropertyTable
 -
 >
@@ -1190,7 +1208,17 @@ Init
 (
 8
 )
+)
+)
+{
+mPropertyTable
+=
+nsnull
 ;
+return
+NS_ERROR_FAILURE
+;
+}
 }
 nsDependentString
 propertyName
@@ -1198,6 +1226,9 @@ propertyName
 aPropertyName
 )
 ;
+if
+(
+!
 mPropertyTable
 -
 >
@@ -1206,6 +1237,9 @@ Put
 propertyName
 aValue
 )
+)
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
 return
 NS_OK
@@ -1260,7 +1294,7 @@ data
 *
 aResult
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -1348,7 +1382,7 @@ propertyValue
 .
 SetIsVoid
 (
-true
+PR_TRUE
 )
 ;
 }
@@ -1448,7 +1482,7 @@ aParentBox
 *
 aParentBox
 =
-nullptr
+nsnull
 ;
 nsIFrame
 *
@@ -1456,7 +1490,7 @@ frame
 =
 GetFrame
 (
-false
+PR_FALSE
 )
 ;
 if
@@ -1532,7 +1566,7 @@ aFirstVisibleChild
 *
 aFirstVisibleChild
 =
-nullptr
+nsnull
 ;
 nsIFrame
 *
@@ -1540,7 +1574,7 @@ frame
 =
 GetFrame
 (
-false
+PR_FALSE
 )
 ;
 if
@@ -1613,7 +1647,7 @@ aLastVisibleChild
 *
 aLastVisibleChild
 =
-nullptr
+nsnull
 ;
 nsIFrame
 *
@@ -1621,7 +1655,7 @@ frame
 =
 GetFrame
 (
-false
+PR_FALSE
 )
 ;
 if
@@ -1636,7 +1670,7 @@ return
 GetPreviousSibling
 (
 frame
-nullptr
+nsnull
 aLastVisibleChild
 )
 ;
@@ -1656,7 +1690,7 @@ aNextOrdinalSibling
 *
 aNextOrdinalSibling
 =
-nullptr
+nsnull
 ;
 nsIFrame
 *
@@ -1664,7 +1698,7 @@ frame
 =
 GetFrame
 (
-false
+PR_FALSE
 )
 ;
 if
@@ -1737,7 +1771,7 @@ aPreviousOrdinalSibling
 *
 aPreviousOrdinalSibling
 =
-nullptr
+nsnull
 ;
 nsIFrame
 *
@@ -1745,7 +1779,7 @@ frame
 =
 GetFrame
 (
-false
+PR_FALSE
 )
 ;
 if
@@ -1805,7 +1839,7 @@ aResult
 *
 aResult
 =
-nullptr
+nsnull
 ;
 nsIFrame
 *
@@ -1822,7 +1856,7 @@ nsIFrame
 *
 prevFrame
 =
-nullptr
+nsnull
 ;
 while
 (

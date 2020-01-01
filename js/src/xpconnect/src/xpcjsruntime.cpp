@@ -262,7 +262,7 @@ IsSubjectToFinalization
 )
 )
 {
-JS
+js
 :
 :
 AutoSwitchCompartment
@@ -11441,7 +11441,7 @@ callback
 "
 )
 ;
-PRBool
+bool
 found
 =
 extraGCCallbacks

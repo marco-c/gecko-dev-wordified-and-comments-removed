@@ -46,7 +46,13 @@ nsIURI
 *
 uri
 )
+{
+SetURI
+(
+uri
+)
 ;
+}
 protected
 :
 nsresult
@@ -90,7 +96,7 @@ nsIInputStream
 >
 mUploadStream
 ;
-int64_t
+PRInt64
 mUploadLength
 ;
 }

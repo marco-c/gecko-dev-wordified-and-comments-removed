@@ -97,7 +97,7 @@ mComment
 nsCString
 mBuf
 ;
-int32_t
+PRInt32
 mLineStart
 ;
 bool

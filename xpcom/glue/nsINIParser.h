@@ -42,7 +42,7 @@ stdio
 h
 >
 class
-nsIFile
+nsILocalFile
 ;
 class
 NS_COM_GLUE
@@ -64,7 +64,7 @@ nsINIParser
 nsresult
 Init
 (
-nsIFile
+nsILocalFile
 *
 aFile
 )
@@ -168,7 +168,7 @@ aKey
 char
 *
 aResult
-uint32_t
+PRUint32
 aResultLen
 )
 ;

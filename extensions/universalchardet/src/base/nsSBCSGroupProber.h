@@ -36,7 +36,7 @@ const
 char
 *
 aBuf
-uint32_t
+PRUint32
 aLen
 )
 ;
@@ -69,6 +69,12 @@ GetConfidence
 void
 )
 ;
+void
+SetOpion
+(
+)
+{
+}
 #
 ifdef
 DEBUG_chardet
@@ -97,10 +103,10 @@ mIsActive
 NUM_OF_SBCS_PROBERS
 ]
 ;
-int32_t
+PRInt32
 mBestGuess
 ;
-uint32_t
+PRUint32
 mActiveNum
 ;
 }

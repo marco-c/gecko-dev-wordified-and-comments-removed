@@ -125,7 +125,7 @@ const
 char
 *
 host
-int32_t
+PRInt32
 index
 )
 :
@@ -206,7 +206,7 @@ status
 )
 )
 {
-nsAutoCString
+nsCAutoString
 buf
 ;
 rec
@@ -299,7 +299,7 @@ private
 nsCString
 mHost
 ;
-int32_t
+PRInt32
 mIndex
 ;
 }
@@ -338,11 +338,11 @@ s
 0x80
 )
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 int
@@ -426,8 +426,8 @@ getter_AddRefs
 (
 servMan
 )
-nullptr
-nullptr
+nsnull
+nsnull
 )
 ;
 nsCOMPtr
@@ -519,7 +519,7 @@ argc
 i
 )
 {
-nsAutoCString
+nsCAutoString
 hostBuf
 ;
 if
@@ -592,7 +592,7 @@ nsIDNSService
 :
 RESOLVE_CANONICAL_NAME
 listener
-nullptr
+nsnull
 getter_AddRefs
 (
 req
@@ -680,7 +680,7 @@ Shutdown
 }
 NS_ShutdownXPCOM
 (
-nullptr
+nsnull
 )
 ;
 return

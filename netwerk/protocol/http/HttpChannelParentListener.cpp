@@ -315,7 +315,7 @@ aStatusCode
 ;
 mActiveChannel
 =
-nullptr
+nsnull
 ;
 return
 rv
@@ -336,9 +336,9 @@ aContext
 nsIInputStream
 *
 aInputStream
-uint64_t
+PRUint32
 aOffset
-uint32_t
+PRUint32
 aCount
 )
 {
@@ -499,7 +499,7 @@ oldChannel
 nsIChannel
 *
 newChannel
-uint32_t
+PRUint32
 redirectFlags
 nsIAsyncVerifyRedirectCallback
 *

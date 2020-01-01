@@ -193,15 +193,15 @@ nsParentalControlsServiceWin
 :
 mPC
 (
-nullptr
+nsnull
 )
 mEnabled
 (
-false
+PR_FALSE
 )
 mProvider
 (
-NULL
+nsnull
 )
 {
 HRESULT
@@ -271,7 +271,7 @@ Release
 ;
 mPC
 =
-nullptr
+nsnull
 ;
 return
 ;
@@ -355,7 +355,7 @@ EventUnregister
 }
 mEnabled
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -416,7 +416,7 @@ aResult
 *
 aResult
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -425,7 +425,7 @@ mEnabled
 *
 aResult
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -445,7 +445,7 @@ aResult
 *
 aResult
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -503,7 +503,7 @@ WPCFLAG_WEB_SETTING_DOWNLOADSBLOCKED
 *
 aResult
 =
-true
+PR_TRUE
 ;
 }
 return
@@ -524,7 +524,7 @@ aResult
 *
 aResult
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -579,7 +579,7 @@ enabled
 *
 aResult
 =
-true
+PR_TRUE
 ;
 }
 return
@@ -592,7 +592,7 @@ nsParentalControlsServiceWin
 :
 Log
 (
-int16_t
+PRInt16
 aEntryType
 bool
 blocked
@@ -718,7 +718,7 @@ _retval
 *
 _retval
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -733,7 +733,7 @@ NS_ENSURE_ARG_POINTER
 aTarget
 )
 ;
-nsAutoCString
+nsCAutoString
 spec
 ;
 aTarget
@@ -758,7 +758,7 @@ NS_ERROR_INVALID_ARG
 HWND
 hWnd
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -794,7 +794,7 @@ if
 hWnd
 =
 =
-nullptr
+nsnull
 )
 hWnd
 =
@@ -879,7 +879,7 @@ _retval
 *
 _retval
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -894,7 +894,7 @@ NS_ENSURE_ARG_POINTER
 aTargets
 )
 ;
-uint32_t
+PRUint32
 arrayLength
 =
 0
@@ -956,7 +956,7 @@ _retval
 HWND
 hWnd
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -992,7 +992,7 @@ if
 hWnd
 =
 =
-nullptr
+nsnull
 )
 hWnd
 =
@@ -1000,7 +1000,7 @@ GetDesktopWindow
 (
 )
 ;
-nsAutoCString
+nsCAutoString
 rootSpec
 ;
 nsCOMPtr
@@ -1042,7 +1042,7 @@ IsEmpty
 return
 NS_ERROR_INVALID_ARG
 ;
-int32_t
+PRInt32
 count
 =
 arrayLength
@@ -1070,7 +1070,7 @@ arrUrls
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-uint32_t
+PRUint32
 uriIdx
 =
 0
@@ -1110,7 +1110,7 @@ uri
 )
 continue
 ;
-nsAutoCString
+nsCAutoString
 subURI
 ;
 if
@@ -1271,7 +1271,7 @@ nsIFile
 aTarget
 )
 {
-nsAutoCString
+nsCAutoString
 curi
 ;
 if
@@ -1320,7 +1320,7 @@ info
 "
 )
 ;
-nsAutoCString
+nsCAutoString
 asciiAppName
 ;
 if

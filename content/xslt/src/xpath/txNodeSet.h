@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsError
+txError
 .
 h
 "
@@ -136,7 +136,7 @@ mDirection
 nsresult
 mark
 (
-int32_t
+PRInt32
 aIndex
 )
 ;
@@ -150,14 +150,14 @@ clear
 (
 )
 ;
-int32_t
+PRInt32
 indexOf
 (
 const
 txXPathNode
 &
 aNode
-uint32_t
+PRUint32
 aStart
 =
 0
@@ -189,7 +189,7 @@ txXPathNode
 &
 get
 (
-int32_t
+PRInt32
 aIndex
 )
 const
@@ -208,10 +208,10 @@ mStart
 =
 mEnd
 :
-true
+PR_TRUE
 ;
 }
-int32_t
+PRInt32
 size
 (
 )
@@ -233,7 +233,7 @@ private
 bool
 ensureGrowSize
 (
-int32_t
+PRInt32
 aSize
 )
 ;
@@ -386,7 +386,7 @@ mStartBuffer
 *
 mEndBuffer
 ;
-int32_t
+PRInt32
 mDirection
 ;
 bool

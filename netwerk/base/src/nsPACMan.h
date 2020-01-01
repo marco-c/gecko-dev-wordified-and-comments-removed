@@ -60,15 +60,6 @@ prclist
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 NS_NO_VTABLE
 nsPACManCallback
@@ -96,7 +87,6 @@ pacString
 ;
 class
 nsPACMan
-MOZ_FINAL
 :
 public
 nsIStreamLoaderObserver
@@ -156,7 +146,7 @@ return
 mLoader
 !
 =
-nullptr
+nsnull
 ;
 }
 bool
@@ -260,7 +250,7 @@ mShutdown
 PRTime
 mScheduledReload
 ;
-uint32_t
+PRUint32
 mLoadFailureCount
 ;
 }

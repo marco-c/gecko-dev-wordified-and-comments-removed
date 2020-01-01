@@ -410,7 +410,7 @@ TestListener
 :
 mDone
 (
-false
+PR_FALSE
 )
 mThreadNo
 (
@@ -595,7 +595,7 @@ mFile
 ;
 mDone
 =
-true
+PR_TRUE
 ;
 return
 rv
@@ -616,9 +616,9 @@ aContext
 nsIInputStream
 *
 aStream
-uint64_t
+PRUint32
 offset
-uint32_t
+PRUint32
 aLength
 )
 {
@@ -1190,9 +1190,9 @@ rv
 =
 NS_InitXPCOM2
 (
-nullptr
-nullptr
-nullptr
+nsnull
+nsnull
+nsnull
 )
 ;
 if

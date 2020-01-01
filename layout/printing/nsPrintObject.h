@@ -7,15 +7,6 @@ nsPrintObject_h___
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -226,7 +217,6 @@ nsPrintObject
 &
 aOther
 )
-MOZ_DELETE
 ;
 }
 ;

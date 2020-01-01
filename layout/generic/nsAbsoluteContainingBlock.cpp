@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsHTMLContainerFrame
+.
+h
+"
+#
+include
+"
 nsHTMLParts
 .
 h
@@ -100,7 +107,7 @@ name
 ;
 #
 ifdef
-DEBUG
+NS_DEBUG
 nsFrame
 :
 :
@@ -155,7 +162,7 @@ list
 ;
 #
 ifdef
-DEBUG
+NS_DEBUG
 nsFrame
 :
 :
@@ -170,7 +177,7 @@ mAbsoluteFrames
 .
 AppendFrames
 (
-nullptr
+nsnull
 aFrameList
 )
 ;
@@ -263,7 +270,7 @@ parent
 ;
 #
 ifdef
-DEBUG
+NS_DEBUG
 nsFrame
 :
 :
@@ -278,7 +285,7 @@ mAbsoluteFrames
 .
 InsertFrames
 (
-nullptr
+nsnull
 aPrevFrame
 aFrameList
 )
@@ -381,7 +388,7 @@ PresContext
 (
 )
 nif
-false
+PR_FALSE
 )
 ;
 }
@@ -450,7 +457,7 @@ tracker
 (
 aPresContext
 aDelegatingFrame
-true
+PR_TRUE
 )
 ;
 for
@@ -633,7 +640,7 @@ DeleteNextInFlowChild
 (
 aPresContext
 nextFrame
-true
+PR_TRUE
 )
 ;
 }
@@ -880,7 +887,7 @@ eStyleUnit_Auto
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 if
@@ -894,7 +901,7 @@ aCBHeightChanged
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 const
@@ -981,7 +988,7 @@ GetRight
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 if
@@ -1015,7 +1022,7 @@ GetRight
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 if
@@ -1064,7 +1071,7 @@ eStyleUnit_Auto
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 }
@@ -1087,7 +1094,7 @@ GetLeft
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 }
@@ -1196,7 +1203,7 @@ GetBottom
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 if
@@ -1230,7 +1237,7 @@ GetBottom
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 if
@@ -1250,12 +1257,12 @@ GetTop
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 }
 return
-false
+PR_FALSE
 ;
 }
 void
@@ -1290,7 +1297,7 @@ MarkSizeDependentFramesDirty
 {
 DoMarkFramesDirty
 (
-false
+PR_FALSE
 )
 ;
 }
@@ -1304,7 +1311,7 @@ MarkAllFramesDirty
 {
 DoMarkFramesDirty
 (
-true
+PR_TRUE
 )
 ;
 }
@@ -1362,8 +1369,8 @@ if
 FrameDependsOnContainer
 (
 kidFrame
-true
-true
+PR_TRUE
+PR_TRUE
 )
 )
 {
@@ -1606,7 +1613,7 @@ aReflowState
 mStyleBorder
 -
 >
-GetComputedBorder
+GetActualBorder
 (
 )
 ;
@@ -2400,7 +2407,7 @@ else
 if
 (
 (
-int32_t
+PRInt32
 )
 0xdeadbeef
 =

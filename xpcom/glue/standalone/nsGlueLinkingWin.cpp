@@ -863,7 +863,7 @@ sXULLibrary
 ;
 sXULLibrary
 =
-nullptr
+nsnull
 ;
 }
 }

@@ -12,18 +12,8 @@ gfxContext
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 CachedSurfaceExpirationTracker
-MOZ_FINAL
 :
 public
 nsExpirationTracker
@@ -200,7 +190,7 @@ sExpirationTracker
 ;
 sExpirationTracker
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -220,7 +210,7 @@ CachedSurfaceExpirationTracker
 :
 sExpirationTracker
 =
-nullptr
+nsnull
 ;
 gfxCachedTempSurface
 :
@@ -300,7 +290,7 @@ aContentType
 {
 mSurface
 =
-nullptr
+nsnull
 ;
 }
 else
@@ -341,7 +331,7 @@ mSize
 =
 gfxIntSize
 (
-int32_t
+PRInt32
 (
 ceil
 (
@@ -350,7 +340,7 @@ aRect
 width
 )
 )
-int32_t
+PRInt32
 (
 ceil
 (
@@ -378,11 +368,11 @@ if
 mSurface
 )
 return
-nullptr
+nsnull
 ;
 cleared
 =
-true
+PR_TRUE
 ;
 #
 ifdef

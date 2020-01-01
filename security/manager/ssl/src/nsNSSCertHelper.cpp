@@ -432,7 +432,7 @@ if
 printableItem
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -667,7 +667,7 @@ if
 printableItem
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -734,7 +734,7 @@ if
 serialNumber
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -920,7 +920,7 @@ len
 {
 invalid
 =
-true
+PR_TRUE
 ;
 }
 if
@@ -1171,11 +1171,11 @@ val
 ;
 invalid
 =
-false
+PR_FALSE
 ;
 first
 =
-false
+PR_FALSE
 ;
 }
 CopyASCIItoUTF16
@@ -2718,7 +2718,7 @@ get
 )
 ;
 }
-uint32_t
+PRUint32
 i
 ;
 char
@@ -2827,7 +2827,7 @@ decoded
 .
 data
 =
-nullptr
+nsnull
 ;
 decoded
 .
@@ -2842,7 +2842,7 @@ SECSuccess
 =
 SEC_ASN1DecodeItem
 (
-nullptr
+nsnull
 &
 decoded
 SEC_ASN1_GET
@@ -3237,7 +3237,7 @@ decoded
 .
 data
 =
-nullptr
+nsnull
 ;
 decoded
 .
@@ -3252,7 +3252,7 @@ SECSuccess
 =
 SEC_ASN1DecodeItem
 (
-nullptr
+nsnull
 &
 decoded
 SEC_ASN1_GET
@@ -4128,7 +4128,7 @@ SECItem
 *
 decodeItem
 =
-nullptr
+nsnull
 ;
 nsString
 avavalue
@@ -4213,7 +4213,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-int
+PRIntn
 escapedValueCapacity
 =
 decodeItem
@@ -4248,7 +4248,7 @@ escapedValue
 SECITEM_FreeItem
 (
 decodeItem
-true
+PR_TRUE
 )
 ;
 return
@@ -4291,7 +4291,7 @@ status
 SECITEM_FreeItem
 (
 decodeItem
-true
+PR_TRUE
 )
 ;
 return
@@ -4308,7 +4308,7 @@ escapedValue
 SECITEM_FreeItem
 (
 decodeItem
-true
+PR_TRUE
 )
 ;
 params
@@ -4506,7 +4506,7 @@ SECSuccess
 =
 SEC_ASN1DecodeItem
 (
-nullptr
+nsnull
 &
 item
 SEC_ASN1_GET
@@ -4622,7 +4622,7 @@ if
 !
 PORT_UCS2_UTF8Conversion
 (
-false
+PR_FALSE
 data
 len
 utf8Val
@@ -4724,7 +4724,7 @@ text
 PORT_FreeArena
 (
 arena
-false
+PR_FALSE
 )
 ;
 return
@@ -4846,7 +4846,7 @@ SECSuccess
 {
 AppendUTF8toUTF16
 (
-nsAutoCString
+nsCAutoString
 (
 (
 char
@@ -5824,7 +5824,7 @@ finish
 PORT_FreeArena
 (
 arena
-false
+PR_FALSE
 )
 ;
 return
@@ -5945,7 +5945,7 @@ finish
 PORT_FreeArena
 (
 arena
-false
+PR_FALSE
 )
 ;
 return
@@ -6205,7 +6205,7 @@ finish
 PORT_FreeArena
 (
 arena
-false
+PR_FALSE
 )
 ;
 return
@@ -6609,7 +6609,7 @@ notice
 PORT_FreeArena
 (
 arena
-false
+PR_FALSE
 )
 ;
 return
@@ -6802,7 +6802,7 @@ SEPARATOR
 ;
 needColon
 =
-false
+PR_FALSE
 ;
 nssComponent
 -
@@ -7701,7 +7701,7 @@ finish
 PORT_FreeArena
 (
 arena
-false
+PR_FALSE
 )
 ;
 return
@@ -7912,7 +7912,7 @@ finish
 PORT_FreeArena
 (
 arena
-false
+PR_FALSE
 )
 ;
 return
@@ -7957,7 +7957,7 @@ SECSuccess
 =
 SEC_ASN1DecodeItem
 (
-nullptr
+nsnull
 &
 decoded
 SEC_ASN1_GET
@@ -8369,7 +8369,7 @@ if
 extensionItem
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -8410,7 +8410,7 @@ critical
 data
 !
 =
-nullptr
+nsnull
 )
 {
 if
@@ -8522,7 +8522,7 @@ extension
 >
 value
 extvalue
-false
+PR_FALSE
 )
 ;
 }
@@ -8609,7 +8609,7 @@ if
 sequence
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -8617,7 +8617,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 retSequence
 =
-nullptr
+nsnull
 ;
 nsString
 text
@@ -8674,7 +8674,7 @@ sequence
 >
 SetIsValidContainer
 (
-false
+PR_FALSE
 )
 ;
 }
@@ -8696,7 +8696,7 @@ if
 printableItem
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -8732,7 +8732,7 @@ asn1Objects
 AppendElement
 (
 printableItem
-false
+PR_FALSE
 )
 ;
 nssComponent
@@ -8766,7 +8766,7 @@ if
 printableItem
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -8777,7 +8777,7 @@ asn1Objects
 AppendElement
 (
 printableItem
-false
+PR_FALSE
 )
 ;
 nssComponent
@@ -8976,7 +8976,7 @@ dateFormatter
 >
 FormatPRExplodedTime
 (
-nullptr
+nsnull
 kDateFormatShort
 kTimeFormatSecondsForce24Hour
 &
@@ -9018,7 +9018,7 @@ dateFormatter
 >
 FormatPRExplodedTime
 (
-nullptr
+nsnull
 kDateFormatShort
 kTimeFormatSecondsForce24Hour
 &
@@ -9062,7 +9062,7 @@ if
 printableItem
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -9109,7 +9109,7 @@ asn1Objects
 AppendElement
 (
 printableItem
-false
+PR_FALSE
 )
 ;
 return
@@ -9147,7 +9147,7 @@ if
 spkiSequence
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -9249,7 +9249,7 @@ asn1Objects
 AppendElement
 (
 sequenceItem
-false
+PR_FALSE
 )
 ;
 nsCOMPtr
@@ -9268,7 +9268,7 @@ if
 printableItem
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -9372,7 +9372,7 @@ rsa
 .
 modulus
 data1
-false
+PR_FALSE
 )
 ;
 ProcessRawBytes
@@ -9388,7 +9388,7 @@ rsa
 .
 publicExponent
 data2
-false
+PR_FALSE
 )
 ;
 const
@@ -9517,7 +9517,7 @@ ecpk
 .
 publicValue
 s_pv
-false
+PR_FALSE
 )
 ;
 }
@@ -9669,7 +9669,7 @@ asn1Objects
 AppendElement
 (
 printableItem
-false
+PR_FALSE
 )
 ;
 parentSequence
@@ -9689,7 +9689,7 @@ asn1Objects
 AppendElement
 (
 spkiSequence
-false
+PR_FALSE
 )
 ;
 return
@@ -9728,7 +9728,7 @@ if
 extensionSequence
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -9755,7 +9755,7 @@ SetDisplayName
 text
 )
 ;
-int32_t
+PRInt32
 i
 ;
 nsresult
@@ -9796,7 +9796,7 @@ i
 ]
 !
 =
-nullptr
+nsnull
 ;
 i
 +
@@ -9835,7 +9835,7 @@ asn1Objects
 AppendElement
 (
 newExtension
-false
+PR_FALSE
 )
 ;
 }
@@ -9856,7 +9856,7 @@ asn1Objects
 AppendElement
 (
 extensionSequence
-false
+PR_FALSE
 )
 ;
 return
@@ -10004,7 +10004,7 @@ if
 sequence
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -10087,7 +10087,7 @@ asn1Objects
 AppendElement
 (
 printableItem
-false
+PR_FALSE
 )
 ;
 rv
@@ -10122,7 +10122,7 @@ asn1Objects
 AppendElement
 (
 printableItem
-false
+PR_FALSE
 )
 ;
 nsCOMPtr
@@ -10182,7 +10182,7 @@ asn1Objects
 AppendElement
 (
 algID
-false
+PR_FALSE
 )
 ;
 nsXPIDLString
@@ -10214,7 +10214,7 @@ if
 printableItem
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -10252,7 +10252,7 @@ asn1Objects
 AppendElement
 (
 printableItem
-false
+PR_FALSE
 )
 ;
 nsCOMPtr
@@ -10291,7 +10291,7 @@ asn1Objects
 AppendElement
 (
 validitySequence
-false
+PR_FALSE
 )
 ;
 nssComponent
@@ -10425,7 +10425,7 @@ if
 printableItem
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -10466,7 +10466,7 @@ asn1Objects
 AppendElement
 (
 printableItem
-false
+PR_FALSE
 )
 ;
 rv
@@ -10505,7 +10505,7 @@ issuerID
 data
 !
 =
-nullptr
+nsnull
 )
 {
 data
@@ -10523,16 +10523,12 @@ data
 .
 len
 =
-(
 mCert
 -
 >
 issuerID
 .
 len
-+
-7
-)
 /
 8
 ;
@@ -10556,7 +10552,7 @@ if
 printableItem
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -10594,7 +10590,7 @@ asn1Objects
 AppendElement
 (
 printableItem
-false
+PR_FALSE
 )
 ;
 }
@@ -10615,7 +10611,7 @@ data
 mCert
 -
 >
-subjectID
+issuerID
 .
 data
 ;
@@ -10623,16 +10619,12 @@ data
 .
 len
 =
-(
 mCert
 -
 >
-subjectID
+issuerID
 .
 len
-+
-7
-)
 /
 8
 ;
@@ -10656,7 +10648,7 @@ if
 printableItem
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -10694,7 +10686,7 @@ asn1Objects
 AppendElement
 (
 printableItem
-false
+PR_FALSE
 )
 ;
 }
@@ -10818,7 +10810,7 @@ if
 mASN1Structure
 =
 =
-nullptr
+nsnull
 )
 {
 return
@@ -10918,7 +10910,7 @@ asn1Objects
 AppendElement
 (
 sequence
-false
+PR_FALSE
 )
 ;
 nsCOMPtr
@@ -10983,7 +10975,7 @@ asn1Objects
 AppendElement
 (
 algID
-false
+PR_FALSE
 )
 ;
 nsCOMPtr
@@ -11075,14 +11067,14 @@ asn1Objects
 AppendElement
 (
 printableItem
-false
+PR_FALSE
 )
 ;
 return
 NS_OK
 ;
 }
-uint32_t
+PRUint32
 getCertType
 (
 CERTCertificate
@@ -11139,9 +11131,9 @@ trust
 .
 HasPeer
 (
-true
-false
-false
+PR_TRUE
+PR_FALSE
+PR_FALSE
 )
 )
 return
@@ -11156,9 +11148,9 @@ trust
 .
 HasPeer
 (
-false
-true
-false
+PR_FALSE
+PR_TRUE
+PR_FALSE
 )
 &
 &
@@ -11241,7 +11233,7 @@ rv
 )
 )
 return
-nullptr
+nsnull
 ;
 nsAutoString
 expiredString

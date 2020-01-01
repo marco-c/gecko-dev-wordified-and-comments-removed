@@ -104,7 +104,7 @@ const
 nsRect
 &
 aRect
-uint32_t
+PRUint32
 aBGFlags
 )
 ;
@@ -203,7 +203,7 @@ nsStyleContext
 *
 GetStyleContext
 (
-int32_t
+PRInt32
 aIndex
 )
 const
@@ -211,7 +211,7 @@ const
 void
 SetStyleContext
 (
-int32_t
+PRInt32
 aIndex
 nsStyleContext
 *

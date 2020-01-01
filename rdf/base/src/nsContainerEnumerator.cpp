@@ -155,7 +155,7 @@ nsIRDFNode
 >
 mResult
 ;
-int32_t
+PRInt32
 mNextIndex
 ;
 public
@@ -269,7 +269,7 @@ NS_ASSERTION
 rdf
 !
 =
-nullptr
+nsnull
 "
 unable
 to
@@ -404,7 +404,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -430,13 +430,13 @@ mResult
 *
 aResult
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
 ;
 }
-int32_t
+PRInt32
 max
 =
 0
@@ -456,7 +456,7 @@ GetTargets
 (
 mContainer
 kRDF_nextVal
-true
+PR_TRUE
 getter_AddRefs
 (
 targets
@@ -546,10 +546,10 @@ GetValueConst
 nextValStr
 )
 ;
-nsresult
+PRInt32
 err
 ;
-int32_t
+PRInt32
 nextVal
 =
 nsAutoString
@@ -623,7 +623,7 @@ GetTargets
 (
 mContainer
 mOrdinalProperty
-true
+PR_TRUE
 getter_AddRefs
 (
 mCurrent
@@ -682,7 +682,7 @@ hasMore
 {
 mCurrent
 =
-nullptr
+nsnull
 ;
 continue
 ;
@@ -738,7 +738,7 @@ rv
 *
 aResult
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -748,7 +748,7 @@ NS_OK
 *
 aResult
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -808,7 +808,7 @@ mResult
 ;
 mResult
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -834,7 +834,7 @@ NS_PRECONDITION
 aDataSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -854,7 +854,7 @@ NS_PRECONDITION
 aContainer
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -874,7 +874,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nullptr
+nsnull
 "
 null
 ptr

@@ -143,7 +143,7 @@ key
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 static
@@ -168,7 +168,7 @@ nsNSSShutDownList
 :
 singleton
 =
-nullptr
+nsnull
 ;
 nsNSSShutDownList
 :
@@ -194,13 +194,13 @@ mPK11LogoutCancelObjects
 .
 ops
 =
-nullptr
+nsnull
 ;
 mObjects
 .
 ops
 =
-nullptr
+nsnull
 ;
 PL_DHashTableInit
 (
@@ -208,7 +208,7 @@ PL_DHashTableInit
 mObjects
 &
 gSetOps
-nullptr
+nsnull
 sizeof
 (
 ObjectHashEntry
@@ -222,7 +222,7 @@ PL_DHashTableInit
 mPK11LogoutCancelObjects
 &
 gSetOps
-nullptr
+nsnull
 sizeof
 (
 ObjectHashEntry
@@ -256,7 +256,7 @@ mObjects
 .
 ops
 =
-nullptr
+nsnull
 ;
 }
 if
@@ -276,7 +276,7 @@ mPK11LogoutCancelObjects
 .
 ops
 =
-nullptr
+nsnull
 ;
 }
 PR_ASSERT
@@ -289,7 +289,7 @@ singleton
 ;
 singleton
 =
-nullptr
+nsnull
 ;
 }
 void
@@ -547,7 +547,7 @@ singleton
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 MutexAutoLock
@@ -633,7 +633,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-uint32_t
+PRUint32
 number
 void
 *
@@ -868,7 +868,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-uint32_t
+PRUint32
 number
 void
 *
@@ -939,7 +939,7 @@ singleton
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 singleton
@@ -987,11 +987,11 @@ mBlockingUICounter
 )
 mIsUIForbidden
 (
-false
+PR_FALSE
 )
 mNSSRestrictedThread
 (
-nullptr
+nsnull
 )
 {
 }
@@ -1175,7 +1175,7 @@ mBlockingUICounter
 {
 retval
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -1187,7 +1187,7 @@ do_it_for_real
 {
 mIsUIForbidden
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -1211,7 +1211,7 @@ mNSSActivityStateLock
 ;
 mIsUIForbidden
 =
-false
+PR_FALSE
 ;
 }
 PRStatus
@@ -1305,11 +1305,11 @@ mNSSActivityStateLock
 ;
 mNSSRestrictedThread
 =
-nullptr
+nsnull
 ;
 mIsUIForbidden
 =
-false
+PR_FALSE
 ;
 mNSSActivityChanged
 .
@@ -1477,7 +1477,7 @@ if
 state
 )
 return
-false
+PR_FALSE
 ;
 return
 state

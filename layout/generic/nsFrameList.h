@@ -114,11 +114,11 @@ nsFrameList
 :
 mFirstChild
 (
-nullptr
+nsnull
 )
 mLastChild
 (
-nullptr
+nsnull
 )
 {
 MOZ_COUNT_CTOR
@@ -229,7 +229,7 @@ mFirstChild
 =
 mLastChild
 =
-nullptr
+nsnull
 ;
 }
 void
@@ -465,12 +465,12 @@ nsIFrame
 *
 FrameAt
 (
-int32_t
+PRInt32
 aIndex
 )
 const
 ;
-int32_t
+PRInt32
 IndexOf
 (
 nsIFrame
@@ -486,7 +486,7 @@ IsEmpty
 const
 {
 return
-nullptr
+nsnull
 =
 =
 mFirstChild
@@ -499,7 +499,7 @@ NotEmpty
 const
 {
 return
-nullptr
+nsnull
 !
 =
 mFirstChild
@@ -515,7 +515,7 @@ aFrame
 )
 const
 ;
-int32_t
+PRInt32
 GetLength
 (
 )
@@ -547,7 +547,7 @@ FirstChild
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 void
@@ -693,7 +693,7 @@ FirstChild
 )
 mEnd
 (
-nullptr
+nsnull
 )
 {
 }
@@ -916,7 +916,7 @@ Enumerator
 (
 *
 this
-nullptr
+nsnull
 )
 ;
 }
@@ -1024,7 +1024,7 @@ aList
 )
 mPrev
 (
-nullptr
+nsnull
 )
 {
 }

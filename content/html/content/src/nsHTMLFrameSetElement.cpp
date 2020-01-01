@@ -110,7 +110,7 @@ nsHTMLFrameSetElement
 :
 SetAttr
 (
-int32_t
+PRInt32
 aNameSpaceID
 nsIAtom
 *
@@ -146,7 +146,7 @@ aNameSpaceID
 kNameSpaceID_None
 )
 {
-int32_t
+PRInt32
 oldRows
 =
 mNumRows
@@ -193,7 +193,7 @@ aNameSpaceID
 kNameSpaceID_None
 )
 {
-int32_t
+PRInt32
 oldCols
 =
 mNumCols
@@ -250,7 +250,7 @@ nsHTMLFrameSetElement
 :
 GetRowSpec
 (
-int32_t
+PRInt32
 *
 aNumValues
 const
@@ -300,7 +300,7 @@ aNumValues
 *
 aSpecs
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -437,7 +437,7 @@ nsHTMLFrameSetElement
 :
 GetColSpec
 (
-int32_t
+PRInt32
 *
 aNumValues
 const
@@ -487,7 +487,7 @@ aNumValues
 *
 aSpecs
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -624,7 +624,7 @@ nsHTMLFrameSetElement
 :
 ParseAttribute
 (
-int32_t
+PRInt32
 aNamespaceID
 nsIAtom
 *
@@ -734,7 +734,7 @@ const
 nsIAtom
 *
 aAttribute
-int32_t
+PRInt32
 aModType
 )
 const
@@ -792,7 +792,7 @@ const
 nsAString
 &
 aValue
-int32_t
+PRInt32
 &
 aNumSpecs
 nsFramesetSpec
@@ -817,7 +817,7 @@ aNumSpecs
 *
 aSpecs
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -901,7 +901,7 @@ nsFramesetSpec
 )
 )
 ;
-int32_t
+PRInt32
 commaX
 =
 spec
@@ -911,7 +911,7 @@ FindChar
 sComma
 )
 ;
-int32_t
+PRInt32
 count
 =
 1
@@ -965,7 +965,7 @@ specs
 *
 aSpecs
 =
-nullptr
+nsnull
 ;
 aNumSpecs
 =
@@ -980,17 +980,17 @@ isInQuirks
 =
 InNavQuirksMode
 (
-OwnerDoc
+GetOwnerDoc
 (
 )
 )
 ;
-int32_t
+PRInt32
 start
 =
 0
 ;
-int32_t
+PRInt32
 specLen
 =
 spec
@@ -1001,7 +1001,7 @@ Length
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -1048,7 +1048,7 @@ somehow
 "
 )
 ;
-int32_t
+PRInt32
 end
 =
 (
@@ -1087,7 +1087,7 @@ end
 start
 )
 {
-int32_t
+PRInt32
 numberEnd
 =
 end
@@ -1243,7 +1243,7 @@ mValue
 }
 else
 {
-nsresult
+PRInt32
 err
 ;
 specs
@@ -1263,10 +1263,7 @@ err
 ;
 if
 (
-NS_FAILED
-(
 err
-)
 )
 {
 specs
@@ -1424,7 +1421,7 @@ nsPIDOMWindow
 *
 win
 =
-OwnerDoc
+GetOwnerDoc
 (
 )
 -
@@ -1512,7 +1509,7 @@ nsPIDOMWindow
 *
 win
 =
-OwnerDoc
+GetOwnerDoc
 (
 )
 -
@@ -1617,7 +1614,7 @@ nsPIDOMWindow
 *
 win
 =
-OwnerDoc
+GetOwnerDoc
 (
 )
 -
@@ -1693,7 +1690,7 @@ nsPIDOMWindow
 *
 win
 =
-OwnerDoc
+GetOwnerDoc
 (
 )
 -

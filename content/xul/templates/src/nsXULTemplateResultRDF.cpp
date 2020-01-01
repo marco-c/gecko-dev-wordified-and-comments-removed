@@ -50,7 +50,7 @@ aNode
 :
 mQuery
 (
-nullptr
+nsnull
 )
 mNode
 (
@@ -112,7 +112,7 @@ aIsContainer
 *
 aIsContainer
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -160,7 +160,7 @@ aIsEmpty
 *
 aIsEmpty
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -208,7 +208,7 @@ aMayProcessChildren
 *
 aMayProcessChildren
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -566,7 +566,7 @@ aValue
 *
 aValue
 =
-nullptr
+nsnull
 ;
 mInst
 .
@@ -649,14 +649,14 @@ GetMemberVariable
 (
 )
 :
-nullptr
+nsnull
 this
 mBindingValues
 )
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 bool
@@ -724,10 +724,10 @@ aMemoryElement
 )
 )
 return
-true
+PR_TRUE
 ;
 }
 return
-false
+PR_FALSE
 ;
 }

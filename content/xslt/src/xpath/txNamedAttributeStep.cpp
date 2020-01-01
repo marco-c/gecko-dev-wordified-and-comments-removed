@@ -38,7 +38,7 @@ txNamedAttributeStep
 :
 txNamedAttributeStep
 (
-int32_t
+PRInt32
 aNsID
 nsIAtom
 *
@@ -80,7 +80,7 @@ aResult
 *
 aResult
 =
-nullptr
+nsnull
 ;
 nsRefPtr
 <

@@ -173,7 +173,7 @@ UTF8CharEnumerator
 public
 :
 static
-uint32_t
+PRUint32
 NextChar
 (
 const
@@ -215,7 +215,7 @@ buffer
 *
 err
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -228,7 +228,7 @@ end
 *
 err
 =
-true
+PR_TRUE
 ;
 return
 0
@@ -262,13 +262,13 @@ return
 c
 ;
 }
-uint32_t
+PRUint32
 ucs4
 ;
-uint32_t
+PRUint32
 minUcs4
 ;
-int32_t
+PRInt32
 state
 =
 0
@@ -316,7 +316,7 @@ strings
 *
 err
 =
-true
+PR_TRUE
 ;
 return
 0
@@ -340,7 +340,7 @@ end
 *
 err
 =
-true
+PR_TRUE
 ;
 return
 0
@@ -367,7 +367,7 @@ ucs4
 *
 err
 =
-true
+PR_TRUE
 ;
 return
 0
@@ -431,13 +431,13 @@ CalcState
 (
 char
 c
-uint32_t
+PRUint32
 &
 ucs4
-uint32_t
+PRUint32
 &
 minUcs4
-int32_t
+PRInt32
 &
 state
 )
@@ -456,7 +456,7 @@ c
 ucs4
 =
 (
-uint32_t
+PRUint32
 (
 c
 )
@@ -491,7 +491,7 @@ c
 ucs4
 =
 (
-uint32_t
+PRUint32
 (
 c
 )
@@ -526,7 +526,7 @@ c
 ucs4
 =
 (
-uint32_t
+PRUint32
 (
 c
 )
@@ -561,7 +561,7 @@ c
 ucs4
 =
 (
-uint32_t
+PRUint32
 (
 c
 )
@@ -596,7 +596,7 @@ c
 ucs4
 =
 (
-uint32_t
+PRUint32
 (
 c
 )
@@ -619,11 +619,11 @@ minUcs4
 else
 {
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 static
@@ -632,9 +632,9 @@ AddByte
 (
 char
 c
-int32_t
+PRInt32
 state
-uint32_t
+PRUint32
 &
 ucs4
 )
@@ -650,7 +650,7 @@ c
 )
 )
 {
-int32_t
+PRInt32
 shift
 =
 state
@@ -661,7 +661,7 @@ ucs4
 |
 =
 (
-uint32_t
+PRUint32
 (
 c
 )
@@ -673,11 +673,11 @@ c
 shift
 ;
 return
-true
+PR_TRUE
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 }
@@ -688,7 +688,7 @@ UTF16CharEnumerator
 public
 :
 static
-uint32_t
+PRUint32
 NextChar
 (
 const
@@ -704,7 +704,7 @@ bool
 *
 err
 =
-nullptr
+nsnull
 )
 {
 NS_ASSERTION
@@ -755,7 +755,7 @@ err
 *
 err
 =
-true
+PR_TRUE
 ;
 return
 0
@@ -785,7 +785,7 @@ err
 *
 err
 =
-false
+PR_FALSE
 ;
 *
 buffer
@@ -833,7 +833,7 @@ err
 *
 err
 =
-true
+PR_TRUE
 ;
 *
 buffer
@@ -864,7 +864,7 @@ c
 )
 )
 {
-uint32_t
+PRUint32
 ucs4
 =
 SURROGATE_TO_UCS4
@@ -880,7 +880,7 @@ err
 *
 err
 =
-false
+PR_FALSE
 ;
 *
 buffer
@@ -914,7 +914,7 @@ err
 *
 err
 =
-true
+PR_TRUE
 ;
 *
 buffer
@@ -951,7 +951,7 @@ err
 *
 err
 =
-true
+PR_TRUE
 ;
 *
 buffer
@@ -969,7 +969,7 @@ err
 *
 err
 =
-true
+PR_TRUE
 ;
 return
 0
@@ -1007,7 +1007,7 @@ aBuffer
 )
 mErrorEncountered
 (
-false
+PR_FALSE
 )
 {
 }
@@ -1041,7 +1041,7 @@ const
 value_type
 *
 start
-uint32_t
+PRUint32
 N
 )
 {
@@ -1086,7 +1086,7 @@ end
 bool
 err
 ;
-uint32_t
+PRUint32
 ucs4
 =
 UTF8CharEnumerator
@@ -1108,7 +1108,7 @@ err
 {
 mErrorEncountered
 =
-true
+PR_TRUE
 ;
 mBuffer
 =
@@ -1217,7 +1217,7 @@ mLength
 )
 mErrorEncountered
 (
-false
+PR_FALSE
 )
 {
 }
@@ -1239,7 +1239,7 @@ const
 value_type
 *
 start
-uint32_t
+PRUint32
 N
 )
 {
@@ -1350,12 +1350,12 @@ p
 end
 )
 {
-uint32_t
+PRUint32
 c
 =
 (
 (
-uint32_t
+PRUint32
 )
 (
 p
@@ -1372,7 +1372,7 @@ p
 |
 (
 (
-uint32_t
+PRUint32
 )
 (
 p
@@ -1493,7 +1493,7 @@ mLength
 ;
 mErrorEncountered
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -1557,7 +1557,7 @@ const
 value_type
 *
 start
-uint32_t
+PRUint32
 N
 )
 {
@@ -1814,7 +1814,7 @@ c
 )
 )
 {
-uint32_t
+PRUint32
 ucs4
 =
 SURROGATE_TO_UCS4
@@ -2068,7 +2068,7 @@ const
 value_type
 *
 start
-uint32_t
+PRUint32
 N
 )
 {
@@ -2316,7 +2316,7 @@ const
 char
 *
 aSource
-uint32_t
+PRUint32
 aSourceLength
 )
 {
@@ -2386,7 +2386,7 @@ const
 char
 *
 aSource
-uint32_t
+PRUint32
 aSourceLength
 )
 ;
@@ -2451,7 +2451,7 @@ const
 PRUnichar
 *
 aSource
-uint32_t
+PRUint32
 aSourceLength
 )
 {
@@ -2520,7 +2520,7 @@ const
 PRUnichar
 *
 aSource
-uint32_t
+PRUint32
 aSourceLength
 )
 ;

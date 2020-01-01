@@ -1,14 +1,14 @@
 #
 include
 "
-nsDOMClassInfoID
+nsDOMDeviceMotionEvent
 .
 h
 "
 #
 include
 "
-nsDOMDeviceMotionEvent
+nsContentUtils
 .
 h
 "

@@ -107,9 +107,13 @@ private
 enum
 TBuiltInFunction
 {
-TFunctionCos1
+TFunctionAtan1_1
 =
 0
+TFunctionAtan2_2
+TFunctionAtan3_3
+TFunctionAtan4_4
+TFunctionCos1
 TFunctionCos2
 TFunctionCos3
 TFunctionCos4
@@ -125,6 +129,10 @@ TFunctionLength1
 TFunctionLength2
 TFunctionLength3
 TFunctionLength4
+TFunctionMod1_1
+TFunctionMod2_2
+TFunctionMod3_3
+TFunctionMod4_4
 TFunctionNormalize1
 TFunctionNormalize2
 TFunctionNormalize3

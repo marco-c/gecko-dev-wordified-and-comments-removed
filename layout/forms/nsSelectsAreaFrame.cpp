@@ -50,7 +50,7 @@ aShell
 nsStyleContext
 *
 aContext
-uint32_t
+PRUint32
 aFlags
 )
 {
@@ -231,7 +231,7 @@ outFrames
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -405,7 +405,7 @@ aBuilder
 nsDisplayOptionEventGrabber
 (
 aBuilder
-nullptr
+nsnull
 aList
 )
 ;
@@ -505,7 +505,7 @@ GetParent
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 class
@@ -562,16 +562,8 @@ GetBounds
 nsDisplayListBuilder
 *
 aBuilder
-bool
-*
-aSnap
 )
 {
-*
-aSnap
-=
-false
-;
 nsListControlFrame
 *
 listFrame
@@ -587,7 +579,7 @@ return
 listFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+GetVisualOverflowRect
 (
 )
 +
@@ -983,7 +975,7 @@ list
 >
 SetSuppressScrollbarUpdate
 (
-true
+PR_TRUE
 )
 ;
 }

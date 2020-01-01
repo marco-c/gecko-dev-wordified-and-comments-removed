@@ -28,7 +28,7 @@ nsSMILTimeContainer
 :
 mParent
 (
-nullptr
+nsnull
 )
 mCurrentTime
 (
@@ -44,15 +44,15 @@ mPauseStart
 )
 mNeedsPauseSample
 (
-false
+PR_FALSE
 )
 mNeedsRewind
 (
-false
+PR_FALSE
 )
 mIsSeeking
 (
-false
+PR_FALSE
 )
 mPauseState
 (
@@ -182,7 +182,7 @@ mPauseState
 {
 mNeedsPauseSample
 =
-true
+PR_TRUE
 ;
 }
 UpdateCurrentTime
@@ -196,7 +196,7 @@ nsSMILTimeContainer
 :
 Pause
 (
-uint32_t
+PRUint32
 aType
 )
 {
@@ -222,11 +222,11 @@ GetParentTime
 ;
 mNeedsPauseSample
 =
-true
+PR_TRUE
 ;
 didStartPause
 =
-true
+PR_TRUE
 ;
 }
 mPauseState
@@ -251,7 +251,7 @@ nsSMILTimeContainer
 :
 Resume
 (
-uint32_t
+PRUint32
 aType
 )
 {
@@ -353,7 +353,7 @@ aSeekTo
 ;
 mIsSeeking
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -364,7 +364,7 @@ IsPaused
 {
 mNeedsPauseSample
 =
-true
+PR_TRUE
 ;
 mPauseStart
 =
@@ -380,7 +380,7 @@ mCurrentTime
 {
 mNeedsRewind
 =
-true
+PR_TRUE
 ;
 ClearMilestones
 (
@@ -488,7 +488,7 @@ DoSample
 ;
 mNeedsPauseSample
 =
-false
+PR_FALSE
 ;
 }
 nsresult
@@ -620,7 +620,7 @@ IsEmpty
 )
 )
 return
-false
+PR_FALSE
 ;
 nsSMILTimeValue
 parentTime
@@ -648,7 +648,7 @@ IsDefinite
 )
 )
 return
-false
+PR_FALSE
 ;
 aNextMilestone
 =
@@ -671,7 +671,7 @@ mIsEnd
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -698,7 +698,7 @@ IsEmpty
 )
 )
 return
-false
+PR_FALSE
 ;
 nsSMILTimeValue
 containerTime
@@ -720,7 +720,7 @@ IsDefinite
 )
 )
 return
-false
+PR_FALSE
 ;
 nsSMILMilestone
 containerMilestone
@@ -809,7 +809,7 @@ mTimebase
 ;
 gotOne
 =
-true
+PR_TRUE
 ;
 }
 return
@@ -964,7 +964,7 @@ Elements
 #
 if
 DEBUG
-uint32_t
+PRUint32
 queueLength
 =
 mMilestoneEntries

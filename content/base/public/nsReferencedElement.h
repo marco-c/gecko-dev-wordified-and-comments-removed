@@ -224,7 +224,7 @@ Clear
 {
 mTarget
 =
-nullptr
+nsnull
 ;
 }
 virtual
@@ -326,7 +326,7 @@ mTarget
 >
 mPendingNotification
 =
-nullptr
+nsnull
 ;
 mTarget
 -
@@ -371,11 +371,11 @@ Clear
 ;
 mFrom
 =
-nullptr
+nsnull
 ;
 mTo
 =
-nullptr
+nsnull
 ;
 }
 protected

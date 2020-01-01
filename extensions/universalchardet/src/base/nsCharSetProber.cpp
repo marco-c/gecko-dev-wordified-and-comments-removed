@@ -22,13 +22,13 @@ const
 char
 *
 aBuf
-uint32_t
+PRUint32
 aLen
 char
 *
 *
 newBuf
-uint32_t
+PRUint32
 &
 newLen
 )
@@ -68,7 +68,7 @@ if
 newptr
 )
 return
-false
+PR_FALSE
 ;
 for
 (
@@ -103,7 +103,7 @@ curPtr
 {
 meetMSB
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -183,7 +183,7 @@ newptr
 ;
 meetMSB
 =
-false
+PR_FALSE
 ;
 }
 else
@@ -228,7 +228,7 @@ newptr
 newBuf
 ;
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -241,13 +241,13 @@ const
 char
 *
 aBuf
-uint32_t
+PRUint32
 aLen
 char
 *
 *
 newBuf
-uint32_t
+PRUint32
 &
 newLen
 )
@@ -287,7 +287,7 @@ if
 newptr
 )
 return
-false
+PR_FALSE
 ;
 for
 (
@@ -324,7 +324,7 @@ curPtr
 )
 isInTag
 =
-false
+PR_FALSE
 ;
 else
 if
@@ -339,7 +339,7 @@ curPtr
 )
 isInTag
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -466,6 +466,6 @@ newptr
 newBuf
 ;
 return
-true
+PR_TRUE
 ;
 }

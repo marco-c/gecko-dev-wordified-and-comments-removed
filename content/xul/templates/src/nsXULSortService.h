@@ -80,7 +80,7 @@ sortStaticsLast
 bool
 isContainerRDFSeq
 ;
-uint32_t
+PRUint32
 sortHints
 ;
 nsSortState_direction
@@ -117,7 +117,7 @@ nsSortState
 :
 initialized
 (
-false
+PR_FALSE
 )
 sortHints
 (
@@ -332,9 +332,9 @@ contentSortInfo
 >
 &
 aData
-int32_t
+PRInt32
 aStart
-int32_t
+PRInt32
 aNumItems
 )
 ;
@@ -362,7 +362,7 @@ aSortState
 )
 ;
 static
-int32_t
+PRInt32
 CompareValues
 (
 const
@@ -373,7 +373,7 @@ const
 nsAString
 &
 aRight
-uint32_t
+PRUint32
 aSortHints
 )
 ;

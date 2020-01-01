@@ -825,7 +825,7 @@ NS_PRECONDITION
 aOuter
 =
 =
-nullptr
+nsnull
 "
 no
 aggregation
@@ -844,7 +844,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -992,7 +992,7 @@ NS_ASSERTION
 remote
 !
 =
-nullptr
+nsnull
 "
 not
 an
@@ -1060,7 +1060,7 @@ NS_WARN_IF_FALSE
 remote
 !
 =
-nullptr
+nsnull
 "
 not
 an
@@ -1127,7 +1127,7 @@ NS_ASSERTION
 remote
 !
 =
-nullptr
+nsnull
 "
 not
 an
@@ -1213,7 +1213,7 @@ mRDFService
 RegisterDataSource
 (
 this
-false
+PR_FALSE
 )
 ;
 nsCOMPtr
@@ -1255,7 +1255,7 @@ before
 -
 change
 "
-true
+PR_TRUE
 )
 ;
 obs
@@ -1271,7 +1271,7 @@ do
 -
 change
 "
-true
+PR_TRUE
 )
 ;
 }
@@ -1430,7 +1430,7 @@ RDF
 n
 "
 ;
-uint32_t
+PRUint32
 count
 ;
 rv
@@ -1655,7 +1655,7 @@ rv
 return
 rv
 ;
-nsAutoCString
+nsCAutoString
 spec
 ;
 rv
@@ -1709,7 +1709,7 @@ remote
 >
 Refresh
 (
-true
+PR_TRUE
 )
 ;
 if
@@ -1725,7 +1725,7 @@ aFile
 >
 Remove
 (
-true
+PR_TRUE
 )
 ;
 rv
@@ -1752,7 +1752,7 @@ remote
 >
 Refresh
 (
-true
+PR_TRUE
 )
 ;
 }
@@ -1777,7 +1777,7 @@ NS_PRECONDITION
 aURI
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -1866,7 +1866,7 @@ aResult
 *
 aResult
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -2033,7 +2033,7 @@ aFile
 >
 Remove
 (
-false
+PR_FALSE
 )
 ;
 }

@@ -52,7 +52,7 @@ nsThebesFontEnumerator
 :
 EnumerateAllFonts
 (
-uint32_t
+PRUint32
 *
 aCount
 PRUnichar
@@ -65,8 +65,8 @@ aResult
 return
 EnumerateFonts
 (
-nullptr
-nullptr
+nsnull
+nsnull
 aCount
 aResult
 )
@@ -86,7 +86,7 @@ const
 char
 *
 aGeneric
-uint32_t
+PRUint32
 *
 aCount
 PRUnichar
@@ -112,7 +112,7 @@ nsString
 >
 fontList
 ;
-nsAutoCString
+nsCAutoString
 generic
 ;
 if
@@ -131,7 +131,7 @@ generic
 .
 SetIsVoid
 (
-true
+PR_TRUE
 )
 ;
 nsCOMPtr
@@ -145,7 +145,7 @@ if
 aLangGroup
 )
 {
-nsAutoCString
+nsCAutoString
 lowered
 ;
 lowered
@@ -202,7 +202,7 @@ aCount
 *
 aResult
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -241,7 +241,7 @@ PRUnichar
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -314,7 +314,7 @@ aResult
 *
 aResult
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -348,7 +348,7 @@ aResult
 *
 aResult
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -380,7 +380,7 @@ UpdateFontList
 *
 _retval
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -430,7 +430,7 @@ IsEmpty
 *
 aResult
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -477,7 +477,7 @@ IsEmpty
 *
 aResult
 =
-nullptr
+nsnull
 ;
 return
 NS_OK

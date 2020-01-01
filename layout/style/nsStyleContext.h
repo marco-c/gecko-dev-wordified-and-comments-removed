@@ -699,7 +699,7 @@ void
 AddStyleBit
 (
 const
-uint32_t
+PRUint32
 &
 aBit
 )
@@ -754,7 +754,7 @@ DoGetStyle
 #
 name_
 (
-true
+PR_TRUE
 )
 ;
 \
@@ -798,7 +798,7 @@ DoGetStyle
 #
 name_
 (
-false
+PR_FALSE
 )
 ;
 \
@@ -829,8 +829,6 @@ CalcStyleDifference
 nsStyleContext
 *
 aOther
-nsChangeHint
-aParentHintsNotHandledForDescendants
 )
 ;
 nscolor
@@ -878,7 +876,7 @@ List
 FILE
 *
 out
-int32_t
+PRInt32
 aIndent
 )
 ;
@@ -1085,7 +1083,7 @@ name_
 )
 \
 :
-nullptr
+nsnull
 ;
 \
 if
@@ -1208,10 +1206,10 @@ mCachedResetData
 nsInheritedStyleData
 mCachedInheritedData
 ;
-uint32_t
+PRUint32
 mBits
 ;
-uint32_t
+PRUint32
 mRefCnt
 ;
 }

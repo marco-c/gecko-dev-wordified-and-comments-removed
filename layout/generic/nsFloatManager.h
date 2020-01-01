@@ -7,15 +7,6 @@ nsFloatManager_h_
 #
 include
 "
-mozilla
-/
-Attributes
-.
-h
-"
-#
-include
-"
 nsIntervalSet
 .
 h
@@ -185,7 +176,7 @@ SavedState
 {
 private
 :
-uint32_t
+PRUint32
 mFloatInfoCount
 ;
 nscoord
@@ -294,7 +285,7 @@ SetPushedLeftFloatPastBreak
 {
 mPushedLeftFloatPastBreak
 =
-true
+PR_TRUE
 ;
 }
 void
@@ -304,7 +295,7 @@ SetPushedRightFloatPastBreak
 {
 mPushedRightFloatPastBreak
 =
-true
+PR_TRUE
 ;
 }
 void
@@ -314,7 +305,7 @@ SetSplitLeftFloatAcrossBreak
 {
 mSplitLeftFloatAcrossBreak
 =
-true
+PR_TRUE
 ;
 }
 void
@@ -324,7 +315,7 @@ SetSplitRightFloatAcrossBreak
 {
 mSplitRightFloatAcrossBreak
 =
-true
+PR_TRUE
 ;
 }
 nsresult
@@ -457,9 +448,9 @@ ClearFloats
 (
 nscoord
 aY
-uint8_t
+PRUint8
 aBreakType
-uint32_t
+PRUint32
 aFlags
 =
 0
@@ -469,7 +460,7 @@ const
 bool
 ClearContinues
 (
-uint8_t
+PRUint8
 aBreakType
 )
 const
@@ -650,7 +641,7 @@ bool
 mSplitRightFloatAcrossBreak
 ;
 static
-int32_t
+PRInt32
 sCachedFloatManagerCount
 ;
 static
@@ -667,7 +658,6 @@ const
 nsFloatManager
 &
 )
-MOZ_DELETE
 ;
 void
 operator
@@ -677,7 +667,6 @@ const
 nsFloatManager
 &
 )
-MOZ_DELETE
 ;
 }
 ;
@@ -699,11 +688,11 @@ aReflowState
 )
 mNew
 (
-nullptr
+nsnull
 )
 mOld
 (
-nullptr
+nsnull
 )
 {
 }

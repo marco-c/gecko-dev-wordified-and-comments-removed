@@ -68,7 +68,7 @@ nsRDFResource
 :
 gRDFService
 =
-nullptr
+nsnull
 ;
 nsrefcnt
 nsRDFResource
@@ -88,7 +88,7 @@ void
 :
 mDelegates
 (
-nullptr
+nsnull
 )
 {
 }
@@ -178,7 +178,7 @@ NS_PRECONDITION
 aNode
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -266,7 +266,7 @@ NS_NOINTERFACE
 *
 aResult
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -296,7 +296,7 @@ NS_PRECONDITION
 aURI
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -353,7 +353,7 @@ gRDFService
 RegisterResource
 (
 this
-true
+PR_TRUE
 )
 ;
 }
@@ -466,7 +466,7 @@ NS_PRECONDITION
 aURI
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -527,7 +527,7 @@ NS_PRECONDITION
 aKey
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -548,7 +548,7 @@ rv
 *
 aResult
 =
-nullptr
+nsnull
 ;
 DelegateEntry
 *
@@ -600,7 +600,7 @@ entry
 mNext
 ;
 }
-nsAutoCString
+nsCAutoString
 contractID
 (
 NS_RDF_DELEGATEFACTORY_CONTRACTID_PREFIX
@@ -624,7 +624,7 @@ scheme
 "
 )
 ;
-int32_t
+PRInt32
 i
 =
 mURI
@@ -833,7 +833,7 @@ NS_PRECONDITION
 aKey
 !
 =
-nullptr
+nsnull
 "
 null
 ptr

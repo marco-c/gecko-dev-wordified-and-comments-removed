@@ -883,7 +883,7 @@ if
 attributes
 =
 =
-nullptr
+nsnull
 )
 {
 printf
@@ -913,8 +913,8 @@ PR_CreateProcess
 "
 nsDnsAsyncLookup
 "
-nullptr
-nullptr
+nsnull
+nsnull
 attributes
 )
 ;
@@ -923,7 +923,7 @@ if
 daemon
 =
 =
-nullptr
+nsnull
 )
 {
 printf
@@ -1128,7 +1128,7 @@ n
 ;
 notDone
 =
-false
+PR_FALSE
 ;
 }
 else

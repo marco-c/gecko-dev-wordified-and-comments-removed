@@ -96,7 +96,7 @@ rv
 rv
 )
 ;
-int32_t
+PRInt32
 f
 =
 aModule
@@ -160,7 +160,7 @@ URI
 "
 )
 ;
-nsAutoCString
+nsCAutoString
 contractID
 ;
 nsresult

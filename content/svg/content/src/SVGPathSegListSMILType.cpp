@@ -15,13 +15,6 @@ h
 #
 include
 "
-SVGPathSegUtils
-.
-h
-"
-#
-include
-"
 SVGPathData
 .
 h
@@ -151,7 +144,7 @@ mU
 .
 mPtr
 =
-nullptr
+nsnull
 ;
 aValue
 .
@@ -562,7 +555,7 @@ pEnd
 pEndDataEnd
 )
 {
-uint32_t
+PRUint32
 startType
 =
 SVGPathSegUtils
@@ -574,7 +567,7 @@ DecodeType
 pStart
 )
 ;
-uint32_t
+PRUint32
 endType
 =
 SVGPathSegUtils
@@ -869,7 +862,7 @@ null
 "
 )
 ;
-uint32_t
+PRUint32
 segType
 =
 SVGPathSegUtils
@@ -975,7 +968,7 @@ SWEEP_FLAG_IDX
 ]
 ;
 }
-uint32_t
+PRUint32
 numArgs
 =
 SVGPathSegUtils
@@ -988,7 +981,7 @@ segType
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 1
@@ -1251,7 +1244,7 @@ iter1
 =
 end1
 =
-nullptr
+nsnull
 ;
 }
 else
@@ -1458,7 +1451,7 @@ SVGPathTraversalState
 aState
 )
 {
-uint32_t
+PRUint32
 startType
 =
 SVGPathSegUtils
@@ -1470,7 +1463,7 @@ DecodeType
 aStart
 )
 ;
-uint32_t
+PRUint32
 endType
 =
 SVGPathSegUtils
@@ -1482,7 +1475,7 @@ DecodeType
 aEnd
 )
 ;
-uint32_t
+PRUint32
 segmentLengthIncludingType
 =
 1
@@ -2098,7 +2091,7 @@ const
 nsSMILValue
 &
 aValueToAdd
-uint32_t
+PRUint32
 aCount
 )
 const

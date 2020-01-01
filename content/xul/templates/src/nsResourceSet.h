@@ -22,7 +22,7 @@ nsResourceSet
 :
 mResources
 (
-nullptr
+nsnull
 )
 mCount
 (
@@ -100,10 +100,10 @@ nsIRDFResource
 *
 mResources
 ;
-int32_t
+PRInt32
 mCount
 ;
-int32_t
+PRInt32
 mCapacity
 ;
 public
@@ -126,7 +126,7 @@ ConstIterator
 :
 mCurrent
 (
-nullptr
+nsnull
 )
 {
 }

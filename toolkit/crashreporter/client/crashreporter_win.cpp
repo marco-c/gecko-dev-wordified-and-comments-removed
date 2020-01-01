@@ -415,7 +415,7 @@ LoadLibrary
 (
 L
 "
-Msftedit
+riched20
 .
 dll
 "
@@ -5222,15 +5222,6 @@ EM_SETTARGETDEVICE
 WPARAM
 )
 NULL
-0
-)
-;
-SendDlgItemMessage
-(
-hwndDlg
-IDC_DESCRIPTIONTEXT
-EM_REQUESTRESIZE
-0
 0
 )
 ;

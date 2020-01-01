@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsIScriptGlobalObject
 .
 h
@@ -36,7 +43,7 @@ h
 #
 include
 "
-nsDOMClassInfoID
+nsDOMClassInfo
 .
 h
 "
@@ -81,7 +88,7 @@ mPluginMimeTypeCount
 )
 mInited
 (
-false
+PR_FALSE
 )
 {
 }
@@ -134,7 +141,7 @@ nsMimeTypeArray
 :
 GetLength
 (
-uint32_t
+PRUint32
 *
 aLength
 )
@@ -169,7 +176,7 @@ mPluginMimeTypeCount
 <
 =
 (
-uint32_t
+PRUint32
 )
 mMimeTypeArray
 .
@@ -216,7 +223,7 @@ nsMimeTypeArray
 :
 GetItemAt
 (
-uint32_t
+PRUint32
 aIndex
 nsresult
 *
@@ -245,7 +252,7 @@ aResult
 NS_OK
 )
 return
-nullptr
+nsnull
 ;
 }
 NS_ASSERTION
@@ -254,7 +261,7 @@ mPluginMimeTypeCount
 <
 =
 (
-uint32_t
+PRUint32
 )
 mMimeTypeArray
 .
@@ -299,7 +306,7 @@ aResult
 NS_ERROR_FAILURE
 ;
 return
-nullptr
+nsnull
 ;
 }
 *
@@ -320,7 +327,7 @@ nsMimeTypeArray
 :
 Item
 (
-uint32_t
+PRUint32
 aIndex
 nsIDOMMimeType
 *
@@ -386,7 +393,7 @@ aResult
 NS_OK
 )
 return
-nullptr
+nsnull
 ;
 }
 NS_ASSERTION
@@ -395,7 +402,7 @@ mPluginMimeTypeCount
 <
 =
 (
-uint32_t
+PRUint32
 )
 mMimeTypeArray
 .
@@ -436,7 +443,7 @@ type
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -631,7 +638,7 @@ IsEmpty
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 }
@@ -665,7 +672,7 @@ entry
 new
 nsMimeType
 (
-nullptr
+nsnull
 helper
 )
 )
@@ -686,7 +693,7 @@ aResult
 NS_ERROR_OUT_OF_MEMORY
 ;
 return
-nullptr
+nsnull
 ;
 }
 return
@@ -695,7 +702,7 @@ entry
 }
 }
 return
-nullptr
+nsnull
 ;
 }
 NS_IMETHODIMP
@@ -744,7 +751,7 @@ Clear
 {
 mInited
 =
-false
+PR_FALSE
 ;
 mMimeTypeArray
 .
@@ -757,7 +764,7 @@ mPluginMimeTypeCount
 0
 ;
 }
-void
+nsresult
 nsMimeTypeArray
 :
 :
@@ -769,6 +776,7 @@ Clear
 (
 )
 ;
+return
 GetMimeTypes
 (
 )
@@ -812,7 +820,7 @@ nsIDOMPluginArray
 *
 pluginArray
 =
-nullptr
+nsnull
 ;
 nsresult
 rv
@@ -834,12 +842,12 @@ rv
 NS_OK
 )
 {
-uint32_t
+PRUint32
 pluginMimeTypeCount
 =
 0
 ;
-uint32_t
+PRUint32
 pluginCount
 =
 0
@@ -863,7 +871,7 @@ rv
 NS_OK
 )
 {
-uint32_t
+PRUint32
 i
 ;
 for
@@ -908,7 +916,7 @@ plugin
 plugin
 )
 {
-uint32_t
+PRUint32
 mimeTypeCount
 =
 0
@@ -953,9 +961,9 @@ pluginMimeTypeCount
 ;
 mInited
 =
-true
+PR_TRUE
 ;
-uint32_t
+PRUint32
 k
 ;
 for
@@ -1000,7 +1008,7 @@ plugin
 plugin
 )
 {
-uint32_t
+PRUint32
 mimeTypeCount
 =
 0
@@ -1028,7 +1036,7 @@ item
 ;
 for
 (
-uint32_t
+PRUint32
 j
 =
 0
@@ -1276,7 +1284,7 @@ aEnabledPlugin
 *
 aEnabledPlugin
 =
-nullptr
+nsnull
 ;
 return
 NS_OK

@@ -20,7 +20,7 @@ aBuffer
 :
 txAExprResult
 (
-nullptr
+nsnull
 )
 mBuffer
 (
@@ -90,7 +90,7 @@ mBuffer
 >
 mStringValue
 :
-nullptr
+nsnull
 ;
 }
 bool
@@ -102,7 +102,7 @@ booleanValue
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 double
@@ -124,7 +124,7 @@ return
 ;
 }
 return
-txDouble
+Double
 :
 :
 toDouble

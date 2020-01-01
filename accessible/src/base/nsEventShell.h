@@ -32,9 +32,9 @@ static
 void
 FireEvent
 (
-uint32_t
+PRUint32
 aEventType
-Accessible
+nsAccessible
 *
 aAccessible
 EIsFromUserInput

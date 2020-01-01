@@ -76,11 +76,11 @@ mReentrantMonitor
 )
 mHead
 (
-nullptr
+nsnull
 )
 mTail
 (
-nullptr
+nsnull
 )
 mOffsetHead
 (
@@ -172,10 +172,10 @@ result
 *
 result
 =
-nullptr
+nsnull
 ;
 return
-false
+PR_FALSE
 ;
 }
 LOG
@@ -275,7 +275,7 @@ mOffsetHead
 }
 }
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -330,7 +330,7 @@ mHead
 {
 rv
 =
-false
+PR_FALSE
 ;
 }
 else
@@ -374,7 +374,7 @@ page
 {
 rv
 =
-false
+PR_FALSE
 ;
 }
 else

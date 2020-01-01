@@ -21,7 +21,7 @@ nsXPTCStubBase
 self
 uint32
 methodIndex
-uint64_t
+PRUint64
 *
 args
 )
@@ -47,19 +47,19 @@ nsXPTCStubBase
 self
 uint32
 methodIndex
-uint64_t
+PRUint64
 *
 args
 )
 {
 const
-uint8_t
+PRUint8
 PARAM_BUFFER_COUNT
 =
 16
 ;
 const
-uint8_t
+PRUint8
 NUM_ARG_REGS
 =
 6
@@ -83,10 +83,10 @@ nsXPTMethodInfo
 *
 info
 ;
-uint8_t
+PRUint8
 paramCount
 ;
-uint8_t
+PRUint8
 i
 ;
 nsresult
@@ -111,7 +111,7 @@ mEntry
 >
 GetMethodInfo
 (
-uint16_t
+PRUint16
 (
 methodIndex
 )
@@ -166,7 +166,7 @@ dispatchParams
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-uint64_t
+PRUint64
 *
 ap
 =
@@ -279,7 +279,7 @@ val
 i8
 =
 (
-int8_t
+PRInt8
 )
 *
 ap
@@ -300,7 +300,7 @@ val
 i16
 =
 (
-int16_t
+PRInt16
 )
 *
 ap
@@ -321,7 +321,7 @@ val
 i32
 =
 (
-int32_t
+PRInt32
 )
 *
 ap
@@ -342,7 +342,7 @@ val
 i64
 =
 (
-int64_t
+PRInt64
 )
 *
 ap
@@ -363,7 +363,7 @@ val
 u8
 =
 (
-uint8_t
+PRUint8
 )
 *
 ap
@@ -384,7 +384,7 @@ val
 u16
 =
 (
-uint16_t
+PRUint16
 )
 *
 ap
@@ -405,7 +405,7 @@ val
 u32
 =
 (
-uint32_t
+PRUint32
 )
 *
 ap
@@ -426,7 +426,7 @@ val
 u64
 =
 (
-uint64_t
+PRUint64
 )
 *
 ap
@@ -454,7 +454,7 @@ val
 u64
 =
 (
-uint64_t
+PRUint64
 )
 args
 [
@@ -488,7 +488,7 @@ val
 u32
 =
 (
-uint32_t
+PRUint32
 )
 *
 ap
@@ -612,7 +612,7 @@ mOuter
 CallMethod
 (
 (
-uint16_t
+PRUint16
 )
 methodIndex
 info

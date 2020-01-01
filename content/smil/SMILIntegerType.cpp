@@ -265,7 +265,7 @@ const
 nsSMILValue
 &
 aValueToAdd
-uint32_t
+PRUint32
 aCount
 )
 const
@@ -526,7 +526,7 @@ mU
 .
 mInt
 =
-int64_t
+PRInt64
 (
 floor
 (
@@ -547,7 +547,7 @@ mU
 .
 mInt
 =
-int64_t
+PRInt64
 (
 ceil
 (

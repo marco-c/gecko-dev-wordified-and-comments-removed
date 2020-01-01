@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsDOMClassInfoID
+nsDOMClassInfo
 .
 h
 "
@@ -35,9 +35,9 @@ aEvent
 new
 nsCompositionEvent
 (
-false
+PR_FALSE
 0
-nullptr
+nsnull
 )
 )
 {
@@ -64,14 +64,14 @@ aEvent
 {
 mEventIsInternal
 =
-false
+PR_FALSE
 ;
 }
 else
 {
 mEventIsInternal
 =
-true
+PR_TRUE
 ;
 mEvent
 -
@@ -131,7 +131,7 @@ mEvent
 ;
 mEvent
 =
-nullptr
+nsnull
 ;
 }
 }

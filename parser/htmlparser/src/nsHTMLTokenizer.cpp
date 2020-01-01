@@ -63,7 +63,7 @@ eParserDocType
 aDocType
 eParserCommands
 aCommand
-uint32_t
+PRUint32
 aFlags
 )
 :
@@ -230,7 +230,7 @@ parser
 ;
 mTokenAllocator
 =
-nullptr
+nsnull
 ;
 mTokenScanPos
 =
@@ -274,7 +274,7 @@ theDeallocator
 ;
 }
 }
-uint32_t
+PRUint32
 nsHTMLTokenizer
 :
 :
@@ -286,7 +286,7 @@ nsIContentSink
 aSink
 )
 {
-uint32_t
+PRUint32
 flags
 =
 0
@@ -523,7 +523,7 @@ return
 theToken
 ;
 }
-int32_t
+PRInt32
 nsHTMLTokenizer
 :
 :
@@ -546,7 +546,7 @@ nsHTMLTokenizer
 :
 GetTokenAt
 (
-int32_t
+PRInt32
 anIndex
 )
 {
@@ -607,7 +607,7 @@ nsDeque
 aDeque
 )
 {
-int32_t
+PRInt32
 aCount
 =
 aDeque
@@ -618,7 +618,7 @@ GetSize
 ;
 for
 (
-int32_t
+PRInt32
 anIndex
 =
 0
@@ -688,7 +688,7 @@ NS_OK
 ;
 }
 static
-int32_t
+PRInt32
 FindLastIndexOfTag
 (
 eHTMLTags
@@ -698,7 +698,7 @@ nsDeque
 aTagStack
 )
 {
-int32_t
+PRInt32
 theCount
 =
 aTagStack
@@ -887,14 +887,14 @@ tempStack
 0
 )
 ;
-int32_t
+PRInt32
 theStackDepth
 =
 0
 ;
 static
 const
-int32_t
+PRInt32
 theMaxStackDepth
 =
 200
@@ -964,7 +964,7 @@ theTagIsInline
 =
 theTagIsBlock
 ?
-false
+PR_FALSE
 :
 gHTMLElements
 [
@@ -1011,7 +1011,7 @@ ShouldVerifyHierarchy
 )
 )
 {
-int32_t
+PRInt32
 earlyPos
 =
 FindLastIndexOfTag
@@ -1342,7 +1342,7 @@ CToken
 *
 theToken
 =
-nullptr
+nsnull
 ;
 nsresult
 result
@@ -1861,7 +1861,7 @@ result
 =
 NS_OK
 ;
-int16_t
+PRInt16
 theAttrCount
 =
 0
@@ -1916,7 +1916,7 @@ NS_LIKELY
 theToken
 !
 =
-nullptr
+nsnull
 )
 )
 {
@@ -2000,7 +2000,7 @@ result
 )
 )
 {
-int32_t
+PRInt32
 newline
 =
 0
@@ -2080,7 +2080,7 @@ aChar
 ;
 done
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -2097,12 +2097,12 @@ aToken
 >
 SetInError
 (
-true
+PR_TRUE
 )
 ;
 done
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -2121,7 +2121,7 @@ aToken
 >
 SetInError
 (
-true
+PR_TRUE
 )
 ;
 if
@@ -2172,7 +2172,7 @@ bool
 aFlushTokens
 )
 {
-int32_t
+PRInt32
 theDequeSize
 =
 mTokenDeque
@@ -2278,7 +2278,7 @@ aToken
 >
 SetInError
 (
-true
+PR_TRUE
 )
 ;
 result
@@ -2417,7 +2417,7 @@ theTag
 {
 isCDATA
 =
-true
+PR_TRUE
 ;
 }
 if
@@ -2430,7 +2430,7 @@ theTag
 {
 isCDATA
 =
-false
+PR_FALSE
 ;
 mFlags
 |
@@ -2577,7 +2577,7 @@ CToken
 *
 endToken
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -2704,7 +2704,7 @@ endToken
 >
 SetInError
 (
-false
+PR_FALSE
 )
 ;
 }
@@ -2758,7 +2758,7 @@ NS_LIKELY
 endToken
 !
 =
-nullptr
+nsnull
 )
 )
 {
@@ -2767,7 +2767,7 @@ endToken
 >
 SetInError
 (
-true
+PR_TRUE
 )
 ;
 }
@@ -2912,7 +2912,7 @@ aToken
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-int32_t
+PRInt32
 theDequeSize
 =
 mTokenDeque
@@ -2981,7 +2981,7 @@ aToken
 >
 SetInError
 (
-true
+PR_TRUE
 )
 ;
 return
@@ -3253,7 +3253,7 @@ aToken
 >
 SetInError
 (
-true
+PR_TRUE
 )
 ;
 }
@@ -3545,7 +3545,7 @@ mTokenAllocator
 ;
 aToken
 =
-nullptr
+nsnull
 ;
 }
 else
@@ -3619,7 +3619,7 @@ ToUpperCase
 theBufCopy
 )
 ;
-int32_t
+PRInt32
 theIndex
 =
 theBufCopy
@@ -3629,7 +3629,7 @@ Find
 "
 DOCTYPE
 "
-false
+PR_FALSE
 0
 0
 )

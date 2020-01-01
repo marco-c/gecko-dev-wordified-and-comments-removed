@@ -856,7 +856,7 @@ aCmdLineString
 nsIFile
 *
 aWorkingDir
-uint32_t
+PRUint32
 aState
 )
 ;
@@ -2425,7 +2425,7 @@ PAG_WRITE
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 workingDir
 ;
@@ -2465,7 +2465,7 @@ nsDependentCString
 (
 wdpath
 )
-false
+PR_FALSE
 getter_AddRefs
 (
 workingDir
@@ -2551,7 +2551,7 @@ NS_ERROR_FAILURE
 *
 aResult
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -2604,7 +2604,7 @@ i
 )
 mUseDDE
 =
-true
+PR_TRUE
 ;
 else
 if
@@ -2690,12 +2690,12 @@ MOZ_NO_REMOTE
 {
 mUseDDE
 =
-false
+PR_FALSE
 ;
 *
 aResult
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -2842,7 +2842,7 @@ StartDDE
 *
 aResult
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -2858,7 +2858,7 @@ if
 aResult
 =
 =
-false
+PR_FALSE
 )
 {
 if
@@ -2932,12 +2932,12 @@ CP_WINANSI
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 }
 return
-true
+PR_TRUE
 ;
 }
 int
@@ -3023,7 +3023,7 @@ bDDEML
 {
 mUseDDE
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -3136,7 +3136,7 @@ NS_OK
 *
 aResult
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -3185,7 +3185,7 @@ else
 *
 aResult
 =
-false
+PR_FALSE
 ;
 }
 ddeLock
@@ -3200,7 +3200,7 @@ else
 *
 aResult
 =
-true
+PR_TRUE
 ;
 }
 return
@@ -3391,7 +3391,7 @@ Enable
 {
 mCanHandleRequests
 =
-true
+PR_TRUE
 ;
 nsCOMPtr
 <
@@ -3425,7 +3425,7 @@ quit
 -
 application
 "
-false
+PR_FALSE
 )
 ;
 }
@@ -3656,7 +3656,7 @@ nsAString
 aString
 )
 {
-int32_t
+PRInt32
 offset
 =
 -
@@ -3991,7 +3991,7 @@ case
 topicOpenURL
 :
 {
-nsAutoCString
+nsCAutoString
 url
 ;
 ParseDDEArg
@@ -4001,7 +4001,7 @@ hsz2
 url
 )
 ;
-nsAutoCString
+nsCAutoString
 windowID
 ;
 ParseDDEArg
@@ -4095,7 +4095,7 @@ url
 get
 (
 )
-nullptr
+nsnull
 nsICommandLine
 :
 :
@@ -4304,7 +4304,7 @@ escapeQuotes
 title
 )
 ;
-nsAutoCString
+nsCAutoString
 outpt
 (
 NS_LITERAL_CSTRING
@@ -4424,7 +4424,7 @@ endif
 }
 while
 (
-false
+PR_FALSE
 )
 ;
 break
@@ -4434,7 +4434,7 @@ case
 topicActivate
 :
 {
-nsAutoCString
+nsCAutoString
 windowID
 ;
 ParseDDEArg
@@ -4512,7 +4512,7 @@ result
 =
 CreateDDEData
 (
-false
+PR_FALSE
 )
 ;
 break
@@ -4526,7 +4526,7 @@ result
 =
 CreateDDEData
 (
-false
+PR_FALSE
 )
 ;
 break
@@ -4636,7 +4636,7 @@ request
 ;
 #
 endif
-nsAutoCString
+nsCAutoString
 url
 ;
 ParseDDEArg
@@ -4651,7 +4651,7 @@ request
 url
 )
 ;
-nsAutoCString
+nsCAutoString
 windowID
 ;
 ParseDDEArg
@@ -4750,7 +4750,7 @@ url
 get
 (
 )
-nullptr
+nsnull
 nsICommandLine
 :
 :
@@ -4821,16 +4821,16 @@ result
 ;
 }
 static
-int32_t
+PRInt32
 advanceToEndOfQuotedArg
 (
 const
 char
 *
 p
-int32_t
+PRInt32
 offset
-int32_t
+PRInt32
 len
 )
 {
@@ -4931,7 +4931,7 @@ args
 argLen
 )
 ;
-int32_t
+PRInt32
 offset
 =
 -
@@ -4980,7 +4980,7 @@ return
 ;
 }
 }
-int32_t
+PRInt32
 end
 =
 advanceToEndOfQuotedArg
@@ -5065,7 +5065,7 @@ argLen
 )
 return
 ;
-nsAutoCString
+nsCAutoString
 temp
 ;
 temp
@@ -5219,7 +5219,7 @@ aCmdLineString
 nsIFile
 *
 aWorkingDir
-uint32_t
+PRUint32
 aState
 )
 {
@@ -5256,7 +5256,7 @@ char
 *
 p
 ;
-nsAutoCString
+nsCAutoString
 arg
 ;
 nsCOMPtr
@@ -5726,7 +5726,7 @@ NS_LITERAL_STRING
 console
 "
 )
-false
+PR_FALSE
 &
 found
 )
@@ -5742,7 +5742,7 @@ NS_LITERAL_STRING
 dde
 "
 )
-false
+PR_FALSE
 &
 found
 )
@@ -6088,7 +6088,7 @@ SafeJSContext
 :
 mContext
 (
-nullptr
+nsnull
 )
 {
 }
@@ -6176,16 +6176,22 @@ mService
 JSContext
 *
 cx
-=
+;
+if
+(
+NS_SUCCEEDED
+(
 mService
 -
 >
 GetSafeJSContext
 (
+&
+cx
 )
-;
-if
-(
+)
+&
+&
 cx
 &
 &
@@ -6452,7 +6458,7 @@ window
 }
 while
 (
-false
+PR_FALSE
 )
 ;
 char
@@ -6504,7 +6510,7 @@ Init
 (
 0
 argv
-nullptr
+nsnull
 nsICommandLine
 :
 :
@@ -6701,7 +6707,7 @@ arg
 {
 rv
 =
-false
+PR_FALSE
 ;
 break
 ;
@@ -6897,7 +6903,7 @@ ERROR_SMG_START_IN_BACKGROUND
 )
 rv
 =
-true
+PR_TRUE
 ;
 return
 rv

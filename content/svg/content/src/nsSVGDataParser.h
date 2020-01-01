@@ -7,14 +7,7 @@ __NS_SVGDATAPARSER_H__
 #
 include
 "
-nsError
-.
-h
-"
-#
-include
-"
-nsStringGlue
+nsCOMPtr
 .
 h
 "

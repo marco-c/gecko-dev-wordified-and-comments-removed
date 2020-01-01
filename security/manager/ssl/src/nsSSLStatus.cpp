@@ -85,7 +85,7 @@ nsSSLStatus
 :
 GetKeyLength
 (
-uint32_t
+PRUint32
 *
 _result
 )
@@ -125,7 +125,7 @@ nsSSLStatus
 :
 GetSecretKeyLength
 (
-uint32_t
+PRUint32
 *
 _result
 )
@@ -333,7 +333,7 @@ stream
 >
 ReadObject
 (
-true
+PR_TRUE
 getter_AddRefs
 (
 cert
@@ -524,7 +524,7 @@ NS_GET_IID
 (
 nsIX509Cert
 )
-true
+PR_TRUE
 )
 ;
 NS_ENSURE_SUCCESS
@@ -675,7 +675,7 @@ nsSSLStatus
 :
 GetInterfaces
 (
-uint32_t
+PRUint32
 *
 count
 nsIID
@@ -693,7 +693,7 @@ count
 *
 array
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -705,7 +705,7 @@ nsSSLStatus
 :
 GetHelperForLanguage
 (
-uint32_t
+PRUint32
 language
 nsISupports
 *
@@ -716,7 +716,7 @@ _retval
 *
 _retval
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -737,7 +737,7 @@ aContractID
 *
 aContractID
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -758,7 +758,7 @@ aClassDescription
 *
 aClassDescription
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -817,7 +817,7 @@ nsSSLStatus
 :
 GetImplementationLanguage
 (
-uint32_t
+PRUint32
 *
 aImplementationLanguage
 )
@@ -840,7 +840,7 @@ nsSSLStatus
 :
 GetFlags
 (
-uint32_t
+PRUint32
 *
 aFlags
 )
@@ -898,23 +898,23 @@ mSecretKeyLength
 )
 mIsDomainMismatch
 (
-false
+PR_FALSE
 )
 mIsNotValidAtThisTime
 (
-false
+PR_FALSE
 )
 mIsUntrusted
 (
-false
+PR_FALSE
 )
 mHaveKeyLengthAndCipher
 (
-false
+PR_FALSE
 )
 mHaveCertErrorBits
 (
-false
+PR_FALSE
 )
 {
 mCipherName

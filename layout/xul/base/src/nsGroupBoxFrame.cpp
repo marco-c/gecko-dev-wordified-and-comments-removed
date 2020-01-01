@@ -199,7 +199,7 @@ return
 true
 ;
 }
-nsIFrame
+nsIBox
 *
 GetCaptionBox
 (
@@ -473,7 +473,7 @@ nsRect
 aDirtyRect
 )
 {
-int
+PRIntn
 skipSides
 =
 0
@@ -495,7 +495,7 @@ border
 borderStyleData
 -
 >
-GetComputedBorder
+GetActualBorder
 (
 )
 ;
@@ -515,7 +515,7 @@ PresContext
 nsRect
 groupRect
 ;
-nsIFrame
+nsIBox
 *
 groupBox
 =
@@ -846,7 +846,7 @@ skipSides
 ;
 }
 }
-nsIFrame
+nsIBox
 *
 nsGroupBoxFrame
 :
@@ -861,7 +861,7 @@ nsRect
 aCaptionRect
 )
 {
-nsIFrame
+nsIBox
 *
 box
 =
@@ -875,7 +875,7 @@ if
 box
 )
 return
-nullptr
+nsnull
 ;
 box
 =
@@ -892,9 +892,9 @@ if
 box
 )
 return
-nullptr
+nsnull
 ;
-nsIFrame
+nsIBox
 *
 child
 =

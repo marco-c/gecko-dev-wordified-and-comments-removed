@@ -437,7 +437,7 @@ newBuffer
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 if
@@ -460,7 +460,7 @@ newBuffer
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 newBuffer
@@ -1698,7 +1698,7 @@ executablePath
 0
 '
 ;
-nsAutoCString
+nsCAutoString
 bundlePath
 ;
 mPlugin
@@ -1841,7 +1841,7 @@ pathRef
 }
 #
 else
-nsAutoCString
+nsCAutoString
 bundlePath
 ;
 mPlugin
@@ -2268,7 +2268,7 @@ outLibrary
 *
 outLibrary
 =
-nullptr
+nsnull
 ;
 nsresult
 rv
@@ -2299,7 +2299,7 @@ info
 )
 )
 ;
-nsAutoCString
+nsCAutoString
 path
 ;
 if
@@ -2345,7 +2345,7 @@ get
 )
 )
 ;
-nsAutoCString
+nsCAutoString
 fileName
 ;
 if

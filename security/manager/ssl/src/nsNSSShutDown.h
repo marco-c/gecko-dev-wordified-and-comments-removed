@@ -300,7 +300,7 @@ singleton
 >
 mActivityState
 :
-nullptr
+nsnull
 ;
 }
 private
@@ -320,7 +320,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-uint32_t
+PRUint32
 number
 void
 *
@@ -338,7 +338,7 @@ table
 PLDHashEntryHdr
 *
 hdr
-uint32_t
+PRUint32
 number
 void
 *
@@ -361,7 +361,7 @@ singleton
 PLDHashTable
 mObjects
 ;
-uint32_t
+PRUint32
 mActiveSSLSockets
 ;
 PLDHashTable
@@ -390,7 +390,7 @@ nsNSSShutDownObject
 {
 mAlreadyShutDown
 =
-false
+PR_FALSE
 ;
 nsNSSShutDownList
 :
@@ -453,7 +453,7 @@ virtualDestroyNSSReference
 }
 mAlreadyShutDown
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -495,7 +495,7 @@ nsOnPK11LogoutCancelObject
 :
 mIsLoggedOut
 (
-false
+PR_FALSE
 )
 {
 nsNSSShutDownList
@@ -529,7 +529,7 @@ logout
 {
 mIsLoggedOut
 =
-true
+PR_TRUE
 ;
 }
 bool

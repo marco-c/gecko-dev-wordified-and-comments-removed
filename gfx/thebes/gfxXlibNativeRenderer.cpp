@@ -97,7 +97,7 @@ _convert_coord_to_int
 (
 double
 coord
-int32_t
+PRInt32
 *
 v
 )
@@ -106,7 +106,7 @@ v
 v
 =
 (
-int32_t
+PRInt32
 )
 coord
 ;
@@ -178,7 +178,7 @@ CAIRO_STATUS_SUCCESS
 {
 retval
 =
-false
+PR_FALSE
 ;
 NATIVE_DRAWING_NOTE
 (
@@ -292,7 +292,7 @@ height
 {
 retval
 =
-false
+PR_FALSE
 ;
 NATIVE_DRAWING_NOTE
 (
@@ -323,7 +323,7 @@ bounds
 *
 need_clip
 =
-false
+PR_FALSE
 ;
 goto
 FINISH
@@ -358,7 +358,7 @@ max_rectangles
 {
 retval
 =
-false
+PR_FALSE
 ;
 NATIVE_DRAWING_NOTE
 (
@@ -387,7 +387,7 @@ rect
 *
 need_clip
 =
-true
+PR_TRUE
 ;
 *
 num_rectangles
@@ -423,7 +423,7 @@ gfxContext
 ctx
 nsIntSize
 size
-uint32_t
+PRUint32
 flags
 Screen
 *
@@ -477,7 +477,7 @@ surface
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 cairo_matrix_t
@@ -505,7 +505,7 @@ device_offset_y
 ;
 NS_ASSERTION
 (
-int32_t
+PRInt32
 (
 device_offset_x
 )
@@ -514,7 +514,7 @@ device_offset_x
 device_offset_x
 &
 &
-int32_t
+PRInt32
 (
 device_offset_y
 )
@@ -664,7 +664,7 @@ if
 have_rectangular_clip
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -677,7 +677,7 @@ rect_count
 0
 )
 return
-true
+PR_TRUE
 ;
 bool
 supports_alternate_visual
@@ -731,7 +731,7 @@ screen
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 Visual
@@ -762,7 +762,7 @@ surface
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -818,7 +818,7 @@ Visual
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 }
@@ -892,11 +892,11 @@ target
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 static
@@ -1025,7 +1025,7 @@ format
 depth
 )
 return
-false
+PR_FALSE
 ;
 XRenderPictFormat
 *
@@ -1051,7 +1051,7 @@ type
 PictTypeDirect
 )
 return
-false
+PR_FALSE
 ;
 const
 XRenderDirectFormat
@@ -1126,7 +1126,7 @@ nsIntSize
 size
 bool
 canDrawOverBackground
-uint32_t
+PRUint32
 flags
 Screen
 *
@@ -1451,7 +1451,7 @@ target_format
 {
 doCopyBackground
 =
-false
+PR_FALSE
 ;
 }
 }
@@ -1844,7 +1844,7 @@ gfxContext
 ctx
 nsIntSize
 size
-uint32_t
+PRUint32
 flags
 Screen
 *
@@ -1874,14 +1874,14 @@ result
 >
 mUniformAlpha
 =
-false
+PR_FALSE
 ;
 result
 -
 >
 mUniformColor
 =
-false
+PR_FALSE
 ;
 }
 bool
@@ -2092,7 +2092,7 @@ RoundOut
 nsIntRect
 intExtents
 (
-int32_t
+PRInt32
 (
 clipExtents
 .
@@ -2100,7 +2100,7 @@ X
 (
 )
 )
-int32_t
+PRInt32
 (
 clipExtents
 .
@@ -2108,7 +2108,7 @@ Y
 (
 )
 )
-int32_t
+PRInt32
 (
 clipExtents
 .
@@ -2116,7 +2116,7 @@ Width
 (
 )
 )
-int32_t
+PRInt32
 (
 clipExtents
 .
@@ -2379,7 +2379,7 @@ result
 >
 mUniformAlpha
 =
-true
+PR_TRUE
 ;
 result
 -
@@ -2519,7 +2519,7 @@ result
 &
 analysis
 :
-nullptr
+nsnull
 )
 )
 return
@@ -2550,7 +2550,7 @@ result
 >
 mUniformAlpha
 =
-true
+PR_TRUE
 ;
 result
 -
@@ -2576,7 +2576,7 @@ result
 >
 mUniformColor
 =
-true
+PR_TRUE
 ;
 result
 -

@@ -22,15 +22,15 @@ nsCERTValInParamWrapper
 :
 mAlreadyConstructed
 (
-false
+PR_FALSE
 )
 mCVIN
 (
-nullptr
+nsnull
 )
 mRev
 (
-nullptr
+nsnull
 )
 {
 MOZ_COUNT_CTOR
@@ -332,7 +332,7 @@ wantsCrlFirst
 firstNetworkRevocationMethod
 !
 =
-nullptr
+nsnull
 )
 &
 &
@@ -406,7 +406,7 @@ CERT_REV_MI_NO_OVERALL_INFO_REQUIREMENT
 ;
 mAlreadyConstructed
 =
-true
+PR_TRUE
 ;
 mCVIN
 =

@@ -106,7 +106,7 @@ inline
 bool
 HaveNotifiedIndex
 (
-uint32_t
+PRUint32
 index
 )
 {
@@ -122,7 +122,7 @@ nsIContent
 *
 mParent
 ;
-uint32_t
+PRUint32
 mChildCount
 ;
 }

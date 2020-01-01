@@ -50,6 +50,13 @@ h
 #
 include
 "
+nsIPrefBranch2
+.
+h
+"
+#
+include
+"
 nsIObserverService
 .
 h
@@ -79,7 +86,7 @@ h
 "
 static
 const
-uint32_t
+PRUint32
 kMaxDNSNodeLen
 =
 63
@@ -211,7 +218,7 @@ mIDNWhitelistPrefBranch
 ;
 nsCOMPtr
 <
-nsIPrefBranch
+nsIPrefBranch2
 >
 prefInternal
 (
@@ -233,7 +240,7 @@ AddObserver
 (
 NS_NET_PREF_IDNTESTBED
 this
-true
+PR_TRUE
 )
 ;
 prefInternal
@@ -243,7 +250,7 @@ AddObserver
 (
 NS_NET_PREF_IDNPREFIX
 this
-true
+PR_TRUE
 )
 ;
 prefInternal
@@ -253,7 +260,7 @@ AddObserver
 (
 NS_NET_PREF_IDNBLACKLIST
 this
-true
+PR_TRUE
 )
 ;
 prefInternal
@@ -263,13 +270,13 @@ AddObserver
 (
 NS_NET_PREF_SHOWPUNYCODE
 this
-true
+PR_TRUE
 )
 ;
 prefsChanged
 (
 prefInternal
-nullptr
+nsnull
 )
 ;
 }
@@ -593,7 +600,7 @@ kIDNSPrefix
 ;
 mMultilingualTestBed
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -609,7 +616,7 @@ mNamePrepHandle
 )
 mNamePrepHandle
 =
-nullptr
+nsnull
 ;
 mNormalizer
 =
@@ -653,7 +660,7 @@ UTF8toACE
 (
 input
 ace
-true
+PR_TRUE
 )
 ;
 }
@@ -688,7 +695,7 @@ normalizeFullStops
 ustr
 )
 ;
-uint32_t
+PRUint32
 len
 offset
 ;
@@ -700,7 +707,7 @@ offset
 =
 0
 ;
-nsAutoCString
+nsCAutoString
 encodedBuf
 ;
 nsAString
@@ -878,7 +885,7 @@ ACEtoUTF8
 (
 input
 _retval
-true
+PR_TRUE
 )
 ;
 }
@@ -919,7 +926,7 @@ return
 NS_OK
 ;
 }
-uint32_t
+PRUint32
 len
 =
 0
@@ -927,7 +934,7 @@ offset
 =
 0
 ;
-nsAutoCString
+nsCAutoString
 decodedBuf
 ;
 nsACString
@@ -1121,7 +1128,7 @@ get
 (
 )
 ;
-uint32_t
+PRUint32
 dataLen
 =
 begin
@@ -1211,7 +1218,7 @@ nsAutoString
 outUTF16
 outLabel
 ;
-uint32_t
+PRUint32
 len
 =
 0
@@ -1284,7 +1291,7 @@ len
 1
 )
 outLabel
-true
+PR_TRUE
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1339,7 +1346,7 @@ offset
 len
 )
 outLabel
-true
+PR_TRUE
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1445,7 +1452,7 @@ _retval
 )
 )
 {
-nsAutoCString
+nsCAutoString
 temp
 (
 _retval
@@ -1455,7 +1462,7 @@ ACEtoUTF8
 (
 temp
 _retval
-false
+PR_FALSE
 )
 ;
 *
@@ -1472,7 +1479,7 @@ else
 *
 _isASCII
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -1514,7 +1521,7 @@ _retval
 *
 _isASCII
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -1545,7 +1552,7 @@ _retval
 *
 _isASCII
 =
-true
+PR_TRUE
 ;
 return
 ConvertUTF8toACE
@@ -1568,17 +1575,17 @@ const
 nsAString
 &
 in
-uint32_t
+PRUint32
 *
 out
-uint32_t
+PRUint32
 outBufLen
-uint32_t
+PRUint32
 *
 outLen
 )
 {
-uint32_t
+PRUint32
 i
 =
 0
@@ -1700,7 +1707,7 @@ outBufLen
 ]
 =
 (
-uint32_t
+PRUint32
 )
 '
 \
@@ -1724,7 +1731,7 @@ i
 ]
 =
 (
-uint32_t
+PRUint32
 )
 '
 \
@@ -1742,7 +1749,7 @@ void
 ucs4toUtf16
 (
 const
-uint32_t
+PRUint32
 *
 in
 nsAString
@@ -1830,7 +1837,7 @@ nsACString
 out
 )
 {
-uint32_t
+PRUint32
 ucs4Buf
 [
 kMaxDNSNodeLen
@@ -1838,7 +1845,7 @@ kMaxDNSNodeLen
 1
 ]
 ;
-uint32_t
+PRUint32
 ucs4Len
 ;
 utf16ToUcs4
@@ -1851,7 +1858,7 @@ ucs4Len
 )
 ;
 const
-uint32_t
+PRUint32
 kEncodedBufSize
 =
 kMaxDNSNodeLen
@@ -1883,7 +1890,7 @@ punycode_encode
 (
 ucs4Len
 ucs4Buf
-nullptr
+nsnull
 &
 encodedLength
 encodedBuf
@@ -1952,7 +1959,7 @@ out
 )
 {
 const
-uint32_t
+PRUint32
 kEncodedBufSize
 =
 kMaxDNSNodeLen
@@ -2022,7 +2029,7 @@ end
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 1
@@ -2141,7 +2148,7 @@ rv
 =
 NS_OK
 ;
-uint32_t
+PRUint32
 ucs4Buf
 [
 kMaxDNSNodeLen
@@ -2149,7 +2156,7 @@ kMaxDNSNodeLen
 1
 ]
 ;
-uint32_t
+PRUint32
 ucs4Len
 ;
 utf16ToUcs4
@@ -2164,7 +2171,7 @@ ucs4Len
 idn_result_t
 idn_err
 ;
-uint32_t
+PRUint32
 namePrepBuf
 [
 kMaxDNSNodeLen
@@ -2179,12 +2186,12 @@ idn_nameprep_map
 mNamePrepHandle
 (
 const
-uint32_t
+PRUint32
 *
 )
 ucs4Buf
 (
-uint32_t
+PRUint32
 *
 )
 namePrepBuf
@@ -2254,11 +2261,11 @@ return
 NS_ERROR_FAILURE
 ;
 const
-uint32_t
+PRUint32
 *
 found
 =
-nullptr
+nsnull
 ;
 idn_err
 =
@@ -2267,7 +2274,7 @@ idn_nameprep_isprohibited
 mNamePrepHandle
 (
 const
-uint32_t
+PRUint32
 *
 )
 ucs4Buf
@@ -2295,7 +2302,7 @@ idn_nameprep_isvalidbidi
 mNamePrepHandle
 (
 const
-uint32_t
+PRUint32
 *
 )
 ucs4Buf
@@ -2329,7 +2336,7 @@ idn_nameprep_isunassigned
 mNamePrepHandle
 (
 const
-uint32_t
+PRUint32
 *
 )
 ucs4Buf
@@ -2580,7 +2587,7 @@ EndReading
 end
 )
 ;
-int32_t
+PRInt32
 index
 =
 0
@@ -2738,7 +2745,7 @@ kACEPrefixLen
 &
 output_length
 output
-nullptr
+nsnull
 )
 ;
 if
@@ -2797,7 +2804,7 @@ utf16
 out
 )
 ;
-nsAutoCString
+nsCAutoString
 ace
 ;
 nsresult
@@ -2853,7 +2860,7 @@ if
 mIDNWhitelistPrefBranch
 )
 {
-nsAutoCString
+nsCAutoString
 tld
 (
 host
@@ -2874,13 +2881,13 @@ UTF8toACE
 (
 tld
 tld
-false
+PR_FALSE
 )
 )
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 tld
@@ -2892,7 +2899,7 @@ Trim
 "
 )
 ;
-int32_t
+PRInt32
 pos
 =
 tld
@@ -2912,7 +2919,7 @@ pos
 kNotFound
 )
 return
-false
+PR_FALSE
 ;
 tld
 .
@@ -2951,6 +2958,6 @@ safe
 ;
 }
 return
-false
+PR_FALSE
 ;
 }

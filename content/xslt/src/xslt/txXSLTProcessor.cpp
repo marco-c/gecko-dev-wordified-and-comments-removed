@@ -55,7 +55,7 @@ txExprResult
 h
 "
 TX_LG_IMPL
-bool
+MBool
 txXSLTProcessor
 :
 :
@@ -76,7 +76,7 @@ init
 )
 )
 return
-false
+MB_FALSE
 ;
 extern
 bool
@@ -92,10 +92,10 @@ TX_InitEXSLTFunction
 )
 )
 return
-false
+MB_FALSE
 ;
 return
-true
+MB_TRUE
 ;
 }
 void

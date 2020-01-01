@@ -31,7 +31,7 @@ kNameSpaceID_Unknown
 1
 static
 const
-int32_t
+PRInt32
 kNameSpaceID_None
 =
 0
@@ -160,7 +160,7 @@ const
 nsAString
 &
 aURI
-int32_t
+PRInt32
 &
 aNameSpaceID
 )
@@ -171,7 +171,7 @@ virtual
 nsresult
 GetNameSpaceURI
 (
-int32_t
+PRInt32
 aNameSpaceID
 nsAString
 &
@@ -181,7 +181,7 @@ aURI
 0
 ;
 virtual
-int32_t
+PRInt32
 GetNameSpaceID
 (
 const
@@ -196,7 +196,7 @@ virtual
 bool
 HasElementCreator
 (
-int32_t
+PRInt32
 aNameSpaceID
 )
 =

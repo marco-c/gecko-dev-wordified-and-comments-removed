@@ -164,7 +164,7 @@ table
 PLDHashEntryHdr
 *
 heh
-uint32_t
+PRUint32
 i
 void
 *
@@ -238,7 +238,7 @@ cpc
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 nsPrefBranch
@@ -272,7 +272,7 @@ aDefaultBranch
 ;
 mFreeingObserverList
 =
-false
+PR_FALSE
 ;
 mObservers
 .
@@ -312,7 +312,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-true
+PR_TRUE
 )
 ;
 -
@@ -451,7 +451,7 @@ const
 char
 *
 aPrefName
-int32_t
+PRInt32
 *
 _retval
 )
@@ -701,7 +701,7 @@ const
 char
 *
 aPrefName
-int32_t
+PRInt32
 *
 _retval
 )
@@ -740,7 +740,7 @@ const
 char
 *
 aPrefName
-int32_t
+PRInt32
 aValue
 )
 {
@@ -881,7 +881,7 @@ mIsDefault
 {
 bNeedDefault
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -904,7 +904,7 @@ pref
 {
 bNeedDefault
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -1046,17 +1046,6 @@ Equals
 (
 NS_GET_IID
 (
-nsIFile
-)
-)
-|
-|
-aType
-.
-Equals
-(
-NS_GET_IID
-(
 nsILocalFile
 )
 )
@@ -1074,7 +1063,7 @@ NS_ERROR
 "
 cannot
 get
-nsIFile
+nsILocalFile
 pref
 from
 content
@@ -1088,7 +1077,7 @@ NS_ERROR_NOT_AVAILABLE
 }
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 (
@@ -1132,7 +1121,7 @@ forget
 (
 reinterpret_cast
 <
-nsIFile
+nsILocalFile
 *
 *
 >
@@ -1246,7 +1235,7 @@ strEnd
 return
 NS_ERROR_FAILURE
 ;
-nsAutoCString
+nsCAutoString
 key
 (
 Substring
@@ -1258,7 +1247,7 @@ keyEnd
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 fromFile
 ;
@@ -1300,7 +1289,7 @@ get
 )
 NS_GET_IID
 (
-nsIFile
+nsILocalFile
 )
 getter_AddRefs
 (
@@ -1320,7 +1309,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 theFile
 ;
@@ -1331,7 +1320,7 @@ NS_NewNativeLocalFile
 EmptyCString
 (
 )
-true
+PR_TRUE
 getter_AddRefs
 (
 theFile
@@ -1566,17 +1555,6 @@ Equals
 (
 NS_GET_IID
 (
-nsIFile
-)
-)
-|
-|
-aType
-.
-Equals
-(
-NS_GET_IID
-(
 nsILocalFile
 )
 )
@@ -1584,7 +1562,7 @@ nsILocalFile
 {
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 =
@@ -1601,7 +1579,7 @@ file
 return
 NS_NOINTERFACE
 ;
-nsAutoCString
+nsCAutoString
 descriptorString
 ;
 rv
@@ -1673,7 +1651,7 @@ NS_NOINTERFACE
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 ;
@@ -1696,7 +1674,7 @@ file
 return
 NS_NOINTERFACE
 ;
-nsAutoCString
+nsCAutoString
 relativeToKey
 ;
 (
@@ -1712,7 +1690,7 @@ relativeToKey
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 relativeToFile
 ;
@@ -1754,7 +1732,7 @@ get
 )
 NS_GET_IID
 (
-nsIFile
+nsILocalFile
 )
 getter_AddRefs
 (
@@ -1772,7 +1750,7 @@ rv
 return
 rv
 ;
-nsAutoCString
+nsCAutoString
 relDescriptor
 ;
 rv
@@ -1796,7 +1774,7 @@ rv
 return
 rv
 ;
-nsAutoCString
+nsCAutoString
 descriptorString
 ;
 descriptorString
@@ -2164,7 +2142,7 @@ return
 PREF_LockPref
 (
 pref
-true
+PR_TRUE
 )
 ;
 }
@@ -2293,7 +2271,7 @@ return
 PREF_LockPref
 (
 pref
-false
+PR_FALSE
 )
 ;
 }
@@ -2380,7 +2358,7 @@ const
 char
 *
 aStartingAt
-uint32_t
+PRUint32
 *
 aCount
 char
@@ -2395,10 +2373,10 @@ char
 *
 outArray
 ;
-int32_t
+PRInt32
 numPrefs
 ;
-int32_t
+PRInt32
 dwIndex
 ;
 EnumerateData
@@ -2429,7 +2407,7 @@ aChildArray
 *
 aChildArray
 =
-nullptr
+nsnull
 ;
 *
 aCount
@@ -2718,6 +2696,9 @@ return
 NS_OK
 ;
 }
+bool
+putSucceeded
+=
 mObservers
 .
 Put
@@ -2726,6 +2707,19 @@ pCallback
 pCallback
 )
 ;
+if
+(
+!
+putSucceeded
+)
+{
+delete
+pCallback
+;
+return
+NS_ERROR_FAILURE
+;
+}
 pref
 =
 getPrefName
@@ -2935,7 +2929,7 @@ return
 NS_OK
 ;
 }
-uint32_t
+PRUint32
 len
 =
 pCallback
@@ -2950,7 +2944,7 @@ GetRootLength
 (
 )
 ;
-nsAutoCString
+nsCAutoString
 suffix
 (
 newpref
@@ -3066,7 +3060,7 @@ void
 {
 mFreeingObserverList
 =
-true
+PR_TRUE
 ;
 mObservers
 .
@@ -3074,12 +3068,12 @@ Enumerate
 (
 &
 FreeObserverFunc
-nullptr
+nsnull
 )
 ;
 mFreeingObserverList
 =
-false
+PR_FALSE
 ;
 }
 void
@@ -3149,7 +3143,7 @@ getter_Copies
 (
 propertyFileURL
 )
-true
+PR_TRUE
 )
 ;
 if
@@ -3309,7 +3303,7 @@ table
 PLDHashEntryHdr
 *
 heh
-uint32_t
+PRUint32
 i
 void
 *
@@ -3548,7 +3542,7 @@ nsPrefLocalizedString
 :
 SetDataWithLength
 (
-uint32_t
+PRUint32
 aLength
 const
 PRUnichar
@@ -3575,6 +3569,8 @@ SetData
 Substring
 (
 aData
+aData
++
 aLength
 )
 )
@@ -3608,7 +3604,7 @@ nsRelativeFilePref
 :
 GetFile
 (
-nsIFile
+nsILocalFile
 *
 *
 aFile
@@ -3640,7 +3636,7 @@ nsRelativeFilePref
 :
 SetFile
 (
-nsIFile
+nsILocalFile
 *
 aFile
 )

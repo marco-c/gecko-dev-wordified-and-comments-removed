@@ -70,7 +70,7 @@ layout
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 return
@@ -82,7 +82,7 @@ nsGridRowLeafFrame
 (
 aPresShell
 aContext
-false
+PR_FALSE
 layout
 )
 ;
@@ -133,7 +133,7 @@ part
 return
 rv
 ;
-int32_t
+PRInt32
 index
 =
 0
@@ -175,12 +175,12 @@ PresContext
 )
 )
 ;
-int32_t
+PRInt32
 firstIndex
 =
 0
 ;
-int32_t
+PRInt32
 lastIndex
 =
 0
@@ -189,13 +189,13 @@ nsGridRow
 *
 firstRow
 =
-nullptr
+nsnull
 ;
 nsGridRow
 *
 lastRow
 =
-nullptr
+nsnull
 ;
 grid
 -

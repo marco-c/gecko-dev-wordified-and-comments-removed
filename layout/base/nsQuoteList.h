@@ -21,7 +21,7 @@ const
 nsStyleContentType
 mType
 ;
-int32_t
+PRInt32
 mDepthBefore
 ;
 nsQuoteNode
@@ -29,7 +29,7 @@ nsQuoteNode
 nsStyleContentType
 &
 aType
-uint32_t
+PRUint32
 aContentIndex
 )
 :
@@ -153,7 +153,7 @@ mType
 eStyleContentType_CloseQuote
 ;
 }
-int32_t
+PRInt32
 Depth
 (
 )
@@ -170,7 +170,7 @@ mDepthBefore
 1
 ;
 }
-int32_t
+PRInt32
 DepthAfter
 (
 )

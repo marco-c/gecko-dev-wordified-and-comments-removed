@@ -1,13 +1,6 @@
 #
 include
 "
-nsError
-.
-h
-"
-#
-include
-"
 nsDOMStringMap
 .
 h
@@ -15,7 +8,7 @@ h
 #
 include
 "
-nsDOMClassInfoID
+nsDOMClassInfo
 .
 h
 "
@@ -55,14 +48,6 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsDOMStringMap
 )
-if
-(
-tmp
--
->
-mElement
-)
-{
 tmp
 -
 >
@@ -78,9 +63,8 @@ tmp
 >
 mElement
 =
-nullptr
+nsnull
 ;
-}
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
@@ -123,7 +107,7 @@ aElement
 )
 mRemovingProp
 (
-false
+PR_FALSE
 )
 {
 }
@@ -244,7 +228,7 @@ attr
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 nsCOMPtr
@@ -265,7 +249,7 @@ attrAtom
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 return
@@ -292,6 +276,7 @@ aProp
 nsAString
 &
 aResult
+NS_OUTPARAM
 )
 {
 nsAutoString
@@ -311,7 +296,7 @@ aResult
 .
 SetIsVoid
 (
-true
+PR_TRUE
 )
 ;
 return
@@ -353,7 +338,7 @@ aResult
 .
 SetIsVoid
 (
-true
+PR_TRUE
 )
 ;
 return
@@ -402,7 +387,7 @@ nsContentUtils
 CheckQName
 (
 attr
-false
+PR_FALSE
 )
 ;
 NS_ENSURE_SUCCESS
@@ -437,7 +422,7 @@ SetAttr
 kNameSpaceID_None
 attrAtom
 aValue
-true
+PR_TRUE
 )
 ;
 }
@@ -507,7 +492,7 @@ UnsetAttr
 (
 kNameSpaceID_None
 attrAtom
-true
+PR_TRUE
 )
 ;
 }
@@ -610,7 +595,7 @@ nsContentUtils
 WrapNative
 (
 cx
-JS_GetGlobalForScopeChain
+JS_GetScopeChain
 (
 cx
 )
@@ -625,8 +610,15 @@ rv
 rv
 )
 ;
-JSAutoCompartment
+JSAutoEnterCompartment
 ac
+;
+if
+(
+!
+ac
+.
+enter
 (
 cx
 JSVAL_TO_OBJECT
@@ -634,10 +626,15 @@ JSVAL_TO_OBJECT
 val
 )
 )
+)
+{
+return
+NS_ERROR_FAILURE
 ;
+}
 mRemovingProp
 =
-true
+PR_TRUE
 ;
 jsval
 dummy
@@ -665,7 +662,7 @@ dummy
 ;
 mRemovingProp
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -685,7 +682,7 @@ nsString
 aResult
 )
 {
-uint32_t
+PRUint32
 attrCount
 =
 mElement
@@ -697,7 +694,7 @@ GetAttrCount
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -899,7 +896,7 @@ z
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -977,7 +974,7 @@ attr
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -1012,7 +1009,7 @@ data
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 const
@@ -1147,6 +1144,6 @@ prop
 )
 ;
 return
-true
+PR_TRUE
 ;
 }

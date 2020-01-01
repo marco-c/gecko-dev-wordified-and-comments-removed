@@ -97,7 +97,7 @@ v
 (
 (
 (
-int32_t
+PRInt32
 )
 (
 v
@@ -117,7 +117,7 @@ v
 )
 (
 (
-int32_t
+PRInt32
 )
 (
 v
@@ -760,7 +760,7 @@ char
 *
 mimetype
 =
-nullptr
+nsnull
 ;
 inst
 -
@@ -1094,7 +1094,7 @@ enablePopups
 inst
 )
 {
-uint16_t
+PRUint16
 apiVersion
 ;
 if
@@ -1226,7 +1226,7 @@ nsPluginNativeWindow
 {
 window
 =
-nullptr
+nsnull
 ;
 x
 =
@@ -1461,7 +1461,7 @@ if
 mWeakRef
 )
 return
-nullptr
+nsnull
 ;
 }
 PluginWindowEvent
@@ -1487,7 +1487,7 @@ if
 event
 )
 return
-nullptr
+nsnull
 ;
 mCachedPluginWindowEvent
 =
@@ -1518,7 +1518,7 @@ if
 event
 )
 return
-nullptr
+nsnull
 ;
 }
 else
@@ -1743,7 +1743,7 @@ UndoSubclassAndAssociateWindow
 {
 SetPluginInstance
 (
-nullptr
+nsnull
 )
 ;
 HWND

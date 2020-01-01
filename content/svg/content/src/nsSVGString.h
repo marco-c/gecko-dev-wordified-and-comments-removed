@@ -7,13 +7,6 @@ __NS_SVGSTRING_H__
 #
 include
 "
-nsError
-.
-h
-"
-#
-include
-"
 nsIDOMSVGAnimatedString
 .
 h
@@ -28,9 +21,7 @@ h
 #
 include
 "
-mozilla
-/
-Attributes
+nsDOMError
 .
 h
 "
@@ -42,13 +33,13 @@ public
 void
 Init
 (
-uint8_t
+PRUint8
 aAttrEnum
 )
 {
 mAnimVal
 =
-nullptr
+nsnull
 ;
 mAttrEnum
 =
@@ -56,7 +47,7 @@ aAttrEnum
 ;
 mIsBaseSet
 =
-false
+PR_FALSE
 ;
 }
 void
@@ -79,7 +70,6 @@ GetBaseValue
 nsAString
 &
 aValue
-const
 nsSVGElement
 *
 aSVGElement
@@ -148,6 +138,9 @@ nsSVGElement
 aSVGElement
 )
 ;
+#
+ifdef
+MOZ_SMIL
 nsISMILAttr
 *
 ToSMILAttr
@@ -157,6 +150,8 @@ nsSVGElement
 aSVGElement
 )
 ;
+#
+endif
 private
 :
 nsAutoPtr
@@ -165,7 +160,7 @@ nsString
 >
 mAnimVal
 ;
-uint8_t
+PRUint8
 mAttrEnum
 ;
 bool
@@ -175,7 +170,6 @@ public
 :
 struct
 DOMAnimatedString
-MOZ_FINAL
 :
 public
 nsIDOMSVGAnimatedString
@@ -252,7 +246,7 @@ SetBaseValue
 (
 aValue
 mSVGElement
-true
+PR_TRUE
 )
 ;
 return
@@ -267,6 +261,9 @@ nsAString
 aResult
 )
 {
+#
+ifdef
+MOZ_SMIL
 mSVGElement
 -
 >
@@ -274,6 +271,8 @@ FlushAnimations
 (
 )
 ;
+#
+endif
 mVal
 -
 >
@@ -289,6 +288,9 @@ NS_OK
 }
 }
 ;
+#
+ifdef
+MOZ_SMIL
 struct
 SMILString
 :
@@ -371,6 +373,8 @@ aValue
 ;
 }
 ;
+#
+endif
 }
 ;
 #

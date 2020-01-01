@@ -35,11 +35,11 @@ nsGridCell
 :
 mBoxInColumn
 (
-nullptr
+nsnull
 )
 mBoxInRow
 (
-nullptr
+nsnull
 )
 {
 MOZ_COUNT_CTOR
@@ -404,6 +404,9 @@ nsGridCell
 :
 IsCollapsed
 (
+nsBoxLayoutState
+&
+aState
 )
 {
 return
@@ -417,6 +420,7 @@ mBoxInColumn
 >
 IsCollapsed
 (
+aState
 )
 )
 |
@@ -430,6 +434,7 @@ mBoxInRow
 >
 IsCollapsed
 (
+aState
 )
 )
 )

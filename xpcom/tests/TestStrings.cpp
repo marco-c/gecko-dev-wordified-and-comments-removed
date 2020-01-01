@@ -220,7 +220,7 @@ buf
 aStr
 )
 ;
-int32_t
+PRInt32
 n
 =
 buf
@@ -386,7 +386,7 @@ blah
 "
 )
 ;
-int32_t
+PRInt32
 i
 =
 src
@@ -396,7 +396,7 @@ Find
 "
 DOCTYPE
 "
-true
+PR_TRUE
 2
 1
 )
@@ -409,7 +409,7 @@ i
 2
 )
 return
-true
+PR_TRUE
 ;
 printf
 (
@@ -425,7 +425,7 @@ i
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 bool
@@ -465,7 +465,7 @@ src
 text
 )
 ;
-int32_t
+PRInt32
 i
 ;
 i
@@ -475,7 +475,7 @@ src
 RFind
 (
 term
-true
+PR_TRUE
 3
 -
 1
@@ -510,7 +510,7 @@ i
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 i
@@ -520,7 +520,7 @@ src
 RFind
 (
 term
-true
+PR_TRUE
 -
 1
 -
@@ -557,7 +557,7 @@ i
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 i
@@ -567,7 +567,7 @@ src
 RFind
 (
 term
-true
+PR_TRUE
 13
 -
 1
@@ -602,7 +602,7 @@ i
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 i
@@ -612,7 +612,7 @@ src
 RFind
 (
 term
-true
+PR_TRUE
 22
 3
 )
@@ -646,11 +646,11 @@ i
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -680,7 +680,7 @@ src
 text
 )
 ;
-int32_t
+PRInt32
 i
 =
 src
@@ -690,7 +690,7 @@ RFind
 "
 TYPE
 "
-false
+PR_FALSE
 5
 -
 1
@@ -704,7 +704,7 @@ i
 5
 )
 return
-true
+PR_TRUE
 ;
 printf
 (
@@ -720,7 +720,7 @@ i
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 bool
@@ -748,13 +748,13 @@ US
 necko
 "
 ;
-nsAutoCString
+nsCAutoString
 value
 (
 text
 )
 ;
-int32_t
+PRInt32
 i
 =
 value
@@ -774,7 +774,7 @@ i
 24
 )
 return
-true
+PR_TRUE
 ;
 printf
 (
@@ -790,7 +790,7 @@ i
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 bool
@@ -808,7 +808,7 @@ msf
 "
 )
 ;
-int32_t
+PRInt32
 i
 =
 value
@@ -843,11 +843,11 @@ i
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -894,7 +894,7 @@ jar
 /
 "
 ;
-nsAutoCString
+nsCAutoString
 value
 (
 text
@@ -951,7 +951,7 @@ delim_end
 )
 )
 return
-false
+PR_FALSE
 ;
 char
 *
@@ -1013,7 +1013,7 @@ r
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 nsMemory
@@ -1049,7 +1049,7 @@ delim_end
 )
 )
 return
-false
+PR_FALSE
 ;
 r
 =
@@ -1109,7 +1109,7 @@ r
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 nsMemory
@@ -1149,7 +1149,7 @@ delim_end
 )
 )
 return
-false
+PR_FALSE
 ;
 r
 =
@@ -1209,7 +1209,7 @@ r
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 nsMemory
@@ -1235,7 +1235,7 @@ delim_end
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -1245,7 +1245,7 @@ delim_begin
 delim_end
 )
 return
-false
+PR_FALSE
 ;
 delim_begin
 =
@@ -1290,7 +1290,7 @@ delim_end
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -1300,7 +1300,7 @@ delim_begin
 delim_end
 )
 return
-false
+PR_FALSE
 ;
 delim_begin
 =
@@ -1344,7 +1344,7 @@ delim_end
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -1354,10 +1354,10 @@ delim_begin
 delim_end
 )
 return
-false
+PR_FALSE
 ;
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -1404,7 +1404,7 @@ jar
 /
 "
 ;
-nsAutoCString
+nsCAutoString
 value
 (
 text
@@ -1461,7 +1461,7 @@ delim_end
 )
 )
 return
-false
+PR_FALSE
 ;
 char
 *
@@ -1523,7 +1523,7 @@ r
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 nsMemory
@@ -1559,7 +1559,7 @@ delim_end
 )
 )
 return
-false
+PR_FALSE
 ;
 r
 =
@@ -1619,7 +1619,7 @@ r
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 nsMemory
@@ -1690,7 +1690,7 @@ n
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 r
@@ -1751,7 +1751,7 @@ r
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 nsMemory
@@ -1799,7 +1799,7 @@ n
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -1830,7 +1830,7 @@ n
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 delim_begin
@@ -1896,7 +1896,7 @@ n
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -1927,7 +1927,7 @@ n
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 delim_begin
@@ -1992,7 +1992,7 @@ n
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -2023,11 +2023,11 @@ n
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -2369,7 +2369,7 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 s
@@ -2446,7 +2446,7 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 s
@@ -2513,7 +2513,7 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 s
@@ -2580,11 +2580,11 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -2597,7 +2597,7 @@ char
 *
 oldName
 =
-nullptr
+nsnull
 ;
 const
 char
@@ -2669,10 +2669,10 @@ acctName
 )
 )
 return
-false
+PR_FALSE
 ;
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -2835,7 +2835,7 @@ buf
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -2853,7 +2853,7 @@ buf
 0
 )
 return
-false
+PR_FALSE
 ;
 s
 .
@@ -2878,10 +2878,10 @@ get
 buf
 )
 return
-false
+PR_FALSE
 ;
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -2946,7 +2946,7 @@ bar
 0
 )
 return
-true
+PR_TRUE
 ;
 printf
 (
@@ -2968,7 +2968,7 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 bool
@@ -2999,7 +2999,7 @@ aText
 =
 text
 ;
-nsAutoCString
+nsCAutoString
 result
 (
 fieldTextStr
@@ -3025,7 +3025,7 @@ xyztext
 0
 )
 return
-true
+PR_TRUE
 ;
 printf
 (
@@ -3047,7 +3047,7 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 bool
@@ -3098,7 +3098,7 @@ abc
 0
 )
 return
-true
+PR_TRUE
 ;
 printf
 (
@@ -3120,7 +3120,7 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 bool
@@ -3144,7 +3144,7 @@ a
 b
 )
 return
-false
+PR_FALSE
 ;
 a
 .
@@ -3161,7 +3161,7 @@ a
 b
 )
 return
-false
+PR_FALSE
 ;
 a
 .
@@ -3187,7 +3187,7 @@ a
 b
 )
 return
-false
+PR_FALSE
 ;
 a
 .
@@ -3213,7 +3213,7 @@ a
 b
 )
 return
-false
+PR_FALSE
 ;
 const
 char
@@ -3249,7 +3249,7 @@ text
 0
 )
 return
-false
+PR_FALSE
 ;
 b
 =
@@ -3267,7 +3267,7 @@ b
 0
 )
 return
-false
+PR_FALSE
 ;
 a
 .
@@ -3323,7 +3323,7 @@ r
 0
 )
 return
-false
+PR_FALSE
 ;
 nsMemory
 :
@@ -3353,10 +3353,10 @@ char
 0
 )
 return
-false
+PR_FALSE
 ;
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -3394,7 +3394,7 @@ SetCapacity
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -3463,10 +3463,10 @@ kText
 0
 )
 return
-false
+PR_FALSE
 ;
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -3513,7 +3513,7 @@ if
 r
 )
 return
-false
+PR_FALSE
 ;
 r
 =
@@ -3537,10 +3537,10 @@ if
 r
 )
 return
-false
+PR_FALSE
 ;
 return
-true
+PR_TRUE
 ;
 }
 #
@@ -3602,7 +3602,7 @@ stderr
 ;
 \
 return
-false
+PR_FALSE
 ;
 \
 }
@@ -3694,7 +3694,7 @@ stderr
 ;
 \
 return
-false
+PR_FALSE
 ;
 \
 }
@@ -3736,16 +3736,16 @@ str
 nsCString
 cstr
 ;
-int32_t
+PRInt32
 L
 ;
-uint32_t
+PRUint32
 UL
 ;
-int64_t
+PRInt64
 LL
 ;
-uint64_t
+PRUint64
 ULL
 ;
 test_appends
@@ -3865,7 +3865,7 @@ ULL
 16
 )
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -3876,7 +3876,7 @@ test_appendint64
 nsCString
 str
 ;
-int64_t
+PRInt64
 max
 =
 LL_MaxInt
@@ -3894,7 +3894,7 @@ max_expected
 9223372036854775807
 "
 ;
-int64_t
+PRInt64
 min
 =
 LL_MinInt
@@ -3924,7 +3924,7 @@ min_expected_oct
 1000000000000000000000
 "
 ;
-int64_t
+PRInt64
 maxint_plus1
 =
 LL_INIT
@@ -3997,7 +3997,7 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 str
@@ -4048,7 +4048,7 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 str
@@ -4103,7 +4103,7 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 str
@@ -4154,7 +4154,7 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 str
@@ -4209,11 +4209,11 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -4299,7 +4299,7 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 str
@@ -4355,11 +4355,11 @@ get
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -4379,7 +4379,7 @@ you
 "
 )
 ;
-int32_t
+PRInt32
 index
 =
 buf
@@ -4400,7 +4400,7 @@ index
 5
 )
 return
-false
+PR_FALSE
 ;
 index
 =
@@ -4422,7 +4422,7 @@ index
 0
 )
 return
-false
+PR_FALSE
 ;
 index
 =
@@ -4443,7 +4443,7 @@ index
 !
 =
 (
-int32_t
+PRInt32
 )
 buf
 .
@@ -4454,10 +4454,10 @@ Length
 1
 )
 return
-false
+PR_FALSE
 ;
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -4477,7 +4477,7 @@ you
 "
 )
 ;
-int32_t
+PRInt32
 index
 =
 buf
@@ -4498,7 +4498,7 @@ index
 5
 )
 return
-false
+PR_FALSE
 ;
 index
 =
@@ -4520,7 +4520,7 @@ index
 0
 )
 return
-false
+PR_FALSE
 ;
 index
 =
@@ -4543,7 +4543,7 @@ index
 kNotFound
 )
 return
-false
+PR_FALSE
 ;
 index
 =
@@ -4565,7 +4565,7 @@ index
 3
 )
 return
-false
+PR_FALSE
 ;
 buf
 .
@@ -4595,7 +4595,7 @@ index
 12
 )
 return
-false
+PR_FALSE
 ;
 index
 =
@@ -4617,7 +4617,7 @@ index
 11
 )
 return
-false
+PR_FALSE
 ;
 index
 =
@@ -4639,7 +4639,7 @@ index
 1
 )
 return
-false
+PR_FALSE
 ;
 index
 =
@@ -4661,7 +4661,7 @@ index
 0
 )
 return
-false
+PR_FALSE
 ;
 index
 =
@@ -4683,7 +4683,7 @@ index
 kNotFound
 )
 return
-false
+PR_FALSE
 ;
 index
 =
@@ -4704,10 +4704,10 @@ index
 7
 )
 return
-false
+PR_FALSE
 ;
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -4749,7 +4749,7 @@ if
 buf
 )
 return
-false
+PR_FALSE
 ;
 buf
 -
@@ -4777,7 +4777,7 @@ if
 buf
 )
 return
-false
+PR_FALSE
 ;
 char
 *
@@ -4880,7 +4880,7 @@ if
 str
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -4892,7 +4892,7 @@ IsVoid
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -4904,7 +4904,7 @@ IsEmpty
 )
 )
 return
-false
+PR_FALSE
 ;
 str
 .
@@ -4925,13 +4925,13 @@ kData
 0
 )
 return
-false
+PR_FALSE
 ;
 str
 .
 SetIsVoid
 (
-true
+PR_TRUE
 )
 ;
 if
@@ -4939,7 +4939,7 @@ if
 str
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -4951,7 +4951,7 @@ IsVoid
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -4963,13 +4963,13 @@ IsEmpty
 )
 )
 return
-false
+PR_FALSE
 ;
 str
 .
 SetIsVoid
 (
-false
+PR_FALSE
 )
 ;
 if
@@ -4985,10 +4985,10 @@ str
 0
 )
 return
-false
+PR_FALSE
 ;
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -5007,7 +5007,7 @@ hello
 world
 "
 ;
-nsAutoCString
+nsCAutoString
 str
 ;
 if
@@ -5019,7 +5019,7 @@ IsVoid
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -5031,7 +5031,7 @@ IsEmpty
 )
 )
 return
-false
+PR_FALSE
 ;
 str
 .
@@ -5056,13 +5056,13 @@ kData
 0
 )
 return
-false
+PR_FALSE
 ;
 str
 .
 SetIsVoid
 (
-true
+PR_TRUE
 )
 ;
 if
@@ -5075,7 +5075,7 @@ IsVoid
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -5087,7 +5087,7 @@ IsEmpty
 )
 )
 return
-false
+PR_FALSE
 ;
 str
 .
@@ -5105,7 +5105,7 @@ IsVoid
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -5116,7 +5116,7 @@ IsEmpty
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -5134,10 +5134,10 @@ kData
 0
 )
 return
-false
+PR_FALSE
 ;
 return
-true
+PR_TRUE
 ;
 }
 bool
@@ -5153,7 +5153,7 @@ b
 .
 SetIsVoid
 (
-true
+PR_TRUE
 )
 ;
 a
@@ -5218,10 +5218,10 @@ char
 *
 str
 ;
-uint32_t
+PRUint32
 radix
 ;
-int32_t
+PRInt32
 result
 ;
 nsresult
@@ -5262,7 +5262,7 @@ NS_OK
 NS_ERROR_ILLEGAL_VALUE
 }
 {
-nullptr
+nsnull
 0
 0
 0
@@ -5274,7 +5274,7 @@ test_string_tointeger
 (
 )
 {
-int32_t
+PRInt32
 i
 ;
 nsresult
@@ -5299,10 +5299,10 @@ str
 t
 )
 {
-int32_t
+PRInt32
 result
 =
-nsAutoCString
+nsCAutoString
 (
 t
 -
@@ -5340,11 +5340,11 @@ t
 result
 )
 return
-false
+PR_FALSE
 ;
 result
 =
-nsAutoCString
+nsCAutoString
 (
 t
 -
@@ -5385,11 +5385,11 @@ t
 result
 )
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 static
@@ -5437,7 +5437,7 @@ results
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -5454,7 +5454,7 @@ Length
 len
 )
 return
-false
+PR_FALSE
 ;
 const
 char
@@ -5501,11 +5501,11 @@ i
 )
 )
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 static
@@ -5526,8 +5526,8 @@ test_parse_string_helper
 str
 separator
 0
-nullptr
-nullptr
+nsnull
+nsnull
 )
 ;
 }
@@ -5554,7 +5554,7 @@ str
 separator
 1
 s1
-nullptr
+nsnull
 )
 ;
 }
@@ -5725,7 +5725,7 @@ const
 nsAString
 &
 result
-uint32_t
+PRUint32
 offset
 =
 0
@@ -6967,7 +6967,7 @@ fail
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 static
@@ -6984,7 +6984,7 @@ bool
 aSuccess
 )
 {
-int32_t
+PRInt32
 result
 ;
 return
@@ -7032,7 +7032,7 @@ NS_LITERAL_STRING
 42
 .
 f
-true
+PR_TRUE
 )
 &
 &
@@ -7049,7 +7049,7 @@ NS_LITERAL_STRING
 42
 .
 f
-true
+PR_TRUE
 )
 &
 &
@@ -7066,7 +7066,7 @@ NS_LITERAL_STRING
 42
 .
 f
-true
+PR_TRUE
 )
 &
 &
@@ -7080,7 +7080,7 @@ NS_LITERAL_STRING
 "
 )
 42
-true
+PR_TRUE
 )
 &
 &
@@ -7097,7 +7097,7 @@ NS_LITERAL_STRING
 13
 .
 37f
-true
+PR_TRUE
 )
 &
 &
@@ -7114,7 +7114,7 @@ NS_LITERAL_STRING
 1
 .
 23456789f
-true
+PR_TRUE
 )
 &
 &
@@ -7131,7 +7131,7 @@ NS_LITERAL_STRING
 1
 .
 98765432123456f
-true
+PR_TRUE
 )
 &
 &
@@ -7146,7 +7146,7 @@ NS_LITERAL_STRING
 0
 .
 f
-true
+PR_TRUE
 )
 &
 &
@@ -7161,7 +7161,7 @@ e5
 "
 )
 100000
-true
+PR_TRUE
 )
 &
 &
@@ -7175,7 +7175,7 @@ NS_LITERAL_STRING
 0
 .
 f
-false
+PR_FALSE
 )
 &
 &
@@ -7190,7 +7190,7 @@ NS_LITERAL_STRING
 42
 .
 f
-false
+PR_FALSE
 )
 &
 &
@@ -7205,11 +7205,11 @@ foo
 0
 .
 f
-false
+PR_FALSE
 )
 &
 &
-true
+PR_TRUE
 ;
 }
 static
@@ -7226,7 +7226,7 @@ bool
 aSuccess
 )
 {
-int32_t
+PRInt32
 result
 ;
 return
@@ -7272,7 +7272,7 @@ NS_LITERAL_STRING
 "
 )
 42
-true
+PR_TRUE
 )
 &
 &
@@ -7287,7 +7287,7 @@ NS_LITERAL_STRING
 "
 )
 42
-true
+PR_TRUE
 )
 &
 &
@@ -7302,7 +7302,7 @@ NS_LITERAL_STRING
 )
 -
 42
-true
+PR_TRUE
 )
 &
 &
@@ -7316,7 +7316,7 @@ NS_LITERAL_STRING
 "
 )
 42
-true
+PR_TRUE
 )
 &
 &
@@ -7333,7 +7333,7 @@ NS_LITERAL_STRING
 13
 .
 37
-true
+PR_TRUE
 )
 &
 &
@@ -7350,7 +7350,7 @@ NS_LITERAL_STRING
 1
 .
 23456789
-true
+PR_TRUE
 )
 &
 &
@@ -7367,7 +7367,7 @@ NS_LITERAL_STRING
 1
 .
 98765432123456
-true
+PR_TRUE
 )
 &
 &
@@ -7384,7 +7384,7 @@ NS_LITERAL_STRING
 123456789
 .
 98765432123456
-true
+PR_TRUE
 )
 &
 &
@@ -7397,7 +7397,7 @@ NS_LITERAL_STRING
 "
 )
 0
-true
+PR_TRUE
 )
 &
 &
@@ -7412,7 +7412,7 @@ e5
 "
 )
 100000
-true
+PR_TRUE
 )
 &
 &
@@ -7424,7 +7424,7 @@ NS_LITERAL_STRING
 "
 )
 0
-false
+PR_FALSE
 )
 &
 &
@@ -7437,7 +7437,7 @@ NS_LITERAL_STRING
 "
 )
 42
-false
+PR_FALSE
 )
 &
 &
@@ -7450,11 +7450,11 @@ foo
 "
 )
 0
-false
+PR_FALSE
 )
 &
 &
-true
+PR_TRUE
 ;
 }
 typedef
@@ -7738,8 +7738,8 @@ test_todouble
 test_todouble
 }
 {
-nullptr
-nullptr
+nsnull
+nsnull
 }
 }
 ;
@@ -7806,7 +7806,7 @@ t
 name
 !
 =
-nullptr
+nsnull
 ;
 +
 +

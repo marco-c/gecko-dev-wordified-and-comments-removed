@@ -67,15 +67,6 @@ nsCycleCollectionParticipant
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsIDOMNode
 ;
@@ -155,7 +146,6 @@ properties
 "
 class
 txMozillaXSLTProcessor
-MOZ_FINAL
 :
 public
 nsIXSLTProcessor
@@ -344,7 +334,7 @@ cx
 JSObject
 *
 obj
-uint32_t
+PRUint32
 argc
 jsval
 *
@@ -439,7 +429,7 @@ txResultRecycler
 >
 mRecycler
 ;
-uint32_t
+PRUint32
 mFlags
 ;
 }

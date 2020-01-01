@@ -115,7 +115,7 @@ aCx
 JSObject
 *
 aObj
-uint32_t
+PRUint32
 aArgc
 jsval
 *

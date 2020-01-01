@@ -121,7 +121,7 @@ corrupted
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 nsresult
@@ -141,7 +141,7 @@ value
 )
 {
 const
-uint32_t
+PRUint32
 keySize
 =
 strlen
@@ -175,7 +175,7 @@ if
 pos
 )
 {
-uint32_t
+PRUint32
 oldValueSize
 =
 strlen
@@ -185,14 +185,14 @@ pos
 +
 1
 ;
-uint32_t
+PRUint32
 offset
 =
 pos
 -
 mBuffer
 ;
-uint32_t
+PRUint32
 remainder
 =
 mMetaSize
@@ -227,7 +227,7 @@ NS_OK
 ;
 }
 const
-uint32_t
+PRUint32
 valueSize
 =
 strlen
@@ -237,7 +237,7 @@ value
 +
 1
 ;
-uint32_t
+PRUint32
 newSize
 =
 mMetaSize
@@ -250,7 +250,7 @@ pos
 )
 {
 const
-uint32_t
+PRUint32
 oldValueSize
 =
 strlen
@@ -261,7 +261,7 @@ pos
 1
 ;
 const
-uint32_t
+PRUint32
 offset
 =
 pos
@@ -269,7 +269,7 @@ pos
 mBuffer
 ;
 const
-uint32_t
+PRUint32
 remainder
 =
 mMetaSize
@@ -381,7 +381,7 @@ FlattenMetaData
 char
 *
 buffer
-uint32_t
+PRUint32
 bufSize
 )
 {
@@ -431,7 +431,7 @@ const
 char
 *
 data
-uint32_t
+PRUint32
 size
 )
 {
@@ -482,7 +482,7 @@ false
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -654,8 +654,7 @@ rv
 !
 keepGoing
 )
-return
-NS_OK
+break
 ;
 data
 +
@@ -690,7 +689,7 @@ nsCacheMetaData
 :
 EnsureBuffer
 (
-uint32_t
+PRUint32
 bufSize
 )
 {

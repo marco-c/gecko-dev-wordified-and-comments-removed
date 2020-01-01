@@ -224,7 +224,7 @@ layout
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 return
@@ -236,7 +236,7 @@ nsListItemFrame
 (
 aPresShell
 aContext
-false
+PR_FALSE
 layout
 )
 ;

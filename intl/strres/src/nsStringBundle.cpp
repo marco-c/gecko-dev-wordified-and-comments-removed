@@ -286,11 +286,11 @@ mReentrantMonitor
 )
 mAttemptedLoad
 (
-false
+PR_FALSE
 )
 mLoaded
 (
-false
+PR_FALSE
 )
 {
 }
@@ -320,7 +320,7 @@ NS_ERROR_UNEXPECTED
 }
 mAttemptedLoad
 =
-true
+PR_TRUE
 ;
 nsresult
 rv
@@ -470,7 +470,7 @@ mAttemptedLoad
 =
 mLoaded
 =
-true
+PR_TRUE
 ;
 rv
 =
@@ -499,7 +499,7 @@ nsStringBundle
 :
 GetStringFromID
 (
-int32_t
+PRInt32
 aID
 nsAString
 &
@@ -512,7 +512,7 @@ automon
 mReentrantMonitor
 )
 ;
-nsAutoCString
+nsCAutoString
 name
 ;
 name
@@ -792,14 +792,14 @@ nsStringBundle
 :
 FormatStringFromID
 (
-int32_t
+PRInt32
 aID
 const
 PRUnichar
 *
 *
 aParams
-uint32_t
+PRUint32
 aLength
 PRUnichar
 *
@@ -847,7 +847,7 @@ PRUnichar
 *
 *
 aParams
-uint32_t
+PRUint32
 aLength
 PRUnichar
 *
@@ -955,7 +955,7 @@ nsStringBundle
 :
 GetStringFromID
 (
-int32_t
+PRInt32
 aID
 PRUnichar
 *
@@ -985,7 +985,7 @@ rv
 *
 aResult
 =
-nullptr
+nsnull
 ;
 nsAutoString
 tmpstr
@@ -1077,7 +1077,7 @@ mReentrantMonitor
 *
 aResult
 =
-nullptr
+nsnull
 ;
 nsAutoString
 tmpstr
@@ -1290,7 +1290,7 @@ resultArray
 AppendElement
 (
 supports
-false
+PR_FALSE
 )
 ;
 rv
@@ -1381,7 +1381,7 @@ rv
 )
 )
 {
-nsAutoCString
+nsCAutoString
 key
 ;
 propElement
@@ -1420,7 +1420,7 @@ resultArray
 AppendElement
 (
 propElement
-false
+PR_FALSE
 )
 ;
 }
@@ -1532,7 +1532,7 @@ PRUnichar
 *
 *
 aParams
-uint32_t
+PRUint32
 aLength
 PRUnichar
 *
@@ -1573,7 +1573,7 @@ aParams
 0
 ]
 :
-nullptr
+nsnull
 aLength
 >
 =
@@ -1584,7 +1584,7 @@ aParams
 1
 ]
 :
-nullptr
+nsnull
 aLength
 >
 =
@@ -1595,7 +1595,7 @@ aParams
 2
 ]
 :
-nullptr
+nsnull
 aLength
 >
 =
@@ -1606,7 +1606,7 @@ aParams
 3
 ]
 :
-nullptr
+nsnull
 aLength
 >
 =
@@ -1617,7 +1617,7 @@ aParams
 4
 ]
 :
-nullptr
+nsnull
 aLength
 >
 =
@@ -1628,7 +1628,7 @@ aParams
 5
 ]
 :
-nullptr
+nsnull
 aLength
 >
 =
@@ -1639,7 +1639,7 @@ aParams
 6
 ]
 :
-nullptr
+nsnull
 aLength
 >
 =
@@ -1650,7 +1650,7 @@ aParams
 7
 ]
 :
-nullptr
+nsnull
 aLength
 >
 =
@@ -1661,7 +1661,7 @@ aParams
 8
 ]
 :
-nullptr
+nsnull
 aLength
 >
 =
@@ -1672,7 +1672,7 @@ aParams
 9
 ]
 :
-nullptr
+nsnull
 )
 ;
 if
@@ -1684,7 +1684,7 @@ text
 *
 aResult
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -1729,7 +1729,7 @@ nsExtensibleStringBundle
 {
 mLoaded
 =
-false
+PR_FALSE
 ;
 }
 nsresult
@@ -1874,7 +1874,7 @@ rv
 )
 continue
 ;
-nsAutoCString
+nsCAutoString
 name
 ;
 rv
@@ -1956,7 +1956,7 @@ nsExtensibleStringBundle
 :
 GetStringFromID
 (
-int32_t
+PRInt32
 aID
 PRUnichar
 *
@@ -1968,7 +1968,7 @@ nsresult
 rv
 ;
 const
-uint32_t
+PRUint32
 size
 =
 mBundles
@@ -1979,7 +1979,7 @@ Count
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -2054,7 +2054,7 @@ nsresult
 rv
 ;
 const
-uint32_t
+PRUint32
 size
 =
 mBundles
@@ -2065,7 +2065,7 @@ Count
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -2126,14 +2126,14 @@ nsExtensibleStringBundle
 :
 FormatStringFromID
 (
-int32_t
+PRInt32
 aID
 const
 PRUnichar
 *
 *
 aParams
-uint32_t
+PRUint32
 aLength
 PRUnichar
 *
@@ -2181,7 +2181,7 @@ PRUnichar
 *
 *
 aParams
-uint32_t
+PRUint32
 aLength
 PRUnichar
 *
@@ -2244,7 +2244,7 @@ aResult
 *
 aResult
 =
-nullptr
+NULL
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -2280,7 +2280,7 @@ nsStringBundleService
 mBundleMap
 (
 MAX_CACHED_BUNDLES
-true
+PR_TRUE
 )
 {
 #
@@ -2418,7 +2418,7 @@ memory
 -
 pressure
 "
-true
+PR_TRUE
 )
 ;
 os
@@ -2434,7 +2434,7 @@ do
 -
 change
 "
-true
+PR_TRUE
 )
 ;
 os
@@ -2450,7 +2450,7 @@ flush
 -
 caches
 "
-true
+PR_TRUE
 )
 ;
 os
@@ -2468,7 +2468,7 @@ entry
 -
 added
 "
-true
+PR_TRUE
 )
 ;
 }
@@ -2912,6 +2912,7 @@ NS_WARNING
 (
 nsPrintfCString
 (
+300
 "
 Booting
 %
@@ -3135,10 +3136,15 @@ nsIStringBundle
 aResult
 )
 {
-NS_ENSURE_ARG_POINTER
+if
 (
 aResult
+=
+=
+NULL
 )
+return
+NS_ERROR_NULL_POINTER
 ;
 nsresult
 res
@@ -3248,7 +3254,7 @@ nsIStringBundle
 bundle
 nsresult
 aStatus
-uint32_t
+PRUint32
 argCount
 PRUnichar
 *
@@ -3323,7 +3329,7 @@ rv
 )
 )
 {
-uint16_t
+PRUint16
 code
 =
 NS_ERROR_GET_CODE
@@ -3366,13 +3372,7 @@ statusStr
 .
 AppendInt
 (
-static_cast
-<
-uint32_t
->
-(
 aStatus
-)
 16
 )
 ;
@@ -3395,7 +3395,7 @@ get
 (
 )
 ;
-uint16_t
+PRUint16
 code
 =
 NS_ERROR_GET_CODE
@@ -3442,7 +3442,7 @@ result
 nsresult
 rv
 ;
-uint32_t
+PRUint32
 i
 argCount
 =
@@ -3569,7 +3569,7 @@ argCount
 1
 )
 {
-int32_t
+PRInt32
 offset
 =
 0
@@ -3589,7 +3589,7 @@ i
 +
 )
 {
-int32_t
+PRInt32
 pos
 =
 args
@@ -3644,7 +3644,7 @@ i
 ]
 =
 =
-nullptr
+nsnull
 )
 {
 rv

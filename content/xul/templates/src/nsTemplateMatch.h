@@ -80,7 +80,7 @@ public
 :
 nsTemplateMatch
 (
-uint16_t
+PRUint16
 aQuerySetPriority
 nsIXULTemplateResult
 *
@@ -109,7 +109,7 @@ aResult
 )
 mNext
 (
-nullptr
+nsnull
 )
 {
 MOZ_COUNT_CTOR
@@ -137,7 +137,7 @@ Create
 nsFixedSizeAllocator
 &
 aPool
-uint16_t
+PRUint16
 aQuerySetPriority
 nsIXULTemplateResult
 *
@@ -177,7 +177,7 @@ aResult
 aContainer
 )
 :
-nullptr
+nsnull
 ;
 }
 static
@@ -218,7 +218,7 @@ mRuleIndex
 1
 ;
 }
-int16_t
+PRInt16
 RuleIndex
 (
 )
@@ -227,7 +227,7 @@ return
 mRuleIndex
 ;
 }
-uint16_t
+PRUint16
 QuerySetPriority
 (
 )
@@ -255,7 +255,7 @@ aQuerySet
 nsTemplateRule
 *
 aRule
-int16_t
+PRInt16
 aRuleIndex
 nsIXULTemplateResult
 *
@@ -264,10 +264,10 @@ aResult
 ;
 private
 :
-int16_t
+PRInt16
 mRuleIndex
 ;
-uint16_t
+PRUint16
 mQuerySetPriority
 ;
 nsCOMPtr

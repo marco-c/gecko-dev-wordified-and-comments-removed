@@ -131,7 +131,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 const
 nsRect
@@ -154,7 +154,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 nsIntMargin
 *
@@ -173,7 +173,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 nsIntMargin
 *
@@ -192,7 +192,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 nsRect
 *
@@ -200,7 +200,7 @@ aOverflowRect
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 NS_IMETHOD
@@ -212,7 +212,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 nsIntSize
 *
@@ -241,7 +241,7 @@ GetWidgetTransparency
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 )
 {
@@ -255,7 +255,7 @@ WidgetStateChanged
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 nsIAtom
 *
@@ -284,7 +284,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 )
 =
@@ -294,7 +294,7 @@ virtual
 bool
 WidgetIsContainer
 (
-uint8_t
+PRUint8
 aWidgetType
 )
 =
@@ -310,7 +310,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-uint8_t
+PRUint8
 aWidgetType
 )
 =

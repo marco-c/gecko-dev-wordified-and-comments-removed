@@ -82,15 +82,6 @@ nsCycleCollectionParticipant
 h
 "
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 define
 NS_SAXXMLREADER_CONTRACTID
 "
@@ -134,7 +125,6 @@ NS_SAXXMLREADER_CID
 }
 class
 nsSAXXMLReader
-MOZ_FINAL
 :
 public
 nsISAXXMLReader
@@ -186,7 +176,7 @@ aTerminated
 NS_IMETHOD
 SetParser
 (
-nsParserBase
+nsIParser
 *
 aParser
 )
@@ -238,7 +228,7 @@ GetTarget
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 private
@@ -295,7 +285,7 @@ TryChannelCharset
 nsIChannel
 *
 aChannel
-int32_t
+PRInt32
 &
 aCharsetSource
 nsACString

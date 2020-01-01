@@ -214,12 +214,12 @@ nsScrollbarFrame
 :
 AttributeChanged
 (
-int32_t
+PRInt32
 aNameSpaceID
 nsIAtom
 *
 aAttribute
-int32_t
+PRInt32
 aModType
 )
 {
@@ -397,7 +397,7 @@ if
 mScrollbarMediator
 )
 return
-nullptr
+nsnull
 ;
 nsIFrame
 *

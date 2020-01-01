@@ -50,7 +50,7 @@ nsDownloader
 :
 mLocationIsTemp
 (
-false
+PR_FALSE
 )
 {
 }
@@ -76,11 +76,11 @@ const
 char
 *
 fromRawSegment
-uint32_t
+PRUint32
 toOffset
-uint32_t
+PRUint32
 count
-uint32_t
+PRUint32
 *
 writeCount
 )

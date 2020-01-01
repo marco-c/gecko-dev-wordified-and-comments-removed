@@ -161,7 +161,7 @@ mU
 .
 mPtr
 =
-nullptr
+nsnull
 ;
 aValue
 .
@@ -395,7 +395,7 @@ const
 nsSMILValue
 &
 aValueToAdd
-uint32_t
+PRUint32
 aCount
 )
 const
@@ -814,7 +814,7 @@ nsIDOMSVGMarkerElement
 SVG_MARKER_ORIENT_ANGLE
 |
 |
-aEndVal
+aStartVal
 .
 mU
 .

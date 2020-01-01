@@ -262,7 +262,7 @@ ImportFrame
 :
 mFirstNotImported
 (
-nullptr
+nsnull
 )
 {
 }
@@ -293,7 +293,7 @@ class
 GlobalVariable
 :
 public
-txObject
+TxObject
 {
 public
 :
@@ -467,9 +467,9 @@ aPrefix
 nsIAtom
 *
 aLocalName
-int32_t
+PRInt32
 aNSID
-bool
+MBool
 stripSpace
 )
 :
@@ -489,7 +489,7 @@ stripSpace
 )
 {
 }
-bool
+MBool
 matches
 (
 const
@@ -511,7 +511,7 @@ aContext
 )
 ;
 }
-bool
+MBool
 stripsSpace
 (
 )
@@ -538,7 +538,7 @@ protected
 txNameTest
 mNameTest
 ;
-bool
+MBool
 mStrips
 ;
 }

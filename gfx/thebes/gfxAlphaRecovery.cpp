@@ -125,7 +125,7 @@ ImageFormatRGB24
 )
 )
 return
-false
+PR_FALSE
 ;
 #
 ifdef
@@ -152,7 +152,7 @@ whiteSurf
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 #
@@ -195,7 +195,7 @@ Data
 (
 )
 ;
-uint32_t
+PRUint32
 first
 ;
 if
@@ -233,7 +233,7 @@ blackData
 whiteData
 )
 return
-false
+PR_FALSE
 ;
 first
 =
@@ -242,7 +242,7 @@ RecoverPixel
 *
 reinterpret_cast
 <
-uint32_t
+PRUint32
 *
 >
 (
@@ -251,7 +251,7 @@ blackData
 *
 reinterpret_cast
 <
-uint32_t
+PRUint32
 *
 >
 (
@@ -260,14 +260,14 @@ whiteData
 )
 ;
 }
-uint32_t
+PRUint32
 deltas
 =
 0
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -283,13 +283,13 @@ height
 i
 )
 {
-uint32_t
+PRUint32
 *
 blackPixel
 =
 reinterpret_cast
 <
-uint32_t
+PRUint32
 *
 >
 (
@@ -297,13 +297,13 @@ blackData
 )
 ;
 const
-uint32_t
+PRUint32
 *
 whitePixel
 =
 reinterpret_cast
 <
-uint32_t
+PRUint32
 *
 >
 (
@@ -312,7 +312,7 @@ whiteData
 ;
 for
 (
-int32_t
+PRInt32
 j
 =
 0
@@ -328,7 +328,7 @@ width
 j
 )
 {
-uint32_t
+PRUint32
 recovered
 =
 RecoverPixel
@@ -413,7 +413,7 @@ analysis
 >
 uniformColor
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -546,6 +546,6 @@ d_first_alpha
 }
 }
 return
-true
+PR_TRUE
 ;
 }

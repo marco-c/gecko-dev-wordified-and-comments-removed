@@ -22,12 +22,12 @@ PrepareAndDispatch
 nsXPTCStubBase
 *
 self
-uint32_t
+PRUint32
 methodIndex
-uint64_t
+PRUint64
 *
 args
-uint64_t
+PRUint64
 *
 gprData
 double
@@ -66,10 +66,10 @@ info
 =
 NULL
 ;
-uint8_t
+PRUint8
 paramCount
 ;
-uint8_t
+PRUint8
 i
 ;
 nsresult
@@ -94,7 +94,7 @@ mEntry
 >
 GetMethodInfo
 (
-uint16_t
+PRUint16
 (
 methodIndex
 )
@@ -151,13 +151,13 @@ params
 "
 )
 ;
-uint64_t
+PRUint64
 *
 ap
 =
 args
 ;
-uint32_t
+PRUint32
 iCount
 =
 0
@@ -297,7 +297,7 @@ val
 i8
 =
 (
-int8_t
+PRInt8
 )
 gprData
 [
@@ -317,7 +317,7 @@ i8
 *
 (
 (
-int8_t
+PRInt8
 *
 )
 ap
@@ -347,7 +347,7 @@ val
 i16
 =
 (
-int16_t
+PRInt16
 )
 gprData
 [
@@ -367,7 +367,7 @@ i16
 *
 (
 (
-int16_t
+PRInt16
 *
 )
 ap
@@ -397,7 +397,7 @@ val
 i32
 =
 (
-int32_t
+PRInt32
 )
 gprData
 [
@@ -417,7 +417,7 @@ i32
 *
 (
 (
-int32_t
+PRInt32
 *
 )
 ap
@@ -447,7 +447,7 @@ val
 i64
 =
 (
-int64_t
+PRInt64
 )
 gprData
 [
@@ -467,7 +467,7 @@ i64
 *
 (
 (
-int64_t
+PRInt64
 *
 )
 ap
@@ -497,7 +497,7 @@ val
 u8
 =
 (
-uint8_t
+PRUint8
 )
 gprData
 [
@@ -517,7 +517,7 @@ u8
 *
 (
 (
-uint8_t
+PRUint8
 *
 )
 ap
@@ -547,7 +547,7 @@ val
 u16
 =
 (
-uint16_t
+PRUint16
 )
 gprData
 [
@@ -567,7 +567,7 @@ u16
 *
 (
 (
-uint16_t
+PRUint16
 *
 )
 ap
@@ -597,7 +597,7 @@ val
 u32
 =
 (
-uint32_t
+PRUint32
 )
 gprData
 [
@@ -617,7 +617,7 @@ u32
 *
 (
 (
-uint32_t
+PRUint32
 *
 )
 ap
@@ -647,7 +647,7 @@ val
 u64
 =
 (
-uint64_t
+PRUint64
 )
 gprData
 [
@@ -667,7 +667,7 @@ u64
 *
 (
 (
-uint64_t
+PRUint64
 *
 )
 ap
@@ -798,9 +798,6 @@ b
 =
 (
 bool
-)
-(
-uint8_t
 )
 gprData
 [
@@ -955,7 +952,7 @@ mOuter
 CallMethod
 (
 (
-uint16_t
+PRUint16
 )
 methodIndex
 info

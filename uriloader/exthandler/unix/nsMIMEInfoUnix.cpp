@@ -205,7 +205,7 @@ mSchemeOrType
 get
 (
 )
-nullptr
+nsnull
 )
 ;
 if
@@ -213,7 +213,7 @@ if
 action
 )
 {
-nsAutoCString
+nsCAutoString
 spec
 ;
 aURI
@@ -234,7 +234,7 @@ get
 (
 )
 action
-nullptr
+nsnull
 )
 )
 rv
@@ -261,7 +261,7 @@ rv
 )
 )
 {
-nsAutoCString
+nsCAutoString
 spec
 ;
 aURI
@@ -316,7 +316,7 @@ _retval
 *
 _retval
 =
-false
+PR_FALSE
 ;
 nsRefPtr
 <
@@ -338,7 +338,7 @@ if
 mimeInfo
 )
 {
-nsAutoCString
+nsCAutoString
 ext
 ;
 nsresult
@@ -376,7 +376,7 @@ mimeInfo
 *
 _retval
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -411,7 +411,7 @@ mSchemeOrType
 get
 (
 )
-nullptr
+nsnull
 )
 ;
 if
@@ -422,7 +422,7 @@ action
 *
 _retval
 =
-true
+PR_TRUE
 ;
 hildon_uri_action_unref
 (
@@ -480,7 +480,7 @@ isValid
 *
 _retval
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -509,7 +509,7 @@ nsIFile
 aFile
 )
 {
-nsAutoCString
+nsCAutoString
 nativePath
 ;
 aFile
@@ -643,7 +643,7 @@ do_GetService
 NS_GIOSERVICE_CONTRACTID
 )
 ;
-nsAutoCString
+nsCAutoString
 uriSpec
 ;
 if
@@ -821,7 +821,7 @@ if
 mimeInfo
 )
 {
-nsAutoCString
+nsCAutoString
 type
 ;
 mimeInfo
@@ -959,12 +959,12 @@ aFilePath
 )
 {
 const
-int32_t
+PRInt32
 kHILDON_SUCCESS
 =
 1
 ;
-int32_t
+PRInt32
 result
 =
 0
@@ -1010,7 +1010,7 @@ NS_ERROR_FAILURE
 }
 if
 (
-nullptr
+nsnull
 =
 =
 connection
@@ -1080,7 +1080,7 @@ action
 hildon_uri_get_default_action
 (
 aProtocolScheme
-nullptr
+nsnull
 )
 ;
 if
@@ -1090,7 +1090,7 @@ action
 {
 isEnabled
 =
-true
+PR_TRUE
 ;
 hildon_uri_action_unref
 (
@@ -1146,7 +1146,7 @@ mSchemeOrType
 get
 (
 )
-nullptr
+nsnull
 )
 ;
 GSList
@@ -1387,7 +1387,7 @@ mPossibleApplications
 AppendElement
 (
 app
-false
+PR_FALSE
 )
 ;
 }
@@ -1542,7 +1542,7 @@ mPossibleApplications
 AppendElement
 (
 app
-false
+PR_FALSE
 )
 ;
 }

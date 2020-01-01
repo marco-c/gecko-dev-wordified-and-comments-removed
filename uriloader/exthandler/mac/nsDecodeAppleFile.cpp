@@ -70,7 +70,7 @@ MAX_BUFFERSIZE
 ;
 m_entries
 =
-nullptr
+nsnull
 ;
 m_rfRefNum
 =
@@ -87,7 +87,7 @@ m_totalResourceForkWritten
 ;
 m_headerOk
 =
-false
+PR_FALSE
 ;
 m_comment
 [
@@ -224,7 +224,7 @@ Close
 (
 )
 ;
-int32_t
+PRInt32
 i
 ;
 if
@@ -726,9 +726,9 @@ WriteFrom
 nsIInputStream
 *
 inStr
-uint32_t
+PRUint32
 count
-uint32_t
+PRUint32
 *
 _retval
 )
@@ -756,9 +756,9 @@ reader
 void
 *
 closure
-uint32_t
+PRUint32
 count
-uint32_t
+PRUint32
 *
 _retval
 )
@@ -807,9 +807,9 @@ const
 char
 *
 buffer
-uint32_t
+PRUint32
 bufferSize
-uint32_t
+PRUint32
 *
 writeCount
 )
@@ -821,10 +821,10 @@ buffPtr
 =
 buffer
 ;
-uint32_t
+PRUint32
 dataCount
 ;
-int32_t
+PRInt32
 i
 ;
 nsresult
@@ -1038,7 +1038,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-uint32_t
+PRUint32
 entriesSize
 =
 sizeof
@@ -1140,7 +1140,7 @@ magic
 APPLEDOUBLE_MAGIC
 )
 {
-uint32_t
+PRUint32
 offset
 =
 m_entries
@@ -1171,7 +1171,7 @@ offset
 }
 m_headerOk
 =
-true
+PR_TRUE
 ;
 m_state
 =
@@ -1577,7 +1577,7 @@ if
 m_output
 )
 {
-uint32_t
+PRUint32
 writeCount
 ;
 rv
@@ -1714,7 +1714,7 @@ if
 m_output
 )
 {
-uint32_t
+PRUint32
 writeCount
 ;
 rv

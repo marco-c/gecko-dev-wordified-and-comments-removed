@@ -33,10 +33,10 @@ nsISupports
 *
 targetElement
 ;
-uint32_t
+PRUint32
 startIndex
 ;
-uint32_t
+PRUint32
 resultIndex
 ;
 }
@@ -149,7 +149,7 @@ nsArray
 :
 GetLength
 (
-uint32_t
+PRUint32
 *
 aLength
 )
@@ -173,7 +173,7 @@ nsArray
 :
 QueryElementAt
 (
-uint32_t
+PRUint32
 aIndex
 const
 nsIID
@@ -221,12 +221,12 @@ nsArray
 :
 IndexOf
 (
-uint32_t
+PRUint32
 aStartIndex
 nsISupports
 *
 aElement
-uint32_t
+PRUint32
 *
 aResult
 )
@@ -239,7 +239,7 @@ aStartIndex
 0
 )
 {
-uint32_t
+PRUint32
 idx
 =
 mArray
@@ -443,7 +443,7 @@ nsArray
 :
 RemoveElementAt
 (
-uint32_t
+PRUint32
 aIndex
 )
 {
@@ -474,7 +474,7 @@ InsertElementAt
 nsISupports
 *
 aElement
-uint32_t
+PRUint32
 aIndex
 bool
 aWeak
@@ -575,7 +575,7 @@ ReplaceElementAt
 nsISupports
 *
 aElement
-uint32_t
+PRUint32
 aIndex
 bool
 aWeak
@@ -746,7 +746,7 @@ targetElement
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 closure
@@ -757,7 +757,7 @@ resultIndex
 +
 ;
 return
-true
+PR_TRUE
 ;
 }
 nsresult

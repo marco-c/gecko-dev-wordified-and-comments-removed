@@ -43,7 +43,7 @@ h
 #
 include
 "
-nsIFile
+nsILocalFile
 .
 h
 "
@@ -450,7 +450,7 @@ s
 #
 endif
 return
-false
+PR_FALSE
 ;
 }
 static
@@ -629,14 +629,14 @@ public
 :
 AutoAppData
 (
-nsIFile
+nsILocalFile
 *
 aINIFile
 )
 :
 mAppData
 (
-nullptr
+nsnull
 )
 {
 nsresult
@@ -658,7 +658,7 @@ rv
 )
 mAppData
 =
-nullptr
+nsnull
 ;
 }
 ~
@@ -1096,7 +1096,7 @@ fileStat
 {
 found
 =
-true
+PR_TRUE
 ;
 lastSlash
 =
@@ -1337,7 +1337,7 @@ argc
 {
 Output
 (
-false
+PR_FALSE
 "
 specify
 APP
@@ -1426,7 +1426,7 @@ kAppEnv
 )
 Output
 (
-false
+PR_FALSE
 "
 Couldn
 '
@@ -1473,7 +1473,7 @@ result
 {
 Output
 (
-true
+PR_TRUE
 "
 Invalid
 application
@@ -1613,7 +1613,7 @@ appBundle
 CFURLRef
 absfwurl
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -1650,10 +1650,10 @@ CFSTR
 "
 XUL
 .
-framework
+Framework
 "
 )
-true
+PR_TRUE
 )
 ;
 if
@@ -1676,7 +1676,7 @@ libxpcom
 dylib
 "
 )
-false
+PR_FALSE
 )
 ;
 if
@@ -1695,7 +1695,7 @@ if
 CFURLGetFileSystemRepresentation
 (
 xpcomurl
-true
+PR_TRUE
 (
 UInt8
 *
@@ -1731,7 +1731,7 @@ greDir
 {
 greFound
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -1776,7 +1776,7 @@ greFound
 {
 Output
 (
-false
+PR_FALSE
 "
 Could
 not
@@ -1887,7 +1887,7 @@ applicationName
 ;
 Output
 (
-true
+PR_TRUE
 "
 Not
 enough
@@ -1909,7 +1909,7 @@ else
 {
 Output
 (
-true
+PR_TRUE
 "
 Couldn
 '
@@ -1969,8 +1969,8 @@ NSFuncPtr
 XRE_main
 }
 {
-nullptr
-nullptr
+nsnull
+nsnull
 }
 }
 ;
@@ -1991,7 +1991,7 @@ rv
 {
 Output
 (
-true
+PR_TRUE
 "
 Couldn
 '
@@ -2019,7 +2019,7 @@ retval
 {
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 iniFile
 ;
@@ -2034,7 +2034,7 @@ NS_ConvertUTF8toUTF16
 (
 iniPath
 )
-false
+PR_FALSE
 getter_AddRefs
 (
 iniFile
@@ -2051,7 +2051,7 @@ nsDependentCString
 (
 iniPath
 )
-false
+PR_FALSE
 getter_AddRefs
 (
 iniFile
@@ -2070,7 +2070,7 @@ rv
 {
 Output
 (
-true
+PR_TRUE
 "
 Couldn
 '
@@ -2104,7 +2104,7 @@ appData
 {
 Output
 (
-true
+PR_TRUE
 "
 Error
 :
@@ -2181,7 +2181,7 @@ NS_ConvertUTF8toUTF16
 (
 greDir
 )
-false
+PR_FALSE
 &
 appData
 -
@@ -2197,7 +2197,7 @@ nsDependentCString
 (
 greDir
 )
-false
+PR_FALSE
 &
 appData
 -
@@ -2215,7 +2215,6 @@ XRE_main
 argc
 argv
 appData
-0
 )
 ;
 }

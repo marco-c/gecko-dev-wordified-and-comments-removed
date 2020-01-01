@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsIFile
+nsILocalFile
 .
 h
 "
@@ -33,18 +33,8 @@ nsTArray
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsINIParserImpl
-MOZ_FINAL
 :
 public
 nsIINIParser
@@ -56,7 +46,7 @@ NS_DECL_NSIINIPARSER
 nsresult
 Init
 (
-nsIFile
+nsILocalFile
 *
 aINIFile
 )
@@ -89,7 +79,7 @@ nsINIParserFactory
 :
 CreateINIParser
 (
-nsIFile
+nsILocalFile
 *
 aINIFile
 nsIINIParser
@@ -101,7 +91,7 @@ aResult
 *
 aResult
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -246,7 +236,7 @@ aSection
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 NS_IMETHODIMP
@@ -370,7 +360,7 @@ aKey
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 NS_IMETHODIMP

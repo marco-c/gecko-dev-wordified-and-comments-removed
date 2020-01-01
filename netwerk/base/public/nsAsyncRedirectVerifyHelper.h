@@ -60,21 +60,11 @@ nsCycleCollectionParticipant
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 class
 nsIChannel
 ;
 class
 nsAsyncRedirectVerifyHelper
-MOZ_FINAL
 :
 public
 nsIRunnable
@@ -102,7 +92,7 @@ oldChannel
 nsIChannel
 *
 newChannel
-uint32_t
+PRUint32
 flags
 )
 ;
@@ -115,7 +105,7 @@ oldChan
 nsIChannel
 *
 newChan
-uint32_t
+PRUint32
 flags
 bool
 synchronize
@@ -137,7 +127,7 @@ nsIChannel
 >
 mNewChan
 ;
-uint32_t
+PRUint32
 mFlags
 ;
 bool
@@ -152,7 +142,7 @@ mCallbackThread
 bool
 mCallbackInitiated
 ;
-int32_t
+PRInt32
 mExpectedCallbacks
 ;
 nsresult
@@ -243,7 +233,7 @@ DontCallback
 {
 mCallback
 =
-nullptr
+nsnull
 ;
 }
 private

@@ -24,7 +24,7 @@ sqlite3_T_null
 aObj
 )
 ;
-uint16_t
+PRUint16
 type
 ;
 (
@@ -75,7 +75,7 @@ nsIDataType
 VTYPE_UINT16
 :
 {
-int32_t
+PRInt32
 value
 ;
 nsresult
@@ -123,7 +123,7 @@ nsIDataType
 VTYPE_UINT64
 :
 {
-int64_t
+PRInt64
 value
 ;
 nsresult
@@ -265,7 +265,7 @@ nsIDataType
 VTYPE_CSTRING
 :
 {
-nsAutoCString
+nsCAutoString
 value
 ;
 nsresult
@@ -383,13 +383,13 @@ nsIDataType
 VTYPE_ARRAY
 :
 {
-uint16_t
+PRUint16
 type
 ;
 nsIID
 iid
 ;
-uint32_t
+PRUint32
 count
 ;
 void

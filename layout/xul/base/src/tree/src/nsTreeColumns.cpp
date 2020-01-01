@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsTreeColumns
 .
 h
@@ -50,7 +57,7 @@ h
 #
 include
 "
-nsDOMClassInfoID
+nsIDOMClassInfo
 .
 h
 "
@@ -98,7 +105,7 @@ aColumns
 )
 mPrevious
 (
-nullptr
+nsnull
 )
 {
 NS_ASSERTION
@@ -161,7 +168,7 @@ mNext
 >
 SetPrevious
 (
-nullptr
+nsnull
 )
 ;
 }
@@ -194,7 +201,7 @@ mNext
 >
 SetPrevious
 (
-nullptr
+nsnull
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
@@ -285,7 +292,7 @@ GetFrame
 NS_ENSURE_TRUE
 (
 mContent
-nullptr
+nsnull
 )
 ;
 return
@@ -330,7 +337,7 @@ IsCycler
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -349,7 +356,7 @@ width
 0
 )
 return
-false
+PR_FALSE
 ;
 for
 (
@@ -401,11 +408,11 @@ width
 0
 )
 return
-false
+PR_FALSE
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 nsresult
@@ -679,7 +686,7 @@ aElement
 *
 aElement
 =
-nullptr
+nsnull
 ;
 return
 NS_ERROR_FAILURE
@@ -715,7 +722,7 @@ nsTreeColumn
 :
 GetX
 (
-int32_t
+PRInt32
 *
 aX
 )
@@ -762,7 +769,7 @@ nsTreeColumn
 :
 GetWidth
 (
-int32_t
+PRInt32
 *
 aWidth
 )
@@ -882,7 +889,7 @@ nsTreeColumn
 :
 GetIndex
 (
-int32_t
+PRInt32
 *
 aIndex
 )
@@ -992,7 +999,7 @@ nsTreeColumn
 :
 GetType
 (
-int16_t
+PRInt16
 *
 aType
 )
@@ -1338,7 +1345,7 @@ nsGkAtoms
 :
 :
 progressmeter
-nullptr
+nsnull
 }
 ;
 switch
@@ -1412,7 +1419,7 @@ nsGkAtoms
 :
 :
 start
-nullptr
+nsnull
 }
 ;
 switch
@@ -1474,7 +1481,7 @@ aTree
 )
 mFirstColumn
 (
-nullptr
+nsnull
 )
 {
 }
@@ -1554,7 +1561,7 @@ nsTreeColumns
 :
 GetCount
 (
-int32_t
+PRInt32
 *
 _retval
 )
@@ -1606,7 +1613,7 @@ nsTreeColumns
 :
 GetLength
 (
-int32_t
+PRInt32
 *
 _retval
 )
@@ -1663,7 +1670,7 @@ EnsureColumns
 *
 _retval
 =
-nullptr
+nsnull
 ;
 nsTreeColumn
 *
@@ -1758,7 +1765,7 @@ EnsureColumns
 *
 _retval
 =
-nullptr
+nsnull
 ;
 for
 (
@@ -1841,7 +1848,7 @@ EnsureColumns
 *
 _retval
 =
-nullptr
+nsnull
 ;
 nsTreeColumn
 *
@@ -1861,7 +1868,7 @@ primary
 =
 sorted
 =
-nullptr
+nsnull
 ;
 for
 (
@@ -2042,7 +2049,7 @@ EnsureColumns
 *
 _retval
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -2160,7 +2167,7 @@ currCol
 }
 }
 return
-nullptr
+nsnull
 ;
 }
 NS_IMETHODIMP
@@ -2201,7 +2208,7 @@ nsTreeColumns
 :
 GetColumnAt
 (
-int32_t
+PRInt32
 aIndex
 )
 {
@@ -2248,7 +2255,7 @@ currCol
 }
 }
 return
-nullptr
+nsnull
 ;
 }
 NS_IMETHODIMP
@@ -2257,7 +2264,7 @@ nsTreeColumns
 :
 GetColumnAt
 (
-int32_t
+PRInt32
 aIndex
 nsITreeColumn
 *
@@ -2313,7 +2320,7 @@ currCol
 >
 SetColumns
 (
-nullptr
+nsnull
 )
 ;
 }
@@ -2407,7 +2414,7 @@ colsContent
 return
 NS_OK
 ;
-uint32_t
+PRUint32
 numChildren
 =
 colsContent
@@ -2419,7 +2426,7 @@ GetChildCount
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -2466,7 +2473,7 @@ nsGkAtoms
 :
 ordinal
 ordinal
-true
+PR_TRUE
 )
 ;
 }
@@ -2537,7 +2544,7 @@ currCol
 }
 }
 return
-nullptr
+nsnull
 ;
 }
 void
@@ -2696,7 +2703,7 @@ nsTreeColumn
 *
 currCol
 =
-nullptr
+nsnull
 ;
 while
 (

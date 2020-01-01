@@ -216,7 +216,7 @@ GetDllLaunchInfo
 nsIFile
 *
 aDll
-nsIFile
+nsILocalFile
 *
 aFile
 nsAString

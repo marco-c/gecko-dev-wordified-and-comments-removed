@@ -155,7 +155,7 @@ mSVGElement
 >
 SetAnimateMotionTransform
 (
-nullptr
+nsnull
 )
 ;
 }

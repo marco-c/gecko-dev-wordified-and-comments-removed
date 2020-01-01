@@ -332,9 +332,6 @@ GetBounds
 nsDisplayListBuilder
 *
 aBuilder
-bool
-*
-aSnap
 )
 ;
 NS_DISPLAY_DECL_NAME
@@ -361,21 +358,13 @@ GetBounds
 nsDisplayListBuilder
 *
 aBuilder
-bool
-*
-aSnap
 )
 {
-*
-aSnap
-=
-false
-;
 return
 mFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+GetVisualOverflowRect
 (
 )
 +
@@ -1007,7 +996,7 @@ const
 nsRect
 &
 aRect
-uint32_t
+PRUint32
 aBGFlags
 )
 {
@@ -1218,7 +1207,7 @@ GetStyleBorder
 )
 -
 >
-GetComputedBorder
+GetActualBorder
 (
 )
 ;
@@ -1363,7 +1352,7 @@ GetStyleBorder
 )
 -
 >
-GetComputedBorder
+GetActualBorder
 (
 )
 ;
@@ -1485,7 +1474,7 @@ nsButtonFrameRenderer
 :
 GetStyleContext
 (
-int32_t
+PRInt32
 aIndex
 )
 const
@@ -1510,7 +1499,7 @@ mOuterFocusStyle
 default
 :
 return
-nullptr
+nsnull
 ;
 }
 }
@@ -1520,7 +1509,7 @@ nsButtonFrameRenderer
 :
 SetStyleContext
 (
-int32_t
+PRInt32
 aIndex
 nsStyleContext
 *

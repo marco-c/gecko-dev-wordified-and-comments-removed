@@ -60,7 +60,7 @@ offset
 nsIntRect
 *
 clipRects
-uint32_t
+PRUint32
 numClipRects
 )
 =
@@ -113,7 +113,7 @@ gfxContext
 ctx
 nsIntSize
 size
-uint32_t
+PRUint32
 flags
 Screen
 *

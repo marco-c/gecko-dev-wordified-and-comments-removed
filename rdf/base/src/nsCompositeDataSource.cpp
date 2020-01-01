@@ -117,7 +117,7 @@ h
 "
 #
 ifdef
-DEBUG
+NS_DEBUG
 #
 include
 "
@@ -143,7 +143,7 @@ PRLogModuleInfo
 *
 nsRDFLog
 =
-nullptr
+nsnull
 ;
 #
 endif
@@ -233,7 +233,7 @@ mAllowNegativeAssertions
 bool
 mCoalesceDuplicateArcs
 ;
-int32_t
+PRInt32
 mUpdateBatchNest
 ;
 nsFixedSizeAllocator
@@ -339,7 +339,7 @@ nsIRDFNode
 *
 mResult
 ;
-int32_t
+PRInt32
 mNext
 ;
 nsAutoTArray
@@ -380,11 +380,11 @@ aCompositeDataSource
 )
 mCurrent
 (
-nullptr
+nsnull
 )
 mResult
 (
-nullptr
+nsnull
 )
 mNext
 (
@@ -462,7 +462,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -488,7 +488,7 @@ mResult
 *
 aResult
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -564,7 +564,7 @@ NS_ASSERTION
 mCurrent
 !
 =
-nullptr
+nsnull
 "
 you
 '
@@ -592,7 +592,7 @@ continue
 }
 do
 {
-int32_t
+PRInt32
 i
 ;
 bool
@@ -818,7 +818,7 @@ mResult
 {
 alreadyReturned
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -841,7 +841,7 @@ continue
 *
 aResult
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -869,7 +869,7 @@ while
 *
 aResult
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -926,7 +926,7 @@ mResult
 ;
 mResult
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -1001,7 +1001,7 @@ aAllowNegativeAssertions
 aCoalesceDuplicateArcs
 )
 :
-nullptr
+nsnull
 ;
 }
 virtual
@@ -1071,6 +1071,12 @@ mNode
 Type
 mType
 ;
+bool
+mAllowNegativeAssertions
+;
+bool
+mCoalesceDuplicateArcs
+;
 static
 void
 *
@@ -1130,6 +1136,14 @@ aNode
 mType
 (
 aType
+)
+mAllowNegativeAssertions
+(
+aAllowNegativeAssertions
+)
+mCoalesceDuplicateArcs
+(
+aCoalesceDuplicateArcs
 )
 {
 NS_ADDREF
@@ -1232,7 +1246,7 @@ aResult
 *
 aResult
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -1354,7 +1368,7 @@ aAllowNegativeAssertions
 aCoalesceDuplicateArcs
 )
 :
-nullptr
+nsnull
 ;
 }
 virtual
@@ -1438,6 +1452,12 @@ mTarget
 bool
 mTruthValue
 ;
+bool
+mAllowNegativeAssertions
+;
+bool
+mCoalesceDuplicateArcs
+;
 static
 void
 *
@@ -1511,6 +1531,14 @@ aTarget
 mTruthValue
 (
 aTruthValue
+)
+mAllowNegativeAssertions
+(
+aAllowNegativeAssertions
+)
+mCoalesceDuplicateArcs
+(
+aCoalesceDuplicateArcs
 )
 {
 NS_IF_ADDREF
@@ -1766,11 +1794,11 @@ void
 :
 mAllowNegativeAssertions
 (
-true
+PR_TRUE
 )
 mCoalesceDuplicateArcs
 (
-true
+PR_TRUE
 )
 mUpdateBatchNest
 (
@@ -1797,7 +1825,7 @@ CompositeArcsInOutEnumeratorImpl
 ;
 static
 const
-int32_t
+PRInt32
 kNumBuckets
 =
 sizeof
@@ -1812,7 +1840,7 @@ size_t
 ;
 static
 const
-int32_t
+PRInt32
 kInitialSize
 =
 256
@@ -1837,7 +1865,7 @@ if
 nsRDFLog
 =
 =
-nullptr
+nsnull
 )
 nsRDFLog
 =
@@ -1859,7 +1887,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 CompositeDataSourceImpl
 )
-uint32_t
+PRUint32
 i
 count
 =
@@ -1984,7 +2012,7 @@ uri
 *
 uri
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -2024,7 +2052,7 @@ return
 NS_RDF_NO_VALUE
 )
 ;
-int32_t
+PRInt32
 count
 =
 mDataSources
@@ -2035,7 +2063,7 @@ Count
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -2155,7 +2183,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -2175,7 +2203,7 @@ NS_PRECONDITION
 aTarget
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -2195,7 +2223,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -2234,7 +2262,7 @@ Create
 (
 mAllocator
 this
-nullptr
+nsnull
 aProperty
 aTarget
 aTruthValue
@@ -2286,7 +2314,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -2306,7 +2334,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -2326,7 +2354,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -2355,7 +2383,7 @@ return
 NS_RDF_NO_VALUE
 )
 ;
-int32_t
+PRInt32
 count
 =
 mDataSources
@@ -2366,7 +2394,7 @@ Count
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -2484,7 +2512,7 @@ rv
 ;
 for
 (
-int32_t
+PRInt32
 m
 =
 0
@@ -2527,18 +2555,18 @@ rv
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
 result
 )
 return
-true
+PR_TRUE
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 NS_IMETHODIMP
@@ -2566,7 +2594,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -2586,7 +2614,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -2606,7 +2634,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -2647,7 +2675,7 @@ mAllocator
 this
 aSource
 aProperty
-nullptr
+nsnull
 aTruthValue
 mAllowNegativeAssertions
 mCoalesceDuplicateArcs
@@ -2696,7 +2724,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -2716,7 +2744,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -2736,7 +2764,7 @@ NS_PRECONDITION
 aTarget
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -2770,7 +2798,7 @@ rv
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 mDataSources
@@ -2854,7 +2882,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -2874,7 +2902,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -2894,7 +2922,7 @@ NS_PRECONDITION
 aTarget
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -2917,10 +2945,10 @@ unasserted
 =
 true
 ;
-int32_t
+PRInt32
 i
 ;
-int32_t
+PRInt32
 count
 =
 mDataSources
@@ -2966,7 +2994,7 @@ HasAssertion
 aSource
 aProperty
 aTarget
-true
+PR_TRUE
 &
 hasAssertion
 )
@@ -3018,7 +3046,7 @@ NS_RDF_ASSERTION_ACCEPTED
 {
 unasserted
 =
-false
+PR_FALSE
 ;
 break
 ;
@@ -3060,7 +3088,7 @@ Assert
 aSource
 aProperty
 aTarget
-false
+PR_FALSE
 )
 ;
 if
@@ -3113,7 +3141,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -3133,7 +3161,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -3153,7 +3181,7 @@ NS_PRECONDITION
 aOldTarget
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -3173,7 +3201,7 @@ NS_PRECONDITION
 aNewTarget
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -3193,7 +3221,7 @@ rv
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 mDataSources
@@ -3280,7 +3308,7 @@ NS_PRECONDITION
 aOldSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -3300,7 +3328,7 @@ NS_PRECONDITION
 aNewSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -3320,7 +3348,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -3340,7 +3368,7 @@ NS_PRECONDITION
 aTarget
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -3360,7 +3388,7 @@ rv
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 mDataSources
@@ -3449,7 +3477,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -3469,7 +3497,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -3489,7 +3517,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -3517,7 +3545,7 @@ aTruthValue
 *
 aResult
 =
-false
+PR_FALSE
 ;
 return
 (
@@ -3528,7 +3556,7 @@ NS_OK
 nsresult
 rv
 ;
-int32_t
+PRInt32
 count
 =
 mDataSources
@@ -3539,7 +3567,7 @@ Count
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -3636,7 +3664,7 @@ hasNegation
 *
 aResult
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -3647,7 +3675,7 @@ NS_OK
 *
 aResult
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -3669,7 +3697,7 @@ NS_PRECONDITION
 aObserver
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -3711,7 +3739,7 @@ NS_PRECONDITION
 aObserver
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -3760,9 +3788,9 @@ rv
 *
 result
 =
-false
+PR_FALSE
 ;
-int32_t
+PRInt32
 count
 =
 mDataSources
@@ -3773,7 +3801,7 @@ Count
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -3848,9 +3876,9 @@ rv
 *
 result
 =
-false
+PR_FALSE
 ;
-int32_t
+PRInt32
 count
 =
 mDataSources
@@ -3861,7 +3889,7 @@ Count
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -3933,7 +3961,7 @@ NS_PRECONDITION
 aTarget
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -3953,7 +3981,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -4030,7 +4058,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -4050,7 +4078,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -4181,7 +4209,7 @@ rv
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 0
@@ -4337,7 +4365,7 @@ rv
 ;
 for
 (
-int32_t
+PRInt32
 i
 =
 mDataSources
@@ -4411,7 +4439,7 @@ enabled
 *
 aResult
 =
-false
+PR_FALSE
 ;
 return
 (
@@ -4423,7 +4451,7 @@ NS_OK
 *
 aResult
 =
-true
+PR_TRUE
 ;
 return
 (
@@ -4450,7 +4478,7 @@ aArguments
 {
 for
 (
-int32_t
+PRInt32
 i
 =
 mDataSources
@@ -4526,7 +4554,7 @@ BeginUpdateBatch
 {
 for
 (
-int32_t
+PRInt32
 i
 =
 mDataSources
@@ -4572,7 +4600,7 @@ EndUpdateBatch
 {
 for
 (
-int32_t
+PRInt32
 i
 =
 mDataSources
@@ -4708,7 +4736,7 @@ NS_ASSERTION
 aDataSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -4758,7 +4786,7 @@ NS_ASSERTION
 aDataSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -4866,7 +4894,7 @@ HasAssertion
 aSource
 aProperty
 aTarget
-true
+PR_TRUE
 &
 hasAssertion
 )
@@ -4894,7 +4922,7 @@ NS_OK
 }
 for
 (
-int32_t
+PRInt32
 i
 =
 mObservers
@@ -4972,7 +5000,7 @@ HasAssertion
 aSource
 aProperty
 aTarget
-true
+PR_TRUE
 &
 hasAssertion
 )
@@ -4997,7 +5025,7 @@ NS_OK
 }
 for
 (
-int32_t
+PRInt32
 i
 =
 mObservers
@@ -5062,7 +5090,7 @@ aNewTarget
 {
 for
 (
-int32_t
+PRInt32
 i
 =
 mObservers
@@ -5128,7 +5156,7 @@ aTarget
 {
 for
 (
-int32_t
+PRInt32
 i
 =
 mObservers
@@ -5192,7 +5220,7 @@ mUpdateBatchNest
 {
 for
 (
-int32_t
+PRInt32
 i
 =
 mObservers
@@ -5266,7 +5294,7 @@ mUpdateBatchNest
 {
 for
 (
-int32_t
+PRInt32
 i
 =
 mObservers

@@ -41,7 +41,7 @@ result
 *
 result
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -73,7 +73,7 @@ result
 *
 result
 =
-true
+PR_TRUE
 ;
 return
 NS_OK

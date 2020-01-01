@@ -74,10 +74,10 @@ nsXPTMethodInfo
 *
 info
 ;
-uint8_t
+PRUint8
 paramCount
 ;
-uint8_t
+PRUint8
 i
 ;
 nsresult
@@ -102,7 +102,7 @@ mEntry
 >
 GetMethodInfo
 (
-uint16_t
+PRUint16
 (
 methodIndex
 )
@@ -159,7 +159,7 @@ params
 "
 )
 ;
-uint32_t
+PRUint32
 *
 ap
 =
@@ -272,7 +272,7 @@ i8
 *
 (
 (
-int32_t
+PRInt32
 *
 )
 ap
@@ -296,7 +296,7 @@ i16
 *
 (
 (
-int32_t
+PRInt32
 *
 )
 ap
@@ -320,7 +320,7 @@ i32
 *
 (
 (
-int32_t
+PRInt32
 *
 )
 ap
@@ -412,7 +412,7 @@ u8
 *
 (
 (
-uint32_t
+PRUint32
 *
 )
 ap
@@ -436,7 +436,7 @@ u16
 *
 (
 (
-uint32_t
+PRUint32
 *
 )
 ap
@@ -460,7 +460,7 @@ u32
 *
 (
 (
-uint32_t
+PRUint32
 *
 )
 ap
@@ -508,7 +508,7 @@ b
 *
 (
 (
-uint32_t
+bool
 *
 )
 ap
@@ -532,7 +532,7 @@ c
 *
 (
 (
-uint32_t
+PRUint32
 *
 )
 ap
@@ -556,7 +556,7 @@ wc
 *
 (
 (
-int32_t
+PRInt32
 *
 )
 ap
@@ -589,7 +589,7 @@ mOuter
 CallMethod
 (
 (
-uint16_t
+PRUint16
 )
 methodIndex
 info

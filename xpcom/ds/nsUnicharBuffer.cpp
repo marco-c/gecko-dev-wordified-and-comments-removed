@@ -75,7 +75,7 @@ if
 it
 =
 =
-nullptr
+nsnull
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -112,7 +112,7 @@ UnicharBufferImpl
 :
 Init
 (
-uint32_t
+PRUint32
 aBufferSize
 )
 {
@@ -167,7 +167,7 @@ UnicharBufferImpl
 {
 if
 (
-nullptr
+nsnull
 !
 =
 mBuffer
@@ -180,7 +180,7 @@ mBuffer
 ;
 mBuffer
 =
-nullptr
+nsnull
 ;
 }
 mLength
@@ -190,7 +190,7 @@ mLength
 }
 NS_IMETHODIMP_
 (
-int32_t
+PRInt32
 )
 UnicharBufferImpl
 :
@@ -206,7 +206,7 @@ mLength
 }
 NS_IMETHODIMP_
 (
-int32_t
+PRInt32
 )
 UnicharBufferImpl
 :
@@ -246,13 +246,13 @@ UnicharBufferImpl
 :
 Grow
 (
-int32_t
+PRInt32
 aNewSize
 )
 {
 if
 (
-uint32_t
+PRUint32
 (
 aNewSize
 )
@@ -277,7 +277,7 @@ aNewSize
 ;
 if
 (
-nullptr
+nsnull
 !
 =
 newbuf
@@ -314,11 +314,11 @@ mBuffer
 newbuf
 ;
 return
-true
+PR_TRUE
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 nsresult
@@ -331,7 +331,7 @@ aInstancePtrResult
 nsISupports
 *
 aOuter
-uint32_t
+PRUint32
 aBufferSize
 )
 {

@@ -61,7 +61,7 @@ mEventID
 )
 mSucceeded
 (
-false
+PR_FALSE
 )
 {
 }
@@ -80,7 +80,7 @@ nsQueryContentEventResult
 :
 GetOffset
 (
-uint32_t
+PRUint32
 *
 aOffset
 )
@@ -123,7 +123,7 @@ static
 bool
 IsRectEnabled
 (
-uint32_t
+PRUint32
 aEventID
 )
 {
@@ -193,7 +193,7 @@ nsQueryContentEventResult
 :
 GetLeft
 (
-int32_t
+PRInt32
 *
 aLeft
 )
@@ -230,7 +230,7 @@ nsQueryContentEventResult
 :
 GetWidth
 (
-int32_t
+PRInt32
 *
 aWidth
 )
@@ -267,7 +267,7 @@ nsQueryContentEventResult
 :
 GetTop
 (
-int32_t
+PRInt32
 *
 aTop
 )
@@ -304,7 +304,7 @@ nsQueryContentEventResult
 :
 GetHeight
 (
-int32_t
+PRInt32
 *
 aHeight
 )

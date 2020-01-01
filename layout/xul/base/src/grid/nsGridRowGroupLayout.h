@@ -43,7 +43,7 @@ virtual
 nsSize
 GetMinSize
 (
-nsIFrame
+nsIBox
 *
 aBox
 nsBoxLayoutState
@@ -55,7 +55,7 @@ virtual
 nsSize
 GetPrefSize
 (
-nsIFrame
+nsIBox
 *
 aBox
 nsBoxLayoutState
@@ -67,7 +67,7 @@ virtual
 nsSize
 GetMaxSize
 (
-nsIFrame
+nsIBox
 *
 aBox
 nsBoxLayoutState
@@ -79,13 +79,13 @@ virtual
 void
 CountRowsColumns
 (
-nsIFrame
+nsIBox
 *
 aBox
-int32_t
+PRInt32
 &
 aRowCount
-int32_t
+PRInt32
 &
 aComputedColumnCount
 )
@@ -94,7 +94,7 @@ virtual
 void
 DirtyRows
 (
-nsIFrame
+nsIBox
 *
 aBox
 nsBoxLayoutState
@@ -103,10 +103,10 @@ aState
 )
 ;
 virtual
-int32_t
+PRInt32
 BuildRows
 (
-nsIFrame
+nsIBox
 *
 aBox
 nsGridRow
@@ -118,7 +118,7 @@ virtual
 nsMargin
 GetTotalMargin
 (
-nsIFrame
+nsIBox
 *
 aBox
 bool
@@ -126,7 +126,7 @@ aIsHorizontal
 )
 ;
 virtual
-int32_t
+PRInt32
 GetRowCount
 (
 )
@@ -161,7 +161,7 @@ virtual
 void
 ChildAddedOrRemoved
 (
-nsIFrame
+nsIBox
 *
 aBox
 nsBoxLayoutState
@@ -188,7 +188,7 @@ nsGridRow
 *
 mRowColumn
 ;
-int32_t
+PRInt32
 mRowCount
 ;
 }

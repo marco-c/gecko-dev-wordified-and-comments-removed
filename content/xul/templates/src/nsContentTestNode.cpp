@@ -86,7 +86,7 @@ aRefVariable
 :
 TestNode
 (
-nullptr
+nsnull
 )
 mProcessor
 (
@@ -94,7 +94,7 @@ aProcessor
 )
 mDocument
 (
-nullptr
+nsnull
 )
 mRefVariable
 (
@@ -102,7 +102,7 @@ aRefVariable
 )
 mTag
 (
-nullptr
+nsnull
 )
 {
 #
@@ -236,7 +236,7 @@ aCantHandleYet
 *
 aCantHandleYet
 =
-false
+PR_FALSE
 ;
 return
 NS_OK

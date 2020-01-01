@@ -26,17 +26,6 @@ nsXULContextMenuBuilder
 .
 h
 "
-using
-namespace
-mozilla
-;
-using
-namespace
-mozilla
-:
-:
-dom
-;
 nsXULContextMenuBuilder
 :
 :
@@ -181,7 +170,7 @@ nsGkAtoms
 :
 :
 menu
-nullptr
+nsnull
 getter_AddRefs
 (
 menu
@@ -205,7 +194,7 @@ nsGkAtoms
 :
 label
 aLabel
-false
+PR_FALSE
 )
 ;
 nsCOMPtr
@@ -222,7 +211,7 @@ nsGkAtoms
 :
 :
 menupopup
-nullptr
+nsnull
 getter_AddRefs
 (
 menuPopup
@@ -243,7 +232,7 @@ menu
 AppendChildTo
 (
 menuPopup
-false
+PR_FALSE
 )
 ;
 NS_ENSURE_SUCCESS
@@ -260,7 +249,7 @@ mCurrentNode
 AppendChildTo
 (
 menu
-false
+PR_FALSE
 )
 ;
 NS_ENSURE_SUCCESS
@@ -378,7 +367,7 @@ NS_LITERAL_STRING
 checkbox
 "
 )
-false
+PR_FALSE
 )
 ;
 bool
@@ -414,7 +403,7 @@ NS_LITERAL_STRING
 true
 "
 )
-false
+PR_FALSE
 )
 ;
 }
@@ -441,7 +430,7 @@ nsGkAtoms
 :
 label
 label
-false
+PR_FALSE
 )
 ;
 nsAutoString
@@ -483,7 +472,7 @@ menuitem
 iconic
 "
 )
-false
+PR_FALSE
 )
 ;
 if
@@ -502,7 +491,7 @@ nsGkAtoms
 :
 image
 icon
-false
+PR_FALSE
 )
 ;
 }
@@ -540,7 +529,7 @@ NS_LITERAL_STRING
 true
 "
 )
-false
+PR_FALSE
 )
 ;
 }
@@ -551,7 +540,7 @@ mCurrentNode
 AppendChildTo
 (
 menuitem
-false
+PR_FALSE
 )
 ;
 }
@@ -588,7 +577,7 @@ nsGkAtoms
 :
 :
 menuseparator
-nullptr
+nsnull
 getter_AddRefs
 (
 menuseparator
@@ -608,7 +597,7 @@ mCurrentNode
 AppendChildTo
 (
 menuseparator
-false
+PR_FALSE
 )
 ;
 }
@@ -630,7 +619,7 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
-uint32_t
+PRUint32
 count
 =
 mCurrentNode
@@ -672,6 +661,7 @@ return
 NS_OK
 ;
 }
+return
 mCurrentNode
 -
 >
@@ -680,11 +670,8 @@ RemoveChildAt
 count
 -
 1
-false
+PR_FALSE
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -715,7 +702,7 @@ mFragment
 {
 mCurrentNode
 =
-nullptr
+nsnull
 ;
 }
 else
@@ -804,10 +791,10 @@ nsAString
 aGeneratedItemId
 )
 {
-nsresult
+PRInt32
 rv
 ;
-int32_t
+PRInt32
 idx
 =
 nsString
@@ -881,7 +868,7 @@ aResult
 *
 aResult
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -900,7 +887,7 @@ NodeInfoManager
 GetNodeInfo
 (
 aTag
-nullptr
+nsnull
 kNameSpaceID_XUL
 nsIDOMNode
 :
@@ -920,11 +907,18 @@ rv
 NS_NewElement
 (
 aResult
+kNameSpaceID_XUL
 nodeInfo
 .
 forget
 (
 )
+mozilla
+:
+:
+dom
+:
+:
 NOT_FROM_PARSER
 )
 ;
@@ -976,7 +970,7 @@ SetAttr
 kNameSpaceID_None
 mGeneratedItemIdAttr
 generateditemid
-false
+PR_FALSE
 )
 ;
 return

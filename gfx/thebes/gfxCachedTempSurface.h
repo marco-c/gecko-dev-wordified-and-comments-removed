@@ -54,7 +54,7 @@ Expire
 {
 mSurface
 =
-nullptr
+nsnull
 ;
 }
 nsExpirationState

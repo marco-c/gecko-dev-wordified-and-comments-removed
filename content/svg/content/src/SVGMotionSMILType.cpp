@@ -352,7 +352,7 @@ mRotateAngle
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -639,7 +639,7 @@ mU
 .
 mPtr
 =
-nullptr
+nsnull
 ;
 aValue
 .
@@ -832,10 +832,10 @@ Length
 )
 {
 return
-false
+PR_FALSE
 ;
 }
-uint32_t
+PRUint32
 length
 =
 leftArr
@@ -846,7 +846,7 @@ Length
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0
@@ -875,12 +875,12 @@ i
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 }
 return
-true
+PR_TRUE
 ;
 }
 inline
@@ -969,7 +969,7 @@ const
 nsSMILValue
 &
 aValueToAdd
-uint32_t
+PRUint32
 aCount
 )
 const
@@ -2157,7 +2157,7 @@ aSMILVal
 gfxMatrix
 matrix
 ;
-uint32_t
+PRUint32
 length
 =
 arr
@@ -2168,7 +2168,7 @@ Length
 ;
 for
 (
-uint32_t
+PRUint32
 i
 =
 0

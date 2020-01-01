@@ -77,7 +77,7 @@ aName
 nsSelectionState
 *
 aSelState
-nsEditor
+nsIEditor
 *
 aEditor
 )

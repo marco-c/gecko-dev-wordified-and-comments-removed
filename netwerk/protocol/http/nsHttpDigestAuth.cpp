@@ -149,7 +149,7 @@ const
 char
 *
 buf
-uint32_t
+PRUint32
 len
 )
 {
@@ -249,7 +249,7 @@ rv
 return
 rv
 ;
-nsAutoCString
+nsCAutoString
 hashString
 ;
 rv
@@ -259,7 +259,7 @@ mVerifier
 >
 Finish
 (
-false
+PR_FALSE
 hashString
 )
 ;
@@ -328,7 +328,6 @@ path
 {
 nsresult
 rv
-rv2
 ;
 nsCOMPtr
 <
@@ -396,7 +395,7 @@ CONNECT
 "
 )
 ;
-int32_t
+PRInt32
 port
 ;
 rv
@@ -409,7 +408,8 @@ GetAsciiHost
 path
 )
 ;
-rv2
+rv
+|
 =
 uri
 -
@@ -425,12 +425,6 @@ if
 NS_SUCCEEDED
 (
 rv
-)
-&
-&
-NS_SUCCEEDED
-(
-rv2
 )
 )
 {
@@ -470,7 +464,8 @@ GetRequestMethod
 httpMethod
 )
 ;
-rv2
+rv
+|
 =
 uri
 -
@@ -486,15 +481,9 @@ NS_SUCCEEDED
 (
 rv
 )
-&
-&
-NS_SUCCEEDED
-(
-rv2
-)
 )
 {
-int32_t
+PRInt32
 ref
 =
 path
@@ -520,7 +509,7 @@ Truncate
 ref
 )
 ;
-nsAutoCString
+nsCAutoString
 buf
 ;
 path
@@ -568,7 +557,7 @@ bool
 result
 )
 {
-nsAutoCString
+nsCAutoString
 realm
 domain
 nonce
@@ -577,7 +566,7 @@ opaque
 bool
 stale
 ;
-uint16_t
+PRUint16
 algorithm
 qop
 ;
@@ -660,7 +649,7 @@ nsISupports
 *
 *
 continuationState
-uint32_t
+PRUint32
 *
 aFlags
 char
@@ -725,7 +714,7 @@ requireExtraQuotes
 false
 ;
 {
-nsAutoCString
+nsCAutoString
 serverVal
 ;
 authChannel
@@ -769,10 +758,10 @@ IIS
 nsresult
 rv
 ;
-nsAutoCString
+nsCAutoString
 httpMethod
 ;
-nsAutoCString
+nsCAutoString
 path
 ;
 rv
@@ -795,7 +784,7 @@ rv
 return
 rv
 ;
-nsAutoCString
+nsCAutoString
 realm
 domain
 nonce
@@ -804,7 +793,7 @@ opaque
 bool
 stale
 ;
-uint16_t
+PRUint16
 algorithm
 qop
 ;
@@ -930,7 +919,7 @@ if
 http_channel
 !
 =
-nullptr
+nsnull
 )
 {
 nsIInputStream
@@ -1076,7 +1065,7 @@ if
 v
 )
 {
-uint32_t
+PRUint32
 nc
 ;
 v
@@ -1166,7 +1155,7 @@ nonce_count
 )
 )
 ;
-nsAutoCString
+nsCAutoString
 cnonce
 ;
 static
@@ -1322,7 +1311,7 @@ rv
 return
 rv
 ;
-nsAutoCString
+nsCAutoString
 authString
 ;
 authString
@@ -1655,7 +1644,7 @@ nsHttpDigestAuth
 :
 GetAuthFlags
 (
-uint32_t
+PRUint32
 *
 flags
 )
@@ -1691,7 +1680,7 @@ const
 nsAFlatCString
 &
 nonce
-uint16_t
+PRUint16
 qop
 const
 char
@@ -1706,7 +1695,7 @@ char
 result
 )
 {
-uint32_t
+PRUint32
 len
 =
 2
@@ -1764,7 +1753,7 @@ len
 4
 ;
 }
-nsAutoCString
+nsCAutoString
 contents
 ;
 contents
@@ -1941,7 +1930,7 @@ char
 result
 )
 {
-int16_t
+PRInt16
 index
 value
 ;
@@ -2091,7 +2080,7 @@ const
 nsAFlatCString
 &
 realm
-uint16_t
+PRUint16
 algorithm
 const
 nsAFlatCString
@@ -2106,7 +2095,7 @@ char
 result
 )
 {
-int16_t
+PRInt16
 len
 =
 username
@@ -2136,7 +2125,7 @@ algorithm
 ALGO_MD5_SESS
 )
 {
-int16_t
+PRInt16
 exlen
 =
 EXPANDED_DIGEST_LENGTH
@@ -2166,7 +2155,7 @@ len
 exlen
 ;
 }
-nsAutoCString
+nsCAutoString
 contents
 ;
 contents
@@ -2356,7 +2345,7 @@ const
 nsAFlatCString
 &
 path
-uint16_t
+PRUint16
 qop
 const
 char
@@ -2367,7 +2356,7 @@ char
 result
 )
 {
-int16_t
+PRInt16
 methodLen
 =
 method
@@ -2376,7 +2365,7 @@ Length
 (
 )
 ;
-int16_t
+PRInt16
 pathLen
 =
 path
@@ -2385,7 +2374,7 @@ Length
 (
 )
 ;
-int16_t
+PRInt16
 len
 =
 methodLen
@@ -2409,7 +2398,7 @@ EXPANDED_DIGEST_LENGTH
 1
 ;
 }
-nsAutoCString
+nsCAutoString
 contents
 ;
 contents
@@ -2528,10 +2517,10 @@ opaque
 bool
 *
 stale
-uint16_t
+PRUint16
 *
 algorithm
-uint16_t
+PRUint16
 *
 qop
 )
@@ -2548,7 +2537,7 @@ challenge
 *
 stale
 =
-false
+PR_FALSE
 ;
 *
 algorithm
@@ -2603,7 +2592,7 @@ p
 )
 break
 ;
-int16_t
+PRInt16
 nameStart
 =
 (
@@ -2650,7 +2639,7 @@ p
 return
 NS_ERROR_INVALID_ARG
 ;
-int16_t
+PRInt16
 nameLength
 =
 (
@@ -2722,10 +2711,10 @@ p
 ;
 quoted
 =
-true
+PR_TRUE
 ;
 }
-int16_t
+PRInt16
 valueStart
 =
 (
@@ -2734,7 +2723,7 @@ p
 challenge
 )
 ;
-int16_t
+PRInt16
 valueLength
 =
 0
@@ -3031,13 +3020,13 @@ true
 *
 stale
 =
-true
+PR_TRUE
 ;
 else
 *
 stale
 =
-false
+PR_FALSE
 ;
 }
 else
@@ -3165,7 +3154,7 @@ qop
 0
 )
 {
-int16_t
+PRInt16
 ipos
 =
 valueStart
@@ -3215,7 +3204,7 @@ ipos
 +
 +
 ;
-int16_t
+PRInt16
 algostart
 =
 ipos
@@ -3350,7 +3339,7 @@ nsACString
 aHeaderLine
 )
 {
-nsAutoCString
+nsCAutoString
 quoted
 ;
 nsACString

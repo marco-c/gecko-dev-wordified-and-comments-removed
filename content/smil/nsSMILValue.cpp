@@ -190,7 +190,7 @@ aVal
 this
 )
 return
-true
+PR_TRUE
 ;
 return
 mType
@@ -281,7 +281,7 @@ const
 nsSMILValue
 &
 aValueToAdd
-uint32_t
+PRUint32
 aCount
 )
 {

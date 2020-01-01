@@ -67,7 +67,7 @@ nsViewSourceHandler
 :
 GetDefaultPort
 (
-int32_t
+PRInt32
 *
 result
 )
@@ -88,7 +88,7 @@ nsViewSourceHandler
 :
 GetProtocolFlags
 (
-uint32_t
+PRUint32
 *
 result
 )
@@ -134,9 +134,9 @@ aResult
 *
 aResult
 =
-nullptr
+nsnull
 ;
-int32_t
+PRInt32
 colon
 =
 aSpec
@@ -194,7 +194,7 @@ rv
 return
 rv
 ;
-nsAutoCString
+nsCAutoString
 asciiSpec
 ;
 rv
@@ -279,7 +279,7 @@ ourURI
 >
 SetMutable
 (
-false
+PR_FALSE
 )
 ;
 uri
@@ -386,7 +386,7 @@ nsViewSourceHandler
 :
 AllowPort
 (
-int32_t
+PRInt32
 port
 const
 char
@@ -400,7 +400,7 @@ _retval
 *
 _retval
 =
-false
+PR_FALSE
 ;
 return
 NS_OK

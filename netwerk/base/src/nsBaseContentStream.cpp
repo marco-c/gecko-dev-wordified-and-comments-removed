@@ -59,7 +59,7 @@ return
 ;
 mCallback
 =
-nullptr
+nsnull
 ;
 }
 else
@@ -74,7 +74,7 @@ mCallback
 }
 mCallbackTarget
 =
-nullptr
+nsnull
 ;
 callback
 -
@@ -139,7 +139,7 @@ nsBaseContentStream
 :
 Available
 (
-uint64_t
+PRUint32
 *
 result
 )
@@ -162,9 +162,9 @@ Read
 char
 *
 buf
-uint32_t
+PRUint32
 count
-uint32_t
+PRUint32
 *
 result
 )
@@ -190,9 +190,9 @@ fun
 void
 *
 closure
-uint32_t
+PRUint32
 count
-uint32_t
+PRUint32
 *
 result
 )
@@ -299,9 +299,9 @@ AsyncWait
 nsIInputStreamCallback
 *
 callback
-uint32_t
+PRUint32
 flags
-uint32_t
+PRUint32
 requestedCount
 nsIEventTarget
 *

@@ -123,7 +123,7 @@ h
 #
 include
 "
-nsIFile
+nsILocalFile
 .
 h
 "
@@ -531,7 +531,7 @@ case
 :
 semicolonFound
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -883,7 +883,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 (
@@ -1035,7 +1035,7 @@ rv
 GetFileLocation
 (
 filenamePref
-nullptr
+nsnull
 mimeFileName
 )
 ;
@@ -1172,7 +1172,7 @@ NS_OK
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 (
@@ -1250,7 +1250,7 @@ file
 1
 -
 1
-false
+PR_FALSE
 )
 ;
 if
@@ -1481,7 +1481,7 @@ netscapeFormat
 nsAutoString
 buf
 ;
-nsAutoCString
+nsCAutoString
 cBuf
 ;
 bool
@@ -2060,7 +2060,7 @@ helpers
 .
 private_mime_types_file
 "
-nullptr
+nsnull
 mimeFileName
 )
 ;
@@ -2123,7 +2123,7 @@ helpers
 .
 global_mime_types_file
 "
-nullptr
+nsnull
 mimeFileName
 )
 ;
@@ -2290,7 +2290,7 @@ mimeTypes
 bool
 netscapeFormat
 ;
-nsAutoCString
+nsCAutoString
 cBuf
 ;
 nsAutoString
@@ -3771,7 +3771,7 @@ aTypeOptions
 aHandler
 aDescription
 aMozillaFlags
-true
+PR_TRUE
 )
 ;
 if
@@ -3792,7 +3792,7 @@ aTypeOptions
 aHandler
 aDescription
 aMozillaFlags
-false
+PR_FALSE
 )
 ;
 }
@@ -3819,7 +3819,7 @@ aTypeOptions
 aHandler
 aDescription
 aMozillaFlags
-true
+PR_TRUE
 )
 ;
 }
@@ -3846,7 +3846,7 @@ aTypeOptions
 aHandler
 aDescription
 aMozillaFlags
-false
+PR_FALSE
 )
 ;
 }
@@ -4135,7 +4135,7 @@ false
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 (
@@ -4213,7 +4213,7 @@ file
 1
 -
 1
-false
+PR_FALSE
 )
 ;
 if
@@ -4270,7 +4270,7 @@ nsString
 entry
 buffer
 ;
-nsAutoCString
+nsCAutoString
 cBuffer
 ;
 entry
@@ -4721,7 +4721,7 @@ start_option_iter
 ;
 equalSignFound
 =
-false
+PR_FALSE
 ;
 while
 (
@@ -4763,7 +4763,7 @@ case
 :
 equalSignFound
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -4881,7 +4881,7 @@ test
 )
 )
 {
-nsAutoCString
+nsCAutoString
 testCommand
 ;
 rv
@@ -4934,7 +4934,7 @@ continue
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 file
 (
@@ -5047,7 +5047,7 @@ process
 >
 Run
 (
-true
+PR_TRUE
 args
 2
 )
@@ -5061,7 +5061,7 @@ rv
 )
 continue
 ;
-int32_t
+PRInt32
 exitValue
 ;
 rv
@@ -5107,7 +5107,7 @@ exitValue
 {
 match
 =
-false
+PR_FALSE
 ;
 }
 }
@@ -5128,7 +5128,7 @@ needsterminal
 {
 match
 =
-false
+PR_FALSE
 ;
 }
 }
@@ -5265,7 +5265,7 @@ aProtocolScheme
 *
 aHandlerExists
 =
-false
+PR_FALSE
 ;
 #
 if
@@ -5308,7 +5308,7 @@ isValid
 *
 aHandlerExists
 =
-true
+PR_TRUE
 ;
 #
 endif
@@ -5525,7 +5525,7 @@ path
 ;
 nsCOMPtr
 <
-nsIFile
+nsILocalFile
 >
 localFile
 (
@@ -5559,7 +5559,7 @@ PATH
 "
 )
 ;
-nsAutoCString
+nsCAutoString
 path
 (
 unixpath
@@ -5753,7 +5753,7 @@ IsEmpty
 )
 )
 return
-nullptr
+nsnull
 ;
 LOG
 (
@@ -5801,7 +5801,7 @@ aFileExt
 majorType
 minorType
 mime_types_description
-true
+PR_TRUE
 )
 ;
 if
@@ -5889,7 +5889,7 @@ aFileExt
 majorType
 minorType
 mime_types_description
-false
+PR_FALSE
 )
 ;
 }
@@ -5901,7 +5901,7 @@ rv
 )
 )
 return
-nullptr
+nsnull
 ;
 NS_LossyConvertUTF16toASCII
 asciiMajorType
@@ -5983,10 +5983,10 @@ IsEmpty
 )
 {
 return
-nullptr
+nsnull
 ;
 }
-nsAutoCString
+nsCAutoString
 mimeType
 (
 asciiMajorType
@@ -6017,7 +6017,7 @@ if
 mimeInfo
 )
 return
-nullptr
+nsnull
 ;
 NS_ADDREF
 (
@@ -6290,7 +6290,7 @@ IsEmpty
 )
 )
 return
-nullptr
+nsnull
 ;
 LOG
 (
@@ -6374,7 +6374,7 @@ rv
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 nsDependentSubstring
@@ -6404,7 +6404,7 @@ typeOptions
 handler
 mailcap_description
 mozillaFlags
-true
+PR_TRUE
 )
 ;
 LOG
@@ -6458,7 +6458,7 @@ nsMIMEInfoBase
 *
 gnomeInfo
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -6643,7 +6643,7 @@ typeOptions
 handler
 mailcap_description
 mozillaFlags
-false
+PR_FALSE
 )
 ;
 }
@@ -6669,7 +6669,7 @@ typeOptions
 handler
 mailcap_description
 mozillaFlags
-true
+PR_TRUE
 )
 ;
 }
@@ -6695,7 +6695,7 @@ typeOptions
 handler
 mailcap_description
 mozillaFlags
-false
+PR_FALSE
 )
 ;
 }
@@ -6809,7 +6809,7 @@ IsEmpty
 )
 {
 return
-nullptr
+nsnull
 ;
 }
 nsMIMEInfoUnix
@@ -6828,7 +6828,7 @@ if
 mimeInfo
 )
 return
-nullptr
+nsnull
 ;
 NS_ADDREF
 (
@@ -6991,7 +6991,7 @@ aFound
 *
 aFound
 =
-true
+PR_TRUE
 ;
 nsMIMEInfoBase
 *
@@ -7108,7 +7108,7 @@ retval
 *
 aFound
 =
-false
+PR_FALSE
 ;
 retval
 =
@@ -7317,7 +7317,7 @@ nsOSHelperAppService
 :
 FixFilePermissions
 (
-nsIFile
+nsILocalFile
 *
 aFile
 )

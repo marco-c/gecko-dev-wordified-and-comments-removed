@@ -283,7 +283,7 @@ update
 -
 added
 "
-nullptr
+nsnull
 )
 ;
 LOG
@@ -319,7 +319,7 @@ mUpdate
 AddObserver
 (
 this
-false
+PR_FALSE
 )
 ;
 return
@@ -346,9 +346,6 @@ aDocumentURI
 nsIDOMDocument
 *
 aDocument
-nsIFile
-*
-aCustomProfileDir
 )
 {
 if
@@ -382,8 +379,7 @@ Init
 (
 aManifestURI
 aDocumentURI
-nullptr
-aCustomProfileDir
+nsnull
 )
 ;
 }
@@ -531,7 +527,7 @@ UpdateStateChanged
 nsIOfflineCacheUpdate
 *
 aUpdate
-uint32_t
+PRUint32
 state
 )
 {
@@ -621,7 +617,7 @@ update
 -
 completed
 "
-nullptr
+nsnull
 )
 ;
 LOG
@@ -734,7 +730,7 @@ LOG_ENABLED
 )
 )
 {
-nsAutoCString
+nsCAutoString
 clientID
 ;
 if

@@ -65,7 +65,7 @@ nsMimeTypeArray
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMMIMETYPEARRAY
-void
+nsresult
 Refresh
 (
 )
@@ -74,7 +74,7 @@ nsIDOMMimeType
 *
 GetItemAt
 (
-uint32_t
+PRUint32
 aIndex
 nsresult
 *
@@ -161,7 +161,7 @@ Invalidate
 {
 mNavigator
 =
-nullptr
+nsnull
 ;
 Clear
 (
@@ -186,7 +186,7 @@ nsIDOMNavigator
 *
 mNavigator
 ;
-uint32_t
+PRUint32
 mPluginMimeTypeCount
 ;
 nsCOMArray
@@ -233,7 +233,7 @@ DetachPlugin
 {
 mPlugin
 =
-nullptr
+nsnull
 ;
 }
 protected

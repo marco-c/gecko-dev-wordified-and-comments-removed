@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsIFile
+nsILocalFile
 .
 h
 "
@@ -36,15 +36,6 @@ h
 include
 "
 nsIAtom
-.
-h
-"
-#
-include
-"
-mozilla
-/
-Attributes
 .
 h
 "
@@ -82,7 +73,6 @@ NS_DIRECTORY_SERVICE_CID
 }
 class
 nsDirectoryService
-MOZ_FINAL
 :
 public
 nsIDirectoryService
@@ -108,7 +98,7 @@ nsDirectoryService
 )
 ;
 static
-void
+nsresult
 RealInit
 (
 )
@@ -143,7 +133,7 @@ private
 nsresult
 GetCurrentProcessDirectory
 (
-nsIFile
+nsILocalFile
 *
 *
 aFile
@@ -167,12 +157,9 @@ closure
 nsSupportsHashtable
 mHashtable
 ;
-nsTArray
-<
 nsCOMPtr
 <
-nsIDirectoryServiceProvider
->
+nsISupportsArray
 >
 mProviders
 ;

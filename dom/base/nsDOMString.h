@@ -42,7 +42,7 @@ aString
 .
 SetIsVoid
 (
-true
+PR_TRUE
 )
 ;
 }

@@ -57,7 +57,7 @@ PRLogModuleInfo
 *
 webSocketLog
 =
-nullptr
+nsnull
 ;
 #
 endif
@@ -557,7 +557,7 @@ BaseWebSocketChannel
 :
 GetDefaultPort
 (
-int32_t
+PRInt32
 *
 aDefaultPort
 )
@@ -606,7 +606,7 @@ BaseWebSocketChannel
 :
 GetProtocolFlags
 (
-uint32_t
+PRUint32
 *
 aProtocolFlags
 )
@@ -670,6 +670,7 @@ nsIURI
 *
 *
 _retval
+NS_OUTPARAM
 )
 {
 LOG
@@ -691,7 +692,7 @@ this
 )
 )
 ;
-int32_t
+PRInt32
 port
 ;
 nsresult
@@ -776,6 +777,7 @@ nsIChannel
 *
 *
 _retval
+NS_OUTPARAM
 )
 {
 LOG
@@ -807,7 +809,7 @@ BaseWebSocketChannel
 :
 AllowPort
 (
-int32_t
+PRInt32
 port
 const
 char
@@ -816,6 +818,7 @@ scheme
 bool
 *
 _retval
+NS_OUTPARAM
 )
 {
 LOG
@@ -840,7 +843,7 @@ this
 *
 _retval
 =
-false
+PR_FALSE
 ;
 return
 NS_OK

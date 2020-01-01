@@ -58,9 +58,9 @@ const
 char
 *
 aBuf
-uint32_t
+PRUint32
 aCount
-uint32_t
+PRUint32
 *
 _retval
 )
@@ -91,9 +91,9 @@ WriteFrom
 nsIInputStream
 *
 aStream
-uint32_t
+PRUint32
 aCount
-uint32_t
+PRUint32
 *
 _retval
 )
@@ -113,9 +113,9 @@ aReader
 void
 *
 aClosure
-uint32_t
+PRUint32
 aCount
-uint32_t
+PRUint32
 *
 _retval
 )
@@ -138,7 +138,7 @@ aNonBlocking
 *
 aNonBlocking
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -171,7 +171,7 @@ mData
 Length
 (
 )
-nullptr
+nsnull
 )
 ;
 if

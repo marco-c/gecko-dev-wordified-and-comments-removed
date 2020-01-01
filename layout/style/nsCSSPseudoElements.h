@@ -168,7 +168,7 @@ aType
 private
 :
 static
-uint32_t
+PRUint32
 FlagsForPseudoElement
 (
 nsIAtom
@@ -183,7 +183,7 @@ PseudoElementHasFlags
 nsIAtom
 *
 aAtom
-uint32_t
+PRUint32
 aFlags
 )
 {

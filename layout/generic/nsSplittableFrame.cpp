@@ -452,7 +452,7 @@ nsIFrame
 aFrame2
 )
 {
-int32_t
+PRInt32
 iterations
 =
 0
@@ -475,7 +475,7 @@ aFrame1
 aFrame2
 )
 return
-true
+PR_TRUE
 ;
 aFrame1
 =
@@ -492,7 +492,7 @@ iterations
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 bool
@@ -509,7 +509,7 @@ nsIFrame
 aFrame2
 )
 {
-int32_t
+PRInt32
 iterations
 =
 0
@@ -532,7 +532,7 @@ aFrame1
 aFrame2
 )
 return
-true
+PR_TRUE
 ;
 aFrame1
 =
@@ -549,7 +549,7 @@ iterations
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 #
@@ -575,7 +575,7 @@ NS_FRAME_IS_FLUID_CONTINUATION
 ?
 mPrevContinuation
 :
-nullptr
+nsnull
 ;
 }
 NS_METHOD
@@ -678,7 +678,7 @@ NS_FRAME_IS_FLUID_CONTINUATION
 ?
 mNextContinuation
 :
-nullptr
+nsnull
 ;
 }
 NS_METHOD
@@ -1009,7 +1009,7 @@ aFrame
 >
 SetPrevInFlow
 (
-nullptr
+nsnull
 )
 ;
 aFrame
@@ -1017,7 +1017,7 @@ aFrame
 >
 SetNextInFlow
 (
-nullptr
+nsnull
 )
 ;
 }
@@ -1036,7 +1036,7 @@ aPresContext
 FILE
 *
 out
-int32_t
+PRInt32
 aIndent
 )
 {
@@ -1052,7 +1052,7 @@ aIndent
 ;
 if
 (
-nullptr
+nsnull
 !
 =
 mNextContinuation
@@ -1094,7 +1094,7 @@ mNextContinuation
 }
 if
 (
-nullptr
+nsnull
 !
 =
 mPrevContinuation

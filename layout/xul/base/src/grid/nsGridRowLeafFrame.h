@@ -35,7 +35,7 @@ aContext
 ;
 #
 ifdef
-DEBUG
+NS_DEBUG
 NS_IMETHOD
 GetFrameName
 (

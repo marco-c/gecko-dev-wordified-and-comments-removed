@@ -50,7 +50,7 @@ rv
 =
 NS_OK
 ;
-uint32_t
+PRUint32
 i
 len
 =
@@ -91,7 +91,7 @@ nodes
 aContext
 )
 ;
-int32_t
+PRInt32
 index
 =
 0
@@ -270,10 +270,10 @@ NO_CONTEXT
 )
 {
 return
-false
+PR_FALSE
 ;
 }
-uint32_t
+PRUint32
 i
 len
 =
@@ -313,12 +313,12 @@ context
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 }
 return
-false
+PR_FALSE
 ;
 }
 #
@@ -337,7 +337,7 @@ dest
 {
 for
 (
-uint32_t
+PRUint32
 i
 =
 0

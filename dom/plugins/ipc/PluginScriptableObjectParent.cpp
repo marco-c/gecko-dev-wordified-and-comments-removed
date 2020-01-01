@@ -139,7 +139,7 @@ class
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 return
@@ -1903,7 +1903,7 @@ aCount
 *
 aIdentifiers
 =
-nullptr
+nsnull
 ;
 return
 true
@@ -1953,7 +1953,7 @@ false
 }
 for
 (
-uint32_t
+PRUint32
 index
 =
 0
@@ -2327,11 +2327,11 @@ aType
 :
 mInstance
 (
-nullptr
+nsnull
 )
 mObject
 (
-nullptr
+nsnull
 )
 mProtectCount
 (
@@ -2394,7 +2394,7 @@ mObject
 >
 parent
 =
-nullptr
+nsnull
 ;
 }
 else
@@ -3003,7 +3003,7 @@ object
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 return
@@ -3211,7 +3211,7 @@ mObject
 ;
 mObject
 =
-nullptr
+nsnull
 ;
 unused
 <
@@ -3585,7 +3585,7 @@ NPVariant
 >
 convertedArgs
 ;
-uint32_t
+PRUint32
 argCount
 =
 aArgs
@@ -3623,7 +3623,7 @@ true
 }
 for
 (
-uint32_t
+PRUint32
 index
 =
 0
@@ -3739,7 +3739,7 @@ result
 ;
 for
 (
-uint32_t
+PRUint32
 index
 =
 0
@@ -4020,7 +4020,7 @@ NPVariant
 >
 convertedArgs
 ;
-uint32_t
+PRUint32
 argCount
 =
 aArgs
@@ -4058,7 +4058,7 @@ true
 }
 for
 (
-uint32_t
+PRUint32
 index
 =
 0
@@ -4155,7 +4155,7 @@ result
 ;
 for
 (
-uint32_t
+PRUint32
 index
 =
 0
@@ -5688,7 +5688,7 @@ NPVariant
 >
 convertedArgs
 ;
-uint32_t
+PRUint32
 argCount
 =
 aArgs
@@ -5726,7 +5726,7 @@ true
 }
 for
 (
-uint32_t
+PRUint32
 index
 =
 0
@@ -5823,7 +5823,7 @@ result
 ;
 for
 (
-uint32_t
+PRUint32
 index
 =
 0

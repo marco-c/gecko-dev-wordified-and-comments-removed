@@ -608,7 +608,7 @@ tableAcc
 return
 E_FAIL
 ;
-int32_t
+PRInt32
 childIndex
 =
 0
@@ -856,7 +856,7 @@ tableAcc
 return
 E_FAIL
 ;
-int32_t
+PRInt32
 columnsSpanned
 =
 0
@@ -1018,7 +1018,7 @@ tableAcc
 return
 E_FAIL
 ;
-int32_t
+PRInt32
 columnIndex
 =
 0
@@ -1125,7 +1125,7 @@ tableAcc
 return
 E_FAIL
 ;
-int32_t
+PRInt32
 columnCount
 =
 0
@@ -1231,7 +1231,7 @@ tableAcc
 return
 E_FAIL
 ;
-int32_t
+PRInt32
 rowCount
 =
 0
@@ -1337,7 +1337,7 @@ tableAcc
 return
 E_FAIL
 ;
-uint32_t
+PRUint32
 count
 =
 0
@@ -1443,7 +1443,7 @@ tableAcc
 return
 E_FAIL
 ;
-uint32_t
+PRUint32
 count
 =
 0
@@ -1549,7 +1549,7 @@ tableAcc
 return
 E_FAIL
 ;
-uint32_t
+PRUint32
 count
 =
 0
@@ -1795,7 +1795,7 @@ tableAcc
 return
 E_FAIL
 ;
-int32_t
+PRInt32
 rowsSpanned
 =
 0
@@ -1957,7 +1957,7 @@ tableAcc
 return
 E_FAIL
 ;
-int32_t
+PRInt32
 rowIndex
 =
 0
@@ -2940,7 +2940,7 @@ tableAcc
 return
 E_FAIL
 ;
-int32_t
+PRInt32
 rowIdx
 =
 -
@@ -2978,7 +2978,7 @@ GetHRESULT
 rv
 )
 ;
-int32_t
+PRInt32
 rowExtents
 =
 0
@@ -3009,7 +3009,7 @@ GetHRESULT
 rv
 )
 ;
-int32_t
+PRInt32
 columnExtents
 =
 0
@@ -3461,16 +3461,16 @@ tableAcc
 return
 E_FAIL
 ;
-uint32_t
+PRUint32
 size
 =
 0
 ;
-int32_t
+PRInt32
 *
 items
 =
-nullptr
+nsnull
 ;
 nsresult
 rv
@@ -3610,7 +3610,7 @@ size
 ;
 for
 (
-uint32_t
+PRUint32
 index
 =
 0

@@ -155,9 +155,6 @@ iw_stats
 (
 iw_stats_t
 )
-(
-uintptr_t
-)
 args
 [
 1
@@ -555,9 +552,6 @@ iw_open
 (
 iw_open_t
 )
-(
-uintptr_t
-)
 dlsym
 (
 iwlib_handle
@@ -582,9 +576,6 @@ iw_enum
 (
 iw_enum_t
 )
-(
-uintptr_t
-)
 dlsym
 (
 iwlib_handle
@@ -608,9 +599,6 @@ iw_stats
 =
 (
 iw_stats_t
-)
-(
-uintptr_t
 )
 dlsym
 (
@@ -755,11 +743,8 @@ accessPoints
 char
 *
 )
-(
-uintptr_t
-)
 iw_stats
-nullptr
+nsnull
 }
 ;
 while

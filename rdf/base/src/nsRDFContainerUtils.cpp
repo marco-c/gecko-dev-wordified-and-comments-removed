@@ -163,7 +163,7 @@ aType
 )
 ;
 static
-int32_t
+PRInt32
 gRefCnt
 ;
 static
@@ -203,7 +203,7 @@ kOne
 ;
 }
 ;
-int32_t
+PRInt32
 RDFContainerUtilsImpl
 :
 :
@@ -284,7 +284,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -349,7 +349,7 @@ kRDFNameSpaceURI
 *
 _retval
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -386,7 +386,7 @@ _
 *
 _retval
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -423,7 +423,7 @@ s
 *
 _retval
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -437,7 +437,7 @@ s
 *
 _retval
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -449,7 +449,7 @@ RDFContainerUtilsImpl
 :
 IndexToOrdinalResource
 (
-int32_t
+PRInt32
 aIndex
 nsIRDFResource
 *
@@ -478,7 +478,7 @@ aIndex
 return
 NS_ERROR_ILLEGAL_VALUE
 ;
-nsAutoCString
+nsCAutoString
 uri
 (
 kRDFNameSpaceURI
@@ -550,7 +550,7 @@ OrdinalResourceToIndex
 nsIRDFResource
 *
 aOrdinal
-int32_t
+PRInt32
 *
 aIndex
 )
@@ -560,7 +560,7 @@ NS_PRECONDITION
 aOrdinal
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -669,7 +669,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-int32_t
+PRInt32
 idx
 =
 0
@@ -768,7 +768,7 @@ NS_PRECONDITION
 aDataSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -788,7 +788,7 @@ NS_PRECONDITION
 aResource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -808,7 +808,7 @@ NS_PRECONDITION
 _retval
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -852,7 +852,7 @@ kRDF_Alt
 *
 _retval
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -860,7 +860,7 @@ else
 *
 _retval
 =
-false
+PR_FALSE
 ;
 }
 return
@@ -898,7 +898,7 @@ rv
 *
 _retval
 =
-true
+PR_TRUE
 ;
 nsCOMPtr
 <
@@ -915,7 +915,7 @@ GetTarget
 (
 aResource
 kRDF_nextVal
-true
+PR_TRUE
 getter_AddRefs
 (
 nextValNode
@@ -989,7 +989,7 @@ kOne
 *
 _retval
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -1017,7 +1017,7 @@ NS_PRECONDITION
 aDataSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -1037,7 +1037,7 @@ NS_PRECONDITION
 aResource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -1057,7 +1057,7 @@ NS_PRECONDITION
 _retval
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -1108,7 +1108,7 @@ NS_PRECONDITION
 aDataSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -1128,7 +1128,7 @@ NS_PRECONDITION
 aResource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -1148,7 +1148,7 @@ NS_PRECONDITION
 _retval
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -1199,7 +1199,7 @@ NS_PRECONDITION
 aDataSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -1219,7 +1219,7 @@ NS_PRECONDITION
 aResource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -1239,7 +1239,7 @@ NS_PRECONDITION
 _retval
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -1600,7 +1600,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -1672,7 +1672,7 @@ NS_PRECONDITION
 aDataSource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -1692,7 +1692,7 @@ NS_PRECONDITION
 aResource
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -1712,7 +1712,7 @@ NS_PRECONDITION
 aType
 !
 =
-nullptr
+nsnull
 "
 null
 ptr
@@ -1734,7 +1734,7 @@ aResult
 *
 aResult
 =
-nullptr
+nsnull
 ;
 nsresult
 rv
@@ -1778,7 +1778,7 @@ Assert
 aResource
 kRDF_instanceOf
 aType
-true
+PR_TRUE
 )
 ;
 if
@@ -1801,7 +1801,7 @@ Assert
 aResource
 kRDF_nextVal
 kOne
-true
+PR_TRUE
 )
 ;
 if
@@ -1907,7 +1907,7 @@ argument
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 nsresult
@@ -1926,7 +1926,7 @@ HasAssertion
 aResource
 kRDF_instanceOf
 aType
-true
+PR_TRUE
 &
 result
 )
@@ -1939,7 +1939,7 @@ rv
 )
 )
 return
-false
+PR_FALSE
 ;
 return
 result
@@ -1960,7 +1960,7 @@ aContainer
 nsIRDFNode
 *
 aElement
-int32_t
+PRInt32
 *
 aIndex
 )
@@ -2115,7 +2115,7 @@ GetSources
 (
 property
 aElement
-true
+PR_TRUE
 getter_AddRefs
 (
 sources

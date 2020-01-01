@@ -90,15 +90,6 @@ nsURLHelper
 h
 "
 #
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
-#
 if
 defined
 (
@@ -113,7 +104,7 @@ gFTPLog
 endif
 static
 inline
-uint32_t
+PRUint32
 PRTimeToSeconds
 (
 PRTime
@@ -121,7 +112,7 @@ t_usec
 )
 {
 return
-uint32_t
+PRUint32
 (
 t_usec
 /
@@ -162,7 +153,7 @@ const
 nsACString
 &
 contentType
-int32_t
+PRInt32
 contentLength
 )
 {
@@ -221,7 +212,7 @@ nsFtpChannel
 :
 ResumeAt
 (
-uint64_t
+PRUint64
 aStartPos
 const
 nsACString
@@ -421,7 +412,7 @@ nsString
 statusArg
 )
 {
-nsAutoCString
+nsCAutoString
 host
 ;
 URI
@@ -441,7 +432,7 @@ statusArg
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 void
@@ -454,14 +445,13 @@ OnCallbacksChanged
 {
 mFTPEventSink
 =
-nullptr
+nsnull
 ;
 }
 namespace
 {
 class
 FTPEventSinkProxy
-MOZ_FINAL
 :
 public
 nsIFTPEventSink

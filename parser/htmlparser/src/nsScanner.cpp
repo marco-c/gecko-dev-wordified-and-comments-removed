@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsCharsetAlias
+nsICharsetAlias
 .
 h
 "
@@ -50,7 +50,7 @@ h
 #
 include
 "
-nsIFile
+nsILocalFile
 .
 h
 "
@@ -79,13 +79,6 @@ h
 include
 "
 nsParser
-.
-h
-"
-#
-include
-"
-nsCharsetSource
 .
 h
 "
@@ -186,7 +179,7 @@ const
 nsACString
 &
 aCharset
-int32_t
+PRInt32
 aSource
 )
 {
@@ -197,7 +190,7 @@ nsScanner
 ;
 mSlidingBuffer
 =
-nullptr
+nsnull
 ;
 mCountRemaining
 =
@@ -249,7 +242,7 @@ mCurrentPosition
 ;
 mIncremental
 =
-false
+PR_FALSE
 ;
 mUnicodeDecoder
 =
@@ -261,7 +254,7 @@ kCharsetUninitialized
 ;
 mHasInvalidCharacter
 =
-false
+PR_FALSE
 ;
 mReplacementCharacter
 =
@@ -285,7 +278,7 @@ const
 nsACString
 &
 aCharset
-int32_t
+PRInt32
 aSource
 )
 :
@@ -314,7 +307,7 @@ true
 ;
 mSlidingBuffer
 =
-nullptr
+nsnull
 ;
 memset
 (
@@ -337,7 +330,7 @@ mCurrentPosition
 ;
 mIncremental
 =
-true
+PR_TRUE
 ;
 mFirstNonWhitespacePosition
 =
@@ -358,7 +351,7 @@ kCharsetUninitialized
 ;
 mHasInvalidCharacter
 =
-false
+PR_FALSE
 ;
 mReplacementCharacter
 =
@@ -384,7 +377,7 @@ const
 nsACString
 &
 aCharset
-int32_t
+PRInt32
 aSource
 )
 {
@@ -396,6 +389,31 @@ mCharsetSource
 )
 return
 NS_OK
+;
+nsICharsetAlias
+*
+calias
+=
+nsParser
+:
+:
+GetCharsetAliasService
+(
+)
+;
+NS_ASSERTION
+(
+calias
+"
+Must
+have
+the
+charset
+alias
+service
+!
+"
+)
 ;
 nsresult
 res
@@ -417,9 +435,9 @@ same
 ;
 res
 =
-nsCharsetAlias
-:
-:
+calias
+-
+>
 Equals
 (
 aCharset
@@ -449,9 +467,9 @@ charsetName
 ;
 res
 =
-nsCharsetAlias
-:
-:
+calias
+-
+>
 GetPreferred
 (
 aCharset
@@ -619,7 +637,7 @@ mMarkPosition
 ;
 }
 }
-int32_t
+PRInt32
 nsScanner
 :
 :
@@ -627,7 +645,7 @@ Mark
 (
 )
 {
-int32_t
+PRInt32
 distance
 =
 0
@@ -700,7 +718,7 @@ mSlidingBuffer
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 mSlidingBuffer
@@ -728,7 +746,7 @@ EndReading
 mEndPosition
 )
 ;
-uint32_t
+PRUint32
 length
 =
 aBuffer
@@ -743,7 +761,7 @@ mCountRemaining
 length
 ;
 return
-true
+PR_TRUE
 ;
 }
 nsresult
@@ -783,7 +801,7 @@ const
 char
 *
 aBuffer
-uint32_t
+PRUint32
 aLen
 nsIRequest
 *
@@ -800,7 +818,7 @@ if
 mUnicodeDecoder
 )
 {
-int32_t
+PRInt32
 unicharBufLen
 =
 0
@@ -850,17 +868,17 @@ DataStart
 (
 )
 ;
-int32_t
+PRInt32
 totalChars
 =
 0
 ;
-int32_t
+PRInt32
 unicharLength
 =
 unicharBufLen
 ;
-int32_t
+PRInt32
 errorPos
 =
 -
@@ -868,7 +886,7 @@ errorPos
 ;
 do
 {
-int32_t
+PRInt32
 srcLength
 =
 aLen
@@ -1000,7 +1018,7 @@ if
 (
 (
 (
-uint32_t
+PRUint32
 )
 (
 srcLength
@@ -1154,7 +1172,7 @@ Peek
 PRUnichar
 &
 aChar
-uint32_t
+PRUint32
 aOffset
 )
 {
@@ -1234,9 +1252,9 @@ Peek
 nsAString
 &
 aStr
-int32_t
+PRInt32
 aNumChars
-int32_t
+PRInt32
 aOffset
 )
 {
@@ -1267,7 +1285,7 @@ mCurrentPosition
 if
 (
 (
-int32_t
+PRInt32
 )
 mCountRemaining
 <
@@ -1298,7 +1316,7 @@ if
 (
 mCountRemaining
 <
-uint32_t
+PRUint32
 (
 aNumChars
 +
@@ -1342,7 +1360,7 @@ nsScanner
 :
 SkipWhitespace
 (
-int32_t
+PRInt32
 &
 aNewlinesSkipped
 )
@@ -1443,7 +1461,7 @@ t
 {
 skipped
 =
-true
+PR_TRUE
 ;
 PRUnichar
 thePrevChar
@@ -1538,7 +1556,7 @@ default
 :
 done
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -1661,7 +1679,7 @@ nsString
 aString
 )
 {
-int32_t
+PRInt32
 pos
 =
 aString
@@ -1703,7 +1721,7 @@ nsCString
 aString
 )
 {
-int32_t
+PRInt32
 pos
 =
 aString
@@ -1863,7 +1881,7 @@ case
 :
 found
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -2012,7 +2030,7 @@ theChar
 {
 found
 =
-false
+PR_FALSE
 ;
 switch
 (
@@ -2036,7 +2054,7 @@ case
 :
 found
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -2159,7 +2177,7 @@ ReadNumber
 nsString
 &
 aString
-int32_t
+PRInt32
 aBase
 )
 {
@@ -2303,7 +2321,7 @@ f
 '
 )
 :
-true
+PR_TRUE
 )
 ;
 if
@@ -2364,7 +2382,7 @@ ReadWhitespace
 nsScannerSharedSubstring
 &
 aString
-int32_t
+PRInt32
 &
 aNewlinesSkipped
 bool
@@ -2374,7 +2392,7 @@ aHaveCR
 {
 aHaveCR
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -2559,7 +2577,7 @@ current
 ;
 haveCR
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -2604,7 +2622,7 @@ current
 ;
 haveCR
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -2645,7 +2663,7 @@ default
 :
 done
 =
-true
+PR_TRUE
 ;
 AppendUnicodeTo
 (
@@ -2703,7 +2721,7 @@ aStart
 nsScannerIterator
 &
 aEnd
-int32_t
+PRInt32
 &
 aNewlinesSkipped
 )
@@ -2902,7 +2920,7 @@ default
 :
 done
 =
-true
+PR_TRUE
 ;
 aStart
 =
@@ -3775,7 +3793,7 @@ mSlidingBuffer
 #
 ifdef
 DEBUG
-uint32_t
+PRUint32
 origRemaining
 =
 mCountRemaining
@@ -3934,11 +3952,11 @@ aBuf
 nsIRequest
 *
 aRequest
-int32_t
+PRInt32
 aErrorPos
 )
 {
-uint32_t
+PRUint32
 countRemaining
 =
 mCountRemaining
@@ -3963,7 +3981,7 @@ if
 mSlidingBuffer
 )
 return
-false
+PR_FALSE
 ;
 mSlidingBuffer
 -
@@ -4056,7 +4074,7 @@ mHasInvalidCharacter
 {
 mHasInvalidCharacter
 =
-true
+PR_TRUE
 ;
 mFirstInvalidPosition
 =
@@ -4132,7 +4150,7 @@ iter
 }
 }
 return
-true
+PR_TRUE
 ;
 }
 void

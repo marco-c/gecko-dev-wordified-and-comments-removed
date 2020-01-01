@@ -7,7 +7,7 @@ NS_ISMILATTR_H_
 #
 include
 "
-nscore
+nsStringFwd
 .
 h
 "
@@ -22,9 +22,6 @@ nsISMILAnimationElement
 ;
 class
 nsIContent
-;
-class
-nsAString
 ;
 class
 nsISMILAttr
@@ -93,7 +90,7 @@ GetTargetNode
 const
 {
 return
-nullptr
+nsnull
 ;
 }
 virtual

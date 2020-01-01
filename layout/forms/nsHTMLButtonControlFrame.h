@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsContainerFrame
+nsHTMLContainerFrame
 .
 h
 "
@@ -91,7 +91,7 @@ class
 nsHTMLButtonControlFrame
 :
 public
-nsContainerFrame
+nsHTMLContainerFrame
 public
 nsIFormControlFrame
 {
@@ -205,7 +205,7 @@ nsStyleContext
 *
 GetAdditionalStyleContext
 (
-int32_t
+PRInt32
 aIndex
 )
 const
@@ -214,7 +214,7 @@ virtual
 void
 SetAdditionalStyleContext
 (
-int32_t
+PRInt32
 aIndex
 nsStyleContext
 *
@@ -260,7 +260,7 @@ ACCESSIBILITY
 virtual
 already_AddRefed
 <
-Accessible
+nsAccessible
 >
 CreateAccessible
 (
@@ -370,13 +370,13 @@ virtual
 bool
 IsFrameOfType
 (
-uint32_t
+PRUint32
 aFlags
 )
 const
 {
 return
-nsContainerFrame
+nsHTMLContainerFrame
 :
 :
 IsFrameOfType
@@ -433,7 +433,7 @@ nsReflowStatus
 aStatus
 )
 ;
-int
+PRIntn
 GetSkipSides
 (
 )

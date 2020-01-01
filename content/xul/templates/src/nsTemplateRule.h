@@ -546,7 +546,7 @@ nsTemplateRule
 >
 mRules
 ;
-int32_t
+PRInt32
 mPriority
 ;
 public
@@ -571,7 +571,7 @@ mTag
 ;
 nsTemplateQuerySet
 (
-int32_t
+PRInt32
 aPriority
 )
 :
@@ -597,7 +597,7 @@ nsTemplateQuerySet
 )
 ;
 }
-int32_t
+PRInt32
 Priority
 (
 )
@@ -657,7 +657,7 @@ Length
 PR_INT16_MAX
 )
 return
-nullptr
+nsnull
 ;
 return
 mRules
@@ -695,7 +695,7 @@ Elements
 )
 ;
 }
-int16_t
+PRInt16
 RuleCount
 (
 )
@@ -713,13 +713,13 @@ nsTemplateRule
 *
 GetRuleAt
 (
-int16_t
+PRInt16
 aIndex
 )
 {
 if
 (
-uint32_t
+PRUint32
 (
 aIndex
 )
@@ -740,7 +740,7 @@ aIndex
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 void
