@@ -7102,11 +7102,11 @@ scrollX
 x
 )
 )
+)
 -
 contentView
 .
 scrollX
-)
 ;
 y
 =
@@ -7131,11 +7131,11 @@ scrollY
 y
 )
 )
+)
 -
 contentView
 .
 scrollY
-)
 ;
 if
 (
