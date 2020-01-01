@@ -23490,7 +23490,7 @@ FLAG
 )
 malloc
 (
-sizeof
+strlen
 (
 piece
 )
