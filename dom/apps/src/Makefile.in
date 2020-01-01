@@ -126,6 +126,10 @@ AppsUtils
 .
 jsm
 \
+OfflineCacheInstaller
+.
+jsm
+\
 PermissionsInstaller
 .
 jsm
