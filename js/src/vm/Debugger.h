@@ -2800,7 +2800,7 @@ compileAndGoGlobal
 script
 -
 >
-global
+uninlinedGlobal
 (
 )
 )

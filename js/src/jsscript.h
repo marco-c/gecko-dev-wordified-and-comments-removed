@@ -2738,6 +2738,16 @@ global
 )
 const
 ;
+js
+:
+:
+GlobalObject
+&
+uninlinedGlobal
+(
+)
+const
+;
 JSObject
 *
 enclosingStaticScope
