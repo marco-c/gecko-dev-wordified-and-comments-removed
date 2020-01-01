@@ -156,6 +156,9 @@ int
 state
 ;
 int
+fsm_state
+;
+int
 attr
 ;
 int
