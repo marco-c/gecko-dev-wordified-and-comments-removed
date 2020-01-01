@@ -759,7 +759,7 @@ js
 ;
 #
 ifndef
-MOZ_B2G
+MOZ_WIDGET_GONK
 this
 .
 addActors
