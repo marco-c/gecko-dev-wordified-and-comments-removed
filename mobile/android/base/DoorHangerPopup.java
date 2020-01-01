@@ -116,10 +116,6 @@ GeckoDoorHangerPopup
 "
 ;
 private
-GeckoApp
-mActivity
-;
-private
 View
 mAnchor
 ;
@@ -142,10 +138,6 @@ super
 (
 aActivity
 )
-;
-mActivity
-=
-aActivity
 ;
 mAnchor
 =
