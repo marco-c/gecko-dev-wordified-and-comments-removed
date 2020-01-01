@@ -575,6 +575,10 @@ fragment
 ;
 public
 :
+JSScript
+*
+script
+;
 unsigned
 maxNativeStackSlots
 ;
