@@ -13372,6 +13372,9 @@ rt
 gcExtraRootsData
 )
 ;
+#
+ifndef
+JS_THREADSAFE
 JSTraceMonitor
 *
 tm
@@ -13388,7 +13391,7 @@ trc
 tm
 -
 >
-loopIndexGen
+loopTableSize
 tm
 -
 >
@@ -13403,6 +13406,8 @@ loopTable
 "
 )
 ;
+#
+endif
 }
 static
 void
