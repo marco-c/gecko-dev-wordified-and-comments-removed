@@ -221,11 +221,6 @@ gslots
 ;
 }
 struct
-JSStackFrame
-*
-entryFrame
-;
-struct
 JSFrameRegs
 entryRegs
 ;
@@ -382,11 +377,6 @@ tracker
 char
 *
 entryTypeMap
-;
-struct
-JSStackFrame
-*
-entryFrame
 ;
 struct
 JSFrameRegs
