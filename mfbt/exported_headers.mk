@@ -193,11 +193,15 @@ ThreadLocal
 .
 h
 \
-TypeTraits
+TypedEnum
 .
 h
 \
 Types
+.
+h
+\
+TypeTraits
 .
 h
 \

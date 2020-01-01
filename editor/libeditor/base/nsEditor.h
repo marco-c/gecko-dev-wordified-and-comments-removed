@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+TypedEnum
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
