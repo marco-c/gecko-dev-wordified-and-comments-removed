@@ -199,10 +199,6 @@ nsIXFormsUtilityService
 .
 h
 \
-nsBlobProtocolHandler
-.
-h
-\
 (
 NULL
 )
