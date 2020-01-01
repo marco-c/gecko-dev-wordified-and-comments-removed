@@ -1252,11 +1252,11 @@ break
 }
 }
 }
-XPTC_PUBLIC_API
+EXPORT_XPCOM_API
 (
 nsresult
 )
-XPTC_InvokeByIndex
+NS_InvokeByIndex
 (
 nsISupports
 *
