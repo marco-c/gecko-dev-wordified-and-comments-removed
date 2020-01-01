@@ -1203,6 +1203,10 @@ NANOJIT_ARCH
 .
 h
 \
+njconfig
+.
+h
+\
 RegAlloc
 .
 h
@@ -1247,6 +1251,10 @@ Fragmento
 cpp
 \
 LIR
+.
+cpp
+\
+njconfig
 .
 cpp
 \
