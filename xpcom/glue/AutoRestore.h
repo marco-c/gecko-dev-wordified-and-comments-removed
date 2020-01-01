@@ -243,6 +243,7 @@ class
 T
 >
 class
+NS_STACK_CLASS
 AutoRestore
 {
 private
@@ -254,6 +255,7 @@ mLocation
 T
 mValue
 ;
+MOZILLA_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
 AutoRestore
@@ -261,6 +263,7 @@ AutoRestore
 T
 &
 aValue
+MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mLocation
@@ -272,6 +275,8 @@ mValue
 aValue
 )
 {
+MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 ~
 AutoRestore

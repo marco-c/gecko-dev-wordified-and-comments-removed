@@ -25,8 +25,18 @@ prlog
 .
 h
 "
+#
+include
+"
+mozilla
+/
+AutoRestore
+.
+h
+"
 class
 NS_COM_GLUE
+NS_STACK_CLASS
 nsAutoLockBase
 {
 friend
@@ -122,6 +132,7 @@ endif
 ;
 class
 NS_COM_GLUE
+NS_STACK_CLASS
 nsAutoUnlockBase
 {
 protected
@@ -172,6 +183,7 @@ endif
 ;
 class
 NS_COM_GLUE
+NS_STACK_CLASS
 nsAutoLock
 :
 public
@@ -186,6 +198,7 @@ mLock
 PRBool
 mLocked
 ;
+MOZILLA_DECL_USE_GUARD_OBJECT_NOTIFIER
 nsAutoLock
 (
 void
@@ -264,6 +277,7 @@ nsAutoLock
 PRLock
 *
 aLock
+MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 nsAutoLockBase
@@ -280,6 +294,8 @@ mLocked
 PR_TRUE
 )
 {
+MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
+;
 PR_ASSERT
 (
 mLock
@@ -359,6 +375,7 @@ Hide
 }
 ;
 class
+NS_STACK_CLASS
 nsAutoUnlock
 :
 private
@@ -370,6 +387,7 @@ PRLock
 *
 mLock
 ;
+MOZILLA_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
 nsAutoUnlock
@@ -377,6 +395,7 @@ nsAutoUnlock
 PRLock
 *
 lock
+MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 nsAutoUnlockBase
@@ -388,6 +407,8 @@ mLock
 lock
 )
 {
+MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
+;
 PR_Unlock
 (
 mLock
@@ -430,6 +451,7 @@ h
 "
 class
 NS_COM_GLUE
+NS_STACK_CLASS
 nsAutoMonitor
 :
 public
@@ -462,6 +484,7 @@ nsAutoMonitor
 PRMonitor
 *
 mon
+MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 nsAutoLockBase
@@ -482,6 +505,8 @@ mLockCount
 0
 )
 {
+MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
+;
 NS_ASSERTION
 (
 mMonitor
@@ -637,6 +662,7 @@ mMonitor
 PRInt32
 mLockCount
 ;
+MOZILLA_DECL_USE_GUARD_OBJECT_NOTIFIER
 nsAutoMonitor
 (
 void
@@ -706,6 +732,7 @@ h
 "
 class
 NS_COM_GLUE
+NS_STACK_CLASS
 nsAutoCMonitor
 :
 public
@@ -718,6 +745,7 @@ nsAutoCMonitor
 void
 *
 lockObject
+MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 nsAutoLockBase
@@ -734,6 +762,8 @@ mLockCount
 0
 )
 {
+MOZILLA_GUARD_OBJECT_NOTIFIER_INIT
+;
 NS_ASSERTION
 (
 lockObject
@@ -872,6 +902,7 @@ mLockObject
 PRInt32
 mLockCount
 ;
+MOZILLA_DECL_USE_GUARD_OBJECT_NOTIFIER
 nsAutoCMonitor
 (
 void
