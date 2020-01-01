@@ -14928,6 +14928,10 @@ elementName
 >
 name
 attributes
+fragment
+?
+nsnull
+:
 form
 )
 ;
@@ -15019,6 +15023,10 @@ createElement
 ns
 name
 attributes
+fragment
+?
+nsnull
+:
 form
 )
 ;
@@ -15291,6 +15299,10 @@ createElement
 ns
 name
 attributes
+fragment
+?
+nsnull
+:
 form
 )
 ;
