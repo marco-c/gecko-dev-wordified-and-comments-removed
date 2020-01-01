@@ -122,6 +122,11 @@ PRInt32
 aModifiers
 bool
 aIgnoreRootScrollFrame
+float
+aPressure
+unsigned
+short
+aInputSourceArg
 bool
 aToWindow
 )
