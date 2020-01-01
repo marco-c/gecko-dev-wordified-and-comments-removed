@@ -1809,6 +1809,7 @@ onStartup
 function
 WeaveSvc_onStartup
 (
+callback
 )
 {
 this
@@ -1818,6 +1819,7 @@ _onStartup
 async
 (
 this
+callback
 )
 ;
 }
