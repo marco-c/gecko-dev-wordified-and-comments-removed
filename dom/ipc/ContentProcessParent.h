@@ -160,6 +160,11 @@ RequestRunToCompletion
 (
 )
 ;
+bool
+IsAlive
+(
+)
+;
 protected
 :
 virtual
@@ -268,6 +273,9 @@ nsCOMPtr
 nsIThreadObserver
 >
 mOldObserver
+;
+bool
+mIsAlive
 ;
 }
 ;
