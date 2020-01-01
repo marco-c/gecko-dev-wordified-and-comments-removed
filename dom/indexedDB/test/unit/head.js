@@ -22,13 +22,6 @@ Ci
 nsIDOMDOMException
 ;
 const
-IDBCursor
-=
-Ci
-.
-nsIIDBCursor
-;
-const
 IDBOpenDBRequest
 =
 Ci

@@ -50,7 +50,6 @@ const
 indexedDB
 IDBKeyRange
 DOMException
-IDBCursor
 IDBOpenDBRequest
 IDBRequest
 }
@@ -153,7 +152,6 @@ assert
 indexedDB
 IDBKeyRange
 DOMException
-IDBCursor
 IDBOpenDBRequest
 IDBOpenDBRequest
 IDBRequest

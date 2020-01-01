@@ -114,16 +114,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIIDBCursor
-.
-idl
-'
-'
-nsIIDBCursorWithValue
-.
-idl
-'
-'
 nsIIDBKeyRange
 .
 idl

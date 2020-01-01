@@ -522,16 +522,6 @@ dom
 /
 indexedDB
 '
-nsIIDBCursor
-.
-*
-'
-'
-nsIIDBCursorWithValue
-.
-*
-'
-'
 nsIIDBKeyRange
 .
 *
