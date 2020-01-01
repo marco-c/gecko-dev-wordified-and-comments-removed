@@ -153,11 +153,6 @@ nsIParser
 h
 '
 '
-nsIParserNode
-.
-h
-'
-'
 nsIParserService
 .
 h

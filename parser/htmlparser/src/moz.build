@@ -153,11 +153,6 @@ nsParserMsgUtils
 cpp
 '
 '
-nsParserNode
-.
-cpp
-'
-'
 nsParserService
 .
 cpp

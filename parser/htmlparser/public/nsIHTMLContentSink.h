@@ -7,13 +7,6 @@ nsIHTMLContentSink_h___
 #
 include
 "
-nsIParserNode
-.
-h
-"
-#
-include
-"
 nsIContentSink
 .
 h
