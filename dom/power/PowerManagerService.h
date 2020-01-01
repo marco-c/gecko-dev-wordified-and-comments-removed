@@ -133,6 +133,11 @@ nsAString
 aState
 )
 ;
+void
+SyncProfile
+(
+)
+;
 static
 StaticRefPtr
 <

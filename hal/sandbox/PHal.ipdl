@@ -679,14 +679,6 @@ bool
 status
 )
 ;
-Reboot
-(
-)
-;
-PowerOff
-(
-)
-;
 ModifyWakeLock
 (
 nsString
