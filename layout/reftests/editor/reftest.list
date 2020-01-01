@@ -219,13 +219,3 @@ spellcheck
 ref
 .
 html
-!
-=
-caret_on_textarea_lastline
-.
-html
-caret_on_textarea_lastline
--
-ref
-.
-html

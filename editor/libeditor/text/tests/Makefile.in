@@ -445,10 +445,6 @@ test_bug569988
 .
 html
 \
-test_bug590554
-.
-html
-\
 (
 NULL
 )

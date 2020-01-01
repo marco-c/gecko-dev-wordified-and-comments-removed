@@ -3289,16 +3289,6 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-virtual
-PRBool
-HasAnyNoncollapsedCharacters
-(
-)
-{
-return
-PR_FALSE
-;
-}
 PRBool
 HasView
 (
