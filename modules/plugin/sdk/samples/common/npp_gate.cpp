@@ -12,9 +12,9 @@ NPMIMEType
 pluginType
 NPP
 instance
-uint16
+uint16_t
 mode
-int16
+int16_t
 argc
 char
 *
@@ -348,7 +348,7 @@ NPStream
 stream
 NPBool
 seekable
-uint16
+uint16_t
 *
 stype
 )
@@ -395,7 +395,7 @@ stype
 )
 ;
 }
-int32
+int32_t
 NPP_WriteReady
 (
 NPP
@@ -444,7 +444,7 @@ stream
 )
 ;
 }
-int32
+int32_t
 NPP_Write
 (
 NPP
@@ -452,9 +452,9 @@ instance
 NPStream
 *
 stream
-int32
+int32_t
 offset
-int32
+int32_t
 len
 void
 *
@@ -810,7 +810,7 @@ value
 )
 ;
 }
-int16
+int16_t
 NPP_HandleEvent
 (
 NPP
