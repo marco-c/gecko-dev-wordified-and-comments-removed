@@ -224,6 +224,17 @@ mozIStorageStatementCallback
 aCallback
 )
 ;
+void
+checkAndNotify
+(
+nsIURI
+*
+aPageURI
+nsIURI
+*
+aFaviconURI
+)
+;
 nsresult
 FinalizeStatements
 (
