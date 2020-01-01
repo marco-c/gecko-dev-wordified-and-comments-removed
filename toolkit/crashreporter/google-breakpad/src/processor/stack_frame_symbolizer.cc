@@ -168,7 +168,7 @@ if
 modules
 )
 return
-ERROR
+kError
 ;
 const
 CodeModule
@@ -192,7 +192,7 @@ if
 module
 )
 return
-ERROR
+kError
 ;
 frame
 -
@@ -207,7 +207,7 @@ if
 resolver_
 )
 return
-ERROR
+kError
 ;
 if
 (
@@ -232,7 +232,7 @@ end
 )
 {
 return
-ERROR
+kError
 ;
 }
 if
@@ -258,7 +258,7 @@ frame
 )
 ;
 return
-NO_ERROR
+kNoError
 ;
 }
 if
@@ -268,7 +268,7 @@ supplier_
 )
 {
 return
-ERROR
+kError
 ;
 }
 string
@@ -359,7 +359,7 @@ frame
 )
 ;
 return
-NO_ERROR
+kNoError
 ;
 }
 else
@@ -394,7 +394,7 @@ code_file
 )
 ;
 return
-ERROR
+kError
 ;
 }
 }
@@ -417,7 +417,7 @@ code_file
 )
 ;
 return
-ERROR
+kError
 ;
 case
 SymbolSupplier
@@ -426,7 +426,7 @@ SymbolSupplier
 INTERRUPT
 :
 return
-INTERRUPT
+kInterrupt
 ;
 default
 :
@@ -447,11 +447,11 @@ enum
 symbol_result
 ;
 return
-ERROR
+kError
 ;
 }
 return
-ERROR
+kError
 ;
 }
 WindowsFrameInfo

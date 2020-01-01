@@ -59,6 +59,12 @@ c_path_
 (
 NULL
 )
+size_limit_
+(
+descriptor
+.
+size_limit_
+)
 {
 assert
 (
@@ -129,6 +135,12 @@ UpdatePath
 )
 ;
 }
+size_limit_
+=
+descriptor
+.
+size_limit_
+;
 return
 *
 this

@@ -871,6 +871,7 @@ string
 *
 y
 )
+const
 {
 return
 *

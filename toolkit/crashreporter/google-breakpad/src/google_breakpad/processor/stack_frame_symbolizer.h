@@ -77,9 +77,9 @@ public
 enum
 SymbolizerResult
 {
-NO_ERROR
-ERROR
-INTERRUPT
+kNoError
+kError
+kInterrupt
 }
 ;
 StackFrameSymbolizer
