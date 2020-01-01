@@ -4771,9 +4771,6 @@ LookAndFeel
 ColorID
 colorID
 ;
-nsresult
-result
-;
 if
 (
 mSelectionValue
