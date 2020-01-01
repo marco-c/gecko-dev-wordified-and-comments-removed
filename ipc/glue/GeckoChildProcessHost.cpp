@@ -1555,7 +1555,10 @@ restoreOrigLogName
 =
 strdup
 (
+PromiseFlatCString
+(
 setChildLogName
+)
 .
 get
 (
@@ -1584,7 +1587,10 @@ mChildCounter
 ;
 PR_SetEnv
 (
+PromiseFlatCString
+(
 setChildLogName
+)
 .
 get
 (

@@ -898,7 +898,10 @@ mCurrentContext
 >
 GetInputStream
 (
+nsPromiseFlatCString
+(
 encoderType
+)
 .
 get
 (
@@ -952,7 +955,10 @@ encoder
 =
 do_CreateInstance
 (
+nsPromiseFlatCString
+(
 enccid
+)
 .
 get
 (
@@ -1746,7 +1752,10 @@ ctx
 =
 do_CreateInstance
 (
+nsPromiseFlatCString
+(
 ctxString
+)
 .
 get
 (
