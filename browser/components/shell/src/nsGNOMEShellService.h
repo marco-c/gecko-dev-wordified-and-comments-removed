@@ -34,6 +34,10 @@ mCheckedThisSession
 (
 PR_FALSE
 )
+mAppIsInPath
+(
+PR_FALSE
+)
 {
 }
 NS_DECL_ISUPPORTS
@@ -65,6 +69,14 @@ aKeyValue
 )
 const
 ;
+NS_HIDDEN_
+(
+PRBool
+)
+GetAppPathFromLauncher
+(
+)
+;
 PRPackedBool
 mCheckedThisSession
 ;
@@ -73,6 +85,9 @@ mUseLocaleFilenames
 ;
 nsCString
 mAppPath
+;
+PRPackedBool
+mAppIsInPath
 ;
 }
 ;
