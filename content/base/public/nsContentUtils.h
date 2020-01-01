@@ -3530,6 +3530,7 @@ nsIPresShell
 *
 FindPresShellForDocument
 (
+const
 nsIDocument
 *
 aDoc
@@ -3540,6 +3541,7 @@ nsIWidget
 *
 WidgetForDocument
 (
+const
 nsIDocument
 *
 aDoc
@@ -3558,6 +3560,7 @@ LayerManager
 >
 LayerManagerForDocument
 (
+const
 nsIDocument
 *
 aDoc

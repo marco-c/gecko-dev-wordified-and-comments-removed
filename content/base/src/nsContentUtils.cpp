@@ -27837,11 +27837,13 @@ nsContentUtils
 :
 FindPresShellForDocument
 (
+const
 nsIDocument
 *
 aDoc
 )
 {
+const
 nsIDocument
 *
 doc
@@ -27982,6 +27984,7 @@ nsContentUtils
 :
 WidgetForDocument
 (
+const
 nsIDocument
 *
 aDoc
@@ -28074,6 +28077,7 @@ LayerManager
 >
 LayerManagerForDocumentInternal
 (
+const
 nsIDocument
 *
 aDoc
@@ -28147,6 +28151,7 @@ nsContentUtils
 :
 LayerManagerForDocument
 (
+const
 nsIDocument
 *
 aDoc
