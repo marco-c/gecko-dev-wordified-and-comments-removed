@@ -606,7 +606,7 @@ byte
 charset
 ?
 *
-isXSSVulnerable
+isInternal
 -
 not
 to
@@ -616,6 +616,7 @@ in
 untrusted
 web
 content
+.
 *
 *
 param

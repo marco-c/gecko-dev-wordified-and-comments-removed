@@ -451,7 +451,7 @@ NS_LITERAL_STRING
 (
 "
 .
-isXSSVulnerable
+isInternal
 "
 )
 .

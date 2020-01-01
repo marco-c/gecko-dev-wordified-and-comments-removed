@@ -507,13 +507,14 @@ default
 charsets
 with
 the
-isXSSVulnerable
+isInternal
 flag
 *
 may
 not
 be
 accessed
+.
 *
 /
 attribute
