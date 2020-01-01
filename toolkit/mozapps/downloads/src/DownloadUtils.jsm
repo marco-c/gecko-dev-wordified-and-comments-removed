@@ -359,6 +359,7 @@ DownloadUtils
 getDownloadStatus
 :
 function
+DU_getDownloadStatus
 (
 aCurrBytes
 aMaxBytes
@@ -526,6 +527,7 @@ newLast
 getTransferTotal
 :
 function
+DU_getTransferTotal
 (
 aCurrBytes
 aMaxBytes
@@ -648,6 +650,7 @@ transfer
 getTimeLeft
 :
 function
+DU_getTimeLeft
 (
 aSeconds
 aLastSec
@@ -956,6 +959,7 @@ aSeconds
 getURIHost
 :
 function
+DU_getURIHost
 (
 aURIString
 )
@@ -1225,6 +1229,7 @@ fullHost
 convertByteUnits
 :
 function
+DU_convertByteUnits
 (
 aBytes
 )
@@ -1308,6 +1313,7 @@ unitIndex
 convertTimeUnits
 :
 function
+DU_convertTimeUnits
 (
 aSecs
 )
