@@ -4047,6 +4047,9 @@ aIsUnload
 if
 (
 mEditorData
+&
+&
+aIsUnload
 )
 {
 mEditorData
