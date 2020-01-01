@@ -42575,6 +42575,17 @@ MOZ_IPC
 =
 ;
 ;
+i386
+-
+apple
+-
+darwin
+*
+)
+MOZ_IPC
+=
+;
+;
 *
 -
 wince
