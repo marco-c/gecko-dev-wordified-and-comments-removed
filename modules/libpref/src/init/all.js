@@ -31812,7 +31812,7 @@ pref
 "
 memory
 .
-low_physical_mem_threshold_mb
+low_physical_memory_threshold_mb
 "
 0
 )
