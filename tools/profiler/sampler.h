@@ -92,6 +92,17 @@ info
 )
 #
 define
+SAMPLE_LABEL_PRINTF
+(
+name_space
+info
+format
+.
+.
+.
+)
+#
+define
 SAMPLE_LABEL_FN
 (
 name_space
