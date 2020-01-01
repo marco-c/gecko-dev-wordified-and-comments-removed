@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLAreaElement2
-.
-h
-"
-#
-include
-"
 nsIDOMEventTarget
 .
 h
@@ -104,8 +97,6 @@ nsGenericHTMLElement
 public
 nsIDOMHTMLAreaElement
 public
-nsIDOMNSHTMLAreaElement2
-public
 nsILink
 public
 Link
@@ -147,8 +138,6 @@ nsGenericHTMLElement
 :
 )
 NS_DECL_NSIDOMHTMLAREAELEMENT
-NS_DECL_NSIDOMNSHTMLAREAELEMENT
-NS_DECL_NSIDOMNSHTMLAREAELEMENT2
 NS_IMETHOD
 LinkAdded
 (
@@ -393,12 +382,10 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLAreaElement
 )
-NS_HTML_CONTENT_INTERFACE_TABLE5
+NS_HTML_CONTENT_INTERFACE_TABLE3
 (
 nsHTMLAreaElement
 nsIDOMHTMLAreaElement
-nsIDOMNSHTMLAreaElement
-nsIDOMNSHTMLAreaElement2
 nsILink
 Link
 )
