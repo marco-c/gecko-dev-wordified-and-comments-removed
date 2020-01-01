@@ -551,6 +551,15 @@ regress
 668438
 .
 js
+skip
+-
+if
+(
+!
+xulRuntime
+.
+shell
+)
 script
 regress
 -
