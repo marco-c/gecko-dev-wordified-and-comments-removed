@@ -180,6 +180,17 @@ index
 ;
 void
 JS_FASTCALL
+GetUpvar
+(
+VMFrame
+&
+f
+uint32
+index
+)
+;
+void
+JS_FASTCALL
 DefFun
 (
 VMFrame
