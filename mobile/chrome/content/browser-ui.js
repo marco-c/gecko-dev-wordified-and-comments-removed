@@ -14128,7 +14128,15 @@ handler
 callback
 (
 aURL
+|
+|
+"
+"
 aTitle
+|
+|
+"
+"
 )
 ;
 }
@@ -14214,10 +14222,6 @@ subject
 encodeURIComponent
 (
 aTitle
-|
-|
-"
-"
 )
 +
 "
