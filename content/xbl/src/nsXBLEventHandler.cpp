@@ -618,6 +618,14 @@ aEvent
 )
 )
 ;
+if
+(
+!
+key
+)
+return
+NS_OK
+;
 nsAutoTArray
 <
 nsShortcutCandidate
@@ -630,7 +638,7 @@ nsContentUtils
 :
 GetAccelKeyCandidates
 (
-aEvent
+key
 accessKeys
 )
 ;

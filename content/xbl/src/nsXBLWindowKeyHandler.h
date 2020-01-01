@@ -28,6 +28,9 @@ class
 nsIDOMEventTarget
 ;
 class
+nsIDOMKeyEvent
+;
+class
 nsPIDOMEventTarget
 ;
 class
@@ -114,7 +117,7 @@ protected
 nsresult
 WalkHandlers
 (
-nsIDOMEvent
+nsIDOMKeyEvent
 *
 aKeyEvent
 nsIAtom
@@ -125,7 +128,7 @@ aEventType
 nsresult
 WalkHandlersInternal
 (
-nsIDOMEvent
+nsIDOMKeyEvent
 *
 aKeyEvent
 nsIAtom
@@ -139,9 +142,9 @@ aHandler
 PRBool
 WalkHandlersAndExecute
 (
-nsIDOMEvent
+nsIDOMKeyEvent
 *
-aEvent
+aKeyEvent
 nsIAtom
 *
 aEventType
@@ -171,7 +174,7 @@ inHandler
 nsIAtom
 *
 inEventType
-nsIDOMEvent
+nsIDOMKeyEvent
 *
 inEvent
 PRUint32

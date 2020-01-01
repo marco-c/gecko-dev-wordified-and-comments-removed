@@ -142,6 +142,9 @@ class
 nsIDOMNode
 ;
 class
+nsIDOMKeyEvent
+;
+class
 nsIDocument
 ;
 class
@@ -2209,9 +2212,9 @@ static
 void
 GetAccelKeyCandidates
 (
-nsIDOMEvent
+nsIDOMKeyEvent
 *
-aDOMEvent
+aDOMKeyEvent
 nsTArray
 <
 nsShortcutCandidate
