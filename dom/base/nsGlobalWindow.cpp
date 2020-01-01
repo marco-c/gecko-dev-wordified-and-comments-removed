@@ -16508,6 +16508,10 @@ aStatus
 NS_ERROR_NOT_INITIALIZED
 )
 ;
+mStatus
+=
+aStatus
+;
 if
 (
 !
@@ -16525,10 +16529,6 @@ return
 NS_OK
 ;
 }
-mStatus
-=
-aStatus
-;
 nsCOMPtr
 <
 nsIWebBrowserChrome

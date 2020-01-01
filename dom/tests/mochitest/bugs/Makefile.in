@@ -630,6 +630,10 @@ test_resize_move_windows
 .
 html
 \
+test_bug862540
+.
+html
+\
 (
 NULL
 )
