@@ -223,11 +223,13 @@ mTextureIDs
 }
 Override
 protected
-void
+boolean
 performUpdates
 (
 GL10
 gl
+RenderContext
+context
 )
 {
 super
@@ -235,6 +237,7 @@ super
 performUpdates
 (
 gl
+context
 )
 ;
 if
@@ -272,6 +275,9 @@ GeckoAppShell
 bindWidgetTexture
 (
 )
+;
+return
+true
 ;
 }
 Override
