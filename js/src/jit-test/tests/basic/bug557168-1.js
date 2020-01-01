@@ -31,7 +31,15 @@ x
 ;
 \
 f
+.
+apply
 (
+null
+new
+Array
+(
+100
+)
 )
 \
 }

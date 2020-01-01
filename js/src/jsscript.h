@@ -2158,6 +2158,9 @@ js
 StackFrame
 *
 fp
+jsbytecode
+*
+pc
 )
 ;
 extern
@@ -2202,6 +2205,15 @@ script
 namespace
 js
 {
+extern
+uintN
+CurrentLine
+(
+JSContext
+*
+cx
+)
+;
 enum
 LineOption
 {
