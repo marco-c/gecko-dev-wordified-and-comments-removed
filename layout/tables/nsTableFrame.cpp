@@ -7943,6 +7943,15 @@ frameType
 nsGkAtoms
 :
 :
+scrollFrame
+=
+=
+frameType
+|
+|
+nsGkAtoms
+:
+:
 tableFrame
 =
 =
