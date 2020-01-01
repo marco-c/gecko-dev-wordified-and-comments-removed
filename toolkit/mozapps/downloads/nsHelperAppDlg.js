@@ -2572,7 +2572,7 @@ strings
 getFormattedString
 (
 "
-fileSizeWithType
+orderedFileSizeWithType
 "
 [
 typeString
