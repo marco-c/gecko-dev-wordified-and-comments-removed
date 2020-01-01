@@ -99,7 +99,7 @@ nsBuiltinDecoder
 *
 mDecoder
 ;
-PRUint64
+float
 mSamplesPerSecond
 ;
 nsAutoArrayPtr

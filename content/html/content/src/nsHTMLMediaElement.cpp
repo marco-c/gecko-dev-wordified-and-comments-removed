@@ -486,10 +486,6 @@ nsChannelPolicy
 .
 h
 "
-#
-define
-MS_PER_SECOND
-1000
 using
 namespace
 mozilla
@@ -2481,7 +2477,7 @@ float
 aFrameBuffer
 PRUint32
 aFrameBufferLength
-PRUint64
+float
 aTime
 )
 {
@@ -8966,7 +8962,7 @@ float
 aFrameBuffer
 PRUint32
 aFrameBufferLength
-PRUint64
+float
 aTime
 )
 {
@@ -9086,12 +9082,7 @@ forget
 (
 )
 aFrameBufferLength
-(
-float
-)
 aTime
-/
-MS_PER_SECOND
 mAllowAudioData
 )
 ;

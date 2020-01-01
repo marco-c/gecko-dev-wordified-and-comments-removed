@@ -1130,7 +1130,7 @@ float
 aFrameBuffer
 PRUint32
 aFrameBufferLength
-PRUint64
+float
 aTime
 )
 {
