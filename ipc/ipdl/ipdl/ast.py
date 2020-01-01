@@ -1904,6 +1904,13 @@ outParams
 =
 [
 ]
+        
+self
+.
+compress
+=
+'
+'
     
 def
 addInParams
