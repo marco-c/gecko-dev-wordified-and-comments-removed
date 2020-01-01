@@ -352,6 +352,7 @@ length
 void
 characters
 (
+const
 PRUnichar
 *
 buf
@@ -961,6 +962,7 @@ protected
 void
 accumulateCharacters
 (
+const
 PRUnichar
 *
 buf

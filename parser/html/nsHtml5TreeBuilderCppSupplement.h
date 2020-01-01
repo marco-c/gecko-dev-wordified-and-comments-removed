@@ -3426,6 +3426,7 @@ nsHtml5TreeBuilder
 :
 accumulateCharacters
 (
+const
 PRUnichar
 *
 aBuf

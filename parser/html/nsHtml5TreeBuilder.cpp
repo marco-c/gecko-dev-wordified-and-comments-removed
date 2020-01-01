@@ -887,6 +887,7 @@ nsHtml5TreeBuilder
 :
 characters
 (
+const
 PRUnichar
 *
 buf

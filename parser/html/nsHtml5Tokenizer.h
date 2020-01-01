@@ -330,6 +330,9 @@ PRInt32
 entCol
 ;
 PRInt32
+firstCharKey
+;
+PRInt32
 lo
 ;
 PRInt32
@@ -998,13 +1001,11 @@ internalCharset
 private
 :
 void
-emitOrAppend
+emitOrAppendTwo
 (
-jArray
-<
+const
 PRUnichar
-PRInt32
->
+*
 val
 PRInt32
 returnState
@@ -1013,6 +1014,7 @@ returnState
 void
 emitOrAppendOne
 (
+const
 PRUnichar
 *
 val
@@ -1593,7 +1595,7 @@ NS_HTML5TOKENIZER_CONSUME_NCR
 43
 #
 define
-NS_HTML5TOKENIZER_CHARACTER_REFERENCE_LOOP
+NS_HTML5TOKENIZER_CHARACTER_REFERENCE_TAIL
 44
 #
 define
@@ -1703,6 +1705,10 @@ NS_HTML5TOKENIZER_SCRIPT_DATA_DOUBLE_ESCAPED_DASH_DASH
 define
 NS_HTML5TOKENIZER_SCRIPT_DATA_DOUBLE_ESCAPE_END
 71
+#
+define
+NS_HTML5TOKENIZER_CHARACTER_REFERENCE_HILO_LOOKUP
+72
 #
 define
 NS_HTML5TOKENIZER_LEAD_OFFSET
