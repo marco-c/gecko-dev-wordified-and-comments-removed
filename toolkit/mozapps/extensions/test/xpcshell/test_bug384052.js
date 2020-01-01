@@ -690,7 +690,7 @@ custom_parameter_2
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 test

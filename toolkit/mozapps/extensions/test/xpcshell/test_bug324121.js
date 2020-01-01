@@ -712,7 +712,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 ADDONS
 [

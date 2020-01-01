@@ -56,7 +56,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 bug541420

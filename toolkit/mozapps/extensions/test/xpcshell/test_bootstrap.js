@@ -317,7 +317,7 @@ check_test_1
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 bootstrap1
@@ -503,7 +503,7 @@ uri
 ;
 AddonManager
 .
-getAddonsWithPendingOperations
+getAddonsWithOperationsByTypes
 (
 null
 function
@@ -537,7 +537,7 @@ run_test_2
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 bootstrap1
@@ -654,7 +654,7 @@ org
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 bootstrap1
@@ -769,7 +769,7 @@ org
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 bootstrap1
@@ -838,7 +838,7 @@ run_test_4
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 bootstrap1
@@ -955,7 +955,7 @@ org
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 bootstrap1
@@ -1087,7 +1087,7 @@ org
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 bootstrap1
@@ -1297,7 +1297,7 @@ check_test_6
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 bootstrap1
@@ -1408,7 +1408,7 @@ run_test_7
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 bootstrap1
@@ -1499,7 +1499,7 @@ org
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 bootstrap1
@@ -1527,7 +1527,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 bootstrap1
@@ -1708,7 +1708,7 @@ false
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 bootstrap1
@@ -1842,7 +1842,7 @@ false
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 bootstrap1

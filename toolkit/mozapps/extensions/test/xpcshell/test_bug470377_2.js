@@ -146,7 +146,7 @@ restartManager
 ;
 AddonManager
 .
-getAddons
+getAddonsByIDs
 (
 [
 "

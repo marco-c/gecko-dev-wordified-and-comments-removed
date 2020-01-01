@@ -775,7 +775,7 @@ restartManager
 ;
 AddonManager
 .
-getAddons
+getAddonsByIDs
 (
 [
 a
@@ -991,7 +991,7 @@ n
 ;
 AddonManager
 .
-getAddons
+getAddonsByIDs
 (
 [
 a

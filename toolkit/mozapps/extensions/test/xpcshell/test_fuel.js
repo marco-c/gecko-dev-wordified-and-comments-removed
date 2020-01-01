@@ -473,7 +473,7 @@ onGenericEvent
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 testdata
 .

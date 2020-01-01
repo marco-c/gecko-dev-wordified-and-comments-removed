@@ -416,7 +416,7 @@ startupManager
 ;
 AddonManager
 .
-getAddons
+getAddonsByIDs
 (
 [
 "

@@ -698,7 +698,7 @@ startupManager
 ;
 AddonManager
 .
-getAddons
+getAddonsByIDs
 (
 [
 "

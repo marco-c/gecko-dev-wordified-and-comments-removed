@@ -112,7 +112,7 @@ startupManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -169,7 +169,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -281,7 +281,7 @@ onUninstalling
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -339,7 +339,7 @@ ensure_test_completed
 ;
 AddonManager
 .
-getAddonsWithPendingOperations
+getAddonsWithOperationsByTypes
 (
 null
 function
@@ -396,7 +396,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -521,7 +521,7 @@ onUninstalling
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -656,7 +656,7 @@ restartManager
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -717,7 +717,7 @@ run_test_3
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -827,7 +827,7 @@ ensure_test_completed
 ;
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -924,7 +924,7 @@ run_test_4
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
@@ -1017,7 +1017,7 @@ check_test_4
 {
 AddonManager
 .
-getAddon
+getAddonByID
 (
 "
 addon1
