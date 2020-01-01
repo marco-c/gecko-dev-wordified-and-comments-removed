@@ -2598,8 +2598,6 @@ info
 -
 >
 mBytesRead
-.
-mValue
 )
 )
 ;

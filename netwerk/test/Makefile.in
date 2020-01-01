@@ -514,6 +514,11 @@ ReadNTLM
 BIN_SUFFIX
 )
 \
+TestProtocols
+(
+BIN_SUFFIX
+)
+\
 (
 NULL
 )
@@ -549,11 +554,6 @@ BIN_SUFFIX
 )
 \
 TestStreamPump
-(
-BIN_SUFFIX
-)
-\
-TestProtocols
 (
 BIN_SUFFIX
 )
