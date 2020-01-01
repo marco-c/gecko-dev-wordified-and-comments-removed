@@ -1092,6 +1092,14 @@ Shape
 *
 initialRegExpShape
 ;
+const
+js
+:
+:
+Shape
+*
+initialStringShape
+;
 bool
 debugMode
 ;
