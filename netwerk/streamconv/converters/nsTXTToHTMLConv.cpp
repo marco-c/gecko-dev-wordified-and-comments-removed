@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 nsEscape
 .
 h
@@ -30,6 +23,13 @@ h
 include
 "
 nsAutoPtr
+.
+h
+"
+#
+include
+"
+nsIChannel
 .
 h
 "

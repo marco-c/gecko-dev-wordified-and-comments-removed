@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIChannel
-.
-h
-"
-#
-include
-"
 nsIContentSniffer
 .
 h

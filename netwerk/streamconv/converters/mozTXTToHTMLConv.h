@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIIOService
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -32,6 +25,9 @@ nsCOMPtr
 .
 h
 "
+class
+nsIIOService
+;
 class
 mozTXTToHTMLConv
 :
