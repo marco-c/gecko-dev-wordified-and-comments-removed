@@ -745,6 +745,8 @@ mozilla
 .
 org
 "
+callback_soon
+(
 function
 (
 a1
@@ -792,6 +794,7 @@ run_test_6
 )
 ;
 }
+)
 )
 ;
 }
@@ -1324,8 +1327,9 @@ uninstall
 (
 )
 ;
-do_test_finished
+do_execute_soon
 (
+do_test_finished
 )
 ;
 }

@@ -919,13 +919,9 @@ a4
 a5
 )
 ;
-do_test_finished
+do_execute_soon
 (
-"
-checkcompatibility
-.
-js
-"
+do_test_finished
 )
 ;
 }

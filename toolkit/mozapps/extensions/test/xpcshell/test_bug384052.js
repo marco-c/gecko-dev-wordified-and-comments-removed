@@ -654,8 +654,9 @@ do_check_true
 gSeenExpectedURL
 )
 ;
-shutdownTest
+do_execute_soon
 (
+shutdownTest
 )
 ;
 }

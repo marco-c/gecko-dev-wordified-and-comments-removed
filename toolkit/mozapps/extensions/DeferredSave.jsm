@@ -182,6 +182,12 @@ overlappedSaves
 =
 0
 ;
+this
+.
+_lastError
+=
+null
+;
 if
 (
 aDelay
@@ -229,7 +235,7 @@ writeInProgress
 ;
 }
 get
-error
+lastError
 (
 )
 {

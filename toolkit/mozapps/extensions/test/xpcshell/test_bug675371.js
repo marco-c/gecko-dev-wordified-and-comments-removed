@@ -104,15 +104,10 @@ onInstallStarted
 onInstallEnded
 "
 ]
-function
-(
-)
-{
-do_execute_soon
+callback_soon
 (
 check_test
 )
-}
 )
 ;
 install
@@ -445,8 +440,9 @@ active
 )
 ;
 }
-do_test_finished
+do_execute_soon
 (
+do_test_finished
 )
 ;
 }
