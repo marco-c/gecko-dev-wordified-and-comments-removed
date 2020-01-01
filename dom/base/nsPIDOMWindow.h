@@ -1598,6 +1598,9 @@ DisableTimeChangeNotifications
 =
 0
 ;
+#
+ifdef
+MOZ_B2G
 virtual
 void
 EnableNetworkEvent
@@ -1618,6 +1621,8 @@ aType
 =
 0
 ;
+#
+endif
 virtual
 nsresult
 SetArguments
