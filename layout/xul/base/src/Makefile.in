@@ -641,14 +641,6 @@ nsMenuBarListener
 .
 cpp
 \
-nsMenuListener
-.
-cpp
-\
-nsMenuDismissalListener
-.
-cpp
-\
 nsPopupSetFrame
 .
 cpp
@@ -670,6 +662,10 @@ nsListItemFrame
 cpp
 \
 nsListBoxLayout
+.
+cpp
+\
+nsXULPopupManager
 .
 cpp
 \

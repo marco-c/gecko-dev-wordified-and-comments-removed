@@ -211,7 +211,7 @@ aContext
 ;
 NS_DECL_ISUPPORTS_INHERITED
 virtual
-nsIFrame
+nsPopupSetFrame
 *
 GetPopupSetFrame
 (
@@ -221,7 +221,7 @@ virtual
 void
 SetPopupSetFrame
 (
-nsIFrame
+nsPopupSetFrame
 *
 aPopupSet
 )
@@ -404,7 +404,7 @@ const
 ;
 #
 endif
-nsIFrame
+nsPopupSetFrame
 *
 mPopupSetFrame
 ;
@@ -905,7 +905,7 @@ nsGkAtoms
 rootFrame
 ;
 }
-nsIFrame
+nsPopupSetFrame
 *
 nsRootBoxFrame
 :
@@ -924,7 +924,7 @@ nsRootBoxFrame
 :
 SetPopupSetFrame
 (
-nsIFrame
+nsPopupSetFrame
 *
 aPopupSet
 )

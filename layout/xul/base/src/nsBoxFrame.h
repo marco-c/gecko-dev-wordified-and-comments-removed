@@ -465,6 +465,10 @@ nsStyleContext
 aStyleContext
 PRBool
 aForce
+PRBool
+aIsPopup
+=
+PR_FALSE
 )
 ;
 NS_IMETHOD

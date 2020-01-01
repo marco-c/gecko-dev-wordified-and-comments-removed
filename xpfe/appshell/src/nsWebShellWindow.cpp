@@ -387,13 +387,6 @@ define
 USE_NATIVE_MENUS
 #
 endif
-#
-include
-"
-nsIPopupSetFrame
-.
-h
-"
 static
 NS_DEFINE_CID
 (
