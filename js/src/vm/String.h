@@ -305,7 +305,7 @@ JS_BITMASK
 static
 const
 size_t
-NON_STATIC_ATOM_FLAGS
+ATOM_FLAGS
 =
 JS_BIT
 (

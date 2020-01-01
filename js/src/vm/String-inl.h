@@ -1141,7 +1141,7 @@ buildLengthAndFlags
 length
 (
 )
-NON_STATIC_ATOM_FLAGS
+ATOM_FLAGS
 )
 ;
 return
