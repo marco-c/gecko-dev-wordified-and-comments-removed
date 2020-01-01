@@ -2933,6 +2933,15 @@ get
 )
 ;
 }
+if
+(
+!
+ioImage
+)
+{
+return
+;
+}
 gl
 (
 )
