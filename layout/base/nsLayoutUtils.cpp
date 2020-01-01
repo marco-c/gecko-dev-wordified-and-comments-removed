@@ -14022,8 +14022,10 @@ y
 )
 ;
 }
-static
 gfxRect
+nsLayoutUtils
+:
+:
 RectToGfxRect
 (
 const
@@ -14195,6 +14197,9 @@ SnappedImageDrawingParameters
 gfxRect
 devPixelDest
 =
+nsLayoutUtils
+:
+:
 RectToGfxRect
 (
 aDest
@@ -14204,6 +14209,9 @@ aAppUnitsPerDevPixel
 gfxRect
 devPixelFill
 =
+nsLayoutUtils
+:
+:
 RectToGfxRect
 (
 aFill
@@ -14213,6 +14221,9 @@ aAppUnitsPerDevPixel
 gfxRect
 devPixelDirty
 =
+nsLayoutUtils
+:
+:
 RectToGfxRect
 (
 aDirty
