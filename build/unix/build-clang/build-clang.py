@@ -442,6 +442,14 @@ optimized
 "
 -
 -
+disable
+-
+assertions
+"
+                      
+"
+-
+-
 prefix
 =
 %
