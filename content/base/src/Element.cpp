@@ -5751,8 +5751,11 @@ RemovedFullScreenElement
 nsIDocument
 :
 :
-ExitFullScreen
+ExitFullscreen
 (
+OwnerDoc
+(
+)
 false
 )
 ;

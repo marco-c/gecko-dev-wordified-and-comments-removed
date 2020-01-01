@@ -29295,8 +29295,9 @@ NS_KEY_UP
 nsIDocument
 :
 :
-ExitFullScreen
+ExitFullscreen
 (
+nullptr
 true
 )
 ;

@@ -5505,8 +5505,14 @@ FocusedWindowedPluginWhileFullScreen
 nsIDocument
 :
 :
-ExitFullScreen
+ExitFullscreen
 (
+contentToFocus
+-
+>
+OwnerDoc
+(
+)
 true
 )
 ;
