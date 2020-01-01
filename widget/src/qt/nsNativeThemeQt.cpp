@@ -49,6 +49,9 @@ include
 QStyleOptionComboBox
 >
 #
+undef
+slots
+#
 include
 "
 nsIFrame

@@ -17,6 +17,9 @@ QX11Info
 #
 endif
 #
+undef
+slots
+#
 endif
 #
 include
