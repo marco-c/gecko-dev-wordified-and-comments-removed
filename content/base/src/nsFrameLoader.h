@@ -314,11 +314,6 @@ nsFrameLoader
 aSecondToSwap
 )
 ;
-void
-DestroyChild
-(
-)
-;
 #
 ifdef
 MOZ_IPC
@@ -336,15 +331,6 @@ GetChildProcess
 ;
 #
 endif
-NS_IMETHOD
-GetCrossProcessObjectWrapper
-(
-nsIVariant
-*
-*
-cpow
-)
-;
 nsFrameMessageManager
 *
 GetFrameMessageManager
