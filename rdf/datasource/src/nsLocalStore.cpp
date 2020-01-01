@@ -1201,7 +1201,7 @@ do_QueryInterface
 mInner
 )
 ;
-NS_ASSERTION
+NS_WARN_IF_FALSE
 (
 remote
 !
