@@ -934,9 +934,7 @@ stableStr
 return
 false
 ;
-const
-jschar
-*
+StableCharPtr
 chars
 =
 stableStr
@@ -1114,7 +1112,7 @@ chars
 :
 chars
 +
-1
+1U
 isArray
 ?
 length

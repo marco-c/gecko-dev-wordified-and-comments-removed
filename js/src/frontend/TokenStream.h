@@ -1528,9 +1528,7 @@ const
 CompileOptions
 &
 options
-const
-jschar
-*
+StableCharPtr
 base
 size_t
 length
@@ -3166,12 +3164,6 @@ prevLinebaseRoot
 ;
 TokenBuf
 userbuf
-;
-js
-:
-:
-SkipRoot
-userbufRoot
 ;
 const
 char

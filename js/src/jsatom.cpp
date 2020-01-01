@@ -1760,6 +1760,10 @@ stable
 chars
 (
 )
+.
+get
+(
+)
 ;
 size_t
 length

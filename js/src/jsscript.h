@@ -3944,9 +3944,7 @@ setSourceCopy
 JSContext
 *
 cx
-const
-jschar
-*
+StableCharPtr
 src
 uint32_t
 length

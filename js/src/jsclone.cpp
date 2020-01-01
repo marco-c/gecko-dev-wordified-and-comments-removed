@@ -5310,8 +5310,7 @@ length
 )
 ;
 const
-jschar
-*
+StableCharPtr
 chars
 =
 stable

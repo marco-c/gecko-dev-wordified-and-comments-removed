@@ -6085,6 +6085,10 @@ str
 chars
 (
 )
+.
+get
+(
+)
 ;
 length
 =
@@ -9153,7 +9157,11 @@ parser
 (
 cx
 options
+StableCharPtr
+(
 chars
+length
+)
 length
 true
 )
