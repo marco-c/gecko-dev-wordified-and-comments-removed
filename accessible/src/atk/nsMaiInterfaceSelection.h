@@ -11,13 +11,6 @@ nsMai
 .
 h
 "
-#
-include
-"
-nsIAccessibleSelectable
-.
-h
-"
 G_BEGIN_DECLS
 void
 selectionInterfaceInitCB
