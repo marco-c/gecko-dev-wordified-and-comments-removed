@@ -509,7 +509,7 @@ mLengthAttributes
 SVGSVGElement
 :
 :
-X
+ATTR_X
 ]
 .
 IsPercentage
@@ -525,7 +525,7 @@ mLengthAttributes
 SVGSVGElement
 :
 :
-Y
+ATTR_Y
 ]
 .
 IsPercentage
@@ -543,7 +543,7 @@ mLengthAttributes
 SVGSVGElement
 :
 :
-WIDTH
+ATTR_WIDTH
 ]
 .
 IsPercentage
@@ -559,7 +559,7 @@ mLengthAttributes
 SVGSVGElement
 :
 :
-HEIGHT
+ATTR_HEIGHT
 ]
 .
 IsPercentage

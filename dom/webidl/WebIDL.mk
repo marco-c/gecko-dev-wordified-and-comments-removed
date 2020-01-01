@@ -599,6 +599,10 @@ SVGStyleElement
 .
 webidl
 \
+SVGSVGElement
+.
+webidl
+\
 SVGSwitchElement
 .
 webidl

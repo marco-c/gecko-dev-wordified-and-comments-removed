@@ -140,9 +140,6 @@ apply
 *
 /
 interface
-SVGSVGElement
-;
-interface
 SVGAnimatedString
 ;
 interface
