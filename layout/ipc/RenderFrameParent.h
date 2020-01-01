@@ -166,6 +166,16 @@ ShadowLayersParent
 ShadowLayersParent
 ;
 typedef
+mozilla
+:
+:
+FrameLayerBuilder
+:
+:
+ContainerParameters
+ContainerParameters
+;
+typedef
 FrameMetrics
 :
 :
@@ -301,6 +311,10 @@ aVisibleRect
 nsDisplayItem
 *
 aItem
+const
+ContainerParameters
+&
+aContainerParameters
 )
 ;
 void

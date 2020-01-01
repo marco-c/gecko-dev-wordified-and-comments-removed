@@ -4063,6 +4063,7 @@ BuildLayer
 aBuilder
 aManager
 this
+aContainerParameters
 )
 ;
 }
@@ -4344,6 +4345,7 @@ BuildLayer
 aBuilder
 aManager
 this
+aContainerParameters
 )
 ;
 }
@@ -7264,6 +7266,10 @@ aManager
 nsDisplayItem
 *
 aItem
+const
+ContainerParameters
+&
+aContainerParameters
 )
 {
 if
@@ -7961,6 +7967,10 @@ r
 TopLeft
 (
 )
++
+aContainerParameters
+.
+mOffset
 )
 ;
 layer

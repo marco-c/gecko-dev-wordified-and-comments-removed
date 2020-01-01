@@ -307,6 +307,10 @@ aXScale
 float
 aYScale
 const
+nsIntPoint
+&
+aOffset
+const
 ContainerParameters
 &
 aParent
@@ -319,6 +323,10 @@ aXScale
 mYScale
 (
 aYScale
+)
+mOffset
+(
+aOffset
 )
 mInTransformedSubtree
 (
@@ -343,6 +351,9 @@ mDisableSubpixelAntialiasingInDescendants
 float
 mXScale
 mYScale
+;
+nsIntPoint
+mOffset
 ;
 bool
 mInTransformedSubtree
