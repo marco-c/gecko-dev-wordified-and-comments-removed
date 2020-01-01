@@ -184,6 +184,10 @@ PP_FILL
 5
 #
 define
+PP_MOVEOVERLAY
+8
+#
+define
 TABP_TAB
 4
 #
