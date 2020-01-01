@@ -4689,6 +4689,7 @@ aTab
 )
 ;
 }
+this
 )
 ;
 openWindows
