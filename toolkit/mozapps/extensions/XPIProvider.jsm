@@ -8288,6 +8288,10 @@ checkForChanges
 if
 (
 aAppChanged
+!
+=
+=
+false
 )
 this
 .
