@@ -24,6 +24,13 @@ un
 h
 >
 #
+include
+<
+netdb
+.
+h
+>
+#
 undef
 LOG
 #
