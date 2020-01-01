@@ -189,9 +189,14 @@ ids
 =
 {
 UiaAppendRuntimeId
-reinterpret_cast
+static_cast
 <
 int
+>
+(
+reinterpret_cast
+<
+intptr_t
 >
 (
 mAcc
@@ -199,6 +204,7 @@ mAcc
 >
 UniqueID
 (
+)
 )
 )
 }

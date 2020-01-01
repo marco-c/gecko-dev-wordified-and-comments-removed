@@ -8,6 +8,15 @@ h
 #
 include
 "
+Accessible
+-
+inl
+.
+h
+"
+#
+include
+"
 Compatibility
 .
 h
@@ -234,9 +243,9 @@ h
 #
 include
 "
-OLEACC
+oleacc
 .
-H
+h
 "
 using
 namespace
@@ -4870,7 +4879,7 @@ uniqueID
 -
 reinterpret_cast
 <
-long
+intptr_t
 >
 (
 UniqueID

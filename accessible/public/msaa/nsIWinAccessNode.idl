@@ -106,7 +106,7 @@ C
 #
 include
 "
-Guiddef
+guiddef
 .
 h
 "

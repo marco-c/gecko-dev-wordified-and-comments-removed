@@ -21,7 +21,7 @@ h
 #
 include
 "
-ia2AccessibleHyperText
+ia2AccessibleHypertext
 .
 h
 "
