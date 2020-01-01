@@ -505,6 +505,12 @@ itemCount
 ;
 richListBox
 .
+focus
+(
+)
+;
+richListBox
+.
 selectedIndex
 =
 count
@@ -516,7 +522,6 @@ sendKey
 "
 DOWN
 "
-richListBox
 )
 ;
 is
@@ -543,7 +548,6 @@ sendKey
 "
 UP
 "
-richListBox
 )
 ;
 is
@@ -570,7 +574,6 @@ sendKey
 "
 END
 "
-richListBox
 )
 ;
 is
@@ -595,7 +598,6 @@ sendKey
 "
 HOME
 "
-richListBox
 )
 ;
 is
@@ -638,7 +640,6 @@ sendKey
 "
 PAGE_DOWN
 "
-richListBox
 )
 ;
 is
@@ -678,7 +679,6 @@ sendKey
 "
 END
 "
-richListBox
 )
 ;
 currentIndex
@@ -699,7 +699,6 @@ sendKey
 "
 PAGE_UP
 "
-richListBox
 )
 ;
 is
@@ -968,7 +967,6 @@ sendKey
 "
 HOME
 "
-richListBox
 )
 ;
 is
@@ -1015,7 +1013,6 @@ sendKey
 "
 DOWN
 "
-richListBox
 )
 ;
 is
@@ -1040,7 +1037,6 @@ sendKey
 "
 UP
 "
-richListBox
 )
 ;
 is
@@ -1065,7 +1061,6 @@ sendKey
 "
 END
 "
-richListBox
 )
 ;
 is
@@ -1092,7 +1087,6 @@ sendKey
 "
 HOME
 "
-richListBox
 )
 ;
 is
@@ -1134,7 +1128,6 @@ sendKey
 "
 PAGE_DOWN
 "
-richListBox
 )
 ;
 is
@@ -1174,7 +1167,6 @@ sendKey
 "
 END
 "
-richListBox
 )
 ;
 currentIndex
@@ -1202,7 +1194,6 @@ sendKey
 "
 PAGE_UP
 "
-richListBox
 )
 ;
 is

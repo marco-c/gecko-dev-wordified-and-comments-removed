@@ -496,6 +496,14 @@ if
 editor
 )
 {
+this
+.
+mEditor
+.
+focus
+(
+)
+;
 editor
 instanceof
 Components
@@ -563,7 +571,6 @@ sendKey
 "
 return
 "
-p
 )
 ;
 var
