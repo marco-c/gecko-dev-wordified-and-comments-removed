@@ -1091,6 +1091,15 @@ attribute
 boolean
 mozImageSmoothingEnabled
 ;
+boolean
+mozIsPointInStroke
+(
+double
+x
+double
+y
+)
+;
 /
 /
 Show

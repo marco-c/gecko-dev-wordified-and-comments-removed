@@ -1089,6 +1089,15 @@ double
 y
 )
 ;
+bool
+MozIsPointInStroke
+(
+double
+x
+double
+y
+)
+;
 void
 FillText
 (

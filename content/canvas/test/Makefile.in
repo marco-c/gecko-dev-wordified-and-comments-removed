@@ -390,6 +390,10 @@ test_mozGetAsFile
 .
 html
 \
+test_mozIsPointInStroke
+.
+html
+\
 test_canvas_strokeStyle_getter
 .
 html
