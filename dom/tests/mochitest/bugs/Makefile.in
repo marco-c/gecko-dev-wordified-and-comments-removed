@@ -920,6 +920,10 @@ worker_bug743615
 .
 js
 \
+test_bug750051
+.
+html
+\
 (
 NULL
 )
