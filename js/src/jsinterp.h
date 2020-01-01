@@ -50,6 +50,10 @@ typedef
 struct
 JSFrameRegs
 {
+JSStackFrame
+*
+fp
+;
 jsbytecode
 *
 pc

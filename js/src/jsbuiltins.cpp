@@ -1490,13 +1490,17 @@ JS_ASSERT
 cx
 -
 >
-fp
+hasfp
+(
+)
 &
 &
 cx
 -
 >
 fp
+(
+)
 -
 >
 down
@@ -1511,6 +1515,8 @@ cx
 -
 >
 fp
+(
+)
 ;
 if
 (

@@ -11564,6 +11564,8 @@ cx
 -
 >
 fp
+(
+)
 -
 >
 getScopeChain

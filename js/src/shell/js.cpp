@@ -15551,7 +15551,9 @@ JS_ASSERT
 cx
 -
 >
-fp
+hasfp
+(
+)
 )
 ;
 FrameRegsIter
