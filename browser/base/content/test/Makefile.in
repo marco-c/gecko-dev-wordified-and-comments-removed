@@ -1096,6 +1096,10 @@ browser_scratchpad_contexts
 .
 js
 \
+browser_scratchpad_tab_switch
+.
+js
+\
 browser_scratchpad_execute_print
 .
 js
