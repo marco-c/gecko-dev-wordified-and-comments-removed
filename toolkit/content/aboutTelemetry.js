@@ -1516,6 +1516,7 @@ prototype
 handleSymbolResponse
 =
 function
+SymbolicationRequest_handleSymbolResponse
 (
 )
 {
@@ -1787,6 +1788,7 @@ prototype
 fetchSymbols
 =
 function
+SymbolicationRequest_fetchSymbols
 (
 )
 {
