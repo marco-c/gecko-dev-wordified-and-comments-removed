@@ -153,9 +153,9 @@ svg
 .
 setCurrentTime
 (
-0
+1
 .
-5
+0
 )
 ;
 var
@@ -174,7 +174,9 @@ anim
 .
 endElementAt
 (
-1
+0
+.
+5
 )
 ;
 setTimeAndSnapshot
@@ -257,11 +259,6 @@ begin
 =
 "
 1s
-"
-end
-=
-"
-2s
 "
 dur
 =

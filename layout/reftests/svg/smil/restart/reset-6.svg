@@ -187,7 +187,9 @@ one
 from
 3s
 -
-4s
+3
+.
+5s
 .
 We
 should
@@ -408,8 +410,6 @@ anim
 endElementAt
 (
 2
-.
-5
 )
 ;
 setTimeAndSnapshot
