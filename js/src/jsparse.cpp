@@ -4122,6 +4122,13 @@ scriptGlobals
 !
 =
 0
+|
+|
+cg
+.
+hasSharps
+(
+)
 )
 {
 jsbytecode
