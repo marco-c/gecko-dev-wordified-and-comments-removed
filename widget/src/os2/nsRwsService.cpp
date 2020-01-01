@@ -3116,7 +3116,6 @@ ExtCache
 )
 {
 }
-;
 nsresult
 ExtCache
 :
