@@ -66,15 +66,6 @@ bin
 /
 components
 /
-nsUpdateNotifier
-.
-js
-dist
-/
-bin
-/
-components
-/
 nsResetPref
 .
 js
