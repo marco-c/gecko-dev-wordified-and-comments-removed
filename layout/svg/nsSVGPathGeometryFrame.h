@@ -176,6 +176,15 @@ aModType
 )
 ;
 virtual
+void
+DidSetStyleContext
+(
+nsStyleContext
+*
+aOldStyleContext
+)
+;
+virtual
 nsIAtom
 *
 GetType

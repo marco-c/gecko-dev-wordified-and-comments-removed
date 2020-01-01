@@ -130,6 +130,16 @@ aModType
 )
 ;
 virtual
+void
+DidSetStyleContext
+(
+nsStyleContext
+*
+aOldStyleContext
+)
+MOZ_OVERRIDE
+;
+virtual
 nsIFrame
 *
 GetContentInsertionFrame
