@@ -40,7 +40,7 @@ h
 struct
 JSContext
 ;
-struct
+class
 JSObject
 ;
 namespace

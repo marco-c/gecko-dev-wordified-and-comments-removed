@@ -350,11 +350,6 @@ JSLocaleCallbacks
 ;
 typedef
 struct
-JSObject
-JSObject
-;
-typedef
-struct
 JSObjectMap
 JSObjectMap
 ;
@@ -423,6 +418,9 @@ class
 JSFunction
 ;
 class
+JSObject
+;
+class
 JSScript
 ;
 class
@@ -442,6 +440,11 @@ typedef
 struct
 JSFunction
 JSFunction
+;
+typedef
+struct
+JSObject
+JSObject
 ;
 typedef
 struct

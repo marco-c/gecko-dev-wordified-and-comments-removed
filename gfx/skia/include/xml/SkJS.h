@@ -40,7 +40,7 @@ JSContext
 JSContext
 ;
 typedef
-struct
+class
 JSObject
 JSObject
 ;

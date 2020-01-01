@@ -55,7 +55,7 @@ nsITCPSocketInternal
 struct
 JSContext
 ;
-struct
+class
 JSObject
 ;
 namespace

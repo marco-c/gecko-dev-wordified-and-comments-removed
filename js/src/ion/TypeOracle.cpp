@@ -1380,9 +1380,8 @@ if
 id
 !
 =
-MakeTypeId
+IdToTypeId
 (
-cx
 id
 )
 )
@@ -1680,7 +1679,10 @@ StackTypeSet
 *
 types
 =
+DropUnrooted
+(
 script
+)
 -
 >
 analysis
@@ -1715,7 +1717,7 @@ TypeInferenceOracle
 :
 elementReadIsDenseArray
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1825,7 +1827,7 @@ TypeInferenceOracle
 :
 elementReadIsTypedArray
 (
-UnrootedScript
+HandleScript
 script
 jsbytecode
 *
@@ -1857,7 +1859,10 @@ StackTypeSet
 *
 id
 =
+DropUnrooted
+(
 script
+)
 -
 >
 analysis
@@ -2207,7 +2212,10 @@ StackTypeSet
 *
 types
 =
+DropUnrooted
+(
 script
+)
 -
 >
 analysis
@@ -2511,7 +2519,7 @@ TypeInferenceOracle
 :
 elementWriteIsTypedArray
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -2603,6 +2611,10 @@ JSVAL_TYPE_DOUBLE
 return
 false
 ;
+AssertCanGC
+(
+)
+;
 if
 (
 obj
@@ -2665,7 +2677,10 @@ StackTypeSet
 *
 types
 =
+DropUnrooted
+(
 script
+)
 -
 >
 analysis
@@ -2741,7 +2756,10 @@ StackTypeSet
 *
 objTypes
 =
+DropUnrooted
+(
 script
+)
 -
 >
 analysis
@@ -2976,7 +2994,7 @@ script
 jsbytecode
 *
 pc
-jsid
+RawId
 id
 )
 {
@@ -2984,7 +3002,10 @@ StackTypeSet
 *
 types
 =
+DropUnrooted
+(
 script
+)
 -
 >
 analysis
@@ -3026,7 +3047,10 @@ StackTypeSet
 *
 types
 =
+DropUnrooted
+(
 script
+)
 -
 >
 analysis
@@ -3455,7 +3479,10 @@ NULL
 return
 globalPropertyTypeSet
 (
+DropUnrooted
+(
 script
+)
 pc
 id
 )
@@ -3610,7 +3637,10 @@ TypeObject
 *
 type
 =
+DropUnrooted
+(
 script
+)
 -
 >
 global

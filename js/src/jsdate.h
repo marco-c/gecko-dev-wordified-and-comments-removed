@@ -32,7 +32,7 @@ extern
 C
 "
 {
-struct
+class
 JSObject
 ;
 struct
