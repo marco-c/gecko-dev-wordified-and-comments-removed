@@ -208,7 +208,7 @@ exit
 )
 ;
 unsigned
-nativeFrameSize
+nativeFrameSlots
 (
 JSStackFrame
 *
@@ -290,7 +290,7 @@ p
 const
 ;
 unsigned
-nativeFrameSize
+nativeFrameSlots
 (
 )
 const

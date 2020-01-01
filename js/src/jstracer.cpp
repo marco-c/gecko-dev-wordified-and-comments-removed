@@ -1214,7 +1214,7 @@ unsigned
 TraceRecorder
 :
 :
-nativeFrameSize
+nativeFrameSlots
 (
 JSStackFrame
 *
@@ -1281,13 +1281,13 @@ unsigned
 TraceRecorder
 :
 :
-nativeFrameSize
+nativeFrameSlots
 (
 )
 const
 {
 return
-nativeFrameSize
+nativeFrameSlots
 (
 cx
 -
@@ -1338,7 +1338,7 @@ entryFrame
 offset
 +
 =
-nativeFrameSize
+nativeFrameSlots
 (
 fp
 -
@@ -1523,6 +1523,11 @@ spbase
 }
 return
 offset
+*
+sizeof
+(
+double
+)
 ;
 }
 void
@@ -2558,7 +2563,7 @@ fragment
 char
 typemap
 [
-nativeFrameSize
+nativeFrameSlots
 (
 )
 ]
