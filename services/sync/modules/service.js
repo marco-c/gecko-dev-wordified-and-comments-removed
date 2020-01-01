@@ -7875,6 +7875,16 @@ shouldIgnoreError
 {
 return
 (
+Status
+.
+login
+=
+=
+MASTER_PASSWORD_LOCKED
+)
+|
+|
+(
 [
 Status
 .
