@@ -1255,6 +1255,7 @@ new
 Connection
 (
 this
+SQLITE_OPEN_READWRITE
 )
 ;
 NS_ENSURE_TRUE
@@ -1271,7 +1272,6 @@ msc
 initialize
 (
 storageFile
-SQLITE_OPEN_READWRITE
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1350,6 +1350,15 @@ get
 ;
 #
 endif
+int
+flags
+=
+SQLITE_OPEN_READWRITE
+|
+SQLITE_OPEN_SHAREDCACHE
+|
+SQLITE_OPEN_CREATE
+;
 nsRefPtr
 <
 Connection
@@ -1360,6 +1369,7 @@ new
 Connection
 (
 this
+flags
 )
 ;
 NS_ENSURE_TRUE
@@ -1367,13 +1377,6 @@ NS_ENSURE_TRUE
 msc
 NS_ERROR_OUT_OF_MEMORY
 )
-;
-int
-flags
-=
-SQLITE_OPEN_READWRITE
-|
-SQLITE_OPEN_SHAREDCACHE
 ;
 nsresult
 rv
@@ -1384,7 +1387,6 @@ msc
 initialize
 (
 aDatabaseFile
-flags
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1458,6 +1460,15 @@ get
 ;
 #
 endif
+int
+flags
+=
+SQLITE_OPEN_READWRITE
+|
+SQLITE_OPEN_PRIVATECACHE
+|
+SQLITE_OPEN_CREATE
+;
 nsRefPtr
 <
 Connection
@@ -1468,6 +1479,7 @@ new
 Connection
 (
 this
+flags
 )
 ;
 NS_ENSURE_TRUE
@@ -1475,13 +1487,6 @@ NS_ENSURE_TRUE
 msc
 NS_ERROR_OUT_OF_MEMORY
 )
-;
-int
-flags
-=
-SQLITE_OPEN_READWRITE
-|
-SQLITE_OPEN_PRIVATECACHE
 ;
 nsresult
 rv
@@ -1492,7 +1497,6 @@ msc
 initialize
 (
 aDatabaseFile
-flags
 )
 ;
 NS_ENSURE_SUCCESS

@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsTHashtable
+nsInterfaceHashtable
 .
 h
 "
