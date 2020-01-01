@@ -18656,6 +18656,14 @@ sweep
 (
 )
 ;
+ArrayBufferObject
+:
+:
+sweepAll
+(
+rt
+)
+;
 WatchpointMap
 :
 :
