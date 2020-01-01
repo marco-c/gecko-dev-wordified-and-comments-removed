@@ -194,12 +194,6 @@ const
 nsAString
 *
 aAttribute
-const
-nsAString
-*
-aValue
-=
-nullptr
 )
 ;
 bool
@@ -215,12 +209,6 @@ const
 nsAString
 *
 aAttribute
-const
-nsAString
-*
-aValue
-=
-nullptr
 )
 ;
 nsresult
