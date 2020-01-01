@@ -114,9 +114,6 @@ internal
 /
 subdirectory
 .
-DIRS
-=
-internal
 include
 (
 srcdir

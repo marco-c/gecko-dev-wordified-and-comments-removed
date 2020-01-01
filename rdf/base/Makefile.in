@@ -76,11 +76,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-idl
-public
-src
 include
 (
 topsrcdir
