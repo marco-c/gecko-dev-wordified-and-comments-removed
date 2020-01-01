@@ -775,6 +775,11 @@ _
 (
 SetDOMProperty
 )
+\
+_
+(
+CallDOMNative
+)
 #
 if
 defined

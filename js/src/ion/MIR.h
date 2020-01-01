@@ -256,6 +256,11 @@ _
 (
 Unused
 )
+\
+_
+(
+DOMFunction
+)
 class
 MDefinition
 ;

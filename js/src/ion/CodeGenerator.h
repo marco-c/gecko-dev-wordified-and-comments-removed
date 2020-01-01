@@ -1134,6 +1134,14 @@ lir
 )
 ;
 bool
+visitCallDOMNative
+(
+LCallDOMNative
+*
+lir
+)
+;
+bool
 visitCheckOverRecursed
 (
 LCheckOverRecursed
