@@ -225,7 +225,6 @@ open
 "
 )
 ;
-}
 function
 pressCtrlTab
 (
@@ -602,4 +601,5 @@ goes
 where
 )
 ;
+}
 }
