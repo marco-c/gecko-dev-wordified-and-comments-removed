@@ -390,6 +390,8 @@ CanSkip
 void
 *
 p
+bool
+aRemovingAllowed
 )
 {
 return
@@ -398,6 +400,7 @@ mMightSkip
 CanSkipReal
 (
 p
+aRemovingAllowed
 )
 :
 false
@@ -452,6 +455,8 @@ CanSkipReal
 void
 *
 p
+bool
+aRemovingAllowed
 )
 {
 NS_ASSERTION
@@ -1052,6 +1057,9 @@ CanSkipReal
 void
 *
 p
+\
+bool
+aRemovingAllowed
 )
 \
 {
@@ -2892,6 +2900,8 @@ CanSkipReal
 void
 *
 p
+bool
+aRemovingAllowed
 )
 ;
 \
@@ -3015,6 +3025,8 @@ CanSkipReal
 void
 *
 p
+bool
+aRemovingAllowed
 )
 ;
 \

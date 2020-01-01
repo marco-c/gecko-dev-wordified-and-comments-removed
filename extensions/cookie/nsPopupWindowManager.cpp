@@ -33,13 +33,6 @@ nsIPrefBranch
 .
 h
 "
-#
-include
-"
-nsIPrefBranch2
-.
-h
-"
 static
 const
 char
@@ -102,7 +95,7 @@ NS_PERMISSIONMANAGER_CONTRACTID
 ;
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 prefBranch
 =

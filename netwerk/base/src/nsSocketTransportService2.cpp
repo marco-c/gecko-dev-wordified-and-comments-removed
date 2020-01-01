@@ -65,7 +65,7 @@ h
 #
 include
 "
-nsIPrefBranch2
+nsIPrefBranch
 .
 h
 "
@@ -2097,7 +2097,7 @@ mThread
 }
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 tmpPrefService
 =
@@ -2225,7 +2225,7 @@ nsnull
 }
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 tmpPrefService
 =
@@ -3490,7 +3490,7 @@ mSendBufferSize
 ;
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 tmpPrefService
 =

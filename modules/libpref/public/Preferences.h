@@ -130,12 +130,6 @@ sRootBranch
 -
 >
 )
-NS_FORWARD_NSIPREFBRANCH2
-(
-sRootBranch
--
->
-)
 NS_DECL_NSIOBSERVER
 Preferences
 (
@@ -191,7 +185,7 @@ sPreferences
 ;
 }
 static
-nsIPrefBranch2
+nsIPrefBranch
 *
 GetRootBranch
 (
@@ -1072,15 +1066,6 @@ aResult
 )
 ;
 static
-nsresult
-ReadExtensionPrefs
-(
-nsIFile
-*
-aFile
-)
-;
-static
 void
 MirrorPreferences
 (
@@ -1201,7 +1186,7 @@ Preferences
 sPreferences
 ;
 static
-nsIPrefBranch2
+nsIPrefBranch
 *
 sRootBranch
 ;

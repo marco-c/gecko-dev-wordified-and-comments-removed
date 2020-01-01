@@ -3026,6 +3026,8 @@ attValue
 {
 bool
 preventCachingOfSandwich
+=
+false
 ;
 nsresult
 rv
@@ -3120,6 +3122,8 @@ attValue
 ;
 bool
 preventCachingOfSandwich
+=
+false
 ;
 nsresult
 rv

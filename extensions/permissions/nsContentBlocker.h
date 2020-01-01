@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsIPrefBranch2
+nsIPrefBranch
 .
 h
 "
@@ -111,7 +111,7 @@ mPermissionManager
 ;
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 mPrefBranchInternal
 ;

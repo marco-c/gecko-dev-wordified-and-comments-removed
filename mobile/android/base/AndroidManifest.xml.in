@@ -609,6 +609,8 @@ theme
 style
 /
 Gecko
+.
+App
 "
 >
 <
@@ -1459,6 +1461,8 @@ style
 Gecko
 .
 Light
+.
+AwesomeBar
 "
 android
 :
@@ -1503,6 +1507,8 @@ style
 Gecko
 .
 Translucent
+.
+TabsTray
 "
 android
 :
@@ -1538,6 +1544,8 @@ style
 Gecko
 .
 TitleBar
+.
+Preferences
 "
 android
 :

@@ -95,13 +95,6 @@ h
 #
 include
 "
-nsIPrefBranch2
-.
-h
-"
-#
-include
-"
 nsIPrefLocalizedString
 .
 h
@@ -1030,7 +1023,7 @@ endif
 }
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 prefs
 (
@@ -1634,7 +1627,7 @@ empty
 ;
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 prefs
 (

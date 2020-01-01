@@ -135,7 +135,7 @@ initializedPrefCache
 )
 )
 {
-nsIPrefBranch2
+nsIPrefBranch
 *
 root
 =

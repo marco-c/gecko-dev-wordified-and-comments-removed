@@ -659,6 +659,11 @@ mHeightDependsOnAncestorCell
 :
 1
 ;
+PRUint16
+mIsColumnBalancing
+:
+1
+;
 }
 mFlags
 ;

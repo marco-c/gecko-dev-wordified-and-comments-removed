@@ -8212,10 +8212,16 @@ kungFuURIGrip
 mURI
 )
 ;
+nsCString
+contentType
+(
+mContentType
+)
+;
 return
 InstantiatePluginInstance
 (
-mContentType
+contentType
 .
 get
 (
