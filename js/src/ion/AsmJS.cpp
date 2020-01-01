@@ -7534,7 +7534,11 @@ columnIndex
 =
 0U
 ;
-tokenStream_
+parser
+(
+)
+.
+tokenStream
 .
 srcCoords
 .
@@ -7556,7 +7560,7 @@ startCodeOffset
 =
 func
 .
-codeLabel
+code
 (
 )
 -
@@ -7602,7 +7606,7 @@ startCodeOffset
 =
 func
 .
-codeLabel
+code
 (
 )
 -
@@ -28978,7 +28982,7 @@ m
 .
 trackPerfProfiledBlocks
 (
-mirGen
+mir
 .
 perfSpewer
 (
