@@ -305,10 +305,6 @@ gStatisticsRecorder
 struct
 TelemetryHistogram
 {
-Histogram
-*
-histogram
-;
 const
 char
 *
@@ -411,7 +407,6 @@ comment
 )
 \
 {
-NULL
 NS_STRINGIFY
 (
 id
