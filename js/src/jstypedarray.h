@@ -480,8 +480,11 @@ data
 ;
 }
 JS_BEGIN_EXTERN_C
+JS_FRIEND_API
+(
 JSObject
 *
+)
 js_InitTypedArrayClasses
 (
 JSContext
