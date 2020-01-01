@@ -1284,9 +1284,9 @@ example
 bindinggen_dependencies
 )
 \
-(
-all_webidl_files
-)
+ParserResults
+.
+pkl
 \
 (
 NULL
