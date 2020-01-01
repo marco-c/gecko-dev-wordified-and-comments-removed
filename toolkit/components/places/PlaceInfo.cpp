@@ -228,7 +228,10 @@ GetVisits
 JSContext
 *
 aContext
-jsval
+JS
+:
+:
+Value
 *
 _visits
 )
@@ -361,7 +364,10 @@ rv
 rv
 )
 ;
-jsval
+JS
+:
+:
+Value
 wrappedVisit
 =
 OBJECT_TO_JSVAL

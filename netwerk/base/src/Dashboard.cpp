@@ -290,7 +290,10 @@ GetSockets
 (
 )
 {
-jsval
+JS
+:
+:
+Value
 val
 ;
 JSContext
@@ -778,7 +781,10 @@ GetHttpConnections
 (
 )
 {
-jsval
+JS
+:
+:
+Value
 val
 ;
 JSContext
@@ -1702,7 +1708,10 @@ GetWebSocketConnections
 (
 )
 {
-jsval
+JS
+:
+:
+Value
 val
 ;
 JSString
@@ -2178,7 +2187,10 @@ GetDNSCacheEntries
 (
 )
 {
-jsval
+JS
+:
+:
+Value
 val
 ;
 JSContext
