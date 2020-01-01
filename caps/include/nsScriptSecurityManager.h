@@ -1344,9 +1344,6 @@ cx
 JSObject
 *
 obj
-JSStackFrame
-*
-fp
 nsresult
 *
 rv
