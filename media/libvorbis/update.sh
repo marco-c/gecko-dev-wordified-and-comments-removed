@@ -1,9 +1,10 @@
 #
 Usage
 :
-cp
-1
 /
+bin
+/
+sh
 update
 .
 sh
@@ -692,14 +693,5 @@ p3
 .
 /
 alloca
-.
-diff
-patch
--
-p3
-<
-.
-/
-bug666672_gccWarnings
 .
 diff
