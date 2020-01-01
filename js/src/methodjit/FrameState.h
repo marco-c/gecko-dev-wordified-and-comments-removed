@@ -528,11 +528,6 @@ FrameEntry
 fe
 )
 ;
-void
-popAfterSet
-(
-)
-;
 inline
 void
 pinReg
