@@ -138,7 +138,7 @@ OS_POSIX
 namespace
 base
 {
-class
+struct
 FileDescriptor
 {
 }
