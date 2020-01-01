@@ -7,6 +7,13 @@ MAR_H__
 #
 include
 "
+prtypes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 StandardInteger
