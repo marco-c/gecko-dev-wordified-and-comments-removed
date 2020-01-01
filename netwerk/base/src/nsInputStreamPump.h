@@ -155,7 +155,7 @@ bufLen
 ;
 NS_HIDDEN_
 (
-void
+nsresult
 )
 PeekStream
 (
