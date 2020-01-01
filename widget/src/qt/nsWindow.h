@@ -909,9 +909,6 @@ PRBool
 mEnabled
 ;
 PRBool
-mCreated
-;
-PRBool
 mPlaced
 ;
 PRUint32
@@ -942,7 +939,7 @@ MozQWidget
 ;
 virtual
 nsEventStatus
-OnExposeEvent
+OnPaintEvent
 (
 QPaintEvent
 *
@@ -950,7 +947,7 @@ QPaintEvent
 ;
 virtual
 nsEventStatus
-OnConfigureEvent
+OnMoveEvent
 (
 QMoveEvent
 *
@@ -958,7 +955,7 @@ QMoveEvent
 ;
 virtual
 nsEventStatus
-OnSizeAllocate
+OnResizeEvent
 (
 QResizeEvent
 *
@@ -966,7 +963,7 @@ QResizeEvent
 ;
 virtual
 nsEventStatus
-OnDeleteEvent
+OnCloseEvent
 (
 QCloseEvent
 *
@@ -1022,7 +1019,7 @@ QMouseEvent
 ;
 virtual
 nsEventStatus
-OnContainerFocusInEvent
+OnFocusInEvent
 (
 QFocusEvent
 *
@@ -1030,7 +1027,7 @@ QFocusEvent
 ;
 virtual
 nsEventStatus
-OnContainerFocusOutEvent
+OnFocusOutEvent
 (
 QFocusEvent
 *
