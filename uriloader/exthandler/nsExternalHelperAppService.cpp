@@ -1370,6 +1370,12 @@ xml
 xht
 "
 }
+{
+TEXT_PLAIN
+"
+txt
+"
+}
 }
 ;
 struct
