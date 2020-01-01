@@ -2920,9 +2920,9 @@ strh
 r4
 [
 r0
+]
 #
 2
-]
 fbComposite_x8r8g8b8_src_r5g6b5_internal_armv62
 tst
 r0
@@ -3753,9 +3753,9 @@ strh
 r4
 [
 r0
+]
 #
 2
-]
 fbComposite_x8r8g8b8_src_r5g6b5_internal_armv69
 ldr
 r4
@@ -4066,9 +4066,9 @@ strh
 r2
 [
 r0
+]
 #
 2
-]
 fbCompositeSrc_x888x0565arm10
 mov
 r9
@@ -4230,9 +4230,9 @@ strh
 r2
 [
 r4
+]
 #
 2
-]
 fbCompositeSrc_x888x0565arm7
 cmp
 r5
