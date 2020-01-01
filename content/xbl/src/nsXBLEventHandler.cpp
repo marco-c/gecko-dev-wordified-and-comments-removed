@@ -304,6 +304,9 @@ aEvent
 )
 ;
 return
+mouse
+&
+&
 mProtoHandler
 -
 >
