@@ -208,6 +208,14 @@ mapRect
 r
 )
 ;
+r
+.
+moveTo
+(
+0
+0
+)
+;
 #
 endif
 *
