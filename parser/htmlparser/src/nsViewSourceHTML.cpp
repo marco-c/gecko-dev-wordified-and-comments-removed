@@ -96,6 +96,13 @@ h
 #
 include
 "
+nsParserConstants
+.
+h
+"
+#
+include
+"
 nsIServiceManager
 .
 h

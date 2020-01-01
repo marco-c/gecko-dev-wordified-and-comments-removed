@@ -40,6 +40,13 @@ nsUnicharUtils
 .
 h
 "
+#
+include
+"
+nsParserConstants
+.
+h
+"
 NS_IMPL_ISUPPORTS1
 (
 nsHTMLTokenizer

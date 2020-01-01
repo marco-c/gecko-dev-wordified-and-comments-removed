@@ -96,6 +96,13 @@ nsScanner
 .
 h
 "
+#
+include
+"
+nsParserConstants
+.
+h
+"
 static
 const
 PRUnichar

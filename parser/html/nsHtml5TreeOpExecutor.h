@@ -1203,14 +1203,7 @@ void
 DropHeldElements
 (
 )
-{
-mOwnedElements
-.
-Clear
-(
-)
 ;
-}
 virtual
 void
 MoveOpsFrom

@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIParser
-.
-h
-"
-#
-include
-"
 jsapi
 .
 h
@@ -44,6 +37,13 @@ h
 include
 "
 nsIParserService
+.
+h
+"
+#
+include
+"
+nsParserConstants
 .
 h
 "

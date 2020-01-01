@@ -198,6 +198,13 @@ Element
 .
 h
 "
+#
+include
+"
+nsParserConstants
+.
+h
+"
 using
 namespace
 mozilla

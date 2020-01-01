@@ -499,6 +499,10 @@ nsToken
 .
 h
 \
+nsParserConstants
+.
+h
+\
 (
 NULL
 )
