@@ -126,6 +126,10 @@ test_watch
 .
 html
 \
+test_watchOther
+.
+html
+\
 devicestorage_common
 .
 js
