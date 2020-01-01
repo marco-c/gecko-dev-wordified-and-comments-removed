@@ -69,6 +69,8 @@ validity
 PKIX_PL_Cert
 *
 signerCert
+PKIX_UInt32
+methodFlags
 PKIX_Boolean
 *
 pURIFound

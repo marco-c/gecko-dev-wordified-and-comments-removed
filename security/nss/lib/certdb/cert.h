@@ -2260,6 +2260,7 @@ CERT_DecodeTrustString
 CERTCertTrust
 *
 trust
+const
 char
 *
 trusts

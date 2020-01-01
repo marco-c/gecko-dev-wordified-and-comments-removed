@@ -67,13 +67,6 @@ defined
 (
 macintosh
 )
-&
-&
-!
-defined
-(
-XP_OS2_VACPP
-)
 #
 include
 <
@@ -94,7 +87,7 @@ macintosh
 )
 #
 ifdef
-XP_OS2_EMX
+XP_OS2
 #
 include
 <
@@ -194,13 +187,6 @@ _WINDOWS
 defined
 (
 macintosh
-)
-&
-&
-!
-defined
-(
-XP_OS2_VACPP
 )
 #
 include

@@ -401,10 +401,6 @@ secmod
 .
 h
 \
-secmodt
-.
-h
-\
 secpkcs5
 .
 h
@@ -436,10 +432,6 @@ PRIVATE_EXPORTS
 =
 \
 secmodi
-.
-h
-\
-pk11init
 .
 h
 \

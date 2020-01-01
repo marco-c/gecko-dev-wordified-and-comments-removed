@@ -3988,7 +3988,6 @@ cert
 nickname
 &
 &
-!
 cert
 -
 >

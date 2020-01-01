@@ -511,6 +511,16 @@ rv
 ;
 if
 (
+a
+=
+=
+b
+)
+return
+SECEqual
+;
+if
+(
 !
 a
 |

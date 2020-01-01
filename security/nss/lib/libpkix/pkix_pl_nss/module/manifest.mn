@@ -420,10 +420,6 @@ pkix_pl_colcertstore
 .
 h
 \
-pkix_pl_ekuchecker
-.
-h
-\
 pkix_pl_httpcertstore
 .
 h
@@ -507,10 +503,6 @@ CSRCS
 =
 \
 pkix_pl_aiamgr
-.
-c
-\
-pkix_pl_ekuchecker
 .
 c
 \
