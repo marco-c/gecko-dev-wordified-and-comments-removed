@@ -261,7 +261,7 @@ MOZ_WIDGET_TOOLKIT
 )
 cocoa
 )
-CMMSRCS
+DISABLED_CMMSRCS
 =
 \
 gfxMacPlatformFontList

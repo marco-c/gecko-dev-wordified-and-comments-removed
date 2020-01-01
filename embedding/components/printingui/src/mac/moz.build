@@ -118,3 +118,13 @@ LIBRARY_NAME
 '
 printingui_s
 '
+CMMSRCS
++
+=
+[
+'
+nsPrintingPromptServiceX
+.
+mm
+'
+]

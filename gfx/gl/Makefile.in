@@ -253,7 +253,7 @@ GL_PROVIDER
 )
 CGL
 )
-CMMSRCS
+DISABLED_CMMSRCS
 +
 =
 GLContextProvider
