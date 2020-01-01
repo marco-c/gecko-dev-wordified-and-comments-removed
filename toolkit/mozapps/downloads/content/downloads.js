@@ -1286,6 +1286,17 @@ interfaces
 nsIDownload
 )
 ;
+if
+(
+getDownload
+(
+dl
+.
+id
+)
+)
+return
+;
 gActiveDownloads
 .
 push
