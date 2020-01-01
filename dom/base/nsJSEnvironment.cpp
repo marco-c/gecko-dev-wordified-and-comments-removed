@@ -8585,12 +8585,10 @@ WriteScript
 (
 aStream
 mContext
-aScriptObject
-)
-;
 xpc_UnmarkGrayScript
 (
 aScriptObject
+)
 )
 ;
 }
