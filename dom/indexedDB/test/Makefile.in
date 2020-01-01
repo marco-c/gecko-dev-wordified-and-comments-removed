@@ -503,6 +503,10 @@ test_null_keys
 .
 html
 \
+test_objectCursors
+.
+html
+\
 test_objectStore_inline_autoincrement_key_added_on_put
 .
 html
