@@ -519,6 +519,10 @@ nsICryptoHash
 .
 idl
 \
+nsICryptoHMAC
+.
+idl
+\
 nsIDownloader
 .
 idl
