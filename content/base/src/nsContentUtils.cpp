@@ -15589,7 +15589,7 @@ html5
 .
 enable
 "
-PR_TRUE
+PR_FALSE
 )
 )
 {

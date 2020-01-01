@@ -2561,7 +2561,7 @@ html5
 .
 enable
 "
-PR_TRUE
+PR_FALSE
 )
 ;
 if
@@ -7249,7 +7249,7 @@ html5
 .
 enable
 "
-PR_TRUE
+PR_FALSE
 )
 ;
 nsresult
