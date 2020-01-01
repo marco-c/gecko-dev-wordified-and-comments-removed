@@ -716,3 +716,10 @@ p4
 endian
 .
 patch
+patch
+-
+p3
+<
+bug481601
+.
+patch

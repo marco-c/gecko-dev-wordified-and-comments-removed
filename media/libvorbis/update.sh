@@ -694,3 +694,12 @@ p3
 alloca
 .
 diff
+patch
+-
+p3
+<
+.
+/
+bug481601
+.
+patch
