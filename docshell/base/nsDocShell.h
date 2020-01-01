@@ -2049,6 +2049,9 @@ PRPackedBool
 mIsActive
 ;
 PRPackedBool
+mIsAppTab
+;
+PRPackedBool
 mFiredUnloadEvent
 ;
 PRPackedBool
