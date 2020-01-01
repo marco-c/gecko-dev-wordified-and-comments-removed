@@ -555,7 +555,7 @@ testing
 /
 mochitest
 /
-tests
+chrome
 /
 (
 relativesrcdir
