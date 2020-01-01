@@ -275,9 +275,11 @@ resume
 }
 )
 ;
-gDebuggee
+Components
 .
-eval
+utils
+.
+evalInSandbox
 (
 "
 var
@@ -319,6 +321,7 @@ b
 \
 n
 "
+gDebuggee
 )
 ;
 }
