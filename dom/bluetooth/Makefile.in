@@ -245,10 +245,6 @@ ObexBase
 .
 cpp
 \
-BluetoothScoManager
-.
-cpp
-\
 BluetoothUuid
 .
 cpp
