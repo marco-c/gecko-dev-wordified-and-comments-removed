@@ -2808,7 +2808,7 @@ aShouldRepaint
 *
 aShouldRepaint
 =
-TRUE
+true
 ;
 return
 NS_OK

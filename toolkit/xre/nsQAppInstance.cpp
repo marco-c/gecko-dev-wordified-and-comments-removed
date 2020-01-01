@@ -99,6 +99,18 @@ if
 sQAppInstance
 )
 {
+#
+if
+(
+QT_VERSION
+<
+QT_VERSION_CHECK
+(
+5
+0
+0
+)
+)
 const
 char
 *
@@ -128,6 +140,8 @@ graphicsSystem
 )
 ;
 }
+#
+endif
 #
 if
 (
