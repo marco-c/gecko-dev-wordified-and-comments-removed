@@ -214,7 +214,9 @@ NULL
 test_contextmenu
 .
 html
-is
+and
+test_contextmenu_input
+are
 disabled
 on
 Linux
@@ -240,7 +242,15 @@ subtst_contextmenu
 .
 html
 \
+contextmenu_common
+.
+js
+\
 test_contextmenu
+.
+html
+\
+test_contextmenu_input
 .
 html
 \
