@@ -2584,6 +2584,15 @@ LayerManager
 aManager
 )
 ;
+virtual
+bool
+ShouldForceInactiveLayer
+(
+LayerManager
+*
+aManager
+)
+;
 void
 MarkContextClean
 (
