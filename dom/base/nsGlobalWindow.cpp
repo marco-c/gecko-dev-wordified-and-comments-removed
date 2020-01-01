@@ -6088,7 +6088,7 @@ const
 void
 *
 aKey
-void
+JSObject
 *
 aData
 void
@@ -27429,7 +27429,7 @@ nsXBLPrototypeHandler
 aKey
 )
 {
-void
+JSObject
 *
 handler
 =
@@ -27455,14 +27455,7 @@ handler
 ;
 }
 return
-static_cast
-<
-JSObject
-*
->
-(
 handler
-)
 ;
 }
 void
@@ -27622,6 +27615,10 @@ Put
 (
 aKey
 aHandler
+.
+getObject
+(
+)
 )
 ;
 }
