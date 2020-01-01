@@ -676,6 +676,10 @@ bug
 (
 windows
 )
+478183
+(
+linux
+)
 skip
 -
 if
@@ -716,6 +720,10 @@ bug
 468387
 (
 windows
+)
+478183
+(
+linux
 )
 #
 Postscript
