@@ -612,13 +612,13 @@ printStackTrace
 (
 )
 ;
-}
 pProc
 .
 destroy
 (
 )
 ;
+}
 buffer
 =
 null
