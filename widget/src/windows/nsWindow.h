@@ -88,9 +88,6 @@ class
 nsIRollupListener
 ;
 class
-nsIMenuBar
-;
-class
 nsIFile
 ;
 class
@@ -747,7 +744,7 @@ aIconSpec
 NS_IMETHOD
 SetMenuBar
 (
-nsIMenuBar
+void
 *
 aMenuBar
 )

@@ -490,7 +490,7 @@ xulWinType
 NS_IMETHOD
 SetMenuBar
 (
-nsIMenuBar
+void
 *
 aMenuBar
 )

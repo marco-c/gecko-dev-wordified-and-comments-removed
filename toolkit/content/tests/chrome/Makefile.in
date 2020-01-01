@@ -521,13 +521,9 @@ NULL
 ifeq
 (
 (
-filter
-mac
-cocoa
-(
 MOZ_WIDGET_TOOLKIT
 )
-)
+cocoa
 )
 _TEST_FILES
 +
