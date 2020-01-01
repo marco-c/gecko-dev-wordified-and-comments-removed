@@ -1007,6 +1007,8 @@ SQLITE_VERSION
 6
 .
 16
+.
+1
 "
 #
 define
@@ -15875,7 +15877,7 @@ pColl
 int
 iTable
 ;
-i16
+int
 iColumn
 ;
 i16
@@ -235380,9 +235382,6 @@ pExpr
 >
 iColumn
 =
-(
-i16
-)
 dest
 .
 iParm

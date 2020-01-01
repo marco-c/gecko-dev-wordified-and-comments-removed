@@ -61,6 +61,8 @@ SQLITE_VERSION
 6
 .
 16
+.
+1
 "
 #
 define
