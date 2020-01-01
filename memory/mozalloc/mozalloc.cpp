@@ -329,6 +329,9 @@ UNLIKELY
 (
 !
 ptr
+&
+&
+size
 )
 )
 {
@@ -389,6 +392,12 @@ UNLIKELY
 (
 !
 ptr
+&
+&
+nmemb
+&
+&
+size
 )
 )
 {
@@ -454,6 +463,9 @@ UNLIKELY
 (
 !
 newptr
+&
+&
+size
 )
 )
 {
