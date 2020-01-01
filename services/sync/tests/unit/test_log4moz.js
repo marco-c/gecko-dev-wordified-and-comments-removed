@@ -9,7 +9,9 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
 log4moz
 .

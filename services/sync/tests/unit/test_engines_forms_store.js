@@ -29,7 +29,9 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
 engines
 /
@@ -48,7 +50,9 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
 type_records
 /

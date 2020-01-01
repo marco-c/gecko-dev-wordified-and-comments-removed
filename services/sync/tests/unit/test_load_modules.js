@@ -223,7 +223,9 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
 "
 +
@@ -239,7 +241,9 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
 "
 +

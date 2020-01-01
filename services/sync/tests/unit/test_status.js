@@ -7,7 +7,9 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
 constants
 .
@@ -24,7 +26,9 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
 status
 .

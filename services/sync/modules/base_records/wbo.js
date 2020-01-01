@@ -50,7 +50,9 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
 log4moz
 .
@@ -67,7 +69,9 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
 resource
 .
@@ -84,7 +88,9 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
 util
 .

@@ -31,7 +31,9 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
 xmpp
 /

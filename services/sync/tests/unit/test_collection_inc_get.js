@@ -22,7 +22,9 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
 base_records
 /
@@ -41,7 +43,9 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
 base_records
 /

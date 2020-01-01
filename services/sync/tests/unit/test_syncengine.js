@@ -7,9 +7,11 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
-util
+engines
 .
 js
 "
@@ -24,9 +26,11 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
-engines
+util
 .
 js
 "

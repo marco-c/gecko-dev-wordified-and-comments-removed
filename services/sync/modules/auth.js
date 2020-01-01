@@ -50,7 +50,9 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
 util
 .

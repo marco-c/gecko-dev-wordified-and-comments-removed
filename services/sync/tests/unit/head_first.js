@@ -439,7 +439,9 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
 util
 .
@@ -544,7 +546,9 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
 log4moz
 .
@@ -772,7 +776,9 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
 util
 .
@@ -906,7 +912,9 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
 util
 .
@@ -1751,7 +1759,9 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
 identity
 .
@@ -1768,7 +1778,9 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
 util
 .
@@ -2566,7 +2578,9 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
 identity
 .

@@ -7,7 +7,9 @@ resource
 :
 /
 /
-weave
+services
+-
+sync
 /
 notifications
 .
