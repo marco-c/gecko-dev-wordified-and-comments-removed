@@ -952,7 +952,8 @@ aIsDefaultBrowser
 =
 PR_FALSE
 ;
-break
+return
+NS_OK
 ;
 }
 DWORD
