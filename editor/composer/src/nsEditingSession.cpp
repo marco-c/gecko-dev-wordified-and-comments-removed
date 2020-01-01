@@ -2098,6 +2098,10 @@ rv
 rv
 )
 ;
+if
+(
+stopEditing
+)
 htmlDoc
 -
 >
