@@ -1250,7 +1250,7 @@ marginLeft
 testname
 +
 "
-top
+left
 position
 of
 tooltip
@@ -1733,7 +1733,7 @@ marginLeft
 testname
 +
 "
-top
+left
 position
 of
 tooltip
@@ -2173,7 +2173,7 @@ marginLeft
 testname
 +
 "
-top
+left
 position
 of
 tooltip
