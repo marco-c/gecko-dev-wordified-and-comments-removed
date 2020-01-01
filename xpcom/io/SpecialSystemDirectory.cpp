@@ -360,8 +360,9 @@ WINCE
 )
 gShell32DLLInst
 =
-LoadLibrary
+LoadLibraryW
 (
+L
 "
 Shell32
 .

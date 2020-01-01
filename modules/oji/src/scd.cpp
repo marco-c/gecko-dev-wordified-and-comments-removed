@@ -224,10 +224,11 @@ err
 }
 sem
 =
-OpenSemaphore
+OpenSemaphoreW
 (
 SEMAPHORE_MODIFY_STATE
 FALSE
+L
 "
 Netscape
 -

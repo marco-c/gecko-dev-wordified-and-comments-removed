@@ -59,10 +59,6 @@ aFontName
 gfxFontStyle
 *
 aFontStyle
-PRBool
-aIsWide
-=
-PR_FALSE
 )
 const
 ;

@@ -591,7 +591,7 @@ if
 (
 plugin
 )
-DrawText
+DrawTextA
 (
 hdc
 plugin
@@ -626,7 +626,7 @@ Error
 occured
 "
 ;
-DrawText
+DrawTextA
 (
 hdc
 string

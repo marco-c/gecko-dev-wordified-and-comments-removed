@@ -764,8 +764,9 @@ SetProcessDPIAwareFunc
 )
 GetProcAddress
 (
-LoadLibrary
+LoadLibraryW
 (
+L
 "
 user32
 .
@@ -837,11 +838,13 @@ mDispatchWnd
 =
 :
 :
-CreateWindow
+CreateWindowW
 (
+L
 "
 nsToolkitClass
 "
+L
 "
 NetscapeDispatchWnd
 "
