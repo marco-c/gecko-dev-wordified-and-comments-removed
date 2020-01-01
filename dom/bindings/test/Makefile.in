@@ -110,6 +110,10 @@ test_InstanceOf
 .
 html
 \
+test_traceProtos
+.
+html
+\
 (
 NULL
 )
