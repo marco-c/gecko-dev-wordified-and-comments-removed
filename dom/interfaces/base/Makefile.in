@@ -510,10 +510,6 @@ nsIDOMNavigator
 .
 idl
 \
-nsIDOMNavigatorUserMedia
-.
-idl
-\
 nsIDOMPkcs11
 .
 idl
