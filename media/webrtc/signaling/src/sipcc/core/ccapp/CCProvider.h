@@ -84,6 +84,13 @@ h
 #
 include
 "
+fsmdef_states
+.
+h
+"
+#
+include
+"
 cc_constants
 .
 h
@@ -213,6 +220,9 @@ inst
 ;
 cc_call_state_t
 state
+;
+fsmdef_states_t
+fsm_state
 ;
 cc_call_attr_t
 attr
