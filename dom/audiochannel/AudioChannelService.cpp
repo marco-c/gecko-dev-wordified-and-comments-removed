@@ -511,6 +511,10 @@ get
 )
 )
 ;
+mCurrentHigherChannel
+=
+AUDIO_CHANNEL_NORMAL
+;
 return
 ;
 }
