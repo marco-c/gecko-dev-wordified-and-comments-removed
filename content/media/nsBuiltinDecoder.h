@@ -304,7 +304,7 @@ aSeekable
 ;
 virtual
 PRBool
-GetSeekable
+IsSeekable
 (
 )
 =
@@ -607,8 +607,17 @@ aSeekable
 ;
 virtual
 PRBool
+IsSeekable
+(
+)
+;
+virtual
+nsresult
 GetSeekable
 (
+nsTimeRanges
+*
+aSeekable
 )
 ;
 virtual

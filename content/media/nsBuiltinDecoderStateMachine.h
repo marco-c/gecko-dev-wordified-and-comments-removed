@@ -508,7 +508,7 @@ mEndTime
 ;
 }
 PRBool
-GetSeekable
+IsSeekable
 (
 )
 {
