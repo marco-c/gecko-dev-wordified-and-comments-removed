@@ -13775,10 +13775,13 @@ location
 windowLocation
 modifierFlags
 :
-[
+nsCocoaUtils
+:
+:
+GetCocoaEventModifierFlags
+(
 anEvent
-modifierFlags
-]
+)
 timestamp
 :
 GetCurrentEventTime
