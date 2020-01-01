@@ -3268,6 +3268,12 @@ return
 ;
 this
 .
+hidePanel
+(
+)
+;
+this
+.
 _hidePopup
 (
 )
@@ -5427,12 +5433,6 @@ case
 cmd_openLocation
 "
 :
-this
-.
-hidePanel
-(
-)
-;
 this
 .
 showAutoComplete
