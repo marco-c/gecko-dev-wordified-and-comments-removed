@@ -17564,7 +17564,11 @@ return
 OBJ_IS_ARRAY
 (
 cx
+js_GetWrappedObject
+(
+cx
 obj
+)
 )
 ;
 }

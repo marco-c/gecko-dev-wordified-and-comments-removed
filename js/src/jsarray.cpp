@@ -15445,12 +15445,16 @@ vp
 OBJ_IS_ARRAY
 (
 cx
+js_GetWrappedObject
+(
+cx
 JSVAL_TO_OBJECT
 (
 vp
 [
 2
 ]
+)
 )
 )
 )
