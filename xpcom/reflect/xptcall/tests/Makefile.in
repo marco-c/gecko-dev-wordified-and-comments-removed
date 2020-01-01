@@ -76,12 +76,6 @@ config
 autoconf
 .
 mk
-SIMPLE_PROGRAMS
-=
-TestXPTCInvoke
-(
-BIN_SUFFIX
-)
 LIBS
 =
 \

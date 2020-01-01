@@ -137,19 +137,7 @@ xpi
 (
 NULL
 )
-SIMPLE_PROGRAMS
-=
-(
-CPPSRCS
-:
-.
-cpp
-=
-(
-BIN_SUFFIX
-)
-)
-PROGRAMS
+programs
 =
 (
 SIMPLE_PROGRAMS
@@ -176,7 +164,7 @@ rules
 .
 mk
 (
-PROGRAMS
+programs
 )
 :
 (
@@ -192,7 +180,7 @@ NSINSTALL
 -
 D
 (
-PROGRAMS
+programs
 )
 :
 (
@@ -211,5 +199,5 @@ libs
 :
 :
 (
-PROGRAMS
+programs
 )
