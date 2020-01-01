@@ -1406,7 +1406,7 @@ pathToImage
 stringByAppendingPathExtension
 :
 "
-tiff
+png
 "
 ]
 ;
