@@ -10,6 +10,12 @@ sp
 {
 this
 .
+error
+=
+false
+;
+this
+.
 anchorPC
 =
 pc
@@ -47,9 +53,6 @@ at
 +
 pc
 )
-;
-return
-true
 ;
 }
 stop
@@ -93,9 +96,6 @@ map
 from
 ]
 ;
-return
-true
-;
 }
 emit
 :
@@ -121,9 +121,6 @@ push
 x
 )
 ;
-return
-true
-;
 }
 setSP
 :
@@ -137,9 +134,6 @@ this
 SP
 =
 sp
-;
-return
-true
 ;
 }
 constant
@@ -165,9 +159,6 @@ value
 c
 }
 )
-;
-return
-true
 ;
 }
 }

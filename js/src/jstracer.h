@@ -28,9 +28,6 @@ JSObject
 *
 recorder
 ;
-bool
-error
-;
 }
 ;
 #
@@ -82,6 +79,14 @@ jsval
 a
 jsval
 b
+)
+;
+bool
+js_GetRecorderError
+(
+JSContext
+*
+cx
 )
 ;
 static
