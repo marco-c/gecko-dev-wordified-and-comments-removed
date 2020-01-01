@@ -91,6 +91,15 @@ pending
 "
 ;
 const
+STATE_PENDING_SVC
+=
+"
+pending
+-
+service
+"
+;
+const
 STATE_APPLYING
 =
 "

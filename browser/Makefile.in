@@ -513,5 +513,17 @@ installer
 /
 windows
 uninstaller
+ifdef
+MOZ_MAINTENANCE_SERVICE
+(
+MAKE
+)
+-
+C
+installer
+/
+windows
+maintenanceservice_installer
+endif
 endif
 endif

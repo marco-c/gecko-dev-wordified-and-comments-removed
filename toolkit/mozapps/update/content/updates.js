@@ -267,6 +267,15 @@ pending
 "
 ;
 const
+STATE_PENDING_SVC
+=
+"
+pending
+-
+service
+"
+;
+const
 STATE_APPLYING
 =
 "
@@ -1512,6 +1521,9 @@ state
 {
 case
 STATE_PENDING
+:
+case
+STATE_PENDING_SVC
 :
 this
 .
@@ -7104,6 +7116,9 @@ state
 {
 case
 STATE_PENDING
+:
+case
+STATE_PENDING_SVC
 :
 gUpdates
 .

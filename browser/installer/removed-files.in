@@ -11256,3 +11256,14 @@ components
 nsPlacesDBFlush
 .
 js
+#
+ifndef
+MOZ_MAINTENANCE_SERVICE
+maintenanceservice
+.
+exe
+maintenanceservice_installer
+.
+exe
+#
+endif

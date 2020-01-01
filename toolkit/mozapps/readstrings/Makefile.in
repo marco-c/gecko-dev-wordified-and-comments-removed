@@ -453,6 +453,11 @@ CPPSRCS
 readstrings
 .
 cpp
+EXPORTS
+=
+readstrings
+.
+h
 include
 (
 topsrcdir
