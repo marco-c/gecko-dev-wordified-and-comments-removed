@@ -259,6 +259,7 @@ collect_features_default
 NULL
 NULL
 NULL
+NULL
 normalization_preference_default
 NULL
 true
@@ -266,7 +267,7 @@ true
 ;
 static
 void
-setup_masks_thai
+preprocess_text_thai
 (
 const
 hb_ot_shape_plan_t
@@ -628,8 +629,9 @@ NULL
 NULL
 NULL
 NULL
+preprocess_text_thai
 NULL
-setup_masks_thai
+NULL
 true
 }
 ;

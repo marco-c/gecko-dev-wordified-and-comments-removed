@@ -31,6 +31,14 @@ buffer
 .
 h
 "
+#
+define
+glyph_index
+(
+)
+var1
+.
+u32
 enum
 hb_ot_shape_normalization_mode_t
 {

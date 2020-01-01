@@ -51,7 +51,6 @@ HB_END_DECLS
 endif
 #
 endif
-HB_BEGIN_DECLS
 #
 if
 !
@@ -191,6 +190,7 @@ h
 endif
 #
 endif
+HB_BEGIN_DECLS
 typedef
 int
 hb_bool_t

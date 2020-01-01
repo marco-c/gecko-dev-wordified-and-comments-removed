@@ -56,6 +56,7 @@ const
 shaper_list
 )
 ;
+HB_INTERNAL
 hb_shape_plan_t
 *
 hb_shape_plan_create_cached

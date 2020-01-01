@@ -46,7 +46,7 @@ define
 indic_category
 (
 )
-complex_var_persistent_u8_0
+complex_var_u8_0
 (
 )
 /
@@ -59,7 +59,7 @@ define
 indic_position
 (
 )
-complex_var_persistent_u8_1
+complex_var_u8_1
 (
 )
 /

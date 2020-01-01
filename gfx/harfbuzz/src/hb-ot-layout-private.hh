@@ -66,7 +66,7 @@ var1
 .
 u16
 [
-1
+0
 ]
 /
 *
@@ -80,11 +80,11 @@ define
 syllable
 (
 )
-var2
+var1
 .
 u8
 [
-0
+2
 ]
 /
 *
@@ -100,11 +100,11 @@ define
 lig_props
 (
 )
-var2
+var1
 .
 u8
 [
-1
+3
 ]
 /
 *
