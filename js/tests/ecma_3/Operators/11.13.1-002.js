@@ -76,6 +76,7 @@ lastIndex
 "
 7
 "
+;
 expect
 =
 "

@@ -494,6 +494,10 @@ are
 being
 investigated
 .
+export
+LC_ALL
+=
+C
 if
 cat
 /

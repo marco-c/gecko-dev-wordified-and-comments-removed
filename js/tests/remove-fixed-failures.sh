@@ -601,6 +601,7 @@ temp
 {
 workfixes
 }
+*
 ;
 "
 EXIT
@@ -621,6 +622,8 @@ workfixes
 sed
 -
 i
+.
+bak
 '
 s
 |
