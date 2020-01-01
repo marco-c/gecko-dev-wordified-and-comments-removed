@@ -4760,7 +4760,7 @@ canFail
 False
 }
 '
-nsIDOM3Node_IsSameNode
+nsIDOMNode_IsSameNode
 '
 :
 {
