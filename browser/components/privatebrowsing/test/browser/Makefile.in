@@ -541,6 +541,10 @@ browser_privatebrowsing_certexceptionsui
 .
 js
 \
+browser_privatebrowsing_viewsource
+.
+js
+\
 (
 NULL
 )
