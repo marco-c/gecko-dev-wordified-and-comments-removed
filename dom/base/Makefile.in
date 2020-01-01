@@ -307,10 +307,6 @@ nsWindowMemoryReporter
 .
 h
 \
-Crypto
-.
-h
-\
 (
 NULL
 )
@@ -451,10 +447,6 @@ nsPerformance
 cpp
 \
 nsWindowMemoryReporter
-.
-cpp
-\
-Crypto
 .
 cpp
 \
