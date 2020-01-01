@@ -381,13 +381,6 @@ Seq
 ;
 }
 namespace
-JSC
-{
-class
-ExecutableAllocator
-;
-}
-namespace
 js
 {
 static
@@ -3964,13 +3957,6 @@ wrapObjectCallback
 ;
 JSPreWrapCallback
 preWrapObjectCallback
-;
-JSC
-:
-:
-ExecutableAllocator
-*
-regExpAllocator
 ;
 JSRuntime
 (

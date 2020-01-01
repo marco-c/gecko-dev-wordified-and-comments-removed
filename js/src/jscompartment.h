@@ -92,6 +92,13 @@ members
 #
 endif
 namespace
+JSC
+{
+class
+ExecutableAllocator
+;
+}
+namespace
 js
 {
 typedef
@@ -637,6 +644,13 @@ anynameObject
 JSObject
 *
 functionNamespaceObject
+;
+JSC
+:
+:
+ExecutableAllocator
+*
+regExpAllocator
 ;
 js
 :

@@ -1990,7 +1990,7 @@ jitCompileRegex
 cx
 -
 >
-runtime
+compartment
 -
 >
 regExpAllocator
