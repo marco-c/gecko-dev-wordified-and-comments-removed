@@ -446,12 +446,6 @@ DIRS
 pgo
 ifdef
 ENABLE_TESTS
-DIRS
-+
-=
-autoconf
-/
-test
 ifeq
 (
 Android
