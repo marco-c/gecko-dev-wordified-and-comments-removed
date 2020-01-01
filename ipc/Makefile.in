@@ -433,6 +433,7 @@ DIRS
 +
 =
 ipdl
+testshell
 TOOL_DIRS
 =
 app

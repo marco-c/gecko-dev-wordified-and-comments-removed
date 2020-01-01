@@ -439,12 +439,6 @@ TIERS
 +
 =
 zlib
-\
-necko
-\
-(
-NULL
-)
 ifndef
 MOZ_NATIVE_ZLIB
 tier_zlib_dirs

@@ -7,6 +7,13 @@ nsHttpHeaderArray_h__
 #
 include
 "
+nsHttp
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -36,13 +43,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-nsHttp
 .
 h
 "
