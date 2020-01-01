@@ -2197,6 +2197,16 @@ CancelImageRequests
 aNotify
 )
 ;
+FireEvent
+(
+NS_LITERAL_STRING
+(
+"
+error
+"
+)
+)
+;
 return
 NS_OK
 ;
