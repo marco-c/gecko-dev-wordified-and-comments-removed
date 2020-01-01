@@ -498,7 +498,7 @@ corresponding
 to
 methods
 on
-nsIWebSocketProtocolHandler
+nsIWebSocketChannelHandler
 AsyncOpen
 (
 URI

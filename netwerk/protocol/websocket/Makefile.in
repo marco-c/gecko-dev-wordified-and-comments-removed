@@ -444,7 +444,11 @@ net
 XPIDLSRCS
 =
 \
-nsIWebSocketProtocol
+nsIWebSocketChannel
+.
+idl
+\
+nsIWebSocketListener
 .
 idl
 \

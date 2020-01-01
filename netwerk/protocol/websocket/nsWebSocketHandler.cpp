@@ -229,7 +229,7 @@ net
 NS_IMPL_THREADSAFE_ISUPPORTS11
 (
 nsWebSocketHandler
-nsIWebSocketProtocol
+nsIWebSocketChannel
 nsIHttpUpgradeListener
 nsIRequestObserver
 nsIStreamListener

@@ -145,7 +145,7 @@ mAuthProvider
 ;
 nsCOMPtr
 <
-nsIWebSocketProtocol
+nsIWebSocketChannel
 >
 mChannel
 ;

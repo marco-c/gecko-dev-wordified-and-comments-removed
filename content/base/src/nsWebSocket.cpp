@@ -232,7 +232,14 @@ h
 #
 include
 "
-nsIWebSocketProtocol
+nsIWebSocketChannel
+.
+h
+"
+#
+include
+"
+nsIWebSocketListener
 .
 h
 "
@@ -494,9 +501,9 @@ mOwner
 ;
 nsCOMPtr
 <
-nsIWebSocketProtocol
+nsIWebSocketChannel
 >
-mWebSocketProtocol
+mWebSocketChannel
 ;
 PRPackedBool
 mClosedCleanly
@@ -606,7 +613,7 @@ called
 NS_ABORT_IF_FALSE
 (
 !
-mWebSocketProtocol
+mWebSocketChannel
 "
 Disconnect
 wasn
@@ -949,7 +956,7 @@ Length
 (
 )
 ;
-mWebSocketProtocol
+mWebSocketChannel
 -
 >
 SendMsg
@@ -1031,7 +1038,7 @@ mOwner
 mSecure
 )
 {
-mWebSocketProtocol
+mWebSocketChannel
 =
 do_CreateInstance
 (
@@ -1057,7 +1064,7 @@ rv
 }
 else
 {
-mWebSocketProtocol
+mWebSocketChannel
 =
 do_CreateInstance
 (
@@ -1089,7 +1096,7 @@ rv
 ;
 rv
 =
-mWebSocketProtocol
+mWebSocketChannel
 -
 >
 SetNotificationCallbacks
@@ -1126,7 +1133,7 @@ loadGroup
 {
 rv
 =
-mWebSocketProtocol
+mWebSocketChannel
 -
 >
 SetLoadGroup
@@ -1172,7 +1179,7 @@ IsEmpty
 )
 rv
 =
-mWebSocketProtocol
+mWebSocketChannel
 -
 >
 SetProtocol
@@ -1203,7 +1210,7 @@ utf8Origin
 ;
 rv
 =
-mWebSocketProtocol
+mWebSocketChannel
 -
 >
 AsyncOpen
@@ -1609,7 +1616,7 @@ NS_OK
 ;
 }
 return
-mWebSocketProtocol
+mWebSocketChannel
 -
 >
 Close
@@ -1908,7 +1915,7 @@ mOwner
 =
 nsnull
 ;
-mWebSocketProtocol
+mWebSocketChannel
 =
 nsnull
 ;
@@ -2116,7 +2123,7 @@ IsEmpty
 (
 )
 )
-mWebSocketProtocol
+mWebSocketChannel
 -
 >
 GetProtocol

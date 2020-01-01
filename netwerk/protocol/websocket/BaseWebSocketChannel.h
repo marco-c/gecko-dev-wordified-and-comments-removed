@@ -7,7 +7,14 @@ mozilla_net_BaseWebSocketChannel_h
 #
 include
 "
-nsIWebSocketProtocol
+nsIWebSocketChannel
+.
+h
+"
+#
+include
+"
+nsIWebSocketListener
 .
 h
 "
@@ -56,7 +63,7 @@ class
 BaseWebSocketChannel
 :
 public
-nsIWebSocketProtocol
+nsIWebSocketChannel
 public
 nsIProtocolHandler
 {

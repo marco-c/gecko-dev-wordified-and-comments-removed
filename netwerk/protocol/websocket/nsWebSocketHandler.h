@@ -7,13 +7,6 @@ mozilla_net_nsWebSocketHandler_h
 #
 include
 "
-nsIWebSocketProtocol
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h
