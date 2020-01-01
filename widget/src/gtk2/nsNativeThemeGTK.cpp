@@ -1294,6 +1294,12 @@ IsOpen
 (
 )
 ;
+*
+aWidgetFlags
+|
+=
+MOZ_TOPLEVEL_MENU_ITEM
+;
 }
 else
 {
@@ -1310,6 +1316,13 @@ nsWidgetAtoms
 :
 mozmenuactive
 )
+;
+*
+aWidgetFlags
+&
+=
+~
+MOZ_TOPLEVEL_MENU_ITEM
 ;
 }
 aState
