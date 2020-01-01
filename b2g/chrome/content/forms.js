@@ -2029,11 +2029,6 @@ typeLowerCase
 {
 case
 "
-time
-"
-:
-case
-"
 datetime
 "
 :
