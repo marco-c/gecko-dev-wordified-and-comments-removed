@@ -2574,6 +2574,7 @@ PRBool
 IsChrome
 (
 )
+const
 {
 return
 mIsChromeIsCached
@@ -2595,7 +2596,12 @@ void
 InvalidateIsChromeCacheInternal
 (
 )
+{
+mIsChromeIsCached
+=
+PR_FALSE
 ;
+}
 #
 ifdef
 _IMPL_NS_LAYOUT
@@ -2633,11 +2639,13 @@ aFrame
 PRUint32
 ruleTypeMask
 )
+const
 ;
 PRBool
 UseDocumentColors
 (
 )
+const
 {
 return
 GetCachedBoolPref
@@ -3226,6 +3234,7 @@ PRBool
 IsChromeSlow
 (
 )
+const
 ;
 nsPresContextType
 mType
@@ -3587,11 +3596,13 @@ mProcessingAnimationStyleChange
 :
 1
 ;
+mutable
 unsigned
 mIsChromeIsCached
 :
 1
 ;
+mutable
 unsigned
 mIsChrome
 :
