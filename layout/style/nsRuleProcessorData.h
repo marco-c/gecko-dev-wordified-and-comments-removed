@@ -409,10 +409,6 @@ mRuleWalker
 ;
 nsIAtom
 *
-mContentTag
-;
-nsIAtom
-*
 mContentID
 ;
 PRPackedBool
