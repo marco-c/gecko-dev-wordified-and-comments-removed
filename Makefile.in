@@ -795,6 +795,16 @@ name
 .
 dll
 "
+-
+a
+-
+not
+-
+name
+"
+msvc
+*
+"
 >
 rebase
 .
