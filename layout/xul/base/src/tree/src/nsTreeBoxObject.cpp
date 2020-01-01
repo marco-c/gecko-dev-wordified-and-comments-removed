@@ -322,7 +322,7 @@ break
 }
 }
 }
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 nsTreeBoxObject
 :
@@ -414,9 +414,9 @@ frame
 return
 nsnull
 ;
-nsITreeBoxObject
+nsTreeBodyFrame
 *
-innerTreeBoxObject
+treeBody
 =
 nsnull
 ;
@@ -424,22 +424,15 @@ CallQueryInterface
 (
 frame
 &
-innerTreeBoxObject
+treeBody
 )
 ;
 NS_ENSURE_TRUE
 (
-innerTreeBoxObject
+treeBody
 &
 &
-static_cast
-<
-nsTreeBodyFrame
-*
->
-(
-innerTreeBoxObject
-)
+treeBody
 -
 >
 GetTreeBoxObject
@@ -447,20 +440,13 @@ GetTreeBoxObject
 )
 =
 =
-static_cast
-<
-nsITreeBoxObject
-*
->
-(
 this
-)
 nsnull
 )
 ;
 mTreeBody
 =
-innerTreeBoxObject
+treeBody
 ;
 return
 mTreeBody
@@ -690,7 +676,7 @@ mView
 =
 aView
 ;
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -730,7 +716,7 @@ aFocused
 =
 PR_FALSE
 ;
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -765,7 +751,7 @@ PRBool
 aFocused
 )
 {
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -807,7 +793,7 @@ aElement
 =
 nsnull
 ;
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -849,7 +835,7 @@ aColumns
 =
 nsnull
 ;
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -890,7 +876,7 @@ aRowHeight
 =
 0
 ;
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -931,7 +917,7 @@ aRowWidth
 =
 0
 ;
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -972,7 +958,7 @@ aFirstVisibleRow
 =
 0
 ;
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1013,7 +999,7 @@ aLastVisibleRow
 =
 0
 ;
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1054,7 +1040,7 @@ aHorizontalPosition
 =
 0
 ;
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1095,7 +1081,7 @@ aPageLength
 =
 0
 ;
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1137,7 +1123,7 @@ aRegion
 =
 nsnull
 ;
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1172,7 +1158,7 @@ PRInt32
 aRow
 )
 {
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1210,7 +1196,7 @@ nsITreeColumn
 aCol
 )
 {
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1249,7 +1235,7 @@ PRInt32
 aRow
 )
 {
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1284,7 +1270,7 @@ PRInt32
 aNumLines
 )
 {
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1319,7 +1305,7 @@ PRInt32
 aNumPages
 )
 {
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1357,7 +1343,7 @@ nsITreeColumn
 aCol
 )
 {
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1394,7 +1380,7 @@ nsITreeColumn
 aCol
 )
 {
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1429,7 +1415,7 @@ PRInt32
 aHorizontalPosition
 )
 {
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1462,7 +1448,7 @@ Invalidate
 (
 )
 {
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1497,7 +1483,7 @@ nsITreeColumn
 aCol
 )
 {
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1532,7 +1518,7 @@ PRInt32
 aIndex
 )
 {
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1570,7 +1556,7 @@ nsITreeColumn
 aCol
 )
 {
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1608,7 +1594,7 @@ PRInt32
 aEnd
 )
 {
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1649,7 +1635,7 @@ nsITreeColumn
 aCol
 )
 {
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1696,7 +1682,7 @@ aRow
 =
 0
 ;
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1755,7 +1741,7 @@ aCol
 =
 nsnull
 ;
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1827,7 +1813,7 @@ aHeight
 =
 0
 ;
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1879,7 +1865,7 @@ aIsCropped
 =
 PR_FALSE
 ;
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1918,7 +1904,7 @@ PRInt32
 aDelta
 )
 {
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1952,7 +1938,7 @@ BeginUpdateBatch
 (
 )
 {
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -1984,7 +1970,7 @@ EndUpdateBatch
 (
 )
 {
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
@@ -2016,7 +2002,7 @@ ClearStyleAndImageCaches
 (
 )
 {
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =

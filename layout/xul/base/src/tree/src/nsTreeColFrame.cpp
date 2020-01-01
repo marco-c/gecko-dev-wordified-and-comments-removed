@@ -103,6 +103,13 @@ nsDisplayList
 .
 h
 "
+#
+include
+"
+nsTreeBodyFrame
+.
+h
+"
 nsIFrame
 *
 NS_NewTreeColFrame
@@ -854,7 +861,7 @@ columns
 }
 else
 {
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 body
 =
