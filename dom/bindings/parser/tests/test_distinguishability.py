@@ -1158,15 +1158,26 @@ short
 ?
 "
 "
+boolean
+"
+                 
+"
+boolean
+?
+"
+"
 DOMString
+"
+"
+ByteString
 "
 "
 Enum
 "
-                 
 "
 Enum2
 "
+                 
 "
 Interface
 "
@@ -1245,6 +1256,9 @@ Date
 Date
 ?
 "
+"
+any
+"
 ]
     
 def
@@ -1267,9 +1281,16 @@ a
 not
 in
 list2
+and
+a
+!
+=
+"
+any
+"
 ]
     
-primitives
+numerics
 =
 [
 "
@@ -1286,10 +1307,51 @@ long
 short
 ?
 "
+]
+    
+booleans
+=
+[
+"
+boolean
+"
+"
+boolean
+?
+"
+]
+    
+primitives
+=
+numerics
++
+booleans
+    
+nonNumerics
+=
+allBut
+(
+argTypes
+numerics
+)
+    
+nonBooleans
+=
+allBut
+(
+argTypes
+booleans
+)
+    
+strings
+=
+[
 "
 DOMString
 "
-                   
+"
+ByteString
+"
 "
 Enum
 "
@@ -1298,12 +1360,26 @@ Enum2
 "
 ]
     
-nonPrimitives
+nonStrings
 =
 allBut
 (
 argTypes
+strings
+)
+    
+nonObjects
+=
 primitives
++
+strings
+    
+objects
+=
+allBut
+(
+argTypes
+nonObjects
 )
     
 interfaces
@@ -1340,14 +1416,18 @@ short
 ?
 "
 "
+boolean
+?
+"
+"
 Interface
 ?
 "
+                 
 "
 CallbackInterface
 ?
 "
-                 
 "
 optional
 Dict
@@ -1356,9 +1436,13 @@ Dict
 optional
 Dict2
 "
+                 
 "
 Date
 ?
+"
+"
+any
 "
 ]
     
@@ -1376,7 +1460,7 @@ Date
     
 nonUserObjects
 =
-primitives
+nonObjects
 +
 interfaces
 +
@@ -1398,7 +1482,8 @@ object
     
 notRelatedInterfaces
 =
-primitives
+(
+nonObjects
 +
 [
 "
@@ -1406,9 +1491,11 @@ UnrelatedInterface
 "
 ]
 +
+                            
 otherObjects
 +
 dates
+)
     
 data
 =
@@ -1461,7 +1548,7 @@ setDistinguishable
 "
 long
 "
-nonPrimitives
+nonNumerics
 )
     
 setDistinguishable
@@ -1469,7 +1556,7 @@ setDistinguishable
 "
 short
 "
-nonPrimitives
+nonNumerics
 )
     
 setDistinguishable
@@ -1480,7 +1567,7 @@ long
 "
 allBut
 (
-nonPrimitives
+nonNumerics
 nullables
 )
 )
@@ -1493,7 +1580,28 @@ short
 "
 allBut
 (
-nonPrimitives
+nonNumerics
+nullables
+)
+)
+    
+setDistinguishable
+(
+"
+boolean
+"
+nonBooleans
+)
+    
+setDistinguishable
+(
+"
+boolean
+?
+"
+allBut
+(
+nonBooleans
 nullables
 )
 )
@@ -1503,7 +1611,15 @@ setDistinguishable
 "
 DOMString
 "
-nonPrimitives
+nonStrings
+)
+    
+setDistinguishable
+(
+"
+ByteString
+"
+nonStrings
 )
     
 setDistinguishable
@@ -1511,7 +1627,7 @@ setDistinguishable
 "
 Enum
 "
-nonPrimitives
+nonStrings
 )
     
 setDistinguishable
@@ -1519,7 +1635,7 @@ setDistinguishable
 "
 Enum2
 "
-nonPrimitives
+nonStrings
 )
     
 setDistinguishable
@@ -1613,7 +1729,7 @@ setDistinguishable
 "
 object
 "
-primitives
+nonObjects
 )
     
 setDistinguishable
@@ -1737,6 +1853,15 @@ object
 "
 ]
 )
+)
+    
+setDistinguishable
+(
+"
+any
+"
+[
+]
 )
     
 def
