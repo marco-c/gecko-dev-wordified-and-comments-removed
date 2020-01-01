@@ -131,6 +131,16 @@ Tracker
 (
 )
 ;
+bool
+has
+(
+const
+void
+*
+v
+)
+const
+;
 nanojit
 :
 :
