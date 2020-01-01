@@ -369,6 +369,13 @@ nsEventStates
 )
 ;
 }
+self
+-
+>
+mLinkState
+=
+eLinkState_Unvisited
+;
 if
 (
 mHistory
@@ -400,13 +407,6 @@ self
 mRegistered
 =
 true
-;
-self
--
->
-mLinkState
-=
-eLinkState_Unvisited
 ;
 nsIDocument
 *
