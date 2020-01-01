@@ -934,6 +934,10 @@ virtual
 void
 ScheduleViewManagerFlush
 (
+PRUint32
+aFlags
+=
+0
 )
 ;
 virtual
@@ -2956,6 +2960,11 @@ mNoDelayedMouseEvents
 ;
 bool
 mNoDelayedKeyEvents
+:
+1
+;
+bool
+mPaintRequired
 :
 1
 ;
