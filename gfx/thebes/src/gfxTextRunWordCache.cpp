@@ -2648,7 +2648,7 @@ i
 -
 wordStart
 ;
-nsAutoPtr
+nsAutoArrayPtr
 <
 PRUnichar
 >
@@ -3358,7 +3358,7 @@ i
 -
 wordStart
 ;
-nsAutoPtr
+nsAutoArrayPtr
 <
 PRUnichar
 >
