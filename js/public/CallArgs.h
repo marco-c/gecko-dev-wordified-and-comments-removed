@@ -1,9 +1,9 @@
 #
 ifndef
-js_CallArgs_h___
+js_CallArgs_h
 #
 define
-js_CallArgs_h___
+js_CallArgs_h
 #
 include
 "

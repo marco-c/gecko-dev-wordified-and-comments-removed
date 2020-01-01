@@ -1,9 +1,9 @@
 #
 ifndef
-jsgc_root_h__
+js_RootingAPI_h
 #
 define
-jsgc_root_h__
+js_RootingAPI_h
 #
 include
 "

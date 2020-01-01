@@ -1,9 +1,9 @@
 #
 ifndef
-js_heap_api_h___
+js_HeapAPI_h
 #
 define
-js_heap_api_h___
+js_HeapAPI_h
 #
 include
 "

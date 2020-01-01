@@ -1,9 +1,9 @@
 #
 ifndef
-PROTYPES_H
+js_LegacyIntTypes_h
 #
 define
-PROTYPES_H
+js_LegacyIntTypes_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-js_HashTable_h__
+js_HashTable_h
 #
 define
-js_HashTable_h__
+js_HashTable_h
 #
 include
 "

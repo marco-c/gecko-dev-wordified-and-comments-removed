@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_jsipc_ContextWrapperTypes_h__
+mozilla_jsipc_CPOWTypes_h
 #
 define
-mozilla_jsipc_ContextWrapperTypes_h__
+mozilla_jsipc_CPOWTypes_h
 #
 include
 "

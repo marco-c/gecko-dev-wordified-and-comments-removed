@@ -1,9 +1,9 @@
 #
 ifndef
-js_utility_h__
+js_Utility_h
 #
 define
-js_utility_h__
+js_Utility_h
 #
 include
 "

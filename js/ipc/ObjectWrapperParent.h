@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_jsipc_ObjectWrapperParent_h__
+mozilla_jsipc_ObjectWrapperParent_h
 #
 define
-mozilla_jsipc_ObjectWrapperParent_h__
+mozilla_jsipc_ObjectWrapperParent_h
 #
 include
 "

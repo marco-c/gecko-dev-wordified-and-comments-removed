@@ -1,9 +1,9 @@
 #
 ifndef
-jsvector_h_
+js_Vector_h
 #
 define
-jsvector_h_
+js_Vector_h
 #
 include
 "

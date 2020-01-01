@@ -1,9 +1,9 @@
 #
 ifndef
-js_CharacterEncoding_h___
+js_CharacterEncoding_h
 #
 define
-js_CharacterEncoding_h___
+js_CharacterEncoding_h
 #
 include
 "

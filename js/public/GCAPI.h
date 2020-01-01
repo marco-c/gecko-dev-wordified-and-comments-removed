@@ -1,9 +1,9 @@
 #
 ifndef
-js_gc_api_h___
+js_GCAPI_h
 #
 define
-js_gc_api_h___
+js_GCAPI_h
 #
 include
 "

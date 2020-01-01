@@ -1,9 +1,9 @@
 #
 ifndef
-js_Anchor_h___
+js_Anchor_h
 #
 define
-js_Anchor_h___
+js_Anchor_h
 #
 include
 "

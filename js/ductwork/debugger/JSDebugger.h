@@ -1,9 +1,9 @@
 #
 ifndef
-COMPONENTS_JSDEBUGGER_H
+JSDebugger_h
 #
 define
-COMPONENTS_JSDEBUGGER_H
+JSDebugger_h
 #
 include
 "
