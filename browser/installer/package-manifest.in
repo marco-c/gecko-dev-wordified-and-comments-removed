@@ -2976,7 +2976,7 @@ rendering
 library
 #
 ifdef
-MOZ_ANGLE
+MOZ_ANGLE_RENDERER
 BINPATH
 /
 libEGL

@@ -6671,7 +6671,7 @@ fi
 if
 [
 "
-MOZ_ANGLE
+MOZ_ANGLE_RENDERER
 "
 ]
 ;

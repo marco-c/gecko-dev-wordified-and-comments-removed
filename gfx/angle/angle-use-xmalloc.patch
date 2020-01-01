@@ -103,7 +103,7 @@ MOZALLOC_LIB
 )
 +
 ifdef
-MOZ_ANGLE
+MOZ_ANGLE_RENDERER
 #
 libEGL
 depends
