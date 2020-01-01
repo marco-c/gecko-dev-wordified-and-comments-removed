@@ -820,6 +820,10 @@ test_maxLineBoxWidth
 .
 html
 \
+test_remote_frame
+.
+html
+\
 (
 NULL
 )
