@@ -19940,6 +19940,11 @@ res
 return
 res
 ;
+PRBool
+disconnected
+=
+PR_FALSE
+;
 PRInt32
 result1
 =
@@ -19952,6 +19957,8 @@ anchorNode
 anchorOffset
 focusNode
 focusOffset
+&
+disconnected
 )
 ;
 PRInt32
@@ -19966,6 +19973,8 @@ focusNode
 focusOffset
 aParentNode
 aOffset
+&
+disconnected
 )
 ;
 PRInt32
@@ -19980,6 +19989,8 @@ anchorNode
 anchorOffset
 aParentNode
 aOffset
+&
+disconnected
 )
 ;
 if
