@@ -2743,11 +2743,11 @@ true
 pref
 (
 "
-plugins
+plugin
 .
-enabled
+load_plugins
 "
-true
+false
 )
 ;
 #
