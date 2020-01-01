@@ -1039,9 +1039,6 @@ DestructorCaller
 >
 destructors
 ;
-ZipCollection
-zips
-;
 class
 DebuggerHelper
 ;
