@@ -1988,6 +1988,17 @@ boxObject
 .
 x
 ;
+var
+adjustedX
+=
+aX
++
+this
+.
+treeBoxObject
+.
+horizontalPosition
+;
 while
 (
 col
@@ -2026,7 +2037,7 @@ cw
 aThresh
 )
 >
-aX
+adjustedX
 )
 return
 col
