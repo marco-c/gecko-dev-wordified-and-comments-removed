@@ -552,7 +552,8 @@ NULL
 msg
 L
 "
-WebappRT
+Web
+Runtime
 "
 MB_OK
 )
