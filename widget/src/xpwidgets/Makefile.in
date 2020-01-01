@@ -533,7 +533,6 @@ qt
 gtk2
 os2
 cocoa
-photon
 windows
 (
 MOZ_WIDGET_TOOLKIT

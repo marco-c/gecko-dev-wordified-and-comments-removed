@@ -511,13 +511,6 @@ DIRS
 gtkxtbin
 endif
 endif
-ifdef
-MOZ_ENABLE_PHOTON
-DIRS
-+
-=
-photon
-endif
 include
 (
 topsrcdir
