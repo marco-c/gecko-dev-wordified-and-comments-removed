@@ -443,6 +443,10 @@ LIBXUL_LIBRARY
 CPPSRCS
 =
 \
+GfxInfo
+.
+cpp
+\
 nsWidgetFactory
 .
 cpp

@@ -171,6 +171,10 @@ nsCoreAnimationSupport
 .
 h
 \
+EGLUtils
+.
+h
+\
 (
 NULL
 )
