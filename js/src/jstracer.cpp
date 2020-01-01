@@ -78476,6 +78476,8 @@ JSProto_Object
 LIns
 *
 proto_ins
+=
+NULL
 ;
 LIns
 *
@@ -78596,6 +78598,8 @@ initDepth
 LIns
 *
 proto_ins
+=
+NULL
 ;
 CHECK_STATUS_A
 (
@@ -78688,6 +78692,8 @@ initDepth
 LIns
 *
 proto_ins
+=
+NULL
 ;
 CHECK_STATUS_A
 (
@@ -82737,6 +82743,8 @@ ARECORD_CONTINUE
 LIns
 *
 proto_ins
+=
+NULL
 ;
 CHECK_STATUS_A
 (
@@ -82846,6 +82854,8 @@ let
 LIns
 *
 proto_ins
+=
+NULL
 ;
 CHECK_STATUS_A
 (
@@ -83747,6 +83757,8 @@ globalObj
 LIns
 *
 proto_ins
+=
+NULL
 ;
 CHECK_STATUS_A
 (
@@ -84112,6 +84124,8 @@ pc
 LIns
 *
 proto_ins
+=
+NULL
 ;
 CHECK_STATUS_A
 (
