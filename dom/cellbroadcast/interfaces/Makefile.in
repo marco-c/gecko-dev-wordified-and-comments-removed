@@ -93,6 +93,10 @@ mk
 XPIDLSRCS
 =
 \
+nsICellBroadcastProvider
+.
+idl
+\
 nsIDOMMozCellBroadcast
 .
 idl
