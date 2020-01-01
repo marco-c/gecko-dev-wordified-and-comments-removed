@@ -449,9 +449,14 @@ aChannel
 globalOwner
 )
 ;
-NS_ASSERTION
+if
 (
+!
 globalOwner
+)
+{
+NS_WARNING
+(
 "
 Unable
 to
@@ -467,6 +472,7 @@ channel
 "
 )
 ;
+}
 if
 (
 !
