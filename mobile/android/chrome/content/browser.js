@@ -1,3 +1,6 @@
+#
+filter
+substitution
 "
 use
 strict
@@ -41737,6 +41740,20 @@ telemetry
 .
 prompted
 "
+#
+ifdef
+MOZ_TELEMETRY_ON_BY_DEFAULT
+_PREF_TELEMETRY_ENABLED
+:
+"
+toolkit
+.
+telemetry
+.
+enabledPreRelease
+"
+#
+else
 _PREF_TELEMETRY_ENABLED
 :
 "
@@ -41746,6 +41763,8 @@ telemetry
 .
 enabled
 "
+#
+endif
 _PREF_TELEMETRY_REJECTED
 :
 "
@@ -41766,7 +41785,9 @@ server_owner
 "
 _TELEMETRY_PROMPT_REV
 :
-2
+"
+MOZ_TELEMETRY_DISPLAY_REV
+"
 init
 :
 function
