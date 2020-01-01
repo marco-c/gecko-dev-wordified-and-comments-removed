@@ -491,6 +491,15 @@ outlineWidth
 "
 )
 ;
+var
+listExpectedVisible
+=
+isMac
+?
+false
+:
+expectedVisible
+;
 checkFocus
 (
 (
@@ -498,7 +507,7 @@ checkFocus
 l1
 "
 )
-expectedVisible
+listExpectedVisible
 "
 appearance
 on
@@ -599,7 +608,7 @@ checkFocus
 l1
 "
 )
-expectedVisible
+listExpectedVisible
 "
 appearance
 on
