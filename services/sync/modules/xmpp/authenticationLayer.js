@@ -1,3 +1,15 @@
+const
+EXPORTED_SYMBOLS
+=
+[
+'
+PlainAuthenticator
+'
+'
+Md5DigestAuthenticator
+'
+]
+;
 if
 (
 typeof
