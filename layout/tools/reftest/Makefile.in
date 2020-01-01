@@ -628,6 +628,16 @@ automationutils
 py
 \
 (
+topsrcdir
+)
+/
+build
+/
+poster
+.
+zip
+\
+(
 NULL
 )
 (

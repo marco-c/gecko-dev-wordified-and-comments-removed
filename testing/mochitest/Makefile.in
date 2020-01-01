@@ -532,6 +532,16 @@ automationutils
 .
 py
 \
+(
+topsrcdir
+)
+/
+build
+/
+poster
+.
+zip
+\
 gen_template
 .
 pl

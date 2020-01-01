@@ -507,6 +507,10 @@ automationutils
 .
 py
 \
+poster
+.
+zip
+\
 (
 NULL
 )
