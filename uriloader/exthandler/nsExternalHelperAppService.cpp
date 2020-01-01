@@ -2766,6 +2766,19 @@ tabchild
 return
 NS_ERROR_FAILURE
 ;
+nsCString
+disp
+;
+if
+(
+channel
+)
+ExtractDisposition
+(
+channel
+disp
+)
+;
 using
 mozilla
 :
@@ -2829,6 +2842,7 @@ nsCString
 (
 aMimeContentType
 )
+disp
 aForceSave
 contentLength
 )

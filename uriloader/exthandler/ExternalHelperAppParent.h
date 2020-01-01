@@ -19,7 +19,7 @@ h
 #
 include
 "
-nsICancelable
+nsIMultiPartChannel
 .
 h
 "
@@ -63,6 +63,8 @@ nsHashPropertyBag
 public
 nsIChannel
 public
+nsIMultiPartChannel
+public
 nsIResumableChannel
 {
 public
@@ -70,6 +72,7 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSIREQUEST
 NS_DECL_NSICHANNEL
+NS_DECL_NSIMULTIPARTCHANNEL
 NS_DECL_NSIRESUMABLECHANNEL
 bool
 RecvOnStartRequest
@@ -132,6 +135,10 @@ nsCString
 &
 aMimeContentType
 const
+nsCString
+&
+aContentDisposition
+const
 PRBool
 &
 aForceSave
@@ -168,6 +175,9 @@ mStatus
 ;
 PRInt64
 mContentLength
+;
+nsCString
+mContentDisposition
 ;
 nsCString
 mEntityID
