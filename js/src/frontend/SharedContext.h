@@ -266,6 +266,8 @@ funMightAliasLocals
 )
 const
 {
+INFUNC
+;
 return
 cxFlags
 .
@@ -278,6 +280,8 @@ funHasExtensibleScope
 )
 const
 {
+INFUNC
+;
 return
 cxFlags
 .
@@ -355,6 +359,8 @@ setFunMightAliasLocals
 (
 )
 {
+INFUNC
+;
 cxFlags
 .
 funMightAliasLocals
@@ -367,6 +373,8 @@ setFunHasExtensibleScope
 (
 )
 {
+INFUNC
+;
 cxFlags
 .
 funHasExtensibleScope
