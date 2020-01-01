@@ -513,7 +513,10 @@ fp
 if
 (
 !
-CreateFunCallObject
+CallObject
+:
+:
+createForFunction
 (
 cx
 fp
@@ -2680,7 +2683,10 @@ isStrictEvalFrame
 &
 &
 !
-CreateEvalCallObject
+CallObject
+:
+:
+createForStrictEval
 (
 cx
 fp
