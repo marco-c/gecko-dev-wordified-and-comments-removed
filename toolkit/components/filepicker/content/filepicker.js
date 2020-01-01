@@ -1533,6 +1533,8 @@ getElementById
 filterMenuList
 "
 )
+.
+selectedIndex
 ;
 retvals
 .
