@@ -142,15 +142,6 @@ PRInt32
 aColumn
 )
 ;
-bool
-IsValidRowNColumn
-(
-PRInt32
-aRow
-PRInt32
-aColumn
-)
-;
 Accessible
 *
 GetRowAt
