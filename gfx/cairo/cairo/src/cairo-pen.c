@@ -823,7 +823,8 @@ i
 {
 if
 (
-_cairo_slope_clockwise
+(
+_cairo_slope_compare
 (
 slope
 &
@@ -837,9 +838,13 @@ i
 .
 slope_ccw
 )
+<
+0
+)
 &
 &
-_cairo_slope_counter_clockwise
+(
+_cairo_slope_compare
 (
 slope
 &
@@ -852,6 +857,10 @@ i
 ]
 .
 slope_cw
+)
+>
+=
+0
 )
 )
 break
@@ -943,7 +952,8 @@ i
 {
 if
 (
-_cairo_slope_counter_clockwise
+(
+_cairo_slope_compare
 (
 &
 pen
@@ -958,9 +968,14 @@ slope_ccw
 &
 slope_reverse
 )
+>
+=
+0
+)
 &
 &
-_cairo_slope_clockwise
+(
+_cairo_slope_compare
 (
 &
 pen
@@ -974,6 +989,9 @@ i
 slope_cw
 &
 slope_reverse
+)
+<
+0
 )
 )
 break
@@ -1267,7 +1285,7 @@ step
 ;
 if
 (
-_cairo_slope_counter_clockwise
+_cairo_slope_compare
 (
 &
 slope
@@ -1282,6 +1300,8 @@ active
 .
 slope_ccw
 )
+>
+0
 )
 {
 if
@@ -1304,7 +1324,7 @@ active
 else
 if
 (
-_cairo_slope_clockwise
+_cairo_slope_compare
 (
 &
 slope
@@ -1319,6 +1339,8 @@ active
 .
 slope_cw
 )
+<
+0
 )
 {
 if

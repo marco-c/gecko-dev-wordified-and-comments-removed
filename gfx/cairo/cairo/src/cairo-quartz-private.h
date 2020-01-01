@@ -66,6 +66,9 @@ sourceShading
 CGPatternRef
 sourcePattern
 ;
+CGInterpolationQuality
+oldInterpolationQuality
+;
 }
 cairo_quartz_surface_t
 ;

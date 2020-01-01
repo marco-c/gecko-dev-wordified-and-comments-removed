@@ -2917,9 +2917,9 @@ cairo_win32_surface_t
 dst
 cairo_rectangle_int_t
 src_extents
-cairo_rectangle_int32_t
+cairo_rectangle_int_t
 src_r
-cairo_rectangle_int32_t
+cairo_rectangle_int_t
 dst_r
 int
 alpha
@@ -3416,7 +3416,7 @@ src_format
 cairo_rectangle_int_t
 src_extents
 ;
-cairo_rectangle_int32_t
+cairo_rectangle_int_t
 src_r
 =
 {
@@ -3426,7 +3426,7 @@ width
 height
 }
 ;
-cairo_rectangle_int32_t
+cairo_rectangle_int_t
 dst_r
 =
 {
@@ -4605,7 +4605,7 @@ if
 needs_repeat
 )
 {
-cairo_rectangle_int32_t
+cairo_rectangle_int_t
 piece_src_r
 piece_dst_r
 ;

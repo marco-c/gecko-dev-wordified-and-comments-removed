@@ -3051,11 +3051,7 @@ i
 direct_memcpy
 (
 dst
-+
-src_x
 src
-+
-src_x
 len
 )
 ;

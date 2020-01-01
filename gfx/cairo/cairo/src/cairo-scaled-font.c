@@ -2922,8 +2922,8 @@ width
 =
 =
 0
-&
-&
+|
+|
 scaled_glyph
 -
 >

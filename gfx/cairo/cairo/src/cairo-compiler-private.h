@@ -434,11 +434,16 @@ x
 endif
 #
 ifdef
-_MSC_VER
+__WIN32__
 #
 define
 snprintf
 _snprintf
+#
+endif
+#
+ifdef
+_MSC_VER
 #
 undef
 inline

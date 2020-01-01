@@ -183,6 +183,7 @@ cairo_fill_rule_t
 fill_rule
 )
 ;
+cairo_private
 cairo_int_status_t
 _cairo_pdf_operators_fill_stroke
 (

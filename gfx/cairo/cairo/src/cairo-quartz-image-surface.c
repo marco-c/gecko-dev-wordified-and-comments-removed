@@ -176,7 +176,7 @@ CGColorSpaceCreateDeviceRGB
 ;
 bitinfo
 =
-kCGImageAlphaPremultipliedFirst
+kCGImageAlphaNoneSkipFirst
 |
 kCGBitmapByteOrder32Host
 ;
@@ -220,6 +220,9 @@ bitsPerPixel
 ;
 break
 ;
+case
+CAIRO_FORMAT_A1
+:
 default
 :
 return
