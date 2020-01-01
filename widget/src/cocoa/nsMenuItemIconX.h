@@ -103,6 +103,11 @@ nsIURI
 aIconURI
 )
 ;
+void
+Destroy
+(
+)
+;
 protected
 :
 nsCOMPtr
