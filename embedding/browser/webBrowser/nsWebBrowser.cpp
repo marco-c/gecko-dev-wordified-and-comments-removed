@@ -1447,9 +1447,6 @@ bool
 aEnable
 )
 {
-nsresult
-rv
-;
 NS_ENSURE_STATE
 (
 mDocShell
