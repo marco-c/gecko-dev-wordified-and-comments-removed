@@ -2967,6 +2967,14 @@ file_CSP_bug802872
 .
 sjs
 \
+test_bug907892
+.
+html
+\
+file_bug907892
+.
+html
+\
 (
 NULL
 )

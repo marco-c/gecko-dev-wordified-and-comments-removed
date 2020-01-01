@@ -60,5 +60,12 @@ SANDBOXED_POINTER_LOCK
 =
 0x80
 ;
+const
+unsigned
+long
+SANDBOXED_DOMAIN
+=
+0x100
+;
 #
 endif
