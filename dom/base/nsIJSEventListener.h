@@ -33,9 +33,6 @@ nsIDOMEventListener
 h
 "
 class
-nsIScriptObjectOwner
-;
-class
 nsIAtom
 ;
 #

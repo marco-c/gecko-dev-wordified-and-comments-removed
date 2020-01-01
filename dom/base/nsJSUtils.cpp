@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsIScriptObjectOwner
-.
-h
-"
-#
-include
-"
 nsIScriptGlobalObject
 .
 h
