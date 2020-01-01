@@ -517,8 +517,16 @@ GetBounds
 nsDisplayListBuilder
 *
 aBuilder
+bool
+*
+aSnap
 )
 {
+*
+aSnap
+=
+false
+;
 return
 mRect
 ;

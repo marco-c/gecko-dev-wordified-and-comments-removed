@@ -332,6 +332,9 @@ GetBounds
 nsDisplayListBuilder
 *
 aBuilder
+bool
+*
+aSnap
 )
 ;
 NS_DISPLAY_DECL_NAME
@@ -358,8 +361,16 @@ GetBounds
 nsDisplayListBuilder
 *
 aBuilder
+bool
+*
+aSnap
 )
 {
+*
+aSnap
+=
+false
+;
 return
 mFrame
 -

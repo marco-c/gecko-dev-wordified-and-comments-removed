@@ -866,6 +866,9 @@ GetBounds
 nsDisplayListBuilder
 *
 aBuilder
+bool
+*
+aSnap
 )
 ;
 virtual
@@ -877,9 +880,10 @@ nsDisplayListBuilder
 aBuilder
 bool
 *
+aSnap
+bool
+*
 aForceTransparentSurface
-=
-nsnull
 )
 ;
 virtual
