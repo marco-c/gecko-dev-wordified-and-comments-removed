@@ -6587,10 +6587,11 @@ mOpacity
 0
 &
 &
+!
 aBuilder
 -
 >
-IsForPainting
+IsForEventDelivery
 (
 )
 )
