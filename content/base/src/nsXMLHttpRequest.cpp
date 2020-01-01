@@ -9024,7 +9024,7 @@ NS_ERROR_FAILURE
 }
 if
 (
-mACGetChannel
+mACPreflightChannel
 )
 {
 PRBool
@@ -9032,7 +9032,7 @@ pending
 ;
 rv
 =
-mACGetChannel
+mACPreflightChannel
 -
 >
 IsPending
