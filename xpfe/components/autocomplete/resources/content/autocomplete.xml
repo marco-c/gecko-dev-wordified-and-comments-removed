@@ -210,6 +210,8 @@ image
 deck
 |
 stack
+|
+box
 "
 >
 <
@@ -262,6 +264,10 @@ tooltiptext
 =
 inputtooltiptext
 "
+>
+<
+children
+/
 >
 <
 html
