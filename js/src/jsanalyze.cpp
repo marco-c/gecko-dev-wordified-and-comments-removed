@@ -5240,6 +5240,7 @@ JS_ASSERT
 (
 until
 <
+=
 var
 .
 lifetime
