@@ -126,11 +126,6 @@ Clear
 )
 ;
 }
-static
-nsIThreadObserver
-*
-sGlobalObserver
-;
 private
 :
 friend

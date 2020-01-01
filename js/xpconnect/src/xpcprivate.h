@@ -2095,6 +2095,9 @@ mShuttingDown
 JSBool
 mNeedGCBeforeCC
 ;
+PRUint16
+mEventDepth
+;
 #
 ifdef
 DEBUG_CC
