@@ -818,6 +818,15 @@ mIsInlineTableEditingEnabled
 return
 NS_OK
 ;
+if
+(
+mIsMoving
+)
+{
+return
+NS_OK
+;
+}
 nsCOMPtr
 <
 nsIDOMElement
