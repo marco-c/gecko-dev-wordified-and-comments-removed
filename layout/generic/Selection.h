@@ -122,14 +122,12 @@ nsISelectionPrivate
 )
 NS_DECL_NSISELECTION
 NS_DECL_NSISELECTIONPRIVATE
-nsresult
-GetPresContext
-(
 nsPresContext
 *
-*
-aPresContext
+GetPresContext
+(
 )
+const
 ;
 nsIPresShell
 *
