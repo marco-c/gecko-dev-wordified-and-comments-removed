@@ -1780,6 +1780,7 @@ DEBUG
 #
 define
 DEF_VPNAME
+const
 char
 *
 vpname
@@ -2423,7 +2424,7 @@ tracker
 )
 {
 }
-int
+uint8
 getStoreType
 (
 jsval
@@ -5320,6 +5321,7 @@ p
 uint8
 &
 t
+const
 char
 *
 prefix
