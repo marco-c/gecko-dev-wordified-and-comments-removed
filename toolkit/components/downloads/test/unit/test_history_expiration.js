@@ -553,7 +553,8 @@ start
 -
 expiration
 "
-null
+-
+1
 )
 ;
 do_test_pending
