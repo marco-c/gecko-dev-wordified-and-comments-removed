@@ -2506,6 +2506,17 @@ aCancel
 aHandled
 )
 ;
+NS_ENSURE_TRUE
+(
+aSelection
+-
+>
+GetRangeCount
+(
+)
+NS_OK
+)
+;
 *
 aCancel
 =
