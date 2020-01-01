@@ -213,12 +213,6 @@ GfxInfoBase
 :
 GetWebGLParameter
 ;
-using
-GfxInfoBase
-:
-:
-GetAzureEnabled
-;
 void
 EnsureInitializedFromGfxInfoData
 (
