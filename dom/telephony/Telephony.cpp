@@ -1618,6 +1618,8 @@ bool
 aIsActive
 bool
 aIsOutgoing
+bool
+aIsEmergency
 )
 {
 NS_ASSERTION
@@ -1788,6 +1790,14 @@ UpdateCallIndex
 aCallIndex
 )
 ;
+outgoingCall
+-
+>
+UpdateEmergency
+(
+aIsEmergency
+)
+;
 modifiedCall
 .
 swap
@@ -1875,6 +1885,7 @@ this
 aNumber
 aCallState
 aCallIndex
+aIsEmergency
 )
 ;
 NS_ASSERTION
@@ -1964,6 +1975,8 @@ aIsActive
 bool
 aIsOutgoing
 bool
+aIsEmergency
+bool
 *
 aContinue
 )
@@ -2038,6 +2051,7 @@ this
 aNumber
 aCallState
 aCallIndex
+aIsEmergency
 )
 ;
 NS_ASSERTION
