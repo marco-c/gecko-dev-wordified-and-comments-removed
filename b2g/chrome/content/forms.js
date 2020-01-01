@@ -933,6 +933,8 @@ this
 _editor
 )
 {
+try
+{
 this
 .
 _editor
@@ -942,6 +944,13 @@ removeEditorObserver
 this
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 this
 .
 _editor
