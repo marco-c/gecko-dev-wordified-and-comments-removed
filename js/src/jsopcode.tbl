@@ -3030,9 +3030,7 @@ OPDEF
 (
 JSOP_THROW
 110
-"
-throw
-"
+js_throw_str
 NULL
 1
 1
@@ -5041,7 +5039,9 @@ OPDEF
 (
 JSOP_TYPEOFEXPR
 198
-js_typeof_str
+"
+typeofexpr
+"
 NULL
 1
 1

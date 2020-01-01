@@ -1621,16 +1621,6 @@ UINT16_LIMIT
 struct
 JSCodeSpec
 {
-const
-char
-*
-name
-;
-const
-char
-*
-token
-;
 int8
 length
 ;
