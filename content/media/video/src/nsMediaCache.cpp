@@ -150,6 +150,11 @@ mozilla
 :
 TimeDuration
 ;
+#
+ifdef
+DEBUG
+#
+endif
 class
 nsMediaCache
 {
@@ -428,7 +433,7 @@ Update
 ;
 #
 ifdef
-DEBUG
+DEBUG_VERIFY_CACHE
 void
 Verify
 (
@@ -4915,7 +4920,7 @@ event
 }
 #
 ifdef
-DEBUG
+DEBUG_VERIFY_CACHE
 void
 nsMediaCache
 :
