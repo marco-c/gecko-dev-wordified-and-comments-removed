@@ -2069,7 +2069,7 @@ opacity
 target
 -
 >
-PushGroup
+PushGroupAndCopyBackground
 (
 contentType
 )
@@ -5835,7 +5835,7 @@ CONTENT_COLOR_ALPHA
 mTarget
 -
 >
-PushGroup
+PushGroupAndCopyBackground
 (
 type
 )
