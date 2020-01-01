@@ -4,6 +4,13 @@ CSFLOG_H
 #
 define
 CSFLOG_H
+#
+include
+<
+stdarg
+.
+h
+>
 typedef
 enum
 {
