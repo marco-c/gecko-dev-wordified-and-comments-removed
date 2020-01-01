@@ -47,6 +47,14 @@ gfxXlibSurface
 .
 h
 "
+#
+if
+(
+MOZ_WIDGET_GTK
+=
+=
+2
+)
 nsresult
 gfxGdkNativeRenderer
 :
@@ -311,5 +319,9 @@ nsnull
 )
 ;
 }
+#
+else
+#
+endif
 #
 endif

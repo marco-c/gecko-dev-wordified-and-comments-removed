@@ -50,7 +50,7 @@ h
 "
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 #
 include
 "
@@ -227,7 +227,7 @@ h
 >
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 #
 include
 <
@@ -3462,7 +3462,7 @@ GetDPI
 if
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 return
 gfxPlatformGtk
@@ -6481,7 +6481,7 @@ gfx_pango_font_map_new_font
 }
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 static
 void
 ApplyGdkScreenFontOptions
@@ -6593,7 +6593,7 @@ options
 endif
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 ApplyGdkScreenFontOptions
 (
 aPattern
@@ -11862,7 +11862,7 @@ get
 }
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 #
 if
 MOZ_TREE_CAIRO

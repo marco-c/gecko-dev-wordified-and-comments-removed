@@ -110,7 +110,7 @@ h
 endif
 #
 ifdef
-MOZ_ENABLE_GTK2
+MOZ_WIDGET_GTK
 #
 include
 "
@@ -2636,7 +2636,7 @@ break
 endif
 #
 ifdef
-MOZ_ENABLE_GTK2
+MOZ_WIDGET_GTK
 case
 gfxASurface
 :

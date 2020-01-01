@@ -87,7 +87,7 @@ h
 endif
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 #
 include
 "
@@ -431,7 +431,7 @@ argv
 {
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 gtk_init
 (
 &
