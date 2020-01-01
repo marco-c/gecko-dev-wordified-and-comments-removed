@@ -5964,6 +5964,11 @@ MTLc3m
 ttf
 "
 "
+NanumGothic
+.
+ttf
+"
+"
 DroidSansJapanese
 .
 ttf

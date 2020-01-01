@@ -29959,6 +29959,7 @@ ko
 "
 "
 SmartGothic
+NanumGothic
 DroidSansFallback
 Droid
 Sans
