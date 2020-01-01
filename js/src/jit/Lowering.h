@@ -1337,6 +1337,14 @@ ins
 )
 ;
 bool
+visitAssertRange
+(
+MAssertRange
+*
+ins
+)
+;
+bool
 visitCallGetProperty
 (
 MCallGetProperty

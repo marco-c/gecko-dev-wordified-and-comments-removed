@@ -940,6 +940,10 @@ GuardClass
 )
 SAFE_OP
 (
+AssertRange
+)
+SAFE_OP
+(
 ArrayLength
 )
 SAFE_OP
