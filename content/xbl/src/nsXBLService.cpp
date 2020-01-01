@@ -2579,13 +2579,6 @@ styleBinding
 styleBinding
 -
 >
-UnhookEventHandlers
-(
-)
-;
-styleBinding
--
->
 ChangeDocument
 (
 document
