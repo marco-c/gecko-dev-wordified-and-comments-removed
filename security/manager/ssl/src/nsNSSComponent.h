@@ -1439,7 +1439,6 @@ mDefaultCERTValInParamLocalOnly
 ;
 static
 PRStatus
-PR_CALLBACK
 IdentityInfoInit
 (
 void

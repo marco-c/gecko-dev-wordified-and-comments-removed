@@ -96,7 +96,6 @@ typedef
 int
 (
 *
-PR_CALLBACK
 PrefChangedFunc
 )
 (

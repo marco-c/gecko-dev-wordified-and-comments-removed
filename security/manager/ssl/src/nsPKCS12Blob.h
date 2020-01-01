@@ -251,7 +251,6 @@ mTokenSet
 ;
 static
 SECStatus
-PR_CALLBACK
 digest_open
 (
 void
@@ -261,7 +260,6 @@ PRBool
 ;
 static
 SECStatus
-PR_CALLBACK
 digest_close
 (
 void
@@ -271,7 +269,6 @@ PRBool
 ;
 static
 int
-PR_CALLBACK
 digest_read
 (
 void
@@ -285,7 +282,6 @@ long
 ;
 static
 int
-PR_CALLBACK
 digest_write
 (
 void
@@ -300,7 +296,6 @@ long
 static
 SECItem
 *
-PR_CALLBACK
 nickname_collision
 (
 SECItem
@@ -313,7 +308,6 @@ void
 ;
 static
 void
-PR_CALLBACK
 write_export_file
 (
 void

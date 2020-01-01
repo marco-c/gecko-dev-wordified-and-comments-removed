@@ -2360,7 +2360,6 @@ NS_OK
 ;
 }
 SECStatus
-PR_CALLBACK
 nsPKCS12Blob
 :
 :
@@ -2497,7 +2496,6 @@ SECSuccess
 ;
 }
 SECStatus
-PR_CALLBACK
 nsPKCS12Blob
 :
 :
@@ -2566,7 +2564,6 @@ SECSuccess
 ;
 }
 int
-PR_CALLBACK
 nsPKCS12Blob
 :
 :
@@ -2676,7 +2673,6 @@ len
 ;
 }
 int
-PR_CALLBACK
 nsPKCS12Blob
 :
 :
@@ -2762,7 +2758,6 @@ len
 }
 SECItem
 *
-PR_CALLBACK
 nsPKCS12Blob
 :
 :
@@ -2992,7 +2987,6 @@ newNick
 ;
 }
 void
-PR_CALLBACK
 nsPKCS12Blob
 :
 :

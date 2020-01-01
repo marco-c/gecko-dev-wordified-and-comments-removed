@@ -451,7 +451,6 @@ typedef
 void
 (
 *
-PR_CALLBACK
 CertOverrideEnumerator
 )
 (

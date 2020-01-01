@@ -72,7 +72,6 @@ nsIProtectedAuthThread
 )
 static
 void
-PR_CALLBACK
 nsProtectedAuthThreadRunner
 (
 void

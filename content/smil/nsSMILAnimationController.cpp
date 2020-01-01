@@ -734,7 +734,6 @@ aCallback
 ;
 }
 }
-PR_CALLBACK
 PLDHashOperator
 nsSMILAnimationController
 :
@@ -1029,7 +1028,6 @@ true
 ;
 }
 }
-PR_CALLBACK
 PLDHashOperator
 TransferCachedBaseValue
 (
@@ -1089,7 +1087,6 @@ return
 PL_DHASH_NEXT
 ;
 }
-PR_CALLBACK
 PLDHashOperator
 RemoveCompositorFromTable
 (
@@ -1131,7 +1128,6 @@ return
 PL_DHASH_NEXT
 ;
 }
-PR_CALLBACK
 PLDHashOperator
 DoClearAnimationEffects
 (
@@ -1153,7 +1149,6 @@ return
 PL_DHASH_NEXT
 ;
 }
-PR_CALLBACK
 PLDHashOperator
 DoComposeAttribute
 (
@@ -1468,7 +1463,6 @@ nullptr
 )
 ;
 }
-PR_CALLBACK
 PLDHashOperator
 nsSMILAnimationController
 :
@@ -1544,7 +1538,6 @@ return
 PL_DHASH_NEXT
 ;
 }
-PR_CALLBACK
 PLDHashOperator
 nsSMILAnimationController
 :
@@ -1610,7 +1603,6 @@ return
 PL_DHASH_NEXT
 ;
 }
-PR_CALLBACK
 PLDHashOperator
 nsSMILAnimationController
 :
@@ -1869,7 +1861,6 @@ containerTime
 }
 }
 }
-PR_CALLBACK
 PLDHashOperator
 nsSMILAnimationController
 :
@@ -2007,7 +1998,6 @@ return
 PL_DHASH_NEXT
 ;
 }
-PR_CALLBACK
 PLDHashOperator
 nsSMILAnimationController
 :
@@ -2129,7 +2119,6 @@ return
 PL_DHASH_NEXT
 ;
 }
-PR_CALLBACK
 PLDHashOperator
 nsSMILAnimationController
 :
@@ -2260,7 +2249,6 @@ return
 PL_DHASH_NEXT
 ;
 }
-PR_CALLBACK
 PLDHashOperator
 nsSMILAnimationController
 :

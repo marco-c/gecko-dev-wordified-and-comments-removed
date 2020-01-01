@@ -311,7 +311,6 @@ nsNSSShutDownList
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 evaporateAllNSSResourcesHelper
 (
 PLDHashTable
@@ -329,7 +328,6 @@ arg
 ;
 static
 PLDHashOperator
-PR_CALLBACK
 doPK11LogoutHelper
 (
 PLDHashTable

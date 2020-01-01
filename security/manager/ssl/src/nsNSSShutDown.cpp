@@ -621,7 +621,6 @@ NS_OK
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 nsNSSShutDownList
 :
 :
@@ -856,7 +855,6 @@ NS_OK
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 nsNSSShutDownList
 :
 :

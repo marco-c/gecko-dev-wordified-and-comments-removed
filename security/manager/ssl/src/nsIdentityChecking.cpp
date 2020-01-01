@@ -5652,7 +5652,6 @@ false
 ;
 }
 PRStatus
-PR_CALLBACK
 nsNSSComponent
 :
 :

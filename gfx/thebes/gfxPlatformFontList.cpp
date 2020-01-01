@@ -883,7 +883,6 @@ this
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 gfxPlatformFontList
 :
 :
@@ -967,7 +966,6 @@ this
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 gfxPlatformFontList
 :
 :
@@ -1380,7 +1378,6 @@ mListOfFonts
 }
 ;
 PLDHashOperator
-PR_CALLBACK
 gfxPlatformFontList
 :
 :
@@ -1611,7 +1608,6 @@ aFamilyArray
 }
 static
 PLDHashOperator
-PR_CALLBACK
 AppendFamily
 (
 nsStringHashKey
@@ -2126,7 +2122,6 @@ fontEntry
 ;
 }
 PLDHashOperator
-PR_CALLBACK
 gfxPlatformFontList
 :
 :

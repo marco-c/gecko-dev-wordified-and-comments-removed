@@ -9091,7 +9091,6 @@ return
 true
 ;
 }
-PR_CALLBACK
 PLDHashOperator
 nsSMILTimedElement
 :

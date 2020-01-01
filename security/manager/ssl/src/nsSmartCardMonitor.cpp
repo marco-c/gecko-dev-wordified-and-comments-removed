@@ -313,7 +313,6 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 }
 static
-PR_CALLBACK
 PLHashNumber
 unity
 (
