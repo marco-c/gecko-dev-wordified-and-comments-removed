@@ -826,6 +826,10 @@ workersDisabled_worker
 .
 js
 \
+dom_worker_helper
+.
+js
+\
 (
 NULL
 )
