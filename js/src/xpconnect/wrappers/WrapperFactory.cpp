@@ -503,7 +503,7 @@ New
 cx
 obj
 wrappedProto
-NULL
+parent
 wrapper
 )
 ;

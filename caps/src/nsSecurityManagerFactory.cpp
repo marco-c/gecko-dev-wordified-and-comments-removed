@@ -110,6 +110,13 @@ nsIClassInfoImpl
 .
 h
 "
+#
+include
+"
+jsobj
+.
+h
+"
 nsSecurityNameSet
 :
 :
@@ -1154,6 +1161,12 @@ global
 JS_GetGlobalObject
 (
 cx
+)
+;
+OBJ_TO_INNER_OBJECT
+(
+cx
+global
 )
 ;
 JSObject

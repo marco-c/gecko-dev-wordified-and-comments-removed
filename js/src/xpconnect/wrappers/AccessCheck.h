@@ -12,6 +12,9 @@ jswrapper
 .
 h
 "
+class
+nsIPrincipal
+;
 namespace
 xpc
 {
@@ -35,6 +38,16 @@ b
 static
 bool
 isChrome
+(
+JSCompartment
+*
+compartment
+)
+;
+static
+nsIPrincipal
+*
+getPrincipal
 (
 JSCompartment
 *
