@@ -67,7 +67,7 @@ item2
 use
 =
 "
-w00t
+undeclaredfunc
 (
 )
 "
