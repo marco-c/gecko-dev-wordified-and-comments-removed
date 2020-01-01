@@ -178,6 +178,10 @@ mActiveTexture
 (
 0
 )
+mSynthesizedGLError
+(
+LOCAL_GL_NO_ERROR
+)
 {
 mMapBuffers
 .
