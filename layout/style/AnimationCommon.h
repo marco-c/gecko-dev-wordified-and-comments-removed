@@ -89,6 +89,13 @@ mozilla
 namespace
 css
 {
+bool
+IsGeometricProperty
+(
+nsCSSProperty
+aProperty
+)
+;
 struct
 CommonElementAnimationData
 ;
@@ -567,6 +574,8 @@ Element
 aElement
 nsCSSProperty
 aProperty
+bool
+aHasGeometricProperties
 )
 ;
 dom

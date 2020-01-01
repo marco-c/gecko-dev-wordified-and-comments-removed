@@ -2644,12 +2644,8 @@ aProperty
 pt
 -
 >
-CanPerformOnCompositor
+IsRunningAt
 (
-et
--
->
-mElement
 currentTime
 )
 )
@@ -2839,12 +2835,8 @@ aProperty
 anim
 -
 >
-CanPerformOnCompositor
+IsRunningAt
 (
-ea
--
->
-mElement
 currentTime
 )
 )
