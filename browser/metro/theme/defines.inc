@@ -86,10 +86,6 @@ tabs_height
 178px
 %
 define
-tray_slide_height
-247px
-%
-define
 progress_height
 3px
 %
@@ -104,14 +100,9 @@ progress_end_color
 97cbff
 %
 define
-appbar_color
+metro_orange
 #
 FF8000
-%
-define
-appbar_top_border
-#
-BFC6CE
 %
 define
 label_height
@@ -195,10 +186,6 @@ metro_spacing_large
 define
 metro_spacing_xlarge
 45px
-%
-define
-metro_spacing_xxxlarge
-65px
 %
 define
 metro_border_thin
