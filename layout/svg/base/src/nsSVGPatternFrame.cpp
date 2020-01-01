@@ -3362,7 +3362,7 @@ IsSingular
 )
 {
 return
-NS_ERROR_FAILURE
+PR_FALSE
 ;
 }
 pMatrix
@@ -3389,7 +3389,7 @@ if
 pattern
 )
 return
-NS_ERROR_FAILURE
+PR_FALSE
 ;
 pattern
 -

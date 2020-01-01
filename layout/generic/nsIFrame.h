@@ -2612,9 +2612,13 @@ HasView
 const
 {
 return
+!
+!
+(
 mState
 &
 NS_FRAME_HAS_VIEW
+)
 ;
 }
 nsIView

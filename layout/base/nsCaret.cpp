@@ -2032,7 +2032,7 @@ if
 frameSelection
 )
 return
-NS_ERROR_FAILURE
+PR_FALSE
 ;
 frameSelection
 -

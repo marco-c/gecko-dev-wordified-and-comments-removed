@@ -937,9 +937,13 @@ NS_STATE_EQUAL_SIZE
 PRBool
 autostretch
 =
+!
+!
+(
 mState
 &
 NS_STATE_AUTO_STRETCH
+)
 ;
 GetInitialAutoStretch
 (
@@ -4693,9 +4697,13 @@ endif
 PRBool
 autostretch
 =
+!
+!
+(
 mState
 &
 NS_STATE_AUTO_STRETCH
+)
 ;
 GetInitialAutoStretch
 (

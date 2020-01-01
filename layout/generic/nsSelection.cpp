@@ -4024,9 +4024,13 @@ aLevel
 PRBool
 afterInsert
 =
+!
+!
+(
 mCaretBidiLevel
 &
 BIDI_LEVEL_UNDEFINED
+)
 ;
 mCaretBidiLevel
 =

@@ -18301,9 +18301,8 @@ NS_ERROR_NULL_POINTER
 *
 aSelected
 =
-(
-PRBool
-)
+!
+!
 (
 mState
 &
@@ -30756,9 +30755,8 @@ rule
 >
 mDisplay
 =
-(
-PRBool
-)
+!
+!
 doDisplay
 ;
 break

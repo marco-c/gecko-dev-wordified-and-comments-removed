@@ -2234,6 +2234,8 @@ GetOutlineInitialColor
 const
 {
 return
+!
+!
 (
 mOutlineStyle
 &

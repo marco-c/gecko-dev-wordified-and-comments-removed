@@ -1220,6 +1220,8 @@ hints
 ;
 isBidiSystem
 =
+!
+!
 (
 hints
 &
@@ -1685,6 +1687,8 @@ hints
 ;
 isBidiSystem
 =
+!
+!
 (
 hints
 &

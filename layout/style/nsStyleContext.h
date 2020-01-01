@@ -223,9 +223,13 @@ HasTextDecorations
 )
 {
 return
+!
+!
+(
 mBits
 &
 NS_STYLE_HAS_TEXT_DECORATIONS
+)
 ;
 }
 NS_HIDDEN_

@@ -227,7 +227,7 @@ destroyed
 ;
 }
 inline
-PRBool
+PRInt32
 PseudoCompareType
 (
 nsIFrame
