@@ -79,6 +79,10 @@ dom
 indexedDB
 /
 test
+DIRS
++
+=
+unit
 include
 (
 DEPTH
@@ -89,9 +93,6 @@ config
 autoconf
 .
 mk
-TEST_DIRS
-=
-unit
 XPCSHELL_TESTS
 =
 unit

@@ -140,10 +140,6 @@ PHal
 ;
 include
 protocol
-PIndexedDB
-;
-include
-protocol
 PMemoryReportRequest
 ;
 include
@@ -438,9 +434,6 @@ manages
 PHal
 ;
 manages
-PIndexedDB
-;
-manages
 PMemoryReportRequest
 ;
 manages
@@ -702,10 +695,6 @@ processType
 )
 ;
 PHal
-(
-)
-;
-PIndexedDB
 (
 )
 ;

@@ -62,10 +62,6 @@ PBrowser
 ;
 include
 protocol
-PContent
-;
-include
-protocol
 PIndexedDBDatabase
 ;
 include
@@ -86,8 +82,6 @@ PIndexedDB
 {
 manager
 PBrowser
-or
-PContent
 ;
 manages
 PIndexedDBDatabase

@@ -1123,7 +1123,7 @@ DeallocPIndexedDB
 (
 PIndexedDBChild
 *
-aActor
+actor
 )
 ;
 private
