@@ -1569,6 +1569,13 @@ components
 nsDefaultCLH
 .
 js
+bin
+/
+components
+/
+nsContentPrefService
+.
+js
 ;
 Safe
 Browsing
