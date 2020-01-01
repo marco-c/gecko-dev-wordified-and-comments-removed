@@ -2167,15 +2167,6 @@ jsval_addr
 (
 )
 )
-|
-|
-!
-JS_WrapValue
-(
-ctx
-&
-funval
-)
 )
 return
 NS_ERROR_UNEXPECTED
