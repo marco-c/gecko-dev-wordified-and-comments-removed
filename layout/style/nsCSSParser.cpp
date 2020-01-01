@@ -34586,6 +34586,12 @@ Array
 :
 Create
 (
+mozilla
+:
+:
+fallible_t
+(
+)
 values
 .
 Length
@@ -34961,6 +34967,12 @@ Array
 :
 Create
 (
+mozilla
+:
+:
+fallible_t
+(
+)
 ranges
 .
 Length
