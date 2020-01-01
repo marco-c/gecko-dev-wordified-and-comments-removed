@@ -881,7 +881,7 @@ NSINSTALL
 )
 -
 D
-libs
+tools
 :
 :
 (

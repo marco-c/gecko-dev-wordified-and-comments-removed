@@ -593,7 +593,7 @@ NULL
 PHONY
 :
 repackage
-libs
+tools
 repackage
 :
 :
