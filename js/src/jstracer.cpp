@@ -9112,7 +9112,7 @@ if
 a
 -
 >
-isQuad
+isF64
 (
 )
 &
@@ -23590,14 +23590,14 @@ cond
 cond
 -
 >
-isQuad
+isI32
 (
 )
 ?
 lir
 -
 >
-ins_peq0
+ins_eq0
 (
 cond
 )
@@ -23605,7 +23605,7 @@ cond
 lir
 -
 >
-ins_eq0
+ins_peq0
 (
 cond
 )
@@ -25308,7 +25308,7 @@ vp
 )
 -
 >
-isQuad
+isF64
 (
 )
 )
@@ -46178,7 +46178,7 @@ JS_ASSERT
 f
 -
 >
-isQuad
+isF64
 (
 )
 )
@@ -52805,7 +52805,7 @@ JS_ASSERT
 v_ins
 -
 >
-isQuad
+isF64
 (
 )
 )
