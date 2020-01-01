@@ -358,6 +358,14 @@ const
 =
 0
 ;
+virtual
+void
+NotifyAudioAvailableListener
+(
+)
+=
+0
+;
 struct
 Statistics
 {

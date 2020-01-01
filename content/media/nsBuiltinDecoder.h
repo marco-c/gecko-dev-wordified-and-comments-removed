@@ -391,6 +391,14 @@ aLength
 =
 0
 ;
+virtual
+void
+NotifyAudioAvailableListener
+(
+)
+=
+0
+;
 }
 ;
 class
@@ -992,6 +1000,12 @@ mDecoderStateMachine
 nsnull
 ;
 }
+virtual
+void
+NotifyAudioAvailableListener
+(
+)
+;
 public
 :
 void

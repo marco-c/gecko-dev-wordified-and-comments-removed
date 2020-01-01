@@ -357,6 +357,11 @@ DownloadStalled
 (
 )
 ;
+void
+NotifyAudioAvailableListener
+(
+)
+;
 ImageContainer
 *
 GetImageContainer
@@ -661,11 +666,6 @@ PRUint32
 aFrameBufferLength
 float
 aTime
-)
-;
-bool
-MayHaveAudioAvailableEventListener
-(
 )
 ;
 virtual

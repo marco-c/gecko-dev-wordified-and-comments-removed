@@ -100,6 +100,11 @@ PRUint32
 aLength
 )
 ;
+void
+NotifyAudioAvailableListener
+(
+)
+;
 private
 :
 nsBuiltinDecoder
@@ -135,6 +140,9 @@ mPendingEvents
 ;
 ReentrantMonitor
 mReentrantMonitor
+;
+bool
+mHasListener
 ;
 }
 ;

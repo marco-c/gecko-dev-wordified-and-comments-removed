@@ -562,6 +562,11 @@ mDecoder
 nsnull
 ;
 }
+void
+NotifyAudioAvailableListener
+(
+)
+;
 protected
 :
 bool
