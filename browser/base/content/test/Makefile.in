@@ -222,7 +222,7 @@ due
 to
 bug
 513558
-ifdef
+ifndef
 MOZ_WIDGET_GTK
 MOCHITEST_FILES
 +
