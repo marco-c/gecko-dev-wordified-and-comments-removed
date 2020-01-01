@@ -95,11 +95,6 @@ mColumnNames
 PRBool
 mExecuting
 ;
-nsresult
-Recreate
-(
-)
-;
 }
 ;
 #
