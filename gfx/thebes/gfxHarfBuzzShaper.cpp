@@ -3901,11 +3901,16 @@ scaled_font
 )
 )
 {
+#
+if
+CAIRO_HAS_DWRITE_FONT
 case
 CAIRO_FONT_TYPE_DWRITE
 :
 return
 ;
+#
+endif
 case
 CAIRO_FONT_TYPE_QUARTZ
 :
