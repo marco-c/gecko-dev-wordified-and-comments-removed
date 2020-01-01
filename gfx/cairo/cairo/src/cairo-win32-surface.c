@@ -7447,6 +7447,9 @@ _cairo_paginated_surface_get_target
 surface
 )
 ;
+#
+ifndef
+CAIRO_OMIT_WIN32_PRINTING
 if
 (
 _cairo_surface_is_win32_printing
@@ -7470,6 +7473,8 @@ winsurf
 dc
 ;
 }
+#
+endif
 }
 return
 NULL

@@ -1015,7 +1015,15 @@ win32
 surface
 .
 c
-\
+ifdef
+NS_PRINTING
+DEFINES
++
+=
+CAIRO_OMIT_WIN32_PRINTING
+CSRCS
++
+=
 cairo
 -
 win32
@@ -1025,6 +1033,7 @@ printing
 surface
 .
 c
+endif
 EXPORTS
 +
 =
