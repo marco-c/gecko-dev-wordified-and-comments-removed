@@ -288,7 +288,7 @@ window
 open
 (
 "
-bug482976_helper
+printpreview_bug482976_helper
 .
 xul
 "
