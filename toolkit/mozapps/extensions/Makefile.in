@@ -506,6 +506,10 @@ XPIProvider
 .
 jsm
 \
+PluginProvider
+.
+jsm
+\
 AddonUpdateChecker
 .
 jsm
