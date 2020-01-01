@@ -7103,6 +7103,12 @@ jsop_unbrand
 (
 )
 ;
+frame
+.
+pop
+(
+)
+;
 END_CASE
 (
 JSOP_UNBRANDTHIS
