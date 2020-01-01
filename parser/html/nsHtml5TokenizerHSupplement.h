@@ -25,6 +25,10 @@ FlushViewSource
 void
 StartViewSource
 (
+const
+nsAutoString
+&
+aTitle
 )
 ;
 void

@@ -381,6 +381,14 @@ PRUnichar
 aEncoding
 )
 ;
+void
+SetViewSourceTitle
+(
+nsIURI
+*
+aURL
+)
+;
 private
 :
 #
@@ -669,6 +677,9 @@ nsCOMPtr
 nsIRequestObserver
 >
 mObserver
+;
+nsCString
+mViewSourceTitle
 ;
 nsCOMPtr
 <
