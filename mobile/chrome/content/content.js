@@ -4278,6 +4278,10 @@ var
 ContextHandler
 =
 {
+_types
+:
+[
+]
 _getLinkURL
 :
 function
