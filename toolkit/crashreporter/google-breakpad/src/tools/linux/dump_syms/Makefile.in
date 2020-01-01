@@ -96,16 +96,6 @@ linux
 (
 NULL
 )
-HOST_CPPSRCS
-=
-\
-dump_syms
-.
-cc
-\
-(
-NULL
-)
 HOST_LIBS
 +
 =

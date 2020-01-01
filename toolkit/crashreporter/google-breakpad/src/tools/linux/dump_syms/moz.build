@@ -93,3 +93,13 @@ MPL
 0
 /
 .
+HOST_CPPSRCS
++
+=
+[
+'
+dump_syms
+.
+cc
+'
+]
