@@ -475,6 +475,10 @@ test_bug396568
 .
 html
 \
+test_bug418464
+.
+html
+\
 test_compatmode
 .
 html
