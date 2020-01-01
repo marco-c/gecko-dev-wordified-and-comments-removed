@@ -462,15 +462,6 @@ aResult
 #
 endif
 virtual
-PRBool
-GetDefaultFlex
-(
-PRInt32
-&
-aFlex
-)
-;
-virtual
 void
 GetLayoutFlags
 (
