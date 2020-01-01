@@ -11893,6 +11893,12 @@ argv
 UNIT_STRING_LIMIT
 )
 {
+JS_free
+(
+cx
+chars
+)
+;
 str
 =
 js_GetUnitStringForChar
