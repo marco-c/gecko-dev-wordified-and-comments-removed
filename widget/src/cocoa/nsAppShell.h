@@ -236,6 +236,9 @@ mNotifiedWillTerminate
 PRPackedBool
 mSkippedNativeCallback
 ;
+PRPackedBool
+mRunningCocoaEmbedded
+;
 PRUint32
 mHadMoreEventsCount
 ;
