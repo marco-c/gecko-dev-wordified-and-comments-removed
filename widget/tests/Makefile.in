@@ -699,6 +699,10 @@ test_chrome_context_menus_win
 .
 xul
 \
+test_plugin_input_event
+.
+html
+\
 chrome_context_menus_win
 .
 xul

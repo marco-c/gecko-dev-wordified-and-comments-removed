@@ -1716,6 +1716,11 @@ UINT
 aFirstMsg
 UINT
 aLastMsg
+nsFakeCharMessage
+*
+aFakeCharMessage
+=
+nsnull
 )
 ;
 static
