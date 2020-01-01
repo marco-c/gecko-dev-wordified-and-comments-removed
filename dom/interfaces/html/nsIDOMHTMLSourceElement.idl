@@ -462,7 +462,7 @@ idl
 *
 *
 The
-nsIDOMHTMLVideoElement
+nsIDOMHTMLSourceElement
 interface
 is
 the
