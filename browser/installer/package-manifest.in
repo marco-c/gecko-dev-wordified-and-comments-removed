@@ -382,8 +382,7 @@ BINPATH
 plugins
 /
 libnullplugin
-.
-so
+DLL_SUFFIX
 #
 elifdef
 XP_WIN32
@@ -1022,8 +1021,7 @@ BINPATH
 components
 /
 libimgicon
-.
-so
+DLL_SUFFIX
 #
 endif
 #
