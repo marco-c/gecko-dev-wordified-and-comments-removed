@@ -84,6 +84,9 @@ obj
 JSObject
 *
 wrappedProto
+JSObject
+*
+parent
 uintN
 flags
 )
