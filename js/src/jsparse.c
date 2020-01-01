@@ -8621,7 +8621,6 @@ FindPropValOps
 {
 JS_DHashAllocTable
 JS_DHashFreeTable
-JS_DHashGetKeyStub
 HashFindPropValKey
 MatchFindPropValEntry
 JS_DHashMoveEntryStub
