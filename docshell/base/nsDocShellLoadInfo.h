@@ -115,6 +115,12 @@ nsIInputStream
 >
 mHeadersStream
 ;
+bool
+mIsSrcdocLoad
+;
+nsString
+mSrcdocData
+;
 }
 ;
 #

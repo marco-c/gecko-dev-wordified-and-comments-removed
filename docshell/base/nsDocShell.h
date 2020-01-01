@@ -969,6 +969,10 @@ bool
 aBypassClassifier
 bool
 aForceAllowCookies
+const
+nsAString
+&
+aSrcdoc
 )
 ;
 NS_IMETHOD
