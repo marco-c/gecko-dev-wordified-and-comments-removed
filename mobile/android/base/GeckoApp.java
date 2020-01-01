@@ -712,6 +712,10 @@ private
 GeckoBatteryManager
 mBatteryReceiver
 ;
+private
+PromptService
+mPromptService
+;
 public
 static
 DoorHangerPopup
@@ -11982,6 +11986,13 @@ registerFor
 mAppContext
 )
 ;
+mPromptService
+=
+new
+PromptService
+(
+)
+;
 GeckoNetworkManager
 .
 getInstance
@@ -15387,11 +15398,7 @@ run
 (
 )
 {
-GeckoAppShell
-.
-getPromptService
-(
-)
+mPromptService
 .
 Show
 (
