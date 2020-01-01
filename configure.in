@@ -11135,6 +11135,7 @@ on
 hppa
 ia64
 sparc
+arm
 since
 it
 '
@@ -11146,6 +11147,8 @@ hppa
 ia64
 |
 sparc
+|
+arm
 )
 ;
 ;
@@ -11531,6 +11534,7 @@ on
 hppa
 ia64
 sparc
+arm
 since
 it
 '
@@ -11542,6 +11546,8 @@ hppa
 ia64
 |
 sparc
+|
+arm
 )
 ;
 ;
