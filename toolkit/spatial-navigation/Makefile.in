@@ -419,15 +419,12 @@ EXTRA_JS_MODULES
 SpatialNavigation
 .
 js
-#
 ifdef
 ENABLE_TESTS
-#
 DIRS
 +
 =
 tests
-#
 endif
 include
 (
