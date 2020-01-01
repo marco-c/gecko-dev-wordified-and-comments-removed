@@ -2241,6 +2241,15 @@ js
 CallOrConstructBoundFunction
 &
 &
+native
+!
+=
+js
+:
+:
+IteratorConstructor
+&
+&
 (
 !
 callee
