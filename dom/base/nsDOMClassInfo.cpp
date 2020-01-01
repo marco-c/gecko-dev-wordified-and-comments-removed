@@ -25880,6 +25880,16 @@ id
 sLocation_id
 )
 {
+if
+(
+win
+-
+>
+IsOuterWindow
+(
+)
+)
+{
 win
 -
 >
@@ -25887,6 +25897,7 @@ EnsureInnerWindow
 (
 )
 ;
+}
 nsCOMPtr
 <
 nsIDOMLocation
