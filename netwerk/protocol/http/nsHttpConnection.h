@@ -515,12 +515,6 @@ nsIInputStream
 >
 mRequestStream
 ;
-nsRefPtr
-<
-nsAHttpTransaction
->
-mTransactionReference
-;
 nsAHttpTransaction
 *
 mTransaction
@@ -556,9 +550,6 @@ mIsReused
 ;
 PRPackedBool
 mCompletedSSLConnect
-;
-PRPackedBool
-mResetCallbackOnActivation
 ;
 PRUint32
 mActivationCount
