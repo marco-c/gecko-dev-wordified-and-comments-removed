@@ -66,11 +66,11 @@ battery
 \
 dom
 /
-file
+power
 \
 dom
 /
-power
+media
 \
 dom
 /
