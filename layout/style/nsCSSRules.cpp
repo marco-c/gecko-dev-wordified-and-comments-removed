@@ -5578,6 +5578,7 @@ aInstancePtr
 )
 ;
 }
+else
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
 CSSFontFaceStyleDecl

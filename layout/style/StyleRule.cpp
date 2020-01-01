@@ -5079,6 +5079,7 @@ aInstancePtr
 )
 ;
 }
+else
 NS_IMPL_QUERY_TAIL_INHERITING
 (
 nsDOMCSSDeclaration
