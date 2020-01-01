@@ -119,10 +119,6 @@ AudioParam
 .
 webidl
 \
-AudioStreamTrack
-.
-webidl
-\
 Attr
 .
 webidl
@@ -656,10 +652,6 @@ MediaError
 webidl
 \
 MediaStream
-.
-webidl
-\
-MediaStreamTrack
 .
 webidl
 \
@@ -1236,10 +1228,6 @@ URLUtils
 webidl
 \
 USSDReceivedEvent
-.
-webidl
-\
-VideoStreamTrack
 .
 webidl
 \
