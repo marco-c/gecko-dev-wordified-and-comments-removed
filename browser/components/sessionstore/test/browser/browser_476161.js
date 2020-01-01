@@ -122,15 +122,10 @@ value
 "
 "
 +
-Math
-.
-floor
-(
 Date
 .
 now
 (
-)
 )
 ;
 let

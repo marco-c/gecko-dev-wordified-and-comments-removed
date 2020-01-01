@@ -8708,15 +8708,10 @@ uniqueId
 panel
 "
 +
-Math
-.
-floor
-(
 Date
 .
 now
 (
-)
 )
 +
 position
