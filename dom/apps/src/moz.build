@@ -137,6 +137,11 @@ InterAppComm
 manifest
 '
 '
+InterAppCommService
+.
+js
+'
+'
 InterAppConnection
 .
 js

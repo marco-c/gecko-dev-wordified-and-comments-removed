@@ -3015,6 +3015,13 @@ BINPATH
 /
 components
 /
+InterAppCommService
+.
+js
+BINPATH
+/
+components
+/
 InterAppConnection
 .
 js

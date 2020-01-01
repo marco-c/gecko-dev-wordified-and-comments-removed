@@ -127,6 +127,11 @@ nsIDOMMozApplicationEvent
 .
 idl
 '
+'
+nsIInterAppCommService
+.
+idl
+'
 ]
 XPIDL_MODULE
 =
