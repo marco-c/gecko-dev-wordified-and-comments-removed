@@ -27,6 +27,15 @@ Axis
 .
 h
 "
+#
+include
+"
+base
+/
+message_loop
+.
+h
+"
 namespace
 mozilla
 {
@@ -159,7 +168,7 @@ mSpanChange
 float
 mPreviousSpan
 ;
-uint64_t
+PRUint64
 mTapStartTime
 ;
 MultiTouchInput

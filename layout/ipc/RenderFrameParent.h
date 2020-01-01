@@ -353,6 +353,13 @@ gfxRect
 aRect
 )
 ;
+void
+ContentReceivedTouch
+(
+bool
+aPreventDefault
+)
+;
 protected
 :
 void
@@ -662,7 +669,7 @@ mRect
 ;
 }
 virtual
-uint32_t
+PRUint32
 GetPerFrameKey
 (
 )

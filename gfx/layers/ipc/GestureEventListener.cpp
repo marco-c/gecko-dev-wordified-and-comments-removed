@@ -932,7 +932,7 @@ currentSpan
 mAsyncPanZoomController
 -
 >
-HandleInputEvent
+ReceiveInputEvent
 (
 pinchEvent
 )
@@ -967,7 +967,7 @@ mPreviousSpan
 mAsyncPanZoomController
 -
 >
-HandleInputEvent
+ReceiveInputEvent
 (
 pinchEvent
 )
@@ -1025,7 +1025,7 @@ mScreenPoint
 mAsyncPanZoomController
 -
 >
-HandleInputEvent
+ReceiveInputEvent
 (
 pinchEvent
 )
@@ -1091,7 +1091,7 @@ return
 mAsyncPanZoomController
 -
 >
-HandleInputEvent
+ReceiveInputEvent
 (
 tapEvent
 )
@@ -1133,7 +1133,7 @@ return
 mAsyncPanZoomController
 -
 >
-HandleInputEvent
+ReceiveInputEvent
 (
 tapEvent
 )
@@ -1217,7 +1217,7 @@ return
 mAsyncPanZoomController
 -
 >
-HandleInputEvent
+ReceiveInputEvent
 (
 tapEvent
 )

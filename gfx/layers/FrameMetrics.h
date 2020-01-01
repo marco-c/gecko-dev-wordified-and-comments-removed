@@ -49,7 +49,7 @@ FrameMetrics
 public
 :
 typedef
-uint64_t
+PRUint64
 ViewID
 ;
 static
@@ -105,6 +105,10 @@ mResolution
 (
 1
 1
+)
+mMayHaveTouchListeners
+(
+false
 )
 {
 }
@@ -248,6 +252,9 @@ mCSSContentRect
 ;
 gfxSize
 mResolution
+;
+bool
+mMayHaveTouchListeners
 ;
 }
 ;
