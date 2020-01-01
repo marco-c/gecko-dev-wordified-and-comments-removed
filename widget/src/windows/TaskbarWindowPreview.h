@@ -160,7 +160,7 @@ mThumbButtons
 nsITaskbarWindowPreview
 :
 :
-MAX_TOOLBAR_BUTTONS
+NUM_TOOLBAR_BUTTONS
 ]
 ;
 nsWeakPtr
@@ -169,7 +169,7 @@ mWeakButtons
 nsITaskbarWindowPreview
 :
 :
-MAX_TOOLBAR_BUTTONS
+NUM_TOOLBAR_BUTTONS
 ]
 ;
 friend
