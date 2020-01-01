@@ -869,6 +869,10 @@ browser_relatedTabs
 .
 js
 \
+browser_contextSearchTabPosition
+.
+js
+\
 (
 NULL
 )
