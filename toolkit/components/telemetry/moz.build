@@ -137,11 +137,6 @@ Telemetry
 .
 h
 '
-'
-TelemetryHistogramEnums
-.
-h
-'
 ]
 CPP_SOURCES
 +

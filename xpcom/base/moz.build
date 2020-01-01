@@ -266,16 +266,6 @@ ErrorList
 h
 '
 '
-ErrorListCDefines
-.
-h
-'
-'
-ErrorListCxxDefines
-.
-h
-'
-'
 nsAgg
 .
 h

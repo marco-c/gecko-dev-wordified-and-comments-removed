@@ -884,6 +884,10 @@ globalgen_headers_FILES
 :
 =
 \
+GeneratedAtomList
+.
+h
+\
 PrototypeList
 .
 h
