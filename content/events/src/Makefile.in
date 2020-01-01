@@ -532,6 +532,10 @@ nsContentEventHandler
 .
 cpp
 \
+nsEventListenerService
+.
+cpp
+\
 nsDOMProgressEvent
 .
 cpp

@@ -587,6 +587,13 @@ BINPATH
 /
 components
 /
+content_events
+.
+xpt
+BINPATH
+/
+components
+/
 content_canvas
 .
 xpt

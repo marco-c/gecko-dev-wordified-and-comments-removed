@@ -415,6 +415,9 @@ mk
 MODULE
 =
 content
+XPIDL_MODULE
+=
+content_events
 EXPORTS
 =
 \
@@ -457,6 +460,16 @@ h
 nsPIDOMEventTarget
 .
 h
+\
+(
+NULL
+)
+XPIDLSRCS
+=
+\
+nsIEventListenerService
+.
+idl
 \
 (
 NULL
