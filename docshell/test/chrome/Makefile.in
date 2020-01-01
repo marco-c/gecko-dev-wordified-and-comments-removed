@@ -668,6 +668,14 @@ test_bug428288
 .
 html
 \
+test_bug608669
+.
+xul
+\
+bug608669
+.
+xul
+\
 test_bug449778
 .
 xul

@@ -933,6 +933,10 @@ return
 mIsInnerWindow
 ?
 mOuterWindow
+.
+get
+(
+)
 :
 this
 ;
@@ -1502,8 +1506,10 @@ nsPIDOMWindow
 *
 mInnerWindow
 ;
+nsCOMPtr
+<
 nsPIDOMWindow
-*
+>
 mOuterWindow
 ;
 nsCOMPtr
@@ -1514,6 +1520,9 @@ mFocusedNode
 ;
 PRUint64
 mWindowID
+;
+PRPackedBool
+mHasNotifiedGlobalCreated
 ;
 }
 ;
