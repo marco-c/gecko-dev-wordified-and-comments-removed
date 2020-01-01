@@ -340,7 +340,7 @@ walk
 test_obj_dir
 )
 :
-          
+            
 if
 os
 .
@@ -363,7 +363,7 @@ ini
 )
 )
 :
-            
+                
 xpcshell_dirs
 .
 append
