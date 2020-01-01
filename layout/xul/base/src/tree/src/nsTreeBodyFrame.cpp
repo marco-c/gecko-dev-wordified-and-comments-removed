@@ -403,13 +403,6 @@ h
 #
 endif
 static
-NS_DEFINE_CID
-(
-kWidgetCID
-NS_CHILD_CID
-)
-;
-static
 PLDHashOperator
 CancelImageRequest
 (
