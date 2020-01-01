@@ -492,7 +492,7 @@ aCallback
 void
 *
 aClosure
-bool
+PRBool
 &
 aAborted
 )

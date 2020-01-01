@@ -107,7 +107,7 @@ Place
 nsRenderingContext
 &
 aRenderingContext
-bool
+PRBool
 aPlaceOrigin
 nsHTMLReflowMetrics
 &

@@ -493,10 +493,6 @@ WebGLContextValidate
 .
 cpp
 \
-WebGLExtensionStandardDerivatives
-.
-cpp
-\
 (
 NULL
 )

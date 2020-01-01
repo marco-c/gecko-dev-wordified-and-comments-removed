@@ -163,14 +163,14 @@ NS_STYLE_INHERIT_MASK
 )
 ;
 inline
-bool
+PRBool
 IsFixedUnit
 (
 const
 nsStyleCoord
 &
 aCoord
-bool
+PRBool
 aEnumOK
 )
 {
@@ -198,7 +198,7 @@ eStyleUnit_Enumerated
 ;
 }
 static
-bool
+PRBool
 EqualURIs
 (
 nsIURI
@@ -209,7 +209,7 @@ nsIURI
 aURI2
 )
 {
-bool
+PRBool
 eq
 ;
 return
@@ -245,7 +245,7 @@ eq
 ;
 }
 static
-bool
+PRBool
 EqualURIs
 (
 nsCSSValue
@@ -288,7 +288,7 @@ aURI2
 ;
 }
 static
-bool
+PRBool
 EqualImages
 (
 imgIRequest
@@ -966,14 +966,14 @@ NS_STYLE_HINT_REFLOW
 ;
 }
 static
-bool
+PRBool
 IsFixedData
 (
 const
 nsStyleSides
 &
 aSides
-bool
+PRBool
 aEnumOK
 )
 {
@@ -1787,7 +1787,7 @@ nsBorderColors
 :
 Clone
 (
-bool
+PRBool
 aDeep
 )
 const
@@ -2414,7 +2414,7 @@ NS_STYLE_HINT_REFLOW
 }
 #
 endif
-bool
+PRBool
 nsStyleBorder
 :
 :
@@ -2809,7 +2809,7 @@ aOther
 )
 const
 {
-bool
+PRBool
 outlineWasVisible
 =
 mCachedOutlineWidth
@@ -2822,7 +2822,7 @@ mOutlineStyle
 =
 NS_STYLE_BORDER_STYLE_NONE
 ;
-bool
+PRBool
 outlineIsVisible
 =
 aOther
@@ -3941,7 +3941,7 @@ mTextRendering
 ;
 }
 static
-bool
+PRBool
 PaintURIChanged
 (
 const
@@ -4815,7 +4815,7 @@ return
 this
 ;
 }
-bool
+PRBool
 nsStyleSVGPaint
 :
 :
@@ -5207,7 +5207,7 @@ NS_STYLE_HINT_REFLOW
 }
 #
 endif
-bool
+PRBool
 nsStylePosition
 :
 :
@@ -5734,7 +5734,7 @@ NS_STYLE_HINT_VISUAL
 }
 #
 endif
-bool
+PRBool
 nsStyleGradient
 :
 :
@@ -5956,7 +5956,7 @@ PR_FALSE
 )
 {
 }
-bool
+PRBool
 nsStyleGradient
 :
 :
@@ -6724,7 +6724,7 @@ pixelValue
 )
 ;
 }
-bool
+PRBool
 nsStyleImage
 :
 :
@@ -6733,7 +6733,7 @@ ComputeActualCropRect
 nsIntRect
 &
 aActualCropRect
-bool
+PRBool
 *
 aIsEntireImage
 )
@@ -6966,7 +6966,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsStyleImage
 :
 :
@@ -7055,7 +7055,7 @@ ready
 "
 )
 ;
-bool
+PRBool
 isOpaque
 ;
 if
@@ -7087,7 +7087,7 @@ PR_TRUE
 nsIntRect
 actualCropRect
 ;
-bool
+PRBool
 rv
 =
 ComputeActualCropRect
@@ -7125,7 +7125,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsStyleImage
 :
 :
@@ -7218,7 +7218,7 @@ PR_FALSE
 }
 static
 inline
-bool
+PRBool
 EqualRects
 (
 const
@@ -7254,7 +7254,7 @@ aRect2
 )
 ;
 }
-bool
+PRBool
 nsStyleImage
 :
 :
@@ -7905,7 +7905,7 @@ NS_STYLE_HINT_VISUAL
 }
 #
 endif
-bool
+PRBool
 nsStyleBackground
 :
 :
@@ -7959,7 +7959,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsStyleBackground
 :
 :
@@ -8581,7 +8581,7 @@ SetNull
 )
 ;
 }
-bool
+PRBool
 nsStyleBackground
 :
 :
@@ -8622,7 +8622,7 @@ mImage
 )
 ;
 }
-bool
+PRBool
 nsStyleBackground
 :
 :
@@ -10691,7 +10691,7 @@ return
 this
 ;
 }
-bool
+PRBool
 nsStyleContentData
 :
 :
@@ -10753,7 +10753,7 @@ mContent
 .
 mImage
 ;
-bool
+PRBool
 eq
 ;
 nsCOMPtr
@@ -12269,7 +12269,7 @@ nscolor
 decColor
 otherDecColor
 ;
-bool
+PRBool
 isFG
 otherIsFG
 ;

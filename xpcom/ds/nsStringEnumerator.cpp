@@ -68,7 +68,7 @@ nsString
 >
 *
 aArray
-bool
+PRBool
 aOwnsArray
 )
 :
@@ -86,7 +86,7 @@ aOwnsArray
 )
 mIsUnicode
 (
-true
+PR_TRUE
 )
 {
 }
@@ -99,7 +99,7 @@ nsCString
 >
 *
 aArray
-bool
+PRBool
 aOwnsArray
 )
 :
@@ -117,7 +117,7 @@ aOwnsArray
 )
 mIsUnicode
 (
-false
+PR_FALSE
 )
 {
 }
@@ -149,11 +149,11 @@ aOwner
 )
 mOwnsArray
 (
-false
+PR_FALSE
 )
 mIsUnicode
 (
-true
+PR_TRUE
 )
 {
 }
@@ -185,11 +185,11 @@ aOwner
 )
 mOwnsArray
 (
-false
+PR_FALSE
 )
 mIsUnicode
 (
-false
+PR_FALSE
 )
 {
 }
@@ -302,10 +302,10 @@ nsISupports
 >
 mOwner
 ;
-bool
+PRPackedBool
 mOwnsArray
 ;
-bool
+PRPackedBool
 mIsUnicode
 ;
 }
@@ -323,7 +323,7 @@ nsStringEnumerator
 :
 HasMore
 (
-bool
+PRBool
 *
 aResult
 )
@@ -352,7 +352,7 @@ nsStringEnumerator
 :
 HasMoreElements
 (
-bool
+PRBool
 *
 aResult
 )
@@ -743,7 +743,7 @@ new
 nsStringEnumerator
 (
 aArray
-true
+PR_TRUE
 )
 ;
 return
@@ -785,7 +785,7 @@ new
 nsStringEnumerator
 (
 aArray
-true
+PR_TRUE
 )
 ;
 return
@@ -828,7 +828,7 @@ new
 nsStringEnumerator
 (
 aArray
-false
+PR_FALSE
 )
 ;
 return
@@ -871,7 +871,7 @@ new
 nsStringEnumerator
 (
 aArray
-false
+PR_FALSE
 )
 ;
 return

@@ -104,10 +104,10 @@ nsGenericHTMLElement
 >
 mElement
 ;
-bool
+PRBool
 mRemovingProp
 ;
-bool
+PRBool
 DataPropToAttr
 (
 const
@@ -119,7 +119,7 @@ nsAString
 aResult
 )
 ;
-bool
+PRBool
 AttrToDataProp
 (
 const

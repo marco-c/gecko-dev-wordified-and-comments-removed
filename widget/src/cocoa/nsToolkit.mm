@@ -2324,7 +2324,7 @@ NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
 )
 ;
 }
-bool
+PRBool
 nsToolkit
 :
 :
@@ -2343,7 +2343,7 @@ MAC_OS_X_VERSION_10_6_HEX
 )
 ;
 }
-bool
+PRBool
 nsToolkit
 :
 :
@@ -2663,7 +2663,7 @@ SEL
 orgMethod
 SEL
 posedMethod
-bool
+PRBool
 classMethods
 )
 {

@@ -57,7 +57,7 @@ const
 char
 *
 name
-bool
+PRBool
 passed
 )
 ;

@@ -46,7 +46,7 @@ nsnull
 #
 endif
 typedef
-bool
+PRBool
 (
 *
 _XScreenSaverQueryExtension_fn
@@ -92,10 +92,10 @@ info
 )
 ;
 static
-bool
+PRBool
 sInitialized
 =
-false
+PR_FALSE
 ;
 static
 _XScreenSaverQueryExtension_fn
@@ -287,7 +287,7 @@ n
 endif
 sInitialized
 =
-true
+PR_TRUE
 ;
 }
 nsIdleServiceGTK

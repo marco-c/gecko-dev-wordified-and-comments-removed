@@ -199,7 +199,7 @@ CERTCertificate
 *
 mCert
 ;
-bool
+PRBool
 mPermDelete
 ;
 PRUint32
@@ -249,7 +249,7 @@ destructorSafeDestroyNSSReference
 (
 )
 ;
-bool
+PRBool
 InitFromDER
 (
 char
@@ -283,7 +283,7 @@ hasValidEVOidTag
 SECOidTag
 &
 resultOidTag
-bool
+PRBool
 &
 validEV
 )
@@ -294,7 +294,7 @@ getValidEVOidTag
 SECOidTag
 &
 resultOidTag
-bool
+PRBool
 &
 validEV
 )
@@ -318,10 +318,10 @@ CERTCertList
 certList
 =
 nsnull
-bool
+PRBool
 adopt
 =
-false
+PR_FALSE
 )
 ;
 virtual

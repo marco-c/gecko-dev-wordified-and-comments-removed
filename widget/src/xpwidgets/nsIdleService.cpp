@@ -120,7 +120,7 @@ IdleListenerComparator
 {
 public
 :
-bool
+PRBool
 Equals
 (
 IdleListener

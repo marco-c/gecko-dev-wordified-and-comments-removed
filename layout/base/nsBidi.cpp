@@ -304,7 +304,7 @@ mMayAllocateRuns
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsBidi
 :
 :
@@ -317,7 +317,7 @@ aMemory
 PRSize
 *
 aSize
-bool
+PRBool
 aMayAllocate
 PRSize
 aSizeNeeded
@@ -4306,7 +4306,7 @@ NS_OK
 ;
 }
 }
-bool
+PRBool
 nsBidi
 :
 :
@@ -5446,7 +5446,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsBidi
 :
 :

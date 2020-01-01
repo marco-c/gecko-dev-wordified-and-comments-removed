@@ -305,7 +305,7 @@ return
 this
 ;
 }
-bool
+PRBool
 nsStyleCoord
 :
 :
@@ -930,7 +930,7 @@ nsStyleSides
 )
 ;
 }
-bool
+PRBool
 nsStyleSides
 :
 :
@@ -997,7 +997,7 @@ nsStyleCorners
 )
 ;
 }
-bool
+PRBool
 nsStyleCorners
 :
 :

@@ -203,7 +203,7 @@ h
 #
 endif
 extern
-bool
+PRBool
 gDisableNativeTheme
 ;
 NS_GENERIC_FACTORY_CONSTRUCTOR

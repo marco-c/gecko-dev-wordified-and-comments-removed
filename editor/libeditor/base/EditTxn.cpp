@@ -65,7 +65,7 @@ EditTxn
 :
 GetIsTransient
 (
-bool
+PRBool
 *
 aIsTransient
 )
@@ -88,7 +88,7 @@ Merge
 nsITransaction
 *
 aTransaction
-bool
+PRBool
 *
 aDidMerge
 )

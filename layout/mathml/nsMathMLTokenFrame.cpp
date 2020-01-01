@@ -692,7 +692,7 @@ Place
 nsRenderingContext
 &
 aRenderingContext
-bool
+PRBool
 aPlaceOrigin
 nsHTMLReflowMetrics
 &
@@ -1047,7 +1047,7 @@ NS_STYLE_HINT_NONE
 )
 ;
 }
-bool
+PRBool
 nsMathMLTokenFrame
 :
 :
@@ -1118,7 +1118,7 @@ PR_FALSE
 nsAutoString
 fontstyle
 ;
-bool
+PRBool
 isSingleCharacter
 =
 length
@@ -1357,7 +1357,7 @@ aFrame
 nsString
 &
 aValue
-bool
+PRBool
 aNotify
 )
 {
@@ -1429,7 +1429,7 @@ nsMathMLTokenFrame
 :
 SetQuotes
 (
-bool
+PRBool
 aNotify
 )
 {

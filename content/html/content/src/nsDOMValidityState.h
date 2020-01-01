@@ -53,7 +53,7 @@ nsnull
 ;
 }
 inline
-bool
+PRBool
 GetValidityState
 (
 nsIConstraintValidation

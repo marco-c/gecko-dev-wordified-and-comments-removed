@@ -126,7 +126,7 @@ gfxSharedImageSurface
 )
 ;
 }
-bool
+PRBool
 gfxSharedImageSurface
 :
 :

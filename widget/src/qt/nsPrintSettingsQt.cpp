@@ -499,7 +499,7 @@ nsPrintSettingsQt
 :
 GetPrintReversed
 (
-bool
+PRBool
 *
 aPrintReversed
 )
@@ -549,7 +549,7 @@ nsPrintSettingsQt
 :
 SetPrintReversed
 (
-bool
+PRBool
 aPrintReversed
 )
 {
@@ -594,7 +594,7 @@ nsPrintSettingsQt
 :
 GetPrintInColor
 (
-bool
+PRBool
 *
 aPrintInColor
 )
@@ -644,7 +644,7 @@ nsPrintSettingsQt
 :
 SetPrintInColor
 (
-bool
+PRBool
 aPrintInColor
 )
 {

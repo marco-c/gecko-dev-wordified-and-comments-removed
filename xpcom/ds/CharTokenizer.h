@@ -47,7 +47,7 @@ mEnd
 )
 ;
 }
-bool
+PRBool
 hasMoreTokens
 (
 )
@@ -168,7 +168,7 @@ mEnd
 )
 ;
 }
-bool
+PRBool
 hasMoreTokens
 (
 )

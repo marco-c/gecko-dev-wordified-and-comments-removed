@@ -136,7 +136,7 @@ aLength
 nsString
 mOutputString
 ;
-bool
+PRBool
 DidWrite
 (
 )
@@ -155,7 +155,7 @@ mBuffer
 PRUint32
 mBufferCount
 ;
-bool
+PRBool
 mDidWrite
 ;
 nsresult
@@ -221,7 +221,7 @@ nsIInputStream
 aStream
 PRInt32
 aContentLength
-bool
+PRBool
 aNeedsConverter
 DecodingMode
 mode
@@ -267,7 +267,7 @@ cx
 jsval
 *
 rootVal
-bool
+PRBool
 needsConverter
 DecodingMode
 mode
@@ -284,7 +284,7 @@ NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
 protected
 :
-bool
+PRBool
 mNeedsConverter
 ;
 JSContext

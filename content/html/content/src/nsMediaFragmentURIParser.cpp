@@ -75,7 +75,7 @@ end
 ;
 }
 }
-bool
+PRBool
 nsMediaFragmentURIParser
 :
 :
@@ -322,7 +322,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsMediaFragmentURIParser
 :
 :
@@ -375,7 +375,7 @@ aTime
 ;
 }
 static
-bool
+PRBool
 IsDigit
 (
 nsDependentSubstring
@@ -444,7 +444,7 @@ return
 aStart
 ;
 }
-bool
+PRBool
 nsMediaFragmentURIParser
 :
 :
@@ -585,7 +585,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsMediaFragmentURIParser
 :
 :
@@ -744,7 +744,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsMediaFragmentURIParser
 :
 :
@@ -857,7 +857,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsMediaFragmentURIParser
 :
 :
@@ -979,7 +979,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsMediaFragmentURIParser
 :
 :
@@ -1083,7 +1083,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsMediaFragmentURIParser
 :
 :
@@ -1105,7 +1105,7 @@ aMinute
 )
 ;
 }
-bool
+PRBool
 nsMediaFragmentURIParser
 :
 :

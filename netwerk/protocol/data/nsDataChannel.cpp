@@ -88,7 +88,7 @@ nsDataChannel
 :
 OpenContentStream
 (
-bool
+PRBool
 async
 nsIInputStream
 *
@@ -142,7 +142,7 @@ contentCharset
 dataBuffer
 hashRef
 ;
-bool
+PRBool
 lBase64
 ;
 rv

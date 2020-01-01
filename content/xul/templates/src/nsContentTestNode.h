@@ -67,7 +67,7 @@ FilterInstantiations
 InstantiationSet
 &
 aInstantiations
-bool
+PRBool
 *
 aCantHandleYet
 )

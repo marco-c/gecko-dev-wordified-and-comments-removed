@@ -122,7 +122,7 @@ mMap
 b7
 ;
 }
-bool
+PRBool
 Contains
 (
 unsigned
@@ -205,14 +205,14 @@ nsACString
 _retval
 )
 ;
-bool
+PRBool
 SpecialEncode
 (
 const
 nsACString
 &
 url
-bool
+PRBool
 foldSlashes
 nsACString
 &
@@ -240,7 +240,7 @@ nsACString
 num
 PRUint32
 bytes
-bool
+PRBool
 allowOctal
 nsACString
 &
@@ -278,7 +278,7 @@ nsUrlClassifierUtils
 &
 )
 ;
-bool
+PRBool
 ShouldURLEscape
 (
 const

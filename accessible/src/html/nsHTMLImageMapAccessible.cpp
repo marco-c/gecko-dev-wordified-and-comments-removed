@@ -602,6 +602,7 @@ imageFrame
 >
 GetImageMap
 (
+presContext
 )
 ;
 NS_ENSURE_TRUE

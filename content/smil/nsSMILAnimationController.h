@@ -260,7 +260,7 @@ nsRefreshDriver
 aRefreshDriver
 )
 ;
-bool
+PRBool
 HasRegisteredAnimations
 (
 )
@@ -313,7 +313,7 @@ TimeContainerHashtable
 *
 mActiveContainers
 ;
-bool
+PRBool
 mSkipUnchangedContainers
 ;
 }
@@ -401,7 +401,7 @@ DoSample
 void
 DoSample
 (
-bool
+PRBool
 aSkipUnchangedContainers
 )
 ;
@@ -538,7 +538,7 @@ aCompositorTable
 )
 ;
 static
-bool
+PRBool
 GetTargetIdentifierForAnimation
 (
 nsISMILAnimationElement
@@ -592,13 +592,13 @@ mStartTime
 nsSMILTime
 mAvgTimeBetweenSamples
 ;
-bool
+PRPackedBool
 mResampleNeeded
 ;
-bool
+PRPackedBool
 mDeferredStartSampling
 ;
-bool
+PRPackedBool
 mRunningSample
 ;
 nsIDocument

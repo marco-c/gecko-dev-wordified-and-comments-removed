@@ -327,7 +327,7 @@ EntityToUnicodeEntry
 {
 }
 ;
-bool
+PRBool
 KeyEquals
 (
 const

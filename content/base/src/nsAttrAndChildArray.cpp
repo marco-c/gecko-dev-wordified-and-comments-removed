@@ -2662,10 +2662,10 @@ nsMappedAttributes
 >
 mapped
 ;
-bool
+PRBool
 willAdd
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -3289,7 +3289,7 @@ aContent
 nsHTMLStyleSheet
 *
 aSheet
-bool
+PRBool
 aWillAddAttr
 nsMappedAttributes
 *
@@ -3520,7 +3520,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsAttrAndChildArray
 :
 :
@@ -3588,7 +3588,7 @@ minSize
 )
 ;
 }
-bool
+PRBool
 needToInitialize
 =
 !
@@ -3659,7 +3659,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsAttrAndChildArray
 :
 :

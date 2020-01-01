@@ -310,7 +310,7 @@ nsAutoPtr
 Expr
 >
 aValue
-bool
+PRBool
 aIsParam
 )
 ;
@@ -324,7 +324,7 @@ Expr
 >
 mValue
 ;
-bool
+PRBool
 mIsParam
 ;
 }

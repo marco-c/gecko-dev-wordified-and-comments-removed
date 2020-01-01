@@ -202,7 +202,7 @@ mStatus
 PRInt32
 mPriority
 ;
-bool
+PRBool
 mIsCanceling
 ;
 mozilla

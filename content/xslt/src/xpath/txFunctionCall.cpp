@@ -220,7 +220,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 FunctionCall
 :
 :
@@ -374,7 +374,7 @@ aPos
 aExpr
 ;
 }
-bool
+PRBool
 FunctionCall
 :
 :

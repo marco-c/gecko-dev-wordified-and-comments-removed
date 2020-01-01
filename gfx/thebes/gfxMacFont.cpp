@@ -72,7 +72,7 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
+PRBool
 aNeedsBold
 )
 :
@@ -228,7 +228,7 @@ mAdjustedSize
 mAdjustedSize
 )
 ;
-bool
+PRBool
 needsOblique
 =
 (
@@ -477,7 +477,7 @@ mFontFace
 ;
 }
 }
-bool
+PRBool
 gfxMacFont
 :
 :
@@ -499,7 +499,7 @@ PRUint32
 aRunLength
 PRInt32
 aRunScript
-bool
+PRBool
 aPreferPlatformShaping
 )
 {
@@ -526,7 +526,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 ok
 =
 gfxFont
@@ -588,7 +588,7 @@ this
 )
 ;
 }
-bool
+PRBool
 gfxMacFont
 :
 :

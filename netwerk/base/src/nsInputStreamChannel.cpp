@@ -11,7 +11,7 @@ nsInputStreamChannel
 :
 OpenContentStream
 (
-bool
+PRBool
 async
 nsIInputStream
 *

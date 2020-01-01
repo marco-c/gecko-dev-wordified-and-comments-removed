@@ -202,7 +202,7 @@ nsMappedAttributes
 :
 Clone
 (
-bool
+PRBool
 aWillAddAttr
 )
 {
@@ -593,7 +593,7 @@ return
 nsnull
 ;
 }
-bool
+PRBool
 nsMappedAttributes
 :
 :

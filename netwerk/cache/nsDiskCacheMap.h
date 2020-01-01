@@ -249,7 +249,7 @@ mMetaLocation
 )
 {
 }
-bool
+PRBool
 ValidRecord
 (
 )
@@ -324,7 +324,7 @@ rank
 1
 ;
 }
-bool
+PRBool
 DataLocationInitialized
 (
 )
@@ -645,7 +645,7 @@ mDataLocation
 eLocationInitializedMask
 ;
 }
-bool
+PRBool
 MetaLocationInitialized
 (
 )
@@ -1439,7 +1439,7 @@ cacheDirectory
 nsresult
 Close
 (
-bool
+PRBool
 flush
 )
 ;
@@ -1456,7 +1456,7 @@ FlushHeader
 nsresult
 FlushRecords
 (
-bool
+PRBool
 unswap
 )
 ;
@@ -1534,9 +1534,9 @@ GetFileForDiskCacheRecord
 nsDiskCacheRecord
 *
 record
-bool
+PRBool
 meta
-bool
+PRBool
 createPath
 nsIFile
 *
@@ -1550,9 +1550,9 @@ GetLocalFileForDiskCacheRecord
 nsDiskCacheRecord
 *
 record
-bool
+PRBool
 meta
-bool
+PRBool
 createPath
 nsILocalFile
 *
@@ -1609,7 +1609,7 @@ DeleteStorage
 nsDiskCacheRecord
 *
 record
-bool
+PRBool
 metaData
 )
 ;
@@ -1769,11 +1769,11 @@ OpenBlockFiles
 nsresult
 CloseBlockFiles
 (
-bool
+PRBool
 flush
 )
 ;
-bool
+PRBool
 CacheFilesExist
 (
 )

@@ -211,9 +211,9 @@ virtual
 void
 SetScriptsEnabled
 (
-bool
+PRBool
 aEnabled
-bool
+PRBool
 aFireTimeouts
 )
 ;
@@ -1473,9 +1473,9 @@ nsXBLDocGlobalObject
 :
 SetScriptsEnabled
 (
-bool
+PRBool
 aEnabled
-bool
+PRBool
 aFireTimeouts
 )
 {
@@ -1545,7 +1545,7 @@ NodePrincipal
 ;
 }
 static
-bool
+PRBool
 IsChromeURI
 (
 nsIURI
@@ -1553,10 +1553,10 @@ nsIURI
 aURI
 )
 {
-bool
+PRBool
 isChrome
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -1583,7 +1583,7 @@ PR_FALSE
 ;
 }
 static
-bool
+PRBool
 TraverseProtos
 (
 nsHashKey
@@ -1637,7 +1637,7 @@ kHashEnumerateNext
 ;
 }
 static
-bool
+PRBool
 UnlinkProtoJSObjects
 (
 nsHashKey
@@ -1688,7 +1688,7 @@ mClosure
 }
 ;
 static
-bool
+PRBool
 TraceProtos
 (
 nsHashKey
@@ -1966,10 +1966,10 @@ if
 reg
 )
 {
-bool
+PRBool
 allow
 =
-true
+PR_TRUE
 ;
 reg
 -
@@ -2114,7 +2114,7 @@ key
 ;
 }
 static
-bool
+PRBool
 DeletePrototypeBinding
 (
 nsHashKey
@@ -2250,7 +2250,7 @@ mFirstBinding
 aBinding
 ;
 }
-bool
+PRBool
 FlushScopedSkinSheets
 (
 nsHashKey

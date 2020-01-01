@@ -542,7 +542,7 @@ PRUnichar
 aChar
 nsUGDC
 aDetailCategory
-bool
+PRBool
 *
 oResult
 )

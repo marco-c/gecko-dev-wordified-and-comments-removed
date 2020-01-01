@@ -512,7 +512,7 @@ const
 char
 *
 aProtocolScheme
-bool
+PRBool
 *
 aHandlerExists
 )
@@ -1028,7 +1028,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsOSHelperAppService
 :
 :
@@ -1086,10 +1086,10 @@ Append
 aExt
 )
 ;
-bool
+PRBool
 eq
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -1413,7 +1413,7 @@ rundllSegmentLength
 ;
 }
 }
-bool
+PRBool
 nsOSHelperAppService
 :
 :
@@ -2065,7 +2065,7 @@ useSystemDefault
 nsAutoString
 appInfo
 ;
-bool
+PRBool
 found
 ;
 #
@@ -2273,7 +2273,7 @@ const
 nsACString
 &
 aFileExt
-bool
+PRBool
 *
 aFound
 )
@@ -2448,10 +2448,10 @@ mi
 )
 )
 ;
-bool
+PRBool
 hasDefault
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -2531,10 +2531,10 @@ get
 )
 )
 ;
-bool
+PRBool
 extExist
 =
-false
+PR_FALSE
 ;
 mi
 -
@@ -2748,7 +2748,7 @@ const
 nsACString
 &
 aScheme
-bool
+PRBool
 *
 found
 nsIHandlerInfo

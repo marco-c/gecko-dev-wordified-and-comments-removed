@@ -101,7 +101,7 @@ IsReadonly
 nsIDOMNode
 *
 aElement
-bool
+PRBool
 *
 aState
 )
@@ -114,7 +114,7 @@ IsRelevant
 nsIDOMNode
 *
 aElement
-bool
+PRBool
 *
 aState
 )
@@ -127,7 +127,7 @@ IsRequired
 nsIDOMNode
 *
 aElement
-bool
+PRBool
 *
 aState
 )
@@ -140,7 +140,7 @@ IsValid
 nsIDOMNode
 *
 aElement
-bool
+PRBool
 *
 aState
 )
@@ -242,7 +242,7 @@ IsDropmarkerOpen
 nsIDOMNode
 *
 aElement
-bool
+PRBool
 *
 aIsOpen
 )
@@ -355,7 +355,7 @@ aElement
 nsIDOMNode
 *
 aItem
-bool
+PRBool
 *
 aIsSelected
 )

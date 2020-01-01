@@ -200,7 +200,7 @@ GetFirstChildD3D9
 (
 )
 ;
-bool
+PRBool
 IsEmpty
 (
 )

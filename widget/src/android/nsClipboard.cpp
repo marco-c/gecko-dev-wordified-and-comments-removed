@@ -482,7 +482,7 @@ PRUint32
 aLength
 PRInt32
 aWhichClipboard
-bool
+PRBool
 *
 aHasText
 NS_OUTPARAM
@@ -564,7 +564,7 @@ nsClipboard
 :
 SupportsSelectionClipboard
 (
-bool
+PRBool
 *
 aIsSupported
 NS_OUTPARAM

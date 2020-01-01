@@ -81,7 +81,7 @@ aPresShell
 nsStyleContext
 *
 aContext
-bool
+PRBool
 aIsRoot
 =
 nsnull

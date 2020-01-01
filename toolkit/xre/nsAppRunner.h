@@ -133,7 +133,7 @@ nsXREAppData
 gAppData
 ;
 extern
-bool
+PRBool
 gSafeMode
 ;
 extern
@@ -147,7 +147,7 @@ char
 gArgv
 ;
 extern
-bool
+PRBool
 gLogConsoleErrors
 ;
 nsresult

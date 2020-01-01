@@ -85,7 +85,7 @@ PRUint32
 aOffset
 )
 {
-bool
+PRBool
 notFound
 ;
 nsresult
@@ -120,7 +120,7 @@ NS_OK
 ;
 }
 static
-bool
+PRBool
 IsRectEnabled
 (
 PRUint32
@@ -158,7 +158,7 @@ nsQueryContentEventResult
 :
 GetReversed
 (
-bool
+PRBool
 *
 aReversed
 )
@@ -381,7 +381,7 @@ nsQueryContentEventResult
 :
 GetSucceeded
 (
-bool
+PRBool
 *
 aSucceeded
 )
@@ -410,7 +410,7 @@ nsQueryContentEventResult
 :
 GetNotFound
 (
-bool
+PRBool
 *
 aNotFound
 )

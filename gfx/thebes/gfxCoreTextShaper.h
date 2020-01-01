@@ -73,7 +73,7 @@ gfxCoreTextShaper
 )
 ;
 virtual
-bool
+PRBool
 InitTextRun
 (
 gfxContext

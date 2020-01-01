@@ -102,7 +102,7 @@ const
 ;
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 IsAttributeMapped
 (

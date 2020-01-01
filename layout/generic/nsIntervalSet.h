@@ -91,7 +91,7 @@ coord_type
 aEnd
 )
 ;
-bool
+PRBool
 Intersects
 (
 coord_type
@@ -101,7 +101,7 @@ aEnd
 )
 const
 ;
-bool
+PRBool
 Contains
 (
 coord_type
@@ -111,7 +111,7 @@ aEnd
 )
 const
 ;
-bool
+PRBool
 IsEmpty
 (
 )

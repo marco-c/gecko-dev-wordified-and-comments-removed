@@ -583,10 +583,10 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 gDone
 =
-false
+PR_FALSE
 ;
 nsIEventQueue
 *

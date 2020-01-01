@@ -27,7 +27,7 @@ Init
 )
 ;
 static
-bool
+PRBool
 InGeneration
 (
 nsCycleCollectionTraversalCallback

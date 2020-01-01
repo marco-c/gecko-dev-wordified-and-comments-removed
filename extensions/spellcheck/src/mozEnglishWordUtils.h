@@ -107,7 +107,7 @@ nsString
 word
 )
 ;
-bool
+PRBool
 ucIsAlpha
 (
 PRUnichar

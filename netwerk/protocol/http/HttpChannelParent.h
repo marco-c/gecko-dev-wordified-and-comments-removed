@@ -178,7 +178,7 @@ InputStream
 &
 uploadStream
 const
-bool
+PRBool
 &
 uploadStreamHasHeaders
 const
@@ -190,11 +190,11 @@ PRUint8
 &
 redirectionLimit
 const
-bool
+PRBool
 &
 allowPipelining
 const
-bool
+PRBool
 &
 forceAllowThirdPartyCookie
 const

@@ -729,7 +729,7 @@ aRuleNode
 nsRuleNode
 *
 aRulesIfVisited
-bool
+PRBool
 aRelevantLinkVisited
 )
 {
@@ -834,10 +834,10 @@ RelevantLinkVisited
 aRelevantLinkVisited
 )
 {
-bool
+PRBool
 match
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -1703,7 +1703,7 @@ aOther
 hint
 )
 ;
-bool
+PRBool
 compare
 =
 mRuleNode
@@ -2126,10 +2126,10 @@ hint
 )
 )
 {
-bool
+PRBool
 change
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -2249,7 +2249,7 @@ NS_FOR_CSS_SIDES
 side
 )
 {
-bool
+PRBool
 thisFG
 otherFG
 ;
@@ -2341,7 +2341,7 @@ GetStyleOutline
 (
 )
 ;
-bool
+PRBool
 haveColor
 ;
 nscolor
@@ -2511,7 +2511,7 @@ nscolor
 thisVisDecColor
 otherVisDecColor
 ;
-bool
+PRBool
 thisVisDecColorIsFG
 otherVisDecColorIsFG
 ;
@@ -3184,7 +3184,7 @@ val
 #
 ifdef
 DEBUG
-bool
+PRBool
 success
 =
 #
@@ -3414,7 +3414,7 @@ CombineVisitedColors
 nscolor
 *
 aColors
-bool
+PRBool
 aLinkIsVisited
 )
 {

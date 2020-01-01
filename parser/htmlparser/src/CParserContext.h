@@ -107,10 +107,10 @@ eAutoDetectResult
 aStatus
 =
 eUnknownDetect
-bool
+PRBool
 aCopyUnused
 =
-false
+PR_FALSE
 )
 ;
 ~
@@ -197,10 +197,10 @@ mAutoDetectStatus
 eParserCommands
 mParserCommand
 ;
-bool
+PRPackedBool
 mMultipart
 ;
-bool
+PRPackedBool
 mCopyUnused
 ;
 PRUint32

@@ -544,7 +544,7 @@ if
 macFile
 )
 {
-bool
+PRBool
 isPackage
 ;
 (

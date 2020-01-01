@@ -1002,10 +1002,10 @@ nsIInterfaceInfo
 info
 )
 {
-bool
+PRBool
 found
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -1030,7 +1030,7 @@ found
 ;
 }
 typedef
-bool
+PRBool
 (
 *
 InfoTester
@@ -1050,7 +1050,7 @@ info
 )
 ;
 static
-bool
+PRBool
 IIDTester
 (
 nsIInterfaceInfoManager
@@ -1090,7 +1090,7 @@ info
 ;
 }
 static
-bool
+PRBool
 NameTester
 (
 nsIInterfaceInfoManager
@@ -1160,7 +1160,7 @@ info
 return
 NS_OK
 ;
-bool
+PRBool
 yes
 ;
 nsCOMPtr
@@ -1205,7 +1205,7 @@ list
 list
 )
 {
-bool
+PRBool
 more
 ;
 nsCOMPtr
@@ -2863,7 +2863,7 @@ HasExternalReference
 ;
 }
 }
-bool
+PRBool
 isMarked
 ;
 #
@@ -4150,7 +4150,7 @@ compartment
 (
 )
 ;
-js
+JS
 :
 :
 AutoSwitchCompartment
@@ -4340,7 +4340,7 @@ compartment
 }
 else
 {
-js
+JS
 :
 :
 AutoSwitchCompartment
@@ -4497,7 +4497,7 @@ compartment
 }
 else
 {
-js
+JS
 :
 :
 AutoSwitchCompartment
@@ -4692,7 +4692,7 @@ SetScopeForNewJSObjects
 tempGlobal
 )
 ;
-bool
+PRBool
 system
 =
 (
@@ -5237,7 +5237,7 @@ const
 nsIID
 *
 aIID
-bool
+PRBool
 aAllowWrapping
 jsval
 *
@@ -5481,7 +5481,7 @@ const
 nsIID
 *
 aIID
-bool
+PRBool
 aAllowWrapping
 jsval
 *
@@ -8513,7 +8513,7 @@ cx
 nsIXPConnectJSObjectHolder
 *
 sandbox
-bool
+PRBool
 returnStringOnly
 jsval
 *
@@ -8755,7 +8755,7 @@ ReleaseJSContext
 JSContext
 *
 aJSContext
-bool
+PRBool
 noGC
 )
 {
@@ -9416,11 +9416,11 @@ nsXPConnect
 :
 DebugDumpJSStack
 (
-bool
+PRBool
 showArgs
-bool
+PRBool
 showLocals
-bool
+PRBool
 showThisProps
 )
 {
@@ -9496,11 +9496,11 @@ nsXPConnect
 :
 DebugPrintJSStack
 (
-bool
+PRBool
 showArgs
-bool
+PRBool
 showLocals
-bool
+PRBool
 showThisProps
 )
 {
@@ -9879,7 +9879,7 @@ OnProcessNextEvent
 nsIThreadInternal
 *
 aThread
-bool
+PRBool
 aMayWait
 PRUint32
 aRecursionDepth
@@ -10004,7 +10004,7 @@ nsXPConnect
 :
 SetReportAllJSExceptions
 (
-bool
+PRBool
 newval
 )
 {
@@ -10029,7 +10029,7 @@ NS_OK
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsXPConnect
 :
@@ -10963,7 +10963,7 @@ GetPrincipal
 JSObject
 *
 obj
-bool
+PRBool
 allowShortCircuit
 )
 const
@@ -12010,7 +12010,7 @@ nsXPConnect
 :
 SetDebugModeWhenPossible
 (
-bool
+PRBool
 mode
 )
 {

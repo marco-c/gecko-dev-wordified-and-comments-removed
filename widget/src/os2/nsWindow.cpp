@@ -518,10 +518,10 @@ gRollupWidget
 =
 0
 ;
-bool
+PRBool
 gRollupConsumeRollupEvent
 =
-false
+PR_FALSE
 ;
 PRUint32
 gOS2Flags
@@ -878,7 +878,7 @@ os2
 .
 trackpoint
 "
-false
+PR_FALSE
 )
 )
 {
@@ -1585,7 +1585,7 @@ QWL_NSWINDOWPTR
 ;
 }
 inline
-bool
+PRBool
 nsWindow
 :
 :
@@ -1651,7 +1651,7 @@ nsWindow
 :
 Enable
 (
-bool
+PRBool
 aState
 )
 {
@@ -1684,7 +1684,7 @@ nsWindow
 :
 IsEnabled
 (
-bool
+PRBool
 *
 aState
 )
@@ -1723,7 +1723,7 @@ nsWindow
 :
 Show
 (
-bool
+PRBool
 aState
 )
 {
@@ -1761,7 +1761,7 @@ ACTION_SHOW
 )
 )
 {
-bool
+PRBool
 isVisible
 ;
 IsVisible
@@ -1811,7 +1811,7 @@ nsWindow
 :
 IsVisible
 (
-bool
+PRBool
 &
 aState
 )
@@ -1839,7 +1839,7 @@ nsWindow
 :
 SetFocus
 (
-bool
+PRBool
 aRaise
 )
 {
@@ -1889,7 +1889,7 @@ const
 nsIntRect
 &
 aRect
-bool
+PRBool
 aIsSynchronous
 )
 {
@@ -2255,7 +2255,7 @@ nsWindow
 :
 CaptureMouse
 (
-bool
+PRBool
 aCapture
 )
 {
@@ -2284,7 +2284,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsWindow
 :
 :
@@ -2625,7 +2625,7 @@ PRInt32
 aWidth
 PRInt32
 aHeight
-bool
+PRBool
 aRepaint
 )
 {
@@ -2677,7 +2677,7 @@ PRInt32
 aWidth
 PRInt32
 aHeight
-bool
+PRBool
 aRepaint
 )
 {
@@ -2866,7 +2866,7 @@ aPlacement
 nsIWidget
 *
 aWidget
-bool
+PRBool
 aActivate
 )
 {
@@ -2977,7 +2977,7 @@ aWnd
 )
 {
 static
-bool
+PRBool
 inPluginActivate
 =
 FALSE
@@ -3847,7 +3847,7 @@ nsWindow
 :
 HideWindowChrome
 (
-bool
+PRBool
 aShouldHide
 )
 {
@@ -3929,7 +3929,7 @@ nsWindow
 :
 ConstrainPosition
 (
-bool
+PRBool
 aAllowSlop
 PRInt32
 *
@@ -5311,9 +5311,9 @@ aListener
 nsIMenuRollup
 *
 aMenuRollup
-bool
+PRBool
 aDoCapture
-bool
+PRBool
 aConsumeRollupEvent
 )
 {
@@ -5393,7 +5393,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsWindow
 :
 :
@@ -5489,7 +5489,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsWindow
 :
 :
@@ -5906,10 +5906,10 @@ MPARAM
 mp2
 )
 {
-bool
+PRBool
 isDone
 =
-false
+PR_FALSE
 ;
 MRESULT
 mresult
@@ -6684,7 +6684,7 @@ nsWindowState_eInCreate
 )
 ;
 }
-bool
+PRBool
 nsWindow
 :
 :
@@ -6694,10 +6694,10 @@ PSWP
 pSwp
 )
 {
-bool
+PRBool
 result
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -6893,7 +6893,7 @@ return
 result
 ;
 }
-bool
+PRBool
 nsWindow
 :
 :
@@ -7585,7 +7585,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsWindow
 :
 :
@@ -7617,10 +7617,10 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 isCopy
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -7844,7 +7844,7 @@ event
 )
 ;
 }
-bool
+PRBool
 nsWindow
 :
 :
@@ -8165,7 +8165,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsWindow
 :
 :
@@ -8178,15 +8178,15 @@ HPS
 aHps
 )
 {
-bool
+PRBool
 rtn
 =
-true
+PR_TRUE
 ;
-bool
+PRBool
 getHps
 =
-false
+PR_FALSE
 ;
 switch
 (
@@ -8328,7 +8328,7 @@ return
 rtn
 ;
 }
-bool
+PRBool
 nsWindow
 :
 :
@@ -8374,7 +8374,7 @@ GetToggledKeyState
 (
 PRUint32
 aKeyCode
-bool
+PRBool
 *
 aLEDState
 )
@@ -8450,7 +8450,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsWindow
 :
 :
@@ -8654,7 +8654,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsWindow
 :
 :
@@ -9007,7 +9007,7 @@ pressEvent
 =
 event
 ;
-bool
+PRBool
 rc
 =
 DispatchWindowEvent
@@ -10523,7 +10523,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-bool
+PRBool
 nsWindow
 :
 :
@@ -10552,7 +10552,7 @@ nsEventStatus_eConsumeNoDefault
 )
 ;
 }
-bool
+PRBool
 nsWindow
 :
 :
@@ -10581,7 +10581,7 @@ nsEventStatus_eConsumeNoDefault
 )
 ;
 }
-bool
+PRBool
 nsWindow
 :
 :
@@ -10681,7 +10681,7 @@ event
 )
 ;
 }
-bool
+PRBool
 nsWindow
 :
 :
@@ -10751,7 +10751,7 @@ event
 )
 ;
 }
-bool
+PRBool
 nsWindow
 :
 :
@@ -10793,7 +10793,7 @@ event
 )
 ;
 }
-bool
+PRBool
 nsWindow
 :
 :
@@ -10858,7 +10858,7 @@ event
 )
 ;
 }
-bool
+PRBool
 nsWindow
 :
 :
@@ -10870,7 +10870,7 @@ MPARAM
 mp1
 MPARAM
 mp2
-bool
+PRBool
 aIsContextMenuKey
 PRInt16
 aButton
@@ -11515,7 +11515,7 @@ event
 )
 ;
 }
-bool
+PRBool
 nsWindow
 :
 :
@@ -11608,7 +11608,7 @@ event
 )
 ;
 }
-bool
+PRBool
 nsWindow
 :
 :

@@ -53,7 +53,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-bool
+PRBool
 &
 aPreventCachingOfSandwich
 )

@@ -84,7 +84,7 @@ NS_SCRIPTABLE
 NS_IMETHOD
 GetPartial
 (
-bool
+PRBool
 *
 aPartial
 )
@@ -109,7 +109,7 @@ NS_SCRIPTABLE
 NS_IMETHOD
 GetIsUpgrade
 (
-bool
+PRBool
 *
 aIsUpgrade
 )
@@ -185,7 +185,7 @@ NS_SCRIPTABLE
 NS_IMETHOD
 GetSucceeded
 (
-bool
+PRBool
 *
 aSucceeded
 )
@@ -272,7 +272,7 @@ AddObserver
 nsIOfflineCacheUpdateObserver
 *
 aObserver
-bool
+PRBool
 aHoldWeak
 )
 {

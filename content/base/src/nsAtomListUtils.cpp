@@ -19,7 +19,7 @@ nsStaticAtom
 .
 h
 "
-bool
+PRBool
 nsAtomListUtils
 :
 :

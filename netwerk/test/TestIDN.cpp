@@ -366,7 +366,7 @@ n
 "
 )
 ;
-bool
+PRBool
 isAce
 ;
 rv

@@ -254,7 +254,7 @@ PR_BIT
 )
 }
 ;
-bool
+PRBool
 NS_EscapeURL
 (
 const
@@ -270,7 +270,7 @@ nsACString
 result
 )
 ;
-bool
+PRBool
 NS_UnescapeURL
 (
 const
@@ -387,7 +387,7 @@ str
 ;
 }
 inline
-bool
+PRBool
 NS_Escape
 (
 const

@@ -175,7 +175,7 @@ this
 )
 ;
 }
-bool
+PRBool
 nsAsyncStreamCopier
 :
 :
@@ -402,7 +402,7 @@ nsAsyncStreamCopier
 :
 IsPending
 (
-bool
+PRBool
 *
 result
 )
@@ -647,15 +647,15 @@ sink
 nsIEventTarget
 *
 target
-bool
+PRBool
 sourceBuffered
-bool
+PRBool
 sinkBuffered
 PRUint32
 chunkSize
-bool
+PRBool
 closeSource
-bool
+PRBool
 closeSink
 )
 {

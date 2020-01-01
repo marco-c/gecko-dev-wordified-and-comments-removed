@@ -393,7 +393,7 @@ nsISMILAnimationElement
 nsSMILValue
 &
 aValue
-bool
+PRBool
 &
 aPreventCachingOfSandwich
 )

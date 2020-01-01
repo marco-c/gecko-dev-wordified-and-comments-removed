@@ -178,7 +178,7 @@ aChar
 ;
 }
 NS_COM_GLUE
-bool
+PRBool
 NS_IsUpper
 (
 char
@@ -186,7 +186,7 @@ aChar
 )
 ;
 NS_COM_GLUE
-bool
+PRBool
 NS_IsLower
 (
 char
@@ -194,7 +194,7 @@ aChar
 )
 ;
 NS_COM_GLUE
-bool
+PRBool
 NS_IsAscii
 (
 PRUnichar
@@ -202,7 +202,7 @@ aChar
 )
 ;
 NS_COM_GLUE
-bool
+PRBool
 NS_IsAscii
 (
 const
@@ -212,7 +212,7 @@ aString
 )
 ;
 NS_COM_GLUE
-bool
+PRBool
 NS_IsAsciiAlpha
 (
 PRUnichar
@@ -220,7 +220,7 @@ aChar
 )
 ;
 NS_COM_GLUE
-bool
+PRBool
 NS_IsAsciiDigit
 (
 PRUnichar
@@ -228,7 +228,7 @@ aChar
 )
 ;
 NS_COM_GLUE
-bool
+PRBool
 NS_IsAsciiWhitespace
 (
 PRUnichar
@@ -236,7 +236,7 @@ aChar
 )
 ;
 NS_COM_GLUE
-bool
+PRBool
 NS_IsAscii
 (
 const
@@ -246,7 +246,7 @@ aString
 )
 ;
 NS_COM_GLUE
-bool
+PRBool
 NS_IsAscii
 (
 const

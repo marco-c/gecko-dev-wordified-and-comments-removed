@@ -256,7 +256,7 @@ aY
 ;
 NS_DECL_NSIDOCUMENTOBSERVER
 virtual
-bool
+PRBool
 Init
 (
 )
@@ -375,7 +375,7 @@ nsIEditor
 aEditor
 )
 ;
-bool
+PRBool
 IsContentLoaded
 (
 )
@@ -799,7 +799,7 @@ GetNodeParent
 nsnull
 ;
 }
-bool
+PRBool
 IsDependentID
 (
 const
@@ -1093,14 +1093,6 @@ aContent
 nsIAtom
 *
 aAttribute
-)
-;
-void
-ARIAActiveDescendantChanged
-(
-nsIContent
-*
-aElm
 )
 ;
 void

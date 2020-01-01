@@ -62,10 +62,10 @@ nsString
 h
 "
 static
-bool
+PRBool
 gUnreg
 =
-false
+PR_FALSE
 ;
 void
 print_err

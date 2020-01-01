@@ -598,7 +598,7 @@ nsHttpResponseHead
 &
 responseHead
 const
-bool
+PRBool
 &
 useResponseHead
 const
@@ -606,11 +606,11 @@ RequestHeaderTuples
 &
 requestHeaders
 const
-bool
+PRBool
 &
 isFromCache
 const
-bool
+PRBool
 &
 cacheEntryAvailable
 const
@@ -716,13 +716,13 @@ mResponseHead
 RequestHeaderTuples
 mRequestHeaders
 ;
-bool
+PRPackedBool
 mUseResponseHead
 ;
-bool
+PRPackedBool
 mIsFromCache
 ;
-bool
+PRPackedBool
 mCacheEntryAvailable
 ;
 PRUint32
@@ -753,7 +753,7 @@ nsHttpResponseHead
 &
 responseHead
 const
-bool
+PRBool
 &
 useResponseHead
 const
@@ -761,11 +761,11 @@ RequestHeaderTuples
 &
 requestHeaders
 const
-bool
+PRBool
 &
 isFromCache
 const
-bool
+PRBool
 &
 cacheEntryAvailable
 const
@@ -853,7 +853,7 @@ nsHttpResponseHead
 &
 responseHead
 const
-bool
+PRBool
 &
 useResponseHead
 const
@@ -861,11 +861,11 @@ RequestHeaderTuples
 &
 requestHeaders
 const
-bool
+PRBool
 &
 isFromCache
 const
-bool
+PRBool
 &
 cacheEntryAvailable
 const
@@ -2819,7 +2819,7 @@ Set_Cookie
 )
 )
 ;
-bool
+PRBool
 preserveMethod
 =
 (
@@ -3945,7 +3945,7 @@ const
 nsACString
 &
 aValue
-bool
+PRBool
 aMerge
 )
 {
@@ -4218,7 +4218,7 @@ HttpChannelChild
 :
 IsFromCache
 (
-bool
+PRBool
 *
 value
 )
@@ -4396,7 +4396,7 @@ HttpChannelChild
 :
 GetLoadedFromApplicationCache
 (
-bool
+PRBool
 *
 aLoadedFromApplicationCache
 )
@@ -4416,7 +4416,7 @@ HttpChannelChild
 :
 GetInheritApplicationCache
 (
-bool
+PRBool
 *
 aInherit
 )
@@ -4436,7 +4436,7 @@ HttpChannelChild
 :
 SetInheritApplicationCache
 (
-bool
+PRBool
 aInherit
 )
 {
@@ -4454,7 +4454,7 @@ HttpChannelChild
 :
 GetChooseApplicationCache
 (
-bool
+PRBool
 *
 aChoose
 )
@@ -4474,7 +4474,7 @@ HttpChannelChild
 :
 SetChooseApplicationCache
 (
-bool
+PRBool
 aChoose
 )
 {

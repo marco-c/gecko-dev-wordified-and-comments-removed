@@ -138,7 +138,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 Get
 (
 nsIContent

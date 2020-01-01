@@ -85,7 +85,7 @@ nsMaemoNetworkLinkService
 :
 GetIsLinkUp
 (
-bool
+PRBool
 *
 aIsUp
 )
@@ -110,7 +110,7 @@ nsMaemoNetworkLinkService
 :
 GetLinkStatusKnown
 (
-bool
+PRBool
 *
 aIsKnown
 )

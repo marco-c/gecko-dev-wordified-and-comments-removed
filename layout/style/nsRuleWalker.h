@@ -201,7 +201,7 @@ mCurrent
 mRoot
 ;
 }
-bool
+PRBool
 AtRoot
 (
 )
@@ -218,9 +218,9 @@ SetLevel
 (
 PRUint8
 aLevel
-bool
+PRBool
 aImportance
-bool
+PRBool
 aCheckForImportantRules
 )
 {
@@ -273,7 +273,7 @@ return
 mLevel
 ;
 }
-bool
+PRBool
 GetImportance
 (
 )
@@ -283,7 +283,7 @@ return
 mImportance
 ;
 }
-bool
+PRBool
 GetCheckForImportantRules
 (
 )
@@ -314,10 +314,10 @@ mRoot
 PRUint8
 mLevel
 ;
-bool
+PRPackedBool
 mImportance
 ;
-bool
+PRPackedBool
 mCheckForImportantRules
 ;
 public

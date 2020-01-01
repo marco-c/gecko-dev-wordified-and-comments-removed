@@ -57,7 +57,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMSVGANIMATEDPOINTS
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 IsAttributeMapped
 (
@@ -96,7 +96,7 @@ points
 ;
 }
 virtual
-bool
+PRBool
 AttributeDefinesGeometry
 (
 const
@@ -106,13 +106,13 @@ aName
 )
 ;
 virtual
-bool
+PRBool
 IsMarkable
 (
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 virtual

@@ -186,7 +186,7 @@ aRefreshTime
 )
 const
 ;
-bool
+PRBool
 IsRemovedSentinel
 (
 )
@@ -578,7 +578,7 @@ aRefreshTime
 #
 ifdef
 DEBUG
-bool
+PRBool
 ok
 =
 #
@@ -930,10 +930,10 @@ return
 nsnull
 ;
 }
-bool
+PRBool
 startedAny
 =
-false
+PR_FALSE
 ;
 nsCSSPropertySet
 whichStarted
@@ -1128,7 +1128,7 @@ if
 et
 )
 {
-bool
+PRBool
 checkProperties
 =
 disp
@@ -1593,7 +1593,7 @@ aOldStyleContext
 nsStyleContext
 *
 aNewStyleContext
-bool
+PRBool
 *
 aStartedAny
 nsCSSPropertySet
@@ -1659,7 +1659,7 @@ nsStyleAnimation
 Value
 dummyValue
 ;
-bool
+PRBool
 haveValues
 =
 ExtractComputedValueForTransition
@@ -1681,7 +1681,7 @@ pt
 mEndValue
 )
 ;
-bool
+PRBool
 shouldAnimate
 =
 haveValues
@@ -2365,7 +2365,7 @@ nsCSSPseudoElements
 :
 Type
 aPseudoType
-bool
+PRBool
 aCreateIfNeeded
 )
 {

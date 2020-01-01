@@ -187,7 +187,7 @@ mozilla
 unused
 ;
 static
-bool
+PRBool
 IsChildProcess
 (
 )
@@ -757,7 +757,7 @@ nsPermissionManager
 :
 InitDB
 (
-bool
+PRBool
 aRemoveFile
 )
 {
@@ -809,10 +809,10 @@ if
 aRemoveFile
 )
 {
-bool
+PRBool
 exists
 =
-false
+PR_FALSE
 ;
 rv
 =
@@ -893,7 +893,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 ready
 ;
 mDBConn
@@ -965,10 +965,10 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-bool
+PRBool
 tableExists
 =
-false
+PR_FALSE
 ;
 mDBConn
 -
@@ -2505,7 +2505,7 @@ aType
 PRUint32
 *
 aPermission
-bool
+PRBool
 aExactHostMatch
 )
 {
@@ -2547,7 +2547,7 @@ rv
 )
 )
 {
-bool
+PRBool
 isFile
 ;
 rv
@@ -2659,7 +2659,7 @@ nsAFlatCString
 aHost
 PRUint32
 aType
-bool
+PRBool
 aExactHostMatch
 )
 {
@@ -3169,7 +3169,7 @@ const
 char
 *
 aType
-bool
+PRBool
 aAdd
 )
 {
@@ -3437,7 +3437,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasResult
 ;
 rv
@@ -3515,7 +3515,7 @@ expireType
 PRInt64
 expireTime
 ;
-bool
+PRBool
 hasResult
 ;
 while
@@ -3771,10 +3771,10 @@ PR_TRUE
 nsCAutoString
 buffer
 ;
-bool
+PRBool
 isMore
 =
-true
+PR_TRUE
 ;
 while
 (
@@ -4362,7 +4362,7 @@ rv
 )
 )
 {
-bool
+PRBool
 hasResult
 ;
 rv

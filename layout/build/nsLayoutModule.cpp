@@ -1556,10 +1556,10 @@ NS_OK
 ;
 }
 static
-bool
+PRBool
 gInitialized
 =
-false
+PR_FALSE
 ;
 nsresult
 Initialize

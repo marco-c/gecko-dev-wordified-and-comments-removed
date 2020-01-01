@@ -619,7 +619,7 @@ in
 the
 system
 configuration
-bool
+PRBool
 IsAutoconfigEnabled
 (
 )
@@ -664,7 +664,7 @@ aResultHost
 PRInt32
 &
 aResultPort
-bool
+PRBool
 &
 aResultSocksProxy
 )
@@ -681,7 +681,7 @@ proxy
 exception
 list
 ?
-bool
+PRBool
 IsInExceptionList
 (
 const
@@ -734,7 +734,7 @@ mHost
 CFStringRef
 mPort
 ;
-bool
+PRPackedBool
 mIsSocksProxy
 ;
 }
@@ -1220,7 +1220,7 @@ aResultHost
 PRInt32
 &
 aResultPort
-bool
+PRBool
 &
 aResultSocksProxy
 )
@@ -1268,7 +1268,7 @@ scheme
 when
 appropriate
 )
-bool
+PRBool
 res
 ;
 if
@@ -1480,7 +1480,7 @@ NS_ERROR_FAILURE
 NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
-bool
+PRBool
 nsOSXSystemProxySettings
 :
 :
@@ -1615,7 +1615,7 @@ NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 static
-bool
+PRBool
 IsHostProxyEntry
 (
 const
@@ -1659,10 +1659,10 @@ offset
 =
 0
 ;
-bool
+PRBool
 star
 =
-false
+PR_FALSE
 ;
 while
 (
@@ -1879,7 +1879,7 @@ Length
 )
 ;
 }
-bool
+PRBool
 nsOSXSystemProxySettings
 :
 :
@@ -2106,7 +2106,7 @@ proxyPort
 nsCAutoString
 proxyHost
 ;
-bool
+PRBool
 proxySocks
 ;
 rv

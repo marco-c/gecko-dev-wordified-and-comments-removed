@@ -3914,9 +3914,6 @@ txt
 "
 )
     
-try
-:
-      
 retVal
 =
 self
@@ -3925,12 +3922,6 @@ pullFile
 (
 remoteFile
 )
-    
-except
-:
-      
-return
-None
     
 if
 (

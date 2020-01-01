@@ -519,7 +519,7 @@ this
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSVGFilterElement
 :

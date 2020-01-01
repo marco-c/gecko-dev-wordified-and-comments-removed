@@ -642,10 +642,10 @@ methodName
 PRUnichar
 letter
 ;
-bool
+PRBool
 upperNext
 =
-false
+PR_FALSE
 ;
 while
 (
@@ -1138,7 +1138,7 @@ txParamArrayHolder
 (
 )
 ;
-bool
+PRBool
 Init
 (
 PRUint8
@@ -1315,7 +1315,7 @@ Release
 }
 }
 }
-bool
+PRBool
 txParamArrayHolder
 :
 :
@@ -2411,7 +2411,7 @@ return
 ANY_RESULT
 ;
 }
-bool
+PRBool
 txXPCOMExtensionFunctionCall
 :
 :

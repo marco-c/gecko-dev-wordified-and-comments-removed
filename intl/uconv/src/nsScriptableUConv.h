@@ -55,7 +55,7 @@ nsIUnicodeDecoder
 >
 mDecoder
 ;
-bool
+PRPackedBool
 mIsInternal
 ;
 nsresult

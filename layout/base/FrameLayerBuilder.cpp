@@ -173,7 +173,7 @@ nsIFrame
 >
 mFramesWithLayers
 ;
-bool
+PRPackedBool
 mInvalidateAllLayers
 ;
 nsRefPtr
@@ -470,13 +470,13 @@ mLayer
 nscolor
 mSolidColor
 ;
-bool
+PRPackedBool
 mIsSolidColorInVisibleRegion
 ;
-bool
+PRPackedBool
 mNeedComponentAlpha
 ;
-bool
+PRPackedBool
 mForceTransparentSurface
 ;
 nsDisplayImage
@@ -698,7 +698,7 @@ mNextFreeRecycledColorLayer
 PRUint32
 mNextFreeRecycledImageLayer
 ;
-bool
+PRPackedBool
 mInvalidateAllThebesContent
 ;
 }
@@ -815,7 +815,7 @@ GetDOMGeneration
 ;
 }
 }
-bool
+PRBool
 FrameLayerBuilder
 :
 :
@@ -897,7 +897,7 @@ aFrame
 void
 *
 aPropertyValue
-bool
+PRBool
 aRemoveFromFramesWithLayers
 )
 {
@@ -1598,7 +1598,7 @@ if
 newDisplayItems
 )
 {
-bool
+PRBool
 found
 ;
 void
@@ -1992,7 +1992,7 @@ return
 PL_DHASH_REMOVE
 ;
 }
-bool
+PRBool
 FrameLayerBuilder
 :
 :
@@ -3894,7 +3894,7 @@ data
 mOpaqueRegion
 )
 ;
-bool
+PRBool
 isOpaque
 =
 transparentRegion
@@ -4182,7 +4182,7 @@ lastIndex
 ;
 }
 static
-bool
+PRBool
 SuppressComponentAlpha
 (
 nsDisplayListBuilder
@@ -4311,7 +4311,7 @@ aComponentAlphaBounds
 ;
 }
 static
-bool
+PRBool
 WindowHasTransparency
 (
 nsDisplayListBuilder
@@ -4379,7 +4379,7 @@ aClip
 nscolor
 uniformColor
 ;
-bool
+PRBool
 isUniform
 =
 aItem
@@ -4587,10 +4587,10 @@ mImage
 nsnull
 ;
 }
-bool
+PRBool
 forceTransparentSurface
 =
-false
+PR_FALSE
 ;
 nsRegion
 opaque
@@ -6357,7 +6357,7 @@ INVALIDATE_EXCLUDE_CURRENT_PAINT
 ;
 }
 }
-bool
+PRBool
 FrameLayerBuilder
 :
 :
@@ -8303,7 +8303,7 @@ SimplifyOutward
 ;
 }
 static
-bool
+PRBool
 InternalInvalidateThebesLayersInSubtree
 (
 nsIFrame
@@ -8328,10 +8328,10 @@ NS_FRAME_HAS_CONTAINER_LAYER_DESCENDANT
 return
 PR_FALSE
 ;
-bool
+PRBool
 foundContainerLayer
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -9480,10 +9480,10 @@ aContext
 Clip
 currentClip
 ;
-bool
+PRBool
 setClipRect
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -9680,7 +9680,7 @@ Restore
 ;
 }
 }
-bool
+PRBool
 FrameLayerBuilder
 :
 :

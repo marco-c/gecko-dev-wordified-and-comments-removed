@@ -102,7 +102,7 @@ bufLen
 )
 const
 ;
-bool
+PRBool
 IsDependentOn
 (
 const

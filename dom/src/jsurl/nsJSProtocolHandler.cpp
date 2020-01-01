@@ -438,7 +438,7 @@ NS_OK
 ;
 }
 static
-bool
+PRBool
 IsISO88591
 (
 const
@@ -715,7 +715,7 @@ if
 csp
 )
 {
-bool
+PRBool
 allowsInline
 ;
 rv
@@ -960,7 +960,7 @@ rv
 return
 rv
 ;
-bool
+PRBool
 useSandbox
 =
 (
@@ -1015,7 +1015,7 @@ rv
 return
 rv
 ;
-bool
+PRBool
 subsumes
 ;
 rv
@@ -1049,7 +1049,7 @@ subsumes
 nsString
 result
 ;
-bool
+PRBool
 isUndefined
 ;
 if
@@ -1074,7 +1074,7 @@ ar
 cx
 )
 ;
-bool
+PRBool
 ok
 ;
 rv
@@ -1649,13 +1649,13 @@ mPopupState
 PRUint32
 mExecutionPolicy
 ;
-bool
+PRPackedBool
 mIsAsync
 ;
-bool
+PRPackedBool
 mIsActive
 ;
-bool
+PRPackedBool
 mOpenedStreamChannel
 ;
 }
@@ -1978,7 +1978,7 @@ nsJSChannel
 :
 IsPending
 (
-bool
+PRBool
 *
 aResult
 )
@@ -2742,7 +2742,7 @@ if
 cv
 )
 {
-bool
+PRBool
 okToUnload
 ;
 if
@@ -2969,10 +2969,10 @@ nsLoadFlags
 aLoadFlags
 )
 {
-bool
+PRBool
 bogusLoadBackground
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -2994,10 +2994,10 @@ LOAD_BACKGROUND
 )
 )
 {
-bool
+PRBool
 loadGroupIsBackground
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -3131,7 +3131,7 @@ if
 aLoadGroup
 )
 {
-bool
+PRBool
 streamPending
 ;
 nsresult
@@ -3752,7 +3752,7 @@ nsJSChannel
 :
 SetExecuteAsync
 (
-bool
+PRBool
 aIsAsync
 )
 {
@@ -3791,7 +3791,7 @@ nsJSChannel
 :
 GetExecuteAsync
 (
-bool
+PRBool
 *
 aIsAsync
 )
@@ -4341,7 +4341,7 @@ const
 char
 *
 scheme
-bool
+PRBool
 *
 _retval
 )
@@ -4453,7 +4453,7 @@ rv
 return
 rv
 ;
-bool
+PRBool
 haveBase
 ;
 rv
@@ -4670,7 +4670,7 @@ nsSimpleURI
 :
 RefHandlingEnum
 aRefHandlingMode
-bool
+PRBool
 *
 aResult
 )

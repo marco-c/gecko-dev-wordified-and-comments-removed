@@ -204,13 +204,13 @@ images_decoded
 int
 loop_count
 ;
-bool
+PRPackedBool
 progressive_display
 ;
-bool
+PRPackedBool
 interlaced
 ;
-bool
+PRPackedBool
 is_transparent
 ;
 PRUint16

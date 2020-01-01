@@ -147,7 +147,7 @@ CSSAnonBoxes_info
 )
 ;
 }
-bool
+PRBool
 nsCSSAnonBoxes
 :
 :
@@ -176,7 +176,7 @@ CSSAnonBoxes_info
 #
 ifdef
 MOZ_XUL
-bool
+PRBool
 nsCSSAnonBoxes
 :
 :

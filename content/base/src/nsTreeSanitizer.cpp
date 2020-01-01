@@ -4524,9 +4524,9 @@ nsTreeSanitizer
 :
 nsTreeSanitizer
 (
-bool
+PRBool
 aAllowStyles
-bool
+PRBool
 aAllowComments
 )
 :
@@ -4551,7 +4551,7 @@ InitializeStatics
 ;
 }
 }
-bool
+PRBool
 nsTreeSanitizer
 :
 :
@@ -4625,7 +4625,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsTreeSanitizer
 :
 :
@@ -4678,7 +4678,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsTreeSanitizer
 :
 :
@@ -4852,7 +4852,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsTreeSanitizer
 :
 :
@@ -4872,10 +4872,10 @@ nsAutoString
 aRuleText
 )
 {
-bool
+PRBool
 didSanitize
 =
-false
+PR_FALSE
 ;
 aRuleText
 .
@@ -4936,7 +4936,7 @@ return
 didSanitize
 ;
 }
-bool
+PRBool
 nsTreeSanitizer
 :
 :
@@ -4966,10 +4966,10 @@ Truncate
 (
 )
 ;
-bool
+PRBool
 didSanitize
 =
-false
+PR_FALSE
 ;
 nsRefPtr
 <
@@ -5298,7 +5298,7 @@ rule
 nsAutoString
 decl
 ;
-bool
+PRBool
 sanitized
 =
 SanitizeStyleRule
@@ -5369,11 +5369,11 @@ nsIAtom
 *
 *
 aURLs
-bool
+PRBool
 aAllowXLink
-bool
+PRBool
 aAllowStyle
-bool
+PRBool
 aAllowDangerousSrc
 )
 {
@@ -6021,7 +6021,7 @@ PR_FALSE
 #
 endif
 }
-bool
+PRBool
 nsTreeSanitizer
 :
 :

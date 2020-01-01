@@ -518,10 +518,10 @@ NS_ERROR_MODULE_EDITOR
 ifdef
 NS_DEBUG_EDITOR
 static
-bool
+PRBool
 gNoisy
 =
-false
+PR_FALSE
 ;
 #
 endif
@@ -1374,7 +1374,7 @@ mEventTarget
 nsnull
 ;
 }
-bool
+PRBool
 nsEditor
 :
 :
@@ -1548,7 +1548,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 enable
 ;
 element
@@ -1570,7 +1570,7 @@ nsEditor
 :
 PreDestroy
 (
-bool
+PRBool
 aDestroyingFrames
 )
 {
@@ -1713,7 +1713,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 spellcheckerWasEnabled
 =
 CanEnableSpellCheck
@@ -1819,7 +1819,7 @@ nsEditor
 :
 GetIsSelectionEditable
 (
-bool
+PRBool
 *
 aIsSelectionEditable
 )
@@ -1896,7 +1896,7 @@ nsEditor
 :
 GetIsDocumentEditable
 (
-bool
+PRBool
 *
 aIsDocumentEditable
 )
@@ -2585,7 +2585,7 @@ nsEditor
 :
 EnableUndo
 (
-bool
+PRBool
 aEnable
 )
 {
@@ -2789,11 +2789,11 @@ ForceCompositionEnd
 (
 )
 ;
-bool
+PRBool
 hasTxnMgr
 hasTransaction
 =
-false
+PR_FALSE
 ;
 CanUndo
 (
@@ -2896,10 +2896,10 @@ nsEditor
 :
 CanUndo
 (
-bool
+PRBool
 *
 aIsEnabled
-bool
+PRBool
 *
 aCanUndo
 )
@@ -2918,7 +2918,7 @@ aIsEnabled
 =
 (
 (
-bool
+PRBool
 )
 (
 (
@@ -2961,7 +2961,7 @@ aCanUndo
 =
 (
 (
-bool
+PRBool
 )
 (
 0
@@ -3032,11 +3032,11 @@ result
 =
 NS_OK
 ;
-bool
+PRBool
 hasTxnMgr
 hasTransaction
 =
-false
+PR_FALSE
 ;
 CanRedo
 (
@@ -3139,10 +3139,10 @@ nsEditor
 :
 CanRedo
 (
-bool
+PRBool
 *
 aIsEnabled
-bool
+PRBool
 *
 aCanRedo
 )
@@ -3161,7 +3161,7 @@ aIsEnabled
 =
 (
 (
-bool
+PRBool
 )
 (
 (
@@ -3204,7 +3204,7 @@ aCanRedo
 =
 (
 (
-bool
+PRBool
 )
 (
 0
@@ -3612,7 +3612,7 @@ nsEditor
 :
 ShouldTxnSetSelection
 (
-bool
+PRBool
 *
 aResult
 )
@@ -3638,7 +3638,7 @@ nsEditor
 :
 SetShouldTxnSetSelection
 (
-bool
+PRBool
 aShould
 )
 {
@@ -3656,7 +3656,7 @@ nsEditor
 :
 GetDocumentIsEmpty
 (
-bool
+PRBool
 *
 aDocumentIsEmpty
 )
@@ -3680,7 +3680,7 @@ rootElement
 NS_ERROR_NULL_POINTER
 )
 ;
-bool
+PRBool
 hasChildNodes
 ;
 nsresult
@@ -4164,7 +4164,7 @@ nsEditor
 :
 GetDocumentModified
 (
-bool
+PRBool
 *
 outDocModified
 )
@@ -4300,7 +4300,7 @@ nsEditor
 :
 CanCut
 (
-bool
+PRBool
 *
 aCanCut
 )
@@ -4327,7 +4327,7 @@ nsEditor
 :
 CanCopy
 (
-bool
+PRBool
 *
 aCanCut
 )
@@ -4373,7 +4373,7 @@ CanPaste
 (
 PRInt32
 aSelectionType
-bool
+PRBool
 *
 aCanPaste
 )
@@ -4391,7 +4391,7 @@ CanPasteTransferable
 nsITransferable
 *
 aTransferable
-bool
+PRBool
 *
 aCanPaste
 )
@@ -4409,7 +4409,7 @@ CanDrag
 nsIDOMEvent
 *
 aEvent
-bool
+PRBool
 *
 aCanDrag
 )
@@ -4523,7 +4523,7 @@ aAttribute
 nsAString
 &
 aResultValue
-bool
+PRBool
 *
 aResultIsSet
 )
@@ -4711,7 +4711,7 @@ nsEditor
 :
 GetInlineSpellChecker
 (
-bool
+PRBool
 autoCreate
 nsIInlineSpellChecker
 *
@@ -4742,7 +4742,7 @@ NS_ERROR_NOT_AVAILABLE
 NS_OK
 ;
 }
-bool
+PRBool
 canSpell
 =
 mozInlineSpellChecker
@@ -4936,7 +4936,7 @@ SyncRealTimeSpell
 {
 NS_TIME_FUNCTION
 ;
-bool
+PRBool
 enable
 =
 GetDesiredSpellCheckState
@@ -4985,7 +4985,7 @@ nsEditor
 :
 SetSpellcheckUserOverride
 (
-bool
+PRBool
 enable
 )
 {
@@ -5877,7 +5877,7 @@ const
 nsAString
 *
 aValue
-bool
+PRBool
 aCloneAttributes
 )
 {
@@ -6051,7 +6051,7 @@ nsIDOMNode
 >
 child
 ;
-bool
+PRBool
 bHasMoreChildren
 ;
 inNode
@@ -6189,7 +6189,7 @@ res
 res
 )
 ;
-bool
+PRBool
 bHasMoreChildren
 ;
 inNode
@@ -7169,7 +7169,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsEditor
 :
 :
@@ -7874,7 +7874,7 @@ nsEditor
 :
 GetComposing
 (
-bool
+PRBool
 *
 aResult
 )
@@ -8041,7 +8041,7 @@ NS_ERROR_NO_INTERFACE
 nsAutoString
 attrValue
 ;
-bool
+PRBool
 isAttrSet
 ;
 nsresult
@@ -8205,10 +8205,10 @@ rootElement
 NS_ERROR_NULL_POINTER
 )
 ;
-bool
+PRBool
 destInBody
 =
-true
+PR_TRUE
 ;
 nsCOMPtr
 <
@@ -8566,7 +8566,7 @@ nsEditor
 :
 ScrollSelectionIntoView
 (
-bool
+PRBool
 aScrollToAnchor
 )
 {
@@ -9367,7 +9367,7 @@ nsIDOMCharacterData
 aTextNode
 PRInt32
 aOffset
-bool
+PRBool
 aSuppressIME
 )
 {
@@ -9382,10 +9382,10 @@ result
 =
 NS_OK
 ;
-bool
+PRBool
 isIMETransaction
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -10182,7 +10182,7 @@ case
 eDocumentStateChanged
 :
 {
-bool
+PRBool
 docIsDirty
 ;
 rv
@@ -11321,7 +11321,7 @@ aNodeToJoin
 nsIDOMNode
 *
 aParent
-bool
+PRBool
 aNodeToKeepIsFirst
 )
 {
@@ -12032,10 +12032,10 @@ if
 selStartNode
 )
 {
-bool
+PRBool
 bNeedToAdjust
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -12432,7 +12432,7 @@ aCount
 }
 else
 {
-bool
+PRBool
 hasChildNodes
 ;
 aNode
@@ -12506,7 +12506,7 @@ nsIDOMNode
 aParentNode
 PRInt32
 aOffset
-bool
+PRBool
 aEditableNode
 nsCOMPtr
 <
@@ -12514,7 +12514,7 @@ nsIDOMNode
 >
 *
 aResultNode
-bool
+PRBool
 bNoBlockCrossing
 )
 {
@@ -12661,7 +12661,7 @@ nsIDOMNode
 aParentNode
 PRInt32
 aOffset
-bool
+PRBool
 aEditableNode
 nsCOMPtr
 <
@@ -12669,7 +12669,7 @@ nsIDOMNode
 >
 *
 aResultNode
-bool
+PRBool
 bNoBlockCrossing
 )
 {
@@ -12881,7 +12881,7 @@ GetPriorNode
 nsIDOMNode
 *
 aCurrentNode
-bool
+PRBool
 aEditableNode
 nsCOMPtr
 <
@@ -12889,7 +12889,7 @@ nsIDOMNode
 >
 *
 aResultNode
-bool
+PRBool
 bNoBlockCrossing
 )
 {
@@ -13022,7 +13022,7 @@ GetPriorNodeImpl
 nsIDOMNode
 *
 aCurrentNode
-bool
+PRBool
 aEditableNode
 nsCOMPtr
 <
@@ -13030,7 +13030,7 @@ nsIDOMNode
 >
 *
 aResultNode
-bool
+PRBool
 bNoBlockCrossing
 )
 {
@@ -13334,7 +13334,7 @@ GetNextNode
 nsIDOMNode
 *
 aCurrentNode
-bool
+PRBool
 aEditableNode
 nsCOMPtr
 <
@@ -13342,7 +13342,7 @@ nsIDOMNode
 >
 *
 aResultNode
-bool
+PRBool
 bNoBlockCrossing
 )
 {
@@ -13478,7 +13478,7 @@ GetNextNodeImpl
 nsIDOMNode
 *
 aCurrentNode
-bool
+PRBool
 aEditableNode
 nsCOMPtr
 <
@@ -13486,7 +13486,7 @@ nsIDOMNode
 >
 *
 aResultNode
-bool
+PRBool
 bNoBlockCrossing
 )
 {
@@ -13789,7 +13789,7 @@ GetRightmostChild
 nsIDOMNode
 *
 aCurrentNode
-bool
+PRBool
 bNoBlockCrossing
 )
 {
@@ -13808,7 +13808,7 @@ temp
 =
 aCurrentNode
 ;
-bool
+PRBool
 hasChildren
 ;
 aCurrentNode
@@ -13902,7 +13902,7 @@ GetLeftmostChild
 nsIDOMNode
 *
 aCurrentNode
-bool
+PRBool
 bNoBlockCrossing
 )
 {
@@ -13921,7 +13921,7 @@ temp
 =
 aCurrentNode
 ;
-bool
+PRBool
 hasChildren
 ;
 aCurrentNode
@@ -14003,7 +14003,7 @@ forget
 )
 ;
 }
-bool
+PRBool
 nsEditor
 :
 :
@@ -14018,7 +14018,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsEditor
 :
 :
@@ -14069,7 +14069,7 @@ aChildTag
 )
 ;
 }
-bool
+PRBool
 nsEditor
 :
 :
@@ -14142,7 +14142,7 @@ childStringTag
 )
 ;
 }
-bool
+PRBool
 nsEditor
 :
 :
@@ -14162,7 +14162,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsEditor
 :
 :
@@ -14205,7 +14205,7 @@ inNode
 rootNode
 ;
 }
-bool
+PRBool
 nsEditor
 :
 :
@@ -14310,7 +14310,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsEditor
 :
 :
@@ -14329,7 +14329,7 @@ PR_TRUE
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsEditor
 :
 :
@@ -14344,7 +14344,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsEditor
 :
 :
@@ -14516,7 +14516,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsEditor
 :
 :
@@ -14587,7 +14587,7 @@ res
 =
 NS_OK
 ;
-bool
+PRBool
 hasChildNodes
 ;
 aNode
@@ -14824,7 +14824,7 @@ ResetModificationCount
 (
 )
 {
-bool
+PRBool
 doNotify
 =
 (
@@ -14981,7 +14981,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsEditor
 :
 :
@@ -15038,7 +15038,7 @@ aNode2
 )
 ;
 }
-bool
+PRBool
 nsEditor
 :
 :
@@ -15109,7 +15109,7 @@ TEXT_NODE
 )
 ;
 }
-bool
+PRBool
 nsEditor
 :
 :
@@ -15716,7 +15716,7 @@ IsPreformatted
 nsIDOMNode
 *
 aNode
-bool
+PRBool
 *
 aResult
 )
@@ -15873,7 +15873,7 @@ aSplitPointOffset
 PRInt32
 *
 outOffset
-bool
+PRBool
 aNoEmptyContainers
 nsCOMPtr
 <
@@ -15964,10 +15964,10 @@ nodeToSplit
 PRUint32
 len
 ;
-bool
+PRBool
 bDoSplit
 =
-false
+PR_FALSE
 ;
 res
 =
@@ -16747,7 +16747,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsEditor
 :
 :
@@ -17363,7 +17363,7 @@ break
 return
 ;
 }
-bool
+PRBool
 nsEditor
 :
 :
@@ -17425,7 +17425,7 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-bool
+PRBool
 collapsed
 ;
 result
@@ -17517,10 +17517,10 @@ if
 selectedNode
 )
 {
-bool
+PRBool
 testCollapsed
 =
-false
+PR_FALSE
 ;
 selection
 -
@@ -17802,7 +17802,7 @@ rv
 =
 NS_OK
 ;
-bool
+PRBool
 isTransientTransaction
 ;
 rv
@@ -18554,7 +18554,7 @@ result
 selection
 )
 {
-bool
+PRBool
 isCollapsed
 ;
 result
@@ -19144,7 +19144,7 @@ count
 )
 ;
 }
-bool
+PRBool
 isFirst
 =
 (
@@ -19154,7 +19154,7 @@ isFirst
 offset
 )
 ;
-bool
+PRBool
 isLast
 =
 (
@@ -20362,7 +20362,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aSuppressTransaction
 )
 {
@@ -20388,7 +20388,7 @@ const
 nsAString
 &
 aAttribute
-bool
+PRBool
 aSuppressTransaction
 )
 {
@@ -20776,7 +20776,7 @@ do_QueryInterface
 aFocusEventTarget
 )
 ;
-bool
+PRBool
 isTargetDoc
 =
 targetNode
@@ -21811,7 +21811,7 @@ get
 }
 #
 endif
-bool
+PRBool
 nsEditor
 :
 :
@@ -21972,7 +21972,7 @@ forget
 nsnull
 ;
 }
-bool
+PRBool
 nsEditor
 :
 :
@@ -22070,7 +22070,7 @@ piTarget
 )
 ;
 }
-bool
+PRBool
 nsEditor
 :
 :
@@ -22098,7 +22098,7 @@ NSEvent
 PR_FALSE
 )
 ;
-bool
+PRBool
 isTrusted
 ;
 nsresult
@@ -22140,7 +22140,7 @@ nsEditor
 :
 GetLastKeypressEventTrusted
 (
-bool
+PRBool
 *
 aWasTrusted
 )
@@ -22210,10 +22210,10 @@ if
 aEvent
 )
 {
-bool
+PRBool
 isTrusted
 =
-false
+PR_FALSE
 ;
 aEvent
 -

@@ -543,7 +543,7 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 nsFileUploadContentStream
 (
-bool
+PRBool
 nonBlocking
 nsIOutputStream
 *
@@ -578,7 +578,7 @@ sink
 )
 {
 }
-bool
+PRBool
 IsInitialized
 (
 )
@@ -858,7 +858,7 @@ nsCString
 contentType
 )
 {
-bool
+PRBool
 isDir
 ;
 nsresult
@@ -1014,7 +1014,7 @@ nsFileChannel
 :
 OpenContentStream
 (
-bool
+PRBool
 async
 nsIInputStream
 *

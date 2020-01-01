@@ -3542,10 +3542,10 @@ urlFactory
 =
 URL_FACTORY_DEFAULT
 ;
-bool
+PRBool
 bMakeAbs
 =
-false
+PR_FALSE
 ;
 char
 *

@@ -781,7 +781,7 @@ nsStandaloneNativeMenu
 :
 MenuWillOpen
 (
-bool
+PRBool
 *
 aResult
 )
@@ -835,7 +835,7 @@ mMenu
 *
 aResult
 =
-true
+PR_TRUE
 ;
 return
 NS_OK

@@ -1937,7 +1937,7 @@ C
 flags
 )
 )
-bool
+PRBool
 NS_EscapeURL
 (
 const
@@ -2000,7 +2000,7 @@ strlen
 part
 )
 ;
-bool
+PRBool
 forced
 =
 !
@@ -2011,7 +2011,7 @@ flags
 esc_Forced
 )
 ;
-bool
+PRBool
 ignoreNonAscii
 =
 !
@@ -2022,7 +2022,7 @@ flags
 esc_OnlyASCII
 )
 ;
-bool
+PRBool
 ignoreAscii
 =
 !
@@ -2033,7 +2033,7 @@ flags
 esc_OnlyNonASCII
 )
 ;
-bool
+PRBool
 writing
 =
 !
@@ -2044,7 +2044,7 @@ flags
 esc_AlwaysCopy
 )
 ;
-bool
+PRBool
 colon
 =
 !
@@ -2082,10 +2082,10 @@ tempBufferPos
 =
 0
 ;
-bool
+PRBool
 previousIsNonASCII
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -2358,7 +2358,7 @@ hexChars
 -
 1
 )
-bool
+PRBool
 NS_UnescapeURL
 (
 const
@@ -2405,7 +2405,7 @@ strlen
 str
 )
 ;
-bool
+PRBool
 ignoreNonAscii
 =
 !
@@ -2416,7 +2416,7 @@ flags
 esc_OnlyASCII
 )
 ;
-bool
+PRBool
 ignoreAscii
 =
 !
@@ -2427,7 +2427,7 @@ flags
 esc_OnlyNonASCII
 )
 ;
-bool
+PRBool
 writing
 =
 !
@@ -2438,7 +2438,7 @@ flags
 esc_AlwaysCopy
 )
 ;
-bool
+PRBool
 skipControl
 =
 !

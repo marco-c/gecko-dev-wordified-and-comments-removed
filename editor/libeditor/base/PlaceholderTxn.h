@@ -100,7 +100,7 @@ Merge
 nsITransaction
 *
 aTransaction
-bool
+PRBool
 *
 aDidMerge
 )
@@ -134,7 +134,7 @@ StartSelectionEquals
 nsSelectionState
 *
 aSelState
-bool
+PRBool
 *
 aResult
 )
@@ -164,7 +164,7 @@ RememberEndingSelection
 ;
 protected
 :
-bool
+PRBool
 mAbsorb
 ;
 nsWeakPtr
@@ -174,7 +174,7 @@ IMETextTxn
 *
 mIMETextTxn
 ;
-bool
+PRBool
 mCommitted
 ;
 nsAutoPtr

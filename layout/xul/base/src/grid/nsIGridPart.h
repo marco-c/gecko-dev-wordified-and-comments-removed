@@ -171,7 +171,7 @@ GetTotalMargin
 nsIBox
 *
 aBox
-bool
+PRBool
 aIsHorizontal
 )
 =
@@ -203,7 +203,7 @@ GetType
 =
 0
 ;
-bool
+PRBool
 CanContain
 (
 nsIGridPart

@@ -112,10 +112,10 @@ mHost
 PRInt64
 mExpireTime
 ;
-bool
+PRPackedBool
 mDeleted
 ;
-bool
+PRPackedBool
 mIncludeSubdomains
 ;
 typedef
@@ -144,7 +144,7 @@ get
 )
 ;
 }
-bool
+PRBool
 KeyEquals
 (
 KeyTypePointer
@@ -251,7 +251,7 @@ nsIURI
 aSourceURI
 PRInt64
 maxage
-bool
+PRBool
 includeSubdomains
 )
 ;
@@ -310,7 +310,7 @@ aType
 PRUint32
 *
 aPermission
-bool
+PRBool
 testExact
 )
 ;
@@ -326,7 +326,7 @@ nsIObserverService
 >
 mObserverService
 ;
-bool
+PRBool
 mInPrivateMode
 ;
 nsTHashtable

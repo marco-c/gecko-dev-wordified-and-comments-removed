@@ -33,7 +33,7 @@ txXPathTreeWalker
 .
 h
 "
-bool
+PRBool
 RelationalExpr
 :
 :
@@ -399,7 +399,7 @@ mOp
 NOT_EQUAL
 )
 {
-bool
+PRBool
 result
 ;
 const
@@ -849,7 +849,7 @@ BOOLEAN_RESULT
 mLeftExpr
 mRightExpr
 )
-bool
+PRBool
 RelationalExpr
 :
 :

@@ -511,7 +511,7 @@ nsICollation
 gCollation
 ;
 static
-bool
+PRBool
 gDisableXULCache
 ;
 static

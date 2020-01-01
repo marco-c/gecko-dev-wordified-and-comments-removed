@@ -94,7 +94,7 @@ template
 class
 Alloc
 >
-bool
+PRBool
 nsTArray_base
 <
 Alloc
@@ -845,7 +845,7 @@ template
 class
 Alloc
 >
-bool
+PRBool
 nsTArray_base
 <
 Alloc
@@ -1032,7 +1032,7 @@ template
 class
 Allocator
 >
-bool
+PRBool
 nsTArray_base
 <
 Alloc
@@ -1453,7 +1453,7 @@ template
 class
 Alloc
 >
-bool
+PRBool
 nsTArray_base
 <
 Alloc

@@ -787,7 +787,7 @@ nsDragService
 :
 EndDragSession
 (
-bool
+PRBool
 aDoneDrag
 )
 {

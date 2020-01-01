@@ -77,8 +77,8 @@ nsCSSValuePairList
 struct
 nsCSSRect
 ;
-class
-gfx3DMatrix
+struct
+gfxMatrix
 ;
 namespace
 mozilla
@@ -100,7 +100,7 @@ class
 Value
 ;
 static
-bool
+PRBool
 Add
 (
 nsCSSProperty
@@ -131,7 +131,7 @@ aDest
 ;
 }
 static
-bool
+PRBool
 ComputeDistance
 (
 nsCSSProperty
@@ -150,7 +150,7 @@ aDistance
 )
 ;
 static
-bool
+PRBool
 Interpolate
 (
 nsCSSProperty
@@ -187,7 +187,7 @@ aResultValue
 ;
 }
 static
-bool
+PRBool
 AddWeighted
 (
 nsCSSProperty
@@ -210,7 +210,7 @@ aResultValue
 )
 ;
 static
-bool
+PRBool
 ComputeValue
 (
 nsCSSProperty
@@ -228,12 +228,12 @@ const
 nsAString
 &
 aSpecifiedValue
-bool
+PRBool
 aUseSVGMode
 Value
 &
 aComputedValue
-bool
+PRBool
 *
 aIsContextSensitive
 =
@@ -241,7 +241,7 @@ nsnull
 )
 ;
 static
-bool
+PRBool
 UncomputeValue
 (
 nsCSSProperty
@@ -259,7 +259,7 @@ aSpecifiedValue
 )
 ;
 static
-bool
+PRBool
 UncomputeValue
 (
 nsCSSProperty
@@ -277,7 +277,7 @@ aSpecifiedValue
 )
 ;
 static
-bool
+PRBool
 ExtractComputedValue
 (
 nsCSSProperty
@@ -291,19 +291,21 @@ aComputedValue
 )
 ;
 static
-gfx3DMatrix
+gfxMatrix
 InterpolateTransformMatrix
 (
 const
-gfx3DMatrix
+gfxMatrix
 &
 aMatrix1
+double
+aCoeff1
 const
-gfx3DMatrix
+gfxMatrix
 &
 aMatrix2
 double
-aProgress
+aCoeff2
 )
 ;
 enum
@@ -407,7 +409,7 @@ return
 mUnit
 ;
 }
-bool
+PRBool
 IsNull
 (
 )
@@ -1044,7 +1046,7 @@ Value
 aOther
 )
 ;
-bool
+PRBool
 operator
 =
 =
@@ -1056,7 +1058,7 @@ aOther
 )
 const
 ;
-bool
+PRBool
 operator
 !
 =
@@ -1114,7 +1116,7 @@ Data
 ;
 }
 static
-bool
+PRBool
 IsIntUnit
 (
 Unit
@@ -1141,7 +1143,7 @@ eUnit_Integer
 ;
 }
 static
-bool
+PRBool
 IsCSSValueUnit
 (
 Unit
@@ -1156,7 +1158,7 @@ eUnit_Calc
 ;
 }
 static
-bool
+PRBool
 IsCSSValuePairUnit
 (
 Unit
@@ -1171,7 +1173,7 @@ eUnit_CSSValuePair
 ;
 }
 static
-bool
+PRBool
 IsCSSValueTripletUnit
 (
 Unit
@@ -1186,7 +1188,7 @@ eUnit_CSSValueTriplet
 ;
 }
 static
-bool
+PRBool
 IsCSSRectUnit
 (
 Unit
@@ -1201,7 +1203,7 @@ eUnit_CSSRect
 ;
 }
 static
-bool
+PRBool
 IsCSSValueListUnit
 (
 Unit
@@ -1228,7 +1230,7 @@ eUnit_Transform
 ;
 }
 static
-bool
+PRBool
 IsCSSValuePairListUnit
 (
 Unit
@@ -1243,7 +1245,7 @@ eUnit_CSSValuePairList
 ;
 }
 static
-bool
+PRBool
 IsStringUnit
 (
 Unit

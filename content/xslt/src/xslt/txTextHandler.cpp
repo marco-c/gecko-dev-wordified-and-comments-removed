@@ -94,7 +94,7 @@ const
 nsSubstring
 &
 aData
-bool
+PRBool
 aDOE
 )
 {

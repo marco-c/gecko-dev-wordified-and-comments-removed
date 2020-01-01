@@ -384,7 +384,7 @@ InputStream
 &
 uploadStream
 const
-bool
+PRBool
 &
 uploadStreamHasHeaders
 const
@@ -396,11 +396,11 @@ PRUint8
 &
 redirectionLimit
 const
-bool
+PRBool
 &
 allowPipelining
 const
-bool
+PRBool
 &
 forceAllowThirdPartyCookie
 const
@@ -817,7 +817,7 @@ do_GetService
 NS_APPLICATIONCACHESERVICE_CONTRACTID
 )
 ;
-bool
+PRBool
 setChooseApplicationCache
 =
 chooseApplicationCache
@@ -1564,7 +1564,7 @@ GetRequestHead
 (
 )
 ;
-bool
+PRBool
 isFromCache
 =
 false
@@ -1606,7 +1606,7 @@ GetCacheTokenCachedCharset
 cachedCharset
 )
 ;
-bool
+PRBool
 loadedFromApplicationCache
 ;
 chan
@@ -2291,7 +2291,7 @@ HttpChannelParent
 :
 CompleteRedirect
 (
-bool
+PRBool
 succeeded
 )
 {

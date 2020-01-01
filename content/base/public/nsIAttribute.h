@@ -116,7 +116,7 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-bool
+PRBool
 aNsAware
 )
 :
@@ -140,7 +140,7 @@ nsDOMAttributeMap
 *
 mAttrMap
 ;
-bool
+PRBool
 mNsAware
 ;
 }

@@ -91,7 +91,7 @@ range
 ;
 }
 virtual
-bool
+PRBool
 InitTextFrame
 (
 nsGenConList
@@ -105,7 +105,7 @@ nsIFrame
 aTextFrame
 )
 ;
-bool
+PRBool
 IsOpenQuote
 (
 )
@@ -123,7 +123,7 @@ mType
 eStyleContentType_NoOpenQuote
 ;
 }
-bool
+PRBool
 IsCloseQuote
 (
 )
@@ -135,7 +135,7 @@ IsOpenQuote
 )
 ;
 }
-bool
+PRBool
 IsRealQuote
 (
 )

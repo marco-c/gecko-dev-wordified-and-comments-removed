@@ -113,7 +113,7 @@ Services
 h
 "
 static
-bool
+PRBool
 sInited
 =
 0

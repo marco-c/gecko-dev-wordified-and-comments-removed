@@ -338,7 +338,7 @@ mNext
 ;
 }
 }
-bool
+PRBool
 nsIntervalSet
 :
 :
@@ -396,7 +396,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsIntervalSet
 :
 :

@@ -173,7 +173,7 @@ treeArrayElStr
 nsString
 orgName
 ;
-bool
+PRBool
 open
 ;
 PRInt32
@@ -248,7 +248,7 @@ PR_FALSE
 }
 PR_STATIC_CALLBACK
 (
-bool
+PRBool
 )
 CompareCacheMatchEntry
 (
@@ -295,7 +295,7 @@ key
 }
 PR_STATIC_CALLBACK
 (
-bool
+PRBool
 )
 CompareCacheInitEntry
 (
@@ -2088,7 +2088,7 @@ node
 )
 )
 {
-bool
+PRBool
 wantThisCert
 =
 (
@@ -2101,20 +2101,20 @@ nsIX509Cert2
 ANY_CERT
 )
 ;
-bool
+PRBool
 wantThisCertIfNoOverrides
 =
-false
+PR_FALSE
 ;
-bool
+PRBool
 wantThisCertIfHaveOverrides
 =
-false
+PR_FALSE
 ;
-bool
+PRBool
 addOverrides
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -3518,10 +3518,10 @@ mAddonInfo
 mCert
 ;
 }
-bool
+PRBool
 canRemoveEntry
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -3886,7 +3886,7 @@ IsHostPortOverride
 (
 PRUint32
 aIndex
-bool
+PRBool
 *
 _retval
 )
@@ -4119,7 +4119,7 @@ IsContainer
 (
 PRInt32
 index
-bool
+PRBool
 *
 _retval
 )
@@ -4172,7 +4172,7 @@ IsContainerOpen
 (
 PRInt32
 index
-bool
+PRBool
 *
 _retval
 )
@@ -4231,7 +4231,7 @@ IsContainerEmpty
 (
 PRInt32
 index
-bool
+PRBool
 *
 _retval
 )
@@ -4254,7 +4254,7 @@ IsSeparator
 (
 PRInt32
 index
-bool
+PRBool
 *
 _retval
 )
@@ -4384,7 +4384,7 @@ PRInt32
 rowIndex
 PRInt32
 afterIndex
-bool
+PRBool
 *
 _retval
 )
@@ -5970,7 +5970,7 @@ row
 nsITreeColumn
 *
 col
-bool
+PRBool
 *
 _retval
 )
@@ -5995,7 +5995,7 @@ row
 nsITreeColumn
 *
 col
-bool
+PRBool
 *
 _retval
 )
@@ -6385,7 +6385,7 @@ orientation
 nsIDOMDataTransfer
 *
 aDataTransfer
-bool
+PRBool
 *
 _retval
 )
@@ -6429,7 +6429,7 @@ nsCertTree
 :
 IsSorted
 (
-bool
+PRBool
 *
 _retval
 )

@@ -84,7 +84,7 @@ nsSMILValue
 aVal
 )
 ;
-bool
+PRBool
 operator
 =
 =
@@ -96,7 +96,7 @@ aVal
 )
 const
 ;
-bool
+PRBool
 operator
 !
 =
@@ -119,7 +119,7 @@ aVal
 )
 ;
 }
-bool
+PRBool
 IsNull
 (
 )
@@ -198,7 +198,7 @@ const
 ;
 union
 {
-bool
+PRBool
 mBool
 ;
 PRUint64

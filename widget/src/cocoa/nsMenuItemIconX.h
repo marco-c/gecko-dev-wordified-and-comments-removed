@@ -120,10 +120,10 @@ mMenuObject
 nsIntRect
 mImageRegionRect
 ;
-bool
+PRPackedBool
 mLoadedIcon
 ;
-bool
+PRPackedBool
 mSetIcon
 ;
 NSMenuItem

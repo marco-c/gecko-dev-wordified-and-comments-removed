@@ -90,7 +90,7 @@ nsAccessibleWrap
 )
 ;
 virtual
-bool
+PRBool
 Init
 (
 )
@@ -131,7 +131,7 @@ AccEvent
 aEvent
 )
 ;
-bool
+PRBool
 IsIgnored
 (
 )
@@ -139,11 +139,11 @@ IsIgnored
 PRInt32
 GetUnignoredChildCount
 (
-bool
+PRBool
 aDeepCount
 )
 ;
-bool
+PRBool
 HasPopup
 (
 )
@@ -201,7 +201,7 @@ AccEvent
 aEvent
 )
 ;
-bool
+PRBool
 AncestorIsFlat
 (
 )

@@ -534,7 +534,7 @@ Merge
 nsITransaction
 *
 aTransaction
-bool
+PRBool
 *
 aDidMerge
 )
@@ -1338,10 +1338,10 @@ nsIPrivateTextRange
 >
 textRange
 ;
-bool
+PRBool
 setCaret
 =
-false
+PR_FALSE
 ;
 for
 (

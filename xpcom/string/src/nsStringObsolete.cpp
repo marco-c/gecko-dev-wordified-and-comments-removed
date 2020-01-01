@@ -745,7 +745,7 @@ char
 aStr2
 PRUint32
 aCount
-bool
+PRBool
 aIgnoreCase
 )
 {
@@ -936,7 +936,7 @@ char
 aStr2
 PRUint32
 aCount
-bool
+PRBool
 aIgnoreCase
 )
 {
@@ -1128,7 +1128,7 @@ PRUnichar
 aStr2
 PRUint32
 aCount
-bool
+PRBool
 aIgnoreCase
 )
 {
@@ -1798,7 +1798,7 @@ char
 b
 PRUint32
 max
-bool
+PRBool
 ic
 )
 {
@@ -1826,7 +1826,7 @@ PRUnichar
 b
 PRUint32
 max
-bool
+PRBool
 ic
 )
 {
@@ -1988,7 +1988,7 @@ PRUnichar
 b
 PRUint32
 max
-bool
+PRBool
 ic
 )
 {
@@ -2029,7 +2029,7 @@ char
 b
 PRUint32
 max
-bool
+PRBool
 ic
 )
 {
@@ -2229,7 +2229,7 @@ R
 little
 PRUint32
 littleLen
-bool
+PRBool
 ignoreCase
 )
 {
@@ -2327,7 +2327,7 @@ R
 little
 PRUint32
 littleLen
-bool
+PRBool
 ignoreCase
 )
 {
@@ -3178,7 +3178,7 @@ const
 char
 *
 aString
-bool
+PRBool
 aIgnoreCase
 PRInt32
 aCount
@@ -3304,7 +3304,7 @@ return
 result
 ;
 }
-bool
+PRBool
 nsString
 :
 :

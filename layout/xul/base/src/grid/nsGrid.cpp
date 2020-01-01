@@ -540,7 +540,7 @@ if
 rowGroup
 )
 {
-bool
+PRBool
 isHorizontal
 =
 !
@@ -673,7 +673,7 @@ nsGridRow
 *
 *
 aRows
-bool
+PRBool
 aIsHorizontal
 )
 {
@@ -992,7 +992,7 @@ PRInt32
 aRowCount
 PRInt32
 aColumnCount
-bool
+PRBool
 aIsHorizontal
 )
 {
@@ -1217,7 +1217,7 @@ GetColumnAt
 (
 PRInt32
 aIndex
-bool
+PRBool
 aIsHorizontal
 )
 {
@@ -1239,7 +1239,7 @@ GetRowAt
 (
 PRInt32
 aIndex
-bool
+PRBool
 aIsHorizontal
 )
 {
@@ -1382,7 +1382,7 @@ nsGrid
 :
 GetExtraColumnCount
 (
-bool
+PRBool
 aIsHorizontal
 )
 {
@@ -1400,7 +1400,7 @@ nsGrid
 :
 GetExtraRowCount
 (
-bool
+PRBool
 aIsHorizontal
 )
 {
@@ -1431,7 +1431,7 @@ nsBoxLayoutState
 aState
 PRInt32
 aRowIndex
-bool
+PRBool
 aIsHorizontal
 )
 {
@@ -1495,7 +1495,7 @@ nsBoxLayoutState
 aState
 PRInt32
 aRowIndex
-bool
+PRBool
 aIsHorizontal
 )
 {
@@ -1559,7 +1559,7 @@ nsBoxLayoutState
 aState
 PRInt32
 aRowIndex
-bool
+PRBool
 aIsHorizontal
 )
 {
@@ -1665,7 +1665,7 @@ GetBoxTotalMargin
 nsIBox
 *
 aBox
-bool
+PRBool
 aIsHorizontal
 )
 {
@@ -1729,7 +1729,7 @@ nsGridRow
 *
 &
 aLastRow
-bool
+PRBool
 aIsHorizontal
 )
 {
@@ -1890,7 +1890,7 @@ aTop
 nscoord
 &
 aBottom
-bool
+PRBool
 aIsHorizontal
 )
 {
@@ -2489,7 +2489,7 @@ nsBoxLayoutState
 aState
 PRInt32
 aIndex
-bool
+PRBool
 aIsHorizontal
 )
 {
@@ -2549,7 +2549,7 @@ if
 box
 )
 {
-bool
+PRBool
 widthSet
 heightSet
 ;
@@ -2809,7 +2809,7 @@ nsBoxLayoutState
 aState
 PRInt32
 aIndex
-bool
+PRBool
 aIsHorizontal
 )
 {
@@ -2869,7 +2869,7 @@ if
 box
 )
 {
-bool
+PRBool
 widthSet
 heightSet
 ;
@@ -3130,7 +3130,7 @@ nsBoxLayoutState
 aState
 PRInt32
 aIndex
-bool
+PRBool
 aIsHorizontal
 )
 {
@@ -3190,7 +3190,7 @@ if
 box
 )
 {
-bool
+PRBool
 widthSet
 heightSet
 ;
@@ -3457,7 +3457,7 @@ row
 mMax
 ;
 }
-bool
+PRBool
 nsGrid
 :
 :
@@ -3518,7 +3518,7 @@ nsBoxLayoutState
 aState
 PRInt32
 aIndex
-bool
+PRBool
 aIsHorizontal
 )
 {
@@ -3729,7 +3729,7 @@ nsSize
 aSize
 nscoord
 aHeight
-bool
+PRBool
 aIsHorizontal
 )
 {
@@ -3782,7 +3782,7 @@ nsSize
 aSize
 nscoord
 aHeight
-bool
+PRBool
 aIsHorizontal
 )
 {
@@ -3879,7 +3879,7 @@ nsBoxLayoutState
 aState
 PRInt32
 aIndex
-bool
+PRBool
 aIsHorizontal
 )
 {
@@ -3906,7 +3906,7 @@ nsBoxLayoutState
 aState
 PRInt32
 aIndex
-bool
+PRBool
 aIsHorizontal
 )
 {

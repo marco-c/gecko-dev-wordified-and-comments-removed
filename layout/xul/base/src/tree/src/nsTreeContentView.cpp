@@ -272,7 +272,7 @@ Row
 void
 SetContainer
 (
-bool
+PRBool
 aContainer
 )
 {
@@ -290,7 +290,7 @@ mFlags
 ROW_FLAG_CONTAINER
 ;
 }
-bool
+PRBool
 IsContainer
 (
 )
@@ -304,7 +304,7 @@ ROW_FLAG_CONTAINER
 void
 SetOpen
 (
-bool
+PRBool
 aOpen
 )
 {
@@ -322,7 +322,7 @@ mFlags
 ROW_FLAG_OPEN
 ;
 }
-bool
+PRBool
 IsOpen
 (
 )
@@ -340,7 +340,7 @@ ROW_FLAG_OPEN
 void
 SetEmpty
 (
-bool
+PRBool
 aEmpty
 )
 {
@@ -358,7 +358,7 @@ mFlags
 ROW_FLAG_EMPTY
 ;
 }
-bool
+PRBool
 IsEmpty
 (
 )
@@ -376,7 +376,7 @@ ROW_FLAG_EMPTY
 void
 SetSeparator
 (
-bool
+PRBool
 aSeparator
 )
 {
@@ -394,7 +394,7 @@ mFlags
 ROW_FLAG_SEPARATOR
 ;
 }
-bool
+PRBool
 IsSeparator
 (
 )
@@ -680,7 +680,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsTreeContentView
 :
 :
@@ -1164,7 +1164,7 @@ IsContainer
 (
 PRInt32
 aIndex
-bool
+PRBool
 *
 _retval
 )
@@ -1240,7 +1240,7 @@ IsContainerOpen
 (
 PRInt32
 aIndex
-bool
+PRBool
 *
 _retval
 )
@@ -1316,7 +1316,7 @@ IsContainerEmpty
 (
 PRInt32
 aIndex
-bool
+PRBool
 *
 _retval
 )
@@ -1392,7 +1392,7 @@ IsSeparator
 (
 PRInt32
 aIndex
-bool
+PRBool
 *
 _retval
 )
@@ -1466,7 +1466,7 @@ nsTreeContentView
 :
 IsSorted
 (
-bool
+PRBool
 *
 _retval
 )
@@ -1493,7 +1493,7 @@ aOrientation
 nsIDOMDataTransfer
 *
 aDataTransfer
-bool
+PRBool
 *
 _retval
 )
@@ -1703,7 +1703,7 @@ PRInt32
 aRowIndex
 PRInt32
 aAfterIndex
-bool
+PRBool
 *
 _retval
 )
@@ -3217,7 +3217,7 @@ aRow
 nsITreeColumn
 *
 aCol
-bool
+PRBool
 *
 _retval
 )
@@ -3371,7 +3371,7 @@ aRow
 nsITreeColumn
 *
 aCol
-bool
+PRBool
 *
 _retval
 )
@@ -4226,7 +4226,7 @@ treeseparator
 )
 )
 {
-bool
+PRBool
 hidden
 =
 aElement
@@ -4467,7 +4467,7 @@ nsGkAtoms
 container
 )
 {
-bool
+PRBool
 isContainer
 =
 aElement
@@ -4520,7 +4520,7 @@ nsGkAtoms
 open
 )
 {
-bool
+PRBool
 isOpen
 =
 aElement
@@ -4540,7 +4540,7 @@ _true
 eCaseMatters
 )
 ;
-bool
+PRBool
 wasOpen
 =
 row
@@ -4590,7 +4590,7 @@ nsGkAtoms
 empty
 )
 {
-bool
+PRBool
 isEmpty
 =
 aElement
@@ -6776,10 +6776,10 @@ grandParentIndex
 -
 1
 ;
-bool
+PRBool
 insertRow
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <

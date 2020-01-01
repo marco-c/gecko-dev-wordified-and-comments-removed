@@ -147,7 +147,7 @@ return
 NODESET_RESULT
 ;
 }
-bool
+PRBool
 CurrentFunctionCall
 :
 :

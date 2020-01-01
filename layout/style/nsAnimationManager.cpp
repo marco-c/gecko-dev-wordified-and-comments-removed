@@ -1211,7 +1211,7 @@ mProperty
 #
 ifdef
 DEBUG
-bool
+PRBool
 result
 =
 #
@@ -1270,7 +1270,7 @@ nsCSSPseudoElements
 :
 Type
 aPseudoType
-bool
+PRBool
 aCreateIfNeeded
 )
 {
@@ -2158,7 +2158,7 @@ return
 mValue
 ;
 }
-bool
+PRBool
 KeyEquals
 (
 KeyTypePointer
@@ -2356,7 +2356,7 @@ PL_DHASH_NEXT
 struct
 KeyframeDataComparator
 {
-bool
+PRBool
 Equals
 (
 const
@@ -2381,7 +2381,7 @@ B
 mKey
 ;
 }
-bool
+PRBool
 LessThan
 (
 const

@@ -91,7 +91,7 @@ aValue
 nsSVGElement
 *
 aSVGElement
-bool
+PRBool
 aDoSetAttr
 )
 {
@@ -334,7 +334,7 @@ nsISMILAnimationElement
 nsSMILValue
 &
 aValue
-bool
+PRBool
 &
 aPreventCachingOfSandwich
 )

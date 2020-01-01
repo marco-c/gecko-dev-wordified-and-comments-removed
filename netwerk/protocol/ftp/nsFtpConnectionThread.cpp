@@ -684,7 +684,7 @@ eolLength
 crlfLength
 )
 ;
-bool
+PRBool
 startNum
 =
 (
@@ -1473,10 +1473,10 @@ rv
 =
 NS_OK
 ;
-bool
+PRBool
 processingRead
 =
-true
+PR_TRUE
 ;
 while
 (
@@ -2652,7 +2652,7 @@ EmptyCString
 )
 )
 ;
-bool
+PRBool
 retval
 ;
 rv
@@ -2847,10 +2847,10 @@ else
 nsXPIDLCString
 anonPassword
 ;
-bool
+PRBool
 useRealEmail
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -3044,7 +3044,7 @@ SetUserInternal
 mUsername
 )
 ;
-bool
+PRBool
 retval
 ;
 rv
@@ -6103,10 +6103,10 @@ p0
 p1
 ;
 }
-bool
+PRBool
 newDataConn
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -6160,7 +6160,7 @@ oldPort
 port
 )
 {
-bool
+PRBool
 isAlive
 ;
 if
@@ -6646,7 +6646,7 @@ NowInSeconds
 (
 )
 ;
-bool
+PRBool
 nsFtpState
 :
 :
@@ -9414,7 +9414,7 @@ CallbackTarget
 ;
 }
 }
-bool
+PRBool
 nsFtpState
 :
 :
@@ -9542,7 +9542,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsFtpState
 :
 :

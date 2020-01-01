@@ -154,7 +154,7 @@ nsHTMLEditor
 :
 AbsolutePositionSelection
 (
-bool
+PRBool
 aEnabled
 )
 {
@@ -224,7 +224,7 @@ nsTextEditRules
 kRemoveAbsolutePosition
 )
 ;
-bool
+PRBool
 cancel
 handled
 ;
@@ -448,7 +448,7 @@ nsHTMLEditor
 :
 GetSelectionContainerAbsolutelyPositioned
 (
-bool
+PRBool
 *
 aIsSelectionContainerAbsolutelyPositioned
 )
@@ -473,7 +473,7 @@ nsHTMLEditor
 :
 GetAbsolutePositioningEnabled
 (
-bool
+PRBool
 *
 aIsEnabled
 )
@@ -493,7 +493,7 @@ nsHTMLEditor
 :
 SetAbsolutePositioningEnabled
 (
-bool
+PRBool
 aIsEnabled
 )
 {
@@ -713,7 +713,7 @@ nsTextEditRules
 kIncreaseZIndex
 )
 ;
-bool
+PRBool
 cancel
 handled
 ;
@@ -2018,7 +2018,7 @@ AbsolutelyPositionElement
 nsIDOMElement
 *
 aElement
-bool
+PRBool
 aEnabled
 )
 {
@@ -2043,7 +2043,7 @@ cssPosition
 positionStr
 )
 ;
-bool
+PRBool
 isPositioned
 =
 (
@@ -2345,7 +2345,7 @@ PR_FALSE
 )
 ;
 }
-bool
+PRBool
 hasStyleOrIdOrClass
 ;
 res
@@ -2436,7 +2436,7 @@ nsHTMLEditor
 :
 SetSnapToGridEnabled
 (
-bool
+PRBool
 aEnabled
 )
 {
@@ -2454,7 +2454,7 @@ nsHTMLEditor
 :
 GetSnapToGridEnabled
 (
-bool
+PRBool
 *
 aIsEnabled
 )

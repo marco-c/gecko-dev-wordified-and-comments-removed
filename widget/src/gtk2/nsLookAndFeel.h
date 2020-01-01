@@ -90,12 +90,6 @@ GetPasswordCharacterImpl
 (
 )
 ;
-virtual
-bool
-GetEchoPasswordImpl
-(
-)
-;
 protected
 :
 GtkStyle
@@ -175,7 +169,7 @@ float
 sCaretRatio
 ;
 static
-bool
+PRBool
 sMenuSupportsDrag
 ;
 static

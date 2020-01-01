@@ -476,10 +476,10 @@ aStream
 nsresult
 rv
 ;
-bool
+PRBool
 doScaling
 =
-true
+PR_TRUE
 ;
 PRUint8
 *

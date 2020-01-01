@@ -137,13 +137,13 @@ using
 namespace
 mozilla
 ;
-bool
+PRBool
 CSPService
 :
 :
 sCSPEnabled
 =
-true
+PR_TRUE
 ;
 #
 ifdef

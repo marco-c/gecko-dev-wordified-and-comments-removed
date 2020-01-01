@@ -213,7 +213,7 @@ nsnull
 ;
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 net_IsValidScheme
 (
@@ -226,7 +226,7 @@ schemeLen
 )
 ;
 inline
-bool
+PRBool
 net_IsValidScheme
 (
 const
@@ -253,7 +253,7 @@ Length
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 net_FilterURIString
 (
@@ -280,7 +280,7 @@ XP_OS2
 )
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 net_NormalizeFileURL
 (
@@ -398,7 +398,7 @@ aContentType
 nsACString
 &
 aContentCharset
-bool
+PRBool
 *
 aHadCharset
 )
@@ -419,7 +419,7 @@ aContentType
 nsACString
 &
 aContentCharset
-bool
+PRBool
 *
 aHadCharset
 PRInt32
@@ -523,7 +523,7 @@ set
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 net_IsValidHostName
 (
@@ -535,7 +535,7 @@ host
 ;
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 net_IsValidIPv4Addr
 (
@@ -549,7 +549,7 @@ addrLen
 ;
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 net_IsValidIPv6Addr
 (

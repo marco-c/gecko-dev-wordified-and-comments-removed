@@ -104,7 +104,7 @@ PRUint32
 aType
 )
 ;
-bool
+PRBool
 IsPausedByType
 (
 PRUint32
@@ -118,7 +118,7 @@ mPauseState
 aType
 ;
 }
-bool
+PRBool
 IsPaused
 (
 )
@@ -177,7 +177,7 @@ Sample
 (
 )
 ;
-bool
+PRBool
 NeedsSample
 (
 )
@@ -191,7 +191,7 @@ mPauseState
 mNeedsPauseSample
 ;
 }
-bool
+PRBool
 NeedsRewind
 (
 )
@@ -211,7 +211,7 @@ mNeedsRewind
 PR_FALSE
 ;
 }
-bool
+PRBool
 IsSeeking
 (
 )
@@ -239,7 +239,7 @@ nsSMILTimeContainer
 aParent
 )
 ;
-bool
+PRBool
 AddMilestone
 (
 const
@@ -256,7 +256,7 @@ ClearMilestones
 (
 )
 ;
-bool
+PRBool
 GetNextMilestoneInParentTime
 (
 nsSMILMilestone
@@ -275,7 +275,7 @@ nsISMILAnimationElement
 >
 AnimElemArray
 ;
-bool
+PRBool
 PopMilestoneElementsAtMilestone
 (
 const
@@ -355,13 +355,13 @@ mParentOffset
 nsSMILTime
 mPauseStart
 ;
-bool
+PRPackedBool
 mNeedsPauseSample
 ;
-bool
+PRPackedBool
 mNeedsRewind
 ;
-bool
+PRPackedBool
 mIsSeeking
 ;
 PRUint32
@@ -390,7 +390,7 @@ aElement
 )
 {
 }
-bool
+PRBool
 operator
 <
 (

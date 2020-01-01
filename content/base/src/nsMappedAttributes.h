@@ -69,7 +69,7 @@ nsMappedAttributes
 *
 Clone
 (
-bool
+PRBool
 aWillAddAttr
 )
 ;
@@ -106,7 +106,7 @@ return
 mAttrCount
 ;
 }
-bool
+PRBool
 Equals
 (
 const

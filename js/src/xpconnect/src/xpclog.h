@@ -152,7 +152,7 @@ fmt
 .
 )
 ;
-bool
+PRBool
 XPC_Log_Check
 (
 int

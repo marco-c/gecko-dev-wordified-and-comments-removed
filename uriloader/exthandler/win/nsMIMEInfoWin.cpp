@@ -174,10 +174,10 @@ local
 return
 NS_ERROR_FAILURE
 ;
-bool
+PRBool
 executable
 =
-true
+PR_TRUE
 ;
 local
 -
@@ -638,7 +638,7 @@ nsMIMEInfoWin
 :
 GetHasDefaultHandler
 (
-bool
+PRBool
 *
 _retval
 )
@@ -1275,7 +1275,7 @@ return
 rv
 ;
 }
-bool
+PRBool
 nsMIMEInfoWin
 :
 :
@@ -1363,7 +1363,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsMIMEInfoWin
 :
 :
@@ -1376,7 +1376,7 @@ appExeName
 nsAString
 &
 applicationPath
-bool
+PRBool
 edit
 )
 {
@@ -1657,7 +1657,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsMIMEInfoWin
 :
 :
@@ -1672,7 +1672,7 @@ aFile
 nsAString
 &
 args
-bool
+PRBool
 edit
 )
 {
@@ -2164,7 +2164,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsMIMEInfoWin
 :
 :
@@ -2177,7 +2177,7 @@ appProgIDName
 nsAString
 &
 applicationPath
-bool
+PRBool
 edit
 )
 {
@@ -2455,7 +2455,7 @@ lower
 ;
 }
 static
-bool
+PRBool
 IsPathInList
 (
 nsAString
@@ -2646,10 +2646,10 @@ NS_ERROR_FAILURE
 nsAutoString
 workingRegistryPath
 ;
-bool
+PRBool
 extKnown
 =
-false
+PR_FALSE
 ;
 if
 (

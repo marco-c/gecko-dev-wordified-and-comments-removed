@@ -78,7 +78,7 @@ aContent
 #
 ifdef
 MOZ_SMIL
-bool
+PRBool
 aIsSMILOverride
 #
 endif
@@ -106,7 +106,7 @@ Declaration
 *
 GetCSSDeclaration
 (
-bool
+PRBool
 aAllocate
 )
 ;
@@ -169,7 +169,7 @@ mElement
 ifdef
 MOZ_SMIL
 const
-bool
+PRBool
 mIsSMILOverride
 ;
 #

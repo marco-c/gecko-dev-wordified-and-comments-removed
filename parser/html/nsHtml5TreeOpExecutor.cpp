@@ -323,7 +323,7 @@ nsHtml5TreeOpExecutor
 :
 DidBuildModel
 (
-bool
+PRBool
 aTerminated
 )
 {
@@ -379,10 +379,10 @@ if
 mLayoutStarted
 )
 {
-bool
+PRBool
 destroying
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -1043,10 +1043,10 @@ SetEnableUpdates
 PR_TRUE
 )
 ;
-bool
+PRBool
 willNotify
 ;
-bool
+PRBool
 isAlternate
 ;
 nsresult
@@ -1155,7 +1155,7 @@ relVal
 linkTypes
 )
 ;
-bool
+PRBool
 hasPrefetch
 =
 linkTypes
@@ -2243,7 +2243,7 @@ scriptElement
 ;
 }
 }
-bool
+PRBool
 nsHtml5TreeOpExecutor
 :
 :
@@ -2349,10 +2349,10 @@ cx
 PR_TRUE
 )
 ;
-bool
+PRBool
 enabled
 =
-true
+PR_TRUE
 ;
 nsContentUtils
 :

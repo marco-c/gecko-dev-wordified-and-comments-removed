@@ -24,7 +24,7 @@ const
 nsACString
 &
 value
-bool
+PRBool
 merge
 )
 {
@@ -685,7 +685,7 @@ Flatten
 nsACString
 &
 buf
-bool
+PRBool
 pruneProxyHeaders
 )
 {

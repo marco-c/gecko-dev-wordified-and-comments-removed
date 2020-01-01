@@ -30,10 +30,10 @@ h
 ifdef
 NS_DEBUG
 static
-bool
+PRBool
 gNoisy
 =
-false
+PR_FALSE
 ;
 #
 endif
@@ -343,7 +343,7 @@ result
 result
 )
 ;
-bool
+PRBool
 bAdjustSelection
 ;
 mEditor
@@ -538,7 +538,7 @@ Merge
 nsITransaction
 *
 aTransaction
-bool
+PRBool
 *
 aDidMerge
 )
@@ -717,7 +717,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 InsertTextTxn
 :
 :

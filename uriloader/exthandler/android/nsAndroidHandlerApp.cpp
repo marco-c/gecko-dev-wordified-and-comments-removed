@@ -183,7 +183,7 @@ Equals
 nsIHandlerApp
 *
 aHandlerApp
-bool
+PRBool
 *
 aRetval
 )

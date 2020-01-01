@@ -18,7 +18,7 @@ NS_NewUnicodeLocalFile
 const
 PRUnichar
 *
-bool
+PRBool
 nsILocalFile
 *
 *

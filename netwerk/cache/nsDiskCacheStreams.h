@@ -282,7 +282,7 @@ mBufEnd
 PRUint32
 mBufSize
 ;
-bool
+PRBool
 mBufDirty
 ;
 char

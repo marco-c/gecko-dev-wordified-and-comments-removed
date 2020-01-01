@@ -240,7 +240,7 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
+PRBool
 aCompileEventHandlers
 )
 ;
@@ -248,14 +248,14 @@ virtual
 void
 UnbindFromTree
 (
-bool
+PRBool
 aDeep
 =
-true
-bool
+PR_TRUE
+PRBool
 aNullParent
 =
-true
+PR_TRUE
 )
 ;
 void
@@ -282,7 +282,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aNotify
 )
 {
@@ -313,7 +313,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aNotify
 )
 ;
@@ -326,7 +326,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-bool
+PRBool
 aNotify
 )
 ;
@@ -349,7 +349,7 @@ aVisitor
 )
 ;
 virtual
-bool
+PRBool
 IsLink
 (
 nsIURI
@@ -428,7 +428,7 @@ nsIURI
 >
 GetStyleSheetURL
 (
-bool
+PRBool
 *
 aIsInline
 )
@@ -446,7 +446,7 @@ aType
 nsAString
 &
 aMedia
-bool
+PRBool
 *
 aIsAlternate
 )
@@ -535,7 +535,7 @@ nsHTMLLinkElement
 :
 GetDisabled
 (
-bool
+PRBool
 *
 aDisabled
 )
@@ -593,7 +593,7 @@ nsHTMLLinkElement
 :
 SetDisabled
 (
-bool
+PRBool
 aDisabled
 )
 {
@@ -699,7 +699,7 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
+PRBool
 aCompileEventHandlers
 )
 {
@@ -831,9 +831,9 @@ nsHTMLLinkElement
 :
 UnbindFromTree
 (
-bool
+PRBool
 aDeep
-bool
+PRBool
 aNullParent
 )
 {
@@ -1006,7 +1006,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aNotify
 )
 {
@@ -1061,10 +1061,10 @@ rv
 )
 )
 {
-bool
+PRBool
 dropSheet
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -1179,7 +1179,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-bool
+PRBool
 aNotify
 )
 {
@@ -1320,7 +1320,7 @@ aVisitor
 )
 ;
 }
-bool
+PRBool
 nsHTMLLinkElement
 :
 :
@@ -1441,7 +1441,7 @@ nsHTMLLinkElement
 :
 GetStyleSheetURL
 (
-bool
+PRBool
 *
 aIsInline
 )
@@ -1501,7 +1501,7 @@ aType
 nsAString
 &
 aMedia
-bool
+PRBool
 *
 aIsAlternate
 )

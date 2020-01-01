@@ -347,7 +347,7 @@ mVerticalOffsetPseudoUnit
 ;
 }
 }
-bool
+PRBool
 nsMathMLmpaddedFrame
 :
 :
@@ -485,13 +485,13 @@ i
 +
 +
 ;
-bool
+PRBool
 gotDot
 =
-false
+PR_FALSE
 gotPercent
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -1214,7 +1214,7 @@ Place
 nsRenderingContext
 &
 aRenderingContext
-bool
+PRBool
 aPlaceOrigin
 nsHTMLReflowMetrics
 &

@@ -431,7 +431,7 @@ mFontMetrics
 void
 SetTextRunRTL
 (
-bool
+PRBool
 aIsRTL
 )
 ;

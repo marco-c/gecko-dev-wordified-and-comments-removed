@@ -59,7 +59,7 @@ nsRect
 outRect
 )
 ;
-bool
+PRBool
 NS_NPAPI_CocoaWindowIsMain
 (
 void

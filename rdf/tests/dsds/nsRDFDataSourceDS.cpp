@@ -271,7 +271,7 @@ nsRDFDataSourceDataSource
 :
 GetLoaded
 (
-bool
+PRBool
 *
 aLoaded
 )
@@ -521,7 +521,7 @@ nsRDFDataSourceDataSource
 :
 Refresh
 (
-bool
+PRBool
 aBlocking
 )
 {
@@ -638,7 +638,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-bool
+PRBool
 aTruthValue
 nsIRDFResource
 *
@@ -662,7 +662,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-bool
+PRBool
 aTruthValue
 nsISimpleEnumerator
 *
@@ -686,7 +686,7 @@ aSource
 nsIRDFResource
 *
 aProperty
-bool
+PRBool
 aTruthValue
 nsIRDFNode
 *
@@ -772,7 +772,7 @@ aSource
 nsIRDFResource
 *
 aProperty
-bool
+PRBool
 aTruthValue
 nsISimpleEnumerator
 *
@@ -845,7 +845,7 @@ endif
 nsresult
 rv
 ;
-bool
+PRBool
 isProp
 ;
 nsCOMPtr
@@ -920,10 +920,10 @@ enumerator
 )
 ;
 }
-bool
+PRBool
 hasMoreArcs
 =
-false
+PR_FALSE
 ;
 rv
 =
@@ -1001,7 +1001,7 @@ targetEnumerator
 )
 )
 ;
-bool
+PRBool
 hasMoreTargets
 ;
 rv
@@ -1261,7 +1261,7 @@ aProperty
 nsIRDFNode
 *
 aTarget
-bool
+PRBool
 aTruthValue
 )
 {
@@ -1305,9 +1305,9 @@ aProperty
 nsIRDFNode
 *
 aTarget
-bool
+PRBool
 aTruthValue
-bool
+PRBool
 *
 _retval
 )
@@ -1536,7 +1536,7 @@ aCommand
 nsISupportsArray
 *
 aArguments
-bool
+PRBool
 *
 _retval
 )

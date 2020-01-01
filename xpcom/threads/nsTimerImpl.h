@@ -351,13 +351,13 @@ mCallbackType
 PRUint8
 mType
 ;
-bool
+PRPackedBool
 mFiring
 ;
-bool
+PRBool
 mArmed
 ;
-bool
+PRBool
 mCanceled
 ;
 PRInt32

@@ -108,9 +108,9 @@ nsACString
 aHostname
 PRInt32
 aCookiesFromHost
-bool
+PRBool
 aChangingCookie
-bool
+PRBool
 *
 aRememberDecision
 PRInt32

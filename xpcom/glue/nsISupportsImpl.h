@@ -779,7 +779,7 @@ refcount
 )
 ;
 }
-bool
+PRBool
 IsPurple
 (
 )

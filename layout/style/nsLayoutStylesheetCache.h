@@ -152,7 +152,7 @@ nsCSSStyleSheet
 >
 &
 aSheet
-bool
+PRBool
 aEnableUnsafeRules
 )
 ;

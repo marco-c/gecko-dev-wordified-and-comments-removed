@@ -2505,7 +2505,7 @@ return
 TRUE
 ;
 }
-bool
+PRBool
 nsApplicationAccessibleWrap
 :
 :
@@ -2513,10 +2513,10 @@ Init
 (
 )
 {
-bool
+PRBool
 isGnomeATEnabled
 =
-false
+PR_FALSE
 ;
 const
 char
@@ -3038,7 +3038,7 @@ return
 FALSE
 ;
 }
-bool
+PRBool
 nsApplicationAccessibleWrap
 :
 :
@@ -3156,7 +3156,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsApplicationAccessibleWrap
 :
 :

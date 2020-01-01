@@ -73,11 +73,11 @@ GetStreamParserThread
 )
 ;
 static
-bool
+PRBool
 sEnabled
 ;
 static
-bool
+PRBool
 sOffMainThread
 ;
 private
@@ -86,7 +86,7 @@ private
 ifdef
 DEBUG
 static
-bool
+PRBool
 sNsHtml5ModuleInitialized
 ;
 #

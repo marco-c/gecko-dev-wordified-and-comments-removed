@@ -80,7 +80,7 @@ aData
 ;
 private
 :
-bool
+PRBool
 mInitialized
 ;
 GConfProxy

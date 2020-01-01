@@ -350,7 +350,7 @@ T_BOOL
 *
 (
 (
-bool
+PRBool
 *
 )
 d

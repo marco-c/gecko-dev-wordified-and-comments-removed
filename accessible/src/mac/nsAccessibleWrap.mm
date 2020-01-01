@@ -529,7 +529,7 @@ nsnull
 ;
 }
 }
-bool
+PRBool
 nsAccessibleWrap
 :
 :
@@ -1171,7 +1171,7 @@ nsAccessibleWrap
 :
 GetUnignoredChildCount
 (
-bool
+PRBool
 aDeepCount
 )
 {
@@ -1423,7 +1423,7 @@ not
 be
 counted
 .
-bool
+PRBool
 nsAccessibleWrap
 :
 :
@@ -1805,7 +1805,7 @@ outValue
 /
 nsAccessibleWrap
 protected
-bool
+PRBool
 nsAccessibleWrap
 :
 :

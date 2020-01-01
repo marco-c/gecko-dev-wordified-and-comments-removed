@@ -347,7 +347,7 @@ nsTransactionItem
 :
 GetIsBatch
 (
-bool
+PRBool
 *
 aIsBatch
 )
@@ -835,10 +835,10 @@ return
 result
 ;
 }
-bool
+PRBool
 doInterrupt
 =
-false
+PR_FALSE
 ;
 result
 =
@@ -1148,10 +1148,10 @@ return
 result
 ;
 }
-bool
+PRBool
 doInterrupt
 =
-false
+PR_FALSE
 ;
 result
 =

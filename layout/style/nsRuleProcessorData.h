@@ -139,7 +139,7 @@ mHaveRelevantLink
 PR_TRUE
 ;
 }
-bool
+PRBool
 HaveRelevantLink
 (
 )
@@ -163,12 +163,12 @@ mVisitedHandling
 ;
 }
 const
-bool
+PRBool
 mForStyling
 ;
 private
 :
-bool
+PRBool
 mHaveRelevantLink
 ;
 nsRuleWalker
@@ -189,7 +189,7 @@ nsIContent
 mScopedRoot
 ;
 const
-bool
+PRPackedBool
 mIsHTMLDocument
 ;
 const
@@ -201,7 +201,7 @@ mNthIndexCache
 ;
 TreeMatchContext
 (
-bool
+PRBool
 aForStyling
 nsRuleWalker
 :
@@ -841,7 +841,7 @@ nsIAtom
 aAttribute
 PRInt32
 aModType
-bool
+PRBool
 aAttrHasChanged
 TreeMatchContext
 &
@@ -899,7 +899,7 @@ mAttribute
 PRInt32
 mModType
 ;
-bool
+PRBool
 mAttrHasChanged
 ;
 }

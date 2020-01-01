@@ -107,10 +107,10 @@ virtual
 PRInt32
 GetAttributeCount
 (
-bool
+PRBool
 askToken
 =
-false
+PR_FALSE
 )
 const
 =
@@ -176,7 +176,7 @@ const
 0
 ;
 virtual
-bool
+PRBool
 GetGenericState
 (
 void
@@ -189,7 +189,7 @@ virtual
 void
 SetGenericState
 (
-bool
+PRBool
 aState
 )
 =

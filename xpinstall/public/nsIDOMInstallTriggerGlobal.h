@@ -114,9 +114,9 @@ UpdateEnabled
 nsIScriptGlobalObject
 *
 aGlobalObject
-bool
+PRBool
 aUseWhitelist
-bool
+PRBool
 *
 aReturn
 )
@@ -129,9 +129,9 @@ UpdateEnabled
 nsIURI
 *
 aURI
-bool
+PRBool
 aUseWhitelist
-bool
+PRBool
 *
 aReturn
 )
@@ -144,7 +144,7 @@ StartInstall
 nsIXPIInstallInfo
 *
 aInstallInfo
-bool
+PRBool
 *
 aReturn
 )

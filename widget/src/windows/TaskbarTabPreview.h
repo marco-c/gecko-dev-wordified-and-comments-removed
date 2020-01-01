@@ -75,7 +75,7 @@ virtual
 nsresult
 ShowActive
 (
-bool
+PRBool
 active
 )
 ;
@@ -138,7 +138,7 @@ DetachFromNSWindow
 )
 ;
 static
-bool
+PRBool
 MainWindowHook
 (
 void
@@ -198,7 +198,7 @@ nsITaskbarTabPreview
 >
 mNext
 ;
-bool
+PRBool
 mRegistered
 ;
 }

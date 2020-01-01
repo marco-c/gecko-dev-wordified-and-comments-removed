@@ -85,7 +85,7 @@ aNumPages
 NS_IMETHOD
 IsDoingPrintRange
 (
-bool
+PRBool
 *
 aDoing
 )

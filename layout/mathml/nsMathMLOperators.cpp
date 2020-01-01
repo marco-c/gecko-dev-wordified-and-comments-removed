@@ -128,10 +128,10 @@ gOperatorTable
 nsnull
 ;
 static
-bool
+PRBool
 gInitialized
 =
-false
+PR_FALSE
 ;
 static
 nsTArray
@@ -541,7 +541,7 @@ return
 }
 else
 {
-bool
+PRBool
 isLeftSpace
 ;
 if
@@ -626,7 +626,7 @@ space
 }
 }
 static
-bool
+PRBool
 SetOperator
 (
 OperatorData
@@ -1158,7 +1158,7 @@ end
 end
 ;
 }
-bool
+PRBool
 IsBooleanProperty
 =
 (
@@ -1447,7 +1447,7 @@ iterator
 )
 )
 {
-bool
+PRBool
 more
 ;
 PRUint32
@@ -1973,7 +1973,7 @@ hkey
 )
 ;
 }
-bool
+PRBool
 nsMathMLOperators
 :
 :
@@ -2449,7 +2449,7 @@ mRightSpace
 }
 }
 }
-bool
+PRBool
 nsMathMLOperators
 :
 :

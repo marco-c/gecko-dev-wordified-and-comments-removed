@@ -86,14 +86,14 @@ FilterInstantiations
 InstantiationSet
 &
 aInstantiations
-bool
+PRBool
 *
 aCantHandleYet
 )
 const
 ;
 virtual
-bool
+PRBool
 CanPropagate
 (
 nsIRDFResource
@@ -348,7 +348,7 @@ mEmptyTest
 ;
 }
 virtual
-bool
+PRBool
 Equals
 (
 const

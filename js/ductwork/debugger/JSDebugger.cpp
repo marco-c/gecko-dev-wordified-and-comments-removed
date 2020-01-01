@@ -29,6 +29,13 @@ h
 #
 include
 "
+jsobj
+.
+h
+"
+#
+include
+"
 jsgc
 .
 h

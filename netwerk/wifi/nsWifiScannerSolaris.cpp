@@ -449,10 +449,10 @@ wlan_put
 =
 0
 ;
-bool
+PRBool
 escape
 =
-false
+PR_FALSE
 ;
 nsWifiAccessPoint
 *
@@ -739,7 +739,7 @@ do_dladm
 accessPoints
 )
 ;
-bool
+PRBool
 accessPointsChanged
 =
 !

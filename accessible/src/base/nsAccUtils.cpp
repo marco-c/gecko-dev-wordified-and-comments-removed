@@ -1407,7 +1407,7 @@ aTopContent
 ;
 }
 }
-bool
+PRBool
 nsAccUtils
 :
 :
@@ -1822,7 +1822,7 @@ return
 nsnull
 ;
 }
-bool
+PRBool
 nsAccUtils
 :
 :
@@ -2635,7 +2635,7 @@ return
 0
 ;
 }
-bool
+PRBool
 nsAccUtils
 :
 :
@@ -2691,7 +2691,7 @@ PR_FALSE
 #
 ifdef
 DEBUG_A11Y
-bool
+PRBool
 nsAccUtils
 :
 :
@@ -2702,10 +2702,10 @@ nsAccessible
 aAccessible
 )
 {
-bool
+PRBool
 foundText
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -2877,7 +2877,7 @@ Length
 )
 ;
 }
-bool
+PRBool
 nsAccUtils
 :
 :
@@ -3089,7 +3089,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 moveToLeft
 =
 aRowOrColHeaderCells
@@ -3238,7 +3238,7 @@ Role
 cell
 )
 ;
-bool
+PRBool
 isHeader
 =
 moveToLeft

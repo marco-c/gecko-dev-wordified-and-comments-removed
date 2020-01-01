@@ -287,11 +287,6 @@ synthesizeKey
 VK_ESCAPE
 "
 {
-type
-:
-"
-keypress
-"
 }
 window
 )
@@ -605,11 +600,6 @@ synthesizeKey
 VK_ESCAPE
 "
 {
-type
-:
-"
-keypress
-"
 }
 window
 )
@@ -806,11 +796,6 @@ synthesizeKey
 VK_ESCAPE
 "
 {
-type
-:
-"
-keypress
-"
 }
 window
 )

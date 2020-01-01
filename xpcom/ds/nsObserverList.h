@@ -119,7 +119,7 @@ aWeak
 )
 {
 }
-bool
+PRBool
 isWeakRef
 ;
 nsCOMPtr
@@ -199,7 +199,7 @@ ref
 )
 ;
 }
-bool
+PRBool
 operator
 =
 =
@@ -263,7 +263,7 @@ AddObserver
 nsIObserver
 *
 anObserver
-bool
+PRBool
 ownsWeak
 )
 ;

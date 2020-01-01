@@ -75,7 +75,7 @@ nsIAtom
 >
 mEventSymbol
 ;
-bool
+PRPackedBool
 mSyncBegin
 ;
 PRUint32

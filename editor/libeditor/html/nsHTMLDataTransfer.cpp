@@ -581,7 +581,7 @@ NS_ERROR_MODULE_EDITOR
 3
 )
 static
-bool
+PRBool
 FindIntegerAfterString
 (
 const
@@ -848,7 +848,7 @@ nsTextEditRules
 kLoadHTML
 )
 ;
-bool
+PRBool
 cancel
 handled
 ;
@@ -887,7 +887,7 @@ if
 handled
 )
 {
-bool
+PRBool
 isCollapsed
 ;
 res
@@ -1187,7 +1187,7 @@ nsIDOMNode
 aDestNode
 PRInt32
 aDestOffset
-bool
+PRBool
 aDeleteSelection
 )
 {
@@ -1236,9 +1236,9 @@ nsIDOMNode
 aDestNode
 PRInt32
 aDestOffset
-bool
+PRBool
 aDeleteSelection
-bool
+PRBool
 aTrustedInput
 )
 {
@@ -1400,10 +1400,10 @@ targetOffset
 aDestOffset
 ;
 }
-bool
+PRBool
 doContinue
 =
-true
+PR_TRUE
 ;
 res
 =
@@ -1579,10 +1579,10 @@ parentNode
 PRInt32
 offsetOfNewNode
 ;
-bool
+PRBool
 cellSelectionMode
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -1725,7 +1725,7 @@ nsTextEditRules
 kInsertElement
 )
 ;
-bool
+PRBool
 cancel
 handled
 ;
@@ -1852,7 +1852,7 @@ res
 )
 ;
 }
-bool
+PRBool
 bStartedInLink
 =
 IsInLink
@@ -2128,10 +2128,10 @@ j
 +
 )
 {
-bool
+PRBool
 bDidInsert
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -2389,7 +2389,7 @@ parentNode
 )
 )
 {
-bool
+PRBool
 isEmpty
 ;
 res
@@ -4267,7 +4267,7 @@ aFlavor
 nsIDOMDocument
 *
 sourceDoc
-bool
+PRBool
 aWillDeleteSelection
 nsIDOMNode
 *
@@ -4294,7 +4294,7 @@ aTargetNode
 PRInt32
 *
 aTargetOffset
-bool
+PRBool
 *
 aDoContinue
 )
@@ -4373,7 +4373,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsHTMLEditor
 :
 :
@@ -4472,7 +4472,7 @@ StripFormattingNodes
 nsIDOMNode
 *
 aNode
-bool
+PRBool
 aListOnly
 )
 {
@@ -4665,7 +4665,7 @@ nsITransferable
 *
 *
 aTransferable
-bool
+PRBool
 aHavePrivFlavor
 )
 {
@@ -4908,7 +4908,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 FindIntegerAfterString
 (
 const
@@ -5634,7 +5634,7 @@ nsIDOMNode
 aDestinationNode
 PRInt32
 aDestOffset
-bool
+PRBool
 aDoDeleteSelection
 )
 {
@@ -5723,10 +5723,10 @@ get
 ;
 #
 endif
-bool
+PRBool
 isSafe
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -5956,10 +5956,10 @@ rv
 )
 ;
 }
-bool
+PRBool
 insertAsImage
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -6793,10 +6793,10 @@ domdoc
 )
 )
 ;
-bool
+PRBool
 bHavePrivateHTMLFlavor
 =
-false
+PR_FALSE
 ;
 rv
 =
@@ -6873,10 +6873,10 @@ beginBatching
 this
 )
 ;
-bool
+PRBool
 deleteSelection
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -6917,10 +6917,10 @@ rv
 PRUint32
 i
 ;
-bool
+PRBool
 doPlaceCaret
 =
-true
+PR_TRUE
 ;
 for
 (
@@ -7220,10 +7220,10 @@ if
 doPlaceCaret
 )
 {
-bool
+PRBool
 userWantsCopy
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -7337,7 +7337,7 @@ selection
 NS_ERROR_FAILURE
 )
 ;
-bool
+PRBool
 isCollapsed
 ;
 rv
@@ -7441,10 +7441,10 @@ NS_ERROR_FAILURE
 )
 ;
 }
-bool
+PRBool
 cursorIsInSelection
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -7655,7 +7655,7 @@ CanDrag
 nsIDOMEvent
 *
 aDragEvent
-bool
+PRBool
 *
 aCanDrag
 )
@@ -8182,7 +8182,7 @@ aDragEvent
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditor
 :
 :
@@ -8199,10 +8199,10 @@ aClipboard
 PR_FALSE
 )
 ;
-bool
+PRBool
 bHavePrivateHTMLFlavor
 =
-false
+PR_FALSE
 ;
 const
 char
@@ -8299,7 +8299,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 bHavePrivateHTMLFlavor
 =
 HavePrivateHTMLFlavor
@@ -8895,7 +8895,7 @@ CanPaste
 (
 PRInt32
 aSelectionType
-bool
+PRBool
 *
 aCanPaste
 )
@@ -8953,7 +8953,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 haveFlavors
 ;
 if
@@ -9021,7 +9021,7 @@ CanPasteTransferable
 nsITransferable
 *
 aTransferable
-bool
+PRBool
 *
 aCanPaste
 )
@@ -9284,7 +9284,7 @@ nsTextEditRules
 kInsertElement
 )
 ;
-bool
+PRBool
 cancel
 handled
 ;
@@ -9758,7 +9758,7 @@ cite
 '
 )
 ;
-bool
+PRBool
 curHunkIsQuoted
 =
 (
@@ -9854,7 +9854,7 @@ while
 1
 )
 {
-bool
+PRBool
 found
 =
 FindCharInReadable
@@ -9867,10 +9867,10 @@ lineStart
 strEnd
 )
 ;
-bool
+PRBool
 quoted
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -10097,7 +10097,7 @@ const
 nsAString
 &
 aQuotedText
-bool
+PRBool
 aAddCites
 nsIDOMNode
 *
@@ -10122,10 +10122,10 @@ aNodeInserted
 nsresult
 rv
 ;
-bool
+PRBool
 quotesInPre
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -10233,7 +10233,7 @@ nsTextEditRules
 kInsertElement
 )
 ;
-bool
+PRBool
 cancel
 handled
 ;
@@ -10554,7 +10554,7 @@ nsHTMLEditor
 :
 Rewrap
 (
-bool
+PRBool
 aRespectNewlines
 )
 {
@@ -10582,7 +10582,7 @@ const
 nsAString
 &
 aCitation
-bool
+PRBool
 aInsertHTML
 nsIDOMNode
 *
@@ -10697,7 +10697,7 @@ nsTextEditRules
 kInsertElement
 )
 ;
-bool
+PRBool
 cancel
 handled
 ;
@@ -11327,7 +11327,7 @@ outStartOffset
 PRInt32
 *
 outEndOffset
-bool
+PRBool
 aTrustedInput
 )
 {
@@ -11833,7 +11833,7 @@ nsIDOMNode
 >
 *
 outNode
-bool
+PRBool
 aTrustedInput
 )
 {
@@ -12106,7 +12106,7 @@ nsHTMLEditor
 :
 GetListAndTableParents
 (
-bool
+PRBool
 aEnd
 nsCOMArray
 <
@@ -12483,7 +12483,7 @@ nsHTMLEditor
 :
 ScanForListAndTableStructure
 (
-bool
+PRBool
 aEnd
 nsCOMArray
 <
@@ -12541,7 +12541,7 @@ listCount
 -
 1
 ;
-bool
+PRBool
 bList
 =
 nsHTMLEditUtils
@@ -12703,7 +12703,7 @@ nsHTMLEditor
 :
 ReplaceOrphanedStructure
 (
-bool
+PRBool
 aEnd
 nsCOMArray
 <
@@ -12852,7 +12852,7 @@ nsHTMLEditor
 :
 GetArrayEndpoint
 (
-bool
+PRBool
 aEnd
 nsCOMArray
 <

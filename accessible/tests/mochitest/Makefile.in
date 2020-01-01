@@ -518,10 +518,6 @@ attributes
 .
 js
 \
-autocomplete
-.
-js
-\
 common
 .
 js
@@ -539,6 +535,10 @@ layout
 js
 \
 name
+.
+js
+\
+nsIAccessible_selects
 .
 js
 \
@@ -565,6 +565,10 @@ js
 value
 .
 js
+\
+test_aria_activedescendant
+.
+html
 \
 test_aria_role_article
 .
@@ -615,6 +619,10 @@ test_elm_nsApplicationAcc
 html
 \
 test_elm_plugin
+.
+html
+\
+test_nsIAccessible_selects
 .
 html
 \

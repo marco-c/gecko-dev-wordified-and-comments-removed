@@ -55,13 +55,6 @@ h
 #
 include
 "
-jsfriendapi
-.
-h
-"
-#
-include
-"
 nsPluginHost
 .
 h
@@ -719,10 +712,10 @@ CheckClassInitialized
 )
 {
 static
-bool
+PRBool
 initialized
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -749,7 +742,7 @@ sPluginThreadAsyncCallLock
 ;
 initialized
 =
-true
+PR_TRUE
 ;
 NPN_PLUGIN_LOG
 (
@@ -970,7 +963,7 @@ define
 CGLRendererIntel900ID
 0x00024000
 static
-bool
+PRBool
 GMA9XXGraphics
 (
 )
@@ -978,7 +971,7 @@ GMA9XXGraphics
 bool
 hasIntelGMA9XX
 =
-false
+PR_FALSE
 ;
 CGLRendererInfoObj
 renderer
@@ -1059,7 +1052,7 @@ CGLRendererIntel900ID
 {
 hasIntelGMA9XX
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -1080,7 +1073,7 @@ hasIntelGMA9XX
 }
 #
 endif
-bool
+PRBool
 nsNPAPIPlugin
 :
 :
@@ -1103,7 +1096,7 @@ MOZ_DISABLE_OOP_PLUGINS
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -1113,7 +1106,7 @@ aPluginTag
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 #
@@ -1138,7 +1131,7 @@ OSXVersion
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -1177,7 +1170,7 @@ FindChar
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -1224,7 +1217,7 @@ EqualsASCII
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -1247,7 +1240,7 @@ GMA9XXGraphics
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 }
@@ -1306,7 +1299,7 @@ dwMinorVersion
 )
 )
 return
-false
+PR_FALSE
 ;
 #
 endif
@@ -1328,7 +1321,7 @@ prefs
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 nsCAutoString
@@ -1366,7 +1359,7 @@ kNotFound
 slashPos
 )
 return
-false
+PR_FALSE
 ;
 prefFile
 .
@@ -1476,7 +1469,7 @@ enabled
 ;
 #
 endif
-bool
+PRBool
 javaIsEnabled
 ;
 if
@@ -1516,7 +1509,7 @@ javaIsEnabled
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 PRUint32
@@ -1546,15 +1539,15 @@ prefCount
 prefNames
 )
 ;
-bool
+PRBool
 oopPluginsEnabled
 =
-false
+PR_FALSE
 ;
-bool
+PRBool
 prefSet
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -1606,10 +1599,10 @@ currentPref
 +
 prefixLength
 ;
-bool
+PRBool
 match
 =
-false
+PR_FALSE
 ;
 int
 valid
@@ -1702,7 +1695,7 @@ oopPluginsEnabled
 {
 prefSet
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -1723,7 +1716,7 @@ prefSet
 {
 oopPluginsEnabled
 =
-false
+PR_FALSE
 ;
 #
 ifdef
@@ -2319,16 +2312,15 @@ inst
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+NS_ADDREF
+(
+inst
+)
+;
 *
 aResult
 =
 inst
-;
-NS_ADDREF
-(
-*
-aResult
-)
 ;
 return
 NS_OK
@@ -2395,10 +2387,10 @@ char
 target
 eNPPStreamTypeInternal
 type
-bool
+PRBool
 bDoNotify
 =
-false
+PR_FALSE
 void
 *
 notifyData
@@ -2417,7 +2409,7 @@ nsnull
 NPBool
 file
 =
-false
+PR_FALSE
 )
 {
 if
@@ -2548,7 +2540,7 @@ get
 >
 SetCallNotify
 (
-false
+PR_FALSE
 )
 ;
 }
@@ -2778,7 +2770,7 @@ Run
 (
 )
 ;
-bool
+PRBool
 IsForInstance
 (
 NPP
@@ -2804,7 +2796,7 @@ mFunc
 nsnull
 ;
 }
-bool
+PRBool
 IsValid
 (
 )
@@ -4002,7 +3994,7 @@ npp
 relativeURL
 target
 eNPPStreamTypeInternal_Get
-true
+PR_TRUE
 notifyData
 )
 ;
@@ -4138,7 +4130,7 @@ npp
 relativeURL
 target
 eNPPStreamTypeInternal_Post
-true
+PR_TRUE
 notifyData
 len
 buf
@@ -4261,7 +4253,7 @@ npp
 relativeURL
 target
 eNPPStreamTypeInternal_Post
-false
+PR_FALSE
 nsnull
 len
 buf
@@ -5136,7 +5128,7 @@ nsMemory
 :
 HeapMinimize
 (
-true
+PR_TRUE
 )
 ;
 return
@@ -7240,9 +7232,7 @@ return
 false
 ;
 }
-obj
-=
-JS_ObjectToInnerObject
+OBJ_TO_INNER_OBJECT
 (
 cx
 obj
@@ -7403,10 +7393,10 @@ GetDocumentURI
 (
 )
 ;
-bool
+PRBool
 isChrome
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -7942,10 +7932,10 @@ urlnp
 UTF8Length
 )
 ;
-bool
+PRBool
 javaCompatible
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -7961,7 +7951,7 @@ javaCompatible
 )
 javaCompatible
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -9340,10 +9330,10 @@ npp
 >
 ndata
 ;
-bool
+PRBool
 windowless
 =
-false
+PR_FALSE
 ;
 inst
 -
@@ -9357,7 +9347,7 @@ windowless
 NPBool
 needXEmbed
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -9387,7 +9377,7 @@ res
 {
 needXEmbed
 =
-false
+PR_FALSE
 ;
 }
 }
@@ -9600,7 +9590,7 @@ NPBool
 )
 result
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -9619,10 +9609,10 @@ if
 prefs
 )
 {
-bool
+PRBool
 js
 =
-false
+PR_FALSE
 ;
 ;
 res
@@ -9672,7 +9662,7 @@ NPBool
 )
 result
 =
-false
+PR_FALSE
 ;
 return
 NPERR_NO_ERROR
@@ -9681,10 +9671,10 @@ case
 NPNVisOfflineBool
 :
 {
-bool
+PRBool
 offline
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -9806,7 +9796,7 @@ NPBool
 )
 result
 =
-true
+PR_TRUE
 ;
 #
 elif
@@ -9838,7 +9828,7 @@ NPBool
 )
 result
 =
-true
+PR_TRUE
 ;
 #
 else
@@ -9849,7 +9839,7 @@ NPBool
 )
 result
 =
-false
+PR_FALSE
 ;
 #
 endif
@@ -9965,7 +9955,7 @@ NPBool
 )
 result
 =
-true
+PR_TRUE
 ;
 #
 else
@@ -9976,7 +9966,7 @@ NPBool
 )
 result
 =
-false
+PR_FALSE
 ;
 #
 endif
@@ -10004,7 +9994,7 @@ if
 pbs
 )
 {
-bool
+PRBool
 enabled
 ;
 pbs
@@ -10304,7 +10294,7 @@ NPBool
 )
 result
 =
-true
+PR_TRUE
 ;
 return
 NPERR_NO_ERROR
@@ -10323,7 +10313,7 @@ NPBool
 )
 result
 =
-true
+PR_TRUE
 ;
 return
 NPERR_NO_ERROR
@@ -10340,7 +10330,7 @@ NPBool
 )
 result
 =
-true
+PR_TRUE
 ;
 return
 NPERR_NO_ERROR
@@ -10357,7 +10347,7 @@ NPBool
 )
 result
 =
-true
+PR_TRUE
 ;
 return
 NPERR_NO_ERROR
@@ -10377,7 +10367,7 @@ NPBool
 )
 result
 =
-true
+PR_TRUE
 ;
 return
 NPERR_NO_ERROR
@@ -10396,7 +10386,7 @@ NPBool
 )
 result
 =
-true
+PR_TRUE
 ;
 return
 NPERR_NO_ERROR
@@ -11313,7 +11303,7 @@ case
 NPPVpluginUsesDOMForCursorBool
 :
 {
-bool
+PRBool
 useDOMForCursor
 =
 (
@@ -13088,7 +13078,7 @@ if
 inst
 )
 return
-false
+PR_FALSE
 ;
 return
 inst

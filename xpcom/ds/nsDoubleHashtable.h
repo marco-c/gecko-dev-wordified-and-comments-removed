@@ -71,7 +71,7 @@ key
 }
 \
 static
-bool
+PRBool
 \
 ENTRY_CLASS
 #
@@ -166,7 +166,7 @@ ENTRY_CLASS
 }
 \
 static
-bool
+PRBool
 \
 ENTRY_CLASS
 #
@@ -253,7 +253,7 @@ InitEntry
 }
 ;
 \
-bool
+PRBool
 isLive
 =
 PL_DHashTableInit
@@ -656,7 +656,7 @@ key
 )
 ;
 }
-bool
+PRBool
 MatchEntry
 (
 const
@@ -753,7 +753,7 @@ key
 )
 ;
 }
-bool
+PRBool
 MatchEntry
 (
 const
@@ -849,7 +849,7 @@ key
 )
 ;
 }
-bool
+PRBool
 MatchEntry
 (
 const
@@ -948,7 +948,7 @@ key
 2
 ;
 }
-bool
+PRBool
 MatchEntry
 (
 const

@@ -246,7 +246,7 @@ const
 nsACString
 &
 aElementName
-bool
+PRBool
 *
 _exists
 )
@@ -301,7 +301,7 @@ mAsyncExecutionThread
 bool
 mAsyncExecutionThreadShuttingDown
 ;
-bool
+PRBool
 mTransactionInProgress
 ;
 nsDataHashtable

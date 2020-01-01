@@ -182,7 +182,7 @@ aValue
 nsSVGElement
 *
 aSVGElement
-bool
+PRBool
 aDoSetAttr
 )
 ;
@@ -279,7 +279,7 @@ return
 mSpecifiedUnitType
 ;
 }
-bool
+PRBool
 IsPercentage
 (
 )
@@ -353,7 +353,7 @@ mSpecifiedUnitType
 )
 ;
 }
-bool
+PRBool
 IsExplicitlySet
 (
 )
@@ -409,12 +409,12 @@ mAttrEnum
 PRUint8
 mCtxType
 ;
-bool
+PRPackedBool
 mIsAnimated
 :
 1
 ;
-bool
+PRPackedBool
 mIsBaseSet
 :
 1
@@ -1295,7 +1295,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-bool
+PRBool
 &
 aPreventCachingOfSandwich
 )

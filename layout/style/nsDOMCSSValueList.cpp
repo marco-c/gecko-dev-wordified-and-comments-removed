@@ -38,9 +38,9 @@ nsDOMCSSValueList
 :
 nsDOMCSSValueList
 (
-bool
+PRBool
 aCommaDelimited
-bool
+PRBool
 aReadonly
 )
 :

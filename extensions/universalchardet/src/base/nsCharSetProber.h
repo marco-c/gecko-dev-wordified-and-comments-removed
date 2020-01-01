@@ -120,7 +120,7 @@ DumpStatus
 #
 endif
 static
-bool
+PRBool
 FilterWithoutEnglishLetters
 (
 const
@@ -139,7 +139,7 @@ newLen
 )
 ;
 static
-bool
+PRBool
 FilterWithEnglishLetters
 (
 const

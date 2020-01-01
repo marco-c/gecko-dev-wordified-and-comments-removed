@@ -413,10 +413,10 @@ mSearchResult
 =
 RESULT_NOMATCH
 ;
-bool
+PRBool
 hasMore
 =
-false
+PR_FALSE
 ;
 nsDependentSubstring
 prefix
@@ -791,7 +791,7 @@ RemoveValueAt
 (
 PRInt32
 rowIndex
-bool
+PRBool
 removeFromDb
 )
 {
@@ -1027,13 +1027,13 @@ PRUnichar
 >
 mCurrentFilters
 ;
-bool
+PRPackedBool
 mShowHiddenFiles
 ;
-bool
+PRPackedBool
 mDirectoryFilter
 ;
-bool
+PRPackedBool
 mReverseSort
 ;
 }
@@ -1339,7 +1339,7 @@ nsFileView
 :
 SetShowHiddenFiles
 (
-bool
+PRBool
 aShowHidden
 )
 {
@@ -1371,7 +1371,7 @@ nsFileView
 :
 GetShowHiddenFiles
 (
-bool
+PRBool
 *
 aShowHidden
 )
@@ -1391,7 +1391,7 @@ nsFileView
 :
 SetShowOnlyDirectories
 (
-bool
+PRBool
 aOnlyDirs
 )
 {
@@ -1505,7 +1505,7 @@ nsFileView
 :
 GetShowOnlyDirectories
 (
-bool
+PRBool
 *
 aOnlyDirs
 )
@@ -1545,7 +1545,7 @@ nsFileView
 :
 GetReverseSort
 (
-bool
+PRBool
 *
 aReverseSort
 )
@@ -1567,7 +1567,7 @@ Sort
 (
 PRInt16
 aSortType
-bool
+PRBool
 aReverseSort
 )
 {
@@ -1695,10 +1695,10 @@ Clear
 (
 )
 ;
-bool
+PRBool
 hasMore
 =
-false
+PR_FALSE
 ;
 while
 (
@@ -1746,10 +1746,10 @@ do_QueryInterface
 nextItem
 )
 ;
-bool
+PRBool
 isDirectory
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -1770,7 +1770,7 @@ if
 isDirectory
 )
 {
-bool
+PRBool
 isHidden
 ;
 theFile
@@ -2511,7 +2511,7 @@ IsContainer
 (
 PRInt32
 aIndex
-bool
+PRBool
 *
 aIsContainer
 )
@@ -2533,7 +2533,7 @@ IsContainerOpen
 (
 PRInt32
 aIndex
-bool
+PRBool
 *
 aIsOpen
 )
@@ -2555,7 +2555,7 @@ IsContainerEmpty
 (
 PRInt32
 aIndex
-bool
+PRBool
 *
 aIsEmpty
 )
@@ -2577,7 +2577,7 @@ IsSeparator
 (
 PRInt32
 aIndex
-bool
+PRBool
 *
 aIsSeparator
 )
@@ -2597,7 +2597,7 @@ nsFileView
 :
 IsSorted
 (
-bool
+PRBool
 *
 aIsSorted
 )
@@ -2629,7 +2629,7 @@ aOrientation
 nsIDOMDataTransfer
 *
 dataTransfer
-bool
+PRBool
 *
 aCanDrop
 )
@@ -2695,7 +2695,7 @@ PRInt32
 aRowIndex
 PRInt32
 aAfterIndex
-bool
+PRBool
 *
 aHasSibling
 )
@@ -2837,7 +2837,7 @@ Count
 fileCount
 )
 ;
-bool
+PRBool
 isDirectory
 ;
 nsCOMPtr
@@ -3127,7 +3127,7 @@ aRow
 nsITreeColumn
 *
 aCol
-bool
+PRBool
 *
 aIsEditable
 )
@@ -3152,7 +3152,7 @@ aRow
 nsITreeColumn
 *
 aCol
-bool
+PRBool
 *
 aIsSelectable
 )
@@ -3344,10 +3344,10 @@ mFileList
 i
 )
 ;
-bool
+PRBool
 isHidden
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -3405,10 +3405,10 @@ filterCount
 j
 )
 {
-bool
+PRBool
 matched
 =
-false
+PR_FALSE
 ;
 if
 (

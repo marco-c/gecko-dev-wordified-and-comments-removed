@@ -1581,7 +1581,7 @@ jsdc
 ;
 obj
 =
-JS_ObjectToOuterObject
+js_ObjectToOuterObject
 (
 cx
 JSVAL_TO_OBJECT

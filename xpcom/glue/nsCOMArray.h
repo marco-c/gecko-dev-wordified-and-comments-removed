@@ -85,7 +85,7 @@ aObject
 )
 const
 ;
-bool
+PRBool
 EnumerateForwards
 (
 nsVoidArrayEnumFunc
@@ -105,7 +105,7 @@ aData
 )
 ;
 }
-bool
+PRBool
 EnumerateBackwards
 (
 nsVoidArrayEnumFunc
@@ -149,7 +149,7 @@ Clear
 (
 )
 ;
-bool
+PRBool
 InsertObjectAt
 (
 nsISupports
@@ -159,7 +159,7 @@ PRInt32
 aIndex
 )
 ;
-bool
+PRBool
 InsertObjectsAt
 (
 const
@@ -170,7 +170,7 @@ PRInt32
 aIndex
 )
 ;
-bool
+PRBool
 ReplaceObjectAt
 (
 nsISupports
@@ -180,7 +180,7 @@ PRInt32
 aIndex
 )
 ;
-bool
+PRBool
 AppendObject
 (
 nsISupports
@@ -198,7 +198,7 @@ Count
 )
 ;
 }
-bool
+PRBool
 AppendObjects
 (
 const
@@ -217,7 +217,7 @@ Count
 )
 ;
 }
-bool
+PRBool
 RemoveObject
 (
 nsISupports
@@ -225,14 +225,14 @@ nsISupports
 aObject
 )
 ;
-bool
+PRBool
 RemoveObjectAt
 (
 PRInt32
 aIndex
 )
 ;
-bool
+PRBool
 RemoveObjectsAt
 (
 PRInt32
@@ -257,7 +257,7 @@ Count
 )
 ;
 }
-bool
+PRBool
 SetCount
 (
 PRInt32
@@ -332,7 +332,7 @@ aIndex
 )
 ;
 }
-bool
+PRBool
 SetCapacity
 (
 PRUint32
@@ -553,7 +553,7 @@ aObject
 )
 ;
 }
-bool
+PRBool
 InsertObjectAt
 (
 T
@@ -581,7 +581,7 @@ aIndex
 )
 ;
 }
-bool
+PRBool
 InsertObjectsAt
 (
 const
@@ -606,7 +606,7 @@ aIndex
 )
 ;
 }
-bool
+PRBool
 ReplaceObjectAt
 (
 T
@@ -663,7 +663,7 @@ Clear
 ;
 }
 typedef
-bool
+PRBool
 (
 *
 nsCOMArrayEnumFunc
@@ -677,7 +677,7 @@ void
 aData
 )
 ;
-bool
+PRBool
 EnumerateForwards
 (
 nsCOMArrayEnumFunc
@@ -701,7 +701,7 @@ aData
 )
 ;
 }
-bool
+PRBool
 EnumerateBackwards
 (
 nsCOMArrayEnumFunc
@@ -766,7 +766,7 @@ aData
 )
 ;
 }
-bool
+PRBool
 AppendObject
 (
 T
@@ -791,7 +791,7 @@ aObject
 )
 ;
 }
-bool
+PRBool
 AppendObjects
 (
 const
@@ -813,7 +813,7 @@ aObjects
 )
 ;
 }
-bool
+PRBool
 RemoveObject
 (
 T
@@ -838,7 +838,7 @@ aObject
 )
 ;
 }
-bool
+PRBool
 RemoveObjectAt
 (
 PRInt32
@@ -855,7 +855,7 @@ aIndex
 )
 ;
 }
-bool
+PRBool
 RemoveObjectsAt
 (
 PRInt32

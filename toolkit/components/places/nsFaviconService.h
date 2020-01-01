@@ -202,7 +202,7 @@ aPageURI
 nsIURI
 *
 aFaviconURI
-bool
+PRBool
 aForceReload
 nsIFaviconDataCallback
 *
@@ -431,7 +431,7 @@ aURI
 nsIURI
 *
 aFavicon
-bool
+PRBool
 *
 aHasData
 )

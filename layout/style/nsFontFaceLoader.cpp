@@ -972,7 +972,7 @@ if
 httpChannel
 )
 {
-bool
+PRBool
 succeeded
 ;
 nsresult
@@ -1006,7 +1006,7 @@ NS_ERROR_NOT_AVAILABLE
 }
 }
 }
-bool
+PRBool
 fontUpdate
 =
 userFontSet
@@ -1841,10 +1841,10 @@ rv
 rv
 )
 ;
-bool
+PRBool
 inherits
 =
-false
+PR_FALSE
 ;
 rv
 =
@@ -1972,7 +1972,7 @@ return
 rv
 ;
 }
-bool
+PRBool
 nsUserFontSet
 :
 :
@@ -1987,10 +1987,10 @@ nsFontFaceRuleContainer
 aRules
 )
 {
-bool
+PRBool
 modified
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -2124,7 +2124,7 @@ FontFaceRuleRecord
 >
 &
 aOldRules
-bool
+PRBool
 &
 aFontSetModified
 )

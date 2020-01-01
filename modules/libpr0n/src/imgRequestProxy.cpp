@@ -499,10 +499,10 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 wasDecoded
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -647,7 +647,7 @@ imgRequestProxy
 :
 RemoveFromLoadGroup
 (
-bool
+PRBool
 releaseLoadGroup
 )
 {
@@ -731,7 +731,7 @@ imgRequestProxy
 :
 IsPending
 (
-bool
+PRBool
 *
 _retval
 )
@@ -868,7 +868,7 @@ mCanceled
 =
 PR_TRUE
 ;
-bool
+PRBool
 oldIsInLoadGroup
 =
 mIsInLoadGroup
@@ -1727,7 +1727,7 @@ imgRequestProxy
 :
 GetHasTransferredData
 (
-bool
+PRBool
 *
 hasData
 )
@@ -1977,7 +1977,7 @@ imgRequestProxy
 :
 OnDataAvailable
 (
-bool
+PRBool
 aCurrentFrame
 const
 nsIntRect
@@ -2299,7 +2299,7 @@ imgRequestProxy
 :
 OnStopRequest
 (
-bool
+PRBool
 lastPart
 )
 {
@@ -2509,7 +2509,7 @@ aReturn
 =
 nsnull
 ;
-bool
+PRBool
 animated
 ;
 if

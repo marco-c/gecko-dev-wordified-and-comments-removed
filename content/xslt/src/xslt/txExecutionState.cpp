@@ -215,7 +215,7 @@ txExecutionState
 txStylesheet
 *
 aStylesheet
-bool
+PRBool
 aDisableLoads
 )
 :
@@ -1193,7 +1193,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 txExecutionState
 :
 :
@@ -1329,7 +1329,7 @@ txExecutionState
 :
 pushBool
 (
-bool
+PRBool
 aBool
 )
 {
@@ -1346,7 +1346,7 @@ NS_OK
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-bool
+PRBool
 txExecutionState
 :
 :
@@ -1393,7 +1393,7 @@ PRUint32
 PR_FALSE
 )
 ;
-bool
+PRBool
 res
 =
 mBoolStack
@@ -1799,7 +1799,7 @@ const
 nsAString
 &
 aKeyValue
-bool
+PRBool
 aIndexIfNotFound
 txNodeSet
 *

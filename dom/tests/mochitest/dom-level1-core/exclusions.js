@@ -395,18 +395,6 @@ hc_nodevalue03
 ]
 ;
 var
-createProcessingInstructionHTML
-=
-[
-"
-documentinvalidcharacterexceptioncreatepi
-"
-"
-documentinvalidcharacterexceptioncreatepi1
-"
-]
-;
-var
 todoTests
 =
 {
@@ -486,7 +474,6 @@ indexErrTests
 attributeModTests
 modTests
 createEntityRef
-createProcessingInstructionHTML
 )
 ;
 for

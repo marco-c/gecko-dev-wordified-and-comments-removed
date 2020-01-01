@@ -100,7 +100,7 @@ mBuf
 PRInt32
 mLineStart
 ;
-bool
+PRBool
 mHasDescription
 ;
 int

@@ -1719,7 +1719,7 @@ const
 nsAString
 &
 aQuotedText
-bool
+PRBool
 aAddCites
 nsIDOMNode
 *
@@ -1808,7 +1808,7 @@ const
 nsAString
 &
 aCitation
-bool
+PRBool
 aInsertHTML
 nsIDOMNode
 *
@@ -2094,7 +2094,7 @@ InsertTableCell
 (
 PRInt32
 aNumber
-bool
+PRBool
 aAfter
 )
 {
@@ -2183,7 +2183,7 @@ InsertTableColumn
 (
 PRInt32
 aNumber
-bool
+PRBool
 aAfter
 )
 {
@@ -2272,7 +2272,7 @@ InsertTableRow
 (
 PRInt32
 aNumber
-bool
+PRBool
 aAfter
 )
 {
@@ -2666,7 +2666,7 @@ nsHTMLEditorLog
 :
 JoinTableCells
 (
-bool
+PRBool
 aMergeNonContiguousContents
 )
 {
@@ -2965,7 +2965,7 @@ const
 nsAString
 &
 aListType
-bool
+PRBool
 entireList
 const
 nsAString
@@ -3237,7 +3237,7 @@ InsertElementAtSelection
 nsIDOMElement
 *
 aElement
-bool
+PRBool
 aDeleteSelection
 )
 {

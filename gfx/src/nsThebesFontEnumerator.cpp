@@ -301,7 +301,7 @@ const
 char
 *
 aLangGroup
-bool
+PRBool
 *
 aResult
 )
@@ -360,7 +360,7 @@ nsThebesFontEnumerator
 :
 UpdateFontList
 (
-bool
+PRBool
 *
 _retval
 )

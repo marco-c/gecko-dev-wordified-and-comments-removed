@@ -48,7 +48,7 @@ nsIAsyncVerifyRedirectCallback
 h
 "
 static
-bool
+PRBool
 ServerIsNES3x
 (
 nsIHttpChannel
@@ -499,10 +499,10 @@ if
 httpChannel
 )
 {
-bool
+PRBool
 isReallyHTTP
 =
-false
+PR_FALSE
 ;
 aURI
 -
@@ -695,7 +695,7 @@ nsURIChecker
 :
 IsPending
 (
-bool
+PRBool
 *
 aPendingRet
 )

@@ -653,7 +653,7 @@ mSelectedType
 )
 mAllowURLs
 (
-false
+PR_FALSE
 )
 {
 }
@@ -697,7 +697,7 @@ char
 filename
 )
 )
-false
+PR_FALSE
 getter_AddRefs
 (
 localfile
@@ -1353,7 +1353,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-bool
+PRBool
 confirm_overwrite_file
 (
 GtkWidget
@@ -1417,7 +1417,7 @@ rv
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 nsAutoString
@@ -1572,7 +1572,7 @@ dialog
 )
 ;
 }
-bool
+PRBool
 result
 =
 (
@@ -2207,7 +2207,7 @@ GTK_FILE_CHOOSER
 (
 file_chooser
 )
-TRUE
+PR_TRUE
 )
 ;
 gint
@@ -2275,10 +2275,10 @@ if
 file
 )
 {
-bool
+PRBool
 exists
 =
-false
+PR_FALSE
 ;
 file
 -

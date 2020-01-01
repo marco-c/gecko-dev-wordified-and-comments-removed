@@ -228,10 +228,10 @@ sTimesFlushLoopInterrupted
 ;
 #
 endif
-bool
+PRBool
 mSuppressEOF
 ;
-bool
+PRBool
 mReadingFromStage
 ;
 nsTArray
@@ -271,7 +271,7 @@ nsIURI
 >
 mSpeculationBaseURI
 ;
-bool
+PRBool
 mStarted
 ;
 nsHtml5TreeOpStage
@@ -280,10 +280,10 @@ mStage
 eHtml5FlushState
 mFlushState
 ;
-bool
+PRBool
 mRunFlushLoopOnStack
 ;
-bool
+PRBool
 mCallContinueInterruptedParsingIfEnabled
 ;
 public
@@ -357,7 +357,7 @@ NS_OK
 NS_IMETHOD
 DidBuildModel
 (
-bool
+PRBool
 aTerminated
 )
 ;
@@ -483,7 +483,7 @@ return
 mDocShell
 ;
 }
-bool
+PRBool
 IsScriptExecuting
 (
 )
@@ -540,7 +540,7 @@ PRInt32
 aLine
 )
 ;
-bool
+PRBool
 IsScriptEnabled
 (
 )
@@ -548,7 +548,7 @@ IsScriptEnabled
 void
 EnableFragmentMode
 (
-bool
+PRBool
 aPreventScriptExecution
 )
 {
@@ -561,7 +561,7 @@ mPreventScriptExecution
 aPreventScriptExecution
 ;
 }
-bool
+PRBool
 IsFragmentMode
 (
 )
@@ -675,10 +675,10 @@ nsIContent
 aChild
 )
 {
-bool
+PRBool
 newParent
 =
-true
+PR_TRUE
 ;
 const
 nsIContentPtr
@@ -932,7 +932,7 @@ eInDocUpdate
 ;
 }
 inline
-bool
+PRBool
 HaveNotified
 (
 nsIContent
@@ -1124,7 +1124,7 @@ PRInt32
 aSource
 )
 ;
-bool
+PRBool
 IsComplete
 (
 )
@@ -1134,7 +1134,7 @@ return
 mParser
 ;
 }
-bool
+PRBool
 HasStarted
 (
 )
@@ -1143,7 +1143,7 @@ return
 mStarted
 ;
 }
-bool
+PRBool
 IsFlushing
 (
 )
@@ -1158,7 +1158,7 @@ eInFlush
 #
 ifdef
 DEBUG
-bool
+PRBool
 IsInFlushLoop
 (
 )

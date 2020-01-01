@@ -715,10 +715,10 @@ NSObject
 }
 end
 static
-bool
+PRBool
 sProcessedGetURLEvent
 =
-false
+PR_FALSE
 ;
 class
 GeckoNSApplication
@@ -1076,10 +1076,10 @@ ProcessPendingGetURLAppleEvents
 AutoAutoreleasePool
 pool
 ;
-bool
+PRBool
 keepSpinning
 =
-true
+PR_TRUE
 ;
 while
 (
@@ -2080,7 +2080,7 @@ itself
 before
 display
 .
-bool
+PRBool
 shouldShowItems
 ;
 rv
@@ -2386,7 +2386,7 @@ requested
 nsnull
 )
 ;
-bool
+PRBool
 abortQuit
 ;
 cancelQuit
@@ -2476,7 +2476,7 @@ return
 AutoAutoreleasePool
 pool
 ;
-bool
+PRBool
 isGetURLEvent
 =
 (

@@ -82,7 +82,7 @@ CSPService
 )
 ;
 static
-bool
+PRBool
 sCSPEnabled
 ;
 }

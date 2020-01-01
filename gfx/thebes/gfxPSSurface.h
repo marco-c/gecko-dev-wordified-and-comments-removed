@@ -132,7 +132,7 @@ yDPI
 )
 ;
 virtual
-bool
+PRBool
 GetRotateForLandscape
 (
 )

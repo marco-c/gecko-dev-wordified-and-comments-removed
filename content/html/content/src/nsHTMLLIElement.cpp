@@ -93,7 +93,7 @@ nsGenericHTMLElement
 )
 NS_DECL_NSIDOMHTMLLIELEMENT
 virtual
-bool
+PRBool
 ParseAttribute
 (
 PRInt32
@@ -112,7 +112,7 @@ aResult
 ;
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 IsAttributeMapped
 (
@@ -319,7 +319,7 @@ NS_STYLE_LIST_STYLE_DECIMAL
 }
 }
 ;
-bool
+PRBool
 nsHTMLLIElement
 :
 :
@@ -525,7 +525,7 @@ aData
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsHTMLLIElement
 :

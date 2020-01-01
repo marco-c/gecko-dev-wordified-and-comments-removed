@@ -639,10 +639,10 @@ AssertNotCurrentThreadOwns
 (
 )
 ;
-bool
+PRBool
 onCallingThread
 =
-false
+PR_FALSE
 ;
 (
 void
@@ -1761,10 +1761,10 @@ Cancel
 #
 ifdef
 DEBUG
-bool
+PRBool
 onCallingThread
 =
-false
+PR_FALSE
 ;
 (
 void

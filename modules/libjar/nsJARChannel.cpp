@@ -394,6 +394,10 @@ GetInputStreamWithSpec
 (
 mJarDirSpec
 mJarEntry
+.
+get
+(
+)
 getter_AddRefs
 (
 mJarStream
@@ -411,6 +415,10 @@ mJarReader
 GetInputStream
 (
 mJarEntry
+.
+get
+(
+)
 getter_AddRefs
 (
 mJarStream
@@ -605,7 +613,7 @@ nsJARInputThunk
 :
 IsNonBlocking
 (
-bool
+PRBool
 *
 nonBlocking
 )
@@ -801,7 +809,7 @@ rv
 return
 rv
 ;
-bool
+PRBool
 isJS
 ;
 rv
@@ -952,6 +960,10 @@ GetInnerZip
 (
 mJarFile
 mInnerJarEntry
+.
+get
+(
+)
 getter_AddRefs
 (
 reader
@@ -1046,6 +1058,10 @@ OpenInner
 (
 outerReader
 mInnerJarEntry
+.
+get
+(
+)
 )
 ;
 }
@@ -1094,7 +1110,7 @@ nsJARChannel
 :
 EnsureJarInput
 (
-bool
+PRBool
 blocking
 )
 {
@@ -1413,7 +1429,7 @@ nsJARChannel
 :
 IsPending
 (
-bool
+PRBool
 *
 result
 )
@@ -1829,6 +1845,10 @@ jarReader
 GetCertificatePrincipal
 (
 mJarEntry
+.
+get
+(
+)
 getter_AddRefs
 (
 cert
@@ -2773,7 +2793,7 @@ nsJARChannel
 :
 GetIsUnsafe
 (
-bool
+PRBool
 *
 isUnsafe
 )
@@ -3085,7 +3105,7 @@ if
 innerJARChannel
 )
 {
-bool
+PRBool
 unsafe
 ;
 innerJARChannel
@@ -3148,7 +3168,7 @@ unsafe
 -
 types
 "
-false
+PR_FALSE
 )
 )
 {

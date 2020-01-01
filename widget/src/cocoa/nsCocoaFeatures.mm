@@ -611,7 +611,7 @@ mOSXVersion
 static
 *
 /
-bool
+PRBool
 nsCocoaFeatures
 :
 :
@@ -635,7 +635,7 @@ MAC_OS_X_VERSION_10_6_HEX
 static
 *
 /
-bool
+PRBool
 nsCocoaFeatures
 :
 :

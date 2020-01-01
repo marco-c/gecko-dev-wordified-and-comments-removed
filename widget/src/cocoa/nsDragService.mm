@@ -646,7 +646,7 @@ NSEvent
 gLastDragMouseDownEvent
 ;
 extern
-bool
+PRBool
 gUserCancelledDrag
 ;
 /
@@ -2206,7 +2206,7 @@ retain
 ;
 gUserCancelledDrag
 =
-false
+PR_FALSE
 ;
 [
 mNativeDragView
@@ -2240,7 +2240,7 @@ YES
 ;
 gUserCancelledDrag
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -2251,7 +2251,7 @@ nsBaseDragService
 :
 EndDragSession
 (
-false
+PR_FALSE
 )
 ;
 return
@@ -2792,7 +2792,7 @@ nsDependentString
 (
 clipboardDataPtr
 )
-true
+PR_TRUE
 getter_AddRefs
 (
 file
@@ -3176,7 +3176,7 @@ const
 char
 *
 aDataFlavor
-bool
+PRBool
 *
 _retval
 )
@@ -3186,7 +3186,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
 *
 _retval
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -3415,7 +3415,7 @@ flavorStr
 *
 _retval
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -3471,7 +3471,7 @@ NSFilenamesPboardType
 *
 _retval
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -3516,7 +3516,7 @@ kCorePboardType_url
 *
 _retval
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -3564,7 +3564,7 @@ pboardType
 *
 _retval
 =
-true
+PR_TRUE
 ;
 }
 return
@@ -3724,7 +3724,7 @@ nsDragService
 :
 EndDragSession
 (
-bool
+PRBool
 aDoneDrag
 )
 {

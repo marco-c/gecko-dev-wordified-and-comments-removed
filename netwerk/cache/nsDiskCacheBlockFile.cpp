@@ -306,7 +306,7 @@ nsDiskCacheBlockFile
 :
 Close
 (
-bool
+PRBool
 flush
 )
 {

@@ -24,7 +24,7 @@ SSE
 .
 h
 "
-bool
+PRBool
 gfxAlphaRecovery
 :
 :

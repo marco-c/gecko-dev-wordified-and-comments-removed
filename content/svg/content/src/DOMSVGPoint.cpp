@@ -565,7 +565,7 @@ DOMSVGPointList
 aList
 PRUint32
 aListIndex
-bool
+PRBool
 aIsAnimValItem
 )
 {
@@ -678,7 +678,7 @@ mListIndex
 #
 ifdef
 DEBUG
-bool
+PRBool
 DOMSVGPoint
 :
 :

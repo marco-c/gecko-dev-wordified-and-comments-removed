@@ -129,7 +129,7 @@ height
 )
 {
 }
-bool
+PRBool
 operator
 =
 =
@@ -153,7 +153,7 @@ Init
 (
 )
 ;
-bool
+PRBool
 IsValid
 (
 )
@@ -194,7 +194,7 @@ aHeight
 nsSVGElement
 *
 aSVGElement
-bool
+PRBool
 aDoSetAttr
 )
 ;
@@ -241,7 +241,7 @@ aValue
 nsSVGElement
 *
 aSVGElement
-bool
+PRBool
 aDoSetAttr
 )
 ;
@@ -291,7 +291,7 @@ nsSVGViewBoxRect
 >
 mAnimVal
 ;
-bool
+PRPackedBool
 mHasBaseVal
 ;
 struct
@@ -809,7 +809,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-bool
+PRBool
 &
 aPreventCachingOfSandwich
 )

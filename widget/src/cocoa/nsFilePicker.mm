@@ -590,10 +590,10 @@ kSaveTypeControlTag
 1
 ;
 static
-bool
+PRBool
 gCallSecretHiddenFileAPI
 =
-false
+PR_FALSE
 ;
 const
 char
@@ -791,10 +791,10 @@ panel
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
-bool
+PRBool
 show
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -814,7 +814,7 @@ show
 {
 gCallSecretHiddenFileAPI
 =
-true
+PR_TRUE
 ;
 }
 if
@@ -1917,7 +1917,7 @@ userClicksOK
 GetLocalFiles
 (
 mTitle
-false
+PR_FALSE
 mFiles
 )
 ;
@@ -1931,7 +1931,7 @@ userClicksOK
 GetLocalFiles
 (
 mTitle
-true
+PR_TRUE
 mFiles
 )
 ;
@@ -2191,7 +2191,7 @@ const
 nsString
 &
 inTitle
-bool
+PRBool
 inAllowMultiple
 nsCOMArray
 <
@@ -2782,7 +2782,7 @@ NS_NewLocalFile
 EmptyString
 (
 )
-true
+PR_TRUE
 getter_AddRefs
 (
 localFile
@@ -3138,7 +3138,7 @@ NS_NewLocalFile
 EmptyString
 (
 )
-true
+PR_TRUE
 getter_AddRefs
 (
 localFile
@@ -3451,7 +3451,7 @@ NS_NewLocalFile
 EmptyString
 (
 )
-true
+PR_TRUE
 getter_AddRefs
 (
 localFile

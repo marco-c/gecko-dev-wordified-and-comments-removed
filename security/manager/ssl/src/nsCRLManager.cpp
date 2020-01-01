@@ -245,7 +245,7 @@ nsIURI
 aURI
 PRUint32
 aType
-bool
+PRBool
 doSilentDownload
 const
 PRUnichar
@@ -300,7 +300,7 @@ nsICRLInfo
 >
 crlData
 ;
-bool
+PRBool
 importSuccessful
 ;
 PRInt32
@@ -1135,10 +1135,10 @@ Free
 dayCntStr
 )
 ;
-bool
+PRBool
 toBeRescheduled
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -1405,7 +1405,7 @@ const
 PRUnichar
 *
 key
-bool
+PRBool
 *
 res
 )

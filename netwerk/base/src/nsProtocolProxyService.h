@@ -221,7 +221,7 @@ const
 nsCString
 &
 pacURI
-bool
+PRBool
 forceReload
 )
 ;
@@ -289,7 +289,7 @@ pi
 ;
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 IsProxyDisabled
 (
@@ -358,7 +358,7 @@ nsProtocolInfo
 info
 PRUint32
 flags
-bool
+PRBool
 *
 usePAC
 nsIProxyInfo
@@ -464,7 +464,7 @@ hostFilters
 ;
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 CanUseProxy
 (
@@ -508,7 +508,7 @@ protected
 struct
 HostInfo
 {
-bool
+PRBool
 is_ipaddr
 ;
 PRInt32
@@ -617,7 +617,7 @@ next
 }
 }
 ;
-bool
+PRBool
 mFilterLocalHosts
 ;
 nsTArray
@@ -663,7 +663,7 @@ mSOCKSProxyPort
 PRInt32
 mSOCKSProxyVersion
 ;
-bool
+PRBool
 mSOCKSProxyRemoteDNS
 ;
 nsRefPtr

@@ -52,7 +52,7 @@ StyleSheetLoaded
 nsCSSStyleSheet
 *
 aSheet
-bool
+PRBool
 aWasAlternate
 nsresult
 aStatus

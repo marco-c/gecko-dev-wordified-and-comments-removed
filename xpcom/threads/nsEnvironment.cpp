@@ -165,7 +165,7 @@ const
 nsAString
 &
 aName
-bool
+PRBool
 *
 aOutValue
 )
@@ -359,7 +359,7 @@ gEnvHash
 nsnull
 ;
 static
-bool
+PRBool
 EnsureEnvHash
 (
 )

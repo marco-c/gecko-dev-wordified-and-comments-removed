@@ -134,7 +134,7 @@ mName
 nsnull
 ;
 }
-bool
+PRBool
 nsJSID
 :
 :
@@ -330,7 +330,7 @@ nsJSID
 :
 GetValid
 (
-bool
+PRBool
 *
 aValid
 )
@@ -363,7 +363,7 @@ Equals
 nsIJSID
 *
 other
-bool
+PRBool
 *
 _retval
 )
@@ -506,7 +506,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-bool
+PRBool
 nsJSID
 :
 :
@@ -1210,7 +1210,7 @@ nsJSIID
 :
 GetValid
 (
-bool
+PRBool
 *
 aValid
 )
@@ -1233,7 +1233,7 @@ Equals
 nsIJSID
 *
 other
-bool
+PRBool
 *
 _retval
 )
@@ -1347,7 +1347,7 @@ return
 nsnull
 ;
 }
-bool
+PRBool
 canScript
 ;
 if
@@ -1413,7 +1413,7 @@ JSObject
 *
 *
 objp
-bool
+PRBool
 *
 _retval
 )
@@ -1552,7 +1552,7 @@ cx
 JSObject
 *
 obj
-bool
+PRBool
 *
 _retval
 )
@@ -1696,10 +1696,10 @@ const
 jsval
 &
 val
-bool
+PRBool
 *
 bp
-bool
+PRBool
 *
 _retval
 )
@@ -2276,7 +2276,7 @@ nsJSCID
 :
 GetValid
 (
-bool
+PRBool
 *
 aValid
 )
@@ -2299,7 +2299,7 @@ Equals
 nsIJSID
 *
 other
-bool
+PRBool
 *
 _retval
 )
@@ -2429,10 +2429,10 @@ if
 idObj
 )
 {
-bool
+PRBool
 success
 =
-false
+PR_FALSE
 ;
 NS_ADDREF
 (
@@ -3436,7 +3436,7 @@ argv
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -3516,10 +3516,10 @@ const
 jsval
 &
 val
-bool
+PRBool
 *
 bp
-bool
+PRBool
 *
 _retval
 )

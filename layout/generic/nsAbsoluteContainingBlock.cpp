@@ -423,11 +423,11 @@ nscoord
 aContainingBlockWidth
 nscoord
 aContainingBlockHeight
-bool
+PRBool
 aConstrainHeight
-bool
+PRBool
 aCBWidthChanged
-bool
+PRBool
 aCBHeightChanged
 nsOverflowAreas
 *
@@ -439,7 +439,7 @@ reflowStatus
 =
 NS_FRAME_COMPLETE
 ;
-bool
+PRBool
 reflowAll
 =
 aReflowState
@@ -482,7 +482,7 @@ GetNextSibling
 )
 )
 {
-bool
+PRBool
 kidNeedsReflow
 =
 reflowAll
@@ -801,7 +801,7 @@ ConvertsToLength
 )
 ;
 }
-bool
+PRBool
 nsAbsoluteContainingBlock
 :
 :
@@ -810,9 +810,9 @@ FrameDependsOnContainer
 nsIFrame
 *
 f
-bool
+PRBool
 aCBWidthChanged
-bool
+PRBool
 aCBHeightChanged
 )
 {
@@ -1321,7 +1321,7 @@ nsAbsoluteContainingBlock
 :
 DoMarkFramesDirty
 (
-bool
+PRBool
 aMarkAllDirty
 )
 {
@@ -1405,7 +1405,7 @@ nscoord
 aContainingBlockWidth
 nscoord
 aContainingBlockHeight
-bool
+PRBool
 aConstrainHeight
 nsIFrame
 *
@@ -1694,7 +1694,7 @@ WillReflow
 aPresContext
 )
 ;
-bool
+PRBool
 constrainHeight
 =
 (
@@ -1722,7 +1722,7 @@ GetType
 nsGkAtoms
 :
 :
-inlineFrame
+positionedInlineFrame
 )
 &
 &

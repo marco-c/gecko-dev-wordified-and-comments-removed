@@ -2328,7 +2328,7 @@ CAccessibleText
 :
 GetModifiedText
 (
-bool
+PRBool
 aGetInsertedText
 IA2TextSegment
 *

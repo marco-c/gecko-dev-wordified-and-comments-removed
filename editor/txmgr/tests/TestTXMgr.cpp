@@ -5454,7 +5454,7 @@ NS_OK
 NS_IMETHOD
 GetIsTransient
 (
-bool
+PRBool
 *
 aIsTransient
 )
@@ -5486,7 +5486,7 @@ Merge
 nsITransaction
 *
 aTransaction
-bool
+PRBool
 *
 aDidMerge
 )

@@ -227,7 +227,7 @@ this
 NS_DECL_NSIDOMCSSRULE
 NS_DECL_NSIDOMCSSMEDIARULE
 virtual
-bool
+PRBool
 UseForPresentation
 (
 nsPresContext
@@ -341,7 +341,7 @@ this
 NS_DECL_NSIDOMCSSRULE
 NS_DECL_NSIDOMCSSMOZDOCUMENTRULE
 virtual
-bool
+PRBool
 UseForPresentation
 (
 nsPresContext
@@ -930,7 +930,7 @@ Declaration
 *
 GetCSSDeclaration
 (
-bool
+PRBool
 aAllocate
 )
 ;
@@ -1300,7 +1300,7 @@ this
 NS_DECL_NSIDOMCSSRULE
 NS_DECL_NSIDOMMOZCSSKEYFRAMESRULE
 virtual
-bool
+PRBool
 UseForPresentation
 (
 nsPresContext

@@ -176,10 +176,10 @@ nsAccessible
 *
 mActionAcc
 ;
-bool
+PRPackedBool
 mIsLink
 ;
-bool
+PRPackedBool
 mIsOnclick
 ;
 }

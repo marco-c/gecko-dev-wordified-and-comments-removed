@@ -57,13 +57,13 @@ WinTaskbar
 NS_DECL_ISUPPORTS
 NS_DECL_NSIWINTASKBAR
 static
-bool
+PRBool
 RegisterAppUserModelID
 (
 )
 ;
 static
-bool
+PRBool
 GetAppUserModelID
 (
 nsAString
@@ -73,7 +73,7 @@ aDefaultGroupId
 ;
 private
 :
-bool
+PRBool
 Initialize
 (
 )

@@ -704,7 +704,7 @@ availableHeight
 0
 )
 {
-bool
+PRBool
 fixed
 =
 (

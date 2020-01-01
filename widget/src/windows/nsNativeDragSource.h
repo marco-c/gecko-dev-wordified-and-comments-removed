@@ -100,7 +100,7 @@ DWORD
 grfKeyState
 )
 ;
-bool
+PRPackedBool
 UserCancelled
 (
 )
@@ -123,7 +123,7 @@ mDataTransfer
 HCURSOR
 m_hCursor
 ;
-bool
+PRPackedBool
 mUserCancelled
 ;
 }

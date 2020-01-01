@@ -548,7 +548,7 @@ rv
 false
 )
 ;
-bool
+PRBool
 ready
 ;
 if
@@ -703,7 +703,7 @@ rv
 false
 )
 ;
-bool
+PRBool
 hasResult
 ;
 rv
@@ -809,7 +809,7 @@ rv
 false
 )
 ;
-bool
+PRBool
 hasResult
 ;
 rv
@@ -1022,10 +1022,10 @@ return
 false
 ;
 }
-bool
+PRBool
 vacuumGranted
 =
-false
+PR_FALSE
 ;
 rv
 =

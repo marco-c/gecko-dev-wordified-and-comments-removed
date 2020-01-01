@@ -20,11 +20,11 @@ EVENT_DEBUG_OUTPUT
 #
 define
 SHOW_REPEAT_EVENTS
-true
+PR_TRUE
 #
 define
 SHOW_MOUSEMOVE_EVENTS
-false
+PR_FALSE
 #
 endif
 #
@@ -47,9 +47,9 @@ PrintEvent
 (
 UINT
 msg
-bool
+PRBool
 aShowAllEvents
-bool
+PRBool
 aShowMouseMoves
 )
 ;
@@ -126,7 +126,7 @@ defined
 (
 DEBUG_VK
 )
-bool
+PRBool
 is_vk_down
 (
 int

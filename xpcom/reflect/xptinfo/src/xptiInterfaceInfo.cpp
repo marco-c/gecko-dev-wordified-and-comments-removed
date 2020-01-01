@@ -272,7 +272,7 @@ PARTIALLY_RESOLVED
 )
 ;
 }
-bool
+PRBool
 xptiInterfaceEntry
 :
 :
@@ -297,7 +297,7 @@ ResolveLocked
 )
 ;
 }
-bool
+PRBool
 xptiInterfaceEntry
 :
 :
@@ -548,7 +548,7 @@ xptiInterfaceEntry
 :
 IsScriptable
 (
-bool
+PRBool
 *
 result
 )
@@ -570,7 +570,7 @@ xptiInterfaceEntry
 :
 IsFunction
 (
-bool
+PRBool
 *
 result
 )
@@ -2114,7 +2114,7 @@ const
 nsIID
 *
 IID
-bool
+PRBool
 *
 _retval
 )
@@ -2189,7 +2189,7 @@ const
 nsIID
 *
 iid
-bool
+PRBool
 *
 _retval
 )
@@ -2363,7 +2363,7 @@ nsnull
 ;
 }
 }
-bool
+PRBool
 xptiInterfaceInfo
 :
 :

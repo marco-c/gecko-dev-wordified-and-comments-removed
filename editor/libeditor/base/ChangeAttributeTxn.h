@@ -57,7 +57,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aRemoveAttribute
 )
 ;
@@ -98,10 +98,10 @@ mValue
 nsString
 mUndoValue
 ;
-bool
+PRBool
 mAttributeWasSet
 ;
-bool
+PRBool
 mRemoveAttribute
 ;
 }

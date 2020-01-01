@@ -180,6 +180,17 @@ type
 )
 {
 case
+SPACE
+:
+out
+<
+<
+"
+"
+;
+break
+;
+case
 INT_CONSTANT
 :
 case

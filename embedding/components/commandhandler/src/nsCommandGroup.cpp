@@ -94,7 +94,7 @@ NS_DECL_NSISIMPLEENUMERATOR
 protected
 :
 static
-bool
+PRBool
 HashEnum
 (
 nsHashKey
@@ -127,7 +127,7 @@ char
 *
 mGroupNames
 ;
-bool
+PRBool
 mInitted
 ;
 }
@@ -186,7 +186,7 @@ nsGroupsEnumerator
 :
 HasMoreElements
 (
-bool
+PRBool
 *
 _retval
 )
@@ -357,7 +357,7 @@ _retval
 )
 ;
 }
-bool
+PRBool
 nsGroupsEnumerator
 :
 :
@@ -594,7 +594,7 @@ nsNamedGroupEnumerator
 :
 HasMoreElements
 (
-bool
+PRBool
 *
 _retval
 )
@@ -1088,7 +1088,7 @@ const
 char
 *
 aGroup
-bool
+PRBool
 *
 _retval
 )
@@ -1346,7 +1346,7 @@ mark
 -
 #
 endif
-bool
+PRBool
 nsControllerCommandGroup
 :
 :

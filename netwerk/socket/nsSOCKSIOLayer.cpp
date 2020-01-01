@@ -77,10 +77,10 @@ PRIOMethods
 nsSOCKSIOLayerMethods
 ;
 static
-bool
+PRBool
 firstTime
 =
-true
+PR_TRUE
 ;
 #
 if

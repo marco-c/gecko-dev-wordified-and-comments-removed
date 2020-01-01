@@ -69,7 +69,7 @@ NS_DECL_NSIDOMSVGLOCATABLE
 NS_DECL_NSIDOMSVGTRANSFORMABLE
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 IsAttributeMapped
 (
@@ -129,7 +129,7 @@ transform
 protected
 :
 virtual
-bool
+PRBool
 IsEventName
 (
 nsIAtom

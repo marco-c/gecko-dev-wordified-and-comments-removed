@@ -13,7 +13,7 @@ width
 ;
 height
 :
-45em
+42em
 ;
 padding
 :
@@ -84,7 +84,7 @@ margin
 padding
 :
 0
-6em
+8em
 ;
 background
 -
@@ -390,7 +390,11 @@ width
 ;
 }
 #
-pairDeviceThrobber
+add
+-
+device
+-
+throbber
 >
 image
 #
@@ -424,14 +428,6 @@ loading_16
 png
 "
 )
-;
-}
-#
-captchaFeedback
-{
-visibility
-:
-hidden
 ;
 }
 #

@@ -212,7 +212,7 @@ aToken
 mTokenCount
 ;
 }
-bool
+PRBool
 txExprLexer
 :
 :
@@ -330,7 +330,7 @@ prevToken
 &
 nullToken
 ;
-bool
+PRBool
 isToken
 ;
 while

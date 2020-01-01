@@ -70,10 +70,10 @@ mString
 nsIntRect
 mRect
 ;
-bool
+PRPackedBool
 mSucceeded
 ;
-bool
+PRPackedBool
 mReversed
 ;
 }

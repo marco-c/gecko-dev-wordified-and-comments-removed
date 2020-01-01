@@ -283,7 +283,7 @@ aOther
 mValue
 ;
 }
-bool
+PRBool
 operator
 <
 (
@@ -302,7 +302,7 @@ aOther
 mValue
 ;
 }
-bool
+PRBool
 operator
 <
 =
@@ -323,7 +323,7 @@ aOther
 mValue
 ;
 }
-bool
+PRBool
 operator
 >
 =
@@ -344,7 +344,7 @@ aOther
 mValue
 ;
 }
-bool
+PRBool
 operator
 >
 (
@@ -475,7 +475,7 @@ mValue
 )
 {
 }
-bool
+PRBool
 IsNull
 (
 )
@@ -774,7 +774,7 @@ return
 this
 ;
 }
-bool
+PRBool
 operator
 <
 (
@@ -831,7 +831,7 @@ aOther
 mValue
 ;
 }
-bool
+PRBool
 operator
 <
 =
@@ -890,7 +890,7 @@ aOther
 mValue
 ;
 }
-bool
+PRBool
 operator
 >
 =
@@ -949,7 +949,7 @@ aOther
 mValue
 ;
 }
-bool
+PRBool
 operator
 >
 (
@@ -1006,7 +1006,7 @@ aOther
 mValue
 ;
 }
-bool
+PRBool
 operator
 =
 =
@@ -1065,7 +1065,7 @@ aOther
 mValue
 ;
 }
-bool
+PRBool
 operator
 !
 =

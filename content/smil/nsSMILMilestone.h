@@ -13,7 +13,7 @@ nsSMILMilestone
 (
 nsSMILTime
 aTime
-bool
+PRBool
 aIsEnd
 )
 :
@@ -41,7 +41,7 @@ PR_FALSE
 )
 {
 }
-bool
+PRBool
 operator
 =
 =
@@ -70,7 +70,7 @@ aOther
 mIsEnd
 ;
 }
-bool
+PRBool
 operator
 !
 =
@@ -93,7 +93,7 @@ aOther
 )
 ;
 }
-bool
+PRBool
 operator
 <
 (
@@ -131,7 +131,7 @@ mIsEnd
 )
 ;
 }
-bool
+PRBool
 operator
 <
 =
@@ -157,7 +157,7 @@ this
 aOther
 ;
 }
-bool
+PRBool
 operator
 >
 =
@@ -182,7 +182,7 @@ aOther
 nsSMILTime
 mTime
 ;
-bool
+PRPackedBool
 mIsEnd
 ;
 }

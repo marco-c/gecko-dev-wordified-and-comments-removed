@@ -163,7 +163,7 @@ nsSMILTimeValueSpec
 nsSMILTimedElement
 &
 aOwner
-bool
+PRBool
 aIsBegin
 )
 :
@@ -580,7 +580,7 @@ get
 )
 ;
 }
-bool
+PRBool
 nsSMILTimeValueSpec
 :
 :
@@ -782,7 +782,7 @@ aSrcContainer
 nsSMILInstanceTime
 &
 aInstanceTimeToUpdate
-bool
+PRBool
 aObjectChanged
 )
 {
@@ -888,7 +888,7 @@ mIsBegin
 )
 ;
 }
-bool
+PRBool
 nsSMILTimeValueSpec
 :
 :
@@ -1589,7 +1589,7 @@ mIsBegin
 )
 ;
 }
-bool
+PRBool
 nsSMILTimeValueSpec
 :
 :
@@ -1638,7 +1638,7 @@ PR_TRUE
 ;
 }
 }
-bool
+PRBool
 nsSMILTimeValueSpec
 :
 :
@@ -1714,7 +1714,7 @@ mParams
 mRepeatIterationOrAccessKey
 ;
 }
-bool
+PRBool
 nsSMILTimeValueSpec
 :
 :
@@ -1761,10 +1761,10 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 isCtrl
 ;
-bool
+PRBool
 isMeta
 ;
 keyEvent
@@ -1819,10 +1819,10 @@ mParams
 .
 mRepeatIterationOrAccessKey
 ;
-bool
+PRBool
 isAlt
 ;
-bool
+PRBool
 isShift
 ;
 keyEvent

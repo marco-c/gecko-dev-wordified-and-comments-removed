@@ -65,7 +65,7 @@ Place
 nsRenderingContext
 &
 aRenderingContext
-bool
+PRBool
 aPlaceOrigin
 nsHTMLReflowMetrics
 &
@@ -172,12 +172,12 @@ PlaceInternal
 nsRenderingContext
 &
 aRenderingContext
-bool
+PRBool
 aPlaceOrigin
 nsHTMLReflowMetrics
 &
 aDesiredSize
-bool
+PRBool
 aWidthOnly
 )
 ;
@@ -212,7 +212,7 @@ mSlashChar
 nscoord
 mLineThickness
 ;
-bool
+PRPackedBool
 mIsBevelled
 ;
 }

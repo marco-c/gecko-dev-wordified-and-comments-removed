@@ -867,8 +867,7 @@ httpURI
 prePath
 "
 "
-"
-"
+null
 )
 ;
 let
@@ -889,8 +888,7 @@ httpsURI
 prePath
 "
 "
-"
-"
+null
 )
 ;
 return

@@ -43,7 +43,7 @@ nsFrameManagerBase
 {
 public
 :
-bool
+PRBool
 IsDestroyingFrames
 (
 )
@@ -119,7 +119,7 @@ UndisplayedMap
 *
 mUndisplayedMap
 ;
-bool
+PRPackedBool
 mIsDestroyingFrames
 ;
 }

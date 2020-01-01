@@ -217,7 +217,7 @@ mRuleTree
 void
 EnableQuirkStyleSheet
 (
-bool
+PRBool
 aEnable
 )
 ;
@@ -434,7 +434,7 @@ aComparator
 ;
 #
 endif
-bool
+PRBool
 AppendFontFaceRules
 (
 nsPresContext
@@ -448,7 +448,7 @@ nsFontFaceRuleContainer
 aArray
 )
 ;
-bool
+PRBool
 AppendKeyframesRules
 (
 nsPresContext
@@ -513,7 +513,7 @@ Element
 aElement
 )
 ;
-bool
+PRBool
 HasDocumentStateDependentStyle
 (
 nsPresContext
@@ -565,11 +565,11 @@ nsIAtom
 aAttribute
 PRInt32
 aModType
-bool
+PRBool
 aAttrHasChanged
 )
 ;
-bool
+PRBool
 MediumFeaturesChanged
 (
 nsPresContext
@@ -648,7 +648,7 @@ nsIStyleSheet
 aNewSheets
 )
 ;
-bool
+PRBool
 GetAuthorStyleDisabled
 (
 )
@@ -656,7 +656,7 @@ GetAuthorStyleDisabled
 nsresult
 SetAuthorStyleDisabled
 (
-bool
+PRBool
 aStyleDisabled
 )
 ;
@@ -741,7 +741,7 @@ nsIStyleSheet
 aQuirkStyleSheet
 )
 ;
-bool
+PRBool
 HasCachedStyleData
 (
 )
@@ -824,7 +824,7 @@ nsStyleSet
 aCopy
 )
 ;
-bool
+PRBool
 BuildDefaultStyleData
 (
 nsPresContext
@@ -928,7 +928,7 @@ aFunc
 RuleProcessorData
 *
 aData
-bool
+PRBool
 aWalkAllXBLStylesheets
 )
 ;
@@ -947,9 +947,9 @@ aRuleNode
 nsRuleNode
 *
 aVisitedRuleNode
-bool
+PRBool
 aIsLink
-bool
+PRBool
 aIsVisitedLink
 nsIAtom
 *
@@ -959,7 +959,7 @@ nsCSSPseudoElements
 :
 Type
 aPseudoType
-bool
+PRBool
 aDoAnimation
 mozilla
 :

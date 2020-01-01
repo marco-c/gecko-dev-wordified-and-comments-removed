@@ -103,7 +103,7 @@ FindEntry
 nsCString
 *
 key
-bool
+PRBool
 *
 collision
 )
@@ -333,7 +333,7 @@ mDeactivateEvent
 )
 ;
 }
-bool
+PRBool
 Initialized
 (
 )
@@ -345,7 +345,7 @@ mInitialized
 nsresult
 Shutdown_Private
 (
-bool
+PRBool
 flush
 )
 ;
@@ -395,7 +395,7 @@ mMaxEntrySize
 nsDiskCacheMap
 mCacheMap
 ;
-bool
+PRPackedBool
 mInitialized
 ;
 }

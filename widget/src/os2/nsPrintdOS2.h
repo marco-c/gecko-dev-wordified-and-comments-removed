@@ -65,7 +65,7 @@ path
 PATH_MAX
 ]
 ;
-bool
+PRBool
 cancel
 ;
 }

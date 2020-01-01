@@ -84,7 +84,7 @@ locale
 protected
 :
 inline
-bool
+PRBool
 ParseLocaleString
 (
 const

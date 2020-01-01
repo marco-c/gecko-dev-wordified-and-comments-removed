@@ -65,7 +65,7 @@ NodePointer
 nsINode
 *
 aNode
-bool
+PRBool
 aBeforeNode
 )
 :
@@ -79,7 +79,7 @@ aBeforeNode
 )
 {
 }
-bool
+PRBool
 nsNodeIterator
 :
 :
@@ -146,7 +146,7 @@ mNode
 )
 ;
 }
-bool
+PRBool
 nsNodeIterator
 :
 :
@@ -321,7 +321,7 @@ aPreviousSibling
 )
 ;
 }
-bool
+PRBool
 nsNodeIterator
 :
 :
@@ -455,7 +455,7 @@ aWhatToShow
 nsIDOMNodeFilter
 *
 aFilter
-bool
+PRBool
 aExpandEntityReferences
 )
 :
@@ -691,7 +691,7 @@ nsNodeIterator
 :
 GetExpandEntityReferences
 (
-bool
+PRBool
 *
 aExpandEntityReferences
 )
@@ -988,7 +988,7 @@ nsNodeIterator
 :
 GetPointerBeforeReferenceNode
 (
-bool
+PRBool
 *
 aBeforeNode
 )

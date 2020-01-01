@@ -90,7 +90,7 @@ growthRate
 ;
 static
 inline
-bool
+PRBool
 IsSpace
 (
 const
@@ -134,7 +134,7 @@ ch
 nsString
 &
 aStringToAppendTo
-bool
+PRBool
 inAttribute
 )
 {
@@ -241,7 +241,7 @@ EscapeStr
 nsString
 &
 aInString
-bool
+PRBool
 inAttribute
 )
 {
@@ -932,7 +932,7 @@ aInString
 }
 }
 }
-bool
+PRBool
 mozTXTToHTMLConv
 :
 :
@@ -1273,7 +1273,7 @@ pos
 -
 1
 ;
-bool
+PRBool
 isEmail
 =
 aInString
@@ -1562,7 +1562,7 @@ PR_FALSE
 ;
 }
 }
-bool
+PRBool
 mozTXTToHTMLConv
 :
 :
@@ -1712,7 +1712,7 @@ pos
 +
 1
 ;
-bool
+PRBool
 isEmail
 =
 aInString
@@ -1727,10 +1727,10 @@ PRUnichar
 '
 '
 ;
-bool
+PRBool
 haveOpeningBracket
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -2275,7 +2275,7 @@ Length
 return
 ;
 }
-bool
+PRBool
 mozTXTToHTMLConv
 :
 :
@@ -2373,7 +2373,7 @@ externalHandler
 return
 PR_TRUE
 ;
-bool
+PRBool
 exists
 ;
 rv
@@ -2400,7 +2400,7 @@ exists
 )
 ;
 }
-bool
+PRBool
 mozTXTToHTMLConv
 :
 :
@@ -2704,7 +2704,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 mozTXTToHTMLConv
 :
 :
@@ -3084,7 +3084,7 @@ check
 success
 ;
 }
-bool
+PRBool
 mozTXTToHTMLConv
 :
 :
@@ -3478,7 +3478,7 @@ return
 result
 ;
 }
-bool
+PRBool
 mozTXTToHTMLConv
 :
 :
@@ -3490,7 +3490,7 @@ PRUnichar
 aInString
 PRInt32
 aInStringLength
-bool
+PRBool
 col0
 const
 PRUnichar
@@ -3756,7 +3756,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 mozTXTToHTMLConv
 :
 :
@@ -3768,7 +3768,7 @@ PRUnichar
 aInString
 PRInt32
 aLength
-bool
+PRBool
 col0
 const
 char
@@ -4103,7 +4103,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 mozTXTToHTMLConv
 :
 :
@@ -4115,7 +4115,7 @@ PRUnichar
 aInString
 PRInt32
 aInLength
-bool
+PRBool
 col0
 nsString
 &
@@ -4155,10 +4155,10 @@ text1
 nsAutoString
 outputHTML
 ;
-bool
+PRBool
 bTestSmilie
 ;
-bool
+PRBool
 bArg
 ;
 int
@@ -5302,10 +5302,10 @@ strlen
 line
 )
 ;
-bool
+PRBool
 moreCites
 =
-true
+PR_TRUE
 ;
 while
 (
@@ -5568,7 +5568,7 @@ nsString
 aOutString
 )
 {
-bool
+PRBool
 doURLs
 =
 0
@@ -5580,7 +5580,7 @@ whattodo
 kURLs
 )
 ;
-bool
+PRBool
 doGlyphSubstitution
 =
 0
@@ -5592,7 +5592,7 @@ whattodo
 kGlyphSubstitution
 )
 ;
-bool
+PRBool
 doStructPhrase
 =
 0

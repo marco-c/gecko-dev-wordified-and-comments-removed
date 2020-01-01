@@ -220,6 +220,10 @@ html
 #
 assertion
 test
+asserts
+(
+2
+)
 load
 stress
 -
@@ -231,6 +235,12 @@ assertion
 /
 crash
 test
+.
+existing
+assertions
+are
+bug
+512749
 .
 load
 stress

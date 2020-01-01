@@ -181,7 +181,7 @@ kLittleEndian
 Endian
 mEndian
 ;
-bool
+PRBool
 mFoundBOM
 ;
 }

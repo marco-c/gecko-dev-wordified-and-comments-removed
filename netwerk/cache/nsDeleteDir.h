@@ -23,9 +23,9 @@ DeleteDir
 nsIFile
 *
 dir
-bool
+PRBool
 moveToTrash
-bool
+PRBool
 sync
 PRUint32
 delay

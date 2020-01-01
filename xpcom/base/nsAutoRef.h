@@ -805,7 +805,7 @@ aRawRef
 )
 {
 }
-bool
+PRBool
 HaveResource
 (
 )

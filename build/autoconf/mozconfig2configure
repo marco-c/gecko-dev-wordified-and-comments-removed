@@ -812,7 +812,7 @@ Adding
 configure
 options
 from
-FOUND_MOZCONFIG
+MOZCONFIG
 :
 "
 eval

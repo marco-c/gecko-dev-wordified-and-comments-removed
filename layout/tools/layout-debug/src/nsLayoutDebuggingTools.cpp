@@ -755,7 +755,7 @@ nsLayoutDebuggingTools
 :
 GetVisualDebugging
 (
-bool
+PRBool
 *
 aVisualDebugging
 )
@@ -775,7 +775,7 @@ nsLayoutDebuggingTools
 :
 SetVisualDebugging
 (
-bool
+PRBool
 aVisualDebugging
 )
 {
@@ -824,7 +824,7 @@ nsLayoutDebuggingTools
 :
 GetVisualEventDebugging
 (
-bool
+PRBool
 *
 aVisualEventDebugging
 )
@@ -844,7 +844,7 @@ nsLayoutDebuggingTools
 :
 SetVisualEventDebugging
 (
-bool
+PRBool
 aVisualEventDebugging
 )
 {
@@ -893,7 +893,7 @@ nsLayoutDebuggingTools
 :
 GetPaintFlashing
 (
-bool
+PRBool
 *
 aPaintFlashing
 )
@@ -913,7 +913,7 @@ nsLayoutDebuggingTools
 :
 SetPaintFlashing
 (
-bool
+PRBool
 aPaintFlashing
 )
 {
@@ -941,7 +941,7 @@ nsLayoutDebuggingTools
 :
 GetPaintDumping
 (
-bool
+PRBool
 *
 aPaintDumping
 )
@@ -961,7 +961,7 @@ nsLayoutDebuggingTools
 :
 SetPaintDumping
 (
-bool
+PRBool
 aPaintDumping
 )
 {
@@ -989,7 +989,7 @@ nsLayoutDebuggingTools
 :
 GetInvalidateDumping
 (
-bool
+PRBool
 *
 aInvalidateDumping
 )
@@ -1009,7 +1009,7 @@ nsLayoutDebuggingTools
 :
 SetInvalidateDumping
 (
-bool
+PRBool
 aInvalidateDumping
 )
 {
@@ -1037,7 +1037,7 @@ nsLayoutDebuggingTools
 :
 GetEventDumping
 (
-bool
+PRBool
 *
 aEventDumping
 )
@@ -1057,7 +1057,7 @@ nsLayoutDebuggingTools
 :
 SetEventDumping
 (
-bool
+PRBool
 aEventDumping
 )
 {
@@ -1085,7 +1085,7 @@ nsLayoutDebuggingTools
 :
 GetMotionEventDumping
 (
-bool
+PRBool
 *
 aMotionEventDumping
 )
@@ -1105,7 +1105,7 @@ nsLayoutDebuggingTools
 :
 SetMotionEventDumping
 (
-bool
+PRBool
 aMotionEventDumping
 )
 {
@@ -1133,7 +1133,7 @@ nsLayoutDebuggingTools
 :
 GetCrossingEventDumping
 (
-bool
+PRBool
 *
 aCrossingEventDumping
 )
@@ -1153,7 +1153,7 @@ nsLayoutDebuggingTools
 :
 SetCrossingEventDumping
 (
-bool
+PRBool
 aCrossingEventDumping
 )
 {
@@ -1181,7 +1181,7 @@ nsLayoutDebuggingTools
 :
 GetReflowCounts
 (
-bool
+PRBool
 *
 aShow
 )
@@ -1201,7 +1201,7 @@ nsLayoutDebuggingTools
 :
 SetReflowCounts
 (
-bool
+PRBool
 aShow
 )
 {
@@ -2704,7 +2704,7 @@ const
 char
 *
 aPrefName
-bool
+PRBool
 aNewVal
 )
 {

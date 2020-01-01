@@ -182,7 +182,7 @@ nsnull
 ;
 }
 }
-bool
+PRBool
 nsHyphenator
 :
 :
@@ -219,7 +219,7 @@ nsAString
 aString
 nsTArray
 <
-bool
+PRPackedBool
 >
 &
 aHyphens
@@ -259,10 +259,10 @@ Length
 )
 )
 ;
-bool
+PRBool
 inWord
 =
-false
+PR_FALSE
 ;
 PRUint32
 wordStart

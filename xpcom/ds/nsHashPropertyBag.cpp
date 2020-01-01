@@ -183,7 +183,7 @@ const
 nsAString
 &
 name
-bool
+PRBool
 *
 aResult
 )
@@ -255,7 +255,7 @@ nsIVariant
 _retval
 )
 {
-bool
+PRBool
 isFound
 =
 mPropertyHash
@@ -298,7 +298,7 @@ NS_ENSURE_ARG_POINTER
 value
 )
 ;
-bool
+PRBool
 success
 =
 mPropertyHash
@@ -333,7 +333,7 @@ nsAString
 name
 )
 {
-bool
+PRBool
 isFound
 =
 mPropertyHash
@@ -720,7 +720,7 @@ double
 IMPL_GETSETPROPERTY_AS
 (
 Bool
-bool
+PRBool
 )
 NS_IMETHODIMP
 nsHashPropertyBag

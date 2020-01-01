@@ -609,7 +609,7 @@ nsnull
 ;
 }
 static
-bool
+PRBool
 HasOpaqueAncestorLayer
 (
 Layer
@@ -1024,7 +1024,7 @@ SupportsComponentAlphaChildren
 #
 ifdef
 DEBUG
-bool
+PRBool
 is2d
 =
 #

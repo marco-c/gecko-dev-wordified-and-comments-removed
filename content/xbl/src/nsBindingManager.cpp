@@ -1041,7 +1041,7 @@ ObjectEntry
 ;
 }
 static
-bool
+PRBool
 InitObjectEntry
 (
 PLDHashTable
@@ -2367,10 +2367,10 @@ nsnull
 ;
 }
 }
-bool
+PRBool
 result
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -3011,7 +3011,7 @@ contentList
 )
 ;
 }
-bool
+PRBool
 nsBindingManager
 :
 :
@@ -3045,7 +3045,7 @@ GetAnonymousNodesInternal
 nsIContent
 *
 aContent
-bool
+PRBool
 *
 aIsAnonymousContentList
 )
@@ -3140,7 +3140,7 @@ nsIDOMNodeList
 aResult
 )
 {
-bool
+PRBool
 dummy
 ;
 NS_IF_ADDREF
@@ -3172,7 +3172,7 @@ nsIContent
 aContent
 )
 {
-bool
+PRBool
 dummy
 ;
 return
@@ -3260,7 +3260,7 @@ GetXBLChildNodesInternal
 nsIContent
 *
 aContent
-bool
+PRBool
 *
 aIsAnonymousContentList
 )
@@ -3385,7 +3385,7 @@ nsIContent
 aContent
 )
 {
-bool
+PRBool
 dummy
 ;
 return
@@ -3453,7 +3453,7 @@ aParent
 PRUint32
 *
 aIndex
-bool
+PRBool
 *
 aMultipleInsertionPoints
 )
@@ -3545,7 +3545,7 @@ nsXBLBinding
 >
 binding
 ;
-bool
+PRBool
 dummy
 ;
 xblService
@@ -5110,7 +5110,7 @@ aFunc
 RuleProcessorData
 *
 aData
-bool
+PRBool
 *
 aCutOffInheritance
 )
@@ -5530,7 +5530,7 @@ nsPresContext
 *
 mPresContext
 ;
-bool
+PRBool
 *
 mRulesChanged
 ;
@@ -5586,7 +5586,7 @@ MediumFeaturesChangedData
 aClosure
 )
 ;
-bool
+PRBool
 thisChanged
 =
 ruleProcessor
@@ -5628,7 +5628,7 @@ MediumFeaturesChanged
 nsPresContext
 *
 aPresContext
-bool
+PRBool
 *
 aRulesChanged
 )
@@ -5916,7 +5916,7 @@ GetNestedSingleInsertionPoint
 nsIContent
 *
 aParent
-bool
+PRBool
 *
 aMultipleInsertionPoints
 )
@@ -6007,7 +6007,7 @@ PRInt32
 aInsertionIndex
 )
 {
-bool
+PRBool
 isAnonymousContentList
 ;
 nsINodeList
@@ -6267,7 +6267,7 @@ index
 "
 )
 ;
-bool
+PRBool
 multiple
 ;
 nsIContent
@@ -6489,7 +6489,7 @@ aInsertionPointList
 nsIContent
 *
 aChild
-bool
+PRBool
 aRemoveFromPseudoPoints
 )
 {
@@ -6624,7 +6624,7 @@ if
 point
 )
 {
-bool
+PRBool
 isAnonymousContentList
 ;
 nsCOMPtr
@@ -7283,7 +7283,7 @@ nsIContent
 aChild
 PRUint32
 aIndexInContainer
-bool
+PRBool
 aAppend
 )
 {

@@ -510,7 +510,7 @@ ascent
 ;
 }
 static
-bool
+PRBool
 IsForeignChild
 (
 const
@@ -875,7 +875,7 @@ mBoundingMetrics
 }
 else
 {
-bool
+PRBool
 stretchAll
 =
 NS_MATHML_WILL_STRETCH_ALL_CHILDREN_VERTICALLY
@@ -912,10 +912,10 @@ GetPreferredStretchSize
 "
 )
 ;
-bool
+PRBool
 firstTime
 =
-true
+PR_TRUE
 ;
 nsBoundingMetrics
 bm
@@ -1339,7 +1339,7 @@ if
 mathMLFrame
 )
 {
-bool
+PRBool
 stretchAll
 =
 NS_MATHML_WILL_STRETCH_ALL_CHILDREN_VERTICALLY
@@ -1779,7 +1779,7 @@ nsHTMLReflowMetrics
 aDesiredSize
 )
 {
-bool
+PRBool
 placeOrigin
 =
 !
@@ -1851,10 +1851,10 @@ return
 rv
 ;
 }
-bool
+PRBool
 parentWillFireStretch
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -1946,7 +1946,7 @@ if
 parentWillFireStretch
 )
 {
-bool
+PRBool
 stretchAll
 =
 NS_MATHML_WILL_STRETCH_ALL_CHILDREN_HORIZONTALLY
@@ -4472,7 +4472,7 @@ Place
 nsRenderingContext
 &
 aRenderingContext
-bool
+PRBool
 aPlaceOrigin
 nsHTMLReflowMetrics
 &
@@ -4723,7 +4723,7 @@ nsIReflowCallback
 public
 :
 virtual
-bool
+PRBool
 ReflowFinished
 (
 )
@@ -4753,7 +4753,7 @@ SetIncrementScriptLevel
 (
 PRInt32
 aChildIndex
-bool
+PRBool
 aIncrement
 )
 {
@@ -5366,10 +5366,10 @@ childFrame
 *
 baseFrame
 ;
-bool
+PRBool
 embellishedOpFound
 =
-false
+PR_FALSE
 ;
 nsEmbellishData
 embellishData

@@ -527,7 +527,7 @@ aKey
 nsAString
 &
 aValue
-bool
+PRBool
 *
 aSecure
 )
@@ -645,11 +645,11 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aSecure
 PRInt32
 aQuota
-bool
+PRBool
 aExcludeOfflineFromUsage
 PRInt32
 *
@@ -911,7 +911,7 @@ nsAString
 &
 aKey
 const
-bool
+PRBool
 aSecure
 )
 {
@@ -988,7 +988,7 @@ const
 nsAString
 &
 aKey
-bool
+PRBool
 aExcludeOfflineFromUsage
 PRInt32
 aKeyUsage
@@ -1233,7 +1233,7 @@ nsCString
 *
 mSubDomain
 ;
-bool
+PRBool
 mMatch
 ;
 }
@@ -1307,7 +1307,7 @@ const
 nsACString
 &
 aOwner
-bool
+PRBool
 aIncludeSubDomains
 )
 {
@@ -1383,9 +1383,9 @@ nsString
 >
 &
 aOwners
-bool
+PRBool
 aIncludeSubDomains
-bool
+PRBool
 aMatch
 )
 {
@@ -1538,7 +1538,7 @@ GetUsage
 DOMStorageImpl
 *
 aStorage
-bool
+PRBool
 aExcludeOfflineFromUsage
 PRInt32
 *
@@ -1571,7 +1571,7 @@ const
 nsACString
 &
 aDomain
-bool
+PRBool
 aIncludeSubDomains
 PRInt32
 *
@@ -1733,7 +1733,7 @@ const
 nsACString
 &
 aQuotaDomainDBKey
-bool
+PRBool
 aExcludeOfflineFromUsage
 PRInt32
 *

@@ -265,7 +265,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsPluginArray
 :
 :
@@ -273,10 +273,10 @@ AllowPlugins
 (
 )
 {
-bool
+PRBool
 allowPlugins
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -676,7 +676,7 @@ nsPluginArray
 :
 Refresh
 (
-bool
+PRBool
 aReloadDocuments
 )
 {
@@ -723,10 +723,10 @@ return
 res
 ;
 }
-bool
+PRBool
 pluginsNotChanged
 =
-false
+PR_FALSE
 ;
 if
 (

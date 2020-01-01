@@ -26,7 +26,7 @@ nsHashKeys
 .
 h
 "
-bool
+PRBool
 nsSMILCompositor
 :
 :

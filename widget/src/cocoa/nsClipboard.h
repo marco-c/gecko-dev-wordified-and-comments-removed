@@ -60,7 +60,7 @@ PRUint32
 aLength
 PRInt32
 aWhichClipboard
-bool
+PRBool
 *
 _retval
 )
@@ -76,7 +76,7 @@ aTransferable
 )
 ;
 static
-bool
+PRBool
 IsStringType
 (
 const

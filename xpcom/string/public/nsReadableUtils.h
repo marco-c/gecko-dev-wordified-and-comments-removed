@@ -422,7 +422,7 @@ nsAString
 aDest
 )
 ;
-bool
+PRBool
 IsASCII
 (
 const
@@ -431,7 +431,7 @@ nsAString
 aString
 )
 ;
-bool
+PRBool
 IsASCII
 (
 const
@@ -440,20 +440,20 @@ nsACString
 aString
 )
 ;
-bool
+PRBool
 IsUTF8
 (
 const
 nsACString
 &
 aString
-bool
+PRBool
 aRejectNonChar
 =
-true
+PR_TRUE
 )
 ;
-bool
+PRBool
 ParseString
 (
 const
@@ -522,7 +522,7 @@ nsACString
 aDest
 )
 ;
-bool
+PRBool
 FindInReadable
 (
 const
@@ -548,7 +548,7 @@ nsDefaultStringComparator
 )
 )
 ;
-bool
+PRBool
 FindInReadable
 (
 const
@@ -575,7 +575,7 @@ nsDefaultCStringComparator
 )
 ;
 inline
-bool
+PRBool
 FindInReadable
 (
 const
@@ -628,7 +628,7 @@ compare
 ;
 }
 inline
-bool
+PRBool
 FindInReadable
 (
 const
@@ -680,7 +680,7 @@ compare
 )
 ;
 }
-bool
+PRBool
 CaseInsensitiveFindInReadable
 (
 const
@@ -699,7 +699,7 @@ const_iterator
 &
 )
 ;
-bool
+PRBool
 RFindInReadable
 (
 const
@@ -725,7 +725,7 @@ nsDefaultStringComparator
 )
 )
 ;
-bool
+PRBool
 RFindInReadable
 (
 const
@@ -751,7 +751,7 @@ nsDefaultCStringComparator
 )
 )
 ;
-bool
+PRBool
 FindCharInReadable
 (
 PRUnichar
@@ -771,7 +771,7 @@ const_iterator
 aSearchEnd
 )
 ;
-bool
+PRBool
 FindCharInReadable
 (
 char
@@ -813,7 +813,7 @@ char
 aChar
 )
 ;
-bool
+PRBool
 StringBeginsWith
 (
 const
@@ -834,7 +834,7 @@ nsDefaultStringComparator
 )
 )
 ;
-bool
+PRBool
 StringBeginsWith
 (
 const
@@ -855,7 +855,7 @@ nsDefaultCStringComparator
 )
 )
 ;
-bool
+PRBool
 StringEndsWith
 (
 const
@@ -876,7 +876,7 @@ nsDefaultStringComparator
 )
 )
 ;
-bool
+PRBool
 StringEndsWith
 (
 const
@@ -941,7 +941,7 @@ class
 T
 >
 inline
-bool
+PRBool
 EnsureStringLength
 (
 T

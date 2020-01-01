@@ -357,7 +357,7 @@ nsSVGElement
 )
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 IsAttributeMapped
 (
@@ -369,7 +369,7 @@ name
 const
 ;
 virtual
-bool
+PRBool
 GetAttr
 (
 PRInt32
@@ -392,7 +392,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-bool
+PRBool
 aNotify
 )
 ;
@@ -454,7 +454,7 @@ GetClassInfo
 protected
 :
 virtual
-bool
+PRBool
 ParseAttribute
 (
 PRInt32

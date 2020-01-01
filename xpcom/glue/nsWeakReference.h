@@ -76,7 +76,7 @@ ClearWeakReferences
 (
 )
 ;
-bool
+PRBool
 HasWeakReferences
 (
 )

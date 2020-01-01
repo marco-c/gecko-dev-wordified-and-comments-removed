@@ -194,7 +194,7 @@ aFieldName
 )
 const
 ;
-bool
+PRBool
 ResolveAllFields
 (
 JSContext
@@ -218,7 +218,7 @@ obj
 )
 const
 ;
-bool
+PRBool
 CompiledMembers
 (
 )

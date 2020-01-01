@@ -477,7 +477,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-bool
+PRBool
 nsOS2Locale
 :
 :

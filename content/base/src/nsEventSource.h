@@ -208,7 +208,7 @@ NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSICHANNELEVENTSINK
 NS_DECL_NSIINTERFACEREQUESTOR
 static
-bool
+PRBool
 PrefEnabled
 (
 )
@@ -366,7 +366,7 @@ PRUnichar
 aChr
 )
 ;
-bool
+PRBool
 CheckCanRequestSrc
 (
 nsIURI
@@ -440,13 +440,13 @@ PARSE_STATE_BEGIN_OF_LINE
 ParserStatus
 mStatus
 ;
-bool
+PRPackedBool
 mFrozen
 ;
-bool
+PRPackedBool
 mErrorLoadOnRedirect
 ;
-bool
+PRPackedBool
 mGoingToDispatchAllMessages
 ;
 nsCOMPtr

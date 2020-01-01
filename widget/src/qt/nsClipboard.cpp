@@ -1707,7 +1707,7 @@ PRUint32
 aLength
 PRInt32
 aWhichClipboard
-bool
+PRBool
 *
 _retval
 )
@@ -2212,7 +2212,7 @@ nsClipboard
 :
 SupportsSelectionClipboard
 (
-bool
+PRBool
 *
 _retval
 )

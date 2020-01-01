@@ -1107,10 +1107,10 @@ filename
 =
 value
 ;
-bool
+PRBool
 success
 =
-false
+PR_FALSE
 ;
 nsAutoString
 entryuri

@@ -97,7 +97,7 @@ mDisabledSet
 PR_FALSE
 ;
 }
-bool
+PRBool
 GetDisabled
 (
 )
@@ -109,7 +109,7 @@ mDisabled
 void
 SetDisabled
 (
-bool
+PRBool
 aDisabled
 )
 {
@@ -122,7 +122,7 @@ mDisabledSet
 PR_TRUE
 ;
 }
-bool
+PRBool
 IsDisabledSet
 (
 )
@@ -165,10 +165,10 @@ mContentData
 nsPoint
 mScrollState
 ;
-bool
+PRPackedBool
 mDisabledSet
 ;
-bool
+PRPackedBool
 mDisabled
 ;
 }

@@ -882,7 +882,7 @@ mozHunspell
 :
 GetProvidesPersonalDictionary
 (
-bool
+PRBool
 *
 aProvidesPersonalDictionary
 )
@@ -907,7 +907,7 @@ mozHunspell
 :
 GetProvidesWordUtils
 (
-bool
+PRBool
 *
 aProvidesWordUtils
 )
@@ -1015,7 +1015,7 @@ dics
 PRUint32
 count
 ;
-bool
+PRBool
 failed
 ;
 }
@@ -1413,7 +1413,7 @@ appDir
 )
 )
 ;
-bool
+PRBool
 equals
 ;
 if
@@ -1495,7 +1495,7 @@ rv
 )
 return
 ;
-bool
+PRBool
 hasMore
 ;
 while
@@ -1654,10 +1654,10 @@ aDir
 nsresult
 rv
 ;
-bool
+PRBool
 check
 =
-false
+PR_FALSE
 ;
 rv
 =
@@ -2058,7 +2058,7 @@ const
 PRUnichar
 *
 aWord
-bool
+PRBool
 *
 aResult
 )

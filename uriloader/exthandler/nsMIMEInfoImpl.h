@@ -113,7 +113,7 @@ const
 nsACString
 &
 aExtension
-bool
+PRBool
 *
 _retval
 )
@@ -183,7 +183,7 @@ Equals
 nsIMIMEInfo
 *
 aMIMEInfo
-bool
+PRBool
 *
 _retval
 )
@@ -259,7 +259,7 @@ aPreferredAction
 NS_IMETHOD
 GetAlwaysAskBeforeHandling
 (
-bool
+PRBool
 *
 aAlwaysAskBeforeHandling
 )
@@ -267,7 +267,7 @@ aAlwaysAskBeforeHandling
 NS_IMETHOD
 SetAlwaysAskBeforeHandling
 (
-bool
+PRBool
 aAlwaysAskBeforeHandling
 )
 ;
@@ -361,7 +361,7 @@ nsMIMEInfoBase
 aOther
 )
 ;
-bool
+PRBool
 HasExtensions
 (
 )
@@ -507,7 +507,7 @@ mPreferredAppDescription
 nsString
 mDefaultAppDescription
 ;
-bool
+PRBool
 mAlwaysAskBeforeHandling
 ;
 }
@@ -578,7 +578,7 @@ nsMIMEInfoImpl
 NS_IMETHOD
 GetHasDefaultHandler
 (
-bool
+PRBool
 *
 _retval
 )

@@ -153,7 +153,7 @@ End
 NS_IMETHOD
 GetBadTagFound
 (
-bool
+PRBool
 *
 aFound
 )
@@ -168,7 +168,7 @@ Notify
 ;
 protected
 :
-bool
+PRBool
 mBadTagFound
 ;
 }

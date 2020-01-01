@@ -108,10 +108,10 @@ const
 nsRect
 &
 aRect
-bool
+PRBool
 aRemoveOverflowArea
 =
-false
+PR_FALSE
 )
 ;
 friend
@@ -144,10 +144,10 @@ GetTreeBoxObject
 void
 InvalidateColumns
 (
-bool
+PRBool
 aCanWalkFrameTree
 =
-true
+PR_TRUE
 )
 ;
 }

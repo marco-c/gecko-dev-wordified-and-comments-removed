@@ -146,7 +146,7 @@ mTypeAtom
 PRUint16
 mFlags
 ;
-bool
+PRPackedBool
 mHandlerIsString
 ;
 nsIJSEventListener
@@ -218,9 +218,9 @@ aType
 nsIDOMEventListener
 *
 aListener
-bool
+PRBool
 aUseCapture
-bool
+PRBool
 aWantsUntrusted
 )
 ;
@@ -234,7 +234,7 @@ aType
 nsIDOMEventListener
 *
 aListener
-bool
+PRBool
 aUseCapture
 )
 ;
@@ -278,9 +278,9 @@ nsAString
 aFunc
 PRUint32
 aLanguage
-bool
+PRBool
 aDeferCompilation
-bool
+PRBool
 aPermitUntrustedEvents
 )
 ;
@@ -446,12 +446,12 @@ Disconnect
 (
 )
 ;
-bool
+PRBool
 HasMutationListeners
 (
 )
 ;
-bool
+PRBool
 HasUnloadListeners
 (
 )
@@ -461,7 +461,7 @@ MutationListenerBits
 (
 )
 ;
-bool
+PRBool
 HasListenersFor
 (
 const
@@ -470,7 +470,7 @@ nsAString
 aEventName
 )
 ;
-bool
+PRBool
 HasListeners
 (
 )
@@ -500,7 +500,7 @@ Shutdown
 (
 )
 ;
-bool
+PRBool
 MayHavePaintEventListener
 (
 )
@@ -509,7 +509,7 @@ return
 mMayHavePaintEventListener
 ;
 }
-bool
+PRBool
 MayHaveAudioAvailableEventListener
 (
 )
@@ -518,7 +518,7 @@ return
 mMayHaveAudioAvailableEventListener
 ;
 }
-bool
+PRBool
 MayHaveTouchEventListener
 (
 )
@@ -527,7 +527,7 @@ return
 mMayHaveTouchEventListener
 ;
 }
-bool
+PRBool
 MayHaveMouseEnterLeaveEventListener
 (
 )
@@ -572,7 +572,7 @@ CompileEventHandlerInternal
 nsListenerStruct
 *
 aListenerStruct
-bool
+PRBool
 aNeedsCxPush
 const
 nsAString
@@ -606,7 +606,7 @@ aName
 JSObject
 *
 aHandler
-bool
+PRBool
 aPermitUntrustedEvents
 nsListenerStruct
 *

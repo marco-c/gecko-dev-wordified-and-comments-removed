@@ -49,7 +49,7 @@ EEventRule
 {
 eAllowDupes
 eCoalesceFromSameSubtree
-eCoalesceOfSameType
+eCoalesceFromSameDocument
 eRemoveDupes
 eDoNotEmit
 }
@@ -115,7 +115,7 @@ return
 mEventRule
 ;
 }
-bool
+PRBool
 IsFromUserInput
 (
 )
@@ -211,7 +211,7 @@ EIsFromUserInput
 aIsFromUserInput
 )
 ;
-bool
+PRBool
 mIsFromUserInput
 ;
 PRUint32
@@ -253,7 +253,7 @@ nsAccessible
 aAccessible
 PRUint64
 aState
-bool
+PRBool
 aIsEnabled
 EIsFromUserInput
 aIsFromUserInput
@@ -268,7 +268,7 @@ nsINode
 aNode
 PRUint64
 aState
-bool
+PRBool
 aIsEnabled
 )
 ;
@@ -331,7 +331,7 @@ return
 mState
 ;
 }
-bool
+PRBool
 IsStateEnabled
 (
 )
@@ -346,7 +346,7 @@ private
 PRUint64
 mState
 ;
-bool
+PRBool
 mIsEnabled
 ;
 }
@@ -370,7 +370,7 @@ const
 nsAString
 &
 aModifiedText
-bool
+PRBool
 aIsInserted
 EIsFromUserInput
 aIsFromUserInput
@@ -442,7 +442,7 @@ Length
 )
 ;
 }
-bool
+PRBool
 IsTextInserted
 (
 )
@@ -470,7 +470,7 @@ private
 PRInt32
 mStart
 ;
-bool
+PRBool
 mIsInserted
 ;
 nsString
@@ -784,16 +784,6 @@ private
 PRInt32
 mCaretOffset
 ;
-}
-;
-class
-AccSelectionChangeEvent
-:
-public
-AccEvent
-{
-public
-:
 }
 ;
 class

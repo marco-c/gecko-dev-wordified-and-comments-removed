@@ -44,7 +44,7 @@ const
 nsAFlatCString
 &
 aURI
-bool
+PRBool
 aIRI
 nsAString
 &

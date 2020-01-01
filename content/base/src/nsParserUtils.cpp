@@ -164,7 +164,7 @@ iter
 ;
 \
 }
-bool
+PRBool
 nsParserUtils
 :
 :
@@ -539,7 +539,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsParserUtils
 :
 :

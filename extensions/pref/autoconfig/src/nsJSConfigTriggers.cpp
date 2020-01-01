@@ -575,11 +575,11 @@ const
 char
 *
 filename
-bool
+PRBool
 bGlobalContext
-bool
+PRBool
 bCallbacks
-bool
+PRBool
 skipFirstLine
 )
 {

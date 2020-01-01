@@ -1470,7 +1470,7 @@ elementSize
 =
 sizeof
 (
-bool
+PRBool
 )
 ;
 break
@@ -3165,7 +3165,7 @@ const
 nsDiscriminatedUnion
 &
 data
-bool
+PRBool
 *
 _retval
 )
@@ -3394,7 +3394,7 @@ _retval
 ;
 }
 static
-bool
+PRBool
 String2ID
 (
 const
@@ -3591,7 +3591,7 @@ pChars
 return
 PR_FALSE
 ;
-bool
+PRBool
 result
 =
 pid
@@ -7242,7 +7242,7 @@ SetFromBool
 nsDiscriminatedUnion
 *
 data
-bool
+PRBool
 aValue
 )
 {
@@ -8708,10 +8708,10 @@ array
 )
 ;
 static
-bool
+PRBool
 inited
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -9032,7 +9032,7 @@ nsVariant
 :
 GetAsBool
 (
-bool
+PRBool
 *
 _retval
 )
@@ -9418,7 +9418,7 @@ nsVariant
 :
 GetWritable
 (
-bool
+PRBool
 *
 aWritable
 )
@@ -9438,7 +9438,7 @@ nsVariant
 :
 SetWritable
 (
-bool
+PRBool
 aWritable
 )
 {
@@ -9767,7 +9767,7 @@ nsVariant
 :
 SetAsBool
 (
-bool
+PRBool
 aValue
 )
 {

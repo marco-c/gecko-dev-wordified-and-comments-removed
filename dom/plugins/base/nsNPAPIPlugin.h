@@ -248,7 +248,7 @@ browserDumpID
 )
 ;
 static
-bool
+PRBool
 RunPluginOOP
 (
 const

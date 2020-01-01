@@ -104,7 +104,7 @@ h
 >
 #
 ifndef
-ANDROID
+__arm__
 #
 include
 <
@@ -804,7 +804,7 @@ LINUX
 !
 defined
 (
-ANDROID
+__arm__
 )
 ucontext_t
 *

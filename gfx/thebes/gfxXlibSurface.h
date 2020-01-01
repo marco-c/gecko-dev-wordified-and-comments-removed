@@ -271,7 +271,7 @@ ReleasePixmap
 (
 )
 ;
-bool
+PRBool
 GetColormapAndVisual
 (
 Colormap
@@ -315,7 +315,7 @@ GetGLXPixmap
 endif
 protected
 :
-bool
+PRBool
 mPixmapTaken
 ;
 Display

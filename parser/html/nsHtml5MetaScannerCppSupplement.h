@@ -92,7 +92,7 @@ mCharset
 ;
 }
 }
-bool
+PRBool
 nsHtml5MetaScanner
 :
 :

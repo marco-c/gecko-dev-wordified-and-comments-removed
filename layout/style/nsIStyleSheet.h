@@ -104,7 +104,7 @@ const
 0
 ;
 virtual
-bool
+PRBool
 HasRules
 (
 )
@@ -113,7 +113,7 @@ const
 0
 ;
 virtual
-bool
+PRBool
 IsApplicable
 (
 )
@@ -125,14 +125,14 @@ virtual
 void
 SetEnabled
 (
-bool
+PRBool
 aEnabled
 )
 =
 0
 ;
 virtual
-bool
+PRBool
 IsComplete
 (
 )

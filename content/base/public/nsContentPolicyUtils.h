@@ -443,7 +443,7 @@ secMan
 )
 {
 \
-bool
+PRBool
 isSystem
 ;
 \

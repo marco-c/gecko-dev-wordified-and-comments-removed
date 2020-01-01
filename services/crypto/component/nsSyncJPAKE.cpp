@@ -495,7 +495,7 @@ nsString
 h
 >
 static
-bool
+PRBool
 hex_from_2char
 (
 const
@@ -711,7 +711,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 fromHex
 (
 const
@@ -862,7 +862,7 @@ NS_OK
 ;
 }
 static
-bool
+PRBool
 toHexString
 (
 const
@@ -1743,10 +1743,10 @@ Comment
 4
 *
 /
-bool
+PRBool
 foundNonZero
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -2223,10 +2223,10 @@ so
 check
 here
 .
-bool
+PRBool
 gx4Good
 =
-false
+PR_FALSE
 ;
 for
 (

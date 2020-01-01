@@ -321,7 +321,7 @@ nsWebBrowserFind
 :
 FindNext
 (
-bool
+PRBool
 *
 outDidFind
 )
@@ -657,11 +657,11 @@ nsIDocShellTreeItem
 >
 curItem
 ;
-bool
+PRBool
 hasMore
 doFind
 =
-false
+PR_FALSE
 ;
 while
 (
@@ -1326,7 +1326,7 @@ nsWebBrowserFind
 :
 GetFindBackwards
 (
-bool
+PRBool
 *
 aFindBackwards
 )
@@ -1351,7 +1351,7 @@ nsWebBrowserFind
 :
 SetFindBackwards
 (
-bool
+PRBool
 aFindBackwards
 )
 {
@@ -1369,7 +1369,7 @@ nsWebBrowserFind
 :
 GetWrapFind
 (
-bool
+PRBool
 *
 aWrapFind
 )
@@ -1394,7 +1394,7 @@ nsWebBrowserFind
 :
 SetWrapFind
 (
-bool
+PRBool
 aWrapFind
 )
 {
@@ -1412,7 +1412,7 @@ nsWebBrowserFind
 :
 GetEntireWord
 (
-bool
+PRBool
 *
 aEntireWord
 )
@@ -1437,7 +1437,7 @@ nsWebBrowserFind
 :
 SetEntireWord
 (
-bool
+PRBool
 aEntireWord
 )
 {
@@ -1455,7 +1455,7 @@ nsWebBrowserFind
 :
 GetMatchCase
 (
-bool
+PRBool
 *
 aMatchCase
 )
@@ -1480,7 +1480,7 @@ nsWebBrowserFind
 :
 SetMatchCase
 (
-bool
+PRBool
 aMatchCase
 )
 {
@@ -1493,7 +1493,7 @@ NS_OK
 ;
 }
 static
-bool
+PRBool
 IsInNativeAnonymousSubtree
 (
 nsIContent
@@ -2222,7 +2222,7 @@ aDoc
 nsISelection
 *
 aSel
-bool
+PRBool
 aWrap
 )
 {
@@ -2788,7 +2788,7 @@ nsWebBrowserFind
 :
 GetSearchFrames
 (
-bool
+PRBool
 *
 aSearchFrames
 )
@@ -2816,7 +2816,7 @@ nsWebBrowserFind
 :
 SetSearchFrames
 (
-bool
+PRBool
 aSearchFrames
 )
 {
@@ -2986,7 +2986,7 @@ nsWebBrowserFind
 :
 GetSearchSubframes
 (
-bool
+PRBool
 *
 aSearchSubframes
 )
@@ -3011,7 +3011,7 @@ nsWebBrowserFind
 :
 SetSearchSubframes
 (
-bool
+PRBool
 aSearchSubframes
 )
 {
@@ -3029,7 +3029,7 @@ nsWebBrowserFind
 :
 GetSearchParentFrames
 (
-bool
+PRBool
 *
 aSearchParentFrames
 )
@@ -3054,7 +3054,7 @@ nsWebBrowserFind
 :
 SetSearchParentFrames
 (
-bool
+PRBool
 aSearchParentFrames
 )
 {
@@ -3075,9 +3075,9 @@ SearchInFrame
 nsIDOMWindow
 *
 aWindow
-bool
+PRBool
 aWrapping
-bool
+PRBool
 *
 aDidFind
 )
@@ -3199,7 +3199,7 @@ if
 subject
 )
 {
-bool
+PRBool
 subsumes
 ;
 rv
@@ -3231,10 +3231,10 @@ if
 subsumes
 )
 {
-bool
+PRBool
 hasCap
 =
-false
+PR_FALSE
 ;
 secMan
 -

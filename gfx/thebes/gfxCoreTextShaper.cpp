@@ -301,7 +301,7 @@ mCTFont
 ;
 }
 }
-bool
+PRBool
 gfxCoreTextShaper
 :
 :
@@ -325,7 +325,7 @@ PRInt32
 aRunScript
 )
 {
-bool
+PRBool
 disableLigatures
 =
 (
@@ -345,7 +345,7 @@ TEXT_DISABLE_OPTIONAL_LIGATURES
 =
 0
 ;
-bool
+PRBool
 isRTL
 =
 aTextRun
@@ -355,7 +355,7 @@ IsRightToLeft
 (
 )
 ;
-bool
+PRBool
 bidiWrap
 =
 isRTL
@@ -734,10 +734,10 @@ CFArrayGetCount
 glyphRuns
 )
 ;
-bool
+PRBool
 success
 =
-true
+PR_TRUE
 ;
 for
 (
@@ -840,7 +840,7 @@ PRInt32
 aRunLength
 )
 {
-bool
+PRBool
 isLTR
 =
 !
@@ -1355,10 +1355,10 @@ glyphStart
 numGlyphs
 )
 {
-bool
+PRBool
 inOrder
 =
-true
+PR_TRUE
 ;
 PRInt32
 charEnd
@@ -1548,10 +1548,10 @@ glyphStart
 continue
 ;
 }
-bool
+PRBool
 allGlyphsAreWithinCluster
 =
-true
+PR_TRUE
 ;
 PRInt32
 prevGlyphCharIndex

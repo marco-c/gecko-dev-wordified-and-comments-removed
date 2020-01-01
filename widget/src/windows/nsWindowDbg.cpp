@@ -2116,9 +2116,9 @@ PrintEvent
 (
 UINT
 msg
-bool
+PRBool
 aShowAllEvents
-bool
+PRBool
 aShowMouseMoves
 )
 {
@@ -2301,7 +2301,7 @@ endif
 #
 ifdef
 DEBUG_VK
-bool
+PRBool
 is_vk_down
 (
 int

@@ -78,7 +78,7 @@ gfxMatrix
 aMatrix
 )
 ;
-bool
+PRBool
 ClipHitTest
 (
 nsIFrame
@@ -94,12 +94,12 @@ nsPoint
 aPoint
 )
 ;
-bool
+PRBool
 IsTrivial
 (
 )
 ;
-bool
+PRBool
 IsValid
 (
 )
@@ -237,7 +237,7 @@ gfxMatrix
 >
 mClipParentMatrix
 ;
-bool
+PRPackedBool
 mInUse
 ;
 virtual

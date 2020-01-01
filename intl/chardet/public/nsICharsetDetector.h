@@ -89,7 +89,7 @@ char
 aBytesArray
 PRUint32
 aLen
-bool
+PRBool
 *
 oDontFeedMe
 )

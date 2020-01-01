@@ -101,7 +101,7 @@ const
 ;
 NS_OVERRIDE
 virtual
-bool
+PRBool
 IsEqual
 (
 const
@@ -190,13 +190,13 @@ aString
 nsSMILValue
 &
 aValue
-bool
+PRBool
 *
 aIsContextSensitive
 )
 ;
 static
-bool
+PRBool
 ValueToString
 (
 const

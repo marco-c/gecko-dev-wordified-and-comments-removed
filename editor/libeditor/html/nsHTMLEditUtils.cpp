@@ -82,7 +82,7 @@ nsHTMLTags
 .
 h
 "
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -107,7 +107,7 @@ big
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -280,7 +280,7 @@ font
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -420,7 +420,7 @@ address
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -538,7 +538,7 @@ blockquote
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -563,7 +563,7 @@ small
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -670,7 +670,7 @@ h6
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -695,7 +695,7 @@ p
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -720,7 +720,7 @@ hr
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -794,7 +794,7 @@ dt
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -923,7 +923,7 @@ caption
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -1041,7 +1041,7 @@ caption
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -1066,7 +1066,7 @@ table
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -1091,7 +1091,7 @@ tr
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -1154,7 +1154,7 @@ th
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -1228,7 +1228,7 @@ caption
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -1302,7 +1302,7 @@ dl
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -1327,7 +1327,7 @@ ol
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -1352,7 +1352,7 @@ ul
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -1377,7 +1377,7 @@ blockquote
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -1402,7 +1402,7 @@ pre
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -1427,7 +1427,7 @@ address
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -1452,7 +1452,7 @@ img
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -1517,7 +1517,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -1582,7 +1582,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -1607,7 +1607,7 @@ div
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -1641,7 +1641,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -1794,7 +1794,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -1912,7 +1912,7 @@ input
 )
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -2381,10 +2381,10 @@ mGroup
 PRUint32
 mCanContainGroups
 ;
-bool
+PRPackedBool
 mIsContainer
 ;
-bool
+PRPackedBool
 mCanContainSelf
 ;
 }
@@ -3563,7 +3563,7 @@ GROUP_FLOW_ELEMENT
 )
 }
 ;
-bool
+PRBool
 nsHTMLEditUtils
 :
 :
@@ -3619,10 +3619,10 @@ range
 ifdef
 DEBUG
 static
-bool
+PRBool
 checked
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -3824,7 +3824,7 @@ mGroup
 0
 ;
 }
-bool
+PRBool
 nsHTMLEditUtils
 :
 :

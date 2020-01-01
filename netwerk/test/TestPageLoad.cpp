@@ -1152,7 +1152,7 @@ rv
 )
 ;
 }
-bool
+PRBool
 equal
 ;
 for

@@ -667,7 +667,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 disabled
 ;
 input
@@ -791,9 +791,9 @@ nsAutoCompleteController
 :
 HandleEnter
 (
-bool
+PRBool
 aIsPopupSelection
-bool
+PRBool
 *
 _retval
 )
@@ -888,7 +888,7 @@ nsAutoCompleteController
 :
 HandleEscape
 (
-bool
+PRBool
 *
 _retval
 )
@@ -974,7 +974,7 @@ input
 mInput
 )
 ;
-bool
+PRBool
 disabled
 ;
 input
@@ -997,10 +997,10 @@ StopSearch
 (
 )
 ;
-bool
+PRBool
 isOpen
 =
-false
+PR_FALSE
 ;
 input
 -
@@ -1020,10 +1020,10 @@ ClosePopup
 (
 )
 ;
-bool
+PRBool
 stillOpen
 =
-false
+PR_FALSE
 ;
 input
 -
@@ -1062,7 +1062,7 @@ mIsIMEComposing
 =
 PR_FALSE
 ;
-bool
+PRBool
 forceOpenPopup
 =
 mPopupClosedByCompositionStart
@@ -1118,7 +1118,7 @@ if
 forceOpenPopup
 )
 {
-bool
+PRBool
 cancel
 ;
 HandleKeyNavigation
@@ -1148,7 +1148,7 @@ HandleTab
 (
 )
 {
-bool
+PRBool
 cancel
 ;
 return
@@ -1168,7 +1168,7 @@ HandleKeyNavigation
 (
 PRUint32
 aKey
-bool
+PRBool
 *
 _retval
 )
@@ -1245,7 +1245,7 @@ nsnull
 NS_ERROR_FAILURE
 )
 ;
-bool
+PRBool
 disabled
 ;
 input
@@ -1307,10 +1307,10 @@ _retval
 =
 PR_TRUE
 ;
-bool
+PRBool
 isOpen
 =
-false
+PR_FALSE
 ;
 input
 -
@@ -1326,7 +1326,7 @@ if
 isOpen
 )
 {
-bool
+PRBool
 reverse
 =
 aKey
@@ -1350,7 +1350,7 @@ PR_TRUE
 :
 PR_FALSE
 ;
-bool
+PRBool
 page
 =
 aKey
@@ -1374,7 +1374,7 @@ PR_TRUE
 :
 PR_FALSE
 ;
-bool
+PRBool
 completeSelection
 ;
 input
@@ -1704,10 +1704,10 @@ DOM_VK_HOME
 endif
 )
 {
-bool
+PRBool
 isOpen
 =
-false
+PR_FALSE
 ;
 input
 -
@@ -1735,7 +1735,7 @@ GetSelectedIndex
 selectedIndex
 )
 ;
-bool
+PRBool
 shouldComplete
 ;
 input
@@ -1904,7 +1904,7 @@ nsAutoCompleteController
 :
 HandleDelete
 (
-bool
+PRBool
 *
 _retval
 )
@@ -1931,10 +1931,10 @@ input
 mInput
 )
 ;
-bool
+PRBool
 isOpen
 =
-false
+PR_FALSE
 ;
 input
 -
@@ -2118,10 +2118,10 @@ SetSelectedIndex
 index
 )
 ;
-bool
+PRBool
 shouldComplete
 =
-false
+PR_FALSE
 ;
 mInput
 -
@@ -2916,7 +2916,7 @@ IsContainer
 (
 PRInt32
 index
-bool
+PRBool
 *
 _retval
 )
@@ -2938,7 +2938,7 @@ IsContainerOpen
 (
 PRInt32
 index
-bool
+PRBool
 *
 _retval
 )
@@ -2964,7 +2964,7 @@ IsContainerEmpty
 (
 PRInt32
 index
-bool
+PRBool
 *
 _retval
 )
@@ -3037,7 +3037,7 @@ PRInt32
 rowIndex
 PRInt32
 afterIndex
-bool
+PRBool
 *
 _retval
 )
@@ -3227,7 +3227,7 @@ row
 nsITreeColumn
 *
 col
-bool
+PRBool
 *
 _retval
 )
@@ -3252,7 +3252,7 @@ row
 nsITreeColumn
 *
 col
-bool
+PRBool
 *
 _retval
 )
@@ -3274,7 +3274,7 @@ IsSeparator
 (
 PRInt32
 index
-bool
+PRBool
 *
 _retval
 )
@@ -3294,7 +3294,7 @@ nsAutoCompleteController
 :
 IsSorted
 (
-bool
+PRBool
 *
 _retval
 )
@@ -3321,7 +3321,7 @@ orientation
 nsIDOMDataTransfer
 *
 dataTransfer
-bool
+PRBool
 *
 _retval
 )
@@ -3468,10 +3468,10 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 isOpen
 =
-false
+PR_FALSE
 ;
 mInput
 -
@@ -4003,7 +4003,7 @@ nsAutoCompleteController
 :
 EnterMatch
 (
-bool
+PRBool
 aIsPopupSelection
 )
 {
@@ -4042,7 +4042,7 @@ nsnull
 NS_ERROR_FAILURE
 )
 ;
-bool
+PRBool
 forceComplete
 ;
 input
@@ -4074,7 +4074,7 @@ IsEmpty
 )
 )
 {
-bool
+PRBool
 shouldComplete
 ;
 mInput
@@ -4086,7 +4086,7 @@ GetCompleteDefaultIndex
 shouldComplete
 )
 ;
-bool
+PRBool
 completeSelection
 ;
 input
@@ -4369,7 +4369,7 @@ ClosePopup
 (
 )
 ;
-bool
+PRBool
 cancel
 ;
 input
@@ -4416,10 +4416,10 @@ input
 mInput
 )
 ;
-bool
+PRBool
 cancel
 =
-false
+PR_FALSE
 ;
 input
 -
@@ -5125,7 +5125,7 @@ Length
 return
 NS_OK
 ;
-bool
+PRBool
 shouldComplete
 ;
 mInput
@@ -5181,7 +5181,7 @@ GetDefaultCompleteValue
 (
 PRInt32
 aSearchIndex
-bool
+PRBool
 aPreserveCasing
 nsAString
 &
@@ -5633,7 +5633,7 @@ GetResultLabelAt
 (
 PRInt32
 aIndex
-bool
+PRBool
 aValueOnly
 nsAString
 &
@@ -5658,7 +5658,7 @@ GetResultValueAt
 (
 PRInt32
 aIndex
-bool
+PRBool
 aValueOnly
 nsAString
 &
@@ -5683,9 +5683,9 @@ GetResultValueLabelAt
 (
 PRInt32
 aIndex
-bool
+PRBool
 aValueOnly
-bool
+PRBool
 aGetValue
 nsAString
 &

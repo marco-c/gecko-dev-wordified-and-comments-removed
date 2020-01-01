@@ -102,7 +102,7 @@ T
 >
 base_type
 ;
-bool
+PRBool
 Get
 (
 KeyType

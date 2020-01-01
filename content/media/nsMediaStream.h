@@ -146,7 +146,7 @@ mAccumulatedBytes
 ;
 mIsStarted
 =
-false
+PR_FALSE
 ;
 }
 void
@@ -168,7 +168,7 @@ aNow
 ;
 mIsStarted
 =
-true
+PR_TRUE
 ;
 }
 void
@@ -194,7 +194,7 @@ mLastStartTime
 ;
 mIsStarted
 =
-false
+PR_FALSE
 ;
 }
 void
@@ -222,7 +222,7 @@ aBytes
 double
 GetRateAtLastStop
 (
-bool
+PRPackedBool
 *
 aReliable
 )
@@ -277,7 +277,7 @@ GetRate
 (
 TimeStamp
 aNow
-bool
+PRPackedBool
 *
 aReliable
 )
@@ -356,7 +356,7 @@ mAccumulatedTime
 TimeStamp
 mLastStartTime
 ;
-bool
+PRPackedBool
 mIsStarted
 ;
 }
@@ -413,7 +413,7 @@ start
 )
 ;
 }
-bool
+PRBool
 IsNull
 (
 )
@@ -477,7 +477,7 @@ virtual
 void
 Suspend
 (
-bool
+PRBool
 aCloseImmediately
 )
 =
@@ -598,7 +598,7 @@ virtual
 double
 GetDownloadRate
 (
-bool
+PRPackedBool
 *
 aIsReliable
 )
@@ -634,7 +634,7 @@ aOffset
 0
 ;
 virtual
-bool
+PRBool
 IsDataCachedToEndOfStream
 (
 PRInt64
@@ -644,7 +644,7 @@ aOffset
 0
 ;
 virtual
-bool
+PRBool
 IsSuspendedByCache
 (
 )
@@ -652,7 +652,7 @@ IsSuspendedByCache
 0
 ;
 virtual
-bool
+PRBool
 IsSuspended
 (
 )
@@ -742,7 +742,7 @@ aURI
 )
 mLoadInBackground
 (
-false
+PR_FALSE
 )
 {
 MOZ_COUNT_CTOR
@@ -774,7 +774,7 @@ nsIURI
 >
 mURI
 ;
-bool
+PRPackedBool
 mLoadInBackground
 ;
 }
@@ -829,7 +829,7 @@ CacheClientSeek
 (
 PRInt64
 aOffset
-bool
+PRBool
 aResume
 )
 ;
@@ -863,7 +863,7 @@ virtual
 void
 Suspend
 (
-bool
+PRBool
 aCloseImmediately
 )
 ;
@@ -882,7 +882,7 @@ GetCurrentPrincipal
 (
 )
 ;
-bool
+PRBool
 IsClosed
 (
 )
@@ -984,7 +984,7 @@ virtual
 double
 GetDownloadRate
 (
-bool
+PRPackedBool
 *
 aIsReliable
 )
@@ -1012,7 +1012,7 @@ aOffset
 )
 ;
 virtual
-bool
+PRBool
 IsDataCachedToEndOfStream
 (
 PRInt64
@@ -1020,13 +1020,13 @@ aOffset
 )
 ;
 virtual
-bool
+PRBool
 IsSuspendedByCache
 (
 )
 ;
 virtual
-bool
+PRBool
 IsSuspended
 (
 )
@@ -1225,10 +1225,10 @@ mDataReceivedEvent
 PRUint32
 mSuspendCount
 ;
-bool
+PRPackedBool
 mReopenOnError
 ;
-bool
+PRPackedBool
 mIgnoreClose
 ;
 nsMediaCacheStream
@@ -1243,7 +1243,7 @@ mChannelStatistics
 PRUint32
 mCacheSuspendCount
 ;
-bool
+PRPackedBool
 mIgnoreResume
 ;
 }

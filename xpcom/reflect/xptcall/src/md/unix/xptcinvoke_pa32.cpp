@@ -694,7 +694,7 @@ T_BOOL
 *
 (
 (
-bool
+PRBool
 *
 )
 (

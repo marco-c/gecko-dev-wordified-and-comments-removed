@@ -247,7 +247,7 @@ tmp_
 PR_END_MACRO
 NS_GFX_
 (
-bool
+PRBool
 )
 NS_HexToRGB
 (
@@ -274,7 +274,7 @@ aFG
 ;
 NS_GFX_
 (
-bool
+PRBool
 )
 NS_LooseHexToRGB
 (
@@ -289,7 +289,7 @@ aResult
 ;
 NS_GFX_
 (
-bool
+PRBool
 )
 NS_ColorNameToRGB
 (

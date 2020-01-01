@@ -353,7 +353,7 @@ Clear
 (
 )
 ;
-bool
+PRBool
 ReportRedirects
 (
 )

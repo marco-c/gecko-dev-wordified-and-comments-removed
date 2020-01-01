@@ -7748,9 +7748,6 @@ blobno
 ]
 ]
 ;
-#
-if
-0
 float
 de
 =
@@ -7763,8 +7760,6 @@ p
 >
 m_val
 ;
-#
-endif
 float
 *
 *

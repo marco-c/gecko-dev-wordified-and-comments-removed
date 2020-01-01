@@ -380,7 +380,7 @@ requestHead
 nsHttpResponseHead
 *
 responseHead
-bool
+PRBool
 *
 reset
 )
@@ -578,10 +578,10 @@ code
 PRInt32
 index
 ;
-bool
+PRBool
 killPipeline
 =
-false
+PR_FALSE
 ;
 index
 =
@@ -785,7 +785,7 @@ result
 )
 ;
 }
-bool
+PRBool
 nsHttpPipeline
 :
 :
@@ -797,7 +797,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsHttpPipeline
 :
 :
@@ -993,7 +993,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsHttpPipeline
 :
 :
@@ -1025,7 +1025,7 @@ nsHttpPipeline
 :
 SetLastTransactionExpectedNoContent
 (
-bool
+PRBool
 val
 )
 {
@@ -1459,7 +1459,7 @@ break
 ;
 }
 }
-bool
+PRBool
 nsHttpPipeline
 :
 :

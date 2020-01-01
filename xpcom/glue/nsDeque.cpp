@@ -467,7 +467,7 @@ Empty
 )
 ;
 }
-bool
+PRBool
 nsDeque
 :
 :
@@ -1286,7 +1286,7 @@ return
 this
 ;
 }
-bool
+PRBool
 nsDequeIterator
 :
 :
@@ -1300,7 +1300,7 @@ aIter
 )
 {
 return
-bool
+PRBool
 (
 !
 this
@@ -1315,7 +1315,7 @@ aIter
 )
 ;
 }
-bool
+PRBool
 nsDequeIterator
 :
 :
@@ -1328,7 +1328,7 @@ aIter
 )
 {
 return
-bool
+PRBool
 (
 (
 (
@@ -1354,7 +1354,7 @@ mDeque
 )
 ;
 }
-bool
+PRBool
 nsDequeIterator
 :
 :
@@ -1368,7 +1368,7 @@ aIter
 )
 {
 return
-bool
+PRBool
 (
 (
 (
@@ -1395,7 +1395,7 @@ mDeque
 )
 ;
 }
-bool
+PRBool
 nsDequeIterator
 :
 :
@@ -1409,7 +1409,7 @@ aIter
 )
 {
 return
-bool
+PRBool
 (
 (
 (

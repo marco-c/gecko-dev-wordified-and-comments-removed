@@ -540,13 +540,13 @@ pollfds
 PRInt32
 nfds
 ;
-bool
+PRBool
 stdoutOpen
 =
-true
+PR_TRUE
 stderrOpen
 =
-true
+PR_TRUE
 ;
 char
 buf
@@ -751,7 +751,7 @@ out_flags
 )
 continue
 ;
-bool
+PRBool
 isStdout
 =
 mStdoutfd
@@ -980,7 +980,7 @@ private
 void
 Finish
 (
-bool
+PRBool
 normalExit
 )
 {

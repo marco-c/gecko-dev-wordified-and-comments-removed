@@ -122,7 +122,7 @@ char
 aBytesArray
 PRUint32
 aLen
-bool
+PRBool
 *
 oDontFeedMe
 )
@@ -152,7 +152,7 @@ nsICharsetDetectionObserver
 *
 mObserver
 ;
-bool
+PRBool
 mStop
 ;
 }

@@ -48,7 +48,7 @@ private
 nsresult
 createHandlerAndFlush
 (
-bool
+PRBool
 aHTMLRoot
 const
 nsSubstring
@@ -63,7 +63,7 @@ txExecutionState
 *
 mEs
 ;
-bool
+PRBool
 mFlushed
 ;
 }

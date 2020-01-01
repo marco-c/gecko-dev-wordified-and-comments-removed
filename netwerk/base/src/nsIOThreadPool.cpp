@@ -180,7 +180,7 @@ mNumIdleThreads
 PRCList
 mEventQ
 ;
-bool
+PRBool
 mShutdown
 ;
 }
@@ -603,7 +603,7 @@ nsIOThreadPool
 :
 IsOnCurrentThread
 (
-bool
+PRBool
 *
 result
 )

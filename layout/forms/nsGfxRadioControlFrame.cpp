@@ -324,10 +324,10 @@ IsThemed
 return
 NS_OK
 ;
-bool
+PRBool
 checked
 =
-true
+PR_TRUE
 ;
 GetCurrentCheckState
 (

@@ -459,9 +459,9 @@ test_aria_tabs
 .
 html
 \
-test_buttons
+test_comboboxes
 .
-html
+xul
 \
 test_doc
 .
@@ -474,10 +474,6 @@ html
 test_editablebody
 .
 html
-\
-test_expandable
-.
-xul
 \
 test_frames
 .
@@ -498,10 +494,6 @@ html
 test_popup
 .
 xul
-\
-test_selects
-.
-html
 \
 test_stale
 .

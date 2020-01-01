@@ -511,7 +511,7 @@ b
 *
 (
 (
-bool
+PRBool
 *
 )
 ap

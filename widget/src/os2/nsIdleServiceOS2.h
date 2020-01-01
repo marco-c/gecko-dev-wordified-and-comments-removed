@@ -55,7 +55,7 @@ private
 HMODULE
 mHMod
 ;
-bool
+PRBool
 mInitialized
 ;
 protected

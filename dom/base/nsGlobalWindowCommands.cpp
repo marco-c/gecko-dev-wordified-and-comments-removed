@@ -632,7 +632,7 @@ aCommandName
 nsISupports
 *
 aCommandContext
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -894,10 +894,10 @@ selCont
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-bool
+PRBool
 caretOn
 =
-false
+PR_FALSE
 ;
 selCont
 -
@@ -2068,7 +2068,7 @@ aCommandName
 nsISupports
 *
 aContext
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -2323,7 +2323,7 @@ aCommandName
 nsIContentViewerEdit
 *
 aEdit
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -2381,7 +2381,7 @@ aCommandName
 nsISupports
 *
 aCommandContext
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -2690,7 +2690,7 @@ aCommandName
 nsIContentViewerEdit
 *
 aEdit
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -2759,7 +2759,7 @@ aCommandName
 nsIContentViewerEdit
 *
 aEdit
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -2823,7 +2823,7 @@ aCommandName
 nsIContentViewerEdit
 *
 aEdit
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -2960,7 +2960,7 @@ aCommandName
 nsIContentViewerEdit
 *
 aEdit
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -3043,7 +3043,7 @@ aCommandName
 nsIContentViewerEdit
 *
 aEdit
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -3120,10 +3120,10 @@ Assign
 format
 )
 ;
-bool
+PRBool
 selectionOnly
 =
-false
+PR_FALSE
 ;
 aParams
 -
@@ -3212,7 +3212,7 @@ aCommandName
 nsIWebNavigation
 *
 aWebNavigation
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -3271,7 +3271,7 @@ aCommandName
 nsIWebNavigation
 *
 aWebNavigation
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -3310,7 +3310,7 @@ aCommandName
 nsIWebNavigation
 *
 aWebNavigation
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -3350,7 +3350,7 @@ aCommandName
 nsISupports
 *
 aCommandContext
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -3559,7 +3559,7 @@ aCommandName
 nsIWebNavigation
 *
 aWebNavigation
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -3611,7 +3611,7 @@ aCommandName
 nsIWebNavigation
 *
 aWebNavigation
-bool
+PRBool
 *
 outCmdEnabled
 )
@@ -3684,7 +3684,7 @@ aCommandName
 nsISupports
 *
 aCommandContext
-bool
+PRBool
 *
 outCmdEnabled
 )

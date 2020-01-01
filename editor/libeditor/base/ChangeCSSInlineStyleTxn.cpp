@@ -105,7 +105,7 @@ NS_INTERFACE_MAP_END_INHERITING
 (
 EditTxn
 )
-bool
+PRBool
 ChangeCSSInlineStyleTxn
 :
 :
@@ -119,7 +119,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aCaseSensitive
 )
 {
@@ -129,10 +129,10 @@ valueList
 aValueList
 )
 ;
-bool
+PRBool
 result
 =
-false
+PR_FALSE
 ;
 valueList
 .
@@ -526,7 +526,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aRemoveProperty
 )
 {
@@ -759,7 +759,7 @@ Assign
 values
 )
 ;
-bool
+PRBool
 multiple
 =
 AcceptsMoreThanOneValue
@@ -1013,7 +1013,7 @@ ChangeCSSInlineStyleTxn
 :
 SetStyle
 (
-bool
+PRBool
 aAttributeWasSet
 nsAString
 &
@@ -1300,7 +1300,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 ChangeCSSInlineStyleTxn
 :
 :

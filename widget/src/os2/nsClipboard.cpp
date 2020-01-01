@@ -263,7 +263,7 @@ return
 rc
 ;
 }
-bool
+PRBool
 nsClipboard
 :
 :
@@ -283,7 +283,7 @@ GetFormatID
 aFlavor
 )
 ;
-bool
+PRBool
 found
 =
 GetClipboardDataByID
@@ -344,7 +344,7 @@ return
 found
 ;
 }
-bool
+PRBool
 nsClipboard
 :
 :
@@ -364,10 +364,10 @@ pDataMem
 PRUint32
 NumOfBytes
 ;
-bool
+PRBool
 TempBufAllocated
 =
-false
+PR_FALSE
 ;
 PVOID
 pClipboardData
@@ -1680,7 +1680,7 @@ PRUint32
 aLength
 PRInt32
 aWhichClipboard
-bool
+PRBool
 *
 _retval
 )

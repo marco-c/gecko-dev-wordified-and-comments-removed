@@ -62,7 +62,7 @@ return
 mCount
 ;
 }
-bool
+PRBool
 IsDefinite
 (
 )
@@ -81,7 +81,7 @@ mCount
 kIndefinite
 ;
 }
-bool
+PRBool
 IsIndefinite
 (
 )
@@ -94,7 +94,7 @@ mCount
 kIndefinite
 ;
 }
-bool
+PRBool
 IsSet
 (
 )

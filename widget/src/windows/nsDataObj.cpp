@@ -748,7 +748,7 @@ mChannelRead
 NS_ProcessNextEvent
 (
 nsnull
-true
+PR_TRUE
 )
 ;
 }
@@ -1866,7 +1866,7 @@ mCachedTempFile
 >
 Remove
 (
-false
+PR_FALSE
 )
 ;
 mCachedTempFile
@@ -2206,7 +2206,7 @@ GetFileDescriptor
 aFormat
 *
 pSTM
-false
+PR_FALSE
 )
 ;
 if
@@ -2223,7 +2223,7 @@ GetFileDescriptor
 aFormat
 *
 pSTM
-true
+PR_TRUE
 )
 ;
 if
@@ -2240,7 +2240,7 @@ GetUniformResourceLocator
 aFormat
 *
 pSTM
-false
+PR_FALSE
 )
 ;
 if
@@ -2257,7 +2257,7 @@ GetUniformResourceLocator
 aFormat
 *
 pSTM
-true
+PR_TRUE
 )
 ;
 if
@@ -2486,10 +2486,10 @@ STGMEDIUM
 )
 ;
 }
-bool
+PRBool
 result
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -2557,7 +2557,7 @@ return
 S_OK
 ;
 }
-bool
+PRBool
 nsDataObj
 :
 :
@@ -2589,7 +2589,7 @@ ptd
 NULL
 )
 return
-false
+PR_FALSE
 ;
 for
 (
@@ -2696,13 +2696,13 @@ idx
 ]
 ;
 return
-true
+PR_TRUE
 ;
 }
 else
 {
 return
-false
+PR_FALSE
 ;
 }
 }
@@ -2713,7 +2713,7 @@ if
 aAddorUpdate
 )
 return
-false
+PR_FALSE
 ;
 LPDATAENTRY
 dataEntry
@@ -2735,7 +2735,7 @@ if
 dataEntry
 )
 return
-false
+PR_FALSE
 ;
 dataEntry
 -
@@ -2780,10 +2780,10 @@ dataEntry
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
-bool
+PRBool
 nsDataObj
 :
 :
@@ -2870,7 +2870,7 @@ tymed
 TYMED_HGLOBAL
 )
 return
-false
+PR_FALSE
 ;
 stgmOut
 .
@@ -2897,7 +2897,7 @@ stgmOut
 hGlobal
 )
 return
-false
+PR_FALSE
 ;
 }
 else
@@ -2922,7 +2922,7 @@ break
 default
 :
 return
-false
+PR_FALSE
 ;
 }
 if
@@ -2946,7 +2946,7 @@ aMediumDst
 stgmOut
 ;
 return
-true
+PR_TRUE
 ;
 }
 STDMETHODIMP
@@ -3381,7 +3381,7 @@ aFE
 STGMEDIUM
 &
 aSTG
-bool
+PRBool
 aIsUnicode
 )
 {
@@ -3642,8 +3642,8 @@ aText
 .
 CompressWhitespace
 (
-true
-true
+PR_TRUE
+PR_TRUE
 )
 ;
 PRUint32
@@ -3736,7 +3736,7 @@ break
 }
 }
 static
-bool
+PRBool
 CreateFilenameFromTextA
 (
 nsString
@@ -3767,7 +3767,7 @@ IsEmpty
 )
 )
 return
-false
+PR_FALSE
 ;
 int
 maxUsableFilenameLen
@@ -3875,18 +3875,18 @@ aExtension
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 else
 {
 return
-false
+PR_FALSE
 ;
 }
 }
 static
-bool
+PRBool
 CreateFilenameFromTextW
 (
 nsString
@@ -3917,7 +3917,7 @@ IsEmpty
 )
 )
 return
-false
+PR_FALSE
 ;
 const
 int
@@ -3982,7 +3982,7 @@ aExtension
 )
 ;
 return
-true
+PR_TRUE
 ;
 }
 #
@@ -4002,7 +4002,7 @@ pageInfo
 properties
 "
 static
-bool
+PRBool
 GetLocalizedString
 (
 const
@@ -4036,7 +4036,7 @@ if
 stringService
 )
 return
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -4067,7 +4067,7 @@ rv
 )
 )
 return
-false
+PR_FALSE
 ;
 rv
 =
@@ -4716,7 +4716,7 @@ return
 S_OK
 ;
 }
-bool
+PRBool
 nsDataObj
 :
 :
@@ -4728,15 +4728,15 @@ char
 inFlavour
 )
 {
-bool
+PRBool
 retval
 =
-false
+PR_FALSE
 ;
 NS_ENSURE_TRUE
 (
 mTransferable
-false
+PR_FALSE
 )
 ;
 nsCOMPtr
@@ -4759,7 +4759,7 @@ flavorList
 NS_ENSURE_TRUE
 (
 flavorList
-false
+PR_FALSE
 )
 ;
 PRUint32
@@ -4848,7 +4848,7 @@ inFlavour
 {
 retval
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -8144,7 +8144,7 @@ aFE
 STGMEDIUM
 &
 aSTG
-bool
+PRBool
 aIsUnicode
 )
 {
@@ -9187,7 +9187,7 @@ mCachedTempFile
 >
 Remove
 (
-false
+PR_FALSE
 )
 ;
 timedDataObj

@@ -821,7 +821,7 @@ val
 b
 =
 (
-bool
+PRBool
 )
 tempu32
 ;

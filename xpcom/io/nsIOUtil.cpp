@@ -40,7 +40,7 @@ InputStreamIsBuffered
 nsIInputStream
 *
 aStream
-bool
+PRBool
 *
 _retval
 )
@@ -71,7 +71,7 @@ OutputStreamIsBuffered
 nsIOutputStream
 *
 aStream
-bool
+PRBool
 *
 _retval
 )

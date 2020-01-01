@@ -104,7 +104,7 @@ PRUint32
 aNewLength
 )
 ;
-bool
+PRBool
 IsAnimating
 (
 )

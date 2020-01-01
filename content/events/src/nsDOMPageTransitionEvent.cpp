@@ -49,7 +49,7 @@ nsDOMPageTransitionEvent
 :
 GetPersisted
 (
-bool
+PRBool
 *
 aPersisted
 )
@@ -73,11 +73,11 @@ const
 nsAString
 &
 aTypeArg
-bool
+PRBool
 aCanBubbleArg
-bool
+PRBool
 aCancelableArg
-bool
+PRBool
 aPersisted
 )
 {

@@ -126,12 +126,12 @@ EndNativeDrawing
 (
 )
 ;
-bool
+PRBool
 ShouldRenderAgain
 (
 )
 ;
-bool
+PRBool
 IsDoublePass
 (
 )

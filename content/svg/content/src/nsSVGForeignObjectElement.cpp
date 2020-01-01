@@ -318,7 +318,7 @@ matrix
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSVGForeignObjectElement
 :

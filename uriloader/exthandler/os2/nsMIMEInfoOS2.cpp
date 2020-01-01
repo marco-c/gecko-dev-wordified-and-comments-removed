@@ -234,10 +234,10 @@ z
 }
 ;
 static
-bool
+PRBool
 sUseRws
 =
-true
+PR_TRUE
 ;
 NS_IMPL_ISUPPORTS_INHERITED1
 (
@@ -927,7 +927,7 @@ nsMIMEInfoOS2
 :
 GetHasDefaultHandler
 (
-bool
+PRBool
 *
 _retval
 )
@@ -1498,10 +1498,10 @@ channel
 "
 )
 ;
-bool
+PRBool
 replaced
 =
-false
+PR_FALSE
 ;
 if
 (

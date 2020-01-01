@@ -219,7 +219,7 @@ mMode
 PRInt16
 mSelectedType
 ;
-bool
+PRBool
 mAllowURLs
 ;
 nsCString

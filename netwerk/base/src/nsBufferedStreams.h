@@ -131,7 +131,7 @@ nsISupports
 *
 mStream
 ;
-bool
+PRPackedBool
 mBufferDisabled
 ;
 PRUint8

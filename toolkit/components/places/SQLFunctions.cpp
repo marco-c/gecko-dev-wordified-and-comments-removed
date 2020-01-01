@@ -320,7 +320,7 @@ const_char_iterator
 sourceNext
 tokenCur
 ;
-bool
+PRBool
 error
 ;
 if
@@ -809,7 +809,7 @@ EndReading
 )
 )
 ;
-bool
+PRBool
 dummy
 ;
 while
@@ -1818,7 +1818,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasResult
 ;
 rv

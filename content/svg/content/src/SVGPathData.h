@@ -99,7 +99,7 @@ aValue
 )
 const
 ;
-bool
+PRBool
 IsEmpty
 (
 )
@@ -157,7 +157,7 @@ aIndex
 ]
 ;
 }
-bool
+PRBool
 operator
 =
 =
@@ -216,7 +216,7 @@ float
 0
 ;
 }
-bool
+PRBool
 SetCapacity
 (
 PRUint32
@@ -270,7 +270,7 @@ aMarks
 )
 const
 ;
-bool
+PRBool
 GetSegmentLengths
 (
 nsTArray
@@ -282,7 +282,7 @@ aLengths
 )
 const
 ;
-bool
+PRBool
 GetDistancesFromOriginToEndsOfVisibleSegments
 (
 nsTArray
@@ -383,7 +383,7 @@ aIndex
 ]
 ;
 }
-bool
+PRBool
 SetLength
 (
 PRUint32
@@ -584,7 +584,7 @@ rhs
 )
 ;
 }
-bool
+PRBool
 IsIdentity
 (
 )

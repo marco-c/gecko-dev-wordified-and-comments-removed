@@ -175,7 +175,7 @@ filters
 FilterFuncPtr
 mFilterFunc
 ;
-bool
+PRBool
 mIsDeep
 ;
 IteratorState
@@ -286,10 +286,9 @@ HTMLLabelIterator
 nsDocAccessible
 *
 aDocument
-const
-nsAccessible
+nsIContent
 *
-aAccessible
+aElement
 LabelFilter
 aFilter
 =
@@ -336,10 +335,9 @@ HTMLLabelIterator
 RelatedAccIterator
 mRelIter
 ;
-const
-nsAccessible
+nsIContent
 *
-mAcc
+mElement
 ;
 LabelFilter
 mLabelFilter

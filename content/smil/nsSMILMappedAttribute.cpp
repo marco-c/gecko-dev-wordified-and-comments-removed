@@ -128,7 +128,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-bool
+PRBool
 &
 aPreventCachingOfSandwich
 )
@@ -190,7 +190,7 @@ GetAttrNameAtom
 (
 )
 ;
-bool
+PRBool
 success
 =
 mElement

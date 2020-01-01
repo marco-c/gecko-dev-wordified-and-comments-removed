@@ -387,7 +387,7 @@ key
 2
 ;
 }
-bool
+PRBool
 PL_DHashMatchEntryStub
 (
 PLDHashTable
@@ -425,7 +425,7 @@ key
 key
 ;
 }
-bool
+PRBool
 PL_DHashMatchStringKey
 (
 PLDHashTable
@@ -716,7 +716,7 @@ table
 )
 ;
 }
-bool
+PRBool
 PL_DHashTableInit
 (
 PLDHashTable
@@ -2251,7 +2251,7 @@ NULL
 ;
 }
 static
-bool
+PRBool
 ChangeTable
 (
 PLDHashTable
@@ -3233,7 +3233,7 @@ capacity
 entrySize
 ceiling
 ;
-bool
+PRBool
 didRemove
 ;
 PLDHashEntryHdr

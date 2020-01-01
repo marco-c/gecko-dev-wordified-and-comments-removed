@@ -115,7 +115,7 @@ StartDisconnectTimer
 (
 )
 ;
-bool
+PRBool
 mStarted
 ;
 nsCOMPtr
@@ -179,7 +179,7 @@ z
 PRUint32
 mUpdateInterval
 ;
-bool
+PRBool
 mEnabled
 ;
 virtual

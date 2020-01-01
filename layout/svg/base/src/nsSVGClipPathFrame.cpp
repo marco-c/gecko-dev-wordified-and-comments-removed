@@ -157,7 +157,7 @@ aMatrix
 )
 ;
 }
-bool
+PRBool
 isTrivial
 =
 IsTrivial
@@ -209,7 +209,7 @@ GetClipPathFrame
 nsnull
 )
 ;
-bool
+PRBool
 referencedClipIsTrivial
 ;
 if
@@ -318,10 +318,10 @@ nsISVGChildFrame
 TRANSFORM_CHANGED
 )
 ;
-bool
+PRBool
 isOK
 =
-true
+PR_TRUE
 ;
 nsSVGClipPathFrame
 *
@@ -350,7 +350,7 @@ isOK
 continue
 ;
 }
-bool
+PRBool
 isTrivial
 ;
 if
@@ -594,7 +594,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsSVGClipPathFrame
 :
 :
@@ -768,7 +768,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsSVGClipPathFrame
 :
 :
@@ -794,10 +794,10 @@ nsnull
 return
 PR_FALSE
 ;
-bool
+PRBool
 foundChild
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -880,7 +880,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsSVGClipPathFrame
 :
 :
@@ -913,10 +913,10 @@ clipRef
 this
 )
 ;
-bool
+PRBool
 isOK
 =
-true
+PR_TRUE
 ;
 nsSVGEffects
 :

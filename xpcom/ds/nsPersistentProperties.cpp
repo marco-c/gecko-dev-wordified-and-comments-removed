@@ -503,7 +503,7 @@ aBufferLength
 ;
 private
 :
-bool
+PRBool
 ParseValueCharacter
 (
 PRUnichar
@@ -604,10 +604,10 @@ mUnicodeValuesRead
 PRUnichar
 mUnicodeValue
 ;
-bool
+PRBool
 mHaveMultiLine
 ;
-bool
+PRBool
 mMultiLineCanSkipN
 ;
 PRUint32
@@ -626,7 +626,7 @@ mProps
 }
 ;
 inline
-bool
+PRBool
 IsWhiteSpace
 (
 PRUnichar
@@ -677,7 +677,7 @@ n
 ;
 }
 inline
-bool
+PRBool
 IsEOL
 (
 PRUnichar
@@ -707,7 +707,7 @@ n
 )
 ;
 }
-bool
+PRBool
 nsPropertiesParser
 :
 :
@@ -2459,7 +2459,7 @@ const
 char
 *
 prop
-bool
+PRBool
 *
 result
 )

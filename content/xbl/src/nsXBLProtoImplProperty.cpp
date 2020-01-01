@@ -873,10 +873,10 @@ hash
 ;
 }
 }
-bool
+PRBool
 deletedGetter
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -1039,10 +1039,10 @@ return
 rv
 ;
 }
-bool
+PRBool
 deletedSetter
 =
-false
+PR_FALSE
 ;
 if
 (

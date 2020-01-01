@@ -378,7 +378,7 @@ nsBoxObject
 :
 GetFrame
 (
-bool
+PRBool
 aFlushLayout
 )
 {
@@ -440,7 +440,7 @@ nsBoxObject
 :
 GetPresShell
 (
-bool
+PRBool
 aFlushLayout
 )
 {

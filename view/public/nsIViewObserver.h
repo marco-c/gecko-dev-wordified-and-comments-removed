@@ -96,9 +96,9 @@ const
 nsIntRegion
 &
 aIntDirtyRegion
-bool
+PRBool
 aPaintDefaultBackground
-bool
+PRBool
 aWillSendDidPaint
 )
 =
@@ -113,7 +113,7 @@ aView
 nsGUIEvent
 *
 aEvent
-bool
+PRBool
 aDontRetargetEvents
 nsEventStatus
 *
@@ -138,7 +138,7 @@ aHeight
 ;
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 ShouldIgnoreInvalidation
 (
@@ -152,7 +152,7 @@ void
 )
 WillPaint
 (
-bool
+PRBool
 aWillSendDidPaint
 )
 =
@@ -177,7 +177,7 @@ DispatchSynthMouseMove
 nsGUIEvent
 *
 aEvent
-bool
+PRBool
 aFlushOnHoverChange
 )
 =

@@ -86,7 +86,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-bool
+PRBool
 aShrinkWrap
 )
 ;
@@ -175,6 +175,13 @@ nsIFrame
 *
 aDestructRoot
 )
+;
+virtual
+PRBool
+IsContainingBlock
+(
+)
+const
 ;
 NS_IMETHOD
 SetInitialChildList
@@ -347,7 +354,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-bool
+PRBool
 aShrinkWrap
 )
 ;
@@ -394,7 +401,7 @@ endif
 void
 SetSelected
 (
-bool
+PRBool
 aSelected
 SelectionType
 aType
@@ -436,7 +443,7 @@ aActualRowSpan
 PRInt32
 &
 aActualColSpan
-bool
+PRBool
 &
 aIsSelected
 )
@@ -515,7 +522,7 @@ GetCaptionSide
 (
 )
 ;
-bool
+PRBool
 HasSideCaption
 (
 )

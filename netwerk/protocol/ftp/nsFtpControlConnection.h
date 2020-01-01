@@ -159,7 +159,7 @@ nsCSubstring
 command
 )
 ;
-bool
+PRBool
 IsAlive
 (
 )

@@ -113,7 +113,7 @@ inDeepTreeWalker
 :
 GetShowAnonymousContent
 (
-bool
+PRBool
 *
 aShowAnonymousContent
 )
@@ -133,7 +133,7 @@ inDeepTreeWalker
 :
 SetShowAnonymousContent
 (
-bool
+PRBool
 aShowAnonymousContent
 )
 {
@@ -151,7 +151,7 @@ inDeepTreeWalker
 :
 GetShowSubDocuments
 (
-bool
+PRBool
 *
 aShowSubDocuments
 )
@@ -171,7 +171,7 @@ inDeepTreeWalker
 :
 SetShowSubDocuments
 (
-bool
+PRBool
 aShowSubDocuments
 )
 {
@@ -282,7 +282,7 @@ inDeepTreeWalker
 :
 GetExpandEntityReferences
 (
-bool
+PRBool
 *
 aExpandEntityReferences
 )

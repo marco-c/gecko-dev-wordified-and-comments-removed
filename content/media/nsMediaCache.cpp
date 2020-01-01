@@ -273,7 +273,7 @@ AddObserver
 (
 gMediaCacheFlusher
 NS_PRIVATE_BROWSING_SWITCH_TOPIC
-true
+PR_TRUE
 )
 ;
 }
@@ -333,14 +333,14 @@ mFDCurrentPos
 )
 mUpdateQueued
 (
-false
+PR_FALSE
 )
 #
 ifdef
 DEBUG
 mInUpdate
 (
-false
+PR_FALSE
 )
 #
 endif
@@ -714,7 +714,7 @@ PRInt32
 aMaxSearchBlockIndex
 )
 ;
-bool
+PRBool
 BlockIsReusable
 (
 PRInt32
@@ -808,7 +808,7 @@ nsMediaCacheStream
 aStream
 )
 ;
-bool
+PRBool
 IsBlockFree
 (
 PRInt32
@@ -915,13 +915,13 @@ mFDCurrentPos
 BlockList
 mFreeBlocks
 ;
-bool
+PRPackedBool
 mUpdateQueued
 ;
 #
 ifdef
 DEBUG
-bool
+PRPackedBool
 mInUpdate
 ;
 #
@@ -2977,7 +2977,7 @@ return
 blockIndex
 ;
 }
-bool
+PRBool
 nsMediaCache
 :
 :
@@ -3064,12 +3064,12 @@ mStreamBlock
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 }
 return
-true
+PR_TRUE
 ;
 }
 void
@@ -4794,14 +4794,14 @@ mReentrantMonitor
 ;
 mUpdateQueued
 =
-false
+PR_FALSE
 ;
 #
 ifdef
 DEBUG
 mInUpdate
 =
-true
+PR_TRUE
 ;
 #
 endif
@@ -5419,7 +5419,7 @@ mChannelOffset
 ;
 }
 }
-bool
+PRBool
 enableReading
 ;
 if
@@ -5508,7 +5508,7 @@ stream
 ;
 enableReading
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -5541,7 +5541,7 @@ stream
 ;
 enableReading
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -5582,7 +5582,7 @@ stream
 ;
 enableReading
 =
-false
+PR_FALSE
 ;
 }
 else
@@ -5620,7 +5620,7 @@ stream
 ;
 enableReading
 =
-false
+PR_FALSE
 ;
 }
 else
@@ -5664,7 +5664,7 @@ stream
 ;
 enableReading
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -5700,7 +5700,7 @@ stream
 ;
 enableReading
 =
-false
+PR_FALSE
 ;
 }
 else
@@ -5826,7 +5826,7 @@ BLOCK_SIZE
 {
 enableReading
 =
-false
+PR_FALSE
 ;
 LOG
 (
@@ -5971,7 +5971,7 @@ ifdef
 DEBUG
 mInUpdate
 =
-false
+PR_FALSE
 ;
 #
 endif
@@ -6081,7 +6081,7 @@ stream
 >
 mCacheSuspended
 =
-false
+PR_FALSE
 ;
 break
 ;
@@ -6119,7 +6119,7 @@ stream
 >
 mCacheSuspended
 =
-false
+PR_FALSE
 ;
 break
 ;
@@ -6157,7 +6157,7 @@ stream
 >
 mCacheSuspended
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -6263,7 +6263,7 @@ return
 ;
 mUpdateQueued
 =
-true
+PR_TRUE
 ;
 nsCOMPtr
 <
@@ -7970,7 +7970,7 @@ mUsingNullPrincipal
 return
 ;
 }
-bool
+PRBool
 equal
 ;
 nsresult
@@ -8015,7 +8015,7 @@ nullprincipal
 ;
 mUsingNullPrincipal
 =
-true
+PR_TRUE
 ;
 }
 void
@@ -8186,7 +8186,7 @@ blockOffset
 {
 mMetadataInPartialBlockBuffer
 =
-false
+PR_FALSE
 ;
 }
 memcpy
@@ -8557,7 +8557,7 @@ nsMediaCacheStream
 :
 SetSeekable
 (
-bool
+PRBool
 aIsSeekable
 )
 {
@@ -8611,7 +8611,7 @@ QueueUpdate
 )
 ;
 }
-bool
+PRBool
 nsMediaCacheStream
 :
 :
@@ -8713,7 +8713,7 @@ return
 ;
 mClosed
 =
-true
+PR_TRUE
 ;
 gMediaCache
 -
@@ -8882,7 +8882,7 @@ aOffset
 )
 ;
 }
-bool
+PRBool
 nsMediaCacheStream
 :
 :
@@ -8910,7 +8910,7 @@ mStreamLength
 0
 )
 return
-false
+PR_FALSE
 ;
 return
 GetCachedDataEndInternal
@@ -9120,7 +9120,7 @@ startBlockIndex
 return
 aOffset
 ;
-bool
+PRBool
 hasPartialBlock
 =
 (
@@ -9141,7 +9141,7 @@ startBlockIndex
 ;
 while
 (
-true
+PR_TRUE
 )
 {
 if
@@ -9731,7 +9731,7 @@ MODE_METADATA
 {
 mMetadataInPartialBlockBuffer
 =
-true
+PR_TRUE
 ;
 }
 gMediaCache
@@ -10240,7 +10240,7 @@ this
 ;
 mInitialized
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -10322,7 +10322,7 @@ mIsSeekable
 ;
 mCacheSuspended
 =
-true
+PR_TRUE
 ;
 for
 (

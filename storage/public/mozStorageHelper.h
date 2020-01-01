@@ -42,7 +42,7 @@ mozStorageTransaction
 mozIStorageConnection
 *
 aConnection
-bool
+PRBool
 aCommitOnComplete
 PRInt32
 aType
@@ -262,7 +262,7 @@ return
 rv
 ;
 }
-bool
+PRBool
 HasTransaction
 (
 )
@@ -274,7 +274,7 @@ mHasTransaction
 void
 SetDefaultAction
 (
-bool
+PRBool
 aCommitOnComplete
 )
 {
@@ -291,13 +291,13 @@ mozIStorageConnection
 >
 mConnection
 ;
-bool
+PRBool
 mHasTransaction
 ;
-bool
+PRBool
 mCommitOnComplete
 ;
-bool
+PRBool
 mCompleted
 ;
 }

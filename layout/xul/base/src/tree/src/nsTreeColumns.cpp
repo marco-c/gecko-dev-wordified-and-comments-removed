@@ -304,7 +304,7 @@ GetPrimaryFrame
 )
 ;
 }
-bool
+PRBool
 nsTreeColumn
 :
 :
@@ -458,7 +458,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-bool
+PRBool
 isRTL
 =
 aBodyFrame
@@ -911,7 +911,7 @@ nsTreeColumn
 :
 GetPrimary
 (
-bool
+PRBool
 *
 aPrimary
 )
@@ -933,7 +933,7 @@ nsTreeColumn
 :
 GetCycler
 (
-bool
+PRBool
 *
 aCycler
 )
@@ -955,7 +955,7 @@ nsTreeColumn
 :
 GetEditable
 (
-bool
+PRBool
 *
 aEditable
 )
@@ -977,7 +977,7 @@ nsTreeColumn
 :
 GetSelectable
 (
-bool
+PRBool
 *
 aSelectable
 )

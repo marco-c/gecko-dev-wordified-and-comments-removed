@@ -475,11 +475,6 @@ MOZ_BUILD_APP
 )
 )
 _TEST_FILES
-=
-test_resizer_incontent
-.
-xul
-_CHROME_FILES
 +
 =
 test_resizer

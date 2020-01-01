@@ -145,7 +145,7 @@ mCookiesLifetimeSec
 PRUint8
 mCookiesLifetimePolicy
 ;
-bool
+PRPackedBool
 mCookiesAlwaysAcceptSession
 ;
 }

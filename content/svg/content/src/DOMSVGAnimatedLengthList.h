@@ -112,7 +112,7 @@ SVGLengthList
 aNewValue
 )
 ;
-bool
+PRBool
 IsAnimating
 (
 )

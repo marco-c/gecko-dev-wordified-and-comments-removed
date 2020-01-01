@@ -32,7 +32,7 @@ width_mm
 float
 height_mm
 ;
-bool
+PRBool
 isMetric
 ;
 }
@@ -51,7 +51,7 @@ mCurrent
 0
 ;
 }
-bool
+PRBool
 AtEnd
 (
 )
@@ -96,7 +96,7 @@ mCurrent
 +
 ;
 }
-bool
+PRBool
 Find
 (
 const
@@ -188,7 +188,7 @@ mCurrent
 height_mm
 ;
 }
-bool
+PRBool
 IsMetric
 (
 )

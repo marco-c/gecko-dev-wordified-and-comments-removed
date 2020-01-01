@@ -109,7 +109,7 @@ nsSVGElement
 )
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 IsAttributeMapped
 (
@@ -273,7 +273,7 @@ this
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSVGSymbolElement
 :

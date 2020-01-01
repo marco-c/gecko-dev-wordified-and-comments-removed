@@ -72,16 +72,16 @@ keyCode
 PRUint32
 charCode
 ;
-bool
+PRBool
 altKey
 ;
-bool
+PRBool
 ctrlKey
 ;
-bool
+PRBool
 shiftKey
 ;
-bool
+PRBool
 metaKey
 ;
 }
@@ -115,7 +115,7 @@ NS_INATIVEKEYBINDINGS_IID
 virtual
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 KeyDown
 (
@@ -135,7 +135,7 @@ aCallbackData
 virtual
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 KeyPress
 (
@@ -155,7 +155,7 @@ aCallbackData
 virtual
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 KeyUp
 (

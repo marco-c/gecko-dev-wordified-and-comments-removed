@@ -134,7 +134,7 @@ aPrefName
 MozPrefValue
 *
 aPrefVal
-bool
+PRBool
 *
 aLocked
 )
@@ -154,7 +154,7 @@ aPrefName
 MozPrefValue
 *
 aPrefVal
-bool
+PRBool
 aLocked
 )
 ;
@@ -164,7 +164,7 @@ nsIPrefBranch2
 >
 mSysPrefService
 ;
-bool
+PRBool
 mEnabled
 ;
 SysPrefItem

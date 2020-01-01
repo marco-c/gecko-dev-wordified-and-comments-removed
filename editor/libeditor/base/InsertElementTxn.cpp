@@ -37,10 +37,10 @@ h
 ifdef
 NS_DEBUG
 static
-bool
+PRBool
 gNoisy
 =
-false
+PR_FALSE
 ;
 #
 endif
@@ -467,7 +467,7 @@ resultNode
 NS_ERROR_NULL_POINTER
 )
 ;
-bool
+PRBool
 bAdjustSelection
 ;
 mEditor

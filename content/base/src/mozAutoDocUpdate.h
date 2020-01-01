@@ -32,7 +32,7 @@ nsIDocument
 aDocument
 nsUpdateType
 aUpdateType
-bool
+PRBool
 aNotify
 )
 :
@@ -173,7 +173,7 @@ mozAutoDocConditionalContentUpdateBatch
 nsIDocument
 *
 aDocument
-bool
+PRBool
 aNotify
 )
 :

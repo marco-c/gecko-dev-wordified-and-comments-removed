@@ -148,7 +148,7 @@ mDirtyRect
 nsIntRect
 mSkipRect
 ;
-bool
+PRPackedBool
 mHasDirtyRect
 ;
 }

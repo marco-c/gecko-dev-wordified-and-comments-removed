@@ -480,7 +480,7 @@ return
 rv
 ;
 }
-bool
+PRBool
 GetACookie
 (
 nsICookieService
@@ -637,7 +637,7 @@ aCookie
 nsnull
 ;
 }
-bool
+PRBool
 GetACookieNoHttp
 (
 nsICookieService
@@ -797,7 +797,7 @@ MUST_NOT_EQUAL
 4
 static
 inline
-bool
+PRBool
 CheckResult
 (
 const
@@ -885,11 +885,11 @@ PR_FALSE
 ;
 }
 }
-bool
+PRBool
 PrintResult
 (
 const
-bool
+PRBool
 aResult
 [
 ]
@@ -897,10 +897,10 @@ PRUint32
 aSize
 )
 {
-bool
+PRBool
 failed
 =
-false
+PR_FALSE
 ;
 sBuffer
 =
@@ -1135,10 +1135,10 @@ return
 -
 1
 ;
-bool
+PRBool
 allTestsPassed
 =
-true
+PR_TRUE
 ;
 ScopedXPCOM
 xpcom
@@ -1213,7 +1213,7 @@ InitPrefs
 prefBranch
 )
 ;
-bool
+PRBool
 rv
 [
 20
@@ -7419,7 +7419,7 @@ i
 =
 0
 ;
-bool
+PRBool
 more
 ;
 nsCOMPtr
@@ -7668,7 +7668,7 @@ hostCookies
 =
 2
 ;
-bool
+PRBool
 found
 ;
 rv

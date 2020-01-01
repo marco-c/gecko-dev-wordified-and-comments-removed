@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsWeakReference
+.
+h
+"
+#
+include
+"
 nsSVGElement
 .
 h
@@ -286,10 +293,10 @@ mSource
 ;
 private
 :
-bool
+PRPackedBool
 mLoopFlag
 ;
-bool
+PRPackedBool
 mNoHRefURI
 ;
 }

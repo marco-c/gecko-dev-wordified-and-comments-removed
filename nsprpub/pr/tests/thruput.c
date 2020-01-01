@@ -2073,7 +2073,4 @@ Client
 server_name
 )
 ;
-return
-0
-;
 }

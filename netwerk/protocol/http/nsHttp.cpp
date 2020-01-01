@@ -285,7 +285,7 @@ h
 ;
 }
 static
-bool
+PRBool
 StringCompare
 (
 PLDHashTable
@@ -880,7 +880,7 @@ kValidTokenMap
 0
 }
 ;
-bool
+PRBool
 nsHttp
 :
 :
@@ -1098,7 +1098,7 @@ return
 nsnull
 ;
 }
-bool
+PRBool
 nsHttp
 :
 :

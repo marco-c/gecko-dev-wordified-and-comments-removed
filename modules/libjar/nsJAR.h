@@ -248,7 +248,7 @@ return
 mReleaseTime
 ;
 }
-bool
+PRBool
 IsReleased
 (
 )
@@ -315,7 +315,7 @@ mZip
 nsObjectHashtable
 mManifestData
 ;
-bool
+PRBool
 mParsedManifest
 ;
 nsCOMPtr
@@ -346,7 +346,7 @@ mMtime
 PRInt32
 mTotalItemsInManifest
 ;
-bool
+PRBool
 mOpened
 ;
 nsresult
@@ -369,8 +369,8 @@ nsresult
 LoadEntry
 (
 const
-nsACString
-&
+char
+*
 aFilename
 char
 *
@@ -484,10 +484,10 @@ mLastModTime
 PRUint16
 mCompression
 ;
-bool
+PRPackedBool
 mIsDirectory
 ;
-bool
+PRPackedBool
 mIsSynthetic
 ;
 }

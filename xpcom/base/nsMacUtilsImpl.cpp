@@ -66,10 +66,10 @@ Truncate
 (
 )
 ;
-bool
+PRBool
 foundPPC
 =
-false
+PR_FALSE
 foundX86
 =
 PR_FALSE
@@ -415,7 +415,7 @@ nsMacUtilsImpl
 :
 GetIsUniversalBinary
 (
-bool
+PRBool
 *
 aIsUniversalBinary
 )
@@ -496,7 +496,7 @@ nsMacUtilsImpl
 :
 GetIsTranslated
 (
-bool
+PRBool
 *
 aIsTranslated
 )
@@ -505,10 +505,10 @@ aIsTranslated
 ifdef
 __ppc__
 static
-bool
+PRBool
 sInitialized
 =
-false
+PR_FALSE
 ;
 static
 PRInt32

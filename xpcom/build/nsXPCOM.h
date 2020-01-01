@@ -342,7 +342,7 @@ const
 nsAString
 &
 path
-bool
+PRBool
 followLinks
 nsILocalFile
 *
@@ -360,7 +360,7 @@ const
 nsACString
 &
 path
-bool
+PRBool
 followLinks
 nsILocalFile
 *
@@ -560,12 +560,9 @@ nsISupports
 aObject
 )
 ;
-#
-ifdef
-__cplusplus
 XPCOM_API
 (
-bool
+PRBool
 )
 NS_CycleCollectorSuspect
 (
@@ -576,7 +573,7 @@ n
 ;
 XPCOM_API
 (
-bool
+PRBool
 )
 NS_CycleCollectorForget
 (
@@ -599,7 +596,7 @@ n
 ;
 XPCOM_API
 (
-bool
+PRBool
 )
 NS_CycleCollectorForget2
 (
@@ -608,8 +605,6 @@ nsPurpleBufferEntry
 e
 )
 ;
-#
-endif
 #
 define
 XPCOM_DIRECTORY_PROVIDER_CATEGORY

@@ -160,7 +160,7 @@ aOptions
 PRUint32
 *
 bpp
-bool
+PRBool
 *
 usePNG
 )
@@ -252,10 +252,10 @@ mImageBufferSize
 PRUint32
 mImageBufferReadPoint
 ;
-bool
+PRPackedBool
 mFinished
 ;
-bool
+PRPackedBool
 mUsePNG
 ;
 nsCOMPtr

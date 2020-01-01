@@ -276,10 +276,10 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasOwnNamespaceMap
 =
-false
+PR_FALSE
 ;
 PRInt32
 i
@@ -503,10 +503,10 @@ NS_ERROR_OUT_OF_MEMORY
 )
 ;
 }
-bool
+PRBool
 hasOwnNamespaceMap
 =
-false
+PR_FALSE
 ;
 PRInt32
 i
@@ -3762,7 +3762,7 @@ return
 ANY_RESULT
 ;
 }
-bool
+PRBool
 txErrorFunctionCall
 :
 :
@@ -4639,7 +4639,7 @@ aResult
 ;
 }
 extern
-bool
+PRBool
 TX_XSLTFunctionAvailable
 (
 nsIAtom
@@ -4770,7 +4770,7 @@ return
 rv
 ;
 }
-bool
+PRBool
 txStylesheetCompilerState
 :
 :

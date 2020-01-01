@@ -385,15 +385,15 @@ PRInt32
 gNextSerialNumber
 ;
 static
-bool
+PRBool
 gLogging
 ;
 static
-bool
+PRBool
 gLogToLeaky
 ;
 static
-bool
+PRBool
 gLogLeaksOnly
 ;
 static
@@ -445,7 +445,7 @@ gActivityTLS
 BAD_TLS_INDEX
 ;
 static
-bool
+PRBool
 gInitialized
 ;
 static
@@ -1552,7 +1552,7 @@ ALL_STATS
 ;
 }
 static
-bool
+PRBool
 HaveLeaks
 (
 nsTraceRefcntStats
@@ -1591,7 +1591,7 @@ mDestroys
 )
 ;
 }
-bool
+PRBool
 PrintDumpHeader
 (
 FILE
@@ -2515,7 +2515,7 @@ BloatEntry
 {
 public
 :
-bool
+PRBool
 Equals
 (
 BloatEntry
@@ -2552,7 +2552,7 @@ GetClassName
 0
 ;
 }
-bool
+PRBool
 LessThan
 (
 BloatEntry
@@ -2643,7 +2643,7 @@ LOCK_TRACELOG
 (
 )
 ;
-bool
+PRBool
 wasLogging
 =
 gLogging
@@ -2748,7 +2748,7 @@ STATISTICS
 ;
 }
 const
-bool
+PRBool
 leaked
 =
 total
@@ -2951,7 +2951,7 @@ endif
 ifdef
 NS_IMPL_REFCNT_LOGGING
 static
-bool
+PRBool
 LogThisType
 (
 const
@@ -2984,7 +2984,7 @@ GetSerialNumber
 void
 *
 aPtr
-bool
+PRBool
 aCreate
 )
 {
@@ -3266,7 +3266,7 @@ aPtr
 ;
 }
 static
-bool
+PRBool
 LogThisObj
 (
 PRInt32
@@ -3308,7 +3308,7 @@ FOPEN_NO_INHERIT
 #
 endif
 static
-bool
+PRBool
 InitLog
 (
 const
@@ -3711,7 +3711,7 @@ gInitialized
 =
 PR_TRUE
 ;
-bool
+PRBool
 defined
 ;
 defined
@@ -5085,7 +5085,7 @@ aRefcnt
 ;
 }
 }
-bool
+PRBool
 loggingThisType
 =
 (
@@ -5170,7 +5170,7 @@ count
 +
 ;
 }
-bool
+PRBool
 loggingThisObject
 =
 (
@@ -5391,7 +5391,7 @@ aRefcnt
 ;
 }
 }
-bool
+PRBool
 loggingThisType
 =
 (
@@ -5473,7 +5473,7 @@ count
 -
 ;
 }
-bool
+PRBool
 loggingThisObject
 =
 (
@@ -5713,7 +5713,7 @@ Ctor
 ;
 }
 }
-bool
+PRBool
 loggingThisType
 =
 (
@@ -5749,7 +5749,7 @@ PR_TRUE
 )
 ;
 }
-bool
+PRBool
 loggingThisObject
 =
 (
@@ -5892,7 +5892,7 @@ Dtor
 ;
 }
 }
-bool
+PRBool
 loggingThisType
 =
 (
@@ -5933,7 +5933,7 @@ aPtr
 )
 ;
 }
-bool
+PRBool
 loggingThisObject
 =
 (
@@ -6117,7 +6117,7 @@ count
 +
 +
 ;
-bool
+PRBool
 loggingThisObject
 =
 (
@@ -6309,7 +6309,7 @@ count
 -
 -
 ;
-bool
+PRBool
 loggingThisObject
 =
 (
@@ -6555,7 +6555,7 @@ nsTraceRefcntImpl
 :
 SetActivityIsLegal
 (
-bool
+PRBool
 aLegal
 )
 {

@@ -438,10 +438,10 @@ mCTM
 ;
 protected
 :
-bool
+PRPackedBool
 mLoopFlag
 ;
-bool
+PRPackedBool
 mNoHRefURI
 ;
 }

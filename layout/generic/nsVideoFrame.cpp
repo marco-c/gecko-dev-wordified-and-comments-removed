@@ -524,7 +524,7 @@ aDestructRoot
 )
 ;
 }
-bool
+PRBool
 nsVideoFrame
 :
 :
@@ -2318,7 +2318,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-bool
+PRBool
 aShrinkWrap
 )
 {
@@ -2455,7 +2455,7 @@ nsnull
 )
 ;
 }
-bool
+PRBool
 nsVideoFrame
 :
 :
@@ -2820,7 +2820,7 @@ nsVideoFrame
 :
 UpdatePosterSource
 (
-bool
+PRBool
 aNotify
 )
 {
@@ -2953,7 +2953,7 @@ aModType
 )
 ;
 }
-bool
+PRBool
 nsVideoFrame
 :
 :
@@ -2979,7 +2979,7 @@ videoDomElement
 nsnull
 ;
 }
-bool
+PRBool
 nsVideoFrame
 :
 :

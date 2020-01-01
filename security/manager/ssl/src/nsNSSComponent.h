@@ -380,7 +380,7 @@ nssEnsureOnChromeOnly
 }
 ;
 extern
-bool
+PRBool
 EnsureNSSInitialized
 (
 EnsureNSSOperator
@@ -429,7 +429,7 @@ PSMContentDownloader
 void
 setSilentDownload
 (
-bool
+PRBool
 flag
 )
 ;
@@ -500,7 +500,7 @@ mBufferSize
 PRUint32
 mType
 ;
-bool
+PRBool
 mDoSilentDownload
 ;
 nsString
@@ -733,7 +733,7 @@ EnsureIdentityInfoLoaded
 NS_IMETHOD
 IsNSSInitialized
 (
-bool
+PRBool
 *
 initialized
 )
@@ -800,7 +800,7 @@ HASHContext
 *
 mHashContext
 ;
-bool
+PRBool
 mInitialized
 ;
 virtual
@@ -1086,7 +1086,7 @@ EnsureIdentityInfoLoaded
 NS_IMETHOD
 IsNSSInitialized
 (
-bool
+PRBool
 *
 initialized
 )
@@ -1118,7 +1118,7 @@ private
 nsresult
 InitializeNSS
 (
-bool
+PRBool
 showWarningBox
 )
 ;
@@ -1337,10 +1337,10 @@ nsITimer
 >
 mTimer
 ;
-bool
+PRBool
 mNSSInitialized
 ;
-bool
+PRBool
 mObserversRegistered
 ;
 PLHashTable
@@ -1360,10 +1360,10 @@ nsHashtable
 *
 crlsScheduledForDownload
 ;
-bool
+PRBool
 crlDownloadTimerOn
 ;
-bool
+PRBool
 mUpdateTimerInitialized
 ;
 static
@@ -1378,7 +1378,7 @@ SmartCardThreadList
 *
 mThreadList
 ;
-bool
+PRBool
 mIsNetworkDown
 ;
 void
@@ -1434,7 +1434,7 @@ mIdentityInfoCallOnce
 public
 :
 static
-bool
+PRBool
 globalConstFlagUsePKIXVerification
 ;
 }
@@ -1529,7 +1529,7 @@ nsPSMInitPanic
 private
 :
 static
-bool
+PRBool
 isPanic
 ;
 public
@@ -1546,7 +1546,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 GetPanic
 (
 )

@@ -103,7 +103,7 @@ nsStylePosition
 ;
 static
 inline
-bool
+PRBool
 IS_TABLE_CELL
 (
 nsIAtom
@@ -160,7 +160,7 @@ PR_FALSE
 {
 }
 virtual
-bool
+PRBool
 IsVaryingRelativeToMovingFrame
 (
 nsDisplayListBuilder
@@ -190,7 +190,7 @@ aFrame
 ;
 private
 :
-bool
+PRPackedBool
 mPartHasFixedBackground
 ;
 }
@@ -378,7 +378,7 @@ aPresContext
 )
 ;
 static
-bool
+PRBool
 AncestorsHaveStyleHeight
 (
 const
@@ -407,6 +407,13 @@ nsHTMLReflowState
 aReflowState
 )
 ;
+virtual
+PRBool
+IsContainingBlock
+(
+)
+const
+;
 static
 void
 RePositionViews
@@ -417,7 +424,7 @@ aFrame
 )
 ;
 static
-bool
+PRBool
 PageBreakAfter
 (
 nsIFrame
@@ -513,13 +520,6 @@ const
 virtual
 nsMargin
 GetUsedPadding
-(
-)
-const
-;
-virtual
-nsMargin
-GetUsedMargin
 (
 )
 const
@@ -630,12 +630,12 @@ nsIAtom
 aChildType
 )
 ;
-bool
+PRBool
 IsAutoHeight
 (
 )
 ;
-bool
+PRBool
 IsRowGroup
 (
 PRInt32
@@ -760,7 +760,7 @@ nsRect
 aValue
 )
 ;
-bool
+PRBool
 BCRecalcNeeded
 (
 nsStyleContext
@@ -833,7 +833,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-bool
+PRBool
 aShrinkWrap
 )
 ;
@@ -854,7 +854,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-bool
+PRBool
 aShrinkWrap
 )
 ;
@@ -1013,7 +1013,7 @@ nsnull
 )
 const
 ;
-bool
+PRBool
 HasMoreThanOneCell
 (
 PRInt32
@@ -1072,7 +1072,7 @@ PRInt32
 aNumColsToAdd
 nsTableColType
 aColType
-bool
+PRBool
 aAddToTable
 )
 ;
@@ -1165,7 +1165,7 @@ nsTableRowFrame
 aFrames
 PRInt32
 aRowIndex
-bool
+PRBool
 aConsiderSpans
 )
 ;
@@ -1178,7 +1178,7 @@ nsTableRowFrame
 aFirstRowFrame
 PRInt32
 aNumRowsToRemove
-bool
+PRBool
 aConsiderSpans
 )
 ;
@@ -1217,9 +1217,9 @@ nsTableColGroupFrame
 aColGroupFrame
 PRInt32
 aColIndex
-bool
+PRBool
 aRemoveFromCache
-bool
+PRBool
 aRemoveFromCellMap
 )
 ;
@@ -1248,7 +1248,7 @@ PRInt32
 aColumn
 )
 ;
-bool
+PRBool
 ColumnHasCellSpacingBefore
 (
 PRInt32
@@ -1256,7 +1256,7 @@ aColIndex
 )
 const
 ;
-bool
+PRBool
 HasPctCol
 (
 )
@@ -1265,11 +1265,11 @@ const
 void
 SetHasPctCol
 (
-bool
+PRBool
 aValue
 )
 ;
-bool
+PRBool
 HasCellSpanningPctCol
 (
 )
@@ -1278,7 +1278,7 @@ const
 void
 SetHasCellSpanningPctCol
 (
-bool
+PRBool
 aValue
 )
 ;
@@ -1297,7 +1297,7 @@ const
 nsRect
 &
 aOrigVisualOverflow
-bool
+PRBool
 aIsFirstReflow
 )
 ;
@@ -1333,7 +1333,7 @@ const
 ;
 public
 :
-bool
+PRBool
 IsRowInserted
 (
 )
@@ -1342,7 +1342,7 @@ const
 void
 SetRowInserted
 (
-bool
+PRBool
 aValue
 )
 ;
@@ -1576,7 +1576,7 @@ GetTFoot
 )
 const
 ;
-bool
+PRBool
 RowIsSpannedInto
 (
 PRInt32
@@ -1585,7 +1585,7 @@ PRInt32
 aNumEffCols
 )
 ;
-bool
+PRBool
 RowHasSpanningCells
 (
 PRInt32
@@ -1596,7 +1596,7 @@ aNumEffCols
 ;
 protected
 :
-bool
+PRBool
 HaveReflowedColGroups
 (
 )
@@ -1605,19 +1605,19 @@ const
 void
 SetHaveReflowedColGroups
 (
-bool
+PRBool
 aValue
 )
 ;
 public
 :
-bool
+PRBool
 IsBorderCollapse
 (
 )
 const
 ;
-bool
+PRBool
 NeedToCalcBCBorders
 (
 )
@@ -1626,11 +1626,11 @@ const
 void
 SetNeedToCalcBCBorders
 (
-bool
+PRBool
 aValue
 )
 ;
-bool
+PRBool
 NeedToCollapse
 (
 )
@@ -1639,11 +1639,11 @@ const
 void
 SetNeedToCollapse
 (
-bool
+PRBool
 aValue
 )
 ;
-bool
+PRBool
 HasZeroColSpans
 (
 )
@@ -1652,11 +1652,11 @@ const
 void
 SetHasZeroColSpans
 (
-bool
+PRBool
 aValue
 )
 ;
-bool
+PRBool
 NeedColSpanExpansion
 (
 )
@@ -1665,7 +1665,7 @@ const
 void
 SetNeedColSpanExpansion
 (
-bool
+PRBool
 aValue
 )
 ;
@@ -1693,7 +1693,7 @@ mGeometryDirty
 PR_FALSE
 ;
 }
-bool
+PRBool
 IsGeometryDirty
 (
 )
@@ -1749,7 +1749,7 @@ protected
 void
 SetBorderCollapse
 (
-bool
+PRBool
 aValue
 )
 ;
@@ -1849,7 +1849,7 @@ GetIndexOfLastRealCol
 )
 ;
 virtual
-bool
+PRBool
 IsAutoLayout
 (
 )
@@ -1883,7 +1883,7 @@ aActualRowSpan
 PRInt32
 &
 aActualColSpan
-bool
+PRBool
 &
 aIsSelected
 )
@@ -1907,11 +1907,11 @@ DEBUG
 void
 Dump
 (
-bool
+PRBool
 aDumpRows
-bool
+PRBool
 aDumpCols
-bool
+PRBool
 aDumpCellMap
 )
 ;
@@ -2020,7 +2020,7 @@ mColGroups
 }
 ;
 inline
-bool
+PRBool
 nsTableFrame
 :
 :
@@ -2032,7 +2032,7 @@ aDisplayType
 const
 {
 return
-bool
+PRBool
 (
 (
 NS_STYLE_DISPLAY_TABLE_HEADER_GROUP
@@ -2066,7 +2066,7 @@ nsTableFrame
 :
 SetHaveReflowedColGroups
 (
-bool
+PRBool
 aValue
 )
 {
@@ -2078,7 +2078,7 @@ aValue
 ;
 }
 inline
-bool
+PRBool
 nsTableFrame
 :
 :
@@ -2089,7 +2089,7 @@ const
 {
 return
 (
-bool
+PRBool
 )
 mBits
 .
@@ -2097,7 +2097,7 @@ mHaveReflowedColGroups
 ;
 }
 inline
-bool
+PRBool
 nsTableFrame
 :
 :
@@ -2108,7 +2108,7 @@ const
 {
 return
 (
-bool
+PRBool
 )
 mBits
 .
@@ -2122,7 +2122,7 @@ nsTableFrame
 :
 SetHasPctCol
 (
-bool
+PRBool
 aValue
 )
 {
@@ -2137,7 +2137,7 @@ aValue
 ;
 }
 inline
-bool
+PRBool
 nsTableFrame
 :
 :
@@ -2148,7 +2148,7 @@ const
 {
 return
 (
-bool
+PRBool
 )
 mBits
 .
@@ -2162,7 +2162,7 @@ nsTableFrame
 :
 SetHasCellSpanningPctCol
 (
-bool
+PRBool
 aValue
 )
 {
@@ -2177,7 +2177,7 @@ aValue
 ;
 }
 inline
-bool
+PRBool
 nsTableFrame
 :
 :
@@ -2188,7 +2188,7 @@ const
 {
 return
 (
-bool
+PRBool
 )
 mBits
 .
@@ -2202,7 +2202,7 @@ nsTableFrame
 :
 SetRowInserted
 (
-bool
+PRBool
 aValue
 )
 {
@@ -2223,7 +2223,7 @@ nsTableFrame
 :
 SetNeedToCollapse
 (
-bool
+PRBool
 aValue
 )
 {
@@ -2250,7 +2250,7 @@ aValue
 ;
 }
 inline
-bool
+PRBool
 nsTableFrame
 :
 :
@@ -2261,7 +2261,7 @@ const
 {
 return
 (
-bool
+PRBool
 )
 static_cast
 <
@@ -2287,7 +2287,7 @@ nsTableFrame
 :
 SetHasZeroColSpans
 (
-bool
+PRBool
 aValue
 )
 {
@@ -2302,7 +2302,7 @@ aValue
 ;
 }
 inline
-bool
+PRBool
 nsTableFrame
 :
 :
@@ -2313,7 +2313,7 @@ const
 {
 return
 (
-bool
+PRBool
 )
 mBits
 .
@@ -2327,7 +2327,7 @@ nsTableFrame
 :
 SetNeedColSpanExpansion
 (
-bool
+PRBool
 aValue
 )
 {
@@ -2342,7 +2342,7 @@ aValue
 ;
 }
 inline
-bool
+PRBool
 nsTableFrame
 :
 :
@@ -2353,7 +2353,7 @@ const
 {
 return
 (
-bool
+PRBool
 )
 mBits
 .
@@ -2405,7 +2405,7 @@ mColFrames
 ;
 }
 inline
-bool
+PRBool
 nsTableFrame
 :
 :
@@ -2416,7 +2416,7 @@ const
 {
 return
 (
-bool
+PRBool
 )
 mBits
 .
@@ -2430,7 +2430,7 @@ nsTableFrame
 :
 SetBorderCollapse
 (
-bool
+PRBool
 aValue
 )
 {
@@ -2442,7 +2442,7 @@ aValue
 ;
 }
 inline
-bool
+PRBool
 nsTableFrame
 :
 :
@@ -2453,7 +2453,7 @@ const
 {
 return
 (
-bool
+PRBool
 )
 mBits
 .
@@ -2467,7 +2467,7 @@ nsTableFrame
 :
 SetNeedToCalcBCBorders
 (
-bool
+PRBool
 aValue
 )
 {
@@ -2563,7 +2563,7 @@ Next
 (
 )
 ;
-bool
+PRBool
 IsLeftToRight
 (
 )
@@ -2583,7 +2583,7 @@ nsIFrame
 aFirstChild
 )
 ;
-bool
+PRBool
 mLeftToRight
 ;
 nsIFrame

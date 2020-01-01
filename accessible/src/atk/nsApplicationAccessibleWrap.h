@@ -44,13 +44,13 @@ nsApplicationAccessibleWrap
 )
 ;
 virtual
-bool
+PRBool
 Init
 (
 )
 ;
 virtual
-bool
+PRBool
 AppendChild
 (
 nsAccessible
@@ -59,7 +59,7 @@ aChild
 )
 ;
 virtual
-bool
+PRBool
 RemoveChild
 (
 nsAccessible

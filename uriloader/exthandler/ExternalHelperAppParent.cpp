@@ -149,7 +149,7 @@ nsCString
 &
 aContentDispositionHeader
 const
-bool
+PRBool
 &
 aForceSave
 const
@@ -477,7 +477,7 @@ ExternalHelperAppParent
 :
 IsPending
 (
-bool
+PRBool
 *
 aResult
 )
@@ -1123,7 +1123,7 @@ ExternalHelperAppParent
 :
 GetIsLastPart
 (
-bool
+PRBool
 *
 aIsLastPart
 )

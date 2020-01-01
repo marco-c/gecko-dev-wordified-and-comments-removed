@@ -140,7 +140,7 @@ GetType
 const
 ;
 virtual
-bool
+PRBool
 IsLeaf
 (
 )
@@ -427,7 +427,7 @@ DestroyAnonymousContent
 )
 ;
 }
-bool
+PRBool
 nsSVGUseFrame
 :
 :

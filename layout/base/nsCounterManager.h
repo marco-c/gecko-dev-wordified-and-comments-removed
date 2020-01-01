@@ -132,7 +132,7 @@ Array
 >
 mCounterStyle
 ;
-bool
+PRBool
 mAllCounters
 ;
 nsCounterUseNode
@@ -145,7 +145,7 @@ Array
 aCounterStyle
 PRUint32
 aContentIndex
-bool
+PRBool
 aAllCounters
 )
 :
@@ -178,7 +178,7 @@ range
 ;
 }
 virtual
-bool
+PRBool
 InitTextFrame
 (
 nsGenConList
@@ -590,7 +590,7 @@ RecalcAll
 (
 )
 ;
-bool
+PRBool
 IsDirty
 (
 )
@@ -611,7 +611,7 @@ PR_TRUE
 }
 private
 :
-bool
+PRBool
 mDirty
 ;
 }
@@ -625,7 +625,7 @@ nsCounterManager
 (
 )
 ;
-bool
+PRBool
 AddCounterResetsAndIncrements
 (
 nsIFrame
@@ -648,7 +648,7 @@ RecalcAll
 (
 )
 ;
-bool
+PRBool
 DestroyNodesFor
 (
 nsIFrame
@@ -680,7 +680,7 @@ Dump
 endif
 private
 :
-bool
+PRBool
 AddResetOrIncrement
 (
 nsIFrame

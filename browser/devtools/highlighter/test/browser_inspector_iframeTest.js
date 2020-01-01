@@ -13,6 +13,9 @@ iframe1
 let
 iframe2
 ;
+let
+highlighterFrame
+;
 function
 createDocument
 (
@@ -267,8 +270,6 @@ obs
 addObserver
 (
 runIframeTests
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -294,8 +295,6 @@ obs
 removeObserver
 (
 runIframeTests
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 OPENED
@@ -309,13 +308,19 @@ obs
 addObserver
 (
 performTestComparisons1
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING
 false
 )
+;
+highlighterFrame
+=
+InspectorUI
+.
+highlighter
+.
+iframe
 ;
 executeSoon
 (
@@ -341,8 +346,6 @@ obs
 removeObserver
 (
 performTestComparisons1
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING
@@ -356,8 +359,6 @@ obs
 addObserver
 (
 performTestComparisons2
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING
@@ -417,8 +418,6 @@ obs
 removeObserver
 (
 performTestComparisons2
-InspectorUI
-.
 INSPECTOR_NOTIFICATIONS
 .
 HIGHLIGHTING

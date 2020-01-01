@@ -198,7 +198,7 @@ kRangeCID
 NS_RANGE_CID
 )
 ;
-bool
+PRBool
 nsCoreUtils
 :
 :
@@ -607,7 +607,7 @@ rootWidget
 )
 ;
 }
-bool
+PRBool
 nsCoreUtils
 :
 :
@@ -1214,7 +1214,7 @@ return
 content
 ;
 }
-bool
+PRBool
 nsCoreUtils
 :
 :
@@ -2000,7 +2000,7 @@ return
 docShellTreeItem
 ;
 }
-bool
+PRBool
 nsCoreUtils
 :
 :
@@ -2070,7 +2070,7 @@ return
 parentTreeItem
 ;
 }
-bool
+PRBool
 nsCoreUtils
 :
 :
@@ -2234,7 +2234,7 @@ parentTreeItem
 rootTreeItem
 ;
 }
-bool
+PRBool
 nsCoreUtils
 :
 :
@@ -2256,10 +2256,10 @@ GetDocumentURI
 (
 )
 ;
-bool
+PRBool
 isAboutScheme
 =
-false
+PR_FALSE
 ;
 uri
 -
@@ -2323,7 +2323,7 @@ certerror
 )
 ;
 }
-bool
+PRBool
 nsCoreUtils
 :
 :
@@ -2471,7 +2471,7 @@ return
 node
 ;
 }
-bool
+PRBool
 nsCoreUtils
 :
 :
@@ -2512,7 +2512,7 @@ aID
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsCoreUtils
 :
 :
@@ -2595,7 +2595,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsCoreUtils
 :
 :
@@ -3496,7 +3496,7 @@ forget
 )
 ;
 }
-bool
+PRBool
 nsCoreUtils
 :
 :
@@ -3768,7 +3768,7 @@ const
 nsAString
 &
 aString
-bool
+PRBool
 *
 aResult
 )

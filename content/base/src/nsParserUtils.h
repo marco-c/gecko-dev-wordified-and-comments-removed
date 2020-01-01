@@ -20,7 +20,7 @@ nsParserUtils
 public
 :
 static
-bool
+PRBool
 GetQuotedAttributeValue
 (
 const
@@ -36,7 +36,7 @@ aValue
 )
 ;
 static
-bool
+PRBool
 IsJavaScriptLanguage
 (
 const

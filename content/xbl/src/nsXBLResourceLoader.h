@@ -136,7 +136,7 @@ StyleSheetLoaded
 nsCSSStyleSheet
 *
 aSheet
-bool
+PRBool
 aWasAlternate
 nsresult
 aStatus
@@ -145,7 +145,7 @@ aStatus
 void
 LoadResources
 (
-bool
+PRBool
 *
 aResult
 )
@@ -207,10 +207,10 @@ nsXBLResource
 *
 mLastResource
 ;
-bool
+PRPackedBool
 mLoadingResources
 ;
-bool
+PRPackedBool
 mInLoadResourcesFunc
 ;
 PRInt16

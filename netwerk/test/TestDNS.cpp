@@ -238,7 +238,7 @@ get
 )
 )
 ;
-bool
+PRBool
 hasMore
 ;
 while
@@ -310,7 +310,7 @@ myDNSListener
 nsIDNSListener
 )
 static
-bool
+PRBool
 IsAscii
 (
 const

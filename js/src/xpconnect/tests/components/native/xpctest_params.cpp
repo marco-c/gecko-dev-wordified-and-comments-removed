@@ -82,13 +82,13 @@ nsXPCTestParams
 :
 TestBoolean
 (
-bool
+PRBool
 a
-bool
+PRBool
 *
 b
 NS_INOUTPARAM
-bool
+PRBool
 *
 _retval
 NS_OUTPARAM

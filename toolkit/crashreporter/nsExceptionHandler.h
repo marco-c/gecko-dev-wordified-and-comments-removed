@@ -312,7 +312,7 @@ endif
 nsresult
 GetSubmitReports
 (
-bool
+PRBool
 *
 aSubmitReport
 )
@@ -320,7 +320,7 @@ aSubmitReport
 nsresult
 SetSubmitReports
 (
-bool
+PRBool
 aSubmitReport
 )
 ;

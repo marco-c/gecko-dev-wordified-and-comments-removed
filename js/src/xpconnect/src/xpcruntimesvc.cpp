@@ -140,7 +140,7 @@ JSObject
 *
 *
 objp
-bool
+PRBool
 *
 _retval
 )

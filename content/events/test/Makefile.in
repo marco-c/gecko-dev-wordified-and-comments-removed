@@ -723,10 +723,6 @@ empty
 .
 js
 \
-test_bug689564
-.
-html
-\
 (
 NULL
 )
@@ -808,14 +804,6 @@ bug415498
 doc2
 .
 html
-\
-test_bug591249
-.
-xul
-\
-bug591249_iframe
-.
-xul
 \
 bug602962
 .

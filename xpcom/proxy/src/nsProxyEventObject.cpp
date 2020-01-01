@@ -555,7 +555,7 @@ NS_PROXYEVENT_FILTER_IID
 ;
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsProxyThreadFilter
 :
@@ -700,10 +700,10 @@ rv
 return
 rv
 ;
-bool
+PRBool
 callDirectly
 =
-false
+PR_FALSE
 ;
 if
 (

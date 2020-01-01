@@ -227,10 +227,10 @@ mDisk
 PRUint16
 mIAttr
 ;
-bool
+PRPackedBool
 mInited
 ;
-bool
+PRPackedBool
 mWriteOnClose
 ;
 nsCString
@@ -307,7 +307,7 @@ GetExtraField
 (
 PRUint16
 aTag
-bool
+PRBool
 aLocal
 PRUint16
 *

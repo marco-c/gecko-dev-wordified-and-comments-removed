@@ -733,7 +733,7 @@ Init
 (
 PRInt32
 aPort
-bool
+PRBool
 aLoopbackOnly
 PRInt32
 aBackLog

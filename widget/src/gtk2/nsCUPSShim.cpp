@@ -84,7 +84,7 @@ NS_ARRAY_LENGTH
 gSymName
 )
 ;
-bool
+PRBool
 nsCUPSShim
 :
 :
@@ -111,7 +111,7 @@ if
 mCupsLib
 )
 return
-false
+PR_FALSE
 ;
 void
 *
@@ -253,11 +253,11 @@ mCupsLib
 nsnull
 ;
 return
-false
+PR_FALSE
 ;
 }
 }
 return
-true
+PR_TRUE
 ;
 }

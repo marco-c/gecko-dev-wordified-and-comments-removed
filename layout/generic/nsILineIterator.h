@@ -62,7 +62,7 @@ GetNumLines
 0
 ;
 virtual
-bool
+PRBool
 GetDirection
 (
 )
@@ -117,10 +117,10 @@ nsIFrame
 *
 *
 aFrameFound
-bool
+PRBool
 *
 aXIsBeforeFirstFrame
-bool
+PRBool
 *
 aXIsAfterLastFrame
 )
@@ -148,7 +148,7 @@ CheckLineOrder
 (
 PRInt32
 aLine
-bool
+PRBool
 *
 aIsReordered
 nsIFrame

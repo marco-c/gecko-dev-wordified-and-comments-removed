@@ -30,10 +30,10 @@ h
 ifdef
 NS_DEBUG
 static
-bool
+PRBool
 gNoisy
 =
-false
+PR_FALSE
 ;
 #
 endif
@@ -379,7 +379,7 @@ mOffset
 mNumCharsToDelete
 )
 ;
-bool
+PRBool
 bAdjustSelection
 ;
 mEditor

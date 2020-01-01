@@ -72,7 +72,7 @@ aValue
 nsSVGElement
 *
 aSVGElement
-bool
+PRBool
 aDoSetAttr
 )
 ;
@@ -92,7 +92,7 @@ aValue
 nsSVGElement
 *
 aSVGElement
-bool
+PRBool
 aDoSetAttr
 )
 ;
@@ -126,7 +126,7 @@ return
 mAnimVal
 ;
 }
-bool
+PRBool
 IsExplicitlySet
 (
 )
@@ -176,10 +176,10 @@ mBaseVal
 PRUint8
 mAttrEnum
 ;
-bool
+PRPackedBool
 mIsAnimated
 ;
-bool
+PRPackedBool
 mIsBaseSet
 ;
 public
@@ -358,7 +358,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-bool
+PRBool
 &
 aPreventCachingOfSandwich
 )

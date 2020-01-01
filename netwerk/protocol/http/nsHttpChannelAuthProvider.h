@@ -167,7 +167,7 @@ return
 mPort
 ;
 }
-bool
+PRBool
 UsingSSL
 (
 )
@@ -177,7 +177,7 @@ return
 mUsingSSL
 ;
 }
-bool
+PRBool
 UsingHttpProxy
 (
 )
@@ -212,7 +212,7 @@ http
 nsresult
 PrepareForAuthentication
 (
-bool
+PRBool
 proxyAuth
 )
 ;
@@ -221,7 +221,7 @@ GenCredsAndSetEntry
 (
 nsIHttpAuthenticator
 *
-bool
+PRBool
 proxyAuth
 const
 char
@@ -305,7 +305,7 @@ const
 char
 *
 challenges
-bool
+PRBool
 proxyAuth
 nsAFlatCString
 &
@@ -323,7 +323,7 @@ const
 char
 *
 scheme
-bool
+PRBool
 proxyAuth
 nsIHttpAuthenticator
 *
@@ -338,7 +338,7 @@ PromptForIdentity
 (
 PRUint32
 level
-bool
+PRBool
 proxyAuth
 const
 char
@@ -354,14 +354,14 @@ nsHttpAuthIdentity
 &
 )
 ;
-bool
+PRBool
 ConfirmAuth
 (
 const
 nsString
 &
 bundleKey
-bool
+PRBool
 doYesNoPrompt
 )
 ;
@@ -401,7 +401,7 @@ nsACString
 nsresult
 GetAuthorizationMembers
 (
-bool
+PRBool
 proxyAuth
 nsCSubstring
 &
@@ -471,7 +471,7 @@ mHost
 PRInt32
 mPort
 ;
-bool
+PRBool
 mUsingSSL
 ;
 nsISupports

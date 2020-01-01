@@ -299,10 +299,10 @@ return
 rv
 ;
 }
-bool
+PRBool
 isSafe
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -658,7 +658,7 @@ const
 char
 *
 scheme
-bool
+PRBool
 *
 _retval
 )
@@ -879,7 +879,7 @@ const
 char
 *
 scheme
-bool
+PRBool
 *
 _retval
 )
@@ -954,7 +954,7 @@ rv
 return
 rv
 ;
-bool
+PRBool
 haveBase
 ;
 rv
@@ -1127,7 +1127,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsNestedAboutURI
 :
 :

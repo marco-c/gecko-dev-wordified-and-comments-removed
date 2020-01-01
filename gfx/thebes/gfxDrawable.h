@@ -90,7 +90,7 @@ gfxDrawable
 {
 }
 virtual
-bool
+PRBool
 Draw
 (
 gfxContext
@@ -100,7 +100,7 @@ const
 gfxRect
 &
 aFillRect
-bool
+PRBool
 aRepeat
 const
 gfxPattern
@@ -173,7 +173,7 @@ gfxSurfaceDrawable
 {
 }
 virtual
-bool
+PRBool
 Draw
 (
 gfxContext
@@ -183,7 +183,7 @@ const
 gfxRect
 &
 aFillRect
-bool
+PRBool
 aRepeat
 const
 gfxPattern
@@ -234,7 +234,7 @@ gfxDrawingCallback
 {
 }
 virtual
-bool
+PRBool
 operator
 (
 )
@@ -294,7 +294,7 @@ gfxCallbackDrawable
 {
 }
 virtual
-bool
+PRBool
 Draw
 (
 gfxContext
@@ -304,7 +304,7 @@ const
 gfxRect
 &
 aFillRect
-bool
+PRBool
 aRepeat
 const
 gfxPattern
@@ -385,7 +385,7 @@ gfxPatternDrawable
 {
 }
 virtual
-bool
+PRBool
 Draw
 (
 gfxContext
@@ -395,7 +395,7 @@ const
 gfxRect
 &
 aFillRect
-bool
+PRBool
 aRepeat
 const
 gfxPattern

@@ -457,6 +457,10 @@ GeckoInputConnection
 .
 java
 \
+GeckoPhoneStateListener
+.
+java
+\
 AlertNotification
 .
 java

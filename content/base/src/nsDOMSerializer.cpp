@@ -198,10 +198,10 @@ rv
 return
 rv
 ;
-bool
+PRBool
 entireDocument
 =
-true
+PR_TRUE
 ;
 nsCOMPtr
 <

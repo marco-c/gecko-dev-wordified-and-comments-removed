@@ -105,7 +105,7 @@ nsHtml5AtomTable
 )
 ;
 inline
-bool
+PRBool
 Init
 (
 )

@@ -238,7 +238,7 @@ PDRAGINFO
 pdinfo
 HWND
 hwnd
-bool
+PRBool
 *
 rendering
 )
@@ -263,7 +263,7 @@ PCSZ
 pszText
 PCSZ
 pszTitle
-bool
+PRBool
 isUrl
 )
 =

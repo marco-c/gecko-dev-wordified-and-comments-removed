@@ -507,10 +507,10 @@ nsIMutableArray
 >
 iargv
 ;
-bool
+PRBool
 handledScriptError
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -1105,7 +1105,7 @@ nsIDataType
 VTYPE_BOOL
 )
 {
-bool
+PRBool
 brv
 ;
 if

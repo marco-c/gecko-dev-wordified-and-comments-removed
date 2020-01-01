@@ -1389,9 +1389,9 @@ char
 *
 charset
 *
-bool
+PRBool
 override
-bool
+PRBool
 eatcontinuation
 )
 *

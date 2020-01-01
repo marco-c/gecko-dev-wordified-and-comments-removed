@@ -249,7 +249,7 @@ aSerializer
 ;
 }
 static
-bool
+PRBool
 IsInvisibleBreak
 (
 nsIContent
@@ -392,10 +392,10 @@ if
 htmlEditor
 )
 {
-bool
+PRBool
 isVisible
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -710,7 +710,7 @@ kNameSpaceID_None
 continue
 ;
 }
-bool
+PRBool
 isJS
 =
 IsJavaScript
@@ -1060,10 +1060,10 @@ content
 =
 aElement
 ;
-bool
+PRBool
 forceFormat
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -1125,7 +1125,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 lineBreakBeforeOpen
 =
 LineBreakBeforeOpen
@@ -1630,7 +1630,7 @@ noframes
 mDisableEntityEncoding
 ;
 }
-bool
+PRBool
 forceFormat
 =
 content
@@ -1803,7 +1803,7 @@ if
 parserService
 )
 {
-bool
+PRBool
 isContainer
 ;
 parserService
@@ -1851,7 +1851,7 @@ mPreLevel
 mDoRaw
 )
 {
-bool
+PRBool
 lineBreakBeforeClose
 =
 LineBreakBeforeClose
@@ -2524,7 +2524,7 @@ aStr
 return
 ;
 }
-bool
+PRBool
 nonBasicEntities
 =
 !

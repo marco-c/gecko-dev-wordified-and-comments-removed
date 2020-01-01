@@ -114,7 +114,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsSVGPathDataParser
 :
 :
@@ -151,7 +151,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsSVGPathDataParser
 :
 :
@@ -171,7 +171,7 @@ nsSVGPathDataParser
 :
 MatchFlag
 (
-bool
+PRBool
 *
 f
 )
@@ -355,7 +355,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsSVGPathDataParser
 :
 :
@@ -416,7 +416,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsSVGPathDataParser
 :
 :
@@ -518,7 +518,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsSVGPathDataParser
 :
 :
@@ -686,7 +686,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsSVGPathDataParser
 :
 :
@@ -772,7 +772,7 @@ MatchMoveto
 (
 )
 {
-bool
+PRBool
 absCoords
 ;
 switch
@@ -845,7 +845,7 @@ nsSVGPathDataParser
 :
 MatchMovetoArgSeq
 (
-bool
+PRBool
 absCoords
 )
 {
@@ -986,7 +986,7 @@ MatchLineto
 (
 )
 {
-bool
+PRBool
 absCoords
 ;
 switch
@@ -1059,7 +1059,7 @@ nsSVGPathDataParser
 :
 MatchLinetoArgSeq
 (
-bool
+PRBool
 absCoords
 )
 {
@@ -1150,7 +1150,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsSVGPathDataParser
 :
 :
@@ -1172,7 +1172,7 @@ MatchHorizontalLineto
 (
 )
 {
-bool
+PRBool
 absCoords
 ;
 switch
@@ -1245,7 +1245,7 @@ nsSVGPathDataParser
 :
 MatchHorizontalLinetoArgSeq
 (
-bool
+PRBool
 absCoords
 )
 {
@@ -1340,7 +1340,7 @@ MatchVerticalLineto
 (
 )
 {
-bool
+PRBool
 absCoords
 ;
 switch
@@ -1413,7 +1413,7 @@ nsSVGPathDataParser
 :
 MatchVerticalLinetoArgSeq
 (
-bool
+PRBool
 absCoords
 )
 {
@@ -1508,7 +1508,7 @@ MatchCurveto
 (
 )
 {
-bool
+PRBool
 absCoords
 ;
 switch
@@ -1581,7 +1581,7 @@ nsSVGPathDataParser
 :
 MatchCurvetoArgSeq
 (
-bool
+PRBool
 absCoords
 )
 {
@@ -1775,7 +1775,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsSVGPathDataParser
 :
 :
@@ -1797,7 +1797,7 @@ MatchSmoothCurveto
 (
 )
 {
-bool
+PRBool
 absCoords
 ;
 switch
@@ -1870,7 +1870,7 @@ nsSVGPathDataParser
 :
 MatchSmoothCurvetoArgSeq
 (
-bool
+PRBool
 absCoords
 )
 {
@@ -2026,7 +2026,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsSVGPathDataParser
 :
 :
@@ -2048,7 +2048,7 @@ MatchQuadBezierCurveto
 (
 )
 {
-bool
+PRBool
 absCoords
 ;
 switch
@@ -2121,7 +2121,7 @@ nsSVGPathDataParser
 :
 MatchQuadBezierCurvetoArgSeq
 (
-bool
+PRBool
 absCoords
 )
 {
@@ -2277,7 +2277,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsSVGPathDataParser
 :
 :
@@ -2299,7 +2299,7 @@ MatchSmoothQuadBezierCurveto
 (
 )
 {
-bool
+PRBool
 absCoords
 ;
 switch
@@ -2372,7 +2372,7 @@ nsSVGPathDataParser
 :
 MatchSmoothQuadBezierCurvetoArgSeq
 (
-bool
+PRBool
 absCoords
 )
 {
@@ -2471,7 +2471,7 @@ MatchEllipticalArc
 (
 )
 {
-bool
+PRBool
 absCoords
 ;
 switch
@@ -2544,7 +2544,7 @@ nsSVGPathDataParser
 :
 MatchEllipticalArcArgSeq
 (
-bool
+PRBool
 absCoords
 )
 {
@@ -2560,7 +2560,7 @@ r1
 r2
 angle
 ;
-bool
+PRBool
 largeArcFlag
 sweepFlag
 ;
@@ -2678,10 +2678,10 @@ r2
 float
 *
 angle
-bool
+PRBool
 *
 largeArcFlag
-bool
+PRBool
 *
 sweepFlag
 )
@@ -2814,7 +2814,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsSVGPathDataParser
 :
 :
@@ -2903,9 +2903,9 @@ gfxPoint
 radii
 double
 angle
-bool
+PRBool
 largeArcFlag
-bool
+PRBool
 sweepFlag
 )
 {
@@ -3400,7 +3400,7 @@ mSegIndex
 0
 ;
 }
-bool
+PRBool
 nsSVGArcConverter
 :
 :
@@ -3666,7 +3666,7 @@ nsSVGPathDataParserToInternal
 :
 StoreMoveTo
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -3734,7 +3734,7 @@ nsSVGPathDataParserToInternal
 :
 StoreLineTo
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -3781,7 +3781,7 @@ nsSVGPathDataParserToInternal
 :
 StoreHLineTo
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -3825,7 +3825,7 @@ nsSVGPathDataParserToInternal
 :
 StoreVLineTo
 (
-bool
+PRBool
 absCoords
 float
 y
@@ -3869,7 +3869,7 @@ nsSVGPathDataParserToInternal
 :
 StoreCurveTo
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -3928,7 +3928,7 @@ nsSVGPathDataParserToInternal
 :
 StoreSmoothCurveTo
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -3981,7 +3981,7 @@ nsSVGPathDataParserToInternal
 :
 StoreQuadCurveTo
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -4034,7 +4034,7 @@ nsSVGPathDataParserToInternal
 :
 StoreSmoothQuadCurveTo
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -4081,7 +4081,7 @@ nsSVGPathDataParserToInternal
 :
 StoreEllipticalArc
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -4093,9 +4093,9 @@ float
 r2
 float
 angle
-bool
+PRBool
 largeArcFlag
-bool
+PRBool
 sweepFlag
 )
 {

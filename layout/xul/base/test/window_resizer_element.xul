@@ -68,13 +68,6 @@ javascript
 src
 =
 "
-chrome
-:
-/
-/
-mochikit
-/
-content
 /
 tests
 /
@@ -495,6 +488,7 @@ mouseup
 }
 )
 ;
+}
 /
 /
 return
@@ -530,6 +524,7 @@ dblclick
 }
 )
 ;
+}
 var
 newrect
 =
@@ -627,7 +622,6 @@ size
 "
 )
 ;
-}
 }
 }
 function

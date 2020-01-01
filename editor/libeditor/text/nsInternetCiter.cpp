@@ -257,7 +257,7 @@ aInString
 nsAString
 &
 aOutString
-bool
+PRBool
 aLinebreaksToo
 PRInt32
 *
@@ -606,7 +606,7 @@ outStringCol
 }
 static
 inline
-bool
+PRBool
 IsSpace
 (
 PRUnichar
@@ -663,7 +663,7 @@ PRUint32
 aWrapCol
 PRUint32
 aFirstLineOffset
-bool
+PRBool
 aRespectNewlines
 nsAString
 &

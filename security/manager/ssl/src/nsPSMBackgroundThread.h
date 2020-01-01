@@ -83,7 +83,7 @@ mozilla
 CondVar
 mCond
 ;
-bool
+PRBool
 exitRequested
 (
 :
@@ -98,7 +98,7 @@ proofOfLock
 )
 const
 ;
-bool
+PRBool
 exitRequestedNoLock
 (
 )

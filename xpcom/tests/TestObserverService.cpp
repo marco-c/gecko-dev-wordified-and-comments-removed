@@ -759,10 +759,10 @@ nsIObserver
 >
 observer
 ;
-bool
+PRBool
 loop
 =
-true
+PR_TRUE
 ;
 while
 (

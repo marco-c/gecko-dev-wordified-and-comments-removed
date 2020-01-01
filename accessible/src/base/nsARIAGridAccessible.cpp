@@ -930,7 +930,7 @@ IsColumnSelected
 (
 PRInt32
 aColumn
-bool
+PRBool
 *
 aIsSelected
 )
@@ -1068,7 +1068,7 @@ IsRowSelected
 (
 PRInt32
 aRow
-bool
+PRBool
 *
 aIsSelected
 )
@@ -1182,7 +1182,7 @@ PRInt32
 aRow
 PRInt32
 aColumn
-bool
+PRBool
 *
 aIsSelected
 )
@@ -1540,10 +1540,10 @@ cell
 )
 continue
 ;
-bool
+PRBool
 isRowSelected
 =
-true
+PR_TRUE
 ;
 do
 {
@@ -2254,10 +2254,10 @@ cell
 )
 continue
 ;
-bool
+PRBool
 isRowSelected
 =
-true
+PR_TRUE
 ;
 do
 {
@@ -2700,7 +2700,7 @@ nsARIAGridAccessible
 :
 IsProbablyForLayout
 (
-bool
+PRBool
 *
 aIsProbablyForLayout
 )
@@ -2719,7 +2719,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsARIAGridAccessible
 :
 :
@@ -2755,7 +2755,7 @@ aRow
 rowCount
 ;
 }
-bool
+PRBool
 nsARIAGridAccessible
 :
 :
@@ -2791,7 +2791,7 @@ aColumn
 colCount
 ;
 }
-bool
+PRBool
 nsARIAGridAccessible
 :
 :
@@ -2991,9 +2991,9 @@ SetARIASelected
 nsAccessible
 *
 aAccessible
-bool
+PRBool
 aIsSelected
-bool
+PRBool
 aNotify
 )
 {
@@ -3390,7 +3390,7 @@ colCount
 ;
 nsTArray
 <
-bool
+PRBool
 >
 isColSelArray
 (
@@ -4263,7 +4263,7 @@ nsARIAGridCellAccessible
 :
 IsSelected
 (
-bool
+PRBool
 *
 aIsSelected
 )

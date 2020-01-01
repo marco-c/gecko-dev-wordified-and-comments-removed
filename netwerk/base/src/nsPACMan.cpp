@@ -104,7 +104,7 @@ nsIAsyncVerifyRedirectCallback
 h
 "
 static
-bool
+PRBool
 HttpRequestSucceeded
 (
 nsIStreamLoader
@@ -129,10 +129,10 @@ request
 )
 )
 ;
-bool
+PRBool
 result
 =
-true
+PR_TRUE
 ;
 nsCOMPtr
 <

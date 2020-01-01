@@ -35,7 +35,7 @@ SHA256_DestroyContext
 SHA256Context
 *
 cx
-bool
+PRBool
 freeit
 )
 ;
@@ -189,7 +189,7 @@ SHA512_DestroyContext
 SHA512Context
 *
 cx
-bool
+PRBool
 freeit
 )
 ;
@@ -343,7 +343,7 @@ SHA384_DestroyContext
 SHA384Context
 *
 cx
-bool
+PRBool
 freeit
 )
 ;

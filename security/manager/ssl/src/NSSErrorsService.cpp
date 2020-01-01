@@ -215,7 +215,7 @@ IsNSSErrorCode
 (
 PRInt32
 aNSPRCode
-bool
+PRBool
 *
 _retval
 )

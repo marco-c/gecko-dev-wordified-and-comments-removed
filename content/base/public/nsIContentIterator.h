@@ -130,7 +130,7 @@ GetCurrentNode
 0
 ;
 virtual
-bool
+PRBool
 IsDone
 (
 )

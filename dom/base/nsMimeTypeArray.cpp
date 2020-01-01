@@ -574,10 +574,10 @@ nsIMIMEInfo
 handleInternally
 )
 {
-bool
+PRBool
 hasHelper
 =
-false
+PR_FALSE
 ;
 mimeInfo
 -

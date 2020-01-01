@@ -904,7 +904,7 @@ nsWifiAccessPoint
 >
 &
 aAccessPoints
-bool
+PRBool
 aAccessPointsChanged
 )
 {

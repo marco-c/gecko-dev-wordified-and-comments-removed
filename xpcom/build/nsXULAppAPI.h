@@ -475,7 +475,7 @@ MOZ_CRASHREPORTER
 )
 XRE_API
 (
-bool
+PRBool
 XRE_TakeMinidumpForChild
 (
 PRUint32
@@ -488,7 +488,7 @@ aDump
 )
 XRE_API
 (
-bool
+PRBool
 XRE_SetRemoteExceptionHandler
 (
 const

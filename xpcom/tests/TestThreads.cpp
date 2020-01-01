@@ -436,7 +436,7 @@ gNum
 PRInt32
 mNum
 ;
-bool
+PRBool
 mWasRun
 ;
 }

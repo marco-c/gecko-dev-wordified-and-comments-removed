@@ -427,8 +427,6 @@ DIRS
 system
 -
 pref
-/
-src
 endif
 include
 (

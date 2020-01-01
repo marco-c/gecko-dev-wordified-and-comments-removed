@@ -815,7 +815,7 @@ const
 char
 *
 scheme
-bool
+PRBool
 *
 _retval
 NS_OUTPARAM

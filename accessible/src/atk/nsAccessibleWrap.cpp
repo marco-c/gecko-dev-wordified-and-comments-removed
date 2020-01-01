@@ -1005,7 +1005,7 @@ nsAccessibleWrap
 :
 GetMaiHyperlink
 (
-bool
+PRBool
 aCreate
 )
 {
@@ -1913,7 +1913,7 @@ return
 name
 ;
 }
-bool
+PRBool
 nsAccessibleWrap
 :
 :
@@ -2782,7 +2782,7 @@ rv
 nsnull
 )
 ;
-bool
+PRBool
 hasMore
 ;
 while
@@ -3401,7 +3401,7 @@ stateIndex
 atkState
 )
 {
-bool
+PRBool
 isStateOn
 =
 (
@@ -4991,12 +4991,10 @@ id
 0
 )
 ;
-FocusMgr
-(
-)
+rootAcc
 -
 >
-ForceFocusEvent
+FireCurrentFocusEvent
 (
 )
 ;
@@ -5432,7 +5430,7 @@ event
 NS_ERROR_FAILURE
 )
 ;
-bool
+PRBool
 isEnabled
 =
 event
@@ -5622,7 +5620,7 @@ GetLength
 (
 )
 ;
-bool
+PRBool
 isInserted
 =
 event
@@ -5632,7 +5630,7 @@ IsTextInserted
 (
 )
 ;
-bool
+PRBool
 isFromUserInput
 =
 aEvent
@@ -5797,7 +5795,7 @@ aEvent
 AtkObject
 *
 aObject
-bool
+PRBool
 aIsAdded
 )
 {
@@ -5862,7 +5860,7 @@ NS_ENSURE_STATE
 parentObject
 )
 ;
-bool
+PRBool
 isFromUserInput
 =
 aEvent

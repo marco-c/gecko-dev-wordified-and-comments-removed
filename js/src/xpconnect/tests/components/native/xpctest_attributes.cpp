@@ -118,7 +118,7 @@ xpcTestObjectReadOnly
 :
 GetBoolReadOnly
 (
-bool
+PRBool
 *
 aBoolReadOnly
 )
@@ -421,7 +421,7 @@ xpcTestObjectReadWrite
 :
 GetBooleanProperty
 (
-bool
+PRBool
 *
 aBooleanProperty
 )
@@ -441,7 +441,7 @@ xpcTestObjectReadWrite
 :
 SetBooleanProperty
 (
-bool
+PRBool
 aBooleanProperty
 )
 {

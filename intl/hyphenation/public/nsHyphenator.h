@@ -44,7 +44,7 @@ NS_INLINE_DECL_REFCOUNTING
 (
 nsHyphenator
 )
-bool
+PRBool
 IsValid
 (
 )
@@ -58,7 +58,7 @@ nsAString
 aText
 nsTArray
 <
-bool
+PRPackedBool
 >
 &
 aHyphens

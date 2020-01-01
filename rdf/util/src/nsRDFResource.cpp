@@ -168,7 +168,7 @@ EqualsNode
 nsIRDFNode
 *
 aNode
-bool
+PRBool
 *
 aResult
 )
@@ -456,7 +456,7 @@ const
 char
 *
 aURI
-bool
+PRBool
 *
 aResult
 )

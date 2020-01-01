@@ -24,7 +24,7 @@ nsPluginsDir
 public
 :
 static
-bool
+PRBool
 IsPluginFile
 (
 nsIFile

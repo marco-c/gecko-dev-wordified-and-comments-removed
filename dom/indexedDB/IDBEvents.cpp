@@ -111,7 +111,7 @@ Run
 (
 )
 {
-bool
+PRBool
 dummy
 ;
 return
@@ -162,7 +162,7 @@ const
 nsAString
 &
 aType
-bool
+PRBool
 aBubblesAndCancelable
 )
 {

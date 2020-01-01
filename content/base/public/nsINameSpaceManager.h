@@ -193,7 +193,7 @@ aURI
 0
 ;
 virtual
-bool
+PRBool
 HasElementCreator
 (
 PRInt32

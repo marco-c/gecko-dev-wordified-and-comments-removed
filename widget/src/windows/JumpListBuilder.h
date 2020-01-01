@@ -119,7 +119,7 @@ JumpListBuilder
 protected
 :
 static
-bool
+PRPackedBool
 sBuildingList
 ;
 private
@@ -133,7 +133,7 @@ mJumpListMgr
 PRUint32
 mMaxItems
 ;
-bool
+PRBool
 mHasCommit
 ;
 nsCOMPtr
@@ -142,7 +142,7 @@ nsIThread
 >
 mIOThread
 ;
-bool
+PRBool
 IsSeparator
 (
 nsCOMPtr

@@ -320,7 +320,7 @@ nsnull
 ;
 }
 }
-bool
+PRBool
 SVGDocumentWrapper
 :
 :
@@ -666,7 +666,7 @@ mIgnoreInvalidation
 PR_FALSE
 ;
 }
-bool
+PRBool
 SVGDocumentWrapper
 :
 :
@@ -1295,7 +1295,7 @@ if
 httpChannel
 )
 {
-bool
+PRBool
 requestSucceeded
 ;
 if

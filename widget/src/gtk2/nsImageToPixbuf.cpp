@@ -233,7 +233,7 @@ pixbuf
 gdk_pixbuf_new
 (
 GDK_COLORSPACE_RGB
-TRUE
+PR_TRUE
 8
 aWidth
 aHeight

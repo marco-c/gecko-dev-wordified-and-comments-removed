@@ -182,7 +182,7 @@ aDocument
 nsIStyleSheet
 *
 aStyleSheet
-bool
+PRBool
 aDocumentSheet
 )
 =
@@ -198,7 +198,7 @@ aDocument
 nsIStyleSheet
 *
 aStyleSheet
-bool
+PRBool
 aDocumentSheet
 )
 =
@@ -214,7 +214,7 @@ aDocument
 nsIStyleSheet
 *
 aStyleSheet
-bool
+PRBool
 aApplicable
 )
 =
@@ -390,7 +390,7 @@ nsIStyleSheet
 *
 aStyleSheet
 \
-bool
+PRBool
 aDocumentSheet
 )
 ;
@@ -410,7 +410,7 @@ nsIStyleSheet
 *
 aStyleSheet
 \
-bool
+PRBool
 aDocumentSheet
 )
 ;
@@ -430,7 +430,7 @@ nsIStyleSheet
 *
 aStyleSheet
 \
-bool
+PRBool
 aApplicable
 )
 ;
@@ -697,7 +697,7 @@ nsIStyleSheet
 *
 aStyleSheet
 \
-bool
+PRBool
 aDocumentSheet
 )
 \
@@ -720,7 +720,7 @@ nsIStyleSheet
 *
 aStyleSheet
 \
-bool
+PRBool
 aDocumentSheet
 )
 \
@@ -743,7 +743,7 @@ nsIStyleSheet
 *
 aStyleSheet
 \
-bool
+PRBool
 aApplicable
 )
 \

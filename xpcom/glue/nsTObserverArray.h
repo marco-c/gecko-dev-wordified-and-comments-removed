@@ -163,7 +163,7 @@ Length
 )
 ;
 }
-bool
+PRBool
 IsEmpty
 (
 )
@@ -263,7 +263,7 @@ template
 class
 Item
 >
-bool
+PRBool
 Contains
 (
 const
@@ -320,7 +320,7 @@ template
 class
 Item
 >
-bool
+PRBool
 PrependElementUnlessExists
 (
 const
@@ -391,7 +391,7 @@ template
 class
 Item
 >
-bool
+PRBool
 AppendElementUnlessExists
 (
 const
@@ -458,7 +458,7 @@ template
 class
 Item
 >
-bool
+PRBool
 RemoveElement
 (
 const
@@ -691,7 +691,7 @@ aArray
 )
 {
 }
-bool
+PRBool
 operator
 <
 (
@@ -735,7 +735,7 @@ aOther
 mPosition
 ;
 }
-bool
+PRBool
 HasMore
 (
 )
@@ -839,7 +839,7 @@ Length
 )
 {
 }
-bool
+PRBool
 HasMore
 (
 )

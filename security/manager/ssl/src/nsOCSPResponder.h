@@ -80,7 +80,7 @@ b
 )
 ;
 static
-bool
+PRBool
 IncludeCert
 (
 CERTCertificate

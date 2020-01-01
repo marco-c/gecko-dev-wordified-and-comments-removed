@@ -496,7 +496,7 @@ nsBidiKeyboard
 :
 IsLangRTL
 (
-bool
+PRBool
 *
 aIsRTL
 )
@@ -550,7 +550,7 @@ nsBidiKeyboard
 :
 GetHaveBidiKeyboards
 (
-bool
+PRBool
 *
 aResult
 )

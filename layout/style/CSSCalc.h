@@ -878,7 +878,7 @@ Append
 }
 static
 inline
-bool
+PRBool
 IsCalcAdditiveUnit
 (
 nsCSSUnit
@@ -900,7 +900,7 @@ eCSSUnit_Calc_Minus
 }
 static
 inline
-bool
+PRBool
 IsCalcMultiplicativeUnit
 (
 nsCSSUnit
@@ -1052,7 +1052,7 @@ Append
 )
 ;
 }
-bool
+PRBool
 needParens
 =
 IsCalcAdditiveUnit
@@ -1156,7 +1156,7 @@ length
 "
 )
 ;
-bool
+PRBool
 needParens
 =
 IsCalcAdditiveUnit

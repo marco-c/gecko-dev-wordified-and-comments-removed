@@ -567,7 +567,7 @@ mListIndex
 #
 ifdef
 DEBUG
-bool
+PRBool
 DOMSVGNumber
 :
 :

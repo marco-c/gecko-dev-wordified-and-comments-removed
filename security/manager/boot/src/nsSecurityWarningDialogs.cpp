@@ -240,7 +240,7 @@ ConfirmEnteringSecure
 nsIInterfaceRequestor
 *
 ctx
-bool
+PRBool
 *
 _retval
 )
@@ -295,7 +295,7 @@ ConfirmEnteringWeak
 nsIInterfaceRequestor
 *
 ctx
-bool
+PRBool
 *
 _retval
 )
@@ -350,7 +350,7 @@ ConfirmLeavingSecure
 nsIInterfaceRequestor
 *
 ctx
-bool
+PRBool
 *
 _retval
 )
@@ -405,7 +405,7 @@ ConfirmMixedMode
 nsIInterfaceRequestor
 *
 ctx
-bool
+PRBool
 *
 _retval
 )
@@ -557,7 +557,7 @@ Run
 nsresult
 rv
 ;
-bool
+PRBool
 prefValue
 ;
 rv
@@ -609,10 +609,10 @@ showOncePref
 show_once
 "
 ;
-bool
+PRBool
 showOnce
 =
-false
+PR_FALSE
 ;
 mPrefBranch
 -
@@ -799,7 +799,7 @@ const
 PRUnichar
 *
 aShowAgainName
-bool
+PRBool
 aAsync
 )
 {
@@ -870,7 +870,7 @@ ConfirmPostToInsecure
 nsIInterfaceRequestor
 *
 ctx
-bool
+PRBool
 *
 _result
 )
@@ -920,7 +920,7 @@ ConfirmPostToInsecureFromSecure
 nsIInterfaceRequestor
 *
 ctx
-bool
+PRBool
 *
 _result
 )
@@ -973,7 +973,7 @@ const
 PRUnichar
 *
 showAgainName
-bool
+PRBool
 *
 _result
 )
@@ -981,10 +981,10 @@ _result
 nsresult
 rv
 ;
-bool
+PRBool
 prefValue
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -1047,10 +1047,10 @@ showOncePref
 show_once
 "
 ;
-bool
+PRBool
 showOnce
 =
-false
+PR_FALSE
 ;
 mPrefBranch
 -

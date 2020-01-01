@@ -8,7 +8,7 @@ h
 #
 include
 "
-EndianMacros
+Endian
 .
 h
 "
@@ -894,10 +894,10 @@ bpp
 =
 24
 ;
-bool
+PRBool
 usePNG
 =
-true
+PR_TRUE
 ;
 nsresult
 rv
@@ -1017,7 +1017,7 @@ aOptions
 PRUint32
 *
 bpp
-bool
+PRBool
 *
 usePNG
 )
@@ -1517,7 +1517,7 @@ nsICOEncoder
 :
 IsNonBlocking
 (
-bool
+PRBool
 *
 _retval
 )

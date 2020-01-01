@@ -176,11 +176,11 @@ imgRequestProxy
 proxy
 nsresult
 aStatus
-bool
+PRBool
 aOnlySendStopRequest
 )
 ;
-bool
+PRBool
 IsLoading
 (
 )
@@ -259,7 +259,7 @@ aFrame
 void
 RecordDataAvailable
 (
-bool
+PRBool
 aCurrentFrame
 const
 nsIntRect
@@ -273,7 +273,7 @@ SendDataAvailable
 imgRequestProxy
 *
 aProxy
-bool
+PRBool
 aCurrentFrame
 const
 nsIntRect
@@ -398,7 +398,7 @@ aProxy
 void
 RecordStopRequest
 (
-bool
+PRBool
 aLastPart
 nsresult
 aStatus
@@ -410,7 +410,7 @@ SendStopRequest
 imgRequestProxy
 *
 aProxy
-bool
+PRBool
 aLastPart
 nsresult
 aStatus
@@ -448,7 +448,7 @@ mState
 nsresult
 mImageStatus
 ;
-bool
+PRPackedBool
 mHadLastPart
 ;
 }

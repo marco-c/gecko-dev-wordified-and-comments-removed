@@ -411,7 +411,7 @@ const
 nsAString
 &
 aFragment
-bool
+PRBool
 aIsXML
 nsIURI
 *
@@ -512,10 +512,10 @@ nsScriptLoader
 >
 loader
 ;
-bool
+PRBool
 scripts_enabled
 =
-false
+PR_FALSE
 ;
 if
 (

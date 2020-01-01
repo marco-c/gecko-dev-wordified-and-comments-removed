@@ -310,10 +310,10 @@ rv
 )
 )
 {
-bool
+PRBool
 offline
 =
-true
+PR_TRUE
 ;
 ioService
 -
@@ -2525,7 +2525,7 @@ return
 PL_DHASH_REMOVE
 ;
 }
-bool
+PRBool
 nsHttpConnectionMgr
 :
 :
@@ -2643,10 +2643,10 @@ mPendingQ
 i
 ]
 ;
-bool
+PRBool
 alreadyHalfOpen
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -2833,7 +2833,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsHttpConnectionMgr
 :
 :
@@ -3290,7 +3290,7 @@ ent
 nsHttpTransaction
 *
 trans
-bool
+PRBool
 onlyReusedConnection
 nsHttpConnection
 *
@@ -4027,7 +4027,7 @@ return
 rv
 ;
 }
-bool
+PRBool
 nsHttpConnectionMgr
 :
 :
@@ -5621,7 +5621,7 @@ req
 nsHttpResponseHead
 *
 resp
-bool
+PRBool
 *
 reset
 )
@@ -5788,7 +5788,7 @@ result
 )
 ;
 }
-bool
+PRBool
 nsHttpConnectionMgr
 :
 :
@@ -5808,7 +5808,7 @@ IsPersistent
 )
 ;
 }
-bool
+PRBool
 nsHttpConnectionMgr
 :
 :
@@ -6045,7 +6045,7 @@ nsIAsyncOutputStream
 *
 *
 outstream
-bool
+PRBool
 isBackup
 )
 {
@@ -7391,11 +7391,7 @@ SetIsReusedAfter
 950
 )
 ;
-nsRefPtr
-<
-nsHttpConnection
->
-copy
+NS_ADDREF
 (
 conn
 )
@@ -7412,14 +7408,6 @@ OnMsgReclaimConnection
 (
 NS_OK
 conn
-.
-forget
-(
-)
-.
-get
-(
-)
 )
 ;
 }
@@ -7561,7 +7549,7 @@ return
 conn
 ;
 }
-bool
+PRBool
 nsHttpConnectionMgr
 :
 :
@@ -7590,7 +7578,7 @@ nsConnectionHandle
 :
 SetLastTransactionExpectedNoContent
 (
-bool
+PRBool
 val
 )
 {

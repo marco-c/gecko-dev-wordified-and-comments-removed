@@ -155,7 +155,7 @@ const
 char
 *
 aKey
-bool
+PRBool
 *
 aPersist
 nsIFile
@@ -505,7 +505,7 @@ rv
 )
 return
 ;
-bool
+PRBool
 exists
 ;
 rv
@@ -615,7 +615,7 @@ searchplugins
 )
 )
 ;
-bool
+PRBool
 exists
 ;
 rv
@@ -1170,7 +1170,7 @@ AppendingEnumerator
 :
 HasMoreElements
 (
-bool
+PRBool
 *
 aResult
 )
@@ -1222,7 +1222,7 @@ nsnull
 nsresult
 rv
 ;
-bool
+PRBool
 more
 ;
 while
@@ -1329,7 +1329,7 @@ i
 i
 ;
 }
-bool
+PRBool
 exists
 ;
 rv

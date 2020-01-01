@@ -473,7 +473,7 @@ nsDocAccessibleWrap
 )
 {
 }
-bool
+PRBool
 nsDocAccessibleWrap
 :
 :

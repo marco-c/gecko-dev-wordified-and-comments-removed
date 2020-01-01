@@ -46,7 +46,7 @@ nsSampleWordBreaker
 (
 )
 ;
-bool
+PRBool
 BreakInBetween
 (
 const

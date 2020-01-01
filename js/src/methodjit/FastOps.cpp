@@ -12771,12 +12771,6 @@ rhs
 )
 )
 {
-frame
-.
-pop
-(
-)
-;
 if
 (
 lhs
@@ -12798,8 +12792,9 @@ JSVAL_TYPE_DOUBLE
 {
 frame
 .
-pop
+popn
 (
+2
 )
 ;
 frame
@@ -13076,8 +13071,9 @@ treg
 ;
 frame
 .
-pop
+popn
 (
+2
 )
 ;
 frame

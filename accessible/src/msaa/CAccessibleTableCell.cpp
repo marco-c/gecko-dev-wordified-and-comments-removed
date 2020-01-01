@@ -1171,10 +1171,10 @@ GetHRESULT
 rv
 )
 ;
-bool
+PRBool
 isSel
 =
-false
+PR_FALSE
 ;
 rv
 =
@@ -1296,10 +1296,10 @@ tableCell
 return
 E_FAIL
 ;
-bool
+PRBool
 isSel
 =
-false
+PR_FALSE
 ;
 nsresult
 rv

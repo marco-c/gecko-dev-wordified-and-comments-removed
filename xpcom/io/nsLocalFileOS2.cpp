@@ -1001,7 +1001,7 @@ NS_OK
 NS_IMETHOD
 HasMoreElements
 (
-bool
+PRBool
 *
 result
 )
@@ -1124,7 +1124,7 @@ rv
 return
 rv
 ;
-bool
+PRBool
 exists
 ;
 rv
@@ -1199,7 +1199,7 @@ result
 nsresult
 rv
 ;
-bool
+PRBool
 hasMore
 ;
 rv
@@ -1253,10 +1253,10 @@ result
 =
 nsnull
 ;
-bool
+PRBool
 hasMore
 =
-false
+PR_FALSE
 ;
 nsresult
 rv
@@ -1509,7 +1509,7 @@ nsDriveEnumerator
 :
 HasMoreElements
 (
-bool
+PRBool
 *
 aHasMore
 )
@@ -3022,7 +3022,7 @@ const
 nsAFlatCString
 &
 node
-bool
+PRBool
 multipleComponents
 )
 {
@@ -4442,7 +4442,7 @@ const
 nsACString
 &
 fileType
-bool
+PRBool
 *
 _retval
 )
@@ -5324,7 +5324,7 @@ const
 nsACString
 &
 newName
-bool
+PRBool
 move
 )
 {
@@ -5725,7 +5725,7 @@ const
 nsACString
 &
 newName
-bool
+PRBool
 move
 )
 {
@@ -5804,7 +5804,7 @@ newParentDir
 return
 NS_ERROR_FILE_DESTINATION_NOT_DIR
 ;
-bool
+PRBool
 exists
 ;
 newParentDir
@@ -5846,7 +5846,7 @@ rv
 }
 else
 {
-bool
+PRBool
 isDir
 ;
 newParentDir
@@ -5869,12 +5869,12 @@ NS_ERROR_FILE_DESTINATION_NOT_DIR
 ;
 }
 }
-bool
+PRBool
 done
 =
-false
+PR_FALSE
 ;
-bool
+PRBool
 isDir
 ;
 IsDirectory
@@ -6052,7 +6052,7 @@ rv
 }
 else
 {
-bool
+PRBool
 isWritable
 ;
 target
@@ -6091,7 +6091,7 @@ targetIterator
 )
 )
 ;
-bool
+PRBool
 more
 ;
 targetIterator
@@ -6144,7 +6144,7 @@ return
 rv
 ;
 }
-bool
+PRBool
 more
 ;
 while
@@ -6432,7 +6432,7 @@ CHECK_mWorkingPath
 (
 )
 ;
-bool
+PRBool
 isFile
 ;
 nsresult
@@ -6518,7 +6518,7 @@ nsLocalFile
 :
 Remove
 (
-bool
+PRBool
 recursive
 )
 {
@@ -6526,10 +6526,10 @@ CHECK_mWorkingPath
 (
 )
 ;
-bool
+PRBool
 isDir
 =
-false
+PR_FALSE
 ;
 nsresult
 rv
@@ -6582,7 +6582,7 @@ rv
 return
 rv
 ;
-bool
+PRBool
 more
 ;
 while
@@ -7048,7 +7048,7 @@ rv
 return
 rv
 ;
-bool
+PRBool
 isWritable
 isExecutable
 ;
@@ -7767,7 +7767,7 @@ nsLocalFile
 :
 Exists
 (
-bool
+PRBool
 *
 _retval
 )
@@ -7815,7 +7815,7 @@ nsLocalFile
 :
 IsWritable
 (
-bool
+PRBool
 *
 _retval
 )
@@ -7921,7 +7921,7 @@ nsLocalFile
 :
 IsReadable
 (
-bool
+PRBool
 *
 _retval
 )
@@ -7972,7 +7972,7 @@ nsLocalFile
 :
 IsExecutable
 (
-bool
+PRBool
 *
 _retval
 )
@@ -8008,7 +8008,7 @@ rv
 return
 rv
 ;
-bool
+PRBool
 isFile
 ;
 rv
@@ -8247,7 +8247,7 @@ nsLocalFile
 :
 IsDirectory
 (
-bool
+PRBool
 *
 _retval
 )
@@ -8301,7 +8301,7 @@ nsLocalFile
 :
 IsFile
 (
-bool
+PRBool
 *
 _retval
 )
@@ -8355,7 +8355,7 @@ nsLocalFile
 :
 IsHidden
 (
-bool
+PRBool
 *
 _retval
 )
@@ -8456,7 +8456,7 @@ nsLocalFile
 :
 IsSymlink
 (
-bool
+PRBool
 *
 _retval
 )
@@ -8485,7 +8485,7 @@ nsLocalFile
 :
 IsSpecial
 (
-bool
+PRBool
 *
 _retval
 )
@@ -8513,7 +8513,7 @@ Equals
 nsIFile
 *
 inFile
-bool
+PRBool
 *
 _retval
 )
@@ -8562,9 +8562,9 @@ Contains
 nsIFile
 *
 inFile
-bool
+PRBool
 recur
-bool
+PRBool
 *
 _retval
 )
@@ -8704,7 +8704,7 @@ nsLocalFile
 :
 GetFollowLinks
 (
-bool
+PRBool
 *
 aFollowLinks
 )
@@ -8729,7 +8729,7 @@ nsLocalFile
 :
 SetFollowLinks
 (
-bool
+PRBool
 aFollowLinks
 )
 {
@@ -8833,7 +8833,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 isDir
 ;
 rv
@@ -8980,10 +8980,10 @@ Reveal
 (
 )
 {
-bool
+PRBool
 isDirectory
 =
-false
+PR_FALSE
 ;
 nsCAutoString
 path
@@ -9107,7 +9107,7 @@ const
 nsACString
 &
 path
-bool
+PRBool
 followLinks
 nsILocalFile
 *
@@ -9701,7 +9701,7 @@ Equals
 nsIHashable
 *
 aOther
-bool
+PRBool
 *
 aResult
 )
@@ -9778,7 +9778,7 @@ const
 nsAString
 &
 path
-bool
+PRBool
 followLinks
 nsILocalFile
 *

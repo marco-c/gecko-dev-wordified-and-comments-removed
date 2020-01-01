@@ -300,7 +300,7 @@ data
 )
 ;
 }
-bool
+PRBool
 Declaration
 :
 :
@@ -363,7 +363,7 @@ return
 val
 ;
 }
-bool
+PRBool
 Declaration
 :
 :
@@ -1229,10 +1229,10 @@ subprops
 )
 }
 ;
-bool
+PRBool
 needY
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -1472,10 +1472,10 @@ eCSSProperty_border_width
 )
 }
 ;
-bool
+PRBool
 match
 =
-true
+PR_TRUE
 ;
 for
 (
@@ -1700,7 +1700,7 @@ subprops
 ]
 )
 ;
-bool
+PRBool
 isMozUseTextColor
 =
 colorValue
@@ -3337,7 +3337,7 @@ get
 )
 )
 ;
-bool
+PRBool
 blinkNone
 =
 (
@@ -3351,7 +3351,7 @@ GetIntValue
 NS_STYLE_TEXT_BLINK_NONE
 )
 ;
-bool
+PRBool
 lineNone
 =
 (
@@ -4482,7 +4482,7 @@ break
 ;
 }
 }
-bool
+PRBool
 Declaration
 :
 :
@@ -4525,7 +4525,7 @@ propID
 )
 ;
 }
-bool
+PRBool
 Declaration
 :
 :
@@ -4788,7 +4788,7 @@ eCSSProperty__x_system_font
 )
 ;
 const
-bool
+PRBool
 haveSystemFont
 =
 systemFont
@@ -4815,10 +4815,10 @@ GetUnit
 =
 eCSSUnit_Null
 ;
-bool
+PRBool
 didSystemFont
 =
-false
+PR_FALSE
 ;
 PRInt32
 count
@@ -4862,10 +4862,10 @@ OrderValueAt
 index
 )
 ;
-bool
+PRBool
 doneProperty
 =
-false
+PR_FALSE
 ;
 if
 (

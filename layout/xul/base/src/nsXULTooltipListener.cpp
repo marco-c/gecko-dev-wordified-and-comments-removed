@@ -1077,13 +1077,13 @@ return
 0
 ;
 }
-bool
+PRBool
 nsXULTooltipListener
 :
 :
 sShowTooltips
 =
-false
+PR_FALSE
 ;
 PRUint32
 nsXULTooltipListener
@@ -2412,7 +2412,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 closed
 ;
 window

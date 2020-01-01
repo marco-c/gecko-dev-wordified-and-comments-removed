@@ -3594,13 +3594,6 @@ BINPATH
 /
 components
 /
-CapturePicker
-.
-js
-BINPATH
-/
-components
-/
 browsercomps
 .
 xpt

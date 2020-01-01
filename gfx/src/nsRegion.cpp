@@ -43,7 +43,7 @@ PR_INT32_MAX
 #
 endif
 inline
-bool
+PRBool
 nsRegion
 :
 :
@@ -61,7 +61,7 @@ const
 {
 return
 (
-bool
+PRBool
 )
 (
 (
@@ -114,7 +114,7 @@ YMost
 ;
 }
 inline
-bool
+PRBool
 nsRegion
 :
 :
@@ -132,7 +132,7 @@ const
 {
 return
 (
-bool
+PRBool
 )
 (
 (
@@ -181,7 +181,7 @@ YMost
 ;
 }
 inline
-bool
+PRBool
 nsRegion
 :
 :
@@ -1457,7 +1457,7 @@ InsertInPlace
 RgnRect
 *
 aRect
-bool
+PRBool
 aOptimizeOnFly
 )
 {
@@ -4713,7 +4713,7 @@ return
 this
 ;
 }
-bool
+PRBool
 nsRegion
 :
 :
@@ -4781,7 +4781,7 @@ IsEmpty
 )
 ;
 }
-bool
+PRBool
 nsRegion
 :
 :
@@ -4833,7 +4833,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsRegion
 :
 :
@@ -6246,7 +6246,7 @@ next
 }
 }
 }
-bool
+PRBool
 nsRegion
 :
 :
@@ -7168,7 +7168,7 @@ return
 this
 ;
 }
-bool
+PRBool
 operator
 <
 (
@@ -7209,7 +7209,7 @@ aOther
 mSize
 ;
 }
-bool
+PRBool
 operator
 >
 (

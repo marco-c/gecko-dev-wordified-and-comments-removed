@@ -402,7 +402,7 @@ cairo_matrix_init_identity
 identityMatrix
 )
 ;
-bool
+PRBool
 needsOblique
 =
 !
@@ -570,7 +570,7 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
+PRBool
 aNeedsBold
 )
 {
@@ -1416,10 +1416,10 @@ rv
 )
 )
 {
-bool
+PRPackedBool
 unicodeFont
 ;
-bool
+PRPackedBool
 symbolFont
 ;
 rv
@@ -2416,7 +2416,7 @@ mCache
 PLDHashTable
 mMap
 ;
-bool
+PRBool
 mWriteNeeded
 ;
 PLDHashTableOps
@@ -2586,7 +2586,7 @@ mFilesize
 nsCString
 mFaces
 ;
-bool
+PRBool
 mFileExists
 ;
 }
@@ -2621,7 +2621,7 @@ key
 ;
 }
 static
-bool
+PRBool
 HashMatchEntry
 (
 PLDHashTable
@@ -2792,7 +2792,7 @@ AppendFacesFromCachedFaceList
 nsCString
 &
 aFileName
-bool
+PRBool
 aStdFile
 nsCString
 &
@@ -2936,7 +2936,7 @@ beginning
 break
 ;
 }
-bool
+PRBool
 italic
 =
 (
@@ -3204,7 +3204,7 @@ AppendFacesFromFontFile
 nsCString
 &
 aFileName
-bool
+PRBool
 aStdFile
 FontNameCache
 *
@@ -3766,7 +3766,7 @@ get
 (
 )
 ;
-bool
+PRBool
 sortFaces
 =
 (
@@ -4061,7 +4061,7 @@ NULL
 0
 )
 ;
-bool
+PRBool
 moreFiles
 =
 handle
@@ -4681,7 +4681,7 @@ const
 FontListEntry
 &
 aFLE
-bool
+PRBool
 aStdFile
 )
 {
@@ -5148,7 +5148,7 @@ const
 gfxFontStyle
 *
 aStyle
-bool
+PRBool
 &
 aNeedsBold
 )

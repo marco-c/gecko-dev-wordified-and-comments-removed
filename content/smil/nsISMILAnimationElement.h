@@ -127,7 +127,7 @@ const
 0
 ;
 virtual
-bool
+PRBool
 GetAnimAttr
 (
 nsIAtom
@@ -142,7 +142,7 @@ const
 0
 ;
 virtual
-bool
+PRBool
 HasAnimAttr
 (
 nsIAtom
@@ -169,7 +169,7 @@ GetTargetElementContent
 0
 ;
 virtual
-bool
+PRBool
 GetTargetAttributeName
 (
 PRInt32

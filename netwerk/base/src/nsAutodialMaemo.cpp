@@ -104,7 +104,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-bool
+PRBool
 nsAutodial
 :
 :

@@ -105,7 +105,7 @@ FindEntry
 nsCString
 *
 key
-bool
+PRBool
 *
 collision
 )

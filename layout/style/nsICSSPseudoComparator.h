@@ -16,7 +16,7 @@ nsICSSPseudoComparator
 public
 :
 virtual
-bool
+PRBool
 PseudoMatches
 (
 nsCSSSelector

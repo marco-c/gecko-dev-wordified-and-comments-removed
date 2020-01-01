@@ -51,7 +51,7 @@ GetPrefWidth
 nsRenderingContext
 *
 aRenderingContext
-bool
+PRBool
 aComputingSize
 )
 ;
@@ -111,7 +111,7 @@ PRInt32
 aColCount
 BtlsWidthType
 aWidthType
-bool
+PRBool
 aSpanHasSpecifiedWidth
 )
 ;

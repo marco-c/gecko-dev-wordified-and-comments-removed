@@ -1082,10 +1082,10 @@ get
 )
 ;
 }
-bool
+PRBool
 outputOneList
 =
-false
+PR_FALSE
 ;
 ChildListIterator
 lists

@@ -252,7 +252,7 @@ src
 )
 ;
 }
-bool
+PRBool
 SVGPathSegListSMILType
 :
 :
@@ -337,7 +337,7 @@ mPtr
 ;
 }
 static
-bool
+PRBool
 ArcFlagsDiffer
 (
 SVGPathDataAndOwner
@@ -910,7 +910,7 @@ aSeg2
 0
 ]
 ;
-bool
+PRBool
 isArcType
 =
 SVGPathSegUtils
@@ -1301,7 +1301,7 @@ IsIdentity
 {
 DebugOnly
 <
-bool
+PRBool
 >
 success
 =
@@ -2530,7 +2530,7 @@ eRequiresConversion
 {
 DebugOnly
 <
-bool
+PRBool
 >
 success
 =

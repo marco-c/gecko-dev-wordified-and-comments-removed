@@ -224,15 +224,15 @@ gReentrantMonitor
 =
 nsnull
 ;
-bool
+PRBool
 gCreateInstanceCalled
 =
-false
+PR_FALSE
 ;
-bool
+PRBool
 gMainThreadWaiting
 =
-false
+PR_FALSE
 ;
 class
 AutoCreateAndDestroyReentrantMonitor
@@ -348,7 +348,7 @@ aResult
 NS_IMETHOD
 LockFactory
 (
-bool
+PRBool
 aLock
 )
 {
@@ -356,7 +356,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 mFirstComponentCreated
 ;
 }
@@ -637,7 +637,7 @@ PR_FALSE
 )
 {
 }
-bool
+PRBool
 mFirstRunnableDone
 ;
 }

@@ -130,7 +130,7 @@ return
 mKey
 ;
 }
-bool
+PRBool
 KeyEquals
 (
 KeyTypePointer
@@ -264,7 +264,7 @@ nsSMILAnimationFunction
 >
 mAnimationFunctions
 ;
-bool
+PRPackedBool
 mForceCompositing
 ;
 nsAutoPtr

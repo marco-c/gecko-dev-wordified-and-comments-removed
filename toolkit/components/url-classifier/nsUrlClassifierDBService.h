@@ -138,7 +138,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIURLCLASSIFIERDBSERVICE
 NS_DECL_NSIURICLASSIFIER
 NS_DECL_NSIOBSERVER
-bool
+PRBool
 GetCompleter
 (
 const
@@ -191,9 +191,9 @@ uri
 nsIUrlClassifierCallback
 *
 c
-bool
+PRBool
 forceCheck
-bool
+PRBool
 *
 didCheck
 )
@@ -210,7 +210,7 @@ const
 nsACString
 &
 lookupKey
-bool
+PRBool
 *
 clean
 )
@@ -234,13 +234,13 @@ nsIUrlClassifierHashCompleter
 >
 mCompleters
 ;
-bool
+PRBool
 mCheckMalware
 ;
-bool
+PRBool
 mCheckPhishing
 ;
-bool
+PRBool
 mInUpdate
 ;
 nsTArray

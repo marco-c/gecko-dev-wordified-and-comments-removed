@@ -44,7 +44,7 @@ static
 void
 Assert
 (
-bool
+PRBool
 aCond
 const
 char

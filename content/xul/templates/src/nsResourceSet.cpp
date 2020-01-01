@@ -328,10 +328,10 @@ nsIRDFResource
 aProperty
 )
 {
-bool
+PRBool
 found
 =
-false
+PR_FALSE
 ;
 nsIRDFResource
 *
@@ -407,7 +407,7 @@ found
 mCount
 ;
 }
-bool
+PRBool
 nsResourceSet
 :
 :

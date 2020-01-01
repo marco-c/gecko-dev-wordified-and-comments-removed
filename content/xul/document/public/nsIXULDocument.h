@@ -145,14 +145,14 @@ aResult
 NS_IMETHOD
 OnPrototypeLoadDone
 (
-bool
+PRBool
 aResumeWalk
 )
 =
 0
 ;
 virtual
-bool
+PRBool
 OnDocumentParserError
 (
 )

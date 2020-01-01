@@ -82,7 +82,7 @@ StartDragSession
 NS_IMETHOD
 EndDragSession
 (
-bool
+PRBool
 aDoneDrag
 )
 ;
@@ -111,7 +111,7 @@ const
 char
 *
 aDataFlavor
-bool
+PRBool
 *
 _retval
 )
@@ -205,7 +205,7 @@ PDRAGINFO
 pdinfo
 HWND
 hwnd
-bool
+PRBool
 *
 rendering
 )
@@ -226,7 +226,7 @@ PCSZ
 pszText
 PCSZ
 pszTitle
-bool
+PRBool
 isUrl
 )
 ;

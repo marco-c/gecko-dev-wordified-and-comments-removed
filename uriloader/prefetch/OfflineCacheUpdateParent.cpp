@@ -399,7 +399,7 @@ nsIOfflineCacheUpdateObserver
 STATE_FINISHED
 )
 {
-bool
+PRBool
 isUpgrade
 ;
 aUpdate
@@ -411,7 +411,7 @@ GetIsUpgrade
 isUpgrade
 )
 ;
-bool
+PRBool
 succeeded
 ;
 aUpdate

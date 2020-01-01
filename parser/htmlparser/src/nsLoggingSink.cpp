@@ -208,7 +208,7 @@ SetOutputStream
 PRFileDesc
 *
 aStream
-bool
+PRBool
 autoDeleteOutput
 )
 {
@@ -326,7 +326,7 @@ nsLoggingSink
 :
 DidBuildModel
 (
-bool
+PRBool
 aTerminated
 )
 {
@@ -1458,7 +1458,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsLoggingSink
 :
 :

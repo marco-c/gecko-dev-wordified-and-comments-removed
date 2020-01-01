@@ -78,10 +78,10 @@ z
 #
 endif
 static
-bool
+PRBool
 gHasActions
 =
-false
+PR_FALSE
 ;
 static
 void
@@ -303,7 +303,7 @@ OnDataAvailable
 imgIRequest
 *
 aRequest
-bool
+PRBool
 aCurrentFrame
 const
 nsIntRect
@@ -382,7 +382,7 @@ OnStopRequest
 imgIRequest
 *
 aRequest
-bool
+PRBool
 aIsLastPart
 )
 {
@@ -996,7 +996,7 @@ const
 nsAString
 &
 aAlertText
-bool
+PRBool
 aAlertTextClickable
 const
 nsAString

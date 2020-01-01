@@ -41,7 +41,7 @@ nsCOMPtr
 h
 "
 static
-bool
+PRBool
 test_consume_stream
 (
 )
@@ -189,7 +189,7 @@ PR_TRUE
 ;
 }
 typedef
-bool
+PRBool
 (
 *
 TestFunc

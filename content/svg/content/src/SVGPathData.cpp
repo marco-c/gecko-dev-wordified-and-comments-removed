@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsISVGValueUtils
+.
+h
+"
+#
+include
+"
 nsDOMError
 .
 h
@@ -94,7 +101,7 @@ namespace
 mozilla
 ;
 static
-bool
+PRBool
 IsMoveto
 (
 PRUint16
@@ -592,7 +599,7 @@ count
 }
 #
 endif
-bool
+PRBool
 SVGPathData
 :
 :
@@ -720,7 +727,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 SVGPathData
 :
 :
@@ -1162,7 +1169,7 @@ mData
 return
 ;
 }
-bool
+PRBool
 capsAreSquare
 =
 aCtx
@@ -1178,15 +1185,15 @@ gfxContext
 :
 LINE_CAP_SQUARE
 ;
-bool
+PRBool
 subpathHasLength
 =
-false
+PR_FALSE
 ;
-bool
+PRBool
 subpathContainsNonArc
 =
-false
+PR_FALSE
 ;
 PRUint32
 segType
@@ -3605,7 +3612,7 @@ i
 2
 ]
 ;
-bool
+PRBool
 largeArcFlag
 =
 mData
@@ -3620,7 +3627,7 @@ i
 .
 0f
 ;
-bool
+PRBool
 sweepFlag
 =
 mData

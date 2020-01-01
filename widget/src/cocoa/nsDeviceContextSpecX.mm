@@ -590,7 +590,7 @@ aWidget
 nsIPrintSettings
 *
 aPS
-bool
+PRBool
 aIsPrintPreview
 )
 {
@@ -1092,7 +1092,7 @@ gfxSize
 width
 height
 )
-true
+PR_TRUE
 )
 ;
 }
@@ -1118,7 +1118,7 @@ gfxASurface
 :
 :
 ImageFormatARGB32
-true
+PR_TRUE
 )
 ;
 }

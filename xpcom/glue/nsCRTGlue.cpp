@@ -1054,7 +1054,7 @@ kLower2Upper
 255
 }
 ;
-bool
+PRBool
 NS_IsUpper
 (
 char
@@ -1081,7 +1081,7 @@ aChar
 ]
 ;
 }
-bool
+PRBool
 NS_IsLower
 (
 char
@@ -1108,7 +1108,7 @@ aChar
 ]
 ;
 }
-bool
+PRBool
 NS_IsAscii
 (
 PRUnichar
@@ -1123,7 +1123,7 @@ aChar
 )
 ;
 }
-bool
+PRBool
 NS_IsAscii
 (
 const
@@ -1158,7 +1158,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 NS_IsAscii
 (
 const
@@ -1192,7 +1192,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 NS_IsAscii
 (
 const
@@ -1238,7 +1238,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 NS_IsAsciiAlpha
 (
 PRUnichar
@@ -1290,7 +1290,7 @@ z
 )
 ;
 }
-bool
+PRBool
 NS_IsAsciiWhitespace
 (
 PRUnichar
@@ -1332,7 +1332,7 @@ t
 '
 ;
 }
-bool
+PRBool
 NS_IsAsciiDigit
 (
 PRUnichar

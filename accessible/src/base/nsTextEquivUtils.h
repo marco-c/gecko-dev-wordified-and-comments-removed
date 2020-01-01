@@ -164,7 +164,7 @@ aString
 )
 ;
 static
-bool
+PRBool
 AppendString
 (
 nsAString
@@ -177,7 +177,7 @@ aTextEquivalent
 )
 ;
 static
-bool
+PRBool
 IsWhitespaceString
 (
 const
@@ -187,7 +187,7 @@ aString
 )
 ;
 static
-bool
+PRBool
 IsWhitespace
 (
 PRUnichar

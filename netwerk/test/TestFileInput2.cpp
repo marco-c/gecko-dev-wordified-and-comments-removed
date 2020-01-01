@@ -1427,7 +1427,7 @@ i
 =
 0
 ;
-bool
+PRBool
 hasMore
 ;
 while
@@ -1577,7 +1577,7 @@ rv
 goto
 done
 ;
-bool
+PRBool
 exists
 ;
 rv
@@ -1685,7 +1685,7 @@ rv
 goto
 done
 ;
-bool
+PRBool
 inserted
 =
 threads

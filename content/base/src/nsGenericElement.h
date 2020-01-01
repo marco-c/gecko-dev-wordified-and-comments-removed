@@ -576,7 +576,7 @@ nsIContent
 aKid
 PRUint32
 aIndex
-bool
+PRBool
 aNotify
 )
 ;
@@ -586,7 +586,7 @@ RemoveChildAt
 (
 PRUint32
 aIndex
-bool
+PRBool
 aNotify
 )
 ;
@@ -611,7 +611,7 @@ virtual
 void
 UpdateEditableState
 (
-bool
+PRBool
 aNotify
 )
 ;
@@ -628,7 +628,7 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
+PRBool
 aCompileEventHandlers
 )
 ;
@@ -636,14 +636,14 @@ virtual
 void
 UnbindFromTree
 (
-bool
+PRBool
 aDeep
 =
-true
-bool
+PR_TRUE
+PRBool
 aNullParent
 =
-true
+PR_TRUE
 )
 ;
 virtual
@@ -691,7 +691,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aNotify
 )
 {
@@ -706,7 +706,7 @@ aNotify
 )
 ;
 }
-bool
+PRBool
 MaybeCheckSameAttrVal
 (
 PRInt32
@@ -721,7 +721,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aNotify
 nsAutoString
 *
@@ -729,7 +729,7 @@ aOldValue
 PRUint8
 *
 aModType
-bool
+PRBool
 *
 aHasListeners
 )
@@ -750,7 +750,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aNotify
 )
 ;
@@ -769,12 +769,12 @@ aPrefix
 nsAttrValue
 &
 aParsedValue
-bool
+PRBool
 aNotify
 )
 ;
 virtual
-bool
+PRBool
 GetAttr
 (
 PRInt32
@@ -789,7 +789,7 @@ aResult
 const
 ;
 virtual
-bool
+PRBool
 HasAttr
 (
 PRInt32
@@ -801,7 +801,7 @@ aName
 const
 ;
 virtual
-bool
+PRBool
 AttrValueIs
 (
 PRInt32
@@ -819,7 +819,7 @@ aCaseSensitive
 const
 ;
 virtual
-bool
+PRBool
 AttrValueIs
 (
 PRInt32
@@ -861,7 +861,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
-bool
+PRBool
 aNotify
 )
 ;
@@ -907,7 +907,7 @@ PRUnichar
 aBuffer
 PRUint32
 aLength
-bool
+PRBool
 aNotify
 )
 ;
@@ -918,7 +918,7 @@ const
 nsAString
 &
 aStr
-bool
+PRBool
 aNotify
 )
 {
@@ -949,12 +949,12 @@ PRUnichar
 aBuffer
 PRUint32
 aLength
-bool
+PRBool
 aNotify
 )
 ;
 virtual
-bool
+PRBool
 TextIsOnlyWhitespace
 (
 )
@@ -977,7 +977,7 @@ GetBindingParent
 const
 ;
 virtual
-bool
+PRBool
 IsNodeOfType
 (
 PRUint32
@@ -986,7 +986,7 @@ aFlags
 const
 ;
 virtual
-bool
+PRBool
 IsLink
 (
 nsIURI
@@ -1072,7 +1072,7 @@ css
 StyleRule
 *
 aStyleRule
-bool
+PRBool
 aNotify
 )
 ;
@@ -1112,7 +1112,7 @@ FILE
 out
 PRInt32
 aIndent
-bool
+PRBool
 aDumpAll
 )
 const
@@ -1185,13 +1185,13 @@ css
 StyleRule
 *
 aStyleRule
-bool
+PRBool
 aNotify
 )
 ;
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 IsAttributeMapped
 (
@@ -1226,7 +1226,7 @@ attribute
 }
 ;
 static
-bool
+PRBool
 FindAttributeDependence
 (
 const
@@ -1321,7 +1321,7 @@ const
 nsAString
 &
 aVersion
-bool
+PRBool
 *
 aReturn
 )
@@ -1329,7 +1329,7 @@ aReturn
 NS_IMETHOD
 HasAttributes
 (
-bool
+PRBool
 *
 aHasAttributes
 )
@@ -1337,7 +1337,7 @@ aHasAttributes
 NS_IMETHOD
 HasChildNodes
 (
-bool
+PRBool
 *
 aHasChildNodes
 )
@@ -1627,7 +1627,7 @@ const
 nsAString
 &
 aName
-bool
+PRBool
 *
 aReturn
 )
@@ -1643,7 +1643,7 @@ const
 nsAString
 &
 aLocalName
-bool
+PRBool
 *
 aReturn
 )
@@ -1651,7 +1651,7 @@ aReturn
 nsresult
 CloneNode
 (
-bool
+PRBool
 aDeep
 nsIDOMNode
 *
@@ -1682,10 +1682,10 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aDefer
 =
-true
+PR_TRUE
 )
 ;
 nsresult
@@ -1711,13 +1711,13 @@ const
 nsAString
 &
 aVersion
-bool
+PRBool
 *
 aReturn
 )
 ;
 static
-bool
+PRBool
 ShouldBlur
 (
 nsIContent
@@ -1794,7 +1794,7 @@ aSourceEvent
 nsIContent
 *
 aTarget
-bool
+PRBool
 aFullDispatch
 PRUint32
 aFlags
@@ -1822,7 +1822,7 @@ aEvent
 nsIContent
 *
 aTarget
-bool
+PRBool
 aFullDispatch
 nsEventStatus
 *
@@ -2235,7 +2235,7 @@ aResult
 void
 SetCapture
 (
-bool
+PRBool
 aRetargetToElement
 )
 ;
@@ -2244,7 +2244,7 @@ ReleaseCapture
 (
 )
 ;
-bool
+PRBool
 MozMatchesSelector
 (
 const
@@ -2309,9 +2309,9 @@ nsAttrValue
 aParsedValue
 PRUint8
 aModType
-bool
+PRBool
 aFireMutation
-bool
+PRBool
 aNotify
 const
 nsAString
@@ -2320,7 +2320,7 @@ aValueForAfterSetAttr
 )
 ;
 virtual
-bool
+PRBool
 ParseAttribute
 (
 PRInt32
@@ -2338,7 +2338,7 @@ aResult
 )
 ;
 virtual
-bool
+PRBool
 SetMappedAttribute
 (
 nsIDocument
@@ -2368,7 +2368,7 @@ const
 nsAString
 *
 aValue
-bool
+PRBool
 aNotify
 )
 {
@@ -2389,7 +2389,7 @@ const
 nsAString
 *
 aValue
-bool
+PRBool
 aNotify
 )
 {
@@ -2402,10 +2402,7 @@ nsEventListenerManager
 *
 GetEventListenerManagerForAttr
 (
-nsIAtom
-*
-aAttrName
-bool
+PRBool
 *
 aDefer
 )
@@ -2793,7 +2790,7 @@ DoGetID
 }
 }
 }
-bool
+PRBool
 CheckHandleEventForLinksPrecondition
 (
 nsEventChainVisitor

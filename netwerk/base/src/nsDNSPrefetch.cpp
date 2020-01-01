@@ -122,7 +122,7 @@ nsDNSPrefetch
 nsIURI
 *
 aURI
-bool
+PRBool
 storeTiming
 )
 :

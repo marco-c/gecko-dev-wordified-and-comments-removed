@@ -417,7 +417,7 @@ const
 nsAString
 &
 path
-bool
+PRBool
 followLinks
 nsILocalFile
 *
@@ -447,7 +447,7 @@ const
 nsACString
 &
 path
-bool
+PRBool
 followLinks
 nsILocalFile
 *
@@ -1007,7 +1007,7 @@ PRUnichar
 *
 *
 aBuf
-bool
+PRBool
 *
 aTerm
 )
@@ -1176,7 +1176,7 @@ nsAString
 &
 aStr
 const
-bool
+PRBool
 aIsVoid
 )
 {
@@ -1192,7 +1192,7 @@ undef
 NS_StringGetIsVoid
 EXPORT_XPCOM_API
 (
-bool
+PRBool
 )
 NS_StringGetIsVoid
 (
@@ -1300,7 +1300,7 @@ char
 *
 *
 aBuf
-bool
+PRBool
 *
 aTerm
 )
@@ -1469,7 +1469,7 @@ nsACString
 &
 aStr
 const
-bool
+PRBool
 aIsVoid
 )
 {
@@ -1485,7 +1485,7 @@ undef
 NS_CStringGetIsVoid
 EXPORT_XPCOM_API
 (
-bool
+PRBool
 )
 NS_CStringGetIsVoid
 (
@@ -1565,7 +1565,7 @@ undef
 NS_CycleCollectorSuspect
 EXPORT_XPCOM_API
 (
-bool
+PRBool
 )
 NS_CycleCollectorSuspect
 (
@@ -1586,7 +1586,7 @@ undef
 NS_CycleCollectorForget
 EXPORT_XPCOM_API
 (
-bool
+PRBool
 )
 NS_CycleCollectorForget
 (
@@ -1629,7 +1629,7 @@ undef
 NS_CycleCollectorForget2
 EXPORT_XPCOM_API
 (
-bool
+PRBool
 )
 NS_CycleCollectorForget2
 (

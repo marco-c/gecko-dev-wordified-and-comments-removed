@@ -301,7 +301,7 @@ StyleSheetLoaded
 nsCSSStyleSheet
 *
 aSheet
-bool
+PRBool
 aWasAlternate
 nsresult
 aStatus
@@ -367,7 +367,7 @@ void
 )
 DidBuildModelImpl
 (
-bool
+PRBool
 aTerminated
 )
 ;
@@ -380,7 +380,7 @@ DropParserAndPerfHint
 void
 )
 ;
-bool
+PRBool
 IsScriptExecutingImpl
 (
 )
@@ -405,12 +405,12 @@ UpdateChildCounts
 =
 0
 ;
-bool
+PRBool
 IsTimeToNotify
 (
 )
 ;
-bool
+PRBool
 LinkContextIsOurDocument
 (
 const
@@ -551,7 +551,7 @@ const
 nsSubstring
 &
 aHref
-bool
+PRBool
 aAlternate
 const
 nsSubstring
@@ -577,7 +577,7 @@ aHref
 nsIContent
 *
 aSource
-bool
+PRBool
 aExplicit
 )
 ;
@@ -610,7 +610,7 @@ aLoadApplicationCache
 nsIURI
 *
 aManifestURI
-bool
+PRBool
 aFetchedWithHTTPGetOrEquiv
 CacheSelectionAction
 *
@@ -663,7 +663,7 @@ public
 void
 StartLayout
 (
-bool
+PRBool
 aIgnorePendingSheets
 )
 ;
@@ -681,7 +681,7 @@ protected
 void
 FavorPerformanceHint
 (
-bool
+PRBool
 perfOverStarvation
 PRUint32
 starvationDelay
@@ -735,7 +735,7 @@ FlushTags
 =
 0
 ;
-bool
+PRBool
 WaitForPendingSheets
 (
 )
@@ -900,7 +900,7 @@ mPreventScriptExecution
 PRUint32
 mDeflectedCount
 ;
-bool
+PRBool
 mHasPendingEvent
 ;
 PRUint32
@@ -936,7 +936,7 @@ false
 mProcessLinkHeaderEvent
 ;
 static
-bool
+PRBool
 sNotifyOnTimer
 ;
 static
@@ -984,7 +984,7 @@ PRInt32
 sEnablePerfMode
 ;
 static
-bool
+PRBool
 sCanInterruptParser
 ;
 }

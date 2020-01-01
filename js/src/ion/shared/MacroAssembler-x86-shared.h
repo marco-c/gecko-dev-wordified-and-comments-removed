@@ -38,13 +38,6 @@ h
 "
 #
 endif
-#
-include
-"
-jsopcode
-.
-h
-"
 namespace
 js
 {

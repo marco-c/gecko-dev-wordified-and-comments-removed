@@ -679,10 +679,10 @@ aDBConn
 nsresult
 rv
 ;
-bool
+PRBool
 exists
 =
-false
+PR_FALSE
 ;
 aDBConn
 -
@@ -891,10 +891,10 @@ iconId
 -
 1
 ;
-bool
+PRBool
 hasData
 =
-false
+PR_FALSE
 ;
 {
 DECLARE_AND_ASSIGN_SCOPED_LAZY_STMT
@@ -926,10 +926,10 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasResult
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -1176,7 +1176,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasResult
 ;
 rv
@@ -1479,7 +1479,7 @@ aPageURI
 nsIURI
 *
 aFaviconURI
-bool
+PRBool
 aForceReload
 nsIFaviconDataCallback
 *
@@ -1503,7 +1503,7 @@ mFaviconsExpirationRunning
 return
 NS_OK
 ;
-bool
+PRBool
 previouslyFailed
 ;
 nsresult
@@ -1581,7 +1581,7 @@ aPageURI
 nsIURI
 *
 aFaviconURI
-bool
+PRBool
 aForceReload
 nsIFaviconDataCallback
 *
@@ -1780,7 +1780,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasResult
 ;
 rv
@@ -2450,10 +2450,10 @@ rv
 rv
 )
 ;
-bool
+PRBool
 isDefaultFavicon
 =
-false
+PR_FALSE
 ;
 rv
 =
@@ -2569,10 +2569,10 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasResult
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -2943,7 +2943,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasResult
 ;
 if
@@ -3145,7 +3145,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasResult
 ;
 nsCOMPtr
@@ -3483,7 +3483,7 @@ IsFailedFavicon
 nsIURI
 *
 aFaviconURI
-bool
+PRBool
 *
 _retval
 )

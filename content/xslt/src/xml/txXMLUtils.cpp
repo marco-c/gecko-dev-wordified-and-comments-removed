@@ -79,7 +79,7 @@ PRUnichar
 *
 colon
 ;
-bool
+PRBool
 valid
 =
 XMLUtils
@@ -463,7 +463,7 @@ PRUnichar
 *
 colon
 ;
-bool
+PRBool
 valid
 =
 XMLUtils
@@ -635,7 +635,7 @@ idx
 )
 ;
 }
-bool
+PRBool
 XMLUtils
 :
 :

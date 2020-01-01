@@ -599,7 +599,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 mozEnglishWordUtils
 :
 :

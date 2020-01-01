@@ -295,7 +295,7 @@ PostDesktopNotification
 void
 SetAllow
 (
-bool
+PRBool
 aAllow
 )
 ;
@@ -352,10 +352,10 @@ nsIURI
 >
 mURI
 ;
-bool
+PRBool
 mAllow
 ;
-bool
+PRBool
 mShowHasBeenCalled
 ;
 }

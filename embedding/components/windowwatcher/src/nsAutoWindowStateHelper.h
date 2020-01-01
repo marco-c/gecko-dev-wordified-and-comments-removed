@@ -31,7 +31,7 @@ nsAutoWindowStateHelper
 (
 )
 ;
-bool
+PRBool
 DefaultEnabled
 (
 )
@@ -42,7 +42,7 @@ mDefaultEnabled
 }
 protected
 :
-bool
+PRBool
 DispatchCustomEvent
 (
 const
@@ -61,7 +61,7 @@ nsIDOMWindow
 >
 mCallerWindow
 ;
-bool
+PRBool
 mDefaultEnabled
 ;
 }

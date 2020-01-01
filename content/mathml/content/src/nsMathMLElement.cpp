@@ -161,7 +161,7 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
+PRBool
 aCompileEventHandlers
 )
 {
@@ -289,9 +289,9 @@ nsMathMLElement
 :
 UnbindFromTree
 (
-bool
+PRBool
 aDeep
-bool
+PRBool
 aNullParent
 )
 {
@@ -313,7 +313,7 @@ aNullParent
 )
 ;
 }
-bool
+PRBool
 nsMathMLElement
 :
 :
@@ -517,7 +517,7 @@ nsnull
 }
 }
 ;
-bool
+PRBool
 nsMathMLElement
 :
 :
@@ -915,7 +915,7 @@ return
 MapMathMLAttributesInto
 ;
 }
-bool
+PRBool
 nsMathMLElement
 :
 :
@@ -1022,10 +1022,10 @@ i
 +
 ;
 }
-bool
+PRBool
 gotDot
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -1759,10 +1759,10 @@ eCSSUnit_Number
 }
 }
 }
-bool
+PRBool
 parseSizeKeywords
 =
-true
+PR_TRUE
 ;
 value
 =
@@ -2326,7 +2326,7 @@ nsEventStates
 )
 ;
 }
-bool
+PRBool
 nsMathMLElement
 :
 :
@@ -2353,9 +2353,9 @@ nsMathMLElement
 :
 SetIncrementScriptLevel
 (
-bool
+PRBool
 aIncrementScriptLevel
-bool
+PRBool
 aNotify
 )
 {
@@ -2389,7 +2389,7 @@ true
 )
 ;
 }
-bool
+PRBool
 nsMathMLElement
 :
 :
@@ -2398,7 +2398,7 @@ IsFocusable
 PRInt32
 *
 aTabIndex
-bool
+PRBool
 aWithMouse
 )
 {
@@ -2464,7 +2464,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsMathMLElement
 :
 :
@@ -2532,10 +2532,10 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 hasHref
 =
-false
+PR_FALSE
 ;
 const
 nsAttrValue
@@ -2994,7 +2994,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aNotify
 )
 {
@@ -3064,7 +3064,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttr
-bool
+PRBool
 aNotify
 )
 {

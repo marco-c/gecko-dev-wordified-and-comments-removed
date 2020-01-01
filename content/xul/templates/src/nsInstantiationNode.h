@@ -51,9 +51,9 @@ Propagate
 InstantiationSet
 &
 aInstantiations
-bool
+PRBool
 aIsUpdate
-bool
+PRBool
 &
 aMatched
 )

@@ -139,7 +139,7 @@ nsIDOMBlob
 >
 fileValue
 ;
-bool
+PRBool
 valueIsFile
 ;
 }

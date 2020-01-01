@@ -433,7 +433,7 @@ aGlyphs
 )
 {
 }
-bool
+PRBool
 Compare
 (
 const
@@ -671,7 +671,7 @@ glyphs
 )
 ;
 }
-bool
+PRBool
 Check
 (
 gfxFontTestStore
@@ -795,7 +795,7 @@ char
 *
 string
 ;
-bool
+PRPackedBool
 isRTL
 ;
 nsTArray
@@ -1214,7 +1214,7 @@ n
 ;
 }
 }
-bool
+PRBool
 RunTest
 (
 TestEntry
@@ -1702,7 +1702,7 @@ n
 test
 )
 ;
-bool
+PRBool
 result
 =
 RunTest

@@ -21,7 +21,7 @@ nsGNOMERegistry
 public
 :
 static
-bool
+PRBool
 HandlerExists
 (
 const

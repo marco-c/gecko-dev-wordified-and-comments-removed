@@ -125,7 +125,7 @@ aSelectedIndex
 nsAString
 &
 aPassword
-bool
+PRBool
 *
 aCanceled
 )

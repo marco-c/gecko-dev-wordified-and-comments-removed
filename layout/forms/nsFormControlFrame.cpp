@@ -284,7 +284,7 @@ RegUnRegAccessKey
 nsIFrame
 *
 aFrame
-bool
+PRBool
 aDoReg
 )
 {
@@ -420,9 +420,9 @@ nsFormControlFrame
 :
 SetFocus
 (
-bool
+PRBool
 aOn
-bool
+PRBool
 aRepaint
 )
 {
@@ -493,7 +493,7 @@ nsFormControlFrame
 :
 GetCurrentCheckState
 (
-bool
+PRBool
 *
 aState
 )

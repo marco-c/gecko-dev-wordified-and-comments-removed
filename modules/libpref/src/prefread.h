@@ -37,7 +37,7 @@ PrefValue
 val
 PrefType
 type
-bool
+PRBool
 defPref
 )
 ;
@@ -103,7 +103,7 @@ vb
 PrefType
 vtype
 ;
-bool
+PRBool
 fdefault
 ;
 }
@@ -130,7 +130,7 @@ PrefParseState
 ps
 )
 ;
-bool
+PRBool
 PREF_ParseBuf
 (
 PrefParseState

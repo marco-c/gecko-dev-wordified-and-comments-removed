@@ -213,9 +213,9 @@ virtual
 void
 SetScriptsEnabled
 (
-bool
+PRBool
 aEnabled
-bool
+PRBool
 aFireTimeouts
 )
 ;
@@ -1021,7 +1021,7 @@ namespaceURI
 prefixStr
 localName
 ;
-bool
+PRBool
 prefixIsNull
 ;
 nsCOMPtr
@@ -1812,7 +1812,7 @@ GetPrefix
 prefix
 )
 ;
-bool
+PRBool
 nullPrefix
 =
 DOMStringIsNull
@@ -2293,7 +2293,7 @@ AwaitLoadDone
 nsXULDocument
 *
 aDocument
-bool
+PRBool
 *
 aResult
 )
@@ -3064,9 +3064,9 @@ nsXULPDGlobalObject
 :
 SetScriptsEnabled
 (
-bool
+PRBool
 aEnabled
-bool
+PRBool
 aFireTimeouts
 )
 {

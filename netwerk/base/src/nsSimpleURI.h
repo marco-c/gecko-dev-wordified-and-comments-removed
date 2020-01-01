@@ -140,7 +140,7 @@ nsIURI
 other
 RefHandlingEnum
 refHandlingMode
-bool
+PRBool
 *
 result
 )
@@ -185,10 +185,10 @@ mPath
 nsCString
 mRef
 ;
-bool
+PRPackedBool
 mMutable
 ;
-bool
+PRPackedBool
 mIsRefValid
 ;
 }

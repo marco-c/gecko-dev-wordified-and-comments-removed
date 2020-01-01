@@ -57,7 +57,7 @@ public
 void
 LoadResources
 (
-bool
+PRBool
 *
 aResult
 )

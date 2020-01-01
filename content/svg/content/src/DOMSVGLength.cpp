@@ -1374,7 +1374,7 @@ mListIndex
 #
 ifdef
 DEBUG
-bool
+PRBool
 DOMSVGLength
 :
 :

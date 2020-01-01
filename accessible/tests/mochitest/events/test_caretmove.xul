@@ -237,8 +237,6 @@ eventdump
 /
 debug
 stuff
-/
-/
 gA11yEventDumpToConsole
 =
 true
@@ -280,7 +278,6 @@ new
 caretMoveChecker
 (
 5
-id
 )
 )
 )
@@ -297,7 +294,6 @@ new
 caretMoveChecker
 (
 5
-id
 )
 )
 )
@@ -314,7 +310,6 @@ new
 caretMoveChecker
 (
 0
-id
 )
 )
 )
@@ -331,7 +326,6 @@ new
 caretMoveChecker
 (
 1
-id
 )
 )
 )

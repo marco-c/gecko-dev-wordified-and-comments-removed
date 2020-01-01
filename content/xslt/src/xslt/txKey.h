@@ -129,7 +129,7 @@ nsnull
 )
 {
 }
-bool
+PRBool
 MatchEntry
 (
 const
@@ -231,7 +231,7 @@ PR_FALSE
 )
 {
 }
-bool
+PRBool
 MatchEntry
 (
 const
@@ -254,7 +254,7 @@ aKey
 txIndexedKeyHashKey
 mKey
 ;
-bool
+PRBool
 mIndexed
 ;
 }
@@ -285,7 +285,7 @@ aName
 )
 {
 }
-bool
+PRBool
 addKey
 (
 nsAutoPtr
@@ -423,7 +423,7 @@ const
 nsAString
 &
 aKeyValue
-bool
+PRBool
 aIndexIfNotFound
 txExecutionState
 &

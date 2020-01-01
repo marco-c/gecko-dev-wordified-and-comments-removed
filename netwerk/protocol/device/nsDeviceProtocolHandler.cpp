@@ -250,7 +250,7 @@ const
 char
 *
 scheme
-bool
+PRBool
 *
 aResult
 )

@@ -17,7 +17,7 @@ define
 SHORTCUT_FREQUENCY
 256
 static
-bool
+PRBool
 IsKeepEntry
 (
 PRUint32
@@ -173,7 +173,7 @@ SetOffsets
 (
 PRUint32
 aOffset
-bool
+PRBool
 aInOriginalString
 )
 {
@@ -566,7 +566,7 @@ mListPrefixLength
 }
 }
 }
-bool
+PRBool
 gfxSkipCharsIterator
 :
 :
@@ -751,7 +751,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 isSkipped
 =
 !

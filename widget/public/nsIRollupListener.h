@@ -28,7 +28,7 @@ aContent
 NS_IMETHOD
 ShouldRollupOnMouseWheelEvent
 (
-bool
+PRBool
 *
 aShould
 )
@@ -38,7 +38,7 @@ aShould
 NS_IMETHOD
 ShouldRollupOnMouseActivate
 (
-bool
+PRBool
 *
 aShould
 )

@@ -1076,10 +1076,10 @@ XPCCallContext
 (
 )
 {
-bool
+PRBool
 shouldReleaseXPC
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -1799,7 +1799,7 @@ XPCCallContext
 :
 GetReturnValueWasSet
 (
-bool
+PRBool
 *
 aReturnValueWasSet
 )
@@ -1819,7 +1819,7 @@ XPCCallContext
 :
 SetReturnValueWasSet
 (
-bool
+PRBool
 aReturnValueWasSet
 )
 {

@@ -216,7 +216,7 @@ IsBeingUsedAsImage
 )
 )
 {
-bool
+PRBool
 hasFlags
 ;
 nsresult
@@ -338,7 +338,7 @@ GetDocumentURI
 )
 )
 {
-bool
+PRBool
 isRecursiveLoad
 ;
 rv

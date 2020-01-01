@@ -193,11 +193,13 @@ clicks
 ;
 EventUtils
 .
-synthesizeMouseAtCenter
+synthesizeMouse
 (
 doc
 .
 body
+100
+600
 {
 }
 win

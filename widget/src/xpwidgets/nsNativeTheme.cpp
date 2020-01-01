@@ -223,7 +223,7 @@ nsEventStates
 (
 )
 ;
-bool
+PRBool
 isXULCheckboxRadio
 =
 (
@@ -488,7 +488,7 @@ return
 flags
 ;
 }
-bool
+PRBool
 nsNativeTheme
 :
 :
@@ -641,7 +641,7 @@ return
 value
 ;
 }
-bool
+PRBool
 nsNativeTheme
 :
 :
@@ -650,7 +650,7 @@ GetCheckedOrSelected
 nsIFrame
 *
 aFrame
-bool
+PRBool
 aCheckSelected
 )
 {
@@ -711,7 +711,7 @@ if
 inputElt
 )
 {
-bool
+PRBool
 checked
 ;
 inputElt
@@ -746,7 +746,7 @@ checked
 )
 ;
 }
-bool
+PRBool
 nsNativeTheme
 :
 :
@@ -797,7 +797,7 @@ eCaseMatters
 )
 ;
 }
-bool
+PRBool
 nsNativeTheme
 :
 :
@@ -845,7 +845,7 @@ NS_EVENT_STATE_HOVER
 )
 ;
 }
-bool
+PRBool
 nsNativeTheme
 :
 :
@@ -917,7 +917,7 @@ if
 inputElt
 )
 {
-bool
+PRBool
 indeterminate
 ;
 inputElt
@@ -937,7 +937,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsNativeTheme
 :
 :
@@ -1225,7 +1225,7 @@ eCaseMatters
 )
 ;
 }
-bool
+PRBool
 nsNativeTheme
 :
 :
@@ -1452,7 +1452,7 @@ return
 eTreeSortDirection_Natural
 ;
 }
-bool
+PRBool
 nsNativeTheme
 :
 :
@@ -1602,7 +1602,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsNativeTheme
 :
 :
@@ -1666,7 +1666,7 @@ bottom
 kNotFound
 ;
 }
-bool
+PRBool
 nsNativeTheme
 :
 :
@@ -1760,7 +1760,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsNativeTheme
 :
 :
@@ -1804,7 +1804,7 @@ eCaseMatters
 )
 ;
 }
-bool
+PRBool
 nsNativeTheme
 :
 :
@@ -1955,7 +1955,7 @@ aOffset
 )
 ;
 }
-bool
+PRBool
 nsNativeTheme
 :
 :
@@ -2039,7 +2039,7 @@ eCaseMatters
 )
 ;
 }
-bool
+PRBool
 nsNativeTheme
 :
 :
@@ -2068,7 +2068,7 @@ mOrient
 NS_STYLE_ORIENT_VERTICAL
 ;
 }
-bool
+PRBool
 nsNativeTheme
 :
 :
@@ -2077,7 +2077,7 @@ IsSubmenu
 nsIFrame
 *
 aFrame
-bool
+PRBool
 *
 aLeftOfParent
 )
@@ -2217,7 +2217,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsNativeTheme
 :
 :
@@ -2265,7 +2265,7 @@ eNotMenuList
 )
 ;
 }
-bool
+PRBool
 nsNativeTheme
 :
 :
@@ -2276,10 +2276,10 @@ nsIFrame
 aFrame
 )
 {
-bool
+PRBool
 isEditable
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -2314,7 +2314,7 @@ return
 isEditable
 ;
 }
-bool
+PRBool
 nsNativeTheme
 :
 :
@@ -2603,7 +2603,7 @@ GetAdjacentSiblingFrameWithSameAppearance
 nsIFrame
 *
 aFrame
-bool
+PRBool
 aNextSibling
 )
 {

@@ -637,7 +637,7 @@ DeleteArray
 )
 ;
 }
-bool
+PRBool
 nsSupportsArray
 :
 :
@@ -1305,7 +1305,7 @@ kAutoArraySize
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSupportsArray
 :
@@ -1677,7 +1677,7 @@ return
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSupportsArray
 :
@@ -1838,7 +1838,7 @@ PR_FALSE
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSupportsArray
 :
@@ -2054,7 +2054,7 @@ PR_FALSE
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSupportsArray
 :
@@ -2105,7 +2105,7 @@ PR_FALSE
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSupportsArray
 :
@@ -2206,7 +2206,7 @@ PR_FALSE
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSupportsArray
 :
@@ -2249,7 +2249,7 @@ PR_FALSE
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSupportsArray
 :
@@ -2289,7 +2289,7 @@ PR_FALSE
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSupportsArray
 :
@@ -2658,7 +2658,7 @@ NS_OK
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSupportsArray
 :
@@ -2860,7 +2860,7 @@ PR_TRUE
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSupportsArray
 :
@@ -2880,10 +2880,10 @@ aIndex
 -
 1
 ;
-bool
+PRBool
 running
 =
-true
+PR_TRUE
 ;
 while
 (
@@ -2923,7 +2923,7 @@ running
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSupportsArray
 :
@@ -2942,10 +2942,10 @@ aIndex
 =
 mCount
 ;
-bool
+PRBool
 running
 =
-true
+PR_TRUE
 ;
 while
 (
@@ -3025,7 +3025,7 @@ NS_OK
 ;
 }
 static
-bool
+PRBool
 CopyElement
 (
 nsISupports
@@ -3093,7 +3093,7 @@ NS_NewISupportsArray
 newArray
 )
 ;
-bool
+PRBool
 ok
 =
 EnumerateForwards
@@ -3167,7 +3167,7 @@ NS_DECL_ISUPPORTS
 NS_IMETHOD
 HasMoreElements
 (
-bool
+PRBool
 *
 aResult
 )
@@ -3258,7 +3258,7 @@ nsArrayEnumerator
 :
 HasMoreElements
 (
-bool
+PRBool
 *
 aResult
 )

@@ -138,7 +138,7 @@ GetCurrentNode
 )
 ;
 virtual
-bool
+PRBool
 IsDone
 (
 )
@@ -152,7 +152,7 @@ nsINode
 aCurNode
 )
 ;
-bool
+PRPackedBool
 DidSkip
 (
 )
@@ -207,7 +207,7 @@ CheckAdvNode
 nsIDOMNode
 *
 aNode
-bool
+PRPackedBool
 &
 aDidSkip
 eDirectionType
@@ -217,7 +217,7 @@ aDir
 nsresult
 SwitchDirections
 (
-bool
+PRPackedBool
 aChangeToForward
 )
 ;
@@ -281,10 +281,10 @@ nsIDOMNSRange
 >
 mRange
 ;
-bool
+PRPackedBool
 mDidSkip
 ;
-bool
+PRPackedBool
 mIsOutOfRange
 ;
 eDirectionType

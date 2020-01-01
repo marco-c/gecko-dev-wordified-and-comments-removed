@@ -290,7 +290,7 @@ ImageCacheEntry
 )
 {
 }
-bool
+PRBool
 KeyEquals
 (
 KeyTypePointer

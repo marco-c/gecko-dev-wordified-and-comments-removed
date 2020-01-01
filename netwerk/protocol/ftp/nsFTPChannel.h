@@ -207,7 +207,7 @@ return
 mProxyInfo
 ;
 }
-bool
+PRBool
 ResumeRequested
 (
 )
@@ -316,7 +316,7 @@ virtual
 nsresult
 OpenContentStream
 (
-bool
+PRBool
 async
 nsIInputStream
 *
@@ -329,7 +329,7 @@ channel
 )
 ;
 virtual
-bool
+PRBool
 GetStatusArg
 (
 nsresult
@@ -371,7 +371,7 @@ mStartPos
 nsCString
 mEntityID
 ;
-bool
+PRPackedBool
 mResumeRequested
 ;
 PRTime

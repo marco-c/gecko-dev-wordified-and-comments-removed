@@ -147,7 +147,7 @@ DOMModalDialogClosed
 ;
 }
 }
-bool
+PRBool
 nsAutoWindowStateHelper
 :
 :

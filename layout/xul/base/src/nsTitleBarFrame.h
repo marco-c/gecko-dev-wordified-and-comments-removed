@@ -98,7 +98,7 @@ NS_FRAME_MOUSE_THROUGH_NEVER
 }
 protected
 :
-bool
+PRBool
 mTrackingMouseMove
 ;
 nsIntPoint

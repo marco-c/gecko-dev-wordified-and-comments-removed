@@ -214,9 +214,9 @@ const
 nsAString
 &
 aType
-bool
+PRBool
 aCanBubble
-bool
+PRBool
 aCancelable
 nsIDOMWindow
 *

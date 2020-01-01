@@ -121,7 +121,7 @@ mClipboardOwner
 return
 NS_OK
 ;
-bool
+PRBool
 selectClipPresent
 ;
 SupportsSelectionClipboard
@@ -257,7 +257,7 @@ transferable
 "
 )
 ;
-bool
+PRBool
 selectClipPresent
 ;
 SupportsSelectionClipboard
@@ -305,7 +305,7 @@ PRInt32
 aWhichClipboard
 )
 {
-bool
+PRBool
 selectClipPresent
 ;
 SupportsSelectionClipboard
@@ -378,7 +378,7 @@ PRUint32
 aLength
 PRInt32
 aWhichClipboard
-bool
+PRBool
 *
 outResult
 )
@@ -398,7 +398,7 @@ nsBaseClipboard
 :
 SupportsSelectionClipboard
 (
-bool
+PRBool
 *
 _retval
 )

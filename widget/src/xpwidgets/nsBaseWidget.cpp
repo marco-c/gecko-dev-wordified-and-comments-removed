@@ -136,10 +136,10 @@ debug_RegisterPrefCallbacks
 )
 ;
 static
-bool
+PRBool
 debug_InSecureKeyboardInputMode
 =
-false
+PR_FALSE
 ;
 #
 endif
@@ -694,7 +694,7 @@ nsBaseWidget
 :
 CaptureMouse
 (
-bool
+PRBool
 aCapture
 )
 {
@@ -768,7 +768,7 @@ aToolkit
 nsWidgetInitData
 *
 aInitData
-bool
+PRBool
 aForceUseIWidgetParent
 )
 {
@@ -1039,7 +1039,7 @@ PRInt32
 aWidth
 PRInt32
 aHeight
-bool
+PRBool
 aRepaint
 )
 {
@@ -1680,7 +1680,7 @@ aPlacement
 nsIWidget
 *
 aWidget
-bool
+PRBool
 aActivate
 )
 {
@@ -1916,7 +1916,7 @@ return
 eTransparencyOpaque
 ;
 }
-bool
+PRBool
 nsBaseWidget
 :
 :
@@ -2085,7 +2085,7 @@ nsBaseWidget
 :
 HideWindowChrome
 (
-bool
+PRBool
 aShouldHide
 )
 {
@@ -2099,7 +2099,7 @@ nsBaseWidget
 :
 MakeFullScreen
 (
-bool
+PRBool
 aFullScreen
 )
 {
@@ -2488,7 +2488,7 @@ mTemporarilyUseBasicLayerManager
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsBaseWidget
 :
 :
@@ -2515,10 +2515,10 @@ MOZ_PLATFORM_MAEMO
 >
 5
 )
-bool
+PRBool
 accelerateByDefault
 =
-true
+PR_TRUE
 ;
 #
 elif
@@ -2532,10 +2532,10 @@ defined
 (
 NP_NO_QUICKDRAW
 )
-bool
+PRBool
 accelerateByDefault
 =
-true
+PR_TRUE
 ;
 SInt32
 major
@@ -2629,23 +2629,23 @@ PR_FALSE
 }
 #
 else
-bool
+PRBool
 accelerateByDefault
 =
-false
+PR_FALSE
 ;
 #
 endif
 #
 else
-bool
+PRBool
 accelerateByDefault
 =
-false
+PR_FALSE
 ;
 #
 endif
-bool
+PRBool
 disableAcceleration
 =
 Preferences
@@ -2660,10 +2660,10 @@ acceleration
 .
 disabled
 "
-false
+PR_FALSE
 )
 ;
-bool
+PRBool
 forceAcceleration
 =
 Preferences
@@ -2680,7 +2680,7 @@ force
 -
 enabled
 "
-false
+PR_FALSE
 )
 ;
 const
@@ -2736,10 +2736,10 @@ runtime
 "
 )
 ;
-bool
+PRBool
 safeMode
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -3231,7 +3231,7 @@ nsBaseWidget
 :
 EnableDragDrop
 (
-bool
+PRBool
 aEnable
 )
 {
@@ -3245,7 +3245,7 @@ nsBaseWidget
 :
 SetModal
 (
-bool
+PRBool
 aModal
 )
 {
@@ -3267,7 +3267,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsBaseWidget
 :
 :
@@ -3376,7 +3376,7 @@ SetWindowTitlebarColor
 (
 nscolor
 aColor
-bool
+PRBool
 aActive
 )
 {
@@ -3384,7 +3384,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-bool
+PRBool
 nsBaseWidget
 :
 :
@@ -3405,7 +3405,7 @@ nsBaseWidget
 :
 SetAcceleratedRendering
 (
-bool
+PRBool
 aEnabled
 )
 {
@@ -3446,7 +3446,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsBaseWidget
 :
 :
@@ -3490,7 +3490,7 @@ OverrideSystemMouseScrollSpeed
 (
 PRInt32
 aOriginalDelta
-bool
+PRBool
 aIsHorizontal
 PRInt32
 &
@@ -3514,7 +3514,7 @@ system_scroll_override_on_root_content
 enabled
 "
 ;
-bool
+PRBool
 isOverrideEnabled
 =
 Preferences
@@ -3523,7 +3523,7 @@ Preferences
 GetBool
 (
 kPrefNameOverrideEnabled
-false
+PR_FALSE
 )
 ;
 if
@@ -3643,7 +3643,7 @@ NS_OK
 ;
 }
 static
-bool
+PRBool
 ResolveIconNameHelper
 (
 nsILocalFile
@@ -3695,7 +3695,7 @@ aIconName
 aIconSuffix
 )
 ;
-bool
+PRBool
 readable
 ;
 return
@@ -3785,7 +3785,7 @@ if
 dirs
 )
 {
-bool
+PRBool
 hasMore
 ;
 while
@@ -4477,7 +4477,7 @@ char
 *
 name
 ;
-bool
+PRBool
 value
 ;
 }
@@ -4551,7 +4551,7 @@ PR_FALSE
 }
 }
 ;
-bool
+PRBool
 nsBaseWidget
 :
 :
@@ -4637,7 +4637,7 @@ const
 char
 *
 aPrefName
-bool
+PRBool
 aValue
 )
 {
@@ -4764,7 +4764,7 @@ prefName
 data
 )
 ;
-bool
+PRBool
 value
 =
 Preferences
@@ -4777,7 +4777,7 @@ prefName
 get
 (
 )
-false
+PR_FALSE
 )
 ;
 debug_SetCachedBoolPref
@@ -4800,10 +4800,10 @@ debug_RegisterPrefCallbacks
 )
 {
 static
-bool
+PRBool
 once
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -4867,7 +4867,7 @@ i
 ]
 .
 name
-false
+PR_FALSE
 )
 ;
 if
@@ -4910,7 +4910,7 @@ return
 sCount
 ;
 }
-bool
+PRBool
 nsBaseWidget
 :
 :
@@ -5331,7 +5331,7 @@ const
 nsIntRect
 *
 aRect
-bool
+PRBool
 aIsSynchronous
 const
 nsCAutoString

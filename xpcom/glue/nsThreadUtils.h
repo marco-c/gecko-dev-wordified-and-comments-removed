@@ -272,7 +272,7 @@ PR_INTERVAL_NO_TIMEOUT
 endif
 extern
 NS_COM_GLUE
-bool
+PRBool
 NS_HasPendingEvents
 (
 nsIThread
@@ -284,7 +284,7 @@ nsnull
 ;
 extern
 NS_COM_GLUE
-bool
+PRBool
 NS_ProcessNextEvent
 (
 nsIThread
@@ -292,10 +292,10 @@ nsIThread
 thread
 =
 nsnull
-bool
+PRBool
 mayWait
 =
-true
+PR_TRUE
 )
 ;
 inline
@@ -972,7 +972,7 @@ mEvent
 nsnull
 ;
 }
-bool
+PRBool
 IsPending
 (
 )

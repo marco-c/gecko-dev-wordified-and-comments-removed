@@ -10,7 +10,7 @@ BooleanResult
 :
 BooleanResult
 (
-bool
+PRBool
 boolean
 )
 :

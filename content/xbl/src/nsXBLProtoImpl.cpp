@@ -864,7 +864,7 @@ return
 nsnull
 ;
 }
-bool
+PRBool
 nsXBLProtoImpl
 :
 :

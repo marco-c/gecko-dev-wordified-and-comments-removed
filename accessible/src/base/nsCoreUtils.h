@@ -94,7 +94,7 @@ nsCoreUtils
 public
 :
 static
-bool
+PRBool
 HasClickListener
 (
 nsIContent
@@ -125,7 +125,7 @@ EmptyCString
 )
 ;
 static
-bool
+PRBool
 DispatchMouseEvent
 (
 PRUint32
@@ -204,7 +204,7 @@ aNode
 )
 ;
 static
-bool
+PRBool
 IsAncestorOf
 (
 nsINode
@@ -316,7 +316,7 @@ aNode
 )
 ;
 static
-bool
+PRBool
 IsRootDocument
 (
 nsIDocument
@@ -325,7 +325,7 @@ aDocument
 )
 ;
 static
-bool
+PRBool
 IsContentDocument
 (
 nsIDocument
@@ -343,7 +343,7 @@ aDocumentNode
 )
 ;
 static
-bool
+PRBool
 IsErrorPage
 (
 nsIDocument
@@ -352,7 +352,7 @@ aDocument
 )
 ;
 static
-bool
+PRBool
 IsCorrectFrameType
 (
 nsIFrame
@@ -444,7 +444,7 @@ aContainer
 )
 ;
 static
-bool
+PRBool
 GetID
 (
 nsIContent
@@ -456,7 +456,7 @@ aID
 )
 ;
 static
-bool
+PRBool
 GetUIntAttr
 (
 nsIContent
@@ -471,7 +471,7 @@ aUInt
 )
 ;
 static
-bool
+PRBool
 IsXLink
 (
 nsIContent
@@ -606,7 +606,7 @@ aColumn
 )
 ;
 static
-bool
+PRBool
 IsColumnHidden
 (
 nsITreeColumn
@@ -615,7 +615,7 @@ aColumn
 )
 ;
 static
-bool
+PRBool
 IsHTMLTableHeader
 (
 nsIContent
@@ -689,7 +689,7 @@ nsAccessibleDOMStringList
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMDOMSTRINGLIST
-bool
+PRBool
 Add
 (
 const

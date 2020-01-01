@@ -219,7 +219,7 @@ PR_FALSE
 +
 u16Offset
 ;
-bool
+PRBool
 err
 ;
 PRUint32

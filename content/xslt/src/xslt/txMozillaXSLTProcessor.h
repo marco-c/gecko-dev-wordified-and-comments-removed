@@ -306,7 +306,7 @@ nsIDOMDocument
 aResult
 )
 ;
-bool
+PRBool
 IsLoadDisabled
 (
 )

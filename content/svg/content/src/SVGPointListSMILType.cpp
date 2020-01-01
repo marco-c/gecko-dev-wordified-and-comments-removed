@@ -248,7 +248,7 @@ src
 )
 ;
 }
-bool
+PRBool
 SVGPointListSMILType
 :
 :

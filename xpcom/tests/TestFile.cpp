@@ -51,7 +51,7 @@ main
 "
 ;
 static
-bool
+PRBool
 VerifyResult
 (
 nsresult
@@ -277,7 +277,7 @@ name
 ;
 }
 static
-bool
+PRBool
 TestInvalidFileName
 (
 nsIFile
@@ -370,7 +370,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 TestCreate
 (
 nsIFile
@@ -444,7 +444,7 @@ AppendNative
 return
 PR_FALSE
 ;
-bool
+PRBool
 exists
 ;
 rv
@@ -591,7 +591,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 TestCreateUnique
 (
 nsIFile
@@ -665,7 +665,7 @@ AppendNative
 return
 PR_FALSE
 ;
-bool
+PRBool
 existsBefore
 ;
 rv
@@ -721,7 +721,7 @@ Create
 return
 PR_FALSE
 ;
-bool
+PRBool
 existsAfter
 ;
 rv
@@ -859,7 +859,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 TestDeleteOnClose
 (
 nsIFile
@@ -933,7 +933,7 @@ AppendNative
 return
 PR_FALSE
 ;
-bool
+PRBool
 exists
 ;
 rv
@@ -1134,7 +1134,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 TestRemove
 (
 nsIFile
@@ -1144,7 +1144,7 @@ const
 char
 *
 aName
-bool
+PRBool
 aRecursive
 )
 {
@@ -1206,7 +1206,7 @@ AppendNative
 return
 PR_FALSE
 ;
-bool
+PRBool
 exists
 ;
 rv
@@ -1353,7 +1353,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 TestMove
 (
 nsIFile
@@ -1430,7 +1430,7 @@ AppendNative
 return
 PR_FALSE
 ;
-bool
+PRBool
 exists
 ;
 rv
@@ -1631,7 +1631,7 @@ AppendNative
 return
 PR_FALSE
 ;
-bool
+PRBool
 equal
 ;
 rv
@@ -1751,7 +1751,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 TestCopy
 (
 nsIFile
@@ -1828,7 +1828,7 @@ AppendNative
 return
 PR_FALSE
 ;
-bool
+PRBool
 exists
 ;
 rv
@@ -1933,7 +1933,7 @@ MoveToNative
 return
 PR_FALSE
 ;
-bool
+PRBool
 equal
 ;
 rv
@@ -2146,7 +2146,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 TestParent
 (
 nsIFile
@@ -2210,7 +2210,7 @@ GetParent
 "
 )
 ;
-bool
+PRBool
 equal
 ;
 rv
@@ -2259,7 +2259,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 TestNormalizeNativePath
 (
 nsIFile

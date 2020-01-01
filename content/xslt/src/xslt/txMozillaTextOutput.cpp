@@ -242,7 +242,7 @@ const
 nsSubstring
 &
 aData
-bool
+PRBool
 aDOE
 )
 {
@@ -474,10 +474,10 @@ NS_ENSURE_STATE
 source
 )
 ;
-bool
+PRBool
 hasHadScriptObject
 =
-false
+PR_FALSE
 ;
 nsIScriptGlobalObject
 *

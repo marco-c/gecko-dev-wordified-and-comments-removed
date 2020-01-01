@@ -365,7 +365,7 @@ const
 char
 *
 prop
-bool
+PRBool
 *
 persistent
 nsIFile
@@ -1574,7 +1574,7 @@ nsILocalFile
 *
 *
 aLocalFile
-bool
+PRBool
 aLocal
 )
 {
@@ -1586,7 +1586,7 @@ aLocalFile
 nsresult
 rv
 ;
-bool
+PRBool
 exists
 ;
 nsCOMPtr
@@ -2005,7 +2005,7 @@ nsILocalFile
 *
 *
 aLocalFile
-bool
+PRBool
 aLocal
 )
 {
@@ -2087,7 +2087,7 @@ rv
 return
 rv
 ;
-bool
+PRBool
 exists
 ;
 rv
@@ -2188,7 +2188,7 @@ aKeyList
 NS_IMETHOD
 HasMoreElements
 (
-bool
+PRBool
 *
 result
 )
@@ -2203,7 +2203,7 @@ mNext
 mCurrentKey
 )
 {
-bool
+PRBool
 dontCare
 ;
 nsCOMPtr
@@ -2232,7 +2232,7 @@ testFile
 )
 )
 ;
-bool
+PRBool
 exists
 ;
 if
@@ -2291,7 +2291,7 @@ result
 =
 nsnull
 ;
-bool
+PRBool
 hasMore
 ;
 HasMoreElements
@@ -2432,7 +2432,7 @@ aKeyList
 NS_IMETHOD
 HasMoreElements
 (
-bool
+PRBool
 *
 result
 )
@@ -2522,7 +2522,7 @@ PATH_SEPARATOR
 +
 mEndPath
 ;
-bool
+PRBool
 exists
 ;
 if
@@ -2874,7 +2874,7 @@ defined
 (
 XP_MACOSX
 )
-bool
+PRBool
 nsAppFileLocationProvider
 :
 :

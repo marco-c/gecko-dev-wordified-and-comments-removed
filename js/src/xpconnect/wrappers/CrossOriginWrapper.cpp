@@ -45,7 +45,7 @@ uintN
 flags
 )
 :
-CrossCompartmentWrapper
+JSCrossCompartmentWrapper
 (
 flags
 )
@@ -109,7 +109,7 @@ desc
 )
 {
 return
-CrossCompartmentWrapper
+JSCrossCompartmentWrapper
 :
 :
 getPropertyDescriptor
@@ -161,7 +161,7 @@ desc
 )
 {
 return
-CrossCompartmentWrapper
+JSCrossCompartmentWrapper
 :
 :
 getOwnPropertyDescriptor
@@ -214,7 +214,7 @@ vp
 )
 {
 return
-CrossCompartmentWrapper
+JSCrossCompartmentWrapper
 :
 :
 get
@@ -260,7 +260,7 @@ vp
 )
 {
 return
-CrossCompartmentWrapper
+JSCrossCompartmentWrapper
 :
 :
 call
@@ -311,7 +311,7 @@ rval
 )
 {
 return
-CrossCompartmentWrapper
+JSCrossCompartmentWrapper
 :
 :
 construct
@@ -393,15 +393,14 @@ principal
 =
 GetCompartmentPrincipal
 (
-js
-:
-:
-GetObjectCompartment
-(
 wrappedObject
 (
 wrapper
 )
+-
+>
+compartment
+(
 )
 )
 ;

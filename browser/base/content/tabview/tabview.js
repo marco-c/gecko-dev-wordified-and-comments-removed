@@ -544,11 +544,11 @@ thumbnailStorage
 js
 #
 include
-search
+ui
 .
 js
 #
 include
-ui
+search
 .
 js

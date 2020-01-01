@@ -95,7 +95,7 @@ nsSVGLineElementBase
 )
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 IsAttributeMapped
 (
@@ -107,13 +107,13 @@ name
 const
 ;
 virtual
-bool
+PRBool
 IsMarkable
 (
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 virtual
@@ -431,7 +431,7 @@ this
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSVGLineElement
 :

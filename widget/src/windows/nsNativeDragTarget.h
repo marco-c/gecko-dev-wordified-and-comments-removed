@@ -206,10 +206,10 @@ mHWnd
 DWORD
 mEffectsAllowed
 ;
-DWORD
-mEffectsPreferred
+PRBool
+mMovePreferred
 ;
-bool
+PRBool
 mTookOwnRef
 ;
 nsIWidget

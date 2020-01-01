@@ -897,13 +897,13 @@ nsCocoaWindow
 .
 mm
 extern
-bool
+PRBool
 gConsumeRollupEvent
 ;
-bool
+PRBool
 gChildViewMethodsSwizzled
 =
-false
+PR_FALSE
 ;
 extern
 nsISupportsArray
@@ -985,10 +985,10 @@ gRollupWidget
 =
 nsnull
 ;
-bool
+PRBool
 gUserCancelledDrag
 =
-false
+PR_FALSE
 ;
 PRUint32
 nsChildView
@@ -1692,19 +1692,19 @@ nsnull
 )
 mVisible
 (
-false
+PR_FALSE
 )
 mDrawing
 (
-false
+PR_FALSE
 )
 mPluginDrawing
 (
-false
+PR_FALSE
 )
 mIsDispatchPaint
 (
-false
+PR_FALSE
 )
 mPluginInstanceOwner
 (
@@ -2163,7 +2163,7 @@ nsChildView_NSEvent_addLocalMonitorForEventsMatchingMask
 handler
 :
 )
-true
+PR_TRUE
 )
 ;
 nsToolkit
@@ -2185,7 +2185,7 @@ selector
 nsChildView_NSEvent_removeMonitor
 :
 )
-true
+PR_TRUE
 )
 ;
 }
@@ -2205,7 +2205,7 @@ SwizzleMethods
 endif
 gChildViewMethodsSwizzled
 =
-true
+PR_TRUE
 ;
 }
 mBounds
@@ -2536,7 +2536,7 @@ YES
 else
 mVisible
 =
-true
+PR_TRUE
 ;
 /
 /
@@ -3083,7 +3083,7 @@ NS_OK
 ;
 mOnDestroyCalled
 =
-true
+PR_TRUE
 ;
 [
 mView
@@ -3481,7 +3481,7 @@ nsChildView
 :
 IsVisible
 (
-bool
+PRBool
 &
 outState
 )
@@ -3563,7 +3563,7 @@ visibleRect
 {
 outState
 =
-false
+PR_FALSE
 ;
 }
 }
@@ -4194,7 +4194,7 @@ nsChildView
 :
 Show
 (
-bool
+PRBool
 aState
 )
 {
@@ -4586,7 +4586,7 @@ nsChildView
 :
 Enable
 (
-bool
+PRBool
 aState
 )
 {
@@ -4600,7 +4600,7 @@ nsChildView
 :
 IsEnabled
 (
-bool
+PRBool
 *
 aState
 )
@@ -4615,7 +4615,7 @@ aState
 *
 aState
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -4627,7 +4627,7 @@ nsChildView
 :
 SetFocus
 (
-bool
+PRBool
 aRaise
 )
 {
@@ -4841,7 +4841,7 @@ nsChildView
 :
 ConstrainPosition
 (
-bool
+PRBool
 aAllowSlop
 PRInt32
 *
@@ -4972,7 +4972,7 @@ PRInt32
 aWidth
 PRInt32
 aHeight
-bool
+PRBool
 aRepaint
 )
 {
@@ -5073,7 +5073,7 @@ PRInt32
 aWidth
 PRInt32
 aHeight
-bool
+PRBool
 aRepaint
 )
 {
@@ -5251,7 +5251,7 @@ resizeIndicatorHeight
 =
 15
 ;
-bool
+PRBool
 nsChildView
 :
 :
@@ -5313,7 +5313,7 @@ NSResizableWindowMask
 )
 )
 return
-false
+PR_FALSE
 ;
 if
 (
@@ -5389,7 +5389,7 @@ resizeIndicatorHeight
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 /
@@ -5614,7 +5614,7 @@ outClipRect
 nsIntPoint
 &
 outOrigin
-bool
+PRBool
 &
 outWidgetVisible
 )
@@ -5830,7 +5830,7 @@ viewOrigin
 y
 )
 ;
-bool
+PRBool
 isVisible
 ;
 IsVisible
@@ -5970,7 +5970,7 @@ IsEmpty
 ?
 outWidgetVisible
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -5989,7 +5989,7 @@ height
 ;
 outWidgetVisible
 =
-false
+PR_FALSE
 ;
 }
 return
@@ -6418,7 +6418,7 @@ or
 paint
 .
 )
-bool
+PRBool
 isQDPlugin
 =
 [
@@ -6738,7 +6738,7 @@ if
 pluginRegion
 )
 {
-bool
+PRBool
 portChanged
 =
 (
@@ -6820,7 +6820,7 @@ coordinates
 nsIntPoint
 origin
 ;
-bool
+PRBool
 visible
 ;
 GetPluginClipRect
@@ -6952,7 +6952,7 @@ missing
 endif
 mPluginDrawing
 =
-true
+PR_TRUE
 ;
 return
 NS_OK
@@ -6999,7 +6999,7 @@ NS_ERROR_FAILURE
 ;
 mPluginDrawing
 =
-false
+PR_FALSE
 ;
 return
 NS_OK
@@ -8228,7 +8228,7 @@ const
 nsIntRect
 &
 aRect
-bool
+PRBool
 aIsSynchronous
 )
 {
@@ -8334,7 +8334,7 @@ NS_OK
 NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
-bool
+PRBool
 nsChildView
 :
 :
@@ -8387,7 +8387,7 @@ class
 ]
 )
 return
-false
+PR_FALSE
 ;
 return
 nsBaseWidget
@@ -8688,10 +8688,10 @@ IsEmpty
 )
 )
 ;
-bool
+PRBool
 repaint
 =
-false
+PR_FALSE
 ;
 #
 ifndef
@@ -8953,7 +8953,7 @@ mParentWidget
 ;
 }
 }
-bool
+PRBool
 restoreIsDispatchPaint
 =
 mIsDispatchPaint
@@ -8993,7 +8993,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsChildView
 :
 :
@@ -9025,7 +9025,7 @@ status
 pragma
 mark
 -
-bool
+PRBool
 nsChildView
 :
 :
@@ -9036,7 +9036,7 @@ ReportDestroyEvent
 nsGUIEvent
 event
 (
-true
+PR_TRUE
 NS_DESTROY
 this
 )
@@ -9056,7 +9056,7 @@ event
 )
 ;
 }
-bool
+PRBool
 nsChildView
 :
 :
@@ -9067,7 +9067,7 @@ ReportMoveEvent
 nsGUIEvent
 moveEvent
 (
-true
+PR_TRUE
 NS_MOVE
 this
 )
@@ -9107,7 +9107,7 @@ moveEvent
 )
 ;
 }
-bool
+PRBool
 nsChildView
 :
 :
@@ -9118,7 +9118,7 @@ ReportSizeEvent
 nsSizeEvent
 sizeEvent
 (
-true
+PR_TRUE
 NS_SIZE
 this
 )
@@ -9363,9 +9363,9 @@ aListener
 nsIMenuRollup
 *
 aMenuRollup
-bool
+PRBool
 aDoCapture
-bool
+PRBool
 aConsumeRollupEvent
 )
 {
@@ -9443,7 +9443,7 @@ NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 static
 *
 /
-bool
+PRBool
 nsChildView
 :
 :
@@ -9610,7 +9610,7 @@ GetCurrentInputEventCount
 )
 ;
 }
-bool
+PRBool
 nsChildView
 :
 :
@@ -9711,7 +9711,7 @@ nsChildView
 :
 SetIMEOpenState
 (
-bool
+PRBool
 aState
 )
 {
@@ -9753,7 +9753,7 @@ nsChildView
 :
 GetIMEOpenState
 (
-bool
+PRBool
 *
 aState
 )
@@ -9824,7 +9824,7 @@ mTextInputHandler
 >
 SetASCIICapableOnly
 (
-false
+PR_FALSE
 )
 ;
 mTextInputHandler
@@ -9832,7 +9832,7 @@ mTextInputHandler
 >
 EnableIME
 (
-true
+PR_TRUE
 )
 ;
 break
@@ -9848,7 +9848,7 @@ mTextInputHandler
 >
 SetASCIICapableOnly
 (
-false
+PR_FALSE
 )
 ;
 mTextInputHandler
@@ -9856,7 +9856,7 @@ mTextInputHandler
 >
 EnableIME
 (
-false
+PR_FALSE
 )
 ;
 break
@@ -9872,7 +9872,7 @@ mTextInputHandler
 >
 SetASCIICapableOnly
 (
-true
+PR_TRUE
 )
 ;
 mTextInputHandler
@@ -9880,7 +9880,7 @@ mTextInputHandler
 >
 EnableIME
 (
-false
+PR_FALSE
 )
 ;
 break
@@ -9966,7 +9966,7 @@ GetToggledKeyState
 (
 PRUint32
 aKeyCode
-bool
+PRBool
 *
 aLEDState
 )
@@ -10053,7 +10053,7 @@ nsChildView
 :
 OnIMEFocusChange
 (
-bool
+PRBool
 aFocus
 )
 {
@@ -10165,7 +10165,7 @@ focus
 nsQueryContentEvent
 textContent
 (
-true
+PR_TRUE
 NS_QUERY_TEXT_CONTENT
 this
 )
@@ -10726,7 +10726,7 @@ aUseNearestFilter
 =
 *
 /
-true
+PR_TRUE
 )
 ;
 /
@@ -11268,7 +11268,7 @@ status
 nsAccessibleEvent
 event
 (
-true
+PR_TRUE
 NS_GETACCESSIBLE
 this
 )
@@ -12238,7 +12238,7 @@ return
 nsPluginEvent
 pluginEvent
 (
-true
+PR_TRUE
 NS_PLUGIN_FOCUS_EVENT
 mGeckoChild
 )
@@ -12504,7 +12504,7 @@ return
 nsGUIEvent
 guiEvent
 (
-true
+PR_TRUE
 NS_THEMECHANGED
 mGeckoChild
 )
@@ -13028,7 +13028,7 @@ window
 ]
 mClickThroughMouseDownEvent
 self
-true
+PR_TRUE
 )
 ;
 /
@@ -13174,7 +13174,7 @@ nsEventStatus_eIgnore
 nsGUIEvent
 focusGuiEvent
 (
-true
+PR_TRUE
 eventType
 mGeckoChild
 )
@@ -13969,7 +13969,7 @@ CGContextRef
 )
 aContext
 {
-bool
+PRBool
 isVisible
 ;
 if
@@ -14224,7 +14224,7 @@ region
 nsPaintEvent
 paintEvent
 (
-true
+PR_TRUE
 NS_PAINT
 mGeckoChild
 )
@@ -14743,7 +14743,7 @@ targetSurface
 >
 SetAllowUseAsSource
 (
-false
+PR_FALSE
 )
 ;
 nsRefPtr
@@ -14845,7 +14845,7 @@ kungFuDeathGrip
 self
 )
 ;
-bool
+PRBool
 painted
 ;
 {
@@ -15483,7 +15483,7 @@ afterDelay
 nsPaintEvent
 paintEvent
 (
-true
+PR_TRUE
 NS_WILL_PAINT
 mGeckoChild
 )
@@ -16083,10 +16083,10 @@ is
 to
 roll
 up
-bool
+PRBool
 shouldRollup
 =
-true
+PR_TRUE
 ;
 /
 /
@@ -16339,7 +16339,7 @@ sameTypeCount
 {
 shouldRollup
 =
-false
+PR_FALSE
 ;
 }
 else
@@ -16558,7 +16558,7 @@ event
 nsSimpleGestureEvent
 geckoEvent
 (
-true
+PR_TRUE
 NS_SIMPLE_GESTURE_SWIPE
 mGeckoChild
 0
@@ -16824,7 +16824,7 @@ event
 nsSimpleGestureEvent
 geckoEvent
 (
-true
+PR_TRUE
 msg
 mGeckoChild
 0
@@ -16969,7 +16969,7 @@ event
 nsSimpleGestureEvent
 geckoEvent
 (
-true
+PR_TRUE
 msg
 mGeckoChild
 0
@@ -17148,7 +17148,7 @@ event
 nsSimpleGestureEvent
 geckoEvent
 (
-true
+PR_TRUE
 NS_SIMPLE_GESTURE_MAGNIFY
 mGeckoChild
 0
@@ -17199,7 +17199,7 @@ event
 nsSimpleGestureEvent
 geckoEvent
 (
-true
+PR_TRUE
 NS_SIMPLE_GESTURE_ROTATE
 mGeckoChild
 0
@@ -18364,7 +18364,7 @@ gestureAmount
 nsSimpleGestureEvent
 geckoEvent
 (
-true
+PR_TRUE
 NS_SIMPLE_GESTURE_SWIPE
 mGeckoChild
 0
@@ -18932,7 +18932,7 @@ modifierFlags
 nsMouseEvent
 geckoEvent
 (
-true
+PR_TRUE
 NS_MOUSE_BUTTON_DOWN
 nsnull
 nsMouseEvent
@@ -19348,7 +19348,7 @@ cocoaEvent
 nsMouseEvent
 geckoEvent
 (
-true
+PR_TRUE
 NS_MOUSE_BUTTON_UP
 nsnull
 nsMouseEvent
@@ -19754,7 +19754,7 @@ self
 nsMouseEvent
 geckoExitEvent
 (
-true
+PR_TRUE
 NS_MOUSE_EXIT
 nsnull
 nsMouseEvent
@@ -19992,7 +19992,7 @@ NS_MOUSE_EXIT
 nsMouseEvent
 event
 (
-true
+PR_TRUE
 msg
 mGeckoChild
 nsMouseEvent
@@ -20321,7 +20321,7 @@ return
 nsMouseEvent
 geckoEvent
 (
-true
+PR_TRUE
 NS_MOUSE_MOVE
 nsnull
 nsMouseEvent
@@ -20658,7 +20658,7 @@ cocoaEvent
 nsMouseEvent
 geckoEvent
 (
-true
+PR_TRUE
 NS_MOUSE_MOVE
 nsnull
 nsMouseEvent
@@ -21022,7 +21022,7 @@ gecko
 nsMouseEvent
 geckoEvent
 (
-true
+PR_TRUE
 NS_MOUSE_BUTTON_DOWN
 nsnull
 nsMouseEvent
@@ -21364,7 +21364,7 @@ cocoaEvent
 nsMouseEvent
 geckoEvent
 (
-true
+PR_TRUE
 NS_MOUSE_BUTTON_UP
 nsnull
 nsMouseEvent
@@ -21670,7 +21670,7 @@ return
 nsMouseEvent
 geckoEvent
 (
-true
+PR_TRUE
 NS_MOUSE_MOVE
 nsnull
 nsMouseEvent
@@ -21780,7 +21780,7 @@ return
 nsMouseEvent
 geckoEvent
 (
-true
+PR_TRUE
 NS_MOUSE_BUTTON_DOWN
 nsnull
 nsMouseEvent
@@ -21851,7 +21851,7 @@ return
 nsMouseEvent
 geckoEvent
 (
-true
+PR_TRUE
 NS_MOUSE_BUTTON_UP
 nsnull
 nsMouseEvent
@@ -21911,7 +21911,7 @@ return
 nsMouseEvent
 geckoEvent
 (
-true
+PR_TRUE
 NS_MOUSE_MOVE
 nsnull
 nsMouseEvent
@@ -22018,7 +22018,7 @@ scrollDeltaPixels
 =
 0
 ;
-bool
+PRBool
 checkPixels
 =
 Preferences
@@ -22031,7 +22031,7 @@ mousewheel
 .
 enable_pixel_scrolling
 "
-true
+PR_TRUE
 )
 ;
 /
@@ -22122,7 +22122,7 @@ kEventMouseScroll
 )
 checkPixels
 =
-false
+PR_FALSE
 ;
 }
 /
@@ -22341,7 +22341,7 @@ event
 nsMouseScrollEvent
 geckoEvent
 (
-true
+PR_TRUE
 NS_MOUSE_SCROLL
 nsnull
 )
@@ -22860,7 +22860,7 @@ event
 nsMouseScrollEvent
 geckoEvent
 (
-true
+PR_TRUE
 NS_MOUSE_PIXEL_SCROLL
 nsnull
 )
@@ -23287,7 +23287,7 @@ nil
 nsMouseEvent
 geckoEvent
 (
-true
+PR_TRUE
 NS_CONTEXTMENU
 nsnull
 nsMouseEvent
@@ -24401,10 +24401,10 @@ kungFuDeathGrip
 self
 )
 ;
-bool
+PRBool
 handled
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -24679,7 +24679,7 @@ YES
 nsMouseEvent
 geckoEvent
 (
-true
+PR_TRUE
 NS_MOUSE_ACTIVATE
 nsnull
 nsMouseEvent
@@ -24873,7 +24873,7 @@ WidgetToScreenOffset
 nsQueryContentEvent
 hitTest
 (
-true
+PR_TRUE
 NS_QUERY_DOM_WIDGET_HITTEST
 mGeckoChild
 )
@@ -25090,7 +25090,7 @@ NPEventModelCocoa
 nsPluginEvent
 pluginEvent
 (
-true
+PR_TRUE
 NS_PLUGIN_FOCUS_EVENT
 mGeckoChild
 )
@@ -25915,7 +25915,7 @@ dragSession
 >
 SetCanDrop
 (
-false
+PR_FALSE
 )
 ;
 }
@@ -25953,10 +25953,10 @@ the
 Drag
 Session
 .
-bool
+PRBool
 canDrop
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -26016,7 +26016,7 @@ mDragService
 >
 EndDragSession
 (
-false
+PR_FALSE
 )
 ;
 }
@@ -26106,7 +26106,7 @@ event
 nsDragEvent
 geckoEvent
 (
-true
+PR_TRUE
 aMessage
 nsnull
 )
@@ -26327,7 +26327,7 @@ mDragService
 >
 EndDragSession
 (
-false
+PR_FALSE
 )
 ;
 }
@@ -27061,7 +27061,7 @@ mDragService
 >
 EndDragSession
 (
-true
+PR_TRUE
 )
 ;
 NS_RELEASE
@@ -27237,7 +27237,7 @@ NS_NewLocalFile
 EmptyString
 (
 )
-true
+PR_TRUE
 getter_AddRefs
 (
 targFile
@@ -27844,7 +27844,7 @@ sendType
 nsQueryContentEvent
 event
 (
-true
+PR_TRUE
 NS_QUERY_CONTENT_STATE
 mGeckoChild
 )
@@ -27922,10 +27922,10 @@ returnType
 nsContentCommandEvent
 command
 (
-true
+PR_TRUE
 NS_CONTENT_COMMAND_PASTE_TRANSFERABLE
 mGeckoChild
-true
+PR_TRUE
 )
 ;
 /
@@ -28112,7 +28112,7 @@ selection
 nsQueryContentEvent
 event
 (
-true
+PR_TRUE
 NS_QUERY_SELECTION_AS_TRANSFERABLE
 mGeckoChild
 )
@@ -28487,13 +28487,13 @@ NO
 NS_ENSURE_TRUE
 (
 mGeckoChild
-false
+PR_FALSE
 )
 ;
 nsContentCommandEvent
 command
 (
-true
+PR_TRUE
 NS_CONTENT_COMMAND_PASTE_TRANSFERABLE
 mGeckoChild
 )

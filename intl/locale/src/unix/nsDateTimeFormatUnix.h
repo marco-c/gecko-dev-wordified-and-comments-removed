@@ -172,10 +172,10 @@ mCharset
 nsCString
 mPlatformLocale
 ;
-bool
+PRBool
 mLocalePreferred24hour
 ;
-bool
+PRBool
 mLocaleAMPMfirst
 ;
 nsCOMPtr

@@ -81,7 +81,7 @@ nsXMLProcessingInstruction
 nsGenericDOMDataNode
 )
 virtual
-bool
+PRBool
 IsNodeOfType
 (
 PRUint32
@@ -97,7 +97,7 @@ CloneDataNode
 nsINodeInfo
 *
 aNodeInfo
-bool
+PRBool
 aCloneText
 )
 const
@@ -126,7 +126,7 @@ FILE
 out
 PRInt32
 aIndent
-bool
+PRBool
 aDumpAll
 )
 const
@@ -142,7 +142,7 @@ GetClassInfo
 ;
 protected
 :
-bool
+PRBool
 GetAttrValue
 (
 nsIAtom

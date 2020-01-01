@@ -69,7 +69,7 @@ mFloatValue
 double
 mDoubleValue
 ;
-bool
+PRBool
 mBoolValue
 ;
 char
@@ -326,7 +326,7 @@ const
 nsDiscriminatedUnion
 &
 data
-bool
+PRBool
 *
 _retval
 )
@@ -666,7 +666,7 @@ SetFromBool
 nsDiscriminatedUnion
 *
 data
-bool
+PRBool
 aValue
 )
 ;
@@ -900,7 +900,7 @@ protected
 nsDiscriminatedUnion
 mData
 ;
-bool
+PRBool
 mWritable
 ;
 }

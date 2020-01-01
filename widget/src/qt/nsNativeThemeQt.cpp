@@ -1833,7 +1833,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsNativeThemeQt
 :
 :
@@ -1906,7 +1906,7 @@ aWidgetType
 nsIntSize
 *
 aResult
-bool
+PRBool
 *
 aIsOverridable
 )
@@ -2798,7 +2798,7 @@ aWidgetType
 nsIAtom
 *
 aAttribute
-bool
+PRBool
 *
 aShouldRepaint
 )
@@ -2852,7 +2852,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsNativeThemeQt
 :
 :
@@ -2954,7 +2954,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsNativeThemeQt
 :
 :
@@ -2968,7 +2968,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsNativeThemeQt
 :
 :
@@ -3012,7 +3012,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsNativeThemeQt
 :
 :
@@ -3063,7 +3063,7 @@ palette
 =
 mNoBackgroundPalette
 ;
-bool
+PRBool
 isDisabled
 =
 IsDisabled
@@ -3345,7 +3345,7 @@ aFrame
 aWidgetType
 )
 ;
-bool
+PRBool
 isDisabled
 =
 IsDisabled

@@ -59,7 +59,7 @@ mozilla
 dom
 ;
 static
-bool
+PRBool
 GetCSSComputedValue
 (
 nsIContent
@@ -393,7 +393,7 @@ EmptyString
 nsAutoString
 computedStyleVal
 ;
-bool
+PRBool
 didGetComputedVal
 =
 GetCSSComputedValue
@@ -465,7 +465,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-bool
+PRBool
 &
 aPreventCachingOfSandwich
 )
@@ -656,7 +656,7 @@ EmptyString
 ;
 }
 }
-bool
+PRBool
 nsSMILCSSProperty
 :
 :

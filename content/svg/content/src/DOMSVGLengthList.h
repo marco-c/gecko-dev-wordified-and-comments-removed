@@ -250,7 +250,7 @@ mAList
 mAxis
 ;
 }
-bool
+PRBool
 IsAnimValList
 (
 )

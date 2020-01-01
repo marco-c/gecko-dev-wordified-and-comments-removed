@@ -155,7 +155,7 @@ const
 nsAString
 &
 path
-bool
+PRBool
 followLinks
 nsILocalFile
 *
@@ -174,7 +174,7 @@ const
 nsACString
 &
 path
-bool
+PRBool
 followLinks
 nsILocalFile
 *
@@ -260,7 +260,7 @@ const
 PRUnichar
 *
 *
-bool
+PRBool
 *
 )
 ;
@@ -348,11 +348,11 @@ StringSetIsVoidFunc
 nsAString
 &
 const
-bool
+PRBool
 )
 ;
 typedef
-bool
+PRBool
 (
 *
 StringGetIsVoidFunc
@@ -415,7 +415,7 @@ const
 char
 *
 *
-bool
+PRBool
 *
 )
 ;
@@ -503,11 +503,11 @@ CStringSetIsVoidFunc
 nsACString
 &
 const
-bool
+PRBool
 )
 ;
 typedef
-bool
+PRBool
 (
 *
 CStringGetIsVoidFunc
@@ -722,7 +722,7 @@ nsXPTCVariant
 )
 ;
 typedef
-bool
+PRBool
 (
 *
 CycleCollectorFunc
@@ -745,7 +745,7 @@ nsISupports
 )
 ;
 typedef
-bool
+PRBool
 (
 *
 CycleCollectorForget2Func
@@ -1300,7 +1300,7 @@ endif
 #
 endif
 extern
-bool
+PRBool
 gXPCOMShuttingDown
 ;
 namespace

@@ -338,7 +338,7 @@ FilterInstantiations
 InstantiationSet
 &
 aInstantiations
-bool
+PRBool
 *
 aCantHandleYet
 )
@@ -434,7 +434,7 @@ last
 inst
 )
 {
-bool
+PRBool
 hasContainerBinding
 ;
 nsCOMPtr
@@ -484,7 +484,7 @@ hasContainerBinding
 containerRes
 )
 {
-bool
+PRBool
 isRDFContainer
 ;
 rv
@@ -567,7 +567,7 @@ rv
 ;
 }
 }
-bool
+PRBool
 hasMemberBinding
 ;
 nsCOMPtr
@@ -706,10 +706,10 @@ hasContainerBinding
 hasMemberBinding
 )
 {
-bool
+PRBool
 isconsistent
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -798,7 +798,7 @@ Last
 property
 )
 {
-bool
+PRBool
 hasAssertion
 ;
 rv
@@ -961,7 +961,7 @@ while
 1
 )
 {
-bool
+PRBool
 hasmore
 ;
 rv
@@ -1192,7 +1192,7 @@ nsIRDFResource
 property
 ;
 {
-bool
+PRBool
 hasmore
 ;
 rv
@@ -1268,7 +1268,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-bool
+PRBool
 isordinal
 ;
 rv
@@ -1335,7 +1335,7 @@ while
 1
 )
 {
-bool
+PRBool
 hasmore
 ;
 rv
@@ -1639,7 +1639,7 @@ while
 1
 )
 {
-bool
+PRBool
 hasmore
 ;
 rv
@@ -2021,7 +2021,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsRDFConMemberTestNode
 :
 :
@@ -2045,10 +2045,10 @@ const
 nsresult
 rv
 ;
-bool
+PRBool
 canpropagate
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -2285,10 +2285,10 @@ aTarget
 )
 const
 {
-bool
+PRBool
 canretract
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <

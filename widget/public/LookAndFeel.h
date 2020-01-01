@@ -423,7 +423,7 @@ GetPasswordCharacter
 )
 ;
 static
-bool
+PRBool
 GetEchoPassword
 (
 )

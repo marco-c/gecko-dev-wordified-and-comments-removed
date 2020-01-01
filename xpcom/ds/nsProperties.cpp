@@ -192,7 +192,7 @@ const
 char
 *
 prop
-bool
+PRBool
 *
 result
 )

@@ -862,7 +862,7 @@ SHA256_DestroyContext
 SHA256Context
 *
 ctx
-bool
+PRBool
 freeit
 )
 {
@@ -4217,7 +4217,7 @@ SHA512_DestroyContext
 SHA512Context
 *
 ctx
-bool
+PRBool
 freeit
 )
 {
@@ -8067,7 +8067,7 @@ SHA384_DestroyContext
 SHA384Context
 *
 ctx
-bool
+PRBool
 freeit
 )
 {

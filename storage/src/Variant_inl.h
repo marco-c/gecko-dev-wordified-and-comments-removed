@@ -274,7 +274,7 @@ Variant_base
 :
 GetAsBool
 (
-bool
+PRBool
 *
 )
 {

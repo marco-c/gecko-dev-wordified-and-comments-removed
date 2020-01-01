@@ -264,7 +264,7 @@ return
 mBaseDomain
 ;
 }
-bool
+PRBool
 KeyEquals
 (
 KeyTypePointer
@@ -641,7 +641,7 @@ AsyncReadComplete
 void
 CancelAsyncRead
 (
-bool
+PRBool
 aPurgeReadSet
 )
 ;
@@ -676,7 +676,7 @@ aHostURI
 nsCString
 &
 aBaseDomain
-bool
+PRBool
 &
 aRequireHostMatch
 )
@@ -718,7 +718,7 @@ nsIURI
 aHostURI
 bool
 aIsForeign
-bool
+PRBool
 aHttpBound
 nsCString
 &
@@ -761,11 +761,11 @@ const
 nsCString
 &
 aServerTime
-bool
+PRBool
 aFromHttp
 )
 ;
-bool
+PRBool
 SetCookieInternal
 (
 nsIURI
@@ -775,7 +775,7 @@ const
 nsCString
 &
 aBaseDomain
-bool
+PRBool
 aRequireHostMatch
 CookieStatus
 aStatus
@@ -784,7 +784,7 @@ nsDependentCString
 aCookieHeader
 PRInt64
 aServerTime
-bool
+PRBool
 aFromHttp
 )
 ;
@@ -807,7 +807,7 @@ const
 char
 *
 aCookieHeader
-bool
+PRBool
 aFromHttp
 )
 ;
@@ -841,10 +841,10 @@ aDBState
 mozIStorageBindingParamsArray
 *
 aParamsArray
-bool
+PRBool
 aWriteToDB
 =
-true
+PR_TRUE
 )
 ;
 void
@@ -861,7 +861,7 @@ aParamsArray
 )
 ;
 static
-bool
+PRBool
 GetTokenValue
 (
 nsASingleFragmentCString
@@ -882,13 +882,13 @@ aTokenString
 nsDependentCSubstring
 &
 aTokenValue
-bool
+PRBool
 &
 aEqualsFound
 )
 ;
 static
-bool
+PRBool
 ParseAttributes
 (
 nsDependentCString
@@ -916,7 +916,7 @@ const
 nsCString
 &
 aBaseDomain
-bool
+PRBool
 aRequireHostMatch
 const
 char
@@ -924,7 +924,7 @@ char
 aCookieHeader
 )
 ;
-bool
+PRBool
 CheckDomain
 (
 nsCookieAttributes
@@ -937,12 +937,12 @@ const
 nsCString
 &
 aBaseDomain
-bool
+PRBool
 aRequireHostMatch
 )
 ;
 static
-bool
+PRBool
 CheckPath
 (
 nsCookieAttributes
@@ -954,7 +954,7 @@ aHostURI
 )
 ;
 static
-bool
+PRBool
 GetExpiry
 (
 nsCookieAttributes
@@ -981,7 +981,7 @@ PRInt64
 aCurrentTimeInUsec
 )
 ;
-bool
+PRBool
 FindCookie
 (
 const
@@ -1115,7 +1115,7 @@ mPrivateDBState
 PRUint8
 mCookieBehavior
 ;
-bool
+PRBool
 mThirdPartySession
 ;
 PRUint16

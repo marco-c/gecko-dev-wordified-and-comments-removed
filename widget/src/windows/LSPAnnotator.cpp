@@ -108,7 +108,7 @@ reporter
 "
 )
 ;
-bool
+PRBool
 enabled
 ;
 if

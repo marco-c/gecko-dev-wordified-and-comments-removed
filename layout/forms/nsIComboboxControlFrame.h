@@ -40,7 +40,7 @@ NS_DECL_QUERYFRAME_TARGET
 nsIComboboxControlFrame
 )
 virtual
-bool
+PRBool
 IsDroppedDown
 (
 )
@@ -51,7 +51,7 @@ virtual
 void
 ShowDropDown
 (
-bool
+PRBool
 aDoDropDown
 )
 =

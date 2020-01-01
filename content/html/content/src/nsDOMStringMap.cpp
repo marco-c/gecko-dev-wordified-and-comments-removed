@@ -201,7 +201,7 @@ mProperty
 ;
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsDOMStringMap
 :
@@ -765,7 +765,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsDOMStringMap
 :
 :
@@ -977,7 +977,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsDOMStringMap
 :
 :

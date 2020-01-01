@@ -91,7 +91,7 @@ aNodeInfo
 )
 ;
 virtual
-bool
+PRBool
 AttributeDefinesGeometry
 (
 const
@@ -101,7 +101,7 @@ aName
 )
 ;
 virtual
-bool
+PRBool
 IsMarkable
 (
 )

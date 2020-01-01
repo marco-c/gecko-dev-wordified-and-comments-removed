@@ -8,6 +8,12 @@ __OSINCLUDE_H
 if
 defined
 (
+ANGLE_USE_NSPR
+)
+#
+elif
+defined
+(
 _WIN32
 )
 |
@@ -50,12 +56,6 @@ __OpenBSD__
 defined
 (
 __sun
-)
-|
-|
-defined
-(
-ANDROID
 )
 #
 define

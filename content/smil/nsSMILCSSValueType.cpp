@@ -306,7 +306,7 @@ nsnull
 }
 static
 const
-bool
+PRBool
 FinalizeStyleAnimationValues
 (
 const
@@ -830,7 +830,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsSMILCSSValueType
 :
 :
@@ -1672,7 +1672,7 @@ nsnull
 ;
 }
 static
-bool
+PRBool
 ValueFromStringHelper
 (
 nsCSSProperty
@@ -1693,15 +1693,15 @@ nsStyleAnimation
 Value
 &
 aStyleAnimValue
-bool
+PRBool
 *
 aIsContextSensitive
 )
 {
-bool
+PRBool
 isNegative
 =
-false
+PR_FALSE
 ;
 PRUint32
 subStringBegin
@@ -1853,7 +1853,7 @@ aString
 nsSMILValue
 &
 aValue
-bool
+PRBool
 *
 aIsContextSensitive
 )
@@ -1950,7 +1950,7 @@ presContext
 ;
 }
 }
-bool
+PRBool
 nsSMILCSSValueType
 :
 :

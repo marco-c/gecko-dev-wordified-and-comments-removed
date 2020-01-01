@@ -195,7 +195,7 @@ nsIDOMMimeType
 >
 mMimeTypeArray
 ;
-bool
+PRBool
 mInited
 ;
 }

@@ -20,7 +20,7 @@ nsSMILAnimationFunction
 public
 :
 virtual
-bool
+PRBool
 SetAttr
 (
 nsIAtom
@@ -42,7 +42,7 @@ nsnull
 ;
 NS_OVERRIDE
 virtual
-bool
+PRBool
 UnsetAttr
 (
 nsIAtom
@@ -54,7 +54,7 @@ protected
 :
 NS_OVERRIDE
 virtual
-bool
+PRBool
 IsToAnimation
 (
 )
@@ -66,7 +66,7 @@ PR_FALSE
 }
 NS_OVERRIDE
 virtual
-bool
+PRBool
 IsValueFixedForSimpleDuration
 (
 )
@@ -78,7 +78,7 @@ PR_TRUE
 }
 NS_OVERRIDE
 virtual
-bool
+PRBool
 HasAttr
 (
 nsIAtom
@@ -102,7 +102,7 @@ const
 ;
 NS_OVERRIDE
 virtual
-bool
+PRBool
 GetAttr
 (
 nsIAtom
@@ -116,13 +116,13 @@ const
 ;
 NS_OVERRIDE
 virtual
-bool
+PRBool
 WillReplace
 (
 )
 const
 ;
-bool
+PRBool
 IsDisallowedAttribute
 (
 const

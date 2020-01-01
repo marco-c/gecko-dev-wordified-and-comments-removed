@@ -182,7 +182,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 AccessPointsEqual
 (
 nsCOMArray
@@ -277,10 +277,10 @@ mSsid
 )
 )
 ;
-bool
+PRBool
 found
 =
-false
+PR_FALSE
 ;
 for
 (

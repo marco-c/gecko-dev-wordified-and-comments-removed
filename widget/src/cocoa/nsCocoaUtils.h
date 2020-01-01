@@ -278,7 +278,7 @@ static
 void
 HideOSChromeOnScreen
 (
-bool
+PRBool
 aShouldHide
 NSScreen
 *

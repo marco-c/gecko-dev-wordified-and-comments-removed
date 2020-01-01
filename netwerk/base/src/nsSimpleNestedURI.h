@@ -59,7 +59,7 @@ nsIURI
 other
 RefHandlingEnum
 refHandlingMode
-bool
+PRBool
 *
 result
 )

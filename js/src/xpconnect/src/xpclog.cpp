@@ -67,7 +67,7 @@ g_LogMod
 nsnull
 ;
 static
-bool
+PRBool
 Init
 (
 )
@@ -253,7 +253,7 @@ line
 )
 ;
 }
-bool
+PRBool
 XPC_Log_Check
 (
 int

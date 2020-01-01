@@ -85,7 +85,7 @@ RedoTransaction
 NS_IMETHOD
 GetIsTransient
 (
-bool
+PRBool
 *
 aIsTransient
 )
@@ -102,7 +102,7 @@ mValue
 nsString
 mUndoValue
 ;
-bool
+PRPackedBool
 mIsTransient
 ;
 }

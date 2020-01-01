@@ -40,7 +40,7 @@ nsTextEditUtils
 public
 :
 static
-bool
+PRBool
 IsBody
 (
 nsIDOMNode
@@ -49,7 +49,7 @@ aNode
 )
 ;
 static
-bool
+PRBool
 IsBreak
 (
 nsIDOMNode
@@ -58,7 +58,7 @@ aNode
 )
 ;
 static
-bool
+PRBool
 IsMozBR
 (
 nsIDOMNode
@@ -67,7 +67,7 @@ aNode
 )
 ;
 static
-bool
+PRBool
 HasMozAttr
 (
 nsIDOMNode

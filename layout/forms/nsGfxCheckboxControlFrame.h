@@ -100,12 +100,12 @@ CreateAccessible
 endif
 protected
 :
-bool
+PRBool
 IsChecked
 (
 )
 ;
-bool
+PRBool
 IsIndeterminate
 (
 )

@@ -227,7 +227,7 @@ CleanUp
 )
 ;
 static
-bool
+PRBool
 LookupOperator
 (
 const
@@ -268,7 +268,7 @@ aRightSpace
 )
 ;
 static
-bool
+PRBool
 IsMutableOperator
 (
 const

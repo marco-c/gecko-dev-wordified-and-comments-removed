@@ -162,7 +162,7 @@ SelfDestruct
 (
 )
 ;
-bool
+PRBool
 UseRunnableQueue
 (
 )
@@ -224,13 +224,13 @@ mIdleNotificationCount
 ShutdownMethod
 mShutdownMethod
 ;
-bool
+PRPackedBool
 mShutdown
 ;
-bool
+PRPackedBool
 mThreadIsShuttingDown
 ;
-bool
+PRPackedBool
 mIdleTimeoutEnabled
 ;
 }

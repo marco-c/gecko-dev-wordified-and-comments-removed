@@ -35,7 +35,7 @@ char
 clientID
 nsCacheStoragePolicy
 storagePolicy
-bool
+PRBool
 streamBased
 )
 :
@@ -90,7 +90,7 @@ nsCacheSession
 :
 GetDoomEntriesIfExpired
 (
-bool
+PRBool
 *
 result
 )
@@ -117,7 +117,7 @@ nsCacheSession
 :
 SetDoomEntriesIfExpired
 (
-bool
+PRBool
 doomEntriesIfExpired
 )
 {
@@ -150,7 +150,7 @@ nsACString
 key
 nsCacheAccessMode
 accessRequested
-bool
+PRBool
 blockingMode
 nsICacheEntryDescriptor
 *
@@ -257,7 +257,7 @@ nsCacheSession
 :
 IsStorageEnabled
 (
-bool
+PRBool
 *
 result
 )

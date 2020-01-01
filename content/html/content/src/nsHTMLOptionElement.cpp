@@ -395,9 +395,9 @@ nsHTMLOptionElement
 :
 SetSelectedInternal
 (
-bool
+PRBool
 aValue
-bool
+PRBool
 aNotify
 )
 {
@@ -428,7 +428,7 @@ nsHTMLOptionElement
 :
 GetSelected
 (
-bool
+PRBool
 *
 aValue
 )
@@ -455,7 +455,7 @@ nsHTMLOptionElement
 :
 SetSelected
 (
-bool
+PRBool
 aValue
 )
 {
@@ -796,7 +796,7 @@ const
 nsAString
 *
 aValue
-bool
+PRBool
 aNotify
 )
 {
@@ -875,7 +875,7 @@ here
 "
 )
 ;
-bool
+PRBool
 newSelected
 =
 (
@@ -885,7 +885,7 @@ aValue
 nsnull
 )
 ;
-bool
+PRBool
 inSetDefaultSelected
 =
 mIsInSetDefaultSelected

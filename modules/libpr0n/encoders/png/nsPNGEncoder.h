@@ -102,10 +102,10 @@ const
 nsAString
 &
 aOptions
-bool
+PRBool
 *
 useTransparency
-bool
+PRBool
 *
 skipFirstFrame
 PRUint32
@@ -143,7 +143,7 @@ PRUint8
 aDest
 PRUint32
 aPixelWidth
-bool
+PRBool
 aUseTransparency
 )
 ;
@@ -196,10 +196,10 @@ png_info
 *
 mPNGinfo
 ;
-bool
+PRPackedBool
 mIsAnimation
 ;
-bool
+PRPackedBool
 mFinished
 ;
 PRUint8

@@ -54,7 +54,7 @@ NS_DECL_NSIDOMPAGETRANSITIONEVENT
 NS_FORWARD_TO_NSDOMEVENT
 protected
 :
-bool
+PRBool
 mPersisted
 ;
 }

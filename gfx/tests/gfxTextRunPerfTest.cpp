@@ -306,10 +306,10 @@ textRun
 PRUint32
 i
 ;
-bool
+PRBool
 isASCII
 =
-true
+PR_TRUE
 ;
 for
 (

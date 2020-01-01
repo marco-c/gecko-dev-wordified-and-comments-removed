@@ -78,7 +78,7 @@ aCount
 const
 ;
 virtual
-bool
+PRBool
 IsEqual
 (
 const

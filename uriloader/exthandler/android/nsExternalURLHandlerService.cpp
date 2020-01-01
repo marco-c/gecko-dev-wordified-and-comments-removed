@@ -43,7 +43,7 @@ GetURLHandlerInfoFromOS
 nsIURI
 *
 aURL
-bool
+PRBool
 *
 found
 nsIHandlerInfo

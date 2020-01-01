@@ -590,7 +590,7 @@ NativeState
 )
 ;
 virtual
-bool
+PRBool
 GetAllowsAnonChildAccessibles
 (
 )

@@ -338,7 +338,7 @@ virtual
 nsresult
 GetModifiedText
 (
-bool
+PRBool
 aGetInsertedText
 nsAString
 &
@@ -358,7 +358,7 @@ private
 HRESULT
 GetModifiedText
 (
-bool
+PRBool
 aGetInsertedText
 IA2TextSegment
 *

@@ -48,7 +48,7 @@ nsEventQueue
 (
 )
 ;
-bool
+PRBool
 PutEvent
 (
 nsIRunnable
@@ -56,10 +56,10 @@ nsIRunnable
 event
 )
 ;
-bool
+PRBool
 GetEvent
 (
-bool
+PRBool
 mayWait
 nsIRunnable
 *
@@ -67,7 +67,7 @@ nsIRunnable
 event
 )
 ;
-bool
+PRBool
 HasPendingEvent
 (
 )
@@ -80,7 +80,7 @@ nsnull
 )
 ;
 }
-bool
+PRBool
 GetPendingEvent
 (
 nsIRunnable
@@ -97,7 +97,7 @@ runnable
 )
 ;
 }
-bool
+PRBool
 WaitPendingEvent
 (
 nsIRunnable
@@ -126,7 +126,7 @@ mReentrantMonitor
 }
 private
 :
-bool
+PRBool
 IsEmpty
 (
 )

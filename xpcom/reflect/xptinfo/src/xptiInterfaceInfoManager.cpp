@@ -2023,7 +2023,7 @@ xptiInterfaceInfoManager
 :
 HasAdditionalManagers
 (
-bool
+PRBool
 *
 _retval
 )

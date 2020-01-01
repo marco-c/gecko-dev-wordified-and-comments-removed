@@ -164,7 +164,7 @@ aStart
 )
 const
 ;
-bool
+PRBool
 contains
 (
 const
@@ -194,7 +194,7 @@ aIndex
 )
 const
 ;
-bool
+PRBool
 isEmpty
 (
 )
@@ -230,7 +230,7 @@ mStart
 TX_DECL_EXPRRESULT
 private
 :
-bool
+PRBool
 ensureGrowSize
 (
 PRInt32
@@ -251,7 +251,7 @@ aFirst
 txXPathNode
 *
 aLast
-bool
+PRBool
 &
 aDupe
 )
@@ -389,7 +389,7 @@ mEndBuffer
 PRInt32
 mDirection
 ;
-bool
+PRPackedBool
 *
 mMarks
 ;

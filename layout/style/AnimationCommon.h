@@ -117,7 +117,7 @@ aData
 )
 ;
 virtual
-bool
+PRBool
 HasDocumentStateDependentStyle
 (
 StateRuleProcessorData
@@ -135,7 +135,7 @@ aData
 )
 ;
 virtual
-bool
+PRBool
 MediumFeaturesChanged
 (
 nsPresContext
@@ -156,7 +156,7 @@ Disconnect
 )
 ;
 static
-bool
+PRBool
 ExtractComputedValueForTransition
 (
 nsCSSProperty

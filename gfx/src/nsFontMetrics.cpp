@@ -229,7 +229,7 @@ PRUint32
 aStart
 PRUint32
 aLength
-bool
+PRPackedBool
 *
 aBreakBefore
 )

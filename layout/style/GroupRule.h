@@ -146,7 +146,7 @@ Rule
 nsCOMArrayEnumFunc
 RuleEnumFunc
 ;
-bool
+PRBool
 EnumerateRulesForwards
 (
 RuleEnumFunc
@@ -189,7 +189,7 @@ aNew
 )
 ;
 virtual
-bool
+PRBool
 UseForPresentation
 (
 nsPresContext

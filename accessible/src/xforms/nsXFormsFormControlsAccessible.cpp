@@ -1638,10 +1638,10 @@ NativeState
 (
 )
 ;
-bool
+PRBool
 isOpen
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -1709,7 +1709,7 @@ states
 FOCUSABLE
 ;
 }
-bool
+PRBool
 nsXFormsSelectComboboxAccessible
 :
 :

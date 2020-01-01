@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsCoreAnimationSupport
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ReentrantMonitor
@@ -52,9 +59,6 @@ mozalloc
 .
 h
 "
-class
-nsIOSurface
-;
 namespace
 mozilla
 {
@@ -219,7 +223,7 @@ virtual
 void
 SetDelayedConversion
 (
-bool
+PRBool
 aDelayed
 )
 {
@@ -283,7 +287,7 @@ GetCurrentSize
 0
 ;
 virtual
-bool
+PRBool
 SetLayerManager
 (
 LayerManager
@@ -495,7 +499,7 @@ mPaintCount
 TimeStamp
 mPaintTime
 ;
-bool
+PRPackedBool
 mPreviousImagePainted
 ;
 }
@@ -823,7 +827,7 @@ virtual
 void
 SetDelayedConversion
 (
-bool
+PRBool
 aDelayed
 )
 {

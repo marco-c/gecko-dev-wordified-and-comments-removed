@@ -47,7 +47,7 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 NS_IRADIOVISITOR_IID
 )
 virtual
-bool
+PRBool
 Visit
 (
 nsIFormControl

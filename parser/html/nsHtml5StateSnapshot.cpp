@@ -232,11 +232,11 @@ PRInt32
 mode
 PRInt32
 originalMode
-bool
+PRBool
 framesetOk
-bool
+PRBool
 needToDropLF
-bool
+PRBool
 quirks
 )
 :
@@ -387,7 +387,7 @@ return
 originalMode
 ;
 }
-bool
+PRBool
 nsHtml5StateSnapshot
 :
 :
@@ -399,7 +399,7 @@ return
 framesetOk
 ;
 }
-bool
+PRBool
 nsHtml5StateSnapshot
 :
 :
@@ -411,7 +411,7 @@ return
 needToDropLF
 ;
 }
-bool
+PRBool
 nsHtml5StateSnapshot
 :
 :

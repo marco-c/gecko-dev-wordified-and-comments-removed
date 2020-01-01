@@ -175,10 +175,10 @@ nsDownloadHistory
 h
 "
 static
-bool
+PRBool
 gInitialized
 =
-false
+PR_FALSE
 ;
 static
 nsresult

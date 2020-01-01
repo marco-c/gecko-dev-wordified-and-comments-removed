@@ -47,7 +47,7 @@ nsMemory
 :
 HeapMinimize
 (
-bool
+PRBool
 aImmediate
 )
 {

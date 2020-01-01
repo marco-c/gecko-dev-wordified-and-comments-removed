@@ -1071,10 +1071,10 @@ if
 taskbarInfo
 )
 {
-bool
+PRBool
 isSupported
 =
-false
+PR_FALSE
 ;
 taskbarInfo
 -

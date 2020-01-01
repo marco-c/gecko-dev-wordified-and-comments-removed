@@ -190,10 +190,10 @@ nsZipWriter
 PRUint32
 mCDSOffset
 ;
-bool
+PRPackedBool
 mCDSDirty
 ;
-bool
+PRPackedBool
 mInQueue
 ;
 nsCOMPtr
@@ -279,7 +279,7 @@ BeginProcessingAddition
 nsZipQueueItem
 *
 aItem
-bool
+PRBool
 *
 complete
 )
@@ -305,7 +305,7 @@ aCompression
 nsIInputStream
 *
 aStream
-bool
+PRBool
 aQueue
 PRUint32
 aPermissions

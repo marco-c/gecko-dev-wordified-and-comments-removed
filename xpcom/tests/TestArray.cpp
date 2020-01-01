@@ -44,10 +44,10 @@ TestArray
 {
 static
 const
-bool
+PRBool
 kExitOnError
 =
-true
+PR_TRUE
 ;
 class
 IFoo

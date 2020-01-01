@@ -98,7 +98,7 @@ const
 PRUnichar
 *
 aReason
-bool
+PRBool
 aImmediate
 )
 ;

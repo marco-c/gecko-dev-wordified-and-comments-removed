@@ -107,7 +107,7 @@ nsSVGTSpanElementBase
 )
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 IsAttributeMapped
 (
@@ -142,7 +142,7 @@ GetClassInfo
 protected
 :
 virtual
-bool
+PRBool
 IsEventName
 (
 nsIAtom
@@ -217,7 +217,7 @@ nsSVGTSpanElement
 )
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSVGTSpanElement
 :
@@ -269,7 +269,7 @@ name
 )
 ;
 }
-bool
+PRBool
 nsSVGTSpanElement
 :
 :

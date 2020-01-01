@@ -369,7 +369,7 @@ B
 ;
 public
 :
-bool
+PRBool
 Equals
 (
 const
@@ -408,7 +408,7 @@ true
 false
 ;
 }
-bool
+PRBool
 LessThan
 (
 const
@@ -1012,7 +1012,7 @@ do_QueryInterface
 file
 )
 ;
-bool
+PRBool
 isMutable
 ;
 NS_ASSERTION
@@ -1118,7 +1118,7 @@ do_QueryInterface
 blob
 )
 ;
-bool
+PRBool
 isMutable
 ;
 NS_ASSERTION
@@ -1496,7 +1496,7 @@ do_QueryInterface
 file
 )
 ;
-bool
+PRBool
 isMutable
 ;
 NS_ASSERTION
@@ -1636,7 +1636,7 @@ do_QueryInterface
 blob
 )
 ;
-bool
+PRBool
 isMutable
 ;
 NS_ASSERTION
@@ -4840,7 +4840,7 @@ Run
 NS_IMETHOD
 IsOnCurrentThread
 (
-bool
+PRBool
 *
 aIsOnCurrentThread
 )
@@ -9002,7 +9002,7 @@ null
 "
 )
 ;
-bool
+PRBool
 isChrome
 ;
 if
@@ -9369,7 +9369,7 @@ file
 "
 )
 ;
-bool
+PRBool
 isFile
 ;
 if
@@ -14811,7 +14811,7 @@ if
 mThread
 )
 {
-bool
+PRBool
 current
 ;
 if

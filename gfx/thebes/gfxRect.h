@@ -427,7 +427,7 @@ height
 )
 {
 }
-bool
+PRBool
 WithinEpsilonOfIntegerPixels
 (
 gfxFloat

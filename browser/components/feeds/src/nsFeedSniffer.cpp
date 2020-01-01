@@ -433,7 +433,7 @@ int
 N
 >
 static
-bool
+PRBool
 StringBeginsWithLowercaseLiteral
 (
 nsAString
@@ -463,7 +463,7 @@ aSubstring
 )
 ;
 }
-bool
+PRBool
 HasAttachmentDisposition
 (
 nsIHttpChannel
@@ -564,7 +564,7 @@ nsnull
 ;
 }
 static
-bool
+PRBool
 IsDocumentElement
 (
 const
@@ -658,7 +658,7 @@ PR_TRUE
 ;
 }
 static
-bool
+PRBool
 ContainsTopLevelSubstring
 (
 nsACString
@@ -849,7 +849,7 @@ GetContentType
 contentType
 )
 ;
-bool
+PRBool
 noSniff
 =
 contentType
@@ -1077,10 +1077,10 @@ testData
 length
 )
 ;
-bool
+PRBool
 isFeed
 =
-false
+PR_FALSE
 ;
 isFeed
 =

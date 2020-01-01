@@ -146,14 +146,14 @@ aSheet
 nsresult
 SetQuirkMode
 (
-bool
+PRBool
 aQuirkMode
 )
 ;
 nsresult
 SetSVGMode
 (
-bool
+PRBool
 aSVGMode
 )
 ;
@@ -189,7 +189,7 @@ nsIPrincipal
 aSheetPrincipal
 PRUint32
 aLineNumber
-bool
+PRBool
 aAllowUnsafeRules
 )
 ;
@@ -246,7 +246,7 @@ css
 Declaration
 *
 aDeclaration
-bool
+PRBool
 *
 aChanged
 )
@@ -309,10 +309,10 @@ css
 Declaration
 *
 aDeclaration
-bool
+PRBool
 *
 aChanged
-bool
+PRBool
 aIsImportant
 )
 ;
@@ -331,7 +331,7 @@ aLineNumber
 nsMediaList
 *
 aMediaList
-bool
+PRBool
 aHTMLMode
 )
 ;

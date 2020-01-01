@@ -129,7 +129,7 @@ GetPrefWidth
 nsRenderingContext
 *
 aRenderingContext
-bool
+PRBool
 aComputingSize
 )
 {
@@ -194,7 +194,7 @@ nscoord
 aPrefCoord
 float
 aPrefPercent
-bool
+PRBool
 aHasSpecifiedWidth
 )
 :
@@ -216,7 +216,7 @@ aPrefPercent
 )
 {
 }
-bool
+PRBool
 hasSpecifiedWidth
 ;
 nscoord
@@ -240,7 +240,7 @@ aRenderingContext
 nsIFrame
 *
 aFrame
-bool
+PRBool
 aIsCell
 )
 {
@@ -292,10 +292,10 @@ prefPercent
 .
 0f
 ;
-bool
+PRBool
 hasSpecifiedWidth
 =
-false
+PR_FALSE
 ;
 const
 nsStylePosition
@@ -2486,7 +2486,7 @@ return
 ;
 }
 const
-bool
+PRBool
 spanHasNonPctPref
 =
 nonPctTotalPrefWidth
@@ -2729,7 +2729,7 @@ PRInt32
 aColCount
 BtlsWidthType
 aWidthType
-bool
+PRBool
 aSpanHasSpecifiedWidth
 )
 {

@@ -106,7 +106,7 @@ const
 nsACString
 &
 aKey
-bool
+PRBool
 *
 aResult
 )
@@ -522,11 +522,11 @@ const
 nsACString
 &
 aKey
-bool
+PRBool
 aValue
 )
 {
-bool
+PRBool
 res
 =
 gconf_client_set_bool
@@ -568,7 +568,7 @@ nsACString
 aValue
 )
 {
-bool
+PRBool
 res
 =
 gconf_client_set_string
@@ -615,7 +615,7 @@ PRInt32
 aValue
 )
 {
-bool
+PRBool
 res
 =
 gconf_client_set_int
@@ -655,7 +655,7 @@ float
 aValue
 )
 {
-bool
+PRBool
 res
 =
 gconf_client_set_float
@@ -691,7 +691,7 @@ const
 nsACString
 &
 aScheme
-bool
+PRBool
 *
 aEnabled
 nsACString
@@ -847,7 +847,7 @@ const
 nsACString
 &
 aScheme
-bool
+PRBool
 *
 aResult
 )
@@ -973,7 +973,7 @@ command
 "
 )
 ;
-bool
+PRBool
 res
 =
 gconf_client_set_string

@@ -65,12 +65,6 @@ public
 :
 nsICODecoder
 (
-RasterImage
-*
-aImage
-imgIDecoderObserver
-*
-aObserver
 )
 ;
 virtual
@@ -154,7 +148,7 @@ SetHotSpotIfCursor
 (
 )
 ;
-bool
+PRBool
 FillBitmapFileHeaderBuffer
 (
 PRInt8
@@ -251,10 +245,10 @@ mBIHraw
 40
 ]
 ;
-bool
+PRPackedBool
 mIsCursor
 ;
-bool
+PRPackedBool
 mIsPNG
 ;
 }

@@ -125,7 +125,7 @@ cups
 .
 enabled
 "
-true
+PR_TRUE
 )
 &
 &
@@ -145,7 +145,7 @@ Init
 ;
 }
 }
-bool
+PRBool
 nsPSPrinterList
 :
 :
@@ -193,7 +193,7 @@ false
 )
 )
 return
-false
+PR_FALSE
 ;
 return
 Preferences
@@ -208,7 +208,7 @@ postscript
 .
 enabled
 "
-true
+PR_TRUE
 )
 ;
 }

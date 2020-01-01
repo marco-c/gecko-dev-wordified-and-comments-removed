@@ -1887,7 +1887,7 @@ Run
 *
 mRunsMemory
 ;
-bool
+PRBool
 mMayAllocateText
 mMayAllocateRuns
 ;
@@ -1932,7 +1932,7 @@ Init
 (
 )
 ;
-bool
+PRBool
 GetMemory
 (
 void
@@ -1942,7 +1942,7 @@ aMemory
 PRSize
 *
 aSize
-bool
+PRBool
 aMayAllocate
 PRSize
 aSizeNeeded
@@ -2005,7 +2005,7 @@ SetTrailingWSStart
 (
 )
 ;
-bool
+PRBool
 GetRuns
 (
 )
@@ -2027,7 +2027,7 @@ aMaxLevel
 )
 ;
 static
-bool
+PRBool
 PrepareReorder
 (
 const

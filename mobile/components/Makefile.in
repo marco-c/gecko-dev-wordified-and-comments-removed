@@ -545,10 +545,6 @@ BlocklistPrompt
 .
 js
 \
-CapturePicker
-.
-js
-\
 (
 NULL
 )

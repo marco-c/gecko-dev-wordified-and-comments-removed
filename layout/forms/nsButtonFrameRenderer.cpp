@@ -174,9 +174,9 @@ nsButtonFrameRenderer
 :
 SetDisabled
 (
-bool
+PRBool
 aDisabled
-bool
+PRBool
 notify
 )
 {
@@ -225,7 +225,7 @@ notify
 )
 ;
 }
-bool
+PRBool
 nsButtonFrameRenderer
 :
 :

@@ -72,7 +72,7 @@ nsIDOMEventListener
 public
 :
 static
-bool
+PRBool
 InitXMLEventsListener
 (
 nsIDocument
@@ -104,11 +104,11 @@ const
 nsAString
 &
 aEvent
-bool
+PRBool
 aPhase
-bool
+PRBool
 aStopPropagation
-bool
+PRBool
 aCancelDefault
 const
 nsAString
@@ -131,7 +131,7 @@ SetIncomplete
 (
 )
 ;
-bool
+PRBool
 ObserverEquals
 (
 nsIContent
@@ -139,7 +139,7 @@ nsIContent
 aTarget
 )
 ;
-bool
+PRBool
 HandlerEquals
 (
 nsIContent
@@ -182,13 +182,13 @@ nsIAtom
 >
 mTarget
 ;
-bool
+PRPackedBool
 mPhase
 ;
-bool
+PRPackedBool
 mStopPropagation
 ;
-bool
+PRPackedBool
 mCancelDefault
 ;
 }
@@ -244,7 +244,7 @@ nsXMLEventsListener
 aListener
 )
 ;
-bool
+PRBool
 RemoveListener
 (
 nsIContent

@@ -498,7 +498,7 @@ nsCacheEntryDescriptor
 :
 IsStreamBased
 (
-bool
+PRBool
 *
 result
 )
@@ -1199,10 +1199,10 @@ mCacheEntry
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-bool
+PRBool
 storageEnabled
 =
-false
+PR_FALSE
 ;
 storageEnabled
 =
@@ -1990,7 +1990,7 @@ nsInputStreamWrapper
 :
 IsNonBlocking
 (
-bool
+PRBool
 *
 result
 )
@@ -2458,7 +2458,7 @@ nsOutputStreamWrapper
 :
 IsNonBlocking
 (
-bool
+PRBool
 *
 result
 )

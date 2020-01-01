@@ -596,7 +596,7 @@ nsSVGTSpanFrame
 :
 SetWhitespaceCompression
 (
-bool
+PRBool
 )
 {
 nsSVGTSpanFrameBase

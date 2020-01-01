@@ -6,7 +6,7 @@ nsSMILSetAnimationFunction
 h
 "
 inline
-bool
+PRBool
 nsSMILSetAnimationFunction
 :
 :
@@ -101,7 +101,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsSMILSetAnimationFunction
 :
 :
@@ -165,7 +165,7 @@ aParseResult
 )
 ;
 }
-bool
+PRBool
 nsSMILSetAnimationFunction
 :
 :
@@ -198,7 +198,7 @@ aAttribute
 )
 ;
 }
-bool
+PRBool
 nsSMILSetAnimationFunction
 :
 :
@@ -264,7 +264,7 @@ aAttName
 )
 ;
 }
-bool
+PRBool
 nsSMILSetAnimationFunction
 :
 :
@@ -300,7 +300,7 @@ aResult
 )
 ;
 }
-bool
+PRBool
 nsSMILSetAnimationFunction
 :
 :

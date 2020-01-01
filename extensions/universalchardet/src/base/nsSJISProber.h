@@ -42,7 +42,7 @@ public
 :
 nsSJISProber
 (
-bool
+PRBool
 aIsPreferredLanguage
 )
 :
@@ -149,7 +149,7 @@ mLastChar
 2
 ]
 ;
-bool
+PRBool
 mIsPreferredLanguage
 ;
 }

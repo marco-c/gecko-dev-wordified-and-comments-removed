@@ -72,7 +72,7 @@ aValue
 )
 const
 ;
-bool
+PRBool
 IsEmpty
 (
 )
@@ -119,7 +119,7 @@ aIndex
 ]
 ;
 }
-bool
+PRBool
 operator
 =
 =
@@ -178,7 +178,7 @@ SVGPoint
 0
 ;
 }
-bool
+PRBool
 SetCapacity
 (
 PRUint32
@@ -234,7 +234,7 @@ aIndex
 ]
 ;
 }
-bool
+PRBool
 SetLength
 (
 PRUint32
@@ -273,7 +273,7 @@ Clear
 )
 ;
 }
-bool
+PRBool
 InsertItem
 (
 PRUint32
@@ -391,7 +391,7 @@ aIndex
 )
 ;
 }
-bool
+PRBool
 AppendItem
 (
 SVGPoint
@@ -598,7 +598,7 @@ aIndex
 )
 ;
 }
-bool
+PRBool
 SetLength
 (
 PRUint32

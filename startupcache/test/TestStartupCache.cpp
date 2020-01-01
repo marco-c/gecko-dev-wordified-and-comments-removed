@@ -243,7 +243,7 @@ PR_TicksPerSecond
 )
 )
 ;
-bool
+PRBool
 complete
 ;
 while
@@ -1197,7 +1197,7 @@ return
 rv
 ;
 }
-bool
+PRBool
 match
 =
 false

@@ -632,7 +632,7 @@ mDirBuf
 PRUint32
 mDirBufCursor
 ;
-bool
+PRPackedBool
 mDirOpen
 ;
 MountOperationResult
@@ -2463,7 +2463,7 @@ nsGIOInputStream
 :
 IsNonBlocking
 (
-bool
+PRBool
 *
 aResult
 )
@@ -3120,10 +3120,10 @@ return
 nsresult
 rv
 ;
-bool
+PRBool
 retval
 =
-false
+PR_FALSE
 ;
 PRUnichar
 *
@@ -3318,7 +3318,7 @@ nsIPrefBranch
 prefs
 )
 ;
-bool
+PRBool
 IsSupportedProtocol
 (
 const
@@ -3481,7 +3481,7 @@ get
 )
 ;
 }
-bool
+PRBool
 nsGIOProtocolHandler
 :
 :
@@ -3755,10 +3755,10 @@ colon_location
 return
 NS_ERROR_UNKNOWN_PROTOCOL
 ;
-bool
+PRBool
 uri_scheme_supported
 =
-false
+PR_FALSE
 ;
 GVfs
 *
@@ -4028,7 +4028,7 @@ const
 char
 *
 aScheme
-bool
+PRBool
 *
 aResult
 )

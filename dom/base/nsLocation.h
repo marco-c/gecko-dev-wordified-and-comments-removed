@@ -86,10 +86,10 @@ nsIURI
 *
 *
 aURL
-bool
+PRBool
 aGetInnermostURI
 =
-false
+PR_FALSE
 )
 ;
 nsresult
@@ -107,10 +107,10 @@ SetURI
 nsIURI
 *
 aURL
-bool
+PRBool
 aReplace
 =
-false
+PR_FALSE
 )
 ;
 nsresult
@@ -123,7 +123,7 @@ aHref
 nsIURI
 *
 aBase
-bool
+PRBool
 aReplace
 )
 ;
@@ -137,7 +137,7 @@ const
 nsAString
 &
 aHref
-bool
+PRBool
 aReplace
 )
 ;

@@ -282,7 +282,7 @@ EndWriting
 ;
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 SetLength
 (
@@ -316,7 +316,7 @@ data
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 IsEmpty
 (
@@ -338,7 +338,7 @@ void
 )
 SetIsVoid
 (
-bool
+PRBool
 val
 )
 {
@@ -352,7 +352,7 @@ val
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 IsVoid
 (
@@ -988,14 +988,14 @@ const
 char
 *
 aSet
-bool
+PRBool
 aLeading
 =
-true
-bool
+PR_TRUE
+PRBool
 aTrailing
 =
-true
+PR_TRUE
 )
 ;
 typedef
@@ -1072,7 +1072,7 @@ const
 ;
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 Equals
 (
@@ -1089,7 +1089,7 @@ const
 ;
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 Equals
 (
@@ -1106,7 +1106,7 @@ const
 ;
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 <
@@ -1129,7 +1129,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 <
@@ -1152,7 +1152,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 <
@@ -1177,7 +1177,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 <
@@ -1202,7 +1202,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 =
@@ -1224,7 +1224,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 =
@@ -1246,7 +1246,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 >
@@ -1271,7 +1271,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 >
@@ -1296,7 +1296,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 >
@@ -1319,7 +1319,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 >
@@ -1342,7 +1342,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 !
@@ -1365,7 +1365,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 !
@@ -1388,7 +1388,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 EqualsLiteral
 (
@@ -1401,7 +1401,7 @@ const
 ;
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 EqualsASCII
 (
@@ -1421,7 +1421,7 @@ aASCIIString
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 LowerCaseEqualsLiteral
 (
@@ -1487,10 +1487,10 @@ const
 char
 *
 aStr
-bool
+PRBool
 aIgnoreCase
 =
-false
+PR_FALSE
 )
 const
 {
@@ -1515,10 +1515,10 @@ char
 aStr
 PRUint32
 aOffset
-bool
+PRBool
 aIgnoreCase
 =
-false
+PR_FALSE
 )
 const
 ;
@@ -1578,10 +1578,10 @@ const
 char
 *
 aStr
-bool
+PRBool
 aIgnoreCase
 =
-false
+PR_FALSE
 )
 const
 {
@@ -1607,7 +1607,7 @@ char
 aStr
 PRInt32
 aOffset
-bool
+PRBool
 aIgnoreCase
 )
 const
@@ -1897,7 +1897,7 @@ EndWriting
 ;
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 SetLength
 (
@@ -1931,7 +1931,7 @@ data
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 IsEmpty
 (
@@ -1953,7 +1953,7 @@ void
 )
 SetIsVoid
 (
-bool
+PRBool
 val
 )
 {
@@ -1967,7 +1967,7 @@ val
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 IsVoid
 (
@@ -2615,14 +2615,14 @@ const
 char
 *
 aSet
-bool
+PRBool
 aLeading
 =
-true
-bool
+PR_TRUE
+PRBool
 aTrailing
 =
-true
+PR_TRUE
 )
 ;
 typedef
@@ -2699,7 +2699,7 @@ const
 ;
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 Equals
 (
@@ -2716,7 +2716,7 @@ const
 ;
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 Equals
 (
@@ -2733,7 +2733,7 @@ const
 ;
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 <
@@ -2756,7 +2756,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 <
@@ -2779,7 +2779,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 <
@@ -2804,7 +2804,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 <
@@ -2829,7 +2829,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 =
@@ -2851,7 +2851,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 =
@@ -2873,7 +2873,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 >
@@ -2898,7 +2898,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 >
@@ -2923,7 +2923,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 >
@@ -2946,7 +2946,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 >
@@ -2969,7 +2969,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 !
@@ -2992,7 +2992,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 operator
 !
@@ -3015,7 +3015,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 EqualsLiteral
 (
@@ -3035,7 +3035,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 EqualsASCII
 (
@@ -3055,7 +3055,7 @@ other
 }
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 LowerCaseEqualsLiteral
 (
@@ -5535,7 +5535,7 @@ count
 ;
 }
 inline
-bool
+PRBool
 StringBeginsWith
 (
 const
@@ -5591,7 +5591,7 @@ aComparator
 ;
 }
 inline
-bool
+PRBool
 StringEndsWith
 (
 const
@@ -5647,7 +5647,7 @@ aComparator
 ;
 }
 inline
-bool
+PRBool
 StringBeginsWith
 (
 const
@@ -5703,7 +5703,7 @@ aComparator
 ;
 }
 inline
-bool
+PRBool
 StringEndsWith
 (
 const
@@ -5891,7 +5891,7 @@ nsAutoString
 ;
 NS_HIDDEN_
 (
-bool
+PRBool
 )
 ParseString
 (

@@ -933,10 +933,10 @@ return
 nsresult
 rv
 ;
-bool
+PRBool
 retval
 =
-false
+PR_FALSE
 ;
 PRUnichar
 *
@@ -1362,7 +1362,7 @@ mDirBuf
 PRUint32
 mDirBufCursor
 ;
-bool
+PRPackedBool
 mDirOpen
 ;
 }
@@ -2720,7 +2720,7 @@ nsGnomeVFSInputStream
 :
 IsNonBlocking
 (
-bool
+PRBool
 *
 aResult
 )
@@ -2762,7 +2762,7 @@ nsIPrefBranch
 prefs
 )
 ;
-bool
+PRBool
 IsSupportedProtocol
 (
 const
@@ -2954,7 +2954,7 @@ get
 )
 ;
 }
-bool
+PRBool
 nsGnomeVFSProtocolHandler
 :
 :
@@ -3408,7 +3408,7 @@ const
 char
 *
 aScheme
-bool
+PRBool
 *
 aResult
 )

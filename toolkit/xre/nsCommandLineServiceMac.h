@@ -25,11 +25,11 @@ char
 *
 &
 argv
-bool
+PRBool
 forRestart
 )
 ;
-bool
+PRBool
 AddURLToCurrentCommandLine
 (
 const

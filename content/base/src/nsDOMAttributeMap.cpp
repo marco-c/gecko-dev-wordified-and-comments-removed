@@ -98,7 +98,7 @@ aContent
 )
 {
 }
-bool
+PRBool
 nsDOMAttributeMap
 :
 :
@@ -647,7 +647,7 @@ GetAttribute
 nsINodeInfo
 *
 aNodeInfo
-bool
+PRBool
 aNsAware
 )
 {
@@ -915,7 +915,7 @@ nsIDOMNode
 *
 *
 aReturn
-bool
+PRBool
 aWithNS
 )
 {
@@ -1752,7 +1752,7 @@ nsIDOMNode
 *
 *
 aReturn
-bool
+PRBool
 aRemove
 )
 {

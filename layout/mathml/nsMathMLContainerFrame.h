@@ -164,12 +164,12 @@ SetIncrementScriptLevel
 (
 PRInt32
 aChildIndex
-bool
+PRBool
 aIncrement
 )
 ;
 virtual
-bool
+PRBool
 IsFrameOfType
 (
 PRUint32
@@ -397,7 +397,7 @@ Place
 nsRenderingContext
 &
 aRenderingContext
-bool
+PRBool
 aPlaceOrigin
 nsHTMLReflowMetrics
 &
@@ -902,7 +902,7 @@ rv
 ;
 }
 virtual
-bool
+PRBool
 IsFrameOfType
 (
 PRUint32
@@ -1225,7 +1225,7 @@ rv
 ;
 }
 virtual
-bool
+PRBool
 IsFrameOfType
 (
 PRUint32

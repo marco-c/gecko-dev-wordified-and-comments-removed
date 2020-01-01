@@ -778,10 +778,10 @@ rv
 =
 NS_OK
 ;
-bool
+PRBool
 postedExitEvent
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -843,7 +843,7 @@ appShell
 return
 NS_OK
 ;
-bool
+PRBool
 usefulHiddenWindow
 ;
 appShell
@@ -951,7 +951,7 @@ if
 windowEnumerator
 )
 {
-bool
+PRBool
 more
 ;
 while
@@ -1165,7 +1165,7 @@ if
 windowEnumerator
 )
 {
-bool
+PRBool
 more
 ;
 while
@@ -1218,10 +1218,10 @@ if
 domWindow
 )
 {
-bool
+PRBool
 closed
 =
-false
+PR_FALSE
 ;
 domWindow
 -
@@ -1425,7 +1425,7 @@ windowEnumerator
 )
 return
 ;
-bool
+PRBool
 more
 ;
 while
@@ -1568,7 +1568,7 @@ nsAppStartup
 :
 GetShuttingDown
 (
-bool
+PRBool
 *
 aResult
 )
@@ -1588,7 +1588,7 @@ nsAppStartup
 :
 SetInterrupted
 (
-bool
+PRBool
 aInterrupted
 )
 {
@@ -1606,7 +1606,7 @@ nsAppStartup
 :
 GetInterrupted
 (
-bool
+PRBool
 *
 aInterrupted
 )
@@ -1637,7 +1637,7 @@ nsIWebBrowserChrome
 _retval
 )
 {
-bool
+PRBool
 cancel
 ;
 return
@@ -1669,7 +1669,7 @@ aContextFlags
 nsIURI
 *
 aURI
-bool
+PRBool
 *
 aCancel
 nsIWebBrowserChrome

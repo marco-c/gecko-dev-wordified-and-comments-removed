@@ -130,7 +130,7 @@ nsFontFaceLoader
 aLoader
 )
 ;
-bool
+PRBool
 UpdateRules
 (
 const
@@ -203,7 +203,7 @@ FontFaceRuleRecord
 >
 &
 oldRules
-bool
+PRBool
 &
 aFontSetModified
 )

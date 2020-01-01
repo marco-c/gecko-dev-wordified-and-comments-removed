@@ -2593,8 +2593,9 @@ attributes
 ]
 =
 {
+kCGLPFANoRecovery
 kCGLPFAAccelerated
-kCGLPFAAllowOfflineRenderers
+kCGLPFAPBuffer
 kCGLPFADepthSize
 (
 CGLPixelFormatAttribute

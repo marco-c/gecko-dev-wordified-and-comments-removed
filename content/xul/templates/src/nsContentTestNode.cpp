@@ -223,7 +223,7 @@ FilterInstantiations
 InstantiationSet
 &
 aInstantiations
-bool
+PRBool
 *
 aCantHandleYet
 )
@@ -325,7 +325,7 @@ nsIRDFNode
 >
 refValue
 ;
-bool
+PRBool
 hasRefBinding
 =
 inst
@@ -363,7 +363,7 @@ if
 refResource
 )
 {
-bool
+PRBool
 generated
 ;
 rv

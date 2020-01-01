@@ -170,11 +170,11 @@ HINSTANCE
 mDllInstance
 ;
 static
-bool
+PRBool
 mIsWinXP
 ;
 static
-bool
+PRBool
 InitVersionInfo
 (
 )
@@ -253,7 +253,7 @@ Disable
 {
 mEnabled
 =
-false
+PR_FALSE
 ;
 DestroyTimer
 (
@@ -267,7 +267,7 @@ Enable
 {
 mEnabled
 =
-true
+PR_TRUE
 ;
 CreateTimer
 (
@@ -313,10 +313,10 @@ mMouseTrailerWindow
 HWND
 mCaptureWindow
 ;
-bool
+PRBool
 mIsInCaptureMode
 ;
-bool
+PRBool
 mEnabled
 ;
 nsCOMPtr

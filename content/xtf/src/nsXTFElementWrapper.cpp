@@ -319,10 +319,10 @@ Release
 (
 )
 ;
-bool
+PRBool
 innerHandlesAttribs
 =
-false
+PR_FALSE
 ;
 GetXTFElement
 (
@@ -602,7 +602,7 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
+PRBool
 aCompileEventHandlers
 )
 {
@@ -822,13 +822,13 @@ nsXTFElementWrapper
 :
 UnbindFromTree
 (
-bool
+PRBool
 aDeep
-bool
+PRBool
 aNullParent
 )
 {
-bool
+PRBool
 inDoc
 =
 IsInDoc
@@ -861,7 +861,7 @@ nsnull
 )
 ;
 }
-bool
+PRBool
 parentChanged
 =
 aNullParent
@@ -984,7 +984,7 @@ nsIContent
 aKid
 PRUint32
 aIndex
-bool
+PRBool
 aNotify
 )
 {
@@ -1084,7 +1084,7 @@ RemoveChildAt
 (
 PRUint32
 aIndex
-bool
+PRBool
 aNotify
 )
 {
@@ -1179,7 +1179,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aNotify
 )
 {
@@ -1355,7 +1355,7 @@ return
 rv
 ;
 }
-bool
+PRBool
 nsXTFElementWrapper
 :
 :
@@ -1428,7 +1428,7 @@ aResult
 ;
 }
 }
-bool
+PRBool
 nsXTFElementWrapper
 :
 :
@@ -1456,10 +1456,10 @@ aName
 )
 )
 {
-bool
+PRBool
 rval
 =
-false
+PR_FALSE
 ;
 mAttributeHandler
 -
@@ -1489,7 +1489,7 @@ aName
 ;
 }
 }
-bool
+PRBool
 nsXTFElementWrapper
 :
 :
@@ -1602,7 +1602,7 @@ aCaseSensitive
 )
 ;
 }
-bool
+PRBool
 nsXTFElementWrapper
 :
 :
@@ -1939,7 +1939,7 @@ aNameSpaceID
 nsIAtom
 *
 aAttr
-bool
+PRBool
 aNotify
 )
 {
@@ -2319,7 +2319,7 @@ nsXTFElementWrapper
 :
 DoneAddingChildren
 (
-bool
+PRBool
 aHaveNotified
 )
 {
@@ -2497,9 +2497,9 @@ nsXTFElementWrapper
 :
 PerformAccesskey
 (
-bool
+PRBool
 aKeyCausesActivation
-bool
+PRBool
 aIsTrustedEvent
 )
 {
@@ -2963,7 +2963,7 @@ const
 nsAString
 &
 aName
-bool
+PRBool
 *
 aReturn
 )
@@ -3739,7 +3739,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsXTFElementWrapper
 :
 :
@@ -3789,7 +3789,7 @@ nsnull
 )
 ;
 }
-bool
+PRBool
 nsXTFElementWrapper
 :
 :
@@ -3801,10 +3801,10 @@ attr
 )
 const
 {
-bool
+PRBool
 retval
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -3914,10 +3914,10 @@ mDOMEvent
 return
 NS_ERROR_FAILURE
 ;
-bool
+PRBool
 defaultHandled
 =
-false
+PR_FALSE
 ;
 nsIXTFElement
 *
@@ -4201,7 +4201,7 @@ nsXTFElementWrapper
 :
 RegUnregAccessKey
 (
-bool
+PRBool
 aDoReg
 )
 {

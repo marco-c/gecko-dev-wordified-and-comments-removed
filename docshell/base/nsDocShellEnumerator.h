@@ -155,7 +155,7 @@ mCurIndex
 PRInt32
 mDocShellType
 ;
-bool
+PRPackedBool
 mArrayValid
 ;
 const

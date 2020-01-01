@@ -183,7 +183,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-bool
+PRBool
 aShrinkWrap
 )
 ;
@@ -215,7 +215,7 @@ aDestructRoot
 )
 ;
 virtual
-bool
+PRBool
 IsLeaf
 (
 )
@@ -262,7 +262,7 @@ GetType
 const
 ;
 virtual
-bool
+PRBool
 IsFrameOfType
 (
 PRUint32
@@ -321,7 +321,7 @@ return
 mPosterImage
 ;
 }
-bool
+PRBool
 ShouldDisplayPoster
 (
 )
@@ -359,12 +359,12 @@ aItem
 ;
 protected
 :
-bool
+PRBool
 HasVideoElement
 (
 )
 ;
-bool
+PRBool
 HasVideoData
 (
 )
@@ -372,7 +372,7 @@ HasVideoData
 nsresult
 UpdatePosterSource
 (
-bool
+PRBool
 aNotify
 )
 ;

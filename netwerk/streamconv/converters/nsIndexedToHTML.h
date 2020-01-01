@@ -229,7 +229,7 @@ mUnicodeEncoder
 ;
 private
 :
-bool
+PRBool
 mExpectAbsLoc
 ;
 nsString

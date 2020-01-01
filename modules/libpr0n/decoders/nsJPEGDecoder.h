@@ -121,12 +121,6 @@ public
 :
 nsJPEGDecoder
 (
-RasterImage
-*
-aImage
-imgIDecoderObserver
-*
-aObserver
 )
 ;
 virtual
@@ -178,7 +172,7 @@ protected
 void
 OutputScanlines
 (
-bool
+PRBool
 *
 suspend
 )
@@ -242,7 +236,7 @@ qcms_transform
 *
 mTransform
 ;
-bool
+PRPackedBool
 mReading
 ;
 PRUint32

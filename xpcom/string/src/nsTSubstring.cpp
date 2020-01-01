@@ -89,7 +89,7 @@ s
 )
 ;
 }
-bool
+PRBool
 nsTSubstring_CharT
 :
 :
@@ -487,7 +487,7 @@ mFlags
 )
 ;
 }
-bool
+PRBool
 nsTSubstring_CharT
 :
 :
@@ -786,7 +786,7 @@ return
 capacity
 ;
 }
-bool
+PRBool
 nsTSubstring_CharT
 :
 :
@@ -1757,7 +1757,7 @@ length
 )
 ;
 }
-bool
+PRBool
 nsTSubstring_CharT
 :
 :
@@ -1916,7 +1916,7 @@ nsTSubstring_CharT
 :
 SetIsVoid
 (
-bool
+PRBool
 val
 )
 {
@@ -1945,7 +1945,7 @@ F_VOIDED
 ;
 }
 }
-bool
+PRBool
 nsTSubstring_CharT
 :
 :
@@ -1983,7 +1983,7 @@ mLength
 0
 ;
 }
-bool
+PRBool
 nsTSubstring_CharT
 :
 :
@@ -2025,7 +2025,7 @@ mLength
 0
 ;
 }
-bool
+PRBool
 nsTSubstring_CharT
 :
 :
@@ -2092,7 +2092,7 @@ mLength
 0
 ;
 }
-bool
+PRBool
 nsTSubstring_CharT
 :
 :
@@ -2161,7 +2161,7 @@ length
 0
 ;
 }
-bool
+PRBool
 nsTSubstring_CharT
 :
 :
@@ -2197,7 +2197,7 @@ len
 0
 ;
 }
-bool
+PRBool
 nsTSubstring_CharT
 :
 :
@@ -2225,7 +2225,7 @@ data
 0
 ;
 }
-bool
+PRBool
 nsTSubstring_CharT
 :
 :
@@ -2261,7 +2261,7 @@ len
 0
 ;
 }
-bool
+PRBool
 nsTSubstring_CharT
 :
 :

@@ -1231,7 +1231,7 @@ val
 nsIXPConnect
 *
 xpc
-bool
+PRBool
 *
 wasNull
 )
@@ -1343,7 +1343,7 @@ nsIURI
 aBaseURI
 )
 {
-bool
+PRBool
 haveUniversalXPConnect
 ;
 nsresult
@@ -1393,7 +1393,7 @@ XPConnect
 (
 )
 ;
-bool
+PRBool
 wasNull
 ;
 nsCOMPtr

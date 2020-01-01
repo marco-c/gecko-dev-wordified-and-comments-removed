@@ -248,7 +248,7 @@ mSsidLen
 ;
 }
 ;
-bool
+PRBool
 AccessPointsEqual
 (
 nsCOMArray

@@ -131,7 +131,7 @@ aFlags
 void
 SetPaintingDisabled
 (
-bool
+PRBool
 aDisable
 )
 {
@@ -140,7 +140,7 @@ mPaintingDisabled
 aDisable
 ;
 }
-bool
+PRBool
 PaintingDisabled
 (
 )
@@ -246,7 +246,7 @@ mLayoutFlags
 PRUint16
 mReflowDepth
 ;
-bool
+PRPackedBool
 mPaintingDisabled
 ;
 }

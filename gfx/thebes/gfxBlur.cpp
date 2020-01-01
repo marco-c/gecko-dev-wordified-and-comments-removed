@@ -386,7 +386,7 @@ aRightLobe
 +
 1
 ;
-bool
+PRBool
 skipRectCoversWholeRow
 =
 0
@@ -457,7 +457,7 @@ y
 +
 )
 {
-bool
+PRBool
 inSkipRectY
 =
 y
@@ -797,7 +797,7 @@ aBottomLobe
 +
 1
 ;
-bool
+PRBool
 skipRectCoversWholeColumn
 =
 0
@@ -868,7 +868,7 @@ x
 +
 )
 {
-bool
+PRBool
 inSkipRectX
 =
 x
@@ -1389,7 +1389,7 @@ aRows
 return
 ;
 }
-bool
+PRBool
 skipRectCoversWholeRow
 =
 0
@@ -1425,7 +1425,7 @@ y
 +
 )
 {
-bool
+PRBool
 inSkipRectY
 =
 y
@@ -1646,7 +1646,7 @@ aRows
 return
 ;
 }
-bool
+PRBool
 skipRectCoversWholeColumn
 =
 0
@@ -1682,7 +1682,7 @@ x
 +
 )
 {
-bool
+PRBool
 inSkipRectX
 =
 x

@@ -617,7 +617,7 @@ const
 nsAString
 &
 name
-bool
+PRBool
 *
 result
 )
@@ -821,7 +821,7 @@ const
 nsAString
 &
 name
-bool
+PRBool
 *
 result
 )
@@ -1898,7 +1898,7 @@ nsWindowsRegKey
 :
 StartWatching
 (
-bool
+PRBool
 recurse
 )
 {
@@ -2022,7 +2022,7 @@ nsWindowsRegKey
 :
 HasChanged
 (
-bool
+PRBool
 *
 result
 )
@@ -2075,7 +2075,7 @@ nsWindowsRegKey
 :
 IsWatching
 (
-bool
+PRBool
 *
 result
 )

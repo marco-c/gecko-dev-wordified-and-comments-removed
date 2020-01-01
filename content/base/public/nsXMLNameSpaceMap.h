@@ -72,7 +72,7 @@ nsXMLNameSpaceMap
 )
 Create
 (
-bool
+PRBool
 aForXML
 )
 ;

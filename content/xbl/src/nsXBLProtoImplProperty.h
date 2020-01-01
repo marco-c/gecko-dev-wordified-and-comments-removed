@@ -194,7 +194,7 @@ mJSAttributes
 #
 ifdef
 DEBUG
-bool
+PRBool
 mIsCompiled
 ;
 #

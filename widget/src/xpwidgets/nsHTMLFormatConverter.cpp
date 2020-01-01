@@ -369,7 +369,7 @@ const
 char
 *
 aToDataFlavor
-bool
+PRBool
 *
 _retval
 )

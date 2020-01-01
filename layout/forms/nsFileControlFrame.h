@@ -141,9 +141,9 @@ virtual
 void
 SetFocus
 (
-bool
+PRBool
 aOn
-bool
+PRBool
 aRepaint
 )
 ;
@@ -218,7 +218,7 @@ aStates
 )
 ;
 virtual
-bool
+PRBool
 IsLeaf
 (
 )
@@ -262,7 +262,7 @@ CreateAccessible
 #
 endif
 typedef
-bool
+PRBool
 (
 *
 AcceptAttrCallback
@@ -474,7 +474,7 @@ aFrame
 ;
 NS_DECL_NSIDOMEVENTLISTENER
 static
-bool
+PRBool
 IsValidDropData
 (
 nsIDOMDragEvent
@@ -485,7 +485,7 @@ aEvent
 }
 ;
 virtual
-bool
+PRBool
 IsFrameOfType
 (
 PRUint32

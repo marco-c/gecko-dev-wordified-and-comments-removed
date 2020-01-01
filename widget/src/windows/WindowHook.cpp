@@ -495,7 +495,7 @@ idx
 )
 ;
 }
-bool
+PRBool
 WindowHook
 :
 :
@@ -529,7 +529,7 @@ if
 data
 )
 return
-false
+PR_FALSE
 ;
 PRUint32
 length
@@ -593,7 +593,7 @@ aResult
 )
 ;
 }
-bool
+PRBool
 WindowHook
 :
 :
@@ -621,7 +621,7 @@ if
 cb
 )
 return
-false
+PR_FALSE
 ;
 return
 cb

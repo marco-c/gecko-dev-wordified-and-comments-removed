@@ -655,7 +655,7 @@ the
 vtable
 !
 inline
-bool
+PRBool
 Equals
 (
 const

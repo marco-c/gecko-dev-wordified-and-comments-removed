@@ -531,10 +531,6 @@ test_list
 .
 html
 \
-test_map
-.
-html
-\
 test_media
 .
 html

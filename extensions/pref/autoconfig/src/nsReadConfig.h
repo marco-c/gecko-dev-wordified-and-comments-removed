@@ -70,13 +70,13 @@ char
 aFileName
 PRInt32
 obscureValue
-bool
+PRBool
 isEncoded
-bool
+PRBool
 isBinDir
 )
 ;
-bool
+PRBool
 mRead
 ;
 private

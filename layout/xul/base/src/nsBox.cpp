@@ -726,13 +726,13 @@ aState
 )
 ;
 }
-bool
+PRBool
 nsBox
 :
 :
 gGotTheme
 =
-false
+PR_FALSE
 ;
 nsITheme
 *
@@ -921,7 +921,7 @@ const
 nsRect
 &
 aRect
-bool
+PRBool
 aRemoveOverflowAreas
 )
 {
@@ -1391,7 +1391,7 @@ margin
 0
 )
 ;
-bool
+PRBool
 useThemePadding
 ;
 useThemePadding
@@ -1585,7 +1585,7 @@ aFlex
 1
 ;
 }
-bool
+PRBool
 nsBox
 :
 :
@@ -1618,7 +1618,7 @@ height
 )
 ;
 }
-bool
+PRBool
 nsBox
 :
 :
@@ -1692,7 +1692,7 @@ AddBorderAndPadding
 pref
 )
 ;
-bool
+PRBool
 widthSet
 heightSet
 ;
@@ -1786,7 +1786,7 @@ AddBorderAndPadding
 min
 )
 ;
-bool
+PRBool
 widthSet
 heightSet
 ;
@@ -1879,7 +1879,7 @@ AddBorderAndPadding
 maxSize
 )
 ;
-bool
+PRBool
 widthSet
 heightSet
 ;
@@ -2045,7 +2045,7 @@ aState
 height
 ;
 }
-bool
+PRBool
 nsBox
 :
 :
@@ -2140,7 +2140,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsBox
 :
 :
@@ -2489,7 +2489,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsIBox
 :
 :
@@ -2501,10 +2501,10 @@ aBox
 nsSize
 &
 aSize
-bool
+PRBool
 &
 aWidthSet
-bool
+PRBool
 &
 aHeightSet
 )
@@ -2859,7 +2859,7 @@ aHeightSet
 )
 ;
 }
-bool
+PRBool
 nsIBox
 :
 :
@@ -2874,10 +2874,10 @@ aBox
 nsSize
 &
 aSize
-bool
+PRBool
 &
 aWidthSet
-bool
+PRBool
 &
 aHeightSet
 )
@@ -2890,10 +2890,10 @@ aHeightSet
 =
 PR_FALSE
 ;
-bool
+PRBool
 canOverride
 =
-true
+PR_TRUE
 ;
 const
 nsStyleDisplay
@@ -3524,7 +3524,7 @@ aHeightSet
 )
 ;
 }
-bool
+PRBool
 nsIBox
 :
 :
@@ -3536,10 +3536,10 @@ aBox
 nsSize
 &
 aSize
-bool
+PRBool
 &
 aWidthSet
-bool
+PRBool
 &
 aHeightSet
 )
@@ -3797,7 +3797,7 @@ aHeightSet
 )
 ;
 }
-bool
+PRBool
 nsIBox
 :
 :
@@ -3814,10 +3814,10 @@ nscoord
 aFlex
 )
 {
-bool
+PRBool
 flexSet
 =
-false
+PR_FALSE
 ;
 aFlex
 =
@@ -4235,7 +4235,7 @@ SetDebug
 nsBoxLayoutState
 &
 aState
-bool
+PRBool
 aDebug
 )
 {
@@ -4380,7 +4380,7 @@ nsBox
 :
 GetDebug
 (
-bool
+PRBool
 &
 aDebug
 )

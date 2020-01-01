@@ -68,7 +68,7 @@ virtual
 nsresult
 StoreMoveTo
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -90,7 +90,7 @@ virtual
 nsresult
 StoreLineTo
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -104,7 +104,7 @@ virtual
 nsresult
 StoreHLineTo
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -116,7 +116,7 @@ virtual
 nsresult
 StoreVLineTo
 (
-bool
+PRBool
 absCoords
 float
 y
@@ -128,7 +128,7 @@ virtual
 nsresult
 StoreCurveTo
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -150,7 +150,7 @@ virtual
 nsresult
 StoreSmoothCurveTo
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -168,7 +168,7 @@ virtual
 nsresult
 StoreQuadCurveTo
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -186,7 +186,7 @@ virtual
 nsresult
 StoreSmoothQuadCurveTo
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -200,7 +200,7 @@ virtual
 nsresult
 StoreEllipticalArc
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -212,9 +212,9 @@ float
 r2
 float
 angle
-bool
+PRBool
 largeArcFlag
-bool
+PRBool
 sweepFlag
 )
 =
@@ -237,7 +237,7 @@ float
 aY
 )
 ;
-bool
+PRBool
 IsTokenCoordPairStarter
 (
 )
@@ -250,7 +250,7 @@ float
 aX
 )
 ;
-bool
+PRBool
 IsTokenCoordStarter
 (
 )
@@ -258,7 +258,7 @@ IsTokenCoordStarter
 nsresult
 MatchFlag
 (
-bool
+PRBool
 *
 f
 )
@@ -273,7 +273,7 @@ MatchSubPaths
 (
 )
 ;
-bool
+PRBool
 IsTokenSubPathsStarter
 (
 )
@@ -283,7 +283,7 @@ MatchSubPath
 (
 )
 ;
-bool
+PRBool
 IsTokenSubPathStarter
 (
 )
@@ -293,7 +293,7 @@ MatchSubPathElements
 (
 )
 ;
-bool
+PRBool
 IsTokenSubPathElementsStarter
 (
 )
@@ -303,7 +303,7 @@ MatchSubPathElement
 (
 )
 ;
-bool
+PRBool
 IsTokenSubPathElementStarter
 (
 )
@@ -316,7 +316,7 @@ MatchMoveto
 nsresult
 MatchMovetoArgSeq
 (
-bool
+PRBool
 absCoords
 )
 ;
@@ -333,11 +333,11 @@ MatchLineto
 nsresult
 MatchLinetoArgSeq
 (
-bool
+PRBool
 absCoords
 )
 ;
-bool
+PRBool
 IsTokenLinetoArgSeqStarter
 (
 )
@@ -350,7 +350,7 @@ MatchHorizontalLineto
 nsresult
 MatchHorizontalLinetoArgSeq
 (
-bool
+PRBool
 absCoords
 )
 ;
@@ -362,7 +362,7 @@ MatchVerticalLineto
 nsresult
 MatchVerticalLinetoArgSeq
 (
-bool
+PRBool
 absCoords
 )
 ;
@@ -374,7 +374,7 @@ MatchCurveto
 nsresult
 MatchCurvetoArgSeq
 (
-bool
+PRBool
 absCoords
 )
 ;
@@ -401,7 +401,7 @@ float
 y2
 )
 ;
-bool
+PRBool
 IsTokenCurvetoArgStarter
 (
 )
@@ -414,7 +414,7 @@ MatchSmoothCurveto
 nsresult
 MatchSmoothCurvetoArgSeq
 (
-bool
+PRBool
 absCoords
 )
 ;
@@ -435,7 +435,7 @@ float
 y2
 )
 ;
-bool
+PRBool
 IsTokenSmoothCurvetoArgStarter
 (
 )
@@ -448,7 +448,7 @@ MatchQuadBezierCurveto
 nsresult
 MatchQuadBezierCurvetoArgSeq
 (
-bool
+PRBool
 absCoords
 )
 ;
@@ -469,7 +469,7 @@ float
 y1
 )
 ;
-bool
+PRBool
 IsTokenQuadBezierCurvetoArgStarter
 (
 )
@@ -482,7 +482,7 @@ MatchSmoothQuadBezierCurveto
 nsresult
 MatchSmoothQuadBezierCurvetoArgSeq
 (
-bool
+PRBool
 absCoords
 )
 ;
@@ -494,7 +494,7 @@ MatchEllipticalArc
 nsresult
 MatchEllipticalArcArgSeq
 (
-bool
+PRBool
 absCoords
 )
 ;
@@ -516,15 +516,15 @@ r2
 float
 *
 angle
-bool
+PRBool
 *
 largeArcFlag
-bool
+PRBool
 *
 sweepFlag
 )
 ;
-bool
+PRBool
 IsTokenEllipticalArcArgStarter
 (
 )
@@ -552,13 +552,13 @@ gfxPoint
 radii
 double
 angle
-bool
+PRBool
 largeArcFlag
-bool
+PRBool
 sweepFlag
 )
 ;
-bool
+PRBool
 GetNextSegment
 (
 gfxPoint
@@ -636,7 +636,7 @@ virtual
 nsresult
 StoreMoveTo
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -654,7 +654,7 @@ virtual
 nsresult
 StoreLineTo
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -666,7 +666,7 @@ virtual
 nsresult
 StoreHLineTo
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -676,7 +676,7 @@ virtual
 nsresult
 StoreVLineTo
 (
-bool
+PRBool
 absCoords
 float
 y
@@ -686,7 +686,7 @@ virtual
 nsresult
 StoreCurveTo
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -706,7 +706,7 @@ virtual
 nsresult
 StoreSmoothCurveTo
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -722,7 +722,7 @@ virtual
 nsresult
 StoreQuadCurveTo
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -738,7 +738,7 @@ virtual
 nsresult
 StoreSmoothQuadCurveTo
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -750,7 +750,7 @@ virtual
 nsresult
 StoreEllipticalArc
 (
-bool
+PRBool
 absCoords
 float
 x
@@ -762,9 +762,9 @@ float
 r2
 float
 angle
-bool
+PRBool
 largeArcFlag
-bool
+PRBool
 sweepFlag
 )
 ;

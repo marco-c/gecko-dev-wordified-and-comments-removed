@@ -859,7 +859,7 @@ char
 aString
 )
 {
-bool
+PRBool
 nonnull
 =
 (
@@ -917,7 +917,7 @@ PRUnichar
 aString
 )
 {
-bool
+PRBool
 nonnull
 =
 (

@@ -57,7 +57,7 @@ NS_IMUTATION_OBSERVER_IID
 struct
 CharacterDataChangeInfo
 {
-bool
+PRBool
 mAppend
 ;
 PRUint32

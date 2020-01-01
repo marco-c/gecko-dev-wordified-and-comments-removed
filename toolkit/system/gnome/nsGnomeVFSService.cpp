@@ -213,7 +213,7 @@ nsGnomeVFSMimeApp
 :
 GetCanOpenMultipleFiles
 (
-bool
+PRBool
 *
 aCanOpen
 )
@@ -379,7 +379,7 @@ UTF8StringEnumerator
 :
 HasMore
 (
-bool
+PRBool
 *
 aResult
 )
@@ -541,7 +541,7 @@ nsGnomeVFSMimeApp
 :
 GetRequiresTerminal
 (
-bool
+PRBool
 *
 aRequires
 )

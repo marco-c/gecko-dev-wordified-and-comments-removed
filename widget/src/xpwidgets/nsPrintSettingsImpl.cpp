@@ -476,7 +476,7 @@ nsPrintSettings
 :
 GetPrintReversed
 (
-bool
+PRBool
 *
 aPrintReversed
 )
@@ -496,7 +496,7 @@ nsPrintSettings
 :
 SetPrintReversed
 (
-bool
+PRBool
 aPrintReversed
 )
 {
@@ -514,7 +514,7 @@ nsPrintSettings
 :
 GetPrintInColor
 (
-bool
+PRBool
 *
 aPrintInColor
 )
@@ -534,7 +534,7 @@ nsPrintSettings
 :
 SetPrintInColor
 (
-bool
+PRBool
 aPrintInColor
 )
 {
@@ -763,7 +763,7 @@ nsPrintSettings
 :
 GetDownloadFonts
 (
-bool
+PRBool
 *
 aDownloadFonts
 )
@@ -783,7 +783,7 @@ nsPrintSettings
 :
 SetDownloadFonts
 (
-bool
+PRBool
 aDownloadFonts
 )
 {
@@ -987,7 +987,7 @@ nsPrintSettings
 :
 GetPrintToFile
 (
-bool
+PRBool
 *
 aPrintToFile
 )
@@ -1007,7 +1007,7 @@ nsPrintSettings
 :
 SetPrintToFile
 (
-bool
+PRBool
 aPrintToFile
 )
 {
@@ -1166,7 +1166,7 @@ nsPrintSettings
 :
 GetIsInitializedFromPrinter
 (
-bool
+PRBool
 *
 aIsInitializedFromPrinter
 )
@@ -1180,7 +1180,7 @@ aIsInitializedFromPrinter
 aIsInitializedFromPrinter
 =
 (
-bool
+PRBool
 )
 mIsInitedFromPrinter
 ;
@@ -1194,14 +1194,14 @@ nsPrintSettings
 :
 SetIsInitializedFromPrinter
 (
-bool
+PRBool
 aIsInitializedFromPrinter
 )
 {
 mIsInitedFromPrinter
 =
 (
-bool
+PRPackedBool
 )
 aIsInitializedFromPrinter
 ;
@@ -1215,7 +1215,7 @@ nsPrintSettings
 :
 GetIsInitializedFromPrefs
 (
-bool
+PRBool
 *
 aInitializedFromPrefs
 )
@@ -1229,7 +1229,7 @@ aInitializedFromPrefs
 aInitializedFromPrefs
 =
 (
-bool
+PRBool
 )
 mIsInitedFromPrefs
 ;
@@ -1243,14 +1243,14 @@ nsPrintSettings
 :
 SetIsInitializedFromPrefs
 (
-bool
+PRBool
 aInitializedFromPrefs
 )
 {
 mIsInitedFromPrefs
 =
 (
-bool
+PRPackedBool
 )
 aInitializedFromPrefs
 ;
@@ -2011,7 +2011,7 @@ nsPrintSettings
 :
 GetPrintBGColors
 (
-bool
+PRBool
 *
 aPrintBGColors
 )
@@ -2036,7 +2036,7 @@ nsPrintSettings
 :
 SetPrintBGColors
 (
-bool
+PRBool
 aPrintBGColors
 )
 {
@@ -2054,7 +2054,7 @@ nsPrintSettings
 :
 GetPrintBGImages
 (
-bool
+PRBool
 *
 aPrintBGImages
 )
@@ -2079,7 +2079,7 @@ nsPrintSettings
 :
 SetPrintBGImages
 (
-bool
+PRBool
 aPrintBGImages
 )
 {
@@ -2310,7 +2310,7 @@ GetPrintOptions
 (
 PRInt32
 aType
-bool
+PRBool
 *
 aTurnOnOff
 )
@@ -2343,7 +2343,7 @@ SetPrintOptions
 (
 PRInt32
 aType
-bool
+PRBool
 aTurnOnOff
 )
 {
@@ -3014,7 +3014,7 @@ nsPrintSettings
 :
 GetPrintSilent
 (
-bool
+PRBool
 *
 aPrintSilent
 )
@@ -3039,7 +3039,7 @@ nsPrintSettings
 :
 SetPrintSilent
 (
-bool
+PRBool
 aPrintSilent
 )
 {
@@ -3057,7 +3057,7 @@ nsPrintSettings
 :
 GetShrinkToFit
 (
-bool
+PRBool
 *
 aShrinkToFit
 )
@@ -3082,7 +3082,7 @@ nsPrintSettings
 :
 SetShrinkToFit
 (
-bool
+PRBool
 aShrinkToFit
 )
 {
@@ -3100,7 +3100,7 @@ nsPrintSettings
 :
 GetShowPrintProgress
 (
-bool
+PRBool
 *
 aShowPrintProgress
 )
@@ -3125,7 +3125,7 @@ nsPrintSettings
 :
 SetShowPrintProgress
 (
-bool
+PRBool
 aShowPrintProgress
 )
 {
@@ -3354,7 +3354,7 @@ nsPrintSettings
 :
 GetIsCancelled
 (
-bool
+PRBool
 *
 aIsCancelled
 )
@@ -3379,7 +3379,7 @@ nsPrintSettings
 :
 SetIsCancelled
 (
-bool
+PRBool
 aIsCancelled
 )
 {

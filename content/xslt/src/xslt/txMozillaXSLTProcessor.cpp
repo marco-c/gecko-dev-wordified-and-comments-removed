@@ -1532,7 +1532,7 @@ return
 NS_ERROR_XPATH_UNKNOWN_FUNCTION
 ;
 }
-bool
+PRBool
 caseInsensitiveNameTests
 (
 )
@@ -1571,7 +1571,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-bool
+PRBool
 isStripSpaceAllowed
 (
 const
@@ -5297,7 +5297,7 @@ nsIDataType
 VTYPE_BOOL
 :
 {
-bool
+PRBool
 value
 ;
 nsresult

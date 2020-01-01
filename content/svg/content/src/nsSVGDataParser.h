@@ -107,7 +107,7 @@ float
 aX
 )
 ;
-bool
+PRBool
 IsTokenNonNegativeNumberStarter
 (
 )
@@ -120,7 +120,7 @@ float
 x
 )
 ;
-bool
+PRBool
 IsTokenNumberStarter
 (
 )
@@ -130,7 +130,7 @@ MatchCommaWsp
 (
 )
 ;
-bool
+PRBool
 IsTokenCommaWspStarter
 (
 )
@@ -155,7 +155,7 @@ MatchExponent
 (
 )
 ;
-bool
+PRBool
 IsTokenExponentStarter
 (
 )
@@ -165,7 +165,7 @@ MatchDigitSeq
 (
 )
 ;
-bool
+PRBool
 IsTokenDigitSeqStarter
 (
 )
@@ -175,7 +175,7 @@ MatchWsp
 (
 )
 ;
-bool
+PRBool
 IsTokenWspStarter
 (
 )

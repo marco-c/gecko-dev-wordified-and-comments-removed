@@ -228,6 +228,11 @@ RootAccessible
 )
 const
 ;
+static
+nsINode
+*
+gLastFocusedNode
+;
 already_AddRefed
 <
 nsINode
@@ -237,7 +242,7 @@ GetCurrentFocus
 )
 ;
 virtual
-bool
+PRBool
 Init
 (
 )
@@ -341,7 +346,7 @@ GetOwnerDoc
 nsnull
 ;
 }
-bool
+PRBool
 IsContent
 (
 )
@@ -491,7 +496,7 @@ static
 void
 NotifyA11yInitOrShutdown
 (
-bool
+PRBool
 aIsInit
 )
 ;
@@ -501,7 +506,7 @@ nsIStringBundle
 gStringBundle
 ;
 static
-bool
+PRBool
 gIsFormFillEnabled
 ;
 private

@@ -174,7 +174,7 @@ aType
 nsIDOMEventListener
 *
 aListener
-bool
+PRBool
 aUseCapture
 )
 {
@@ -220,9 +220,9 @@ aType
 nsIDOMEventListener
 *
 aListener
-bool
+PRBool
 aUseCapture
-bool
+PRBool
 aWantsUntrusted
 PRUint8
 aOptionalArgc
@@ -365,7 +365,7 @@ DispatchEvent
 nsIDOMEvent
 *
 aEvent
-bool
+PRBool
 *
 aRetVal
 )
@@ -614,7 +614,7 @@ nsDOMEventTargetHelper
 :
 GetListenerManager
 (
-bool
+PRBool
 aCreateIfNotFound
 )
 {

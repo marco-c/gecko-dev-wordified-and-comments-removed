@@ -124,7 +124,7 @@ eWidth
 eHeight
 }
 ;
-bool
+PRBool
 GetWidthOrHeight
 (
 Dimension
@@ -167,7 +167,7 @@ aPresShell
 ;
 }
 inline
-bool
+PRBool
 ParsedSuccessfully
 (
 )
@@ -194,12 +194,12 @@ FlushImageTransformInvalidation
 (
 )
 ;
-bool
+PRBool
 IsAnimated
 (
 )
 ;
-bool
+PRBool
 ShouldIgnoreInvalidation
 (
 )
@@ -279,10 +279,10 @@ nsIStreamListener
 >
 mListener
 ;
-bool
+PRPackedBool
 mIgnoreInvalidation
 ;
-bool
+PRPackedBool
 mRegisteredForXPCOMShutdown
 ;
 static

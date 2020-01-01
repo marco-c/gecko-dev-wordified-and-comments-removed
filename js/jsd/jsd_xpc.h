@@ -245,7 +245,7 @@ jsdProperty
 &
 )
 ;
-bool
+PRBool
 mValid
 ;
 LiveEphemeral
@@ -421,7 +421,7 @@ PRUint32
 aLine
 )
 ;
-bool
+PRBool
 mValid
 ;
 PRUint32
@@ -533,7 +533,7 @@ jsdContext
 &
 )
 ;
-bool
+PRBool
 mValid
 ;
 LiveEphemeral
@@ -631,7 +631,7 @@ jsdStackFrame
 &
 )
 ;
-bool
+PRBool
 mValid
 ;
 LiveEphemeral
@@ -710,7 +710,7 @@ jsdScript
 &
 )
 ;
-bool
+PRBool
 mValid
 ;
 LiveEphemeral
@@ -811,7 +811,7 @@ GetService
 (
 )
 ;
-bool
+PRBool
 CheckInterruptHook
 (
 )
@@ -824,7 +824,7 @@ mInterruptHook
 }
 private
 :
-bool
+PRBool
 mOn
 ;
 PRUint32

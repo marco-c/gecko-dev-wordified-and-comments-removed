@@ -127,7 +127,7 @@ EmptyEnumeratorImpl
 :
 HasMoreElements
 (
-bool
+PRBool
 *
 aResult
 )
@@ -147,7 +147,7 @@ EmptyEnumeratorImpl
 :
 HasMore
 (
-bool
+PRBool
 *
 aResult
 )
@@ -249,7 +249,7 @@ NS_DECL_ISUPPORTS
 NS_IMETHOD
 HasMoreElements
 (
-bool
+PRBool
 *
 aResult
 )
@@ -283,7 +283,7 @@ nsISupports
 *
 mValue
 ;
-bool
+PRBool
 mConsumed
 ;
 }
@@ -344,7 +344,7 @@ nsSingletonEnumerator
 :
 HasMoreElements
 (
-bool
+PRBool
 *
 aResult
 )
@@ -496,7 +496,7 @@ NS_DECL_ISUPPORTS
 NS_IMETHOD
 HasMoreElements
 (
-bool
+PRBool
 *
 aResult
 )
@@ -536,10 +536,10 @@ nsISimpleEnumerator
 mFirstEnumerator
 mSecondEnumerator
 ;
-bool
+PRBool
 mConsumed
 ;
-bool
+PRBool
 mAtSecond
 ;
 }
@@ -595,7 +595,7 @@ nsUnionEnumerator
 :
 HasMoreElements
 (
-bool
+PRBool
 *
 aResult
 )

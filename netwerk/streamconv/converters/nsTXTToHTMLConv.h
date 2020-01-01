@@ -93,7 +93,7 @@ token
 nsString
 modText
 ;
-bool
+PRBool
 prepend
 ;
 }
@@ -267,7 +267,7 @@ mToken
 nsString
 mPageTitle
 ;
-bool
+PRBool
 mPreFormatHTML
 ;
 }

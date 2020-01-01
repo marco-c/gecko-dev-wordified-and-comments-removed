@@ -108,7 +108,7 @@ void
 )
 DescribeGCedNode
 (
-bool
+PRBool
 ismarked
 size_t
 objsz
@@ -239,7 +239,7 @@ return
 mFlags
 ;
 }
-bool
+PRBool
 WantDebugInfo
 (
 )
@@ -256,7 +256,7 @@ WANT_DEBUG_INFO
 0
 ;
 }
-bool
+PRBool
 WantAllTraces
 (
 )
@@ -490,7 +490,7 @@ nsISupports
 p
 )
 ;
-bool
+PRBool
 CheckForRightISupports
 (
 nsISupports

@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsISVGValueUtils
+.
+h
+"
+#
+include
+"
 nsDOMError
 .
 h

@@ -368,9 +368,9 @@ const
 nsAString
 &
 aType
-bool
+PRBool
 aCanBubble
-bool
+PRBool
 aCancelable
 float
 *
@@ -379,7 +379,7 @@ PRUint32
 aFrameBufferLength
 float
 aTime
-bool
+PRBool
 aAllowAudioData
 )
 {

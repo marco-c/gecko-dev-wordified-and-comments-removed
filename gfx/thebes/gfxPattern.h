@@ -217,7 +217,7 @@ Filter
 )
 const
 ;
-bool
+PRBool
 GetSolidColor
 (
 gfxRGBA

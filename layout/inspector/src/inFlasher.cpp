@@ -295,7 +295,7 @@ inFlasher
 :
 GetInvert
 (
-bool
+PRBool
 *
 aInvert
 )
@@ -324,7 +324,7 @@ inFlasher
 :
 SetInvert
 (
-bool
+PRBool
 aInvert
 )
 {
@@ -461,10 +461,10 @@ GetFrameFor
 aElement
 )
 ;
-bool
+PRBool
 isFirstFrame
 =
-true
+PR_TRUE
 ;
 while
 (
@@ -552,7 +552,7 @@ rect
 )
 ;
 }
-bool
+PRBool
 isLastFrame
 =
 frame
@@ -713,9 +713,9 @@ aHeight
 nsRenderingContext
 *
 aRenderContext
-bool
+PRBool
 aDrawBegin
-bool
+PRBool
 aDrawEnd
 )
 {
@@ -796,9 +796,9 @@ nscoord
 aY
 nscoord
 aLength
-bool
+PRBool
 aDir
-bool
+PRBool
 aBounds
 nsRenderingContext
 *

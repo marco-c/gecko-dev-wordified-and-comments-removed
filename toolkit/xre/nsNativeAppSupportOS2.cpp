@@ -785,7 +785,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 Start
 (
-bool
+PRBool
 *
 aResult
 )
@@ -793,7 +793,7 @@ aResult
 NS_IMETHOD
 Stop
 (
-bool
+PRBool
 *
 aResult
 )
@@ -913,7 +913,7 @@ len
 )
 ;
 static
-bool
+PRBool
 InitTopicStrings
 (
 )
@@ -975,7 +975,7 @@ DWORD
 mInstance
 ;
 static
-bool
+PRBool
 mCanHandleRequests
 ;
 static
@@ -985,7 +985,7 @@ mMutexName
 ]
 ;
 static
-bool
+PRBool
 mUseDDE
 ;
 friend
@@ -1169,13 +1169,13 @@ mInstance
 =
 0
 ;
-bool
+PRBool
 nsNativeAppSupportOS2
 :
 :
 mCanHandleRequests
 =
-false
+PR_FALSE
 ;
 int
 DdeCmpStringHandles
@@ -2510,13 +2510,13 @@ mMsgWindowAtom
 ;
 }
 ;
-bool
+PRBool
 nsNativeAppSupportOS2
 :
 :
 mUseDDE
 =
-false
+PR_FALSE
 ;
 NS_IMETHODIMP
 nsNativeAppSupportOS2
@@ -2524,7 +2524,7 @@ nsNativeAppSupportOS2
 :
 Start
 (
-bool
+PRBool
 *
 aResult
 )
@@ -2884,7 +2884,7 @@ return
 rv
 ;
 }
-bool
+PRBool
 nsNativeAppSupportOS2
 :
 :
@@ -3112,7 +3112,7 @@ nsNativeAppSupportOS2
 :
 Stop
 (
-bool
+PRBool
 *
 aResult
 )
@@ -5712,7 +5712,7 @@ aWorkingDir
 aState
 )
 ;
-bool
+PRBool
 found
 ;
 cmdLine
@@ -6532,7 +6532,7 @@ Run
 )
 ;
 }
-bool
+PRBool
 StartOS2App
 (
 int
@@ -6543,10 +6543,10 @@ char
 aArgv
 )
 {
-bool
+PRBool
 rv
 =
-true
+PR_TRUE
 ;
 PPIB
 ppib

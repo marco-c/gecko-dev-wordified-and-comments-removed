@@ -2144,7 +2144,7 @@ flags
 char
 *
 name
-bool
+PRBool
 isGlobal
 PRUint32
 interfacesBitmap
@@ -2731,7 +2731,7 @@ return
 nsnull
 ;
 }
-bool
+PRBool
 AddLink
 (
 JSObject

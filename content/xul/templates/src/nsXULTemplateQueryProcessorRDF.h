@@ -264,7 +264,7 @@ CheckContainer
 nsIRDFResource
 *
 aTargetResource
-bool
+PRBool
 *
 aIsContainer
 )
@@ -275,7 +275,7 @@ CheckEmpty
 nsIRDFResource
 *
 aTargetResource
-bool
+PRBool
 *
 aIsEmpty
 )
@@ -286,7 +286,7 @@ CheckIsSeparator
 nsIRDFResource
 *
 aResource
-bool
+PRBool
 *
 aIsSeparator
 )
@@ -599,10 +599,10 @@ nsIXULTemplateBuilder
 *
 mBuilder
 ;
-bool
+PRBool
 mQueryProcessorRDFInited
 ;
-bool
+PRBool
 mGenerationStarted
 ;
 PRInt32

@@ -374,7 +374,7 @@ aClosure
 )
 const
 ;
-bool
+PRBool
 IsCompiled
 (
 )
@@ -459,7 +459,7 @@ mJSMethodObject
 #
 ifdef
 DEBUG
-bool
+PRBool
 mIsCompiled
 ;
 #

@@ -79,6 +79,14 @@ ssize_t
 '
     
 '
+PRBool
+'
+    
+'
+PRPackedBool
+'
+    
+'
 PRInt8
 '
     

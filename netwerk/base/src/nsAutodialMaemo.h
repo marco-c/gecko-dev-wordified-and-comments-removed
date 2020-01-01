@@ -46,7 +46,7 @@ PRUnichar
 hostName
 )
 ;
-bool
+PRBool
 ShouldDialOnNetworkError
 (
 )

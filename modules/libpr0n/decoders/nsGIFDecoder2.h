@@ -51,12 +51,6 @@ public
 :
 nsGIFDecoder2
 (
-RasterImage
-*
-aImage
-imgIDecoderObserver
-*
-aObserver
 )
 ;
 ~
@@ -140,7 +134,7 @@ OutputRow
 (
 )
 ;
-bool
+PRBool
 DoLzw
 (
 const
@@ -197,10 +191,10 @@ mLastFlushedPass
 PRUint8
 mColorMask
 ;
-bool
+PRPackedBool
 mGIFOpen
 ;
-bool
+PRPackedBool
 mSawTransparency
 ;
 gif_struct

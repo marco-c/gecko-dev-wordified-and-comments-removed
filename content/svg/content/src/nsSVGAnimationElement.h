@@ -106,7 +106,7 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
+PRBool
 aCompileEventHandlers
 )
 ;
@@ -114,9 +114,9 @@ virtual
 void
 UnbindFromTree
 (
-bool
+PRBool
 aDeep
-bool
+PRBool
 aNullParent
 )
 ;
@@ -129,12 +129,12 @@ aNamespaceID
 nsIAtom
 *
 aAttribute
-bool
+PRBool
 aNotify
 )
 ;
 virtual
-bool
+PRBool
 IsNodeOfType
 (
 PRUint32
@@ -143,7 +143,7 @@ aFlags
 const
 ;
 virtual
-bool
+PRBool
 ParseAttribute
 (
 PRInt32
@@ -173,7 +173,7 @@ const
 nsAString
 *
 aValue
-bool
+PRBool
 aNotify
 )
 ;
@@ -206,7 +206,7 @@ aName
 const
 ;
 virtual
-bool
+PRBool
 GetAnimAttr
 (
 nsIAtom
@@ -219,7 +219,7 @@ aResult
 const
 ;
 virtual
-bool
+PRBool
 HasAnimAttr
 (
 nsIAtom
@@ -236,7 +236,7 @@ GetTargetElementContent
 )
 ;
 virtual
-bool
+PRBool
 GetTargetAttributeName
 (
 PRInt32
@@ -272,7 +272,7 @@ GetTimeContainer
 ;
 protected
 :
-bool
+PRBool
 IsEventName
 (
 nsIAtom
@@ -350,13 +350,13 @@ AnimationTargetChanged
 ;
 }
 virtual
-bool
+PRBool
 IsPersistent
 (
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 private

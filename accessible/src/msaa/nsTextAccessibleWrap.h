@@ -208,7 +208,7 @@ nsIFrame
 aContainingFrame
 PRInt32
 aOffset
-bool
+PRBool
 aPreferNext
 nsPoint
 &

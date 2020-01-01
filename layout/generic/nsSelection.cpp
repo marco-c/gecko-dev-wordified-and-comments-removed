@@ -422,7 +422,7 @@ class
 nsAutoScrollTimer
 ;
 static
-bool
+PRBool
 IsValidSelectionPoint
 (
 nsFrameSelection
@@ -534,7 +534,7 @@ mLastCaretFrame
 PRInt32
 mLastContentOffset
 ;
-bool
+PRPackedBool
 mCanCacheFrameOffset
 ;
 }
@@ -653,7 +653,7 @@ PostScrollSelectionIntoViewEvent
 (
 SelectionRegion
 aRegion
-bool
+PRBool
 aFirstAncestorOnly
 )
 ;
@@ -894,7 +894,7 @@ aResultFrame
 PRInt32
 *
 aOffset
-bool
+PRBool
 aVisual
 )
 ;
@@ -914,7 +914,7 @@ SelectionDetails
 aReturnDetails
 SelectionType
 aType
-bool
+PRBool
 aSlowCheck
 )
 ;
@@ -1018,7 +1018,7 @@ nsTypedSelection
 aTypedSelection
 SelectionRegion
 aRegion
-bool
+PRBool
 aFirstAncestorOnly
 )
 :
@@ -1064,7 +1064,7 @@ mTypedSelection
 SelectionRegion
 mRegion
 ;
-bool
+PRBool
 mFirstAncestorOnly
 ;
 }
@@ -1085,7 +1085,7 @@ aInnerIter
 nsIContent
 *
 aContent
-bool
+PRBool
 aSelected
 )
 ;
@@ -1098,7 +1098,7 @@ aPresContext
 nsIRange
 *
 aRange
-bool
+PRBool
 aSelect
 )
 ;
@@ -1125,7 +1125,7 @@ addTableCellRange
 nsIRange
 *
 aRange
-bool
+PRBool
 *
 aDidAddRange
 PRInt32
@@ -1166,7 +1166,7 @@ PRInt32
 aPoint
 )
 ;
-bool
+PRBool
 EqualsRangeAtPoint
 (
 nsINode
@@ -1196,7 +1196,7 @@ nsINode
 aEndNode
 PRInt32
 aEndOffset
-bool
+PRBool
 aAllowAdjacent
 nsCOMArray
 <
@@ -1219,7 +1219,7 @@ nsINode
 aEndNode
 PRInt32
 aEndOffset
-bool
+PRBool
 aAllowAdjacent
 PRInt32
 *
@@ -2049,7 +2049,7 @@ return
 0
 ;
 }
-bool
+PRBool
 IsValidSelectionPoint
 (
 nsFrameSelection
@@ -3407,7 +3407,7 @@ PRUint8
 aLevel
 )
 {
-bool
+PRBool
 afterInsert
 =
 !
@@ -3850,13 +3850,13 @@ MoveCaret
 (
 PRUint32
 aKeycode
-bool
+PRBool
 aContinueSelection
 nsSelectionAmount
 aAmount
 )
 {
-bool
+PRBool
 visualMovement
 =
 (
@@ -3933,11 +3933,11 @@ MoveCaret
 (
 PRUint32
 aKeycode
-bool
+PRBool
 aContinueSelection
 nsSelectionAmount
 aAmount
-bool
+PRBool
 aVisualMovement
 )
 {
@@ -3983,7 +3983,7 @@ context
 return
 NS_ERROR_FAILURE
 ;
-bool
+PRBool
 isCollapsed
 ;
 nscoord
@@ -4817,7 +4817,7 @@ DOM_VK_RIGHT
 aContinueSelection
 )
 {
-bool
+PRBool
 isBRFrame
 =
 frame
@@ -5157,7 +5157,7 @@ nsTypedSelection
 :
 SetInterlinePosition
 (
-bool
+PRBool
 aHintRight
 )
 {
@@ -5212,7 +5212,7 @@ nsTypedSelection
 :
 GetInterlinePosition
 (
-bool
+PRBool
 *
 aHintRight
 )
@@ -5258,7 +5258,7 @@ nsIContent
 aNode
 PRUint32
 aContentOffset
-bool
+PRBool
 aJumpLines
 )
 const
@@ -5286,7 +5286,7 @@ PRUint32
 aContentOffset
 HINT
 aHint
-bool
+PRBool
 aJumpLines
 )
 const
@@ -5416,7 +5416,7 @@ newFrame
 PRInt32
 offset
 ;
-bool
+PRBool
 jumpedLine
 ;
 nsresult
@@ -5946,7 +5946,7 @@ clickInFrame
 )
 ;
 }
-bool
+PRBool
 nsFrameSelection
 :
 :
@@ -6185,11 +6185,11 @@ PRUint32
 aContentOffset
 PRUint32
 aContentEndOffset
-bool
+PRBool
 aContinueSelection
-bool
+PRBool
 aMultipleSelection
-bool
+PRBool
 aHint
 )
 {
@@ -6757,9 +6757,9 @@ PRUint32
 aContentEndOffset
 HINT
 aHint
-bool
+PRBool
 aContinueSelection
-bool
+PRBool
 aMultipleSelection
 )
 {
@@ -6858,7 +6858,7 @@ batching
 =
 mBatching
 ;
-bool
+PRBool
 changes
 =
 mChangesDuringBatching
@@ -6933,7 +6933,7 @@ changes
 }
 else
 {
-bool
+PRBool
 oldDesiredXSet
 =
 mDesiredXSet
@@ -7259,7 +7259,7 @@ PRInt32
 aContentOffset
 PRInt32
 aContentLength
-bool
+PRBool
 aSlowCheck
 )
 const
@@ -7346,7 +7346,7 @@ nsFrameSelection
 :
 SetMouseDownState
 (
-bool
+PRBool
 aState
 )
 {
@@ -7972,9 +7972,9 @@ nsFrameSelection
 :
 CommonPageMove
 (
-bool
+PRBool
 aForward
-bool
+PRBool
 aExtend
 nsIScrollableFrame
 *
@@ -8195,9 +8195,9 @@ nsFrameSelection
 :
 CharacterMove
 (
-bool
+PRBool
 aForward
-bool
+PRBool
 aExtend
 )
 {
@@ -8275,9 +8275,9 @@ nsFrameSelection
 :
 WordMove
 (
-bool
+PRBool
 aForward
-bool
+PRBool
 aExtend
 )
 {
@@ -8315,7 +8315,7 @@ nsFrameSelection
 :
 WordExtendForDelete
 (
-bool
+PRBool
 aForward
 )
 {
@@ -8353,9 +8353,9 @@ nsFrameSelection
 :
 LineMove
 (
-bool
+PRBool
 aForward
-bool
+PRBool
 aExtend
 )
 {
@@ -8393,9 +8393,9 @@ nsFrameSelection
 :
 IntraLineMove
 (
-bool
+PRBool
 aForward
-bool
+PRBool
 aExtend
 )
 {
@@ -8647,7 +8647,7 @@ NS_ERROR_FAILURE
 ;
 }
 static
-bool
+PRBool
 IsCell
 (
 nsIContent
@@ -9418,10 +9418,10 @@ nsISelectionPrivate
 TABLESELECTION_CELL
 )
 {
-bool
+PRBool
 isSelected
 =
-false
+PR_FALSE
 ;
 nsIContent
 *
@@ -9802,10 +9802,10 @@ mEndSelectedCell
 =
 nsnull
 ;
-bool
+PRBool
 doMouseUpAction
 =
-false
+PR_FALSE
 ;
 #
 ifdef
@@ -10278,7 +10278,7 @@ PRInt32
 aEndRowIndex
 PRInt32
 aEndColumnIndex
-bool
+PRBool
 aRemoveOutsideOfCellRange
 )
 {
@@ -10512,7 +10512,7 @@ colSpan
 actualRowSpan
 actualColSpan
 ;
-bool
+PRBool
 isSelected
 ;
 result
@@ -10708,7 +10708,7 @@ actualColSpan
 curRowIndex
 curColIndex
 ;
-bool
+PRBool
 isSelected
 ;
 nsresult
@@ -11101,7 +11101,7 @@ colSpan
 actualRowSpan
 actualColSpan
 ;
-bool
+PRBool
 isSelected
 ;
 do
@@ -12069,7 +12069,7 @@ addTableCellRange
 nsIRange
 *
 aRange
-bool
+PRBool
 *
 aDidAddRange
 PRInt32
@@ -12714,7 +12714,7 @@ DeleteFromDocument
 nsresult
 res
 ;
-bool
+PRBool
 isCollapsed
 ;
 PRInt8
@@ -14523,7 +14523,7 @@ endIndex
 startIndex
 ;
 }
-bool
+PRBool
 sameRange
 =
 EqualsRangeAtPoint
@@ -15088,7 +15088,7 @@ NS_OK
 }
 static
 inline
-bool
+PRBool
 RangeMatchesBeginPoint
 (
 nsIRange
@@ -15126,7 +15126,7 @@ aOffset
 }
 static
 inline
-bool
+PRBool
 RangeMatchesEndPoint
 (
 nsIRange
@@ -15162,7 +15162,7 @@ EndOffset
 aOffset
 ;
 }
-bool
+PRBool
 nsTypedSelection
 :
 :
@@ -15254,7 +15254,7 @@ nsIDOMNode
 aEndNode
 PRInt32
 aEndOffset
-bool
+PRBool
 aAllowAdjacent
 PRUint32
 *
@@ -15436,7 +15436,7 @@ nsIDOMNode
 aEndNode
 PRInt32
 aEndOffset
-bool
+PRBool
 aAllowAdjacent
 nsCOMArray
 <
@@ -15565,7 +15565,7 @@ nsINode
 aEndNode
 PRInt32
 aEndOffset
-bool
+PRBool
 aAllowAdjacent
 nsCOMArray
 <
@@ -15673,7 +15673,7 @@ nsINode
 aEndNode
 PRInt32
 aEndOffset
-bool
+PRBool
 aAllowAdjacent
 PRInt32
 *
@@ -15734,7 +15734,7 @@ Length
 )
 return
 ;
-bool
+PRBool
 intervalIsCollapsed
 =
 aBeginNode
@@ -16087,7 +16087,7 @@ nsIDOMNode
 aNode
 PRInt32
 aOffset
-bool
+PRBool
 aIsEndNode
 nsIFrame
 *
@@ -16344,7 +16344,7 @@ aReturnFrame
 PRInt32
 *
 aOffsetUsed
-bool
+PRBool
 aVisual
 )
 {
@@ -16519,7 +16519,7 @@ aInnerIter
 nsIContent
 *
 aContent
-bool
+PRBool
 aSelected
 )
 {
@@ -16715,7 +16715,7 @@ aPresContext
 nsIRange
 *
 aRange
-bool
+PRBool
 aFlags
 )
 {
@@ -17176,7 +17176,7 @@ SelectionDetails
 aReturnDetails
 SelectionType
 aType
-bool
+PRBool
 aSlowCheck
 )
 {
@@ -17629,7 +17629,7 @@ nsTypedSelection
 :
 GetCanCacheFrameOffset
 (
-bool
+PRBool
 *
 aCanCacheFrameOffset
 )
@@ -17667,7 +17667,7 @@ nsTypedSelection
 :
 SetCanCacheFrameOffset
 (
-bool
+PRBool
 aCanCacheFrameOffset
 )
 {
@@ -18237,7 +18237,7 @@ GetOffsetToCrossDoc
 rootmostFrame
 )
 ;
-bool
+PRBool
 didScroll
 =
 presContext
@@ -18458,7 +18458,7 @@ aRange
 return
 NS_ERROR_NULL_POINTER
 ;
-bool
+PRBool
 didAddRange
 ;
 PRInt32
@@ -19378,7 +19378,7 @@ nsTypedSelection
 :
 GetIsCollapsed
 (
-bool
+PRBool
 *
 aIsCollapsed
 )
@@ -19967,10 +19967,10 @@ res
 return
 res
 ;
-bool
+PRBool
 disconnected
 =
-false
+PR_FALSE
 ;
 PRInt32
 result1
@@ -21260,9 +21260,9 @@ ContainsNode
 nsIDOMNode
 *
 aNode
-bool
+PRBool
 aAllowPartial
-bool
+PRBool
 *
 aYes
 )
@@ -21315,7 +21315,7 @@ NS_OK
 PRUint32
 nodeLength
 ;
-bool
+PRBool
 isData
 =
 node
@@ -21454,7 +21454,7 @@ i
 +
 )
 {
-bool
+PRBool
 nodeStartsBeforeRange
 nodeEndsAfterRange
 ;
@@ -22018,7 +22018,7 @@ frame
 return
 nsnull
 ;
-bool
+PRBool
 isText
 =
 node
@@ -22266,7 +22266,7 @@ PostScrollSelectionIntoViewEvent
 (
 SelectionRegion
 aRegion
-bool
+PRBool
 aFirstAncestorOnly
 )
 {
@@ -22320,7 +22320,7 @@ ScrollIntoView
 (
 SelectionRegion
 aRegion
-bool
+PRBool
 aIsSynchronous
 PRInt16
 aVPercent
@@ -22974,7 +22974,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-bool
+PRBool
 visual
 =
 aDirection
@@ -23006,7 +23006,7 @@ line
 "
 )
 ;
-bool
+PRBool
 forward
 =
 aDirection
@@ -23028,7 +23028,7 @@ right
 "
 )
 ;
-bool
+PRBool
 extend
 =
 aAlter
@@ -23516,7 +23516,7 @@ nsTypedSelection
 :
 SelectionLanguageChange
 (
-bool
+PRBool
 aLangRTL
 )
 {
@@ -23907,7 +23907,7 @@ KEYPRESS_REASON
 return
 NS_OK
 ;
-bool
+PRBool
 collapsed
 ;
 if

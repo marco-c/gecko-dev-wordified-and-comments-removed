@@ -466,7 +466,7 @@ aPrincipal
 )
 return
 ;
-bool
+PRBool
 hasCert
 ;
 aPrincipal
@@ -1089,10 +1089,10 @@ return
 0
 ;
 }
-bool
+PRBool
 equals
 =
-false
+PR_FALSE
 ;
 principal
 -

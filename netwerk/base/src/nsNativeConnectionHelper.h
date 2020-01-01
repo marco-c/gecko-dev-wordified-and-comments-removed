@@ -20,7 +20,7 @@ nsNativeConnectionHelper
 public
 :
 static
-bool
+PRBool
 OnConnectionFailed
 (
 const
@@ -30,7 +30,7 @@ hostName
 )
 ;
 static
-bool
+PRBool
 IsAutodialEnabled
 (
 )

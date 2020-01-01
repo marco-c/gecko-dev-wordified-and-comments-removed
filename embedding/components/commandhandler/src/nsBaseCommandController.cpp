@@ -287,7 +287,7 @@ const
 char
 *
 aCommand
-bool
+PRBool
 *
 aResult
 )
@@ -359,7 +359,7 @@ const
 char
 *
 aCommand
-bool
+PRBool
 *
 aResult
 )

@@ -915,7 +915,7 @@ do_check_success
 rv
 )
 ;
-bool
+PRBool
 hasResults
 ;
 rv
@@ -1127,7 +1127,7 @@ do_check_success
 rv
 )
 ;
-bool
+PRBool
 hasResults
 ;
 rv

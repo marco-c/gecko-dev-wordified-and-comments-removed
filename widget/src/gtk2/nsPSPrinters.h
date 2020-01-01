@@ -37,7 +37,7 @@ nsPSPrinterList
 (
 )
 ;
-bool
+PRBool
 Enabled
 (
 )

@@ -94,10 +94,10 @@ gfxASurface
 >
 mSurface
 ;
-bool
+PRPackedBool
 mUniformAlpha
 ;
-bool
+PRPackedBool
 mUniformColor
 ;
 gfxRGBA

@@ -219,10 +219,10 @@ do_QueryInterface
 prefs
 )
 ;
-bool
+PRBool
 showDM
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -286,7 +286,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 visible
 ;
 rv
@@ -306,10 +306,10 @@ rv
 rv
 )
 ;
-bool
+PRBool
 focusWhenStarting
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -551,9 +551,9 @@ nsIURI
 aUri
 PRInt32
 aDelay
-bool
+PRBool
 aSameUri
-bool
+PRBool
 *
 allowRefresh
 )

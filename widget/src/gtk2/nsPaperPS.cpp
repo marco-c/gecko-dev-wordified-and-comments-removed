@@ -70,7 +70,7 @@ SIZE_MM
 (
 210
 )
-true
+PR_TRUE
 }
 {
 "
@@ -84,7 +84,7 @@ SIZE_MM
 (
 297
 )
-true
+PR_TRUE
 }
 {
 "
@@ -98,7 +98,7 @@ SIZE_MM
 (
 420
 )
-true
+PR_TRUE
 }
 {
 "
@@ -114,7 +114,7 @@ SIZE_INCH
 (
 11
 )
-false
+PR_FALSE
 }
 {
 "
@@ -130,7 +130,7 @@ SIZE_INCH
 (
 14
 )
-false
+PR_FALSE
 }
 {
 "
@@ -144,7 +144,7 @@ SIZE_INCH
 (
 17
 )
-false
+PR_FALSE
 }
 {
 "
@@ -160,7 +160,7 @@ SIZE_INCH
 (
 10
 )
-false
+PR_FALSE
 }
 #
 undef
@@ -183,7 +183,7 @@ NS_ARRAY_LENGTH
 mList
 )
 ;
-bool
+PRBool
 nsPaperSizePS
 :
 :
@@ -228,11 +228,11 @@ mCurrent
 i
 ;
 return
-true
+PR_TRUE
 ;
 }
 }
 return
-false
+PR_FALSE
 ;
 }

@@ -63,7 +63,7 @@ gfxHarfBuzzShaper
 )
 ;
 virtual
-bool
+PRBool
 InitTextRun
 (
 gfxContext
@@ -204,10 +204,10 @@ mutable
 PRUint32
 mUVSTableOffset
 ;
-bool
+PRPackedBool
 mUseFontGetGlyph
 ;
-bool
+PRPackedBool
 mUseFontGlyphWidths
 ;
 }

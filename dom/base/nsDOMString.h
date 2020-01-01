@@ -12,7 +12,7 @@ nsStringGlue
 h
 "
 inline
-bool
+PRBool
 DOMStringIsNull
 (
 const

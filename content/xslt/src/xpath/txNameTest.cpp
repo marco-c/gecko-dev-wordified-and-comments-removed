@@ -132,7 +132,7 @@ matches
 )
 ;
 }
-bool
+PRBool
 txNameTest
 :
 :
@@ -347,7 +347,7 @@ return
 NAME_TEST
 ;
 }
-bool
+PRBool
 txNameTest
 :
 :

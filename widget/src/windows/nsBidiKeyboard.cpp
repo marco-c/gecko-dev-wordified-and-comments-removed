@@ -44,11 +44,11 @@ nsIBidiKeyboard
 {
 mInitialized
 =
-false
+PR_FALSE
 ;
 mHaveBidiKeyboards
 =
-false
+PR_FALSE
 ;
 mLTRKeyboard
 [
@@ -208,7 +208,7 @@ nsBidiKeyboard
 :
 IsLangRTL
 (
-bool
+PRBool
 *
 aIsRTL
 )
@@ -216,7 +216,7 @@ aIsRTL
 *
 aIsRTL
 =
-false
+PR_FALSE
 ;
 nsresult
 result
@@ -404,7 +404,7 @@ nsBidiKeyboard
 :
 GetHaveBidiKeyboards
 (
-bool
+PRBool
 *
 aResult
 )
@@ -476,15 +476,15 @@ localeName
 KL_NAMELENGTH
 ]
 ;
-bool
+PRBool
 isLTRKeyboardSet
 =
-false
+PR_FALSE
 ;
-bool
+PRBool
 isRTLKeyboardSet
 =
-false
+PR_FALSE
 ;
 keyboards
 =
@@ -599,7 +599,7 @@ locale
 ;
 isRTLKeyboardSet
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -629,7 +629,7 @@ locale
 ;
 isLTRKeyboardSet
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -640,7 +640,7 @@ buf
 ;
 mInitialized
 =
-true
+PR_TRUE
 ;
 mHaveBidiKeyboards
 =
@@ -801,7 +801,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsBidiKeyboard
 :
 :

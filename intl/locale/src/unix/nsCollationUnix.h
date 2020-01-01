@@ -43,7 +43,7 @@ mLocale
 nsCString
 mSavedLocale
 ;
-bool
+PRBool
 mUseCodePointOrder
 ;
 void

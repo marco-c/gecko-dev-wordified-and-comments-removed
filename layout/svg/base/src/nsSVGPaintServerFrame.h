@@ -68,7 +68,7 @@ nsnull
 0
 ;
 virtual
-bool
+PRBool
 SetupPaintServer
 (
 gfxContext
@@ -82,7 +82,7 @@ aOpacity
 )
 ;
 virtual
-bool
+PRBool
 IsFrameOfType
 (
 PRUint32

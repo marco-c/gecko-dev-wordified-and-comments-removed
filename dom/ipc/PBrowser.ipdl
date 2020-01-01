@@ -926,7 +926,7 @@ side
 sync
 NotifyIMEFocus
 (
-bool
+PRBool
 focus
 )
 returns
@@ -1181,7 +1181,7 @@ text
 sync
 EndIMEComposition
 (
-bool
+PRBool
 cancel
 )
 returns
@@ -1218,13 +1218,13 @@ GetIMEOpenState
 )
 returns
 (
-bool
+PRBool
 value
 )
 ;
 SetIMEOpenState
 (
-bool
+PRBool
 value
 )
 ;

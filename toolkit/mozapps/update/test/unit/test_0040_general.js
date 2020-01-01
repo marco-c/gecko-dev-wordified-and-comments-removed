@@ -105,6 +105,8 @@ gXHR
 gXHR
 .
 onload
+.
+handleEvent
 (
 e
 )

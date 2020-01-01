@@ -1607,7 +1607,7 @@ nsHTMLCSSUtils
 )
 {
 }
-bool
+PRBool
 nsHTMLCSSUtils
 :
 :
@@ -2494,7 +2494,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aSuppressTransaction
 )
 {
@@ -2574,7 +2574,7 @@ nsIAtom
 aProperty
 PRInt32
 aIntValue
-bool
+PRBool
 aSuppressTransaction
 )
 {
@@ -2621,7 +2621,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aSuppressTransaction
 )
 {
@@ -2707,7 +2707,7 @@ ChangeCSSInlineStyleTxn
 *
 *
 aTxn
-bool
+PRBool
 aRemoveProperty
 )
 {
@@ -3368,7 +3368,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsHTMLCSSUtils
 :
 :
@@ -3384,7 +3384,7 @@ aAttribute
 )
 {
 return
-bool
+PRBool
 (
 nsEditProperty
 :
@@ -3419,7 +3419,7 @@ editor
 .
 use_custom_colors
 "
-false
+PR_FALSE
 )
 )
 {
@@ -3488,7 +3488,7 @@ display
 .
 use_system_colors
 "
-false
+PR_FALSE
 )
 )
 {
@@ -3664,10 +3664,10 @@ Length
 PRUnichar
 c
 ;
-bool
+PRBool
 floatingPointFound
 =
-false
+PR_FALSE
 ;
 c
 =
@@ -4276,7 +4276,7 @@ const
 nsAString
 *
 aValue
-bool
+PRBool
 aGetOrRemoveRequest
 )
 {
@@ -4484,7 +4484,7 @@ nsString
 >
 &
 cssValueArray
-bool
+PRBool
 aGetOrRemoveRequest
 )
 {
@@ -5111,7 +5111,7 @@ aValue
 PRInt32
 *
 aCount
-bool
+PRBool
 aSuppressTransaction
 )
 {
@@ -5260,7 +5260,7 @@ const
 nsAString
 *
 aValue
-bool
+PRBool
 aSuppressTransaction
 )
 {
@@ -5385,7 +5385,7 @@ HasClassOrID
 nsIDOMElement
 *
 aElement
-bool
+PRBool
 &
 aReturn
 )
@@ -5394,7 +5394,7 @@ nsAutoString
 classVal
 idVal
 ;
-bool
+PRBool
 isClassSet
 isIdSet
 ;
@@ -5702,7 +5702,7 @@ const
 nsAString
 *
 aHTMLAttribute
-bool
+PRBool
 &
 aIsSet
 nsAString
@@ -5981,7 +5981,7 @@ underline
 ;
 aIsSet
 =
-bool
+PRBool
 (
 ChangeCSSInlineStyleTxn
 :
@@ -5990,7 +5990,7 @@ ValueIncludes
 (
 valueString
 val
-false
+PR_FALSE
 )
 )
 ;
@@ -6023,7 +6023,7 @@ through
 ;
 aIsSet
 =
-bool
+PRBool
 (
 ChangeCSSInlineStyleTxn
 :
@@ -6032,7 +6032,7 @@ ValueIncludes
 (
 valueString
 val
-false
+PR_FALSE
 )
 )
 ;
@@ -6596,7 +6596,7 @@ nsHTMLCSSUtils
 :
 SetCSSEnabled
 (
-bool
+PRBool
 aIsCSSPrefChecked
 )
 {
@@ -6608,7 +6608,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsHTMLCSSUtils
 :
 :
@@ -6620,7 +6620,7 @@ return
 mIsCSSPrefChecked
 ;
 }
-bool
+PRBool
 nsHTMLCSSUtils
 :
 :
@@ -6682,7 +6682,7 @@ nsAutoString
 firstID
 secondID
 ;
-bool
+PRBool
 isFirstIDSet
 isSecondIDSet
 ;
@@ -6740,7 +6740,7 @@ nsAutoString
 firstClass
 secondClass
 ;
-bool
+PRBool
 isFirstClassSet
 isSecondClassSet
 ;

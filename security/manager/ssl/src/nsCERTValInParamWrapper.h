@@ -121,7 +121,7 @@ nsAutoRefCnt
 mRefCnt
 ;
 NS_DECL_OWNINGTHREAD
-bool
+PRBool
 mAlreadyConstructed
 ;
 CERTValInParam

@@ -428,7 +428,7 @@ nsMozIconURI
 :
 GetHasRef
 (
-bool
+PRBool
 *
 result
 )
@@ -1420,7 +1420,7 @@ Equals
 nsIURI
 *
 other
-bool
+PRBool
 *
 result
 )
@@ -1499,7 +1499,7 @@ EqualsExceptRef
 nsIURI
 *
 other
-bool
+PRBool
 *
 result
 )
@@ -1522,7 +1522,7 @@ const
 char
 *
 i_Scheme
-bool
+PRBool
 *
 o_Equals
 )

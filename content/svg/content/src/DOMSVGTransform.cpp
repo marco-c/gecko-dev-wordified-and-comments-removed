@@ -145,7 +145,7 @@ DOMSVGTransformList
 aList
 PRUint32
 aListIndex
-bool
+PRBool
 aIsAnimValItem
 )
 :
@@ -732,7 +732,7 @@ DOMSVGTransformList
 aList
 PRUint32
 aListIndex
-bool
+PRBool
 aIsAnimValItem
 )
 {
@@ -914,7 +914,7 @@ InternalItem
 #
 ifdef
 DEBUG
-bool
+PRBool
 DOMSVGTransform
 :
 :

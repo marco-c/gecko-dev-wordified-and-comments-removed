@@ -250,7 +250,7 @@ NS_MOZ_DATA_FROM_PRIVATEBROWSING
 data
 sizeof
 (
-bool
+PRBool
 )
 )
 ;
@@ -341,7 +341,7 @@ flavors
 NS_MOZ_DATA_FROM_PRIVATEBROWSING
 }
 ;
-bool
+PRBool
 haveFlavors
 ;
 rv
@@ -455,7 +455,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsClipboardPrivacyHandler
 :
 :
@@ -463,10 +463,10 @@ InPrivateBrowsing
 (
 )
 {
-bool
+PRBool
 inPrivateBrowsingMode
 =
-false
+PR_FALSE
 ;
 if
 (

@@ -302,7 +302,7 @@ nsIFile
 >
 theFile
 ;
-bool
+PRBool
 dictExists
 ;
 res
@@ -450,10 +450,10 @@ c
 PRUint32
 nRead
 ;
-bool
+PRBool
 done
 =
-false
+PR_FALSE
 ;
 do
 {
@@ -1001,7 +1001,7 @@ const
 PRUnichar
 *
 aLanguage
-bool
+PRBool
 *
 aResult
 )

@@ -475,10 +475,10 @@ return
 NS_ERROR_ILLEGAL_VALUE
 ;
 }
-bool
+PRBool
 odd
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -626,7 +626,7 @@ corrupted
 "
 )
 ;
-bool
+PRBool
 keepGoing
 ;
 nsresult

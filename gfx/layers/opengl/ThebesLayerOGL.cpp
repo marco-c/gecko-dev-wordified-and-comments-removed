@@ -1707,7 +1707,7 @@ aFlags
 PaintState
 result
 ;
-bool
+PRBool
 canHaveRotation
 =
 !
@@ -1739,7 +1739,7 @@ contentType
 nsIntRegion
 neededRegion
 ;
-bool
+PRBool
 canReuseBuffer
 ;
 nsIntRect
@@ -3399,7 +3399,7 @@ PR_TRUE
 ;
 }
 }
-bool
+PRBool
 ThebesLayerOGL
 :
 :
@@ -3839,7 +3839,7 @@ return
 this
 ;
 }
-bool
+PRBool
 ThebesLayerOGL
 :
 :
@@ -4457,7 +4457,7 @@ return
 this
 ;
 }
-bool
+PRBool
 ShadowThebesLayerOGL
 :
 :

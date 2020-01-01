@@ -78,7 +78,7 @@ return
 mStateID
 ;
 }
-bool
+PRBool
 Equals
 (
 const
@@ -203,7 +203,7 @@ hb
 lb
 ;
 }
-bool
+PRBool
 Equals
 (
 const
@@ -343,7 +343,7 @@ aInputWord
 )
 ;
 static
-bool
+PRBool
 DeleteDFAState
 (
 nsHashKey
@@ -358,7 +358,7 @@ closure
 )
 ;
 static
-bool
+PRBool
 ReleaseStyleContext
 (
 nsHashKey

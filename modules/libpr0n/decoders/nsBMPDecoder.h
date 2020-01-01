@@ -58,12 +58,6 @@ public
 :
 nsBMPDecoder
 (
-RasterImage
-*
-aImage
-imgIDecoderObserver
-*
-aObserver
 )
 ;
 ~
@@ -74,7 +68,7 @@ nsBMPDecoder
 void
 SetUseAlphaData
 (
-bool
+PRBool
 useAlphaData
 )
 ;
@@ -108,7 +102,7 @@ GetCompressedImageSize
 )
 const
 ;
-bool
+PRBool
 HasAlphaData
 (
 )
@@ -203,10 +197,10 @@ ProcessInfoHeader
 (
 )
 ;
-bool
+PRPackedBool
 mUseAlphaData
 ;
-bool
+PRPackedBool
 mHaveAlphaData
 ;
 }

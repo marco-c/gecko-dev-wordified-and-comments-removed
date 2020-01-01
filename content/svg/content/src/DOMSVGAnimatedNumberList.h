@@ -110,7 +110,7 @@ SVGNumberList
 aNewValue
 )
 ;
-bool
+PRBool
 IsAnimating
 (
 )

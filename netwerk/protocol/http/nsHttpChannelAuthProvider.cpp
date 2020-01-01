@@ -295,7 +295,7 @@ ProcessAuthentication
 (
 PRUint32
 httpStatus
-bool
+PRBool
 SSLConnectFailed
 )
 {
@@ -1187,7 +1187,7 @@ GetAuthPrompt
 nsIInterfaceRequestor
 *
 ifreq
-bool
+PRBool
 proxyAuth
 nsIAuthPrompt2
 *
@@ -1277,7 +1277,7 @@ GenCredsAndSetEntry
 nsIHttpAuthenticator
 *
 auth
-bool
+PRBool
 proxyAuth
 const
 char
@@ -1451,7 +1451,7 @@ result
 ;
 #
 endif
-bool
+PRBool
 saveCreds
 =
 0
@@ -1466,7 +1466,7 @@ nsIHttpAuthenticator
 REUSABLE_CREDENTIALS
 )
 ;
-bool
+PRBool
 saveChallenge
 =
 0
@@ -1481,7 +1481,7 @@ nsIHttpAuthenticator
 REUSABLE_CHALLENGE
 )
 ;
-bool
+PRBool
 saveIdentity
 =
 0
@@ -1549,7 +1549,7 @@ nsHttpChannelAuthProvider
 :
 PrepareForAuthentication
 (
-bool
+PRBool
 proxyAuth
 )
 {
@@ -1779,7 +1779,7 @@ const
 char
 *
 challenges
-bool
+PRBool
 proxyAuth
 nsAFlatCString
 &
@@ -1841,10 +1841,10 @@ rv
 =
 NS_ERROR_NOT_AVAILABLE
 ;
-bool
+PRBool
 gotCreds
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -2078,7 +2078,7 @@ nsHttpChannelAuthProvider
 :
 GetAuthorizationMembers
 (
-bool
+PRBool
 proxyAuth
 nsCSubstring
 &
@@ -2244,7 +2244,7 @@ const
 char
 *
 authType
-bool
+PRBool
 proxyAuth
 nsIHttpAuthenticator
 *
@@ -2353,10 +2353,10 @@ nsCAutoString
 path
 scheme
 ;
-bool
+PRBool
 identFromURI
 =
-false
+PR_FALSE
 ;
 nsISupports
 *
@@ -2462,7 +2462,7 @@ entry
 >
 mMetaData
 ;
-bool
+PRBool
 identityInvalid
 ;
 nsISupports
@@ -3220,10 +3220,10 @@ if
 p
 )
 {
-bool
+PRBool
 has_quote
 =
-false
+PR_FALSE
 ;
 p
 +
@@ -3425,7 +3425,7 @@ PromptForIdentity
 (
 PRUint32
 level
-bool
+PRBool
 proxyAuth
 const
 char
@@ -3757,10 +3757,10 @@ NS_ERROR_IN_PROGRESS
 }
 else
 {
-bool
+PRBool
 retval
 =
-false
+PR_FALSE
 ;
 rv
 =
@@ -4169,7 +4169,7 @@ OnAuthCancelled
 nsISupports
 *
 aContext
-bool
+PRBool
 userCancel
 )
 {
@@ -4364,7 +4364,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsHttpChannelAuthProvider
 :
 :
@@ -4374,7 +4374,7 @@ const
 nsString
 &
 bundleKey
-bool
+PRBool
 doYesNoPrompt
 )
 {
@@ -4701,7 +4701,7 @@ mSuppressDefensiveAuth
 =
 PR_TRUE
 ;
-bool
+PRBool
 confirmed
 ;
 if
@@ -4712,10 +4712,10 @@ doYesNoPrompt
 PRInt32
 choice
 ;
-bool
+PRBool
 checkState
 =
-false
+PR_FALSE
 ;
 rv
 =
@@ -4949,7 +4949,7 @@ Clear
 )
 ;
 }
-bool
+PRBool
 identFromURI
 ;
 if
@@ -5059,7 +5059,7 @@ rv
 )
 )
 {
-bool
+PRBool
 proxyAuth
 =
 (

@@ -112,10 +112,10 @@ nsnull
 nsAutoString
 literalString
 ;
-bool
+PRBool
 inExpr
 =
-false
+PR_FALSE
 ;
 nsSubstring
 :
@@ -3724,7 +3724,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 txExprParser
 :
 :
@@ -4278,7 +4278,7 @@ aLocalName
 PRInt32
 &
 aNamespace
-bool
+PRBool
 aIsNameTest
 )
 {

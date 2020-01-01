@@ -119,7 +119,7 @@ char
 aFileName
 )
 ;
-bool
+PRBool
 IsDataAvailable
 (
 )

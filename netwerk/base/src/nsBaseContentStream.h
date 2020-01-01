@@ -38,7 +38,7 @@ NS_DECL_NSIINPUTSTREAM
 NS_DECL_NSIASYNCINPUTSTREAM
 nsBaseContentStream
 (
-bool
+PRBool
 nonBlocking
 )
 :
@@ -61,7 +61,7 @@ return
 mStatus
 ;
 }
-bool
+PRBool
 IsNonBlocking
 (
 )
@@ -70,7 +70,7 @@ return
 mNonBlocking
 ;
 }
-bool
+PRBool
 IsClosed
 (
 )
@@ -82,7 +82,7 @@ mStatus
 )
 ;
 }
-bool
+PRBool
 HasPendingCallback
 (
 )
@@ -107,10 +107,10 @@ mCallbackTarget
 void
 DispatchCallback
 (
-bool
+PRBool
 async
 =
-true
+PR_TRUE
 )
 ;
 void
@@ -159,7 +159,7 @@ mCallbackTarget
 nsresult
 mStatus
 ;
-bool
+PRPackedBool
 mNonBlocking
 ;
 }

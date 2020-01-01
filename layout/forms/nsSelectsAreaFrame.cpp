@@ -846,7 +846,7 @@ broken
 "
 )
 ;
-bool
+PRBool
 isInDropdownMode
 =
 list

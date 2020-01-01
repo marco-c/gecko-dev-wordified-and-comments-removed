@@ -1531,7 +1531,7 @@ return
 i
 ;
 }
-bool
+PRBool
 TimerThread
 :
 :

@@ -206,7 +206,7 @@ nsAutodial
 {
 private
 :
-bool
+PRBool
 IsAutodialServiceRunning
 (
 )
@@ -236,7 +236,7 @@ int
 bufferSize
 )
 ;
-bool
+PRBool
 IsRASConnected
 (
 )
@@ -246,7 +246,7 @@ QueryAutodialBehavior
 (
 )
 ;
-bool
+PRBool
 AddAddressToAutodialDirectory
 (
 const
@@ -260,7 +260,7 @@ GetCurrentLocation
 (
 )
 ;
-bool
+PRBool
 IsAutodialServiceEnabled
 (
 int
@@ -359,12 +359,12 @@ static
 tRASGETAUTODIALPARAM
 mpRasGetAutodialParam
 ;
-bool
+PRBool
 LoadRASapi32DLL
 (
 )
 ;
-bool
+PRBool
 LoadRASdlgDLL
 (
 )
@@ -395,7 +395,7 @@ PRUnichar
 hostName
 )
 ;
-bool
+PRBool
 ShouldDialOnNetworkError
 (
 )

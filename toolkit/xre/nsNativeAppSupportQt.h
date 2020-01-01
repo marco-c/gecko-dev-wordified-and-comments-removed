@@ -95,7 +95,7 @@ public
 NS_IMETHOD
 Start
 (
-bool
+PRBool
 *
 aRetVal
 )
@@ -103,7 +103,7 @@ aRetVal
 NS_IMETHOD
 Stop
 (
-bool
+PRBool
 *
 aResult
 )

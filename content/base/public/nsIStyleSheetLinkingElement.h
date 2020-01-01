@@ -79,7 +79,7 @@ aStyleSheet
 NS_IMETHOD
 InitStyleLinkElement
 (
-bool
+PRBool
 aDontLoadStyle
 )
 =
@@ -91,10 +91,10 @@ UpdateStyleSheet
 nsICSSLoaderObserver
 *
 aObserver
-bool
+PRBool
 *
 aWillNotify
-bool
+PRBool
 *
 aIsAlternate
 )
@@ -104,7 +104,7 @@ aIsAlternate
 NS_IMETHOD
 SetEnableUpdates
 (
-bool
+PRBool
 aEnableUpdates
 )
 =

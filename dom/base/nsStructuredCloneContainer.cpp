@@ -207,7 +207,7 @@ jsBytes
 =
 nsnull
 ;
-bool
+PRBool
 success
 =
 JS_WriteStructuredClone
@@ -425,7 +425,7 @@ nsnull
 jsval
 jsStateObj
 ;
-bool
+PRBool
 success
 =
 JS_ReadStructuredClone

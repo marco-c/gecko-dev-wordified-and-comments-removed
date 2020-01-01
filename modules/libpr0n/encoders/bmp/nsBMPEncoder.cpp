@@ -8,7 +8,7 @@ h
 #
 include
 "
-EndianMacros
+Endian
 .
 h
 "
@@ -1365,7 +1365,7 @@ nsBMPEncoder
 :
 IsNonBlocking
 (
-bool
+PRBool
 *
 _retval
 )

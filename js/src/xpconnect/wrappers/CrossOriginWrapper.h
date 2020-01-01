@@ -25,10 +25,7 @@ class
 NoWaiverWrapper
 :
 public
-js
-:
-:
-CrossCompartmentWrapper
+JSCrossCompartmentWrapper
 {
 public
 :

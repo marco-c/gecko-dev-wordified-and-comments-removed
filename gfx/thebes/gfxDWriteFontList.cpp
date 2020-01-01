@@ -989,7 +989,7 @@ gfxDWriteFontEntry
 )
 {
 }
-bool
+PRBool
 gfxDWriteFontEntry
 :
 :
@@ -1486,13 +1486,13 @@ Elements
 (
 )
 ;
-bool
+PRPackedBool
 unicodeFont
 =
-false
+PR_FALSE
 symbolFont
 =
-false
+PR_FALSE
 ;
 rv
 =
@@ -1618,7 +1618,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-bool
+PRPackedBool
 isSymbol
 =
 fontFace
@@ -1628,10 +1628,10 @@ IsSymbolFont
 (
 )
 ;
-bool
+PRPackedBool
 isUnicode
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -1725,7 +1725,7 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
+PRBool
 aNeedsBold
 )
 {
@@ -1831,7 +1831,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 gfxDWriteFontEntry
 :
 :
@@ -1893,7 +1893,7 @@ PR_TRUE
 )
 ;
 }
-bool
+PRBool
 gfxDWriteFontEntry
 :
 :
@@ -2098,7 +2098,7 @@ const
 gfxFontStyle
 *
 aStyle
-bool
+PRBool
 &
 aNeedsBold
 )
@@ -2210,7 +2210,7 @@ nsAString
 aFullname
 )
 {
-bool
+PRBool
 found
 ;
 gfxFontEntry
@@ -2886,7 +2886,7 @@ directwrite
 .
 use_gdi_table_loading
 "
-false
+PR_FALSE
 )
 ;
 gfxPlatformFontList
@@ -3933,10 +3933,10 @@ GetFontList
 PRUint32
 i
 ;
-bool
+PRBool
 allUltraBold
 =
-true
+PR_TRUE
 ;
 for
 (
@@ -5137,7 +5137,7 @@ substituteName
 }
 }
 }
-bool
+PRBool
 gfxDWriteFontList
 :
 :
@@ -5262,7 +5262,7 @@ aFamilyArray
 )
 ;
 }
-bool
+PRBool
 gfxDWriteFontList
 :
 :

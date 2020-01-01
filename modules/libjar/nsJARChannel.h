@@ -163,7 +163,7 @@ nsIZipReaderCache
 nsresult
 EnsureJarInput
 (
-bool
+PRBool
 blocking
 )
 ;
@@ -253,10 +253,10 @@ mLoadFlags
 nsresult
 mStatus
 ;
-bool
+PRPackedBool
 mIsPending
 ;
-bool
+PRPackedBool
 mIsUnsafe
 ;
 nsJARInputThunk

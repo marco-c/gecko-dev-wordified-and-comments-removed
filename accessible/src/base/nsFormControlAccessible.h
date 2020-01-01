@@ -61,13 +61,6 @@ NativeRole
 (
 )
 ;
-virtual
-bool
-IsWidget
-(
-)
-const
-;
 }
 ;
 class
@@ -123,13 +116,6 @@ eAction_Click
 =
 0
 }
-;
-virtual
-bool
-IsWidget
-(
-)
-const
 ;
 }
 ;

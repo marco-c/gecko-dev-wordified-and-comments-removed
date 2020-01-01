@@ -91,7 +91,7 @@ IsEnabled
 (
 PRInt32
 aTag
-bool
+PRBool
 *
 aReturn
 )
@@ -213,7 +213,7 @@ aNode
 ;
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 IsFormOnStack
 (

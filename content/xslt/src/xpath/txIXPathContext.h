@@ -70,7 +70,7 @@ aFunction
 0
 ;
 virtual
-bool
+PRBool
 caseInsensitiveNameTests
 (
 )

@@ -344,7 +344,7 @@ const
 nsACString
 &
 aName
-bool
+PRBool
 *
 _hasAnno
 )
@@ -515,7 +515,7 @@ nsACString
 aName
 )
 ;
-bool
+PRBool
 InPrivateBrowsingMode
 (
 )

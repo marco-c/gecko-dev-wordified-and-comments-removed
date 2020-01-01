@@ -1282,10 +1282,6 @@ visited_image_loading_frame_empty
 .
 html
 \
-test_load_events_on_stylesheets
-.
-html
-\
 (
 NULL
 )

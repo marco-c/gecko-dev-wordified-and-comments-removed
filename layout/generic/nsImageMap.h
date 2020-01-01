@@ -72,6 +72,9 @@ nsImageMap
 nsresult
 Init
 (
+nsIPresShell
+*
+aPresShell
 nsIFrame
 *
 aImageFrame
@@ -80,7 +83,7 @@ nsIContent
 aMap
 )
 ;
-bool
+PRBool
 IsInside
 (
 nscoord
@@ -151,10 +154,10 @@ SearchForAreas
 nsIContent
 *
 aParent
-bool
+PRBool
 &
 aFoundArea
-bool
+PRBool
 &
 aFoundAnchor
 )
@@ -175,6 +178,10 @@ nsIContent
 aContent
 )
 ;
+nsIPresShell
+*
+mPresShell
+;
 nsIFrame
 *
 mImageFrame
@@ -193,7 +200,7 @@ Area
 >
 mAreas
 ;
-bool
+PRBool
 mContainsBlockContents
 ;
 }

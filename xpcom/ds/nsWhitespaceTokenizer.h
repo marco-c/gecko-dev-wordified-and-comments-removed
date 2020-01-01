@@ -59,7 +59,7 @@ mIter
 ;
 }
 }
-bool
+PRBool
 hasMoreTokens
 (
 )
@@ -151,7 +151,7 @@ const_char_iterator
 mIter
 mEnd
 ;
-bool
+PRBool
 isWhitespace
 (
 PRUnichar
@@ -252,7 +252,7 @@ mIter
 ;
 }
 }
-bool
+PRBool
 hasMoreTokens
 (
 )
@@ -344,7 +344,7 @@ const_char_iterator
 mIter
 mEnd
 ;
-bool
+PRBool
 isWhitespace
 (
 char

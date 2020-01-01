@@ -93,7 +93,7 @@ aResult
 const
 ;
 static
-bool
+PRBool
 MatchOptions
 (
 nsIContent
@@ -224,7 +224,7 @@ NS_IMPL_ELEMENT_CLONE
 (
 nsHTMLDataListElement
 )
-bool
+PRBool
 nsHTMLDataListElement
 :
 :

@@ -174,7 +174,7 @@ mReentrantMonitor
 }
 ;
 }
-bool
+PRBool
 AddOverflow32
 (
 PRUint32
@@ -186,7 +186,7 @@ PRUint32
 aResult
 )
 ;
-bool
+PRBool
 MulOverflow32
 (
 PRUint32
@@ -198,7 +198,7 @@ PRUint32
 aResult
 )
 ;
-bool
+PRBool
 AddOverflow
 (
 PRInt64
@@ -210,7 +210,7 @@ PRInt64
 aResult
 )
 ;
-bool
+PRBool
 MulOverflow
 (
 PRInt64
@@ -222,11 +222,11 @@ PRInt64
 aResult
 )
 ;
-bool
-FramesToUsecs
+PRBool
+SamplesToUsecs
 (
 PRInt64
-aFrames
+aSamples
 PRUint32
 aRate
 PRInt64
@@ -234,8 +234,8 @@ PRInt64
 aOutUsecs
 )
 ;
-bool
-UsecsToFrames
+PRBool
+UsecsToSamples
 (
 PRInt64
 aUsecs
@@ -243,7 +243,7 @@ PRUint32
 aRate
 PRInt64
 &
-aOutFrames
+aOutSamples
 )
 ;
 static

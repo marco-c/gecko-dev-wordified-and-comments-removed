@@ -483,10 +483,6 @@ test_media
 .
 html
 \
-test_select
-.
-html
-\
 test_tree
 .
 xul

@@ -65,7 +65,7 @@ nsDOMValidityState
 :
 GetValueMissing
 (
-bool
+PRBool
 *
 aValueMissing
 )
@@ -91,7 +91,7 @@ nsDOMValidityState
 :
 GetTypeMismatch
 (
-bool
+PRBool
 *
 aTypeMismatch
 )
@@ -117,7 +117,7 @@ nsDOMValidityState
 :
 GetPatternMismatch
 (
-bool
+PRBool
 *
 aPatternMismatch
 )
@@ -143,7 +143,7 @@ nsDOMValidityState
 :
 GetTooLong
 (
-bool
+PRBool
 *
 aTooLong
 )
@@ -169,7 +169,7 @@ nsDOMValidityState
 :
 GetRangeUnderflow
 (
-bool
+PRBool
 *
 aRangeUnderflow
 )
@@ -195,7 +195,7 @@ nsDOMValidityState
 :
 GetRangeOverflow
 (
-bool
+PRBool
 *
 aRangeOverflow
 )
@@ -221,7 +221,7 @@ nsDOMValidityState
 :
 GetStepMismatch
 (
-bool
+PRBool
 *
 aStepMismatch
 )
@@ -247,7 +247,7 @@ nsDOMValidityState
 :
 GetCustomError
 (
-bool
+PRBool
 *
 aCustomError
 )
@@ -273,7 +273,7 @@ nsDOMValidityState
 :
 GetValid
 (
-bool
+PRBool
 *
 aValid
 )

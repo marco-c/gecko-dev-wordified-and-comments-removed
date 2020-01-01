@@ -24,7 +24,7 @@ Sensor
 public
 :
 virtual
-bool
+PRBool
 Startup
 (
 )

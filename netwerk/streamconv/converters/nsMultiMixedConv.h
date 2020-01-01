@@ -245,7 +245,7 @@ mContentDispositionHeader
 PRUint64
 mContentLength
 ;
-bool
+PRBool
 mIsByteRangeRequest
 ;
 PRInt64
@@ -257,7 +257,7 @@ mByteRangeEnd
 PRUint32
 mPartID
 ;
-bool
+PRBool
 mIsLastPart
 ;
 }
@@ -324,7 +324,7 @@ aPtr
 PRUint32
 &
 aLen
-bool
+PRBool
 *
 _retval
 )
@@ -362,10 +362,10 @@ PRUint32
 aLen
 )
 ;
-bool
+PRBool
 mNewPart
 ;
-bool
+PRBool
 mProcessingHeaders
 ;
 nsCOMPtr
@@ -411,7 +411,7 @@ mBufLen
 PRUint64
 mTotalSent
 ;
-bool
+PRBool
 mFirstOnData
 ;
 PRInt64
@@ -420,7 +420,7 @@ mByteRangeStart
 PRInt64
 mByteRangeEnd
 ;
-bool
+PRBool
 mIsByteRangeRequest
 ;
 PRUint32

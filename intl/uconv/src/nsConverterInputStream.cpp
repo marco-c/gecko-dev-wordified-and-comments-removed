@@ -1044,7 +1044,7 @@ ReadLine
 nsAString
 &
 aLine
-bool
+PRBool
 *
 aResult
 )

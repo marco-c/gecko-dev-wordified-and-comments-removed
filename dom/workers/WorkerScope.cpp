@@ -22,6 +22,13 @@ h
 #
 include
 "
+jsobj
+.
+h
+"
+#
+include
+"
 nsTraceRefcnt
 .
 h

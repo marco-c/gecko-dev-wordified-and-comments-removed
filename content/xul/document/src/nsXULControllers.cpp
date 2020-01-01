@@ -404,7 +404,7 @@ if
 controller
 )
 {
-bool
+PRBool
 supportsCommand
 ;
 controller

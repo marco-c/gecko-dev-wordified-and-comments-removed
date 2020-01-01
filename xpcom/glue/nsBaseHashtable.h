@@ -148,7 +148,7 @@ DataType
 >
 EntryType
 ;
-bool
+PRBool
 Init
 (
 PRUint32
@@ -170,7 +170,7 @@ initSize
 )
 ;
 }
-bool
+PRBool
 IsInitialized
 (
 )
@@ -205,7 +205,7 @@ Count
 )
 ;
 }
-bool
+PRBool
 Get
 (
 KeyType
@@ -288,7 +288,7 @@ ent
 mData
 ;
 }
-bool
+PRBool
 Put
 (
 KeyType
@@ -652,7 +652,7 @@ nsBaseHashtableMT
 (
 )
 ;
-bool
+PRBool
 Init
 (
 PRUint32
@@ -661,7 +661,7 @@ initSize
 PL_DHASH_MIN_SIZE
 )
 ;
-bool
+PRBool
 IsInitialized
 (
 )
@@ -680,7 +680,7 @@ Count
 )
 const
 ;
-bool
+PRBool
 Get
 (
 KeyType
@@ -691,7 +691,7 @@ pData
 )
 const
 ;
-bool
+PRBool
 Put
 (
 KeyType
@@ -1067,7 +1067,7 @@ DataType
 class
 UserDataType
 >
-bool
+PRBool
 nsBaseHashtableMT
 <
 KeyClass
@@ -1217,7 +1217,7 @@ DataType
 class
 UserDataType
 >
-bool
+PRBool
 nsBaseHashtableMT
 <
 KeyClass
@@ -1244,7 +1244,7 @@ this
 mLock
 )
 ;
-bool
+PRBool
 res
 =
 nsBaseHashtable
@@ -1282,7 +1282,7 @@ DataType
 class
 UserDataType
 >
-bool
+PRBool
 nsBaseHashtableMT
 <
 KeyClass
@@ -1307,7 +1307,7 @@ this
 mLock
 )
 ;
-bool
+PRBool
 res
 =
 nsBaseHashtable

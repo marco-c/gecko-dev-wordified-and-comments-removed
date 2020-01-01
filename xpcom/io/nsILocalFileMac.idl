@@ -1207,7 +1207,7 @@ const
 FSRef
 *
 aFSRef
-bool
+PRBool
 aFollowSymlinks
 nsILocalFileMac
 *
@@ -1222,7 +1222,7 @@ NS_NewLocalFileWithCFURL
 const
 CFURLRef
 aURL
-bool
+PRBool
 aFollowSymlinks
 nsILocalFileMac
 *

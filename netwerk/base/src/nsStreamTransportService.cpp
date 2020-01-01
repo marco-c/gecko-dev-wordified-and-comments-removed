@@ -134,7 +134,7 @@ PRUint64
 offset
 PRUint64
 limit
-bool
+PRBool
 closeWhenDone
 )
 :
@@ -197,13 +197,13 @@ mOffset
 PRUint64
 mLimit
 ;
-bool
+PRPackedBool
 mCloseWhenDone
 ;
-bool
+PRPackedBool
 mFirstTime
 ;
-bool
+PRPackedBool
 mInProgress
 ;
 }
@@ -265,7 +265,7 @@ rv
 return
 rv
 ;
-bool
+PRBool
 nonblocking
 =
 !
@@ -694,7 +694,7 @@ nsInputStreamTransport
 :
 IsNonBlocking
 (
-bool
+PRBool
 *
 result
 )
@@ -730,7 +730,7 @@ PRUint64
 offset
 PRUint64
 limit
-bool
+PRBool
 closeWhenDone
 )
 :
@@ -793,13 +793,13 @@ mOffset
 PRUint64
 mLimit
 ;
-bool
+PRPackedBool
 mCloseWhenDone
 ;
-bool
+PRPackedBool
 mFirstTime
 ;
-bool
+PRPackedBool
 mInProgress
 ;
 }
@@ -893,7 +893,7 @@ rv
 return
 rv
 ;
-bool
+PRBool
 nonblocking
 =
 !
@@ -1308,7 +1308,7 @@ nsOutputStreamTransport
 :
 IsNonBlocking
 (
-bool
+PRBool
 *
 result
 )
@@ -1475,7 +1475,7 @@ nsStreamTransportService
 :
 IsOnCurrentThread
 (
-bool
+PRBool
 *
 result
 )
@@ -1509,7 +1509,7 @@ PRInt64
 offset
 PRInt64
 limit
-bool
+PRBool
 closeWhenDone
 nsITransport
 *
@@ -1563,7 +1563,7 @@ PRInt64
 offset
 PRInt64
 limit
-bool
+PRBool
 closeWhenDone
 nsITransport
 *

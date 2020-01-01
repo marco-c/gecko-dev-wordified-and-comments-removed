@@ -50,7 +50,7 @@ PRUint32
 length
 )
 ;
-bool
+PRBool
 Next
 (
 PRUint32

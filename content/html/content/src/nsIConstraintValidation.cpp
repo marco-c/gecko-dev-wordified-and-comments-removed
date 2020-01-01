@@ -382,7 +382,7 @@ nsIConstraintValidation
 :
 CheckValidity
 (
-bool
+PRBool
 *
 aValidity
 )
@@ -474,11 +474,11 @@ SetValidityState
 (
 ValidityStateType
 aState
-bool
+PRBool
 aValue
 )
 {
-bool
+PRBool
 previousValidity
 =
 IsValid
@@ -620,11 +620,11 @@ nsIConstraintValidation
 :
 SetBarredFromConstraintValidation
 (
-bool
+PRBool
 aBarred
 )
 {
-bool
+PRBool
 previousBarred
 =
 mBarredFromConstraintValidation

@@ -112,7 +112,7 @@ aAccessKey
 ;
 NS_DECL_ISUPPORTS
 static
-bool
+PRBool
 IsAccessKeyPressed
 (
 nsIDOMKeyEvent
@@ -146,14 +146,14 @@ nsMenuBarFrame
 *
 mMenuBarFrame
 ;
-bool
+PRPackedBool
 mAccessKeyDown
 ;
-bool
+PRPackedBool
 mAccessKeyDownCanceled
 ;
 static
-bool
+PRBool
 mAccessKeyFocuses
 ;
 static

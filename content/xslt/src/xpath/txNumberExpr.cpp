@@ -342,7 +342,7 @@ NUMBER_RESULT
 mLeftExpr
 mRightExpr
 )
-bool
+PRBool
 txNumberExpr
 :
 :

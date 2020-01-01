@@ -111,7 +111,7 @@ aId
 jsval
 *
 _vp
-bool
+PRBool
 *
 _retval
 )
@@ -542,7 +542,7 @@ JSObject
 *
 *
 _objp
-bool
+PRBool
 *
 _retval
 )

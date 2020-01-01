@@ -65,10 +65,10 @@ _
 '
 )
 ;
-bool
+PRBool
 lastWasEscape
 =
-false
+PR_FALSE
 ;
 while
 (
@@ -973,7 +973,7 @@ aArgv
 )
 )
 ;
-bool
+PRBool
 toUpper
 =
 :
@@ -983,9 +983,9 @@ sqlite3_user_data
 aCtx
 )
 ?
-true
+PR_TRUE
 :
-false
+PR_FALSE
 ;
 if
 (

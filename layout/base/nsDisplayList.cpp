@@ -166,7 +166,7 @@ nsIFrame
 aReferenceFrame
 Mode
 aMode
-bool
+PRBool
 aBuildCaret
 )
 :
@@ -514,7 +514,7 @@ break
 }
 }
 static
-bool
+PRBool
 IsFixedFrame
 (
 nsIFrame
@@ -549,7 +549,7 @@ GetParent
 ;
 }
 static
-bool
+PRBool
 IsFixedItem
 (
 nsDisplayItem
@@ -558,7 +558,7 @@ aItem
 nsDisplayListBuilder
 *
 aBuilder
-bool
+PRBool
 *
 aIsFixedBackground
 )
@@ -593,7 +593,7 @@ aBuilder
 ;
 }
 static
-bool
+PRBool
 ForceVisiblityForFixedItem
 (
 nsDisplayListBuilder
@@ -602,7 +602,7 @@ aBuilder
 nsDisplayItem
 *
 aItem
-bool
+PRBool
 *
 aIsFixedBackground
 )
@@ -1535,7 +1535,7 @@ IncrementPaintCount
 )
 ;
 }
-bool
+PRBool
 buildCaret
 =
 mBuildCaret
@@ -2130,7 +2130,7 @@ return
 bounds
 ;
 }
-bool
+PRBool
 nsDisplayList
 :
 :
@@ -2187,7 +2187,7 @@ aItem
 nsDisplayListBuilder
 *
 aBuilder
-bool
+PRBool
 *
 aTransparentBackground
 )
@@ -2285,7 +2285,7 @@ aBuilder
 nsDisplayItem
 *
 aItem
-bool
+PRBool
 aIgnoreTransform
 )
 {
@@ -2351,7 +2351,7 @@ ReferenceFrame
 )
 ;
 }
-bool
+PRBool
 nsDisplayList
 :
 :
@@ -2415,10 +2415,10 @@ mVisibleRect
 =
 aListVisibleBounds
 ;
-bool
+PRBool
 anyVisible
 =
-false
+PR_FALSE
 ;
 nsAutoTArray
 <
@@ -2434,10 +2434,10 @@ FlattenTo
 elements
 )
 ;
-bool
+PRBool
 forceTransparentSurface
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -2599,7 +2599,7 @@ aBuilder
 nsRegion
 itemVisible
 ;
-bool
+PRBool
 isFixedBackground
 ;
 if
@@ -2667,10 +2667,10 @@ anyVisible
 =
 PR_TRUE
 ;
-bool
+PRBool
 transparentBackground
 =
-false
+PR_FALSE
 ;
 nsRegion
 opaque
@@ -3430,7 +3430,7 @@ nsDisplayItem
 }
 }
 static
-bool
+PRBool
 GetMouseThrough
 (
 const
@@ -3808,10 +3808,10 @@ aCount
 /
 2
 ;
-bool
+PRBool
 sorted
 =
-true
+PR_TRUE
 ;
 nsDisplayItem
 *
@@ -4017,7 +4017,7 @@ RemoveBottom
 }
 }
 static
-bool
+PRBool
 IsContentLEQ
 (
 nsDisplayItem
@@ -4074,7 +4074,7 @@ aClosure
 ;
 }
 static
-bool
+PRBool
 IsZPositionLEQ
 (
 nsDisplayItem
@@ -4197,7 +4197,7 @@ _43
 ;
 }
 static
-bool
+PRBool
 IsZOrderLEQ
 (
 nsDisplayItem
@@ -4275,10 +4275,10 @@ nsDisplayListBuilder
 aBuilder
 )
 {
-bool
+PRBool
 anyAnonymousItems
 =
-false
+PR_FALSE
 ;
 nsDisplayItem
 *
@@ -4563,7 +4563,7 @@ aClosure
 )
 ;
 }
-bool
+PRBool
 nsDisplayItem
 :
 :
@@ -4588,7 +4588,7 @@ aBuilder
 nsRegion
 itemVisible
 ;
-bool
+PRBool
 isFixedBackground
 ;
 if
@@ -4651,7 +4651,7 @@ nsRect
 return
 PR_FALSE
 ;
-bool
+PRBool
 forceTransparentBackground
 ;
 nsRegion
@@ -4682,7 +4682,7 @@ static
 nsRect
 SnapBounds
 (
-bool
+PRBool
 aSnappingEnabled
 nsPresContext
 *
@@ -5035,7 +5035,7 @@ nsStyleContext
 *
 bgSC
 ;
-bool
+PRBool
 hasBG
 =
 nsCSSRendering
@@ -5078,7 +5078,7 @@ SetHasFixedItems
 }
 }
 static
-bool
+PRBool
 CheckCorner
 (
 nscoord
@@ -5194,7 +5194,7 @@ scaledY
 ;
 }
 static
-bool
+PRBool
 RoundedRectIntersectsRect
 (
 const
@@ -5369,7 +5369,7 @@ NS_CORNER_BOTTOM_LEFT_Y
 ;
 }
 static
-bool
+PRBool
 RoundedBorderIntersectsRect
 (
 nsIFrame
@@ -5442,7 +5442,7 @@ aTestRect
 ;
 }
 static
-bool
+PRBool
 RoundedRectContainsRect
 (
 const
@@ -5565,7 +5565,7 @@ mFrame
 )
 ;
 }
-bool
+PRBool
 nsDisplayBackground
 :
 :
@@ -5666,7 +5666,7 @@ radii
 nsRect
 clipRect
 ;
-bool
+PRBool
 haveRadii
 ;
 switch
@@ -5857,7 +5857,7 @@ GetOpaqueRegion
 nsDisplayListBuilder
 *
 aBuilder
-bool
+PRBool
 *
 aForceTransparentSurface
 )
@@ -6160,7 +6160,7 @@ return
 result
 ;
 }
-bool
+PRBool
 nsDisplayBackground
 :
 :
@@ -6234,7 +6234,7 @@ nsStyleContext
 *
 bgSC
 ;
-bool
+PRBool
 hasBG
 =
 nsCSSRendering
@@ -6374,7 +6374,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsDisplayBackground
 :
 :
@@ -6410,7 +6410,7 @@ nsStyleContext
 *
 bgSC
 ;
-bool
+PRBool
 hasBG
 =
 nsCSSRendering
@@ -6484,7 +6484,7 @@ mFrame
 )
 ;
 }
-bool
+PRBool
 nsDisplayBackground
 :
 :
@@ -6517,7 +6517,7 @@ nsStyleContext
 *
 bgSC
 ;
-bool
+PRBool
 hasBG
 =
 nsCSSRendering
@@ -6982,7 +6982,7 @@ GetStyleContext
 )
 ;
 }
-bool
+PRBool
 nsDisplayOutline
 :
 :
@@ -7170,7 +7170,7 @@ ToReferenceFrame
 )
 ;
 }
-bool
+PRBool
 nsDisplayBorder
 :
 :
@@ -7661,7 +7661,7 @@ ToReferenceFrame
 )
 ;
 }
-bool
+PRBool
 nsDisplayBoxShadowOuter
 :
 :
@@ -7754,7 +7754,7 @@ twipsRadii
 8
 ]
 ;
-bool
+PRBool
 hasBorderRadii
 =
 mFrame
@@ -7906,7 +7906,7 @@ PopState
 ;
 }
 }
-bool
+PRBool
 nsDisplayBoxShadowInner
 :
 :
@@ -8106,7 +8106,7 @@ aBuilder
 )
 ;
 }
-bool
+PRBool
 nsDisplayWrapList
 :
 :
@@ -8145,7 +8145,7 @@ GetOpaqueRegion
 nsDisplayListBuilder
 *
 aBuilder
-bool
+PRBool
 *
 aForceTransparentSurface
 )
@@ -8185,7 +8185,7 @@ return
 result
 ;
 }
-bool
+PRBool
 nsDisplayWrapList
 :
 :
@@ -8203,7 +8203,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsDisplayWrapList
 :
 :
@@ -8262,7 +8262,7 @@ painting
 )
 ;
 }
-bool
+PRBool
 nsDisplayWrapList
 :
 :
@@ -8957,7 +8957,7 @@ GetOpaqueRegion
 nsDisplayListBuilder
 *
 aBuilder
-bool
+PRBool
 *
 aForceTransparentSurface
 )
@@ -9115,7 +9115,7 @@ LAYER_ACTIVE
 LAYER_INACTIVE
 ;
 }
-bool
+PRBool
 nsDisplayOpacity
 :
 :
@@ -9177,7 +9177,7 @@ allowExpansion
 )
 ;
 }
-bool
+PRBool
 nsDisplayOpacity
 :
 :
@@ -9723,7 +9723,7 @@ forget
 )
 ;
 }
-bool
+PRBool
 nsDisplayScrollLayer
 :
 :
@@ -9806,7 +9806,7 @@ allowExpansion
 boundedRect
 )
 ;
-bool
+PRBool
 visible
 =
 mList
@@ -9861,7 +9861,7 @@ return
 LAYER_ACTIVE_FORCE
 ;
 }
-bool
+PRBool
 nsDisplayScrollLayer
 :
 :
@@ -9972,7 +9972,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsDisplayScrollLayer
 :
 :
@@ -10012,10 +10012,10 @@ Properties
 #
 ifdef
 DEBUG
-bool
+PRBool
 hasCount
 =
-false
+PR_FALSE
 ;
 PRWord
 result
@@ -10192,7 +10192,7 @@ return
 LAYER_ACTIVE_EMPTY
 ;
 }
-bool
+PRBool
 nsDisplayScrollInfoLayer
 :
 :
@@ -10210,7 +10210,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsDisplayScrollInfoLayer
 :
 :
@@ -10434,7 +10434,7 @@ painting
 )
 ;
 }
-bool
+PRBool
 nsDisplayClip
 :
 :
@@ -10481,7 +10481,7 @@ mClip
 aAllowVisibleRegionExpansion
 )
 ;
-bool
+PRBool
 anyVisible
 =
 nsDisplayWrapList
@@ -10519,7 +10519,7 @@ return
 anyVisible
 ;
 }
-bool
+PRBool
 nsDisplayClip
 :
 :
@@ -10752,7 +10752,7 @@ GetOpaqueRegion
 nsDisplayListBuilder
 *
 aBuilder
-bool
+PRBool
 *
 aForceTransparentSurface
 )
@@ -10859,7 +10859,7 @@ mRadii
 )
 ;
 }
-bool
+PRBool
 nsDisplayClipRoundedRect
 :
 :
@@ -10904,7 +10904,7 @@ nsRect
 )
 ;
 }
-bool
+PRBool
 nsDisplayClipRoundedRect
 :
 :
@@ -11212,7 +11212,7 @@ PAINT_DEFAULT
 )
 ;
 }
-bool
+PRBool
 nsDisplayZoom
 :
 :
@@ -11269,7 +11269,7 @@ mParentAPD
 mAPD
 )
 ;
-bool
+PRBool
 retval
 =
 mList
@@ -12207,6 +12207,45 @@ aFrame
 )
 ;
 }
+if
+(
+!
+aFrame
+-
+>
+GetStyleDisplay
+(
+)
+-
+>
+HasTransform
+(
+)
+)
+{
+return
+GetResultingTransformMatrix
+(
+aFrame
+-
+>
+GetParent
+(
+)
+aOrigin
+-
+aFrame
+-
+>
+GetPosition
+(
+)
+aFactor
+nsnull
+aOutAncestor
+)
+;
+}
 gfxPoint3D
 toMozOrigin
 =
@@ -12281,7 +12320,7 @@ aFrame
 )
 )
 ;
-bool
+PRBool
 dummy
 ;
 gfx3DMatrix
@@ -12838,7 +12877,7 @@ LAYER_ACTIVE
 LAYER_INACTIVE
 ;
 }
-bool
+PRBool
 nsDisplayTransform
 :
 :
@@ -13379,7 +13418,7 @@ GetOpaqueRegion
 nsDisplayListBuilder
 *
 aBuilder
-bool
+PRBool
 *
 aForceTransparentSurface
 )
@@ -13480,7 +13519,7 @@ return
 result
 ;
 }
-bool
+PRBool
 nsDisplayTransform
 :
 :
@@ -13575,7 +13614,7 @@ aColor
 #
 ifndef
 UNIFIED_CONTINUATIONS
-bool
+PRBool
 nsDisplayTransform
 :
 :
@@ -13595,7 +13634,7 @@ PR_FALSE
 }
 #
 else
-bool
+PRBool
 nsDisplayTransform
 :
 :
@@ -13854,7 +13893,7 @@ factor
 )
 ;
 }
-bool
+PRBool
 nsDisplayTransform
 :
 :
@@ -14060,7 +14099,7 @@ GetOpaqueRegion
 nsDisplayListBuilder
 *
 aBuilder
-bool
+PRBool
 *
 aForceTransparentSurface
 )
@@ -14190,7 +14229,7 @@ mList
 )
 ;
 }
-bool
+PRBool
 nsDisplaySVGEffects
 :
 :
@@ -14274,7 +14313,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsDisplaySVGEffects
 :
 :
@@ -14422,7 +14461,7 @@ nsDisplayForcePaintOnScroll
 }
 #
 endif
-bool
+PRBool
 nsDisplayForcePaintOnScroll
 :
 :

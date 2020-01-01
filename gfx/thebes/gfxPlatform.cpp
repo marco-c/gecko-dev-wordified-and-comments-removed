@@ -342,10 +342,10 @@ gCMSRGBATransform
 nsnull
 ;
 static
-bool
+PRBool
 gCMSInitialized
 =
-false
+PR_FALSE
 ;
 static
 eCMSMode
@@ -2200,7 +2200,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-bool
+PRBool
 gfxPlatform
 :
 :
@@ -2224,7 +2224,7 @@ Preferences
 GetBool
 (
 GFX_DOWNLOADABLE_FONTS_ENABLED
-false
+PR_FALSE
 )
 ;
 }
@@ -2232,7 +2232,7 @@ return
 mAllowDownloadableFonts
 ;
 }
-bool
+PRBool
 gfxPlatform
 :
 :
@@ -2256,7 +2256,7 @@ Preferences
 GetBool
 (
 GFX_DOWNLOADABLE_FONTS_SANITIZE
-true
+PR_TRUE
 )
 ;
 }
@@ -2264,7 +2264,7 @@ return
 mDownloadableFontsSanitize
 ;
 }
-bool
+PRBool
 gfxPlatform
 :
 :
@@ -2608,7 +2608,7 @@ aLanguage
 nsString
 &
 aFonts
-bool
+PRBool
 aAppendUnicode
 )
 {
@@ -2640,7 +2640,7 @@ nsnull
 )
 ;
 }
-bool
+PRBool
 gfxPlatform
 :
 :
@@ -3351,7 +3351,7 @@ eFontPrefLang_Others
 ;
 }
 }
-bool
+PRBool
 gfxPlatform
 :
 :
@@ -4182,7 +4182,7 @@ mode
 )
 ;
 }
-bool
+PRBool
 enableV4
 ;
 rv
@@ -4520,7 +4520,7 @@ color_management
 .
 force_srgb
 "
-false
+PR_FALSE
 )
 )
 {
@@ -5011,7 +5011,7 @@ color_management
 .
 enabled
 "
-false
+PR_FALSE
 )
 )
 {
@@ -5138,10 +5138,10 @@ length
 i
 )
 {
-bool
+PRBool
 surrogatePair
 =
-false
+PR_FALSE
 ;
 PRUint32
 ch

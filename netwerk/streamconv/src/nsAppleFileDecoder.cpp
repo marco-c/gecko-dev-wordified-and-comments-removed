@@ -181,7 +181,7 @@ do_QueryInterface
 outputFile
 )
 ;
-bool
+PRBool
 saveFollowLinks
 ;
 macFile
@@ -272,10 +272,10 @@ if
 m_headerOk
 )
 {
-bool
+PRBool
 dataOk
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -319,7 +319,7 @@ id
 dataOk
 =
 (
-bool
+PRBool
 )
 (
 m_totalDataForkWritten
@@ -337,7 +337,7 @@ break
 ;
 }
 }
-bool
+PRBool
 resourceOk
 =
 FALSE
@@ -374,7 +374,7 @@ id
 resourceOk
 =
 (
-bool
+PRBool
 )
 (
 m_totalResourceForkWritten
@@ -813,7 +813,7 @@ nsAppleFileDecoder
 :
 IsNonBlocking
 (
-bool
+PRBool
 *
 aNonBlocking
 )

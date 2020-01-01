@@ -535,7 +535,7 @@ nsNetworkLinkService
 :
 GetIsLinkUp
 (
-bool
+PRBool
 *
 aIsUp
 )
@@ -555,7 +555,7 @@ nsNetworkLinkService
 :
 GetLinkStatusKnown
 (
-bool
+PRBool
 *
 aIsUp
 )
@@ -1084,7 +1084,7 @@ PR_FALSE
 return
 ;
 }
-bool
+PRBool
 reachable
 =
 (
@@ -1096,7 +1096,7 @@ kSCNetworkFlagsReachable
 =
 0
 ;
-bool
+PRBool
 needsConnection
 =
 (

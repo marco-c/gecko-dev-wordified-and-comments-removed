@@ -289,7 +289,7 @@ const
 nsACString
 &
 aContractId
-bool
+PRBool
 aIsThreadsafe
 )
 ;
@@ -342,10 +342,10 @@ PRIntervalTime
 aTimeoutInterval
 =
 0
-bool
+PRBool
 aClearQueue
 =
-false
+PR_FALSE
 )
 ;
 void
@@ -382,7 +382,7 @@ GetPoolForGlobal
 nsIScriptGlobalObject
 *
 aGlobalObject
-bool
+PRBool
 aRemove
 )
 ;
@@ -490,7 +490,7 @@ GetWorkerCloseHandlerTimeoutMS
 (
 )
 ;
-bool
+PRBool
 QueueSuspendedWorker
 (
 nsDOMWorkerRunnable
@@ -541,7 +541,7 @@ mSuspendedWorkers
 nsDataHashtable
 <
 nsCStringHashKey
-bool
+PRBool
 >
 mThreadsafeContractIDs
 ;
@@ -557,7 +557,7 @@ mPlatform
 nsString
 mUserAgent
 ;
-bool
+PRBool
 mNavigatorStringsLoaded
 ;
 }

@@ -80,7 +80,7 @@ nsIEditor
 :
 EDirection
 aAction
-bool
+PRBool
 *
 aCancel
 )

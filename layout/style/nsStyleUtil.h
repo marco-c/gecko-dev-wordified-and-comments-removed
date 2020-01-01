@@ -109,7 +109,7 @@ aWeight
 )
 ;
 static
-bool
+PRBool
 DashMatchCompare
 (
 const
@@ -218,15 +218,15 @@ aAlpha
 )
 ;
 static
-bool
+PRBool
 IsSignificantChild
 (
 nsIContent
 *
 aChild
-bool
+PRBool
 aTextIsSignificant
-bool
+PRBool
 aWhitespaceIsSignificant
 )
 ;

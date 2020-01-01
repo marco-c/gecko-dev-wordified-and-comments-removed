@@ -45,10 +45,10 @@ left
 nscoord
 right
 ;
-bool
+PRBool
 collapsed
 ;
-bool
+PRBool
 bogus
 ;
 nsBoxSize
@@ -93,10 +93,10 @@ nsComputedBoxSize
 nscoord
 size
 ;
-bool
+PRBool
 valid
 ;
-bool
+PRBool
 resized
 ;
 nsComputedBoxSize
@@ -501,7 +501,7 @@ nsSprocketLayout
 )
 ;
 static
-bool
+PRBool
 IsHorizontal
 (
 nsIBox
@@ -520,7 +520,7 @@ const
 nsSize
 &
 aSize2
-bool
+PRBool
 aIsHorizontal
 )
 ;
@@ -535,7 +535,7 @@ const
 nsSize
 &
 aSize2
-bool
+PRBool
 aIsHorizontal
 )
 ;
@@ -550,7 +550,7 @@ const
 nsSize
 &
 aSizeToAdd
-bool
+PRBool
 aIsHorizontal
 )
 ;
@@ -565,7 +565,7 @@ const
 nsSize
 &
 aSizeToAdd
-bool
+PRBool
 aIsHorizontal
 )
 ;
@@ -644,7 +644,7 @@ nsRect
 aContainingRect
 PRInt32
 aFlexes
-bool
+PRBool
 &
 aFinished
 )
@@ -658,7 +658,7 @@ aBox
 nsBoxLayoutState
 &
 aState
-bool
+PRBool
 *
 aNeedsRedraw
 )
@@ -720,7 +720,7 @@ aComputedBoxSizes
 )
 ;
 virtual
-bool
+PRBool
 GetDefaultFlex
 (
 PRInt32

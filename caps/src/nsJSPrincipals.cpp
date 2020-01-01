@@ -167,7 +167,7 @@ nsJSPrincipals
 other
 )
 ;
-bool
+PRBool
 result
 ;
 nsresult

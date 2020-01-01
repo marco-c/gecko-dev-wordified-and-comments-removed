@@ -500,7 +500,7 @@ b
 *
 (
 (
-bool
+PRBool
 *
 )
 ap

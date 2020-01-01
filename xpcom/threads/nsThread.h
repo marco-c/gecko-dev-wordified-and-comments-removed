@@ -100,7 +100,7 @@ return
 mThread
 ;
 }
-bool
+PRBool
 ShutdownRequired
 (
 )
@@ -125,7 +125,7 @@ nsThread
 (
 )
 ;
-bool
+PRBool
 ShuttingDown
 (
 )
@@ -177,10 +177,10 @@ obs
 )
 ;
 }
-bool
+PRBool
 GetEvent
 (
-bool
+PRBool
 mayWait
 nsIRunnable
 *
@@ -231,10 +231,10 @@ filter
 )
 {
 }
-bool
+PRBool
 GetEvent
 (
-bool
+PRBool
 mayWait
 nsIRunnable
 *
@@ -252,7 +252,7 @@ event
 )
 ;
 }
-bool
+PRBool
 PutEvent
 (
 nsIRunnable
@@ -260,7 +260,7 @@ nsIRunnable
 event
 )
 ;
-bool
+PRBool
 HasPendingEvent
 (
 )
@@ -338,13 +338,13 @@ nsThreadShutdownContext
 *
 mShutdownContext
 ;
-bool
+PRPackedBool
 mShutdownRequired
 ;
-bool
+PRPackedBool
 mShutdownPending
 ;
-bool
+PRPackedBool
 mEventsAreDoomed
 ;
 }
@@ -381,7 +381,7 @@ NS_ERROR_NOT_INITIALIZED
 )
 {
 }
-bool
+PRBool
 IsPending
 (
 )

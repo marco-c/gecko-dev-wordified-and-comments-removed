@@ -141,7 +141,7 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
+PRBool
 aNeedsBold
 AntialiasOption
 anAAOption
@@ -294,7 +294,7 @@ anAAOption
 ;
 }
 static
-bool
+PRBool
 UseUniscribe
 (
 gfxTextRun
@@ -320,10 +320,10 @@ GetFlags
 (
 )
 ;
-bool
+PRBool
 useGDI
 ;
-bool
+PRBool
 isXP
 =
 (
@@ -385,7 +385,7 @@ SIC_COMPLEX
 S_OK
 ;
 }
-bool
+PRBool
 gfxGDIFont
 :
 :
@@ -407,7 +407,7 @@ PRUint32
 aRunLength
 PRInt32
 aRunScript
-bool
+PRBool
 aPreferPlatformShaping
 )
 {
@@ -445,10 +445,10 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 ok
 =
-false
+PR_FALSE
 ;
 SetupCairoFont
 (
@@ -514,7 +514,7 @@ GetFontEntry
 )
 )
 ;
-bool
+PRBool
 preferUniscribe
 =
 (
@@ -805,7 +805,7 @@ return
 mSpaceGlyph
 ;
 }
-bool
+PRBool
 gfxGDIFont
 :
 :
@@ -2255,7 +2255,7 @@ Weight
 (
 )
 ;
-bool
+PRBool
 italic
 =
 (

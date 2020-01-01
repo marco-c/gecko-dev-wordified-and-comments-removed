@@ -1614,7 +1614,7 @@ nsnull
 #
 ifdef
 DEBUG
-bool
+PRBool
 ret
 =
 #

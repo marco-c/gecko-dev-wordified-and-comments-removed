@@ -177,7 +177,7 @@ mStatus
 nsLoadFlags
 mLoadFlags
 ;
-bool
+PRBool
 mWasOpened
 ;
 nsCOMPtr
@@ -491,10 +491,10 @@ GetScheme
 urlScheme
 )
 ;
-bool
+PRBool
 haveHandler
 =
-false
+PR_FALSE
 ;
 extProtService
 -
@@ -915,7 +915,7 @@ nsExtProtocolChannel
 :
 IsPending
 (
-bool
+PRBool
 *
 result
 )
@@ -1109,7 +1109,7 @@ const
 char
 *
 scheme
-bool
+PRBool
 *
 _retval
 )
@@ -1123,7 +1123,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsExternalProtocolHandler
 :
 :
@@ -1134,10 +1134,10 @@ nsIURI
 aURI
 )
 {
-bool
+PRBool
 haveHandler
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -1294,7 +1294,7 @@ nsIChannel
 _retval
 )
 {
-bool
+PRBool
 haveExternalHandler
 =
 HaveExternalProtocolHandler
@@ -1387,7 +1387,7 @@ const
 nsACString
 &
 aScheme
-bool
+PRBool
 *
 _retval
 )

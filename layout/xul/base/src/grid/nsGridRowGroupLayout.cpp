@@ -121,7 +121,7 @@ aBox
 index
 )
 ;
-bool
+PRBool
 isHorizontal
 =
 IsHorizontal
@@ -155,7 +155,7 @@ nsSize
 aSize
 nscoord
 aSize2
-bool
+PRBool
 aIsHorizontal
 )
 {
@@ -240,7 +240,7 @@ if
 grid
 )
 {
-bool
+PRBool
 isHorizontal
 =
 IsHorizontal
@@ -370,7 +370,7 @@ if
 grid
 )
 {
-bool
+PRBool
 isHorizontal
 =
 IsHorizontal
@@ -500,7 +500,7 @@ if
 grid
 )
 {
-bool
+PRBool
 isHorizontal
 =
 IsHorizontal
@@ -944,7 +944,7 @@ GetTotalMargin
 nsIBox
 *
 aBox
-bool
+PRBool
 aIsHorizontal
 )
 {

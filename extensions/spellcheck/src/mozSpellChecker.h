@@ -122,7 +122,7 @@ SetDocument
 nsITextServicesDocument
 *
 aDoc
-bool
+PRBool
 aFromStartofDoc
 )
 ;
@@ -147,7 +147,7 @@ const
 nsAString
 &
 aWord
-bool
+PRBool
 *
 aIsMisspelled
 nsTArray
@@ -169,7 +169,7 @@ const
 nsAString
 &
 aNewWord
-bool
+PRBool
 aAllOccurrences
 )
 ;
@@ -270,7 +270,7 @@ mozISpellCheckingEngine
 >
 mSpellCheckingEngine
 ;
-bool
+PRBool
 mFromStart
 ;
 nsresult

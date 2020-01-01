@@ -122,7 +122,7 @@ const
 nsAString
 &
 aValue
-bool
+PRBool
 aNotify
 )
 {
@@ -618,7 +618,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsHTMLFrameSetElement
 :
 :
@@ -975,7 +975,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-bool
+PRBool
 isInQuirks
 =
 InNavQuirksMode

@@ -89,7 +89,7 @@ nsSVGPaintServerFrame
 .
 h
 "
-bool
+PRBool
 nsSVGIntegrationUtils
 :
 :
@@ -879,7 +879,7 @@ r
 offset
 ;
 }
-bool
+PRBool
 nsSVGIntegrationUtils
 :
 :
@@ -1164,10 +1164,10 @@ GetEffectProperties
 firstFrame
 )
 ;
-bool
+PRBool
 isOK
 =
-true
+PR_TRUE
 ;
 nsSVGClipPathFrame
 *
@@ -1205,7 +1205,7 @@ GetMaskFrame
 isOK
 )
 ;
-bool
+PRBool
 isTrivialClip
 =
 clipPathFrame
@@ -1217,7 +1217,7 @@ IsTrivial
 (
 )
 :
-true
+PR_TRUE
 ;
 if
 (
@@ -1320,10 +1320,10 @@ GetInitialMatrix
 aEffectsFrame
 )
 ;
-bool
+PRBool
 complexEffects
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -2050,7 +2050,7 @@ aRenderSize
 {
 }
 virtual
-bool
+PRBool
 operator
 (
 )
@@ -2093,7 +2093,7 @@ mRenderSize
 ;
 }
 ;
-bool
+PRBool
 PaintFrameCallback
 :
 :

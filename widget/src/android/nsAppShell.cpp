@@ -448,7 +448,7 @@ this
 kObservedPrefs
 )
 ;
-bool
+PRBool
 match
 ;
 rv
@@ -652,7 +652,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 match
 ;
 nsresult
@@ -799,13 +799,13 @@ NATIVE_POKE
 )
 ;
 }
-bool
+PRBool
 nsAppShell
 :
 :
 ProcessNextNativeEvent
 (
-bool
+PRBool
 mayWait
 )
 {

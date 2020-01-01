@@ -137,7 +137,7 @@ mozIStorageConnection
 >
 mStorageConnection
 ;
-bool
+PRBool
 mGenerationStarted
 ;
 }

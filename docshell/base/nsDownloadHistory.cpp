@@ -121,7 +121,7 @@ history
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-bool
+PRBool
 visited
 ;
 nsresult

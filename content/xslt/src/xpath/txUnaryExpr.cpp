@@ -117,7 +117,7 @@ UnaryExpr
 NODESET_RESULT
 expr
 )
-bool
+PRBool
 UnaryExpr
 :
 :

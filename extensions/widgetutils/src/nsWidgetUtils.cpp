@@ -315,10 +315,10 @@ g_panning
 0
 ;
 static
-bool
+PRBool
 g_is_scrollable
 =
-false
+PR_FALSE
 ;
 #
 define
@@ -419,7 +419,7 @@ nsIDOMWindow
 aDOMWin
 )
 ;
-bool
+PRBool
 IsXULNode
 (
 nsIDOMNode
@@ -690,10 +690,10 @@ type
 =
 0
 ;
-bool
+PRBool
 isXul
 =
-false
+PR_FALSE
 ;
 {
 nsCOMPtr
@@ -1634,7 +1634,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsWidgetUtils
 :
 :
@@ -1648,10 +1648,10 @@ PRUint32
 aType
 )
 {
-bool
+PRBool
 retval
 =
-false
+PR_FALSE
 ;
 if
 (

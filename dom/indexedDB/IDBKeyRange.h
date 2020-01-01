@@ -67,9 +67,9 @@ aLower
 nsIVariant
 *
 aUpper
-bool
+PRBool
 aLowerOpen
-bool
+PRBool
 aUpperOpen
 )
 ;
@@ -107,10 +107,10 @@ nsIVariant
 >
 mUpper
 ;
-bool
+PRPackedBool
 mLowerOpen
 ;
-bool
+PRPackedBool
 mUpperOpen
 ;
 }

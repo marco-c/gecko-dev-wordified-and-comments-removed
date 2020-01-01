@@ -126,7 +126,7 @@ AnimationFunction
 )
 ;
 virtual
-bool
+PRBool
 GetTargetAttributeName
 (
 PRInt32

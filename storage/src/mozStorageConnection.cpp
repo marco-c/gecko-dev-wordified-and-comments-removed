@@ -1076,10 +1076,10 @@ Run
 (
 )
 {
-bool
+PRBool
 onCallingThread
 =
-false
+PR_FALSE
 ;
 (
 void
@@ -2478,7 +2478,7 @@ const
 nsACString
 &
 aElementName
-bool
+PRBool
 *
 _exists
 )
@@ -2750,7 +2750,7 @@ if
 mProgressHandler
 )
 {
-bool
+PRBool
 result
 ;
 nsresult
@@ -2796,7 +2796,7 @@ setClosedState
 (
 )
 {
-bool
+PRBool
 onOpenedThread
 ;
 nsresult
@@ -2913,10 +2913,10 @@ setClosedState
 ;
 }
 {
-bool
+PRBool
 onOpenedThread
 =
-false
+PR_FALSE
 ;
 (
 void
@@ -3422,7 +3422,7 @@ Connection
 :
 Clone
 (
-bool
+PRBool
 aReadOnly
 mozIStorageConnection
 *
@@ -3542,7 +3542,7 @@ Connection
 :
 GetConnectionReady
 (
-bool
+PRBool
 *
 _ready
 )
@@ -3760,7 +3760,7 @@ _version
 =
 0
 ;
-bool
+PRBool
 hasResult
 ;
 if
@@ -4198,7 +4198,7 @@ const
 nsACString
 &
 aTableName
-bool
+PRBool
 *
 _exists
 )
@@ -4222,7 +4222,7 @@ const
 nsACString
 &
 aIndexName
-bool
+PRBool
 *
 _exists
 )
@@ -4242,7 +4242,7 @@ Connection
 :
 GetTransactionInProgress
 (
-bool
+PRBool
 *
 _inProgress
 )

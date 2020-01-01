@@ -470,7 +470,7 @@ rv
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-bool
+PRBool
 isUrl
 ;
 rv
@@ -1100,7 +1100,7 @@ const
 char
 *
 scheme
-bool
+PRBool
 *
 result
 )

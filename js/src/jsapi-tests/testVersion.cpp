@@ -19,13 +19,6 @@ jscntxt
 .
 h
 "
-#
-include
-"
-jscntxtinlines
-.
-h
-"
 using
 namespace
 js

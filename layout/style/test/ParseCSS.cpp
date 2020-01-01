@@ -196,7 +196,7 @@ return
 -
 1
 ;
-bool
+PRBool
 complete
 ;
 sheet

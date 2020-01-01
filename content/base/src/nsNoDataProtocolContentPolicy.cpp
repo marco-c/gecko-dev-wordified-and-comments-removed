@@ -204,7 +204,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 shouldBlock
 ;
 nsresult

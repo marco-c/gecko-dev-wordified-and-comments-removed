@@ -192,7 +192,7 @@ return
 mKey
 ;
 }
-bool
+PRBool
 KeyEquals
 (
 KeyTypePointer
@@ -322,7 +322,7 @@ nsDOMAttributeMap
 (
 )
 ;
-bool
+PRBool
 Init
 (
 )
@@ -497,7 +497,7 @@ nsIDOMNode
 *
 *
 aReturn
-bool
+PRBool
 aWithNS
 )
 ;
@@ -516,10 +516,10 @@ nsIDOMNode
 *
 *
 aReturn
-bool
+PRBool
 aRemove
 =
-false
+PR_FALSE
 )
 ;
 nsDOMAttribute
@@ -529,7 +529,7 @@ GetAttribute
 nsINodeInfo
 *
 aNodeInfo
-bool
+PRBool
 aNsAware
 )
 ;

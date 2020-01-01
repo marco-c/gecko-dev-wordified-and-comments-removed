@@ -14,7 +14,7 @@ Flatten
 nsACString
 &
 buf
-bool
+PRBool
 pruneProxyHeaders
 )
 {

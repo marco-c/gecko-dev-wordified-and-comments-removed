@@ -214,10 +214,10 @@ mHasClassInterface
 PRUint32
 mInterfacesBitmap
 ;
-bool
+PRPackedBool
 mChromeOnly
 ;
-bool
+PRPackedBool
 mDisabled
 ;
 #
@@ -368,7 +368,7 @@ aResult
 )
 ;
 static
-bool
+PRBool
 ObjectIsNativeWrapper
 (
 JSContext
@@ -494,7 +494,7 @@ JSContext
 cx
 jsid
 id
-bool
+PRBool
 *
 aIsNumber
 =
@@ -503,7 +503,7 @@ nsnull
 ;
 static
 inline
-bool
+PRBool
 IsReadonlyReplaceable
 (
 jsid
@@ -617,7 +617,7 @@ sURL_id
 }
 static
 inline
-bool
+PRBool
 IsWritableReplaceable
 (
 jsid
@@ -701,15 +701,15 @@ cx
 )
 ;
 static
-bool
+PRBool
 sIsInitialized
 ;
 static
-bool
+PRBool
 sDisableDocumentAllSupport
 ;
 static
-bool
+PRBool
 sDisableGlobalScopePollutionSupport
 ;
 public
@@ -1127,7 +1127,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -1204,7 +1204,7 @@ JSObject
 obj
 jsid
 id
-bool
+PRBool
 *
 did_resolve
 )
@@ -1353,7 +1353,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -1370,7 +1370,7 @@ cx
 JSObject
 *
 obj
-bool
+PRBool
 *
 _retval
 )
@@ -1395,7 +1395,7 @@ JSObject
 *
 *
 objp
-bool
+PRBool
 *
 _retval
 )
@@ -1601,7 +1601,7 @@ mode
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -1712,7 +1712,7 @@ JSObject
 *
 *
 objp
-bool
+PRBool
 *
 _retval
 )
@@ -1765,7 +1765,7 @@ nsNodeSH
 )
 {
 }
-bool
+PRBool
 IsCapabilityEnabled
 (
 const
@@ -1775,7 +1775,7 @@ aCapability
 )
 ;
 inline
-bool
+PRBool
 IsPrivilegedScript
 (
 )
@@ -1837,7 +1837,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -1862,7 +1862,7 @@ JSObject
 *
 *
 objp
-bool
+PRBool
 *
 _retval
 )
@@ -1978,7 +1978,7 @@ cx
 JSObject
 *
 obj
-bool
+PRBool
 *
 _retval
 )
@@ -2053,7 +2053,7 @@ JSObject
 *
 *
 objp
-bool
+PRBool
 *
 _retval
 )
@@ -2070,7 +2070,7 @@ cx
 JSObject
 *
 obj
-bool
+PRBool
 *
 _retval
 )
@@ -2181,7 +2181,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -2346,7 +2346,7 @@ JSObject
 *
 *
 objp
-bool
+PRBool
 *
 _retval
 )
@@ -2393,7 +2393,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -2779,7 +2779,7 @@ JSObject
 *
 *
 objp
-bool
+PRBool
 *
 _retval
 )
@@ -2796,7 +2796,7 @@ cx
 JSObject
 *
 obj
-bool
+PRBool
 *
 _retval
 )
@@ -2836,7 +2836,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -2858,7 +2858,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -2880,7 +2880,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -2978,7 +2978,7 @@ JSObject
 *
 *
 objp
-bool
+PRBool
 *
 _retval
 )
@@ -3214,7 +3214,7 @@ JSObject
 *
 *
 objp
-bool
+PRBool
 *
 _retval
 )
@@ -3236,7 +3236,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -3330,7 +3330,7 @@ JSObject
 *
 *
 objp
-bool
+PRBool
 *
 _retval
 )
@@ -3352,7 +3352,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -3377,7 +3377,7 @@ statep
 jsid
 *
 idp
-bool
+PRBool
 *
 _retval
 )
@@ -3452,7 +3452,7 @@ JSObject
 *
 *
 objp
-bool
+PRBool
 *
 _retval
 )
@@ -3474,7 +3474,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -3496,7 +3496,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -3627,7 +3627,7 @@ JSObject
 *
 *
 objp
-bool
+PRBool
 *
 _retval
 )
@@ -3681,7 +3681,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -3703,7 +3703,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -3728,7 +3728,7 @@ argv
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -3815,7 +3815,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -4173,7 +4173,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -4259,7 +4259,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -5115,7 +5115,7 @@ JSObject
 *
 *
 objp
-bool
+PRBool
 *
 _retval
 )
@@ -5137,7 +5137,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -5159,7 +5159,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -5184,7 +5184,7 @@ statep
 jsid
 *
 idp
-bool
+PRBool
 *
 _retval
 )
@@ -5303,7 +5303,7 @@ JSObject
 *
 *
 objp
-bool
+PRBool
 *
 _retval
 )
@@ -5325,7 +5325,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -5347,7 +5347,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -5369,7 +5369,7 @@ id
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -5394,7 +5394,7 @@ statep
 jsid
 *
 idp
-bool
+PRBool
 *
 _retval
 )
@@ -5615,7 +5615,7 @@ argv
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -5640,7 +5640,7 @@ argv
 jsval
 *
 vp
-bool
+PRBool
 *
 _retval
 )
@@ -5661,10 +5661,10 @@ const
 jsval
 &
 val
-bool
+PRBool
 *
 bp
-bool
+PRBool
 *
 _retval
 )

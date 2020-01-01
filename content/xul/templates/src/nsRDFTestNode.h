@@ -39,7 +39,7 @@ aParent
 {
 }
 virtual
-bool
+PRBool
 CanPropagate
 (
 nsIRDFResource

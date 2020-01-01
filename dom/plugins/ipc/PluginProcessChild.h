@@ -92,6 +92,16 @@ CleanUp
 (
 )
 ;
+static
+void
+AppendNotesToCrashReport
+(
+const
+nsCString
+&
+aNotes
+)
+;
 protected
 :
 static

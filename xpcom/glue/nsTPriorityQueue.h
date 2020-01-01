@@ -95,7 +95,7 @@ mCompare
 )
 {
 }
-bool
+PRBool
 IsEmpty
 (
 )
@@ -152,7 +152,7 @@ mElements
 ]
 ;
 }
-bool
+PRBool
 Push
 (
 const

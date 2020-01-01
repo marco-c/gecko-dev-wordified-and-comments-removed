@@ -375,10 +375,10 @@ nsContentUtils
 :
 TYPE_CONTENT
 :
-bool
+PRBool
 isImage
 =
-false
+PR_FALSE
 ;
 mImgLoader
 -

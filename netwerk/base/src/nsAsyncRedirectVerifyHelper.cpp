@@ -262,7 +262,7 @@ nsIChannel
 newChan
 PRUint32
 flags
-bool
+PRBool
 synchronize
 )
 {
@@ -1062,7 +1062,7 @@ IsOldChannelCanceled
 (
 )
 {
-bool
+PRBool
 canceled
 ;
 nsCOMPtr

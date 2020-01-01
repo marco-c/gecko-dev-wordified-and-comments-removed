@@ -49,10 +49,10 @@ const
 PRUint32
 mSIDs
 ;
-bool
+PRPackedBool
 mCanStoreInRuleTree
 ;
-bool
+PRPackedBool
 mIsImportantRule
 ;
 PRUint8

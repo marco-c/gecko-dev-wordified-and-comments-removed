@@ -90,7 +90,7 @@ aNodeToJoin
 nsIDOMNode
 *
 aParent
-bool
+PRBool
 aNodeToKeepIsFirst
 )
 =

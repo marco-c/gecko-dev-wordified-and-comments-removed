@@ -145,19 +145,19 @@ namespace
 mozilla
 ;
 static
-bool
+PRBool
 gCodeBasePrincipalSupport
 =
-false
+PR_FALSE
 ;
 static
-bool
+PRBool
 gIsObservingCodeBasePrincipalSupport
 =
-false
+PR_FALSE
 ;
 static
-bool
+PRBool
 URIIsImmutable
 (
 nsIURI
@@ -177,7 +177,7 @@ aURI
 )
 )
 ;
-bool
+PRBool
 isMutable
 ;
 return
@@ -734,7 +734,7 @@ NS_ERROR_FAILURE
 nsCAutoString
 hostPort
 ;
-bool
+PRBool
 isChrome
 ;
 nsresult
@@ -961,7 +961,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsPrincipal
 :
 :
@@ -972,7 +972,7 @@ nsIPrincipal
 aOther
 )
 {
-bool
+PRBool
 otherHasCert
 ;
 aOther
@@ -1089,7 +1089,7 @@ Equals
 nsIPrincipal
 *
 aOther
-bool
+PRBool
 *
 aResult
 )
@@ -1248,7 +1248,7 @@ EqualsIgnoringDomain
 nsIPrincipal
 *
 aOther
-bool
+PRBool
 *
 aResult
 )
@@ -1362,7 +1362,7 @@ Subsumes
 nsIPrincipal
 *
 aOther
-bool
+PRBool
 *
 aResult
 )
@@ -1376,7 +1376,7 @@ aResult
 ;
 }
 static
-bool
+PRBool
 URIIsLocalFile
 (
 nsIURI
@@ -1384,7 +1384,7 @@ nsIURI
 aURI
 )
 {
-bool
+PRBool
 isFile
 ;
 nsCOMPtr
@@ -1431,7 +1431,7 @@ CheckMayLoad
 nsIURI
 *
 aURI
-bool
+PRBool
 aReport
 )
 {
@@ -1535,7 +1535,7 @@ nsIFile
 >
 codebaseFile
 ;
-bool
+PRBool
 targetIsDir
 ;
 if
@@ -1650,13 +1650,13 @@ return
 NS_ERROR_DOM_BAD_URI
 ;
 }
-bool
+PRBool
 codebaseIsDir
 ;
-bool
+PRBool
 contained
 =
-false
+PR_FALSE
 ;
 nsresult
 rv
@@ -1873,10 +1873,10 @@ if
 gCodeBasePrincipalSupport
 )
 {
-bool
+PRBool
 mightEnable
 =
-false
+PR_FALSE
 ;
 nsresult
 rv
@@ -2262,7 +2262,7 @@ capability
 void
 *
 annotation
-bool
+PRBool
 *
 result
 )
@@ -2740,7 +2740,7 @@ nsPrincipal
 :
 GetHasCertificate
 (
-bool
+PRBool
 *
 aResult
 )
@@ -3263,9 +3263,9 @@ aDeniedList
 nsISupports
 *
 aCert
-bool
+PRBool
 aIsCert
-bool
+PRBool
 aTrusted
 )
 {
@@ -3619,7 +3619,7 @@ denied
 }
 ;
 static
-bool
+PRBool
 AppendCapability
 (
 nsHashKey
@@ -3787,7 +3787,7 @@ char
 *
 *
 aDeniedList
-bool
+PRBool
 *
 aIsTrusted
 )
@@ -4404,7 +4404,7 @@ nsIObjectInputStream
 aStream
 )
 {
-bool
+PRBool
 hasCapabilities
 ;
 nsresult
@@ -4527,7 +4527,7 @@ n
 ;
 }
 }
-bool
+PRBool
 haveCert
 ;
 rv
@@ -4747,7 +4747,7 @@ rv
 aStream
 -
 >
-ReadBoolean
+Read8
 (
 &
 mTrusted
@@ -4818,7 +4818,7 @@ mCert
 mCodebase
 )
 ;
-bool
+PRBool
 hasCapabilities
 =
 (

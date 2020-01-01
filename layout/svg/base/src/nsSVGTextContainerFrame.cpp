@@ -2070,10 +2070,10 @@ SetWhitespaceCompression
 (
 )
 {
-bool
+PRBool
 compressWhitespace
 =
-true
+PR_TRUE
 ;
 for
 (

@@ -35,7 +35,7 @@ AddObserver
 nsIObserver
 *
 anObserver
-bool
+PRBool
 ownsWeak
 )
 {
@@ -475,7 +475,7 @@ nsObserverEnumerator
 :
 HasMoreElements
 (
-bool
+PRBool
 *
 aResult
 )

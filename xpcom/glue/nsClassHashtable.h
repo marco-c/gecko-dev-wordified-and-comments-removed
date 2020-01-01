@@ -75,7 +75,7 @@ T
 >
 base_type
 ;
-bool
+PRBool
 Get
 (
 KeyType
@@ -159,7 +159,7 @@ T
 >
 base_type
 ;
-bool
+PRBool
 Get
 (
 KeyType
@@ -179,7 +179,7 @@ KeyClass
 class
 T
 >
-bool
+PRBool
 nsClassHashtable
 <
 KeyClass
@@ -385,7 +385,7 @@ KeyClass
 class
 T
 >
-bool
+PRBool
 nsClassHashtableMT
 <
 KeyClass

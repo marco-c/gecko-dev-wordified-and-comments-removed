@@ -549,7 +549,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasResult
 ;
 rv
@@ -599,7 +599,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 isNull
 ;
 rv
@@ -901,7 +901,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasResult
 ;
 rv
@@ -951,7 +951,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 isNull
 ;
 rv
@@ -1235,7 +1235,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasResult
 ;
 if
@@ -1354,10 +1354,10 @@ rv
 rv
 )
 ;
-bool
+PRBool
 hasMore
 =
-false
+PR_FALSE
 ;
 while
 (
@@ -1952,7 +1952,7 @@ page
 revHost
 )
 ;
-bool
+PRBool
 canAddToHistory
 ;
 nsNavHistory

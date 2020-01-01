@@ -39,7 +39,7 @@ obj
 ;
 PR_STATIC_CALLBACK
 (
-bool
+PRBool
 )
 ObjectSetMatchEntry
 (
@@ -91,7 +91,7 @@ key
 }
 PR_STATIC_CALLBACK
 (
-bool
+PRBool
 )
 ObjectSetInitEntry
 (
@@ -532,7 +532,7 @@ singleton
 mActiveSSLSockets
 ;
 }
-bool
+PRBool
 nsNSSShutDownList
 :
 :
@@ -686,7 +686,7 @@ return
 PL_DHASH_NEXT
 ;
 }
-bool
+PRBool
 nsNSSShutDownList
 :
 :
@@ -694,7 +694,7 @@ isUIActive
 (
 )
 {
-bool
+PRBool
 canDisallow
 =
 mActivityState
@@ -707,7 +707,7 @@ nsNSSActivityState
 test_only
 )
 ;
-bool
+PRBool
 bIsUIActive
 =
 !
@@ -717,7 +717,7 @@ return
 bIsUIActive
 ;
 }
-bool
+PRBool
 nsNSSShutDownList
 :
 :
@@ -725,7 +725,7 @@ ifPossibleDisallowUI
 (
 )
 {
-bool
+PRBool
 isNowDisallowed
 =
 mActivityState
@@ -1106,7 +1106,7 @@ mNSSActivityStateLock
 mBlockingUICounter
 ;
 }
-bool
+PRBool
 nsNSSActivityState
 :
 :
@@ -1128,7 +1128,7 @@ mBlockingUICounter
 )
 ;
 }
-bool
+PRBool
 nsNSSActivityState
 :
 :
@@ -1146,7 +1146,7 @@ return
 mIsUIForbidden
 ;
 }
-bool
+PRBool
 nsNSSActivityState
 :
 :
@@ -1156,10 +1156,10 @@ RealOrTesting
 rot
 )
 {
-bool
+PRBool
 retval
 =
-false
+PR_FALSE
 ;
 MutexAutoLock
 lock
@@ -1452,7 +1452,7 @@ leaveBlockingUIState
 )
 ;
 }
-bool
+PRBool
 nsPSMUITracker
 :
 :

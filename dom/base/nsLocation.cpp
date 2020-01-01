@@ -296,7 +296,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 done
 ;
 while
@@ -987,10 +987,10 @@ GetDocumentURI
 )
 ;
 }
-bool
+PRBool
 urisEqual
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -1106,7 +1106,7 @@ nsIURI
 *
 *
 aURI
-bool
+PRBool
 aGetInnermostURI
 )
 {
@@ -1344,7 +1344,7 @@ SetURI
 nsIURI
 *
 aURI
-bool
+PRBool
 aReplace
 )
 {
@@ -2288,7 +2288,7 @@ const
 nsAString
 &
 aHref
-bool
+PRBool
 aReplace
 )
 {
@@ -2344,7 +2344,7 @@ aHref
 nsIURI
 *
 aBase
-bool
+PRBool
 aReplace
 )
 {
@@ -2419,10 +2419,10 @@ if
 newUri
 )
 {
-bool
+PRBool
 inScriptTag
 =
-false
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -3271,7 +3271,7 @@ nsLocation
 :
 Reload
 (
-bool
+PRBool
 aForceget
 )
 {

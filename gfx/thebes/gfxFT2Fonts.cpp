@@ -261,7 +261,7 @@ s
 #
 ifndef
 ANDROID
-bool
+PRBool
 gfxFT2FontGroup
 :
 :
@@ -275,7 +275,7 @@ const
 nsACString
 &
 genericName
-bool
+PRBool
 aUseFontSet
 void
 *
@@ -1022,7 +1022,7 @@ aString
 ;
 }
 static
-bool
+PRBool
 AddFontNameToArray
 (
 const
@@ -1033,7 +1033,7 @@ const
 nsACString
 &
 aGenericName
-bool
+PRBool
 aUseFontSet
 void
 *
@@ -2450,7 +2450,7 @@ nsnull
 }
 #
 endif
-bool
+PRBool
 gfxFT2Font
 :
 :
@@ -2472,14 +2472,14 @@ PRUint32
 aRunLength
 PRInt32
 aRunScript
-bool
+PRBool
 aPreferPlatformShaping
 )
 {
-bool
+PRBool
 ok
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -3149,7 +3149,7 @@ const
 gfxFontStyle
 *
 aFontStyle
-bool
+PRBool
 aNeedsBold
 )
 :
@@ -3237,7 +3237,7 @@ const
 gfxFontStyle
 *
 aStyle
-bool
+PRBool
 aNeedsBold
 )
 {
@@ -3361,7 +3361,7 @@ const
 gfxFontStyle
 *
 aStyle
-bool
+PRBool
 aNeedsBold
 )
 {

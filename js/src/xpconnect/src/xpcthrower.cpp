@@ -529,7 +529,7 @@ char
 *
 *
 psz
-bool
+PRBool
 own
 )
 {
@@ -810,7 +810,7 @@ cx
 ;
 }
 static
-bool
+PRBool
 IsCallerChrome
 (
 JSContext
@@ -926,7 +926,7 @@ secMan
 return
 PR_FALSE
 ;
-bool
+PRBool
 isChrome
 ;
 rv

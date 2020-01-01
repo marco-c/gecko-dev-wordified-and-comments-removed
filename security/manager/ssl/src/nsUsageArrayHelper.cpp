@@ -954,7 +954,7 @@ const
 char
 *
 suffix
-bool
+PRBool
 localOnly
 PRUint32
 outArraySize

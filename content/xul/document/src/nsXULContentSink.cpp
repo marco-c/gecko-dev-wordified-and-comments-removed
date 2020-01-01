@@ -903,7 +903,7 @@ XULContentSinkImpl
 :
 DidBuildModel
 (
-bool
+PRBool
 aTerminated
 )
 {
@@ -1208,7 +1208,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 XULContentSinkImpl
 :
 :
@@ -1300,7 +1300,7 @@ XULContentSinkImpl
 :
 FlushText
 (
-bool
+PRBool
 aCreateTextNode
 )
 {
@@ -1348,10 +1348,10 @@ rv
 return
 rv
 ;
-bool
+PRBool
 stripWhitespace
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -2662,7 +2662,7 @@ aSourceText
 nsIScriptError
 *
 aError
-bool
+PRBool
 *
 _retval
 )
@@ -2973,10 +2973,10 @@ NS_OK
 PRUint32
 i
 ;
-bool
+PRBool
 found
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -3939,10 +3939,10 @@ ecmascript
 nsnull
 }
 ;
-bool
+PRBool
 isJavaScript
 =
-false
+PR_FALSE
 ;
 for
 (

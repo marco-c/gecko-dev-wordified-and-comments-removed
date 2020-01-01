@@ -1660,7 +1660,7 @@ NS_ERROR_FAILURE
 PRUint32
 trustBits
 ;
-bool
+PRBool
 allows
 ;
 rv
@@ -4722,7 +4722,7 @@ PRUint32
 certType
 PRUint32
 trustType
-bool
+PRBool
 *
 _isTrusted
 )
@@ -6213,7 +6213,7 @@ nsNSSCertificateDB
 :
 GetIsOcspOn
 (
-bool
+PRBool
 *
 aOcspOn
 )

@@ -374,7 +374,7 @@ nsCParserNode
 :
 GetAttributeCount
 (
-bool
+PRBool
 askToken
 )
 const
@@ -711,7 +711,7 @@ nsCParserStartNode
 :
 GetAttributeCount
 (
-bool
+PRBool
 askToken
 )
 const

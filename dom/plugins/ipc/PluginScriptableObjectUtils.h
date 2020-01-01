@@ -676,7 +676,7 @@ mVariant
 )
 ;
 }
-bool
+PRBool
 IsOk
 (
 )

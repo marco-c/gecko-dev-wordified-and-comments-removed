@@ -211,7 +211,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsScrollbarButtonFrame
 :
 :
@@ -470,15 +470,15 @@ else
 return
 PR_FALSE
 ;
-bool
+PRBool
 repeat
 =
-true
+PR_TRUE
 ;
-bool
+PRBool
 smoothScroll
 =
-true
+PR_TRUE
 ;
 switch
 (
@@ -711,7 +711,7 @@ nsScrollbarButtonFrame
 :
 DoButtonAction
 (
-bool
+PRBool
 aSmoothScroll
 )
 {

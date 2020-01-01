@@ -95,7 +95,7 @@ nsSVGStopElementBase
 )
 NS_IMETHOD_
 (
-bool
+PRBool
 )
 IsAttributeMapped
 (
@@ -270,7 +270,7 @@ sNumberInfo
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 nsSVGStopElement
 :

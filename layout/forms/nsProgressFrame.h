@@ -112,14 +112,14 @@ aResult
 #
 endif
 virtual
-bool
+PRBool
 IsLeaf
 (
 )
 const
 {
 return
-true
+PR_TRUE
 ;
 }
 virtual
@@ -174,7 +174,7 @@ nsSize
 aBorder
 nsSize
 aPadding
-bool
+PRBool
 aShrinkWrap
 )
 ;
@@ -197,7 +197,7 @@ aRenderingContext
 )
 ;
 virtual
-bool
+PRBool
 IsFrameOfType
 (
 PRUint32

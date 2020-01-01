@@ -52,7 +52,7 @@ virtual
 nsresult
 OpenContentStream
 (
-bool
+PRBool
 async
 nsIInputStream
 *

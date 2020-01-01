@@ -54,7 +54,7 @@ PRUint32
 aWrapCol
 PRUint32
 aFirstLineOffset
-bool
+PRBool
 aRespectNewlines
 nsAString
 &
@@ -74,7 +74,7 @@ aInString
 nsAString
 &
 aOutString
-bool
+PRBool
 aLinebreaksToo
 PRInt32
 *

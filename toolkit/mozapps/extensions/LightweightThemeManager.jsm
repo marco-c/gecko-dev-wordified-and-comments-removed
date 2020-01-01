@@ -1037,11 +1037,8 @@ this
 ;
 req
 .
-addEventListener
-(
-"
-load
-"
+onload
+=
 function
 (
 )
@@ -1129,8 +1126,6 @@ currentTheme
 newData
 ;
 }
-false
-)
 ;
 req
 .

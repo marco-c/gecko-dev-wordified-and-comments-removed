@@ -277,7 +277,7 @@ aNamespace
 nsIAtom
 *
 aName
-bool
+PRBool
 aRequired
 txStylesheetAttr
 *
@@ -375,7 +375,7 @@ txStylesheetAttr
 aAttributes
 PRInt32
 aAttrCount
-bool
+PRBool
 aInXSLTNS
 txStylesheetCompilerState
 &
@@ -567,7 +567,7 @@ aAttrCount
 nsIAtom
 *
 aName
-bool
+PRBool
 aRequired
 txStylesheetCompilerState
 &
@@ -678,7 +678,7 @@ aAttrCount
 nsIAtom
 *
 aName
-bool
+PRBool
 aRequired
 txStylesheetCompilerState
 &
@@ -814,7 +814,7 @@ aAttrCount
 nsIAtom
 *
 aName
-bool
+PRBool
 aRequired
 txStylesheetCompilerState
 &
@@ -950,7 +950,7 @@ aAttrCount
 nsIAtom
 *
 aName
-bool
+PRBool
 aRequired
 txStylesheetCompilerState
 &
@@ -1051,7 +1051,7 @@ aAttrCount
 nsIAtom
 *
 aName
-bool
+PRBool
 aRequired
 txStylesheetCompilerState
 &
@@ -1155,7 +1155,7 @@ aAttrCount
 nsIAtom
 *
 aName
-bool
+PRBool
 aRequired
 txStylesheetCompilerState
 &
@@ -1235,7 +1235,7 @@ aAttrCount
 nsIAtom
 *
 aName
-bool
+PRBool
 aRequired
 txStylesheetCompilerState
 &
@@ -1348,7 +1348,7 @@ aAttrCount
 nsIAtom
 *
 aName
-bool
+PRBool
 aRequired
 txStylesheetCompilerState
 &
@@ -4003,7 +4003,7 @@ rv
 rv
 )
 ;
-bool
+PRBool
 strip
 =
 aLocalName

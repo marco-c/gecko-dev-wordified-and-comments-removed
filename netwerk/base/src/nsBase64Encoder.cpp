@@ -130,7 +130,7 @@ nsBase64Encoder
 :
 IsNonBlocking
 (
-bool
+PRBool
 *
 aNonBlocking
 )

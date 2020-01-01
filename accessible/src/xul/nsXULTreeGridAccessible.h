@@ -323,7 +323,7 @@ IsDefunct
 const
 ;
 virtual
-bool
+PRBool
 Init
 (
 )
@@ -357,14 +357,6 @@ IndexInParent
 (
 )
 const
-;
-virtual
-Relation
-RelationByType
-(
-PRUint32
-aType
-)
 ;
 virtual
 PRUint32
@@ -427,7 +419,7 @@ PRUint32
 aActionIndex
 )
 ;
-bool
+PRBool
 IsEditable
 (
 )

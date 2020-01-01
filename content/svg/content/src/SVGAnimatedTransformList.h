@@ -115,13 +115,13 @@ nsSVGElement
 aElement
 )
 ;
-bool
+PRBool
 IsExplicitlySet
 (
 )
 const
 ;
-bool
+PRBool
 IsAnimating
 (
 )
@@ -158,7 +158,7 @@ SVGTransformList
 >
 mAnimVal
 ;
-bool
+PRPackedBool
 mIsAttrSet
 ;
 #
@@ -207,7 +207,7 @@ aSrcElement
 nsSMILValue
 &
 aValue
-bool
+PRBool
 &
 aPreventCachingOfSandwich
 )

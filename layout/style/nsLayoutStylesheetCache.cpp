@@ -817,10 +817,10 @@ if
 appInfo
 )
 {
-bool
+PRBool
 inSafeMode
 =
-false
+PR_FALSE
 ;
 appInfo
 -
@@ -946,10 +946,10 @@ nsCSSStyleSheet
 aSheet
 )
 {
-bool
+PRBool
 exists
 =
-false
+PR_FALSE
 ;
 aFile
 -
@@ -1005,7 +1005,7 @@ nsCSSStyleSheet
 >
 &
 aSheet
-bool
+PRBool
 aEnableUnsafeRules
 )
 {

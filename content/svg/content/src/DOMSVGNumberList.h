@@ -229,7 +229,7 @@ mAList
 mAttrEnum
 ;
 }
-bool
+PRBool
 IsAnimValList
 (
 )

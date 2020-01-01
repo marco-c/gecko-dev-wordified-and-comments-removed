@@ -714,10 +714,10 @@ defined
 DEBUG
 )
 static
-bool
+PRBool
 firstWarning
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -1216,7 +1216,7 @@ return
 NS_OK
 ;
 }
-bool
+PRBool
 nsDirectoryService
 :
 :
@@ -1380,7 +1380,7 @@ nsISupports
 *
 data
 ;
-bool
+PRBool
 persistent
 ;
 const
@@ -1391,7 +1391,7 @@ uuid
 }
 ;
 static
-bool
+PRBool
 FindProviderFile
 (
 nsISupports
@@ -2000,7 +2000,7 @@ const
 char
 *
 prop
-bool
+PRBool
 *
 _retval
 )
@@ -2193,7 +2193,7 @@ strings
 )
 return
 ;
-bool
+PRBool
 more
 ;
 while
@@ -2354,7 +2354,7 @@ const
 char
 *
 prop
-bool
+PRBool
 *
 persistent
 nsIFile

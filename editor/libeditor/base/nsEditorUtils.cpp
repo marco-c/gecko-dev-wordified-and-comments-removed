@@ -676,7 +676,7 @@ content
 )
 ;
 }
-bool
+PRBool
 nsEditorUtils
 :
 :
@@ -821,7 +821,7 @@ return
 PR_FALSE
 ;
 }
-bool
+PRBool
 nsEditorUtils
 :
 :
@@ -832,10 +832,10 @@ nsIDOMNode
 aNode
 )
 {
-bool
+PRBool
 hasChildren
 =
-false
+PR_FALSE
 ;
 if
 (
@@ -938,7 +938,7 @@ aResult
 )
 ;
 }
-bool
+PRBool
 nsEditorHookUtils
 :
 :
@@ -976,10 +976,10 @@ enumerator
 PR_TRUE
 )
 ;
-bool
+PRBool
 hasMoreHooks
 =
-false
+PR_FALSE
 ;
 while
 (
@@ -1039,10 +1039,10 @@ if
 override
 )
 {
-bool
+PRBool
 doInsert
 =
-true
+PR_TRUE
 ;
 #
 ifdef

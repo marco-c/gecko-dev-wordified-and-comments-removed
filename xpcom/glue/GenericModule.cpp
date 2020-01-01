@@ -471,7 +471,7 @@ CanUnload
 nsIComponentManager
 *
 aCompMgr
-bool
+PRBool
 *
 aResult
 )

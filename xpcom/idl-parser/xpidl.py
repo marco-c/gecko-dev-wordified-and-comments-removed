@@ -791,7 +791,7 @@ Builtin
 boolean
 '
 '
-bool
+PRBool
 '
 )
     

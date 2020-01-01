@@ -239,7 +239,7 @@ mBuffer
 }
 NS_IMETHODIMP_
 (
-bool
+PRBool
 )
 UnicharBufferImpl
 :

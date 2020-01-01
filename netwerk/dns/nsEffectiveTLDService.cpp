@@ -491,7 +491,7 @@ IsEmpty
 return
 NS_ERROR_INSUFFICIENT_DOMAIN_LEVELS
 ;
-bool
+PRBool
 trailingDot
 =
 aHostname

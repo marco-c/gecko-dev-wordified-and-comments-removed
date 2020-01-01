@@ -53,7 +53,7 @@ _flag
 (
 )
 )
-bool
+PRBool
 AttachNewConstructorObject
 (
 XPCCallContext
@@ -92,12 +92,11 @@ wrapper
 )
 {
 return
-js
-:
-:
-IsWrapper
-(
 wrapper
+-
+>
+isWrapper
+(
 )
 ;
 }

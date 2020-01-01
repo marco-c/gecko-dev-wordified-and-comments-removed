@@ -610,10 +610,10 @@ right
 left
 ;
 }
-bool
+PRBool
 haveFloats
 =
-false
+PR_FALSE
 ;
 for
 (
@@ -2076,7 +2076,7 @@ return
 bottom
 ;
 }
-bool
+PRBool
 nsFloatManager
 :
 :

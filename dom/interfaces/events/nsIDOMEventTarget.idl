@@ -937,7 +937,7 @@ aType
 nsIDOMEventListener
 *
 aListener
-bool
+PRBool
 aUseCapture
 )
 {
@@ -975,9 +975,9 @@ aType
 nsIDOMEventListener
 *
 aListener
-bool
+PRBool
 aUseCapture
-bool
+PRBool
 aWantsUntrusted
 )
 {

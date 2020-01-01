@@ -81,7 +81,7 @@ nsIBrowserProfileMigrator
 bpm
 )
 ;
-bool
+PRBool
 ImportRegistryProfiles
 (
 const

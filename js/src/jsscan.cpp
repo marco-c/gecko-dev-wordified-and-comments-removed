@@ -76,6 +76,13 @@ h
 #
 include
 "
+jsarena
+.
+h
+"
+#
+include
+"
 jsbit
 .
 h

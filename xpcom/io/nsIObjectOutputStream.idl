@@ -830,11 +830,11 @@ aStream
 nsISupports
 *
 aObject
-bool
+PRBool
 aIsStrongRef
 )
 {
-bool
+PRBool
 nonnull
 =
 (
@@ -892,7 +892,7 @@ nsISupports
 aObject
 )
 {
-bool
+PRBool
 nonnull
 =
 (
@@ -951,11 +951,11 @@ const
 nsIID
 &
 aIID
-bool
+PRBool
 aIsStrongRef
 )
 {
-bool
+PRBool
 nonnull
 =
 (

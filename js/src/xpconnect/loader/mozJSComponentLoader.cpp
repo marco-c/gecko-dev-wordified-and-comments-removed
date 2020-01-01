@@ -3191,7 +3191,7 @@ cx
 this
 )
 ;
-js
+JS
 :
 :
 AutoPreserveCompartment
@@ -3575,10 +3575,10 @@ script
 =
 nsnull
 ;
-bool
+PRBool
 writeToCache
 =
-false
+PR_FALSE
 ;
 StartupCache
 *

@@ -308,11 +308,8 @@ present
 ;
 request
 .
-addEventListener
-(
-"
-readystatechange
-"
+onreadystatechange
+=
 function
 (
 )
@@ -344,8 +341,6 @@ do_test_finished
 ;
 }
 }
-false
-)
 ;
 request
 .

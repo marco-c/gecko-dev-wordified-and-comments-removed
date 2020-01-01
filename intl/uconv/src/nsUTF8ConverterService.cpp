@@ -272,7 +272,7 @@ const
 char
 *
 aCharset
-bool
+PRBool
 aSkipCheck
 nsACString
 &
@@ -397,7 +397,7 @@ Truncate
 nsCAutoString
 unescapedSpec
 ;
-bool
+PRBool
 written
 =
 NS_UnescapeURL

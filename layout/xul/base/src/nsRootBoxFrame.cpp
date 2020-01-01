@@ -333,7 +333,7 @@ GetType
 const
 ;
 virtual
-bool
+PRBool
 IsFrameOfType
 (
 PRUint32

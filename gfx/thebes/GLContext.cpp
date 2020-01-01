@@ -118,7 +118,7 @@ MAX_SYMBOL_LENGTH
 define
 MAX_SYMBOL_NAMES
 5
-bool
+PRBool
 LibrarySymbolLoader
 :
 :
@@ -169,7 +169,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 LibrarySymbolLoader
 :
 :
@@ -178,7 +178,7 @@ LoadSymbols
 SymLoadStruct
 *
 firstStruct
-bool
+PRBool
 tryplatform
 const
 char
@@ -277,7 +277,7 @@ return
 res
 ;
 }
-bool
+PRBool
 LibrarySymbolLoader
 :
 :
@@ -496,7 +496,7 @@ PR_TRUE
 PR_FALSE
 ;
 }
-bool
+PRBool
 GLContext
 :
 :
@@ -506,7 +506,7 @@ const
 char
 *
 prefix
-bool
+PRBool
 trygl
 )
 {
@@ -3451,9 +3451,6 @@ GL_ARB_texture_float
 "
 GL_EXT_unpack_subimage
 "
-"
-GL_OES_standard_derivatives
-"
 NULL
 }
 ;
@@ -3664,7 +3661,7 @@ true
 #
 endif
 }
-bool
+PRBool
 GLContext
 :
 :
@@ -3687,7 +3684,7 @@ extension
 )
 ;
 }
-bool
+PRBool
 GLContext
 :
 :
@@ -3879,7 +3876,7 @@ ContentType
 aContentType
 GLenum
 aWrapMode
-bool
+PRBool
 aUseNearestFilter
 )
 {
@@ -4575,7 +4572,7 @@ TextureImage
 :
 ContentType
 aContentType
-bool
+PRBool
 aUseNearestFilter
 )
 :
@@ -4704,10 +4701,10 @@ region
 aRegion
 ;
 }
-bool
+PRBool
 result
 =
-true
+PR_TRUE
 ;
 for
 (
@@ -5626,7 +5623,7 @@ mCurrentImage
 0
 ;
 }
-bool
+PRBool
 TiledTextureImage
 :
 :
@@ -5940,7 +5937,7 @@ Length
 )
 ;
 }
-bool
+PRBool
 GLContext
 :
 :
@@ -12332,10 +12329,10 @@ name
 )
 continue
 ;
-bool
+PRBool
 found
 =
-false
+PR_FALSE
 ;
 for
 (

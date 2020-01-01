@@ -58,7 +58,7 @@ NS_DECL_NSISOUND
 NS_DECL_NSISTREAMLOADEROBSERVER
 private
 :
-bool
+PRBool
 mInited
 ;
 }

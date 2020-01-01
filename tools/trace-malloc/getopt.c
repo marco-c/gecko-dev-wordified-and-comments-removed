@@ -88,7 +88,6 @@ define
 EMSG
 "
 "
-int
 getopt
 (
 int

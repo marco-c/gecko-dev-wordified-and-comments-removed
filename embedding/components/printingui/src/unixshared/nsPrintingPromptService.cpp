@@ -407,7 +407,7 @@ printSettings
 nsIObserver
 *
 openDialogObserver
-bool
+PRBool
 isForPrinting
 nsIWebProgressListener
 *
@@ -417,7 +417,7 @@ nsIPrintProgressParams
 *
 *
 printProgressParams
-bool
+PRBool
 *
 notifyOnOpen
 )

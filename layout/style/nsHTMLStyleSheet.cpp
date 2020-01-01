@@ -521,7 +521,7 @@ MappedAttrTableEntry
 ;
 }
 static
-bool
+PRBool
 MappedAttrTable_MatchEntry
 (
 PLDHashTable
@@ -1043,7 +1043,7 @@ nsRestyleHint
 )
 ;
 }
-bool
+PRBool
 nsHTMLStyleSheet
 :
 :
@@ -1190,7 +1190,7 @@ nsRestyleHint
 )
 ;
 }
-bool
+PRBool
 nsHTMLStyleSheet
 :
 :
@@ -1330,7 +1330,7 @@ html
 )
 ;
 }
-bool
+PRBool
 nsHTMLStyleSheet
 :
 :
@@ -1343,7 +1343,7 @@ return
 PR_TRUE
 ;
 }
-bool
+PRBool
 nsHTMLStyleSheet
 :
 :
@@ -1362,12 +1362,12 @@ nsHTMLStyleSheet
 :
 SetEnabled
 (
-bool
+PRBool
 aEnabled
 )
 {
 }
-bool
+PRBool
 nsHTMLStyleSheet
 :
 :
@@ -1728,7 +1728,7 @@ mMappedAttrTable
 ops
 )
 {
-bool
+PRBool
 res
 =
 PL_DHashTableInit

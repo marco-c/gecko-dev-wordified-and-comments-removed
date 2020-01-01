@@ -104,7 +104,7 @@ nsITreeBoxObject
 >
 mTree
 ;
-bool
+PRBool
 mSuppressed
 ;
 PRInt32

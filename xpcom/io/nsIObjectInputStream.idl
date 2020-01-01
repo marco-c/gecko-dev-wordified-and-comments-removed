@@ -631,7 +631,7 @@ NS_ReadOptionalObject
 nsIObjectInputStream
 *
 aStream
-bool
+PRBool
 aIsStrongRef
 nsISupports
 *
@@ -639,7 +639,7 @@ nsISupports
 aResult
 )
 {
-bool
+PRBool
 nonnull
 ;
 nsresult

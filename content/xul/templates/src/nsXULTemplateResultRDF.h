@@ -136,7 +136,7 @@ nsIRDFNode
 aValue
 )
 ;
-bool
+PRBool
 SyncAssignments
 (
 nsIRDFResource
@@ -150,7 +150,7 @@ nsIRDFNode
 aTarget
 )
 ;
-bool
+PRBool
 HasMemoryElement
 (
 const

@@ -38,7 +38,7 @@ nsDocAccessibleWrap
 (
 )
 ;
-bool
+PRBool
 mActivated
 ;
 }

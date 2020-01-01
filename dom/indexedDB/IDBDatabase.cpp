@@ -3983,7 +3983,7 @@ happen
 "
 )
 ;
-bool
+PRBool
 dummy
 ;
 rv

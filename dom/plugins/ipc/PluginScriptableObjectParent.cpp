@@ -6246,10 +6246,10 @@ GetPropertyHelper
 (
 NPIdentifier
 aName
-bool
+PRBool
 *
 aHasProperty
-bool
+PRBool
 *
 aHasMethod
 NPVariant

@@ -44,7 +44,7 @@ mLastChar
 char
 mEscChar
 ;
-bool
+PRBool
 mFreshBase64
 ;
 nsresult

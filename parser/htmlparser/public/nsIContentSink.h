@@ -89,7 +89,7 @@ NS_OK
 NS_IMETHOD
 DidBuildModel
 (
-bool
+PRBool
 aTerminated
 )
 {
@@ -153,7 +153,7 @@ GetTarget
 0
 ;
 virtual
-bool
+PRBool
 IsScriptExecuting
 (
 )

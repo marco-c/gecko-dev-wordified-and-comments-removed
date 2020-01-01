@@ -110,10 +110,10 @@ gEventQ
 nsnull
 ;
 static
-bool
+PRBool
 gKeepRunning
 =
-true
+PR_TRUE
 ;
 class
 MyListener

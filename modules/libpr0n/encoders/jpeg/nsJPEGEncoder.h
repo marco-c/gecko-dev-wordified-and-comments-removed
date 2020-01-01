@@ -179,7 +179,7 @@ NotifyListener
 (
 )
 ;
-bool
+PRPackedBool
 mFinished
 ;
 PRUint8

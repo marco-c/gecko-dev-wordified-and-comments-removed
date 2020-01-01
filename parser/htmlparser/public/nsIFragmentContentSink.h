@@ -94,7 +94,7 @@ IgnoreFirstContainer
 NS_IMETHOD
 SetPreventScriptExecution
 (
-bool
+PRBool
 aPreventScriptExecution
 )
 =

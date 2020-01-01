@@ -310,7 +310,7 @@ BaseStringEnumerator
 :
 HasMoreElements
 (
-bool
+PRBool
 *
 _retval
 )
@@ -394,7 +394,7 @@ BaseStringEnumerator
 :
 HasMore
 (
-bool
+PRBool
 *
 _retval
 )
@@ -1156,7 +1156,7 @@ char
 *
 categoryName
 ;
-bool
+PRBool
 success
 ;
 }
@@ -1908,9 +1908,9 @@ const
 char
 *
 aValue
-bool
+PRBool
 aPersist
-bool
+PRBool
 aReplace
 char
 *
@@ -2134,7 +2134,7 @@ const
 char
 *
 aEntryName
-bool
+PRBool
 aDontPersist
 )
 {
@@ -2385,7 +2385,7 @@ PRFileDesc
 *
 fd
 ;
-bool
+PRBool
 success
 ;
 }
@@ -2396,7 +2396,7 @@ nsCategoryManager
 :
 SuppressNotifications
 (
-bool
+PRBool
 aSuppress
 )
 {
@@ -2541,7 +2541,7 @@ nsIUTF8StringEnumerator
 return
 ;
 }
-bool
+PRBool
 hasMore
 ;
 while

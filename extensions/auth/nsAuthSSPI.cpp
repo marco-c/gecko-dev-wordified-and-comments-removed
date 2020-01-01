@@ -2003,7 +2003,7 @@ void
 inToken
 PRUint32
 inTokenLen
-bool
+PRBool
 confidential
 void
 *
