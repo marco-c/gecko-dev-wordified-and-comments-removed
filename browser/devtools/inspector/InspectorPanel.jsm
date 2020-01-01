@@ -1488,13 +1488,7 @@ request
 =
 null
 ;
-return
-true
-;
 }
-return
-false
-;
 }
 .
 bind
