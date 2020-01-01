@@ -3679,6 +3679,11 @@ JSAtom
 *
 atom
 ;
+CHECK_REQUEST
+(
+cx
+)
+;
 #
 define
 ATOMIZE_BUF_MAX
@@ -3820,6 +3825,11 @@ flags
 {
 JSString
 str
+;
+CHECK_REQUEST
+(
+cx
+)
 ;
 str
 .
