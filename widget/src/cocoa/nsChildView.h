@@ -1191,6 +1191,11 @@ HidePlugin
 )
 ;
 void
+UpdatePluginPort
+(
+)
+;
+void
 ResetParent
 (
 )
