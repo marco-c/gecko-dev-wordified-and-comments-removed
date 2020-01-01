@@ -116,6 +116,10 @@ MediaEngine
 .
 h
 \
+MediaEngineDefault
+.
+h
+\
 MediaResource
 .
 h
@@ -191,6 +195,10 @@ AudioSegment
 cpp
 \
 FileBlockCache
+.
+cpp
+\
+MediaEngineDefault
 .
 cpp
 \
