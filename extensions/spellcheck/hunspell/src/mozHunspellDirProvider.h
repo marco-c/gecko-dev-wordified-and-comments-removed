@@ -18,8 +18,18 @@ nsISimpleEnumerator
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 mozHunspellDirProvider
+MOZ_FINAL
 :
 public
 nsIDirectoryServiceProvider2
@@ -40,6 +50,7 @@ private
 :
 class
 AppendingEnumerator
+MOZ_FINAL
 :
 public
 nsISimpleEnumerator
