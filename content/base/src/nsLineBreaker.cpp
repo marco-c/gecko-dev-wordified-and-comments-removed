@@ -1487,7 +1487,7 @@ const
 PRUnichar
 *
 aTextLimit
-PRPackedBool
+PRUint8
 *
 aBreakState
 )
@@ -2011,7 +2011,7 @@ BREAK_SUPPRESS_INSIDE
 )
 )
 {
-PRPackedBool
+PRUint8
 currentStart
 =
 breakState

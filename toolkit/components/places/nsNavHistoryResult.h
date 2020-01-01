@@ -2926,7 +2926,7 @@ mozIStoragePendingStatement
 >
 mAsyncPendingStmt
 ;
-PRBool
+AsyncCanceledState
 mAsyncCanceledState
 ;
 }

@@ -692,6 +692,9 @@ val
 *
 60
 ;
+PRBool
+bval
+;
 if
 (
 PREF_CHANGED
@@ -709,13 +712,13 @@ GetBoolPref
 (
 kCookiesAlwaysAcceptSession
 &
-val
+bval
 )
 )
 )
 mCookiesAlwaysAcceptSession
 =
-val
+bval
 ;
 }
 NS_IMETHODIMP

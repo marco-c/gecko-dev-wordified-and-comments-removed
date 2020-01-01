@@ -176,7 +176,7 @@ mPrintFrameTypeUsage
 PRInt16
 mPrintFrameType
 ;
-PRBool
+PRInt16
 mHowToEnableFrameUI
 ;
 PRBool

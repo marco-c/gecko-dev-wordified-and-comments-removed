@@ -777,7 +777,7 @@ this
 >
 mBytes
 ;
-PRUint8
+PRPackedBool
 mFirst
 =
 this

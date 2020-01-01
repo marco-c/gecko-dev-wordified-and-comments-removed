@@ -4489,7 +4489,7 @@ toString
 )
 ;
 \
-JSBool
+int32
 cmp
 ;
 \

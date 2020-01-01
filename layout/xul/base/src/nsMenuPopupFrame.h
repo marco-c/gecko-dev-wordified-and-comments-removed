@@ -1053,6 +1053,9 @@ mPopupAlignment
 PRInt8
 mPopupAnchor
 ;
+PRInt8
+mConsumeRollupEvent
+;
 PRPackedBool
 mFlipBoth
 ;
@@ -1073,9 +1076,6 @@ mMenuCanOverlapOSBar
 ;
 PRPackedBool
 mShouldAutoPosition
-;
-PRPackedBool
-mConsumeRollupEvent
 ;
 PRPackedBool
 mInContentShell

@@ -10874,7 +10874,7 @@ NS_OK
 NS_NOINTERFACE
 ;
 }
-PRBool
+PRInt32
 nsHTMLEditor
 :
 :
@@ -10949,7 +10949,7 @@ isSelected
 NS_ENSURE_SUCCESS
 (
 res
-res
+0
 )
 ;
 if

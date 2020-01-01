@@ -408,6 +408,13 @@ mPopupAnchor
 (
 POPUPALIGNMENT_NONE
 )
+mConsumeRollupEvent
+(
+nsIPopupBoxObject
+:
+:
+ROLLUP_DEFAULT
+)
 mFlipBoth
 (
 PR_FALSE
@@ -435,13 +442,6 @@ PR_FALSE
 mShouldAutoPosition
 (
 PR_TRUE
-)
-mConsumeRollupEvent
-(
-nsIPopupBoxObject
-:
-:
-ROLLUP_DEFAULT
 )
 mInContentShell
 (

@@ -1401,7 +1401,7 @@ aOffset
 0
 )
 ;
-PRBool
+nsresult
 ExpandSelectionForDeletion
 (
 nsISelection

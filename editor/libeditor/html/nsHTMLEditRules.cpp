@@ -22871,7 +22871,7 @@ return
 res
 ;
 }
-PRBool
+nsresult
 nsHTMLEditRules
 :
 :
