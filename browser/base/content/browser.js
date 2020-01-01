@@ -14786,6 +14786,7 @@ dir
 ;
 if
 (
+(
 tipElement
 instanceof
 HTMLInputElement
@@ -14804,6 +14805,18 @@ HTMLSelectElement
 tipElement
 instanceof
 HTMLButtonElement
+)
+&
+&
+!
+tipElement
+.
+hasAttribute
+(
+'
+title
+'
+)
 )
 {
 titleText
