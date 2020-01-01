@@ -32,14 +32,14 @@ ion
 static
 const
 Register
-frameReg
+BaselineFrameReg
 =
 ebp
 ;
 static
 const
 Register
-spReg
+BaselineStackReg
 =
 esp
 ;

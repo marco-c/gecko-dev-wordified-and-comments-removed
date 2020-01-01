@@ -686,7 +686,7 @@ sizeof
 Value
 )
 )
-spReg
+BaselineStackReg
 )
 ;
 popped
@@ -850,7 +850,7 @@ nlocals
 return
 Address
 (
-frameReg
+BaselineFrameReg
 BaselineFrame
 :
 :
@@ -882,7 +882,7 @@ nargs
 return
 Address
 (
-frameReg
+BaselineFrameReg
 BaselineFrame
 :
 :
@@ -943,7 +943,7 @@ stackDepth
 return
 Address
 (
-frameReg
+BaselineFrameReg
 BaselineFrame
 :
 :
