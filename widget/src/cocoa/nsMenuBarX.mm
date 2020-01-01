@@ -2634,7 +2634,7 @@ aMenu
 owner
 NSMenu
 *
-menuRef
+nativeMenu
 =
 NULL
 ;
@@ -2649,7 +2649,7 @@ void
 *
 )
 &
-menuRef
+nativeMenu
 )
 ;
 nsCOMPtr
@@ -2700,9 +2700,10 @@ alloc
 ]
 initWithTitle
 :
-"
-SomeMenuItem
-"
+[
+nativeMenu
+title
+]
 action
 :
 NULL
@@ -2725,7 +2726,7 @@ newMenuItem
 newMenuItem
 setSubmenu
 :
-menuRef
+nativeMenu
 ]
 ;
 }
