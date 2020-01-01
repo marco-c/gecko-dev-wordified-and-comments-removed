@@ -848,9 +848,6 @@ file
 )
 ;
 }
-#
-ifdef
-XP_WIN
 else
 if
 (
@@ -862,6 +859,9 @@ XRE_UPDATE_ROOT_DIR
 )
 )
 {
+#
+ifdef
+XP_WIN
 rv
 =
 GetUpdateRootDir
@@ -872,9 +872,14 @@ file
 )
 )
 ;
-}
+#
+else
+return
+NS_ERROR_FAILURE
+;
 #
 endif
+}
 else
 if
 (
