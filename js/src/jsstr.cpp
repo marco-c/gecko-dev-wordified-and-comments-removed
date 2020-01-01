@@ -8607,6 +8607,16 @@ RegExpGuard
 ;
 public
 :
+FlatMatch
+(
+)
+:
+patstr
+(
+NULL
+)
+{
+}
 JSString
 *
 pattern
