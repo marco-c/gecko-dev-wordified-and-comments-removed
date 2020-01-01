@@ -76,6 +76,9 @@ class
 nsUrlClassifierDBServiceWorker
 ;
 class
+nsIThread
+;
+class
 nsUrlClassifierDBService
 :
 public
@@ -138,6 +141,13 @@ nsUrlClassifierLookupResult
 results
 )
 ;
+static
+nsIThread
+*
+BackgroundThread
+(
+)
+;
 private
 :
 ~
@@ -180,7 +190,7 @@ mWorker
 ;
 nsCOMPtr
 <
-nsUrlClassifierDBServiceWorker
+nsIUrlClassifierDBServiceWorker
 >
 mWorkerProxy
 ;
@@ -205,6 +215,11 @@ nsTArray
 nsCString
 >
 mGethashWhitelist
+;
+static
+nsIThread
+*
+gDbBackgroundThread
 ;
 }
 ;
