@@ -450,6 +450,10 @@ test_smilGetSimpleDuration
 .
 xhtml
 \
+test_smilSetCurrentTime
+.
+xhtml
+\
 test_smilSync
 .
 xhtml
