@@ -6192,7 +6192,7 @@ JS_ARRAY_HOLE
 )
 continue
 ;
-setSlot
+initSlotUnchecked
 (
 next
 slots
