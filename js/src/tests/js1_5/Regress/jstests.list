@@ -809,7 +809,6 @@ x86_64
 )
 |
 |
-(
 xulRuntime
 .
 OS
@@ -818,10 +817,6 @@ OS
 "
 WINNT
 "
-&
-&
-isDebugBuild
-)
 )
 script
 regress
@@ -830,7 +825,8 @@ regress
 .
 js
 #
-slow
+bug
+524731
 script
 regress
 -
