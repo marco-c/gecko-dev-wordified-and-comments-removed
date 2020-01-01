@@ -2601,7 +2601,6 @@ Write
 (
 buf
 numValues
-PR_TRUE
 )
 ;
 }
