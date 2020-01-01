@@ -2897,7 +2897,7 @@ init
 aCx
 aCommand
 )
-NS_ERROR_FAILURE
+false
 )
 ;
 if
