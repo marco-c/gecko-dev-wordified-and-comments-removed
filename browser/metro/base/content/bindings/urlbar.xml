@@ -3269,6 +3269,13 @@ keycode
 "
 VK_RETURN
 "
+modifiers
+=
+"
+accel
+shift
+any
+"
 >
 <
 !
