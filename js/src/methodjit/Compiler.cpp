@@ -26429,14 +26429,7 @@ if
 script_
 -
 >
-function
-(
-)
--
->
-isCloneAtCallsite
-(
-)
+shouldCloneAtCallsite
 )
 return
 Compile_InlineAbort
