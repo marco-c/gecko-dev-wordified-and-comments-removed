@@ -914,6 +914,9 @@ NS_OK
 ;
 }
 }
+#
+ifdef
+MOZ_OMNIJAR
 if
 (
 mozilla
@@ -967,6 +970,8 @@ NS_OK
 ;
 }
 }
+#
+endif
 return
 NS_ERROR_NOT_AVAILABLE
 ;
