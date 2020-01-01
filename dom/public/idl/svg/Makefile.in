@@ -711,6 +711,10 @@ nsIDOMSVGURIReference
 .
 idl
 \
+nsIDOMSVGUnitTypes
+.
+idl
+\
 nsIDOMSVGUseElement
 .
 idl

@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsISVGEnum
-.
-h
-"
-#
-include
-"
 nsIDOMSVGPoint
 .
 h
@@ -319,12 +312,6 @@ nsCOMPtr
 nsIDOMSVGMatrix
 >
 mCanvasTM
-;
-nsCOMPtr
-<
-nsISVGEnum
->
-mZoomAndPan
 ;
 nsCOMPtr
 <

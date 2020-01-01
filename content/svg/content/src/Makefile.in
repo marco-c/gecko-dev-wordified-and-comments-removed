@@ -503,10 +503,6 @@ nsSVGAnimatedBoolean
 .
 cpp
 \
-nsSVGAnimatedEnumeration
-.
-cpp
-\
 nsSVGAnimatedInteger
 .
 cpp
@@ -861,10 +857,6 @@ nsSVGPoint
 h
 \
 nsSVGMatrix
-.
-h
-\
-nsISVGEnum
 .
 h
 \

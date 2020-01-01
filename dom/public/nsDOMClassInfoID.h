@@ -268,6 +268,7 @@ eDOMClassInfo_SVGPreserveAspectRatio_id
 eDOMClassInfo_SVGRect_id
 eDOMClassInfo_SVGTransform_id
 eDOMClassInfo_SVGTransformList_id
+eDOMClassInfo_SVGUnitTypes_id
 eDOMClassInfo_SVGZoomEvent_id
 #
 endif
