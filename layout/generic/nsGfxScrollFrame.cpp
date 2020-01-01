@@ -7617,15 +7617,6 @@ return
 false
 ;
 }
-nsIScrollableFrame
-*
-sf
-=
-do_QueryFrame
-(
-f
-)
-;
 if
 (
 nsLayoutUtils
