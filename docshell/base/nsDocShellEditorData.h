@@ -135,6 +135,16 @@ nsIDocShell
 aDocShell
 )
 ;
+PRBool
+WaitingForLoad
+(
+)
+const
+{
+return
+mMakeEditable
+;
+}
 protected
 :
 nsresult

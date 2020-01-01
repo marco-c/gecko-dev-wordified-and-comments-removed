@@ -1518,14 +1518,6 @@ nsISHEntry
 aSHEntry
 )
 ;
-void
-DetachEditorFromWindow
-(
-nsISHEntry
-*
-aSHEntry
-)
-;
 nsresult
 GetSessionStorageForURI
 (

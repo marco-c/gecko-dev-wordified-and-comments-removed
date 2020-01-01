@@ -2926,6 +2926,16 @@ session
 history
 entry
 .
+This
+*
+should
+be
+called
+only
+during
+page
+transitions
+.
 *
 /
 [
