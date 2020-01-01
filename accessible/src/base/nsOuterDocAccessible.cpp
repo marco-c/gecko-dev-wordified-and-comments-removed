@@ -370,6 +370,10 @@ SetFirstChild
 nsnull
 )
 ;
+mAccChildCount
+=
+0
+;
 nsCOMPtr
 <
 nsIContent
@@ -424,10 +428,6 @@ if
 outerDoc
 )
 {
-mAccChildCount
-=
-0
-;
 return
 ;
 }
@@ -461,10 +461,6 @@ if
 innerNode
 )
 {
-mAccChildCount
-=
-0
-;
 return
 ;
 }
@@ -522,10 +518,6 @@ if
 privateInnerAccessible
 )
 {
-mAccChildCount
-=
-0
-;
 return
 ;
 }

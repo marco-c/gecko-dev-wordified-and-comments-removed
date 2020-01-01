@@ -816,6 +816,10 @@ mAccChildCount
 eChildCountUninitialized
 )
 {
+mAccChildCount
+=
+0
+;
 PRUint32
 role
 ;

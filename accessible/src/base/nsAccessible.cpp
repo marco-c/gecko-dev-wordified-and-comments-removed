@@ -3112,6 +3112,10 @@ mAccChildCount
 eChildCountUninitialized
 )
 {
+mAccChildCount
+=
+0
+;
 PRBool
 allowsAnonChildren
 =

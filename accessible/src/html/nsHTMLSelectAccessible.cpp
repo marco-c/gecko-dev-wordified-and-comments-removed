@@ -1802,6 +1802,10 @@ eChildCountUninitialized
 return
 ;
 }
+mAccChildCount
+=
+0
+;
 PRInt32
 childCount
 =
@@ -5202,6 +5206,10 @@ mAccChildCount
 eChildCountUninitialized
 )
 {
+mAccChildCount
+=
+0
+;
 nsAccessibleTreeWalker
 walker
 (

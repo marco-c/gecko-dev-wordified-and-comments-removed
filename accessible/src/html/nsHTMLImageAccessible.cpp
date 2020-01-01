@@ -775,6 +775,10 @@ eChildCountUninitialized
 return
 ;
 }
+mAccChildCount
+=
+0
+;
 nsCOMPtr
 <
 nsIDOMHTMLCollection
@@ -804,10 +808,6 @@ if
 mapAreas
 )
 {
-mAccChildCount
-=
-0
-;
 return
 ;
 }

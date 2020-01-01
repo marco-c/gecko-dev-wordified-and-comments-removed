@@ -365,6 +365,10 @@ eChildCountUninitialized
 )
 return
 ;
+mAccChildCount
+=
+0
+;
 nsIAccessibilityService
 *
 accService
