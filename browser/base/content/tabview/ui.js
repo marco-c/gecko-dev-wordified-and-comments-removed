@@ -4264,6 +4264,12 @@ zoomIn
 (
 )
 ;
+this
+.
+blurAll
+(
+)
+;
 }
 _addDevMenu
 :
