@@ -6559,27 +6559,6 @@ xpconnect
 namespace
 memory
 {
-#
-define
-SLOP_BYTES_STRING
-\
-"
-The
-measurement
-includes
-slop
-bytes
-caused
-by
-the
-heap
-allocator
-rounding
-up
-request
-sizes
-.
-"
 static
 PRInt64
 ReportCompartmentStats
@@ -7363,7 +7342,6 @@ objects
 instead
 .
 "
-SLOP_BYTES_STRING
 callback
 closure
 )
@@ -7410,7 +7388,6 @@ object
 properties
 .
 "
-SLOP_BYTES_STRING
 callback
 closure
 )
@@ -7552,7 +7529,6 @@ property
 tree
 .
 "
-SLOP_BYTES_STRING
 callback
 closure
 )
@@ -7603,7 +7579,6 @@ dictionary
 mode
 .
 "
-SLOP_BYTES_STRING
 callback
 closure
 )
@@ -7742,7 +7717,6 @@ length
 tables
 .
 "
-SLOP_BYTES_STRING
 callback
 closure
 )
@@ -7835,7 +7809,6 @@ cache
 structs
 .
 "
-SLOP_BYTES_STRING
 callback
 closure
 )
@@ -8126,7 +8099,6 @@ JSRuntime
 object
 .
 "
-SLOP_BYTES_STRING
 callback
 closure
 )
@@ -8161,7 +8133,6 @@ atoms
 table
 .
 "
-SLOP_BYTES_STRING
 callback
 closure
 )
@@ -8201,7 +8172,6 @@ off
 them
 .
 "
-SLOP_BYTES_STRING
 callback
 closure
 )
@@ -8254,7 +8224,6 @@ runtime
 '
 .
 "
-SLOP_BYTES_STRING
 callback
 closure
 )
@@ -8298,7 +8267,6 @@ parse
 nodes
 .
 "
-SLOP_BYTES_STRING
 callback
 closure
 )
@@ -8823,7 +8791,6 @@ by
 XPConnect
 .
 "
-SLOP_BYTES_STRING
 callback
 closure
 )
