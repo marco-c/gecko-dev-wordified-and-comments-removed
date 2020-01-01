@@ -919,7 +919,7 @@ script_
 inline
 JSScript
 *
-getExistingScript
+existingScript
 (
 )
 ;
