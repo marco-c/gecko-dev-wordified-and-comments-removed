@@ -61,6 +61,8 @@ TypeError
 :
 [
 ]
+.
+__proto__
 is
 not
 a
