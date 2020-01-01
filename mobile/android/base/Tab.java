@@ -2105,9 +2105,11 @@ mEnteringReaderMode
 =
 true
 ;
-GeckoApp
+Tabs
 .
-mAppContext
+getInstance
+(
+)
 .
 loadUrl
 (

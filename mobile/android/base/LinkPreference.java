@@ -103,9 +103,11 @@ onClick
 (
 )
 {
-GeckoApp
+Tabs
 .
-mAppContext
+getInstance
+(
+)
 .
 loadUrlInTab
 (
