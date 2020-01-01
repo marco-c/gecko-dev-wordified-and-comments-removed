@@ -21827,7 +21827,7 @@ removeTab
 bindingParent
 )
 ;
-this
+tabContainer
 .
 _blockDblClick
 =
@@ -21917,11 +21917,6 @@ handler
 *
 /
 var
-self
-=
-this
-;
-var
 clickedOnce
 =
 false
@@ -21959,7 +21954,7 @@ function
 (
 )
 {
-self
+tabContainer
 .
 _blockDblClick
 =
