@@ -484,7 +484,7 @@ windowwatcher
 \
 toolkitcomps
 \
-passwordmgr
+loginmgr
 \
 (
 NULL

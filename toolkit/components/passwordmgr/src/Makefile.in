@@ -426,7 +426,7 @@ autoconf
 mk
 MODULE
 =
-passwordmgr
+loginmgr
 EXTRA_COMPONENTS
 =
 \
