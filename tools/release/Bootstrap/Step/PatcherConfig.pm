@@ -178,7 +178,7 @@ oldVersion
 )
 ;
 my
-mofoCvsroot
+mozillaCvsroot
 =
 config
 -
@@ -189,7 +189,7 @@ var
 =
 >
 '
-mofoCvsroot
+mozillaCvsroot
 '
 )
 ;
@@ -293,7 +293,7 @@ CvsCo
 cvsroot
 =
 >
-mofoCvsroot
+mozillaCvsroot
 checkoutDir
 =
 >
@@ -307,10 +307,15 @@ modules
 CvsCatfile
 (
 '
-release
+mozilla
+'
+'
+tools
 '
 '
 patcher
+-
+configs
 '
 patcherConfig
 )
@@ -474,7 +479,7 @@ cmdArgs
 -
 d
 '
-mofoCvsroot
+mozillaCvsroot
 '
 ci
 '
