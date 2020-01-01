@@ -496,6 +496,7 @@ int
 *
 processed_characters_count
 )
+const
 {
 return
 StringToIeee
@@ -520,6 +521,7 @@ int
 *
 processed_characters_count
 )
+const
 {
 return
 static_cast
@@ -578,6 +580,7 @@ processed_characters_count
 bool
 read_as_double
 )
+const
 ;
 DISALLOW_IMPLICIT_CONSTRUCTORS
 (

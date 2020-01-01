@@ -4105,10 +4105,6 @@ kChunkSize
 1
 )
 ;
-+
-+
-i
-;
 }
 Clamp
 (
