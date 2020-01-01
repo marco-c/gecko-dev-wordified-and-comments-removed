@@ -142,6 +142,14 @@ aEvent
 )
 ;
 nsresult
+OnQueryDOMWidgetHittest
+(
+nsQueryContentEvent
+*
+aEvent
+)
+;
+nsresult
 OnSelectionEvent
 (
 nsSelectionEvent
