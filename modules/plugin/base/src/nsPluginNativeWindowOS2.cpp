@@ -427,8 +427,10 @@ GetWindowProc
 (
 )
 ;
-PluginWindowEvent
-*
+already_AddRefed
+<
+nsIRunnable
+>
 GetPluginWindowEvent
 (
 HWND
@@ -966,8 +968,10 @@ return
 NS_OK
 ;
 }
-PluginWindowEvent
-*
+already_AddRefed
+<
+nsIRunnable
+>
 nsPluginNativeWindowOS2
 :
 :
