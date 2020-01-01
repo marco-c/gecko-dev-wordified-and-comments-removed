@@ -233,6 +233,7 @@ AudioSessionConduit
 :
 Create
 (
+NULL
 )
 )
 audio_
