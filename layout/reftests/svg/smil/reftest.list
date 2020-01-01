@@ -69,11 +69,6 @@ accumulate
 sum
 #
 -
-<
-set
->
-#
--
 Interpolation
 between
 different
@@ -223,6 +218,15 @@ order
 tests
 include
 sort
+/
+reftest
+.
+list
+#
+set
+tests
+include
+set
 /
 reftest
 .

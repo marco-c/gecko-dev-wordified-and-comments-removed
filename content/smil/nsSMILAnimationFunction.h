@@ -403,6 +403,7 @@ UnsetKeySplines
 (
 )
 ;
+virtual
 nsresult
 InterpolateResult
 (
