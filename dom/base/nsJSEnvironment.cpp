@@ -9479,7 +9479,7 @@ wrapper
 wrapper
 -
 >
-RefreshPrototype
+FinishInitForWrappedGlobal
 (
 )
 ;
