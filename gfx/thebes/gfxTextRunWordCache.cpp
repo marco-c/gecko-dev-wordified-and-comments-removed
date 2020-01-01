@@ -1488,7 +1488,6 @@ aEnd
 -
 aStart
 aStart
-PR_FALSE
 )
 ;
 }
@@ -2037,14 +2036,6 @@ gfxTextRun
 >
 tmpTextRun
 ;
-PRBool
-stealData
-=
-source
-=
-=
-aNewRun
-;
 if
 (
 wordStartsInsideCluster
@@ -2154,10 +2145,6 @@ sourceOffset
 =
 0
 ;
-stealData
-=
-PR_TRUE
-;
 }
 else
 {
@@ -2175,7 +2162,6 @@ source
 sourceOffset
 length
 destOffset
-stealData
 )
 ;
 PRUint32
