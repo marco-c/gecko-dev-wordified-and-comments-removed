@@ -4093,6 +4093,13 @@ Value
 vp
 )
 {
+JS_CHECK_RECURSION
+(
+cx
+return
+NULL
+)
+;
 if
 (
 vp
@@ -11044,7 +11051,6 @@ js_AtomizeString
 (
 cx
 str
-0
 )
 ;
 if
@@ -13450,11 +13456,9 @@ script
 fun
 -
 >
-u
-.
-i
-.
 script
+(
+)
 ;
 jsbytecode
 *
@@ -20427,7 +20431,6 @@ begin
 (
 )
 length
-0
 )
 ;
 cb

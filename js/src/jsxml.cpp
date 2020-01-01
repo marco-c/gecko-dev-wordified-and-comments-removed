@@ -14187,7 +14187,6 @@ js_AtomizeString
 (
 cx
 name
-0
 )
 ;
 if
@@ -26601,7 +26600,6 @@ JSVAL_TO_STRING
 (
 v
 )
-0
 )
 ;
 if

@@ -3138,11 +3138,11 @@ js_EnsureDenseArrayCapacity
 )
 JS_DECLARE_CALLINFO
 (
-js_UnboxDouble
+js_UnboxNumberAsDouble
 )
 JS_DECLARE_CALLINFO
 (
-js_UnboxInt32
+js_UnboxNumberAsInt32
 )
 JS_DECLARE_CALLINFO
 (

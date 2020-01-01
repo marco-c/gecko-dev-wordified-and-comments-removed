@@ -6244,7 +6244,6 @@ cx
 array
 "
 6
-0
 )
 ;
 JSAtom
@@ -6259,7 +6258,6 @@ cx
 depth
 "
 6
-0
 )
 ;
 if
@@ -21247,11 +21245,9 @@ if
 fun
 -
 >
-u
-.
-i
-.
 script
+(
+)
 )
 {
 JS_ASSERT
