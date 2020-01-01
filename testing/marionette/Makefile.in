@@ -91,13 +91,6 @@ atoms
 (
 NULL
 )
-ifdef
-ENABLE_TESTS
-DIRS
-+
-=
-tests
-endif
 endif
 include
 (
