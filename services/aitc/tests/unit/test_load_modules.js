@@ -13,6 +13,16 @@ browserid
 js
 "
 "
+main
+.
+js
+"
+"
+manager
+.
+js
+"
+"
 storage
 .
 js
