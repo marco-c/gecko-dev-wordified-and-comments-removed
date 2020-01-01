@@ -526,7 +526,7 @@ h
 #
 include
 "
-nsDOMFileRequest
+nsDOMFileReader
 .
 h
 "
@@ -1319,7 +1319,7 @@ Init
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
-nsDOMFileRequest
+nsDOMFileReader
 Init
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
@@ -5218,11 +5218,11 @@ nsDOMSerializerConstructor
 }
 {
 "
-FileRequest
+FileReader
 "
-NS_FILEREQUEST_CID
-NS_FILEREQUEST_CONTRACTID
-nsDOMFileRequestConstructor
+NS_FILEREADER_CID
+NS_FILEREADER_CONTRACTID
+nsDOMFileReaderConstructor
 }
 {
 "
