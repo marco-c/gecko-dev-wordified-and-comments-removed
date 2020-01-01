@@ -3116,12 +3116,8 @@ Column
 mColumnRuleColor
 eCSSType_Value
 nsnull
-offsetof
-(
-nsStyleColumn
-mColumnRuleColor
-)
-eStyleAnimType_Color
+CSS_PROP_NO_OFFSET
+eStyleAnimType_Custom
 )
 CSS_PROP_COLUMN
 (
