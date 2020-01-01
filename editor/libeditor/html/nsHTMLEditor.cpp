@@ -2341,7 +2341,7 @@ rv
 GetStartNodeAndOffset
 (
 selection
-address_of
+getter_AddRefs
 (
 node
 )
@@ -7059,7 +7059,7 @@ res
 GetStartNodeAndOffset
 (
 selection
-address_of
+getter_AddRefs
 (
 selNode
 )
@@ -10133,7 +10133,7 @@ res
 GetStartNodeAndOffset
 (
 selection
-address_of
+getter_AddRefs
 (
 parent
 )
@@ -11220,7 +11220,7 @@ res
 GetStartNodeAndOffset
 (
 selection
-address_of
+getter_AddRefs
 (
 node
 )
@@ -11955,7 +11955,7 @@ res
 GetStartNodeAndOffset
 (
 selection
-address_of
+getter_AddRefs
 (
 node
 )
@@ -12353,7 +12353,7 @@ res
 GetStartNodeAndOffset
 (
 selection
-address_of
+getter_AddRefs
 (
 node
 )
@@ -12571,7 +12571,7 @@ res
 GetStartNodeAndOffset
 (
 selection
-address_of
+getter_AddRefs
 (
 node
 )

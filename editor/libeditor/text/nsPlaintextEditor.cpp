@@ -2512,7 +2512,7 @@ res
 GetStartNodeAndOffset
 (
 selection
-address_of
+getter_AddRefs
 (
 selNode
 )
@@ -3276,7 +3276,7 @@ result
 GetStartNodeAndOffset
 (
 aSelection
-address_of
+getter_AddRefs
 (
 node
 )

@@ -7199,7 +7199,7 @@ res
 GetStartNodeAndOffset
 (
 selection
-address_of
+getter_AddRefs
 (
 selectedNode
 )
