@@ -498,6 +498,10 @@ StackCondBad
 .
 cpp
 \
+StackFalsePositive
+.
+cpp
+\
 (
 NULL
 )
