@@ -424,9 +424,6 @@ nsIDOMHTMLDocument
 h
 "
 #
-ifdef
-MOZ_MEDIA
-#
 include
 "
 nsIDOMHTMLSourceElement
@@ -440,8 +437,6 @@ nsIDOMHTMLMediaElement
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -10741,9 +10736,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_MEDIA
 nsCOMPtr
 <
 nsIDOMHTMLMediaElement
@@ -10800,8 +10792,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 if
 (
 content
@@ -12326,9 +12316,6 @@ return
 rv
 ;
 }
-#
-ifdef
-MOZ_MEDIA
 nsCOMPtr
 <
 nsIDOMHTMLMediaElement
@@ -12429,8 +12416,6 @@ return
 rv
 ;
 }
-#
-endif
 if
 (
 content
