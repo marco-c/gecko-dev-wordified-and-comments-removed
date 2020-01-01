@@ -382,11 +382,6 @@ OnChannelError
 (
 )
 ;
-void
-FlushPendingRPCQueue
-(
-)
-;
 #
 ifdef
 OS_WIN
@@ -449,7 +444,7 @@ EventOccurred
 )
 const
 ;
-bool
+void
 MaybeProcessDeferredIncall
 (
 )
@@ -459,7 +454,7 @@ EnqueuePendingMessages
 (
 )
 ;
-bool
+void
 OnMaybeDequeueOne
 (
 )

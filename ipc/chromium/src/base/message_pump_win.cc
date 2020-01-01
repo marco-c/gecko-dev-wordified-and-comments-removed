@@ -372,14 +372,6 @@ this
 0
 )
 ;
-PostMessage
-(
-message_hwnd_
-WM_NULL
-NULL
-0
-)
-;
 }
 void
 MessagePumpForUI
