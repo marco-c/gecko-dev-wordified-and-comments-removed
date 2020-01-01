@@ -18342,6 +18342,11 @@ thisobj
 fp
 )
 ;
+(
+void
+)
+fp
+;
 if
 (
 !
