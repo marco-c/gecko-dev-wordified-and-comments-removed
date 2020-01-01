@@ -6742,8 +6742,6 @@ name
 other
 .
 len
-+
-1
 ]
 =
 0
@@ -6865,10 +6863,10 @@ sizeof
 (
 ipbuf
 )
+)
 =
 =
 PR_FAILURE
-)
 )
 return
 SECFailure

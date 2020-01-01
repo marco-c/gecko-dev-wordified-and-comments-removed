@@ -2175,10 +2175,6 @@ SECMOD_GetDefaultModuleListLock
 SECMODModuleList
 *
 modList
-=
-SECMOD_GetDefaultModuleList
-(
-)
 ;
 SECMODModuleList
 *
@@ -2203,6 +2199,12 @@ return
 SECMOD_GetReadLock
 (
 lock
+)
+;
+modList
+=
+SECMOD_GetDefaultModuleList
+(
 )
 ;
 for

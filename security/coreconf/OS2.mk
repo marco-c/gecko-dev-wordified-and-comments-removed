@@ -754,8 +754,6 @@ OS_CFLAGS
 -
 Wall
 -
-W
--
 Wno
 -
 unused

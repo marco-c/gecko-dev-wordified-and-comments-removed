@@ -209,6 +209,10 @@ c
 return
 isspace
 (
+(
+unsigned
+char
+)
 c
 )
 ;

@@ -3328,6 +3328,7 @@ CERTRevocationFlags
 *
 CERT_GetPKIXVerifyNistRevocationPolicy
 (
+void
 )
 ;
 extern
@@ -3336,6 +3337,7 @@ CERTRevocationFlags
 *
 CERT_GetClassicOCSPEnabledSoftFailurePolicy
 (
+void
 )
 ;
 extern
@@ -3344,6 +3346,7 @@ CERTRevocationFlags
 *
 CERT_GetClassicOCSPEnabledHardFailurePolicy
 (
+void
 )
 ;
 extern
@@ -3352,6 +3355,7 @@ CERTRevocationFlags
 *
 CERT_GetClassicOCSPDisabledPolicy
 (
+void
 )
 ;
 extern
@@ -3393,6 +3397,7 @@ enable
 PRBool
 CERT_GetUsePKIXForValidation
 (
+void
 )
 ;
 SEC_END_PROTOS

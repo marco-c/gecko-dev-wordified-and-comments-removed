@@ -340,12 +340,6 @@ defined
 (
 VAXC
 )
-|
-|
-defined
-(
-VMS
-)
 #
 define
 OS_CODE
@@ -774,14 +768,6 @@ define
 NO_vsnprintf
 #
 endif
-#
-endif
-#
-ifdef
-VMS
-#
-define
-NO_vsnprintf
 #
 endif
 #

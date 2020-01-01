@@ -427,6 +427,9 @@ so
 .
 so
 )
+(
+RPATH
+)
 ifdef
 MAPFILE
 MKSHLIB

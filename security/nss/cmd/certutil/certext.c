@@ -8425,7 +8425,7 @@ AddNscpCertType
 extHandle
 extList
 [
-ext_extKeyUsage
+ext_NSCertType
 ]
 .
 arg

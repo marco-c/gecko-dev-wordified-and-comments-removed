@@ -597,6 +597,13 @@ OS_DLLFLAGS
 =
 -
 DLL
+EXTRA_EXE_LD_FLAGS
++
+=
+-
+ENTRY
+:
+mainWCRTStartup
 ifdef
 BUILD_OPT
 #
@@ -1057,7 +1064,6 @@ set
 CPU_TAG
 on
 Linux
-OpenVMS
 WINCE
 .
 #

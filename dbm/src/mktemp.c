@@ -238,6 +238,9 @@ fd
 )
 ;
 }
+#
+ifdef
+WINCE
 char
 *
 mktemp
@@ -270,6 +273,8 @@ NULL
 )
 ;
 }
+#
+endif
 static
 int
 _gettemp

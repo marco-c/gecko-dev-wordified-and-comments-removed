@@ -179,6 +179,7 @@ type
 PRBool
 SEC_CertNicknameConflict
 (
+const
 char
 *
 nickname

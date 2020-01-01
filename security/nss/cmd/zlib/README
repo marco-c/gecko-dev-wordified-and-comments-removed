@@ -258,13 +258,6 @@ Makefile
 .
 msc
 .
-For
-VMS
-use
-make_vms
-.
-com
-.
 Questions
 about
 zlib

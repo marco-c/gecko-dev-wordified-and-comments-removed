@@ -983,7 +983,6 @@ Darwin
 BeOS
 OpenBSD
 \
-OpenVMS
 AIX
 RISCOS
 WINNT

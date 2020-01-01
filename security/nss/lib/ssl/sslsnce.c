@@ -640,12 +640,6 @@ LINUX
 |
 defined
 (
-VMS
-)
-|
-|
-defined
-(
 NETBSD
 )
 |

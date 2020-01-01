@@ -35,12 +35,6 @@ endif
 if
 defined
 (
-VMS
-)
-|
-|
-defined
-(
 RISCOS
 )
 #

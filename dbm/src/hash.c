@@ -1742,13 +1742,6 @@ macintosh
 !
 defined
 (
-VMS
-)
-&
-&
-!
-defined
-(
 XP_OS2
 )
 #

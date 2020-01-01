@@ -532,6 +532,9 @@ LD
 (
 DSO_LDOPTS
 )
+(
+RPATH
+)
 ifdef
 MAPFILE
 MKSHLIB
@@ -609,12 +612,11 @@ notdir
 ifeq
 (
 (
-OS_TEST
+USE_64
 )
-ia64
+1
 )
-DSO_LDOPTS
-+
+RPATH
 =
 +
 b

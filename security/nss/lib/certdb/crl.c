@@ -11358,6 +11358,13 @@ crl
 PR_TRUE
 )
 ;
+entry
+-
+>
+crl
+=
+NULL
+;
 }
 return
 rv
@@ -11651,6 +11658,9 @@ rv
 =
 SECFailure
 ;
+}
+else
+{
 rv2
 =
 NamedCRLCacheEntry_Destroy
@@ -11821,6 +11831,9 @@ rv
 =
 SECFailure
 ;
+}
+else
+{
 rv2
 =
 NamedCRLCacheEntry_Destroy

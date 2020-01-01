@@ -99,12 +99,6 @@ AIX
 |
 defined
 (
-VMS
-)
-|
-|
-defined
-(
 BEOS
 )
 |

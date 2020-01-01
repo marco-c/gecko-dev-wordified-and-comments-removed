@@ -11589,10 +11589,6 @@ return
 crv
 ;
 }
-RNG_SystemInfoForRNG
-(
-)
-;
 if
 (
 init_args

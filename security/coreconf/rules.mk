@@ -2555,6 +2555,9 @@ EXTRA_SHARED_LIBS
 OS_LIBS
 )
 )
+(
+EXTRA_EXE_LD_FLAGS
+)
 ifdef
 MT
 if
@@ -3274,6 +3277,9 @@ EXTRA_SHARED_LIBS
 )
 (
 OS_LIBS
+)
+(
+EXTRA_EXE_LD_FLAGS
 )
 ifdef
 MT
@@ -7153,7 +7159,6 @@ ifneq
 filter
 -
 out
-OpenVMS
 OS2
 WIN
 %
