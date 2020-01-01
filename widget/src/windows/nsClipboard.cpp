@@ -242,7 +242,7 @@ nsClipboard
 endif
 mIgnoreEmptyNotification
 =
-PR_FALSE
+false
 ;
 mWindow
 =
@@ -1016,7 +1016,7 @@ NS_ERROR_FAILURE
 ;
 mIgnoreEmptyNotification
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1075,7 +1075,7 @@ NULL
 }
 mIgnoreEmptyNotification
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2644,7 +2644,7 @@ dataLen
 )
 dataFound
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2674,7 +2674,7 @@ dataLen
 )
 dataFound
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -2799,7 +2799,7 @@ NS_SUCCEEDED
 NS_NewLocalFile
 (
 filepath
-PR_FALSE
+false
 getter_AddRefs
 (
 file
@@ -3055,7 +3055,7 @@ outData
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 float
@@ -3131,7 +3131,7 @@ endOfData
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3182,7 +3182,7 @@ outDataLen
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 *
@@ -3191,7 +3191,7 @@ outDataLen
 endOfData
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -3318,7 +3318,7 @@ PRUnichar
 ;
 dataFound
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3406,7 +3406,7 @@ rv
 NS_NewLocalFile
 (
 filepath
-PR_TRUE
+true
 getter_AddRefs
 (
 file
@@ -3559,7 +3559,7 @@ PRUnichar
 ;
 dataFound
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3617,7 +3617,7 @@ PRUnichar
 ;
 dataFound
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3757,7 +3757,7 @@ tempOutData
 ;
 dataFound
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3898,7 +3898,7 @@ tempOutData
 ;
 dataFound
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4119,7 +4119,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4215,7 +4215,7 @@ format
 *
 _retval
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -4250,7 +4250,7 @@ kTextMime
 *
 _retval
 =
-PR_TRUE
+true
 ;
 }
 }

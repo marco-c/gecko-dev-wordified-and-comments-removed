@@ -117,7 +117,7 @@ nsUXThemeData
 :
 sIsXPOrLater
 =
-PR_FALSE
+false
 ;
 bool
 nsUXThemeData
@@ -125,7 +125,7 @@ nsUXThemeData
 :
 sIsVistaOrLater
 =
-PR_FALSE
+false
 ;
 bool
 nsUXThemeData
@@ -822,7 +822,7 @@ DwmDefWindowProc
 ;
 CheckForCompositor
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -890,7 +890,7 @@ sIsXPOrLater
 BOOL
 useFlat
 =
-PR_FALSE
+false
 ;
 sFlatMenus
 =
@@ -907,14 +907,14 @@ useFlat
 ?
 useFlat
 :
-PR_FALSE
+false
 ;
 }
 else
 {
 sFlatMenus
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1504,7 +1504,7 @@ top
 ;
 sTitlebarInfoPopulatedAero
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1928,7 +1928,7 @@ top
 ;
 sTitlebarInfoPopulatedThemed
 =
-PR_TRUE
+true
 ;
 }
 struct
@@ -2037,7 +2037,7 @@ nsUXThemeData
 :
 sIsDefaultWindowsTheme
 =
-PR_FALSE
+false
 ;
 LookAndFeel
 :
@@ -2089,7 +2089,7 @@ VISTA_VERSION
 ;
 sIsDefaultWindowsTheme
 =
-PR_FALSE
+false
 ;
 sThemeId
 =
@@ -2264,7 +2264,7 @@ WINTHEME_LUNA
 )
 sIsDefaultWindowsTheme
 =
-PR_TRUE
+true
 ;
 if
 (

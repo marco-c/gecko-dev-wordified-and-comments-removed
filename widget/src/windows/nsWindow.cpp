@@ -1145,43 +1145,43 @@ nsnull
 ;
 mInDtor
 =
-PR_FALSE
+false
 ;
 mIsVisible
 =
-PR_FALSE
+false
 ;
 mIsTopWidgetWindow
 =
-PR_FALSE
+false
 ;
 mUnicodeWidget
 =
-PR_TRUE
+true
 ;
 mDisplayPanFeedback
 =
-PR_FALSE
+false
 ;
 mTouchWindow
 =
-PR_FALSE
+false
 ;
 mCustomNonClient
 =
-PR_FALSE
+false
 ;
 mHideChrome
 =
-PR_FALSE
+false
 ;
 mFullscreenMode
 =
-PR_FALSE
+false
 ;
 mMousePresent
 =
-PR_FALSE
+false
 ;
 mWindowType
 =
@@ -1332,7 +1332,7 @@ nsnull
 ;
 mHasTaskbarIconBeenCreated
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -1450,7 +1450,7 @@ nsWindow
 {
 mInDtor
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2275,7 +2275,7 @@ mWnd
 ;
 if
 (
-PR_FALSE
+false
 =
 =
 mOnDestroyCalled
@@ -3515,7 +3515,7 @@ void
 return
 GetParentWindow
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -3895,7 +3895,7 @@ GCL_STYLE
 ;
 sDropShadowEnabled
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -3918,7 +3918,7 @@ CS_DROPSHADOW
 ;
 sDropShadowEnabled
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4051,7 +4051,7 @@ eWindowType_toplevel
 {
 syncInvalidate
 =
-PR_TRUE
+true
 ;
 switch
 (
@@ -4600,7 +4600,7 @@ RegisterTouchWindow
 {
 mTouchWindow
 =
-PR_TRUE
+true
 ;
 mGesture
 .
@@ -4635,7 +4635,7 @@ UnregisterTouchWindow
 {
 mTouchWindow
 =
-PR_FALSE
+false
 ;
 mGesture
 .
@@ -5204,7 +5204,7 @@ aRepaint
 )
 Invalidate
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -5409,7 +5409,7 @@ aRepaint
 )
 Invalidate
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -5781,7 +5781,7 @@ WMSZ_BOTTOMRIGHT
 }
 CaptureMouse
 (
-PR_FALSE
+false
 )
 ;
 HWND
@@ -5790,7 +5790,7 @@ toplevelWnd
 GetTopLevelHWND
 (
 mWnd
-PR_TRUE
+true
 )
 ;
 :
@@ -6310,7 +6310,7 @@ height
 ;
 doConstrain
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -6403,7 +6403,7 @@ SM_CYFULLSCREEN
 }
 doConstrain
 =
-PR_TRUE
+true
 ;
 }
 :
@@ -7277,7 +7277,7 @@ window
 =
 GetTopLevelWindow
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -7363,7 +7363,7 @@ window
 =
 GetTopLevelWindow
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -7513,7 +7513,7 @@ evRect
 ;
 Invalidate
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -7749,7 +7749,7 @@ if
 mCustomNonClient
 )
 return
-PR_FALSE
+false
 ;
 mNonClientOffset
 .
@@ -7804,7 +7804,7 @@ mHorResizeMargin
 0
 ;
 return
-PR_TRUE
+true
 ;
 }
 mCaptionHeight
@@ -8136,7 +8136,7 @@ ResetLayout
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -8206,7 +8206,7 @@ bottom
 {
 mCustomNonClient
 =
-PR_FALSE
+false
 ;
 mNonClientMargins
 =
@@ -8268,7 +8268,7 @@ margins
 ;
 mCustomNonClient
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -8288,7 +8288,7 @@ failed
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -9312,7 +9312,7 @@ nsWindowGfx
 CreateIcon
 (
 aCursor
-PR_TRUE
+true
 aHotspotX
 aHotspotY
 size
@@ -9391,7 +9391,7 @@ GetTransparencyMode
 return
 GetTopLevelWindow
 (
-PR_TRUE
+true
 )
 -
 >
@@ -9412,7 +9412,7 @@ aMode
 {
 GetTopLevelWindow
 (
-PR_TRUE
+true
 )
 -
 >
@@ -9892,7 +9892,7 @@ hwnd
 GetTopLevelHWND
 (
 mWnd
-PR_TRUE
+true
 )
 ;
 if
@@ -10354,7 +10354,7 @@ nsSizeMode_Normal
 )
 Show
 (
-PR_FALSE
+false
 )
 ;
 nsresult
@@ -10375,12 +10375,12 @@ visible
 {
 Show
 (
-PR_TRUE
+true
 )
 ;
 Invalidate
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -10406,7 +10406,7 @@ FALSE
 nsSizeModeEvent
 event
 (
-PR_TRUE
+true
 NS_SIZEMODE
 this
 )
@@ -11187,7 +11187,7 @@ r
 WindowStyle
 (
 )
-PR_FALSE
+false
 WindowExStyle
 (
 )
@@ -11572,7 +11572,7 @@ RegisterSpecialDropdownHooks
 }
 sProcessHook
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -11593,7 +11593,7 @@ sRollupWidget
 ;
 sProcessHook
 =
-PR_FALSE
+false
 ;
 UnregisterSpecialDropdownHooks
 (
@@ -11806,7 +11806,7 @@ QS_INPUT
 )
 )
 return
-PR_TRUE
+true
 ;
 GUITHREADINFO
 guiInfo
@@ -11833,7 +11833,7 @@ guiInfo
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 GUI_INMOVESIZE
@@ -11857,19 +11857,19 @@ LayerManagerPrefs
 :
 mAccelerateByDefault
 (
-PR_TRUE
+true
 )
 mDisableAcceleration
 (
-PR_FALSE
+false
 )
 mPreferOpenGL
 (
-PR_FALSE
+false
 )
 mPreferD3D9
 (
-PR_FALSE
+false
 )
 {
 }
@@ -12257,7 +12257,7 @@ mDisableAcceleration
 )
 mUseAcceleratedRendering
 =
-PR_FALSE
+false
 ;
 else
 if
@@ -12268,7 +12268,7 @@ mAccelerateByDefault
 )
 mUseAcceleratedRendering
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -12760,14 +12760,14 @@ GetForegroundWindow
 GetTopLevelHWND
 (
 mWnd
-PR_TRUE
+true
 )
 !
 =
 GetTopLevelHWND
 (
 activeWnd
-PR_TRUE
+true
 )
 )
 {
@@ -13492,7 +13492,7 @@ aMsg
 nsGUIEvent
 event
 (
-PR_TRUE
+true
 aMsg
 this
 )
@@ -13607,7 +13607,7 @@ UserActivity
 nsKeyEvent
 event
 (
-PR_TRUE
+true
 aEventType
 this
 )
@@ -13953,7 +13953,7 @@ event
 .
 isMeta
 =
-PR_FALSE
+false
 ;
 event
 .
@@ -14136,13 +14136,13 @@ break
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 nsCommandEvent
 event
 (
-PR_TRUE
+true
 nsWidgetAtoms
 :
 :
@@ -14163,7 +14163,7 @@ event
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 BOOL
@@ -14360,12 +14360,12 @@ PluginHasFocus
 )
 )
 return
-PR_FALSE
+false
 ;
 nsPluginEvent
 event
 (
-PR_TRUE
+true
 NS_PLUGIN_INPUT_EVENT
 this
 )
@@ -14426,7 +14426,7 @@ event
 .
 retargetToFocusedDocument
 =
-PR_TRUE
+true
 ;
 return
 DispatchWindowEvent
@@ -14597,7 +14597,7 @@ NS_MOUSE_BUTTON_DOWN
 :
 CaptureMouse
 (
-PR_TRUE
+true
 )
 ;
 break
@@ -14631,7 +14631,7 @@ sIsInMouseCapture
 )
 CaptureMouse
 (
-PR_FALSE
+false
 )
 ;
 break
@@ -14665,7 +14665,7 @@ lParam
 nsMouseEvent
 event
 (
-PR_TRUE
+true
 aEventType
 this
 nsMouseEvent
@@ -14743,7 +14743,7 @@ event
 .
 isMeta
 =
-PR_FALSE
+false
 ;
 event
 .
@@ -15530,7 +15530,7 @@ DispatchMouseEvent
 NS_MOUSE_EXIT
 wParam
 pos
-PR_FALSE
+false
 nsMouseEvent
 :
 :
@@ -15571,7 +15571,7 @@ DispatchMouseEvent
 NS_MOUSE_ENTER
 wParam
 pos
-PR_FALSE
+false
 nsMouseEvent
 :
 :
@@ -15668,7 +15668,7 @@ nsnull
 nsAccessibleEvent
 event
 (
-PR_TRUE
+true
 aEventType
 this
 )
@@ -15701,7 +15701,7 @@ event
 .
 isMeta
 =
-PR_FALSE
+false
 ;
 event
 .
@@ -15745,11 +15745,11 @@ NS_ACTIVATE
 )
 sJustGotActivate
 =
-PR_FALSE
+false
 ;
 sJustGotDeactivate
 =
-PR_FALSE
+false
 ;
 HWND
 curWnd
@@ -15850,7 +15850,7 @@ aEventType
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -15871,7 +15871,7 @@ mEventCallback
 nsGUIEvent
 event
 (
-PR_TRUE
+true
 aEventType
 this
 )
@@ -15963,7 +15963,7 @@ event
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -16035,7 +16035,7 @@ mouseWnd
 mouseTopLevel
 )
 return
-PR_TRUE
+true
 ;
 return
 nsWindow
@@ -16065,7 +16065,7 @@ mBlurSuppressLevel
 0
 )
 return
-PR_TRUE
+true
 ;
 HWND
 parentWnd
@@ -16105,7 +16105,7 @@ BlurEventsSuppressed
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -16519,7 +16519,7 @@ break
 }
 handled
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -16541,7 +16541,7 @@ WM_IME_SETCONTEXT
 :
 handled
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -16808,12 +16808,12 @@ cmd
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 LRESULT
@@ -17097,7 +17097,7 @@ retValue
 ;
 if
 (
-PR_TRUE
+true
 =
 =
 someWindow
@@ -17179,7 +17179,7 @@ aResult
 ;
 aCallDefWndProc
 =
-PR_FALSE
+false
 ;
 bool
 eventDispatched
@@ -17273,7 +17273,7 @@ break
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -17294,7 +17294,7 @@ DispatchPendingEvents
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -17369,7 +17369,7 @@ currentQuality
 quality
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -17383,7 +17383,7 @@ currentQuality
 quality
 ;
 return
-PR_FALSE
+false
 ;
 }
 currentQuality
@@ -17391,7 +17391,7 @@ currentQuality
 quality
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -17475,7 +17475,7 @@ aRetValue
 )
 )
 return
-PR_TRUE
+true
 ;
 #
 if
@@ -17516,7 +17516,7 @@ mWnd
 ?
 eatMessage
 :
-PR_TRUE
+true
 ;
 }
 if
@@ -17555,7 +17555,7 @@ mWnd
 !
 callDefaultWndProc
 :
-PR_TRUE
+true
 ;
 }
 }
@@ -17611,7 +17611,7 @@ aRetValue
 dwmHitResult
 ;
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -17664,7 +17664,7 @@ cancelQuit
 >
 SetData
 (
-PR_FALSE
+false
 )
 ;
 obsServ
@@ -17715,7 +17715,7 @@ FALSE
 ;
 result
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -17893,7 +17893,7 @@ TRI_UNKNOWN
 ;
 result
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -17948,7 +17948,7 @@ NS_TABCHANGE
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -17986,7 +17986,7 @@ NS_THEMECHANGED
 ;
 Invalidate
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -18075,7 +18075,7 @@ wParam
 {
 result
 =
-PR_TRUE
+true
 ;
 *
 aRetValue
@@ -18174,7 +18174,7 @@ bottom
 ;
 result
 =
-PR_TRUE
+true
 ;
 *
 aRetValue
@@ -18213,7 +18213,7 @@ lParam
 ;
 result
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -18279,7 +18279,7 @@ style
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -18327,11 +18327,11 @@ FALSE
 ;
 result
 =
-PR_TRUE
+true
 ;
 UpdateGetWindowInfoCaptionStatus
 (
-PR_TRUE
+true
 )
 ;
 InvalidateNonClientRegion
@@ -18350,11 +18350,11 @@ TRUE
 ;
 result
 =
-PR_TRUE
+true
 ;
 UpdateGetWindowInfoCaptionStatus
 (
-PR_FALSE
+false
 )
 ;
 InvalidateNonClientRegion
@@ -18445,7 +18445,7 @@ res
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -18541,7 +18541,7 @@ NS_XUL_CLOSE
 ;
 result
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -18554,7 +18554,7 @@ OnDestroy
 ;
 result
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -18611,7 +18611,7 @@ NULL
 ;
 result
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -18772,7 +18772,7 @@ aRetValue
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -18783,7 +18783,7 @@ WM_MOUSEMOVE
 {
 mMousePresent
 =
-PR_TRUE
+true
 ;
 LPARAM
 lParamScreen
@@ -18847,7 +18847,7 @@ y
 {
 userMovedMouse
 =
-PR_TRUE
+true
 ;
 }
 result
@@ -18857,7 +18857,7 @@ DispatchMouseEvent
 NS_MOUSE_MOVE
 wParam
 lParam
-PR_FALSE
+false
 nsMouseEvent
 :
 :
@@ -18912,7 +18912,7 @@ DispatchMouseEvent
 NS_MOUSE_BUTTON_DOWN
 wParam
 lParam
-PR_FALSE
+false
 nsMouseEvent
 :
 :
@@ -18940,7 +18940,7 @@ DispatchMouseEvent
 NS_MOUSE_BUTTON_UP
 wParam
 lParam
-PR_FALSE
+false
 nsMouseEvent
 :
 :
@@ -18970,7 +18970,7 @@ break
 ;
 mMousePresent
 =
-PR_FALSE
+false
 ;
 WPARAM
 mouseState
@@ -19025,7 +19025,7 @@ DispatchMouseEvent
 NS_MOUSE_EXIT
 mouseState
 pos
-PR_FALSE
+false
 nsMouseEvent
 :
 :
@@ -19061,7 +19061,7 @@ lParam
 {
 contextMenukey
 =
-PR_TRUE
+true
 ;
 pos
 =
@@ -19128,7 +19128,7 @@ DispatchMouseEvent
 NS_MOUSE_MOZHITTEST
 wParam
 pos
-PR_FALSE
+false
 nsMouseEvent
 :
 :
@@ -19156,7 +19156,7 @@ lParam
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -19172,7 +19172,7 @@ DispatchMouseEvent
 NS_MOUSE_DOUBLECLICK
 wParam
 lParam
-PR_FALSE
+false
 nsMouseEvent
 :
 :
@@ -19198,7 +19198,7 @@ DispatchMouseEvent
 NS_MOUSE_BUTTON_DOWN
 wParam
 lParam
-PR_FALSE
+false
 nsMouseEvent
 :
 :
@@ -19224,7 +19224,7 @@ DispatchMouseEvent
 NS_MOUSE_BUTTON_UP
 wParam
 lParam
-PR_FALSE
+false
 nsMouseEvent
 :
 :
@@ -19250,7 +19250,7 @@ DispatchMouseEvent
 NS_MOUSE_DOUBLECLICK
 wParam
 lParam
-PR_FALSE
+false
 nsMouseEvent
 :
 :
@@ -19279,7 +19279,7 @@ lParamToClient
 (
 lParam
 )
-PR_FALSE
+false
 nsMouseEvent
 :
 :
@@ -19308,7 +19308,7 @@ lParamToClient
 (
 lParam
 )
-PR_FALSE
+false
 nsMouseEvent
 :
 :
@@ -19337,7 +19337,7 @@ lParamToClient
 (
 lParam
 )
-PR_FALSE
+false
 nsMouseEvent
 :
 :
@@ -19363,7 +19363,7 @@ DispatchMouseEvent
 NS_MOUSE_BUTTON_DOWN
 wParam
 lParam
-PR_FALSE
+false
 nsMouseEvent
 :
 :
@@ -19389,7 +19389,7 @@ DispatchMouseEvent
 NS_MOUSE_BUTTON_UP
 wParam
 lParam
-PR_FALSE
+false
 nsMouseEvent
 :
 :
@@ -19415,7 +19415,7 @@ DispatchMouseEvent
 NS_MOUSE_DOUBLECLICK
 wParam
 lParam
-PR_FALSE
+false
 nsMouseEvent
 :
 :
@@ -19444,7 +19444,7 @@ lParamToClient
 (
 lParam
 )
-PR_FALSE
+false
 nsMouseEvent
 :
 :
@@ -19473,7 +19473,7 @@ lParamToClient
 (
 lParam
 )
-PR_FALSE
+false
 nsMouseEvent
 :
 :
@@ -19502,7 +19502,7 @@ lParamToClient
 (
 lParam
 )
-PR_FALSE
+false
 nsMouseEvent
 :
 :
@@ -19546,7 +19546,7 @@ lParamToClient
 (
 lParam
 )
-PR_FALSE
+false
 nsMouseEvent
 :
 :
@@ -19566,7 +19566,7 @@ lParamToClient
 (
 lParam
 )
-PR_FALSE
+false
 nsMouseEvent
 :
 :
@@ -19632,7 +19632,7 @@ aRetValue
 ;
 result
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -19684,7 +19684,7 @@ lParam
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 WM_ACTIVATE
@@ -19727,7 +19727,7 @@ NS_DEACTIVATE
 else
 sJustGotDeactivate
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -19750,12 +19750,12 @@ StopFlashing
 ;
 sJustGotActivate
 =
-PR_TRUE
+true
 ;
 nsMouseEvent
 event
 (
-PR_TRUE
+true
 NS_MOUSE_ACTIVATE
 this
 nsMouseEvent
@@ -19836,7 +19836,7 @@ MA_NOACTIVATE
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -19975,7 +19975,7 @@ SPI_SETWHEELSCROLLCHARS
 :
 sNeedsToInitMouseWheelSettings
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -19992,7 +19992,7 @@ TRUE
 ;
 result
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -20145,7 +20145,7 @@ Release
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -20188,7 +20188,7 @@ SW_SHOWMINIMIZED
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -20222,7 +20222,7 @@ MOZ_SYSCONTEXT_Y_POS
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -20243,7 +20243,7 @@ aRetValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 case
 MOZ_WM_MOUSEVWHEEL
@@ -20269,7 +20269,7 @@ aRetValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -20286,7 +20286,7 @@ nsUXThemeData
 :
 CheckForCompositor
 (
-PR_TRUE
+true
 )
 ;
 UpdateNonClientMargins
@@ -20316,7 +20316,7 @@ UpdateGlass
 ;
 Invalidate
 (
-PR_FALSE
+false
 )
 ;
 break
@@ -20352,7 +20352,7 @@ UIS_CLEAR
 nsUIStateChangeEvent
 event
 (
-PR_TRUE
+true
 NS_UISTATECHANGED
 this
 )
@@ -20422,7 +20422,7 @@ WM_TABLET_QUERYSYSTEMGESTURESTATUS
 :
 result
 =
-PR_TRUE
+true
 ;
 *
 aRetValue
@@ -20524,7 +20524,7 @@ mWnd
 nsGestureNotifyEvent
 gestureNotifyEvent
 (
-PR_TRUE
+true
 NS_GESTURENOTIFY_EVENT_START
 this
 )
@@ -20569,7 +20569,7 @@ panDirection
 }
 result
 =
-PR_FALSE
+false
 ;
 }
 break
@@ -20581,7 +20581,7 @@ WM_CLEAR
 nsContentCommandEvent
 command
 (
-PR_TRUE
+true
 NS_CONTENT_COMMAND_DELETE
 this
 )
@@ -20594,7 +20594,7 @@ command
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -20606,7 +20606,7 @@ WM_CUT
 nsContentCommandEvent
 command
 (
-PR_TRUE
+true
 NS_CONTENT_COMMAND_CUT
 this
 )
@@ -20619,7 +20619,7 @@ command
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -20631,7 +20631,7 @@ WM_COPY
 nsContentCommandEvent
 command
 (
-PR_TRUE
+true
 NS_CONTENT_COMMAND_COPY
 this
 )
@@ -20644,7 +20644,7 @@ command
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -20656,7 +20656,7 @@ WM_PASTE
 nsContentCommandEvent
 command
 (
-PR_TRUE
+true
 NS_CONTENT_COMMAND_PASTE
 this
 )
@@ -20669,7 +20669,7 @@ command
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -20681,7 +20681,7 @@ EM_UNDO
 nsContentCommandEvent
 command
 (
-PR_TRUE
+true
 NS_CONTENT_COMMAND_UNDO
 this
 )
@@ -20711,7 +20711,7 @@ mIsEnabled
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -20723,7 +20723,7 @@ EM_REDO
 nsContentCommandEvent
 command
 (
-PR_TRUE
+true
 NS_CONTENT_COMMAND_REDO
 this
 )
@@ -20753,7 +20753,7 @@ mIsEnabled
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -20785,10 +20785,10 @@ CF_UNICODETEXT
 nsContentCommandEvent
 command
 (
-PR_TRUE
+true
 NS_CONTENT_COMMAND_PASTE
 this
-PR_TRUE
+true
 )
 ;
 DispatchWindowEvent
@@ -20816,7 +20816,7 @@ mIsEnabled
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -20829,10 +20829,10 @@ EM_CANUNDO
 nsContentCommandEvent
 command
 (
-PR_TRUE
+true
 NS_CONTENT_COMMAND_UNDO
 this
-PR_TRUE
+true
 )
 ;
 DispatchWindowEvent
@@ -20860,7 +20860,7 @@ mIsEnabled
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -20872,10 +20872,10 @@ EM_CANREDO
 nsContentCommandEvent
 command
 (
-PR_TRUE
+true
 NS_CONTENT_COMMAND_REDO
 this
-PR_TRUE
+true
 )
 ;
 DispatchWindowEvent
@@ -20903,7 +20903,7 @@ mIsEnabled
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -21014,7 +21014,7 @@ result
 else
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -21221,7 +21221,7 @@ top
 )
 top
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -21246,7 +21246,7 @@ mVertResizeMargin
 )
 bottom
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -21280,7 +21280,7 @@ mHorResizeMargin
 )
 left
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -21315,7 +21315,7 @@ mHorResizeMargin
 )
 right
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -21590,7 +21590,7 @@ DispatchMouseEvent
 NS_MOUSE_MOZHITTEST
 0
 lParamClient
-PR_FALSE
+false
 nsMouseEvent
 :
 :
@@ -22141,7 +22141,7 @@ forgetRedirectedMessage
 .
 mCancel
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -22197,7 +22197,7 @@ hWnd
 {
 hasNativeMenu
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -22772,7 +22772,7 @@ aHKL
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -23049,7 +23049,7 @@ return
 nsSizeModeEvent
 event
 (
-PR_TRUE
+true
 NS_SIZEMODE
 this
 )
@@ -23606,13 +23606,13 @@ if
 UpdateNonClientMargins
 (
 nsSizeMode_Maximized
-PR_TRUE
+true
 )
 )
 {
 result
 =
-PR_TRUE
+true
 ;
 return
 ;
@@ -23911,7 +23911,7 @@ nsSizeMode_Normal
 nsSizeModeEvent
 event
 (
-PR_TRUE
+true
 NS_SIZEMODE
 this
 )
@@ -23942,7 +23942,7 @@ event
 UpdateNonClientMargins
 (
 sizeMode
-PR_FALSE
+false
 )
 ;
 }
@@ -23970,7 +23970,7 @@ hwndInsertAfter
 nsZLevelEvent
 event
 (
-PR_TRUE
+true
 NS_SETZLEVEL
 this
 )
@@ -24057,13 +24057,13 @@ event
 .
 mImmediate
 =
-PR_FALSE
+false
 ;
 event
 .
 mAdjusted
 =
-PR_FALSE
+false
 ;
 DispatchWindowEvent
 (
@@ -24372,7 +24372,7 @@ mWnd
 nsMozTouchEvent
 touchEvent
 (
-PR_TRUE
+true
 msg
 this
 pInputs
@@ -24426,7 +24426,7 @@ lParam
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -24456,7 +24456,7 @@ lParam
 nsMouseScrollEvent
 event
 (
-PR_TRUE
+true
 NS_MOUSE_PIXEL_SCROLL
 this
 )
@@ -24474,7 +24474,7 @@ lParam
 )
 )
 return
-PR_FALSE
+false
 ;
 nsEventStatus
 status
@@ -24501,7 +24501,7 @@ event
 .
 isMeta
 =
-PR_FALSE
+false
 ;
 event
 .
@@ -24643,13 +24643,13 @@ lParam
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsSimpleGestureEvent
 event
 (
-PR_TRUE
+true
 0
 this
 0
@@ -24673,7 +24673,7 @@ event
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 event
@@ -24698,7 +24698,7 @@ event
 .
 isMeta
 =
-PR_FALSE
+false
 ;
 event
 .
@@ -24753,7 +24753,7 @@ nsEventStatus_eIgnore
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 mGesture
@@ -24767,7 +24767,7 @@ lParam
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 PRUint16
@@ -24852,7 +24852,7 @@ return
 }
 sNeedsToInitMouseWheelSettings
 =
-PR_FALSE
+false
 ;
 ResetRemainingWheelDelta
 (
@@ -25277,7 +25277,7 @@ mAssumeWheelIsZoomUntil
 {
 isControl
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -25292,7 +25292,7 @@ mIsControlDown
 nsMouseScrollEvent
 scrollEvent
 (
-PR_TRUE
+true
 NS_MOUSE_SCROLL
 this
 )
@@ -25320,7 +25320,7 @@ scrollEvent
 .
 isMeta
 =
-PR_FALSE
+false
 ;
 scrollEvent
 .
@@ -25376,7 +25376,7 @@ sEnablePixelScrolling
 nsMouseScrollEvent
 testEvent
 (
-PR_TRUE
+true
 NS_MOUSE_SCROLL
 this
 )
@@ -25486,7 +25486,7 @@ delta
 nsQueryContentEvent
 queryEvent
 (
-PR_TRUE
+true
 NS_QUERY_SCROLL_TARGET_INFO
 this
 )
@@ -25605,7 +25605,7 @@ SCROLL_ACTION_NONE
 {
 dispatchPixelScrollEvent
 =
-PR_TRUE
+true
 ;
 reversePixelScrollDirection
 =
@@ -25871,7 +25871,7 @@ return
 nsMouseScrollEvent
 pixelEvent
 (
-PR_TRUE
+true
 NS_MOUSE_PIXEL_SCROLL
 this
 )
@@ -26076,7 +26076,7 @@ aNumChars1
 aNumChars2
 )
 return
-PR_FALSE
+false
 ;
 nsCaseInsensitiveStringComparator
 comp
@@ -26386,7 +26386,7 @@ aEventDispatched
 *
 aEventDispatched
 =
-PR_TRUE
+true
 ;
 }
 HWND
@@ -26541,7 +26541,7 @@ keyinput
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -26550,7 +26550,7 @@ mOnDestroyCalled
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -26568,7 +26568,7 @@ aEventDispatched
 *
 aEventDispatched
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -26715,7 +26715,7 @@ aFakeCharMessage
 ;
 anyCharMessagesRemoved
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -26798,7 +26798,7 @@ WM_KEYLAST
 ;
 anyCharMessagesRemoved
 =
-PR_TRUE
+true
 ;
 gotMsg
 =
@@ -26967,7 +26967,7 @@ PluginHasFocus
 )
 )
 return
-PR_FALSE
+false
 ;
 DispatchPluginEvent
 (
@@ -28076,7 +28076,7 @@ aEventDispatched
 *
 aEventDispatched
 =
-PR_TRUE
+true
 ;
 return
 DispatchKeyEvent
@@ -28230,7 +28230,7 @@ aModKeyState
 .
 mIsControlDown
 =
-PR_FALSE
+false
 ;
 wchar_t
 uniChar
@@ -28495,7 +28495,7 @@ aEventDispatched
 *
 aEventDispatched
 =
-PR_TRUE
+true
 ;
 aModKeyState
 .
@@ -28681,7 +28681,7 @@ SetWindowClipRegion
 configuration
 .
 mClipRegion
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -28744,7 +28744,7 @@ configuration
 mBounds
 .
 height
-PR_TRUE
+true
 )
 ;
 }
@@ -28858,7 +28858,7 @@ r
 GetBounds
 (
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -28873,7 +28873,7 @@ SetWindowClipRegion
 configuration
 .
 mClipRegion
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -29474,7 +29474,7 @@ OnDestroy
 {
 mOnDestroyCalled
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -29535,7 +29535,7 @@ nsnull
 ;
 EnableDragDrop
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -29563,14 +29563,14 @@ CaptureRollupEvents
 (
 nsnull
 nsnull
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 }
 AssociateDefaultIMC
 (
-PR_TRUE
+true
 )
 ;
 MouseTrailer
@@ -29749,7 +29749,7 @@ mGesture
 PanFeedbackFinalize
 (
 mWnd
-PR_TRUE
+true
 )
 ;
 mWnd
@@ -29784,7 +29784,7 @@ aY
 nsGUIEvent
 event
 (
-PR_TRUE
+true
 NS_MOVE
 this
 )
@@ -29843,7 +29843,7 @@ NULL
 ;
 Invalidate
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -29857,7 +29857,7 @@ mEventCallback
 nsSizeEvent
 event
 (
-PR_TRUE
+true
 NS_SIZE
 this
 )
@@ -30010,7 +30010,7 @@ event
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -30026,7 +30026,7 @@ lParam
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -30046,7 +30046,7 @@ aHWND
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 DWORD
@@ -30154,7 +30154,7 @@ bounds
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -30198,11 +30198,11 @@ bottom
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -30484,7 +30484,7 @@ pGetProcessImageFileName
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -30602,7 +30602,7 @@ filenameSuffix
 {
 result
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -30816,7 +30816,7 @@ InSendMessage
 {
 sMayBeUsingLogitechMouse
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -30840,7 +30840,7 @@ InSendMessage
 {
 sMayBeUsingLogitechMouse
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -31037,7 +31037,7 @@ destWindow
 >
 GetParentWindow
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
@@ -31107,7 +31107,7 @@ destWindow
 =
 GetParentWindow
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
@@ -31223,13 +31223,13 @@ retVal
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsContentCommandEvent
 command
 (
-PR_TRUE
+true
 NS_CONTENT_COMMAND_SCROLL
 this
 )
@@ -31405,7 +31405,7 @@ break
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 DispatchWindowEvent
@@ -31415,7 +31415,7 @@ command
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -31435,7 +31435,7 @@ aLParam
 nsMouseScrollEvent
 scrollevent
 (
-PR_TRUE
+true
 NS_MOUSE_SCROLL
 this
 )
@@ -31545,7 +31545,7 @@ scrollevent
 .
 isMeta
 =
-PR_FALSE
+false
 ;
 scrollevent
 .
@@ -31585,7 +31585,7 @@ dc
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -31910,7 +31910,7 @@ nsTextStore
 :
 CommitComposition
 (
-PR_FALSE
+false
 )
 ;
 #
@@ -32062,16 +32062,16 @@ aState
 =
 isOpen
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 }
 else
 *
 aState
 =
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -32306,7 +32306,7 @@ nsTextStore
 :
 CommitComposition
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -32590,7 +32590,7 @@ mOnDestroyCalled
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -32604,7 +32604,7 @@ get
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 BOOL
@@ -33330,7 +33330,7 @@ hWnd
 GetTopLevelHWND
 (
 mWnd
-PR_TRUE
+true
 )
 ;
 nsWindow
@@ -33401,7 +33401,7 @@ eTransparencyTransparent
 {
 HideWindowChrome
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -33419,7 +33419,7 @@ eTransparencyTransparent
 {
 HideWindowChrome
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -33591,7 +33591,7 @@ width
 mBounds
 .
 height
-PR_TRUE
+true
 )
 ;
 }
@@ -33668,7 +33668,7 @@ hWnd
 GetTopLevelHWND
 (
 mWnd
-PR_TRUE
+true
 )
 ;
 RECT
@@ -33725,7 +33725,7 @@ get
 >
 GetDC
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -35160,7 +35160,7 @@ Msg
 WM_ACTIVATEAPP
 )
 return
-PR_FALSE
+false
 ;
 :
 :
@@ -35409,7 +35409,7 @@ rollup
 *
 outResult
 =
-PR_TRUE
+true
 ;
 }
 PRUint32
@@ -35501,7 +35501,7 @@ sameTypeCount
 {
 rollup
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -35621,7 +35621,7 @@ nsnull
 ;
 sProcessHook
 =
-PR_FALSE
+false
 ;
 sRollupMsgId
 =
@@ -35798,7 +35798,7 @@ didCheck
 {
 didCheck
 =
-PR_TRUE
+true
 ;
 OSVERSIONINFOEX
 osInfo
@@ -35869,7 +35869,7 @@ this
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 if
@@ -35909,7 +35909,7 @@ curWindow
 >
 GetParentWindow
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -36056,7 +36056,7 @@ hwnd
 {
 gWindowsVisible
 =
-PR_TRUE
+true
 ;
 return
 FALSE
@@ -36076,7 +36076,7 @@ CanTakeFocus
 {
 gWindowsVisible
 =
-PR_FALSE
+false
 ;
 EnumWindows
 (
@@ -36091,7 +36091,7 @@ gWindowsVisible
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -36112,7 +36112,7 @@ fgWnd
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 DWORD
@@ -36136,12 +36136,12 @@ GetCurrentProcessId
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -36266,13 +36266,13 @@ case
 0
 :
 return
-PR_FALSE
+false
 ;
 case
 1
 :
 return
-PR_TRUE
+true
 ;
 default
 :
@@ -36369,7 +36369,7 @@ result
 ERROR_SUCCESS
 )
 return
-PR_FALSE
+false
 ;
 }
 :
@@ -36380,7 +36380,7 @@ key
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -36409,7 +36409,7 @@ aKeyName
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 HKEY
@@ -36464,7 +36464,7 @@ result
 ERROR_SUCCESS
 )
 return
-PR_FALSE
+false
 ;
 }
 DWORD
@@ -36511,7 +36511,7 @@ type
 REG_SZ
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -36533,7 +36533,7 @@ aBuffer
 0
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -36582,7 +36582,7 @@ if
 foundKey
 )
 return
-PR_FALSE
+false
 ;
 int
 majorVersion
@@ -36716,7 +36716,7 @@ if
 foundKey
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -36826,7 +36826,7 @@ TrackPoint
 {
 sDefaultTrackPointHack
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -36850,7 +36850,7 @@ UltraNav
 {
 sDefaultTrackPointHack
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -36877,7 +36877,7 @@ TrackPoint
 {
 sDefaultTrackPointHack
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -36930,7 +36930,7 @@ IsObsoleteSynapticsDriver
 {
 sDefaultTrackPointHack
 =
-PR_TRUE
+true
 ;
 }
 bool

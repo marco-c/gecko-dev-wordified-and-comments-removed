@@ -306,12 +306,12 @@ window
 >
 GetParentWindow
 (
-PR_FALSE
+false
 )
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -585,7 +585,7 @@ window
 >
 GetParentWindow
 (
-PR_FALSE
+false
 )
 )
 )
@@ -2432,7 +2432,7 @@ StandardGetState
 (
 aFrame
 aWidgetType
-PR_TRUE
+true
 )
 ;
 if
@@ -2585,7 +2585,7 @@ StandardGetState
 (
 aFrame
 aWidgetType
-PR_FALSE
+false
 )
 ;
 }
@@ -2804,7 +2804,7 @@ StandardGetState
 (
 aFrame
 aWidgetType
-PR_TRUE
+true
 )
 ;
 }
@@ -3579,7 +3579,7 @@ StandardGetState
 (
 aFrame
 aWidgetType
-PR_FALSE
+false
 )
 ;
 return
@@ -3854,7 +3854,7 @@ StandardGetState
 (
 aFrame
 aWidgetType
-PR_TRUE
+true
 )
 ;
 return
@@ -3905,7 +3905,7 @@ StandardGetState
 (
 aFrame
 aWidgetType
-PR_TRUE
+true
 )
 ;
 return
@@ -7014,7 +7014,7 @@ ctx
 Rectangle
 (
 buttonbox1
-PR_TRUE
+true
 )
 ;
 ctx
@@ -7037,7 +7037,7 @@ ctx
 Rectangle
 (
 buttonbox2
-PR_TRUE
+true
 )
 ;
 ctx
@@ -7060,7 +7060,7 @@ ctx
 Rectangle
 (
 buttonbox3
-PR_TRUE
+true
 )
 ;
 ctx
@@ -8004,7 +8004,7 @@ SizeTo
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 HANDLE
@@ -8056,7 +8056,7 @@ CheckForCompositor
 )
 )
 return
-PR_TRUE
+true
 ;
 #
 endif
@@ -8080,7 +8080,7 @@ SM_CXFRAME
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -8126,7 +8126,7 @@ SM_CXFRAME
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -8198,7 +8198,7 @@ popupSize
 cx
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -8246,7 +8246,7 @@ NS_AUTHOR_SPECIFIED_PADDING
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -8288,7 +8288,7 @@ right
 2
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -8331,7 +8331,7 @@ right
 1
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -8446,7 +8446,7 @@ break
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -8490,7 +8490,7 @@ left
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -8589,14 +8589,14 @@ m
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 #
 endif
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -8640,7 +8640,7 @@ height
 *
 aIsOverridable
 =
-PR_TRUE
+true
 ;
 HANDLE
 theme
@@ -8894,7 +8894,7 @@ cy
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 }
 case
@@ -8941,7 +8941,7 @@ NS_THEME_RESIZER
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -8955,7 +8955,7 @@ NS_THEME_SCALE_THUMB_VERTICAL
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -9130,7 +9130,7 @@ CAPTIONBUTTON_RESTORE
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -9212,7 +9212,7 @@ CAPTIONBUTTON_MINIMIZE
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -9294,7 +9294,7 @@ CAPTIONBUTTON_CLOSE
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -9329,7 +9329,7 @@ SM_CYFRAME
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -9418,7 +9418,7 @@ height
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -9458,7 +9458,7 @@ SM_CYFRAME
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -9746,7 +9746,7 @@ NS_THEME_WIN_BORDERLESS_GLASS
 *
 aShouldRepaint
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -9811,7 +9811,7 @@ NS_THEME_WINDOW_BUTTON_RESTORE
 *
 aShouldRepaint
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -9843,7 +9843,7 @@ NS_THEME_SCROLLBAR_TRACK_HORIZONTAL
 *
 aShouldRepaint
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -9880,7 +9880,7 @@ aFrame
 *
 aShouldRepaint
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -9895,7 +9895,7 @@ aAttribute
 *
 aShouldRepaint
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -9903,7 +9903,7 @@ else
 *
 aShouldRepaint
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -9972,7 +9972,7 @@ focused
 *
 aShouldRepaint
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -10033,7 +10033,7 @@ IsThemeSupportEnabled
 )
 )
 return
-PR_FALSE
+false
 ;
 HANDLE
 theme
@@ -10109,7 +10109,7 @@ aWidgetType
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -10142,10 +10142,10 @@ aWidgetType
 NS_THEME_CHECKBOX
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -10165,7 +10165,7 @@ aWidgetType
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -10177,7 +10177,7 @@ ThemeNeedsComboboxDropmarker
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsITheme
@@ -10389,7 +10389,7 @@ nsUXThemeData
 sFlatMenus
 )
 return
-PR_FALSE
+false
 ;
 case
 NS_THEME_BUTTON
@@ -10557,11 +10557,11 @@ case
 NS_THEME_WINDOW_BUTTON_BOX_MAXIMIZED
 :
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -11009,7 +11009,7 @@ focused
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -11138,7 +11138,7 @@ right
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 case
@@ -11178,12 +11178,12 @@ right
 1
 ;
 return
-PR_TRUE
+true
 ;
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -11228,7 +11228,7 @@ height
 *
 aIsOverridable
 =
-PR_TRUE
+true
 ;
 switch
 (
@@ -11335,7 +11335,7 @@ SM_CYVSCROLL
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -11376,7 +11376,7 @@ SM_CYHSCROLL
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -11409,7 +11409,7 @@ height
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -11437,7 +11437,7 @@ height
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -11594,7 +11594,7 @@ height
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -11651,7 +11651,7 @@ height
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -11708,7 +11708,7 @@ width
 *
 aIsOverridable
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -11976,7 +11976,7 @@ aFocused
 {
 aFocused
 =
-PR_FALSE
+false
 ;
 switch
 (
@@ -12000,7 +12000,7 @@ DFCS_BUTTONPUSH
 ;
 aFocused
 =
-PR_FALSE
+false
 ;
 contentState
 =
@@ -12113,7 +12113,7 @@ DFCS_FLAT
 ;
 aFocused
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -12143,7 +12143,7 @@ aFrame
 {
 aFocused
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -12163,7 +12163,7 @@ contentState
 ;
 aFocused
 =
-PR_FALSE
+false
 ;
 aPart
 =
@@ -12287,7 +12287,7 @@ NS_EVENT_STATE_FOCUS
 {
 aFocused
 =
-PR_TRUE
+true
 ;
 }
 if

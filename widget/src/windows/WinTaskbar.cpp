@@ -697,7 +697,7 @@ rDrawFrame
 *
 rDrawFrame
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -724,7 +724,7 @@ rDrawFrame
 *
 rDrawFrame
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -770,7 +770,7 @@ rAcceptActivation
 *
 rAcceptActivation
 =
-PR_TRUE
+true
 ;
 NS_NOTREACHED
 (
@@ -835,7 +835,7 @@ if
 mTaskbar
 )
 return
-PR_TRUE
+true
 ;
 :
 :
@@ -872,7 +872,7 @@ hr
 )
 )
 return
-PR_FALSE
+false
 ;
 hr
 =
@@ -907,11 +907,11 @@ mTaskbar
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 WinTaskbar
@@ -993,7 +993,7 @@ if
 appInfo
 )
 return
-PR_FALSE
+false
 ;
 nsCString
 val
@@ -1094,7 +1094,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 #
 if
@@ -1115,7 +1115,7 @@ Win64
 #
 endif
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -1164,7 +1164,7 @@ GetWindowsVersion
 WIN7_VERSION
 )
 return
-PR_FALSE
+false
 ;
 SetCurrentProcessExplicitAppUserModelIDPtr
 funcAppUserModelID
@@ -1188,7 +1188,7 @@ uid
 )
 )
 return
-PR_FALSE
+false
 ;
 HMODULE
 hDLL
@@ -1227,7 +1227,7 @@ hDLL
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1246,7 +1246,7 @@ get
 )
 retVal
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1286,9 +1286,9 @@ GetWindowsVersion
 <
 WIN7_VERSION
 ?
-PR_FALSE
+false
 :
-PR_TRUE
+true
 ;
 return
 NS_OK

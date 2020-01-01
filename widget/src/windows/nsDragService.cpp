@@ -229,7 +229,7 @@ nsnull
 )
 mSentLocalDropEvent
 (
-PR_FALSE
+false
 )
 {
 }
@@ -280,7 +280,7 @@ if
 psdi
 )
 return
-PR_FALSE
+false
 ;
 memset
 (
@@ -298,7 +298,7 @@ if
 aDOMNode
 )
 return
-PR_FALSE
+false
 ;
 nsIntRect
 dragRect
@@ -335,7 +335,7 @@ if
 surface
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 bmWidth
@@ -363,7 +363,7 @@ bmHeight
 0
 )
 return
-PR_FALSE
+false
 ;
 psdi
 -
@@ -398,7 +398,7 @@ if
 imgSurface
 )
 return
-PR_FALSE
+false
 ;
 nsRefPtr
 <
@@ -418,7 +418,7 @@ if
 context
 )
 return
-PR_FALSE
+false
 ;
 context
 -
@@ -1222,7 +1222,7 @@ aActionType
 ;
 mSentLocalDropEvent
 =
-PR_FALSE
+false
 ;
 StartDragSession
 (
@@ -1438,12 +1438,12 @@ y
 ;
 EndDragSession
 (
-PR_TRUE
+true
 )
 ;
 mDoingDrag
 =
-PR_FALSE
+false
 ;
 return
 DRAGDROP_S_DROP
@@ -1946,7 +1946,7 @@ SetDroppedLocal
 {
 mSentLocalDropEvent
 =
-PR_TRUE
+true
 ;
 return
 ;
@@ -2024,7 +2024,7 @@ endif
 *
 _retval
 =
-PR_FALSE
+false
 ;
 FORMATETC
 fe
@@ -2136,7 +2136,7 @@ fe
 *
 _retval
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2185,7 +2185,7 @@ S_OK
 *
 _retval
 =
-PR_TRUE
+true
 ;
 else
 {
@@ -2243,7 +2243,7 @@ S_OK
 *
 _retval
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2301,7 +2301,7 @@ S_OK
 *
 _retval
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2380,7 +2380,7 @@ S_OK
 )
 isCollection
 =
-PR_TRUE
+true
 ;
 return
 isCollection

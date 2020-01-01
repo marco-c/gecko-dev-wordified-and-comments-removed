@@ -20,11 +20,11 @@ EVENT_DEBUG_OUTPUT
 #
 define
 SHOW_REPEAT_EVENTS
-PR_TRUE
+true
 #
 define
 SHOW_MOUSEMOVE_EVENTS
-PR_FALSE
+false
 #
 endif
 #

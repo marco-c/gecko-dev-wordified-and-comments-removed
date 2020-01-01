@@ -253,7 +253,7 @@ Disable
 {
 mEnabled
 =
-PR_FALSE
+false
 ;
 DestroyTimer
 (
@@ -267,7 +267,7 @@ Enable
 {
 mEnabled
 =
-PR_TRUE
+true
 ;
 CreateTimer
 (

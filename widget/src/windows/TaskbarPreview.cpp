@@ -376,7 +376,7 @@ aHWND
 )
 mVisible
 (
-PR_FALSE
+false
 )
 mDocShell
 (
@@ -794,7 +794,7 @@ rvActive
 =
 ShowActive
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -955,12 +955,12 @@ HasDestroyStarted
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -1111,7 +1111,7 @@ DrawBitmap
 (
 thumbnailWidth
 thumbnailHeight
-PR_FALSE
+false
 )
 ;
 }
@@ -1172,7 +1172,7 @@ DrawBitmap
 (
 width
 height
-PR_TRUE
+true
 )
 ;
 }
@@ -1207,7 +1207,7 @@ if
 mWnd
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1220,7 +1220,7 @@ mWnd
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1262,7 +1262,7 @@ HasTaskbarIconBeenCreated
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 WindowHook
@@ -1741,7 +1741,7 @@ UpdateTaskbarProperties
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 TaskbarPreview

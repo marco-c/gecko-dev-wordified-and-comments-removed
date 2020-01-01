@@ -222,11 +222,11 @@ mWindowsVersion
 )
 mHasDualGPU
 (
-PR_FALSE
+false
 )
 mIsGPU2Active
 (
-PR_FALSE
+false
 )
 {
 }
@@ -310,7 +310,7 @@ aEnabled
 *
 aEnabled
 =
-PR_FALSE
+false
 ;
 bool
 d2dEnabled
@@ -381,7 +381,7 @@ azure
 *
 aEnabled
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1908,7 +1908,7 @@ ERROR_SUCCESS
 {
 mHasDualGPU
 =
-PR_TRUE
+true
 ;
 mDeviceKey2
 =
@@ -2213,7 +2213,7 @@ mAdapterVendorID
 }
 mHasDriverVersionMismatch
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2303,7 +2303,7 @@ driverNumericVersion
 )
 mHasDriverVersionMismatch
 =
-PR_TRUE
+true
 ;
 }
 const
@@ -3970,7 +3970,7 @@ aSuggestedDriverVersion
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 PRInt32

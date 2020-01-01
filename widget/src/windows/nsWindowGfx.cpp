@@ -736,7 +736,7 @@ IsSpinLoopActive
 mPainting
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -801,7 +801,7 @@ ps
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 PluginInstanceParent
@@ -845,14 +845,14 @@ NULL
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 nsPaintEvent
 willPaintEvent
 (
-PR_TRUE
+true
 NS_WILL_PAINT
 this
 )
@@ -861,7 +861,7 @@ willPaintEvent
 .
 willSendDidPaint
 =
-PR_TRUE
+true
 ;
 DispatchWindowEvent
 (
@@ -926,7 +926,7 @@ mMemoryDC
 endif
 mPainting
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -1019,7 +1019,7 @@ hDC
 nsPaintEvent
 event
 (
-PR_TRUE
+true
 NS_PAINT
 this
 )
@@ -1072,7 +1072,7 @@ event
 .
 willSendDidPaint
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1565,7 +1565,7 @@ r
 >
 height
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -2429,7 +2429,7 @@ UpdateRenderMode
 ;
 Invalidate
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2506,7 +2506,7 @@ GetD3D10Device
 {
 Invalidate
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2638,12 +2638,12 @@ debugPaintFlashRegion
 endif
 mPainting
 =
-PR_FALSE
+false
 ;
 nsPaintEvent
 didPaintEvent
 (
-PR_TRUE
+true
 NS_DID_PAINT
 this
 )
@@ -2668,7 +2668,7 @@ GetUpdateRect
 (
 mWnd
 NULL
-PR_FALSE
+false
 )
 )
 {
@@ -3334,7 +3334,7 @@ didCheck
 {
 didCheck
 =
-PR_TRUE
+true
 ;
 isSupported
 =

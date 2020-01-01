@@ -90,7 +90,7 @@ TaskbarPreviewButton
 {
 SetVisible
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -482,7 +482,7 @@ nsWindowGfx
 CreateIcon
 (
 img
-PR_FALSE
+false
 0
 0
 nsWindowGfx

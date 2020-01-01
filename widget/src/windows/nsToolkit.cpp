@@ -231,7 +231,7 @@ PR_GetCurrentThread
 ;
 gThreadState
 =
-PR_TRUE
+true
 ;
 :
 :
@@ -1038,7 +1038,7 @@ isInitialized
 {
 isInitialized
 =
-PR_TRUE
+true
 ;
 OSVERSIONINFO
 osversion
@@ -1087,7 +1087,7 @@ dwMinorVersion
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 MouseTrailer
@@ -1107,11 +1107,11 @@ nsnull
 )
 mIsInCaptureMode
 (
-PR_FALSE
+false
 )
 mEnabled
 (
-PR_TRUE
+true
 )
 {
 }
@@ -1186,7 +1186,7 @@ mCaptureWindow
 {
 mIsInCaptureMode
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1363,7 +1363,7 @@ mtrailer
 >
 mIsInCaptureMode
 =
-PR_FALSE
+false
 ;
 return
 ;

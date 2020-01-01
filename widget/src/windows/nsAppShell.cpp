@@ -280,7 +280,7 @@ pMsg
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -317,7 +317,7 @@ pMsg
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -831,7 +831,7 @@ mName
 {
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1054,14 +1054,14 @@ nsnull
 ;
 mNativeCallbackPending
 =
-PR_FALSE
+false
 ;
 }
 else
 {
 mNativeCallbackPending
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1135,7 +1135,7 @@ sLoadedModules
 {
 sXPCOMHasLoadedNewDLLs
 =
-PR_FALSE
+false
 ;
 CollectNewLoadedModules
 (
@@ -1191,7 +1191,7 @@ PM_REMOVE
 {
 gotMessage
 =
-PR_TRUE
+true
 ;
 if
 (

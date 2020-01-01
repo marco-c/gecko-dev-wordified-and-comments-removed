@@ -44,11 +44,11 @@ nsIBidiKeyboard
 {
 mInitialized
 =
-PR_FALSE
+false
 ;
 mHaveBidiKeyboards
 =
-PR_FALSE
+false
 ;
 mLTRKeyboard
 [
@@ -216,7 +216,7 @@ aIsRTL
 *
 aIsRTL
 =
-PR_FALSE
+false
 ;
 nsresult
 result
@@ -599,7 +599,7 @@ locale
 ;
 isRTLKeyboardSet
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -629,7 +629,7 @@ locale
 ;
 isLTRKeyboardSet
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -640,7 +640,7 @@ buf
 ;
 mInitialized
 =
-PR_TRUE
+true
 ;
 mHaveBidiKeyboards
 =

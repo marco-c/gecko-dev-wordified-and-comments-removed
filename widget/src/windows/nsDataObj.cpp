@@ -748,7 +748,7 @@ mChannelRead
 NS_ProcessNextEvent
 (
 nsnull
-PR_TRUE
+true
 )
 ;
 }
@@ -1866,7 +1866,7 @@ mCachedTempFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 mCachedTempFile
@@ -2206,7 +2206,7 @@ GetFileDescriptor
 aFormat
 *
 pSTM
-PR_FALSE
+false
 )
 ;
 if
@@ -2223,7 +2223,7 @@ GetFileDescriptor
 aFormat
 *
 pSTM
-PR_TRUE
+true
 )
 ;
 if
@@ -2240,7 +2240,7 @@ GetUniformResourceLocator
 aFormat
 *
 pSTM
-PR_FALSE
+false
 )
 ;
 if
@@ -2257,7 +2257,7 @@ GetUniformResourceLocator
 aFormat
 *
 pSTM
-PR_TRUE
+true
 )
 ;
 if
@@ -2589,7 +2589,7 @@ ptd
 NULL
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -2696,13 +2696,13 @@ idx
 ]
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -2713,7 +2713,7 @@ if
 aAddorUpdate
 )
 return
-PR_FALSE
+false
 ;
 LPDATAENTRY
 dataEntry
@@ -2735,7 +2735,7 @@ if
 dataEntry
 )
 return
-PR_FALSE
+false
 ;
 dataEntry
 -
@@ -2780,7 +2780,7 @@ dataEntry
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -2870,7 +2870,7 @@ tymed
 TYMED_HGLOBAL
 )
 return
-PR_FALSE
+false
 ;
 stgmOut
 .
@@ -2897,7 +2897,7 @@ stgmOut
 hGlobal
 )
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -2922,7 +2922,7 @@ break
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -2946,7 +2946,7 @@ aMediumDst
 stgmOut
 ;
 return
-PR_TRUE
+true
 ;
 }
 STDMETHODIMP
@@ -3642,8 +3642,8 @@ aText
 .
 CompressWhitespace
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 PRUint32
@@ -3767,7 +3767,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 int
 maxUsableFilenameLen
@@ -3875,13 +3875,13 @@ aExtension
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -3917,7 +3917,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 const
 int
@@ -3982,7 +3982,7 @@ aExtension
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -4036,7 +4036,7 @@ if
 stringService
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -4067,7 +4067,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 rv
 =
@@ -4736,7 +4736,7 @@ false
 NS_ENSURE_TRUE
 (
 mTransferable
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -4759,7 +4759,7 @@ flavorList
 NS_ENSURE_TRUE
 (
 flavorList
-PR_FALSE
+false
 )
 ;
 PRUint32
@@ -4848,7 +4848,7 @@ inFlavour
 {
 retval
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -9187,7 +9187,7 @@ mCachedTempFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 timedDataObj
