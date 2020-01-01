@@ -23917,9 +23917,9 @@ cx
 JSStructuredCloneReader
 *
 reader
-uint32
+uint32_t
 tag
-uint32
+uint32_t
 data
 void
 *

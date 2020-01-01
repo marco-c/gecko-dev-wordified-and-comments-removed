@@ -813,7 +813,7 @@ const
 jschar
 *
 aBuf
-uint32
+uint32_t
 aLen
 void
 *
@@ -3810,7 +3810,7 @@ global
 )
 )
 {
-uint32
+uint32_t
 oldopts
 =
 JS_GetOptions
