@@ -621,6 +621,16 @@ Remove
 <
 !
 ENTITY
+downloadFailed
+.
+label
+"
+Failed
+"
+>
+<
+!
+ENTITY
 noResults
 .
 label
