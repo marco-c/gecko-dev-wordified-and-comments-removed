@@ -2167,7 +2167,7 @@ NSS_CO_TAG
 NSS_3_11_5_RTM
 LDAPCSDK_CO_TAG
 =
-ldapcsdk_5_17_client_branch
+LDAPCSDK_6_0_3_RTM
 LOCALES_CO_TAG
 =
 #
