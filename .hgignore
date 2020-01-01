@@ -98,6 +98,10 @@ config
 \
 .
 log
+^
+\
+.
+clang_complete
 #
 Empty
 marker
