@@ -2149,14 +2149,6 @@ XtClient
 xtclient
 )
 {
-XtUnrealizeWidget
-(
-xtclient
--
->
-child_widget
-)
-;
 #
 if
 XlibSpecificationRelease

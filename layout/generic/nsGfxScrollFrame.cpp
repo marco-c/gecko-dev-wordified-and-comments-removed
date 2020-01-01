@@ -15883,7 +15883,7 @@ mVScrollbarBox
 mVScrollbarBox
 -
 >
-GetPrefSize
+GetMinSize
 (
 aState
 )
@@ -15950,7 +15950,7 @@ mHScrollbarBox
 mHScrollbarBox
 -
 >
-GetPrefSize
+GetMinSize
 (
 aState
 )

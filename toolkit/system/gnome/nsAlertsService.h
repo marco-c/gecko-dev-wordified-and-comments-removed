@@ -1,9 +1,9 @@
 #
 ifndef
-nsSystemAlertsService_h__
+nsAlertsService_h__
 #
 define
-nsSystemAlertsService_h__
+nsAlertsService_h__
 #
 include
 "
@@ -19,7 +19,7 @@ nsCOMPtr
 h
 "
 class
-nsSystemAlertsService
+nsAlertsService
 :
 public
 nsIAlertsService
@@ -28,13 +28,13 @@ public
 :
 NS_DECL_NSIALERTSSERVICE
 NS_DECL_ISUPPORTS
-nsSystemAlertsService
+nsAlertsService
 (
 )
 ;
 virtual
 ~
-nsSystemAlertsService
+nsAlertsService
 (
 )
 ;
