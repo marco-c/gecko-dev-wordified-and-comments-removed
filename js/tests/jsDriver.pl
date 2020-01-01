@@ -2159,10 +2159,11 @@ line
 =
 ~
 /
-failed
+^
+\
+wFAILED
 !
 /
-i
 )
 {
 failure_lines
