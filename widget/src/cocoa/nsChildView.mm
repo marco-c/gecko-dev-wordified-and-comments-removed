@@ -10409,6 +10409,8 @@ NSStringPboardType
 NSURLPboardType
 NSFilesPromisePboardType
 kWildcardPboardType
+kCorePasteboardFlavorType_url
+kCorePasteboardFlavorType_urln
 nil
 ]
 ]
