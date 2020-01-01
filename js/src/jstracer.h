@@ -629,7 +629,7 @@ slots
 )
 ;
 bool
-lazyImportGlobalSlot
+lazilyImportGlobalSlot
 (
 unsigned
 slot
