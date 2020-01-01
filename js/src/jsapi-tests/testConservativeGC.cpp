@@ -49,9 +49,10 @@ v2
 ;
 CHECK
 (
-JSVAL_IS_OBJECT
-(
 v2
+.
+isObject
+(
 )
 )
 ;
@@ -150,9 +151,10 @@ tmp
 ;
 CHECK
 (
-JSVAL_IS_OBJECT
-(
 tmp
+.
+isObject
+(
 )
 )
 ;
