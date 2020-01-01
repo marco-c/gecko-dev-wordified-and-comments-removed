@@ -1015,6 +1015,14 @@ DEB
 created
 !
 endif
+ifdef
+MOZ_FASTSTART
+CABARGS
++
+=
+-
+faststart
+endif
 ifeq
 (
 (
@@ -1093,6 +1101,9 @@ wince
 make_wince_cab
 .
 py
+(
+CABARGS
+)
 "
 (
 VSINSTALLDIR
@@ -1141,7 +1152,10 @@ PACKAGE
 (
 MOZ_PKG_DIR
 )
+&
+&
 echo
+"
 Installer
 (
 PKG_PATH
@@ -1153,4 +1167,5 @@ PKG_BASENAME
 cab
 created
 !
+"
 endif
