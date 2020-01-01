@@ -294,10 +294,8 @@ aOther
 ;
 nsIView
 *
-CreateViewAndWidget
+EnsureInnerView
 (
-nsContentType
-aContentType
 )
 ;
 nsIFrame

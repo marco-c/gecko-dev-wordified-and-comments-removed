@@ -2582,9 +2582,8 @@ view
 frame
 -
 >
-CreateViewAndWidget
+EnsureInnerView
 (
-contentType
 )
 ;
 if
