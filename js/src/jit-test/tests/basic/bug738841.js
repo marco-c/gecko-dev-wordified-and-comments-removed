@@ -21,11 +21,6 @@ evalcx
 "
 newGlobal
 (
-"
-new
--
-compartment
-"
 )
 )
 )

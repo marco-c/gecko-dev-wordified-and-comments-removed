@@ -1,10 +1,5 @@
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 .
 eval

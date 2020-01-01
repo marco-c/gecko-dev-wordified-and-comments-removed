@@ -31,11 +31,6 @@ true
 ;
 newGlobal
 (
-"
-new
--
-compartment
-"
 )
 .
 __lookupSetter__

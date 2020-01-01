@@ -58,11 +58,6 @@ debuggerGlobal
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 \
@@ -145,11 +140,6 @@ base
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 \

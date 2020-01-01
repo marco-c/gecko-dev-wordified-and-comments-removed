@@ -14,11 +14,6 @@ x
 "
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 )
 )

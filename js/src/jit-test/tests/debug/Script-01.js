@@ -3,11 +3,6 @@ global
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 global

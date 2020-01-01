@@ -196,11 +196,6 @@ otherGlobalDifferentCompartment
 =
 newGlobal
 (
-"
-new
--
-compartment
-"
 )
 ;
 eval

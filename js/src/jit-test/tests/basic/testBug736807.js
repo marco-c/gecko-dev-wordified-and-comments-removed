@@ -5,11 +5,6 @@ f
 {
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 .
 eval

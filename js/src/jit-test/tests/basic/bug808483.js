@@ -2,11 +2,6 @@ pSandbox
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 evalcx

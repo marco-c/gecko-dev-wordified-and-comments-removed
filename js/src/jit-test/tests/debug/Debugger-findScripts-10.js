@@ -3,11 +3,6 @@ g1
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 g1
@@ -29,11 +24,6 @@ g2
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 g2

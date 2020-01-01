@@ -3,11 +3,6 @@ x
 =
 newGlobal
 (
-"
-new
--
-compartment
-"
 )
 .
 Date

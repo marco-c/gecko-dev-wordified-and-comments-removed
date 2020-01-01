@@ -6,11 +6,6 @@ subarray
 (
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 )
 ;

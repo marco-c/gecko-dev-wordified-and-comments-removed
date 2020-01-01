@@ -55,11 +55,6 @@ g2
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 g2

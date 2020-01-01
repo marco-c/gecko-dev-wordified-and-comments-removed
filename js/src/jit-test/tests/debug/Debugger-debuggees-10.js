@@ -3,11 +3,6 @@ program
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 var
@@ -15,11 +10,6 @@ d1
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 d1
@@ -33,11 +23,6 @@ d2
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 d2

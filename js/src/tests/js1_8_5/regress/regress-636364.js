@@ -93,11 +93,6 @@ gnew
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 gnew

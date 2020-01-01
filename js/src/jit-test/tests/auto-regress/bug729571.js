@@ -170,13 +170,6 @@ g
 =
 newGlobal
 (
-\
-"
-new
--
-compartment
-\
-"
 )
 ;
 \

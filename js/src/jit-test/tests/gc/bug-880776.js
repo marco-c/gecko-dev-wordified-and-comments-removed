@@ -8,11 +8,6 @@ otherGlobal
 =
 newGlobal
 (
-'
-new
--
-compartment
-'
 )
 ;
 function
