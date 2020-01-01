@@ -571,6 +571,8 @@ SYMBOL_SERVER_PATH
 }
 ;
 unzip
+-
+o
 archive
 ;
 rm
