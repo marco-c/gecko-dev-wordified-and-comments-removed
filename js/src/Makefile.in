@@ -1564,6 +1564,10 @@ FrameState
 .
 cpp
 \
+FastArithmetic
+.
+cpp
+\
 FastOps
 .
 cpp
