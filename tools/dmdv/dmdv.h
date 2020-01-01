@@ -1,9 +1,9 @@
 #
 ifndef
-__DMD_H
+__DMDV_H
 #
 define
-__DMD_H
+__DMDV_H
 #
 include
 "
@@ -16,7 +16,7 @@ h
 typedef
 enum
 {
-VG_USERREQ__DMD_REPORT
+VG_USERREQ__DMDV_REPORT
 =
 VG_USERREQ_TOOL_BASE
 (
@@ -27,14 +27,14 @@ D
 M
 '
 )
-VG_USERREQ__DMD_UNREPORT
-VG_USERREQ__DMD_CHECK_REPORTING
+VG_USERREQ__DMDV_UNREPORT
+VG_USERREQ__DMDV_CHECK_REPORTING
 }
-Vg_DMDClientRequest
+Vg_DMDVClientRequest
 ;
 #
 define
-VALGRIND_DMD_REPORT
+VALGRIND_DMDV_REPORT
 (
 _qzz_addr
 _qzz_len
@@ -51,7 +51,7 @@ return
 *
 /
 \
-VG_USERREQ__DMD_REPORT
+VG_USERREQ__DMDV_REPORT
 \
 (
 _qzz_addr
@@ -67,7 +67,7 @@ _qzz_name
 )
 #
 define
-VALGRIND_DMD_UNREPORT
+VALGRIND_DMDV_UNREPORT
 (
 _qzz_addr
 )
@@ -82,7 +82,7 @@ return
 *
 /
 \
-VG_USERREQ__DMD_UNREPORT
+VG_USERREQ__DMDV_UNREPORT
 \
 (
 _qzz_addr
@@ -94,7 +94,7 @@ _qzz_addr
 )
 #
 define
-VALGRIND_DMD_CHECK_REPORTING
+VALGRIND_DMDV_CHECK_REPORTING
 \
 VALGRIND_DO_CLIENT_REQUEST_EXPR
 (
@@ -106,7 +106,7 @@ return
 *
 /
 \
-VG_USERREQ__DMD_CHECK_REPORTING
+VG_USERREQ__DMDV_CHECK_REPORTING
 \
 0
 0

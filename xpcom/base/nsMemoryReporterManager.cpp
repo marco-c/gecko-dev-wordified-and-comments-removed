@@ -2835,7 +2835,7 @@ bytes_used
 }
 #
 ifndef
-MOZ_DMD
+MOZ_DMDV
 #
 define
 HAVE_HEAP_ZONE0_REPORTERS
@@ -7065,7 +7065,7 @@ mozilla
 {
 #
 ifdef
-MOZ_DMD
+MOZ_DMDV
 class
 NullMultiReporterCallback
 :
@@ -7113,7 +7113,7 @@ NullMultiReporterCallback
 nsIMemoryMultiReporterCallback
 )
 void
-DMDCheckAndDump
+DMDVCheckAndDump
 (
 )
 {
@@ -7284,7 +7284,7 @@ nullptr
 )
 ;
 }
-VALGRIND_DMD_CHECK_REPORTING
+VALGRIND_DMDV_CHECK_REPORTING
 ;
 }
 #

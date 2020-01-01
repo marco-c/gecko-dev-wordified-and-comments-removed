@@ -280,10 +280,6 @@ nsInterfaceRequestorAgg
 .
 h
 \
-dmd
-.
-h
-\
 nsGZFileWriter
 .
 h

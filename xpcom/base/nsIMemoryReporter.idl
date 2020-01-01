@@ -3506,7 +3506,7 @@ reporter
 /
 /
 Because
-DMD
+DMDV
 is
 not
 a
@@ -3530,7 +3530,7 @@ own
 local
 copy
 of
-dmd
+dmdv
 .
 h
 .
@@ -3542,7 +3542,7 @@ unavoidable
 .
 #
 ifdef
-MOZ_DMD
+MOZ_DMDV
 #
 if
 MOZ_MEMORY
@@ -3563,7 +3563,7 @@ when
 -
 enable
 -
-dmd
+dmdv
 was
 specified
 "
@@ -3572,7 +3572,7 @@ endif
 #
 include
 "
-dmd
+dmdv
 .
 h
 "
@@ -3659,7 +3659,7 @@ mostly
 to
 help
 with
-DMD
+DMDV
 integration
 though
 it
@@ -3740,7 +3740,7 @@ ptr
 )
 ;
 \
-VALGRIND_DMD_REPORT
+VALGRIND_DMDV_REPORT
 (
 ptr
 usable
@@ -3770,7 +3770,7 @@ unreport
 "
 message
 to
-DMD
+DMDV
 .
 *
 /
@@ -3802,7 +3802,7 @@ ptr
 )
 ;
 \
-VALGRIND_DMD_UNREPORT
+VALGRIND_DMDV_UNREPORT
 (
 ptr
 )
@@ -3815,7 +3815,7 @@ usable
 }
 #
 ifdef
-MOZ_DMD
+MOZ_DMDV
 /
 *
 *
@@ -3846,7 +3846,7 @@ of
 work
 possible
 for
-DMD
+DMDV
 to
 do
 its
@@ -3857,7 +3857,7 @@ Then
 it
 dumps
 the
-DMD
+DMDV
 output
 to
 stderr
@@ -3869,7 +3869,7 @@ if
 one
 of
 *
-DMD
+DMDV
 /
 Valgrind
 '
@@ -3883,7 +3883,7 @@ used
 *
 /
 void
-DMDCheckAndDump
+DMDVCheckAndDump
 (
 )
 ;
@@ -3891,7 +3891,7 @@ DMDCheckAndDump
 else
 #
 define
-VALGRIND_DMD_REPORT
+VALGRIND_DMDV_REPORT
 (
 ptr
 usable
@@ -3899,7 +3899,7 @@ name
 )
 #
 define
-VALGRIND_DMD_UNREPORT
+VALGRIND_DMDV_UNREPORT
 (
 ptr
 )
@@ -3909,7 +3909,7 @@ endif
 *
 defined
 (
-MOZ_DMD
+MOZ_DMDV
 )
 *
 /
