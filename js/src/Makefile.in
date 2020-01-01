@@ -797,10 +797,6 @@ jslog2
 .
 cpp
 \
-jslong
-.
-cpp
-\
 jsmath
 .
 cpp
