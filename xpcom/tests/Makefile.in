@@ -613,6 +613,10 @@ TestPipes
 .
 cpp
 \
+TestPriorityQueue
+.
+cpp
+\
 TestProxies
 .
 cpp

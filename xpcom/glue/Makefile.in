@@ -697,6 +697,10 @@ nsThreadUtils
 .
 h
 \
+nsTPriorityQueue
+.
+h
+\
 nsProxyRelease
 .
 h
