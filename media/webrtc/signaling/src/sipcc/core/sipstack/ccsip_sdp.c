@@ -1162,8 +1162,6 @@ fname
 )
 ;
 }
-else
-{
 cpr_free
 (
 buf
@@ -1179,7 +1177,6 @@ return
 NULL
 )
 ;
-}
 }
 sdp_len
 =

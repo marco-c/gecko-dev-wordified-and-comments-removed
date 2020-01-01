@@ -35,7 +35,7 @@ h
 #
 define
 CCSIP_SDP_BUF_SIZE
-2048
+SDP_MAX_LEN
 #
 define
 CCSIP_SRC_SDP_BIT
