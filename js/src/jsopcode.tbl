@@ -3357,6 +3357,8 @@ js_instanceof_str
 JOF_BYTE
 |
 JOF_LEFTASSOC
+|
+JOF_TMPSLOT
 )
 /
 *

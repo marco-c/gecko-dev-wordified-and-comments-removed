@@ -759,6 +759,10 @@ jsop_getprop
 JSAtom
 *
 atom
+bool
+typeCheck
+=
+true
 )
 ;
 void
@@ -780,6 +784,11 @@ jsop_setprop_slow
 JSAtom
 *
 atom
+)
+;
+void
+jsop_instanceof
+(
 )
 ;
 void
