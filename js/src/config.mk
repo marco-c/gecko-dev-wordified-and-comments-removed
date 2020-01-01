@@ -887,6 +887,14 @@ O9
 fstrict
 -
 aliasing
+-
+fno
+-
+exceptions
+-
+fno
+-
+rtti
 INTERP_OPTIMIZER
 =
 -
