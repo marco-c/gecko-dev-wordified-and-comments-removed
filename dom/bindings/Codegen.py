@@ -54213,11 +54213,8 @@ GetObjectProto
 (
 cx
 proxy
+&
 proto
-.
-address
-(
-)
 )
 )
 {
