@@ -36778,6 +36778,9 @@ if
 (
 !
 mGeolocation
+&
+&
+mDocShell
 )
 {
 nsCOMPtr
