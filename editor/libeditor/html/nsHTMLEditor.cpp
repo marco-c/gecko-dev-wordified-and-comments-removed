@@ -16122,11 +16122,6 @@ Length
 ;
 if
 (
-countU
-<
-0
-|
-|
 countSS
 !
 =
