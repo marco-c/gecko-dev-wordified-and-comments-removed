@@ -1106,9 +1106,15 @@ PostMessage
 JSContext
 *
 aCx
-jsval
+JS
+:
+:
+Value
 aMessage
-jsval
+JS
+:
+:
+Value
 aTransferable
 )
 ;
