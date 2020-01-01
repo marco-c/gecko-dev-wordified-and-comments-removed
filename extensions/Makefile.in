@@ -76,11 +76,6 @@ config
 autoconf
 .
 mk
-PARALLEL_DIRS
-=
-(
-MOZ_EXTENSIONS
-)
 include
 (
 topsrcdir

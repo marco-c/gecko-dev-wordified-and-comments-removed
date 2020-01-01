@@ -79,10 +79,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-base
-map
 MOCHITEST_CHROME_FILES
 =
 test_add_remove_dictionaries

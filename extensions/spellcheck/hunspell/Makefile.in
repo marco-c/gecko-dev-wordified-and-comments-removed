@@ -81,9 +81,6 @@ mk
 MODULE
 =
 hunspell
-DIRS
-=
-src
 ifdef
 ENABLE_TESTS
 XPCSHELL_TESTS

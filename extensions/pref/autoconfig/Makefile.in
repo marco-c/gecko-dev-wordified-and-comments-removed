@@ -78,10 +78,6 @@ mk
 MODULE
 =
 autoconfig
-DIRS
-=
-public
-src
 include
 (
 topsrcdir

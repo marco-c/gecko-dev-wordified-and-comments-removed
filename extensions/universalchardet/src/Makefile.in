@@ -79,10 +79,6 @@ mk
 MODULE
 =
 universalchardet
-DIRS
-=
-base
-xpcom
 include
 (
 topsrcdir

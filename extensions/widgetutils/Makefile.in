@@ -143,14 +143,6 @@ _
 TARGET_XPCOM_ABI
 )
 endif
-DIRS
-=
-src
-#
-DIRS
-+
-=
-public
 include
 (
 topsrcdir
