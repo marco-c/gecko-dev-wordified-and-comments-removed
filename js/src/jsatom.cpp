@@ -2205,7 +2205,7 @@ isFlat
 str
 -
 >
-flatClearMutable
+flatClearExtensible
 (
 )
 ;

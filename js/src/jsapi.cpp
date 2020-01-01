@@ -25955,7 +25955,7 @@ else
 str
 -
 >
-flatClearMutable
+flatClearExtensible
 (
 )
 ;

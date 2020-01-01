@@ -316,7 +316,7 @@ JSSTRING_BIT
 static
 const
 size_t
-MUTABLE
+EXTENSIBLE
 =
 JSSTRING_BIT
 (
@@ -525,7 +525,7 @@ FLAT
 }
 inline
 bool
-isMutable
+isExtensible
 (
 )
 const
@@ -538,7 +538,7 @@ isFlat
 &
 hasFlag
 (
-MUTABLE
+EXTENSIBLE
 )
 ;
 }
@@ -804,7 +804,7 @@ chars
 }
 JS_ALWAYS_INLINE
 void
-initFlatMutable
+initFlatExtensible
 (
 jschar
 *
@@ -855,7 +855,7 @@ FLAGS_LENGTH_SHIFT
 |
 FLAT
 |
-MUTABLE
+EXTENSIBLE
 ;
 mChars
 =
@@ -957,7 +957,7 @@ ATOMIZED
 }
 inline
 void
-flatSetMutable
+flatSetExtensible
 (
 )
 {
@@ -979,12 +979,12 @@ isAtomized
 mLengthAndFlags
 |
 =
-MUTABLE
+EXTENSIBLE
 ;
 }
 inline
 void
-flatClearMutable
+flatClearExtensible
 (
 )
 {
@@ -999,13 +999,13 @@ if
 (
 mLengthAndFlags
 &
-MUTABLE
+EXTENSIBLE
 )
 mLengthAndFlags
 &
 =
 ~
-MUTABLE
+EXTENSIBLE
 ;
 }
 inline
