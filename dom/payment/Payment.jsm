@@ -1815,6 +1815,11 @@ paymentFlowInfo
 this
 .
 paymentFailed
+.
+bind
+(
+this
+)
 )
 ;
 }
