@@ -492,6 +492,10 @@ tag
 makeTagFunc
 (
 tag
+.
+toLowerCase
+(
+)
 )
 ;
 }
@@ -640,15 +644,6 @@ registerDirectory
 serverBasePath
 )
 ;
-if
-(
-environment
-[
-"
-CLOSE_WHEN_DONE
-"
-]
-)
 server
 .
 registerPathHandler
