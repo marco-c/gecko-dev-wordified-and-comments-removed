@@ -30749,6 +30749,16 @@ isUndefined
 )
 )
 {
+staticType
+-
+>
+getFromPrototypes
+(
+cx
+id
+propertyTypes
+)
+;
 JSValueType
 knownType
 =
