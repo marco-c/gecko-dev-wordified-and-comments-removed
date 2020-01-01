@@ -299,6 +299,14 @@ IonRuntime
 rt
 )
 ;
+bool
+initialize
+(
+JSContext
+*
+cx
+)
+;
 void
 mark
 (
