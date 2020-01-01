@@ -12,6 +12,9 @@ BluetoothCommon
 h
 "
 BEGIN_BLUETOOTH_NAMESPACE
+class
+BluetoothProfileManagerBase
+;
 enum
 BluetoothServiceClass
 {
@@ -72,7 +75,16 @@ BluetoothServiceClass
 GetBluetoothServiceClass
 (
 uint16_t
-aProfileId
+aServiceUuid
+)
+;
+static
+BluetoothProfileManagerBase
+*
+GetBluetoothProfileManager
+(
+uint16_t
+aServiceUuid
 )
 ;
 }
