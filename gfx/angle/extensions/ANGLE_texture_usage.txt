@@ -37,11 +37,7 @@ Version
 :
 2
 Number
-OpenGL
-ES
-Extension
-#
-112
+TBD
 Dependencies
 This
 extension

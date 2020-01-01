@@ -1283,9 +1283,13 @@ return
 node
 -
 >
+getUnionArrayPointer
+(
+)
+-
+>
 getIConst
 (
-0
 )
 ;
 }

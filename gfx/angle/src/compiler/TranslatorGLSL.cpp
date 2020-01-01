@@ -160,9 +160,6 @@ TOutputGLSL
 outputGLSL
 (
 sink
-getArrayIndexClampingStrategy
-(
-)
 getHashFunction
 (
 )

@@ -86,7 +86,7 @@ Tokenizer
 bool
 init
 (
-size_t
+int
 count
 const
 char

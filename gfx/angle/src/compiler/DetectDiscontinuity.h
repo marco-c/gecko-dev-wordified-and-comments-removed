@@ -45,16 +45,6 @@ node
 )
 ;
 bool
-visitLoop
-(
-Visit
-visit
-TIntermLoop
-*
-loop
-)
-;
-bool
 visitAggregate
 (
 Visit
@@ -63,9 +53,6 @@ TIntermAggregate
 *
 node
 )
-;
-int
-mLoopDepth
 ;
 bool
 mLoopDiscontinuity

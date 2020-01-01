@@ -77,7 +77,7 @@ char
 mappedName
 )
 ;
-size_t
+int
 Size
 (
 )

@@ -39,11 +39,7 @@ Revision
 :
 22
 Number
-OpenGL
-ES
-Extension
-#
-110
+TBD
 Dependencies
 OpenGL
 1

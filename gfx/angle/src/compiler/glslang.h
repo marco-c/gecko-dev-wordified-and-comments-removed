@@ -23,7 +23,7 @@ extern
 int
 glslang_scan
 (
-size_t
+int
 count
 const
 char

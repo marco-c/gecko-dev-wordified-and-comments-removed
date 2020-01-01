@@ -4,7 +4,7 @@ changeset
 patch
 #
 Parent
-262218204644915abb2add8aa52195c24035c293
+6a165b9e45205190517515abec94429715303081
 diff
 -
 -
@@ -52,10 +52,10 @@ Makefile
 .
 in
 -
-84
+73
 16
 +
-84
+73
 17
 CPPSRCS
 +
@@ -271,7 +271,7 @@ namespace
 TString
 mapLongName
 (
-size_t
+int
 id
 const
 TString
@@ -6364,10 +6364,10 @@ Makefile
 .
 in
 -
-91
+86
 16
 +
-91
+86
 17
 CPPSRCS
 +

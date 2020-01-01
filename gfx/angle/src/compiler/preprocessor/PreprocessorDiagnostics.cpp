@@ -1,7 +1,7 @@
 #
 include
 "
-DiagnosticsBase
+Diagnostics
 .
 h
 "

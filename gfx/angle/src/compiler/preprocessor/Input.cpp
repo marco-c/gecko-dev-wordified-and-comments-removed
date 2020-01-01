@@ -45,7 +45,7 @@ Input
 :
 Input
 (
-size_t
+int
 count
 const
 char
@@ -70,6 +70,14 @@ mString
 string
 )
 {
+assert
+(
+mCount
+>
+=
+0
+)
+;
 mLength
 .
 reserve
@@ -79,7 +87,7 @@ mCount
 ;
 for
 (
-size_t
+int
 i
 =
 0
@@ -130,7 +138,7 @@ len
 ;
 }
 }
-size_t
+int
 Input
 :
 :
@@ -139,11 +147,11 @@ read
 char
 *
 buf
-size_t
+int
 maxSize
 )
 {
-size_t
+int
 nRead
 =
 0
@@ -166,7 +174,7 @@ mCount
 )
 )
 {
-size_t
+int
 size
 =
 mLength

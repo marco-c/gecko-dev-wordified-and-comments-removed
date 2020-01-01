@@ -20587,7 +20587,7 @@ compileOptions
 )
 )
 {
-size_t
+int
 len
 =
 0
@@ -20674,7 +20674,7 @@ false
 return
 ;
 }
-size_t
+int
 num_attributes
 =
 0
@@ -20687,7 +20687,7 @@ SH_ACTIVE_ATTRIBUTES
 num_attributes
 )
 ;
-size_t
+int
 num_uniforms
 =
 0
@@ -20700,7 +20700,7 @@ SH_ACTIVE_UNIFORMS
 num_uniforms
 )
 ;
-size_t
+int
 attrib_max_length
 =
 0
@@ -20713,7 +20713,7 @@ SH_ACTIVE_ATTRIBUTE_MAX_LENGTH
 attrib_max_length
 )
 ;
-size_t
+int
 uniform_max_length
 =
 0
@@ -20726,7 +20726,7 @@ SH_ACTIVE_UNIFORM_MAX_LENGTH
 uniform_max_length
 )
 ;
-size_t
+int
 mapped_max_length
 =
 0
@@ -20820,7 +20820,7 @@ mapped_max_length
 ;
 for
 (
-size_t
+int
 i
 =
 0
@@ -20834,10 +20834,8 @@ i
 +
 )
 {
-size_t
-length
-;
 int
+length
 size
 ;
 ShDataType
@@ -20846,9 +20844,6 @@ type
 ShGetActiveUniform
 (
 compiler
-(
-int
-)
 i
 &
 length
@@ -20938,7 +20933,7 @@ useShaderSourceTranslation
 {
 for
 (
-size_t
+int
 i
 =
 0
@@ -20952,10 +20947,8 @@ i
 +
 )
 {
-size_t
-length
-;
 int
+length
 size
 ;
 ShDataType
@@ -20964,9 +20957,6 @@ type
 ShGetActiveAttrib
 (
 compiler
-(
-int
-)
 i
 &
 length
@@ -20999,7 +20989,7 @@ mapped_name
 )
 ;
 }
-size_t
+int
 len
 =
 0

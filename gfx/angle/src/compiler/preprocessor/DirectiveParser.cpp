@@ -23,14 +23,14 @@ sstream
 #
 include
 "
-DiagnosticsBase
+Diagnostics
 .
 h
 "
 #
 include
 "
-DirectiveHandlerBase
+DirectiveHandler
 .
 h
 "

@@ -18,7 +18,7 @@ sstream
 #
 include
 "
-DiagnosticsBase
+Diagnostics
 .
 h
 "
