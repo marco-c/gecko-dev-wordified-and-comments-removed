@@ -1104,6 +1104,7 @@ nsISupports
 GetContainerExternal
 (
 )
+const
 ;
 NS_HIDDEN_
 (
@@ -1115,6 +1116,7 @@ nsISupports
 GetContainerInternal
 (
 )
+const
 ;
 #
 ifdef
@@ -1126,6 +1128,7 @@ nsISupports
 GetContainer
 (
 )
+const
 {
 return
 GetContainerInternal
@@ -1142,6 +1145,7 @@ nsISupports
 GetContainer
 (
 )
+const
 {
 return
 GetContainerExternal
@@ -2268,6 +2272,7 @@ PRBool
 IsChrome
 (
 )
+const
 ;
 virtual
 PRBool
@@ -2279,6 +2284,24 @@ aFrame
 )
 const
 ;
+PRBool
+UseDocumentColors
+(
+)
+const
+{
+return
+GetCachedBoolPref
+(
+kPresContext_UseDocumentColors
+)
+|
+|
+IsChrome
+(
+)
+;
+}
 protected
 :
 friend

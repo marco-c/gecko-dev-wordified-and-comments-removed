@@ -5060,6 +5060,7 @@ nsPresContext
 GetContainerInternal
 (
 )
+const
 {
 nsISupports
 *
@@ -5096,6 +5097,7 @@ nsPresContext
 GetContainerExternal
 (
 )
+const
 {
 return
 GetContainerInternal
@@ -6000,6 +6002,7 @@ nsPresContext
 IsChrome
 (
 )
+const
 {
 PRBool
 isChrome
