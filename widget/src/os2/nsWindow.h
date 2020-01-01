@@ -912,6 +912,9 @@ BOOL
 mIsScrollBar
 ;
 BOOL
+mIsDestroying
+;
+BOOL
 mInSetFocus
 ;
 BOOL

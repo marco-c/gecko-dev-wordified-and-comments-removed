@@ -288,6 +288,10 @@ mIsTooSmall
 =
 PR_FALSE
 ;
+mIsDestroying
+=
+PR_FALSE
+;
 mBorderStyle
 =
 eBorderStyle_default

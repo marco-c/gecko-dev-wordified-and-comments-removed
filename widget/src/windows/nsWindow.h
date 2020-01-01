@@ -1197,6 +1197,8 @@ nsWindow
 *
 GetParentWindow
 (
+PRBool
+aIncludeOwner
 )
 ;
 void
@@ -2022,9 +2024,6 @@ mIsAltDown
 ;
 PRPackedBool
 mIsDestroying
-;
-PRPackedBool
-mOnDestroyCalled
 ;
 PRPackedBool
 mIsVisible
