@@ -2923,15 +2923,6 @@ aDisplayHeight
 )
 ;
 static
-void
-ConstrainViewportValues
-(
-ViewportInfo
-&
-aViewInfo
-)
-;
-static
 double
 GetDevicePixelsPerMetaViewportPixel
 (
