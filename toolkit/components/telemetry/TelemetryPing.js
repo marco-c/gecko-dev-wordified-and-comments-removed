@@ -2553,6 +2553,11 @@ chromeHangs
 Telemetry
 .
 chromeHangs
+lateWrites
+:
+Telemetry
+.
+lateWrites
 addonHistograms
 :
 this

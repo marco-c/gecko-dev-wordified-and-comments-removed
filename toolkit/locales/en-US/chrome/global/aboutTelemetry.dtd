@@ -159,6 +159,17 @@ Measurements
 ENTITY
 aboutTelemetry
 .
+lateWritesSection
+"
+Late
+Writes
+"
+>
+<
+!
+ENTITY
+aboutTelemetry
+.
 systemInfoSection
 "
 System
