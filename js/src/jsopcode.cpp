@@ -7738,7 +7738,7 @@ if
 (
 iter
 .
-isIonOptimizedJS
+isIon
 (
 )
 )

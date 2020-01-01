@@ -298,7 +298,7 @@ IonBailoutIterator
 IonBailoutIterator
 (
 const
-IonActivationIterator
+JitActivationIterator
 &
 activations
 BailoutStack
@@ -399,13 +399,18 @@ snapshotOffset
 return
 ;
 }
-IonActivation
+JitActivation
 *
 activation
 =
 activations
 .
 activation
+(
+)
+-
+>
+asJit
 (
 )
 ;
@@ -547,7 +552,7 @@ IonBailoutIterator
 IonBailoutIterator
 (
 const
-IonActivationIterator
+JitActivationIterator
 &
 activations
 InvalidationBailoutStack

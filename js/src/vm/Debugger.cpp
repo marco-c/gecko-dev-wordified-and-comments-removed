@@ -10860,11 +10860,6 @@ AllFramesIter
 i
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 !
@@ -10883,7 +10878,7 @@ if
 (
 i
 .
-isIonOptimizedJS
+isIon
 (
 )
 )
@@ -10909,7 +10904,7 @@ iter
 (
 i
 .
-seg
+activation
 (
 )
 -
@@ -10927,7 +10922,7 @@ while
 (
 iter
 .
-isIonOptimizedJS
+isIon
 (
 )
 |
@@ -20458,7 +20453,7 @@ if
 (
 iter
 .
-isIonOptimizedJS
+isIon
 (
 )
 )

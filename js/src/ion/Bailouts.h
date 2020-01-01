@@ -126,7 +126,7 @@ public
 IonBailoutIterator
 (
 const
-IonActivationIterator
+JitActivationIterator
 &
 activations
 BailoutStack
@@ -137,7 +137,7 @@ sp
 IonBailoutIterator
 (
 const
-IonActivationIterator
+JitActivationIterator
 &
 activations
 InvalidationBailoutStack

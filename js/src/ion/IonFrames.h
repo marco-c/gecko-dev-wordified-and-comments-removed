@@ -840,7 +840,7 @@ frame
 )
 ;
 void
-MarkIonActivations
+MarkJitActivations
 (
 JSRuntime
 *

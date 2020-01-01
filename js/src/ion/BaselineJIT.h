@@ -1127,7 +1127,7 @@ BailoutIonToBaseline
 JSContext
 *
 cx
-IonActivation
+JitActivation
 *
 activation
 IonBailoutIterator

@@ -16025,11 +16025,6 @@ AllFramesIter
 i
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 !
@@ -16048,7 +16043,7 @@ if
 (
 i
 .
-isIonOptimizedJS
+isIon
 (
 )
 )
