@@ -914,6 +914,14 @@ waiverWrapperMap
 delete
 expandoMap
 ;
+MOZ_COUNT_DTOR
+(
+xpc
+:
+:
+CompartmentPrivate
+)
+;
 }
 static
 JSBool
