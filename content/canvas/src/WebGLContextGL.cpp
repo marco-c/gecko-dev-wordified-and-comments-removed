@@ -23371,9 +23371,6 @@ WebGLContext
 :
 TexImage2D
 (
-JSContext
-*
-cx
 WebGLenum
 target
 WebGLint
@@ -23470,9 +23467,6 @@ WebGLContext
 :
 TexImage2D
 (
-JSContext
-*
-cx
 WebGLenum
 target
 WebGLint
@@ -24238,9 +24232,6 @@ WebGLContext
 :
 TexSubImage2D
 (
-JSContext
-*
-cx
 WebGLenum
 target
 WebGLint
@@ -24341,9 +24332,6 @@ WebGLContext
 :
 TexSubImage2D
 (
-JSContext
-*
-cx
 WebGLenum
 target
 WebGLint

@@ -1216,7 +1216,6 @@ AppendArrayBuffer
 (
 &
 obj
-aCx
 )
 ;
 continue
@@ -1550,9 +1549,6 @@ AppendArrayBuffer
 JSObject
 *
 aBuffer
-JSContext
-*
-aCx
 )
 {
 return

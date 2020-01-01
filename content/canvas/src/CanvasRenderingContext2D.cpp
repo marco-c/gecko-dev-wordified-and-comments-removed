@@ -16746,9 +16746,6 @@ CanvasRenderingContext2D
 :
 PutImageData
 (
-JSContext
-*
-cx
 ImageData
 &
 imageData
@@ -16840,9 +16837,6 @@ CanvasRenderingContext2D
 :
 PutImageData
 (
-JSContext
-*
-cx
 ImageData
 &
 imageData

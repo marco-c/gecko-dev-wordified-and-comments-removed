@@ -333,9 +333,6 @@ aIsBinary
 uint32_t
 &
 aOutgoingLength
-JSContext
-*
-aCx
 )
 ;
 nsRefPtr
@@ -944,9 +941,6 @@ Send
 nsIVariant
 *
 aData
-JSContext
-*
-aCx
 )
 {
 MOZ_ASSERT
@@ -1009,7 +1003,6 @@ msgString
 msgStream
 isBinary
 msgLen
-aCx
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1158,9 +1151,6 @@ aIsBinary
 uint32_t
 &
 aOutgoingLength
-JSContext
-*
-aCx
 )
 {
 uint16_t
