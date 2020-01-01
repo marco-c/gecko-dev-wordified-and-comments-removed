@@ -116,6 +116,17 @@ Modifiers
 aModifiers
 )
 ;
+static
+void
+InitInputEvent
+(
+nsInputEvent
+&
+aInputEvent
+guint
+aModifierState
+)
+;
 protected
 :
 static
