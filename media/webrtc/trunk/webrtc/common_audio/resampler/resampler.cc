@@ -221,6 +221,10 @@ speex_resampler_destroy
 state_
 )
 ;
+state_
+=
+NULL
+;
 }
 type_
 =
