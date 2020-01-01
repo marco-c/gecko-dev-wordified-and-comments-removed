@@ -474,6 +474,9 @@ Infinity
 "
 NaN
 "
+"
+builder
+"
 #
 if
 JS_HAS_XML_SUPPORT
@@ -529,7 +532,7 @@ has
 hasOwn
 "
 "
-enumerateOwn
+keys
 "
 "
 iterate
@@ -1959,6 +1962,7 @@ JS_ASSERT
 !
 IsAboutToBeFinalized
 (
+cx
 AtomEntryToKey
 (
 entry
@@ -1972,6 +1976,7 @@ if
 (
 IsAboutToBeFinalized
 (
+cx
 AtomEntryToKey
 (
 entry
@@ -2133,7 +2138,7 @@ state
 >
 atoms
 ;
-AutoLockDefaultCompartment
+AutoLockAtomsCompartment
 lock
 (
 cx
@@ -2221,7 +2226,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 ;
 if
 (
@@ -2277,7 +2282,7 @@ cx
 runtime
 -
 >
-defaultCompartment
+atomsCompartment
 )
 ;
 if
@@ -2624,6 +2629,18 @@ CHECK_REQUEST
 (
 cx
 )
+;
+if
+(
+!
+CheckStringLength
+(
+cx
+length
+)
+)
+return
+NULL
 ;
 str
 .

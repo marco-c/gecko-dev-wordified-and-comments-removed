@@ -184,7 +184,10 @@ cx
 {
 SetBuiltinError
 (
+JS_TRACE_MONITOR_FROM_CONTEXT
+(
 cx
+)
 )
 ;
 }
@@ -624,8 +627,8 @@ js_StringToNumber
 CONTEXT
 STRING
 BOOLPTR
-1
-ACCSET_NONE
+0
+ACCSET_STORE_ANY
 )
 int32
 FASTCALL
@@ -673,8 +676,8 @@ js_StringToInt32
 CONTEXT
 STRING
 BOOLPTR
-1
-ACCSET_NONE
+0
+ACCSET_STORE_ANY
 )
 static
 inline

@@ -128,8 +128,10 @@ PerfMeasurement
 *
 p
 =
-new
+js_new
+<
 PerfMeasurement
+>
 (
 PerfMeasurement
 :
@@ -186,7 +188,8 @@ JSObject
 obj
 )
 {
-delete
+js_delete
+(
 (
 PerfMeasurement
 *
@@ -195,6 +198,7 @@ JS_GetPrivate
 (
 cx
 obj
+)
 )
 ;
 }
@@ -820,7 +824,7 @@ JSCLASS_HAS_PRIVATE
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
@@ -1042,7 +1046,7 @@ c
 value
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_StrictPropertyStub
 PM_CATTRS
 )
 )

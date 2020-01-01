@@ -517,7 +517,7 @@ testScriptObject
 .
 cpp
 \
-testSetPropertyWithNativeGetterStubSetter
+testSetProperty
 .
 cpp
 \
@@ -560,9 +560,6 @@ DEXPORT_JS_API
 LIBS
 =
 (
-NSPR_LIBS
-)
-(
 DEPTH
 )
 /
@@ -573,6 +570,9 @@ js_static
 .
 (
 LIB_SUFFIX
+)
+(
+NSPR_LIBS
 )
 ifdef
 JS_TYPE_INFERENCE
