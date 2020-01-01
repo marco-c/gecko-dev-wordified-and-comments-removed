@@ -564,9 +564,7 @@ http
 :
 /
 /
-mochi
-.
-test
+localhost
 :
 8888
 /
@@ -603,9 +601,7 @@ uri
 http
 :
 /
-mochi
-.
-test
+localhost
 /
 "
 )
