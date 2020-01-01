@@ -31,6 +31,9 @@ class
 nsIURI
 ;
 class
+nsIPrincipal
+;
+class
 CSS2PropertiesTearoff
 :
 public
@@ -242,6 +245,10 @@ nsIURI
 *
 *
 aBaseURI
+nsIPrincipal
+*
+*
+aSheetPrincipal
 nsICSSLoader
 *
 *

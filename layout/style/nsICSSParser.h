@@ -63,6 +63,9 @@ nsICSSRule
 class
 nsMediaList
 ;
+class
+nsIPrincipal
+;
 #
 define
 NS_ICSS_PARSER_IID
@@ -175,6 +178,9 @@ aSheetURL
 nsIURI
 *
 aBaseURI
+nsIPrincipal
+*
+aSheetPrincipal
 PRUint32
 aLineNumber
 PRBool
@@ -200,6 +206,9 @@ aDocURL
 nsIURI
 *
 aBaseURL
+nsIPrincipal
+*
+aNodePrincipal
 nsICSSStyleRule
 *
 *
@@ -221,6 +230,9 @@ aSheetURL
 nsIURI
 *
 aBaseURL
+nsIPrincipal
+*
+aSheetPrincipal
 nsCSSDeclaration
 *
 aDeclaration
@@ -248,6 +260,9 @@ aSheetURL
 nsIURI
 *
 aBaseURL
+nsIPrincipal
+*
+aSheetPrincipal
 nsCOMArray
 <
 nsICSSRule
@@ -274,6 +289,9 @@ aSheetURL
 nsIURI
 *
 aBaseURL
+nsIPrincipal
+*
+aSheetPrincipal
 nsCSSDeclaration
 *
 aDeclaration

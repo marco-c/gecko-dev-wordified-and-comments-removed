@@ -6040,6 +6040,10 @@ mInner
 -
 >
 mBaseURI
+mInner
+-
+>
+mPrincipal
 rules
 )
 ;
@@ -7219,6 +7223,10 @@ mInner
 -
 >
 mBaseURI
+mInner
+-
+>
+mPrincipal
 rules
 )
 ;

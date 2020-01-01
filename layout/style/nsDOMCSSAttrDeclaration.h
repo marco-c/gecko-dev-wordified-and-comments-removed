@@ -102,6 +102,10 @@ nsIURI
 *
 *
 aBaseURI
+nsIPrincipal
+*
+*
+aSheetPrincipal
 nsICSSLoader
 *
 *

@@ -2561,14 +2561,6 @@ this
 NS_EVENT_BITS_MUTATION_ATTRMODIFIED
 )
 ;
-nsIDocument
-*
-document
-=
-GetCurrentDoc
-(
-)
-;
 if
 (
 hasListeners
@@ -2981,6 +2973,9 @@ name
 value
 docURI
 baseURI
+NodePrincipal
+(
+)
 declaration
 &
 changed
