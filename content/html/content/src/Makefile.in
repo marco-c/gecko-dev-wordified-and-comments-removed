@@ -456,6 +456,10 @@ nsGenericHTMLElement
 .
 cpp
 \
+nsGenericHTMLFrameElement
+.
+cpp
+\
 nsFormSubmission
 .
 cpp
