@@ -419,6 +419,10 @@ doTest
 {
 is
 (
+Math
+.
+round
+(
 testAnchor
 .
 getBoundingClientRect
@@ -426,7 +430,12 @@ getBoundingClientRect
 )
 .
 right
+)
 -
+Math
+.
+round
+(
 testPopup
 .
 getBoundingClientRect
@@ -434,6 +443,7 @@ getBoundingClientRect
 )
 .
 right
+)
 10
 "
 RTL

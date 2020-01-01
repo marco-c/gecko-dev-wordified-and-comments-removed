@@ -671,6 +671,14 @@ RegisterUnregisterChrome
 .
 js
 \
+test_panel
+.
+xul
+\
+window_panel
+.
+xul
+\
 (
 NULL
 )
