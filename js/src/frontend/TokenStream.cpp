@@ -1104,6 +1104,9 @@ length
 StrictModeGetter
 *
 smg
+AutoKeepAtoms
+&
+keepAtoms
 )
 :
 srcCoords
@@ -1190,6 +1193,10 @@ originPrincipals
 strictModeGetter
 (
 smg
+)
+lastFunctionKeyword
+(
+keepAtoms
 )
 tokenSkip
 (

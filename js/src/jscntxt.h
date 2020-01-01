@@ -6197,6 +6197,7 @@ rt
 }
 ;
 class
+MOZ_STACK_CLASS
 AutoKeepAtoms
 {
 JSRuntime
