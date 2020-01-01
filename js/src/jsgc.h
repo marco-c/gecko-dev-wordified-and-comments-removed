@@ -2740,6 +2740,16 @@ bool
 releaseAll
 )
 ;
+void
+expireAndFree
+(
+JSRuntime
+*
+rt
+bool
+releaseAll
+)
+;
 JS_FRIEND_API
 (
 int64_t
