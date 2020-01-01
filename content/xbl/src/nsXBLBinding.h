@@ -285,7 +285,7 @@ JSPropertyDescriptor
 aDesc
 JSObject
 *
-aBoundScope
+aXBLScope
 )
 ;
 public
