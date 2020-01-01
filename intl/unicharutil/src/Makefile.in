@@ -437,11 +437,6 @@ intl
 (
 NULL
 )
-EXPORTS
-=
-cattable
-.
-h
 CPPSRCS
 =
 \
