@@ -781,12 +781,12 @@ initEGL
 )
 ;
 }
-SurfaceHolder
-surfaceHolder
+Object
+window
 =
 mView
 .
-getHolder
+getNativeWindow
 (
 )
 ;
@@ -799,7 +799,7 @@ eglCreateWindowSurface
 (
 mEGLDisplay
 mEGLConfig
-surfaceHolder
+window
 null
 )
 ;
