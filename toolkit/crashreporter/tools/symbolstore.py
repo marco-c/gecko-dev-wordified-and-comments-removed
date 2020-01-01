@@ -12,13 +12,8 @@ import
 textwrap
 import
 fnmatch
-from
-subprocess
 import
-call
-Popen
-PIPE
-STDOUT
+subprocess
 from
 optparse
 import
@@ -1443,6 +1438,8 @@ stdout
 _
 )
 =
+subprocess
+.
 Popen
 (
 args
@@ -1450,6 +1447,8 @@ args
 args
 stdout
 =
+subprocess
+.
 PIPE
 )
 .
@@ -3499,6 +3498,14 @@ s
 %
 file
         
+sys
+.
+stderr
+.
+flush
+(
+)
+        
 result
 =
 False
@@ -3522,46 +3529,54 @@ SRCSRV_ROOT
 )
         
 for
+arch_num
 arch
 in
+enumerate
+(
 self
 .
 archs
+)
 :
             
 try
 :
                 
-cmd
+proc
 =
-os
+subprocess
 .
-popen
+Popen
 (
-"
-%
-s
-%
-s
-%
-s
-"
-%
-(
+[
 self
 .
 dump_syms
+]
++
 arch
-file
+.
+split
+(
 )
-"
-r
-"
++
+[
+file
+]
+                                        
+stdout
+=
+subprocess
+.
+PIPE
 )
                 
 module_line
 =
-cmd
+proc
+.
+stdout
 .
 next
 (
@@ -3708,7 +3723,9 @@ module_line
 for
 line
 in
-cmd
+proc
+.
+stdout
 :
                         
 if
@@ -3729,6 +3746,10 @@ filename
 )
 =
 line
+.
+rstrip
+(
+)
 .
 split
 (
@@ -3791,10 +3812,6 @@ self
 FixFilenameCase
 (
 filename
-.
-rstrip
-(
-)
 )
                             
 sourcepath
@@ -3926,9 +3943,9 @@ close
 (
 )
                     
-cmd
+proc
 .
-close
+wait
 (
 )
                     
@@ -3957,6 +3974,11 @@ if
 self
 .
 copy_debug
+and
+arch_num
+=
+=
+0
 :
                         
 self
@@ -4360,6 +4382,8 @@ pd_
         
 success
 =
+subprocess
+.
 call
 (
 [
@@ -4381,15 +4405,17 @@ LZX
 /
 D
 "
+                                   
 "
 CompressionMemory
 =
 21
 "
-                       
+                                   
 full_path
 compressed_file
 ]
+                                  
 stdout
 =
 open
@@ -4404,6 +4430,8 @@ w
 )
 stderr
 =
+subprocess
+.
 STDOUT
 )
         
@@ -4535,6 +4563,8 @@ normpath
 pdbstr_path
 )
             
+subprocess
+.
 call
 (
 [
@@ -4557,7 +4587,7 @@ basename
 (
 debug_file
 )
-                  
+                             
 "
 -
 i
@@ -4579,7 +4609,7 @@ s
 srcsrv
 "
 ]
-                 
+                            
 cwd
 =
 os
@@ -4762,6 +4792,8 @@ dbg
 "
         
 if
+subprocess
+.
 call
 (
 [
@@ -4787,6 +4819,8 @@ file_dbg
 and
 \
            
+subprocess
+.
 call
 (
 [
@@ -5363,29 +5397,16 @@ rmtree
 dsymbundle
 )
         
-os
+subprocess
 .
-system
+call
 (
+[
 "
 dsymutil
-%
-s
-%
-s
->
-/
-dev
-/
-null
 "
-%
-(
-'
-'
-.
-join
-(
+]
++
 [
 a
 .
@@ -5408,11 +5429,14 @@ in
 self
 .
 archs
+if
+a
 ]
-)
-                                      
+                        
++
+[
 file
-)
+]
 )
         
 if
@@ -5629,6 +5653,8 @@ rel_path
         
 success
 =
+subprocess
+.
 call
 (
 [
@@ -5648,7 +5674,7 @@ basename
 file
 )
 ]
-                       
+                                  
 cwd
 =
 os
@@ -5659,7 +5685,7 @@ dirname
 (
 file
 )
-                       
+                                  
 stdout
 =
 open
@@ -5676,6 +5702,8 @@ w
 )
 stderr
 =
+subprocess
+.
 STDOUT
 )
         
