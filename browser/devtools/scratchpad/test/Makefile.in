@@ -172,6 +172,12 @@ browser_scratchpad_pprint
 .
 js
 \
+browser_scratchpad_pprint
+-
+02
+.
+js
+\
 head
 .
 js
