@@ -1,19 +1,4 @@
 #
-ifndef
-_MSC_VER
-#
-error
-This
-file
-only
-makes
-sense
-on
-Windows
-.
-#
-endif
-#
 include
 "
 nsCrashOnException
@@ -120,7 +105,7 @@ LPARAM
 lParam
 )
 {
-__try
+MOZ_SEH_TRY
 {
 return
 wndProc
@@ -132,7 +117,7 @@ lParam
 )
 ;
 }
-__except
+MOZ_SEH_EXCEPT
 (
 ReportException
 (
