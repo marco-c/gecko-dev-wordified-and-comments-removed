@@ -37,11 +37,6 @@ properties
 "
 ;
 const
-LAZY_EMPTY_DELAY
-=
-150
-;
-const
 LAZY_EXPAND_DELAY
 =
 50
@@ -443,7 +438,9 @@ VV_empty
 (
 aTimeout
 =
-LAZY_EMPTY_DELAY
+this
+.
+lazyEmptyDelay
 )
 {
 if
@@ -701,6 +698,9 @@ aTimeout
 )
 ;
 }
+lazyEmptyDelay
+:
+150
 lazyEmpty
 :
 false
@@ -9927,7 +9927,9 @@ currVariable
 .
 target
 )
-LAZY_EMPTY_DELAY
+this
+.
+lazyEmptyDelay
 +
 1
 )
