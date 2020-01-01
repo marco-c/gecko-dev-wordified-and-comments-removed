@@ -563,15 +563,6 @@ nsQueryContentEventHandler
 .
 cpp
 \
-(
-NULL
-)
-ifdef
-MOZ_MEDIA
-CPPSRCS
-+
-=
-\
 nsDOMProgressEvent
 .
 cpp
@@ -579,7 +570,6 @@ cpp
 (
 NULL
 )
-endif
 #
 we
 don

@@ -471,15 +471,6 @@ nsIDOMUIEvent
 .
 idl
 \
-(
-NULL
-)
-ifdef
-MOZ_MEDIA
-SDK_XPIDLSRCS
-+
-=
-\
 nsIDOMProgressEvent
 .
 idl
@@ -487,7 +478,6 @@ idl
 (
 NULL
 )
-endif
 XPIDLSRCS
 =
 \
