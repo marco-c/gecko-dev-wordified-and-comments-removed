@@ -816,6 +816,10 @@ nsTreeWalker
 .
 cpp
 \
+nsXHTMLContentSerializer
+.
+cpp
+\
 nsXMLContentSerializer
 .
 cpp
