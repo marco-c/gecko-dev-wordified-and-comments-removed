@@ -9609,6 +9609,9 @@ caller
 -
 >
 varobj
+(
+cx
+)
 )
 return
 JS_TRUE
@@ -10002,6 +10005,9 @@ caller
 -
 >
 varobj
+(
+cx
+)
 =
 =
 evalcg

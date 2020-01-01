@@ -1388,6 +1388,9 @@ caller
 -
 >
 varobj
+(
+cx
+)
 )
 {
 JS_ASSERT

@@ -231,9 +231,6 @@ js_NewGenerator
 JSContext
 *
 cx
-JSStackFrame
-*
-fp
 )
 ;
 #
