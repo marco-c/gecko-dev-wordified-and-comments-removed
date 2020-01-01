@@ -605,6 +605,16 @@ DMOZ_D3DCOMPILER_DLL
 MOZ_D3DCOMPILER_DLL
 )
 endif
+ifdef
+WIN32_REDIST_DIR
+DEFINES
++
+=
+-
+DMOZ_WIN32_REDIST
+=
+1
+endif
 include
 (
 topsrcdir
