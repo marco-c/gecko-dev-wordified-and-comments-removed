@@ -1900,6 +1900,13 @@ PRBool
 >
 mLivemarkFeedItemIds
 ;
+nsDataHashtable
+<
+nsStringHashKey
+PRBool
+>
+mLivemarkFeedURIs
+;
 nsCOMPtr
 <
 mozIStorageStatement
