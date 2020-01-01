@@ -3321,6 +3321,12 @@ tab
 )
 return
 ;
+TapHighlightHelper
+.
+hide
+(
+)
+;
 if
 (
 this
@@ -7216,6 +7222,13 @@ aX
 aY
 )
 {
+TapHighlightHelper
+.
+hide
+(
+200
+)
+;
 }
 panBegin
 :
@@ -7228,6 +7241,7 @@ TapHighlightHelper
 .
 hide
 (
+0
 )
 ;
 this
@@ -7256,6 +7270,7 @@ TapHighlightHelper
 .
 hide
 (
+200
 )
 ;
 if
@@ -11082,6 +11097,12 @@ browser
 lastLocation
 )
 {
+TapHighlightHelper
+.
+hide
+(
+)
+;
 this
 .
 browser
