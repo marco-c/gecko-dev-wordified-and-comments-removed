@@ -16727,6 +16727,16 @@ command
 "
 cmd_newNavigatorTab
 "
+onclick
+=
+"
+checkForMiddleClick
+(
+this
+event
+)
+;
+"
 tooltiptext
 =
 "
