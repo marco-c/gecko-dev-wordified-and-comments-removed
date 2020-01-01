@@ -134,6 +134,11 @@ upload
 .
 lastDir
 "
+"
+spellcheck
+.
+lang
+"
 ]
 ;
 if
