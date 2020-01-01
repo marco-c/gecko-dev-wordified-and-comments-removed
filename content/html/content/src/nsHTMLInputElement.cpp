@@ -15000,6 +15000,9 @@ VALIDITY_STATE_VALUE_MISSING
 valueMissing
 )
 ;
+nsAutoScriptBlocker
+scriptBlocker
+;
 nsCOMPtr
 <
 nsIRadioVisitor
