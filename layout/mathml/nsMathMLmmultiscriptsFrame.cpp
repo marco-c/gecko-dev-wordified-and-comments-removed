@@ -311,10 +311,7 @@ ParseNumericValue
 value
 &
 mSubScriptShift
-nsMathMLElement
-:
-:
-PARSE_ALLOW_NEGATIVE
+0
 PresContext
 (
 )
@@ -350,10 +347,7 @@ ParseNumericValue
 value
 &
 mSupScriptShift
-nsMathMLElement
-:
-:
-PARSE_ALLOW_NEGATIVE
+0
 PresContext
 (
 )

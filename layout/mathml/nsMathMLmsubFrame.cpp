@@ -185,10 +185,7 @@ ParseNumericValue
 value
 &
 subScriptShift
-nsMathMLElement
-:
-:
-PARSE_ALLOW_NEGATIVE
+0
 PresContext
 (
 )
