@@ -92,11 +92,11 @@ f
 (
 )
 ;
-print
+reportCompare
 (
+0
+0
 "
-PASSED
-!
 "
 )
 ;

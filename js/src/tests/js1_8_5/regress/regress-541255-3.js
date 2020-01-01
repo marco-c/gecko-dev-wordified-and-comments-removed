@@ -57,11 +57,11 @@ p
 7
 )
 ;
-print
+reportCompare
 (
+0
+0
 "
-PASSED
-!
 "
 )
 ;
