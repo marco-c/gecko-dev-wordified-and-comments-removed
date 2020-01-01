@@ -1593,15 +1593,6 @@ aPrefix
 )
 ;
 NS_IMETHOD
-SetPrefix
-(
-const
-nsAString
-&
-aPrefix
-)
-;
-NS_IMETHOD
 Normalize
 (
 )

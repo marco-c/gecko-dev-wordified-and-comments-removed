@@ -2276,6 +2276,10 @@ html
 headers
 ^
 \
+test_bug604592
+.
+html
+\
 test_bug628938
 .
 html
