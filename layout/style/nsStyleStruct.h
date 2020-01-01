@@ -162,7 +162,7 @@ NS_STYLE_INHERIT_MASK
 0x00ffffff
 #
 define
-NS_STYLE_HAS_TEXT_DECORATIONS
+NS_STYLE_HAS_TEXT_DECORATION_LINES
 0x01000000
 #
 define
@@ -4548,7 +4548,10 @@ nsStyleCoord
 mVerticalAlign
 ;
 PRUint8
-mTextDecoration
+mTextBlink
+;
+PRUint8
+mTextDecorationLine
 ;
 PRUint8
 mUnicodeBidi

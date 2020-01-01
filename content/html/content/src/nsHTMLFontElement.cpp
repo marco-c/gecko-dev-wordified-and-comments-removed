@@ -1209,14 +1209,14 @@ decoration
 aData
 -
 >
-ValueForTextDecoration
+ValueForTextDecorationLine
 (
 )
 ;
 PRInt32
 newValue
 =
-NS_STYLE_TEXT_DECORATION_OVERRIDE_ALL
+NS_STYLE_TEXT_DECORATION_LINE_OVERRIDE_ALL
 ;
 if
 (
