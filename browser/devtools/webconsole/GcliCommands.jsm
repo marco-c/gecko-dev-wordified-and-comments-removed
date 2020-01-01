@@ -936,9 +936,7 @@ scriptsView
 =
 dbg
 .
-frame
-.
-contentWindow
+debuggerWindow
 .
 DebuggerView
 .
@@ -953,8 +951,6 @@ in
 scriptsView
 .
 scriptLocations
-(
-)
 )
 {
 files

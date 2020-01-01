@@ -64,7 +64,9 @@ testSimpleCall
 (
 )
 {
-gPane
+gDebugger
+.
+DebuggerController
 .
 activeThread
 .
@@ -466,7 +468,7 @@ resumeAndFinish
 {
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .
@@ -490,11 +492,13 @@ ss
 =
 gDebugger
 .
+DebuggerController
+.
 SourceScripts
 ;
 ss
 .
-onScriptsCleared
+_onScriptsCleared
 (
 )
 ;

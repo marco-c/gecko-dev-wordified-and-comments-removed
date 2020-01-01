@@ -115,7 +115,9 @@ gPane
 .
 debuggerWindow
 ;
-gPane
+gDebugger
+.
+DebuggerController
 .
 activeThread
 .
@@ -263,7 +265,7 @@ is
 (
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .
@@ -539,7 +541,7 @@ mode
 ;
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .

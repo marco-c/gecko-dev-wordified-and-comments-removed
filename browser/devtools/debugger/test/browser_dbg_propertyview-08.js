@@ -154,7 +154,7 @@ gDebugger
 .
 DebuggerView
 .
-Stackframes
+StackFrames
 .
 _frames
 localScope
@@ -247,7 +247,7 @@ is
 (
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .
@@ -682,7 +682,9 @@ resumeAndFinish
 (
 )
 {
-gPane
+gDebugger
+.
+DebuggerController
 .
 activeThread
 .
@@ -717,7 +719,7 @@ gDebugger
 .
 DebuggerView
 .
-Stackframes
+StackFrames
 .
 _frames
 ;
@@ -761,7 +763,7 @@ gTab
 ;
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .

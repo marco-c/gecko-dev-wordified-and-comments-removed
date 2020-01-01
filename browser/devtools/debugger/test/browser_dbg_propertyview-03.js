@@ -64,7 +64,9 @@ testSimpleCall
 (
 )
 {
-gPane
+gDebugger
+.
+DebuggerController
 .
 activeThread
 .
@@ -717,7 +719,7 @@ tree
 ;
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .

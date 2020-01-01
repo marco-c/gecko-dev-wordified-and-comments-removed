@@ -64,7 +64,9 @@ testSimpleCall
 (
 )
 {
-gPane
+gDebugger
+.
+DebuggerController
 .
 activeThread
 .
@@ -99,7 +101,7 @@ gDebugger
 .
 DebuggerView
 .
-Stackframes
+StackFrames
 .
 _frames
 childNodes
@@ -112,7 +114,7 @@ is
 (
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .
@@ -213,7 +215,7 @@ testLocationChange
 {
 gDebugger
 .
-StackFrames
+DebuggerController
 .
 activeThread
 .
@@ -223,9 +225,11 @@ function
 (
 )
 {
-gPane
+gDebugger
 .
-_client
+DebuggerController
+.
+client
 .
 addOneTimeListener
 (
@@ -250,9 +254,11 @@ fired
 "
 )
 ;
-gPane
+gDebugger
 .
-_client
+DebuggerController
+.
+client
 .
 addOneTimeListener
 (
