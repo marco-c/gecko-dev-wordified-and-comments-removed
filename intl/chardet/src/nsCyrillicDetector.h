@@ -175,7 +175,7 @@ x
 -
 mac
 -
-ukrainian
+cyrillic
 "
 "
 IBM866

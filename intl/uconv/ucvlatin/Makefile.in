@@ -594,10 +594,6 @@ nsMacCyrillicToUnicode
 .
 cpp
 \
-nsMacUkrainianToUnicode
-.
-cpp
-\
 nsMacIcelandicToUnicode
 .
 cpp
@@ -831,10 +827,6 @@ nsUnicodeToMacRomanian
 cpp
 \
 nsUnicodeToMacCyrillic
-.
-cpp
-\
-nsUnicodeToMacUkrainian
 .
 cpp
 \
