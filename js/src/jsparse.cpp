@@ -10878,7 +10878,7 @@ isNullClosure
 }
 else
 {
-uintN
+bool
 hasUpvars
 =
 false
