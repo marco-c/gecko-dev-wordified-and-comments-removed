@@ -2066,6 +2066,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 getNewType
@@ -2566,6 +2568,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 enumerators
@@ -3355,6 +3359,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 nativeIterCache
@@ -3652,6 +3658,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 nativeIterCache
@@ -3770,6 +3778,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 nativeIterCache
@@ -3991,6 +4001,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 nativeIterCache
@@ -4016,6 +4028,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 nativeIterCache
@@ -4992,6 +5006,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 staticStrings
@@ -5549,6 +5565,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 enumerators

@@ -106,6 +106,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode
@@ -167,6 +169,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 ionCompartment

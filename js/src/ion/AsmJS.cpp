@@ -5024,6 +5024,8 @@ cx_
 -
 >
 compartment
+(
+)
 -
 >
 ensureIonCompartmentExists
@@ -7098,6 +7100,8 @@ cx_
 -
 >
 compartment
+(
+)
 -
 >
 ionCompartment
@@ -27657,6 +27661,8 @@ cx
 -
 >
 compartment
+(
+)
 tempAlloc
 )
 ;
@@ -27712,6 +27718,8 @@ cx
 -
 >
 compartment
+(
+)
 tempAlloc
 graph
 info
@@ -28096,6 +28104,8 @@ cx
 -
 >
 compartment
+(
+)
 &
 mirGen
 -
@@ -28278,6 +28288,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 ;
 while
@@ -28802,6 +28814,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 ;
 group
@@ -29006,6 +29020,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 workerThreadState
@@ -34133,6 +34149,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode
@@ -34163,6 +34181,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 )
 return
@@ -34199,6 +34219,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 )
 return
@@ -34404,6 +34426,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode

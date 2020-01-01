@@ -356,6 +356,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 ionRuntime
@@ -3515,6 +3517,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 jitSupportsFloatingPoint
@@ -3585,6 +3589,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 r0
 )
@@ -3795,6 +3801,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 ionCompartment

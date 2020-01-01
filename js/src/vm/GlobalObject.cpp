@@ -850,12 +850,16 @@ cx
 -
 >
 compartment
+(
+)
 !
 =
 cx
 -
 >
 runtime
+(
+)
 -
 >
 atomsCompartment
@@ -1765,6 +1769,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 isSelfHostingGlobal
@@ -1984,6 +1990,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 initGlobal
@@ -2315,6 +2323,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 securityCallbacks
@@ -3094,6 +3104,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 defaultFreeOp

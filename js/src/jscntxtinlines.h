@@ -718,6 +718,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 objectMetadataCallback
@@ -937,6 +939,8 @@ cx
 -
 >
 compartment
+(
+)
 )
 {
 }
@@ -1112,6 +1116,8 @@ context
 -
 >
 runtime
+(
+)
 -
 >
 atomsCompartment
@@ -1586,6 +1592,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 zone
@@ -1608,6 +1616,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 isHeapBusy
@@ -2727,6 +2737,8 @@ analysisLifoAlloc
 {
 return
 compartment
+(
+)
 -
 >
 analysisLifoAlloc
@@ -2818,6 +2830,8 @@ propertyTree
 {
 return
 compartment
+(
+)
 -
 >
 propertyTree
@@ -2963,6 +2977,8 @@ enterCompartmentDepth_
 -
 ;
 compartment
+(
+)
 -
 >
 leave
@@ -3022,6 +3038,8 @@ JS_ASSERT_IF
 (
 !
 compartment
+(
+)
 !
 zone_
 )
@@ -3029,7 +3047,11 @@ zone_
 JS_ASSERT_IF
 (
 compartment
+(
+)
 compartment
+(
+)
 -
 >
 zone
@@ -3056,6 +3078,8 @@ nbytes
 )
 {
 runtime
+(
+)
 -
 >
 updateMallocCounter
@@ -3079,7 +3103,7 @@ JSCompartment
 comp
 )
 {
-compartment
+compartment_
 =
 comp
 ;

@@ -1407,6 +1407,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -1592,6 +1594,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -2210,6 +2214,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -2275,6 +2281,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -2312,6 +2320,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -2381,6 +2391,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -2454,6 +2466,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -2472,6 +2486,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 activeAnalysis
@@ -2860,6 +2876,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 activeAnalysis
@@ -2893,6 +2911,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -4937,6 +4957,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -4951,6 +4973,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -5135,6 +5159,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -5147,6 +5173,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -5577,6 +5605,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -6457,6 +6487,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -6627,6 +6659,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -6676,6 +6710,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -7022,6 +7058,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -7100,6 +7138,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -7814,6 +7854,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -8628,6 +8670,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -8726,6 +8770,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -8769,6 +8815,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -9174,6 +9222,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -9356,6 +9406,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -9444,6 +9496,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -9620,6 +9674,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -9732,6 +9788,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -9877,6 +9935,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -11243,6 +11303,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -11262,6 +11324,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -11312,6 +11376,8 @@ cx
 -
 >
 compartment
+(
+)
 )
 MOZ_CRASH
 (
@@ -11527,6 +11593,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 jitSupportsFloatingPoint
@@ -11573,6 +11641,8 @@ cx
 -
 >
 compartment
+(
+)
 =
 =
 proto
@@ -11992,6 +12062,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -12111,6 +12183,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -12201,6 +12275,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -12285,6 +12361,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -13043,6 +13121,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -13256,6 +13336,8 @@ cx
 -
 >
 compartment
+(
+)
 )
 js_ReportOutOfMemory
 (
@@ -13494,6 +13576,8 @@ cx
 -
 >
 compartment
+(
+)
 co
 -
 >
@@ -13582,6 +13666,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -13661,6 +13747,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -13756,6 +13844,8 @@ cx
 -
 >
 compartment
+(
+)
 script
 )
 ;
@@ -14017,6 +14107,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -14203,6 +14295,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -14866,6 +14960,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -15070,6 +15166,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -15633,6 +15731,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -15853,6 +15953,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -15960,6 +16062,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -16400,6 +16504,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -16483,6 +16589,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -16734,6 +16842,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -16793,6 +16903,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -16834,6 +16946,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -17021,6 +17135,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -17106,6 +17222,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -17712,6 +17830,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -18539,6 +18659,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -18846,6 +18968,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 activeAnalysis
@@ -21231,6 +21355,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -22357,6 +22483,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -22476,6 +22604,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -22556,6 +22686,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -23270,6 +23402,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -23528,6 +23662,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -23795,6 +23931,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -23909,6 +24047,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -24034,6 +24174,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -24113,6 +24255,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -24901,6 +25045,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -25436,6 +25582,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -25532,6 +25680,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -25664,6 +25814,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -26164,6 +26316,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -26230,6 +26384,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -26335,6 +26491,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -26566,6 +26724,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -26677,6 +26837,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -27695,6 +27857,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -28129,6 +28293,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -28439,6 +28605,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -28723,6 +28891,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -29102,6 +29272,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -29906,6 +30078,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -30009,6 +30183,8 @@ cx
 -
 >
 compartment
+(
+)
 =
 =
 compartment
@@ -30151,6 +30327,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 getNewType
@@ -30354,6 +30532,8 @@ cx
 -
 >
 compartment
+(
+)
 =
 =
 obj
@@ -30437,6 +30617,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -30472,6 +30654,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -30878,6 +31062,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 newTypeObjects
@@ -30970,6 +31156,8 @@ cx
 -
 >
 compartment
+(
+)
 =
 =
 proto_
@@ -31427,6 +31615,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 getNewType
@@ -31461,6 +31651,8 @@ cx
 -
 >
 compartment
+(
+)
 =
 =
 this
@@ -31477,6 +31669,8 @@ cx
 -
 >
 compartment
+(
+)
 =
 =
 proto
@@ -31505,6 +31699,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 lazyTypeObjects
@@ -31593,6 +31789,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -34026,6 +34224,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -34038,6 +34238,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 activeAnalysis
@@ -34062,6 +34264,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 analysisPurgeTriggerBytes
@@ -34073,6 +34277,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 analysisLifoAlloc
@@ -34111,6 +34317,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 analysisLifoAlloc
@@ -34188,6 +34396,8 @@ cx
 -
 >
 compartment
+(
+)
 )
 TypeScript
 :
@@ -34212,6 +34422,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 analysisPurgeCallback
@@ -34224,6 +34436,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 analysisLifoAlloc
@@ -34355,6 +34569,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 analysisPurgeCallback
@@ -34363,6 +34579,8 @@ cx
 -
 >
 runtime
+(
+)
 flat
 )
 ;

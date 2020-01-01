@@ -723,6 +723,8 @@ cx
 -
 >
 compartment
+(
+)
 &
 &
 cx
@@ -1073,6 +1075,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrapId
@@ -1099,6 +1103,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -1144,6 +1150,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrapId
@@ -1170,6 +1178,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -1220,6 +1230,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrapId
@@ -1237,6 +1249,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -1294,6 +1308,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -1337,6 +1353,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrapId
@@ -1396,6 +1414,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -1439,6 +1459,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrapId
@@ -1497,6 +1519,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrapId
@@ -1573,6 +1597,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -1591,6 +1617,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrapId
@@ -1632,6 +1660,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -1684,6 +1714,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -1701,6 +1733,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrapId
@@ -1718,6 +1752,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -1775,6 +1811,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -2242,6 +2280,8 @@ cx
 -
 >
 compartment
+(
+)
 vp
 )
 ;
@@ -2250,6 +2290,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -2312,6 +2354,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -2354,6 +2398,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -2393,6 +2439,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -2468,6 +2516,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -2507,6 +2557,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -2692,6 +2744,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -2843,6 +2897,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -2891,6 +2947,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -3012,6 +3070,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -3105,6 +3165,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -3217,6 +3279,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -4458,6 +4522,8 @@ cx
 -
 >
 runtime
+(
+)
 ;
 for
 (
@@ -4712,6 +4778,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 ;
 JS_ASSERT_IF
@@ -4944,6 +5012,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 numCompartments
@@ -4961,6 +5031,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 ;
 !
@@ -5104,6 +5176,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 ;
 !

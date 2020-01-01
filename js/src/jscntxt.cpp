@@ -863,6 +863,8 @@ cx
 -
 >
 runtime
+(
+)
 =
 =
 this
@@ -940,6 +942,8 @@ cx
 -
 >
 runtime
+(
+)
 =
 =
 this
@@ -995,6 +999,8 @@ cx
 -
 >
 runtime
+(
+)
 =
 =
 this
@@ -1212,6 +1218,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 callsiteClones
@@ -1672,6 +1680,8 @@ cx
 -
 >
 runtime
+(
+)
 ;
 JS_AbortIfWrongThread
 (
@@ -2132,6 +2142,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 debugHooks
@@ -2177,6 +2189,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 debugHooks
@@ -2281,6 +2295,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 hadOutOfMemory
@@ -4688,6 +4704,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 debugHooks
@@ -4709,6 +4727,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 debugHooks
@@ -5203,6 +5223,8 @@ cx
 -
 >
 runtime
+(
+)
 ;
 JS_ASSERT
 (
@@ -5328,6 +5350,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 interrupt
@@ -5792,6 +5816,8 @@ clearPendingException
 if
 (
 compartment
+(
+)
 -
 >
 wrap
@@ -5885,15 +5911,21 @@ const
 return
 !
 compartment
+(
+)
 |
 |
 compartment
+(
+)
 -
 >
 principals
 =
 =
 runtime
+(
+)
 -
 >
 trustedPrincipals
@@ -5931,6 +5963,8 @@ append
 SavedFrameChain
 (
 compartment
+(
+)
 enterCompartmentDepth_
 )
 )
@@ -6847,6 +6881,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 requestDepth
@@ -6856,6 +6892,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 isHeapBusy
@@ -6867,6 +6905,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 assertValidThread
@@ -6877,6 +6917,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 checkRequestDepth
@@ -6901,6 +6943,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 checkRequestDepth
@@ -6913,6 +6957,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 checkRequestDepth

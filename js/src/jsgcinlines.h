@@ -2067,12 +2067,16 @@ cx
 -
 >
 compartment
+(
+)
 =
 =
 cx
 -
 >
 runtime
+(
+)
 -
 >
 atomsCompartment
@@ -2101,6 +2105,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 isHeapBusy
@@ -2115,6 +2121,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 noGCOrAllocationCheck
@@ -2134,6 +2142,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 needZealousGC
@@ -2179,6 +2189,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 gcNursery

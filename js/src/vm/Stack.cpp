@@ -774,6 +774,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode
@@ -1981,6 +1983,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode
@@ -2159,6 +2163,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode
@@ -2333,6 +2339,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode
@@ -2408,6 +2416,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode
@@ -3634,6 +3644,8 @@ cx
 -
 >
 compartment
+(
+)
 ;
 bool
 trusted
@@ -3648,6 +3660,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 trustedPrincipals
@@ -4051,6 +4065,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 ;
 !
@@ -4117,6 +4133,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 stackSpace
@@ -4878,6 +4896,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 ;
 while
@@ -4932,6 +4952,8 @@ cx
 -
 >
 runtime
+(
+)
 seg
 )
 ;
@@ -6633,6 +6655,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 mainThread

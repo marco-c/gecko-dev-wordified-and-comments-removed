@@ -612,6 +612,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 parallelWarmup
@@ -1126,6 +1128,8 @@ cx_
 -
 >
 runtime
+(
+)
 ;
 }
 JSContext
@@ -4176,6 +4180,8 @@ cx_
 -
 >
 runtime
+(
+)
 )
 ;
 RootedValue
@@ -4319,6 +4325,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 )
 {
@@ -4331,6 +4339,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 ;
 JS
@@ -4342,6 +4352,8 @@ cx
 -
 >
 runtime
+(
+)
 JS
 :
 :
@@ -4358,6 +4370,8 @@ cx
 -
 >
 runtime
+(
+)
 JS
 :
 :
@@ -4371,6 +4385,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 gcHelperThread
@@ -4447,6 +4463,8 @@ cx_
 -
 >
 runtime
+(
+)
 -
 >
 threadPool
@@ -5078,6 +5096,8 @@ cx_
 -
 >
 runtime
+(
+)
 -
 >
 new_
@@ -5182,6 +5202,8 @@ cx_
 -
 >
 runtime
+(
+)
 -
 >
 interrupt
@@ -5277,6 +5299,8 @@ cx_
 -
 >
 compartment
+(
+)
 ;
 for
 (
@@ -5320,6 +5344,8 @@ cx_
 -
 >
 runtime
+(
+)
 gcReason_
 )
 ;
@@ -5368,6 +5394,8 @@ cx_
 -
 >
 runtime
+(
+)
 )
 ;
 TlsPerThreadData
@@ -5508,6 +5536,8 @@ cx_
 -
 >
 compartment
+(
+)
 NULL
 )
 ;
@@ -5614,6 +5644,8 @@ cx_
 -
 >
 compartment
+(
+)
 callee
 3
 )
@@ -5719,6 +5751,8 @@ cx_
 -
 >
 runtime
+(
+)
 -
 >
 interrupt
@@ -5747,6 +5781,8 @@ cx_
 -
 >
 runtime
+(
+)
 -
 >
 gcIsNeeded
@@ -5758,6 +5794,8 @@ cx_
 -
 >
 runtime
+(
+)
 -
 >
 interrupt
@@ -5770,6 +5808,8 @@ cx_
 -
 >
 runtime
+(
+)
 -
 >
 gcIsNeeded
@@ -5839,6 +5879,8 @@ cx_
 -
 >
 runtime
+(
+)
 -
 >
 interrupt
@@ -6017,6 +6059,8 @@ cx_
 -
 >
 runtime
+(
+)
 -
 >
 triggerOperationCallback
@@ -6415,6 +6459,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 threadPool
@@ -8571,6 +8617,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 gcZeal

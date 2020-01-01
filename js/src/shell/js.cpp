@@ -2237,6 +2237,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 1
 )
@@ -2341,6 +2343,8 @@ cx
 -
 >
 runtime
+(
+)
 gTimeoutInterval
 )
 )
@@ -8337,6 +8341,8 @@ cx
 -
 >
 runtime
+(
+)
 DebuggerAndThrowHandler
 str
 )
@@ -8434,6 +8440,8 @@ cx
 -
 >
 runtime
+(
+)
 DebuggerAndThrowHandler
 str
 )
@@ -12498,6 +12506,8 @@ cx
 -
 >
 compartment
+(
+)
 )
 {
 JSFunction
@@ -13391,6 +13401,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -13772,6 +13784,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -15894,6 +15908,8 @@ cx
 -
 >
 runtime
+(
+)
 t
 )
 )
@@ -16934,6 +16950,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 hadOutOfMemory
@@ -17722,6 +17740,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 emptyString
@@ -17833,6 +17853,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 emptyString
@@ -18913,6 +18935,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 cloneSelfHostedValue
@@ -26244,6 +26268,8 @@ cx
 -
 >
 runtime
+(
+)
 &
 DOMcallbacks
 )
@@ -26666,6 +26692,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 requestHelperThreadCount
@@ -27614,6 +27642,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 helperThreadCount

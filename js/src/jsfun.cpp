@@ -670,6 +670,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 wrap
@@ -991,6 +993,8 @@ cx
 -
 >
 runtime
+(
+)
 offset
 )
 )
@@ -1457,6 +1461,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 emptyString
@@ -1543,6 +1549,8 @@ cx
 -
 >
 runtime
+(
+)
 offset
 )
 )
@@ -2755,6 +2763,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 ;
 TokenStream
@@ -5966,6 +5976,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 cloneSelfHostedFunctionScript
@@ -6862,6 +6874,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 ;
 AutoNameVector
@@ -7503,6 +7517,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 emptyString
@@ -8081,6 +8097,8 @@ cx
 -
 >
 compartment
+(
+)
 =
 =
 fun
@@ -8358,6 +8376,8 @@ cx
 -
 >
 compartment
+(
+)
 )
 {
 for

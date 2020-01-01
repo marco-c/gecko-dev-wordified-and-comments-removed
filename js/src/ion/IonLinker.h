@@ -370,6 +370,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 ionCompartment

@@ -725,6 +725,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 atomState
@@ -1049,6 +1051,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 getNewType
@@ -1666,6 +1670,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 getNewType
@@ -3726,6 +3732,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 getNewType
@@ -4228,6 +4236,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 emptyString
@@ -4502,6 +4512,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 emptyString
@@ -5533,6 +5545,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 )
 {
@@ -5644,6 +5658,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 )
 ;
@@ -8054,6 +8070,8 @@ cx
 -
 >
 compartment
+(
+)
 )
 ;
 RootedValue
@@ -8656,6 +8674,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode
@@ -8683,6 +8703,8 @@ cx
 -
 >
 compartment
+(
+)
 ;
 if
 (
@@ -8853,6 +8875,8 @@ cx
 -
 >
 compartment
+(
+)
 =
 =
 scope
@@ -8868,6 +8892,8 @@ cx
 -
 >
 compartment
+(
+)
 =
 =
 debugScope
@@ -8952,6 +8978,8 @@ cx
 -
 >
 runtime
+(
+)
 &
 scopes
 -
@@ -8999,6 +9027,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugScopes
@@ -9083,6 +9113,8 @@ cx
 -
 >
 compartment
+(
+)
 =
 =
 debugScope
@@ -9217,6 +9249,8 @@ cx
 -
 >
 runtime
+(
+)
 &
 scopes
 -
@@ -9271,6 +9305,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugScopes
@@ -9628,6 +9664,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugScopes
@@ -9955,6 +9993,8 @@ cx
 -
 >
 compartment
+(
+)
 )
 ;
 LiveScopeMap
@@ -10016,6 +10056,8 @@ cx
 -
 >
 runtime
+(
+)
 &
 scopes
 -
@@ -10063,6 +10105,8 @@ cx
 -
 >
 compartment
+(
+)
 )
 ;
 if
@@ -10221,6 +10265,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 ;
 !
@@ -10272,6 +10318,8 @@ cx
 -
 >
 compartment
+(
+)
 )
 continue
 ;
@@ -10322,6 +10370,8 @@ cx
 -
 >
 compartment
+(
+)
 )
 ;
 DebugScopes
@@ -10369,6 +10419,8 @@ cx
 -
 >
 runtime
+(
+)
 &
 scopes
 -
@@ -11265,6 +11317,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode

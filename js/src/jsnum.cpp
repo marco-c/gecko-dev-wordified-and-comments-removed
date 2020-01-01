@@ -413,6 +413,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 dtoaState
@@ -2748,6 +2750,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 staticStrings
@@ -2798,6 +2802,8 @@ cx
 -
 >
 compartment
+(
+)
 ;
 if
 (
@@ -3590,6 +3596,8 @@ cx
 -
 >
 runtime
+(
+)
 ;
 size_t
 thousandsLength
@@ -4048,6 +4056,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 localeCallbacks
@@ -4057,6 +4067,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 localeCallbacks
@@ -4087,6 +4099,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 localeCallbacks
@@ -4417,6 +4431,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 dtoaState
@@ -6210,6 +6226,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 NaNValue
@@ -6223,6 +6241,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 positiveInfinityValue
@@ -6423,6 +6443,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 dtoaState
@@ -6533,6 +6555,8 @@ cx
 -
 >
 compartment
+(
+)
 ;
 int32_t
 i
@@ -6571,6 +6595,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 staticStrings
@@ -6604,6 +6630,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 staticStrings
@@ -6640,6 +6668,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 staticStrings
@@ -6966,6 +6996,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 staticStrings
@@ -6983,6 +7015,8 @@ cx
 -
 >
 compartment
+(
+)
 ;
 if
 (
@@ -8563,6 +8597,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 dtoaState

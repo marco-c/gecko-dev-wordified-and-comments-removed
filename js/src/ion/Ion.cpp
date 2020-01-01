@@ -507,6 +507,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 cx
 (
@@ -518,6 +520,8 @@ cx
 -
 >
 compartment
+(
+)
 )
 temp
 (
@@ -814,6 +818,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 getExecAlloc
@@ -836,6 +842,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 ensureIonCompartmentExists
@@ -882,6 +890,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 jitSupportsFloatingPoint
@@ -1863,6 +1873,8 @@ cx
 -
 >
 compartment
+(
+)
 )
 prev_
 (
@@ -3205,6 +3217,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -6048,6 +6062,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 ionCompartment
@@ -6065,6 +6081,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 workerThreadState
@@ -6078,6 +6096,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 ;
 OffThreadCompilationVector
@@ -6230,6 +6250,8 @@ cx
 -
 >
 runtime
+(
+)
 )
 ;
 AutoFlushCache
@@ -6311,6 +6333,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 gcIncrementalState
@@ -6327,6 +6351,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 profilingScripts
@@ -6337,6 +6363,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 spsProfiler
@@ -6484,6 +6512,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 ensureIonCompartmentExists
@@ -6501,6 +6531,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 ionCompartment
@@ -7187,6 +7219,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 profilingScripts
@@ -7417,6 +7451,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode
@@ -8398,6 +8434,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 ionCompartment
@@ -8550,6 +8588,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 ensureIonCompartmentExists
@@ -8567,6 +8607,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 ionCompartment
@@ -8667,6 +8709,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 ionCompartment
@@ -8864,6 +8908,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 ionCompartment
@@ -8908,6 +8954,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 hasIonReturnOverride
@@ -9305,6 +9353,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 ionCompartment
@@ -9420,6 +9470,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 hasIonReturnOverride
@@ -10740,6 +10792,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 types
@@ -10747,6 +10801,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 defaultFreeOp
@@ -11212,6 +11268,8 @@ cx
 -
 >
 compartment
+(
+)
 script
 )
 ;

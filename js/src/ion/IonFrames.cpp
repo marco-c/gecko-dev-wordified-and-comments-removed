@@ -1820,6 +1820,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode
@@ -2340,6 +2342,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 hasIonReturnOverride
@@ -2350,6 +2354,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 takeIonReturnOverride
@@ -2475,6 +2481,8 @@ cx
 -
 >
 runtime
+(
+)
 -
 >
 defaultFreeOp
@@ -2569,6 +2577,8 @@ cx
 -
 >
 compartment
+(
+)
 -
 >
 debugMode
@@ -5974,6 +5984,8 @@ cx
 -
 >
 runtime
+(
+)
 ;
 IonFrameIterator
 it
