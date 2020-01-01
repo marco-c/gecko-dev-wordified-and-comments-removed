@@ -452,6 +452,10 @@ test_bug504220
 .
 html
 \
+test_consoleAPI
+.
+html
+\
 test_domWindowUtils
 .
 html
