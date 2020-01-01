@@ -161,6 +161,14 @@ for
 aURI
 )
 ;
+historyService
+.
+removeObserver
+(
+historyObserver
+false
+)
+;
 finish
 (
 )
