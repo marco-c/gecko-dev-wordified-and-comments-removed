@@ -520,7 +520,7 @@ nsSVGTextElement
 :
 GetRotate
 (
-nsIDOMSVGAnimatedNumberList
+nsISupports
 *
 *
 aRotate

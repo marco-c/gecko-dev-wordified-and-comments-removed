@@ -120,10 +120,6 @@ nsIDOMSVGAnimatedNumber
 .
 idl
 \
-nsIDOMSVGAnimatedNumberList
-.
-idl
-\
 nsIDOMSVGAnimatedPathData
 .
 idl
@@ -249,10 +245,6 @@ nsIDOMSVGMpathElement
 idl
 \
 nsIDOMSVGNumber
-.
-idl
-\
-nsIDOMSVGNumberList
 .
 idl
 \

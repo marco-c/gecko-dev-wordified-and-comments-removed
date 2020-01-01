@@ -867,10 +867,6 @@ SVGAnimatedNumber
 )
 DOMCI_CLASS
 (
-SVGAnimatedNumberList
-)
-DOMCI_CLASS
-(
 SVGAnimatedRect
 )
 DOMCI_CLASS
@@ -892,10 +888,6 @@ SVGLengthList
 DOMCI_CLASS
 (
 SVGNumber
-)
-DOMCI_CLASS
-(
-SVGNumberList
 )
 DOMCI_CLASS
 (

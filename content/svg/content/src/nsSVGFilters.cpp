@@ -5846,7 +5846,7 @@ nsSVGFEColorMatrixElement
 :
 GetValues
 (
-nsIDOMSVGAnimatedNumberList
+nsISupports
 *
 *
 aValues
@@ -9801,7 +9801,7 @@ nsSVGComponentTransferFunctionElement
 :
 GetTableValues
 (
-nsIDOMSVGAnimatedNumberList
+nsISupports
 *
 *
 aTableValues
@@ -19602,7 +19602,7 @@ nsSVGFEConvolveMatrixElement
 :
 GetKernelMatrix
 (
-nsIDOMSVGAnimatedNumberList
+nsISupports
 *
 *
 aKernelMatrix

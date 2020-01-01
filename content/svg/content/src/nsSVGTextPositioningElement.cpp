@@ -354,7 +354,7 @@ nsSVGTextPositioningElement
 :
 GetRotate
 (
-nsIDOMSVGAnimatedNumberList
+nsISupports
 *
 *
 aRotate

@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsIDOMSVGAnimatedNumberList
-.
-h
-"
-#
-include
-"
 nsSVGElement
 .
 h
@@ -72,7 +65,7 @@ DOMSVGAnimatedNumberList
 MOZ_FINAL
 :
 public
-nsIDOMSVGAnimatedNumberList
+nsISupports
 public
 nsWrapperCache
 {
@@ -87,7 +80,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 DOMSVGAnimatedNumberList
 )
-NS_DECL_NSIDOMSVGANIMATEDNUMBERLIST
 static
 already_AddRefed
 <
@@ -210,6 +202,10 @@ mAttrEnum
 aAttrEnum
 )
 {
+SetIsDOMBinding
+(
+)
+;
 }
 ~
 DOMSVGAnimatedNumberList

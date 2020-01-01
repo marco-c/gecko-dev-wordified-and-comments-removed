@@ -101,9 +101,6 @@ idl
 interface
 nsIDOMSVGAnimatedLengthList
 ;
-interface
-nsIDOMSVGAnimatedNumberList
-;
 [
 scriptable
 uuid
@@ -144,9 +141,12 @@ attribute
 nsIDOMSVGAnimatedLengthList
 dy
 ;
+/
+/
+SVGAnimatedNumberList
 readonly
 attribute
-nsIDOMSVGAnimatedNumberList
+nsISupports
 rotate
 ;
 }
