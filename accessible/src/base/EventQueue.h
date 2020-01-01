@@ -133,10 +133,8 @@ aEvent
 ;
 protected
 :
-nsRefPtr
-<
 DocAccessible
->
+*
 mDocument
 ;
 nsTArray
