@@ -9289,6 +9289,12 @@ _adjustWidth
 (
 )
 ;
+this
+.
+_adjustAcItem
+(
+)
+;
 ]
 ]
 >
