@@ -14136,16 +14136,6 @@ MOZ_OPTIMIZE_FLAGS
 -
 Os
 -
-finline
--
-functions
--
-finline
--
-limit
-=
-50
--
 freorder
 -
 blocks
