@@ -2280,6 +2280,8 @@ _result
 sortingAnnotation
 =
 =
+PlacesUIUtils
+.
 DESCRIPTION_ANNO
 )
 return
@@ -2308,6 +2310,8 @@ _result
 sortingAnnotation
 =
 =
+PlacesUIUtils
+.
 DESCRIPTION_ANNO
 )
 return
@@ -3603,6 +3607,8 @@ if
 aAnno
 =
 =
+PlacesUIUtils
+.
 DESCRIPTION_ANNO
 )
 this
@@ -6092,6 +6098,8 @@ getItemAnnotation
 node
 .
 itemId
+PlacesUIUtils
+.
 DESCRIPTION_ANNO
 )
 ;
@@ -6727,6 +6735,8 @@ SORT_BY_ANNOTATION_ASCENDING
 oldSortingAnnotation
 =
 =
+PlacesUIUtils
+.
 DESCRIPTION_ANNO
 )
 {
@@ -6738,6 +6748,8 @@ SORT_BY_ANNOTATION_DESCENDING
 ;
 newSortingAnnotation
 =
+PlacesUIUtils
+.
 DESCRIPTION_ANNO
 ;
 }
@@ -6758,6 +6770,8 @@ SORT_BY_ANNOTATION_DESCENDING
 oldSortingAnnotation
 =
 =
+PlacesUIUtils
+.
 DESCRIPTION_ANNO
 )
 newSort
@@ -6776,6 +6790,8 @@ SORT_BY_ANNOTATION_ASCENDING
 ;
 newSortingAnnotation
 =
+PlacesUIUtils
+.
 DESCRIPTION_ANNO
 ;
 }

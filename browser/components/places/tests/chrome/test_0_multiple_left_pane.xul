@@ -801,6 +801,8 @@ context
 ;
 ok
 (
+PlacesUIUtils
+.
 ORGANIZER_LEFTPANE_VERSION
 >
 0
@@ -820,6 +822,8 @@ is
 :
 "
 +
+PlacesUIUtils
+.
 ORGANIZER_LEFTPANE_VERSION
 )
 ;
@@ -866,6 +870,8 @@ as
 .
 getItemsWithAnnotation
 (
+PlacesUIUtils
+.
 ORGANIZER_FOLDER_ANNO
 )
 ;
@@ -900,7 +906,11 @@ as
 setItemAnnotation
 (
 fakeLeftPaneRoot
+PlacesUIUtils
+.
 ORGANIZER_FOLDER_ANNO
+PlacesUIUtils
+.
 ORGANIZER_LEFTPANE_VERSION
 0
 as
@@ -966,6 +976,8 @@ as
 .
 getItemsWithAnnotation
 (
+PlacesUIUtils
+.
 ORGANIZER_FOLDER_ANNO
 )
 ;

@@ -1013,6 +1013,8 @@ itemHasAnnotation
 this
 .
 _itemId
+PlacesUIUtils
+.
 LOAD_IN_SIDEBAR_ANNO
 )
 ;
@@ -1093,6 +1095,8 @@ itemHasAnnotation
 this
 .
 _itemId
+PlacesUIUtils
+.
 DESCRIPTION_ANNO
 )
 )
@@ -1110,6 +1114,8 @@ getItemAnnotation
 this
 .
 _itemId
+PlacesUIUtils
+.
 DESCRIPTION_ANNO
 )
 ;

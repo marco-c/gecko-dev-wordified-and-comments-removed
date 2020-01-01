@@ -847,6 +847,8 @@ itemHasAnnotation
 this
 .
 _itemId
+PlacesUIUtils
+.
 LOAD_IN_SIDEBAR_ANNO
 )
 ;
@@ -6271,6 +6273,8 @@ _itemId
 break
 ;
 case
+PlacesUIUtils
+.
 DESCRIPTION_ANNO
 :
 this
@@ -6293,6 +6297,8 @@ _itemId
 break
 ;
 case
+PlacesUIUtils
+.
 LOAD_IN_SIDEBAR_ANNO
 :
 this
@@ -6315,6 +6321,8 @@ itemHasAnnotation
 this
 .
 _itemId
+PlacesUIUtils
+.
 LOAD_IN_SIDEBAR_ANNO
 )
 ;

@@ -467,11 +467,11 @@ test_bug427633_no_newfolder_if_noip
 .
 xul
 \
-test_multiple_left_pane
+test_0_multiple_left_pane
 .
 xul
 \
-test_bug510634
+test_0_bug510634
 .
 xul
 \

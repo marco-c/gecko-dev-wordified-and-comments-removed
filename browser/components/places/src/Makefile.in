@@ -442,6 +442,16 @@ js
 (
 NULL
 )
+EXTRA_PP_JS_MODULES
+=
+\
+PlacesUIUtils
+.
+jsm
+\
+(
+NULL
+)
 include
 (
 topsrcdir
