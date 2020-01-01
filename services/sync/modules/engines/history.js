@@ -1670,6 +1670,14 @@ _upScore
 )
 ;
 }
+onDeleteVisits
+:
+function
+onDeleteVisits
+(
+)
+{
+}
 onPageExpired
 :
 function
