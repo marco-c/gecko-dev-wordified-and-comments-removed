@@ -6298,3 +6298,17 @@ barrier
 )
 ;
 }
+int
+js
+:
+:
+ion
+:
+:
+LabelBase
+:
+:
+id_count
+=
+0
+;

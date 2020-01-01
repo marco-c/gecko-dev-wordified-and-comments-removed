@@ -12,6 +12,13 @@ IonSpewer
 .
 h
 "
+#
+include
+"
+LIR
+.
+h
+"
 using
 namespace
 js
