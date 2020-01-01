@@ -2270,6 +2270,17 @@ topsrcdir
 )
 /
 build
+-
+I
+(
+DEPTH
+)
+/
+_tests
+/
+mozbase
+/
+mozinfo
 \
 (
 topsrcdir
