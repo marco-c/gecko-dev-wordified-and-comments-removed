@@ -1463,13 +1463,6 @@ STEREO_MODE_MONO
 ;
 }
 }
-mInfo
-.
-mDataOffset
-=
--
-1
-;
 }
 else
 if

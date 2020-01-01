@@ -7251,13 +7251,6 @@ v
 =
 nsnull
 ;
-PRInt64
-dataOffset
-=
-mInfo
-.
-mDataOffset
-;
 {
 MonitorAutoExit
 exitMon
@@ -7277,7 +7270,7 @@ mReader
 >
 FindStartTime
 (
-dataOffset
+0
 startTime
 )
 ;

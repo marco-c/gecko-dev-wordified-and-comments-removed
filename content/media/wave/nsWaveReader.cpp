@@ -569,13 +569,6 @@ mAudioChannels
 =
 mChannels
 ;
-mInfo
-.
-mDataOffset
-=
--
-1
-;
 *
 aInfo
 =

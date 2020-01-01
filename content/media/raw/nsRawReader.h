@@ -222,14 +222,6 @@ aCurrentTime
 )
 ;
 virtual
-PRInt64
-FindEndTime
-(
-PRInt64
-aEndOffset
-)
-;
-virtual
 nsresult
 GetBuffered
 (

@@ -160,9 +160,6 @@ mPicture
 nsIntSize
 mDisplay
 ;
-PRInt64
-mDataOffset
-;
 mozilla
 :
 :
@@ -1465,9 +1462,6 @@ mMonitor
 nsBuiltinDecoder
 *
 mDecoder
-;
-PRInt64
-mDataOffset
 ;
 nsVideoInfo
 mInfo
