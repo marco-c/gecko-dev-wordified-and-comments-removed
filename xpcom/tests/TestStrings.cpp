@@ -5803,7 +5803,8 @@ foobar
 "
 )
 )
-;
+&
+&
 test_strip_chars_helper
 (
 NS_LITERAL_STRING
