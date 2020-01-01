@@ -247,7 +247,8 @@ container
 left
 =
 "
-0
+-
+16
 "
 top
 =
@@ -752,6 +753,13 @@ content
 xul
 :
 vbox
+class
+=
+"
+tabs
+-
+list
+"
 anonid
 =
 "
@@ -770,6 +778,13 @@ flex
 xul
 :
 box
+class
+=
+"
+tabs
+-
+list
+"
 anonid
 =
 "
