@@ -11545,6 +11545,9 @@ Fill
 (
 )
 ;
+return
+true
+;
 }
 void
 PluginInstanceChild
