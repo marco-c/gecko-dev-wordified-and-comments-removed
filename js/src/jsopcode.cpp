@@ -234,6 +234,10 @@ jsautooplen
 .
 h
 "
+using
+namespace
+js
+;
 JS_STATIC_ASSERT
 (
 sizeof
@@ -1403,7 +1407,7 @@ clasp
 js_RegExpClass
 )
 {
-JSAutoTempValueRooter
+AutoValueRooter
 tvr
 (
 cx

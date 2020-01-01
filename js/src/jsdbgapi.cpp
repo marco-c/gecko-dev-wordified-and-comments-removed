@@ -7012,7 +7012,7 @@ sprop
 id
 )
 ;
-JSBool
+bool
 wasThrowing
 =
 cx
@@ -7020,7 +7020,7 @@ cx
 >
 throwing
 ;
-JSAutoTempValueRooter
+AutoValueRooter
 lastException
 (
 cx
