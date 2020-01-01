@@ -891,7 +891,7 @@ const
 char
 gOmxTypes
 [
-6
+5
 ]
 [
 16
