@@ -17,16 +17,6 @@ bak
 "
 ;
 const
-CHECK_TIMEOUT_MILLI
-=
-1000
-;
-const
-MAX_TIMEOUT_RUNS
-=
-300
-;
-const
 APP_TIMER_TIMEOUT
 =
 120000
@@ -989,7 +979,7 @@ state
 else
 do_timeout
 (
-CHECK_TIMEOUT_MILLI
+TEST_CHECK_TIMEOUT
 checkUpdateApplied
 )
 ;
@@ -1110,7 +1100,7 @@ created
 else
 do_timeout
 (
-CHECK_TIMEOUT_MILLI
+TEST_CHECK_TIMEOUT
 checkUpdateApplied
 )
 ;
@@ -1676,7 +1666,7 @@ exists
 ;
 do_timeout
 (
-CHECK_TIMEOUT_MILLI
+TEST_CHECK_TIMEOUT
 switchApp
 )
 ;
@@ -1740,7 +1730,7 @@ status
 else
 do_timeout
 (
-CHECK_TIMEOUT_MILLI
+TEST_CHECK_TIMEOUT
 checkUpdateFinished
 )
 ;
@@ -1803,7 +1793,7 @@ unlocked
 else
 do_timeout
 (
-CHECK_TIMEOUT_MILLI
+TEST_CHECK_TIMEOUT
 checkUpdateFinished
 )
 ;

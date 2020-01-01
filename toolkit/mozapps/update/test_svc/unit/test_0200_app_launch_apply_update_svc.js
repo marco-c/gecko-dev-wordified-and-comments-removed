@@ -16,16 +16,6 @@ ini
 bak
 "
 ;
-const
-CHECK_TIMEOUT_MILLI
-=
-1000
-;
-const
-MAX_TIMEOUT_RUNS
-=
-300
-;
 let
 gTimeoutRuns
 =
@@ -945,7 +935,7 @@ path
 else
 do_timeout
 (
-CHECK_TIMEOUT_MILLI
+TEST_CHECK_TIMEOUT
 checkUpdateFinished
 )
 ;

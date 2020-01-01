@@ -16,16 +16,6 @@ ini
 bak
 "
 ;
-const
-CHECK_TIMEOUT_MILLI
-=
-1000
-;
-const
-MAX_TIMEOUT_RUNS
-=
-300
-;
 let
 gActiveUpdate
 ;
@@ -809,7 +799,7 @@ finish
 else
 do_timeout
 (
-CHECK_TIMEOUT_MILLI
+TEST_CHECK_TIMEOUT
 checkUpdateApplied
 )
 ;
@@ -818,7 +808,7 @@ return
 }
 do_timeout
 (
-CHECK_TIMEOUT_MILLI
+TEST_CHECK_TIMEOUT
 finishTest
 )
 ;

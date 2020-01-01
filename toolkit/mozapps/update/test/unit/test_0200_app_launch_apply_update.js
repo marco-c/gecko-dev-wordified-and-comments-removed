@@ -17,16 +17,6 @@ bak
 "
 ;
 const
-CHECK_TIMEOUT_MILLI
-=
-1000
-;
-const
-MAX_TIMEOUT_RUNS
-=
-300
-;
-const
 APP_TIMER_TIMEOUT
 =
 120000
@@ -1073,7 +1063,7 @@ path
 else
 do_timeout
 (
-CHECK_TIMEOUT_MILLI
+TEST_CHECK_TIMEOUT
 checkUpdateFinished
 )
 ;
@@ -1138,7 +1128,7 @@ status
 else
 do_timeout
 (
-CHECK_TIMEOUT_MILLI
+TEST_CHECK_TIMEOUT
 checkUpdateFinished
 )
 ;
@@ -1241,7 +1231,7 @@ path
 else
 do_timeout
 (
-CHECK_TIMEOUT_MILLI
+TEST_CHECK_TIMEOUT
 checkUpdateFinished
 )
 ;
@@ -1392,7 +1382,7 @@ path
 else
 do_timeout
 (
-CHECK_TIMEOUT_MILLI
+TEST_CHECK_TIMEOUT
 restoreLogFile
 )
 ;
@@ -1720,7 +1710,7 @@ path
 else
 do_timeout
 (
-CHECK_TIMEOUT_MILLI
+TEST_CHECK_TIMEOUT
 checkLogRenameFinished
 )
 ;
