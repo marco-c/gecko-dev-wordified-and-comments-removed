@@ -539,7 +539,7 @@ p
 )
 #
 define
-PCVCAP_PCTYPE
+PCVCAP_SHAPE
 (
 t
 )
@@ -660,6 +660,15 @@ uint32
 protopchits
 ;
 uint32
+initests
+;
+uint32
+inipchits
+;
+uint32
+inipcmisses
+;
+uint32
 settests
 ;
 uint32
@@ -670,6 +679,9 @@ setpchits
 ;
 uint32
 setpcmisses
+;
+uint32
+slotchanges
 ;
 uint32
 setmisses
@@ -1194,7 +1206,7 @@ pobj
 \
 if
 (
-PCVCAP_PCTYPE
+PCVCAP_SHAPE
 (
 entry
 -

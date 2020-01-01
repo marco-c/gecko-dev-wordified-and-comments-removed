@@ -360,7 +360,7 @@ newval
 )
 {
 \
-SCOPE_GENERATE_PCTYPE
+SCOPE_MAKE_UNIQUE_SHAPE
 (
 cx
 scope
