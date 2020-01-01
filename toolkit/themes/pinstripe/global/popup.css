@@ -27,7 +27,6 @@ xul
 )
 ;
 menupopup
-popup
 panel
 {
 -
@@ -49,11 +48,6 @@ menupopup
 menu
 >
 menupopup
-popup
->
-menu
->
-menupopup
 {
 margin
 -
@@ -70,13 +64,6 @@ internal
 -
 box
 {
--
-moz
--
-appearance
-:
-none
-;
 padding
 :
 4px
