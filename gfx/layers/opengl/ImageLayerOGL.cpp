@@ -2221,6 +2221,16 @@ gl
 )
 -
 >
+fActiveTexture
+(
+LOCAL_GL_TEXTURE0
+)
+;
+gl
+(
+)
+-
+>
 fBindTexture
 (
 LOCAL_GL_TEXTURE_RECTANGLE_ARB
