@@ -813,12 +813,6 @@ res
 =
 NS_OK
 ;
-PRUnichar
-*
-unichars
-*
-start
-;
 if
 (
 mUnicodeDecoder
@@ -863,8 +857,8 @@ buffer
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-start
-=
+PRUnichar
+*
 unichars
 =
 buffer
