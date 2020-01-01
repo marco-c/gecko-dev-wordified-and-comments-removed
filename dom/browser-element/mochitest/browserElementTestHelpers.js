@@ -601,6 +601,16 @@ disabled
 "
 false
 ]
+[
+"
+security
+.
+mixed_content
+.
+block_active_content
+"
+false
+]
 ]
 }
 browserElementTestHelpers
