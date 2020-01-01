@@ -380,7 +380,7 @@ document
 aNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

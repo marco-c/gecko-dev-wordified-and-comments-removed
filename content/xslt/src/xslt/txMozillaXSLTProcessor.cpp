@@ -2282,7 +2282,7 @@ mStylesheetDocument
 styleNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

@@ -13865,7 +13865,7 @@ doc
 aNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -14203,7 +14203,7 @@ NS_PRECONDITION
 aChild
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 =
@@ -14792,7 +14792,7 @@ document
 aContextNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -15887,7 +15887,7 @@ doc
 aContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -16628,7 +16628,7 @@ mDoc
 mContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -20478,7 +20478,7 @@ ownerDoc
 aNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -22485,7 +22485,7 @@ doc
 aTarget
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -23281,7 +23281,7 @@ mCaseTreatment
 aRootNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 &
@@ -23289,7 +23289,7 @@ GetOwnerDoc
 aRootNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 -

@@ -1620,7 +1620,7 @@ document
 aContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

@@ -3848,7 +3848,7 @@ document
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -4036,7 +4036,7 @@ document
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

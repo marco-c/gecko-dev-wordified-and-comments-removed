@@ -451,7 +451,7 @@ DispatchTrustedEvent
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 content

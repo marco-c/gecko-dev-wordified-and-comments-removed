@@ -5896,7 +5896,7 @@ doc
 node
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

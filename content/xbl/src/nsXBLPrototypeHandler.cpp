@@ -1198,7 +1198,7 @@ boundDocument
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1706,7 +1706,7 @@ doc
 elt
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -4415,7 +4415,7 @@ doc
 aKeyElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

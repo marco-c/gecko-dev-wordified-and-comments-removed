@@ -11221,7 +11221,7 @@ doc
 aTargetElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

@@ -8398,7 +8398,7 @@ doc
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

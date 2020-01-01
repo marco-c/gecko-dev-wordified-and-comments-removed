@@ -317,7 +317,7 @@ skewY
 {
 ReportAttributeParseFailure
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 aAttribute

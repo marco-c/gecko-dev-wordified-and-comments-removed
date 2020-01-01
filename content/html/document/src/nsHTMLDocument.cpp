@@ -9895,7 +9895,7 @@ mElement
 mElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 =

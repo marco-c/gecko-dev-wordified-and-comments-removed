@@ -640,7 +640,7 @@ doc
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

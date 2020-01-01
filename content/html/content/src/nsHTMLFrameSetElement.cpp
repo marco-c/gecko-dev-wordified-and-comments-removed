@@ -980,7 +980,7 @@ isInQuirks
 =
 InNavQuirksMode
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -1421,7 +1421,7 @@ nsPIDOMWindow
 *
 win
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 -
@@ -1509,7 +1509,7 @@ nsPIDOMWindow
 *
 win
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 -
@@ -1614,7 +1614,7 @@ nsPIDOMWindow
 *
 win
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 -
@@ -1690,7 +1690,7 @@ nsPIDOMWindow
 *
 win
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 -

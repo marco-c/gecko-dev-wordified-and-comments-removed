@@ -704,7 +704,7 @@ DispatchTrustedEvent
 mElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 mSource
@@ -7635,7 +7635,7 @@ nsIDocument
 >
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -9139,7 +9139,7 @@ nsContentUtils
 :
 PersistentLayerManagerForDocument
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -9216,7 +9216,7 @@ domDoc
 =
 do_QueryInterface
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -9390,7 +9390,7 @@ nsContentUtils
 :
 DispatchTrustedEvent
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 static_cast
@@ -9662,7 +9662,7 @@ nsIDocument
 *
 ownerDoc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -9785,7 +9785,7 @@ nsIDocument
 *
 ownerDoc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -10390,7 +10390,7 @@ aDelay
 {
 mLoadBlockedDoc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -10512,7 +10512,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -10563,7 +10563,7 @@ if
 aDest
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 -
@@ -10849,7 +10849,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

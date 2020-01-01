@@ -596,7 +596,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1043,7 +1043,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1094,7 +1094,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1160,7 +1160,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1203,7 +1203,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1247,7 +1247,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1295,7 +1295,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1352,7 +1352,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1419,7 +1419,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1465,7 +1465,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1518,7 +1518,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1569,7 +1569,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1622,7 +1622,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1671,7 +1671,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1722,7 +1722,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1773,7 +1773,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1825,7 +1825,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1878,7 +1878,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1928,7 +1928,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1979,7 +1979,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -2106,7 +2106,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -2156,7 +2156,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -2266,7 +2266,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -2314,7 +2314,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -2452,7 +2452,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -2499,7 +2499,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -2543,7 +2543,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -2589,7 +2589,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -3065,7 +3065,7 @@ DidMutate
 mozAutoDocUpdate
 updateBatch
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 UPDATE_CONTENT_MODEL

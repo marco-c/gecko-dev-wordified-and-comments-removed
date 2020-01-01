@@ -1012,7 +1012,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1197,7 +1197,7 @@ rv
 {
 ReportAttributeParseFailure
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 aAttribute
@@ -1656,7 +1656,7 @@ getter_AddRefs
 targetURI
 )
 aHrefStr
-GetOwnerDoc
+OwnerDoc
 (
 )
 baseURI

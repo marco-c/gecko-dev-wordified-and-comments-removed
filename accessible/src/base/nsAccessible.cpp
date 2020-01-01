@@ -9259,7 +9259,7 @@ do_QueryInterface
 mContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -12065,7 +12065,7 @@ document
 mContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -12796,7 +12796,7 @@ DOMDoc
 mContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -13302,7 +13302,7 @@ do_QueryInterface
 aStartNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )

@@ -2638,7 +2638,7 @@ doc
 thisContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -3960,7 +3960,7 @@ doc
 thisContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -4620,7 +4620,7 @@ doc
 thisContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -4966,7 +4966,7 @@ doc
 thisContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -7570,7 +7570,7 @@ codebase
 thisContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 baseURI

@@ -1717,12 +1717,12 @@ usemap
 ;
 if
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 &
 &
-GetOwnerDoc
+OwnerDoc
 (
 )
 -
@@ -2461,7 +2461,7 @@ if
 aDest
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 -

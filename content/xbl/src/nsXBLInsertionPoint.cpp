@@ -69,7 +69,7 @@ UninstallAnonymousContent
 mDefaultContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 mDefaultContent
@@ -112,7 +112,7 @@ tmp
 mDefaultContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 tmp
@@ -278,7 +278,7 @@ UninstallAnonymousContent
 mDefaultContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 mDefaultContent

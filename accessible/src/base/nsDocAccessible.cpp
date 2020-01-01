@@ -4535,7 +4535,7 @@ DOMDoc
 aElm
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

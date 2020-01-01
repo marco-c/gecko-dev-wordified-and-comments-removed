@@ -3043,7 +3043,7 @@ doc
 aNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

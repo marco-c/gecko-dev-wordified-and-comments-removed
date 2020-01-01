@@ -2756,7 +2756,7 @@ NewURIWithDocumentCharset
 (
 aURI
 hrefStr
-GetOwnerDoc
+OwnerDoc
 (
 )
 baseURI
@@ -2889,7 +2889,7 @@ nsIDocument
 *
 ownerDoc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

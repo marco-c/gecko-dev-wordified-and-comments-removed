@@ -8869,7 +8869,7 @@ frame
 frame
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -8881,7 +8881,7 @@ parentWindow
 frame
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 -
@@ -39963,7 +39963,7 @@ mDoc
 frame
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 |
@@ -40456,7 +40456,7 @@ mDoc
 frame
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 |

@@ -5461,7 +5461,7 @@ mFocusedContent
 mFocusedContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 !
@@ -5469,7 +5469,7 @@ GetOwnerDoc
 aNewContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )

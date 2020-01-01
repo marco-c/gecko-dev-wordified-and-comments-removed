@@ -434,7 +434,7 @@ mDocument
 mCurrentNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

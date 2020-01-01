@@ -2811,7 +2811,7 @@ doc
 aElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

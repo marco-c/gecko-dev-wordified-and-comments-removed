@@ -3618,7 +3618,7 @@ doc
 aForm
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

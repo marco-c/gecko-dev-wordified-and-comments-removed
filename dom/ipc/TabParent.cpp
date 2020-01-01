@@ -2444,7 +2444,7 @@ document
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -2719,7 +2719,7 @@ do_QueryInterface
 frame
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 -
@@ -2902,7 +2902,7 @@ do_QueryInterface
 frame
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 -
@@ -3246,7 +3246,7 @@ DispatchTrustedEvent
 frame
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 frame

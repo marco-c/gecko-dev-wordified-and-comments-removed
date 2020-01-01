@@ -160,7 +160,7 @@ mDocument
 mTextParent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

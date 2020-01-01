@@ -3606,7 +3606,7 @@ doc
 aBoundElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

@@ -1598,7 +1598,7 @@ doc
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -2253,7 +2253,7 @@ doc
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -43494,7 +43494,7 @@ refererDoc
 aContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

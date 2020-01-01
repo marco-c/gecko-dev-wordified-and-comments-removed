@@ -2466,7 +2466,7 @@ aNode
 mNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

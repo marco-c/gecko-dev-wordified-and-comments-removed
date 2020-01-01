@@ -2950,7 +2950,7 @@ doc
 mContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -6629,7 +6629,7 @@ LayerManagerForDocument
 mContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 &

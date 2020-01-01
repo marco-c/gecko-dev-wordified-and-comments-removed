@@ -442,7 +442,7 @@ GetContent
 )
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

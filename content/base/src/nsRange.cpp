@@ -4770,7 +4770,7 @@ do_QueryInterface
 mStartParent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -4859,7 +4859,7 @@ mRoot
 mRoot
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 :
@@ -6277,7 +6277,7 @@ do_QueryInterface
 mStartParent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -9312,7 +9312,7 @@ doc
 mStartParent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

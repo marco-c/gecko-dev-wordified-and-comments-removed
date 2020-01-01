@@ -4815,7 +4815,7 @@ Content
 )
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 aDocShellToHide
@@ -4906,7 +4906,7 @@ Content
 )
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 aDocShellToHide

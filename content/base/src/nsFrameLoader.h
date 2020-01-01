@@ -588,7 +588,7 @@ nsnull
 }
 nsIDocument
 *
-GetOwnerDoc
+OwnerDoc
 (
 )
 const
@@ -599,7 +599,7 @@ mOwnerContent
 mOwnerContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 :

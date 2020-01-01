@@ -544,7 +544,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

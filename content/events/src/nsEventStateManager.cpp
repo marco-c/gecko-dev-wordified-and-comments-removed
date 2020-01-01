@@ -2668,7 +2668,7 @@ GetContent
 )
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 sTargetFrame
@@ -2764,7 +2764,7 @@ GetContent
 )
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 frame
@@ -4020,7 +4020,7 @@ sDragOverContent
 sDragOverContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 =
@@ -6576,7 +6576,7 @@ do_QueryInterface
 aContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -16773,7 +16773,7 @@ aTarget
 aTarget
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 -
@@ -20012,7 +20012,7 @@ sDragOverContent
 sDragOverContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 =
@@ -20020,7 +20020,7 @@ GetOwnerDoc
 aContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 &

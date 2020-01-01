@@ -3385,7 +3385,7 @@ doc
 scriptElem
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -3445,7 +3445,7 @@ DispatchTrustedEvent
 scriptElem
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 scriptElem
@@ -3534,7 +3534,7 @@ DispatchTrustedEvent
 scriptElem
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 scriptElem
@@ -3769,7 +3769,7 @@ ownerDoc
 scriptContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

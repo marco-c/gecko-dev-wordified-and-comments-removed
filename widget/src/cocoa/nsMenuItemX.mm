@@ -1302,7 +1302,7 @@ parentDoc
 mContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

@@ -3022,7 +3022,7 @@ return
 thisContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

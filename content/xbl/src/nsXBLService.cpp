@@ -2391,7 +2391,7 @@ document
 aContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -2832,7 +2832,7 @@ document
 aContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -2944,7 +2944,7 @@ document
 aContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -3682,7 +3682,7 @@ boundDocument
 aBoundElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

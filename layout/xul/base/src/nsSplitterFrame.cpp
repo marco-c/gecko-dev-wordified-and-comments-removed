@@ -2946,7 +2946,7 @@ doc
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

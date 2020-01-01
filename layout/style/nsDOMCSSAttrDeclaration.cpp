@@ -359,7 +359,7 @@ return
 mElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -575,7 +575,7 @@ doc
 mElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

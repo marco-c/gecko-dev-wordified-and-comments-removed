@@ -425,7 +425,7 @@ doc
 aContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

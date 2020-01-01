@@ -248,7 +248,7 @@ GetDocAccessible
 node
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )

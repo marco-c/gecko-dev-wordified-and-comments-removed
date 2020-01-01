@@ -794,7 +794,7 @@ document
 mElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -939,7 +939,7 @@ GetFocusedContent
 )
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 !
@@ -2779,7 +2779,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -3125,7 +3125,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -3468,7 +3468,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -3991,7 +3991,7 @@ nsContentUtils
 :
 IsChromeDoc
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -5224,7 +5224,7 @@ nsIDocument
 *
 document
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -5699,7 +5699,7 @@ nsIDocument
 *
 ownerDoc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -10492,7 +10492,7 @@ getter_AddRefs
 baseAttrURI
 )
 baseAttrValue
-GetOwnerDoc
+OwnerDoc
 (
 )
 baseURI
@@ -10531,7 +10531,7 @@ attr
 GetStringValue
 (
 )
-GetOwnerDoc
+OwnerDoc
 (
 )
 baseURI
@@ -10581,7 +10581,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -12996,7 +12996,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -13067,7 +13067,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -14480,7 +14480,7 @@ doc
 aDest
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -14755,7 +14755,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

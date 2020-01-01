@@ -881,7 +881,7 @@ doc
 aContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1943,7 +1943,7 @@ doc
 aNode
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -2752,7 +2752,7 @@ document
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

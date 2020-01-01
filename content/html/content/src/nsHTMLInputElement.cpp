@@ -974,7 +974,7 @@ doc
 aInput
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1048,7 +1048,7 @@ doc
 mInput
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1908,7 +1908,7 @@ DispatchTrustedEvent
 mInput
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 static_cast
@@ -2935,7 +2935,7 @@ if
 it
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 -
@@ -3016,7 +3016,7 @@ if
 it
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 -
@@ -4761,7 +4761,7 @@ nsContentUtils
 :
 DispatchTrustedEvent
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 static_cast
@@ -5220,7 +5220,7 @@ const
 {
 if
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 -
@@ -8104,7 +8104,7 @@ nsContentUtils
 :
 DispatchTrustedEvent
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 static_cast
@@ -14657,7 +14657,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

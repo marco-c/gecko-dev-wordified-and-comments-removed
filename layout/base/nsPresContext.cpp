@@ -8339,7 +8339,7 @@ MayHavePaintEventListener
 node
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 -

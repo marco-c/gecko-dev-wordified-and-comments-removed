@@ -1020,7 +1020,7 @@ ownerDoc
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

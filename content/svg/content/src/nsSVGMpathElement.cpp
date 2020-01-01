@@ -737,7 +737,7 @@ getter_AddRefs
 targetURI
 )
 aHrefStr
-GetOwnerDoc
+OwnerDoc
 (
 )
 baseURI

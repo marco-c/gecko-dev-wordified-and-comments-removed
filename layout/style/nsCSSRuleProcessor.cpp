@@ -7901,7 +7901,7 @@ aElement
 aElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 -
@@ -11039,7 +11039,7 @@ aData
 mElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 -

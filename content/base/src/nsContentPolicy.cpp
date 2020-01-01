@@ -383,7 +383,7 @@ doc
 node
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

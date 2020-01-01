@@ -864,7 +864,7 @@ GetDocAccessible
 mContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -1725,7 +1725,7 @@ doc
 mContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

@@ -2502,7 +2502,7 @@ rv
 {
 ReportAttributeParseFailure
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 aAttribute
@@ -3672,7 +3672,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -4913,7 +4913,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -5276,7 +5276,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

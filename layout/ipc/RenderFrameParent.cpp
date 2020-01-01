@@ -3425,7 +3425,7 @@ doc
 mFrameLoader
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

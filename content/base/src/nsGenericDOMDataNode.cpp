@@ -367,7 +367,7 @@ ownerDoc
 tmp
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -1446,7 +1446,7 @@ val
 mozAutoSubtreeModified
 subtree
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 this

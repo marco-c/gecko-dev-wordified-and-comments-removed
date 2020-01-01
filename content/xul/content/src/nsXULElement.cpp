@@ -2023,7 +2023,7 @@ nsIDocument
 *
 doc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -2940,7 +2940,7 @@ do_QueryInterface
 mElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -6019,7 +6019,7 @@ REMOVAL
 mozAutoSubtreeModified
 subtree
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 this
@@ -6064,7 +6064,7 @@ xuldoc
 =
 do_QueryInterface
 (
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -7797,7 +7797,7 @@ nsIDocument
 *
 nsDoc
 =
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -8344,7 +8344,7 @@ IsInDoc
 |
 |
 !
-GetOwnerDoc
+OwnerDoc
 (
 )
 -
@@ -8354,7 +8354,7 @@ GetRootElement
 )
 |
 |
-GetOwnerDoc
+OwnerDoc
 (
 )
 -

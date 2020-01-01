@@ -2665,7 +2665,7 @@ ownerDoc
 menuPopup
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;

@@ -712,7 +712,7 @@ doc
 content
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
