@@ -73,6 +73,8 @@ AutoValue
 )
 {
 delete
+[
+]
 static_cast
 <
 char
@@ -215,7 +217,7 @@ Function
 ;
 private
 :
-bool
+JSBool
 Init
 (
 JSContext
@@ -234,7 +236,7 @@ uintN
 aArgLength
 )
 ;
-bool
+JSBool
 Execute
 (
 JSContext

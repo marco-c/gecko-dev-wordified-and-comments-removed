@@ -221,7 +221,7 @@ CTYPESFN_FLAGS
 JS_FS_END
 }
 ;
-bool
+JSBool
 Module
 :
 :
