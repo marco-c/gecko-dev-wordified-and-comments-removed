@@ -9143,10 +9143,15 @@ try
 let
 tabbrowser
 =
-this
+RecentWindow
 .
 getMostRecentBrowserWindow
 (
+{
+private
+:
+false
+}
 )
 .
 gBrowser
