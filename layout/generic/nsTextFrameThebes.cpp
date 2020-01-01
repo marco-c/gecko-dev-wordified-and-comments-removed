@@ -4283,9 +4283,6 @@ bool
 aIsDoubleByte
 )
 {
-uint32_t
-i
-;
 if
 (
 aIsDoubleByte
@@ -4308,6 +4305,7 @@ aText
 ;
 for
 (
+uint32_t
 i
 =
 0
@@ -4358,6 +4356,7 @@ aText
 ;
 for
 (
+uint32_t
 i
 =
 0
@@ -5587,11 +5586,9 @@ foundBoundary
 =
 false
 ;
-int32_t
-i
-;
 for
 (
+int32_t
 i
 =
 line
@@ -5820,11 +5817,9 @@ line
 >
 mFirstChild
 ;
-int32_t
-i
-;
 for
 (
+int32_t
 i
 =
 line
@@ -6097,11 +6092,9 @@ Length
 return
 false
 ;
-uint32_t
-i
-;
 for
 (
+uint32_t
 i
 =
 0
@@ -6503,11 +6496,9 @@ TEXT_HAS_TRAILING_BREAK
 )
 ;
 }
-uint32_t
-i
-;
 for
 (
+uint32_t
 i
 =
 0
@@ -6566,6 +6557,7 @@ Clear
 ;
 for
 (
+uint32_t
 i
 =
 0
@@ -8606,9 +8598,6 @@ kWordBreak_Normal
 break
 ;
 }
-uint32_t
-i
-;
 const
 nsStyleText
 *
@@ -8631,6 +8620,7 @@ nullptr
 ;
 for
 (
+uint32_t
 i
 =
 0
@@ -9526,6 +9516,7 @@ textBreakPointsAfterTransform
 ;
 for
 (
+uint32_t
 i
 =
 0
@@ -9636,6 +9627,7 @@ SetOriginalOffset
 ;
 for
 (
+uint32_t
 i
 =
 0
@@ -10332,9 +10324,6 @@ GetNextBreakBeforeFrame
 nextBreakIndex
 )
 ;
-uint32_t
-i
-;
 const
 nsStyleText
 *
@@ -10344,6 +10333,7 @@ nullptr
 ;
 for
 (
+uint32_t
 i
 =
 0
@@ -10994,11 +10984,9 @@ GetSkipChars
 )
 )
 ;
-uint32_t
-i
-;
 for
 (
+uint32_t
 i
 =
 0
@@ -11628,11 +11616,9 @@ float
 aInflation
 )
 {
-uint32_t
-i
-;
 for
 (
+uint32_t
 i
 =
 0
@@ -12123,11 +12109,11 @@ mWhichTextRun
 for
 (
 uint32_t
-i
+j
 =
 0
 ;
-i
+j
 <
 mBreakSinks
 .
@@ -12137,7 +12123,7 @@ Length
 ;
 +
 +
-i
+j
 )
 {
 NS_ASSERTION
@@ -12147,7 +12133,7 @@ oldTextRun
 =
 mBreakSinks
 [
-i
+j
 ]
 -
 >
@@ -14198,11 +14184,9 @@ NextRun
 )
 )
 {
-int32_t
-i
-;
 for
 (
+int32_t
 i
 =
 0
@@ -14620,9 +14604,6 @@ GetSkippedOffset
 -
 aStart
 ;
-int32_t
-i
-;
 gfxSkipCharsIterator
 iter
 =
@@ -14634,6 +14615,7 @@ GetPos
 ;
 for
 (
+int32_t
 i
 =
 0
@@ -14859,9 +14841,6 @@ NextRun
 )
 )
 {
-int32_t
-i
-;
 gfxSkipCharsIterator
 iter
 =
@@ -14882,6 +14861,7 @@ GetOriginalOffset
 ;
 for
 (
+int32_t
 i
 =
 0
@@ -17041,7 +17021,6 @@ buf
 #
 endif
 uint32_t
-i
 n
 =
 mFrames
@@ -17052,6 +17031,7 @@ Length
 ;
 for
 (
+uint32_t
 i
 =
 0
@@ -27736,9 +27716,6 @@ return
 false
 ;
 }
-int32_t
-i
-;
 allTypes
 &
 =
@@ -27746,6 +27723,7 @@ SelectionTypesWithDecorations
 ;
 for
 (
+int32_t
 i
 =
 nsISelectionController
@@ -30385,11 +30363,9 @@ width
 =
 0
 ;
-uint32_t
-i
-;
 for
 (
+uint32_t
 i
 =
 1
@@ -33455,11 +33431,9 @@ WordBreaker
 (
 )
 ;
-int32_t
-i
-;
 for
 (
+int32_t
 i
 =
 0
@@ -40408,11 +40382,9 @@ justificationStart
 justificationEnd
 )
 ;
-int32_t
-i
-;
 for
 (
+int32_t
 i
 =
 justificationEnd
