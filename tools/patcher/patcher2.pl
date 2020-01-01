@@ -5233,7 +5233,7 @@ appv
 }
 .
 '
-rc
+build
 '
 .
 currentUpdateRcInfo
@@ -5255,7 +5255,8 @@ prettyAppv
 }
 .
 '
-rc
+(
+build
 '
 .
 currentUpdateRcInfo
@@ -5264,6 +5265,10 @@ currentUpdateRcInfo
 {
 channel
 }
+.
+'
+)
+'
 ;
 last
 ;
@@ -5452,6 +5457,8 @@ progressVersion
 ~
 s
 /
+\
+-
 to
 -
 >
@@ -5461,6 +5468,7 @@ appv
 '
 }
 /
+-
 snippetToAppVersion
 /
 ;
@@ -5998,7 +6006,7 @@ appv
 }
 .
 '
-rc
+build
 '
 .
 currentUpdateRcInfo
@@ -6020,7 +6028,8 @@ prettyAppv
 }
 .
 '
-rc
+(
+build
 '
 .
 currentUpdateRcInfo
@@ -6029,6 +6038,10 @@ currentUpdateRcInfo
 {
 channel
 }
+.
+'
+)
+'
 ;
 last
 ;
@@ -7393,7 +7406,7 @@ appv
 }
 .
 '
-rc
+build
 '
 .
 currentReleaseRcInfo
@@ -7415,7 +7428,8 @@ prettyAppv
 }
 .
 '
-rc
+(
+build
 '
 .
 currentReleaseRcInfo
@@ -7424,6 +7438,10 @@ currentReleaseRcInfo
 {
 channel
 }
+.
+'
+)
+'
 ;
 last
 ;
@@ -9166,7 +9184,7 @@ appv
 }
 .
 '
-rc
+build
 '
 .
 currentUpdateRcInfo
@@ -9188,7 +9206,8 @@ prettyAppv
 }
 .
 '
-rc
+(
+build
 '
 .
 currentUpdateRcInfo
@@ -9197,6 +9216,10 @@ currentUpdateRcInfo
 {
 channel
 }
+.
+'
+)
+'
 ;
 serveCompleteUpdateToRcs
 =
@@ -9379,6 +9402,8 @@ progressVersion
 ~
 s
 /
+\
+-
 to
 -
 >
@@ -9388,6 +9413,7 @@ appv
 '
 }
 /
+-
 snippetToAppVersion
 /
 ;
@@ -10049,7 +10075,7 @@ appv
 }
 .
 '
-rc
+build
 '
 .
 currentUpdateRcInfo
@@ -10071,7 +10097,8 @@ prettyAppv
 }
 .
 '
-rc
+(
+build
 '
 .
 currentUpdateRcInfo
@@ -10080,6 +10107,10 @@ currentUpdateRcInfo
 {
 channel
 }
+.
+'
+)
+'
 ;
 last
 ;
