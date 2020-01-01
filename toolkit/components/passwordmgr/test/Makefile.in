@@ -502,6 +502,10 @@ test_bug_391514
 .
 html
 \
+test_bug_427033
+.
+html
+\
 test_prompt
 .
 html
