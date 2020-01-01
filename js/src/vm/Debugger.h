@@ -714,6 +714,9 @@ const
 bool
 hasAnyLiveHooks
 (
+JSContext
+*
+cx
 )
 const
 ;
@@ -1332,6 +1335,17 @@ return
 !
 !
 trapHandler
+;
+}
+JSObject
+*
+getScriptObject
+(
+)
+const
+{
+return
+scriptObject
 ;
 }
 bool

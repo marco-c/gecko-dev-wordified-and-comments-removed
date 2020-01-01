@@ -1817,7 +1817,7 @@ script
 )
 ;
 bool
-markBreakpointsIteratively
+markTrapClosuresIteratively
 (
 JSTracer
 *
