@@ -1178,10 +1178,6 @@ browser_overLinkInLocationBar
 .
 js
 \
-browser_overLinkInLocationBar
-.
-html
-\
 (
 NULL
 )
