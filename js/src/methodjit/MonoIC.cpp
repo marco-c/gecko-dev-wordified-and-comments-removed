@@ -4271,7 +4271,7 @@ JSReturnReg_Type
 ;
 masm
 .
-move
+storePtr
 (
 JSReturnReg_Type
 rval
