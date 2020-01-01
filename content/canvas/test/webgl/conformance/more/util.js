@@ -8315,7 +8315,7 @@ r
 testFailed
 (
 "
-assertThrowNoGError
+assertThrowNoGLError
 :
 should
 have
@@ -8344,7 +8344,7 @@ undefined
 testFailed
 (
 "
-assertThrowNoGError
+assertThrowNoGLError
 :
 should
 be
@@ -8369,10 +8369,16 @@ return
 false
 ;
 }
-else
-{
 }
-}
+testPassed
+(
+"
+assertThrowNoGLError
+"
+name
+f
+)
+;
 return
 true
 ;
