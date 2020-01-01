@@ -420,6 +420,11 @@ nsIURI
 aURI
 )
 ;
+void
+NoSupportedMediaError
+(
+)
+;
 nsRefPtr
 <
 nsMediaDecoder
