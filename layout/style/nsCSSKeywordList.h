@@ -1696,6 +1696,13 @@ forwards
 )
 CSS_KEY
 (
+full
+-
+width
+full_width
+)
+CSS_KEY
+(
 georgian
 georgian
 )
