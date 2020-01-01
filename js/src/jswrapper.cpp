@@ -1199,7 +1199,7 @@ bp
 *
 bp
 =
-true
+false
 ;
 const
 jsid
@@ -1209,6 +1209,8 @@ JSID_VOID
 ;
 JSBool
 b
+=
+JS_FALSE
 ;
 GET
 (
