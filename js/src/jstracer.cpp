@@ -4730,12 +4730,6 @@ payload
 (
 )
 ;
-exit
-.
-numMapEntries
-=
-slots
-;
 return
 &
 exit
