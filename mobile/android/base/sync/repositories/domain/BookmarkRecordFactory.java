@@ -60,7 +60,7 @@ BookmarkRecord
 ;
 r
 .
-initFromPayload
+initFromEnvelope
 (
 (
 CryptoRecord

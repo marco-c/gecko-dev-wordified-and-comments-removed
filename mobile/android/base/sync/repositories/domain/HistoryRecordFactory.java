@@ -60,7 +60,7 @@ HistoryRecord
 ;
 r
 .
-initFromPayload
+initFromEnvelope
 (
 (
 CryptoRecord
