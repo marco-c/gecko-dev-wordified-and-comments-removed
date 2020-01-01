@@ -25,6 +25,12 @@ defined
 (
 SOLARIS
 )
+|
+|
+defined
+(
+OS2
+)
 typedef
 off_t
 oggz_off_t
