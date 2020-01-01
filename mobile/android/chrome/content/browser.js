@@ -40744,6 +40744,11 @@ getTabForId
 tabId
 )
 ;
+if
+(
+tab
+)
+{
 let
 article
 =
@@ -40782,9 +40787,10 @@ callback
 article
 )
 ;
+return
+;
 }
-else
-{
+}
 this
 .
 parseDocumentFromURL
@@ -40793,7 +40799,6 @@ url
 callback
 )
 ;
-}
 }
 parseDocumentFromTab
 :
