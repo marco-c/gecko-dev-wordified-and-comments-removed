@@ -348,8 +348,6 @@ nsDOMMediaStream
 :
 CreateTrackUnionStream
 (
-uint32_t
-aHintContents
 )
 {
 nsRefPtr
@@ -361,14 +359,6 @@ stream
 new
 nsDOMMediaStream
 (
-)
-;
-stream
--
->
-SetHintContents
-(
-aHintContents
 )
 ;
 MediaStreamGraph
@@ -412,8 +402,6 @@ nsDOMLocalMediaStream
 :
 CreateTrackUnionStream
 (
-uint32_t
-aHintContents
 )
 {
 nsRefPtr
@@ -425,14 +413,6 @@ stream
 new
 nsDOMLocalMediaStream
 (
-)
-;
-stream
--
->
-SetHintContents
-(
-aHintContents
 )
 ;
 MediaStreamGraph
