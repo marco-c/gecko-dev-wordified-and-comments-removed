@@ -469,6 +469,11 @@ SurfaceDescriptor
 freeList
 )
 ;
+void
+clearRenderingStateBuffersLocked
+(
+)
+;
 private
 :
 void
@@ -611,6 +616,9 @@ NUM_BUFFER_SLOTS
 mutable
 Condition
 mDequeueCondition
+;
+bool
+mAbandoned
 ;
 int64_t
 mTimestamp
