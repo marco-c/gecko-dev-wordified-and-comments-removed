@@ -1249,6 +1249,11 @@ platformBuildID
 ai
 .
 platformBuildID
+locale
+:
+getLocale
+(
+)
 }
 ;
 let
