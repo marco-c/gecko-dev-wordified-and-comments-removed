@@ -7977,12 +7977,6 @@ cg
 >
 scopeChain
 ;
-JS_LOCK_OBJ
-(
-cx
-obj
-)
-;
 const
 Shape
 *
@@ -8050,7 +8044,7 @@ constp
 obj
 -
 >
-lockedGetSlot
+getSlot
 (
 shape
 -
@@ -8060,12 +8054,6 @@ slot
 ;
 }
 }
-JS_UNLOCK_OBJ
-(
-cx
-obj
-)
-;
 if
 (
 shape

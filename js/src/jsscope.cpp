@@ -5663,7 +5663,7 @@ Value
 &
 prev
 =
-lockedGetSlot
+nativeGetSlot
 (
 shape
 .
