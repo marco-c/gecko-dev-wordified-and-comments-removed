@@ -512,9 +512,6 @@ if
 mDeviceName
 )
 {
-nsCRT
-:
-:
 free
 (
 mDeviceName
@@ -526,9 +523,6 @@ if
 mDriverName
 )
 {
-nsCRT
-:
-:
 free
 (
 mDriverName

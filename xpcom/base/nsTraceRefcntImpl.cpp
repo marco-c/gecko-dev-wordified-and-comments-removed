@@ -766,9 +766,6 @@ flag
 HT_FREE_ENTRY
 )
 {
-nsCRT
-:
-:
 free
 (
 const_cast
@@ -4260,9 +4257,6 @@ cm
 PL_HashTableAdd
 (
 gTypesToLog
-nsCRT
-:
-:
 strdup
 (
 cp

@@ -507,9 +507,6 @@ to
 str
 )
 ;
-nsCRT
-:
-:
 free
 (
 str
@@ -571,9 +568,6 @@ n
 str
 )
 ;
-nsCRT
-:
-:
 free
 (
 str
@@ -705,9 +699,6 @@ n
 str
 )
 ;
-nsCRT
-:
-:
 free
 (
 str
@@ -815,9 +806,6 @@ str
 aStatus
 )
 ;
-nsCRT
-:
-:
 free
 (
 str

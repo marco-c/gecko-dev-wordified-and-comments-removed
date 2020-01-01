@@ -512,9 +512,6 @@ rv
 NS_ERROR_FAILURE
 ;
 }
-nsCRT
-:
-:
 free
 (
 (
@@ -1222,9 +1219,6 @@ if
 (
 certDER
 )
-nsCRT
-:
-:
 free
 (
 (
