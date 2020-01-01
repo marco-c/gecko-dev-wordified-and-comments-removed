@@ -303,6 +303,12 @@ false
 }
 if
 (
+cx
+-
+>
+methodJitEnabled
+&
+&
 !
 fun
 -
