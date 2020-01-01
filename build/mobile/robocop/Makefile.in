@@ -551,6 +551,14 @@ robocop_blank_03
 html
 \
 (
+TESTPATH
+)
+/
+robocop_boxes
+.
+html
+\
+(
 NULL
 )
 _ROBOCOP_TOOLS
