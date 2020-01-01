@@ -234,9 +234,9 @@ fscanf
 f
 "
 %
-lu
+zu
 %
-lu
+zu
 "
 &
 fields
