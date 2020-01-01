@@ -8,6 +8,15 @@ dom_plugins_PluginThreadChild_h
 #
 include
 "
+base
+/
+basictypes
+.
+h
+"
+#
+include
+"
 chrome
 /
 common

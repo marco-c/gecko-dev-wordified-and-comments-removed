@@ -494,6 +494,10 @@ NPPProtocolParent
 .
 h
 \
+PluginMessageUtils
+.
+h
+\
 PluginProcessParent
 .
 h

@@ -4366,6 +4366,8 @@ NL
 )
         
 if
+0
+and
 p
 .
 decl
@@ -4436,6 +4438,8 @@ talksSync
 :
             
 if
+0
+and
 p
 .
 decl

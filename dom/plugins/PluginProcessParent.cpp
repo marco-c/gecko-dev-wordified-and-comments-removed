@@ -96,12 +96,12 @@ std
 :
 string
 &
-aPluginFilename
+aPluginFilePath
 )
 :
-mPluginFilename
+mPluginFilePath
 (
-aPluginFilename
+aPluginFilePath
 )
 {
 }
@@ -243,7 +243,7 @@ AppendLooseValue
 (
 UTF8ToWide
 (
-mPluginFilename
+mPluginFilePath
 )
 )
 ;
