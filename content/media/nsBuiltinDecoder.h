@@ -624,6 +624,7 @@ PRBool
 OnStateMachineThread
 (
 )
+const
 {
 return
 IsCurrentThread
