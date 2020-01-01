@@ -642,11 +642,11 @@ mHandle
 ;
 }
 struct
-ProfileStack
+Stack
 {
 public
 :
-ProfileStack
+Stack
 (
 )
 :
@@ -919,7 +919,7 @@ stack_key_initialized
 return
 NULL
 ;
-ProfileStack
+Stack
 *
 stack
 =
@@ -931,7 +931,7 @@ tls
 :
 get
 <
-ProfileStack
+Stack
 >
 (
 pkey_stack
@@ -975,12 +975,12 @@ aHandle
 )
 return
 ;
-ProfileStack
+Stack
 *
 stack
 =
 (
-ProfileStack
+Stack
 *
 )
 aHandle
@@ -1003,7 +1003,7 @@ char
 aMarker
 )
 {
-ProfileStack
+Stack
 *
 stack
 =
@@ -1015,7 +1015,7 @@ tls
 :
 get
 <
-ProfileStack
+Stack
 >
 (
 pkey_stack
