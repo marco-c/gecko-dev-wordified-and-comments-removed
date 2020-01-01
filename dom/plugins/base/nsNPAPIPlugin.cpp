@@ -7080,7 +7080,6 @@ scx
 EvaluateString
 (
 utf16script
-*
 obj
 options
 false

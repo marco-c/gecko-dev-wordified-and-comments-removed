@@ -1338,7 +1338,6 @@ NS_ConvertUTF8toUTF16
 (
 script
 )
-*
 globalJSObject
 options
 true

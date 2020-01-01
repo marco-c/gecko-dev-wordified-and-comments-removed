@@ -169,8 +169,14 @@ const
 nsAString
 &
 aScript
+JS
+:
+:
+Handle
+<
 JSObject
-&
+*
+>
 aScopeObject
 JS
 :
