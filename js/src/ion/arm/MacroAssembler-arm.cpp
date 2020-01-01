@@ -13583,7 +13583,7 @@ StackAlignment
 ;
 breakpoint
 (
-Equal
+NonZero
 )
 ;
 #
