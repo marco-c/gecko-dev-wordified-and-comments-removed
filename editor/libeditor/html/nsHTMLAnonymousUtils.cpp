@@ -131,6 +131,13 @@ nsUnicharUtils
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 static
 PRInt32
 GetCSSFloatValue
@@ -690,6 +697,10 @@ return
 res
 ;
 }
+{
+nsAutoScriptBlocker
+scriptBlocker
+;
 newContent
 -
 >
@@ -728,6 +739,7 @@ UnbindFromTree
 return
 res
 ;
+}
 }
 nsElementDeletionObserver
 *
@@ -901,6 +913,9 @@ if
 content
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 if
 (
 aShell

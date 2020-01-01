@@ -3008,6 +3008,9 @@ InternalAttr
 )
 ;
 }
+nsAutoScriptBlocker
+scriptBlocker
+;
 PRUint32
 end
 =

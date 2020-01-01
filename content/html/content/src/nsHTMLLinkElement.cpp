@@ -938,7 +938,7 @@ event
 event
 -
 >
-PostDOMEvent
+RunDOMEventWhenSafe
 (
 )
 ;

@@ -320,6 +320,13 @@ nsEventDispatcher
 .
 h
 "
+#
+include
+"
+mozAutoDocUpdate
+.
+h
+"
 static
 const
 int

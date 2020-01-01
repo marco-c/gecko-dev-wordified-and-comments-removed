@@ -55215,6 +55215,9 @@ Clear
 (
 )
 ;
+nsAutoScriptBlocker
+scriptBlocker
+;
 BeginUpdate
 (
 )

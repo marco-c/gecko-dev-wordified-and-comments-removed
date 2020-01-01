@@ -222,6 +222,13 @@ nsIScriptSecurityManager
 .
 h
 "
+#
+include
+"
+mozAutoDocUpdate
+.
+h
+"
 class
 CSSRuleListImpl
 :
