@@ -756,6 +756,10 @@ test_mozPaintCount
 .
 html
 \
+test_scroll_event_ordering
+.
+html
+\
 test_scroll_selection_into_view
 .
 html
