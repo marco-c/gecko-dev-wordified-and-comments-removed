@@ -5332,13 +5332,13 @@ WebBookmarkTypeList
 )
 )
 {
-nsCAutoString
+nsAutoString
 title
 ;
 if
 (
 !
-GetDictionaryCStringValue
+GetDictionaryStringValue
 (
 entry
 CFSTR
@@ -5348,7 +5348,6 @@ Title
 "
 )
 title
-kCFStringEncodingUTF8
 )
 )
 continue
@@ -5453,7 +5452,10 @@ aBookmarksService
 CreateFolder
 (
 aParentFolder
+NS_ConvertUTF16toUTF8
+(
 title
+)
 nsINavBookmarksService
 :
 :
