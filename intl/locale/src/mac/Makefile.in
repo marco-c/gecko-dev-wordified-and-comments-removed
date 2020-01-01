@@ -454,10 +454,6 @@ nsCollationMac
 .
 cpp
 \
-nsCollationMacUC
-.
-cpp
-\
 nsDateTimeFormatMac
 .
 cpp
@@ -469,6 +465,15 @@ cpp
 (
 NULL
 )
+ifdef
+USE_UCCOLLATIONKEY
+CPPSRCS
++
+=
+nsCollationMacUC
+.
+cpp
+endif
 include
 (
 topsrcdir
