@@ -12,14 +12,6 @@ nsFont
 h
 "
 #
-ifndef
-MOZ_CAIRO_GFX
-#
-define
-GFX_HAS_INVERT
-#
-endif
-#
 define
 NS_SIDE_TOP
 0

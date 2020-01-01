@@ -20046,9 +20046,6 @@ aEndBevelOffset
 0
 ;
 }
-#
-ifdef
-MOZ_CAIRO_GFX
 gfxContext
 *
 ctx
@@ -20083,8 +20080,6 @@ gfxContext
 MODE_ALIASED
 )
 ;
-#
-endif
 switch
 (
 aBorderStyle
@@ -21349,9 +21344,6 @@ border
 break
 ;
 }
-#
-ifdef
-MOZ_CAIRO_GFX
 ctx
 -
 >
@@ -21360,8 +21352,6 @@ SetAntialiasMode
 oldMode
 )
 ;
-#
-endif
 }
 void
 nsCSSRendering

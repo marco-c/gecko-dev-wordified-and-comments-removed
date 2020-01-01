@@ -331,8 +331,6 @@ nsIURI
 aURL
 PRUint32
 aLineNumber
-PRBool
-aHandleAlphaColors
 nscolor
 *
 aColor

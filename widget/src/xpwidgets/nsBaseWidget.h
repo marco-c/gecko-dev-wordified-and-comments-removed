@@ -365,9 +365,6 @@ GetToolkit
 (
 )
 ;
-#
-ifdef
-MOZ_CAIRO_GFX
 virtual
 gfxASurface
 *
@@ -375,8 +372,6 @@ GetThebesSurface
 (
 )
 ;
-#
-endif
 NS_IMETHOD
 SetModal
 (

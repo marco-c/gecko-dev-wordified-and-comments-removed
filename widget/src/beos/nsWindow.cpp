@@ -235,9 +235,6 @@ nsIMenuRollup
 h
 "
 #
-ifdef
-MOZ_CAIRO_GFX
-#
 include
 "
 gfxBeOSSurface
@@ -251,8 +248,6 @@ gfxContext
 .
 h
 "
-#
-endif
 NS_IMPL_THREADSAFE_ADDREF
 (
 nsWindow
@@ -2530,9 +2525,6 @@ aParent
 )
 ;
 }
-#
-ifdef
-MOZ_CAIRO_GFX
 gfxASurface
 *
 nsWindow
@@ -2565,8 +2557,6 @@ return
 mThebesSurface
 ;
 }
-#
-endif
 NS_METHOD
 nsWindow
 :
@@ -11350,9 +11340,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-#
-ifdef
-MOZ_CAIRO_GFX
 nsRefPtr
 <
 gfxContext
@@ -11462,8 +11449,6 @@ gfxContext
 CONTENT_COLOR
 )
 ;
-#
-endif
 nsPaintEvent
 event
 (
@@ -11533,9 +11518,6 @@ event
 widget
 )
 ;
-#
-ifdef
-MOZ_CAIRO_GFX
 if
 (
 rv
@@ -11587,8 +11569,6 @@ Restore
 (
 )
 ;
-#
-endif
 return
 rv
 ;

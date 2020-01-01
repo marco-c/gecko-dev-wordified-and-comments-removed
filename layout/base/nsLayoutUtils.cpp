@@ -10767,9 +10767,6 @@ nsRect
 aSourceRect
 )
 {
-#
-ifdef
-MOZ_CAIRO_GFX
 nsRect
 dirtyRect
 ;
@@ -11715,10 +11712,6 @@ pxSrc
 pxDirty
 )
 ;
-#
-else
-#
-endif
 }
 void
 nsLayoutUtils
