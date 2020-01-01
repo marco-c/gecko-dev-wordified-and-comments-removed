@@ -1,4 +1,10 @@
 #
+ifndef
+imgLoader_h__
+#
+define
+imgLoader_h__
+#
 include
 "
 imgILoader
@@ -87,9 +93,6 @@ h
 "
 #
 endif
-#
-undef
-LoadImage
 class
 imgRequest
 ;
@@ -1295,3 +1298,5 @@ sImgLoader
 ;
 }
 ;
+#
+endif

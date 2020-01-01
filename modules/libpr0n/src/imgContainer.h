@@ -35,13 +35,6 @@ h
 #
 include
 "
-imgIDecoder
-.
-h
-"
-#
-include
-"
 nsIProperties
 .
 h
@@ -88,6 +81,12 @@ imgDiscardTracker
 .
 h
 "
+class
+imgIDecoder
+;
+class
+nsIInputStream
+;
 #
 define
 NS_IMGCONTAINER_CID
