@@ -533,6 +533,10 @@ EndLine
 (
 PRBool
 softlinebreak
+PRBool
+aBreakBySpace
+=
+PR_FALSE
 )
 ;
 void
