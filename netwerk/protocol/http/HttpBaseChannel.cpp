@@ -1529,7 +1529,7 @@ HttpBaseChannel
 :
 GetContentLength
 (
-int32_t
+int64_t
 *
 aContentLength
 )
@@ -1567,7 +1567,7 @@ HttpBaseChannel
 :
 SetContentLength
 (
-int32_t
+int64_t
 value
 )
 {

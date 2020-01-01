@@ -1124,7 +1124,7 @@ nsWyciwygChannel
 :
 GetContentLength
 (
-int32_t
+int64_t
 *
 aContentLength
 )
@@ -1144,7 +1144,7 @@ nsWyciwygChannel
 :
 SetContentLength
 (
-int32_t
+int64_t
 aContentLength
 )
 {

@@ -321,7 +321,7 @@ nsresult
 &
 statusCode
 const
-int32_t
+int64_t
 &
 contentLength
 const
@@ -391,7 +391,7 @@ mChild
 nsresult
 mStatusCode
 ;
-int32_t
+int64_t
 mContentLength
 ;
 int32_t
@@ -416,7 +416,7 @@ nsresult
 &
 statusCode
 const
-int32_t
+int64_t
 &
 contentLength
 const
@@ -486,7 +486,7 @@ nsresult
 &
 statusCode
 const
-int32_t
+int64_t
 &
 contentLength
 const
@@ -1945,7 +1945,7 @@ WyciwygChannelChild
 :
 GetContentLength
 (
-int32_t
+int64_t
 *
 aContentLength
 )
@@ -1960,7 +1960,7 @@ WyciwygChannelChild
 :
 SetContentLength
 (
-int32_t
+int64_t
 aContentLength
 )
 {

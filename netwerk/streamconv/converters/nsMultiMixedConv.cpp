@@ -959,7 +959,7 @@ nsPartChannel
 :
 GetContentLength
 (
-int32_t
+int64_t
 *
 aContentLength
 )
@@ -979,7 +979,7 @@ nsPartChannel
 :
 SetContentLength
 (
-int32_t
+int64_t
 aContentLength
 )
 {

@@ -299,7 +299,7 @@ mJarReader
 )
 ;
 }
-int32_t
+int64_t
 GetContentLength
 (
 )
@@ -339,7 +339,7 @@ mJarStream
 nsCString
 mJarEntry
 ;
-int32_t
+int64_t
 mContentLength
 ;
 }
@@ -473,10 +473,10 @@ mContentLength
 =
 avail
 <
-INT32_MAX
+INT64_MAX
 ?
 (
-int32_t
+int64_t
 )
 avail
 :
@@ -2265,7 +2265,7 @@ nsJARChannel
 :
 GetContentLength
 (
-int32_t
+int64_t
 *
 result
 )
@@ -2303,7 +2303,7 @@ nsJARChannel
 :
 SetContentLength
 (
-int32_t
+int64_t
 aContentLength
 )
 {

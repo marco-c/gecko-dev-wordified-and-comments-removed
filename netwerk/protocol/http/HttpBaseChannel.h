@@ -430,7 +430,7 @@ aContentDispositionHeader
 NS_IMETHOD
 GetContentLength
 (
-int32_t
+int64_t
 *
 aContentLength
 )
@@ -438,7 +438,7 @@ aContentLength
 NS_IMETHOD
 SetContentLength
 (
-int32_t
+int64_t
 aContentLength
 )
 ;
