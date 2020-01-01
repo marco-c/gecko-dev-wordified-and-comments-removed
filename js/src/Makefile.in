@@ -4639,15 +4639,6 @@ libdir
 "
 \
 -
-DMODULE
-=
-"
-(
-MODULE
-)
-"
-\
--
 DMOZILLA_VERSION
 =
 "
@@ -5022,7 +5013,7 @@ includedir
 /
 #
 (
-MODULE
+LIBRARY_NAME
 )
 /
 #
@@ -5105,7 +5096,7 @@ includedir
 )
 /
 (
-MODULE
+LIBRARY_NAME
 )
 install
 :
@@ -5125,7 +5116,7 @@ includedir
 )
 /
 (
-MODULE
+LIBRARY_NAME
 )
 /
 js
@@ -5147,7 +5138,7 @@ includedir
 )
 /
 (
-MODULE
+LIBRARY_NAME
 )
 /
 mozilla

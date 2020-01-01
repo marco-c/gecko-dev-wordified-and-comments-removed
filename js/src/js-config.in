@@ -72,11 +72,6 @@ mozilla_version
 '
 MOZILLA_VERSION
 '
-MODULE
-=
-'
-MODULE
-'
 LIBRARY_NAME
 =
 '
@@ -501,7 +496,7 @@ echo
 include
 includedir
 /
-MODULE
+LIBRARY_NAME
 /
 js
 /
@@ -512,7 +507,7 @@ h
 I
 includedir
 /
-MODULE
+LIBRARY_NAME
 NSPR_CFLAGS
 "
 fi

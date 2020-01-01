@@ -47,7 +47,7 @@ include
 includedir
 }
 /
-MODULE
+LIBRARY_NAME
 /
 js
 /
@@ -60,4 +60,4 @@ I
 includedir
 }
 /
-MODULE
+LIBRARY_NAME
