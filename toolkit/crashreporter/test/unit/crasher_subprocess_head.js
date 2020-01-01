@@ -100,6 +100,17 @@ components
 "
 )
 ;
+cd
+.
+append
+(
+"
+testcrasher
+.
+manifest
+"
+)
+;
 Components
 .
 manager
