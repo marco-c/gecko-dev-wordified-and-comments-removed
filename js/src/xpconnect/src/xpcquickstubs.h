@@ -1179,6 +1179,14 @@ v
 jsval
 *
 pval
+StringificationBehavior
+nullBehavior
+=
+eNull
+StringificationBehavior
+undefinedBehavior
+=
+eNull
 )
 ;
 }

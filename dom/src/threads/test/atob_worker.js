@@ -9,6 +9,7 @@ data
 1
 .
 5
+null
 undefined
 true
 false

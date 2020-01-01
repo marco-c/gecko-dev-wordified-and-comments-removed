@@ -2999,6 +2999,10 @@ v
 jsval
 *
 pval
+StringificationBehavior
+nullBehavior
+StringificationBehavior
+undefinedBehavior
 )
 {
 typedef
@@ -3020,8 +3024,8 @@ traits
 cx
 v
 pval
-eNull
-eNull
+nullBehavior
+undefinedBehavior
 )
 ;
 if
