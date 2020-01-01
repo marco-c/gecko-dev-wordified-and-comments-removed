@@ -1060,6 +1060,11 @@ channel
 "
 )
 ;
+PRBool
+replaced
+=
+PR_FALSE
+;
 if
 (
 applicationName
@@ -1238,6 +1243,10 @@ Length
 )
 uURL
 )
+;
+replaced
+=
+PR_TRUE
 ;
 }
 }
@@ -1625,11 +1634,6 @@ get
 endif
 PRInt32
 pos
-;
-PRBool
-replaced
-=
-PR_FALSE
 ;
 pos
 =
