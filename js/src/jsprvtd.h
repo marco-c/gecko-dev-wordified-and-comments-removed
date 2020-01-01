@@ -156,11 +156,6 @@ JSTryNote
 ;
 typedef
 struct
-JSWeakRoots
-JSWeakRoots
-;
-typedef
-struct
 JSAtom
 JSAtom
 ;
