@@ -699,6 +699,10 @@ Position
 .
 webidl
 \
+PositionError
+.
+webidl
+\
 ProcessingInstruction
 .
 webidl
