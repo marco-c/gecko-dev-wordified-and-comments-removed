@@ -16,17 +16,6 @@ include
 NEW_H
 #
 ifdef
-__MWERKS__
-#
-define
-HAVE_CPP_MEMBER_TEMPLATES
-#
-define
-HAVE_CPP_NUMERIC_LIMITS
-#
-endif
-#
-ifdef
 _MSC_VER
 #
 pragma
