@@ -1919,6 +1919,7 @@ mbmi
 -
 >
 need_to_clamp_mvs
+|
 =
 vp8_check_mv_bounds
 (
