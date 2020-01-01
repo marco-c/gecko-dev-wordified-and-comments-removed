@@ -10530,6 +10530,10 @@ ifdef
 MOZ_MEDIA_NAVIGATOR
 DOM_CLASSINFO_MAP_ENTRY
 (
+nsINavigatorUserMedia
+)
+DOM_CLASSINFO_MAP_ENTRY
+(
 nsIDOMNavigatorUserMedia
 )
 #
