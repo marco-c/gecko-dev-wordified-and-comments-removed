@@ -2304,6 +2304,15 @@ JSRuntime
 rt
 )
 ;
+extern
+JS_FRIEND_API
+(
+size_t
+)
+SizeOfJSContext
+(
+)
+;
 }
 extern
 JS_FRIEND_API
