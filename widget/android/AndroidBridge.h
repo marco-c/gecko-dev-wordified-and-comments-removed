@@ -424,6 +424,10 @@ public
 :
 enum
 {
+NOTIFY_IME_OPEN_VKB
+=
+-
+2
 NOTIFY_IME_REPLY_EVENT
 =
 -
