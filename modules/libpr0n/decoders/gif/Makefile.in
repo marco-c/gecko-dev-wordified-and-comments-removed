@@ -448,9 +448,6 @@ NULL
 )
 CPPSRCS
 =
-GIF2
-.
-cpp
 nsGIFDecoder2
 .
 cpp

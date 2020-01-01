@@ -1158,15 +1158,6 @@ Shutdown
 (
 )
 ;
-#
-ifdef
-IMG_BUILD_DECODER_gif
-nsGifShutdown
-(
-)
-;
-#
-endif
 }
 NS_IMPL_NSGETMODULE_WITH_CTOR_DTOR
 (
