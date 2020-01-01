@@ -734,8 +734,11 @@ void
 nsListBoxBodyFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 if
@@ -804,8 +807,9 @@ ClearCachedValues
 nsBoxFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

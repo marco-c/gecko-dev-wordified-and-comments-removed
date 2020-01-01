@@ -689,8 +689,11 @@ void
 nsListControlFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 ENSURE_TRUE
@@ -782,8 +785,9 @@ PR_FALSE
 nsHTMLScrollFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

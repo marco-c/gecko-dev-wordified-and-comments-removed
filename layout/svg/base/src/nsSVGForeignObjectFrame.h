@@ -110,8 +110,11 @@ aPrevInFlow
 ;
 virtual
 void
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 ;
 NS_IMETHOD

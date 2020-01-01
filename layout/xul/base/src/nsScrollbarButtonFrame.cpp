@@ -1105,8 +1105,11 @@ void
 nsScrollbarButtonFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 StopRepeat
@@ -1116,8 +1119,9 @@ StopRepeat
 nsButtonBoxFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

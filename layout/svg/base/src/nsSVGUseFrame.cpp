@@ -124,8 +124,11 @@ aModType
 ;
 virtual
 void
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 ;
 virtual
@@ -376,8 +379,11 @@ void
 nsSVGUseFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 nsRefPtr
@@ -398,8 +404,9 @@ mContent
 nsSVGUseFrameBase
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 use

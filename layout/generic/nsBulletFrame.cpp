@@ -259,8 +259,11 @@ void
 nsBulletFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 if
@@ -307,8 +310,9 @@ nsnull
 nsFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

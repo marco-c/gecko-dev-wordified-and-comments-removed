@@ -1223,8 +1223,11 @@ void
 nsBlockFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 mAbsoluteContainer
@@ -1232,6 +1235,7 @@ mAbsoluteContainer
 DestroyFrames
 (
 this
+aDestructRoot
 )
 ;
 if
@@ -1247,8 +1251,9 @@ HaveOutsideBullet
 mBullet
 -
 >
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 mBullet
@@ -1258,8 +1263,9 @@ nsnull
 }
 mFloats
 .
-DestroyFrames
+DestroyFramesFrom
 (
+aDestructRoot
 )
 ;
 nsPresContext
@@ -1277,6 +1283,7 @@ DeleteLineList
 (
 presContext
 mLines
+aDestructRoot
 )
 ;
 mFrames
@@ -1306,6 +1313,7 @@ DeleteLineList
 presContext
 *
 overflowLines
+aDestructRoot
 )
 ;
 delete
@@ -1323,16 +1331,18 @@ oofs
 .
 mList
 .
-DestroyFrames
+DestroyFramesFrom
 (
+aDestructRoot
 )
 ;
 }
 nsBlockFrameSuper
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }
@@ -20728,6 +20738,7 @@ DeleteLineList
 context
 *
 lines
+nsnull
 )
 ;
 delete

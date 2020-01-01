@@ -4516,8 +4516,11 @@ void
 nsSliderFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 if
@@ -4545,8 +4548,9 @@ StopRepeat
 nsBoxFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

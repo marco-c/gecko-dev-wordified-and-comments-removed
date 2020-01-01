@@ -1002,8 +1002,11 @@ void
 nsSplitterFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 if
@@ -1040,8 +1043,9 @@ nsnull
 nsBoxFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

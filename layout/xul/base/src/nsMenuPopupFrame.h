@@ -313,8 +313,11 @@ aModType
 ;
 virtual
 void
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 ;
 virtual

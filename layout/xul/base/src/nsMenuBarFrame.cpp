@@ -1766,8 +1766,11 @@ void
 nsMenuBarFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 nsXULPopupManager
@@ -1897,8 +1900,9 @@ mMenuBarListener
 nsBoxFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

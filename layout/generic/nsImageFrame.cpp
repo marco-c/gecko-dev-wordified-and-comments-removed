@@ -781,8 +781,11 @@ void
 nsImageFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 if
@@ -872,8 +875,9 @@ this
 nsSplittableFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

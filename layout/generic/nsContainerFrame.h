@@ -164,8 +164,11 @@ const
 ;
 virtual
 void
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 ;
 virtual
@@ -571,6 +574,11 @@ DestroyOverflowList
 nsPresContext
 *
 aPresContext
+nsIFrame
+*
+aDestructRoot
+=
+nsnull
 )
 ;
 PRBool

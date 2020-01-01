@@ -3672,8 +3672,11 @@ void
 nsBoxFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 RegUnregAccessKey
@@ -3689,8 +3692,9 @@ nsnull
 nsContainerFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

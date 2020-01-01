@@ -1421,6 +1421,9 @@ aPresContext
 nsLineList
 &
 aLines
+nsIFrame
+*
+aDestructRoot
 )
 ;
 static

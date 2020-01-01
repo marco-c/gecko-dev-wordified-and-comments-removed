@@ -4746,8 +4746,11 @@ void
 nsComboboxControlFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 mRedisplayTextEvent
@@ -4848,8 +4851,9 @@ PR_TRUE
 }
 mPopupFrames
 .
-DestroyFrames
+DestroyFramesFrom
 (
+aDestructRoot
 )
 ;
 nsContentUtils
@@ -4873,8 +4877,9 @@ mButtonContent
 nsBlockFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

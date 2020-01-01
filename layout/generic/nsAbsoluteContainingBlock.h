@@ -221,6 +221,9 @@ DestroyFrames
 nsIFrame
 *
 aDelegatingFrame
+nsIFrame
+*
+aDestructRoot
 )
 ;
 PRBool

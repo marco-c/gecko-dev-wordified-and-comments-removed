@@ -721,8 +721,11 @@ aStretch
 ;
 virtual
 void
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 ;
 nsSize

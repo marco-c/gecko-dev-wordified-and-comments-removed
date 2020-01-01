@@ -56,8 +56,11 @@ aContext
 }
 virtual
 void
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 ;
 friend

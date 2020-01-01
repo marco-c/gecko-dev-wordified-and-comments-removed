@@ -902,8 +902,11 @@ void
 nsContainerFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 if
@@ -926,8 +929,9 @@ nsnull
 }
 mFrames
 .
-DestroyFrames
+DestroyFramesFrom
 (
+aDestructRoot
 )
 ;
 nsPresContext
@@ -941,6 +945,7 @@ PresContext
 DestroyOverflowList
 (
 prescontext
+aDestructRoot
 )
 ;
 if
@@ -974,8 +979,9 @@ frameList
 frameList
 -
 >
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 frameList
@@ -996,8 +1002,9 @@ frameList
 frameList
 -
 >
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }
@@ -1111,8 +1118,9 @@ generatedContent
 nsSplittableFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }
@@ -4627,6 +4635,9 @@ DestroyOverflowList
 nsPresContext
 *
 aPresContext
+nsIFrame
+*
+aDestructRoot
 )
 {
 nsFrameList
@@ -4649,8 +4660,9 @@ list
 list
 -
 >
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

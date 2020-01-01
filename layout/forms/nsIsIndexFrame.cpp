@@ -346,8 +346,11 @@ void
 nsIsIndexFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 if
@@ -413,8 +416,9 @@ mPostHr
 nsBlockFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

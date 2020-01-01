@@ -477,8 +477,11 @@ aPrevInFlow
 ;
 virtual
 void
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 ;
 virtual
@@ -3076,8 +3079,11 @@ void
 nsSubDocumentFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 if
@@ -3112,8 +3118,9 @@ HideViewer
 nsLeafFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

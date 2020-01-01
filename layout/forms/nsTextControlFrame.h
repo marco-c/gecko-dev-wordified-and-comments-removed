@@ -147,8 +147,11 @@ nsTextControlFrame
 ;
 virtual
 void
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 ;
 virtual

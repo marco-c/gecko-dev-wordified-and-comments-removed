@@ -527,8 +527,11 @@ void
 nsTextBoxFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 RegUnregAccessKey
@@ -539,8 +542,9 @@ PR_FALSE
 nsTextBoxFrameSuper
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

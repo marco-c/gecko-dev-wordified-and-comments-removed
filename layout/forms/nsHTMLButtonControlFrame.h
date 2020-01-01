@@ -122,8 +122,11 @@ nsHTMLButtonControlFrame
 ;
 virtual
 void
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 ;
 NS_DECL_QUERYFRAME

@@ -431,8 +431,11 @@ void
 nsFileControlFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 mTextFrame
@@ -553,8 +556,9 @@ ForgetFrame
 nsBlockFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

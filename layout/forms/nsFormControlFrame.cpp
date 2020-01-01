@@ -69,8 +69,11 @@ void
 nsFormControlFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 nsFormControlFrame
@@ -92,8 +95,9 @@ PR_FALSE
 nsLeafFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

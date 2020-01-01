@@ -243,8 +243,11 @@ void
 nsXULLabelFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 RegUnregAccessKey
@@ -255,8 +258,9 @@ PR_FALSE
 nsBlockFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

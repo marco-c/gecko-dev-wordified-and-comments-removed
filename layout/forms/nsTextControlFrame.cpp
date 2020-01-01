@@ -4339,8 +4339,11 @@ void
 nsTextControlFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 if
@@ -4390,8 +4393,9 @@ mAnonymousDiv
 nsBoxFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }

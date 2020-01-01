@@ -710,8 +710,11 @@ void
 nsImageBoxFrame
 :
 :
-Destroy
+DestroyFrom
 (
+nsIFrame
+*
+aDestructRoot
 )
 {
 if
@@ -752,8 +755,9 @@ nsnull
 nsLeafBoxFrame
 :
 :
-Destroy
+DestroyFrom
 (
+aDestructRoot
 )
 ;
 }
