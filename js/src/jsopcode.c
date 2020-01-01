@@ -9001,6 +9001,13 @@ ndefs
 return
 pc
 ;
+token
+=
+CodeToken
+[
+op
+]
+;
 if
 (
 pc
@@ -9379,13 +9386,6 @@ dvgfence
 NULL
 ;
 }
-token
-=
-CodeToken
-[
-op
-]
-;
 if
 (
 token
