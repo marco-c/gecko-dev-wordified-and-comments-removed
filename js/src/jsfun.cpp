@@ -480,10 +480,6 @@ iter
 callee
 (
 )
-.
-toFunction
-(
-)
 =
 =
 fun
