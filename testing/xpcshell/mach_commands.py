@@ -13,11 +13,16 @@ mozbuild
 .
 base
 import
+(
+    
+MachCommandBase
+    
 MozbuildObject
+)
 from
 mach
 .
-base
+decorators
 import
 (
     
@@ -670,7 +675,7 @@ CommandProvider
 class
 MachCommands
 (
-MozbuildObject
+MachCommandBase
 )
 :
     
