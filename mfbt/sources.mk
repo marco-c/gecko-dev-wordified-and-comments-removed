@@ -83,6 +83,10 @@ HashFunctions
 .
 cpp
 \
+SHA1
+.
+cpp
+\
 (
 NULL
 )

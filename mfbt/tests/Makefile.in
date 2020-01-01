@@ -88,6 +88,10 @@ TestTypeTraits
 .
 cpp
 \
+TestSHA1
+.
+cpp
+\
 (
 NULL
 )
@@ -164,3 +168,13 @@ rules
 mk
 LIBS
 =
+(
+call
+EXPAND_LIBNAME_PATH
+mfbt
+(
+DEPTH
+)
+/
+mfbt
+)

@@ -157,6 +157,10 @@ StandardInteger
 .
 h
 \
+SHA1
+.
+h
+\
 ThreadLocal
 .
 h
