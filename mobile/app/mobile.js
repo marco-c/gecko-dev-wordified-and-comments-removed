@@ -6097,7 +6097,7 @@ show
 .
 localepicker
 "
-true
+false
 )
 ;
 pref
