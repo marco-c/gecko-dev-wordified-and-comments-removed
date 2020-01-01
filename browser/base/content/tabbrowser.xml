@@ -4883,9 +4883,7 @@ title
 =
 TabView
 .
-getWindowTitle
-(
-)
+windowTitle
 ;
 }
 else
