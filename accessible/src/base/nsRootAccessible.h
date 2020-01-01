@@ -26,12 +26,17 @@ nsIAccessibleDocument
 h
 "
 #
+ifdef
+MOZ_XUL
+#
 include
 "
 nsIAccessibleTreeCache
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -338,6 +343,9 @@ nsIDOMEventTarget
 aChromeTarget
 )
 ;
+#
+ifdef
+MOZ_XUL
 nsresult
 HandleTreeRowCountChangedEvent
 (
@@ -360,9 +368,6 @@ nsIAccessibleTreeCache
 aAccessible
 )
 ;
-#
-ifdef
-MOZ_XUL
 PRUint32
 GetChromeFlags
 (
