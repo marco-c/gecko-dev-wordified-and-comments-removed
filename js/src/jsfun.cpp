@@ -7860,6 +7860,14 @@ js_GetTopStackFrame
 cx
 )
 ;
+if
+(
+!
+fp
+)
+return
+true
+;
 while
 (
 !

@@ -485,6 +485,10 @@ testFuncCallback
 .
 cpp
 \
+testFunctionProperties
+.
+cpp
+\
 testGCChunkAlloc
 .
 cpp
