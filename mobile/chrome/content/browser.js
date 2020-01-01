@@ -6629,6 +6629,17 @@ _isStartup
 {
 ws
 .
+panTo
+(
+0
+-
+BrowserUI
+.
+toolbarH
+)
+;
+ws
+.
 endUpdateBatch
 (
 )
