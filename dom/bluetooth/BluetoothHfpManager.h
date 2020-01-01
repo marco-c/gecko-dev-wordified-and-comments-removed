@@ -167,6 +167,9 @@ BluetoothRilListener
 >
 mListener
 ;
+nsString
+mDevicePath
+;
 }
 ;
 END_BLUETOOTH_NAMESPACE

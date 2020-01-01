@@ -295,6 +295,10 @@ ObexBase
 .
 cpp
 \
+BluetoothScoManager
+.
+cpp
+\
 (
 NULL
 )
