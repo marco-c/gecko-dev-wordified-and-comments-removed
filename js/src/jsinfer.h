@@ -1617,6 +1617,15 @@ NULL
 }
 }
 ;
+inline
+bool
+isInlinableCall
+(
+jsbytecode
+*
+pc
+)
+;
 struct
 TypeBarrier
 {
