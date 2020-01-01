@@ -176,6 +176,10 @@ mozilla
 :
 scache
 ;
+using
+namespace
+mozilla
+;
 static
 const
 char
@@ -975,7 +979,10 @@ WillInitializeContext
 (
 )
 ;
+DebugOnly
+<
 nsresult
+>
 rv
 ;
 rv
