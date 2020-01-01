@@ -8827,6 +8827,13 @@ stream
 -
 >
 mChannelEnded
+&
+&
+!
+stream
+-
+>
+mClosed
 )
 {
 if
