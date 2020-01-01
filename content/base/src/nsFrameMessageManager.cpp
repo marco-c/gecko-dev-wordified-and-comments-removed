@@ -2617,10 +2617,6 @@ mCx
 =
 nsnull
 ;
-mGlobal
-=
-nsnull
-;
 }
 static
 PLDHashOperator
@@ -3362,3 +3358,4 @@ NS_IMPL_ISUPPORTS1
 nsScriptCacheCleaner
 nsIObserver
 )
+;
