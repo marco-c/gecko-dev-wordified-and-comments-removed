@@ -459,7 +459,7 @@ server
 url
 "
 "
-http
+https
 :
 /
 /
@@ -471,11 +471,9 @@ mozilla
 .
 org
 :
-5280
+81
 /
-http
--
-poll
+xmpp
 "
 )
 ;
