@@ -4294,6 +4294,10 @@ else
 {
 try
 {
+if
+(
+mimeInfo
+)
 return
 mimeInfo
 .
@@ -4305,13 +4309,13 @@ catch
 e
 )
 {
+}
 return
 ext
 |
 |
 urlext
 ;
-}
 }
 }
 function
