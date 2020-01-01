@@ -855,7 +855,6 @@ hr
 )
 )
 {
-HRESULT
 hr
 =
 createD3DDevice
@@ -883,7 +882,6 @@ hr
 )
 )
 {
-HRESULT
 hr
 =
 createD3DDevice
