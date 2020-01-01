@@ -569,6 +569,13 @@ hits
 "
 )
 ;
+e
+-
+>
+mObject
+=
+nsnull
+;
 }
 mTagged
 =
