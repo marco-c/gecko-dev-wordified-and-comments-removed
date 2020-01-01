@@ -923,13 +923,13 @@ mBatchesInProgress
 (
 0
 )
-mAutoCompleteOnlyTyped
-(
-PR_FALSE
-)
 mExpireDays
 (
 0
+)
+mAutoCompleteOnlyTyped
+(
+PR_FALSE
 )
 {
 #
