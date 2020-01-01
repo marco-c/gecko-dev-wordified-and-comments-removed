@@ -259,6 +259,10 @@ nsDOMCompositionEvent
 .
 cpp
 \
+nsDOMClipboardEvent
+.
+cpp
+\
 DOMWheelEvent
 .
 cpp

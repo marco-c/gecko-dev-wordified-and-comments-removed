@@ -9298,6 +9298,8 @@ dataTransfer
 new
 nsDOMDataTransfer
 (
+NS_DRAGDROP_START
+false
 )
 ;
 if
@@ -10077,16 +10079,12 @@ nsCOMPtr
 nsISupportsArray
 >
 transArray
-;
+=
 aDataTransfer
 -
 >
 GetTransferables
 (
-getter_AddRefs
-(
-transArray
-)
 dragTarget
 )
 ;

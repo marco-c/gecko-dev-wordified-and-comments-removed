@@ -262,6 +262,10 @@ nsIDOMBlobEvent
 .
 idl
 \
+nsIDOMClipboardEvent
+.
+idl
+\
 (
 NULL
 )
