@@ -63,6 +63,15 @@ run_test
 (
 )
 {
+if
+(
+!
+pb
+)
+{
+return
+;
+}
 do_test_pending
 (
 )
