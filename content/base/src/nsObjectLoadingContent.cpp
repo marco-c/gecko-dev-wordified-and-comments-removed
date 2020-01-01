@@ -274,6 +274,13 @@ h
 #
 include
 "
+nsUnicharUtils
+.
+h
+"
+#
+include
+"
 nsFrameLoader
 .
 h
@@ -7360,6 +7367,9 @@ NS_LITERAL_STRING
 clsid
 :
 "
+)
+nsCaseInsensitiveStringComparator
+(
 )
 )
 )
