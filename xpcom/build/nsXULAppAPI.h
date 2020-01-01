@@ -689,5 +689,16 @@ XRE_SetupDllBlocklist
 )
 #
 endif
+XRE_API
+(
+void
+XRE_TelemetryAccumulate
+(
+int
+aID
+PRUint32
+aSample
+)
+)
 #
 endif
