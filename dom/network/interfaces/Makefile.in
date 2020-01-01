@@ -150,6 +150,10 @@ nsIDOMNetworkStats
 .
 idl
 \
+nsIDOMCFStateChangeEvent
+.
+idl
+\
 (
 NULL
 )
