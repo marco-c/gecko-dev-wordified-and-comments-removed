@@ -112,7 +112,7 @@ Node
 }
 Node
 (
-uint32
+JSGCTraceKind
 kind
 )
 :
@@ -198,7 +198,7 @@ return
 this
 ;
 }
-uint32
+JSGCTraceKind
 kind
 ;
 Vector
@@ -480,7 +480,7 @@ Child
 void
 *
 cell
-uint32
+JSGCTraceKind
 kind
 )
 :
@@ -498,7 +498,7 @@ void
 *
 cell
 ;
-uint32
+JSGCTraceKind
 kind
 ;
 }
@@ -519,7 +519,7 @@ traverseEdge
 void
 *
 cell
-uint32
+JSGCTraceKind
 kind
 )
 ;
@@ -536,7 +536,7 @@ tracer
 void
 *
 cell
-uint32
+JSGCTraceKind
 kind
 )
 {
@@ -579,7 +579,7 @@ traverseEdge
 void
 *
 cell
-uint32
+JSGCTraceKind
 kind
 )
 {

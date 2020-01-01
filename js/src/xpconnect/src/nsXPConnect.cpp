@@ -792,7 +792,7 @@ JS_DumpHeap
 ccx
 dumpFile
 nsnull
-0
+JSTRACE_OBJECT
 nsnull
 static_cast
 <
@@ -2171,7 +2171,7 @@ trc
 void
 *
 thing
-uint32
+JSGCTraceKind
 kind
 )
 {
@@ -2400,7 +2400,7 @@ trc
 void
 *
 thing
-uint32
+JSGCTraceKind
 kind
 )
 {
@@ -2712,7 +2712,7 @@ GetJSContext
 (
 )
 ;
-uint32
+JSGCTraceKind
 traceKind
 =
 js_GetGCThingTraceKind

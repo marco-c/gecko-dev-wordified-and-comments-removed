@@ -11688,7 +11688,7 @@ JS_DumpHeap
 cx
 file
 NULL
-0
+JSTRACE_OBJECT
 NULL
 (
 size_t
