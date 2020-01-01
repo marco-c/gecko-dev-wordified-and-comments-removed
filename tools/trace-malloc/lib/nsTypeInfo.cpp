@@ -810,6 +810,12 @@ defined
 (
 linux
 )
+|
+|
+defined
+(
+XP_MACOSX
+)
 #
 define
 __USE_GNU
