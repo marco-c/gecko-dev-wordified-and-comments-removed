@@ -143,6 +143,7 @@ charCodeAt
 ;
 for
 (
+var
 i
 =
 a
