@@ -2016,15 +2016,6 @@ NULL
 )
 endif
 ifdef
-MOZ_B2G_FM
-webidl_files
-+
-=
-FMRadio
-.
-webidl
-endif
-ifdef
 ENABLE_TESTS
 test_webidl_files
 :
