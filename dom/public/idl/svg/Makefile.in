@@ -443,6 +443,10 @@ nsIDOMSVGAnimatedAngle
 .
 idl
 \
+nsIDOMSVGAnimatedBoolean
+.
+idl
+\
 nsIDOMSVGAnimatedEnum
 .
 idl
