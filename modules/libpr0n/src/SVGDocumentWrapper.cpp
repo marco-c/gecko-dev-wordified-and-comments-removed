@@ -666,6 +666,9 @@ if
 doc
 )
 {
+#
+ifdef
+MOZ_SMIL
 doc
 -
 >
@@ -682,6 +685,8 @@ nsSMILTimeContainer
 PAUSE_IMAGE
 )
 ;
+#
+endif
 doc
 -
 >
@@ -723,6 +728,9 @@ if
 doc
 )
 {
+#
+ifdef
+MOZ_SMIL
 doc
 -
 >
@@ -739,6 +747,8 @@ nsSMILTimeContainer
 PAUSE_IMAGE
 )
 ;
+#
+endif
 doc
 -
 >
