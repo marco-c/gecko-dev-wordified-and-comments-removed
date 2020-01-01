@@ -63,6 +63,13 @@ h
 #
 include
 "
+nsIDOMNSMouseEvent
+.
+h
+"
+#
+include
+"
 nsIDOMDataTransfer
 .
 h
@@ -2415,6 +2422,13 @@ pressure
 (
 0
 )
+inputSource
+(
+nsIDOMNSMouseEvent
+:
+:
+MOZ_SOURCE_MOUSE
+)
 {
 }
 nsCOMPtr
@@ -2428,6 +2442,9 @@ button
 ;
 float
 pressure
+;
+PRUint16
+inputSource
 ;
 }
 ;

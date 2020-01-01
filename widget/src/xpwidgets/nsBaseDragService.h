@@ -123,6 +123,15 @@ mEndDragPoint
 aEndDragPoint
 ;
 }
+PRUint16
+GetInputSource
+(
+)
+{
+return
+mInputSource
+;
+}
 protected
 :
 nsresult
@@ -258,6 +267,9 @@ mEndDragPoint
 ;
 PRUint32
 mSuppressLevel
+;
+PRUint16
+mInputSource
 ;
 }
 ;

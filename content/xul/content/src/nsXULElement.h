@@ -1681,6 +1681,13 @@ PRBool
 aIsTrustedEvent
 )
 ;
+nsresult
+ClickWithInputSource
+(
+PRUint16
+aInputSource
+)
+;
 virtual
 nsIContent
 *
