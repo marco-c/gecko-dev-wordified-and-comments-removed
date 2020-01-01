@@ -2924,6 +2924,8 @@ run
 (
 )
 {
+try
+{
 final
 Tab
 tab
@@ -2971,11 +2973,6 @@ copyPixelsFromBuffer
 data
 )
 ;
-freeDirectBuffer
-(
-data
-)
-;
 GeckoApp
 .
 mAppContext
@@ -2987,6 +2984,15 @@ b
 null
 )
 ;
+}
+finally
+{
+freeDirectBuffer
+(
+data
+)
+;
+}
 }
 }
 )
