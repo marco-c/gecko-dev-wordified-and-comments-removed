@@ -2944,10 +2944,10 @@ aResult
 else
 if
 (
-LL_GE_ZERO
-(
 delta
-)
+>
+=
+0
 )
 *
 aResult

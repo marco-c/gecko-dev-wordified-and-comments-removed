@@ -4674,13 +4674,11 @@ int64_t
 ;
 if
 (
-!
-LL_GE_ZERO
-(
 u
 .
 ll
-)
+<
+0
 )
 {
 LL_NEG
