@@ -1424,9 +1424,6 @@ gfxRect
 r
 )
 ;
-#
-ifdef
-MOZ_IPC
 NS_IMETHOD
 Swap
 (
@@ -1449,8 +1446,6 @@ PRInt32
 h
 )
 ;
-#
-endif
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMCANVASRENDERINGCONTEXT2D
 enum
@@ -4135,9 +4130,6 @@ NS_ERROR_NOT_IMPLEMENTED
 #
 endif
 }
-#
-ifdef
-MOZ_IPC
 NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
@@ -4163,6 +4155,9 @@ PRInt32
 h
 )
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 mFrontBuffer
@@ -4332,9 +4327,14 @@ PR_TRUE
 return
 NS_OK
 ;
-}
+#
+else
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
 #
 endif
+}
 NS_IMETHODIMP
 nsCanvasRenderingContext2D
 :
