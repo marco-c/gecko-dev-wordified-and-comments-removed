@@ -196,8 +196,6 @@ size_t
 size
 )
 ;
-#
-endif
 size_t
 malloc_usable_size
 (
@@ -207,6 +205,8 @@ void
 ptr
 )
 ;
+#
+endif
 void
 jemalloc_stats
 (
