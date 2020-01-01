@@ -185,6 +185,8 @@ RestyleElement
 aElement
 primaryFrame
 aChangeHint
+*
+this
 )
 ;
 }
@@ -289,6 +291,8 @@ GetPrimaryFrame
 (
 )
 NS_STYLE_HINT_NONE
+*
+this
 )
 ;
 }

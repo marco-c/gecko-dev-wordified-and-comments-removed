@@ -32535,6 +32535,9 @@ nsIFrame
 aPrimaryFrame
 nsChangeHint
 aMinHint
+RestyleTracker
+&
+aRestyleTracker
 )
 {
 NS_ASSERTION
@@ -32637,6 +32640,7 @@ aPrimaryFrame
 &
 changeList
 aMinHint
+aRestyleTracker
 )
 ;
 ProcessRestyledFrames
@@ -46232,6 +46236,7 @@ GetRootFrame
 &
 changeList
 aExtraHint
+mPendingRestyles
 )
 ;
 ProcessRestyledFrames

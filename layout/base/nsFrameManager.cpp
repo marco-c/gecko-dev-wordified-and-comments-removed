@@ -293,6 +293,13 @@ h
 #
 include
 "
+RestyleTracker
+.
+h
+"
+#
+include
+"
 nsFrameManager
 .
 h
@@ -4110,6 +4117,9 @@ nsChangeHint
 aMinChange
 PRBool
 aFireAccessibilityEvents
+RestyleTracker
+&
+aRestyleTracker
 )
 {
 if
@@ -4365,6 +4375,7 @@ aParentContent
 aChangeList
 aMinChange
 PR_FALSE
+aRestyleTracker
 )
 ;
 parentContext
@@ -5829,6 +5840,7 @@ aMinChange
 nsChangeHint_ReflowFrame
 )
 fireAccessibilityEvents
+aRestyleTracker
 )
 ;
 ReResolveStyleContext
@@ -5839,6 +5851,7 @@ content
 aChangeList
 aMinChange
 fireAccessibilityEvents
+aRestyleTracker
 )
 ;
 }
@@ -5860,6 +5873,7 @@ content
 aChangeList
 aMinChange
 fireAccessibilityEvents
+aRestyleTracker
 )
 ;
 }
@@ -5930,6 +5944,9 @@ nsStyleChangeList
 aChangeList
 nsChangeHint
 aMinChange
+RestyleTracker
+&
+aRestyleTracker
 )
 {
 if
@@ -6020,6 +6037,7 @@ nsnull
 aChangeList
 topLevelChange
 PR_TRUE
+aRestyleTracker
 )
 ;
 NS_UpdateHint
