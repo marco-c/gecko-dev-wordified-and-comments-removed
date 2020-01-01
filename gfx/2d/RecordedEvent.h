@@ -195,7 +195,7 @@ mLongPtr
 ;
 }
 ;
-static
+inline
 std
 :
 :
