@@ -1,7 +1,4 @@
 #
-define
-__STDC_LIMIT_MACROS
-#
 ifdef
 XP_OS2
 #

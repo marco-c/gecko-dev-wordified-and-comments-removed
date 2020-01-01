@@ -22,9 +22,6 @@ time
 h
 >
 #
-define
-__STDC_LIMIT_MACROS
-#
 include
 "
 jsstdint
