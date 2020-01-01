@@ -12360,8 +12360,6 @@ SizeShellTo
 (
 docShellAsItem
 width
-+
-1
 height
 )
 NS_ERROR_FAILURE
