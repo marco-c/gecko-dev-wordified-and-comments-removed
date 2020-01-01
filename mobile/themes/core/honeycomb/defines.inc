@@ -50,6 +50,11 @@ color_divider_border
 6699ff
 %
 define
+color_url_border
+#
+222222
+%
+define
 color_button_border
 rgb
 (
