@@ -15,6 +15,9 @@ namespace
 js
 {
 class
+ExclusiveContext
+;
+class
 AsmJSModule
 ;
 class
@@ -76,7 +79,7 @@ extern
 bool
 CompileAsmJS
 (
-JSContext
+ExclusiveContext
 *
 cx
 AsmJSParser

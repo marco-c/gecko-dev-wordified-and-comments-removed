@@ -3837,7 +3837,7 @@ js
 :
 NewAsmJSModuleFunction
 (
-JSContext
+ExclusiveContext
 *
 cx
 JSFunction

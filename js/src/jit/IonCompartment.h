@@ -513,9 +513,6 @@ AutoFlushCache
 flusher_
 ;
 bool
-signalHandlersInstalled_
-;
-bool
 ionCodeProtected_
 ;
 InlineList
@@ -779,15 +776,6 @@ currentThreadOwnsOperationCallbackLock
 ;
 return
 ionAlloc_
-;
-}
-bool
-signalHandlersInstalled
-(
-)
-{
-return
-signalHandlersInstalled_
 ;
 }
 bool

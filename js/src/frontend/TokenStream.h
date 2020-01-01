@@ -1290,6 +1290,13 @@ errorNumber
 .
 )
 ;
+static
+const
+uint32_t
+NoOffset
+=
+UINT32_MAX
+;
 bool
 reportCompileErrorNumberVA
 (
