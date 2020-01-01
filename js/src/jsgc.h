@@ -1739,7 +1739,7 @@ JSBOXEDWORD_TO_GCTHING
 *
 wp
 )
-JSID_TRACE_KIND
+JSBOXEDWORD_TRACE_KIND
 (
 *
 wp
@@ -1758,7 +1758,7 @@ JSTracer
 trc
 size_t
 len
-jsid
+jsboxedword
 *
 vec
 const

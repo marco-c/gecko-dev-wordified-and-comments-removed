@@ -7974,8 +7974,8 @@ arg
 void
 *
 tmp
-JSBool
-isValue
+JSMergeSortElemType
+elemType
 )
 {
 void
@@ -7998,6 +7998,14 @@ run
 ;
 int
 cmp_result
+;
+bool
+isValue
+=
+elemType
+=
+=
+JS_SORTING_VALUES
 ;
 #
 define
@@ -9513,7 +9521,7 @@ elemsize
 sort_compare_strings
 cx
 mergesort_tmp
-true
+JS_SORTING_VALUES
 )
 )
 {
@@ -9620,7 +9628,7 @@ sort_compare
 &
 ca
 mergesort_tmp
-true
+JS_SORTING_VALUES
 )
 )
 {

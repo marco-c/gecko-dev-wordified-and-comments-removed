@@ -321,6 +321,13 @@ int
 result
 )
 ;
+enum
+JSMergeSortElemType
+{
+JS_SORTING_VALUES
+JS_SORTING_GENERIC
+}
+;
 extern
 bool
 js_MergeSort
@@ -340,8 +347,8 @@ arg
 void
 *
 tmp
-bool
-isValue
+JSMergeSortElemType
+elemType
 )
 ;
 #

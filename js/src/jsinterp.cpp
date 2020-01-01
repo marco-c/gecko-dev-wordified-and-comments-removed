@@ -7010,9 +7010,6 @@ js_DecompileValueGenerator
 (
 cx
 n
-Jsvalify
-(
-&
 regs
 -
 >
@@ -7020,7 +7017,6 @@ sp
 [
 n
 ]
-)
 NULL
 )
 ;
@@ -7313,9 +7309,6 @@ js_DecompileValueGenerator
 (
 cx
 n
-Jsvalify
-(
-&
 regs
 -
 >
@@ -7323,7 +7316,6 @@ sp
 [
 n
 ]
-)
 NULL
 )
 ;

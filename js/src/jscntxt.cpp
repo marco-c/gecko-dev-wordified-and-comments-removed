@@ -9643,11 +9643,7 @@ js_DecompileValueGenerator
 (
 cx
 spindex
-Jsvalify
-(
-&
 v
-)
 fallback
 )
 ;
@@ -9834,11 +9830,7 @@ js_DecompileValueGenerator
 (
 cx
 JSDVG_SEARCH_STACK
-Jsvalify
-(
-&
 v
-)
 ATOM_TO_STRING
 (
 atom
@@ -9946,11 +9938,7 @@ js_DecompileValueGenerator
 (
 cx
 spindex
-Jsvalify
-(
-&
 v
-)
 fallback
 )
 ;
