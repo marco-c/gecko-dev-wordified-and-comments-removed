@@ -177,8 +177,10 @@ GetCanvasTM
 ;
 virtual
 void
-NotifyViewportChange
+NotifyViewportOrTransformChanged
 (
+PRUint32
+aFlags
 )
 ;
 protected

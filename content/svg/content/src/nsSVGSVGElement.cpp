@@ -3918,8 +3918,12 @@ svgframe
 svgframe
 -
 >
-NotifyViewportChange
+NotifyViewportOrTransformChanged
 (
+nsISVGChildFrame
+:
+:
+TRANSFORM_CHANGED
 )
 ;
 }

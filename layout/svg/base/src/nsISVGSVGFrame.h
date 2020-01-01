@@ -22,8 +22,10 @@ nsISVGSVGFrame
 )
 virtual
 void
-NotifyViewportChange
+NotifyViewportOrTransformChanged
 (
+PRUint32
+aFlags
 )
 =
 0
