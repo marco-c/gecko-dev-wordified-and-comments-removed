@@ -11789,6 +11789,16 @@ rv
 PR_FALSE
 )
 ;
+if
+(
+!
+scx
+)
+{
+return
+PR_TRUE
+;
+}
 JSContext
 *
 cx
