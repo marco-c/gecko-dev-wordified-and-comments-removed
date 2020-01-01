@@ -431,15 +431,6 @@ xul
 popupset
 >
 <
-children
-includes
-=
-"
-menupopup
-"
-/
->
-<
 /
 content
 >
