@@ -386,7 +386,7 @@ AsElement
 (
 )
 pseudoType
-GetStyleContext
+StyleContext
 (
 )
 )

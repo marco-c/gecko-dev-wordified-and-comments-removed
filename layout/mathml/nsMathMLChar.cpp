@@ -7102,7 +7102,7 @@ styleContext
 mFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;

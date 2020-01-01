@@ -610,7 +610,7 @@ GetParent
 &
 &
 !
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -3143,7 +3143,7 @@ parentStyleContext
 aColGroupFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -9147,7 +9147,7 @@ IsBorderCollapse
 BCRecalcNeeded
 (
 aOldStyleContext
-GetStyleContext
+StyleContext
 (
 )
 )
@@ -20810,7 +20810,7 @@ aColor
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -

@@ -927,7 +927,7 @@ tableFrame
 BCRecalcNeeded
 (
 aOldStyleContext
-GetStyleContext
+StyleContext
 (
 )
 )
@@ -3125,7 +3125,7 @@ hc
 &
 &
 !
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -3216,7 +3216,7 @@ hc
 &
 &
 !
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -5164,7 +5164,7 @@ aRenderingContext
 this
 aDirtyRect
 rect
-GetStyleContext
+StyleContext
 (
 )
 myBorder

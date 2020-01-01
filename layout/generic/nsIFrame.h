@@ -1207,7 +1207,7 @@ PresContext
 const
 {
 return
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -1404,7 +1404,7 @@ aEnd
 }
 nsStyleContext
 *
-GetStyleContext
+StyleContext
 (
 )
 const

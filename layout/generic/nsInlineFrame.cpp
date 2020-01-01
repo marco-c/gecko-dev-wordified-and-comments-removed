@@ -903,7 +903,7 @@ const
 {
 if
 (
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -4594,7 +4594,7 @@ GetParent
 )
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;

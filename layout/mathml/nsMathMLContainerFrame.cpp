@@ -5126,7 +5126,7 @@ parentContext
 aParentFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;

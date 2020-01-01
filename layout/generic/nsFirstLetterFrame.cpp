@@ -1428,7 +1428,7 @@ parentSC
 this
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -

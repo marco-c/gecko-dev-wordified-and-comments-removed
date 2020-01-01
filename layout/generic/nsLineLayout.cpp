@@ -6876,7 +6876,7 @@ rootPFD
 mFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -8132,7 +8132,7 @@ CalcLineHeight
 spanFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 mBlockReflowState
@@ -9257,7 +9257,7 @@ CalcLineHeight
 frame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 mBlockReflowState
@@ -12669,7 +12669,7 @@ PFD_RECOMPUTEOVERFLOW
 frame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -

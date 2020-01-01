@@ -1161,7 +1161,7 @@ frame
 )
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -2051,7 +2051,7 @@ mStyleContextHolder
 mInnerFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;

@@ -8032,7 +8032,7 @@ HasAuthorSpecifiedRules
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ruleTypeMask

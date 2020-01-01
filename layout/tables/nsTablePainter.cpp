@@ -971,7 +971,7 @@ tableData
 mFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 *
@@ -2552,7 +2552,7 @@ mColGroup
 mFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 *
@@ -2624,7 +2624,7 @@ mCol
 mFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 *
@@ -2672,7 +2672,7 @@ mRowGroup
 mFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 *
@@ -2715,7 +2715,7 @@ mRow
 mFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 *

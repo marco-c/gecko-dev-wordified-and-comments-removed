@@ -692,7 +692,7 @@ style
 frame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;

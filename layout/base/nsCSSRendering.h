@@ -599,7 +599,7 @@ return
 aForFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;

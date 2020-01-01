@@ -1019,7 +1019,7 @@ sc
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;
@@ -2919,7 +2919,7 @@ nsHTMLReflowState
 :
 CalcLineHeight
 (
-GetStyleContext
+StyleContext
 (
 )
 contentRect
@@ -4548,7 +4548,7 @@ const
 {
 if
 (
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -30238,7 +30238,7 @@ nsIAtom
 *
 pseudo
 =
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -30268,7 +30268,7 @@ cellContent
 mParent
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -30534,7 +30534,7 @@ pseudoType
 )
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;

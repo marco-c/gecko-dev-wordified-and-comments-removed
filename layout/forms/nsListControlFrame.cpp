@@ -6027,7 +6027,7 @@ context
 comboboxFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -

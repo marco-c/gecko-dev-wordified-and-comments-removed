@@ -37722,7 +37722,7 @@ sc
 aRootFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;

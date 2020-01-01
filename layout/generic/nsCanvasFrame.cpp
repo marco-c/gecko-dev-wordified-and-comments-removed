@@ -1978,7 +1978,7 @@ root
 root
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -

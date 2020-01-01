@@ -5030,7 +5030,7 @@ nsStyleContext
 *
 parentStyleContext
 =
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -5108,7 +5108,7 @@ nsStyleDisplay
 *
 disp
 =
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -24781,7 +24781,7 @@ nsIAtom
 *
 pseudoType
 =
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -28769,7 +28769,7 @@ HasTerminalNewline
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -33345,7 +33345,7 @@ RecomputePerspectiveChildrenOverflow
 this
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 &
@@ -33396,7 +33396,7 @@ RecomputePerspectiveChildrenOverflow
 this
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 &
@@ -33701,7 +33701,7 @@ if
 child
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -33717,7 +33717,7 @@ aStartStyle
 child
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 =
@@ -34482,7 +34482,7 @@ type
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -34606,7 +34606,7 @@ pseudo
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -34636,7 +34636,7 @@ GetFirstPrincipalChild
 )
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -34791,7 +34791,7 @@ parentPseudo
 parent
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -34851,7 +34851,7 @@ if
 aProspectiveParent
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -34925,7 +34925,7 @@ GetParent
 &
 &
 !
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -35702,7 +35702,7 @@ nsStyleCoord
 &
 verticalAlign
 =
-GetStyleContext
+StyleContext
 (
 )
 -

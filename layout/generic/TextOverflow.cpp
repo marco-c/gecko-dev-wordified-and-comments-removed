@@ -416,7 +416,7 @@ f
 f
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -1199,7 +1199,7 @@ pseudoType
 aBlockFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -

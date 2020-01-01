@@ -18849,7 +18849,7 @@ aContext
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 aFillOrStroke

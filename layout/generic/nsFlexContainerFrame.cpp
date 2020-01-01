@@ -1592,7 +1592,7 @@ pseudoTag
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -2822,7 +2822,7 @@ mAlignSelf
 mFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
@@ -3854,7 +3854,7 @@ if
 child
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -

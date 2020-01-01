@@ -1212,7 +1212,7 @@ nsStyleContext
 *
 parentStyleContext
 =
-GetStyleContext
+StyleContext
 (
 )
 -

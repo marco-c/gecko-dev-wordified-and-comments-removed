@@ -1636,7 +1636,7 @@ context
 f
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 ;

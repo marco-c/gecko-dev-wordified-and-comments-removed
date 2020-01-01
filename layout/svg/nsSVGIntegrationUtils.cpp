@@ -284,7 +284,7 @@ GetParent
 )
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -

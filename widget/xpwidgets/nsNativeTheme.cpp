@@ -185,7 +185,7 @@ context
 aFrame
 -
 >
-GetStyleContext
+StyleContext
 (
 )
 -
