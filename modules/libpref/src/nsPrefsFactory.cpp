@@ -170,10 +170,6 @@ Shutdown
 (
 )
 ;
-PREF_Cleanup
-(
-)
-;
 }
 static
 const
