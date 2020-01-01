@@ -30646,10 +30646,6 @@ blockChain
 class
 PCStack
 {
-JSContext
-*
-cx
-;
 jsbytecode
 *
 *
@@ -30660,18 +30656,10 @@ depth_
 ;
 public
 :
-explicit
 PCStack
 (
-JSContext
-*
-cx
 )
 :
-cx
-(
-cx
-)
 stack
 (
 NULL
@@ -31041,9 +31029,6 @@ length
 ;
 PCStack
 pcstack
-(
-cx
-)
 ;
 if
 (
@@ -32401,9 +32386,6 @@ NULL
 ;
 PCStack
 pcstack
-(
-cx
-)
 ;
 if
 (
@@ -33184,7 +33166,6 @@ Guard
 :
 pcstack
 (
-NULL
 )
 printer
 (

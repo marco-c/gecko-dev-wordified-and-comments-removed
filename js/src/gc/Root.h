@@ -782,7 +782,6 @@ rootKind
 )
 ;
 }
-;
 }
 ;
 template
