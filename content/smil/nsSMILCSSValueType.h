@@ -135,7 +135,8 @@ aResult
 )
 const
 ;
-PRBool
+static
+void
 ValueFromString
 (
 nsCSSProperty
@@ -151,8 +152,8 @@ nsSMILValue
 &
 aValue
 )
-const
 ;
+static
 PRBool
 ValueToString
 (
@@ -164,7 +165,6 @@ nsAString
 &
 aString
 )
-const
 ;
 static
 nsSMILCSSValueType
