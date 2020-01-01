@@ -50,6 +50,13 @@ h
 #
 include
 "
+jsobjinlines
+.
+h
+"
+#
+include
+"
 jit
 /
 BaselineFrame

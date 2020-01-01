@@ -103,17 +103,6 @@ include
 "
 vm
 /
-GlobalObject
--
-inl
-.
-h
-"
-#
-include
-"
-vm
-/
 Stack
 -
 inl

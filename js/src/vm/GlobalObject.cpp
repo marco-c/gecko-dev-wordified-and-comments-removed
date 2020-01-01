@@ -4,8 +4,6 @@ include
 vm
 /
 GlobalObject
--
-inl
 .
 h
 "
