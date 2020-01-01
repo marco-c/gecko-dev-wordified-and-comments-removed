@@ -742,6 +742,8 @@ rv
 if
 (
 column
+.
+id
 =
 =
 "
@@ -763,6 +765,8 @@ else
 if
 (
 column
+.
+id
 =
 =
 "
@@ -820,8 +824,7 @@ cycleHeader
 :
 function
 (
-aColId
-aElt
+column
 )
 {
 }
@@ -830,7 +833,6 @@ getRowProperties
 function
 (
 row
-column
 prop
 )
 {
@@ -840,7 +842,6 @@ getColumnProperties
 function
 (
 column
-columnElement
 prop
 )
 {
@@ -850,6 +851,7 @@ getCellProperties
 function
 (
 row
+column
 prop
 )
 {
@@ -1429,6 +1431,8 @@ rv
 if
 (
 column
+.
+id
 =
 =
 "
@@ -1486,8 +1490,7 @@ cycleHeader
 :
 function
 (
-aColId
-aElt
+column
 )
 {
 }
@@ -1496,7 +1499,6 @@ getRowProperties
 function
 (
 row
-column
 prop
 )
 {
@@ -1506,7 +1508,6 @@ getColumnProperties
 function
 (
 column
-columnElement
 prop
 )
 {
@@ -1516,6 +1517,7 @@ getCellProperties
 function
 (
 row
+column
 prop
 )
 {
@@ -2057,6 +2059,8 @@ selection
 =
 box
 .
+view
+.
 selection
 ;
 var
@@ -2388,7 +2392,7 @@ select
 =
 tree
 .
-treeBoxObject
+view
 .
 selection
 ;
@@ -2664,8 +2668,6 @@ selectedNumber
 {
 tree
 .
-treeBoxObject
-.
 view
 .
 selection
@@ -2677,8 +2679,6 @@ select
 )
 ;
 tree
-.
-treeBoxObject
 .
 view
 .
