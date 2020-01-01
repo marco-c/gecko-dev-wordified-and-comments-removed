@@ -5295,10 +5295,6 @@ JS_TRUE
 #
 ifdef
 JS_TRACER
-extern
-jsdouble
-js_NaN
-;
 jsdouble
 FASTCALL
 js_String_p_charCodeAt
