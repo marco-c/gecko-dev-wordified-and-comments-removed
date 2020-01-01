@@ -336,10 +336,6 @@ TimeEvent
 )
 DOMCI_CLASS
 (
-SVGFEConvolveMatrixElement
-)
-DOMCI_CLASS
-(
 SVGFEMorphologyElement
 )
 DOMCI_CLASS

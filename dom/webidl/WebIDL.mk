@@ -799,6 +799,10 @@ SVGFECompositeElement
 .
 webidl
 \
+SVGFEConvolveMatrixElement
+.
+webidl
+\
 SVGFEDiffuseLightingElement
 .
 webidl
