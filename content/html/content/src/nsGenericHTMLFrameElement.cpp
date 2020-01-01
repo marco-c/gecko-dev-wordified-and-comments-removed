@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsIPrivateDOMEvent
-.
-h
-"
-#
-include
-"
 nsIDOMCustomEvent
 .
 h

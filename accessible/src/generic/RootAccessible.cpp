@@ -293,13 +293,6 @@ h
 #
 include
 "
-nsIPrivateDOMEvent
-.
-h
-"
-#
-include
-"
 nsFocusManager
 .
 h

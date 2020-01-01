@@ -3091,13 +3091,6 @@ h
 #
 include
 "
-nsIPrivateDOMEvent
-.
-h
-"
-#
-include
-"
 nsIDOMConnection
 .
 h
