@@ -124,8 +124,7 @@ obj
 asGlobal
 (
 )
--
->
+.
 getOrCreateObjectPrototype
 (
 cx
@@ -161,8 +160,7 @@ obj
 asGlobal
 (
 )
--
->
+.
 getOrCreateFunctionPrototype
 (
 cx
@@ -985,6 +983,7 @@ NULL
 ;
 obj
 =
+&
 obj_
 -
 >

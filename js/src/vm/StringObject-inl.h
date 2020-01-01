@@ -16,7 +16,7 @@ js
 :
 :
 StringObject
-*
+&
 JSObject
 :
 :
@@ -32,6 +32,7 @@ isString
 )
 ;
 return
+*
 static_cast
 <
 js
@@ -41,14 +42,7 @@ StringObject
 *
 >
 (
-const_cast
-<
-JSObject
-*
->
-(
 this
-)
 )
 ;
 }
@@ -226,7 +220,7 @@ return
 NULL
 ;
 StringObject
-*
+&
 strobj
 =
 obj
@@ -240,8 +234,7 @@ if
 (
 !
 strobj
--
->
+.
 init
 (
 cx
@@ -252,6 +245,7 @@ return
 NULL
 ;
 return
+&
 strobj
 ;
 }
@@ -297,7 +291,7 @@ return
 NULL
 ;
 StringObject
-*
+&
 strobj
 =
 obj
@@ -311,8 +305,7 @@ if
 (
 !
 strobj
--
->
+.
 init
 (
 cx
@@ -323,6 +316,7 @@ return
 NULL
 ;
 return
+&
 strobj
 ;
 }

@@ -146,10 +146,15 @@ i
 )
 tmp
 =
+&
 tmp
 -
 >
-internalScopeChain
+asScope
+(
+)
+.
+enclosingScope
 (
 )
 ;
@@ -929,7 +934,7 @@ tmp
 pobj
 -
 >
-scopeChain
+enclosingScope
 (
 )
 ;

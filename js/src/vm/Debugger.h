@@ -1633,6 +1633,7 @@ const
 return
 observesGlobal
 (
+&
 fp
 -
 >
@@ -1640,7 +1641,7 @@ scopeChain
 (
 )
 .
-getGlobal
+global
 (
 )
 )

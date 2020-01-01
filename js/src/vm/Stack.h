@@ -98,6 +98,9 @@ AllFramesIter
 class
 ArgumentsObject
 ;
+class
+StaticBlockObject
+;
 #
 ifdef
 JS_METHODJIT
@@ -851,7 +854,7 @@ ncode_
 Value
 rval_
 ;
-JSObject
+StaticBlockObject
 *
 blockChain_
 ;
@@ -2401,7 +2404,7 @@ HAS_BLOCKCHAIN
 blockChain_
 ;
 }
-JSObject
+StaticBlockObject
 *
 maybeBlockChain
 (
@@ -2419,7 +2422,7 @@ blockChain_
 NULL
 ;
 }
-JSObject
+StaticBlockObject
 &
 blockChain
 (
@@ -2441,7 +2444,7 @@ blockChain_
 void
 setBlockChain
 (
-JSObject
+StaticBlockObject
 *
 obj
 )

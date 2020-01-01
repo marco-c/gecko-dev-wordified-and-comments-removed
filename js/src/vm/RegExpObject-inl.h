@@ -55,7 +55,7 @@ js
 :
 :
 RegExpObject
-*
+&
 JSObject
 :
 :
@@ -71,6 +71,7 @@ isRegExp
 )
 ;
 return
+*
 static_cast
 <
 js

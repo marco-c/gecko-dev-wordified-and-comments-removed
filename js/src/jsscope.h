@@ -1259,6 +1259,13 @@ class
 js
 :
 :
+StaticBlockObject
+;
+friend
+class
+js
+:
+:
 PropertyTree
 ;
 friend

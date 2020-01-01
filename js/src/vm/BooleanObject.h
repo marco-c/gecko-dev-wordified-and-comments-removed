@@ -27,8 +27,6 @@ class
 BooleanObject
 :
 public
-:
-:
 JSObject
 {
 static

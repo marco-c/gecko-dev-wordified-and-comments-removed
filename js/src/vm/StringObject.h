@@ -34,8 +34,6 @@ class
 StringObject
 :
 public
-:
-:
 JSObject
 {
 static

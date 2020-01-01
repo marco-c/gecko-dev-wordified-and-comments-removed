@@ -11673,6 +11673,7 @@ GlobalObject
 *
 global
 =
+&
 obj
 -
 >

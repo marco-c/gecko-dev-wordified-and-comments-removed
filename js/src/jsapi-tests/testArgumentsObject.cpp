@@ -677,7 +677,7 @@ v
 )
 ;
 ArgumentsObject
-*
+&
 argsobj
 =
 JSVAL_TO_OBJECT
@@ -740,8 +740,7 @@ elems
 CHECK
 (
 argsobj
--
->
+.
 getElements
 (
 i

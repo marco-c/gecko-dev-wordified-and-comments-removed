@@ -3007,7 +3007,7 @@ return
 obj
 -
 >
-scopeChain
+enclosingScope
 (
 )
 ;

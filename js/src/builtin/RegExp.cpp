@@ -1053,6 +1053,7 @@ builder
 .
 build
 (
+&
 sourceObj
 .
 asRegExp
@@ -1353,6 +1354,7 @@ RegExpObjectBuilder
 builder
 (
 cx
+&
 obj
 -
 >
@@ -1568,8 +1570,7 @@ obj
 asRegExp
 (
 )
--
->
+.
 toString
 (
 cx
@@ -2298,6 +2299,7 @@ GlobalObject
 *
 global
 =
+&
 obj
 -
 >
@@ -2339,6 +2341,7 @@ RegExpObject
 *
 reproto
 =
+&
 proto
 -
 >
@@ -2629,6 +2632,7 @@ RegExpObject
 *
 reobj
 =
+&
 obj
 -
 >

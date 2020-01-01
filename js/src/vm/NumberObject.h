@@ -27,8 +27,6 @@ class
 NumberObject
 :
 public
-:
-:
 JSObject
 {
 static

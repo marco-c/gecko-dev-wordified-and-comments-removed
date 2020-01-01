@@ -51,7 +51,7 @@ include
 "
 vm
 /
-CallObject
+ScopeObject
 .
 h
 "

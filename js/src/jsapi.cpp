@@ -6294,6 +6294,7 @@ return
 JS_EnterCrossCompartmentCall
 (
 cx
+&
 Valueify
 (
 target
@@ -6304,7 +6305,7 @@ scopeChain
 (
 )
 .
-getGlobal
+global
 (
 )
 )
@@ -7934,11 +7935,10 @@ return
 obj
 -
 >
-asGlobal
+global
 (
 )
--
->
+.
 initStandardClasses
 (
 cx
@@ -10221,10 +10221,11 @@ obj
 )
 ;
 return
+&
 obj
 -
 >
-getGlobal
+global
 (
 )
 ;
@@ -15082,7 +15083,7 @@ JS_ASSERT
 obj
 -
 >
-isInternalScope
+isScope
 (
 )
 )
@@ -15135,7 +15136,7 @@ JS_ASSERT
 obj
 -
 >
-isInternalScope
+isScope
 (
 )
 )
@@ -17805,10 +17806,11 @@ Native
 getter
 0
 0
+&
 obj
 -
 >
-getGlobal
+global
 (
 )
 NULL
@@ -17854,10 +17856,11 @@ Native
 setter
 1
 0
+&
 obj
 -
 >
-getGlobal
+global
 (
 )
 NULL
@@ -20689,8 +20692,7 @@ obj
 asGlobal
 (
 )
--
->
+.
 clear
 (
 cx
@@ -22528,7 +22530,7 @@ obj
 obj
 -
 >
-scopeChain
+enclosingScope
 (
 )
 ;
@@ -30738,8 +30740,7 @@ obj
 asGlobal
 (
 )
--
->
+.
 getRegExpStatics
 (
 )
@@ -30818,8 +30819,7 @@ obj
 asGlobal
 (
 )
--
->
+.
 getRegExpStatics
 (
 )
@@ -30883,8 +30883,7 @@ obj
 asGlobal
 (
 )
--
->
+.
 getRegExpStatics
 (
 )
@@ -30935,8 +30934,7 @@ obj
 asGlobal
 (
 )
--
->
+.
 getRegExpStatics
 (
 )
@@ -30997,8 +30995,7 @@ obj
 asGlobal
 (
 )
--
->
+.
 getRegExpStatics
 (
 )
@@ -31008,6 +31005,7 @@ ExecuteRegExp
 (
 cx
 res
+&
 reobj
 -
 >
@@ -31195,6 +31193,7 @@ ExecuteRegExp
 (
 cx
 NULL
+&
 obj
 -
 >
@@ -31278,8 +31277,7 @@ obj
 asRegExp
 (
 )
--
->
+.
 getFlags
 (
 )
@@ -31317,8 +31315,7 @@ obj
 asRegExp
 (
 )
--
->
+.
 getSource
 (
 )

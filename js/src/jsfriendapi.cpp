@@ -217,6 +217,7 @@ fp
 )
 {
 return
+&
 Valueify
 (
 fp
@@ -227,7 +228,7 @@ scopeChain
 (
 )
 .
-getGlobal
+global
 (
 )
 ;
@@ -624,7 +625,6 @@ js
 :
 IsScopeObject
 (
-const
 JSObject
 *
 obj
@@ -634,7 +634,7 @@ return
 obj
 -
 >
-isInternalScope
+isScope
 (
 )
 ;
@@ -649,7 +649,6 @@ js
 :
 GetObjectParentMaybeScope
 (
-const
 JSObject
 *
 obj
@@ -659,7 +658,7 @@ return
 obj
 -
 >
-scopeChain
+enclosingScope
 (
 )
 ;
@@ -680,10 +679,11 @@ obj
 )
 {
 return
+&
 obj
 -
 >
-getGlobal
+global
 (
 )
 ;
@@ -697,7 +697,6 @@ js
 :
 GetObjectSlotSpan
 (
-const
 JSObject
 *
 obj
