@@ -197,10 +197,6 @@ const
 nsIntRegion
 &
 aValidRegion
-float
-aXResolution
-float
-aYResolution
 )
 ;
 virtual
@@ -221,12 +217,6 @@ aNewBack
 nsIntRegion
 *
 aNewBackValidRegion
-float
-*
-aNewXResolution
-float
-*
-aNewYResolution
 OptionalThebesBuffer
 *
 aReadOnlyFront
