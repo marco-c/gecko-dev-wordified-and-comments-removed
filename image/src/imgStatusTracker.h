@@ -527,6 +527,11 @@ OnUnlockedDraw
 )
 ;
 void
+OnStopFrame
+(
+)
+;
+void
 RecordBlockOnload
 (
 )
