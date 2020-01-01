@@ -177,6 +177,15 @@ aModType
 MOZ_OVERRIDE
 ;
 virtual
+void
+DidSetStyleContext
+(
+nsStyleContext
+*
+aOldStyleContext
+)
+;
+virtual
 nsIAtom
 *
 GetType
