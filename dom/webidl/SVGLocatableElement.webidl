@@ -196,7 +196,7 @@ Throws
 SVGMatrix
 getTransformToElement
 (
-SVGElement
+SVGLocatableElement
 element
 )
 ;

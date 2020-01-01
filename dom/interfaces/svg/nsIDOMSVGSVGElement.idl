@@ -220,7 +220,6 @@ nsIDOMSVGTests
 nsIDOMSVGLangSpace
 nsIDOMSVGExternalResourcesRequired
 nsIDOMSVGStylable
-nsIDOMSVGLocatable
 nsIDOMSVGFitToViewBox
 nsIDOMSVGZoomAndPan
 events

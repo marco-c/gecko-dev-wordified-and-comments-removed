@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsIDOMSVGTransformable
+SVGTransformableElement
 .
 h
 "
@@ -103,7 +103,7 @@ aPrevInFlow
 {
 nsCOMPtr
 <
-nsIDOMSVGTransformable
+SVGTransformableElement
 >
 transformable
 =

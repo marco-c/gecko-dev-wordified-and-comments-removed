@@ -208,10 +208,6 @@ nsIDOMSVGLineElement
 .
 idl
 \
-nsIDOMSVGLocatable
-.
-idl
-\
 nsIDOMSVGMarkerElement
 .
 idl
@@ -309,10 +305,6 @@ nsIDOMSVGTextPositionElem
 idl
 \
 nsIDOMSVGTitleElement
-.
-idl
-\
-nsIDOMSVGTransformable
 .
 idl
 \

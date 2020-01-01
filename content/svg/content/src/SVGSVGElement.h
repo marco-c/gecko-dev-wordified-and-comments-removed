@@ -25,13 +25,6 @@ h
 #
 include
 "
-nsIDOMSVGLocatable
-.
-h
-"
-#
-include
-"
 nsISVGPoint
 .
 h
