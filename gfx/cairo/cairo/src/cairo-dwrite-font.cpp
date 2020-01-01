@@ -1408,6 +1408,14 @@ transformed
 =
 1
 ;
+const
+double
+EPSILON
+=
+0
+.
+0001
+;
 for
 (
 int
@@ -1448,6 +1456,8 @@ i
 ]
 .
 x
++
+EPSILON
 ;
 double
 y
@@ -6497,6 +6507,14 @@ transform
 =
 TRUE
 ;
+const
+double
+EPSILON
+=
+0
+.
+0001
+;
 for
 (
 int
@@ -6541,6 +6559,8 @@ x
 fontArea
 .
 left
++
+EPSILON
 ;
 double
 y
