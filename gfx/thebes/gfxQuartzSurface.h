@@ -163,6 +163,14 @@ GetDefaultContextFlags
 )
 const
 ;
+already_AddRefed
+<
+gfxImageSurface
+>
+GetAsImageSurface
+(
+)
+;
 protected
 :
 CGContextRef
