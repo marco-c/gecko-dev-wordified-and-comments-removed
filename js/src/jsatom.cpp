@@ -458,6 +458,12 @@ js_test_str
 use
 strict
 "
+"
+loc
+"
+"
+line
+"
 #
 if
 JS_HAS_XML_SUPPORT

@@ -481,6 +481,10 @@ testGCChunkAlloc
 .
 cpp
 \
+testGetPropertyDefault
+.
+cpp
+\
 testIntString
 .
 cpp
