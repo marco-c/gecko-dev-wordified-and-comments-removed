@@ -761,6 +761,12 @@ java
 \
 gfx
 /
+JavaPanZoomController
+.
+java
+\
+gfx
+/
 Layer
 .
 java
