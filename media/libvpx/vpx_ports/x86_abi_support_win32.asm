@@ -286,9 +286,13 @@ macro
 const
 endm
 HIDDEN_DATA
-textequ
+macro
+v
+exitm
 <
+v
 >
+endm
 .
 686p
 .

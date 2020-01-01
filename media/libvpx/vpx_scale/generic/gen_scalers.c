@@ -3785,12 +3785,16 @@ int
 dest_width
 )
 {
-unsigned
 int
 i
 ;
 int
 temp
+;
+int
+width
+=
+dest_width
 ;
 (
 void
@@ -3805,7 +3809,7 @@ i
 ;
 i
 <
-dest_width
+width
 ;
 i
 +

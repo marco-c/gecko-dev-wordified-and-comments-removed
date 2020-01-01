@@ -141,6 +141,7 @@ rbp
 rsp
 SHADOW_ARGS_TO_STACK
 7
+SAVE_XMM
 GET_GOT
 rbx
 push
@@ -1537,6 +1538,7 @@ rdi
 pop
 rsi
 RESTORE_GOT
+RESTORE_XMM
 UNSHADOW_ARGS
 pop
 rbp
@@ -1584,6 +1586,7 @@ rbp
 rsp
 SHADOW_ARGS_TO_STACK
 5
+SAVE_XMM
 GET_GOT
 rbx
 push
@@ -2250,6 +2253,7 @@ rdi
 pop
 rsi
 RESTORE_GOT
+RESTORE_XMM
 UNSHADOW_ARGS
 pop
 rbp
@@ -2292,6 +2296,7 @@ rbp
 rsp
 SHADOW_ARGS_TO_STACK
 5
+SAVE_XMM
 GET_GOT
 rbx
 push
@@ -3008,6 +3013,7 @@ rdi
 pop
 rsi
 RESTORE_GOT
+RESTORE_XMM
 UNSHADOW_ARGS
 pop
 rbp

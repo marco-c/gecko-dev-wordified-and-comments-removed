@@ -35,7 +35,7 @@ h
 define
 VPX_CODEC_INTERNAL_ABI_VERSION
 (
-2
+3
 )
 /
 *
@@ -429,10 +429,6 @@ const
 char
 *
 err_detail
-;
-unsigned
-int
-eval_counter
 ;
 vpx_codec_flags_t
 init_flags

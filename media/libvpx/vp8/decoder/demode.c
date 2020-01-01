@@ -332,11 +332,6 @@ mb_cols
 MB_PREDICTION_MODE
 y_mode
 ;
-vp8dx_bool_decoder_fill
-(
-bc
-)
-;
 m
 -
 >

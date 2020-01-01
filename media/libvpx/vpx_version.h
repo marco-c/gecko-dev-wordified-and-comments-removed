@@ -9,7 +9,7 @@ VERSION_MINOR
 #
 define
 VERSION_PATCH
-0
+2
 #
 define
 VERSION_EXTRA
@@ -45,7 +45,7 @@ v0
 .
 9
 .
-0
+2
 "
 #
 define
@@ -55,5 +55,5 @@ v0
 .
 9
 .
-0
+2
 "

@@ -20,9 +20,9 @@ vp8_short_idct4x4llm_mmx
 )
 ;
 extern
-prototype_idct_scalar
+prototype_idct_scalar_add
 (
-vp8_dc_only_idct_mmx
+vp8_dc_only_idct_add_mmx
 )
 ;
 extern
@@ -57,11 +57,11 @@ vp8_idct_idct16
 vp8_short_idct4x4llm_mmx
 #
 undef
-vp8_idct_idct1_scalar
+vp8_idct_idct1_scalar_add
 #
 define
-vp8_idct_idct1_scalar
-vp8_dc_only_idct_mmx
+vp8_idct_idct1_scalar_add
+vp8_dc_only_idct_add_mmx
 #
 undef
 vp8_idct_iwalsh16

@@ -101,6 +101,10 @@ i
 +
 )
 {
+if
+(
+el
+)
 vpx_memset
 (
 dest_ptr1

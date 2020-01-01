@@ -1006,6 +1006,7 @@ if
 !
 res
 )
+{
 vp8_init_ctx
 (
 ctx
@@ -1026,6 +1027,7 @@ defer_alloc
 =
 1
 ;
+}
 }
 return
 res
@@ -2381,6 +2383,10 @@ done
 ;
 if
 (
+!
+res
+&
+&
 ctx
 -
 >
@@ -2974,8 +2980,8 @@ vpx_codec_vp8_dx_algo
 =
 {
 "
-vpx
-Technologies
+WebM
+Project
 VP8
 Decoder
 "
@@ -3005,8 +3011,8 @@ vpx_codec_vp8_algo
 =
 {
 "
-vpx
-Technologies
+WebM
+Project
 VP8
 Decoder
 (

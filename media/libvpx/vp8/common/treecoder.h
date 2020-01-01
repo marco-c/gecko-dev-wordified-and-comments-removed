@@ -105,6 +105,17 @@ vp8_tree
 )
 ;
 void
+vp8_tokens_from_tree_offset
+(
+struct
+vp8_token_struct
+*
+vp8_tree
+int
+offset
+)
+;
+void
 vp8_tree_probs_from_distribution
 (
 int

@@ -37,6 +37,7 @@ unsigned
 char
 uc
 ;
+static
 __inline
 signed
 char
@@ -80,6 +81,7 @@ char
 t
 ;
 }
+static
 __inline
 signed
 char
@@ -282,6 +284,7 @@ return
 mask
 ;
 }
+static
 __inline
 signed
 char
@@ -344,6 +347,7 @@ return
 hev
 ;
 }
+static
 __inline
 void
 vp8_filter
@@ -927,6 +931,7 @@ count
 )
 ;
 }
+static
 __inline
 void
 vp8_mbfilter
@@ -1650,6 +1655,7 @@ count
 )
 ;
 }
+static
 __inline
 signed
 char
@@ -1735,6 +1741,7 @@ return
 mask
 ;
 }
+static
 __inline
 void
 vp8_simple_filter

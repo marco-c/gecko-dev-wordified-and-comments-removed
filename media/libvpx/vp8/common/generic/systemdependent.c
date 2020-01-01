@@ -142,9 +142,9 @@ rtcd
 >
 idct
 .
-idct1_scalar
+idct1_scalar_add
 =
-vp8_dc_only_idct_c
+vp8_dc_only_idct_add_c
 ;
 rtcd
 -
@@ -367,7 +367,12 @@ if
 CONFIG_POSTPROC
 |
 |
+(
 CONFIG_VP8_ENCODER
+&
+&
+CONFIG_PSNR
+)
 rtcd
 -
 >

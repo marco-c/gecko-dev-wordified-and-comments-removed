@@ -374,6 +374,7 @@ rbp
 rsp
 SHADOW_ARGS_TO_STACK
 4
+SAVE_XMM
 push
 rsi
 push
@@ -642,6 +643,7 @@ pop
 rdi
 pop
 rsi
+RESTORE_XMM
 UNSHADOW_ARGS
 pop
 rbp
