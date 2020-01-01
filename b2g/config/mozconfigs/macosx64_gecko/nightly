@@ -1,3 +1,11 @@
+.
+topsrcdir
+/
+build
+/
+macosx
+/
+common
 ac_add_options
 -
 -
@@ -103,12 +111,6 @@ warnings
 as
 -
 errors
-ac_add_options
--
--
-with
--
-ccache
 #
 B2G
 Stuff
