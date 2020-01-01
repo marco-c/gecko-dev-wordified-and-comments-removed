@@ -58,8 +58,9 @@ close
 (
 )
 ;
-delete
 testGenerator
+=
+undefined
 ;
 }
 }
