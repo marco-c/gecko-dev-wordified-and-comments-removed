@@ -3149,16 +3149,6 @@ postData
 ;
 if
 (
-altEnter
-)
-params
-.
-inBackground
-=
-false
-;
-if
-(
 !
 this
 .

@@ -1313,16 +1313,7 @@ loadInBackground
 =
 aFromChrome
 ?
-getBoolPref
-(
-"
-browser
-.
-tabs
-.
-loadBookmarksInBackground
-"
-)
+false
 :
 getBoolPref
 (
