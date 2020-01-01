@@ -572,6 +572,8 @@ result
 URI_STD
 |
 URI_IS_UI_RESOURCE
+|
+URI_IS_LOCAL_RESOURCE
 ;
 return
 NS_OK
