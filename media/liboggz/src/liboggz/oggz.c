@@ -1345,6 +1345,13 @@ granulerate_d
 stream
 -
 >
+first_granule
+=
+0
+;
+stream
+-
+>
 basegranule
 =
 0

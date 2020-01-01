@@ -56,7 +56,7 @@ top_field_first
 dirac_info
 ;
 extern
-void
+int
 dirac_parse_info
 (
 dirac_info
