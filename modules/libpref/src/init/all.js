@@ -10366,7 +10366,6 @@ zh
 HK
 "
 "
-_HKSCS
 MingLiu_HKSCS
 Ming
 (
@@ -10395,7 +10394,6 @@ zh
 HK
 "
 "
-_HKSCS
 MingLiU_HKSCS
 Ming
 (
@@ -10423,7 +10421,6 @@ HK
 "
 "
 MingLiU_HKSCS
-_HKSCS
 Ming
 (
 for
