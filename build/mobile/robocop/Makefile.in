@@ -952,6 +952,13 @@ AndroidManifest
 .
 xml
 (
+TESTPATH
+)
+/
+assets
+/
+*
+(
 AAPT
 )
 package
@@ -977,6 +984,13 @@ I
 -
 S
 res
+-
+A
+(
+TESTPATH
+)
+/
+assets
 -
 F
 -
