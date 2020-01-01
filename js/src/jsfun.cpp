@@ -7628,7 +7628,6 @@ js_toSource_str
 fun_toSource
 0
 0
-0
 )
 #
 endif
@@ -7638,7 +7637,6 @@ js_toString_str
 fun_toString
 0
 0
-0
 )
 JS_FN
 (
@@ -7646,7 +7644,6 @@ JS_FN
 apply
 "
 fun_apply
-0
 2
 0
 )
@@ -7654,7 +7651,6 @@ JS_FN
 (
 call_str
 fun_call
-0
 1
 0
 )
@@ -8977,7 +8973,7 @@ u
 .
 n
 .
-minargs
+spare
 =
 0
 ;
