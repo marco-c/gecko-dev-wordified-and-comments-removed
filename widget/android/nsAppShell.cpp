@@ -379,13 +379,13 @@ mBrowserApp
 (
 aBrowserApp
 )
-mTabId
-(
-aTabId
-)
 mPoints
 (
 aPoints
+)
+mTabId
+(
+aTabId
 )
 mToken
 (
@@ -3681,7 +3681,7 @@ AndroidGeckoEvent
 COMPOSITOR_RESUME
 :
 {
-int
+PRUint32
 i
 =
 0

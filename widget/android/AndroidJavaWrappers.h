@@ -2474,7 +2474,7 @@ JNIEnv
 jenv
 jfieldID
 field
-PRUint32
+PRInt32
 count
 )
 ;
@@ -2492,7 +2492,7 @@ JNIEnv
 jenv
 jfieldID
 field
-PRUint32
+PRInt32
 count
 )
 ;
@@ -2510,7 +2510,7 @@ JNIEnv
 jenv
 jfieldID
 field
-PRUint32
+PRInt32
 count
 )
 ;
