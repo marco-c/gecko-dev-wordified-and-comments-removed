@@ -159,6 +159,14 @@ aRect
 const
 {
 return
+aRect
+.
+IsEmpty
+(
+)
+|
+|
+(
 (
 PRBool
 )
@@ -207,6 +215,7 @@ YMost
 =
 YMost
 (
+)
 )
 )
 )
