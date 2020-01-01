@@ -3763,6 +3763,9 @@ CreateLetterFrame
 nsIFrame
 *
 aBlockFrame
+nsIFrame
+*
+aBlockContinuation
 nsIContent
 *
 aTextContent
@@ -3796,6 +3799,9 @@ nsIFrame
 aBlockFrame
 nsIFrame
 *
+aBlockContinuation
+nsIFrame
+*
 aParentFrame
 nsIFrame
 *
@@ -3814,7 +3820,7 @@ nsIFrame
 aPrevFrame
 nsFrameItems
 &
-aLetterFrame
+aLetterFrames
 PRBool
 *
 aStopLooking

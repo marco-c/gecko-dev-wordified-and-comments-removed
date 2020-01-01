@@ -38330,10 +38330,10 @@ GetParent
 (
 )
 ;
-InitAndRestoreFrame
-(
-aState
-letterContent
+nsIFrame
+*
+containingBlock
+=
 aState
 .
 GetGeometricParent
@@ -38346,6 +38346,12 @@ GetStyleDisplay
 )
 aParentFrame
 )
+;
+InitAndRestoreFrame
+(
+aState
+letterContent
+containingBlock
 nsnull
 letterFrame
 )
@@ -38533,7 +38539,7 @@ GetParent
 )
 !
 =
-aBlockFrame
+containingBlock
 )
 {
 link
@@ -38607,6 +38613,9 @@ CreateLetterFrame
 nsIFrame
 *
 aBlockFrame
+nsIFrame
+*
+aBlockContinuation
 nsIContent
 *
 aTextContent
@@ -38747,17 +38756,12 @@ textSC
 ;
 NS_ASSERTION
 (
-aBlockFrame
+aBlockContinuation
 =
 =
 GetFloatContainingBlock
 (
 aParentFrame
-)
--
->
-GetFirstContinuation
-(
 )
 "
 Containing
@@ -38776,7 +38780,7 @@ GetAbsoluteContainingBlock
 (
 aParentFrame
 )
-aBlockFrame
+aBlockContinuation
 )
 ;
 const
@@ -38984,6 +38988,7 @@ WrapFramesInFirstLetterFrame
 (
 aBlockFrame
 aBlockFrame
+aBlockFrame
 aBlockFrames
 .
 FirstChild
@@ -39083,6 +39088,9 @@ WrapFramesInFirstLetterFrame
 nsIFrame
 *
 aBlockFrame
+nsIFrame
+*
+aBlockContinuation
 nsIFrame
 *
 aParentFrame
@@ -39188,6 +39196,7 @@ rv
 CreateLetterFrame
 (
 aBlockFrame
+aBlockContinuation
 textContent
 aParentFrame
 aLetterFrames
@@ -39263,6 +39272,7 @@ nsnull
 WrapFramesInFirstLetterFrame
 (
 aBlockFrame
+aBlockContinuation
 frame
 kids
 aModifiedParent
@@ -40161,6 +40171,7 @@ rv
 WrapFramesInFirstLetterFrame
 (
 aBlockFrame
+continuation
 continuation
 continuation
 -
