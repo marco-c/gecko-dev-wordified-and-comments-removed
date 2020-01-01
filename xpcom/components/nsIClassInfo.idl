@@ -199,14 +199,14 @@ to
 implement
 nsIClassInfo
 see
-nsIClassInfo
+nsIClassInfoImpl
 .
 h
 for
+*
 instructions
 -
 -
-*
 you
 most
 likely
