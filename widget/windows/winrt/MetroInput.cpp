@@ -46,6 +46,13 @@ h
 "
 #
 include
+"
+UIABridgePrivate
+.
+h
+"
+#
+include
 <
 windows
 .
