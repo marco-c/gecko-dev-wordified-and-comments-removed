@@ -759,7 +759,7 @@ try
             
 output
 =
-subprocess
+self
 .
 check_output
 (
@@ -873,7 +873,7 @@ exit
             
 output
 =
-subprocess
+self
 .
 check_output
 (
@@ -1107,7 +1107,7 @@ None
         
 installed
 =
-subprocess
+self
 .
 check_output
 (
