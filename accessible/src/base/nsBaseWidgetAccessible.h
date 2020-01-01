@@ -219,6 +219,14 @@ Shutdown
 ;
 protected
 :
+already_AddRefed
+<
+nsIAccessible
+>
+GetActionAccessible
+(
+)
+;
 virtual
 void
 CacheActionContent
