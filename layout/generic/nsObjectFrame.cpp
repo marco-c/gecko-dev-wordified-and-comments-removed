@@ -6785,6 +6785,16 @@ contentPixels
 dirtyPixels
 )
 ;
+if
+(
+clipPixels
+.
+IsEmpty
+(
+)
+)
+return
+;
 gfxRect
 nativeClipRect
 (
@@ -16166,6 +16176,9 @@ GetWidth
 )
 !
 =
+(
+size_t
+)
 aWidth
 |
 |
@@ -16177,6 +16190,9 @@ GetHeight
 )
 !
 =
+(
+size_t
+)
 aHeight
 )
 )
