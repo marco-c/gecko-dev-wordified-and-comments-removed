@@ -908,6 +908,10 @@ JSTraceableNative
 *
 pendingTraceableNative
 ;
+jsval
+*
+global_dslots
+;
 bool
 isGlobal
 (
