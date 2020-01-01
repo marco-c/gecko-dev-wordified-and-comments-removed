@@ -642,15 +642,6 @@ PRUint8
 mCtxType
 )
 ;
-float
-GetMMPerPx
-(
-PRUint8
-mCtxType
-=
-0
-)
-;
 gfxMatrix
 GetViewBoxTransform
 (
@@ -926,9 +917,6 @@ mCoordCtx
 float
 mViewportWidth
 mViewportHeight
-;
-float
-mCoordCtxMmPerPx
 ;
 #
 ifdef

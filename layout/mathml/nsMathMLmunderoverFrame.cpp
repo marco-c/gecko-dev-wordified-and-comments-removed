@@ -754,12 +754,10 @@ aDesiredSize
 this
 0
 0
-PresContext
-(
-)
--
->
-PointsToAppUnits
+nsPresContext
+:
+:
+CSSPointsToAppUnits
 (
 0
 .

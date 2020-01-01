@@ -1952,10 +1952,7 @@ eUnit_pt
 {
 mMinimumFontSize
 =
-this
--
->
-PointsToAppUnits
+CSSPointsToAppUnits
 (
 size
 )
@@ -2267,9 +2264,6 @@ font
 >
 size
 =
-nsPresContext
-:
-:
 CSSPixelsToAppUnits
 (
 size
@@ -2290,10 +2284,7 @@ font
 >
 size
 =
-this
--
->
-PointsToAppUnits
+CSSPointsToAppUnits
 (
 size
 )

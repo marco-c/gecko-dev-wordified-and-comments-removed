@@ -44,8 +44,6 @@ NS_DECL_NSIDOMCSSPRIMITIVEVALUE
 NS_DECL_NSIDOMCSSVALUE
 nsROCSSPrimitiveValue
 (
-PRInt32
-aAppUnitsPerInch
 )
 ;
 virtual
@@ -199,9 +197,6 @@ mKeyword
 ;
 }
 mValue
-;
-PRInt32
-mAppUnitsPerInch
 ;
 }
 ;

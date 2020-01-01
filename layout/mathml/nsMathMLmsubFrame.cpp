@@ -153,12 +153,10 @@ aDesiredSize
 nscoord
 scriptSpace
 =
-PresContext
-(
-)
--
->
-PointsToAppUnits
+nsPresContext
+:
+:
+CSSPointsToAppUnits
 (
 0
 .
