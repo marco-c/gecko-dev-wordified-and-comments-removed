@@ -717,17 +717,6 @@ OpenWithApplication
 (
 )
 ;
-NS_IMETHOD_
-(
-PRInt64
-)
-GetLastModifiedTime
-(
-nsIRequest
-*
-aRequest
-)
-;
 nsDownloadManager
 *
 mDownloadManager
