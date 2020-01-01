@@ -2023,6 +2023,14 @@ aCreateIfNotFound
 ;
 static
 void
+UnmarkGrayJSListenersInCCGenerationDocuments
+(
+PRUint32
+aGeneration
+)
+;
+static
+void
 RemoveListenerManager
 (
 nsINode
