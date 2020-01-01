@@ -2781,6 +2781,9 @@ argv
 ;
 flags
 =
+JSITER_OWNONLY
+|
+(
 keyonly
 ?
 0
@@ -2789,6 +2792,7 @@ keyonly
 JSITER_FOREACH
 |
 JSITER_KEYVALUE
+)
 )
 ;
 *
