@@ -71,6 +71,10 @@ const
 bool
 &
 aCallerSecure
+const
+bool
+&
+aSessionOnly
 PRUint32
 *
 aLength
@@ -86,6 +90,10 @@ const
 bool
 &
 aCallerSecure
+const
+bool
+&
+aSessionOnly
 const
 PRUint32
 &
@@ -106,6 +114,10 @@ bool
 &
 aCallerSecure
 const
+bool
+&
+aSessionOnly
+const
 nsString
 &
 aKey
@@ -124,6 +136,10 @@ const
 bool
 &
 aCallerSecure
+const
+bool
+&
+aSessionOnly
 const
 nsString
 &
@@ -148,6 +164,10 @@ bool
 &
 aCallerSecure
 const
+bool
+&
+aSessionOnly
+const
 nsString
 &
 aKey
@@ -166,6 +186,10 @@ const
 bool
 &
 aCallerSecure
+const
+bool
+&
+aSessionOnly
 PRInt32
 *
 aOldCount
@@ -239,6 +263,10 @@ const
 bool
 &
 aCanUseChromePersist
+const
+bool
+&
+aSessionOnly
 const
 nsCString
 &

@@ -338,6 +338,7 @@ SendInit
 (
 mUseDB
 mCanUseChromePersist
+mSessionOnly
 mDomain
 mScopeDBKey
 mQuotaDomainDBKey
@@ -490,6 +491,7 @@ rv
 SendGetLength
 (
 aCallerSecure
+mSessionOnly
 aLength
 &
 rv
@@ -523,6 +525,7 @@ key
 SendGetKey
 (
 aCallerSecure
+mSessionOnly
 aIndex
 &
 key
@@ -580,6 +583,7 @@ storageItem
 SendGetValue
 (
 aCallerSecure
+mSessionOnly
 nsString
 (
 aKey
@@ -701,6 +705,7 @@ oldData
 SendSetValue
 (
 aCallerSecure
+mSessionOnly
 nsString
 (
 aKey
@@ -759,6 +764,7 @@ oldData
 SendRemoveValue
 (
 aCallerSecure
+mSessionOnly
 nsString
 (
 aKey
@@ -809,6 +815,7 @@ oldCount
 SendClear
 (
 aCallerSecure
+mSessionOnly
 &
 oldCount
 &
@@ -1025,6 +1032,7 @@ SendInit
 (
 mUseDB
 mCanUseChromePersist
+mSessionOnly
 mDomain
 mScopeDBKey
 mQuotaDomainDBKey

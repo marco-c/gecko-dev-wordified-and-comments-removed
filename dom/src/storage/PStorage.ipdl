@@ -577,6 +577,8 @@ bool
 useDB
 bool
 canUseChromePersist
+bool
+sessionOnly
 nsCString
 domain
 nsCString
@@ -608,6 +610,8 @@ GetLength
 (
 bool
 callerSecure
+bool
+sessionOnly
 )
 returns
 (
@@ -622,6 +626,8 @@ GetKey
 (
 bool
 callerSecure
+bool
+sessionOnly
 PRUint32
 index
 )
@@ -638,6 +644,8 @@ GetValue
 (
 bool
 callerSecure
+bool
+sessionOnly
 nsString
 key
 )
@@ -654,6 +662,8 @@ SetValue
 (
 bool
 callerSecure
+bool
+sessionOnly
 nsString
 key
 nsString
@@ -672,6 +682,8 @@ RemoveValue
 (
 bool
 callerSecure
+bool
+sessionOnly
 nsString
 key
 )
@@ -688,6 +700,8 @@ Clear
 (
 bool
 callerSecure
+bool
+sessionOnly
 )
 returns
 (
