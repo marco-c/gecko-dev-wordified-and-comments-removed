@@ -198,6 +198,11 @@ TypedArray
 .
 h
 '
+'
+UnionMember
+.
+h
+'
 ]
 FAIL_ON_WARNINGS
 =
