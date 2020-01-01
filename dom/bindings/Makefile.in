@@ -341,6 +341,10 @@ Nullable
 .
 h
 \
+PrimitiveConversions
+.
+h
+\
 TypedArray
 .
 h
@@ -444,6 +448,12 @@ Configuration
 py
 \
 Codegen
+.
+py
+\
+parser
+/
+WebIDL
 .
 py
 \
@@ -679,6 +689,12 @@ Configuration
 py
 \
 Codegen
+.
+py
+\
+parser
+/
+WebIDL
 .
 py
 \
