@@ -589,6 +589,16 @@ if
 usable
 )
 {
+if
+(
+mInFrame
+)
+{
+PostFrameStop
+(
+)
+;
+}
 PostDecodeDone
 (
 )
