@@ -66,6 +66,20 @@ libsuffix
 .
 dll
 "
+plc
+=
+cdll
+.
+LoadLibrary
+(
+libprefix
++
+"
+plc4
+"
++
+libsuffix
+)
 nspr
 =
 cdll
@@ -366,7 +380,12 @@ arg
 :
     
 return
+plc
+.
+PL_strdup
+(
 password
+)
   
 wincx
 =
