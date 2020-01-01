@@ -918,9 +918,9 @@ s
 wrapped
 in
 a
-MOZ_PRE
+PRE
 or
-MOZ_PRE_WRAP
+PRE_WRAP
 style
 tag
 )

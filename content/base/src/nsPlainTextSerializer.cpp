@@ -2376,8 +2376,6 @@ mPreFormatted
 based
 on
 style
-moz
--
 pre
 -
 wrap
