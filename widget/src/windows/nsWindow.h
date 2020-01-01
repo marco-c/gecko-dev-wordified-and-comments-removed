@@ -2357,6 +2357,9 @@ mIsRTL
 PRPackedBool
 mFullscreenMode
 ;
+PRPackedBool
+mMousePresent
+;
 PRUint32
 mBlurSuppressLevel
 ;
