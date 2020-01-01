@@ -253,10 +253,6 @@ nsSVGLength2
 .
 cpp
 \
-nsSVGLineElement
-.
-cpp
-\
 nsSVGMarkerElement
 .
 cpp
@@ -442,6 +438,10 @@ SVGLengthList
 cpp
 \
 SVGLengthListSMILType
+.
+cpp
+\
+SVGLineElement
 .
 cpp
 \
@@ -679,6 +679,10 @@ SVGGraphicsElement
 h
 \
 SVGImageElement
+.
+h
+\
+SVGLineElement
 .
 h
 \

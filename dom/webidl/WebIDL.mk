@@ -495,6 +495,10 @@ SVGLengthList
 .
 webidl
 \
+SVGLineElement
+.
+webidl
+\
 SVGLocatableElement
 .
 webidl
