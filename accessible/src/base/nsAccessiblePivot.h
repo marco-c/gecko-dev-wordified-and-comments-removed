@@ -135,10 +135,10 @@ nsIAccessibleTraversalRule
 *
 aRule
 bool
-searchCurrent
+aSearchCurrent
 nsresult
 *
-rv
+aResult
 )
 ;
 nsAccessible
@@ -152,10 +152,10 @@ nsIAccessibleTraversalRule
 *
 aRule
 bool
-searchCurrent
+aSearchCurrent
 nsresult
 *
-rv
+aResult
 )
 ;
 void
