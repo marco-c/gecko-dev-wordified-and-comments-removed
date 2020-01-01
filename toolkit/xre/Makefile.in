@@ -512,7 +512,7 @@ MOZ_AIRBAG
 REQUIRES
 +
 =
-airbag
+crashreporter
 endif
 FORCE_STATIC_LIB
 =

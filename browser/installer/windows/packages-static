@@ -521,6 +521,13 @@ bin
 \
 components
 \
+crashreporter
+.
+xpt
+bin
+\
+components
+\
 directory
 .
 xpt
