@@ -11067,6 +11067,9 @@ tabs
 return
 ;
 }
+#
+ifndef
+XP_MACOSX
 if
 (
 aEvent
@@ -11100,6 +11103,8 @@ removeCurrentTab
 (
 )
 ;
+#
+endif
 }
 }
 )
