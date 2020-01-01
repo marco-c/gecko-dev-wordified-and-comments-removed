@@ -438,6 +438,15 @@ cpp
 (
 NULL
 )
+EXPORTS
+=
+nsJSON
+.
+h
+\
+(
+NULL
+)
 FORCE_STATIC_LIB
 =
 1

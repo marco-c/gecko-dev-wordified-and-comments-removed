@@ -547,12 +547,6 @@ COMVARIANTPtr
 VARIANT
 )
 ;
-native
-JSVal
-(
-jsval
-)
-;
 [
 ptr
 ]
