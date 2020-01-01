@@ -3472,9 +3472,14 @@ PRUint32
 aChunkSize
 )
 {
-NS_ENSURE_ARG_POINTER
+NS_ABORT_IF_FALSE
 (
 aChunkSize
+"
+Require
+aChunkSize
+argument
+"
 )
 ;
 *
