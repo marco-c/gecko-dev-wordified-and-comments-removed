@@ -1490,12 +1490,6 @@ mIsUserFont
 =
 true
 ;
-mFamilyName
-=
-aProxyEntry
-.
-mFamilyName
-;
 }
 void
 AdjustPatternToCSS
