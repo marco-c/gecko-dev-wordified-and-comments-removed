@@ -120,6 +120,10 @@ browser_SocialProvider
 .
 js
 \
+browser_notifications
+.
+js
+\
 (
 NULL
 )
