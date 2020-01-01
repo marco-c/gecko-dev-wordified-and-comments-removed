@@ -110,6 +110,13 @@ sync
 /
 config
 /
+ClientRecordTerminator
+.
+java
+sync
+/
+config
+/
 ConfigurationMigrator
 .
 java
