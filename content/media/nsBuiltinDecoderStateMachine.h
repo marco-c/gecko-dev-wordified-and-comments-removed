@@ -754,6 +754,11 @@ IsNull
 mRunAgain
 ;
 }
+PRBool
+IsPausedAndDecoderWaiting
+(
+)
+;
 PRUint32
 mCbCrSize
 ;
@@ -865,6 +870,9 @@ mRunAgain
 ;
 PRPackedBool
 mDispatchedRunEvent
+;
+PRPackedBool
+mDecodeThreadWaiting
 ;
 private
 :
