@@ -563,7 +563,7 @@ js
 class
 AutoDebugModeGC
 ;
-struct
+class
 DebugScopes
 ;
 }
