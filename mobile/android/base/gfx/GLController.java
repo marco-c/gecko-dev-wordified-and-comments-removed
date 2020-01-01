@@ -454,9 +454,8 @@ getRenderer
 (
 )
 .
-onSurfaceChanged
+resizeView
 (
-null
 mWidth
 mHeight
 )
