@@ -3041,10 +3041,10 @@ aJSContext
 {
 NS_ASSERTION
 (
+JS_GetSecondContextPrivate
+(
 aJSContext
--
->
-data2
+)
 "
 should
 already
@@ -3060,10 +3060,10 @@ XPCContext
 *
 >
 (
+JS_GetSecondContextPrivate
+(
 aJSContext
--
->
-data2
+)
 )
 ;
 }
