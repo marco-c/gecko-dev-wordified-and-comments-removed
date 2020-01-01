@@ -4542,6 +4542,16 @@ function
 (
 )
 {
+if
+(
+!
+this
+.
+_searchbox
+.
+value
+)
+{
 this
 .
 _searchboxHelpPanel
@@ -4553,6 +4563,7 @@ this
 _searchbox
 )
 ;
+}
 }
 _onInput
 :
