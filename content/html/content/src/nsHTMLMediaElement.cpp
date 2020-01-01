@@ -2833,16 +2833,6 @@ loadedmetadata
 )
 )
 ;
-mDecoder
--
->
-Seek
-(
-0
-.
-0
-)
-;
 }
 void
 nsHTMLMediaElement
