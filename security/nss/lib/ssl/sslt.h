@@ -179,6 +179,9 @@ ssl_calg_aes
 ssl_calg_camellia
 =
 8
+ssl_calg_seed
+=
+9
 }
 SSLCipherAlgorithm
 ;

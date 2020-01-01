@@ -343,7 +343,7 @@ h
 #
 include
 "
-pkix_defaultcrlchecker
+pkix_crlchecker
 .
 h
 "

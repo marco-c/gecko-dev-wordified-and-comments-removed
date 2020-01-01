@@ -793,6 +793,8 @@ endif
 #
 NS_USE_GCC
 else
+ifndef
+FREEBL_NO_DEPEND
 EXTRA_SHARED_LIBS
 +
 =
@@ -820,6 +822,15 @@ lnspr4
 (
 NULL
 )
+else
+#
+drop
+pthreads
+as
+well
+OS_PTHREAD
+=
+endif
 endif
 ifeq
 (

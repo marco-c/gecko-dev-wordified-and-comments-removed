@@ -548,6 +548,12 @@ include
 manifest
 .
 mn
+ifdef
+NSS_DISABLE_DBM
+DIRS
+=
+dummy
+endif
 #
 #
 #

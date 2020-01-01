@@ -2126,10 +2126,13 @@ text
 align
 4
 .
+globl
+freebl_cpuid
+.
 type
-cpuid
+freebl_cpuid
 function
-cpuid
+freebl_cpuid
 :
 pushl
 %
@@ -2233,10 +2236,10 @@ ebp
 ret
 .
 size
-cpuid
+freebl_cpuid
 .
 -
-cpuid
+freebl_cpuid
 .
 align
 4
@@ -2897,7 +2900,7 @@ eax
 %
 eax
 call
-cpuid
+freebl_cpuid
 movl
 -
 120
@@ -3182,7 +3185,7 @@ ebp
 %
 edx
 call
-cpuid
+freebl_cpuid
 movl
 -
 136
@@ -3463,7 +3466,7 @@ movl
 %
 eax
 call
-cpuid
+freebl_cpuid
 addl
 12
 %
@@ -3610,7 +3613,7 @@ movl
 %
 eax
 call
-cpuid
+freebl_cpuid
 addl
 12
 %
@@ -3673,7 +3676,7 @@ movl
 %
 eax
 call
-cpuid
+freebl_cpuid
 movzbl
 -
 152

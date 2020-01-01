@@ -30,12 +30,15 @@ PKIX_List
 certs
 PKIX_UInt32
 numCerts
+PKIX_TrustAnchor
+*
+anchor
 PKIX_List
 *
 checkers
-PKIX_List
+PKIX_RevocationChecker
 *
-revCheckers
+revChecker
 PKIX_List
 *
 buildCheckedExtOIDs

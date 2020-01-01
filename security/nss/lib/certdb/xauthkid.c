@@ -8,13 +8,6 @@ h
 #
 include
 "
-mcom_db
-.
-h
-"
-#
-include
-"
 seccomon
 .
 h

@@ -506,6 +506,10 @@ pkcs11u
 .
 h
 \
+secmodt
+.
+h
+\
 (
 NULL
 )
@@ -549,6 +553,10 @@ sdb
 h
 \
 sftkdbt
+.
+h
+\
+pk11init
 .
 h
 \

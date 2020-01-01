@@ -1357,6 +1357,12 @@ OPTIONAL
 #
 #
 #
+ifdef
+NSS_DISABLE_DBM
+DIRS
+=
+dummy
+endif
 #
 #
 #
