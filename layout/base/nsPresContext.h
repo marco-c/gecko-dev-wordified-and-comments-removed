@@ -259,6 +259,9 @@ nsIRunnable
 class
 gfxUserFontSet
 ;
+class
+nsUserFontSet
+;
 struct
 nsFontFaceRuleContainer
 ;
@@ -2821,7 +2824,7 @@ mSameDocDirtyRegion
 nsRegion
 mCrossDocDirtyRegion
 ;
-gfxUserFontSet
+nsUserFontSet
 *
 mUserFontSet
 ;
