@@ -569,6 +569,12 @@ browser_dbg_stack
 .
 js
 \
+browser_dbg_stack
+-
+05
+.
+js
+\
 browser_dbg_location
 -
 changes
