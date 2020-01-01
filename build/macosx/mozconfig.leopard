@@ -82,10 +82,6 @@ STRIP
 =
 "
 strip
--
-x
--
-S
 "
 MOZ_CAN_RUN_PROGRAMS
 =
