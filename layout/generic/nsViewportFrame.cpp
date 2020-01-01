@@ -254,6 +254,7 @@ kid
 return
 NS_OK
 ;
+return
 BuildDisplayListForChild
 (
 aBuilder
@@ -261,9 +262,6 @@ kid
 aDirtyRect
 aLists
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP

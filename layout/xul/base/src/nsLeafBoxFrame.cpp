@@ -380,10 +380,19 @@ nsDisplayListSet
 aLists
 )
 {
+nsresult
+rv
+=
 DisplayBorderBackgroundOutline
 (
 aBuilder
 aLists
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 if
@@ -406,6 +415,7 @@ aBuilder
 return
 NS_OK
 ;
+return
 aLists
 .
 Content
@@ -425,9 +435,6 @@ aBuilder
 this
 )
 )
-;
-return
-NS_OK
 ;
 }
 nscoord
