@@ -282,7 +282,7 @@ f
 ;
 void
 JS_FASTCALL
-BitAnd
+BitOr
 (
 VMFrame
 &
@@ -292,6 +292,15 @@ f
 void
 JS_FASTCALL
 BitXor
+(
+VMFrame
+&
+f
+)
+;
+void
+JS_FASTCALL
+BitAnd
 (
 VMFrame
 &
