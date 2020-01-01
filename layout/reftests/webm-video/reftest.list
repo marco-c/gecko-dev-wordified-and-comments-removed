@@ -606,6 +606,17 @@ cocoaWidget
 1
 56000
 )
+fuzzy
+-
+if
+(
+d2d
+&
+&
+layersGPUAccelerated
+1
+56000
+)
 HTTP
 (
 .
