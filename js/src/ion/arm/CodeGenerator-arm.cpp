@@ -1516,11 +1516,11 @@ masm
 ma_b
 (
 code
-condition
 Relocation
 :
 :
 EXTERNAL
+condition
 )
 ;
 return
@@ -5343,6 +5343,12 @@ MIRType_Object
 :
 return
 JSVAL_TAG_OBJECT
+;
+case
+MIRType_Null
+:
+return
+JSVAL_TAG_NULL
 ;
 default
 :
