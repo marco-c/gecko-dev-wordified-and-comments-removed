@@ -2347,6 +2347,13 @@ break
 }
 else
 {
+if
+(
+NS_FRAME_IS_NOT_COMPLETE
+(
+aStatus
+)
+)
 +
 +
 columnCount
