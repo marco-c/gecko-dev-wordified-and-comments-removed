@@ -29901,6 +29901,11 @@ if
 tab
 .
 selected
+|
+|
+tab
+.
+closing
 )
 return
 ;
