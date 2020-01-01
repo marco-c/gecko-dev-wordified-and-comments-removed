@@ -3111,12 +3111,6 @@ return
 mResidualTranslation
 ;
 }
-static
-bool
-UseTiledThebes
-(
-)
-;
 protected
 :
 ThebesLayer

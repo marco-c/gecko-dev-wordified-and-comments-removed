@@ -5987,13 +5987,3 @@ free_dirty_pages
 true
 )
 ;
-pref
-(
-"
-gfx
-.
-use_tiled_thebes
-"
-true
-)
-;
