@@ -2191,6 +2191,16 @@ aURI
 )
 ;
 static
+nsIAtom
+*
+IsNamedItem
+(
+nsIContent
+*
+aContent
+)
+;
+static
 void
 GetOfflineAppManifest
 (
