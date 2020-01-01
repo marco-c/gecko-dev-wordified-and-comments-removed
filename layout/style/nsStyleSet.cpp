@@ -4306,7 +4306,7 @@ i
 {
 ruleWalker
 .
-Forward
+ForwardOnPossiblyCSSRule
 (
 aRules
 .
@@ -4415,7 +4415,7 @@ i
 {
 ruleWalker
 .
-Forward
+ForwardOnPossiblyCSSRule
 (
 aRules
 .
@@ -4491,7 +4491,7 @@ i
 {
 ruleWalker
 .
-Forward
+ForwardOnPossiblyCSSRule
 (
 aRules
 .
