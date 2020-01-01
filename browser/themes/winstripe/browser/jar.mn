@@ -2517,6 +2517,7 @@ subscribe
 .
 css
 )
+*
 skin
 /
 classic
@@ -2534,6 +2535,8 @@ css
 places
 /
 places
+-
+aero
 .
 css
 )
