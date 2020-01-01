@@ -3317,7 +3317,7 @@ JSResolveOp
 )
 str_resolve
 JS_ConvertStub
-JS_FinalizeStub
+NULL
 JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
@@ -9310,18 +9310,6 @@ if
 repstr
 )
 {
-if
-(
-!
-js_MakeStringImmutable
-(
-cx
-repstr
-)
-)
-return
-JS_FALSE
-;
 rdata
 .
 dollarEnd

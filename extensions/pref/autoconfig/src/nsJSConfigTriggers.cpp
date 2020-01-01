@@ -254,7 +254,7 @@ JS_PropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-JS_FinalizeStub
+nsnull
 }
 ;
 static

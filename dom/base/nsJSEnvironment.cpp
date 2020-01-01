@@ -7620,7 +7620,6 @@ NS_GET_IID
 (
 nsISupports
 )
-PR_FALSE
 &
 v
 nsnull
@@ -12242,6 +12241,11 @@ JSOPTION_RELIMIT
 JSBool
 optval
 ;
+if
+(
+!
+:
+:
 JS_ValueToBoolean
 (
 cx
@@ -12250,6 +12254,9 @@ vp
 &
 optval
 )
+)
+return
+JS_FALSE
 ;
 uint32
 optset
@@ -12307,7 +12314,7 @@ SetOptionsProperty
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-JS_FinalizeStub
+nsnull
 }
 ;
 #

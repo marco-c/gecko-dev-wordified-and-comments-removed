@@ -3825,7 +3825,7 @@ JSResolveOp
 )
 args_resolve
 JS_ConvertStub
-JS_FinalizeStub
+NULL
 NULL
 NULL
 NULL
@@ -3877,7 +3877,7 @@ JS_PropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-JS_FinalizeStub
+NULL
 JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
@@ -6065,7 +6065,7 @@ JSResolveOp
 )
 call_resolve
 call_convert
-JS_FinalizeStub
+NULL
 NULL
 NULL
 NULL

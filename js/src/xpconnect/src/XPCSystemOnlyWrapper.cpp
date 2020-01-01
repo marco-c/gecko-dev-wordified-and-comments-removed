@@ -267,7 +267,7 @@ JSResolveOp
 )
 XPC_SOW_NewResolve
 XPC_SOW_Convert
-JS_FinalizeStub
+nsnull
 nsnull
 XPC_SOW_CheckAccess
 nsnull

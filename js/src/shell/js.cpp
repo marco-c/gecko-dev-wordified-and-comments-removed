@@ -9041,6 +9041,9 @@ JSTYPE_BOOLEAN
 JSBool
 bval
 ;
+if
+(
+!
 JS_ValueToBoolean
 (
 cx
@@ -9051,6 +9054,9 @@ argv
 &
 bval
 )
+)
+goto
+bad_argument
 ;
 file
 =
@@ -13889,10 +13895,9 @@ lazy
 &
 v
 )
-)
-return
-JS_FALSE
-;
+|
+|
+!
 JS_ValueToBoolean
 (
 cx
@@ -13900,6 +13905,9 @@ v
 &
 b
 )
+)
+return
+JS_FALSE
 ;
 return
 !
@@ -13953,10 +13961,9 @@ lazy
 &
 v
 )
-)
-return
-JS_FALSE
-;
+|
+|
+!
 JS_ValueToBoolean
 (
 cx
@@ -13964,6 +13971,9 @@ v
 &
 b
 )
+)
+return
+JS_FALSE
 ;
 if
 (
@@ -14038,7 +14048,7 @@ JSResolveOp
 )
 sandbox_resolve
 JS_ConvertStub
-JS_FinalizeStub
+NULL
 JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
@@ -20705,6 +20715,7 @@ noisy
 "
 )
 )
+return
 JS_ValueToBoolean
 (
 cx
@@ -20726,6 +20737,7 @@ enum_fail
 "
 )
 )
+return
 JS_ValueToBoolean
 (
 cx
@@ -22931,7 +22943,7 @@ JSResolveOp
 )
 env_resolve
 JS_ConvertStub
-JS_FinalizeStub
+NULL
 JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
