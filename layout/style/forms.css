@@ -136,6 +136,12 @@ space
 :
 nowrap
 ;
+display
+:
+block
+!
+important
+;
 }
 legend
 {
