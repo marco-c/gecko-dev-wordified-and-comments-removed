@@ -306,6 +306,9 @@ leafName
 =
 nsnull
 ;
+#
+ifndef
+MOZ_PLACES_BOOKMARKS
 PRBool
 restoreBookmarksBackup
 =
@@ -316,6 +319,8 @@ ensureFilePermissions
 =
 PR_FALSE
 ;
+#
+endif
 if
 (
 !
@@ -326,6 +331,9 @@ NS_APP_BOOKMARKS_50_FILE
 )
 )
 {
+#
+ifndef
+MOZ_PLACES_BOOKMARKS
 ensureFilePermissions
 =
 PR_TRUE
@@ -334,6 +342,8 @@ restoreBookmarksBackup
 =
 PR_TRUE
 ;
+#
+endif
 leafName
 =
 "
@@ -684,6 +694,9 @@ leafstr
 )
 ;
 }
+#
+ifndef
+MOZ_PLACES_BOOKMARKS
 PRBool
 exists
 ;
@@ -876,6 +889,8 @@ permissions
 }
 }
 }
+#
+endif
 *
 aPersist
 =
@@ -1377,6 +1392,9 @@ NS_IMPL_NSGETMODULE
 BrowserDirProvider
 components
 )
+#
+ifndef
+MOZ_PLACES_BOOKMARKS
 nsresult
 nsBrowserDirectoryProvider
 :
@@ -1573,6 +1591,8 @@ aLeafName
 )
 ;
 }
+#
+endif
 NS_IMPL_ISUPPORTS1
 (
 nsBrowserDirectoryProvider
