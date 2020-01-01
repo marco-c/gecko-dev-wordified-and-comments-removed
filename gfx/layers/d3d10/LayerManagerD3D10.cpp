@@ -944,6 +944,16 @@ CallbackData
 =
 aCallbackData
 ;
+mRoot
+-
+>
+ComputeEffectiveTransforms
+(
+gfx3DMatrix
+(
+)
+)
+;
 Render
 (
 )
@@ -2112,10 +2122,6 @@ ImplData
 >
 RenderLayer
 (
-1
-gfx3DMatrix
-(
-)
 )
 ;
 }

@@ -532,8 +532,6 @@ aCallback
 void
 *
 aCallbackData
-float
-aOpacity
 )
 ;
 void
