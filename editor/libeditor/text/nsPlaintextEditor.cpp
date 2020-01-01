@@ -1254,12 +1254,6 @@ this
 )
 ;
 }
-if
-(
-!
-mDragListenerP
-)
-{
 nsCOMPtr
 <
 nsIPresShell
@@ -1271,6 +1265,12 @@ do_QueryReferent
 mPresShellWeak
 )
 ;
+if
+(
+!
+mDragListenerP
+)
+{
 rv
 |
 =
@@ -1301,6 +1301,7 @@ getter_AddRefs
 mFocusListenerP
 )
 this
+presShell
 )
 ;
 }
