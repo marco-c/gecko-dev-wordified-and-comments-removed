@@ -97,8 +97,12 @@ LIFO_ALLOC_ALIGN
 )
 )
 &
--
+(
+~
 LIFO_ALLOC_ALIGN
++
+1
+)
 )
 ;
 JS_ASSERT
