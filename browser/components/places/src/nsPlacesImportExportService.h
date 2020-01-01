@@ -134,15 +134,6 @@ nsIMicrosummaryService
 >
 mMicrosummaryService
 ;
-PRInt64
-mPlacesRoot
-;
-PRInt64
-mBookmarksRoot
-;
-PRInt64
-mToolbarFolder
-;
 nsresult
 ImportHTMLFromFileInternal
 (
