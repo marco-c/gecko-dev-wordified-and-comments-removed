@@ -744,6 +744,16 @@ Description
 <
 !
 ENTITY
+mediaBlockImage
+.
+accesskey
+"
+B
+"
+>
+<
+!
+ENTITY
 mediaSaveAs
 "
 Save
