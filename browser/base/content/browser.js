@@ -10905,6 +10905,7 @@ BrowserPageInfo
 (
 doc
 initialTab
+imageUrl
 )
 {
 var
@@ -10917,6 +10918,9 @@ doc
 initialTab
 :
 initialTab
+imageUrl
+:
+imageUrl
 }
 ;
 return

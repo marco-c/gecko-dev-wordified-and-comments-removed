@@ -1561,10 +1561,6 @@ media
 '
 )
 ;
-ensureSelection
-(
-gImageView
-)
 "
 hidden
 =
