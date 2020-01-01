@@ -1418,11 +1418,6 @@ inputmode
 =
 element
 .
-inputmode
-|
-|
-element
-.
 getAttribute
 (
 '
@@ -1442,6 +1437,14 @@ inputmode
 toLowerCase
 (
 )
+;
+}
+else
+{
+inputmode
+=
+'
+'
 ;
 }
 return
