@@ -945,6 +945,10 @@ nsSVGLength2
 .
 h
 \
+nsSVGNumberPair
+.
+h
+\
 nsSVGRect
 .
 h

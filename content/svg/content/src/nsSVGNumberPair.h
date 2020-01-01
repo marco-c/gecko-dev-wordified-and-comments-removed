@@ -144,6 +144,7 @@ nsAString
 &
 aValue
 )
+const
 ;
 void
 SetBaseValue
