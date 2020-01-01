@@ -503,6 +503,10 @@ test_radio
 .
 xul
 \
+test_tabbox
+.
+xul
+\
 test_tooltip
 .
 xul
