@@ -518,6 +518,10 @@ window_composition_text_querycontent
 .
 xul
 \
+test_input_events_on_deactive_window
+.
+xul
+\
 (
 NULL
 )

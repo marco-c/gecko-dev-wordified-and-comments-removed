@@ -10088,8 +10088,14 @@ focus
 )
 ;
 else
-pressTab
+synthesizeKey
 (
+"
+VK_TAB
+"
+{
+}
+modalWindow
 )
 ;
 is

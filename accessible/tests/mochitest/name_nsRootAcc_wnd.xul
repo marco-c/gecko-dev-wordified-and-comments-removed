@@ -505,6 +505,7 @@ function
 switchTabInvoker
 (
 aTabBrowser
+aWindow
 )
 {
 this
@@ -528,6 +529,7 @@ ctrlKey
 :
 true
 }
+aWindow
 )
 ;
 }
@@ -731,6 +733,7 @@ new
 switchTabInvoker
 (
 tabBrowser
+window
 )
 )
 ;
