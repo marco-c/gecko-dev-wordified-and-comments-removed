@@ -5044,6 +5044,12 @@ Runnable
 (
 )
 {
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 public
 void
 run
@@ -5288,6 +5294,12 @@ Runnable
 (
 )
 {
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 public
 void
 run
