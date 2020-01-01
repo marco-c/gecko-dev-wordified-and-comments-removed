@@ -47,7 +47,7 @@ aRole
 nsIAccessibleRole
 :
 :
-ROLE_STATICTEXT
+ROLE_LABEL
 ;
 return
 NS_OK
