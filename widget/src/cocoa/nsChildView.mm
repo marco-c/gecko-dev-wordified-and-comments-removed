@@ -10453,7 +10453,7 @@ modifierFlags
 =
 :
 :
-GetCurrentKeyModifiers
+GetCurrentEventKeyModifiers
 (
 )
 ;
@@ -15797,7 +15797,9 @@ macEvent
 .
 modifiers
 =
-GetCurrentKeyModifiers
+:
+:
+GetCurrentEventKeyModifiers
 (
 )
 ;
@@ -15956,7 +15958,9 @@ macEvent
 .
 modifiers
 =
-GetCurrentKeyModifiers
+:
+:
+GetCurrentEventKeyModifiers
 (
 )
 ;
@@ -16108,7 +16112,7 @@ modifiers
 =
 :
 :
-GetCurrentKeyModifiers
+GetCurrentEventKeyModifiers
 (
 )
 ;
@@ -17073,7 +17077,9 @@ macEvent
 .
 modifiers
 =
-GetCurrentKeyModifiers
+:
+:
+GetCurrentEventKeyModifiers
 (
 )
 ;
@@ -17237,7 +17243,7 @@ btnState
 |
 :
 :
-GetCurrentKeyModifiers
+GetCurrentEventKeyModifiers
 (
 )
 ;
@@ -19194,7 +19200,7 @@ modifiers
 =
 :
 :
-GetCurrentKeyModifiers
+GetCurrentEventKeyModifiers
 (
 )
 ;

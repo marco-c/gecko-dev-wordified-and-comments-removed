@@ -505,15 +505,11 @@ nsUserInfoWin
 .
 cpp
 else
-ifneq
+ifeq
 (
-(
-filter
-mac
 cocoa
 (
 MOZ_WIDGET_TOOLKIT
-)
 )
 )
 CPPSRCS

@@ -12217,7 +12217,7 @@ ifdef
 XP_MACOSX
 if
 (
-GetCurrentKeyModifiers
+GetCurrentEventKeyModifiers
 (
 )
 &
