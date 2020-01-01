@@ -1652,7 +1652,7 @@ showItem
 "
 context
 -
-showimage
+reloadimage
 "
 (
 this
@@ -4926,7 +4926,7 @@ ownerDocument
 )
 ;
 }
-showImage
+reloadImage
 :
 function
 (
