@@ -15708,6 +15708,9 @@ JS_NewObjectForConstructor
 JSContext
 *
 cx
+JSClass
+*
+clasp
 const
 jsval
 *
@@ -15735,6 +15738,10 @@ return
 js_CreateThis
 (
 cx
+Valueify
+(
+clasp
+)
 JSVAL_TO_OBJECT
 (
 *

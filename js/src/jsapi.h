@@ -17551,6 +17551,9 @@ JS_NewObjectForConstructor
 JSContext
 *
 cx
+JSClass
+*
+clasp
 const
 jsval
 *

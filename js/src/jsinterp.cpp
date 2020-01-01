@@ -1995,11 +1995,9 @@ cx
 fun
 -
 >
-u
-.
-n
-.
 native
+(
+)
 args
 )
 ;
@@ -2383,11 +2381,9 @@ cx
 fun
 -
 >
-u
-.
-n
-.
 native
+(
+)
 args
 )
 ;
