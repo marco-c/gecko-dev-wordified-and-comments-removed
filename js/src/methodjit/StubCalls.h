@@ -171,8 +171,7 @@ VMFrame
 f
 )
 ;
-JSObject
-*
+void
 JS_FASTCALL
 BindName
 (
