@@ -517,8 +517,6 @@ type
 "
 application
 /
-x
--
 javascript
 "
 src
@@ -545,8 +543,6 @@ type
 "
 application
 /
-x
--
 javascript
 "
 src
@@ -556,10 +552,7 @@ report
 .
 js
 "
->
-<
 /
-script
 >
 <
 script
@@ -568,8 +561,6 @@ type
 "
 application
 /
-x
--
 javascript
 "
 src
@@ -579,10 +570,7 @@ pageloader
 .
 js
 "
->
-<
 /
-script
 >
 <
 script
@@ -591,8 +579,6 @@ type
 "
 application
 /
-x
--
 javascript
 "
 src
@@ -602,10 +588,7 @@ quit
 .
 js
 "
->
-<
 /
-script
 >
 <
 browser
