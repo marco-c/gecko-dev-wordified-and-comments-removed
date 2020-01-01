@@ -4382,16 +4382,6 @@ notifyUser
 false
 )
 ;
-pref
-(
-"
-plugins
-.
-click_to_play
-"
-false
-)
-;
 #
 ifdef
 XP_WIN
