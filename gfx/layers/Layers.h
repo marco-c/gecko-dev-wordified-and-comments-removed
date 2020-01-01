@@ -965,6 +965,15 @@ CreateImageContainer
 (
 )
 ;
+static
+already_AddRefed
+<
+ImageContainer
+>
+CreateAsynchronousImageContainer
+(
+)
+;
 virtual
 LayersBackend
 GetBackendType

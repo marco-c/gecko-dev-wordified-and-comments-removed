@@ -2008,7 +2008,6 @@ return
 true
 ;
 }
-static
 SharedMemory
 :
 :

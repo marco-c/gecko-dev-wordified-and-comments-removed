@@ -106,6 +106,10 @@ MPL
 /
 include
 protocol
+PImageContainer
+;
+include
+protocol
 PLayers
 ;
 namespace
@@ -171,6 +175,8 @@ protocol
 PGrallocBuffer
 {
 manager
+PImageContainer
+or
 PLayers
 ;
 /
