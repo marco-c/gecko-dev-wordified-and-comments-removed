@@ -2597,15 +2597,6 @@ EndPage
 (
 )
 ;
-#
-ifdef
-XP_MACOSX
-mPrintingSurface
-=
-nsnull
-;
-#
-endif
 if
 (
 mDeviceContextSpec
