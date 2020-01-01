@@ -125,6 +125,8 @@ DEFINES
 =
 -
 DUSE_WINMM
+-
+DUSE_WASAPI
 endif
 ifeq
 (
