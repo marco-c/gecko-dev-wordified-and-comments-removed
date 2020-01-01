@@ -10310,6 +10310,9 @@ bool
 aTrustedInput
 )
 {
+nsAutoScriptBlockerSuppressNodeRemoved
+autoBlocker
+;
 nsCOMPtr
 <
 nsIDOMDocumentFragment
