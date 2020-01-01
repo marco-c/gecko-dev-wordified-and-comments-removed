@@ -2714,6 +2714,14 @@ GetFrame
 (
 )
 ;
+if
+(
+!
+frame
+)
+return
+vstates
+;
 const
 nsCOMPtr
 <
