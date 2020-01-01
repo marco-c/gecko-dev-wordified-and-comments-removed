@@ -250,6 +250,11 @@ nsAString
 aArg
 )
 ;
+NS_IMETHOD
+MozRemove
+(
+)
+;
 virtual
 uint32_t
 GetChildCount

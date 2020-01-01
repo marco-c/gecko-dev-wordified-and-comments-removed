@@ -229,3 +229,7 @@ data
 ;
 }
 ;
+CharacterData
+implements
+ChildNode
+;

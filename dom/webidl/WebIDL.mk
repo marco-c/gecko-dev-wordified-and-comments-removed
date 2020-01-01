@@ -159,6 +159,10 @@ CharacterData
 .
 webidl
 \
+ChildNode
+.
+webidl
+\
 ClientRect
 .
 webidl

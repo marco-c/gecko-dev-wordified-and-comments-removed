@@ -809,6 +809,12 @@ nsIConstraintValidation
 :
 CheckValidity
 ;
+using
+nsINode
+:
+:
+Remove
+;
 virtual
 JSObject
 *
