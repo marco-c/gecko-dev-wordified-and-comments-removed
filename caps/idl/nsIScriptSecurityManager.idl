@@ -1121,6 +1121,9 @@ function
 .
 *
 /
+[
+deprecated
+]
 void
 checkLoadURI
 (
@@ -1268,6 +1271,9 @@ function
 .
 *
 /
+[
+deprecated
+]
 void
 checkLoadURIStr
 (
@@ -1496,9 +1502,6 @@ principal
 .
 *
 /
-[
-noscript
-]
 nsIPrincipal
 getSystemPrincipal
 (
