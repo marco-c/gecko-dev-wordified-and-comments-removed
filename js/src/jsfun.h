@@ -171,7 +171,7 @@ JSFUN_FLAT_CLOSURE
 0x8000
 /
 *
-flat
+flag
 (
 aka
 "
