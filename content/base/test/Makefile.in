@@ -623,6 +623,10 @@ test_bug375314
 .
 html
 \
+test_bug378969
+.
+html
+\
 test_bug382113
 .
 html

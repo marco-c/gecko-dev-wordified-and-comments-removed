@@ -213,6 +213,14 @@ PRInt32
 aChildIndex
 )
 {
+if
+(
+aIndexPos
+!
+=
+-
+1
+)
 mPossibleIndexes
 .
 ReplaceElementAt

@@ -438,6 +438,17 @@ do_QueryInterface
 aCurrentNode
 )
 ;
+mPossibleIndexes
+.
+Clear
+(
+)
+;
+mPossibleIndexesPos
+=
+-
+1
+;
 return
 NS_OK
 ;
