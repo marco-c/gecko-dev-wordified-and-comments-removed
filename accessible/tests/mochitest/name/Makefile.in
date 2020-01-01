@@ -96,10 +96,6 @@ markup
 .
 js
 \
-test_button
-.
-html
-\
 test_general
 .
 html
