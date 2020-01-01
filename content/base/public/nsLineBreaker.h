@@ -306,14 +306,11 @@ aSink
 nsresult
 Reset
 (
-)
-{
-return
-FlushCurrentWord
-(
+PRBool
+*
+aTrailingBreak
 )
 ;
-}
 private
 :
 struct
