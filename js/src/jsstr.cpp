@@ -8547,7 +8547,7 @@ vp
 return
 false
 ;
-JSAutoTempValueRooter
+AutoValueRooter
 array
 (
 cx
@@ -22065,7 +22065,7 @@ atomState
 .
 toSourceAtom
 ;
-JSAutoTempValueRooter
+AutoValueRooter
 tvr
 (
 cx
