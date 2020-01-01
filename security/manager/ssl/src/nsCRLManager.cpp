@@ -1950,12 +1950,11 @@ now
 -
 lastUpdate
 ;
-LL_DIV
-(
 cycleCnt
+=
 diff
+/
 microsecInDayCnt
-)
 ;
 LL_MOD
 (

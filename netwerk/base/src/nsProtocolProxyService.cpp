@@ -3706,12 +3706,10 @@ ups
 PR_USEC_PER_SEC
 )
 ;
-LL_DIV
-(
 diff
-diff
+/
+=
 ups
-)
 ;
 uint32_t
 dsec

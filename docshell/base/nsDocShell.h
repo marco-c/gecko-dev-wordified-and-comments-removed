@@ -1532,12 +1532,10 @@ usec_per_sec
 PR_USEC_PER_SEC
 )
 ;
-LL_DIV
-(
 t_usec
-t_usec
+/
+=
 usec_per_sec
-)
 ;
 LL_L2I
 (

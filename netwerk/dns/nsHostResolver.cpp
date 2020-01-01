@@ -369,12 +369,11 @@ factor
 PR_USEC_PER_SEC
 )
 ;
-LL_DIV
-(
 minutes
+=
 now
+/
 factor
-)
 ;
 uint32_t
 result
