@@ -45,9 +45,6 @@ nsnull
 ;
 #
 endif
-#
-ifdef
-ENABLE_IME_MOUSE_HANDLING
 static
 UINT
 sWM_MSIME_MOUSE
@@ -102,8 +99,6 @@ IMEMOUSE_WDOWN
 /
 wheel
 down
-#
-endif
 PRPackedBool
 nsIMM32Handler
 :
@@ -194,9 +189,6 @@ nsIMM32HandlerWidgets
 ;
 #
 endif
-#
-ifdef
-ENABLE_IME_MOUSE_HANDLING
 if
 (
 !
@@ -213,8 +205,6 @@ RWM_MOUSE
 )
 ;
 }
-#
-endif
 InitKeyboardLayout
 (
 :
@@ -1411,9 +1401,6 @@ switch
 msg
 )
 {
-#
-ifdef
-ENABLE_IME_MOUSE_HANDLING
 case
 WM_LBUTTONDOWN
 :
@@ -1472,8 +1459,6 @@ return
 PR_TRUE
 ;
 }
-#
-endif
 case
 WM_INPUTLANGCHANGE
 :
@@ -9538,9 +9523,6 @@ WidgetToScreenOffset
 )
 ;
 }
-#
-ifdef
-ENABLE_IME_MOUSE_HANDLING
 PRBool
 nsIMM32Handler
 :
@@ -9842,8 +9824,6 @@ get
 1
 ;
 }
-#
-endif
 PRBool
 nsIMM32Handler
 :
