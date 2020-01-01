@@ -476,6 +476,10 @@ txIEXSLTRegExFunctions
 .
 idl
 \
+txIXPathObject
+.
+idl
+\
 (
 NULL
 )
