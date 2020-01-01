@@ -714,7 +714,7 @@ namespace
 mozilla
 {
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 SamplerStackFrameRAII
 {
 public
@@ -767,7 +767,7 @@ SAMPLER_MAX_STRING
 128
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 SamplerStackFramePrintfRAII
 {
 public

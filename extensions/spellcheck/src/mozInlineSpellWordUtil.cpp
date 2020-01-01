@@ -3061,7 +3061,7 @@ CHAR_CLASS_END_OF_INPUT
 }
 ;
 struct
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 WordSplitState
 {
 mozInlineSpellWordUtil

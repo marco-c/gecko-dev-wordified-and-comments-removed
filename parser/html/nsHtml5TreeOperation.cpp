@@ -282,7 +282,7 @@ NS_FORMPROCESSOR_CID
 )
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsHtml5OtherDocUpdate
 {
 public
