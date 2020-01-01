@@ -3661,6 +3661,16 @@ cx
 >
 regs
 ;
+JSBool
+ok
+;
+{
+AssertCompartmentUnchanged
+pcc
+(
+cx
+)
+;
 JSAutoResolveFlags
 rf
 (
@@ -3668,7 +3678,6 @@ cx
 JSRESOLVE_INFER
 )
 ;
-JSBool
 ok
 =
 JaegerTrampoline
@@ -3679,6 +3688,7 @@ code
 stackLimit
 )
 ;
+}
 cx
 -
 >
