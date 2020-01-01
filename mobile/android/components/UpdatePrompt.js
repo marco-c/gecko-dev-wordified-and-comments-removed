@@ -36,7 +36,7 @@ drawable
 :
 /
 /
-alert_download_progress
+alert_download
 "
 ;
 Cu

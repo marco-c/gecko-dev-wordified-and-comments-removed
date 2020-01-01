@@ -45,7 +45,7 @@ drawable
 :
 /
 /
-alertdownloads
+alert_download
 "
 ;
 Cu
