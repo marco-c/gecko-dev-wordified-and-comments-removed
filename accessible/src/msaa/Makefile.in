@@ -488,6 +488,10 @@ nsHTMLWin32ObjectAccessible
 .
 cpp
 \
+nsARIAGridAccessibleWrap
+.
+cpp
+\
 nsXULMenuAccessibleWrap
 .
 cpp
@@ -579,6 +583,10 @@ nsRootAccessibleWrap
 h
 \
 nsHTMLWin32ObjectAccessible
+.
+h
+\
+nsARIAGridAccessibleWrap
 .
 h
 \
