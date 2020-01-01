@@ -1778,7 +1778,7 @@ DIST
 PKG_LANGPACK_PATH
 )
 (
-PERL
+PYTHON
 )
 (
 MOZILLA_DIR
@@ -1786,9 +1786,9 @@ MOZILLA_DIR
 /
 config
 /
-preprocessor
+Preprocessor
 .
-pl
+py
 (
 DEFINES
 )
