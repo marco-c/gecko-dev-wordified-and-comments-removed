@@ -179,15 +179,3 @@ warnings
 as
 -
 errors
-.
-"
-topsrcdir
-/
-build
-/
-mozconfig
-.
-common
-.
-override
-"

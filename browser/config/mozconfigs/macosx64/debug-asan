@@ -69,15 +69,3 @@ macbundlename
 prefix
 =
 Firefox
-.
-"
-topsrcdir
-/
-build
-/
-mozconfig
-.
-common
-.
-override
-"
