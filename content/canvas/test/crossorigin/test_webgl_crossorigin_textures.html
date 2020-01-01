@@ -451,6 +451,8 @@ canvas
 "
 )
 ;
+try
+{
 gl
 =
 canvas
@@ -464,10 +466,10 @@ webgl
 "
 )
 ;
-if
+}
+catch
 (
-!
-gl
+e
 )
 {
 todo
