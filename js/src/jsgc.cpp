@@ -19253,10 +19253,7 @@ gcFinalizeCallback
 fop
 JSFINALIZE_END
 !
-rt
--
->
-gcIsFull
+isFull
 )
 ;
 }
