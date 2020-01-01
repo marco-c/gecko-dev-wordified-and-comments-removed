@@ -559,6 +559,10 @@ test_bug706301
 .
 xul
 \
+test_watchpoints
+.
+xul
+\
 (
 NULL
 )
