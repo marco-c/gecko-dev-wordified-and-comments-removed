@@ -1541,6 +1541,12 @@ ArrayBufferView
 :
 TYPE_UINT8
 :
+case
+ArrayBufferView
+:
+:
+TYPE_UINT8_CLAMPED
+:
 return
 0
 ;
