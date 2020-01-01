@@ -14222,6 +14222,12 @@ mWnd
 if
 (
 aDispatchPendingEvents
+&
+&
+!
+Destroyed
+(
+)
 )
 {
 DispatchPendingEvents

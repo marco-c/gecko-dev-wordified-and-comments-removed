@@ -1340,7 +1340,7 @@ IsIMEDoingKakuteiUndo
 )
 const
 ;
-void
+bool
 RemoveMessageAndDispatchPluginEvent
 (
 UINT
