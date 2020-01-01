@@ -2678,13 +2678,6 @@ VMSideExit
 *
 bailExit
 ;
-uintN
-nativeVpLen
-;
-jsval
-*
-nativeVp
-;
 #
 endif
 #

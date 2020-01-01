@@ -2327,6 +2327,13 @@ double
 *
 deepBailSp
 ;
+uintN
+nativeVpLen
+;
+jsval
+*
+nativeVp
+;
 }
 ;
 struct
