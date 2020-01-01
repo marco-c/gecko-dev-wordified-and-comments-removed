@@ -149,6 +149,12 @@ fixup_url
 host
 )
 "
++
+"
+AND
+frecency
+NOTNULL
+"
 )
 ;
 let
