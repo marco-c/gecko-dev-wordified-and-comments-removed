@@ -467,14 +467,6 @@ JRI_CALLBACK
 #
 endif
 #
-ifndef
-FAR
-#
-define
-FAR
-#
-endif
-#
 if
 0
 typedef

@@ -1730,7 +1730,6 @@ rgbstrNames
 100
 (
 UINT
-FAR
 *
 )
 &

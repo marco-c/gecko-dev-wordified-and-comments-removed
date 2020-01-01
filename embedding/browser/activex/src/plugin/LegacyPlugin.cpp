@@ -3539,7 +3539,6 @@ m_str
 ;
 }
 NPError
-NP_LOADDS
 NPP_New
 (
 NPMIMEType
@@ -3752,7 +3751,6 @@ NPERR_NO_ERROR
 ;
 }
 NPError
-NP_LOADDS
 NPP_Destroy
 (
 NPP
@@ -3980,7 +3978,6 @@ NPERR_NO_ERROR
 ;
 }
 NPError
-NP_LOADDS
 NPP_SetWindow
 (
 NPP
@@ -4156,7 +4153,6 @@ NPERR_NO_ERROR
 ;
 }
 NPError
-NP_LOADDS
 NPP_NewStream
 (
 NPP
@@ -4217,7 +4213,6 @@ NPERR_NO_ERROR
 ;
 }
 void
-NP_LOADDS
 NPP_StreamAsFile
 (
 NPP
@@ -4272,7 +4267,6 @@ STREAMBUFSIZE
 0X0FFFFFFF
 ;
 int32_t
-NP_LOADDS
 NPP_WriteReady
 (
 NPP
@@ -4287,7 +4281,6 @@ STREAMBUFSIZE
 ;
 }
 int32_t
-NP_LOADDS
 NPP_Write
 (
 NPP
@@ -4309,7 +4302,6 @@ len
 ;
 }
 NPError
-NP_LOADDS
 NPP_DestroyStream
 (
 NPP
@@ -4326,7 +4318,6 @@ NPERR_NO_ERROR
 ;
 }
 void
-NP_LOADDS
 NPP_Print
 (
 NPP
@@ -4410,7 +4401,6 @@ url
 }
 }
 NPError
-NP_LOADDS
 NPP_GetValue
 (
 NPP
@@ -4449,7 +4439,6 @@ rv
 ;
 }
 NPError
-NP_LOADDS
 NPP_SetValue
 (
 NPP
