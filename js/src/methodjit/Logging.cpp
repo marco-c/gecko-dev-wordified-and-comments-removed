@@ -610,7 +610,7 @@ return
 ;
 fprintf
 (
-stdout
+stderr
 "
 [
 jaeger
@@ -636,7 +636,7 @@ fmt
 ;
 vfprintf
 (
-stdout
+stderr
 fmt
 ap
 )

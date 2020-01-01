@@ -10412,6 +10412,8 @@ argv
 lines
 |
 =
+!
+!
 JS_MatchStringAndAscii
 (
 str
@@ -10424,6 +10426,8 @@ l
 recursive
 |
 =
+!
+!
 JS_MatchStringAndAscii
 (
 str
@@ -21149,13 +21153,16 @@ array
 -
 >
 byteLength
+JS_STRUCTURED_CLONE_VERSION
 &
 v
 )
 )
+{
 return
 false
 ;
+}
 JS_SET_RVAL
 (
 cx

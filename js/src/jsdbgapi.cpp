@@ -6806,7 +6806,7 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 JSObject
 *
@@ -6846,7 +6846,7 @@ enter
 )
 )
 return
-NULL
+false
 ;
 JSScript
 *
@@ -7382,7 +7382,7 @@ getter
 )
 =
 =
-js_GetCallArg
+GetCallArg
 )
 {
 pd
@@ -7415,7 +7415,7 @@ getter
 )
 =
 =
-js_GetCallVar
+GetCallVar
 )
 {
 pd

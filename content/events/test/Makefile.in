@@ -703,6 +703,14 @@ doc2
 .
 html
 \
+bug602962
+.
+xul
+\
+test_bug602962
+.
+xul
+\
 (
 NULL
 )

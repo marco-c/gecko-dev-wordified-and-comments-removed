@@ -14138,7 +14138,7 @@ JSOP_DEFFUN
 outertc
 -
 >
-noteHasDefFun
+noteMightAliasLocals
 (
 )
 ;
@@ -16134,6 +16134,13 @@ pn_dflags
 |
 =
 PND_DEOPTIMIZED
+;
+tc
+-
+>
+noteMightAliasLocals
+(
+)
 ;
 return
 true

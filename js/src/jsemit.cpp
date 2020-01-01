@@ -10560,7 +10560,7 @@ if
 cg
 -
 >
-hasDefFun
+mightAliasLocals
 (
 )
 )

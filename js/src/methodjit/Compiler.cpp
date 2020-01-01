@@ -2440,6 +2440,7 @@ execPool
 =
 getExecPool
 (
+script
 totalSize
 )
 ;
@@ -14800,6 +14801,16 @@ JSOP_FUNAPPLY
 &
 &
 IsLowerableFunCallOrApply
+(
+nextpc
+)
+&
+&
+!
+analysis
+-
+>
+jumpTarget
 (
 nextpc
 )

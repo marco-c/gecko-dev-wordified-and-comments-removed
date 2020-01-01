@@ -4838,7 +4838,7 @@ NULL
 &
 js_RegExpClass
 regexp_construct
-1
+2
 JS_TypeHandlerNew
 NULL
 regexp_methods
