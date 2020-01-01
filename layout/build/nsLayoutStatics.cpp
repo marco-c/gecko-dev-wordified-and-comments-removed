@@ -218,7 +218,7 @@ h
 #
 include
 "
-nsSpaceManager
+nsFloatManager
 .
 h
 "
@@ -1370,7 +1370,7 @@ ReleaseGlobals
 (
 )
 ;
-nsSpaceManager
+nsFloatManager
 :
 :
 Shutdown
