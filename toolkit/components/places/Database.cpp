@@ -906,7 +906,7 @@ mDone
 ;
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_MOZISTORAGECOMPLETIONCALLBACK
 BlockingConnectionCloseCallback
 (
@@ -1042,7 +1042,7 @@ thread
 ;
 }
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 BlockingConnectionCloseCallback
 mozIStorageCompletionCallback
@@ -1514,7 +1514,7 @@ PLACES_FACTORY_SINGLETON_IMPLEMENTATION
 Database
 gDatabase
 )
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 Database
 nsIObserver

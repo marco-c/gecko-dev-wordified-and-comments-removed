@@ -58,7 +58,7 @@ NS_DISPATCH_NORMAL
 )
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 UrlClassifierDBServiceWorkerProxy
 nsIUrlClassifierDBServiceWorker
@@ -654,7 +654,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 UrlClassifierLookupCallbackProxy
 nsIUrlClassifierLookupCallback
@@ -713,7 +713,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 UrlClassifierCallbackProxy
 nsIUrlClassifierCallback
@@ -773,7 +773,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 UrlClassifierUpdateObserverProxy
 nsIUrlClassifierUpdateObserver

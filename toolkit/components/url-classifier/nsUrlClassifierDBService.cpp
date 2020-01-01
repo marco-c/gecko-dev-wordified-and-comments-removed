@@ -555,7 +555,7 @@ nsUrlClassifierDBServiceWorker
 (
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIURLCLASSIFIERDBSERVICE
 NS_DECL_NSIURLCLASSIFIERDBSERVICEWORKER
 nsresult
@@ -739,7 +739,7 @@ mPendingLookups
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 nsUrlClassifierDBServiceWorker
 nsIUrlClassifierDBServiceWorker
@@ -3110,7 +3110,7 @@ nsIUrlClassifierHashCompleterCallback
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIURLCLASSIFIERLOOKUPCALLBACK
 NS_DECL_NSIURLCLASSIFIERHASHCOMPLETERCALLBACK
 nsUrlClassifierLookupCallback
@@ -3182,7 +3182,7 @@ mCallback
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS2
+NS_IMPL_ISUPPORTS2
 (
 nsUrlClassifierLookupCallback
 nsIUrlClassifierLookupCallback
@@ -4064,7 +4064,7 @@ nsIUrlClassifierCallback
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIURLCLASSIFIERCALLBACK
 nsUrlClassifierClassifyCallback
 (
@@ -4107,7 +4107,7 @@ mCheckPhishing
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsUrlClassifierClassifyCallback
 nsIUrlClassifierCallback
@@ -4222,7 +4222,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS3
+NS_IMPL_ISUPPORTS3
 (
 nsUrlClassifierDBService
 nsIUrlClassifierDBService

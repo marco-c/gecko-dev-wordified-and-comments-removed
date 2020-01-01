@@ -979,7 +979,7 @@ findOnBoundary
 }
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 MatchAutoCompleteFunction
 mozIStorageFunction
@@ -1534,7 +1534,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 CalculateFrecencyFunction
 mozIStorageFunction
@@ -2546,7 +2546,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 GenerateGUIDFunction
 mozIStorageFunction
@@ -2649,7 +2649,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 GetUnreversedHostFunction
 mozIStorageFunction
@@ -2827,7 +2827,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 FixupURLFunction
 mozIStorageFunction
