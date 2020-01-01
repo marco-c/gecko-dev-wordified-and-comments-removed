@@ -6697,6 +6697,15 @@ length
 0
 ;
 else
+{
+presShell
+-
+>
+FlushPendingNotifications
+(
+Flush_Layout
+)
+;
 nsAccEvent
 :
 :
@@ -6705,6 +6714,7 @@ ApplyEventRules
 mEventsToFire
 )
 ;
+}
 for
 (
 PRUint32
