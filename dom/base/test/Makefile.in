@@ -118,6 +118,10 @@ quirks
 .
 html
 \
+test_nondomexception
+.
+html
+\
 (
 NULL
 )

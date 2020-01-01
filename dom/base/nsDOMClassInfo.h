@@ -373,17 +373,6 @@ aData
 ;
 }
 static
-nsresult
-ThrowJSException
-(
-JSContext
-*
-cx
-nsresult
-aResult
-)
-;
-static
 bool
 ObjectIsNativeWrapper
 (
