@@ -1956,12 +1956,11 @@ diff
 /
 microsecInDayCnt
 ;
-LL_MOD
-(
 temp
+=
 diff
+%
 microsecInDayCnt
-)
 ;
 if
 (
