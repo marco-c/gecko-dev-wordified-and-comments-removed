@@ -338,7 +338,7 @@ childNodes
 .
 length
 -
-1
+4
 )
 ;
 }
