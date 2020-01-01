@@ -51,7 +51,7 @@ MoveOperand
 bool
 inCycle_
 ;
-MacroAssembler
+MacroAssemblerSpecific
 &
 masm
 ;
@@ -174,7 +174,7 @@ public
 :
 MoveEmitterX86
 (
-MacroAssembler
+MacroAssemblerSpecific
 &
 masm
 )

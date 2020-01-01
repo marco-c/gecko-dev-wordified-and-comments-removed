@@ -2119,6 +2119,12 @@ x64
 .
 cpp
 \
+MacroAssembler
+-
+x64
+.
+cpp
+\
 (
 NULL
 )
@@ -2168,6 +2174,12 @@ x86
 cpp
 \
 Bailouts
+-
+x86
+.
+cpp
+\
+MacroAssembler
 -
 x86
 .
