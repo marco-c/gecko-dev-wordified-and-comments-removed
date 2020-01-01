@@ -5383,6 +5383,16 @@ experimental_bindings
 true
 )
 ;
+pref
+(
+"
+dom
+.
+experimental_forms
+"
+false
+)
+;
 #
 ifndef
 XP_WIN

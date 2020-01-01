@@ -262,6 +262,10 @@ test_valueasnumber_attribute
 .
 html
 \
+test_experimental_forms_pref
+.
+html
+\
 (
 NULL
 )
