@@ -2168,6 +2168,8 @@ Kind
 kind
 uint32_t
 slot
+Value
+target
 )
 ;
 static
@@ -2185,6 +2187,8 @@ Kind
 kind
 uint32_t
 slot
+Value
+target
 )
 ;
 private
@@ -2200,6 +2204,8 @@ Kind
 kind
 uint32_t
 slot
+Value
+target
 )
 ;
 inline
@@ -2216,6 +2222,8 @@ Kind
 kind
 uint32_t
 slot
+Value
+target
 )
 ;
 }
