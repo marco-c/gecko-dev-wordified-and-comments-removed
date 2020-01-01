@@ -41091,6 +41091,11 @@ x
 y
 )
 ;
+FlushPendingNotifications
+(
+Flush_Layout
+)
+;
 nsIPresShell
 *
 ps
