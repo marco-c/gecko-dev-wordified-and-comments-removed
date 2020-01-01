@@ -229,6 +229,7 @@ PROCESS_ARCH_ARM
 }
 ;
 static
+inline
 ProcessArchitecture
 GetCurrentProcessArchitecture
 (
