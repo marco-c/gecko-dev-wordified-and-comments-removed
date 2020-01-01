@@ -1015,6 +1015,9 @@ mOfflineCacheEntry
 nsCacheAccessMode
 mOfflineCacheAccess
 ;
+nsCString
+mOfflineCacheClientID
+;
 nsISupports
 *
 mProxyAuthContinuationState
