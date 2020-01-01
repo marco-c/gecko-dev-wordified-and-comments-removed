@@ -1246,7 +1246,6 @@ mLayerController
 .
 abortPanZoomAnimation
 (
-false
 )
 ;
 mDisplayPort
@@ -1494,7 +1493,6 @@ mLayerController
 .
 abortPanZoomAnimation
 (
-true
 )
 ;
 }
