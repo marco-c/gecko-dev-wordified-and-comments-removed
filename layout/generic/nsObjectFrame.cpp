@@ -3871,12 +3871,11 @@ InstantiateFullPagePlugin
 (
 aMimeType
 aURI
-*
+mInstanceOwner
 getter_AddRefs
 (
 stream
 )
-mInstanceOwner
 )
 ;
 if

@@ -372,12 +372,6 @@ nsNPAPIPluginInstance
 *
 mInstance
 ;
-nsCOMArray
-<
-nsIPluginStreamInfo
->
-mStreams
-;
 nsPluginInstanceTag
 (
 nsPluginTag
