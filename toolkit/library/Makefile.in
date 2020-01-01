@@ -1349,10 +1349,6 @@ COMPONENT_LIBS
 +
 =
 profiler
-STATIC_LIBS
-+
-=
-angle
 ifeq
 (
 windows
