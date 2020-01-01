@@ -55989,10 +55989,6 @@ for
 Breakpad
 anyway
 .
-AC_DEFINE
-(
-_STATIC_CPPLIB
-)
 MOZ_MEMORY_LDFLAGS
 =
 "
