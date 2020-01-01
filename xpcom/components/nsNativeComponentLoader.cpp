@@ -77,13 +77,6 @@ nsILocalFile
 h
 "
 #
-include
-"
-nsIProxyObjectManager
-.
-h
-"
-#
 ifdef
 XP_WIN
 #
