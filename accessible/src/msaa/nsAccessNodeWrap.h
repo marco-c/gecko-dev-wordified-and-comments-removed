@@ -585,10 +585,6 @@ aNode
 ;
 static
 PRBool
-gIsEnumVariantSupportDisabled
-;
-static
-PRBool
 gIsIA2Disabled
 ;
 static

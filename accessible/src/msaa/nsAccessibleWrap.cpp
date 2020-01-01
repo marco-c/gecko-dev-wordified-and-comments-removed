@@ -339,10 +339,6 @@ IID_IEnumVARIANT
 =
 =
 iid
-&
-&
-!
-gIsEnumVariantSupportDisabled
 )
 {
 long
