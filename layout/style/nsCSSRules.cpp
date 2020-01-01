@@ -5762,7 +5762,7 @@ GetArrayValue
 (
 )
 ;
-PRUint32
+size_t
 i
 =
 0
