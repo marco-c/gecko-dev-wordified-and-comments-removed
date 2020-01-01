@@ -670,13 +670,6 @@ eTreeOpStartLayout
 aBuilder
 -
 >
-FlushPendingAppendNotifications
-(
-)
-;
-aBuilder
--
->
 StartLayout
 (
 )
