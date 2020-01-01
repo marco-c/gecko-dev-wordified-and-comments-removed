@@ -924,9 +924,6 @@ FPRegisterID
 fpReg
 )
 ;
-#
-ifdef
-JS_POLYIC
 void
 passPICAddress
 (
@@ -935,11 +932,6 @@ PICGenInfo
 pic
 )
 ;
-#
-endif
-#
-ifdef
-JS_MONOIC
 void
 passMICAddress
 (
@@ -948,8 +940,6 @@ MICGenInfo
 mic
 )
 ;
-#
-endif
 void
 constructThis
 (
