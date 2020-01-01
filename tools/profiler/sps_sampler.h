@@ -1524,6 +1524,15 @@ mRuntime
 =
 runtime
 ;
+if
+(
+!
+runtime
+)
+{
+return
+;
+}
 JS_STATIC_ASSERT
 (
 sizeof
