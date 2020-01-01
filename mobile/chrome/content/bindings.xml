@@ -1148,6 +1148,12 @@ false
 ;
 BrowserUI
 .
+showToolbar
+(
+)
+;
+BrowserUI
+.
 popDialog
 (
 )
@@ -1192,6 +1198,14 @@ body
 [
 CDATA
 [
+this
+.
+input
+.
+reset
+(
+)
+;
 this
 .
 closePopup
