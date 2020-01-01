@@ -3011,6 +3011,12 @@ Number
 MAX_VALUE
 )
 ;
+this
+.
+hideTitlebar
+(
+)
+;
 }
 hideSidebars
 :
