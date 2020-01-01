@@ -4357,12 +4357,7 @@ BKPT_insn
 NIns
 )
 (
-(
-0xE
-<
-<
-24
-)
+COND_AL
 |
 (
 0x12
