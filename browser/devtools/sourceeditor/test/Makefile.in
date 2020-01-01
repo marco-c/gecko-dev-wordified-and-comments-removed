@@ -502,10 +502,6 @@ browser_bug725388_mouse_events
 .
 js
 \
-browser_bug707987_debugger_breakpoints
-.
-js
-\
 head
 .
 js

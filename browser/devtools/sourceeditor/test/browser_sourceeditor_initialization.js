@@ -245,7 +245,7 @@ config
 showLineNumbers
 :
 true
-initialText
+placeholderText
 :
 "
 foobarbaz
@@ -321,7 +321,7 @@ SourceEditor
 .
 DEFAULTS
 .
-mode
+MODE
 "
 default
 editor
