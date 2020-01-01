@@ -129,6 +129,16 @@ endif
 MOCHITEST_FILES
 =
 \
+test_bug94514
+.
+html
+\
+bug94514
+-
+postpage
+.
+html
+\
 test_bug123696
 .
 html
