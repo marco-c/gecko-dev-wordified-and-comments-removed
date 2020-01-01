@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_net_nsWebSocketHandler_h
+mozilla_net_WebSocketChannel_h
 #
 define
-mozilla_net_nsWebSocketHandler_h
+mozilla_net_WebSocketChannel_h
 #
 include
 "
@@ -174,7 +174,7 @@ class
 nsWSCompression
 ;
 class
-nsWebSocketHandler
+WebSocketChannel
 :
 public
 BaseWebSocketChannel
@@ -257,7 +257,7 @@ nsISupports
 aSecurityInfo
 )
 ;
-nsWebSocketHandler
+WebSocketChannel
 (
 )
 ;
@@ -363,7 +363,7 @@ protected
 :
 virtual
 ~
-nsWebSocketHandler
+WebSocketChannel
 (
 )
 ;
@@ -998,14 +998,14 @@ mDynamicOutput
 }
 ;
 class
-nsWebSocketSSLHandler
+WebSocketSSLChannel
 :
 public
-nsWebSocketHandler
+WebSocketChannel
 {
 public
 :
-nsWebSocketSSLHandler
+WebSocketSSLChannel
 (
 )
 {
@@ -1021,7 +1021,7 @@ protected
 :
 virtual
 ~
-nsWebSocketSSLHandler
+WebSocketSSLChannel
 (
 )
 {

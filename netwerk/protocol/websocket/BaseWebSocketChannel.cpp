@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsWebSocketHandler
-.
-h
-"
-#
-include
-"
 nsILoadGroup
 .
 h
@@ -478,7 +471,7 @@ LOG
 (
 (
 "
-BaseWebSocketHandler
+BaseWebSocketChannel
 :
 :
 GetScheme
@@ -535,7 +528,7 @@ LOG
 (
 (
 "
-BaseWebSocketHandler
+BaseWebSocketChannel
 :
 :
 GetDefaultPort
@@ -584,7 +577,7 @@ LOG
 (
 (
 "
-BaseWebSocketHandler
+BaseWebSocketChannel
 :
 :
 GetProtocolFlags
@@ -646,7 +639,7 @@ LOG
 (
 (
 "
-BaseWebSocketHandler
+BaseWebSocketChannel
 :
 :
 NewURI
@@ -753,7 +746,7 @@ LOG
 (
 (
 "
-BaseWebSocketHandler
+BaseWebSocketChannel
 :
 :
 NewChannel
@@ -794,7 +787,7 @@ LOG
 (
 (
 "
-BaseWebSocketHandler
+BaseWebSocketChannel
 :
 :
 AllowPort

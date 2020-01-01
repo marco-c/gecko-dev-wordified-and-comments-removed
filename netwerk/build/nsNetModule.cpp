@@ -926,7 +926,7 @@ NECKO_PROTOCOL_websocket
 #
 include
 "
-nsWebSocketHandler
+WebSocketChannel
 .
 h
 "
@@ -946,7 +946,7 @@ net
 static
 BaseWebSocketChannel
 *
-WebSocketHandlerConstructor
+WebSocketChannelConstructor
 (
 bool
 aSecure
@@ -974,14 +974,14 @@ aSecure
 {
 return
 new
-nsWebSocketSSLHandler
+WebSocketSSLChannel
 ;
 }
 else
 {
 return
 new
-nsWebSocketHandler
+WebSocketChannel
 ;
 }
 }
@@ -1054,7 +1054,7 @@ rv
 \
 inst
 =
-WebSocketHandlerConstructor
+WebSocketChannelConstructor
 (
 secure
 )
@@ -1091,12 +1091,12 @@ rv
 }
 WEB_SOCKET_HANDLER_CONSTRUCTOR
 (
-nsWebSocketHandler
+WebSocketChannel
 false
 )
 WEB_SOCKET_HANDLER_CONSTRUCTOR
 (
-nsWebSocketSSLHandler
+WebSocketSSLChannel
 true
 )
 #
@@ -2608,7 +2608,7 @@ mozilla
 net
 :
 :
-nsWebSocketHandler
+WebSocketChannel
 :
 :
 Shutdown
@@ -3920,7 +3920,7 @@ mozilla
 net
 :
 :
-nsWebSocketHandlerConstructor
+WebSocketChannelConstructor
 }
 {
 &
@@ -3933,7 +3933,7 @@ mozilla
 net
 :
 :
-nsWebSocketSSLHandlerConstructor
+WebSocketSSLChannelConstructor
 }
 #
 endif

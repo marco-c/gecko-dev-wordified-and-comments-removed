@@ -458,7 +458,7 @@ NULL
 CPPSRCS
 =
 \
-nsWebSocketHandler
+WebSocketChannel
 .
 cpp
 \
@@ -482,7 +482,7 @@ EXPORTS_mozilla
 net
 =
 \
-nsWebSocketHandler
+WebSocketChannel
 .
 h
 \
