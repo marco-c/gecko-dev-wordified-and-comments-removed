@@ -479,11 +479,6 @@ EXTRA_COMPONENTS
 nsPlacesTransactionsService
 .
 js
-EXTRA_PP_COMPONENTS
-=
-nsPlacesTransactionsService
-.
-js
 include
 (
 topsrcdir

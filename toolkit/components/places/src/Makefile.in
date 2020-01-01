@@ -603,16 +603,6 @@ js
 (
 NULL
 )
-EXTRA_JS_MODULES
-=
-utils
-.
-js
-EXTRA_PP_JS_MODULES
-=
-utils
-.
-js
 include
 (
 topsrcdir
