@@ -32890,7 +32890,6 @@ GetNamedItem
 (
 aName
 aCache
-aResult
 )
 ;
 }
@@ -33113,7 +33112,6 @@ GetNamedItem
 (
 aName
 aCache
-aResult
 )
 ;
 }

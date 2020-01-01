@@ -523,9 +523,6 @@ nsWrapperCache
 *
 *
 aCache
-nsresult
-*
-aResult
 )
 ;
 NS_HIDDEN_

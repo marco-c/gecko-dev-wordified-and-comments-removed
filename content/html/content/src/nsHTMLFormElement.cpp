@@ -434,16 +434,8 @@ nsWrapperCache
 *
 *
 aCache
-nsresult
-*
-aResult
 )
 {
-*
-aResult
-=
-NS_OK
-;
 nsISupports
 *
 item
