@@ -821,6 +821,13 @@ else
             
 os
 .
+close
+(
+fd
+)
+            
+os
+.
 remove
 (
 tmp
