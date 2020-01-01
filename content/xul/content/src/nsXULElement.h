@@ -1886,15 +1886,6 @@ nsIFrameLoaderOwner
 aOtherOwner
 )
 ;
-NS_IMETHOD
-GetCrossProcessObjectWrapper
-(
-nsIVariant
-*
-*
-cpow
-)
-;
 virtual
 void
 RecompileScriptEventListeners

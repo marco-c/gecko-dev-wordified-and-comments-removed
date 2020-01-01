@@ -455,10 +455,6 @@ BLOCK
 /
 include
 protocol
-PIFrameEmbedding
-;
-include
-protocol
 PTestShell
 ;
 include
@@ -476,8 +472,6 @@ protocol
 PContextWrapper
 {
 manager
-PIFrameEmbedding
-or
 PTestShell
 ;
 manages

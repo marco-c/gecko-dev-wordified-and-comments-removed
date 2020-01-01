@@ -511,7 +511,7 @@ objects
 %
 array
 of
-cpow
+handles
 or
 null
 always

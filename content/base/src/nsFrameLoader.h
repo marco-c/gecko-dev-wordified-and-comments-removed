@@ -364,15 +364,6 @@ GetChildProcess
 ;
 #
 endif
-NS_IMETHOD
-GetCrossProcessObjectWrapper
-(
-nsIVariant
-*
-*
-cpow
-)
-;
 nsFrameMessageManager
 *
 GetFrameMessageManager
