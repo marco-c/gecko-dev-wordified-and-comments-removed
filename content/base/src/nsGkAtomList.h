@@ -4814,6 +4814,13 @@ onholding
 )
 GK_ATOM
 (
+oniccinfochange
+"
+oniccinfochange
+"
+)
+GK_ATOM
+(
 onincoming
 "
 onincoming
