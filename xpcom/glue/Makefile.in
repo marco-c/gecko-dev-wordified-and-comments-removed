@@ -711,6 +711,10 @@ NULL
 EXPORTS_mozilla
 =
 \
+AutoRestore
+.
+h
+\
 BlockingResourceBase
 .
 h
