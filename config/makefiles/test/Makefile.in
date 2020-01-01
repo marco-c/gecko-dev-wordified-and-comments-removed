@@ -1419,6 +1419,16 @@ topsrcdir
 /
 config
 /
+config
+.
+mk
+\
+(
+topsrcdir
+)
+/
+config
+/
 makefiles
 /
 makeutils
