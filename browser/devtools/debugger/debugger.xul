@@ -1110,6 +1110,13 @@ type
 "
 search
 "
+class
+=
+"
+devtools
+-
+searchinput
+"
 emptytext
 =
 "
