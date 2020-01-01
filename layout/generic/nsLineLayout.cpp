@@ -3599,6 +3599,9 @@ PR_TRUE
 if
 (
 (
+#
+ifdef
+MOZ_SVG
 fType
 =
 =
@@ -3608,6 +3611,8 @@ nsGkAtoms
 svgOuterSVGFrame
 |
 |
+#
+endif
 fType
 =
 =
