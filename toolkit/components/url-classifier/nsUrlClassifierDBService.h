@@ -109,6 +109,9 @@ class
 nsIThread
 ;
 class
+nsIURI
+;
+class
 nsUrlClassifierDBService
 MOZ_FINAL
 :
