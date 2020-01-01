@@ -457,6 +457,10 @@ browser_webconsole_bug_658368_time_methods
 .
 js
 \
+browser_webconsole_bug_764572_output_open_url
+.
+js
+\
 browser_webconsole_bug_622303_persistent_filters
 .
 js
