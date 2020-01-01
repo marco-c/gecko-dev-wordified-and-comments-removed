@@ -48,6 +48,13 @@ h
 #
 include
 "
+NSPRFormatTime
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h
