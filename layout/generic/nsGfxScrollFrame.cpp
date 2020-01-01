@@ -269,6 +269,13 @@ nsFrameManager
 .
 h
 "
+#
+include
+"
+nsIPrefService
+.
+h
+"
 nsIFrame
 *
 NS_NewHTMLScrollFrame
