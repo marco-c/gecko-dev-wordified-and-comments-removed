@@ -169,6 +169,10 @@ BrowserElementDictionaries
 .
 webidl
 \
+CameraControl
+.
+webidl
+\
 CameraManager
 .
 webidl

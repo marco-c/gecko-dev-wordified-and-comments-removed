@@ -2546,7 +2546,13 @@ mCaptureIndex
 mCameraThread
 this
 this
+nsGlobalWindow
+:
+:
+GetInnerWindowWithId
+(
 mWindowId
+)
 )
 ;
 mCameraManager
@@ -2764,9 +2770,8 @@ MediaEngineWebRTCVideoSource
 :
 HandleEvent
 (
-nsICameraControl
+nsISupports
 *
-camera
 )
 {
 MOZ_ASSERT

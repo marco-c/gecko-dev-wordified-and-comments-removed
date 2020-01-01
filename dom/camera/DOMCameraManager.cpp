@@ -518,7 +518,7 @@ __func__
 __LINE__
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsDOMCameraControl
 >
@@ -543,7 +543,7 @@ Value
 )
 :
 nullptr
-mWindowId
+mWindow
 )
 ;
 Register

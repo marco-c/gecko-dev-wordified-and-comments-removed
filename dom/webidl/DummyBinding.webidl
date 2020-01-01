@@ -202,14 +202,6 @@ arg
 )
 ;
 void
-CameraPictureOptions
-(
-optional
-CameraPictureOptions
-arg
-)
-;
-void
 MmsParameters
 (
 optional
