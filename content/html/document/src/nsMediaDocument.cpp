@@ -888,6 +888,14 @@ GetVisibleArea
 (
 )
 ;
+nsCOMPtr
+<
+nsIPresShell
+>
+shellGrip
+=
+shell
+;
 nsresult
 rv
 =

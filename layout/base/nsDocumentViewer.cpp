@@ -2274,6 +2274,14 @@ nsnull
 )
 ;
 }
+nsCOMPtr
+<
+nsIPresShell
+>
+shellGrip
+=
+mPresShell
+;
 mPresShell
 -
 >
@@ -2286,6 +2294,9 @@ height
 if
 (
 mEnableRendering
+&
+&
+mViewManager
 )
 {
 mViewManager
