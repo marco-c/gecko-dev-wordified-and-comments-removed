@@ -153,8 +153,6 @@ IonJSFrameLayout
 public
 IonCommonFrameLayout
 {
-private
-:
 void
 *
 calleeToken_
