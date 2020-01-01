@@ -318,7 +318,7 @@ e
 g
 .
 "
-contains
+startsWith
 "
 attribute
 jsval
