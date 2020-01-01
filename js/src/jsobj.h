@@ -6004,8 +6004,7 @@ const
 PropertyDescriptor
 *
 desc
-Value
-*
+MutableHandleValue
 vp
 )
 ;
