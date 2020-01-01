@@ -227,17 +227,6 @@ nsIntRegion
 aClippingRegion
 )
 ;
-virtual
-ShadowLayerManager
-*
-AsShadowManager
-(
-)
-{
-return
-this
-;
-}
 void
 BeginTransaction
 (
