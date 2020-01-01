@@ -6371,6 +6371,15 @@ return
 mIsXBLScope
 ;
 }
+bool
+AllowXBLScope
+(
+)
+{
+return
+mAllowXBLScope
+;
+}
 protected
 :
 virtual
@@ -6455,6 +6464,9 @@ mDOMExpandoMap
 ;
 bool
 mIsXBLScope
+;
+bool
+mAllowXBLScope
 ;
 bool
 mUseXBLScope

@@ -213,6 +213,14 @@ contentScope
 )
 ;
 bool
+AllowXBLScope
+(
+JSCompartment
+*
+c
+)
+;
+bool
 IsSandboxPrototypeProxy
 (
 JSObject
