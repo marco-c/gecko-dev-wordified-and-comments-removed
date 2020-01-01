@@ -155,7 +155,7 @@ FILE_SIMPLE_MAR
 const
 SLOW_MAR_DOWNLOAD_INTERVAL
 =
-100
+1000
 ;
 function
 handleRequest
