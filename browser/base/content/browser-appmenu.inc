@@ -1620,7 +1620,7 @@ label
 &
 debuggerMenu
 .
-label
+label2
 ;
 "
 key
