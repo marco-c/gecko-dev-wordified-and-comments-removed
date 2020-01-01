@@ -6839,7 +6839,7 @@ oncommand
 "
 SelectHelper
 .
-close
+hide
 (
 )
 ;
