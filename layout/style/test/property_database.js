@@ -15723,10 +15723,6 @@ left
 0
 %
 "
-"
-0px
-0px
-"
 ]
 other_values
 :
@@ -16012,6 +16008,10 @@ calc
 50
 %
 )
+"
+"
+0px
+0px
 "
 ]
 invalid_values
