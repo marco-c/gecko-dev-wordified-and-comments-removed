@@ -277,6 +277,17 @@ NUM_STATUS_CODES
 }
 ;
 enum
+settingsFlags
+{
+PERSIST_VALUE
+=
+1
+PERSISTED_VALUE
+=
+2
+}
+;
+enum
 {
 SETTINGS_TYPE_UPLOAD_BW
 =
