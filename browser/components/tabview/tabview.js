@@ -475,10 +475,12 @@ function
 (
 tab
 )
-!
-tab
+Utils
 .
-closing
+isValidXULTab
+(
+tab
+)
 )
 ;
 }
