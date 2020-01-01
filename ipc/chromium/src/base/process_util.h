@@ -388,6 +388,7 @@ PRIVILEGES_UNPRIVILEGED
 PRIVILEGES_CAMERA
 PRIVILEGES_VIDEO
 PRIVILEGES_INHERIT
+PRIVILEGES_LAST
 }
 ;
 #
@@ -560,6 +561,13 @@ GetCurrentProcessArchitecture
 ;
 #
 endif
+void
+SetCurrentProcessPrivileges
+(
+ChildPrivileges
+privs
+)
+;
 bool
 LaunchApp
 (
