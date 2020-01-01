@@ -712,6 +712,7 @@ NS_ENSURE_STATE
 properties
 )
 ;
+static
 PRUint64
 size
 =

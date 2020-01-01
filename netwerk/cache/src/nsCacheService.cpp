@@ -2301,6 +2301,7 @@ return
 capacity
 ;
 }
+static
 PRUint64
 bytes
 =
