@@ -147,9 +147,12 @@ enable
 application
 =
 b2g
-ENABLE_MARIONETTE
-=
-1
+ac_add_options
+-
+-
+enable
+-
+marionette
 export
 CXXFLAGS
 =

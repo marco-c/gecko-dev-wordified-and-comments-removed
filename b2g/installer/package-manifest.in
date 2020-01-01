@@ -3970,9 +3970,6 @@ BINPATH
 DLL_PREFIX
 omxplugin
 DLL_SUFFIX
-#
-ifdef
-ENABLE_MARIONETTE
 BINPATH
 /
 chrome
@@ -4000,8 +3997,6 @@ components
 marionettecomponent
 .
 js
-#
-endif
 BINPATH
 /
 components
