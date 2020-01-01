@@ -2623,14 +2623,14 @@ h
 #
 include
 "
-nsIDOMVoicemail
+nsIDOMMozVoicemail
 .
 h
 "
 #
 include
 "
-nsIDOMVoicemailEvent
+nsIDOMMozVoicemailEvent
 .
 h
 "
@@ -9282,6 +9282,10 @@ nsIMozNavigatorMobileConnection
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsIMozNavigatorCellBroadcast
+)
+DOM_CLASSINFO_MAP_ENTRY
+(
+nsIMozNavigatorVoicemail
 )
 #
 endif

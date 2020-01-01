@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsIDOMVoicemailStatus
+nsIDOMMozVoicemailStatus
 .
 h
 "
@@ -28,12 +28,14 @@ mozilla
 dom
 :
 :
-telephony
-:
-:
 VoicemailEvent
 )
-USING_TELEPHONY_NAMESPACE
+namespace
+mozilla
+{
+namespace
+dom
+{
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 VoicemailEvent
@@ -150,6 +152,8 @@ return
 NS_OK
 ;
 }
+}
+}
 namespace
 {
 nsresult
@@ -175,9 +179,6 @@ mozilla
 :
 :
 dom
-:
-:
-telephony
 :
 :
 VoicemailEvent

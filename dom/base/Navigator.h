@@ -97,6 +97,13 @@ nsINavigatorCellBroadcast
 h
 "
 #
+include
+"
+nsINavigatorVoicemail
+.
+h
+"
+#
 endif
 #
 include
@@ -168,9 +175,6 @@ h
 "
 class
 nsIDOMTelephony
-;
-class
-nsIDOMMozVoicemail
 ;
 #
 endif
@@ -312,6 +316,8 @@ public
 nsIMozNavigatorMobileConnection
 public
 nsIMozNavigatorCellBroadcast
+public
+nsIMozNavigatorVoicemail
 #
 endif
 #
@@ -383,6 +389,7 @@ ifdef
 MOZ_B2G_RIL
 NS_DECL_NSIMOZNAVIGATORMOBILECONNECTION
 NS_DECL_NSIMOZNAVIGATORCELLBROADCAST
+NS_DECL_NSIMOZNAVIGATORVOICEMAIL
 #
 endif
 #
