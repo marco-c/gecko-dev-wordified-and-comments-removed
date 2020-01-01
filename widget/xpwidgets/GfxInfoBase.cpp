@@ -1541,7 +1541,7 @@ return
 DRIVER_BETWEEN_INCLUSIVE_START
 ;
 return
-DRIVER_UNKNOWN_COMPARISON
+DRIVER_COMPARISON_IGNORED
 ;
 }
 static
@@ -2846,6 +2846,15 @@ i
 ]
 .
 mDriverVersionMax
+;
+break
+;
+case
+DRIVER_COMPARISON_IGNORED
+:
+match
+=
+true
 ;
 break
 ;
