@@ -69,7 +69,7 @@ updateUrl
 const
 STARTPAGE_VERSION
 =
-3
+4
 ;
 this
 .
