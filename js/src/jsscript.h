@@ -320,6 +320,11 @@ strictModeCode
 :
 1
 ;
+bool
+compileAndGo
+:
+1
+;
 jsbytecode
 *
 main
