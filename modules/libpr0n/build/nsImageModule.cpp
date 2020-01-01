@@ -64,6 +64,9 @@ imgContainer
 h
 "
 #
+undef
+LoadImage
+#
 include
 "
 imgLoader

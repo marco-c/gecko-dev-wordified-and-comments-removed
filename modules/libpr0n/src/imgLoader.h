@@ -87,6 +87,9 @@ h
 "
 #
 endif
+#
+undef
+LoadImage
 class
 imgRequest
 ;

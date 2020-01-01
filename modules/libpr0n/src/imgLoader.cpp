@@ -13,9 +13,6 @@ imgContainer
 h
 "
 #
-undef
-LoadImage
-#
 include
 "
 nsCOMPtr

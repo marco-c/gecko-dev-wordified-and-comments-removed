@@ -6,6 +6,9 @@ imgRequest
 h
 "
 #
+undef
+LoadImage
+#
 include
 "
 imgLoader
