@@ -706,8 +706,11 @@ aStart
 nsRect
 GetConstraintRect
 (
-nsPoint
-aAnchorPoint
+const
+nsRect
+&
+aAnchorRect
+const
 nsRect
 &
 aRootScreenRect
