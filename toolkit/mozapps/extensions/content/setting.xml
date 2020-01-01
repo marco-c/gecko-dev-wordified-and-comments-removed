@@ -3691,7 +3691,7 @@ command
 "
 this
 .
-valueToPreference
+inputChanged
 .
 bind
 (
