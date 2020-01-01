@@ -40426,6 +40426,12 @@ gBrowser
 selectedBrowser
 )
 {
+if
+(
+this
+.
+_updateFeedTimeout
+)
 clearTimeout
 (
 this
