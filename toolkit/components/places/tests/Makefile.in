@@ -447,6 +447,8 @@ autocomplete
 \
 expiration
 \
+sync
+\
 bookmarks
 \
 queries

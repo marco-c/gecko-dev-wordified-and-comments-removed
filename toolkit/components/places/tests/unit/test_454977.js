@@ -136,7 +136,7 @@ sql
 SELECT
 place_id
 FROM
-moz_historyvisits
+moz_historyvisits_view
 WHERE
 id
 =
