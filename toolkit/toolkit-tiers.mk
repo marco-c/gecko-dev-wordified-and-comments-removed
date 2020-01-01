@@ -928,6 +928,12 @@ tier_platform_dirs
 +
 =
 startupcache
+tier_platform_dirs
++
+=
+js
+/
+ductwork
 ifdef
 APP_LIBXUL_STATICDIRS
 #
