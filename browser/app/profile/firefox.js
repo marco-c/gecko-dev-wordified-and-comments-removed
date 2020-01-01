@@ -7344,6 +7344,9 @@ autostart
 false
 )
 ;
+#
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
 pref
 (
 "
@@ -7356,6 +7359,8 @@ dont_prompt_on_enter
 false
 )
 ;
+#
+endif
 pref
 (
 "
