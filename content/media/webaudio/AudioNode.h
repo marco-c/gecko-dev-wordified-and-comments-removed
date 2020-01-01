@@ -476,10 +476,6 @@ mInputNodes
 }
 private
 :
-friend
-class
-AudioBufferSourceNode
-;
 void
 DisconnectFromGraph
 (
