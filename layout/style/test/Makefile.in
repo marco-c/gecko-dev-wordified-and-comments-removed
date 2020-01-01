@@ -1054,6 +1054,10 @@ test_value_storage
 .
 html
 \
+test_visited_lying
+.
+html
+\
 test_visited_pref
 .
 html
@@ -1179,6 +1183,14 @@ visited
 pref
 -
 iframe
+.
+html
+\
+visited
+-
+lying
+-
+inner
 .
 html
 \
