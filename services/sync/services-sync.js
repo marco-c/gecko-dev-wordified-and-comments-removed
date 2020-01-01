@@ -80,7 +80,7 @@ weave
 termsURL
 "
 "
-http
+https
 :
 /
 /
