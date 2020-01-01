@@ -492,6 +492,11 @@ DeleteDump
 (
 )
 ;
+bool
+ShouldEnableSending
+(
+)
+;
 }
 bool
 UIInit
