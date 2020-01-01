@@ -271,6 +271,11 @@ pack
 "
 center
 "
+class
+=
+"
+buttons
+"
 oncommand
 =
 "
