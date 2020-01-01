@@ -437,6 +437,8 @@ intl
 \
 nkcache
 \
+uconv
+\
 (
 NULL
 )
