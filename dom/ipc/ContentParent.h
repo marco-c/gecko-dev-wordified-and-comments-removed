@@ -379,6 +379,11 @@ nsIDOMBlob
 aBlob
 )
 ;
+void
+KillHard
+(
+)
+;
 protected
 :
 void
