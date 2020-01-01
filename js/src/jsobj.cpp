@@ -19267,12 +19267,13 @@ vp
 if
 (
 !
+callJSPropertyOp
+(
+cx
 clasp
 -
 >
 addProperty
-(
-cx
 obj
 SPROP_USERID
 (
@@ -22355,6 +22356,9 @@ JSVAL_VOID
 if
 (
 !
+callJSPropertyOp
+(
+cx
 obj
 -
 >
@@ -22364,8 +22368,6 @@ getClass
 -
 >
 getProperty
-(
-cx
 obj
 ID_TO_VALUE
 (
@@ -24303,6 +24305,9 @@ JS_TRUE
 ;
 }
 return
+callJSPropertyOp
+(
+cx
 obj
 -
 >
@@ -24312,8 +24317,6 @@ getClass
 -
 >
 delProperty
-(
-cx
 obj
 ID_TO_VALUE
 (
@@ -24360,6 +24363,9 @@ JS_TRUE
 if
 (
 !
+callJSPropertyOp
+(
+cx
 obj
 -
 >
@@ -24369,8 +24375,6 @@ getClass
 -
 >
 delProperty
-(
-cx
 obj
 SPROP_USERID
 (

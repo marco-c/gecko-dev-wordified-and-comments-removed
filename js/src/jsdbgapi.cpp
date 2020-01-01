@@ -3568,12 +3568,13 @@ vp
 vp
 )
 :
+callJSPropertyOpSetter
+(
+cx
 wp
 -
 >
 setter
-(
-cx
 obj
 userid
 vp
