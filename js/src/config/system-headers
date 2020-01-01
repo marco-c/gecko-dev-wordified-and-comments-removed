@@ -2212,6 +2212,9 @@ h
 pthread
 .
 h
+pthread_np
+.
+h
 pwd
 .
 h
