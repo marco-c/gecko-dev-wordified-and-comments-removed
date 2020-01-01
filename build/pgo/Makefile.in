@@ -482,6 +482,10 @@ automation
 .
 py
 \
+(
+CURDIR
+)
+/
 automationutils
 .
 py

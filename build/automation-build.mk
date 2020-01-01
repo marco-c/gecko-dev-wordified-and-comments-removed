@@ -434,6 +434,10 @@ GARBAGE
 automation
 .
 py
+(
+CURDIR
+)
+/
 automationutils
 .
 py
