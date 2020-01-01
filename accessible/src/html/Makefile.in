@@ -432,6 +432,8 @@ LIBXUL_LIBRARY
 1
 REQUIRES
 =
+composer
+\
 content
 \
 docshell

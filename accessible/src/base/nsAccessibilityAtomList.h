@@ -610,6 +610,13 @@ autocomplete
 )
 ACCESSIBILITY_ATOM
 (
+contenteditable
+"
+contenteditable
+"
+)
+ACCESSIBILITY_ATOM
+(
 control
 "
 control
