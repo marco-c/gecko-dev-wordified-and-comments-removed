@@ -101,6 +101,14 @@ ePopupTypeTooltip
 }
 ;
 enum
+CloseMenuMode
+{
+CloseMenuMode_Auto
+CloseMenuMode_None
+CloseMenuMode_Single
+}
+;
+enum
 nsNavigationDirection
 {
 eNavigationDirection_Last
@@ -774,6 +782,8 @@ PRBool
 aMeta
 PRBool
 aUserInput
+CloseMenuMode
+aCloseMenuMode
 )
 :
 mMenu
@@ -803,6 +813,10 @@ aMeta
 mUserInput
 (
 aUserInput
+)
+mCloseMenuMode
+(
+aCloseMenuMode
 )
 {
 NS_ASSERTION
@@ -849,6 +863,9 @@ mMeta
 ;
 PRBool
 mUserInput
+;
+CloseMenuMode
+mCloseMenuMode
 ;
 }
 ;
