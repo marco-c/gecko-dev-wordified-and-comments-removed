@@ -269,6 +269,13 @@ int
 len
 )
 ;
+struct
+cs_info
+*
+get_csconv
+(
+)
+;
 const
 char
 *
