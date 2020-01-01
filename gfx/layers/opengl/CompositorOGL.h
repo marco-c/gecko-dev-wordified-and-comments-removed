@@ -257,6 +257,13 @@ nscore
 .
 h
 "
+#
+include
+"
+VBOArena
+.
+h
+"
 class
 gfx3DMatrix
 ;
@@ -981,6 +988,12 @@ mWindowRenderTarget
 endif
 GLuint
 mQuadVBO
+;
+gl
+:
+:
+VBOArena
+mVBOs
 ;
 bool
 mHasBGRA
