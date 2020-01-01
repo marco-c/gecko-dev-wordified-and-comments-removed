@@ -24,6 +24,9 @@ AccessibleWrap
 ;
 }
 }
+struct
+MaiUtilClass
+;
 extern
 "
 C
