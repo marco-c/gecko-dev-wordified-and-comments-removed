@@ -673,17 +673,6 @@ plugin
 /
 sony
 '
-'
-media
-/
-omx
--
-plugin
-/
-jb
--
-htc
-'
 ]
 )
 if

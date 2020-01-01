@@ -2341,11 +2341,6 @@ so
 libomxpluginfroyo
 .
 so
-libomxpluginjb
--
-htc
-.
-so
 endif
 SO_LIBRARIES
 :
