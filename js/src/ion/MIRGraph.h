@@ -1222,6 +1222,10 @@ clear
 (
 )
 ;
+blockIdGen_
+=
+0
+;
 #
 ifdef
 DEBUG
