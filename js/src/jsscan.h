@@ -832,7 +832,7 @@ union
 private
 :
 friend
-class
+struct
 Token
 ;
 PropertyName
@@ -855,7 +855,7 @@ reflags
 class
 {
 friend
-class
+struct
 Token
 ;
 JSAtom
