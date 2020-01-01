@@ -88,9 +88,6 @@ jsdebug
 LIBRARY_NAME
 =
 jsd
-DIRS
-=
-idl
 CPPSRCS
 =
 \
@@ -185,13 +182,6 @@ cpp
 (
 NULL
 )
-ifdef
-ENABLE_TESTS
-TOOL_DIRS
-+
-=
-test
-endif
 include
 (
 topsrcdir
