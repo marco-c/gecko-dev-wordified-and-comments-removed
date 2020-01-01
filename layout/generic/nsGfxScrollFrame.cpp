@@ -2126,7 +2126,7 @@ mComputedMaxHeight
 computedMaxHeight
 ;
 PRBool
-didHaveHorizonalScrollbar
+didHaveHorizontalScrollbar
 =
 mInner
 .
@@ -2178,7 +2178,7 @@ mInner
 .
 mHasHorizontalScrollbar
 =
-didHaveHorizonalScrollbar
+didHaveHorizontalScrollbar
 ;
 mInner
 .
