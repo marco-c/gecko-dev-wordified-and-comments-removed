@@ -2905,6 +2905,16 @@ if
 out
 .
 deleted
+&
+&
+!
+(
+out
+.
+id
+in
+meta
+)
 )
 this
 .
