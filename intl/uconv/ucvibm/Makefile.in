@@ -115,10 +115,6 @@ nsCP864ToUnicode
 .
 cpp
 \
-nsCP864iToUnicode
-.
-cpp
-\
 nsUnicodeToCP850
 .
 cpp
@@ -140,10 +136,6 @@ nsUnicodeToCP862
 cpp
 \
 nsUnicodeToCP864
-.
-cpp
-\
-nsUnicodeToCP864i
 .
 cpp
 \
