@@ -555,7 +555,7 @@ buffer
 char
 *
 )
-strstr
+PL_strcasestr
 (
 spec
 .
@@ -614,7 +614,7 @@ char
 *
 base64
 =
-strstr
+PL_strcasestr
 (
 buffer
 "
