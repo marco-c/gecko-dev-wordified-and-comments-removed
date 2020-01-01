@@ -128,7 +128,9 @@ cc_streamid_t
 stream_id
 cc_call_handle_t
 call_handle
-vcm_media_payload_type_t
+const
+vcm_payload_info_t
+*
 payload
 cpr_ip_addr_t
 *
@@ -160,7 +162,9 @@ cc_streamid_t
 stream_id
 cc_call_handle_t
 call_handle
-vcm_media_payload_type_t
+const
+vcm_payload_info_t
+*
 payload
 short
 tos
