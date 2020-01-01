@@ -843,8 +843,8 @@ resource
 /
 /
 gre
-/
-res
+-
+resources
 /
 viewsource
 .
@@ -1319,8 +1319,8 @@ resource
 /
 /
 gre
-/
-res
+-
+resources
 /
 viewsource
 .
