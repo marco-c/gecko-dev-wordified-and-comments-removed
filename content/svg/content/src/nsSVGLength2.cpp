@@ -748,9 +748,7 @@ AppUnitsPerInch
 )
 ;
 return
-25
-.
-4f
+MM_PER_INCH_FLOAT
 /
 pixelsPerInch
 ;
@@ -1090,9 +1088,7 @@ GetMMPerPixel
 aCtx
 )
 /
-25
-.
-4f
+MM_PER_INCH_FLOAT
 ;
 case
 nsIDOMSVGLength
@@ -1108,9 +1104,7 @@ aCtx
 *
 POINTS_PER_INCH_FLOAT
 /
-25
-.
-4f
+MM_PER_INCH_FLOAT
 ;
 case
 nsIDOMSVGLength
@@ -1126,9 +1120,7 @@ aCtx
 *
 POINTS_PER_INCH_FLOAT
 /
-24
-.
-4f
+MM_PER_INCH_FLOAT
 /
 12
 .
@@ -1302,9 +1294,7 @@ GetMMPerPixel
 aFrame
 )
 /
-25
-.
-4f
+MM_PER_INCH_FLOAT
 ;
 case
 nsIDOMSVGLength
@@ -1320,9 +1310,7 @@ aFrame
 *
 POINTS_PER_INCH_FLOAT
 /
-25
-.
-4f
+MM_PER_INCH_FLOAT
 ;
 case
 nsIDOMSVGLength
@@ -1338,9 +1326,7 @@ aFrame
 *
 POINTS_PER_INCH_FLOAT
 /
-24
-.
-4f
+MM_PER_INCH_FLOAT
 /
 12
 .
