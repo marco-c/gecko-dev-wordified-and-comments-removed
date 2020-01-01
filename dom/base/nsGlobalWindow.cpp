@@ -9453,7 +9453,7 @@ obj
 JSContext
 *
 cx
-;
+=
 nsContentUtils
 :
 :
@@ -9464,8 +9464,6 @@ ThreadJSContextStack
 >
 GetSafeJSContext
 (
-&
-cx
 )
 ;
 JSAutoRequest
