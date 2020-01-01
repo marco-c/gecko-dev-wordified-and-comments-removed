@@ -1029,6 +1029,13 @@ return
 Compile_Error
 ;
 }
+script
+-
+>
+nmap
+=
+nmap
+;
 for
 (
 size_t
