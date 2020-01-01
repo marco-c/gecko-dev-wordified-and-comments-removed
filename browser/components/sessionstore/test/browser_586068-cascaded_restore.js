@@ -26,10 +26,6 @@ waitForExplicitFinish
 (
 )
 ;
-ignoreAllUncaughtExceptions
-(
-)
-;
 requestLongerTimeout
 (
 4
