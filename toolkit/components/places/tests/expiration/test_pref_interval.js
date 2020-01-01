@@ -12,7 +12,12 @@ finished
 const
 MAX_WAIT_SECONDS
 =
-3
+4
+;
+const
+INTERVAL_CUSHION
+=
+2
 ;
 let
 os
@@ -251,7 +256,7 @@ gCurrentTest
 .
 interval
 +
-1
+INTERVAL_CUSHION
 )
 ;
 do_timeout
