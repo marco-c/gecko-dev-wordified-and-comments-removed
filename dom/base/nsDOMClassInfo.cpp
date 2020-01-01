@@ -99,9 +99,7 @@ mozilla
 /
 dom
 /
-bindings
-/
-Common
+RegisterBindings
 .
 h
 "
@@ -15679,9 +15677,6 @@ mozilla
 :
 :
 dom
-:
-:
-bindings
 :
 :
 Register

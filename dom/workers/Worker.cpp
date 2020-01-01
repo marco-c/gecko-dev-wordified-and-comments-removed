@@ -12,8 +12,6 @@ mozilla
 /
 dom
 /
-bindings
-/
 DOMJSClass
 .
 h
@@ -25,9 +23,7 @@ mozilla
 /
 dom
 /
-bindings
-/
-Utils
+BindingUtils
 .
 h
 "
@@ -80,9 +76,6 @@ mozilla
 :
 :
 dom
-:
-:
-bindings
 ;
 namespace
 {

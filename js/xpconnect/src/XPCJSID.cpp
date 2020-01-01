@@ -12,8 +12,6 @@ mozilla
 /
 dom
 /
-bindings
-/
 DOMJSClass
 .
 h
@@ -25,9 +23,7 @@ mozilla
 /
 dom
 /
-bindings
-/
-Utils
+BindingUtils
 .
 h
 "
@@ -1931,9 +1927,6 @@ mozilla
 dom
 :
 :
-bindings
-:
-:
 IsDOMClass
 (
 js
@@ -1952,9 +1945,6 @@ mozilla
 :
 :
 dom
-:
-:
-bindings
 :
 :
 DOMJSClass
@@ -1990,9 +1980,6 @@ mozilla
 :
 :
 dom
-:
-:
-bindings
 :
 :
 UnwrapDOMObject

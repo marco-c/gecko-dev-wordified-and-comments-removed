@@ -373,9 +373,7 @@ mozilla
 /
 dom
 /
-bindings
-/
-Utils
+BindingUtils
 .
 h
 "
@@ -9347,9 +9345,6 @@ JSCLASS_IS_DOMJSCLASS
 )
 &
 &
-bindings
-:
-:
 DOMJSClass
 :
 :
@@ -9364,9 +9359,6 @@ mDOMObjectIsISupports
 {
 priv
 =
-bindings
-:
-:
 UnwrapDOMObject
 <
 nsISupports

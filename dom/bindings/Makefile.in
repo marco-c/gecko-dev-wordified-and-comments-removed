@@ -171,8 +171,6 @@ binding_include_path
 mozilla
 /
 dom
-/
-bindings
 binding_header_files
 :
 =
@@ -209,11 +207,11 @@ PrototypeList
 .
 h
 \
-Common
+RegisterBindings
 .
 h
 \
-Common
+RegisterBindings
 .
 cpp
 \
@@ -237,7 +235,7 @@ globalgen_targets
 )
 )
 \
-Utils
+BindingUtils
 .
 cpp
 \
@@ -263,7 +261,7 @@ PrototypeList
 .
 h
 \
-Common
+RegisterBindings
 .
 h
 \
@@ -271,7 +269,7 @@ Nullable
 .
 h
 \
-Utils
+BindingUtils
 .
 h
 \

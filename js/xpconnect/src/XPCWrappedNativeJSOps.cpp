@@ -26,9 +26,7 @@ mozilla
 /
 dom
 /
-bindings
-/
-Utils
+BindingUtils
 .
 h
 "
@@ -2737,9 +2735,6 @@ mozilla
 dom
 :
 :
-bindings
-:
-:
 DestroyProtoOrIfaceCache
 (
 obj
@@ -4394,9 +4389,6 @@ mozilla
 :
 :
 dom
-:
-:
-bindings
 :
 :
 DestroyProtoOrIfaceCache

@@ -1,7 +1,7 @@
 #
 include
 "
-Utils
+BindingUtils
 .
 h
 "
@@ -10,9 +10,6 @@ mozilla
 {
 namespace
 dom
-{
-namespace
-bindings
 {
 static
 bool
@@ -1091,7 +1088,6 @@ thisv
 return
 true
 ;
-}
 }
 }
 }

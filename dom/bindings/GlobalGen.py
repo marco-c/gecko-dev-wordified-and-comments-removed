@@ -469,7 +469,7 @@ generate_file
 (
 config
 '
-Common
+RegisterBindings
 '
 '
 declare
@@ -480,7 +480,7 @@ generate_file
 (
 config
 '
-Common
+RegisterBindings
 '
 '
 define

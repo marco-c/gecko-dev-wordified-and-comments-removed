@@ -41,8 +41,6 @@ mozilla
 /
 dom
 /
-bindings
-/
 Nullable
 .
 h
@@ -53,9 +51,6 @@ mozilla
 :
 :
 dom
-:
-:
-bindings
 ;
 BEGIN_WORKERS_NAMESPACE
 class

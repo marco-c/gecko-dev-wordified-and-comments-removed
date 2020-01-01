@@ -196,6 +196,35 @@ arg
 lower
 (
 )
+def
+toBindingNamespace
+(
+arg
+)
+:
+    
+return
+re
+.
+sub
+(
+"
+(
+(
+_workers
+)
+?
+)
+"
+"
+Binding
+\
+\
+1
+"
+arg
+)
+;
 class
 CGThing
 (
@@ -362,27 +391,33 @@ parent
         
 parentHooks
 =
+(
 "
 &
 "
 +
+toBindingNamespace
+(
 parent
 .
 identifier
 .
 name
+)
 +
 "
 :
 :
 NativeHooks
 "
+                       
 if
 parent
 else
 '
 NULL
 '
+)
         
 return
 "
@@ -490,6 +525,9 @@ protoList
 =
 [
 '
+prototypes
+:
+:
 id
 :
 :
@@ -526,6 +564,9 @@ protoList
 append
 (
 '
+prototypes
+:
+:
 id
 :
 :
@@ -1570,6 +1611,9 @@ None
 declareOnly
 =
 False
+defineOnly
+=
+False
 reindent
 =
 False
@@ -1629,6 +1673,12 @@ declareOnly
         
 self
 .
+defineOnly
+=
+defineOnly
+        
+self
+.
 reindent
 =
 reindent
@@ -1639,6 +1689,16 @@ declare
 self
 )
 :
+        
+if
+self
+.
+defineOnly
+:
+            
+return
+'
+'
         
 decl
 =
@@ -1954,7 +2014,7 @@ extension
 define
 =
 '
-mozilla_dom_bindings_
+mozilla_dom_
 %
 s_h__
 '
@@ -2495,8 +2555,6 @@ return
 mozilla
 /
 dom
-/
-bindings
 /
 '
 +
@@ -6162,6 +6220,7 @@ prototypeChain
             
 getParentProto
 =
+(
 "
 %
 s
@@ -6175,8 +6234,11 @@ aReceiver
 )
 "
 %
+                              
+toBindingNamespace
 (
 parentProtoName
+)
 )
         
 needInterfaceObject
@@ -6522,7 +6584,7 @@ CGGeneric
 (
 "
 return
-bindings
+dom
 :
 :
 CreateInterfaceObjects
@@ -7180,6 +7242,12 @@ descriptor
 "
 GetProtoObject
 "
+                                         
+"
+prototypes
+:
+:
+"
 )
     
 def
@@ -7268,6 +7336,7 @@ descriptor
 "
 GetConstructorObject
 "
+                                         
 "
 constructors
 :
@@ -8065,9 +8134,6 @@ JSObject
 *
 parent
 =
-bindings
-:
-:
 WrapNativeParent
 (
 aCx
@@ -8471,6 +8537,9 @@ protoID
 "
 :
 "
+prototypes
+:
+:
 id
 :
 :
@@ -9974,12 +10043,6 @@ enumtype
 "
 :
 enum
-+
-"
-:
-:
-value
-"
                       
 "
 values
@@ -9988,6 +10051,7 @@ values
 enum
 +
 "
+Values
 :
 :
 strings
@@ -11952,6 +12016,7 @@ identifier
 name
 +
 "
+Values
 :
 :
 strings
@@ -12660,12 +12725,6 @@ inner
 identifier
 .
 name
-+
-"
-:
-:
-value
-"
 )
         
 elif
@@ -17879,7 +17938,7 @@ return
 "
   
 enum
-value
+valuelist
 {
     
 %
@@ -21819,9 +21878,13 @@ CGWrapper
 (
 CGNamespace
 (
+toBindingNamespace
+(
 descriptor
 .
 name
+)
+                                            
 cgThings
 )
                                 
@@ -22219,10 +22282,10 @@ NS_LITERAL_STRING
 #
 _dom_class
 )
-prototypes
-:
-:
 _dom_class
+#
+#
+Binding
 :
 :
 DefineDOMInterface
@@ -22596,9 +22659,6 @@ mozilla
 '
 dom
 '
-'
-bindings
-'
 ]
                                      
 CGWrapper
@@ -22639,15 +22699,16 @@ else
             
 traitsClasses
 =
-CGGeneric
-(
-)
+None
         
-cgthings
-=
-[
-CGWrapper
+def
+makeEnum
 (
+e
+)
+:
+            
+return
 CGNamespace
 .
 build
@@ -22658,20 +22719,67 @@ e
 identifier
 .
 name
++
+"
+Values
+"
 ]
-                                                
+                                     
 CGEnum
 (
 e
 )
 )
-                              
-post
+        
+def
+makeEnumTypedef
+(
+e
+)
+:
+            
+return
+CGGeneric
+(
+declare
 =
+(
 "
+typedef
+%
+sValues
+:
+:
+valuelist
+%
+s
+;
 \
 n
 "
+%
+                                      
+(
+e
+.
+identifier
+.
+name
+e
+.
+identifier
+.
+name
+)
+)
+)
+        
+cgthings
+=
+[
+fun
+(
+e
 )
 for
 e
@@ -22682,6 +22790,14 @@ getEnums
 (
 webIDLFile
 )
+                     
+for
+fun
+in
+[
+makeEnum
+makeEnumTypedef
+]
 ]
         
 cgthings
@@ -22705,6 +22821,10 @@ curr
 CGList
 (
 cgthings
+"
+\
+n
+"
 )
         
 curr
@@ -22719,12 +22839,6 @@ mozilla
 '
 '
 dom
-'
-'
-bindings
-'
-'
-prototypes
 '
 ]
                                  
@@ -22746,9 +22860,35 @@ CGList
 (
 [
 forwardDeclares
+                       
+CGWrapper
+(
+CGGeneric
+(
+"
+using
+namespace
+mozilla
+:
+:
+dom
+;
+"
+)
+                                 
+defineOnly
+=
+True
+)
+                       
 traitsClasses
 curr
 ]
+                      
+"
+\
+n
+"
 )
         
 curr
@@ -22763,14 +22903,16 @@ mozilla
 /
 dom
 /
-bindings
-/
-Utils
+BindingUtils
 .
 h
 '
                           
 '
+mozilla
+/
+dom
+/
 DOMJSClass
 .
 h
@@ -22782,8 +22924,6 @@ h
 mozilla
 /
 dom
-/
-bindings
 /
 Nullable
 .
@@ -23021,9 +23161,6 @@ mozilla
 dom
 '
 '
-bindings
-'
-'
 prototypes
 '
 ]
@@ -23115,9 +23252,6 @@ mozilla
 dom
 '
 '
-bindings
-'
-'
 constructors
 '
 ]
@@ -23200,9 +23334,6 @@ mozilla
 '
 dom
 '
-'
-bindings
-'
 ]
                                         
 CGWrapper
@@ -23250,7 +23381,7 @@ curr
 staticmethod
     
 def
-Common
+RegisterBindings
 (
 config
 )
@@ -23275,9 +23406,6 @@ mozilla
 '
 '
 dom
-'
-'
-bindings
 '
 ]
                                  
@@ -23363,7 +23491,7 @@ curr
 CGIncludeGuard
 (
 '
-Common
+RegisterBindings
 '
 curr
 )

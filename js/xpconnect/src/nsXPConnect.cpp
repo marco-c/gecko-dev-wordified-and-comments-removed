@@ -163,9 +163,7 @@ mozilla
 /
 dom
 /
-bindings
-/
-Utils
+BindingUtils
 .
 h
 "
@@ -3917,9 +3915,6 @@ JSCLASS_IS_DOMJSCLASS
 )
 &
 &
-bindings
-:
-:
 DOMJSClass
 :
 :
@@ -3947,9 +3942,6 @@ nsISupports
 *
 identity
 =
-bindings
-:
-:
 UnwrapDOMObject
 <
 nsISupports
@@ -5164,15 +5156,6 @@ flags
 JSCLASS_DOM_GLOBAL
 )
 {
-mozilla
-:
-:
-dom
-:
-:
-bindings
-:
-:
 AllocateProtoOrIfaceCache
 (
 *

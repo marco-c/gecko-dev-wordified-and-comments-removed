@@ -26,18 +26,13 @@ mozilla
 /
 dom
 /
-bindings
-/
-Utils
+BindingUtils
 .
 h
 "
 using
 namespace
 mozilla
-:
-:
-dom
 ;
 #
 ifdef
@@ -799,7 +794,7 @@ JSCLASS_IS_DOMJSCLASS
 )
 &
 &
-bindings
+dom
 :
 :
 DOMJSClass
@@ -816,7 +811,7 @@ mDOMObjectIsISupports
 {
 priv
 =
-bindings
+dom
 :
 :
 UnwrapDOMObject

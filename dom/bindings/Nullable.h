@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_bindings_Nullable_h
+mozilla_dom_Nullable_h
 #
 define
-mozilla_dom_bindings_Nullable_h
+mozilla_dom_Nullable_h
 #
 include
 "
@@ -18,9 +18,6 @@ mozilla
 {
 namespace
 dom
-{
-namespace
-bindings
 {
 template
 <
@@ -136,7 +133,6 @@ mIsNull
 }
 }
 ;
-}
 }
 }
 #
