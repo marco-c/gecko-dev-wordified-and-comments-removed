@@ -1672,6 +1672,9 @@ yarrPattern
 .
 m_numSubpatterns
 ;
+#
+ifdef
+JS_METHODJIT
 if
 (
 isJITRuntimeEnabled
@@ -1743,6 +1746,8 @@ return
 true
 ;
 }
+#
+endif
 codeBlock
 .
 setFallBack
