@@ -113,6 +113,9 @@ class
 nsFormControlList
 ;
 class
+nsIMutableArray
+;
+class
 nsStringCaseInsensitiveHashKey
 :
 public
@@ -706,6 +709,11 @@ return
 mInvalidElementsCount
 ;
 }
+bool
+CheckValidFormSubmission
+(
+)
+;
 virtual
 nsXPCClassInfo
 *
@@ -879,6 +887,9 @@ aOriginatingElement
 PRBool
 CheckFormValidity
 (
+nsIMutableArray
+*
+aInvalidElements
 )
 const
 ;
