@@ -101,6 +101,9 @@ class
 XPCNativeWrapperMap
 ;
 class
+WrappedNative2WrapperMap
+;
+class
 nsXPCComponents
 ;
 class

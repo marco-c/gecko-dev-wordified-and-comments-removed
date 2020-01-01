@@ -623,6 +623,14 @@ XPCSafeJSObjectWrapper
 .
 cpp
 \
+XPCCrossOriginWrapper
+.
+cpp
+\
+XPCWrapper
+.
+cpp
+\
 (
 NULL
 )
