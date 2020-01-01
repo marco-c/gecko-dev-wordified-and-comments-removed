@@ -673,7 +673,7 @@ getDir
 "
 guest
 "
-context
+Context
 .
 MODE_PRIVATE
 )
