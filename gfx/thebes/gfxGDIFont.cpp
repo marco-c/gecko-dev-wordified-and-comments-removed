@@ -1088,6 +1088,13 @@ nsnull
 ;
 }
 }
+mAdjustedSize
+=
+ROUND
+(
+mAdjustedSize
+)
+;
 FillLogFont
 (
 logFont
