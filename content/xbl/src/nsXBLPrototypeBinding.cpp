@@ -2007,13 +2007,7 @@ nsISupports
 >
 supports
 =
-getter_AddRefs
-(
-static_cast
-<
-nsISupports
-*
->
+dont_AddRef
 (
 mInterfaceTable
 -
@@ -2022,7 +2016,6 @@ Get
 (
 &
 key
-)
 )
 )
 ;

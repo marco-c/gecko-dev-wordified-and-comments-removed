@@ -493,12 +493,9 @@ aParser
 {
 mCreatorParser
 =
-getter_AddRefs
-(
-NS_GetWeakReference
+do_GetWeakReference
 (
 aParser
-)
 )
 ;
 }
