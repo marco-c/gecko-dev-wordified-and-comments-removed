@@ -7908,10 +7908,6 @@ framebuffer
 )
 ;
 }
-BindFakeBlackTextures
-(
-)
-;
 if
 (
 !
@@ -7925,6 +7921,10 @@ value
 )
 )
 return
+;
+BindFakeBlackTextures
+(
+)
 ;
 SetupContextLossTimer
 (
@@ -8519,10 +8519,6 @@ framebuffer
 )
 ;
 }
-BindFakeBlackTextures
-(
-)
-;
 if
 (
 !
@@ -8532,6 +8528,10 @@ maxAllowedCount
 )
 )
 return
+;
+BindFakeBlackTextures
+(
+)
 ;
 SetupContextLossTimer
 (
