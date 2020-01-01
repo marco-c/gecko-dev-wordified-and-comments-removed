@@ -2847,6 +2847,10 @@ doc
 SetCachedEncoder
 (
 docEncoder
+.
+forget
+(
+)
 )
 ;
 return

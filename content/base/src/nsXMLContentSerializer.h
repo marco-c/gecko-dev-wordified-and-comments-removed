@@ -234,7 +234,6 @@ aStr
 ;
 protected
 :
-virtual
 void
 AppendToString
 (
@@ -249,7 +248,6 @@ nsAString
 aOutputStr
 )
 ;
-virtual
 void
 AppendToString
 (
@@ -261,7 +259,6 @@ nsAString
 aOutputStr
 )
 ;
-virtual
 void
 AppendToString
 (
@@ -274,7 +271,6 @@ nsAString
 aOutputStr
 )
 ;
-virtual
 void
 AppendToStringConvertLF
 (
@@ -287,7 +283,6 @@ nsAString
 aOutputStr
 )
 ;
-virtual
 void
 AppendToStringWrapped
 (
@@ -300,7 +295,6 @@ nsAString
 aOutputStr
 )
 ;
-virtual
 void
 AppendToStringFormatedWrapped
 (
@@ -400,7 +394,6 @@ nsAString
 aOutputStr
 )
 ;
-virtual
 void
 AppendNewLineToString
 (
@@ -555,7 +548,6 @@ PRBool
 aDoEscapeEntities
 )
 ;
-virtual
 PRBool
 IsJavaScript
 (
@@ -703,7 +695,6 @@ nsAString
 aStr
 )
 ;
-virtual
 void
 IncrIndentation
 (
@@ -712,7 +703,6 @@ nsIAtom
 aName
 )
 ;
-virtual
 void
 DecrIndentation
 (
@@ -823,6 +813,12 @@ mAddSpace
 ;
 PRPackedBool
 mMayIgnoreLineBreakSequence
+;
+PRPackedBool
+mBodyOnly
+;
+PRInt32
+mInBody
 ;
 PRInt32
 mPreLevel
