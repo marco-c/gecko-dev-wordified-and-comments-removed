@@ -486,6 +486,10 @@ test_nsIAccessibleHyperText
 .
 html
 \
+test_bug428479
+.
+html
+\
 (
 NULL
 )
