@@ -21679,7 +21679,7 @@ rval
 break
 ;
 case
-JSOP_CLOSURE
+JSOP_DEFFUN
 :
 LOAD_FUNCTION
 (
