@@ -12,6 +12,8 @@ https
 :
 /
 /
+auth
+.
 services
 .
 mozilla
