@@ -473,6 +473,10 @@ browser_privatebrowsing_zoom
 .
 js
 \
+browser_privatebrowsing_transition
+.
+js
+\
 (
 NULL
 )
