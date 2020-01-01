@@ -817,6 +817,17 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
+if
+(
+nsnull
+=
+=
+mCharSetProbers
+[
+2
+]
+)
+{
 mCharSetProbers
 [
 2
@@ -838,6 +849,7 @@ mCharSetProbers
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 }
 }
 else

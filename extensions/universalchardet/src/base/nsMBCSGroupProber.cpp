@@ -582,8 +582,6 @@ aBuf
 +
 start
 aLen
-+
-1
 -
 start
 )

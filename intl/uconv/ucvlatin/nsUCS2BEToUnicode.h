@@ -133,6 +133,15 @@ nsUTF16ToUnicodeBase
 {
 public
 :
+nsUTF16ToUnicode
+(
+)
+{
+Reset
+(
+)
+;
+}
 NS_IMETHOD
 Convert
 (
