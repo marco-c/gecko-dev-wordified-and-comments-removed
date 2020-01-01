@@ -406,16 +406,11 @@ NS_GetCurrentThread
 (
 )
 ;
-if
+NS_ENSURE_STATE
 (
-!
 thread
 )
-{
-return
-NS_ERROR_UNEXPECTED
 ;
-}
 #
 else
 nsCOMPtr
