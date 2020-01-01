@@ -21,13 +21,6 @@ h
 >
 #
 include
-<
-malloc
-.
-h
->
-#
-include
 "
 common_types
 .
