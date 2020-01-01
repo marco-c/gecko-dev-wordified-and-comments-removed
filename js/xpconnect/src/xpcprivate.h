@@ -14909,7 +14909,7 @@ public
 :
 static
 JSBool
-AttachNewComponentsObject
+AttachComponentsObject
 (
 XPCCallContext
 &
