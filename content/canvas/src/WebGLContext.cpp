@@ -616,11 +616,11 @@ mAllowRestore
 =
 true
 ;
-mRobustnessTimerRunning
+mContextLossTimerRunning
 =
 false
 ;
-mDrawSinceRobustnessTimerSet
+mDrawSinceContextLossTimerSet
 =
 false
 ;
@@ -716,7 +716,7 @@ RemoveWebGLContext
 this
 )
 ;
-TerminateRobustnessTimer
+TerminateContextLossTimer
 (
 )
 ;
@@ -4492,7 +4492,7 @@ nsITimer
 timer
 )
 {
-TerminateRobustnessTimer
+TerminateContextLossTimer
 (
 )
 ;
@@ -4560,7 +4560,7 @@ ForceRestoreContext
 (
 )
 ;
-SetupRobustnessTimer
+SetupContextLossTimer
 (
 )
 ;
@@ -4594,7 +4594,7 @@ mHeight
 )
 )
 {
-SetupRobustnessTimer
+SetupContextLossTimer
 (
 )
 ;
@@ -4803,9 +4803,9 @@ CONTEXT_NO_ERROR
 :
 if
 (
-mDrawSinceRobustnessTimerSet
+mDrawSinceContextLossTimerSet
 )
-SetupRobustnessTimer
+SetupContextLossTimer
 (
 )
 ;
@@ -4907,7 +4907,7 @@ mContextStatus
 =
 ContextLostAwaitingEvent
 ;
-SetupRobustnessTimer
+SetupContextLossTimer
 (
 )
 ;
