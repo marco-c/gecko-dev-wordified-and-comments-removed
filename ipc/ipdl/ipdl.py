@@ -409,7 +409,7 @@ append
 (
 '
 %
-sProtocolMsgStart
+sMsgStart
 '
 %
 ast

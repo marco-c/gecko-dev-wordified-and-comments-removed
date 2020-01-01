@@ -72,7 +72,7 @@ mozilla
 /
 plugins
 /
-PPluginModuleProtocolParent
+PPluginModuleParent
 .
 h
 "
@@ -137,7 +137,7 @@ class
 PluginModuleParent
 :
 public
-PPluginModuleProtocolParent
+PPluginModuleParent
 {
 private
 :
@@ -150,7 +150,7 @@ SharedLibrary
 ;
 protected
 :
-PPluginInstanceProtocolParent
+PPluginInstanceParent
 *
 PPluginInstanceConstructor
 (
@@ -185,7 +185,7 @@ virtual
 nsresult
 PPluginInstanceDestructor
 (
-PPluginInstanceProtocolParent
+PPluginInstanceParent
 *
 aActor
 NPError

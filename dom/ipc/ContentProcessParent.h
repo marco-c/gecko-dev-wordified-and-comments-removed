@@ -20,7 +20,7 @@ mozilla
 /
 dom
 /
-PContentProcessProtocolParent
+PContentProcessParent
 .
 h
 "
@@ -71,7 +71,7 @@ class
 ContentProcessParent
 :
 private
-PContentProcessProtocolParent
+PContentProcessParent
 public
 base
 :
@@ -160,13 +160,13 @@ ContentProcessParent
 gSingleton
 ;
 using
-PContentProcessProtocolParent
+PContentProcessParent
 :
 :
 SendPIFrameEmbeddingConstructor
 ;
 using
-PContentProcessProtocolParent
+PContentProcessParent
 :
 :
 SendPTestShellConstructor
@@ -182,7 +182,7 @@ ContentProcessParent
 )
 ;
 virtual
-PIFrameEmbeddingProtocolParent
+PIFrameEmbeddingParent
 *
 PIFrameEmbeddingConstructor
 (
@@ -196,13 +196,13 @@ virtual
 nsresult
 PIFrameEmbeddingDestructor
 (
-PIFrameEmbeddingProtocolParent
+PIFrameEmbeddingParent
 *
 frame
 )
 ;
 virtual
-PTestShellProtocolParent
+PTestShellParent
 *
 PTestShellConstructor
 (
@@ -212,7 +212,7 @@ virtual
 nsresult
 PTestShellDestructor
 (
-PTestShellProtocolParent
+PTestShellParent
 *
 shell
 )

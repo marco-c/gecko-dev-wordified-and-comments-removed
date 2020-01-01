@@ -12,7 +12,7 @@ mozilla
 /
 test
 /
-PTestProtocolChild
+PTestChild
 .
 h
 "
@@ -26,7 +26,7 @@ class
 TestChild
 :
 public
-PTestProtocolChild
+PTestChild
 {
 protected
 :

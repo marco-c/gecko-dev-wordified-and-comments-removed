@@ -12,7 +12,7 @@ mozilla
 /
 plugins
 /
-PPluginScriptableObjectProtocolParent
+PPluginScriptableObjectParent
 .
 h
 "
@@ -26,7 +26,7 @@ class
 PluginScriptableObjectParent
 :
 public
-PPluginScriptableObjectProtocolParent
+PPluginScriptableObjectParent
 {
 public
 :

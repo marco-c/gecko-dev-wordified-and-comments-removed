@@ -109,10 +109,6 @@ pname
     
 return
 pname
-+
-'
-Protocol
-'
 def
 _actorName
 (
@@ -150,10 +146,6 @@ Child
     
 return
 pname
-+
-'
-Protocol
-'
 +
 side
 def

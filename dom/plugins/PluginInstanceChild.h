@@ -12,7 +12,7 @@ mozilla
 /
 plugins
 /
-PPluginInstanceProtocolChild
+PPluginInstanceChild
 .
 h
 "
@@ -63,13 +63,16 @@ namespace
 plugins
 {
 class
-PBrowserStreamProtocolChild
+PBrowserStreamChild
+;
+class
+BrowserStreamChild
 ;
 class
 PluginInstanceChild
 :
 public
-PPluginInstanceProtocolChild
+PPluginInstanceChild
 {
 #
 ifdef
@@ -124,7 +127,7 @@ value
 )
 ;
 virtual
-PPluginScriptableObjectProtocolChild
+PPluginScriptableObjectChild
 *
 PPluginScriptableObjectConstructor
 (
@@ -137,7 +140,7 @@ virtual
 nsresult
 PPluginScriptableObjectDestructor
 (
-PPluginScriptableObjectProtocolChild
+PPluginScriptableObjectChild
 *
 aObject
 NPError
@@ -146,7 +149,7 @@ _retval
 )
 ;
 virtual
-PBrowserStreamProtocolChild
+PBrowserStreamChild
 *
 PBrowserStreamConstructor
 (
@@ -186,7 +189,7 @@ virtual
 nsresult
 PBrowserStreamDestructor
 (
-PBrowserStreamProtocolChild
+PBrowserStreamChild
 *
 stream
 const

@@ -2932,7 +2932,7 @@ platform
 #
 endif
 }
-PPluginInstanceProtocolChild
+PPluginInstanceChild
 *
 PluginModuleChild
 :
@@ -3265,7 +3265,7 @@ PluginModuleChild
 :
 PPluginInstanceDestructor
 (
-PPluginInstanceProtocolChild
+PPluginInstanceChild
 *
 actor
 NPError

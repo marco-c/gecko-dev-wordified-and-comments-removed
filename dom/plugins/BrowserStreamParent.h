@@ -11,7 +11,7 @@ mozilla
 /
 plugins
 /
-PBrowserStreamProtocolParent
+PBrowserStreamParent
 .
 h
 "
@@ -28,7 +28,7 @@ class
 BrowserStreamParent
 :
 public
-PBrowserStreamProtocolParent
+PBrowserStreamParent
 {
 friend
 class

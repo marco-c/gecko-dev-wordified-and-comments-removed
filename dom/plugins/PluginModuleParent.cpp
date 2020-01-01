@@ -161,7 +161,7 @@ delete
 mShim
 ;
 }
-PPluginInstanceProtocolParent
+PPluginInstanceParent
 *
 PluginModuleParent
 :
@@ -214,7 +214,7 @@ PluginModuleParent
 :
 PPluginInstanceDestructor
 (
-PPluginInstanceProtocolParent
+PPluginInstanceParent
 *
 aActor
 NPError

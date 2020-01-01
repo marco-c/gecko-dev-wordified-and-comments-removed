@@ -18,7 +18,7 @@ mozilla
 namespace
 plugins
 {
-PBrowserStreamProtocolParent
+PBrowserStreamParent
 *
 PluginInstanceParent
 :
@@ -75,7 +75,7 @@ PluginInstanceParent
 :
 AnswerPBrowserStreamDestructor
 (
-PBrowserStreamProtocolParent
+PBrowserStreamParent
 *
 stream
 const
@@ -120,7 +120,7 @@ PluginInstanceParent
 :
 PBrowserStreamDestructor
 (
-PBrowserStreamProtocolParent
+PBrowserStreamParent
 *
 stream
 const
@@ -384,7 +384,7 @@ false
 )
 ;
 }
-PPluginScriptableObjectProtocolParent
+PPluginScriptableObjectParent
 *
 PluginInstanceParent
 :
@@ -416,7 +416,7 @@ PluginInstanceParent
 :
 PPluginScriptableObjectDestructor
 (
-PPluginScriptableObjectProtocolParent
+PPluginScriptableObjectParent
 *
 aObject
 NPError
