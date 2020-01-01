@@ -5625,8 +5625,14 @@ Length
 -
 1
 )
+{
+NextTile
+(
+)
+;
 break
 ;
+}
 }
 while
 (
