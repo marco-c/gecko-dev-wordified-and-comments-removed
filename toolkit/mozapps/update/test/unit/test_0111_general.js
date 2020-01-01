@@ -200,9 +200,7 @@ png
 var
 binDir
 =
-gRealGreD
-.
-clone
+getGREDir
 (
 )
 ;
@@ -619,6 +617,10 @@ n
 )
 ;
 }
+removeUpdateDirsAndFiles
+(
+)
+;
 }
 function
 runUpdate

@@ -148,9 +148,7 @@ NORMAL_FILE_TYPE
 var
 binDir
 =
-gRealGreD
-.
-clone
+getGREDir
 (
 )
 ;
