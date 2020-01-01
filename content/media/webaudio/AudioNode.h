@@ -275,6 +275,7 @@ return
 mContext
 ;
 }
+virtual
 void
 Connect
 (
@@ -290,6 +291,7 @@ ErrorResult
 aRv
 )
 ;
+virtual
 void
 Disconnect
 (
