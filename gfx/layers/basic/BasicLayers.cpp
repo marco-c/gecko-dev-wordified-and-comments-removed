@@ -2570,6 +2570,11 @@ transform
 HasNonIntegerTranslation
 (
 )
+|
+|
+MustRetainContent
+(
+)
 )
 {
 flags
