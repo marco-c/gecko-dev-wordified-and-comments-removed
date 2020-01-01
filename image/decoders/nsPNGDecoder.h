@@ -231,13 +231,13 @@ gfxASurface
 gfxImageFormat
 format
 ;
-PRUint8
+uint8_t
 mSizeBytes
 [
 8
 ]
 ;
-PRUint32
+uint32_t
 mHeaderBytesRead
 ;
 uint32_t

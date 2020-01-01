@@ -1152,7 +1152,7 @@ BYTES_NEEDED_FOR_DIMENSIONS
 )
 return
 ;
-PRUint32
+uint32_t
 pos
 =
 0
@@ -1262,7 +1262,7 @@ mHeaderBytesRead
 BYTES_NEEDED_FOR_DIMENSIONS
 )
 {
-PRUint32
+uint32_t
 width
 =
 png_get_uint_32
@@ -1270,7 +1270,7 @@ png_get_uint_32
 mSizeBytes
 )
 ;
-PRUint32
+uint32_t
 height
 =
 png_get_uint_32
