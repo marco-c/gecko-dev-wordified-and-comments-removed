@@ -1234,12 +1234,8 @@ if
 aNode
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 )
 {
