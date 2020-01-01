@@ -5743,6 +5743,8 @@ struct
 stat
 symStat
 ;
+if
+(
 lstat
 (
 mPath
@@ -5752,6 +5754,15 @@ get
 )
 &
 symStat
+)
+=
+=
+-
+1
+)
+return
+NSRESULT_FOR_ERRNO
+(
 )
 ;
 *
