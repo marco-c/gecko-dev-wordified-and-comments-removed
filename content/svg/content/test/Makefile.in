@@ -464,6 +464,16 @@ helper
 .
 svg
 \
+test_scientific
+.
+html
+\
+scientific
+-
+helper
+.
+svg
+\
 test_text
 .
 html
