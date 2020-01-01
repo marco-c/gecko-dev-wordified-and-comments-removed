@@ -1,9 +1,9 @@
 #
 ifndef
-_mozStorageSQLFunctions_h_
+mozStorageSQLFunctions_h
 #
 define
-_mozStorageSQLFunctions_h_
+mozStorageSQLFunctions_h
 #
 include
 "

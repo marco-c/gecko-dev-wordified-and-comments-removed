@@ -1,9 +1,9 @@
 #
 ifndef
-_mozStorageArgValueArray_h_
+mozStorageArgValueArray_h
 #
 define
-_mozStorageArgValueArray_h_
+mozStorageArgValueArray_h
 #
 include
 "

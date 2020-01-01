@@ -1,9 +1,9 @@
 #
 ifndef
-__mozStorageResultSet_h__
+mozStorageResultSet_h
 #
 define
-__mozStorageResultSet_h__
+mozStorageResultSet_h
 #
 include
 "

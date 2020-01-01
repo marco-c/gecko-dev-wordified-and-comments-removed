@@ -1,9 +1,9 @@
 #
 ifndef
-_mozStoragePrivateHelpers_h_
+mozStoragePrivateHelpers_h
 #
 define
-_mozStoragePrivateHelpers_h_
+mozStoragePrivateHelpers_h
 #
 include
 "

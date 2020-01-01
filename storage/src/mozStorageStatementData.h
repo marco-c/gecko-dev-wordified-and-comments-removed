@@ -1,9 +1,9 @@
 #
 ifndef
-_mozStorageStatementData_h_
+mozStorageStatementData_h
 #
 define
-_mozStorageStatementData_h_
+mozStorageStatementData_h
 #
 include
 "

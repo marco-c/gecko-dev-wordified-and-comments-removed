@@ -1,9 +1,9 @@
 #
 ifndef
-_mozStorageBindingParamsArray_h_
+mozStorageBindingParamsArray_h
 #
 define
-_mozStorageBindingParamsArray_h_
+mozStorageBindingParamsArray_h
 #
 include
 "
