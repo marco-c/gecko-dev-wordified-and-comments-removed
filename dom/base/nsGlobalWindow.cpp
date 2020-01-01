@@ -10312,18 +10312,6 @@ oldDoc
 aState
 )
 {
-nsCOMPtr
-<
-nsIHTMLDocument
->
-html_doc
-(
-do_QueryInterface
-(
-mDocument
-)
-)
-;
 nsWindowSH
 :
 :
@@ -10334,7 +10322,6 @@ newInnerWindow
 -
 >
 mJSObject
-html_doc
 )
 ;
 }
