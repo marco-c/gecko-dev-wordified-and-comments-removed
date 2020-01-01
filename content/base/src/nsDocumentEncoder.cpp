@@ -6255,7 +6255,7 @@ tag
 nsGkAtoms
 :
 :
-variable
+var
 |
 |
 tag
