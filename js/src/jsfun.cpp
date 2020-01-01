@@ -7888,7 +7888,7 @@ if
 (
 caller
 .
-compartment
+getCompartment
 (
 )
 !

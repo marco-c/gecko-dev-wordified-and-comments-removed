@@ -2806,7 +2806,7 @@ check
 obj
 -
 >
-compartment
+getCompartment
 (
 )
 )

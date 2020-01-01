@@ -215,13 +215,6 @@ crossCompartmentWrappers
 init
 (
 )
-&
-&
-deflatedStringCache
-.
-init
-(
-)
 ;
 }
 bool
@@ -572,7 +565,7 @@ if
 obj
 -
 >
-compartment
+getCompartment
 (
 )
 =
@@ -630,7 +623,7 @@ if
 obj
 -
 >
-compartment
+getCompartment
 (
 )
 =

@@ -9215,7 +9215,7 @@ compartment
 scopeobj
 -
 >
-compartment
+getCompartment
 (
 )
 ;
