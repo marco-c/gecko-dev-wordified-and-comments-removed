@@ -155,7 +155,7 @@ assertTrue
 (
 l
 .
-displayed
+is_displayed
 (
 )
 )
@@ -188,7 +188,7 @@ assertFalse
 (
 l
 .
-displayed
+is_displayed
 (
 )
 )
@@ -527,7 +527,7 @@ assertTrue
 (
 l
 .
-displayed
+is_displayed
 (
 )
 )
@@ -560,7 +560,7 @@ assertFalse
 (
 l
 .
-displayed
+is_displayed
 (
 )
 )
