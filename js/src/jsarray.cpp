@@ -174,6 +174,13 @@ jsvector
 h
 "
 #
+include
+"
+jsatominlines
+.
+h
+"
+#
 define
 MAXINDEX
 4294967295u

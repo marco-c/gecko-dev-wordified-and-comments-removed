@@ -145,6 +145,13 @@ json
 .
 h
 "
+#
+include
+"
+jsatominlines
+.
+h
+"
 JSClass
 js_JSONClass
 =

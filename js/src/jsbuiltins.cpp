@@ -124,6 +124,13 @@ jstracer
 .
 h
 "
+#
+include
+"
+jsatominlines
+.
+h
+"
 using
 namespace
 avmplus
