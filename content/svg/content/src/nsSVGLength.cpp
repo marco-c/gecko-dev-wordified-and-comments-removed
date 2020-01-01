@@ -1834,6 +1834,11 @@ nsSVGUtils
 GetFontSize
 (
 element
+-
+>
+AsElement
+(
+)
 )
 ;
 }
@@ -1863,6 +1868,11 @@ nsSVGUtils
 GetFontXHeight
 (
 element
+-
+>
+AsElement
+(
+)
 )
 ;
 }

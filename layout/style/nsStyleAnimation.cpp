@@ -5406,9 +5406,14 @@ return
 nsComputedDOMStyle
 :
 :
-GetStyleContextForContent
+GetStyleContextForElement
 (
 aElement
+-
+>
+AsElement
+(
+)
 nsnull
 shell
 )
