@@ -1426,7 +1426,7 @@ u32
 JSWhyMagic
 why
 ;
-jsuword
+uintptr_t
 word
 ;
 }
