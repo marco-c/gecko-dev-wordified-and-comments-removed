@@ -1,15 +1,13 @@
 PNG
 IHDR
 s
-gAMA
-a
-tIME
-9
-b
+sRGB
 bKGD
 C
 pHYs
-"
+tIME
+9
+b
 IDATx
 g
 U
@@ -2366,7 +2364,9 @@ w
 ~
 %
 v
-4
+~
+Jt
+IDAT4
 _
 ~
 V
@@ -2507,6 +2507,5 @@ x
 m
 /
 F
-R
 IEND
 B
