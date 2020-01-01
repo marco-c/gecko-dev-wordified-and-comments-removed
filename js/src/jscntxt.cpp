@@ -2219,6 +2219,15 @@ JS_ClearAllWatchPoints
 cx
 )
 ;
+rt
+-
+>
+staticStrings
+.
+finish
+(
+)
+;
 PrepareForFullGC
 (
 rt
