@@ -3829,6 +3829,7 @@ chrome
 dialog
 modal
 centerscreen
+resizable
 "
 )
 ;
