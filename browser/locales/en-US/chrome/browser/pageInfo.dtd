@@ -950,6 +950,15 @@ Plugins
 <
 !
 ENTITY
+permFullscreen
+"
+Enter
+Fullscreen
+"
+>
+<
+!
+ENTITY
 permIndexedDB
 "
 Maintain
