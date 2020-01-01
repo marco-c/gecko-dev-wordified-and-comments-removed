@@ -7561,6 +7561,8 @@ type
 =
 "
 link
+-
+saveable
 "
 onclick
 =
