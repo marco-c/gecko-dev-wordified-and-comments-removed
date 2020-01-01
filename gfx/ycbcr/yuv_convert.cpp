@@ -27,7 +27,10 @@ mozilla
 namespace
 gfx
 {
+NS_GFX_
+(
 void
+)
 ConvertYCbCrToRGB32
 (
 const
