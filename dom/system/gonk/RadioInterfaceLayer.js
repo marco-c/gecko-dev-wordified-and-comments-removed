@@ -605,10 +605,14 @@ radioState
 {
 radioState
 :
-null
+RIL
+.
+GECKO_RADIOSTATE_UNAVAILABLE
 cardState
 :
-null
+RIL
+.
+GECKO_CARDSTATE_UNAVAILABLE
 connected
 :
 null
