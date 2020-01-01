@@ -5,13 +5,6 @@ _NSNSSCERTHELPER_H_
 define
 _NSNSSCERTHELPER_H_
 #
-include
-"
-nsNSSCertHeader
-.
-h
-"
-#
 ifndef
 INET6_ADDRSTRLEN
 #
@@ -20,6 +13,13 @@ INET6_ADDRSTRLEN
 46
 #
 endif
+#
+include
+"
+certt
+.
+h
+"
 uint32_t
 getCertType
 (

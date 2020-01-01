@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsNSSCertHeader
-.
-h
-"
-#
-include
-"
 secerr
 .
 h

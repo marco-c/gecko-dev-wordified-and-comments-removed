@@ -21,10 +21,13 @@ h
 #
 include
 "
-nsNSSCertHeader
+certt
 .
 h
 "
+class
+nsCString
+;
 class
 nsIArray
 ;

@@ -1,4 +1,8 @@
 #
+define
+CERT_AddTempCertToPerm
+__CERT_AddTempCertToPerm
+#
 include
 "
 nsNSSComponent
@@ -1756,7 +1760,7 @@ TRUSTED_OBJSIGN
 SECStatus
 srv
 =
-CERT_AddTempCertToPerm
+__CERT_AddTempCertToPerm
 (
 tmpCert
 const_cast
@@ -7774,7 +7778,7 @@ get
 SECStatus
 srv
 =
-CERT_AddTempCertToPerm
+__CERT_AddTempCertToPerm
 (
 tmpCert
 const_cast
