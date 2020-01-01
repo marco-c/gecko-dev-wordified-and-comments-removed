@@ -105,6 +105,14 @@ worker_test_osfile_front
 .
 js
 \
+test_osfile_comms
+.
+xul
+\
+worker_test_osfile_comms
+.
+js
+\
 (
 NULL
 )
