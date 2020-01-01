@@ -1055,9 +1055,6 @@ int
 gcNextScheduled
 ;
 bool
-gcDebugCompartmentGC
-;
-bool
 gcDeterministicOnly
 ;
 int

@@ -16114,7 +16114,6 @@ JS_SetGCZeal
 aCx
 aGCZeal
 frequency
-false
 )
 ;
 for

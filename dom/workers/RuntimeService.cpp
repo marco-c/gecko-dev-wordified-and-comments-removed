@@ -1271,7 +1271,6 @@ JS_SetGCZeal
 workerCx
 zeal
 frequency
-false
 )
 ;
 }
