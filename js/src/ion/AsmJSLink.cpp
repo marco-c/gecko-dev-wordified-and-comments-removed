@@ -1683,6 +1683,11 @@ asmJSActivationStack_
 =
 this
 ;
+(
+void
+)
+errorRejoinSP_
+;
 }
 AsmJSActivation
 :
