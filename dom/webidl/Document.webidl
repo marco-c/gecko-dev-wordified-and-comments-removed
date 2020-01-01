@@ -357,6 +357,9 @@ TreeWalker
 interface
 WindowProxy
 ;
+interface
+nsISupports
+;
 /
 *
 http

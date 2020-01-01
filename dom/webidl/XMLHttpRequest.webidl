@@ -142,9 +142,6 @@ apply
 *
 /
 interface
-Document
-;
-interface
 Blob
 ;
 interface

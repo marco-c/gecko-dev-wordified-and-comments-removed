@@ -145,9 +145,6 @@ work
 *
 /
 interface
-Document
-;
-interface
 DocumentType
 ;
 interface

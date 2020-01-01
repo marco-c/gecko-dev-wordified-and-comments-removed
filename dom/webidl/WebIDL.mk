@@ -143,6 +143,10 @@ DelayNode
 .
 webidl
 \
+Document
+.
+webidl
+\
 DOMImplementation
 .
 webidl
