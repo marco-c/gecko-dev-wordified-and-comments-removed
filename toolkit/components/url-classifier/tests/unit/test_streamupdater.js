@@ -573,6 +573,10 @@ testNestedForward
 (
 )
 {
+testFillDb
+(
+)
+;
 var
 add1Urls
 =
@@ -1372,6 +1376,10 @@ testInvalidMAC
 (
 )
 {
+testFillDb
+(
+)
+;
 var
 addUrls
 =
@@ -1465,6 +1473,10 @@ testNoMAC
 (
 )
 {
+testFillDb
+(
+)
+;
 var
 addUrls
 =
@@ -1842,6 +1854,10 @@ testInvalidForwardMAC
 (
 )
 {
+testFillDb
+(
+)
+;
 var
 add1Urls
 =
@@ -2103,6 +2119,10 @@ testNoForwardMAC
 (
 )
 {
+testFillDb
+(
+)
+;
 var
 add1Urls
 =
@@ -2446,6 +2466,10 @@ testRekey
 (
 )
 {
+testFillDb
+(
+)
+;
 var
 addUrls
 =
@@ -2775,7 +2799,6 @@ testNestedForward
 testInvalidUrlForward
 testErrorUrlForward
 testMultipleTables
-testReset
 testValidMAC
 testInvalidMAC
 testNoMAC
@@ -2783,6 +2806,7 @@ testValidForwardMAC
 testInvalidForwardMAC
 testNoForwardMAC
 testRekey
+testReset
 ]
 )
 ;
