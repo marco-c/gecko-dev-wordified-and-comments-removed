@@ -12,9 +12,6 @@ txCore
 h
 "
 #
-ifndef
-TX_EXE
-#
 include
 "
 nsCOMPtr
@@ -28,8 +25,6 @@ nsICollation
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -137,9 +132,6 @@ aResult
 ;
 private
 :
-#
-ifndef
-TX_EXE
 nsCOMPtr
 <
 nsICollation
@@ -174,8 +166,6 @@ PRUint32
 aLength
 )
 ;
-#
-endif
 int
 mSorting
 ;
@@ -187,14 +177,6 @@ TxObject
 {
 public
 :
-#
-ifdef
-TX_EXE
-nsString
-mStr
-;
-#
-else
 StringValue
 (
 )
@@ -216,8 +198,6 @@ PRUint32
 mLength
 mCaseLength
 ;
-#
-endif
 }
 ;
 }
