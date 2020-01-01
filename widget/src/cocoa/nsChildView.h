@@ -136,9 +136,6 @@ nsplugindefs
 h
 "
 #
-undef
-DARWIN
-#
 import
 <
 Carbon
@@ -203,10 +200,10 @@ PRBool
 mKeyDownHandled
 ;
 BOOL
-mIgnoreDoCommand
-;
-BOOL
 mKeyPressSent
+;
+PRBool
+mKeyPressHandled
 ;
 NSRange
 mMarkedRange
