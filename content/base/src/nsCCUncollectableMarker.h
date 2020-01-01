@@ -1,4 +1,10 @@
 #
+ifndef
+nsCCUncollectableMarker_h_
+#
+define
+nsCCUncollectableMarker_h_
+#
 include
 "
 nsIObserver
@@ -112,3 +118,5 @@ aTrc
 ;
 }
 }
+#
+endif

@@ -1,4 +1,10 @@
 #
+ifndef
+nsXBLService_h_
+#
+define
+nsXBLService_h_
+#
 include
 "
 nsString
@@ -419,3 +425,5 @@ Destroy
 }
 }
 ;
+#
+endif
