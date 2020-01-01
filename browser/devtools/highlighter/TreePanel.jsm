@@ -2512,6 +2512,17 @@ isDirty
 =
 true
 ;
+this
+.
+IUI
+.
+nodeChanged
+(
+this
+.
+registrationObject
+)
+;
 Services
 .
 obs
