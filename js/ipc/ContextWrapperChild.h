@@ -199,10 +199,16 @@ bool
 &
 )
 {
+JSAutoRequest
+ar
+(
+mContext
+)
+;
 return
 AllocPObjectWrapper
 (
-JS_GetGlobalObject
+JS_GetGlobalForScopeChain
 (
 mContext
 )
