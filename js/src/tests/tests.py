@@ -95,8 +95,12 @@ now
 (
 )
     
-close_fds
+options
 =
+{
+}
+    
+if
 sys
 .
 platform
@@ -105,6 +109,25 @@ platform
 '
 win32
 '
+:
+        
+options
+[
+"
+close_fds
+"
+]
+=
+True
+        
+options
+[
+"
+preexec_fn
+"
+]
+=
+set_limits
     
 p
 =
@@ -120,12 +143,9 @@ PIPE
 stderr
 =
 PIPE
-close_fds
-=
-close_fds
-preexec_fn
-=
-set_limits
+*
+*
+options
 )
     
 l
