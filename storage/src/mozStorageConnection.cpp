@@ -85,7 +85,7 @@ h
 #
 include
 "
-mozStorageEvents
+mozStorageAsyncStatementExecution
 .
 h
 "
@@ -2973,7 +2973,10 @@ SQLITE_OK
 )
 rv
 =
-NS_executeAsync
+AsyncExecuteStatements
+:
+:
+execute
 (
 stmts
 this

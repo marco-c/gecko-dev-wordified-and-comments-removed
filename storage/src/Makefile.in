@@ -507,7 +507,7 @@ mozStorageError
 .
 cpp
 \
-mozStorageEvents
+mozStorageAsyncStatementExecution
 .
 cpp
 \
