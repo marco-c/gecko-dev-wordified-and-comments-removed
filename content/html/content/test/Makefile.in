@@ -900,6 +900,10 @@ test_bug519987
 .
 html
 \
+test_bug579079
+.
+html
+\
 test_bug523771
 .
 html
