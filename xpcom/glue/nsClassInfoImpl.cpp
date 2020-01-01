@@ -256,7 +256,15 @@ nsCID
 aClassIDNoAlloc
 )
 {
+*
+aClassIDNoAlloc
+=
+mData
+-
+>
+cid
+;
 return
-NS_ERROR_NOT_IMPLEMENTED
+NS_OK
 ;
 }

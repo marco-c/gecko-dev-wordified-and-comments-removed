@@ -134,6 +134,13 @@ h
 #
 include
 "
+nsNetCID
+.
+h
+"
+#
+include
+"
 nsCRT
 .
 h
@@ -1056,6 +1063,7 @@ nsIClassInfo
 :
 :
 SINGLETON
+NS_PROTOCOLPROXYSERVICE_CID
 )
 NS_IMPL_QUERY_INTERFACE3_CI
 (

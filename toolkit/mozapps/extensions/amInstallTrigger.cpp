@@ -224,6 +224,7 @@ nsIClassInfo
 :
 :
 DOM_OBJECT
+AM_InstallTrigger_CID
 )
 NS_IMPL_ISUPPORTS1_CI
 (
