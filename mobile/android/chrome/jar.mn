@@ -238,7 +238,6 @@ aboutHome
 .
 xhtml
 )
-*
 content
 /
 aboutRights
@@ -251,7 +250,6 @@ aboutRights
 .
 xhtml
 )
-*
 content
 /
 aboutApps
@@ -300,7 +298,6 @@ languages
 .
 properties
 )
-*
 content
 /
 browser
@@ -398,7 +395,6 @@ exceptions
 .
 js
 )
-*
 content
 /
 downloads
