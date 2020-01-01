@@ -2795,6 +2795,9 @@ const
 *
 GetChildArray
 (
+PRUint32
+*
+aChildCount
 )
 const
 ;

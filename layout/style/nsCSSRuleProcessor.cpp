@@ -4553,13 +4553,6 @@ mParentContent
 ;
 PRUint32
 childCount
-=
-parent
--
->
-GetChildCount
-(
-)
 ;
 nsIContent
 *
@@ -4572,6 +4565,8 @@ parent
 >
 GetChildArray
 (
+&
+childCount
 )
 ;
 #

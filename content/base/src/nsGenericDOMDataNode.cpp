@@ -3233,9 +3233,17 @@ nsGenericDOMDataNode
 :
 GetChildArray
 (
+PRUint32
+*
+aChildCount
 )
 const
 {
+*
+aChildCount
+=
+0
+;
 return
 nsnull
 ;

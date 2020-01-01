@@ -20948,6 +20948,9 @@ nsGenericElement
 :
 GetChildArray
 (
+PRUint32
+*
+aChildCount
 )
 const
 {
@@ -20956,6 +20959,7 @@ mAttrsAndChildren
 .
 GetChildArray
 (
+aChildCount
 )
 ;
 }
@@ -21918,16 +21922,6 @@ void
 aClosure
 )
 {
-PRUint32
-count
-=
-aRoot
--
->
-GetChildCount
-(
-)
-;
 char
 databuf
 [
@@ -21958,6 +21952,9 @@ RuleProcessorData
 databuf
 )
 ;
+PRUint32
+count
+;
 nsIContent
 *
 const
@@ -21969,6 +21966,8 @@ aRoot
 >
 GetChildArray
 (
+&
+count
 )
 ;
 nsIContent
