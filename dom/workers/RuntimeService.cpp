@@ -2714,7 +2714,7 @@ aWindow
 void
 ResumeWorkersForWindow
 (
-JSContext
+nsIScriptContext
 *
 aCx
 nsPIDOMWindow
@@ -6035,7 +6035,7 @@ RuntimeService
 :
 ResumeWorkersForWindow
 (
-JSContext
+nsIScriptContext
 *
 aCx
 nsPIDOMWindow
@@ -6100,7 +6100,7 @@ index
 ]
 -
 >
-Resume
+SynchronizeAndResume
 (
 aCx
 )

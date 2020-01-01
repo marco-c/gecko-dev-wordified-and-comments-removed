@@ -354,7 +354,7 @@ aWindow
 void
 ResumeWorkersForWindow
 (
-JSContext
+nsIScriptContext
 *
 aCx
 nsPIDOMWindow

@@ -6975,6 +6975,7 @@ NotifyDOMWindowDestroyed
 this
 )
 ;
+{
 nsIScriptContext
 *
 scx
@@ -7018,6 +7019,7 @@ cx
 this
 )
 ;
+}
 quota
 :
 :
@@ -45111,6 +45113,7 @@ DisableGamepadUpdates
 (
 )
 ;
+{
 nsIScriptContext
 *
 scx
@@ -45154,6 +45157,7 @@ cx
 this
 )
 ;
+}
 TimeStamp
 now
 =
@@ -45668,7 +45672,7 @@ workers
 :
 ResumeWorkersForWindow
 (
-cx
+scx
 this
 )
 ;
