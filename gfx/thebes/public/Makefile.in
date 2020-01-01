@@ -377,6 +377,15 @@ h
 NULL
 )
 endif
+ifdef
+MOZ_CORETEXT
+EXPORTS
++
+=
+gfxCoreTextFonts
+.
+h
+endif
 include
 (
 topsrcdir

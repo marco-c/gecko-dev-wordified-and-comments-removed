@@ -158,8 +158,8 @@ return
 mTraits
 ;
 }
-ATSUFontID
-GetFontID
+ATSFontRef
+GetFontRef
 (
 )
 ;
@@ -176,8 +176,8 @@ const
 nsAString
 &
 aPostscriptName
-ATSUFontID
-aFontID
+ATSFontRef
+aFontRef
 PRUint16
 aWeight
 PRUint16
@@ -192,11 +192,11 @@ aUserFontData
 PRUint32
 mTraits
 ;
-ATSUFontID
-mATSUFontID
+ATSFontRef
+mATSFontRef
 ;
 PRPackedBool
-mATSUIDInitialized
+mATSFontRefInitialized
 ;
 PRPackedBool
 mStandardFace
