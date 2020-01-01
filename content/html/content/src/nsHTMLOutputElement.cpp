@@ -400,9 +400,7 @@ mValueModeFlag
 =
 eModeDefault
 ;
-nsresult
-rv
-=
+return
 nsContentUtils
 :
 :
@@ -412,9 +410,6 @@ this
 mDefaultValue
 true
 )
-;
-return
-rv
 ;
 }
 NS_IMETHODIMP

@@ -84,17 +84,6 @@ nsIDOMSVGDocument
 .
 h
 "
-#
-ifdef
-XP_WIN
-#
-undef
-GetClassName
-#
-undef
-GetObject
-#
-endif
 using
 namespace
 mozilla

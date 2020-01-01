@@ -318,11 +318,6 @@ nsIDOMHTMLCollection
 aValue
 )
 {
-*
-aValue
-=
-nsnull
-;
 if
 (
 !
@@ -350,12 +345,6 @@ nsGkAtoms
 :
 tr
 false
-)
-;
-NS_ENSURE_TRUE
-(
-mRows
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 }
