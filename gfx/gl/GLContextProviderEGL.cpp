@@ -1324,6 +1324,10 @@ return
 false
 ;
 }
+SetupLookupFunction
+(
+)
+;
 bool
 ok
 =
