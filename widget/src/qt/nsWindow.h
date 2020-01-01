@@ -1109,10 +1109,6 @@ MozQWidget
 *
 mWidget
 ;
-QGraphicsScene
-*
-mScene
-;
 PRUint32
 mIsVisible
 :
