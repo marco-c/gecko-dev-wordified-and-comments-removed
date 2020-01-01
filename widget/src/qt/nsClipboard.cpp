@@ -935,6 +935,14 @@ get
 data
 )
 ;
+nsMemory
+:
+:
+Free
+(
+primitive_data
+)
+;
 }
 }
 }
