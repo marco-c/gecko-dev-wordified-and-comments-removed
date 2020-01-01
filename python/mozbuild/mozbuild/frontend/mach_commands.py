@@ -164,8 +164,15 @@ mozbuild
 -
 reference
 '
+category
+=
+'
+build
+-
+dev
+'
         
-help
+description
 =
 '
 View

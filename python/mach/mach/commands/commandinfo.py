@@ -45,7 +45,13 @@ debug
 -
 commands
 '
-help
+category
+=
+'
+misc
+'
+        
+description
 =
 '
 Show

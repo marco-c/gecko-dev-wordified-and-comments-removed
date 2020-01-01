@@ -97,7 +97,13 @@ settings
 -
 list
 '
-help
+category
+=
+'
+devenv
+'
+        
+description
 =
 '
 Show
@@ -196,8 +202,13 @@ settings
 -
 create
 '
+category
+=
+'
+devenv
+'
         
-help
+description
 =
 '
 Print

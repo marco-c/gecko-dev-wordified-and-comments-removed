@@ -38,7 +38,13 @@ marionette
 -
 test
 '
-help
+category
+=
+'
+testing
+'
+        
+description
 =
 '
 Run
