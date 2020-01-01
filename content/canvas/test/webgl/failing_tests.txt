@@ -215,15 +215,6 @@ behaviour
 html
 conformance
 /
-null
--
-uniform
--
-location
-.
-html
-conformance
-/
 point
 -
 size
