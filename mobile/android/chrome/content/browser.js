@@ -34041,6 +34041,12 @@ jsm
 "
 )
 ;
+DOMApplicationRegistry
+.
+allAppsLaunchable
+=
+true
+;
 Services
 .
 obs
