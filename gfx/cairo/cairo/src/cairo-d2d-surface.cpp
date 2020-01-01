@@ -15574,7 +15574,7 @@ IID_PPV_ARGS
 newSurf
 -
 >
-backBuf
+surface
 )
 )
 ;
@@ -15593,7 +15593,7 @@ FAIL_HWND
 newSurf
 -
 >
-backBuf
+surface
 -
 >
 QueryInterface
@@ -15602,7 +15602,7 @@ QueryInterface
 newSurf
 -
 >
-surface
+backBuf
 )
 ;
 size
