@@ -319,6 +319,11 @@ bin
 libsqlite3
 .
 so
+bin
+/
+README
+.
+txt
 ;
 [
 Components
@@ -1059,6 +1064,13 @@ bin
 components
 /
 shistory
+.
+xpt
+bin
+/
+components
+/
+spellchecker
 .
 xpt
 bin

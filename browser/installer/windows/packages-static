@@ -1168,6 +1168,13 @@ bin
 \
 components
 \
+spellchecker
+.
+xpt
+bin
+\
+components
+\
 xpcom_base
 .
 xpt
