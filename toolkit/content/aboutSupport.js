@@ -577,6 +577,10 @@ gfx
 .
 "
 "
+html5
+.
+"
+"
 mozilla
 .
 widget

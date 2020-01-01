@@ -31388,6 +31388,8 @@ pref
 "
 html5
 .
+parser
+.
 enable
 "
 true

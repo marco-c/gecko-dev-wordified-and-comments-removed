@@ -542,6 +542,8 @@ setBoolPref
 "
 html5
 .
+parser
+.
 enable
 "
 origPref
@@ -725,6 +727,8 @@ getBoolPref
 "
 html5
 .
+parser
+.
 enable
 "
 )
@@ -735,6 +739,8 @@ setBoolPref
 (
 "
 html5
+.
+parser
 .
 enable
 "

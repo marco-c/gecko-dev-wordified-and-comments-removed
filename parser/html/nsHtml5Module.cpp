@@ -156,6 +156,8 @@ AddBoolPrefVarCache
 "
 html5
 .
+parser
+.
 enable
 "
 &
