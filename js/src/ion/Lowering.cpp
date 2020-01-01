@@ -698,7 +698,7 @@ type
 MIRType_Object
 )
 ;
-JS_STATIC_ASSERT
+JS_ASSERT
 (
 CallTempReg0
 !
@@ -706,7 +706,7 @@ CallTempReg0
 CallTempReg1
 )
 ;
-JS_STATIC_ASSERT
+JS_ASSERT
 (
 CallTempReg0
 !
@@ -714,7 +714,7 @@ CallTempReg0
 ArgumentsRectifierReg
 )
 ;
-JS_STATIC_ASSERT
+JS_ASSERT
 (
 CallTempReg1
 !
