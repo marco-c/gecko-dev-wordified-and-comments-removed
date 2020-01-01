@@ -1,4 +1,10 @@
 #
+ifndef
+jsopcodeinlines_h__
+#
+define
+jsopcodeinlines_h__
+#
 include
 "
 jsautooplen
@@ -418,3 +424,5 @@ lineno
 }
 ;
 }
+#
+endif
