@@ -5892,6 +5892,15 @@ script
 -
 >
 length
+&
+&
+analysis
+-
+>
+maybeCode
+(
+nextpc
+)
 )
 nextsp
 =
