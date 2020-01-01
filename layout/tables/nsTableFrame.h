@@ -493,6 +493,12 @@ Destroy
 (
 )
 ;
+virtual
+void
+DidSetStyleContext
+(
+)
+;
 NS_IMETHOD
 AppendFrames
 (
