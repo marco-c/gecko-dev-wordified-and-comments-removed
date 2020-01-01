@@ -589,7 +589,7 @@ extProtService
 LoadURI
 (
 mUrl
-nsnull
+mCallbacks
 )
 ;
 }
