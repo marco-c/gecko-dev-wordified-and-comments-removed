@@ -635,6 +635,12 @@ started
 ;
 #
 endif
+mDailyTimerStart
+=
+lastDaily
+*
+PR_USEC_PER_SEC
+;
 DailyCallback
 (
 nullptr
