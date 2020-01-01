@@ -323,7 +323,7 @@ CPP_SOURCES
 =
 [
 '
-BluetoothTelephonyListener
+BluetoothRilListener
 .
 cpp
 '
