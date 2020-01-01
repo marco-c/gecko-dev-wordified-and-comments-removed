@@ -43,11 +43,11 @@ ifdef
 XP_WIN
 #
 include
-<
-windows
+"
+jswin
 .
 h
->
+"
 #
 ifdef
 _MSC_VER
