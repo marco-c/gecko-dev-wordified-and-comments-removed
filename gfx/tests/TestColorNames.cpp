@@ -158,7 +158,6 @@ failed
 )
 )
 return
--
 1
 ;
 nscolor
@@ -168,13 +167,6 @@ int
 rv
 =
 0
-;
-nsColorNames
-:
-:
-AddRefTable
-(
-)
 ;
 for
 (
@@ -239,7 +231,6 @@ get
 ;
 rv
 =
--
 1
 ;
 }
@@ -291,7 +282,6 @@ index
 ;
 rv
 =
--
 1
 ;
 }
@@ -345,7 +335,6 @@ get
 ;
 rv
 =
--
 1
 ;
 }
@@ -397,7 +386,6 @@ index
 ;
 rv
 =
--
 1
 ;
 }
@@ -512,7 +500,6 @@ cbuf
 ;
 rv
 =
--
 1
 ;
 }
@@ -542,7 +529,6 @@ hexrgb
 ;
 rv
 =
--
 1
 ;
 }
@@ -616,18 +602,10 @@ null
 ;
 rv
 =
--
 1
 ;
 }
 }
-nsColorNames
-:
-:
-ReleaseTable
-(
-)
-;
 if
 (
 rv
