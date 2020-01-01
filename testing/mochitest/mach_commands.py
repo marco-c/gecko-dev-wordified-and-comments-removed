@@ -18,12 +18,6 @@ MachCommandBase
 MozbuildObject
 )
 from
-moztesting
-.
-util
-import
-parse_test_path
-from
 mach
 .
 decorators
@@ -595,21 +589,6 @@ if
 test_file
 :
             
-path
-=
-parse_test_path
-(
-test_file
-self
-.
-topsrcdir
-)
-[
-'
-normalized
-'
-]
-            
 if
 not
 os
@@ -618,7 +597,7 @@ path
 .
 exists
 (
-path
+test_file
 )
 :
                 
@@ -637,7 +616,7 @@ s
 .
 '
 %
-path
+test_file
 )
             
 env
@@ -647,7 +626,7 @@ env
 TEST_PATH
 '
 :
-path
+test_file
 }
         
 else
