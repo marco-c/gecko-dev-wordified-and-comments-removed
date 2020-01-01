@@ -166,15 +166,3 @@ columnheader
 )
 with
 points
-\
-'
-'
-u
-11
-title
-columnheader
-(
-11
-)
-with
-points

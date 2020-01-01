@@ -899,8 +899,6 @@ script
 -
 >
 compartment
-(
-)
 -
 >
 breakpointSites
@@ -1156,8 +1154,6 @@ script
 -
 >
 compartment
-(
-)
 -
 >
 getOrCreateBreakpointSite
@@ -1218,8 +1214,6 @@ script
 -
 >
 compartment
-(
-)
 -
 >
 getBreakpointSite
@@ -1275,8 +1269,6 @@ script
 -
 >
 compartment
-(
-)
 -
 >
 getBreakpointSite
@@ -1340,8 +1332,6 @@ script
 -
 >
 compartment
-(
-)
 -
 >
 clearTraps

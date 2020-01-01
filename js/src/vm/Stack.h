@@ -2354,8 +2354,6 @@ script
 -
 >
 compartment
-(
-)
 )
 ;
 return

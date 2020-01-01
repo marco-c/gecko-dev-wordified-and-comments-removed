@@ -3461,12 +3461,6 @@ upvars
 )
 ;
 inline
-void
-finalizeUpvarsIfFlatClosure
-(
-)
-;
-inline
 bool
 hasMethodObj
 (

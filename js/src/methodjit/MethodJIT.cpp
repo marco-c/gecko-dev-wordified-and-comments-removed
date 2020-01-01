@@ -325,8 +325,6 @@ script
 -
 >
 compartment
-(
-)
 -
 >
 jaegerCompartment
@@ -384,8 +382,6 @@ script
 -
 >
 compartment
-(
-)
 -
 >
 jaegerCompartment

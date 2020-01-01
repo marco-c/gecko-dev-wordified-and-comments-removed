@@ -36,10 +36,7 @@ sweepTime
 double
 sweepObjTime
 sweepStringTime
-sweepScriptTime
 sweepShapeTime
-;
-double
 destroyTime
 endTime
 ;
@@ -230,9 +227,6 @@ sweepObjectEnd
 ;
 uint64
 sweepStringEnd
-;
-uint64
-sweepScriptEnd
 ;
 uint64
 sweepShapeEnd

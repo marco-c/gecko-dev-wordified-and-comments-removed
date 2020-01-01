@@ -608,8 +608,6 @@ script
 -
 >
 compartment
-(
-)
 -
 >
 jaegerCompartment
