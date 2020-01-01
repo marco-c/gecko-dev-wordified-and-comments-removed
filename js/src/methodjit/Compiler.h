@@ -1757,7 +1757,7 @@ JSOp
 fused
 )
 ;
-bool
+void
 iter
 (
 uintN
