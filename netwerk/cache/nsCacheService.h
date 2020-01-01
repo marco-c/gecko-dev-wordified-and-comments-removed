@@ -774,6 +774,9 @@ bool
 mInitialized
 ;
 bool
+mClearingEntries
+;
+bool
 mEnableMemoryDevice
 ;
 bool
