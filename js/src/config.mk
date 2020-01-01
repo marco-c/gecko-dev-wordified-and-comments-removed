@@ -875,14 +875,6 @@ O9
 fstrict
 -
 aliasing
--
-momit
--
-leaf
--
-frame
--
-pointer
 INTERP_OPTIMIZER
 =
 -
