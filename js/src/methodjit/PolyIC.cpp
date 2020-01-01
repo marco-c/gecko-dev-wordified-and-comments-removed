@@ -399,6 +399,10 @@ ic
 LinkerHelper
 (
 masm
+JSC
+:
+:
+METHOD_CODE
 )
 ic
 (
@@ -18271,6 +18275,10 @@ LinkerHelper
 buffer
 (
 masm
+JSC
+:
+:
+METHOD_CODE
 )
 ;
 execPool
@@ -18741,6 +18749,10 @@ LinkerHelper
 buffer
 (
 masm
+JSC
+:
+:
+METHOD_CODE
 )
 ;
 execPool

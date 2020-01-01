@@ -1303,6 +1303,10 @@ LinkerHelper
 linker
 (
 masm
+JSC
+:
+:
+METHOD_CODE
 )
 ;
 JSC
@@ -2006,6 +2010,10 @@ f
 LinkerHelper
 (
 masm
+JSC
+:
+:
+METHOD_CODE
 )
 f
 (
@@ -3933,6 +3941,10 @@ LinkerHelper
 linker
 (
 masm
+JSC
+:
+:
+METHOD_CODE
 )
 ;
 JSC
@@ -4072,6 +4084,10 @@ masm
 size
 (
 )
+JSC
+:
+:
+METHOD_CODE
 )
 ;
 code
@@ -4435,6 +4451,10 @@ LinkerHelper
 linker
 (
 masm
+JSC
+:
+:
+METHOD_CODE
 )
 ;
 JSC
@@ -5964,6 +5984,10 @@ LinkerHelper
 linker
 (
 masm
+JSC
+:
+:
+METHOD_CODE
 )
 ;
 JSC
@@ -7538,6 +7562,10 @@ LinkerHelper
 linker
 (
 masm
+JSC
+:
+:
+METHOD_CODE
 )
 ;
 JSC

@@ -680,7 +680,13 @@ scripts
 ifdef
 JS_METHODJIT
 PRInt64
-mjitCode
+mjitCodeMethod
+;
+PRInt64
+mjitCodeRegexp
+;
+PRInt64
+mjitCodeUnused
 ;
 PRInt64
 mjitData

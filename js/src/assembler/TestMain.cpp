@@ -528,6 +528,10 @@ patchBuffer
 (
 am
 ep
+JSC
+:
+:
+METHOD_CODE
 )
 ;
 JSC
@@ -1362,6 +1366,10 @@ patchBuffer
 (
 am
 ep
+JSC
+:
+:
+METHOD_CODE
 )
 ;
 JSC
@@ -2248,6 +2256,10 @@ patchBuffer
 (
 am
 ep
+JSC
+:
+:
+METHOD_CODE
 )
 ;
 JSC
@@ -3451,6 +3463,10 @@ patchBuffer
 (
 am
 ep
+JSC
+:
+:
+METHOD_CODE
 )
 ;
 JSC
@@ -4664,6 +4680,10 @@ patchBuffer
 (
 am
 ep
+JSC
+:
+:
+METHOD_CODE
 )
 ;
 JSC

@@ -936,6 +936,10 @@ fast
 (
 ncode
 total
+JSC
+:
+:
+METHOD_CODE
 )
 ;
 JSC
@@ -950,6 +954,10 @@ offset
 total
 -
 offset
+JSC
+:
+:
+METHOD_CODE
 )
 ;
 for

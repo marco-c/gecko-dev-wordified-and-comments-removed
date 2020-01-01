@@ -4619,6 +4619,10 @@ alloc
 codeSize
 &
 execPool
+JSC
+:
+:
+METHOD_CODE
 )
 ;
 if
@@ -4683,6 +4687,10 @@ fullCode
 (
 result
 codeSize
+JSC
+:
+:
+METHOD_CODE
 )
 ;
 JSC
@@ -4703,6 +4711,10 @@ stubcc
 size
 (
 )
+JSC
+:
+:
+METHOD_CODE
 )
 ;
 size_t
