@@ -852,6 +852,9 @@ mShouldRollup
 PRPackedBool
 mConsumeRollupEvent
 ;
+PRPackedBool
+mInContentShell
+;
 nsString
 mIncrementalString
 ;
