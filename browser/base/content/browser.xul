@@ -2614,7 +2614,7 @@ true
 consumeoutsideclicks
 =
 "
-true
+false
 "
 noautofocus
 =

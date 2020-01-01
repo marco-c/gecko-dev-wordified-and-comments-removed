@@ -5338,6 +5338,16 @@ button
 =
 =
 0
+&
+&
+panel
+.
+state
+=
+=
+"
+closed
+"
 )
 SocialToolbar
 .
