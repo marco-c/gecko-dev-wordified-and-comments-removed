@@ -443,10 +443,6 @@ nsByteBuffer
 .
 cpp
 \
-nsCheapSets
-.
-cpp
-\
 nsCRT
 .
 cpp
