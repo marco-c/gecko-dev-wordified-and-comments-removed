@@ -1015,7 +1015,7 @@ masm
 bind
 (
 &
-boundscheck
+boundsCheck
 )
 ;
 {
