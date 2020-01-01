@@ -268,6 +268,10 @@ bool
 &
 aSessionOnly
 const
+bool
+&
+aPrivate
+const
 nsCString
 &
 aDomain
@@ -287,6 +291,15 @@ const
 PRUint32
 &
 aStorageType
+)
+;
+bool
+RecvUpdatePrivateState
+(
+const
+bool
+&
+aEnabled
 )
 ;
 nsRefPtr
