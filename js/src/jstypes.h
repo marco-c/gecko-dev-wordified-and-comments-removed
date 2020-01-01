@@ -761,13 +761,6 @@ JS_FALSE
 JSIntn
 )
 0
-#
-define
-JS_NEITHER
-(
-JSIntn
-)
-2
 typedef
 uint8_t
 JSPackedBool
