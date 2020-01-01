@@ -499,8 +499,8 @@ mDispatched
 ;
 }
 ;
-NS_STACK_CLASS
 class
+MOZ_STACK_CLASS
 StackBasedEventTarget
 :
 public
@@ -512,6 +512,7 @@ NS_DECL_ISUPPORTS_INHERITED
 }
 ;
 class
+MOZ_STACK_CLASS
 ImmediateRunEventTarget
 :
 public
@@ -523,6 +524,7 @@ NS_DECL_NSIEVENTTARGET
 }
 ;
 class
+MOZ_STACK_CLASS
 NoDispatchEventTarget
 :
 public

@@ -125,7 +125,7 @@ length
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 GlobalObject
 {
 public
@@ -185,7 +185,7 @@ mGlobalObjectRef
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 WorkerGlobalObject
 {
 public
@@ -250,7 +250,7 @@ mCx
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 DOMString
 {
 public

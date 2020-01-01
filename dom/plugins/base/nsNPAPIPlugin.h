@@ -1366,7 +1366,7 @@ OnShutdown
 )
 ;
 struct
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 AsyncCallbackAutoLock
 {
 AsyncCallbackAutoLock
@@ -1404,6 +1404,7 @@ sCurrentNPP
 }
 ;
 class
+MOZ_STACK_CLASS
 NPPAutoPusher
 :
 public
