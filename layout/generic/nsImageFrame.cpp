@@ -8305,10 +8305,6 @@ nsImageFrame
 :
 GetSkipSides
 (
-const
-nsHTMLReflowState
-*
-aReflowState
 )
 const
 {
