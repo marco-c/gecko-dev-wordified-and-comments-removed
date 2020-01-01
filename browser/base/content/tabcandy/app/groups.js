@@ -1901,7 +1901,11 @@ boundingBox
 left
 ;
 return
+new
+Rect
+(
 boundingBox
+)
 ;
 }
 getContentBounds
@@ -7748,6 +7752,11 @@ this
 getOrphanedTabs
 (
 )
+{
+dontReorg
+:
+true
+}
 )
 ;
 }
