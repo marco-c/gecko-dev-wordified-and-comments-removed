@@ -4784,7 +4784,9 @@ aOSPrivileges
 )
 mChildID
 (
-CONTENT_PROCESS_ID_UNKNOWN
+gContentChildID
++
++
 )
 mGeolocationWatchID
 (
@@ -7248,10 +7250,6 @@ aIsForBrowser
 aId
 =
 mChildID
-=
-gContentChildID
-+
-+
 ;
 *
 aIsForApp
