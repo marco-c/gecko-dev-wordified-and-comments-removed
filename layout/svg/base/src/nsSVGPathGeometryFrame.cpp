@@ -1850,11 +1850,6 @@ PRBool
 suppressInvalidation
 )
 {
-UpdateGraphic
-(
-suppressInvalidation
-)
-;
 if
 (
 !
@@ -1866,6 +1861,11 @@ nsSVGUtils
 UpdateFilterRegion
 (
 this
+)
+;
+UpdateGraphic
+(
+suppressInvalidation
 )
 ;
 return
