@@ -134,6 +134,13 @@ h
 #
 include
 "
+jsscriptinlines
+.
+h
+"
+#
+include
+"
 jstracer
 .
 h

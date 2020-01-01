@@ -18,6 +18,13 @@ jsregexp
 .
 h
 "
+#
+include
+"
+jsscript
+.
+h
+"
 inline
 JSFunction
 *

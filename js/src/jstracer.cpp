@@ -115,6 +115,13 @@ h
 #
 include
 "
+jsdate
+.
+h
+"
+#
+include
+"
 jsdbgapi
 .
 h
@@ -192,7 +199,7 @@ h
 #
 include
 "
-jsdate
+jsscriptinlines
 .
 h
 "
