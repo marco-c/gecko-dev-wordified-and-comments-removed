@@ -3271,6 +3271,11 @@ nsACString
 aUri
 )
 ;
+void
+AsyncBlockOnload
+(
+)
+;
 protected
 :
 friend
@@ -3865,6 +3870,9 @@ mLayoutHistoryState
 ;
 PRUint32
 mOnloadBlockCount
+;
+PRUint32
+mAsyncOnloadBlockCount
 ;
 nsCOMPtr
 <
