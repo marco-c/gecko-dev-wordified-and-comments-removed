@@ -1001,7 +1001,7 @@ GetPlatform
 )
 -
 >
-CreateOffscreenDrawTarget
+CreateOffscreenCanvasDrawTarget
 (
 gfx
 :

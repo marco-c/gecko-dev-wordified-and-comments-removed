@@ -2044,7 +2044,7 @@ GetPlatform
 )
 -
 >
-CreateOffscreenDrawTarget
+CreateOffscreenCanvasDrawTarget
 (
 IntSize
 (
