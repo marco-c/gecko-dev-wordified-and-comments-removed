@@ -25,8 +25,8 @@ AXRoles
 {
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownRole
-NSAccessibilityMenuBarRole
 NSAccessibilityScrollBarRole
+NSAccessibilityMenuBarRole
 NSAccessibilitySplitterRole
 NSAccessibilityUnknownRole
 NSAccessibilityUnknownRole
@@ -133,7 +133,7 @@ NSAccessibilityGroupRole
 "
 AXRuler
 "
-NSAccessibilityUnknownRole
+NSAccessibilityComboBoxRole
 NSAccessibilityTextFieldRole
 NSAccessibilityTextFieldRole
 NSAccessibilityStaticTextRole
