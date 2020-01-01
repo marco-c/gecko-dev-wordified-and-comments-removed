@@ -1994,7 +1994,7 @@ zone
 rt
 -
 >
-isHeapBusy
+isHeapMajorCollecting
 (
 )
 )
@@ -2240,7 +2240,7 @@ zone
 rt
 -
 >
-isHeapBusy
+isHeapMajorCollecting
 (
 )
 )
