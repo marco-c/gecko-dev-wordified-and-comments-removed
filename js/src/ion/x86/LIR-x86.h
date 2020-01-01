@@ -107,6 +107,16 @@ type
 )
 {
 }
+MIRType
+type
+(
+)
+const
+{
+return
+type_
+;
+}
 }
 ;
 class
