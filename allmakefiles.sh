@@ -574,6 +574,11 @@ src
 simple
 /
 Makefile
+mfbt
+/
+tests
+/
+Makefile
 "
 if
 [
