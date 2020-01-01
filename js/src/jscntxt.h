@@ -1514,6 +1514,10 @@ nativeEnumCache
 NATIVE_ENUM_CACHE_SIZE
 ]
 ;
+JSObject
+*
+cachedIteratorObject
+;
 bool
 init
 (
