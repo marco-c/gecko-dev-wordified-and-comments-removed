@@ -44,9 +44,13 @@ nsClipboard
 NS_IMETHOD
 HasDataMatchingFlavors
 (
-nsISupportsArray
+const
+char
+*
 *
 aFlavorList
+PRUint32
+aLength
 PRInt32
 aWhichClipboard
 PRBool
