@@ -287,6 +287,14 @@ js
 script
 strict
 -
+e4x
+-
+ban
+.
+js
+script
+strict
+-
 function
 -
 statements
