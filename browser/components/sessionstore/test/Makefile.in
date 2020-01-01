@@ -418,8 +418,6 @@ DIRS
 =
 chrome
 \
-browser
-\
 (
 NULL
 )
