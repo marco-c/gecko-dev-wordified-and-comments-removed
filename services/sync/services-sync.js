@@ -28,6 +28,18 @@ extensions
 .
 weave
 .
+independentNode
+"
+false
+)
+;
+pref
+(
+"
+extensions
+.
+weave
+.
 encryption
 "
 "
@@ -196,7 +208,7 @@ engine
 .
 cookies
 "
-true
+false
 )
 ;
 pref
