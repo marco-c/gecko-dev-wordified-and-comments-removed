@@ -13,11 +13,11 @@ h
 "
 #
 include
-<
+"
 sqlite3
 .
 h
->
+"
 namespace
 mozilla
 {
