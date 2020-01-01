@@ -48,11 +48,11 @@ progbits
 procedure
 named
 '
-XPTC_InvokeByIndex
+NS_InvokeByIndex_P
 '
 .
 proc
-XPTC_InvokeByIndex
+NS_InvokeByIndex_P
 /
 /
 manual
@@ -99,11 +99,11 @@ function
 /
 .
 exclass
-XPTC_InvokeByIndex
+NS_InvokeByIndex_P
 fullyvisible
 .
 type
-XPTC_InvokeByIndex
+NS_InvokeByIndex_P
 function
 /
 /
@@ -123,7 +123,7 @@ nsXPTCVariant
 params
 )
 ;
-XPTC_InvokeByIndex
+NS_InvokeByIndex_P
 :
 :
 .
