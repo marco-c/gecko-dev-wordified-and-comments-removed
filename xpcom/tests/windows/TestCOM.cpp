@@ -88,6 +88,7 @@ NS_ITEST_COM_IID
 )
 class
 nsTestCom
+MOZ_FINAL
 :
 public
 nsITestCom
@@ -259,6 +260,7 @@ res
 }
 class
 nsTestComFactory
+MOZ_FINAL
 :
 public
 nsIFactory

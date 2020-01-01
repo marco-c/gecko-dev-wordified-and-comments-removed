@@ -36,6 +36,7 @@ PluginModuleChild
 ;
 class
 COMMessageFilter
+MOZ_FINAL
 :
 public
 IMessageFilter

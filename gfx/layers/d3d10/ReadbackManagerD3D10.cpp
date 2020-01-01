@@ -77,6 +77,7 @@ mBackgroundOffset
 ;
 class
 ReadbackResultWriter
+MOZ_FINAL
 :
 public
 nsIRunnable

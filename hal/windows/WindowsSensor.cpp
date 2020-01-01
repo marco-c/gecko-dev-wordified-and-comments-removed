@@ -58,6 +58,7 @@ sAccelerometer
 ;
 class
 SensorEvent
+MOZ_FINAL
 :
 public
 ISensorEvents
