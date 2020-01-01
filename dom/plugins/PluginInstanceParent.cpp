@@ -48,6 +48,15 @@ nsAutoPtr
 h
 "
 #
+include
+"
+mozilla
+/
+unused
+.
+h
+"
+#
 if
 defined
 (
@@ -1618,6 +1627,7 @@ result
 =
 NPERR_NO_ERROR
 )
+return
 PStreamNotifyParent
 :
 :
@@ -3403,6 +3413,9 @@ NPERR_NO_ERROR
 =
 err
 )
+unused
+<
+<
 PBrowserStreamParent
 :
 :
@@ -3562,6 +3575,7 @@ data
 "
 )
 ;
+return
 PPluginStreamParent
 :
 :
@@ -3571,9 +3585,10 @@ sp
 reason
 false
 )
-;
-return
+?
 NPERR_NO_ERROR
+:
+NPERR_GENERIC_ERROR
 ;
 }
 }
@@ -3937,6 +3952,9 @@ PStreamNotifyParent
 notifyData
 )
 ;
+unused
+<
+<
 PStreamNotifyParent
 :
 :

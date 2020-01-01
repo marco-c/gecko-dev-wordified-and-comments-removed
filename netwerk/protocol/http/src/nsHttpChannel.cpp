@@ -418,11 +418,7 @@ nsHttpChannel
 >
 event
 =
-new
-nsRunnableMethod
-<
-nsHttpChannel
->
+NS_NewRunnableMethod
 (
 this
 funcPtr

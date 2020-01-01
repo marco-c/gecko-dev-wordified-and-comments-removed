@@ -2591,6 +2591,9 @@ pure
 static
 =
 0
+warn_unused
+=
+0
                  
 typeop
 =
@@ -2709,6 +2712,12 @@ static
         
 self
 .
+warn_unused
+=
+warn_unused
+        
+self
+.
 typeop
 =
 typeop
@@ -2761,6 +2770,9 @@ pure
 self
 .
 static
+self
+.
+warn_unused
             
 copy
 .
@@ -3926,6 +3938,14 @@ isinstance
 (
 init
 str
+)
+        
+assert
+not
+isinstance
+(
+init
+list
 )
         
 assert

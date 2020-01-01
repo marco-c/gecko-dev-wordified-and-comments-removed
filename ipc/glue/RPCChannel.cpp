@@ -360,6 +360,7 @@ RPCChannel
 EventOccurred
 (
 )
+const
 {
 AssertWorkerThread
 (
@@ -2439,6 +2440,7 @@ type
 bool
 reply
 )
+const
 {
 fprintf
 (
@@ -2604,10 +2606,15 @@ size
 )
 )
 ;
+MessageQueue
+pending
+=
+mPending
+;
 while
 (
 !
-mPending
+pending
 .
 empty
 (
@@ -2627,7 +2634,7 @@ s
 \
 n
 "
-mPending
+pending
 .
 front
 (
@@ -2642,7 +2649,7 @@ rpc
 "
 :
 (
-mPending
+pending
 .
 front
 (
@@ -2660,7 +2667,7 @@ sync
 async
 "
 )
-mPending
+pending
 .
 front
 (
@@ -2678,7 +2685,7 @@ reply
 "
 )
 ;
-mPending
+pending
 .
 pop
 (
@@ -2706,6 +2713,7 @@ char
 const
 pfx
 )
+const
 {
 NS_WARN_IF_FALSE
 (
