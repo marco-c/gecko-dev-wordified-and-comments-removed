@@ -2637,6 +2637,9 @@ none
 '
 "
 selfUri
+docRequest
+csp
+reportOnly
 )
 ;
 }
