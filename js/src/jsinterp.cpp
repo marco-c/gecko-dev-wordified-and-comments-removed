@@ -5431,9 +5431,10 @@ JSOP_INCNAME_LENGTH
 JSOP_NAMEDEC_LENGTH
 )
 ;
-static
-inline
 bool
+js
+:
+:
 IteratorMore
 (
 JSContext
@@ -5541,9 +5542,10 @@ return
 true
 ;
 }
-static
-inline
 bool
+js
+:
+:
 IteratorNext
 (
 JSContext
