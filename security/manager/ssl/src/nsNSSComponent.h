@@ -1510,7 +1510,7 @@ char
 *
 getDefaultErrorStringName
 (
-PRInt32
+PRErrorCode
 err
 )
 ;
@@ -1520,7 +1520,7 @@ char
 *
 getOverrideErrorStringName
 (
-PRInt32
+PRErrorCode
 aErrorCode
 )
 ;
@@ -1528,7 +1528,7 @@ static
 nsresult
 getErrorMessageFromCode
 (
-PRInt32
+PRErrorCode
 err
 nsINSSComponent
 *
