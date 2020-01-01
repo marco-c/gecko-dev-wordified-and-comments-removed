@@ -7331,6 +7331,8 @@ VMS_SYMVEC_FILE
 fi
 endif
 endif
+#
+OpenVMS
 ifdef
 NO_LD_ARCHIVE_FLAGS
 ifdef
@@ -7643,6 +7645,9 @@ f
 MOZILLA_PROBE_LIBS
 )
 else
+#
+!
+DTRACE_LIB_DEPENDENT
 (
 MKSHLIB
 )
