@@ -722,10 +722,6 @@ nsIDOMNSHTMLFrameElement
 .
 idl
 \
-nsIDOMNSHTMLOptionCollectn
-.
-idl
-\
 (
 NULL
 )

@@ -93,7 +93,7 @@ class
 nsIDOMDocument
 ;
 class
-nsIDOMNSHTMLOptionCollection
+nsIDOMHTMLOptionsCollection
 ;
 class
 nsIDOMNodeList
@@ -3532,7 +3532,7 @@ jsval
 vp
 PRUint32
 aIndex
-nsIDOMNSHTMLOptionCollection
+nsIDOMHTMLOptionsCollection
 *
 aOptCollection
 )
