@@ -537,6 +537,10 @@ staller
 .
 sjs
 \
+browser_privatebrowsing_certexceptionsui
+.
+js
+\
 (
 NULL
 )
