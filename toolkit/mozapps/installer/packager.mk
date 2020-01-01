@@ -764,7 +764,7 @@ ifeq
 (
 _MSC_VER
 )
-1500
+1600
 )
 JSSHELL_BINS
 +
