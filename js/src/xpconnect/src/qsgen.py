@@ -6114,7 +6114,7 @@ rvdeclared
 argVal
 =
 "
-arg
+_arg
 %
 d
 "
@@ -7216,7 +7216,7 @@ write
 (
 "
 %
-sarg
+s_arg
 %
 d
 "
@@ -7511,7 +7511,7 @@ realtype
 argName
 =
 "
-_arg
+arg
 %
 d
 "
