@@ -1086,6 +1086,12 @@ nsCOMPtr
 <
 mozIStorageStatement
 >
+mDBRecentVisitOfPlace
+;
+nsCOMPtr
+<
+mozIStorageStatement
+>
 mDBInsertVisit
 ;
 nsCOMPtr
