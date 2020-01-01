@@ -1021,6 +1021,13 @@ bin
 \
 components
 \
+privatebrowsing
+.
+xpt
+bin
+\
+components
+\
 profile
 .
 xpt
@@ -1429,6 +1436,13 @@ bin
 components
 \
 nsPostUpdateWin
+.
+js
+bin
+\
+components
+\
+nsPrivateBrowsingService
 .
 js
 bin
