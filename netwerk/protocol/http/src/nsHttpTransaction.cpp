@@ -153,6 +153,15 @@ nsIHttpActivityObserver
 h
 "
 #
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
+#
 ifdef
 DEBUG
 extern
@@ -588,6 +597,8 @@ nsIAsyncInputStream
 responseBody
 )
 {
+NS_TIME_FUNCTION
+;
 nsresult
 rv
 ;

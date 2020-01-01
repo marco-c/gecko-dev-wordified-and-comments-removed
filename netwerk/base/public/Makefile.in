@@ -779,6 +779,10 @@ nsIURIWithPrincipal
 .
 idl
 \
+nsIURIClassifier
+.
+idl
+\
 (
 NULL
 )

@@ -787,11 +787,15 @@ Link
 .
 cpp
 \
+nsFileDataProtocolHandler
+.
+cpp
+\
 nsFrameMessageManager
 .
 cpp
 \
-nsFileDataProtocolHandler
+nsInProcessTabChildGlobal
 .
 cpp
 \

@@ -453,6 +453,13 @@ autocomplete
 autocomplete
 "
 )
+GK_ATOM
+(
+autofocus
+"
+autofocus
+"
+)
 #
 ifdef
 MOZ_MEDIA

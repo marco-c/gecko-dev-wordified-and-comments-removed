@@ -472,9 +472,6 @@ using
 mozilla
 :
 :
-jsipc
-:
-:
 void_t
 ;
 using

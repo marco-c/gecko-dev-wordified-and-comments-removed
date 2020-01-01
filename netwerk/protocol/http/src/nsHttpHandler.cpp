@@ -321,6 +321,15 @@ h
 #
 endif
 #
+include
+"
+mozilla
+/
+FunctionTimer
+.
+h
+"
+#
 ifdef
 DEBUG
 extern
@@ -801,6 +810,8 @@ Init
 (
 )
 {
+NS_TIME_FUNCTION
+;
 nsresult
 rv
 ;
@@ -1625,6 +1636,8 @@ InitConnectionMgr
 (
 )
 {
+NS_TIME_FUNCTION
+;
 nsresult
 rv
 ;

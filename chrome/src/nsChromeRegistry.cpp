@@ -2077,10 +2077,8 @@ agentSheets
 l
 ]
 ;
-nsCOMPtr
-<
 nsIURI
->
+*
 uri
 =
 sheet

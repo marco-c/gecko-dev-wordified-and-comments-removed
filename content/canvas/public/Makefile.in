@@ -434,11 +434,7 @@ nsICanvasRenderingContextInternal
 .
 h
 \
-nsICanvasElement
-.
-h
-\
-WebGLArray
+nsICanvasElementExternal
 .
 h
 \
