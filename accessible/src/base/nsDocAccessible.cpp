@@ -1345,6 +1345,9 @@ GetARIAState
 PRUint32
 *
 aState
+PRUint32
+*
+aExtraState
 )
 {
 NS_ENSURE_ARG_POINTER
@@ -1361,6 +1364,7 @@ nsAccessible
 GetARIAState
 (
 aState
+aExtraState
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1394,6 +1398,7 @@ parent
 GetARIAState
 (
 aState
+aExtraState
 )
 ;
 return
