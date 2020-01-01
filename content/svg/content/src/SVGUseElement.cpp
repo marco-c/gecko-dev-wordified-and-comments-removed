@@ -1278,14 +1278,6 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-if
-(
-!
-nodeInfo
-)
-return
-nullptr
-;
 nsCOMPtr
 <
 nsIContent

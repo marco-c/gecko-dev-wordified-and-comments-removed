@@ -422,12 +422,6 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-NS_ENSURE_TRUE
-(
-nodeInfo
-NS_ERROR_FAILURE
-)
-;
 nsRefPtr
 <
 HTMLMediaElement

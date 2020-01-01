@@ -503,12 +503,6 @@ nsIDOMNode
 ATTRIBUTE_NODE
 )
 ;
-NS_ENSURE_TRUE
-(
-newNodeInfo
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 NS_ASSERTION
 (
 newNodeInfo

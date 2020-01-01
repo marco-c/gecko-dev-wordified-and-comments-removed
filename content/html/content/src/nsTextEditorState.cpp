@@ -5966,12 +5966,6 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-NS_ENSURE_TRUE
-(
-nodeInfo
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 nsresult
 rv
 =
@@ -6353,12 +6347,6 @@ nsIDOMNode
 :
 :
 ELEMENT_NODE
-)
-;
-NS_ENSURE_TRUE
-(
-nodeInfo
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 rv

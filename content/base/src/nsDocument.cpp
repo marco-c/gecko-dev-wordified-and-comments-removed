@@ -25950,14 +25950,6 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-if
-(
-!
-titleInfo
-)
-return
-NS_OK
-;
 title
 =
 NS_NewHTMLTitleElement
