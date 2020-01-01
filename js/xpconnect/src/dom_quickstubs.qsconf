@@ -381,6 +381,11 @@ nsIDOMCanvasGradient
 .
 *
 '
+'
+nsIDOMCanvasPattern
+.
+*
+'
 #
 dom
 /
@@ -808,6 +813,13 @@ nsIDOMCanvasGradient
 nsIDOMCanvasRenderingContext2D
 '
 '
+nsIDOMCanvasPattern
+'
+:
+'
+nsIDOMCanvasRenderingContext2D
+'
+'
 nsIDOMBlob
 '
 :
@@ -948,6 +960,9 @@ h
 customReturnInterfaces
 =
 [
+'
+nsIDOMCanvasPattern
+'
 '
 nsIDOMCanvasGradient
 '
