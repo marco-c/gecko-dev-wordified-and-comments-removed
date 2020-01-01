@@ -9096,7 +9096,7 @@ this
 >
 val
 "
-js
+JS
 :
 :
 AutoValueRooter
@@ -10104,6 +10104,10 @@ isMarkStackEmpty
 )
 ;
 }
+}
+namespace
+JS
+{
 void
 MarkRuntime
 (
@@ -10495,6 +10499,10 @@ gcGrayRootsData
 ;
 }
 }
+}
+namespace
+js
+{
 void
 TriggerGC
 (

@@ -15,13 +15,6 @@ h
 #
 include
 "
-jscntxt
-.
-h
-"
-#
-include
-"
 nsFrameMessageManager
 .
 h
@@ -1885,7 +1878,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 }
 }
-js
+JS
 :
 :
 AutoValueRooter
@@ -2215,7 +2208,7 @@ rval
 =
 JSVAL_VOID
 ;
-js
+JS
 :
 :
 AutoValueRooter

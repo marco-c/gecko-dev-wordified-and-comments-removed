@@ -10,6 +10,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 jscntxt
 .
 h
@@ -3338,7 +3345,7 @@ cx
 value
 )
 ;
-js
+JS
 :
 :
 AutoValueRooter
