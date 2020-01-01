@@ -11137,6 +11137,15 @@ mWrapper
 ;
 if
 (
+mFlatJSObject
+&
+&
+mFlatJSObject
+!
+=
+INVALID_OBJECT
+&
+&
 JS_IsGlobalObject
 (
 mFlatJSObject
