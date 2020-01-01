@@ -504,6 +504,10 @@ embed
 aFromParser
 )
 {
+RegisterFreezableElement
+(
+)
+;
 }
 nsHTMLSharedObjectElement
 :
@@ -513,6 +517,10 @@ nsHTMLSharedObjectElement
 (
 )
 {
+UnregisterFreezableElement
+(
+)
+;
 DestroyImageLoadingContent
 (
 )

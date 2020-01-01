@@ -401,6 +401,10 @@ mIsDoneAddingChildren
 aFromParser
 )
 {
+RegisterFreezableElement
+(
+)
+;
 }
 nsHTMLObjectElement
 :
@@ -410,6 +414,10 @@ nsHTMLObjectElement
 (
 )
 {
+UnregisterFreezableElement
+(
+)
+;
 DestroyImageLoadingContent
 (
 )

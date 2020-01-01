@@ -1541,6 +1541,10 @@ test_sync_xhr_timer
 .
 xhtml
 \
+test_plugin_freezing
+.
+html
+\
 (
 NULL
 )

@@ -2743,6 +2743,10 @@ mIsRunningSelectResource
 PR_FALSE
 )
 {
+RegisterFreezableElement
+(
+)
+;
 }
 nsHTMLMediaElement
 :
@@ -2752,6 +2756,10 @@ nsHTMLMediaElement
 (
 )
 {
+UnregisterFreezableElement
+(
+)
+;
 if
 (
 mDecoder
