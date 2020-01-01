@@ -104,6 +104,13 @@ nsITimer
 .
 h
 "
+#
+include
+"
+nsICharsetDetector
+.
+h
+"
 class
 nsHtml5Parser
 ;
@@ -751,6 +758,12 @@ nsCOMPtr
 nsIDocument
 >
 mDocument
+;
+nsCOMPtr
+<
+nsICharsetDetector
+>
+mChardet
 ;
 nsCOMPtr
 <
