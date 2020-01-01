@@ -5638,7 +5638,6 @@ rv
 GetBookmarkIdsForURITArray
 (
 aURI
-&
 bookmarks
 )
 ;
@@ -6162,7 +6161,6 @@ rv
 GetBookmarkIdsForURITArray
 (
 uri
-&
 bookmarks
 )
 ;
@@ -8653,7 +8651,6 @@ rv
 GetBookmarkIdsForURITArray
 (
 uri
-&
 bookmarks
 )
 ;
@@ -12337,7 +12334,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNavBookmarks
 :
 :
@@ -12350,18 +12347,24 @@ nsTArray
 <
 PRInt64
 >
-*
+&
 aResult
 )
 {
+NS_PRECONDITION
+(
+aURI
+"
+Should
+not
+be
+null
+"
+)
+;
 NS_ENSURE_ARG
 (
 aURI
-)
-;
-NS_ENSURE_ARG_POINTER
-(
-aResult
 )
 ;
 mozStorageStatementScoper
@@ -12432,8 +12435,7 @@ if
 (
 !
 aResult
--
->
+.
 AppendElement
 (
 mDBFindURIBookmarks
@@ -12514,7 +12516,6 @@ rv
 GetBookmarkIdsForURITArray
 (
 aURI
-&
 bookmarks
 )
 ;
@@ -14032,7 +14033,6 @@ rv
 GetBookmarkIdsForURITArray
 (
 aURI
-&
 bookmarks
 )
 ;
@@ -14147,7 +14147,6 @@ rv
 GetBookmarkIdsForURITArray
 (
 aURI
-&
 bookmarks
 )
 ;
@@ -14456,7 +14455,6 @@ rv
 GetBookmarkIdsForURITArray
 (
 aURI
-&
 bookmarks
 )
 ;
