@@ -3977,7 +3977,7 @@ KeyEvent
 .
 META_ALT_ON
 )
-=
+!
 =
 0
 )
@@ -4146,7 +4146,7 @@ KeyEvent
 .
 META_ALT_ON
 )
-=
+!
 =
 0
 )
