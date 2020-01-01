@@ -15016,7 +15016,7 @@ fileURI
 =
 chromeURI
 ;
-if
+while
 (
 fileURI
 instanceof
