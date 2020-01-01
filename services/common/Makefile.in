@@ -170,8 +170,6 @@ module_dir
 (
 NSINSTALL
 )
--
-R
 (
 source_modules
 )
