@@ -2792,12 +2792,14 @@ op
 ;
 len
 =
+(
 cs
 -
 >
 length
 >
 0
+)
 ?
 (
 uintN

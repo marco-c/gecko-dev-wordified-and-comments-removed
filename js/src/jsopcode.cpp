@@ -26491,7 +26491,7 @@ JSScript
 script
 jsbytecode
 *
-pc
+target
 jsbytecode
 *
 *
@@ -26505,7 +26505,7 @@ ndefs
 ;
 jsbytecode
 *
-begin
+pc
 ;
 JSOp
 op
@@ -26546,10 +26546,10 @@ script
 main
 <
 =
-pc
+target
 &
 &
-pc
+target
 <
 script
 -
@@ -26566,10 +26566,6 @@ pcdepth
 =
 0
 ;
-begin
-=
-pc
-;
 for
 (
 pc
@@ -26581,7 +26577,7 @@ main
 ;
 pc
 <
-begin
+target
 ;
 pc
 +
@@ -26749,7 +26745,7 @@ pc
 +
 jmpoff
 <
-begin
+target
 )
 {
 pc
@@ -26815,7 +26811,7 @@ pc
 +
 jmplen
 <
-begin
+target
 )
 {
 oplen
@@ -27272,7 +27268,7 @@ LOCAL_ASSERT
 pc
 =
 =
-begin
+target
 )
 ;
 return
