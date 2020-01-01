@@ -226,10 +226,6 @@ nsSVGString
 .
 cpp
 \
-SVGRect
-.
-cpp
-\
 nsSVGUnknownElement
 .
 cpp
@@ -543,6 +539,10 @@ SVGPolylineElement
 cpp
 \
 SVGPreserveAspectRatio
+.
+cpp
+\
+SVGRect
 .
 cpp
 \
@@ -916,6 +916,10 @@ SVGPolylineElement
 h
 \
 SVGRect
+.
+h
+\
+SVGIRect
 .
 h
 \

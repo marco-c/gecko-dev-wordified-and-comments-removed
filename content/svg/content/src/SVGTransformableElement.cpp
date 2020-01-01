@@ -620,7 +620,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGRect
+SVGIRect
 >
 SVGTransformableElement
 :
@@ -696,9 +696,9 @@ return
 nullptr
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMSVGRect
+SVGRect
 >
 rect
 ;

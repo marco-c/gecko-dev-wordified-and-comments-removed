@@ -40,7 +40,11 @@ h
 #
 include
 "
-nsIDOMSVGRect
+mozilla
+/
+dom
+/
+SVGIRect
 .
 h
 "
@@ -713,7 +717,7 @@ forget
 }
 already_AddRefed
 <
-nsIDOMSVGRect
+SVGIRect
 >
 SVGTextContentElement
 :
@@ -727,9 +731,9 @@ ErrorResult
 rv
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMSVGRect
+SVGIRect
 >
 rect
 ;

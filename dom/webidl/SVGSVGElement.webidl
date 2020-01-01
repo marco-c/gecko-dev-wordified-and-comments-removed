@@ -149,9 +149,6 @@ interface
 SVGPoint
 ;
 interface
-SVGRect
-;
-interface
 SVGSVGElement
 :
 SVGGraphicsElement

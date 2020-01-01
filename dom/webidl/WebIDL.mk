@@ -983,6 +983,10 @@ SVGRadialGradientElement
 .
 webidl
 \
+SVGRect
+.
+webidl
+\
 SVGRectElement
 .
 webidl

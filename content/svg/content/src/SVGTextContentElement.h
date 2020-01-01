@@ -30,6 +30,9 @@ nsISVGPoint
 namespace
 dom
 {
+class
+SVGIRect
+;
 typedef
 SVGGraphicsElement
 SVGTextContentElementBase
@@ -98,7 +101,7 @@ rv
 ;
 already_AddRefed
 <
-nsIDOMSVGRect
+SVGIRect
 >
 GetExtentOfChar
 (

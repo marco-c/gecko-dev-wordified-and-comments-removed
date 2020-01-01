@@ -1654,7 +1654,7 @@ forget
 }
 already_AddRefed
 <
-nsIDOMSVGRect
+SVGIRect
 >
 SVGSVGElement
 :
@@ -1663,9 +1663,9 @@ CreateSVGRect
 (
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMSVGRect
+SVGRect
 >
 rect
 ;

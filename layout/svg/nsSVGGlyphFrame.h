@@ -72,9 +72,6 @@ class
 nsDisplaySVGGlyphs
 ;
 class
-nsIDOMSVGRect
-;
-class
 nsRenderingContext
 ;
 class
@@ -95,6 +92,13 @@ CharacterPosition
 namespace
 mozilla
 {
+namespace
+dom
+{
+class
+SVGIRect
+;
+}
 struct
 SVGTextObjectPaint
 :
@@ -485,7 +489,10 @@ GetExtentOfChar
 (
 uint32_t
 charnum
-nsIDOMSVGRect
+dom
+:
+:
+SVGIRect
 *
 *
 _retval

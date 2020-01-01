@@ -140,9 +140,6 @@ apply
 *
 /
 interface
-SVGRect
-;
-interface
 SVGAnimatedEnumeration
 ;
 interface
@@ -236,6 +233,7 @@ charnum
 )
 ;
 [
+Creator
 Throws
 ]
 SVGRect
