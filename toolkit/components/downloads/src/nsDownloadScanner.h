@@ -18,7 +18,7 @@ INITGUID
 #
 include
 <
-Windows
+windows
 .
 h
 >
