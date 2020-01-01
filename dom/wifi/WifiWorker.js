@@ -4535,6 +4535,10 @@ retryTimer
 =
 null
 ;
+connectTries
+=
+0
+;
 didConnectSupplicant
 (
 function
@@ -4612,6 +4616,10 @@ return
 retryTimer
 =
 null
+;
+connectTries
+=
+0
 ;
 notify
 (
