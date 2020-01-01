@@ -923,6 +923,15 @@ const
 ;
 inline
 void
+forgetConstantData
+(
+FrameEntry
+*
+fe
+)
+;
+inline
+void
 convertInt32ToDouble
 (
 Assembler
