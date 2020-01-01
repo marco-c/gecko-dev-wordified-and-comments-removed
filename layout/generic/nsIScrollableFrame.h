@@ -197,6 +197,13 @@ ScrollToRestoredPosition
 =
 0
 ;
+NS_IMETHOD
+PostScrolledAreaEventForCurrentArea
+(
+)
+=
+0
+;
 }
 ;
 #
