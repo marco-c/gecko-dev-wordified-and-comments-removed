@@ -851,7 +851,12 @@ createInstallTrigger
 var
 obj
 =
+XPCNativeWrapper
+.
+unwrap
+(
 this
+)
 ;
 while
 (
