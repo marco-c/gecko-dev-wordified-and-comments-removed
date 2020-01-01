@@ -11400,7 +11400,7 @@ UINT32_MAX
 obj
 -
 >
-setArrayLength
+setSlowArrayLength
 (
 index
 +
