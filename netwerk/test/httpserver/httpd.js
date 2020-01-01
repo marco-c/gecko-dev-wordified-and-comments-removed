@@ -29,7 +29,7 @@ Constructor
 var
 DEBUG
 =
-false
+true
 ;
 function
 NS_ASSERT
