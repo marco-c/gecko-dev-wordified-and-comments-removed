@@ -440,7 +440,7 @@ test_webgl_conformance_test_suite
 .
 html
 \
-00_testFIXME_list
+00_test_list
 .
 txt
 \
