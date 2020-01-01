@@ -450,6 +450,10 @@ test_bug279495
 .
 html
 \
+test_bug386782
+.
+html
+\
 test_child
 .
 html

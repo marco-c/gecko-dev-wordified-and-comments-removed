@@ -809,6 +809,14 @@ mFragmentParser
 aParser
 ;
 }
+virtual
+nsresult
+SetEditingState
+(
+EditingState
+aState
+)
+;
 protected
 :
 nsresult
