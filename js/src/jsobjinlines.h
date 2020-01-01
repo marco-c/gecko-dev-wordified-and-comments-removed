@@ -1945,11 +1945,14 @@ pobj
 )
 ;
 }
+else
+{
 *
 vp
 =
 v
 ;
+}
 return
 true
 ;
