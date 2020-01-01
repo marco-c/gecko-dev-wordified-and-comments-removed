@@ -758,12 +758,6 @@ kAsyncPanZoomEnabled
 )
 &
 &
-!
-StartUI
-.
-isStartPageVisible
-&
-&
 this
 .
 _targetScrollbox
@@ -1345,11 +1339,6 @@ getBoolPref
 (
 kAsyncPanZoomEnabled
 )
-|
-|
-StartUI
-.
-isStartPageVisible
 |
 |
 this
