@@ -117,9 +117,6 @@ Init
 (
 )
 {
-nsresult
-rv
-;
 PRBool
 useCups
 =
