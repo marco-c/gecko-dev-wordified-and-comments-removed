@@ -423,6 +423,9 @@ CSS_STATE_DEPENDENT_PSEUDO_CLASS
 dir
 "
 :
+-
+moz
+-
 dir
 "
 NS_EVENT_STATE_LTR
