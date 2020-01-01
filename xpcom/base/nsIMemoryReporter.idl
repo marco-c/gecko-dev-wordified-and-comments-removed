@@ -2868,7 +2868,10 @@ nsCOMPtr
 nsIMemoryReporter
 >
 .
+XPCOM_API
+(
 nsresult
+)
 NS_RegisterMemoryReporter
 (
 nsIMemoryReporter
@@ -2876,7 +2879,10 @@ nsIMemoryReporter
 reporter
 )
 ;
+XPCOM_API
+(
 nsresult
+)
 NS_RegisterMemoryMultiReporter
 (
 nsIMemoryMultiReporter
@@ -2884,7 +2890,10 @@ nsIMemoryMultiReporter
 reporter
 )
 ;
+XPCOM_API
+(
 nsresult
+)
 NS_UnregisterMemoryReporter
 (
 nsIMemoryReporter
@@ -2892,7 +2901,10 @@ nsIMemoryReporter
 reporter
 )
 ;
+XPCOM_API
+(
 nsresult
+)
 NS_UnregisterMemoryMultiReporter
 (
 nsIMemoryMultiReporter
