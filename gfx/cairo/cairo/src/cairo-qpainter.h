@@ -13,7 +13,7 @@ h
 >
 #
 if
-CAIRO_HAS_QPAINTER_SURFACE
+CAIRO_HAS_QT_SURFACE
 class
 QPainter
 ;

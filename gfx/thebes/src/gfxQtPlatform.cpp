@@ -1698,6 +1698,15 @@ return
 gPlatformFTLibrary
 ;
 }
+void
+gfxQtPlatform
+:
+:
+InitDisplayCaps
+(
+)
+{
+}
 FontFamily
 *
 gfxQtPlatform

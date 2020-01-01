@@ -3813,7 +3813,7 @@ surface
 type
 =
 =
-CAIRO_SURFACE_TYPE_QPAINTER
+CAIRO_SURFACE_TYPE_QT
 )
 {
 cairo_qpainter_surface_t
@@ -5489,7 +5489,7 @@ surface
 type
 =
 =
-CAIRO_SURFACE_TYPE_QPAINTER
+CAIRO_SURFACE_TYPE_QT
 )
 {
 cairo_qpainter_surface_t
@@ -7330,7 +7330,7 @@ surface
 type
 =
 =
-CAIRO_SURFACE_TYPE_QPAINTER
+CAIRO_SURFACE_TYPE_QT
 )
 {
 cairo_qpainter_surface_t
@@ -7608,7 +7608,7 @@ cairo_surface_backend_t
 cairo_qpainter_surface_backend
 =
 {
-CAIRO_SURFACE_TYPE_QPAINTER
+CAIRO_SURFACE_TYPE_QT
 _cairo_qpainter_surface_create_similar
 _cairo_qpainter_surface_finish
 _cairo_qpainter_surface_acquire_source_image
@@ -8733,7 +8733,7 @@ surface
 type
 !
 =
-CAIRO_SURFACE_TYPE_QPAINTER
+CAIRO_SURFACE_TYPE_QT
 )
 return
 NULL
@@ -8772,7 +8772,7 @@ surface
 type
 !
 =
-CAIRO_SURFACE_TYPE_QPAINTER
+CAIRO_SURFACE_TYPE_QT
 )
 return
 NULL
@@ -8811,7 +8811,7 @@ surface
 type
 !
 =
-CAIRO_SURFACE_TYPE_QPAINTER
+CAIRO_SURFACE_TYPE_QT
 )
 return
 NULL
