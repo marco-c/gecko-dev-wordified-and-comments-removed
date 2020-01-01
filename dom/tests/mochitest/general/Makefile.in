@@ -267,6 +267,10 @@ test_offsets
 .
 js
 \
+test_offsets
+.
+css
+\
 (
 NULL
 )
