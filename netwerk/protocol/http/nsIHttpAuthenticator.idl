@@ -438,7 +438,7 @@ nsISupports
 idl
 "
 interface
-nsIHttpChannel
+nsIHttpAuthenticableChannel
 ;
 /
 *
@@ -525,15 +525,15 @@ RFC
 scriptable
 uuid
 (
-36402c9d
+16784db0
 -
-c280
+fcb1
 -
-4860
+4352
 -
-b4b0
+b0c9
 -
-2e7eb35b0aaf
+6a3a67e3cf79
 )
 ]
 interface
@@ -725,7 +725,7 @@ void
 challengeReceived
 (
 in
-nsIHttpChannel
+nsIHttpAuthenticableChannel
 aChannel
 in
 string
@@ -1023,7 +1023,7 @@ string
 generateCredentials
 (
 in
-nsIHttpChannel
+nsIHttpAuthenticableChannel
 aChannel
 in
 string

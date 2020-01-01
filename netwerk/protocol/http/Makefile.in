@@ -479,6 +479,14 @@ nsIHttpProtocolHandler
 .
 idl
 \
+nsIHttpChannelAuthProvider
+.
+idl
+\
+nsIHttpAuthenticableChannel
+.
+idl
+\
 (
 NULL
 )
@@ -554,6 +562,10 @@ nsHttpPipeline
 cpp
 \
 nsHttpActivityDistributor
+.
+cpp
+\
+nsHttpChannelAuthProvider
 .
 cpp
 \

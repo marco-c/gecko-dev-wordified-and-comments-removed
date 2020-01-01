@@ -75,9 +75,9 @@ nsHttpBasicAuth
 :
 ChallengeReceived
 (
-nsIHttpChannel
+nsIHttpAuthenticableChannel
 *
-httpChannel
+authChannel
 const
 char
 *
@@ -112,9 +112,9 @@ nsHttpBasicAuth
 :
 GenerateCredentials
 (
-nsIHttpChannel
+nsIHttpAuthenticableChannel
 *
-httpChannel
+authChannel
 const
 char
 *
