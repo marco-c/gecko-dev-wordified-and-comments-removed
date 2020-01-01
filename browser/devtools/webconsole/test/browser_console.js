@@ -136,7 +136,9 @@ onload
 )
 =
 >
-info
+console
+.
+log
 (
 "
 xhr
