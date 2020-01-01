@@ -425,6 +425,12 @@ do_QueryInterface
 mDocument
 )
 ;
+NS_ENSURE_TRUE
+(
+document
+eNameOK
+)
+;
 document
 -
 >
