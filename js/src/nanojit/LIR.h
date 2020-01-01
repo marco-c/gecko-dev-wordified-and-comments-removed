@@ -7052,6 +7052,8 @@ frag
 Allocator
 &
 alloc
+bool
+optimize
 verbose_only
 (
 LabelMap
@@ -7075,6 +7077,8 @@ Fragment
 frag
 LogControl
 *
+bool
+optimize
 )
 ;
 )
