@@ -76,6 +76,10 @@ mPlaneID
 (
 0
 )
+mRunLength
+(
+0
+)
 {
 }
 virtual
@@ -139,6 +143,10 @@ mPlaneID
 =
 0
 ;
+mRunLength
+=
+0
+;
 return
 NS_OK
 ;
@@ -182,6 +190,9 @@ mData
 ;
 int
 mPlaneID
+;
+PRUint32
+mRunLength
 ;
 nsCOMPtr
 <

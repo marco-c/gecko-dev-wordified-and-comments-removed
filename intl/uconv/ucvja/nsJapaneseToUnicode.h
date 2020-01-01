@@ -268,6 +268,10 @@ mData
 =
 0
 ;
+mRunLength
+=
+0
+;
 G2charset
 =
 G2_unknown
@@ -365,6 +369,10 @@ mLastLegalState
 =
 mState_ASCII
 ;
+mRunLength
+=
+0
+;
 setMapMode
 (
 )
@@ -403,6 +411,9 @@ mLastLegalState
 ;
 PRInt32
 mData
+;
+PRInt32
+mRunLength
 ;
 enum
 {

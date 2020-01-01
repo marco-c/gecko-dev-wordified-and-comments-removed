@@ -46,6 +46,10 @@ mEUCKRDecoder
 =
 nsnull
 ;
+mRunLength
+=
+0
+;
 }
 virtual
 ~
@@ -113,6 +117,10 @@ mLastLegalState
 =
 mState_ASCII
 ;
+mRunLength
+=
+0
+;
 return
 NS_OK
 ;
@@ -134,6 +142,9 @@ mLastLegalState
 ;
 PRUint8
 mData
+;
+PRUint32
+mRunLength
 ;
 nsIUnicodeDecoder
 *
