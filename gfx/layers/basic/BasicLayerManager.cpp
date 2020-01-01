@@ -4106,6 +4106,13 @@ PaintLayer
 "
 )
 ;
+aLayer
+-
+>
+ApplyPendingUpdatesForThisTransaction
+(
+)
+;
 const
 nsIntRect
 *
