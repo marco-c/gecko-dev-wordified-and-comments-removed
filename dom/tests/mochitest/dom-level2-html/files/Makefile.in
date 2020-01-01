@@ -634,6 +634,14 @@ document
 html
 \
 document
+-
+with
+-
+applet
+.
+html
+\
+document
 .
 xhtml
 \
