@@ -690,6 +690,10 @@ test_value_storage
 .
 html
 \
+test_viewport_units
+.
+html
+\
 test_visited_image_loading
 .
 html
@@ -877,6 +881,10 @@ css
 sjs
 \
 test_bug795520
+.
+html
+\
+viewport_units_iframe
 .
 html
 \
