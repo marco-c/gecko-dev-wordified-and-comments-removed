@@ -86,7 +86,7 @@ KeyShiftState
 {
 struct
 {
-PRUint16
+PRUnichar
 Chars
 [
 4
@@ -102,7 +102,7 @@ DeadKeyTable
 *
 Table
 ;
-PRUint16
+PRUnichar
 DeadChar
 ;
 }
@@ -208,7 +208,7 @@ SetNormalChars
 PRUint8
 aShiftState
 const
-PRUint16
+PRUnichar
 *
 aChars
 PRUint32
@@ -220,7 +220,7 @@ SetDeadChar
 (
 PRUint8
 aShiftState
-PRUint16
+PRUnichar
 aDeadChar
 )
 ;
@@ -239,12 +239,12 @@ aEntries
 const
 ;
 inline
-PRUint16
+PRUnichar
 GetCompositeChar
 (
 PRUint8
 aShiftState
-PRUint16
+PRUnichar
 aBaseChar
 )
 const
@@ -254,7 +254,7 @@ GetNativeUniChars
 (
 PRUint8
 aShiftState
-PRUint16
+PRUnichar
 *
 aUniChars
 =
@@ -267,7 +267,7 @@ GetUniChars
 (
 PRUint8
 aShiftState
-PRUint16
+PRUnichar
 *
 aUniChars
 PRUint8
@@ -330,7 +330,7 @@ mLastVirtualKeyIndex
 PRUint8
 mLastShiftState
 ;
-PRUint16
+PRUnichar
 mChars
 [
 5
@@ -394,9 +394,9 @@ static
 PRBool
 AddDeadKeyEntry
 (
-PRUint16
+PRUnichar
 aBaseChar
-PRUint16
+PRUnichar
 aCompositeChar
 DeadKeyEntry
 *
@@ -540,7 +540,7 @@ aVirtualKey
 PRUint32
 GetUniChars
 (
-PRUint16
+PRUnichar
 *
 aUniChars
 PRUint8
@@ -558,7 +558,7 @@ PRUint8
 aVirtualKey
 PRUint8
 aShiftStates
-PRUint16
+PRUnichar
 *
 aUniChars
 PRUint32
