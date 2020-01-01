@@ -134,6 +134,10 @@ FileDescriptor
 .
 h
 \
+FileDescriptorUtils
+.
+h
+\
 GeckoChildProcessHost
 .
 h
@@ -319,6 +323,10 @@ BrowserProcessSubThread
 cpp
 \
 FileDescriptor
+.
+cpp
+\
+FileDescriptorUtils
 .
 cpp
 \
