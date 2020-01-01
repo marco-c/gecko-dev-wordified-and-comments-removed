@@ -206,9 +206,6 @@ generateQI
 Ci
 .
 nsIPlacesTransactionsService
-Ci
-.
-nsISupports
 ]
 )
 aggregateTransactions
@@ -652,9 +649,6 @@ generateQI
 Ci
 .
 nsITransaction
-Ci
-.
-nsISupports
 ]
 )
 }
