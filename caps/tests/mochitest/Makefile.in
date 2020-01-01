@@ -461,6 +461,10 @@ test_bug470804
 .
 html
 \
+test_disallowInheritPrincipal
+.
+html
+\
 (
 NULL
 )
