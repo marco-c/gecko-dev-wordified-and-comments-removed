@@ -38495,11 +38495,6 @@ config
 autoconf
 .
 mk
-config
-/
-expandlibs_config
-.
-py
 "
 if
 test

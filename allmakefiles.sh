@@ -207,11 +207,6 @@ config
 doxygen
 .
 cfg
-config
-/
-expandlibs_config
-.
-py
 mfbt
 /
 Makefile
