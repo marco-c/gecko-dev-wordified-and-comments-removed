@@ -885,13 +885,6 @@ Destroy
 =
 0
 ;
-virtual
-void
-RemovedAsPrimaryFrame
-(
-)
-{
-}
 NS_IMETHOD
 SetInitialChildList
 (

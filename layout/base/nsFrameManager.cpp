@@ -1684,13 +1684,6 @@ PL_DHASH_REMOVE
 ;
 }
 }
-aPrimaryFrame
--
->
-RemovedAsPrimaryFrame
-(
-)
-;
 }
 void
 nsFrameManager
