@@ -5332,7 +5332,7 @@ PR_TRUE
 ;
 REPORT_UNEXPECTED_TOKEN
 (
-PRExpectEndValue
+PEExpectEndValue
 )
 ;
 return
