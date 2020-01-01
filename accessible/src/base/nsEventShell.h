@@ -7,7 +7,7 @@ _nsEventShell_H_
 #
 include
 "
-nsAccEvent
+AccEvent
 .
 h
 "
@@ -44,7 +44,7 @@ static
 void
 FireEvent
 (
-nsAccEvent
+AccEvent
 *
 aEvent
 )
@@ -125,7 +125,7 @@ nsAccEventQueue
 void
 Push
 (
-nsAccEvent
+AccEvent
 *
 aEvent
 )
@@ -170,7 +170,7 @@ aEventType
 nsINode
 *
 aNode
-nsAccEvent
+AccEvent
 :
 :
 EEventRule
@@ -180,10 +180,10 @@ aEventRule
 void
 CoalesceReorderEventsFromSameSource
 (
-nsAccEvent
+AccEvent
 *
 aAccEvent1
-nsAccEvent
+AccEvent
 *
 aAccEvent2
 )
@@ -191,10 +191,10 @@ aAccEvent2
 void
 CoalesceReorderEventsFromSameTree
 (
-nsAccEvent
+AccEvent
 *
 aAccEvent
-nsAccEvent
+AccEvent
 *
 aDescendantAccEvent
 )
@@ -231,7 +231,7 @@ nsTArray
 <
 nsRefPtr
 <
-nsAccEvent
+AccEvent
 >
 >
 mEvents

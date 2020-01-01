@@ -84,7 +84,7 @@ class
 nsAccessible
 ;
 class
-nsAccEvent
+AccEvent
 ;
 struct
 nsRoleMapEntry
@@ -559,7 +559,7 @@ virtual
 nsresult
 HandleAccEvent
 (
-nsAccEvent
+AccEvent
 *
 aAccEvent
 )
@@ -804,7 +804,7 @@ virtual
 nsresult
 FirePlatformEvent
 (
-nsAccEvent
+AccEvent
 *
 aEvent
 )

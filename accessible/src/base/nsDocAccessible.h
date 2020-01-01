@@ -337,7 +337,7 @@ virtual
 nsresult
 HandleAccEvent
 (
-nsAccEvent
+AccEvent
 *
 aAccEvent
 )
@@ -402,13 +402,13 @@ aEventType
 nsINode
 *
 aNode
-nsAccEvent
+AccEvent
 :
 :
 EEventRule
 aAllowDupes
 =
-nsAccEvent
+AccEvent
 :
 :
 eRemoveDupes
@@ -425,7 +425,7 @@ eAutoDetect
 nsresult
 FireDelayedAccessibleEvent
 (
-nsAccEvent
+AccEvent
 *
 aEvent
 )
@@ -471,7 +471,7 @@ aAccessible
 void
 ProcessPendingEvent
 (
-nsAccEvent
+AccEvent
 *
 aEvent
 )
@@ -580,7 +580,7 @@ aIsInserted
 ;
 already_AddRefed
 <
-nsAccEvent
+AccEvent
 >
 CreateTextChangeEventForNode
 (

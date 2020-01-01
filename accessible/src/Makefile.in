@@ -473,6 +473,8 @@ base
 \
 html
 \
+xpcom
+\
 (
 null
 )

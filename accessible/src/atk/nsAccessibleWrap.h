@@ -149,7 +149,7 @@ virtual
 nsresult
 HandleAccEvent
 (
-nsAccEvent
+AccEvent
 *
 aEvent
 )
@@ -230,7 +230,7 @@ virtual
 nsresult
 FirePlatformEvent
 (
-nsAccEvent
+AccEvent
 *
 aEvent
 )
@@ -238,7 +238,7 @@ aEvent
 nsresult
 FireAtkStateChangeEvent
 (
-nsAccEvent
+AccEvent
 *
 aEvent
 AtkObject
@@ -249,7 +249,7 @@ aObject
 nsresult
 FireAtkTextChangedEvent
 (
-nsAccEvent
+AccEvent
 *
 aEvent
 AtkObject
@@ -260,7 +260,7 @@ aObject
 nsresult
 FireAtkShowHideEvent
 (
-nsAccEvent
+AccEvent
 *
 aEvent
 AtkObject

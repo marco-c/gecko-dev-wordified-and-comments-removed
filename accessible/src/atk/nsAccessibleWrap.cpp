@@ -4065,7 +4065,7 @@ nsAccessibleWrap
 :
 HandleAccEvent
 (
-nsAccEvent
+AccEvent
 *
 aEvent
 )
@@ -4100,7 +4100,7 @@ nsAccessibleWrap
 :
 FirePlatformEvent
 (
-nsAccEvent
+AccEvent
 *
 aEvent
 )
@@ -4297,12 +4297,12 @@ atkObj
 ;
 nsRefPtr
 <
-nsAccEvent
+AccEvent
 >
 stateChangeEvent
 =
 new
-nsAccStateChangeEvent
+AccStateChangeEvent
 (
 accessible
 nsIAccessibleStates
@@ -4469,7 +4469,7 @@ n
 )
 )
 ;
-nsAccCaretMoveEvent
+AccCaretMoveEvent
 *
 caretMoveEvent
 =
@@ -4626,7 +4626,7 @@ n
 )
 )
 ;
-nsAccTableChangeEvent
+AccTableChangeEvent
 *
 tableEvent
 =
@@ -4697,7 +4697,7 @@ n
 )
 )
 ;
-nsAccTableChangeEvent
+AccTableChangeEvent
 *
 tableEvent
 =
@@ -4802,7 +4802,7 @@ n
 )
 )
 ;
-nsAccTableChangeEvent
+AccTableChangeEvent
 *
 tableEvent
 =
@@ -4873,7 +4873,7 @@ n
 )
 )
 ;
-nsAccTableChangeEvent
+AccTableChangeEvent
 *
 tableEvent
 =
@@ -5390,7 +5390,7 @@ nsAccessibleWrap
 :
 FireAtkStateChangeEvent
 (
-nsAccEvent
+AccEvent
 *
 aEvent
 AtkObject
@@ -5414,7 +5414,7 @@ n
 )
 )
 ;
-nsAccStateChangeEvent
+AccStateChangeEvent
 *
 event
 =
@@ -5584,7 +5584,7 @@ nsAccessibleWrap
 :
 FireAtkTextChangedEvent
 (
-nsAccEvent
+AccEvent
 *
 aEvent
 AtkObject
@@ -5610,7 +5610,7 @@ n
 )
 )
 ;
-nsAccTextChangeEvent
+AccTextChangeEvent
 *
 event
 =
@@ -5718,7 +5718,7 @@ nsAccessibleWrap
 :
 FireAtkShowHideEvent
 (
-nsAccEvent
+AccEvent
 *
 aEvent
 AtkObject

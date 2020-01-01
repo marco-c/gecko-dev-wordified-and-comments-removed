@@ -147,7 +147,7 @@ pgui
 )
 ;
 class
-nsAccTextChangeEvent
+AccTextChangeEvent
 ;
 class
 nsAccessNodeWrap
@@ -543,7 +543,7 @@ PRBool
 gIsIA2Disabled
 ;
 static
-nsAccTextChangeEvent
+AccTextChangeEvent
 *
 gTextEvent
 ;

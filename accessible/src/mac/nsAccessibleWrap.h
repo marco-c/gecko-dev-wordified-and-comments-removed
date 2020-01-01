@@ -123,7 +123,7 @@ virtual
 nsresult
 HandleAccEvent
 (
-nsAccEvent
+AccEvent
 *
 aEvent
 )
@@ -197,7 +197,7 @@ virtual
 nsresult
 FirePlatformEvent
 (
-nsAccEvent
+AccEvent
 *
 aEvent
 )
