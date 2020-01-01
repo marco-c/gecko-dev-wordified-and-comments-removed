@@ -38568,9 +38568,7 @@ CXXFLAGS
 ICU_CXXFLAGS
 "
 \
-(
 SHELL
-)
 abs_srcdir
 /
 .
