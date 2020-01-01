@@ -173,6 +173,10 @@ nsIDOMDOMRequest
 .
 idl
 \
+nsIDOMDOMCursor
+.
+idl
+\
 nsIEntropyCollector
 .
 idl
@@ -324,6 +328,10 @@ DOMRequest
 .
 h
 \
+DOMCursor
+.
+h
+\
 StructuredCloneTags
 .
 h
@@ -447,6 +455,10 @@ DOMError
 cpp
 \
 DOMRequest
+.
+cpp
+\
+DOMCursor
 .
 cpp
 \
