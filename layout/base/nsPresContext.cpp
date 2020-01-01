@@ -6787,7 +6787,7 @@ if
 docV
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
