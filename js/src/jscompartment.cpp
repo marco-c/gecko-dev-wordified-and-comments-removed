@@ -777,6 +777,7 @@ runtime
 >
 preWrapObjectCallback
 )
+{
 obj
 =
 cx
@@ -801,6 +802,7 @@ obj
 return
 false
 ;
+}
 vp
 -
 >
@@ -838,6 +840,7 @@ runtime
 >
 preWrapObjectCallback
 )
+{
 obj
 =
 cx
@@ -854,6 +857,15 @@ obj
 flags
 )
 ;
+if
+(
+!
+obj
+)
+return
+false
+;
+}
 JS_ASSERT
 (
 !
