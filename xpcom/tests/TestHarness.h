@@ -60,6 +60,10 @@ stdarg
 .
 h
 >
+static
+PRBool
+gFailCount
+;
 void
 fail
 (
@@ -111,6 +115,10 @@ putchar
 n
 '
 )
+;
++
++
+gFailCount
 ;
 }
 void

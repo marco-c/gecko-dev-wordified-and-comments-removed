@@ -459,10 +459,6 @@ nsIFileEnumerator
 .
 cpp
 \
-nsIFileTest
-.
-cpp
-\
 TestCallTemplates
 .
 cpp
@@ -553,6 +549,10 @@ TestCOMPtrEq
 cpp
 \
 TestFactory
+.
+cpp
+\
+TestFile
 .
 cpp
 \
