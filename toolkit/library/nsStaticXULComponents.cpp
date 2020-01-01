@@ -129,7 +129,7 @@ nsWidgetOS2Module
 elif
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 #
 define
@@ -243,7 +243,7 @@ ifdef
 MOZ_PREF_EXTENSIONS
 #
 ifdef
-MOZ_ENABLE_GTK2
+MOZ_ENABLE_GTK
 #
 define
 SYSTEMPREF_MODULES
@@ -416,7 +416,7 @@ ifdef
 MOZ_XUL
 #
 ifdef
-MOZ_ENABLE_GTK2
+MOZ_ENABLE_GTK
 #
 define
 UNIXPROXY_MODULE

@@ -436,7 +436,7 @@ signum
 endif
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 #
 include
 <
@@ -450,7 +450,7 @@ endif
 if
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 &
 &
@@ -1528,7 +1528,7 @@ endif
 if
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 &
 &

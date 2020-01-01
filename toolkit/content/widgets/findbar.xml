@@ -1373,7 +1373,7 @@ flash
 >
 #
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 <
 xul
 :
@@ -1524,7 +1524,7 @@ findnextaccesskey
 >
 #
 ifndef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 <
 xul
 :

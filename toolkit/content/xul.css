@@ -628,7 +628,7 @@ button
 }
 %
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 button
 [
 label
@@ -2126,7 +2126,7 @@ item
 }
 %
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 media
 not
 all

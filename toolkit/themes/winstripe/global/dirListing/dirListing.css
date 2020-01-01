@@ -352,7 +352,7 @@ middle
 ;
 %
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 content
 :
 url
@@ -408,7 +408,7 @@ before
 {
 %
 ifdef
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 content
 :
 url
