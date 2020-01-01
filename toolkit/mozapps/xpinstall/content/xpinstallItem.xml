@@ -161,6 +161,11 @@ pack
 "
 center
 "
+class
+=
+"
+xpinstallIconContainer
+"
 >
 <
 xul
