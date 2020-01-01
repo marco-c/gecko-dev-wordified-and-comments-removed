@@ -261,6 +261,7 @@ DUI_show
 aWindowContext
 aID
 aReason
+aUsePrivateUI
 )
 {
 if
@@ -279,6 +280,7 @@ show
 aWindowContext
 aID
 aReason
+aUsePrivateUI
 )
 ;
 return
@@ -350,6 +352,7 @@ _showDownloadManagerUI
 aWindowContext
 aID
 aReason
+aUsePrivateUI
 )
 ;
 }
@@ -379,6 +382,7 @@ _showDownloadManagerUI
 aWindowContext
 aID
 aReason
+aUsePrivateUI
 )
 ;
 }
@@ -401,6 +405,7 @@ _showDownloadManagerUI
 aWindowContext
 aID
 aReason
+aUsePrivateUI
 )
 ;
 }
@@ -456,6 +461,7 @@ DUI_showDownloadManagerUI
 aWindowContext
 aID
 aReason
+aUsePrivateUI
 )
 {
 let
@@ -475,6 +481,13 @@ RecentWindow
 .
 getMostRecentBrowserWindow
 (
+{
+private
+:
+!
+!
+aUsePrivateUI
+}
 )
 ;
 if
