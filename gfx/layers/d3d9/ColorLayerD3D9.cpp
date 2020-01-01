@@ -103,6 +103,10 @@ opacity
 GetEffectiveOpacity
 (
 )
+*
+mColor
+.
+a
 ;
 color
 [
@@ -161,10 +165,6 @@ color
 float
 )
 (
-mColor
-.
-a
-*
 opacity
 )
 ;

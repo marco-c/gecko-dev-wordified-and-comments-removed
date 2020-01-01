@@ -76,6 +76,10 @@ opacity
 GetEffectiveOpacity
 (
 )
+*
+mColor
+.
+a
 ;
 color
 [
@@ -137,8 +141,6 @@ float
 mColor
 .
 a
-*
-opacity
 )
 ;
 const
