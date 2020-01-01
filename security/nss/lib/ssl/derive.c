@@ -3484,7 +3484,7 @@ ec_curve
 =
 ssl3_GetCurveWithECKeyStrength
 (
-ssl3_GetSupportedECCCurveMask
+ssl3_GetSupportedECCurveMask
 (
 NULL
 )
