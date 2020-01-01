@@ -1228,16 +1228,12 @@ regress
 n
 .
 js
-skip
 script
 regress
 -
 344804
 .
 js
-#
-bug
-524732
 script
 regress
 -
