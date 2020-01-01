@@ -2833,7 +2833,7 @@ title
 mGeckoAccessible
 -
 >
-GetName
+Name
 (
 title
 )

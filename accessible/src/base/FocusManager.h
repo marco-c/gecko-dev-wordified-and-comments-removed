@@ -625,7 +625,7 @@ name
 aAccessible
 -
 >
-GetName
+Name
 (
 name
 )
