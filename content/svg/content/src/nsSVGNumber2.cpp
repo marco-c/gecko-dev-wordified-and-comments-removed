@@ -31,6 +31,11 @@ NS_DECL_ISUPPORTS
 DOMSVGNumber
 (
 )
+:
+mVal
+(
+0
+)
 {
 }
 NS_IMETHOD
