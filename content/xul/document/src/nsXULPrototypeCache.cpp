@@ -872,8 +872,14 @@ PutScript
 nsIURI
 *
 aURI
+JS
+:
+:
+Handle
+<
 JSScript
 *
+>
 aScriptObject
 )
 {
