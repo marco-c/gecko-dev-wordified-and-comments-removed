@@ -9,7 +9,7 @@ file
 "
 :
 "
-binary_search
+code_binary_search
 .
 js
 "
@@ -25,7 +25,7 @@ sources
 :
 [
 "
-binary_search
+code_binary_search
 .
 coffee
 "

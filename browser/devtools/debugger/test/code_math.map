@@ -9,7 +9,7 @@ file
 "
 :
 "
-math
+code_math
 .
 min
 .
@@ -179,7 +179,7 @@ sources
 :
 [
 "
-math
+code_math
 .
 js
 "
