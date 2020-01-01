@@ -903,7 +903,7 @@ return
 ;
 if
 (
-IsDebugFD
+IsDebugFile
 (
 fd
 )
@@ -1040,6 +1040,17 @@ return
 namespace
 mozilla
 {
+intptr_t
+FileDescriptorToID
+(
+int
+aFd
+)
+{
+return
+aFd
+;
+}
 void
 PoisonWrite
 (
