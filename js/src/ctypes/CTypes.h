@@ -1346,7 +1346,7 @@ ImplicitConvert
 JSContext
 *
 cx
-jsval
+JSHandleValue
 val
 JSObject
 *

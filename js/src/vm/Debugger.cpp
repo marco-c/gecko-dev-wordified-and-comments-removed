@@ -24553,9 +24553,7 @@ rewrappedIds
 .
 append
 (
-jsid
-(
-)
+JSID_VOID
 )
 |
 |
