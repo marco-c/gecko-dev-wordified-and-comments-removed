@@ -429,6 +429,10 @@ LIBXUL_LIBRARY
 EXPORTS
 =
 \
+FileBlockCache
+.
+h
+\
 nsAudioAvailableEventManager
 .
 h
@@ -470,6 +474,10 @@ NULL
 )
 CPPSRCS
 =
+\
+FileBlockCache
+.
+cpp
 \
 nsAudioAvailableEventManager
 .
