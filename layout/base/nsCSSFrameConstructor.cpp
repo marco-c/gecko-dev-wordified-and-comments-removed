@@ -15511,7 +15511,6 @@ aStyleContext
 aNewFrame
 parentFrame
 scrollFrame
-aStyleContext
 )
 ;
 }
@@ -20431,10 +20430,6 @@ nsnull
 endif
 }
 }
-nsStyleContext
-*
-scrolledPseudoStyle
-;
 BuildScrollFrame
 (
 aState
@@ -20443,7 +20438,6 @@ aStyleContext
 scrolledFrame
 geometricParent
 scrollFrame
-scrolledPseudoStyle
 )
 ;
 if
@@ -24562,7 +24556,6 @@ aStyleContext
 newFrame
 aParentFrame
 topFrame
-aStyleContext
 )
 ;
 primaryFrameSet
@@ -25247,10 +25240,6 @@ nsIFrame
 *
 &
 aNewFrame
-nsStyleContext
-*
-&
-aScrolledContentStyle
 )
 {
 nsRefPtr
@@ -25295,10 +25284,6 @@ FinishBuildingScrollFrame
 aNewFrame
 aScrolledFrame
 )
-;
-aScrolledContentStyle
-=
-scrolledContentStyle
 ;
 aState
 .

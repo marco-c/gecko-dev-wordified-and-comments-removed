@@ -2176,10 +2176,6 @@ nsIFrame
 *
 &
 aNewFrame
-nsStyleContext
-*
-&
-aScrolledChildStyle
 )
 ;
 already_AddRefed
