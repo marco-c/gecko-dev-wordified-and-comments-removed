@@ -17661,6 +17661,7 @@ if
 (
 cx
 )
+{
 js
 :
 :
@@ -17678,6 +17679,7 @@ JS_DestroyContextNoGC
 cx
 )
 ;
+}
 }
 #
 endif
