@@ -127,11 +127,6 @@ void
 define
 ANDROID_LIBUI_PATH
 "
-/
-system
-/
-lib
-/
 libui
 .
 so
@@ -140,11 +135,6 @@ so
 define
 ANDROID_GLES_PATH
 "
-/
-system
-/
-lib
-/
 libGLESv2
 .
 so
@@ -153,11 +143,6 @@ so
 define
 ANDROID_EGL_PATH
 "
-/
-system
-/
-lib
-/
 libEGL
 .
 so

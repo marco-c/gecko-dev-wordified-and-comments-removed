@@ -658,11 +658,6 @@ handle
 dlopen
 (
 "
-/
-system
-/
-lib
-/
 libsurfaceflinger_client
 .
 so
@@ -745,11 +740,6 @@ handle
 dlopen
 (
 "
-/
-system
-/
-lib
-/
 libui
 .
 so

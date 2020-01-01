@@ -19,11 +19,6 @@ ctypes
 open
 (
 "
-/
-system
-/
-lib
-/
 libhardware_legacy
 .
 so
