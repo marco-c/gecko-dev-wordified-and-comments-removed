@@ -2669,12 +2669,6 @@ description
 -
 container
 {
-margin
--
-top
-:
-8px
-;
 -
 moz
 -
@@ -2773,6 +2767,10 @@ stretch
 ;
 }
 .
+advancedinfo
+-
+container
+.
 update
 -
 info
@@ -2789,10 +2787,6 @@ align
 center
 ;
 }
-.
-advancedinfo
--
-container
 .
 update
 -
