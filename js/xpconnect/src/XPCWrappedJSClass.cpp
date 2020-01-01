@@ -3878,8 +3878,11 @@ GetPendingResult
 (
 )
 ;
-jsval
+RootedValue
 js_exception
+(
+cx
+)
 ;
 JSBool
 is_js_exception
@@ -3887,8 +3890,11 @@ is_js_exception
 JS_GetPendingException
 (
 cx
-&
 js_exception
+.
+address
+(
+)
 )
 ;
 if
@@ -3906,6 +3912,7 @@ XPCConvert
 :
 JSValToXPCException
 (
+&
 js_exception
 anInterfaceName
 aPropertyName

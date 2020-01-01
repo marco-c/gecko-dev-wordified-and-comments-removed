@@ -69,8 +69,10 @@ AttachNewConstructorObject
 JSContext
 *
 aCx
-JSObject
-*
+JS
+:
+:
+HandleObject
 aGlobalObject
 )
 ;
