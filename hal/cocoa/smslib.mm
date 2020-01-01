@@ -2237,6 +2237,7 @@ we
 successfully
 started
 static
+unsigned
 int
 sensorNum
 =
