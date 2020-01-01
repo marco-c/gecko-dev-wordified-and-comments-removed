@@ -705,6 +705,14 @@ test_plugin_position
 .
 xhtml
 \
+test_selection_expanding
+.
+html
+\
+selection_expanding_xbl
+.
+xml
+\
 test_selection_underline
 .
 html
