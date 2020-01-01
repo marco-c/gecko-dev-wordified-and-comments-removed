@@ -906,13 +906,6 @@ BINPATH
 /
 components
 /
-dom_telephony
-.
-xpt
-BINPATH
-/
-components
-/
 dom_voicemail
 .
 xpt
@@ -1138,6 +1131,13 @@ BINPATH
 components
 /
 dom_stylesheets
+.
+xpt
+BINPATH
+/
+components
+/
+dom_telephony
 .
 xpt
 BINPATH
