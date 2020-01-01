@@ -275,3 +275,17 @@ include
 updater
 .
 js
+gPage
+.
+init
+(
+"
+#
+toolbar
+"
+"
+#
+grid
+"
+)
+;
