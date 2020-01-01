@@ -829,9 +829,6 @@ MESSAGE_TYPE_MMS
 break
 ;
 case
-eDeliveryState_Unknown
-:
-case
 eDeliveryState_EndGuard
 :
 default
