@@ -994,15 +994,6 @@ protected
 PRUint16
 mEnumVARIANTPosition
 ;
-static
-PRBool
-MustPrune
-(
-nsIAccessible
-*
-aAccessible
-)
-;
 enum
 navRelations
 {

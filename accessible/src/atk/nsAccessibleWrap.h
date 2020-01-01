@@ -221,15 +221,6 @@ get
 )
 ;
 }
-static
-PRBool
-MustPrune
-(
-nsIAccessible
-*
-aAccessible
-)
-;
 protected
 :
 nsresult

@@ -530,6 +530,15 @@ nsIDOMNode
 aNode
 )
 ;
+static
+PRBool
+MustPrune
+(
+nsIAccessible
+*
+aAccessible
+)
+;
 already_AddRefed
 <
 nsIAccessible
