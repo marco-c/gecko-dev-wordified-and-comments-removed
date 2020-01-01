@@ -531,6 +531,10 @@ browser_library_infoBox
 .
 js
 \
+browser_library_downloads
+.
+js
+\
 (
 NULL
 )
