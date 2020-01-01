@@ -9981,7 +9981,7 @@ dest
 ;
 \
 (
-PERL
+PYTHON
 )
 (
 topsrcdir
@@ -9989,9 +9989,9 @@ topsrcdir
 /
 config
 /
-preprocessor
+Preprocessor
 .
-pl
+py
 (
 PREF_PPFLAGS
 )
@@ -10092,7 +10092,7 @@ dest
 ;
 \
 (
-PERL
+PYTHON
 )
 (
 topsrcdir
@@ -10100,9 +10100,9 @@ topsrcdir
 /
 config
 /
-preprocessor
+Preprocessor
 .
-pl
+py
 (
 DEFINES
 )
@@ -11943,7 +11943,7 @@ dest
 ;
 \
 (
-PERL
+PYTHON
 )
 (
 topsrcdir
@@ -11951,9 +11951,9 @@ topsrcdir
 /
 config
 /
-preprocessor
+Preprocessor
 .
-pl
+py
 (
 DEFINES
 )
@@ -12013,7 +12013,7 @@ dest
 ;
 \
 (
-PERL
+PYTHON
 )
 (
 topsrcdir
@@ -12021,9 +12021,9 @@ topsrcdir
 /
 config
 /
-preprocessor
+Preprocessor
 .
-pl
+py
 (
 DEFINES
 )
@@ -12421,7 +12421,7 @@ fi
 ;
 \
 (
-PERL
+PYTHON
 )
 (
 MOZILLA_DIR
@@ -12429,9 +12429,9 @@ MOZILLA_DIR
 /
 config
 /
-preprocessor
+Preprocessor
 .
-pl
+py
 (
 XULPPFLAGS
 )
@@ -12616,7 +12616,7 @@ fi
 ;
 \
 (
-PERL
+PYTHON
 )
 (
 MOZILLA_DIR
@@ -12624,9 +12624,9 @@ MOZILLA_DIR
 /
 config
 /
-preprocessor
+Preprocessor
 .
-pl
+py
 (
 XULPPFLAGS
 )
@@ -12746,7 +12746,7 @@ dest
 ;
 \
 (
-PERL
+PYTHON
 )
 (
 MOZILLA_DIR
@@ -12754,9 +12754,9 @@ MOZILLA_DIR
 /
 config
 /
-preprocessor
+Preprocessor
 .
-pl
+py
 \
 (
 XULAPP_DEFINES
@@ -12828,7 +12828,7 @@ dest
 ;
 \
 (
-PERL
+PYTHON
 )
 (
 MOZILLA_DIR
@@ -12836,9 +12836,9 @@ MOZILLA_DIR
 /
 config
 /
-preprocessor
+Preprocessor
 .
-pl
+py
 \
 (
 XULAPP_DEFINES

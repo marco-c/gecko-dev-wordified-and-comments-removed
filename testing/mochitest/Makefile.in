@@ -650,7 +650,7 @@ pl
 .
 in
 (
-PERL
+PYTHON
 )
 (
 MOZILLA_DIR
@@ -658,9 +658,9 @@ MOZILLA_DIR
 /
 config
 /
-preprocessor
+Preprocessor
 .
-pl
+py
 \
 (
 TEST_DRIVER_PPARGS

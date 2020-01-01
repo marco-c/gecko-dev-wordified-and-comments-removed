@@ -4314,13 +4314,9 @@ DEFINES
 -
 DOSARCH
 =
-\
-"
 (
 OS_ARCH
 )
-\
-"
 #
 For
 profiling

@@ -956,7 +956,7 @@ css
 PREPROCESS_FORMS_CSS
 =
 (
-PERL
+PYTHON
 )
 (
 MOZILLA_DIR
@@ -964,9 +964,9 @@ MOZILLA_DIR
 /
 config
 /
-preprocessor
+Preprocessor
 .
-pl
+py
 -
 -
 marker

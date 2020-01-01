@@ -457,7 +457,7 @@ libs
 :
 :
 (
-PERL
+PYTHON
 )
 (
 topsrcdir
@@ -465,9 +465,9 @@ topsrcdir
 /
 config
 /
-preprocessor
+Preprocessor
 .
-pl
+py
 (
 DEFINES
 )
@@ -494,7 +494,7 @@ install
 :
 :
 (
-PERL
+PYTHON
 )
 (
 topsrcdir
@@ -502,9 +502,9 @@ topsrcdir
 /
 config
 /
-preprocessor
+Preprocessor
 .
-pl
+py
 (
 DEFINES
 )
