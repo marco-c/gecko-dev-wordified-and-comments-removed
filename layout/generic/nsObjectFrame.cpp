@@ -15145,8 +15145,14 @@ if
 mWaitingForPaint
 &
 &
+(
+!
+mObjectFrame
+|
+|
 IsUpToDate
 (
+)
 )
 )
 {
