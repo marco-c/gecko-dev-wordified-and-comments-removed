@@ -7,13 +7,6 @@ nsHtml5HtmlAttributes_h__
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsIAtom
 .
 h

@@ -4,13 +4,6 @@ nsHtml5ElementName_cpp__
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsIAtom
 .
 h

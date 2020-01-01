@@ -7,13 +7,6 @@ nsHtml5UTF16Buffer_h__
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsIAtom
 .
 h

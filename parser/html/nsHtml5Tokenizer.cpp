@@ -4,13 +4,6 @@ nsHtml5Tokenizer_cpp__
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsIAtom
 .
 h

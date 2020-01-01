@@ -7,13 +7,6 @@ nsHtml5Tokenizer_h__
 #
 include
 "
-prtypes
-.
-h
-"
-#
-include
-"
 nsIAtom
 .
 h
