@@ -29714,9 +29714,6 @@ true
 )
 )
 {
-bool
-foundBorderImageWidth
-=
 ParseBorderImageWidth
 (
 false
@@ -29746,17 +29743,6 @@ return
 false
 ;
 }
-}
-else
-if
-(
-!
-foundBorderImageWidth
-)
-{
-return
-false
-;
 }
 }
 continue
