@@ -3443,10 +3443,6 @@ CheckIceState
 (
 )
 ;
-mRole
-=
-kRoleOfferer
-;
 MediaConstraints
 *
 cs
@@ -3497,6 +3493,10 @@ MediaConstraints
 constraints
 )
 {
+mRole
+=
+kRoleOfferer
+;
 cc_media_constraints_t
 *
 cc_constraints
@@ -3545,10 +3545,6 @@ CheckIceState
 (
 )
 ;
-mRole
-=
-kRoleAnswerer
-;
 MediaConstraints
 *
 cs
@@ -3601,6 +3597,10 @@ MediaConstraints
 constraints
 )
 {
+mRole
+=
+kRoleAnswerer
+;
 cc_media_constraints_t
 *
 cc_constraints
