@@ -971,9 +971,9 @@ true
 datasources
 =
 "
-animals
-.
 rdf
+:
+null
 "
 sort
 =

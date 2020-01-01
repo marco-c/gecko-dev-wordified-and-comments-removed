@@ -1204,9 +1204,9 @@ root
 datasources
 =
 "
-animals
-.
 rdf
+:
+null
 "
 ref
 =

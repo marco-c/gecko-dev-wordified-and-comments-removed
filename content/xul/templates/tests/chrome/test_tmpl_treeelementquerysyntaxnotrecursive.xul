@@ -1118,9 +1118,9 @@ true
 datasources
 =
 "
-animals
-.
 rdf
+:
+null
 "
 ref
 =

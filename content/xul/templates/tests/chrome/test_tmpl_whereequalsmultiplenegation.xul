@@ -1185,9 +1185,9 @@ logging
 datasources
 =
 "
-animals
-.
 rdf
+:
+null
 "
 ref
 =

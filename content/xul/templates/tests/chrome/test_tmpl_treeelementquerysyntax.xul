@@ -1260,9 +1260,9 @@ true
 datasources
 =
 "
-animals
-.
 rdf
+:
+null
 "
 flags
 =
