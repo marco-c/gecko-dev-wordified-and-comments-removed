@@ -84,6 +84,10 @@ inSuperSubscripts
 u2C7C
 \
 u2C7D
+\
+u2095
+\
+u209C
 "
 ;
 const
@@ -179,6 +183,14 @@ j
 ^
 (
 V
+)
+v
+(
+h
+)
+v
+(
+t
 )
 "
 ;
