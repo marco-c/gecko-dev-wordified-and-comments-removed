@@ -1127,6 +1127,12 @@ eCursorable
 <
 <
 1
+eTabDocument
+=
+1
+<
+<
+2
 }
 ;
 AccessibleHashtable
