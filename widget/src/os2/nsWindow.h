@@ -47,6 +47,9 @@ gfxContext
 h
 "
 class
+nsIMenuBar
+;
+class
 imgIContainer
 ;
 #
