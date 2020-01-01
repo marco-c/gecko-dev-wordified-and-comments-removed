@@ -98,6 +98,9 @@ random
 if
 (
 cocoaWidget
+|
+|
+d2d
 )
 =
 =
@@ -120,6 +123,8 @@ xhtml
 #
 bug
 470868
+bug
+585484
 =
 =
 deferred
