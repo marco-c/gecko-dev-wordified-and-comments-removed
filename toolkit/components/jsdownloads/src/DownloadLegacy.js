@@ -779,6 +779,13 @@ reportError
 )
 ;
 }
+setSha256Hash
+:
+function
+(
+)
+{
+}
 _deferDownload
 :
 null
