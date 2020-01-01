@@ -1236,6 +1236,9 @@ aFloatStateBeforeLine
 nsRect
 &
 aFloatAvailableSpace
+nscoord
+&
+aAvailableSpaceHeight
 PRBool
 *
 aKeepReflowGoing
@@ -1333,6 +1336,9 @@ aLine
 nsFlowAreaRect
 &
 aFloatAvailableSpace
+nscoord
+&
+aAvailableSpaceHeight
 nsFloatManager
 :
 :
