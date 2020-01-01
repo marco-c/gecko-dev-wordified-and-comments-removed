@@ -179,6 +179,7 @@ ScrollMode
 {
 INSTANT
 SMOOTH
+NORMAL
 }
 ;
 virtual
