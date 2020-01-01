@@ -34591,7 +34591,7 @@ op
 JSOP_THROW
 ;
 bool
-isHiddenGoto
+isConditionalCatchExit
 =
 false
 ;
@@ -34609,7 +34609,7 @@ sn
 SRC_HIDDEN
 )
 {
-isHiddenGoto
+isConditionalCatchExit
 =
 op
 =
@@ -34888,7 +34888,7 @@ hpcdepth
 if
 (
 !
-isHiddenGoto
+isConditionalCatchExit
 )
 hpcdepth
 =
