@@ -300,9 +300,6 @@ baseURIObject
 nodePrincipal
 "
 "
-documentURIObject
-"
-"
 mozMatchesSelector
 "
 }
