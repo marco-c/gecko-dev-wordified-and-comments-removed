@@ -291,6 +291,16 @@ arrayExpression
 )
 ASTDEF
 (
+AST_SPREAD_EXPR
+"
+SpreadExpression
+"
+"
+spreadExpression
+"
+)
+ASTDEF
+(
 AST_OBJECT_EXPR
 "
 ObjectExpression
