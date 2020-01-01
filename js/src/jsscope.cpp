@@ -5275,7 +5275,7 @@ cx
 )
 )
 return
-false
+NULL
 ;
 oldShape
 =
@@ -5319,7 +5319,7 @@ if
 newShape
 )
 return
-false
+NULL
 ;
 new
 (
