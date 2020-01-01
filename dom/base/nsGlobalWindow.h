@@ -2778,6 +2778,15 @@ bool
 aValue
 )
 ;
+nsresult
+SetApp
+(
+const
+nsAString
+&
+aManifestURL
+)
+;
 bool
 mIsFrozen
 :
