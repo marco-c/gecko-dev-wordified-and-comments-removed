@@ -424,9 +424,9 @@ varobj
 js
 :
 :
-CallStackSegment
+StackSegment
 *
-css
+seg
 )
 const
 ;
