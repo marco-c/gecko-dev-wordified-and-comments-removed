@@ -457,6 +457,8 @@ hunspell
 DIRS
 =
 src
+ifdef
+ENABLE_TESTS
 XPCSHELL_TESTS
 =
 tests
@@ -541,6 +543,7 @@ unit
 data
 /
 )
+endif
 include
 (
 topsrcdir
