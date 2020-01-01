@@ -2800,7 +2800,7 @@ nsIDOMNode
 inNode
 )
 ;
-nsINode
+nsIContent
 *
 GetPriorHTMLSibling
 (
@@ -2823,7 +2823,7 @@ nsIDOMNode
 outNode
 )
 ;
-nsINode
+nsIContent
 *
 GetPriorHTMLSibling
 (
@@ -2850,7 +2850,7 @@ nsIDOMNode
 outNode
 )
 ;
-nsINode
+nsIContent
 *
 GetNextHTMLSibling
 (
@@ -2873,7 +2873,7 @@ nsIDOMNode
 outNode
 )
 ;
-nsINode
+nsIContent
 *
 GetNextHTMLSibling
 (

@@ -18285,7 +18285,7 @@ inNode
 )
 ;
 }
-nsINode
+nsIContent
 *
 nsHTMLEditor
 :
@@ -18399,7 +18399,7 @@ return
 NS_OK
 ;
 }
-nsINode
+nsIContent
 *
 nsHTMLEditor
 :
@@ -18518,7 +18518,7 @@ return
 NS_OK
 ;
 }
-nsINode
+nsIContent
 *
 nsHTMLEditor
 :
@@ -18632,7 +18632,7 @@ return
 NS_OK
 ;
 }
-nsINode
+nsIContent
 *
 nsHTMLEditor
 :
