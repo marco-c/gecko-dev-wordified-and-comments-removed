@@ -554,7 +554,7 @@ this
 .
 _log
 .
-warn
+trace
 (
 "
 No
@@ -700,7 +700,7 @@ this
 .
 _log
 .
-warn
+trace
 (
 "
 Can
@@ -735,7 +735,7 @@ this
 .
 _log
 .
-warn
+trace
 (
 "
 Can
