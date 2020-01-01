@@ -1199,10 +1199,6 @@ App
 .
 java
 \
-MarketplaceApp
-.
-java
-\
 WebApp
 .
 java
@@ -1216,10 +1212,6 @@ GeckoActivity
 java
 \
 GeckoAppInfo
-.
-java
-\
-LauncherShortcuts
 .
 java
 \
