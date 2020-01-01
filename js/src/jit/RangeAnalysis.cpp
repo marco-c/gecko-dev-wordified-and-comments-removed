@@ -6918,6 +6918,17 @@ iterationBound
 iter
 )
 ;
+if
+(
+!
+mir
+-
+>
+compilingAsmJS
+(
+)
+)
+{
 Vector
 <
 MBoundsCheck
@@ -7096,6 +7107,7 @@ discard
 ins
 )
 ;
+}
 }
 graph_
 .
