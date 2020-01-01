@@ -175,7 +175,7 @@ include
 "
 frontend
 /
-BytecodeGenerator
+BytecodeEmitter
 .
 h
 "
@@ -8110,9 +8110,9 @@ DefineGlobal
 ParseNode
 *
 pn
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 PropertyName
 *
 name
@@ -9922,7 +9922,7 @@ pn
 outertc
 -
 >
-asCodeGenerator
+asBytecodeEmitter
 (
 )
 funName
@@ -11250,9 +11250,9 @@ DefineGlobal
 ParseNode
 *
 pn
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 PropertyName
 *
 name
@@ -11262,7 +11262,7 @@ GlobalScope
 *
 globalScope
 =
-cg
+bce
 -
 >
 compiler
@@ -11284,7 +11284,7 @@ globalObj
 if
 (
 !
-cg
+bce
 -
 >
 compileAndGo
@@ -11296,7 +11296,7 @@ compileAndGo
 globalObj
 |
 |
-cg
+bce
 -
 >
 compilingForEval
@@ -11329,7 +11329,7 @@ JSContext
 *
 cx
 =
-cg
+bce
 -
 >
 parser
@@ -11710,7 +11710,7 @@ pn
 tc
 -
 >
-asCodeGenerator
+asBytecodeEmitter
 (
 )
 pn

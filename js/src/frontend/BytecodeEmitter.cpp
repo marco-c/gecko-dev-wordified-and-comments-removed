@@ -150,7 +150,7 @@ include
 "
 frontend
 /
-BytecodeGenerator
+BytecodeEmitter
 .
 h
 "
@@ -312,9 +312,9 @@ NewTryNote
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSTryNoteKind
 kind
 uintN
@@ -336,9 +336,9 @@ JSOp
 op
 uintN
 index
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSOp
 *
 psuffix
@@ -353,9 +353,9 @@ EmitLeaveBlock
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSOp
 op
 ObjectBox
@@ -370,9 +370,9 @@ SetSrcNoteOffset
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 uintN
 index
 uintN
@@ -400,10 +400,10 @@ trc
 )
 ;
 }
-CodeGenerator
+BytecodeEmitter
 :
 :
-CodeGenerator
+BytecodeEmitter
 (
 Parser
 *
@@ -577,7 +577,7 @@ lineno
 ;
 }
 bool
-CodeGenerator
+BytecodeEmitter
 :
 :
 init
@@ -624,11 +624,11 @@ cx
 )
 ;
 }
-CodeGenerator
+BytecodeEmitter
 :
 :
 ~
-CodeGenerator
+BytecodeEmitter
 (
 )
 {
@@ -701,9 +701,9 @@ EmitCheck
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ptrdiff_t
 delta
 )
@@ -714,7 +714,7 @@ base
 =
 CG_BASE
 (
-cg
+bce
 )
 ;
 jsbytecode
@@ -727,7 +727,7 @@ next
 =
 CG_NEXT
 (
-cg
+bce
 )
 ;
 jsbytecode
@@ -736,7 +736,7 @@ limit
 =
 CG_LIMIT
 (
-cg
+bce
 )
 ;
 ptrdiff_t
@@ -905,14 +905,14 @@ delta
 ;
 CG_BASE
 (
-cg
+bce
 )
 =
 newbase
 ;
 CG_LIMIT
 (
-cg
+bce
 )
 =
 newbase
@@ -921,7 +921,7 @@ newlength
 ;
 CG_NEXT
 (
-cg
+bce
 )
 =
 newbase
@@ -940,9 +940,9 @@ UpdateDepth
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ptrdiff_t
 target
 )
@@ -970,7 +970,7 @@ pc
 =
 CG_CODE
 (
-cg
+bce
 target
 )
 ;
@@ -1029,7 +1029,7 @@ depth
 (
 uintN
 )
-cg
+bce
 -
 >
 stackDepth
@@ -1054,12 +1054,12 @@ if
 (
 depth
 >
-cg
+bce
 -
 >
 maxStackDepth
 )
-cg
+bce
 -
 >
 maxStackDepth
@@ -1076,7 +1076,7 @@ op
 pc
 )
 ;
-cg
+bce
 -
 >
 stackDepth
@@ -1086,7 +1086,7 @@ nuses
 ;
 JS_ASSERT
 (
-cg
+bce
 -
 >
 stackDepth
@@ -1097,7 +1097,7 @@ stackDepth
 ;
 if
 (
-cg
+bce
 -
 >
 stackDepth
@@ -1130,7 +1130,7 @@ target
 ts
 =
 &
-cg
+bce
 -
 >
 parser
@@ -1202,7 +1202,7 @@ nuses
 ;
 blockObj
 =
-cg
+bce
 -
 >
 objectList
@@ -1241,7 +1241,7 @@ OBJ_SET_BLOCK_DEPTH
 (
 cx
 blockObj
-cg
+bce
 -
 >
 stackDepth
@@ -1256,7 +1256,7 @@ blockObj
 )
 ;
 }
-cg
+bce
 -
 >
 stackDepth
@@ -1269,22 +1269,22 @@ if
 (
 uintN
 )
-cg
+bce
 -
 >
 stackDepth
 >
-cg
+bce
 -
 >
 maxStackDepth
 )
-cg
+bce
 -
 >
 maxStackDepth
 =
-cg
+bce
 -
 >
 stackDepth
@@ -1295,9 +1295,9 @@ inline
 void
 UpdateDecomposeLength
 (
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 uintN
 start
 )
@@ -1307,7 +1307,7 @@ end
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 JS_ASSERT
@@ -1324,7 +1324,7 @@ start
 ;
 CG_CODE
 (
-cg
+bce
 start
 )
 [
@@ -1346,9 +1346,9 @@ Emit1
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSOp
 op
 )
@@ -1359,7 +1359,7 @@ offset
 EmitCheck
 (
 cx
-cg
+bce
 1
 )
 ;
@@ -1374,7 +1374,7 @@ offset
 *
 CG_NEXT
 (
-cg
+bce
 )
 +
 +
@@ -1387,7 +1387,7 @@ op
 UpdateDepth
 (
 cx
-cg
+bce
 offset
 )
 ;
@@ -1405,9 +1405,9 @@ Emit2
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSOp
 op
 jsbytecode
@@ -1420,7 +1420,7 @@ offset
 EmitCheck
 (
 cx
-cg
+bce
 2
 )
 ;
@@ -1438,7 +1438,7 @@ next
 =
 CG_NEXT
 (
-cg
+bce
 )
 ;
 next
@@ -1460,7 +1460,7 @@ op1
 ;
 CG_NEXT
 (
-cg
+bce
 )
 =
 next
@@ -1470,7 +1470,7 @@ next
 UpdateDepth
 (
 cx
-cg
+bce
 offset
 )
 ;
@@ -1488,9 +1488,9 @@ Emit3
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSOp
 op
 jsbytecode
@@ -1505,7 +1505,7 @@ offset
 EmitCheck
 (
 cx
-cg
+bce
 3
 )
 ;
@@ -1523,7 +1523,7 @@ next
 =
 CG_NEXT
 (
-cg
+bce
 )
 ;
 next
@@ -1552,7 +1552,7 @@ op2
 ;
 CG_NEXT
 (
-cg
+bce
 )
 =
 next
@@ -1562,7 +1562,7 @@ next
 UpdateDepth
 (
 cx
-cg
+bce
 offset
 )
 ;
@@ -1580,9 +1580,9 @@ Emit5
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSOp
 op
 uint16
@@ -1597,7 +1597,7 @@ offset
 EmitCheck
 (
 cx
-cg
+bce
 5
 )
 ;
@@ -1615,7 +1615,7 @@ next
 =
 CG_NEXT
 (
-cg
+bce
 )
 ;
 next
@@ -1670,7 +1670,7 @@ op2
 ;
 CG_NEXT
 (
-cg
+bce
 )
 =
 next
@@ -1680,7 +1680,7 @@ next
 UpdateDepth
 (
 cx
-cg
+bce
 offset
 )
 ;
@@ -1698,9 +1698,9 @@ EmitN
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSOp
 op
 size_t
@@ -1723,7 +1723,7 @@ offset
 EmitCheck
 (
 cx
-cg
+bce
 length
 )
 ;
@@ -1741,7 +1741,7 @@ next
 =
 CG_NEXT
 (
-cg
+bce
 )
 ;
 *
@@ -1766,7 +1766,7 @@ extra
 ;
 CG_NEXT
 (
-cg
+bce
 )
 =
 next
@@ -1788,7 +1788,7 @@ nuses
 UpdateDepth
 (
 cx
-cg
+bce
 offset
 )
 ;
@@ -1909,15 +1909,15 @@ char
 *
 StatementName
 (
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 {
 if
 (
 !
-cg
+bce
 -
 >
 topStmt
@@ -1928,7 +1928,7 @@ js_script_str
 return
 statementName
 [
-cg
+bce
 -
 >
 topStmt
@@ -1945,9 +1945,9 @@ ReportStatementTooLarge
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 {
 JS_ReportErrorNumber
@@ -1958,7 +1958,7 @@ NULL
 JSMSG_NEED_DIET
 StatementName
 (
-cg
+bce
 )
 )
 ;
@@ -2314,9 +2314,9 @@ JSContext
 *
 cx
 ;
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ;
 ptrdiff_t
 offset
@@ -2353,18 +2353,18 @@ if
 jt
 )
 {
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 =
 args
 -
 >
-cg
+bce
 ;
 jt
 =
-cg
+bce
 -
 >
 jtFreeList
@@ -2374,7 +2374,7 @@ if
 jt
 )
 {
-cg
+bce
 -
 >
 jtFreeList
@@ -2463,7 +2463,7 @@ JT_RIGHT
 =
 NULL
 ;
-cg
+bce
 -
 >
 numJumpTargets
@@ -2701,9 +2701,9 @@ SetSpanDepTarget
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 SpanDep
 *
 sd
@@ -2729,7 +2729,7 @@ off
 ReportStatementTooLarge
 (
 cx
-cg
+bce
 )
 ;
 return
@@ -2744,9 +2744,9 @@ cx
 ;
 args
 .
-cg
+bce
 =
-cg
+bce
 ;
 args
 .
@@ -2770,7 +2770,7 @@ AddJumpTarget
 &
 args
 &
-cg
+bce
 -
 >
 jumpTargets
@@ -2791,7 +2791,7 @@ ifdef
 DEBUG_brendan
 AVLCheck
 (
-cg
+bce
 -
 >
 jumpTargets
@@ -2848,9 +2848,9 @@ AddSpanDep
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 jsbytecode
 *
 pc
@@ -2864,7 +2864,7 @@ off
 uintN
 index
 =
-cg
+bce
 -
 >
 numSpanDeps
@@ -2882,7 +2882,7 @@ index
 ReportStatementTooLarge
 (
 cx
-cg
+bce
 )
 ;
 return
@@ -2914,7 +2914,7 @@ index
 (
 sdbase
 =
-cg
+bce
 -
 >
 spanDeps
@@ -2967,7 +2967,7 @@ sdbase
 return
 JS_FALSE
 ;
-cg
+bce
 -
 >
 spanDeps
@@ -2975,7 +2975,7 @@ spanDeps
 sdbase
 ;
 }
-cg
+bce
 -
 >
 numSpanDeps
@@ -2988,7 +2988,7 @@ SpanDep
 *
 sd
 =
-cg
+bce
 -
 >
 spanDeps
@@ -3004,7 +3004,7 @@ pc
 -
 CG_BASE
 (
-cg
+bce
 )
 ;
 sd
@@ -3021,7 +3021,7 @@ pc2
 -
 CG_BASE
 (
-cg
+bce
 )
 ;
 if
@@ -3065,7 +3065,7 @@ BPDELTA_MAX
 ReportStatementTooLarge
 (
 cx
-cg
+bce
 )
 ;
 return
@@ -3104,7 +3104,7 @@ if
 SetSpanDepTarget
 (
 cx
-cg
+bce
 sd
 off
 )
@@ -3141,9 +3141,9 @@ AddSwitchSpanDeps
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 jsbytecode
 *
 pc
@@ -3206,7 +3206,7 @@ if
 AddSpanDep
 (
 cx
-cg
+bce
 pc
 pc2
 off
@@ -3316,7 +3316,7 @@ if
 AddSpanDep
 (
 cx
-cg
+bce
 pc
 pc2
 off
@@ -3344,9 +3344,9 @@ BuildSpanDepTable
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 {
 jsbytecode
@@ -3370,10 +3370,10 @@ pc
 =
 CG_BASE
 (
-cg
+bce
 )
 +
-cg
+bce
 -
 >
 spanDepTodo
@@ -3382,7 +3382,7 @@ end
 =
 CG_NEXT
 (
-cg
+bce
 )
 ;
 while
@@ -3438,7 +3438,7 @@ pc
 AddSwitchSpanDeps
 (
 cx
-cg
+bce
 pc
 )
 ;
@@ -3468,7 +3468,7 @@ if
 AddSpanDep
 (
 cx
-cg
+bce
 pc
 pc
 off
@@ -3500,9 +3500,9 @@ SpanDep
 *
 GetSpanDep
 (
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 jsbytecode
 *
 pc
@@ -3538,7 +3538,7 @@ index
 SPANDEP_INDEX_HUGE
 )
 return
-cg
+bce
 -
 >
 spanDeps
@@ -3551,7 +3551,7 @@ pc
 -
 CG_BASE
 (
-cg
+bce
 )
 ;
 lo
@@ -3560,7 +3560,7 @@ lo
 ;
 hi
 =
-cg
+bce
 -
 >
 numSpanDeps
@@ -3587,7 +3587,7 @@ hi
 ;
 sd
 =
-cg
+bce
 -
 >
 spanDeps
@@ -3646,9 +3646,9 @@ SetBackPatchDelta
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 jsbytecode
 *
 pc
@@ -3673,7 +3673,7 @@ JUMP_OFFSET_LEN
 if
 (
 !
-cg
+bce
 -
 >
 spanDeps
@@ -3704,7 +3704,7 @@ BPDELTA_MAX
 ReportStatementTooLarge
 (
 cx
-cg
+bce
 )
 ;
 return
@@ -3714,7 +3714,7 @@ JS_FALSE
 if
 (
 !
-cg
+bce
 -
 >
 spanDeps
@@ -3724,7 +3724,7 @@ spanDeps
 BuildSpanDepTable
 (
 cx
-cg
+bce
 )
 )
 return
@@ -3734,7 +3734,7 @@ sd
 =
 GetSpanDep
 (
-cg
+bce
 pc
 )
 ;
@@ -3843,9 +3843,9 @@ SpanDep
 *
 FindNearestSpanDep
 (
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ptrdiff_t
 offset
 int
@@ -3858,7 +3858,7 @@ guard
 int
 num
 =
-cg
+bce
 -
 >
 numSpanDeps
@@ -3881,7 +3881,7 @@ SpanDep
 *
 sdbase
 =
-cg
+bce
 -
 >
 spanDeps
@@ -4005,9 +4005,9 @@ static
 void
 FreeJumpTargets
 (
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JumpTarget
 *
 jt
@@ -4025,7 +4025,7 @@ JT_LEFT
 )
 FreeJumpTargets
 (
-cg
+bce
 jt
 -
 >
@@ -4047,7 +4047,7 @@ JT_RIGHT
 )
 FreeJumpTargets
 (
-cg
+bce
 jt
 -
 >
@@ -4065,12 +4065,12 @@ kids
 JT_LEFT
 ]
 =
-cg
+bce
 -
 >
 jtFreeList
 ;
-cg
+bce
 -
 >
 jtFreeList
@@ -4085,9 +4085,9 @@ OptimizeSpanDeps
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 {
 jsbytecode
@@ -4165,12 +4165,12 @@ base
 =
 CG_BASE
 (
-cg
+bce
 )
 ;
 sdbase
 =
-cg
+bce
 -
 >
 spanDeps
@@ -4179,7 +4179,7 @@ sdlimit
 =
 sdbase
 +
-cg
+bce
 -
 >
 numSpanDeps
@@ -4188,7 +4188,7 @@ offset
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 growth
@@ -4502,7 +4502,7 @@ default
 ReportStatementTooLarge
 (
 cx
-cg
+bce
 )
 ;
 return
@@ -4585,7 +4585,7 @@ JUMP_OFFSET_LEN
 ;
 UpdateJumpTargets
 (
-cg
+bce
 -
 >
 jumpTargets
@@ -4633,7 +4633,7 @@ TokenStream
 ts
 =
 &
-cg
+bce
 -
 >
 parser
@@ -4687,7 +4687,7 @@ filename
 "
 stdin
 "
-cg
+bce
 -
 >
 firstLine
@@ -4698,7 +4698,7 @@ JUMPX_OFFSET_LEN
 -
 JUMP_OFFSET_LEN
 )
-cg
+bce
 -
 >
 numSpanDeps
@@ -4716,7 +4716,7 @@ limit
 =
 CG_LIMIT
 (
-cg
+bce
 )
 ;
 length
@@ -4773,14 +4773,14 @@ JS_FALSE
 }
 CG_BASE
 (
-cg
+bce
 )
 =
 base
 ;
 CG_LIMIT
 (
-cg
+bce
 )
 =
 next
@@ -4792,7 +4792,7 @@ length
 }
 CG_NEXT
 (
-cg
+bce
 )
 =
 next
@@ -5081,7 +5081,7 @@ for
 (
 sn
 =
-cg
+bce
 -
 >
 main
@@ -5091,7 +5091,7 @@ snlimit
 =
 sn
 +
-cg
+bce
 -
 >
 main
@@ -5189,7 +5189,7 @@ sn
 AddToSrcNoteDelta
 (
 cx
-cg
+bce
 sn
 delta
 )
@@ -5204,14 +5204,14 @@ JS_FALSE
 ;
 snlimit
 =
-cg
+bce
 -
 >
 main
 .
 notes
 +
-cg
+bce
 -
 >
 main
@@ -5311,7 +5311,7 @@ sd2
 =
 FindNearestSpanDep
 (
-cg
+bce
 target
 (
 target
@@ -5364,7 +5364,7 @@ noteIndex
 =
 sn
 -
-cg
+bce
 -
 >
 main
@@ -5377,7 +5377,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 noteIndex
 i
 span
@@ -5388,7 +5388,7 @@ JS_FALSE
 ;
 sn
 =
-cg
+bce
 -
 >
 main
@@ -5399,14 +5399,14 @@ noteIndex
 ;
 snlimit
 =
-cg
+bce
 -
 >
 main
 .
 notes
 +
-cg
+bce
 -
 >
 main
@@ -5416,7 +5416,7 @@ noteCount
 }
 }
 }
-cg
+bce
 -
 >
 main
@@ -5430,7 +5430,7 @@ for
 (
 tryNode
 =
-cg
+bce
 -
 >
 lastTryNode
@@ -5458,7 +5458,7 @@ sd
 =
 FindNearestSpanDep
 (
-cg
+bce
 offset
 0
 &
@@ -5501,7 +5501,7 @@ sd2
 =
 FindNearestSpanDep
 (
-cg
+bce
 offset
 +
 length
@@ -5797,13 +5797,13 @@ cx
 >
 free_
 (
-cg
+bce
 -
 >
 spanDeps
 )
 ;
-cg
+bce
 -
 >
 spanDeps
@@ -5812,40 +5812,40 @@ NULL
 ;
 FreeJumpTargets
 (
-cg
-cg
+bce
+bce
 -
 >
 jumpTargets
 )
 ;
-cg
+bce
 -
 >
 jumpTargets
 =
 NULL
 ;
-cg
+bce
 -
 >
 numSpanDeps
 =
-cg
+bce
 -
 >
 numJumpTargets
 =
 0
 ;
-cg
+bce
 -
 >
 spanDepTodo
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 return
@@ -5859,9 +5859,9 @@ EmitJump
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSOp
 op
 ptrdiff_t
@@ -5895,7 +5895,7 @@ extend
 &
 &
 !
-cg
+bce
 -
 >
 spanDeps
@@ -5905,7 +5905,7 @@ spanDeps
 BuildSpanDepTable
 (
 cx
-cg
+bce
 )
 )
 return
@@ -5917,7 +5917,7 @@ jmp
 Emit3
 (
 cx
-cg
+bce
 op
 JUMP_OFFSET_HI
 (
@@ -5941,7 +5941,7 @@ jmp
 extend
 |
 |
-cg
+bce
 -
 >
 spanDeps
@@ -5952,7 +5952,7 @@ pc
 =
 CG_CODE
 (
-cg
+bce
 jmp
 )
 ;
@@ -5962,7 +5962,7 @@ if
 AddSpanDep
 (
 cx
-cg
+bce
 pc
 pc
 off
@@ -5981,9 +5981,9 @@ static
 ptrdiff_t
 GetJumpOffset
 (
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 jsbytecode
 *
 pc
@@ -5992,7 +5992,7 @@ pc
 if
 (
 !
-cg
+bce
 -
 >
 spanDeps
@@ -6009,7 +6009,7 @@ sd
 =
 GetSpanDep
 (
-cg
+bce
 pc
 )
 ;
@@ -6051,7 +6051,7 @@ while
 sd
 >
 =
-cg
+bce
 -
 >
 spanDeps
@@ -6095,9 +6095,9 @@ SetJumpOffset
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 jsbytecode
 *
 pc
@@ -6108,7 +6108,7 @@ off
 if
 (
 !
-cg
+bce
 -
 >
 spanDeps
@@ -6144,7 +6144,7 @@ if
 BuildSpanDepTable
 (
 cx
-cg
+bce
 )
 )
 return
@@ -6155,10 +6155,10 @@ return
 SetSpanDepTarget
 (
 cx
-cg
+bce
 GetSpanDep
 (
-cg
+bce
 pc
 )
 off
@@ -6769,9 +6769,9 @@ EmitBackPatchOp
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSOp
 op
 ptrdiff_t
@@ -6787,7 +6787,7 @@ offset
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 delta
@@ -6813,7 +6813,7 @@ return
 EmitJump
 (
 cx
-cg
+bce
 op
 delta
 )
@@ -6824,7 +6824,7 @@ define
 UPDATE_LINE_NUMBER_NOTES
 (
 cx
-cg
+bce
 line
 )
 \
@@ -6845,7 +6845,7 @@ line_
 -
 CG_CURRENT_LINE
 (
-cg
+bce
 )
 ;
 \
@@ -6961,7 +6961,7 @@ SRC_SETLINE
 \
 CG_CURRENT_LINE
 (
-cg
+bce
 )
 =
 line_
@@ -6997,7 +6997,7 @@ if
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_SETLINE
 (
 ptrdiff_t
@@ -7024,7 +7024,7 @@ if
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_NEWLINE
 )
 <
@@ -7059,9 +7059,9 @@ UpdateLineNumberNotes
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 uintN
 line
 )
@@ -7069,7 +7069,7 @@ line
 UPDATE_LINE_NUMBER_NOTES
 (
 cx
-cg
+bce
 line
 )
 ;
@@ -7084,9 +7084,9 @@ EmitTraceOp
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 nextpn
@@ -7135,7 +7135,7 @@ if
 UpdateLineNumberNotes
 (
 cx
-cg
+bce
 nextpn
 -
 >
@@ -7154,7 +7154,7 @@ return
 uint32
 index
 =
-cg
+bce
 -
 >
 traceIndex
@@ -7165,7 +7165,7 @@ index
 <
 UINT16_MAX
 )
-cg
+bce
 -
 >
 traceIndex
@@ -7176,7 +7176,7 @@ return
 Emit3
 (
 cx
-cg
+bce
 JSOP_TRACE
 UINT16_HI
 (
@@ -7197,9 +7197,9 @@ CheckTypeSet
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSOp
 op
 )
@@ -7218,14 +7218,14 @@ JOF_TYPESET
 {
 if
 (
-cg
+bce
 -
 >
 typesetCount
 <
 UINT16_MAX
 )
-cg
+bce
 -
 >
 typesetCount
@@ -7249,7 +7249,7 @@ if
 Emit3
 (
 cx
-cg
+bce
 op
 UINT16_HI
 (
@@ -7271,7 +7271,7 @@ JS_FALSE
 CheckTypeSet
 (
 cx
-cg
+bce
 op
 )
 ;
@@ -7294,7 +7294,7 @@ off_
 EmitN
 (
 cx
-cg
+bce
 op
 2
 *
@@ -7319,7 +7319,7 @@ pc_
 =
 CG_CODE
 (
-cg
+bce
 off_
 )
 ;
@@ -7358,7 +7358,7 @@ JS_BEGIN_MACRO
 \
 CG_CODE
 (
-cg
+bce
 offset
 )
 [
@@ -7370,7 +7370,7 @@ op
 \
 CG_CODE
 (
-cg
+bce
 offset
 )
 [
@@ -7385,7 +7385,7 @@ i
 \
 CG_CODE
 (
-cg
+bce
 offset
 )
 [
@@ -7406,9 +7406,9 @@ FlushPops
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 intN
 *
 npops
@@ -7428,7 +7428,7 @@ if
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_HIDDEN
 )
 <
@@ -7460,9 +7460,9 @@ EmitNonLocalJumpFixup
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 StmtInfo
 *
 toStmt
@@ -7471,7 +7471,7 @@ toStmt
 intN
 depth
 =
-cg
+bce
 -
 >
 stackDepth
@@ -7495,7 +7495,7 @@ npops
 FlushPops
 (
 cx
-cg
+bce
 &
 npops
 )
@@ -7508,7 +7508,7 @@ StmtInfo
 *
 stmt
 =
-cg
+bce
 -
 >
 topStmt
@@ -7546,7 +7546,7 @@ if
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_HIDDEN
 )
 <
@@ -7560,7 +7560,7 @@ if
 EmitBackPatchOp
 (
 cx
-cg
+bce
 JSOP_BACKPATCH
 &
 GOSUBS
@@ -7589,7 +7589,7 @@ if
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_HIDDEN
 )
 <
@@ -7603,7 +7603,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_LEAVEWITH
 )
 <
@@ -7626,7 +7626,7 @@ if
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_HIDDEN
 )
 <
@@ -7640,7 +7640,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_ENDITER
 )
 <
@@ -7684,7 +7684,7 @@ if
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_HIDDEN
 )
 <
@@ -7699,7 +7699,7 @@ if
 EmitLeaveBlock
 (
 cx
-cg
+bce
 JSOP_LEAVEBLOCK
 stmt
 -
@@ -7716,7 +7716,7 @@ FLUSH_POPS
 (
 )
 ;
-cg
+bce
 -
 >
 stackDepth
@@ -7737,9 +7737,9 @@ EmitKnownBlockChain
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ObjectBox
 *
 box
@@ -7758,14 +7758,14 @@ box
 -
 >
 index
-cg
+bce
 )
 ;
 return
 Emit1
 (
 cx
-cg
+bce
 JSOP_NULLBLOCKCHAIN
 )
 >
@@ -7780,17 +7780,17 @@ EmitBlockChain
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 {
 return
 EmitKnownBlockChain
 (
 cx
-cg
-cg
+bce
+bce
 -
 >
 blockChainBox
@@ -7812,9 +7812,9 @@ EmitGoto
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 StmtInfo
 *
 toStmt
@@ -7840,7 +7840,7 @@ if
 EmitNonLocalJumpFixup
 (
 cx
-cg
+bce
 toStmt
 )
 )
@@ -7860,7 +7860,7 @@ index
 NewSrcNote2
 (
 cx
-cg
+bce
 noteType
 ptrdiff_t
 (
@@ -7881,7 +7881,7 @@ index
 NewSrcNote
 (
 cx
-cg
+bce
 noteType
 )
 ;
@@ -7906,7 +7906,7 @@ result
 EmitBackPatchOp
 (
 cx
-cg
+bce
 JSOP_BACKPATCH
 lastp
 )
@@ -7926,7 +7926,7 @@ if
 EmitBlockChain
 (
 cx
-cg
+bce
 )
 )
 return
@@ -7944,9 +7944,9 @@ BackPatch
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ptrdiff_t
 last
 jsbytecode
@@ -7970,7 +7970,7 @@ pc
 =
 CG_CODE
 (
-cg
+bce
 last
 )
 ;
@@ -7978,7 +7978,7 @@ stop
 =
 CG_CODE
 (
-cg
+bce
 -
 1
 )
@@ -7995,7 +7995,7 @@ delta
 =
 GetJumpOffset
 (
-cg
+bce
 pc
 )
 ;
@@ -8008,7 +8008,7 @@ pc
 CHECK_AND_SET_JUMP_OFFSET
 (
 cx
-cg
+bce
 pc
 span
 )
@@ -8111,16 +8111,16 @@ PopStatementCG
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 {
 StmtInfo
 *
 stmt
 =
-cg
+bce
 -
 >
 topStmt
@@ -8139,14 +8139,14 @@ stmt
 BackPatch
 (
 cx
-cg
+bce
 stmt
 -
 >
 breaks
 CG_NEXT
 (
-cg
+bce
 )
 JSOP_GOTO
 )
@@ -8156,14 +8156,14 @@ JSOP_GOTO
 BackPatch
 (
 cx
-cg
+bce
 stmt
 -
 >
 continues
 CG_CODE
 (
-cg
+bce
 stmt
 -
 >
@@ -8180,7 +8180,7 @@ JS_FALSE
 }
 PopStatementTC
 (
-cg
+bce
 )
 ;
 return
@@ -8196,9 +8196,9 @@ DefineCompileTimeConstant
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSAtom
 *
 atom
@@ -8221,7 +8221,7 @@ TOK_NUMBER
 if
 (
 !
-cg
+bce
 -
 >
 constMap
@@ -8445,9 +8445,9 @@ LookupCompileTimeConstant
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSAtom
 *
 atom
@@ -8468,7 +8468,7 @@ do
 {
 if
 (
-cg
+bce
 -
 >
 inFunction
@@ -8476,7 +8476,7 @@ inFunction
 )
 |
 |
-cg
+bce
 -
 >
 compileAndGo
@@ -8490,7 +8490,7 @@ stmt
 =
 LexicalLookup
 (
-cg
+bce
 atom
 NULL
 )
@@ -8504,7 +8504,7 @@ JS_TRUE
 ;
 if
 (
-CodeGenerator
+BytecodeEmitter
 :
 :
 ConstMap
@@ -8513,7 +8513,7 @@ ConstMap
 Ptr
 p
 =
-cg
+bce
 -
 >
 constMap
@@ -8552,7 +8552,7 @@ JS_TRUE
 }
 if
 (
-cg
+bce
 -
 >
 inFunction
@@ -8562,7 +8562,7 @@ inFunction
 {
 if
 (
-cg
+bce
 -
 >
 bindings
@@ -8580,7 +8580,7 @@ else
 {
 JS_ASSERT
 (
-cg
+bce
 -
 >
 compileAndGo
@@ -8592,7 +8592,7 @@ JSObject
 *
 obj
 =
-cg
+bce
 -
 >
 scopeChain
@@ -8688,22 +8688,22 @@ break
 }
 while
 (
-cg
+bce
 -
 >
 parent
 &
 &
 (
-cg
+bce
 =
-cg
+bce
 -
 >
 parent
 -
 >
-asCodeGenerator
+asBytecodeEmitter
 (
 )
 )
@@ -8738,9 +8738,9 @@ EmitBigIndexPrefix
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 uintN
 index
 )
@@ -8810,7 +8810,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 (
 JSOp
 )
@@ -8857,7 +8857,7 @@ if
 Emit2
 (
 cx
-cg
+bce
 JSOP_INDEXBASE
 (
 JSOp
@@ -8885,9 +8885,9 @@ JSOp
 op
 uintN
 index
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSOp
 *
 psuffix
@@ -8901,7 +8901,7 @@ bigSuffix
 EmitBigIndexPrefix
 (
 cx
-cg
+bce
 index
 )
 ;
@@ -8969,7 +8969,7 @@ JSOP_NOP
 Emit1
 (
 cx
-cg
+bce
 bigSuffix
 )
 >
@@ -8995,7 +8995,7 @@ EmitIndexOp
 cx
 op
 index
-cg
+bce
 )
 )
 \
@@ -9016,9 +9016,9 @@ ParseNode
 pn
 JSOp
 op
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSOp
 *
 psuffix
@@ -9073,7 +9073,7 @@ index
 if
 (
 !
-cg
+bce
 -
 >
 makeAtomIndex
@@ -9095,7 +9095,7 @@ EmitIndexOp
 cx
 op
 index
-cg
+bce
 psuffix
 )
 ;
@@ -9112,9 +9112,9 @@ ObjectBox
 objbox
 JSOp
 op
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 {
 JS_ASSERT
@@ -9133,7 +9133,7 @@ EmitIndexOp
 (
 cx
 op
-cg
+bce
 -
 >
 objectList
@@ -9142,7 +9142,7 @@ index
 (
 objbox
 )
-cg
+bce
 )
 ;
 }
@@ -9175,9 +9175,9 @@ uintN
 slot
 uintN
 index
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 {
 JSOp
@@ -9215,7 +9215,7 @@ bigSuffix
 EmitBigIndexPrefix
 (
 cx
-cg
+bce
 index
 )
 ;
@@ -9234,7 +9234,7 @@ off
 EmitN
 (
 cx
-cg
+bce
 op
 2
 +
@@ -9254,7 +9254,7 @@ pc
 =
 CG_CODE
 (
-cg
+bce
 off
 )
 ;
@@ -9285,7 +9285,7 @@ JSOP_NOP
 Emit1
 (
 cx
-cg
+bce
 bigSuffix
 )
 >
@@ -9294,7 +9294,7 @@ bigSuffix
 ;
 }
 bool
-CodeGenerator
+BytecodeEmitter
 :
 :
 shouldNoteClosedName
@@ -9334,9 +9334,9 @@ AdjustBlockSlot
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 jsint
 slot
 )
@@ -9348,7 +9348,7 @@ jsuint
 )
 slot
 <
-cg
+bce
 -
 >
 maxStackDepth
@@ -9356,7 +9356,7 @@ maxStackDepth
 ;
 if
 (
-cg
+bce
 -
 >
 inFunction
@@ -9367,7 +9367,7 @@ inFunction
 slot
 +
 =
-cg
+bce
 -
 >
 bindings
@@ -9392,7 +9392,7 @@ ReportCompileErrorNumber
 cx
 CG_TS
 (
-cg
+bce
 )
 NULL
 JSREPORT_ERROR
@@ -9420,9 +9420,9 @@ cx
 ParseNode
 *
 pn
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 {
 JS_ASSERT
@@ -9447,7 +9447,7 @@ pn
 >
 pn_objbox
 JSOP_ENTERBLOCK
-cg
+bce
 )
 )
 return
@@ -9471,7 +9471,7 @@ depth
 AdjustBlockSlot
 (
 cx
-cg
+bce
 OBJ_BLOCK_DEPTH
 (
 cx
@@ -9695,7 +9695,7 @@ endif
 bool
 isClosed
 =
-cg
+bce
 -
 >
 shouldNoteClosedName
@@ -9719,7 +9719,7 @@ isClosed
 if
 (
 (
-cg
+bce
 -
 >
 flags
@@ -9728,7 +9728,7 @@ TCF_FUN_EXTENSIBLE_SCOPE
 )
 |
 |
-cg
+bce
 -
 >
 bindings
@@ -9756,9 +9756,9 @@ EmitLeaveBlock
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSOp
 op
 ObjectBox
@@ -9786,7 +9786,7 @@ bigSuffix
 EmitBigIndexPrefix
 (
 cx
-cg
+bce
 box
 -
 >
@@ -9808,7 +9808,7 @@ if
 Emit5
 (
 cx
-cg
+bce
 op
 count
 box
@@ -9832,7 +9832,7 @@ JSOP_NOP
 Emit1
 (
 cx
-cg
+bce
 bigSuffix
 )
 >
@@ -9844,9 +9844,9 @@ static
 bool
 TryConvertToGname
 (
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 pn
@@ -9857,7 +9857,7 @@ op
 {
 if
 (
-cg
+bce
 -
 >
 compileAndGo
@@ -9865,7 +9865,7 @@ compileAndGo
 )
 &
 &
-cg
+bce
 -
 >
 compiler
@@ -9880,7 +9880,7 @@ globalObj
 &
 &
 !
-cg
+bce
 -
 >
 mightAliasLocals
@@ -9899,7 +9899,7 @@ isDeoptimized
 &
 !
 (
-cg
+bce
 -
 >
 flags
@@ -10008,9 +10008,9 @@ BindKnownGlobal
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 dn
@@ -10036,7 +10036,7 @@ isFree
 ;
 if
 (
-cg
+bce
 -
 >
 mightAliasLocals
@@ -10050,7 +10050,7 @@ GlobalScope
 *
 globalScope
 =
-cg
+bce
 -
 >
 compiler
@@ -10106,21 +10106,21 @@ value
 }
 else
 {
-CodeGenerator
+BytecodeEmitter
 *
-globalcg
+globalbce
 =
 globalScope
 -
 >
-cg
+bce
 ;
 if
 (
-globalcg
+globalbce
 =
 =
-cg
+bce
 )
 {
 pn
@@ -10147,7 +10147,7 @@ true
 }
 index
 =
-globalcg
+globalbce
 -
 >
 globalUses
@@ -10168,7 +10168,7 @@ slot
 if
 (
 !
-cg
+bce
 -
 >
 addGlobalUse
@@ -10216,9 +10216,9 @@ BindGlobal
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 pn
@@ -10299,7 +10299,7 @@ return
 BindKnownGlobal
 (
 cx
-cg
+bce
 dn
 pn
 atom
@@ -10313,9 +10313,9 @@ BindNameToSlot
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 pn
@@ -10557,7 +10557,7 @@ UNKNOWN
 {
 if
 (
-cg
+bce
 -
 >
 parser
@@ -10575,7 +10575,7 @@ isTopLevel
 )
 JS_ASSERT
 (
-cg
+bce
 -
 >
 compileAndGo
@@ -10620,7 +10620,7 @@ isConst
 {
 if
 (
-cg
+bce
 -
 >
 needStrictChecks
@@ -10649,9 +10649,9 @@ ReportStrictModeError
 cx
 CG_TS
 (
-cg
+bce
 )
-cg
+bce
 pn
 JSMSG_READ_ONLY
 name
@@ -10751,7 +10751,7 @@ StackFrame
 *
 caller
 =
-cg
+bce
 -
 >
 parser
@@ -10766,7 +10766,7 @@ caller
 {
 JS_ASSERT
 (
-cg
+bce
 -
 >
 compileAndGo
@@ -10776,7 +10776,7 @@ compileAndGo
 ;
 if
 (
-cg
+bce
 -
 >
 flags
@@ -10808,7 +10808,7 @@ isGlobalFrame
 &
 TryConvertToGname
 (
-cg
+bce
 pn
 &
 op
@@ -10821,7 +10821,7 @@ _
 if
 (
 !
-cg
+bce
 -
 >
 makeAtomIndex
@@ -10861,7 +10861,7 @@ JS_TRUE
 if
 (
 !
-cg
+bce
 -
 >
 mightAliasLocals
@@ -10872,7 +10872,7 @@ mightAliasLocals
 !
 TryConvertToGname
 (
-cg
+bce
 pn
 &
 op
@@ -10887,7 +10887,7 @@ _
 if
 (
 !
-cg
+bce
 -
 >
 makeAtomIndex
@@ -10931,7 +10931,7 @@ level
 ;
 JS_ASSERT
 (
-cg
+bce
 -
 >
 staticLevel
@@ -10944,7 +10944,7 @@ const
 uintN
 skip
 =
-cg
+bce
 -
 >
 staticLevel
@@ -10961,7 +10961,7 @@ skip
 {
 JS_ASSERT
 (
-cg
+bce
 -
 >
 inFunction
@@ -10982,7 +10982,7 @@ UpvarCookie
 :
 :
 CALLEE_SLOT
-cg
+bce
 -
 >
 roLexdeps
@@ -11007,7 +11007,7 @@ JOF_ATOM
 ;
 JS_ASSERT
 (
-cg
+bce
 -
 >
 fun
@@ -11050,7 +11050,7 @@ JS_TRUE
 ;
 if
 (
-cg
+bce
 -
 >
 flags
@@ -11063,7 +11063,7 @@ JS_TRUE
 if
 (
 !
-cg
+bce
 -
 >
 fun
@@ -11081,7 +11081,7 @@ JS_TRUE
 if
 (
 !
-cg
+bce
 -
 >
 upvarIndices
@@ -11097,7 +11097,7 @@ JS_FALSE
 AtomIndexAddPtr
 p
 =
-cg
+bce
 -
 >
 upvarIndices
@@ -11130,7 +11130,7 @@ else
 if
 (
 !
-cg
+bce
 -
 >
 bindings
@@ -11146,7 +11146,7 @@ JS_FALSE
 ;
 index
 =
-cg
+bce
 -
 >
 upvarIndices
@@ -11159,7 +11159,7 @@ count
 if
 (
 !
-cg
+bce
 -
 >
 upvarIndices
@@ -11179,7 +11179,7 @@ UpvarCookies
 &
 upvarMap
 =
-cg
+bce
 -
 >
 upvarMap
@@ -11187,7 +11187,7 @@ upvarMap
 size_t
 lexdepCount
 =
-cg
+bce
 -
 >
 roLexdeps
@@ -11349,7 +11349,7 @@ TreeContext
 *
 tc
 =
-cg
+bce
 ;
 do
 {
@@ -11671,7 +11671,7 @@ JSOP_CALLEE
 JS_ASSERT
 (
 (
-cg
+bce
 -
 >
 fun
@@ -11688,7 +11688,7 @@ JSFUN_LAMBDA
 atom
 =
 =
-cg
+bce
 -
 >
 fun
@@ -11711,7 +11711,7 @@ if
 (
 !
 (
-cg
+bce
 -
 >
 flags
@@ -11928,7 +11928,7 @@ JS_TRUE
 ;
 }
 bool
-CodeGenerator
+BytecodeEmitter
 :
 :
 addGlobalUse
@@ -12096,9 +12096,9 @@ CheckSideEffects
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 pn
@@ -12224,7 +12224,7 @@ ok
 CheckSideEffects
 (
 cx
-cg
+bce
 pn2
 answer
 )
@@ -12248,7 +12248,7 @@ ok
 CheckSideEffects
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -12260,7 +12260,7 @@ answer
 CheckSideEffects
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -12272,7 +12272,7 @@ answer
 CheckSideEffects
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -12329,7 +12329,7 @@ if
 BindNameToSlot
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -12342,7 +12342,7 @@ if
 CheckSideEffects
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -12432,7 +12432,7 @@ ok
 CheckSideEffects
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -12444,7 +12444,7 @@ answer
 CheckSideEffects
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -12506,7 +12506,7 @@ if
 BindNameToSlot
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -12552,7 +12552,7 @@ getKind
 =
 TOK_DBLDOT
 !
-cg
+bce
 -
 >
 inStrictMode
@@ -12582,7 +12582,7 @@ ok
 CheckSideEffects
 (
 cx
-cg
+bce
 pn2
 answer
 )
@@ -12611,7 +12611,7 @@ ok
 CheckSideEffects
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -12664,7 +12664,7 @@ if
 BindNameToSlot
 (
 cx
-cg
+bce
 pn
 )
 )
@@ -12745,7 +12745,7 @@ TOK_NAME
 BindNameToSlot
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -12795,7 +12795,7 @@ ok
 CheckSideEffects
 (
 cx
-cg
+bce
 pn2
 answer
 )
@@ -12810,7 +12810,7 @@ ok
 CheckSideEffects
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -12852,9 +12852,9 @@ EmitNameOp
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 pn
@@ -12871,7 +12871,7 @@ if
 BindNameToSlot
 (
 cx
-cg
+bce
 pn
 )
 )
@@ -12981,7 +12981,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 op
 )
 <
@@ -12998,7 +12998,7 @@ callContext
 Emit1
 (
 cx
-cg
+bce
 JSOP_PUSH
 )
 <
@@ -13047,7 +13047,7 @@ EmitAtomOp
 cx
 pn
 op
-cg
+bce
 )
 )
 return
@@ -13074,15 +13074,15 @@ ParseNode
 pn
 JSOp
 op
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 {
 JS_ASSERT
 (
 !
-cg
+bce
 -
 >
 inStrictMode
@@ -13138,12 +13138,12 @@ pn_kid
 uintN
 oldflags
 =
-cg
+bce
 -
 >
 flags
 ;
-cg
+bce
 -
 >
 flags
@@ -13158,14 +13158,14 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
 return
 false
 ;
-cg
+bce
 -
 >
 flags
@@ -13180,11 +13180,11 @@ if
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_PCBASE
 CG_OFFSET
 (
-cg
+bce
 )
 -
 pn2
@@ -13202,7 +13202,7 @@ return
 Emit1
 (
 cx
-cg
+bce
 op
 )
 >
@@ -13220,9 +13220,9 @@ EmitElemOpBase
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSOp
 op
 )
@@ -13232,7 +13232,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 op
 )
 <
@@ -13244,7 +13244,7 @@ false
 CheckTypeSet
 (
 cx
-cg
+bce
 op
 )
 ;
@@ -13264,9 +13264,9 @@ ParseNode
 pn
 JSOp
 op
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 {
 jsatomid
@@ -13275,7 +13275,7 @@ index
 if
 (
 !
-cg
+bce
 -
 >
 makeAtomIndex
@@ -13299,7 +13299,7 @@ EmitIndexOp
 cx
 JSOP_QNAMEPART
 index
-cg
+bce
 )
 )
 return
@@ -13309,7 +13309,7 @@ return
 EmitElemOpBase
 (
 cx
-cg
+bce
 op
 )
 ;
@@ -13326,9 +13326,9 @@ ParseNode
 pn
 JSOp
 op
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSBool
 callContext
 JSOp
@@ -13413,7 +13413,7 @@ pn2
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -13430,7 +13430,7 @@ callContext
 JSOP_CALLELEM
 :
 JSOP_GETELEM
-cg
+bce
 )
 ;
 }
@@ -13498,7 +13498,7 @@ if
 BindNameToSlot
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -13547,7 +13547,7 @@ return
 Emit1
 (
 cx
-cg
+bce
 JSOP_ARGCNT
 )
 >
@@ -13580,7 +13580,7 @@ top
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 for
@@ -13649,7 +13649,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pndown
 )
 )
@@ -13663,11 +13663,11 @@ if
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_PCBASE
 CG_OFFSET
 (
-cg
+bce
 )
 -
 pndown
@@ -13717,7 +13717,7 @@ EmitSpecialPropOp
 cx
 pndot
 JSOP_GETELEM
-cg
+bce
 )
 )
 return
@@ -13738,7 +13738,7 @@ pndot
 getOp
 (
 )
-cg
+bce
 )
 )
 {
@@ -13786,7 +13786,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -13799,11 +13799,11 @@ if
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_PCBASE
 CG_OFFSET
 (
-cg
+bce
 )
 -
 pn2
@@ -13823,7 +13823,7 @@ EmitAtomOp
 cx
 pn
 op
-cg
+bce
 psuffix
 )
 ;
@@ -13840,9 +13840,9 @@ ParseNode
 pn
 JSOp
 op
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 {
 JSOp
@@ -13858,7 +13858,7 @@ EmitPropOp
 cx
 pn
 op
-cg
+bce
 false
 &
 suffix
@@ -13872,7 +13872,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_NOP
 )
 <
@@ -13886,7 +13886,7 @@ start
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 if
@@ -13900,7 +13900,7 @@ JSOP_NOP
 Emit1
 (
 cx
-cg
+bce
 suffix
 )
 <
@@ -13977,7 +13977,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_DUP
 )
 <
@@ -13994,7 +13994,7 @@ EmitAtomOp
 cx
 pn
 JSOP_GETPROP
-cg
+bce
 )
 )
 return
@@ -14005,7 +14005,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_POS
 )
 <
@@ -14022,7 +14022,7 @@ post
 Emit1
 (
 cx
-cg
+bce
 JSOP_DUP
 )
 <
@@ -14036,7 +14036,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_ONE
 )
 <
@@ -14050,7 +14050,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 binop
 )
 <
@@ -14069,7 +14069,7 @@ if
 Emit2
 (
 cx
-cg
+bce
 JSOP_PICK
 (
 jsbytecode
@@ -14087,7 +14087,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_SWAP
 )
 <
@@ -14105,7 +14105,7 @@ EmitAtomOp
 cx
 pn
 JSOP_SETPROP
-cg
+bce
 )
 )
 return
@@ -14119,7 +14119,7 @@ post
 Emit1
 (
 cx
-cg
+bce
 JSOP_POP
 )
 <
@@ -14130,7 +14130,7 @@ false
 ;
 UpdateDecomposeLength
 (
-cg
+bce
 start
 )
 ;
@@ -14145,7 +14145,7 @@ JSOP_NOP
 Emit1
 (
 cx
-cg
+bce
 suffix
 )
 <
@@ -14170,9 +14170,9 @@ ParseNode
 pn
 JSOp
 op
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 {
 JSOp
@@ -14188,7 +14188,7 @@ EmitAtomOp
 cx
 pn
 op
-cg
+bce
 &
 suffix
 )
@@ -14201,7 +14201,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_NOP
 )
 <
@@ -14210,7 +14210,7 @@ JSOP_NOP
 return
 false
 ;
-cg
+bce
 -
 >
 stackDepth
@@ -14222,7 +14222,7 @@ start
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 if
@@ -14236,7 +14236,7 @@ JSOP_NOP
 Emit1
 (
 cx
-cg
+bce
 suffix
 )
 <
@@ -14344,7 +14344,7 @@ global
 JSOP_BINDGNAME
 :
 JSOP_BINDNAME
-cg
+bce
 )
 )
 return
@@ -14362,7 +14362,7 @@ global
 JSOP_GETGNAME
 :
 JSOP_NAME
-cg
+bce
 )
 )
 return
@@ -14373,7 +14373,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_POS
 )
 <
@@ -14390,7 +14390,7 @@ post
 Emit1
 (
 cx
-cg
+bce
 JSOP_DUP
 )
 <
@@ -14404,7 +14404,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_ONE
 )
 <
@@ -14418,7 +14418,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 binop
 )
 <
@@ -14437,7 +14437,7 @@ if
 Emit2
 (
 cx
-cg
+bce
 JSOP_PICK
 (
 jsbytecode
@@ -14455,7 +14455,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_SWAP
 )
 <
@@ -14477,7 +14477,7 @@ global
 JSOP_SETGNAME
 :
 JSOP_SETNAME
-cg
+bce
 )
 )
 return
@@ -14491,7 +14491,7 @@ post
 Emit1
 (
 cx
-cg
+bce
 JSOP_POP
 )
 <
@@ -14502,7 +14502,7 @@ false
 ;
 UpdateDecomposeLength
 (
-cg
+bce
 start
 )
 ;
@@ -14517,7 +14517,7 @@ JSOP_NOP
 Emit1
 (
 cx
-cg
+bce
 suffix
 )
 <
@@ -14542,9 +14542,9 @@ ParseNode
 pn
 JSOp
 op
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 {
 ptrdiff_t
@@ -14565,7 +14565,7 @@ top
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 if
@@ -14658,7 +14658,7 @@ if
 BindNameToSlot
 (
 cx
-cg
+bce
 left
 )
 )
@@ -14709,7 +14709,7 @@ typeInferenceEnabled
 &
 (
 !
-cg
+bce
 -
 >
 inStrictMode
@@ -14719,7 +14719,7 @@ inStrictMode
 |
 (
 !
-cg
+bce
 -
 >
 mutatesParameter
@@ -14728,7 +14728,7 @@ mutatesParameter
 &
 &
 !
-cg
+bce
 -
 >
 callsEval
@@ -14820,7 +14820,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 left
 )
 )
@@ -14842,7 +14842,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 next
 )
 )
@@ -14854,11 +14854,11 @@ if
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_PCBASE
 CG_OFFSET
 (
-cg
+bce
 )
 -
 top
@@ -14875,7 +14875,7 @@ if
 EmitElemOpBase
 (
 cx
-cg
+bce
 JSOP_GETELEM
 )
 )
@@ -14926,7 +14926,7 @@ NullaryNode
 :
 create
 (
-cg
+bce
 )
 ;
 if
@@ -14981,7 +14981,7 @@ NullaryNode
 :
 create
 (
-cg
+bce
 )
 ;
 if
@@ -15099,7 +15099,7 @@ if
 BindNameToSlot
 (
 cx
-cg
+bce
 left
 )
 )
@@ -15150,7 +15150,7 @@ typeInferenceEnabled
 &
 (
 !
-cg
+bce
 -
 >
 inStrictMode
@@ -15160,7 +15160,7 @@ inStrictMode
 |
 (
 !
-cg
+bce
 -
 >
 mutatesParameter
@@ -15169,7 +15169,7 @@ mutatesParameter
 &
 &
 !
-cg
+bce
 -
 >
 callsEval
@@ -15211,7 +15211,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 left
 )
 )
@@ -15252,7 +15252,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 right
 )
 )
@@ -15264,11 +15264,11 @@ if
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_PCBASE
 CG_OFFSET
 (
-cg
+bce
 )
 -
 top
@@ -15283,7 +15283,7 @@ return
 EmitElemOpBase
 (
 cx
-cg
+bce
 op
 )
 ;
@@ -15300,9 +15300,9 @@ ParseNode
 pn
 JSOp
 op
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 {
 if
@@ -15318,7 +15318,7 @@ EmitElemOp
 cx
 pn
 op
-cg
+bce
 )
 )
 return
@@ -15333,7 +15333,7 @@ if
 EmitElemOpBase
 (
 cx
-cg
+bce
 op
 )
 )
@@ -15346,7 +15346,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_NOP
 )
 <
@@ -15355,7 +15355,7 @@ JSOP_NOP
 return
 false
 ;
-cg
+bce
 -
 >
 stackDepth
@@ -15367,7 +15367,7 @@ start
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 const
@@ -15438,7 +15438,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_TOID
 )
 <
@@ -15452,7 +15452,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_DUP2
 )
 <
@@ -15467,7 +15467,7 @@ if
 EmitElemOpBase
 (
 cx
-cg
+bce
 JSOP_GETELEM
 )
 )
@@ -15479,7 +15479,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_POS
 )
 <
@@ -15496,7 +15496,7 @@ post
 Emit1
 (
 cx
-cg
+bce
 JSOP_DUP
 )
 <
@@ -15510,7 +15510,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_ONE
 )
 <
@@ -15524,7 +15524,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 binop
 )
 <
@@ -15543,7 +15543,7 @@ if
 Emit2
 (
 cx
-cg
+bce
 JSOP_PICK
 (
 jsbytecode
@@ -15561,7 +15561,7 @@ if
 Emit2
 (
 cx
-cg
+bce
 JSOP_PICK
 (
 jsbytecode
@@ -15579,7 +15579,7 @@ if
 Emit2
 (
 cx
-cg
+bce
 JSOP_PICK
 (
 jsbytecode
@@ -15599,7 +15599,7 @@ if
 EmitElemOpBase
 (
 cx
-cg
+bce
 JSOP_SETELEM
 )
 )
@@ -15614,7 +15614,7 @@ post
 Emit1
 (
 cx
-cg
+bce
 JSOP_POP
 )
 <
@@ -15625,7 +15625,7 @@ false
 ;
 UpdateDecomposeLength
 (
-cg
+bce
 start
 )
 ;
@@ -15642,9 +15642,9 @@ JSContext
 cx
 jsdouble
 dval
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 {
 int32_t
@@ -15681,7 +15681,7 @@ return
 Emit1
 (
 cx
-cg
+bce
 JSOP_ZERO
 )
 >
@@ -15699,7 +15699,7 @@ return
 Emit1
 (
 cx
-cg
+bce
 JSOP_ONE
 )
 >
@@ -15723,7 +15723,7 @@ return
 Emit2
 (
 cx
-cg
+bce
 JSOP_INT8
 (
 jsbytecode
@@ -15777,7 +15777,7 @@ off
 EmitN
 (
 cx
-cg
+bce
 JSOP_UINT24
 3
 )
@@ -15795,7 +15795,7 @@ pc
 =
 CG_CODE
 (
-cg
+bce
 off
 )
 ;
@@ -15813,7 +15813,7 @@ off
 EmitN
 (
 cx
-cg
+bce
 JSOP_INT32
 4
 )
@@ -15831,7 +15831,7 @@ pc
 =
 CG_CODE
 (
-cg
+bce
 off
 )
 ;
@@ -15849,7 +15849,7 @@ JS_TRUE
 if
 (
 !
-cg
+bce
 -
 >
 constList
@@ -15870,7 +15870,7 @@ EmitIndexOp
 (
 cx
 JSOP_DOUBLE
-cg
+bce
 -
 >
 constList
@@ -15880,7 +15880,7 @@ length
 )
 -
 1
-cg
+bce
 )
 ;
 }
@@ -15951,35 +15951,35 @@ popBlock
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 {
 savedStmt
 =
-cg
+bce
 -
 >
 topStmt
 ;
 savedScopeStmt
 =
-cg
+bce
 -
 >
 topScopeStmt
 ;
 savedBlockBox
 =
-cg
+bce
 -
 >
 blockChainBox
 ;
 if
 (
-cg
+bce
 -
 >
 topStmt
@@ -15991,7 +15991,7 @@ type
 STMT_FOR_LOOP
 |
 |
-cg
+bce
 -
 >
 topStmt
@@ -16004,14 +16004,14 @@ STMT_FOR_IN_LOOP
 )
 PopStatementTC
 (
-cg
+bce
 )
 ;
 JS_ASSERT
 (
 STMT_LINKS_SCOPE
 (
-cg
+bce
 -
 >
 topStmt
@@ -16020,7 +16020,7 @@ topStmt
 ;
 JS_ASSERT
 (
-cg
+bce
 -
 >
 topStmt
@@ -16033,14 +16033,14 @@ SIF_SCOPE
 ;
 PopStatementTC
 (
-cg
+bce
 )
 ;
 return
 Emit1
 (
 cx
-cg
+bce
 JSOP_NOP
 )
 >
@@ -16051,7 +16051,7 @@ JSOP_NOP
 EmitBlockChain
 (
 cx
-cg
+bce
 )
 ;
 }
@@ -16061,9 +16061,9 @@ repushBlock
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 {
 JS_ASSERT
@@ -16071,21 +16071,21 @@ JS_ASSERT
 savedStmt
 )
 ;
-cg
+bce
 -
 >
 topStmt
 =
 savedStmt
 ;
-cg
+bce
 -
 >
 topScopeStmt
 =
 savedScopeStmt
 ;
-cg
+bce
 -
 >
 blockChainBox
@@ -16096,7 +16096,7 @@ return
 Emit1
 (
 cx
-cg
+bce
 JSOP_NOP
 )
 >
@@ -16107,7 +16107,7 @@ JSOP_NOP
 EmitBlockChain
 (
 cx
-cg
+bce
 )
 ;
 }
@@ -16120,9 +16120,9 @@ EmitSwitch
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 pn
@@ -16240,7 +16240,7 @@ pn_objbox
 ;
 PushBlockScope
 (
-cg
+bce
 &
 stmtInfo
 box
@@ -16261,7 +16261,7 @@ EmitEnterBlock
 (
 cx
 pn2
-cg
+bce
 )
 )
 return
@@ -16275,7 +16275,7 @@ tps
 popBlock
 (
 cx
-cg
+bce
 )
 )
 return
@@ -16302,7 +16302,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -16316,7 +16316,7 @@ top
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 #
@@ -16325,7 +16325,7 @@ if
 JS_HAS_BLOCK_SCOPE
 PushStatement
 (
-cg
+bce
 &
 stmtInfo
 STMT_SWITCH
@@ -16347,7 +16347,7 @@ TOK_LC
 {
 PushStatement
 (
-cg
+bce
 &
 stmtInfo
 STMT_SWITCH
@@ -16365,7 +16365,7 @@ tps
 repushBlock
 (
 cx
-cg
+bce
 )
 )
 return
@@ -16379,7 +16379,7 @@ top
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 pn2
@@ -16635,7 +16635,7 @@ ok
 LookupCompileTimeConstant
 (
 cx
-cg
+bce
 pn4
 -
 >
@@ -17121,7 +17121,7 @@ if
 (
 caseCount
 +
-cg
+bce
 -
 >
 constList
@@ -17146,7 +17146,7 @@ noteIndex
 NewSrcNote3
 (
 cx
-cg
+bce
 SRC_SWITCH
 0
 0
@@ -17226,7 +17226,7 @@ if
 EmitN
 (
 cx
-cg
+bce
 switchOp
 switchSize
 )
@@ -17295,7 +17295,7 @@ pn4
 EmitTree
 (
 cx
-cg
+bce
 pn4
 )
 )
@@ -17316,7 +17316,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 (
 uintN
 )
@@ -17324,7 +17324,7 @@ caseNoteIndex
 0
 CG_OFFSET
 (
-cg
+bce
 )
 -
 off
@@ -17359,7 +17359,7 @@ caseNoteIndex
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_PCDELTA
 0
 )
@@ -17378,7 +17378,7 @@ off
 EmitJump
 (
 cx
-cg
+bce
 JSOP_CASE
 0
 )
@@ -17412,7 +17412,7 @@ noteCount
 =
 CG_NOTE_COUNT
 (
-cg
+bce
 )
 ;
 if
@@ -17421,7 +17421,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 (
 uintN
 )
@@ -17439,7 +17439,7 @@ noteCountDelta
 =
 CG_NOTE_COUNT
 (
-cg
+bce
 )
 -
 noteCount
@@ -17478,7 +17478,7 @@ caseNoteIndex
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 (
 uintN
 )
@@ -17486,7 +17486,7 @@ caseNoteIndex
 0
 CG_OFFSET
 (
-cg
+bce
 )
 -
 off
@@ -17502,7 +17502,7 @@ defaultOffset
 EmitJump
 (
 cx
-cg
+bce
 JSOP_DEFAULT
 0
 )
@@ -17523,7 +17523,7 @@ pc
 =
 CG_CODE
 (
-cg
+bce
 top
 +
 JUMP_OFFSET_LEN
@@ -17707,7 +17707,7 @@ out
 ;
 if
 (
-cg
+bce
 -
 >
 spanDeps
@@ -17719,10 +17719,10 @@ if
 AddSwitchSpanDeps
 (
 cx
-cg
+bce
 CG_CODE
 (
-cg
+bce
 top
 )
 )
@@ -17740,12 +17740,12 @@ savepc
 =
 CG_NEXT
 (
-cg
+bce
 )
 ;
 CG_NEXT
 (
-cg
+bce
 )
 =
 pc
@@ -17829,7 +17829,7 @@ index
 if
 (
 !
-cg
+bce
 -
 >
 makeAtomIndex
@@ -17847,7 +17847,7 @@ bad
 ;
 CG_NEXT
 (
-cg
+bce
 )
 =
 pc
@@ -17857,7 +17857,7 @@ if
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_LABEL
 ptrdiff_t
 (
@@ -17937,7 +17937,7 @@ index
 if
 (
 !
-cg
+bce
 -
 >
 makeAtomIndex
@@ -17955,7 +17955,7 @@ bad
 ;
 CG_NEXT
 (
-cg
+bce
 )
 =
 pc
@@ -17965,7 +17965,7 @@ if
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_LABEL
 ptrdiff_t
 (
@@ -17990,7 +17990,7 @@ JUMP_OFFSET_LEN
 }
 CG_NEXT
 (
-cg
+bce
 )
 =
 savepc
@@ -18036,7 +18036,7 @@ TOK_DEFAULT
 CHECK_AND_SET_JUMP_OFFSET_AT_CUSTOM
 (
 cx
-cg
+bce
 pn3
 -
 >
@@ -18057,7 +18057,7 @@ ok
 EmitTree
 (
 cx
-cg
+bce
 pn4
 )
 ;
@@ -18109,7 +18109,7 @@ off
 =
 CG_OFFSET
 (
-cg
+bce
 )
 -
 top
@@ -18150,10 +18150,10 @@ ok
 SetJumpOffset
 (
 cx
-cg
+bce
 CG_CODE
 (
-cg
+bce
 defaultOffset
 )
 off
@@ -18180,7 +18180,7 @@ pc
 =
 CG_CODE
 (
-cg
+bce
 top
 )
 ;
@@ -18189,7 +18189,7 @@ ok
 SetJumpOffset
 (
 cx
-cg
+bce
 pc
 off
 )
@@ -18212,7 +18212,7 @@ off
 =
 CG_OFFSET
 (
-cg
+bce
 )
 -
 top
@@ -18222,7 +18222,7 @@ ok
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 (
 uintN
 )
@@ -18297,7 +18297,7 @@ ok
 SetJumpOffset
 (
 cx
-cg
+bce
 pc
 off
 )
@@ -18365,7 +18365,7 @@ continue
 if
 (
 !
-cg
+bce
 -
 >
 constList
@@ -18385,7 +18385,7 @@ bad
 SET_INDEX
 (
 pc
-cg
+bce
 -
 >
 constList
@@ -18416,7 +18416,7 @@ ok
 SetJumpOffset
 (
 cx
-cg
+bce
 pc
 off
 )
@@ -18460,7 +18460,7 @@ ok
 PopStatementCG
 (
 cx
-cg
+bce
 )
 ;
 #
@@ -18487,7 +18487,7 @@ ok
 EmitLeaveBlock
 (
 cx
-cg
+bce
 JSOP_LEAVEBLOCK
 box
 )
@@ -18517,9 +18517,9 @@ EmitFunctionScript
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 body
@@ -18527,7 +18527,7 @@ body
 {
 if
 (
-cg
+bce
 -
 >
 flags
@@ -18537,20 +18537,20 @@ TCF_FUN_IS_GENERATOR
 {
 CG_SWITCH_TO_PROLOG
 (
-cg
+bce
 )
 ;
 JS_ASSERT
 (
 CG_NEXT
 (
-cg
+bce
 )
 =
 =
 CG_BASE
 (
-cg
+bce
 )
 )
 ;
@@ -18559,7 +18559,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_GENERATOR
 )
 <
@@ -18570,13 +18570,13 @@ false
 ;
 CG_SWITCH_TO_MAIN
 (
-cg
+bce
 )
 ;
 }
 if
 (
-cg
+bce
 -
 >
 needsEagerArguments
@@ -18586,7 +18586,7 @@ needsEagerArguments
 {
 CG_SWITCH_TO_PROLOG
 (
-cg
+bce
 )
 ;
 if
@@ -18594,7 +18594,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_ARGUMENTS
 )
 <
@@ -18604,7 +18604,7 @@ JSOP_ARGUMENTS
 Emit1
 (
 cx
-cg
+bce
 JSOP_POP
 )
 <
@@ -18615,13 +18615,13 @@ false
 ;
 CG_SWITCH_TO_MAIN
 (
-cg
+bce
 )
 ;
 }
 if
 (
-cg
+bce
 -
 >
 flags
@@ -18631,7 +18631,7 @@ TCF_FUN_UNBRAND_THIS
 {
 CG_SWITCH_TO_PROLOG
 (
-cg
+bce
 )
 ;
 if
@@ -18639,7 +18639,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_UNBRANDTHIS
 )
 <
@@ -18650,7 +18650,7 @@ false
 ;
 CG_SWITCH_TO_MAIN
 (
-cg
+bce
 )
 ;
 }
@@ -18658,7 +18658,7 @@ return
 EmitTree
 (
 cx
-cg
+bce
 body
 )
 &
@@ -18666,7 +18666,7 @@ body
 Emit1
 (
 cx
-cg
+bce
 JSOP_STOP
 )
 >
@@ -18680,7 +18680,7 @@ JSScript
 NewScriptFromCG
 (
 cx
-cg
+bce
 )
 ;
 }
@@ -18691,9 +18691,9 @@ MaybeEmitVarDecl
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSOp
 prologOp
 ParseNode
@@ -18737,7 +18737,7 @@ else
 if
 (
 !
-cg
+bce
 -
 >
 makeAtomIndex
@@ -18772,7 +18772,7 @@ JOF_ATOM
 &
 (
 !
-cg
+bce
 -
 >
 inFunction
@@ -18781,7 +18781,7 @@ inFunction
 |
 |
 (
-cg
+bce
 -
 >
 flags
@@ -18804,7 +18804,7 @@ PND_GVAR
 {
 CG_SWITCH_TO_PROLOG
 (
-cg
+bce
 )
 ;
 if
@@ -18813,7 +18813,7 @@ if
 UpdateLineNumberNotes
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -18835,13 +18835,13 @@ atomIndex
 ;
 CG_SWITCH_TO_MAIN
 (
-cg
+bce
 )
 ;
 }
 if
 (
-cg
+bce
 -
 >
 inFunction
@@ -18872,7 +18872,7 @@ slot
 (
 )
 <
-cg
+bce
 -
 >
 bindings
@@ -18882,7 +18882,7 @@ countVars
 )
 &
 &
-cg
+bce
 -
 >
 shouldNoteClosedName
@@ -18894,7 +18894,7 @@ pn
 if
 (
 !
-cg
+bce
 -
 >
 closedVars
@@ -18941,9 +18941,9 @@ DestructuringDeclEmitter
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSOp
 prologOp
 ParseNode
@@ -18958,9 +18958,9 @@ EmitDestructuringDecl
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSOp
 prologOp
 ParseNode
@@ -18985,7 +18985,7 @@ if
 BindNameToSlot
 (
 cx
-cg
+bce
 pn
 )
 )
@@ -19018,7 +19018,7 @@ return
 MaybeEmitVarDecl
 (
 cx
-cg
+bce
 prologOp
 pn
 NULL
@@ -19032,9 +19032,9 @@ EmitDestructuringDecls
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSOp
 prologOp
 ParseNode
@@ -19115,7 +19115,7 @@ if
 emitter
 (
 cx
-cg
+bce
 prologOp
 pn2
 )
@@ -19184,7 +19184,7 @@ if
 emitter
 (
 cx
-cg
+bce
 prologOp
 pn3
 )
@@ -19205,9 +19205,9 @@ EmitDestructuringOpsHelper
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 pn
@@ -19220,9 +19220,9 @@ EmitDestructuringLHS
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 pn
@@ -19254,7 +19254,7 @@ if
 EmitDestructuringOpsHelper
 (
 cx
-cg
+bce
 pn
 )
 )
@@ -19266,7 +19266,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_POP
 )
 <
@@ -19295,7 +19295,7 @@ if
 BindNameToSlot
 (
 cx
-cg
+bce
 pn
 )
 )
@@ -19324,7 +19324,7 @@ return
 Emit1
 (
 cx
-cg
+bce
 JSOP_POP
 )
 >
@@ -19356,7 +19356,7 @@ EmitElemOp
 cx
 pn
 JSOP_ENUMELEM
-cg
+bce
 )
 )
 return
@@ -19375,7 +19375,7 @@ EmitElemOp
 cx
 pn
 JSOP_ENUMCONSTELEM
-cg
+bce
 )
 )
 return
@@ -19440,7 +19440,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_POP
 )
 <
@@ -19462,7 +19462,7 @@ top
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 if
@@ -19471,7 +19471,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 )
 )
@@ -19483,11 +19483,11 @@ if
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_PCBASE
 CG_OFFSET
 (
-cg
+bce
 )
 -
 top
@@ -19504,7 +19504,7 @@ if
 EmitElemOpBase
 (
 cx
-cg
+bce
 JSOP_ENUMELEM
 )
 )
@@ -19535,9 +19535,9 @@ EmitDestructuringOpsHelper
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 pn
@@ -19561,7 +19561,7 @@ DEBUG
 intN
 stackDepth
 =
-cg
+bce
 -
 >
 stackDepth
@@ -19622,7 +19622,7 @@ return
 Emit1
 (
 cx
-cg
+bce
 JSOP_DUP
 )
 >
@@ -19633,7 +19633,7 @@ JSOP_DUP
 Emit1
 (
 cx
-cg
+bce
 JSOP_POP
 )
 >
@@ -19678,7 +19678,7 @@ pn_head
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_CONTINUE
 )
 <
@@ -19692,7 +19692,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_DUP
 )
 <
@@ -19723,7 +19723,7 @@ EmitNumberOp
 (
 cx
 index
-cg
+bce
 )
 )
 return
@@ -19781,7 +19781,7 @@ if
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_INITPROP
 )
 <
@@ -19800,7 +19800,7 @@ pn3
 -
 >
 pn_dval
-cg
+bce
 )
 )
 return
@@ -19837,7 +19837,7 @@ EmitAtomOp
 cx
 pn3
 JSOP_GETPROP
-cg
+bce
 )
 )
 return
@@ -19867,7 +19867,7 @@ if
 EmitElemOpBase
 (
 cx
-cg
+bce
 JSOP_GETELEM
 )
 )
@@ -19876,7 +19876,7 @@ JS_FALSE
 ;
 JS_ASSERT
 (
-cg
+bce
 -
 >
 stackDepth
@@ -19932,7 +19932,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_POP
 )
 <
@@ -19950,7 +19950,7 @@ if
 EmitDestructuringLHS
 (
 cx
-cg
+bce
 pn3
 )
 )
@@ -19960,7 +19960,7 @@ JS_FALSE
 }
 JS_ASSERT
 (
-cg
+bce
 -
 >
 stackDepth
@@ -20023,9 +20023,9 @@ EmitDestructuringOps
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSOp
 prologOp
 ParseNode
@@ -20038,7 +20038,7 @@ if
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_DESTRUCT
 OpToDeclType
 (
@@ -20055,7 +20055,7 @@ return
 EmitDestructuringOpsHelper
 (
 cx
-cg
+bce
 pn
 )
 ;
@@ -20067,9 +20067,9 @@ EmitGroupAssignment
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSOp
 prologOp
 ParseNode
@@ -20097,7 +20097,7 @@ limit
 (
 uintN
 )
-cg
+bce
 -
 >
 stackDepth
@@ -20137,7 +20137,7 @@ ReportCompileErrorNumber
 cx
 CG_TS
 (
-cg
+bce
 )
 rhs
 JSREPORT_ERROR
@@ -20177,7 +20177,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 )
 )
@@ -20194,7 +20194,7 @@ if
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_GROUPASSIGN
 OpToDeclType
 (
@@ -20246,7 +20246,7 @@ slot
 AdjustBlockSlot
 (
 cx
-cg
+bce
 i
 )
 ;
@@ -20290,7 +20290,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_POP
 )
 <
@@ -20308,7 +20308,7 @@ if
 EmitDestructuringLHS
 (
 cx
-cg
+bce
 pn
 )
 )
@@ -20329,7 +20329,7 @@ JSOP_POPN
 nslots
 )
 ;
-cg
+bce
 -
 >
 stackDepth
@@ -20350,9 +20350,9 @@ MaybeEmitGroupAssignment
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSOp
 prologOp
 ParseNode
@@ -20459,7 +20459,7 @@ if
 EmitGroupAssignment
 (
 cx
-cg
+bce
 prologOp
 lhs
 rhs
@@ -20487,9 +20487,9 @@ EmitVariables
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 pn
@@ -20658,7 +20658,7 @@ if
 EmitDestructuringDecls
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -20785,7 +20785,7 @@ if
 MaybeEmitGroupAssignment
 (
 cx
-cg
+bce
 inLetHead
 ?
 JSOP_POP
@@ -20848,7 +20848,7 @@ if
 EmitDestructuringDecls
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -20867,7 +20867,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 -
 >
@@ -20883,7 +20883,7 @@ if
 EmitDestructuringOps
 (
 cx
-cg
+bce
 inLetHead
 ?
 JSOP_POP
@@ -20925,7 +20925,7 @@ if
 BindNameToSlot
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -21006,7 +21006,7 @@ if
 MaybeEmitVarDecl
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -21090,7 +21090,7 @@ JSOP_DEFCONST
 DefineCompileTimeConstant
 (
 cx
-cg
+bce
 pn2
 -
 >
@@ -21105,12 +21105,12 @@ JS_FALSE
 }
 oldflags
 =
-cg
+bce
 -
 >
 flags
 ;
-cg
+bce
 -
 >
 flags
@@ -21125,14 +21125,14 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn3
 )
 )
 return
 JS_FALSE
 ;
-cg
+bce
 -
 >
 flags
@@ -21198,7 +21198,7 @@ inLetHead
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_DECL
 (
 pn
@@ -21247,7 +21247,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 op
 )
 <
@@ -21298,7 +21298,7 @@ tmp
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 if
@@ -21315,7 +21315,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 (
 uintN
 )
@@ -21346,7 +21346,7 @@ noteIndex
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_PCDELTA
 0
 )
@@ -21361,7 +21361,7 @@ noteIndex
 Emit1
 (
 cx
-cg
+bce
 JSOP_POP
 )
 <
@@ -21382,7 +21382,7 @@ headNoteIndex
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_DECL
 )
 ;
@@ -21412,7 +21412,7 @@ return
 Emit1
 (
 cx
-cg
+bce
 JSOP_NOP
 )
 >
@@ -21435,7 +21435,7 @@ PNX_POPVAR
 Emit1
 (
 cx
-cg
+bce
 JSOP_POP
 )
 >
@@ -21450,9 +21450,9 @@ EmitAssignment
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 lhs
@@ -21468,7 +21468,7 @@ top
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 jsatomid
@@ -21504,7 +21504,7 @@ if
 BindNameToSlot
 (
 cx
-cg
+bce
 lhs
 )
 )
@@ -21541,7 +21541,7 @@ else
 if
 (
 !
-cg
+bce
 -
 >
 makeAtomIndex
@@ -21606,7 +21606,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 lhs
 -
 >
@@ -21625,7 +21625,7 @@ offset
 if
 (
 !
-cg
+bce
 -
 >
 makeAtomIndex
@@ -21663,7 +21663,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 lhs
 -
 >
@@ -21679,7 +21679,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 lhs
 -
 >
@@ -21718,7 +21718,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 lhs
 )
 )
@@ -21740,7 +21740,7 @@ TOK_UNARYOP
 JS_ASSERT
 (
 !
-cg
+bce
 -
 >
 inStrictMode
@@ -21765,7 +21765,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 lhs
 -
 >
@@ -21780,7 +21780,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_BINDXMLNAME
 )
 <
@@ -21857,7 +21857,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_CALLEE
 )
 <
@@ -21899,7 +21899,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_DUP
 )
 <
@@ -21933,7 +21933,7 @@ if
 BindGlobal
 (
 cx
-cg
+bce
 lhs
 lhs
 -
@@ -21949,7 +21949,7 @@ EmitAtomOp
 cx
 lhs
 JSOP_GETGNAME
-cg
+bce
 )
 ;
 }
@@ -21982,7 +21982,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_DUP
 )
 <
@@ -22018,7 +22018,7 @@ EmitIndexOp
 cx
 JSOP_QNAMEPART
 atomIndex
-cg
+bce
 )
 )
 return
@@ -22030,7 +22030,7 @@ if
 EmitElemOpBase
 (
 cx
-cg
+bce
 JSOP_GETELEM
 )
 )
@@ -22093,7 +22093,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_DUP2
 )
 <
@@ -22108,7 +22108,7 @@ if
 EmitElemOpBase
 (
 cx
-cg
+bce
 JSOP_GETELEM
 )
 )
@@ -22133,7 +22133,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 rhs
 )
 )
@@ -22148,7 +22148,7 @@ if
 Emit2
 (
 cx
-cg
+bce
 JSOP_ITERNEXT
 offset
 )
@@ -22193,7 +22193,7 @@ if
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_ASSIGNOP
 )
 <
@@ -22208,7 +22208,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 op
 )
 <
@@ -22258,11 +22258,11 @@ endif
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_PCBASE
 CG_OFFSET
 (
-cg
+bce
 )
 -
 top
@@ -22309,7 +22309,7 @@ ReportCompileErrorNumber
 cx
 CG_TS
 (
-cg
+bce
 )
 lhs
 JSREPORT_ERROR
@@ -22350,7 +22350,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_SETELEM
 )
 <
@@ -22376,7 +22376,7 @@ if
 EmitDestructuringOps
 (
 cx
-cg
+bce
 JSOP_SETNAME
 lhs
 )
@@ -22397,7 +22397,7 @@ TOK_UNARYOP
 JS_ASSERT
 (
 !
-cg
+bce
 -
 >
 inStrictMode
@@ -22410,7 +22410,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_SETXMLNAME
 )
 <
@@ -22447,9 +22447,9 @@ static
 JSBool
 GettableNoteForNextOp
 (
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 {
 ptrdiff_t
@@ -22470,7 +22470,7 @@ target
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 for
@@ -22479,7 +22479,7 @@ sn
 =
 CG_NOTES
 (
-cg
+bce
 )
 end
 =
@@ -22487,7 +22487,7 @@ sn
 +
 CG_NOTE_COUNT
 (
-cg
+bce
 )
 ;
 sn
@@ -22540,9 +22540,9 @@ EmitFunctionDefNop
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 uintN
 index
 )
@@ -22551,7 +22551,7 @@ return
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_FUNCDEF
 (
 ptrdiff_t
@@ -22566,7 +22566,7 @@ index
 Emit1
 (
 cx
-cg
+bce
 JSOP_NOP
 )
 >
@@ -22581,9 +22581,9 @@ EmitNewInit
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSProtoKey
 key
 ParseNode
@@ -22598,7 +22598,7 @@ if
 Emit3
 (
 cx
-cg
+bce
 JSOP_NEWINIT
 (
 jsbytecode
@@ -22617,7 +22617,7 @@ if
 JS_HAS_SHARP_VARS
 if
 (
-cg
+bce
 -
 >
 hasSharps
@@ -22638,7 +22638,7 @@ pn_count
 EMIT_UINT16_IMM_OP
 (
 JSOP_SHARPINIT
-cg
+bce
 -
 >
 sharpSlotBase
@@ -22654,7 +22654,7 @@ sharpnum
 EMIT_UINT16PAIR_IMM_OP
 (
 JSOP_DEFSHARP
-cg
+bce
 -
 >
 sharpSlotBase
@@ -22685,9 +22685,9 @@ EmitEndInit
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 uint32
 count
 )
@@ -22697,7 +22697,7 @@ if
 JS_HAS_SHARP_VARS
 if
 (
-cg
+bce
 -
 >
 hasSharps
@@ -22713,7 +22713,7 @@ count
 EMIT_UINT16_IMM_OP
 (
 JSOP_SHARPINIT
-cg
+bce
 -
 >
 sharpSlotBase
@@ -22725,7 +22725,7 @@ return
 Emit1
 (
 cx
-cg
+bce
 JSOP_ENDINIT
 )
 >
@@ -23297,9 +23297,9 @@ EmitSingletonInitialiser
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 pn
@@ -23317,7 +23317,7 @@ pn
 getConstantValue
 (
 cx
-cg
+bce
 -
 >
 needStrictChecks
@@ -23343,7 +23343,7 @@ ObjectBox
 *
 objbox
 =
-cg
+bce
 -
 >
 parser
@@ -23373,7 +23373,7 @@ EmitObjectOp
 cx
 objbox
 JSOP_OBJECT
-cg
+bce
 )
 ;
 }
@@ -23396,25 +23396,25 @@ JSOP_POP_LENGTH
 class
 EmitLevelManager
 {
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ;
 public
 :
 EmitLevelManager
 (
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 :
-cg
+bce
 (
-cg
+bce
 )
 {
-cg
+bce
 -
 >
 emitLevel
@@ -23427,7 +23427,7 @@ EmitLevelManager
 (
 )
 {
-cg
+bce
 -
 >
 emitLevel
@@ -23444,9 +23444,9 @@ EmitCatch
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 pn
@@ -23460,7 +23460,7 @@ StmtInfo
 *
 stmt
 =
-cg
+bce
 -
 >
 topStmt
@@ -23532,7 +23532,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_EXCEPTION
 )
 <
@@ -23552,7 +23552,7 @@ pn_kid2
 Emit1
 (
 cx
-cg
+bce
 JSOP_DUP
 )
 <
@@ -23595,7 +23595,7 @@ if
 EmitDestructuringOps
 (
 cx
-cg
+bce
 JSOP_NOP
 pn2
 )
@@ -23608,7 +23608,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_POP
 )
 <
@@ -23674,7 +23674,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -23690,7 +23690,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 CATCHNOTE
 (
 *
@@ -23699,7 +23699,7 @@ stmt
 0
 CG_OFFSET
 (
-cg
+bce
 )
 -
 catchStart
@@ -23713,7 +23713,7 @@ guardJump
 EmitJump
 (
 cx
-cg
+bce
 JSOP_IFEQ
 0
 )
@@ -23740,7 +23740,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_POP
 )
 <
@@ -23756,7 +23756,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -23769,7 +23769,7 @@ false
 ptrdiff_t
 off
 =
-cg
+bce
 -
 >
 stackDepth
@@ -23779,7 +23779,7 @@ if
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_CATCH
 off
 )
@@ -23800,9 +23800,9 @@ EmitTry
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 pn
@@ -23819,7 +23819,7 @@ catchJump
 ;
 PushStatement
 (
-cg
+bce
 &
 stmtInfo
 pn
@@ -23832,14 +23832,14 @@ STMT_FINALLY
 STMT_TRY
 CG_OFFSET
 (
-cg
+bce
 )
 )
 ;
 intN
 depth
 =
-cg
+bce
 -
 >
 stackDepth
@@ -23849,7 +23849,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_TRY
 )
 <
@@ -23863,7 +23863,7 @@ tryStart
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 if
@@ -23872,7 +23872,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -23887,7 +23887,7 @@ JS_ASSERT
 depth
 =
 =
-cg
+bce
 -
 >
 stackDepth
@@ -23906,7 +23906,7 @@ if
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_HIDDEN
 )
 <
@@ -23920,7 +23920,7 @@ if
 EmitBackPatchOp
 (
 cx
-cg
+bce
 JSOP_BACKPATCH
 &
 GOSUBS
@@ -23940,7 +23940,7 @@ if
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_HIDDEN
 )
 <
@@ -23954,7 +23954,7 @@ if
 EmitBackPatchOp
 (
 cx
-cg
+bce
 JSOP_BACKPATCH
 &
 catchJump
@@ -23970,7 +23970,7 @@ tryEnd
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 ObjectBox
@@ -24029,7 +24029,7 @@ catchNote
 ;
 JS_ASSERT
 (
-cg
+bce
 -
 >
 stackDepth
@@ -24059,7 +24059,7 @@ if
 EmitKnownBlockChain
 (
 cx
-cg
+bce
 prevBox
 )
 <
@@ -24071,11 +24071,11 @@ false
 CHECK_AND_SET_JUMP_OFFSET_AT
 (
 cx
-cg
+bce
 guardJump
 )
 ;
-cg
+bce
 -
 >
 stackDepth
@@ -24091,7 +24091,7 @@ if
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_HIDDEN
 )
 <
@@ -24101,7 +24101,7 @@ SRC_HIDDEN
 Emit1
 (
 cx
-cg
+bce
 JSOP_THROWING
 )
 <
@@ -24117,7 +24117,7 @@ if
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_HIDDEN
 )
 <
@@ -24132,7 +24132,7 @@ if
 EmitLeaveBlock
 (
 cx
-cg
+bce
 JSOP_LEAVEBLOCK
 prevBox
 )
@@ -24142,7 +24142,7 @@ false
 ;
 JS_ASSERT
 (
-cg
+bce
 -
 >
 stackDepth
@@ -24157,7 +24157,7 @@ catchNote
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_CATCH
 0
 )
@@ -24216,7 +24216,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn3
 )
 )
@@ -24236,7 +24236,7 @@ if
 EmitBackPatchOp
 (
 cx
-cg
+bce
 JSOP_BACKPATCH
 &
 GOSUBS
@@ -24252,7 +24252,7 @@ false
 ;
 JS_ASSERT
 (
-cg
+bce
 -
 >
 stackDepth
@@ -24267,7 +24267,7 @@ if
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_HIDDEN
 )
 <
@@ -24281,7 +24281,7 @@ if
 EmitBackPatchOp
 (
 cx
-cg
+bce
 JSOP_BACKPATCH
 &
 catchJump
@@ -24319,7 +24319,7 @@ if
 EmitKnownBlockChain
 (
 cx
-cg
+bce
 prevBox
 )
 <
@@ -24331,7 +24331,7 @@ false
 CHECK_AND_SET_JUMP_OFFSET_AT
 (
 cx
-cg
+bce
 GUARDJUMP
 (
 stmtInfo
@@ -24340,7 +24340,7 @@ stmtInfo
 ;
 JS_ASSERT
 (
-cg
+bce
 -
 >
 stackDepth
@@ -24349,7 +24349,7 @@ stackDepth
 depth
 )
 ;
-cg
+bce
 -
 >
 stackDepth
@@ -24363,7 +24363,7 @@ if
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_HIDDEN
 )
 <
@@ -24373,7 +24373,7 @@ SRC_HIDDEN
 Emit1
 (
 cx
-cg
+bce
 JSOP_THROW
 )
 <
@@ -24387,7 +24387,7 @@ if
 EmitBlockChain
 (
 cx
-cg
+bce
 )
 <
 0
@@ -24398,7 +24398,7 @@ false
 }
 JS_ASSERT
 (
-cg
+bce
 -
 >
 stackDepth
@@ -24426,14 +24426,14 @@ if
 BackPatch
 (
 cx
-cg
+bce
 GOSUBS
 (
 stmtInfo
 )
 CG_NEXT
 (
-cg
+bce
 )
 JSOP_GOSUB
 )
@@ -24445,7 +24445,7 @@ finallyStart
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 stmtInfo
@@ -24460,7 +24460,7 @@ if
 UpdateLineNumberNotes
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -24482,7 +24482,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_FINALLY
 )
 <
@@ -24493,7 +24493,7 @@ JSOP_FINALLY
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -24504,7 +24504,7 @@ pn_kid3
 Emit1
 (
 cx
-cg
+bce
 JSOP_RETSUB
 )
 <
@@ -24517,7 +24517,7 @@ false
 }
 JS_ASSERT
 (
-cg
+bce
 -
 >
 stackDepth
@@ -24533,7 +24533,7 @@ if
 PopStatementCG
 (
 cx
-cg
+bce
 )
 )
 return
@@ -24544,7 +24544,7 @@ if
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_ENDBRACE
 )
 <
@@ -24554,7 +24554,7 @@ SRC_ENDBRACE
 Emit1
 (
 cx
-cg
+bce
 JSOP_NOP
 )
 <
@@ -24569,11 +24569,11 @@ if
 BackPatch
 (
 cx
-cg
+bce
 catchJump
 CG_NEXT
 (
-cg
+bce
 )
 JSOP_GOTO
 )
@@ -24593,7 +24593,7 @@ pn_kid2
 NewTryNote
 (
 cx
-cg
+bce
 JSTRY_CATCH
 depth
 tryStart
@@ -24615,7 +24615,7 @@ pn_kid3
 NewTryNote
 (
 cx
-cg
+bce
 JSTRY_FINALLY
 depth
 tryStart
@@ -24636,9 +24636,9 @@ EmitIf
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 pn
@@ -24679,7 +24679,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -24694,7 +24694,7 @@ top
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 if
@@ -24709,7 +24709,7 @@ STMT_IF
 {
 PushStatement
 (
-cg
+bce
 &
 stmtInfo
 STMT_IF
@@ -24747,7 +24747,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 noteIndex
 0
 jmp
@@ -24764,7 +24764,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 noteIndex
 1
 top
@@ -24790,7 +24790,7 @@ noteIndex
 NewSrcNote
 (
 cx
-cg
+bce
 pn3
 ?
 SRC_IF_ELSE
@@ -24812,7 +24812,7 @@ beq
 EmitJump
 (
 cx
-cg
+bce
 JSOP_IFEQ
 0
 )
@@ -24832,7 +24832,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -24858,7 +24858,7 @@ jmp
 EmitGoto
 (
 cx
-cg
+bce
 &
 stmtInfo
 &
@@ -24879,7 +24879,7 @@ JS_FALSE
 CHECK_AND_SET_JUMP_OFFSET_AT
 (
 cx
-cg
+bce
 beq
 )
 ;
@@ -24908,7 +24908,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn3
 )
 )
@@ -24921,7 +24921,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 noteIndex
 0
 jmp
@@ -24938,7 +24938,7 @@ else
 CHECK_AND_SET_JUMP_OFFSET_AT
 (
 cx
-cg
+bce
 beq
 )
 ;
@@ -24947,7 +24947,7 @@ return
 PopStatementCG
 (
 cx
-cg
+bce
 )
 ;
 }
@@ -24961,9 +24961,9 @@ EmitLet
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 &
@@ -25028,7 +25028,7 @@ pn2
 |
 |
 (
-cg
+bce
 -
 >
 flags
@@ -25047,7 +25047,7 @@ tps
 popBlock
 (
 cx
-cg
+bce
 )
 )
 return
@@ -25062,7 +25062,7 @@ if
 EmitVariables
 (
 cx
-cg
+bce
 pn
 pn2
 !
@@ -25080,7 +25080,7 @@ tmp
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 if
@@ -25094,7 +25094,7 @@ tps
 repushBlock
 (
 cx
-cg
+bce
 )
 )
 return
@@ -25109,7 +25109,7 @@ pn2
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -25128,7 +25128,7 @@ noteIndex
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 (
 uintN
 )
@@ -25136,7 +25136,7 @@ noteIndex
 0
 CG_OFFSET
 (
-cg
+bce
 )
 -
 tmp
@@ -25161,9 +25161,9 @@ EmitXMLTag
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 pn
@@ -25172,7 +25172,7 @@ pn
 JS_ASSERT
 (
 !
-cg
+bce
 -
 >
 inStrictMode
@@ -25185,7 +25185,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_STARTXML
 )
 <
@@ -25235,7 +25235,7 @@ stagoAtom
 if
 (
 !
-cg
+bce
 -
 >
 makeAtomIndex
@@ -25289,7 +25289,7 @@ TOK_LC
 Emit1
 (
 cx
-cg
+bce
 JSOP_STARTXMLEXPR
 )
 <
@@ -25304,7 +25304,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -25316,7 +25316,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_ADD
 )
 <
@@ -25367,7 +25367,7 @@ TOK_LC
 Emit1
 (
 cx
-cg
+bce
 JSOP_STARTXMLEXPR
 )
 <
@@ -25382,7 +25382,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -25412,7 +25412,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_TOATTRVAL
 )
 <
@@ -25427,7 +25427,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 (
 i
 &
@@ -25486,7 +25486,7 @@ tagcAtom
 if
 (
 !
-cg
+bce
 -
 >
 makeAtomIndex
@@ -25511,7 +25511,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_ADD
 )
 <
@@ -25535,7 +25535,7 @@ PNX_XMLROOT
 Emit1
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -25560,9 +25560,9 @@ EmitXMLProcessingInstruction
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 pn
@@ -25571,7 +25571,7 @@ pn
 JS_ASSERT
 (
 !
-cg
+bce
 -
 >
 inStrictMode
@@ -25585,7 +25585,7 @@ index
 if
 (
 !
-cg
+bce
 -
 >
 makeAtomIndex
@@ -25609,7 +25609,7 @@ EmitIndexOp
 cx
 JSOP_QNAMEPART
 index
-cg
+bce
 )
 )
 return
@@ -25623,7 +25623,7 @@ EmitAtomOp
 cx
 pn
 JSOP_XMLPI
-cg
+bce
 )
 )
 return
@@ -25642,9 +25642,9 @@ EmitLexicalScope
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 pn
@@ -25671,13 +25671,13 @@ pn_objbox
 ;
 PushBlockScope
 (
-cg
+bce
 &
 stmtInfo
 objbox
 CG_OFFSET
 (
-cg
+bce
 )
 )
 ;
@@ -25733,7 +25733,7 @@ down
 )
 ?
 !
-cg
+bce
 -
 >
 inFunction
@@ -25762,7 +25762,7 @@ JS_ASSERT
 (
 CG_NOTE_COUNT
 (
-cg
+bce
 )
 =
 =
@@ -25771,20 +25771,20 @@ cg
 |
 CG_LAST_NOTE_OFFSET
 (
-cg
+bce
 )
 !
 =
 CG_OFFSET
 (
-cg
+bce
 )
 |
 |
 !
 GettableNoteForNextOp
 (
-cg
+bce
 )
 )
 ;
@@ -25795,7 +25795,7 @@ noteIndex
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_BRACE
 0
 )
@@ -25815,7 +25815,7 @@ top
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 if
@@ -25825,7 +25825,7 @@ EmitEnterBlock
 (
 cx
 pn
-cg
+bce
 )
 )
 return
@@ -25837,7 +25837,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -25870,11 +25870,11 @@ if
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_PCBASE
 CG_OFFSET
 (
-cg
+bce
 )
 -
 top
@@ -25900,7 +25900,7 @@ noteIndex
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 (
 uintN
 )
@@ -25908,7 +25908,7 @@ noteIndex
 0
 CG_OFFSET
 (
-cg
+bce
 )
 -
 top
@@ -25924,7 +25924,7 @@ if
 EmitLeaveBlock
 (
 cx
-cg
+bce
 op
 objbox
 )
@@ -25937,7 +25937,7 @@ ok
 PopStatementCG
 (
 cx
-cg
+bce
 )
 ;
 return
@@ -25951,9 +25951,9 @@ EmitWith
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 pn
@@ -25971,7 +25971,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -25983,13 +25983,13 @@ false
 ;
 PushStatement
 (
-cg
+bce
 &
 stmtInfo
 STMT_WITH
 CG_OFFSET
 (
-cg
+bce
 )
 )
 ;
@@ -25998,7 +25998,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_ENTERWITH
 )
 <
@@ -26012,7 +26012,7 @@ if
 EmitBlockChain
 (
 cx
-cg
+bce
 )
 <
 0
@@ -26026,7 +26026,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -26041,7 +26041,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_LEAVEWITH
 )
 <
@@ -26055,7 +26055,7 @@ ok
 PopStatementCG
 (
 cx
-cg
+bce
 )
 ;
 return
@@ -26069,9 +26069,9 @@ EmitForIn
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 pn
@@ -26084,7 +26084,7 @@ stmtInfo
 ;
 PushStatement
 (
-cg
+bce
 &
 stmtInfo
 STMT_FOR_IN_LOOP
@@ -26149,7 +26149,7 @@ isKind
 TOK_LET
 )
 ;
-cg
+bce
 -
 >
 flags
@@ -26163,14 +26163,14 @@ if
 EmitTree
 (
 cx
-cg
+bce
 decl
 )
 )
 return
 false
 ;
-cg
+bce
 -
 >
 flags
@@ -26195,7 +26195,7 @@ tps
 popBlock
 (
 cx
-cg
+bce
 )
 )
 return
@@ -26207,7 +26207,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 forHead
 -
 >
@@ -26228,7 +26228,7 @@ tps
 repushBlock
 (
 cx
-cg
+bce
 )
 )
 return
@@ -26251,7 +26251,7 @@ if
 Emit2
 (
 cx
-cg
+bce
 JSOP_ITER
 (
 uint8
@@ -26273,7 +26273,7 @@ noteIndex
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_FOR_IN
 )
 ;
@@ -26292,7 +26292,7 @@ jmp
 EmitJump
 (
 cx
-cg
+bce
 JSOP_GOTO
 0
 )
@@ -26312,7 +26312,7 @@ noteIndex2
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_TRACE
 )
 ;
@@ -26329,7 +26329,7 @@ top
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 SET_STATEMENT_TOP
@@ -26344,7 +26344,7 @@ if
 EmitTraceOp
 (
 cx
-cg
+bce
 NULL
 )
 <
@@ -26359,7 +26359,7 @@ DEBUG
 intN
 loopDepth
 =
-cg
+bce
 -
 >
 stackDepth
@@ -26372,7 +26372,7 @@ if
 EmitAssignment
 (
 cx
-cg
+bce
 forHead
 -
 >
@@ -26389,7 +26389,7 @@ tmp2
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 if
@@ -26403,7 +26403,7 @@ pn_kid1
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_DECL
 (
 forHead
@@ -26435,7 +26435,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_POP
 )
 <
@@ -26446,7 +26446,7 @@ false
 ;
 JS_ASSERT
 (
-cg
+bce
 -
 >
 stackDepth
@@ -26461,7 +26461,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 forBody
 )
 )
@@ -26484,7 +26484,7 @@ update
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 }
@@ -26515,7 +26515,7 @@ STMT_LABEL
 CHECK_AND_SET_JUMP_OFFSET_AT
 (
 cx
-cg
+bce
 jmp
 )
 ;
@@ -26524,7 +26524,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_MOREITER
 )
 <
@@ -26539,13 +26539,13 @@ beq
 EmitJump
 (
 cx
-cg
+bce
 JSOP_IFNE
 top
 -
 CG_OFFSET
 (
-cg
+bce
 )
 )
 ;
@@ -26564,7 +26564,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 (
 uintN
 )
@@ -26584,7 +26584,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 (
 uintN
 )
@@ -26604,7 +26604,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 (
 uintN
 )
@@ -26624,7 +26624,7 @@ if
 PopStatementCG
 (
 cx
-cg
+bce
 )
 )
 return
@@ -26636,16 +26636,16 @@ if
 NewTryNote
 (
 cx
-cg
+bce
 JSTRY_ITER
-cg
+bce
 -
 >
 stackDepth
 top
 CG_OFFSET
 (
-cg
+bce
 )
 )
 )
@@ -26656,7 +26656,7 @@ return
 Emit1
 (
 cx
-cg
+bce
 JSOP_ENDITER
 )
 >
@@ -26671,9 +26671,9 @@ EmitNormalFor
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 pn
@@ -26686,7 +26686,7 @@ stmtInfo
 ;
 PushStatement
 (
-cg
+bce
 &
 stmtInfo
 STMT_FOR_LOOP
@@ -26738,7 +26738,7 @@ JSOP_NOP
 }
 else
 {
-cg
+bce
 -
 >
 flags
@@ -26764,7 +26764,7 @@ TOK_ASSIGN
 MaybeEmitGroupAssignment
 (
 cx
-cg
+bce
 op
 pn3
 &
@@ -26792,7 +26792,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn3
 )
 )
@@ -26838,7 +26838,7 @@ JSOP_NOP
 ;
 }
 }
-cg
+bce
 -
 >
 flags
@@ -26854,7 +26854,7 @@ noteIndex
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_FOR
 )
 ;
@@ -26868,7 +26868,7 @@ noteIndex
 Emit1
 (
 cx
-cg
+bce
 op
 )
 <
@@ -26882,7 +26882,7 @@ tmp
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 ptrdiff_t
@@ -26904,7 +26904,7 @@ jmp
 EmitJump
 (
 cx
-cg
+bce
 JSOP_GOTO
 0
 )
@@ -26923,7 +26923,7 @@ top
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 SET_STATEMENT_TOP
@@ -26939,7 +26939,7 @@ noteIndex2
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_TRACE
 )
 ;
@@ -26957,7 +26957,7 @@ if
 EmitTraceOp
 (
 cx
-cg
+bce
 forBody
 )
 <
@@ -26972,7 +26972,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 forBody
 )
 )
@@ -26993,7 +26993,7 @@ tmp2
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 StmtInfo
@@ -27012,7 +27012,7 @@ update
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 }
@@ -27074,7 +27074,7 @@ TOK_ASSIGN
 MaybeEmitGroupAssignment
 (
 cx
-cg
+bce
 op
 pn3
 &
@@ -27100,7 +27100,7 @@ JSOP_POP
 EmitTree
 (
 cx
-cg
+bce
 pn3
 )
 )
@@ -27112,7 +27112,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 op
 )
 <
@@ -27137,7 +27137,7 @@ if
 (
 CG_CURRENT_LINE
 (
-cg
+bce
 )
 !
 =
@@ -27152,7 +27152,7 @@ if
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_SETLINE
 lineno
 )
@@ -27164,7 +27164,7 @@ false
 ;
 CG_CURRENT_LINE
 (
-cg
+bce
 )
 =
 (
@@ -27179,7 +27179,7 @@ tmp3
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 if
@@ -27201,7 +27201,7 @@ jmp
 CHECK_AND_SET_JUMP_OFFSET_AT
 (
 cx
-cg
+bce
 jmp
 )
 ;
@@ -27211,7 +27211,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 forHead
 -
 >
@@ -27228,7 +27228,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 (
 uintN
 )
@@ -27236,7 +27236,7 @@ noteIndex2
 0
 CG_OFFSET
 (
-cg
+bce
 )
 -
 top
@@ -27251,7 +27251,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 (
 uintN
 )
@@ -27271,7 +27271,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 (
 uintN
 )
@@ -27291,7 +27291,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 (
 uintN
 )
@@ -27299,7 +27299,7 @@ noteIndex
 2
 CG_OFFSET
 (
-cg
+bce
 )
 -
 tmp
@@ -27324,13 +27324,13 @@ if
 EmitJump
 (
 cx
-cg
+bce
 op
 top
 -
 CG_OFFSET
 (
-cg
+bce
 )
 )
 <
@@ -27343,7 +27343,7 @@ return
 PopStatementCG
 (
 cx
-cg
+bce
 )
 ;
 }
@@ -27355,9 +27355,9 @@ EmitFor
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 pn
@@ -27380,7 +27380,7 @@ TOK_IN
 EmitForIn
 (
 cx
-cg
+bce
 pn
 top
 )
@@ -27388,7 +27388,7 @@ top
 EmitNormalFor
 (
 cx
-cg
+bce
 pn
 top
 )
@@ -27403,9 +27403,9 @@ EmitTree
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 ParseNode
 *
 pn
@@ -27465,7 +27465,7 @@ argc
 EmitLevelManager
 elm
 (
-cg
+bce
 )
 ;
 #
@@ -27497,13 +27497,13 @@ top
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 UPDATE_LINE_NUMBER_NOTES
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -27554,7 +27554,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_GETFUNNS
 )
 <
@@ -27613,7 +27613,7 @@ JSOP_NOP
 ;
 JS_ASSERT
 (
-cg
+bce
 -
 >
 inFunction
@@ -27627,7 +27627,7 @@ if
 EmitFunctionDefNop
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -27662,19 +27662,19 @@ kind
 JSFUN_INTERPRETED
 )
 ;
-CodeGenerator
+BytecodeEmitter
 *
-cg2
+bce2
 =
 cx
 -
 >
 new_
 <
-CodeGenerator
+BytecodeEmitter
 >
 (
-cg
+bce
 -
 >
 parser
@@ -27691,7 +27691,7 @@ lineno
 if
 (
 !
-cg2
+bce2
 )
 {
 js_ReportOutOfMemory
@@ -27706,7 +27706,7 @@ JS_FALSE
 if
 (
 !
-cg2
+bce2
 -
 >
 init
@@ -27717,7 +27717,7 @@ cx
 return
 JS_FALSE
 ;
-cg2
+bce2
 -
 >
 flags
@@ -27735,7 +27735,7 @@ TCF_COMPILING
 TCF_IN_FUNCTION
 |
 (
-cg
+bce
 -
 >
 flags
@@ -27743,7 +27743,7 @@ flags
 TCF_FUN_MIGHT_ALIAS_LOCALS
 )
 ;
-cg2
+bce2
 -
 >
 bindings
@@ -27766,7 +27766,7 @@ if
 JS_HAS_SHARP_VARS
 if
 (
-cg2
+bce2
 -
 >
 flags
@@ -27774,12 +27774,12 @@ flags
 TCF_HAS_SHARPS
 )
 {
-cg2
+bce2
 -
 >
 sharpSlotBase
 =
-cg2
+bce2
 -
 >
 bindings
@@ -27791,7 +27791,7 @@ cx
 ;
 if
 (
-cg2
+bce2
 -
 >
 sharpSlotBase
@@ -27804,7 +27804,7 @@ JS_FALSE
 }
 #
 endif
-cg2
+bce2
 -
 >
 setFunction
@@ -27812,7 +27812,7 @@ setFunction
 fun
 )
 ;
-cg2
+bce2
 -
 >
 funbox
@@ -27822,16 +27822,16 @@ pn
 >
 pn_funbox
 ;
-cg2
+bce2
 -
 >
 parent
 =
-cg
+bce
 ;
 JS_ASSERT
 (
-cg
+bce
 -
 >
 staticLevel
@@ -27844,12 +27844,12 @@ JS_BITMASK
 1
 )
 ;
-cg2
+bce2
 -
 >
 staticLevel
 =
-cg
+bce
 -
 >
 staticLevel
@@ -27862,7 +27862,7 @@ if
 EmitFunctionScript
 (
 cx
-cg2
+bce2
 pn
 -
 >
@@ -27878,10 +27878,10 @@ cx
 >
 delete_
 (
-cg2
+bce2
 )
 ;
-cg2
+bce2
 =
 NULL
 ;
@@ -27895,7 +27895,7 @@ JS_FALSE
 ;
 index
 =
-cg
+bce
 -
 >
 objectList
@@ -27943,7 +27943,7 @@ TCF_GENEXP_LAMBDA
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_GENEXP
 )
 <
@@ -27965,7 +27965,7 @@ if
 EmitBlockChain
 (
 cx
-cg
+bce
 )
 <
 0
@@ -27979,7 +27979,7 @@ break
 if
 (
 !
-cg
+bce
 -
 >
 inFunction
@@ -27990,7 +27990,7 @@ inFunction
 JS_ASSERT
 (
 !
-cg
+bce
 -
 >
 topStmt
@@ -28002,7 +28002,7 @@ if
 BindGlobal
 (
 cx
-cg
+bce
 pn
 fun
 -
@@ -28027,7 +28027,7 @@ isFree
 {
 CG_SWITCH_TO_PROLOG
 (
-cg
+bce
 )
 ;
 op
@@ -28054,7 +28054,7 @@ if
 EmitBlockChain
 (
 cx
-cg
+bce
 )
 <
 0
@@ -28064,7 +28064,7 @@ JS_FALSE
 ;
 CG_SWITCH_TO_MAIN
 (
-cg
+bce
 )
 ;
 }
@@ -28074,7 +28074,7 @@ if
 EmitFunctionDefNop
 (
 cx
-cg
+bce
 index
 )
 )
@@ -28090,7 +28090,7 @@ BindingKind
 >
 kind
 =
-cg
+bce
 -
 >
 bindings
@@ -28161,7 +28161,7 @@ isClosed
 &
 &
 !
-cg
+bce
 -
 >
 callsEval
@@ -28170,7 +28170,7 @@ callsEval
 &
 &
 !
-cg
+bce
 -
 >
 closedVars
@@ -28201,7 +28201,7 @@ cx
 op
 slot
 index
-cg
+bce
 )
 )
 return
@@ -28212,7 +28212,7 @@ if
 EmitBlockChain
 (
 cx
-cg
+bce
 )
 <
 0
@@ -28281,7 +28281,7 @@ if
 BindNameToSlot
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -28304,7 +28304,7 @@ getOp
 JOF_QARG
 &
 &
-cg
+bce
 -
 >
 shouldNoteClosedName
@@ -28316,7 +28316,7 @@ pn2
 if
 (
 !
-cg
+bce
 -
 >
 closedArgs
@@ -28343,7 +28343,7 @@ ok
 EmitTree
 (
 cx
-cg
+bce
 pnlast
 )
 ;
@@ -28369,7 +28369,7 @@ count
 0
 )
 ;
-cg
+bce
 -
 >
 roLexdeps
@@ -28384,14 +28384,14 @@ ok
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
 pn_tree
 )
 ;
-cg
+bce
 -
 >
 roLexdeps
@@ -28420,7 +28420,7 @@ ok
 EmitIf
 (
 cx
-cg
+bce
 pn
 )
 ;
@@ -28434,7 +28434,7 @@ ok
 EmitSwitch
 (
 cx
-cg
+bce
 pn
 )
 ;
@@ -28445,7 +28445,7 @@ TOK_WHILE
 :
 PushStatement
 (
-cg
+bce
 &
 stmtInfo
 STMT_WHILE_LOOP
@@ -28457,7 +28457,7 @@ noteIndex
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_WHILE
 )
 ;
@@ -28475,7 +28475,7 @@ jmp
 EmitJump
 (
 cx
-cg
+bce
 JSOP_GOTO
 0
 )
@@ -28494,7 +28494,7 @@ noteIndex2
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_TRACE
 )
 ;
@@ -28512,7 +28512,7 @@ top
 EmitTraceOp
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -28534,7 +28534,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -28547,7 +28547,7 @@ JS_FALSE
 CHECK_AND_SET_JUMP_OFFSET_AT
 (
 cx
-cg
+bce
 jmp
 )
 ;
@@ -28557,7 +28557,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -28572,13 +28572,13 @@ beq
 EmitJump
 (
 cx
-cg
+bce
 JSOP_IFNE
 top
 -
 CG_OFFSET
 (
-cg
+bce
 )
 )
 ;
@@ -28597,7 +28597,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 noteIndex2
 0
 beq
@@ -28614,7 +28614,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 noteIndex
 0
 beq
@@ -28630,7 +28630,7 @@ ok
 PopStatementCG
 (
 cx
-cg
+bce
 )
 ;
 break
@@ -28643,7 +28643,7 @@ noteIndex
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_WHILE
 )
 ;
@@ -28657,7 +28657,7 @@ noteIndex
 Emit1
 (
 cx
-cg
+bce
 JSOP_NOP
 )
 <
@@ -28671,7 +28671,7 @@ noteIndex2
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_TRACE
 )
 ;
@@ -28689,7 +28689,7 @@ top
 EmitTraceOp
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -28707,7 +28707,7 @@ JS_FALSE
 ;
 PushStatement
 (
-cg
+bce
 &
 stmtInfo
 STMT_DO_LOOP
@@ -28720,7 +28720,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -28734,7 +28734,7 @@ off
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 stmt
@@ -28782,7 +28782,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -28797,13 +28797,13 @@ beq
 EmitJump
 (
 cx
-cg
+bce
 JSOP_IFNE
 top
 -
 CG_OFFSET
 (
-cg
+bce
 )
 )
 ;
@@ -28822,7 +28822,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 noteIndex2
 0
 beq
@@ -28839,7 +28839,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 noteIndex
 0
 1
@@ -28859,7 +28859,7 @@ ok
 PopStatementCG
 (
 cx
-cg
+bce
 )
 ;
 break
@@ -28872,7 +28872,7 @@ ok
 EmitFor
 (
 cx
-cg
+bce
 pn
 top
 )
@@ -28885,7 +28885,7 @@ TOK_BREAK
 {
 stmt
 =
-cg
+bce
 -
 >
 topStmt
@@ -28908,7 +28908,7 @@ atom
 if
 (
 !
-cg
+bce
 -
 >
 makeAtomIndex
@@ -29004,7 +29004,7 @@ if
 EmitGoto
 (
 cx
-cg
+bce
 stmt
 &
 stmt
@@ -29029,7 +29029,7 @@ TOK_CONTINUE
 {
 stmt
 =
-cg
+bce
 -
 >
 topStmt
@@ -29058,7 +29058,7 @@ NULL
 if
 (
 !
-cg
+bce
 -
 >
 makeAtomIndex
@@ -29150,7 +29150,7 @@ if
 EmitGoto
 (
 cx
-cg
+bce
 stmt
 &
 stmt
@@ -29178,7 +29178,7 @@ if
 EmitWith
 (
 cx
-cg
+bce
 pn
 ok
 )
@@ -29197,7 +29197,7 @@ if
 EmitTry
 (
 cx
-cg
+bce
 pn
 )
 )
@@ -29215,7 +29215,7 @@ if
 EmitCatch
 (
 cx
-cg
+bce
 pn
 )
 )
@@ -29233,7 +29233,7 @@ if
 EmitVariables
 (
 cx
-cg
+bce
 pn
 JS_FALSE
 &
@@ -29266,7 +29266,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -29281,7 +29281,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_PUSH
 )
 <
@@ -29295,7 +29295,7 @@ top
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 if
@@ -29303,7 +29303,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_RETURN
 )
 <
@@ -29318,7 +29318,7 @@ if
 EmitNonLocalJumpFixup
 (
 cx
-cg
+bce
 NULL
 )
 )
@@ -29334,13 +29334,13 @@ JSOP_RETURN_LENGTH
 =
 CG_OFFSET
 (
-cg
+bce
 )
 )
 {
 CG_BASE
 (
-cg
+bce
 )
 [
 top
@@ -29353,7 +29353,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_RETRVAL
 )
 <
@@ -29367,7 +29367,7 @@ if
 EmitBlockChain
 (
 cx
-cg
+bce
 )
 <
 0
@@ -29386,7 +29386,7 @@ TOK_YIELD
 :
 JS_ASSERT
 (
-cg
+bce
 -
 >
 inFunction
@@ -29408,7 +29408,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -29426,7 +29426,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_PUSH
 )
 <
@@ -29447,7 +29447,7 @@ pn_hidden
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_HIDDEN
 )
 <
@@ -29461,7 +29461,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_YIELD
 )
 <
@@ -29498,7 +29498,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -29513,7 +29513,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -29552,7 +29552,7 @@ tmp
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 if
@@ -29570,7 +29570,7 @@ noteIndex
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_BRACE
 0
 )
@@ -29585,7 +29585,7 @@ noteIndex
 Emit1
 (
 cx
-cg
+bce
 JSOP_NOP
 )
 <
@@ -29597,7 +29597,7 @@ JS_FALSE
 }
 PushStatement
 (
-cg
+bce
 &
 stmtInfo
 STMT_BLOCK
@@ -29625,7 +29625,7 @@ PNX_FUNCDEFS
 {
 JS_ASSERT
 (
-cg
+bce
 -
 >
 inFunction
@@ -29674,7 +29674,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pnchild
 )
 )
@@ -29733,7 +29733,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -29780,7 +29780,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -29800,7 +29800,7 @@ noteIndex
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 (
 uintN
 )
@@ -29808,7 +29808,7 @@ noteIndex
 0
 CG_OFFSET
 (
-cg
+bce
 )
 -
 tmp
@@ -29822,7 +29822,7 @@ ok
 PopStatementCG
 (
 cx
-cg
+bce
 )
 ;
 break
@@ -29844,7 +29844,7 @@ PN_LIST
 ;
 PushStatement
 (
-cg
+bce
 &
 stmtInfo
 STMT_SEQ
@@ -29876,7 +29876,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -29889,7 +29889,7 @@ ok
 PopStatementCG
 (
 cx
-cg
+bce
 )
 ;
 break
@@ -29915,7 +29915,7 @@ wantval
 =
 !
 (
-cg
+bce
 -
 >
 flags
@@ -29939,7 +29939,7 @@ if
 CheckSideEffects
 (
 cx
-cg
+bce
 pn2
 &
 useful
@@ -29955,13 +29955,13 @@ if
 useful
 &
 &
-cg
+bce
 -
 >
 topStmt
 &
 &
-cg
+bce
 -
 >
 topStmt
@@ -29973,7 +29973,7 @@ type
 STMT_LABEL
 &
 &
-cg
+bce
 -
 >
 topStmt
@@ -29984,7 +29984,7 @@ update
 =
 CG_OFFSET
 (
-cg
+bce
 )
 )
 {
@@ -30012,7 +30012,7 @@ isDirectivePrologueMember
 {
 CG_CURRENT_LINE
 (
-cg
+bce
 )
 =
 pn2
@@ -30032,7 +30032,7 @@ ReportCompileErrorNumber
 cx
 CG_TS
 (
-cg
+bce
 )
 pn2
 JSREPORT_WARNING
@@ -30080,7 +30080,7 @@ TOK_ASSIGN
 MaybeEmitGroupAssignment
 (
 cx
-cg
+bce
 op
 pn2
 &
@@ -30182,7 +30182,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -30194,7 +30194,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 op
 )
 <
@@ -30224,7 +30224,7 @@ index
 if
 (
 !
-cg
+bce
 -
 >
 makeAtomIndex
@@ -30292,7 +30292,7 @@ noteIndex
 NewSrcNote2
 (
 cx
-cg
+bce
 noteType
 ptrdiff_t
 (
@@ -30310,7 +30310,7 @@ noteIndex
 Emit1
 (
 cx
-cg
+bce
 JSOP_NOP
 )
 <
@@ -30321,13 +30321,13 @@ JS_FALSE
 ;
 PushStatement
 (
-cg
+bce
 &
 stmtInfo
 STMT_LABEL
 CG_OFFSET
 (
-cg
+bce
 )
 )
 ;
@@ -30343,7 +30343,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -30356,7 +30356,7 @@ if
 PopStatementCG
 (
 cx
-cg
+bce
 )
 )
 return
@@ -30375,7 +30375,7 @@ if
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_ENDBRACE
 )
 <
@@ -30385,7 +30385,7 @@ SRC_ENDBRACE
 Emit1
 (
 cx
-cg
+bce
 JSOP_NOP
 )
 <
@@ -30433,7 +30433,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -30444,7 +30444,7 @@ tmp
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 if
@@ -30461,7 +30461,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 (
 uintN
 )
@@ -30495,7 +30495,7 @@ noteIndex
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_PCDELTA
 0
 )
@@ -30510,7 +30510,7 @@ noteIndex
 Emit1
 (
 cx
-cg
+bce
 JSOP_POP
 )
 <
@@ -30533,7 +30533,7 @@ if
 EmitAssignment
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -30564,7 +30564,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -30579,7 +30579,7 @@ noteIndex
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_COND
 )
 ;
@@ -30597,7 +30597,7 @@ beq
 EmitJump
 (
 cx
-cg
+bce
 JSOP_IFEQ
 0
 )
@@ -30613,7 +30613,7 @@ beq
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -30628,7 +30628,7 @@ jmp
 EmitJump
 (
 cx
-cg
+bce
 JSOP_GOTO
 0
 )
@@ -30645,13 +30645,13 @@ JS_FALSE
 CHECK_AND_SET_JUMP_OFFSET_AT
 (
 cx
-cg
+bce
 beq
 )
 ;
 JS_ASSERT
 (
-cg
+bce
 -
 >
 stackDepth
@@ -30659,7 +30659,7 @@ stackDepth
 0
 )
 ;
-cg
+bce
 -
 >
 stackDepth
@@ -30672,7 +30672,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -30685,7 +30685,7 @@ JS_FALSE
 CHECK_AND_SET_JUMP_OFFSET_AT
 (
 cx
-cg
+bce
 jmp
 )
 ;
@@ -30695,7 +30695,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 noteIndex
 0
 jmp
@@ -30731,7 +30731,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -30746,7 +30746,7 @@ top
 EmitJump
 (
 cx
-cg
+bce
 JSOP_BACKPATCH_POP
 0
 )
@@ -30766,7 +30766,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -30780,21 +30780,21 @@ off
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 pc
 =
 CG_CODE
 (
-cg
+bce
 top
 )
 ;
 CHECK_AND_SET_JUMP_OFFSET
 (
 cx
-cg
+bce
 pc
 off
 -
@@ -30852,7 +30852,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -30864,7 +30864,7 @@ top
 EmitJump
 (
 cx
-cg
+bce
 JSOP_BACKPATCH_POP
 0
 )
@@ -30903,7 +30903,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -30915,7 +30915,7 @@ off
 EmitJump
 (
 cx
-cg
+bce
 JSOP_BACKPATCH_POP
 0
 )
@@ -30935,10 +30935,10 @@ if
 SetBackPatchDelta
 (
 cx
-cg
+bce
 CG_CODE
 (
-cg
+bce
 jmp
 )
 off
@@ -30960,7 +30960,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -30978,7 +30978,7 @@ off
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 do
@@ -30987,7 +30987,7 @@ pc
 =
 CG_CODE
 (
-cg
+bce
 top
 )
 ;
@@ -30995,14 +30995,14 @@ tmp
 =
 GetJumpOffset
 (
-cg
+bce
 pc
 )
 ;
 CHECK_AND_SET_JUMP_OFFSET
 (
 cx
-cg
+bce
 pc
 off
 -
@@ -31103,7 +31103,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -31140,7 +31140,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -31152,7 +31152,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 op
 )
 <
@@ -31191,7 +31191,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -31216,7 +31216,7 @@ pn
 getOp
 (
 )
-cg
+bce
 )
 )
 return
@@ -31227,12 +31227,12 @@ break
 }
 oldflags
 =
-cg
+bce
 -
 >
 flags
 ;
-cg
+bce
 -
 >
 flags
@@ -31249,7 +31249,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -31265,7 +31265,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -31278,7 +31278,7 @@ JS_FALSE
 #
 if
 JS_HAS_XML_SUPPORT
-cg
+bce
 -
 >
 flags
@@ -31295,7 +31295,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -31372,7 +31372,7 @@ EmitXMLName
 cx
 pn
 op
-cg
+bce
 )
 )
 return
@@ -31413,12 +31413,12 @@ JSOP_TYPEOFEXPR
 ;
 oldflags
 =
-cg
+bce
 -
 >
 flags
 ;
-cg
+bce
 -
 >
 flags
@@ -31433,14 +31433,14 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
 return
 JS_FALSE
 ;
-cg
+bce
 -
 >
 flags
@@ -31455,7 +31455,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 op
 )
 <
@@ -31538,7 +31538,7 @@ if
 BindNameToSlot
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -31567,7 +31567,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 op
 )
 <
@@ -31646,7 +31646,7 @@ EmitNameIncDec
 cx
 pn2
 op
-cg
+bce
 )
 )
 return
@@ -31663,7 +31663,7 @@ EmitAtomOp
 cx
 pn2
 op
-cg
+bce
 )
 )
 return
@@ -31688,7 +31688,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_POS
 )
 <
@@ -31726,7 +31726,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_ONE
 )
 <
@@ -31757,7 +31757,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 op
 )
 <
@@ -31781,7 +31781,7 @@ EmitPropIncDec
 cx
 pn2
 op
-cg
+bce
 )
 )
 return
@@ -31800,7 +31800,7 @@ EmitElemIncDec
 cx
 pn2
 op
-cg
+bce
 )
 )
 return
@@ -31817,7 +31817,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -31829,11 +31829,11 @@ if
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_PCBASE
 CG_OFFSET
 (
-cg
+bce
 )
 -
 pn2
@@ -31852,7 +31852,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 op
 )
 <
@@ -31890,7 +31890,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 (
 JSOp
 )
@@ -31907,7 +31907,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_POP
 )
 <
@@ -31927,7 +31927,7 @@ TOK_UNARYOP
 JS_ASSERT
 (
 !
-cg
+bce
 -
 >
 inStrictMode
@@ -31952,7 +31952,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 -
 >
@@ -31967,7 +31967,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_BINDXMLNAME
 )
 <
@@ -31984,7 +31984,7 @@ EmitElemIncDec
 cx
 NULL
 op
-cg
+bce
 )
 )
 return
@@ -32026,7 +32026,7 @@ if
 BindNameToSlot
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -32055,7 +32055,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 op
 )
 <
@@ -32075,7 +32075,7 @@ EmitAtomOp
 cx
 pn2
 op
-cg
+bce
 )
 )
 return
@@ -32095,7 +32095,7 @@ EmitPropOp
 cx
 pn2
 JSOP_DELPROP
-cg
+bce
 JS_FALSE
 )
 )
@@ -32113,7 +32113,7 @@ TOK_DBLDOT
 JS_ASSERT
 (
 !
-cg
+bce
 -
 >
 inStrictMode
@@ -32129,7 +32129,7 @@ EmitElemOp
 cx
 pn2
 JSOP_DELDESC
-cg
+bce
 )
 )
 return
@@ -32150,7 +32150,7 @@ EmitElemOp
 cx
 pn2
 JSOP_DELELEM
-cg
+bce
 )
 )
 return
@@ -32170,7 +32170,7 @@ if
 CheckSideEffects
 (
 cx
-cg
+bce
 pn2
 &
 useful
@@ -32221,7 +32221,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -32232,7 +32232,7 @@ off
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 noteIndex
@@ -32240,7 +32240,7 @@ noteIndex
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_PCDELTA
 0
 )
@@ -32255,7 +32255,7 @@ noteIndex
 Emit1
 (
 cx
-cg
+bce
 JSOP_POP
 )
 <
@@ -32270,7 +32270,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_TRUE
 )
 <
@@ -32291,7 +32291,7 @@ tmp
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 if
@@ -32300,7 +32300,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 (
 uintN
 )
@@ -32327,7 +32327,7 @@ TOK_FILTER
 JS_ASSERT
 (
 !
-cg
+bce
 -
 >
 inStrictMode
@@ -32341,7 +32341,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -32356,7 +32356,7 @@ jmp
 EmitJump
 (
 cx
-cg
+bce
 JSOP_FILTER
 0
 )
@@ -32375,7 +32375,7 @@ top
 EmitTraceOp
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -32397,7 +32397,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -32410,7 +32410,7 @@ JS_FALSE
 CHECK_AND_SET_JUMP_OFFSET_AT
 (
 cx
-cg
+bce
 jmp
 )
 ;
@@ -32419,13 +32419,13 @@ if
 EmitJump
 (
 cx
-cg
+bce
 JSOP_ENDFILTER
 top
 -
 CG_OFFSET
 (
-cg
+bce
 )
 )
 <
@@ -32439,7 +32439,7 @@ if
 EmitBlockChain
 (
 cx
-cg
+bce
 )
 <
 0
@@ -32466,7 +32466,7 @@ pn
 getOp
 (
 )
-cg
+bce
 JS_FALSE
 )
 ;
@@ -32481,7 +32481,7 @@ TOK_DBLDOT
 JS_ASSERT
 (
 !
-cg
+bce
 -
 >
 inStrictMode
@@ -32506,7 +32506,7 @@ pn
 getOp
 (
 )
-cg
+bce
 )
 ;
 break
@@ -32555,7 +32555,7 @@ if
 EmitNameOp
 (
 cx
-cg
+bce
 pn2
 callop
 )
@@ -32581,7 +32581,7 @@ pn2
 getOp
 (
 )
-cg
+bce
 callop
 )
 )
@@ -32616,7 +32616,7 @@ callop
 JSOP_CALLELEM
 :
 JSOP_GETELEM
-cg
+bce
 )
 )
 return
@@ -32649,7 +32649,7 @@ EmitXMLName
 cx
 pn2
 JSOP_CALLXMLNAME
-cg
+bce
 )
 )
 return
@@ -32672,7 +32672,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -32695,7 +32695,7 @@ callop
 Emit1
 (
 cx
-cg
+bce
 JSOP_PUSH
 )
 <
@@ -32711,12 +32711,12 @@ top
 uintN
 oldflags
 =
-cg
+bce
 -
 >
 flags
 ;
-cg
+bce
 -
 >
 flags
@@ -32750,7 +32750,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn3
 )
 )
@@ -32758,7 +32758,7 @@ return
 JS_FALSE
 ;
 }
-cg
+bce
 -
 >
 flags
@@ -32773,11 +32773,11 @@ if
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_PCBASE
 CG_OFFSET
 (
-cg
+bce
 )
 -
 off
@@ -32802,7 +32802,7 @@ if
 Emit3
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -32827,7 +32827,7 @@ JS_FALSE
 CheckTypeSet
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -32865,7 +32865,7 @@ if
 EmitBlockChain
 (
 cx
-cg
+bce
 )
 <
 0
@@ -32889,7 +32889,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_SETCALL
 )
 <
@@ -32911,7 +32911,7 @@ if
 EmitLexicalScope
 (
 cx
-cg
+bce
 pn
 ok
 )
@@ -32933,7 +32933,7 @@ if
 EmitLet
 (
 cx
-cg
+bce
 pn
 )
 )
@@ -32960,7 +32960,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -32975,8 +32975,8 @@ slot
 AdjustBlockSlot
 (
 cx
-cg
-cg
+bce
+bce
 -
 >
 arrayCompDepth
@@ -33053,7 +33053,7 @@ if
 EmitNewInit
 (
 cx
-cg
+bce
 JSProto_Array
 pn
 sharpnum
@@ -33064,7 +33064,7 @@ JS_FALSE
 ;
 JS_ASSERT
 (
-cg
+bce
 -
 >
 stackDepth
@@ -33074,12 +33074,12 @@ stackDepth
 ;
 saveDepth
 =
-cg
+bce
 -
 >
 arrayCompDepth
 ;
-cg
+bce
 -
 >
 arrayCompDepth
@@ -33088,7 +33088,7 @@ arrayCompDepth
 uint32
 )
 (
-cg
+bce
 -
 >
 stackDepth
@@ -33102,7 +33102,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -33112,7 +33112,7 @@ pn_head
 return
 JS_FALSE
 ;
-cg
+bce
 -
 >
 arrayCompDepth
@@ -33125,7 +33125,7 @@ if
 EmitEndInit
 (
 cx
-cg
+bce
 1
 )
 )
@@ -33140,7 +33140,7 @@ endif
 if
 (
 !
-cg
+bce
 -
 >
 hasSharps
@@ -33165,7 +33165,7 @@ pn
 pn_head
 &
 &
-cg
+bce
 -
 >
 checkSingletonContext
@@ -33179,7 +33179,7 @@ if
 EmitSingletonInitialiser
 (
 cx
-cg
+bce
 pn
 )
 )
@@ -33191,7 +33191,7 @@ break
 }
 if
 (
-cg
+bce
 -
 >
 hasSharps
@@ -33205,7 +33205,7 @@ if
 EmitNewInit
 (
 cx
-cg
+bce
 JSProto_Array
 pn
 sharpnum
@@ -33223,7 +33223,7 @@ off
 EmitN
 (
 cx
-cg
+bce
 JSOP_NEWARRAY
 3
 )
@@ -33241,7 +33241,7 @@ pc
 =
 CG_CODE
 (
-cg
+bce
 off
 )
 ;
@@ -33288,7 +33288,7 @@ EmitNumberOp
 (
 cx
 atomIndex
-cg
+bce
 )
 )
 return
@@ -33319,7 +33319,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_HOLE
 )
 <
@@ -33337,7 +33337,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -33350,7 +33350,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_INITELEM
 )
 <
@@ -33386,7 +33386,7 @@ if
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_CONTINUE
 )
 <
@@ -33402,7 +33402,7 @@ if
 EmitEndInit
 (
 cx
-cg
+bce
 atomIndex
 )
 )
@@ -33445,7 +33445,7 @@ ReportCompileErrorNumber
 cx
 CG_TS
 (
-cg
+bce
 )
 pn
 JSREPORT_ERROR
@@ -33461,7 +33461,7 @@ endif
 if
 (
 !
-cg
+bce
 -
 >
 hasSharps
@@ -33486,7 +33486,7 @@ pn
 pn_head
 &
 &
-cg
+bce
 -
 >
 checkSingletonContext
@@ -33500,7 +33500,7 @@ if
 EmitSingletonInitialiser
 (
 cx
-cg
+bce
 pn
 )
 )
@@ -33515,12 +33515,12 @@ offset
 =
 CG_NEXT
 (
-cg
+bce
 )
 -
 CG_BASE
 (
-cg
+bce
 )
 ;
 if
@@ -33529,7 +33529,7 @@ if
 EmitNewInit
 (
 cx
-cg
+bce
 JSProto_Object
 pn
 sharpnum
@@ -33547,7 +33547,7 @@ NULL
 if
 (
 !
-cg
+bce
 -
 >
 hasSharps
@@ -33555,7 +33555,7 @@ hasSharps
 )
 &
 &
-cg
+bce
 -
 >
 compileAndGo
@@ -33652,7 +33652,7 @@ pn3
 -
 >
 pn_dval
-cg
+bce
 )
 )
 return
@@ -33665,7 +33665,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 -
 >
@@ -33707,7 +33707,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 op
 )
 <
@@ -33737,7 +33737,7 @@ if
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_INITPROP
 )
 <
@@ -33751,7 +33751,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_INITELEM
 )
 <
@@ -33789,7 +33789,7 @@ index
 if
 (
 !
-cg
+bce
 -
 >
 makeAtomIndex
@@ -33978,13 +33978,13 @@ index
 }
 if
 (
-cg
+bce
 -
 >
 funbox
 &
 &
-cg
+bce
 -
 >
 funbox
@@ -34006,7 +34006,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_UNBRAND
 )
 <
@@ -34022,7 +34022,7 @@ if
 EmitEndInit
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -34041,7 +34041,7 @@ ObjectBox
 *
 objbox
 =
-cg
+bce
 -
 >
 parser
@@ -34063,7 +34063,7 @@ JS_FALSE
 unsigned
 index
 =
-cg
+bce
 -
 >
 objectList
@@ -34102,7 +34102,7 @@ TOK_DEFSHARP
 :
 JS_ASSERT
 (
-cg
+bce
 -
 >
 hasSharps
@@ -34174,7 +34174,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn
 )
 )
@@ -34184,7 +34184,7 @@ JS_FALSE
 EMIT_UINT16PAIR_IMM_OP
 (
 JSOP_DEFSHARP
-cg
+bce
 -
 >
 sharpSlotBase
@@ -34201,7 +34201,7 @@ TOK_USESHARP
 :
 JS_ASSERT
 (
-cg
+bce
 -
 >
 hasSharps
@@ -34212,7 +34212,7 @@ hasSharps
 EMIT_UINT16PAIR_IMM_OP
 (
 JSOP_USESHARP
-cg
+bce
 -
 >
 sharpSlotBase
@@ -34250,7 +34250,7 @@ if
 EmitNameOp
 (
 cx
-cg
+bce
 pn
 JS_FALSE
 )
@@ -34281,7 +34281,7 @@ TOK_XMLCOMMENT
 JS_ASSERT
 (
 !
-cg
+bce
 -
 >
 inStrictMode
@@ -34306,7 +34306,7 @@ pn
 getOp
 (
 )
-cg
+bce
 )
 ;
 break
@@ -34323,7 +34323,7 @@ pn
 -
 >
 pn_dval
-cg
+bce
 )
 ;
 break
@@ -34348,7 +34348,7 @@ EmitIndexOp
 (
 cx
 JSOP_REGEXP
-cg
+bce
 -
 >
 regexpList
@@ -34360,7 +34360,7 @@ pn
 >
 pn_objbox
 )
-cg
+bce
 )
 ;
 break
@@ -34381,7 +34381,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -34405,7 +34405,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_DEBUGGER
 )
 <
@@ -34428,7 +34428,7 @@ TOK_XMLLIST
 JS_ASSERT
 (
 !
-cg
+bce
 -
 >
 inStrictMode
@@ -34499,7 +34499,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 JSOP_STARTXML
 )
 <
@@ -34542,7 +34542,7 @@ TOK_LC
 Emit1
 (
 cx
-cg
+bce
 JSOP_STARTXMLEXPR
 )
 <
@@ -34559,7 +34559,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -34580,7 +34580,7 @@ pn_head
 Emit1
 (
 cx
-cg
+bce
 JSOP_ADD
 )
 <
@@ -34640,7 +34640,7 @@ index
 if
 (
 !
-cg
+bce
 -
 >
 makeAtomIndex
@@ -34665,7 +34665,7 @@ if
 Emit1
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -34714,7 +34714,7 @@ if
 EmitXMLTag
 (
 cx
-cg
+bce
 pn
 )
 )
@@ -34729,7 +34729,7 @@ TOK_XMLNAME
 JS_ASSERT
 (
 !
-cg
+bce
 -
 >
 inStrictMode
@@ -34792,7 +34792,7 @@ TOK_LC
 Emit1
 (
 cx
-cg
+bce
 JSOP_STARTXMLEXPR
 )
 <
@@ -34809,7 +34809,7 @@ if
 EmitTree
 (
 cx
-cg
+bce
 pn2
 )
 )
@@ -34830,7 +34830,7 @@ pn_head
 Emit1
 (
 cx
-cg
+bce
 JSOP_ADD
 )
 <
@@ -34877,7 +34877,7 @@ pn
 getOp
 (
 )
-cg
+bce
 )
 :
 EmitAtomOp
@@ -34890,7 +34890,7 @@ pn
 getOp
 (
 )
-cg
+bce
 )
 ;
 }
@@ -34905,7 +34905,7 @@ if
 EmitXMLProcessingInstruction
 (
 cx
-cg
+bce
 pn
 )
 )
@@ -34929,7 +34929,7 @@ if
 ok
 &
 &
-cg
+bce
 -
 >
 emitLevel
@@ -34940,7 +34940,7 @@ emitLevel
 {
 if
 (
-cg
+bce
 -
 >
 spanDeps
@@ -34950,7 +34950,7 @@ ok
 OptimizeSpanDeps
 (
 cx
-cg
+bce
 )
 ;
 if
@@ -34959,7 +34959,7 @@ if
 UpdateLineNumberNotes
 (
 cx
-cg
+bce
 pn
 -
 >
@@ -34985,9 +34985,9 @@ AllocSrcNote
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 {
 jssrcnote
@@ -34996,7 +34996,7 @@ notes
 =
 CG_NOTES
 (
-cg
+bce
 )
 ;
 jssrcnote
@@ -35008,7 +35008,7 @@ index
 =
 CG_NOTE_COUNT
 (
-cg
+bce
 )
 ;
 uintN
@@ -35016,7 +35016,7 @@ max
 =
 CG_NOTE_LIMIT
 (
-cg
+bce
 )
 ;
 if
@@ -35121,14 +35121,14 @@ return
 }
 CG_NOTES
 (
-cg
+bce
 )
 =
 newnotes
 ;
 CG_NOTE_LIMIT
 (
-cg
+bce
 )
 =
 newlength
@@ -35136,7 +35136,7 @@ newlength
 }
 CG_NOTE_COUNT
 (
-cg
+bce
 )
 =
 index
@@ -35159,9 +35159,9 @@ NewSrcNote
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 SrcNoteType
 type
 )
@@ -35184,7 +35184,7 @@ index
 AllocSrcNote
 (
 cx
-cg
+bce
 )
 ;
 if
@@ -35202,7 +35202,7 @@ sn
 &
 CG_NOTES
 (
-cg
+bce
 )
 [
 index
@@ -35212,7 +35212,7 @@ offset
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 delta
@@ -35221,12 +35221,12 @@ offset
 -
 CG_LAST_NOTE_OFFSET
 (
-cg
+bce
 )
 ;
 CG_LAST_NOTE_OFFSET
 (
-cg
+bce
 )
 =
 offset
@@ -35265,7 +35265,7 @@ index
 AllocSrcNote
 (
 cx
-cg
+bce
 )
 ;
 if
@@ -35283,7 +35283,7 @@ sn
 &
 CG_NOTES
 (
-cg
+bce
 )
 [
 index
@@ -35334,7 +35334,7 @@ if
 NewSrcNote
 (
 cx
-cg
+bce
 SRC_NULL
 )
 <
@@ -35358,9 +35358,9 @@ NewSrcNote2
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 SrcNoteType
 type
 ptrdiff_t
@@ -35375,7 +35375,7 @@ index
 NewSrcNote
 (
 cx
-cg
+bce
 type
 )
 ;
@@ -35393,7 +35393,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 index
 0
 offset
@@ -35417,9 +35417,9 @@ NewSrcNote3
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 SrcNoteType
 type
 ptrdiff_t
@@ -35436,7 +35436,7 @@ index
 NewSrcNote
 (
 cx
-cg
+bce
 type
 )
 ;
@@ -35454,7 +35454,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 index
 0
 offset1
@@ -35470,7 +35470,7 @@ if
 SetSrcNoteOffset
 (
 cx
-cg
+bce
 index
 1
 offset2
@@ -35492,9 +35492,9 @@ GrowSrcNotes
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 {
 size_t
@@ -35502,7 +35502,7 @@ newlength
 =
 CG_NOTE_LIMIT
 (
-cg
+bce
 )
 *
 2
@@ -35522,7 +35522,7 @@ realloc_
 (
 CG_NOTES
 (
-cg
+bce
 )
 newlength
 )
@@ -35544,14 +35544,14 @@ JS_FALSE
 }
 CG_NOTES
 (
-cg
+bce
 )
 =
 newnotes
 ;
 CG_NOTE_LIMIT
 (
-cg
+bce
 )
 =
 newlength
@@ -35570,9 +35570,9 @@ AddToSrcNoteDelta
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 jssrcnote
 *
 sn
@@ -35591,14 +35591,14 @@ index
 ;
 JS_ASSERT
 (
-cg
+bce
 -
 >
 current
 =
 =
 &
-cg
+bce
 -
 >
 main
@@ -35661,7 +35661,7 @@ index
 =
 sn
 -
-cg
+bce
 -
 >
 main
@@ -35670,7 +35670,7 @@ notes
 ;
 if
 (
-cg
+bce
 -
 >
 main
@@ -35678,7 +35678,7 @@ main
 noteCount
 =
 =
-cg
+bce
 -
 >
 main
@@ -35692,7 +35692,7 @@ if
 GrowSrcNotes
 (
 cx
-cg
+bce
 )
 )
 return
@@ -35700,7 +35700,7 @@ NULL
 ;
 sn
 =
-cg
+bce
 -
 >
 main
@@ -35712,7 +35712,7 @@ index
 }
 diff
 =
-cg
+bce
 -
 >
 main
@@ -35721,7 +35721,7 @@ noteCount
 -
 index
 ;
-cg
+bce
 -
 >
 main
@@ -35764,9 +35764,9 @@ SetSrcNoteOffset
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 uintN
 index
 uintN
@@ -35807,7 +35807,7 @@ SN_3BYTE_OFFSET_FLAG
 ReportStatementTooLarge
 (
 cx
-cg
+bce
 )
 ;
 return
@@ -35819,7 +35819,7 @@ sn
 &
 CG_NOTES
 (
-cg
+bce
 )
 [
 index
@@ -35910,14 +35910,14 @@ sn
 -
 CG_NOTES
 (
-cg
+bce
 )
 ;
 if
 (
 CG_NOTE_COUNT
 (
-cg
+bce
 )
 +
 1
@@ -35925,7 +35925,7 @@ cg
 =
 CG_NOTE_LIMIT
 (
-cg
+bce
 )
 )
 {
@@ -35935,7 +35935,7 @@ if
 GrowSrcNotes
 (
 cx
-cg
+bce
 )
 )
 return
@@ -35945,7 +35945,7 @@ sn
 =
 CG_NOTES
 (
-cg
+bce
 )
 +
 index
@@ -35953,7 +35953,7 @@ index
 }
 CG_NOTE_COUNT
 (
-cg
+bce
 )
 +
 =
@@ -35963,7 +35963,7 @@ diff
 =
 CG_NOTE_COUNT
 (
-cg
+bce
 )
 -
 (
@@ -36234,9 +36234,9 @@ FinishTakingSrcNotes
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 jssrcnote
 *
 notes
@@ -36257,14 +36257,14 @@ sn
 ;
 JS_ASSERT
 (
-cg
+bce
 -
 >
 current
 =
 =
 &
-cg
+bce
 -
 >
 main
@@ -36272,7 +36272,7 @@ main
 ;
 prologCount
 =
-cg
+bce
 -
 >
 prolog
@@ -36284,7 +36284,7 @@ if
 prologCount
 &
 &
-cg
+bce
 -
 >
 prolog
@@ -36292,7 +36292,7 @@ prolog
 currentLine
 !
 =
-cg
+bce
 -
 >
 firstLine
@@ -36300,7 +36300,7 @@ firstLine
 {
 CG_SWITCH_TO_PROLOG
 (
-cg
+bce
 )
 ;
 if
@@ -36308,12 +36308,12 @@ if
 NewSrcNote2
 (
 cx
-cg
+bce
 SRC_SETLINE
 (
 ptrdiff_t
 )
-cg
+bce
 -
 >
 firstLine
@@ -36326,7 +36326,7 @@ false
 ;
 prologCount
 =
-cg
+bce
 -
 >
 prolog
@@ -36335,7 +36335,7 @@ noteCount
 ;
 CG_SWITCH_TO_MAIN
 (
-cg
+bce
 )
 ;
 }
@@ -36345,10 +36345,10 @@ offset
 =
 CG_PROLOG_OFFSET
 (
-cg
+bce
 )
 -
-cg
+bce
 -
 >
 prolog
@@ -36370,7 +36370,7 @@ offset
 0
 &
 &
-cg
+bce
 -
 >
 main
@@ -36383,7 +36383,7 @@ noteCount
 {
 sn
 =
-cg
+bce
 -
 >
 main
@@ -36437,7 +36437,7 @@ if
 AddToSrcNoteDelta
 (
 cx
-cg
+bce
 sn
 delta
 )
@@ -36469,7 +36469,7 @@ SN_XDELTA_MASK
 ;
 sn
 =
-cg
+bce
 -
 >
 main
@@ -36481,7 +36481,7 @@ notes
 }
 mainCount
 =
-cg
+bce
 -
 >
 main
@@ -36501,7 +36501,7 @@ prologCount
 memcpy
 (
 notes
-cg
+bce
 -
 >
 prolog
@@ -36518,7 +36518,7 @@ memcpy
 notes
 +
 prologCount
-cg
+bce
 -
 >
 main
@@ -36550,9 +36550,9 @@ NewTryNote
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSTryNoteKind
 kind
 uintN
@@ -36700,19 +36700,19 @@ tryNode
 >
 prev
 =
-cg
+bce
 -
 >
 lastTryNode
 ;
-cg
+bce
 -
 >
 lastTryNode
 =
 tryNode
 ;
-cg
+bce
 -
 >
 ntrynotes
@@ -36729,9 +36729,9 @@ frontend
 :
 FinishTakingTryNotes
 (
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 JSTryNoteArray
 *
 array
@@ -36761,7 +36761,7 @@ array
 length
 =
 =
-cg
+bce
 -
 >
 ntrynotes
@@ -36781,7 +36781,7 @@ length
 ;
 tryNode
 =
-cg
+bce
 -
 >
 lastTryNode

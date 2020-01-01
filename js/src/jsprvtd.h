@@ -280,7 +280,7 @@ struct
 BytecodeCompiler
 ;
 struct
-CodeGenerator
+BytecodeEmitter
 ;
 struct
 Definition

@@ -904,7 +904,7 @@ BytecodeCompiler
 .
 cpp
 \
-BytecodeGenerator
+BytecodeEmitter
 .
 cpp
 \

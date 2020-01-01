@@ -162,7 +162,7 @@ include
 "
 frontend
 /
-BytecodeGenerator
+BytecodeEmitter
 .
 h
 "
@@ -6082,9 +6082,9 @@ NewScriptFromCG
 JSContext
 *
 cx
-CodeGenerator
+BytecodeEmitter
 *
-cg
+bce
 )
 {
 uint32
@@ -6108,7 +6108,7 @@ fun
 ;
 JS_ASSERT
 (
-cg
+bce
 -
 >
 atomIndices
@@ -6124,7 +6124,7 @@ INDEX_LIMIT
 ;
 JS_ASSERT
 (
-cg
+bce
 -
 >
 objectList
@@ -6137,7 +6137,7 @@ INDEX_LIMIT
 ;
 JS_ASSERT
 (
-cg
+bce
 -
 >
 regexpList
@@ -6152,20 +6152,20 @@ mainLength
 =
 CG_OFFSET
 (
-cg
+bce
 )
 ;
 prologLength
 =
 CG_PROLOG_OFFSET
 (
-cg
+bce
 )
 ;
 if
 (
 !
-cg
+bce
 -
 >
 bindings
@@ -6180,7 +6180,7 @@ NULL
 ;
 CG_COUNT_FINAL_SRCNOTES
 (
-cg
+bce
 nsrcnotes
 )
 ;
@@ -6189,7 +6189,7 @@ nClosedArgs
 =
 uint16
 (
-cg
+bce
 -
 >
 closedArgs
@@ -6204,7 +6204,7 @@ JS_ASSERT
 nClosedArgs
 =
 =
-cg
+bce
 -
 >
 closedArgs
@@ -6219,7 +6219,7 @@ nClosedVars
 =
 uint16
 (
-cg
+bce
 -
 >
 closedVars
@@ -6234,7 +6234,7 @@ JS_ASSERT
 nClosedVars
 =
 =
-cg
+bce
 -
 >
 closedVars
@@ -6247,7 +6247,7 @@ length
 size_t
 upvarIndexCount
 =
-cg
+bce
 -
 >
 upvarIndices
@@ -6256,7 +6256,7 @@ hasMap
 (
 )
 ?
-cg
+bce
 -
 >
 upvarIndices
@@ -6277,7 +6277,7 @@ prologLength
 +
 mainLength
 nsrcnotes
-cg
+bce
 -
 >
 atomIndices
@@ -6286,24 +6286,24 @@ atomIndices
 count
 (
 )
-cg
+bce
 -
 >
 objectList
 .
 length
 upvarIndexCount
-cg
+bce
 -
 >
 regexpList
 .
 length
-cg
+bce
 -
 >
 ntrynotes
-cg
+bce
 -
 >
 constList
@@ -6311,7 +6311,7 @@ constList
 length
 (
 )
-cg
+bce
 -
 >
 globalUses
@@ -6321,11 +6321,11 @@ length
 )
 nClosedArgs
 nClosedVars
-cg
+bce
 -
 >
 typesetCount
-cg
+bce
 -
 >
 version
@@ -6341,7 +6341,7 @@ script
 return
 NULL
 ;
-cg
+bce
 -
 >
 bindings
@@ -6376,7 +6376,7 @@ script
 code
 CG_PROLOG_BASE
 (
-cg
+bce
 )
 prologLength
 *
@@ -6396,7 +6396,7 @@ main
 )
 CG_BASE
 (
-cg
+bce
 )
 mainLength
 *
@@ -6408,14 +6408,14 @@ jsbytecode
 ;
 nfixed
 =
-cg
+bce
 -
 >
 inFunction
 (
 )
 ?
-cg
+bce
 -
 >
 bindings
@@ -6424,7 +6424,7 @@ countVars
 (
 )
 :
-cg
+bce
 -
 >
 sharpSlots
@@ -6451,7 +6451,7 @@ nfixed
 js_InitAtomMap
 (
 cx
-cg
+bce
 -
 >
 atomIndices
@@ -6467,7 +6467,7 @@ atoms
 ;
 filename
 =
-cg
+bce
 -
 >
 parser
@@ -6512,7 +6512,7 @@ script
 >
 lineno
 =
-cg
+bce
 -
 >
 firstLine
@@ -6524,7 +6524,7 @@ script
 >
 nfixed
 +
-cg
+bce
 -
 >
 maxStackDepth
@@ -6541,7 +6541,7 @@ ReportCompileErrorNumber
 cx
 CG_TS
 (
-cg
+bce
 )
 NULL
 JSREPORT_ERROR
@@ -6565,7 +6565,7 @@ script
 >
 nfixed
 +
-cg
+bce
 -
 >
 maxStackDepth
@@ -6577,7 +6577,7 @@ staticLevel
 =
 uint16
 (
-cg
+bce
 -
 >
 staticLevel
@@ -6588,7 +6588,7 @@ script
 >
 principals
 =
-cg
+bce
 -
 >
 parser
@@ -6621,7 +6621,7 @@ sourceMap
 jschar
 *
 )
-cg
+bce
 -
 >
 parser
@@ -6639,7 +6639,7 @@ if
 FinishTakingSrcNotes
 (
 cx
-cg
+bce
 script
 -
 >
@@ -6653,7 +6653,7 @@ NULL
 ;
 if
 (
-cg
+bce
 -
 >
 ntrynotes
@@ -6663,7 +6663,7 @@ ntrynotes
 )
 FinishTakingTryNotes
 (
-cg
+bce
 script
 -
 >
@@ -6674,7 +6674,7 @@ trynotes
 ;
 if
 (
-cg
+bce
 -
 >
 objectList
@@ -6684,7 +6684,7 @@ length
 =
 0
 )
-cg
+bce
 -
 >
 objectList
@@ -6701,7 +6701,7 @@ objects
 ;
 if
 (
-cg
+bce
 -
 >
 regexpList
@@ -6711,7 +6711,7 @@ length
 =
 0
 )
-cg
+bce
 -
 >
 regexpList
@@ -6728,7 +6728,7 @@ regexps
 ;
 if
 (
-cg
+bce
 -
 >
 constList
@@ -6740,7 +6740,7 @@ length
 =
 0
 )
-cg
+bce
 -
 >
 constList
@@ -6757,7 +6757,7 @@ consts
 ;
 if
 (
-cg
+bce
 -
 >
 flags
@@ -6773,7 +6773,7 @@ true
 ;
 if
 (
-cg
+bce
 -
 >
 hasSharps
@@ -6789,7 +6789,7 @@ true
 ;
 if
 (
-cg
+bce
 -
 >
 flags
@@ -6805,7 +6805,7 @@ true
 ;
 if
 (
-cg
+bce
 -
 >
 flags
@@ -6825,7 +6825,7 @@ StackFrame
 *
 fp
 =
-cg
+bce
 -
 >
 parser
@@ -6855,7 +6855,7 @@ true
 }
 if
 (
-cg
+bce
 -
 >
 callsEval
@@ -6871,7 +6871,7 @@ true
 ;
 if
 (
-cg
+bce
 -
 >
 flags
@@ -6887,7 +6887,7 @@ true
 ;
 if
 (
-cg
+bce
 -
 >
 flags
@@ -6903,7 +6903,7 @@ true
 ;
 if
 (
-cg
+bce
 -
 >
 hasUpvarIndices
@@ -6913,7 +6913,7 @@ hasUpvarIndices
 {
 JS_ASSERT
 (
-cg
+bce
 -
 >
 upvarIndices
@@ -6924,7 +6924,7 @@ count
 )
 <
 =
-cg
+bce
 -
 >
 upvarMap
@@ -6945,7 +6945,7 @@ upvars
 -
 >
 vector
-cg
+bce
 -
 >
 upvarMap
@@ -6953,7 +6953,7 @@ upvarMap
 begin
 (
 )
-cg
+bce
 -
 >
 upvarIndices
@@ -6965,7 +6965,7 @@ count
 *
 sizeof
 (
-cg
+bce
 -
 >
 upvarMap
@@ -6975,7 +6975,7 @@ upvarMap
 )
 )
 ;
-cg
+bce
 -
 >
 upvarIndices
@@ -6985,7 +6985,7 @@ clear
 (
 )
 ;
-cg
+bce
 -
 >
 upvarMap
@@ -6997,7 +6997,7 @@ clear
 }
 if
 (
-cg
+bce
 -
 >
 globalUses
@@ -7019,14 +7019,14 @@ globals
 >
 vector
 &
-cg
+bce
 -
 >
 globalUses
 [
 0
 ]
-cg
+bce
 -
 >
 globalUses
@@ -7059,7 +7059,7 @@ script
 >
 closedSlots
 &
-cg
+bce
 -
 >
 closedArgs
@@ -7099,7 +7099,7 @@ script
 nClosedArgs
 ]
 &
-cg
+bce
 -
 >
 closedVars
@@ -7127,7 +7127,7 @@ transfer
 (
 cx
 &
-cg
+bce
 -
 >
 bindings
@@ -7139,7 +7139,7 @@ NULL
 ;
 if
 (
-cg
+bce
 -
 >
 inFunction
@@ -7149,7 +7149,7 @@ inFunction
 {
 fun
 =
-cg
+bce
 -
 >
 fun
@@ -7236,7 +7236,7 @@ countUpvars
 endif
 if
 (
-cg
+bce
 -
 >
 flags
@@ -7262,13 +7262,13 @@ typeInferenceEnabled
 )
 &
 &
-cg
+bce
 -
 >
 parent
 &
 &
-cg
+bce
 -
 >
 parent
@@ -7279,13 +7279,13 @@ compiling
 )
 &
 &
-cg
+bce
 -
 >
 parent
 -
 >
-asCodeGenerator
+asBytecodeEmitter
 (
 )
 -
@@ -7351,7 +7351,7 @@ else
 {
 if
 (
-cg
+bce
 -
 >
 flags
@@ -7381,7 +7381,7 @@ fun
 if
 (
 !
-cg
+bce
 -
 >
 parent
@@ -7417,7 +7417,7 @@ compileAndGoGlobal
 )
 compileAndGoGlobal
 =
-cg
+bce
 -
 >
 scopeChain
