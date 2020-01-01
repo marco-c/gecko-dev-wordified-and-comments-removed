@@ -577,9 +577,7 @@ window
 s
 *
 |
-getBrowser
-(
-)
+gBrowser
 .
 tabContainer
 |
@@ -590,9 +588,7 @@ e
 g
 .
 |
-getBrowser
-(
-)
+gBrowser
 .
 selectedTab
 |

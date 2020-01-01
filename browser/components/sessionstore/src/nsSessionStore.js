@@ -4580,9 +4580,7 @@ newTab
 =
 aWindow
 .
-getBrowser
-(
-)
+gBrowser
 .
 addTab
 (
@@ -5541,9 +5539,7 @@ tabbrowser
 =
 aWindow
 .
-getBrowser
-(
-)
+gBrowser
 ;
 var
 tabs
@@ -7112,9 +7108,7 @@ browsers
 =
 aWindow
 .
-getBrowser
-(
-)
+gBrowser
 .
 browsers
 ;
@@ -10045,9 +10039,7 @@ tabbrowser
 =
 aWindow
 .
-getBrowser
-(
-)
+gBrowser
 ;
 for
 (
@@ -10638,9 +10630,7 @@ browser
 =
 aWindow
 .
-getBrowser
-(
-)
+gBrowser
 .
 getBrowserForTab
 (
@@ -14863,9 +14853,7 @@ currentURI
 =
 aWindow
 .
-getBrowser
-(
-)
+gBrowser
 .
 currentURI
 .
