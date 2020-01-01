@@ -926,10 +926,6 @@ eFORMS_PROPERTIES
 DefaultFormSubject
 "
 formatStrings
-ArrayLength
-(
-formatStrings
-)
 subjectStr
 )
 ;

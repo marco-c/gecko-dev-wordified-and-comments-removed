@@ -2187,6 +2187,16 @@ true
 pref
 (
 "
+dom
+.
+disable_window_open_dialog_feature
+"
+true
+)
+;
+pref
+(
+"
 keyword
 .
 enabled

@@ -504,6 +504,10 @@ browser_ruleview_ui
 .
 js
 \
+browser_ruleview_focus
+.
+js
+\
 browser_bug705707_is_content_stylesheet
 .
 js
