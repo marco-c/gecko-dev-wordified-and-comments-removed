@@ -57111,7 +57111,16 @@ return
 false
 ;
 return
-true
+!
+fp
+-
+>
+fun
+-
+>
+isHeavyweight
+(
+)
 ;
 }
 JS_REQUIRES_STACK
