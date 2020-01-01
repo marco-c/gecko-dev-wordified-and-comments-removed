@@ -4575,7 +4575,7 @@ Vector
 LBlock
 *
 16
-SystemAllocPolicy
+IonAllocPolicy
 >
 blocks_
 ;
@@ -4583,7 +4583,7 @@ Vector
 <
 HeapValue
 0
-SystemAllocPolicy
+IonAllocPolicy
 >
 constantPool_
 ;
@@ -4592,7 +4592,7 @@ Vector
 LInstruction
 *
 0
-SystemAllocPolicy
+IonAllocPolicy
 >
 safepoints_
 ;
@@ -4601,7 +4601,7 @@ Vector
 LInstruction
 *
 0
-SystemAllocPolicy
+IonAllocPolicy
 >
 nonCallSafepoints_
 ;
