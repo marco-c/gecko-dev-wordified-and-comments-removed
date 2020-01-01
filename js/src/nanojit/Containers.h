@@ -957,6 +957,11 @@ k
 return
 murmurhash
 (
+(
+const
+void
+*
+)
 &
 k
 sizeof
