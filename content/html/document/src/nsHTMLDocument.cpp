@@ -6431,6 +6431,10 @@ mSecurityInfo
 =
 securityInfo
 ;
+mParserAborted
+=
+false
+;
 bool
 loadAsHtml5
 =
@@ -6872,6 +6876,15 @@ mDisableDocWrite
 {
 return
 NS_ERROR_DOM_INVALID_STATE_ERR
+;
+}
+if
+(
+mParserAborted
+)
+{
+return
+NS_OK
 ;
 }
 nsresult

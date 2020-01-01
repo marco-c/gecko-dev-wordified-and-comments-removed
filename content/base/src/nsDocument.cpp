@@ -10839,6 +10839,10 @@ if
 mParser
 )
 {
+mParserAborted
+=
+true
+;
 mParser
 -
 >
