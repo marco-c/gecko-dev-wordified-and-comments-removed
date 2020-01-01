@@ -4869,6 +4869,11 @@ return
 NS_OK
 ;
 }
+NS_IMPL_THREADSAFE_ISUPPORTS1
+(
+MemoryReporterBase
+nsIMemoryReporter
+)
 nsresult
 NS_RegisterMemoryReporter
 (

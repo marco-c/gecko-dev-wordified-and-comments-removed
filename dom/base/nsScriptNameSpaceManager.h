@@ -146,6 +146,9 @@ class
 nsICategoryManager
 ;
 class
+nsIMemoryReporter
+;
+class
 GlobalNameMapEntry
 ;
 class
@@ -502,6 +505,12 @@ mNavigatorNames
 ;
 bool
 mIsInitialized
+;
+nsCOMPtr
+<
+nsIMemoryReporter
+>
+mReporter
 ;
 }
 ;
