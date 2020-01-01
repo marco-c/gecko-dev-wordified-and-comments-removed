@@ -916,6 +916,14 @@ return
 result
 ;
 }
+PRBool
+isClear
+=
+mBuffer
+=
+=
+nsnull
+;
 if
 (
 destBuffer
@@ -1163,6 +1171,10 @@ gfxASurface
 :
 :
 CONTENT_COLOR_ALPHA
+&
+&
+!
+isClear
 )
 {
 result
