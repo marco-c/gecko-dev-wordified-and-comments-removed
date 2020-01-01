@@ -2784,6 +2784,9 @@ entries
 ;
 if
 (
+(
+native
+=
 mozilla
 :
 :
@@ -2793,7 +2796,7 @@ dom
 UnwrapDOMObjectToISupports
 (
 cur
-native
+)
 )
 )
 {
