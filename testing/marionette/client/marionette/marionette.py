@@ -498,6 +498,9 @@ None
 noWindow
 =
 False
+logcat_dir
+=
+None
 )
 :
         
@@ -559,6 +562,12 @@ noWindow
 =
 noWindow
         
+self
+.
+logcat_dir
+=
+logcat_dir
+        
 if
 b2gbin
 :
@@ -618,11 +627,18 @@ Emulator
 homedir
 =
 homedir
+                                     
 noWindow
 =
 self
 .
 noWindow
+                                     
+logcat_dir
+=
+self
+.
+logcat_dir
 )
             
 self
@@ -672,6 +688,11 @@ Emulator
 homedir
 =
 homedir
+logcat_dir
+=
+self
+.
+logcat_dir
 )
             
 self

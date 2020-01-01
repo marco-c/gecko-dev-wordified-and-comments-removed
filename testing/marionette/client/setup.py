@@ -80,6 +80,9 @@ mozhttpd
 .
 3
 '
+'
+mozprocess
+'
 ]
 setup
 (
