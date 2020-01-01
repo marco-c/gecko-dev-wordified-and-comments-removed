@@ -696,9 +696,6 @@ values
 include
 :
 "
-profile
-"
-"
 memory
 "
 .
@@ -1497,12 +1494,6 @@ define
 MOZ_STORAGE_MEMORY_STORAGE_KEY
 "
 memory
-"
-#
-define
-MOZ_STORAGE_PROFILE_STORAGE_KEY
-"
-profile
 "
 %
 }
