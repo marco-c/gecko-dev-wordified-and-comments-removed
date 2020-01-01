@@ -23527,6 +23527,14 @@ nsIScriptChannel
 EXECUTE_NORMAL
 )
 ;
+scriptChannel
+-
+>
+SetExecuteAsync
+(
+PR_FALSE
+)
+;
 }
 }
 nsCOMPtr
