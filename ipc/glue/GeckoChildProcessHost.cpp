@@ -1335,11 +1335,6 @@ waitStart
 current
 ;
 }
-else
-{
-break
-;
-}
 }
 return
 mProcessState
