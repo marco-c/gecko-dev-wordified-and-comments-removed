@@ -3852,6 +3852,16 @@ lhs
 callTemp
 )
 ;
+if
+(
+mir
+-
+>
+canBeNegativeDividend
+(
+)
+)
+{
 masm
 .
 ma_cmp
@@ -3964,6 +3974,7 @@ snapshot
 return
 false
 ;
+}
 }
 masm
 .
