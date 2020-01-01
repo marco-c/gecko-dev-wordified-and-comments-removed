@@ -163,6 +163,10 @@ GonkNativeWindow
 .
 cpp
 \
+GonkNativeWindowClient
+.
+cpp
+\
 GonkRecorder
 .
 cpp
@@ -203,6 +207,10 @@ FallbackCameraControl
 cpp
 \
 GonkNativeWindow
+.
+cpp
+\
+GonkNativeWindowClient
 .
 cpp
 \
@@ -252,6 +260,10 @@ DOMCameraManager
 h
 \
 GonkNativeWindow
+.
+h
+\
+GonkNativeWindowClient
 .
 h
 \
