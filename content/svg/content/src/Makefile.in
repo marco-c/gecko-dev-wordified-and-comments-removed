@@ -822,10 +822,6 @@ nsIDOMSVGZoomListener
 .
 h
 \
-nsISVGFilter
-.
-h
-\
 nsISVGTextContentMetrics
 .
 h
