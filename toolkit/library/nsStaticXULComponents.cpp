@@ -813,6 +813,11 @@ SERVICES_CRYPTO_MODULE
 \
 MOZ_APP_COMPONENT_MODULES
 \
+MODULE
+(
+nsTelemetryModule
+)
+\
 /
 *
 end
