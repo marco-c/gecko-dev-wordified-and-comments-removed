@@ -1703,7 +1703,7 @@ src
 NS_IMPL_STRING_ATTR
 (
 HTMLMediaElement
-Crossorigin
+CrossOrigin
 crossorigin
 )
 NS_IMPL_BOOL_ATTR

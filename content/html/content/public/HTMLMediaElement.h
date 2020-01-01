@@ -908,7 +908,7 @@ aRv
 ;
 }
 void
-SetCrossorigin
+SetCrossOrigin
 (
 const
 nsAString

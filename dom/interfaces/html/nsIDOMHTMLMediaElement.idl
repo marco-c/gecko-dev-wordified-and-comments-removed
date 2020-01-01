@@ -280,7 +280,7 @@ currentSrc
 ;
 attribute
 DOMString
-crossorigin
+crossOrigin
 ;
 const
 unsigned
