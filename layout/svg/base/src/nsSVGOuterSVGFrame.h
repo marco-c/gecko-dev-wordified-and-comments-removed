@@ -262,12 +262,9 @@ nsRect
 aRect
 )
 ;
-nsresult
+PRBool
 IsRedrawSuspended
 (
-PRBool
-*
-isSuspended
 )
 ;
 NS_IMETHOD
