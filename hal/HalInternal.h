@@ -111,7 +111,7 @@ DisableSystemTimezoneChangeNotifications
 )
 ;
 bool
-IsHalChildLive
+HalChildDestroyed
 (
 )
 ;
