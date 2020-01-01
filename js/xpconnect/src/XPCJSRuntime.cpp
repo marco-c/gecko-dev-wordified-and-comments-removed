@@ -8273,7 +8273,7 @@ NS_LITERAL_CSTRING
 gc
 -
 heap
--
+/
 unused
 -
 arenas
@@ -8316,7 +8316,7 @@ NS_LITERAL_CSTRING
 gc
 -
 heap
--
+/
 unused
 -
 chunks
@@ -8366,7 +8366,7 @@ NS_LITERAL_CSTRING
 gc
 -
 heap
--
+/
 decommitted
 "
 )
@@ -8413,7 +8413,7 @@ NS_LITERAL_CSTRING
 gc
 -
 heap
--
+/
 chunk
 -
 admin
@@ -8896,7 +8896,7 @@ JsMallocSizeOf
 ;
 NS_NAMED_LITERAL_CSTRING
 (
-pathPrefix
+explicitJs
 "
 explicit
 /
@@ -8914,7 +8914,7 @@ xpc
 ReportJSRuntimeExplicitTreeStats
 (
 rtStats
-pathPrefix
+explicitJs
 cb
 closure
 )
@@ -8927,7 +8927,7 @@ rv
 ;
 REPORT_BYTES
 (
-pathPrefix
+explicitJs
 +
 NS_LITERAL_CSTRING
 (
@@ -8988,7 +8988,7 @@ js
 gc
 -
 heap
--
+/
 unused
 -
 arenas
@@ -9054,7 +9054,7 @@ js
 gc
 -
 heap
--
+/
 unused
 -
 chunks
@@ -9534,7 +9534,7 @@ js
 gc
 -
 heap
--
+/
 decommitted
 '
 .
