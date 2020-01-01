@@ -1638,6 +1638,7 @@ false
 :
 succeeded
 ;
+static
 XP_CHAR
 minidumpPath
 [
@@ -1689,6 +1690,7 @@ dumpFileExtension
 size
 )
 ;
+static
 XP_CHAR
 extraDataPath
 [
@@ -3420,18 +3422,12 @@ NS_ERROR_FAILURE
 endif
 #
 ifdef
-XP_WIN32
+XP_WIN
 MINIDUMP_TYPE
 minidump_type
 =
 MiniDumpNormal
 ;
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
 DWORD
 version_size
 =
@@ -3591,8 +3587,6 @@ MiniDumpWithFullMemoryInfo
 }
 }
 }
-#
-endif
 #
 endif
 gExceptionHandler
