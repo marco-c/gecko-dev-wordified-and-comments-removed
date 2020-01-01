@@ -2139,7 +2139,7 @@ mTransactionInProgress
 PR_TRUE
 ;
 return
-NS_OK
+rv
 ;
 }
 NS_IMETHODIMP
@@ -2178,6 +2178,13 @@ TRANSACTION
 )
 )
 ;
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+)
 mTransactionInProgress
 =
 PR_FALSE
@@ -2222,6 +2229,13 @@ TRANSACTION
 )
 )
 ;
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+)
 mTransactionInProgress
 =
 PR_FALSE
