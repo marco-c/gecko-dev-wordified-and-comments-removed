@@ -12268,7 +12268,7 @@ srcOp
 ;
 ma_ldr
 (
-payload
+type
 ScratchRegister
 )
 ;
@@ -12279,7 +12279,7 @@ ScratchRegister
 ;
 ma_ldr
 (
-type
+payload
 ScratchRegister
 )
 ;

@@ -637,6 +637,12 @@ BaselineStackReg
 ;
 masm
 .
+checkStackAlignment
+(
+)
+;
+masm
+.
 moveValue
 (
 UndefinedValue
