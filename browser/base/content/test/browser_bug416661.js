@@ -209,6 +209,12 @@ persisted
 "
 )
 ;
+FullZoom
+.
+reset
+(
+)
+;
 gBrowser
 .
 removeCurrentTab
