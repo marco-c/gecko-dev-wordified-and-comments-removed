@@ -626,10 +626,20 @@ _adjustDOMforViewState
 :
 function
 (
+aState
 )
 {
+let
+currViewState
+=
+aState
+;
 if
 (
+!
+currViewState
+&
+&
 this
 .
 chromeWin
@@ -639,12 +649,6 @@ MetroUtils
 immersive
 )
 {
-let
-currViewState
-=
-"
-"
-;
 switch
 (
 this
@@ -716,6 +720,7 @@ snapped
 ;
 break
 ;
+}
 }
 document
 .
@@ -792,7 +797,6 @@ thumbnail
 ;
 }
 }
-}
 observe
 :
 function
@@ -816,6 +820,7 @@ this
 .
 _adjustDOMforViewState
 (
+aData
 )
 ;
 break
