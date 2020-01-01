@@ -1265,6 +1265,15 @@ int
 offset
 )
 ;
+ElfSegment
+*
+getSegmentByType
+(
+unsigned
+int
+type
+)
+;
 ElfDynamic_Section
 *
 getDynSection
