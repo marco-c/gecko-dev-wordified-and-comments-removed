@@ -1041,6 +1041,7 @@ mac
 cocoa
 gtk2
 qt
+android
 (
 MOZ_WIDGET_TOOLKIT
 )
