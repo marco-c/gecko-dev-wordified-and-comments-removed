@@ -310,9 +310,6 @@ s
 "
 (
 aLock
-=
-=
-PR_TRUE
 ?
 "
 Locking

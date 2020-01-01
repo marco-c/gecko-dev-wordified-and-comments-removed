@@ -1213,10 +1213,8 @@ error
 }
 if
 (
+!
 success
-=
-=
-PR_FALSE
 )
 {
 aIdx

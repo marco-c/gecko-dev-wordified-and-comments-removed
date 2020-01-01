@@ -1281,9 +1281,6 @@ s
 )
 "
 aCanDrop
-=
-=
-PR_TRUE
 ?
 "
 TRUE
@@ -2736,9 +2733,6 @@ PrintToStream
 NS_ASSERTION
 (
 addedType
-=
-=
-PR_TRUE
 "
 No
 flavor

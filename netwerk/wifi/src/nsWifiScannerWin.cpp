@@ -2092,9 +2092,6 @@ PR_SecondsToInterval
 while
 (
 mKeepGoing
-=
-=
-PR_TRUE
 )
 ;
 #
@@ -2876,9 +2873,6 @@ PR_SecondsToInterval
 while
 (
 mKeepGoing
-=
-=
-PR_TRUE
 )
 ;
 }

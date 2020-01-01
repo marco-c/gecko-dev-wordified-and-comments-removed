@@ -275,15 +275,13 @@ i
 {
 NS_ASSERTION
 (
+!
 entry
 -
 >
 IsInUse
 (
 )
-=
-=
-PR_FALSE
 "
 #
 #

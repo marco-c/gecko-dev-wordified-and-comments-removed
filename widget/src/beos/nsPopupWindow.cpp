@@ -569,9 +569,6 @@ bState
 if
 (
 bState
-=
-=
-PR_TRUE
 &
 &
 mView

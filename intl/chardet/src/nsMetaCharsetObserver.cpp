@@ -2084,10 +2084,8 @@ NS_OK
 ;
 if
 (
+!
 bMetaCharsetObserverStarted
-=
-=
-PR_FALSE
 )
 {
 bMetaCharsetObserverStarted
@@ -2158,9 +2156,6 @@ NS_OK
 if
 (
 bMetaCharsetObserverStarted
-=
-=
-PR_TRUE
 )
 {
 bMetaCharsetObserverStarted

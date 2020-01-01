@@ -1147,9 +1147,6 @@ endif
 if
 (
 result
-=
-=
-PR_TRUE
 )
 {
 mSelectedType

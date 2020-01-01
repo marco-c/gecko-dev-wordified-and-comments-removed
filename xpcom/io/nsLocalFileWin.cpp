@@ -5669,10 +5669,8 @@ isDir
 ;
 if
 (
+!
 isDir
-=
-=
-PR_FALSE
 )
 {
 if

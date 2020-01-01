@@ -1764,10 +1764,8 @@ rv
 ;
 if
 (
+!
 isContainer
-=
-=
-PR_FALSE
 )
 {
 rv

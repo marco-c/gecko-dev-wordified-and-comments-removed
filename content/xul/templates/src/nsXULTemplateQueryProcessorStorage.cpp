@@ -264,11 +264,9 @@ rv
 ;
 if
 (
+!
 *
 aResult
-=
-=
-PR_FALSE
 )
 {
 mStatement

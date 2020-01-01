@@ -5860,10 +5860,8 @@ isDir
 ;
 if
 (
+!
 isDir
-=
-=
-PR_FALSE
 )
 {
 return

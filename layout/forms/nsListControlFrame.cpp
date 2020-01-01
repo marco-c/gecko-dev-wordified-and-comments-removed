@@ -5348,10 +5348,8 @@ mIsAllContentHere
 {
 if
 (
+!
 mIsAllFramesHere
-=
-=
-PR_FALSE
 )
 {
 if

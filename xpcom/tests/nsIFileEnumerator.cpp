@@ -246,9 +246,6 @@ PR_FALSE
 if
 (
 isDir
-=
-=
-PR_TRUE
 )
 {
 nsCOMPtr

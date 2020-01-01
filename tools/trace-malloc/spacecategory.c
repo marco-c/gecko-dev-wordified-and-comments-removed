@@ -3031,10 +3031,8 @@ node
 ;
 if
 (
+!
 ret
-=
-=
-PR_FALSE
 )
 {
 break

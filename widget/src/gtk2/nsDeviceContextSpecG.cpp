@@ -4841,7 +4841,7 @@ nsnull
 PRBool
 allocate
 =
-(
+!
 GlobalPrinters
 :
 :
@@ -4852,10 +4852,6 @@ GetInstance
 >
 PrintersAreAllocated
 (
-)
-=
-=
-PR_FALSE
 )
 ;
 if

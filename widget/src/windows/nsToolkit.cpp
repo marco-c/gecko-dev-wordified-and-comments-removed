@@ -808,10 +808,8 @@ PR_UNJOINABLE_THREAD
 ;
 while
 (
+!
 gThreadState
-=
-=
-PR_FALSE
 )
 {
 :

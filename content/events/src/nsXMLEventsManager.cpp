@@ -1348,9 +1348,6 @@ aDocument
 this
 cur
 )
-=
-=
-PR_TRUE
 )
 -
 -
