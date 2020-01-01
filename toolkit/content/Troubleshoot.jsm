@@ -1562,7 +1562,6 @@ Ci
 nsIGfxInfo
 .
 FEATURE_NO_INFO
-)
 ?
 Ci
 .
