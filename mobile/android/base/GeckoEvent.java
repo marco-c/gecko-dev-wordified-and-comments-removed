@@ -944,9 +944,6 @@ index
 new
 Point
 (
-(
-int
-)
 Math
 .
 round
@@ -954,9 +951,6 @@ round
 geckoPoint
 .
 x
-)
-(
-int
 )
 Math
 .
