@@ -88,6 +88,10 @@ LIBXUL_LIBRARY
 CPPSRCS
 =
 \
+DXVA2Manager
+.
+cpp
+\
 WMFByteStream
 .
 cpp

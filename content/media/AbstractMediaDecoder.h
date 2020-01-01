@@ -47,6 +47,9 @@ VideoFrameContainer
 class
 TimedMetadata
 ;
+class
+MediaDecoderOwner
+;
 typedef
 nsDataHashtable
 <
@@ -300,6 +303,15 @@ aTime
 virtual
 void
 OnReadMetadataCompleted
+(
+)
+=
+0
+;
+virtual
+MediaDecoderOwner
+*
+GetOwner
 (
 )
 =
