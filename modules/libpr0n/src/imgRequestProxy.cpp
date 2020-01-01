@@ -1631,6 +1631,15 @@ get
 ;
 #
 endif
+nsCOMPtr
+<
+imgIRequest
+>
+kungFuDeathGrip
+(
+this
+)
+;
 if
 (
 mListener
