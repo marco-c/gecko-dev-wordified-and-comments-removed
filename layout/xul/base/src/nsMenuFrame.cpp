@@ -2042,11 +2042,6 @@ IsMenuBar
 )
 )
 {
-*
-aEventStatus
-=
-nsEventStatus_eConsumeNoDefault
-;
 ToggleMenuState
 (
 )
@@ -2062,11 +2057,6 @@ IsOpen
 )
 )
 {
-*
-aEventStatus
-=
-nsEventStatus_eConsumeNoDefault
-;
 OpenMenu
 (
 PR_FALSE
