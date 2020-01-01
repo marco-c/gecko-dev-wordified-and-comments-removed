@@ -262,9 +262,6 @@ nsAttributeTextNode
 it
 =
 new
-(
-aNodeInfo
-)
 nsAttributeTextNode
 (
 aNodeInfo
@@ -382,9 +379,6 @@ nsIContent
 instance
 =
 new
-(
-ni
-)
 nsTextNode
 (
 ni
@@ -612,9 +606,6 @@ nsTextNode
 it
 =
 new
-(
-aNodeInfo
-)
 nsTextNode
 (
 aNodeInfo
@@ -952,9 +943,6 @@ nsAttributeTextNode
 textNode
 =
 new
-(
-ni
-)
 nsAttributeTextNode
 (
 ni

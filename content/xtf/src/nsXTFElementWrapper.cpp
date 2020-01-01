@@ -4364,9 +4364,6 @@ nsXTFElementWrapper
 result
 =
 new
-(
-aNodeInfo
-)
 nsXTFElementWrapper
 (
 aNodeInfo

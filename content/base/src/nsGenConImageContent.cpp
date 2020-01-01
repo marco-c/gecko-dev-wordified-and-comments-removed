@@ -130,9 +130,6 @@ nsGenConImageContent
 it
 =
 new
-(
-aNodeInfo
-)
 nsGenConImageContent
 (
 aNodeInfo

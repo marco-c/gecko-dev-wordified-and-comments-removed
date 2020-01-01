@@ -393,9 +393,6 @@ nsSVGUseElement
 it
 =
 new
-(
-aNodeInfo
-)
 nsSVGUseElement
 (
 aNodeInfo

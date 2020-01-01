@@ -259,9 +259,6 @@ nsXMLEventsElement
 it
 =
 new
-(
-aNodeInfo
-)
 nsXMLEventsElement
 (
 aNodeInfo

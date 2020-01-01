@@ -241,9 +241,6 @@ rv
 aDocType
 =
 new
-(
-ni
-)
 nsDOMDocumentType
 (
 ni
@@ -650,9 +647,6 @@ const
 {
 return
 new
-(
-aNodeInfo
-)
 nsDOMDocumentType
 (
 aNodeInfo

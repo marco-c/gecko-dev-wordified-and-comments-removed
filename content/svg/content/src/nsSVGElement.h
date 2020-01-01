@@ -1096,9 +1096,6 @@ it
 =
 \
 new
-(
-aNodeInfo
-)
 nsSVG
 #
 #

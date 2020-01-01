@@ -166,9 +166,6 @@ nsCommentNode
 instance
 =
 new
-(
-ni
-)
 nsCommentNode
 (
 ni
@@ -409,9 +406,6 @@ nsCommentNode
 it
 =
 new
-(
-aNodeInfo
-)
 nsCommentNode
 (
 aNodeInfo

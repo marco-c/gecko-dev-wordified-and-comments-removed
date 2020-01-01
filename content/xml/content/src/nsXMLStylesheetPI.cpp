@@ -808,9 +808,6 @@ data
 ;
 return
 new
-(
-aNodeInfo
-)
 nsXMLStylesheetPI
 (
 aNodeInfo
@@ -886,9 +883,6 @@ nsXMLStylesheetPI
 instance
 =
 new
-(
-ni
-)
 nsXMLStylesheetPI
 (
 ni

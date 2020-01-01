@@ -3761,6 +3761,13 @@ mStackPos
 .
 mContent
 ;
+content
+-
+>
+Compact
+(
+)
+;
 if
 (
 mNotifyLevel
