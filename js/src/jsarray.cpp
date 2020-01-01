@@ -13462,6 +13462,7 @@ false
 cx
 0
 proto
+newKind
 )
 ;
 }
@@ -13525,6 +13526,7 @@ false
 cx
 length
 proto
+newKind
 )
 ;
 }
