@@ -355,6 +355,11 @@ DataContainerEvent
 webidl
 '
 '
+DataStore
+.
+webidl
+'
+'
 DelayNode
 .
 webidl
@@ -2634,6 +2639,11 @@ GENERATED_EVENTS_WEBIDL_FILES
 [
 '
 BlobEvent
+.
+webidl
+'
+'
+DataStoreChangeEvent
 .
 webidl
 '
