@@ -544,9 +544,6 @@ mid
 bottom
 .
 png
-#
-ifdef
-MOZ_FEEDS
 skin
 /
 classic
@@ -619,8 +616,6 @@ addFeedReader
 .
 css
 )
-#
-endif
 #
 ifdef
 MOZ_PLACES
