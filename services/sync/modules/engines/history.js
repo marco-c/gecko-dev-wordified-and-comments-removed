@@ -2258,7 +2258,7 @@ HT_onTitleChanged
 )
 {
 }
-_upScore
+_upScoreXLarge
 :
 function
 BMT__upScore
@@ -2270,7 +2270,7 @@ this
 score
 +
 =
-SCORE_INCREMENT_SMALL
+SCORE_INCREMENT_XLARGE
 ;
 }
 onVisit
@@ -2323,9 +2323,10 @@ guid
 {
 this
 .
-_upScore
-(
-)
+score
++
+=
+SCORE_INCREMENT_SMALL
 ;
 }
 }
@@ -2382,7 +2383,7 @@ guid
 {
 this
 .
-_upScore
+_upScoreXLarge
 (
 )
 ;
@@ -2418,10 +2419,9 @@ onClearHistory
 ;
 this
 .
-score
-+
-=
-SCORE_INCREMENT_XLARGE
+_upScoreXLarge
+(
+)
 ;
 }
 }
