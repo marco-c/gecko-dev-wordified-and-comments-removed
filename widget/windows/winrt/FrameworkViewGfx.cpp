@@ -247,6 +247,17 @@ false
 }
 if
 (
+!
+mWidget
+-
+>
+ShouldUseOffMainThreadCompositing
+(
+)
+)
+{
+if
+(
 IsRenderMode
 (
 gfxWindowsPlatform
@@ -296,6 +307,7 @@ D2D
 return
 false
 ;
+}
 }
 if
 (
