@@ -3210,14 +3210,11 @@ focus
 if
 (
 targetElement
-=
+!
 =
 prevElement
 )
 {
-return
-;
-}
 this
 .
 _widget
@@ -3240,6 +3237,7 @@ select
 aItem
 )
 ;
+}
 this
 .
 refresh
