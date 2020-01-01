@@ -1432,8 +1432,6 @@ aType
 nsIVariant
 *
 aParams
-uint8_t
-optional_argc
 nsAString
 &
 aDataURL
@@ -2389,11 +2387,6 @@ const
 nsAString
 &
 aType
-nsIVariant
-*
-aParams
-uint8_t
-optional_argc
 )
 {
 if
@@ -2622,8 +2615,6 @@ const
 nsAString
 &
 aType
-uint8_t
-optional_argc
 nsIDOMFile
 *
 *
