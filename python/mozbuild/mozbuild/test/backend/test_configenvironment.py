@@ -165,8 +165,9 @@ of
 ACDEFINES
 ALLDEFINES
         
-and
 ALLSUBSTS
+and
+ALLEMPTYSUBSTS
 .
         
 '
@@ -243,6 +244,13 @@ FOO
 '
 '
 bar
+'
+)
+(
+'
+FOOBAR
+'
+'
 '
 )
 (
@@ -399,6 +407,30 @@ zzz
 abc
 def
 "
+'
+'
+'
+)
+        
+self
+.
+assertEqual
+(
+env
+.
+substs
+[
+'
+ALLEMPTYSUBSTS
+'
+]
+'
+'
+'
+FOOBAR
+=
+qux
+=
 '
 '
 '
