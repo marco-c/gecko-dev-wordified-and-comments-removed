@@ -397,6 +397,11 @@ HTMLTitleElement
 h
 '
 '
+HTMLTrackElement
+.
+h
+'
+'
 HTMLUnknownElement
 .
 h

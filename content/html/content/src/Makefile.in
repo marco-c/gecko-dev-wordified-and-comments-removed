@@ -352,6 +352,10 @@ HTMLTitleElement
 .
 cpp
 \
+HTMLTrackElement
+.
+cpp
+\
 HTMLVideoElement
 .
 cpp
@@ -791,5 +795,10 @@ NULL
 DEFINES
 +
 =
+\
 -
 D_IMPL_NS_LAYOUT
+\
+(
+NULL
+)
