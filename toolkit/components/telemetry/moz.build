@@ -173,3 +173,13 @@ TelemetryPing
 js
 '
 ]
+EXTRA_JS_MODULES
++
+=
+[
+'
+ThirdPartyCookieProbe
+.
+jsm
+'
+]
