@@ -301,13 +301,8 @@ darwin
 )
 :
             
-major
-minor
-point
+osx_version
 =
-map
-(
-int
 platform
 .
 mac_ver
@@ -316,14 +311,6 @@ mac_ver
 [
 0
 ]
-.
-split
-(
-'
-.
-'
-)
-)
             
 cls
 =
@@ -332,29 +319,11 @@ OSXBootstrapper
 args
 [
 '
-major
+version
 '
 ]
 =
-major
-            
-args
-[
-'
-minor
-'
-]
-=
-minor
-            
-args
-[
-'
-point
-'
-]
-=
-point
+osx_version
         
 elif
 sys

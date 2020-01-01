@@ -492,9 +492,7 @@ def
 __init__
 (
 self
-major
-minor
-point
+version
 )
 :
         
@@ -505,15 +503,28 @@ __init__
 self
 )
         
+self
+.
+os_version
+=
+StrictVersion
+(
+version
+)
+        
 if
-major
-=
-=
-10
-and
-minor
+self
+.
+os_version
 <
+StrictVersion
+(
+'
+10
+.
 6
+'
+)
 :
             
 raise
@@ -532,12 +543,6 @@ required
 .
 '
 )
-        
-self
-.
-os_version
-=
-minor
     
 def
 install_system_packages
@@ -576,7 +581,14 @@ self
 .
 os_version
 <
+StrictVersion
+(
+'
+10
+.
 7
+'
+)
 :
             
 if
@@ -630,7 +642,14 @@ self
 os_version
 >
 =
+StrictVersion
+(
+'
+10
+.
 7
+'
+)
 :
             
 if
@@ -729,7 +748,7 @@ CalledProcessError
 as
 e
 :
-             
+            
 if
 '
 license
@@ -739,7 +758,7 @@ e
 .
 output
 :
-                 
+                
 xcodebuild
 =
 self
@@ -750,7 +769,7 @@ which
 xcodebuild
 '
 )
-                 
+                
 subprocess
 .
 check_call
@@ -770,7 +789,14 @@ self
 os_version
 >
 =
+StrictVersion
+(
+'
+10
+.
 7
+'
+)
 :
             
 if
@@ -1124,7 +1150,14 @@ self
 .
 os_version
 <
+StrictVersion
+(
+'
+10
+.
 7
+'
+)
 and
 '
 llvm
