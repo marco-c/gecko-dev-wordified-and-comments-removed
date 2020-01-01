@@ -88,8 +88,6 @@ nsPNGEncoder
 (
 )
 ;
-private
-:
 ~
 nsPNGEncoder
 (
