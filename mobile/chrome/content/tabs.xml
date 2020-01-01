@@ -176,6 +176,13 @@ _onClick
 (
 )
 "
+xbl
+:
+inherits
+=
+"
+selected
+"
 /
 >
 <
