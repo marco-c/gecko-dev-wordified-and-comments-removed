@@ -2373,6 +2373,10 @@ eventsource
 headers
 ^
 \
+file_restrictedEventSource
+.
+sjs
+\
 forRemoval
 .
 resource
