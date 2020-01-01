@@ -668,7 +668,7 @@ Set
 aVolume
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIObserverService
 >
