@@ -1464,7 +1464,7 @@ image
 >
 HeapSizeOfDecodedWithComputedFallback
 (
-ImagesMallocSizeOf
+moz_malloc_size_of
 )
 ;
 *
