@@ -366,6 +366,11 @@ StackWalk
 h
 '
 '
+StaticMutex
+.
+h
+'
+'
 StaticPtr
 .
 h
