@@ -550,14 +550,11 @@ nsAttrValue
 aEmptyOrOldValue
 )
 ;
-virtual
 void
 DidChangeNumber
 (
 PRUint8
 aAttrEnum
-bool
-aDoSetAttr
 )
 ;
 virtual
