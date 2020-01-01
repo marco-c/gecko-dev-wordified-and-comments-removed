@@ -3708,8 +3708,9 @@ rp
 -
 callDepth
 ;
-clearFrameSlotsFromCache
+clearFrameSlotsFromTracker
 (
+nativeFrameTracker
 )
 ;
 VMSideExit
