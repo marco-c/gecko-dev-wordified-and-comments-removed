@@ -3242,13 +3242,12 @@ if
 cache
 )
 {
-nsContentUtils
-:
-:
+cache
+-
+>
 PreserveWrapper
 (
 native
-cache
 )
 ;
 }

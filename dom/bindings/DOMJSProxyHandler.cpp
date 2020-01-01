@@ -701,13 +701,12 @@ if
 expandoAndGeneration
 )
 {
-nsContentUtils
-:
-:
+cache
+-
+>
 PreserveWrapper
 (
 native
-cache
 )
 ;
 expandoAndGeneration

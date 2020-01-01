@@ -862,12 +862,11 @@ return
 rv
 ;
 }
-nsContentUtils
-:
-:
+aBoundElement
+-
+>
 PreserveWrapper
 (
-aBoundElement
 aBoundElement
 )
 ;
