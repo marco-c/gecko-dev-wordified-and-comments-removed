@@ -113,6 +113,14 @@ ptr3
 }
 x
 ;
+struct
+{
+uint32
+dynamicArgc
+;
+}
+call
+;
 }
 u
 ;
