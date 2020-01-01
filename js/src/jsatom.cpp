@@ -182,6 +182,7 @@ bytes
 const
 char
 *
+const
 js
 :
 :

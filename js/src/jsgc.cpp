@@ -318,6 +318,7 @@ IGC_MARK_SLICE_MULTIPLIER
 =
 2
 ;
+const
 AllocKind
 gc
 :
@@ -629,6 +630,7 @@ static
 const
 AllocKind
 *
+const
 FinalizePhases
 [
 ]
@@ -762,6 +764,7 @@ static
 const
 AllocKind
 *
+const
 BackgroundPhases
 [
 ]

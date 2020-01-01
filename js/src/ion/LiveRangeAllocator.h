@@ -1649,6 +1649,7 @@ uint32_t
 id
 (
 )
+const
 {
 return
 id_
@@ -3054,12 +3055,14 @@ toRegister
 size_t
 findFirstSafepoint
 (
+const
 LiveInterval
 *
 interval
 size_t
 startFrom
 )
+const
 {
 size_t
 i

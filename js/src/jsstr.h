@@ -167,12 +167,14 @@ chars
 }
 ;
 extern
+const
 jschar
 js_empty_ucstr
 [
 ]
 ;
 extern
+const
 JSSubString
 js_EmptySubString
 ;

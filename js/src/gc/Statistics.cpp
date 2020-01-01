@@ -1261,6 +1261,7 @@ PHASE_NO_PARENT
 PHASE_LIMIT
 ;
 static
+const
 PhaseInfo
 phases
 [

@@ -11059,6 +11059,7 @@ pc
 end
 ;
 static
+const
 char
 sep
 [
@@ -18966,6 +18967,7 @@ rval
 ;
 }
 static
+const
 JSFunctionSpecWithHelp
 shell_functions
 [
@@ -21559,6 +21561,7 @@ JS_FS_HELP_END
 }
 ;
 static
+const
 JSFunctionSpecWithHelp
 self_hosting_functions
 [

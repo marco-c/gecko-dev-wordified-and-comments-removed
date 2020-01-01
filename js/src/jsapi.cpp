@@ -900,6 +900,7 @@ endif
 #
 ifdef
 JS_USE_JSID_STRUCT_TYPES
+const
 jsid
 JSID_VOID
 =
@@ -910,6 +911,7 @@ JSID_TYPE_VOID
 )
 }
 ;
+const
 jsid
 JSID_EMPTY
 =
@@ -8159,6 +8161,7 @@ StdNameToPropertyName
 JSContext
 *
 cx
+const
 JSStdName
 *
 stdn
@@ -8181,6 +8184,7 @@ atomOffset
 ;
 }
 static
+const
 JSStdName
 standard_class_atoms
 [
@@ -8351,6 +8355,7 @@ NULL
 }
 ;
 static
+const
 JSStdName
 standard_class_names
 [
@@ -8747,6 +8752,7 @@ NULL
 }
 ;
 static
+const
 JSStdName
 object_prototype_names
 [
@@ -8963,6 +8969,7 @@ JSAtom
 *
 atom
 ;
+const
 JSStdName
 *
 stdnm
@@ -19696,6 +19703,7 @@ cx
 JSObject
 *
 objArg
+const
 JSConstDoubleSpec
 *
 cds

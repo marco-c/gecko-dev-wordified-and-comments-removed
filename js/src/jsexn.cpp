@@ -4799,6 +4799,7 @@ defined
 PRINTNAMES
 )
 static
+const
 struct
 exnname
 {

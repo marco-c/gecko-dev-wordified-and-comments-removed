@@ -1853,6 +1853,7 @@ str_encodeURI_Component
 JS_FS_END
 }
 ;
+const
 jschar
 js_empty_ucstr
 [
@@ -1862,6 +1863,7 @@ js_empty_ucstr
 0
 }
 ;
+const
 JSSubString
 js_EmptySubString
 =

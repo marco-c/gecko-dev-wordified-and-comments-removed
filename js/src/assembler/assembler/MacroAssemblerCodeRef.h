@@ -424,6 +424,7 @@ operator
 !
 (
 )
+const
 {
 return
 !

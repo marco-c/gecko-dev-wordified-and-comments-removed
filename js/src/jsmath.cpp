@@ -280,6 +280,7 @@ M_SQRT1_2
 #
 endif
 static
+const
 JSConstDoubleSpec
 math_constants
 [

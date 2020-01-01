@@ -376,6 +376,7 @@ undef
 OPDEF
 }
 ;
+const
 unsigned
 js_NumCodeSpecs
 =
@@ -388,6 +389,7 @@ static
 const
 char
 *
+const
 CodeToken
 [
 ]
@@ -423,6 +425,7 @@ OPDEF
 const
 char
 *
+const
 js_CodeName
 [
 ]
@@ -871,6 +874,7 @@ static
 const
 char
 *
+const
 countBaseNames
 [
 ]
@@ -911,6 +915,7 @@ static
 const
 char
 *
+const
 countAccessNames
 [
 ]
@@ -977,6 +982,7 @@ static
 const
 char
 *
+const
 countElementNames
 [
 ]
@@ -1036,6 +1042,7 @@ static
 const
 char
 *
+const
 countPropertyNames
 [
 ]
@@ -1080,6 +1087,7 @@ static
 const
 char
 *
+const
 countArithNames
 [
 ]
@@ -9959,6 +9967,7 @@ values
 const
 char
 *
+const
 *
 names
 unsigned

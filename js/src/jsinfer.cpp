@@ -746,6 +746,7 @@ static
 const
 char
 *
+const
 colors
 [
 ]
@@ -842,6 +843,7 @@ static
 const
 char
 *
+const
 colors
 [
 ]

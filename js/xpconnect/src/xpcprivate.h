@@ -11931,6 +11931,7 @@ format
 )
 ;
 static
+const
 void
 *
 IterateNSResults
@@ -11948,6 +11949,7 @@ char
 *
 *
 format
+const
 void
 *
 *
@@ -13619,6 +13621,7 @@ wideName
 const
 char
 *
+const
 list
 [
 ]

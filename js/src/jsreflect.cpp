@@ -138,6 +138,7 @@ DebugOnly
 char
 const
 *
+const
 js
 :
 :
@@ -202,6 +203,7 @@ aopNames
 char
 const
 *
+const
 js
 :
 :
@@ -290,6 +292,7 @@ instanceof
 char
 const
 *
+const
 js
 :
 :
@@ -324,6 +327,7 @@ void
 char
 const
 *
+const
 js
 :
 :
@@ -358,6 +362,7 @@ static
 char
 const
 *
+const
 callbackNames
 [
 ]

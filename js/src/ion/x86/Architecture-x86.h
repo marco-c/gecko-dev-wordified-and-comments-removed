@@ -107,6 +107,7 @@ static
 const
 char
 *
+const
 Names
 [
 ]
@@ -516,6 +517,7 @@ static
 const
 char
 *
+const
 Names
 [
 ]

@@ -1952,6 +1952,7 @@ dest
 void
 load32
 (
+const
 void
 *
 address

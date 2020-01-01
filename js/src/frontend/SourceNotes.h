@@ -518,6 +518,7 @@ arity
 extern
 JS_FRIEND_DATA
 (
+const
 JSSrcNoteSpec
 )
 js_SrcNoteSpec

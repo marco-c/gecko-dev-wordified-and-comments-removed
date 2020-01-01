@@ -2784,6 +2784,7 @@ return
 false
 ;
 static
+const
 jschar
 arguments
 [

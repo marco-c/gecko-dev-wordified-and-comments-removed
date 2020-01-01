@@ -2106,6 +2106,7 @@ static
 const
 char
 *
+const
 wtb
 [
 ]
@@ -2210,6 +2211,7 @@ pdt
 }
 ;
 static
+const
 int
 ttb
 [
@@ -11855,6 +11857,7 @@ args
 ;
 }
 static
+const
 char
 js_NaN_date_str
 [
@@ -11869,6 +11872,7 @@ static
 const
 char
 *
+const
 days
 [
 ]
@@ -11901,6 +11905,7 @@ static
 const
 char
 *
+const
 months
 [
 ]

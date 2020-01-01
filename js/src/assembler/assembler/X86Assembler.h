@@ -195,6 +195,7 @@ static
 const
 char
 *
+const
 xmmnames
 [
 16
@@ -320,6 +321,7 @@ static
 const
 char
 *
+const
 r64names
 [
 16
@@ -396,6 +398,7 @@ static
 const
 char
 *
+const
 r32names
 [
 16
@@ -472,6 +475,7 @@ static
 const
 char
 *
+const
 r16names
 [
 16
@@ -548,6 +552,7 @@ static
 const
 char
 *
+const
 r8names
 [
 16
@@ -644,6 +649,7 @@ eax
 const
 char
 *
+const
 *
 tab
 =
@@ -809,6 +815,7 @@ static
 const
 char
 *
+const
 names
 [
 16
@@ -1817,6 +1824,7 @@ adcl_im
 (
 int
 imm
+const
 void
 *
 addr
@@ -2406,6 +2414,7 @@ addl_im
 (
 int
 imm
+const
 void
 *
 addr
@@ -2937,6 +2946,7 @@ andl_im
 (
 int
 imm
+const
 void
 *
 addr
@@ -3630,6 +3640,7 @@ orl_im
 (
 int
 imm
+const
 void
 *
 addr
@@ -4134,6 +4145,7 @@ subl_im
 (
 int
 imm
+const
 void
 *
 addr
@@ -6199,6 +6211,7 @@ cmpl_rm
 (
 RegisterID
 reg
+const
 void
 *
 addr
@@ -6221,6 +6234,7 @@ cmpl_im
 (
 int
 imm
+const
 void
 *
 addr
@@ -7588,6 +7602,7 @@ offset
 void
 movl_mEAX
 (
+const
 void
 *
 addr
@@ -7718,6 +7733,7 @@ WTF_CPU_X86
 void
 movl_mr
 (
+const
 void
 *
 base
@@ -8276,6 +8292,7 @@ imm
 void
 movl_EAXm
 (
+const
 void
 *
 addr
@@ -8504,6 +8521,7 @@ offset
 void
 movq_mEAX
 (
+const
 void
 *
 addr
@@ -8535,6 +8553,7 @@ addr
 void
 movq_EAXm
 (
+const
 void
 *
 addr
@@ -9136,6 +9155,7 @@ movl_rm
 (
 RegisterID
 src
+const
 void
 *
 addr
@@ -9190,6 +9210,7 @@ addr
 void
 movl_mr
 (
+const
 void
 *
 addr
@@ -9248,6 +9269,7 @@ movl_i32m
 (
 int
 imm
+const
 void
 *
 addr
@@ -11713,6 +11735,7 @@ WTF_CPU_X86_64
 void
 cvtsi2sd_mr
 (
+const
 void
 *
 address
@@ -15459,6 +15482,7 @@ repatchPointer
 void
 *
 where
+const
 void
 *
 value
@@ -16470,6 +16494,7 @@ OneByteOpcodeID
 opcode
 int
 reg
+const
 void
 *
 address

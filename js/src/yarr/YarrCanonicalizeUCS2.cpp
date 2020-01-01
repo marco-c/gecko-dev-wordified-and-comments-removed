@@ -27,6 +27,7 @@ StandardInteger
 .
 h
 "
+const
 uint16_t
 ucs2CharacterSet0
 [
@@ -39,6 +40,7 @@ ucs2CharacterSet0
 0
 }
 ;
+const
 uint16_t
 ucs2CharacterSet1
 [
@@ -51,6 +53,7 @@ ucs2CharacterSet1
 0
 }
 ;
+const
 uint16_t
 ucs2CharacterSet2
 [
@@ -63,6 +66,7 @@ ucs2CharacterSet2
 0
 }
 ;
+const
 uint16_t
 ucs2CharacterSet3
 [
@@ -75,6 +79,7 @@ ucs2CharacterSet3
 0
 }
 ;
+const
 uint16_t
 ucs2CharacterSet4
 [
@@ -87,6 +92,7 @@ ucs2CharacterSet4
 0
 }
 ;
+const
 uint16_t
 ucs2CharacterSet5
 [
@@ -99,6 +105,7 @@ ucs2CharacterSet5
 0
 }
 ;
+const
 uint16_t
 ucs2CharacterSet6
 [
@@ -111,6 +118,7 @@ ucs2CharacterSet6
 0
 }
 ;
+const
 uint16_t
 ucs2CharacterSet7
 [
@@ -124,6 +132,7 @@ ucs2CharacterSet7
 0
 }
 ;
+const
 uint16_t
 ucs2CharacterSet8
 [
@@ -136,6 +145,7 @@ ucs2CharacterSet8
 0
 }
 ;
+const
 uint16_t
 ucs2CharacterSet9
 [
@@ -148,6 +158,7 @@ ucs2CharacterSet9
 0
 }
 ;
+const
 uint16_t
 ucs2CharacterSet10
 [
@@ -160,6 +171,7 @@ ucs2CharacterSet10
 0
 }
 ;
+const
 uint16_t
 ucs2CharacterSet11
 [
@@ -172,6 +184,7 @@ ucs2CharacterSet11
 0
 }
 ;
+const
 uint16_t
 ucs2CharacterSet12
 [
@@ -184,6 +197,7 @@ ucs2CharacterSet12
 0
 }
 ;
+const
 uint16_t
 ucs2CharacterSet13
 [
@@ -196,6 +210,7 @@ ucs2CharacterSet13
 0
 }
 ;
+const
 uint16_t
 ucs2CharacterSet14
 [
@@ -215,8 +230,10 @@ UCS2_CANONICALIZATION_SETS
 =
 15
 ;
+const
 uint16_t
 *
+const
 characterSetInfo
 [
 UCS2_CANONICALIZATION_SETS
@@ -246,6 +263,7 @@ UCS2_CANONICALIZATION_RANGES
 =
 364
 ;
+const
 UCS2CanonicalizationRange
 rangeInfo
 [
@@ -2445,6 +2463,7 @@ LATIN_CANONICALIZATION_RANGES
 =
 20
 ;
+const
 LatinCanonicalizationRange
 latinRangeInfo
 [
