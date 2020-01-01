@@ -230,14 +230,6 @@ sampleRate
 )
 ;
 }
-PassOwnPtr
-<
-AudioChannel
->
-createImpulseResponse
-(
-)
-;
 void
 reportMemoryUsage
 (
