@@ -7658,6 +7658,9 @@ false
 endif
 }
 }
+#
+ifdef
+JS_METHODJIT
 static
 bool
 IsBlacklisted
@@ -7701,6 +7704,8 @@ return
 false
 ;
 }
+#
+endif
 static
 void
 Backoff
@@ -44353,6 +44358,8 @@ s1
 ;
 jsdouble
 r
+=
+0
 ;
 VMSideExit
 *

@@ -15232,8 +15232,13 @@ CHECK_INTERRUPT_HANDLER
 (
 )
 ;
+#
+ifdef
+JS_METHODJIT
 jit_return
 :
+#
+endif
 Value
 *
 newsp
