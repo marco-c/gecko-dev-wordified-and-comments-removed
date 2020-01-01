@@ -311,6 +311,10 @@ Screen
 .
 webidl
 \
+SVGAnimatedBoolean
+.
+webidl
+\
 SVGAnimatedNumberList
 .
 webidl
