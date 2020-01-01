@@ -1001,6 +1001,12 @@ kind
 =
 =
 CALL
+|
+|
+kind
+=
+=
+GETELEM
 )
 {
 u
