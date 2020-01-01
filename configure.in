@@ -32822,7 +32822,6 @@ xml
 -
 rpc
 help
-p3p
 venkman
 inspector
 irc
@@ -33628,7 +33627,6 @@ wallet
 xml
 -
 rpc
-p3p
 venkman
 inspector
 irc
@@ -33645,7 +33643,6 @@ xml
 -
 rpc
 help
-p3p
 venkman
 inspector
 irc
