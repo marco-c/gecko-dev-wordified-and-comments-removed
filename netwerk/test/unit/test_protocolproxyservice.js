@@ -763,7 +763,6 @@ Components
 .
 interfaces
 .
-.
 nsISupports
 ]
 ;
