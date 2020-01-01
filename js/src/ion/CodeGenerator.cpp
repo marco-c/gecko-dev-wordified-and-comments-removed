@@ -27631,6 +27631,11 @@ mir
 allowDouble
 (
 )
+out
+.
+scratchReg
+(
+)
 &
 fail
 )
@@ -27669,6 +27674,11 @@ mir
 -
 >
 allowDouble
+(
+)
+out
+.
+scratchReg
 (
 )
 &
