@@ -478,16 +478,6 @@ NS_OK
 ;
 }
 NS_IMETHOD
-WillProcessTokens
-(
-void
-)
-{
-return
-NS_OK
-;
-}
-NS_IMETHOD
 DidProcessTokens
 (
 void

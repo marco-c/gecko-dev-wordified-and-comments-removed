@@ -105,17 +105,6 @@ aURI
 ;
 NS_HIDDEN_
 (
-void
-)
-RemovePrefix
-(
-nsIAtom
-*
-aPrefix
-)
-;
-NS_HIDDEN_
-(
 PRInt32
 )
 FindNameSpaceID
