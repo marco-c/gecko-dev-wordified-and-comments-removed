@@ -2061,6 +2061,9 @@ return
 JS_TRUE
 ;
 }
+#
+ifdef
+JS_METHODJIT
 if
 (
 MatchStringAndAscii
@@ -2087,6 +2090,8 @@ return
 JS_TRUE
 ;
 }
+#
+endif
 }
 if
 (
