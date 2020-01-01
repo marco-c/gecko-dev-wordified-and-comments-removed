@@ -23,7 +23,6 @@ eTreeOpAppendChildrenToNewParent
 eTreeOpFosterParent
 eTreeOpAppendToDocument
 eTreeOpAddAttributes
-eTreeOpScriptEnd
 eTreeOpDoneAddingChildren
 eTreeOpDoneCreatingElement
 eTreeOpUpdateStyleSheet
