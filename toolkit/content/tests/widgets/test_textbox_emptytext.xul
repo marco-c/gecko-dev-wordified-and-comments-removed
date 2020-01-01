@@ -95,6 +95,16 @@ height
 "
 600
 "
+onload
+=
+"
+window
+.
+focus
+(
+)
+;
+"
 onfocus
 =
 "
