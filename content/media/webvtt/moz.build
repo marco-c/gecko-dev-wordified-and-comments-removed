@@ -133,3 +133,13 @@ WebVTTParserWrapper
 js
 '
 ]
+EXTRA_JS_MODULES
++
+=
+[
+'
+vtt
+.
+jsm
+'
+]
