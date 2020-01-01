@@ -257,6 +257,10 @@ nsIScriptTimeoutHandler
 .
 h
 \
+nsJSEnvironment
+.
+h
+\
 nsJSUtils
 .
 h
