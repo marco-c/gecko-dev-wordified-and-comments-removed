@@ -2075,16 +2075,12 @@ while
 (
 item
 =
-yield
 newitems
 .
 iter
 .
 next
 (
-self
-.
-cb
 )
 )
 )
