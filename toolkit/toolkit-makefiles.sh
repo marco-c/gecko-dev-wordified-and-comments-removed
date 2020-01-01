@@ -265,11 +265,6 @@ xul
 Makefile
 dom
 /
-alarm
-/
-Makefile
-dom
-/
 base
 /
 Makefile
@@ -3774,13 +3769,6 @@ docshell
 test
 /
 navigation
-/
-Makefile
-dom
-/
-alarm
-/
-test
 /
 Makefile
 dom
