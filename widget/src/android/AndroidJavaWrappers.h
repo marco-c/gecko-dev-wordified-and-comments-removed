@@ -455,6 +455,10 @@ const
 nsIntRect
 &
 aRect
+const
+nsAString
+&
+aMetadata
 )
 ;
 private
