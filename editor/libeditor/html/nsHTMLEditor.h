@@ -3495,15 +3495,6 @@ PRBool
 aPreserveRatio
 )
 ;
-void
-SetInfoIncrements
-(
-PRInt8
-aX
-PRInt8
-aY
-)
-;
 PRInt32
 mPositionedObjectX
 ;
