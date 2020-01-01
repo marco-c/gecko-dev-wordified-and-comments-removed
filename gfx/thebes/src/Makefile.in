@@ -460,6 +460,12 @@ CPPSRCS
 nsUnicodeRange
 .
 cpp
+CPPSRCS
++
+=
+gfxQuartzNativeDrawing
+.
+cpp
 CMMSRCS
 =
 gfxQuartzFontCache

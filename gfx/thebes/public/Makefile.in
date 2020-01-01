@@ -311,6 +311,10 @@ gfxAtsuiFonts
 .
 h
 \
+gfxQuartzNativeDrawing
+.
+h
+\
 (
 NULL
 )
