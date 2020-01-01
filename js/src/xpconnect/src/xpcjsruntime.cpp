@@ -891,6 +891,7 @@ XPCPerThreadData
 :
 GetData
 (
+cx
 )
 ;
 if
@@ -4983,6 +4984,7 @@ XPCPerThreadData
 :
 GetData
 (
+cx
 )
 ;
 if

@@ -592,6 +592,13 @@ mRuntime
 #
 endif
 }
+XPCPerThreadData
+:
+:
+ShutDown
+(
+)
+;
 }
 NS_IMPL_THREADSAFE_ISUPPORTS2
 (
@@ -700,6 +707,7 @@ XPCPerThreadData
 :
 GetData
 (
+nsnull
 )
 ;
 mRuntime
