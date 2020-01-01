@@ -6344,6 +6344,10 @@ IsEmpty
 {
 if
 (
+!
+aPreventDefault
+&
+&
 mTouchQueue
 [
 0
