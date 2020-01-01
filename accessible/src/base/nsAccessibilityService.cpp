@@ -3637,11 +3637,6 @@ GetPluginPort
 pluginPort
 )
 ;
-if
-(
-pluginPort
-)
-{
 *
 aAccessible
 =
@@ -3653,12 +3648,13 @@ weakShell
 pluginPort
 )
 ;
-if
+NS_ENSURE_TRUE
 (
 *
 aAccessible
+NS_ERROR_OUT_OF_MEMORY
 )
-{
+;
 NS_ADDREF
 (
 *
@@ -3668,8 +3664,6 @@ aAccessible
 return
 NS_OK
 ;
-}
-}
 }
 #
 endif

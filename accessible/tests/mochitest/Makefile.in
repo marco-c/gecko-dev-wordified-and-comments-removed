@@ -639,6 +639,10 @@ temporarily
 disabled
 )
 \
+test_elm_plugin
+.
+html
+\
 test_elm_tree
 .
 xul

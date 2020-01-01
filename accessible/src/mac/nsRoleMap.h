@@ -157,6 +157,7 @@ NSAccessibilityRowRole
 NSAccessibilityListRole
 NSAccessibilityUnknownRole
 NSAccessibilityGroupRole
+NSAccessibilityGroupRole
 "
 ROLE_LAST_ENTRY
 "

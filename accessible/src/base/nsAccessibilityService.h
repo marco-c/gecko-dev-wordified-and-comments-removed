@@ -701,6 +701,10 @@ equation
 "
 gridcell
 "
+"
+embedded
+object
+"
 }
 ;
 static
