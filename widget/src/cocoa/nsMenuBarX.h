@@ -509,6 +509,12 @@ nsCOMPtr
 <
 nsIContent
 >
+mAboutItemContent
+;
+nsCOMPtr
+<
+nsIContent
+>
 mPrefItemContent
 ;
 nsCOMPtr
