@@ -96,56 +96,6 @@ argv
 )
 :
     
-script_path
-=
-os
-.
-path
-.
-abspath
-(
-__file__
-)
-    
-script_dir
-=
-os
-.
-path
-.
-dirname
-(
-script_path
-)
-    
-test_dir
-=
-os
-.
-path
-.
-join
-(
-script_dir
-'
-tests
-'
-)
-    
-lib_dir
-=
-os
-.
-path
-.
-join
-(
-script_dir
-'
-lib
-'
-)
-    
 max_jobs_default
 =
 1
@@ -1078,22 +1028,8 @@ argument
 '
 )
     
-options
-.
-js_shell
 test_args
 =
-os
-.
-path
-.
-abspath
-(
-args
-[
-0
-]
-)
 args
 [
 1
@@ -1166,7 +1102,6 @@ jittests
 .
 find_tests
 (
-test_dir
 arg
 )
     
@@ -1208,7 +1143,7 @@ path
 .
 join
 (
-test_dir
+TEST_DIR
 line
 .
 strip
@@ -1303,7 +1238,6 @@ jittests
 .
 find_tests
 (
-test_dir
 )
     
 if
@@ -1332,7 +1266,6 @@ jittests
 .
 find_tests
 (
-test_dir
 exclude
 )
         
@@ -1877,8 +1810,22 @@ append
 new_test
 )
     
-shell_args
+prefix
 =
+[
+os
+.
+path
+.
+abspath
+(
+args
+[
+0
+]
+)
+]
++
 shlex
 .
 split
@@ -1887,6 +1834,31 @@ options
 .
 shell_args
 )
+    
+prefix
++
+=
+[
+'
+-
+f
+'
+os
+.
+path
+.
+join
+(
+jittests
+.
+LIB_DIR
+'
+prolog
+.
+js
+'
+)
+]
     
 if
 options
@@ -1961,21 +1933,11 @@ args
 '
 ]
 +
-jittests
+tc
 .
-get_test_cmd
+command
 (
-options
-.
-js_shell
-tc
-.
-path
-tc
-.
-jitflags
-lib_dir
-shell_args
+prefix
 )
         
 subprocess
@@ -2017,9 +1979,7 @@ jittests
 run_tests_parallel
 (
 job_list
-test_dir
-lib_dir
-shell_args
+prefix
 options
 )
         
@@ -2033,9 +1993,7 @@ jittests
 run_tests
 (
 job_list
-test_dir
-lib_dir
-shell_args
+prefix
 options
 )
         
@@ -2063,9 +2021,10 @@ path
 .
 exists
 (
-options
-.
-js_shell
+prefix
+[
+0
+]
 )
 :
             
@@ -2091,9 +2050,10 @@ s
 '
 "
 %
-options
-.
-js_shell
+prefix
+[
+0
+]
             
 sys
 .

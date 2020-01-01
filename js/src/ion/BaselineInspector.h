@@ -46,10 +46,6 @@ BaselineInspector
 {
 private
 :
-JSContext
-*
-cx
-;
 RootedScript
 script
 ;
@@ -68,10 +64,6 @@ RawScript
 rawScript
 )
 :
-cx
-(
-cx
-)
 script
 (
 cx

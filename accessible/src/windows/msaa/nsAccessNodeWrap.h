@@ -48,6 +48,13 @@ h
 #
 include
 "
+nsIContent
+.
+h
+"
+#
+include
+"
 nsAccessNode
 .
 h
@@ -127,9 +134,6 @@ GetExceptionInformation
 \
 return
 E_FAIL
-;
-class
-nsIContent
 ;
 namespace
 mozilla
