@@ -11024,7 +11024,7 @@ range
 )
 ;
 bool
-hasRoundingErrors
+canHaveRoundingErrors
 =
 !
 r
@@ -11033,7 +11033,7 @@ r
 r
 -
 >
-hasRoundingErrors
+canHaveRoundingErrors
 (
 )
 ;
@@ -11062,13 +11062,13 @@ specialization
 =
 MIRType_Int32
 )
-hasRoundingErrors
+canHaveRoundingErrors
 =
 false
 ;
 if
 (
-hasRoundingErrors
+canHaveRoundingErrors
 )
 continue
 ;

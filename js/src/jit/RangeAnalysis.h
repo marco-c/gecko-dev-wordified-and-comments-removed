@@ -1281,7 +1281,7 @@ canHaveFractionalPart
 ;
 }
 bool
-hasRoundingErrors
+canHaveRoundingErrors
 (
 )
 const
@@ -1301,7 +1301,7 @@ MaxTruncatableExponent
 ;
 }
 bool
-isInfinite
+canBeInfiniteOrNaN
 (
 )
 const

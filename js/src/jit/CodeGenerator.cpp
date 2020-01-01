@@ -45560,7 +45560,7 @@ if
 r
 -
 >
-isInfinite
+canBeInfiniteOrNaN
 (
 )
 )
