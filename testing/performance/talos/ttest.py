@@ -1062,6 +1062,12 @@ browser_results
     
 ffprocess
 .
+Sleep
+(
+)
+    
+ffprocess
+.
 TerminateAllProcesses
 (
 "
@@ -1081,12 +1087,6 @@ all_counter_results
 append
 (
 counter_results
-)
-  
-ffprocess
-.
-Sleep
-(
 )
   
 ffsetup
