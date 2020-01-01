@@ -64689,10 +64689,7 @@ u
 .
 i
 .
-script
--
->
-upvarsOffset
+nupvars
 )
 {
 JSUpvarArray
