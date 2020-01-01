@@ -542,10 +542,6 @@ JSScript
 *
 script
 ;
-JSFunction
-*
-function
-;
 uintN
 lineBase
 ;
