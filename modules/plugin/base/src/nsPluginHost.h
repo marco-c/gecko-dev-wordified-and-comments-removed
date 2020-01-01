@@ -806,6 +806,9 @@ mAllowAlienStarHandler
 PRPackedBool
 mDefaultPluginDisabled
 ;
+PRPackedBool
+mPluginsDisabled
+;
 nsPluginInstanceTagList
 mPluginInstanceTagList
 ;
