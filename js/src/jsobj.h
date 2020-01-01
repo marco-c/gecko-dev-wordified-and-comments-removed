@@ -6117,6 +6117,11 @@ Object
 )
 ;
 }
+void
+dump
+(
+)
+;
 }
 ;
 static
