@@ -1600,6 +1600,16 @@ ICC
 card
 .
 *
+*
+Null
+if
+the
+card
+is
+not
+detected
+.
+*
 /
 readonly
 attribute
