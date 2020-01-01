@@ -589,10 +589,6 @@ const
 bool
 handler_installed_
 ;
-void
-*
-signal_stack
-;
 HandlerCallback
 crash_handler_
 ;
