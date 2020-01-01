@@ -518,10 +518,6 @@ nsThebesRegion
 .
 cpp
 \
-nsThebesBlender
-.
-cpp
-\
 nsThebesGfxFactory
 .
 cpp

@@ -479,10 +479,6 @@ nsIImage
 .
 h
 \
-nsIBlender
-.
-h
-\
 nsGfxCIID
 .
 h
