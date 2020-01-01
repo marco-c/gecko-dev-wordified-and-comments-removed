@@ -184,6 +184,11 @@ nsGtkIMModule
 (
 )
 ;
+PRBool
+IsEnabled
+(
+)
+;
 void
 OnFocusWindow
 (
@@ -224,6 +229,10 @@ aWindow
 GdkEventKey
 *
 aEvent
+PRBool
+aKeyDownEventWasSent
+=
+PR_FALSE
 )
 ;
 nsresult
@@ -319,6 +328,9 @@ mFilterKeyEvent
 ;
 PRPackedBool
 mIgnoreNativeCompositionEvent
+;
+PRPackedBool
+mKeyDownEventWasSent
 ;
 static
 nsGtkIMModule
@@ -464,11 +476,6 @@ aContext
 GtkIMContext
 *
 GetContext
-(
-)
-;
-PRBool
-IsEnabled
 (
 )
 ;
