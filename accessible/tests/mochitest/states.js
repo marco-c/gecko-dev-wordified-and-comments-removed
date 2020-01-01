@@ -222,6 +222,16 @@ nsIAccessibleStates
 .
 EXT_STATE_VERTICAL
 ;
+const
+kOrdinalState
+=
+0
+;
+const
+kExtraState
+=
+1
+;
 function
 testStates
 (

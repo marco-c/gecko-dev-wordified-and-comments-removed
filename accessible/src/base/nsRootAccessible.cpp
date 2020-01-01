@@ -1306,15 +1306,6 @@ document
 "
 )
 ;
-gLastFocusedAccessiblesState
-=
-focusAccessible
--
->
-State
-(
-)
-;
 if
 (
 focusAccessible
@@ -2762,10 +2753,6 @@ NS_IF_RELEASE
 (
 gLastFocusedNode
 )
-;
-gLastFocusedAccessiblesState
-=
-0
 ;
 }
 else
