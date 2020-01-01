@@ -556,4 +556,14 @@ aCallback
 )
 ;
 }
+else
+{
+aCallback
+.
+call
+(
+aShell
+)
+;
+}
 }
