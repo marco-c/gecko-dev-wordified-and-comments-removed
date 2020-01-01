@@ -251,14 +251,6 @@ lir
 )
 ;
 bool
-visitTruncateDToInt32
-(
-LTruncateDToInt32
-*
-lir
-)
-;
-bool
 visitIntToString
 (
 LIntToString
