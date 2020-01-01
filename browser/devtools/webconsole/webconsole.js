@@ -10324,6 +10324,12 @@ text
 +
 aSourceLine
 ;
+locationNode
+.
+sourceLine
+=
+aSourceLine
+;
 }
 locationNode
 .
