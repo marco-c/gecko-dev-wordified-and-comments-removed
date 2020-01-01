@@ -5930,7 +5930,6 @@ GetActiveScrolledRootFor
 (
 f
 nsnull
-nsnull
 )
 ;
 if
@@ -6619,7 +6618,6 @@ nsLayoutUtils
 GetActiveScrolledRootFor
 (
 mFrame
-nsnull
 nsnull
 )
 ;
@@ -8305,7 +8303,6 @@ nsLayoutUtils
 GetActiveScrolledRootFor
 (
 mFrame
-nsnull
 nsnull
 )
 ;

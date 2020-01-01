@@ -428,9 +428,6 @@ aFrame
 nsIFrame
 *
 aStopAtAncestor
-nsPoint
-*
-aOffset
 )
 ;
 static
