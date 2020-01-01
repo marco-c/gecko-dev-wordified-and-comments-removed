@@ -1707,7 +1707,7 @@ devPixel
 ;
 if
 (
-cssPixel
+perCSSPixel
 )
 *
 perCSSPixel
