@@ -5947,6 +5947,13 @@ usemap
 )
 GK_ATOM
 (
+userInput
+"
+userInput
+"
+)
+GK_ATOM
+(
 validate
 "
 validate
@@ -7977,13 +7984,6 @@ unicode_bidi
 unicode
 -
 bidi
-"
-)
-GK_ATOM
-(
-userInput
-"
-userInput
 "
 )
 GK_ATOM
