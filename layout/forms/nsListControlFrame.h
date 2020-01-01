@@ -644,6 +644,11 @@ nsPoint
 aPt
 )
 ;
+void
+InvalidateFocus
+(
+)
+;
 nscoord
 CalcHeightOfARow
 (
