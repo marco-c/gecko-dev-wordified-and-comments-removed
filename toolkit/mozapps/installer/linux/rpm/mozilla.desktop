@@ -508,3 +508,8 @@ Network
 ;
 WebBrowser
 ;
+Encoding
+=
+UTF
+-
+8
