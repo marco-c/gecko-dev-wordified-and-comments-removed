@@ -517,7 +517,7 @@ onAlertLoad
 onclick
 =
 "
-closeAlert
+onAlertClick
 (
 )
 ;
@@ -635,14 +635,6 @@ class
 "
 alertText
 plain
-"
-onclick
-=
-"
-onAlertClick
-(
-)
-;
 "
 /
 >
