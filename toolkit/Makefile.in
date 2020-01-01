@@ -440,11 +440,11 @@ themes
 NULL
 )
 ifdef
-MOZ_AIRBAG
+MOZ_CRASHREPORTER
 DIRS
 +
 =
-airbag
+crashreporter
 endif
 ifndef
 MINIMO
