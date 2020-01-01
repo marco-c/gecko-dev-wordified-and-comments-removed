@@ -110,7 +110,7 @@ const
 FloatRegister
 FloatReg0
 =
-d1
+d0
 ;
 static
 const
