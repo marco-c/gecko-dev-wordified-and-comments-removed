@@ -1337,6 +1337,10 @@ chunk_link
 '
 '
         
+i
+=
+0
+        
 for
 chunk
 in
@@ -1360,10 +1364,6 @@ filename
 w
 "
 )
-          
-i
-=
-0
           
 for
 val
