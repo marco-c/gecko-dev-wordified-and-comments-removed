@@ -1016,7 +1016,7 @@ mozIStorageBindingParamsArray
 *
 aParamsArray
 =
-NULL
+nullptr
 )
 ;
 void

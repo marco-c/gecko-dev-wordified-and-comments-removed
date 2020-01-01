@@ -386,7 +386,7 @@ tfp
 setvbuf
 (
 tfp
-NULL
+nullptr
 _IOLBF
 0
 )
@@ -1055,7 +1055,7 @@ nsBufferedStream
 NS_IMPL_CLASSINFO
 (
 nsBufferedInputStream
-NULL
+nullptr
 nsIClassInfo
 :
 :

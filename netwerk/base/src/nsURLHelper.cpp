@@ -3891,7 +3891,7 @@ type
 )
 !
 =
-NULL
+nullptr
 )
 {
 bool

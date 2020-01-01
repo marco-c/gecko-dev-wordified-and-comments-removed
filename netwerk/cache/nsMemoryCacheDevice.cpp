@@ -2443,7 +2443,7 @@ DoEvictEntries
 (
 &
 IsEntryPrivate
-NULL
+nullptr
 )
 ;
 }

@@ -4887,7 +4887,7 @@ i
 error
 ;
 return
-NULL
+nullptr
 ;
 }
 }

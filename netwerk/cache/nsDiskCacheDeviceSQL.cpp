@@ -7354,7 +7354,7 @@ rec
 .
 metaData
 =
-NULL
+nullptr
 ;
 rec
 .
@@ -8581,7 +8581,7 @@ statement
 GetSharedUTF8String
 (
 0
-NULL
+nullptr
 &
 rec
 .
@@ -8594,7 +8594,7 @@ statement
 GetSharedUTF8String
 (
 1
-NULL
+nullptr
 &
 rec
 .

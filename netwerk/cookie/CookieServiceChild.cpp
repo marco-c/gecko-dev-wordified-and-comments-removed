@@ -437,7 +437,7 @@ aCookieString
 *
 aCookieString
 =
-NULL
+nullptr
 ;
 bool
 isForeign
