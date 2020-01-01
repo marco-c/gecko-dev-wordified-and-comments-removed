@@ -1498,6 +1498,10 @@ runtime
 noGCOrAllocationCheck
 )
 ;
+JS_OOM_POSSIBLY_FAIL
+(
+)
+;
 #
 ifdef
 JS_GC_ZEAL
