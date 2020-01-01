@@ -499,10 +499,6 @@ test_compatmode
 .
 html
 \
-regressions
-.
-txt
-\
 invalidchar
 .
 xml
