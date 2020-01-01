@@ -704,6 +704,11 @@ return
 mHasChildrenOnlyTransform
 ;
 }
+void
+UpdateHasChildrenOnlyTransform
+(
+)
+;
 enum
 ChildrenOnlyTransformChangedFlags
 {

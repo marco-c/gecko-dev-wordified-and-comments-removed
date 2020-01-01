@@ -1883,14 +1883,8 @@ NS_FRAME_FIRST_REFLOW
 svgElem
 -
 >
-mHasChildrenOnlyTransform
-=
-anonKid
--
->
-HasChildrenOnlyTransform
+UpdateHasChildrenOnlyTransform
 (
-nullptr
 )
 ;
 }
@@ -2063,10 +2057,6 @@ GetFullZoom
 )
 ;
 }
-mViewportInitialized
-=
-true
-;
 if
 (
 changeBits
@@ -2078,6 +2068,10 @@ changeBits
 )
 ;
 }
+mViewportInitialized
+=
+true
+;
 if
 (
 !
