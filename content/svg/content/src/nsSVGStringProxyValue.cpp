@@ -323,7 +323,14 @@ s
 \
 n
 "
+static_cast
+<
+void
+*
+>
+(
 this
+)
 NS_ConvertUTF16toUTF8
 (
 aValue
