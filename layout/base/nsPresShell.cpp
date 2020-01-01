@@ -11471,6 +11471,7 @@ PresShell
 GetCaret
 (
 )
+const
 {
 nsCaret
 *
