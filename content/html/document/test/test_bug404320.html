@@ -405,7 +405,7 @@ i
 ;
 i
 <
-goodTags
+tags
 .
 length
 ;
@@ -417,7 +417,7 @@ i
 var
 tag
 =
-goodTags
+tags
 [
 i
 ]
@@ -441,12 +441,9 @@ html
 ;
 testFormatBlock
 (
-goodTags
-[
-i
-]
+tag
 false
-true
+shouldSucceed
 )
 ;
 doc
@@ -459,12 +456,9 @@ html
 ;
 testFormatBlock
 (
-goodTags
-[
-i
-]
+tag
 true
-true
+shouldSucceed
 )
 ;
 }
