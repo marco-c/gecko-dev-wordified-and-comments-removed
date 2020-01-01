@@ -305,6 +305,10 @@ DIST
 )
 /
 branding
+BRANDING_TARGET
+:
+=
+export
 INSTALL_TARGETS
 +
 =
