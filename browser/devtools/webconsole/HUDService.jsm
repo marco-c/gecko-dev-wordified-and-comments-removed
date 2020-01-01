@@ -17436,7 +17436,6 @@ stylePanel
 selectNode
 (
 aNode
-true
 )
 ;
 }
