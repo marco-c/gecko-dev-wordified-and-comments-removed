@@ -418,14 +418,11 @@ addons
 TESTROOT
 =
 (
-shell
-cd
+CURDIR
+)
+/
 (
 DEPTH
-)
-&
-&
-pwd
 )
 /
 _tests
