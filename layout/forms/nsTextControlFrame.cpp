@@ -11017,7 +11017,7 @@ ScrollTo
 (
 0
 0
-NS_VMREFRESH_NO_SYNC
+0
 )
 ;
 }

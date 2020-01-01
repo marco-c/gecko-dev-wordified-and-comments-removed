@@ -16490,7 +16490,7 @@ ScrollTo
 (
 x
 y
-NS_VMREFRESH_IMMEDIATE
+0
 )
 NS_ERROR_FAILURE
 )
@@ -16544,7 +16544,7 @@ ScrollTo
 (
 curHorizontalPos
 curVerticalPos
-NS_VMREFRESH_IMMEDIATE
+0
 )
 NS_ERROR_FAILURE
 )

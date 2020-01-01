@@ -159,7 +159,7 @@ aScrollPosition
 PRUint32
 aFlags
 =
-NS_VMREFRESH_NO_SYNC
+0
 )
 =
 0

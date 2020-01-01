@@ -4834,7 +4834,7 @@ CSSPixelsToAppUnits
 (
 aScrollTop
 )
-NS_VMREFRESH_IMMEDIATE
+0
 )
 ;
 }
@@ -4983,7 +4983,7 @@ CSSPixelsToAppUnits
 aScrollLeft
 )
 yPos
-NS_VMREFRESH_IMMEDIATE
+0
 )
 ;
 }
