@@ -845,10 +845,16 @@ case
 eCSSProperty_font_size_adjust
 :
 case
+eCSSProperty_font_stretch
+:
+case
 eCSSProperty_font_style
 :
 case
 eCSSProperty_font_variant
+:
+case
+eCSSProperty_font_weight
 :
 case
 eCSSProperty_image_rendering

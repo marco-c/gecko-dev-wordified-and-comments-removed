@@ -468,6 +468,10 @@ smilTestUtils
 .
 js
 \
+test_smilCSSFontStretchRelative
+.
+xhtml
+\
 test_smilCSSFromBy
 .
 xhtml
