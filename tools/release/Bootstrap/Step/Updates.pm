@@ -2200,12 +2200,6 @@ version
 locale
 %
 .
-'
-.
-osname
-.
-'
-.
 mac
 .
 dmg
@@ -2275,11 +2269,7 @@ version
 locale
 %
 .
-'
-.
-osname
-.
-'
+win32
 .
 installer
 .
