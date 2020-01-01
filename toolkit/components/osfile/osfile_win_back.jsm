@@ -793,6 +793,10 @@ int16_t
 let
 _CloseHandle
 =
+WinFile
+.
+_CloseHandle
+=
 libc
 .
 declare

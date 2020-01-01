@@ -859,6 +859,10 @@ getType
 let
 _close
 =
+UnixFile
+.
+_close
+=
 libc
 .
 declare
