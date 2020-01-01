@@ -364,10 +364,12 @@ IssueSingleInsertNofications
 nsIContent
 *
 aContainer
-PRInt32
-aStartIndexInContainer
-PRInt32
-aEndIndexInContainer
+nsIContent
+*
+aStartChild
+nsIContent
+*
+aEndChild
 PRBool
 aAllowLazyConstruction
 )
@@ -388,10 +390,6 @@ aStartChild
 nsIContent
 *
 aEndChild
-PRInt32
-aStartIndexInContainer
-PRInt32
-aEndIndexInContainer
 PRBool
 aAllowLazyConstruction
 )
@@ -436,8 +434,6 @@ aContainer
 nsIContent
 *
 aChild
-PRInt32
-aIndexInContainer
 nsILayoutHistoryState
 *
 aFrameState
@@ -457,10 +453,6 @@ aStartChild
 nsIContent
 *
 aEndChild
-PRInt32
-aIndexInContainer
-PRInt32
-aEndIndexInContainer
 nsILayoutHistoryState
 *
 aFrameState

@@ -11054,7 +11054,6 @@ ContentInserted
 (
 nsnull
 root
-0
 nsnull
 PR_FALSE
 )
@@ -20854,7 +20853,6 @@ ContentInserted
 (
 aContainer
 aChild
-aIndexInContainer
 nsnull
 PR_TRUE
 )
