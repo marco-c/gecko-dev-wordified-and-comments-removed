@@ -2825,6 +2825,11 @@ nsIIDBTransaction
 *
 '
 '
+nsIIDBTransactionEvent
+.
+*
+'
+'
 nsIIDBTransactionRequest
 .
 *
