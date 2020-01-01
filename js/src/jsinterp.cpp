@@ -3809,6 +3809,7 @@ JS_TRUE
 ;
 }
 static
+inline
 JSObject
 *
 CallThisObjectHook
