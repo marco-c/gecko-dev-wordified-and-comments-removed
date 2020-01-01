@@ -235,6 +235,10 @@ const
 char
 *
 aMimeType
+const
+char
+*
+aURIString
 PRUint32
 aFlags
 )
@@ -863,6 +867,9 @@ mSourceData
 ;
 nsCString
 mSourceDataMimeType
+;
+nsCString
+mURIString
 ;
 friend
 class

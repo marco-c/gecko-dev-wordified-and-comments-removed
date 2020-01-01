@@ -89,6 +89,10 @@ const
 char
 *
 aMimeType
+const
+char
+*
+aURIString
 PRUint32
 aFlags
 )
