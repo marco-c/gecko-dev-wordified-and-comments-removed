@@ -31,7 +31,7 @@ gfxDrawable
 class
 nsIntRegion
 ;
-class
+struct
 nsIntRect
 ;
 class
