@@ -1934,10 +1934,6 @@ Finish
 (
 )
 {
-Flush
-(
-)
-;
 nsresult
 rv
 =
