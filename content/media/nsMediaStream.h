@@ -1043,9 +1043,11 @@ mListener
 ;
 nsRevocableEventPtr
 <
-nsNonOwningRunnableMethod
+nsRunnableMethod
 <
 nsMediaChannelStream
+void
+false
 >
 >
 mDataReceivedEvent
