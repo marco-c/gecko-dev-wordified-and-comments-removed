@@ -5201,6 +5201,11 @@ autoscroll
 "
 false
 "
+disablehistory
+=
+"
+true
+"
 style
 =
 "
