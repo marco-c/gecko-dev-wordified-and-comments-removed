@@ -24203,7 +24203,7 @@ scopeIndex
 ;
 parent
 ?
-js_IsCacheableNonGlobalScope
+IsCacheableNonGlobalScope
 (
 obj
 )
@@ -24651,7 +24651,7 @@ getParent
 )
 |
 |
-js_IsCacheableNonGlobalScope
+IsCacheableNonGlobalScope
 (
 obj
 )

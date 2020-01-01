@@ -35530,7 +35530,7 @@ getParent
 if
 (
 !
-js_IsCacheableNonGlobalScope
+IsCacheableNonGlobalScope
 (
 child
 )
@@ -82209,7 +82209,7 @@ globalObj
 if
 (
 !
-js_IsCacheableNonGlobalScope
+IsCacheableNonGlobalScope
 (
 obj
 )
