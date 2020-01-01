@@ -25,6 +25,7 @@ struct
 OggPlayReader
 functions
 ;
+const
 char
 *
 file_name
