@@ -4404,7 +4404,7 @@ nsDOMWorkerXHRProxy
 :
 GetReadyState
 (
-PRInt32
+PRUint16
 *
 _retval
 )

@@ -383,7 +383,7 @@ _retval
 nsresult
 GetReadyState
 (
-PRInt32
+PRUint16
 *
 _retval
 )
