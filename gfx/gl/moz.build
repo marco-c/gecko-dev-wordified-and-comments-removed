@@ -299,6 +299,11 @@ ForceDiscreteGPUHelperCGL
 h
 '
 '
+GLConsts
+.
+h
+'
+'
 GLContext
 .
 h
@@ -345,6 +350,11 @@ h
 '
 '
 GLTextureImage
+.
+h
+'
+'
+GLTypes
 .
 h
 '
