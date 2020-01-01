@@ -642,11 +642,6 @@ EnsureContentViewer
 (
 )
 ;
-NS_IMETHOD
-EnsureDeviceContext
-(
-)
-;
 nsresult
 CreateAboutBlankContentViewer
 (
@@ -1600,12 +1595,6 @@ nsCOMPtr
 nsIDocumentCharsetInfo
 >
 mDocumentCharsetInfo
-;
-nsCOMPtr
-<
-nsIDeviceContext
->
-mDeviceContext
 ;
 nsCOMPtr
 <

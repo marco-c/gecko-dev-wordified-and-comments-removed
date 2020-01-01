@@ -2320,10 +2320,6 @@ mContentViewer
 =
 nsnull
 ;
-mDeviceContext
-=
-nsnull
-;
 InitFrameData
 (
 )
