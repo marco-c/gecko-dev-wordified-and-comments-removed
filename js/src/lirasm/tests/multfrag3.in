@@ -42,7 +42,7 @@ int
 200
 res
 =
-call
+icall
 avg
 fastcall
 twoh

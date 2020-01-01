@@ -39,7 +39,7 @@ ptr
 3
 ss
 =
-call
+icall
 puts
 cdecl
 ptr
@@ -52,7 +52,7 @@ begin
 b
 rr
 =
-call
+icall
 a
 fastcall
 ret
@@ -64,7 +64,7 @@ begin
 main
 ans
 =
-call
+icall
 b
 fastcall
 five

@@ -36,7 +36,7 @@ ptr
 3
 ss
 =
-call
+icall
 puts
 cdecl
 ptr
