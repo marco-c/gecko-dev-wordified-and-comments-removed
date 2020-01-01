@@ -3263,9 +3263,6 @@ nsIContent
 aElement
 )
 {
-nsresult
-rv
-;
 nsIAtom
 *
 atom
@@ -3530,8 +3527,6 @@ nsIURI
 >
 baseURI
 ;
-rv
-=
 NS_NewURI
 (
 getter_AddRefs
@@ -3542,12 +3537,11 @@ value
 nsnull
 )
 ;
-NS_ENSURE_SUCCESS
+if
 (
-rv
-rv
+baseURI
 )
-;
+{
 doc
 -
 >
@@ -3556,6 +3550,7 @@ SetBaseURI
 baseURI
 )
 ;
+}
 }
 else
 if
