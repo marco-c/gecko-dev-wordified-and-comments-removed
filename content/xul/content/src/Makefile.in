@@ -76,13 +76,6 @@ config
 autoconf
 .
 mk
-ifdef
-MOZ_XUL
-MSVC_ENABLE_PGO
-:
-=
-1
-endif
 include
 (
 topsrcdir

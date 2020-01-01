@@ -76,6 +76,13 @@ config
 autoconf
 .
 mk
+#
+need
+to
+include
+etld_data
+.
+inc
 LOCAL_INCLUDES
 =
 \
