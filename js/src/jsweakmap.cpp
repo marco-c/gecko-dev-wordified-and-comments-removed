@@ -1423,7 +1423,7 @@ family
 )
 =
 =
-GetListBaseHandlerFamily
+GetDOMProxyHandlerFamily
 (
 )
 )
