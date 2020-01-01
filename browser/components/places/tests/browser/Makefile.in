@@ -564,6 +564,10 @@ frameRight
 .
 html
 \
+browser_toolbar_migration
+.
+js
+\
 (
 NULL
 )
