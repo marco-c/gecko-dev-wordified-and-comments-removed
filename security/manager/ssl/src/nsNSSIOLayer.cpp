@@ -11331,7 +11331,7 @@ nssCert
 status
 -
 >
-mHaveCertStatus
+mHaveCertErrorBits
 =
 PR_TRUE
 ;
