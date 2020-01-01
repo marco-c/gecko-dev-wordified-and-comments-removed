@@ -223,7 +223,7 @@ width
 NS_IMPL_BOOL_ATTR
 (
 HTMLIFrameElement
-Allowfullscreen
+AllowFullscreen
 allowfullscreen
 )
 NS_IMPL_STRING_ATTR
