@@ -4179,6 +4179,7 @@ sAddListenerID
 =
 INTERNED_STRING_TO_JSID
 (
+cx
 :
 :
 JS_InternString

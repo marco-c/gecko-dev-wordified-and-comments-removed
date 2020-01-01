@@ -68168,9 +68168,15 @@ isAtom
 *
 idp
 =
-INTERNED_STRING_TO_JSID
+ATOM_TO_JSID
 (
+&
 name
+-
+>
+asAtom
+(
+)
 )
 ;
 return
@@ -68185,7 +68191,6 @@ js_AtomizeString
 (
 cx
 name
-0
 )
 ;
 if
