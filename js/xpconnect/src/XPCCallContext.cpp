@@ -126,7 +126,6 @@ callerLanguage
 NATIVE_CALLER
 obj
 funobj
-INIT_SHOULD_LOOKUP_WRAPPER
 name
 argc
 argv
@@ -215,8 +214,6 @@ HandleObject
 obj
 HandleObject
 funobj
-WrapperInitOptions
-wrapperInitOptions
 HandleId
 name
 unsigned
@@ -413,14 +410,6 @@ mTearOff
 =
 nullptr
 ;
-if
-(
-wrapperInitOptions
-=
-=
-INIT_SHOULD_LOOKUP_WRAPPER
-)
-{
 JSObject
 *
 unwrapped
@@ -622,7 +611,6 @@ wrapper
 "
 )
 ;
-}
 }
 if
 (

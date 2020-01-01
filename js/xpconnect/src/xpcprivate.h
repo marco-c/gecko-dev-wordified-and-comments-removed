@@ -4331,13 +4331,6 @@ XPCCallContext
 r
 )
 ;
-enum
-WrapperInitOptions
-{
-WRAPPER_PASSED_TO_CONSTRUCTOR
-INIT_SHOULD_LOOKUP_WRAPPER
-}
-;
 void
 Init
 (
@@ -4358,8 +4351,6 @@ JS
 :
 HandleObject
 funobj
-WrapperInitOptions
-wrapperInitOptions
 JS
 :
 :
