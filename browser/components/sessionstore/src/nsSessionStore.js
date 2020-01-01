@@ -7931,6 +7931,9 @@ _updateCookies
 total
 )
 ;
+#
+ifndef
+XP_MACOSX
 if
 (
 nonPopupCount
@@ -7956,6 +7959,8 @@ total
 )
 ;
 }
+#
+endif
 if
 (
 activeWindow
