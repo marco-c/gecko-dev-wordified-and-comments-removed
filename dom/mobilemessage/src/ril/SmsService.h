@@ -52,9 +52,9 @@ protected
 :
 nsCOMPtr
 <
-nsIRadioInterfaceLayer
+nsIRadioInterface
 >
-mRIL
+mRadioInterface
 ;
 }
 ;
