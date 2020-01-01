@@ -4370,7 +4370,7 @@ arg
 =
 =
 '
-outparam
+NS_outparam
 '
 )
 {
@@ -4387,7 +4387,7 @@ arg
 =
 =
 '
-inoutparam
+NS_inoutparam
 '
 )
 {
