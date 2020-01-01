@@ -1035,7 +1035,7 @@ Uses
 )
 )
 ;
-stubCall
+INLINE_STUBCALL
 (
 stub
 )
@@ -1869,9 +1869,7 @@ leave
 (
 )
 ;
-stubcc
-.
-call
+OOL_STUBCALL
 (
 stub
 )
@@ -2591,9 +2589,7 @@ leave
 (
 )
 ;
-stubcc
-.
-call
+OOL_STUBCALL
 (
 stub
 )
@@ -4038,9 +4034,7 @@ leave
 (
 )
 ;
-stubcc
-.
-call
+OOL_STUBCALL
 (
 stub
 )
@@ -4217,7 +4211,7 @@ Uses
 )
 )
 ;
-stubCall
+INLINE_STUBCALL
 (
 stubs
 :
@@ -4600,9 +4594,7 @@ leave
 (
 )
 ;
-stubcc
-.
-call
+OOL_STUBCALL
 (
 stubs
 :
@@ -4845,7 +4837,7 @@ Uses
 )
 )
 ;
-stubCall
+INLINE_STUBCALL
 (
 stubs
 :
@@ -5589,9 +5581,7 @@ leave
 (
 )
 ;
-stubcc
-.
-call
+OOL_STUBCALL
 (
 stubs
 :
@@ -5922,7 +5912,7 @@ Uses
 (
 frame
 .
-frameDepth
+frameSlots
 (
 )
 )
@@ -6101,9 +6091,7 @@ ic
 .
 stubCall
 =
-stubcc
-.
-call
+OOL_STUBCALL_LOCAL_SLOTS
 (
 ic
 :
@@ -6134,9 +6122,7 @@ if
 (
 needStub
 )
-stubcc
-.
-call
+OOL_STUBCALL_LOCAL_SLOTS
 (
 stub
 frame
@@ -6648,9 +6634,7 @@ leave
 (
 )
 ;
-stubcc
-.
-call
+OOL_STUBCALL
 (
 stub
 )
@@ -7569,9 +7553,7 @@ leave
 (
 )
 ;
-stubcc
-.
-call
+OOL_STUBCALL
 (
 stub
 )
@@ -7736,9 +7718,7 @@ leave
 (
 )
 ;
-stubcc
-.
-call
+OOL_STUBCALL
 (
 stub
 )
@@ -8295,7 +8275,7 @@ Uses
 (
 frame
 .
-frameDepth
+frameSlots
 (
 )
 )
@@ -8428,7 +8408,7 @@ Uses
 (
 frame
 .
-frameDepth
+frameSlots
 (
 )
 )
@@ -8440,9 +8420,7 @@ leave
 (
 )
 ;
-stubcc
-.
-call
+OOL_STUBCALL
 (
 stub
 )
@@ -9086,9 +9064,7 @@ leave
 (
 )
 ;
-stubcc
-.
-call
+OOL_STUBCALL
 (
 stub
 )

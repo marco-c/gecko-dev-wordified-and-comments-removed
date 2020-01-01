@@ -1808,7 +1808,7 @@ return
 res
 -
 >
-createInput
+createPendingInput
 (
 cx
 Valueify
@@ -2130,7 +2130,7 @@ false
 res
 -
 >
-setInput
+setPendingInput
 (
 JSVAL_TO_STRING
 (
@@ -4229,7 +4229,7 @@ str
 res
 -
 >
-getInput
+getPendingInput
 (
 )
 ;

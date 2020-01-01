@@ -312,7 +312,7 @@ regstate
 i
 ]
 .
-fe
+usedBy
 (
 )
 ;
@@ -364,7 +364,7 @@ regstate
 evictFromFrame
 ]
 .
-fe
+usedBy
 (
 )
 ;
@@ -1318,7 +1318,7 @@ reg
 )
 ]
 .
-fe
+usedBy
 (
 )
 )
@@ -1397,7 +1397,7 @@ reg
 )
 ]
 .
-fe
+usedBy
 (
 )
 )

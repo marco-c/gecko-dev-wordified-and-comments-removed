@@ -1201,6 +1201,9 @@ ptr
 JSWhyMagic
 why
 ;
+jsuword
+word
+;
 }
 payload
 ;
@@ -1266,6 +1269,9 @@ u32
 JSWhyMagic
 why
 ;
+jsuword
+word
+;
 }
 payload
 ;
@@ -1329,6 +1335,9 @@ ptr
 ;
 JSWhyMagic
 why
+;
+jsuword
+word
 ;
 }
 payload
