@@ -3004,12 +3004,6 @@ LIR_xt
 op
 =
 =
-LIR_loop
-|
-|
-op
-=
-=
 LIR_xbarrier
 |
 |
@@ -3134,12 +3128,6 @@ isCse
 |
 isStore
 (
-)
-|
-|
-isop
-(
-LIR_loop
 )
 |
 |
@@ -5153,9 +5141,6 @@ savedRegs
 [
 NumSavedRegs
 ]
-;
-bool
-explicitSavedRegs
 ;
 static
 const

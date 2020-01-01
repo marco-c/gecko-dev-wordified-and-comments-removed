@@ -2790,6 +2790,13 @@ nanojit
 :
 LIns
 *
+loopLabel
+;
+nanojit
+:
+:
+LIns
+*
 insImmObj
 (
 JSObject
