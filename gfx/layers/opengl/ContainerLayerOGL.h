@@ -78,11 +78,6 @@ Layer
 aChild
 )
 ;
-LayerType
-GetType
-(
-)
-;
 Layer
 *
 GetLayer

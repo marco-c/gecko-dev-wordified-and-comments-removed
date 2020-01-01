@@ -96,11 +96,6 @@ nsIntRegion
 aRegion
 )
 ;
-LayerType
-GetType
-(
-)
-;
 Layer
 *
 GetLayer

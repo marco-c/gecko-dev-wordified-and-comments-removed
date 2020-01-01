@@ -109,12 +109,6 @@ aRect
 )
 ;
 virtual
-LayerType
-GetType
-(
-)
-;
-virtual
 Layer
 *
 GetLayer

@@ -58,12 +58,6 @@ this
 ;
 }
 virtual
-LayerType
-GetType
-(
-)
-;
-virtual
 Layer
 *
 GetLayer

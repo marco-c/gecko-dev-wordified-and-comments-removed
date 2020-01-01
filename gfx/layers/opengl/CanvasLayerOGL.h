@@ -94,16 +94,6 @@ aRect
 )
 ;
 virtual
-LayerType
-GetType
-(
-)
-{
-return
-TYPE_CANVAS
-;
-}
-virtual
 Layer
 *
 GetLayer
