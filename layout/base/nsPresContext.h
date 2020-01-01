@@ -3866,7 +3866,7 @@ nullptr
 void
 RegisterPluginForGeometryUpdates
 (
-nsIContent
+nsObjectFrame
 *
 aPlugin
 )
@@ -3874,7 +3874,7 @@ aPlugin
 void
 UnregisterPluginForGeometryUpdates
 (
-nsIContent
+nsObjectFrame
 *
 aPlugin
 )
@@ -4084,9 +4084,9 @@ mUpdatePluginGeometryTimer
 ;
 nsTHashtable
 <
-nsRefPtrHashKey
+nsPtrHashKey
 <
-nsIContent
+nsObjectFrame
 >
 >
 mRegisteredPlugins
