@@ -1143,6 +1143,8 @@ check
 (
 PYTHON
 )
+-
+u
 \
 (
 testxpcsrcdir
