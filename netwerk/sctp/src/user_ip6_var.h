@@ -158,6 +158,13 @@ defined
 (
 __Userspace_os_FreeBSD
 )
+&
+&
+!
+defined
+(
+__Userspace_os_OpenBSD
+)
 struct
 route_in6
 {
