@@ -1731,7 +1731,7 @@ if
 depth
 <
 =
-1
+0
 )
 return
 oc_huff_tree_copy

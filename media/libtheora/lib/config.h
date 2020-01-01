@@ -72,7 +72,9 @@ libtheora
 .
 1
 .
-0
+1
++
+svn
 "
 #
 define
@@ -93,7 +95,9 @@ PACKAGE_VERSION
 .
 1
 .
-0
+1
++
+svn
 "
 #
 define
@@ -107,5 +111,7 @@ VERSION
 .
 1
 .
-0
+1
++
+svn
 "
