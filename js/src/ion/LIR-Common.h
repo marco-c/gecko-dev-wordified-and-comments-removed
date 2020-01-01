@@ -4393,10 +4393,8 @@ class
 LShiftI
 :
 public
-LInstructionHelper
+LBinaryMath
 <
-1
-2
 0
 >
 {
