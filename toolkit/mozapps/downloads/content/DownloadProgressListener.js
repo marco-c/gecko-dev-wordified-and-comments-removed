@@ -1417,6 +1417,10 @@ status
 status
 )
 ;
+onUpdateProgress
+(
+)
+;
 }
 onLocationChange
 :
