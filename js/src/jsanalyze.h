@@ -116,6 +116,11 @@ switchTarget
 1
 ;
 bool
+unconditional
+:
+1
+;
+bool
 analyzed
 :
 1

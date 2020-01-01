@@ -2137,6 +2137,13 @@ slot
 )
 const
 ;
+void
+rollbackProperties
+(
+uint32
+slotSpan
+)
+;
 js
 :
 :

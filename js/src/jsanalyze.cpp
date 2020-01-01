@@ -1572,6 +1572,13 @@ if
 forwardJump
 )
 {
+code
+-
+>
+unconditional
+=
+true
+;
 for
 (
 unsigned
