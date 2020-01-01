@@ -2282,10 +2282,6 @@ PRBool
 aMerge
 )
 {
-ENSURE_CALLED_BEFORE_ASYNC_OPEN
-(
-)
-;
 const
 nsCString
 &
