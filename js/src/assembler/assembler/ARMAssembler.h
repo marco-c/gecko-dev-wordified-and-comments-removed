@@ -2672,12 +2672,6 @@ cc
 AL
 )
 {
-#
-if
-defined
-(
-JS_METHODJIT_SPEW
-)
 char
 mnemonic
 [
@@ -2699,8 +2693,6 @@ cc
 )
 )
 ;
-#
-endif
 spew
 (
 "
@@ -2786,12 +2778,6 @@ cc
 AL
 )
 {
-#
-if
-defined
-(
-JS_METHODJIT_SPEW
-)
 char
 mnemonic
 [
@@ -2813,8 +2799,6 @@ cc
 )
 )
 ;
-#
-endif
 spew
 (
 "
@@ -8282,12 +8266,6 @@ ARMWord
 op2
 )
 {
-#
-if
-defined
-(
-JS_METHODJIT_SPEW
-)
 char
 mnemonic
 [
@@ -8348,8 +8326,6 @@ rn
 op2_fmt
 )
 ;
-#
-endif
 }
 void
 spewInsWithOp2
@@ -8366,12 +8342,6 @@ ARMWord
 op2
 )
 {
-#
-if
-defined
-(
-JS_METHODJIT_SPEW
-)
 char
 mnemonic
 [
@@ -8426,8 +8396,6 @@ r
 op2_fmt
 )
 ;
-#
-endif
 }
 ARMWord
 RM
