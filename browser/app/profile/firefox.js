@@ -1869,7 +1869,7 @@ browser
 .
 warnOnQuit
 "
-false
+true
 )
 ;
 pref
@@ -1878,6 +1878,16 @@ pref
 browser
 .
 warnOnRestart
+"
+false
+)
+;
+pref
+(
+"
+browser
+.
+showQuitWarning
 "
 false
 )
