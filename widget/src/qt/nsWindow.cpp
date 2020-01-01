@@ -2734,7 +2734,6 @@ IsDone
 iter
 )
 {
-{
 const
 nsIntRect
 &
