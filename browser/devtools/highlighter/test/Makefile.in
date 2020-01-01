@@ -555,6 +555,10 @@ browser_inspector_pseudoclass_lock
 .
 js
 \
+browser_inspector_pseudoClass_menu
+.
+js
+\
 head
 .
 js
