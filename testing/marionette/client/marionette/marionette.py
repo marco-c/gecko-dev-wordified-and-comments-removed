@@ -576,25 +576,29 @@ None
 emulatorBinary
 =
 None
+                 
 emulatorImg
 =
 None
-                 
 emulator_res
 =
 '
 480x800
 '
+gecko_path
+=
+None
+                 
 connectToRunningEmulator
 =
 False
-                 
 homedir
 =
 None
 baseurl
 =
 None
+                 
 noWindow
 =
 False
@@ -686,6 +690,12 @@ self
 logcat_dir
 =
 logcat_dir
+        
+self
+.
+gecko_path
+=
+gecko_path
         
 if
 bin
@@ -784,6 +794,12 @@ emulatorImg
 res
 =
 emulator_res
+                                     
+gecko_path
+=
+self
+.
+gecko_path
 )
             
 self
@@ -833,11 +849,18 @@ Emulator
 homedir
 =
 homedir
+                                     
 logcat_dir
 =
 self
 .
 logcat_dir
+                                     
+gecko_path
+=
+self
+.
+gecko_path
 )
             
 self
