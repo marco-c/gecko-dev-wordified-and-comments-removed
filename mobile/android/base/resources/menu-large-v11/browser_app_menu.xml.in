@@ -329,6 +329,13 @@ private_browsing
 "
 android
 :
+visible
+=
+"
+false
+"
+android
+:
 title
 =
 "
