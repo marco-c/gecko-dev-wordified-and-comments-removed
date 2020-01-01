@@ -7401,6 +7401,15 @@ fi
 fi
 #
 COMPILE_ENVIRONMENT
+if
+test
+-
+z
+"
+MAKE
+"
+;
+then
 case
 "
 host_os
@@ -7441,6 +7450,7 @@ make
 ;
 ;
 esac
+fi
 if
 test
 "
