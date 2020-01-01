@@ -189,6 +189,15 @@ RemoveAll
 )
 ;
 nsresult
+RemoveAllForApp
+(
+uint32_t
+aAppId
+bool
+aOnlyBrowserElement
+)
+;
+nsresult
 GetUsage
 (
 DOMStorageImpl
