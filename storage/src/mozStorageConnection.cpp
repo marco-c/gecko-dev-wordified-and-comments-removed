@@ -2333,7 +2333,19 @@ getFilename
 {
 nsCString
 leafname
+(
+"
+:
+memory
+:
+"
+)
 ;
+if
+(
+mDatabaseFile
+)
+{
 (
 void
 )
@@ -2345,6 +2357,7 @@ GetNativeLeafName
 leafname
 )
 ;
+}
 return
 leafname
 ;
