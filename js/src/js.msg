@@ -6276,3 +6276,16 @@ to
 allocate
 "
 )
+MSG_DEF
+(
+JSMSG_BINARYDATA_NOT_TYPE_OBJECT
+361
+0
+JSEXN_ERR
+"
+Expected
+a
+type
+object
+"
+)
