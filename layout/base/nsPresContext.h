@@ -1301,6 +1301,12 @@ mVisibleArea
 =
 r
 ;
+if
+(
+HasCachedStyleData
+(
+)
+)
 PostMediaFeatureValuesChangedEvent
 (
 )
@@ -1490,6 +1496,12 @@ mTextZoom
 =
 aZoom
 ;
+if
+(
+HasCachedStyleData
+(
+)
+)
 RebuildAllStyleData
 (
 NS_STYLE_HINT_REFLOW
@@ -2624,6 +2636,11 @@ FlushUserFontSet
 )
 ;
 }
+PRBool
+HasCachedStyleData
+(
+)
+;
 nsPresContextType
 mType
 ;
