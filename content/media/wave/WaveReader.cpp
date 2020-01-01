@@ -950,12 +950,6 @@ readSize
 )
 )
 {
-mAudioQueue
-.
-Finish
-(
-)
-;
 return
 false
 ;

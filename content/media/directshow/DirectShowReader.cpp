@@ -1034,12 +1034,6 @@ x
 aStatus
 )
 ;
-mAudioQueue
-.
-Finish
-(
-)
-;
 RefPtr
 <
 IMediaEventSink
