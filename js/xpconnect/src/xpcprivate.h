@@ -14525,10 +14525,6 @@ mEvaluated
 (
 false
 )
-mContextHasThread
-(
-0
-)
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
@@ -14565,9 +14561,6 @@ mErrorReporterSet
 ;
 bool
 mEvaluated
-;
-intptr_t
-mContextHasThread
 ;
 mozilla
 :
