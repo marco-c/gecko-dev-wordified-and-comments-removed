@@ -1269,7 +1269,9 @@ element
 "
 >
 <
-div
+xul
+:
+hbox
 class
 =
 "
@@ -1407,7 +1409,9 @@ div
 >
 <
 /
-div
+xul
+:
+hbox
 >
 <
 div
