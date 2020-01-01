@@ -24532,6 +24532,10 @@ const
 nsIntRegion
 &
 aRegionToDraw
+const
+nsIntRegion
+&
+aRegionToInvalidate
 void
 *
 aCallbackData
