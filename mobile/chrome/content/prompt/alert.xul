@@ -358,7 +358,7 @@ flex
 "
 >
 <
-label
+description
 id
 =
 "
@@ -378,11 +378,6 @@ prompt
 checkbox
 -
 label
-"
-crop
-=
-"
-center
 "
 flex
 =
