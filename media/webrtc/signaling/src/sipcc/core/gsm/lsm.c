@@ -3698,6 +3698,11 @@ video
 ;
 pc_stream_id
 =
+media
+-
+>
+level
+-
 1
 ;
 }
@@ -3754,7 +3759,12 @@ mix_party
 ;
 pc_stream_id
 =
-0
+media
+-
+>
+level
+-
+1
 ;
 }
 pc_track_id
