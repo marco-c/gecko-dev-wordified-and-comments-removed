@@ -122,6 +122,17 @@ UiAsyncTask
 import
 org
 .
+mozilla
+.
+gecko
+.
+widget
+.
+FaviconView
+;
+import
+org
+.
 json
 .
 JSONArray
@@ -557,7 +568,7 @@ FlowLayout
 suggestionView
 ;
 public
-ImageView
+FaviconView
 iconView
 ;
 public
@@ -2495,7 +2506,7 @@ viewHolder
 iconView
 =
 (
-ImageView
+FaviconView
 )
 convertView
 .
@@ -2672,7 +2683,7 @@ viewHolder
 faviconView
 =
 (
-ImageView
+FaviconView
 )
 convertView
 .

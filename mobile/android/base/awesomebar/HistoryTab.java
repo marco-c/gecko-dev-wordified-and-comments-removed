@@ -87,6 +87,17 @@ util
 ThreadUtils
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+widget
+.
+FaviconView
+;
+import
 android
 .
 app
@@ -903,7 +914,7 @@ viewHolder
 faviconView
 =
 (
-ImageView
+FaviconView
 )
 convertView
 .

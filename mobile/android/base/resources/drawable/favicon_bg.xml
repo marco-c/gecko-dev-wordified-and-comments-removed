@@ -119,7 +119,7 @@ radius
 "
 dimen
 /
-awesomebar_row_favicon_bg_radius
+favicon_bg_radius
 "
 /
 >
@@ -132,7 +132,7 @@ height
 "
 dimen
 /
-awesomebar_row_favicon_bg
+favicon_bg
 "
 /
 >
