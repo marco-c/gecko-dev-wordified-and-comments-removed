@@ -313,6 +313,10 @@ const
 nsCString
 &
 aProtocol
+const
+nsCString
+&
+aExtensions
 )
 :
 mChild
@@ -322,6 +326,10 @@ aChild
 mProtocol
 (
 aProtocol
+)
+mExtensions
+(
+aExtensions
 )
 {
 }
@@ -336,6 +344,7 @@ mChild
 OnStart
 (
 mProtocol
+mExtensions
 )
 ;
 }
@@ -347,6 +356,9 @@ mChild
 ;
 nsCString
 mProtocol
+;
+nsCString
+mExtensions
 ;
 }
 ;
@@ -360,6 +372,10 @@ const
 nsCString
 &
 aProtocol
+const
+nsCString
+&
+aExtensions
 )
 {
 if
@@ -380,6 +396,7 @@ StartEvent
 (
 this
 aProtocol
+aExtensions
 )
 )
 ;
@@ -389,6 +406,7 @@ else
 OnStart
 (
 aProtocol
+aExtensions
 )
 ;
 }
@@ -406,6 +424,10 @@ const
 nsCString
 &
 aProtocol
+const
+nsCString
+&
+aExtensions
 )
 {
 LOG
@@ -431,6 +453,10 @@ SetProtocol
 (
 aProtocol
 )
+;
+mNegotiatedExtensions
+=
+aExtensions
 ;
 if
 (

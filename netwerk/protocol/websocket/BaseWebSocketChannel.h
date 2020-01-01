@@ -165,6 +165,14 @@ aLoadGroup
 )
 ;
 NS_IMETHOD
+GetExtensions
+(
+nsACString
+&
+aExtensions
+)
+;
+NS_IMETHOD
 GetProtocol
 (
 nsACString
@@ -227,6 +235,9 @@ mOrigin
 ;
 PRBool
 mEncrypted
+;
+nsCString
+mNegotiatedExtensions
 ;
 }
 ;

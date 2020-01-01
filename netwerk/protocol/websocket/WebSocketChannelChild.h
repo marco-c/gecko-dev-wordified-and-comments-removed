@@ -159,6 +159,10 @@ const
 nsCString
 &
 aProtocol
+const
+nsCString
+&
+aExtensions
 )
 ;
 bool
@@ -222,6 +226,10 @@ const
 nsCString
 &
 aProtocol
+const
+nsCString
+&
+aExtensions
 )
 ;
 void

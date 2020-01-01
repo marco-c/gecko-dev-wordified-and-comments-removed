@@ -550,6 +550,8 @@ OnStart
 (
 nsCString
 aProtocol
+nsCString
+aExtensions
 )
 ;
 OnStop

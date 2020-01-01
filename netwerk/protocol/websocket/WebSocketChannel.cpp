@@ -6722,6 +6722,10 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
+mNegotiatedExtensions
+=
+extensions
+;
 }
 }
 return
