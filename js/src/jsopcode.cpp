@@ -6942,8 +6942,6 @@ jsbytecode
 pc
 intN
 nb
-JSOp
-nextop
 )
 ;
 static
@@ -7130,7 +7128,6 @@ pc
 +
 defaultOffset
 diff
-JSOP_NOP
 )
 )
 return
@@ -7258,14 +7255,11 @@ caseExprOff
 nextCaseExprOff
 -
 caseExprOff
-JSOP_NOP
 )
 )
-{
 return
 JS_FALSE
 ;
-}
 caseExprOff
 =
 nextCaseExprOff
@@ -7506,7 +7500,6 @@ pc
 +
 off
 diff
-JSOP_NOP
 )
 )
 return
@@ -7561,7 +7554,6 @@ off
 off2
 -
 off
-JSOP_NOP
 )
 )
 return
@@ -8650,7 +8642,6 @@ ss
 >
 top
 )
-JSOP_NOP
 )
 ;
 if
@@ -10322,8 +10313,6 @@ jsbytecode
 pc
 intN
 nb
-JSOp
-nextop
 )
 {
 JSContext
@@ -10661,7 +10650,6 @@ Decompile
 ss
 pc
 nb
-JSOP_NOP
 )
 )
 cleanup
@@ -10678,33 +10666,6 @@ pc
 nb
 return
 NULL
-)
-#
-define
-NEXT_OP
-(
-pc
-)
-(
-(
-(
-pc
-)
-+
-(
-len
-)
-=
-=
-endpc
-)
-?
-nextop
-:
-pc
-[
-len
-]
 )
 #
 define
@@ -13729,7 +13690,6 @@ done
 pc
 -
 done
-JSOP_POP
 )
 )
 {
@@ -13936,7 +13896,6 @@ Decompile
 ss
 pc
 len
-saveop
 )
 )
 {
@@ -14645,7 +14604,6 @@ oplen
 len
 -
 oplen
-JSOP_NOP
 )
 !
 =
@@ -15060,7 +15018,6 @@ Decompile
 ss
 pc
 len
-JSOP_NOP
 )
 !
 =
@@ -18328,7 +18285,6 @@ Decompile
 ss
 pc
 len
-op
 )
 )
 {
@@ -21581,7 +21537,6 @@ inner
 -
 >
 mainOffset
-JSOP_NOP
 )
 !
 =
@@ -25285,9 +25240,6 @@ undef
 DECOMPILE_CODE
 #
 undef
-NEXT_OP
-#
-undef
 TOP_STR
 #
 undef
@@ -25489,7 +25441,6 @@ Decompile
 ss
 pc
 len
-JSOP_NOP
 )
 !
 =
