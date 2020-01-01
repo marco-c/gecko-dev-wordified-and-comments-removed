@@ -2637,7 +2637,7 @@ result
 &
 prop
 .
-types
+values
 )
 {
 var
@@ -2648,11 +2648,11 @@ false
 for
 (
 let
-type
+value
 in
 prop
 .
-types
+values
 )
 {
 if
@@ -2666,9 +2666,9 @@ toLowerCase
 =
 prop
 .
-types
+values
 [
-type
+value
 ]
 )
 {
@@ -5826,7 +5826,7 @@ type
 plural
 :
 true
-types
+values
 :
 [
 "
@@ -6191,7 +6191,7 @@ type
 plural
 :
 true
-types
+values
 :
 [
 "
@@ -6238,11 +6238,6 @@ geo
 "
 :
 {
-value
-:
-"
-geo
-"
 datatype
 :
 "
@@ -6910,7 +6905,7 @@ type
 plural
 :
 true
-types
+values
 :
 [
 "
@@ -7207,7 +7202,7 @@ class
 "
 :
 {
-types
+values
 :
 [
 "
@@ -7276,11 +7271,6 @@ geo
 "
 :
 {
-value
-:
-"
-geo
-"
 datatype
 :
 "
@@ -7313,7 +7303,7 @@ status
 "
 :
 {
-types
+values
 :
 [
 "
@@ -7338,7 +7328,7 @@ transp
 "
 :
 {
-types
+values
 :
 [
 "
