@@ -88,7 +88,6 @@ MOZ_EXTERNAL_SIGNING_FORMAT
 :
 =
 signcode
-gpg
 SIGN_INCLUDES
 :
 =
@@ -153,7 +152,6 @@ dmg
 MOZ_EXTERNAL_SIGNING_FORMAT
 :
 =
-gpg
 endif
 #
 Darwin
@@ -169,7 +167,6 @@ TARGET_OS
 MOZ_EXTERNAL_SIGNING_FORMAT
 :
 =
-gpg
 endif
 #
 Linux
