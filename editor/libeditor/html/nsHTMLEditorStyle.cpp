@@ -3907,7 +3907,6 @@ tmp
 }
 if
 (
-(
 !
 aChildrenOnly
 &
@@ -3963,8 +3962,6 @@ IsNamedAnchor
 aNode
 )
 )
-)
-)
 |
 |
 (
@@ -3975,6 +3972,7 @@ aProperty
 NodeIsProperty
 (
 aNode
+)
 )
 )
 )
