@@ -9,8 +9,6 @@ AssertBase
 require
 (
 "
-sdk
-/
 test
 /
 assert

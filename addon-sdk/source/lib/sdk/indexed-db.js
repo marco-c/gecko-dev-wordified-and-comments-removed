@@ -54,8 +54,6 @@ id
 require
 (
 "
-.
-/
 self
 "
 )

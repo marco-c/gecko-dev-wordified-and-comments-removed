@@ -45,8 +45,6 @@ self
 require
 (
 '
-sdk
-/
 self
 '
 )

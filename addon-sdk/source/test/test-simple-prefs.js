@@ -1475,8 +1475,6 @@ loader
 require
 (
 "
-sdk
-/
 simple
 -
 prefs
@@ -1532,8 +1530,6 @@ false
 require
 (
 "
-sdk
-/
 simple
 -
 prefs

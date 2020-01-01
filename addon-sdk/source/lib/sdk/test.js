@@ -23,7 +23,7 @@ BaseAssert
 require
 (
 "
-sdk
+.
 /
 test
 /
@@ -42,7 +42,7 @@ isObject
 require
 (
 "
-sdk
+.
 /
 lang
 /

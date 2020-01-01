@@ -9,9 +9,9 @@ xulApp
 require
 (
 "
-sdk
-/
-system
+api
+-
+utils
 /
 xul
 -
@@ -64,8 +64,6 @@ IDBRequest
 require
 (
 "
-sdk
-/
 indexed
 -
 db

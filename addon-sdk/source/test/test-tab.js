@@ -742,13 +742,11 @@ url
 ;
 assert
 .
-ok
+equal
 (
 tab
 .
 index
->
-=
 1
 "
 Tab
@@ -756,11 +754,6 @@ has
 the
 expected
 index
-a
-value
-greater
-than
-0
 "
 )
 ;

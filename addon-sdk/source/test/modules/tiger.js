@@ -21,7 +21,7 @@ type
 require
 (
 '
-.
+modules
 /
 types
 /

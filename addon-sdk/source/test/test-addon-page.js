@@ -187,7 +187,9 @@ loader
 require
 (
 '
-sdk
+addon
+-
+kit
 /
 addon
 -
@@ -338,7 +340,9 @@ loader
 require
 (
 '
-sdk
+addon
+-
+kit
 /
 addon
 -
@@ -494,7 +498,9 @@ loader
 require
 (
 '
-sdk
+addon
+-
+kit
 /
 addon
 -
@@ -654,7 +660,9 @@ loader
 require
 (
 '
-sdk
+addon
+-
+kit
 /
 addon
 -
@@ -813,7 +821,9 @@ loader
 require
 (
 '
-sdk
+addon
+-
+kit
 /
 addon
 -
@@ -990,6 +1000,8 @@ done
 require
 (
 '
+sdk
+/
 test
 '
 )
