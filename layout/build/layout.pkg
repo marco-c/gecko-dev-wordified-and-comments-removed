@@ -192,6 +192,17 @@ bin
 /
 components
 /
+dom_offline
+.
+xpt
+!
+xpt
+dist
+/
+bin
+/
+components
+/
 dom_range
 .
 xpt
