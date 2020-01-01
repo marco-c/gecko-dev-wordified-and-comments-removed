@@ -504,17 +504,6 @@ LIB_SUFFIX
 (
 NULL
 )
-EXTRA_DSO_LDOPTS
-+
-=
-\
-(
-MOZ_COMPONENT_LIBS
-)
-\
-(
-NULL
-)
 include
 (
 topsrcdir

@@ -453,17 +453,6 @@ cpp
 (
 NULL
 )
-EXTRA_DSO_LDOPTS
-+
-=
-\
-(
-MOZ_COMPONENT_LIBS
-)
-\
-(
-NULL
-)
 endif
 XPIDLSRCS
 =

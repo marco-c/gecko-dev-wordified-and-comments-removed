@@ -472,12 +472,6 @@ EXPORTS
 nsUCvTW2CID
 .
 h
-EXTRA_DSO_LDOPTS
-+
-=
-(
-MOZ_COMPONENT_LIBS
-)
 include
 (
 topsrcdir

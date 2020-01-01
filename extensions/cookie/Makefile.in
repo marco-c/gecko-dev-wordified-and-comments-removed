@@ -473,16 +473,6 @@ idl
 (
 NULL
 )
-EXTRA_DSO_LDOPTS
-=
-\
-(
-MOZ_COMPONENT_LIBS
-)
-\
-(
-NULL
-)
 ifdef
 MOZ_MAIL_NEWS
 DEFINES

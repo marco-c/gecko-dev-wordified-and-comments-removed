@@ -425,9 +425,6 @@ imgEncoderJPEGModule
 LIBXUL_LIBRARY
 =
 1
-EXTRA_DSO_LIBS
-=
-gkgfx
 CPPSRCS
 =
 nsJPEGEncoder

@@ -741,14 +741,6 @@ CPPSRCS
 nsSystemFontsWin
 .
 cpp
-OS_LIBS
-+
-=
-(
-call
-EXPAND_LIBNAME
-usp10
-)
 endif
 include
 (

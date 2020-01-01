@@ -575,12 +575,6 @@ lib
 FORCE_STATIC_LIB
 =
 1
-EXTRA_DSO_LDOPTS
-+
-=
-(
-MOZ_GTK2_LIBS
-)
 include
 (
 topsrcdir
