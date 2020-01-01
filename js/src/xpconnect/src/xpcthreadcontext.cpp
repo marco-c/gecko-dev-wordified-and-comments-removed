@@ -1490,11 +1490,11 @@ void
 XPCPerThreadData
 :
 :
-TraceJS
+MarkAutoRootsBeforeJSFinalize
 (
-JSTracer
+JSContext
 *
-trc
+cx
 )
 {
 #
@@ -1583,9 +1583,9 @@ mAutoRoots
 mAutoRoots
 -
 >
-TraceJS
+MarkBeforeJSFinalize
 (
-trc
+cx
 )
 ;
 }

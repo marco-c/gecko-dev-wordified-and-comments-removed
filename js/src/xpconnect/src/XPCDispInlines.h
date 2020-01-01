@@ -1660,8 +1660,10 @@ void
 XPCDispIDArray
 :
 :
-Mark
+MarkBeforeJSFinalize
 (
+JSContext
+*
 )
 {
 }

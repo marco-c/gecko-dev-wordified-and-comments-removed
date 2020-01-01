@@ -665,15 +665,6 @@ void
 *
 )
 ;
-[
-ptr
-]
-native
-JSTracerPtr
-(
-JSTracer
-)
-;
 /
 *
 *
