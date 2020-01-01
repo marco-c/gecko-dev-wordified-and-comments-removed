@@ -15023,6 +15023,16 @@ write
 =
 read
 ;
+rt
+-
+>
+defaultCompartment
+-
+>
+marked
+=
+true
+;
 while
 (
 read
