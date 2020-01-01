@@ -6399,7 +6399,7 @@ getSlotCount
 (
 )
 ;
-ExecuteFrameGuard
+FrameGuard
 frame
 ;
 if

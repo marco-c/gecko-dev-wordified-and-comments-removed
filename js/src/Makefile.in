@@ -829,6 +829,10 @@ jsgcchunk
 .
 cpp
 \
+jsgcstats
+.
+cpp
+\
 jshash
 .
 cpp
@@ -1052,6 +1056,10 @@ jsgc
 h
 \
 jsgcchunk
+.
+h
+\
+jsgcstats
 .
 h
 \
