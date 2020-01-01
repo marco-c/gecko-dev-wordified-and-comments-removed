@@ -2227,16 +2227,6 @@ compareType
 (
 )
 ;
-MBox
-*
-lhsBox
-*
-rhsBox
-;
-MBasicBlock
-*
-block
-;
 switch
 (
 type
