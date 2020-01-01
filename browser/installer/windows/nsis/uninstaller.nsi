@@ -636,11 +636,6 @@ include
 locales
 .
 nsi
-!
-include
-version
-.
-nsh
 ;
 This
 is
