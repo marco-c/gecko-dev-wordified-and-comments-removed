@@ -1173,7 +1173,7 @@ Password
 <
 !
 ENTITY
-lostSyncKey
+resetSyncKey
 .
 label
 "
@@ -1181,8 +1181,9 @@ I
 have
 lost
 my
-Sync
-Key
+other
+device
+.
 "
 >
 <
