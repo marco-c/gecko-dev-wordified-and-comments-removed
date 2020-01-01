@@ -1,3 +1,6 @@
+#
+filter
+substitution
 Source
 :
 fennec
@@ -55,9 +58,9 @@ xulrunner
 (
 >
 =
-1
-.
-9pre
+GRE_MILESTONE
+-
+GRE_BUILDID
 )
 Description
 :
