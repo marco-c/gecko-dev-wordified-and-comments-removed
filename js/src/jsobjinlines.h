@@ -73,7 +73,7 @@ h
 #
 include
 "
-jsfuninlines
+jsinferinlines
 .
 h
 "

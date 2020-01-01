@@ -88,6 +88,13 @@ h
 #
 include
 "
+jsfuninlines
+.
+h
+"
+#
+include
+"
 jsgcinlines
 .
 h

@@ -137,6 +137,13 @@ h
 #
 include
 "
+jsfuninlines
+.
+h
+"
+#
+include
+"
 ion
 /
 IonFrameIterator

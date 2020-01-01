@@ -91,6 +91,13 @@ h
 #
 include
 "
+jsfuninlines
+.
+h
+"
+#
+include
+"
 jsobjinlines
 .
 h

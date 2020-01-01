@@ -56,6 +56,13 @@ h
 #
 include
 "
+jsfuninlines
+.
+h
+"
+#
+include
+"
 jsopcodeinlines
 .
 h

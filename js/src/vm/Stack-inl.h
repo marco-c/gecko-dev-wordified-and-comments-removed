@@ -70,13 +70,6 @@ h
 #
 include
 "
-jsfuninlines
-.
-h
-"
-#
-include
-"
 jsscriptinlines
 .
 h
