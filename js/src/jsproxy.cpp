@@ -5520,6 +5520,20 @@ private
 "
 )
 ;
+MarkValue
+(
+trc
+obj
+-
+>
+getProxyExtra
+(
+)
+"
+extra
+"
+)
+;
 if
 (
 obj
@@ -5624,7 +5638,7 @@ NON_NATIVE
 |
 JSCLASS_HAS_RESERVED_SLOTS
 (
-2
+3
 )
 PropertyStub
 PropertyStub
@@ -5676,7 +5690,7 @@ NON_NATIVE
 |
 JSCLASS_HAS_RESERVED_SLOTS
 (
-2
+3
 )
 PropertyStub
 PropertyStub
@@ -5876,7 +5890,7 @@ NON_NATIVE
 |
 JSCLASS_HAS_RESERVED_SLOTS
 (
-4
+5
 )
 PropertyStub
 PropertyStub
