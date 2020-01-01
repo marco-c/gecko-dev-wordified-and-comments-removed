@@ -964,7 +964,7 @@ const
 int
 max_retries
 =
-5
+2
 ;
 int
 retry_count
