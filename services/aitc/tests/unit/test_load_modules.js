@@ -8,6 +8,11 @@ client
 js
 "
 "
+browserid
+.
+js
+"
+"
 storage
 .
 js
