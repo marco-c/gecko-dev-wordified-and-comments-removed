@@ -1214,8 +1214,10 @@ nsIDOMDocument
 >
 mDocument
 ;
+nsCOMPtr
+<
 nsIDOMElement
-*
+>
 mFrameElement
 ;
 nsIDocShell
