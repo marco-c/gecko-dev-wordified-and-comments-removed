@@ -678,6 +678,13 @@ aType
 )
 ;
 void
+EnableDevice
+(
+PRUint32
+aType
+)
+;
+void
 DisableDevice
 (
 PRUint32
