@@ -27,7 +27,7 @@ if
 !
 defined
 (
-ANDROID
+__ANDROID__
 )
 #
 include
@@ -743,7 +743,7 @@ if
 !
 defined
 (
-ANDROID
+__ANDROID__
 )
 demangled
 =

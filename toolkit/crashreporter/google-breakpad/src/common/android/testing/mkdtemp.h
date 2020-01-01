@@ -107,9 +107,15 @@ path
 ;
 if
 (
+static_cast
+<
+size_t
+>
+(
 path_end
 -
 path
+)
 <
 kSuffixLen
 |
