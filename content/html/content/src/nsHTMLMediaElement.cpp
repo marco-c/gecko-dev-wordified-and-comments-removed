@@ -1336,11 +1336,12 @@ nsHTMLMediaElement
 Autoplay
 autoplay
 )
-NS_IMPL_STRING_ATTR
+NS_IMPL_ENUM_ATTR_DEFAULT_VALUE
 (
 nsHTMLMediaElement
 Preload
 preload
+NULL
 )
 NS_IMETHODIMP
 nsHTMLMediaElement
