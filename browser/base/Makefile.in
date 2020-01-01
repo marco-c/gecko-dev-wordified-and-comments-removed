@@ -716,15 +716,8 @@ DCONTEXT_COPY_IMAGE_CONTENTS
 1
 endif
 endif
-ifneq
-(
-(
-BUILD_OFFICIAL
-)
-(
+ifdef
 MOZILLA_OFFICIAL
-)
-)
 DEFINES
 +
 =

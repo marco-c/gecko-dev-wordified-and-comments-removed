@@ -453,15 +453,8 @@ js
 nsSearchSuggestions
 .
 js
-ifneq
-(
-(
-BUILD_OFFICIAL
-)
-(
+ifdef
 MOZILLA_OFFICIAL
-)
-)
 DEFINES
 +
 =

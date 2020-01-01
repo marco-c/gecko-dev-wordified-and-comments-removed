@@ -423,15 +423,8 @@ content
 /
 test
 endif
-ifneq
-(
-(
-BUILD_OFFICIAL
-)
-(
+ifdef
 MOZILLA_OFFICIAL
-)
-)
 DEFINES
 +
 =
