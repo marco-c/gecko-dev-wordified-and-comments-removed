@@ -14,6 +14,15 @@ include
 <
 vector
 >
+#
+include
+"
+common
+/
+angleutils
+.
+h
+"
 namespace
 pp
 {
@@ -106,6 +115,11 @@ mValue
 }
 private
 :
+DISALLOW_COPY_AND_ASSIGN
+(
+Token
+)
+;
 Location
 mLocation
 ;

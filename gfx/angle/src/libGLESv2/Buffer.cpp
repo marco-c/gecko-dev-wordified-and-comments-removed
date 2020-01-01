@@ -287,6 +287,10 @@ invalidateStaticData
 )
 ;
 }
+mUnmodifiedDataUse
+=
+0
+;
 }
 StaticVertexBuffer
 *
