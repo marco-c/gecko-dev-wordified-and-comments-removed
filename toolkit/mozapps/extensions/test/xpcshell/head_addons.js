@@ -1721,6 +1721,9 @@ aboutURL
 "
 iconURL
 "
+"
+skinnable
+"
 ]
 .
 forEach
