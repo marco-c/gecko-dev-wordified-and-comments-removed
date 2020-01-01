@@ -32653,6 +32653,5 @@ js_WithClass
 }
 #
 endif
-}
 #
 endif
