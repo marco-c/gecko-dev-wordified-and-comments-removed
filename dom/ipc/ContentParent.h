@@ -1173,9 +1173,6 @@ const
 OptionalURIParams
 &
 aReferrer
-PBrowserParent
-*
-aBrowser
 )
 ;
 virtual

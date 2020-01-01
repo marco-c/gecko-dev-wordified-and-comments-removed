@@ -1682,8 +1682,6 @@ int64_t
 aContentLength
 OptionalURIParams
 aReferrer
-PBrowser
-aBrowser
 )
 ;
 AddGeolocationListener
