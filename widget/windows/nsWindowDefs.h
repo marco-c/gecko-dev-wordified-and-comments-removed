@@ -91,6 +91,15 @@ WM_APP
 )
 #
 ifndef
+SM_CXPADDEDBORDER
+#
+define
+SM_CXPADDEDBORDER
+92
+#
+endif
+#
+ifndef
 WM_THEMECHANGED
 #
 define
