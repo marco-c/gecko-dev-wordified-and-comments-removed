@@ -208,14 +208,9 @@ BUILD_OPT
 set
 MOZ_DEBUG
 =
-set
-MOZ_PROFILE
-=
 That
 is
 MOZ_DEBUG
-and
-MOZ_PROFILE
 should
 be
 unset
