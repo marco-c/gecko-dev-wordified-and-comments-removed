@@ -1000,12 +1000,13 @@ LEFT
 )
 ;
 }
-}
 SimpleTest
 .
 finish
 (
 )
+;
+}
 ]
 ]
 >
