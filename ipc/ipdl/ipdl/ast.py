@@ -521,8 +521,6 @@ lineno
 )
 class
 _struct
-(
-)
 :
     
 pass
