@@ -541,6 +541,10 @@ browser_details
 .
 js
 \
+browser_discovery
+.
+js
+\
 browser_dragdrop
 .
 js

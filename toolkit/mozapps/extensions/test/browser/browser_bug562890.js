@@ -91,7 +91,15 @@ addonPrefsURI
 ;
 open_manager
 (
-null
+"
+addons
+:
+/
+/
+list
+/
+extension
+"
 function
 (
 aWindow
