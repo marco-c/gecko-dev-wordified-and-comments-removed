@@ -1575,6 +1575,11 @@ self
 void
 )
 closeMeDown
+:
+(
+id
+)
+unused
 {
 [
 NSApp
