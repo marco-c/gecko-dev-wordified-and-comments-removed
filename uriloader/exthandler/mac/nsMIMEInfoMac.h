@@ -75,14 +75,6 @@ nsIFile
 aFile
 )
 ;
-NS_IMETHOD
-GetHasDefaultHandler
-(
-PRBool
-*
-_retval
-)
-;
 protected
 :
 virtual
