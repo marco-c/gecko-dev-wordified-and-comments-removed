@@ -890,6 +890,7 @@ sTop
 _scrollToolbar
 :
 function
+bui_scrollToolbar
 (
 aEvent
 )
@@ -4383,6 +4384,11 @@ case
 cmd_actions
 "
 :
+case
+"
+cmd_prefs
+"
+:
 isSupported
 =
 true
@@ -4837,6 +4843,13 @@ show
 PANELMODE_ADDONS
 )
 ;
+break
+;
+case
+"
+cmd_prefs
+"
+:
 break
 ;
 }
