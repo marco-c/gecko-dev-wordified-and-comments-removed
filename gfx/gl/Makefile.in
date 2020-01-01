@@ -198,10 +198,6 @@ GLLibraryLoader
 .
 cpp
 \
-GLContextProviderOSMesa
-.
-cpp
-\
 (
 NULL
 )

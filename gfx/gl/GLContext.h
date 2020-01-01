@@ -1795,7 +1795,6 @@ ContextTypeWGL
 ContextTypeCGL
 ContextTypeGLX
 ContextTypeEGL
-ContextTypeOSMesa
 }
 ;
 virtual
