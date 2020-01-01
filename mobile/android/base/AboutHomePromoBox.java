@@ -734,6 +734,7 @@ AboutHomePromoBox
 .
 sTypeIndex
 >
+=
 types
 .
 size
