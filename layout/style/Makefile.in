@@ -524,10 +524,6 @@ nsICSSLoaderObserver
 .
 h
 \
-nsICSSNameSpaceRule
-.
-h
-\
 nsICSSPseudoComparator
 .
 h
@@ -625,6 +621,10 @@ Declaration
 h
 \
 Loader
+.
+h
+\
+NameSpaceRule
 .
 h
 \
