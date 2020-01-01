@@ -523,10 +523,6 @@ nsIPluginInstance
 .
 idl
 \
-nsPIPluginHost
-.
-idl
-\
 nsIPluginHost
 .
 idl

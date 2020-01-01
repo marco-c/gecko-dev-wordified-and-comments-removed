@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsPIPluginHost
-.
-h
-"
-#
-include
-"
 nsCRT
 .
 h
@@ -805,8 +798,6 @@ nsIPluginHost
 public
 nsIObserver
 public
-nsPIPluginHost
-public
 nsSupportsWeakReference
 {
 public
@@ -844,7 +835,6 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIPLUGINHOST
 NS_DECL_NSIFACTORY
 NS_DECL_NSIOBSERVER
-NS_DECL_NSPIPLUGINHOST
 NS_IMETHOD
 GetURL
 (
