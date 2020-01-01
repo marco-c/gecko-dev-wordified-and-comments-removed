@@ -5980,9 +5980,6 @@ mozilla
 .
 sh
 firefox
-dependentlibs
-.
-list
 components
 /
 nsProgressDialog

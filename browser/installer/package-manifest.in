@@ -215,6 +215,11 @@ xpcom
 ]
 BINPATH
 /
+dependentlibs
+.
+list
+BINPATH
+/
 DLL_PREFIX
 mozjs
 DLL_SUFFIX
