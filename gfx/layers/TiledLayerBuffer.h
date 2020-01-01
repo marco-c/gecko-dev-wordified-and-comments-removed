@@ -1581,7 +1581,13 @@ index
 0
 &
 &
+static_cast
+<
+unsigned
+>
+(
 index
+)
 <
 newRetainedTiles
 .
