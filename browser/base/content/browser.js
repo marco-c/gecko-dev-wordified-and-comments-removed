@@ -1858,7 +1858,7 @@ function
 )
 {
 }
-onFolderMoved
+onItemMoved
 :
 function
 (

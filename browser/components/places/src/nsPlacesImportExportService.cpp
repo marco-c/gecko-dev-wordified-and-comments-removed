@@ -4970,7 +4970,7 @@ updateFolder
 mBookmarksService
 -
 >
-MoveFolder
+MoveItem
 (
 ourID
 CurFrame
