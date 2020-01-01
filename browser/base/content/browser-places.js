@@ -4051,7 +4051,9 @@ Weave
 .
 Status
 .
-service
+checkSetup
+(
+)
 =
 =
 Weave
