@@ -8380,8 +8380,6 @@ createConstructor
 (
 cx
 Iterator
-&
-IteratorClass
 CLASS_ATOM
 (
 cx

@@ -597,9 +597,6 @@ JSContext
 cx
 JSNative
 ctor
-Class
-*
-clasp
 JSAtom
 *
 name

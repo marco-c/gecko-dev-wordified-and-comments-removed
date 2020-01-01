@@ -11735,12 +11735,6 @@ ArrayType
 :
 :
 class_constructor
-ArrayType
-:
-:
-fastClass
-(
-)
 cx
 -
 >
@@ -12083,8 +12077,6 @@ ArrayBuffer
 :
 :
 class_constructor
-&
-ArrayBufferClass
 CLASS_ATOM
 (
 cx
