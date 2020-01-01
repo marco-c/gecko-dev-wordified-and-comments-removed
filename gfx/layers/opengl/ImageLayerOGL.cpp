@@ -505,12 +505,6 @@ gfxIntSize
 aSize
 )
 {
-MutexAutoLock
-lock
-(
-mLock
-)
-;
 if
 (
 !
@@ -522,6 +516,12 @@ IsAllocated
 )
 )
 return
+;
+MutexAutoLock
+lock
+(
+mLock
+)
 ;
 if
 (
