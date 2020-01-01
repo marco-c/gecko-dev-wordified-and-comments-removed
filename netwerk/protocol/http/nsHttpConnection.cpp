@@ -1152,6 +1152,10 @@ mCurrentBytesRead
 =
 0
 ;
+mInputOverflow
+=
+nsnull
+;
 rv
 =
 OnOutputStreamReady
