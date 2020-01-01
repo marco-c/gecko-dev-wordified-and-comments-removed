@@ -1897,13 +1897,6 @@ components
 nsFormAutoComplete
 .
 js
-BINPATH
-/
-components
-/
-contentSecurityPolicy
-.
-js
 #
 ifdef
 XP_MACOSX

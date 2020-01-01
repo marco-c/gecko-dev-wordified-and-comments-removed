@@ -4069,11 +4069,6 @@ DoUnblockOnload
 (
 )
 ;
-nsresult
-InitCSP
-(
-)
-;
 already_AddRefed
 <
 nsIDOMElement
