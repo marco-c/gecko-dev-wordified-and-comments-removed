@@ -11976,6 +11976,14 @@ if
 httpInternal
 )
 {
+httpInternal
+-
+>
+SetForceAllowThirdPartyCookie
+(
+mForceAllowThirdPartyCookie
+)
+;
 if
 (
 newURI
