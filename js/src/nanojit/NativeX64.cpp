@@ -6797,6 +6797,9 @@ if
 (
 a
 <
+(
+uint32_t
+)
 NumArgRegs
 )
 {
