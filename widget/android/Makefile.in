@@ -592,6 +592,9 @@ h
 AndroidJavaWrappers
 .
 h
+AndroidFlexViewWrapper
+.
+h
 include
 (
 topsrcdir

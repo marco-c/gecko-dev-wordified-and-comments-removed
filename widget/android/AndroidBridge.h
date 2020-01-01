@@ -70,6 +70,13 @@ h
 #
 include
 "
+AndroidFlexViewWrapper
+.
+h
+"
+#
+include
+"
 AndroidJavaWrappers
 .
 h
@@ -1028,7 +1035,7 @@ AndroidGeckoSurfaceView
 surfaceView
 )
 ;
-void
+EGLSurface
 RegisterCompositor
 (
 )

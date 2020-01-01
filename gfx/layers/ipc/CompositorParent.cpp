@@ -980,10 +980,6 @@ backendType
 #
 ifdef
 MOZ_WIDGET_ANDROID
-RegisterCompositorWithJava
-(
-)
-;
 #
 endif
 if
