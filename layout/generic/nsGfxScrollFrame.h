@@ -862,6 +862,11 @@ MarkActive
 (
 )
 ;
+void
+MarkInactive
+(
+)
+;
 nsExpirationState
 *
 GetExpirationState
