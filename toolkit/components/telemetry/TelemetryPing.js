@@ -3826,6 +3826,7 @@ addToPendingPings
 function
 addToPendingPings
 (
+file
 stream
 )
 {
@@ -3940,6 +3941,19 @@ catch
 e
 )
 {
+stream
+.
+close
+(
+)
+;
+file
+.
+remove
+(
+true
+)
+;
 }
 }
 loadHistograms
@@ -4007,6 +4021,7 @@ this
 .
 addToPendingPings
 (
+file
 stream
 )
 ;
@@ -4062,6 +4077,7 @@ this
 .
 addToPendingPings
 (
+file
 stream
 )
 ;
