@@ -13710,6 +13710,7 @@ gRestartArgv
 endif
 }
 }
+}
 profileLock
 -
 >
@@ -13717,7 +13718,6 @@ Unlock
 (
 )
 ;
-}
 if
 (
 needsRestart
