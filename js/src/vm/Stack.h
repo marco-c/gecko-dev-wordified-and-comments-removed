@@ -11,6 +11,9 @@ jsfun
 .
 h
 "
+struct
+JSContext
+;
 namespace
 js
 {
@@ -3510,12 +3513,17 @@ StackFrame
 fp
 )
 ;
+#
+ifdef
+JS_TRACER
 inline
 bool
 ensureEnoughSpaceToEnterTrace
 (
 )
 ;
+#
+endif
 static
 const
 size_t
