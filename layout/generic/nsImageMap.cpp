@@ -3495,6 +3495,19 @@ ElementAt
 i
 )
 ;
+if
+(
+area
+-
+>
+mArea
+-
+>
+IsInDoc
+(
+)
+)
+{
 NS_ASSERTION
 (
 area
@@ -3527,6 +3540,7 @@ SetPrimaryFrame
 nsnull
 )
 ;
+}
 area
 -
 >
