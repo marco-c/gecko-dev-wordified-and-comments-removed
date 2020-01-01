@@ -791,6 +791,10 @@ void
 *
 rp
 ;
+void
+*
+gp
+;
 JSContext
 *
 cx
