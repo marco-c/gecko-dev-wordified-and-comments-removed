@@ -667,12 +667,6 @@ _initTimer
 (
 )
 ;
-this
-.
-update
-(
-)
-;
 }
 update
 :
