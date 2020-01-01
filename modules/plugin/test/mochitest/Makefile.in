@@ -514,6 +514,10 @@ test_streamNotify
 .
 html
 \
+test_instantiation
+.
+html
+\
 (
 NULL
 )
