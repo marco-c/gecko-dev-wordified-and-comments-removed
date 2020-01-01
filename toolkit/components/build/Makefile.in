@@ -440,7 +440,6 @@ filter
 MOZ_WIDGET_TOOLKIT
 )
 windows
-gtk
 gtk2
 )
 )

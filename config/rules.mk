@@ -13557,9 +13557,7 @@ pl
 if
 (
 filter
-gtk
 gtk2
-xlib
 (
 MOZ_WIDGET_TOOLKIT
 )
@@ -13622,9 +13620,7 @@ pl
 if
 (
 filter
-gtk
 gtk2
-xlib
 (
 MOZ_WIDGET_TOOLKIT
 )

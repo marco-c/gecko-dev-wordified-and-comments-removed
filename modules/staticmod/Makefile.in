@@ -652,13 +652,7 @@ endif
 ifneq
 (
 (
-MOZ_ENABLE_GTK
-)
-(
 MOZ_ENABLE_GTK2
-)
-(
-MOZ_ENABLE_XLIB
 )
 )
 OS_LIBS

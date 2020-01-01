@@ -13,9 +13,6 @@ gtkmozembed_internal
 h
 "
 #
-ifdef
-MOZ_WIDGET_GTK2
-#
 include
 "
 gtkmozembed_common
@@ -29,8 +26,6 @@ gtkmozembed_download
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -55,9 +50,6 @@ defined
 .
 #
 endif
-#
-ifdef
-MOZ_WIDGET_GTK2
 #
 define
 GTKMOZEMBED2_FUNCTIONS
@@ -186,11 +178,6 @@ GTKF
 (
 gtk_moz_embed_get_nsIWebBrowser
 )
-#
-else
-#
-define
-GTKMOZEMBED2_FUNCTIONS
 #
 endif
 #

@@ -2597,9 +2597,7 @@ ifneq
 (
 (
 filter
-gtk
 gtk2
-xlib
 (
 MOZ_WIDGET_TOOLKIT
 )

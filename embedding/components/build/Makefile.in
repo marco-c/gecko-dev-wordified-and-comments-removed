@@ -767,9 +767,7 @@ ifneq
 (
 (
 filter
-gtk
 gtk2
-xlib
 beos
 photon
 qt

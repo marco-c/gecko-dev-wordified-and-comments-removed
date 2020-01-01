@@ -418,9 +418,7 @@ ifneq
 (
 (
 filter
-gtk
 gtk2
-xlib
 photon
 qt
 beos

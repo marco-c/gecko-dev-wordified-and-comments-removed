@@ -535,10 +535,6 @@ MOZ_COMPONENT_LIBS
 )
 \
 (
-MOZ_GTK_LDFLAGS
-)
-\
-(
 NULL
 )
 include
@@ -556,9 +552,6 @@ CXXFLAGS
 =
 (
 MOZ_TOOLKIT_REGISTRY_CFLAGS
-)
-(
-MOZ_GTK_CFLAGS
 )
 libs
 :

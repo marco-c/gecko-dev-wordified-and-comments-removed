@@ -262,12 +262,6 @@ endif
 if
 defined
 (
-MOZ_WIDGET_GTK
-)
-|
-|
-defined
-(
 MOZ_WIDGET_GTK2
 )
 #
@@ -1717,12 +1711,6 @@ get
 ;
 #
 if
-defined
-(
-MOZ_WIDGET_GTK
-)
-|
-|
 defined
 (
 MOZ_WIDGET_GTK2

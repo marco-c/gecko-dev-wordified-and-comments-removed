@@ -589,7 +589,6 @@ ifneq
 (
 (
 filter
-gtk
 gtk2
 qt
 windows

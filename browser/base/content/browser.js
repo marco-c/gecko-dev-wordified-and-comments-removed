@@ -5031,14 +5031,6 @@ availHeight
 ;
 #
 ifdef
-MOZ_WIDGET_GTK
-#
-define
-USE_HEIGHT_ADJUST
-#
-endif
-#
-ifdef
 MOZ_WIDGET_GTK2
 #
 define

@@ -147,7 +147,6 @@ ifneq
 (
 (
 filter
-gtk
 gtk2
 (
 MOZ_WIDGET_TOOLKIT
