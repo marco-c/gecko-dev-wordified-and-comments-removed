@@ -812,6 +812,9 @@ mode
 class
 XDRState
 ;
+class
+FreeOp
+;
 }
 namespace
 JSC
@@ -1003,9 +1006,9 @@ void
 JSDestroyScriptHook
 )
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSScript
 *
 script

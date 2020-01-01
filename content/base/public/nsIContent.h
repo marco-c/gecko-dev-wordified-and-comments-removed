@@ -1270,6 +1270,10 @@ css
 StyleRule
 *
 aStyleRule
+const
+nsAString
+*
+aSerialized
 bool
 aNotify
 )

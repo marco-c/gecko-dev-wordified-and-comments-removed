@@ -675,6 +675,15 @@ JSClass
 ptr
 ]
 native
+JSFreeOpPtr
+(
+JSFreeOp
+)
+;
+[
+ptr
+]
+native
 JSObjectPtr
 (
 JSObject

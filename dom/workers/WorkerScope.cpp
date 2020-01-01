@@ -517,9 +517,9 @@ virtual
 void
 _Finalize
 (
-JSContext
+JSFreeOp
 *
-aCx
+aFop
 )
 MOZ_OVERRIDE
 {
@@ -528,7 +528,7 @@ EventTarget
 :
 _Finalize
 (
-aCx
+aFop
 )
 ;
 }
@@ -3744,9 +3744,9 @@ static
 void
 Finalize
 (
-JSContext
+JSFreeOp
 *
-aCx
+aFop
 JSObject
 *
 aObj
@@ -3795,7 +3795,7 @@ scope
 >
 _Finalize
 (
-aCx
+aFop
 )
 ;
 }

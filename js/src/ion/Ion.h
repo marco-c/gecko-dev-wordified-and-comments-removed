@@ -268,9 +268,9 @@ pc
 void
 Invalidate
 (
-JSContext
+FreeOp
 *
-cx
+fop
 const
 Vector
 <
@@ -290,9 +290,9 @@ true
 void
 InvalidateAll
 (
-JSContext
+FreeOp
 *
-cx
+fop
 JSCompartment
 *
 comp
@@ -301,9 +301,9 @@ comp
 void
 FinishInvalidation
 (
-JSContext
+FreeOp
 *
-cx
+fop
 JSScript
 *
 script

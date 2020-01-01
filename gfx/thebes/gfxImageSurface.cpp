@@ -269,12 +269,6 @@ defined
 (
 HAVE_POSIX_MEMALIGN
 )
-|
-|
-defined
-(
-HAVE_JEMALLOC_POSIX_MEMALIGN
-)
 void
 *
 ptr

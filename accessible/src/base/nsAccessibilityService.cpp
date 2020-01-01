@@ -276,13 +276,6 @@ h
 #
 include
 "
-nsOuterDocAccessible
-.
-h
-"
-#
-include
-"
 nsRootAccessibleWrap
 .
 h
@@ -420,6 +413,13 @@ h
 include
 "
 nsXFormsWidgetsAccessible
+.
+h
+"
+#
+include
+"
+OuterDocAccessible
 .
 h
 "
@@ -799,7 +799,7 @@ nsAccessible
 accessible
 =
 new
-nsOuterDocAccessible
+OuterDocAccessible
 (
 aContent
 nsAccUtils
@@ -6455,7 +6455,7 @@ nsAccessible
 accessible
 =
 new
-nsOuterDocAccessible
+OuterDocAccessible
 (
 aContent
 aDoc

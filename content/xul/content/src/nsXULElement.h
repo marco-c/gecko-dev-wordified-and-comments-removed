@@ -556,13 +556,6 @@ mHoldsScriptObject
 (
 false
 )
-mScriptTypeID
-(
-nsIProgrammingLanguage
-:
-:
-UNKNOWN
-)
 {
 }
 virtual
@@ -769,9 +762,6 @@ bool
 mHoldsScriptObject
 :
 1
-;
-PRUint16
-mScriptTypeID
 ;
 }
 ;

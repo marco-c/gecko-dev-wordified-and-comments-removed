@@ -590,9 +590,9 @@ static
 void
 SafeFinalize
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSObject
 *
 obj

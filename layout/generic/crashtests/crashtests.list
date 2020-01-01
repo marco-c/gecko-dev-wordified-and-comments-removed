@@ -30,7 +30,7 @@ load
 html
 asserts
 (
-13
+11
 )
 load
 265867
@@ -1398,12 +1398,6 @@ load
 1
 .
 html
-asserts
-(
-1
--
-2
-)
 load
 436822
 -
@@ -1785,10 +1779,6 @@ load
 1
 .
 html
-asserts
-(
-4
-)
 load
 478170
 -
@@ -2018,10 +2008,6 @@ load
 1
 .
 html
-asserts
-(
-1
-)
 load
 515811
 -
@@ -2544,7 +2530,7 @@ letter
 html
 asserts
 (
-18
+2
 )
 load
 first

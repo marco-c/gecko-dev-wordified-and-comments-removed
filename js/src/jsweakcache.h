@@ -128,9 +128,9 @@ public
 void
 sweep
 (
-JSContext
+FreeOp
 *
-cx
+fop
 )
 {
 for
@@ -164,7 +164,6 @@ gc
 :
 IsMarked
 (
-cx
 e
 .
 front
@@ -181,7 +180,6 @@ gc
 :
 IsMarked
 (
-cx
 e
 .
 front
@@ -234,7 +232,6 @@ gc
 :
 IsMarked
 (
-cx
 r
 .
 front
@@ -252,7 +249,6 @@ gc
 :
 IsMarked
 (
-cx
 r
 .
 front

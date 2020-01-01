@@ -2735,7 +2735,7 @@ ForceCompare
 )
 {
 return
-false
+true
 ;
 }
 void

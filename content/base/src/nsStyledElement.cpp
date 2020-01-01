@@ -517,6 +517,10 @@ css
 StyleRule
 *
 aStyleRule
+const
+nsAString
+*
+aSerialized
 bool
 aNotify
 )
@@ -613,7 +617,7 @@ nsAttrValue
 attrValue
 (
 aStyleRule
-nsnull
+aSerialized
 )
 ;
 PRUint8

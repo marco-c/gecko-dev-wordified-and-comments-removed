@@ -1108,10 +1108,6 @@ Storage
 )
 DOMCI_CLASS
 (
-StorageList
-)
-DOMCI_CLASS
-(
 StorageItem
 )
 DOMCI_CLASS

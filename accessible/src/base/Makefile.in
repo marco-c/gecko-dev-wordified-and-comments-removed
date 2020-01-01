@@ -448,6 +448,10 @@ AccIterator
 .
 cpp
 \
+ARIAStateMap
+.
+cpp
+\
 filters
 .
 cpp
@@ -477,10 +481,6 @@ nsARIAMap
 cpp
 \
 nsDocAccessible
-.
-cpp
-\
-nsOuterDocAccessible
 .
 cpp
 \
@@ -594,6 +594,10 @@ EXPORTS_mozilla
 /
 a11y
 =
+\
+ARIAStateMap
+.
+h
 \
 FocusManager
 .

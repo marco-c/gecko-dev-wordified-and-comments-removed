@@ -2768,9 +2768,12 @@ ObjectWrapperParent
 :
 CPOW_Finalize
 (
-JSContext
+js
+:
+:
+FreeOp
 *
-cx
+fop
 JSObject
 *
 obj

@@ -2670,7 +2670,7 @@ NS_ERROR_FAILURE
 }
 mStreamInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2704,7 +2704,7 @@ mZstream
 ;
 mStreamEnded
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -3353,7 +3353,7 @@ mZstream
 ;
 mStreamInitialized
 =
-PR_FALSE
+false
 ;
 return
 NS_ERROR_FAILURE
@@ -3391,7 +3391,7 @@ mZstream
 ;
 mStreamInitialized
 =
-PR_FALSE
+false
 ;
 return
 rv
@@ -3683,7 +3683,7 @@ avail_in
 ;
 mStreamInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

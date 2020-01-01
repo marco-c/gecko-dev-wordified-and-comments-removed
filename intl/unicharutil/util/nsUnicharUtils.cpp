@@ -1253,7 +1253,7 @@ c2
 =
 SURROGATE_TO_UCS4
 (
-c1
+c2
 *
 b
 +

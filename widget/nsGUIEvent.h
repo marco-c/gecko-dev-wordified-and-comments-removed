@@ -4896,6 +4896,8 @@ public
 :
 nsTouchEvent
 (
+bool
+isTrusted
 nsTouchEvent
 *
 aEvent
@@ -4903,16 +4905,7 @@ aEvent
 :
 nsInputEvent
 (
-aEvent
--
->
-flags
-&
-NS_EVENT_FLAG_TRUSTED
-?
-true
-:
-false
+isTrusted
 aEvent
 -
 >

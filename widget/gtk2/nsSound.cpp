@@ -364,7 +364,7 @@ mFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -768,7 +768,7 @@ file
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 NS_RELEASE

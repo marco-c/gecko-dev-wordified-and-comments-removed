@@ -227,7 +227,7 @@ mObserver
 "
 sleep_notification
 "
-PR_FALSE
+false
 )
 ;
 observerService
@@ -239,7 +239,7 @@ mObserver
 "
 wake_notification
 "
-PR_FALSE
+false
 )
 ;
 }

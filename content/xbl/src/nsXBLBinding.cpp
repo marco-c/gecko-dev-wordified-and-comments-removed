@@ -319,9 +319,9 @@ static
 void
 XBLFinalize
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSObject
 *
 obj

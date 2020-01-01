@@ -268,9 +268,9 @@ compartment
 void
 sweep
 (
-JSContext
+FreeOp
 *
-cx
+fop
 )
 ;
 JSC

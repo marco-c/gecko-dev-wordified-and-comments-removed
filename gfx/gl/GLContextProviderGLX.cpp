@@ -3032,9 +3032,7 @@ if
 !
 IsExtensionSupported
 (
-"
-GL_EXT_framebuffer_object
-"
+EXT_framebuffer_object
 )
 )
 return

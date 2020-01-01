@@ -885,7 +885,7 @@ endif
 #
 include
 "
-jemalloc
+jemalloc_types
 .
 h
 "
@@ -24576,6 +24576,13 @@ defined
 (
 MOZ_MEMORY_WINDOWS
 )
+&
+&
+!
+defined
+(
+MOZ_MEMORY_DARWIN
+)
 pthread_atfork
 (
 _malloc_prefork
@@ -26967,8 +26974,14 @@ ptr
 )
 ;
 }
+#
+ifdef
+MOZ_MEMORY_DARWIN
+static
+#
+endif
 size_t
-je_malloc_usable_size_in_advance
+je_malloc_good_size
 (
 size_t
 size
@@ -28266,7 +28279,7 @@ size
 )
 {
 return
-je_malloc_usable_size_in_advance
+je_malloc_good_size
 (
 size
 )

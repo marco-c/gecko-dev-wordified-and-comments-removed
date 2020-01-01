@@ -7,7 +7,7 @@ MOZILLA_A11Y_OUTERDOCACCESSIBLE_H_
 #
 include
 "
-AccessibleWrap
+nsAccessibleWrap
 .
 h
 "
@@ -21,7 +21,7 @@ class
 OuterDocAccessible
 :
 public
-AccessibleWrap
+nsAccessibleWrap
 {
 public
 :
@@ -30,7 +30,7 @@ OuterDocAccessible
 nsIContent
 *
 aContent
-DocAccessible
+nsDocAccessible
 *
 aDoc
 )
@@ -45,7 +45,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 GetActionName
 (
-uint8_t
+PRUint8
 aIndex
 nsAString
 &
@@ -55,7 +55,7 @@ aName
 NS_IMETHOD
 GetActionDescription
 (
-uint8_t
+PRUint8
 aIndex
 nsAString
 &
@@ -65,7 +65,7 @@ aDescription
 NS_IMETHOD
 DoAction
 (
-uint8_t
+PRUint8
 aIndex
 )
 ;
@@ -97,13 +97,13 @@ aAttributes
 )
 ;
 virtual
-Accessible
+nsAccessible
 *
 ChildAtPoint
 (
-int32_t
+PRInt32
 aX
-int32_t
+PRInt32
 aY
 EWhichChildAtPoint
 aWhichChild
@@ -119,7 +119,7 @@ virtual
 bool
 AppendChild
 (
-Accessible
+nsAccessible
 *
 aAccessible
 )
@@ -128,13 +128,13 @@ virtual
 bool
 RemoveChild
 (
-Accessible
+nsAccessible
 *
 aAccessible
 )
 ;
 virtual
-uint8_t
+PRUint8
 ActionCount
 (
 )

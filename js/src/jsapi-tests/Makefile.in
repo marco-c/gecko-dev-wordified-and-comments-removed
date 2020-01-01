@@ -613,6 +613,10 @@ testXDR
 .
 cpp
 \
+testBindCallable
+.
+cpp
+\
 (
 NULL
 )

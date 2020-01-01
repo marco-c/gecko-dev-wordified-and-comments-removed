@@ -465,6 +465,10 @@ html
 \
 test_controls
 .
+html
+\
+test_controls
+.
 xul
 \
 test_doc

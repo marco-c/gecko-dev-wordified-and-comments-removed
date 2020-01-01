@@ -68,6 +68,12 @@ NativeRole
 )
 ;
 virtual
+PRUint64
+NativeState
+(
+)
+;
+virtual
 bool
 IsWidget
 (
