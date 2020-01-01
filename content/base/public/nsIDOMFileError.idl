@@ -475,7 +475,7 @@ unsigned
 short
 ABORT_ERR
 =
-25
+20
 ;
 const
 unsigned

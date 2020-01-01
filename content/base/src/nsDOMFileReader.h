@@ -273,6 +273,14 @@ Init
 ;
 protected
 :
+enum
+eDataFormat
+{
+FILE_AS_BINARY
+FILE_AS_TEXT
+FILE_AS_DATAURL
+}
+;
 nsresult
 ReadFileContent
 (
@@ -283,7 +291,7 @@ const
 nsAString
 &
 aCharset
-PRUint32
+eDataFormat
 aDataFormat
 )
 ;
@@ -401,7 +409,7 @@ mCharset
 PRUint32
 mDataLen
 ;
-PRUint32
+eDataFormat
 mDataFormat
 ;
 nsString
