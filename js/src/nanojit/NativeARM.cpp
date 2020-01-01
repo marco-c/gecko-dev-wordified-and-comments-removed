@@ -925,7 +925,7 @@ v
 arg
 -
 >
-imm64_0
+imm64lo
 (
 )
 ;
@@ -1005,7 +1005,7 @@ v
 arg
 -
 >
-imm64_1
+imm64hi
 (
 )
 ;
@@ -3230,7 +3230,7 @@ IP
 value
 -
 >
-imm64_0
+imm64lo
 (
 )
 )
@@ -3250,7 +3250,7 @@ IP
 value
 -
 >
-imm64_1
+imm64hi
 (
 )
 )
@@ -3358,13 +3358,13 @@ rv
 value
 -
 >
-imm64_0
+imm64lo
 (
 )
 value
 -
 >
-imm64_1
+imm64hi
 (
 )
 )
@@ -3409,9 +3409,9 @@ asm_quad_nochk
 Register
 rr
 int32_t
-imm64_0
+imm64lo
 int32_t
-imm64_1
+imm64hi
 )
 {
 FLDD
@@ -3432,7 +3432,7 @@ _nIns
 (
 NIns
 )
-imm64_1
+imm64hi
 ;
 *
 (
@@ -3444,7 +3444,7 @@ _nIns
 (
 NIns
 )
-imm64_0
+imm64lo
 ;
 JMP_nochk
 (
@@ -3535,13 +3535,13 @@ rr
 ins
 -
 >
-imm64_0
+imm64lo
 (
 )
 ins
 -
 >
-imm64_1
+imm64hi
 (
 )
 )
@@ -3569,7 +3569,7 @@ IP
 ins
 -
 >
-imm64_1
+imm64hi
 (
 )
 )
@@ -3587,7 +3587,7 @@ IP
 ins
 -
 >
-imm64_0
+imm64lo
 (
 )
 )

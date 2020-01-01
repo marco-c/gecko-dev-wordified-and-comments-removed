@@ -2302,7 +2302,7 @@ SET32
 value
 -
 >
-imm64_0
+imm64lo
 (
 )
 L0
@@ -2320,7 +2320,7 @@ SET32
 value
 -
 >
-imm64_1
+imm64hi
 (
 )
 L0
@@ -5130,7 +5130,7 @@ SET32
 ins
 -
 >
-imm64_0
+imm64lo
 (
 )
 r
@@ -5148,7 +5148,7 @@ SET32
 ins
 -
 >
-imm64_1
+imm64hi
 (
 )
 r
