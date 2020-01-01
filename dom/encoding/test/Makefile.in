@@ -147,6 +147,10 @@ test_utf16_files
 .
 html
 \
+worker_helper
+.
+js
+\
 (
 NULL
 )
