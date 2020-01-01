@@ -523,6 +523,10 @@ SVGStyleElement
 .
 webidl
 \
+SVGSwitchElement
+.
+webidl
+\
 SVGTests
 .
 webidl

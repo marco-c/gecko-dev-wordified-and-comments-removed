@@ -321,10 +321,6 @@ nsSVGSVGElement
 .
 cpp
 \
-nsSVGSwitchElement
-.
-cpp
-\
 nsSVGSymbolElement
 .
 cpp
@@ -557,6 +553,10 @@ SVGStopElement
 .
 cpp
 \
+SVGSwitchElement
+.
+cpp
+\
 SVGStyleElement
 .
 cpp
@@ -683,6 +683,10 @@ SVGStopElement
 h
 \
 SVGStyleElement
+.
+h
+\
+SVGSwitchElement
 .
 h
 \
