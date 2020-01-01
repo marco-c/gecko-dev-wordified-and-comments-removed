@@ -561,13 +561,8 @@ hidePanel
 (
 )
 ;
-PlacesCommandHook
-.
-showPlacesOrganizer
+BrowserDownloadsUI
 (
-"
-Downloads
-"
 )
 ;
 }
