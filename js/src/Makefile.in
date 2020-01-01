@@ -1254,6 +1254,10 @@ Native
 .
 h
 \
+NativeCommon
+.
+h
+\
 Native
 (
 NANOJIT_ARCH
