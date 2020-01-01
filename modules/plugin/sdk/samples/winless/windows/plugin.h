@@ -56,7 +56,7 @@ NPWindow
 aWindow
 )
 ;
-uint16
+uint16_t
 HandleEvent
 (
 void

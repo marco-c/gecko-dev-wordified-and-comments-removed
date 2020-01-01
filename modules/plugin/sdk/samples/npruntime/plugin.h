@@ -88,7 +88,7 @@ isInitialized
 (
 )
 ;
-int16
+int16_t
 handleEvent
 (
 void
