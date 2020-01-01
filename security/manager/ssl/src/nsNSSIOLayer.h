@@ -46,6 +46,13 @@ nsTHashtable
 .
 h
 "
+#
+include
+"
+nsISocketTransport
+.
+h
+"
 class
 nsNSSSocketInfo
 :
@@ -66,6 +73,8 @@ public
 :
 nsNSSSocketInfo
 (
+uint32_t
+providerFlags
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
@@ -372,6 +381,9 @@ mJoined
 bool
 mSentClientCert
 ;
+uint32_t
+mProviderFlags
+;
 }
 ;
 class
@@ -580,8 +592,8 @@ nsISupports
 securityInfo
 bool
 forSTARTTLS
-bool
-anonymousLoad
+uint32_t
+flags
 )
 ;
 nsresult
@@ -610,8 +622,8 @@ nsISupports
 securityInfo
 bool
 forSTARTTLS
-bool
-anonymousLoad
+uint32_t
+flags
 )
 ;
 nsresult
