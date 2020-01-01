@@ -601,7 +601,7 @@ CC_DATACHANNEL_1
 .
 enabled
 =
-TRUE
+FALSE
 ;
 dcb_p
 -

@@ -1180,6 +1180,9 @@ mNumAudioStreams
 int
 mNumVideoStreams
 ;
+bool
+mHaveDataStream
+;
 std
 :
 :
