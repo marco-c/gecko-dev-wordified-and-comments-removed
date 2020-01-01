@@ -4499,7 +4499,12 @@ reply
 =
 dbus_func_args
 (
-mConnection
+gThreadConnection
+-
+>
+GetConnection
+(
+)
 deviceObjectPath
 DBUS_DEVICE_IFACE
 "
