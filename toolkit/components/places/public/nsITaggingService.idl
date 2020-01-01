@@ -638,6 +638,10 @@ tag
 param
 aTag
 *
+tag
+name
+*
+returns
 Array
 of
 uris
@@ -681,6 +685,11 @@ returns
 array
 of
 tags
+(
+sorted
+by
+name
+)
 .
 *
 /

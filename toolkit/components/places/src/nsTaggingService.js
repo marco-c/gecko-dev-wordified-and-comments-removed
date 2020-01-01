@@ -1374,6 +1374,12 @@ name
 ;
 }
 }
+tags
+.
+sort
+(
+)
+;
 return
 tags
 ;
