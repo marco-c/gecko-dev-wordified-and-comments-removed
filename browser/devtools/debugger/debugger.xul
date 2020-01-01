@@ -740,7 +740,7 @@ command
 id
 =
 "
-toggleShowNonEnum
+toggleShowOnlyEnum
 "
 oncommand
 =
@@ -749,7 +749,7 @@ DebuggerView
 .
 Options
 .
-_toggleShowVariablesNonEnum
+_toggleShowVariablesOnlyEnum
 (
 )
 "
@@ -1409,7 +1409,9 @@ show
 -
 vars
 -
-nonenum
+only
+-
+enum
 "
 type
 =
@@ -1422,7 +1424,7 @@ label
 &
 debuggerUI
 .
-showNonEnums
+showOnlyEnum
 ;
 "
 accesskey
@@ -1431,7 +1433,7 @@ accesskey
 &
 debuggerUI
 .
-showNonEnums
+showOnlyEnum
 .
 key
 ;
@@ -1439,7 +1441,7 @@ key
 command
 =
 "
-toggleShowNonEnum
+toggleShowOnlyEnum
 "
 /
 >

@@ -234,11 +234,11 @@ this
 .
 Variables
 .
-nonEnumVisible
+onlyEnumVisible
 =
 Prefs
 .
-variablesNonEnumVisible
+variablesOnlyEnumVisible
 ;
 this
 .

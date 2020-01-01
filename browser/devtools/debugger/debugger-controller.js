@@ -6396,7 +6396,7 @@ map
 Bool
 "
 "
-variablesNonEnumVisible
+variablesOnlyEnumVisible
 "
 "
 devtools
@@ -6407,7 +6407,7 @@ ui
 .
 variables
 -
-non
+only
 -
 enum
 -
