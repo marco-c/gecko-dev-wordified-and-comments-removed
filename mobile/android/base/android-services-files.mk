@@ -185,6 +185,12 @@ BackgroundConstants
 .
 java
 \
+background
+/
+BackgroundService
+.
+java
+\
 sync
 /
 AlreadySyncingException
