@@ -857,6 +857,14 @@ eCSSKeyword_checkmenuitem
 NS_THEME_CHECKMENUITEM
 eCSSKeyword_radiomenuitem
 NS_THEME_RADIOMENUITEM
+eCSSKeyword_menucheckbox
+NS_THEME_MENUCHECKBOX
+eCSSKeyword_menuradio
+NS_THEME_MENURADIO
+eCSSKeyword_menuseparator
+NS_THEME_MENUSEPARATOR
+eCSSKeyword_menuarrow
+NS_THEME_MENUARROW
 eCSSKeyword_UNKNOWN
 -
 1

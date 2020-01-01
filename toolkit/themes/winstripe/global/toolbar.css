@@ -65,6 +65,17 @@ ThreeDHighlight
 ;
 }
 toolbar
+menubar
+{
+-
+moz
+-
+appearance
+:
+toolbar
+;
+}
+toolbar
 {
 min
 -
