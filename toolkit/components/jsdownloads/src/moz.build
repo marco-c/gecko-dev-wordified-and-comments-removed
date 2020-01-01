@@ -118,6 +118,11 @@ DownloadCore
 jsm
 '
 '
+DownloadImport
+.
+jsm
+'
+'
 DownloadList
 .
 jsm
