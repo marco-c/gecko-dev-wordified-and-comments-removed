@@ -463,6 +463,10 @@ SVGLengthList
 .
 webidl
 \
+SVGLocatableElement
+.
+webidl
+\
 SVGMatrix
 .
 webidl
