@@ -7248,7 +7248,7 @@ scriptChannel
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+NS_ERROR_INVALID_ARG
 )
 ;
 nsCOMPtr
