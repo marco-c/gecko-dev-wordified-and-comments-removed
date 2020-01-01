@@ -443,7 +443,7 @@ whence
 =
 Const
 .
-SEEK_START
+SEEK_SET
 ;
 }
 return
