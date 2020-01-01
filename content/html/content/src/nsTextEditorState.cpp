@@ -3193,13 +3193,6 @@ SetValueChanged
 PR_TRUE
 )
 ;
-mFrame
--
->
-FireOnInput
-(
-)
-;
 if
 (
 !
@@ -3215,6 +3208,13 @@ PR_TRUE
 )
 ;
 }
+mFrame
+-
+>
+FireOnInput
+(
+)
+;
 return
 NS_OK
 ;
