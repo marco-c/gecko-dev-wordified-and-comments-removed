@@ -2823,11 +2823,11 @@ matchMedia
 -
 moz
 -
-mac
+swipe
 -
-lion
+animation
 -
-theme
+enabled
 )
 "
 )
