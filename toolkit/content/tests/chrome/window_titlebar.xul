@@ -1733,6 +1733,7 @@ Linux
 1
 |
 |
+(
 panel
 .
 id
@@ -1741,6 +1742,17 @@ id
 "
 panelanchored
 "
+&
+&
+panel
+.
+id
+!
+=
+"
+paneltop
+"
+)
 )
 {
 /
