@@ -1248,11 +1248,6 @@ dest
 /
 c_dest
 '
-'
-dest
-/
-e_dest
-'
 )
 )
 )
@@ -1264,8 +1259,21 @@ assertEqual
 result
 .
 existing_files
+            
 set
 (
+[
+self
+.
+tmppath
+(
+'
+dest
+/
+e_dest
+'
+)
+]
 )
 )
         
