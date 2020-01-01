@@ -802,10 +802,10 @@ val
 val
 ;
 return
-JS_MIN
+Min
 (
 bin
-10
+10U
 )
 ;
 }

@@ -9844,7 +9844,7 @@ SetIdArrayLength
 (
 cx
 ida
-JS_MAX
+Max
 (
 length
 *

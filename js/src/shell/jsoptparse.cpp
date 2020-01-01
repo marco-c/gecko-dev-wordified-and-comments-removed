@@ -994,7 +994,7 @@ it
 )
 lhsLen
 =
-JS_MAX
+Max
 (
 lhsLen
 strlen
@@ -1236,7 +1236,7 @@ metavar
 ;
 lhsLen
 =
-JS_MAX
+Max
 (
 lhsLen
 len

@@ -22575,7 +22575,7 @@ callArgc
 =
 unsigned
 (
-JS_MIN
+Min
 (
 callArgc
 StackSpace
@@ -22632,7 +22632,7 @@ argc
 ?
 unsigned
 (
-JS_MIN
+Min
 (
 argc
 -

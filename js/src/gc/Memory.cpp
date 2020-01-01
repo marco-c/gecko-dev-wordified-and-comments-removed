@@ -1324,7 +1324,7 @@ flags
 size_t
 reqSize
 =
-JS_MIN
+Min
 (
 size
 +

@@ -1098,7 +1098,10 @@ t2
 )
 {
 return
-JS_MIN
+js
+:
+:
+Min
 (
 t1
 t2
@@ -1121,7 +1124,10 @@ t2
 )
 {
 return
-JS_MAX
+js
+:
+:
+Max
 (
 t1
 t2
