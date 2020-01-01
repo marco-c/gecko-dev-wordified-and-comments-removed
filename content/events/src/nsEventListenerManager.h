@@ -158,6 +158,9 @@ uint8_t
 mListenerType
 ;
 bool
+mListenerIsHandler
+;
+bool
 mHandlerIsString
 ;
 nsIJSEventListener
@@ -747,6 +750,10 @@ nsIAtom
 aTypeAtom
 int32_t
 aFlags
+bool
+aHandler
+=
+false
 )
 ;
 void
