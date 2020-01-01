@@ -205,6 +205,9 @@ aError
 {
 if
 (
+aTHead
+&
+&
 !
 aTHead
 -
@@ -300,6 +303,9 @@ aError
 {
 if
 (
+aTFoot
+&
+&
 !
 aTFoot
 -
