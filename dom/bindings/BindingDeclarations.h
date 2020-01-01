@@ -32,13 +32,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Maybe
