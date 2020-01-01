@@ -134,6 +134,9 @@ class
 imgDecodeWorker
 ;
 class
+Decoder
+;
+class
 RasterImage
 :
 public
@@ -810,9 +813,9 @@ friend
 class
 DiscardTracker
 ;
-nsCOMPtr
+nsRefPtr
 <
-imgIDecoder
+Decoder
 >
 mDecoder
 ;
