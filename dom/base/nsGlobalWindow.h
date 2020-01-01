@@ -1558,12 +1558,6 @@ aData
 ;
 static
 void
-Init
-(
-)
-;
-static
-void
 ShutDown
 (
 )
