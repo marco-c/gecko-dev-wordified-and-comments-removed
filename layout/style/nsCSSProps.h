@@ -250,6 +250,15 @@ CSS_PROPERTY_HASHLESS_COLOR_QUIRK
 <
 15
 )
+#
+define
+CSS_PROPERTY_UNITLESS_LENGTH_QUIRK
+(
+1
+<
+<
+16
+)
 enum
 nsStyleAnimType
 {
