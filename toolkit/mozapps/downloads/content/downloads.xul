@@ -1837,6 +1837,11 @@ id
 "
 downloadView
 "
+seltype
+=
+"
+multiple
+"
 flex
 =
 "

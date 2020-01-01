@@ -491,6 +491,10 @@ browser_bug_416303
 .
 js
 \
+browser_multi_select
+.
+js
+\
 (
 NULL
 )
