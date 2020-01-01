@@ -325,6 +325,9 @@ if
 !
 nativeThemePref
 )
+needs
+-
+focus
 !
 =
 listbox
@@ -337,6 +340,9 @@ listbox
 nonnative
 .
 html
+needs
+-
+focus
 =
 =
 listbox
