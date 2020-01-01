@@ -2508,14 +2508,12 @@ aIgnoreShiftKey
 if
 (
 mDetail
-=
+!
 =
 -
 1
 )
-return
-PR_TRUE
-;
+{
 PRUint32
 code
 ;
@@ -2583,6 +2581,7 @@ mDetail
 return
 PR_FALSE
 ;
+}
 return
 ModifiersMatchMask
 (
