@@ -48,6 +48,15 @@ nsApplicationAccessible
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
+GetRootDocument
+(
+nsIAccessibleDocument
+*
+*
+aRootDocument
+)
+;
+NS_IMETHOD
 GetName
 (
 nsAString
