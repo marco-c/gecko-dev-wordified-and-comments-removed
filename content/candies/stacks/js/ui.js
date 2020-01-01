@@ -213,15 +213,6 @@ mod
 div
 )
 {
-Utils
-.
-log
-(
-"
-hi
-!
-"
-)
 div
 .
 draggable
