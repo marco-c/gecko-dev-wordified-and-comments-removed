@@ -476,12 +476,6 @@ fd
 }
 ;
 const
-noOptions
-=
-{
-}
-;
-const
 DEFAULT_UNIX_MODE
 =
 384
@@ -497,7 +491,8 @@ path
 mode
 options
 =
-noOptions
+{
+}
 )
 {
 let
@@ -779,7 +774,8 @@ removeEmptyDir
 path
 options
 =
-noOptions
+{
+}
 )
 {
 let
@@ -852,7 +848,8 @@ makeDir
 path
 options
 =
-noOptions
+{
+}
 )
 {
 let
@@ -950,7 +947,8 @@ sourcePath
 destPath
 options
 =
-noOptions
+{
+}
 )
 {
 let
@@ -1014,7 +1012,8 @@ source
 dest
 options
 =
-noOptions
+{
+}
 )
 {
 let
@@ -1214,7 +1213,8 @@ source
 dest
 options
 =
-noOptions
+{
+}
 )
 {
 let
@@ -1519,7 +1519,8 @@ sourcePath
 destPath
 options
 =
-noOptions
+{
+}
 )
 {
 let
@@ -1636,7 +1637,8 @@ sourcePath
 destPath
 options
 =
-noOptions
+{
+}
 )
 {
 if
@@ -2921,7 +2923,8 @@ stat
 path
 options
 =
-noOptions
+{
+}
 )
 {
 if

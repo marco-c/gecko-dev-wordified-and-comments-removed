@@ -556,12 +556,6 @@ fd
 }
 ;
 const
-noOptions
-=
-{
-}
-;
-const
 DEFAULT_SHARE
 =
 Const
@@ -593,10 +587,12 @@ Win_open
 path
 mode
 =
-noOptions
+{
+}
 options
 =
-noOptions
+{
+}
 )
 {
 let
@@ -1033,7 +1029,8 @@ removeEmptyDir
 path
 options
 =
-noOptions
+{
+}
 )
 {
 let
@@ -1096,7 +1093,8 @@ makeDir
 path
 options
 =
-noOptions
+{
+}
 )
 {
 let
@@ -1171,7 +1169,8 @@ sourcePath
 destPath
 options
 =
-noOptions
+{
+}
 )
 {
 throw_on_zero
@@ -1207,7 +1206,8 @@ sourcePath
 destPath
 options
 =
-noOptions
+{
+}
 )
 {
 let

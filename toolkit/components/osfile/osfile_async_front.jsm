@@ -579,12 +579,6 @@ result
 ;
 }
 ;
-const
-noOptions
-=
-{
-}
-;
 let
 worker
 =
@@ -1326,7 +1320,8 @@ readTo
 buffer
 options
 =
-noOptions
+{
+}
 )
 {
 if
@@ -1410,7 +1405,8 @@ write
 buffer
 options
 =
-noOptions
+{
+}
 )
 {
 if
@@ -2062,7 +2058,8 @@ path
 buffer
 options
 =
-noOptions
+{
+}
 )
 {
 options
