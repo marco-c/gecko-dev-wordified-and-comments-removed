@@ -300,3 +300,16 @@ assertions
 non
 -
 fatal
+clone
+-
+similar
+-
+fallback
+.
+patch
+:
+Implement
+fallback
+for
+clone_similar
+.
