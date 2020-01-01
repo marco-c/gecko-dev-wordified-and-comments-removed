@@ -1344,9 +1344,9 @@ indicator
 -
 bar
 {
-display
+visibility
 :
-none
+hidden
 ;
 height
 :
@@ -1435,12 +1435,9 @@ true
 "
 ]
 {
-display
+visibility
 :
--
-moz
--
-box
+visible
 ;
 }
 .
