@@ -1736,6 +1736,11 @@ selectedIndex
 '
 nsIDOMHTMLSelectElement
 .
+item
+'
+'
+nsIDOMHTMLSelectElement
+.
 type
 '
 '
@@ -2057,11 +2062,6 @@ selectedIndex
 nsIDOMNSHTMLOptionCollection
 .
 add
-'
-'
-nsIDOMNSHTMLSelectElement
-.
-item
 '
 '
 nsIDOMNSHTMLTextAreaElement

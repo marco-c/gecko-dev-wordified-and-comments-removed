@@ -1584,13 +1584,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLSelectElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLStyleElement
 .
 h
@@ -10721,10 +10714,6 @@ nsIDOMHTMLSelectElement
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsIDOMHTMLSelectElement
-)
-DOM_CLASSINFO_MAP_ENTRY
-(
-nsIDOMNSHTMLSelectElement
 )
 DOM_CLASSINFO_GENERIC_HTML_MAP_ENTRIES
 DOM_CLASSINFO_MAP_END
