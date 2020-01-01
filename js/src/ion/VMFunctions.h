@@ -2423,13 +2423,7 @@ JSContext
 *
 cx
 HandleObject
-baseObj
-types
-:
-:
-TypeObject
-*
-type
+templateObject
 )
 ;
 bool

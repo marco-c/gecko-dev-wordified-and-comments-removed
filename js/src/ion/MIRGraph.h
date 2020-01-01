@@ -1704,7 +1704,7 @@ MBasicBlock
 blocks_
 ;
 TempAllocator
-&
+*
 alloc_
 ;
 MIRGraphExits
@@ -1738,7 +1738,7 @@ public
 MIRGraph
 (
 TempAllocator
-&
+*
 alloc
 )
 :
@@ -1800,7 +1800,8 @@ T
 >
 (
 alloc_
-.
+-
+>
 allocate
 (
 sizeof

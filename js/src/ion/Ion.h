@@ -247,6 +247,9 @@ IonContext
 JSContext
 *
 cx
+JSCompartment
+*
+compartment
 TempAllocator
 *
 temp
@@ -260,6 +263,10 @@ IonContext
 JSContext
 *
 cx
+;
+JSCompartment
+*
+compartment
 ;
 TempAllocator
 *

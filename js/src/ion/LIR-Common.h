@@ -10636,9 +10636,10 @@ getTemp
 )
 ;
 }
-JSScript
+const
+char
 *
-script
+profileString
 (
 )
 const
@@ -10652,7 +10653,7 @@ toProfilingEnter
 )
 -
 >
-script
+profileString
 (
 )
 ;
