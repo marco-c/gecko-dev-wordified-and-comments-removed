@@ -4806,7 +4806,7 @@ true
 ;
 }
 const
-int
+unsigned
 numArrays
 =
 9
