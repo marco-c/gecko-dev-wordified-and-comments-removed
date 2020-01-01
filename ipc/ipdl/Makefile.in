@@ -594,8 +594,6 @@ netwerk
 protocol
 /
 http
-/
-src
 \
 netwerk
 /
