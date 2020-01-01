@@ -490,6 +490,10 @@ test_optional_api_params
 .
 html
 \
+test_shutdown
+.
+html
+\
 test_windowClose
 .
 html
