@@ -6355,6 +6355,16 @@ front
 (
 )
 ;
+if
+(
+IsAboutToBeFinalized
+(
+cx
+global
+)
+)
+continue
+;
 const
 GlobalObject
 :
