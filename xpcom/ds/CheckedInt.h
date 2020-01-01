@@ -1080,7 +1080,7 @@ true
 >
 {
 static
-T
+bool
 run
 (
 U
@@ -1139,7 +1139,7 @@ false
 >
 {
 static
-T
+bool
 run
 (
 U
@@ -1180,7 +1180,7 @@ false
 >
 {
 static
-T
+bool
 run
 (
 U
@@ -1240,7 +1240,7 @@ true
 >
 {
 static
-T
+bool
 run
 (
 U
@@ -1305,7 +1305,7 @@ typename
 U
 >
 inline
-T
+bool
 is_in_range
 (
 U
@@ -1332,7 +1332,7 @@ typename
 T
 >
 inline
-T
+bool
 is_add_valid
 (
 T
@@ -1388,7 +1388,7 @@ typename
 T
 >
 inline
-T
+bool
 is_sub_valid
 (
 T
@@ -1488,7 +1488,7 @@ true
 >
 {
 static
-T
+bool
 run
 (
 T
@@ -1547,7 +1547,7 @@ false
 >
 {
 static
-T
+bool
 run
 (
 T
@@ -1674,7 +1674,7 @@ false
 >
 {
 static
-T
+bool
 run
 (
 T
@@ -1730,7 +1730,7 @@ typename
 T
 >
 inline
-T
+bool
 is_mul_valid
 (
 T
@@ -1760,7 +1760,7 @@ typename
 T
 >
 inline
-T
+bool
 is_div_valid
 (
 T
@@ -1916,7 +1916,7 @@ protected
 T
 mValue
 ;
-T
+bool
 mIsValid
 ;
 template
@@ -1928,7 +1928,7 @@ CheckedInt
 (
 U
 value
-T
+bool
 isValid
 )
 :
@@ -2033,7 +2033,7 @@ mValue
 )
 mIsValid
 (
-1
+true
 )
 {
 MOZ_STATIC_ASSERT
@@ -2077,10 +2077,7 @@ valid
 const
 {
 return
-bool
-(
 mIsValid
-)
 ;
 }
 template
@@ -2283,7 +2280,10 @@ return
 CheckedInt
 (
 result
-mIsValid
+valid
+(
+)
+&
 &
 CheckedInt_internal
 :
@@ -2315,15 +2315,18 @@ other
 const
 {
 return
-bool
+valid
 (
-mIsValid
+)
+&
 &
 other
 .
-mIsValid
-&
+valid
 (
+)
+&
+&
 value
 (
 )
@@ -2331,8 +2334,8 @@ value
 =
 other
 .
-mValue
-)
+value
+(
 )
 ;
 }
@@ -2638,7 +2641,7 @@ rhs
 .
 mValue
 ;
-T
+bool
 is_op_valid
 =
 CheckedInt_internal
