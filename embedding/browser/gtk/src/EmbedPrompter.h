@@ -1,7 +1,7 @@
 #
 include
 "
-nsString
+nsStringGlue
 .
 h
 "

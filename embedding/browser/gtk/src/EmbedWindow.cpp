@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsIDocShellTreeItem
 .
 h
@@ -1547,10 +1554,7 @@ gtk_widget_show_all
 sTipWindow
 )
 ;
-nsMemory
-:
-:
-Free
+NS_Free
 (
 (
 void
