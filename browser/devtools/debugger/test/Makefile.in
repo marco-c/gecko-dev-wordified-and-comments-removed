@@ -241,6 +241,12 @@ bug
 782179
 )
 \
+browser_dbg_pane
+-
+collapse
+.
+js
+\
 browser_dbg_panesize
 .
 js
