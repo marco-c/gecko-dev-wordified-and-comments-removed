@@ -1851,7 +1851,7 @@ rootFrame
 rootFrame
 -
 >
-InvalidateFrame
+SchedulePaint
 (
 )
 ;
