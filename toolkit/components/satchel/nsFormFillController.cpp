@@ -3239,13 +3239,6 @@ cancel
 aEvent
 -
 >
-StopPropagation
-(
-)
-;
-aEvent
--
->
 PreventDefault
 (
 )
