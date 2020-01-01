@@ -758,6 +758,9 @@ PreferenceSet
 prefs_
 ;
 typedef
+base
+:
+:
 ObserverList
 <
 NotificationObserver

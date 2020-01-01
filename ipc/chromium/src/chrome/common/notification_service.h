@@ -170,6 +170,9 @@ NULL
 private
 :
 typedef
+base
+:
+:
 ObserverList
 <
 NotificationObserver

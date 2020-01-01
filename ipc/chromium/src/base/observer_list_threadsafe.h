@@ -68,6 +68,9 @@ task
 .
 h
 "
+namespace
+base
+{
 template
 <
 class
@@ -766,5 +769,6 @@ ObserverListThreadSafe
 ;
 }
 ;
+}
 #
 endif

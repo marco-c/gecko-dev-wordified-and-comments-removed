@@ -57,6 +57,9 @@ find
 ;
 #
 endif
+namespace
+base
+{
 template
 <
 class
@@ -543,6 +546,7 @@ ObserverList
 ;
 }
 ;
+}
 #
 define
 FOR_EACH_OBSERVER
@@ -555,6 +559,9 @@ func
 do
 {
 \
+base
+:
+:
 ObserverList
 <
 ObserverType
