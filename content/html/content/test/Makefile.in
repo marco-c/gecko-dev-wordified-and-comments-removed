@@ -1287,6 +1287,10 @@ test_input_file_picker
 .
 html
 \
+test_bug763626
+.
+html
+\
 (
 NULL
 )
