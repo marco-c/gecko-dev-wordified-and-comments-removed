@@ -414,7 +414,7 @@ autoconf
 mk
 MODULE
 =
-test_intl_locale
+test_intl_locale_multilocale
 XPCSHELL_TESTS
 =
 unit
