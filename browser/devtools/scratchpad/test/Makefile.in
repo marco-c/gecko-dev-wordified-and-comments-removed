@@ -173,6 +173,10 @@ browser_scratchpad_bug_751744_revert_to_saved
 .
 js
 \
+browser_scratchpad_bug740948_reload_and_run
+.
+js
+\
 head
 .
 js
