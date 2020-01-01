@@ -327,6 +327,13 @@ event
 target
 )
 ;
+LoginManagerContent
+.
+onFormPassword
+(
+event
+)
+;
 }
 )
 ;
