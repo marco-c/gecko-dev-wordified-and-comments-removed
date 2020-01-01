@@ -270,7 +270,6 @@ works
 "
 )
 ;
-;
 var
 serializedNode
 =
