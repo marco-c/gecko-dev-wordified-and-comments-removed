@@ -61,14 +61,6 @@ todo_isnot
 "
 )
 ;
-info
-(
-"
-info
-message
-"
-)
-;
 var
 func
 =
