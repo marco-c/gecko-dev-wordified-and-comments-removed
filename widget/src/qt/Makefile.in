@@ -575,6 +575,10 @@ nsSound
 .
 cpp
 \
+nsFilePicker
+.
+cpp
+\
 (
 NULL
 )
