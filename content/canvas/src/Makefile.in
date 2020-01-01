@@ -458,8 +458,6 @@ caps
 \
 imglib2
 \
-cairo
-\
 thebes
 \
 view
