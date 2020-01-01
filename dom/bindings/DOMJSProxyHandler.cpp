@@ -274,7 +274,6 @@ nsISupports
 >
 (
 obj
-eProxyDOMObject
 )
 &
 cache

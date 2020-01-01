@@ -933,7 +933,6 @@ WorkerPrivate
 >
 (
 aObj
-eRegularDOMObject
 )
 ;
 if
@@ -986,7 +985,6 @@ WorkerPrivate
 >
 (
 aObj
-eRegularDOMObject
 )
 ;
 if
@@ -1554,7 +1552,6 @@ WorkerPrivate
 >
 (
 aObj
-eRegularDOMObject
 )
 ;
 }
@@ -1633,7 +1630,6 @@ WorkerPrivate
 >
 (
 aObj
-eRegularDOMObject
 )
 ;
 if
@@ -1686,7 +1682,6 @@ WorkerPrivate
 >
 (
 aObj
-eRegularDOMObject
 )
 ;
 if
@@ -1812,7 +1807,6 @@ WorkerPrivate
 >
 (
 aObj
-eRegularDOMObject
 )
 ;
 }
