@@ -43,6 +43,11 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 addTab
 (
 "
