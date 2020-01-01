@@ -310,7 +310,6 @@ header
 )
 )
 ;
-else
 return
 MultiDeclRange
 (
