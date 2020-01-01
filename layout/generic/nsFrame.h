@@ -1923,6 +1923,7 @@ protected
 NS_IMETHOD
 GetDataForTableSelection
 (
+const
 nsFrameSelection
 *
 aFrameSelection

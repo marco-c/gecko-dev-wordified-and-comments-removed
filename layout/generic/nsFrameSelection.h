@@ -65,19 +65,19 @@ define
 NS_FRAME_SELECTION_IID
 \
 {
-0x6c2c1a4c
-0x47ec
-0x42be
+0xd78edc5a
+0x28d0
+0x48f0
 \
 {
-0xa7
-0x90
-0x00
-0x41
-0x7b
-0xf4
-0xc2
-0x41
+0x8a
+0xbb
+0x15
+0x97
+0xb1
+0x59
+0x15
+0x56
 }
 }
 #
@@ -338,6 +338,7 @@ nsIScrollableView
 GetScrollableView
 (
 )
+const
 {
 return
 mScrollableViewProvider
@@ -426,6 +427,7 @@ aContentLength
 PRBool
 aSlowCheck
 )
+const
 ;
 void
 SetMouseDownState
@@ -438,6 +440,7 @@ PRBool
 GetMouseDownState
 (
 )
+const
 {
 return
 mMouseDownState
@@ -447,6 +450,7 @@ PRBool
 GetTableCellSelection
 (
 )
+const
 {
 return
 mSelectingTableCellMode
@@ -472,6 +476,7 @@ GetSelection
 SelectionType
 aType
 )
+const
 ;
 nsresult
 ScrollSelectionIntoView
@@ -483,6 +488,7 @@ aRegion
 PRBool
 aIsSynchronous
 )
+const
 ;
 nsresult
 RepaintSelection
@@ -490,6 +496,7 @@ RepaintSelection
 SelectionType
 aType
 )
+const
 ;
 nsIFrame
 *
@@ -506,6 +513,7 @@ PRInt32
 *
 aReturnOffset
 )
+const
 ;
 void
 CommonPageMove
@@ -535,6 +543,7 @@ HINT
 GetHint
 (
 )
+const
 {
 return
 mHint
@@ -556,6 +565,7 @@ PRUint8
 GetCaretBidiLevel
 (
 )
+const
 ;
 virtual
 void
@@ -629,6 +639,7 @@ PRInt16
 GetDisplaySelection
 (
 )
+const
 {
 return
 mDisplaySelection
@@ -653,6 +664,7 @@ nsIContent
 GetLimiter
 (
 )
+const
 {
 return
 mLimiter
@@ -663,6 +675,7 @@ nsIContent
 GetAncestorLimiter
 (
 )
+const
 {
 return
 mAncestorLimiter
@@ -692,6 +705,7 @@ PRBool
 GetMouseDoubleDown
 (
 )
+const
 {
 return
 mMouseDoubleDownState
@@ -709,6 +723,7 @@ aContentOffset
 PRBool
 aJumpLines
 )
+const
 ;
 nsresult
 GetFrameFromLevel
@@ -725,6 +740,7 @@ nsIFrame
 *
 aFrameOut
 )
+const
 ;
 nsresult
 MaintainSelection
@@ -765,9 +781,20 @@ nsIPresShell
 GetShell
 (
 )
+const
 {
 return
 mShell
+;
+}
+void
+DisconnectFromPresShell
+(
+)
+{
+mShell
+=
+nsnull
 ;
 }
 private
@@ -828,6 +855,7 @@ aHint
 PRBool
 aJumpLines
 )
+const
 ;
 #
 ifdef
@@ -1029,6 +1057,7 @@ PRUint32
 GetBatching
 (
 )
+const
 {
 return
 mBatching
@@ -1038,6 +1067,7 @@ PRBool
 GetNotifyFrames
 (
 )
+const
 {
 return
 mNotifyFrames
@@ -1086,6 +1116,7 @@ nsIContent
 *
 aTableContent
 )
+const
 ;
 nsITableCellLayout
 *
@@ -1095,6 +1126,7 @@ nsIContent
 *
 aCellContent
 )
+const
 ;
 nsresult
 SelectBlockOfCells
@@ -1168,6 +1200,7 @@ nsIDOMNode
 *
 aCellNode
 )
+const
 ;
 PRBool
 IsInSameTable
@@ -1183,6 +1216,7 @@ nsIContent
 *
 aTableNode
 )
+const
 ;
 nsresult
 GetParentTable
@@ -1195,6 +1229,7 @@ nsIContent
 *
 aTableNode
 )
+const
 ;
 nsresult
 SelectCellElement

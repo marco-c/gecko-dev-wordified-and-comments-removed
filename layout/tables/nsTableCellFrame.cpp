@@ -1068,8 +1068,10 @@ if
 displaySelection
 )
 {
+nsCOMPtr
+<
 nsFrameSelection
-*
+>
 frameSelection
 =
 presContext
@@ -2130,8 +2132,12 @@ aSelected
 aSpread
 )
 ;
-if
-(
+nsCOMPtr
+<
+nsFrameSelection
+>
+frameSelection
+=
 aPresContext
 -
 >
@@ -2143,6 +2149,10 @@ PresShell
 FrameSelection
 (
 )
+;
+if
+(
+frameSelection
 -
 >
 GetTableCellSelection

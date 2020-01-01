@@ -16842,6 +16842,15 @@ GetSelectionDetails
 (
 )
 {
+const
+nsFrameSelection
+*
+frameSelection
+=
+GetConstFrameSelection
+(
+)
+;
 if
 (
 !
@@ -16858,9 +16867,7 @@ SelectionDetails
 *
 details
 =
-GetFrameSelection
-(
-)
+frameSelection
 -
 >
 LookUpSelection
@@ -16951,9 +16958,7 @@ SelectionDetails
 *
 details
 =
-GetFrameSelection
-(
-)
+frameSelection
 -
 >
 LookUpSelection
