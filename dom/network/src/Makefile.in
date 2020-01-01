@@ -111,6 +111,7 @@ NULL
 ifdef
 MOZ_B2G_RIL
 EXTRA_COMPONENTS
++
 =
 \
 NetworkStatsManager
