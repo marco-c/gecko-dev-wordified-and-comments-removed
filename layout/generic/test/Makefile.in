@@ -608,6 +608,10 @@ page
 .
 html
 \
+test_bug438840
+.
+html
+\
 test_bug448860
 .
 html
