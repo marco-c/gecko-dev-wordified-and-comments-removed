@@ -57124,9 +57124,7 @@ return
 fp
 -
 >
-getFunction
-(
-)
+fun
 -
 >
 isHeavyweight
