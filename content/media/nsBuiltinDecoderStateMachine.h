@@ -136,7 +136,7 @@ virtual
 void
 SetVolume
 (
-float
+double
 aVolume
 )
 ;
@@ -192,12 +192,12 @@ virtual
 void
 Seek
 (
-float
+double
 aTime
 )
 ;
 virtual
-float
+double
 GetCurrentTime
 (
 )
@@ -714,7 +714,7 @@ mAudioEndTime
 PRInt64
 mVideoFrameEndTime
 ;
-float
+double
 mVolume
 ;
 PRPackedBool

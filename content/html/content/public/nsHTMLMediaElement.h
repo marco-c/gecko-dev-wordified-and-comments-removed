@@ -1015,7 +1015,7 @@ WAITING_FOR_SOURCE
 LoadAlgorithmState
 mLoadWaitStatus
 ;
-float
+double
 mVolume
 ;
 PRUint32
@@ -1039,7 +1039,7 @@ mMediaSize
 TimeStamp
 mTimeUpdateTime
 ;
-float
+double
 mLastCurrentTime
 ;
 nsRefPtr

@@ -4012,7 +4012,7 @@ nsHTMLMediaElement
 :
 GetCurrentTime
 (
-float
+double
 *
 aCurrentTime
 )
@@ -4043,7 +4043,7 @@ nsHTMLMediaElement
 :
 SetCurrentTime
 (
-float
+double
 aCurrentTime
 )
 {
@@ -4154,18 +4154,18 @@ return
 NS_ERROR_FAILURE
 ;
 }
-float
+double
 clampedTime
 =
 NS_MAX
 (
 0
 .
-0f
+0
 aCurrentTime
 )
 ;
-float
+double
 duration
 =
 mDecoder
@@ -4243,7 +4243,7 @@ nsHTMLMediaElement
 :
 GetDuration
 (
-float
+double
 *
 aDuration
 )
@@ -4265,7 +4265,7 @@ std
 :
 numeric_limits
 <
-float
+double
 >
 :
 :
@@ -4408,7 +4408,7 @@ nsHTMLMediaElement
 :
 GetVolume
 (
-float
+double
 *
 aVolume
 )
@@ -4428,7 +4428,7 @@ nsHTMLMediaElement
 :
 SetVolume
 (
-float
+double
 aVolume
 )
 {
@@ -7283,7 +7283,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-float
+double
 duration
 =
 aOriginal
@@ -10710,7 +10710,7 @@ Now
 (
 )
 ;
-float
+double
 time
 =
 0

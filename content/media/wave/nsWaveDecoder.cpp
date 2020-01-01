@@ -225,7 +225,7 @@ nsWaveDecoder
 aDecoder
 TimeDuration
 aBufferWaitTime
-float
+double
 aInitialVolume
 )
 ;
@@ -250,7 +250,7 @@ aStream
 void
 SetVolume
 (
-float
+double
 aVolume
 )
 ;
@@ -267,7 +267,7 @@ Pause
 void
 Seek
 (
-float
+double
 aTime
 )
 ;
@@ -276,7 +276,7 @@ Shutdown
 (
 )
 ;
-float
+double
 GetDuration
 (
 )
@@ -329,7 +329,7 @@ GetNextFrameStatus
 (
 )
 ;
-float
+double
 GetTimeForPositionChange
 (
 )
@@ -518,7 +518,7 @@ PRBool
 aCoalesce
 )
 ;
-float
+double
 BytesToTime
 (
 PRInt64
@@ -552,7 +552,7 @@ be
 )
 ;
 return
-float
+double
 (
 aBytes
 )
@@ -565,7 +565,7 @@ mSampleSize
 PRInt64
 TimeToBytes
 (
-float
+double
 aTime
 )
 const
@@ -711,10 +711,10 @@ mNextState
 PRInt64
 mPlaybackPosition
 ;
-float
+double
 mInitialVolume
 ;
-float
+double
 mSeekTime
 ;
 PRPackedBool
@@ -741,7 +741,7 @@ nsWaveDecoder
 aDecoder
 TimeDuration
 aBufferWaitTime
-float
+double
 aInitialVolume
 )
 :
@@ -953,7 +953,7 @@ nsWaveStateMachine
 :
 SetVolume
 (
-float
+double
 aVolume
 )
 {
@@ -1053,7 +1053,7 @@ nsWaveStateMachine
 :
 Seek
 (
-float
+double
 aTime
 )
 {
@@ -1147,7 +1147,7 @@ STATE_SEEKING
 ;
 }
 }
-float
+double
 nsWaveStateMachine
 :
 :
@@ -1181,7 +1181,7 @@ std
 :
 numeric_limits
 <
-float
+double
 >
 :
 :
@@ -1356,7 +1356,7 @@ nsHTMLMediaElement
 NEXT_FRAME_UNAVAILABLE
 ;
 }
-float
+double
 nsWaveStateMachine
 :
 :
@@ -1727,7 +1727,7 @@ len
 =
 TimeToBytes
 (
-float
+double
 (
 targetTime
 .
@@ -1813,7 +1813,7 @@ mPlaybackPosition
 +
 TimeToBytes
 (
-float
+double
 (
 mBufferingWait
 .
@@ -2102,7 +2102,7 @@ GetDuration
 )
 )
 ;
-float
+double
 seekTime
 =
 mSeekTime
@@ -4500,7 +4500,7 @@ std
 :
 numeric_limits
 <
-float
+double
 >
 :
 :
@@ -4670,7 +4670,7 @@ GetCurrentPrincipal
 )
 ;
 }
-float
+double
 nsWaveDecoder
 :
 :
@@ -4744,7 +4744,7 @@ nsWaveDecoder
 :
 Seek
 (
-float
+double
 aTime
 )
 {
@@ -4791,7 +4791,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-float
+double
 nsWaveDecoder
 :
 :
@@ -4845,7 +4845,7 @@ nsWaveDecoder
 :
 SetVolume
 (
-float
+double
 aVolume
 )
 {
@@ -5947,7 +5947,7 @@ mShuttingDown
 return
 ;
 }
-float
+double
 lastTime
 =
 mCurrentTime

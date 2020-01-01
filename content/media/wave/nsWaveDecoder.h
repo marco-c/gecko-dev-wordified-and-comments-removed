@@ -105,13 +105,13 @@ GetCurrentPrincipal
 )
 ;
 virtual
-float
+double
 GetCurrentTime
 (
 )
 ;
 virtual
-float
+double
 GetDuration
 (
 )
@@ -120,7 +120,7 @@ virtual
 void
 SetVolume
 (
-float
+double
 aVolume
 )
 ;
@@ -140,7 +140,7 @@ virtual
 nsresult
 Seek
 (
-float
+double
 aTime
 )
 ;
@@ -358,7 +358,7 @@ StartStateMachineThread
 (
 )
 ;
-float
+double
 mInitialVolume
 ;
 nsCOMPtr
@@ -379,10 +379,10 @@ nsMediaStream
 >
 mStream
 ;
-float
+double
 mCurrentTime
 ;
-float
+double
 mEndedDuration
 ;
 PRPackedBool

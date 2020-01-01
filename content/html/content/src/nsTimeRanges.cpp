@@ -81,7 +81,7 @@ Start
 (
 PRUint32
 aIndex
-float
+double
 *
 aTime
 )
@@ -122,7 +122,7 @@ End
 (
 PRUint32
 aIndex
-float
+double
 *
 aTime
 )
@@ -161,9 +161,9 @@ nsTimeRanges
 :
 Add
 (
-float
+double
 aStart
-float
+double
 aEnd
 )
 {
