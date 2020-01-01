@@ -180,10 +180,6 @@ nsIDOMSVGFilters
 .
 idl
 \
-nsIDOMSVGFitToViewBox
-.
-idl
-\
 nsIDOMSVGForeignObjectElem
 .
 idl

@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIDOMSVGFitToViewBox
-.
-h
-"
-#
-include
-"
 nsIDOMSVGMarkerElement
 .
 h
@@ -324,8 +317,6 @@ public
 SVGMarkerElementBase
 public
 nsIDOMSVGMarkerElement
-public
-nsIDOMSVGFitToViewBox
 {
 friend
 class
@@ -384,7 +375,6 @@ public
 :
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMSVGMARKERELEMENT
-NS_DECL_NSIDOMSVGFITTOVIEWBOX
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 NS_FORWARD_NSIDOMSVGELEMENT
