@@ -108,6 +108,10 @@ SignInToWebsite
 .
 jsm
 \
+SitePermissions
+.
+jsm
+\
 webappsUI
 .
 jsm
