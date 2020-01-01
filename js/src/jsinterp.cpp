@@ -15848,12 +15848,14 @@ BEGIN_CASE
 JSOP_REGEXP
 )
 {
-jsatomid
+uint32_t
 index
 =
-GET_FULL_INDEX
+GET_UINT32_INDEX
 (
-0
+regs
+.
+pc
 )
 ;
 JSObject
