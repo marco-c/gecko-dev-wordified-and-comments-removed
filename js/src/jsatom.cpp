@@ -403,6 +403,9 @@ js_global_str
 js_ignoreCase_str
 js_index_str
 js_input_str
+"
+toISOString
+"
 js_iterator_str
 js_join_str
 js_lastIndex_str

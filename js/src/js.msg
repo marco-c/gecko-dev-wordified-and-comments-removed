@@ -4641,3 +4641,17 @@ to
 them
 "
 )
+MSG_DEF
+(
+JSMSG_BAD_TOISOSTRING_PROP
+253
+0
+JSEXN_TYPEERR
+"
+toISOString
+property
+is
+not
+callable
+"
+)
