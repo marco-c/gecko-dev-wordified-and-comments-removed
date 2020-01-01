@@ -22,6 +22,7 @@ FOCUS_COUNT
 19
 ;
 }
+yield
 setLinks
 (
 "

@@ -3,6 +3,7 @@ runTests
 (
 )
 {
+yield
 setLinks
 (
 "
@@ -66,6 +67,7 @@ checkGrid
 "
 )
 ;
+yield
 setLinks
 (
 "
@@ -129,6 +131,7 @@ checkGrid
 "
 )
 ;
+yield
 setLinks
 (
 "
@@ -210,6 +213,7 @@ checkGrid
 "
 )
 ;
+yield
 setLinks
 (
 "

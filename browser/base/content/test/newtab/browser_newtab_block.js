@@ -3,6 +3,7 @@ runTests
 (
 )
 {
+yield
 setLinks
 (
 "
@@ -110,6 +111,7 @@ restore
 (
 )
 ;
+yield
 setLinks
 (
 "
@@ -177,6 +179,7 @@ restore
 (
 )
 ;
+yield
 setLinks
 (
 "
@@ -246,6 +249,7 @@ restore
 (
 )
 ;
+yield
 setLinks
 (
 "

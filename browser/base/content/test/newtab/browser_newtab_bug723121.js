@@ -3,6 +3,7 @@ runTests
 (
 )
 {
+yield
 setLinks
 (
 "

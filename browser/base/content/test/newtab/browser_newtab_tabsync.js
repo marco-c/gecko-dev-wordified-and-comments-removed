@@ -5,6 +5,7 @@ runTests
 {
 return
 ;
+yield
 setLinks
 (
 "
