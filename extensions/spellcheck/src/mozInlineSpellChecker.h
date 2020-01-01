@@ -42,13 +42,6 @@ h
 #
 include
 "
-nsITextServicesDocument
-.
-h
-"
-#
-include
-"
 nsIDOMTreeWalker
 .
 h
@@ -363,12 +356,6 @@ nsCOMPtr
 nsIEditorSpellCheck
 >
 mSpellCheck
-;
-nsCOMPtr
-<
-nsITextServicesDocument
->
-mTextServicesDocument
 ;
 nsCOMPtr
 <

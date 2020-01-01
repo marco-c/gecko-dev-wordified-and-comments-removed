@@ -63,13 +63,6 @@ h
 #
 include
 "
-nsITextServicesDocument
-.
-h
-"
-#
-include
-"
 nsEditor
 .
 h
@@ -3266,12 +3259,6 @@ PropItem
 *
 >
 mDefaultStyles
-;
-nsCOMPtr
-<
-nsITextServicesDocument
->
-mTextServices
 ;
 protected
 :
