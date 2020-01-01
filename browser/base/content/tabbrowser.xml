@@ -11255,7 +11255,13 @@ prefs
 .
 setBoolPref
 (
-pref
+"
+browser
+.
+tabs
+.
+warnOnClose
+"
 false
 )
 ;
