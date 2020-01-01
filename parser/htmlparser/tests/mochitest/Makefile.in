@@ -414,7 +414,7 @@ file_bug717180
 .
 html
 \
-test_xml_mislabeled_nobom
+test_xml_mislabeled
 .
 html
 \
