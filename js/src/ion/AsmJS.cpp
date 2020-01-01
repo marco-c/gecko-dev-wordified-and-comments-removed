@@ -29077,8 +29077,9 @@ true
 #
 endif
 static
+const
 RegisterSet
-AllRegs
+AllRegsExceptSP
 =
 RegisterSet
 (
@@ -29088,6 +29089,20 @@ Registers
 :
 :
 AllMask
+&
+~
+(
+uint32_t
+(
+1
+)
+<
+<
+Registers
+:
+:
+StackPointer
+)
 )
 FloatRegisterSet
 (
@@ -29099,6 +29114,7 @@ AllMask
 )
 ;
 static
+const
 RegisterSet
 NonVolatileRegs
 =
@@ -32788,7 +32804,7 @@ masm
 .
 PushRegsInMask
 (
-AllRegs
+AllRegsExceptSP
 )
 ;
 Register
@@ -33007,7 +33023,7 @@ masm
 .
 PopRegsInMask
 (
-AllRegs
+AllRegsExceptSP
 )
 ;
 masm
