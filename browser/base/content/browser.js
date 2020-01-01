@@ -10725,6 +10725,11 @@ Browser
 :
 ToggleTabView
 '
+'
+Browser
+:
+ToggleAddonBar
+'
 ]
 ;
 var
