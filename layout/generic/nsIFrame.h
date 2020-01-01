@@ -3998,9 +3998,9 @@ const
 void
 FinishAndStoreOverflow
 (
-nsRect
-*
-aOverflowArea
+nsOverflowAreas
+&
+aOverflowAreas
 nsSize
 aNewSize
 )
@@ -4015,11 +4015,10 @@ aMetrics
 {
 FinishAndStoreOverflow
 (
-&
 aMetrics
 -
 >
-mOverflowArea
+mOverflowAreas
 nsSize
 (
 aMetrics
