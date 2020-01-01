@@ -8453,6 +8453,7 @@ name
 JS_DATA_TO_FUNC_PTR
 (
 JSNative
+&
 %
 s_trcinfo
 )
