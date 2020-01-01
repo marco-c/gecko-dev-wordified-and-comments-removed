@@ -887,7 +887,7 @@ DEVICESTORAGE_PICTURES
 )
 {
 return
-FindInReadable
+CaseInsensitiveFindInReadable
 (
 extensionMatch
 mPicturesExtensions
@@ -905,7 +905,7 @@ DEVICESTORAGE_VIDEOS
 )
 {
 return
-FindInReadable
+CaseInsensitiveFindInReadable
 (
 extensionMatch
 mVideosExtensions
@@ -923,7 +923,7 @@ DEVICESTORAGE_MUSIC
 )
 {
 return
-FindInReadable
+CaseInsensitiveFindInReadable
 (
 extensionMatch
 mMusicExtensions
