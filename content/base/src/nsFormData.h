@@ -16,6 +16,13 @@ h
 #
 include
 "
+nsIDOMFile
+.
+h
+"
+#
+include
+"
 nsIDOMFormData
 .
 h

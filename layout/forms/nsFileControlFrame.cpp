@@ -100,6 +100,13 @@ h
 #
 include
 "
+nsIDOMFileList
+.
+h
+"
+#
+include
+"
 nsContentList
 .
 h
