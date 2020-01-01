@@ -862,7 +862,10 @@ certNameList
 *
 *
 Find
-the
+user
+'
+s
+own
 email
 encryption
 certificate
@@ -911,7 +914,10 @@ aNickname
 *
 *
 Find
-the
+user
+'
+s
+own
 email
 signing
 certificate
