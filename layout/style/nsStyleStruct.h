@@ -42,6 +42,13 @@ h
 #
 include
 "
+nsVoidArray
+.
+h
+"
+#
+include
+"
 nsStyleCoord
 .
 h
@@ -78,6 +85,13 @@ h
 include
 "
 nsCOMPtr
+.
+h
+"
+#
+include
+"
+nsCOMArray
 .
 h
 "
