@@ -777,9 +777,6 @@ nsMenuPopupFrame
 *
 mPopupFrame
 ;
-nsSize
-mLastPref
-;
 nsRefPtr
 <
 nsMenuTimerMediator
