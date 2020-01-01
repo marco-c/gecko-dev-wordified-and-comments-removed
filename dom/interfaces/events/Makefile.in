@@ -146,6 +146,10 @@ nsIDOMDataTransfer
 .
 idl
 \
+nsIDOMDOMTransactionEvent
+.
+idl
+\
 nsIDOMPopupBlockedEvent
 .
 idl

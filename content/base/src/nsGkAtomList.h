@@ -7646,6 +7646,13 @@ undetermined
 )
 GK_ATOM
 (
+undoscope
+"
+undoscope
+"
+)
+GK_ATOM
+(
 unload
 "
 unload

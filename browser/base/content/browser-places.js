@@ -407,6 +407,7 @@ transactionManager
 .
 endBatch
 (
+false
 )
 ;
 this
@@ -452,6 +453,7 @@ transactionManager
 .
 beginBatch
 (
+null
 )
 ;
 let
@@ -512,6 +514,7 @@ transactionManager
 .
 endBatch
 (
+false
 )
 ;
 break
@@ -1291,6 +1294,7 @@ transactionManager
 .
 beginBatch
 (
+null
 )
 ;
 this

@@ -191,6 +191,10 @@ DOMTokenList
 .
 webidl
 \
+DOMTransaction
+.
+webidl
+\
 DynamicsCompressorNode
 .
 webidl
@@ -480,6 +484,10 @@ URL
 webidl
 \
 WebSocket
+.
+webidl
+\
+UndoManager
 .
 webidl
 \

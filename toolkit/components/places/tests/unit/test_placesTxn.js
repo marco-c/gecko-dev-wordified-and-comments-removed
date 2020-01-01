@@ -477,12 +477,14 @@ txnManager
 .
 beginBatch
 (
+null
 )
 ;
 txnManager
 .
 endBatch
 (
+false
 )
 ;
 txnManager

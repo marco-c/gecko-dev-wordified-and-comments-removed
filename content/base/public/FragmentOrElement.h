@@ -349,6 +349,9 @@ namespace
 dom
 {
 class
+UndoManager
+;
+class
 FragmentOrElement
 :
 public
@@ -892,6 +895,12 @@ mStyle
 nsDOMStringMap
 *
 mDataset
+;
+nsRefPtr
+<
+UndoManager
+>
+mUndoManager
 ;
 nsCOMPtr
 <

@@ -1137,6 +1137,10 @@ test_bug717819
 .
 html
 \
+test_undoManager
+.
+html
+\
 file_fullscreen
 -
 utils

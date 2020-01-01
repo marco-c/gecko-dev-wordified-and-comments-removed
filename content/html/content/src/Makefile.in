@@ -197,6 +197,14 @@ h
 HTMLUnknownElement
 .
 h
+\
+UndoManager
+.
+h
+\
+(
+NULL
+)
 CPPSRCS
 =
 \
@@ -449,6 +457,10 @@ nsRadioVisitor
 cpp
 \
 nsDOMStringMap
+.
+cpp
+\
+UndoManager
 .
 cpp
 \

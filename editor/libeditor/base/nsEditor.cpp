@@ -3527,6 +3527,7 @@ mTxnMgr
 >
 BeginBatch
 (
+nullptr
 )
 ;
 }
@@ -3552,6 +3553,7 @@ mTxnMgr
 >
 EndBatch
 (
+false
 )
 ;
 }

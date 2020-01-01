@@ -364,6 +364,10 @@ nsIDOMValidityState
 .
 idl
 \
+nsIUndoManagerTransaction
+.
+idl
+\
 nsIDOMMozBrowserFrame
 .
 idl

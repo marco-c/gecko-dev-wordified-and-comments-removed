@@ -1777,6 +1777,7 @@ transactionManager
 .
 beginBatch
 (
+null
 )
 ;
 this
@@ -1808,6 +1809,7 @@ transactionManager
 .
 endBatch
 (
+false
 )
 ;
 this
