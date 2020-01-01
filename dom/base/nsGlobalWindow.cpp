@@ -8463,6 +8463,11 @@ mDoc
 nsnull
 ;
 }
+if
+(
+mContext
+)
+{
 mContext
 -
 >
@@ -8472,6 +8477,7 @@ mJSObject
 PR_TRUE
 )
 ;
+}
 ClearControllers
 (
 )
@@ -8498,6 +8504,11 @@ mArgumentsOrigin
 nsnull
 ;
 }
+if
+(
+mContext
+)
+{
 mContext
 -
 >
@@ -8516,6 +8527,7 @@ mContext
 =
 nsnull
 ;
+}
 #
 ifdef
 DEBUG
