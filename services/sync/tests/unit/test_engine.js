@@ -223,7 +223,7 @@ data
 {
 do_check_eq
 (
-subject
+data
 "
 steam
 "

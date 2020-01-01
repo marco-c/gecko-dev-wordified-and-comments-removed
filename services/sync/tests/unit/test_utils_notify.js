@@ -315,9 +315,7 @@ do_check_eq
 fs
 .
 subject
-"
-baz
-"
+undefined
 )
 ;
 do_check_eq
@@ -339,7 +337,9 @@ do_check_eq
 fs
 .
 data
-undefined
+"
+baz
+"
 )
 ;
 do_check_eq
@@ -355,9 +355,7 @@ do_check_eq
 ff
 .
 subject
-"
-baz
-"
+5
 )
 ;
 do_check_eq
@@ -379,7 +377,9 @@ do_check_eq
 ff
 .
 data
-undefined
+"
+baz
+"
 )
 ;
 do_check_eq
@@ -546,9 +546,7 @@ do_check_eq
 ts
 .
 subject
-"
-one
-"
+undefined
 )
 ;
 do_check_eq
@@ -570,7 +568,9 @@ do_check_eq
 ts
 .
 data
-undefined
+"
+one
+"
 )
 ;
 do_check_eq
@@ -618,9 +618,7 @@ do_check_eq
 te
 .
 subject
-"
-one
-"
+10
 )
 ;
 do_check_eq
@@ -642,7 +640,9 @@ do_check_eq
 te
 .
 data
-undefined
+"
+one
+"
 )
 ;
 }

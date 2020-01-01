@@ -545,7 +545,7 @@ function
 NotifyMaker
 (
 name
-subject
+data
 func
 )
 {
@@ -560,6 +560,7 @@ notify
 function
 (
 state
+subject
 )
 {
 let
@@ -595,6 +596,7 @@ notify
 (
 mesg
 subject
+data
 )
 ;
 }
@@ -612,6 +614,7 @@ notify
 "
 start
 "
+null
 )
 ;
 let
@@ -629,6 +632,7 @@ notify
 "
 finish
 "
+ret
 )
 ;
 return
@@ -645,6 +649,7 @@ notify
 "
 error
 "
+ex
 )
 ;
 throw
