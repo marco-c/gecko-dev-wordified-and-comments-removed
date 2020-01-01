@@ -2682,6 +2682,8 @@ title
 data
 .
 uri
+.
+spec
 ;
 var
 createTxn
@@ -5188,5 +5190,8 @@ TYPE_X_MOZ_PLACE
 PlacesUtils
 .
 TYPE_X_MOZ_URL
+PlacesUtils
+.
+TYPE_UNICODE
 ]
 ;
