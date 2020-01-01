@@ -5040,6 +5040,9 @@ count
 {
 if
 (
+(
+PRUint32
+)
 end
 >
 =
@@ -27888,6 +27891,7 @@ IsOggEnabled
 {
 for
 (
+unsigned
 int
 i
 =
@@ -27993,6 +27997,7 @@ IsWebMEnabled
 {
 for
 (
+unsigned
 int
 i
 =
