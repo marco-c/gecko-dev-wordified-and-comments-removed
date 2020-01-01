@@ -179,8 +179,6 @@ validate
 src
 =
 image
-toolbarmode
-buttonstyle
 label
 "
 /
@@ -216,8 +214,6 @@ value
 label
 accesskey
 crop
-toolbarmode
-buttonstyle
 "
 /
 >
@@ -348,8 +344,6 @@ validate
 src
 =
 image
-toolbarmode
-buttonstyle
 label
 type
 "
@@ -389,8 +383,6 @@ crop
 dragover
 -
 top
-toolbarmode
-buttonstyle
 "
 /
 >
@@ -536,8 +528,6 @@ validate
 src
 =
 image
-toolbarmode
-buttonstyle
 label
 "
 /
@@ -576,8 +566,6 @@ crop
 dragover
 -
 top
-toolbarmode
-buttonstyle
 "
 /
 >
@@ -761,8 +749,6 @@ align
 dir
 pack
 orient
-toolbarmode
-buttonstyle
 "
 /
 >
@@ -796,8 +782,6 @@ dir
 pack
 orient
 disabled
-toolbarmode
-buttonstyle
 label
 "
 /
