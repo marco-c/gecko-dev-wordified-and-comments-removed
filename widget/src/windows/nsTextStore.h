@@ -499,7 +499,7 @@ aDiscard
 }
 static
 void
-SetInputMode
+SetInputContext
 (
 const
 InputContext
@@ -517,7 +517,7 @@ return
 sTsfTextStore
 -
 >
-SetInputModeInternal
+SetInputContextInternal
 (
 aContext
 .
@@ -755,7 +755,7 @@ bool
 )
 ;
 void
-SetInputModeInternal
+SetInputContextInternal
 (
 PRUint32
 aState

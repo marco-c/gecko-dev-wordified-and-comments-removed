@@ -1194,7 +1194,7 @@ composition
 )
 ;
 sync
-GetIMEEnabled
+GetInputContext
 (
 )
 returns
@@ -1203,7 +1203,7 @@ PRUint32
 value
 )
 ;
-SetInputMode
+SetInputContext
 (
 PRUint32
 value
@@ -1211,8 +1211,10 @@ nsString
 type
 nsString
 actionHint
-PRUint32
-reason
+PRInt32
+cause
+PRInt32
+focusChange
 )
 ;
 sync
