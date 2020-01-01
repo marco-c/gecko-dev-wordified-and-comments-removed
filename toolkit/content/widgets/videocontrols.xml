@@ -5023,6 +5023,12 @@ this
 controlBar
 )
 ;
+this
+.
+setFullscreenButtonState
+(
+)
+;
 }
 this
 .
