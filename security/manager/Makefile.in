@@ -1107,6 +1107,21 @@ MOZ_MEMORY
 export
 DLLFLAGS
 endif
+ifdef
+.
+PYMAKE
+NSSMAKE
+=
+(
+GMAKE
+)
+else
+NSSMAKE
+=
+(
+MAKE
+)
+endif
 #
 NSS
 makefiles
@@ -1123,7 +1138,7 @@ MAKE
 =
 "
 (
-MAKE
+NSSMAKE
 )
 -
 j1
@@ -1745,7 +1760,7 @@ checkout
 ifndef
 MOZ_NATIVE_NSS
 (
-MAKE
+NSSMAKE
 )
 -
 C
@@ -1761,7 +1776,7 @@ DEFAULT_GMAKE_FLAGS
 )
 clean
 (
-MAKE
+NSSMAKE
 )
 -
 C
@@ -1781,7 +1796,7 @@ clean
 ifndef
 SKIP_CHK
 (
-MAKE
+NSSMAKE
 )
 -
 C
@@ -1801,7 +1816,7 @@ DEFAULT_GMAKE_FLAGS
 )
 clean
 (
-MAKE
+NSSMAKE
 )
 -
 C
@@ -1882,7 +1897,7 @@ libs
 ifndef
 MOZ_NATIVE_NSS
 (
-MAKE
+NSSMAKE
 )
 -
 C
@@ -1899,7 +1914,7 @@ DEFAULT_GMAKE_FLAGS
 ifndef
 NSS_DISABLE_DBM
 (
-MAKE
+NSSMAKE
 )
 -
 C
@@ -1915,7 +1930,7 @@ DEFAULT_GMAKE_FLAGS
 )
 endif
 (
-MAKE
+NSSMAKE
 )
 -
 C
@@ -1942,7 +1957,7 @@ mochitest
 certificates
 generation
 (
-MAKE
+NSSMAKE
 )
 -
 C
@@ -1961,7 +1976,7 @@ lib
 DEFAULT_GMAKE_FLAGS
 )
 (
-MAKE
+NSSMAKE
 )
 -
 C
@@ -1980,7 +1995,7 @@ certutil
 DEFAULT_GMAKE_FLAGS
 )
 (
-MAKE
+NSSMAKE
 )
 -
 C
@@ -2009,7 +2024,7 @@ avoid
 secondary
 compile
 (
-MAKE
+NSSMAKE
 )
 -
 C
@@ -2029,7 +2044,7 @@ DEFAULT_GMAKE_FLAGS
 )
 endif
 (
-MAKE
+NSSMAKE
 )
 -
 C
@@ -3152,7 +3167,7 @@ endif
 ifndef
 MOZ_NATIVE_NSS
 (
-MAKE
+NSSMAKE
 )
 -
 C
@@ -3168,7 +3183,7 @@ DEFAULT_GMAKE_FLAGS
 )
 clean
 (
-MAKE
+NSSMAKE
 )
 -
 C
@@ -3188,7 +3203,7 @@ clean
 ifndef
 SKIP_CHK
 (
-MAKE
+NSSMAKE
 )
 -
 C
@@ -3208,7 +3223,7 @@ DEFAULT_GMAKE_FLAGS
 )
 clean
 (
-MAKE
+NSSMAKE
 )
 -
 C
