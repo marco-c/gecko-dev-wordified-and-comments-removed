@@ -14308,12 +14308,6 @@ nsCycleCollector_suspectedCount
 )
 )
 {
-MOZ_ASSERT
-(
-!
-sCCLockedOut
-)
-;
 return
 ;
 }
@@ -14352,12 +14346,6 @@ false
 )
 ;
 }
-MOZ_ASSERT
-(
-!
-sCCLockedOut
-)
-;
 if
 (
 isLateTimerFire
