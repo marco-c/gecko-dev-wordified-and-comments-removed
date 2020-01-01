@@ -2943,13 +2943,16 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+MOZ_XUL
 NS_IMETHODIMP
 nsTransitionManager
 :
 :
 RulesMatching
 (
-PseudoRuleProcessorData
+XULTreeRuleProcessorData
 *
 aData
 )
@@ -2958,6 +2961,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 NS_IMETHODIMP
 nsTransitionManager
 :
