@@ -208,10 +208,6 @@ MarketplaceApp
 extends
 WebApp
 {
-protected
-int
-mWebAppIndex
-;
 private
 static
 final

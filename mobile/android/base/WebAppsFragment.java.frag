@@ -6,4 +6,15 @@ APPNUM
 extends
 WebApp
 {
+Override
+protected
+int
+getIndex
+(
+)
+{
+return
+APPNUM
+;
+}
 }
