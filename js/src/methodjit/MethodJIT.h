@@ -379,7 +379,7 @@ FrameRegs
 *
 oldregs
 ;
-JSRejoinState
+FrameRejoinState
 stubRejoin
 ;
 #
@@ -1069,9 +1069,9 @@ REJOIN_NATIVE_GETTER
 REJOIN_NATIVE_PATCHED
 REJOIN_PUSH_BOOLEAN
 REJOIN_PUSH_OBJECT
-REJOIN_DEFLOCALFUN
 REJOIN_THIS_PROTOTYPE
 REJOIN_CHECK_ARGUMENTS
+REJOIN_EVAL_PROLOGUE
 REJOIN_FUNCTION_PROLOGUE
 REJOIN_CALL_PROLOGUE
 REJOIN_CALL_PROLOGUE_LOWERED_CALL
@@ -1085,7 +1085,7 @@ REJOIN_BRANCH
 ;
 static
 inline
-JSRejoinState
+FrameRejoinState
 ScriptedRejoin
 (
 uint32_t
@@ -1105,7 +1105,7 @@ pcOffset
 }
 static
 inline
-JSRejoinState
+FrameRejoinState
 StubRejoin
 (
 RejoinState
