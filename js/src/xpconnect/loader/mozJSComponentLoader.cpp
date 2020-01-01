@@ -6674,7 +6674,7 @@ NS_OK
 ;
 }
 return
-rv
+NS_ERROR_FILE_NOT_FOUND
 ;
 }
 mod
