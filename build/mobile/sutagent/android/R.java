@@ -128,6 +128,14 @@ public
 static
 final
 int
+foreground_service_started
+=
+0x7f040002
+;
+public
+static
+final
+int
 hello
 =
 0x7f040000
