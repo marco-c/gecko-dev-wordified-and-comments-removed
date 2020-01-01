@@ -683,10 +683,6 @@ MOZ_COMPONENT_LIBS
 lthebes
 \
 (
-MOZ_FIX_LINK_PATHS
-)
-\
-(
 LCMS_LIBS
 )
 \

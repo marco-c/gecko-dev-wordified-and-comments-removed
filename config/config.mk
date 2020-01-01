@@ -2919,6 +2919,9 @@ LDFLAGS
 (
 OS_LDFLAGS
 )
+(
+MOZ_FIX_LINK_PATHS
+)
 #
 Allow
 each

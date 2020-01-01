@@ -390,10 +390,6 @@ EXTRA_DSO_LDOPTS
 =
 \
 (
-MOZ_FIX_LINK_PATHS
-)
-\
-(
 LIBS_DIR
 )
 \

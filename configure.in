@@ -8181,9 +8181,6 @@ LIBXUL_DIST
 )
 /
 bin
-(
-MOZ_FIX_LINK_PATHS
-)
 -
 lxpcom
 '
