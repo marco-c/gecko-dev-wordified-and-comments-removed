@@ -21584,6 +21584,15 @@ MOZ_BUILD_ROOT
 pwd
 -
 W
+L10NBASEDIR
+=
+cd
+L10NBASEDIR
+&
+&
+pwd
+-
+W
 ;
 ;
 esac
