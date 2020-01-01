@@ -1029,6 +1029,12 @@ BookmarkKeyClass
 >
 mRecentBookmarksCache
 ;
+nsTHashtable
+<
+nsTrimInt64HashKey
+>
+mUncachableBookmarks
+;
 }
 ;
 #
