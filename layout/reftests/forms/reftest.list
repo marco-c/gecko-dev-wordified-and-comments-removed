@@ -1106,6 +1106,16 @@ letter
 noref
 .
 html
+=
+=
+legend
+.
+html
+legend
+-
+ref
+.
+html
 #
 placeholder
 include
