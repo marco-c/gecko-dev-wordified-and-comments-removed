@@ -2276,6 +2276,11 @@ showcommentcolumn
 "
 true
 "
+showimagecolumn
+=
+"
+true
+"
 enablehistory
 =
 "
