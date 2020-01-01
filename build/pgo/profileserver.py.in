@@ -562,6 +562,15 @@ start
 )
 automation
 .
+setServerInfo
+(
+"
+localhost
+"
+PORT
+)
+automation
+.
 initializeProfile
 (
 PROFILE_DIRECTORY

@@ -2955,6 +2955,9 @@ PROFILE_DIRECTORY
 options
 .
 extraPrefs
+useServerLocations
+=
+True
 )
 manifest
 =
@@ -4644,6 +4647,11 @@ main
 automation
 =
 Automation
+(
+)
+automation
+.
+setServerInfo
 (
 )
 mochitest
