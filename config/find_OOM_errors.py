@@ -1710,6 +1710,20 @@ max
 f
 )
     
+else
+:
+      
+sys
+.
+stdout
+.
+write
+(
+'
+.
+'
+)
+    
 command
 =
 (
@@ -2389,6 +2403,11 @@ None
 count_lines
 (
 )
+print
+'
+\
+n
+'
 if
 OPTIONS
 .

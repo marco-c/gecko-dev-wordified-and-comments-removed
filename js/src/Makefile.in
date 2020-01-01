@@ -3309,8 +3309,13 @@ py
 -
 regression
 125
-ifdef
-DEBUG
+ifeq
+(
+(
+MOZ_DEBUG
+)
+1
+)
 check
 :
 :
