@@ -1369,6 +1369,15 @@ nsIWidget
 aNewParent
 )
 ;
+#
+ifdef
+ACCESSIBILITY
+static
+bool
+sAccessibilityEnabled
+;
+#
+endif
 protected
 :
 void
