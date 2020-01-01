@@ -692,16 +692,6 @@ this
 .
 nss_t
 .
-SECOidTag
-=
-ctypes
-.
-int
-;
-this
-.
-nss_t
-.
 SECItem
 =
 ctypes
