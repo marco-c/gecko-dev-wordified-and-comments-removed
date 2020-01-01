@@ -339,6 +339,8 @@ cd
 .
 /
 tps
+/
+extensions
 "
 EXTDIR
 =

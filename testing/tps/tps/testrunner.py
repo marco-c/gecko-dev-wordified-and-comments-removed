@@ -955,6 +955,22 @@ extension
 "
 "
     
+tpsdir
+=
+os
+.
+path
+.
+join
+(
+self
+.
+extensionDir
+"
+tps
+"
+)
+    
 if
 self
 .
@@ -971,9 +987,7 @@ path
 .
 join
 (
-self
-.
-extensionDir
+tpsdir
 "
 tps
 .
@@ -1012,9 +1026,7 @@ path
 .
 join
 (
-self
-.
-extensionDir
+tpsdir
 "
 install
 .
@@ -1040,9 +1052,7 @@ in
 s
 "
 %
-self
-.
-extensionDir
+tpsdir
 )
       
 from
@@ -1070,9 +1080,7 @@ chrome
 .
 manifest
 '
-self
-.
-extensionDir
+tpsdir
 )
       
 self
@@ -1085,9 +1093,7 @@ install
 .
 rdf
 '
-self
-.
-extensionDir
+tpsdir
 )
       
 self
@@ -1098,9 +1104,7 @@ z
 '
 components
 '
-self
-.
-extensionDir
+tpsdir
 )
       
 self
@@ -1111,9 +1115,7 @@ z
 '
 modules
 '
-self
-.
-extensionDir
+tpsdir
 )
       
 z
@@ -2668,6 +2670,27 @@ self
 .
 make_xpi
 (
+)
+)
+    
+self
+.
+extensions
+.
+append
+(
+os
+.
+path
+.
+join
+(
+self
+.
+extensionDir
+"
+mozmill
+"
 )
 )
     

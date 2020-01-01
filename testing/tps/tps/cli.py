@@ -504,7 +504,21 @@ json
 '
 )
     
-else
+if
+configfile
+is
+None
+or
+not
+os
+.
+access
+(
+configfile
+os
+.
+F_OK
+)
 :
       
 raise
