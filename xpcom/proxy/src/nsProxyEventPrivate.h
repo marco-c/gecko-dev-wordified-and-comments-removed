@@ -852,7 +852,7 @@ nsProxyObjectManager
 static
 nsProxyObjectManager
 *
-mInstance
+gInstance
 ;
 nsHashtable
 mProxyObjectMap
