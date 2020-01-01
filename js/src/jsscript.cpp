@@ -7653,7 +7653,7 @@ cx
 runtime
 -
 >
-gcRunning
+gcRegenShapes
 )
 {
 JSStackFrame
@@ -7711,6 +7711,17 @@ script
 #
 ifdef
 JS_TRACER
+if
+(
+!
+cx
+-
+>
+runtime
+-
+>
+gcRunning
+)
 js_PurgeScriptFragments
 (
 cx
