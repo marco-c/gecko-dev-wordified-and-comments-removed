@@ -2920,9 +2920,6 @@ JSProperty
 propp
 )
 ;
-#
-ifdef
-__cplusplus
 const
 uintN
 JSDNP_CACHE_RESULT
@@ -2969,8 +2966,6 @@ defineHow
 0
 )
 ;
-#
-endif
 extern
 JS_FRIEND_API
 (
