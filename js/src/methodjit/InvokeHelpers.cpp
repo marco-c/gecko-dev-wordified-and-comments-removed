@@ -7450,6 +7450,17 @@ nextDepth
 ;
 if
 (
+f
+.
+regs
+.
+pc
+=
+=
+nextpc
+&
+&
+(
 js_CodeSpec
 [
 op
@@ -7458,6 +7469,7 @@ op
 format
 &
 JOF_TYPESET
+)
 )
 {
 int
