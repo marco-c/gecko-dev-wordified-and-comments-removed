@@ -1405,6 +1405,8 @@ window
 )
 ;
 \
+}
+\
 aWindowTotalSizes
 -
 >
@@ -1419,8 +1421,6 @@ classname
 =
 frameSize
 ;
-\
-}
 \
 }
 #
