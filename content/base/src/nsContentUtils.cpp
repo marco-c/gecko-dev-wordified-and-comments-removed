@@ -3014,17 +3014,6 @@ NS_SIMPLE_GESTURE_PRESSTAP
 EventNameType_None
 }
 }
-{
-&
-nsGkAtoms
-:
-:
-ontransitionend
-{
-NS_TRANSITION_END
-EventNameType_None
-}
-}
 }
 ;
 sEventTable

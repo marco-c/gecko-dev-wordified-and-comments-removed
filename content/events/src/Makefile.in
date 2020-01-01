@@ -560,10 +560,6 @@ nsDOMScrollAreaEvent
 .
 cpp
 \
-nsDOMTransitionEvent
-.
-cpp
-\
 (
 NULL
 )

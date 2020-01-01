@@ -558,10 +558,6 @@ nsIDOMScrollAreaEvent
 .
 idl
 \
-nsIDOMTransitionEvent
-.
-idl
-\
 (
 NULL
 )
