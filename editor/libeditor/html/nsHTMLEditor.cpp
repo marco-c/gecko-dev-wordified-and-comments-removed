@@ -24295,6 +24295,12 @@ GetPrimaryFrame
 (
 )
 ;
+NS_ENSURE_TRUE
+(
+frame
+NS_OK
+)
+;
 nsIFrame
 *
 container
@@ -24309,7 +24315,7 @@ frame
 ;
 NS_ENSURE_TRUE
 (
-frame
+container
 NS_OK
 )
 ;
