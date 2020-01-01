@@ -229,14 +229,14 @@ const
 uint32_t
 NJ_MAX_STACK_ENTRY
 =
-256
+4096
 ;
 #
 else
 #
 define
 NJ_MAX_STACK_ENTRY
-256
+4096
 #
 endif
 static
