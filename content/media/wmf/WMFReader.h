@@ -29,6 +29,9 @@ class
 WMFByteStream
 ;
 class
+WMFSourceReaderCallback
+;
+class
 WMFReader
 :
 public
@@ -168,6 +171,12 @@ RefPtr
 WMFByteStream
 >
 mByteStream
+;
+RefPtr
+<
+WMFSourceReaderCallback
+>
+mSourceReaderCallback
 ;
 nsIntRect
 mPictureRegion

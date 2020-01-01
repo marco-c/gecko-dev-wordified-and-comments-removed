@@ -76,6 +76,9 @@ class
 ReadRequest
 ;
 class
+WMFSourceReaderCallback
+;
+class
 WMFByteStream
 MOZ_FINAL
 :
@@ -91,6 +94,9 @@ WMFByteStream
 MediaResource
 *
 aResource
+WMFSourceReaderCallback
+*
+aCallback
 )
 ;
 ~
@@ -605,6 +611,12 @@ nsCOMPtr
 nsIThreadPool
 >
 mThreadPool
+;
+RefPtr
+<
+WMFSourceReaderCallback
+>
+mSourceReaderCallback
 ;
 ReentrantMonitor
 mResourceMonitor

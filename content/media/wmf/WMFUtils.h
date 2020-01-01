@@ -133,4 +133,16 @@ hNanoSecs
 10
 ;
 }
+HRESULT
+DoGetInterface
+(
+IUnknown
+*
+aUnknown
+void
+*
+*
+aInterface
+)
+;
 }
