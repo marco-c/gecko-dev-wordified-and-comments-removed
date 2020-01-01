@@ -708,7 +708,7 @@ offset
 )
 \
 return
-false
+PR_FALSE
 ;
 \
 if
@@ -717,7 +717,7 @@ already
 )
 \
 return
-true
+PR_TRUE
 ;
 \
 #
@@ -778,7 +778,7 @@ free_it
 ;
 \
 return
-false
+PR_FALSE
 ;
 #
 ifdef
