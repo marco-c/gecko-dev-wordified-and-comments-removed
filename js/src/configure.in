@@ -39484,6 +39484,14 @@ callgrind
 Enable
 callgrind
 profiling
+.
+Implies
+-
+-
+enable
+-
+profiling
+.
 ]
 MOZ_CALLGRIND
 =
@@ -39500,6 +39508,9 @@ MOZ_CALLGRIND
 "
 ;
 then
+MOZ_PROFILING
+=
+1
 AC_DEFINE
 (
 MOZ_CALLGRIND

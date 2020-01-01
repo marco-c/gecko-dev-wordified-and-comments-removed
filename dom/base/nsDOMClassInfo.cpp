@@ -360,6 +360,13 @@ h
 #
 include
 "
+nsLocation
+.
+h
+"
+#
+include
+"
 nsIDocShell
 .
 h
@@ -880,13 +887,6 @@ h
 include
 "
 nsIDOMCSSStyleDeclaration
-.
-h
-"
-#
-include
-"
-nsStyleSet
 .
 h
 "
