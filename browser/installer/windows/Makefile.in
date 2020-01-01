@@ -1426,6 +1426,13 @@ i
 ;
 \
 done
+ifeq
+(
+(
+CONFIG_DIR
+)
+instgen
+)
 (
 PERL
 )
@@ -1465,6 +1472,7 @@ removed
 files
 .
 log
+endif
 (
 PERL
 )
