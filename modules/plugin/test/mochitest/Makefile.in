@@ -534,6 +534,14 @@ test_cookies
 .
 html
 \
+test_npn_timers
+.
+html
+\
+test_npn_asynccall
+.
+html
+\
 (
 NULL
 )
@@ -602,10 +610,6 @@ test_privatemode
 xul
 \
 test_wmode
-.
-xul
-\
-test_npapi_timers
 .
 xul
 \
