@@ -665,6 +665,15 @@ INTEGER
 "
 \
 "
+typed
+INTEGER
+NOT
+NULL
+DEFAULT
+0
+"
+\
+"
 )
 "
 \
