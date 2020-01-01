@@ -905,11 +905,9 @@ virtual
 void
 OnFinalize
 (
-PRUint32
-aLangID
-void
+JSObject
 *
-aScriptGlobal
+aObject
 )
 ;
 virtual
