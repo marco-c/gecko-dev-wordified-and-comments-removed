@@ -312,8 +312,8 @@ getAddonByID
 (
 "
 workerbootstrap
-tests
-.
+-
+test
 mozilla
 .
 org
