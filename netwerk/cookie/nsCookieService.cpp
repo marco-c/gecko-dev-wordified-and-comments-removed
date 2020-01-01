@@ -5422,6 +5422,14 @@ DBState
 REBUILDING
 :
 {
+if
+(
+mDefaultDBState
+-
+>
+dbConn
+)
+{
 mDefaultDBState
 -
 >
@@ -5436,6 +5444,7 @@ mDefaultDBState
 closeListener
 )
 ;
+}
 CloseDefaultDBConnection
 (
 )
