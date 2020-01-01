@@ -80,9 +80,6 @@ nsIURI
 class
 gfxMixedFontFamily
 ;
-class
-nsFontFaceLoader
-;
 struct
 gfxFontFaceSrc
 {
@@ -973,10 +970,6 @@ mSrcList
 ;
 PRUint32
 mSrcIndex
-;
-nsFontFaceLoader
-*
-mLoader
 ;
 }
 ;
