@@ -231,6 +231,15 @@ PR_FALSE
 )
 ;
 static
+PRBool
+HasAccessibleChildren
+(
+nsIDOMNode
+*
+aNode
+)
+;
+static
 already_AddRefed
 <
 nsIAccessible
