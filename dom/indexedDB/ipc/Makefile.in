@@ -171,6 +171,16 @@ MOCHITEST_FILES
 test_ipc
 .
 html
+#
+Need
+to
+enable
+these
+tests
+sometime
+soon
+.
+#
 XPCSHELL_TESTS
 =
 unit
@@ -191,6 +201,7 @@ wrong
 for
 us
 .
+#
 NO_XPCSHELL_MANIFEST_CHECK
 =
 1
