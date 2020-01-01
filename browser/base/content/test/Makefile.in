@@ -982,6 +982,10 @@ browser_tabs_owner
 .
 js
 \
+browser_visibleTabs
+.
+js
+\
 discovery
 .
 html
