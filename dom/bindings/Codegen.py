@@ -4667,6 +4667,9 @@ __init__
 self
 argType
 name
+default
+=
+None
 )
 :
         
@@ -4681,9 +4684,58 @@ self
 name
 =
 name
+        
+self
+.
+default
+=
+default
     
 def
-__str__
+declare
+(
+self
+)
+:
+        
+string
+=
+self
+.
+argType
++
+'
+'
++
+self
+.
+name
+        
+if
+self
+.
+default
+is
+not
+None
+:
+            
+string
++
+=
+"
+=
+"
++
+self
+.
+default
+        
+return
+string
+    
+def
+define
 (
 self
 )
@@ -4939,6 +4991,7 @@ def
 _argstring
 (
 self
+declare
 )
 :
         
@@ -4949,9 +5002,18 @@ return
 join
 (
 [
-str
-(
 a
+.
+declare
+(
+)
+if
+declare
+else
+a
+.
+define
+(
 )
 for
 a
@@ -5111,6 +5173,7 @@ self
 .
 _define
 (
+True
 )
         
 return
@@ -5148,6 +5211,7 @@ self
 .
 _argstring
 (
+True
 )
 )
     
@@ -5155,6 +5219,9 @@ def
 _define
 (
 self
+fromDeclare
+=
+False
 )
 :
         
@@ -5163,6 +5230,7 @@ self
 .
 definition_prologue
 (
+fromDeclare
 )
 +
 "
@@ -5207,6 +5275,7 @@ def
 definition_prologue
 (
 self
+fromDeclare
 )
 :
         
@@ -5246,6 +5315,7 @@ self
 .
 _argstring
 (
+fromDeclare
 )
 )
     
@@ -39139,9 +39209,10 @@ args
 join
 (
 [
-str
-(
 a
+.
+declare
+(
 )
 for
 a
@@ -39420,9 +39491,10 @@ args
 join
 (
 [
-str
-(
 a
+.
+define
+(
 )
 for
 a
@@ -39986,9 +40058,10 @@ args
 join
 (
 [
-str
-(
 a
+.
+declare
+(
 )
 for
 a
@@ -41531,9 +41604,10 @@ templateArgs
 templateArgs
 =
 [
-str
-(
 a
+.
+declare
+(
 )
 for
 a
@@ -59072,6 +59146,25 @@ nullptr
 +
 argnames
         
+args
+.
+append
+(
+Argument
+(
+"
+ExceptionHandling
+"
+"
+aExceptionHandling
+"
+                             
+"
+eReportExceptions
+"
+)
+)
+        
 argsWithoutThis
 =
 list
@@ -59106,7 +59199,7 @@ s
 (
 mCallback
 aRv
-eReportExceptions
+aExceptionHandling
 )
 ;
 \
@@ -60921,6 +61014,22 @@ needThisHandling
             
 return
 args
++
+[
+Argument
+(
+"
+ExceptionHandling
+"
+"
+aExceptionHandling
+"
+                                    
+"
+eReportExceptions
+"
+)
+]
         
 return
 [
@@ -60978,7 +61087,7 @@ s
 (
 mCallback
 aRv
-eReportExceptions
+aExceptionHandling
 )
 ;
 \
