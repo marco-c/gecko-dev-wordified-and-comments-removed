@@ -6925,6 +6925,12 @@ list
 (
 annotations
 )
+        
+self
+.
+filename
+=
+None
     
 staticmethod
     
@@ -7326,6 +7332,12 @@ data
 ]
 )
 )
+            
+xpt
+.
+filename
+=
+filename
             
 num_interfaces
 =
@@ -8386,9 +8398,17 @@ IIDs
 (
 %
 s
+(
+%
+s
+)
 vs
 %
 s
+(
+%
+s
+)
 )
 !
 "
@@ -8402,9 +8422,15 @@ name
 i
 .
 iid
+other
+.
+filename
 j
 .
 iid
+self
+.
+filename
 )
                 
 elif
@@ -8449,9 +8475,17 @@ names
 (
 %
 s
+(
+%
+s
+)
 vs
 %
 s
+(
+%
+s
+)
 )
 !
 "
@@ -8465,9 +8499,15 @@ iid
 i
 .
 name
+other
+.
+filename
 j
 .
 name
+self
+.
+filename
 )
             
 if
