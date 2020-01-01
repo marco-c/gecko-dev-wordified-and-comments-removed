@@ -734,7 +734,7 @@ label
 &
 cmd
 .
-removeFromHistory
+removeFromList
 .
 label
 ;
@@ -745,7 +745,7 @@ accesskey
 &
 cmd
 .
-removeFromHistory
+removeFromList
 .
 accesskey
 ;
