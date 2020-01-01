@@ -305,8 +305,10 @@ gAppShell
 >
 PostEvent
 (
-new
 AndroidGeckoEvent
+:
+:
+MakeFromJavaObject
 (
 jenv
 event
