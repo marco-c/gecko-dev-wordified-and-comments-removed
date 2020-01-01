@@ -1796,6 +1796,16 @@ Manifest
 .
 java
 \
+javah
+.
+out
+\
+jni
+-
+stubs
+.
+inc
+\
 (
 NULL
 )
