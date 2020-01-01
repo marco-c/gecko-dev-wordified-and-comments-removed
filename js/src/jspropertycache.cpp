@@ -610,11 +610,6 @@ pobj
 brand
 (
 cx
-shape
--
->
-slot
-v
 )
 )
 return

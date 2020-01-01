@@ -255,13 +255,6 @@ brand
 JSContext
 *
 cx
-uint32
-slot
-js
-:
-:
-Value
-v
 )
 {
 JS_ASSERT
