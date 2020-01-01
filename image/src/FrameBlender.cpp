@@ -2699,10 +2699,10 @@ x
 aSrcRect
 .
 y
-aDstRect
+aSrcRect
 .
 width
-aDstRect
+aSrcRect
 .
 height
 )
