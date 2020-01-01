@@ -871,6 +871,12 @@ gcChunkSet
 js
 :
 :
+GCChunkSet
+gcSystemChunkSet
+;
+js
+:
+:
 RootedValueMap
 gcRootsHash
 ;

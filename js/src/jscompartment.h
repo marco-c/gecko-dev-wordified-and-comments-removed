@@ -923,6 +923,9 @@ gcLastBytes
 bool
 hold
 ;
+bool
+systemGCChunks
+;
 #
 ifdef
 JS_TRACER
