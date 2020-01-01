@@ -460,6 +460,10 @@ helper
 .
 svg
 \
+test_bounds
+.
+html
+\
 test_dataTypes
 .
 html
