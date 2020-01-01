@@ -379,7 +379,7 @@ hasSingletons
 1
 ;
 bool
-inForInit
+emittingForInit
 :
 1
 ;
