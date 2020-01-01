@@ -5,13 +5,6 @@ nsHTMLWin32ObjectAccessible
 .
 h
 "
-#
-include
-"
-nsAccessibleWrap
-.
-h
-"
 nsHTMLWin32ObjectOwnerAccessible
 :
 :

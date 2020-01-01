@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsAccEvent
-.
-h
-"
-#
-include
-"
 nsTextAttrs
 .
 h
