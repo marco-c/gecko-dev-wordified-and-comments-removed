@@ -59,7 +59,7 @@ WrapperFactory
 WAIVE_XRAY_WRAPPER_FLAG
 )
 ;
-JSCrossCompartmentWrapper
+CrossOriginWrapper
 XrayWrapperWaivedWrapper
 (
 WrapperFactory
@@ -466,10 +466,7 @@ wrapper
 &
 FilteringWrapper
 <
-XrayWrapper
-<
-CrossOriginWrapper
->
+Xray
 CrossOriginAccessiblePropertiesOnly
 >
 :
