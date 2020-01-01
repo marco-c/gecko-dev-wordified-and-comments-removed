@@ -4353,12 +4353,13 @@ _tabViewTabItem
 .
 _reconnected
 )
-tab
-.
-_tabViewTabItem
+this
 .
 _reconnect
 (
+tab
+.
+_tabViewTabItem
 )
 ;
 if
