@@ -24,6 +24,15 @@ ContentChild
 h
 "
 #
+include
+"
+mozilla
+/
+unused
+.
+h
+"
+#
 endif
 #
 include
@@ -178,6 +187,12 @@ dom
 :
 :
 ContentChild
+;
+using
+mozilla
+:
+:
+unused
 ;
 static
 PRBool
@@ -698,7 +713,7 @@ perms
 ;
 for
 (
-int
+PRUint32
 i
 =
 0
@@ -1733,6 +1748,9 @@ aExpireType
 aExpireTime
 )
 ;
+unused
+<
+<
 ParentProcess
 (
 )
