@@ -2154,6 +2154,15 @@ ElfSection
 >
 sections
 ;
+unsigned
+int
+vaddr
+;
+unsigned
+int
+filesz
+memsz
+;
 }
 ;
 class
