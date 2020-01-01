@@ -2761,11 +2761,12 @@ strict
 )
 &
 &
-js_SetProperty
+js_SetPropertyHelper
 (
 cx
 argsobj
 id
+0
 vp
 strict
 )

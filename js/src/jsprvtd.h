@@ -444,6 +444,9 @@ UpvarCookie
 >
 UpvarCookies
 ;
+class
+WatchpointMap
+;
 }
 }
 #

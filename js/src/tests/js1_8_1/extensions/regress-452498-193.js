@@ -54,6 +54,12 @@ summary
 ;
 this
 .
+x
+=
+undefined
+;
+this
+.
 watch
 (
 "

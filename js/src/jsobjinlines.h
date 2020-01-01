@@ -775,16 +775,6 @@ shape
 hasDefaultSetter
 (
 )
-|
-|
-shape
-.
-setterOp
-(
-)
-=
-=
-js_watch_set
 )
 ;
 JS_ASSERT

@@ -966,6 +966,10 @@ jsutil
 .
 cpp
 \
+jswatchpoint
+.
+cpp
+\
 jsweakmap
 .
 cpp

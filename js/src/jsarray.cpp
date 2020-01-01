@@ -3451,11 +3451,12 @@ isDenseArray
 )
 )
 return
-js_SetProperty
+js_SetPropertyHelper
 (
 cx
 obj
 id
+0
 vp
 strict
 )
@@ -3594,11 +3595,12 @@ return
 false
 ;
 return
-js_SetProperty
+js_SetPropertyHelper
 (
 cx
 obj
 id
+0
 vp
 strict
 )

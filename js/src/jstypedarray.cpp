@@ -1375,11 +1375,12 @@ return
 false
 ;
 return
-js_SetProperty
+js_SetPropertyHelper
 (
 cx
 delegate
 id
+0
 vp
 strict
 )
