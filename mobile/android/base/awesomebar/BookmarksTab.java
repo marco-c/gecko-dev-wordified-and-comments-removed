@@ -444,17 +444,6 @@ id
 }
 )
 ;
-list
-.
-setOnKeyListener
-(
-GamepadUtils
-.
-getListItemClickDispatcher
-(
-)
-)
-;
 if
 (
 mShowReadingList
