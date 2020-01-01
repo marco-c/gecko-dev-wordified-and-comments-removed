@@ -8217,10 +8217,6 @@ mRefCnt
 get
 (
 )
-sizeof
-(
-FragmentOrElement
-)
 name
 )
 ;

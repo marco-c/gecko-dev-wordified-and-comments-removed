@@ -229,10 +229,6 @@ mRefCnt
 get
 (
 )
-sizeof
-(
-nsDOMEventTargetHelper
-)
 name
 )
 ;

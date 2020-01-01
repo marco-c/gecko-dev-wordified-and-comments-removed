@@ -126,8 +126,6 @@ DescribeRefCountedNode
 (
 nsrefcnt
 refcount
-size_t
-objsz
 const
 char
 *
@@ -144,8 +142,6 @@ DescribeGCedNode
 (
 bool
 ismarked
-size_t
-objsz
 const
 char
 *
@@ -1810,10 +1806,6 @@ cb
 DescribeRefCountedNode
 (
 _refcnt
-sizeof
-(
-_class
-)
 #
 _class
 )

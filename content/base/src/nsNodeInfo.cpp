@@ -807,10 +807,6 @@ mRefCnt
 get
 (
 )
-sizeof
-(
-nsNodeInfo
-)
 name
 )
 ;

@@ -352,10 +352,6 @@ mRefCnt
 get
 (
 )
-sizeof
-(
-XPCWrappedNative
-)
 name
 )
 ;

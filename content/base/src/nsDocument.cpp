@@ -7838,10 +7838,6 @@ mRefCnt
 get
 (
 )
-sizeof
-(
-nsDocument
-)
 name
 )
 ;
