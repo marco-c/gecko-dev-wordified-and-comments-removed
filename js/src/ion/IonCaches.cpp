@@ -5914,8 +5914,8 @@ IsCacheableNonGlobalScope
 (
 obj2
 )
-|
-|
+&
+&
 !
 obj2
 -
