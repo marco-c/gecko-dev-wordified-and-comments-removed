@@ -1712,3 +1712,10 @@ p3
 endian
 .
 patch
+patch
+-
+p3
+<
+bounded_seek
+.
+patch
