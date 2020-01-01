@@ -10757,8 +10757,6 @@ type_
 ctorargs_
 data_
 parentdata_
-rdtype_
-rdata_
 )
 \
 NS_ASSERTION
@@ -11134,8 +11132,6 @@ type_
 ctorargs_
 data_
 parentdata_
-rdtype_
-rdata_
 )
 \
 NS_ASSERTION
@@ -15103,8 +15099,6 @@ mPresContext
 )
 font
 parentFont
-Font
-fontData
 )
 nscoord
 minimumFontSize
@@ -15962,8 +15956,6 @@ Text
 )
 text
 parentText
-Text
-textData
 )
 SetDiscrete
 (
@@ -16768,8 +16760,6 @@ TextReset
 )
 text
 parentText
-Text
-textData
 )
 const
 nsCSSValue
@@ -17042,8 +17032,6 @@ UserInterface
 )
 ui
 parentUI
-UserInterface
-uiData
 )
 const
 nsCSSValue
@@ -17603,8 +17591,6 @@ UIReset
 )
 ui
 parentUI
-UserInterface
-uiData
 )
 SetDiscrete
 (
@@ -17826,8 +17812,6 @@ Display
 )
 display
 parentDisplay
-Display
-displayData
 )
 TransitionPropData
 transitionPropData
@@ -20719,8 +20703,6 @@ mPresContext
 )
 visibility
 parentVisibility
-Display
-displayData
 )
 SetDiscrete
 (
@@ -20935,8 +20917,6 @@ mPresContext
 )
 color
 parentColor
-Color
-colorData
 )
 const
 nsCSSValue
@@ -23261,8 +23241,6 @@ Background
 )
 bg
 parentBG
-Color
-colorData
 )
 const
 nsCSSValue
@@ -23948,8 +23926,6 @@ Margin
 )
 margin
 parentMargin
-Margin
-marginData
 )
 nsStyleCoord
 coord
@@ -24187,8 +24163,6 @@ mPresContext
 )
 border
 parentBorder
-Margin
-marginData
 )
 const
 nsCSSValue
@@ -26278,8 +26252,6 @@ Padding
 )
 padding
 parentPadding
-Margin
-marginData
 )
 nsStyleCoord
 coord
@@ -26517,8 +26489,6 @@ mPresContext
 )
 outline
 parentOutline
-Margin
-marginData
 )
 const
 nsCSSValue
@@ -27118,8 +27088,6 @@ List
 )
 list
 parentList
-List
-listData
 )
 SetDiscrete
 (
@@ -27637,8 +27605,6 @@ Position
 )
 pos
 parentPos
-Position
-posData
 )
 static
 const
@@ -28011,8 +27977,6 @@ Table
 )
 table
 parentTable
-Table
-tableData
 )
 SetDiscrete
 (
@@ -28177,8 +28141,6 @@ mPresContext
 )
 table
 parentTable
-Table
-tableData
 )
 SetDiscrete
 (
@@ -28437,8 +28399,6 @@ Content
 )
 content
 parentContent
-Content
-contentData
 )
 const
 nsCSSValue
@@ -29685,8 +29645,6 @@ Quotes
 )
 quotes
 parentQuotes
-Content
-contentData
 )
 const
 nsCSSValue
@@ -29950,8 +29908,6 @@ XUL
 )
 xul
 parentXUL
-XUL
-xulData
 )
 SetDiscrete
 (
@@ -30241,8 +30197,6 @@ mPresContext
 )
 column
 parent
-Column
-columnData
 )
 SetCoord
 (
@@ -31267,8 +31221,6 @@ SVG
 )
 svg
 parentSVG
-SVG
-SVGData
 )
 SetDiscrete
 (
@@ -32389,8 +32341,6 @@ SVGReset
 )
 svgReset
 parentSVGReset
-SVG
-SVGData
 )
 const
 nsCSSValue
