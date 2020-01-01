@@ -1374,12 +1374,6 @@ numFilters
 =
 0
 ;
-PKIX_Int32
-cmpResult
-=
--
-1
-;
 char
 *
 endPos
@@ -1613,10 +1607,8 @@ startPos
 '
 %
 '
-)
-{
-cmpResult
-=
+&
+&
 strncmp
 (
 *
@@ -1627,10 +1619,6 @@ startPos
 "
 3
 )
-;
-if
-(
-cmpResult
 =
 =
 0
@@ -1653,7 +1641,6 @@ len
 =
 3
 ;
-}
 }
 else
 {
