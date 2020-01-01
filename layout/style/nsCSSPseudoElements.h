@@ -65,15 +65,7 @@ nsIAtom
 *
 aAtom
 )
-{
-return
-PseudoElementHasFlags
-(
-aAtom
-CSS_PSEUDO_ELEMENT_IS_CSS2
-)
 ;
-}
 static
 PRBool
 PseudoElementContainsElements
