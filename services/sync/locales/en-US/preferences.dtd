@@ -31,6 +31,16 @@ Data
 <
 !
 ENTITY
+clientsTab
+.
+label
+"
+Clients
+"
+>
+<
+!
+ENTITY
 addonsTab
 .
 label
