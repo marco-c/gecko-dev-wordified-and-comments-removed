@@ -5130,6 +5130,9 @@ request
 )
 )
 ;
+#
+if
+0
 if
 (
 NS_IsMainThread
@@ -5197,6 +5200,8 @@ request
 ;
 }
 else
+#
+endif
 {
 rv
 =
