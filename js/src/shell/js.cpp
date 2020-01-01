@@ -249,13 +249,6 @@ h
 #
 include
 "
-prenv
-.
-h
-"
-#
-include
-"
 prmjtime
 .
 h
@@ -3615,6 +3608,9 @@ break
 ;
 #
 endif
+#
+ifdef
+JS_THREADSAFE
 case
 '
 g
@@ -3650,6 +3646,8 @@ i
 ;
 break
 ;
+#
+endif
 default
 :
 return
@@ -27298,7 +27296,7 @@ char
 *
 outPath
 =
-PR_GetEnv
+getenv
 (
 envVar
 )
