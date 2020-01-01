@@ -750,6 +750,8 @@ maxlength
 disabled
 size
 readonly
+tabindex
+accesskey
 "
 /
 >
