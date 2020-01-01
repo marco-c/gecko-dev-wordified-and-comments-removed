@@ -7146,7 +7146,6 @@ HasInstance
 (
 cx
 obj
-&
 lref
 &
 cond

@@ -2679,7 +2679,7 @@ rval
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -2692,7 +2692,7 @@ HandleObject
 obj
 const
 Value
-*
+&
 v
 JSBool
 *
@@ -2725,6 +2725,7 @@ hasInstance
 (
 cx
 obj
+&
 v
 bp
 )
@@ -17404,7 +17405,6 @@ HasInstance
 (
 cx
 obj
-&
 lref
 &
 cond

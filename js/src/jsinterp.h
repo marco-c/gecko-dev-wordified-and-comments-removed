@@ -464,7 +464,7 @@ v
 )
 ;
 extern
-JSBool
+bool
 HasInstance
 (
 JSContext
@@ -477,7 +477,7 @@ js
 :
 :
 Value
-*
+&
 v
 JSBool
 *

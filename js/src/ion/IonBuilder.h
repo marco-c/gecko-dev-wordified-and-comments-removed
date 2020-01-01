@@ -1447,6 +1447,11 @@ jsop_iterend
 (
 )
 ;
+bool
+jsop_instanceof
+(
+)
+;
 enum
 InliningStatus
 {
