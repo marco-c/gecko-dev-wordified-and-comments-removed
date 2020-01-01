@@ -703,9 +703,9 @@ packager
 mk
 ifeq
 (
-Darwin
+bundle
 (
-OS_ARCH
+MOZ_FS_LAYOUT
 )
 )
 DEFINES
