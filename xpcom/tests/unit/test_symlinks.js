@@ -921,9 +921,6 @@ isWin
 |
 |
 isOS2
-|
-|
-isMac
 )
 return
 ;
