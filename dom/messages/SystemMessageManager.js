@@ -703,6 +703,11 @@ manifest
 this
 .
 _manifest
+uri
+:
+this
+.
+_uri
 innerWindowID
 :
 this
