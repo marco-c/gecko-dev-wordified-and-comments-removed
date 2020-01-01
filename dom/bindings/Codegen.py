@@ -10775,7 +10775,7 @@ defaultValue
 "
 :
 "
-JSVAL_NULL
+JSVAL_VOID
 "
             
 "
