@@ -271,13 +271,6 @@ nsDOMError
 .
 h
 "
-#
-include
-"
-mozAutoDocUpdate
-.
-h
-"
 static
 NS_DEFINE_CID
 (

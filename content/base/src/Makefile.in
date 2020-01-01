@@ -558,10 +558,6 @@ nsTextFragment
 .
 h
 \
-mozAutoDocUpdate
-.
-h
-\
 (
 NULL
 )

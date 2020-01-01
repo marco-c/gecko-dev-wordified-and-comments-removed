@@ -474,13 +474,6 @@ nsContentCreatorFunctions
 .
 h
 "
-#
-include
-"
-mozAutoDocUpdate
-.
-h
-"
 class
 nsINodeInfo
 ;

@@ -258,13 +258,6 @@ nsNodeUtils
 h
 "
 #
-include
-"
-mozAutoDocUpdate
-.
-h
-"
-#
 define
 LEFT_VIS
 0x0001

@@ -6756,9 +6756,6 @@ CancelPostedReflowCallbacks
 (
 )
 ;
-nsAutoScriptBlocker
-scriptBlocker
-;
 mFrameConstructor
 -
 >
@@ -18918,9 +18915,6 @@ Flush_Layout
 mIsDestroying
 )
 {
-nsAutoScriptBlocker
-scriptBlocker
-;
 mFrameConstructor
 -
 >

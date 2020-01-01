@@ -671,13 +671,6 @@ nsRange
 h
 "
 #
-include
-"
-mozAutoDocUpdate
-.
-h
-"
-#
 define
 NS_MAX_DOCUMENT_WRITE_DEPTH
 20

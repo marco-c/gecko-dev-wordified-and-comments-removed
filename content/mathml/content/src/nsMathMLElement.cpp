@@ -96,13 +96,6 @@ nsDOMClassInfoID
 .
 h
 "
-#
-include
-"
-mozAutoDocUpdate
-.
-h
-"
 NS_IMETHODIMP
 nsMathMLElement
 :

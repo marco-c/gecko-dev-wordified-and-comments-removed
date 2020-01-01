@@ -91,11 +91,6 @@ PostDOMEvent
 (
 )
 ;
-nsresult
-RunDOMEventWhenSafe
-(
-)
-;
 nsCOMPtr
 <
 nsIDOMNode

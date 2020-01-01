@@ -223,13 +223,6 @@ nsContentErrors
 h
 "
 #
-include
-"
-mozAutoDocUpdate
-.
-h
-"
-#
 define
 NS_IF_CLONE
 (
