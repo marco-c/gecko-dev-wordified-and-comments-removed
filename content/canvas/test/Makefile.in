@@ -428,6 +428,7 @@ DIRS
 +
 =
 webgl
+crossorigin
 include
 (
 DEPTH
