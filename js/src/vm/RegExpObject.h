@@ -294,7 +294,8 @@ YarrJITCompileMode
 ;
 #
 endif
-HeapPtrAtom
+JSAtom
+*
 source
 ;
 RegExpFlag

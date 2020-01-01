@@ -2201,7 +2201,7 @@ JSTracer
 trc
 )
 {
-MarkString
+MarkStringUnbarriered
 (
 trc
 &
