@@ -484,9 +484,14 @@ test_clipboard_events
 .
 html
 \
+(
+warning
 test_nodesFromRect
 .
 html
+temporarily
+disabled
+)
 \
 (
 NULL
