@@ -23305,6 +23305,12 @@ frame
 nsIFrame
 *
 targetFrame
+;
+{
+nsAutoDisableGetUsedXAssertions
+disableAssert
+;
+targetFrame
 =
 nsLayoutUtils
 :
@@ -23315,6 +23321,7 @@ frame
 eventPoint
 )
 ;
+}
 if
 (
 targetFrame
