@@ -25,10 +25,12 @@ aShell
 )
 {
 }
-NS_IMPL_ISUPPORTS_INHERITED0
+NS_IMPL_ISUPPORTS_INHERITED2
 (
 nsTextAccessible
-nsLinkableAccessible
+nsAccessNode
+nsIAccessible
+nsPIAccessible
 )
 NS_IMETHODIMP
 nsTextAccessible
