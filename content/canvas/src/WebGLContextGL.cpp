@@ -11252,7 +11252,7 @@ return
 JS
 :
 :
-DoubleValue
+NumberValue
 (
 uint32_t
 (
@@ -11746,7 +11746,7 @@ return
 JS
 :
 :
-DoubleValue
+NumberValue
 (
 uint32_t
 (
@@ -12644,7 +12644,7 @@ return
 JS
 :
 :
-DoubleValue
+NumberValue
 (
 uint32_t
 (
@@ -12912,7 +12912,7 @@ return
 JS
 :
 :
-DoubleValue
+NumberValue
 (
 uint32_t
 (
@@ -13023,7 +13023,7 @@ return
 JS
 :
 :
-DoubleValue
+NumberValue
 (
 uint32_t
 (
@@ -13155,7 +13155,7 @@ return
 JS
 :
 :
-DoubleValue
+NumberValue
 (
 uint32_t
 (
@@ -13379,7 +13379,7 @@ return
 JS
 :
 :
-DoubleValue
+NumberValue
 (
 uint32_t
 (
@@ -14797,7 +14797,7 @@ return
 JS
 :
 :
-DoubleValue
+NumberValue
 (
 uint32_t
 (
@@ -16249,7 +16249,7 @@ return
 JS
 :
 :
-DoubleValue
+NumberValue
 (
 uint32_t
 (
@@ -16419,7 +16419,7 @@ return
 JS
 :
 :
-DoubleValue
+NumberValue
 (
 uint32_t
 (
@@ -25160,7 +25160,7 @@ return
 JS
 :
 :
-DoubleValue
+NumberValue
 (
 uint32_t
 (
