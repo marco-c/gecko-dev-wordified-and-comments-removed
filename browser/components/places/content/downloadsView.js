@@ -756,8 +756,6 @@ this
 _getAnnotation
 (
 DESTINATION_FILE_NAME_ANNO
-"
-"
 )
 ;
 }
