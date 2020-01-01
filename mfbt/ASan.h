@@ -7,6 +7,13 @@ mozilla_ASan_h_
 #
 ifdef
 MOZ_ASAN
+#
+include
+<
+stddef
+.
+h
+>
 extern
 "
 C
