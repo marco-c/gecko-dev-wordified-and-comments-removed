@@ -20134,9 +20134,6 @@ inFullscreen
 true
 )
 ;
-#
-ifndef
-XP_MACOSX
 var
 controls
 =
@@ -20178,8 +20175,6 @@ hidden
 =
 aShow
 ;
-#
-endif
 }
 }
 ;

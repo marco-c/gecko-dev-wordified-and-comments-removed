@@ -3604,9 +3604,6 @@ PageSource
 "
 /
 >
-#
-ifndef
-XP_MACOSX
 <
 menuitem
 id
@@ -3651,8 +3648,6 @@ FullScreen
 "
 /
 >
-#
-endif
 <
 menuitem
 id
