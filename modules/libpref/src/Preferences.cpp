@@ -1811,6 +1811,8 @@ reader
 >
 FindEntries
 (
+nsDependentCString
+(
 "
 defaults
 /
@@ -1829,6 +1831,7 @@ S
 s
 )
 "
+)
 getter_AddRefs
 (
 files
@@ -1903,10 +1906,6 @@ reader
 GetInputStream
 (
 entry
-.
-get
-(
-)
 getter_AddRefs
 (
 stream

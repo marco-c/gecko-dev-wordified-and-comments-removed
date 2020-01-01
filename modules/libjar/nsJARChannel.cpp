@@ -394,10 +394,6 @@ GetInputStreamWithSpec
 (
 mJarDirSpec
 mJarEntry
-.
-get
-(
-)
 getter_AddRefs
 (
 mJarStream
@@ -415,10 +411,6 @@ mJarReader
 GetInputStream
 (
 mJarEntry
-.
-get
-(
-)
 getter_AddRefs
 (
 mJarStream
@@ -960,10 +952,6 @@ GetInnerZip
 (
 mJarFile
 mInnerJarEntry
-.
-get
-(
-)
 getter_AddRefs
 (
 reader
@@ -1058,10 +1046,6 @@ OpenInner
 (
 outerReader
 mInnerJarEntry
-.
-get
-(
-)
 )
 ;
 }
@@ -1845,10 +1829,6 @@ jarReader
 GetCertificatePrincipal
 (
 mJarEntry
-.
-get
-(
-)
 getter_AddRefs
 (
 cert

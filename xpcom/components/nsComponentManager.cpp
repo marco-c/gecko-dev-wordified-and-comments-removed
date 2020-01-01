@@ -2652,7 +2652,10 @@ aReader
 >
 GetInputStream
 (
+nsDependentCString
+(
 aName
+)
 getter_AddRefs
 (
 is

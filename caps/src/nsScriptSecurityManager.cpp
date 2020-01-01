@@ -11710,7 +11710,9 @@ systemCertZip
 >
 GetCertificatePrincipal
 (
-nsnull
+EmptyCString
+(
+)
 getter_AddRefs
 (
 mSystemCertificate
