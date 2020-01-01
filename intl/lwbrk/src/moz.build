@@ -122,9 +122,14 @@ if
 CONFIG
 [
 '
-MOZ_WIDGET_GTK
+MOZ_WIDGET_TOOLKIT
 '
 ]
+=
+=
+'
+gtk2
+'
 :
 CPP_SOURCES
 +

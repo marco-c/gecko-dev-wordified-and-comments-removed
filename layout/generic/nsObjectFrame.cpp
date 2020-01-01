@@ -671,11 +671,8 @@ h
 #
 endif
 #
-if
-defined
-(
-MOZ_WIDGET_GTK
-)
+ifdef
+MOZ_WIDGET_GTK2
 #
 include
 <
@@ -2373,7 +2370,7 @@ mComputedMaxHeight
 if
 defined
 (
-MOZ_WIDGET_GTK
+MOZ_WIDGET_GTK2
 )
 aMetrics
 .

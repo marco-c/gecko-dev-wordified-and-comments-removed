@@ -902,7 +902,7 @@ if
 CONFIG
 [
 '
-MOZ_WIDGET_GTK
+MOZ_ENABLE_GTK2
 '
 ]
 :
@@ -966,7 +966,7 @@ if
 CONFIG
 [
 '
-MOZ_WIDGET_GTK
+MOZ_ENABLE_GTK2
 '
 ]
 :
