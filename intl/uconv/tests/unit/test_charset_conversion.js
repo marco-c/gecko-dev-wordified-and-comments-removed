@@ -838,6 +838,9 @@ getOutputStream
 )
 )
 ;
+var
+av
+;
 while
 (
 (
@@ -1155,6 +1158,9 @@ not
 reached
 "
 )
+;
+return
+false
 ;
 }
 function

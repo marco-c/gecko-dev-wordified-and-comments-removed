@@ -106,6 +106,9 @@ list
 "
 )
 ;
+return
+0
+;
 }
 var
 WindowWatcher
