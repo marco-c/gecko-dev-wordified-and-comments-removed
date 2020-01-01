@@ -373,15 +373,13 @@ XMLHttpRequestEventTarget
 event
 handler
 [
-TreatNonCallableAsNull
 SetterThrows
 GetterThrows
 =
 Workers
 ]
 attribute
-Function
-?
+EventHandler
 onreadystatechange
 ;
 /

@@ -127,6 +127,10 @@ Function
 .
 webidl
 \
+EventHandler
+.
+webidl
+\
 EventListener
 .
 webidl

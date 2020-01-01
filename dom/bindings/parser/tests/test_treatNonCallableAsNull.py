@@ -16,6 +16,9 @@ parse
 "
 "
         
+[
+TreatNonCallableAsNull
+]
 callback
 Function
 =
@@ -33,9 +36,6 @@ interface
 TestTreatNonCallableAsNull1
 {
           
-[
-TreatNonCallableAsNull
-]
 attribute
 Function
 ?
@@ -44,7 +44,6 @@ onfoo
           
 attribute
 Function
-?
 onbar
 ;
         
