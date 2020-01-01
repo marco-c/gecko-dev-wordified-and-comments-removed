@@ -937,7 +937,7 @@ Normal
 QPalette
 :
 :
-Shadow
+Dark
 )
 )
 ;
