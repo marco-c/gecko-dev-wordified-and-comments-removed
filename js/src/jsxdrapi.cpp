@@ -2901,7 +2901,7 @@ break
 ;
 }
 case
-JSVAL_BOOLEAN
+JSVAL_SPECIAL
 :
 {
 uint32

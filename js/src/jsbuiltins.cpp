@@ -1320,7 +1320,7 @@ lookupProperty
 js_LookupProperty
 )
 return
-JSVAL_TO_PSEUDO_BOOLEAN
+JSVAL_TO_SPECIAL
 (
 JSVAL_VOID
 )
@@ -1353,7 +1353,7 @@ clasp
 js_StringClass
 )
 return
-JSVAL_TO_PSEUDO_BOOLEAN
+JSVAL_TO_SPECIAL
 (
 JSVAL_VOID
 )
@@ -1384,7 +1384,7 @@ prop
 0
 )
 return
-JSVAL_TO_PSEUDO_BOOLEAN
+JSVAL_TO_SPECIAL
 (
 JSVAL_VOID
 )
@@ -1646,7 +1646,7 @@ unboxed
 jsval
 boxed
 =
-PSEUDO_BOOLEAN_TO_JSVAL
+SPECIAL_TO_JSVAL
 (
 unboxed
 )
@@ -1718,7 +1718,7 @@ if
 unboxed
 =
 =
-JSVAL_TO_PSEUDO_BOOLEAN
+JSVAL_TO_SPECIAL
 (
 JSVAL_VOID
 )
