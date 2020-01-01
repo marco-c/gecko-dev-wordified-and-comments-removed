@@ -335,4 +335,3 @@ mColSpecs
 ;
 #
 endif
-nsHTMLFrameSetElement_h
