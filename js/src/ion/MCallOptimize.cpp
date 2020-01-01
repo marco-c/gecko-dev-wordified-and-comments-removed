@@ -6607,6 +6607,10 @@ getTypeObject
 ;
 if
 (
+!
+typeObject
+|
+|
 typeObject
 -
 >
