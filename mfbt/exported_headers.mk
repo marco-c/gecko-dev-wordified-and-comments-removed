@@ -109,6 +109,10 @@ BloomFilter
 .
 h
 \
+Char16
+.
+h
+\
 CheckedInt
 .
 h
