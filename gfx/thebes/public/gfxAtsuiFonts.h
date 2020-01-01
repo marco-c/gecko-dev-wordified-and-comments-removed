@@ -378,8 +378,10 @@ aFontIndex
 )
 ;
 }
+already_AddRefed
+<
 gfxAtsuiFont
-*
+>
 FindFontFor
 (
 ATSUFontID
