@@ -14,6 +14,17 @@ quartz
 .
 h
 "
+#
+include
+"
+cairo
+-
+quartz
+-
+image
+.
+h
+"
 gfxQuartzImageSurface
 :
 :

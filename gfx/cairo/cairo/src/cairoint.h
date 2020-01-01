@@ -2121,6 +2121,9 @@ owns_data
 cairo_bool_t
 has_clip
 ;
+cairo_image_transparency_t
+transparency
+;
 int
 width
 ;
@@ -5559,6 +5562,15 @@ format
 )
 ;
 cairo_private
+cairo_image_transparency_t
+_cairo_image_analyze_transparency
+(
+cairo_image_surface_t
+*
+image
+)
+;
+cairo_private
 cairo_bool_t
 _cairo_surface_is_image
 (
@@ -6724,6 +6736,11 @@ cairo_image_surface_get_height
 slim_hidden_proto
 (
 cairo_image_surface_get_width
+)
+;
+slim_hidden_proto
+(
+cairo_format_stride_for_width
 )
 ;
 slim_hidden_proto

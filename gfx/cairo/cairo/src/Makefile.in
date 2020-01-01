@@ -1137,6 +1137,13 @@ cairo
 atsui
 .
 h
+cairo
+-
+quartz
+-
+image
+.
+h
 endif
 ifeq
 (

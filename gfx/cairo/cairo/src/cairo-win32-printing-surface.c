@@ -5955,8 +5955,6 @@ dc
 FLOAT
 )
 (
-scale
-*
 style
 -
 >

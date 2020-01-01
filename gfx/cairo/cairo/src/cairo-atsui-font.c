@@ -1105,7 +1105,11 @@ style
 ;
 _cairo_scaled_font_fini
 (
+&
 font
+-
+>
+base
 )
 ;
 free
