@@ -474,6 +474,9 @@ idl
 src
 qcms
 layers
+harfbuzz
+/
+src
 thebes
 src
 /
