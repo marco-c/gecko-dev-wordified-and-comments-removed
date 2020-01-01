@@ -2782,14 +2782,10 @@ bottom
 ;
 aMetrics
 .
-mOverflowArea
+mOverflowAreas
 .
-SetRect
+Clear
 (
-0
-0
-0
-0
 )
 ;
 #

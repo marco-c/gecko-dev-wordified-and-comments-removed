@@ -1272,9 +1272,9 @@ state
 ;
 aDesiredSize
 .
-mOverflowArea
+mOverflowAreas
 =
-GetOverflowRect
+GetOverflowAreas
 (
 )
 ;

@@ -2958,9 +2958,9 @@ ascent
 ;
 aDesiredSize
 .
-mOverflowArea
+mOverflowAreas
 =
-GetOverflowRect
+GetOverflowAreas
 (
 )
 ;

@@ -32522,7 +32522,9 @@ Invalidate
 (
 aMetrics
 .
-mOverflowArea
+VisualOverflow
+(
+)
 )
 ;
 #
