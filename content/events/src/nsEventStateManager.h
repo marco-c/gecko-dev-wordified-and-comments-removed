@@ -917,13 +917,9 @@ aPresContext
 nsIFrame
 *
 aTargetFrame
-nsInputEvent
+nsMouseScrollEvent
 *
-aEvent
-PRInt32
-aNumLines
-PRBool
-aScrollHorizontal
+aMouseEvent
 ScrollQuantity
 aScrollQuantity
 )

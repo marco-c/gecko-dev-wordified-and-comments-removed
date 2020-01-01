@@ -3366,6 +3366,12 @@ kNoLines
 <
 <
 4
+kNoDefer
+=
+1
+<
+<
+5
 }
 ;
 nsMouseScrollEvent
@@ -3394,6 +3400,10 @@ delta
 (
 0
 )
+scrollOverflow
+(
+0
+)
 {
 }
 PRInt32
@@ -3401,6 +3411,9 @@ scrollFlags
 ;
 PRInt32
 delta
+;
+PRInt32
+scrollOverflow
 ;
 }
 ;
