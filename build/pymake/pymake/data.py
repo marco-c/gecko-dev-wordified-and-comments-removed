@@ -6859,6 +6859,9 @@ cb
 avoidremakeloop
 =
 False
+printerror
+=
+True
 )
 :
         
@@ -7152,6 +7155,10 @@ MakeError
 e
 :
             
+if
+printerror
+:
+                
 print
 e
             
@@ -9023,6 +9030,9 @@ cb
 self
 .
 remakecb
+printerror
+=
+False
 )
         
 else

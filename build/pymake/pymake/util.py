@@ -20,7 +20,7 @@ None
         
 self
 .
-message
+msg
 =
 message
         
@@ -77,7 +77,7 @@ s
 locstr
 self
 .
-message
+msg
 )
 def
 joiniter
@@ -220,6 +220,38 @@ environ
 SHELL
 '
 ]
+    
+elif
+'
+MOZILLABUILD
+'
+in
+os
+.
+environ
+:
+        
+shell
+=
+os
+.
+environ
+[
+'
+MOZILLABUILD
+'
+]
++
+'
+/
+msys
+/
+bin
+/
+sh
+.
+exe
+'
     
 elif
 '
