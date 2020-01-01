@@ -160,6 +160,12 @@ style
 :
 italic
 ;
+font
+-
+weight
+:
+normal
+;
 }
 [
 -
@@ -201,6 +207,12 @@ invariant
 font
 -
 style
+:
+normal
+;
+font
+-
+weight
 :
 normal
 ;
