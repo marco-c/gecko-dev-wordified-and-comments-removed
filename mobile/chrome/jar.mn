@@ -283,6 +283,7 @@ TileManager
 .
 js
 )
+*
 content
 /
 InputHandler
