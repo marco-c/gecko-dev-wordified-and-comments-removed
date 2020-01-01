@@ -16,17 +16,6 @@ MediaElementAudioSourceNodeBinding
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-HTMLMediaElement
-.
-h
-"
 namespace
 mozilla
 {
