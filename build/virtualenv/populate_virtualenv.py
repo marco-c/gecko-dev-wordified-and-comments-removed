@@ -1577,6 +1577,9 @@ as
 f
 :
                     
+try
+:
+                        
 f
 .
 write
@@ -1596,6 +1599,32 @@ relpath
 (
 path
 python_lib
+)
+)
+                    
+except
+ValueError
+:
+                        
+f
+.
+write
+(
+"
+%
+s
+\
+n
+"
+%
+os
+.
+path
+.
+join
+(
+python_lib
+path
 )
 )
                 
