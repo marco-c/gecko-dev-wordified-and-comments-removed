@@ -54,10 +54,6 @@ mCacheControlNoCache
 (
 PR_FALSE
 )
-mCacheControlPublic
-(
-PR_FALSE
-)
 mPragmaNoCache
 (
 PR_FALSE
@@ -165,15 +161,6 @@ mCacheControlNoCache
 |
 mPragmaNoCache
 )
-;
-}
-PRBool
-CacheControlPublic
-(
-)
-{
-return
-mCacheControlPublic
 ;
 }
 PRInt64
@@ -550,9 +537,6 @@ mCacheControlNoStore
 ;
 PRPackedBool
 mCacheControlNoCache
-;
-PRPackedBool
-mCacheControlPublic
 ;
 PRPackedBool
 mPragmaNoCache
