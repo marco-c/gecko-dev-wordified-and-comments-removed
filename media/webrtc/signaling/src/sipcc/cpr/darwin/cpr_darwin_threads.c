@@ -182,10 +182,6 @@ name
 ;
 threadPtr
 =
-(
-cpr_thread_t
-*
-)
 cpr_malloc
 (
 sizeof
@@ -241,9 +237,6 @@ threadPtr
 )
 ;
 return
-(
-cprThread_t
-)
 NULL
 ;
 }
@@ -289,9 +282,6 @@ threadPtr
 )
 ;
 return
-(
-cprThread_t
-)
 NULL
 ;
 }
@@ -340,9 +330,6 @@ threadPtr
 )
 ;
 return
-(
-cprThread_t
-)
 NULL
 ;
 }
@@ -367,11 +354,8 @@ threadPtr
 >
 u
 .
-handleInt
+handlePtr
 =
-(
-uint64_t
-)
 threadId
 ;
 threadPtr
@@ -384,9 +368,6 @@ threadId
 id
 ;
 return
-(
-cprThread_t
-)
 threadPtr
 ;
 }
@@ -415,9 +396,6 @@ errno
 ENOMEM
 ;
 return
-(
-cprThread_t
-)
 NULL
 ;
 }
@@ -452,7 +430,7 @@ cprThreadPtr
 >
 u
 .
-handleInt
+handlePtr
 NULL
 )
 ;
@@ -491,10 +469,6 @@ u
 handlePtr
 =
 =
-(
-void
-*
-)
 pthread_self
 (
 )
@@ -663,12 +637,6 @@ thread
 {
 return
 (
-pthread_t
-)
-(
-long
-)
-(
 (
 cpr_thread_t
 *
@@ -679,7 +647,7 @@ thread
 >
 u
 .
-handleInt
+handlePtr
 ;
 }
 return
