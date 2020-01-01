@@ -476,7 +476,7 @@ NewDOMBindingsEnabled
 (
 )
 )
-mParisBindingsEnabled
+mExperimentalBindingsEnabled
 (
 ccx
 .
@@ -485,7 +485,7 @@ GetRuntime
 )
 -
 >
-ParisBindingsEnabled
+ExperimentalBindingsEnabled
 (
 )
 )

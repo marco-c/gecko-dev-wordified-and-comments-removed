@@ -12985,6 +12985,9 @@ obj
 unsigned
 attrs
 ;
+unsigned
+shortid
+;
 JSPropertyOp
 getter
 ;
@@ -12993,9 +12996,6 @@ setter
 ;
 jsval
 value
-;
-unsigned
-shortid
 ;
 }
 ;

@@ -5303,7 +5303,7 @@ pref
 "
 dom
 .
-paris_bindings
+experimental_bindings
 "
 true
 )
