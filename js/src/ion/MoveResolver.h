@@ -7,7 +7,7 @@ jsion_move_group_resolver_h__
 #
 include
 "
-IonRegisters
+Registers
 .
 h
 "

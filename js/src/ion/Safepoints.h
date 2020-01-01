@@ -7,7 +7,7 @@ jsion_include_safepoints_h_
 #
 include
 "
-IonRegisters
+Registers
 .
 h
 "
