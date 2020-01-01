@@ -41,6 +41,10 @@ mError
 (
 PR_FALSE
 )
+mWindowId
+(
+0
+)
 {
 if
 (
