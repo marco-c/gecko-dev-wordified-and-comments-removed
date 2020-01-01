@@ -219,6 +219,8 @@ aLoadId
 nsIPrincipal
 *
 aLoadingPrincipal
+PRInt32
+aCORSMode
 )
 ;
 nsresult
@@ -318,6 +320,16 @@ nsIRequest
 aRequest
 )
 ;
+PRInt32
+GetCORSMode
+(
+)
+const
+{
+return
+mCORSMode
+;
+}
 already_AddRefed
 <
 nsIPrincipal
@@ -671,6 +683,9 @@ mNewRedirectChannel
 ;
 PRUint64
 mWindowId
+;
+PRInt32
+mCORSMode
 ;
 PRPackedBool
 mDecodeRequested

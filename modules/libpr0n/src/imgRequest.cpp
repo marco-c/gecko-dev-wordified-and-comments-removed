@@ -596,6 +596,13 @@ mWindowId
 (
 0
 )
+mCORSMode
+(
+imgIRequest
+:
+:
+CORS_NONE
+)
 mDecodeRequested
 (
 PR_FALSE
@@ -707,6 +714,8 @@ aLoadId
 nsIPrincipal
 *
 aLoadingPrincipal
+PRInt32
+aCORSMode
 )
 {
 LOG_FUNC
@@ -818,6 +827,10 @@ mChannel
 mLoadingPrincipal
 =
 aLoadingPrincipal
+;
+mCORSMode
+=
+aCORSMode
 ;
 mChannel
 -
