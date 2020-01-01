@@ -639,6 +639,7 @@ application
 "
 null
 )
+;
 }
 function
 getDistinctNotifications
