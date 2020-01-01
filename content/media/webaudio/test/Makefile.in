@@ -291,6 +291,14 @@ test_OfflineAudioContext
 .
 html
 \
+test_offlineDestinationChannelCountLess
+.
+html
+\
+test_offlineDestinationChannelCountMore
+.
+html
+\
 test_pannerNode
 .
 html
