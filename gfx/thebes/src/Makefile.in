@@ -273,12 +273,6 @@ CPPSRCS
 gfxPDFSurface
 .
 cpp
-EXTRA_DSO_LDOPTS
-+
-=
-(
-MOZ_CAIRO_LIBS
-)
 REQUIRES
 +
 =
