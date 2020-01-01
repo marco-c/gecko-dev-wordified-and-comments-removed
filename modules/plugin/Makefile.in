@@ -498,13 +498,6 @@ TOOL_DIRS
 default
 /
 os2
-ifdef
-MOZ_OJI
-TOOL_DIRS
-+
-=
-os2wrapper
-endif
 endif
 ifeq
 (

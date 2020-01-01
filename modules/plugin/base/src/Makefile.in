@@ -472,8 +472,6 @@ widget
 \
 mimetype
 \
-oji
-\
 exthandler
 \
 docshell
@@ -530,10 +528,6 @@ nsPluginInstancePeer
 cpp
 \
 nsJSNPRuntime
-.
-cpp
-\
-nsJVMAuthTools
 .
 cpp
 \
