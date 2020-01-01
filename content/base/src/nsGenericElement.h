@@ -163,6 +163,13 @@ nsPresContext
 h
 "
 #
+include
+"
+nsIDOMDOMStringMap
+.
+h
+"
+#
 ifdef
 MOZ_SMIL
 #
@@ -2735,6 +2742,10 @@ nsCOMPtr
 nsICSSDeclaration
 >
 mStyle
+;
+nsIDOMDOMStringMap
+*
+mDataset
 ;
 nsCOMPtr
 <

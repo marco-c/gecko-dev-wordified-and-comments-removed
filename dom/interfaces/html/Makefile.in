@@ -692,6 +692,10 @@ nsIDOMValidityState
 .
 idl
 \
+nsIDOMDOMStringMap
+.
+idl
+\
 (
 NULL
 )

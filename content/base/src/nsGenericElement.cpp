@@ -9037,6 +9037,10 @@ nsINode
 nsSlots
 (
 )
+mDataset
+(
+nsnull
+)
 mBindingParent
 (
 nsnull

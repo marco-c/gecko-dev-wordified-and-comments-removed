@@ -677,6 +677,10 @@ nsRadioVisitor
 .
 cpp
 \
+nsDOMStringMap
+.
+cpp
+\
 (
 NULL
 )
