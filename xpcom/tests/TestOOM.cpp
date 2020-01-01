@@ -119,6 +119,11 @@ malloc
 16
 )
 ;
+(
+void
+)
+big_alloc
+;
 const
 int
 highpower
@@ -213,10 +218,14 @@ buffer
 of
 size
 %
-ld
+lu
 \
 n
 "
+(
+unsigned
+long
+)
 s
 )
 ;
@@ -224,7 +233,7 @@ else
 {
 for
 (
-int
+size_t
 j
 =
 0
@@ -282,7 +291,7 @@ Total
 Allocated
 :
 %
-ld
+lu
 .
 \
 tLow
@@ -301,6 +310,10 @@ d
 \
 n
 "
+(
+unsigned
+long
+)
 s
 *
 i
