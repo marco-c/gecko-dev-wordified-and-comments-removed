@@ -52,6 +52,13 @@ h
 #
 include
 "
+IonAllocPolicy
+.
+h
+"
+#
+include
+"
 BaselineJIT
 .
 h
@@ -67,6 +74,13 @@ h
 include
 "
 FixedList
+.
+h
+"
+#
+include
+"
+BytecodeAnalysis
 .
 h
 "

@@ -4411,8 +4411,7 @@ NULL
 ;
 if
 (
-!
-BytecodeNoFallThrough
+BytecodeFallsThrough
 (
 op
 )

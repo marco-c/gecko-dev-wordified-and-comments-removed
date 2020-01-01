@@ -1156,6 +1156,10 @@ MIR
 .
 cpp
 \
+BytecodeAnalysis
+.
+cpp
+\
 BaselineCompiler
 .
 cpp
