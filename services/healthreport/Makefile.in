@@ -87,6 +87,10 @@ policy
 .
 jsm
 \
+providers
+.
+jsm
+\
 (
 NULL
 )

@@ -17,6 +17,11 @@ policy
 .
 jsm
 "
+"
+providers
+.
+jsm
+"
 ]
 ;
 const
