@@ -4364,7 +4364,7 @@ Java
 Embedding
 Plugin
 .
-int
+NSInteger
 windowNumber
 =
 [
