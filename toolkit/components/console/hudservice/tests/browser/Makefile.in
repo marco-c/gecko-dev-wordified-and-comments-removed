@@ -528,6 +528,12 @@ error
 .
 html
 \
+test
+-
+image
+.
+png
+\
 (
 NULL
 )
