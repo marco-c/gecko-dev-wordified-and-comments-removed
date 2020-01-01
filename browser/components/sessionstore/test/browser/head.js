@@ -1,5 +1,5 @@
-const
-SS_SVC
+let
+ss
 =
 Cc
 [
@@ -415,7 +415,7 @@ onSSTabRestored
 true
 )
 ;
-SS_SVC
+ss
 .
 setBrowserState
 (

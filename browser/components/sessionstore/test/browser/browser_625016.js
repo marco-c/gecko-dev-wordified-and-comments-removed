@@ -31,14 +31,14 @@ interval
 ;
 while
 (
-SS_SVC
+ss
 .
 getClosedWindowCount
 (
 )
 )
 {
-SS_SVC
+ss
 .
 forgetClosedWindow
 (
@@ -48,7 +48,7 @@ forgetClosedWindow
 }
 is
 (
-SS_SVC
+ss
 .
 getClosedWindowCount
 (
@@ -98,7 +98,7 @@ onSaveState
 {
 is
 (
-SS_SVC
+ss
 .
 getClosedWindowCount
 (
@@ -238,7 +238,7 @@ disk
 ;
 is
 (
-SS_SVC
+ss
 .
 getClosedWindowCount
 (
@@ -432,7 +432,7 @@ disk
 ;
 is
 (
-SS_SVC
+ss
 .
 getClosedWindowCount
 (
@@ -591,7 +591,7 @@ newTab
 ;
 is
 (
-SS_SVC
+ss
 .
 getClosedWindowCount
 (
@@ -607,7 +607,7 @@ API
 "
 )
 ;
-SS_SVC
+ss
 .
 forgetClosedWindow
 (
