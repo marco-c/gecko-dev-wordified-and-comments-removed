@@ -739,6 +739,10 @@ nsIScriptableIO
 .
 idl
 \
+nsIRandomGenerator
+.
+idl
+\
 (
 NULL
 )
