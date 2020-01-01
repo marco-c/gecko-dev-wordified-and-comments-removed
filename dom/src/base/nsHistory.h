@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIDOMNSHistory
-.
-h
-"
-#
-include
-"
 nsISupports
 .
 h
@@ -54,8 +47,6 @@ nsHistory
 :
 public
 nsIDOMHistory
-public
-nsIDOMNSHistory
 {
 public
 :
@@ -74,7 +65,6 @@ nsHistory
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMHISTORY
-NS_DECL_NSIDOMNSHISTORY
 void
 SetDocShell
 (

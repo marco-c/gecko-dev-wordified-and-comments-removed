@@ -493,14 +493,6 @@ nsIDOMMimeTypeArray
 .
 idl
 \
-nsIDOMNSHistory
-.
-idl
-\
-nsIDOMNSLocation
-.
-idl
-\
 nsIDOMNavigator
 .
 idl
