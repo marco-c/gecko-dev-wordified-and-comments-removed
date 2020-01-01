@@ -150,6 +150,17 @@ int32
 0
 ;
 virtual
+void
+RemoveManagee
+(
+int32
+ListenerT
+*
+)
+=
+0
+;
+virtual
 ProcessHandle
 OtherProcess
 (
