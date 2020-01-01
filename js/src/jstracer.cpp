@@ -35011,7 +35011,7 @@ this
 ;
 #
 ifdef
-JS_METH
+JS_METHODJIT
 if
 (
 TRACE_PROFILER
@@ -35683,15 +35683,6 @@ f
 code
 (
 )
-)
-;
-JS_ASSERT
-(
-!
-tm
--
->
-profile
 )
 ;
 if
