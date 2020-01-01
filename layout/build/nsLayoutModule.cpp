@@ -1943,7 +1943,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

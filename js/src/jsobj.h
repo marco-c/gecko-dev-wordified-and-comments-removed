@@ -5052,7 +5052,7 @@ staticAsserts
 (
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -5080,7 +5080,7 @@ interface
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -5106,7 +5106,7 @@ fields
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

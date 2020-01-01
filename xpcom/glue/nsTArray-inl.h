@@ -145,7 +145,7 @@ this
 >
 mAutoBuf
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -323,7 +323,7 @@ return
 false
 ;
 }
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

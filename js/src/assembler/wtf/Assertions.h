@@ -98,7 +98,7 @@ COMPILE_ASSERT
 exp
 name
 )
-MOZ_STATIC_ASSERT
+static_assert
 (
 exp
 #

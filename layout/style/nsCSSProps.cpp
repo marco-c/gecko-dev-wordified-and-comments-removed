@@ -1764,7 +1764,7 @@ res
 eCSSProperty_COUNT
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 eCSSProperty_UNKNOWN
 <
@@ -1919,7 +1919,7 @@ res
 eCSSProperty_COUNT
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 eCSSProperty_UNKNOWN
 <
@@ -2768,7 +2768,7 @@ eCSSKeyword_UNKNOWN
 1
 }
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_STYLE_BG_CLIP_BORDER
 =
@@ -6575,7 +6575,7 @@ eCSSProperty_border_bottom_color
 eCSSProperty_UNKNOWN
 }
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_SIDE_TOP
 =

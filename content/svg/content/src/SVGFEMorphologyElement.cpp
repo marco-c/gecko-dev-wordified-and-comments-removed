@@ -628,7 +628,7 @@ int32_t
 ry
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 Operator
 =

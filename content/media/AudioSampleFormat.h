@@ -688,7 +688,7 @@ int32_t
 aOffset
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 AUDIO_FORMAT_S16
 =
@@ -700,7 +700,7 @@ constant
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 AUDIO_FORMAT_FLOAT32
 =

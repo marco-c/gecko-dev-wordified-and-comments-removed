@@ -4509,7 +4509,7 @@ defined
 (
 HAVE_CPP_CHAR16_T
 )
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -4540,7 +4540,7 @@ u
 s
 #
 else
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -4757,7 +4757,7 @@ nsLiteralString
 ;
 #
 endif
-MOZ_STATIC_ASSERT
+static_assert
 (
 PRUnichar
 (

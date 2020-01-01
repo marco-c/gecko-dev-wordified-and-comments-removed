@@ -106,7 +106,7 @@ MOZ_UTF16_HELPER
 (
 s
 )
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -125,7 +125,7 @@ bits
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -149,7 +149,7 @@ bits
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

@@ -1026,7 +1026,7 @@ TestInvalidEvents
 (
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 numeric_limits
 <

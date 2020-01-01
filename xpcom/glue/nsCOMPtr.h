@@ -1435,8 +1435,7 @@ mRawPtr
 )
 )
 {
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 mozilla
 :
@@ -1449,7 +1448,6 @@ U
 :
 :
 value
-)
 "
 U
 is
@@ -1763,8 +1761,7 @@ U
 rhs
 )
 {
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 mozilla
 :
@@ -1777,7 +1774,6 @@ U
 :
 :
 value
-)
 "
 U
 is

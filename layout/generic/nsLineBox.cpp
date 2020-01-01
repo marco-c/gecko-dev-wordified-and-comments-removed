@@ -214,7 +214,7 @@ frame
 }
 #
 endif
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_STYLE_CLEAR_LAST_VALUE
 <

@@ -2081,7 +2081,7 @@ RawFlags
 aRawFlags
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

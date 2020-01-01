@@ -270,7 +270,7 @@ paramType
 param
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

@@ -1806,7 +1806,7 @@ PluginState
 state
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 (
 uint32_t
@@ -1835,7 +1835,7 @@ STATE_DISABLED
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 (
 uint32_t
@@ -1864,7 +1864,7 @@ STATE_CLICKTOPLAY
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 (
 uint32_t

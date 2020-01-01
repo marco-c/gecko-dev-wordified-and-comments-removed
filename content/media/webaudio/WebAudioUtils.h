@@ -382,8 +382,7 @@ using
 namespace
 std
 ;
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 mozilla
 :
@@ -398,7 +397,6 @@ value
 =
 =
 true
-)
 "
 IntType
 must
@@ -409,8 +407,7 @@ type
 "
 )
 ;
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 mozilla
 :
@@ -425,7 +422,6 @@ value
 =
 =
 true
-)
 "
 FloatType
 must

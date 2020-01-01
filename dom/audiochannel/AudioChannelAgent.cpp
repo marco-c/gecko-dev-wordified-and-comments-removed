@@ -171,7 +171,7 @@ bool
 aUseWeakRef
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 static_cast
 <

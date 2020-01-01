@@ -2085,7 +2085,7 @@ G
 0x7A
 }
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 MOZ_ARRAY_LENGTH
 (
@@ -2103,7 +2103,7 @@ P
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 MOZ_ARRAY_LENGTH
 (
@@ -2121,7 +2121,7 @@ Q
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 MOZ_ARRAY_LENGTH
 (

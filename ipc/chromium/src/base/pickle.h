@@ -1069,7 +1069,7 @@ int
 bytes
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 (
 alignment

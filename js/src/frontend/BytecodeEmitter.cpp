@@ -26101,7 +26101,7 @@ add
 objbox
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 JSOP_NEWINIT_LENGTH
 =

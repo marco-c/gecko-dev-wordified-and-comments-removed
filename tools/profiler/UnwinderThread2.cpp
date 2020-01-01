@@ -551,7 +551,7 @@ ent
 )
 ;
 }
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -567,7 +567,7 @@ incorrect
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -583,7 +583,7 @@ incorrect
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

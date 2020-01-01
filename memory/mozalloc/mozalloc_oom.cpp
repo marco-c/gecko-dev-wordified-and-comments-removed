@@ -143,7 +143,7 @@ gAbortHandler
 size
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 OOM_MSG_FIRST_DIGIT_OFFSET
 >

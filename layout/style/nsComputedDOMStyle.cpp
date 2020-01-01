@@ -13244,7 +13244,7 @@ return
 val
 ;
 }
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_STYLE_UNICODE_BIDI_NORMAL
 =
@@ -16634,7 +16634,7 @@ return
 val
 ;
 }
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_SIDE_TOP
 =

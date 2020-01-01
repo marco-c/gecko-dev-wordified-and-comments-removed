@@ -606,7 +606,7 @@ clasp
 )
 ;
 }
-MOZ_STATIC_ASSERT
+static_assert
 (
 DOM_OBJECT_SLOT
 =
@@ -1287,7 +1287,7 @@ value
 )
 ;
 }
-MOZ_STATIC_ASSERT
+static_assert
 (
 (
 size_t
@@ -6881,7 +6881,7 @@ StaticAsserts
 (
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -6902,7 +6902,7 @@ size
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 offsetof
 (
@@ -6925,7 +6925,7 @@ match
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 offsetof
 (
@@ -6948,7 +6948,7 @@ match
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 offsetof
 (

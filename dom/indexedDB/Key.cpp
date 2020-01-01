@@ -95,7 +95,7 @@ MaxRecursionDepth
 NS_ERROR_DOM_INDEXEDDB_DATA_ERR
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 eMaxType
 *

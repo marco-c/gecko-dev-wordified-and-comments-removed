@@ -15272,7 +15272,7 @@ mFont
 .
 stretch
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_STYLE_FONT_STRETCH_ULTRA_CONDENSED
 =
@@ -16703,7 +16703,7 @@ case
 eStyleAnimType_Sides_Left
 :
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_SIDE_TOP
 =
@@ -16806,7 +16806,7 @@ case
 eStyleAnimType_Corner_BottomLeft
 :
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_CORNER_TOP_LEFT
 =

@@ -3500,7 +3500,7 @@ _lc
 _uc
 )
 \
-MOZ_STATIC_ASSERT
+static_assert
 (
 \
 static_cast

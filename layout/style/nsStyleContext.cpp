@@ -168,7 +168,7 @@ mRefCnt
 0
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 (
 UINT32_MAX

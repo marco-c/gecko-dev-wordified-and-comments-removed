@@ -10517,7 +10517,7 @@ index
 21
 ]
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -10554,7 +10554,7 @@ badChar
 6
 ]
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

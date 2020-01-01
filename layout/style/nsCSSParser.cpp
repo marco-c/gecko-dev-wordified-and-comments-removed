@@ -30395,7 +30395,7 @@ nsCSSProps
 kBackgroundOriginKTable
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_STYLE_BG_CLIP_BORDER
 =
@@ -41101,7 +41101,7 @@ eDecorationPrefAnchors
 NS_STYLE_TEXT_DECORATION_LINE_PREF_ANCHORS
 }
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 (
 eDecorationNone
@@ -46115,7 +46115,7 @@ ParsePaintOrder
 (
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 (
 1
@@ -46158,7 +46158,7 @@ eCSSKeyword_UNKNOWN
 1
 }
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_ARRAY_LENGTH
 (
@@ -46217,7 +46217,7 @@ position
 =
 0
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_STYLE_PAINT_ORDER_BITWIDTH
 *
@@ -46424,7 +46424,7 @@ NS_STYLE_PAINT_ORDER_BITWIDTH
 }
 }
 }
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_STYLE_PAINT_ORDER_NORMAL
 =

@@ -3909,7 +3909,7 @@ ALT_BORDER_WIDTH
 )
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 eOverflowType_LENGTH
 =

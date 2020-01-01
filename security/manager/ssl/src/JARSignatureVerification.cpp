@@ -343,7 +343,7 @@ MAX_LENGTH
 *
 1024
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 MAX_LENGTH
 <

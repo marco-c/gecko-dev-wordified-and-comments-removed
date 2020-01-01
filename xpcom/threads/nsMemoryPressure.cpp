@@ -42,7 +42,7 @@ Relaxed
 >
 sMemoryPressurePending
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 MemPressure_None
 =

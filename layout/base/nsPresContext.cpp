@@ -2361,7 +2361,7 @@ prefs
 mDefaultFantasyFont
 }
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_ARRAY_LENGTH
 (

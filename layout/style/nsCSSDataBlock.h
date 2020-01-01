@@ -474,7 +474,7 @@ mNumProps
 }
 }
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -493,7 +493,7 @@ changed
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_ALIGNMENT_OF
 (
@@ -522,7 +522,7 @@ nsCSSCompressedDataBlock
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_ALIGNMENT_OF
 (
@@ -545,7 +545,7 @@ nsCSSValue
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 eCSSProperty_COUNT_no_shorthands
 <

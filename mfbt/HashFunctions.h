@@ -264,7 +264,7 @@ A
 a
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

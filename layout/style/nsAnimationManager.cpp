@@ -3024,7 +3024,7 @@ KeyTypePointer
 aKey
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -3047,7 +3047,7 @@ uint32_t
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 PLDHashNumber
 (

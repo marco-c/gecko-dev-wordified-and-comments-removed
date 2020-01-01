@@ -217,8 +217,7 @@ SupportsWeakPtrBase
 (
 )
 {
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsBaseOf
 <
@@ -232,7 +231,6 @@ T
 :
 :
 value
-)
 "
 T
 must

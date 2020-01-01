@@ -70,7 +70,7 @@ double
 d
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 mozilla
 :
@@ -184,7 +184,7 @@ ResultWidth
 return
 0
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -312,7 +312,7 @@ double
 d
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 mozilla
 :

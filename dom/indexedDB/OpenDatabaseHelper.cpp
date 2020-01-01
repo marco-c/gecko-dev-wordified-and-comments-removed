@@ -161,7 +161,7 @@ USING_INDEXEDDB_NAMESPACE
 USING_QUOTA_NAMESPACE
 namespace
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 JS_STRUCTURED_CLONE_VERSION
 =
@@ -191,7 +191,7 @@ kMinorSchemaVersion
 =
 0
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 kMajorSchemaVersion
 <
@@ -210,7 +210,7 @@ bits
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 kMinorSchemaVersion
 <
@@ -9500,7 +9500,7 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 }
 else
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 kSQLiteSchemaVersion
 =

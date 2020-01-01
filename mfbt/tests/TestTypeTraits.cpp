@@ -58,7 +58,7 @@ mozilla
 :
 MakeUnsigned
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 !
 IsSigned
@@ -78,7 +78,7 @@ signed
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 IsUnsigned
 <
@@ -95,7 +95,7 @@ unsigned
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 !
 IsSigned
@@ -117,7 +117,7 @@ signed
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 IsUnsigned
 <
@@ -136,7 +136,7 @@ unsigned
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 !
 IsSigned
@@ -158,7 +158,7 @@ signed
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 IsUnsigned
 <
@@ -177,7 +177,7 @@ unsigned
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 !
 IsSigned
@@ -199,7 +199,7 @@ signed
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 IsUnsigned
 <
@@ -218,7 +218,7 @@ unsigned
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 IsSigned
 <
@@ -237,7 +237,7 @@ signed
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 !
 IsUnsigned
@@ -259,7 +259,7 @@ unsigned
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 !
 IsSigned
@@ -281,7 +281,7 @@ signed
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 IsUnsigned
 <
@@ -300,7 +300,7 @@ unsigned
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 IsSigned
 <
@@ -317,7 +317,7 @@ signed
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 !
 IsUnsigned
@@ -337,7 +337,7 @@ unsigned
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 !
 IsSigned
@@ -359,7 +359,7 @@ signed
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 IsUnsigned
 <
@@ -378,7 +378,7 @@ unsigned
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 IsSigned
 <
@@ -395,7 +395,7 @@ signed
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 !
 IsUnsigned
@@ -415,7 +415,7 @@ unsigned
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 !
 IsSigned
@@ -437,7 +437,7 @@ signed
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 IsUnsigned
 <
@@ -456,7 +456,7 @@ unsigned
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 IsSigned
 <
@@ -473,7 +473,7 @@ signed
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 !
 IsUnsigned
@@ -493,7 +493,7 @@ unsigned
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 IsSigned
 <
@@ -510,7 +510,7 @@ signed
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 !
 IsUnsigned
@@ -530,7 +530,7 @@ unsigned
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 IsSigned
 <
@@ -549,7 +549,7 @@ signed
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 !
 IsUnsigned
@@ -571,7 +571,7 @@ unsigned
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 IsSigned
 <
@@ -588,7 +588,7 @@ signed
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 !
 IsUnsigned
@@ -608,7 +608,7 @@ unsigned
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 IsSigned
 <
@@ -627,7 +627,7 @@ signed
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 !
 IsUnsigned
@@ -649,7 +649,7 @@ unsigned
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 IsSigned
 <
@@ -668,7 +668,7 @@ signed
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 !
 IsUnsigned
@@ -690,7 +690,7 @@ unsigned
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 IsSigned
 <
@@ -713,7 +713,7 @@ signed
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 !
 IsUnsigned
@@ -1430,8 +1430,7 @@ unrelated
 )
 ;
 }
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsSame
 <
@@ -1451,7 +1450,6 @@ char
 :
 :
 value
-)
 "
 const
 unsigned
@@ -1464,8 +1462,7 @@ correctly
 "
 )
 ;
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsSame
 <
@@ -1485,7 +1482,6 @@ short
 :
 :
 value
-)
 "
 volatile
 unsigned
@@ -1498,8 +1494,7 @@ correctly
 "
 )
 ;
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsSame
 <
@@ -1521,7 +1516,6 @@ int
 :
 :
 value
-)
 "
 const
 volatile
@@ -1535,8 +1529,7 @@ correctly
 "
 )
 ;
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsSame
 <
@@ -1554,7 +1547,6 @@ long
 :
 :
 value
-)
 "
 unsigned
 long
@@ -1566,8 +1558,7 @@ correctly
 "
 )
 ;
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsSame
 <
@@ -1587,7 +1578,6 @@ char
 :
 :
 value
-)
 "
 const
 signed
@@ -1600,8 +1590,7 @@ correctly
 "
 )
 ;
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsSame
 <
@@ -1621,7 +1610,6 @@ short
 :
 :
 value
-)
 "
 volatile
 signed
@@ -1634,8 +1622,7 @@ correctly
 "
 )
 ;
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsSame
 <
@@ -1657,7 +1644,6 @@ int
 :
 :
 value
-)
 "
 const
 volatile
@@ -1671,8 +1657,7 @@ correctly
 "
 )
 ;
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsSame
 <
@@ -1690,7 +1675,6 @@ long
 :
 :
 value
-)
 "
 signed
 long
@@ -1702,8 +1686,7 @@ correctly
 "
 )
 ;
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsSame
 <
@@ -1720,7 +1703,6 @@ char
 :
 :
 value
-)
 "
 char
 won
@@ -1731,8 +1713,7 @@ correctly
 "
 )
 ;
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsSame
 <
@@ -1751,7 +1732,6 @@ char
 :
 :
 value
-)
 "
 volatile
 char
@@ -1763,8 +1743,7 @@ correctly
 "
 )
 ;
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsSame
 <
@@ -1783,7 +1762,6 @@ char
 :
 :
 value
-)
 "
 const
 char
@@ -1795,8 +1773,7 @@ correctly
 "
 )
 ;
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsSame
 <
@@ -1816,7 +1793,6 @@ char
 :
 :
 value
-)
 "
 const
 signed
@@ -1829,8 +1805,7 @@ correctly
 "
 )
 ;
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsSame
 <
@@ -1850,7 +1825,6 @@ short
 :
 :
 value
-)
 "
 volatile
 signed
@@ -1863,8 +1837,7 @@ correctly
 "
 )
 ;
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsSame
 <
@@ -1886,7 +1859,6 @@ int
 :
 :
 value
-)
 "
 const
 volatile
@@ -1900,8 +1872,7 @@ correctly
 "
 )
 ;
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsSame
 <
@@ -1919,7 +1890,6 @@ long
 :
 :
 value
-)
 "
 signed
 long
@@ -1931,8 +1901,7 @@ correctly
 "
 )
 ;
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsSame
 <
@@ -1952,7 +1921,6 @@ char
 :
 :
 value
-)
 "
 const
 unsigned
@@ -1965,8 +1933,7 @@ correctly
 "
 )
 ;
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsSame
 <
@@ -1986,7 +1953,6 @@ short
 :
 :
 value
-)
 "
 volatile
 unsigned
@@ -1999,8 +1965,7 @@ correctly
 "
 )
 ;
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsSame
 <
@@ -2022,7 +1987,6 @@ int
 :
 :
 value
-)
 "
 const
 volatile
@@ -2036,8 +2000,7 @@ correctly
 "
 )
 ;
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsSame
 <
@@ -2055,7 +2018,6 @@ long
 :
 :
 value
-)
 "
 signed
 long
@@ -2067,8 +2029,7 @@ correctly
 "
 )
 ;
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsSame
 <
@@ -2085,7 +2046,6 @@ char
 :
 :
 value
-)
 "
 char
 won
@@ -2096,8 +2056,7 @@ correctly
 "
 )
 ;
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsSame
 <
@@ -2116,7 +2075,6 @@ char
 :
 :
 value
-)
 "
 volatile
 char
@@ -2128,8 +2086,7 @@ correctly
 "
 )
 ;
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsSame
 <
@@ -2148,7 +2105,6 @@ char
 :
 :
 value
-)
 "
 const
 char

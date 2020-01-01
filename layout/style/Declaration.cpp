@@ -49,7 +49,7 @@ mozilla
 namespace
 css
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 eCSSProperty_COUNT_no_shorthands
 -
@@ -2699,7 +2699,7 @@ nsCSSProps
 kBackgroundOriginKTable
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_STYLE_BG_CLIP_BORDER
 =

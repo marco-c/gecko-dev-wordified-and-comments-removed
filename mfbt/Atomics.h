@@ -2604,7 +2604,7 @@ Primitives
 Type
 PrimType
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -3561,7 +3561,7 @@ T
 Order
 >
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -3609,7 +3609,7 @@ types
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 IsIntegral
 <

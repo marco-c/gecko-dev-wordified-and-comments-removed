@@ -179,7 +179,7 @@ mInAgeOneGeneration
 false
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 K
 >

@@ -2047,7 +2047,7 @@ staticAsserts
 (
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -3147,7 +3147,7 @@ staticAsserts
 (
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -4885,7 +4885,7 @@ staticAsserts
 (
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -5272,7 +5272,7 @@ staticAsserts
 (
 )
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -5297,7 +5297,7 @@ implementation
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -5323,7 +5323,7 @@ aligned
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 offsetof
 (
@@ -5350,7 +5350,7 @@ shape
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 offsetof
 (
@@ -5377,7 +5377,7 @@ type
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 offsetof
 (
@@ -5404,7 +5404,7 @@ slots
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 offsetof
 (
@@ -7120,7 +7120,7 @@ fixedElements
 )
 const
 {
-MOZ_STATIC_ASSERT
+static_assert
 (
 2
 *

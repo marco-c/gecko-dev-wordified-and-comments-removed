@@ -400,7 +400,7 @@ RESERVE_FAILED
 MAP_FAILED
 #
 endif
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -422,7 +422,7 @@ uintptr_t
 "
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

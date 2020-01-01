@@ -7240,7 +7240,7 @@ v
 ;
 }
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -7275,7 +7275,7 @@ l
 ;
 }
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -7307,7 +7307,7 @@ JS
 Value
 jsval
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

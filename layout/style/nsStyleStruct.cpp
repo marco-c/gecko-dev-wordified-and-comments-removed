@@ -110,7 +110,7 @@ include
 <
 algorithm
 >
-MOZ_STATIC_ASSERT
+static_assert
 (
 (
 (
@@ -9733,7 +9733,7 @@ Function
 break
 ;
 }
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_STYLE_TRANSITION_TIMING_FUNCTION_EASE
 =

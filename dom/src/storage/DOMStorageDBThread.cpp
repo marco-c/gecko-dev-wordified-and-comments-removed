@@ -2627,7 +2627,7 @@ return
 0
 ;
 }
-MOZ_STATIC_ASSERT
+static_assert
 (
 PR_INTERVAL_NO_TIMEOUT
 !

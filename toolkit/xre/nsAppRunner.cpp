@@ -3000,7 +3000,7 @@ a
 b
 )
 \
-MOZ_STATIC_ASSERT
+static_assert
 (
 nsIXULRuntime
 :
@@ -3058,7 +3058,7 @@ SYNC_ENUMS
 IPDLUNITTEST
 IPDLUnitTest
 )
-MOZ_STATIC_ASSERT
+static_assert
 (
 GeckoProcessType_IPDLUnitTest
 +

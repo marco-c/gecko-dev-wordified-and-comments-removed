@@ -316,7 +316,7 @@ size_t
 define
 MAX_WORKERS_PER_DOMAIN
 10
-MOZ_STATIC_ASSERT
+static_assert
 (
 MAX_WORKERS_PER_DOMAIN
 >
@@ -636,7 +636,7 @@ WorkerErrorEvent
 "
 }
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 NS_ARRAY_LENGTH
 (

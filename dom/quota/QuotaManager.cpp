@@ -1607,7 +1607,7 @@ Init
 (
 )
 ;
-MOZ_STATIC_ASSERT
+static_assert
 (
 Client
 :
