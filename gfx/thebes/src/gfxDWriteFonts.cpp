@@ -780,7 +780,7 @@ L
 ;
 if
 (
-FAILED
+SUCCEEDED
 (
 mFontFace
 -
