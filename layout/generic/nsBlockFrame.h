@@ -1515,7 +1515,7 @@ aMadeNewFrame
 )
 ;
 void
-PushTruncatedPlaceholderLine
+PushTruncatedLine
 (
 nsBlockReflowState
 &

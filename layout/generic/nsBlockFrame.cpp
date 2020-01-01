@@ -15729,7 +15729,7 @@ void
 nsBlockFrame
 :
 :
-PushTruncatedPlaceholderLine
+PushTruncatedLine
 (
 nsBlockReflowState
 &
@@ -16671,7 +16671,7 @@ lineReflowStatus
 =
 LINE_REFLOW_TRUNCATED
 ;
-PushTruncatedPlaceholderLine
+PushTruncatedLine
 (
 aState
 aLine
