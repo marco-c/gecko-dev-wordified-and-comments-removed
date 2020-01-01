@@ -1004,6 +1004,10 @@ mHandle
 #
 endif
 extern
+PRUint32
+gRestartMode
+;
+extern
 void
 InstallSignalHandlers
 (
@@ -6983,6 +6987,7 @@ LaunchChildMac
 (
 gRestartArgc
 gRestartArgv
+gRestartMode
 )
 ;
 #
