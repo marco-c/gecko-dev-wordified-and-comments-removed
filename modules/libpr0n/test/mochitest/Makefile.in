@@ -451,10 +451,6 @@ schrep
 .
 png
 \
-test_bug435296
-.
-html
-\
 bug468160
 .
 sjs
@@ -492,6 +488,10 @@ html
 bug490949
 .
 sjs
+\
+test_bug496292
+.
+html
 \
 bug496292
 -
@@ -545,7 +545,7 @@ png
 NULL
 )
 #
-test_bug496292
+test_bug435296
 .
 html
 disabled
