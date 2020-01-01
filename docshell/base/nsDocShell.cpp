@@ -45749,6 +45749,9 @@ NS_ENSURE_STATE
 (
 !
 mIsBrowserFrame
+|
+|
+aValue
 )
 ;
 bool
