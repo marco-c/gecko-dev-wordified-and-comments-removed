@@ -210,6 +210,15 @@ dom
 :
 ScreenOrientation
 ;
+using
+mozilla
+:
+:
+gfx
+:
+:
+Margin
+;
 /
 *
 *
@@ -893,6 +902,9 @@ isFixedPosition
 ;
 gfxPoint
 fixedPositionAnchor
+;
+Margin
+fixedPositionMargin
 ;
 nullable
 PLayer
