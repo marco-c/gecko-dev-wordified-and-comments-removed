@@ -316,6 +316,15 @@ mPosterImage
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
+nsCxPusher
+pusher
+;
+pusher
+.
+PushNull
+(
+)
+;
 nsCOMPtr
 <
 nsIImageLoadingContent

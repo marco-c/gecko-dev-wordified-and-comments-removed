@@ -18581,6 +18581,15 @@ imageLoader
 return
 result
 ;
+nsCxPusher
+pusher
+;
+pusher
+.
+PushNull
+(
+)
+;
 nsCOMPtr
 <
 imgIRequest

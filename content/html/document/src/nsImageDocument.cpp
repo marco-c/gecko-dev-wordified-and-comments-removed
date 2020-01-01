@@ -2694,6 +2694,15 @@ GetSpec
 src
 )
 ;
+nsCxPusher
+pusher
+;
+pusher
+.
+PushNull
+(
+)
+;
 NS_ConvertUTF8toUTF16
 srcString
 (
