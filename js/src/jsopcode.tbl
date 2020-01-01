@@ -5474,11 +5474,11 @@ JSOP_PRIMTOP
 primtop
 "
 NULL
-1
+2
 1
 1
 0
-JOF_BYTE
+JOF_INT8
 )
 /
 *
@@ -5854,7 +5854,7 @@ callbuiltin
 "
 NULL
 3
-0
+1
 2
 0
 JOF_UINT16
