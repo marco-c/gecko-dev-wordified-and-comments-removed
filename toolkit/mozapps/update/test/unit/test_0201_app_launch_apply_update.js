@@ -1403,10 +1403,9 @@ getCurrentProcessDir
 (
 )
 ;
-procDir
-.
-copyTo
+copyDirRecursive
 (
+procDir
 tmpDir
 "
 bin
