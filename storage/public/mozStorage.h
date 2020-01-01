@@ -1,9 +1,9 @@
 #
 ifndef
-_MOZSTORAGE_H_
+MOZSTORAGE_H
 #
 define
-_MOZSTORAGE_H_
+MOZSTORAGE_H
 #
 define
 NS_ERROR_STORAGE_BUSY

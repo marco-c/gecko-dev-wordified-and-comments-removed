@@ -2345,6 +2345,11 @@ char
 aTopic
 )
 ;
+void
+ClearStatus
+(
+)
+;
 PRPackedBool
 mIsFrozen
 :
@@ -2780,8 +2785,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED_NO_UNLINK
 nsGlobalChromeWindow
 nsGlobalWindow
 )
-protected
-:
 nsCOMPtr
 <
 nsIBrowserDOMWindow
@@ -2861,8 +2864,6 @@ nsNavigator
 public
 nsIDOMNavigator
 public
-nsIDOMJSNavigator
-public
 nsIDOMClientInformation
 public
 nsIDOMNavigatorGeolocation
@@ -2884,7 +2885,6 @@ nsNavigator
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMNAVIGATOR
-NS_DECL_NSIDOMJSNAVIGATOR
 NS_DECL_NSIDOMCLIENTINFORMATION
 NS_DECL_NSIDOMNAVIGATORGEOLOCATION
 void
@@ -2938,10 +2938,6 @@ mGeolocation
 nsIDocShell
 *
 mDocShell
-;
-static
-jsval
-sPrefInternal_id
 ;
 }
 ;
