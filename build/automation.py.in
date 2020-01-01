@@ -3436,6 +3436,9 @@ None
 xrePath
 =
 DIST_BIN
+crashreporter
+=
+True
 )
 :
 if
@@ -3533,6 +3536,9 @@ PATH
 "
 +
 ldLibraryPath
+if
+crashreporter
+:
 env
 [
 '
@@ -4882,6 +4888,10 @@ env
 xrePath
 =
 xrePath
+crashreporter
+=
+not
+debuggerInfo
 )
 stdout
 =
