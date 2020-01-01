@@ -8250,7 +8250,7 @@ OnEndComposition
 pComposition
 )
 ;
-OnStartCompositionInternal
+RecordCompositionStartAction
 (
 pComposition
 composingRange
@@ -15864,7 +15864,7 @@ HRESULT
 nsTextStore
 :
 :
-OnStartCompositionInternal
+RecordCompositionStartAction
 (
 ITfCompositionView
 *
@@ -15890,7 +15890,7 @@ p
 nsTextStore
 :
 :
-OnStartCompositionInternal
+RecordCompositionStartAction
 (
 "
 "
@@ -15978,13 +15978,13 @@ p
 nsTextStore
 :
 :
-OnStartCompositionInternal
+RecordCompositionStartAction
 (
 )
 FAILED
+"
+"
 due
-"
-"
 to
 GetRangeExtent
 (
@@ -16031,13 +16031,13 @@ p
 nsTextStore
 :
 :
-OnStartCompositionInternal
+RecordCompositionStartAction
 (
 )
 FAILED
+"
+"
 due
-"
-"
 to
 CurrentContent
 (
@@ -16110,7 +16110,7 @@ p
 nsTextStore
 :
 :
-OnStartCompositionInternal
+RecordCompositionStartAction
 (
 )
 succeeded
@@ -16399,7 +16399,7 @@ hr
 }
 hr
 =
-OnStartCompositionInternal
+RecordCompositionStartAction
 (
 pComposition
 range
@@ -16436,7 +16436,7 @@ due
 to
 "
 "
-OnStartCompositionInternal
+RecordCompositionStartAction
 (
 )
 failure
