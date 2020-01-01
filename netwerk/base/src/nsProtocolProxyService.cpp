@@ -6934,6 +6934,16 @@ return
 NS_OK
 ;
 }
+if
+(
+mProxyConfig
+!
+=
+PROXYCONFIG_MANUAL
+)
+return
+NS_OK
+;
 const
 char
 *
