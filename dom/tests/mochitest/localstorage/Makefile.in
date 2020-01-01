@@ -240,10 +240,6 @@ test_localStorageQuota
 .
 html
 \
-test_localStorageQuotaPrivateBrowsing
-.
-html
-\
 test_localStorageQuotaSessionOnly
 .
 html
@@ -270,6 +266,10 @@ MOCHITEST_FILES
 =
 \
 test_localStorageBasePrivateBrowsing
+.
+html
+\
+test_localStorageQuotaPrivateBrowsing
 .
 html
 \
