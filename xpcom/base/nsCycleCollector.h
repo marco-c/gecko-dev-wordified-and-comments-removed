@@ -23,6 +23,8 @@ BeginCycleCollection
 nsCycleCollectionTraversalCallback
 &
 cb
+bool
+explainLiveExpectedGarbage
 )
 =
 0
@@ -102,7 +104,7 @@ public
 nsCycleCollectionLanguageRuntime
 {
 virtual
-PRBool
+void
 Collect
 (
 )
@@ -110,18 +112,6 @@ Collect
 0
 ;
 }
-;
-NS_COM
-PRBool
-nsCycleCollector_beginCollection
-(
-)
-;
-NS_COM
-PRBool
-nsCycleCollector_finishCollection
-(
-)
 ;
 #
 ifdef
