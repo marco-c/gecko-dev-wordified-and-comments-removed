@@ -286,6 +286,10 @@ mCallback
 o
 )
 ;
+mCallbackType
+=
+CALLBACK_TYPE_UNKNOWN
+;
 }
 nsCOMPtr
 <
@@ -298,6 +302,7 @@ void
 mClosure
 ;
 union
+CallbackUnion
 {
 nsTimerCallbackFunc
 c
