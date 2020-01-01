@@ -6937,6 +6937,11 @@ JS_FALSE
 ;
 if
 (
+desc
+.
+obj
+&
+&
 (
 desc
 .
@@ -7161,6 +7166,11 @@ JS_FALSE
 ;
 if
 (
+desc
+.
+obj
+&
+&
 (
 desc
 .
