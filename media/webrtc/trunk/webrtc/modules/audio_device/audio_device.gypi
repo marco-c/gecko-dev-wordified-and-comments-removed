@@ -424,6 +424,15 @@ include_dirs
 :
 [
 '
+(
+topsrcdir
+)
+/
+widget
+/
+android
+'
+'
 android
 '
 ]
