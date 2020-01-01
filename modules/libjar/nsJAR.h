@@ -358,8 +358,8 @@ void
 ReportError
 (
 const
-char
-*
+nsACString
+&
 aFilename
 PRInt16
 errorCode
@@ -430,15 +430,6 @@ aInBufLen
 nsCString
 &
 digest
-)
-;
-void
-DumpMetadata
-(
-const
-char
-*
-aMessage
 )
 ;
 }
