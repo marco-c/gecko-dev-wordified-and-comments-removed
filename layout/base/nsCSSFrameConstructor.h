@@ -552,9 +552,9 @@ aModType
 void
 AttributeChanged
 (
-nsIContent
+Element
 *
-aContent
+aElement
 PRInt32
 aNameSpaceID
 nsIAtom

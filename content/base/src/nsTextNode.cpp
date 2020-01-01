@@ -61,6 +61,13 @@ nsThreadUtils
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 class
 nsAttributeTextNode
 :
@@ -1300,9 +1307,9 @@ AttributeChanged
 nsIDocument
 *
 aDocument
-nsIContent
+Element
 *
-aContent
+aElement
 PRInt32
 aNameSpaceID
 nsIAtom
@@ -1326,7 +1333,7 @@ aAttribute
 mAttrName
 &
 &
-aContent
+aElement
 =
 =
 mGrandparent
