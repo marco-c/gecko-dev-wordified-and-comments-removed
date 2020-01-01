@@ -5945,6 +5945,7 @@ PSB_onItemAdded
 aItemId
 aFolder
 aIndex
+aItemType
 )
 {
 if
@@ -5970,9 +5971,7 @@ updateState
 onBeforeItemRemoved
 :
 function
-PSB_onBeforeItemRemoved
 (
-aItemId
 )
 {
 }
@@ -5984,6 +5983,7 @@ PSB_onItemRemoved
 aItemId
 aFolder
 aIndex
+aItemType
 )
 {
 if
@@ -6008,7 +6008,9 @@ PSB_onItemChanged
 aItemId
 aProperty
 aIsAnnotationProperty
-aValue
+aNewValue
+aLastModified
+aItemType
 )
 {
 if

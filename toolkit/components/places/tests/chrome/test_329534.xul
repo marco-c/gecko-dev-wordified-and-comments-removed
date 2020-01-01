@@ -637,6 +637,7 @@ function
 bookmarkId
 folderId
 index
+itemType
 )
 {
 if
@@ -677,14 +678,14 @@ this
 ;
 bmsvc
 .
-removeFolder
+removeItem
 (
 gLivemarkId1
 )
 ;
 bmsvc
 .
-removeFolder
+removeItem
 (
 gLivemarkId2
 )
@@ -702,7 +703,6 @@ onBeforeItemRemoved
 :
 function
 (
-bookmarkId
 )
 {
 }
@@ -710,10 +710,6 @@ onItemRemoved
 :
 function
 (
-bookmarkId
-bookmark
-folder
-index
 )
 {
 }
@@ -721,10 +717,6 @@ onItemChanged
 :
 function
 (
-bookmarkId
-property
-isAnnotationProperty
-value
 )
 {
 }
@@ -732,10 +724,6 @@ onItemVisited
 :
 function
 (
-bookmarkId
-bookmark
-aVisitID
-time
 )
 {
 }
@@ -743,11 +731,6 @@ onItemMoved
 :
 function
 (
-itemId
-oldParent
-oldIndex
-newParent
-newIndex
 )
 {
 }

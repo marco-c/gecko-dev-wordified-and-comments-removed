@@ -911,12 +911,6 @@ options
 .
 RESULTS_AS_URI
 ;
-options
-.
-showSessions
-=
-true
-;
 var
 result
 =
