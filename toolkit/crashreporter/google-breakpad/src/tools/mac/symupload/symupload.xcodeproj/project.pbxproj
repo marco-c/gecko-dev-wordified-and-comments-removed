@@ -397,11 +397,7 @@ isa
 =
 PBXFileReference
 ;
-includeInIndex
-=
-0
-;
-lastKnownFileType
+explicitFileType
 =
 "
 compiled
@@ -412,6 +408,10 @@ o
 .
 executable
 "
+;
+includeInIndex
+=
+0
 ;
 path
 =

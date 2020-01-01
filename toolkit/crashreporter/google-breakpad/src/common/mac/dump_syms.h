@@ -25,6 +25,10 @@ NSMutableDictionary
 *
 addresses_
 ;
+NSMutableSet
+*
+functionAddresses_
+;
 NSMutableDictionary
 *
 sources_
@@ -39,11 +43,10 @@ headers_
 ;
 NSMutableDictionary
 *
-lastFunctionStartDict_
-;
-NSMutableDictionary
-*
 sectionNumbers_
+;
+uint32_t
+lastStartAddress_
 ;
 }
 -

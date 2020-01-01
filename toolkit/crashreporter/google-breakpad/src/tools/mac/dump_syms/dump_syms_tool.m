@@ -347,6 +347,17 @@ dump_syms
 .
 h
 "
+#
+include
+"
+common
+/
+mac
+/
+macho_utilities
+.
+h
+"
 typedef
 struct
 {

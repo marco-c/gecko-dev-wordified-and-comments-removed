@@ -132,6 +132,11 @@ MemoryRegion
 *
 memory_
 ;
+const
+CodeModules
+*
+modules_
+;
 private
 :
 virtual
@@ -165,11 +170,6 @@ stack_frame_info
 )
 =
 0
-;
-const
-CodeModules
-*
-modules_
 ;
 SymbolSupplier
 *

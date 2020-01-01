@@ -462,6 +462,10 @@ minidump_generator
 .
 cc
 \
+dynamic_images
+.
+cc
+\
 .
 .
 /

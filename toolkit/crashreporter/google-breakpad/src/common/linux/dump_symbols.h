@@ -27,13 +27,8 @@ std
 string
 &
 obj_file
-const
-std
-:
-:
-string
-&
-symbol_file
+int
+sym_fd
 )
 ;
 }

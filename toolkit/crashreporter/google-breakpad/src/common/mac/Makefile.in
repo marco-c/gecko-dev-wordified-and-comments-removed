@@ -514,6 +514,10 @@ string_utilities
 .
 cc
 \
+macho_utilities
+.
+cc
+\
 (
 NULL
 )
