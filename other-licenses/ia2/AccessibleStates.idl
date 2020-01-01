@@ -95,7 +95,7 @@ c
 IBM
 Corp
 .
-2006
+2007
 *
 Copyright
 (
@@ -491,22 +491,6 @@ IA2_STATE_ICONIFIED
 *
 Indicates
 an
-invalid
-state
-.
-*
-/
-const
-long
-IA2_STATE_INVALID
-=
-0x40
-;
-/
-*
-*
-Indicates
-an
 input
 validation
 failure
@@ -517,7 +501,7 @@ const
 long
 IA2_STATE_INVALID_ENTRY
 =
-0x80
+0x40
 ;
 /
 *
@@ -607,7 +591,7 @@ const
 long
 IA2_STATE_MANAGES_DESCENDANTS
 =
-0x100
+0x80
 ;
 /
 *
@@ -651,7 +635,7 @@ const
 long
 IA2_STATE_MODAL
 =
-0x200
+0x100
 ;
 /
 *
@@ -673,7 +657,7 @@ const
 long
 IA2_STATE_MULTI_LINE
 =
-0x400
+0x200
 ;
 /
 *
@@ -695,7 +679,7 @@ const
 long
 IA2_STATE_OPAQUE
 =
-0x800
+0x400
 ;
 /
 *
@@ -738,7 +722,7 @@ const
 long
 IA2_STATE_REQUIRED
 =
-0x1000
+0x800
 ;
 /
 *
@@ -766,7 +750,7 @@ const
 long
 IA2_STATE_SELECTABLE_TEXT
 =
-0x2000
+0x1000
 ;
 /
 *
@@ -791,7 +775,7 @@ const
 long
 IA2_STATE_SINGLE_LINE
 =
-0x4000
+0x2000
 ;
 /
 *
@@ -853,7 +837,7 @@ const
 long
 IA2_STATE_STALE
 =
-0x8000
+0x4000
 ;
 /
 *
@@ -912,7 +896,7 @@ const
 long
 IA2_STATE_SUPPORTS_AUTOCOMPLETION
 =
-0x10000
+0x8000
 ;
 /
 *
@@ -929,7 +913,7 @@ const
 long
 IA2_STATE_TRANSIENT
 =
-0x20000
+0x10000
 ;
 /
 *
@@ -949,7 +933,7 @@ const
 long
 IA2_STATE_VERTICAL
 =
-0x40000
+0x20000
 ;
 /
 /

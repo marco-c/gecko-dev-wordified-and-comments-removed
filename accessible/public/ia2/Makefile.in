@@ -541,6 +541,10 @@ AccessibleStates
 .
 idl
 \
+IA2CommonTypes
+.
+idl
+\
 (
 NULL
 )
