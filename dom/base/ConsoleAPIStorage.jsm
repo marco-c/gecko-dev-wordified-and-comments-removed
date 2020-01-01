@@ -161,9 +161,6 @@ pressure
 "
 )
 ;
-delete
-_consoleStorage
-;
 }
 else
 if
