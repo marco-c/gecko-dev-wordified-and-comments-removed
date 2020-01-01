@@ -1436,6 +1436,10 @@ test
 .
 opus
 \
+vbr
+.
+mp3
+\
 video
 -
 overhang
