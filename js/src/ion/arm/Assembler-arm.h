@@ -6205,6 +6205,18 @@ c
 Always
 )
 ;
+void
+as_WritePoolEntry
+(
+Instruction
+*
+addr
+Condition
+c
+uint32_t
+data
+)
+;
 BufferOffset
 as_Imm32Pool
 (
@@ -8004,6 +8016,7 @@ InstDTR
 *
 asTHIS
 (
+const
 Instruction
 &
 i
@@ -8074,6 +8087,7 @@ InstLDR
 *
 asTHIS
 (
+const
 Instruction
 &
 i
