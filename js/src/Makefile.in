@@ -866,10 +866,6 @@ NULL
 EXPORTS_gc
 =
 \
-Heap
-.
-h
-\
 Root
 .
 h
