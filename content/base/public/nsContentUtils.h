@@ -335,6 +335,9 @@ nsTextFragment
 class
 nsViewportInfo
 ;
+class
+nsIFrame
+;
 struct
 JSContext
 ;
@@ -4133,6 +4136,17 @@ aOutStartOffset
 int32_t
 &
 aOutEndOffset
+)
+;
+static
+int32_t
+GetAdjustedOffsetInTextControl
+(
+nsIFrame
+*
+aOffsetFrame
+int32_t
+aOffset
 )
 ;
 static
