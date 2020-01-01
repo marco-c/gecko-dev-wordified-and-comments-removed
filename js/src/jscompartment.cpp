@@ -2234,6 +2234,9 @@ JSTracer
 trc
 )
 {
+#
+ifdef
+JS_ION
 if
 (
 ionCompartment_
@@ -2247,6 +2250,8 @@ trc
 this
 )
 ;
+#
+endif
 }
 void
 JSCompartment
