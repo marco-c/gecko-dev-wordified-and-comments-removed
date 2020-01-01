@@ -8752,7 +8752,7 @@ NULL
 )
 )
 return
-false
+NULL
 ;
 return
 EmptyShape
