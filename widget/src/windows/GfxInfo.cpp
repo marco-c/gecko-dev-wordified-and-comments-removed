@@ -3012,6 +3012,17 @@ WindowsVersionToOperatingSystem
 mWindowsVersion
 )
 ;
+if
+(
+os
+=
+=
+DRIVER_OS_WINDOWS_SERVER_2003
+)
+os
+=
+DRIVER_OS_WINDOWS_XP
+;
 const
 GfxDriverInfo
 *
