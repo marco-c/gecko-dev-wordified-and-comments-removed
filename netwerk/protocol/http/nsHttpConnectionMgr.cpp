@@ -11392,7 +11392,7 @@ SocketTransport
 >
 Close
 (
-NS_ERROR_NET_TIMEOUT
+NS_ERROR_ABORT
 )
 ;
 if
@@ -11414,7 +11414,7 @@ BackupTransport
 >
 Close
 (
-NS_ERROR_NET_TIMEOUT
+NS_ERROR_ABORT
 )
 ;
 }
