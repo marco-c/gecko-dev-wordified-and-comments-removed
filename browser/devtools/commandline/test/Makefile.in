@@ -134,6 +134,10 @@ browser_gcli_integrate
 .
 js
 \
+browser_gcli_jsb
+.
+js
+\
 browser_gcli_pagemod_export
 .
 js
@@ -192,6 +196,10 @@ css
 resources_inpage2
 .
 css
+\
+resources_jsb_script
+.
+js
 \
 resources
 .
