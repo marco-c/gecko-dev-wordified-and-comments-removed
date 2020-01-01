@@ -1,5 +1,6 @@
-do_load_httpd_js
+load
 (
+_HTTPD_JS_PATH
 )
 ;
 DEBUG
