@@ -2258,6 +2258,8 @@ descAnno
 {
 name
 :
+PlacesUIUtils
+.
 DESCRIPTION_ANNO
 value
 :
