@@ -8851,6 +8851,15 @@ IsForPainting
 &
 &
 !
+aBuilder
+-
+>
+WillComputePluginGeometry
+(
+)
+&
+&
+!
 nsLayoutUtils
 :
 :
