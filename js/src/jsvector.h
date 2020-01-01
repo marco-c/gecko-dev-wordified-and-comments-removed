@@ -1115,7 +1115,7 @@ class
 ReentrancyGuard
 ;
 bool
-mEntered
+entered
 ;
 #
 endif
@@ -1227,7 +1227,7 @@ begin
 JS_ASSERT
 (
 !
-mEntered
+entered
 )
 ;
 return
@@ -1255,7 +1255,7 @@ const
 JS_ASSERT
 (
 !
-mEntered
+entered
 )
 ;
 return
@@ -1281,7 +1281,7 @@ end
 JS_ASSERT
 (
 !
-mEntered
+entered
 )
 ;
 return
@@ -1309,7 +1309,7 @@ const
 JS_ASSERT
 (
 !
-mEntered
+entered
 )
 ;
 return
@@ -1339,7 +1339,7 @@ i
 JS_ASSERT
 (
 !
-mEntered
+entered
 &
 &
 i
@@ -1373,7 +1373,7 @@ const
 JS_ASSERT
 (
 !
-mEntered
+entered
 &
 &
 i
@@ -1401,7 +1401,7 @@ back
 JS_ASSERT
 (
 !
-mEntered
+entered
 &
 &
 !
@@ -1432,7 +1432,7 @@ const
 JS_ASSERT
 (
 !
-mEntered
+entered
 &
 &
 !
@@ -1644,7 +1644,7 @@ mLengthOrCapacity
 #
 ifdef
 DEBUG
-mEntered
+entered
 (
 false
 )
