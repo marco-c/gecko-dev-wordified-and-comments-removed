@@ -826,7 +826,15 @@ outMakeVisible
 *
 outMakeVisible
 =
+(
 mVisible
+&
+&
+MustDrawCaret
+(
+PR_TRUE
+)
+)
 ;
 return
 NS_OK
