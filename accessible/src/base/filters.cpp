@@ -26,6 +26,13 @@ States
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 bool
 filters
 :

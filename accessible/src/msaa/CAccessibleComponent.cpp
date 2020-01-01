@@ -47,6 +47,13 @@ nsIDOMNSRGBAColor
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 enum
 {
 IA2AlphaShift

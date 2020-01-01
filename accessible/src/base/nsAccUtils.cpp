@@ -117,6 +117,13 @@ nsComponentManagerUtils
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 void
 nsAccUtils
 :

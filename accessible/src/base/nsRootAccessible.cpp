@@ -316,6 +316,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 NS_IMPL_QUERY_HEAD
 (
 nsRootAccessible

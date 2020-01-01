@@ -12,6 +12,12 @@ prtypes
 h
 >
 namespace
+mozilla
+{
+namespace
+a11y
+{
+namespace
 states
 {
 const
@@ -672,6 +678,8 @@ PRUint64
 <
 46
 ;
+}
+}
 }
 #
 endif

@@ -47,6 +47,13 @@ nsIDOMElement
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+a11y
+;
 nsXULColorPickerTileAccessible
 :
 :
