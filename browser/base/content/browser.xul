@@ -5097,6 +5097,11 @@ bookmarksItem
 title
 ;
 "
+removable
+=
+"
+true
+"
 >
 <
 hbox
