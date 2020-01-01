@@ -353,8 +353,6 @@ JSResolveOp
 )
 document_resolve
 JS_ConvertStub
-JS_FinalizeStub
-JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
 BEGIN_TEST

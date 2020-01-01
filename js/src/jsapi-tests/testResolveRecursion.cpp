@@ -31,8 +31,6 @@ JSResolveOp
 )
 my_resolve
 JS_ConvertStub
-JS_FinalizeStub
-JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
 obj1

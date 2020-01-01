@@ -932,7 +932,7 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-JS_FinalizeStub
+NULL
 NULL
 NULL
 NULL
@@ -1453,7 +1453,7 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-JS_FinalizeStub
+NULL
 NULL
 NULL
 NULL
@@ -1495,7 +1495,6 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-JS_FinalizeStub
 }
 ;
 JS_FRIEND_DATA
@@ -1525,7 +1524,6 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-JS_FinalizeStub
 }
 ;
 #
@@ -23497,19 +23495,6 @@ JS_TRUE
 ;
 }
 static
-void
-xml_finalize
-(
-JSContext
-*
-cx
-JSObject
-*
-obj
-)
-{
-}
-static
 JSBool
 xml_lookupGeneric
 (
@@ -26677,7 +26662,7 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 xml_convert
-xml_finalize
+NULL
 NULL
 NULL
 NULL
