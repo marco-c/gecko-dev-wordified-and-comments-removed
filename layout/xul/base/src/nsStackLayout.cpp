@@ -526,10 +526,6 @@ ascent
 margin
 .
 top
-+
-margin
-.
-bottom
 ;
 if
 (
