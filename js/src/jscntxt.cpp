@@ -4727,6 +4727,13 @@ JSContext
 cx
 )
 {
+if
+(
+gcRunning
+)
+return
+NULL
+;
 ShrinkGCBuffers
 (
 this
