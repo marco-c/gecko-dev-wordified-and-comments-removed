@@ -691,15 +691,6 @@ return
 NS_OK
 ;
 }
-/
-*
-boolean
-start
-(
-)
-;
-*
-/
 NS_IMETHODIMP
 nsNativeAppSupportCocoa
 :

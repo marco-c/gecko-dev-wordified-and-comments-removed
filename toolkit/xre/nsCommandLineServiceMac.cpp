@@ -1043,9 +1043,6 @@ kCommandLinePrefix
 chars
 )
 {
-(
-void
-)
 AddToCommandLine
 (
 chars
@@ -1076,9 +1073,6 @@ kEnvVarLinePrefix
 chars
 )
 {
-(
-void
-)
 AddToEnvironmentVars
 (
 chars

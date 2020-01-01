@@ -1,9 +1,9 @@
 #
 ifndef
-__MacLaunchHelper_h__
+MacLaunchHelper_h_
 #
 define
-__MacLaunchHelper_h__
+MacLaunchHelper_h_
 extern
 "
 C
