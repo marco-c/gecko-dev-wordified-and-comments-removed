@@ -734,7 +734,6 @@ cursor
 new
 SmsCursor
 (
-nsnull
 )
 ;
 }
@@ -804,7 +803,6 @@ new
 SmsCursor
 (
 aListId
-nsnull
 request
 )
 ;
