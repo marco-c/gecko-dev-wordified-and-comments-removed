@@ -1,6 +1,6 @@
 include
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 build
