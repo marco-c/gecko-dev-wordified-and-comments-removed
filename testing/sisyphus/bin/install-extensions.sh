@@ -488,7 +488,7 @@ N
 profilename
 -
 E
-extensions
+extensiondir
 [
 -
 d
@@ -635,7 +635,7 @@ profile
 name
 -
 E
-extensions
+extensiondir
 required
 .
 path
@@ -692,7 +692,7 @@ product
 branch
 executablepath
 profilename
-extensions
+extensiondir
 datafiles
 while
 getopts
@@ -733,7 +733,7 @@ OPTARG
 ;
 E
 )
-extensions
+extensiondir
 =
 OPTARG
 ;
@@ -788,7 +788,7 @@ profilename
 -
 z
 "
-extensions
+extensiondir
 "
 ]
 ]
@@ -837,7 +837,7 @@ get_executable
 product
 branch
 executablepath
-extensiondir
+executableextensiondir
 =
 dirname
 executable
@@ -885,14 +885,14 @@ fi
 for
 extensionloc
 in
-extensions
+extensiondir
 /
 all
 /
 *
 .
 xpi
-extensions
+extensiondir
 /
 OSID
 /
@@ -908,7 +908,7 @@ extensionloc
 =
 =
 "
-extensions
+extensiondir
 /
 all
 /
@@ -929,7 +929,7 @@ extensionloc
 =
 =
 "
-extensions
+extensiondir
 /
 OSID
 /
@@ -1053,7 +1053,7 @@ if
 !
 -
 e
-extensiondir
+executableextensiondir
 /
 extensionuuid
 ]
@@ -1063,7 +1063,7 @@ then
 echo
 extensionosinstalldir
 >
-extensiondir
+executableextensiondir
 /
 extensionuuid
 fi

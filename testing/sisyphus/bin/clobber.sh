@@ -519,6 +519,15 @@ bashlogin
 -
 c
 "
+export
+PATH
+=
+\
+"
+BUILDPATH
+\
+"
+;
 cd
 BUILDTREE
 /
