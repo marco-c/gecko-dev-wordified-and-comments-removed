@@ -444,6 +444,8 @@ Constants
 JPAKE_ERROR_KEYMISMATCH
 )
 ;
+return
+;
 }
 }
 public

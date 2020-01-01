@@ -157,6 +157,8 @@ Constants
 JPAKE_ERROR_INTERNAL
 )
 ;
+return
+;
 }
 try
 {
