@@ -129,10 +129,6 @@ SUTAgentAndroid
 .
 java
 \
-SUTStartupIntentReceiver
-.
-java
-\
 WifiConfiguration
 .
 java
