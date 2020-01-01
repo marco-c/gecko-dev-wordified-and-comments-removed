@@ -1752,11 +1752,6 @@ funHasAnyAliasedFormal
 1
 ;
 bool
-warnedAboutTwoArgumentEval
-:
-1
-;
-bool
 warnedAboutUndefinedProp
 :
 1
