@@ -2981,7 +2981,7 @@ js
 :
 SetFunctionNativeReserved
 (
-post
+ctor
 0
 PRIVATE_TO_JSVAL
 (
