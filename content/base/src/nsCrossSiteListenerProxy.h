@@ -237,6 +237,12 @@ mRequestingPrincipal
 ;
 nsCOMPtr
 <
+nsIPrincipal
+>
+mOriginHeaderPrincipal
+;
+nsCOMPtr
+<
 nsIInterfaceRequestor
 >
 mOuterNotificationCallbacks
