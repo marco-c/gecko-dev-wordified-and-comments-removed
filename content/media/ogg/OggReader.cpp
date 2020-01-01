@@ -4019,6 +4019,9 @@ rate
 HasAudio
 (
 )
+HasVideo
+(
+)
 tags
 )
 ;
