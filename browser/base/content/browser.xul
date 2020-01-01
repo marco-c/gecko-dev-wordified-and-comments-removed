@@ -2410,9 +2410,7 @@ moreInfoLinkText
 onblur
 =
 "
-getIdentityHandler
-(
-)
+gIdentityHandler
 .
 hideIdentityPopup
 (
@@ -2422,9 +2420,7 @@ hideIdentityPopup
 oncommand
 =
 "
-getIdentityHandler
-(
-)
+gIdentityHandler
 .
 handleMoreInfoClick
 (
@@ -3896,9 +3892,7 @@ dir
 onclick
 =
 "
-getIdentityHandler
-(
-)
+gIdentityHandler
 .
 handleIdentityButtonEvent
 (
@@ -3909,9 +3903,7 @@ event
 onkeypress
 =
 "
-getIdentityHandler
-(
-)
+gIdentityHandler
 .
 handleIdentityButtonEvent
 (
