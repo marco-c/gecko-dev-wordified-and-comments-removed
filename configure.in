@@ -38165,7 +38165,6 @@ NECKO_PROTOCOLS_DEFAULT
 "
 about
 data
-device
 file
 ftp
 http
