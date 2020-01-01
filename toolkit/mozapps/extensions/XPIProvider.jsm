@@ -23511,12 +23511,6 @@ Cr
 NS_OK
 )
 ;
-this
-.
-channel
-=
-aNewChannel
-;
 }
 onStartRequest
 :
