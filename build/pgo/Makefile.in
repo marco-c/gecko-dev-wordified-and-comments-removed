@@ -890,7 +890,7 @@ INSTALL
 (
 _PROFILE_DIR
 )
-tools
+genservercert
 :
 :
 (
