@@ -2142,7 +2142,7 @@ close
 }
 catch
 (
-IllegalArgumentException
+Exception
 e
 )
 {
