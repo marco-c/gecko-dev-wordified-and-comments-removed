@@ -408,8 +408,10 @@ after
 storing
 is
 done
-.
+:
 "
++
+end
 )
 ;
 Runnable
