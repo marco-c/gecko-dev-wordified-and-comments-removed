@@ -10361,6 +10361,8 @@ argv
 lines
 |
 =
+!
+!
 JS_MatchStringAndAscii
 (
 str
@@ -10373,6 +10375,8 @@ l
 recursive
 |
 =
+!
+!
 JS_MatchStringAndAscii
 (
 str
