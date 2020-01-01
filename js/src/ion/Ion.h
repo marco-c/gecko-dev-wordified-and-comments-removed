@@ -100,6 +100,9 @@ uint32
 smallFunctionMaxBytecodeLength
 ;
 uint32
+smallFunctionUsesBeforeCompile
+;
+uint32
 smallFunctionUsesBeforeInlining
 ;
 uint32
@@ -201,6 +204,12 @@ maxInlineDepth
 smallFunctionMaxBytecodeLength
 (
 100
+)
+smallFunctionUsesBeforeCompile
+(
+usesBeforeCompile
+/
+4
 )
 smallFunctionUsesBeforeInlining
 (
