@@ -1255,15 +1255,6 @@ kLoadAsData
 loadAsData
 "
 ;
-nsIDOMScriptObjectFactory
-*
-nsContentUtils
-:
-:
-sDOMScriptObjectFactory
-=
-nullptr
-;
 nsIXPConnect
 *
 nsContentUtils
@@ -7277,11 +7268,6 @@ sStringBundleService
 NS_IF_RELEASE
 (
 sConsoleService
-)
-;
-NS_IF_RELEASE
-(
-sDOMScriptObjectFactory
 )
 ;
 sXPConnect
