@@ -1559,12 +1559,6 @@ CallArgs
 args
 )
 {
-const
-jsid
-id
-=
-JSID_VOID
-;
 RootedObject
 wrapper
 (
@@ -1581,8 +1575,7 @@ toObject
 )
 )
 ;
-CHECKED
-(
+return
 DirectProxyHandler
 :
 :
@@ -1592,8 +1585,6 @@ cx
 test
 impl
 args
-)
-CALL
 )
 ;
 }
