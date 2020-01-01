@@ -604,7 +604,9 @@ aEvent
 )
 -
 >
-isShift
+IsShift
+(
+)
 ;
 isControl
 =
@@ -619,7 +621,9 @@ aEvent
 )
 -
 >
-isControl
+IsControl
+(
+)
 ;
 isAlt
 =
@@ -634,7 +638,9 @@ aEvent
 )
 -
 >
-isAlt
+IsAlt
+(
+)
 ;
 isMeta
 =
@@ -649,7 +655,9 @@ aEvent
 )
 -
 >
-isMeta
+IsMeta
+(
+)
 ;
 }
 nsCOMPtr

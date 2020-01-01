@@ -1976,7 +1976,9 @@ NS_VK_SPACE
 keyEvent
 -
 >
-isMeta
+IsMeta
+(
+)
 )
 |
 |
@@ -2021,7 +2023,9 @@ NS_VK_F4
 keyEvent
 -
 >
-isAlt
+IsAlt
+(
+)
 )
 |
 |
@@ -2043,7 +2047,9 @@ NS_VK_DOWN
 keyEvent
 -
 >
-isAlt
+IsAlt
+(
+)
 )
 )
 {
@@ -5549,7 +5555,9 @@ aEvent
 )
 -
 >
-isShift
+IsShift
+(
+)
 ;
 control
 =
@@ -5563,7 +5571,9 @@ aEvent
 )
 -
 >
-isControl
+IsControl
+(
+)
 ;
 alt
 =
@@ -5577,7 +5587,9 @@ aEvent
 )
 -
 >
-isAlt
+IsAlt
+(
+)
 ;
 meta
 =
@@ -5591,7 +5603,9 @@ aEvent
 )
 -
 >
-isMeta
+IsMeta
+(
+)
 ;
 }
 bool

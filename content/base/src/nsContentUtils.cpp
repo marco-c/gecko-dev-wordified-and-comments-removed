@@ -20456,7 +20456,9 @@ if
 nativeKeyEvent
 -
 >
-isShift
+IsShift
+(
+)
 )
 {
 for
