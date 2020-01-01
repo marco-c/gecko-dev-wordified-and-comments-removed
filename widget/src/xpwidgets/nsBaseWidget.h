@@ -598,16 +598,6 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-virtual
-nsresult
-ForceNativeMenuReload
-(
-)
-{
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
-}
 NS_IMETHOD
 ResetInputState
 (
