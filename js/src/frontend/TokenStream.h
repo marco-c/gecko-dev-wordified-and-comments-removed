@@ -1,9 +1,9 @@
 #
 ifndef
-jsscan_h___
+TokenStream_h__
 #
 define
-jsscan_h___
+TokenStream_h__
 #
 include
 <
