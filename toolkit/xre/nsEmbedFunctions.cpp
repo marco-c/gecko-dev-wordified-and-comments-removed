@@ -1710,6 +1710,8 @@ ContentProcessProcess
 parentHandle
 )
 ;
+break
+;
 case
 GeckoProcessType_Jetpack
 :
