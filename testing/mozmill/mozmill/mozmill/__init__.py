@@ -5181,6 +5181,17 @@ self
 .
 mozmill
 .
+stop
+(
+fatal
+=
+disconnected
+)
+            
+self
+.
+mozmill
+.
 report
 (
 self
@@ -5188,17 +5199,6 @@ self
 options
 .
 report
-)
-            
-self
-.
-mozmill
-.
-stop
-(
-fatal
-=
-disconnected
 )
             
 if

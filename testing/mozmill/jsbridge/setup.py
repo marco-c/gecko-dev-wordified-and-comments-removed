@@ -49,7 +49,7 @@ PACKAGE_VERSION
 .
 4
 .
-1
+1rc2
 "
 requires
 =
@@ -62,7 +62,7 @@ mozrunner
 .
 5
 .
-2
+2rc2
 '
 ]
 if

@@ -48,7 +48,7 @@ PACKAGE_VERSION
 .
 5
 .
-1
+1rc2
 "
 setup
 (
@@ -252,7 +252,7 @@ jsbridge
 .
 4
 .
-1
+1rc2
 '
 '
 mozrunner
@@ -262,7 +262,7 @@ mozrunner
 .
 5
 .
-2
+2rc2
 '
 ]
       
