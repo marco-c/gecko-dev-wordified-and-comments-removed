@@ -627,7 +627,7 @@ WINCE
 sizemode
 =
 "
-maximized
+fullscreen
 "
 #
 elifdef
