@@ -1813,7 +1813,7 @@ general
 .
 smoothScroll
 "
-false
+true
 )
 ;
 #
