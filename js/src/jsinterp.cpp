@@ -36,13 +36,6 @@ h
 #
 include
 "
-jsarena
-.
-h
-"
-#
-include
-"
 jsutil
 .
 h
