@@ -1623,9 +1623,6 @@ HIMC
 aHIMC
 DWORD
 aIndex
-nsString
-*
-aStrUnicode
 )
 ;
 void
