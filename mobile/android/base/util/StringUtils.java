@@ -22,6 +22,14 @@ boolean
 wasSearchQuery
 )
 {
+text
+=
+text
+.
+trim
+(
+)
+;
 if
 (
 text
