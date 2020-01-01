@@ -4258,11 +4258,6 @@ button
 -
 container
 "
-align
-=
-"
-start
-"
 >
 <
 button
@@ -4338,6 +4333,11 @@ id
 titlebar
 -
 buttonbox
+"
+align
+=
+"
+start
 "
 >
 <
