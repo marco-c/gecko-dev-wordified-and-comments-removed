@@ -755,6 +755,14 @@ change
 )
 ;
 PRInt32
+ComputeWheelDeltaFor
+(
+nsMouseScrollEvent
+*
+aMouseEvent
+)
+;
+PRInt32
 ComputeWheelActionFor
 (
 nsMouseScrollEvent
