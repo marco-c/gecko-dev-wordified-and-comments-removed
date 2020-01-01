@@ -202,11 +202,14 @@ mCurKeyEvent
 PRBool
 mKeyDownHandled
 ;
-NSRange
-mMarkedRange
-;
 BOOL
 mIgnoreDoCommand
+;
+BOOL
+mKeyPressSent
+;
+NSRange
+mMarkedRange
 ;
 BOOL
 mInHandScroll
