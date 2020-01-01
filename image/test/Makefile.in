@@ -1,5 +1,4 @@
 #
-#
 This
 Source
 Code
@@ -92,16 +91,6 @@ test_libpr0n
 XPCSHELL_TESTS
 =
 unit
-DIRS
-+
-=
-mochitest
-\
-browser
-\
-(
-NULL
-)
 include
 (
 topsrcdir

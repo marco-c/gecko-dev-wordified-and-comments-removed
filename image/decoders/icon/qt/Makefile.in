@@ -119,9 +119,6 @@ lib
 FORCE_STATIC_LIB
 =
 1
-DIRS
-=
-public
 EXTRA_COMPONENTS
 =
 gtkqticonsconverter
