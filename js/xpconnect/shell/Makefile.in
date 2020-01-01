@@ -426,6 +426,11 @@ xpcshell
 (
 BIN_SUFFIX
 )
+SDK_BINARY
+=
+(
+PROGRAM
+)
 CPPSRCS
 =
 xpcshell

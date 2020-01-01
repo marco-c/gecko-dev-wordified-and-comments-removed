@@ -454,6 +454,13 @@ endif
 TEST_DIRS
 =
 test
+SDK_BINARY
+=
+run
+-
+mozilla
+.
+sh
 include
 (
 topsrcdir
