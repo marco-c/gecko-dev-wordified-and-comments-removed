@@ -13384,11 +13384,9 @@ content
 content
 -
 >
-GetChildCount
+GetFirstChild
 (
 )
->
-0
 )
 {
 content
@@ -13396,9 +13394,8 @@ content
 content
 -
 >
-GetChildAt
+GetFirstChild
 (
-0
 )
 ;
 }
