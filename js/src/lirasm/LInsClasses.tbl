@@ -1000,6 +1000,7 @@ LOP_I_F
 %
 LIR_qlo
 LIR_qhi
+LIR_f2i
 CLASS
 (
 LOP_F_II
