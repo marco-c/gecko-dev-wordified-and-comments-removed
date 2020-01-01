@@ -140,6 +140,14 @@ ChildCount
 const
 ;
 virtual
+Relation
+RelationByType
+(
+uint32_t
+aType
+)
+;
+virtual
 already_AddRefed
 <
 nsIArray

@@ -90,6 +90,13 @@ nsIAccessibleRelation
 RELATION_NODE_CHILD_OF
 ;
 const
+RELATION_NODE_PARENT_OF
+=
+nsIAccessibleRelation
+.
+RELATION_NODE_PARENT_OF
+;
+const
 RELATION_PARENT_WINDOW_OF
 =
 nsIAccessibleRelation
