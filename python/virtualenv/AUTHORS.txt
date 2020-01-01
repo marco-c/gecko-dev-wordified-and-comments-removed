@@ -25,6 +25,8 @@ Carl
 Meyer
 Jannis
 Leidel
+Paul
+Nasrat
 Contributors
 -
 -
@@ -47,6 +49,8 @@ Antonio
 Cuni
 Armin
 Ronacher
+Benjamin
+Root
 Bradley
 Ayers
 Branden
@@ -64,6 +68,8 @@ Cliff
 Xuan
 Curt
 Micol
+Damien
+Nozay
 David
 Schoonover
 Doug
@@ -74,6 +80,9 @@ Douglas
 Creager
 Ethan
 Jucovy
+Gabriel
+de
+Perthuis
 Gunnlaugur
 Thor
 Briem
@@ -85,6 +94,8 @@ R
 Coombs
 Jeff
 Hammel
+Jeremy
+Orem
 Jonathan
 Griffin
 Jorge
@@ -103,6 +114,8 @@ Mike
 Hommey
 Miki
 Tebeka
+Paul
+Moore
 Philip
 Jenvey
 Raul
