@@ -9710,7 +9710,10 @@ push
 (
 BooleanValue
 (
-true
+op
+=
+=
+JSOP_STRICTEQ
 )
 )
 ;
