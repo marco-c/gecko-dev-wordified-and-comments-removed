@@ -2750,11 +2750,6 @@ PRInt32
 i
 count
 ;
-PRBool
-pollError
-=
-PR_FALSE
-;
 count
 =
 mIdleCount
@@ -3099,10 +3094,6 @@ PR_GetError
 )
 )
 )
-;
-pollError
-=
-PR_TRUE
 ;
 }
 else
