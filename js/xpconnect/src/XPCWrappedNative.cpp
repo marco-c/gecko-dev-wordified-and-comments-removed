@@ -1737,6 +1737,11 @@ XPCWrappedNative
 resultWrapper
 )
 {
+MOZ_ASSERT
+(
+Interface
+)
+;
 AutoJSContext
 cx
 ;
@@ -1906,9 +1911,6 @@ wrapper
 {
 if
 (
-Interface
-&
-&
 !
 wrapper
 -
@@ -1960,9 +1962,6 @@ NS_OK
 bool
 iidIsClassInfo
 =
-Interface
-&
-&
 Interface
 -
 >
@@ -2321,10 +2320,6 @@ wrapper
 {
 if
 (
-Interface
-&
-&
-!
 wrapper
 -
 >
@@ -2650,9 +2645,6 @@ NS_ERROR_FAILURE
 ;
 if
 (
-Interface
-&
-&
 !
 wrapper
 -
@@ -3167,6 +3159,11 @@ Object
 "
 )
 ;
+MOZ_ASSERT
+(
+Interface
+)
+;
 nsRefPtr
 <
 XPCWrappedNative
@@ -3327,9 +3324,6 @@ rv
 ;
 if
 (
-Interface
-&
-&
 !
 wrapper
 -
