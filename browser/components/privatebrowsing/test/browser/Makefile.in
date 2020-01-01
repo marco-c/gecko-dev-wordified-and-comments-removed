@@ -509,6 +509,10 @@ browser_privatebrowsing_sslsite_transition
 .
 js
 \
+browser_privatebrowsing_popupmode
+.
+js
+\
 (
 NULL
 )
