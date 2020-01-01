@@ -2683,7 +2683,12 @@ panel
 if
 (
 !
-sIsGeckoReady
+checkLaunchState
+(
+LaunchState
+.
+GeckoRunning
+)
 )
 return
 ;
@@ -4593,7 +4598,12 @@ false
 if
 (
 !
-sIsGeckoReady
+checkLaunchState
+(
+LaunchState
+.
+GeckoRunning
+)
 )
 aMenu
 .
