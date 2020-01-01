@@ -1001,6 +1001,10 @@ TabsAccessor
 .
 java
 \
+Telemetry
+.
+java
+\
 gfx
 /
 BitmapUtils
