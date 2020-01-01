@@ -3134,7 +3134,7 @@ aBrowser
 contentTitle
 aBrowser
 .
-documentURI
+currentURI
 null
 null
 )
