@@ -25813,15 +25813,6 @@ JSID_TO_STRING
 id
 )
 ;
-if
-(
-!
-ObjectIsNativeWrapper
-(
-cx
-obj
-)
-)
 {
 nsCOMPtr
 <
