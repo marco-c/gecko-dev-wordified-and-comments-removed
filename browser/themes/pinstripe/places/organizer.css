@@ -1727,9 +1727,6 @@ end
 ;
 }
 #
-placesToolbar
->
-#
 clearDownloadsButton
 {
 list
@@ -1739,6 +1736,8 @@ style
 image
 :
 none
+!
+important
 ;
 }
 #
@@ -1765,5 +1764,7 @@ text
 display
 :
 inline
+!
+important
 ;
 }
