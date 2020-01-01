@@ -985,13 +985,11 @@ mDocument
 )
 )
 {
-nsRefPtr
-<
 nsRootAccessible
->
+*
 root
 =
-GetRootAccessible
+RootAccessible
 (
 )
 ;

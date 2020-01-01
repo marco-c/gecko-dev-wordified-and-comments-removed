@@ -221,13 +221,12 @@ GetDocAccessible
 )
 const
 ;
-already_AddRefed
-<
 nsRootAccessible
->
-GetRootAccessible
+*
+RootAccessible
 (
 )
+const
 ;
 static
 nsINode
