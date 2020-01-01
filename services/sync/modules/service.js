@@ -6488,14 +6488,10 @@ engine
 in
 engines
 )
-yield
 engine
 .
 wipeClient
 (
-self
-.
-cb
 )
 ;
 }
