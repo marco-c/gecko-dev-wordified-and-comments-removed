@@ -3030,7 +3030,7 @@ aAddons
 aShowRating
 )
 {
-var
+let
 urlproperties
 =
 [
@@ -3042,7 +3042,7 @@ homepageURL
 "
 ]
 ;
-var
+let
 foundItem
 =
 false
@@ -3222,6 +3222,12 @@ addon
 description
 )
 ;
+if
+(
+addon
+.
+homepageURL
+)
 listitem
 .
 setAttribute
