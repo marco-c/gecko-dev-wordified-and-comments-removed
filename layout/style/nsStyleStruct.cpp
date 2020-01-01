@@ -4874,13 +4874,7 @@ mDominantBaseline
 NS_UpdateHint
 (
 hint
-nsChangeHint_NeedReflow
-)
-;
-NS_UpdateHint
-(
-hint
-nsChangeHint_NeedDirtyReflow
+NS_STYLE_HINT_REFLOW
 )
 ;
 }
