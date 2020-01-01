@@ -601,9 +601,6 @@ js
 os2prefs
 .
 js
-openvms
-.
-js
 )
 GARBAGE
 +

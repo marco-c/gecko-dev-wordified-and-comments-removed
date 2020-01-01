@@ -642,16 +642,3 @@ D_TIME_H
 1
 endif
 endif
-ifeq
-(
-(
-OS_ARCH
-)
-OpenVMS
-)
-DEFINES
-+
-=
--
-DGENERIC_MOTIF_REDEFINES
-endif
