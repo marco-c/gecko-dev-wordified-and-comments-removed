@@ -1404,6 +1404,17 @@ true
 }
 else
 {
+if
+(
+gBrowser
+.
+tabs
+.
+length
+>
+1
+)
+{
 var
 group
 =
@@ -1496,6 +1507,7 @@ showTabCandy
 (
 )
 ;
+}
 }
 }
 return
