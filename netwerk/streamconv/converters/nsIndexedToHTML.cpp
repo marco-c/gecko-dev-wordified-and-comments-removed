@@ -6657,7 +6657,13 @@ pushBuffer
 .
 AppendInt
 (
+static_cast
+<
+int64_t
+>
+(
 t
+)
 )
 ;
 pushBuffer

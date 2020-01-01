@@ -242,6 +242,6 @@ NS_IMPL_GETSET
 (
 nsDirIndex
 LastModified
-int64_t
+PRTime
 mLastModified
 )

@@ -58,7 +58,7 @@ mDescription
 int64_t
 mSize
 ;
-int64_t
+PRTime
 mLastModified
 ;
 }
