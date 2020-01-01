@@ -72,7 +72,7 @@ BEGIN_TEST
 testAddPropertyHook
 )
 {
-JS
+js
 :
 :
 RootedObject
@@ -93,7 +93,7 @@ CHECK
 obj
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -135,7 +135,7 @@ CHECK
 obj
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -196,7 +196,7 @@ CHECK
 obj
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -209,7 +209,7 @@ obj
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject

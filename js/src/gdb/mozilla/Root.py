@@ -128,7 +128,7 @@ ptr
 template_pretty_printer
 (
 "
-JS
+js
 :
 :
 Rooted
@@ -298,7 +298,7 @@ tag
 startswith
 (
 '
-JS
+js
 :
 :
 Rooted
@@ -321,7 +321,7 @@ tag
 startswith
 (
 '
-JS
+js
 :
 :
 Handle

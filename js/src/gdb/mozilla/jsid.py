@@ -295,7 +295,7 @@ body
 pretty_printer
 (
 '
-JS
+js
 :
 :
 Rooted

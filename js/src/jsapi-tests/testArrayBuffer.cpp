@@ -29,7 +29,7 @@ BEGIN_TEST
 testArrayBuffer_bug720949_steal
 )
 {
-JS
+js
 :
 :
 RootedObject
@@ -42,7 +42,7 @@ buf_len200
 cx
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -232,7 +232,7 @@ sizes
 i
 ]
 ;
-JS
+js
 :
 :
 RootedValue
@@ -534,7 +534,7 @@ v
 JSVAL_VOID
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -563,7 +563,7 @@ JS_GetArrayBufferData
 obj
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -690,7 +690,7 @@ BEGIN_TEST
 testArrayBuffer_bug720949_viewList
 )
 {
-JS
+js
 :
 :
 RootedObject
@@ -725,7 +725,7 @@ cx
 2000
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -834,7 +834,7 @@ cx
 2000
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -851,7 +851,7 @@ buffer
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -995,7 +995,7 @@ HandleObject
 obj
 )
 {
-JS
+js
 :
 :
 RootedValue

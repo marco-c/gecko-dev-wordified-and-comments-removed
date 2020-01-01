@@ -224,7 +224,7 @@ false
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -236,7 +236,7 @@ createGlobal
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -248,7 +248,7 @@ createGlobal
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -672,7 +672,7 @@ rt
 gcIsFull
 )
 ;
-JS
+js
 :
 :
 RootedObject

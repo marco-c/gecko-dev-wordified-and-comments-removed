@@ -17,7 +17,7 @@ BEGIN_TEST
 test_cloneScript
 )
 {
-JS
+js
 :
 :
 RootedObject
@@ -29,7 +29,7 @@ createGlobal
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -116,7 +116,7 @@ sum
 n
 "
 ;
-JS
+js
 :
 :
 RootedObject
@@ -324,7 +324,7 @@ rt
 principalsB
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -337,7 +337,7 @@ principalsA
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -390,7 +390,7 @@ arg
 }
 "
 ;
-JS
+js
 :
 :
 RootedObject
@@ -407,7 +407,7 @@ cx
 A
 )
 ;
-JS
+js
 :
 :
 RootedFunction
@@ -490,7 +490,7 @@ cx
 B
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -559,7 +559,7 @@ script
 principalsB
 )
 ;
-JS
+js
 :
 :
 RootedValue

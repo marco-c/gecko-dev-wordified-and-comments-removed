@@ -8,7 +8,7 @@ instantiations
 -
 of
 -
-JS
+js
 :
 :
 Rooted

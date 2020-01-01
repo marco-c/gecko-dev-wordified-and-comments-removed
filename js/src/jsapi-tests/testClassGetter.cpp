@@ -241,7 +241,7 @@ i
 +
 )
 {
-JS
+js
 :
 :
 RootedValue

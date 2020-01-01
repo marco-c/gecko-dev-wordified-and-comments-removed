@@ -13,7 +13,7 @@ JSObject
 simple
 )
 {
-JS
+js
 :
 :
 Rooted
@@ -30,7 +30,7 @@ cx
 )
 )
 ;
-JS
+js
 :
 :
 Rooted
@@ -50,7 +50,7 @@ cx
 )
 )
 ;
-JS
+js
 :
 :
 Rooted
@@ -84,7 +84,7 @@ dys
 )
 )
 ;
-JS
+js
 :
 :
 Rooted
@@ -116,7 +116,7 @@ cx
 )
 )
 ;
-JS
+js
 :
 :
 Rooted
@@ -234,7 +234,7 @@ JSObject
 null
 )
 {
-JS
+js
 :
 :
 Rooted

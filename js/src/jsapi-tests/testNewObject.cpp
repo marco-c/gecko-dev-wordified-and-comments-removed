@@ -39,7 +39,7 @@ jsval
 vp
 )
 {
-JS
+js
 :
 :
 RootedObject
@@ -56,7 +56,7 @@ vp
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -323,7 +323,7 @@ argv1
 )
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -344,7 +344,7 @@ address
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -357,7 +357,7 @@ v
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -378,7 +378,7 @@ CHECK
 obj
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -602,7 +602,7 @@ NULL
 constructHook
 }
 ;
-JS
+js
 :
 :
 RootedObject
@@ -624,7 +624,7 @@ CHECK
 ctor
 )
 ;
-JS
+js
 :
 :
 RootedValue

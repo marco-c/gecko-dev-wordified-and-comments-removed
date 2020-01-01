@@ -810,7 +810,7 @@ isInterpretedLazy
 )
 )
 {
-JS
+js
 :
 :
 RootedFunction

@@ -151,7 +151,7 @@ startLine
 =
 1000
 ;
-JS
+js
 :
 :
 RootedScript

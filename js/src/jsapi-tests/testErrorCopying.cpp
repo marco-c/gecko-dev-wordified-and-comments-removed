@@ -63,7 +63,7 @@ foo
 "
 )
 ;
-JS
+js
 :
 :
 RootedValue

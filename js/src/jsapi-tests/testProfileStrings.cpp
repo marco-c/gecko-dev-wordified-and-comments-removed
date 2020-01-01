@@ -154,7 +154,7 @@ vp
 jsval
 r
 ;
-JS
+js
 :
 :
 RootedObject
@@ -361,7 +361,7 @@ psize
 10
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -588,7 +588,7 @@ cx
 )
 ;
 {
-JS
+js
 :
 :
 RootedValue
@@ -714,7 +714,7 @@ cx
 )
 ;
 {
-JS
+js
 :
 :
 RootedValue
@@ -810,7 +810,7 @@ cx
 )
 ;
 {
-JS
+js
 :
 :
 RootedValue
@@ -1105,7 +1105,7 @@ cx
 )
 ;
 {
-JS
+js
 :
 :
 RootedValue
@@ -1255,7 +1255,7 @@ cx
 )
 ;
 {
-JS
+js
 :
 :
 RootedValue
@@ -1400,7 +1400,7 @@ JSOPTION_DONT_REPORT_UNCAUGHT
 )
 ;
 {
-JS
+js
 :
 :
 RootedValue
@@ -1568,7 +1568,7 @@ false
 )
 ;
 {
-JS
+js
 :
 :
 RootedValue
@@ -1678,7 +1678,7 @@ cx
 )
 ;
 {
-JS
+js
 :
 :
 RootedValue
@@ -1754,7 +1754,7 @@ cx
 )
 ;
 {
-JS
+js
 :
 :
 RootedValue
@@ -1885,7 +1885,7 @@ false
 )
 ;
 {
-JS
+js
 :
 :
 RootedValue

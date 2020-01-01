@@ -253,6 +253,9 @@ ar
 cx
 )
 ;
+js
+:
+:
 RootedObject
 global
 (

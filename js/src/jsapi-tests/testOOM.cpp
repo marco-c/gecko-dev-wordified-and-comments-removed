@@ -19,7 +19,7 @@ BEGIN_TEST
 testOOM
 )
 {
-JS
+js
 :
 :
 RootedString

@@ -159,7 +159,7 @@ BEGIN_TEST
 test_CallNonGenericMethodOnProxy
 )
 {
-JS
+js
 :
 :
 RootedObject
@@ -181,7 +181,7 @@ CHECK
 globalA
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -234,7 +234,7 @@ CHECK
 customMethodA
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -270,7 +270,7 @@ Int32Value
 )
 ;
 {
-JS
+js
 :
 :
 RootedObject
@@ -299,7 +299,7 @@ cx
 globalB
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -331,7 +331,7 @@ Int32Value
 )
 )
 ;
-JS
+js
 :
 :
 RootedFunction
@@ -356,7 +356,7 @@ CHECK
 customMethodB
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -391,7 +391,7 @@ Int32Value
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -414,7 +414,7 @@ address
 )
 )
 ;
-JS
+js
 :
 :
 RootedValue

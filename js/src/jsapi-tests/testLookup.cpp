@@ -24,7 +24,7 @@ BEGIN_TEST
 testLookup_bug522590
 )
 {
-JS
+js
 :
 :
 RootedValue
@@ -102,7 +102,7 @@ address
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -115,7 +115,7 @@ x
 )
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -225,7 +225,7 @@ JSMutableHandleObject
 objp
 )
 {
-JS
+js
 :
 :
 RootedValue
@@ -297,7 +297,7 @@ all
 )
 )
 {
-JS
+js
 :
 :
 Rooted
@@ -326,7 +326,7 @@ docAll
 return
 false
 ;
-JS
+js
 :
 :
 Rooted
@@ -417,7 +417,7 @@ BEGIN_TEST
 testLookup_bug570195
 )
 {
-JS
+js
 :
 :
 RootedObject
@@ -458,7 +458,7 @@ NULL
 )
 )
 ;
-JS
+js
 :
 :
 RootedValue

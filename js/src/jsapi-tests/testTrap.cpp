@@ -38,7 +38,7 @@ jsval
 closureArg
 )
 {
-JS
+js
 :
 :
 RootedValue
@@ -147,7 +147,7 @@ sum
 n
 "
 ;
-JS
+js
 :
 :
 RootedScript
@@ -173,7 +173,7 @@ CHECK
 script
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -234,7 +234,7 @@ trap
 closure
 "
 ;
-JS
+js
 :
 :
 RootedString

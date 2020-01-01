@@ -810,7 +810,7 @@ nbytes
 2
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -835,7 +835,7 @@ address
 )
 )
 ;
-JS
+js
 :
 :
 RootedValue
@@ -1099,7 +1099,7 @@ elts
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
