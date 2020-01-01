@@ -1183,6 +1183,9 @@ TabParent
 *
 mRemoteBrowser
 ;
+uint64_t
+mChildID
+;
 uint32_t
 mRenderMode
 ;

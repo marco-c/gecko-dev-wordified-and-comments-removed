@@ -141,6 +141,11 @@ Social
 jsm
 '
 '
+TabCrashReporter
+.
+jsm
+'
+'
 offlineAppCache
 .
 jsm
