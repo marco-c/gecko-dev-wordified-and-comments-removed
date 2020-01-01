@@ -415,6 +415,14 @@ test_browserElement_inproc_ContextmenuEvents
 .
 html
 \
+browserElement_SendEvent
+.
+js
+\
+test_browserElement_inproc_SendEvent
+.
+html
+\
 (
 NULL
 )
@@ -603,6 +611,10 @@ test_browserElement_oop_Stop
 html
 \
 test_browserElement_oop_ContextmenuEvents
+.
+html
+\
+test_browserElement_oop_SendEvent
 .
 html
 \
