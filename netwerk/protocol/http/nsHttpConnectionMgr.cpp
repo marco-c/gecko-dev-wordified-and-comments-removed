@@ -4921,7 +4921,7 @@ n
 )
 )
 ;
-PRInt32
+PRUint32
 idx
 ;
 for
