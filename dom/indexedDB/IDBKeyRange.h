@@ -51,13 +51,9 @@ BEGIN_INDEXEDDB_NAMESPACE
 namespace
 ipc
 {
-namespace
-FIXME_Bug_521898_objectstore
-{
 class
 KeyRange
 ;
-}
 }
 class
 IDBKeyRange

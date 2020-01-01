@@ -156,6 +156,11 @@ IPDL_SOURCES
 =
 [
 '
+IndexedDBParams
+.
+ipdlh
+'
+'
 PIndexedDB
 .
 ipdl
