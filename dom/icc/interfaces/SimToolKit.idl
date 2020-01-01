@@ -1641,9 +1641,6 @@ STK_CMD_DISPLAY_TEXT
 STK_CMD_SET_UP_IDLE_MODE_TEXT
 *
 -
-STK_CMD_REFRESH
-*
--
 STK_CMD_SEND_
 {
 SS
@@ -2025,7 +2022,8 @@ events
 .
 *
 For
-STK_EVENT_TYPE_CALL_DISCONNECTED
+the
+STK_EVENT_TYPE_CALL_CONNECTED
 event
 setting
 this
@@ -2050,14 +2048,15 @@ call
 .
 *
 For
+the
 STK_EVENT_TYPE_CALL_DISCONNECTED
 event
 setting
 this
 to
 true
-indicates
 *
+indicates
 the
 connection
 is
