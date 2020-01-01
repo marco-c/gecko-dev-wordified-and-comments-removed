@@ -185,6 +185,10 @@ js
 \
 browser_cmd_cookie
 .
+html
+\
+browser_cmd_cookie
+.
 js
 \
 browser_cmd_jsb

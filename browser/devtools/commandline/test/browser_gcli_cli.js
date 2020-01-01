@@ -3099,10 +3099,6 @@ error
 :
 '
 '
-predictions
-:
-[
-]
 unassigned
 :
 [

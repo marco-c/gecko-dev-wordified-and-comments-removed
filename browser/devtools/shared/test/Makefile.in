@@ -85,10 +85,6 @@ unit
 MOCHITEST_BROWSER_FILES
 =
 \
-browser_browser_basic
-.
-js
-\
 browser_require_basic
 .
 js

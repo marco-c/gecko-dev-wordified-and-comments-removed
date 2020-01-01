@@ -372,12 +372,13 @@ post
 function
 (
 output
+text
 )
 {
 ok
 (
 !
-output
+text
 .
 contains
 (
@@ -591,12 +592,13 @@ post
 function
 (
 output
+text
 )
 {
 ok
 (
 !
-output
+text
 .
 contains
 (
@@ -617,7 +619,7 @@ output
 ok
 (
 !
-output
+text
 .
 contains
 (
@@ -638,7 +640,7 @@ output
 ok
 (
 !
-output
+text
 .
 contains
 (
@@ -659,7 +661,7 @@ output
 ok
 (
 !
-output
+text
 .
 contains
 (

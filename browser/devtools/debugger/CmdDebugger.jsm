@@ -29,6 +29,7 @@ resource
 :
 /
 /
+gre
 /
 modules
 /
@@ -907,7 +908,7 @@ breakaddlineLineDesc
 returnType
 :
 "
-html
+string
 "
 exec
 :
@@ -1140,7 +1141,7 @@ breakdelBreakidDesc
 returnType
 :
 "
-html
+string
 "
 exec
 :
@@ -1978,7 +1979,7 @@ params
 returnType
 :
 "
-html
+dom
 "
 exec
 :
