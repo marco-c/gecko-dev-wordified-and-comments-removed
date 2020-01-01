@@ -630,7 +630,7 @@ jsint
 )
 BUILTIN3
 (
-FastConcatStrings
+ConcatStrings
 LO
 LO
 LO
