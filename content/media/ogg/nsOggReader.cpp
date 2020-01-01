@@ -6474,10 +6474,8 @@ HasAudio
 &
 &
 granulepos
-!
-=
--
-1
+>
+0
 &
 &
 serial
@@ -6515,10 +6513,8 @@ HasVideo
 &
 &
 granulepos
-!
-=
--
-1
+>
+0
 &
 &
 serial
