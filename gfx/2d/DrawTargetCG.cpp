@@ -378,11 +378,11 @@ DrawTargetCG
 (
 )
 :
-mSnapshot
+mCg
 (
 nullptr
 )
-mCg
+mSnapshot
 (
 nullptr
 )
@@ -4374,6 +4374,7 @@ aType
 {
 if
 (
+(
 aType
 =
 =
@@ -4387,8 +4388,10 @@ mCg
 =
 =
 CG_CONTEXT_TYPE_BITMAP
+)
 |
 |
+(
 aType
 =
 =
@@ -4402,6 +4405,7 @@ mCg
 =
 =
 CG_CONTEXT_TYPE_IOSURFACE
+)
 )
 {
 return

@@ -788,9 +788,6 @@ mColorSpace
 CGContextRef
 mCg
 ;
-GLuint
-mIOSurfaceTexture
-;
 void
 *
 mData
