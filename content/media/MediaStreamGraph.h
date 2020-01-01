@@ -1971,6 +1971,10 @@ AudioNodeEngine
 aEngine
 AudioNodeStreamKind
 aKind
+TrackRate
+aSampleRate
+=
+0
 )
 ;
 int64_t

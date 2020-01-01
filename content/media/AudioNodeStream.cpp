@@ -1071,9 +1071,7 @@ Graph
 (
 )
 AUDIO_NODE_STREAM_TRACK_ID
-IdealAudioRate
-(
-)
+mSampleRate
 0
 MediaStreamListener
 :
@@ -1092,9 +1090,7 @@ mBuffer
 AddTrack
 (
 AUDIO_NODE_STREAM_TRACK_ID
-IdealAudioRate
-(
-)
+mSampleRate
 0
 segment
 .
@@ -2300,9 +2296,7 @@ Graph
 (
 )
 AUDIO_NODE_STREAM_TRACK_ID
-IdealAudioRate
-(
-)
+mSampleRate
 segment
 -
 >
@@ -2423,9 +2417,7 @@ Graph
 (
 )
 AUDIO_NODE_STREAM_TRACK_ID
-IdealAudioRate
-(
-)
+mSampleRate
 track
 -
 >

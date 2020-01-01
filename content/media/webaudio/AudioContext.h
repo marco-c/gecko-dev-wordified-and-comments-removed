@@ -341,12 +341,7 @@ SampleRate
 const
 {
 return
-float
-(
-IdealAudioRate
-(
-)
-)
+mSampleRate
 ;
 }
 double
@@ -686,6 +681,10 @@ WebAudioDecodeJob
 ;
 private
 :
+const
+float
+mSampleRate
+;
 nsRefPtr
 <
 AudioDestinationNode
