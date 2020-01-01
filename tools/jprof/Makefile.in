@@ -454,6 +454,9 @@ OS_LIBS
 =
 \
 -
+ldl
+\
+-
 lbfd
 \
 -
