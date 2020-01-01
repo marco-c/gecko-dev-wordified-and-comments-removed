@@ -2188,6 +2188,12 @@ TD_PSTRING_SIZE_IS
 XPT_TDP_POINTER
 )
 ;
+xpctvar
+.
+SetValIsAllocated
+(
+)
+;
 break
 ;
 case
@@ -2288,6 +2294,12 @@ uint8
 TD_PWSTRING_SIZE_IS
 |
 XPT_TDP_POINTER
+)
+;
+xpctvar
+.
+SetValIsAllocated
+(
 )
 ;
 break
