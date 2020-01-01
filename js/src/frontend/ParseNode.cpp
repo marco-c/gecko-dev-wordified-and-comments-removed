@@ -1696,9 +1696,9 @@ atom
 Parser
 *
 parser
-SharedContext
+TreeContext
 *
-sc
+tc
 )
 {
 ParseNode
@@ -1738,7 +1738,7 @@ pn
 >
 initCommon
 (
-sc
+tc
 )
 ;
 }
