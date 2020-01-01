@@ -44003,6 +44003,9 @@ aParentFrame
 )
 )
 ;
+return
+PR_TRUE
+;
 }
 PRBool
 nsCSSFrameConstructor
