@@ -205,6 +205,13 @@ true
 }
 #
 endif
+IonBuilder
+:
+:
+SetupOpcodeFlags
+(
+)
+;
 return
 true
 ;

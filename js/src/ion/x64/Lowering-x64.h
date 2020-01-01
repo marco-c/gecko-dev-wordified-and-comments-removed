@@ -44,6 +44,16 @@ graph
 )
 {
 }
+protected
+:
+void
+fillSnapshot
+(
+LSnapshot
+*
+snapshot
+)
+;
 public
 :
 bool
