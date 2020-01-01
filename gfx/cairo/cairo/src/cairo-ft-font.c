@@ -5210,6 +5210,8 @@ rgba
 FC_RGBA_RGB
 ;
 }
+break
+;
 case
 FT_RENDER_MODE_LCD_V
 :
