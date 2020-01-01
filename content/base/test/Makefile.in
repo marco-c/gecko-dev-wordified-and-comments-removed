@@ -1191,6 +1191,10 @@ text
 headers
 ^
 \
+test_bug459424
+.
+html
+\
 (
 NULL
 )
