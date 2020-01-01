@@ -1959,7 +1959,7 @@ nsCSSRendering
 PaintDecorationLine
 (
 ctx
-strikeColor
+underColor
 pt
 gfxSize
 (
