@@ -29937,6 +29937,14 @@ test
 (
 allowZoomStr
 )
+&
+&
+(
+minScale
+!
+=
+maxScale
+)
 ;
 if
 (
