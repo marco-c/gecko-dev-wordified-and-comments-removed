@@ -110,6 +110,10 @@ test_nsFind
 .
 html
 \
+test_private_window_from_content
+.
+html
+\
 test_window_open_units
 .
 html
