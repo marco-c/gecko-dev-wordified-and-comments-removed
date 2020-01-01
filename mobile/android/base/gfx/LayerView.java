@@ -684,6 +684,12 @@ mInputConnectionHandler
 =
 inputConnectionHandler
 ;
+mLayerClient
+.
+setForceRedraw
+(
+)
+;
 }
 Override
 public
@@ -1248,11 +1254,7 @@ GeckoApp
 .
 mAppContext
 .
-getLayerClient
-(
-)
-.
-getView
+getLayerView
 (
 )
 ;
