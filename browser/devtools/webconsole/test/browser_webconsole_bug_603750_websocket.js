@@ -105,16 +105,6 @@ Ci
 .
 nsIScriptError
 )
-|
-|
-!
-(
-aSubject
-instanceof
-Ci
-.
-nsIScriptError2
-)
 )
 {
 return

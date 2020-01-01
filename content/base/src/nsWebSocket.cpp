@@ -502,7 +502,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIScriptError2
+nsIScriptError
 >
 errorObject
 (
@@ -568,6 +568,8 @@ rv
 rv
 )
 ;
+rv
+=
 errorObject
 -
 >
@@ -600,16 +602,10 @@ Socket
 mInnerWindowID
 )
 ;
-nsCOMPtr
-<
-nsIScriptError
->
-logError
+NS_ENSURE_SUCCESS
 (
-do_QueryInterface
-(
-errorObject
-)
+rv
+rv
 )
 ;
 rv
@@ -619,7 +615,7 @@ console
 >
 LogMessage
 (
-logError
+errorObject
 )
 ;
 NS_ENSURE_SUCCESS

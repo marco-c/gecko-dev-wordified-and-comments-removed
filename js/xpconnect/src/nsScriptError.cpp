@@ -19,12 +19,11 @@ nsPIDOMWindow
 .
 h
 "
-NS_IMPL_THREADSAFE_ISUPPORTS3
+NS_IMPL_THREADSAFE_ISUPPORTS2
 (
 nsScriptError
 nsIConsoleMessage
 nsIScriptError
-nsIScriptError2
 )
 nsScriptError
 :

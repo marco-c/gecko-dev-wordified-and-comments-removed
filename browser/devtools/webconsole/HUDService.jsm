@@ -26057,16 +26057,6 @@ nsIScriptError
 |
 |
 !
-(
-aSubject
-instanceof
-Ci
-.
-nsIScriptError2
-)
-|
-|
-!
 aSubject
 .
 outerWindowID

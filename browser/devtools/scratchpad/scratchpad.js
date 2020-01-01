@@ -816,7 +816,7 @@ createInstance
 (
 Ci
 .
-nsIScriptError2
+nsIScriptError
 )
 ;
 scriptError
