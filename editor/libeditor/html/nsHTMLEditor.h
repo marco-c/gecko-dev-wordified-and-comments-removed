@@ -1271,14 +1271,6 @@ aNode
 )
 ;
 NS_IMETHOD
-GetIsSelectionEditable
-(
-bool
-*
-aIsSelectionEditable
-)
-;
-NS_IMETHOD
 SelectAll
 (
 )
