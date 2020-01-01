@@ -3643,6 +3643,16 @@ setter
 )
 ;
 }
+JS_ASSERT
+(
+obj
+-
+>
+isCall
+(
+)
+)
+;
 if
 (
 pic

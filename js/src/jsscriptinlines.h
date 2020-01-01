@@ -62,6 +62,13 @@ GlobalObject
 .
 h
 "
+#
+include
+"
+jsscopeinlines
+.
+h
+"
 namespace
 js
 {
@@ -278,11 +285,9 @@ lastBinding
 EmptyShape
 :
 :
-create
+getEmptyCallShape
 (
 cx
-&
-js_CallClass
 )
 ;
 if

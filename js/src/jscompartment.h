@@ -1131,6 +1131,13 @@ js
 :
 EmptyShape
 *
+emptyCallShape
+;
+js
+:
+:
+EmptyShape
+*
 emptyDeclEnvShape
 ;
 js
