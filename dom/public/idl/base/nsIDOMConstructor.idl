@@ -468,7 +468,7 @@ cd8c43672bb9
 )
 ]
 interface
-nsIDOMConstructor
+nsIDOMDOMConstructor
 :
 nsISupports
 {
