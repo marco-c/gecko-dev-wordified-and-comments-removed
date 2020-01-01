@@ -174,7 +174,7 @@ box
 ;
 }
 #
-infoScrollbox
+infoBox
 [
 minimal
 =
@@ -185,7 +185,7 @@ true
 #
 editBMPanel_descriptionRow
 #
-infoScrollbox
+infoBox
 [
 minimal
 =
@@ -196,7 +196,7 @@ true
 #
 editBMPanel_loadInSidebarCheckbox
 #
-infoScrollbox
+infoBox
 [
 minimal
 =
