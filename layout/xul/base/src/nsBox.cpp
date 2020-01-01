@@ -2263,6 +2263,13 @@ if
 DoesClipChildren
 (
 )
+&
+&
+!
+IsCollapsed
+(
+aState
+)
 )
 {
 nsIFrame
