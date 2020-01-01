@@ -327,6 +327,14 @@ Set
 (
 )
 ;
+this
+.
+_set
+.
+clearAll
+(
+)
+;
 for
 (
 let
