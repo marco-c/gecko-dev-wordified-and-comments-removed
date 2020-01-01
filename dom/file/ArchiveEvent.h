@@ -59,13 +59,11 @@ ArchiveItem
 (
 )
 ;
-virtual
 nsCString
 GetType
 (
 )
 ;
-virtual
 void
 SetType
 (
@@ -76,9 +74,12 @@ aType
 )
 ;
 virtual
-nsCString
+nsresult
 GetFilename
 (
+nsString
+&
+aFilename
 )
 =
 0

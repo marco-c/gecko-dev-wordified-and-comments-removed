@@ -55,6 +55,13 @@ Attributes
 .
 h
 "
+#
+include
+"
+DictionaryHelpers
+.
+h
+"
 BEGIN_FILE_NAMESPACE
 class
 ArchiveRequest
@@ -231,6 +238,9 @@ status
 ;
 }
 mData
+;
+ArchiveReaderOptions
+mOptions
 ;
 }
 ;
