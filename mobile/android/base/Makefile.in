@@ -322,10 +322,6 @@ DBUtils
 .
 java
 \
-Distribution
-.
-java
-\
 DoorHanger
 .
 java
