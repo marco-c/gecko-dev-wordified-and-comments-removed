@@ -2290,6 +2290,17 @@ gIOService
 IsOffline
 (
 )
+|
+|
+mUpgradeProtocolCallback
+|
+|
+!
+(
+mCaps
+&
+NS_HTTP_ALLOW_KEEPALIVE
+)
 )
 return
 ;
