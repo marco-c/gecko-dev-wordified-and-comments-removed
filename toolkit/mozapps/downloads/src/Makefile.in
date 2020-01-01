@@ -428,6 +428,16 @@ GARBAGE
 nsHelperAppDlg
 .
 js
+EXTRA_JS_MODULES
+=
+\
+DownloadUtils
+.
+jsm
+\
+(
+NULL
+)
 include
 (
 topsrcdir
