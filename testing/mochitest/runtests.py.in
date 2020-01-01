@@ -1395,12 +1395,9 @@ leakThreshold
 "
 ]
 =
-float
-(
-"
-Inf
-"
-)
+1
+.
+0e3000
 #
 -
 h
