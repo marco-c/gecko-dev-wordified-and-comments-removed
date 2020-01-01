@@ -451,6 +451,12 @@ unsigned
 long
 numberOfItems
 ;
+readonly
+attribute
+unsigned
+long
+length
+;
 void
 clear
 (
