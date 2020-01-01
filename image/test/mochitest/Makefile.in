@@ -355,6 +355,10 @@ test_short_gif_header
 .
 html
 \
+test_ImageContentLoaded
+.
+html
+\
 (
 NULL
 )
