@@ -307,7 +307,7 @@ accAtPoint
 aAccWrap
 -
 >
-GetChildAtPoint
+ChildAtPoint
 (
 aX
 aY

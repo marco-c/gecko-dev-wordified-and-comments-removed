@@ -379,7 +379,7 @@ eDeepestChild
 virtual
 nsAccessible
 *
-GetChildAtPoint
+ChildAtPoint
 (
 PRInt32
 aX

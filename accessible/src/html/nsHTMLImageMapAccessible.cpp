@@ -784,7 +784,7 @@ nsAccessible
 nsHTMLAreaAccessible
 :
 :
-GetChildAtPoint
+ChildAtPoint
 (
 PRInt32
 aX

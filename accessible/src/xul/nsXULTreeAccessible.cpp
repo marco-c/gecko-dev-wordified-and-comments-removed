@@ -680,7 +680,7 @@ nsAccessible
 nsXULTreeAccessible
 :
 :
-GetChildAtPoint
+ChildAtPoint
 (
 PRInt32
 aX
@@ -834,7 +834,7 @@ return
 nsAccessibleWrap
 :
 :
-GetChildAtPoint
+ChildAtPoint
 (
 aX
 aY

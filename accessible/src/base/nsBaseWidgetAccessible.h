@@ -33,12 +33,6 @@ nsAccessibleWrap
 {
 public
 :
-using
-nsAccessible
-:
-:
-GetChildAtPoint
-;
 nsLeafAccessible
 (
 nsIContent
@@ -53,7 +47,7 @@ NS_DECL_ISUPPORTS_INHERITED
 virtual
 nsAccessible
 *
-GetChildAtPoint
+ChildAtPoint
 (
 PRInt32
 aX

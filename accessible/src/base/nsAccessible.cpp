@@ -3388,7 +3388,7 @@ nsAccessible
 nsAccessible
 :
 :
-GetChildAtPoint
+ChildAtPoint
 (
 PRInt32
 aX
@@ -3756,7 +3756,7 @@ return
 child
 -
 >
-GetChildAtPoint
+ChildAtPoint
 (
 aX
 aY
@@ -3870,7 +3870,7 @@ NS_IF_ADDREF
 *
 aAccessible
 =
-GetChildAtPoint
+ChildAtPoint
 (
 aX
 aY
@@ -3922,7 +3922,7 @@ NS_IF_ADDREF
 *
 aAccessible
 =
-GetChildAtPoint
+ChildAtPoint
 (
 aX
 aY
