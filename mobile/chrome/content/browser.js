@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 let
 Cc
 =
@@ -1801,7 +1806,13 @@ createUnique
 file
 .
 NORMAL_FILE_TYPE
-0666
+parseInt
+(
+"
+666
+"
+8
+)
 )
 ;
 fileName
@@ -6454,6 +6465,7 @@ addEventListener
 pagehide
 "
 function
+listener
 (
 )
 {
@@ -6475,9 +6487,7 @@ removeEventListener
 "
 pagehide
 "
-arguments
-.
-callee
+listener
 true
 )
 ;
