@@ -645,9 +645,9 @@ eAutoDetect
 void
 FireValueChangeForTextFields
 (
-nsIAccessible
+nsAccessible
 *
-aPossibleTextFieldAccessible
+aAccessible
 )
 ;
 nsAccessNodeHashtable

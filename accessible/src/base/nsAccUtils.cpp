@@ -2414,7 +2414,7 @@ PR_FALSE
 }
 already_AddRefed
 <
-nsIAccessibleText
+nsHyperTextAccessible
 >
 nsAccUtils
 :
@@ -2547,7 +2547,7 @@ if
 accessible
 )
 {
-nsIAccessibleText
+nsHyperTextAccessible
 *
 textAcc
 =
