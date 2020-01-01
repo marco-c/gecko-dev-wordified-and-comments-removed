@@ -933,6 +933,12 @@ private
 :
 ParseNode
 *
+moduleDecl
+(
+)
+;
+ParseNode
+*
 functionStmt
 (
 )
