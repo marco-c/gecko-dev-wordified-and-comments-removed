@@ -4889,7 +4889,7 @@ shell
 install
 #
 Extra
-dependencies
+dependancies
 and
 rules
 for
@@ -4906,11 +4906,9 @@ OBJ_SUFFIX
 jsversion
 .
 h
-vm
-/
-Keywords
+jskeyword
 .
-h
+tbl
 #
 Use
 CURDIR
