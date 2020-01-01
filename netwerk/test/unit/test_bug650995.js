@@ -112,9 +112,6 @@ nsICache
 STREAM_BASED
 )
 ;
-var
-cacheEntry
-=
 session
 .
 asyncOpenCacheEntry
