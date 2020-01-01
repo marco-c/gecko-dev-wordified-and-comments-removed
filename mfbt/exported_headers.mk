@@ -97,6 +97,10 @@ EXPORTS_mozilla
 +
 =
 \
+AllocPolicy
+.
+h
+\
 Assertions
 .
 h

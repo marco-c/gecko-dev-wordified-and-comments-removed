@@ -7,6 +7,15 @@ jsalloc_h
 #
 include
 "
+mozilla
+/
+AllocPolicy
+.
+h
+"
+#
+include
+"
 js
 /
 Utility
