@@ -317,11 +317,6 @@ jslock
 h
 '
 '
-json
-.
-h
-'
-'
 jsperf
 .
 h

@@ -14,13 +14,6 @@ h
 #
 include
 "
-json
-.
-h
-"
-#
-include
-"
 nsIJSON
 .
 h
@@ -242,10 +235,6 @@ JS
 Value
 *
 aRetVal
-DecodingMode
-mode
-=
-STRICT
 )
 ;
 nsCOMPtr
@@ -291,8 +280,6 @@ Value
 rootVal
 bool
 needsConverter
-DecodingMode
-mode
 )
 ;
 virtual
@@ -334,9 +321,6 @@ nsTArray
 PRUnichar
 >
 mBufferedChars
-;
-DecodingMode
-mDecodingMode
 ;
 nsresult
 ProcessBytes

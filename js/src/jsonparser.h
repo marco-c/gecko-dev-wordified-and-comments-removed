@@ -45,13 +45,6 @@ RaiseError
 NoError
 }
 ;
-enum
-ParsingMode
-{
-StrictJSON
-LegacyJSON
-}
-;
 private
 :
 JSContext
@@ -68,10 +61,6 @@ end
 ;
 Value
 v
-;
-const
-ParsingMode
-parsingMode
 ;
 const
 ErrorHandling
@@ -274,10 +263,6 @@ StableCharPtr
 data
 size_t
 length
-ParsingMode
-parsingMode
-=
-StrictJSON
 ErrorHandling
 errorHandling
 =
@@ -314,10 +299,6 @@ get
 (
 )
 length
-)
-parsingMode
-(
-parsingMode
 )
 errorHandling
 (

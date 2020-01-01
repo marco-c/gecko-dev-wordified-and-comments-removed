@@ -830,10 +830,6 @@ length
 JSONParser
 :
 :
-StrictJSON
-JSONParser
-:
-:
 NoError
 )
 ;
