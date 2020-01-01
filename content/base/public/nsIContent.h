@@ -56,9 +56,6 @@ class
 nsPresContext
 ;
 class
-nsVoidArray
-;
-class
 nsIDOMEvent
 ;
 class

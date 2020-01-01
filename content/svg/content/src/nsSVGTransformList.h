@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -162,7 +162,12 @@ ReleaseTransforms
 (
 )
 ;
-nsAutoVoidArray
+nsAutoTArray
+<
+nsIDOMSVGTransform
+*
+8
+>
 mTransforms
 ;
 }

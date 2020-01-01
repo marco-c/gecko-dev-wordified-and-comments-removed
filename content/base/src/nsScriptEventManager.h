@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsIScriptEventManager
 .
 h

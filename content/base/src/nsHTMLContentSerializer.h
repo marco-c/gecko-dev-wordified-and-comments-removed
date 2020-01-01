@@ -25,6 +25,13 @@ nsString
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 class
 nsIContent
 ;
@@ -458,7 +465,12 @@ isFirstListItem
 ;
 }
 ;
-nsAutoVoidArray
+nsAutoTArray
+<
+olState
+*
+8
+>
 mOLStateStack
 ;
 }

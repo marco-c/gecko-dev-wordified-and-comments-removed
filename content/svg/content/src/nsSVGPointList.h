@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -168,7 +168,12 @@ ReleasePoints
 (
 )
 ;
-nsAutoVoidArray
+nsAutoTArray
+<
+nsIDOMSVGPoint
+*
+8
+>
 mPoints
 ;
 }

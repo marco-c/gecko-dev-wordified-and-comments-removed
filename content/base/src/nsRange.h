@@ -75,9 +75,6 @@ nsStubMutationObserver
 h
 "
 class
-nsVoidArray
-;
-class
 nsRangeUtils
 :
 public

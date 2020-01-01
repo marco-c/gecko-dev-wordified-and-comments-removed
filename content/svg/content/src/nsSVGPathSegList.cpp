@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsCOMArray
 .
 h

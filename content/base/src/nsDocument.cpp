@@ -11535,7 +11535,7 @@ n
 =
 mCharSetObservers
 .
-Count
+Length
 (
 )
 ;
@@ -11559,18 +11559,11 @@ nsIObserver
 *
 observer
 =
-static_cast
-<
-nsIObserver
-*
->
-(
 mCharSetObservers
 .
 ElementAt
 (
 i
-)
 )
 ;
 observer

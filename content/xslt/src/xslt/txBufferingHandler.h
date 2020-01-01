@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -76,7 +76,11 @@ mStringValue
 ;
 private
 :
-nsVoidArray
+nsTArray
+<
+txOutputTransaction
+*
+>
 mTransactions
 ;
 }

@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 txError
 .
 h

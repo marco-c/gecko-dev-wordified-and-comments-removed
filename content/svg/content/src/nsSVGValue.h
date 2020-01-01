@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -158,7 +158,12 @@ OnDidModify
 )
 {
 }
-nsSmallVoidArray
+nsAutoTArray
+<
+nsIWeakReference
+*
+1
+>
 mObservers
 ;
 PRInt32

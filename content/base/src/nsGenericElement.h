@@ -178,9 +178,6 @@ class
 nsIURI
 ;
 class
-nsVoidArray
-;
-class
 nsINodeInfo
 ;
 class

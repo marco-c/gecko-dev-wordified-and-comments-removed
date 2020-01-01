@@ -12,13 +12,6 @@ nsCOMPtr
 h
 "
 #
-include
-"
-nsVoidArray
-.
-h
-"
-#
 define
 ENSURE_MATCHED
 (

@@ -47,13 +47,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 txCore
 .
 h

@@ -53,6 +53,13 @@ txXSLTNumber
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 class
 nsIAtom
 ;
@@ -790,7 +797,11 @@ mCaseOrderExpr
 ;
 }
 ;
-nsVoidArray
+nsTArray
+<
+SortKey
+*
+>
 mSortKeys
 ;
 nsAutoPtr
