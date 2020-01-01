@@ -350,10 +350,6 @@ JSPropertyOp
 setter
 uintN
 attrs
-JSProperty
-*
-*
-propp
 )
 {
 return
@@ -372,7 +368,6 @@ value
 getter
 setter
 attrs
-propp
 )
 ;
 }
@@ -3000,10 +2995,6 @@ JSPropertyOp
 setter
 uintN
 attrs
-JSProperty
-*
-*
-propp
 )
 ;
 const

@@ -2905,7 +2905,6 @@ vp
 NULL
 NULL
 JSPROP_ENUMERATE
-NULL
 )
 )
 {
@@ -3228,7 +3227,6 @@ propValue
 NULL
 NULL
 JSPROP_ENUMERATE
-NULL
 )
 )
 return
@@ -3365,10 +3363,8 @@ propValue
 NULL
 NULL
 JSPROP_ENUMERATE
-NULL
 )
 )
-{
 return
 DestroyIdArrayOnError
 (
@@ -3376,7 +3372,6 @@ cx
 ida
 )
 ;
-}
 }
 }
 JS_DestroyIdArray
@@ -3535,7 +3530,6 @@ vp
 NULL
 NULL
 JSPROP_ENUMERATE
-NULL
 )
 )
 {
@@ -4153,7 +4147,6 @@ value
 NULL
 NULL
 JSPROP_ENUMERATE
-NULL
 )
 ;
 }
@@ -4312,7 +4305,6 @@ rootVal
 NULL
 NULL
 JSPROP_ENUMERATE
-NULL
 )
 )
 {
@@ -4403,7 +4395,6 @@ v
 NULL
 NULL
 JSPROP_ENUMERATE
-NULL
 )
 )
 {

@@ -3325,14 +3325,11 @@ JSVAL_VOID
 ArgGetter
 ArgSetter
 JSPROP_SHARED
-NULL
 )
 )
-{
 return
 JS_FALSE
 ;
-}
 *
 objp
 =
@@ -11779,7 +11776,6 @@ attrs
 &
 ~
 JSFUN_FLAGS_MASK
-NULL
 )
 )
 {

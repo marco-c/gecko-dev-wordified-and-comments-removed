@@ -6133,7 +6133,6 @@ ctor
 0
 0
 0
-NULL
 )
 ;
 }
@@ -6335,7 +6334,6 @@ JSVAL_VOID
 JS_PropertyStub
 JS_PropertyStub
 JSPROP_PERMANENT
-NULL
 )
 )
 {
@@ -7413,7 +7411,6 @@ JSVAL_VOID
 JS_PropertyStub
 JS_PropertyStub
 JSPROP_PERMANENT
-NULL
 )
 ;
 }
@@ -7833,7 +7830,6 @@ JSVAL_VOID
 JS_PropertyStub
 JS_PropertyStub
 JSPROP_PERMANENT
-NULL
 )
 )
 {
@@ -13561,7 +13557,6 @@ value
 getter
 setter
 attrs
-NULL
 )
 ;
 }
@@ -13819,7 +13814,6 @@ value
 getter
 setter
 attrs
-NULL
 )
 ;
 }
@@ -17677,7 +17671,6 @@ value
 getter
 setter
 attrs
-NULL
 )
 ;
 }
@@ -22595,7 +22588,6 @@ fun
 NULL
 NULL
 JSPROP_ENUMERATE
-NULL
 )
 )
 {

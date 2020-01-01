@@ -871,10 +871,6 @@ JSPropertyOp
 setter
 uintN
 attrs
-JSProperty
-*
-*
-propp
 )
 ;
 typedef

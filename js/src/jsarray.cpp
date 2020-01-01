@@ -2607,7 +2607,6 @@ vp
 NULL
 NULL
 JSPROP_ENUMERATE
-NULL
 )
 ;
 }
@@ -4353,10 +4352,6 @@ JSPropertyOp
 setter
 uintN
 attrs
-JSProperty
-*
-*
-propp
 )
 {
 uint32
@@ -4447,7 +4442,6 @@ value
 getter
 setter
 attrs
-propp
 )
 ;
 }
