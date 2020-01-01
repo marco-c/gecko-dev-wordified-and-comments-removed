@@ -414,12 +414,11 @@ void
 RenderLayer
 (
 int
-aPreviousDestination
-DrawThebesLayerCallback
-aCallback
-void
-*
-aCallbackData
+aPreviousFrameBuffer
+const
+nsIntPoint
+&
+aOffset
 )
 ;
 }

@@ -95,11 +95,10 @@ RenderLayer
 (
 int
 aPreviousFrameBuffer
-DrawThebesLayerCallback
-aCallback
-void
-*
-aCallbackData
+const
+nsIntPoint
+&
+aOffset
 )
 ;
 const
