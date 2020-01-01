@@ -594,6 +594,9 @@ PRPackedBool
 mAutoplaying
 ;
 PRPackedBool
+mAutoplayEnabled
+;
+PRPackedBool
 mPaused
 ;
 PRPackedBool
