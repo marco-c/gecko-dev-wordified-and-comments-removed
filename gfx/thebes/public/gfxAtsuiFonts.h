@@ -462,6 +462,16 @@ already_AddRefed
 <
 gfxAtsuiFont
 >
+WhichPrefFontSupportsChar
+(
+PRUint32
+aCh
+)
+;
+already_AddRefed
+<
+gfxAtsuiFont
+>
 FindFontForChar
 (
 PRUint32
