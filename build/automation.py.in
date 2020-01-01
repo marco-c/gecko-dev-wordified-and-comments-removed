@@ -5166,6 +5166,8 @@ and
 self
 .
 IS_MAC
+and
+False
 :
 #
 Import
