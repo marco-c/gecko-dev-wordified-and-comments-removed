@@ -423,6 +423,14 @@ ool
 )
 ;
 bool
+visitInitProp
+(
+LInitProp
+*
+lir
+)
+;
+bool
 visitCreateThisVMCall
 (
 LCreateThis

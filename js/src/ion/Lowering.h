@@ -327,6 +327,14 @@ ins
 )
 ;
 bool
+visitInitProp
+(
+MInitProp
+*
+ins
+)
+;
+bool
 visitCheckOverRecursed
 (
 MCheckOverRecursed
