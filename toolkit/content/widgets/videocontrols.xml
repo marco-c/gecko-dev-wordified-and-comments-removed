@@ -13102,6 +13102,10 @@ beginning
 of
 the
 video
+and
+not
+already
+playing
 if
 (
 !
@@ -13115,6 +13119,11 @@ this
 Utils
 .
 dynamicControls
+&
+&
+video
+.
+paused
 &
 &
 video
