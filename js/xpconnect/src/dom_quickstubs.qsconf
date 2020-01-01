@@ -2499,6 +2499,13 @@ nsIWebGLExtensionCompressedTextureATC
 nsIDOMWebGLRenderingContext
 '
 '
+nsIWebGLExtensionCompressedTexturePVRTC
+'
+:
+'
+nsIDOMWebGLRenderingContext
+'
+'
 nsIWebGLExtensionDepthTexture
 '
 :

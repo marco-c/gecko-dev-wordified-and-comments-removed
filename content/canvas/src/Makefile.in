@@ -211,6 +211,10 @@ WebGLExtensionCompressedTextureATC
 .
 cpp
 \
+WebGLExtensionCompressedTexturePVRTC
+.
+cpp
+\
 WebGLExtensionDepthTexture
 .
 cpp
