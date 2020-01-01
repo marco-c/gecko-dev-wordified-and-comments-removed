@@ -874,6 +874,18 @@ reset
 (
 )
 ;
+virtual
+void
+initializeAddCacheState
+(
+LInstruction
+*
+ins
+AddCacheState
+*
+addState
+)
+;
 void
 emitInitialJump
 (
@@ -2547,6 +2559,9 @@ CACHE_HEADER
 (
 ParallelGetProperty
 )
+#
+ifdef
+JS_CPU_X86
 void
 initializeAddCacheState
 (
@@ -2558,6 +2573,8 @@ AddCacheState
 addState
 )
 ;
+#
+endif
 Register
 object
 (
