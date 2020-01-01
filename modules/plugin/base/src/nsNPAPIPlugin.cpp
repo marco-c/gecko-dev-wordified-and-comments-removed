@@ -6858,6 +6858,12 @@ cx
 false
 )
 ;
+JSAutoRequest
+req
+(
+cx
+)
+;
 nsCOMPtr
 <
 nsIScriptContext
