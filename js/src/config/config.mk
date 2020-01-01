@@ -4107,7 +4107,6 @@ CROSS_COMPILE
 filter
 -
 out
-WINNT
 OS2
 (
 OS_ARCH
