@@ -82,7 +82,6 @@ nsISupports
 GetWrapper
 (
 )
-const
 {
 return
 reinterpret_cast
