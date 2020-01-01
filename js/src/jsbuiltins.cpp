@@ -1838,6 +1838,10 @@ id
 if
 (
 !
+obj
+|
+|
+!
 js_ValueToStringId
 (
 cx
@@ -1850,7 +1854,10 @@ id
 )
 )
 return
-JS_FALSE
+JSVAL_TO_BOOLEAN
+(
+JSVAL_VOID
+)
 ;
 JSObject
 *
@@ -1917,6 +1924,10 @@ id
 ;
 if
 (
+!
+obj
+|
+|
 !
 js_Int32ToId
 (
