@@ -704,12 +704,6 @@ BACKGROUND_FILL
 =
 4
 ;
-const
-long
-BACKGROUND_FIT
-=
-5
-;
 /
 *
 *
