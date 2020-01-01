@@ -412,6 +412,7 @@ if
 (
 abuf
 )
+{
 abuf
 -
 >
@@ -431,6 +432,7 @@ ArrayBuffer
 abuf
 )
 ;
+}
 }
 JSBool
 ArrayBuffer
@@ -3779,6 +3781,10 @@ fromJSObject
 obj
 )
 ;
+if
+(
+tarray
+)
 cx
 -
 >
