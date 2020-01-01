@@ -8226,8 +8226,14 @@ f
 {
 DebugOnly
 <
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 >
 o
 =
@@ -8244,6 +8250,8 @@ MOZ_ASSERT
 xpc_IsGrayGCThing
 (
 o
+.
+value
 )
 "
 Should
@@ -48682,6 +48690,10 @@ h
 -
 >
 Callable
+(
+)
+.
+get
 (
 )
 :
