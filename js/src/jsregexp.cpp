@@ -12777,8 +12777,6 @@ return
 NULL
 ;
 }
-ok
-:
 union
 {
 NIns
