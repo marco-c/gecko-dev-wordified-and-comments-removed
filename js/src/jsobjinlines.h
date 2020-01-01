@@ -1589,7 +1589,7 @@ JSObject
 JSObject
 :
 :
-getStaticBlockScopeChain
+staticBlockScopeChain
 (
 )
 const

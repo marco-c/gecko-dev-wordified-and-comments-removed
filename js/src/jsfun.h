@@ -49,13 +49,6 @@ h
 #
 include
 "
-jsopcode
-.
-h
-"
-#
-include
-"
 gc
 /
 Barrier
@@ -1448,10 +1441,6 @@ cx
 JSFunction
 *
 fun
-JSOp
-op
-size_t
-oplen
 )
 ;
 extern

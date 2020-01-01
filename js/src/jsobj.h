@@ -3059,7 +3059,7 @@ offsetOfInternalScopeChain
 inline
 JSObject
 *
-getStaticBlockScopeChain
+staticBlockScopeChain
 (
 )
 const
