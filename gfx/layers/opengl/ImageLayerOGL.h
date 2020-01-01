@@ -670,6 +670,12 @@ GLContext
 >
 mASurfaceAsGLContext
 ;
+gl
+:
+:
+ShaderProgramType
+mLayerProgram
+;
 }
 ;
 #
