@@ -34622,9 +34622,6 @@ MaybeInitTiming
 bool
 timeBeforeUnload
 =
-mTiming
-&
-&
 aFileName
 .
 IsVoid
@@ -34633,6 +34630,9 @@ IsVoid
 ;
 if
 (
+mTiming
+&
+&
 timeBeforeUnload
 )
 {
@@ -34694,6 +34694,9 @@ NS_OK
 }
 if
 (
+mTiming
+&
+&
 timeBeforeUnload
 )
 {
