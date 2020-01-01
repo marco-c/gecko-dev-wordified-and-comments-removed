@@ -2681,9 +2681,6 @@ removeAttribute
 "
 disabled
 "
-"
-true
-"
 )
 ;
 var
