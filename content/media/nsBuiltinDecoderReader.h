@@ -1436,9 +1436,6 @@ f
 )
 ;
 }
-ReentrantMonitor
-mReentrantMonitor
-;
 nsBuiltinDecoder
 *
 mDecoder
