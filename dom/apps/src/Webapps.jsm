@@ -8245,8 +8245,14 @@ app
 installState
 =
 download
+?
+download
 .
 previousState
+:
+"
+pending
+"
 ;
 self
 .
