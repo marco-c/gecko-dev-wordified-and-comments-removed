@@ -59,11 +59,11 @@ nsSubDocumentFrame
 h
 "
 typedef
-nsFrameLoader
+nsContentView
 :
 :
-ViewportConfig
-ViewportConfig
+ViewConfig
+ViewConfig
 ;
 using
 namespace
@@ -233,7 +233,7 @@ FrameMetrics
 &
 aMetrics
 const
-ViewportConfig
+ViewConfig
 &
 aConfig
 nsDisplayListBuilder
@@ -1193,7 +1193,12 @@ GetFrameMetrics
 mFrameLoader
 -
 >
-GetViewportConfig
+GetContentView
+(
+)
+-
+>
+GetViewConfig
 (
 )
 aBuilder
