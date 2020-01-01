@@ -464,13 +464,6 @@ h
 #
 include
 "
-nsObjCExceptions
-.
-h
-"
-#
-include
-"
 nsMenuBarX
 .
 h

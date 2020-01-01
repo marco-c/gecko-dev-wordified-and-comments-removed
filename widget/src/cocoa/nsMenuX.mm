@@ -3588,7 +3588,7 @@ return
 NS_OK
 ;
 }
-NSMenu
+GeckoNSMenu
 *
 nsMenuX
 :
@@ -3628,13 +3628,13 @@ Length
 )
 ]
 ;
-NSMenu
+GeckoNSMenu
 *
 myMenu
 =
 [
 [
-NSMenu
+GeckoNSMenu
 alloc
 ]
 initWithTitle
