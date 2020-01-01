@@ -8161,6 +8161,13 @@ kIdleThreadTimeoutMs
 =
 2000
 ;
+static
+const
+PRInt32
+INITIAL_CURRENT_TIME
+=
+1
+;
 MediaStreamGraphImpl
 :
 :
@@ -8170,11 +8177,11 @@ MediaStreamGraphImpl
 :
 mLastActionTime
 (
-1
+INITIAL_CURRENT_TIME
 )
 mCurrentTime
 (
-1
+INITIAL_CURRENT_TIME
 )
 mBlockingDecisionsMadeUntilTime
 (
