@@ -1091,12 +1091,6 @@ function
 e
 )
 {
-e
-.
-preventDefault
-(
-)
-;
 const
 minSize
 =
