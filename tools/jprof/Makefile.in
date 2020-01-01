@@ -450,7 +450,7 @@ cpp
 (
 NULL
 )
-LIBS
+OS_LIBS
 =
 \
 -
