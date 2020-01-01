@@ -1325,7 +1325,7 @@ assert
 )
 ;
 return
-0
+kPrivateCGCompositeClear
 ;
 }
 }
