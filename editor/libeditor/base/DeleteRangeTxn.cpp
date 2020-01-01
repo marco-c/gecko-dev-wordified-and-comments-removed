@@ -839,7 +839,7 @@ selection
 NS_ENSURE_SUCCESS
 (
 result
-result
+NS_OK
 )
 ;
 NS_ENSURE_TRUE
