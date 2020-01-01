@@ -9609,7 +9609,7 @@ JSXML
 obj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -10004,7 +10004,7 @@ JSXML
 obj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -10044,7 +10044,7 @@ JSXML
 listobj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -10222,7 +10222,7 @@ JSXML
 listobj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -13847,7 +13847,7 @@ JSXML
 obj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -16446,7 +16446,7 @@ JSXML
 listobj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -17325,7 +17325,7 @@ JSXML
 vobj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -17505,7 +17505,7 @@ JSXML
 vobj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -17963,7 +17963,7 @@ JSXML
 vobj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -19185,7 +19185,7 @@ JSXML
 listobj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -19614,7 +19614,7 @@ JSXML
 vobj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -19966,7 +19966,7 @@ JSXML
 attrobj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -20445,7 +20445,7 @@ vp
 )
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -20893,7 +20893,7 @@ JSXML
 vobj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -22087,7 +22087,7 @@ JSXML
 vobj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -22578,7 +22578,7 @@ tv
 )
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -22682,7 +22682,7 @@ tv
 )
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -23036,7 +23036,7 @@ JSXML
 obj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -23193,7 +23193,7 @@ JSXML
 obj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -23456,7 +23456,7 @@ JSXML
 obj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -23959,7 +23959,7 @@ JSXML
 obj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -24125,7 +24125,7 @@ JSXML
 obj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -24225,7 +24225,7 @@ JSXML
 obj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -24807,7 +24807,7 @@ JSXML
 obj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -25131,7 +25131,7 @@ JSXML
 obj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -25172,7 +25172,7 @@ JSXML
 vobj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -25647,7 +25647,7 @@ JSXML
 listobj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -25660,7 +25660,7 @@ JSXML
 obj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -25702,7 +25702,7 @@ v
 )
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -25740,7 +25740,7 @@ JSXML
 robj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -26383,7 +26383,7 @@ JSXML
 vobj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -26701,7 +26701,7 @@ JSXML
 listobj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -27017,7 +27017,7 @@ v
 )
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -27461,7 +27461,7 @@ v
 )
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -28071,7 +28071,7 @@ v
 )
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -28537,7 +28537,7 @@ JSXML
 obj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -29418,7 +29418,7 @@ arg
 )
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -29593,7 +29593,7 @@ arg
 )
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -31191,7 +31191,7 @@ v
 )
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -32141,7 +32141,7 @@ value
 )
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 :
@@ -33583,7 +33583,7 @@ v
 )
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -35079,7 +35079,7 @@ JSXML
 xobj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -35286,7 +35286,7 @@ JSXML
 vobj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -35334,7 +35334,7 @@ JSXML
 listobj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -36252,7 +36252,7 @@ JS_ASSERT
 obj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 =
@@ -38232,7 +38232,7 @@ JSXML
 target
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -38527,7 +38527,7 @@ JSXML
 obj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -38771,7 +38771,7 @@ JSXML
 listobj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -39137,7 +39137,7 @@ JSXML
 obj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -39195,7 +39195,7 @@ JSXML
 obj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -39305,7 +39305,7 @@ JSXML
 resobj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -39361,7 +39361,7 @@ sp
 )
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -39590,7 +39590,7 @@ JSXML
 obj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;
@@ -39750,7 +39750,7 @@ JSXML
 obj
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 ;

@@ -1652,12 +1652,7 @@ wfunobj
 wfunobj
 -
 >
-fslots
-[
-JSSLOT_PRIVATE
-]
-=
-PRIVATE_TO_JSVAL
+setPrivate
 (
 wfun
 )
@@ -3971,7 +3966,7 @@ fp
 scopeChain
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 !
@@ -4039,12 +4034,7 @@ NULL
 env
 -
 >
-fslots
-[
-JSSLOT_PRIVATE
-]
-=
-PRIVATE_TO_JSVAL
+setPrivate
 (
 fp
 )
@@ -4525,7 +4515,7 @@ JS_ASSERT
 env
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 =

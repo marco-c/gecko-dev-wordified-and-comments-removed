@@ -753,7 +753,7 @@ JSObject
 funobj_
 -
 >
-getAssignedPrivate
+getPrivate
 (
 )
 )

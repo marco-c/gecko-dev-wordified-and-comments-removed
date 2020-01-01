@@ -2246,7 +2246,7 @@ vp
 >
 fslots
 [
-JSSLOT_PRIVATE
+JSSLOT_PRIMITIVE_THIS
 ]
 ;
 }
