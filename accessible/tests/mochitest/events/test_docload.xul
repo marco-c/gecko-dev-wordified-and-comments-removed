@@ -865,6 +865,13 @@ iframe
 ;
 return
 iframeNodes
+&
+&
+iframeNodes
+.
+length
+>
+0
 ?
 iframeNodes
 [
