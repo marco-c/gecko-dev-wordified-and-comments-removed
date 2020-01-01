@@ -89,10 +89,8 @@ aClosure
 ;
 protected
 :
-nsCOMPtr
-<
 nsITreeBoxObject
->
+*
 mTree
 ;
 PRBool
