@@ -506,6 +506,10 @@ ReadbackLayer
 .
 h
 \
+LayerSorter
+.
+h
+\
 (
 NULL
 )
@@ -553,6 +557,10 @@ LayerManagerOGL
 cpp
 \
 ThebesLayerOGL
+.
+cpp
+\
+LayerSorter
 .
 cpp
 \

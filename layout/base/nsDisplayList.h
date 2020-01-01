@@ -2317,17 +2317,6 @@ nsIContent
 aCommonAncestor
 )
 ;
-void
-SortByZPosition
-(
-nsDisplayListBuilder
-*
-aBuilder
-nsIContent
-*
-aCommonAncestor
-)
-;
 typedef
 bool
 (
