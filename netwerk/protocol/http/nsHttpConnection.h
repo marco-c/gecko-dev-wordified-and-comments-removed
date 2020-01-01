@@ -422,6 +422,16 @@ PRUint32
 *
 )
 ;
+void
+BeginIdleMonitoring
+(
+)
+;
+void
+EndIdleMonitoring
+(
+)
+;
 private
 :
 nsresult
@@ -572,6 +582,9 @@ mCompletedProxyConnect
 ;
 PRPackedBool
 mLastTransactionExpectedNoContent
+;
+PRPackedBool
+mIdleMonitoring
 ;
 }
 ;

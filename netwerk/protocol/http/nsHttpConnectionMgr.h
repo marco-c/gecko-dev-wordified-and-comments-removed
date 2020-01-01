@@ -219,6 +219,13 @@ nsHttpConnectionInfo
 *
 )
 ;
+nsresult
+CloseIdleConnection
+(
+nsHttpConnection
+*
+)
+;
 private
 :
 virtual
