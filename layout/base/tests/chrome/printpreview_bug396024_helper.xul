@@ -226,7 +226,7 @@ wrappedJSObject
 todo
 ;
 var
-SimpleTest
+parentFinish
 =
 window
 .
@@ -234,7 +234,7 @@ opener
 .
 wrappedJSObject
 .
-SimpleTest
+parentFinish
 ;
 var
 gWbp
@@ -511,9 +511,7 @@ finish
 (
 )
 {
-SimpleTest
-.
-finish
+parentFinish
 (
 )
 ;

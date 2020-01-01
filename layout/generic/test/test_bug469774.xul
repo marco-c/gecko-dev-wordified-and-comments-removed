@@ -348,14 +348,6 @@ version
 [
 CDATA
 [
-SimpleTest
-.
-expectAssertions
-(
-0
-3
-)
-;
 /
 *
 *
