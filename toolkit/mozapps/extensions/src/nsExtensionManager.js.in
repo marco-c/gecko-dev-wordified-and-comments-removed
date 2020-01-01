@@ -17982,12 +17982,6 @@ forceAutoReg
 =
 false
 ;
-this
-.
-_showUpdatesWindow
-(
-)
-;
 /
 /
 Somehow
@@ -18178,6 +18172,12 @@ _checkForFileChanges
 isDirty
 =
 true
+;
+this
+.
+_showUpdatesWindow
+(
+)
 ;
 if
 (
