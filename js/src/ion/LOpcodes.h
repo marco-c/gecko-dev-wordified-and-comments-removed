@@ -238,6 +238,16 @@ Concat
 \
 _
 (
+CharCodeAt
+)
+\
+_
+(
+FromCharCode
+)
+\
+_
+(
 Int32ToDouble
 )
 \
