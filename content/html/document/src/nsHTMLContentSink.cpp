@@ -397,13 +397,6 @@ h
 #
 include
 "
-nsISelectElement
-.
-h
-"
-#
-include
-"
 nsIStyleSheetLinkingElement
 .
 h

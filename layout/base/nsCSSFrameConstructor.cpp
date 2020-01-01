@@ -428,13 +428,6 @@ h
 #
 include
 "
-nsISelectElement
-.
-h
-"
-#
-include
-"
 nsLayoutErrors
 .
 h
