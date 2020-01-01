@@ -431,7 +431,7 @@ BUILTIN2
 BoxDouble
 LO
 F
-LO
+P
 jsval
 JSContext
 *
@@ -444,7 +444,7 @@ BUILTIN2
 BoxInt32
 LO
 LO
-LO
+P
 jsval
 JSContext
 *
@@ -580,7 +580,7 @@ Array_p_join
 LO
 LO
 LO
-LO
+P
 JSString
 *
 JSContext
@@ -599,7 +599,7 @@ LO
 LO
 LO
 LO
-LO
+P
 JSString
 *
 JSContext
@@ -617,7 +617,7 @@ String_p_substring_1
 LO
 LO
 LO
-LO
+P
 JSString
 *
 JSContext
@@ -634,7 +634,7 @@ ConcatStrings
 LO
 LO
 LO
-LO
+P
 JSString
 *
 JSContext
@@ -652,7 +652,7 @@ String_getelem
 LO
 LO
 LO
-LO
+P
 JSString
 *
 JSContext
@@ -668,7 +668,7 @@ BUILTIN2
 String_fromCharCode
 LO
 LO
-LO
+P
 JSString
 *
 JSContext
@@ -696,7 +696,7 @@ String_p_concat_1int
 LO
 LO
 LO
-LO
+P
 JSString
 *
 JSContest
@@ -714,7 +714,7 @@ LO
 LO
 LO
 LO
-LO
+P
 JSObject
 *
 JSContext
@@ -735,7 +735,7 @@ LO
 LO
 LO
 LO
-LO
+P
 JSString
 *
 JSContext
@@ -756,7 +756,7 @@ LO
 LO
 LO
 LO
-LO
+P
 JSString
 *
 JSContext
@@ -778,7 +778,7 @@ LO
 LO
 LO
 LO
-LO
+P
 JSString
 *
 JSContext
@@ -895,7 +895,7 @@ Any_getelem
 LO
 LO
 LO
-LO
+P
 jsval
 JSContext
 *
@@ -931,7 +931,7 @@ FastValueToIterator
 LO
 LO
 LO
-LO
+P
 JSObject
 *
 JSContext
@@ -946,7 +946,7 @@ BUILTIN2
 FastCallIteratorNext
 LO
 LO
-LO
+P
 JSObject
 *
 JSContext
@@ -974,7 +974,7 @@ BUILTIN2
 CallTree
 LO
 LO
-LO
+P
 nanojit
 :
 :
@@ -998,7 +998,7 @@ BUILTIN2
 FastNewObject
 LO
 LO
-LO
+P
 JSObject
 *
 JSContext
@@ -1031,7 +1031,7 @@ CallGetter
 LO
 LO
 LO
-LO
+P
 jsval
 JSContext
 *
@@ -1047,7 +1047,7 @@ BUILTIN2
 TypeOfObject
 LO
 LO
-LO
+P
 JSString
 *
 JSContext
@@ -1062,7 +1062,7 @@ BUILTIN2
 TypeOfBoolean
 LO
 LO
-LO
+P
 JSString
 *
 JSContext
@@ -1076,7 +1076,7 @@ BUILTIN2
 NumberToString
 LO
 F
-LO
+P
 JSString
 *
 JSContext
@@ -1129,21 +1129,6 @@ jsdouble
 JSContext
 *
 jsint
-1
-1
-)
-BUILTIN2
-(
-ObjectToString
-LO
-LO
-LO
-JSString
-*
-JSContext
-*
-JSObject
-*
 1
 1
 )
