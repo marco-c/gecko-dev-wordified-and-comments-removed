@@ -246,6 +246,17 @@ gfxIntSize
 )
 {
 }
+virtual
+LayerManager
+:
+:
+LayersBackend
+GetBackendType
+(
+)
+=
+0
+;
 protected
 :
 LayerManager
