@@ -1684,7 +1684,7 @@ char
 *
 aCategory
 PRUint64
-aWindowId
+aInnerWindowId
 =
 0
 )
