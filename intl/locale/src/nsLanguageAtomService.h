@@ -84,7 +84,7 @@ nsIAtom
 LookupLanguage
 (
 const
-nsAString
+nsACString
 &
 aLanguage
 nsresult
