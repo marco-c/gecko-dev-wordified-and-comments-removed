@@ -481,6 +481,9 @@ idl
 src
 qcms
 thebes
+src
+/
+thebes
 ifdef
 MOZ_IPC
 DIRS
