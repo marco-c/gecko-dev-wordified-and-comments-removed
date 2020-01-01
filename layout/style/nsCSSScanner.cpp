@@ -811,6 +811,10 @@ mReadPointer
 (
 nsnull
 )
+mLowLevelError
+(
+NS_OK
+)
 #
 ifdef
 MOZ_SVG
@@ -894,6 +898,68 @@ delete
 mPushback
 ;
 }
+}
+nsresult
+nsCSSScanner
+:
+:
+GetLowLevelError
+(
+)
+{
+return
+mLowLevelError
+;
+}
+void
+nsCSSScanner
+:
+:
+SetLowLevelError
+(
+nsresult
+aErrorCode
+)
+{
+NS_ASSERTION
+(
+aErrorCode
+!
+=
+NS_OK
+"
+SetLowLevelError
+(
+)
+used
+to
+clear
+error
+"
+)
+;
+NS_ASSERTION
+(
+mLowLevelError
+=
+=
+NS_OK
+"
+there
+is
+already
+a
+low
+-
+level
+error
+"
+)
+;
+mLowLevelError
+=
+aErrorCode
+;
 }
 #
 ifdef
@@ -1263,6 +1329,10 @@ mOffset
 mPushbackCount
 =
 0
+;
+mLowLevelError
+=
+NS_OK
 ;
 #
 ifdef
@@ -2067,9 +2137,6 @@ nsCSSScanner
 :
 EnsureData
 (
-nsresult
-&
-aErrorCode
 )
 {
 if
@@ -2083,14 +2150,18 @@ PR_TRUE
 ;
 if
 (
+!
 mInputStream
 )
-{
+return
+PR_FALSE
+;
 mOffset
 =
 0
 ;
-aErrorCode
+nsresult
+rv
 =
 mInputStream
 -
@@ -2107,30 +2178,27 @@ if
 (
 NS_FAILED
 (
-aErrorCode
+rv
 )
-|
-|
-mCount
-=
-=
-0
 )
 {
 mCount
 =
 0
 ;
+SetLowLevelError
+(
+rv
+)
+;
 return
 PR_FALSE
 ;
 }
 return
-PR_TRUE
-;
-}
-return
-PR_FALSE
+mCount
+>
+0
 ;
 }
 PRInt32
@@ -2139,9 +2207,6 @@ nsCSSScanner
 :
 Read
 (
-nsresult
-&
-aErrorCode
 )
 {
 PRInt32
@@ -2180,7 +2245,6 @@ mCount
 !
 EnsureData
 (
-aErrorCode
 )
 )
 {
@@ -2216,7 +2280,6 @@ if
 (
 EnsureData
 (
-aErrorCode
 )
 &
 &
@@ -2359,9 +2422,6 @@ nsCSSScanner
 :
 Peek
 (
-nsresult
-&
-aErrorCode
 )
 {
 if
@@ -2377,7 +2437,6 @@ ch
 =
 Read
 (
-aErrorCode
 )
 ;
 if
@@ -2512,9 +2571,6 @@ nsCSSScanner
 :
 LookAhead
 (
-nsresult
-&
-aErrorCode
 PRUnichar
 aChar
 )
@@ -2524,7 +2580,6 @@ ch
 =
 Read
 (
-aErrorCode
 )
 ;
 if
@@ -2565,9 +2620,6 @@ nsCSSScanner
 :
 EatWhiteSpace
 (
-nsresult
-&
-aErrorCode
 )
 {
 PRBool
@@ -2586,7 +2638,6 @@ ch
 =
 Read
 (
-aErrorCode
 )
 ;
 if
@@ -2657,9 +2708,6 @@ nsCSSScanner
 :
 EatNewline
 (
-nsresult
-&
-aErrorCode
 )
 {
 PRInt32
@@ -2667,7 +2715,6 @@ ch
 =
 Read
 (
-aErrorCode
 )
 ;
 if
@@ -2720,9 +2767,6 @@ nsCSSScanner
 :
 Next
 (
-nsresult
-&
-aErrorCode
 nsCSSToken
 &
 aToken
@@ -2733,7 +2777,6 @@ ch
 =
 Read
 (
-aErrorCode
 )
 ;
 if
@@ -2754,14 +2797,12 @@ StartsIdent
 ch
 Peek
 (
-aErrorCode
 )
 )
 )
 return
 ParseIdent
 (
-aErrorCode
 ch
 aToken
 )
@@ -2780,7 +2821,6 @@ nextChar
 =
 Read
 (
-aErrorCode
 )
 ;
 if
@@ -2796,7 +2836,6 @@ followingChar
 =
 Peek
 (
-aErrorCode
 )
 ;
 Pushback
@@ -2815,7 +2854,6 @@ followingChar
 return
 ParseAtKeyword
 (
-aErrorCode
 ch
 aToken
 )
@@ -2859,7 +2897,6 @@ nextChar
 =
 Peek
 (
-aErrorCode
 )
 ;
 if
@@ -2873,7 +2910,6 @@ nextChar
 return
 ParseNumber
 (
-aErrorCode
 ch
 aToken
 )
@@ -2906,7 +2942,6 @@ nextChar
 =
 Read
 (
-aErrorCode
 )
 ;
 PRInt32
@@ -2914,7 +2949,6 @@ followingChar
 =
 Peek
 (
-aErrorCode
 )
 ;
 Pushback
@@ -2932,7 +2966,6 @@ followingChar
 return
 ParseNumber
 (
-aErrorCode
 ch
 aToken
 )
@@ -2950,7 +2983,6 @@ ch
 return
 ParseNumber
 (
-aErrorCode
 ch
 aToken
 )
@@ -2969,7 +3001,6 @@ ch
 return
 ParseRef
 (
-aErrorCode
 ch
 aToken
 )
@@ -3001,7 +3032,6 @@ ch
 return
 ParseString
 (
-aErrorCode
 ch
 aToken
 )
@@ -3038,7 +3068,6 @@ void
 )
 EatWhiteSpace
 (
-aErrorCode
 )
 ;
 return
@@ -3060,7 +3089,6 @@ nextChar
 =
 Peek
 (
-aErrorCode
 )
 ;
 if
@@ -3078,7 +3106,6 @@ void
 )
 Read
 (
-aErrorCode
 )
 ;
 #
@@ -3120,7 +3147,6 @@ nextChar
 return
 ParseCComment
 (
-aErrorCode
 aToken
 )
 ;
@@ -3129,13 +3155,11 @@ endif
 return
 SkipCComment
 (
-aErrorCode
 )
 &
 &
 Next
 (
-aErrorCode
 aToken
 )
 ;
@@ -3155,7 +3179,6 @@ if
 (
 LookAhead
 (
-aErrorCode
 '
 !
 '
@@ -3166,7 +3189,6 @@ if
 (
 LookAhead
 (
-aErrorCode
 '
 -
 '
@@ -3177,7 +3199,6 @@ if
 (
 LookAhead
 (
-aErrorCode
 '
 -
 '
@@ -3239,7 +3260,6 @@ if
 (
 LookAhead
 (
-aErrorCode
 '
 -
 '
@@ -3250,7 +3270,6 @@ if
 (
 LookAhead
 (
-aErrorCode
 '
 >
 '
@@ -3345,7 +3364,6 @@ nextChar
 =
 Read
 (
-aErrorCode
 )
 ;
 if
@@ -3488,9 +3506,6 @@ nsCSSScanner
 :
 NextURL
 (
-nsresult
-&
-aErrorCode
 nsCSSToken
 &
 aToken
@@ -3501,7 +3516,6 @@ ch
 =
 Read
 (
-aErrorCode
 )
 ;
 if
@@ -3541,7 +3555,6 @@ ch
 return
 ParseString
 (
-aErrorCode
 ch
 aToken
 )
@@ -3578,7 +3591,6 @@ void
 )
 EatWhiteSpace
 (
-aErrorCode
 )
 ;
 return
@@ -3600,7 +3612,6 @@ nextChar
 =
 Peek
 (
-aErrorCode
 )
 ;
 if
@@ -3618,7 +3629,6 @@ void
 )
 Read
 (
-aErrorCode
 )
 ;
 #
@@ -3660,7 +3670,6 @@ nextChar
 return
 ParseCComment
 (
-aErrorCode
 aToken
 )
 ;
@@ -3669,13 +3678,11 @@ endif
 return
 SkipCComment
 (
-aErrorCode
 )
 &
 &
 Next
 (
-aErrorCode
 aToken
 )
 ;
@@ -3746,7 +3753,6 @@ ch
 =
 Read
 (
-aErrorCode
 )
 ;
 if
@@ -3767,7 +3773,6 @@ CSS_ESCAPE
 {
 ParseAndAppendEscape
 (
-aErrorCode
 ident
 )
 ;
@@ -3825,14 +3830,12 @@ void
 )
 EatWhiteSpace
 (
-aErrorCode
 )
 ;
 if
 (
 LookAhead
 (
-aErrorCode
 '
 )
 '
@@ -3910,9 +3913,6 @@ nsCSSScanner
 :
 ParseAndAppendEscape
 (
-nsresult
-&
-aErrorCode
 nsString
 &
 aOutput
@@ -3923,7 +3923,6 @@ ch
 =
 Peek
 (
-aErrorCode
 )
 ;
 if
@@ -3978,7 +3977,6 @@ ch
 =
 Read
 (
-aErrorCode
 )
 ;
 if
@@ -4098,7 +4096,6 @@ ch
 =
 Peek
 (
-aErrorCode
 )
 ;
 if
@@ -4113,7 +4110,6 @@ ch
 =
 Read
 (
-aErrorCode
 )
 ;
 }
@@ -4161,7 +4157,6 @@ if
 !
 EatNewline
 (
-aErrorCode
 )
 )
 {
@@ -4170,7 +4165,6 @@ void
 )
 Read
 (
-aErrorCode
 )
 ;
 if
@@ -4199,9 +4193,6 @@ nsCSSScanner
 :
 GatherIdent
 (
-nsresult
-&
-aErrorCode
 PRInt32
 aChar
 nsString
@@ -4219,7 +4210,6 @@ CSS_ESCAPE
 {
 ParseAndAppendEscape
 (
-aErrorCode
 aIdent
 )
 ;
@@ -4254,7 +4244,6 @@ mPushbackCount
 &
 EnsureData
 (
-aErrorCode
 )
 )
 {
@@ -4327,7 +4316,6 @@ aChar
 =
 Read
 (
-aErrorCode
 )
 ;
 if
@@ -4348,7 +4336,6 @@ CSS_ESCAPE
 {
 ParseAndAppendEscape
 (
-aErrorCode
 aIdent
 )
 ;
@@ -4394,9 +4381,6 @@ nsCSSScanner
 :
 ParseRef
 (
-nsresult
-&
-aErrorCode
 PRInt32
 aChar
 nsCSSToken
@@ -4424,7 +4408,6 @@ ch
 =
 Read
 (
-aErrorCode
 )
 ;
 if
@@ -4459,7 +4442,6 @@ StartsIdent
 ch
 Peek
 (
-aErrorCode
 )
 )
 )
@@ -4474,7 +4456,6 @@ eCSSToken_ID
 return
 GatherIdent
 (
-aErrorCode
 ch
 aToken
 .
@@ -4497,9 +4478,6 @@ nsCSSScanner
 :
 ParseIdent
 (
-nsresult
-&
-aErrorCode
 PRInt32
 aChar
 nsCSSToken
@@ -4527,7 +4505,6 @@ if
 !
 GatherIdent
 (
-aErrorCode
 aChar
 ident
 )
@@ -4556,7 +4533,6 @@ PRUnichar
 (
 Peek
 (
-aErrorCode
 )
 )
 )
@@ -4582,9 +4558,6 @@ nsCSSScanner
 :
 ParseAtKeyword
 (
-nsresult
-&
-aErrorCode
 PRInt32
 aChar
 nsCSSToken
@@ -4610,7 +4583,6 @@ eCSSToken_AtKeyword
 return
 GatherIdent
 (
-aErrorCode
 0
 aToken
 .
@@ -4624,9 +4596,6 @@ nsCSSScanner
 :
 ParseNumber
 (
-nsresult
-&
-aErrorCode
 PRInt32
 c
 nsCSSToken
@@ -4718,7 +4687,6 @@ c
 =
 Read
 (
-aErrorCode
 )
 ;
 if
@@ -4753,7 +4721,6 @@ IsDigit
 (
 Peek
 (
-aErrorCode
 )
 )
 )
@@ -4807,7 +4774,6 @@ nextChar
 =
 Peek
 (
-aErrorCode
 )
 ;
 PRInt32
@@ -4837,14 +4803,12 @@ sign
 =
 Read
 (
-aErrorCode
 )
 ;
 nextChar
 =
 Peek
 (
-aErrorCode
 )
 ;
 }
@@ -5000,7 +4964,6 @@ StartsIdent
 c
 Peek
 (
-aErrorCode
 )
 )
 )
@@ -5010,7 +4973,6 @@ if
 !
 GatherIdent
 (
-aErrorCode
 c
 ident
 )
@@ -5086,9 +5048,6 @@ nsCSSScanner
 :
 SkipCComment
 (
-nsresult
-&
-aErrorCode
 )
 {
 for
@@ -5102,7 +5061,6 @@ ch
 =
 Read
 (
-aErrorCode
 )
 ;
 if
@@ -5127,7 +5085,6 @@ if
 (
 LookAhead
 (
-aErrorCode
 '
 /
 '
@@ -5158,9 +5115,6 @@ nsCSSScanner
 :
 ParseCComment
 (
-nsresult
-&
-aErrorCode
 nsCSSToken
 &
 aToken
@@ -5185,7 +5139,6 @@ ch
 =
 Read
 (
-aErrorCode
 )
 ;
 if
@@ -5210,7 +5163,6 @@ if
 (
 LookAhead
 (
-aErrorCode
 '
 /
 '
@@ -5280,9 +5232,6 @@ nsCSSScanner
 :
 ParseEOLComment
 (
-nsresult
-&
-aErrorCode
 nsCSSToken
 &
 aToken
@@ -5313,7 +5262,6 @@ if
 (
 EatNewline
 (
-aErrorCode
 )
 )
 {
@@ -5325,7 +5273,6 @@ ch
 =
 Read
 (
-aErrorCode
 )
 ;
 if
@@ -5372,9 +5319,6 @@ nsCSSScanner
 :
 ParseString
 (
-nsresult
-&
-aErrorCode
 PRInt32
 aStop
 nsCSSToken
@@ -5420,7 +5364,6 @@ mPushbackCount
 &
 EnsureData
 (
-aErrorCode
 )
 )
 {
@@ -5578,7 +5521,6 @@ ch
 =
 Read
 (
-aErrorCode
 )
 ;
 if
@@ -5640,7 +5582,6 @@ CSS_ESCAPE
 {
 ParseAndAppendEscape
 (
-aErrorCode
 aToken
 .
 mIdent
