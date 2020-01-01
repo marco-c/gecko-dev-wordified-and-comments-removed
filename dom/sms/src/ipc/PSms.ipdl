@@ -535,6 +535,16 @@ SmsMessageData
 aMessageData
 )
 ;
+NotifyRequestSmsSent
+(
+SmsMessageData
+aMessageData
+PRInt32
+aRequestId
+PRUint64
+aProcessId
+)
+;
 parent
 :
 sync
@@ -565,6 +575,10 @@ nsString
 aNumber
 nsString
 aMessage
+PRInt32
+aRequestId
+PRUint64
+aProcessId
 )
 ;
 sync

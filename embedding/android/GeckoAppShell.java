@@ -559,6 +559,10 @@ String
 aBody
 long
 aTimestamp
+int
+aRequestId
+long
+aProcessId
 )
 ;
 public
@@ -10464,6 +10468,10 @@ String
 aNumber
 String
 aMessage
+int
+aRequestId
+long
+aProcessId
 )
 {
 GeckoSmsManager
@@ -10472,6 +10480,8 @@ send
 (
 aNumber
 aMessage
+aRequestId
+aProcessId
 )
 ;
 }

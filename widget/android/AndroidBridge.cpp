@@ -1725,6 +1725,7 @@ lang
 /
 String
 ;
+IJ
 )
 V
 "
@@ -8207,6 +8208,10 @@ const
 nsAString
 &
 aMessage
+PRInt32
+aRequestId
+PRUint64
+aProcessId
 )
 {
 ALOG_BRIDGE
@@ -8283,6 +8288,8 @@ mGeckoAppShellClass
 jSendMessage
 jNumber
 jMessage
+aRequestId
+aProcessId
 )
 ;
 }
