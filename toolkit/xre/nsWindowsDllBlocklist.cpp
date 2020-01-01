@@ -509,6 +509,8 @@ alignedOffset
 ;
 mMappedView
 =
+mRealView
+?
 reinterpret_cast
 <
 T
@@ -527,6 +529,8 @@ offset
 alignedOffset
 )
 )
+:
+nsnull
 ;
 }
 ~
