@@ -530,9 +530,6 @@ aWeakShell
 in
 nsIDOMNode
 aDOMNode
-in
-AString
-aRole
 )
 ;
 nsIAccessible
