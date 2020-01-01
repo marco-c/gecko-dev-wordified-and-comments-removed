@@ -5975,11 +5975,6 @@ cx
 JSObject
 *
 aGlobal
-nsISupports
-*
-aNative
-=
-nullptr
 )
 ;
 XPCJSRuntime
@@ -6402,9 +6397,6 @@ cx
 JSObject
 *
 aGlobal
-nsISupports
-*
-aNative
 )
 ;
 static
@@ -6548,9 +6540,6 @@ cx
 JSObject
 *
 aGlobal
-nsISupports
-*
-aNative
 )
 ;
 protected
