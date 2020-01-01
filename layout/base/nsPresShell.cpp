@@ -13713,6 +13713,10 @@ aContent
 nsChangeHint_ReconstructFrame
 )
 ;
++
++
+mChangeNestCount
+;
 nsresult
 rv
 =
@@ -13723,6 +13727,10 @@ ProcessRestyledFrames
 (
 changeList
 )
+;
+-
+-
+mChangeNestCount
 ;
 mViewManager
 -
@@ -26778,6 +26786,10 @@ ReframeImageBoxes
 changeList
 )
 ;
++
++
+mChangeNestCount
+;
 mFrameConstructor
 -
 >
@@ -26785,6 +26797,10 @@ ProcessRestyledFrames
 (
 changeList
 )
+;
+-
+-
+mChangeNestCount
 ;
 mViewManager
 -
