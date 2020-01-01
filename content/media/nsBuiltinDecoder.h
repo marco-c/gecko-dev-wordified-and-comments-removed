@@ -240,7 +240,7 @@ GetNextFrameStatus
 ;
 virtual
 void
-Decode
+Play
 (
 )
 =

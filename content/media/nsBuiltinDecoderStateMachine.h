@@ -185,7 +185,7 @@ GetNextFrameStatus
 ;
 virtual
 void
-Decode
+Play
 (
 )
 ;
@@ -509,6 +509,11 @@ HasFutureAudio
 )
 const
 ;
+PRBool
+JustExitedQuickBuffering
+(
+)
+;
 void
 Wait
 (
@@ -618,6 +623,11 @@ StartPlayback
 (
 )
 ;
+void
+StartDecoding
+(
+)
+;
 PRBool
 IsPlaying
 (
@@ -686,9 +696,6 @@ TimeStamp
 mBufferingStart
 ;
 PRInt64
-mBufferingEndOffset
-;
-PRInt64
 mStartTime
 ;
 PRInt64
@@ -724,6 +731,9 @@ mVideoFrameEndTime
 double
 mVolume
 ;
+TimeStamp
+mDecodeStartTime
+;
 PRPackedBool
 mSeekable
 ;
@@ -738,6 +748,9 @@ mGotDurationFromMetaData
 ;
 PRPackedBool
 mStopDecodeThreads
+;
+PRPackedBool
+mQuickBuffering
 ;
 private
 :
