@@ -594,6 +594,10 @@ TestTextFormatter
 .
 cpp
 \
+TestCheckedInt
+.
+cpp
+\
 (
 NULL
 )
