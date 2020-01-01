@@ -187,10 +187,6 @@ nsIReflowCallback
 .
 h
 \
-nsLayoutErrors
-.
-h
-\
 nsLayoutUtils
 .
 h

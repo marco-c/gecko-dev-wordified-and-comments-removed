@@ -323,7 +323,7 @@ h
 #
 include
 "
-nsDOMError
+nsError
 .
 h
 "
@@ -713,13 +713,6 @@ h
 include
 "
 nsIXMLContentSink
-.
-h
-"
-#
-include
-"
-nsContentErrors
 .
 h
 "

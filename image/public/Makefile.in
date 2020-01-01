@@ -84,9 +84,6 @@ GRE_MODULE
 1
 EXPORTS
 =
-ImageErrors
-.
-h
 ImageLogging
 .
 h
