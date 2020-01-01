@@ -2224,6 +2224,14 @@ node
 =
 child
 ;
+element
+.
+node
+.
+viewIndex
+=
+0
+;
 if
 (
 child
