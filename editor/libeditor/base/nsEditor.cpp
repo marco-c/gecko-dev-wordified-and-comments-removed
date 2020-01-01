@@ -19386,7 +19386,7 @@ nsCOMPtr
 <
 nsIDOMCharacterData
 >
-nodeAsText
+nodeAsCharData
 =
 do_QueryInterface
 (
@@ -19458,7 +19458,7 @@ nsCOMPtr
 <
 nsIDOMCharacterData
 >
-priorNodeAsText
+priorNodeAsCharData
 =
 do_QueryInterface
 (
@@ -19467,7 +19467,7 @@ priorNode
 ;
 if
 (
-priorNodeAsText
+priorNodeAsCharData
 )
 {
 PRUint32
@@ -19495,7 +19495,7 @@ res
 =
 CreateTxnForDeleteCharacter
 (
-priorNodeAsText
+priorNodeAsCharData
 length
 ePrevious
 getter_AddRefs
@@ -19622,7 +19622,7 @@ nsCOMPtr
 <
 nsIDOMCharacterData
 >
-nextNodeAsText
+nextNodeAsCharData
 =
 do_QueryInterface
 (
@@ -19631,7 +19631,7 @@ nextNode
 ;
 if
 (
-nextNodeAsText
+nextNodeAsCharData
 )
 {
 PRUint32
@@ -19659,7 +19659,7 @@ res
 =
 CreateTxnForDeleteCharacter
 (
-nextNodeAsText
+nextNodeAsCharData
 0
 eNext
 getter_AddRefs
@@ -19756,7 +19756,7 @@ NS_OK
 }
 if
 (
-nodeAsText
+nodeAsCharData
 )
 {
 nsRefPtr
@@ -19769,7 +19769,7 @@ res
 =
 CreateTxnForDeleteCharacter
 (
-nodeAsText
+nodeAsCharData
 offset
 aAction
 getter_AddRefs
@@ -19934,7 +19934,7 @@ nsCOMPtr
 <
 nsIDOMCharacterData
 >
-selectedNodeAsText
+selectedNodeAsCharData
 =
 do_QueryInterface
 (
@@ -19943,7 +19943,7 @@ selectedNode
 ;
 if
 (
-selectedNodeAsText
+selectedNodeAsCharData
 )
 {
 PRUint32
@@ -19979,7 +19979,7 @@ res
 =
 CreateTxnForDeleteCharacter
 (
-selectedNodeAsText
+selectedNodeAsCharData
 position
 aAction
 getter_AddRefs
