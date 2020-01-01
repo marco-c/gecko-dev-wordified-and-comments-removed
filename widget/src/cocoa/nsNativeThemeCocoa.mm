@@ -477,6 +477,13 @@ h
 #
 include
 "
+nsObjCExceptions
+.
+h
+"
+#
+include
+"
 nsIRenderingContext
 .
 h
@@ -883,6 +890,8 @@ nsNativeThemeCocoa
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 mPushButtonCell
 =
 [
@@ -942,6 +951,8 @@ setHighlightsBy
 NSPushInCellMask
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 nsNativeThemeCocoa
 :
@@ -951,6 +962,8 @@ nsNativeThemeCocoa
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 mPushButtonCell
 release
@@ -960,6 +973,8 @@ release
 mRadioButtonCell
 release
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 static
@@ -1166,6 +1181,8 @@ PRInt32
 inState
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 HIThemeButtonDrawInfo
 bdi
 ;
@@ -1304,6 +1321,8 @@ inBoxRect
 ;
 #
 endif
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 /
 /
@@ -1520,6 +1539,8 @@ PRInt32
 inState
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 NSRect
 drawRect
 =
@@ -2317,6 +2338,8 @@ inBoxRect
 ;
 #
 endif
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 /
 /
@@ -2504,6 +2527,8 @@ PRInt32
 inState
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 NSRect
 drawRect
 =
@@ -3495,6 +3520,8 @@ inBoxRect
 ;
 #
 endif
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 void
 nsNativeThemeCocoa
@@ -3522,6 +3549,8 @@ PRInt32
 inState
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 HIThemeButtonDrawInfo
 bdi
 ;
@@ -3724,6 +3753,8 @@ inBoxRect
 ;
 #
 endif
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 void
 nsNativeThemeCocoa
@@ -3749,6 +3780,8 @@ PRInt32
 inState
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 HIThemeButtonDrawInfo
 bdi
 ;
@@ -3803,6 +3836,8 @@ HITHEME_ORIENTATION
 NULL
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 void
 nsNativeThemeCocoa
@@ -3824,6 +3859,8 @@ PRInt32
 inState
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 HIThemeFrameDrawInfo
 fdi
 ;
@@ -4102,6 +4139,8 @@ cgContext
 HITHEME_ORIENTATION
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 void
 nsNativeThemeCocoa
@@ -4123,6 +4162,8 @@ PRInt32
 inValue
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 HIThemeTrackDrawInfo
 tdi
 ;
@@ -4220,6 +4261,8 @@ cgContext
 HITHEME_ORIENTATION
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 void
 nsNativeThemeCocoa
@@ -4235,6 +4278,8 @@ HIRect
 inBoxRect
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 HIThemeTabPaneDrawInfo
 tpdi
 ;
@@ -4272,6 +4317,8 @@ cgContext
 HITHEME_ORIENTATION
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 void
 nsNativeThemeCocoa
@@ -4301,6 +4348,8 @@ PRInt32
 inMaxValue
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 HIThemeTrackDrawInfo
 tdi
 ;
@@ -4421,6 +4470,8 @@ cgContext
 HITHEME_ORIENTATION
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 void
 nsNativeThemeCocoa
@@ -4446,6 +4497,8 @@ PRInt32
 inState
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 HIThemeTabDrawInfo
 tdi
 ;
@@ -4561,6 +4614,8 @@ cgContext
 HITHEME_ORIENTATION
 NULL
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 static
@@ -4872,6 +4927,8 @@ PRBool
 aShouldGetButtonStates
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 PRInt32
 curpos
 =
@@ -5399,6 +5456,8 @@ kThemeBottomOutsideArrowPressed
 ;
 }
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 void
 nsNativeThemeCocoa
@@ -5417,6 +5476,8 @@ nsIFrame
 aFrame
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 /
 /
 If
@@ -5689,6 +5750,8 @@ release
 ]
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 nsIFrame
 *
@@ -5795,6 +5858,8 @@ nsRect
 aClipRect
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 /
 /
 setup
@@ -7947,6 +8012,8 @@ EndNativeDrawing
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 static
 const
@@ -7981,6 +8048,8 @@ nsMargin
 aResult
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 aResult
 -
 >
@@ -8304,6 +8373,8 @@ break
 }
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 /
@@ -8631,6 +8702,8 @@ PRBool
 aIsOverridable
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 aResult
 -
 >
@@ -9789,6 +9862,8 @@ break
 }
 return
 NS_OK
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 NS_IMETHODIMP
