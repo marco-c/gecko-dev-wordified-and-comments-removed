@@ -90,7 +90,7 @@ FORCE_SHARED_LIB
 CMMSRCS
 =
 \
-nsAlertsService
+nsGrowlAlertsService
 .
 mm
 \
@@ -151,7 +151,7 @@ NULL
 EXPORTS
 =
 \
-nsAlertsService
+nsGrowlAlertsService
 .
 h
 \
