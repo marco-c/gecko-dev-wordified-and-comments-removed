@@ -6786,13 +6786,6 @@ codomain
 )
 HTML5_ATOM
 (
-datagrid
-"
-datagrid
-"
-)
-HTML5_ATOM
-(
 emptyset
 "
 emptyset
@@ -7092,6 +7085,13 @@ HTML5_ATOM
 equivalent
 "
 equivalent
+"
+)
+HTML5_ATOM
+(
+figcaption
+"
+figcaption
 "
 )
 HTML5_ATOM

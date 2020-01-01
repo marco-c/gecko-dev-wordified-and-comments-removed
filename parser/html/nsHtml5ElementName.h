@@ -1680,6 +1680,11 @@ ELT_SECTION
 static
 nsHtml5ElementName
 *
+ELT_SUMMARY
+;
+static
+nsHtml5ElementName
+*
 ELT_TENDSTO
 ;
 static
@@ -1711,11 +1716,6 @@ static
 nsHtml5ElementName
 *
 ELT_COLGROUP
-;
-static
-nsHtml5ElementName
-*
-ELT_DATAGRID
 ;
 static
 nsHtml5ElementName
@@ -1956,6 +1956,11 @@ static
 nsHtml5ElementName
 *
 ELT_EQUIVALENT
+;
+static
+nsHtml5ElementName
+*
+ELT_FIGCAPTION
 ;
 static
 nsHtml5ElementName
