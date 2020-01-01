@@ -164,6 +164,10 @@ browser_ruleview_ui
 .
 js
 \
+browser_ruleview_update
+.
+js
+\
 browser_ruleview_focus
 .
 js

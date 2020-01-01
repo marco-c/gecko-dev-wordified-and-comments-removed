@@ -2363,9 +2363,9 @@ IUI
 .
 nodeChanged
 (
-this
-.
-registrationObject
+"
+treepanel
+"
 )
 ;
 Services
