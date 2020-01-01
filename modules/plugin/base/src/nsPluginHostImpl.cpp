@@ -23436,6 +23436,7 @@ NextLine
 )
 )
 {
+const
 char
 *
 filename
@@ -23458,6 +23459,7 @@ NextLine
 return
 rv
 ;
+const
 char
 *
 fullpath
@@ -23480,6 +23482,7 @@ NextLine
 return
 rv
 ;
+const
 char
 *
 version
@@ -23591,6 +23594,7 @@ NextLine
 return
 rv
 ;
+const
 char
 *
 description
@@ -23613,6 +23617,7 @@ NextLine
 return
 rv
 ;
+const
 char
 *
 name
