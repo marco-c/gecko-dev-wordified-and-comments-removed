@@ -4927,7 +4927,9 @@ getLayerController
 .
 setCheckerboardColor
 (
-0
+Color
+.
+WHITE
 )
 ;
 }

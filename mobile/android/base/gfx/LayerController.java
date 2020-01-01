@@ -183,6 +183,10 @@ mLayerClient
 private
 int
 mCheckerboardColor
+=
+Color
+.
+WHITE
 ;
 private
 boolean
