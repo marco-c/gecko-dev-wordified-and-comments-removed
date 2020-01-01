@@ -1414,15 +1414,6 @@ bool
 isForOfp
 )
 ;
-void
-addStatementToList
-(
-Node
-pn
-Node
-kid
-)
-;
 bool
 checkFunctionArguments
 (
