@@ -570,6 +570,13 @@ hideFormAssistPopup
 ;
 return
 mTouchEventHandler
+=
+=
+null
+?
+false
+:
+mTouchEventHandler
 .
 handleEvent
 (
@@ -587,6 +594,13 @@ event
 )
 {
 return
+mTouchEventHandler
+=
+=
+null
+?
+false
+:
 mTouchEventHandler
 .
 handleEvent
