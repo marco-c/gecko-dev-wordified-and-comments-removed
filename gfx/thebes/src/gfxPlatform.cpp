@@ -2752,7 +2752,7 @@ cmsCreate_sRGBProfile
 cmsPrecacheProfile
 (
 gCMSsRGBProfile
-CMS_PRECACHE_LI16F_FORWARD
+CMS_PRECACHE_LI8F_FORWARD
 )
 ;
 }

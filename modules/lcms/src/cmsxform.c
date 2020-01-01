@@ -2595,7 +2595,7 @@ L2_Precache
 >
 Impl
 .
-LI16F_FORWARD
+LI8F_FORWARD
 .
 Cache
 [
@@ -2624,7 +2624,7 @@ L2_Precache
 >
 Impl
 .
-LI16F_FORWARD
+LI8F_FORWARD
 .
 Cache
 [
@@ -2653,7 +2653,7 @@ L2_Precache
 >
 Impl
 .
-LI16F_FORWARD
+LI8F_FORWARD
 .
 Cache
 [
@@ -4936,7 +4936,7 @@ InputProfile
 >
 Precache
 [
-CMS_PRECACHE_LI16F_FORWARD
+CMS_PRECACHE_LI8F_FORWARD
 ]
 ;
 OutPrecache
