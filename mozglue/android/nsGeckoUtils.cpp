@@ -6,6 +6,14 @@ jni
 h
 >
 #
+define
+malloc
+__wrap_malloc
+#
+define
+free
+__wrap_free
+#
 include
 <
 stdlib
