@@ -1530,7 +1530,6 @@ show
 mTitle
 "
 "
-null
 mItems
 false
 )
