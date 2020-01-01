@@ -11921,14 +11921,12 @@ ival
 {
 JS_ASSERT
 (
-types
-.
-ival
-=
-=
+IsNumberType
+(
 types
 .
 rval
+)
 )
 ;
 return
