@@ -694,7 +694,9 @@ browser
 /
 content
 /
-syncGenericChange
+sync
+/
+genericChange
 .
 js
 "
@@ -720,7 +722,9 @@ browser
 /
 content
 /
-syncUtils
+sync
+/
+utils
 .
 js
 "

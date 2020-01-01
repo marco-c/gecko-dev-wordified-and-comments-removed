@@ -728,7 +728,9 @@ browser
 /
 content
 /
-syncSetup
+sync
+/
+setup
 .
 js
 "
@@ -754,7 +756,9 @@ browser
 /
 content
 /
-syncUtils
+sync
+/
+utils
 .
 js
 "

@@ -264,7 +264,9 @@ browser
 /
 content
 /
-syncGenericChange
+sync
+/
+genericChange
 .
 xul
 "
@@ -513,7 +515,9 @@ browser
 /
 content
 /
-syncKey
+sync
+/
+key
 .
 xhtml
 "

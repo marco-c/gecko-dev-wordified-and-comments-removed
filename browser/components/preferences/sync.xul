@@ -798,7 +798,9 @@ browser
 /
 content
 /
-syncUtils
+sync
+/
+utils
 .
 js
 "

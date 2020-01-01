@@ -698,7 +698,9 @@ browser
 /
 content
 /
-syncAddDevice
+sync
+/
+addDevice
 .
 js
 "
@@ -724,7 +726,9 @@ browser
 /
 content
 /
-syncUtils
+sync
+/
+utils
 .
 js
 "
