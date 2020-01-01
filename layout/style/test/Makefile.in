@@ -685,6 +685,14 @@ test_bug499655
 .
 xhtml
 \
+test_bug517224
+.
+html
+\
+test_bug524175
+.
+html
+\
 test_cascade
 .
 html
@@ -988,9 +996,9 @@ bug453896_iframe
 .
 html
 \
-test_bug524175
+bug517224
 .
-html
+sjs
 \
 (
 NULL
