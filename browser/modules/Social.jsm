@@ -863,7 +863,7 @@ true
 ;
 SocialService
 .
-getOrderedProviderList
+getProviderList
 (
 function
 (
