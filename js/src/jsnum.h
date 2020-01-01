@@ -30,8 +30,17 @@ defined
 __arm__
 )
 #
+if
+!
+defined
+(
+__VFP_FP__
+)
+#
 define
-CPU_IS_ARM
+FPU_IS_ARM_FPA
+#
+endif
 #
 endif
 typedef
@@ -51,7 +60,7 @@ IS_LITTLE_ENDIAN
 !
 defined
 (
-CPU_IS_ARM
+FPU_IS_ARM_FPA
 )
 uint32
 lo
@@ -253,7 +262,7 @@ IS_LITTLE_ENDIAN
 !
 defined
 (
-CPU_IS_ARM
+FPU_IS_ARM_FPA
 )
 #
 define
