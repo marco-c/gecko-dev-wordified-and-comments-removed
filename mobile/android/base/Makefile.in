@@ -1590,14 +1590,6 @@ res
 /
 layout
 /
-reader_popup
-.
-xml
-\
-res
-/
-layout
-/
 remote_tabs
 .
 xml
