@@ -6146,6 +6146,13 @@ browser
 Makefile
 testing
 /
+tools
+/
+screenshot
+/
+Makefile
+testing
+/
 xpcshell
 /
 Makefile
