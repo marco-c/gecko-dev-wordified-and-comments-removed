@@ -29,13 +29,6 @@ h
 #
 include
 "
-pk11init
-.
-h
-"
-#
-include
-"
 secmodt
 .
 h

@@ -47,6 +47,9 @@ crlReloadDelay
 PRTime
 badDerCrlReloadDelay
 ;
+CERTChainVerifyCallback
+chainVerifyCallback
+;
 }
 ;
 PKIX_Error

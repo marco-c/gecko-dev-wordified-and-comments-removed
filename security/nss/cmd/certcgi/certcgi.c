@@ -234,6 +234,10 @@ n
 ;
 printf
 (
+"
+%
+s
+"
 error_string
 )
 ;
@@ -7944,8 +7948,8 @@ value
 >
 =
 0
-|
-|
+&
+&
 value
 <
 256

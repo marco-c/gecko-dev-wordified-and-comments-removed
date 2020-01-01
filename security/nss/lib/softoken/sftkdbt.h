@@ -18,15 +18,5 @@ SDB_MAX_META_DATA_LEN
 define
 SDB_ULONG_SIZE
 4
-typedef
-enum
-{
-SDB_SQL
-SDB_EXTERN
-SDB_LEGACY
-SDB_MULTIACCESS
-}
-SDBType
-;
 #
 endif

@@ -286,6 +286,8 @@ loadCerts
 void
 *
 wincx
+PRBool
+contextSpecific
 )
 ;
 SECStatus

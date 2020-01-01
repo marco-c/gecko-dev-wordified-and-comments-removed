@@ -377,9 +377,11 @@ loser
 }
 slot
 =
-PK11_GetBestSlot
+PK11_GetBestSlotWithAttributes
 (
 CKM_RSA_PKCS
+CKF_WRAP
+0
 passwdArg
 )
 ;

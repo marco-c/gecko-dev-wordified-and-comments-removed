@@ -222,6 +222,8 @@ SHA224_Flatten
 SHA224_Resurrect
 SHA224_Clone
 BLAPI_SHVerifyFile
+PQG_ParamGenV2
+PRNGTEST_RunHealthTests
 }
 ;
 const

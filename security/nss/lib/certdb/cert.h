@@ -80,6 +80,7 @@ CERTName
 *
 CERT_AsciiToName
 (
+const
 char
 *
 string
@@ -215,9 +216,11 @@ extern
 SECComparison
 CERT_CompareRDN
 (
+const
 CERTRDN
 *
 a
+const
 CERTRDN
 *
 b
@@ -276,9 +279,11 @@ extern
 SECComparison
 CERT_CompareName
 (
+const
 CERTName
 *
 a
+const
 CERTName
 *
 b

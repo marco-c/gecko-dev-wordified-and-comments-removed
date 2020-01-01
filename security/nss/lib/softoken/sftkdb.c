@@ -43,13 +43,6 @@ h
 #
 include
 "
-secmodt
-.
-h
-"
-#
-include
-"
 pratom
 .
 h
@@ -64,7 +57,7 @@ h
 #
 include
 "
-sftkpars
+utilpars
 .
 h
 "
@@ -10400,8 +10393,10 @@ char
 *
 confdir
 ;
-SDBType
+NSSDBType
 dbType
+=
+NSS_DB_TYPE_NONE
 ;
 char
 *
@@ -10470,7 +10465,7 @@ CKR_OK
 }
 confdir
 =
-sftk_EvaluateConfigDir
+_NSSUTIL_EvaluateConfigDir
 (
 configdir
 &
@@ -10485,7 +10480,7 @@ dbType
 )
 {
 case
-SDB_LEGACY
+NSS_DB_TYPE_LEGACY
 :
 crv
 =
@@ -10515,7 +10510,7 @@ keySDB
 break
 ;
 case
-SDB_MULTIACCESS
+NSS_DB_TYPE_MULTIACCESS
 :
 crv
 =
@@ -10545,10 +10540,10 @@ keySDB
 break
 ;
 case
-SDB_SQL
+NSS_DB_TYPE_SQL
 :
 case
-SDB_EXTERN
+NSS_DB_TYPE_EXTERN
 :
 crv
 =

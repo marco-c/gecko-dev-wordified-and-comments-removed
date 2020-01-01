@@ -50,8 +50,8 @@ private
 int
 version
 ;
-SDBType
-sdb_type
+int
+reserved
 ;
 int
 sdb_flags

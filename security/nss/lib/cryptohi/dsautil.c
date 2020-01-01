@@ -28,10 +28,10 @@ h
 "
 #
 ifndef
-DSA_SUBPRIME_LEN
+DSA1_SUBPRIME_LEN
 #
 define
-DSA_SUBPRIME_LEN
+DSA1_SUBPRIME_LEN
 20
 /
 *
@@ -881,7 +881,7 @@ len
 =
 2
 *
-DSA_SUBPRIME_LEN
+DSA1_SUBPRIME_LEN
 )
 ;
 if
@@ -894,7 +894,7 @@ len
 =
 2
 *
-DSA_SUBPRIME_LEN
+DSA1_SUBPRIME_LEN
 )
 {
 PORT_SetError
@@ -1008,7 +1008,7 @@ return
 common_DecodeDerSig
 (
 item
-DSA_SUBPRIME_LEN
+DSA1_SUBPRIME_LEN
 )
 ;
 }

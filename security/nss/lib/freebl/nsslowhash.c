@@ -41,7 +41,14 @@ h
 #
 include
 "
-sechash
+hasht
+.
+h
+"
+#
+include
+"
+plhash
 .
 h
 "

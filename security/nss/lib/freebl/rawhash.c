@@ -20,7 +20,7 @@ h
 #
 include
 "
-sechash
+hasht
 .
 h
 "

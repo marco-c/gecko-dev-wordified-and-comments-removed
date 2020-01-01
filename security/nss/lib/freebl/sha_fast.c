@@ -2746,6 +2746,15 @@ outLen
 SHA1_LENGTH
 )
 ;
+memset
+(
+&
+ctx
+0
+sizeof
+ctx
+)
+;
 return
 SECSuccess
 ;

@@ -345,6 +345,7 @@ arena
 CERTOCSPRequest
 *
 request
+const
 char
 *
 location
@@ -5599,6 +5600,7 @@ CERTOCSPRequest
 *
 CERT_DecodeOCSPRequest
 (
+const
 SECItem
 *
 src
@@ -10402,6 +10404,7 @@ PRFileDesc
 *
 ocsp_SendEncodedRequest
 (
+const
 char
 *
 location
@@ -11801,6 +11804,7 @@ const
 SEC_HttpClientFcnV1
 *
 hcv1
+const
 char
 *
 location
@@ -12207,6 +12211,7 @@ arena
 CERTCertList
 *
 certList
+const
 char
 *
 location
@@ -12272,6 +12277,7 @@ arena
 CERTOCSPRequest
 *
 request
+const
 char
 *
 location
@@ -12500,6 +12506,7 @@ certID
 CERTCertificate
 *
 singleCert
+const
 char
 *
 location

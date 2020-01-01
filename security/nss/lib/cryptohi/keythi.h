@@ -491,6 +491,15 @@ CKA_PRIVATE
 /
 #
 define
+SECKEY_CKA_ALWAYS_AUTHENTICATE
+(
+1U
+<
+<
+2
+)
+#
+define
 SECKEY_ATTRIBUTES_CACHED
 (
 key

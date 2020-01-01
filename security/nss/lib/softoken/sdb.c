@@ -7778,13 +7778,6 @@ version
 sdb
 -
 >
-sdb_type
-=
-SDB_SQL
-;
-sdb
--
->
 sdb_flags
 =
 flags

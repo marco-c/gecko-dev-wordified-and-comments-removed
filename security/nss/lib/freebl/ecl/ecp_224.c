@@ -1530,7 +1530,10 @@ carry
 MP_SUB_BORROW
 (
 r1
-0
+MP_DIGIT_MAX
+<
+<
+32
 r1
 carry
 carry
@@ -1610,6 +1613,11 @@ r0
 #
 endif
 }
+s_mp_clamp
+(
+r
+)
+;
 CLEANUP
 :
 return

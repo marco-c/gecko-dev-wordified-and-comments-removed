@@ -1104,7 +1104,7 @@ success
 #
 include
 "
-pk11pars
+utilpars
 .
 h
 "
@@ -1248,7 +1248,7 @@ parameters
 ;
 sourceCurr
 =
-secmod_argStrip
+NSSUTIL_ArgStrip
 (
 parameters
 )
@@ -1273,7 +1273,7 @@ sourcePrev
 =
 sourceCurr
 ;
-SECMOD_HANDLE_STRING_ARG
+NSSUTIL_HANDLE_STRING_ARG
 (
 sourceCurr
 *
@@ -1287,7 +1287,7 @@ sourcePrev
 sourceCurr
 ;
 )
-SECMOD_HANDLE_FINAL_ARG
+NSSUTIL_HANDLE_FINAL_ARG
 (
 sourceCurr
 )

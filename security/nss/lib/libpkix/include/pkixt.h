@@ -1098,6 +1098,7 @@ pkix_errorstrings
 .
 h
 "
+PKIX_NUMERRORCODES
 }
 PKIX_ERRORCODE
 ;

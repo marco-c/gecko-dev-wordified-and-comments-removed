@@ -206,6 +206,7 @@ CERTOCSPRequest
 *
 CERT_DecodeOCSPRequest
 (
+const
 SECItem
 *
 src
@@ -250,6 +251,7 @@ arena
 CERTCertList
 *
 certList
+const
 char
 *
 location

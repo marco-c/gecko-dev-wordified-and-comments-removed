@@ -15,13 +15,6 @@ h
 #
 include
 "
-sechash
-.
-h
-"
-#
-include
-"
 lowkeyi
 .
 h

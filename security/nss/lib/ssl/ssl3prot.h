@@ -50,6 +50,10 @@ SSL3_RECORD_HEADER_LENGTH
 5
 #
 define
+DTLS_RECORD_HEADER_LENGTH
+13
+#
+define
 MAX_FRAGMENT_LENGTH
 16384
 typedef
@@ -292,6 +296,9 @@ client_hello
 server_hello
 =
 2
+hello_verify_request
+=
+3
 new_session_ticket
 =
 4

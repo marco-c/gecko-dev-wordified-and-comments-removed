@@ -132,6 +132,8 @@ slot
 char
 *
 pw
+PRBool
+contextSpecific
 )
 {
 int
@@ -226,6 +228,10 @@ slot
 -
 >
 session
+contextSpecific
+?
+CKU_CONTEXT_SPECIFIC
+:
 CKU_USER
 (
 unsigned
@@ -896,6 +902,7 @@ PK11_DoPassword
 slot
 PR_TRUE
 wincx
+PR_FALSE
 )
 ;
 }
@@ -1092,6 +1099,7 @@ PK11_DoPassword
 slot
 loadCerts
 wincx
+PR_FALSE
 )
 ;
 }
@@ -1981,6 +1989,8 @@ loadCerts
 void
 *
 wincx
+PRBool
+contextSpecific
 )
 {
 SECStatus
@@ -2142,6 +2152,7 @@ pk11_CheckPassword
 (
 slot
 password
+contextSpecific
 )
 ;
 PORT_Memset

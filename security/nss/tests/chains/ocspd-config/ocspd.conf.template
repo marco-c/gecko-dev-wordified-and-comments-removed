@@ -119,3 +119,13 @@ file
 DIR
 /
 CA_CERT
+server_cert
+=
+file
+:
+/
+/
+/
+DIR
+/
+CA_CERT

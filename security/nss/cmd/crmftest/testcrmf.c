@@ -4356,7 +4356,7 @@ privKey
 ;
 slot
 =
-PK11_GetBestSlot
+PK11_GetBestSlotWithAttributes
 (
 mapWrapKeyType
 (
@@ -4365,6 +4365,8 @@ privKey
 >
 keyType
 )
+CKF_ENCRYPT
+0
 NULL
 )
 ;

@@ -373,6 +373,10 @@ htype
 fprintf
 (
 stderr
+"
+%
+s
+"
 HashTypeToOID
 (
 htype

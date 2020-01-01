@@ -2204,13 +2204,6 @@ version
 sdb
 -
 >
-sdb_type
-=
-SDB_LEGACY
-;
-sdb
--
->
 sdb_flags
 =
 flags

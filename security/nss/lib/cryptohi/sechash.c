@@ -1404,6 +1404,7 @@ unsigned
 char
 *
 dest
+const
 unsigned
 char
 *

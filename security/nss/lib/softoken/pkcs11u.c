@@ -71,7 +71,9 @@ SFTKObject
 object
 CK_ATTRIBUTE_TYPE
 type
-CK_VOID_PTR
+const
+void
+*
 value
 CK_ULONG
 len
@@ -2135,6 +2137,7 @@ SFTKObject
 object
 CK_ATTRIBUTE_TYPE
 type
+const
 void
 *
 value
@@ -2241,6 +2244,7 @@ SFTKObject
 object
 CK_ATTRIBUTE_TYPE
 type
+const
 void
 *
 value
@@ -3239,6 +3243,7 @@ SFTKObject
 object
 CK_ATTRIBUTE_TYPE
 type
+const
 void
 *
 valPtr

@@ -2646,9 +2646,11 @@ rv
 SECComparison
 CERT_CompareRDN
 (
+const
 CERTRDN
 *
 a
+const
 CERTRDN
 *
 b
@@ -2833,9 +2835,11 @@ rv
 SECComparison
 CERT_CompareName
 (
+const
 CERTName
 *
 a
+const
 CERTName
 *
 b
