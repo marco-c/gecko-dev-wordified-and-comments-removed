@@ -2547,12 +2547,7 @@ value
 '
 nsIDOMStorageWindow
 .
-sessionStorage
-'
-'
-nsIDOMStorageWindow
-.
-globalStorage
+*
 '
 #
 dom
