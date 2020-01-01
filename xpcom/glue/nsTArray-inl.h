@@ -1643,7 +1643,7 @@ Hdr
 nsAutoTArray
 <
 PRUint8
-8192
+64
 Alloc
 >
 temp
