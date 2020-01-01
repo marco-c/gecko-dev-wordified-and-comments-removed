@@ -13377,6 +13377,12 @@ if
 updatedDataCall
 )
 {
+if
+(
+!
+newDataCallOptions
+)
+{
 currentDataCall
 .
 state
@@ -13398,6 +13404,7 @@ sendDOMMessage
 currentDataCall
 )
 ;
+}
 continue
 ;
 }
