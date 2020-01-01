@@ -5686,7 +5686,7 @@ type
 =
 options
 .
-type
+contactType
 ;
 switch
 (

@@ -8673,7 +8673,7 @@ getICCContacts
 function
 getICCContacts
 (
-type
+contactType
 callback
 )
 {
@@ -8730,9 +8730,9 @@ rilMessageType
 "
 getICCContacts
 "
-type
+contactType
 :
-type
+contactType
 requestId
 :
 requestId
