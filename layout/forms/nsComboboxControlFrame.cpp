@@ -2540,7 +2540,7 @@ frame
 nsBoxLayoutState
 bls
 (
-GetPresContext
+PresContext
 (
 )
 aRenderingContext
