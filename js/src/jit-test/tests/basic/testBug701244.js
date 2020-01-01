@@ -1,0 +1,16 @@
+(
+function
+f
+(
+{
+length
+}
+)
+{
+}
+)
+.
+toString
+(
+)
+;
