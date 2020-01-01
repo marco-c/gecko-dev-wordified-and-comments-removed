@@ -320,6 +320,9 @@ private
 bool
 quirks
 ;
+bool
+isSrcdocDocument
+;
 public
 :
 void
@@ -1392,6 +1395,13 @@ setScriptingEnabled
 (
 bool
 scriptingEnabled
+)
+;
+void
+setIsSrcdocDocument
+(
+bool
+isSrcdocDocument
 )
 ;
 void

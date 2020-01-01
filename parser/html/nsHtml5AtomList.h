@@ -1441,6 +1441,13 @@ prompt
 )
 HTML5_ATOM
 (
+srcdoc
+"
+srcdoc
+"
+)
+HTML5_ATOM
+(
 scoped
 "
 scoped

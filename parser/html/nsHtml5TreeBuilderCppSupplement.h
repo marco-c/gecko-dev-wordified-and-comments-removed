@@ -4570,6 +4570,10 @@ MOZ_UNLIKELY
 (
 mViewSource
 )
+&
+&
+!
+isSrcdocDocument
 )
 {
 mViewSource
@@ -4598,6 +4602,10 @@ MOZ_UNLIKELY
 (
 mViewSource
 )
+&
+&
+!
+isSrcdocDocument
 )
 {
 mViewSource
@@ -4826,6 +4834,10 @@ MOZ_UNLIKELY
 (
 mViewSource
 )
+&
+&
+!
+isSrcdocDocument
 )
 {
 mViewSource
@@ -5266,6 +5278,10 @@ MOZ_UNLIKELY
 (
 mViewSource
 )
+&
+&
+!
+isSrcdocDocument
 )
 {
 mViewSource
