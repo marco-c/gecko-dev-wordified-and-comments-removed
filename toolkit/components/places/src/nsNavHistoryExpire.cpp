@@ -2573,9 +2573,11 @@ NULL
 "
 "
 AND
+(
 a
 .
 expiration
+!
 =
 "
 )
@@ -2595,12 +2597,13 @@ EXPIRE_NEVER
 NS_LITERAL_CSTRING
 (
 "
-AND
+OR
 a
 .
 id
 IS
 NULL
+)
 "
 "
 AND
