@@ -291,6 +291,7 @@ eUnit_Normal
 eUnit_Auto
 eUnit_None
 eUnit_Enumerated
+eUnit_Visibility
 eUnit_Integer
 eUnit_Coord
 eUnit_Percent
@@ -983,6 +984,12 @@ aUnit
 =
 =
 eUnit_Enumerated
+|
+|
+aUnit
+=
+=
+eUnit_Visibility
 |
 |
 aUnit
