@@ -521,6 +521,13 @@ AudioStream
 h
 "
 #
+include
+"
+WebAudioUtils
+.
+h
+"
+#
 ifdef
 MOZ_WIDGET_GONK
 #
@@ -1776,6 +1783,13 @@ AudioStream
 :
 :
 ShutdownLibrary
+(
+)
+;
+WebAudioUtils
+:
+:
+Shutdown
 (
 )
 ;
