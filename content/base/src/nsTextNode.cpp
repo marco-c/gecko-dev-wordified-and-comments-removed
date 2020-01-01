@@ -350,7 +350,7 @@ nsINodeInfo
 aNodeInfo
 )
 :
-nsGenericDOMDataNode
+nsGenericTextNode
 (
 aNodeInfo
 )
