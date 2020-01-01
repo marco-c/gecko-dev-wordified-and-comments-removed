@@ -1382,7 +1382,7 @@ numItems
 =
 subject
 .
-applied
+succeeded
 ;
 this
 .
@@ -1397,6 +1397,7 @@ Engine
 data
 +
 "
+successfully
 applied
 "
 +
@@ -1412,12 +1413,14 @@ if
 (
 numItems
 )
+{
 this
 .
 hasIncomingItems
 =
 true
 ;
+}
 break
 ;
 case
