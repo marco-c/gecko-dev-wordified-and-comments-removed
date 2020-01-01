@@ -229,6 +229,13 @@ initializeStatics
 (
 )
 ;
+nsHtml5StreamParser
+:
+:
+InitializeStatics
+(
+)
+;
 #
 ifdef
 DEBUG

@@ -77,6 +77,11 @@ nsHtml5TreeBuilder
 )
 ;
 PRBool
+IsDiscretionaryFlushSafe
+(
+)
+;
+PRBool
 HasScript
 (
 )
@@ -119,13 +124,8 @@ DropSpeculativeLoader
 (
 )
 ;
-void
+PRBool
 Flush
-(
-)
-;
-void
-MaybeFlush
 (
 )
 ;
