@@ -3129,6 +3129,12 @@ icon
 ;
 }
 }
+mCursorAdapter
+.
+notifyDataSetChanged
+(
+)
+;
 if
 (
 !
@@ -3169,12 +3175,6 @@ e
 )
 ;
 }
-mCursorAdapter
-.
-notifyDataSetChanged
-(
-)
-;
 filterSuggestions
 (
 mSearchTerm
