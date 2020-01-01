@@ -8835,7 +8835,7 @@ rpath
 -
 link
 (
-prefix
+PREFIX
 )
 /
 lib
