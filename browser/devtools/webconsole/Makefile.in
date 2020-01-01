@@ -87,6 +87,10 @@ PropertyPanel
 .
 jsm
 \
+NetworkHelper
+.
+jsm
+\
 NetworkPanel
 .
 jsm
