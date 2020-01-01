@@ -91,6 +91,15 @@ PRUint32
 aCount
 )
 ;
+virtual
+Telemetry
+:
+:
+ID
+SpeedHistogram
+(
+)
+;
 void
 CreateFrame
 (

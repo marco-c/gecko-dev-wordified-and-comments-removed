@@ -153,6 +153,15 @@ FinishInternal
 (
 )
 ;
+virtual
+Telemetry
+:
+:
+ID
+SpeedHistogram
+(
+)
+;
 void
 NotifyDone
 (

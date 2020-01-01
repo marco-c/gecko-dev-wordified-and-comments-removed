@@ -76,6 +76,15 @@ FinishInternal
 (
 )
 ;
+virtual
+Telemetry
+:
+:
+ID
+SpeedHistogram
+(
+)
+;
 private
 :
 void
