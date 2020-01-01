@@ -586,7 +586,9 @@ MESSAGE_PREFERENCE_KEYS
 "
 network
 "
-null
+"
+netwarn
+"
 null
 "
 networkinfo
@@ -2042,6 +2044,9 @@ secerror
 "
 "
 secwarn
+"
+"
+netwarn
 "
 ]
 ;
