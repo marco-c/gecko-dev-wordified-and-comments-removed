@@ -1634,6 +1634,12 @@ accesskey
 oncommand
 =
 "
+this
+.
+focus
+(
+)
+;
 gSyncSetup
 .
 checkFields
