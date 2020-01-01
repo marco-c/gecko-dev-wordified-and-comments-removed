@@ -5251,8 +5251,10 @@ void
 ;
 private
 :
+nsCOMPtr
+<
 imgIContainer
-*
+>
 mContainer
 ;
 }
