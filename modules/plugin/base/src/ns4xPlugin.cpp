@@ -256,7 +256,7 @@ NS_MEMORY_CID
 PR_BEGIN_EXTERN_C
 static
 NPError
-NP_EXPORT
+NP_CALLBACK
 _requestread
 (
 NPStream
@@ -269,7 +269,7 @@ rangeList
 ;
 static
 NPError
-NP_EXPORT
+NP_CALLBACK
 _geturlnotify
 (
 NPP
@@ -289,7 +289,7 @@ notifyData
 ;
 static
 NPError
-NP_EXPORT
+NP_CALLBACK
 _getvalue
 (
 NPP
@@ -303,7 +303,7 @@ r_value
 ;
 static
 NPError
-NP_EXPORT
+NP_CALLBACK
 _setvalue
 (
 NPP
@@ -317,7 +317,7 @@ r_value
 ;
 static
 NPError
-NP_EXPORT
+NP_CALLBACK
 _geturl
 (
 NPP
@@ -334,7 +334,7 @@ target
 ;
 static
 NPError
-NP_EXPORT
+NP_CALLBACK
 _posturlnotify
 (
 NPP
@@ -362,7 +362,7 @@ notifyData
 ;
 static
 NPError
-NP_EXPORT
+NP_CALLBACK
 _posturl
 (
 NPP
@@ -387,7 +387,7 @@ file
 ;
 static
 NPError
-NP_EXPORT
+NP_CALLBACK
 _newstream
 (
 NPP
@@ -406,7 +406,7 @@ pstream
 ;
 static
 int32
-NP_EXPORT
+NP_CALLBACK
 _write
 (
 NPP
@@ -423,7 +423,7 @@ buffer
 ;
 static
 NPError
-NP_EXPORT
+NP_CALLBACK
 _destroystream
 (
 NPP
@@ -437,7 +437,7 @@ reason
 ;
 static
 void
-NP_EXPORT
+NP_CALLBACK
 _status
 (
 NPP
@@ -450,7 +450,7 @@ message
 ;
 static
 void
-NP_EXPORT
+NP_CALLBACK
 _memfree
 (
 void
@@ -460,7 +460,7 @@ ptr
 ;
 static
 uint32
-NP_EXPORT
+NP_CALLBACK
 _memflush
 (
 uint32
@@ -469,7 +469,7 @@ size
 ;
 static
 void
-NP_EXPORT
+NP_CALLBACK
 _reloadplugins
 (
 NPBool
@@ -478,7 +478,7 @@ reloadPages
 ;
 static
 void
-NP_EXPORT
+NP_CALLBACK
 _invalidaterect
 (
 NPP
@@ -490,7 +490,7 @@ invalidRect
 ;
 static
 void
-NP_EXPORT
+NP_CALLBACK
 _invalidateregion
 (
 NPP
@@ -501,7 +501,7 @@ invalidRegion
 ;
 static
 void
-NP_EXPORT
+NP_CALLBACK
 _forceredraw
 (
 NPP
@@ -510,7 +510,7 @@ npp
 ;
 static
 void
-NP_EXPORT
+NP_CALLBACK
 _pushpopupsenabledstate
 (
 NPP
@@ -521,7 +521,7 @@ enabled
 ;
 static
 void
-NP_EXPORT
+NP_CALLBACK
 _poppopupsenabledstate
 (
 NPP
@@ -532,7 +532,7 @@ static
 const
 char
 *
-NP_EXPORT
+NP_CALLBACK
 _useragent
 (
 NPP
@@ -542,7 +542,7 @@ npp
 static
 void
 *
-NP_EXPORT
+NP_CALLBACK
 _memalloc
 (
 uint32
@@ -555,7 +555,7 @@ OJI
 static
 JRIEnv
 *
-NP_EXPORT
+NP_CALLBACK
 _getJavaEnv
 (
 void
@@ -566,7 +566,7 @@ if
 1
 static
 jref
-NP_EXPORT
+NP_CALLBACK
 _getJavaPeer
 (
 NPP
@@ -4009,7 +4009,7 @@ NPERR_NO_ERROR
 ;
 }
 NPError
-NP_EXPORT
+NP_CALLBACK
 _geturl
 (
 NPP
@@ -4180,7 +4180,7 @@ eNPPStreamTypeInternal_Get
 ;
 }
 NPError
-NP_EXPORT
+NP_CALLBACK
 _geturlnotify
 (
 NPP
@@ -4248,7 +4248,7 @@ notifyData
 ;
 }
 NPError
-NP_EXPORT
+NP_CALLBACK
 _posturlnotify
 (
 NPP
@@ -4344,7 +4344,7 @@ file
 ;
 }
 NPError
-NP_EXPORT
+NP_CALLBACK
 _posturl
 (
 NPP
@@ -4593,7 +4593,7 @@ fStream
 ;
 }
 NPError
-NP_EXPORT
+NP_CALLBACK
 _newstream
 (
 NPP
@@ -4783,7 +4783,7 @@ err
 ;
 }
 int32
-NP_EXPORT
+NP_CALLBACK
 _write
 (
 NPP
@@ -4946,7 +4946,7 @@ count
 ;
 }
 NPError
-NP_EXPORT
+NP_CALLBACK
 _destroystream
 (
 NPP
@@ -5090,7 +5090,7 @@ NPERR_NO_ERROR
 ;
 }
 void
-NP_EXPORT
+NP_CALLBACK
 _status
 (
 NPP
@@ -5211,7 +5211,7 @@ message
 }
 }
 void
-NP_EXPORT
+NP_CALLBACK
 _memfree
 (
 void
@@ -5251,7 +5251,7 @@ ptr
 ;
 }
 uint32
-NP_EXPORT
+NP_CALLBACK
 _memflush
 (
 uint32
@@ -5289,7 +5289,7 @@ return
 ;
 }
 void
-NP_EXPORT
+NP_CALLBACK
 _reloadplugins
 (
 NPBool
@@ -5336,7 +5336,7 @@ reloadPages
 ;
 }
 void
-NP_EXPORT
+NP_CALLBACK
 _invalidaterect
 (
 NPP
@@ -5507,7 +5507,7 @@ invalidRect
 }
 }
 void
-NP_EXPORT
+NP_CALLBACK
 _invalidateregion
 (
 NPP
@@ -5651,7 +5651,7 @@ invalidRegion
 }
 }
 void
-NP_EXPORT
+NP_CALLBACK
 _forceredraw
 (
 NPP
@@ -5943,7 +5943,7 @@ GetNativeContext
 }
 NPObject
 *
-NP_EXPORT
+NP_CALLBACK
 _getwindowobject
 (
 NPP
@@ -5984,7 +5984,7 @@ cx
 }
 NPObject
 *
-NP_EXPORT
+NP_CALLBACK
 _getpluginelement
 (
 NPP
@@ -6202,7 +6202,7 @@ str
 ;
 }
 NPIdentifier
-NP_EXPORT
+NP_CALLBACK
 _getstringidentifier
 (
 const
@@ -6280,7 +6280,7 @@ name
 ;
 }
 void
-NP_EXPORT
+NP_CALLBACK
 _getstringidentifiers
 (
 const
@@ -6386,7 +6386,7 @@ i
 }
 }
 NPIdentifier
-NP_EXPORT
+NP_CALLBACK
 _getintidentifier
 (
 int32_t
@@ -6405,7 +6405,7 @@ intid
 }
 NPUTF8
 *
-NP_EXPORT
+NP_CALLBACK
 _utf8fromidentifier
 (
 NPIdentifier
@@ -6476,7 +6476,7 @@ str
 ;
 }
 int32_t
-NP_EXPORT
+NP_CALLBACK
 _intfromidentifier
 (
 NPIdentifier
@@ -6512,7 +6512,7 @@ v
 ;
 }
 bool
-NP_EXPORT
+NP_CALLBACK
 _identifierisstring
 (
 NPIdentifier
@@ -6536,7 +6536,7 @@ v
 }
 NPObject
 *
-NP_EXPORT
+NP_CALLBACK
 _createobject
 (
 NPP
@@ -6667,7 +6667,7 @@ npobj
 }
 NPObject
 *
-NP_EXPORT
+NP_CALLBACK
 _retainobject
 (
 NPObject
@@ -6699,7 +6699,7 @@ npobj
 ;
 }
 void
-NP_EXPORT
+NP_CALLBACK
 _releaseobject
 (
 NPObject
@@ -6778,7 +6778,7 @@ npobj
 }
 }
 bool
-NP_EXPORT
+NP_CALLBACK
 _invoke
 (
 NPP
@@ -6855,7 +6855,7 @@ result
 ;
 }
 bool
-NP_EXPORT
+NP_CALLBACK
 _invokeDefault
 (
 NPP
@@ -6929,7 +6929,7 @@ result
 ;
 }
 bool
-NP_EXPORT
+NP_CALLBACK
 _evaluate
 (
 NPP
@@ -7146,7 +7146,7 @@ result
 ;
 }
 bool
-NP_EXPORT
+NP_CALLBACK
 _getproperty
 (
 NPP
@@ -7215,7 +7215,7 @@ result
 ;
 }
 bool
-NP_EXPORT
+NP_CALLBACK
 _setproperty
 (
 NPP
@@ -7285,7 +7285,7 @@ value
 ;
 }
 bool
-NP_EXPORT
+NP_CALLBACK
 _removeproperty
 (
 NPP
@@ -7350,7 +7350,7 @@ property
 ;
 }
 bool
-NP_EXPORT
+NP_CALLBACK
 _hasproperty
 (
 NPP
@@ -7415,7 +7415,7 @@ propertyName
 ;
 }
 bool
-NP_EXPORT
+NP_CALLBACK
 _hasmethod
 (
 NPP
@@ -7480,7 +7480,7 @@ methodName
 ;
 }
 bool
-NP_EXPORT
+NP_CALLBACK
 _enumerate
 (
 NPP
@@ -7577,7 +7577,7 @@ count
 ;
 }
 void
-NP_EXPORT
+NP_CALLBACK
 _releasevariantvalue
 (
 NPVariant
@@ -7695,7 +7695,7 @@ variant
 ;
 }
 bool
-NP_EXPORT
+NP_CALLBACK
 _tostring
 (
 NPObject
@@ -7725,7 +7725,7 @@ char
 gNPPException
 ;
 void
-NP_EXPORT
+NP_CALLBACK
 _setexception
 (
 NPObject
@@ -7847,7 +7847,7 @@ mOldException
 ;
 }
 NPError
-NP_EXPORT
+NP_CALLBACK
 _getvalue
 (
 NPP
@@ -8707,7 +8707,7 @@ NPERR_GENERIC_ERROR
 }
 }
 NPError
-NP_EXPORT
+NP_CALLBACK
 _setvalue
 (
 NPP
@@ -9084,7 +9084,7 @@ NPERR_NO_ERROR
 }
 }
 NPError
-NP_EXPORT
+NP_CALLBACK
 _requestread
 (
 NPStream
@@ -9283,7 +9283,7 @@ ifdef
 OJI
 JRIEnv
 *
-NP_EXPORT
+NP_CALLBACK
 _getJavaEnv
 (
 void
@@ -9310,7 +9310,7 @@ endif
 const
 char
 *
-NP_EXPORT
+NP_CALLBACK
 _useragent
 (
 NPP
@@ -9376,7 +9376,7 @@ retstr
 }
 void
 *
-NP_EXPORT
+NP_CALLBACK
 _memalloc
 (
 uint32
@@ -9415,7 +9415,7 @@ size
 ifdef
 OJI
 jref
-NP_EXPORT
+NP_CALLBACK
 _getJavaPeer
 (
 NPP
@@ -9451,7 +9451,7 @@ NULL
 #
 endif
 void
-NP_EXPORT
+NP_CALLBACK
 _pushpopupsenabledstate
 (
 NPP
@@ -9490,7 +9490,7 @@ enabled
 ;
 }
 void
-NP_EXPORT
+NP_CALLBACK
 _poppopupsenabledstate
 (
 NPP

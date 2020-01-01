@@ -58,13 +58,13 @@ ifdef
 XP_OS2
 #
 define
-NP_EXPORT
+NP_CALLBACK
 _System
 #
 else
 #
 define
-NP_EXPORT
+NP_CALLBACK
 #
 endif
 #
@@ -384,7 +384,7 @@ CALLBACKS
 PR_BEGIN_EXTERN_C
 NPObject
 *
-NP_EXPORT
+NP_CALLBACK
 _getwindowobject
 (
 NPP
@@ -393,7 +393,7 @@ npp
 ;
 NPObject
 *
-NP_EXPORT
+NP_CALLBACK
 _getpluginelement
 (
 NPP
@@ -401,7 +401,7 @@ npp
 )
 ;
 NPIdentifier
-NP_EXPORT
+NP_CALLBACK
 _getstringidentifier
 (
 const
@@ -411,7 +411,7 @@ name
 )
 ;
 void
-NP_EXPORT
+NP_CALLBACK
 _getstringidentifiers
 (
 const
@@ -427,7 +427,7 @@ identifiers
 )
 ;
 bool
-NP_EXPORT
+NP_CALLBACK
 _identifierisstring
 (
 NPIdentifier
@@ -435,7 +435,7 @@ identifiers
 )
 ;
 NPIdentifier
-NP_EXPORT
+NP_CALLBACK
 _getintidentifier
 (
 int32_t
@@ -444,7 +444,7 @@ intid
 ;
 NPUTF8
 *
-NP_EXPORT
+NP_CALLBACK
 _utf8fromidentifier
 (
 NPIdentifier
@@ -452,7 +452,7 @@ identifier
 )
 ;
 int32_t
-NP_EXPORT
+NP_CALLBACK
 _intfromidentifier
 (
 NPIdentifier
@@ -461,7 +461,7 @@ identifier
 ;
 NPObject
 *
-NP_EXPORT
+NP_CALLBACK
 _createobject
 (
 NPP
@@ -473,7 +473,7 @@ aClass
 ;
 NPObject
 *
-NP_EXPORT
+NP_CALLBACK
 _retainobject
 (
 NPObject
@@ -482,7 +482,7 @@ npobj
 )
 ;
 void
-NP_EXPORT
+NP_CALLBACK
 _releaseobject
 (
 NPObject
@@ -491,7 +491,7 @@ npobj
 )
 ;
 bool
-NP_EXPORT
+NP_CALLBACK
 _invoke
 (
 NPP
@@ -513,7 +513,7 @@ result
 )
 ;
 bool
-NP_EXPORT
+NP_CALLBACK
 _invokeDefault
 (
 NPP
@@ -533,7 +533,7 @@ result
 )
 ;
 bool
-NP_EXPORT
+NP_CALLBACK
 _evaluate
 (
 NPP
@@ -550,7 +550,7 @@ result
 )
 ;
 bool
-NP_EXPORT
+NP_CALLBACK
 _getproperty
 (
 NPP
@@ -566,7 +566,7 @@ result
 )
 ;
 bool
-NP_EXPORT
+NP_CALLBACK
 _setproperty
 (
 NPP
@@ -583,7 +583,7 @@ value
 )
 ;
 bool
-NP_EXPORT
+NP_CALLBACK
 _removeproperty
 (
 NPP
@@ -596,7 +596,7 @@ property
 )
 ;
 bool
-NP_EXPORT
+NP_CALLBACK
 _hasproperty
 (
 NPP
@@ -609,7 +609,7 @@ propertyName
 )
 ;
 bool
-NP_EXPORT
+NP_CALLBACK
 _hasmethod
 (
 NPP
@@ -622,7 +622,7 @@ methodName
 )
 ;
 bool
-NP_EXPORT
+NP_CALLBACK
 _enumerate
 (
 NPP
@@ -640,7 +640,7 @@ count
 )
 ;
 void
-NP_EXPORT
+NP_CALLBACK
 _releasevariantvalue
 (
 NPVariant
@@ -649,7 +649,7 @@ variant
 )
 ;
 void
-NP_EXPORT
+NP_CALLBACK
 _setexception
 (
 NPObject
