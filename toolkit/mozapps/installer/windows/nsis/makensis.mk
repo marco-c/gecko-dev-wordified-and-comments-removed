@@ -478,7 +478,15 @@ overrides
 .
 nsh
 \
+SetVistaDefaultApp
+.
+dll
+\
 ShellLink
+.
+dll
+\
+UAC
 .
 dll
 \
