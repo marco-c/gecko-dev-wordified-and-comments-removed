@@ -437,7 +437,7 @@ nsIContent
 *
 bparent
 =
-nullptr
+nsnull
 ;
 nsRefPtr
 <
@@ -678,7 +678,7 @@ aElement
 *
 _retval
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -708,7 +708,7 @@ nsRuleNode
 *
 ruleNode
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -941,7 +941,7 @@ NS_ENSURE_TRUE
 cssrule
 !
 =
-nullptr
+nsnull
 NS_ERROR_FAILURE
 )
 ;
@@ -1081,7 +1081,7 @@ aElement
 *
 _retval
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -1252,6 +1252,9 @@ aElement
 )
 ;
 return
+(
+nsresult
+)
 esm
 -
 >
@@ -1355,12 +1358,12 @@ aRuleNode
 *
 aRuleNode
 =
-nullptr
+nsnull
 ;
 *
 aStyleContext
 =
-nullptr
+nsnull
 ;
 if
 (

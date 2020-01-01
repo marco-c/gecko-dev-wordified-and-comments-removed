@@ -519,7 +519,7 @@ mReceivedControlData
 {
 OnTransportStatus
 (
-nullptr
+nsnull
 NS_NET_STATUS_BEGIN_FTP_TRANSACTION
 0
 0
@@ -1083,7 +1083,7 @@ nsFtpControlConnection
 *
 connection
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -1247,12 +1247,12 @@ mControlConnection
 >
 WaitData
 (
-nullptr
+nsnull
 )
 ;
 mControlConnection
 =
-nullptr
+nsnull
 ;
 }
 LOG
@@ -1390,7 +1390,7 @@ rv
 ;
 mControlConnection
 =
-nullptr
+nsnull
 ;
 return
 rv
@@ -3764,7 +3764,7 @@ prompter
 >
 Alert
 (
-nullptr
+nsnull
 formattedString
 .
 get
@@ -4724,6 +4724,9 @@ rv
 )
 )
 return
+(
+nsresult
+)
 FTP_ERROR
 ;
 rv
@@ -4809,7 +4812,7 @@ Doom
 ;
 mCacheEntry
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -5079,7 +5082,7 @@ Doom
 ;
 mCacheEntry
 =
-nullptr
+nsnull
 ;
 }
 if
@@ -5527,6 +5530,9 @@ if
 controlSocket
 )
 return
+(
+nsresult
+)
 FTP_ERROR
 ;
 nsCOMPtr
@@ -6218,11 +6224,11 @@ NS_ERROR_ABORT
 ;
 mDataTransport
 =
-nullptr
+nsnull
 ;
 mDataStream
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -6330,7 +6336,7 @@ sts
 >
 CreateTransport
 (
-nullptr
+nsnull
 0
 host
 port
@@ -6541,7 +6547,7 @@ copier
 AsyncCopy
 (
 this
-nullptr
+nsnull
 )
 ;
 if
@@ -6938,7 +6944,7 @@ StreamListener
 (
 )
 out
-nullptr
+nsnull
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7716,7 +7722,7 @@ mControlConnection
 >
 WaitData
 (
-nullptr
+nsnull
 )
 ;
 if
@@ -7848,7 +7854,7 @@ NS_BINDING_ABORTED
 }
 mControlConnection
 =
-nullptr
+nsnull
 ;
 }
 nsresult
@@ -7965,7 +7971,7 @@ prompter
 >
 Alert
 (
-nullptr
+nsnull
 NS_ConvertASCIItoUTF16
 (
 mResponseMsg
@@ -8003,7 +8009,7 @@ KillControlConnection
 ;
 OnTransportStatus
 (
-nullptr
+nsnull
 NS_NET_STATUS_END_FTP_TRANSACTION
 0
 0
@@ -9002,7 +9008,7 @@ mChannel
 >
 OnTransportStatus
 (
-nullptr
+nsnull
 status
 progress
 mFileSize
@@ -9145,7 +9151,7 @@ status
 {
 mUploadRequest
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -9340,7 +9346,7 @@ NS_ERROR_ABORT
 ;
 mUploadRequest
 =
-nullptr
+nsnull
 ;
 }
 if
@@ -9358,12 +9364,12 @@ NS_ERROR_ABORT
 ;
 mDataTransport
 =
-nullptr
+nsnull
 ;
 }
 mDataStream
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -9381,7 +9387,7 @@ Doom
 ;
 mCacheEntry
 =
-nullptr
+nsnull
 ;
 return
 nsBaseContentStream
