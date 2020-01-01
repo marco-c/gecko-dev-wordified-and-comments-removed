@@ -9864,7 +9864,9 @@ GetStyleList
 )
 -
 >
-mListStyleImage
+GetListStyleImage
+(
+)
 ;
 if
 (

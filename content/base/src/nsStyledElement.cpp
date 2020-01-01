@@ -733,6 +733,14 @@ doc
 IsLoadedAsData
 (
 )
+|
+|
+doc
+-
+>
+IsStaticDocument
+(
+)
 )
 )
 {

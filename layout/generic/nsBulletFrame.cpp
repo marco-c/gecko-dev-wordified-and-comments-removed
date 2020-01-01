@@ -421,7 +421,9 @@ GetStyleList
 )
 -
 >
-mListStyleImage
+GetListStyleImage
+(
+)
 ;
 if
 (
@@ -841,7 +843,9 @@ if
 myList
 -
 >
-mListStyleImage
+GetListStyleImage
+(
+)
 &
 &
 mImageRequest
@@ -5118,7 +5122,9 @@ if
 myList
 -
 >
-mListStyleImage
+GetListStyleImage
+(
+)
 &
 &
 mImageRequest

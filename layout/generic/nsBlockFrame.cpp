@@ -28752,7 +28752,9 @@ if
 myList
 -
 >
-mListStyleImage
+GetListStyleImage
+(
+)
 |
 |
 myList
@@ -29886,7 +29888,9 @@ NS_STYLE_LIST_STYLE_NONE
 list
 -
 >
-mListStyleImage
+GetListStyleImage
+(
+)
 ;
 }
 PRBool

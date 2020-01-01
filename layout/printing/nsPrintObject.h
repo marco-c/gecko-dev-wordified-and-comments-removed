@@ -104,6 +104,11 @@ Init
 nsIDocShell
 *
 aDocShell
+nsIDOMDocument
+*
+aDoc
+PRBool
+aPrintPreview
 )
 ;
 PRBool
@@ -157,8 +162,10 @@ nsIWidget
 >
 mWindow
 ;
+nsCOMPtr
+<
 nsIContent
-*
+>
 mContent
 ;
 PrintObjectType
@@ -189,6 +196,9 @@ mSharedPresShell
 ;
 PRPackedBool
 mInvisible
+;
+PRPackedBool
+mPrintPreview
 ;
 float
 mShrinkRatio

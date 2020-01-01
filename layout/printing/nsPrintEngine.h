@@ -744,6 +744,9 @@ aPrintSettings
 nsIWebProgressListener
 *
 aWebProgressListener
+nsIDOMDocument
+*
+aDoc
 )
 ;
 nsresult
@@ -757,6 +760,9 @@ aPrintSettings
 nsIWebProgressListener
 *
 aWebProgressListener
+nsIDOMDocument
+*
+aDoc
 )
 ;
 void

@@ -2139,6 +2139,15 @@ DestroyContent
 (
 )
 ;
+nsresult
+CopyInnerTo
+(
+nsGenericElement
+*
+aDest
+)
+const
+;
 NS_IMETHOD
 GetTabIndex
 (

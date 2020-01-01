@@ -300,6 +300,9 @@ nsObjectFrame
 class
 nsTransitionManager
 ;
+class
+imgIContainer
+;
 #
 ifdef
 MOZ_REFLOW_PERF
@@ -774,17 +777,6 @@ const
 {
 return
 mImageAnimationMode
-;
-}
-void
-RestoreImageAnimationMode
-(
-)
-{
-SetImageAnimationMode
-(
-mImageAnimationModePref
-)
 ;
 }
 virtual

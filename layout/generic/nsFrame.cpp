@@ -499,6 +499,13 @@ nsDisplayList
 h
 "
 #
+include
+"
+nsIObjectLoadingContent
+.
+h
+"
+#
 ifdef
 MOZ_SVG
 #

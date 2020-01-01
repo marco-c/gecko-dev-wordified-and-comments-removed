@@ -1847,7 +1847,7 @@ print
 =
 PrintUtils
 .
-getWebBrowserPrint
+getPrintPreview
 (
 )
 ;
@@ -2341,7 +2341,7 @@ print
 =
 PrintUtils
 .
-getWebBrowserPrint
+getPrintPreview
 (
 )
 ;
@@ -3126,7 +3126,7 @@ print
 =
 PrintUtils
 .
-getWebBrowserPrint
+getPrintPreview
 (
 )
 ;

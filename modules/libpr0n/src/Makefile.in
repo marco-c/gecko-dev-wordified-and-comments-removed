@@ -455,6 +455,14 @@ cpp
 imgTools
 .
 cpp
+\
+imgContainerRequest
+.
+cpp
+\
+(
+NULL
+)
 include
 (
 topsrcdir

@@ -372,6 +372,15 @@ Event
 ;
 protected
 :
+void
+CreateStaticImageClone
+(
+nsImageLoadingContent
+*
+aDest
+)
+const
+;
 nsCOMPtr
 <
 imgIRequest

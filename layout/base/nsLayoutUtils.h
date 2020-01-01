@@ -125,9 +125,6 @@ class
 nsBlockFrame
 ;
 class
-nsTextFragment
-;
-class
 nsLayoutUtils
 {
 public
@@ -1626,17 +1623,6 @@ aFrame
 static
 PRBool
 sDisableGetUsedXAssertions
-;
-static
-nsTextFragment
-*
-GetTextFragmentForPrinting
-(
-const
-nsIFrame
-*
-aFrame
-)
 ;
 static
 PRBool
