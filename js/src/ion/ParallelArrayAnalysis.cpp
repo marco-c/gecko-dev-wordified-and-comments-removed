@@ -883,6 +883,14 @@ SAFE_OP
 (
 GetPropertyCache
 )
+SAFE_OP
+(
+GetPropertyPolymorphic
+)
+UNSAFE_OP
+(
+SetPropertyPolymorphic
+)
 UNSAFE_OP
 (
 GetElementCache

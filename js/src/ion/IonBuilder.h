@@ -1361,7 +1361,7 @@ loadSlot
 MDefinition
 *
 obj
-HandleShape
+RawShape
 shape
 MIRType
 rvalType
@@ -1451,11 +1451,13 @@ types
 )
 ;
 bool
-getPropTryMonomorphic
+getPropTryInlineAccess
 (
 bool
 *
 emitted
+HandlePropertyName
+name
 HandleId
 id
 bool
@@ -1469,7 +1471,7 @@ types
 )
 ;
 bool
-getPropTryPolymorphic
+getPropTryCache
 (
 bool
 *
