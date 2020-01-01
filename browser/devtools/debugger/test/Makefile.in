@@ -149,6 +149,10 @@ browser_dbg_debuggerstatement
 .
 js
 \
+browser_dbg_listaddons
+.
+js
+\
 browser_dbg_listtabs
 -
 01
@@ -833,6 +837,14 @@ html
 browser_dbg_tab2
 .
 html
+\
+browser_dbg_addon1
+.
+xpi
+\
+browser_dbg_addon2
+.
+xpi
 \
 browser_dbg_debuggerstatement
 .
