@@ -1121,7 +1121,11 @@ template
 class
 Allocator
 >
-bool
+typename
+Alloc
+:
+:
+ResultTypeProxy
 SwapArrayElements
 (
 nsTArray_base
@@ -4073,7 +4077,11 @@ template
 class
 Allocator
 >
-bool
+typename
+Alloc
+:
+:
+ResultType
 SwapElements
 (
 nsTArray_Impl
@@ -4086,6 +4094,11 @@ other
 )
 {
 return
+Alloc
+:
+:
+Result
+(
 this
 -
 >
@@ -4099,6 +4112,7 @@ elem_type
 MOZ_ALIGNOF
 (
 elem_type
+)
 )
 )
 ;
