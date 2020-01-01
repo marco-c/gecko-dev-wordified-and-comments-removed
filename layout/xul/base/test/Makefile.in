@@ -435,6 +435,10 @@ rules
 mk
 _TEST_FILES
 =
+test_bug381167
+.
+xhtml
+\
 test_bug393970
 .
 xul
