@@ -1907,6 +1907,12 @@ dispatchEvent
 event
 )
 ;
+TabItems
+.
+resumePainting
+(
+)
+;
 }
 )
 ;
@@ -1943,13 +1949,13 @@ dispatchEvent
 event
 )
 ;
-}
 TabItems
 .
 resumePainting
 (
 )
 ;
+}
 }
 hideTabView
 :
