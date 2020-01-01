@@ -7812,6 +7812,7 @@ dp
 )
 ;
 JSAutoTempValueRooter
+tvr
 (
 cx
 JS_ARRAY_LENGTH
