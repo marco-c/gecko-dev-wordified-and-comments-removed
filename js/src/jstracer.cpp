@@ -11565,16 +11565,10 @@ lir
 >
 ins_eq0
 (
-lir
--
->
-ins_eq0
-(
 get
 (
 &
 v
-)
 )
 )
 BRANCH_EXIT
