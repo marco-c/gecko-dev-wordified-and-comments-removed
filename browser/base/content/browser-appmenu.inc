@@ -1255,7 +1255,7 @@ label
 =
 "
 &
-responsiveUI
+responsiveDesignTool
 .
 label
 ;
