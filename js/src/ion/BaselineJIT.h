@@ -33,6 +33,8 @@ h
 #
 include
 "
+ion
+/
 IonCode
 .
 h
@@ -40,6 +42,8 @@ h
 #
 include
 "
+ion
+/
 IonMacroAssembler
 .
 h
@@ -47,6 +51,8 @@ h
 #
 include
 "
+ion
+/
 Bailouts
 .
 h

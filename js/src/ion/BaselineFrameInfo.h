@@ -24,6 +24,8 @@ h
 #
 include
 "
+ion
+/
 BaselineJIT
 .
 h
@@ -31,6 +33,8 @@ h
 #
 include
 "
+ion
+/
 BaselineFrame
 .
 h
@@ -38,6 +42,8 @@ h
 #
 include
 "
+ion
+/
 BaselineRegisters
 .
 h
@@ -45,6 +51,8 @@ h
 #
 include
 "
+ion
+/
 BytecodeAnalysis
 .
 h
@@ -52,6 +60,8 @@ h
 #
 include
 "
+ion
+/
 IonMacroAssembler
 .
 h
@@ -59,6 +69,8 @@ h
 #
 include
 "
+ion
+/
 FixedList
 .
 h

@@ -1,6 +1,8 @@
 #
 include
 "
+ion
+/
 MIR
 .
 h
@@ -8,6 +10,8 @@ h
 #
 include
 "
+ion
+/
 MIRGraph
 .
 h
@@ -15,6 +19,8 @@ h
 #
 include
 "
+ion
+/
 LIR
 .
 h
@@ -22,6 +28,8 @@ h
 #
 include
 "
+ion
+/
 IonSpewer
 .
 h
@@ -29,6 +37,8 @@ h
 #
 include
 "
+ion
+/
 LIR
 -
 inl
@@ -38,6 +48,8 @@ h
 #
 include
 "
+ion
+/
 shared
 /
 CodeGenerator

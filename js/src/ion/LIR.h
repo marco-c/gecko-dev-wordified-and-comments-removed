@@ -14,6 +14,8 @@ h
 #
 include
 "
+ion
+/
 IonAllocPolicy
 .
 h
@@ -21,6 +23,8 @@ h
 #
 include
 "
+ion
+/
 InlineList
 .
 h
@@ -28,6 +32,8 @@ h
 #
 include
 "
+ion
+/
 FixedArityList
 .
 h
@@ -35,6 +41,8 @@ h
 #
 include
 "
+ion
+/
 LOpcodes
 .
 h
@@ -42,6 +50,8 @@ h
 #
 include
 "
+ion
+/
 Registers
 .
 h
@@ -49,6 +59,8 @@ h
 #
 include
 "
+ion
+/
 MIR
 .
 h
@@ -56,6 +68,8 @@ h
 #
 include
 "
+ion
+/
 MIRGraph
 .
 h
@@ -63,6 +77,8 @@ h
 #
 include
 "
+ion
+/
 shared
 /
 Assembler
@@ -74,6 +90,8 @@ h
 #
 include
 "
+ion
+/
 Safepoints
 .
 h
@@ -81,6 +99,8 @@ h
 #
 include
 "
+ion
+/
 Bailouts
 .
 h
@@ -88,6 +108,8 @@ h
 #
 include
 "
+ion
+/
 VMFunctions
 .
 h
@@ -6304,6 +6326,8 @@ endif
 #
 include
 "
+ion
+/
 LIR
 -
 Common
@@ -6331,6 +6355,8 @@ JS_CPU_X86
 #
 include
 "
+ion
+/
 x86
 /
 LIR
@@ -6348,6 +6374,8 @@ JS_CPU_X64
 #
 include
 "
+ion
+/
 x64
 /
 LIR
@@ -6361,6 +6389,8 @@ endif
 #
 include
 "
+ion
+/
 shared
 /
 LIR
@@ -6380,6 +6410,8 @@ JS_CPU_ARM
 #
 include
 "
+ion
+/
 arm
 /
 LIR
@@ -6396,6 +6428,8 @@ LIR_HEADER
 #
 include
 "
+ion
+/
 LIR
 -
 inl

@@ -7,6 +7,8 @@ ion_IonAnalysis_h
 #
 include
 "
+ion
+/
 IonAllocPolicy
 .
 h
@@ -14,6 +16,8 @@ h
 #
 include
 "
+ion
+/
 MIR
 .
 h

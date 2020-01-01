@@ -9,13 +9,13 @@ HWCAP_ARMv7
 )
 #
 include
-<
+"
 mozilla
 /
 StandardInteger
 .
 h
->
+"
 #
 include
 <

@@ -17,6 +17,8 @@ h
 #
 include
 "
+ion
+/
 IonCode
 .
 h
@@ -24,6 +26,8 @@ h
 #
 include
 "
+ion
+/
 SnapshotReader
 .
 h

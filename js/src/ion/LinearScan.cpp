@@ -17,6 +17,8 @@ h
 #
 include
 "
+ion
+/
 BitSet
 .
 h
@@ -24,6 +26,8 @@ h
 #
 include
 "
+ion
+/
 LinearScan
 .
 h
@@ -31,6 +35,8 @@ h
 #
 include
 "
+ion
+/
 IonBuilder
 .
 h
@@ -38,6 +44,8 @@ h
 #
 include
 "
+ion
+/
 IonSpewer
 .
 h
@@ -45,6 +53,8 @@ h
 #
 include
 "
+ion
+/
 LIR
 -
 inl

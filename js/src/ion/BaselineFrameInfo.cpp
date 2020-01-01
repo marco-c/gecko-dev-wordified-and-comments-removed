@@ -1,6 +1,8 @@
 #
 include
 "
+ion
+/
 BaselineFrameInfo
 .
 h
@@ -8,6 +10,8 @@ h
 #
 include
 "
+ion
+/
 IonSpewer
 .
 h
@@ -15,6 +19,8 @@ h
 #
 include
 "
+ion
+/
 shared
 /
 BaselineCompiler

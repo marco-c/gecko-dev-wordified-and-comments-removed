@@ -1184,6 +1184,8 @@ JS_CPU_X86
 #
 include
 "
+ion
+/
 x86
 /
 LOpcodes
@@ -1201,6 +1203,8 @@ JS_CPU_X64
 #
 include
 "
+ion
+/
 x64
 /
 LOpcodes
@@ -1218,6 +1222,8 @@ JS_CPU_ARM
 #
 include
 "
+ion
+/
 arm
 /
 LOpcodes

@@ -37,6 +37,8 @@ h
 #
 include
 "
+ion
+/
 PerfSpewer
 .
 h
@@ -44,6 +46,8 @@ h
 #
 include
 "
+ion
+/
 CodeGenerator
 .
 h
@@ -51,6 +55,8 @@ h
 #
 include
 "
+ion
+/
 IonLinker
 .
 h
@@ -58,6 +64,8 @@ h
 #
 include
 "
+ion
+/
 IonSpewer
 .
 h
@@ -65,6 +73,8 @@ h
 #
 include
 "
+ion
+/
 MIRGenerator
 .
 h
@@ -72,6 +82,8 @@ h
 #
 include
 "
+ion
+/
 shared
 /
 CodeGenerator
@@ -99,6 +111,8 @@ h
 #
 include
 "
+ion
+/
 ParallelFunctions
 .
 h
@@ -106,6 +120,8 @@ h
 #
 include
 "
+ion
+/
 ExecutionModeInlines
 .
 h
@@ -140,6 +156,8 @@ h
 #
 include
 "
+ion
+/
 ParallelSafetyAnalysis
 .
 h

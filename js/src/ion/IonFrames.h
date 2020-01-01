@@ -40,6 +40,8 @@ h
 #
 include
 "
+ion
+/
 Registers
 .
 h
@@ -47,6 +49,8 @@ h
 #
 include
 "
+ion
+/
 IonCode
 .
 h
@@ -54,6 +58,8 @@ h
 #
 include
 "
+ion
+/
 IonFrameIterator
 .
 h

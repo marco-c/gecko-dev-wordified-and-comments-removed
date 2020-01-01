@@ -16,6 +16,8 @@ JS_CPU_X86
 #
 include
 "
+ion
+/
 x86
 /
 BaselineRegisters
@@ -33,6 +35,8 @@ JS_CPU_X64
 #
 include
 "
+ion
+/
 x64
 /
 BaselineRegisters
@@ -46,6 +50,8 @@ else
 #
 include
 "
+ion
+/
 arm
 /
 BaselineRegisters

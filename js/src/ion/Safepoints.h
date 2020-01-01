@@ -7,6 +7,8 @@ ion_Safepoints_h
 #
 include
 "
+ion
+/
 Registers
 .
 h
@@ -14,6 +16,8 @@ h
 #
 include
 "
+ion
+/
 CompactBuffer
 .
 h
@@ -21,6 +25,8 @@ h
 #
 include
 "
+ion
+/
 BitSet
 .
 h
@@ -28,6 +34,8 @@ h
 #
 include
 "
+ion
+/
 shared
 /
 Assembler
