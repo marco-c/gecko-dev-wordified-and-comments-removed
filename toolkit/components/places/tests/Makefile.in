@@ -445,8 +445,6 @@ XPCSHELL_TESTS
 \
 autocomplete
 \
-background
-\
 sync
 \
 bookmarks

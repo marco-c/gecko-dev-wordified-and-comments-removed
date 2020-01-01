@@ -626,10 +626,6 @@ utils
 .
 js
 \
-PlacesBackground
-.
-jsm
-\
 (
 NULL
 )
