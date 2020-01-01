@@ -600,6 +600,15 @@ this
 ;
 if
 (
+!
+error
+)
+error
+=
+JPAKE_ERROR_USERABORT
+;
+if
+(
 error
 =
 =

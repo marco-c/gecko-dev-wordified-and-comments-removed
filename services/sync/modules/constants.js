@@ -676,6 +676,15 @@ error
 .
 wrongmessage
 "
+JPAKE_ERROR_USERABORT
+:
+"
+jpake
+.
+error
+.
+userabort
+"
 kSyncMasterPasswordLocked
 :
 "
