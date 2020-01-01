@@ -887,6 +887,8 @@ nsICrashReporter
 ;
 try
 {
+try
+{
 let
 dogfoodId
 =
@@ -1123,6 +1125,13 @@ androidVersion
 ;
 #
 endif
+}
+catch
+(
+e
+)
+{
+}
 let
 homeURL
 =
