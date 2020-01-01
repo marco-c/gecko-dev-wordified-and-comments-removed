@@ -1697,7 +1697,7 @@ this
 .
 onButtonClick
 (
-button
+bnum
 )
 ;
 }
