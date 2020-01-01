@@ -82,16 +82,6 @@ widget_shared
 LIBXUL_LIBRARY
 =
 1
-DEFINES
-+
-=
-\
--
-D_IMPL_NS_WIDGET
-\
-(
-NULL
-)
 include
 (
 topsrcdir

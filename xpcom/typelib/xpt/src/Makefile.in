@@ -146,7 +146,7 @@ DEFINES
 +
 =
 -
-DEXPORT_XPT_API
+DIMPL_LIBXUL
 #
 Build
 libxpt

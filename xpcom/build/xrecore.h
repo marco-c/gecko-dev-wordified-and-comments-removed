@@ -48,7 +48,7 @@ NS_HIDDEN
 elif
 defined
 (
-IMPL_XREAPI
+IMPL_LIBXUL
 )
 #
 define

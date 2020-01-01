@@ -247,11 +247,6 @@ config
 rules
 .
 mk
-DEFINES
-+
-=
--
-D_IMPL_NS_COM
 ifdef
 MOZ_WIDGET_GTK
 CXXFLAGS

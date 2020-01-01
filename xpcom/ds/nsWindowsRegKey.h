@@ -42,7 +42,7 @@ result
 ;
 #
 ifdef
-_IMPL_NS_COM
+IMPL_LIBXUL
 #
 define
 NS_WINDOWSREGKEY_CID

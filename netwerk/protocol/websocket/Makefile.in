@@ -178,8 +178,3 @@ config
 rules
 .
 mk
-DEFINES
-+
-=
--
-DIMPL_NS_NET

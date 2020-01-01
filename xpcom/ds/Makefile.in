@@ -123,8 +123,3 @@ srcdir
 .
 /
 io
-DEFINES
-+
-=
--
-D_IMPL_NS_COM

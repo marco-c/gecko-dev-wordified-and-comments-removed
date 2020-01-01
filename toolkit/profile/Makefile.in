@@ -108,11 +108,6 @@ src
 (
 NULL
 )
-DEFINES
-+
-=
--
-DIMPL_XREAPI
 GARBAGE
 +
 =

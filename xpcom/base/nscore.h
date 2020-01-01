@@ -716,7 +716,7 @@ type
 NS_FROZENCALL
 #
 ifdef
-_IMPL_NS_COM
+IMPL_LIBXUL
 #
 define
 XPCOM_API
