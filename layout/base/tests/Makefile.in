@@ -210,10 +210,6 @@ subframe
 .
 xml
 \
-decoration_line_rendering
-.
-js
-\
 test_after_paint_pref
 .
 html
