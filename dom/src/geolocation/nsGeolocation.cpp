@@ -405,9 +405,6 @@ const
 jsval
 &
 aResult
-JSContext
-*
-aCx
 )
 {
 MOZ_ASSERT
@@ -456,9 +453,6 @@ const
 nsAString
 &
 aName
-JSContext
-*
-aCx
 )
 {
 NS_WARNING
