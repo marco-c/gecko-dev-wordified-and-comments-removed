@@ -3357,9 +3357,7 @@ s
 .
 hi
 =
-JSDOUBLE_HI32_EXPMASK
-|
-JSDOUBLE_HI32_MANTMASK
+0x7ff80000
 ;
 u
 .
@@ -3367,7 +3365,7 @@ s
 .
 lo
 =
-0xffffffff
+0x00000000
 ;
 number_constants
 [
@@ -3918,7 +3916,7 @@ size_t
 bufSize
 )
 {
-int32_t
+jsint
 i
 ;
 char
@@ -4110,7 +4108,7 @@ base
 return
 NULL
 ;
-int32_t
+jsint
 i
 ;
 if
