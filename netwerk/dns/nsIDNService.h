@@ -297,6 +297,9 @@ nsIPrefBranch
 >
 mIDNWhitelistPrefBranch
 ;
+bool
+mIDNUseWhitelist
+;
 }
 ;
 #
