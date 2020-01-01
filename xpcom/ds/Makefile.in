@@ -455,10 +455,6 @@ nsCRT
 .
 cpp
 \
-nsDeque
-.
-cpp
-\
 nsFixedSizeAllocator
 .
 cpp
@@ -562,10 +558,6 @@ nsCppSharedAllocator
 h
 \
 nsCRT
-.
-h
-\
-nsDeque
 .
 h
 \

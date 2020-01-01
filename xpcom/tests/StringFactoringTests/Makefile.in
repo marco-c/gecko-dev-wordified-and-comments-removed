@@ -491,7 +491,7 @@ topsrcdir
 /
 xpcom
 /
-ds
+glue
 /
 nsDeque
 .

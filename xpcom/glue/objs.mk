@@ -501,6 +501,10 @@ nsCycleCollectionParticipant
 .
 cpp
 \
+nsDeque
+.
+cpp
+\
 (
 NULL
 )
