@@ -2562,6 +2562,12 @@ exit
 "
 )
 {
+setTimeout
+(
+function
+(
+)
+{
 initStatement
 (
 )
@@ -2569,6 +2575,10 @@ initStatement
 buildDownloadList
 (
 true
+)
+;
+}
+0
 )
 ;
 }
