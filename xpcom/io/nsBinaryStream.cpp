@@ -1797,6 +1797,16 @@ Read8
 byteResult
 )
 ;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+return
+rv
+;
 *
 aBoolean
 =
