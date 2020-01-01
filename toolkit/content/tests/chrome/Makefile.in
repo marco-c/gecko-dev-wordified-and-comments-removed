@@ -507,6 +507,14 @@ frame_popup_anchor
 .
 xul
 \
+test_preferences
+.
+xul
+\
+window_preferences
+.
+xul
+\
 (
 NULL
 )
