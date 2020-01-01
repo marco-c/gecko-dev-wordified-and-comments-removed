@@ -3634,6 +3634,13 @@ aWindow
 )
 ;
 }
+this
+.
+_updateCrashReportURL
+(
+aWindow
+)
+;
 }
 onTabRemove
 :
