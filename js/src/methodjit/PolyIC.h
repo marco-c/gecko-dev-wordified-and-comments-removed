@@ -118,13 +118,6 @@ CALL
 SET
 }
 ;
-static
-const
-uint32
-LENGTH_ATOM
-=
-0xFFFFFFFF
-;
 union
 {
 struct
@@ -316,8 +309,9 @@ shapeGuard
 :
 8
 ;
-uint32
-atomIndex
+JSAtom
+*
+atom
 ;
 JSC
 :
