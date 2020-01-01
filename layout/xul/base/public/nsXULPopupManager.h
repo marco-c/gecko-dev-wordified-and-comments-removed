@@ -541,6 +541,8 @@ aPopup
 nsIContent
 *
 aMenu
+nsPopupType
+aPopupType
 PRBool
 aIsContextMenu
 PRBool
@@ -554,6 +556,10 @@ aPopup
 mMenu
 (
 aMenu
+)
+mPopupType
+(
+aPopupType
 )
 mIsContextMenu
 (
@@ -609,6 +615,9 @@ nsCOMPtr
 nsIContent
 >
 mMenu
+;
+nsPopupType
+mPopupType
 ;
 PRBool
 mIsContextMenu

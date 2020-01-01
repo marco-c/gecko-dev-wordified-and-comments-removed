@@ -1827,6 +1827,12 @@ GetContent
 (
 )
 aMenu
+popupFrame
+-
+>
+PopupType
+(
+)
 parentIsContextMenu
 aSelectFirstItem
 )
@@ -9082,7 +9088,7 @@ FirePopupShowingEvent
 mPopup
 mMenu
 context
-ePopupTypeMenu
+mPopupType
 mIsContextMenu
 mSelectFirstItem
 )

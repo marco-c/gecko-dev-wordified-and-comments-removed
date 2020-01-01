@@ -153,6 +153,8 @@ template
 |
 menupopup
 |
+panel
+|
 tooltip
 "
 /
@@ -319,6 +321,8 @@ template
 |
 menupopup
 |
+panel
+|
 tooltip
 "
 /
@@ -472,6 +476,8 @@ observes
 template
 |
 menupopup
+|
+panel
 |
 tooltip
 "
@@ -698,6 +704,8 @@ observes
 template
 |
 menupopup
+|
+panel
 |
 tooltip
 "
