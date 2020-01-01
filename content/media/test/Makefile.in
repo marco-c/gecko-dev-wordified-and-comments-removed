@@ -967,6 +967,12 @@ seek
 .
 ogv
 \
+short
+-
+video
+.
+ogv
+\
 small
 -
 shot
