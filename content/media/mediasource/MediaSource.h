@@ -346,6 +346,15 @@ MediaSourceReadyState
 :
 :
 Closed
+|
+|
+mReadyState
+=
+=
+MediaSourceReadyState
+:
+:
+Ended
 ;
 }
 bool
