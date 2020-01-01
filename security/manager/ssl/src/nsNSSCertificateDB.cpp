@@ -6139,6 +6139,9 @@ NSS_NO_LIBPKIX
 }
 else
 {
+nsresult
+nsrv
+;
 nsCOMPtr
 <
 nsINSSComponent
@@ -6166,7 +6169,6 @@ nsCERTValInParamWrapper
 >
 survivingParams
 ;
-nsresult
 nsrv
 =
 inss
