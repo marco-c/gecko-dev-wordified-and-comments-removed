@@ -1940,14 +1940,10 @@ spec
 =
 null
 )
-{
 doFinish
 (
 )
 ;
-return
-;
-}
 Log
 .
 i
