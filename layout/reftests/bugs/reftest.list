@@ -20519,6 +20519,12 @@ html
 ref
 .
 html
+random
+-
+if
+(
+cocoaWidget
+)
 =
 =
 508816
@@ -20533,6 +20539,9 @@ xul
 ref
 .
 xul
+#
+Bug
+631982
 =
 =
 508816
