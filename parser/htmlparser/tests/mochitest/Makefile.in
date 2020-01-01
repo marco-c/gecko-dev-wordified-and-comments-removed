@@ -607,14 +607,6 @@ iframe_bug599584
 .
 html
 \
-test_bug613662
-.
-html
-\
-test_bug613662
-.
-xhtml
-\
 test_bug642908
 .
 html
