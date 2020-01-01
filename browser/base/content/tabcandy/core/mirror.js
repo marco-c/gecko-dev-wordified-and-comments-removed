@@ -1215,9 +1215,11 @@ try
 var
 now
 =
-+
-new
 Date
+.
+now
+(
+)
 ;
 var
 count
@@ -1567,10 +1569,10 @@ hideCachedData
 ;
 if
 (
-(
-+
-new
 Date
+.
+now
+(
 )
 -
 mirror

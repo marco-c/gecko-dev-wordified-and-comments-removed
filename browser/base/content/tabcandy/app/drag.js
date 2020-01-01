@@ -116,9 +116,11 @@ this
 .
 startTime
 =
-+
-new
 Date
+.
+now
+(
+)
 ;
 this
 .
@@ -998,9 +1000,11 @@ expanded
 var
 now
 =
-+
-new
 Date
+.
+now
+(
+)
 ;
 var
 distance
