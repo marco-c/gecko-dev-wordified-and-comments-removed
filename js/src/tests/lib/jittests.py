@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 os
 sys
@@ -2156,7 +2160,9 @@ result
 message
     
 print
+(
 result
+)
 def
 wrap_parallel_run_test
 (
@@ -4859,11 +4865,7 @@ test_list
 :
         
 print
->
->
-sys
-.
-stderr
+(
 "
 No
 tests
@@ -4874,6 +4876,12 @@ line
 arguments
 .
 "
+file
+=
+sys
+.
+stderr
+)
         
 sys
 .
@@ -5422,11 +5430,7 @@ JS
 :
             
 print
->
->
-sys
-.
-stderr
+(
 "
 JS
 shell
@@ -5444,6 +5448,12 @@ s
 "
 %
 JS
+file
+=
+sys
+.
+stderr
+)
             
 sys
 .
@@ -5466,6 +5476,7 @@ __main__
 :
     
 print
+(
 '
 Use
 .
@@ -5484,3 +5495,4 @@ these
 tests
 .
 '
+)
