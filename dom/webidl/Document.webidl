@@ -2749,3 +2749,7 @@ Document
 implements
 TouchEventHandlers
 ;
+Document
+implements
+ParentNode
+;
