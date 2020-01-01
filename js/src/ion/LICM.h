@@ -95,11 +95,11 @@ private
 :
 MBasicBlock
 *
-header_
+footer_
 ;
 MBasicBlock
 *
-footer_
+header_
 ;
 MBasicBlock
 *

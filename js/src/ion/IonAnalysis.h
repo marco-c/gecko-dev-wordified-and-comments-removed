@@ -24,6 +24,17 @@ class
 MIRGraph
 ;
 bool
+SplitCriticalEdges
+(
+MIRGenerator
+*
+gen
+MIRGraph
+&
+graph
+)
+;
+bool
 ApplyTypeInformation
 (
 MIRGraph
