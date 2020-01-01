@@ -604,9 +604,9 @@ aSize
 aWrapMode
 aContentType
 )
-mTextureInited
+mTextureState
 (
-PR_FALSE
+Created
 )
 mGLContext
 (
@@ -619,6 +619,14 @@ mUpdateOffset
 )
 {
 }
+enum
+TextureState
+{
+Created
+Initialized
+Valid
+}
+;
 virtual
 gfxASurface
 *
@@ -700,8 +708,8 @@ aSize
 ;
 protected
 :
-PRBool
-mTextureInited
+TextureState
+mTextureState
 ;
 GLContext
 *
