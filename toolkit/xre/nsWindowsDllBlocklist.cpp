@@ -59,12 +59,17 @@ nsWindowsDllInterceptor
 h
 "
 #
+ifdef
+MOZ_CRASHREPORTER
+#
 include
 "
 nsExceptionHandler
 .
 h
 "
+#
+endif
 #
 define
 ALL_VERSIONS
@@ -1142,6 +1147,9 @@ n
 ;
 #
 endif
+#
+ifdef
+MOZ_CRASHREPORTER
 if
 (
 !
@@ -1165,4 +1173,6 @@ n
 )
 ;
 }
+#
+endif
 }
