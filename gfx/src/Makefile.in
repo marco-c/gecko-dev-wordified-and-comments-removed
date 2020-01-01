@@ -474,6 +474,10 @@ mozilla
 EXPORTS_mozilla
 =
 \
+BaseMargin
+.
+h
+\
 BasePoint
 .
 h
