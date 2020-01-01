@@ -71,7 +71,7 @@ talos_revision
 "
 :
 "
-592a42000e98
+2a32cc64e7ff
 "
 }
 "
@@ -91,6 +91,9 @@ tests
 [
 "
 tresize
+"
+"
+tcanvasmark
 "
 ]
 "
@@ -250,7 +253,7 @@ tests
 :
 [
 "
-tscrollr
+tscrollx
 "
 "
 a11yr
@@ -303,7 +306,7 @@ tests
 :
 [
 "
-tsvgr
+tsvgx
 "
 "
 tsvgr_opacity
@@ -345,13 +348,10 @@ tests
 :
 [
 "
-tscrollx
+tscrollr
 "
 "
-tsvgx
-"
-"
-tcanvasmark
+tsvgr
 "
 ]
 "
