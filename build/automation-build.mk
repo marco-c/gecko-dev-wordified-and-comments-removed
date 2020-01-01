@@ -243,12 +243,14 @@ _SYMBOLS_PATH
 -
 DPERL
 =
+"
 \
 "
 (
 PERL
 )
 \
+"
 "
 \
 (
