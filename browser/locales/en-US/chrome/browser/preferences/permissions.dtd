@@ -102,6 +102,16 @@ site
 <
 !
 ENTITY
+address
+.
+accesskey
+"
+d
+"
+>
+<
+!
+ENTITY
 block
 .
 label

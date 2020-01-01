@@ -774,6 +774,15 @@ address
 label
 ;
 "
+accesskey
+=
+"
+&
+address
+.
+accesskey
+;
+"
 /
 >
 <
