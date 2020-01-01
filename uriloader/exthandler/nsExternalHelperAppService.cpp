@@ -4565,11 +4565,11 @@ mProgress
 (
 0
 )
-mRequest
+mDataBuffer
 (
 nsnull
 )
-mDataBuffer
+mRequest
 (
 nsnull
 )
@@ -4663,7 +4663,7 @@ PRUnichar
 ;
 for
 (
-int
+PRUint32
 i
 =
 0
