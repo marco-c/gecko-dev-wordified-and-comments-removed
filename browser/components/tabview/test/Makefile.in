@@ -708,6 +708,10 @@ browser_tabview_bug650280_perwindowpb
 .
 js
 \
+browser_tabview_privatebrowsing_perwindowpb
+.
+js
+\
 (
 NULL
 )
