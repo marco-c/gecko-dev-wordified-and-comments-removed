@@ -1054,3 +1054,14 @@ theora
 codec
 .
 h
+patch
+-
+p3
+<
+.
+/
+bug625773
+-
+r17780
+.
+patch
