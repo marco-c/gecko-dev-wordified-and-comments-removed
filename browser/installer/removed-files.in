@@ -6047,9 +6047,6 @@ uninstall
 uninstall
 .
 exe
-update
-.
-locale
 #
 ifndef
 MOZ_UPDATER
@@ -6076,6 +6073,9 @@ BIN_SUFFIX
 #
 ifdef
 MOZ_OMNIJAR
+update
+.
+locale
 omni
 .
 jar
