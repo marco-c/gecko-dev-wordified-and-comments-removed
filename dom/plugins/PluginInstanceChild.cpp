@@ -3567,7 +3567,7 @@ return
 NPERR_NO_ERROR
 ;
 }
-void
+bool
 PluginInstanceChild
 :
 :
@@ -3637,4 +3637,7 @@ FALSE
 ;
 #
 endif
+return
+false
+;
 }
