@@ -1125,8 +1125,10 @@ label
 used
 (
 )
-&
-&
+)
+;
+JS_ASSERT
+(
 !
 label
 -
