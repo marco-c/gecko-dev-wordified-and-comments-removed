@@ -3031,7 +3031,7 @@ dom
 .
 max_chrome_script_run_time
 "
-30
+0
 )
 ;
 pref
