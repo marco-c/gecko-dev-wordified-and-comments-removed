@@ -339,6 +339,17 @@ helpRequested
 )
 ;
 void
+sendStkTimerExpiration
+(
+in
+nsIDOMWindow
+window
+in
+jsval
+timer
+)
+;
+void
 sendStkEventDownload
 (
 in
