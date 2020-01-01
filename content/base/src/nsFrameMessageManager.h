@@ -114,6 +114,13 @@ h
 #
 include
 "
+nsWeakPtr
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -394,7 +401,10 @@ nsCOMPtr
 <
 nsIMessageListener
 >
-mListener
+mStrongListener
+;
+nsWeakPtr
+mWeakListener
 ;
 nsCOMPtr
 <
