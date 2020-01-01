@@ -501,14 +501,6 @@ CSS_KEY
 -
 moz
 -
-initial
-_moz_initial
-)
-CSS_KEY
-(
--
-moz
--
 inline
 -
 box
