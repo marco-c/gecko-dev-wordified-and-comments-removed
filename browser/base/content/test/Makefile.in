@@ -537,6 +537,10 @@ browser_ctrlTab
 .
 js
 \
+browser_selectTabAtIndex
+.
+js
+\
 (
 NULL
 )
