@@ -2508,11 +2508,6 @@ nsDocument
 (
 )
 ;
-void
-LastRelease
-(
-)
-;
 nsCString
 mReferrer
 ;
