@@ -171,6 +171,10 @@ mCanceled
 (
 false
 )
+mSilentDuration
+(
+0
+)
 {
 }
 void
@@ -327,6 +331,9 @@ mEndOfStream
 ;
 bool
 mCanceled
+;
+TrackTicks
+mSilentDuration
 ;
 }
 ;
