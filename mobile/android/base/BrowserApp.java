@@ -3227,7 +3227,7 @@ R
 .
 layout
 .
-browser_toolbar_menu
+browser_toolbar
 null
 )
 ;
