@@ -383,7 +383,7 @@ block
 {
 padding
 :
-margin_context_popup
+touch_normal
 ;
 }
 .
@@ -417,6 +417,7 @@ border_radius_tiny
 ;
 padding
 :
+padding_normal
 0
 ;
 }
@@ -3285,7 +3286,7 @@ margin
 bottom
 :
 -
-margin_snormal
+margin_normal
 ;
 }
 .
@@ -3332,7 +3333,7 @@ margin
 top
 :
 -
-margin_snormal
+margin_normal
 ;
 }
 .
