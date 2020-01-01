@@ -457,6 +457,9 @@ LIBRARY_NAME
 jsctypes
 -
 test
+SHORT_LIBNAME
+=
+jscttest
 FORCE_SHARED_LIB
 =
 1
