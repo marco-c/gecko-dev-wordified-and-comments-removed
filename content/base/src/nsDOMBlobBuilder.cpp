@@ -893,7 +893,7 @@ class
 nsDOMBlobBuilder
 :
 public
-nsIDOMBlobBuilder
+nsIDOMMozBlobBuilder
 {
 public
 :
@@ -916,7 +916,7 @@ mDataBufferLen
 {
 }
 NS_DECL_ISUPPORTS
-NS_DECL_NSIDOMBLOBBUILDER
+NS_DECL_NSIDOMMOZBLOBBUILDER
 protected
 :
 nsresult
@@ -1166,7 +1166,7 @@ nsDOMBlobBuilder
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIDOMBlobBuilder
+nsIDOMMozBlobBuilder
 )
 NS_INTERFACE_MAP_ENTRY
 (
