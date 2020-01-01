@@ -5104,6 +5104,13 @@ ParseColor
 (
 value
 )
+&
+&
+!
+GetToken
+(
+PR_TRUE
+)
 ;
 nsresult
 rv
