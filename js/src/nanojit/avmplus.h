@@ -1111,7 +1111,14 @@ nanojit
 :
 GuardRecord
 *
-nestedExit
+lastTreeExitGuard
+;
+nanojit
+:
+:
+GuardRecord
+*
+lastTreeCallGuard
 ;
 }
 ;
