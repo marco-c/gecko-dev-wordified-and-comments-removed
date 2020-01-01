@@ -4585,7 +4585,10 @@ return
 mCellBroadcast
 ;
 }
-nsIDOMTelephony
+telephony
+:
+:
+Telephony
 *
 Navigator
 :

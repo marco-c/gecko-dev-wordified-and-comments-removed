@@ -1773,12 +1773,6 @@ type
 #
 ifdef
 MOZ_B2G_RIL
-interface
-MozTelephony
-;
-/
-/
-nsIDOMNavigatorTelephony
 partial
 interface
 Navigator
@@ -1796,7 +1790,7 @@ HasTelephonySupport
 ]
 readonly
 attribute
-MozTelephony
+Telephony
 ?
 mozTelephony
 ;
