@@ -63,7 +63,7 @@ time
 .
 sleep
 (
-5
+3
 )
     
 pass
@@ -85,7 +85,7 @@ time
 .
 sleep
 (
-5
+3
 )
     
 pass
@@ -107,7 +107,7 @@ time
 .
 sleep
 (
-5
+3
 )
     
 pass
@@ -166,7 +166,7 @@ time
 .
 sleep
 (
-10
+3
 )
     
 pass
@@ -188,7 +188,7 @@ time
 .
 sleep
 (
-60
+13
 )
     
 pass
@@ -739,7 +739,7 @@ time
 .
 sleep
 (
-5
+2
 )
     
 resp
@@ -792,7 +792,7 @@ time
 .
 sleep
 (
-5
+2
 )
     
 msgutil
@@ -800,13 +800,6 @@ msgutil
 close_connection
 (
 request
-)
-    
-time
-.
-sleep
-(
-5
 )
   
 elif
