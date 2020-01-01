@@ -2352,6 +2352,15 @@ state
 #
 endif
 <
+broadcaster
+id
+=
+"
+workOfflineMenuitemState
+"
+/
+>
+<
 /
 broadcasterset
 >
