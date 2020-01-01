@@ -307,7 +307,7 @@ rv
 )
 ;
 PRBool
-focus
+focusWhenStarting
 =
 PR_TRUE
 ;
@@ -325,7 +325,7 @@ GetBoolPref
 (
 PREF_BDM_FOCUSWHENSTARTING
 &
-focus
+focusWhenStarting
 )
 ;
 if
@@ -334,15 +334,10 @@ visible
 &
 &
 !
-focus
+focusWhenStarting
 )
 return
-dmui
--
->
-GetAttention
-(
-)
+NS_OK
 ;
 return
 dmui
