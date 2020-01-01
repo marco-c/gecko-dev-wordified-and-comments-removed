@@ -2489,7 +2489,7 @@ path
 including
 the
 #
-rcN
+buildN
 directories
 on
 the

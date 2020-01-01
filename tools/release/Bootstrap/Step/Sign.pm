@@ -95,7 +95,7 @@ version
 )
 ;
 my
-rc
+build
 =
 config
 -
@@ -106,7 +106,7 @@ var
 =
 >
 '
-rc
+build
 '
 )
 ;
@@ -130,10 +130,10 @@ my
 logFile
 =
 '
-win32_signing_rc
+win32_signing_build
 '
 .
-rc
+build
 .
 '
 .
@@ -179,10 +179,10 @@ candidates
 '
 .
 '
-rc
+build
 '
 .
-rc
+build
 .
 '
 /

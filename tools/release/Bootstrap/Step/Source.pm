@@ -168,7 +168,7 @@ longName
 )
 ;
 my
-rc
+build
 =
 config
 -
@@ -179,7 +179,7 @@ var
 =
 >
 '
-rc
+build
 '
 )
 ;
@@ -254,10 +254,10 @@ batch
 source
 '
 '
-rc
+build
 '
 .
-rc
+build
 )
 ;
 if
@@ -682,7 +682,7 @@ longName
 )
 ;
 my
-rc
+build
 =
 config
 -
@@ -693,7 +693,7 @@ var
 =
 >
 '
-rc
+build
 '
 )
 ;
@@ -831,10 +831,10 @@ batch
 source
 '
 '
-rc
+build
 '
 .
-rc
+build
 product
 .
 '
