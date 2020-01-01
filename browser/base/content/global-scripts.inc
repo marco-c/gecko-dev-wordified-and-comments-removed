@@ -433,8 +433,6 @@ type
 "
 application
 /
-x
--
 javascript
 "
 src
@@ -461,8 +459,6 @@ type
 "
 application
 /
-x
--
 javascript
 "
 src
@@ -489,8 +485,6 @@ type
 "
 application
 /
-x
--
 javascript
 "
 src
@@ -517,8 +511,6 @@ type
 "
 application
 /
-x
--
 javascript
 "
 src
@@ -545,8 +537,6 @@ type
 "
 application
 /
-x
--
 javascript
 "
 src
