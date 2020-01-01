@@ -15113,7 +15113,7 @@ s
 "
 pathname
 (
-ssize_t
+ptrdiff_t
 (
 cc
 )
