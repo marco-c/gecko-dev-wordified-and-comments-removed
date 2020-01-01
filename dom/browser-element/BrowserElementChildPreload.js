@@ -1253,6 +1253,10 @@ data
 {
 if
 (
+!
+content
+|
+|
 subject
 !
 =
