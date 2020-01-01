@@ -483,11 +483,3 @@ D_IMPL_NS_LAYOUT
 (
 NULL
 )
-ifdef
-MOZ_WEBGL
-DEFINES
-+
-=
--
-DMOZ_WEBGL
-endif
