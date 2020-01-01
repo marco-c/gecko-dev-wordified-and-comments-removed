@@ -5293,7 +5293,7 @@ vp
 if
 (
 !
-str
+str2
 )
 return
 JS_FALSE
@@ -5627,7 +5627,7 @@ vp
 if
 (
 !
-str
+str2
 )
 return
 JS_FALSE
