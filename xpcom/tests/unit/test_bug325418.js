@@ -67,7 +67,7 @@ do_check_eq
 (
 Math
 .
-floor
+round
 (
 (
 Date
@@ -153,7 +153,7 @@ do_check_eq
 (
 Math
 .
-floor
+round
 (
 (
 Date
