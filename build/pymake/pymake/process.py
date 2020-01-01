@@ -1619,9 +1619,6 @@ return
 -
 127
             
-try
-:
-                
 m
 .
 __dict__
@@ -1635,35 +1632,6 @@ self
 .
 argv
 )
-            
-except
-TypeError
-:
-                
-print
->
->
-sys
-.
-stderr
-"
-FAILED
-calling
-%
-r
-in
-%
-r
-"
-%
-(
-self
-.
-method
-m
-)
-                
-raise
         
 except
 PythonException
