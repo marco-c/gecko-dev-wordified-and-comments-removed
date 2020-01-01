@@ -15101,9 +15101,13 @@ if
 aEvent
 .
 target
+.
+parentNode
 =
 =
 this
+.
+tabContainer
 )
 {
 switch
