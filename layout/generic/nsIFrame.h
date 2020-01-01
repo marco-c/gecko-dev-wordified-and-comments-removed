@@ -4139,6 +4139,9 @@ mSawBeforeType
 PRPackedBool
 mLastCharWasPunctuation
 ;
+nsAutoString
+mContext
+;
 PeekWordState
 (
 )
