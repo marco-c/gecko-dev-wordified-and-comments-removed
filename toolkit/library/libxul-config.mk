@@ -741,6 +741,8 @@ txmgr
 \
 commandlines
 \
+extensions
+\
 toolkitcomps
 \
 pipboot
