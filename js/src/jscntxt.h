@@ -1969,6 +1969,9 @@ debugMode
 bool
 profilingScripts
 ;
+bool
+alwaysPreserveCode
+;
 JSBool
 hadOutOfMemory
 ;

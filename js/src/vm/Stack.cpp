@@ -1090,6 +1090,17 @@ p
 isConstructing
 (
 )
+p
+-
+>
+compartment
+(
+)
+-
+>
+needsBarrier
+(
+)
 )
 ;
 prevpc_
