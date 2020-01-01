@@ -168,7 +168,7 @@ next
 {
 whenNewWindowLoaded
 (
-null
+undefined
 function
 (
 win
