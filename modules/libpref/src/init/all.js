@@ -34809,6 +34809,16 @@ ghost_window_timeout_seconds
 pref
 (
 "
+memory
+.
+free_dirty_pages
+"
+false
+)
+;
+pref
+(
+"
 social
 .
 enabled

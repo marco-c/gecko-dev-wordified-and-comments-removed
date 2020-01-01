@@ -4490,3 +4490,13 @@ reuseGlobal
 true
 )
 ;
+pref
+(
+"
+memory
+.
+free_dirty_pages
+"
+true
+)
+;

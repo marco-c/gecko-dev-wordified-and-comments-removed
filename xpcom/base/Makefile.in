@@ -206,6 +206,10 @@ nsMessageLoop
 .
 cpp
 \
+AvailableMemoryTracker
+.
+cpp
+\
 (
 NULL
 )
@@ -372,12 +376,6 @@ pure
 .
 h
 endif
-CPPSRCS
-+
-=
-AvailableMemoryTracker
-.
-cpp
 endif
 #
 if
