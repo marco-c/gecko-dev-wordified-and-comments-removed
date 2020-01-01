@@ -68,17 +68,8 @@ ProvideEGLSurface
 (
 )
 ;
-void
-WaitForValidSurface
-(
-)
-;
 private
 :
-static
-jmethodID
-jWaitForValidSurfaceMethod
-;
 static
 jmethodID
 jProvideEGLSurfaceMethod
