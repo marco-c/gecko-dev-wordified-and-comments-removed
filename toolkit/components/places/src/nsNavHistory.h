@@ -1500,11 +1500,6 @@ InitTempTables
 )
 ;
 nsresult
-InitViews
-(
-)
-;
-nsresult
 InitFunctions
 (
 )
@@ -1564,6 +1559,14 @@ aDBConn
 ;
 nsresult
 MigrateV10Up
+(
+mozIStorageConnection
+*
+aDBConn
+)
+;
+nsresult
+MigrateV11Up
 (
 mozIStorageConnection
 *

@@ -608,10 +608,6 @@ nsTaggingService
 .
 js
 \
-nsPlacesDBFlush
-.
-js
-\
 nsPlacesExpiration
 .
 js

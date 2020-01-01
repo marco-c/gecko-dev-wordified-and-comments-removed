@@ -1194,7 +1194,7 @@ sql
 SELECT
 frecency
 FROM
-moz_places_view
+moz_places
 WHERE
 url
 =
@@ -1287,7 +1287,7 @@ executeSimpleSQL
 "
 DELETE
 FROM
-moz_places_view
+moz_places
 "
 )
 ;

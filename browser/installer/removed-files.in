@@ -368,16 +368,6 @@ sidebar
 xpt
 components
 /
-WeaveCrypto
-.
-js
-components
-/
-WeaveCrypto
-.
-manifest
-components
-/
 xmlextras
 .
 xpt
@@ -4115,6 +4105,11 @@ txEXSLTRegExFunctions
 js
 components
 /
+WeaveCrypto
+.
+js
+components
+/
 Weave
 .
 js
@@ -7792,3 +7787,8 @@ components
 browserplaces
 .
 xpt
+components
+/
+nsPlacesDBFlush
+.
+js
