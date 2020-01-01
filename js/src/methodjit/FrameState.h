@@ -894,6 +894,14 @@ true
 )
 ;
 void
+ensureFullRegs
+(
+FrameEntry
+*
+fe
+)
+;
+void
 allocForSameBinary
 (
 FrameEntry
