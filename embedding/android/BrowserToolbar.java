@@ -496,7 +496,7 @@ TranslateAnimation
 (
 0
 0
-100
+30
 0
 )
 ;
@@ -509,7 +509,7 @@ TranslateAnimation
 0
 0
 -
-100
+30
 )
 ;
 mSlideDownIn
@@ -520,7 +520,7 @@ TranslateAnimation
 0
 0
 -
-100
+30
 0
 )
 ;
@@ -532,7 +532,7 @@ TranslateAnimation
 0
 0
 0
-100
+30
 )
 ;
 mSlideUpIn
