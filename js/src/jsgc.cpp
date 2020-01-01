@@ -4216,6 +4216,8 @@ JSRuntime
 rt
 uintptr_t
 w
+bool
+skipUncollectedCompartments
 gc
 :
 :
@@ -4393,10 +4395,7 @@ CGCT_FREEARENA
 ;
 if
 (
-rt
--
->
-gcRunning
+skipUncollectedCompartments
 &
 &
 !
@@ -4542,6 +4541,10 @@ trc
 >
 runtime
 w
+IS_GC_MARKING_TRACER
+(
+trc
+)
 &
 thingKind
 &
@@ -5269,6 +5272,7 @@ IsAddressableGCThing
 (
 rt
 w
+false
 thingKind
 NULL
 thing
