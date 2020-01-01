@@ -7803,7 +7803,7 @@ defined
 (
 XP_MACOSX
 )
-long
+SInt32
 majorVersion
 minorVersion
 ;

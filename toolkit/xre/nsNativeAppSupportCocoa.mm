@@ -704,7 +704,7 @@ _retval
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
 ;
-long
+SInt32
 response
 =
 0
