@@ -789,6 +789,7 @@ aContent
 )
 {
 return
+(
 aContent
 -
 >
@@ -798,6 +799,19 @@ nsGkAtoms
 :
 :
 style
+)
+|
+|
+aContent
+-
+>
+IsSVG
+(
+nsGkAtoms
+:
+:
+style
+)
 )
 &
 &
