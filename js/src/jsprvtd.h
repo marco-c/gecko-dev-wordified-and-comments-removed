@@ -186,7 +186,7 @@ class
 RegExpObject
 ;
 class
-RegExpPrivate
+RegExpMatcher
 ;
 class
 RegExpObjectBuilder
@@ -197,6 +197,16 @@ RegExpStatics
 class
 MatchPairs
 ;
+namespace
+detail
+{
+class
+RegExpPrivate
+;
+class
+RegExpPrivateCode
+;
+}
 enum
 RegExpFlag
 {
@@ -503,6 +513,9 @@ HashMap
 <
 JSAtom
 *
+detail
+:
+:
 RegExpPrivate
 *
 DefaultHasher
