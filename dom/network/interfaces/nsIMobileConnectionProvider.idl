@@ -144,9 +144,14 @@ process
 Only
 a
 content
-granted
+process
+that
+has
 *
+the
+'
 mobileconnection
+'
 permission
 is
 allowed
@@ -155,7 +160,6 @@ register
 .
 Note
 that
-a
 content
 *
 doesn
