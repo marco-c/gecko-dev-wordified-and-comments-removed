@@ -2988,6 +2988,17 @@ if
 (
 !
 imgsurf
+|
+|
+imgsurf
+-
+>
+Format
+(
+)
+=
+=
+ImageFormatRGB16_565
 )
 {
 size
