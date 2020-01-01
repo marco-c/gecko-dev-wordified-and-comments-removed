@@ -5851,6 +5851,16 @@ gc
 :
 :
 NO_INCREMENTAL
+&
+&
+!
+cx
+-
+>
+runtime
+-
+>
+profilingScripts
 )
 {
 builder
