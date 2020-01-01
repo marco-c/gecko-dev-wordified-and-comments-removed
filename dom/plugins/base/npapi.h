@@ -830,6 +830,13 @@ NPPVpluginCoreAnimationLayer
 endif
 #
 if
+defined
+(
+MOZ_PLATFORM_MAEMO
+)
+&
+&
+(
 (
 MOZ_PLATFORM_MAEMO
 =
@@ -843,6 +850,7 @@ MOZ_PLATFORM_MAEMO
 =
 =
 6
+)
 )
 NPPVpluginWindowlessLocalBool
 =
@@ -990,6 +998,13 @@ NPNVsupportsCompositingCoreAnimationPluginsBool
 endif
 #
 if
+defined
+(
+MOZ_PLATFORM_MAEMO
+)
+&
+&
+(
 (
 MOZ_PLATFORM_MAEMO
 =
@@ -1003,6 +1018,7 @@ MOZ_PLATFORM_MAEMO
 =
 =
 6
+)
 )
 NPNVSupportsWindowlessLocal
 =
