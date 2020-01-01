@@ -5135,7 +5135,6 @@ fastcall
 minargs
 nargs
 flags
-extra
 )
 \
 {
@@ -5159,13 +5158,6 @@ minargs
 <
 <
 16
-|
-(
-uint16
-)
-(
-extra
-)
 }
 extern
 JS_PUBLIC_API

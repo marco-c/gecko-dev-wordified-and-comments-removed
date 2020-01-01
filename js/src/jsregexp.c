@@ -21934,7 +21934,6 @@ regexp_toString
 0
 0
 0
-0
 )
 #
 endif
@@ -21942,7 +21941,6 @@ JS_FN
 (
 js_toString_str
 regexp_toString
-0
 0
 0
 0
@@ -21956,7 +21954,6 @@ regexp_compile
 0
 2
 0
-0
 )
 JS_FN
 (
@@ -21967,7 +21964,6 @@ regexp_exec
 0
 1
 0
-0
 )
 JS_FN
 (
@@ -21977,7 +21973,6 @@ test
 regexp_test
 0
 1
-0
 0
 )
 JS_FS_END

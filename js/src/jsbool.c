@@ -372,7 +372,6 @@ bool_toSource
 0
 0
 JSFUN_THISP_BOOLEAN
-0
 )
 #
 endif
@@ -383,7 +382,6 @@ bool_toString
 0
 0
 JSFUN_THISP_BOOLEAN
-0
 )
 JS_FN
 (
@@ -392,7 +390,6 @@ bool_valueOf
 0
 0
 JSFUN_THISP_BOOLEAN
-0
 )
 JS_FS_END
 }

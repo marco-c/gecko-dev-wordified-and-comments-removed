@@ -1109,7 +1109,6 @@ namespace_toString
 0
 0
 0
-0
 )
 JS_FS_END
 }
@@ -2421,7 +2420,6 @@ JS_FN
 (
 js_toString_str
 qname_toString
-0
 0
 0
 0
@@ -35202,7 +35200,6 @@ xml_addNamespace
 1
 1
 0
-0
 )
 JS_FN
 (
@@ -35213,7 +35210,6 @@ xml_appendChild
 1
 1
 0
-0
 )
 JS_FN
 (
@@ -35222,7 +35218,6 @@ xml_attribute
 1
 1
 0
-0
 )
 JS_FN
 (
@@ -35230,7 +35225,6 @@ JS_FN
 attributes
 "
 xml_attributes
-0
 0
 0
 0
@@ -35244,7 +35238,6 @@ xml_child
 1
 1
 0
-0
 )
 JS_FN
 (
@@ -35252,7 +35245,6 @@ JS_FN
 childIndex
 "
 xml_childIndex
-0
 0
 0
 0
@@ -35266,7 +35258,6 @@ xml_children
 0
 0
 0
-0
 )
 JS_FN
 (
@@ -35274,7 +35265,6 @@ JS_FN
 comments
 "
 xml_comments
-0
 0
 0
 0
@@ -35288,7 +35278,6 @@ xml_contains
 1
 1
 0
-0
 )
 JS_FN
 (
@@ -35296,7 +35285,6 @@ JS_FN
 copy
 "
 xml_copy
-0
 0
 0
 0
@@ -35310,7 +35298,6 @@ xml_descendants
 0
 1
 0
-0
 )
 JS_FN
 (
@@ -35320,7 +35307,6 @@ elements
 xml_elements
 0
 1
-0
 0
 )
 JS_FN
@@ -35332,7 +35318,6 @@ xml_hasOwnProperty
 1
 1
 0
-0
 )
 JS_FN
 (
@@ -35342,7 +35327,6 @@ hasComplexContent
 xml_hasComplexContent
 1
 1
-0
 0
 )
 JS_FN
@@ -35354,7 +35338,6 @@ xml_hasSimpleContent
 1
 1
 0
-0
 )
 JS_FN
 (
@@ -35362,7 +35345,6 @@ JS_FN
 inScopeNamespaces
 "
 xml_inScopeNamespaces
-0
 0
 0
 0
@@ -35376,7 +35358,6 @@ xml_insertChildAfter
 2
 2
 0
-0
 )
 JS_FN
 (
@@ -35387,13 +35368,11 @@ xml_insertChildBefore
 2
 2
 0
-0
 )
 JS_FN
 (
 js_length_str
 xml_length
-0
 0
 0
 0
@@ -35405,13 +35384,11 @@ xml_localName
 0
 0
 0
-0
 )
 JS_FN
 (
 js_name_str
 xml_name
-0
 0
 0
 0
@@ -35423,7 +35400,6 @@ xml_namespace
 0
 1
 0
-0
 )
 JS_FN
 (
@@ -35431,7 +35407,6 @@ JS_FN
 namespaceDeclarations
 "
 xml_namespaceDeclarations
-0
 0
 0
 0
@@ -35445,7 +35420,6 @@ xml_nodeKind
 0
 0
 0
-0
 )
 JS_FN
 (
@@ -35456,13 +35430,11 @@ xml_normalize
 0
 0
 0
-0
 )
 JS_FN
 (
 js_xml_parent_str
 xml_parent
-0
 0
 0
 0
@@ -35476,7 +35448,6 @@ xml_processingInstructions
 0
 1
 0
-0
 )
 JS_FN
 (
@@ -35486,7 +35457,6 @@ prependChild
 xml_prependChild
 1
 1
-0
 0
 )
 JS_FN
@@ -35498,7 +35468,6 @@ xml_propertyIsEnumerable
 1
 1
 0
-0
 )
 JS_FN
 (
@@ -35508,7 +35477,6 @@ removeNamespace
 xml_removeNamespace
 1
 1
-0
 0
 )
 JS_FN
@@ -35520,7 +35488,6 @@ xml_replace
 2
 2
 0
-0
 )
 JS_FN
 (
@@ -35530,7 +35497,6 @@ setChildren
 xml_setChildren
 1
 1
-0
 0
 )
 JS_FN
@@ -35542,7 +35508,6 @@ xml_setLocalName
 1
 1
 0
-0
 )
 JS_FN
 (
@@ -35552,7 +35517,6 @@ setName
 xml_setName
 1
 1
-0
 0
 )
 JS_FN
@@ -35564,13 +35528,11 @@ xml_setNamespace
 1
 1
 0
-0
 )
 JS_FN
 (
 js_text_str
 xml_text
-0
 0
 0
 0
@@ -35582,13 +35544,11 @@ xml_toString
 0
 0
 0
-0
 )
 JS_FN
 (
 js_toXMLString_str
 xml_toXMLString
-0
 0
 0
 0
@@ -35600,13 +35560,11 @@ xml_toXMLString
 0
 0
 0
-0
 )
 JS_FN
 (
 js_valueOf_str
 xml_valueOf
-0
 0
 0
 0
@@ -36079,7 +36037,6 @@ xml_settings
 0
 0
 0
-0
 )
 JS_FN
 (
@@ -36090,7 +36047,6 @@ xml_setSettings
 1
 1
 0
-0
 )
 JS_FN
 (
@@ -36098,7 +36054,6 @@ JS_FN
 defaultSettings
 "
 xml_defaultSettings
-0
 0
 0
 0
