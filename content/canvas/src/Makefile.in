@@ -79,10 +79,6 @@ mk
 LIBRARY_NAME
 =
 gkconcvs_s
-MSVC_ENABLE_PGO
-:
-=
-1
 ifdef
 MOZ_WEBGL
 LOCAL_INCLUDES

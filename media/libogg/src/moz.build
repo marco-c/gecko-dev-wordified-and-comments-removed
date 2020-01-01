@@ -118,3 +118,6 @@ LIBRARY_NAME
 '
 ogg
 '
+MSVC_ENABLE_PGO
+=
+True

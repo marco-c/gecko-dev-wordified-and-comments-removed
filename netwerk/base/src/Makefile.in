@@ -94,10 +94,6 @@ mk
 LIBRARY_NAME
 =
 neckobase_s
-MSVC_ENABLE_PGO
-:
-=
-1
 LOCAL_INCLUDES
 +
 =

@@ -78,10 +78,6 @@ mk
 LIBRARY_NAME
 =
 gkconmedia_s
-MSVC_ENABLE_PGO
-:
-=
-1
 include
 (
 topsrcdir

@@ -78,10 +78,6 @@ mk
 LIBRARY_NAME
 =
 gkstyle_s
-MSVC_ENABLE_PGO
-:
-=
-1
 ifdef
 GNU_CC
 OS_CFLAGS

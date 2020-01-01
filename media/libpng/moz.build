@@ -259,3 +259,6 @@ LIBRARY_NAME
 '
 mozpng
 '
+MSVC_ENABLE_PGO
+=
+True

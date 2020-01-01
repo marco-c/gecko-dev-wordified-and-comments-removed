@@ -84,10 +84,6 @@ DHAVE_CONFIG_H
 vpx_config
 .
 h
-MSVC_ENABLE_PGO
-:
-=
-1
 FORCE_STATIC_LIB
 =
 1

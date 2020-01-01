@@ -79,10 +79,6 @@ mk
 LIBRARY_NAME
 =
 gkconbase_s
-MSVC_ENABLE_PGO
-:
-=
-1
 ifdef
 MOZ_WEBRTC
 LOCAL_INCLUDES

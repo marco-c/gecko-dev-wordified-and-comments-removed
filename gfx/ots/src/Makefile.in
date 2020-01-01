@@ -217,10 +217,6 @@ config
 autoconf
 .
 mk
-MSVC_ENABLE_PGO
-:
-=
-1
 ifeq
 (
 WINNT

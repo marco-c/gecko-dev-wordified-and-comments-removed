@@ -78,10 +78,6 @@ mk
 LIBRARY_NAME
 =
 mozlibpixman
-MSVC_ENABLE_PGO
-:
-=
-1
 ifeq
 (
 (

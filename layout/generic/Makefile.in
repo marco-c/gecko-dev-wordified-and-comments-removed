@@ -78,10 +78,6 @@ mk
 LIBRARY_NAME
 =
 gkgeneric_s
-MSVC_ENABLE_PGO
-:
-=
-1
 RESOURCES_HTML
 =
 \

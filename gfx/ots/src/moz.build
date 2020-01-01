@@ -317,3 +317,6 @@ LIBRARY_NAME
 '
 mozots
 '
+MSVC_ENABLE_PGO
+=
+True

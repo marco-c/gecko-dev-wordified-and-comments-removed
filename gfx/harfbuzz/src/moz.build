@@ -465,3 +465,6 @@ LIBRARY_NAME
 '
 mozharfbuzz
 '
+MSVC_ENABLE_PGO
+=
+True

@@ -78,10 +78,6 @@ mk
 LIBRARY_NAME
 =
 domquota_s
-MSVC_ENABLE_PGO
-:
-=
-1
 include
 (
 topsrcdir

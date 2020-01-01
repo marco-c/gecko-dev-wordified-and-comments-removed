@@ -134,10 +134,6 @@ mk
 LIBRARY_NAME
 =
 layers
-MSVC_ENABLE_PGO
-:
-=
-1
 ifdef
 MOZ_DEBUG
 DEFINES

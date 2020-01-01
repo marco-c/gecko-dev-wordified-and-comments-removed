@@ -875,3 +875,6 @@ LIBRARY_NAME
 '
 mozjpeg
 '
+MSVC_ENABLE_PGO
+=
+True

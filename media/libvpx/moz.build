@@ -284,3 +284,6 @@ LIBRARY_NAME
 '
 vpx
 '
+MSVC_ENABLE_PGO
+=
+True

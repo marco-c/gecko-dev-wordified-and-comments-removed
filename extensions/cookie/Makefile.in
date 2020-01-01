@@ -79,10 +79,6 @@ mk
 LIBRARY_NAME
 =
 cookie
-MSVC_ENABLE_PGO
-:
-=
-1
 EXPORT_LIBRARY
 =
 1

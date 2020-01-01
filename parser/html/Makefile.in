@@ -75,10 +75,6 @@ config
 autoconf
 .
 mk
-MSVC_ENABLE_PGO
-:
-=
-1
 include
 (
 topsrcdir

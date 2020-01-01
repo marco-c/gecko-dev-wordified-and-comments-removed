@@ -95,10 +95,6 @@ endif
 LIBRARY_NAME
 =
 gklayout
-MSVC_ENABLE_PGO
-:
-=
-1
 EXPORT_LIBRARY
 =
 1

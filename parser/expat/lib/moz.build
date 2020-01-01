@@ -118,3 +118,6 @@ LIBRARY_NAME
 '
 mozexpat_s
 '
+MSVC_ENABLE_PGO
+=
+True

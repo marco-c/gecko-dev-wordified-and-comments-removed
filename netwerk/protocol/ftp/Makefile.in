@@ -79,10 +79,6 @@ mk
 LIBRARY_NAME
 =
 nkftp_s
-MSVC_ENABLE_PGO
-:
-=
-1
 LOCAL_INCLUDES
 =
 \

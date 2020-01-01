@@ -128,3 +128,6 @@ LIBRARY_NAME
 '
 xptinfo
 '
+MSVC_ENABLE_PGO
+=
+True

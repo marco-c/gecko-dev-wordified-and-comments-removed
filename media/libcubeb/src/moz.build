@@ -274,3 +274,6 @@ LIBRARY_NAME
 '
 cubeb
 '
+MSVC_ENABLE_PGO
+=
+True

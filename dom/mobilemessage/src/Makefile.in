@@ -127,10 +127,6 @@ endif
 LIBRARY_NAME
 =
 dom_mobilemessage_s
-MSVC_ENABLE_PGO
-:
-=
-1
 include
 (
 topsrcdir

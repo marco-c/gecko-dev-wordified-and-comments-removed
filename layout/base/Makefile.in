@@ -79,10 +79,6 @@ mk
 LIBRARY_NAME
 =
 gkbase_s
-MSVC_ENABLE_PGO
-:
-=
-1
 include
 (
 topsrcdir

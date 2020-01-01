@@ -208,3 +208,6 @@ LIBRARY_NAME
 '
 soundtouch
 '
+MSVC_ENABLE_PGO
+=
+True

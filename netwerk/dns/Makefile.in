@@ -76,17 +76,6 @@ config
 autoconf
 .
 mk
-MSVC_ENABLE_PGO
-:
-=
-1
-#
-need
-to
-include
-etld_data
-.
-inc
 LOCAL_INCLUDES
 =
 \

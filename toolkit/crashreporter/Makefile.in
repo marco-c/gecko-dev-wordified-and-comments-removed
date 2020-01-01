@@ -78,10 +78,6 @@ mk
 LIBRARY_NAME
 =
 exception_handler_s
-MSVC_ENABLE_PGO
-:
-=
-1
 ifeq
 (
 (
