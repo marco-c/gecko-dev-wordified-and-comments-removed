@@ -253,8 +253,6 @@ NS_ERROR_NULL_POINTER
 ;
 int
 srv
-;
-srv
 =
 sqlite3_prepare_v2
 (
@@ -267,12 +265,7 @@ aSQLStatement
 get
 (
 )
-aSQLStatement
-.
-Length
-(
-)
-+
+-
 1
 &
 mDBStatement
