@@ -64,6 +64,14 @@ jsobject
 ;
 }
 ;
+NS_IMPL_CLASSINFO
+(
+xpcTestCallJS
+NULL
+0
+NS_XPCTESTCALLJS_CID
+)
+;
 NS_IMPL_ISUPPORTS2_CI
 (
 xpcTestCallJS

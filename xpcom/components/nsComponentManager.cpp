@@ -1371,6 +1371,18 @@ Module
 *
 >
 ;
+#
+if
+defined
+(
+_BUILD_STATIC_BIN
+)
+|
+|
+defined
+(
+MOZ_ENABLE_LIBXUL
+)
 for
 (
 const
@@ -1401,6 +1413,8 @@ AppendElement
 staticModules
 )
 ;
+#
+endif
 }
 nsTArray
 <

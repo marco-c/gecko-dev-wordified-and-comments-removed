@@ -22,6 +22,7 @@ h
 include
 NEW_H
 class
+NS_COM_GLUE
 GenericClassInfo
 :
 public
