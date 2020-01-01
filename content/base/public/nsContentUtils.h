@@ -1151,6 +1151,13 @@ sSecurityManager
 ;
 }
 static
+nsIPrincipal
+*
+GetSubjectPrincipal
+(
+)
+;
+static
 nsresult
 GenerateStateKey
 (
