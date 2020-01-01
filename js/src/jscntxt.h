@@ -410,13 +410,10 @@ recordAttempts
 uint32
 maxCodeCacheBytes
 ;
-uintN
-prohibitFlush
-;
-JSPackedBool
+JSBool
 needFlush
 ;
-JSPackedBool
+JSBool
 useReservedObjects
 ;
 JSObject
