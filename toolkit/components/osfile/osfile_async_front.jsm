@@ -1212,6 +1212,8 @@ readTo
 (
 buffer
 options
+=
+noOptions
 )
 {
 if
@@ -1241,9 +1243,6 @@ options
 clone
 (
 options
-|
-|
-noOptions
 [
 "
 outExecutionDuration
@@ -1295,6 +1294,8 @@ write
 (
 buffer
 options
+=
+noOptions
 )
 {
 if
@@ -1324,9 +1325,6 @@ options
 clone
 (
 options
-|
-|
-noOptions
 [
 "
 outExecutionDuration
@@ -1944,6 +1942,8 @@ writeAtomic
 path
 buffer
 options
+=
+noOptions
 )
 {
 options
@@ -1951,9 +1951,6 @@ options
 clone
 (
 options
-|
-|
-noOptions
 [
 "
 outExecutionDuration
