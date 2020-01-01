@@ -49,6 +49,13 @@ if
 this
 .
 tracemonkey
+|
+|
+this
+.
+tracemonkey
+.
+profiler
 )
 {
 jit

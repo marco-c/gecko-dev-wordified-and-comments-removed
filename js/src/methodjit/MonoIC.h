@@ -236,6 +236,13 @@ jumpTargetPC
 ;
 #
 endif
+void
+*
+traceData
+;
+uintN
+traceEpoch
+;
 bool
 hasSlowTraceHint
 :
@@ -249,9 +256,10 @@ uint16
 BAD_TRACEIC_INDEX
 =
 (
-uint16
+uint16_t
 )
-0xffff
+-
+1
 ;
 void
 JS_FASTCALL
@@ -354,6 +362,8 @@ Assembler
 :
 Condition
 cond
+:
+6
 ;
 }
 ;
