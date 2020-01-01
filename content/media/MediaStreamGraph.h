@@ -2063,16 +2063,6 @@ aEnabled
 {
 }
 ;
-bool
-InCycle
-(
-)
-const
-{
-return
-mInCycle
-;
-}
 protected
 :
 nsTArray
