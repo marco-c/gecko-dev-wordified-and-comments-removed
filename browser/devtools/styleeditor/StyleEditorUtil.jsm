@@ -488,16 +488,6 @@ element
 setAttribute
 )
 ;
-forEach
-(
-aDescriptor
-.
-userData
-element
-.
-setUserData
-)
-;
 }
 }
 this
