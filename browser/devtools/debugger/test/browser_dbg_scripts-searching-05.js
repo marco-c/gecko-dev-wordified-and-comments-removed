@@ -56,6 +56,11 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+3
+)
+;
 let
 scriptShown
 =
@@ -304,7 +309,7 @@ is
 (
 gSearchView
 .
-widget
+_container
 .
 _list
 .
@@ -333,7 +338,7 @@ is
 (
 gSearchView
 .
-widget
+_container
 .
 _parent
 .
@@ -574,7 +579,7 @@ isnot
 (
 gSearchView
 .
-widget
+_container
 .
 _list
 .
@@ -599,7 +604,7 @@ isnot
 (
 gSearchView
 .
-widget
+_container
 .
 _parent
 .
@@ -752,7 +757,7 @@ is
 (
 gSearchView
 .
-widget
+_container
 .
 _list
 .
@@ -784,7 +789,7 @@ is
 (
 gSearchView
 .
-widget
+_container
 .
 _parent
 .
