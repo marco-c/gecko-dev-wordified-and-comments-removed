@@ -155,6 +155,10 @@ browser_styleeditor_nostyle
 .
 js
 \
+browser_styleeditor_reload
+.
+js
+\
 head
 .
 js
