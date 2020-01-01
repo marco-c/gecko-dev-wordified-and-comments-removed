@@ -103,6 +103,10 @@ file_SpecialPowersFrame1
 .
 html
 \
+test_SimpleTestGetTestFileURL
+.
+html
+\
 test_bug816847
 .
 html
