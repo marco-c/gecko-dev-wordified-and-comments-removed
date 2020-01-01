@@ -777,6 +777,10 @@ test_autoplay
 .
 html
 \
+test_bug495300
+.
+html
+\
 test_can_play_type
 .
 html
@@ -1186,10 +1190,6 @@ test_bug493187
 html
 \
 test_bug495145
-.
-html
-\
-test_bug495300
 .
 html
 \
