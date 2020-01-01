@@ -6708,6 +6708,13 @@ JSProperty
 propp
 )
 ;
+static
+const
+uintN
+JSRESOLVE_INFER
+=
+0xffff
+;
 extern
 JS_FRIEND_DATA
 (
