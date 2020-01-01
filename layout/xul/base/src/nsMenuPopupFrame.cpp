@@ -536,14 +536,6 @@ rv
 rv
 )
 ;
-nsPresContext
-*
-presContext
-=
-PresContext
-(
-)
-;
 mMenuCanOverlapOSBar
 =
 LookAndFeel
