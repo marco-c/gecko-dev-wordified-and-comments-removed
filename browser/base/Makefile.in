@@ -468,12 +468,6 @@ EXTRA_JS_MODULES
 \
 content
 /
-AllTabs
-.
-js
-\
-content
-/
 openLocationLastURL
 .
 jsm
