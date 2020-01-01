@@ -11077,4 +11077,12 @@ disableNotifications
 )
 ;
 }
+public
+static
+void
+preventPanning
+(
+)
+{
+}
 }

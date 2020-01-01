@@ -3807,7 +3807,7 @@ return
 true
 ;
 }
-private
+public
 void
 cancelTouch
 (
