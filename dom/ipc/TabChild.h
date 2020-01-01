@@ -1082,6 +1082,13 @@ mPrincipal
 }
 private
 :
+void
+ActorDestroy
+(
+ActorDestroyReason
+why
+)
+;
 bool
 InitTabChildGlobal
 (
