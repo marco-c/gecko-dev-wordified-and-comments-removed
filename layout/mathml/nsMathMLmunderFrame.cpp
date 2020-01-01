@@ -739,16 +739,6 @@ FontMetrics
 )
 ;
 nscoord
-xHeight
-=
-fm
--
->
-XHeight
-(
-)
-;
-nscoord
 ruleThickness
 ;
 GetRuleThickness
