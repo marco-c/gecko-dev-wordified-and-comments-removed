@@ -108,3 +108,11 @@ stub_test
 cpp
 '
 ]
+SIMPLE_PROGRAMS
++
+=
+[
+'
+stub_test
+'
+]

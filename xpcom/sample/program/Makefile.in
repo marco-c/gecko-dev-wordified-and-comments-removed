@@ -87,7 +87,7 @@ file
 into
 an
 executable
-SIMPLE_PROGRAMS
+DISABLED_SIMPLE_PROGRAMS
 =
 nsTestSample
 (

@@ -76,7 +76,7 @@ config
 autoconf
 .
 mk
-SIMPLE_PROGRAMS
+DISABLED_SIMPLE_PROGRAMS
 =
 PrimitiveTest
 (
