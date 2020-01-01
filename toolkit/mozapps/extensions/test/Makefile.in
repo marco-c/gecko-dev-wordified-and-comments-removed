@@ -476,8 +476,6 @@ DIRS
 \
 xpinstall
 \
-browser
-\
 mochitest
 \
 (
