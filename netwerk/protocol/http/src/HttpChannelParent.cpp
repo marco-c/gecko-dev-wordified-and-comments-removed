@@ -83,9 +83,11 @@ HttpChannelParent
 (
 )
 {
-NS_RELEASE
-(
 gHttpHandler
+-
+>
+Release
+(
 )
 ;
 }
