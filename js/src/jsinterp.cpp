@@ -34143,13 +34143,6 @@ JS_THREADED_INTERP
 endif
 error
 :
-cx
--
->
-pcHint
-=
-NULL
-;
 if
 (
 fp
