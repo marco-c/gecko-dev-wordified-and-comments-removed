@@ -501,6 +501,11 @@ sqlite3
 src
 ifdef
 MOZ_OLD_LINKER
+DEFINES
++
+=
+-
+DMOZ_OLD_LINKER
 LOCAL_INCLUDES
 +
 =
