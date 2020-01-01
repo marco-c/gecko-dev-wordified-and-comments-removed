@@ -215,6 +215,9 @@ OfferToReceiveVideo
 VoiceActivityDetection
 =
 2
+MozDontOfferDataChannel
+=
+3
 }
 constraints
 ;
@@ -243,6 +246,12 @@ OfferToReceiveVideo
 VoiceActivityDetection
 "
 VoiceActivityDetection
+}
+{
+"
+MozDontOfferDataChannel
+"
+MozDontOfferDataChannel
 }
 }
 ;
