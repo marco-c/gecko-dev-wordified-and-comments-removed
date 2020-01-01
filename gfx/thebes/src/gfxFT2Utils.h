@@ -88,7 +88,6 @@ mFace
 ;
 }
 ;
-virtual
 PRUint32
 GetGlyph
 (
