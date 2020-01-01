@@ -12,7 +12,7 @@ mozilla
 namespace
 _ipdltest
 {
-sync
+rpc
 protocol
 PTestShutdown
 {
