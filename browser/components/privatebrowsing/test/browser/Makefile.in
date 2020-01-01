@@ -497,6 +497,10 @@ browser_privatebrowsing_urlbarfocus
 .
 js
 \
+browser_privatebrowsing_forgetthissite
+.
+js
+\
 (
 NULL
 )
