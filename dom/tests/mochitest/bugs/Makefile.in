@@ -852,6 +852,10 @@ test_bug684544
 .
 html
 \
+test_bug698551
+.
+html
+\
 test_window_bar
 .
 html
