@@ -243,6 +243,8 @@ strip
         
 if
 value
+and
+value
 [
 -
 1
