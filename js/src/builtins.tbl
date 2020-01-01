@@ -431,8 +431,8 @@ BUILTIN2
 BoxDouble
 LO
 F
-Q
-uint64
+LO
+jsval
 JSContext
 *
 jsdouble
@@ -444,8 +444,8 @@ BUILTIN2
 BoxInt32
 LO
 LO
-Q
-uint64
+LO
+jsval
 JSContext
 *
 jsint
@@ -456,10 +456,9 @@ BUILTIN1
 (
 UnboxInt32
 LO
-Q
-uint64
+LO
+int32
 jsval
-*
 1
 1
 )
