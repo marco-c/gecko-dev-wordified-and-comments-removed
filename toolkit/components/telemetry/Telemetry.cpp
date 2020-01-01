@@ -1977,9 +1977,6 @@ vp
 0
 ]
 ;
-int32
-value
-;
 if
 (
 !
@@ -2011,6 +2008,9 @@ return
 JS_FALSE
 ;
 }
+int32_t
+value
+;
 if
 (
 !
