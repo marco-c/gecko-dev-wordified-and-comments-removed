@@ -231,6 +231,15 @@ svg
 pass
 .
 svg
+skip
+-
+if
+(
+Android
+&
+&
+layersOpenGL
+)
 =
 =
 xbl
