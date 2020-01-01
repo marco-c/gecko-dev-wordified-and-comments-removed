@@ -1038,8 +1038,7 @@ get
 JSContext
 *
 cx
-JSAtom
-*
+HandleAtom
 source
 JSString
 *

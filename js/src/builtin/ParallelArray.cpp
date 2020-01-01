@@ -6711,8 +6711,11 @@ targets
 return
 false
 ;
-Value
+RootedValue
 defaultValue
+(
+cx
+)
 ;
 if
 (

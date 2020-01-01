@@ -2148,9 +2148,6 @@ length
 return
 NULL
 ;
-UnrootedAtom
-atom
-;
 static
 const
 unsigned
@@ -2188,8 +2185,7 @@ inflated
 inflatedLength
 )
 ;
-atom
-=
+return
 AtomizeAndCopyStableChars
 <
 CanGC
@@ -2202,8 +2198,6 @@ ib
 )
 ;
 }
-else
-{
 jschar
 *
 tbcharsZ
@@ -2226,8 +2220,7 @@ UnrootedAtom
 (
 )
 ;
-atom
-=
+return
 AtomizeAndTakeOwnership
 (
 cx
@@ -2239,10 +2232,6 @@ length
 length
 ib
 )
-;
-}
-return
-atom
 ;
 }
 template

@@ -6437,12 +6437,13 @@ global
 if
 (
 !
-global
--
->
+GlobalObject
+:
+:
 isRuntimeCodeGenEnabled
 (
 cx
+global
 )
 )
 {
