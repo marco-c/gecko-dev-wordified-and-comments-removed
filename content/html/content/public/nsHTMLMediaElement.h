@@ -289,6 +289,16 @@ nsIntSize
 size
 )
 ;
+void
+Freeze
+(
+)
+;
+void
+Thaw
+(
+)
+;
 protected
 :
 nsresult
@@ -361,6 +371,9 @@ mIsDoneAddingChildren
 ;
 PRPackedBool
 mPlayingBeforeSeek
+;
+PRPackedBool
+mPausedBeforeFreeze
 ;
 }
 ;
