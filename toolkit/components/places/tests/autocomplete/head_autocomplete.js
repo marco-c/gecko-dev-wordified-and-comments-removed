@@ -56,6 +56,15 @@ nsINavHistoryService
 TRANSITION_EMBED
 ;
 const
+TRANSITION_FRAMED_LINK
+=
+Ci
+.
+nsINavHistoryService
+.
+TRANSITION_FRAMED_LINK
+;
+const
 TRANSITION_REDIRECT_PERMANENT
 =
 Ci
