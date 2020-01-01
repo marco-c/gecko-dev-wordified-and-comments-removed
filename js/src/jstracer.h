@@ -862,10 +862,9 @@ JSObject
 *
 &
 obj2
-JSPropCacheEntry
-*
+jsuword
 &
-entry
+pcval
 )
 ;
 bool
