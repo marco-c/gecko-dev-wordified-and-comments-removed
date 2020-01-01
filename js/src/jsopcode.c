@@ -26233,9 +26233,14 @@ obj
 }
 LOCAL_ASSERT
 (
+(
+uintN
+)
+(
 pcdepth
 +
 ndefs
+)
 <
 =
 script
