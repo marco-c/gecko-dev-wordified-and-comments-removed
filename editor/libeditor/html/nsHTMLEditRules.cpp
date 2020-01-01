@@ -11416,6 +11416,14 @@ aAction
 }
 else
 {
+NS_ENSURE_STATE
+(
+leftParent
+&
+&
+rightParent
+)
+;
 nsCOMPtr
 <
 nsIDOMNode
