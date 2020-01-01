@@ -3803,9 +3803,11 @@ immediatelyDominatedBlocksEnd
 )
 )
 )
+{
 return
 false
 ;
+}
 index
 +
 +
@@ -6813,9 +6815,11 @@ immediatelyDominatedBlocksEnd
 )
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 MDefinitionIterator

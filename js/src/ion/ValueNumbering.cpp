@@ -1801,9 +1801,11 @@ immediatelyDominatedBlocksEnd
 )
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 MDefinitionIterator
