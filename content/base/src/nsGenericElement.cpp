@@ -8459,7 +8459,7 @@ aType
 aListener
 useCapture
 PR_FALSE
-0
+1
 )
 ;
 }
