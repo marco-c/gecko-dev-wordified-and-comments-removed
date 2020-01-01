@@ -7947,8 +7947,10 @@ PR_FALSE
 if
 (
 roleMapEntry
-&
-&
+)
+{
+if
+(
 (
 !
 partOfHTMLTable
@@ -7956,8 +7958,9 @@ partOfHTMLTable
 |
 !
 tryTagNameOrFrame
-|
-|
+)
+&
+&
 frameType
 !
 =
@@ -7965,7 +7968,6 @@ nsAccessibilityAtoms
 :
 :
 tableOuterFrame
-)
 )
 {
 if
@@ -8052,6 +8054,7 @@ aNode
 aWeakShell
 )
 ;
+}
 }
 }
 if
