@@ -613,6 +613,17 @@ ClearStyleAndImageCaches
 (
 )
 ;
+void
+ManageReflowCallback
+(
+const
+nsRect
+&
+aRect
+nscoord
+aHorzWidth
+)
+;
 virtual
 nsSize
 GetMinSize
@@ -1945,6 +1956,9 @@ mPageLength
 ;
 nscoord
 mHorzPosition
+;
+nscoord
+mOriginalHorzWidth
 ;
 nscoord
 mHorzWidth
