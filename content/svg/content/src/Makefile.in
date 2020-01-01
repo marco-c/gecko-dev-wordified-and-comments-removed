@@ -503,10 +503,6 @@ nsSVGAnimatedBoolean
 .
 cpp
 \
-nsSVGAnimatedInteger
-.
-cpp
-\
 nsSVGAnimatedLengthList
 .
 cpp
@@ -596,6 +592,10 @@ nsSVGGraphicElement
 cpp
 \
 nsSVGImageElement
+.
+cpp
+\
+nsSVGInteger
 .
 cpp
 \
