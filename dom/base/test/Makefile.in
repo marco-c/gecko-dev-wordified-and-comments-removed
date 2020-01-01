@@ -173,6 +173,10 @@ test_error
 .
 html
 \
+test_messageChannel
+.
+html
+\
 (
 NULL
 )

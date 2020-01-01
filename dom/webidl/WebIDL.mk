@@ -813,7 +813,15 @@ MediaStreamTrack
 .
 webidl
 \
+MessageChannel
+.
+webidl
+\
 MessageEvent
+.
+webidl
+\
+MessagePort
 .
 webidl
 \
@@ -1753,10 +1761,6 @@ CallsList
 webidl
 \
 MozStkCommandEvent
-.
-webidl
-\
-MozVoicemail
 .
 webidl
 \
