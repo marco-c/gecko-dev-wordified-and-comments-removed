@@ -62,10 +62,6 @@ class
 TextureImage
 ;
 }
-using
-namespace
-gl
-;
 namespace
 layers
 {
@@ -860,10 +856,16 @@ NotifyShadowTreeTransaction
 static
 already_AddRefed
 <
+gl
+:
+:
 TextureImage
 >
 OpenDescriptorForDirectTexturing
 (
+gl
+:
+:
 GLContext
 *
 aContext
