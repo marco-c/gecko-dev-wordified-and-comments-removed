@@ -1566,14 +1566,6 @@ construct
 native
 !
 =
-CallableObjectClass
-.
-construct
-&
-&
-native
-!
-=
 js
 :
 :

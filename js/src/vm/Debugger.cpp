@@ -21332,12 +21332,6 @@ return
 true
 ;
 }
-AutoIdVector
-props
-(
-cx
-)
-;
 ok
 =
 obj
@@ -21346,8 +21340,6 @@ obj
 preventExtensions
 (
 cx
-&
-props
 )
 ;
 }

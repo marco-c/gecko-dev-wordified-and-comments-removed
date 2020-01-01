@@ -1911,12 +1911,6 @@ preventExtensions
 JSContext
 *
 cx
-js
-:
-:
-AutoIdVector
-*
-props
 )
 ;
 inline
