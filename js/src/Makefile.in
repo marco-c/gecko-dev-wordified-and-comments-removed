@@ -3744,6 +3744,7 @@ ifeq
 TARGET_CPU
 )
 sparc
+)
 #
 Sun
 Studio
