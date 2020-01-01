@@ -1361,9 +1361,8 @@ return
 S_OK
 ;
 }
-EXTERN_C
+static
 GUID
-CDECL
 CLSID_nsDataObj
 =
 {
@@ -5302,11 +5301,6 @@ Reset
 (
 )
 ;
-PRBool
-found
-=
-PR_FALSE
-;
 while
 (
 NOERROR
@@ -6416,11 +6410,6 @@ if
 mCachedTempFile
 )
 {
-PRUint32
-len
-=
-0
-;
 nsCOMPtr
 <
 nsIFile

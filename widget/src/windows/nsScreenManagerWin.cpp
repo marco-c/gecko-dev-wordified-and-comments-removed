@@ -84,7 +84,7 @@ nsnull
 ;
 for
 (
-int
+unsigned
 i
 =
 0

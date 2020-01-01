@@ -4723,7 +4723,7 @@ nsWindow
 :
 :
 RegisterTouchForDescendants
-NULL
+0
 )
 ;
 #
@@ -4763,7 +4763,7 @@ nsWindow
 :
 :
 UnregisterTouchForDescendants
-NULL
+0
 )
 ;
 #
@@ -12520,7 +12520,7 @@ aOverriddenDelta
 )
 {
 const
-PRInt32
+PRUint32
 kSystemDefaultScrollingSpeed
 =
 3
@@ -13922,7 +13922,7 @@ nsWindow
 :
 :
 DispatchStarvedPaints
-NULL
+0
 )
 ;
 #
@@ -16679,12 +16679,6 @@ PR_TRUE
 ;
 }
 }
-static
-UINT
-vkKeyCached
-=
-0
-;
 PRBool
 result
 =
@@ -18821,9 +18815,6 @@ acceptActivation
 =
 PR_TRUE
 ;
-PRBool
-result
-=
 DispatchWindowEvent
 (
 &
@@ -19297,6 +19288,14 @@ kCClipboardCID
 clipboard
 )
 ;
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+)
+{
 clipboard
 -
 >
@@ -19313,6 +19312,7 @@ NS_RELEASE
 clipboard
 )
 ;
+}
 }
 break
 ;
@@ -23962,10 +23962,13 @@ lParamExtraInfo
 TABLET_INK_TOUCH
 )
 ?
+PRUint16
+(
 nsIDOMNSMouseEvent
 :
 :
 MOZ_SOURCE_TOUCH
+)
 :
 nsIDOMNSMouseEvent
 :
@@ -28094,6 +28097,9 @@ aLParam
 0
 &
 &
+(
+DWORD
+)
 aLParam
 !
 =
@@ -32922,6 +32928,10 @@ eWindowType_popup
 return
 curWindow
 ;
+default
+:
+break
+;
 }
 }
 nsWindow
@@ -33380,7 +33390,7 @@ case
 :
 for
 (
-int
+unsigned
 i
 =
 0

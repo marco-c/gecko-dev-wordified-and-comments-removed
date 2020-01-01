@@ -1129,6 +1129,9 @@ pcFetched
 ;
 NS_ENSURE_TRUE
 (
+(
+ULONG
+)
 TS_DEFAULT_SELECTION
 =
 =
@@ -2544,6 +2547,7 @@ rangeCount
 |
 |
 (
+(
 aEvent1
 -
 >
@@ -2577,6 +2581,7 @@ aEvent1
 -
 >
 rangeCount
+)
 )
 )
 )
@@ -2692,6 +2697,9 @@ Length
 )
 !
 =
+(
+ULONG
+)
 compLength
 )
 {
@@ -3492,6 +3500,9 @@ acpEnd
 ;
 if
 (
+(
+LONG
+)
 range
 .
 mStartOffset
@@ -3502,6 +3513,9 @@ start
 mCompositionStart
 &
 &
+(
+LONG
+)
 range
 .
 mEndOffset
@@ -4072,7 +4086,7 @@ cchPlainReq
 *
 pchPlain
 =
-NULL
+0
 ;
 if
 (
@@ -4454,7 +4468,7 @@ pchPlain
 length
 ]
 =
-NULL
+0
 ;
 *
 pcchPlainOut
@@ -7001,7 +7015,7 @@ GetWindowHandle
 )
 WM_USER_TSF_TEXTCHANGE
 0
-NULL
+0
 )
 ;
 }

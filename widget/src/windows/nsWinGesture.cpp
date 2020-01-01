@@ -234,6 +234,10 @@ nsWinGesture
 (
 )
 :
+mPanActive
+(
+PR_FALSE
+)
 mFeedbackActive
 (
 PR_FALSE
@@ -243,10 +247,6 @@ mXAxisFeedback
 PR_FALSE
 )
 mYAxisFeedback
-(
-PR_FALSE
-)
-mPanActive
 (
 PR_FALSE
 )

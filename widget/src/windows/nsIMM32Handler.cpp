@@ -1116,7 +1116,7 @@ get
 )
 NI_COMPOSITIONSTR
 CPS_COMPLETE
-NULL
+0
 )
 ;
 :
@@ -1130,7 +1130,7 @@ get
 )
 NI_COMPOSITIONSTR
 CPS_CANCEL
-NULL
+0
 )
 ;
 }
@@ -1284,7 +1284,7 @@ get
 )
 NI_COMPOSITIONSTR
 CPS_CANCEL
-NULL
+0
 )
 ;
 }
@@ -4224,9 +4224,6 @@ aWindow
 ;
 }
 }
-PRBool
-handled
-=
 aWindow
 -
 >
@@ -4443,6 +4440,13 @@ NS_QUERY_SELECTED_TEXT
 aWindow
 )
 ;
+nsIntPoint
+point
+(
+0
+0
+)
+;
 aWindow
 -
 >
@@ -4450,11 +4454,7 @@ InitEvent
 (
 selection
 &
-nsIntPoint
-(
-0
-0
-)
+point
 )
 ;
 aWindow
@@ -4510,13 +4510,6 @@ event
 PR_TRUE
 NS_COMPOSITION_START
 aWindow
-)
-;
-nsIntPoint
-point
-(
-0
-0
 )
 ;
 aWindow

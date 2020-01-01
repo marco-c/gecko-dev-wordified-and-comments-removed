@@ -71,7 +71,6 @@ nsPrintSettings
 (
 )
 ;
-virtual
 nsPrintSettings
 &
 operator
