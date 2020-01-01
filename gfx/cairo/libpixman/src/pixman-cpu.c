@@ -837,6 +837,12 @@ defined
 (
 __linux__
 )
+|
+|
+defined
+(
+ANDROID
+)
 #
 include
 <
