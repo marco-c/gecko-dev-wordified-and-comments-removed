@@ -4868,6 +4868,13 @@ onerror
 )
 GK_ATOM
 (
+onfailed
+"
+onfailed
+"
+)
+GK_ATOM
+(
 onfocus
 "
 onfocus
@@ -5326,6 +5333,13 @@ GK_ATOM
 onselect
 "
 onselect
+"
+)
+GK_ATOM
+(
+onsending
+"
+onsending
 "
 )
 GK_ATOM
