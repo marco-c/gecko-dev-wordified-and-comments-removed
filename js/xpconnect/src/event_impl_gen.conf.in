@@ -180,6 +180,9 @@ MozWifiConnectionInfoEvent
 '
 MozCellBroadcastEvent
 '
+'
+MozVoicemailEvent
+'
 #
 endif
 '
