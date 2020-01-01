@@ -3763,7 +3763,10 @@ now
 (
 )
 +
-20000
+10000
+persistWhileVisible
+:
+true
 }
 )
 ;
@@ -4587,7 +4590,10 @@ now
 (
 )
 +
-20000
+10000
+persistWhileVisible
+:
+true
 }
 )
 ;
