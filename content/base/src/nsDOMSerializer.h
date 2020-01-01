@@ -38,6 +38,16 @@ XMLSerializerBinding
 .
 h
 "
+#
+include
+"
+nsAutoPtr
+.
+h
+"
+class
+nsINode
+;
 class
 nsDOMSerializer
 MOZ_FINAL
