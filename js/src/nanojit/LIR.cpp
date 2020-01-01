@@ -5755,7 +5755,7 @@ clear
 (
 )
 {
-memset
+VMPI_memset
 (
 m_list
 0
@@ -8809,6 +8809,12 @@ live
 maxlive
 )
 ;
+if
+(
+exits
+>
+0
+)
 logc
 -
 >
@@ -9216,7 +9222,7 @@ copy
 =
 new
 (
-allocator
+alloc
 )
 char
 [
@@ -9240,7 +9246,7 @@ e
 =
 new
 (
-allocator
+alloc
 )
 Entry
 (
@@ -13478,6 +13484,17 @@ b
 )
 +
 1
+;
+NanoAssert
+(
+need
+<
+=
+sizeof
+(
+buf
+)
+)
 ;
 char
 *
