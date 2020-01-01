@@ -3198,13 +3198,6 @@ aRect
 .
 x
 =
-PresContext
-(
-)
--
->
-RoundAppUnitsToNearestDevPixels
-(
 mInner
 .
 mScrollPort
@@ -3220,7 +3213,6 @@ x
 aRect
 .
 width
-)
 ;
 }
 mInner
