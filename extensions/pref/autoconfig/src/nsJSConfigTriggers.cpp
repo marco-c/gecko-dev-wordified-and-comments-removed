@@ -492,7 +492,7 @@ ac
 .
 enter
 (
-ccx
+autoconfig_cx
 autoconfig_glob
 )
 )
