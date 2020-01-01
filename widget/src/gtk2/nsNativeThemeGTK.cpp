@@ -186,9 +186,10 @@ gfxGdkNativeRenderer
 .
 h
 "
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS_INHERITED2
 (
 nsNativeThemeGTK
+nsNativeTheme
 nsITheme
 nsIObserver
 )

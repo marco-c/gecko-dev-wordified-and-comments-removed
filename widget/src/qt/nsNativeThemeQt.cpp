@@ -228,9 +228,10 @@ nsNativeThemeQt
 )
 {
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS_INHERITED1
 (
 nsNativeThemeQt
+nsNativeTheme
 nsITheme
 )
 static

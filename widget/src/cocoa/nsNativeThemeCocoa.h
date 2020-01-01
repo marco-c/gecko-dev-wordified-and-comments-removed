@@ -94,7 +94,7 @@ nsNativeThemeCocoa
 (
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 DrawWidgetBackground
 (
