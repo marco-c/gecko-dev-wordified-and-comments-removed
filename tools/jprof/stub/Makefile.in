@@ -428,6 +428,9 @@ jprof
 EXPORT_LIBRARY
 =
 1
+FORCE_SHARED_LIB
+=
+1
 #
 override
 optimization
