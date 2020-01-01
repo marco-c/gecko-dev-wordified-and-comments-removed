@@ -855,7 +855,7 @@ mDelayedShowDropDown
 static
 nsComboboxControlFrame
 *
-mFocused
+sFocused
 ;
 #
 ifdef
