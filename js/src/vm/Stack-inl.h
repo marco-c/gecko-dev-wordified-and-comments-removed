@@ -553,11 +553,6 @@ script
 =
 callee
 .
-toFunction
-(
-)
--
->
 script
 (
 )
@@ -592,11 +587,6 @@ scopeChain_
 =
 callee
 .
-toFunction
-(
-)
--
->
 environment
 (
 )
@@ -2720,11 +2710,6 @@ script
 =
 callee
 .
-toFunction
-(
-)
--
->
 script
 (
 )
