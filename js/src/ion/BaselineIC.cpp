@@ -10371,6 +10371,8 @@ masm
 loadBaselineOrIonCode
 (
 callee
+&
+failure
 )
 ;
 Register

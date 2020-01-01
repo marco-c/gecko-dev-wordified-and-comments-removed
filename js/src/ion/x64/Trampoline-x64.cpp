@@ -1511,6 +1511,7 @@ masm
 loadBaselineOrIonCode
 (
 rax
+NULL
 )
 ;
 masm
