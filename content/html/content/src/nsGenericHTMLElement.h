@@ -1949,12 +1949,6 @@ IsEditableRoot
 )
 const
 ;
-nsIContent
-*
-FindEditableRoot
-(
-)
-;
 void
 ChangeEditableState
 (
