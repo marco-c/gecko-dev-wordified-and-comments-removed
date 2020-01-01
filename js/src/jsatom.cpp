@@ -491,6 +491,9 @@ iterate
 "
 WeakMap
 "
+"
+byteLength
+"
 }
 ;
 void

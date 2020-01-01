@@ -1796,6 +1796,10 @@ JSAtom
 *
 WeakMapAtom
 ;
+JSAtom
+*
+byteLengthAtom
+;
 struct
 {
 JSAtom

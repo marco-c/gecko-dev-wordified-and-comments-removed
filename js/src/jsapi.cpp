@@ -7474,7 +7474,7 @@ js
 ArrayBuffer
 :
 :
-jsclass
+slowClass
 }
 {
 js_InitWeakMapClass
@@ -7809,7 +7809,7 @@ js
 ArrayBuffer
 :
 :
-jsclass
+fastClass
 }
 {
 js_InitTypedArrayClasses
