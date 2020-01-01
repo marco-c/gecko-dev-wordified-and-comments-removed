@@ -87,13 +87,6 @@ h
 #
 include
 "
-nsRecyclingAllocator
-.
-h
-"
-#
-include
-"
 nsJARProtocolHandler
 .
 h
@@ -112,11 +105,6 @@ nsJAR
 .
 h
 "
-extern
-nsRecyclingAllocator
-*
-gZlibAllocator
-;
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsJAR
@@ -273,9 +261,6 @@ nsJarShutdown
 (
 )
 {
-delete
-gZlibAllocator
-;
 NS_IF_RELEASE
 (
 gJarHandler
