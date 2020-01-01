@@ -1173,6 +1173,7 @@ PathExtentsToMaxStrokeExtents
 (
 pathExtents
 this
+aToBBoxUserspace
 )
 )
 ;
