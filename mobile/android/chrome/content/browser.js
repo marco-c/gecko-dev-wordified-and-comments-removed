@@ -8218,6 +8218,9 @@ SelectionHandler
 cache
 :
 null
+_active
+:
+false
 get
 _view
 (
@@ -8429,7 +8432,7 @@ if
 (
 this
 .
-_view
+_active
 )
 this
 .
@@ -8458,7 +8461,7 @@ if
 (
 this
 .
-_view
+_active
 )
 this
 .
@@ -8722,6 +8725,12 @@ this
 showHandles
 (
 )
+;
+this
+.
+_active
+=
+true
 ;
 }
 moveSelection
@@ -9574,6 +9583,12 @@ this
 cache
 =
 null
+;
+this
+.
+_active
+=
+false
 ;
 }
 updateCacheForSelection
