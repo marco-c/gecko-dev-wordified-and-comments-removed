@@ -9485,6 +9485,10 @@ goto
 loser
 ;
 }
+EnsureServerVerificationInitialized
+(
+)
+;
 return
 sslSock
 ;
