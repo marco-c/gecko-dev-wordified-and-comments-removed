@@ -35,6 +35,12 @@ reftest
 .
 list
 include
+radio
+/
+reftest
+.
+list
+include
 range
 /
 reftest
