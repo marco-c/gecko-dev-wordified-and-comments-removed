@@ -479,6 +479,10 @@ test_button
 .
 xul
 \
+test_canvas
+.
+html
+\
 test_combobox
 .
 xul

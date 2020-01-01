@@ -200,7 +200,7 @@ if
 mScriptableInfo
 )
 return
-JS_FALSE
+false
 ;
 }
 js
@@ -373,7 +373,7 @@ ccx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -718,14 +718,14 @@ XPC_PROTO_DONT_SHARE
 ;
 shared
 =
-JS_FALSE
+false
 ;
 }
 else
 {
 shared
 =
-JS_TRUE
+true
 ;
 }
 if

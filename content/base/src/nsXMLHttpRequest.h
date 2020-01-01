@@ -681,11 +681,6 @@ IsSystemXHR
 (
 )
 ;
-bool
-IsWaitingForHTMLCharset
-(
-)
-;
 void
 ChangeStateToDone
 (

@@ -94,6 +94,10 @@ mCacheSuspended
 (
 false
 )
+mDidNotifyDataEnded
+(
+false
+)
 mUsingNullPrincipal
 (
 false
@@ -623,6 +627,9 @@ bool
 mCacheSuspended
 ;
 bool
+mDidNotifyDataEnded
+;
+bool
 mUsingNullPrincipal
 ;
 PRInt64
@@ -654,6 +661,9 @@ mPlaybackBytesPerSecond
 ;
 PRUint32
 mPinCount
+;
+nsresult
+mNotifyDataEndedStatus
 ;
 ReadMode
 mCurrentMode

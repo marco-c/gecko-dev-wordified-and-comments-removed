@@ -831,6 +831,13 @@ BINPATH
 /
 components
 /
+dom_sms
+.
+xpt
+BINPATH
+/
+components
+/
 dom_stylesheets
 .
 xpt

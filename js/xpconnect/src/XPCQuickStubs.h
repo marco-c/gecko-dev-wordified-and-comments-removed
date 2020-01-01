@@ -643,7 +643,7 @@ i
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 inline
@@ -685,7 +685,7 @@ u
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 #
@@ -1049,7 +1049,7 @@ eEmpty
 ;
 mValid
 =
-JS_TRUE
+true
 ;
 return
 nsnull
@@ -1071,7 +1071,7 @@ s
 {
 mValid
 =
-JS_FALSE
+false
 ;
 return
 nsnull
@@ -1504,7 +1504,7 @@ ppThis
 nsnull
 ;
 return
-JS_TRUE
+true
 ;
 }
 inline
@@ -2126,7 +2126,7 @@ intval
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 result
@@ -2157,7 +2157,7 @@ doubleval
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 result
@@ -2172,7 +2172,7 @@ doubleval
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 inline
@@ -2252,7 +2252,7 @@ intval
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 result
@@ -2283,7 +2283,7 @@ doubleval
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 result
@@ -2295,7 +2295,7 @@ doubleval
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 #

@@ -144,16 +144,6 @@ Length
 )
 =
 =
-const_cast
-<
-DOMSVGTransformList
-*
->
-(
-this
-)
--
->
 InternalList
 (
 )
@@ -205,6 +195,7 @@ nsSVGElement
 Element
 (
 )
+const
 {
 return
 mAList
@@ -264,6 +255,7 @@ SVGTransformList
 InternalList
 (
 )
+const
 ;
 void
 EnsureItemAt

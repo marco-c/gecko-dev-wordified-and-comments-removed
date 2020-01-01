@@ -847,7 +847,7 @@ const
 nsCString
 &
 aClassStr
-void
+JSObject
 *
 aClassObject
 )
@@ -1018,11 +1018,6 @@ GetLineNumber
 )
 JSVERSION_LATEST
 true
-(
-void
-*
-*
-)
 &
 getterObject
 )
@@ -1184,11 +1179,6 @@ GetLineNumber
 )
 JSVERSION_LATEST
 true
-(
-void
-*
-*
-)
 &
 setterObject
 )

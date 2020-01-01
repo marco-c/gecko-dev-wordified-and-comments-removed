@@ -2511,14 +2511,6 @@ aClosure
 )
 ;
 static
-PRUint32
-GetWidgetStatusFromIMEStatus
-(
-PRUint32
-aState
-)
-;
-static
 void
 NotifyInstalledMenuKeyboardListener
 (

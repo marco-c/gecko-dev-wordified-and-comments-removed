@@ -6731,7 +6731,7 @@ endif
 if
 (
 !
-jumpAndTrace
+jumpAndRun
 (
 fast
 target
@@ -7984,7 +7984,7 @@ Changes
 if
 (
 !
-jumpAndTrace
+jumpAndRun
 (
 j
 target
@@ -8385,7 +8385,7 @@ ReturnReg
 )
 ;
 return
-jumpAndTrace
+jumpAndRun
 (
 fast
 target
@@ -9199,7 +9199,7 @@ jump
 if
 (
 !
-jumpAndTrace
+jumpAndRun
 (
 fast
 target

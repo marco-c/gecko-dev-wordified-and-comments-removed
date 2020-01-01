@@ -3877,6 +3877,17 @@ rv
 rv
 )
 ;
+if
+(
+iconSpec
+.
+IsEmpty
+(
+)
+)
+return
+NS_OK
+;
 IconData
 iconData
 ;

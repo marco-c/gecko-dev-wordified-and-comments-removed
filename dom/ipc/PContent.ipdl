@@ -471,6 +471,10 @@ PNecko
 ;
 include
 protocol
+PSms
+;
+include
+protocol
 PStorage
 ;
 include
@@ -703,6 +707,9 @@ manages
 PNecko
 ;
 manages
+PSms
+;
+manages
 PStorage
 ;
 manages
@@ -881,6 +888,10 @@ PHal
 )
 ;
 PNecko
+(
+)
+;
+PSms
 (
 )
 ;

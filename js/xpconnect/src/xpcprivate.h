@@ -1778,7 +1778,7 @@ nsnull
 ;
 gOnceAliveNowDead
 =
-JS_FALSE
+false
 ;
 }
 static
@@ -1810,7 +1810,7 @@ EnsureGCBeforeCC
 {
 mNeedGCBeforeCC
 =
-JS_TRUE
+true
 ;
 }
 nsresult
@@ -2021,6 +2021,10 @@ virtual
 void
 Collect
 (
+bool
+shrinkingGC
+=
+false
 )
 ;
 #
@@ -3665,7 +3669,7 @@ if
 chars
 )
 return
-JS_FALSE
+false
 ;
 NS_ASSERTION
 (
@@ -3700,7 +3704,7 @@ length
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 }
@@ -5916,7 +5920,7 @@ obj
 JSBool
 OKIfNotInitialized
 =
-JS_FALSE
+false
 XPCJSRuntime
 *
 runtime
@@ -5938,7 +5942,7 @@ obj
 JSBool
 OKIfNotInitialized
 =
-JS_FALSE
+false
 )
 {
 return
@@ -8182,7 +8186,7 @@ aFlags
 )
 mCanBeSlim
 (
-JS_FALSE
+false
 )
 {
 memset
@@ -10789,7 +10793,7 @@ aInterface
 JSBool
 needJSObject
 =
-JS_FALSE
+false
 nsresult
 *
 pError
@@ -13660,7 +13664,7 @@ InitStatics
 {
 sEverMadeOneFromFactory
 =
-JS_FALSE
+false
 ;
 }
 protected
@@ -14364,14 +14368,14 @@ if
 mExceptionManager
 )
 return
-JS_TRUE
+true
 ;
 if
 (
 mExceptionManagerNotAvailable
 )
 return
-JS_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -14402,14 +14406,14 @@ if
 mExceptionManager
 )
 return
-JS_TRUE
+true
 ;
 mExceptionManagerNotAvailable
 =
-JS_TRUE
+true
 ;
 return
-JS_FALSE
+false
 ;
 }
 XPCJSContextStack

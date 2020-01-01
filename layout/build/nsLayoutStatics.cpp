@@ -1149,6 +1149,13 @@ InitializeStatics
 (
 )
 ;
+nsLayoutUtils
+:
+:
+Initialize
+(
+)
+;
 nsIPresShell
 :
 :

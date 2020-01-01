@@ -2610,6 +2610,8 @@ aPresContext
 aReflowState
 .
 rendContext
+&
+aReflowState
 aReflowState
 .
 mReflowDepth

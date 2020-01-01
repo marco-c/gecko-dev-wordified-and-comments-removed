@@ -284,7 +284,7 @@ aTarget
 JSObject
 *
 aScope
-void
+JSObject
 *
 aHandler
 nsIArray
@@ -306,7 +306,7 @@ aTarget
 JSObject
 *
 aScope
-void
+JSObject
 *
 aHandler
 nsScriptObjectHolder
@@ -318,7 +318,7 @@ virtual
 nsresult
 CompileFunction
 (
-void
+JSObject
 *
 aTarget
 const
@@ -346,7 +346,7 @@ PRUint32
 aVersion
 bool
 aShared
-void
+JSObject
 *
 *
 aFunctionObject
@@ -393,7 +393,7 @@ aIsChrome
 nsIPrincipal
 *
 aPrincipal
-void
+JSObject
 *
 *
 aNativeGlobal
@@ -410,7 +410,7 @@ ConnectToInner
 nsIScriptGlobalObject
 *
 aNewInner
-void
+JSObject
 *
 aOuterGlobal
 )
@@ -437,7 +437,7 @@ virtual
 nsresult
 SetOuterObject
 (
-void
+JSObject
 *
 aOuterObject
 )
@@ -543,7 +543,7 @@ virtual
 nsresult
 InitClasses
 (
-void
+JSObject
 *
 aGlobalObj
 )
@@ -642,6 +642,10 @@ static
 void
 GarbageCollectNow
 (
+bool
+shrinkingGC
+=
+false
 )
 ;
 static

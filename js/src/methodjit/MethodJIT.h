@@ -2377,8 +2377,8 @@ nukeScriptDependentICs
 size_t
 scriptDataSize
 (
-JSUsableSizeFun
-usf
+JSMallocSizeOfFun
+mallocSizeOf
 )
 ;
 jsbytecode

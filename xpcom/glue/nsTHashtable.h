@@ -381,9 +381,11 @@ nsnull
 )
 ;
 }
-PRUint64
-SizeOf
+size_t
+ShallowSizeOfExcludingThis
 (
+nsMallocSizeOfFun
+mallocSizeOf
 )
 {
 if
@@ -394,10 +396,11 @@ IsInitialized
 )
 {
 return
-PL_DHashTableSizeOf
+PL_DHashTableShallowSizeOfExcludingThis
 (
 &
 mTable
+mallocSizeOf
 )
 ;
 }

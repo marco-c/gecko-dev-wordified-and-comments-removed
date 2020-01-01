@@ -302,7 +302,7 @@ FindInJSObjectScope
 (
 ccx
 aGlobal
-JS_TRUE
+true
 )
 ;
 if
@@ -597,11 +597,11 @@ scope
 cur
 )
 return
-JS_TRUE
+true
 ;
 }
 return
-JS_FALSE
+false
 ;
 }
 void
@@ -2953,9 +2953,9 @@ n
 xpc_DumpJSStack
 (
 cx
-JS_TRUE
-JS_TRUE
-JS_TRUE
+true
+true
+true
 )
 ;
 printf

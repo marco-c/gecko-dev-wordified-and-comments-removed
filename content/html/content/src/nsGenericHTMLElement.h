@@ -2061,7 +2061,7 @@ true
 )
 ;
 virtual
-PRUint32
+IMEState
 GetDesiredIMEState
 (
 )

@@ -148,7 +148,7 @@ stream
 mDecoder
 -
 >
-GetCurrentStream
+GetStream
 (
 )
 ;
@@ -760,7 +760,7 @@ stream
 mDecoder
 -
 >
-GetCurrentStream
+GetStream
 (
 )
 ;
@@ -1196,7 +1196,7 @@ stream
 mDecoder
 -
 >
-GetCurrentStream
+GetStream
 (
 )
 ;

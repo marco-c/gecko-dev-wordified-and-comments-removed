@@ -133,7 +133,7 @@ cx
 *
 retval
 =
-JS_FALSE
+false
 ;
 return
 NS_OK
@@ -254,11 +254,11 @@ iface
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 return
-JS_FALSE
+false
 ;
 }
 char
@@ -6276,7 +6276,7 @@ GetCID
 *
 _retval
 =
-JS_FALSE
+false
 ;
 return
 NS_OK
@@ -7105,7 +7105,7 @@ GetCID
 *
 _retval
 =
-JS_FALSE
+false
 ;
 return
 NS_OK
@@ -8507,7 +8507,7 @@ val
 *
 _retval
 =
-JS_FALSE
+false
 ;
 return
 NS_OK
@@ -8588,7 +8588,7 @@ ignored
 *
 _retval
 =
-JS_FALSE
+false
 ;
 return
 NS_OK
@@ -9352,7 +9352,7 @@ GetCID
 *
 _retval
 =
-JS_FALSE
+false
 ;
 return
 NS_OK
@@ -11509,7 +11509,7 @@ if
 argc
 )
 return
-JS_TRUE
+true
 ;
 str
 =
@@ -11532,7 +11532,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 size_t
 length
@@ -11556,7 +11556,7 @@ if
 chars
 )
 return
-JS_FALSE
+false
 ;
 nsDependentString
 wstr
@@ -11580,7 +11580,7 @@ if
 cstr
 )
 return
-JS_FALSE
+false
 ;
 #
 if
@@ -11660,7 +11660,7 @@ JSVAL_TRUE
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -11691,7 +11691,7 @@ vp
 #
 else
 return
-JS_TRUE
+true
 ;
 #
 endif
@@ -11726,7 +11726,7 @@ if
 thisobj
 )
 return
-JS_FALSE
+false
 ;
 jsval
 *
@@ -11764,7 +11764,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSString
@@ -11795,7 +11795,7 @@ if
 funname
 )
 return
-JS_FALSE
+false
 ;
 argv
 [
@@ -11860,7 +11860,7 @@ funobj
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 JSFunction
@@ -11892,7 +11892,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 funname
@@ -11918,7 +11918,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -11940,7 +11940,7 @@ id
 )
 )
 return
-JS_FALSE
+false
 ;
 JS_SET_RVAL
 (
@@ -12076,7 +12076,7 @@ obj
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 return
@@ -13834,7 +13834,7 @@ origCx
 JSBool
 ok
 =
-JS_TRUE
+true
 ;
 if
 (
@@ -15987,7 +15987,7 @@ v
 )
 )
 return
-JS_FALSE
+false
 ;
 NS_ASSERTION
 (
@@ -16064,7 +16064,7 @@ if
 fun
 )
 return
-JS_FALSE
+false
 ;
 JSObject
 *
@@ -16090,7 +16090,7 @@ propobj
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 vp
@@ -16101,7 +16101,7 @@ funobj
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -16767,11 +16767,6 @@ JSOPTION_METHODJIT
 )
 GENERATE_JSOPTION_GETTER_SETTER
 (
-Jitprofiling
-JSOPTION_PROFILING
-)
-GENERATE_JSOPTION_GETTER_SETTER
-(
 Methodjit_always
 JSOPTION_METHODJIT_ALWAYS
 )
@@ -16802,7 +16797,7 @@ PRUint8
 aValue
 )
 JS_DEFAULT_ZEAL_FREQ
-JS_FALSE
+false
 )
 ;
 #
@@ -17777,7 +17772,7 @@ NS_ERROR_FAILURE
 bool
 doResult
 =
-JS_FALSE
+false
 ;
 nsresult
 res
@@ -17821,7 +17816,7 @@ GetLastResult
 ;
 doResult
 =
-JS_TRUE
+true
 ;
 }
 else
@@ -17853,7 +17848,7 @@ GetPendingResult
 ;
 doResult
 =
-JS_TRUE
+true
 ;
 }
 nsresult
@@ -18042,7 +18037,7 @@ if
 aGlobal
 )
 return
-JS_FALSE
+false
 ;
 nsXPCComponents
 *
@@ -18059,7 +18054,7 @@ if
 components
 )
 return
-JS_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -18097,7 +18092,7 @@ if
 iface
 )
 return
-JS_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -18133,7 +18128,7 @@ if
 wrapper
 )
 return
-JS_FALSE
+false
 ;
 aScope
 -

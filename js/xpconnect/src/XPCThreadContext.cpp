@@ -621,10 +621,10 @@ i
 cx
 )
 return
-JS_TRUE
+true
 ;
 return
-JS_FALSE
+false
 ;
 }
 #
@@ -1101,7 +1101,7 @@ nsnull
 )
 mExceptionManagerNotAvailable
 (
-JS_FALSE
+false
 )
 mAutoRoots
 (
