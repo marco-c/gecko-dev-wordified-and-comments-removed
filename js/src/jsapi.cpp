@@ -23731,6 +23731,11 @@ JSContext
 cx
 )
 {
+CHECK_REQUEST
+(
+cx
+)
+;
 JSStackFrame
 *
 fp
@@ -23773,6 +23778,11 @@ JSStackFrame
 fp
 )
 {
+CHECK_REQUEST
+(
+cx
+)
+;
 JS_ASSERT_NOT_ON_TRACE
 (
 cx
