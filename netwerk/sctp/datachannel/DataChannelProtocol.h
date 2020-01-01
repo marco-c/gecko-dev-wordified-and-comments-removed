@@ -122,11 +122,11 @@ msg_type
 uint8_t
 channel_type
 ;
-uint16_t
-reliability_params
-;
 int16_t
 priority
+;
+uint32_t
+reliability_param
 ;
 uint16_t
 label_length
