@@ -646,14 +646,6 @@ TraceRecorder
 *
 recorder
 ;
-jsval
-*
-reservedDoublePool
-;
-jsval
-*
-reservedDoublePoolPtr
-;
 struct
 GlobalState
 globalStates
@@ -989,6 +981,9 @@ JSThreadData
 {
 JSGCFreeLists
 gcFreeLists
+;
+bool
+waiveGCQuota
 ;
 JSGSNCache
 gsnCache
