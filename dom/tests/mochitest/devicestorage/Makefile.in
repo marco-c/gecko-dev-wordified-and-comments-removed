@@ -131,6 +131,14 @@ test_dotdot
 .
 html
 \
+test_enumerateOptions
+.
+html
+\
+test_lastModificationFilter
+.
+html
+\
 devicestorage_common
 .
 js
