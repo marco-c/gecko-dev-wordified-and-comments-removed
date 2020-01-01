@@ -1663,13 +1663,11 @@ document
 commandDispatcher
 .
 focusedElement
-.
-isSameNode
-(
+=
+=
 this
 .
 updateBtn
-)
 )
 this
 .

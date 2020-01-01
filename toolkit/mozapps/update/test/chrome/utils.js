@@ -1969,15 +1969,12 @@ gTest
 expectedRemoteContentState
 |
 |
-!
 aEvent
 .
 originalTarget
-.
-isSameNode
-(
+!
+=
 gRemoteContent
-)
 )
 {
 debugDump
