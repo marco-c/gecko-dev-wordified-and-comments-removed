@@ -455,9 +455,6 @@ nullptr
 nsresult
 ProcessLinkHeader
 (
-nsIContent
-*
-aElement
 const
 nsAString
 &
@@ -467,9 +464,6 @@ aLinkData
 nsresult
 ProcessLink
 (
-nsIContent
-*
-aElement
 const
 nsSubstring
 &

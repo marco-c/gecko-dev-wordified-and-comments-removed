@@ -1547,7 +1547,6 @@ value
 ;
 ProcessLinkHeader
 (
-nullptr
 value
 )
 ;
@@ -1831,9 +1830,6 @@ nsContentSink
 :
 ProcessLinkHeader
 (
-nsIContent
-*
-aElement
 const
 nsAString
 &
@@ -2738,7 +2734,6 @@ rv
 =
 ProcessLink
 (
-aElement
 anchor
 href
 rel
@@ -2842,7 +2837,6 @@ rv
 =
 ProcessLink
 (
-aElement
 anchor
 href
 rel
@@ -2870,9 +2864,6 @@ nsContentSink
 :
 ProcessLink
 (
-nsIContent
-*
-aElement
 const
 nsSubstring
 &
@@ -2945,7 +2936,7 @@ NEXT
 PrefetchHref
 (
 aHref
-aElement
+nullptr
 hasPrefetch
 )
 ;
@@ -2997,7 +2988,7 @@ ALTERNATE
 return
 ProcessStyleLink
 (
-aElement
+nullptr
 aHref
 isAlternate
 aTitle
