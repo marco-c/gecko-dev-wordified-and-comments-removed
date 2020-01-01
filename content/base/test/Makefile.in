@@ -1667,6 +1667,10 @@ test_bug544642
 .
 html
 \
+test_copyimage
+.
+html
+\
 test_copypaste
 .
 html
