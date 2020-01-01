@@ -1608,6 +1608,9 @@ kNoFlags
 kUmaTargetedHistogramFlag
 =
 0x1
+kExtendedStatisticsFlag
+=
+0x2
 kIPCSerializationSourceFlag
 =
 0x10
@@ -1725,6 +1728,8 @@ Count
 count
 size_t
 index
+bool
+computeExtendedStatistics
 )
 ;
 Count
