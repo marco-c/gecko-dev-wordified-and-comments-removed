@@ -144,3 +144,13 @@ xulscrollbars
 .
 css
 )
++
+skin
+/
+classic
+/
+global
+/
+aboutStartup
+.
+css
