@@ -444,6 +444,9 @@ InvokeDragSession
 )
 )
 ;
+nsresult
+rv
+=
 nsBaseDragService
 :
 :
@@ -453,6 +456,12 @@ aDOMNode
 aArrayTransferables
 aRegion
 aActionType
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 ResetDragInfo

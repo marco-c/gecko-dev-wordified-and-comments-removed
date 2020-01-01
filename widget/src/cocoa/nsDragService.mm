@@ -1822,6 +1822,9 @@ aActionType
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
 ;
+nsresult
+rv
+=
 nsBaseDragService
 :
 :
@@ -1831,6 +1834,12 @@ aDOMNode
 aTransferableArray
 aDragRgn
 aActionType
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 mDataItems

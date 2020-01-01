@@ -484,6 +484,9 @@ n
 ;
 #
 endif
+nsresult
+rv
+=
 nsBaseDragService
 :
 :
@@ -493,6 +496,12 @@ aDOMNode
 aArrayTransferables
 aRegion
 aActionType
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 if
@@ -762,7 +771,6 @@ tmpDataLen
 =
 0
 ;
-nsresult
 rv
 =
 currItem

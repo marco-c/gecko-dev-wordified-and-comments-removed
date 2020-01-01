@@ -514,6 +514,9 @@ mDoingDrag
 return
 NS_ERROR_UNEXPECTED
 ;
+nsresult
+rv
+=
 nsBaseDragService
 :
 :
@@ -523,6 +526,12 @@ aDOMNode
 aTransferables
 aRegion
 aActionType
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 mSourceDataItems
@@ -616,7 +625,6 @@ hstrSourceName
 =
 NULLHANDLE
 ;
-nsresult
 rv
 =
 NS_ERROR_FAILURE
