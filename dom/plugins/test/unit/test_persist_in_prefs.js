@@ -383,11 +383,11 @@ file
 parent
 ;
 const
-parentDir
+tempDir
 =
-pluginDir
-.
-parent
+do_get_tempdir
+(
+)
 ;
 const
 suffix
@@ -747,7 +747,7 @@ file
 .
 moveTo
 (
-parentDir
+tempDir
 null
 )
 ;
@@ -857,7 +857,7 @@ copy
 .
 moveTo
 (
-parentDir
+tempDir
 null
 )
 ;
