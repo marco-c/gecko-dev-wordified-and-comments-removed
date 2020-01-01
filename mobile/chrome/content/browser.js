@@ -3719,7 +3719,6 @@ true
 }
 if
 (
-!
 gPrefService
 .
 prefHasUserValue
@@ -3736,7 +3735,7 @@ this
 .
 setPluginState
 (
-false
+true
 /
 flash
 /
@@ -3745,14 +3744,13 @@ i
 ;
 gPrefService
 .
-setBoolPref
+clearUserPref
 (
 "
 temporary
 .
 disabledFlash
 "
-true
 )
 ;
 }
