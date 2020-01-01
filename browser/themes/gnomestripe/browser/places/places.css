@@ -1226,11 +1226,6 @@ placesContext_open
 \
 :
 newtab
-#
-placesContext_openContainer
-\
-:
-tabs
 menuitem
 [
 command
