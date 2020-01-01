@@ -118,15 +118,6 @@ layout_height
 "
 fill_parent
 "
-android
-:
-background
-=
-"
-drawable
-/
-tabs_tray_bg_repeat
-"
 >
 <
 ImageButton
