@@ -185,6 +185,16 @@ in
 catch
 .
 js
+script
+JSON
+-
+string
+-
+replacer
+-
+overflow
+.
+js
 skip
 -
 if
