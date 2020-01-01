@@ -6496,11 +6496,9 @@ searchdirs
                             
 libpath
 =
-os
+util
 .
-path
-.
-join
+normaljoin
 (
 dir
 libname
@@ -6519,11 +6517,9 @@ replace
                             
 fspath
 =
-os
+util
 .
-path
-.
-join
+normaljoin
 (
 makefile
 .
@@ -6601,11 +6597,9 @@ search
 +
 =
 [
-os
+util
 .
-path
-.
-join
+normaljoin
 (
 dir
 self
@@ -6645,11 +6639,9 @@ search
             
 fspath
 =
-os
+util
 .
-path
-.
-join
+normaljoin
 (
 makefile
 .
@@ -9108,13 +9100,14 @@ DataError
 No
 rule
 to
-remaking
+remake
 missing
 include
 file
 %
 s
 "
+%
 t
 .
 target
@@ -10289,11 +10282,9 @@ required
         
 fspath
 =
-os
+util
 .
-path
-.
-join
+normaljoin
 (
 self
 .

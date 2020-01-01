@@ -41,6 +41,8 @@ import
 os
 re
 fnmatch
+import
+util
 _globcheck
 =
 re
@@ -174,11 +176,9 @@ dirsfound
         
 fspath
 =
-os
+util
 .
-path
-.
-join
+normaljoin
 (
 fsdir
 dir
@@ -203,11 +203,9 @@ r
 extend
 (
 (
-os
+util
 .
-path
-.
-join
+normaljoin
 (
 dir
 found
@@ -298,11 +296,9 @@ path
 .
 exists
 (
-os
+util
 .
-path
-.
-join
+normaljoin
 (
 dir
 pattern
@@ -394,11 +390,9 @@ path
 .
 exists
 (
-os
+util
 .
-path
-.
-join
+normaljoin
 (
 dir
 l

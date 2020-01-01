@@ -694,11 +694,9 @@ find
         
 executable
 =
-os
+util
 .
-path
-.
-join
+normaljoin
 (
 cwd
 argv
