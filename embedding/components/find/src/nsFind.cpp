@@ -220,6 +220,14 @@ PRUnichar
 )
 0xAD
 )
+PR_STATIC_ASSERT
+(
+CH_SHY
+<
+=
+255
+)
+;
 class
 nsFindContentIterator
 :
