@@ -817,6 +817,11 @@ nsIDOMDOMRequest
 aRequest
 )
 {
+NS_ENSURE_STATE
+(
+aWindow
+)
+;
 NS_ADDREF
 (
 *
@@ -848,6 +853,11 @@ jsval
 aResult
 )
 {
+NS_ENSURE_STATE
+(
+aRequest
+)
+;
 static_cast
 <
 DOMRequest
@@ -882,6 +892,11 @@ nsAString
 aError
 )
 {
+NS_ENSURE_STATE
+(
+aRequest
+)
+;
 static_cast
 <
 DOMRequest
