@@ -452,6 +452,10 @@ browser_promise_basic
 .
 js
 \
+browser_templater_basic
+.
+js
+\
 head
 .
 js
@@ -462,7 +466,7 @@ NULL
 _BROWSER_TEST_PAGES
 =
 \
-browser_promise_basic
+browser_templater_basic
 .
 html
 \
