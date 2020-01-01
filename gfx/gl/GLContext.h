@@ -2007,6 +2007,7 @@ VendorOther
 enum
 {
 RendererAdreno200
+RendererAdreno205
 RendererSGX540
 RendererOther
 }
@@ -2033,6 +2034,11 @@ mRenderer
 }
 bool
 CanUploadSubTextures
+(
+)
+;
+bool
+CanUploadNonPowerOfTwo
 (
 )
 ;
