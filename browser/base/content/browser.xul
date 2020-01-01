@@ -9074,6 +9074,11 @@ inspector
 -
 toolbar
 "
+nowindowdrag
+=
+"
+true
+"
 hidden
 =
 "
