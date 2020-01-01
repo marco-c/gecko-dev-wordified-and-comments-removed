@@ -9931,7 +9931,7 @@ if
 (
 types
 .
-rval
+ival
 =
 =
 MIRType_Int32
