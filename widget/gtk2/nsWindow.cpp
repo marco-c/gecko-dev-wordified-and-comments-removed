@@ -24189,6 +24189,12 @@ IMEState
 :
 OPEN_STATE_NOT_SUPPORTED
 ;
+context
+.
+mNativeIMEContext
+=
+this
+;
 }
 else
 {
@@ -24200,6 +24206,12 @@ mIMModule
 GetInputContext
 (
 )
+;
+context
+.
+mNativeIMEContext
+=
+mIMModule
 ;
 }
 return

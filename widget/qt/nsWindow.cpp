@@ -15408,6 +15408,17 @@ IMEState
 :
 OPEN_STATE_NOT_SUPPORTED
 ;
+mInputContext
+.
+mNativeIMEContext
+=
+qApp
+-
+>
+inputContext
+(
+)
+;
 return
 mInputContext
 ;
