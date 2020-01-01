@@ -18932,9 +18932,6 @@ propID
 aContext
 =
 =
-nsCSSContextType
-:
-:
 eCSSContext_Page
 &
 &
