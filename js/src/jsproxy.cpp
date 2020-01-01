@@ -853,7 +853,7 @@ desc
 .
 attrs
 =
-0
+JSPROP_ENUMERATE
 ;
 desc
 .
