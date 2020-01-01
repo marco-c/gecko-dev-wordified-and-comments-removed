@@ -68,9 +68,6 @@ nameprep
 11
 "
 #
-undef
-assert
-#
 define
 assert
 (
