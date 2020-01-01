@@ -14077,7 +14077,7 @@ setBoolean
 equal
 =
 =
-true
+JS_TRUE
 )
 ;
 }
@@ -14167,7 +14167,7 @@ setBoolean
 equal
 !
 =
-true
+JS_TRUE
 )
 ;
 }
