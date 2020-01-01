@@ -64,9 +64,6 @@ DEPTH
 /
 .
 .
-/
-.
-.
 topsrcdir
 =
 top_srcdir
@@ -80,13 +77,11 @@ relativesrcdir
 =
 dom
 /
-tests
-/
-mochitest
-/
 browser
 -
-frame
+element
+/
+mochitest
 include
 (
 DEPTH
