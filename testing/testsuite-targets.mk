@@ -756,8 +756,6 @@ robocop
 robocop
 -
 debug
--
-signed
 .
 apk
 \
