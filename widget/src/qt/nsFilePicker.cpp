@@ -146,9 +146,6 @@ nsFilePicker
 (
 )
 {
-delete
-mDialog
-;
 }
 NS_IMETHODIMP
 nsFilePicker

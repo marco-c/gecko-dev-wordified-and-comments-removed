@@ -13,6 +13,13 @@ h
 >
 #
 include
+<
+qpointer
+.
+h
+>
+#
+include
 "
 nsBaseFilePicker
 .
@@ -207,8 +214,10 @@ int
 ;
 protected
 :
+QPointer
+<
 QFileDialog
-*
+>
 mDialog
 ;
 nsCOMArray
