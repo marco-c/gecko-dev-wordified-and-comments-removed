@@ -494,6 +494,10 @@ bug536567_subframe
 .
 html
 \
+test_bug549170
+.
+html
+\
 (
 NULL
 )
