@@ -297,7 +297,7 @@ lVal
 )
 ;
 return
-GetCachedAccessibleByUniqueIDInSubtree
+GetAccessibleByUniqueIDInSubtree
 (
 uniqueID
 )

@@ -686,6 +686,7 @@ nsAccessible
 *
 aCachedChild
 )
+const
 ;
 virtual
 bool

@@ -3999,7 +3999,7 @@ document
 document
 -
 >
-GetCachedAccessible
+GetAccessible
 (
 aNode
 )
