@@ -38,6 +38,7 @@ bool
 expectParentDeleted
 )
 ;
+sync
 __delete__
 (
 )

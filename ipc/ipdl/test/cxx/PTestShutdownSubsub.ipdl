@@ -21,6 +21,7 @@ PTestShutdownSub
 ;
 parent
 :
+sync
 __delete__
 (
 )
