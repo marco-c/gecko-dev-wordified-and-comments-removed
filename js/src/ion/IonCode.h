@@ -475,6 +475,17 @@ void
 addr
 )
 ;
+static
+inline
+ThingRootKind
+rootKind
+(
+)
+{
+return
+THING_ROOT_ION_CODE
+;
+}
 }
 ;
 class
