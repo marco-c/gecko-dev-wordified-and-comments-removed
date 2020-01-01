@@ -538,6 +538,8 @@ jemalloc
 endif
 WRAP_LDFLAGS
 =
+MOZ_MEMORY_LDFLAGS
+=
 include
 (
 topsrcdir

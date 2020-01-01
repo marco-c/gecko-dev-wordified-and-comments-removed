@@ -886,12 +886,6 @@ ico
 \
 "
 endif
-LIBS
-+
-=
-(
-JEMALLOC_LIBS
-)
 include
 (
 topsrcdir
