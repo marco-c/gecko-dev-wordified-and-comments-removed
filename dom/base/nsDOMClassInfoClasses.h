@@ -336,10 +336,6 @@ TimeEvent
 )
 DOMCI_CLASS
 (
-SVGFETurbulenceElement
-)
-DOMCI_CLASS
-(
 SVGUnknownElement
 )
 DOMCI_CLASS

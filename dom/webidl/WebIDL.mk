@@ -887,6 +887,10 @@ SVGFETileElement
 .
 webidl
 \
+SVGFETurbulenceElement
+.
+webidl
+\
 SVGFitToViewBox
 .
 webidl
