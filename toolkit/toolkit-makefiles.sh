@@ -5338,15 +5338,6 @@ modules
 /
 libpr0n
 /
-decoders
-/
-xbm
-/
-Makefile
-modules
-/
-libpr0n
-/
 encoders
 /
 Makefile

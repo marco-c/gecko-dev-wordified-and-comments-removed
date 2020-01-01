@@ -141,11 +141,6 @@ imgbmp
 dll
 components
 \
-imgxbm
-.
-dll
-components
-\
 imgicon
 .
 dll
