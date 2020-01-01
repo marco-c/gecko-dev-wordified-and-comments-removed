@@ -104,15 +104,6 @@ aPrefix
 )
 ;
 PRInt32
-lookupNamespace
-(
-const
-nsAString
-&
-aPrefix
-)
-;
-PRInt32
 lookupNamespaceWithDefault
 (
 const
