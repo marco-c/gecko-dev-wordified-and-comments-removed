@@ -1130,6 +1130,10 @@ nsCSSValuePairList
 *
 mBackPosition
 ;
+nsCSSValuePairList
+*
+mBackSize
+;
 nsCSSValueList
 *
 mBackClip

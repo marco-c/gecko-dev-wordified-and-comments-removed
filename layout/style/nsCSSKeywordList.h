@@ -1413,6 +1413,11 @@ condensed
 )
 CSS_KEY
 (
+contain
+contain
+)
+CSS_KEY
+(
 content
 content
 )
@@ -1439,6 +1444,11 @@ CSS_KEY
 (
 copy
 copy
+)
+CSS_KEY
+(
+cover
+cover
 )
 CSS_KEY
 (

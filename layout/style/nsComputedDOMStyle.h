@@ -720,6 +720,15 @@ aValue
 )
 ;
 nsresult
+GetMozBackgroundSize
+(
+nsIDOMCSSValue
+*
+*
+aValue
+)
+;
+nsresult
 GetPadding
 (
 nsIDOMCSSValue
