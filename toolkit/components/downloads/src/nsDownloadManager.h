@@ -244,6 +244,10 @@ mDBType
 (
 DATABASE_DISK
 )
+mInPrivateBrowsing
+(
+PR_FALSE
+)
 {
 }
 protected
@@ -549,6 +553,16 @@ GetQuitBehavior
 (
 )
 ;
+void
+OnEnterPrivateBrowsingMode
+(
+)
+;
+void
+OnLeavePrivateBrowsingMode
+(
+)
+;
 #
 ifdef
 DOWNLOAD_SCANNER
@@ -615,6 +629,9 @@ mHistoryTransaction
 enum
 DatabaseType
 mDBType
+;
+PRBool
+mInPrivateBrowsing
 ;
 static
 nsDownloadManager
