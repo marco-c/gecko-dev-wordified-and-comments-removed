@@ -7750,6 +7750,13 @@ EventModel
 NPEventModelCarbon
 )
 {
+childInstance
+-
+>
+SendNegotiatedCarbon
+(
+)
+;
 *
 rv
 =

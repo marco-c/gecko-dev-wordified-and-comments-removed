@@ -442,6 +442,11 @@ NPBool
 allow
 )
 ;
+void
+CarbonNPAPIFailure
+(
+)
+;
 protected
 :
 nsresult
