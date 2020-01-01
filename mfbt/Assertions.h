@@ -391,8 +391,11 @@ C
 #
 endif
 #
-ifdef
-WIN32
+if
+defined
+(
+_MSC_VER
+)
 #
 ifdef
 __cplusplus
@@ -404,6 +407,11 @@ MOZ_CRASH
 \
 do
 {
+\
+__debugbreak
+(
+)
+;
 \
 *
 (
@@ -441,6 +449,11 @@ MOZ_CRASH
 \
 do
 {
+\
+__debugbreak
+(
+)
+;
 \
 *
 (
