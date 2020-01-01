@@ -7646,7 +7646,8 @@ getConfiguration
 .
 screenLayout
 ;
-return
+sIsSmallTablet
+=
 (
 Build
 .
