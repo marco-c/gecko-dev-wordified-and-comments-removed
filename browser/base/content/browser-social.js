@@ -8468,6 +8468,13 @@ provider
 sidebarURL
 )
 ;
+PopupNotifications
+.
+locationChange
+(
+sbrowser
+)
+;
 }
 if
 (
