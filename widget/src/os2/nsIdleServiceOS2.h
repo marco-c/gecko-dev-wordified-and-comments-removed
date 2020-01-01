@@ -42,8 +42,8 @@ nsIdleServiceOS2
 (
 )
 ;
-bool
-PollIdleTime
+NS_IMETHOD
+GetIdleTime
 (
 PRUint32
 *
@@ -57,13 +57,6 @@ mHMod
 ;
 PRBool
 mInitialized
-;
-protected
-:
-bool
-UsePollMode
-(
-)
 ;
 }
 ;
