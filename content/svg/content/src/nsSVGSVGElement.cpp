@@ -2405,13 +2405,11 @@ nsIDOMSVGTransform
 _retval
 )
 {
-if
+NS_ENSURE_NATIVE_MATRIX
 (
-!
 matrix
+_retval
 )
-return
-NS_ERROR_DOM_SVG_WRONG_TYPE_ERR
 ;
 nsresult
 rv
