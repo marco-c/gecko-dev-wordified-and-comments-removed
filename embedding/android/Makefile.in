@@ -433,6 +433,10 @@ locales
 JAVAFILES
 =
 \
+BrowserToolbar
+.
+java
+\
 GeckoApp
 .
 java
@@ -977,6 +981,14 @@ res
 layout
 /
 awesomebar_row
+.
+xml
+\
+res
+/
+layout
+/
+browser_toolbar
 .
 xml
 \
