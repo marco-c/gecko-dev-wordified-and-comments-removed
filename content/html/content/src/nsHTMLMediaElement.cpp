@@ -5328,7 +5328,12 @@ clampedTime
 ;
 mCurrentPlayRangeStart
 =
-clampedTime
+mDecoder
+-
+>
+GetCurrentTime
+(
+)
 ;
 AddRemoveSelfReference
 (
