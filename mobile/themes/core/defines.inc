@@ -90,6 +90,12 @@ touch_normal
 77mozmm
 %
 define
+margin_context_popup
+3
+.
+39mozmm
+%
+define
 margin_large
 2
 .
@@ -460,6 +466,10 @@ touch_action_minwidth
 define
 touch_normal
 64px
+%
+define
+margin_context_popup
+32px
 %
 define
 margin_large
