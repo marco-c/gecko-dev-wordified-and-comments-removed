@@ -5071,10 +5071,9 @@ nsIFrame
 aFrame
 )
 {
-const
-nsStyleBackground
+nsStyleContext
 *
-bg
+bgSC
 ;
 if
 (
@@ -5092,7 +5091,7 @@ PresContext
 )
 aFrame
 &
-bg
+bgSC
 )
 )
 return
@@ -5100,7 +5099,12 @@ return
 if
 (
 !
-bg
+bgSC
+-
+>
+GetStyleBackground
+(
+)
 -
 >
 HasFixedBackground

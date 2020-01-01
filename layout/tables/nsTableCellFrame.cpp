@@ -5041,8 +5041,7 @@ aRenderingContext
 this
 aDirtyRect
 rect
-*
-GetStyleBackground
+GetStyleContext
 (
 )
 myBorder

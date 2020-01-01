@@ -23417,8 +23417,7 @@ if
 rootFrame
 )
 {
-const
-nsStyleBackground
+nsStyleContext
 *
 bgStyle
 =
@@ -23440,7 +23439,6 @@ DetermineBackgroundColor
 GetPresContext
 (
 )
-*
 bgStyle
 rootFrame
 )

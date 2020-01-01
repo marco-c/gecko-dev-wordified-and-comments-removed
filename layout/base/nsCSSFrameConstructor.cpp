@@ -29005,10 +29005,9 @@ return
 ;
 }
 }
-const
-nsStyleBackground
+nsStyleContext
 *
-bg
+bgSC
 ;
 while
 (
@@ -29021,7 +29020,7 @@ FindBackground
 aPresContext
 aFrame
 &
-bg
+bgSC
 )
 )
 {

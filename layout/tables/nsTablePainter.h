@@ -203,10 +203,8 @@ mFrame
 nsRect
 mRect
 ;
-const
-nsStyleBackground
-*
-mBackground
+PRBool
+mVisible
 ;
 const
 nsStyleBorder
@@ -220,10 +218,7 @@ IsVisible
 const
 {
 return
-mBackground
-!
-=
-nsnull
+mVisible
 ;
 }
 TableBackgroundData
