@@ -1496,6 +1496,11 @@ length
 )
 ;
 }
+gtk_selection_data_free
+(
+selectionData
+)
+;
 foundData
 =
 true
