@@ -3467,17 +3467,6 @@ args
 :
 ]
     
-JS
-=
-os
-.
-path
-.
-realpath
-(
-JS
-)
-    
 if
 stdio_might_be_broken
 (
