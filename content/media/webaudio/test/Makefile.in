@@ -111,6 +111,10 @@ test_bug856771
 .
 html
 \
+test_bug866570
+.
+html
+\
 test_bug866737
 .
 html
