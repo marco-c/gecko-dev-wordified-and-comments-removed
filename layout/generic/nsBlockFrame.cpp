@@ -7693,6 +7693,17 @@ GetStyleTextReset
 bool
 tryAndSkipLines
 =
+GetStyleVisibility
+(
+)
+-
+>
+mDirection
+=
+=
+NS_STYLE_DIRECTION_LTR
+&
+&
 IsAlignedLeft
 (
 styleText
