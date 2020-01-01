@@ -258,7 +258,7 @@ script_
 ;
 JSObject
 *
-env
+env_
 ;
 }
 i
@@ -601,6 +601,15 @@ JSObject
 obj
 )
 ;
+inline
+void
+initEnvironment
+(
+JSObject
+*
+obj
+)
+;
 static
 inline
 size_t
@@ -616,7 +625,7 @@ u
 .
 i
 .
-env
+env_
 )
 ;
 }
