@@ -2213,17 +2213,6 @@ bool
 aDoContinue
 )
 ;
-nsresult
-GetAttributeToModifyOnNode
-(
-nsIDOMNode
-*
-aNode
-nsAString
-&
-aAttrib
-)
-;
 bool
 IsInLink
 (
