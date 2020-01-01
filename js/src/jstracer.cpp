@@ -15441,14 +15441,6 @@ if
 prop
 )
 {
-JS_ASSERT
-(
-aobj
-=
-=
-obj
-)
-;
 obj2
 =
 obj
