@@ -517,6 +517,13 @@ GetUsedPadding
 )
 const
 ;
+virtual
+nsMargin
+GetUsedMargin
+(
+)
+const
+;
 nsMargin
 GetChildAreaOffset
 (

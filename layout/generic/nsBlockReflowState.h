@@ -374,14 +374,6 @@ aLeftResult
 nscoord
 &
 aRightResult
-nsBlockFrame
-:
-:
-ReplacedElementWidthToClear
-*
-aReplacedWidth
-=
-nsnull
 )
 ;
 void
