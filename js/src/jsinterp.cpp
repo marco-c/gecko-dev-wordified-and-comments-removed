@@ -5847,6 +5847,13 @@ cx
 RESOLVE_INFER
 )
 ;
+if
+(
+interpMode
+=
+=
+JSINTERP_NORMAL
+)
 gc
 :
 :
