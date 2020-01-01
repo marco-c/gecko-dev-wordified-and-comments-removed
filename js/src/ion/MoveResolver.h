@@ -617,6 +617,11 @@ PendingMove
 last
 )
 ;
+void
+resetState
+(
+)
+;
 public
 :
 MoveResolver
