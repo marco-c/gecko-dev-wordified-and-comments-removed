@@ -2306,6 +2306,7 @@ Connected
 )
 {
 return
+true
 ;
 }
 }
@@ -2425,8 +2426,11 @@ SetIsPumpingMessages
 false
 )
 ;
+return
+true
+;
 }
-void
+bool
 RPCChannel
 :
 :
@@ -2473,6 +2477,7 @@ WaitForNotify
 )
 ;
 return
+true
 ;
 }
 MutexAutoUnlock
@@ -2503,6 +2508,7 @@ SpinInternalEventLoop
 )
 {
 return
+true
 ;
 }
 if
@@ -2513,6 +2519,7 @@ IsMessagePending
 )
 {
 return
+true
 ;
 }
 }
@@ -2703,6 +2710,7 @@ SpinInternalEventLoop
 )
 )
 return
+true
 ;
 if
 (
@@ -2711,6 +2719,7 @@ IsMessagePending
 )
 )
 return
+true
 ;
 windowHook
 =
@@ -2815,6 +2824,9 @@ SetIsPumpingMessages
 false
 )
 ;
+return
+true
+;
 }
 void
 SyncChannel
@@ -2869,9 +2881,6 @@ message
 )
 ;
 }
-return
-true
-;
 }
 void
 DeferredSendMessage
