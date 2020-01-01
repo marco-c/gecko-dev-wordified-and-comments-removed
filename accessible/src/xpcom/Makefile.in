@@ -442,10 +442,6 @@ nsAccEvent
 .
 cpp
 \
-nsAccessibleRelation
-.
-cpp
-\
 (
 NULL
 )

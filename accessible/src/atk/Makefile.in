@@ -553,6 +553,10 @@ nsHTMLTableAccessibleWrap
 .
 h
 \
+nsAccessibleRelationWrap
+.
+h
+\
 (
 NULL
 )
