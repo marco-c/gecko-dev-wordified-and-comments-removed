@@ -2814,6 +2814,8 @@ topsrcdir
 /
 xpcom
 /
+analysis
+/
 static
 -
 checking
