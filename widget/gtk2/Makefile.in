@@ -283,6 +283,10 @@ mozcontainer
 .
 h
 \
+gtk2compat
+.
+h
+\
 (
 NULL
 )
