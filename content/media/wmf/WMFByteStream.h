@@ -64,7 +64,7 @@ class
 MediaResource
 ;
 class
-AsyncReadRequest
+ReadRequest
 ;
 class
 WMFByteStream
@@ -268,7 +268,7 @@ ProcessReadRequest
 IMFAsyncResult
 *
 aResult
-AsyncReadRequest
+ReadRequest
 *
 aRequestState
 )
@@ -278,7 +278,7 @@ private
 nsresult
 Read
 (
-AsyncReadRequest
+ReadRequest
 *
 aRequestState
 )
