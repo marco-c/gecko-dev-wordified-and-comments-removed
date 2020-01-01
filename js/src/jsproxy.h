@@ -101,17 +101,6 @@ false
 ;
 }
 virtual
-Wrapper
-*
-toWrapper
-(
-)
-{
-return
-NULL
-;
-}
-virtual
 bool
 getPropertyDescriptor
 (
