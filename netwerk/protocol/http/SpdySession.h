@@ -133,6 +133,13 @@ RoomForMoreStreams
 (
 )
 ;
+void
+ReadTimeoutTick
+(
+PRIntervalTime
+now
+)
+;
 PRUint32
 RegisterStreamID
 (
