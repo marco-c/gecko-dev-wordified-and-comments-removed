@@ -977,6 +977,10 @@ null
 null
 )
 ;
+mLayerRendererInitialized
+=
+true
+;
 }
 ViewportMetrics
 metrics
