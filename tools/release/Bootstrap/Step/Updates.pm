@@ -943,7 +943,7 @@ config
 >
 Get
 (
-var
+sysvar
 =
 >
 '
