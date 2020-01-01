@@ -11017,8 +11017,9 @@ index
 obj
 -
 >
-setDenseArrayLength
+setArrayLength
 (
+cx
 index
 )
 ;
