@@ -153,6 +153,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 gfxContext
 .
 h
@@ -1801,6 +1808,10 @@ PR_TRUE
 return
 ;
 }
+{
+nsAutoScriptBlocker
+scriptBlocker
+;
 SetPainting
 (
 PR_TRUE
@@ -2004,6 +2015,7 @@ SetPainting
 PR_FALSE
 )
 ;
+}
 if
 (
 RootViewManager
