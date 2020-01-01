@@ -102,7 +102,7 @@ tabItem
 addSubscriber
 (
 "
-updated
+thumbnailUpdated
 "
 function
 onUpdated
@@ -114,7 +114,7 @@ tabItem
 removeSubscriber
 (
 "
-updated
+thumbnailUpdated
 "
 onUpdated
 )
@@ -145,7 +145,7 @@ cw
 .
 TabItems
 .
-update
+addToUpdateQueue
 (
 tab
 )

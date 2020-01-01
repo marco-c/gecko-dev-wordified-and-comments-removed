@@ -174,7 +174,7 @@ tabItem
 addSubscriber
 (
 "
-updated
+thumbnailUpdated
 "
 function
 onUpdated
@@ -186,7 +186,7 @@ tabItem
 removeSubscriber
 (
 "
-updated
+thumbnailUpdated
 "
 onUpdated
 )
@@ -195,9 +195,11 @@ tabItem
 .
 _testLastTabUpdateTime
 =
-tabItem
+Date
 .
-_lastTabUpdateTime
+now
+(
+)
 ;
 if
 (
@@ -223,7 +225,7 @@ cw
 .
 TabItems
 .
-update
+addToUpdateQueue
 (
 tabItem
 .

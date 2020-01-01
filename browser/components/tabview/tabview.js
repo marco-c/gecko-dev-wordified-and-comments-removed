@@ -539,6 +539,11 @@ trench
 js
 #
 include
+delayedTabQueue
+.
+js
+#
+include
 thumbnailStorage
 .
 js

@@ -430,7 +430,7 @@ tabItem
 addSubscriber
 (
 "
-updated
+thumbnailUpdated
 "
 function
 onUpdated
@@ -442,7 +442,7 @@ tabItem
 removeSubscriber
 (
 "
-updated
+thumbnailUpdated
 "
 onUpdated
 )
