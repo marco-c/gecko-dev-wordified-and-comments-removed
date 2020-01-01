@@ -9320,31 +9320,8 @@ nsWindow
 :
 OnContainerUnrealize
 (
-GtkWidget
-*
-aWidget
 )
 {
-NS_ASSERTION
-(
-mContainer
-=
-=
-MOZ_CONTAINER
-(
-aWidget
-)
-"
-unexpected
-\
-"
-unrealize
-\
-"
-signal
-"
-)
-;
 if
 (
 mGdkWindow
@@ -9378,9 +9355,6 @@ nsWindow
 :
 OnSizeAllocate
 (
-GtkWidget
-*
-aWidget
 GtkAllocation
 *
 aAllocation
@@ -9499,12 +9473,6 @@ nsWindow
 :
 OnDeleteEvent
 (
-GtkWidget
-*
-aWidget
-GdkEventAny
-*
-aEvent
 )
 {
 if
@@ -9526,9 +9494,6 @@ nsWindow
 :
 OnEnterNotifyEvent
 (
-GtkWidget
-*
-aWidget
 GdkEventCrossing
 *
 aEvent
@@ -9734,9 +9699,6 @@ nsWindow
 :
 OnLeaveNotifyEvent
 (
-GtkWidget
-*
-aWidget
 GdkEventCrossing
 *
 aEvent
@@ -9859,9 +9821,6 @@ nsWindow
 :
 OnMotionNotifyEvent
 (
-GtkWidget
-*
-aWidget
 GdkEventMotion
 *
 aEvent
@@ -10656,9 +10615,6 @@ nsWindow
 :
 OnButtonPressEvent
 (
-GtkWidget
-*
-aWidget
 GdkEventButton
 *
 aEvent
@@ -11015,9 +10971,6 @@ nsWindow
 :
 OnButtonReleaseEvent
 (
-GtkWidget
-*
-aWidget
 GdkEventButton
 *
 aEvent
@@ -11185,9 +11138,6 @@ nsWindow
 :
 OnContainerFocusInEvent
 (
-GtkWidget
-*
-aWidget
 GdkEventFocus
 *
 aEvent
@@ -11341,9 +11291,6 @@ nsWindow
 :
 OnContainerFocusOutEvent
 (
-GtkWidget
-*
-aWidget
 GdkEventFocus
 *
 aEvent
@@ -11766,9 +11713,6 @@ nsWindow
 :
 OnKeyPressEvent
 (
-GtkWidget
-*
-aWidget
 GdkEventKey
 *
 aEvent
@@ -12302,9 +12246,6 @@ nsWindow
 :
 OnKeyReleaseEvent
 (
-GtkWidget
-*
-aWidget
 GdkEventKey
 *
 aEvent
@@ -12398,9 +12339,6 @@ nsWindow
 :
 OnScrollEvent
 (
-GtkWidget
-*
-aWidget
 GdkEventScroll
 *
 aEvent
@@ -12652,9 +12590,6 @@ nsWindow
 :
 OnVisibilityNotifyEvent
 (
-GtkWidget
-*
-aWidget
 GdkEventVisibility
 *
 aEvent
@@ -21157,7 +21092,6 @@ window
 >
 OnContainerUnrealize
 (
-widget
 )
 ;
 }
@@ -21196,7 +21130,6 @@ window
 >
 OnSizeAllocate
 (
-widget
 allocation
 )
 ;
@@ -21237,8 +21170,6 @@ window
 >
 OnDeleteEvent
 (
-widget
-event
 )
 ;
 return
@@ -21284,7 +21215,6 @@ window
 >
 OnEnterNotifyEvent
 (
-widget
 event
 )
 ;
@@ -21402,7 +21332,6 @@ window
 >
 OnLeaveNotifyEvent
 (
-widget
 event
 )
 ;
@@ -21504,7 +21433,6 @@ window
 >
 OnMotionNotifyEvent
 (
-widget
 event
 )
 ;
@@ -21564,7 +21492,6 @@ window
 >
 OnButtonPressEvent
 (
-widget
 event
 )
 ;
@@ -21614,7 +21541,6 @@ window
 >
 OnButtonReleaseEvent
 (
-widget
 event
 )
 ;
@@ -21658,7 +21584,6 @@ window
 >
 OnContainerFocusInEvent
 (
-widget
 event
 )
 ;
@@ -21702,7 +21627,6 @@ window
 >
 OnContainerFocusOutEvent
 (
-widget
 event
 )
 ;
@@ -22525,7 +22449,6 @@ focusWindow
 >
 OnKeyPressEvent
 (
-widget
 event
 )
 ;
@@ -22593,7 +22516,6 @@ focusWindow
 >
 OnKeyReleaseEvent
 (
-widget
 event
 )
 ;
@@ -22635,7 +22557,6 @@ window
 >
 OnScrollEvent
 (
-widget
 event
 )
 ;
@@ -22682,7 +22603,6 @@ window
 >
 OnVisibilityNotifyEvent
 (
-widget
 event
 )
 ;
