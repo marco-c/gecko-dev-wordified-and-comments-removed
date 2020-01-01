@@ -9052,7 +9052,16 @@ maybeWasEmpty
 oldY
 =
 =
-oldYMost
+line
+.
+next
+(
+)
+-
+>
+mBounds
+.
+y
 ;
 PRBool
 isEmpty
