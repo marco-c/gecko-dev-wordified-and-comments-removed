@@ -332,5 +332,15 @@ nsXREAppData
 aAppData
 )
 )
+XRE_API
+(
+void
+XRE_SetAppDataFile
+(
+nsILocalFile
+*
+aINIFile
+)
+)
 #
 endif
