@@ -4781,6 +4781,18 @@ return
 false
 )
 ;
+JS_ASSERT
+(
+!
+cx
+-
+>
+compartment
+-
+>
+activeAnalysis
+)
+;
 Value
 *
 stackLimit
@@ -6830,6 +6842,7 @@ pcProfile
 )
 {
 AutoArenaAllocator
+alloc
 (
 &
 cx

@@ -1450,11 +1450,13 @@ f
 ;
 void
 JS_FASTCALL
-UndefinedHelper
+TypeBarrierHelper
 (
 VMFrame
 &
 f
+uint32
+which
 )
 ;
 void

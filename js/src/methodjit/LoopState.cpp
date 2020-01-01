@@ -5952,7 +5952,7 @@ branch32
 Assembler
 :
 :
-BelowOrEqual
+LessThanOrEqual
 T0
 T1
 )
@@ -5978,7 +5978,7 @@ branch32
 Assembler
 :
 :
-BelowOrEqual
+LessThanOrEqual
 T0
 Imm32
 (

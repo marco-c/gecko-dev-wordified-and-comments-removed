@@ -628,6 +628,17 @@ getSingleObject
 (
 )
 ;
+bool
+intermediate
+(
+)
+{
+return
+typeFlags
+&
+TYPE_FLAG_INTERMEDIATE_SET
+;
+}
 void
 setIntermediate
 (
@@ -847,7 +858,7 @@ onlyNullVoid
 )
 ;
 void
-addMonitorRead
+addSubsetBarrier
 (
 JSContext
 *
@@ -855,6 +866,10 @@ cx
 JSScript
 *
 script
+const
+jsbytecode
+*
+pc
 TypeSet
 *
 target

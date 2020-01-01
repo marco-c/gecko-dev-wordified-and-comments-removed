@@ -126,10 +126,6 @@ forGlobalName
 obj
 )
 {
-assertJit
-(
-)
-;
 var
 r
 =
@@ -162,10 +158,6 @@ forProp
 obj
 )
 {
-assertJit
-(
-)
-;
 var
 r
 =
@@ -211,10 +203,6 @@ obj
 x
 )
 {
-assertJit
-(
-)
-;
 var
 r
 =
@@ -262,10 +250,6 @@ forLocal
 obj
 )
 {
-assertJit
-(
-)
-;
 var
 r
 =
@@ -300,10 +284,6 @@ obj
 x
 )
 {
-assertJit
-(
-)
-;
 var
 r
 =
