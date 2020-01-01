@@ -12406,7 +12406,7 @@ newBase
 oldBase
 -
 >
-Equals
+EqualsExceptRef
 (
 newBase
 &
