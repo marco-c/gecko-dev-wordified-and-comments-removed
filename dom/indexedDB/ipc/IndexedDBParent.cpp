@@ -3798,16 +3798,6 @@ info
 (
 )
 ;
-nsTArray
-<
-nsString
->
-keyPathArray
-=
-info
-.
-keyPathArray
-;
 nsRefPtr
 <
 IDBIndex
@@ -3837,7 +3827,6 @@ mObjectStore
 CreateIndexInternal
 (
 info
-keyPathArray
 getter_AddRefs
 (
 index

@@ -184,6 +184,10 @@ Key
 .
 cpp
 \
+KeyPath
+.
+cpp
+\
 OpenDatabaseHelper
 .
 cpp
@@ -259,6 +263,10 @@ IndexedDatabaseManager
 h
 \
 Key
+.
+h
+\
+KeyPath
 .
 h
 \
