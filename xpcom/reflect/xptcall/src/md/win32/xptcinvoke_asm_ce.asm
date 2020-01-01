@@ -74,7 +74,7 @@ sub
 sp
 sp
 #
-16
+24
 mov
 r6
 r0
@@ -384,7 +384,7 @@ add
 sp
 sp
 #
-16
+24
 ldmia
 sp
 !
