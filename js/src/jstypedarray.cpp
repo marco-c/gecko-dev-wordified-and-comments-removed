@@ -11776,6 +11776,16 @@ setUndefined
 (
 )
 ;
+argv
+[
+1
+]
+.
+setMagic
+(
+JS_IS_CONSTRUCTING
+)
+;
 CallArgs
 proxyArgs
 =
