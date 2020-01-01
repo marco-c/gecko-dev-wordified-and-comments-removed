@@ -2500,17 +2500,6 @@ LOCAL_GL_FRAMEBUFFER
 gl
 -
 >
-fViewport
-(
-0
-0
-mWidth
-mHeight
-)
-;
-gl
--
->
 fClearColor
 (
 0
