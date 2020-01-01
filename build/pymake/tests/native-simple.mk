@@ -10,6 +10,9 @@ testfile
 {
 testfile2
 }
+(
+testfile3
+)
 test
 -
 f
@@ -20,6 +23,14 @@ f
 {
 testfile2
 }
+test
+-
+f
+"
+(
+testfile3
+)
+"
 echo
 TEST
 -
@@ -28,7 +39,12 @@ testfile
 {
 testfile2
 }
+(
+testfile3
+)
 :
 (
 TOUCH
 )
+"
+"
