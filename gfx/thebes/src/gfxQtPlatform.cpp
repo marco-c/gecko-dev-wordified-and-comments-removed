@@ -471,15 +471,6 @@ case
 :
 mRenderMode
 =
-RENDER_XLIB
-;
-break
-;
-case
-2
-:
-mRenderMode
-=
 RENDER_SHARED_IMAGE
 ;
 break
