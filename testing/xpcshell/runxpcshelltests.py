@@ -154,7 +154,7 @@ testdirs
 xrePath
 =
 None
-testFile
+testPath
 =
 None
              
@@ -201,20 +201,24 @@ use
 .
   
 |
-testFile
+testPath
 |
 if
 provided
 indicates
 a
 single
+path
+and
+/
+or
 test
 to
 run
 .
   
 |
-manifeest
+manifest
 |
 if
 provided
@@ -689,14 +693,28 @@ _execute_test
 '
 ]
   
-singleDir
+singleFile
 =
 None
   
 if
-testFile
-and
-testFile
+testPath
+:
+    
+if
+testPath
+.
+endswith
+(
+'
+.
+js
+'
+)
+:
+      
+if
+testPath
 .
 find
 (
@@ -704,37 +722,62 @@ find
 /
 '
 )
-!
+=
 =
 -
 1
 :
-    
-bits
+        
+singleFile
 =
-testFile
+testPath
+        
+testPath
+=
+None
+      
+else
+:
+        
+testPath
+=
+testPath
 .
-split
+rsplit
 (
 '
 /
 '
 1
 )
-    
-singleDir
+        
+singleFile
 =
-bits
+testPath
+[
+1
+]
+        
+testPath
+=
+testPath
 [
 0
 ]
     
-testFile
+else
+:
+      
+testPath
 =
-bits
-[
-1
-]
+testPath
+.
+rstrip
+(
+"
+/
+"
+)
   
 if
 manifest
@@ -768,18 +811,14 @@ testdirs
 :
     
 if
-singleDir
+testPath
 and
-singleDir
-!
-=
-os
-.
-path
-.
-basename
-(
+not
 testdir
+.
+endswith
+(
+testPath
 )
 :
       
@@ -924,11 +963,11 @@ js
 )
     
 if
-testFile
+singleFile
 :
       
 if
-testFile
+singleFile
 in
 [
 os
@@ -956,7 +995,7 @@ path
 join
 (
 testdir
-testFile
+singleFile
 )
 ]
       
@@ -1296,6 +1335,8 @@ add_option
 -
 -
 test
+-
+path
 "
                     
 action
@@ -1311,7 +1352,7 @@ string
 dest
 =
 "
-testFile
+testPath
 "
                     
 default
@@ -1321,6 +1362,10 @@ help
 =
 "
 single
+path
+and
+/
+or
 test
 filename
 to
@@ -1526,7 +1571,7 @@ and
 not
 options
 .
-testFile
+testPath
 :
     
 print
@@ -1579,11 +1624,11 @@ options
 .
 xrePath
                   
-testFile
+testPath
 =
 options
 .
-testFile
+testPath
                   
 interactive
 =
