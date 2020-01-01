@@ -21216,6 +21216,9 @@ height
 4px
 ;
 }
+html
+|
+*
 #
 highlighter
 -
@@ -21228,6 +21231,9 @@ color
 white
 ;
 }
+html
+|
+*
 #
 highlighter
 -
@@ -21247,12 +21253,10 @@ hsl
 )
 ;
 }
-.
+#
 highlighter
 -
 nodeinfobar
--
-class
 {
 color
 :
@@ -21265,12 +21269,6 @@ hsl
 %
 )
 ;
-}
-#
-highlighter
--
-nodeinfobar
-{
 border
 :
 1px
