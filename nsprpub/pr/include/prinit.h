@@ -47,7 +47,7 @@ PR_VERSION
 .
 8
 .
-1
+2
 "
 #
 define
@@ -60,7 +60,7 @@ PR_VMINOR
 #
 define
 PR_VPATCH
-1
+2
 #
 define
 PR_BETA
