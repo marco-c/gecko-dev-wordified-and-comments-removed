@@ -1122,6 +1122,16 @@ aMode
 nsSizeMode_Maximized
 ;
 }
+if
+(
+aMode
+=
+=
+nsSizeMode_Minimized
+)
+return
+NS_OK
+;
 #
 endif
 rv
