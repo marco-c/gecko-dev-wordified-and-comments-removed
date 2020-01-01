@@ -122,6 +122,10 @@ mStartOfChunk
 (
 false
 )
+mAngleImplied
+(
+false
+)
 {
 }
 CharPosition
@@ -157,6 +161,10 @@ mRunBoundary
 false
 )
 mStartOfChunk
+(
+false
+)
+mAngleImplied
 (
 false
 )
@@ -260,6 +268,9 @@ mRunBoundary
 ;
 bool
 mStartOfChunk
+;
+bool
+mAngleImplied
 ;
 private
 :
