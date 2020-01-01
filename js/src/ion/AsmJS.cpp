@@ -28826,6 +28826,9 @@ RetType
 :
 Double
 :
+#
+ifndef
+JS_CPU_ARM_HARDFP
 masm
 .
 ma_vxfer
@@ -28835,6 +28838,8 @@ r1
 d0
 )
 ;
+#
+endif
 masm
 .
 canonicalizeDouble
