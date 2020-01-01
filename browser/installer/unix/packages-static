@@ -302,6 +302,11 @@ bin
 README
 .
 txt
+bin
+/
+blocklist
+.
+xml
 ;
 [
 Components

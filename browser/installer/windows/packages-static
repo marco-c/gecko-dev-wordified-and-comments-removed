@@ -322,6 +322,11 @@ bin
 sqlite3
 .
 dll
+bin
+\
+blocklist
+.
+xml
 ;
 [
 Components
