@@ -2133,7 +2133,7 @@ if
 sha512
 "
 .
-equals
+equalsIgnoreCase
 (
 hashFunction
 )
