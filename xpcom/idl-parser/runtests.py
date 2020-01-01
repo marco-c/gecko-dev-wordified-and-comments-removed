@@ -1,4 +1,6 @@
 import
+mozunit
+import
 unittest
 import
 xpidl
@@ -1037,7 +1039,7 @@ __main__
 '
 :
     
-unittest
+mozunit
 .
 main
 (
