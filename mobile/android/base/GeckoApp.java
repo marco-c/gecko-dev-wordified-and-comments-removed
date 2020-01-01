@@ -743,14 +743,6 @@ LaunchState
 .
 Launching
 ;
-ActivityHandlerHelper
-mActivityHelper
-=
-new
-ActivityHandlerHelper
-(
-)
-;
 abstract
 public
 int
@@ -16787,7 +16779,9 @@ aUrl
 int
 requestCode
 =
-mActivityHelper
+GeckoAppShell
+.
+sActivityHelper
 .
 makeRequestCodeForAwesomebar
 (
@@ -17041,7 +17035,9 @@ data
 if
 (
 !
-mActivityHelper
+GeckoAppShell
+.
+sActivityHelper
 .
 handleActivityResult
 (
