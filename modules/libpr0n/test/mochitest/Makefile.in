@@ -707,6 +707,12 @@ gif
 .
 gif
 \
+animated
+-
+gif2
+.
+gif
+\
 test_svg_animatedGIF
 .
 html
@@ -736,6 +742,10 @@ html
 test_xultree_animation
 .
 xhtml
+\
+test_changeOfSource
+.
+html
 \
 (
 NULL
