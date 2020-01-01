@@ -234,6 +234,9 @@ this
 document
 .
 defaultView
+maintainSelectionVisible
+:
+true
 sortedGroups
 :
 true
@@ -254,6 +257,13 @@ aGroup
 "
 )
 {
+if
+(
+this
+.
+maintainSelectionVisible
+)
+{
 this
 .
 ensureSelectionIsVisible
@@ -262,6 +272,7 @@ true
 true
 )
 ;
+}
 let
 group
 =
