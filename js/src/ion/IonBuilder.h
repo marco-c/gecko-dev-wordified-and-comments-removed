@@ -1782,6 +1782,15 @@ constructing
 )
 ;
 InliningStatus
+inlineStringObject
+(
+uint32
+argc
+bool
+constructing
+)
+;
+InliningStatus
 inlineStrCharCodeAt
 (
 uint32

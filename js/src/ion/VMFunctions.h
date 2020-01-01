@@ -2503,6 +2503,17 @@ HeapSlot
 slots
 )
 ;
+JSObject
+*
+NewStringObject
+(
+JSContext
+*
+cx
+HandleString
+str
+)
+;
 bool
 SPSEnter
 (
