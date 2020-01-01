@@ -3023,17 +3023,6 @@ body
 [
 CDATA
 [
-if
-(
-this
-.
-mController
-.
-input
-!
-=
-this
-)
 this
 .
 mController
