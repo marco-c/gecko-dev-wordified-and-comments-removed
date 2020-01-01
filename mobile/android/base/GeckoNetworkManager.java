@@ -453,6 +453,8 @@ return
 0
 ;
 }
+try
+{
 WifiManager
 mgr
 =
@@ -496,6 +498,17 @@ d
 .
 gateway
 ;
+}
+catch
+(
+Exception
+ex
+)
+{
+return
+0
+;
+}
 }
 private
 void
