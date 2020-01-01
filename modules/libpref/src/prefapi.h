@@ -18,7 +18,7 @@ pldhash
 .
 h
 "
-NSPR_BEGIN_EXTERN_C
+PR_BEGIN_EXTERN_C
 typedef
 union
 {
@@ -332,6 +332,6 @@ PRBool
 isDefault
 )
 ;
-NSPR_END_EXTERN_C
+PR_END_EXTERN_C
 #
 endif
