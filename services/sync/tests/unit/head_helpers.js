@@ -90,7 +90,9 @@ ProfD
 "
 :
 return
-ds
+Services
+.
+dirsvc
 .
 get
 (
