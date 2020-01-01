@@ -1598,6 +1598,13 @@ components
 nsContentDispatchChooser
 .
 js
+bin
+/
+components
+/
+nsHandlerService
+.
+js
 ;
 Modules
 bin
