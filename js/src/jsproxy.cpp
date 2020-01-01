@@ -1501,6 +1501,13 @@ Value
 fvalp
 )
 {
+JS_CHECK_RECURSION
+(
+cx
+return
+false
+)
+;
 return
 handler
 -
@@ -1518,7 +1525,7 @@ fvalp
 }
 static
 bool
-FundamentalTrap
+GetFundamentalTrap
 (
 JSContext
 *
@@ -1581,7 +1588,7 @@ true
 }
 static
 bool
-DerivedTrap
+GetDerivedTrap
 (
 JSContext
 *
@@ -2690,7 +2697,7 @@ cx
 )
 ;
 return
-FundamentalTrap
+GetFundamentalTrap
 (
 cx
 handler
@@ -2790,7 +2797,7 @@ cx
 )
 ;
 return
-FundamentalTrap
+GetFundamentalTrap
 (
 cx
 handler
@@ -2896,7 +2903,7 @@ cx
 )
 ;
 return
-FundamentalTrap
+GetFundamentalTrap
 (
 cx
 handler
@@ -2982,7 +2989,7 @@ cx
 )
 ;
 return
-FundamentalTrap
+GetFundamentalTrap
 (
 cx
 handler
@@ -3065,7 +3072,7 @@ cx
 )
 ;
 return
-FundamentalTrap
+GetFundamentalTrap
 (
 cx
 handler
@@ -3145,7 +3152,7 @@ cx
 )
 ;
 return
-FundamentalTrap
+GetFundamentalTrap
 (
 cx
 handler
@@ -3220,7 +3227,7 @@ proxy
 )
 ;
 return
-FundamentalTrap
+GetFundamentalTrap
 (
 cx
 handler
@@ -3282,7 +3289,7 @@ cx
 if
 (
 !
-DerivedTrap
+GetDerivedTrap
 (
 cx
 handler
@@ -3393,7 +3400,7 @@ cx
 if
 (
 !
-DerivedTrap
+GetDerivedTrap
 (
 cx
 handler
@@ -3555,7 +3562,7 @@ cx
 if
 (
 !
-DerivedTrap
+GetDerivedTrap
 (
 cx
 handler
@@ -3705,7 +3712,7 @@ cx
 if
 (
 !
-DerivedTrap
+GetDerivedTrap
 (
 cx
 handler
@@ -3804,7 +3811,7 @@ cx
 if
 (
 !
-DerivedTrap
+GetDerivedTrap
 (
 cx
 handler
@@ -3915,7 +3922,7 @@ cx
 if
 (
 !
-DerivedTrap
+GetDerivedTrap
 (
 cx
 handler
