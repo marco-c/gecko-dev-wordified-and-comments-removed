@@ -6814,6 +6814,16 @@ obj_proto
 return
 NULL
 ;
+if
+(
+!
+fun_proto
+-
+>
+getProto
+(
+)
+)
 fun_proto
 -
 >
