@@ -3950,14 +3950,75 @@ False
 )
 ]
 def
-callForEachType
+getAllTypes
 (
 descriptors
 dictionaries
 callbacks
-func
 )
 :
+    
+"
+"
+"
+    
+Generate
+all
+the
+types
+we
+'
+re
+dealing
+with
+.
+For
+each
+type
+a
+tuple
+    
+containing
+type
+descriptor
+dictionary
+is
+yielded
+.
+The
+    
+descriptor
+and
+dictionary
+can
+be
+None
+if
+the
+type
+does
+not
+come
+    
+from
+a
+descriptor
+or
+dictionary
+;
+they
+will
+never
+both
+be
+non
+-
+None
+.
+    
+"
+"
+"
     
 for
 d
@@ -3986,12 +4047,11 @@ d
 )
 :
             
-func
+yield
 (
 t
-descriptor
-=
 d
+None
 )
     
 for
@@ -4009,11 +4069,10 @@ dictionary
 )
 :
             
-func
+yield
 (
 t
-dictionary
-=
+None
 dictionary
 )
     
@@ -4032,9 +4091,11 @@ callback
 )
 :
             
-func
+yield
 (
 t
+None
+None
 )
 class
 CGHeaders
@@ -4366,13 +4427,11 @@ declareIncludes
 def
 addHeadersForType
 (
+(
 t
 descriptor
-=
-None
 dictionary
-=
-None
+)
 )
 :
             
@@ -4750,7 +4809,11 @@ add
 filename
 )
         
-callForEachType
+map
+(
+addHeadersForType
+            
+getAllTypes
 (
 descriptors
 +
@@ -4758,7 +4821,7 @@ callbackDescriptors
 dictionaries
                         
 callbacks
-addHeadersForType
+)
 )
         
 for
@@ -5441,13 +5504,11 @@ dict
 def
 addInfoForType
 (
+(
 t
 descriptor
-=
-None
 dictionary
-=
-None
+)
 )
 :
         
@@ -5742,12 +5803,15 @@ inner
 )
 )
     
-callForEachType
+map
+(
+addInfoForType
+getAllTypes
 (
 descriptors
 dictionaries
 callbacks
-addInfoForType
+)
 )
     
 return
@@ -5824,13 +5888,11 @@ dict
 def
 addInfoForType
 (
+(
 t
 descriptor
-=
-None
 dictionary
-=
-None
+)
 )
 :
         
@@ -6037,12 +6099,15 @@ inner
 )
 )
     
-callForEachType
+map
+(
+addInfoForType
+getAllTypes
 (
 descriptors
 dictionaries
 callbacks
-addInfoForType
+)
 )
     
 return
@@ -67382,13 +67447,7 @@ False
 def
 checkForXPConnectImpls
 (
-type
-descriptor
-=
-None
-dictionary
-=
-None
+typeInfo
 )
 :
             
@@ -67402,6 +67461,14 @@ value
 :
                 
 return
+            
+(
+type
+_
+_
+)
+=
+typeInfo
             
 type
 =
@@ -67464,7 +67531,11 @@ typeDesc
 .
 hasXPConnectImpls
         
-callForEachType
+map
+(
+checkForXPConnectImpls
+            
+getAllTypes
 (
 descriptors
 +
@@ -67472,7 +67543,7 @@ callbackDescriptors
 dictionaries
                         
 mainCallbacks
-checkForXPConnectImpls
+)
 )
         
 cgthings
