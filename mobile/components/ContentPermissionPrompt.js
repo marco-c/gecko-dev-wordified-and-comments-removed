@@ -229,6 +229,13 @@ indexedDBQuota
 "
 indexedDBQuota
 "
+"
+openWebappsManage
+"
+:
+"
+openWebappsManage
+"
 }
 ;
 function
