@@ -268,6 +268,17 @@ UpdateOverflow
 )
 MOZ_OVERRIDE
 ;
+protected
+:
+static
+void
+ReflowSVGNonDisplayText
+(
+nsIFrame
+*
+aContainer
+)
+;
 }
 ;
 class
