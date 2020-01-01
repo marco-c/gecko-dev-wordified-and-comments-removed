@@ -2066,7 +2066,7 @@ F
 map
 endif
 #
-LIBRARY_NAME
+SHARED_LIBRARY_NAME
 endif
 #
 MOZ_MAPINFO
@@ -6062,7 +6062,7 @@ pgomerge
 py
 \
 (
-LIBRARY_NAME
+SHARED_LIBRARY_NAME
 )
 (
 DIST
