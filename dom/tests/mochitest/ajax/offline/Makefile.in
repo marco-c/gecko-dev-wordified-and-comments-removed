@@ -721,6 +721,14 @@ test_xhtmlManifest
 .
 xhtml
 \
+test_missingManifest
+.
+html
+\
+missing
+.
+html
+\
 (
 NULL
 )
