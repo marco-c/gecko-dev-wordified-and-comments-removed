@@ -7573,7 +7573,7 @@ JS_ASSERT
 !
 IsCrossCompartmentWrapper
 (
-origwrapper
+targetobj
 )
 )
 ;
@@ -7582,7 +7582,7 @@ JS_ASSERT
 !
 IsCrossCompartmentWrapper
 (
-origwrapper
+targetwrapper
 )
 )
 ;
