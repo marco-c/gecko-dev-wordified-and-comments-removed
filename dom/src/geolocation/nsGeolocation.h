@@ -319,9 +319,6 @@ PRPackedBool
 mCleared
 ;
 PRPackedBool
-mIsFirstUpdate
-;
-PRPackedBool
 mIsWatchPositionRequest
 ;
 nsCOMPtr
