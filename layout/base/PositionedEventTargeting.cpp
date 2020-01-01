@@ -97,7 +97,7 @@ EventRadiusPrefs
 *
 GetPrefsFor
 (
-uint8_t
+nsEventStructType
 aEventStructType
 )
 {
@@ -1183,7 +1183,7 @@ nsIFrame
 *
 FindFrameTargetedByInputEvent
 (
-uint8_t
+nsEventStructType
 aEventStructType
 nsIFrame
 *

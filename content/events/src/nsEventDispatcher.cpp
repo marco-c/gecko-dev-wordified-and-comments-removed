@@ -3410,7 +3410,8 @@ aEvent
 )
 )
 ;
-}
+default
+:
 return
 NS_NewDOMEvent
 (
@@ -3419,6 +3420,7 @@ aPresContext
 aEvent
 )
 ;
+}
 }
 if
 (
