@@ -379,10 +379,10 @@ indexOf
 "
 feedback
 "
+)
 >
 -
 1
-)
 |
 |
 path
@@ -392,10 +392,10 @@ indexOf
 "
 happy
 "
+)
 >
 -
 1
-)
 |
 |
 path
@@ -405,10 +405,10 @@ indexOf
 "
 sad
 "
+)
 >
 -
 1
-)
 )
 {
 return
