@@ -5807,7 +5807,6 @@ nsIURI
 uri
 ;
 rv
-|
 =
 NS_NewURI
 (
@@ -5818,11 +5817,18 @@ uri
 url
 )
 ;
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+)
+{
 PRInt64
 id
 ;
 rv
-|
 =
 aBookmarksService
 -
@@ -5843,6 +5849,7 @@ title
 id
 )
 ;
+}
 }
 }
 }

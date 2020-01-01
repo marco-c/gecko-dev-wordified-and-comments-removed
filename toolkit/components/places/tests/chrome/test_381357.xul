@@ -571,13 +571,6 @@ newIndex
 }
 }
 ;
-var
-root
-=
-bmsvc
-.
-bookmarksRoot
-;
 const
 FEEDSPEC
 =

@@ -195,7 +195,7 @@ createLivemarkFolderOnly
 (
 bs
 .
-bookmarksToolbarId
+toolbarFolder
 "
 Livemark
 "
