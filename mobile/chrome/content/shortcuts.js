@@ -2500,6 +2500,10 @@ modificationListener
 true
 )
 ;
+fillShortcutList
+(
+)
+;
 }
 ;
 function
@@ -2570,6 +2574,13 @@ function
 (
 )
 {
+if
+(
+!
+tree
+)
+return
+;
 hack
 (
 )
@@ -2857,6 +2868,9 @@ catch
 e
 )
 {
+return
+null
+;
 }
 }
 }
@@ -3671,7 +3685,7 @@ exists
 true
 modifiers
 :
-2
+0
 key
 :
 "
