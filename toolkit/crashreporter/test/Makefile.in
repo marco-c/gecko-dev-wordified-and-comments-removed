@@ -417,6 +417,12 @@ config
 autoconf
 .
 mk
+MODULE
+=
+crashreporter
+XPCSHELL_TESTS
+=
+unit
 ifndef
 MOZ_ENABLE_LIBXUL
 PROGRAM
