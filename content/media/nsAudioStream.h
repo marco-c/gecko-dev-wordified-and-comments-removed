@@ -114,7 +114,7 @@ void
 *
 aBuf
 PRUint32
-aCount
+aFrames
 )
 =
 0
@@ -171,7 +171,7 @@ GetPosition
 ;
 virtual
 PRInt64
-GetSampleOffset
+GetPositionInFrames
 (
 )
 =
@@ -187,7 +187,7 @@ IsPaused
 ;
 virtual
 PRInt32
-GetMinWriteSamples
+GetMinWriteSize
 (
 )
 =

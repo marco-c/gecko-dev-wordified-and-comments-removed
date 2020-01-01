@@ -814,6 +814,8 @@ Available
 (
 )
 dataLength
+/
+mChannels
 )
 ;
 nsresult
@@ -847,6 +849,8 @@ rv
 aRetVal
 =
 writeLen
+*
+mChannels
 ;
 return
 rv
@@ -879,9 +883,11 @@ aRetVal
 mAudioStream
 -
 >
-GetSampleOffset
+GetPositionInFrames
 (
 )
+*
+mChannels
 ;
 return
 NS_OK

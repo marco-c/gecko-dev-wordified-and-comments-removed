@@ -1576,7 +1576,7 @@ pcm
 0
 ;
 PRInt32
-samples
+frames
 =
 0
 ;
@@ -1591,7 +1591,7 @@ mInfo
 channels
 ;
 ogg_int64_t
-endSample
+endFrame
 =
 aPacket
 -
@@ -1601,7 +1601,7 @@ granulepos
 while
 (
 (
-samples
+frames
 =
 vorbis_synthesis_pcmout
 (
@@ -1624,7 +1624,7 @@ mVorbisState
 ValidateVorbisPacketSamples
 (
 aPacket
-samples
+frames
 )
 ;
 nsAutoArrayPtr
@@ -1636,7 +1636,7 @@ buffer
 new
 AudioDataValue
 [
-samples
+frames
 *
 channels
 ]
@@ -1678,7 +1678,7 @@ i
 <
 PRUint32
 (
-samples
+frames
 )
 ;
 +
@@ -1716,7 +1716,7 @@ Time
 (
 PRInt64
 )
-samples
+frames
 )
 ;
 PRInt64
@@ -1727,9 +1727,9 @@ mVorbisState
 >
 Time
 (
-endSample
+endFrame
 -
-samples
+frames
 )
 ;
 mAudioQueue
@@ -1742,7 +1742,7 @@ AudioData
 mPageOffset
 startTime
 duration
-samples
+frames
 buffer
 .
 forget
@@ -1752,10 +1752,10 @@ channels
 )
 )
 ;
-endSample
+endFrame
 -
 =
-samples
+frames
 ;
 if
 (
@@ -1766,7 +1766,7 @@ mVorbisState
 -
 >
 mDsp
-samples
+frames
 )
 !
 =

@@ -177,7 +177,7 @@ aTime
 const
 ;
 PRInt64
-RoundDownToSample
+RoundDownToFrame
 (
 PRInt64
 aBytes
@@ -201,7 +201,7 @@ PRUint32
 mChannels
 ;
 PRUint32
-mSampleSize
+mFrameSize
 ;
 nsAudioStream
 :

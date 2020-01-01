@@ -604,7 +604,7 @@ PRInt64
 mAudioStartUsec
 ;
 PRUint64
-mAudioSamples
+mAudioFrames
 ;
 nsRefPtr
 <

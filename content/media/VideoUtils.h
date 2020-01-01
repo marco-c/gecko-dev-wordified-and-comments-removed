@@ -223,10 +223,10 @@ aResult
 )
 ;
 PRBool
-SamplesToUsecs
+FramesToUsecs
 (
 PRInt64
-aSamples
+aFrames
 PRUint32
 aRate
 PRInt64
@@ -235,7 +235,7 @@ aOutUsecs
 )
 ;
 PRBool
-UsecsToSamples
+UsecsToFrames
 (
 PRInt64
 aUsecs
@@ -243,7 +243,7 @@ PRUint32
 aRate
 PRInt64
 &
-aOutSamples
+aOutFrames
 )
 ;
 static
