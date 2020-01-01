@@ -3511,6 +3511,11 @@ index
 NPVariant
 result
 ;
+VOID_TO_NPVARIANT
+(
+result
+)
+;
 bool
 success
 =
@@ -3853,6 +3858,11 @@ index
 }
 NPVariant
 result
+;
+VOID_TO_NPVARIANT
+(
+result
+)
 ;
 bool
 success
@@ -4246,6 +4256,11 @@ true
 }
 NPVariant
 result
+;
+VOID_TO_NPVARIANT
+(
+result
+)
 ;
 if
 (
@@ -5077,6 +5092,11 @@ index
 }
 NPVariant
 result
+;
+VOID_TO_NPVARIANT
+(
+result
+)
 ;
 bool
 success
