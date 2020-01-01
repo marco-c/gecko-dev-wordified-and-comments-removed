@@ -640,27 +640,6 @@ d
 '
 )
                     
-elif
-name
-=
-=
-'
-mjit
-'
-:
-                        
-test
-.
-jitflags
-.
-append
-(
-'
--
-m
-'
-)
-                    
 else
 :
                         
@@ -3821,17 +3800,6 @@ append
 new_test
 )
     
-shell_args
-=
-shlex
-.
-split
-(
-OPTIONS
-.
-shell_args
-)
-    
 if
 OPTIONS
 .
@@ -3918,7 +3886,6 @@ tc
 .
 jitflags
 lib_dir
-shell_args
 )
         
 call
@@ -3930,6 +3897,17 @@ sys
 .
 exit
 (
+)
+    
+shell_args
+=
+shlex
+.
+split
+(
+OPTIONS
+.
+shell_args
 )
     
 try

@@ -13428,11 +13428,9 @@ script
 fun
 -
 >
-u
-.
-i
-.
 script
+(
+)
 ;
 jsbytecode
 *

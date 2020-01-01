@@ -21234,11 +21234,9 @@ uva
 fun
 -
 >
-u
-.
-i
-.
 script
+(
+)
 -
 >
 upvars

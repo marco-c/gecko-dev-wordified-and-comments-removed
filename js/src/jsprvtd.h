@@ -600,6 +600,7 @@ char
 filename
 uintN
 lineno
+const
 jschar
 *
 str
