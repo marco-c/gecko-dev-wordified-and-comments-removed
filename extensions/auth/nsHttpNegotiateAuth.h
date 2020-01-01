@@ -47,6 +47,14 @@ pref
 )
 ;
 bool
+TestNonFqdn
+(
+nsIURI
+*
+uri
+)
+;
+bool
 TestPref
 (
 nsIURI
