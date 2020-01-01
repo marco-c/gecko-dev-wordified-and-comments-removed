@@ -18951,6 +18951,11 @@ TypedArrayElement
 )
 ;
 }
+void
+computeRange
+(
+)
+;
 }
 ;
 class
