@@ -544,6 +544,17 @@ sender
 (
 void
 )
+insertBacktab
+:
+(
+id
+)
+sender
+;
+-
+(
+void
+)
 setEnabled
 :
 (
