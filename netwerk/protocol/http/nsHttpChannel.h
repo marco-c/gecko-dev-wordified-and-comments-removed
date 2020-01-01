@@ -182,8 +182,6 @@ public
 nsIApplicationCacheChannel
 public
 nsIAsyncVerifyRedirectCallback
-public
-nsIHttpChannelParentInternal
 {
 public
 :
@@ -201,7 +199,6 @@ NS_DECL_NSITRACEABLECHANNEL
 NS_DECL_NSIAPPLICATIONCACHECONTAINER
 NS_DECL_NSIAPPLICATIONCACHECHANNEL
 NS_DECL_NSIASYNCVERIFYREDIRECTCALLBACK
-NS_DECL_NSIHTTPCHANNELPARENTINTERNAL
 NS_IMETHOD
 GetIsSSL
 (
@@ -427,6 +424,18 @@ const
 {
 return
 mResponseHead
+;
+}
+void
+SetRemoteChannel
+(
+bool
+aRemote
+)
+{
+mRemoteChannel
+=
+aRemote
 ;
 }
 void
