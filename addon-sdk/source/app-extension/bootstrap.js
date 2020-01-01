@@ -1331,11 +1331,6 @@ resultFile
 options
 .
 resultFile
-logFile
-:
-options
-.
-logFile
 staticArgs
 :
 options

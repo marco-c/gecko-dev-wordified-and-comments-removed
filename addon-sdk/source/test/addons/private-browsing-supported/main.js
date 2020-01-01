@@ -24,7 +24,7 @@ app
 =
 require
 (
-"
+'
 sdk
 /
 system
@@ -32,7 +32,7 @@ system
 xul
 -
 app
-"
+'
 )
 ;
 const
@@ -140,9 +140,9 @@ app
 .
 is
 (
-"
+'
 Fennec
-"
+'
 )
 )
 merge

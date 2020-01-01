@@ -143,7 +143,7 @@ promise
 ;
 const
 {
-clearHistory
+resetPlaces
 }
 =
 require
@@ -1194,7 +1194,7 @@ function
 (
 )
 {
-clearHistory
+resetPlaces
 (
 (
 )

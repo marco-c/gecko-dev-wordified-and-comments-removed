@@ -19,6 +19,7 @@ unstable
 ;
 const
 {
+setImmediate
 setTimeout
 }
 =
@@ -101,10 +102,9 @@ function
 deferred
 (
 )
-setTimeout
+setImmediate
 (
 invoke
-0
 f
 arguments
 this

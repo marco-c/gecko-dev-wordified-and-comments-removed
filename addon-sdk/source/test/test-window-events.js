@@ -361,6 +361,8 @@ bug
 require
 (
 "
+sdk
+/
 test
 "
 )
