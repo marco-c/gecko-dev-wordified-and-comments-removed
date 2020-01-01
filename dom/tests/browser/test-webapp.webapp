@@ -62,11 +62,11 @@ contacts
 :
 {
 "
-description
+access
 "
 :
 "
-contacts
+readwrite
 "
 }
 "
@@ -79,11 +79,11 @@ apps
 :
 {
 "
-description
+access
 "
 :
 "
-storage
+readonly
 "
 }
 }

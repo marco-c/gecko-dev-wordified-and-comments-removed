@@ -37,9 +37,6 @@ expected
 [
 "
 contacts
-"
-"
-contacts
 -
 read
 "
@@ -69,9 +66,6 @@ expected
 [
 "
 settings
-"
-"
-settings
 -
 read
 "
@@ -79,13 +73,6 @@ read
 settings
 -
 write
-"
-"
-indexedDB
--
-chrome
--
-settings
 "
 "
 indexedDB
@@ -113,9 +100,6 @@ permission
 "
 storage
 "
-access
-:
-READWRITE
 expected
 :
 [
