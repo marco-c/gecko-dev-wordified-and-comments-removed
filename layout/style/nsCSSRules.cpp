@@ -637,7 +637,7 @@ nsISupports
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
-CSSGroupRuleRuleList
+CSSRuleList
 )
 NS_INTERFACE_MAP_END
 NS_IMPL_ADDREF
@@ -743,14 +743,6 @@ nullptr
 }
 }
 }
-DOMCI_DATA
-(
-CSSGroupRuleRuleList
-css
-:
-:
-GroupRuleRuleList
-)
 DOMCI_DATA
 (
 CSSCharsetRule
