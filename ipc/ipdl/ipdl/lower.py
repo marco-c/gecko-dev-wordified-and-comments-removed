@@ -23859,6 +23859,16 @@ PayloadError
 )
 )
         
+idvar
+saveIdStmts
+=
+self
+.
+saveActorId
+(
+md
+)
+        
 case
 .
 addstmts
@@ -23958,6 +23968,9 @@ NL
 ]
             
 +
+saveIdStmts
+            
++
 self
 .
 invokeRecvHandler
@@ -23972,6 +23985,7 @@ makeReply
 (
 md
 errfnRecv
+idvar
 )
             
 +
@@ -24055,12 +24069,13 @@ PayloadError
 )
         
 idvar
+saveIdStmts
 =
-ExprVar
+self
+.
+saveActorId
 (
-'
-__id
-'
+md
 )
         
 case
@@ -24129,28 +24144,7 @@ NL
 ]
             
 +
-[
-StmtDecl
-(
-Decl
-(
-_actorIdType
-(
-)
-idvar
-.
-name
-)
-                         
-self
-.
-protocol
-.
-routingId
-(
-)
-)
-]
+saveIdStmts
             
 +
 self
@@ -24270,6 +24264,16 @@ PayloadError
 )
 )
         
+idvar
+saveIdStmts
+=
+self
+.
+saveActorId
+(
+md
+)
+        
 case
 .
 addstmts
@@ -24318,6 +24322,9 @@ returns
 ]
             
 +
+saveIdStmts
+            
++
 self
 .
 invokeRecvHandler
@@ -24339,6 +24346,9 @@ makeReply
 (
 md
 errfnRecv
+routingId
+=
+idvar
 )
             
 +
@@ -24600,19 +24610,18 @@ self
 md
 errfn
 routingId
-=
-None
 )
 :
         
 if
+not
 md
 .
 decl
 .
 type
 .
-isAsync
+hasReply
 (
 )
 :
@@ -26149,6 +26158,72 @@ stderr
 )
 ]
 )
+    
+def
+saveActorId
+(
+self
+md
+)
+:
+        
+idvar
+=
+ExprVar
+(
+'
+__id
+'
+)
+        
+if
+md
+.
+decl
+.
+type
+.
+hasReply
+(
+)
+:
+            
+saveIdStmts
+=
+[
+StmtDecl
+(
+Decl
+(
+_actorIdType
+(
+)
+idvar
+.
+name
+)
+                                     
+self
+.
+protocol
+.
+routingId
+(
+)
+)
+]
+        
+else
+:
+            
+saveIdStmts
+=
+[
+]
+        
+return
+idvar
+saveIdStmts
 class
 _GenerateProtocolParentCode
 (
