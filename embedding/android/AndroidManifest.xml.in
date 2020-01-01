@@ -1060,6 +1060,13 @@ style
 /
 GreyTheme
 "
+android
+:
+excludeFromRecents
+=
+"
+true
+"
 >
 <
 intent
