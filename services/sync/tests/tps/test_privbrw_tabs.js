@@ -522,14 +522,8 @@ phase3
 Sync
 ]
 [
-Windows
-.
-add
-{
-private
-:
+SetPrivateBrowsing
 true
-}
 ]
 [
 Tabs
