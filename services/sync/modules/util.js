@@ -4306,6 +4306,15 @@ Preferences
 PREFS_BRANCH
 )
 ;
+Svc
+.
+GPrefs
+=
+new
+Preferences
+(
+)
+;
 [
 [
 "
