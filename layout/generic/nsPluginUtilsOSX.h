@@ -59,6 +59,14 @@ nsRect
 outRect
 )
 ;
+PRBool
+NS_NPAPI_CocoaWindowIsMain
+(
+void
+*
+aWindow
+)
+;
 NPError
 NS_NPAPI_ShowCocoaContextMenu
 (

@@ -25130,6 +25130,12 @@ aEvent
 )
 |
 |
+NS_IS_NON_RETARGETED_PLUGIN_EVENT
+(
+aEvent
+)
+|
+|
 aEvent
 -
 >
