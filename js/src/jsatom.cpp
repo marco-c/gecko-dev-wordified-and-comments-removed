@@ -271,7 +271,6 @@ DEFINE_PROTO_STRING
 define
 CONST_CHAR_STR
 (
-idpart
 id
 text
 )
@@ -280,7 +279,7 @@ char
 js_
 #
 #
-idpart
+id
 #
 #
 _str
@@ -859,7 +858,6 @@ cachedNames
 define
 COMMON_NAME_INFO
 (
-idpart
 id
 text
 )
@@ -867,7 +865,7 @@ text
 js_
 #
 #
-idpart
+id
 #
 #
 _str
