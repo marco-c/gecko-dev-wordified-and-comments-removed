@@ -216,7 +216,9 @@ JS_ASSERT
 sc
 -
 >
-isFunction
+isFunctionBox
+(
+)
 )
 ;
 return
@@ -238,7 +240,9 @@ JS_ASSERT
 sc
 -
 >
-isFunction
+isFunctionBox
+(
+)
 )
 ;
 return

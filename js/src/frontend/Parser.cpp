@@ -857,7 +857,9 @@ JS_ASSERT
 sc
 -
 >
-isFunction
+isFunctionBox
+(
+)
 )
 ;
 dn
@@ -960,7 +962,9 @@ if
 sc
 -
 >
-isFunction
+isFunctionBox
+(
+)
 )
 {
 dn
@@ -1241,7 +1245,9 @@ if
 sc
 -
 >
-isFunction
+isFunctionBox
+(
+)
 )
 {
 JS_ASSERT
@@ -1686,7 +1692,9 @@ JS_ASSERT
 sc
 -
 >
-isFunction
+isFunctionBox
+(
+)
 )
 ;
 unsigned
@@ -1793,7 +1801,7 @@ funbox
 sc
 -
 >
-asFunbox
+asFunctionBox
 (
 )
 ;
@@ -2094,7 +2102,6 @@ traceListHead
 SharedContext
 (
 cx
-true
 strict
 )
 bindings
@@ -2159,7 +2166,9 @@ outerpc
 sc
 -
 >
-isFunction
+isFunctionBox
+(
+)
 )
 {
 JSObject
@@ -2172,7 +2181,7 @@ outerpc
 sc
 -
 >
-asGlobal
+asGlobalSharedContext
 (
 )
 -
@@ -2222,7 +2231,7 @@ outerpc
 sc
 -
 >
-asFunbox
+asFunctionBox
 (
 )
 ;
@@ -3156,7 +3165,7 @@ pc
 sc
 -
 >
-asFunbox
+asFunctionBox
 (
 )
 -
@@ -3242,7 +3251,9 @@ pc
 sc
 -
 >
-isFunction
+isFunctionBox
+(
+)
 )
 ;
 return
@@ -3740,7 +3751,9 @@ pc
 sc
 -
 >
-isFunction
+isFunctionBox
+(
+)
 )
 ;
 JS_ASSERT
@@ -3842,7 +3855,7 @@ pc
 sc
 -
 >
-asFunbox
+asFunctionBox
 (
 )
 -
@@ -4211,7 +4224,7 @@ pc
 sc
 -
 >
-asFunbox
+asFunctionBox
 (
 )
 -
@@ -4331,7 +4344,7 @@ pc
 sc
 -
 >
-asFunbox
+asFunctionBox
 (
 )
 ;
@@ -5469,7 +5482,9 @@ pc
 sc
 -
 >
-isFunction
+isFunctionBox
+(
+)
 ?
 NULL
 :
@@ -5479,7 +5494,7 @@ pc
 sc
 -
 >
-asGlobal
+asGlobalSharedContext
 (
 )
 -
@@ -5876,7 +5891,7 @@ funpc
 sc
 -
 >
-asFunbox
+asFunctionBox
 (
 )
 )
@@ -6621,7 +6636,9 @@ pc
 sc
 -
 >
-isFunction
+isFunctionBox
+(
+)
 )
 ;
 if
@@ -6740,7 +6757,7 @@ pc
 sc
 -
 >
-asFunbox
+asFunctionBox
 (
 )
 ;
@@ -7780,7 +7797,9 @@ pc
 sc
 -
 >
-isFunction
+isFunctionBox
+(
+)
 !
 pn
 -
@@ -7801,7 +7820,9 @@ pc
 sc
 -
 >
-isFunction
+isFunctionBox
+(
+)
 pn
 -
 >
@@ -7847,7 +7868,9 @@ pc
 sc
 -
 >
-isFunction
+isFunctionBox
+(
+)
 )
 {
 FunctionBox
@@ -7860,7 +7883,7 @@ pc
 sc
 -
 >
-asFunbox
+asFunctionBox
 (
 )
 ;
@@ -9162,7 +9185,9 @@ pc
 sc
 -
 >
-isFunction
+isFunctionBox
+(
+)
 )
 {
 pc
@@ -9459,14 +9484,16 @@ pc
 sc
 -
 >
-isFunction
+isFunctionBox
+(
+)
 pc
 -
 >
 sc
 -
 >
-asFunbox
+asFunctionBox
 (
 )
 -
@@ -10493,7 +10520,9 @@ pc
 sc
 -
 >
-isFunction
+isFunctionBox
+(
+)
 )
 pc
 -
@@ -10501,7 +10530,7 @@ pc
 sc
 -
 >
-asFunbox
+asFunctionBox
 (
 )
 -
@@ -12081,7 +12110,9 @@ pc
 sc
 -
 >
-isFunction
+isFunctionBox
+(
+)
 )
 {
 reportError
@@ -12162,7 +12193,7 @@ pc
 sc
 -
 >
-asFunbox
+asFunctionBox
 (
 )
 -
@@ -12382,7 +12413,7 @@ pc
 sc
 -
 >
-asFunbox
+asFunctionBox
 (
 )
 -
@@ -22511,7 +22542,9 @@ pc
 sc
 -
 >
-isFunction
+isFunctionBox
+(
+)
 )
 {
 parser
@@ -22534,7 +22567,7 @@ pc
 sc
 -
 >
-asFunbox
+asFunctionBox
 (
 )
 -
@@ -24793,7 +24826,9 @@ outerpc
 sc
 -
 >
-isFunction
+isFunctionBox
+(
+)
 )
 genFunbox
 -
@@ -24806,7 +24841,7 @@ outerpc
 sc
 -
 >
-asFunbox
+asFunctionBox
 (
 )
 -
@@ -26575,7 +26610,9 @@ pc
 sc
 -
 >
-isFunction
+isFunctionBox
+(
+)
 &
 &
 !
@@ -26593,7 +26630,7 @@ pc
 sc
 -
 >
-asFunbox
+asFunctionBox
 (
 )
 -
