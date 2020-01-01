@@ -455,6 +455,10 @@ test_colorpicker
 .
 xul
 \
+test_cssoverflow
+.
+html
+\
 test_contextmenu
 .
 xul
