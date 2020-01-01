@@ -381,6 +381,10 @@ friend
 class
 nsOfflineCacheDevice
 ;
+friend
+class
+nsProcessRequestEvent
+;
 static
 void
 Lock
@@ -628,6 +632,12 @@ mLockedThread
 ;
 #
 endif
+nsCOMPtr
+<
+nsIThread
+>
+mCacheIOThread
+;
 nsTArray
 <
 nsISupports
