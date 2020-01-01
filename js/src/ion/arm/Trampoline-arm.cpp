@@ -164,6 +164,12 @@ finishDataTransfer
 (
 )
 ;
+masm
+.
+dumpPool
+(
+)
+;
 }
 IonCode
 *
