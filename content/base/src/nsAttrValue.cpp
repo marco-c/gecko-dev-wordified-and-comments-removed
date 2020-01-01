@@ -4288,8 +4288,6 @@ const
 nsAString
 &
 aString
-PRBool
-aCanBePercent
 )
 {
 ResetIfSet
@@ -4323,7 +4321,7 @@ aString
 strict
 &
 ec
-aCanBePercent
+PR_TRUE
 &
 isPercent
 )
@@ -4351,10 +4349,6 @@ originalVal
 ;
 if
 (
-aCanBePercent
-&
-&
-(
 isPercent
 |
 |
@@ -4369,7 +4363,6 @@ RFindChar
 >
 =
 0
-)
 )
 {
 isPercent
