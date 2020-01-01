@@ -477,7 +477,6 @@ function
 )
 {
 }
-.
 onBeforeItemRemoved
 :
 function
