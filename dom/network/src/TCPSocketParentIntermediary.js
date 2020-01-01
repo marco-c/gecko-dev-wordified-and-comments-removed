@@ -182,7 +182,7 @@ open
 aHost
 aPort
 {
-useSSL
+useSecureTransport
 :
 aUseSSL
 binaryType
