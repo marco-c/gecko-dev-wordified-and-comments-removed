@@ -6,6 +6,15 @@ nsISample
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_SAMPLE_CID
 \
@@ -38,6 +47,7 @@ sample
 "
 class
 nsSampleImpl
+MOZ_FINAL
 :
 public
 nsISample

@@ -19,6 +19,15 @@ nscore
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 TestObjectBaseA
 {
@@ -175,6 +184,7 @@ Release
 ;
 class
 TestRefObject
+MOZ_FINAL
 :
 public
 TestRefObjectBaseA

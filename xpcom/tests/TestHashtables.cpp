@@ -56,6 +56,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 stdio
 .
@@ -1077,6 +1086,7 @@ NS_IFOO_IID
 }
 class
 IFoo
+MOZ_FINAL
 :
 public
 nsISupports

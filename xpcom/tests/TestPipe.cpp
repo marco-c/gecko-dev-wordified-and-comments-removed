@@ -19,6 +19,15 @@ nsIMemory
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 nsresult
 TP_NewPipe2
 (
@@ -117,6 +126,7 @@ NS_OK
 }
 class
 BackwardsAllocator
+MOZ_FINAL
 :
 public
 nsIMemory
