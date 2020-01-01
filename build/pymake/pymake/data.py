@@ -201,9 +201,19 @@ return
 False
     
 return
+int
+(
+1000
+*
 deptime
+)
 >
+int
+(
+1000
+*
 targettime
+)
 def
 getmtime
 (
