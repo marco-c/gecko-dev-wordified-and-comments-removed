@@ -4793,8 +4793,11 @@ principal
 }
 #
 endif
+namespace
+xpc
+{
 nsresult
-xpc_CreateGlobalObject
+CreateGlobalObject
 (
 JSContext
 *
@@ -4805,9 +4808,6 @@ clasp
 nsIPrincipal
 *
 principal
-nsISupports
-*
-ptr
 bool
 wantXrays
 JSObject
@@ -5019,6 +5019,7 @@ global
 return
 NS_OK
 ;
+}
 }
 NS_IMETHODIMP
 nsXPConnect

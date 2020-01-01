@@ -750,12 +750,14 @@ compartment
 nsresult
 rv
 =
-xpc_CreateGlobalObject
+xpc
+:
+:
+CreateGlobalObject
 (
 mSafeJSContext
 &
 global_class
-principal
 principal
 false
 &

@@ -1131,13 +1131,15 @@ compartment
 ;
 rv
 =
-xpc_CreateGlobalObject
+xpc
+:
+:
+CreateGlobalObject
 (
 cx
 &
 gSharedGlobalClass
 principal
-nullptr
 false
 &
 mJSObject
