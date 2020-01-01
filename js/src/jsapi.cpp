@@ -13455,12 +13455,6 @@ JSObject
 obj
 )
 {
-assertSameCompartment
-(
-cx
-obj
-)
-;
 return
 obj
 -
@@ -13487,12 +13481,6 @@ void
 data
 )
 {
-assertSameCompartment
-(
-cx
-obj
-)
-;
 obj
 -
 >
