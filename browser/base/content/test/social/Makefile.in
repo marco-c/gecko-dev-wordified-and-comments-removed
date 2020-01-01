@@ -132,6 +132,10 @@ browser_social_errorPage
 .
 js
 \
+browser_social_marks
+.
+js
+\
 browser_social_status
 .
 js
@@ -156,9 +160,9 @@ social_panel
 .
 html
 \
-social_mark_image
+social_mark
 .
-png
+html
 \
 social_sidebar
 .
@@ -183,6 +187,14 @@ js
 share
 .
 html
+\
+checked
+.
+jpg
+\
+unchecked
+.
+jpg
 \
 (
 NULL
