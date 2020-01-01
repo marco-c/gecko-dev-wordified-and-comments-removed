@@ -2758,6 +2758,17 @@ if
 this
 .
 _selectedTab
+=
+=
+aTab
+)
+return
+;
+if
+(
+this
+.
+_selectedTab
 )
 this
 .
