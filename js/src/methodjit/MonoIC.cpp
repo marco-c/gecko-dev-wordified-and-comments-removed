@@ -3222,7 +3222,7 @@ stubRejoin
 ;
 masm
 .
-bumpStubCounter
+bumpStubCount
 (
 f
 .
@@ -4670,7 +4670,7 @@ isDynamic
 {
 masm
 .
-bumpStubCounter
+bumpStubCount
 (
 f
 .
@@ -4744,7 +4744,7 @@ reg
 ;
 masm
 .
-bumpStubCounter
+bumpStubCount
 (
 f
 .

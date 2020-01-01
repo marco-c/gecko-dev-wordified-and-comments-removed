@@ -711,7 +711,7 @@ n
 ;
 masm
 .
-bumpStubCounter
+bumpStubCount
 (
 cc
 .
