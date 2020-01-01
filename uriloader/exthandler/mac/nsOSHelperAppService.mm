@@ -1134,10 +1134,7 @@ CFStringCreateWithCharacters
 (
 NULL
 aPlatformAppPath
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 aPlatformAppPath
 )

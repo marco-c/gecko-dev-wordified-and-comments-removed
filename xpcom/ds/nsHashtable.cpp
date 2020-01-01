@@ -2712,10 +2712,7 @@ PRUint32
 )
 mStrLen
 =
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 str
 )

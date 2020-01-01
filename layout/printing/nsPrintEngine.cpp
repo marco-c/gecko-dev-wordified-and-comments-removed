@@ -11739,10 +11739,7 @@ if
 aStr
 &
 &
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 aStr
 )
@@ -11762,10 +11759,7 @@ ptr
 &
 aStr
 [
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 aStr
 )

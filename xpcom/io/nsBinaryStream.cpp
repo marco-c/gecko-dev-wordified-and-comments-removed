@@ -670,10 +670,7 @@ rv
 ;
 length
 =
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 aString
 )

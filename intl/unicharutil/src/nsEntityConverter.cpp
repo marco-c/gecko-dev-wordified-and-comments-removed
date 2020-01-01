@@ -1063,10 +1063,7 @@ outString
 PRUint32
 len
 =
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 inString
 )

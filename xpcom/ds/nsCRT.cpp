@@ -641,10 +641,7 @@ str
 PRUint32
 len
 =
-nsCRT
-:
-:
-strlen
+NS_strlen
 (
 str
 )
