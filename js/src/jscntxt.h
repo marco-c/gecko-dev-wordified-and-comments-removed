@@ -5939,6 +5939,7 @@ JSContext
 JSStackFrame
 *
 uintN
+uintN
 )
 ;
 void
