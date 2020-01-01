@@ -412,15 +412,6 @@ base
 content
 /
 test
-DIRS
-+
-=
-\
-newtab
-\
-(
-NULL
-)
 include
 (
 DEPTH
