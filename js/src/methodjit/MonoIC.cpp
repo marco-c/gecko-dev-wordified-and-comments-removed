@@ -3578,13 +3578,7 @@ script
 -
 >
 code
-ic
-.
-frameSize
-.
-staticLocalSlots
-(
-)
+0
 )
 ;
 }

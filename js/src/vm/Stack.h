@@ -939,9 +939,16 @@ uint32
 nactual
 )
 ;
-void
+bool
 initJitFrameLatePrologue
 (
+JSContext
+*
+cx
+Value
+*
+*
+limit
 )
 ;
 void
