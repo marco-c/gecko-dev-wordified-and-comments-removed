@@ -9678,7 +9678,7 @@ CreateSheet
 (
 aURL
 nsnull
-nsnull
+aOriginPrincipal
 syncLoad
 state
 getter_AddRefs
