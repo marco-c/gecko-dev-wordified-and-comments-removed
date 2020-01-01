@@ -225,10 +225,10 @@ data
 PRInt16
 hashShift
 ;
-uint8
+PRUint8
 maxAlphaFrac
 ;
-uint8
+PRUint8
 minAlphaFrac
 ;
 PRUint32
@@ -815,7 +815,7 @@ maxAlpha
 )
 *
 (
-uint8
+PRUint8
 )
 (
 0x100
