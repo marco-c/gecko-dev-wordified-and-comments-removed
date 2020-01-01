@@ -27,11 +27,6 @@ minv
 :
         
 print
->
->
-sys
-.
-stderr
 fmt
 %
 args
@@ -394,7 +389,7 @@ specified
 )
 log
 (
-1
+2
 '
 Generated
 C
@@ -415,7 +410,7 @@ headersdir
 )
 log
 (
-1
+2
 '
 Generated
 C
@@ -446,13 +441,14 @@ files
 log
 (
 1
-'
-Parsing
-specification
-%
-s
-'
+os
+.
+path
+.
+basename
+(
 f
+)
 )
     
 if
