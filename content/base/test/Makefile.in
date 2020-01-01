@@ -1166,6 +1166,10 @@ test_bug28293
 .
 html
 \
+test_bug28293
+.
+xhtml
+\
 file_bug28293
 .
 sjs

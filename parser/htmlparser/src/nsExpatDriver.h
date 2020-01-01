@@ -414,6 +414,9 @@ PRPackedBool
 mInExternalDTD
 ;
 PRPackedBool
+mMadeFinalCallToExpat
+;
+PRPackedBool
 mIsFinalChunk
 ;
 nsresult
