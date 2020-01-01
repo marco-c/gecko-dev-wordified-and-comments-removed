@@ -3962,6 +3962,12 @@ requestCount
 =
 =
 1
+&
+&
+rt
+-
+>
+activityCallback
 )
 rt
 -
@@ -4267,6 +4273,13 @@ JS_NOTIFY_REQUEST_DONE
 rt
 )
 ;
+if
+(
+rt
+-
+>
+activityCallback
+)
 rt
 -
 >
