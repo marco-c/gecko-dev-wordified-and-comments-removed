@@ -867,6 +867,16 @@ exceptions
 fno
 -
 rtti
+-
+fstrict
+-
+aliasing
+-
+Wstrict
+-
+aliasing
+=
+3
 BUILTINS_OPTIMIZER
 =
 -
@@ -879,6 +889,10 @@ exceptions
 fno
 -
 rtti
+-
+fstrict
+-
+aliasing
 INTERP_OPTIMIZER
 =
 -
@@ -891,6 +905,10 @@ exceptions
 fno
 -
 rtti
+-
+fstrict
+-
+aliasing
 endif
 DEFINES
 +
@@ -945,7 +963,7 @@ Wstrict
 -
 aliasing
 =
-2
+3
 INTERP_OPTIMIZER
 =
 -
