@@ -272,12 +272,7 @@ BACKEND_COREGRAPHICS
 uint32_t
 contentMask
 =
-(
-1
-<
-<
-BACKEND_COREGRAPHICS
-)
+0
 ;
 InitBackendPrefs
 (
