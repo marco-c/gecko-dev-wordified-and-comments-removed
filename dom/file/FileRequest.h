@@ -80,6 +80,8 @@ aOwner
 LockedFile
 *
 aLockedFile
+bool
+aIsFileRequest
 )
 ;
 virtual
@@ -149,6 +151,9 @@ nsRefPtr
 LockedFile
 >
 mLockedFile
+;
+bool
+mIsFileRequest
 ;
 NS_DECL_EVENT_HANDLER
 (
