@@ -64,7 +64,7 @@ mozilla
 dom
 :
 :
-DestroyProtoOrIfaceCache
+DestroyProtoAndIfaceCache
 ;
 XPCJSContextStack
 :
@@ -546,7 +546,7 @@ NS_IF_RELEASE
 sop
 )
 ;
-DestroyProtoOrIfaceCache
+DestroyProtoAndIfaceCache
 (
 obj
 )

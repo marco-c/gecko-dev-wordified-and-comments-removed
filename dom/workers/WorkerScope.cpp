@@ -3205,7 +3205,7 @@ Class
 dom
 :
 :
-AllocateProtoOrIfaceCache
+AllocateProtoAndIfaceCache
 (
 aObj
 )
@@ -3823,7 +3823,7 @@ if
 scope
 )
 {
-DestroyProtoOrIfaceCache
+DestroyProtoAndIfaceCache
 (
 aObj
 )
@@ -3887,7 +3887,7 @@ mozilla
 dom
 :
 :
-TraceProtoOrIfaceCache
+TraceProtoAndIfaceCache
 (
 aTrc
 aObj

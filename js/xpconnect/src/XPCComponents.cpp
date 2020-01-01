@@ -211,7 +211,7 @@ mozilla
 dom
 :
 :
-DestroyProtoOrIfaceCache
+DestroyProtoAndIfaceCache
 ;
 static
 nsresult
@@ -12113,7 +12113,7 @@ NS_IF_RELEASE
 sop
 )
 ;
-DestroyProtoOrIfaceCache
+DestroyProtoAndIfaceCache
 (
 obj
 )
