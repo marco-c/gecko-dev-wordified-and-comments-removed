@@ -543,7 +543,9 @@ pp
 =
 Weave
 .
-Identity
+Service
+.
+identity
 .
 syncKey
 ;
@@ -1256,7 +1258,9 @@ _updatingPassphrase
 {
 Weave
 .
-Identity
+Service
+.
+identity
 .
 syncKey
 =
@@ -1414,7 +1418,9 @@ _currentPasswordInvalid
 {
 Weave
 .
-Identity
+Service
+.
+identity
 .
 basicPassword
 =

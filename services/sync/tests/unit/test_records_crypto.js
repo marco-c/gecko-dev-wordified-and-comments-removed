@@ -9,9 +9,9 @@ resource
 /
 services
 -
-sync
+common
 /
-constants
+log4moz
 .
 js
 "
@@ -30,7 +30,7 @@ services
 -
 sync
 /
-identity
+constants
 .
 js
 "
@@ -104,9 +104,9 @@ resource
 /
 services
 -
-common
+sync
 /
-log4moz
+service
 .
 js
 "
@@ -236,7 +236,9 @@ do_test_pending
 (
 )
 ;
-Identity
+Service
+.
+identity
 .
 username
 =
@@ -247,7 +249,9 @@ example
 com
 "
 ;
-Identity
+Service
+.
+identity
 .
 syncKey
 =
@@ -268,7 +272,9 @@ abcde
 let
 keyBundle
 =
-Identity
+Service
+.
+identity
 .
 syncKeyBundle
 ;

@@ -639,7 +639,9 @@ encodeUTF8
 JAPANESE
 )
 ;
-Identity
+Service
+.
+identity
 .
 basicPassword
 =

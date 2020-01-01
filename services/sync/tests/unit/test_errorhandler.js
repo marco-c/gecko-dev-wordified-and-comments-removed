@@ -1106,7 +1106,9 @@ serverKeys
 .
 encrypt
 (
-Identity
+Service
+.
+identity
 .
 syncKeyBundle
 )
@@ -2475,7 +2477,9 @@ setUp
 (
 )
 ;
-Identity
+Service
+.
+identity
 .
 basicPassword
 =
@@ -2690,7 +2694,9 @@ setUp
 (
 )
 ;
-Identity
+Service
+.
+identity
 .
 basicPassword
 =
@@ -3301,7 +3307,9 @@ setUp
 (
 )
 ;
-Identity
+Service
+.
+identity
 .
 basicPassword
 =
@@ -3713,7 +3721,9 @@ setUp
 (
 )
 ;
-Identity
+Service
+.
+identity
 .
 basicPassword
 =

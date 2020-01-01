@@ -30,7 +30,7 @@ services
 -
 sync
 /
-service
+constants
 .
 js
 "
@@ -49,7 +49,7 @@ services
 -
 sync
 /
-constants
+service
 .
 js
 "
@@ -260,10 +260,14 @@ basic_auth_matches
 handler
 .
 request
-Identity
+Service
+.
+identity
 .
 username
-Identity
+Service
+.
+identity
 .
 basicPassword
 )

@@ -464,7 +464,9 @@ e
 }
 Weave
 .
-Identity
+Service
+.
+identity
 .
 account
 =
@@ -482,6 +484,8 @@ username
 )
 ;
 Weave
+.
+Service
 .
 Identity
 .
@@ -502,7 +506,9 @@ password
 ;
 Weave
 .
-Identity
+Service
+.
+identity
 .
 syncKey
 =

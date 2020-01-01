@@ -9,9 +9,9 @@ resource
 /
 services
 -
-sync
+common
 /
-constants
+log4moz
 .
 js
 "
@@ -28,9 +28,9 @@ resource
 /
 services
 -
-common
+sync
 /
-log4moz
+constants
 .
 js
 "
@@ -629,7 +629,9 @@ resetSync
 (
 )
 ;
-Identity
+Service
+.
+identity
 .
 syncKey
 =
@@ -699,7 +701,9 @@ resetSync
 (
 )
 ;
-Identity
+Service
+.
+identity
 .
 account
 =

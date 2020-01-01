@@ -1032,7 +1032,15 @@ DumpAppender
 )
 )
 ;
-Identity
+let
+identity
+=
+new
+IdentityManager
+(
+)
+;
+identity
 .
 account
 =
@@ -1043,7 +1051,7 @@ example
 com
 "
 ;
-Identity
+identity
 .
 syncKey
 =
@@ -1064,7 +1072,7 @@ fffff
 let
 keyBundle
 =
-Identity
+identity
 .
 syncKeyBundle
 ;

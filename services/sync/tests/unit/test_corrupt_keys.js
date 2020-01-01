@@ -560,7 +560,9 @@ serverKeys
 .
 encrypt
 (
-Identity
+Service
+.
+identity
 .
 syncKeyBundle
 )
