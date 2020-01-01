@@ -451,6 +451,10 @@ nsContentUtils
 .
 h
 \
+nsIContentUtils
+.
+h
+\
 nsIDocument
 .
 h
