@@ -215,6 +215,15 @@ marked
 (
 true
 )
+#
+ifdef
+DEBUG
+firedOnNewGlobalObject
+(
+false
+)
+#
+endif
 global_
 (
 NULL
