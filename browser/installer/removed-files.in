@@ -7029,6 +7029,11 @@ amWebInstallListener
 js
 components
 /
+binary
+.
+manifest
+components
+/
 browser
 .
 xpt
@@ -7047,11 +7052,6 @@ components
 BrowserElementPromptService
 .
 jsm
-components
-/
-components
-.
-manifest
 components
 /
 contentAreaDropListener

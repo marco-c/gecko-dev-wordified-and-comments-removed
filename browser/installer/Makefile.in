@@ -727,9 +727,6 @@ endif
 installer
 :
 :
-removed
--
-files
 ifdef
 INSTALLER_DIR
 (
