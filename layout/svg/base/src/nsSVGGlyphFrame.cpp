@@ -7032,7 +7032,7 @@ textRunSize
 mStyleContext
 -
 >
-GetStyleVisibility
+GetStyleFont
 (
 )
 -

@@ -10024,7 +10024,7 @@ font
 aStyleContext
 -
 >
-GetStyleVisibility
+GetStyleFont
 (
 )
 -
