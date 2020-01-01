@@ -22,7 +22,7 @@ AddonManager
 from
 permissions
 import
-PermissionsManager
+Permissions
 from
 shutil
 import
@@ -113,6 +113,33 @@ self
 restore
 =
 restore
+        
+self
+.
+written_prefs
+=
+set
+(
+)
+        
+self
+.
+delimeters
+=
+(
+'
+#
+MozRunner
+Prefs
+Start
+'
+'
+#
+MozRunner
+Prefs
+End
+'
+)
         
 self
 .
@@ -278,9 +305,9 @@ proxy
         
 self
 .
-permission_manager
+permissions
 =
-PermissionsManager
+Permissions
 (
 self
 .
@@ -293,9 +320,9 @@ user_js
 =
 self
 .
-permission_manager
+permissions
 .
-getNetworkPreferences
+network_prefs
 (
 proxy
 )
@@ -561,13 +588,26 @@ a
 )
         
 if
+preferences
+:
+            
+self
+.
+written_prefs
+.
+add
+(
+filename
+)
+            
+if
 isinstance
 (
 preferences
 dict
 )
 :
-            
+                
 preferences
 =
 preferences
@@ -575,10 +615,6 @@ preferences
 items
 (
 )
-        
-if
-preferences
-:
             
 f
 .
@@ -587,13 +623,18 @@ write
 '
 \
 n
-#
-MozRunner
-Prefs
-Start
+%
+s
 \
 n
 '
+%
+self
+.
+delimeters
+[
+0
+]
 )
             
 _prefs
@@ -652,13 +693,18 @@ f
 write
 (
 '
-#
-MozRunner
-Prefs
-End
+%
+s
 \
 n
 '
+%
+self
+.
+delimeters
+[
+1
+]
 )
         
 f
@@ -671,6 +717,7 @@ def
 pop_preferences
 (
 self
+filename
 )
 :
         
@@ -695,23 +742,6 @@ popped
 "
 "
         
-delimeters
-=
-(
-'
-#
-MozRunner
-Prefs
-Start
-'
-'
-#
-MozRunner
-Prefs
-End
-'
-)
-        
 lines
 =
 file
@@ -725,11 +755,7 @@ join
 self
 .
 profile
-'
-user
-.
-js
-'
+filename
 )
 )
 .
@@ -813,6 +839,8 @@ s
 last_index
 (
 lines
+self
+.
 delimeters
 [
 0
@@ -824,6 +852,8 @@ e
 last_index
 (
 lines
+self
+.
 delimeters
 [
 1
@@ -850,10 +880,14 @@ s
 '
 %
 (
+self
+.
 delimeters
 [
 1
 ]
+self
+.
 delimeters
 [
 0
@@ -870,7 +904,7 @@ None
 :
             
 assert
-e
+s
 is
 None
 '
@@ -883,10 +917,14 @@ s
 '
 %
 (
+self
+.
 delimeters
 [
 0
 ]
+self
+.
 delimeters
 [
 1
@@ -912,13 +950,18 @@ at
 %
 s
 '
+%
 (
-delimeter
+self
+.
+delimeters
 [
 1
 ]
 e
-delimeter
+self
+.
+delimeters
 [
 0
 ]
@@ -973,6 +1016,19 @@ w
 '
 )
         
+f
+.
+write
+(
+cleaned_prefs
+)
+        
+f
+.
+close
+(
+)
+        
 return
 True
     
@@ -996,19 +1052,28 @@ mozrunner
 "
 "
         
+for
+filename
+in
+self
+.
+written_prefs
+:
+            
 while
 True
 :
-            
+                
 if
 not
 self
 .
 pop_preferences
 (
+filename
 )
 :
-                
+                    
 break
     
 def
@@ -1243,9 +1308,9 @@ clean_addons
                 
 self
 .
-permission_manager
+permissions
 .
-clean_permissions
+clean_db
 (
 )
     
@@ -1385,6 +1450,14 @@ max_resumed_crashes
 :
 -
 1
+                   
+'
+focusmanager
+.
+testmode
+'
+:
+True
                    
 }
 class

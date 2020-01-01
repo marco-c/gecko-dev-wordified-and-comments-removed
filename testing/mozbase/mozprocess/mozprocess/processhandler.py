@@ -440,6 +440,10 @@ self
 _handle
 :
                     
+err
+=
+None
+                    
 try
 :
                         
@@ -458,20 +462,15 @@ ERROR_CONTROL_C_EXIT
 except
 :
                         
-raise
-OSError
-(
+err
+=
 "
 Could
 not
 terminate
 process
 "
-)
                     
-finally
-:
-                        
 self
 .
 returncode
@@ -484,11 +483,24 @@ self
 .
 _handle
 )
-                        
+                    
 self
 .
 _cleanup
 (
+)
+                    
+if
+err
+is
+not
+None
+:
+                        
+raise
+OSError
+(
+err
 )
                 
 else
@@ -563,30 +575,6 @@ s
 self
 .
 pid
-                    
-finally
-:
-                        
-if
-self
-.
-returncode
-is
-None
-:
-                            
-self
-.
-returncode
-=
-subprocess
-.
-Popen
-.
-_internal_poll
-(
-self
-)
                 
 else
 :
@@ -602,7 +590,7 @@ signal
 .
 SIGKILL
 )
-                    
+                
 if
 self
 .
@@ -610,7 +598,7 @@ returncode
 is
 None
 :
-                        
+                    
 self
 .
 returncode
@@ -1800,6 +1788,10 @@ and
 threadalive
 :
                     
+err
+=
+None
+                    
 try
 :
                         
@@ -1848,9 +1840,8 @@ task_done
 except
 :
                         
-raise
-OSError
-(
+err
+=
 "
 IO
 Completion
@@ -1861,11 +1852,7 @@ signal
 process
 shutdown
 "
-)
                     
-finally
-:
-                        
 self
 .
 returncode
@@ -1878,11 +1865,24 @@ self
 .
 _handle
 )
-                        
+                    
 self
 .
 _cleanup
 (
+)
+                    
+if
+err
+is
+not
+None
+:
+                        
+raise
+OSError
+(
+err
 )
                 
 else
