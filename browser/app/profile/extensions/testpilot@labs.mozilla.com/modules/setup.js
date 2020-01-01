@@ -3329,7 +3329,7 @@ changeStatus
 (
 TaskConstants
 .
-STATUS_IN_PROGRESS
+STATUS_STARTING
 true
 )
 ;
