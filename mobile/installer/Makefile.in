@@ -1117,7 +1117,7 @@ PKG_PATH
 PKG_BASENAME
 )
 .
-CAB
+cab
 "
 &
 &
@@ -1141,7 +1141,7 @@ PKG_PATH
 PKG_BASENAME
 )
 .
-CAB
+cab
 created
 !
 endif
