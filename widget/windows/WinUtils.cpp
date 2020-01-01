@@ -22,6 +22,13 @@ h
 #
 include
 "
+KeyboardLayout
+.
+h
+"
+#
+include
+"
 nsGUIEvent
 .
 h
