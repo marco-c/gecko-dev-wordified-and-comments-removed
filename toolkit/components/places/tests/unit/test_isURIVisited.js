@@ -42,14 +42,6 @@ about
 :
 false
 "
-imap
-:
-/
-/
-"
-:
-false
-"
 news
 :
 /
