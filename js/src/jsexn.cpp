@@ -1226,7 +1226,6 @@ FrameRegsIter
 firstPass
 (
 cx
-FRAME_EXPAND_ALL
 )
 ;
 for
@@ -1504,7 +1503,6 @@ FrameRegsIter
 iter
 (
 cx
-FRAME_EXPAND_NONE
 )
 ;
 iter
@@ -1679,15 +1677,6 @@ script
 >
 filename
 ;
-if
-(
-fp
--
->
-isScriptFrame
-(
-)
-)
 elem
 -
 >
@@ -3543,7 +3532,6 @@ FrameRegsIter
 iter
 (
 cx
-FRAME_EXPAND_TOP
 )
 ;
 while

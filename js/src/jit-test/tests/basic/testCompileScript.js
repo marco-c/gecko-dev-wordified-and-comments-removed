@@ -134,6 +134,8 @@ x
 ;
 "
 ;
+try
+{
 (
 new
 Function
@@ -146,6 +148,13 @@ body
 1000
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 var
 gotIn
 =
@@ -188,9 +197,9 @@ null
 new
 Array
 (
-getMaxArgs
-(
-)
+500
+*
+1024
 )
 )
 ;

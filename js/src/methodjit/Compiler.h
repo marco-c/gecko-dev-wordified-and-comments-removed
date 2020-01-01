@@ -1633,9 +1633,6 @@ jsbytecode
 *
 PC
 ;
-bool
-variadicRejoin
-;
 LoopState
 *
 loop

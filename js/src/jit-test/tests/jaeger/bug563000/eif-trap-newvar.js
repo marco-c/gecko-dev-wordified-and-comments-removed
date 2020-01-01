@@ -12,11 +12,13 @@ nop
 function
 caller
 (
+code
 obj
 )
 {
 eval
 (
+code
 )
 ;
 return
@@ -26,7 +28,7 @@ x
 trap
 (
 caller
-13
+16
 "
 var
 x
@@ -45,6 +47,14 @@ assertEq
 (
 caller
 (
+"
+var
+y
+=
+'
+ignominy
+'
+"
 this
 )
 "

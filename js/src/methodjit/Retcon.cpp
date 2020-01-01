@@ -478,6 +478,8 @@ compartment
 -
 >
 jaegerCompartment
+(
+)
 -
 >
 orphanedNativeFrames
@@ -770,6 +772,8 @@ compartment
 -
 >
 jaegerCompartment
+(
+)
 -
 >
 orphanedNativePools
@@ -1385,6 +1389,18 @@ cx
 -
 >
 compartment
+|
+|
+!
+cx
+-
+>
+compartment
+-
+>
+hasJaegerCompartment
+(
+)
 )
 return
 ;
@@ -1405,6 +1421,8 @@ compartment
 -
 >
 jaegerCompartment
+(
+)
 -
 >
 activeFrame
@@ -1484,6 +1502,8 @@ compartment
 -
 >
 jaegerCompartment
+(
+)
 -
 >
 activeFrame
@@ -1544,7 +1564,7 @@ regs
 =
 seg
 .
-currentRegs
+regs
 (
 )
 ;
@@ -1904,6 +1924,8 @@ compartment
 -
 >
 jaegerCompartment
+(
+)
 -
 >
 activeFrame

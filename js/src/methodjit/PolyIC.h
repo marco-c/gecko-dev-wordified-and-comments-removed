@@ -176,6 +176,9 @@ slowPathStart
 CodeLocationCall
 slowPathCall
 ;
+int32
+secondShapeGuard
+;
 bool
 hit
 :
@@ -190,11 +193,6 @@ uint32
 stubsGenerated
 :
 5
-;
-int32
-secondShapeGuard
-:
-11
 ;
 JSOp
 op
