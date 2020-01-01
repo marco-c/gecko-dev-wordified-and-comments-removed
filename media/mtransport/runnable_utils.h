@@ -104,14 +104,6 @@ IsOnCurrentThread
 on
 )
 ;
-if
-(
-rv
-!
-=
-NS_ERROR_NOT_INITIALIZED
-)
-{
 MOZ_ASSERT
 (
 NS_SUCCEEDED
@@ -120,7 +112,6 @@ rv
 )
 )
 ;
-}
 NS_ENSURE_SUCCESS
 (
 rv
