@@ -1650,6 +1650,12 @@ JSOP_INCLOCAL
 case
 JSOP_LOCALINC
 :
+case
+JSOP_INCARG
+:
+case
+JSOP_ARGINC
+:
 break
 ;
 default
