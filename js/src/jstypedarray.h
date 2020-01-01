@@ -1644,6 +1644,10 @@ BufferView
 {
 public
 :
+static
+Class
+class_
+;
 private
 :
 static

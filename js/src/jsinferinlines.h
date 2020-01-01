@@ -1937,7 +1937,10 @@ JSProto_DataView
 :
 return
 &
-DataViewClass
+DataViewObject
+:
+:
+class_
 ;
 case
 JSProto_ParallelArray
