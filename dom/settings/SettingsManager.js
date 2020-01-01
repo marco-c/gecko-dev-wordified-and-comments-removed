@@ -2436,17 +2436,6 @@ destroyed
 "
 )
 {
-cpmm
-.
-sendAsyncMessage
-(
-"
-Settings
-:
-UnregisterForMessages
-"
-)
-;
 let
 wId
 =
