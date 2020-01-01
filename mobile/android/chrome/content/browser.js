@@ -6896,6 +6896,7 @@ _viewport
 .
 x
 =
+(
 this
 .
 browser
@@ -6909,6 +6910,10 @@ this
 viewportExcess
 .
 x
+)
+|
+|
+0
 ;
 this
 .
@@ -6916,6 +6921,7 @@ _viewport
 .
 y
 =
+(
 this
 .
 browser
@@ -6929,6 +6935,10 @@ this
 viewportExcess
 .
 y
+)
+|
+|
+0
 ;
 this
 .
@@ -7166,7 +7176,12 @@ let
 xpos
 =
 (
+(
 aReset
+&
+&
+win
+)
 ?
 win
 .
@@ -7185,7 +7200,12 @@ let
 ypos
 =
 (
+(
 aReset
+&
+&
+win
+)
 ?
 win
 .
