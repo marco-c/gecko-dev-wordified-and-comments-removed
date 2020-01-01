@@ -13134,10 +13134,8 @@ nsAccTreeWalker
 walker
 (
 doc
+this
 mContent
-CanHaveAnonChildren
-(
-)
 )
 ;
 Accessible

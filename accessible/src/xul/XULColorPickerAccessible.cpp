@@ -445,8 +445,8 @@ nsAccTreeWalker
 walker
 (
 mDoc
+this
 mContent
-true
 )
 ;
 Accessible
