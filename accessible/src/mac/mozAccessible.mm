@@ -1232,7 +1232,15 @@ NSAccessibilityRoleAttribute
 NSAccessibilityTitleAttribute
 NSAccessibilityValueAttribute
 NSAccessibilitySubroleAttribute
+#
+if
+MAC_OS_X_VERSION_MAX_ALLOWED
+>
+=
+MAC_OS_X_VERSION_10_4
 NSAccessibilityRoleDescriptionAttribute
+#
+endif
 NSAccessibilityPositionAttribute
 NSAccessibilityEnabledAttribute
 NSAccessibilitySizeAttribute
@@ -1399,6 +1407,12 @@ self
 value
 ]
 ;
+#
+if
+MAC_OS_X_VERSION_MAX_ALLOWED
+>
+=
+MAC_OS_X_VERSION_10_4
 if
 (
 [
@@ -1418,6 +1432,8 @@ role
 nil
 )
 ;
+#
+endif
 if
 (
 [

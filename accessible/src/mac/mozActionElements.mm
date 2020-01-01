@@ -1061,7 +1061,15 @@ NSArray
 arrayWithObjects
 :
 NSAccessibilityPressAction
+#
+if
+MAC_OS_X_VERSION_MAX_ALLOWED
+>
+=
+MAC_OS_X_VERSION_10_4
 NSAccessibilityShowMenuAction
+#
+endif
 nil
 ]
 ;
@@ -1083,6 +1091,12 @@ NSString
 )
 action
 {
+#
+if
+MAC_OS_X_VERSION_MAX_ALLOWED
+>
+=
+MAC_OS_X_VERSION_10_4
 if
 (
 [
@@ -1098,6 +1112,8 @@ show
 menu
 "
 ;
+#
+endif
 return
 [
 super
