@@ -89,7 +89,13 @@ com
 encryption
 "
 :
-true
+"
+aes
+-
+256
+-
+cbc
+"
 "
 enabled
 "
