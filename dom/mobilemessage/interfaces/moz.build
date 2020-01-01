@@ -190,6 +190,11 @@ nsIRilMobileMessageDatabaseService
 .
 idl
 '
+'
+nsIRilSmsService
+.
+idl
+'
 ]
 XPIDL_MODULE
 =
