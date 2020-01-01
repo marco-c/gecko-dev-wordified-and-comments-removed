@@ -4137,7 +4137,9 @@ this
 .
 browserWindow
 .
-toJavaScriptConsole
+HUDConsoleUI
+.
+toggleBrowserConsole
 (
 )
 ;
