@@ -1486,9 +1486,7 @@ mValue
 .
 mAppUnits
 *
-72
-.
-0f
+POINTS_PER_INCH_FLOAT
 /
 float
 (

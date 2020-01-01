@@ -745,9 +745,7 @@ DPI
 )
 )
 /
-72
-.
-0f
+POINTS_PER_INCH_FLOAT
 ;
 }
 aFontStyle
