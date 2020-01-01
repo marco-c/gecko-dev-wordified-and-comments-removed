@@ -5582,9 +5582,6 @@ aEnabled
 ;
 if
 (
-mDocument
-&
-&
 mInner
 -
 >
@@ -5601,6 +5598,11 @@ ClearRuleCascades
 (
 )
 ;
+if
+(
+mDocument
+)
+{
 mDocument
 -
 >
@@ -5611,6 +5613,7 @@ this
 mDisabled
 )
 ;
+}
 }
 return
 NS_OK
