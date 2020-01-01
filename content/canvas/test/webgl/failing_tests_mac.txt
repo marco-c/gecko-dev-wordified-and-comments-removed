@@ -13,17 +13,6 @@ nodes
 html
 conformance
 /
-more
-/
-conformance
-/
-quickCheckAPI
--
-S_V
-.
-html
-conformance
-/
 programs
 /
 program

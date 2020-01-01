@@ -42,17 +42,6 @@ bool
 html
 conformance
 /
-more
-/
-conformance
-/
-quickCheckAPI
--
-S_V
-.
-html
-conformance
-/
 renderbuffers
 /
 framebuffer
