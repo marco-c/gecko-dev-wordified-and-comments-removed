@@ -9939,6 +9939,10 @@ aNotification
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
+RollUpPopups
+(
+)
+;
 NSWindow
 *
 window
@@ -9978,6 +9982,10 @@ NSNotification
 aNotification
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
+RollUpPopups
+(
+)
 ;
 /
 /
