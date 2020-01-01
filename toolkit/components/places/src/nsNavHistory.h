@@ -522,16 +522,6 @@ InPrivateBrowsingMode
 )
 ;
 }
-mozIStorageStatement
-*
-DBGetURLPageInfo
-(
-)
-{
-return
-mDBGetURLPageInfo
-;
-}
 static
 const
 PRInt32

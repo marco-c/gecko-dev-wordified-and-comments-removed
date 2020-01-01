@@ -11908,10 +11908,9 @@ DBGetIdPageInfo
 (
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_STATE
 (
 statement
-NS_ERROR_UNEXPECTED
 )
 ;
 mozStorageStatementScoper
