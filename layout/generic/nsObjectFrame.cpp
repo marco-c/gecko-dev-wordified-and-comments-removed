@@ -8102,13 +8102,6 @@ Stop
 (
 )
 ;
-inst
--
->
-Destroy
-(
-)
-;
 if
 (
 window
@@ -8168,13 +8161,6 @@ inst
 -
 >
 Stop
-(
-)
-;
-inst
--
->
-Destroy
 (
 )
 ;
