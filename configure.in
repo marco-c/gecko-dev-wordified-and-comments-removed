@@ -6120,12 +6120,6 @@ PATH
 ]
 )
 fi
-echo
-PYTHON
-=
-"
-PYTHON
-"
 AC_PATH_PROGS
 (
 NSINSTALL_BIN
