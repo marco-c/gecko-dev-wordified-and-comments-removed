@@ -350,6 +350,9 @@ repository
 .
 getLogger
 (
+"
+Test
+"
 )
 ;
 Log4Moz
