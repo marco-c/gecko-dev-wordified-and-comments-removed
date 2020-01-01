@@ -565,7 +565,6 @@ aContent
 )
 ;
 void
-NS_FASTCALL
 PopulateWith
 (
 nsIContent
