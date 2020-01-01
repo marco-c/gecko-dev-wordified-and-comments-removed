@@ -170,6 +170,7 @@ asDaemon
 PR_TRUE
 )
 ;
+static
 void
 NotifyIME
 (
@@ -179,6 +180,7 @@ int
 aState
 )
 ;
+static
 void
 NotifyIMEChange
 (
