@@ -1989,6 +1989,7 @@ jsdouble
 d
 )
 ;
+JS_END_EXTERN_C
 extern
 JSAtom
 *
@@ -2004,6 +2005,7 @@ uintN
 flags
 )
 ;
+JS_BEGIN_EXTERN_C
 extern
 JSAtom
 *
