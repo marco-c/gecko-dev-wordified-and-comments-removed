@@ -275,9 +275,12 @@ page
 size
 values
 are
-from
+powers
+of
+2
+between
 512
-to
+and
 65536
 .
 *
@@ -288,7 +291,7 @@ is
 mozIStorageConnection
 :
 :
-DEFAULT_PAGE_SIZE
+defaultPageSize
 .
 *
 /

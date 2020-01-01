@@ -214,11 +214,11 @@ get
 expectedDatabasePageSize
 (
 )
-Ci
+this
 .
-mozIStorageConnection
+_dbConn
 .
-DEFAULT_PAGE_SIZE
+defaultPageSize
 get
 databaseConnection
 (
