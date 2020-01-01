@@ -697,6 +697,12 @@ nsPresState
 aState
 )
 ;
+PRInt32
+IntrinsicState
+(
+)
+const
+;
 NS_DECL_NSISELECTELEMENT
 virtual
 nsresult
