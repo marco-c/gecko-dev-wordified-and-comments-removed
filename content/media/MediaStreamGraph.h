@@ -343,6 +343,10 @@ mMainThreadDestroyed
 (
 false
 )
+mGraph
+(
+nullptr
+)
 {
 }
 virtual
@@ -393,6 +397,14 @@ MediaStreamGraph
 *
 Graph
 (
+)
+;
+void
+SetGraphImpl
+(
+MediaStreamGraphImpl
+*
+aGraph
 )
 ;
 void
@@ -1076,6 +1088,10 @@ mMainThreadFinished
 ;
 bool
 mMainThreadDestroyed
+;
+MediaStreamGraphImpl
+*
+mGraph
 ;
 }
 ;
