@@ -192,6 +192,11 @@ aStr
 NS_OK
 ;
 }
+NS_IMETHOD
+PrivateNoteIntentionalCrash
+(
+)
+;
 NS_DECL_NSIINPROCESSCONTENTFRAMEMESSAGEMANAGER
 virtual
 nsresult
