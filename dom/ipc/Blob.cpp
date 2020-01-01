@@ -5069,6 +5069,7 @@ nsRefPtr
 RemoteMultipartBlobType
 >
 file
+;
 bool
 isFile
 =
