@@ -39,6 +39,13 @@ endif
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 jshash
 .
 h

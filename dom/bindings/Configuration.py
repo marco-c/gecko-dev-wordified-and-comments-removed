@@ -1605,7 +1605,9 @@ JSObject
 headerDefault
 =
 "
-jsapi
+js
+/
+TypeDecls
 .
 h
 "
