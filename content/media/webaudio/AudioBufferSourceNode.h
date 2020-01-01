@@ -1,6 +1,9 @@
 #
-pragma
-once
+ifndef
+AudioBufferSourceNode_h_
+#
+define
+AudioBufferSourceNode_h_
 #
 include
 "
@@ -104,3 +107,5 @@ mBuffer
 ;
 }
 }
+#
+endif

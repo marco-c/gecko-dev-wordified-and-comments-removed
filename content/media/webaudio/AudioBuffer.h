@@ -1,6 +1,9 @@
 #
-pragma
-once
+ifndef
+AudioBuffer_h_
+#
+define
+AudioBuffer_h_
 #
 include
 "
@@ -224,3 +227,5 @@ mSampleRate
 ;
 }
 }
+#
+endif
