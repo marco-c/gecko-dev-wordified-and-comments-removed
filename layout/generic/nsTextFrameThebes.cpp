@@ -29762,7 +29762,7 @@ atStartOfLine
 =
 lineLayout
 .
-LineIsEmpty
+LineAtStart
 (
 )
 ;
