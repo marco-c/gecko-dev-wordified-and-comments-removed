@@ -300,12 +300,6 @@ js
 \
 ril
 /
-WapPushManager
-.
-js
-\
-ril
-/
 WspPduHelper
 .
 jsm

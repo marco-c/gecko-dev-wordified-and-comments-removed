@@ -111,6 +111,12 @@ SlPduHelper
 .
 jsm
 \
+gonk
+/
+WapPushManager
+.
+js
+\
 (
 NULL
 )
