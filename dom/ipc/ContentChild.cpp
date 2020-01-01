@@ -1215,6 +1215,13 @@ const
 PRInt64
 &
 aContentLength
+const
+IPC
+:
+:
+URI
+&
+aReferrer
 )
 {
 ExternalHelperAppChild

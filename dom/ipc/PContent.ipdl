@@ -783,6 +783,8 @@ bool
 aForceSave
 PRInt64
 aContentLength
+URI
+aReferrer
 )
 ;
 AddGeolocationListener

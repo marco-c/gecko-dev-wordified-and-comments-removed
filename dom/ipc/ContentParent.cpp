@@ -1715,6 +1715,13 @@ const
 PRInt64
 &
 aContentLength
+const
+IPC
+:
+:
+URI
+&
+aReferrer
 )
 {
 ExternalHelperAppParent
@@ -1744,6 +1751,7 @@ this
 aMimeContentType
 aContentDisposition
 aForceSave
+aReferrer
 )
 ;
 return
