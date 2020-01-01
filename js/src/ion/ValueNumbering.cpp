@@ -188,7 +188,7 @@ def
 ins
 -
 >
-updateForReplacement
+updateForFolding
 (
 def
 )
