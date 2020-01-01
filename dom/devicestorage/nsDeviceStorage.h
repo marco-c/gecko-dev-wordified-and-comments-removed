@@ -172,6 +172,14 @@ h
 "
 #
 define
+POST_ERROR_EVENT_FILE_EXISTS
+"
+File
+already
+exists
+"
+#
+define
 POST_ERROR_EVENT_FILE_DOES_NOT_EXIST
 "
 File
