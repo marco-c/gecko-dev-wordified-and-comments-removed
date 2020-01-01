@@ -954,6 +954,9 @@ SetContextOptions
 cx
 )
 ;
+#
+ifndef
+WINCE
 if
 (
 !
@@ -1108,6 +1111,8 @@ file
 return
 ;
 }
+#
+endif
 lineno
 =
 1
@@ -20577,6 +20582,9 @@ CheckHelpMessages
 (
 )
 ;
+#
+ifndef
+WINCE
 setlocale
 (
 LC_ALL
@@ -20584,6 +20592,8 @@ LC_ALL
 "
 )
 ;
+#
+endif
 gStackBase
 =
 (
