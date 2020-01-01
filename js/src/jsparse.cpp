@@ -14011,6 +14011,13 @@ op
 =
 JSOP_DEFFUN
 ;
+outertc
+-
+>
+noteHasDefFun
+(
+)
+;
 }
 funbox
 -
