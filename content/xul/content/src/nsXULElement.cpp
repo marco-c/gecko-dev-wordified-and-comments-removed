@@ -1620,7 +1620,10 @@ nsXULElementTearoff
 this
 )
 )
-NS_ELEMENT_INTERFACE_MAP_END
+NS_INTERFACE_MAP_END_INHERITING
+(
+nsStyledElement
+)
 nsresult
 nsXULElement
 :

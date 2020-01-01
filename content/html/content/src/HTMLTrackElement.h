@@ -106,8 +106,6 @@ MOZ_FINAL
 :
 public
 nsGenericHTMLElement
-public
-nsIDOMHTMLElement
 {
 public
 :
@@ -132,9 +130,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 HTMLTrackElement
 nsGenericHTMLElement
 )
-NS_FORWARD_NSIDOMNODE_TO_NSINODE
-NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
-NS_FORWARD_NSIDOMHTMLELEMENT_TO_GENERIC
 TextTrackKind
 Kind
 (
@@ -399,18 +394,6 @@ aResult
 const
 MOZ_OVERRIDE
 ;
-virtual
-nsIDOMNode
-*
-AsDOMNode
-(
-)
-MOZ_OVERRIDE
-{
-return
-this
-;
-}
 virtual
 void
 GetItemValueText

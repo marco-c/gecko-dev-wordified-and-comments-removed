@@ -41,8 +41,6 @@ MOZ_FINAL
 :
 public
 nsGenericHTMLElement
-public
-nsIDOMHTMLElement
 {
 public
 :
@@ -67,9 +65,6 @@ HTMLTableRowElement
 tr
 )
 NS_DECL_ISUPPORTS_INHERITED
-NS_FORWARD_NSIDOMNODE_TO_NSINODE
-NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
-NS_FORWARD_NSIDOMHTMLELEMENT_TO_GENERIC
 int32_t
 RowIndex
 (
@@ -372,18 +367,6 @@ aResult
 const
 MOZ_OVERRIDE
 ;
-virtual
-nsIDOMNode
-*
-AsDOMNode
-(
-)
-MOZ_OVERRIDE
-{
-return
-this
-;
-}
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED_NO_UNLINK
 (
 HTMLTableRowElement

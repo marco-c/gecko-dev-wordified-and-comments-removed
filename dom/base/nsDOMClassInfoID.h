@@ -145,9 +145,8 @@ _extra
 DOMCI_CASTABLE_INTERFACE
 (
 nsGenericHTMLElement
-nsGenericHTMLElement
+nsIContent
 6
-\
 _extra
 )
 \

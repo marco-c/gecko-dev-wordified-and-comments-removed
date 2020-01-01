@@ -444,11 +444,10 @@ NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
 HTMLTrackElement
 )
-NS_HTML_CONTENT_INTERFACES
+NS_INTERFACE_MAP_END_INHERITING
 (
 nsGenericHTMLElement
 )
-NS_ELEMENT_INTERFACE_MAP_END
 void
 HTMLTrackElement
 :
@@ -1061,7 +1060,7 @@ NodePrincipal
 )
 static_cast
 <
-nsGenericHTMLElement
+Element
 *
 >
 (

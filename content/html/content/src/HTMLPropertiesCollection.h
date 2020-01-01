@@ -409,7 +409,7 @@ PropertyNodeList
 >
 mNamedItemEntries
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsGenericHTMLElement
 >
