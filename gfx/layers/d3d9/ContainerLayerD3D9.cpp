@@ -1162,12 +1162,6 @@ hr
 return
 ;
 }
-nsRefPtr
-<
-IDirect3DSurface9
->
-renderSurface
-;
 renderTexture
 -
 >
