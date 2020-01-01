@@ -25765,6 +25765,12 @@ CFLAGS
 mfpu
 =
 neon
+-
+mfloat
+-
+abi
+=
+softfp
 "
 fi
 AC_TRY_COMPILE
