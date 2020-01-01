@@ -232,6 +232,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 nsIImageLoadingContent
 .
 h

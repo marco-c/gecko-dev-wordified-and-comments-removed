@@ -5,6 +5,13 @@ ImageAccessibleWrap
 .
 h
 "
+#
+include
+"
+nsIURI
+.
+h
+"
 using
 namespace
 mozilla

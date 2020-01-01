@@ -11,13 +11,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
-Orientation
-.
-h
-"
 class
 imgIContainer
 ;
@@ -32,6 +25,9 @@ image
 {
 class
 Image
+;
+class
+Orientation
 ;
 class
 ImageOps

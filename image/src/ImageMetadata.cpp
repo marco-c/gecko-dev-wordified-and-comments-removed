@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsSupportsPrimitives
+nsISupportsPrimitives
 .
 h
 "

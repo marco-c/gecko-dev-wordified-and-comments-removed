@@ -5,13 +5,9 @@ imgITools
 .
 h
 "
-#
-include
-"
-gfxContext
-.
-h
-"
+class
+gfxImageSurface
+;
 #
 define
 NS_IMGTOOLS_CID

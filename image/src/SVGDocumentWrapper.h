@@ -48,13 +48,6 @@ nsWeakReference
 .
 h
 "
-#
-include
-"
-nsMimeTypes
-.
-h
-"
 class
 nsIAtom
 ;
