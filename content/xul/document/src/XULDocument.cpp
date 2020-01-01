@@ -15516,6 +15516,9 @@ builder
 return
 NS_ERROR_FAILURE
 ;
+nsresult
+rv
+=
 builder
 -
 >
@@ -15524,6 +15527,14 @@ Init
 aElement
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
+rv
+=
 builder
 -
 >
@@ -15531,6 +15542,12 @@ CreateContents
 (
 aElement
 false
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 }
