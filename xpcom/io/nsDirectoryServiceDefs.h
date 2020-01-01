@@ -485,6 +485,12 @@ DfltDwnld
 "
 #
 define
+NS_WIN_DOCUMENTS_DIR
+"
+Docs
+"
+#
+define
 NS_WIN_PICTURES_DIR
 "
 Pict
