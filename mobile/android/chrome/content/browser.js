@@ -32990,6 +32990,10 @@ DENY_ACTION
 let
 options
 =
+uri
+.
+host
+?
 {
 checkbox
 :
@@ -33005,6 +33009,9 @@ clickToPlayPlugins
 dontAskAgain
 "
 )
+}
+:
+{
 }
 ;
 NativeWindow
