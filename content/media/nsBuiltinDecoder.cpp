@@ -4279,7 +4279,7 @@ mOwner
 >
 UpdateReadyStateForData
 (
-nsBuiltinDecoder
+MediaDecoderOwner
 :
 :
 NEXT_FRAME_UNAVAILABLE_BUFFERING
@@ -4328,7 +4328,7 @@ mOwner
 >
 UpdateReadyStateForData
 (
-nsBuiltinDecoder
+MediaDecoderOwner
 :
 :
 NEXT_FRAME_AVAILABLE
@@ -4377,7 +4377,7 @@ mOwner
 >
 UpdateReadyStateForData
 (
-nsBuiltinDecoder
+MediaDecoderOwner
 :
 :
 NEXT_FRAME_UNAVAILABLE
@@ -4421,6 +4421,9 @@ mDecoderStateMachine
 )
 return
 ;
+MediaDecoderOwner
+:
+:
 NextFrameStatus
 frameStatus
 =

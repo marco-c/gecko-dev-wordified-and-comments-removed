@@ -6442,7 +6442,7 @@ mPositionChangeQueued
 false
 ;
 }
-nsBuiltinDecoder
+MediaDecoderOwner
 :
 :
 NextFrameStatus
@@ -6477,7 +6477,7 @@ IsSeeking
 )
 {
 return
-nsBuiltinDecoder
+MediaDecoderOwner
 :
 :
 NEXT_FRAME_UNAVAILABLE_BUFFERING
@@ -6492,14 +6492,14 @@ HaveNextFrameData
 )
 {
 return
-nsBuiltinDecoder
+MediaDecoderOwner
 :
 :
 NEXT_FRAME_AVAILABLE
 ;
 }
 return
-nsBuiltinDecoder
+MediaDecoderOwner
 :
 :
 NEXT_FRAME_UNAVAILABLE
@@ -12120,7 +12120,7 @@ GetNextFrameStatus
 )
 {
 case
-nsBuiltinDecoder
+MediaDecoderOwner
 :
 :
 NEXT_FRAME_UNAVAILABLE_BUFFERING
@@ -12140,7 +12140,7 @@ NextFrameUnavailableBuffering
 break
 ;
 case
-nsBuiltinDecoder
+MediaDecoderOwner
 :
 :
 NEXT_FRAME_AVAILABLE
@@ -12160,7 +12160,7 @@ NextFrameAvailable
 break
 ;
 case
-nsBuiltinDecoder
+MediaDecoderOwner
 :
 :
 NEXT_FRAME_UNAVAILABLE

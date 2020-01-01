@@ -354,6 +354,13 @@ nsOggCodecState
 {
 public
 :
+typedef
+mozilla
+:
+:
+MetadataTags
+MetadataTags
+;
 enum
 CodecType
 {
