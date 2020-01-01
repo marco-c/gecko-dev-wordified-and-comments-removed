@@ -579,6 +579,10 @@ false
 if
 (
 !
+rangeParent
+|
+|
+!
 this
 .
 mInlineSpellChecker
