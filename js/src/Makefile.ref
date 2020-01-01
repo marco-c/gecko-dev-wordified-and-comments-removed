@@ -1900,11 +1900,11 @@ files
 DEPENDENCIES
 =
 (
-CFILES
+CPPFILES
 :
 %
 .
-c
+cpp
 =
 (
 OBJDIR
