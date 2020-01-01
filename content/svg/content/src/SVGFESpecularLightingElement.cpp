@@ -99,7 +99,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SVGFESpecularLightingElement
 :
@@ -122,7 +122,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SVGFESpecularLightingElement
 :
@@ -145,7 +145,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SVGFESpecularLightingElement
 :
@@ -168,7 +168,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SVGFESpecularLightingElement
 :
@@ -195,7 +195,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SVGFESpecularLightingElement
 :

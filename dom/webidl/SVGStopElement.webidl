@@ -140,9 +140,6 @@ apply
 *
 /
 interface
-SVGAnimatedNumber
-;
-interface
 SVGStopElement
 :
 SVGElement

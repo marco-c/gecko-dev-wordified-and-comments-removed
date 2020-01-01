@@ -967,6 +967,10 @@ SVGAnimatedLengthList
 .
 webidl
 \
+SVGAnimatedNumber
+.
+webidl
+\
 SVGAnimatedNumberList
 .
 webidl

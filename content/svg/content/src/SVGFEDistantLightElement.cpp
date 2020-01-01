@@ -143,7 +143,7 @@ elevation
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SVGFEDistantLightElement
 :
@@ -166,7 +166,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SVGFEDistantLightElement
 :

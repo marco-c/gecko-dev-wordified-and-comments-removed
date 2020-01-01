@@ -161,7 +161,7 @@ In1
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SurfaceScale
 (
@@ -169,7 +169,7 @@ SurfaceScale
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SpecularConstant
 (
@@ -177,7 +177,7 @@ SpecularConstant
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SpecularExponent
 (
@@ -185,7 +185,7 @@ SpecularExponent
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 KernelUnitLengthX
 (
@@ -193,7 +193,7 @@ KernelUnitLengthX
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 KernelUnitLengthY
 (

@@ -192,6 +192,11 @@ SVGAnimatedLength
 h
 '
 '
+SVGAnimatedNumber
+.
+h
+'
+'
 SVGAnimatedRect
 .
 h
@@ -658,6 +663,11 @@ cpp
 '
 '
 SVGAnimatedLengthList
+.
+cpp
+'
+'
+SVGAnimatedNumber
 .
 cpp
 '

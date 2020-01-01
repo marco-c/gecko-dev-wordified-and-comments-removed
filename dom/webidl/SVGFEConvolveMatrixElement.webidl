@@ -140,9 +140,6 @@ apply
 *
 /
 interface
-SVGAnimatedNumber
-;
-interface
 SVGFEConvolveMatrixElement
 :
 SVGElement

@@ -135,7 +135,7 @@ In1
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SurfaceScale
 (
@@ -143,7 +143,7 @@ SurfaceScale
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 DiffuseConstant
 (
@@ -151,7 +151,7 @@ DiffuseConstant
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 KernelUnitLengthX
 (
@@ -159,7 +159,7 @@ KernelUnitLengthX
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 KernelUnitLengthY
 (

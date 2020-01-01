@@ -264,7 +264,7 @@ In2
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 Scale
 (

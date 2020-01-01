@@ -315,7 +315,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SVGFEDisplacementMapElement
 :

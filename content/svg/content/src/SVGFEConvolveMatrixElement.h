@@ -360,7 +360,7 @@ PreserveAlpha
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 Divisor
 (
@@ -368,7 +368,7 @@ Divisor
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 Bias
 (
@@ -376,7 +376,7 @@ Bias
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 KernelUnitLengthX
 (
@@ -384,7 +384,7 @@ KernelUnitLengthX
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 KernelUnitLengthY
 (

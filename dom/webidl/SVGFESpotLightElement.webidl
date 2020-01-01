@@ -140,9 +140,6 @@ apply
 *
 /
 interface
-SVGAnimatedNumber
-;
-interface
 SVGFESpotLightElement
 :
 SVGElement

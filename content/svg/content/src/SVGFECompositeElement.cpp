@@ -318,7 +318,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SVGFECompositeElement
 :
@@ -341,7 +341,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SVGFECompositeElement
 :
@@ -364,7 +364,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SVGFECompositeElement
 :
@@ -387,7 +387,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 SVGFECompositeElement
 :

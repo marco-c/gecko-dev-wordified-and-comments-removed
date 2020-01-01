@@ -228,7 +228,7 @@ MOZ_OVERRIDE
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 BaseFrequencyX
 (
@@ -236,7 +236,7 @@ BaseFrequencyX
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 BaseFrequencyY
 (
@@ -252,7 +252,7 @@ NumOctaves
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 Seed
 (

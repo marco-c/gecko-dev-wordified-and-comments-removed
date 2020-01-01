@@ -278,7 +278,7 @@ Operator
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 RadiusX
 (
@@ -286,7 +286,7 @@ RadiusX
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 RadiusY
 (

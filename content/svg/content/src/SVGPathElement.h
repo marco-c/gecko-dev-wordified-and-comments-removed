@@ -262,7 +262,7 @@ aFor
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedNumber
+SVGAnimatedNumber
 >
 PathLength
 (
