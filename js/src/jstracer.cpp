@@ -24701,7 +24701,7 @@ bool
 TraceRecorder
 :
 :
-forInOp
+forInLoop
 (
 LIns
 *
@@ -24981,6 +24981,12 @@ cursor
 LIns
 *
 ids_ins
+;
+LIns
+*
+id_addr_ins
+;
+ids_ins
 =
 lir
 -
@@ -24996,8 +25002,6 @@ ids
 )
 )
 ;
-LIns
-*
 id_addr_ins
 =
 lir
@@ -25131,7 +25135,7 @@ id_ins
 if
 (
 !
-forInOp
+forInLoop
 (
 id_ins
 )
@@ -25307,7 +25311,7 @@ id_ins
 if
 (
 !
-forInOp
+forInLoop
 (
 id_ins
 )
@@ -25356,7 +25360,7 @@ id_ins
 if
 (
 !
-forInOp
+forInLoop
 (
 id_ins
 )
