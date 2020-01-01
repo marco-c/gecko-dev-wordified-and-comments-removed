@@ -896,7 +896,11 @@ DATE_CO_FLAGS
 "
 -
 D
+\
+"
 MOZ_CO_DATE
+\
+"
 "
 fi
 if
