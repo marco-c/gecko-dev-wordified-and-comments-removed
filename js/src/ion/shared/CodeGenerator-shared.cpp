@@ -1440,6 +1440,16 @@ GetIonContext
 -
 >
 cx
+&
+&
+JSOp
+(
+*
+bailPC
+)
+!
+=
+JSOP_FUNAPPLY
 exprStack
 =
 =
