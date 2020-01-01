@@ -3797,7 +3797,7 @@ supportedIIDs
 [
 Ci
 .
-nsIContentPrefService
+nsIContentPrefService2
 Ci
 .
 nsIObserver
