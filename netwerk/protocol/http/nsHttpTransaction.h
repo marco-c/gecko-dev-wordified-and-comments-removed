@@ -237,12 +237,12 @@ mResponseIsComplete
 ;
 }
 bool
-SSLConnectFailed
+ProxyConnectFailed
 (
 )
 {
 return
-mSSLConnectFailed
+mProxyConnectFailed
 ;
 }
 void
@@ -599,7 +599,7 @@ bool
 mHasRequestBody
 ;
 bool
-mSSLConnectFailed
+mProxyConnectFailed
 ;
 bool
 mHttpResponseMatched
