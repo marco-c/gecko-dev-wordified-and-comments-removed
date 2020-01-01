@@ -1496,7 +1496,9 @@ Length
 ]
 .
 mResultNeededBox
-=
+.
+IntersectRect
+(
 mPrimitives
 [
 mPrimitives
@@ -1509,6 +1511,8 @@ Length
 ]
 .
 mResultBoundingBox
+mDirtyRect
+)
 ;
 for
 (
