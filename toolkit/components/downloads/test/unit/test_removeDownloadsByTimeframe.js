@@ -272,7 +272,7 @@ checkFunc
 (
 stmt
 .
-step
+executeStep
 (
 )
 )
