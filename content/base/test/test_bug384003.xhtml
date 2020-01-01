@@ -329,7 +329,7 @@ is
 (
 ex
 .
-code
+name
 extype
 "
 Wrong
@@ -466,11 +466,6 @@ an
 exception
 .
 var
-NAMESPACE_ERR
-=
-14
-;
-var
 foo
 =
 document
@@ -499,7 +494,9 @@ foo
 "
 document
 foo
-NAMESPACE_ERR
+"
+NamespaceError
+"
 )
 ;
 /
@@ -519,7 +516,9 @@ document
 .
 documentElement
 foo
-NAMESPACE_ERR
+"
+NamespaceError
+"
 )
 ;
 /
@@ -546,7 +545,9 @@ attr
 "
 )
 foo
-NAMESPACE_ERR
+"
+NamespaceError
+"
 )
 ;
 /
@@ -569,7 +570,9 @@ documentElement
 .
 firstChild
 foo
-NAMESPACE_ERR
+"
+NamespaceError
+"
 )
 ;
 /
@@ -594,7 +597,9 @@ firstChild
 .
 nextSibling
 foo
-NAMESPACE_ERR
+"
+NamespaceError
+"
 )
 ;
 /
