@@ -399,7 +399,7 @@ ReplyToConnect
 )
 ;
 void
-ReplyToDisconnect
+ReplyToDisconnectOrAbort
 (
 )
 ;
