@@ -437,10 +437,6 @@ nsMediaDecoder
 .
 h
 \
-nsMediaStream
-.
-h
-\
 nsMediaCache
 .
 h
@@ -454,6 +450,10 @@ nsBuiltinDecoderStateMachine
 h
 \
 nsBuiltinDecoderReader
+.
+h
+\
+MediaResource
 .
 h
 \
@@ -483,10 +483,6 @@ nsMediaCache
 .
 cpp
 \
-nsMediaStream
-.
-cpp
-\
 nsBuiltinDecoder
 .
 cpp
@@ -496,6 +492,10 @@ nsBuiltinDecoderStateMachine
 cpp
 \
 nsBuiltinDecoderReader
+.
+cpp
+\
+MediaResource
 .
 cpp
 \

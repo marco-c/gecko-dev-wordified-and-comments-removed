@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsMediaStream
+MediaResource
 .
 h
 "
@@ -1336,7 +1336,7 @@ return
 mDecoder
 -
 >
-GetStream
+GetResource
 (
 )
 -
@@ -1389,7 +1389,7 @@ startOffset
 mDecoder
 -
 >
-GetStream
+GetResource
 (
 )
 -
@@ -1413,7 +1413,7 @@ endOffset
 mDecoder
 -
 >
-GetStream
+GetResource
 (
 )
 -
@@ -1481,7 +1481,7 @@ startOffset
 mDecoder
 -
 >
-GetStream
+GetResource
 (
 )
 -
@@ -1542,7 +1542,7 @@ NS_FAILED
 mDecoder
 -
 >
-GetStream
+GetResource
 (
 )
 -
@@ -1567,7 +1567,7 @@ read
 NS_WARNING
 (
 "
-Stream
+Resource
 read
 failed
 "
@@ -1652,7 +1652,7 @@ NS_ABORT_IF_FALSE
 mDecoder
 -
 >
-GetStream
+GetResource
 (
 )
 -
@@ -1667,7 +1667,7 @@ Tell
 LoadRIFFChunk
 called
 when
-stream
+resource
 in
 invalid
 state
@@ -1719,7 +1719,7 @@ RIFF_CHUNK_MAGIC
 NS_WARNING
 (
 "
-Stream
+resource
 data
 not
 in
@@ -2004,7 +2004,7 @@ NS_ABORT_IF_FALSE
 mDecoder
 -
 >
-GetStream
+GetResource
 (
 )
 -
@@ -2022,7 +2022,7 @@ LoadFormatChunk
 called
 with
 unaligned
-stream
+resource
 "
 )
 ;
@@ -2322,7 +2322,7 @@ NS_ABORT_IF_FALSE
 mDecoder
 -
 >
-GetStream
+GetResource
 (
 )
 -
@@ -2338,7 +2338,7 @@ Tell
 "
 LoadFormatChunk
 left
-stream
+resource
 unaligned
 "
 )
@@ -2478,7 +2478,7 @@ NS_ABORT_IF_FALSE
 mDecoder
 -
 >
-GetStream
+GetResource
 (
 )
 -
@@ -2496,7 +2496,7 @@ FindDataOffset
 called
 with
 unaligned
-stream
+resource
 "
 )
 ;
@@ -2524,7 +2524,7 @@ offset
 mDecoder
 -
 >
-GetStream
+GetResource
 (
 )
 -
@@ -2722,7 +2722,7 @@ streamLength
 mDecoder
 -
 >
-GetStream
+GetResource
 (
 )
 -
@@ -2778,7 +2778,7 @@ return
 mDecoder
 -
 >
-GetStream
+GetResource
 (
 )
 -
