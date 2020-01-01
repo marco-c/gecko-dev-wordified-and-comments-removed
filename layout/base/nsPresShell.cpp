@@ -20360,6 +20360,13 @@ rootScrollFrame
 }
 builder
 .
+SetBackgroundOnly
+(
+PR_FALSE
+)
+;
+builder
+.
 EnterPresShell
 (
 rootFrame
