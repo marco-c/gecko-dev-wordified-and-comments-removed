@@ -1300,17 +1300,6 @@ obj
 ;
 }
 static
-const
-uint32_t
-SINGLETON_TYPE_BYTE_LENGTH
-=
-1024
-*
-1024
-*
-10
-;
-static
 int
 lengthOffset
 (
