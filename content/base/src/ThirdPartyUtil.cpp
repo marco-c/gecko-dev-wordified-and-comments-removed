@@ -437,7 +437,7 @@ rv
 current
 -
 >
-GetParent
+GetScriptableParent
 (
 getter_AddRefs
 (
@@ -775,7 +775,7 @@ NS_ERROR_INVALID_ARG
 ourWin
 -
 >
-GetParent
+GetScriptableParent
 (
 getter_AddRefs
 (
