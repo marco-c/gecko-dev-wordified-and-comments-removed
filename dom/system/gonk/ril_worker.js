@@ -52031,6 +52031,18 @@ field
 USIM_PBR_ANR0
 &
 &
+(
+!
+Array
+.
+isArray
+(
+contact
+.
+anr
+)
+|
+|
 !
 contact
 .
@@ -52038,6 +52050,7 @@ anr
 [
 0
 ]
+)
 )
 )
 {
