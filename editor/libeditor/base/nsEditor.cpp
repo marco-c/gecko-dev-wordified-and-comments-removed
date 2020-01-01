@@ -15417,6 +15417,11 @@ outStartNode
 =
 nsnull
 ;
+*
+outStartOffset
+=
+0
+;
 nsCOMPtr
 <
 nsISelectionPrivate
