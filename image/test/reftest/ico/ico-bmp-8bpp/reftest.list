@@ -308,6 +308,12 @@ size
 8bpp
 .
 png
+skip
+-
+if
+(
+B2G
+)
 =
 =
 ico
@@ -328,6 +334,9 @@ size
 8bpp
 .
 png
+#
+bug
+773482
 =
 =
 ico

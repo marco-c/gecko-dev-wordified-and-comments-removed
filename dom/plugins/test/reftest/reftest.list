@@ -383,6 +383,9 @@ skip
 if
 (
 Android
+|
+|
+B2G
 )
 =
 =
@@ -405,6 +408,9 @@ html
 #
 bug
 629430
+#
+bug
+773482
 #
 The
 following

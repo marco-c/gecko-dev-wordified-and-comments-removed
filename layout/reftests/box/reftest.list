@@ -160,6 +160,12 @@ vertical
 ref
 .
 xhtml
+skip
+-
+if
+(
+B2G
+)
 =
 =
 flexbox
@@ -186,6 +192,12 @@ horizontal
 ref
 .
 xhtml
+skip
+-
+if
+(
+B2G
+)
 =
 =
 flexbox

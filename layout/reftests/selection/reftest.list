@@ -398,6 +398,9 @@ random
 if
 (
 Android
+|
+|
+B2G
 )
 !
 =
@@ -453,6 +456,9 @@ random
 if
 (
 Android
+|
+|
+B2G
 )
 fails
 -
@@ -478,11 +484,17 @@ widget
 ref
 .
 html
+#
+bug
+773482
 random
 -
 if
 (
 Android
+|
+|
+B2G
 )
 fails
 -

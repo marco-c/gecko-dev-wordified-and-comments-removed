@@ -402,6 +402,12 @@ skip
 -
 if
 (
+B2G
+)
+skip
+-
+if
+(
 gtk2Widget
 )
 =
@@ -422,6 +428,9 @@ cjk
 ref
 .
 html
+#
+bug
+773482
 =
 =
 smileys

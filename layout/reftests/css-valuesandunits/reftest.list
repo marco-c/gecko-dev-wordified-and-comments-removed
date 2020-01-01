@@ -56,6 +56,12 @@ rem
 ref
 .
 html
+skip
+-
+if
+(
+B2G
+)
 =
 =
 unit
@@ -74,6 +80,9 @@ ref
 iframe
 .
 html
+#
+bug
+773482
 =
 =
 unit

@@ -160,6 +160,12 @@ iframe
 ref
 .
 html
+skip
+-
+if
+(
+B2G
+)
 needs
 -
 focus
@@ -185,3 +191,6 @@ focus
 ref
 .
 html
+#
+bug
+773482

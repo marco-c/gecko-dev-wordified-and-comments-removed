@@ -54,6 +54,12 @@ rtl
 ref
 .
 html
+skip
+-
+if
+(
+B2G
+)
 =
 =
 bar
@@ -169,6 +175,12 @@ rtl
 ref
 .
 html
+skip
+-
+if
+(
+B2G
+)
 =
 =
 bar

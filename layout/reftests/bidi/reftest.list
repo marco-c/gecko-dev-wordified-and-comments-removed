@@ -1976,6 +1976,12 @@ html
 ref
 .
 html
+skip
+-
+if
+(
+B2G
+)
 =
 =
 698291
@@ -2118,6 +2124,12 @@ html
 ref
 .
 html
+skip
+-
+if
+(
+B2G
+)
 =
 =
 726420

@@ -218,6 +218,12 @@ test
 for
 bug
 641198
+skip
+-
+if
+(
+B2G
+)
 random
 -
 if
@@ -234,6 +240,9 @@ animation2a
 finalframe
 .
 gif
+#
+bug
+773482
 #
 webcam
 -
@@ -467,6 +476,12 @@ parts
 .
 "
 )
+skip
+-
+if
+(
+B2G
+)
 random
 -
 if
@@ -482,3 +497,6 @@ html
 blue
 .
 gif
+#
+bug
+773482

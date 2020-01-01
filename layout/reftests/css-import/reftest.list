@@ -1,3 +1,9 @@
+skip
+-
+if
+(
+B2G
+)
 =
 =
 290018
@@ -98,6 +104,12 @@ xhtml
 ref
 .
 xhtml
+skip
+-
+if
+(
+B2G
+)
 =
 =
 445415
@@ -112,6 +124,15 @@ xhtml
 ref
 .
 xhtml
+#
+bug
+773482
+skip
+-
+if
+(
+B2G
+)
 =
 =
 445415
@@ -126,3 +147,6 @@ xhtml
 ref
 .
 xhtml
+#
+bug
+773482

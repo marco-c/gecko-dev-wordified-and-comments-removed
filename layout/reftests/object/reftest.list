@@ -136,6 +136,12 @@ type
 ref
 .
 html
+skip
+-
+if
+(
+B2G
+)
 fails
 -
 if
@@ -168,6 +174,9 @@ typesniff
 ref
 .
 html
+#
+bug
+773482
 =
 =
 image

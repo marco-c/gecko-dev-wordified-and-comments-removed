@@ -27,6 +27,12 @@ input
 ref
 .
 html
+skip
+-
+if
+(
+B2G
+)
 fails
 -
 if
@@ -45,6 +51,12 @@ input
 ref
 .
 html
+skip
+-
+if
+(
+B2G
+)
 fails
 -
 if

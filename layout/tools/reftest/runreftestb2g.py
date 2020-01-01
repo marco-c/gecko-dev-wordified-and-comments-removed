@@ -3338,7 +3338,7 @@ iframe
 .
 enabled
 "
-true
+false
 )
 ;
 user_pref

@@ -676,6 +676,12 @@ truncation
 ref
 .
 html
+skip
+-
+if
+(
+B2G
+)
 =
 =
 balancing
@@ -690,6 +696,9 @@ balancing
 ref
 .
 html
+#
+bug
+773482
 =
 =
 balancing

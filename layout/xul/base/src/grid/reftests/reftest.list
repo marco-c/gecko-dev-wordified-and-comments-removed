@@ -343,6 +343,12 @@ pack
 ref
 .
 xhtml
+skip
+-
+if
+(
+B2G
+)
 fails
 -
 if

@@ -16,6 +16,12 @@ autofocus
 reftest
 .
 list
+skip
+-
+if
+(
+B2G
+)
 =
 =
 41464
@@ -30,6 +36,12 @@ html
 ref
 .
 html
+skip
+-
+if
+(
+B2G
+)
 =
 =
 41464
@@ -295,6 +307,9 @@ skip
 if
 (
 Android
+|
+|
+B2G
 )
 =
 =

@@ -484,6 +484,12 @@ preserve3d
 ref
 .
 html
+skip
+-
+if
+(
+B2G
+)
 =
 =
 preserve3d

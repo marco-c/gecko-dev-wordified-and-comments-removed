@@ -27,6 +27,12 @@ textarea
 ref
 .
 html
+skip
+-
+if
+(
+B2G
+)
 fails
 -
 if
@@ -55,6 +61,9 @@ fails
 if
 (
 Android
+|
+|
+B2G
 )
 =
 =

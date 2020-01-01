@@ -212,6 +212,12 @@ scrollframe
 ref
 .
 html
+skip
+-
+if
+(
+B2G
+)
 fuzzy
 -
 if
@@ -310,6 +316,9 @@ fuzzy
 if
 (
 Android
+|
+|
+B2G
 17
 726
 )
