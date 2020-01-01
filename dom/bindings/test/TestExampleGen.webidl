@@ -3091,8 +3091,6 @@ add
 them
 to
 TestCodeGen
-and
-TestJSImplGen
 as
 well
 }
