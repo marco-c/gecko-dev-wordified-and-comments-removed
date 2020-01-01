@@ -113,6 +113,10 @@ MPL
 /
 include
 protocol
+PBlob
+;
+include
+protocol
 PBluetoothRequest
 ;
 include
@@ -335,6 +339,17 @@ DisconnectObjectPushRequest
 {
 }
 ;
+struct
+SendFileRequest
+{
+nsString
+devicePath
+;
+PBlob
+blob
+;
+}
+;
 union
 Request
 {
@@ -373,6 +388,8 @@ ConnectObjectPushRequest
 DisconnectHeadsetRequest
 ;
 DisconnectObjectPushRequest
+;
+SendFileRequest
 ;
 }
 ;
