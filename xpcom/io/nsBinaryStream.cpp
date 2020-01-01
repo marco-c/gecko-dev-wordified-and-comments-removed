@@ -781,7 +781,7 @@ NS_ERROR_OUT_OF_MEMORY
 NS_ASSERTION
 (
 (
-PRUptrdiff
+uintptr_t
 (
 aString
 )

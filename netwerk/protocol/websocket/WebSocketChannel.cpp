@@ -6185,7 +6185,7 @@ len
 (
 reinterpret_cast
 <
-PRUptrdiff
+uintptr_t
 >
 (
 data

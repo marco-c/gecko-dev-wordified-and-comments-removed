@@ -253,7 +253,7 @@ mConstructorCID
 }
 ;
 typedef
-PRUptrdiff
+uintptr_t
 PtrBits
 ;
 #

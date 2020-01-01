@@ -136,7 +136,8 @@ defined
 _UINTPTR_T_DEFINED
 )
 typedef
-PRUptrdiff
+unsigned
+long
 uintptr_t
 ;
 #
