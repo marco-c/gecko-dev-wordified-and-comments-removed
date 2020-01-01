@@ -2460,14 +2460,9 @@ put
 self
 .
 cb
-this
-.
-_serializeCommands
-(
 server
 .
 deltas
-)
 )
 ;
 yield
