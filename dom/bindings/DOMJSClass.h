@@ -549,6 +549,11 @@ NativePropertyHooks
 *
 mNativeHooks
 ;
+const
+char
+*
+mToString
+;
 static
 const
 DOMIfaceAndProtoJSClass
