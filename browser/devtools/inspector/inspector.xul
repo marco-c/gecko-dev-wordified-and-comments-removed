@@ -815,11 +815,6 @@ devtools
 -
 toolbarbutton
 "
-hidden
-=
-"
-true
-"
 oncommand
 =
 "
