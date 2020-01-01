@@ -257,7 +257,7 @@ HINTLEFT
 )
 mIgnoreUserModify
 (
-PR_FALSE
+PR_TRUE
 )
 #
 ifdef
