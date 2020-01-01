@@ -5714,6 +5714,17 @@ bundles
 mochitest
 "
 )
+if
+not
+os
+.
+path
+.
+exists
+(
+manifestdir
+)
+:
 os
 .
 makedirs
