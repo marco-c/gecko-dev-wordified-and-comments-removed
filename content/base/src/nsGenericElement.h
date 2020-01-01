@@ -714,13 +714,13 @@ nsIAtom
 *
 aPrefix
 const
-nsAString
+nsAttrValue
 &
 aValue
 bool
 aNotify
-nsAutoString
-*
+nsAttrValue
+&
 aOldValue
 PRUint8
 *
@@ -2069,7 +2069,7 @@ nsIAtom
 *
 aPrefix
 const
-nsAString
+nsAttrValue
 &
 aOldValue
 nsAttrValue
