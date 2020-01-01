@@ -3390,6 +3390,10 @@ break
 ;
 }
 }
+gfxMixedFontFamily
+*
+family
+=
 static_cast
 <
 gfxMixedFontFamily
@@ -3403,6 +3407,13 @@ Family
 (
 )
 )
+;
+if
+(
+family
+)
+{
+family
 -
 >
 ReplaceFontEntry
@@ -3411,6 +3422,7 @@ aProxy
 aFontEntry
 )
 ;
+}
 }
 nsCSSFontFaceRule
 *
