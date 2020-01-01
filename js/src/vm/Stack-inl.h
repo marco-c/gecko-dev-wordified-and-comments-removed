@@ -2320,6 +2320,8 @@ JSScript
 script
 InitialFrameFlags
 initial
+MaybeReportError
+report
 )
 {
 JS_ASSERT
@@ -2373,7 +2375,7 @@ fp
 getCallFrame
 (
 cx
-REPORT_ERROR
+report
 args
 &
 callee

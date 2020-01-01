@@ -128,6 +128,13 @@ BAILOUT_RETURN_INVALIDATE
 =
 7
 ;
+static
+const
+uint32
+BAILOUT_RETURN_OVERRECURSED
+=
+8
+;
 class
 BailoutClosure
 {
