@@ -1001,6 +1001,16 @@ color
 GrayText
 ;
 }
+.
+tooltip
+-
+label
+{
+margin
+:
+0
+;
+}
 description
 {
 margin

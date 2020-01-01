@@ -1083,6 +1083,16 @@ ThreeDHighlight
 ;
 }
 .
+tooltip
+-
+label
+{
+margin
+:
+0
+;
+}
+.
 header
 {
 font
