@@ -667,16 +667,6 @@ nsView
 (
 )
 ;
-nsPoint
-ViewToWidgetOffset
-(
-)
-const
-{
-return
-mViewToWidgetOffset
-;
-}
 protected
 :
 void
@@ -699,9 +689,6 @@ mClipRect
 nsRegion
 *
 mDirtyRegion
-;
-nsPoint
-mViewToWidgetOffset
 ;
 PRPackedBool
 mChildRemoved
