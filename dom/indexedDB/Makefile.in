@@ -430,10 +430,10 @@ MODULE
 dom
 LIBRARY_NAME
 =
-domindexedDB_s
+dom_indexeddb_s
 XPIDL_MODULE
 =
-domindexedDB
+dom_indexeddb
 LIBXUL_LIBRARY
 =
 1
