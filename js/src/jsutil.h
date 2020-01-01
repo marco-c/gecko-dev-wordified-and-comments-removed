@@ -2622,6 +2622,17 @@ T
 )
 ;
 }
+enum
+MaybeReportError
+{
+REPORT_ERROR
+=
+true
+DONT_REPORT_ERROR
+=
+false
+}
+;
 }
 #
 endif

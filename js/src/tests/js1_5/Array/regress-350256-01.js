@@ -12,10 +12,6 @@ Array
 apply
 maximum
 arguments
-:
-2
-^
-16
 '
 ;
 var

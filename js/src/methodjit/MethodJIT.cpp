@@ -3429,6 +3429,7 @@ space
 getStackLimit
 (
 cx
+REPORT_ERROR
 )
 ;
 if

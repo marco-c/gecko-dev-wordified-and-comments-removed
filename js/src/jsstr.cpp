@@ -92,13 +92,6 @@ h
 #
 include
 "
-jsfun
-.
-h
-"
-#
-include
-"
 jsgc
 .
 h
@@ -16793,7 +16786,10 @@ JS_ASSERT
 argc
 <
 =
-JS_ARGS_LENGTH_MAX
+StackSpace
+:
+:
+ARGS_LENGTH_MAX
 )
 ;
 if

@@ -13540,6 +13540,10 @@ system
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
+JSPrincipals
+*
+jsprin
+;
 rv
 =
 system
@@ -13547,6 +13551,8 @@ system
 >
 Init
 (
+&
+jsprin
 )
 ;
 NS_ENSURE_SUCCESS
@@ -13636,6 +13642,12 @@ callbacks
 "
 )
 ;
+JS_SetTrustedPrincipals
+(
+sRuntime
+jsprin
+)
+;
 return
 NS_OK
 ;
@@ -13719,6 +13731,12 @@ sRuntime
 )
 {
 JS_SetRuntimeSecurityCallbacks
+(
+sRuntime
+NULL
+)
+;
+JS_SetTrustedPrincipals
 (
 sRuntime
 NULL

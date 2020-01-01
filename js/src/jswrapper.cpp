@@ -1901,6 +1901,7 @@ stack
 pushDummyFrame
 (
 context
+REPORT_ERROR
 *
 scopeChain
 frame
@@ -1994,13 +1995,6 @@ LeaveTrace
 context
 )
 ;
-context
--
->
-compartment
-=
-destination
-;
 JSObject
 *
 scopeChain
@@ -2028,6 +2022,13 @@ construct
 (
 )
 ;
+context
+-
+>
+compartment
+=
+destination
+;
 if
 (
 !
@@ -2039,6 +2040,7 @@ stack
 pushDummyFrame
 (
 context
+DONT_REPORT_ERROR
 *
 scopeChain
 &
@@ -2056,6 +2058,11 @@ context
 compartment
 =
 origin
+;
+js_ReportOverRecursed
+(
+context
+)
 ;
 return
 false
