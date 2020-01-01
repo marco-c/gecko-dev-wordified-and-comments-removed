@@ -884,16 +884,6 @@ numberWithInt
 ]
 ;
 }
-_poolInfo
-=
-[
-[
-NSAutoreleasePool
-alloc
-]
-init
-]
-;
 _captureDeviceCountInfo
 =
 0

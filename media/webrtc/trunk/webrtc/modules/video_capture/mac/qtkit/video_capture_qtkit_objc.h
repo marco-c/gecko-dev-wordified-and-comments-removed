@@ -178,10 +178,6 @@ NSString
 *
 _captureQuality
 ;
-NSAutoreleasePool
-*
-_pool
-;
 }
 -
 (
