@@ -95,11 +95,6 @@ Available
 (
 )
 ;
-float
-GetVolume
-(
-)
-;
 void
 SetVolume
 (

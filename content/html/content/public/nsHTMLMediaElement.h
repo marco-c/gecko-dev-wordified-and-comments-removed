@@ -579,7 +579,7 @@ nsMediaReadyState
 mReadyState
 ;
 float
-mMutedVolume
+mVolume
 ;
 nsIntSize
 mMediaSize
