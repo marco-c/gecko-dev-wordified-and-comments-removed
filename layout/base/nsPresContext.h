@@ -582,6 +582,17 @@ return
 mImageAnimationMode
 ;
 }
+void
+RestoreImageAnimationMode
+(
+)
+{
+SetImageAnimationMode
+(
+mImageAnimationModePref
+)
+;
+}
 virtual
 NS_HIDDEN_
 (
