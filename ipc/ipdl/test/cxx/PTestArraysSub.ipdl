@@ -12,6 +12,7 @@ mozilla
 namespace
 _ipdltest
 {
+sync
 protocol
 PTestArraysSub
 {
@@ -20,6 +21,7 @@ PTestArrays
 ;
 parent
 :
+sync
 __delete__
 (
 )
