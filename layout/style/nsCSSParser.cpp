@@ -23252,6 +23252,8 @@ stop
 >
 mLocation
 VARIANT_LP
+|
+VARIANT_CALC
 nullptr
 )
 )

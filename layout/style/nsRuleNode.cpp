@@ -4406,6 +4406,8 @@ nsStyleCoord
 (
 )
 SETCOORD_LPO
+|
+SETCOORD_STORE_CALC
 aContext
 aPresContext
 aCanStoreInRuleTree
