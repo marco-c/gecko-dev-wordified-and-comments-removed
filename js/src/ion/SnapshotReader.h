@@ -75,15 +75,6 @@ resumeAfter_
 ;
 #
 ifdef
-DEBUG
-JSScript
-*
-script_
-;
-#
-endif
-#
-ifdef
 TRACK_SNAPSHOTS
 private
 :
