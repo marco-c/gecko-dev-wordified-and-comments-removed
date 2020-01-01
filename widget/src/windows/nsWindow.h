@@ -414,6 +414,13 @@ aCursor
 )
 ;
 NS_IMETHOD
+MakeFullScreen
+(
+PRBool
+aFullScreen
+)
+;
+NS_IMETHOD
 HideWindowChrome
 (
 PRBool

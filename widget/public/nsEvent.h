@@ -20,6 +20,7 @@ nsSizeMode_Normal
 0
 nsSizeMode_Minimized
 nsSizeMode_Maximized
+nsSizeMode_Fullscreen
 }
 ;
 class

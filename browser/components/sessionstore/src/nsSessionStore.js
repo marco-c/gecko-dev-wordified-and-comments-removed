@@ -14271,6 +14271,11 @@ windowState
 case
 aWindow
 .
+STATE_FULLSCREEN
+:
+case
+aWindow
+.
 STATE_MAXIMIZED
 :
 return
