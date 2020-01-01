@@ -625,6 +625,11 @@ Addons
 :
 Manager
 "
+disablefastfind
+=
+"
+true
+"
 ondragenter
 =
 "
