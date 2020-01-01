@@ -1321,13 +1321,6 @@ aEvent
 )
 ;
 }
-onDragExit
-:
-function
-(
-)
-{
-}
 onDrop
 :
 function
