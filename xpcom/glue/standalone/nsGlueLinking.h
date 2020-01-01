@@ -21,7 +21,7 @@ list
 "
 NS_HIDDEN_
 (
-GetFrozenFunctionsFunc
+nsresult
 )
 XPCOMGlueLoad
 (
@@ -29,6 +29,10 @@ const
 char
 *
 xpcomFile
+GetFrozenFunctionsFunc
+*
+func
+NS_OUTPARAM
 )
 ;
 NS_HIDDEN_
