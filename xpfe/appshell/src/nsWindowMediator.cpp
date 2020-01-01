@@ -297,11 +297,11 @@ mEnumeratorList
 )
 mOldestWindow
 (
-0
+nsnull
 )
 mTopmostWindow
 (
-0
+nsnull
 )
 mTimeStamp
 (
@@ -313,7 +313,7 @@ PR_FALSE
 )
 mListLock
 (
-0
+nsnull
 )
 {
 nsresult
@@ -434,10 +434,8 @@ mTimeStamp
 ;
 if
 (
+!
 windowInfo
-=
-=
-NULL
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -489,7 +487,7 @@ mOldestWindow
 -
 >
 mOlder
-0
+nsnull
 )
 ;
 else
@@ -541,7 +539,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindowMediator
 :
 :
@@ -668,7 +666,7 @@ mOldestWindow
 )
 mOldestWindow
 =
-0
+nsnull
 ;
 if
 (
@@ -679,7 +677,7 @@ mTopmostWindow
 )
 mTopmostWindow
 =
-0
+nsnull
 ;
 delete
 inInfo
@@ -712,7 +710,7 @@ if
 aWindow
 )
 return
-0
+nsnull
 ;
 info
 =
@@ -720,7 +718,7 @@ mOldestWindow
 ;
 listEnd
 =
-0
+nsnull
 ;
 while
 (
@@ -760,7 +758,7 @@ mOldestWindow
 ;
 }
 return
-0
+nsnull
 ;
 }
 nsWindowInfo
@@ -787,7 +785,7 @@ if
 aWindow
 )
 return
-0
+nsnull
 ;
 info
 =
@@ -795,7 +793,7 @@ mOldestWindow
 ;
 listEnd
 =
-0
+nsnull
 ;
 nsCOMPtr
 <
@@ -868,10 +866,10 @@ mOldestWindow
 ;
 }
 return
-0
+nsnull
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindowMediator
 :
 :
@@ -889,10 +887,8 @@ outEnumerator
 {
 if
 (
+!
 outEnumerator
-=
-=
-NULL
 )
 return
 NS_ERROR_INVALID_ARG
@@ -941,7 +937,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindowMediator
 :
 :
@@ -959,10 +955,8 @@ outEnumerator
 {
 if
 (
+!
 outEnumerator
-=
-=
-NULL
 )
 return
 NS_ERROR_INVALID_ARG
@@ -1011,7 +1005,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindowMediator
 :
 :
@@ -1098,7 +1092,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindowMediator
 :
 :
@@ -1249,7 +1243,7 @@ outWindow
 *
 outWindow
 =
-NULL
+nsnull
 ;
 nsAutoLock
 lock
@@ -1367,7 +1361,7 @@ listEnd
 *
 foundInfo
 =
-0
+nsnull
 ;
 searchInfo
 =
@@ -1375,7 +1369,7 @@ mOldestWindow
 ;
 listEnd
 =
-0
+nsnull
 ;
 while
 (
@@ -1582,7 +1576,7 @@ NS_ERROR_NULL_POINTER
 *
 outBelow
 =
-0
+nsnull
 ;
 if
 (
@@ -1641,7 +1635,7 @@ nsIXULWindow
 *
 belowWindow
 =
-0
+nsnull
 ;
 PRBool
 found
@@ -2195,9 +2189,11 @@ zLevelBelow
 !
 inWindow
 )
+{
 return
 NS_ERROR_INVALID_ARG
 ;
+}
 if
 (
 mSortingZOrder
@@ -2266,15 +2262,18 @@ mLower
 =
 belowInfo
 )
+{
 belowInfo
 =
-0
+nsnull
 ;
+}
 if
 (
 !
 belowInfo
 )
+{
 if
 (
 inBelow
@@ -2290,6 +2289,7 @@ nsIWindowMediator
 :
 zLevelTop
 ;
+}
 }
 if
 (
@@ -2319,7 +2319,7 @@ mTopmostWindow
 >
 mHigher
 :
-0
+nsnull
 ;
 if
 (
@@ -2343,7 +2343,7 @@ inInfo
 >
 InsertAfter
 (
-0
+nsnull
 belowInfo
 )
 ;
@@ -2671,7 +2671,7 @@ scan
 >
 InsertAfter
 (
-0
+nsnull
 prev
 )
 ;
@@ -2865,6 +2865,7 @@ search
 scan
 ;
 do
+{
 search
 =
 search
@@ -2872,6 +2873,7 @@ search
 >
 mHigher
 ;
+}
 while
 (
 search
@@ -2919,7 +2921,7 @@ scan
 >
 InsertAfter
 (
-0
+nsnull
 search
 )
 ;

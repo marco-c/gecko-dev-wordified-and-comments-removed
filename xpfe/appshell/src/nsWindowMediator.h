@@ -1,9 +1,9 @@
 #
 ifndef
-__nsWindowMediator_h
+nsWindowMediator_h_
 #
 define
-__nsWindowMediator_h
+nsWindowMediator_h_
 #
 include
 "
@@ -154,7 +154,7 @@ PRUnichar
 inType
 )
 ;
-NS_IMETHOD
+nsresult
 UnregisterWindow
 (
 nsWindowInfo
