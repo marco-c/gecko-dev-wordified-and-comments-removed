@@ -1603,6 +1603,7 @@ xpinstallItemGeneric
 png
 "
 )
+;
 }
 .
 addon
@@ -2290,6 +2291,7 @@ xpinstallItemGeneric
 png
 "
 )
+;
 }
 #
 detail
@@ -2386,6 +2388,7 @@ size
 :
 200
 %
+;
 }
 #
 detail
@@ -2496,6 +2499,7 @@ size
 :
 120
 %
+;
 border
 :
 2px
