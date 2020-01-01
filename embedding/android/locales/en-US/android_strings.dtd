@@ -3,10 +3,6 @@
 ENTITY
 splash_screen_label
 "
-&
-brandShortName
-;
-is
 loading
 "
 >
