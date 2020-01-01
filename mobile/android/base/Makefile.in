@@ -162,6 +162,12 @@ java
 \
 util
 /
+Clipboard
+.
+java
+\
+util
+/
 EventDispatcher
 .
 java
