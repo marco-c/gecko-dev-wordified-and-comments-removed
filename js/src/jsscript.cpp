@@ -355,8 +355,7 @@ add
 JSContext
 *
 cx
-JSAtom
-*
+HandleAtom
 name
 BindingKind
 kind
@@ -2363,9 +2362,11 @@ i
 continue
 ;
 }
-JSAtom
-*
+RootedVarAtom
 name
+(
+cx
+)
 ;
 if
 (
@@ -2387,8 +2388,11 @@ if
 XDRAtom
 (
 xdr
-&
 name
+.
+address
+(
+)
 )
 )
 return
