@@ -2004,11 +2004,6 @@ CanUploadSubTextures
 (
 )
 ;
-bool
-PreferPowerOfTwoTextures
-(
-)
-;
 virtual
 bool
 SwapBuffers

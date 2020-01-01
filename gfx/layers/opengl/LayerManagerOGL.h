@@ -1366,11 +1366,6 @@ nsIntRect
 aRect
 )
 ;
-LayerForwarderQuirks
-GetForwarderQuirks
-(
-)
-;
 private
 :
 nsIWidget
