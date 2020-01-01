@@ -6968,7 +6968,7 @@ DoMatchCallback
 JSContext
 *
 cx
-uintN
+size_t
 count
 void
 *
