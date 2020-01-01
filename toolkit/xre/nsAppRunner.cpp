@@ -2636,6 +2636,11 @@ Content
 )
 SYNC_ENUMS
 (
+JETPACK
+Jetpack
+)
+SYNC_ENUMS
+(
 IPDLUNITTEST
 IPDLUnitTest
 )

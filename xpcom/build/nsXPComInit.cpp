@@ -2205,6 +2205,9 @@ init
 "
 )
 ;
+(
+void
+)
 xptiInterfaceInfoManager
 :
 :
