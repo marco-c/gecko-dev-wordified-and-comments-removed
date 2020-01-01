@@ -3892,6 +3892,10 @@ function
 )
 {
 return
+this
+.
+wrap
+(
 Cc
 [
 "
@@ -3912,6 +3916,7 @@ createInstance
 Ci
 .
 nsIXMLHttpRequest
+)
 )
 ;
 }
