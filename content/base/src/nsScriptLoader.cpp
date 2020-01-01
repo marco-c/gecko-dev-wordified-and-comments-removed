@@ -1935,13 +1935,7 @@ value
 version
 |
 =
-js
-:
-:
-VersionFlags
-:
-:
-HAS_XML
+JSVERSION_HAS_XML
 ;
 }
 }

@@ -2983,9 +2983,6 @@ JSTreeContext
 *
 tc
 ;
-JSVersion
-version
-;
 js
 :
 :
