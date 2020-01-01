@@ -22,6 +22,8 @@ assertThrow
 '
 bounds
 '
+Utils
+.
 isRect
 (
 bounds
@@ -509,6 +511,8 @@ real
 rectangle
 !
 '
+Utils
+.
 isRect
 (
 rect
@@ -645,6 +649,8 @@ real
 rectangle
 !
 '
+Utils
+.
 isRect
 (
 this

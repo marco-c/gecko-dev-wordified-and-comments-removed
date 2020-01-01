@@ -915,6 +915,8 @@ getBounds
 userSize
 :
 (
+Utils
+.
 isPoint
 (
 this
@@ -1122,6 +1124,8 @@ options
 if
 (
 !
+Utils
+.
 isRect
 (
 rect
@@ -2082,6 +2086,8 @@ getBounds
 if
 (
 !
+Utils
+.
 isRect
 (
 this
@@ -3336,6 +3342,8 @@ true
 if
 (
 !
+Utils
+.
 isRect
 (
 data
@@ -3483,6 +3491,8 @@ true
 ;
 if
 (
+Utils
+.
 isPoint
 (
 tabData
