@@ -9342,12 +9342,11 @@ name
 )
         
 if
-not
 descriptor
 .
 interface
 .
-isCallback
+hasInterfacePrototypeObject
 (
 )
 or
@@ -10020,12 +10019,11 @@ name
 name
         
 if
-not
 descriptor
 .
 interface
 .
-isCallback
+hasInterfacePrototypeObject
 (
 )
 or
