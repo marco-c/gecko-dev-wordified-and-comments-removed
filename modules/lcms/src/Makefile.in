@@ -534,15 +534,6 @@ MODULE_OPTIMIZE_FLAGS
 =
 -
 O2
-REQUIRES
-=
-(
-LCMS_REQUIRES
-)
-\
-(
-NULL
-)
 CSRCS
 =
 cmscnvrt

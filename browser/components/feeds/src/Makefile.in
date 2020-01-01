@@ -476,12 +476,6 @@ js
 (
 NULL
 )
-REQUIRES
-=
-xpcom
-string
-necko
-mimetype
 CPPSRCS
 =
 nsFeedSniffer

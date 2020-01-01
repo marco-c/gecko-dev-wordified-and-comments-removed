@@ -480,17 +480,6 @@ rdfutil_external_s
 DIST_INSTALL
 =
 1
-REQUIRES
-=
-xpcom
-\
-string
-\
-rdf
-\
-(
-NULL
-)
 CPPSRCS
 =
 (

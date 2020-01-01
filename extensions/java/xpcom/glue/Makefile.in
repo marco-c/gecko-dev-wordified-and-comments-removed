@@ -474,15 +474,6 @@ DEFINES
 =
 -
 DXPCOM_GLUE
-REQUIRES
-+
-=
-\
-xpcom
-\
-(
-NULL
-)
 LOCAL_INCLUDES
 =
 -

@@ -429,17 +429,6 @@ RESFILE
 npnulos2
 .
 res
-REQUIRES
-=
-java
-\
-xpcom
-\
-pref
-\
-(
-NULL
-)
 CPPSRCS
 =
 \

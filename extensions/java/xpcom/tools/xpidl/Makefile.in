@@ -429,14 +429,6 @@ BIN_SUFFIX
 INTERNAL_TOOLS
 =
 1
-REQUIRES
-=
-\
-xpcom
-\
-(
-NULL
-)
 #
 glib
 and

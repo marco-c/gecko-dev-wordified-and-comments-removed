@@ -477,17 +477,6 @@ rdfutil_s
 MOZILLA_INTERNAL_API
 =
 1
-REQUIRES
-=
-xpcom
-\
-string
-\
-rdf
-\
-(
-NULL
-)
 CPPSRCS
 =
 (

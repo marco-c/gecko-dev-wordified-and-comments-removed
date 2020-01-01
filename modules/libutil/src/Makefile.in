@@ -417,13 +417,6 @@ util
 LIBRARY_NAME
 =
 mozutil_s
-REQUIRES
-=
-xpcom
-\
-(
-NULL
-)
 CPPSRCS
 =
 stopwatch

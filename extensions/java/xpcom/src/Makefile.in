@@ -438,17 +438,6 @@ DEFINES
 -
 DIMPL_XREAPI
 endif
-REQUIRES
-=
-xpcom
-\
-string
-\
-xulapp
-\
-(
-NULL
-)
 CPPSRCS
 =
 \

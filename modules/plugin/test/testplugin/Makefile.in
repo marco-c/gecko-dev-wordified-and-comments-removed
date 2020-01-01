@@ -430,14 +430,6 @@ nptest
 MODULE_NAME
 =
 TestPlugin
-REQUIRES
-=
-\
-plugin
-\
-(
-NULL
-)
 #
 Need
 to

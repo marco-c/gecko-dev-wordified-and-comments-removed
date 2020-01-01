@@ -710,9 +710,6 @@ FLOW_PASS_TESTCASES
 (
 NULL
 )
-REQUIRES
-=
-xpcom
 include
 (
 topsrcdir

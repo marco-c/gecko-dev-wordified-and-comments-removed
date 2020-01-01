@@ -442,12 +442,6 @@ crashreporter
 (
 BIN_SUFFIX
 )
-REQUIRES
-=
-\
-(
-NULL
-)
 LOCAL_INCLUDES
 =
 -

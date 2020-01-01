@@ -453,9 +453,6 @@ cpp
 (
 NULL
 )
-REQUIRES
-=
-xpcom
 LIBS
 =
 \

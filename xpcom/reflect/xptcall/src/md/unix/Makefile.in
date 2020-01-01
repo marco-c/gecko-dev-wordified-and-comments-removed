@@ -430,9 +430,6 @@ xptcmd
 MOZILLA_INTERNAL_API
 =
 1
-REQUIRES
-=
-string
 #
 #
 The

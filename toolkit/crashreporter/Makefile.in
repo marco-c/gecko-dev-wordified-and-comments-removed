@@ -420,16 +420,6 @@ LIBXUL_LIBRARY
 LIBRARY_NAME
 =
 exception_handler_s
-REQUIRES
-=
-\
-xpcom
-\
-string
-\
-(
-NULL
-)
 DIRS
 =
 \

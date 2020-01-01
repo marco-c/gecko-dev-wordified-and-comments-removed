@@ -430,13 +430,6 @@ LIBXUL_LIBRARY
 MODULE_NAME
 =
 nsUCUtil
-REQUIRES
-=
-xpcom
-\
-(
-NULL
-)
 CSRCS
 =
 \

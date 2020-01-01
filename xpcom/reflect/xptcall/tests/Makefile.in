@@ -424,13 +424,6 @@ TestXPTCInvoke
 (
 BIN_SUFFIX
 )
-REQUIRES
-=
-xpcom
-\
-(
-NULL
-)
 CPPSRCS
 =
 TestXPTCInvoke

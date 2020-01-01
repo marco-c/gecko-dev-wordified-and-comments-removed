@@ -443,13 +443,6 @@ unixprintplugin
 GRE_MODULE
 =
 1
-REQUIRES
-=
-java
-\
-(
-NULL
-)
 CSRCS
 =
 \

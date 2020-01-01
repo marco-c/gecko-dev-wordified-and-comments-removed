@@ -408,17 +408,6 @@ config
 autoconf
 .
 mk
-REQUIRES
-=
-xpcom
-\
-string
-\
-tracemalloc
-\
-(
-NULL
-)
 SIMPLECSRCS
 +
 =

@@ -420,17 +420,6 @@ TestStreamConv
 (
 BIN_SUFFIX
 )
-REQUIRES
-=
-necko
-\
-xpcom
-\
-string
-\
-(
-NULL
-)
 CPPSRCS
 =
 \

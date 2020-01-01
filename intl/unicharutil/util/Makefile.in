@@ -474,15 +474,6 @@ SDK_LIBRARY
 (
 LIBRARY
 )
-REQUIRES
-=
-xpcom
-\
-string
-\
-(
-NULL
-)
 SDK_HEADERS
 =
 \

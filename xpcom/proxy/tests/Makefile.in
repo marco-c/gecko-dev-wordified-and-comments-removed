@@ -418,9 +418,6 @@ xpcom_tests
 XPIDL_MODULE
 =
 proxytest
-REQUIRES
-=
-xpcom
 CPPSRCS
 =
 proxytests

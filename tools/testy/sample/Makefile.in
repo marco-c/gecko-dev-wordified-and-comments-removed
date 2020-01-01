@@ -33,12 +33,6 @@ mk
 MODULE
 =
 testy
-REQUIRES
-=
-\
-(
-NULL
-)
 LOCAL_INCLUDES
 =
 \

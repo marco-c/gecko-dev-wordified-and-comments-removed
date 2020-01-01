@@ -441,15 +441,6 @@ LIBXUL_LIBRARY
 DIRS
 =
 component
-REQUIRES
-=
-xpcom
-\
-string
-\
-(
-NULL
-)
 CPPSRCS
 =
 \

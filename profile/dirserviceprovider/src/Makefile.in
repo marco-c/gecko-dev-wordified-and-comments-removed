@@ -427,15 +427,6 @@ profdirserviceprovider_s
 MOZILLA_INTERNAL_API
 =
 1
-REQUIRES
-=
-xpcom
-\
-string
-\
-(
-NULL
-)
 CPPSRCS
 =
 (

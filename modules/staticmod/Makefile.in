@@ -441,9 +441,6 @@ CPPSRCS
 nsMetaModule
 .
 cpp
-REQUIRES
-=
-xpcom
 include
 (
 topsrcdir

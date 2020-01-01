@@ -415,16 +415,6 @@ mk
 MODULE
 =
 xpcom
-REQUIRES
-=
-\
-string
-\
-xpcom
-\
-(
-NULL
-)
 include
 (
 topsrcdir

@@ -412,15 +412,6 @@ config
 autoconf
 .
 mk
-REQUIRES
-=
-xpcom
-\
-chardet
-\
-(
-NULL
-)
 PROGRAM
 =
 DetectCharset

@@ -424,14 +424,6 @@ mk
 MODULE
 =
 test_xulapp
-REQUIRES
-=
-\
-string
-\
-(
-NULL
-)
 CPPSRCS
 =
 \

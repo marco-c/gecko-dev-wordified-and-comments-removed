@@ -418,13 +418,6 @@ mork
 LIBRARY_NAME
 =
 msgmork_s
-REQUIRES
-=
-xpcom
-\
-(
-NULL
-)
 FORCE_STATIC_LIB
 =
 1

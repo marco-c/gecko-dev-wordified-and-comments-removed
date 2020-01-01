@@ -421,17 +421,6 @@ grabpage
 (
 BIN_SUFFIX
 )
-REQUIRES
-=
-xpcom
-\
-string
-\
-necko
-\
-(
-NULL
-)
 CPPSRCS
 =
 grabpage

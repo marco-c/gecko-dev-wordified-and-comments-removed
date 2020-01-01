@@ -415,17 +415,6 @@ gfx
 MOZILLA_INTERNAL_API
 =
 1
-REQUIRES
-=
-xpcom
-\
-string
-\
-gfx
-\
-(
-NULL
-)
 CPP_UNIT_TESTS
 =
 \

@@ -424,15 +424,6 @@ mk
 MODULE
 =
 gtkembedmoz
-REQUIRES
-=
-xpcom
-\
-dom
-\
-(
-NULL
-)
 CPPSRCS
 =
 \

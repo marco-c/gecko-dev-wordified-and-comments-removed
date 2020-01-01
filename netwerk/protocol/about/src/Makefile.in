@@ -423,17 +423,6 @@ nkabout_s
 LIBXUL_LIBRARY
 =
 1
-REQUIRES
-=
-xpcom
-\
-string
-\
-nkcache
-\
-(
-NULL
-)
 CPPSRCS
 =
 \

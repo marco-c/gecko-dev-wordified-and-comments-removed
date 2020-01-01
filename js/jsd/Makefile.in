@@ -445,9 +445,6 @@ REQUIRES
 =
 java
 js
-REQUIRES
-=
-js
 ifndef
 JSD_STANDALONE
 REQUIRES

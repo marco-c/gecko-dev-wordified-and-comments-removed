@@ -413,14 +413,6 @@ cpp
 (
 NULL
 )
-REQUIRES
-=
-\
-plugin
-\
-(
-NULL
-)
 LOCAL_INCLUDES
 =
 -

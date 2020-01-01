@@ -437,17 +437,6 @@ def
 GRE_MODULE
 =
 1
-REQUIRES
-=
-java
-\
-xpcom
-\
-pref
-\
-(
-NULL
-)
 CPPSRCS
 =
 \

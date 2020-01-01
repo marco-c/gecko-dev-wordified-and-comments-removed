@@ -449,9 +449,6 @@ cpp
 (
 NULL
 )
-REQUIRES
-=
-string
 LOCAL_INCLUDES
 =
 \

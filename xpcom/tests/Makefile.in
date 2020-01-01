@@ -444,14 +444,6 @@ static
 -
 checker
 endif
-REQUIRES
-=
-\
-string
-\
-(
-NULL
-)
 CPPSRCS
 =
 \

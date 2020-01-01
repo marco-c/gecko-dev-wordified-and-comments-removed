@@ -453,15 +453,6 @@ GL
 -
 endif
 endif
-REQUIRES
-=
-(
-ZLIB_REQUIRES
-)
-\
-(
-NULL
-)
 CSRCS
 =
 \

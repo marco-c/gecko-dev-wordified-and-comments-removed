@@ -434,15 +434,6 @@ profdirserviceprovider
 LIBRARY_NAME
 =
 profdirserviceprovidersa_s
-REQUIRES
-=
-xpcom
-\
-string
-\
-(
-NULL
-)
 CPPSRCS
 =
 (

@@ -433,17 +433,6 @@ config
 autoconf
 .
 mk
-REQUIRES
-=
-xpcom
-\
-intl
-\
-embedcomponents
-\
-(
-NULL
-)
 DEFINES
 +
 =

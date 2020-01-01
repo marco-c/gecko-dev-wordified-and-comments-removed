@@ -461,9 +461,6 @@ srcdir
 EXPORTS
 )
 )
-REQUIRES
-=
-xpcom
 include
 (
 topsrcdir

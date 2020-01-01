@@ -505,9 +505,6 @@ xptcstubs
 .
 cpp
 endif
-REQUIRES
-=
-string
 LOCAL_INCLUDES
 +
 =

@@ -412,11 +412,6 @@ config
 autoconf
 .
 mk
-REQUIRES
-=
-(
-NULL
-)
 CSRCS
 +
 =

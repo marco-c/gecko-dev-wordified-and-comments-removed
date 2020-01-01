@@ -436,17 +436,6 @@ EXPORT_LIBRARY
 IS_COMPONENT
 =
 1
-REQUIRES
-=
-xpcom
-\
-string
-\
-dom
-\
-(
-NULL
-)
 CPPSRCS
 =
 nsAutoComplete

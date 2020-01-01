@@ -421,13 +421,6 @@ xpcomproxy_s
 MOZILLA_INTERNAL_API
 =
 1
-REQUIRES
-=
-string
-\
-(
-NULL
-)
 CPPSRCS
 =
 \

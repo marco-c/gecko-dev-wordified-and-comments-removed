@@ -418,15 +418,6 @@ neckosystem_s
 LIBXUL_LIBRARY
 =
 1
-REQUIRES
-=
-xpcom
-\
-string
-\
-(
-NULL
-)
 FORCE_STATIC_LIB
 =
 1

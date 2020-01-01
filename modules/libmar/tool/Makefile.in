@@ -492,9 +492,6 @@ mar
 (
 HOST_BIN_SUFFIX
 )
-REQUIRES
-=
-libmar
 HOST_CSRCS
 =
 \
