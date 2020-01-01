@@ -299,11 +299,6 @@ defined
 (
 WINCE
 )
-*
-result
-=
-PR_FALSE
-;
 MEMORYSTATUS
 stat
 ;
