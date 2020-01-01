@@ -1162,9 +1162,6 @@ PR_FALSE
 )
 )
 {
-nsStyleCoord
-coord
-;
 NS_FOR_CSS_SIDES
 (
 side
@@ -1184,7 +1181,6 @@ mMargin
 Get
 (
 side
-coord
 )
 nsnull
 0
@@ -1396,9 +1392,6 @@ PR_FALSE
 )
 )
 {
-nsStyleCoord
-coord
-;
 NS_FOR_CSS_SIDES
 (
 side
@@ -1418,7 +1411,6 @@ mPadding
 Get
 (
 side
-coord
 )
 nsnull
 0

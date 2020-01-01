@@ -12861,9 +12861,6 @@ aRenderingContext
 IntrinsicWidthOffsetData
 result
 ;
-nsStyleCoord
-tmp
-;
 const
 nsStyleMargin
 *
@@ -12882,7 +12879,6 @@ mMargin
 .
 GetLeft
 (
-tmp
 )
 aRenderingContext
 this
@@ -12905,7 +12901,6 @@ mMargin
 .
 GetRight
 (
-tmp
 )
 aRenderingContext
 this
@@ -12937,7 +12932,6 @@ mPadding
 .
 GetLeft
 (
-tmp
 )
 aRenderingContext
 this
@@ -12960,7 +12954,6 @@ mPadding
 .
 GetRight
 (
-tmp
 )
 aRenderingContext
 this

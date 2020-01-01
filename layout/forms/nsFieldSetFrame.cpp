@@ -1288,9 +1288,6 @@ GetPrefWidth
 aRenderingContext
 )
 ;
-nsStyleCoord
-tmp
-;
 const
 nsStylePadding
 *
@@ -1315,7 +1312,6 @@ mPadding
 .
 GetLeft
 (
-tmp
 )
 0
 )
@@ -1332,7 +1328,6 @@ mPadding
 .
 GetRight
 (
-tmp
 )
 0
 )
@@ -1395,7 +1390,6 @@ mMargin
 .
 GetLeft
 (
-tmp
 )
 0
 )
@@ -1412,7 +1406,6 @@ mMargin
 .
 GetRight
 (
-tmp
 )
 0
 )

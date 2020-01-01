@@ -18768,9 +18768,6 @@ marginData
 nsStyleCoord
 coord
 ;
-nsStyleCoord
-parentCoord
-;
 nsCSSRect
 ourMargin
 (
@@ -18824,6 +18821,9 @@ NS_FOR_CSS_SIDES
 side
 )
 {
+nsStyleCoord
+parentCoord
+=
 parentMargin
 -
 >
@@ -18832,7 +18832,6 @@ mMargin
 Get
 (
 side
-parentCoord
 )
 ;
 if
@@ -18929,9 +18928,6 @@ marginData
 )
 nsStyleCoord
 coord
-;
-nsStyleCoord
-parentCoord
 ;
 nsCSSRect
 ourBorderWidth
@@ -19146,7 +19142,9 @@ SetCoord
 (
 value
 coord
-parentCoord
+nsStyleCoord
+(
+)
 SETCOORD_LENGTH
 aContext
 mPresContext
@@ -19859,6 +19857,9 @@ NS_FOR_CSS_SIDES
 side
 )
 {
+nsStyleCoord
+parentCoord
+=
 parentBorder
 -
 >
@@ -19867,7 +19868,6 @@ mBorderRadius
 Get
 (
 side
-parentCoord
 )
 ;
 if
@@ -20037,9 +20037,6 @@ marginData
 nsStyleCoord
 coord
 ;
-nsStyleCoord
-parentCoord
-;
 nsCSSRect
 ourPadding
 (
@@ -20093,6 +20090,9 @@ NS_FOR_CSS_SIDES
 side
 )
 {
+nsStyleCoord
+parentCoord
+=
 parentPadding
 -
 >
@@ -20101,7 +20101,6 @@ mPadding
 Get
 (
 side
-parentCoord
 )
 ;
 if
@@ -20425,15 +20424,15 @@ SetOutlineInitialColor
 nsStyleCoord
 coord
 ;
-nsStyleCoord
-parentCoord
-;
 {
 NS_FOR_CSS_SIDES
 (
 side
 )
 {
+nsStyleCoord
+parentCoord
+=
 parentOutline
 -
 >
@@ -20442,7 +20441,6 @@ mOutlineRadius
 Get
 (
 side
-parentCoord
 )
 ;
 if
@@ -21280,14 +21278,14 @@ posData
 nsStyleCoord
 coord
 ;
-nsStyleCoord
-parentCoord
-;
 NS_FOR_CSS_SIDES
 (
 side
 )
 {
+nsStyleCoord
+parentCoord
+=
 parentPos
 -
 >
@@ -21296,7 +21294,6 @@ mOffset
 Get
 (
 side
-parentCoord
 )
 ;
 if

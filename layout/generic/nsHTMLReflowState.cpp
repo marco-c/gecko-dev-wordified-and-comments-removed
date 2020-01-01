@@ -2295,9 +2295,6 @@ nscoord
 aContainingBlockHeight
 )
 {
-nsStyleCoord
-coord
-;
 PRBool
 leftIsAuto
 =
@@ -2450,7 +2447,6 @@ mOffset
 .
 GetRight
 (
-coord
 )
 mComputedOffsets
 .
@@ -2490,7 +2486,6 @@ mOffset
 .
 GetLeft
 (
-coord
 )
 mComputedOffsets
 .
@@ -2634,7 +2629,6 @@ mOffset
 .
 GetBottom
 (
-coord
 )
 mComputedOffsets
 .
@@ -2674,7 +2668,6 @@ mOffset
 .
 GetTop
 (
-coord
 )
 mComputedOffsets
 .
@@ -3054,10 +3047,6 @@ padding
 )
 )
 {
-nsStyleCoord
-left
-right
-;
 ComputeWidthDependentValue
 (
 aContainingBlockWidth
@@ -3068,7 +3057,6 @@ mPadding
 .
 GetLeft
 (
-left
 )
 padding
 .
@@ -3085,7 +3073,6 @@ mPadding
 .
 GetRight
 (
-right
 )
 padding
 .
@@ -3105,10 +3092,6 @@ margin
 )
 )
 {
-nsStyleCoord
-left
-right
-;
 if
 (
 eStyleUnit_Auto
@@ -3143,7 +3126,6 @@ mMargin
 .
 GetLeft
 (
-left
 )
 margin
 .
@@ -3185,7 +3167,6 @@ mMargin
 .
 GetRight
 (
-right
 )
 margin
 .
@@ -4355,9 +4336,6 @@ rightIsAuto
 =
 PR_FALSE
 ;
-nsStyleCoord
-coord
-;
 if
 (
 eStyleUnit_Auto
@@ -4396,7 +4374,6 @@ mOffset
 .
 GetLeft
 (
-coord
 )
 mComputedOffsets
 .
@@ -4442,7 +4419,6 @@ mOffset
 .
 GetRight
 (
-coord
 )
 mComputedOffsets
 .
@@ -4587,9 +4563,6 @@ PR_TRUE
 }
 else
 {
-nsStyleCoord
-c
-;
 ComputeHeightDependentValue
 (
 containingBlockHeight
@@ -4600,7 +4573,6 @@ mOffset
 .
 GetTop
 (
-c
 )
 mComputedOffsets
 .
@@ -4636,9 +4608,6 @@ PR_TRUE
 }
 else
 {
-nsStyleCoord
-c
-;
 ComputeHeightDependentValue
 (
 containingBlockHeight
@@ -4649,7 +4618,6 @@ mOffset
 .
 GetBottom
 (
-c
 )
 mComputedOffsets
 .
@@ -8493,9 +8461,10 @@ GetLeftUnit
 )
 )
 {
-nsStyleCoord
+mComputedMargin
+.
 left
-;
+=
 styleMargin
 -
 >
@@ -8503,13 +8472,7 @@ mMargin
 .
 GetLeft
 (
-left
 )
-mComputedMargin
-.
-left
-=
-left
 .
 GetCoordValue
 (
@@ -8531,9 +8494,10 @@ GetRightUnit
 )
 )
 {
-nsStyleCoord
+mComputedMargin
+.
 right
-;
+=
 styleMargin
 -
 >
@@ -8541,13 +8505,7 @@ mMargin
 .
 GetRight
 (
-right
 )
-mComputedMargin
-.
-right
-=
-right
 .
 GetCoordValue
 (
@@ -8557,10 +8515,6 @@ GetCoordValue
 }
 else
 {
-nsStyleCoord
-left
-right
-;
 ComputeWidthDependentValue
 (
 aContainingBlockWidth
@@ -8571,7 +8525,6 @@ mMargin
 .
 GetLeft
 (
-left
 )
 mComputedMargin
 .
@@ -8588,7 +8541,6 @@ mMargin
 .
 GetRight
 (
-right
 )
 mComputedMargin
 .
@@ -8596,10 +8548,6 @@ right
 )
 ;
 }
-nsStyleCoord
-top
-bottom
-;
 ComputeWidthDependentValue
 (
 aContainingBlockWidth
@@ -8610,7 +8558,6 @@ mMargin
 .
 GetTop
 (
-top
 )
 mComputedMargin
 .
@@ -8627,7 +8574,6 @@ mMargin
 .
 GetBottom
 (
-bottom
 )
 mComputedMargin
 .
@@ -8687,12 +8633,6 @@ mComputedPadding
 )
 )
 {
-nsStyleCoord
-left
-right
-top
-bottom
-;
 ComputeWidthDependentValue
 (
 aContainingBlockWidth
@@ -8703,7 +8643,6 @@ mPadding
 .
 GetLeft
 (
-left
 )
 mComputedPadding
 .
@@ -8720,7 +8659,6 @@ mPadding
 .
 GetRight
 (
-right
 )
 mComputedPadding
 .
@@ -8737,7 +8675,6 @@ mPadding
 .
 GetTop
 (
-top
 )
 mComputedPadding
 .
@@ -8754,7 +8691,6 @@ mPadding
 .
 GetBottom
 (
-bottom
 )
 mComputedPadding
 .
