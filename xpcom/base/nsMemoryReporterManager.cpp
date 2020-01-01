@@ -3974,7 +3974,7 @@ mIndex
 <
 mArray
 .
-Count
+Length
 (
 )
 ;
@@ -4000,7 +4000,7 @@ mIndex
 <
 mArray
 .
-Count
+Length
 (
 )
 )
