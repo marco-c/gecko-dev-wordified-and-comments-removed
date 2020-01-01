@@ -671,6 +671,9 @@ mTimeout
 int32_t
 mDisposalMethod
 ;
+int32_t
+mLockCount
+;
 gfxASurface
 :
 :
@@ -697,9 +700,6 @@ mCompositingFailed
 ;
 bool
 mNonPremult
-;
-bool
-mLocked
 ;
 bool
 mInformedDiscardTracker
