@@ -2064,6 +2064,12 @@ _field
 define
 NS_IMPL_CYCLE_COLLECTION_TRACE_END
 \
+(
+void
+)
+tmp
+;
+\
 }
 #
 define
