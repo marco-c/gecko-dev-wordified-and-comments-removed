@@ -99,7 +99,7 @@ nsISupports
 idl
 "
 interface
-imgINotificationObserver
+imgIDecoderObserver
 ;
 interface
 imgIRequest
@@ -418,7 +418,7 @@ in
 nsILoadGroup
 aLoadGroup
 in
-imgINotificationObserver
+imgIDecoderObserver
 aObserver
 in
 nsISupports
@@ -607,7 +607,7 @@ in
 nsIChannel
 aChannel
 in
-imgINotificationObserver
+imgIDecoderObserver
 aObserver
 in
 nsISupports

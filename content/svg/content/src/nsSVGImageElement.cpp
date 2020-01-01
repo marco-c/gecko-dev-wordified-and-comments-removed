@@ -45,7 +45,7 @@ h
 #
 include
 "
-imgINotificationObserver
+imgIDecoderObserver
 .
 h
 "
@@ -195,7 +195,7 @@ nsIDOMSVGElement
 nsIDOMSVGTests
 nsIDOMSVGImageElement
 nsIDOMSVGURIReference
-imgINotificationObserver
+imgIDecoderObserver
 nsIImageLoadingContent
 imgIOnloadBlocker
 )

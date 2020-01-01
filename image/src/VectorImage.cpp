@@ -2304,6 +2304,8 @@ observer
 >
 OnStartContainer
 (
+nullptr
+this
 )
 ;
 observer
@@ -2311,6 +2313,8 @@ observer
 >
 FrameChanged
 (
+nullptr
+this
 &
 nsIntRect
 :
@@ -2325,6 +2329,8 @@ observer
 >
 OnStopFrame
 (
+nullptr
+0
 )
 ;
 observer
@@ -2332,7 +2338,9 @@ observer
 >
 OnStopDecode
 (
+nullptr
 NS_OK
+nullptr
 )
 ;
 }
@@ -2423,6 +2431,8 @@ containerObs
 >
 FrameChanged
 (
+nullptr
+this
 &
 nsIntRect
 :
@@ -2455,6 +2465,11 @@ decoderObs
 >
 OnStopFrame
 (
+nullptr
+imgIContainer
+:
+:
+FRAME_CURRENT
 )
 ;
 }

@@ -1070,7 +1070,7 @@ NS_ERROR_INVALID_ARG
 }
 for
 (
-unsigned
+int
 i
 =
 0

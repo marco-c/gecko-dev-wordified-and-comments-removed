@@ -126,10 +126,6 @@ RasterImage
 .
 cpp
 \
-ScriptedNotificationObserver
-.
-cpp
-\
 SVGDocumentWrapper
 .
 cpp

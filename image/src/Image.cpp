@@ -72,7 +72,6 @@ new
 imgStatusTracker
 (
 this
-nullptr
 )
 ;
 }

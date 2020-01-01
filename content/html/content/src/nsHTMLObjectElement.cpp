@@ -659,7 +659,7 @@ nsIDOMHTMLObjectElement
 NS_INTERFACE_TABLE_ENTRY
 (
 nsHTMLObjectElement
-imgINotificationObserver
+imgIDecoderObserver
 )
 NS_INTERFACE_TABLE_ENTRY
 (
@@ -690,6 +690,11 @@ NS_INTERFACE_TABLE_ENTRY
 (
 nsHTMLObjectElement
 imgIOnloadBlocker
+)
+NS_INTERFACE_TABLE_ENTRY
+(
+nsHTMLObjectElement
+imgIContainerObserver
 )
 NS_INTERFACE_TABLE_ENTRY
 (

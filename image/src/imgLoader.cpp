@@ -3150,7 +3150,7 @@ aRequest
 nsILoadGroup
 *
 aLoadGroup
-imgINotificationObserver
+imgIDecoderObserver
 *
 aObserver
 nsLoadFlags
@@ -3248,14 +3248,12 @@ proxyRequest
 >
 Init
 (
-&
+aRequest
+aLoadGroup
 aRequest
 -
 >
-GetStatusTracker
-(
-)
-aLoadGroup
+mImage
 uri
 aObserver
 )
@@ -5508,7 +5506,7 @@ aReferrerURI
 nsILoadGroup
 *
 aLoadGroup
-imgINotificationObserver
+imgIDecoderObserver
 *
 aObserver
 nsISupports
@@ -5925,7 +5923,7 @@ aReferrerURI
 nsILoadGroup
 *
 aLoadGroup
-imgINotificationObserver
+imgIDecoderObserver
 *
 aObserver
 nsISupports
@@ -7126,7 +7124,7 @@ aLoadingPrincipal
 nsILoadGroup
 *
 aLoadGroup
-imgINotificationObserver
+imgIDecoderObserver
 *
 aObserver
 nsISupports
@@ -8275,7 +8273,7 @@ LoadImageWithChannel
 nsIChannel
 *
 channel
-imgINotificationObserver
+imgIDecoderObserver
 *
 aObserver
 nsISupports
