@@ -874,14 +874,6 @@ OwnerIsBrowserFrame
 (
 )
 ;
-void
-GetOwnerAppManifestURL
-(
-nsAString
-&
-aOut
-)
-;
 already_AddRefed
 <
 mozIApplication
