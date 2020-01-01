@@ -1194,6 +1194,16 @@ pref
 "
 extensions
 .
+enabledScopes
+"
+1
+)
+;
+pref
+(
+"
+extensions
+.
 autoupdate
 .
 enabled
