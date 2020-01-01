@@ -5771,6 +5771,9 @@ rv
 rv
 )
 ;
+#
+ifndef
+MOZ_X11
 rv
 =
 GetAdjustedPrinterName
@@ -5836,6 +5839,8 @@ SetIsInitializedFromPrefs
 true
 )
 ;
+#
+endif
 return
 NS_OK
 ;
@@ -5863,6 +5868,9 @@ aPS
 nsAutoString
 prtName
 ;
+#
+ifndef
+MOZ_X11
 nsresult
 rv
 =
@@ -5879,6 +5887,8 @@ rv
 rv
 )
 ;
+#
+endif
 return
 WritePrefs
 (
