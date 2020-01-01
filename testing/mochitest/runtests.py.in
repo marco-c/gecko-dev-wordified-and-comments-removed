@@ -2869,6 +2869,11 @@ options
 .
 certPath
 )
+if
+options
+.
+symbolsPath
+:
 options
 .
 symbolsPath

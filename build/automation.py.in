@@ -523,9 +523,6 @@ IS_TEST_BUILD
 "
 IS_DEBUG_BUILD
 "
-"
-SYMBOLS_PATH
-"
 ]
 #
 These
@@ -641,11 +638,6 @@ expand
 IS_DEBUG_BUILD
 =
 __IS_DEBUG_BUILD__
-#
-expand
-SYMBOLS_PATH
-=
-__SYMBOLS_PATH__
 #
 #
 #
@@ -3755,7 +3747,7 @@ debuggerInfo
 None
 symbolsPath
 =
-SYMBOLS_PATH
+None
 )
 :
 "
