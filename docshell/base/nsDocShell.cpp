@@ -42503,9 +42503,6 @@ GetCanExecuteScripts
 PRBool
 *
 aResult
-PRBool
-*
-aContinueLooking
 )
 {
 NS_ENSURE_ARG_POINTER
