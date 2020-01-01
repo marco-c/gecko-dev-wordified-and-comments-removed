@@ -1760,6 +1760,11 @@ UnlockScreenOrientation
 (
 )
 ;
+void
+PumpMessageLoop
+(
+)
+;
 protected
 :
 static
@@ -2055,6 +2060,9 @@ jLockScreenOrientation
 ;
 jmethodID
 jUnlockScreenOrientation
+;
+jmethodID
+jPumpMessageLoop
 ;
 jclass
 jEGLSurfaceImplClass
