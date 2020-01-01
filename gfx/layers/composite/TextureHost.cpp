@@ -1711,6 +1711,16 @@ GetAsSurface
 if
 (
 !
+surf
+)
+{
+return
+false
+;
+}
+if
+(
+!
 mFirstSource
 -
 >
