@@ -211,6 +211,9 @@ javascript
 src
 =
 "
+.
+.
+/
 common
 .
 js
@@ -232,6 +235,9 @@ javascript
 src
 =
 "
+.
+.
+/
 role
 .
 js
@@ -253,6 +259,9 @@ javascript
 src
 =
 "
+.
+.
+/
 events
 .
 js
@@ -354,7 +363,7 @@ window
 openDialog
 (
 "
-name_nsRootAcc_wnd
+nsRootAcc_wnd
 .
 xul
 "

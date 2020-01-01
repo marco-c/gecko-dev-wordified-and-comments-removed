@@ -1609,7 +1609,7 @@ gRoleToNameRulesMap
 ]
 =
 {
-eNoRule
+eFromSubtreeIfRec
 eNoRule
 eNoRule
 eNoRule

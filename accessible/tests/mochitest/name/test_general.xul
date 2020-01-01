@@ -76,7 +76,7 @@ stylesheet
 href
 =
 "
-name
+general
 .
 css
 "
@@ -199,6 +199,9 @@ javascript
 src
 =
 "
+.
+.
+/
 common
 .
 js
@@ -220,6 +223,9 @@ javascript
 src
 =
 "
+.
+.
+/
 role
 .
 js
@@ -241,6 +247,9 @@ javascript
 src
 =
 "
+.
+.
+/
 name
 .
 js
