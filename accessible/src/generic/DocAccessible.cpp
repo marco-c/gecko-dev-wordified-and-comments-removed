@@ -1343,6 +1343,11 @@ if
 (
 !
 mParent
+|
+|
+IsRoot
+(
+)
 )
 return
 attributes
