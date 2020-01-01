@@ -333,7 +333,7 @@ nsVolumeStat
 .
 cpp
 \
-TimeSetting
+TimeZoneSettingObserver
 .
 cpp
 \
