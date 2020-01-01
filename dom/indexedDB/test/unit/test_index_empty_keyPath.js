@@ -232,9 +232,9 @@ transaction
 "
 data
 "
-IDBTransaction
-.
-READ_WRITE
+"
+readwrite
+"
 )
 ;
 objectStore

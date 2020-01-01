@@ -31,9 +31,9 @@ Test
 const
 RW
 =
-IDBTransaction
-.
-READ_WRITE
+"
+readwrite
+"
 let
 c1
 =

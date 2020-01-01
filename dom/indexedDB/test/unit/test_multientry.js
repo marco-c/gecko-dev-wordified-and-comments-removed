@@ -1780,9 +1780,9 @@ transaction
 mystore
 "
 ]
-IDBTransaction
-.
-READ_WRITE
+"
+readwrite
+"
 )
 ;
 store

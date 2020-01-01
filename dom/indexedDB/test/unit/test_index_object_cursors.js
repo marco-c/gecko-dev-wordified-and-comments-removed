@@ -347,9 +347,9 @@ db
 transaction
 (
 objectStoreName
-IDBTransaction
-.
-READ_WRITE
+"
+readwrite
+"
 )
 .
 objectStore
@@ -817,9 +817,9 @@ db
 transaction
 (
 objectStoreName
-IDBTransaction
-.
-READ_WRITE
+"
+readwrite
+"
 )
 .
 objectStore

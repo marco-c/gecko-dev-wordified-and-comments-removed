@@ -674,9 +674,9 @@ getObjectStore
 openCursor
 (
 null
-IDBCursor
-.
-PREV
+"
+prev
+"
 )
 .
 onsuccess
@@ -786,9 +786,9 @@ getObjectStore
 openCursor
 (
 null
-IDBCursor
-.
-PREV
+"
+prev
+"
 )
 .
 onsuccess

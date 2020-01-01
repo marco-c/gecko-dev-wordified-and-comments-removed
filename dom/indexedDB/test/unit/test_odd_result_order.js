@@ -147,9 +147,9 @@ transaction
 "
 foo
 "
-IDBTransaction
-.
-READ_WRITE
+"
+readwrite
+"
 )
 .
 objectStore
@@ -319,9 +319,9 @@ transaction
 "
 foo
 "
-IDBTransaction
-.
-READ_WRITE
+"
+readwrite
+"
 )
 .
 objectStore
