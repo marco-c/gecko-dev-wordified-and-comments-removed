@@ -14,11 +14,14 @@ in
 d
 )
 {
+(
 function
 (
 )
 {
 }
+)
+;
 }
 }
 catch
