@@ -277,9 +277,6 @@ already_AddRefed
 <
 gfxFont
 >
-gfxWindowsPlatform
-:
-:
 FindFontForChar
 (
 PRUint32
