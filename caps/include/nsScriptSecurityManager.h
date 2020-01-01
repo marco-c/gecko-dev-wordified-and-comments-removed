@@ -1381,6 +1381,10 @@ CreateCodebasePrincipal
 nsIURI
 *
 aURI
+PRUint32
+aAppId
+bool
+aInMozBrowser
 nsIPrincipal
 *
 *

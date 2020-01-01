@@ -7555,6 +7555,10 @@ CreateCodebasePrincipal
 nsIURI
 *
 aURI
+PRUint32
+aAppId
+bool
+aInMozBrowser
 nsIPrincipal
 *
 *
@@ -7663,11 +7667,8 @@ EmptyCString
 )
 nsnull
 aURI
-nsIScriptSecurityManager
-:
-:
-NO_APP_ID
-false
+aAppId
+aInMozBrowser
 )
 ;
 if
@@ -7759,6 +7760,11 @@ rv
 CreateCodebasePrincipal
 (
 aURI
+nsIScriptSecurityManager
+:
+:
+NO_APP_ID
+false
 getter_AddRefs
 (
 principal
