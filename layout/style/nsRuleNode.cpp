@@ -8857,6 +8857,11 @@ svgReset
 }
 #
 endif
+default
+:
+return
+nsnull
+;
 }
 return
 nsnull

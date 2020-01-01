@@ -6004,6 +6004,11 @@ mBrandName
 }
 break
 ;
+case
+eDocTitleDefNone
+:
+break
+;
 }
 }
 }
