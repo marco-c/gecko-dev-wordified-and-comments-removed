@@ -24,6 +24,11 @@ aContent
 aShell
 )
 {
+mFlags
+|
+=
+eTextLeafAccessible
+;
 }
 PRUint32
 nsTextAccessible
