@@ -464,13 +464,6 @@ h
 #
 include
 <
-pbt
-.
-h
->
-#
-include
-<
 richedit
 .
 h
