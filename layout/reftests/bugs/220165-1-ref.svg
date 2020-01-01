@@ -80,6 +80,13 @@ only
 .
 xul
 "
+shape
+-
+rendering
+=
+"
+crispEdges
+"
 >
 <
 foreignObject

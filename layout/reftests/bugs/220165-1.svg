@@ -107,6 +107,13 @@ New
 text
 '
 "
+shape
+-
+rendering
+=
+"
+crispEdges
+"
 >
 <
 foreignObject
