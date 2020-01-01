@@ -414,6 +414,7 @@ ifneq
 filter
 qt
 gtk2
+gtk3
 (
 MOZ_WIDGET_TOOLKIT
 )
