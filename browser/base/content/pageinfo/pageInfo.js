@@ -5108,7 +5108,7 @@ COL_IMAGE_BG
 ]
 ;
 var
-isAudo
+isAudio
 =
 false
 ;
@@ -6101,7 +6101,7 @@ controls
 =
 true
 ;
-isAudo
+isAudio
 =
 true
 ;
@@ -6175,7 +6175,7 @@ url
 &
 &
 !
-isAudo
+isAudio
 )
 {
 if
