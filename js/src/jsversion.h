@@ -1273,4 +1273,8 @@ representation
 #
 endif
 #
+define
+ENABLE_INTL_API
+0
+#
 endif
