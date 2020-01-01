@@ -84,7 +84,7 @@ pipe
 outputStream
 )
 ;
-objecOutStream
+objectOutStream
 .
 writeCompoundObject
 (
@@ -95,7 +95,7 @@ nsISupports
 true
 )
 ;
-objecOutStream
+objectOutStream
 .
 close
 (
