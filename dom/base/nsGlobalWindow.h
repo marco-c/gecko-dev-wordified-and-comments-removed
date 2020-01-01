@@ -2348,6 +2348,12 @@ ClearStatus
 (
 )
 ;
+virtual
+void
+UpdateParentTarget
+(
+)
+;
 PRPackedBool
 mIsFrozen
 :
