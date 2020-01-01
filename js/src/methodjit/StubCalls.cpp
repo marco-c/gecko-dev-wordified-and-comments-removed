@@ -5486,7 +5486,7 @@ regs
 sp
 [
 -
-1
+2
 ]
 .
 setBoolean
