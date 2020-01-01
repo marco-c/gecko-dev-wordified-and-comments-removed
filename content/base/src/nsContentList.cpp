@@ -165,6 +165,17 @@ tmp
 IsBlack
 (
 )
+&
+&
+NS_LIKELY
+(
+!
+cb
+.
+WantAllTraces
+(
+)
+)
 )
 {
 return

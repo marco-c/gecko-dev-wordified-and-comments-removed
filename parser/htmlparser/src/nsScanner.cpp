@@ -82,6 +82,13 @@ nsParser
 .
 h
 "
+#
+include
+"
+nsCharsetSource
+.
+h
+"
 static
 PRUnichar
 sInvalid

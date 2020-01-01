@@ -616,8 +616,12 @@ aSpecific
 }
 ;
 #
-ifndef
-TITLEBARINFOEX
+if
+(
+WINVER
+<
+0x0600
+)
 struct
 TITLEBARINFOEX
 {

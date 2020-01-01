@@ -173,13 +173,6 @@ h
 #
 include
 "
-nsIParser
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

@@ -355,6 +355,13 @@ h
 #
 include
 "
+nsCharsetSource
+.
+h
+"
+#
+include
+"
 nsIParserService
 .
 h

@@ -575,6 +575,10 @@ test_focus_tree
 .
 xul
 \
+test_fromUserInput
+.
+html
+\
 test_menu
 .
 xul

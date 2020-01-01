@@ -334,10 +334,6 @@ NS_HTTP_DISALLOW_SPDY
 )
 #
 define
-NS_HTTP_MAX_PIPELINED_REQUESTS
-8
-#
-define
 NS_HTTP_DEFAULT_PORT
 80
 #
@@ -429,6 +425,16 @@ CreateAtomTable
 static
 void
 DestroyAtomTable
+(
+)
+;
+static
+mozilla
+:
+:
+Mutex
+*
+GetLock
 (
 )
 ;

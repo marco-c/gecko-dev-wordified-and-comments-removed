@@ -893,6 +893,10 @@ GeckoInputConnection
 .
 java
 \
+GeckoJarReader
+.
+java
+\
 GeckoMessageReceiver
 .
 java

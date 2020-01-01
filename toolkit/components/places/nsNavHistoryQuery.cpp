@@ -3834,10 +3834,8 @@ NS_UnescapeURL
 unescaped
 )
 ;
-nsString
-tag
-=
 NS_ConvertUTF8toUTF16
+tag
 (
 unescaped
 )

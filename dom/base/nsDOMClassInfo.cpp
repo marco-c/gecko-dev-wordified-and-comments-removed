@@ -18830,17 +18830,6 @@ if
 (
 !
 document
-|
-|
-document
--
->
-GetCompatibilityMode
-(
-)
-!
-=
-eCompatibility_NavQuirks
 )
 {
 return

@@ -64,7 +64,7 @@ h
 #
 include
 "
-nsIParser
+nsCharsetSource
 .
 h
 "
@@ -2062,6 +2062,20 @@ NS_IMETHODIMP
 nsWyciwygChannel
 :
 :
+OnCacheEntryDoomed
+(
+nsresult
+status
+)
+{
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
+}
+NS_IMETHODIMP
+nsWyciwygChannel
+:
+:
 OnDataAvailable
 (
 nsIRequest
@@ -2468,6 +2482,7 @@ AsyncOpenCacheEntry
 aCacheKey
 aAccessMode
 this
+false
 )
 ;
 return

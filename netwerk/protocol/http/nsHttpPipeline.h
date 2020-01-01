@@ -79,13 +79,6 @@ nsHttpPipeline
 (
 )
 ;
-nsresult
-AddTransaction
-(
-nsAHttpTransaction
-*
-)
-;
 private
 :
 nsresult
@@ -168,6 +161,12 @@ i
 ]
 ;
 }
+nsHttpPipeline
+*
+QueryPipeline
+(
+)
+;
 nsAHttpConnection
 *
 mConnection
@@ -197,6 +196,9 @@ mResponseIsPartial
 ;
 bool
 mClosed
+;
+bool
+mUtilizedPipeline
 ;
 nsAHttpSegmentReader
 *

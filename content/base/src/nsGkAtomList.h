@@ -8331,7 +8331,7 @@ gamma
 )
 GK_ATOM
 (
-generic
+generic_
 "
 generic
 "

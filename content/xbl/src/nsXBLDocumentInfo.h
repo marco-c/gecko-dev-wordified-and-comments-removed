@@ -247,14 +247,5 @@ mGlobalObject
 ;
 }
 ;
-nsXBLDocumentInfo
-*
-NS_NewXBLDocumentInfo
-(
-nsIDocument
-*
-aDocument
-)
-;
 #
 endif

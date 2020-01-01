@@ -47,13 +47,6 @@ nsString
 h
 "
 #
-include
-"
-nsIParser
-.
-h
-"
-#
 define
 kIndentStr
 NS_LITERAL_STRING
