@@ -660,7 +660,7 @@ len
 (
 objs
 )
-6
+4
 )
         
 reldirs
@@ -692,14 +692,7 @@ foo
 biz
 '
 '
-foo_static
-'
-'
 bar
-'
-            
-'
-baz
 '
 ]
 )
