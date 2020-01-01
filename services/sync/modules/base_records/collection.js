@@ -745,6 +745,16 @@ _coll
 .
 uri
 ;
+record
+.
+id
+=
+record
+.
+data
+.
+id
+;
 self
 .
 done

@@ -138,6 +138,9 @@ WBORecord
 prototype
 =
 {
+id
+:
+null
 deleted
 :
 false
@@ -241,8 +244,6 @@ split
 )
 ;
 this
-.
-data
 .
 id
 =
@@ -571,9 +572,6 @@ WBORecord
 data
 "
 [
-"
-id
-"
 "
 parentid
 "
