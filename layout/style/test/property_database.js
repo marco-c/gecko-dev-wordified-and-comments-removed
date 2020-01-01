@@ -30218,9 +30218,6 @@ none
 "
 auto
 "
-"
-all
-"
 ]
 invalid_values
 :
