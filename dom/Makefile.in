@@ -282,6 +282,8 @@ wifi
 \
 icc
 \
+cellbroadcast
+\
 (
 NULL
 )

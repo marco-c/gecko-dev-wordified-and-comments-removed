@@ -827,6 +827,13 @@ components
 dom_icc
 .
 xpt
+BINPATH
+/
+components
+/
+dom_cellbroadcast
+.
+xpt
 #
 endif
 #

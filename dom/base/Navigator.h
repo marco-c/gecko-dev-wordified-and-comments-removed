@@ -83,6 +83,13 @@ nsINavigatorMobileConnection
 h
 "
 #
+include
+"
+nsINavigatorCellBroadcast
+.
+h
+"
+#
 endif
 #
 include
@@ -294,6 +301,8 @@ ifdef
 MOZ_B2G_RIL
 public
 nsIMozNavigatorMobileConnection
+public
+nsIMozNavigatorCellBroadcast
 #
 endif
 #
@@ -363,6 +372,7 @@ NS_DECL_NSIDOMMOZNAVIGATORNETWORK
 ifdef
 MOZ_B2G_RIL
 NS_DECL_NSIMOZNAVIGATORMOBILECONNECTION
+NS_DECL_NSIMOZNAVIGATORCELLBROADCAST
 #
 endif
 #
@@ -543,6 +553,12 @@ network
 MobileConnection
 >
 mMobileConnection
+;
+nsCOMPtr
+<
+nsIDOMMozCellBroadcast
+>
+mCellBroadcast
 ;
 #
 endif
