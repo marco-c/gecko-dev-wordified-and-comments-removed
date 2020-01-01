@@ -3126,6 +3126,7 @@ sock
 >
 status
 =
+=
 SOCKET_SENDRCVPENDING
 )
 )
@@ -3152,6 +3153,7 @@ sock
 >
 status
 =
+=
 SOCKET_RCVPENDING
 )
 |
@@ -3161,6 +3163,7 @@ sock
 -
 >
 status
+=
 =
 SOCKET_SENDRCVPENDING
 )

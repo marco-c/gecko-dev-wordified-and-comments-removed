@@ -391,10 +391,6 @@ to
 return
 MP_OKAY
 ;
-+
-+
-mp_copies
-;
 {
 mp_digit
 *
@@ -11307,6 +11303,10 @@ mp_digit
 ;
 #
 endif
++
++
+mp_copies
+;
 }
 #
 endif

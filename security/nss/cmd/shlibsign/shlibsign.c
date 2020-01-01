@@ -5619,7 +5619,7 @@ n
 }
 fd
 =
-PR_OpenFile
+PR_Open
 (
 output_file
 PR_WRONLY
