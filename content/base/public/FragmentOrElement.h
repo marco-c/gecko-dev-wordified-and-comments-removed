@@ -418,11 +418,13 @@ virtual
 int32_t
 IndexOf
 (
+const
 nsINode
 *
 aPossibleChild
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult

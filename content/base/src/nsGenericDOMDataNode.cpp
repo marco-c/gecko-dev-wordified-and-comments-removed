@@ -2703,6 +2703,7 @@ nsGenericDOMDataNode
 :
 IndexOf
 (
+const
 nsINode
 *
 aPossibleChild

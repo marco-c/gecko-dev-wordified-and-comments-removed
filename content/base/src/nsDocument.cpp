@@ -15025,6 +15025,7 @@ nsDocument
 :
 IndexOf
 (
+const
 nsINode
 *
 aPossibleChild

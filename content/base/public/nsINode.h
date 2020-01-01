@@ -795,6 +795,7 @@ virtual
 int32_t
 IndexOf
 (
+const
 nsINode
 *
 aPossibleChild
