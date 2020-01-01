@@ -3033,7 +3033,7 @@ tc
 )
 ;
 JSBool
-PopStatementCG
+PopStatementBCE
 (
 JSContext
 *

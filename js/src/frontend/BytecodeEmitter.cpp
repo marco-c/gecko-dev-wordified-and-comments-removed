@@ -8198,7 +8198,7 @@ JSBool
 frontend
 :
 :
-PopStatementCG
+PopStatementBCE
 (
 JSContext
 *
@@ -18621,7 +18621,7 @@ ok
 {
 ok
 =
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce
@@ -18857,7 +18857,7 @@ JSOP_STOP
 JSScript
 :
 :
-NewScriptFromCG
+NewScriptFromEmitter
 (
 cx
 bce
@@ -24746,7 +24746,7 @@ depth
 if
 (
 !
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce
@@ -25164,7 +25164,7 @@ beq
 ;
 }
 return
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce
@@ -26172,7 +26172,7 @@ false
 ;
 ok
 =
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce
@@ -26292,7 +26292,7 @@ false
 ;
 ok
 =
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce
@@ -26869,7 +26869,7 @@ false
 if
 (
 !
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce
@@ -27611,7 +27611,7 @@ return
 false
 ;
 return
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce
@@ -28906,7 +28906,7 @@ JS_FALSE
 ;
 ok
 =
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce
@@ -29139,7 +29139,7 @@ JS_FALSE
 ;
 ok
 =
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce
@@ -30112,7 +30112,7 @@ JS_FALSE
 ;
 ok
 =
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce
@@ -30179,7 +30179,7 @@ JS_FALSE
 }
 ok
 =
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce
@@ -30655,7 +30655,7 @@ JS_FALSE
 if
 (
 !
-PopStatementCG
+PopStatementBCE
 (
 cx
 bce

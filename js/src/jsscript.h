@@ -1140,7 +1140,7 @@ version
 static
 JSScript
 *
-NewScriptFromCG
+NewScriptFromEmitter
 (
 JSContext
 *
