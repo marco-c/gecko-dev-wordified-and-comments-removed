@@ -7721,7 +7721,7 @@ mark
 -
 #
 endif
-NS_IMETHODIMP
+nsresult
 nsEditor
 :
 :

@@ -1525,17 +1525,6 @@ message
 =
 NS_COMPOSITION_START
 )
-|
-|
-(
-mEvent
--
->
-message
-=
-=
-NS_COMPOSITION_QUERY
-)
 )
 {
 *

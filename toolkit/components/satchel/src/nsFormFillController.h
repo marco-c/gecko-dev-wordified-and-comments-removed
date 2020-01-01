@@ -219,14 +219,6 @@ aCompositionEvent
 )
 ;
 NS_IMETHOD
-HandleQueryComposition
-(
-nsIDOMEvent
-*
-aCompositionEvent
-)
-;
-NS_IMETHOD
 Submit
 (
 nsIDOMEvent

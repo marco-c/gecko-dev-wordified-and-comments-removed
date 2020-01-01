@@ -694,6 +694,9 @@ break
 case
 B_INPUT_METHOD_LOCATION_REQUEST
 :
+#
+if
+0
 if
 (
 fView
@@ -833,6 +836,8 @@ UnlockLooper
 )
 ;
 }
+#
+endif
 break
 ;
 case
@@ -847,11 +852,16 @@ DispatchIME
 NS_COMPOSITION_START
 )
 ;
+#
+if
+0
 DispatchIME
 (
 NS_COMPOSITION_QUERY
 )
 ;
+#
+endif
 msg
 .
 FindMessenger
@@ -1107,6 +1117,9 @@ imeState
 =
 what
 ;
+#
+if
+0
 if
 (
 what
@@ -1148,6 +1161,8 @@ height
 4
 ;
 }
+#
+endif
 }
 PRBool
 nsIMEBeOS
