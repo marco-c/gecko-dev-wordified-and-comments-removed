@@ -11806,6 +11806,9 @@ DeferredModule
 aDeferred
 )
 {
+nsresult
+rv
+;
 nsCOMPtr
 <
 nsIFile
@@ -11874,7 +11877,9 @@ fd
 )
 )
 )
-return
+{
+rv
+=
 AutoRegisterComponentsList
 (
 inDirSpec
@@ -11883,6 +11888,15 @@ aLeftovers
 aDeferred
 )
 ;
+PR_Close
+(
+fd
+)
+;
+return
+rv
+;
+}
 }
 nsCOMPtr
 <
@@ -11890,7 +11904,6 @@ nsISimpleEnumerator
 >
 entries
 ;
-nsresult
 rv
 =
 inDirSpec
