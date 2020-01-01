@@ -75,17 +75,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-xbl
--
-marquee
-ifdef
-ENABLE_TESTS
-TOOL_DIRS
-=
-test
-endif
 MODULE
 =
 layout

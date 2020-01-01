@@ -82,14 +82,6 @@ mk
 MODULE
 =
 layout
-DIRS
-+
-=
-chrome
-\
-(
-NULL
-)
 HOST_CPPSRCS
 =
 \

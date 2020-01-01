@@ -94,13 +94,6 @@ mk
 MODULE
 =
 layout_debug
-DIRS
-=
-src
-ui
-TEST_DIRS
-=
-tests
 include
 (
 topsrcdir

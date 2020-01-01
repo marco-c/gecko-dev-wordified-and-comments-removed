@@ -76,10 +76,6 @@ config
 autoconf
 .
 mk
-TEST_DIRS
-+
-=
-tests
 MODULE
 =
 layout
