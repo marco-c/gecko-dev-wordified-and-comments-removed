@@ -211,6 +211,13 @@ h
 #
 include
 "
+nsAlgorithm
+.
+h
+"
+#
+include
+"
 nsIXULAppInfo
 .
 h
@@ -293,6 +300,10 @@ h
 >
 #
 endif
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -3805,7 +3816,7 @@ mIdleTimeout
 (
 PRUint16
 )
-NS_CLAMP
+clamped
 (
 val
 1
@@ -3863,7 +3874,7 @@ mMaxRequestAttempts
 (
 PRUint16
 )
-NS_CLAMP
+clamped
 (
 val
 1
@@ -3926,7 +3937,7 @@ mMaxRequestDelay
 (
 PRUint16
 )
-NS_CLAMP
+clamped
 (
 val
 0
@@ -3998,12 +4009,15 @@ mMaxConnections
 (
 PRUint16
 )
-NS_CLAMP
+clamped
 (
 (
 PRUint32
 )
 val
+(
+PRUint32
+)
 1
 MaxSocketCount
 (
@@ -4083,7 +4097,7 @@ mMaxConnectionsPerServer
 (
 PRUint8
 )
-NS_CLAMP
+clamped
 (
 val
 1
@@ -4181,7 +4195,7 @@ mMaxPersistentConnectionsPerServer
 (
 PRUint8
 )
-NS_CLAMP
+clamped
 (
 val
 1
@@ -4265,7 +4279,7 @@ mMaxPersistentConnectionsPerProxy
 (
 PRUint8
 )
-NS_CLAMP
+clamped
 (
 val
 1
@@ -4332,7 +4346,7 @@ mReferrerLevel
 (
 PRUint8
 )
-NS_CLAMP
+clamped
 (
 val
 0
@@ -4386,7 +4400,7 @@ mRedirectionLimit
 (
 PRUint8
 )
-NS_CLAMP
+clamped
 (
 val
 0
@@ -4444,7 +4458,7 @@ mIdleSynTimeout
 (
 PRUint16
 )
-NS_CLAMP
+clamped
 (
 val
 0
@@ -4876,7 +4890,7 @@ rv
 {
 mMaxPipelinedRequests
 =
-NS_CLAMP
+clamped
 (
 val
 1
@@ -5049,7 +5063,7 @@ mQoSBits
 (
 PRUint8
 )
-NS_CLAMP
+clamped
 (
 val
 0
@@ -5524,7 +5538,7 @@ mPhishyUserPassLength
 (
 PRUint8
 )
-NS_CLAMP
+clamped
 (
 val
 0
