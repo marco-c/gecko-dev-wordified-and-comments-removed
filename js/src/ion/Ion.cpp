@@ -12137,7 +12137,7 @@ size_t
 ion
 :
 :
-MemoryUsed
+SizeOfIonData
 (
 UnrootedScript
 script

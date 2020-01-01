@@ -759,7 +759,7 @@ c
 )
 ;
 size_t
-MemoryUsed
+SizeOfIonData
 (
 UnrootedScript
 script
