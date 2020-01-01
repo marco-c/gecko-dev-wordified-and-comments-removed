@@ -7023,7 +7023,7 @@ hbox
 <
 xul
 :
-description
+label
 xbl
 :
 inherits
@@ -7197,7 +7197,7 @@ hbox
 <
 xul
 :
-description
+label
 xbl
 :
 inherits
