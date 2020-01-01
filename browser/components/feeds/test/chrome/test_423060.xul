@@ -378,7 +378,9 @@ http
 :
 /
 /
-localhost
+mochi
+.
+test
 :
 8888
 /
@@ -503,7 +505,9 @@ http
 :
 /
 /
-localhost
+mochi
+.
+test
 :
 8888
 /
@@ -531,7 +535,9 @@ http
 %
 2F
 %
-2Flocalhost
+2Fmochi
+.
+test
 %
 3A8888
 %
@@ -637,7 +643,9 @@ http
 :
 /
 /
-localhost
+mochi
+.
+test
 :
 8888
 /
