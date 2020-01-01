@@ -2301,6 +2301,11 @@ GetFrameMessageManager
 (
 )
 ;
+JSObject
+*
+objectsArray
+;
+{
 JSContext
 *
 ctx
@@ -2323,8 +2328,6 @@ len
 =
 0
 ;
-JSObject
-*
 objectsArray
 =
 JS_NewArrayObject
@@ -2343,6 +2346,7 @@ objectsArray
 return
 false
 ;
+}
 }
 manager
 -
