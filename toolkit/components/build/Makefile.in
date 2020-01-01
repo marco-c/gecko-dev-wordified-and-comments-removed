@@ -454,10 +454,6 @@ DALERTS_SERVICE
 endif
 ifdef
 ALERTS_SERVICE
-REQUIRES
-+
-=
-alerts
 endif
 EXPORTS
 =
@@ -765,12 +761,6 @@ EXTRA_DSO_LDOPTS
 (
 ZLIB_LIBS
 )
-REQUIRES
-+
-=
-url
--
-classifier
 endif
 ifdef
 MOZ_FEEDS

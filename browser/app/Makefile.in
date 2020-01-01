@@ -787,16 +787,6 @@ bin
 BIN_SUFFIX
 )
 endif
-REQUIRES
-=
-\
-xpcom
-\
-string
-\
-(
-NULL
-)
 CPPSRCS
 =
 nsBrowserApp

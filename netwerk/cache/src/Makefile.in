@@ -533,10 +533,6 @@ cpp
 (
 NULL
 )
-REQUIRES
-+
-=
-storage
 DEFINES
 +
 =

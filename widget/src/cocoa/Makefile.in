@@ -437,10 +437,6 @@ LIBXUL_LIBRARY
 1
 ifdef
 ACCESSIBILITY
-REQUIRES
-+
-=
-accessibility
 endif
 EXPORTS
 =

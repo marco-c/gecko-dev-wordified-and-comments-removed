@@ -3768,12 +3768,18 @@ ConditionBlock
             
 for
 c
-ss
+sl
 in
 iterstatements
 (
 s
 )
 :
+                
+for
+s2
+in
+sl
+:
 yield
-ss
+s2

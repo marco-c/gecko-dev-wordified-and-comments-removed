@@ -504,10 +504,6 @@ CPPSRCS
 nsLeakDetector
 .
 cpp
-REQUIRES
-+
-=
-boehm
 endif
 ifneq
 (

@@ -494,10 +494,6 @@ LIBXUL_LIBRARY
 1
 ifdef
 MOZ_PHOENIX
-REQUIRES
-+
-=
-toolkitcomps
 endif
 ifeq
 (
@@ -505,14 +501,6 @@ ifeq
 MOZ_WIDGET_TOOLKIT
 )
 cocoa
-)
-REQUIRES
-+
-=
-windowwatcher
-\
-(
-NULL
 )
 CMMSRCS
 =
@@ -636,10 +624,6 @@ OSHELPER
 nsMIMEInfoOS2
 .
 cpp
-REQUIRES
-+
-=
-widget
 endif
 EXPORTS
 =

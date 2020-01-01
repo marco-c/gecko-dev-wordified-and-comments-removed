@@ -474,10 +474,6 @@ MOZ_WIDGET_TOOLKIT
 )
 )
 )
-REQUIRES
-+
-=
-uconv
 endif
 EXTRA_DSO_LDOPTS
 =

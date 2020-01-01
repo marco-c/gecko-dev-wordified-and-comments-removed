@@ -359,10 +359,6 @@ non
 CE
 ifndef
 WINCE
-REQUIRES
-+
-=
-migration
 LOCAL_INCLUDES
 +
 =

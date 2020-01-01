@@ -516,10 +516,6 @@ NULL
 )
 ifdef
 MOZ_USE_NATIVE_UCONV
-REQUIRES
-+
-=
-ucnative
 else
 CPPSRCS
 +

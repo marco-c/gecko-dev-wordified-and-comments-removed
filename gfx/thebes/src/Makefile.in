@@ -283,11 +283,6 @@ CPPSRCS
 gfxPDFSurface
 .
 cpp
-REQUIRES
-+
-=
-uconv
-locale
 endif
 ifeq
 (
@@ -321,10 +316,6 @@ gfxXlibSurface
 .
 cpp
 endif
-REQUIRES
-+
-=
-locale
 CPPSRCS
 +
 =
@@ -411,10 +402,6 @@ MOZ_WIDGET_TOOLKIT
 )
 qt
 )
-REQUIRES
-+
-=
-locale
 CPPSRCS
 +
 =
@@ -484,10 +471,6 @@ MOZ_WIDGET_TOOLKIT
 )
 beos
 )
-REQUIRES
-+
-=
-locale
 CPPSRCS
 +
 =

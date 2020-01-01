@@ -445,15 +445,6 @@ CPPSRCS
 nsWindowsShellService
 .
 cpp
-REQUIRES
-+
-=
-\
-browsercomps
-\
-(
-NULL
-)
 else
 ifneq
 (

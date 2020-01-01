@@ -562,10 +562,6 @@ dir
 srcdir
 )
 endif
-REQUIRES
-+
-=
-string
 endif
 ifeq
 (
@@ -647,10 +643,6 @@ I
 (
 srcdir
 )
-REQUIRES
-+
-=
-string
 LOCAL_INCLUDES
 +
 =

@@ -892,17 +892,6 @@ mk
 (
 NULL
 )
-REQUIRES
-+
-=
-\
-uconv
-\
-unicharutil
-\
-(
-NULL
-)
 CPPSRCS
 +
 =

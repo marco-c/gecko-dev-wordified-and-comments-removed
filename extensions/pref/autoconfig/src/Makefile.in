@@ -493,10 +493,6 @@ NULL
 )
 ifdef
 MOZ_LDAP_XPCOM
-REQUIRES
-+
-=
-mozldap
 DEFINES
 +
 =

@@ -436,10 +436,6 @@ MOZ_PHOENIX
 MOZ_XULRUNNER
 )
 )
-REQUIRES
-+
-=
-toolkitcomps
 endif
 CPPSRCS
 =

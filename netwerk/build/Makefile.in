@@ -990,10 +990,6 @@ src
 endif
 ifdef
 MOZ_STORAGE
-REQUIRES
-+
-=
-storage
 DEFINES
 +
 =

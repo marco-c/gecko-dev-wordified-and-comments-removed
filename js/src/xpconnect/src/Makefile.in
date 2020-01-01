@@ -931,10 +931,6 @@ DEFINES
 =
 -
 DXPC_TOOLS_SUPPORT
-REQUIRES
-+
-=
-xpctools
 endif
 ifdef
 XPC_IDISPATCH_SUPPORT

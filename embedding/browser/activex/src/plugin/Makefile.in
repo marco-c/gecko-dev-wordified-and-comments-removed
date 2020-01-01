@@ -555,17 +555,6 @@ GRE_MODULE
 1
 ifdef
 XPC_IDISPATCH_SUPPORT
-REQUIRES
-+
-=
-\
-caps
-\
-string
-\
-(
-NULL
-)
 endif
 XPIFILE
 =

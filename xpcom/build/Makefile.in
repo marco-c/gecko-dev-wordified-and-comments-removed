@@ -502,10 +502,6 @@ MOZILLA_INTERNAL_API
 1
 ifdef
 NS_TRACE_MALLOC
-REQUIRES
-+
-=
-tracemalloc
 endif
 CSRCS
 =

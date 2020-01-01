@@ -1478,15 +1478,6 @@ src
 (
 NULL
 )
-REQUIRES
-+
-=
-\
-inspector
-\
-(
-NULL
-)
 SHARED_LIBRARY_LIBS
 +
 =

@@ -448,10 +448,6 @@ MOZ_WIDGET_TOOLKIT
 )
 )
 )
-REQUIRES
-+
-=
-gtkxtbin
 endif
 CPPSRCS
 =

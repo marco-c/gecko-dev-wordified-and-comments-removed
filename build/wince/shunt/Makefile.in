@@ -545,9 +545,6 @@ include
 sys
 ifdef
 MOZ_MEMORY
-REQUIRES
-=
-jemalloc
 CFLAGS
 +
 =
