@@ -40,6 +40,13 @@ nsQtKeyUtils
 h
 "
 #
+include
+"
+NestedLoopTimer
+.
+h
+"
+#
 endif
 #
 include

@@ -29,6 +29,10 @@ QtOpenGL
 QGLContext
 >
 #
+define
+GLdouble_defined
+1
+#
 include
 <
 QApplication
@@ -463,10 +467,6 @@ QThread
 endif
 #
 endif
-#
-define
-GLdouble_defined
-1
 #
 include
 "
