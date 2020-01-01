@@ -131,6 +131,9 @@ SwitchObserver
 >
 mObserver
 ;
+bool
+mFMChannelIsMuted
+;
 }
 ;
 }
