@@ -63,13 +63,11 @@ toolkit
 endif
 #
 include
-"
-mozilla
-/
-Scoped
+<
+string
 .
 h
-"
+>
 #
 include
 "
@@ -80,7 +78,9 @@ h
 #
 include
 "
-nsDebug
+mozilla
+/
+Scoped
 .
 h
 "

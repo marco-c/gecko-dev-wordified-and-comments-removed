@@ -11,6 +11,13 @@ pldhash
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 class
 nsStaticCaseInsensitiveNameTable
 {

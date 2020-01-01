@@ -65,6 +65,13 @@ h
 #
 include
 "
+gfxFontConstants
+.
+h
+"
+#
+include
+"
 nsIAtom
 .
 h

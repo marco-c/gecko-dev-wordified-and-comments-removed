@@ -5,6 +5,13 @@ X11Util
 .
 h
 "
+#
+include
+"
+nsDebug
+.
+h
+"
 namespace
 mozilla
 {

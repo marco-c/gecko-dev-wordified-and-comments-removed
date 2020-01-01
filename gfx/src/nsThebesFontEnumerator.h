@@ -7,6 +7,15 @@ _NSTHEBESFONTENUMERATOR_H_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIFontEnumerator
 .
 h
@@ -14,9 +23,7 @@ h
 #
 include
 "
-mozilla
-/
-Attributes
+nsISupports
 .
 h
 "
