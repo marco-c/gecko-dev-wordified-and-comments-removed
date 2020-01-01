@@ -155,6 +155,13 @@ h
 #
 include
 "
+nsPlacesTables
+.
+h
+"
+#
+include
+"
 imgITools
 .
 h
@@ -500,7 +507,9 @@ FROM
 "
 "
 SELECT
-*
+"
+MOZ_PLACES_COLUMNS
+"
 FROM
 moz_places_temp
 "
@@ -517,7 +526,9 @@ ALL
 "
 "
 SELECT
-*
+"
+MOZ_PLACES_COLUMNS
+"
 FROM
 moz_places
 "
