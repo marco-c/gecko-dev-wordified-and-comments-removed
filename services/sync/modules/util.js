@@ -7558,6 +7558,7 @@ ensureMPUnlocked
 (
 )
 {
+let
 sdr
 =
 Cc
@@ -7582,11 +7583,6 @@ Ci
 nsISecretDecoderRing
 )
 ;
-var
-ok
-=
-false
-;
 try
 {
 sdr
@@ -7598,8 +7594,7 @@ bacon
 "
 )
 ;
-ok
-=
+return
 true
 ;
 }
@@ -7610,7 +7605,7 @@ e
 {
 }
 return
-ok
+false
 ;
 }
 __prefs
