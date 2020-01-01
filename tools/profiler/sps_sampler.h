@@ -95,6 +95,14 @@ jsfriendapi
 .
 h
 "
+#
+ifdef
+min
+#
+undef
+min
+#
+endif
 using
 mozilla
 :
