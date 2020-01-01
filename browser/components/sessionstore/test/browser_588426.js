@@ -42,7 +42,7 @@ url
 "
 about
 :
-robots
+rights
 "
 }
 ]

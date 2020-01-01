@@ -91,7 +91,7 @@ addTab
 "
 about
 :
-robots
+mozilla
 "
 )
 ;
@@ -191,7 +191,7 @@ spec
 "
 about
 :
-robots
+mozilla
 "
 "
 restored

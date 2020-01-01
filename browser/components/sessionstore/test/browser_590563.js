@@ -24,7 +24,7 @@ url
 "
 about
 :
-robots
+mozilla
 "
 }
 ]

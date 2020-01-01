@@ -43,7 +43,7 @@ url
 "
 about
 :
-robots
+mozilla
 "
 }
 ]

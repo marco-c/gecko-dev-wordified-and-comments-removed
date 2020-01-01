@@ -13,7 +13,7 @@ addTab
 "
 about
 :
-robots
+rights
 "
 )
 ;
@@ -84,7 +84,7 @@ url
 "
 about
 :
-robots
+rights
 "
 }
 ]

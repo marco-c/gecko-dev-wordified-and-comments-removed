@@ -86,7 +86,7 @@ no
 "
 about
 :
-robots
+rights
 "
 )
 ;
