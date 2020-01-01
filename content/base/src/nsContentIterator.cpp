@@ -368,6 +368,8 @@ PRInt32
 >
 *
 aIndexes
+=
+nsnull
 )
 ;
 nsINode
@@ -383,6 +385,8 @@ PRInt32
 >
 *
 aIndexes
+=
+nsnull
 )
 ;
 nsINode
@@ -398,6 +402,8 @@ PRInt32
 >
 *
 aIndexes
+=
+nsnull
 )
 ;
 nsINode
@@ -413,6 +419,8 @@ PRInt32
 >
 *
 aIndexes
+=
+nsnull
 )
 ;
 nsINode
@@ -428,6 +436,8 @@ PRInt32
 >
 *
 aIndexes
+=
+nsnull
 )
 ;
 nsINode
@@ -443,6 +453,8 @@ PRInt32
 >
 *
 aIndexes
+=
+nsnull
 )
 ;
 nsresult
@@ -683,7 +695,6 @@ mLast
 GetDeepLastChild
 (
 aRoot
-nsnull
 )
 ;
 }
@@ -694,7 +705,6 @@ mFirst
 GetDeepFirstChild
 (
 aRoot
-nsnull
 )
 ;
 mLast
@@ -946,7 +956,6 @@ mFirst
 GetNextSibling
 (
 startNode
-nsnull
 )
 ;
 if
@@ -1035,7 +1044,6 @@ mFirst
 GetDeepFirstChild
 (
 cChild
-nsnull
 )
 ;
 if
@@ -1142,7 +1150,6 @@ mLast
 GetPrevSibling
 (
 endNode
-nsnull
 )
 ;
 if
@@ -1228,7 +1235,6 @@ mLast
 GetDeepLastChild
 (
 cChild
-nsnull
 )
 ;
 if
@@ -3947,7 +3953,6 @@ firstCandidate
 GetNextSibling
 (
 node
-nsnull
 )
 ;
 if
@@ -3970,7 +3975,6 @@ firstCandidate
 GetDeepFirstChild
 (
 firstCandidate
-nsnull
 )
 ;
 bool
@@ -4114,7 +4118,6 @@ lastCandidate
 GetPrevSibling
 (
 node
-nsnull
 )
 ;
 }
@@ -4123,7 +4126,6 @@ lastCandidate
 GetDeepLastChild
 (
 lastCandidate
-nsnull
 )
 ;
 MOZ_ALWAYS_TRUE
@@ -4258,7 +4260,6 @@ nextNode
 GetNextSibling
 (
 mCurNode
-nsnull
 )
 ;
 NS_ASSERTION
@@ -4385,7 +4386,6 @@ prevNode
 GetDeepFirstChild
 (
 mCurNode
-nsnull
 )
 ;
 prevNode
@@ -4393,7 +4393,6 @@ prevNode
 PrevNode
 (
 prevNode
-nsnull
 )
 ;
 prevNode
@@ -4401,7 +4400,6 @@ prevNode
 GetDeepLastChild
 (
 prevNode
-nsnull
 )
 ;
 mCurNode
