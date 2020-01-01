@@ -489,8 +489,15 @@ mozilla
 .
 org
 /
+%
+s
+/
 nightly
 '
+%
+options
+.
+product
     
 snippet
 =
