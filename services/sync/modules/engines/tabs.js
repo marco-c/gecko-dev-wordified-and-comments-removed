@@ -434,7 +434,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 _itemExists
@@ -456,7 +456,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 _itemExists
@@ -1683,7 +1683,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 _wrapRealTabs
@@ -1798,7 +1798,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 _wrapRealTabs
