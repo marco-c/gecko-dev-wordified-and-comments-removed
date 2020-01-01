@@ -149,6 +149,14 @@ browser_tabs
 .
 js
 \
+browser_bookmarks
+.
+js
+\
+browser_history
+.
+js
+\
 (
 NULL
 )
