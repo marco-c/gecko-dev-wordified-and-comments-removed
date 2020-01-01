@@ -258,19 +258,19 @@ define
 NS_IPRESSHELL_IID
 \
 {
-0xc8f0b83e
-0x7457
-0x4367
+0x1ebeb94c
+0x2112
+0x431d
 \
 {
-0xa9
-0x82
-0xe1
-0xfa
-0x11
-0xf9
-0x60
-0xbc
+0xac
+0x6b
+0xdf
+0x26
+0x13
+0x83
+0xea
+0xfb
 }
 }
 #
@@ -540,6 +540,7 @@ nsStyleSet
 StyleSet
 (
 )
+const
 {
 return
 mStyleSet
@@ -550,6 +551,7 @@ nsCSSFrameConstructor
 FrameConstructor
 (
 )
+const
 {
 return
 mFrameConstructor
@@ -603,6 +605,7 @@ PRBool
 GetAuthorStyleDisabled
 (
 )
+const
 ;
 virtual
 NS_HIDDEN_
@@ -675,6 +678,7 @@ nsFrameSelection
 ConstFrameSelection
 (
 )
+const
 {
 return
 mSelection
@@ -1104,6 +1108,7 @@ aRect
 nscoord
 aMinTwips
 )
+const
 =
 0
 ;
@@ -1148,6 +1153,7 @@ nsAString
 &
 aLocation
 )
+const
 =
 0
 ;
@@ -1162,6 +1168,7 @@ nsCaret
 GetCaret
 (
 )
+const
 =
 0
 ;
