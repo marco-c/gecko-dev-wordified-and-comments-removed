@@ -4844,12 +4844,6 @@ tracks
 GetRate
 (
 )
-audio
--
->
-GetFirstFrameFormat
-(
-)
 )
 ;
 audioOutputStream
