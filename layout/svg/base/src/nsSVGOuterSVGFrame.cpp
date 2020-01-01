@@ -545,6 +545,11 @@ nsIFrame
 aPrevInFlow
 )
 {
+AddStateBits
+(
+NS_STATE_IS_OUTER_SVG
+)
+;
 nsresult
 rv
 =
@@ -635,11 +640,6 @@ sSVGMutationObserver
 }
 SuspendRedraw
 (
-)
-;
-AddStateBits
-(
-NS_STATE_IS_OUTER_SVG
 )
 ;
 return
