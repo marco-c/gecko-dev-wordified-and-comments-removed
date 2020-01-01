@@ -471,6 +471,10 @@ SVGElement
 .
 webidl
 \
+SVGEllipseElement
+.
+webidl
+\
 SVGForeignObjectElement
 .
 webidl

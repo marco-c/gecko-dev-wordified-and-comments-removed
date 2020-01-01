@@ -205,10 +205,6 @@ nsSVGElementFactory
 .
 cpp
 \
-nsSVGEllipseElement
-.
-cpp
-\
 nsSVGEnum
 .
 cpp
@@ -477,6 +473,10 @@ SVGDescElement
 .
 cpp
 \
+SVGEllipseElement
+.
+cpp
+\
 SVGForeignObjectElement
 .
 cpp
@@ -659,6 +659,10 @@ SVGDefsElement
 h
 \
 SVGDescElement
+.
+h
+\
+SVGEllipseElement
 .
 h
 \
