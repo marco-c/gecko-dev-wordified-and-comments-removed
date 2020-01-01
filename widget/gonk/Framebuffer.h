@@ -16,6 +16,9 @@ Framebuffer
 bool
 Open
 (
+nsIntSize
+*
+aScreenSize
 )
 ;
 void
