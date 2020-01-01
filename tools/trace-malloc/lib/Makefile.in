@@ -93,6 +93,16 @@ LIBXUL_LIBRARY
 1
 STL_FLAGS
 =
+CSRCS
+=
+\
+nsTraceMalloc
+.
+c
+\
+(
+NULL
+)
 DEFINES
 +
 =
