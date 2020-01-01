@@ -448,7 +448,7 @@ MOZ_WIDGET_TOOLKIT
 DIRS
 =
 pinstripe
-endif
+else
 ifneq
 (
 (
