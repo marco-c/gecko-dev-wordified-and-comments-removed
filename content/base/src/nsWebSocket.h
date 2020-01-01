@@ -428,6 +428,11 @@ DontKeepAliveAnyMore
 (
 )
 ;
+nsresult
+UpdateURI
+(
+)
+;
 nsCOMPtr
 <
 nsIWebSocketChannel
@@ -460,6 +465,9 @@ mOnCloseListener
 ;
 nsString
 mOriginalURL
+;
+nsString
+mEffectiveURL
 ;
 bool
 mSecure
