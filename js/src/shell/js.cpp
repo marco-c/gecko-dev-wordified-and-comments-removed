@@ -10996,6 +10996,13 @@ iter
 isNonEvalFunctionFrame
 (
 )
+|
+|
+iter
+.
+isNativeCall
+(
+)
 )
 {
 v
