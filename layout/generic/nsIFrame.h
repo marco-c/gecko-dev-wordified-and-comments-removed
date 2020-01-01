@@ -1626,12 +1626,6 @@ aStyleContext
 =
 0
 ;
-bool
-HasBorder
-(
-)
-const
-;
 nsIFrame
 *
 GetParent

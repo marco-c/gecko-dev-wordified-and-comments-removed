@@ -6168,12 +6168,7 @@ nsCSSRendering
 :
 FindBackground
 (
-mFrame
--
->
-PresContext
-(
-)
+presContext
 mFrame
 &
 bgSC
