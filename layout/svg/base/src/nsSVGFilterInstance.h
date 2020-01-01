@@ -201,6 +201,15 @@ ColorModel
 aColorModel
 )
 ;
+ColorModel
+LookupImageColorModel
+(
+const
+nsAString
+&
+aName
+)
+;
 void
 DefineImage
 (
