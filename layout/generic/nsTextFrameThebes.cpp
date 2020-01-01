@@ -19949,7 +19949,7 @@ return
 mFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+GetVisualOverflowRect
 (
 )
 +
