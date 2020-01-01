@@ -56,7 +56,7 @@ mach_port_t
 port_
 ;
 void
-release
+uninstall
 (
 )
 ;
@@ -71,7 +71,7 @@ AsmJSMachExceptionHandler
 (
 )
 {
-release
+uninstall
 (
 )
 ;
@@ -102,16 +102,6 @@ install
 JSRuntime
 *
 rt
-)
-;
-void
-clearCurrentThread
-(
-)
-;
-void
-setCurrentThread
-(
 )
 ;
 }
