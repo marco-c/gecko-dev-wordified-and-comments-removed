@@ -450,6 +450,10 @@ offlineAppCache
 .
 jsm
 \
+TelemetryTimestamps
+.
+jsm
+\
 (
 NULL
 )
