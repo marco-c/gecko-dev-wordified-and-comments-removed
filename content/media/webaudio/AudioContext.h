@@ -28,6 +28,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+EnableWebAudioCheck
+.
+h
+"
 class
 JSContext
 ;
@@ -40,6 +47,9 @@ mozilla
 class
 ErrorResult
 ;
+namespace
+dom
+{
 class
 AudioContext
 MOZ_FINAL
@@ -48,6 +58,8 @@ public
 nsISupports
 public
 nsWrapperCache
+public
+EnableWebAudioCheck
 {
 explicit
 AudioContext
@@ -122,4 +134,5 @@ mWindow
 ;
 }
 ;
+}
 }

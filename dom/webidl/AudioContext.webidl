@@ -152,6 +152,7 @@ apply
 /
 [
 Constructor
+PrefControlled
 ]
 interface
 mozAudioContext

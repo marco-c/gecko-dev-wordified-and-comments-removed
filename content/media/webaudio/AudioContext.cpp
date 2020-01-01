@@ -42,6 +42,9 @@ h
 namespace
 mozilla
 {
+namespace
+dom
+{
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_1
 (
 AudioContext
@@ -113,9 +116,6 @@ aTriedToWrap
 )
 {
 return
-dom
-:
-:
 mozAudioContextBinding
 :
 :
@@ -191,5 +191,6 @@ object
 return
 object
 ;
+}
 }
 }

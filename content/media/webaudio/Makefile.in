@@ -102,6 +102,11 @@ CPPSRCS
 AudioContext
 .
 cpp
+\
+EnableWebAudioCheck
+.
+cpp
+\
 (
 NULL
 )
