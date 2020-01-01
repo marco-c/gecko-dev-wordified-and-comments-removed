@@ -514,14 +514,6 @@ aPluginNativeWindow
 )
 ;
 nsresult
-DeletePluginNativeWindow
-(
-nsPluginNativeWindow
-*
-aPluginNativeWindow
-)
-;
-nsresult
 InstantiateDummyJavaPlugin
 (
 nsIPluginInstanceOwner
