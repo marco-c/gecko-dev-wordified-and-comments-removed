@@ -941,17 +941,6 @@ mIsHandlingResizeEvent
 }
 virtual
 void
-SetOpenerScriptPrincipal
-(
-nsIPrincipal
-*
-aPrincipal
-)
-=
-0
-;
-virtual
-void
 SetInitialPrincipalToSubject
 (
 )
