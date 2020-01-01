@@ -3489,6 +3489,15 @@ role
 "
 button
 "
+chromedir
+=
+"
+&
+locale
+.
+dir
+;
+"
 onclick
 =
 "
