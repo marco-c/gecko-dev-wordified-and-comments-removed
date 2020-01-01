@@ -3799,6 +3799,7 @@ style
 &
 &
 !
+(
 StringBeginsWith
 (
 k
@@ -3808,6 +3809,19 @@ NS_LITERAL_STRING
 data
 -
 "
+)
+)
+|
+|
+StringBeginsWith
+(
+k
+NS_LITERAL_STRING
+(
+"
+_
+"
+)
 )
 )
 )
