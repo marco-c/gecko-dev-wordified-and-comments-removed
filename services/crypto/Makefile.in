@@ -125,6 +125,10 @@ TEST_DIRS
 +
 =
 tests
+DIRS
++
+=
+component
 include
 (
 topsrcdir

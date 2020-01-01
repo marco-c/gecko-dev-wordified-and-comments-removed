@@ -864,10 +864,6 @@ tier_platform_dirs
 +
 =
 services
-/
-crypto
-/
-component
 tier_platform_dirs
 +
 =
