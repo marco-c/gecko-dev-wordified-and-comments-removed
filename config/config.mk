@@ -1192,7 +1192,7 @@ touch
 ifndef
 .
 PYMAKE
-PYTHONPATH
+PYTHON_PATH
 =
 (
 PYTHON
@@ -1215,7 +1215,7 @@ topsrcdir
 )
 /
 config
-PYTHONPATH
+PYTHON_PATH
 =
 %
 pythonpath
