@@ -51,6 +51,9 @@ self
 -
 hosted
 "
+"
+XStringBundle
+"
 ]
 ;
 const
