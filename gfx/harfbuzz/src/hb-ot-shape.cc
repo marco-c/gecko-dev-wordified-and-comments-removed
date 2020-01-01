@@ -27,11 +27,21 @@ private
 hh
 "
 HB_BEGIN_DECLS
+struct
+{
 hb_tag_t
+tag
+;
+unsigned
+short
+priority
+;
+}
 default_features
 [
 ]
 =
+{
 {
 HB_TAG
 (
@@ -48,6 +58,9 @@ l
 t
 '
 )
+DEFAULT_PRIORITY
+}
+{
 HB_TAG
 (
 '
@@ -63,6 +76,9 @@ m
 p
 '
 )
+FIRST_PRIORITY
+}
+{
 HB_TAG
 (
 '
@@ -78,6 +94,9 @@ i
 g
 '
 )
+DEFAULT_PRIORITY
+}
+{
 HB_TAG
 (
 '
@@ -93,6 +112,9 @@ w
 h
 '
 )
+DEFAULT_PRIORITY
+}
+{
 HB_TAG
 (
 '
@@ -108,6 +130,9 @@ r
 s
 '
 )
+DEFAULT_PRIORITY
+}
+{
 HB_TAG
 (
 '
@@ -123,6 +148,9 @@ r
 n
 '
 )
+DEFAULT_PRIORITY
+}
+{
 HB_TAG
 (
 '
@@ -138,6 +166,9 @@ g
 a
 '
 )
+DEFAULT_PRIORITY
+}
+{
 HB_TAG
 (
 '
@@ -153,6 +184,9 @@ c
 l
 '
 )
+DEFAULT_PRIORITY
+}
+{
 HB_TAG
 (
 '
@@ -168,6 +202,9 @@ r
 k
 '
 )
+DEFAULT_PRIORITY
+}
+{
 HB_TAG
 (
 '
@@ -183,6 +220,9 @@ m
 k
 '
 )
+DEFAULT_PRIORITY
+}
+{
 HB_TAG
 (
 '
@@ -198,6 +238,8 @@ i
 g
 '
 )
+DEFAULT_PRIORITY
+}
 }
 ;
 static
@@ -253,6 +295,7 @@ r
 a
 '
 )
+DEFAULT_PRIORITY
 )
 ;
 plan
@@ -277,6 +320,7 @@ r
 m
 '
 )
+DEFAULT_PRIORITY
 )
 ;
 break
@@ -306,6 +350,7 @@ l
 a
 '
 )
+DEFAULT_PRIORITY
 )
 ;
 plan
@@ -330,6 +375,7 @@ l
 m
 '
 )
+DEFAULT_PRIORITY
 false
 )
 ;
@@ -376,6 +422,14 @@ default_features
 [
 i
 ]
+.
+tag
+default_features
+[
+i
+]
+.
+priority
 )
 ;
 hb_ot_shape_complex_collect_features
@@ -427,6 +481,7 @@ feature
 -
 >
 value
+DEFAULT_PRIORITY
 (
 feature
 -
@@ -557,7 +612,7 @@ int
 )
 {
 unsigned
-int
+short
 shift
 ;
 hb_mask_t

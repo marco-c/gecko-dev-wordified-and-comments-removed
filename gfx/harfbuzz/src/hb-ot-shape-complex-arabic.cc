@@ -608,6 +608,7 @@ arabic_syriac_features
 [
 i
 ]
+EARLY_PRIORITY
 false
 )
 ;
