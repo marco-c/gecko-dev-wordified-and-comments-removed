@@ -736,6 +736,10 @@ browser_tabview_bug634158
 .
 js
 \
+browser_tabview_bug635696
+.
+js
+\
 browser_tabview_dragdrop
 .
 js
