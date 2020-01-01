@@ -6491,10 +6491,6 @@ systemFont
 (
 PR_TRUE
 )
-printerFont
-(
-PR_FALSE
-)
 familyNameQuirks
 (
 PR_FALSE
@@ -6547,8 +6543,6 @@ PRPackedBool
 aSystemFont
 PRPackedBool
 aFamilyNameQuirks
-PRPackedBool
-aPrinterFont
 )
 :
 style
@@ -6558,10 +6552,6 @@ aStyle
 systemFont
 (
 aSystemFont
-)
-printerFont
-(
-aPrinterFont
 )
 familyNameQuirks
 (
@@ -6701,12 +6691,6 @@ systemFont
 aStyle
 .
 systemFont
-)
-printerFont
-(
-aStyle
-.
-printerFont
 )
 familyNameQuirks
 (
