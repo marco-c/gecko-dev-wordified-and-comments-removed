@@ -99,15 +99,6 @@ pc
 #
 endif
 enum
-ParallelResult
-{
-TP_SUCCESS
-TP_RETRY_SEQUENTIALLY
-TP_RETRY_AFTER_GC
-TP_FATAL
-}
-;
-enum
 ParallelBailoutCause
 {
 ParallelBailoutNone

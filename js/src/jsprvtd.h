@@ -287,6 +287,14 @@ JSNative
 Native
 ;
 typedef
+JSParallelNative
+ParallelNative
+;
+typedef
+JSThreadSafeNative
+ThreadSafeNative
+;
+typedef
 JSPropertyOp
 PropertyOp
 ;
