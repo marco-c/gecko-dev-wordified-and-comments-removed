@@ -504,6 +504,8 @@ TestRPCRaces
 \
 TestRacyRPCReplies
 \
+TestBlockChild
+\
 TestManyChildAllocs
 \
 TestDesc
