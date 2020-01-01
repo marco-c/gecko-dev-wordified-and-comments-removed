@@ -2714,7 +2714,10 @@ aItems
 i
 ]
 ;
-jsval
+JS
+:
+:
+Value
 id
 =
 JS_NumberValue

@@ -907,6 +907,7 @@ SmsMessageData
 message
 (
 0
+0
 eDeliveryState_Received
 eDeliveryStatus_Success
 nsJNIString
@@ -1101,6 +1102,7 @@ SmsMessageData
 message
 (
 aId
+0
 eDeliveryState_Sent
 eDeliveryStatus_Pending
 EmptyString
@@ -1268,6 +1270,7 @@ SmsMessageData
 message
 (
 aId
+0
 eDeliveryState_Sent
 static_cast
 <
@@ -1567,6 +1570,7 @@ SmsMessageData
 message
 (
 aId
+0
 state
 static_cast
 <
@@ -2200,6 +2204,7 @@ SmsMessageData
 message
 (
 aMessageId
+0
 state
 static_cast
 <
@@ -2387,6 +2392,7 @@ SmsMessageData
 message
 (
 aMessageId
+0
 state
 static_cast
 <
