@@ -1,14 +1,14 @@
 #
 ifndef
-nsIMenuParent_h___
+nsMenuParent_h___
 #
 define
-nsIMenuParent_h___
+nsMenuParent_h___
 class
 nsMenuFrame
 ;
 class
-nsIMenuParent
+nsMenuParent
 {
 public
 :

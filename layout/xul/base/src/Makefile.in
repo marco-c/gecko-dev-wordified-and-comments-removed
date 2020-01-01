@@ -493,11 +493,6 @@ tree
 src
 grid
 endif
-EXPORTS
-=
-nsIMenuParent
-.
-h
 CPPSRCS
 =
 \

@@ -49,7 +49,7 @@ h
 #
 include
 "
-nsIMenuParent
+nsMenuParent
 .
 h
 "
@@ -454,7 +454,7 @@ aParent
 )
 ;
 virtual
-nsIMenuParent
+nsMenuParent
 *
 GetMenuParent
 (
@@ -778,7 +778,7 @@ mChecked
 nsMenuType
 mType
 ;
-nsIMenuParent
+nsMenuParent
 *
 mMenuParent
 ;

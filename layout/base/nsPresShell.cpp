@@ -870,13 +870,6 @@ endif
 #
 include
 "
-nsIMenuParent
-.
-h
-"
-#
-include
-"
 nsPlaceholderFrame
 .
 h
