@@ -801,6 +801,16 @@ METHOD_BARRIER
 )
 )
 {
+if
+(
+shape
+.
+slot
+!
+=
+SHAPE_INVALID_SLOT
+)
+{
 const
 js
 :
@@ -838,6 +848,7 @@ cx
 shape
 )
 ;
+}
 }
 }
 return
