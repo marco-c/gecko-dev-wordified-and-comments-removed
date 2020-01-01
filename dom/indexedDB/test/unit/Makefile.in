@@ -193,6 +193,10 @@ test_keys
 .
 js
 \
+test_lowDiskSpace
+.
+js
+\
 test_multientry
 .
 js

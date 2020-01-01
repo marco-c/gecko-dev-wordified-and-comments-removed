@@ -336,6 +336,10 @@ test_leaving_page
 .
 html
 \
+test_lowDiskSpace
+.
+html
+\
 test_multientry
 .
 html
