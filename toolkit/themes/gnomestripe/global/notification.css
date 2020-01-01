@@ -57,6 +57,13 @@ moz
 -
 Dialog
 ;
+color
+:
+-
+moz
+-
+DialogText
+;
 }
 notification
 [
@@ -72,6 +79,10 @@ background
 color
 :
 red
+;
+color
+:
+white
 ;
 }
 .
