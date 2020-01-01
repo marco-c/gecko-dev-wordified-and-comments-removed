@@ -155,6 +155,8 @@ PrefControlled
 ]
 interface
 AudioNode
+:
+EventTarget
 {
 [
 Throws

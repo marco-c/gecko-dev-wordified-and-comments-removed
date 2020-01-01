@@ -103,13 +103,6 @@ MediaStreamGraph
 h
 "
 #
-include
-"
-nsIDOMWindow
-.
-h
-"
-#
 ifdef
 CurrentTime
 #
@@ -124,7 +117,7 @@ class
 JSObject
 ;
 class
-nsIDOMWindow
+nsPIDOMWindow
 ;
 namespace
 mozilla
@@ -183,7 +176,7 @@ EnableWebAudioCheck
 explicit
 AudioContext
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aParentWindow
 )
@@ -203,7 +196,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
 AudioContext
 )
-nsIDOMWindow
+nsPIDOMWindow
 *
 GetParentObject
 (
@@ -516,7 +509,7 @@ private
 :
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindow
 >
 mWindow
 ;
