@@ -5,7 +5,7 @@ prefs
 .
 title
 "
-Metrics
+Spectator
 Preferences
 "
 >
@@ -41,7 +41,7 @@ checkbox
 enable
 "
 Enable
-Metrics
+Spectator
 "
 >
 <
