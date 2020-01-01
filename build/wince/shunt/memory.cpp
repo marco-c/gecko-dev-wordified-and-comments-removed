@@ -15,6 +15,15 @@ stdlib
 h
 >
 #
+include
+"
+mozilla
+/
+mozalloc_macro_wrappers
+.
+h
+"
+#
 ifdef
 MOZ_MEMORY
 const

@@ -966,7 +966,7 @@ void
 *
 result
 =
-PR_Malloc
+moz_malloc
 (
 size
 )
@@ -1028,7 +1028,7 @@ void
 *
 result
 =
-PR_Realloc
+moz_realloc
 (
 ptr
 size
@@ -1081,7 +1081,7 @@ void
 ptr
 )
 {
-PR_Free
+moz_free
 (
 ptr
 )
