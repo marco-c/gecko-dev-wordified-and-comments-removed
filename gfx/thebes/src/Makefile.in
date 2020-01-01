@@ -257,6 +257,12 @@ cpp
 (
 NULL
 )
+CPPSRCS
++
+=
+gfxPDFSurface
+.
+cpp
 EXTRA_DSO_LDOPTS
 +
 =

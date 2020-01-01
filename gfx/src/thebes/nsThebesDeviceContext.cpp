@@ -211,6 +211,13 @@ nsSystemFontsOS2
 .
 h
 "
+#
+include
+"
+gfxPDFSurface
+.
+h
+"
 static
 nsSystemFontsOS2
 *
@@ -2480,6 +2487,12 @@ MOZ_ENABLE_GTK2
 defined
 (
 XP_WIN
+)
+|
+|
+defined
+(
+XP_OS2
 )
 case
 gfxASurface

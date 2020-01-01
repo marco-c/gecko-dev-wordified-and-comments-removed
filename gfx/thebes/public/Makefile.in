@@ -237,6 +237,12 @@ h
 (
 NULL
 )
+EXPORTS
++
+=
+gfxPDFSurface
+.
+h
 endif
 ifeq
 (
