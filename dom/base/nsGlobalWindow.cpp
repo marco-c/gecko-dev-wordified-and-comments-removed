@@ -447,6 +447,13 @@ h
 #
 include
 "
+nsIDOMPopStateEvent_MOZILLA_2_BRANCH
+.
+h
+"
+#
+include
+"
 nsIDOMOfflineResourceList
 .
 h
@@ -30475,12 +30482,15 @@ nsGlobalWindow
 :
 DispatchSyncPopState
 (
+PRBool
+aIsInitial
 )
 {
 FORWARD_TO_INNER
 (
 DispatchSyncPopState
 (
+aIsInitial
 )
 NS_OK
 )
@@ -30867,7 +30877,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsIDOMPopStateEvent
+nsIDOMPopStateEvent_MOZILLA_2_BRANCH
 >
 popstateEvent
 =
@@ -30892,6 +30902,7 @@ popstate
 PR_TRUE
 PR_FALSE
 stateObj
+aIsInitial
 )
 ;
 NS_ENSURE_SUCCESS
@@ -30957,7 +30968,7 @@ dummy
 return
 DispatchEvent
 (
-popstateEvent
+domEvent
 &
 dummy
 )

@@ -1360,6 +1360,8 @@ virtual
 nsresult
 DispatchSyncPopState
 (
+PRBool
+aIsInitial
 )
 =
 0
