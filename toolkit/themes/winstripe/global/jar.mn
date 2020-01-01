@@ -2321,6 +2321,7 @@ global
 menu
 .
 css
+*
 skin
 /
 classic
@@ -2332,6 +2333,13 @@ global
 menulist
 .
 css
+(
+menulist
+-
+aero
+.
+css
+)
 skin
 /
 classic
