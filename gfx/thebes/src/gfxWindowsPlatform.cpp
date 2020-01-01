@@ -3258,8 +3258,9 @@ InitializeFontEmbeddingProcs
 HMODULE
 fontlib
 =
-LoadLibrary
+LoadLibraryW
 (
+L
 "
 t2embed
 .
