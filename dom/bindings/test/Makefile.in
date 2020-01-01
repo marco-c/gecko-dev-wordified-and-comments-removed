@@ -435,10 +435,6 @@ test_ByteString
 .
 html
 \
-test_exception_messages
-.
-html
-\
 (
 NULL
 )
