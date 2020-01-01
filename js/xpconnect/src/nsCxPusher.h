@@ -1,9 +1,9 @@
 #
 ifndef
-nsCxPusher_h___
+nsCxPusher_h
 #
 define
-nsCxPusher_h___
+nsCxPusher_h
 #
 include
 "
