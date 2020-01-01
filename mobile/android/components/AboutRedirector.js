@@ -90,9 +90,8 @@ firefox
 (
 )
 this
-[
+.
 fennec
-]
 empty
 :
 {
