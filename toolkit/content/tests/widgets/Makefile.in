@@ -704,7 +704,6 @@ _TEST_FILES
 test_contextmenu_list
 .
 xul
-\
 endif
 libs
 :
