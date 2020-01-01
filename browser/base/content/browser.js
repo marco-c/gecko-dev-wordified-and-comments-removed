@@ -5668,6 +5668,7 @@ addEventListener
 popuphiding
 "
 function
+onPopupHiding
 (
 aEvent
 )
@@ -5681,9 +5682,7 @@ removeEventListener
 "
 popuphiding
 "
-arguments
-.
-callee
+onPopupHiding
 false
 )
 ;
@@ -20115,6 +20114,7 @@ addEventListener
 beforecustomization
 "
 function
+onBeforeCustomization
 (
 )
 {
@@ -20125,9 +20125,7 @@ removeEventListener
 "
 beforecustomization
 "
-arguments
-.
-callee
+onBeforeCustomization
 false
 )
 ;
@@ -27396,6 +27394,7 @@ addEventListener
 pagehide
 "
 function
+onPageHide
 (
 )
 {
@@ -27417,9 +27416,7 @@ removeEventListener
 "
 pagehide
 "
-arguments
-.
-callee
+onPageHide
 true
 )
 ;
@@ -36579,6 +36576,7 @@ obs
 addObserver
 (
 function
+observer
 (
 aSubject
 aTopic
@@ -36591,9 +36589,7 @@ obs
 .
 removeObserver
 (
-arguments
-.
-callee
+observer
 aTopic
 )
 ;
@@ -43864,6 +43860,7 @@ addEventListener
 popuphidden
 "
 function
+onPopupHidden
 (
 e
 )
@@ -43877,9 +43874,7 @@ removeEventListener
 "
 popuphidden
 "
-arguments
-.
-callee
+onPopupHidden
 false
 )
 ;
