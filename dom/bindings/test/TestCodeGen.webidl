@@ -2063,6 +2063,9 @@ ImplementedInterfaceParent
 implements
 IndirectlyImplementedInterface
 ;
+[
+NoInterfaceObject
+]
 interface
 IndirectlyImplementedInterface
 {

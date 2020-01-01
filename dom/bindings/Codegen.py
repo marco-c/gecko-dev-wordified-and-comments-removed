@@ -30108,10 +30108,6 @@ descriptor
 if
 descriptor
 .
-concrete
-or
-descriptor
-.
 interface
 .
 hasInterfacePrototypeObject
@@ -30279,19 +30275,12 @@ descriptor
         
 if
 (
-(
-descriptor
-.
-concrete
-or
-             
 descriptor
 .
 interface
 .
 hasInterfacePrototypeObject
 (
-)
 )
 and
             
