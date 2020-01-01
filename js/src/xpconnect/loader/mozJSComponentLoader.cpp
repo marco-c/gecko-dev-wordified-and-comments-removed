@@ -2109,11 +2109,6 @@ rv
 rv
 )
 ;
-xpc_LocalizeContext
-(
-mContext
-)
-;
 #
 ifdef
 DEBUG_shaver_off
@@ -6329,7 +6324,7 @@ global
 )
 )
 return
-NULL
+NS_ERROR_FAILURE
 ;
 if
 (
