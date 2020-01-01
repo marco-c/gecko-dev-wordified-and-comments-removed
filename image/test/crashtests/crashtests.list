@@ -1,7 +1,16 @@
+asserts
+(
+0
+-
+1
+)
 load
 ownerdiscard
 .
 html
+#
+bug
+804291
 load
 83804
 -
