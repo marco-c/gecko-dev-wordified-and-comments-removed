@@ -13,6 +13,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
+include
 <
 stdlib
 .
@@ -2115,6 +2124,10 @@ p0
 namespace
 js
 {
+using
+namespace
+mozilla
+;
 class
 OffTheBooks
 {

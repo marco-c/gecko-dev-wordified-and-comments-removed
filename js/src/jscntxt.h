@@ -7974,14 +7974,12 @@ isNull
 )
 )
 {
-#
-ifdef
-DEBUG
+DebugOnly
+<
 JSBool
+>
 ok
 =
-#
-endif
 obj
 -
 >
