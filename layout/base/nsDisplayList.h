@@ -2457,6 +2457,12 @@ return
 false
 ;
 }
+static
+bool
+ForceActiveLayers
+(
+)
+;
 virtual
 LayerState
 GetLayerState
