@@ -673,8 +673,7 @@ BaseShape
 DELEGATE
 )
 ;
-UnownedBaseShape
-*
+UnrootedUnownedBaseShape
 nbase
 =
 BaseShape
@@ -756,6 +755,11 @@ Shape
 :
 HAS_SHORTID
 frameIndex
+)
+;
+DropUnrooted
+(
+nbase
 )
 ;
 self

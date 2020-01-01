@@ -685,6 +685,10 @@ StackShape
 child
 )
 {
+AssertCanGC
+(
+)
+;
 Shape
 *
 shape

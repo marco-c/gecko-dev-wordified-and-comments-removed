@@ -866,8 +866,7 @@ BaseShape
 :
 adoptUnowned
 (
-UnownedBaseShape
-*
+UnrootedUnownedBaseShape
 other
 )
 {
@@ -960,8 +959,7 @@ BaseShape
 :
 setOwned
 (
-UnownedBaseShape
-*
+UnrootedUnownedBaseShape
 unowned
 )
 {
@@ -997,8 +995,7 @@ isOwned
 )
 )
 {
-UnownedBaseShape
-*
+UnrootedUnownedBaseShape
 unowned
 =
 baseUnowned
@@ -1182,8 +1179,7 @@ Shape
 :
 Shape
 (
-UnownedBaseShape
-*
+UnrootedUnownedBaseShape
 base
 uint32_t
 nfixed
@@ -1437,8 +1433,7 @@ Shape
 :
 matchesParamsAfterId
 (
-BaseShape
-*
+UnrootedBaseShape
 base
 uint32_t
 aslot
@@ -2230,8 +2225,7 @@ EmptyShape
 :
 EmptyShape
 (
-UnownedBaseShape
-*
+UnrootedUnownedBaseShape
 base
 uint32_t
 nfixed
@@ -2500,8 +2494,7 @@ BaseShape
 :
 writeBarrierPre
 (
-BaseShape
-*
+RawBaseShape
 base
 )
 {
@@ -2536,8 +2529,7 @@ needsBarrier
 )
 )
 {
-BaseShape
-*
+RawBaseShape
 tmp
 =
 base
@@ -2577,8 +2569,7 @@ BaseShape
 :
 writeBarrierPost
 (
-BaseShape
-*
+RawBaseShape
 shape
 void
 *
@@ -2593,8 +2584,7 @@ BaseShape
 :
 readBarrier
 (
-BaseShape
-*
+RawBaseShape
 base
 )
 {
@@ -2622,8 +2612,7 @@ needsBarrier
 )
 )
 {
-BaseShape
-*
+RawBaseShape
 tmp
 =
 base

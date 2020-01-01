@@ -256,8 +256,7 @@ MarkChildren
 JSTracer
 *
 trc
-BaseShape
-*
+UnrootedBaseShape
 base
 )
 ;
@@ -583,6 +582,9 @@ T
 thingp
 )
 {
+AutoAssertNoGC
+nogc
+;
 JS_ASSERT
 (
 thingp
@@ -1645,8 +1647,7 @@ MarkInternal
 trc
 reinterpret_cast
 <
-JSObject
-*
+RawObject
 *
 >
 (
@@ -1664,8 +1665,7 @@ MarkInternal
 trc
 reinterpret_cast
 <
-JSString
-*
+RawString
 *
 >
 (
@@ -1683,8 +1683,7 @@ MarkInternal
 trc
 reinterpret_cast
 <
-JSScript
-*
+RawScript
 *
 >
 (
@@ -1702,8 +1701,7 @@ MarkInternal
 trc
 reinterpret_cast
 <
-Shape
-*
+RawShape
 *
 >
 (
@@ -1721,8 +1719,7 @@ MarkInternal
 trc
 reinterpret_cast
 <
-BaseShape
-*
+RawBaseShape
 *
 >
 (
@@ -3846,8 +3843,7 @@ ScanBaseShape
 GCMarker
 *
 gcmarker
-BaseShape
-*
+UnrootedBaseShape
 base
 )
 ;
@@ -3858,8 +3854,7 @@ PushMarkStack
 GCMarker
 *
 gcmarker
-BaseShape
-*
+UnrootedBaseShape
 thing
 )
 {
@@ -4006,8 +4001,7 @@ ScanBaseShape
 GCMarker
 *
 gcmarker
-BaseShape
-*
+UnrootedBaseShape
 base
 )
 {
@@ -4116,8 +4110,7 @@ isOwned
 )
 )
 {
-UnownedBaseShape
-*
+UnrootedUnownedBaseShape
 unowned
 =
 base
@@ -4784,8 +4777,7 @@ MarkChildren
 JSTracer
 *
 trc
-BaseShape
-*
+UnrootedBaseShape
 base
 )
 {
@@ -4806,8 +4798,7 @@ MarkCycleCollectorChildren
 JSTracer
 *
 trc
-BaseShape
-*
+UnrootedBaseShape
 base
 JSObject
 *
@@ -7611,8 +7602,7 @@ MarkChildren
 trc
 static_cast
 <
-JSObject
-*
+RawObject
 >
 (
 thing
@@ -7629,8 +7619,7 @@ MarkChildren
 trc
 static_cast
 <
-JSString
-*
+RawString
 >
 (
 thing
@@ -7647,8 +7636,7 @@ MarkChildren
 trc
 static_cast
 <
-JSScript
-*
+RawScript
 >
 (
 thing
@@ -7665,8 +7653,7 @@ MarkChildren
 trc
 static_cast
 <
-Shape
-*
+RawShape
 >
 (
 thing
@@ -7704,8 +7691,7 @@ MarkChildren
 trc
 static_cast
 <
-BaseShape
-*
+RawBaseShape
 >
 (
 thing
