@@ -12777,7 +12777,7 @@ bin
 /
 sh
 {
-srcdir
+_topsrcdir
 }
 /
 build
