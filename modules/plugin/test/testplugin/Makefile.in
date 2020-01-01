@@ -475,6 +475,14 @@ NO_DIST_INSTALL
 NO_INSTALL
 =
 1
+VPATH
++
+=
+(
+topsrcdir
+)
+/
+build
 CPPSRCS
 =
 \
@@ -485,6 +493,10 @@ cpp
 nptest_utils
 .
 cpp
+\
+(
+STDCXX_COMPAT
+)
 \
 (
 NULL

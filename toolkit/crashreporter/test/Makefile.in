@@ -473,6 +473,13 @@ common
 /
 \
 (
+topsrcdir
+)
+/
+build
+/
+\
+(
 NULL
 )
 CPPSRCS
@@ -501,6 +508,10 @@ cc
 pathname_stripper
 .
 cc
+\
+(
+STDCXX_COMPAT
+)
 \
 (
 NULL

@@ -424,6 +424,14 @@ elfhack
 NO_DIST_INSTALL
 =
 1
+VPATH
++
+=
+(
+topsrcdir
+)
+/
+build
 HOST_CPPSRCS
 =
 \
@@ -434,6 +442,10 @@ cpp
 elfhack
 .
 cpp
+\
+(
+STDCXX_COMPAT
+)
 \
 (
 NULL
