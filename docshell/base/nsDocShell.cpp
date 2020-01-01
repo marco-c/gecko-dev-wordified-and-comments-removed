@@ -9816,7 +9816,6 @@ InitAsSessionStorage
 (
 aPrincipal
 aDocumentURI
-mInPrivateBrowsing
 )
 ;
 if

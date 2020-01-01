@@ -213,6 +213,11 @@ aMatch
 )
 ;
 nsresult
+RemoveAll
+(
+)
+;
+nsresult
 GetUsage
 (
 DOMStorageImpl
@@ -237,8 +242,6 @@ aIncludeSubDomains
 PRInt32
 *
 aUsage
-bool
-aPrivate
 )
 ;
 void

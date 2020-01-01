@@ -239,8 +239,6 @@ bool
 canUseChromePersist
 bool
 sessionOnly
-bool
-isPrivate
 nsCString
 domain
 nsCString
@@ -417,12 +415,6 @@ returns
 (
 nsresult
 rv
-)
-;
-UpdatePrivateState
-(
-bool
-enabled
 )
 ;
 }
