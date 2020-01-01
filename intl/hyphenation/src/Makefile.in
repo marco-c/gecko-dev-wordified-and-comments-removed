@@ -445,6 +445,10 @@ nsHyphenationManager
 .
 cpp
 \
+hnjstdio
+.
+cpp
+\
 (
 NULL
 )
