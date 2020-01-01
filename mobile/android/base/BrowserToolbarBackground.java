@@ -674,7 +674,7 @@ mSide
 =
 side
 ;
-invalidate
+requestLayout
 (
 )
 ;
