@@ -641,13 +641,6 @@ char
 aContentType
 )
 ;
-nsresult
-InitializeDownload
-(
-nsITransfer
-*
-)
-;
 void
 EnsureSuggestedFileName
 (
