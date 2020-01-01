@@ -2209,14 +2209,6 @@ ActiveFrame
 a
 )
 ;
-inline
-bool
-fixDoubleSlot
-(
-uint32
-slot
-)
-;
 void
 fixDoubleTypes
 (
