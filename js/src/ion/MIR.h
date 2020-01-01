@@ -805,6 +805,11 @@ id
 )
 const
 {
+JS_ASSERT
+(
+block_
+)
+;
 return
 id_
 ;
