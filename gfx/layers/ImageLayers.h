@@ -31,6 +31,16 @@ mozilla
 namespace
 layers
 {
+enum
+StereoMode
+{
+STEREO_MODE_MONO
+STEREO_MODE_LEFT_RIGHT
+STEREO_MODE_RIGHT_LEFT
+STEREO_MODE_BOTTOM_TOP
+STEREO_MODE_TOP_BOTTOM
+}
+;
 class
 THEBES_API
 Image
@@ -495,6 +505,9 @@ mPicY
 ;
 gfxIntSize
 mPicSize
+;
+StereoMode
+mStereoMode
 ;
 }
 ;

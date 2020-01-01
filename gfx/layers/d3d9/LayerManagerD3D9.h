@@ -483,15 +483,6 @@ GetNv3DVUtils
 NULL
 ;
 }
-PRBool
-Is3DEnabled
-(
-)
-{
-return
-mIs3DEnabled
-;
-}
 static
 void
 OnDeviceManagerDestroy
@@ -575,9 +566,6 @@ mTarget
 ;
 CallbackInfo
 mCurrentCallbackInfo
-;
-PRBool
-mIs3DEnabled
 ;
 nsIntRegion
 mClippingRegion
