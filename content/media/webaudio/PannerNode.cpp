@@ -51,10 +51,18 @@ AudioNodeEngine
 {
 public
 :
+explicit
 PannerNodeEngine
 (
+AudioNode
+*
+aNode
 )
 :
+AudioNodeEngine
+(
+aNode
+)
 mPanningModel
 (
 PanningModelTypeValues
@@ -897,6 +905,7 @@ CreateAudioNodeStream
 new
 PannerNodeEngine
 (
+this
 )
 MediaStreamGraph
 :

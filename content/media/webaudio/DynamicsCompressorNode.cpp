@@ -90,11 +90,18 @@ public
 explicit
 DynamicsCompressorNodeEngine
 (
+AudioNode
+*
+aNode
 AudioDestinationNode
 *
 aDestination
 )
 :
+AudioNodeEngine
+(
+aNode
+)
 mSource
 (
 nullptr
@@ -481,6 +488,7 @@ engine
 new
 DynamicsCompressorNodeEngine
 (
+this
 aContext
 -
 >

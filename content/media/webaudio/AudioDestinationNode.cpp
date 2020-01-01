@@ -76,6 +76,7 @@ CreateAudioNodeStream
 new
 AudioNodeEngine
 (
+this
 )
 MediaStreamGraph
 :
