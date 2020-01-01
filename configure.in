@@ -65507,7 +65507,6 @@ dnl
 =
 USE_ELF_HACK
 =
-1
 MOZ_ARG_DISABLE_BOOL
 (
 elf
@@ -72103,6 +72102,16 @@ OS_ARCH
 =
 "
 WINNT
+"
+-
+a
+"
+CPU_ARCH
+"
+!
+=
+"
+x86_64
 "
 ;
 then
