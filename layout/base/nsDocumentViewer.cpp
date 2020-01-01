@@ -930,7 +930,7 @@ _p1
 #
 endif
 class
-DocumentViewerImpl
+nsDocumentViewer
 ;
 class
 nsPrintEventDispatcher
@@ -973,14 +973,14 @@ nsDocViewerSelectionListener
 nsresult
 Init
 (
-DocumentViewerImpl
+nsDocumentViewer
 *
 aDocViewer
 )
 ;
 protected
 :
-DocumentViewerImpl
+nsDocumentViewer
 *
 mDocViewer
 ;
@@ -1015,21 +1015,21 @@ NS_DECL_NSIDOMEVENTLISTENER
 nsresult
 Init
 (
-DocumentViewerImpl
+nsDocumentViewer
 *
 aDocViewer
 )
 ;
 private
 :
-DocumentViewerImpl
+nsDocumentViewer
 *
 mDocViewer
 ;
 }
 ;
 class
-DocumentViewerImpl
+nsDocumentViewer
 :
 public
 nsIContentViewer
@@ -1063,7 +1063,7 @@ nsPrintEngine
 ;
 public
 :
-DocumentViewerImpl
+nsDocumentViewer
 (
 )
 ;
@@ -1164,7 +1164,7 @@ protected
 :
 virtual
 ~
-DocumentViewerImpl
+nsDocumentViewer
 (
 )
 ;
@@ -1557,7 +1557,7 @@ mTop
 aTop
 )
 {
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 DispatchBeforePrint
@@ -1571,7 +1571,7 @@ nsPrintEventDispatcher
 (
 )
 {
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 DispatchAfterPrint
@@ -1646,7 +1646,7 @@ aResult
 aResult
 =
 new
-DocumentViewerImpl
+nsDocumentViewer
 (
 )
 ;
@@ -1661,7 +1661,7 @@ NS_OK
 ;
 }
 void
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 PrepareToStartLoad
@@ -1742,10 +1742,10 @@ endif
 #
 endif
 }
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
-DocumentViewerImpl
+nsDocumentViewer
 (
 )
 :
@@ -1800,15 +1800,15 @@ PrepareToStartLoad
 }
 NS_IMPL_ADDREF
 (
-DocumentViewerImpl
+nsDocumentViewer
 )
 NS_IMPL_RELEASE
 (
-DocumentViewerImpl
+nsDocumentViewer
 )
 NS_INTERFACE_MAP_BEGIN
 (
-DocumentViewerImpl
+nsDocumentViewer
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -1845,11 +1845,11 @@ nsIWebBrowserPrint
 #
 endif
 NS_INTERFACE_MAP_END
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 ~
-DocumentViewerImpl
+nsDocumentViewer
 (
 )
 {
@@ -1910,7 +1910,7 @@ Destroy
 }
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 LoadStart
@@ -1926,7 +1926,7 @@ NOISY_VIEWER
 printf
 (
 "
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 LoadStart
@@ -1977,7 +1977,7 @@ rv
 ;
 }
 nsresult
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SyncParentSubDocMap
@@ -2162,7 +2162,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetContainer
@@ -2200,7 +2200,7 @@ SyncParentSubDocMap
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetContainer
@@ -2245,7 +2245,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 Init
@@ -2270,7 +2270,7 @@ true
 ;
 }
 nsresult
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 InitPresentationStuff
@@ -2738,7 +2738,7 @@ aType
 ;
 }
 nsresult
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 InitInternal
@@ -3258,7 +3258,7 @@ rv
 ;
 }
 void
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetNavigationTiming
@@ -3300,7 +3300,7 @@ timing
 }
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 LoadComplete
@@ -3311,7 +3311,7 @@ aStatus
 {
 nsRefPtr
 <
-DocumentViewerImpl
+nsDocumentViewer
 >
 kungFuDeathGrip
 (
@@ -3727,7 +3727,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 PermitUnload
@@ -3900,7 +3900,7 @@ true
 ;
 nsRefPtr
 <
-DocumentViewerImpl
+nsDocumentViewer
 >
 kungFuDeathGrip
 (
@@ -4367,7 +4367,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 ResetCloseWindow
@@ -4496,7 +4496,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 PageHide
@@ -4901,7 +4901,7 @@ childItem
 }
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 Open
@@ -5168,7 +5168,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 Close
@@ -5529,7 +5529,7 @@ childItem
 }
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 Destroy
@@ -6025,7 +6025,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 Stop
@@ -6126,7 +6126,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetDOMDocument
@@ -6156,7 +6156,7 @@ NS_IMETHODIMP_
 nsIDocument
 *
 )
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetDocument
@@ -6168,7 +6168,7 @@ mDocument
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetDOMDocument
@@ -6212,7 +6212,7 @@ false
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetDocumentInternal
@@ -6451,7 +6451,7 @@ rv
 }
 nsIPresShell
 *
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetPresShell
@@ -6464,7 +6464,7 @@ mPresShell
 }
 nsPresContext
 *
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetPresContext
@@ -6477,7 +6477,7 @@ mPresContext
 }
 nsIViewManager
 *
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetViewManager
@@ -6489,7 +6489,7 @@ mViewManager
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetPresShell
@@ -6521,7 +6521,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetPresContext
@@ -6553,7 +6553,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetBounds
@@ -6578,7 +6578,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetPreviousViewer
@@ -6605,7 +6605,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetPreviousViewer
@@ -6693,7 +6693,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetBounds
@@ -6815,7 +6815,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 Move
@@ -6860,7 +6860,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 Show
@@ -7360,7 +7360,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 Hide
@@ -7531,7 +7531,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetSticky
@@ -7551,7 +7551,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetSticky
@@ -7569,7 +7569,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 RequestWindowClose
@@ -7705,7 +7705,7 @@ true
 ;
 }
 nsresult
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 CreateStyleSet
@@ -8293,7 +8293,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 ClearHistoryEntry
@@ -8309,7 +8309,7 @@ NS_OK
 ;
 }
 nsresult
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 MakeWindow
@@ -8578,7 +8578,7 @@ rv
 ;
 }
 void
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 DetachFromTopLevelWidget
@@ -8630,7 +8630,7 @@ false
 }
 nsIView
 *
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 FindContainerView
@@ -8937,7 +8937,7 @@ containerView
 ;
 }
 nsresult
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 CreateDeviceContext
@@ -9123,7 +9123,7 @@ NS_OK
 ;
 }
 nsresult
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetDocumentSelection
@@ -9184,7 +9184,7 @@ NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 ClearSelection
@@ -9230,7 +9230,7 @@ CollapseToStart
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SelectAll
@@ -9390,7 +9390,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 CopySelection
@@ -9412,7 +9412,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 CopyLinkLocation
@@ -9547,7 +9547,7 @@ doc
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 CopyImage
@@ -9607,7 +9607,7 @@ aCopyFlags
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetCopyable
@@ -9638,7 +9638,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetContents
@@ -9739,7 +9739,7 @@ aOutValue
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetCanGetContents
@@ -9780,7 +9780,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 Print
@@ -9920,7 +9920,7 @@ NS_ERROR_FAILURE
 endif
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 PrintWithParent
@@ -9954,7 +9954,7 @@ NS_ERROR_FAILURE
 endif
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetPrintable
@@ -9982,7 +9982,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 ScrollToNode
@@ -10080,7 +10080,7 @@ NS_OK
 ;
 }
 void
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 CallChildren
@@ -10611,7 +10611,7 @@ true
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetTextZoom
@@ -10698,7 +10698,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetTextZoom
@@ -10742,7 +10742,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetMinFontSize
@@ -10826,7 +10826,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetMinFontSize
@@ -10869,7 +10869,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetFullZoom
@@ -11080,7 +11080,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetFullZoom
@@ -11177,7 +11177,7 @@ styleDisabled
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetAuthorStyleDisabled
@@ -11212,7 +11212,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetAuthorStyleDisabled
@@ -11251,7 +11251,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetDefaultCharacterSet
@@ -11366,7 +11366,7 @@ charset
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetDefaultCharacterSet
@@ -11397,7 +11397,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetForceCharacterSet
@@ -11452,7 +11452,7 @@ charset
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetForceCharacterSet
@@ -11483,7 +11483,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetHintCharacterSet
@@ -11520,7 +11520,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetHintCharacterSetSource
@@ -11545,7 +11545,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetPrevDocCharacterSet
@@ -11600,7 +11600,7 @@ charset
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetPrevDocCharacterSet
@@ -11655,7 +11655,7 @@ aClosure
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetHintCharacterSetSource
@@ -11718,7 +11718,7 @@ charset
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetHintCharacterSet
@@ -11773,7 +11773,7 @@ aClosure
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetBidiTextDirection
@@ -11807,7 +11807,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetBidiTextDirection
@@ -11845,7 +11845,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetBidiTextType
@@ -11879,7 +11879,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetBidiTextType
@@ -11917,7 +11917,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetBidiNumeral
@@ -11951,7 +11951,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetBidiNumeral
@@ -11989,7 +11989,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetBidiSupport
@@ -12023,7 +12023,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetBidiSupport
@@ -12061,7 +12061,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetBidiOptions
@@ -12099,7 +12099,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetBidiOptions
@@ -12189,7 +12189,7 @@ array
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 AppendSubtree
@@ -12224,7 +12224,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 ChangeMaxLineBoxWidth
@@ -12286,7 +12286,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetContentSize
@@ -12534,7 +12534,7 @@ nsDocViewerSelectionListener
 :
 Init
 (
-DocumentViewerImpl
+nsDocumentViewer
 *
 aDocViewer
 )
@@ -12548,7 +12548,7 @@ NS_OK
 ;
 }
 nsresult
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetPopupNode
@@ -12732,7 +12732,7 @@ NS_OK
 ;
 }
 nsresult
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetPopupLinkNode
@@ -12859,7 +12859,7 @@ NS_ERROR_FAILURE
 ;
 }
 nsresult
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetPopupImageNode
@@ -12918,7 +12918,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetInLink
@@ -12937,7 +12937,7 @@ printf
 dr
 :
 :
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetInLink
@@ -13001,7 +13001,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetInImage
@@ -13020,7 +13020,7 @@ printf
 dr
 :
 :
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetInImage
@@ -13455,7 +13455,7 @@ nsDocViewerFocusListener
 :
 Init
 (
-DocumentViewerImpl
+nsDocumentViewer
 *
 aDocViewer
 )
@@ -13472,7 +13472,7 @@ NS_OK
 ifdef
 NS_PRINTING
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 Print
@@ -13885,7 +13885,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 PrintPreview
@@ -14239,7 +14239,7 @@ NS_ERROR_FAILURE
 endif
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 PrintPreviewNavigate
@@ -14655,7 +14655,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetGlobalPrintSettings
@@ -14677,7 +14677,7 @@ aGlobalPrintSettings
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetDoingPrint
@@ -14717,7 +14717,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetDoingPrintPreview
@@ -14757,7 +14757,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetCurrentPrintSettings
@@ -14795,7 +14795,7 @@ aCurrentPrintSettings
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetCurrentChildDOMWindow
@@ -14821,7 +14821,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 Cancel
@@ -14844,7 +14844,7 @@ Cancelled
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 ExitPrintPreview
@@ -14883,7 +14883,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 EnumerateDocumentNames
@@ -14936,7 +14936,7 @@ NS_ERROR_FAILURE
 endif
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetIsFramesetFrameSelected
@@ -14978,7 +14978,7 @@ NS_ERROR_FAILURE
 endif
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetPrintPreviewNumPages
@@ -15020,7 +15020,7 @@ NS_ERROR_FAILURE
 endif
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetIsFramesetDocument
@@ -15062,7 +15062,7 @@ NS_ERROR_FAILURE
 endif
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetIsIFrameSelected
@@ -15104,7 +15104,7 @@ NS_ERROR_FAILURE
 endif
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetIsRangeSelection
@@ -15146,7 +15146,7 @@ NS_ERROR_FAILURE
 endif
 }
 void
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetIsPrintingInDocShellTree
@@ -15363,7 +15363,7 @@ false
 #
 endif
 bool
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 ShouldAttachToTopLevel
@@ -15532,7 +15532,7 @@ true
 ;
 }
 void
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 DispatchEventToWindowTree
@@ -15609,7 +15609,7 @@ nullptr
 }
 }
 bool
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetIsPrinting
@@ -15640,7 +15640,7 @@ false
 ;
 }
 void
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetIsPrinting
@@ -15713,7 +15713,7 @@ nullptr
 endif
 }
 bool
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetIsPrintPreview
@@ -15744,7 +15744,7 @@ false
 ;
 }
 void
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetIsPrintPreview
@@ -15833,7 +15833,7 @@ nullptr
 }
 }
 void
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 IncrementDestroyRefCount
@@ -15975,7 +15975,7 @@ win
 #
 endif
 void
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 ReturnToGalleyPresentation
@@ -16082,7 +16082,7 @@ Show
 endif
 }
 void
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 OnDonePrinting
@@ -16219,7 +16219,7 @@ false
 endif
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetPageMode
@@ -16345,7 +16345,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetHistoryEntry
@@ -16369,7 +16369,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetIsTabModalPromptAllowed
@@ -16395,7 +16395,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 GetIsHidden
@@ -16415,7 +16415,7 @@ NS_OK
 ;
 }
 void
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 DestroyPresShell
@@ -16485,7 +16485,7 @@ nullptr
 ;
 }
 void
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 DestroyPresContext
@@ -16514,7 +16514,7 @@ nullptr
 ;
 }
 bool
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 IsInitializedForPrintPreview
@@ -16526,7 +16526,7 @@ mInitializedForPrintPreview
 ;
 }
 void
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 InitializeForPrintPreview
@@ -16539,7 +16539,7 @@ true
 ;
 }
 void
-DocumentViewerImpl
+nsDocumentViewer
 :
 :
 SetPrintPreviewPresentation
