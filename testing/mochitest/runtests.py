@@ -3972,6 +3972,27 @@ copyExtraFilesToProfile
 options
 )
     
+if
+(
+not
+options
+.
+browserChrome
+and
+        
+not
+options
+.
+chrome
+and
+        
+not
+options
+.
+a11y
+)
+:
+      
 self
 .
 installSpecialPowersExtension
