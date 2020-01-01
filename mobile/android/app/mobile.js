@@ -3901,16 +3901,6 @@ true
 pref
 (
 "
-plugins
-.
-use_placeholder
-"
-0
-)
-;
-pref
-(
-"
 breakpad
 .
 reportURL
