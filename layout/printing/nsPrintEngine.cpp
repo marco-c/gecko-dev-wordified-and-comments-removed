@@ -10796,6 +10796,11 @@ float
 (
 selectionHgt
 )
+*
+aPO
+-
+>
+mZoomRatio
 /
 float
 (
