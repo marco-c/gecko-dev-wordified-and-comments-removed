@@ -77,13 +77,6 @@ autoconf
 mk
 ifdef
 MOZ_LINKER
-SIMPLE_PROGRAMS
-:
-=
-TestZip
-(
-BIN_SUFFIX
-)
 STL_FLAGS
 =
 LOCAL_INCLUDES
