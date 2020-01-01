@@ -3315,7 +3315,6 @@ updatePosition
 (
 )
 ;
-}
 float
 excess
 =
@@ -3387,6 +3386,7 @@ threshold
 )
 return
 ;
+}
 boolean
 overscrolledX
 =
