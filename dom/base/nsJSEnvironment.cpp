@@ -4065,6 +4065,8 @@ js_disable_explicit_compartment_gc
 =
 JS_OPTIONS_DOT_STR
 "
+mem
+.
 disable_explicit_compartment_gc
 "
 ;
