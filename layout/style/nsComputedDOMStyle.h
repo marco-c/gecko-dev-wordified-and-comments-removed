@@ -1404,6 +1404,12 @@ DoGetMozTransformOrigin
 ;
 nsIDOMCSSValue
 *
+DoGetMozPerspective
+(
+)
+;
+nsIDOMCSSValue
+*
 DoGetOrient
 (
 )

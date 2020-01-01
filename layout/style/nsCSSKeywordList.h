@@ -2079,6 +2079,11 @@ pc
 )
 CSS_KEY
 (
+perspective
+perspective
+)
+CSS_KEY
+(
 physical
 physical
 )

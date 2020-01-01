@@ -5913,6 +5913,9 @@ mTransformOrigin
 2
 ]
 ;
+nsStyleCoord
+mChildPerspective
+;
 nsAutoTArray
 <
 nsTransition
