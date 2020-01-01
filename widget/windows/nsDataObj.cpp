@@ -1256,7 +1256,7 @@ wideFileName
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+E_FAIL
 )
 ;
 nsDataObj
@@ -4496,7 +4496,7 @@ true
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+E_FAIL
 )
 ;
 nsCString
@@ -4515,7 +4515,7 @@ path
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+E_FAIL
 )
 ;
 static
