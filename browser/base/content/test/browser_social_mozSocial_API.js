@@ -20,7 +20,7 @@ provider
 origin
 :
 "
-http
+https
 :
 /
 /
@@ -31,7 +31,7 @@ com
 sidebarURL
 :
 "
-http
+https
 :
 /
 /
@@ -56,7 +56,7 @@ html
 workerURL
 :
 "
-http
+https
 :
 /
 /
