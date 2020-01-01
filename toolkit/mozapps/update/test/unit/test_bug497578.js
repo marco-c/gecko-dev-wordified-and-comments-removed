@@ -138,7 +138,9 @@ watcher
 WindowWatcherFactory
 )
 ;
-gPref
+Services
+.
+prefs
 .
 setBoolPref
 (
@@ -146,7 +148,9 @@ PREF_APP_UPDATE_ENABLED
 true
 )
 ;
-gPref
+Services
+.
+prefs
 .
 setBoolPref
 (

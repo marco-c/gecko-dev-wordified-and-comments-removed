@@ -79,6 +79,11 @@ empty
 mar
 "
 ;
+const
+SLOW_MAR_DOWNLOAD_INTERVAL
+=
+100
+;
 function
 handleRequest
 (
@@ -397,7 +402,7 @@ finish
 )
 ;
 }
-2000
+SLOW_MAR_DOWNLOAD_INTERVAL
 AUS_Ci
 .
 nsITimer
