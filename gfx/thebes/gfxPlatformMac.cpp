@@ -537,6 +537,9 @@ gfxPlatformMac
 :
 GetScaledFontForFont
 (
+DrawTarget
+*
+aTarget
 gfxFont
 *
 aFont
