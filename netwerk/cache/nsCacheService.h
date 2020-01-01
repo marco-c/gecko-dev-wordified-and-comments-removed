@@ -600,14 +600,6 @@ CreateMemoryDevice
 )
 ;
 nsresult
-RemoveCustomOfflineDevice
-(
-nsOfflineCacheDevice
-*
-aDevice
-)
-;
-nsresult
 CreateRequest
 (
 nsCacheSession

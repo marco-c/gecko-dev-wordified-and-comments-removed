@@ -91,15 +91,6 @@ Telemetry
 .
 h
 "
-#
-include
-"
-mozilla
-/
-VisualEventTracer
-.
-h
-"
 using
 namespace
 mozilla
