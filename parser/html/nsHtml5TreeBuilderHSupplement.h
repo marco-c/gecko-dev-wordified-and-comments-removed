@@ -191,3 +191,8 @@ PRInt32
 aLine
 )
 ;
+void
+DropHandles
+(
+)
+;
