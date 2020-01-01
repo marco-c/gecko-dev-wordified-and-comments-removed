@@ -4112,6 +4112,16 @@ mFd
 nsnull
 ;
 }
+if
+(
+!
+mFooter
+.
+mObjectMap
+)
+return
+NS_OK
+;
 for
 (
 PRUint32
