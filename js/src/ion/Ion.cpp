@@ -1169,17 +1169,6 @@ JS_ASSERT
 bailout_
 )
 ;
-JS_ASSERT
-(
-cx_
--
->
-enumerators
-=
-=
-savedEnumerators_
-)
-;
 entryfp_
 -
 >
