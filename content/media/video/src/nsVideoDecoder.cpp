@@ -599,9 +599,6 @@ StopProgress
 (
 )
 {
-return
-NS_OK
-;
 nsresult
 rv
 =
