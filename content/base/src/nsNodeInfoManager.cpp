@@ -972,10 +972,8 @@ nsNodeInfo
 >
 newNodeInfo
 =
+new
 nsNodeInfo
-:
-:
-Create
 (
 aName
 aPrefix
@@ -1174,10 +1172,8 @@ nsNodeInfo
 >
 newNodeInfo
 =
+new
 nsNodeInfo
-:
-:
-Create
 (
 nameAtom
 aPrefix

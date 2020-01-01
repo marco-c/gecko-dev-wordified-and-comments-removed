@@ -1663,13 +1663,6 @@ Shutdown
 (
 )
 ;
-nsNodeInfo
-:
-:
-ClearCache
-(
-)
-;
 nsLayoutStylesheetCache
 :
 :

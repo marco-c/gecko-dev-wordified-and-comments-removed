@@ -77,13 +77,6 @@ h
 #
 include
 "
-nsFixedSizeAllocator
-.
-h
-"
-#
-include
-"
 nsResourceSet
 .
 h
