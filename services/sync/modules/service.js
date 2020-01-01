@@ -2662,8 +2662,6 @@ user
 username
 )
 ;
-try
-{
 let
 res
 =
@@ -2686,6 +2684,8 @@ chknode
 username
 )
 ;
+try
+{
 yield
 res
 .
