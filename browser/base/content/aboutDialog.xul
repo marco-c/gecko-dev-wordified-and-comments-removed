@@ -949,6 +949,12 @@ endif
 vbox
 >
 #
+if
+MOZ_UPDATE_CHANNEL
+!
+=
+release
+#
 ifdef
 MOZ_UPDATER
 <
@@ -993,6 +999,8 @@ end
 /
 description
 >
+#
+endif
 #
 endif
 <
