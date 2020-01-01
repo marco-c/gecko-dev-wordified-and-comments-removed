@@ -688,6 +688,14 @@ ins
 )
 ;
 bool
+visitGenericSetProperty
+(
+MGenericSetProperty
+*
+ins
+)
+;
+bool
 visitStringLength
 (
 MStringLength
