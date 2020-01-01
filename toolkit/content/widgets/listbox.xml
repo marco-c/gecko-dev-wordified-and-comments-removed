@@ -5726,6 +5726,7 @@ currentItem
 .
 disabled
 )
+{
 this
 .
 currentItem
@@ -5739,6 +5740,15 @@ currentItem
 .
 checked
 ;
+this
+.
+currentItem
+.
+doCommand
+(
+)
+;
+}
 }
 ]
 ]
@@ -7114,6 +7124,7 @@ control
 .
 disabled
 )
+{
 this
 .
 checked
@@ -7123,6 +7134,13 @@ this
 .
 checked
 ;
+this
+.
+doCommand
+(
+)
+;
+}
 ]
 ]
 >
