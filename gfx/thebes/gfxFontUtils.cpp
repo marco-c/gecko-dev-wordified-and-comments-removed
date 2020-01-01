@@ -8580,11 +8580,7 @@ gMacFontNameCharsets
 ENCODING_ID_MAC_ROMAN
 LANG_ID_MAC_ENGLISH
 "
-x
--
-mac
--
-roman
+macintosh
 "
 }
 {
@@ -8657,11 +8653,7 @@ ce
 ENCODING_ID_MAC_ROMAN
 ANY
 "
-x
--
-mac
--
-roman
+macintosh
 "
 }
 {

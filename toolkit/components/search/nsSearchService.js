@@ -2017,11 +2017,7 @@ codes
 ]
 =
 "
-x
--
-mac
--
-roman
+macintosh
 "
 ;
 codes
@@ -2421,11 +2417,7 @@ codes
 =
 [
 "
-x
--
-mac
--
-roman
+macintosh
 "
 "
 Shift_JIS

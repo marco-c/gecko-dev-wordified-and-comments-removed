@@ -48,11 +48,7 @@ encoder
 ?
 charset
 =
-x
--
-mac
--
-roman
+macintosh
 "
 nsresult
 nsUnicodeToMacRomanConstructor

@@ -71,11 +71,7 @@ windows
 1252
 "
 "
-x
--
-mac
--
-roman
+macintosh
 "
 "
 UTF
@@ -581,11 +577,7 @@ windows
 1252
 "
 "
-x
--
-mac
--
-roman
+macintosh
 "
 "
 UTF
