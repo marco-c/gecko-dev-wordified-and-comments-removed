@@ -28893,9 +28893,7 @@ rv
 =
 NS_CreateJSTimeoutHandler
 (
-GetContextInternal
-(
-)
+this
 &
 isInterval
 &

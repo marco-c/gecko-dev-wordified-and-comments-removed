@@ -458,9 +458,9 @@ extern
 nsresult
 NS_CreateJSTimeoutHandler
 (
-nsIScriptContext
+nsGlobalWindow
 *
-aContext
+aWindow
 PRBool
 *
 aIsInterval

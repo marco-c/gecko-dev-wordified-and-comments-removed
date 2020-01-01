@@ -54,6 +54,9 @@ aFilename
 PRUint32
 *
 aLineno
+JSPrincipals
+*
+aPrincipals
 )
 ;
 static
