@@ -68,14 +68,6 @@ aWidgetChain
 =
 0
 ;
-virtual
-void
-NotifyGeometryChange
-(
-)
-=
-0
-;
 }
 ;
 #
