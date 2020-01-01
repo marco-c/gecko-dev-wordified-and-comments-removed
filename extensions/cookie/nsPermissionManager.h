@@ -827,15 +827,6 @@ aIsInBrowserElement
 )
 ;
 nsresult
-RemovePermissionsForApp
-(
-uint32_t
-aAppId
-bool
-aBrowserOnly
-)
-;
-nsresult
 RemoveExpiredPermissionsForApp
 (
 uint32_t
