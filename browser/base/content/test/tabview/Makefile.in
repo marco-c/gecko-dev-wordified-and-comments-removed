@@ -460,10 +460,6 @@ browser_tabview_snapping
 .
 js
 \
-browser_tabview_exit_button
-.
-js
-\
 browser_tabview_bug591706
 .
 js
