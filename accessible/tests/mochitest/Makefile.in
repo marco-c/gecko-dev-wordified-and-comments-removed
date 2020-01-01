@@ -498,6 +498,10 @@ test_aria_role_equation
 .
 html
 \
+test_aria_token_attrs
+.
+html
+\
 (
 warning
 test_bug368835
