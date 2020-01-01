@@ -31003,6 +31003,16 @@ while
 0
 )
 ;
+JS_ASSERT
+(
+obj
+-
+>
+getProto
+(
+)
+)
+;
 PUSH_OBJECT
 (
 *

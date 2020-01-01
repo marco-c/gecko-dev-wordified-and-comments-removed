@@ -365,6 +365,7 @@ cx
 compartment2
 JS_GetPrototype
 (
+cx
 compartment2
 )
 compartment2
