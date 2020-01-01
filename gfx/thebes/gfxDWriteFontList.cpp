@@ -2987,11 +2987,6 @@ dwriteVers
 gfxWindowsPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 GetDLLVersion
 (
 L
@@ -4187,11 +4182,6 @@ dwriteVers
 gfxWindowsPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 GetDLLVersion
 (
 L

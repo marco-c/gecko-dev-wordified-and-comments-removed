@@ -305,11 +305,6 @@ aDwriteVersion
 gfxWindowsPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 GetDLLVersion
 (
 L
@@ -1464,11 +1459,6 @@ dllVersion
 gfxWindowsPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 GetDLLVersion
 (
 (
