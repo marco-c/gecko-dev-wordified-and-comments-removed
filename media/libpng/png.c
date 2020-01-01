@@ -6,8 +6,8 @@ pngpriv
 h
 "
 typedef
-png_libpng_version_1_5_9
-Your_png_h_is_not_version_1_5_9
+png_libpng_version_1_5_10
+Your_png_h_is_not_version_1_5_10
 ;
 #
 ifdef
@@ -2692,10 +2692,10 @@ version
 .
 5
 .
-9
+10
 -
-February
-18
+March
+29
 2012
 "
 PNG_STRING_NEWLINE
@@ -2757,10 +2757,10 @@ version
 .
 5
 .
-9
+10
 -
-February
-18
+March
+29
 2012
 \
 Copyright
@@ -5486,6 +5486,8 @@ double
 d
 =
 1
+.
+0
 ;
 if
 (
@@ -5523,6 +5525,8 @@ double
 mult
 =
 10
+.
+0
 ;
 do
 {
@@ -5810,6 +5814,8 @@ fp
 *
 =
 10
+.
+0
 ;
 if
 (
@@ -5852,6 +5858,8 @@ if
 d
 >
 9
+.
+0
 )
 {
 if
@@ -5892,6 +5900,8 @@ cdigits
 d
 >
 9
+.
+0
 )
 {
 int
@@ -5956,6 +5966,8 @@ if
 d
 >
 9
+.
+0
 )
 {
 if
@@ -6000,6 +6012,8 @@ exp_b10
 d
 =
 1
+.
+0
 ;
 }
 }
@@ -6014,6 +6028,8 @@ if
 d
 =
 =
+0
+.
 0
 )
 {
