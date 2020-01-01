@@ -432,7 +432,7 @@ compartmentObject
 (
 0
 )
-crossCompartmentWrappers
+crossCompartmentWrappersTable
 (
 0
 )
@@ -621,11 +621,11 @@ other
 .
 compartmentObject
 )
-crossCompartmentWrappers
+crossCompartmentWrappersTable
 (
 other
 .
-crossCompartmentWrappers
+crossCompartmentWrappersTable
 )
 regexpCompartment
 (
@@ -745,7 +745,7 @@ size_t
 compartmentObject
 ;
 size_t
-crossCompartmentWrappers
+crossCompartmentWrappersTable
 ;
 size_t
 regexpCompartment
@@ -925,7 +925,7 @@ compartmentObject
 ;
 ADD
 (
-crossCompartmentWrappers
+crossCompartmentWrappersTable
 )
 ;
 ADD
