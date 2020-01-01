@@ -1,9 +1,9 @@
 #
 ifndef
-__nsILookAndFeel
+__LookAndFeel
 #
 define
-__nsILookAndFeel
+__LookAndFeel
 #
 ifndef
 MOZILLA_INTERNAL_API

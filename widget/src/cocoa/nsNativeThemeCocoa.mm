@@ -584,13 +584,6 @@ h
 #
 include
 "
-nsILookAndFeel
-.
-h
-"
-#
-include
-"
 nsWidgetAtoms
 .
 h

@@ -26,6 +26,10 @@ nsUXThemeConstants
 .
 h
 "
+using
+namespace
+mozilla
+;
 const
 PRUnichar
 nsUXThemeData
@@ -2013,16 +2017,16 @@ WINTHEMECOLOR_METALLIC
 }
 }
 ;
-nsILookAndFeel
+LookAndFeel
 :
 :
-WindowsThemeIdentifier
+WindowsTheme
 nsUXThemeData
 :
 :
 sThemeId
 =
-nsILookAndFeel
+LookAndFeel
 :
 :
 eWindowsTheme_Generic
@@ -2035,10 +2039,10 @@ sIsDefaultWindowsTheme
 =
 PR_FALSE
 ;
-nsILookAndFeel
+LookAndFeel
 :
 :
-WindowsThemeIdentifier
+WindowsTheme
 nsUXThemeData
 :
 :
@@ -2089,7 +2093,7 @@ PR_FALSE
 ;
 sThemeId
 =
-nsILookAndFeel
+LookAndFeel
 :
 :
 eWindowsTheme_Generic
@@ -2108,7 +2112,7 @@ getCurrentThemeName
 {
 sThemeId
 =
-nsILookAndFeel
+LookAndFeel
 :
 :
 eWindowsTheme_Classic
@@ -2150,7 +2154,7 @@ NULL
 {
 sThemeId
 =
-nsILookAndFeel
+LookAndFeel
 :
 :
 eWindowsTheme_Classic
@@ -2280,7 +2284,7 @@ WINTHEME_AERO
 :
 sThemeId
 =
-nsILookAndFeel
+LookAndFeel
 :
 :
 eWindowsTheme_Aero
@@ -2292,7 +2296,7 @@ WINTHEME_ZUNE
 :
 sThemeId
 =
-nsILookAndFeel
+LookAndFeel
 :
 :
 eWindowsTheme_Zune
@@ -2304,7 +2308,7 @@ WINTHEME_ROYALE
 :
 sThemeId
 =
-nsILookAndFeel
+LookAndFeel
 :
 :
 eWindowsTheme_Royale
@@ -2392,7 +2396,7 @@ WINTHEMECOLOR_NORMAL
 :
 sThemeId
 =
-nsILookAndFeel
+LookAndFeel
 :
 :
 eWindowsTheme_LunaBlue
@@ -2404,7 +2408,7 @@ WINTHEMECOLOR_HOMESTEAD
 :
 sThemeId
 =
-nsILookAndFeel
+LookAndFeel
 :
 :
 eWindowsTheme_LunaOlive
@@ -2416,7 +2420,7 @@ WINTHEMECOLOR_METALLIC
 :
 sThemeId
 =
-nsILookAndFeel
+LookAndFeel
 :
 :
 eWindowsTheme_LunaSilver
