@@ -35326,6 +35326,9 @@ pop
 endif
 !
 macroend
+!
+ifdef
+MOZ_METRO
 ;
 Removes
 the
@@ -36276,3 +36279,8 @@ AddMetroBrowserHandlerValues
 insertmacro
 AddMetroBrowserHandlerValues
 "
+!
+endif
+;
+end
+MOZ_METRO

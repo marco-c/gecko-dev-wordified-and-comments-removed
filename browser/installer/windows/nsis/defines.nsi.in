@@ -391,6 +391,14 @@ MOZ_MAINTENANCE_SERVICE
 #
 endif
 #
+ifdef
+MOZ_METRO
+!
+define
+MOZ_METRO
+#
+endif
+#
 File
 details
 shared

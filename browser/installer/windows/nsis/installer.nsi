@@ -534,8 +534,13 @@ RegCleanMain
 insertmacro
 RegCleanUninstall
 !
+ifdef
+MOZ_METRO
+!
 insertmacro
 RemoveDEHRegistrationIfMatching
+!
+endif
 !
 insertmacro
 SetAppLSPCategories
@@ -2071,6 +2076,9 @@ If
 {
 AtLeastWin8
 }
+!
+ifdef
+MOZ_METRO
 {
 CleanupMetroBrowserHandlerValues
 }
@@ -2101,6 +2109,8 @@ FirefoxURL
 "
 FirefoxHTML
 "
+!
+endif
 {
 EndIf
 }

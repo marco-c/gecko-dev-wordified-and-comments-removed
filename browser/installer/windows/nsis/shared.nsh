@@ -2517,6 +2517,9 @@ URL
 "
 true
 "
+!
+ifdef
+MOZ_METRO
 {
 If
 }
@@ -2556,6 +2559,8 @@ FirefoxHTML
 {
 EndIf
 }
+!
+endif
 ;
 An
 empty
