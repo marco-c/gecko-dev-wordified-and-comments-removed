@@ -40,13 +40,6 @@ h
 #
 include
 "
-jsdate
-.
-h
-"
-#
-include
-"
 jsfun
 .
 h
