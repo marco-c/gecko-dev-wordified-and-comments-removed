@@ -511,6 +511,7 @@ nsSize
 mContentArea
 ;
 nsFrameList
+*
 mFloatContinuations
 ;
 void
@@ -539,7 +540,8 @@ NS_FRAME_IS_FLOAT_CONTINUATION
 )
 ;
 mFloatContinuations
-.
+-
+>
 AppendFrame
 (
 mBlock
