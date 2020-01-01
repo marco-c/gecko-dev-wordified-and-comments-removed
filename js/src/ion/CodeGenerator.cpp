@@ -11210,6 +11210,17 @@ return
 NULL
 ;
 }
+else
+if
+(
+!
+script
+)
+{
+return
+NULL
+;
+}
 if
 (
 script
