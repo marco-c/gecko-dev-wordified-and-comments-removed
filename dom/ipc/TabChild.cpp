@@ -4201,7 +4201,7 @@ const
 IPC
 :
 :
-URI
+Principal
 &
 )
 {

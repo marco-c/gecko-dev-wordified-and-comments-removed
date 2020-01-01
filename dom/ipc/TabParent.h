@@ -706,9 +706,9 @@ const
 IPC
 :
 :
-URI
+Principal
 &
-uri
+aPrincipal
 )
 ;
 virtual

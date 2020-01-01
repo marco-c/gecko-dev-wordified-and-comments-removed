@@ -1265,9 +1265,9 @@ const
 IPC
 :
 :
-URI
+Principal
 &
-uri
+principal
 )
 {
 return
@@ -1276,7 +1276,7 @@ ContentPermissionRequestParent
 (
 type
 mFrameElement
-uri
+principal
 )
 ;
 }

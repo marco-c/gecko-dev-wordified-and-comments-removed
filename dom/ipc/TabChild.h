@@ -1053,9 +1053,12 @@ nsCString
 &
 aType
 const
-URI
+IPC
+:
+:
+Principal
 &
-aUri
+aPrincipal
 )
 {
 PCOMContentPermissionRequestChild
@@ -1082,7 +1085,7 @@ SendPContentPermissionRequestConstructor
 (
 aActor
 aType
-aUri
+aPrincipal
 )
 ;
 child
@@ -1111,9 +1114,9 @@ const
 IPC
 :
 :
-URI
+Principal
 &
-uri
+aPrincipal
 )
 ;
 virtual

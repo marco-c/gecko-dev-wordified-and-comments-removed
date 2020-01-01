@@ -148,11 +148,11 @@ Services
 .
 perms
 .
-testExactPermission
+testExactPermissionFromPrincipal
 (
 request
 .
-uri
+principal
 "
 geo
 "
@@ -457,11 +457,11 @@ Services
 .
 perms
 .
-add
+addFromPrincipal
 (
 request
 .
-uri
+principal
 "
 geo
 "

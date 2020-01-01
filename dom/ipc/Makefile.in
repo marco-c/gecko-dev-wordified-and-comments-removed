@@ -152,6 +152,10 @@ CrashReporterParent
 .
 h
 \
+PermissionMessageUtils
+.
+h
+\
 StructuredCloneUtils
 .
 h
@@ -217,6 +221,10 @@ CrashReporterParent
 cpp
 \
 CrashReporterChild
+.
+cpp
+\
+PermissionMessageUtils
 .
 cpp
 \
