@@ -193,12 +193,6 @@ ResetLinkState
 (
 )
 ;
-virtual
-~
-Link
-(
-)
-;
 private
 :
 void
