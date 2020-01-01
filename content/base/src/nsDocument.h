@@ -357,13 +357,6 @@ h
 #
 include
 "
-nsIDocumentRegister
-.
-h
-"
-#
-include
-"
 imgIRequest
 .
 h
@@ -1723,8 +1716,6 @@ nsIDOMDocumentTouch
 public
 nsIInlineEventHandlers
 public
-nsIDocumentRegister
-public
 nsIObserver
 {
 public
@@ -2945,7 +2936,6 @@ NS_DECL_NSIAPPLICATIONCACHECONTAINER
 NS_DECL_NSITOUCHEVENTRECEIVER
 NS_DECL_NSIDOMDOCUMENTTOUCH
 NS_DECL_NSIINLINEEVENTHANDLERS
-NS_DECL_NSIDOCUMENTREGISTER
 NS_DECL_NSIOBSERVER
 virtual
 nsresult

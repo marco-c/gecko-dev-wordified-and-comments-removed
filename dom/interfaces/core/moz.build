@@ -198,11 +198,6 @@ nsIDOMXMLDocument
 idl
 '
 '
-nsIDocumentRegister
-.
-idl
-'
-'
 nsIInlineEventHandlers
 .
 idl
