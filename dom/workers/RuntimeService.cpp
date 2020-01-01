@@ -4333,9 +4333,11 @@ nsIObserverService
 >
 obs
 =
-do_GetService
+services
+:
+:
+GetObserverService
 (
-NS_OBSERVERSERVICE_CONTRACTID
 )
 ;
 NS_WARN_IF_FALSE
