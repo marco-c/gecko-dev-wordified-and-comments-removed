@@ -815,9 +815,14 @@ GetScriptGlobalObject
 ;
 if
 (
+!
 globalObject
 )
 {
+return
+NS_ERROR_NOT_AVAILABLE
+;
+}
 nsIScriptContext
 *
 context
@@ -835,9 +840,10 @@ JAVASCRIPT
 ;
 if
 (
+!
 context
-&
-&
+|
+|
 !
 context
 -
@@ -850,7 +856,6 @@ GetScriptsEnabled
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-}
 }
 PRUint32
 typeID
@@ -1584,11 +1589,6 @@ rv
 rv
 )
 ;
-if
-(
-globalObject
-)
-{
 PRInt16
 shouldLoad
 =
@@ -1865,7 +1865,6 @@ rv
 rv
 )
 ;
-}
 }
 else
 {
