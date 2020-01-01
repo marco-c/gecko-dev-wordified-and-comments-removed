@@ -6637,12 +6637,12 @@ label
 :
 Strings
 .
-browser
+brand
 .
 GetStringFromName
 (
 "
-syncCharm
+syncBrandShortName
 "
 )
 onselected

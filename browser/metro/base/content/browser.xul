@@ -6257,7 +6257,7 @@ setup
 .
 manual
 .
-label
+label_2
 ;
 <
 /
@@ -6293,7 +6293,7 @@ flyout
 .
 setup
 .
-description4
+description4_2
 ;
 <
 /
@@ -6314,7 +6314,7 @@ flyout
 .
 setup
 .
-description5
+description5_2
 ;
 <
 /
@@ -6335,7 +6335,7 @@ flyout
 .
 setup
 .
-description6
+description6_2
 ;
 <
 /
@@ -6372,7 +6372,7 @@ flyout
 .
 manualsetup
 .
-description1
+description1_2
 ;
 <
 /
@@ -7428,7 +7428,7 @@ flyout
 .
 pairNewDevice
 .
-note2
+note2_2
 ;
 <
 /
@@ -7449,7 +7449,7 @@ flyout
 .
 pairNewDevice
 .
-note3
+note3_2
 ;
 <
 /
