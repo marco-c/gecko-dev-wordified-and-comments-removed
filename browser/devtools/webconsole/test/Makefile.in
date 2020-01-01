@@ -529,6 +529,10 @@ browser_webconsole_bug_837351_securityerrors
 .
 js
 \
+browser_bug_865871_variables_view_close_on_esc_key
+.
+js
+\
 head
 .
 js
