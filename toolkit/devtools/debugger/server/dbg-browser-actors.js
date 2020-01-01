@@ -2577,6 +2577,16 @@ this
 .
 _tabActor
 .
+threadActor
+.
+disableAllBreakpoints
+(
+)
+;
+this
+.
+_tabActor
+.
 conn
 .
 send
