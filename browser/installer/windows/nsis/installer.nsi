@@ -3223,6 +3223,7 @@ FileMainEXE
 AppUserModelID
 }
 "
+0
 ;
 Refresh
 desktop

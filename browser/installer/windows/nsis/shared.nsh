@@ -766,6 +766,7 @@ FileMainEXE
 AppUserModelID
 }
 "
+0
 ;
 Remove
 files
