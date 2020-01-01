@@ -17436,9 +17436,6 @@ newDoWhileStatement
 body
 cond
 TokenPos
-:
-:
-make
 (
 begin
 pos
@@ -18834,11 +18831,6 @@ JSMSG_PAREN_AFTER_FOR_CTRL
 ;
 TokenPos
 headPos
-=
-TokenPos
-:
-:
-make
 (
 begin
 pos
@@ -20197,9 +20189,6 @@ newContinueStatement
 (
 label
 TokenPos
-:
-:
-make
 (
 begin
 pos
@@ -20424,9 +20413,6 @@ newBreakStatement
 (
 label
 TokenPos
-:
-:
-make
 (
 begin
 pos
@@ -20784,9 +20770,6 @@ newReturnStatement
 (
 exprNode
 TokenPos
-:
-:
-make
 (
 begin
 pos
@@ -21134,9 +21117,6 @@ deoptimizeUsesWithin
 (
 lexdep
 TokenPos
-:
-:
-make
 (
 begin
 pos
@@ -21494,9 +21474,6 @@ newThrowStatement
 (
 throwExpr
 TokenPos
-:
-:
-make
 (
 begin
 pos
