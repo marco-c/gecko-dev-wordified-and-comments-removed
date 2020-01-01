@@ -135,11 +135,10 @@ expect
 TypeError
 :
 \
-(
-intermediate
-value
+/
+a
 \
-)
+/
 .
 exec
 \
