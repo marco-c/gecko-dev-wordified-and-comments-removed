@@ -1946,8 +1946,11 @@ void
 AssertPastValue
 (
 const
+RangeCheckedPointer
+<
+const
 jschar
-*
+>
 current
 )
 {
