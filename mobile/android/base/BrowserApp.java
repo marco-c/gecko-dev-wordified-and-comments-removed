@@ -526,9 +526,9 @@ OnKeyListener
 GeckoLayerClient
 .
 OnMetricsChangedListener
-AboutHome
+HomePager
 .
-UriLoadListener
+OnUrlOpenListener
 AboutHome
 .
 LoadCompleteListener
@@ -9452,7 +9452,7 @@ execute
 Override
 public
 void
-onAboutHomeUriLoad
+onUrlOpen
 (
 String
 url
