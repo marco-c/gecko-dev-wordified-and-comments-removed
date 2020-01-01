@@ -5840,7 +5840,16 @@ return
 ;
 #
 if
+defined
+(
 __i386__
+)
+|
+|
+defined
+(
+__i386
+)
 if
 (
 patlen

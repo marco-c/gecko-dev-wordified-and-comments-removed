@@ -7251,6 +7251,9 @@ principalsTranscoder
 JSObjectPrincipalsFinder
 findObjectPrincipals
 ;
+JSCSPEvalChecker
+contentSecurityPolicyAllows
+;
 }
 ;
 extern

@@ -3908,7 +3908,10 @@ bp
 )
 ;
 extern
+JS_FRIEND_API
+(
 JSBool
+)
 js_GetClassPrototype
 (
 JSContext
@@ -4188,6 +4191,15 @@ principals
 JSAtom
 *
 caller
+)
+;
+extern
+JSBool
+js_CheckContentSecurityPolicy
+(
+JSContext
+*
+cx
 )
 ;
 extern
