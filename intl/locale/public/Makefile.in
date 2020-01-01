@@ -446,7 +446,7 @@ nsWin32Locale
 .
 h
 \
-nsICharsetAlias
+nsCharsetAlias
 .
 h
 \

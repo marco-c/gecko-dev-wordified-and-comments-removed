@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsICharsetAlias
-.
-h
-"
-#
-include
-"
 nsICharsetDetector
 .
 h

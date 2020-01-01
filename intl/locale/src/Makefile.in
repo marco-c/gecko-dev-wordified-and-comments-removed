@@ -491,7 +491,7 @@ nsLocaleService
 .
 cpp
 \
-nsCharsetAliasImp
+nsCharsetAlias
 .
 cpp
 \
@@ -578,7 +578,7 @@ config
 rules
 .
 mk
-nsCharsetAliasImp
+nsCharsetAlias
 .
 (
 OBJ_SUFFIX
