@@ -1229,7 +1229,7 @@ void
 XPCWrappedNativeScope
 :
 :
-TraceJS
+TraceWrappedNativesInAllScopes
 (
 JSTracer
 *
