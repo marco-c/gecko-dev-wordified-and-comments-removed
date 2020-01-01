@@ -182,7 +182,16 @@ aMultiEntry
 JSContext
 *
 aCx
-jsval
+JS
+:
+:
+Handle
+<
+JS
+:
+:
+Value
+>
 aObject
 nsTArray
 <

@@ -422,8 +422,14 @@ Serialize
 nsIObjectOutputStream
 *
 aStream
+JS
+:
+:
+Handle
+<
 JSScript
 *
+>
 aScriptObject
 )
 ;

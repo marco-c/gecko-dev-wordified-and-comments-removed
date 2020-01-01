@@ -1858,12 +1858,7 @@ ConvertToPrimitive
 JSContext
 *
 cx
-const
-JS
-:
-:
-Value
-&
+HandleValue
 v
 T
 *
