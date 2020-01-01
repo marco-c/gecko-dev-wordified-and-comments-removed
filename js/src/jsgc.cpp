@@ -5676,7 +5676,7 @@ JS_GC_ROOT_GCTHING_PTR
 }
 JS_FRIEND_API
 (
-JSBool
+void
 )
 js_RemoveRoot
 (
@@ -5703,10 +5703,7 @@ rt
 >
 gcPoke
 =
-JS_TRUE
-;
-return
-JS_TRUE
+true
 ;
 }
 typedef

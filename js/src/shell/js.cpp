@@ -21841,12 +21841,14 @@ if
 rootedVal
 )
 {
-JS_RemoveValueRoot
+JS_RemoveValueRootRT
 (
 fop
 -
 >
-context
+runtime
+(
+)
 rootedVal
 )
 ;

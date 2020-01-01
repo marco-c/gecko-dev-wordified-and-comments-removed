@@ -709,8 +709,6 @@ JSContext
 aCx
 Status
 aStatus
-bool
-aFromJSFinalizer
 )
 ;
 bool
@@ -719,8 +717,6 @@ TerminatePrivate
 JSContext
 *
 aCx
-bool
-aFromJSFinalizer
 )
 {
 return
@@ -728,7 +724,6 @@ NotifyPrivate
 (
 aCx
 Terminating
-aFromJSFinalizer
 )
 ;
 }
@@ -754,7 +749,6 @@ NotifyPrivate
 (
 aCx
 aStatus
-false
 )
 ;
 }
@@ -863,7 +857,6 @@ return
 TerminatePrivate
 (
 aCx
-false
 )
 ;
 }
