@@ -1681,7 +1681,7 @@ sts
 =
 do_GetService
 (
-kSocketTransportServiceCID
+NS_SOCKETTRANSPORTSERVICE_CONTRACTID
 &
 rv
 )

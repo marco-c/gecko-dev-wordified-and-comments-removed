@@ -790,7 +790,7 @@ mIOService
 =
 do_GetService
 (
-kIOServiceCID
+NS_IOSERVICE_CONTRACTID
 &
 rv
 )
@@ -2136,7 +2136,7 @@ mStreamConvSvc
 =
 do_GetService
 (
-kStreamConverterServiceCID
+NS_STREAMCONVERTERSERVICE_CONTRACTID
 &
 rv
 )
@@ -2185,7 +2185,7 @@ mCookieService
 =
 do_GetService
 (
-kCookieServiceCID
+NS_COOKIESERVICE_CONTRACTID
 )
 ;
 return
@@ -5708,7 +5708,7 @@ sps
 (
 do_GetService
 (
-kSocketProviderServiceCID
+NS_SOCKETPROVIDERSERVICE_CONTRACTID
 )
 )
 ;
@@ -7795,7 +7795,7 @@ spserv
 =
 do_GetService
 (
-kSocketProviderServiceCID
+NS_SOCKETPROVIDERSERVICE_CONTRACTID
 )
 ;
 if
