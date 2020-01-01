@@ -628,7 +628,6 @@ meh
 .
 doubleTap
 (
-100
 mDriver
 .
 getGeckoWidth
@@ -636,6 +635,7 @@ getGeckoWidth
 )
 /
 2
+100
 )
 ;
 painted
