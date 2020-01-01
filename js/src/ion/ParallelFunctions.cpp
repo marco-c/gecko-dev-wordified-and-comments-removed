@@ -2401,7 +2401,8 @@ HandleValue
 lhs
 HandleValue
 rhs
-MutableHandleValue
+Value
+*
 out
 )
 {
@@ -2462,7 +2463,8 @@ right
 31
 ;
 out
-.
+-
+>
 setNumber
 (
 uint32_t
