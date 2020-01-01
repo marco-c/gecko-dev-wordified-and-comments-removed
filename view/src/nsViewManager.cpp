@@ -5255,6 +5255,13 @@ aEvent
 )
 &
 &
+!
+NS_IS_SELECTION_EVENT
+(
+aEvent
+)
+&
+&
 aEvent
 -
 >

@@ -563,7 +563,7 @@ nsIMEStateManager
 .
 cpp
 \
-nsQueryContentEventHandler
+nsContentEventHandler
 .
 cpp
 \
