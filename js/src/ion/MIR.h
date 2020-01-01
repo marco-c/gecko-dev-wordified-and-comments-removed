@@ -1182,6 +1182,7 @@ isInstruction
 const
 {
 return
+!
 isPhi
 (
 )
