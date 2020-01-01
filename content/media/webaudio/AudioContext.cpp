@@ -521,6 +521,12 @@ aSampleRate
 0
 .
 0f
+|
+|
+aSampleRate
+>
+=
+TRACK_RATE_MAX
 )
 {
 aRv
