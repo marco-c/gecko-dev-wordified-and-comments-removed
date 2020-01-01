@@ -8703,6 +8703,7 @@ jit
 >
 scriptDataSize
 (
+NULL
 )
 =
 =

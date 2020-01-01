@@ -1810,6 +1810,15 @@ size_t
 )
 jitDataSize
 (
+size_t
+(
+*
+mus
+)
+(
+void
+*
+)
 )
 ;
 #
