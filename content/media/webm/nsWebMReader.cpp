@@ -3724,6 +3724,9 @@ duration
 ;
 if
 (
+mContext
+&
+&
 nestegg_duration
 (
 mContext
