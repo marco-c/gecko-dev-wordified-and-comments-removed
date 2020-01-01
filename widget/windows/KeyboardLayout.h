@@ -1493,6 +1493,14 @@ GetKeyboardLayout
 mKeyboardLayout
 ;
 }
+WORD
+ComputeScanCodeForVirtualKeyCode
+(
+uint8_t
+aVirtualKeyCode
+)
+const
+;
 }
 ;
 }
