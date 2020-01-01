@@ -213,6 +213,16 @@ aZ
 ;
 static
 gfx3DMatrix
+Translation
+(
+const
+gfxPoint3D
+&
+aPoint
+)
+;
+static
+gfx3DMatrix
 Scale
 (
 float
