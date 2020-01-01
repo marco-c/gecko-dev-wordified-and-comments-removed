@@ -3302,13 +3302,6 @@ icons
 /
 *
 .
-xpm
-BINPATH
-/
-icons
-/
-*
-.
 png
 #
 endif
