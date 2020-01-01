@@ -3111,3 +3111,15 @@ LOCALE
 "
 )
 ;
+pref
+(
+"
+security
+.
+alternate_certificate_error_page
+"
+"
+certerror
+"
+)
+;
