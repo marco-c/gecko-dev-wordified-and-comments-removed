@@ -2571,14 +2571,6 @@ script
 -
 >
 compileAndGo
-&
-&
-script
--
->
-hasGlobals
-(
-)
 )
 {
 int32
