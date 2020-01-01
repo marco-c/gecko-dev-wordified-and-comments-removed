@@ -1727,14 +1727,14 @@ JSOP_FUNAPPLY
 &
 &
 !
-IsGetterPC
+IsGetPropPC
 (
 bailPC
 )
 &
 &
 !
-IsSetterPC
+IsSetPropPC
 (
 bailPC
 )
