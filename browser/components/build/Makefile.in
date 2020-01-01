@@ -400,10 +400,6 @@ LIB_SUFFIX
 )
 \
 (
-MOZ_JS_LIBS
-)
-\
-(
 LIBXUL_DIST
 )
 /
