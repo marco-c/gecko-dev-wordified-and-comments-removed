@@ -1867,6 +1867,8 @@ XPCOM_GLUE_LDOPTS
 (
 NSPR_LIBS
 )
+-
+ljs_static
 #
 .
 .
