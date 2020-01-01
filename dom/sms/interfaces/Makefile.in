@@ -457,6 +457,10 @@ nsIDOMSmsMessage
 .
 idl
 \
+nsIDOMSmsEvent
+.
+idl
+\
 (
 NULL
 )
