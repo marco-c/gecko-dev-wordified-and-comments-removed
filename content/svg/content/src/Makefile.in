@@ -841,6 +841,10 @@ nsSVGSetElement
 .
 cpp
 \
+SVGAttrValueWrapper
+.
+cpp
+\
 SVGIntegerPairSMILType
 .
 cpp
@@ -938,6 +942,10 @@ nsSVGFeatures
 h
 \
 nsSVGRect
+.
+h
+\
+SVGAttrValueWrapper
 .
 h
 \

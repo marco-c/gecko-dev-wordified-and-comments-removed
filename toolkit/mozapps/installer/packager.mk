@@ -2419,6 +2419,8 @@ INNER_ROBOCOP_PACKAGE
 PYTHON
 )
 (
+abspath
+(
 topsrcdir
 )
 /
@@ -2431,6 +2433,7 @@ robocop
 parse_ids
 .
 py
+)
 -
 i
 (

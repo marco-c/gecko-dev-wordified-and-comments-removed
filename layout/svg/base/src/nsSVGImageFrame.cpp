@@ -98,6 +98,7 @@ nsSVGImageFrame
 ;
 class
 nsSVGImageListener
+MOZ_FINAL
 :
 public
 nsStubImageDecoderObserver

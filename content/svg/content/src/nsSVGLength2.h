@@ -219,6 +219,7 @@ nsAString
 &
 aValue
 )
+const
 ;
 void
 GetAnimValueString
@@ -227,6 +228,7 @@ nsAString
 &
 aValue
 )
+const
 ;
 float
 GetBaseValue
@@ -606,6 +608,8 @@ aValue
 nsSVGElement
 *
 aSVGElement
+bool
+aDoSetAttr
 )
 ;
 void
@@ -616,6 +620,8 @@ aValue
 nsSVGElement
 *
 aSVGElement
+bool
+aDoSetAttr
 )
 ;
 void
@@ -801,6 +807,7 @@ SetBaseValue
 (
 aValue
 mSVGElement
+true
 )
 ;
 return
@@ -854,6 +861,7 @@ SetBaseValueInSpecifiedUnits
 (
 aValue
 mSVGElement
+true
 )
 ;
 return

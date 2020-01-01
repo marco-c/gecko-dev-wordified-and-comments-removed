@@ -799,6 +799,7 @@ b513
 }
 class
 nsHTMLInputElementState
+MOZ_FINAL
 :
 public
 nsISupports

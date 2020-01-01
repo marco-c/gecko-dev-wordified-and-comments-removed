@@ -309,6 +309,7 @@ nsAString
 &
 aValue
 )
+const
 ;
 nsresult
 SetBaseAlign

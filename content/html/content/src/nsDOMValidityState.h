@@ -20,6 +20,7 @@ h
 "
 class
 nsDOMValidityState
+MOZ_FINAL
 :
 public
 nsIDOMValidityState

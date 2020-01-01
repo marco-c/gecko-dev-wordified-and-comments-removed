@@ -6951,7 +6951,8 @@ JSTracer
 trc
 void
 *
-thing
+*
+thingp
 JSGCTraceKind
 kind
 )
@@ -6967,6 +6968,13 @@ entry
 JSCountHeapNode
 *
 node
+;
+void
+*
+thing
+=
+*
+thingp
 ;
 JS_ASSERT
 (
