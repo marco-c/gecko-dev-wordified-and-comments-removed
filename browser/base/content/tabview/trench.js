@@ -2440,13 +2440,6 @@ t
 parentItem
 .
 isDragging
-|
-|
-t
-.
-parentItem
-.
-isDropTarget
 )
 )
 return
@@ -2611,13 +2604,6 @@ if
 t
 .
 active
-|
-|
-t
-.
-parentItem
-.
-isDropTarget
 )
 continue
 ;

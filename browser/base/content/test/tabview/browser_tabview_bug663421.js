@@ -313,7 +313,7 @@ cw
 ;
 checkNumberOfGroupItems
 (
-1
+2
 )
 ;
 next

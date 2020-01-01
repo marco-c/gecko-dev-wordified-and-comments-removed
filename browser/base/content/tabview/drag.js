@@ -30,7 +30,6 @@ Drag
 (
 item
 event
-isFauxDrag
 )
 {
 Utils
@@ -1088,12 +1087,11 @@ arrange
 ;
 if
 (
-!
 this
 .
 item
 .
-parent
+isAGroupItem
 )
 {
 this
