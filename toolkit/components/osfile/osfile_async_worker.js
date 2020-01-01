@@ -143,6 +143,9 @@ length
 }
 if
 (
+options
+&
+&
 typeof
 options
 =
