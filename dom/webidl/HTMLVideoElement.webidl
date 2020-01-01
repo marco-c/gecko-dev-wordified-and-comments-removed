@@ -435,7 +435,6 @@ mediasource
 .
 enabled
 "
-Creator
 ]
 readonly
 attribute
