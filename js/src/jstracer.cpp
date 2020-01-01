@@ -525,6 +525,7 @@ op
 )
 #
 endif
+FASTCALL
 jsdouble
 builtin_dmod
 (
@@ -613,6 +614,7 @@ r
 ;
 }
 inline
+FASTCALL
 uint64
 builtin_BoxDouble
 (
@@ -673,6 +675,7 @@ v
 ;
 }
 inline
+FASTCALL
 uint64
 builtin_BoxInt32
 (
@@ -710,6 +713,7 @@ i
 ;
 }
 inline
+FASTCALL
 uint64
 builtin_UnboxInt32
 (
