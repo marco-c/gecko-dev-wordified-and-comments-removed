@@ -205,10 +205,6 @@ nsSVGDefsElement
 .
 cpp
 \
-nsSVGDescElement
-.
-cpp
-\
 nsSVGElement
 .
 cpp
@@ -513,6 +509,10 @@ SVGContentUtils
 .
 cpp
 \
+SVGDescElement
+.
+cpp
+\
 SVGIntegerPairSMILType
 .
 cpp
@@ -639,6 +639,10 @@ SVGAnimatedAngle
 h
 \
 SVGAnimatedBoolean
+.
+h
+\
+SVGDescElement
 .
 h
 \
