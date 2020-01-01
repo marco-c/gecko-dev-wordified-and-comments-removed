@@ -920,16 +920,6 @@ INT32
 1
 1
 )
-BUILTIN2
-(
-extern
-STRING
-js_ObjectToString
-CONTEXT
-OBJECT
-0
-0
-)
 BUILTIN1
 (
 extern
