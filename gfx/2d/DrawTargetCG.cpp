@@ -255,6 +255,11 @@ CGContextRelease
 mCg
 )
 ;
+free
+(
+mData
+)
+;
 }
 TemporaryRef
 <
