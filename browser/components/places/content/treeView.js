@@ -3405,6 +3405,17 @@ _result
 )
 return
 ;
+if
+(
+aNode
+=
+=
+this
+.
+_rootNode
+)
+return
+;
 let
 row
 =
