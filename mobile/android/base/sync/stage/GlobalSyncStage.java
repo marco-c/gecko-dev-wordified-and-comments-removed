@@ -37,6 +37,7 @@ fetchMetaGlobal
 ensureKeysStage
 syncClientsEngine
 syncTabs
+syncPasswords
 syncBookmarks
 syncHistory
 syncFormHistory
