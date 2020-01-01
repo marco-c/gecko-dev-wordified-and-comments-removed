@@ -2065,6 +2065,13 @@ axisSize
 |
 fvar_head
 .
+axisCount
+>
+0x3ffe
+|
+|
+fvar_head
+.
 instanceSize
 !
 =
@@ -2075,6 +2082,13 @@ instanceSize
 fvar_head
 .
 axisCount
+|
+|
+fvar_head
+.
+instanceCount
+>
+0x7eff
 |
 |
 fvar_head
