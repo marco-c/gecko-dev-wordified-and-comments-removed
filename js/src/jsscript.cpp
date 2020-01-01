@@ -11705,13 +11705,14 @@ argumentsHasLocalBinding
 )
 )
 ;
-JS_ASSERT
+if
 (
-!
 needsArgsObj
 (
 )
 )
+return
+true
 ;
 needsArgsObj_
 =
