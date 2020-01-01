@@ -13804,7 +13804,7 @@ exitBlock
 )
 )
 return
-false
+NULL
 ;
 if
 (
