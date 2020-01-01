@@ -76,6 +76,7 @@ Bailout_ArgumentCheck
 Bailout_TypeBarrier
 Bailout_Monitor
 Bailout_RecompileCheck
+Bailout_BoundsCheck
 }
 ;
 #

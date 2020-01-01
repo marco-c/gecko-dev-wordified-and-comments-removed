@@ -6833,6 +6833,7 @@ return
 assignSnapshot
 (
 check
+Bailout_BoundsCheck
 )
 &
 &
@@ -6889,6 +6890,7 @@ return
 assignSnapshot
 (
 check
+Bailout_BoundsCheck
 )
 &
 &

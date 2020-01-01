@@ -1967,6 +1967,9 @@ oracle
 size_t
 inliningDepth
 ;
+bool
+failedBoundsCheck_
+;
 }
 ;
 }
