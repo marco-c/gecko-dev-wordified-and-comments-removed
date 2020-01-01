@@ -1675,6 +1675,16 @@ slot
 if
 (
 slot
+=
+=
+UNASSIGNED
+)
+return
+true
+;
+if
+(
+slot
 -
 analyze
 :
