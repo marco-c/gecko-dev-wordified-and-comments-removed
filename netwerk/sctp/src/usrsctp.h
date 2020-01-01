@@ -2831,7 +2831,7 @@ void
 #
 define
 SCTP_DUMP_OUTBOUND
-1
+0
 #
 define
 SCTP_DUMP_INBOUND
