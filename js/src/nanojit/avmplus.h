@@ -840,11 +840,6 @@ avmplus
 struct
 InterpState
 {
-const
-void
-*
-ip
-;
 void
 *
 sp
