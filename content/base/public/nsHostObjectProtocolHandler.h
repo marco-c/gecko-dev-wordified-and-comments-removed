@@ -57,6 +57,13 @@ nsIProtocolHandler
 {
 public
 :
+virtual
+~
+nsHostObjectProtocolHandler
+(
+)
+{
+}
 NS_DECL_ISUPPORTS
 NS_IMETHOD
 GetDefaultPort
