@@ -522,16 +522,6 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 nsDocAccessible
 nsAccessible
 )
-tmp
--
->
-mNotificationController
--
->
-Shutdown
-(
-)
-;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
 (
 mNotificationController
