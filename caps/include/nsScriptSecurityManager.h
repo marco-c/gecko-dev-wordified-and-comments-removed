@@ -1688,12 +1688,6 @@ nsIPrincipal
 >
 mPrincipals
 ;
-nsCOMPtr
-<
-nsIThreadJSContextStack
->
-mJSContextStack
-;
 PRPackedBool
 mIsJavaScriptEnabled
 ;
@@ -1734,6 +1728,11 @@ static
 nsIXPConnect
 *
 sXPConnect
+;
+static
+nsIThreadJSContextStack
+*
+sJSContextStack
 ;
 static
 nsIStringBundle
