@@ -604,6 +604,9 @@ mFormatChanged
 PRPackedBool
 mCompositingFailed
 ;
+PRPackedBool
+mLocked
+;
 #
 ifdef
 XP_WIN
