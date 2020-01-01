@@ -224,7 +224,6 @@ get
 )
 ;
 }
-inline
 static
 PRUint32
 AtkRoleFor

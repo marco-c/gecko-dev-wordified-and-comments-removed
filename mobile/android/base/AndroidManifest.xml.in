@@ -98,7 +98,7 @@ android
 targetSdkVersion
 =
 "
-11
+14
 "
 /
 >
@@ -648,6 +648,8 @@ mcc
 mnc
 |
 orientation
+|
+screenSize
 "
 android
 :
@@ -1653,6 +1655,8 @@ configChanges
 =
 "
 orientation
+|
+screenSize
 "
 android
 :
