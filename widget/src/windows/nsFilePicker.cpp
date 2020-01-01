@@ -1424,6 +1424,12 @@ ofn
 .
 nFilterIndex
 ;
+mFiles
+.
+Clear
+(
+)
+;
 if
 (
 mMode
