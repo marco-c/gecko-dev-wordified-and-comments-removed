@@ -1,6 +1,6 @@
 MARIONETTE_TIMEOUT
 =
-20000
+60000
 ;
 SpecialPowers
 .
