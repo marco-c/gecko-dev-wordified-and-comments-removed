@@ -7,13 +7,6 @@ SRC_MODULES_AUDIO_DEVICE_ANDROID_AUDIO_DEVICE_OPENSLES_ANDROID_H_
 #
 include
 <
-jni
-.
-h
->
-#
-include
-<
 stdio
 .
 h
