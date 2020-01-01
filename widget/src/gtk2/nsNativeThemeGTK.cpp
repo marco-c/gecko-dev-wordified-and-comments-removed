@@ -1888,7 +1888,7 @@ NS_THEME_TREEVIEW_TWISTY
 :
 aGtkWidgetType
 =
-MOZ_GTK_EXPANDER
+MOZ_GTK_TREEVIEW_EXPANDER
 ;
 if
 (
@@ -1906,7 +1906,7 @@ NS_THEME_TREEVIEW_TWISTY_OPEN
 :
 aGtkWidgetType
 =
-MOZ_GTK_EXPANDER
+MOZ_GTK_TREEVIEW_EXPANDER
 ;
 if
 (
@@ -4679,7 +4679,7 @@ NS_THEME_TREEVIEW_TWISTY_OPEN
 gint
 expander_size
 ;
-moz_gtk_get_expander_size
+moz_gtk_get_treeview_expander_size
 (
 &
 expander_size
