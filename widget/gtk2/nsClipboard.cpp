@@ -166,6 +166,13 @@ h
 #
 include
 <
+errno
+.
+h
+>
+#
+include
+<
 unistd
 .
 h
