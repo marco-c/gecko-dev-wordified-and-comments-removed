@@ -10078,6 +10078,8 @@ aElementRect
 aCaretRect
 )
 {
+return
+;
 let
 bv
 =
