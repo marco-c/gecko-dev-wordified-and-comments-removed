@@ -40,6 +40,7 @@ Module
 {
 static
 const
+unsigned
 int
 kVersion
 =
