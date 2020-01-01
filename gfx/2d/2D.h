@@ -1730,7 +1730,7 @@ GlyphRenderingOptions
 *
 aRenderingOptions
 =
-NULL
+nullptr
 )
 =
 0
@@ -2002,7 +2002,7 @@ aType
 )
 {
 return
-NULL
+nullptr
 ;
 }
 virtual

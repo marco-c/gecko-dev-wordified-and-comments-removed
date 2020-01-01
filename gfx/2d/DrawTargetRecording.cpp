@@ -324,7 +324,7 @@ aPattern
 :
 mPattern
 (
-NULL
+nullptr
 )
 {
 mOrigPattern
@@ -890,7 +890,7 @@ BACKEND_RECORDING
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return

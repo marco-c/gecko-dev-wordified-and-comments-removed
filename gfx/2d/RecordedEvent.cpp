@@ -274,7 +274,7 @@ RecordedMaskSurface
 default
 :
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1807,7 +1807,7 @@ aTranslator
 :
 mPattern
 (
-NULL
+nullptr
 )
 mTranslator
 (
