@@ -1374,12 +1374,7 @@ GetFullZoom
 )
 {
 return
-mDeviceContext
--
->
-GetPixelScale
-(
-)
+mFullZoom
 ;
 }
 void
@@ -2376,6 +2371,9 @@ mContainer
 ;
 float
 mTextZoom
+;
+float
+mFullZoom
 ;
 PRInt32
 mAutoQualityMinFontSizePixelsPref
