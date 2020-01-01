@@ -443,6 +443,13 @@ getMediaStreams
 const
 ;
 virtual
+Timecard
+*
+takeTimecard
+(
+)
+;
+virtual
 void
 setMediaData
 (
