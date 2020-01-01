@@ -2570,6 +2570,11 @@ y
 (
 )
 ;
+NotifyRollupGeometryChange
+(
+gRollupListener
+)
+;
 return
 NS_OK
 ;
@@ -14725,6 +14730,11 @@ status
 )
 ;
 }
+NotifyRollupGeometryChange
+(
+gRollupListener
+)
+;
 return
 NS_OK
 ;
@@ -14902,6 +14912,11 @@ mWidget
 >
 update
 (
+)
+;
+NotifyRollupGeometryChange
+(
+gRollupListener
 )
 ;
 return
