@@ -3780,10 +3780,10 @@ MaxDifference
 ;
 #
 endif
-nsStyleCoord
+nscoord
 mBorderSpacingX
 ;
-nsStyleCoord
+nscoord
 mBorderSpacingY
 ;
 PRUint8
