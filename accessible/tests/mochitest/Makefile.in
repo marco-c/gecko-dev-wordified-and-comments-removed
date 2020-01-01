@@ -464,6 +464,10 @@ css
 \
 nsIAccessible_name
 .
+js
+\
+nsIAccessible_name
+.
 xbl
 \
 nsIAccessibleEditableText

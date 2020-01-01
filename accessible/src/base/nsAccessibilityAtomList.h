@@ -1038,6 +1038,15 @@ invalid
 )
 ACCESSIBILITY_ATOM
 (
+aria_label
+"
+aria
+-
+label
+"
+)
+ACCESSIBILITY_ATOM
+(
 aria_labelledby
 "
 aria
