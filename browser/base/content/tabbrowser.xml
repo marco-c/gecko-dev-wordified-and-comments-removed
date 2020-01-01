@@ -21197,7 +21197,7 @@ maxWidth
 ;
 }
 delete
-draggedTab
+data
 .
 _dropIndex
 ;
