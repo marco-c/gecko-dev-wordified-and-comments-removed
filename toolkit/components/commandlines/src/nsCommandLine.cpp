@@ -2598,7 +2598,7 @@ GetNext
 entry
 )
 ;
-nsXPIDLCString
+nsCString
 contractID
 ;
 rv
@@ -2628,8 +2628,10 @@ contractID
 ;
 if
 (
-!
-contractID
+NS_FAILED
+(
+rv
+)
 )
 continue
 ;
