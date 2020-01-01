@@ -395,6 +395,10 @@ getHeight
 )
 )
 ;
+mFrameMetrics
+=
+mViewportMetrics
+;
 mZoomConstraints
 =
 new

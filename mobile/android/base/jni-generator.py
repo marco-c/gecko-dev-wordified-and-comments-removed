@@ -553,6 +553,21 @@ returnValue
 0
 '
                 
+elif
+returnType
+=
+=
+'
+jboolean
+'
+:
+                    
+returnValue
+=
+'
+false
+'
+                
 else
 :
                     
