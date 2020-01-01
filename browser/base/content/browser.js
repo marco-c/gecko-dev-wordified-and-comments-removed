@@ -4618,12 +4618,6 @@ ex
 )
 ;
 }
-if
-(
-!
-gMultiProcessBrowser
-)
-{
 gBrowser
 .
 addProgressListener
@@ -4642,7 +4636,6 @@ window
 TabsProgressListener
 )
 ;
-}
 gBrowser
 .
 addEventListener

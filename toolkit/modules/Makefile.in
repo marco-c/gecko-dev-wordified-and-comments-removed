@@ -87,6 +87,10 @@ Preferences
 .
 jsm
 \
+RemoteWebProgress
+.
+jsm
+\
 Sqlite
 .
 jsm
