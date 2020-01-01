@@ -3330,7 +3330,7 @@ void
 MacroAssembler
 :
 :
-parNewGCThing
+newGCThingPar
 (
 const
 Register
@@ -3339,7 +3339,7 @@ result
 const
 Register
 &
-threadContextReg
+slice
 const
 Register
 &
@@ -3379,7 +3379,7 @@ loadPtr
 (
 Address
 (
-threadContextReg
+slice
 ThreadSafeContext
 :
 :
@@ -3500,7 +3500,7 @@ void
 MacroAssembler
 :
 :
-parNewGCThing
+newGCThingPar
 (
 const
 Register
@@ -3509,7 +3509,7 @@ result
 const
 Register
 &
-threadContextReg
+slice
 const
 Register
 &
@@ -3570,10 +3570,10 @@ hasDynamicElements
 )
 )
 ;
-parNewGCThing
+newGCThingPar
 (
 result
-threadContextReg
+slice
 tempReg1
 tempReg2
 allocKind
@@ -3585,7 +3585,7 @@ void
 MacroAssembler
 :
 :
-parNewGCString
+newGCStringPar
 (
 const
 Register
@@ -3594,7 +3594,7 @@ result
 const
 Register
 &
-threadContextReg
+slice
 const
 Register
 &
@@ -3608,10 +3608,10 @@ Label
 fail
 )
 {
-parNewGCThing
+newGCThingPar
 (
 result
-threadContextReg
+slice
 tempReg1
 tempReg2
 js
@@ -3629,7 +3629,7 @@ void
 MacroAssembler
 :
 :
-parNewGCShortString
+newGCShortStringPar
 (
 const
 Register
@@ -3638,7 +3638,7 @@ result
 const
 Register
 &
-threadContextReg
+slice
 const
 Register
 &
@@ -3652,10 +3652,10 @@ Label
 fail
 )
 {
-parNewGCThing
+newGCThingPar
 (
 result
-threadContextReg
+slice
 tempReg1
 tempReg2
 js
@@ -4301,7 +4301,7 @@ void
 MacroAssembler
 :
 :
-parCheckInterruptFlags
+checkInterruptFlagsPar
 (
 const
 Register
@@ -5895,7 +5895,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-ParForkJoinSlice
+ForkJoinSlicePar
 )
 )
 ;

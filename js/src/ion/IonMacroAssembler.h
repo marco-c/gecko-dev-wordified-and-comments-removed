@@ -3403,7 +3403,7 @@ fail
 )
 ;
 void
-parNewGCThing
+newGCThingPar
 (
 const
 Register
@@ -3412,7 +3412,7 @@ result
 const
 Register
 &
-threadContextReg
+slice
 const
 Register
 &
@@ -3432,7 +3432,7 @@ fail
 )
 ;
 void
-parNewGCThing
+newGCThingPar
 (
 const
 Register
@@ -3441,7 +3441,7 @@ result
 const
 Register
 &
-threadContextReg
+slice
 const
 Register
 &
@@ -3459,7 +3459,7 @@ fail
 )
 ;
 void
-parNewGCString
+newGCStringPar
 (
 const
 Register
@@ -3468,7 +3468,7 @@ result
 const
 Register
 &
-threadContextReg
+slice
 const
 Register
 &
@@ -3483,7 +3483,7 @@ fail
 )
 ;
 void
-parNewGCShortString
+newGCShortStringPar
 (
 const
 Register
@@ -3492,7 +3492,7 @@ result
 const
 Register
 &
-threadContextReg
+slice
 const
 Register
 &
@@ -3537,7 +3537,7 @@ fail
 )
 ;
 void
-parCheckInterruptFlags
+checkInterruptFlagsPar
 (
 const
 Register

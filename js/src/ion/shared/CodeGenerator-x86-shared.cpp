@@ -1615,11 +1615,11 @@ case
 ParallelExecution
 :
 {
-OutOfLineParallelAbort
+OutOfLineAbortPar
 *
 ool
 =
-oolParallelAbort
+oolAbortPar
 (
 ParallelBailoutUnsupported
 snapshot

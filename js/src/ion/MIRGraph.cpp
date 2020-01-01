@@ -499,7 +499,7 @@ MDefinition
 MIRGraph
 :
 :
-parSlice
+forkJoinSlice
 (
 )
 {
@@ -567,7 +567,7 @@ if
 ins
 -
 >
-isParSlice
+isForkJoinSlice
 (
 )
 )
@@ -596,12 +596,12 @@ JS_ASSERT
 start
 )
 ;
-MParSlice
+MForkJoinSlice
 *
-parSlice
+slice
 =
 new
-MParSlice
+MForkJoinSlice
 (
 )
 ;
@@ -611,11 +611,11 @@ entry
 insertAfter
 (
 start
-parSlice
+slice
 )
 ;
 return
-parSlice
+slice
 ;
 }
 MBasicBlock
@@ -915,7 +915,7 @@ MBasicBlock
 MBasicBlock
 :
 :
-NewParBailout
+NewAbortPar
 (
 MIRGraph
 &
@@ -994,7 +994,7 @@ block
 end
 (
 new
-MParBailout
+MAbortPar
 (
 )
 )

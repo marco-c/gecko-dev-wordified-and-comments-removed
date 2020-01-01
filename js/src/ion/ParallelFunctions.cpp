@@ -92,7 +92,7 @@ ForkJoinSlice
 ion
 :
 :
-ParForkJoinSlice
+ForkJoinSlicePar
 (
 )
 {
@@ -110,7 +110,7 @@ JSObject
 ion
 :
 :
-ParNewGCThing
+NewGCThingPar
 (
 gc
 :
@@ -171,7 +171,7 @@ bool
 ion
 :
 :
-ParWriteGuard
+IsThreadLocalObject
 (
 ForkJoinSlice
 *
@@ -539,7 +539,7 @@ bool
 ion
 :
 :
-ParCheckOverRecursed
+CheckOverRecursedPar
 (
 ForkJoinSlice
 *
@@ -630,7 +630,7 @@ false
 ;
 }
 return
-ParCheckInterrupt
+CheckInterruptPar
 (
 slice
 )
@@ -640,7 +640,7 @@ bool
 ion
 :
 :
-ParCheckInterrupt
+CheckInterruptPar
 (
 ForkJoinSlice
 *
@@ -688,7 +688,7 @@ void
 ion
 :
 :
-ParDumpValue
+DumpValuePar
 (
 Value
 *
@@ -712,9 +712,9 @@ JSObject
 ion
 :
 :
-ParPush
+PushPar
 (
-ParPushArgs
+PushParArgs
 *
 args
 )
@@ -781,7 +781,7 @@ JSObject
 ion
 :
 :
-ParExtendArray
+ExtendArrayPar
 (
 ForkJoinSlice
 *
@@ -830,7 +830,7 @@ ParallelResult
 ion
 :
 :
-ParConcatStrings
+ConcatStringsPar
 (
 ForkJoinSlice
 *
@@ -877,7 +877,7 @@ ParallelResult
 ion
 :
 :
-ParIntToString
+IntToStringPar
 (
 ForkJoinSlice
 *
@@ -924,7 +924,7 @@ ParallelResult
 ion
 :
 :
-ParDoubleToString
+DoubleToStringPar
 (
 ForkJoinSlice
 *
@@ -1250,7 +1250,7 @@ vsZero
 ParallelResult
 ret
 =
-ParCompareMaybeStrings
+CompareMaybeStringsPar
 (
 slice
 lhs
@@ -1298,7 +1298,7 @@ while
 )
 static
 ParallelResult
-ParCompareStrings
+CompareStringsPar
 (
 ForkJoinSlice
 *
@@ -1387,7 +1387,7 @@ TP_SUCCESS
 }
 static
 ParallelResult
-ParCompareMaybeStrings
+CompareMaybeStringsPar
 (
 ForkJoinSlice
 *
@@ -1426,7 +1426,7 @@ return
 TP_RETRY_SEQUENTIALLY
 ;
 return
-ParCompareStrings
+CompareStringsPar
 (
 slice
 v1
@@ -1449,7 +1449,7 @@ bool
 Equal
 >
 ParallelResult
-ParLooselyEqualImpl
+LooselyEqualImplPar
 (
 ForkJoinSlice
 *
@@ -1478,7 +1478,7 @@ js
 ion
 :
 :
-ParLooselyEqual
+LooselyEqualPar
 (
 ForkJoinSlice
 *
@@ -1493,7 +1493,7 @@ res
 )
 {
 return
-ParLooselyEqualImpl
+LooselyEqualImplPar
 <
 true
 >
@@ -1512,7 +1512,7 @@ js
 ion
 :
 :
-ParLooselyUnequal
+LooselyUnequalPar
 (
 ForkJoinSlice
 *
@@ -1527,7 +1527,7 @@ res
 )
 {
 return
-ParLooselyEqualImpl
+LooselyEqualImplPar
 <
 false
 >
@@ -1545,7 +1545,7 @@ bool
 Equal
 >
 ParallelResult
-ParStrictlyEqualImpl
+StrictlyEqualImplPar
 (
 ForkJoinSlice
 *
@@ -1770,7 +1770,7 @@ isString
 )
 )
 return
-ParLooselyEqualImpl
+LooselyEqualImplPar
 <
 Equal
 >
@@ -1798,7 +1798,7 @@ js
 ion
 :
 :
-ParStrictlyEqual
+StrictlyEqualPar
 (
 ForkJoinSlice
 *
@@ -1813,7 +1813,7 @@ res
 )
 {
 return
-ParStrictlyEqualImpl
+StrictlyEqualImplPar
 <
 true
 >
@@ -1832,7 +1832,7 @@ js
 ion
 :
 :
-ParStrictlyUnequal
+StrictlyUnequalPar
 (
 ForkJoinSlice
 *
@@ -1847,7 +1847,7 @@ res
 )
 {
 return
-ParStrictlyEqualImpl
+StrictlyEqualImplPar
 <
 false
 >
@@ -1866,7 +1866,7 @@ js
 ion
 :
 :
-ParLessThan
+LessThanPar
 (
 ForkJoinSlice
 *
@@ -1894,7 +1894,7 @@ js
 ion
 :
 :
-ParLessThanOrEqual
+LessThanOrEqualPar
 (
 ForkJoinSlice
 *
@@ -1923,7 +1923,7 @@ js
 ion
 :
 :
-ParGreaterThan
+GreaterThanPar
 (
 ForkJoinSlice
 *
@@ -1951,7 +1951,7 @@ js
 ion
 :
 :
-ParGreaterThanOrEqual
+GreaterThanOrEqualPar
 (
 ForkJoinSlice
 *
@@ -1979,7 +1979,7 @@ bool
 Equal
 >
 ParallelResult
-ParStringsEqualImpl
+StringsEqualImplPar
 (
 ForkJoinSlice
 *
@@ -1999,7 +1999,7 @@ vsZero
 ParallelResult
 ret
 =
-ParCompareStrings
+CompareStringsPar
 (
 slice
 lhs
@@ -2042,7 +2042,7 @@ js
 ion
 :
 :
-ParStringsEqual
+StringsEqualPar
 (
 ForkJoinSlice
 *
@@ -2057,7 +2057,7 @@ res
 )
 {
 return
-ParStringsEqualImpl
+StringsEqualImplPar
 <
 true
 >
@@ -2076,7 +2076,7 @@ js
 ion
 :
 :
-ParStringsUnequal
+StringsUnequalPar
 (
 ForkJoinSlice
 *
@@ -2091,7 +2091,7 @@ res
 )
 {
 return
-ParStringsEqualImpl
+StringsEqualImplPar
 <
 false
 >
@@ -2107,7 +2107,7 @@ void
 ion
 :
 :
-ParallelAbort
+AbortPar
 (
 ParallelBailoutCause
 cause
@@ -2271,7 +2271,7 @@ void
 ion
 :
 :
-PropagateParallelAbort
+PropagateAbortPar
 (
 JSScript
 *
@@ -2393,7 +2393,7 @@ void
 ion
 :
 :
-ParCallToUncompiledScript
+CallToUncompiledScriptPar
 (
 JSFunction
 *
@@ -2697,7 +2697,7 @@ ParallelResult
 ion
 :
 :
-InitRestParameter
+InitRestParameterPar
 (
 ForkJoinSlice
 *

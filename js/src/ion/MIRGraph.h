@@ -283,7 +283,7 @@ pred
 static
 MBasicBlock
 *
-NewParBailout
+NewAbortPar
 (
 MIRGraph
 &
@@ -2656,7 +2656,7 @@ begin
 }
 MDefinition
 *
-parSlice
+forkJoinSlice
 (
 )
 ;

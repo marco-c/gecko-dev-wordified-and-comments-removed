@@ -4548,7 +4548,7 @@ dispatchScratch
 ;
 }
 void
-ParallelGetPropertyIC
+GetPropertyParIC
 :
 :
 initializeAddCacheState
@@ -4644,7 +4644,7 @@ temp
 ;
 }
 void
-ParallelGetElementIC
+GetElementParIC
 :
 :
 initializeAddCacheState
