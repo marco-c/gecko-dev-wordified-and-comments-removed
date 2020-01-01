@@ -2056,6 +2056,9 @@ PRPackedBool
 mIsAppTab
 ;
 PRPackedBool
+mUseGlobalHistory
+;
+PRPackedBool
 mFiredUnloadEvent
 ;
 PRPackedBool

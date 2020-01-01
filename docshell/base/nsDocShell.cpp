@@ -2909,6 +2909,10 @@ mIsAppTab
 (
 PR_FALSE
 )
+mUseGlobalHistory
+(
+PR_FALSE
+)
 mFiredUnloadEvent
 (
 PR_FALSE
@@ -12431,7 +12435,7 @@ Count
 ;
 if
 (
-mGlobalHistory
+mUseGlobalHistory
 )
 {
 nsCOMPtr
@@ -13714,6 +13718,10 @@ aUseGlobalHistory
 nsresult
 rv
 ;
+mUseGlobalHistory
+=
+aUseGlobalHistory
+;
 if
 (
 !
@@ -13764,12 +13772,7 @@ aUseGlobalHistory
 *
 aUseGlobalHistory
 =
-(
-mGlobalHistory
-!
-=
-nsnull
-)
+mUseGlobalHistory
 ;
 return
 NS_OK
@@ -19890,6 +19893,9 @@ mLoadType
 !
 =
 LOAD_ERROR_PAGE
+&
+&
+mUseGlobalHistory
 )
 {
 nsCOMPtr
@@ -32048,6 +32054,11 @@ mTitle
 )
 ;
 }
+if
+(
+mUseGlobalHistory
+)
+{
 nsCOMPtr
 <
 IHistory
@@ -32091,6 +32102,7 @@ aURI
 mTitle
 )
 ;
+}
 }
 if
 (
@@ -40105,6 +40117,10 @@ mItemType
 !
 =
 typeContent
+|
+|
+!
+mUseGlobalHistory
 )
 {
 return
