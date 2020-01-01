@@ -6334,6 +6334,7 @@ ma_add
 (
 imm
 dest
+SetCond
 )
 ;
 }
@@ -6353,6 +6354,7 @@ ma_sub
 (
 imm
 dest
+SetCond
 )
 ;
 }
@@ -6372,6 +6374,7 @@ ma_and
 (
 imm
 dest
+SetCond
 )
 ;
 }
