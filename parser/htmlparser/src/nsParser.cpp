@@ -3350,6 +3350,10 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIRequestObserver
 )
+NS_INTERFACE_MAP_ENTRY
+(
+nsISupportsWeakReference
+)
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports

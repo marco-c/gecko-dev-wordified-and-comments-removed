@@ -2069,6 +2069,10 @@ test_bug578096
 .
 html
 \
+test_bug592366
+.
+html
+\
 test_bug597345
 .
 html
