@@ -119,6 +119,10 @@ notification_common
 .
 js
 \
+test_bug893501
+.
+html
+\
 (
 NULL
 )
