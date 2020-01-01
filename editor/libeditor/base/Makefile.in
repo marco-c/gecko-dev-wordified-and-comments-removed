@@ -419,14 +419,6 @@ DIRS
 =
 tests
 endif
-ifdef
-MOZ_SPELLCHECK
-DEFINES
-+
-=
--
-DMOZ_SPELLCHECK
-endif
 MODULE
 =
 editor
