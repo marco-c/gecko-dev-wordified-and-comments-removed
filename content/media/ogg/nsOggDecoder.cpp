@@ -1,7 +1,7 @@
 #
 include
 "
-nsOggDecoderStateMachine
+nsBuiltinDecoderStateMachine
 .
 h
 "
@@ -30,9 +30,14 @@ CreateStateMachine
 {
 return
 new
-nsOggDecoderStateMachine
+nsBuiltinDecoderStateMachine
 (
 this
+new
+nsOggReader
+(
+this
+)
 )
 ;
 }
