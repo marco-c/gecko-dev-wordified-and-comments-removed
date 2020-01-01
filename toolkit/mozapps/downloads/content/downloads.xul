@@ -1047,10 +1047,16 @@ key
 =
 "
 "
-command
+oncommand
 =
 "
+performCommand
+(
+'
 cmd_pauseResume
+'
+)
+;
 "
 /
 >

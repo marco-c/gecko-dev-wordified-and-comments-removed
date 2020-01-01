@@ -3209,13 +3209,11 @@ if
 (
 aSelectedItem
 .
-inProgress
+paused
 )
 this
 .
-commands
-.
-cmd_pause
+cmd_resume
 (
 aSelectedItem
 )
@@ -3223,9 +3221,7 @@ aSelectedItem
 else
 this
 .
-commands
-.
-cmd_resume
+cmd_pause
 (
 aSelectedItem
 )
