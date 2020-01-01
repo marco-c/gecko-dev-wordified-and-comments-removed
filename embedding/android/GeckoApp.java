@@ -2180,11 +2180,14 @@ saveLast
 true
 )
 ;
-System
+GeckoAppShell
 .
-exit
+nativeQuit
 (
-0
+)
+;
+finish
+(
 )
 ;
 }
