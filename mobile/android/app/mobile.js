@@ -5958,16 +5958,6 @@ pref
 "
 reader
 .
-margin_size
-"
-5
-)
-;
-pref
-(
-"
-reader
-.
 color_scheme
 "
 "
