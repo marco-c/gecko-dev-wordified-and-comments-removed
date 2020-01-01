@@ -1598,6 +1598,16 @@ targ
 )
 ;
 void
+asm_branch_xov
+(
+LOpcode
+op
+NIns
+*
+targ
+)
+;
+void
 asm_switch
 (
 LIns
