@@ -1976,6 +1976,8 @@ DecodeTheora
 ogg_packet
 *
 aPacket
+PRInt64
+aTimeThreshold
 )
 {
 NS_ASSERTION
@@ -2086,6 +2088,17 @@ aPacket
 granulepos
 )
 ;
+if
+(
+endTime
+<
+aTimeThreshold
+)
+{
+return
+NS_OK
+;
+}
 if
 (
 ret
@@ -2534,6 +2547,7 @@ res
 DecodeTheora
 (
 packet
+aTimeThreshold
 )
 ;
 decoded

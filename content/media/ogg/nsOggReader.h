@@ -511,6 +511,8 @@ DecodeTheora
 ogg_packet
 *
 aPacket
+PRInt64
+aTimeThreshold
 )
 ;
 PRInt64
