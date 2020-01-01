@@ -182,6 +182,9 @@ ssl_calg_camellia
 ssl_calg_seed
 =
 9
+ssl_calg_aes_gcm
+=
+10
 }
 SSLCipherAlgorithm
 ;
@@ -206,6 +209,9 @@ ssl_hmac_sha
 ssl_hmac_sha256
 =
 5
+ssl_mac_aead
+=
+6
 }
 SSLMACAlgorithm
 ;

@@ -6957,10 +6957,10 @@ if
 (
 buffer_len
 <
-sizeof
-(
-SSL3_MASTER_SECRET_LENGTH
-)
+parsed_session_ticket
+-
+>
+ms_length
 )
 goto
 no_ticket

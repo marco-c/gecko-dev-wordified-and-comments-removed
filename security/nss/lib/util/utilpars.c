@@ -3156,7 +3156,7 @@ if
 defaultFlags
 &
 (
-1
+1UL
 <
 <
 i
@@ -4258,7 +4258,7 @@ if
 ssl0
 &
 (
-1
+1UL
 <
 <
 i
@@ -4272,7 +4272,7 @@ string
 if
 (
 (
-1
+1UL
 <
 <
 i
@@ -4303,9 +4303,9 @@ PR_smprintf
 "
 0h0x
 %
-08x
+08lx
 "
-1
+1UL
 <
 <
 i
@@ -4384,7 +4384,7 @@ if
 ssl1
 &
 (
-1
+1UL
 <
 <
 i
@@ -4409,10 +4409,10 @@ PR_smprintf
 s
 0l0x
 %
-08x
+08lx
 "
 cipher
-1
+1UL
 <
 <
 i
@@ -4437,9 +4437,9 @@ PR_smprintf
 "
 0l0x
 %
-08x
+08lx
 "
-1
+1UL
 <
 <
 i

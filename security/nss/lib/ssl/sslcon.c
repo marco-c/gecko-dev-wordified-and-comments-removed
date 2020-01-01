@@ -96,9 +96,6 @@ prtime
 .
 h
 "
-#
-define
-XXX
 static
 PRBool
 policyWasSet

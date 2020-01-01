@@ -887,7 +887,9 @@ ABCDEF
 :
 0041
 :
-0084cdefgijklmnvyz
+0084
+:
+009Ccdefgijklmnvyz
 "
 CLONG
 =
@@ -940,6 +942,10 @@ C023
 :
 C027
 :
+C02B
+:
+C02F
+:
 003B
 :
 003C
@@ -948,7 +954,9 @@ C027
 :
 0041
 :
-0084cdefgijklmnvyz
+0084
+:
+009Ccdefgijklmnvyz
 "
 if
 [
