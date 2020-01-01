@@ -15908,7 +15908,7 @@ JSOP_POP_LENGTH
 }
 else
 #
-else
+endif
 {
 prepareStubCall
 (
@@ -15950,8 +15950,6 @@ pushSynced
 )
 ;
 }
-#
-endif
 PC
 +
 =
