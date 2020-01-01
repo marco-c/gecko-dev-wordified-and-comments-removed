@@ -148,18 +148,6 @@ nsClipboardHelper
 h
 "
 #
-ifdef
-WINCE
-#
-include
-"
-nsClipboardCE
-.
-h
-"
-#
-else
-#
 include
 "
 nsClipboard
@@ -180,8 +168,6 @@ nsDragService
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -323,9 +309,6 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsHTMLFormatConverter
 )
-#
-ifndef
-WINCE
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsDragService
@@ -334,8 +317,6 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsBidiKeyboard
 )
-#
-endif
 #
 ifdef
 NS_PRINTING
@@ -435,9 +416,6 @@ NS_HTMLFORMATCONVERTER_CID
 )
 ;
 #
-ifndef
-WINCE
-#
 if
 MOZ_WINSDK_TARGETVER
 >
@@ -485,8 +463,6 @@ NS_DEFINE_NAMED_CID
 NS_BIDIKEYBOARD_CID
 )
 ;
-#
-endif
 #
 ifdef
 NS_PRINTING
@@ -632,9 +608,6 @@ NULL
 nsHTMLFormatConverterConstructor
 }
 #
-ifndef
-WINCE
-#
 if
 MOZ_WINSDK_TARGETVER
 >
@@ -698,8 +671,6 @@ false
 NULL
 nsBidiKeyboardConstructor
 }
-#
-endif
 #
 ifdef
 NS_PRINTING
@@ -986,9 +957,6 @@ htmlformatconverter
 kNS_HTMLFORMATCONVERTER_CID
 }
 #
-ifndef
-WINCE
-#
 if
 MOZ_WINSDK_TARGETVER
 >
@@ -1116,8 +1084,6 @@ bidikeyboard
 &
 kNS_BIDIKEYBOARD_CID
 }
-#
-endif
 #
 ifdef
 NS_PRINTING

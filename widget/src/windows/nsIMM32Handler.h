@@ -49,14 +49,9 @@ struct
 nsIntRect
 ;
 #
-ifndef
-WINCE
-#
 define
 ENABLE_IME_MOUSE_HANDLING
 1
-#
-endif
 #
 define
 NS_WM_IMEFIRST
@@ -1049,9 +1044,6 @@ static
 PRPackedBool
 sIsIMEOpening
 ;
-#
-ifndef
-WINCE
 static
 UINT
 sCodePage
@@ -1060,8 +1052,6 @@ static
 DWORD
 sIMEProperty
 ;
-#
-endif
 }
 ;
 #

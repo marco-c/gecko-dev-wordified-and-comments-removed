@@ -695,13 +695,6 @@ MOZ_WIDGET_TOOLKIT
 )
 windows
 )
-ifneq
-(
-(
-OS_ARCH
-)
-WINCE
-)
 _CHROME_FILES
 +
 =
@@ -742,7 +735,6 @@ html
 (
 NULL
 )
-endif
 endif
 ifeq
 (
