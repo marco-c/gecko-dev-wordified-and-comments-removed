@@ -427,8 +427,10 @@ return
 nullptr
 ;
 }
+nsCOMPtr
+<
 nsIDocument
-*
+>
 doc
 =
 mContent
