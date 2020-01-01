@@ -8,13 +8,6 @@ h
 #
 include
 "
-jsgcchunk
-.
-h
-"
-#
-include
-"
 jscntxt
 .
 h

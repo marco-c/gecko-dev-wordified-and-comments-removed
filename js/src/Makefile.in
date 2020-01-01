@@ -738,10 +738,6 @@ jsgcmark
 .
 cpp
 \
-jsgcchunk
-.
-cpp
-\
 jsgcstats
 .
 cpp
@@ -946,6 +942,10 @@ RegExp
 .
 cpp
 \
+Memory
+.
+cpp
+\
 Statistics
 .
 cpp
@@ -1047,10 +1047,6 @@ jsgc
 h
 \
 jscell
-.
-h
-\
-jsgcchunk
 .
 h
 \
