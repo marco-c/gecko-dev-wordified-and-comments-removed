@@ -4031,6 +4031,9 @@ IsMenuPopupHidingCaret
 (
 )
 {
+#
+ifdef
+MOZ_XUL
 nsXULPopupManager
 *
 popMgr
@@ -4223,6 +4226,8 @@ PR_TRUE
 ;
 }
 }
+#
+endif
 return
 PR_FALSE
 ;
