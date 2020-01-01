@@ -85,13 +85,6 @@ h
 #
 include
 "
-nsIEncodedChannel
-.
-h
-"
-#
-include
-"
 nsIUploadChannel2
 .
 h
@@ -150,8 +143,6 @@ HttpBaseChannel
 public
 nsICacheInfoChannel
 public
-nsIEncodedChannel
-public
 nsIProxiedChannel
 public
 nsITraceableChannel
@@ -166,7 +157,6 @@ public
 :
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSICACHEINFOCHANNEL
-NS_DECL_NSIENCODEDCHANNEL
 NS_DECL_NSIPROXIEDCHANNEL
 NS_DECL_NSITRACEABLECHANNEL
 NS_DECL_NSIAPPLICATIONCACHECONTAINER
