@@ -148,6 +148,11 @@ HRTFKernel
 cpp
 '
 '
+HRTFPanner
+.
+cpp
+'
+'
 Reverb
 .
 cpp
