@@ -113,6 +113,13 @@ status
 ICON_STATUS_UNKNOWN
 )
 {
+guid
+.
+SetIsVoid
+(
+PR_TRUE
+)
+;
 }
 PRInt64
 id
@@ -135,6 +142,9 @@ fetchMode
 ;
 PRUint16
 status
+;
+nsCString
+guid
 ;
 }
 ;
