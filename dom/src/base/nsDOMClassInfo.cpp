@@ -20988,6 +20988,11 @@ if
 proto
 &
 &
+(
+!
+xpc_proto_proto
+|
+|
 JS_GET_CLASS
 (
 cx
@@ -20996,6 +21001,7 @@ xpc_proto_proto
 =
 =
 sObjectClass
+)
 )
 {
 if
@@ -21114,6 +21120,11 @@ if
 proto
 &
 &
+(
+!
+xpc_proto_proto
+|
+|
 JS_GET_CLASS
 (
 cx
@@ -21122,6 +21133,7 @@ xpc_proto_proto
 =
 =
 sObjectClass
+)
 )
 {
 if
