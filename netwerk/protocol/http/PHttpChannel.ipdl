@@ -671,10 +671,6 @@ nsCString
 charset
 )
 ;
-OnStopRequestCompleted
-(
-)
-;
 child
 :
 OnStartRequest
