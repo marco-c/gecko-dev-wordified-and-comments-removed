@@ -1045,6 +1045,11 @@ SHELL_WRAPPER1
 setSurfaceView
 jobject
 )
+SHELL_WRAPPER1
+(
+setSoftwareLayerClient
+jobject
+)
 SHELL_WRAPPER0
 (
 onResume
@@ -3657,6 +3662,11 @@ processNextNativeEvent
 GETFUNC
 (
 setSurfaceView
+)
+;
+GETFUNC
+(
+setSoftwareLayerClient
 )
 ;
 GETFUNC
