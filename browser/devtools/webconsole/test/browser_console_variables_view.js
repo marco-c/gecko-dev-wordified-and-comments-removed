@@ -369,6 +369,8 @@ para
 =
 content
 .
+wrappedJSObject
+.
 document
 .
 querySelector
@@ -524,6 +526,8 @@ let
 para
 =
 content
+.
+wrappedJSObject
 .
 document
 .
@@ -701,6 +705,8 @@ let
 para
 =
 content
+.
+wrappedJSObject
 .
 document
 .
