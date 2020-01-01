@@ -227,7 +227,6 @@ StyleStateFromLocks
 )
 ;
 }
-;
 nsEventStates
 LockedStyleStates
 (
