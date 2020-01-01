@@ -721,6 +721,10 @@ test_decoder_disable
 .
 html
 \
+test_mediarecorder_record_no_timeslice
+.
+html
+\
 test_mediarecorder_reload_crash
 .
 html
