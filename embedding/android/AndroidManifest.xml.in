@@ -770,7 +770,7 @@ filter
 activity
 >
 <
-receiver
+activity
 android
 :
 enabled
@@ -807,6 +807,14 @@ gecko
 restart
 MOZ_APP_NAME
 "
+android
+:
+process
+=
+"
+MOZ_APP_NAME
+Restarter
+"
 /
 >
 <
@@ -817,7 +825,7 @@ filter
 >
 <
 /
-receiver
+activity
 >
 #
 if

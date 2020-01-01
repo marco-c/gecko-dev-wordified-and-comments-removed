@@ -2181,6 +2181,15 @@ addEnvToIntent
 intent
 )
 ;
+intent
+.
+setFlags
+(
+Intent
+.
+FLAG_ACTIVITY_NEW_TASK
+)
+;
 Log
 .
 i
@@ -2195,7 +2204,7 @@ toString
 )
 )
 ;
-sendBroadcast
+startActivity
 (
 intent
 )
