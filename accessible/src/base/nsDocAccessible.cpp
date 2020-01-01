@@ -2119,6 +2119,14 @@ if
 (
 !
 content
+)
+return
+NS_OK
+;
+if
+(
+!
+content
 -
 >
 HasFlag
