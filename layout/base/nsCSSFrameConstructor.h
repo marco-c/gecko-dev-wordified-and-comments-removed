@@ -3584,7 +3584,7 @@ nsIFrame
 aNewFrame
 )
 ;
-nsresult
+void
 ProcessChildren
 (
 nsFrameConstructorState
