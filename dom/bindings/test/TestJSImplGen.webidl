@@ -3011,6 +3011,14 @@ receiveDictionary
 (
 )
 ;
+/
+/
+Dict
+?
+receiveNullableDictionary
+(
+)
+;
 void
 passOtherDictionary
 (
