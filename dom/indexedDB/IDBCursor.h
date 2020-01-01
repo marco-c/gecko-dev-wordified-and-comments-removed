@@ -377,6 +377,9 @@ mValueRooted
 bool
 mContinueCalled
 ;
+bool
+mHaveValue
+;
 }
 ;
 END_INDEXEDDB_NAMESPACE

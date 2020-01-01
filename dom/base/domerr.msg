@@ -1184,9 +1184,6 @@ in
 the
 transaction
 failed
-due
-to
-a
 because
 a
 constraint
