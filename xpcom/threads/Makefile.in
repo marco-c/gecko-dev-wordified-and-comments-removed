@@ -492,6 +492,10 @@ nsEventQueue
 .
 h
 \
+nsThreadUtilsInternal
+.
+h
+\
 (
 NULL
 )
