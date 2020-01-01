@@ -764,6 +764,10 @@ browser_webconsole_bug_618078_network_exceptions
 .
 js
 \
+browser_webconsole_bug_613280_jsterm_copy
+.
+js
+\
 head
 .
 js
