@@ -82,9 +82,5 @@ nsIThreadPool
 >
 mPool
 ;
-static
-bool
-sHasBeenShutdown
-;
 }
 ;
