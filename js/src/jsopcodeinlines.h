@@ -82,7 +82,7 @@ cx
 >
 stack
 .
-currentScript
+currentScriptWithDiagnostics
 (
 )
 ;
