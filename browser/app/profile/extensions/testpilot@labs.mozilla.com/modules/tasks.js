@@ -2721,6 +2721,7 @@ changeStatus
 TaskConstants
 .
 STATUS_NEW
+true
 )
 ;
 let
@@ -2909,6 +2910,7 @@ changeStatus
 TaskConstants
 .
 STATUS_STARTING
+true
 )
 ;
 Application
