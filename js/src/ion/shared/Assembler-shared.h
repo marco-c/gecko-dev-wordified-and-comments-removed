@@ -749,6 +749,16 @@ used
 }
 }
 ;
+struct
+HeapLabel
+:
+public
+TempObject
+public
+Label
+{
+}
+;
 class
 RepatchLabel
 {

@@ -254,7 +254,8 @@ Label
 >
 labels_
 ;
-Label
+HeapLabel
+*
 return_
 ;
 Label
