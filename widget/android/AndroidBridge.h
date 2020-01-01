@@ -1130,6 +1130,12 @@ jobject
 bitmap
 )
 ;
+jobject
+GetGlobalContextRef
+(
+void
+)
+;
 void
 UnlockBitmap
 (
@@ -2017,6 +2023,9 @@ jThumbnailHelperClass
 ;
 jmethodID
 jNotifyThumbnail
+;
+jmethodID
+jGetContext
 ;
 jmethodID
 jGetGfxInfoData
