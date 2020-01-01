@@ -2191,7 +2191,7 @@ style
 &
 =
 ~
-WS_CHILDWINDOW
+0x40000000
 ;
 }
 else
