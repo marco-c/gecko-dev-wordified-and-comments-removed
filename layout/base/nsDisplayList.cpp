@@ -9251,15 +9251,6 @@ mAppearance
 =
 =
 NS_THEME_TOOLBAR
-|
-|
-disp
--
->
-mAppearance
-=
-=
-NS_THEME_WINDOW_TITLEBAR
 )
 {
 RegisterThemeGeometry
