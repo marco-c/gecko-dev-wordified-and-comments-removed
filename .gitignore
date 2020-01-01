@@ -208,7 +208,6 @@ python
 /
 psutil
 /
-.
 *
 .
 so
@@ -216,7 +215,6 @@ python
 /
 psutil
 /
-.
 *
 .
 pyd
