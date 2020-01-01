@@ -2084,13 +2084,6 @@ LPARAM
 lParam
 )
 ;
-UINT
-MapFromNativeToDOM
-(
-UINT
-aNativeKeyCode
-)
-;
 void
 StopFlashing
 (
