@@ -643,7 +643,11 @@ b
 )
 )
 ;
-waitForAsyncUpdates
+promiseAsyncUpdates
+(
+)
+.
+then
 (
 function
 (

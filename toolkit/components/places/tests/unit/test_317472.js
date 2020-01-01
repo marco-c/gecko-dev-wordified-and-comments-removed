@@ -300,7 +300,11 @@ TEST_BOOKMARKED_URI
 charset
 )
 ;
-waitForClearHistory
+promiseClearHistory
+(
+)
+.
+then
 (
 continue_test
 )

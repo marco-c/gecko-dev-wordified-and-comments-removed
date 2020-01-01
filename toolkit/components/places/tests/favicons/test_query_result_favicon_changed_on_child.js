@@ -239,7 +239,11 @@ QRFCOC_faviconChanged
 (
 )
 {
-waitForAsyncUpdates
+promiseAsyncUpdates
+(
+)
+.
+then
 (
 function
 QRFCOC_asyncUpdates

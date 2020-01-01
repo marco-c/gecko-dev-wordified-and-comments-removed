@@ -287,7 +287,11 @@ hidden
 "
 )
 ;
-waitForClearHistory
+promiseClearHistory
+(
+)
+.
+then
 (
 finish
 )

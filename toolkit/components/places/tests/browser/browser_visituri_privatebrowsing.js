@@ -325,7 +325,11 @@ removeCurrentTab
 (
 )
 ;
-waitForClearHistory
+promiseClearHistory
+(
+)
+.
+then
 (
 finish
 )

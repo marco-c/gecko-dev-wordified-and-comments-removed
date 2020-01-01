@@ -543,7 +543,11 @@ shift
 (
 )
 ;
-waitForClearHistory
+promiseClearHistory
+(
+)
+.
+then
 (
 function
 (

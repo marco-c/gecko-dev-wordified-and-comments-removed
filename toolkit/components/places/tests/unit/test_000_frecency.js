@@ -1158,7 +1158,11 @@ do_test_pending
 (
 )
 ;
-waitForAsyncUpdates
+promiseAsyncUpdates
+(
+)
+.
+then
 (
 continue_test
 )

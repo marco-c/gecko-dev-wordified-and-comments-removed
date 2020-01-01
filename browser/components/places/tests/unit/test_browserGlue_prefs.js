@@ -128,7 +128,11 @@ function
 (
 )
 {
-waitForAsyncUpdates
+promiseAsyncUpdates
+(
+)
+.
+then
 (
 aCallback
 )

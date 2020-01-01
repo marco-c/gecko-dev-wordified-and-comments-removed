@@ -6083,7 +6083,11 @@ setup
 (
 )
 ;
-waitForAsyncUpdates
+promiseAsyncUpdates
+(
+)
+.
+then
 (
 function
 (
@@ -6105,7 +6109,11 @@ remove_all_bookmarks
 (
 )
 ;
-waitForClearHistory
+promiseClearHistory
+(
+)
+.
+then
 (
 runNextTest
 )

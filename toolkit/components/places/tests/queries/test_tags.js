@@ -4874,7 +4874,11 @@ remove_all_bookmarks
 (
 )
 ;
-waitForClearHistory
+promiseClearHistory
+(
+)
+.
+then
 (
 aCallback
 )
