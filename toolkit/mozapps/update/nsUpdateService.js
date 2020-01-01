@@ -9138,6 +9138,15 @@ return
 gCanApplyUpdates
 ;
 }
+get
+canStageUpdates
+(
+)
+{
+return
+gCanStageUpdates
+;
+}
 addDownloadListener
 :
 function
