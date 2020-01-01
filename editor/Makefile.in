@@ -84,6 +84,16 @@ config
 autoconf
 .
 mk
+EXTRA_JS_MODULES
+=
+\
+AsyncSpellCheckTestHelper
+.
+jsm
+\
+(
+NULL
+)
 include
 (
 topsrcdir
