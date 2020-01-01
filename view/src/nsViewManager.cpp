@@ -2996,10 +2996,6 @@ damagedRect
 )
 )
 ;
-PostPendingUpdate
-(
-)
-;
 return
 NS_OK
 ;
