@@ -1926,6 +1926,9 @@ pressure
 false
 )
 ;
+#
+ifndef
+ANDROID
 os
 .
 addObserver
@@ -2008,6 +2011,8 @@ off
 false
 )
 ;
+#
+endif
 #
 if
 MOZ_PLATFORM_MAEMO
@@ -3159,6 +3164,9 @@ pressure
 "
 )
 ;
+#
+ifndef
+ANDROID
 os
 .
 removeObserver
@@ -3241,6 +3249,8 @@ off
 false
 )
 ;
+#
+endif
 window
 .
 controllers
