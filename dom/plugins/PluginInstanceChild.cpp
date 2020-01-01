@@ -5572,13 +5572,13 @@ instance
 )
 ;
 mBrowserStream
+-
+>
+mStreamNotify
 =
 NULL
 ;
 mBrowserStream
--
->
-mStreamNotify
 =
 NULL
 ;

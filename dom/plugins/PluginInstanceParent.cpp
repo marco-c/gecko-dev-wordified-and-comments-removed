@@ -1253,7 +1253,7 @@ NPERR_NO_ERROR
 PStreamNotifyParent
 :
 :
-Call__delete__
+Send__delete__
 (
 actor
 NPERR_GENERIC_ERROR
@@ -2918,7 +2918,7 @@ notifyData
 PStreamNotifyParent
 :
 :
-Call__delete__
+Send__delete__
 (
 streamNotify
 reason
