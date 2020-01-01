@@ -187,7 +187,6 @@ gfxContext
 aContext
 )
 {
-HDC
 dc
 =
 NULL
