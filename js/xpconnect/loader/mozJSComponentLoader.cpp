@@ -862,7 +862,12 @@ chars
 get
 (
 )
-stderr
+stdout
+)
+;
+fflush
+(
+stdout
 )
 ;
 return
