@@ -425,7 +425,7 @@ if
 err
 exit
 )
-=
+!
 =
 (
 "
@@ -1496,7 +1496,7 @@ regression
 "
 default
 =
-0
+None
 )
 (
 OPTIONS
@@ -1512,6 +1512,9 @@ if
 OPTIONS
 .
 regression
+!
+=
+None
 :
   
 files
@@ -1579,6 +1582,9 @@ if
 OPTIONS
 .
 regression
+=
+=
+None
 :
   
 log
@@ -1782,6 +1788,9 @@ if
 OPTIONS
 .
 regression
+!
+=
+None
 :
         
 num_failures
@@ -2391,7 +2400,6 @@ flush
 )
   
 if
-not
 OPTIONS
 .
 regression
@@ -2412,6 +2420,9 @@ if
 OPTIONS
 .
 regression
+!
+=
+None
 :
   
 expected_num_failures
