@@ -182,6 +182,15 @@ aAttributes
 )
 ;
 virtual
+nsresult
+GetNameInternal
+(
+nsAString
+&
+aName
+)
+;
+virtual
 PRUint32
 NativeRole
 (
