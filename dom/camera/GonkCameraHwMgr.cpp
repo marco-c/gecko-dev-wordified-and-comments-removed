@@ -790,6 +790,16 @@ offset
 mSensorOrientation
 )
 ;
+mCamera
+-
+>
+sendCommand
+(
+CAMERA_CMD_ENABLE_SHUTTER_SOUND
+0
+0
+)
+;
 mNativeWindow
 =
 new
