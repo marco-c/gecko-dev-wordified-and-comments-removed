@@ -83,9 +83,6 @@ class
 ShadowColorLayer
 ;
 class
-ReadbackProcessor
-;
-class
 THEBES_API
 BasicLayerManager
 :
@@ -318,15 +315,6 @@ CreateColorLayer
 virtual
 already_AddRefed
 <
-ReadbackLayer
->
-CreateReadbackLayer
-(
-)
-;
-virtual
-already_AddRefed
-<
 ShadowThebesLayer
 >
 CreateShadowThebesLayer
@@ -334,7 +322,7 @@ CreateShadowThebesLayer
 )
 {
 return
-nsnull
+NULL
 ;
 }
 virtual
@@ -347,7 +335,7 @@ CreateShadowContainerLayer
 )
 {
 return
-nsnull
+NULL
 ;
 }
 virtual
@@ -360,7 +348,7 @@ CreateShadowImageLayer
 )
 {
 return
-nsnull
+NULL
 ;
 }
 virtual
@@ -373,7 +361,7 @@ CreateShadowColorLayer
 )
 {
 return
-nsnull
+NULL
 ;
 }
 virtual
@@ -386,7 +374,7 @@ CreateShadowCanvasLayer
 )
 {
 return
-nsnull
+NULL
 ;
 }
 virtual
@@ -568,9 +556,6 @@ aCallback
 void
 *
 aCallbackData
-ReadbackProcessor
-*
-aReadback
 )
 ;
 void

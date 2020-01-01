@@ -788,6 +788,12 @@ QUIRK_FLASH_HOOK_GETWINDOWINFO
 <
 <
 5
+QUIRK_FLASH_MASK_CLEARTYPE_SETTINGS
+=
+1
+<
+<
+6
 }
 ;
 int
@@ -836,11 +842,6 @@ aMimeType
 ;
 bool
 InitGraphics
-(
-)
-;
-void
-DeinitGraphics
 (
 )
 ;

@@ -387,10 +387,6 @@ BLOCK
 IPDLSRCS
 =
 \
-PPluginBackgroundDestroyer
-.
-ipdl
-\
 PPluginModule
 .
 ipdl

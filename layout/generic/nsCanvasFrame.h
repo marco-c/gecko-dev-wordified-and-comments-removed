@@ -487,10 +487,6 @@ aBuilder
 nsRegion
 *
 aVisibleRegion
-const
-nsRect
-&
-aAllowVisibleRegionExpansion
 PRBool
 &
 aContainsRootContentDocBG
@@ -514,7 +510,6 @@ ComputeVisibility
 (
 aBuilder
 aVisibleRegion
-aAllowVisibleRegionExpansion
 aContainsRootContentDocBG
 )
 ;
