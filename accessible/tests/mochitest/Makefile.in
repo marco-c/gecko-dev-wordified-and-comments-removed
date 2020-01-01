@@ -462,6 +462,10 @@ test_nsIAccessibleTable_3
 .
 html
 \
+test_nsIAccessibleTable_listboxes
+.
+xul
+\
 (
 NULL
 )
