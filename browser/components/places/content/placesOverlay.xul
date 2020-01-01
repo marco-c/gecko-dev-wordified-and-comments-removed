@@ -1590,9 +1590,7 @@ mixed
 forcehideselection
 =
 "
-livemark
-/
-bookmarkFeedURI
+livemarkChild
 "
 /
 >
@@ -1729,9 +1727,7 @@ day
 forcehideselection
 =
 "
-livemark
-/
-bookmarkFeedURI
+livemarkChild
 "
 /
 >
@@ -1932,9 +1928,7 @@ folder
 forcehideselection
 =
 "
-livemark
-/
-bookmarkFeedURI
+livemarkChild
 "
 /
 >

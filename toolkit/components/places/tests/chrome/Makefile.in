@@ -452,10 +452,6 @@ NULL
 _CHROME_FILES
 =
 \
-test_add_livemark
-.
-xul
-\
 test_371798
 .
 xul
