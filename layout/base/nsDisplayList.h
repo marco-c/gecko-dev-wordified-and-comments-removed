@@ -244,7 +244,11 @@ aMovingContent
 const
 nsRegion
 &
-aVisibleRegion
+aVisibleRegionBeforeMove
+const
+nsRegion
+&
+aVisibleRegionAfterMove
 )
 ;
 PRBool
@@ -1113,6 +1117,9 @@ aBuilder
 nsRegion
 *
 aVisibleRegion
+nsRegion
+*
+aVisibleRegionBeforeMove
 )
 {
 return
@@ -1684,6 +1691,9 @@ aBuilder
 nsRegion
 *
 aVisibleRegion
+nsRegion
+*
+aVisibleRegionBeforeMove
 )
 ;
 void
@@ -2846,6 +2856,9 @@ aBuilder
 nsRegion
 *
 aVisibleRegion
+nsRegion
+*
+aVisibleRegionBeforeMove
 )
 ;
 NS_DISPLAY_DECL_NAME
@@ -3194,6 +3207,9 @@ aBuilder
 nsRegion
 *
 aVisibleRegion
+nsRegion
+*
+aVisibleRegionBeforeMove
 )
 ;
 NS_DISPLAY_DECL_NAME
@@ -3351,6 +3367,9 @@ aBuilder
 nsRegion
 *
 aVisibleRegion
+nsRegion
+*
+aVisibleRegionBeforeMove
 )
 ;
 NS_DISPLAY_DECL_NAME
@@ -3548,6 +3567,9 @@ aBuilder
 nsRegion
 *
 aVisibleRegion
+nsRegion
+*
+aVisibleRegionBeforeMove
 )
 ;
 virtual
@@ -3803,6 +3825,9 @@ aBuilder
 nsRegion
 *
 aVisibleRegion
+nsRegion
+*
+aVisibleRegionBeforeMove
 )
 ;
 virtual
@@ -3924,6 +3949,9 @@ aBuilder
 nsRegion
 *
 aVisibleRegion
+nsRegion
+*
+aVisibleRegionBeforeMove
 )
 ;
 virtual
@@ -4110,6 +4138,9 @@ aBuilder
 nsRegion
 *
 aVisibleRegion
+nsRegion
+*
+aVisibleRegionBeforeMove
 )
 ;
 virtual
@@ -4301,6 +4332,9 @@ aBuilder
 nsRegion
 *
 aVisibleRegion
+nsRegion
+*
+aVisibleRegionBeforeMove
 )
 ;
 virtual

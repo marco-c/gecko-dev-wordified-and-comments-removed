@@ -5149,6 +5149,7 @@ ComputeVisibility
 builder
 &
 visibleRegion
+nsnull
 )
 ;
 #
@@ -5951,6 +5952,12 @@ visibleRegion
 aUpdateRect
 )
 ;
+nsRegion
+visibleRegionBeforeMove
+(
+aUpdateRect
+)
+;
 list
 .
 ComputeVisibility
@@ -5959,6 +5966,8 @@ ComputeVisibility
 builder
 &
 visibleRegion
+&
+visibleRegionBeforeMove
 )
 ;
 #
