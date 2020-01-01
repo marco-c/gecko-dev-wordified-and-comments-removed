@@ -352,9 +352,6 @@ r
 else
 #
 define
-PRFX
-#
-define
 asm_output
 (
 f
@@ -376,5 +373,10 @@ r
 )
 #
 endif
+/
+*
+NJ_VERBOSE
+*
+/
 #
 endif
