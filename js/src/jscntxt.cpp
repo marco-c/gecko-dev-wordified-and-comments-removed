@@ -6299,7 +6299,10 @@ JSMSG_SCRIPT_STACK_QUOTA
 )
 ;
 }
+JS_FRIEND_API
+(
 void
+)
 js_ReportOverRecursed
 (
 JSContext
