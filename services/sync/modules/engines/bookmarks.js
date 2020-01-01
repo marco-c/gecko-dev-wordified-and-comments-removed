@@ -680,6 +680,7 @@ from
 }
 }
 }
+;
 this
 .
 _xmppClient
