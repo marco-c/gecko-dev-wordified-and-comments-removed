@@ -35,7 +35,7 @@ security
 .
 enable_md5_signatures
 "
-false
+true
 )
 ;
 pref
