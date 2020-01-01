@@ -14095,6 +14095,9 @@ MaybePokeCC
 if
 (
 sCCTimer
+|
+|
+sDidShutdown
 )
 {
 return
