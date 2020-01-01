@@ -51,13 +51,6 @@ MOZ_PLATFORM_MAEMO
 5
 )
 #
-include
-<
-libosso
-.
-h
->
-#
 define
 APP_LAUNCH_BANNER_SERVICE
 "
