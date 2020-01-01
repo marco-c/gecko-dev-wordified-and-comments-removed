@@ -1,16 +1,4 @@
 #
-line
-1
-"
-pixman
--
-combine
-.
-c
-.
-template
-"
-#
 define
 COMPONENT_SIZE
 8

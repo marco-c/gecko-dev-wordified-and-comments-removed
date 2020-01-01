@@ -449,7 +449,9 @@ c
 \
 pixman
 -
-combine64
+combine
+-
+float
 .
 c
 \
@@ -572,12 +574,6 @@ pixman
 solid
 -
 fill
-.
-c
-\
-pixman
--
-srgb
 .
 c
 \

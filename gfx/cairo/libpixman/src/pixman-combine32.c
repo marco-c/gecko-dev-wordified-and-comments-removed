@@ -1,16 +1,4 @@
 #
-line
-1
-"
-pixman
--
-combine
-.
-c
-.
-template
-"
-#
 ifdef
 HAVE_CONFIG_H
 #
@@ -511,6 +499,7 @@ if
 !
 mask
 )
+{
 memcpy
 (
 dest
@@ -523,6 +512,7 @@ uint32_t
 )
 )
 ;
+}
 else
 {
 for
@@ -1782,7 +1772,7 @@ ALPHA_8
 d
 )
 ;
-combine_mask_value_ca
+combine_mask_ca
 (
 &
 s
@@ -2170,7 +2160,7 @@ result
 ;
 \
 \
-combine_mask_value_ca
+combine_mask_ca
 (
 &
 s
