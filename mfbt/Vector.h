@@ -104,6 +104,11 @@ Util
 h
 "
 #
+include
+<
+new
+>
+#
 ifdef
 _MSC_VER
 #
