@@ -223,3 +223,16 @@ the
 glyph
 extents
 .
+endian
+.
+patch
+:
+include
+cairo
+-
+platform
+.
+h
+for
+endian
+macros
