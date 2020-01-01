@@ -24361,13 +24361,7 @@ LAYOUT_PHASE_TEMP_EXIT
 ContentInserted
 (
 aContainer
-aContainer
--
->
-GetChildAt
-(
-i
-)
+content
 i
 mTempFrameTreeState
 )
