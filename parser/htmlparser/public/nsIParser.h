@@ -537,6 +537,14 @@ CancelParsingEvents
 =
 0
 ;
+virtual
+void
+Reset
+(
+)
+=
+0
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
