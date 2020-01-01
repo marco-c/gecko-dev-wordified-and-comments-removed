@@ -116,6 +116,14 @@ browser_dbg_debuggerstatement
 js
 \
 browser_dbg_listtabs
+-
+01
+.
+js
+\
+browser_dbg_listtabs
+-
+02
 .
 js
 \
