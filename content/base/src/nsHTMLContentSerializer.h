@@ -468,7 +468,6 @@ isFirstListItem
 nsAutoTArray
 <
 olState
-*
 8
 >
 mOLStateStack
