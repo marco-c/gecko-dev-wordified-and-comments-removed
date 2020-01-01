@@ -1475,6 +1475,15 @@ if
 (
 gcmarker
 )
+{
+js
+:
+:
+MarkWeakReferences
+(
+gcmarker
+)
+;
 gcmarker
 -
 >
@@ -1483,6 +1492,7 @@ setMarkColor
 XPC_GC_COLOR_BLACK
 )
 ;
+}
 }
 static
 void
