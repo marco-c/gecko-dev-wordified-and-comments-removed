@@ -388,7 +388,7 @@ Vector
 types
 :
 :
-RecompileInfo
+CompilerOutput
 >
 &
 invalid
