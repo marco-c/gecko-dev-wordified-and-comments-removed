@@ -25067,11 +25067,6 @@ argc
 vp
 )
 ;
-TRACE_0
-(
-FastNativeCallComplete
-)
-;
 #
 ifdef
 INCLUDE_MOZILLA_DTRACE
