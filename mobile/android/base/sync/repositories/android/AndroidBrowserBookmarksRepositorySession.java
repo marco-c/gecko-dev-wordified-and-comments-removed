@@ -3862,6 +3862,12 @@ run
 {
 try
 {
+deletionManager
+.
+clear
+(
+)
+;
 super
 .
 run
@@ -3885,12 +3891,6 @@ ex
 return
 ;
 }
-deletionManager
-.
-clear
-(
-)
-;
 }
 }
 Override

@@ -140,6 +140,11 @@ WipeServerDelegate
 java
 sync
 /
+EngineSettings
+.
+java
+sync
+/
 ExtendedJSONObject
 .
 java
@@ -1230,6 +1235,13 @@ sync
 setup
 /
 SyncAuthenticatorService
+.
+java
+sync
+/
+stage
+/
+AbstractNonRepositorySyncStage
 .
 java
 sync
