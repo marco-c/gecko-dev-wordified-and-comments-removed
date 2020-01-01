@@ -5,6 +5,13 @@ nsSHTransaction
 .
 h
 "
+#
+include
+"
+nsISHEntry
+.
+h
+"
 nsSHTransaction
 :
 :
