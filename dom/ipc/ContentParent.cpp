@@ -1869,17 +1869,6 @@ base
 :
 PRIVILEGES_CAMERA
 }
-{
-"
-deprecated
--
-hwvideo
-"
-base
-:
-:
-PRIVILEGES_VIDEO
-}
 }
 ;
 for
