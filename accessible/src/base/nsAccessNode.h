@@ -221,7 +221,6 @@ GetApplicationAccessible
 (
 )
 ;
-inline
 nsDocAccessible
 *
 GetDocAccessible
