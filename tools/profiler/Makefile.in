@@ -540,6 +540,8 @@ CPPSRCS
 =
 \
 platform
+-
+linux
 .
 cc
 \
