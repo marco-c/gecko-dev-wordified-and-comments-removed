@@ -2388,9 +2388,10 @@ compositionMsg
 ;
 if
 (
+WinUtils
 :
 :
-PeekMessageW
+PeekMessage
 (
 &
 compositionMsg
@@ -4605,9 +4606,10 @@ GetWindowHandle
 ;
 if
 (
+WinUtils
 :
 :
-PeekMessageW
+PeekMessage
 (
 &
 msg1
@@ -4626,9 +4628,10 @@ message
 WM_IME_STARTCOMPOSITION
 &
 &
+WinUtils
 :
 :
-PeekMessageW
+PeekMessage
 (
 &
 msg2

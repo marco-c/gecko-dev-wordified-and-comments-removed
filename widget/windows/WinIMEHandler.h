@@ -105,6 +105,16 @@ aIMEState
 ;
 static
 bool
+ProcessRawKeyMessage
+(
+const
+MSG
+&
+aMsg
+)
+;
+static
+bool
 ProcessMessage
 (
 nsWindow
