@@ -399,6 +399,12 @@ mozIStorageConnection
 >
 mDBConn
 ;
+nsCOMPtr
+<
+mozIStorageConnection
+>
+mDBReadOnlyConn
+;
 nsString
 mGUIDBase
 ;
