@@ -1837,6 +1837,10 @@ gcLastMarkSlice
 bool
 gcSweepOnBackgroundThread
 ;
+JSCompartment
+*
+gcSweepingCompartments
+;
 int
 gcSweepPhase
 ;

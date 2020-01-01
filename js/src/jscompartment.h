@@ -966,6 +966,10 @@ gcMaxMallocBytes
 double
 gcHeapGrowthFactor
 ;
+JSCompartment
+*
+gcNextCompartment
+;
 bool
 hold
 ;
