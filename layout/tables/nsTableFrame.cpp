@@ -183,7 +183,7 @@ h
 #
 include
 "
-nsError
+nsLayoutErrors
 .
 h
 "
@@ -9166,6 +9166,14 @@ nsStyleContext
 aOldStyleContext
 )
 {
+nsContainerFrame
+:
+:
+DidSetStyleContext
+(
+aOldStyleContext
+)
+;
 if
 (
 !
