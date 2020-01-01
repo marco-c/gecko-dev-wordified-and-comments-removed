@@ -263,6 +263,14 @@ decompilation
 .
 js
 script
+toSource
+-
+infinite
+-
+recursion
+.
+js
+script
 uneval
 -
 strict
