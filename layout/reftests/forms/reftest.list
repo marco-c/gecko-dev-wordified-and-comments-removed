@@ -51,6 +51,12 @@ test
 for
 bug
 464589
+skip
+-
+if
+(
+B2G
+)
 =
 =
 input
