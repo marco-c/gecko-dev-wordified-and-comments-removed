@@ -523,6 +523,7 @@ WINNT
 Darwin
 Linux
 OS2
+SunOS
 (
 OS_ARCH
 )

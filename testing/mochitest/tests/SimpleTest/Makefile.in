@@ -467,6 +467,10 @@ WindowSnapshot
 .
 js
 \
+PluginUtils
+.
+js
+\
 (
 NULL
 )
