@@ -5887,6 +5887,14 @@ manages
         
 if
 cp
+is
+p
+:
+            
+continue
+        
+if
+cp
 in
 stack
 :
