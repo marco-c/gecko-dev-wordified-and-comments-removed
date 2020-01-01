@@ -3060,6 +3060,11 @@ label
 -
 box
 "
+align
+=
+"
+center
+"
 flex
 =
 "
