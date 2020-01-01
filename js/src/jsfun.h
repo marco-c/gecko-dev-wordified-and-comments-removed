@@ -1042,7 +1042,6 @@ vp
 )
 ;
 extern
-JS_REQUIRES_STACK
 JSBool
 js_GetCallVar
 (
@@ -1060,7 +1059,6 @@ vp
 )
 ;
 extern
-JS_REQUIRES_STACK
 JSBool
 js_GetCallVarChecked
 (

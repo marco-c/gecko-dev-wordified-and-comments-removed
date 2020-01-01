@@ -3705,7 +3705,6 @@ JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
 static
-JS_REQUIRES_STACK
 JSBool
 CheckForEscapingClosure
 (
@@ -3786,6 +3785,11 @@ needsWrapper
 )
 )
 {
+js_LeaveTrace
+(
+cx
+)
+;
 JSStackFrame
 *
 fp
@@ -3855,7 +3859,6 @@ true
 ;
 }
 static
-JS_REQUIRES_STACK
 JSBool
 CalleeGetter
 (
