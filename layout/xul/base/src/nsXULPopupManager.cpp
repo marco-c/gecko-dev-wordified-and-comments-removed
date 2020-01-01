@@ -2897,6 +2897,10 @@ widget
 )
 )
 ;
+if
+(
+widget
+)
 mCachedMousePoint
 -
 =

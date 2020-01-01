@@ -92,7 +92,7 @@ m_pendingStateFlags
 ;
 m_pendingStateValue
 =
-0
+NS_OK
 ;
 }
 nsPrintProgress
@@ -334,7 +334,13 @@ nsIWebProgressListener
 :
 :
 STATE_STOP
+static_cast
+<
+nsresult
+>
+(
 forceClose
+)
 )
 ;
 }
@@ -428,7 +434,7 @@ nsIWebProgressListener
 :
 :
 STATE_STOP
-false
+NS_OK
 )
 ;
 return
@@ -511,7 +517,7 @@ nsIWebProgressListener
 :
 :
 STATE_STOP
-0
+NS_OK
 )
 ;
 else
@@ -523,7 +529,7 @@ OnStatusChange
 (
 nullptr
 nullptr
-0
+NS_OK
 m_pendingStatus
 .
 get

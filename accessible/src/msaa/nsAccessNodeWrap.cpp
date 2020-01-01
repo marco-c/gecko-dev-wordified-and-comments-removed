@@ -188,10 +188,16 @@ aInstancePtr
 )
 {
 return
+static_cast
+<
+nsresult
+>
+(
 QueryInterface
 (
 aIID
 aInstancePtr
+)
 )
 ;
 }

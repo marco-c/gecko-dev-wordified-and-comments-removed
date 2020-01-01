@@ -2011,17 +2011,7 @@ OnDataAvailable
 parserChannel
 nullptr
 aStream
-(
-uint32_t
-)
-NS_MIN
-(
 offset
-(
-uint64_t
-)
-PR_UINT32_MAX
-)
 (
 uint32_t
 )
@@ -2244,7 +2234,7 @@ aContext
 nsIInputStream
 *
 aInputStream
-uint32_t
+uint64_t
 offset
 uint32_t
 count

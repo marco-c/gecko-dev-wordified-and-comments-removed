@@ -1179,7 +1179,7 @@ CacheEntriesChanged
 nsIURI
 *
 aURI
-PRInt32
+int32_t
 sizediff
 =
 0

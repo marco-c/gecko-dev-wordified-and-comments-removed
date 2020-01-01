@@ -4094,8 +4094,6 @@ false
 &
 sNativePropertyHooks
 }
--
-1
 }
 ;
 JSPropertySpec
@@ -4591,7 +4589,7 @@ if
 XMLHttpRequestBinding_workers
 :
 :
-CreateInterfaceObjects
+GetProtoObject
 (
 aCx
 global
@@ -4603,7 +4601,7 @@ global
 XMLHttpRequestUploadBinding_workers
 :
 :
-CreateInterfaceObjects
+GetProtoObject
 (
 aCx
 global

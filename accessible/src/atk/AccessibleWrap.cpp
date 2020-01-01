@@ -45,6 +45,13 @@ h
 #
 include
 "
+nsIAccessibleTable
+.
+h
+"
+#
+include
+"
 RootAccessible
 .
 h

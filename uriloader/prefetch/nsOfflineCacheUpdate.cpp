@@ -764,7 +764,7 @@ aContext
 nsIInputStream
 *
 aStream
-uint32_t
+uint64_t
 aOffset
 uint32_t
 aCount
@@ -1343,7 +1343,7 @@ aContext
 nsIInputStream
 *
 aStream
-uint32_t
+uint64_t
 aOffset
 uint32_t
 aCount
@@ -1386,7 +1386,7 @@ cache
 offset
 =
 %
-u
+llu
 ]
 \
 n
@@ -4249,7 +4249,7 @@ aContext
 nsIInputStream
 *
 aStream
-uint32_t
+uint64_t
 aOffset
 uint32_t
 aCount

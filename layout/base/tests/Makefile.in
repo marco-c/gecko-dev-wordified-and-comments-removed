@@ -756,6 +756,10 @@ test_mozPaintCount
 .
 html
 \
+test_scroll_event_ordering
+.
+html
+\
 test_scroll_selection_into_view
 .
 html
@@ -801,6 +805,10 @@ test_bug731777
 html
 \
 test_bug761572
+.
+html
+\
+test_maxLineBoxWidth
 .
 html
 \

@@ -181,7 +181,7 @@ kPreallocateLimit
 #
 define
 kRevalidateCacheTimeout
-5000
+3000
 #
 define
 kRevalidateCacheTimeoutTolerance
@@ -1471,6 +1471,8 @@ nsDiskCache
 CorruptCacheInfo
 *
 corruptInfo
+bool
+reportCacheCleanTelemetryData
 )
 ;
 nsresult
@@ -1989,6 +1991,8 @@ nsDiskCache
 CorruptCacheInfo
 *
 corruptInfo
+bool
+reportCacheCleanTelemetryData
 )
 ;
 nsresult

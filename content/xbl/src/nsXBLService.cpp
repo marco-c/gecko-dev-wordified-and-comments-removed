@@ -1089,7 +1089,7 @@ aCtxt
 nsIInputStream
 *
 aInStr
-uint32_t
+uint64_t
 aSourceOffset
 uint32_t
 aCount

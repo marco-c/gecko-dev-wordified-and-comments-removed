@@ -2250,6 +2250,9 @@ doGlobalGC
 "
 GC
 "
+"
+doGCButton
+"
 )
 ;
 appendButton
@@ -2258,6 +2261,9 @@ CCDesc
 doCC
 "
 CC
+"
+"
+doCCButton
 "
 )
 ;
@@ -2278,6 +2284,9 @@ updateAboutMemory
 Minimize
 memory
 usage
+"
+"
+minMemUseButton
 "
 )
 ;

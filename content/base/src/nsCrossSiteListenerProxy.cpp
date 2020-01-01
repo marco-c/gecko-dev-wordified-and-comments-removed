@@ -2749,7 +2749,7 @@ aContext
 nsIInputStream
 *
 aInputStream
-uint32_t
+uint64_t
 aOffset
 uint32_t
 aCount
@@ -4482,7 +4482,7 @@ ctxt
 nsIInputStream
 *
 inStr
-uint32_t
+uint64_t
 sourceOffset
 uint32_t
 count

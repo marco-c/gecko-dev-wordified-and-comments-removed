@@ -2084,7 +2084,7 @@ ctx
 nsIInputStream
 *
 input
-uint32_t
+uint64_t
 offset
 uint32_t
 count
@@ -2110,7 +2110,7 @@ x
 offset
 =
 %
-u
+llu
 count
 =
 %
@@ -2168,12 +2168,9 @@ OnProgress
 (
 this
 nullptr
-uint64_t
-(
 offset
 +
 count
-)
 uint64_t
 (
 mContentLength

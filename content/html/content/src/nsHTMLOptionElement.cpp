@@ -859,7 +859,7 @@ nsContentUtils
 GetNodeTextContent
 (
 this
-false
+true
 text
 )
 ;

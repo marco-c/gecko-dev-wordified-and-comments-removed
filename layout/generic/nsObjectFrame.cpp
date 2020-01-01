@@ -3348,7 +3348,6 @@ mRootPresContextRegisteredWith
 >
 RequestUpdatePluginGeometry
 (
-this
 )
 ;
 }

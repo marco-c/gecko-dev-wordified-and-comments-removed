@@ -1136,7 +1136,7 @@ nsCString
 &
 data
 const
-uint32_t
+uint64_t
 &
 offset
 const
@@ -1212,7 +1212,7 @@ mProgressMax
 nsCString
 mData
 ;
-uint32_t
+uint64_t
 mOffset
 ;
 uint32_t
@@ -1243,7 +1243,7 @@ nsCString
 &
 data
 const
-uint32_t
+uint64_t
 &
 offset
 const
@@ -1318,7 +1318,7 @@ nsCString
 &
 data
 const
-uint32_t
+uint64_t
 &
 offset
 const

@@ -4417,6 +4417,7 @@ Open
 mCacheDirectory
 &
 corruptInfo
+true
 )
 ;
 if
@@ -4595,6 +4596,7 @@ Open
 mCacheDirectory
 &
 corruptInfo
+false
 )
 ;
 if

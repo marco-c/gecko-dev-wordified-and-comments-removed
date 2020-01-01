@@ -5749,7 +5749,7 @@ aCallee
 AddRefreshObserver
 (
 this
-Flush_Display
+Flush_Style
 )
 )
 {
@@ -5837,7 +5837,7 @@ mCallee
 RemoveRefreshObserver
 (
 this
-Flush_Display
+Flush_Style
 )
 ;
 }
@@ -8501,7 +8501,6 @@ rootPresContext
 >
 RequestUpdatePluginGeometry
 (
-mOuter
 )
 ;
 AdjustViews

@@ -390,7 +390,7 @@ false
 if
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_X11
 )
 &
 &
@@ -887,7 +887,7 @@ return
 if
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_X11
 )
 &
 &
@@ -1351,7 +1351,7 @@ GetMaskLayer
 if
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_X11
 )
 &
 &
@@ -1532,7 +1532,7 @@ Size
 if
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_X11
 )
 &
 &

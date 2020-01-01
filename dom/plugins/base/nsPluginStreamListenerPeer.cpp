@@ -900,7 +900,7 @@ ctxt
 nsIInputStream
 *
 inStr
-uint32_t
+uint64_t
 sourceOffset
 uint32_t
 count
@@ -3471,7 +3471,7 @@ aContext
 nsIInputStream
 *
 aIStream
-uint32_t
+uint64_t
 sourceOffset
 uint32_t
 aLength
@@ -3606,11 +3606,11 @@ p
 offset
 =
 %
-d
+llu
 length
 =
 %
-d
+u
 url
 =
 %

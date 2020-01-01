@@ -96,7 +96,7 @@ m_pendingStatus
 int32_t
 m_pendingStateFlags
 ;
-int32_t
+nsresult
 m_pendingStateValue
 ;
 nsCOMPtr

@@ -199,7 +199,7 @@ request
 nsISupports
 *
 aContext
-uint32_t
+uint64_t
 aSourceOffset
 const
 char

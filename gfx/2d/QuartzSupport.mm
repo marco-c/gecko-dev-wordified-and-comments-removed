@@ -854,13 +854,13 @@ MacIOSurfaceLib
 :
 sGetBaseAddress
 ;
-IOSurfaceGetHeightFunc
+IOSurfaceGetWidthFunc
 MacIOSurfaceLib
 :
 :
 sWidth
 ;
-IOSurfaceGetWidthFunc
+IOSurfaceGetHeightFunc
 MacIOSurfaceLib
 :
 :

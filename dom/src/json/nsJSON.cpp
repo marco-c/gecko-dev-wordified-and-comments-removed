@@ -1983,17 +1983,7 @@ OnDataAvailable
 jsonChannel
 nullptr
 aStream
-(
-uint32_t
-)
-NS_MIN
-(
 offset
-(
-uint64_t
-)
-PR_UINT32_MAX
-)
 (
 uint32_t
 )
@@ -2557,7 +2547,7 @@ aContext
 nsIInputStream
 *
 aStream
-uint32_t
+uint64_t
 aOffset
 uint32_t
 aLength

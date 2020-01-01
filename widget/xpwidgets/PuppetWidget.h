@@ -431,6 +431,17 @@ NS_ERROR_UNEXPECTED
 ;
 }
 virtual
+nsTransparencyMode
+GetTransparencyMode
+(
+)
+MOZ_OVERRIDE
+{
+return
+eTransparencyTransparent
+;
+}
+virtual
 LayerManager
 *
 GetLayerManager

@@ -33186,14 +33186,6 @@ didInvalidate
 didReflow
 )
 {
-nsIFrame
-*
-rootFrame
-=
-GetRootFrame
-(
-)
-;
 nsRootPresContext
 *
 rootPC
@@ -33215,7 +33207,6 @@ rootPC
 >
 RequestUpdatePluginGeometry
 (
-rootFrame
 )
 ;
 }
