@@ -274,9 +274,6 @@ mKeyPressSent
 PRBool
 mKeyPressHandled
 ;
-NSRange
-mMarkedRange
-;
 NSEvent
 *
 mLastMouseDownEvent
