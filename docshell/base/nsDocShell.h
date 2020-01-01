@@ -1209,9 +1209,13 @@ PRUnichar
 *
 aURL
 const
+char
+*
+aErrorPage
+const
 PRUnichar
 *
-aPage
+aErrorType
 const
 PRUnichar
 *
