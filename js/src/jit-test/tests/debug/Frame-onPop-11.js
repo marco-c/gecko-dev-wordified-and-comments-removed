@@ -36,6 +36,15 @@ dbg
 new
 Debugger
 (
+)
+;
+var
+gw
+=
+dbg
+.
+addDebuggee
+(
 g
 )
 ;
@@ -45,9 +54,9 @@ log
 var
 gf
 =
-dbg
+gw
 .
-addDebuggee
+makeDebuggeeValue
 (
 g
 .
