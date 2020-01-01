@@ -25,8 +25,7 @@ with
 newlines
 in
 them
-do
-not
+must
 act
 as
 line
