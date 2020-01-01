@@ -68,6 +68,9 @@ eStyleUnit_Grad
 eStyleUnit_Radian
 =
 14
+eStyleUnit_Turn
+=
+15
 eStyleUnit_Coord
 =
 20
@@ -309,7 +312,7 @@ mUnit
 mUnit
 <
 =
-eStyleUnit_Radian
+eStyleUnit_Turn
 ;
 }
 bool
@@ -1217,7 +1220,7 @@ eStyleUnit_Degree
 mUnit
 <
 =
-eStyleUnit_Radian
+eStyleUnit_Turn
 "
 not
 an
@@ -1237,7 +1240,7 @@ eStyleUnit_Degree
 mUnit
 <
 =
-eStyleUnit_Radian
+eStyleUnit_Turn
 )
 {
 return

@@ -450,6 +450,9 @@ eCSSUnit_Grad
 eCSSUnit_Radian
 =
 1002
+eCSSUnit_Turn
+=
+1003
 eCSSUnit_Hertz
 =
 2000
@@ -782,7 +785,7 @@ mUnit
 mUnit
 <
 =
-eCSSUnit_Radian
+eCSSUnit_Turn
 ;
 }
 bool
@@ -987,7 +990,7 @@ mUnit
 mUnit
 <
 =
-eCSSUnit_Radian
+eCSSUnit_Turn
 "
 not
 an
