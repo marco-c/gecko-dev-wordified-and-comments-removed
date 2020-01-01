@@ -670,6 +670,10 @@ AddObserver
 this
 )
 ;
+mIsDocumentObserver
+=
+PR_TRUE
+;
 if
 (
 !
@@ -945,6 +949,10 @@ RemoveObserver
 (
 this
 )
+;
+mIsDocumentObserver
+=
+PR_FALSE
 ;
 if
 (
@@ -1281,6 +1289,10 @@ RemoveObserver
 this
 )
 ;
+mIsDocumentObserver
+=
+PR_FALSE
+;
 PRUint32
 i
 ;
@@ -1521,6 +1533,10 @@ RemoveObserver
 (
 this
 )
+;
+mIsDocumentObserver
+=
+PR_FALSE
 ;
 mDocument
 -
@@ -6209,6 +6225,10 @@ RemoveObserver
 this
 )
 ;
+mIsDocumentObserver
+=
+PR_FALSE
+;
 nsCOMPtr
 <
 nsIDOMNode
@@ -6953,6 +6973,11 @@ mInNotification
 {
 if
 (
+mIsDocumentObserver
+)
+{
+if
+(
 aType
 >
 =
@@ -6971,6 +6996,7 @@ FlushText
 PR_FALSE
 )
 ;
+}
 }
 if
 (

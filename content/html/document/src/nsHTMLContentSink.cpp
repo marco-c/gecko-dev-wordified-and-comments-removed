@@ -6393,6 +6393,10 @@ AddObserver
 this
 )
 ;
+mIsDocumentObserver
+=
+PR_TRUE
+;
 CallQueryInterface
 (
 aDoc
@@ -7151,6 +7155,10 @@ RemoveObserver
 (
 this
 )
+;
+mIsDocumentObserver
+=
+PR_FALSE
 ;
 mDocument
 -
@@ -12824,6 +12832,11 @@ mInNotification
 {
 if
 (
+mIsDocumentObserver
+)
+{
+if
+(
 aType
 >
 =
@@ -12848,6 +12861,7 @@ FlushText
 (
 )
 ;
+}
 }
 if
 (
