@@ -385,6 +385,12 @@ ContextCommand
 json
 )
 ;
+SelectionHelperUI
+.
+closeEditSession
+(
+)
+;
 }
 else
 {
@@ -404,12 +410,6 @@ focus
 )
 ;
 }
-SelectionHelperUI
-.
-closeEditSession
-(
-)
-;
 }
 pasteAndGo
 :
