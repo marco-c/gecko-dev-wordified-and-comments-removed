@@ -8310,6 +8310,16 @@ DownloadSuspended
 (
 )
 {
+DispatchAsyncEvent
+(
+NS_LITERAL_STRING
+(
+"
+progress
+"
+)
+)
+;
 if
 (
 mBegun
