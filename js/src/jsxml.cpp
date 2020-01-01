@@ -36613,9 +36613,12 @@ varobj
 cx
 -
 >
-stack
-.
-currentVarObj
+fp
+(
+)
+-
+>
+varObj
 (
 )
 ;
