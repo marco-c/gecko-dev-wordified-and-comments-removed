@@ -1391,7 +1391,12 @@ mWhereToScroll
 WhenToScroll
 mWhenToScroll
 :
-16
+8
+;
+bool
+mOnlyIfPerceivedScrollableDirection
+:
+1
 ;
 ScrollAxis
 (
@@ -1403,6 +1408,10 @@ WhenToScroll
 aWhen
 =
 SCROLL_IF_NOT_FULLY_VISIBLE
+bool
+aOnlyIfPerceivedScrollableDirection
+=
+true
 )
 :
 mWhereToScroll
@@ -1412,6 +1421,10 @@ aWhere
 mWhenToScroll
 (
 aWhen
+)
+mOnlyIfPerceivedScrollableDirection
+(
+aOnlyIfPerceivedScrollableDirection
 )
 {
 }
