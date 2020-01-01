@@ -75,6 +75,13 @@ bool
 _retval
 )
 ;
+NS_IMETHOD
+EmptyClipboard
+(
+int32_t
+aWhichClipboard
+)
+;
 static
 nsresult
 CreateNativeDataObject
