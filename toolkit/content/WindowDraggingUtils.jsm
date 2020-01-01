@@ -95,6 +95,9 @@ toolbarspacer
 "
 radiogroup
 "
+"
+deck
+"
 ]
 handleEvent
 :

@@ -116,8 +116,8 @@ color
 HighlightText
 ;
 }
-.
-viewSelector
+#
+topBar
 {
 -
 moz
@@ -130,11 +130,6 @@ margin
 :
 8px
 8px
-0
-8px
-;
-padding
-:
 0
 ;
 }
