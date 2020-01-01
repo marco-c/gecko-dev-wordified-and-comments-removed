@@ -586,6 +586,14 @@ GetCompositableClientType
 if
 (
 mGLContext
+&
+&
+XRE_GetProcessType
+(
+)
+=
+=
+GeckoProcessType_Default
 )
 {
 return
