@@ -435,6 +435,10 @@ do
 this
 in
 crashreporter
+and
+storage
+/
+src
 too
 should
 be

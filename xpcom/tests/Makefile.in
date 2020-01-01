@@ -611,6 +611,15 @@ cpp
 (
 NULL
 )
+ifdef
+MOZ_MEMORY
+CPP_UNIT_TESTS
++
+=
+TestJemalloc
+.
+cpp
+endif
 #
 XXX
 Make

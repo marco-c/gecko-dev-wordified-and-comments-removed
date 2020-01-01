@@ -282,6 +282,13 @@ jemalloc_stats_t
 stats
 )
 ;
+size_t
+je_malloc_usable_size_in_advance
+(
+size_t
+size
+)
+;
 void
 jemalloc_purge_freed_pages
 (

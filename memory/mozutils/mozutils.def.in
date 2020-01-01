@@ -431,6 +431,7 @@ je_wcsdup
 malloc_usable_size
 =
 je_malloc_usable_size
+je_malloc_usable_size_in_advance
 jemalloc_stats
 ;
 A
