@@ -4681,6 +4681,14 @@ UNSIGNED_INT_24_8_WEBGL
 NoInterfaceObject
 ]
 interface
+WebGLExtensionElementIndexUint
+{
+}
+;
+[
+NoInterfaceObject
+]
+interface
 WebGLExtensionLoseContext
 {
 void

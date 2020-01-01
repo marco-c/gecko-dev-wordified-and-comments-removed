@@ -4925,6 +4925,7 @@ enum
 WebGLExtensionID
 {
 EXT_texture_filter_anisotropic
+OES_element_index_uint
 OES_standard_derivatives
 OES_texture_float
 WEBGL_compressed_texture_atc

@@ -177,6 +177,10 @@ WebGLExtensionDepthTexture
 .
 cpp
 \
+WebGLExtensionElementIndexUint
+.
+cpp
+\
 WebGLExtensionLoseContext
 .
 cpp
