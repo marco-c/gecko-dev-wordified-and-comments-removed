@@ -5295,7 +5295,7 @@ base
 ifdef
 DEBUG
 {
-int32
+int32_t
 _
 ;
 JS_ASSERT
