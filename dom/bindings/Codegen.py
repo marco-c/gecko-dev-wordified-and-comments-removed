@@ -3305,6 +3305,29 @@ in
 descriptors
 )
         
+hasInstanceIncludes
+=
+set
+(
+d
+.
+hasInstanceInterface
++
+"
+.
+h
+"
+for
+d
+                                  
+in
+descriptors
+if
+d
+.
+hasInstanceInterface
+)
+        
 bindingHeaders
 =
 set
@@ -3760,6 +3783,9 @@ bindingIncludes
 |
                                                            
 bindingHeaders
+|
+                                                           
+hasInstanceIncludes
 |
                                                            
 implementationIncludes

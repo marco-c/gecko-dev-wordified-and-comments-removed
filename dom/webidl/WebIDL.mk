@@ -123,6 +123,10 @@ CaretPosition
 .
 webidl
 \
+CharacterData
+.
+webidl
+\
 ClientRectList
 .
 webidl

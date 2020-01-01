@@ -208,12 +208,6 @@ html
 .
 json
 \
-test_interfaces
-.
-html
-.
-json
-\
 (
 NULL
 )
