@@ -6988,6 +6988,8 @@ nsIContentSecurityPolicy
 >
 csp
 ;
+rv
+=
 mPrincipal
 -
 >
@@ -6997,6 +6999,12 @@ getter_AddRefs
 (
 csp
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 if
