@@ -156,7 +156,6 @@ using
 namespace
 js
 ;
-inline
 ArrayBuffer
 *
 ArrayBuffer
@@ -599,7 +598,6 @@ NULL
 )
 ;
 }
-inline
 TypedArray
 *
 TypedArray
