@@ -33,7 +33,7 @@ jsvalue
 h
 "
 class
-JSONSourceParser
+JSONParser
 {
 public
 :
@@ -121,7 +121,7 @@ lastToken
 endif
 public
 :
-JSONSourceParser
+JSONParser
 (
 JSContext
 *
