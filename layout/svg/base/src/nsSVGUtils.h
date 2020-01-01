@@ -1431,6 +1431,16 @@ PRUint32
 aIndex
 )
 ;
+static
+PRBool
+RootSVGElementHasViewbox
+(
+const
+nsIContent
+*
+aRootSVGElem
+)
+;
 private
 :
 static
