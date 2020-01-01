@@ -67,16 +67,6 @@ alsa
 asoundlib
 .
 h
-alsa
-/
-pcm
-.
-h
-alsa
-/
-mixer
-.
-h
 android
 /
 log
