@@ -93,6 +93,15 @@ include
 "
 vm
 /
+GlobalObject
+.
+h
+"
+#
+include
+"
+vm
+/
 Interpreter
 .
 h
@@ -102,9 +111,7 @@ include
 "
 vm
 /
-ObjectImpl
--
-inl
+ProxyObject
 .
 h
 "

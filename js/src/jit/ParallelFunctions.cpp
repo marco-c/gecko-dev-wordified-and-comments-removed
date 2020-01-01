@@ -28,13 +28,6 @@ h
 #
 include
 "
-jsfuninlines
-.
-h
-"
-#
-include
-"
 jsgcinlines
 .
 h
@@ -43,13 +36,6 @@ h
 include
 "
 jsobjinlines
-.
-h
-"
-#
-include
-"
-jsscriptinlines
 .
 h
 "
