@@ -1,0 +1,11 @@
+/
+/
+StringTest
+.
+Prefix
+#
+define
+STANDALONE_STRING_TESTS
+#
+define
+HAVE_CPP_2BYTE_WCHAR_T

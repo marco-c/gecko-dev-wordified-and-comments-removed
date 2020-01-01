@@ -1,0 +1,4 @@
+#
+define
+IDC_SELECTANCHOR
+4100

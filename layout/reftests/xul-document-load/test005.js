@@ -1,0 +1,9 @@
+document
+.
+removeChild
+(
+document
+.
+firstChild
+)
+;

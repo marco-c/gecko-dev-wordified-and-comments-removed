@@ -1,0 +1,17 @@
+{
+global
+:
+NSGetFactory
+;
+NSGetModule
+;
+NSRegisterSelf
+;
+NSUnregisterSelf
+;
+local
+:
+*
+;
+}
+;

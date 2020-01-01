@@ -1,0 +1,5 @@
+EXPORTS
+CreateObject
+PRIVATE
+GetHandlerProperty
+PRIVATE

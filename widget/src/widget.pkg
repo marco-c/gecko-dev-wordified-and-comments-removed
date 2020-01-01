@@ -1,0 +1,14 @@
+[
+gecko
+]
+!
+xpt
+dist
+/
+bin
+/
+components
+/
+widget
+.
+xpt

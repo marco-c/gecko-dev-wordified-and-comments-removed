@@ -1,0 +1,3 @@
+MOZ_APP_DISPLAYNAME
+=
+Firefox

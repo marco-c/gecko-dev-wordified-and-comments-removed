@@ -1,0 +1,8 @@
+#
+ifndef
+__jos2fig_h__
+#
+define
+__jos2fig_h__
+#
+endif

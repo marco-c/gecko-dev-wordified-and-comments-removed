@@ -1,0 +1,11 @@
+#
+include
+"
+MacHeaders
+.
+h
+"
+#
+define
+MRJPLUGIN_GC
+1

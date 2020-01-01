@@ -1,0 +1,17 @@
+toolkit
+.
+jar
+:
+*
+content
+/
+global
+/
+platformHTMLBindings
+.
+xml
+(
+platformHTMLBindings
+.
+xml
+)

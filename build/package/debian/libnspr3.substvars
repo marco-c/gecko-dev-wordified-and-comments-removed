@@ -1,0 +1,12 @@
+shlibs
+:
+Depends
+=
+libc6
+(
+>
+=
+2
+.
+1
+)

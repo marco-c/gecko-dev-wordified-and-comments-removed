@@ -1,0 +1,15 @@
+#
+define
+TARGET_CARBON
+1
+#
+define
+USE_SYSTEM_CONSOLE
+1
+#
+include
+<
+MacHeadersCarbon
+.
+h
+>

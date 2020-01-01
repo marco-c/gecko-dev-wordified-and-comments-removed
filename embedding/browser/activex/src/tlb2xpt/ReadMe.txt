@@ -1,0 +1,13 @@
+Utility
+for
+turning
+ActiveX
+typelibrary
+files
+into
+XPCOM
+xpt
+idl
+&
+stub
+files

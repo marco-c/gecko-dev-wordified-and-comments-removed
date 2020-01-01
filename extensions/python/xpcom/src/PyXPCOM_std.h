@@ -1,0 +1,10 @@
+#
+define
+BUILD_PYXPCOM
+#
+include
+"
+PyXPCOM
+.
+h
+"
