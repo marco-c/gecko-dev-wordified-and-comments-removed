@@ -571,6 +571,10 @@ TestPipe
 .
 cpp
 \
+TestRefPtr
+.
+cpp
+\
 TestServMgr
 .
 cpp
