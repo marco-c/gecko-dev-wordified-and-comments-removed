@@ -1,9 +1,9 @@
 #
 ifndef
-__AF_GLOBAL_H__
+__AFGLOBAL_H__
 #
 define
-__AF_GLOBAL_H__
+__AFGLOBAL_H__
 #
 include
 "

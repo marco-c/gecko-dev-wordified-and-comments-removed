@@ -132,6 +132,9 @@ PREFER_LWFN
 1
 #
 endif
+#
+ifdef
+FT_MACINTOSH
 FT_EXPORT_DEF
 (
 FT_Error
@@ -3433,3 +3436,5 @@ aface
 #
 endif
 }
+#
+endif

@@ -261,10 +261,6 @@ first
 AF_Point
 last
 ;
-AF_Point
-*
-contour
-;
 }
 AF_SegmentRec
 ;
@@ -371,9 +367,6 @@ y_scale
 FT_Pos
 y_delta
 ;
-FT_Pos
-edge_distance_threshold
-;
 FT_Int
 max_points
 ;
@@ -457,7 +450,7 @@ f
 )
 #
 ifdef
-AF_DEBUG
+FT_DEBUG_AUTOFIT
 #
 define
 AF_HINTS_DO_HORIZONTAL
@@ -705,7 +698,7 @@ dim
 ;
 #
 ifdef
-AF_USE_WARPER
+AF_CONFIG_OPTION_USE_WARPER
 FT_LOCAL
 (
 void

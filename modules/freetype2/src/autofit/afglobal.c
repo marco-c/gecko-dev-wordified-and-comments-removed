@@ -308,7 +308,6 @@ gindex
 =
 AF_SCRIPT_LIST_NONE
 )
-{
 gscripts
 [
 gindex
@@ -319,7 +318,6 @@ FT_Byte
 )
 ss
 ;
-}
 for
 (
 ;
@@ -374,7 +372,6 @@ gindex
 =
 AF_SCRIPT_LIST_NONE
 )
-{
 gscripts
 [
 gindex
@@ -385,7 +382,6 @@ FT_Byte
 )
 ss
 ;
-}
 }
 }
 }

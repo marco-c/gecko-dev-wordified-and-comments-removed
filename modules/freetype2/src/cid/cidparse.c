@@ -157,15 +157,12 @@ FT_TRACE2
 (
 (
 "
-[
 not
 a
-valid
 CID
 -
 keyed
 font
-]
 \
 n
 "
@@ -268,7 +265,7 @@ n
 ;
 error
 =
-CID_Err_Unknown_File_Format
+CID_Err_Invalid_File_Format
 ;
 goto
 Exit

@@ -3899,6 +3899,8 @@ SFNT_Err_Invalid_File_Format
 {
 TT_SBit_Component
 components
+=
+NULL
 ;
 TT_SBit_Component
 comp

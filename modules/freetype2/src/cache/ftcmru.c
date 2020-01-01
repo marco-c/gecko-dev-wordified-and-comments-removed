@@ -742,6 +742,8 @@ error
 ;
 FTC_MruNode
 node
+=
+NULL
 ;
 FT_Memory
 memory

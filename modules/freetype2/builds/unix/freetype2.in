@@ -45,6 +45,7 @@ Libs
 private
 :
 LIBZ
+LIBBZ2
 FT2_EXTRA_LIBS
 Cflags
 :

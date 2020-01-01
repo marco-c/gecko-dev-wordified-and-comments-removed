@@ -68,7 +68,9 @@ define
 FT_DEFINE_SERVICE_GLYPHDICTREC
 (
 class_
+\
 get_name_
+\
 name_index_
 )
 \
@@ -92,7 +94,9 @@ define
 FT_DEFINE_SERVICE_GLYPHDICTREC
 (
 class_
+\
 get_name_
+\
 name_index_
 )
 \
@@ -118,6 +122,7 @@ FT_UNUSED
 library
 )
 ;
+\
 \
 clazz
 -

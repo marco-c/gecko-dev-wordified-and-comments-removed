@@ -11,6 +11,7 @@ rules
 Copyright
 2001
 2003
+2011
 by
 #
 David
@@ -136,7 +137,7 @@ PSHINTER_DRV_SRC
 PSHINTER_DIR
 )
 /
-pshrec
+pshalgo
 .
 c
 \
@@ -160,7 +161,15 @@ c
 PSHINTER_DIR
 )
 /
-pshalgo
+pshpic
+.
+c
+\
+(
+PSHINTER_DIR
+)
+/
+pshrec
 .
 c
 #

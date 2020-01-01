@@ -168,9 +168,6 @@ standard_width
 FT_Bool
 extra_light
 ;
-FT_Bool
-control_overshoot
-;
 FT_UInt
 blue_count
 ;

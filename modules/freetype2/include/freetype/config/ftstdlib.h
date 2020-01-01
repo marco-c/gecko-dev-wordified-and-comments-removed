@@ -28,6 +28,10 @@ FT_CHAR_BIT
 CHAR_BIT
 #
 define
+FT_USHORT_MAX
+USHRT_MAX
+#
+define
 FT_INT_MAX
 INT_MAX
 #

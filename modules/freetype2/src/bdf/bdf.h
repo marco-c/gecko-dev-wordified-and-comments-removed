@@ -546,14 +546,14 @@ unsigned
 long
 nmod
 [
-2048
+34816
 ]
 ;
 unsigned
 long
 umod
 [
-2048
+34816
 ]
 ;
 unsigned

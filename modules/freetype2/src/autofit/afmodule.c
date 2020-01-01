@@ -21,10 +21,7 @@ h
 "
 #
 ifdef
-AF_DEBUG
-int
-_af_debug
-;
+FT_DEBUG_AUTOFIT
 int
 _af_debug_disable_horz_hints
 ;

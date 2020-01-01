@@ -296,6 +296,16 @@ h
 >
 #
 define
+FT_BZIP2_H
+<
+freetype
+/
+ftbzip2
+.
+h
+>
+#
+define
 FT_WINFONTS_H
 <
 freetype

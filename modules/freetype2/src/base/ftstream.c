@@ -1258,9 +1258,9 @@ result
 }
 FT_BASE_DEF
 (
-FT_Short
+FT_UShort
 )
-FT_Stream_GetShort
+FT_Stream_GetUShort
 (
 FT_Stream
 stream
@@ -1308,7 +1308,7 @@ limit
 )
 result
 =
-FT_NEXT_SHORT
+FT_NEXT_USHORT
 (
 p
 )
@@ -1326,9 +1326,9 @@ result
 }
 FT_BASE_DEF
 (
-FT_Short
+FT_UShort
 )
-FT_Stream_GetShortLE
+FT_Stream_GetUShortLE
 (
 FT_Stream
 stream
@@ -1376,7 +1376,7 @@ limit
 )
 result
 =
-FT_NEXT_SHORT_LE
+FT_NEXT_USHORT_LE
 (
 p
 )
@@ -1394,9 +1394,9 @@ result
 }
 FT_BASE_DEF
 (
-FT_Long
+FT_ULong
 )
-FT_Stream_GetOffset
+FT_Stream_GetUOffset
 (
 FT_Stream
 stream
@@ -1444,7 +1444,7 @@ limit
 )
 result
 =
-FT_NEXT_OFF3
+FT_NEXT_UOFF3
 (
 p
 )
@@ -1462,9 +1462,9 @@ result
 }
 FT_BASE_DEF
 (
-FT_Long
+FT_ULong
 )
-FT_Stream_GetLong
+FT_Stream_GetULong
 (
 FT_Stream
 stream
@@ -1512,7 +1512,7 @@ limit
 )
 result
 =
-FT_NEXT_LONG
+FT_NEXT_ULONG
 (
 p
 )
@@ -1530,9 +1530,9 @@ result
 }
 FT_BASE_DEF
 (
-FT_Long
+FT_ULong
 )
-FT_Stream_GetLongLE
+FT_Stream_GetULongLE
 (
 FT_Stream
 stream
@@ -1580,7 +1580,7 @@ limit
 )
 result
 =
-FT_NEXT_LONG_LE
+FT_NEXT_ULONG_LE
 (
 p
 )
@@ -1748,9 +1748,9 @@ return
 }
 FT_BASE_DEF
 (
-FT_Short
+FT_UShort
 )
-FT_Stream_ReadShort
+FT_Stream_ReadUShort
 (
 FT_Stream
 stream
@@ -1857,7 +1857,7 @@ p
 )
 result
 =
-FT_NEXT_SHORT
+FT_NEXT_USHORT
 (
 p
 )
@@ -1889,7 +1889,7 @@ FT_ERROR
 (
 (
 "
-FT_Stream_ReadShort
+FT_Stream_ReadUShort
 :
 "
 "
@@ -1928,9 +1928,9 @@ return
 }
 FT_BASE_DEF
 (
-FT_Short
+FT_UShort
 )
-FT_Stream_ReadShortLE
+FT_Stream_ReadUShortLE
 (
 FT_Stream
 stream
@@ -2037,7 +2037,7 @@ p
 )
 result
 =
-FT_NEXT_SHORT_LE
+FT_NEXT_USHORT_LE
 (
 p
 )
@@ -2069,7 +2069,7 @@ FT_ERROR
 (
 (
 "
-FT_Stream_ReadShortLE
+FT_Stream_ReadUShortLE
 :
 "
 "
@@ -2108,9 +2108,9 @@ return
 }
 FT_BASE_DEF
 (
-FT_Long
+FT_ULong
 )
-FT_Stream_ReadOffset
+FT_Stream_ReadUOffset
 (
 FT_Stream
 stream
@@ -2217,7 +2217,7 @@ p
 )
 result
 =
-FT_NEXT_OFF3
+FT_NEXT_UOFF3
 (
 p
 )
@@ -2249,7 +2249,7 @@ FT_ERROR
 (
 (
 "
-FT_Stream_ReadOffset
+FT_Stream_ReadUOffset
 :
 "
 "
@@ -2288,9 +2288,9 @@ return
 }
 FT_BASE_DEF
 (
-FT_Long
+FT_ULong
 )
-FT_Stream_ReadLong
+FT_Stream_ReadULong
 (
 FT_Stream
 stream
@@ -2397,7 +2397,7 @@ p
 )
 result
 =
-FT_NEXT_LONG
+FT_NEXT_ULONG
 (
 p
 )
@@ -2429,7 +2429,7 @@ FT_ERROR
 (
 (
 "
-FT_Stream_ReadLong
+FT_Stream_ReadULong
 :
 "
 "
@@ -2468,9 +2468,9 @@ return
 }
 FT_BASE_DEF
 (
-FT_Long
+FT_ULong
 )
-FT_Stream_ReadLongLE
+FT_Stream_ReadULongLE
 (
 FT_Stream
 stream
@@ -2577,7 +2577,7 @@ p
 )
 result
 =
-FT_NEXT_LONG_LE
+FT_NEXT_ULONG_LE
 (
 p
 )
@@ -2609,7 +2609,7 @@ FT_ERROR
 (
 (
 "
-FT_Stream_ReadLongLE
+FT_Stream_ReadULongLE
 :
 "
 "

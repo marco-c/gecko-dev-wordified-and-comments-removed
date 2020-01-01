@@ -278,7 +278,7 @@ you
 are
 building
 a
-CVS
+git
 snapshot
 or
 checkout
@@ -352,7 +352,7 @@ Libtool
 See
 README
 .
-CVS
+git
 in
 the
 top

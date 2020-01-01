@@ -38,13 +38,13 @@ FT_Error
 )
 T1_Get_Advances
 (
-T1_Face
+FT_Face
 face
 FT_UInt
 first
 FT_UInt
 count
-FT_ULong
+FT_Int32
 load_flags
 FT_Fixed
 *
@@ -57,9 +57,9 @@ FT_Error
 )
 T1_Load_Glyph
 (
-T1_GlyphSlot
+FT_GlyphSlot
 glyph
-T1_Size
+FT_Size
 size
 FT_UInt
 glyph_index

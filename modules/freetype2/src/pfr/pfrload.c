@@ -1500,6 +1500,8 @@ num_horz
 FT_Int
 *
 snaps
+=
+NULL
 ;
 FT_Error
 error

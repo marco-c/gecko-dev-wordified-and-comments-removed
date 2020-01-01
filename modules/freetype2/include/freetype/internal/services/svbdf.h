@@ -77,7 +77,9 @@ define
 FT_DEFINE_SERVICE_BDFRec
 (
 class_
+\
 get_charset_id_
+\
 get_property_
 )
 \
@@ -101,7 +103,9 @@ define
 FT_DEFINE_SERVICE_BDFRec
 (
 class_
+\
 get_charset_id_
+\
 get_property_
 )
 \

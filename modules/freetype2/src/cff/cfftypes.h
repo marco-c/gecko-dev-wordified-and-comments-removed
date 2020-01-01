@@ -164,6 +164,9 @@ charstring_type
 FT_Matrix
 font_matrix
 ;
+FT_Bool
+has_font_matrix
+;
 FT_ULong
 units_per_em
 ;
@@ -400,7 +403,7 @@ CFF_SubFont
 #
 define
 CFF_MAX_CID_FONTS
-32
+256
 typedef
 struct
 CFF_FontRec_

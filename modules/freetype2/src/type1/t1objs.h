@@ -33,12 +33,6 @@ T1_Glyph_Hints
 ;
 typedef
 struct
-T1_DriverRec_
-*
-T1_Driver
-;
-typedef
-struct
 T1_SizeRec_
 *
 T1_Size
@@ -71,7 +65,7 @@ void
 )
 T1_Size_Done
 (
-T1_Size
+FT_Size
 size
 )
 ;
@@ -81,7 +75,7 @@ FT_Error
 )
 T1_Size_Request
 (
-T1_Size
+FT_Size
 size
 FT_Size_Request
 req
@@ -93,7 +87,7 @@ FT_Error
 )
 T1_Size_Init
 (
-T1_Size
+FT_Size
 size
 )
 ;
@@ -133,7 +127,7 @@ T1_Face_Init
 (
 FT_Stream
 stream
-T1_Face
+FT_Face
 face
 FT_Int
 face_index
@@ -150,7 +144,7 @@ void
 )
 T1_Face_Done
 (
-T1_Face
+FT_Face
 face
 )
 ;
@@ -160,7 +154,7 @@ FT_Error
 )
 T1_GlyphSlot_Init
 (
-T1_GlyphSlot
+FT_GlyphSlot
 slot
 )
 ;
@@ -170,7 +164,7 @@ void
 )
 T1_GlyphSlot_Done
 (
-T1_GlyphSlot
+FT_GlyphSlot
 slot
 )
 ;
@@ -180,7 +174,7 @@ FT_Error
 )
 T1_Driver_Init
 (
-T1_Driver
+FT_Module
 driver
 )
 ;
@@ -190,7 +184,7 @@ void
 )
 T1_Driver_Done
 (
-T1_Driver
+FT_Module
 driver
 )
 ;

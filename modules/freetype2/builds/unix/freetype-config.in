@@ -812,6 +812,7 @@ libs
 -
 lfreetype
 LIBZ
+LIBBZ2
 FT2_EXTRA_LIBS
 "
 if

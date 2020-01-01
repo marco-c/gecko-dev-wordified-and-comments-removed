@@ -130,10 +130,13 @@ char
 end
 )
 {
+unsigned
+int
+h
+;
 int
 nn
 len
-h
 ;
 Name
 nm

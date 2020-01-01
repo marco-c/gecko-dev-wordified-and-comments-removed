@@ -430,7 +430,7 @@ win32
 \
 vc2008
 \
-freetype243
+freetype249
 .
 lib
 "
@@ -836,7 +836,7 @@ win32
 \
 vc2008
 \
-freetype243MT
+freetype249MT
 .
 lib
 "
@@ -1242,7 +1242,7 @@ win32
 \
 vc2008
 \
-freetype243ST
+freetype249ST
 .
 lib
 "
@@ -1636,7 +1636,7 @@ win32
 \
 vc2008
 \
-freetype243_D
+freetype249_D
 .
 lib
 "
@@ -2036,7 +2036,7 @@ win32
 \
 vc2008
 \
-freetype243ST_D
+freetype249ST_D
 .
 lib
 "
@@ -2443,7 +2443,7 @@ win32
 \
 vc2008
 \
-freetype243MT_D
+freetype249MT_D
 .
 lib
 "

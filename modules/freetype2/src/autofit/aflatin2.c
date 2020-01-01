@@ -24,7 +24,7 @@ h
 "
 #
 ifdef
-AF_USE_WARPER
+AF_CONFIG_OPTION_USE_WARPER
 #
 include
 "
@@ -34,6 +34,13 @@ h
 "
 #
 endif
+#
+undef
+FT_COMPONENT
+#
+define
+FT_COMPONENT
+trace_aflatin2
 FT_LOCAL_DEF
 (
 FT_Error
@@ -657,7 +664,7 @@ face
 >
 glyph
 ;
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -670,7 +677,7 @@ n
 )
 )
 ;
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -770,7 +777,7 @@ FT_Pos
 *
 blue_shoot
 ;
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -823,7 +830,7 @@ points
 FT_Bool
 round
 ;
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -1101,7 +1108,7 @@ last
 ;
 }
 }
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -1279,7 +1286,7 @@ end
 FT_CURVE_TAG_ON
 )
 ;
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -1323,7 +1330,7 @@ num_flats
 best_y
 ;
 }
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -1347,7 +1354,7 @@ num_rounds
 0
 )
 {
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -1575,7 +1582,7 @@ flags
 =
 AF_LATIN_BLUE_ADJUSTMENT
 ;
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -2094,7 +2101,7 @@ fitted
 scaled
 )
 ;
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -2108,6 +2115,8 @@ top
 %
 .
 2g
+"
+"
 fitted
 =
 %
@@ -2578,7 +2587,7 @@ fit
 +
 delta2
 ;
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -2590,6 +2599,8 @@ zone
 %
 d
 :
+"
+"
 ref
 .
 cur
@@ -2604,6 +2615,8 @@ fit
 %
 .
 2g
+"
+"
 shoot
 .
 cur
@@ -3286,13 +3299,6 @@ segment
 last
 =
 point
-;
-segment
--
->
-contour
-=
-contour
 ;
 segment
 -
@@ -5004,6 +5010,9 @@ is_straight
 =
 0
 ;
+#
+if
+0
 FT_Pos
 ups
 =
@@ -5014,6 +5023,8 @@ downs
 =
 0
 ;
+#
+endif
 seg
 =
 edge
@@ -5044,6 +5055,9 @@ is_straight
 +
 +
 ;
+#
+if
+0
 if
 (
 seg
@@ -5081,6 +5095,8 @@ seg
 >
 min_coord
 ;
+#
+endif
 is_serif
 =
 (
@@ -6886,7 +6902,7 @@ pos
 +
 fitted_width
 ;
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -7064,7 +7080,7 @@ anchor_drift
 =
 0
 ;
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -7209,7 +7225,7 @@ edge1
 )
 continue
 ;
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -7429,7 +7445,7 @@ edge2
 blue_edge
 )
 {
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -7669,7 +7685,7 @@ edge
 opos
 )
 ;
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -7812,7 +7828,7 @@ opos
 >
 1
 ;
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -7931,7 +7947,7 @@ cur_len
 1
 )
 ;
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -7975,7 +7991,7 @@ flags
 AF_EDGE_DONE
 )
 {
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -8025,7 +8041,7 @@ cur_len
 32
 )
 {
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -8055,7 +8071,7 @@ org_right
 )
 )
 {
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -8168,7 +8184,7 @@ count
 =
 delta
 ;
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -8239,7 +8255,7 @@ count
 =
 delta
 ;
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -8306,7 +8322,7 @@ count
 =
 delta
 ;
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -8371,7 +8387,7 @@ count
 =
 delta
 ;
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -8466,7 +8482,7 @@ org_center
 best_disp
 ;
 }
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -8505,7 +8521,7 @@ pos
 +
 cur_len
 ;
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -8545,6 +8561,8 @@ and
 .
 2f
 )
+"
+"
 org_len
 =
 %
@@ -8646,7 +8664,7 @@ edge
 pos
 )
 {
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -9056,7 +9074,7 @@ serif
 edge
 )
 ;
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -9142,7 +9160,7 @@ if
 anchor
 )
 {
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -9158,6 +9176,8 @@ opos
 .
 2f
 )
+"
+"
 snapped
 to
 (
@@ -9357,7 +9377,7 @@ before
 opos
 )
 ;
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -9380,6 +9400,8 @@ to
 .
 2f
 )
+"
+"
 from
 %
 d
@@ -9458,7 +9480,7 @@ opos
 31
 )
 ;
-AF_LOG
+FT_TRACE5
 (
 (
 "
@@ -9474,6 +9496,8 @@ opos
 .
 2f
 )
+"
+"
 snapped
 to
 (
@@ -9631,7 +9655,7 @@ Exit
 ;
 #
 ifdef
-AF_USE_WARPER
+AF_CONFIG_OPTION_USE_WARPER
 if
 (
 metrics
@@ -9727,7 +9751,7 @@ dim
 {
 #
 ifdef
-AF_USE_WARPER
+AF_CONFIG_OPTION_USE_WARPER
 if
 (
 (

@@ -121,6 +121,16 @@ large
 )
 FT_ERRORDEF_
 (
+Missing_Module
+0x0B
+\
+"
+missing
+module
+"
+)
+FT_ERRORDEF_
+(
 Invalid_Glyph_Index
 0x10
 \

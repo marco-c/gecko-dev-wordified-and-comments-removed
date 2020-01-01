@@ -139,6 +139,9 @@ FT_Pointer
 gquery
 FTC_Cache
 cache
+FT_Bool
+*
+list_changed
 )
 ;
 FT_LOCAL
@@ -153,6 +156,9 @@ FT_Pointer
 gquery
 FTC_Cache
 cache
+FT_Bool
+*
+list_changed
 )
 ;
 FT_LOCAL

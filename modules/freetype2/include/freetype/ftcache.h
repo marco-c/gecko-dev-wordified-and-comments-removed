@@ -38,6 +38,9 @@ aface
 )
 ;
 #
+ifdef
+FT_CONFIG_OPTION_OLD_INTERNALS
+#
 define
 FT_POINTER_TO_ULONG
 (
@@ -88,6 +91,8 @@ i
 )
 )
 )
+#
+endif
 typedef
 struct
 FTC_ManagerRec_
@@ -347,6 +352,9 @@ d2
 flags
 )
 #
+ifdef
+FT_CONFIG_OPTION_OLD_INTERNALS
+#
 define
 FTC_IMAGE_TYPE_HASH
 (
@@ -400,6 +408,8 @@ flags
 4
 )
 )
+#
+endif
 typedef
 struct
 FTC_ImageCacheRec_

@@ -15,6 +15,7 @@ Copyright
 2000
 2001
 2003
+2011
 by
 #
 David
@@ -149,6 +150,14 @@ SMOOTH_DIR
 )
 /
 ftsmooth
+.
+c
+\
+(
+SMOOTH_DIR
+)
+/
+ftspic
 .
 c
 #

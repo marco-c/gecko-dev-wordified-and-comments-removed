@@ -159,6 +159,9 @@ FTC_Family
 family
 )
 ;
+#
+ifdef
+FTC_INLINE
 FT_LOCAL
 (
 FT_Bool
@@ -169,8 +172,15 @@ FTC_GNode
 gnode
 FTC_GQuery
 gquery
+FTC_Cache
+cache
+FT_Bool
+*
+list_changed
 )
 ;
+#
+endif
 FT_LOCAL
 (
 void
@@ -361,7 +371,7 @@ FTC_GCache_Lookup
 (
 FTC_GCache
 cache
-FT_UInt32
+FT_PtrDist
 hash
 FT_UInt
 gindex
@@ -594,6 +604,7 @@ FTC_GQUERY
 (
 query
 )
+&
 node
 )
 ;

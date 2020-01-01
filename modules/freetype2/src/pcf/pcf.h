@@ -234,10 +234,10 @@ FT_FaceRec
 root
 ;
 FT_StreamRec
-gzip_stream
+comp_stream
 ;
 FT_Stream
-gzip_source
+comp_source
 ;
 char
 *

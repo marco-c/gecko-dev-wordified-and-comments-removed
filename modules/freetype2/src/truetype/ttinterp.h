@@ -174,6 +174,9 @@ Cur_Count
 FT_Long
 Cur_Restart
 ;
+FT_Long
+Cur_End
+;
 }
 TT_CallRec
 *

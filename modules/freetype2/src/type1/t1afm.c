@@ -891,9 +891,6 @@ psaux
 if
 (
 psaux
-&
-&
-psaux
 -
 >
 afm_parser_funcs

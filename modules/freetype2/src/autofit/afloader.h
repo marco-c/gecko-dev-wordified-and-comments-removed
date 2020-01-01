@@ -1,9 +1,9 @@
 #
 ifndef
-__AF_LOADER_H__
+__AFLOADER_H__
 #
 define
-__AF_LOADER_H__
+__AFLOADER_H__
 #
 include
 "
@@ -104,7 +104,7 @@ FT_Face
 face
 FT_UInt
 gindex
-FT_UInt32
+FT_Int32
 load_flags
 )
 ;

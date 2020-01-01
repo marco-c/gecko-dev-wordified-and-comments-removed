@@ -213,6 +213,9 @@ inode
 ;
 #
 endif
+#
+ifdef
+FTC_INLINE
 FT_LOCAL
 (
 FT_Bool
@@ -225,8 +228,13 @@ FTC_GQuery
 gquery
 FTC_Cache
 cache
+FT_Bool
+*
+list_changed
 )
 ;
+#
+endif
 FT_END_HEADER
 #
 endif

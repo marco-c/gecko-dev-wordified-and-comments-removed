@@ -79,6 +79,7 @@ GET_PIC
 (
 lib
 )
+\
 (
 (
 AFModulePIC
@@ -98,6 +99,7 @@ autofit
 #
 define
 AF_SCRIPT_CLASSES_GET
+\
 (
 GET_PIC
 (
@@ -116,6 +118,7 @@ af_script_classes
 #
 define
 AF_AF_AUTOFITTER_SERVICE_GET
+\
 (
 GET_PIC
 (
@@ -125,6 +128,20 @@ library
 >
 af_autofitter_service
 )
+void
+autofit_module_class_pic_free
+(
+FT_Library
+library
+)
+;
+FT_Error
+autofit_module_class_pic_init
+(
+FT_Library
+library
+)
+;
 #
 endif
 FT_END_HEADER

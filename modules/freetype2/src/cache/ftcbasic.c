@@ -7,6 +7,9 @@ h
 >
 #
 include
+FT_INTERNAL_OBJECTS_H
+#
+include
 FT_INTERNAL_DEBUG_H
 #
 include
@@ -709,6 +712,9 @@ FT_Pointer
 ftcface_id
 FTC_Cache
 cache
+FT_Bool
+*
+list_changed
 )
 {
 FTC_GNode
@@ -740,6 +746,15 @@ family
 ;
 FT_Bool
 result
+;
+if
+(
+list_changed
+)
+*
+list_changed
+=
+FALSE
 ;
 result
 =
@@ -877,7 +892,7 @@ node
 FT_Error
 error
 ;
-FT_UInt32
+FT_PtrDist
 hash
 ;
 if
@@ -1275,7 +1290,7 @@ node
 FT_Error
 error
 ;
-FT_UInt32
+FT_PtrDist
 hash
 ;
 if
@@ -1886,7 +1901,7 @@ node
 =
 0
 ;
-FT_UInt32
+FT_PtrDist
 hash
 ;
 if
@@ -2292,7 +2307,7 @@ node
 =
 0
 ;
-FT_UInt32
+FT_PtrDist
 hash
 ;
 if

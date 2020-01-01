@@ -92,7 +92,7 @@ c
 "
 #
 ifdef
-AF_USE_WARPER
+AF_CONFIG_OPTION_USE_WARPER
 #
 include
 "

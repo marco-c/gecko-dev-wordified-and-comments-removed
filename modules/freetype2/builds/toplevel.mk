@@ -785,6 +785,14 @@ init
 (
 wildcard
 /
+dev
+/
+null
+)
+\
+(
+wildcard
+/
 hurd
 /
 auth
@@ -1304,7 +1312,7 @@ o
 -
 name
 .
-cvsignore
+gitignore
 \
 -
 o

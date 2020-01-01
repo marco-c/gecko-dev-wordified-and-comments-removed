@@ -334,6 +334,9 @@ PREFER_LWFN
 #
 endif
 #
+ifdef
+FT_MACINTOSH
+#
 if
 !
 HAVE_QUICKDRAW_CARBON
@@ -5127,3 +5130,5 @@ FT_Err_Unimplemented_Feature
 #
 endif
 }
+#
+endif

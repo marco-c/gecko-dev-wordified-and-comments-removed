@@ -106,8 +106,17 @@ module
 )
 FT_MODERRDEF
 (
-Cache
+Bzip2
 0x300
+"
+Bzip2
+module
+"
+)
+FT_MODERRDEF
+(
+Cache
+0x400
 "
 cache
 module
@@ -116,7 +125,7 @@ module
 FT_MODERRDEF
 (
 CFF
-0x400
+0x500
 "
 CFF
 module
@@ -125,7 +134,7 @@ module
 FT_MODERRDEF
 (
 CID
-0x500
+0x600
 "
 CID
 module
@@ -134,7 +143,7 @@ module
 FT_MODERRDEF
 (
 Gzip
-0x600
+0x700
 "
 Gzip
 module
@@ -143,7 +152,7 @@ module
 FT_MODERRDEF
 (
 LZW
-0x700
+0x800
 "
 LZW
 module
@@ -152,7 +161,7 @@ module
 FT_MODERRDEF
 (
 OTvalid
-0x800
+0x900
 "
 OpenType
 validation
@@ -162,7 +171,7 @@ module
 FT_MODERRDEF
 (
 PCF
-0x900
+0xA00
 "
 PCF
 module
@@ -171,7 +180,7 @@ module
 FT_MODERRDEF
 (
 PFR
-0xA00
+0xB00
 "
 PFR
 module
@@ -180,7 +189,7 @@ module
 FT_MODERRDEF
 (
 PSaux
-0xB00
+0xC00
 "
 PS
 auxiliary
@@ -190,7 +199,7 @@ module
 FT_MODERRDEF
 (
 PShinter
-0xC00
+0xD00
 "
 PS
 hinter
@@ -200,7 +209,7 @@ module
 FT_MODERRDEF
 (
 PSnames
-0xD00
+0xE00
 "
 PS
 names
@@ -210,7 +219,7 @@ module
 FT_MODERRDEF
 (
 Raster
-0xE00
+0xF00
 "
 raster
 module
@@ -219,7 +228,7 @@ module
 FT_MODERRDEF
 (
 SFNT
-0xF00
+0x1000
 "
 SFNT
 module
@@ -228,7 +237,7 @@ module
 FT_MODERRDEF
 (
 Smooth
-0x1000
+0x1100
 "
 smooth
 raster
@@ -238,7 +247,7 @@ module
 FT_MODERRDEF
 (
 TrueType
-0x1100
+0x1200
 "
 TrueType
 module
@@ -247,7 +256,7 @@ module
 FT_MODERRDEF
 (
 Type1
-0x1200
+0x1300
 "
 Type
 1
@@ -257,7 +266,7 @@ module
 FT_MODERRDEF
 (
 Type42
-0x1300
+0x1400
 "
 Type
 42
@@ -267,7 +276,7 @@ module
 FT_MODERRDEF
 (
 Winfonts
-0x1400
+0x1500
 "
 Windows
 FON

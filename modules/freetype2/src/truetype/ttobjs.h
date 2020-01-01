@@ -191,6 +191,9 @@ range
 FT_Long
 start
 ;
+FT_Long
+end
+;
 FT_UInt
 opc
 ;
@@ -421,6 +424,8 @@ tt_size_run_fpgm
 (
 TT_Size
 size
+FT_Bool
+pedantic
 )
 ;
 FT_LOCAL
@@ -431,6 +436,8 @@ tt_size_run_prep
 (
 TT_Size
 size
+FT_Bool
+pedantic
 )
 ;
 FT_LOCAL
@@ -441,6 +448,8 @@ tt_size_ready_bytecode
 (
 TT_Size
 size
+FT_Bool
+pedantic
 )
 ;
 #

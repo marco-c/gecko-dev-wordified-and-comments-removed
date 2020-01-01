@@ -185,6 +185,10 @@ NULL
 PS_GetFontPrivateFunc
 )
 NULL
+(
+PS_GetFontValueFunc
+)
+NULL
 }
 ;
 static

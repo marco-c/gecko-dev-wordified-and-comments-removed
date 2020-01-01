@@ -163,6 +163,16 @@ array_max
 FT_UInt
 count_offset
 ;
+#
+ifdef
+FT_DEBUG_LEVEL_TRACE
+const
+char
+*
+id
+;
+#
+endif
 }
 CFF_Field_Handler
 ;

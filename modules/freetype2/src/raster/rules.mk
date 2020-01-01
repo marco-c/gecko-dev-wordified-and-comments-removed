@@ -16,6 +16,7 @@ Copyright
 2003
 2008
 2009
+2011
 by
 #
 David
@@ -150,6 +151,14 @@ RASTER_DIR
 )
 /
 ftrend1
+.
+c
+\
+(
+RASTER_DIR
+)
+/
+rastpic
 .
 c
 #

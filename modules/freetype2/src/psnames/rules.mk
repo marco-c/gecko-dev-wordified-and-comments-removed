@@ -14,6 +14,7 @@ Copyright
 2000
 2001
 2003
+2011
 by
 #
 David
@@ -142,6 +143,14 @@ PSNAMES_DIR
 psmodule
 .
 c
+\
+(
+PSNAMES_DIR
+)
+/
+pspic
+.
+c
 #
 PSNames
 driver
@@ -166,7 +175,7 @@ h
 PSNAMES_DIR
 )
 /
-pstables
+psnamerr
 .
 h
 \
@@ -174,7 +183,7 @@ h
 PSNAMES_DIR
 )
 /
-psnamerr
+pstables
 .
 h
 #

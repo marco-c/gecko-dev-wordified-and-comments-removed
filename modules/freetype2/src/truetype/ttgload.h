@@ -51,8 +51,6 @@ TT_Face
 face
 FT_UInt
 idx
-FT_Bool
-check
 FT_Short
 *
 lsb
@@ -71,8 +69,6 @@ TT_Face
 face
 FT_UInt
 idx
-FT_Bool
-check
 FT_Short
 *
 tsb

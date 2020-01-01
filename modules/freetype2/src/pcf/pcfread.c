@@ -1380,6 +1380,8 @@ props
 ;
 PCF_Property
 properties
+=
+NULL
 ;
 FT_ULong
 nprops
@@ -1766,6 +1768,8 @@ FT_NEW_ARRAY
 (
 strings
 string_size
++
+1
 )
 )
 goto
@@ -2511,6 +2515,8 @@ memory
 FT_Long
 *
 offsets
+=
+NULL
 ;
 FT_Long
 bitmapSizes
@@ -3058,6 +3064,8 @@ j
 ;
 PCF_Encoding
 tmpEncoding
+=
+NULL
 encoding
 =
 0

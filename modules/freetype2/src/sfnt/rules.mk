@@ -19,6 +19,7 @@ Copyright
 2006
 2007
 2009
+2011
 by
 #
 David
@@ -209,6 +210,14 @@ SFNT_DIR
 )
 /
 sfdriver
+.
+c
+\
+(
+SFNT_DIR
+)
+/
+sfntpic
 .
 c
 #

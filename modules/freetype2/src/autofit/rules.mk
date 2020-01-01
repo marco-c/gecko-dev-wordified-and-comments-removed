@@ -16,6 +16,7 @@ Copyright
 2005
 2006
 2007
+2011
 by
 #
 David
@@ -213,6 +214,14 @@ c
 AUTOF_DIR
 )
 /
+afpic
+.
+c
+\
+(
+AUTOF_DIR
+)
+/
 afwarp
 .
 c
@@ -238,7 +247,7 @@ h
 AUTOF_DIR
 )
 /
-aftypes
+aferrors
 .
 h
 \
@@ -246,7 +255,7 @@ h
 AUTOF_DIR
 )
 /
-aferrors
+aftypes
 .
 h
 #

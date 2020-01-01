@@ -3194,11 +3194,9 @@ return
 ;
 }
 return
-(
 n
-%
-2
-)
+&
+1
 ;
 }
 static

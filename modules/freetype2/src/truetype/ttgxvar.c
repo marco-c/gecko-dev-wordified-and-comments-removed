@@ -137,6 +137,8 @@ point_cnt
 FT_UShort
 *
 points
+=
+NULL
 ;
 FT_Int
 n
@@ -1859,6 +1861,8 @@ j
 FT_MM_Var
 *
 mmvar
+=
+NULL
 ;
 FT_Fixed
 *
@@ -4640,6 +4644,8 @@ blend
 FT_Vector
 *
 delta_xy
+=
+NULL
 ;
 FT_Error
 error
@@ -5311,6 +5317,18 @@ point_count
 j
 )
 {
+if
+(
+localpoints
+[
+j
+]
+>
+=
+n_points
+)
+continue
+;
 delta_xy
 [
 localpoints

@@ -143,6 +143,14 @@ init
 (
 wildcard
 /
+dev
+/
+null
+)
+\
+(
+wildcard
+/
 hurd
 /
 auth

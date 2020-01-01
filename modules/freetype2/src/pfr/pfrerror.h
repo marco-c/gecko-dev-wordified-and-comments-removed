@@ -11,6 +11,9 @@ FT_MODULE_ERRORS_H
 undef
 __FTERRORS_H__
 #
+undef
+FT_ERR_PREFIX
+#
 define
 FT_ERR_PREFIX
 PFR_Err_

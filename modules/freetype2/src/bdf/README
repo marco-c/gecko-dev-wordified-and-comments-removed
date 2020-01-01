@@ -102,13 +102,13 @@ adobe
 .
 com
 /
-asn
+public
 /
 developer
 /
-PDFS
+en
 /
-TN
+font
 /
 5005
 .
@@ -893,6 +893,7 @@ Copyright
 2001
 -
 2002
+2011
 Francesco
 Zappa
 Nardelli
