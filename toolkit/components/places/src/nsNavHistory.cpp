@@ -15940,7 +15940,7 @@ PR_NormalizeTime
 (
 &
 tm
-PR_LocalTimeParameters
+PR_GMTParameters
 )
 ;
 history
