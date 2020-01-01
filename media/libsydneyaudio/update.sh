@@ -64,17 +64,3 @@ AUTHORS
 .
 /
 AUTHORS
-patch
--
-p3
-<
-469698_mac_stream_endian
-.
-patch
-patch
--
-p3
-<
-478299_zeromem_sa_stream
-.
-patch
