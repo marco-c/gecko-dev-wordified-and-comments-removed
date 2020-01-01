@@ -5402,7 +5402,7 @@ if
 !
 shadowContext
 )
-return
+continue
 ;
 nscolor
 shadowColor
