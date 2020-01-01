@@ -3897,9 +3897,11 @@ attrs
 ;
 mDisplayDensity
 =
-GeckoApp
+context
 .
-mAppContext
+getResources
+(
+)
 .
 getDisplayMetrics
 (

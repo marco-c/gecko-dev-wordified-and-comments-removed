@@ -184,6 +184,10 @@ boolean
 mLayerRendererInitialized
 ;
 private
+Context
+mContext
+;
+private
 IntSize
 mScreenSize
 ;
@@ -243,6 +247,10 @@ Context
 context
 )
 {
+mContext
+=
+context
+;
 mScreenSize
 =
 new
@@ -560,9 +568,11 @@ force
 DisplayMetrics
 metrics
 =
-GeckoApp
+mContext
 .
-mAppContext
+getResources
+(
+)
 .
 getDisplayMetrics
 (
