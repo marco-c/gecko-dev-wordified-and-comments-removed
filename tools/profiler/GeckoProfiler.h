@@ -168,9 +168,12 @@ false
 static
 inline
 void
-profiler_responsinveness
+profiler_responsiveness
 (
 const
+mozilla
+:
+:
 TimeStamp
 &
 aTime
@@ -192,7 +195,7 @@ nullptr
 static
 inline
 void
-profile_set_frame_number
+profiler_set_frame_number
 (
 int
 frameNumber
