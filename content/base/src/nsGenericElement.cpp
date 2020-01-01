@@ -9019,8 +9019,6 @@ aNodeInfo
 {
 SetFlags
 (
-NODE_IS_ELEMENT
-|
 (
 nsIProgrammingLanguage
 :
@@ -9030,6 +9028,10 @@ JAVASCRIPT
 <
 NODE_SCRIPT_TYPE_OFFSET
 )
+)
+;
+SetIsElement
+(
 )
 ;
 }
