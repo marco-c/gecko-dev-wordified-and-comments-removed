@@ -1052,6 +1052,10 @@ test_meta_viewport6
 .
 html
 \
+viewport_helpers
+.
+js
+\
 test_mutationobservers
 .
 html
