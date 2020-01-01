@@ -1034,7 +1034,7 @@ else
 _TEST_FILES
 +
 =
-test_autocomplete
+test_autocomplete_mac_caret
 .
 xul
 endif

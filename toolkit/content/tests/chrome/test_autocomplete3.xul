@@ -1215,14 +1215,6 @@ autoCompleteSimpleID
 autoCompleteSimple
 )
 ;
-autocomplete
-.
-controller
-.
-stopSearch
-(
-)
-;
 SimpleTest
 .
 finish
