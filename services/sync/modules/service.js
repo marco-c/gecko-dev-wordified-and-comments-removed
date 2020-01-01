@@ -4523,12 +4523,14 @@ CREDENTIALS_CHANGED
 ;
 }
 else
+{
 Status
 .
 login
 =
-LOGIN_FAILED_NETWORK_ERROR
+LOGIN_FAILED
 ;
+}
 return
 false
 ;
