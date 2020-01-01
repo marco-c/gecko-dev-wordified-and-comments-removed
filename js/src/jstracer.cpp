@@ -74672,8 +74672,12 @@ MISMATCH_EXIT
 guardClass
 (
 obj_ins
-&
-js_ArgumentsClass
+obj
+-
+>
+getClass
+(
+)
 exit
 LOAD_CONST
 )
