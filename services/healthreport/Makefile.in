@@ -172,14 +172,6 @@ js
 (
 NULL
 )
-PREF_JS_EXPORTS
-:
-=
-healthreport
--
-prefs
-.
-js
 include
 (
 topsrcdir
