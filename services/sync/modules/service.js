@@ -709,6 +709,10 @@ username
 "
 "
 )
+.
+toLowerCase
+(
+)
 ;
 }
 set
@@ -721,6 +725,15 @@ if
 (
 value
 )
+{
+value
+=
+value
+.
+toLowerCase
+(
+)
+;
 Svc
 .
 Prefs
@@ -733,6 +746,7 @@ username
 value
 )
 ;
+}
 else
 Svc
 .
