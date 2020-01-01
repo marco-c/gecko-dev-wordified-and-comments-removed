@@ -1660,7 +1660,7 @@ else
 if
 (
 !
-TabItems
+UI
 .
 creatingNewOrphanTab
 )
@@ -2711,6 +2711,12 @@ group
 .
 newTab
 (
+null
+{
+closedLastTab
+:
+true
+}
 )
 ;
 }
@@ -3114,6 +3120,15 @@ parent
 .
 collapse
 (
+)
+;
+self
+.
+_sendToSubscribers
+(
+"
+zoomedIn
+"
 )
 ;
 }
@@ -3746,9 +3761,6 @@ _eventListeners
 [
 ]
 _pauseUpdateForTest
-:
-false
-creatingNewOrphanTab
 :
 false
 tempCanvas
