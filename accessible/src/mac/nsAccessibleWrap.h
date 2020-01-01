@@ -195,14 +195,12 @@ nsAccessibleWrap
 aChildrenArray
 )
 ;
-virtual
-already_AddRefed
-<
-nsIAccessible
->
+nsAccessible
+*
 GetUnignoredParent
 (
 )
+const
 ;
 protected
 :
