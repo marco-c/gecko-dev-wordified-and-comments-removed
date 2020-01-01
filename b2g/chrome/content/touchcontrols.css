@@ -680,10 +680,12 @@ background
 :
 url
 (
+"
 chrome
 :
 /
 /
+browser
 /
 content
 /
@@ -692,6 +694,7 @@ images
 throbber
 .
 png
+"
 )
 no
 -
@@ -713,11 +716,12 @@ background
 :
 url
 (
+"
 chrome
 :
 /
 /
-global
+browser
 /
 content
 /
@@ -726,6 +730,7 @@ images
 error
 .
 png
+"
 )
 no
 -

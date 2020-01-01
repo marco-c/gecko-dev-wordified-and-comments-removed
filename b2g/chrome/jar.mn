@@ -500,7 +500,7 @@ content
 /
 images
 /
-error
+throbber
 .
 png
 )
@@ -516,7 +516,7 @@ content
 /
 images
 /
-throbber
+error
 .
 png
 )
