@@ -86,9 +86,6 @@ proxyPort
 _result
 securityInfo
 PR_FALSE
-flags
-&
-ANONYMOUS_CONNECT
 )
 ;
 return
@@ -148,9 +145,6 @@ proxyPort
 aSocket
 securityInfo
 PR_FALSE
-flags
-&
-ANONYMOUS_CONNECT
 )
 ;
 return
