@@ -43,7 +43,7 @@ public
 :
 NoWaiverWrapper
 (
-uintN
+unsigned
 flags
 )
 ;
@@ -102,7 +102,7 @@ public
 :
 CrossOriginWrapper
 (
-uintN
+unsigned
 flags
 )
 ;
@@ -192,7 +192,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 argc
 js
 :
@@ -213,7 +213,7 @@ cx
 JSObject
 *
 wrapper
-uintN
+unsigned
 argc
 js
 :

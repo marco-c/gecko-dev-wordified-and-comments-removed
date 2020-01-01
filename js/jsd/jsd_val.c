@@ -1631,7 +1631,7 @@ jsdc
 JSPropertyDesc
 *
 pd
-uintN
+unsigned
 additionalFlags
 )
 {
@@ -1901,7 +1901,7 @@ obj
 JSPropertyDescArray
 pda
 ;
-uintN
+unsigned
 i
 ;
 JSCrossCompartmentCall
@@ -2319,7 +2319,7 @@ flags
 0
 ;
 }
-uintN
+unsigned
 jsd_GetCountOfProperties
 (
 JSDContext
@@ -2334,7 +2334,7 @@ JSDProperty
 *
 jsdprop
 ;
-uintN
+unsigned
 count
 =
 0
@@ -2577,7 +2577,7 @@ JSObject
 *
 obj
 ;
-uintN
+unsigned
 attrs
 =
 0
@@ -2657,7 +2657,7 @@ if
 propName
 )
 {
-intN
+int
 result
 ;
 if
@@ -4040,7 +4040,7 @@ jsdprop
 alias
 ;
 }
-uintN
+unsigned
 jsd_GetPropertyFlags
 (
 JSDContext
@@ -4058,7 +4058,7 @@ jsdprop
 flags
 ;
 }
-uintN
+unsigned
 jsd_GetPropertyVarArgSlot
 (
 JSDContext

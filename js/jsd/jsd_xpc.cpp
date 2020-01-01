@@ -2289,7 +2289,7 @@ desc
 ;
 }
 static
-uintN
+unsigned
 jsds_ErrorHookProc
 (
 JSDContext
@@ -2550,7 +2550,7 @@ jsdc
 JSDThreadState
 *
 jsdthreadstate
-uintN
+unsigned
 type
 void
 *
@@ -2717,7 +2717,7 @@ jsdc
 JSDThreadState
 *
 jsdthreadstate
-uintN
+unsigned
 type
 void
 *
@@ -4307,7 +4307,7 @@ if
 fun
 )
 {
-uintN
+unsigned
 nargs
 ;
 {
@@ -5476,7 +5476,7 @@ fun
 return
 NS_ERROR_FAILURE
 ;
-uintN
+unsigned
 nargs
 ;
 if
@@ -5587,7 +5587,7 @@ NS_OK
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -6512,7 +6512,7 @@ mScript
 0
 )
 ;
-uintN
+unsigned
 lastLine
 =
 JSD_GetScriptBaseLineNumber

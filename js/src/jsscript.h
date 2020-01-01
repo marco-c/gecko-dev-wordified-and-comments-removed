@@ -525,7 +525,7 @@ return
 nupvars
 ;
 }
-uintN
+unsigned
 countArgsAndVars
 (
 )
@@ -537,7 +537,7 @@ nargs
 nvars
 ;
 }
-uintN
+unsigned
 countLocalNames
 (
 )
@@ -799,7 +799,7 @@ cx
 JSAtom
 *
 name
-uintN
+unsigned
 *
 indexp
 )
@@ -2701,7 +2701,7 @@ CellSize
 ;
 static
 JS_INLINE
-uintN
+unsigned
 StackDepth
 (
 JSScript
@@ -2889,7 +2889,7 @@ pc
 )
 ;
 extern
-uintN
+unsigned
 js_PCToLineNumber
 (
 JSContext
@@ -2911,14 +2911,14 @@ js_LineNumberToPC
 JSScript
 *
 script
-uintN
+unsigned
 lineno
 )
 ;
 extern
 JS_FRIEND_API
 (
-uintN
+unsigned
 )
 js_GetScriptLineExtent
 (
@@ -2931,7 +2931,7 @@ namespace
 js
 {
 extern
-uintN
+unsigned
 CurrentLine
 (
 JSContext
@@ -2953,7 +2953,7 @@ CurrentScriptFileLineOrigin
 JSContext
 *
 cx
-uintN
+unsigned
 *
 linenop
 LineOption

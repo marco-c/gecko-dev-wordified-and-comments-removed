@@ -1338,11 +1338,11 @@ BaseShape
 base
 uint32_t
 aslot
-uintN
+unsigned
 aattrs
-uintN
+unsigned
 aflags
-intN
+int
 ashortid
 )
 const

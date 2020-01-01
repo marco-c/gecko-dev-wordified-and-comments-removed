@@ -381,7 +381,7 @@ pc
 )
 ;
 }
-uintN
+unsigned
 index
 ;
 BindingKind

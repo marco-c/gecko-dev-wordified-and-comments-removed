@@ -157,13 +157,13 @@ atom4
 #
 endif
 static
-intN
+int
 _atom_smasher
 (
 JSHashEntry
 *
 he
-intN
+int
 i
 void
 *
@@ -248,7 +248,7 @@ HT_ENUMERATE_NEXT
 ;
 }
 static
-intN
+int
 _compareAtomKeys
 (
 const
@@ -283,7 +283,7 @@ v2
 ;
 }
 static
-intN
+int
 _compareAtoms
 (
 const

@@ -6516,7 +6516,7 @@ exceptn
 )
 ;
 }
-uintN
+unsigned
 ignored
 ;
 JSBool

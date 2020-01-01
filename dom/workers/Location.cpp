@@ -349,7 +349,7 @@ Construct
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -416,7 +416,7 @@ ToString
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *

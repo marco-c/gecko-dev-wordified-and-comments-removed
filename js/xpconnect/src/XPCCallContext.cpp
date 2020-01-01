@@ -39,7 +39,7 @@ JSObject
 funobj
 jsid
 name
-uintN
+unsigned
 argc
 jsval
 *
@@ -220,7 +220,7 @@ WrapperInitOptions
 wrapperInitOptions
 jsid
 name
-uintN
+unsigned
 argc
 jsval
 *
@@ -852,7 +852,7 @@ XPCCallContext
 :
 SetArgsAndResultPtr
 (
-uintN
+unsigned
 argc
 jsval
 *

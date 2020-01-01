@@ -999,7 +999,7 @@ char
 *
 locale
 const
-uintN
+unsigned
 errorNumber
 )
 ;
@@ -2105,7 +2105,7 @@ Cast
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -2118,7 +2118,7 @@ GetRuntime
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *

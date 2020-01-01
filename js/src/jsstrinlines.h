@@ -310,7 +310,7 @@ JSAtom
 *
 atomize
 (
-uintN
+unsigned
 flags
 =
 0
@@ -328,7 +328,7 @@ const
 CharBuffer
 &
 cb
-uintN
+unsigned
 flags
 =
 0
@@ -348,7 +348,7 @@ jschar
 begin
 size_t
 length
-uintN
+unsigned
 flags
 =
 0

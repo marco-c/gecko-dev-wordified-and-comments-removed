@@ -2478,7 +2478,7 @@ global
 )
 ;
 }
-uintN
+unsigned
 attrs
 =
 fp
@@ -7392,7 +7392,7 @@ ATOM_TO_JSID
 name
 )
 ;
-uintN
+unsigned
 defineHow
 =
 (
@@ -10054,7 +10054,7 @@ PropertyName
 dn
 )
 {
-uintN
+unsigned
 attrs
 =
 JSPROP_ENUMERATE

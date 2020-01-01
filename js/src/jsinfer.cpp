@@ -16520,7 +16520,7 @@ return
 access
 ;
 }
-uintN
+unsigned
 index
 ;
 BindingKind

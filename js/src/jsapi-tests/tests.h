@@ -1598,7 +1598,7 @@ print
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1617,7 +1617,7 @@ vp
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0

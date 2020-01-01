@@ -11,13 +11,5 @@ jstypes
 .
 h
 "
-typedef
-int
-intN
-;
-typedef
-unsigned
-uintN
-;
 #
 endif

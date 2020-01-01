@@ -349,7 +349,7 @@ CallObject
 :
 arg
 (
-uintN
+unsigned
 i
 )
 const
@@ -382,7 +382,7 @@ CallObject
 :
 setArg
 (
-uintN
+unsigned
 i
 const
 Value
@@ -418,7 +418,7 @@ CallObject
 :
 initArgUnchecked
 (
-uintN
+unsigned
 i
 const
 Value
@@ -456,7 +456,7 @@ CallObject
 :
 var
 (
-uintN
+unsigned
 i
 )
 const
@@ -532,7 +532,7 @@ CallObject
 :
 setVar
 (
-uintN
+unsigned
 i
 const
 Value
@@ -611,7 +611,7 @@ CallObject
 :
 initVarUnchecked
 (
-uintN
+unsigned
 i
 const
 Value
@@ -690,12 +690,12 @@ CallObject
 :
 copyValues
 (
-uintN
+unsigned
 nargs
 Value
 *
 argv
-uintN
+unsigned
 nvars
 Value
 *

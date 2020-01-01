@@ -286,7 +286,7 @@ return
 true
 ;
 }
-intN
+int
 argc
 ;
 JSNative
@@ -330,7 +330,7 @@ false
 argc
 =
 (
-intN
+int
 )
 info
 -

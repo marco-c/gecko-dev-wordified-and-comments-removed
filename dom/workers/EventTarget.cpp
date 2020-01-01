@@ -213,7 +213,7 @@ Construct
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -480,7 +480,7 @@ AddEventListener
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -633,7 +633,7 @@ RemoveEventListener
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -780,7 +780,7 @@ DispatchEvent
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *

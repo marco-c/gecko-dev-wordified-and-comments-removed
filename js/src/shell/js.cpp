@@ -780,7 +780,7 @@ char
 *
 locale
 const
-uintN
+unsigned
 errorNumber
 )
 ;
@@ -2846,7 +2846,7 @@ Version
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -3017,7 +3017,7 @@ RevertVersion
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -3047,7 +3047,7 @@ Options
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -3085,7 +3085,7 @@ vp
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -3323,7 +3323,7 @@ Load
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -3360,7 +3360,7 @@ vp
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -3508,7 +3508,7 @@ EvaluateWithLocation
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -3787,7 +3787,7 @@ Evaluate
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -4552,7 +4552,7 @@ Run
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -4817,7 +4817,7 @@ ReadLine
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5132,7 +5132,7 @@ PutStr
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5238,7 +5238,7 @@ Now
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5278,7 +5278,7 @@ PrintInternal
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5292,7 +5292,7 @@ jsval
 *
 argv
 ;
-uintN
+unsigned
 i
 ;
 JSString
@@ -5419,7 +5419,7 @@ Print
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5443,7 +5443,7 @@ PrintErr
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5467,7 +5467,7 @@ Help
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5481,7 +5481,7 @@ Quit
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5620,7 +5620,7 @@ AssertEq
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5849,7 +5849,7 @@ AssertJit
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5943,7 +5943,7 @@ GC
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -6191,7 +6191,7 @@ GCParameter
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -6553,7 +6553,7 @@ InternalConst
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -6679,7 +6679,7 @@ GCZeal
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -6810,7 +6810,7 @@ ScheduleGC
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -6919,7 +6919,7 @@ VerifyBarriers
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -6950,7 +6950,7 @@ GCSlice
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -7335,7 +7335,7 @@ CountHeap
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -7881,7 +7881,7 @@ MakeFinalizeObserver
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -7931,7 +7931,7 @@ FinalizeCount
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -8131,7 +8131,7 @@ SetDebug
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -8218,7 +8218,7 @@ GetScriptAndPCArgs
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -8267,7 +8267,7 @@ argv
 0
 ]
 ;
-uintN
+unsigned
 intarg
 =
 0
@@ -8500,7 +8500,7 @@ Trap
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -8657,7 +8657,7 @@ Untrap
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -8763,7 +8763,7 @@ SetDebuggerHandler
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -8848,7 +8848,7 @@ SetThrowHook
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -8933,7 +8933,7 @@ LineToPC
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -9108,7 +9108,7 @@ PCToLine
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -9122,7 +9122,7 @@ script
 int32_t
 i
 ;
-uintN
+unsigned
 lineno
 ;
 if
@@ -9193,12 +9193,12 @@ cx
 JSScript
 *
 script
-uintN
+unsigned
 offset
-uintN
+unsigned
 *
 start
-uintN
+unsigned
 *
 end
 )
@@ -9334,7 +9334,7 @@ return
 start
 =
 (
-uintN
+unsigned
 )
 (
 pc
@@ -9352,7 +9352,7 @@ end
 start
 +
 (
-uintN
+unsigned
 )
 (
 n
@@ -9471,12 +9471,12 @@ n
 "
 )
 ;
-uintN
+unsigned
 offset
 =
 0
 ;
-uintN
+unsigned
 lineno
 =
 script
@@ -9495,7 +9495,7 @@ notes
 (
 )
 ;
-uintN
+unsigned
 switchTableEnd
 =
 0
@@ -9525,7 +9525,7 @@ sn
 )
 )
 {
-uintN
+unsigned
 delta
 =
 SN_DELTA
@@ -9634,7 +9634,7 @@ sp
 -
 8s
 "
-uintN
+unsigned
 (
 sn
 -
@@ -9701,7 +9701,7 @@ tail
 %
 u
 "
-uintN
+unsigned
 (
 js_GetSrcNoteOffset
 (
@@ -9709,7 +9709,7 @@ sn
 0
 )
 )
-uintN
+unsigned
 (
 js_GetSrcNoteOffset
 (
@@ -9717,7 +9717,7 @@ sn
 1
 )
 )
-uintN
+unsigned
 (
 js_GetSrcNoteOffset
 (
@@ -9743,7 +9743,7 @@ elseif
 %
 u
 "
-uintN
+unsigned
 (
 js_GetSrcNoteOffset
 (
@@ -9751,7 +9751,7 @@ sn
 0
 )
 )
-uintN
+unsigned
 (
 js_GetSrcNoteOffset
 (
@@ -9789,7 +9789,7 @@ offset
 %
 u
 "
-uintN
+unsigned
 (
 js_GetSrcNoteOffset
 (
@@ -10041,7 +10041,7 @@ length
 %
 u
 "
-uintN
+unsigned
 (
 js_GetSrcNoteOffset
 (
@@ -10051,11 +10051,11 @@ sn
 )
 )
 ;
-uintN
+unsigned
 caseOff
 =
 (
-uintN
+unsigned
 )
 js_GetSrcNoteOffset
 (
@@ -10100,7 +10100,7 @@ SRC_CATCH
 delta
 =
 (
-uintN
+unsigned
 )
 js_GetSrcNoteOffset
 (
@@ -10178,7 +10178,7 @@ Notes
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -10215,7 +10215,7 @@ vp
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -10700,7 +10700,7 @@ upvars
 (
 )
 ;
-uintN
+unsigned
 upvar_base
 =
 script
@@ -10886,7 +10886,7 @@ objects
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -10985,7 +10985,7 @@ namespace
 struct
 DisassembleOptionParser
 {
-uintN
+unsigned
 argc
 ;
 jsval
@@ -11000,7 +11000,7 @@ recursive
 ;
 DisassembleOptionParser
 (
-uintN
+unsigned
 argc
 jsval
 *
@@ -11135,7 +11135,7 @@ DisassembleToString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -11266,7 +11266,7 @@ else
 {
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -11375,7 +11375,7 @@ Disassemble
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -11506,7 +11506,7 @@ else
 {
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -11606,7 +11606,7 @@ DisassFile
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -11841,7 +11841,7 @@ DisassWithSrc
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -11852,7 +11852,7 @@ vp
 define
 LINE_BUF_LEN
 512
-uintN
+unsigned
 i
 len
 line1
@@ -12367,7 +12367,7 @@ FILE
 fp
 )
 {
-uintN
+unsigned
 i
 =
 0
@@ -12432,7 +12432,7 @@ DumpStats
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -12451,7 +12451,7 @@ vp
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -12607,7 +12607,7 @@ DumpHeap
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -13112,7 +13112,7 @@ DumpObject
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -13171,7 +13171,7 @@ DumpStack
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -13944,7 +13944,7 @@ ConvertArgs
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -14310,7 +14310,7 @@ BuildDate
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -14384,7 +14384,7 @@ Clear
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -14467,7 +14467,7 @@ Intern
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -14557,7 +14557,7 @@ Clone
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -14889,7 +14889,7 @@ GetPDA
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -15192,7 +15192,7 @@ GetSLX
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -15251,7 +15251,7 @@ ToInt32
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -15301,7 +15301,7 @@ StringsAreUTF8
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -15399,7 +15399,7 @@ TestUTF8
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -15552,7 +15552,7 @@ ThrowError
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -15665,7 +15665,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -15911,7 +15911,7 @@ EvalInContext
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -16129,7 +16129,7 @@ rval
 JSAutoEnterCompartment
 ac
 ;
-uintN
+unsigned
 flags
 ;
 JSObject
@@ -16287,7 +16287,7 @@ EvalInFrame
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -16594,7 +16594,7 @@ ShapeOf
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -16706,7 +16706,7 @@ JSObject
 referent
 jsid
 id
-uintN
+unsigned
 lookupFlags
 JSObject
 *
@@ -16721,7 +16721,7 @@ prop
 PropertyDescriptor
 desc
 ;
-uintN
+unsigned
 propFlags
 =
 0
@@ -17142,7 +17142,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -17303,7 +17303,7 @@ Resolver
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -17431,7 +17431,7 @@ Sleep_fn
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -18406,7 +18406,7 @@ Timeout
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -18494,7 +18494,7 @@ Elapsed
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -18571,7 +18571,7 @@ Parent
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -18876,7 +18876,7 @@ Compile
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -19014,7 +19014,7 @@ JSVAL_TO_STRING
 arg0
 )
 ;
-uintN
+unsigned
 oldopts
 =
 JS_GetOptions
@@ -19080,7 +19080,7 @@ Parse
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -19345,7 +19345,7 @@ Snarf
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -19620,7 +19620,7 @@ Wrap
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -19732,7 +19732,7 @@ Serialize
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -19884,7 +19884,7 @@ Deserialize
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -20081,7 +20081,7 @@ MJitCodeStats
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -20189,7 +20189,7 @@ MJitChunkLimit
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -20305,7 +20305,7 @@ NewGlobal
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -20477,7 +20477,7 @@ ParseLegacyJSON
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -20588,7 +20588,7 @@ EnableStackWalkingAssertion
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -20672,7 +20672,7 @@ GetMaxArgs
 JSContext
 *
 cx
-uintN
+unsigned
 arg
 jsval
 *
@@ -20703,7 +20703,7 @@ Terminate
 JSContext
 *
 cx
-uintN
+unsigned
 arg
 jsval
 *
@@ -23861,14 +23861,14 @@ Help
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
 vp
 )
 {
-uintN
+unsigned
 i
 j
 ;
@@ -24956,7 +24956,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -25422,7 +25422,7 @@ char
 *
 locale
 const
-uintN
+unsigned
 errorNumber
 )
 {
@@ -25976,7 +25976,7 @@ Exec
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -25995,7 +25995,7 @@ name
 *
 nargv
 ;
-uintN
+unsigned
 i
 nargc
 ;
@@ -26355,7 +26355,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -27102,7 +27102,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *

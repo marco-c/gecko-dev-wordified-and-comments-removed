@@ -313,7 +313,7 @@ JSStackFrame
 fp
 JSBool
 before
-uintN
+unsigned
 type
 JSD_CallHookProc
 hook

@@ -197,7 +197,7 @@ pool
 JSHashEntry
 *
 he
-uintN
+unsigned
 flag
 )
 {

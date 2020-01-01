@@ -1476,7 +1476,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -3153,7 +3153,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -3180,7 +3180,7 @@ CallToGetPropMapper
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -3216,7 +3216,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -3236,7 +3236,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *

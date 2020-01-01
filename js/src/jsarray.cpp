@@ -900,9 +900,9 @@ JSObject
 :
 willBeSparseDenseArray
 (
-uintN
+unsigned
 requiredCapacity
-uintN
+unsigned
 newElementsHint
 )
 {
@@ -920,7 +920,7 @@ requiredCapacity
 MIN_SPARSE_INDEX
 )
 ;
-uintN
+unsigned
 cap
 =
 getDenseArrayCapacity
@@ -948,7 +948,7 @@ NELEMENTS_LIMIT
 return
 true
 ;
-uintN
+unsigned
 minimalDenseCount
 =
 requiredCapacity
@@ -979,7 +979,7 @@ cap
 return
 true
 ;
-uintN
+unsigned
 len
 =
 getDenseArrayInitializedLength
@@ -997,7 +997,7 @@ getDenseArrayElements
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -4536,7 +4536,7 @@ JSPropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 {
@@ -4755,7 +4755,7 @@ JSPropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 {
@@ -4797,7 +4797,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 {
@@ -5001,7 +5001,7 @@ PropertyOp
 getter
 StrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 {
@@ -5033,7 +5033,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 *
 attrsp
 )
@@ -5076,7 +5076,7 @@ obj
 PropertyName
 *
 name
-uintN
+unsigned
 *
 attrsp
 )
@@ -5119,7 +5119,7 @@ JSObject
 obj
 uint32_t
 index
-uintN
+unsigned
 *
 attrsp
 )
@@ -5145,7 +5145,7 @@ JSObject
 obj
 SpecialId
 sid
-uintN
+unsigned
 *
 attrsp
 )
@@ -5171,7 +5171,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 *
 attrsp
 )
@@ -5201,7 +5201,7 @@ obj
 PropertyName
 *
 name
-uintN
+unsigned
 *
 attrsp
 )
@@ -5230,7 +5230,7 @@ JSObject
 obj
 uint32_t
 index
-uintN
+unsigned
 *
 attrsp
 )
@@ -5259,7 +5259,7 @@ JSObject
 obj
 SpecialId
 sid
-uintN
+unsigned
 *
 attrsp
 )
@@ -6335,7 +6335,7 @@ array_toSource
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -7440,7 +7440,7 @@ array_toString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -7639,7 +7639,7 @@ array_toLocaleString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -8419,7 +8419,7 @@ array_join
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -8546,7 +8546,7 @@ array_reverse
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -9917,7 +9917,7 @@ array_sort
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -11143,7 +11143,7 @@ array_push
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -11483,7 +11483,7 @@ array_pop
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -11627,7 +11627,7 @@ array_shift
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -11973,7 +11973,7 @@ array_unshift
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -12535,7 +12535,7 @@ array_splice
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -13647,7 +13647,7 @@ array_concat
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -13829,7 +13829,7 @@ length
 }
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -14024,7 +14024,7 @@ array_slice
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -14856,7 +14856,7 @@ array_indexOf
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -14888,7 +14888,7 @@ array_lastIndexOf
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -15384,7 +15384,7 @@ array_every
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -15418,7 +15418,7 @@ array_some
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -15452,7 +15452,7 @@ array_forEach
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -15486,7 +15486,7 @@ array_map
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -15845,7 +15845,7 @@ array_filter
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -16718,7 +16718,7 @@ array_reduce
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -16752,7 +16752,7 @@ array_reduceRight
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -16786,7 +16786,7 @@ array_isArray
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -17075,7 +17075,7 @@ js_Array
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -18285,7 +18285,7 @@ js_ArrayInfo
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -18307,7 +18307,7 @@ array
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0

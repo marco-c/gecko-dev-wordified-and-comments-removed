@@ -11244,7 +11244,7 @@ TraceMallocDisable
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -11284,7 +11284,7 @@ TraceMallocEnable
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -11324,7 +11324,7 @@ TraceMallocOpenLogFile
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -11478,7 +11478,7 @@ TraceMallocChangeLogFD
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -11584,7 +11584,7 @@ TraceMallocCloseLogFD
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -11662,7 +11662,7 @@ TraceMallocLogTimestamp
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -11751,7 +11751,7 @@ TraceMallocDumpAllocations
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -12013,7 +12013,7 @@ JProfStartProfilingJS
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -12140,7 +12140,7 @@ JProfStopProfilingJS
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -12173,7 +12173,7 @@ JProfClearCircularJS
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -12206,7 +12206,7 @@ JProfSaveCircularJS
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -12284,7 +12284,7 @@ DMDCheckJS
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *

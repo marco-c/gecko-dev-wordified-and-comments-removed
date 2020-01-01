@@ -252,9 +252,9 @@ static
 uint32_t
 BinToVal
 (
-uintN
+unsigned
 logscale
-uintN
+unsigned
 bin
 )
 {
@@ -324,16 +324,16 @@ bin
 ;
 }
 static
-uintN
+unsigned
 ValToBin
 (
-uintN
+unsigned
 logscale
 uint32_t
 val
 )
 {
-uintN
+unsigned
 bin
 ;
 if
@@ -356,7 +356,7 @@ logscale
 )
 ?
 (
-uintN
+unsigned
 )
 ceil
 (
@@ -377,7 +377,7 @@ logscale
 )
 ?
 (
-uintN
+unsigned
 )
 JS_CEILING_LOG2W
 (
@@ -404,7 +404,7 @@ uint32_t
 val
 )
 {
-uintN
+unsigned
 oldscale
 newscale
 bin
@@ -811,7 +811,7 @@ FILE
 fp
 )
 {
-uintN
+unsigned
 bin
 ;
 uint32_t
@@ -892,7 +892,7 @@ bin
 +
 )
 {
-uintN
+unsigned
 val
 =
 BinToVal
@@ -904,7 +904,7 @@ logscale
 bin
 )
 ;
-uintN
+unsigned
 end
 =
 (
@@ -1065,7 +1065,7 @@ cnt
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0

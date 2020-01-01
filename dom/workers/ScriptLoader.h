@@ -36,7 +36,7 @@ Load
 JSContext
 *
 aCx
-uintN
+unsigned
 aURLCount
 jsval
 *

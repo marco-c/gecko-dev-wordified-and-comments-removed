@@ -743,7 +743,7 @@ native
 ;
 }
 static
-uintN
+unsigned
 offsetOfNativeOrScript
 (
 )
@@ -964,7 +964,7 @@ js
 Value
 *
 args
-uintN
+unsigned
 argslen
 )
 ;
@@ -997,7 +997,7 @@ Value
 &
 getBoundFunctionArgument
 (
-uintN
+unsigned
 which
 )
 const
@@ -1366,7 +1366,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 indent
 )
 ;
@@ -1383,9 +1383,9 @@ JSObject
 funobj
 JSNative
 native
-uintN
+unsigned
 nargs
-uintN
+unsigned
 flags
 js
 :
@@ -1490,9 +1490,9 @@ jsid
 id
 JSNative
 native
-uintN
+unsigned
 nargs
-uintN
+unsigned
 flags
 js
 :
@@ -1532,7 +1532,7 @@ js
 Value
 *
 vp
-uintN
+unsigned
 flags
 )
 ;
@@ -1550,7 +1550,7 @@ js
 Value
 *
 vp
-uintN
+unsigned
 flags
 )
 ;
@@ -1568,7 +1568,7 @@ js
 Value
 *
 vp
-uintN
+unsigned
 flags
 )
 ;
@@ -1758,7 +1758,7 @@ js_fun_apply
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :
@@ -1775,7 +1775,7 @@ js_fun_call
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 js
 :

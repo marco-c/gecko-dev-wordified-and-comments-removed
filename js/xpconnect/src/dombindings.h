@@ -573,7 +573,7 @@ id
 JSNative
 native
 ;
-uintN
+unsigned
 nargs
 ;
 }
@@ -1071,7 +1071,7 @@ cx
 JSObject
 *
 proxy
-uintN
+unsigned
 flags
 JS
 :

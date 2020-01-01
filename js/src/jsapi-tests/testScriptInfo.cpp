@@ -146,7 +146,7 @@ BEGIN_TEST
 testScriptInfo
 )
 {
-uintN
+unsigned
 startLine
 =
 1000

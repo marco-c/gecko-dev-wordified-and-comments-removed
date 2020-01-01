@@ -3054,7 +3054,7 @@ Load
 JSContext
 *
 aCx
-uintN
+unsigned
 aURLCount
 jsval
 *
@@ -3141,7 +3141,7 @@ aURLCount
 ;
 for
 (
-uintN
+unsigned
 index
 =
 0

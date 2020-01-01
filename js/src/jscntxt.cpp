@@ -1824,7 +1824,7 @@ checkReportFlags
 JSContext
 *
 cx
-uintN
+unsigned
 *
 flags
 )
@@ -1946,7 +1946,7 @@ js_ReportErrorVA
 JSContext
 *
 cx
-uintN
+unsigned
 flags
 const
 char
@@ -2098,7 +2098,7 @@ void
 *
 userRef
 const
-uintN
+unsigned
 errorNumber
 char
 *
@@ -2924,7 +2924,7 @@ js_ReportErrorNumberVA
 JSContext
 *
 cx
-uintN
+unsigned
 flags
 JSErrorCallback
 callback
@@ -2932,7 +2932,7 @@ void
 *
 userRef
 const
-uintN
+unsigned
 errorNumber
 JSBool
 charArgs
@@ -3290,7 +3290,7 @@ js_ReportIsNullOrUndefined
 JSContext
 *
 cx
-intN
+int
 spindex
 const
 Value
@@ -3436,7 +3436,7 @@ const
 Value
 &
 v
-uintN
+unsigned
 arg
 )
 {
@@ -3541,12 +3541,12 @@ js_ReportValueErrorFlags
 JSContext
 *
 cx
-uintN
+unsigned
 flags
 const
-uintN
+unsigned
 errorNumber
-intN
+int
 spindex
 const
 Value
@@ -3693,7 +3693,7 @@ char
 *
 locale
 const
-uintN
+unsigned
 errorNumber
 )
 {

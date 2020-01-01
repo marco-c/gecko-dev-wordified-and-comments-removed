@@ -221,7 +221,7 @@ Exception
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -264,7 +264,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -326,7 +326,7 @@ char
 *
 filename
 ;
-uintN
+unsigned
 ulineno
 ;
 }
@@ -352,13 +352,13 @@ js
 HeapPtrString
 filename
 ;
-uintN
+unsigned
 lineno
 ;
 size_t
 stackDepth
 ;
-intN
+int
 exnType
 ;
 JSStackTraceElem
@@ -1224,7 +1224,7 @@ operator
 (
 )
 (
-uintN
+unsigned
 Value
 *
 vp
@@ -1273,12 +1273,12 @@ message
 JSString
 *
 filename
-uintN
+unsigned
 lineno
 JSErrorReport
 *
 report
-intN
+int
 exnType
 )
 {
@@ -2298,7 +2298,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -2330,7 +2330,7 @@ prop
 jsval
 v
 ;
-uintN
+unsigned
 attrs
 ;
 *
@@ -3539,7 +3539,7 @@ Exception
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -3904,7 +3904,7 @@ pc
 )
 ;
 }
-intN
+int
 exnType
 =
 args
@@ -3967,7 +3967,7 @@ exn_toString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -4340,7 +4340,7 @@ exn_toSource
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -4902,7 +4902,7 @@ cx
 GlobalObject
 *
 global
-intN
+int
 type
 JSObject
 &
@@ -5295,7 +5295,7 @@ NULL
 ;
 for
 (
-intN
+int
 i
 =
 JSEXN_ERR
@@ -5347,7 +5347,7 @@ char
 *
 locale
 const
-uintN
+unsigned
 errorNumber
 )
 {
@@ -6255,7 +6255,7 @@ report
 lineno
 =
 (
-uintN
+unsigned
 )
 lineno
 ;

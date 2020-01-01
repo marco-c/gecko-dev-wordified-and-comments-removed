@@ -619,14 +619,14 @@ const
 char
 *
 filename
-uintN
+unsigned
 lineno
 JSVersion
 version
 JSString
 *
 source
-uintN
+unsigned
 staticLevel
 )
 {
@@ -1408,7 +1408,7 @@ const
 char
 *
 filename
-uintN
+unsigned
 lineno
 JSVersion
 version
@@ -1564,7 +1564,7 @@ makeFree
 (
 )
 ;
-uintN
+unsigned
 nargs
 =
 fun
@@ -1611,7 +1611,7 @@ else
 {
 for
 (
-uintN
+unsigned
 i
 =
 0

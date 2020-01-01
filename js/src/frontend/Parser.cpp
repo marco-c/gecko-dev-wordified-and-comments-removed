@@ -490,7 +490,7 @@ const
 char
 *
 filename
-uintN
+unsigned
 lineno
 JSVersion
 version
@@ -1421,7 +1421,7 @@ pn2
 *
 pn3
 ;
-uintN
+unsigned
 rv
 rv2
 hasDefault
@@ -1992,11 +1992,11 @@ tc
 ParseNode
 *
 pn
-uintN
+unsigned
 flags
-uintN
+unsigned
 errnum
-uintN
+unsigned
 anonerrnum
 )
 {
@@ -2375,7 +2375,7 @@ tc
 JSAtom
 *
 name
-uintN
+unsigned
 errorNumber
 )
 {
@@ -2784,7 +2784,7 @@ flags
 =
 SIF_BODY_BLOCK
 ;
-uintN
+unsigned
 oldflags
 =
 tc
@@ -3211,7 +3211,7 @@ ParseNode
 *
 pnu
 ;
-uintN
+unsigned
 start
 =
 let
@@ -4069,7 +4069,7 @@ pn
 JSAtom
 *
 atom
-uintN
+unsigned
 i
 TreeContext
 *
@@ -4358,7 +4358,7 @@ StaticBlockObject
 *
 blockObj
 ;
-uintN
+unsigned
 overflow
 ;
 }
@@ -4377,7 +4377,7 @@ varContext
 StaticBlockObject
 &
 blockObj
-uintN
+unsigned
 overflow
 )
 {
@@ -4509,7 +4509,7 @@ kind
 VARIABLE
 )
 ;
-uintN
+unsigned
 index
 =
 tc
@@ -5105,7 +5105,7 @@ TokenPos
 pos
 )
 {
-uintN
+unsigned
 ndeoptimized
 =
 0
@@ -6951,7 +6951,7 @@ inFunction
 )
 )
 {
-uintN
+unsigned
 index
 ;
 switch
@@ -8777,7 +8777,7 @@ let
 .
 blockObj
 ;
-uintN
+unsigned
 blockCount
 =
 blockObj
@@ -10734,7 +10734,7 @@ pn
 TreeContext
 *
 tc
-uintN
+unsigned
 msg
 )
 {
@@ -10885,7 +10885,7 @@ pn
 TreeContext
 *
 tc
-uintN
+unsigned
 dflag
 =
 PND_ASSIGNED
@@ -14965,7 +14965,7 @@ pn2
 =
 NULL
 ;
-uintN
+unsigned
 dflag
 =
 PND_ASSIGNED
@@ -18884,7 +18884,7 @@ case
 TOK_LC
 :
 {
-uintN
+unsigned
 oldflags
 ;
 oldflags
@@ -20620,7 +20620,7 @@ BEGIN_EXPR_PARSER
 relExpr1
 )
 {
-uintN
+unsigned
 inForInitFlag
 =
 tc
@@ -21166,7 +21166,7 @@ TOK_HOOK
 return
 condition
 ;
-uintN
+unsigned
 oldflags
 =
 tc
@@ -22787,10 +22787,10 @@ tc
 bool
 genexp
 ;
-uintN
+unsigned
 adjust
 ;
-uintN
+unsigned
 funcLevel
 ;
 public
@@ -22805,7 +22805,7 @@ TreeContext
 tc
 bool
 ge
-uintN
+unsigned
 adj
 )
 :
@@ -23191,7 +23191,7 @@ isFree
 )
 )
 {
-uintN
+unsigned
 level
 =
 pn
@@ -23276,7 +23276,7 @@ AdjustBlockId
 ParseNode
 *
 pn
-uintN
+unsigned
 adjust
 TreeContext
 *
@@ -24158,7 +24158,7 @@ comprehensionTail
 ParseNode
 *
 kid
-uintN
+unsigned
 blockid
 bool
 isGenexp
@@ -24168,7 +24168,7 @@ JSOp
 op
 )
 {
-uintN
+unsigned
 adjust
 ;
 ParseNode
@@ -27250,7 +27250,7 @@ bracketedExpr
 (
 )
 {
-uintN
+unsigned
 oldflags
 ;
 ParseNode
@@ -32532,7 +32532,7 @@ name
 return
 NULL
 ;
-uintN
+unsigned
 flags
 =
 (

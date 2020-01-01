@@ -180,7 +180,7 @@ JSObject
 obj
 PRUint16
 argNum
-uintN
+unsigned
 argc
 jsval
 *
@@ -241,7 +241,7 @@ JSObject
 obj
 PRUint16
 argNum
-uintN
+unsigned
 argc
 jsval
 *
@@ -290,7 +290,7 @@ JSObject
 obj
 PRUint16
 argNum
-uintN
+unsigned
 argc
 jsval
 *
@@ -388,7 +388,7 @@ netscape_security_isPrivilegeEnabled
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -533,7 +533,7 @@ netscape_security_enablePrivilege
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -724,7 +724,7 @@ netscape_security_disablePrivilege
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -841,7 +841,7 @@ netscape_security_revertPrivilege
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -958,7 +958,7 @@ netscape_security_setCanEnablePrivilege
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1115,7 +1115,7 @@ netscape_security_invalidate
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *

@@ -574,7 +574,7 @@ setNull
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -612,7 +612,7 @@ userobj
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0

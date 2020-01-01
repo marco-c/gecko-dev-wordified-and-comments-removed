@@ -95,7 +95,7 @@ regexp_exec
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -109,7 +109,7 @@ regexp_test
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *

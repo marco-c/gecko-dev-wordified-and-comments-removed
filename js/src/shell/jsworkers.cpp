@@ -3202,7 +3202,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -3248,7 +3248,7 @@ jsPostMessageToParent
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -3262,7 +3262,7 @@ jsPostMessageToChild
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -3276,7 +3276,7 @@ jsTerminate
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -3850,7 +3850,7 @@ jsConstruct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5593,7 +5593,7 @@ jsPostMessageToParent
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5744,7 +5744,7 @@ jsPostMessageToChild
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5900,7 +5900,7 @@ jsTerminate
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *

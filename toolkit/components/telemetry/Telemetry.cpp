@@ -1638,7 +1638,7 @@ JSHistogram_Add
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -1818,7 +1818,7 @@ JSHistogram_Snapshot
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *

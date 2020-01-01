@@ -69,7 +69,7 @@ pm_construct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -344,7 +344,7 @@ pm_start
 JSContext
 *
 cx
-uintN
+unsigned
 jsval
 *
 vp
@@ -386,7 +386,7 @@ pm_stop
 JSContext
 *
 cx
-uintN
+unsigned
 jsval
 *
 vp
@@ -428,7 +428,7 @@ pm_reset
 JSContext
 *
 cx
-uintN
+unsigned
 jsval
 *
 vp
@@ -470,7 +470,7 @@ pm_canMeasureSomething
 JSContext
 *
 cx
-uintN
+unsigned
 jsval
 *
 vp

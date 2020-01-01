@@ -429,7 +429,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -473,7 +473,7 @@ NPObjWrapper_Call
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -487,7 +487,7 @@ NPObjWrapper_Construct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -607,7 +607,7 @@ NPObjectMember_Call
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -5645,7 +5645,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 argc
 jsval
 *
@@ -6279,7 +6279,7 @@ CallNPMethod
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -6716,7 +6716,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -7202,7 +7202,7 @@ NPObjWrapper_Call
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -7239,7 +7239,7 @@ NPObjWrapper_Construct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -9080,7 +9080,7 @@ NPObjectMember_Call
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *

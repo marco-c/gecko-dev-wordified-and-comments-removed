@@ -510,7 +510,7 @@ class_
 \
 (
 (
-uintN
+unsigned
 )
 (
 (
@@ -523,7 +523,7 @@ JSXML_CLASS_ELEMENT
 =
 \
 (
-uintN
+unsigned
 )
 (
 JSXML_CLASS_PROCESSING_INSTRUCTION

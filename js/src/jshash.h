@@ -69,7 +69,7 @@ key
 )
 ;
 typedef
-intN
+int
 (
 *
 JSHashComparator
@@ -86,7 +86,7 @@ v2
 )
 ;
 typedef
-intN
+int
 (
 *
 JSHashEnumerator
@@ -95,7 +95,7 @@ JSHashEnumerator
 JSHashEntry
 *
 he
-intN
+int
 i
 void
 *
@@ -200,7 +200,7 @@ pool
 JSHashEntry
 *
 he
-uintN
+unsigned
 flag
 )
 ;
@@ -452,7 +452,7 @@ key
 extern
 JS_PUBLIC_API
 (
-intN
+int
 )
 JS_HashTableEnumerateEntries
 (
@@ -486,7 +486,7 @@ key
 extern
 JS_PUBLIC_API
 (
-intN
+int
 )
 JS_HashTableDump
 (
@@ -516,7 +516,7 @@ key
 extern
 JS_PUBLIC_API
 (
-intN
+int
 )
 JS_CompareValues
 (

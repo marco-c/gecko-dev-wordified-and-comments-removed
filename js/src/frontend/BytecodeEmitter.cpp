@@ -303,7 +303,7 @@ BytecodeEmitter
 bce
 JSTryNoteKind
 kind
-uintN
+unsigned
 stackDepth
 size_t
 start
@@ -321,9 +321,9 @@ cx
 BytecodeEmitter
 *
 bce
-uintN
+unsigned
 index
-uintN
+unsigned
 which
 ptrdiff_t
 offset
@@ -356,7 +356,7 @@ BytecodeEmitter
 Parser
 *
 parser
-uintN
+unsigned
 lineno
 )
 :
@@ -979,11 +979,11 @@ format
 JOF_TMPSLOT_MASK
 )
 {
-uintN
+unsigned
 depth
 =
 (
-uintN
+unsigned
 )
 bce
 -
@@ -1021,7 +1021,7 @@ maxStackDepth
 depth
 ;
 }
-intN
+int
 nuses
 ndefs
 ;
@@ -1146,7 +1146,7 @@ ndefs
 if
 (
 (
-uintN
+unsigned
 )
 bce
 -
@@ -1177,11 +1177,11 @@ UpdateDecomposeLength
 BytecodeEmitter
 *
 bce
-uintN
+unsigned
 start
 )
 {
-uintN
+unsigned
 end
 =
 bce
@@ -1193,7 +1193,7 @@ offset
 ;
 JS_ASSERT
 (
-uintN
+unsigned
 (
 end
 -
@@ -1964,7 +1964,7 @@ SetStaticLevel
 TreeContext
 *
 tc
-uintN
+unsigned
 staticLevel
 )
 {
@@ -2340,7 +2340,7 @@ line
 \
 JS_BEGIN_MACRO
 \
-uintN
+unsigned
 line_
 =
 (
@@ -2348,7 +2348,7 @@ line
 )
 ;
 \
-uintN
+unsigned
 delta_
 =
 line_
@@ -2488,7 +2488,7 @@ delta_
 >
 =
 (
-uintN
+unsigned
 )
 (
 2
@@ -2577,7 +2577,7 @@ cx
 BytecodeEmitter
 *
 bce
-uintN
+unsigned
 line
 )
 {
@@ -3109,7 +3109,7 @@ cx
 BytecodeEmitter
 *
 bce
-intN
+int
 *
 npops
 )
@@ -3212,7 +3212,7 @@ StmtInfo
 toStmt
 )
 {
-intN
+int
 depth
 =
 bce
@@ -3220,7 +3220,7 @@ bce
 >
 stackDepth
 ;
-intN
+int
 npops
 =
 0
@@ -3407,7 +3407,7 @@ FLUSH_POPS
 (
 )
 ;
-uintN
+unsigned
 blockObjCount
 =
 stmt
@@ -3584,7 +3584,7 @@ noteType
 SRC_NULL
 )
 {
-intN
+int
 index
 ;
 if
@@ -5032,7 +5032,7 @@ JSContext
 cx
 JSOp
 op
-uintN
+unsigned
 slot
 uint32_t
 index
@@ -5244,7 +5244,7 @@ countVars
 if
 (
 (
-uintN
+unsigned
 )
 slot
 >
@@ -5475,7 +5475,7 @@ isDefn
 ;
 JS_ASSERT
 (
-uintN
+unsigned
 (
 dn
 -
@@ -6737,7 +6737,7 @@ level
 )
 ;
 const
-uintN
+unsigned
 skip
 =
 bce
@@ -7092,7 +7092,7 @@ UpvarCookie
 )
 ;
 }
-uintN
+unsigned
 slot
 =
 cookie
@@ -9116,7 +9116,7 @@ pn
 >
 pn_kid
 ;
-uintN
+unsigned
 oldflags
 =
 bce
@@ -11515,7 +11515,7 @@ i
 low
 high
 ;
-intN
+int
 noteIndex
 ;
 size_t
@@ -12600,7 +12600,7 @@ switchOp
 JSOP_CONDSWITCH
 )
 {
-intN
+int
 caseNoteIndex
 =
 -
@@ -12669,7 +12669,7 @@ SetSrcNoteOffset
 cx
 bce
 (
-uintN
+unsigned
 )
 caseNoteIndex
 0
@@ -12757,7 +12757,7 @@ if
 beforeCases
 )
 {
-uintN
+unsigned
 noteCount
 noteCountDelta
 ;
@@ -12778,7 +12778,7 @@ SetSrcNoteOffset
 cx
 bce
 (
-uintN
+unsigned
 )
 noteIndex
 1
@@ -12837,7 +12837,7 @@ SetSrcNoteOffset
 cx
 bce
 (
-uintN
+unsigned
 )
 caseNoteIndex
 0
@@ -13554,7 +13554,7 @@ SetSrcNoteOffset
 cx
 bce
 (
-uintN
+unsigned
 )
 noteIndex
 0
@@ -14934,7 +14934,7 @@ doElemOp
 #
 ifdef
 DEBUG
-intN
+int
 stackDepth
 =
 bce
@@ -15322,7 +15322,7 @@ JS_FALSE
 }
 else
 {
-intN
+int
 depthBefore
 =
 bce
@@ -15371,11 +15371,11 @@ stackDepth
 1
 )
 ;
-uintN
+unsigned
 pickDistance
 =
 (
-uintN
+unsigned
 )
 (
 (
@@ -15522,14 +15522,14 @@ Pair
 ptrdiff_t
 dup
 ;
-uintN
+unsigned
 index
 ;
 Pair
 (
 ptrdiff_t
 dup
-uintN
+unsigned
 index
 )
 :
@@ -15649,7 +15649,7 @@ BytecodeEmitter
 bce
 ptrdiff_t
 dup
-uintN
+unsigned
 index
 )
 {
@@ -15921,7 +15921,7 @@ offset
 (
 )
 (
-uintN
+unsigned
 )
 index
 )
@@ -16002,7 +16002,7 @@ depth
 limit
 =
 (
-uintN
+unsigned
 )
 bce
 -
@@ -16245,7 +16245,7 @@ bce
 stackDepth
 =
 (
-uintN
+unsigned
 )
 depth
 ;
@@ -17360,7 +17360,7 @@ return
 JS_FALSE
 ;
 }
-uintN
+unsigned
 oldflags
 =
 bce
@@ -17593,7 +17593,7 @@ SetSrcNoteOffset
 cx
 bce
 (
-uintN
+unsigned
 )
 noteIndex
 0
@@ -18941,7 +18941,7 @@ cx
 BytecodeEmitter
 *
 bce
-uintN
+unsigned
 index
 )
 {
@@ -20177,7 +20177,7 @@ offset
 )
 )
 ;
-intN
+int
 depth
 =
 bce
@@ -20336,7 +20336,7 @@ pn
 pn_kid2
 )
 {
-uintN
+unsigned
 count
 =
 0
@@ -21347,7 +21347,7 @@ offset
 (
 )
 ;
-intN
+int
 letHeadDepth
 =
 bce
@@ -21380,7 +21380,7 @@ false
 uint32_t
 alreadyPushed
 =
-uintN
+unsigned
 (
 bce
 -
@@ -22456,7 +22456,7 @@ SetSrcNoteOffset
 cx
 bce
 (
-uintN
+unsigned
 )
 noteIndex
 0
@@ -23081,7 +23081,7 @@ return
 false
 ;
 }
-intN
+int
 noteIndex
 =
 NewSrcNote
@@ -23153,7 +23153,7 @@ false
 #
 ifdef
 DEBUG
-intN
+int
 loopDepth
 =
 bce
@@ -23381,7 +23381,7 @@ SetSrcNoteOffset
 cx
 bce
 (
-uintN
+unsigned
 )
 noteIndex
 0
@@ -23401,7 +23401,7 @@ SetSrcNoteOffset
 cx
 bce
 (
-uintN
+unsigned
 )
 noteIndex
 1
@@ -23746,7 +23746,7 @@ flags
 TCF_IN_FOR_INIT
 ;
 }
-intN
+int
 noteIndex
 =
 NewSrcNote
@@ -24063,7 +24063,7 @@ currentLine
 !
 =
 (
-uintN
+unsigned
 )
 lineno
 )
@@ -24092,7 +24092,7 @@ current
 currentLine
 =
 (
-uintN
+unsigned
 )
 lineno
 ;
@@ -24171,7 +24171,7 @@ SetSrcNoteOffset
 cx
 bce
 (
-uintN
+unsigned
 )
 noteIndex
 0
@@ -24191,7 +24191,7 @@ SetSrcNoteOffset
 cx
 bce
 (
-uintN
+unsigned
 )
 noteIndex
 1
@@ -24211,7 +24211,7 @@ SetSrcNoteOffset
 cx
 bce
 (
-uintN
+unsigned
 )
 noteIndex
 2
@@ -24651,7 +24651,7 @@ return
 false
 ;
 }
-uintN
+unsigned
 index
 =
 bce
@@ -24843,7 +24843,7 @@ false
 }
 else
 {
-uintN
+unsigned
 slot
 ;
 DebugOnly
@@ -26180,7 +26180,7 @@ SetSrcNoteOffset
 cx
 bce
 (
-uintN
+unsigned
 )
 noteIndex
 0
@@ -26918,7 +26918,7 @@ SetSrcNoteOffset
 (
 cx
 bce
-uintN
+unsigned
 (
 noteIndex
 )
@@ -27147,7 +27147,7 @@ off
 =
 top
 ;
-uintN
+unsigned
 oldflags
 =
 bce
@@ -28916,7 +28916,7 @@ return
 false
 ;
 }
-uintN
+unsigned
 methodInits
 =
 0
@@ -29369,7 +29369,7 @@ objbox
 return
 false
 ;
-uintN
+unsigned
 index
 =
 bce
@@ -29472,7 +29472,7 @@ stackDepth
 0
 )
 ;
-uintN
+unsigned
 saveDepth
 =
 bce
@@ -29837,7 +29837,7 @@ op
 =
 JSOP_TYPEOFEXPR
 ;
-uintN
+unsigned
 oldflags
 =
 bce
@@ -30654,7 +30654,7 @@ SetSrcNoteOffset
 cx
 bce
 (
-uintN
+unsigned
 )
 noteIndex
 0
@@ -30971,7 +30971,7 @@ else
 #
 if
 JS_HAS_XML_SUPPORT
-uintN
+unsigned
 oldflags
 ;
 case
@@ -31188,7 +31188,7 @@ op
 JSOP_SETXMLNAME
 )
 ;
-uintN
+unsigned
 oldflags
 =
 bce
@@ -32462,7 +32462,7 @@ ok
 ;
 }
 static
-intN
+int
 AllocSrcNote
 (
 JSContext
@@ -32488,7 +32488,7 @@ jssrcnote
 *
 newnotes
 ;
-uintN
+unsigned
 index
 =
 bce
@@ -32498,7 +32498,7 @@ noteCount
 (
 )
 ;
-uintN
+unsigned
 max
 =
 bce
@@ -32643,12 +32643,12 @@ index
 ;
 return
 (
-intN
+int
 )
 index
 ;
 }
-intN
+int
 frontend
 :
 :
@@ -32664,7 +32664,7 @@ SrcNoteType
 type
 )
 {
-intN
+int
 index
 n
 ;
@@ -32820,7 +32820,7 @@ for
 n
 =
 (
-intN
+int
 )
 js_SrcNoteSpec
 [
@@ -32858,7 +32858,7 @@ return
 index
 ;
 }
-intN
+int
 frontend
 :
 :
@@ -32876,7 +32876,7 @@ ptrdiff_t
 offset
 )
 {
-intN
+int
 index
 ;
 index
@@ -32917,7 +32917,7 @@ return
 index
 ;
 }
-intN
+int
 frontend
 :
 :
@@ -32937,7 +32937,7 @@ ptrdiff_t
 offset2
 )
 {
-intN
+int
 index
 ;
 index
@@ -33105,7 +33105,7 @@ limit
 newdelta
 diff
 ;
-intN
+int
 index
 ;
 JS_ASSERT
@@ -33286,9 +33286,9 @@ cx
 BytecodeEmitter
 *
 bce
-uintN
+unsigned
 index
-uintN
+unsigned
 which
 ptrdiff_t
 offset
@@ -33348,7 +33348,7 @@ SRC_XDELTA
 JS_ASSERT
 (
 (
-intN
+int
 )
 which
 <
@@ -33772,7 +33772,7 @@ jssrcnote
 notes
 )
 {
-uintN
+unsigned
 prologCount
 mainCount
 totalCount
@@ -34085,7 +34085,7 @@ BytecodeEmitter
 bce
 JSTryNoteKind
 kind
-uintN
+unsigned
 stackDepth
 size_t
 start
@@ -34096,7 +34096,7 @@ end
 JS_ASSERT
 (
 (
-uintN
+unsigned
 )
 (
 uint16_t
@@ -34356,7 +34356,7 @@ vector
 )
 ;
 }
-uintN
+unsigned
 CGObjectList
 :
 :
@@ -34736,7 +34736,7 @@ xdelta
 ;
 JS_FRIEND_API
 (
-uintN
+unsigned
 )
 js_SrcNoteLength
 (
@@ -34745,7 +34745,7 @@ jssrcnote
 sn
 )
 {
-uintN
+unsigned
 arity
 ;
 jssrcnote
@@ -34755,7 +34755,7 @@ base
 arity
 =
 (
-intN
+int
 )
 js_SrcNoteSpec
 [
@@ -34813,7 +34813,7 @@ js_GetSrcNoteOffset
 jssrcnote
 *
 sn
-uintN
+unsigned
 which
 )
 {
@@ -34831,7 +34831,7 @@ SRC_XDELTA
 JS_ASSERT
 (
 (
-intN
+int
 )
 which
 <

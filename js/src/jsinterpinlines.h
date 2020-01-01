@@ -470,7 +470,7 @@ const
 Shape
 *
 shape
-uintN
+unsigned
 getHow
 Value
 *
@@ -942,7 +942,7 @@ obj
 return
 false
 ;
-uintN
+unsigned
 flags
 =
 (
@@ -1577,7 +1577,7 @@ setProperty
 )
 )
 {
-uintN
+unsigned
 defineHow
 ;
 if
@@ -1989,7 +1989,7 @@ varobj
 PropertyName
 *
 dn
-uintN
+unsigned
 attrs
 )
 {
@@ -2090,7 +2090,7 @@ false
 }
 else
 {
-uintN
+unsigned
 oldAttrs
 ;
 if

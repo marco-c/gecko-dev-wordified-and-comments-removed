@@ -224,7 +224,7 @@ js_json_parse
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -360,7 +360,7 @@ js_json_stringify
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -4249,7 +4249,7 @@ json_toSource
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *

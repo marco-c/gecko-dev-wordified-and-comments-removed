@@ -127,7 +127,7 @@ return
 true
 ;
 }
-intN
+int
 code
 =
 rv
@@ -395,7 +395,7 @@ Construct
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -508,7 +508,7 @@ ReadAsArrayBuffer
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -719,7 +719,7 @@ ReadAsDataURL
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -896,7 +896,7 @@ ReadAsBinaryString
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *
@@ -1073,7 +1073,7 @@ ReadAsText
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *

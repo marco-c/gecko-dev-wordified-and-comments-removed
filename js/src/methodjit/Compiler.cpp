@@ -17811,7 +17811,7 @@ BEGIN_CASE
 JSOP_CALLFCSLOT
 )
 {
-uintN
+unsigned
 index
 =
 GET_UINT16
@@ -34456,7 +34456,7 @@ Compiler
 :
 iter
 (
-uintN
+unsigned
 flags
 )
 {

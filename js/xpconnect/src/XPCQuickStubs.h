@@ -453,7 +453,7 @@ cx
 JSObject
 *
 proto
-uintN
+unsigned
 extraFlags
 PRUint32
 ifacec
@@ -559,7 +559,7 @@ rv
 jsval
 *
 vp
-uintN
+unsigned
 paramnum
 )
 ;
@@ -571,7 +571,7 @@ XPCCallContext
 ccx
 nsresult
 rv
-uintN
+unsigned
 paramnum
 )
 ;
@@ -583,7 +583,7 @@ JSContext
 cx
 nsresult
 rv
-uintN
+unsigned
 paramnum
 const
 char

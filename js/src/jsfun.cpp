@@ -717,7 +717,7 @@ operator
 (
 )
 (
-uintN
+unsigned
 Value
 *
 src
@@ -1097,10 +1097,10 @@ id
 )
 )
 {
-uintN
+unsigned
 arg
 =
-uintN
+unsigned
 (
 JSID_TO_INT
 (
@@ -1237,10 +1237,10 @@ id
 )
 )
 {
-uintN
+unsigned
 arg
 =
-uintN
+unsigned
 (
 JSID_TO_INT
 (
@@ -1452,10 +1452,10 @@ id
 )
 )
 {
-uintN
+unsigned
 arg
 =
-uintN
+unsigned
 (
 JSID_TO_INT
 (
@@ -1629,7 +1629,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -1653,7 +1653,7 @@ asNormalArguments
 (
 )
 ;
-uintN
+unsigned
 attrs
 =
 JSPROP_SHARED
@@ -2000,10 +2000,10 @@ id
 )
 )
 {
-uintN
+unsigned
 arg
 =
-uintN
+unsigned
 (
 JSID_TO_INT
 (
@@ -2147,10 +2147,10 @@ id
 )
 )
 {
-uintN
+unsigned
 arg
 =
-uintN
+unsigned
 (
 JSID_TO_INT
 (
@@ -2249,7 +2249,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -2273,7 +2273,7 @@ asStrictArguments
 (
 )
 ;
-uintN
+unsigned
 attrs
 =
 JSPROP_SHARED
@@ -4076,7 +4076,7 @@ false
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -4340,7 +4340,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -4560,7 +4560,7 @@ true
 }
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -4617,7 +4617,7 @@ getter
 StrictPropertyOp
 setter
 ;
-uintN
+unsigned
 attrs
 =
 JSPROP_PERMANENT
@@ -5533,7 +5533,7 @@ cx
 JSObject
 *
 obj
-uintN
+unsigned
 indent
 )
 {
@@ -5758,7 +5758,7 @@ fun_toString
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -5867,7 +5867,7 @@ fun_toSource
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -5946,7 +5946,7 @@ js_fun_call
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -6106,7 +6106,7 @@ js_fun_apply
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -6349,7 +6349,7 @@ CallOrConstructBoundFunction
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -6396,7 +6396,7 @@ const
 Value
 *
 args
-uintN
+unsigned
 argslen
 )
 {
@@ -6552,7 +6552,7 @@ JSFunction
 :
 getBoundFunctionArgument
 (
-uintN
+unsigned
 which
 )
 const
@@ -6633,7 +6633,7 @@ CallOrConstructBoundFunction
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -6675,7 +6675,7 @@ IsConstructing
 vp
 )
 ;
-uintN
+unsigned
 argslen
 =
 fun
@@ -6755,7 +6755,7 @@ false
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -6866,7 +6866,7 @@ fun_isGenerator
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -6979,7 +6979,7 @@ fun_bind
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -7047,7 +7047,7 @@ boundArgs
 =
 NULL
 ;
-uintN
+unsigned
 argslen
 =
 0
@@ -7084,7 +7084,7 @@ length
 1
 ;
 }
-uintN
+unsigned
 length
 =
 0
@@ -7099,7 +7099,7 @@ isFunction
 )
 )
 {
-uintN
+unsigned
 nargs
 =
 target
@@ -7360,7 +7360,7 @@ Function
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -7434,7 +7434,7 @@ char
 *
 filename
 ;
-uintN
+unsigned
 lineno
 ;
 JSPrincipals
@@ -7462,7 +7462,7 @@ args
 cx
 )
 ;
-uintN
+unsigned
 n
 =
 args
@@ -7495,7 +7495,7 @@ args_length
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -7673,7 +7673,7 @@ cp
 ;
 for
 (
-uintN
+unsigned
 i
 =
 0
@@ -8342,9 +8342,9 @@ JSObject
 funobj
 Native
 native
-uintN
+unsigned
 nargs
-uintN
+unsigned
 flags
 HandleObject
 parent
@@ -9314,7 +9314,7 @@ hasUpvars
 return
 closure
 ;
-uintN
+unsigned
 level
 =
 fun
@@ -9401,9 +9401,9 @@ jsid
 id
 Native
 native
-uintN
+unsigned
 nargs
-uintN
+unsigned
 attrs
 AllocKind
 kind
@@ -9551,7 +9551,7 @@ const
 Value
 *
 vp
-uintN
+unsigned
 flags
 )
 {
@@ -9596,7 +9596,7 @@ cx
 Value
 *
 vp
-uintN
+unsigned
 flags
 )
 {
@@ -9656,7 +9656,7 @@ const
 Value
 *
 vp
-uintN
+unsigned
 flags
 )
 {
@@ -9677,7 +9677,7 @@ tvr
 cx
 )
 ;
-uintN
+unsigned
 error
 =
 (
@@ -9711,7 +9711,7 @@ done
 )
 )
 {
-uintN
+unsigned
 depth
 =
 js_ReconstructStackDepth

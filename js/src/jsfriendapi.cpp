@@ -959,9 +959,9 @@ char
 name
 JSNative
 call
-uintN
+unsigned
 nargs
-uintN
+unsigned
 attrs
 )
 {
@@ -1057,9 +1057,9 @@ JSContext
 cx
 JSNative
 native
-uintN
+unsigned
 nargs
-uintN
+unsigned
 flags
 JSObject
 *
@@ -1176,9 +1176,9 @@ JSContext
 cx
 JSNative
 native
-uintN
+unsigned
 nargs
-uintN
+unsigned
 flags
 JSObject
 *
@@ -1275,7 +1275,7 @@ JSClass
 clasp
 JSNative
 constructor
-uintN
+unsigned
 nargs
 JSPropertySpec
 *

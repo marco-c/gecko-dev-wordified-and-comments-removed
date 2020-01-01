@@ -3735,7 +3735,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -3926,7 +3926,7 @@ JSNative
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -3952,7 +3952,7 @@ JSContextCallback
 JSContext
 *
 cx
-uintN
+unsigned
 contextOp
 )
 ;
@@ -4110,7 +4110,7 @@ char
 *
 locale
 const
-uintN
+unsigned
 errorNumber
 )
 ;
@@ -4288,7 +4288,7 @@ proto
 JSObject
 *
 parent
-uintN
+unsigned
 flags
 )
 ;
@@ -4309,7 +4309,7 @@ scope
 JSObject
 *
 obj
-uintN
+unsigned
 flags
 )
 ;
@@ -4333,7 +4333,7 @@ cx
 JSCompartment
 *
 compartment
-uintN
+unsigned
 compartmentOp
 )
 ;
@@ -6274,7 +6274,7 @@ JS_ConvertArguments
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -6301,7 +6301,7 @@ JS_ConvertArgumentsVA
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -9274,7 +9274,7 @@ entry
 *
 /
 typedef
-intN
+int
 (
 *
 JSGCRootMapFun
@@ -11345,7 +11345,7 @@ JSClass
 clasp
 JSNative
 constructor
-uintN
+unsigned
 nargs
 JSPropertySpec
 *
@@ -11748,7 +11748,7 @@ clasp
 JSObject
 *
 parent
-uintN
+unsigned
 argc
 jsval
 *
@@ -11769,7 +11769,7 @@ cx
 JSObject
 *
 ctor
-uintN
+unsigned
 argc
 jsval
 *
@@ -11800,7 +11800,7 @@ clasp
 JSObject
 *
 proto
-uintN
+unsigned
 attrs
 )
 ;
@@ -11863,7 +11863,7 @@ JSPropertyOp
 getter
 JSStrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 ;
@@ -11888,7 +11888,7 @@ JSPropertyOp
 getter
 JSStrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 ;
@@ -11931,7 +11931,7 @@ const
 char
 *
 name
-uintN
+unsigned
 *
 attrsp
 JSBool
@@ -11956,7 +11956,7 @@ const
 char
 *
 name
-uintN
+unsigned
 *
 attrsp
 JSBool
@@ -11985,7 +11985,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 *
 attrsp
 JSBool
@@ -12016,7 +12016,7 @@ const
 char
 *
 name
-uintN
+unsigned
 attrs
 JSBool
 *
@@ -12048,7 +12048,7 @@ JSPropertyOp
 getter
 JSStrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 ;
@@ -12195,7 +12195,7 @@ const
 char
 *
 name
-uintN
+unsigned
 flags
 jsval
 *
@@ -12217,7 +12217,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSObject
 *
@@ -12235,7 +12235,7 @@ JSObject
 *
 obj
 ;
-uintN
+unsigned
 attrs
 ;
 JSPropertyOp
@@ -12247,7 +12247,7 @@ setter
 jsval
 value
 ;
-uintN
+unsigned
 shortid
 ;
 }
@@ -12267,7 +12267,7 @@ JSObject
 obj
 jsid
 id
-uintN
+unsigned
 flags
 JSPropertyDescriptor
 *
@@ -12600,7 +12600,7 @@ JSPropertyOp
 getter
 JSStrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 ;
@@ -12623,7 +12623,7 @@ jschar
 name
 size_t
 namelen
-uintN
+unsigned
 *
 attrsp
 JSBool
@@ -12650,7 +12650,7 @@ jschar
 name
 size_t
 namelen
-uintN
+unsigned
 *
 attrsp
 JSBool
@@ -12683,7 +12683,7 @@ jschar
 name
 size_t
 namelen
-uintN
+unsigned
 attrs
 JSBool
 *
@@ -12717,7 +12717,7 @@ JSPropertyOp
 getter
 JSStrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 ;
@@ -12954,7 +12954,7 @@ JSPropertyOp
 getter
 JSStrictPropertyOp
 setter
-uintN
+unsigned
 attrs
 )
 ;
@@ -13263,7 +13263,7 @@ mode
 jsval
 *
 vp
-uintN
+unsigned
 *
 attrsp
 )
@@ -13569,9 +13569,9 @@ JSContext
 cx
 JSNative
 call
-uintN
+unsigned
 nargs
-uintN
+unsigned
 flags
 JSObject
 *
@@ -13595,9 +13595,9 @@ JSContext
 cx
 JSNative
 call
-uintN
+unsigned
 nargs
-uintN
+unsigned
 flags
 JSObject
 *
@@ -13635,7 +13635,7 @@ fun
 extern
 JS_PUBLIC_API
 (
-uintN
+unsigned
 )
 JS_GetFunctionFlags
 (
@@ -13738,9 +13738,9 @@ char
 name
 JSNative
 call
-uintN
+unsigned
 nargs
-uintN
+unsigned
 attrs
 )
 ;
@@ -13766,9 +13766,9 @@ size_t
 namelen
 JSNative
 call
-uintN
+unsigned
 nargs
-uintN
+unsigned
 attrs
 )
 ;
@@ -13790,9 +13790,9 @@ jsid
 id
 JSNative
 call
-uintN
+unsigned
 nargs
-uintN
+unsigned
 attrs
 )
 ;
@@ -13862,7 +13862,7 @@ const
 char
 *
 filename
-uintN
+unsigned
 lineno
 )
 ;
@@ -13893,7 +13893,7 @@ const
 char
 *
 filename
-uintN
+unsigned
 lineno
 )
 ;
@@ -13924,7 +13924,7 @@ const
 char
 *
 filename
-uintN
+unsigned
 lineno
 JSVersion
 version
@@ -13954,7 +13954,7 @@ const
 char
 *
 filename
-uintN
+unsigned
 lineno
 )
 ;
@@ -13985,7 +13985,7 @@ const
 char
 *
 filename
-uintN
+unsigned
 lineno
 )
 ;
@@ -14016,7 +14016,7 @@ const
 char
 *
 filename
-uintN
+unsigned
 lineno
 JSVersion
 version
@@ -14052,7 +14052,7 @@ const
 char
 *
 filename
-uintN
+unsigned
 lineno
 JSVersion
 version
@@ -14186,7 +14186,7 @@ const
 char
 *
 name
-uintN
+unsigned
 nargs
 const
 char
@@ -14203,7 +14203,7 @@ const
 char
 *
 filename
-uintN
+unsigned
 lineno
 )
 ;
@@ -14228,7 +14228,7 @@ const
 char
 *
 name
-uintN
+unsigned
 nargs
 const
 char
@@ -14245,7 +14245,7 @@ const
 char
 *
 filename
-uintN
+unsigned
 lineno
 )
 ;
@@ -14267,7 +14267,7 @@ const
 char
 *
 name
-uintN
+unsigned
 nargs
 const
 char
@@ -14284,7 +14284,7 @@ const
 char
 *
 filename
-uintN
+unsigned
 lineno
 )
 ;
@@ -14309,7 +14309,7 @@ const
 char
 *
 name
-uintN
+unsigned
 nargs
 const
 char
@@ -14326,7 +14326,7 @@ const
 char
 *
 filename
-uintN
+unsigned
 lineno
 )
 ;
@@ -14351,7 +14351,7 @@ const
 char
 *
 name
-uintN
+unsigned
 nargs
 const
 char
@@ -14368,7 +14368,7 @@ const
 char
 *
 filename
-uintN
+unsigned
 lineno
 JSVersion
 version
@@ -14392,7 +14392,7 @@ const
 char
 *
 name
-uintN
+unsigned
 indent
 )
 ;
@@ -14401,7 +14401,7 @@ define
 JS_DONT_PRETTY_PRINT
 (
 (
-uintN
+unsigned
 )
 0x8000
 )
@@ -14419,7 +14419,7 @@ cx
 JSFunction
 *
 fun
-uintN
+unsigned
 indent
 )
 ;
@@ -14437,7 +14437,7 @@ cx
 JSFunction
 *
 fun
-uintN
+unsigned
 indent
 )
 ;
@@ -14511,13 +14511,13 @@ const
 char
 *
 bytes
-uintN
+unsigned
 length
 const
 char
 *
 filename
-uintN
+unsigned
 lineno
 jsval
 *
@@ -14544,13 +14544,13 @@ const
 char
 *
 bytes
-uintN
+unsigned
 length
 const
 char
 *
 filename
-uintN
+unsigned
 lineno
 jsval
 *
@@ -14577,13 +14577,13 @@ const
 char
 *
 bytes
-uintN
+unsigned
 length
 const
 char
 *
 filename
-uintN
+unsigned
 lineno
 jsval
 *
@@ -14609,13 +14609,13 @@ const
 jschar
 *
 chars
-uintN
+unsigned
 length
 const
 char
 *
 filename
-uintN
+unsigned
 lineno
 jsval
 *
@@ -14642,13 +14642,13 @@ const
 jschar
 *
 chars
-uintN
+unsigned
 length
 const
 char
 *
 filename
-uintN
+unsigned
 lineno
 jsval
 *
@@ -14675,13 +14675,13 @@ const
 jschar
 *
 chars
-uintN
+unsigned
 length
 const
 char
 *
 filename
-uintN
+unsigned
 lineno
 jsval
 *
@@ -14713,13 +14713,13 @@ const
 jschar
 *
 chars
-uintN
+unsigned
 length
 const
 char
 *
 filename
-uintN
+unsigned
 lineno
 jsval
 *
@@ -14744,7 +14744,7 @@ obj
 JSFunction
 *
 fun
-uintN
+unsigned
 argc
 jsval
 *
@@ -14771,7 +14771,7 @@ const
 char
 *
 name
-uintN
+unsigned
 argc
 jsval
 *
@@ -14796,7 +14796,7 @@ JSObject
 obj
 jsval
 fval
-uintN
+unsigned
 argc
 jsval
 *
@@ -14827,7 +14827,7 @@ thisObj
 JSFunction
 *
 fun
-uintN
+unsigned
 argc
 jsval
 *
@@ -14866,7 +14866,7 @@ const
 char
 *
 name
-uintN
+unsigned
 argc
 jsval
 *
@@ -14903,7 +14903,7 @@ JSObject
 thisObj
 jsval
 fun
-uintN
+unsigned
 argc
 jsval
 *
@@ -14941,7 +14941,7 @@ jsval
 thisv
 jsval
 fun
-uintN
+unsigned
 argc
 jsval
 *
@@ -14964,7 +14964,7 @@ thisv
 JSObject
 *
 funObj
-uintN
+unsigned
 argc
 jsval
 *
@@ -16578,7 +16578,7 @@ void
 *
 userRef
 const
-uintN
+unsigned
 errorNumber
 .
 .
@@ -16601,7 +16601,7 @@ void
 *
 userRef
 const
-uintN
+unsigned
 errorNumber
 .
 .
@@ -16637,7 +16637,7 @@ JS_ReportErrorFlagsAndNumber
 JSContext
 *
 cx
-uintN
+unsigned
 flags
 JSErrorCallback
 errorCallback
@@ -16645,7 +16645,7 @@ void
 *
 userRef
 const
-uintN
+unsigned
 errorNumber
 .
 .
@@ -16662,7 +16662,7 @@ JS_ReportErrorFlagsAndNumberUC
 JSContext
 *
 cx
-uintN
+unsigned
 flags
 JSErrorCallback
 errorCallback
@@ -16670,7 +16670,7 @@ void
 *
 userRef
 const
-uintN
+unsigned
 errorNumber
 .
 .
@@ -16713,7 +16713,7 @@ JSPrincipals
 *
 originPrincipals
 ;
-uintN
+unsigned
 lineno
 ;
 const
@@ -16736,10 +16736,10 @@ jschar
 *
 uctokenptr
 ;
-uintN
+unsigned
 flags
 ;
-uintN
+unsigned
 errorNumber
 ;
 const
@@ -17039,7 +17039,7 @@ char
 bytes
 size_t
 length
-uintN
+unsigned
 flags
 )
 ;
@@ -17062,7 +17062,7 @@ jschar
 chars
 size_t
 length
-uintN
+unsigned
 flags
 )
 ;
@@ -17148,7 +17148,7 @@ char
 bytes
 size_t
 length
-uintN
+unsigned
 flags
 )
 ;
@@ -17168,7 +17168,7 @@ jschar
 chars
 size_t
 length
-uintN
+unsigned
 flags
 )
 ;
@@ -17218,7 +17218,7 @@ obj
 extern
 JS_PUBLIC_API
 (
-uintN
+unsigned
 )
 JS_GetRegExpFlags
 (

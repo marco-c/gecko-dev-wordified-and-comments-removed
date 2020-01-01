@@ -279,7 +279,7 @@ cx
 JSObject
 *
 proxy
-uintN
+unsigned
 flags
 Value
 *
@@ -296,7 +296,7 @@ cx
 JSObject
 *
 proxy
-uintN
+unsigned
 argc
 Value
 *
@@ -313,7 +313,7 @@ cx
 JSObject
 *
 proxy
-uintN
+unsigned
 argc
 Value
 *
@@ -411,7 +411,7 @@ cx
 JSObject
 *
 proxy
-uintN
+unsigned
 indent
 )
 ;
@@ -834,7 +834,7 @@ cx
 JSObject
 *
 proxy
-uintN
+unsigned
 flags
 Value
 *
@@ -851,7 +851,7 @@ cx
 JSObject
 *
 proxy
-uintN
+unsigned
 argc
 Value
 *
@@ -868,7 +868,7 @@ cx
 JSObject
 *
 proxy
-uintN
+unsigned
 argc
 Value
 *
@@ -966,7 +966,7 @@ cx
 JSObject
 *
 proxy
-uintN
+unsigned
 indent
 )
 ;

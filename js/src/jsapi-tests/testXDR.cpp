@@ -46,7 +46,7 @@ const
 char
 *
 filename
-uintN
+unsigned
 lineno
 JSVersion
 version

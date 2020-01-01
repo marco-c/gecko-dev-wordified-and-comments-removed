@@ -672,7 +672,7 @@ const
 char
 *
 fn
-uintN
+unsigned
 ln
 JSVersion
 v
@@ -1531,14 +1531,14 @@ TokenStream
 :
 peekChars
 (
-intN
+int
 n
 jschar
 *
 cp
 )
 {
-intN
+int
 i
 j
 ;
@@ -1714,9 +1714,9 @@ reportCompileErrorNumberVA
 ParseNode
 *
 pn
-uintN
+unsigned
 flags
-uintN
+unsigned
 errorNumber
 va_list
 ap
@@ -1748,7 +1748,7 @@ TokenPos
 *
 tp
 ;
-uintN
+unsigned
 i
 ;
 if
@@ -2289,7 +2289,7 @@ tc
 ParseNode
 *
 pn
-uintN
+unsigned
 errorNumber
 .
 .
@@ -2317,7 +2317,7 @@ getContext
 )
 )
 ;
-uintN
+unsigned
 flags
 ;
 if
@@ -2422,9 +2422,9 @@ ts
 ParseNode
 *
 pn
-uintN
+unsigned
 flags
-uintN
+unsigned
 errorNumber
 .
 .
@@ -5094,7 +5094,7 @@ cp
 5
 ]
 ;
-uintN
+unsigned
 i
 line
 temp
@@ -9206,7 +9206,7 @@ matchChar
 )
 )
 {
-uintN
+unsigned
 linenoBefore
 =
 lineno
@@ -9456,7 +9456,7 @@ reflags
 =
 NoFlags
 ;
-uintN
+unsigned
 length
 =
 tokenbuf

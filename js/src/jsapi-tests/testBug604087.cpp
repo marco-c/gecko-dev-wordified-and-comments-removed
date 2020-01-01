@@ -129,7 +129,7 @@ scope
 JSObject
 *
 obj
-uintN
+unsigned
 flags
 )
 {
@@ -159,7 +159,7 @@ proto
 JSObject
 *
 parent
-uintN
+unsigned
 flags
 )
 {

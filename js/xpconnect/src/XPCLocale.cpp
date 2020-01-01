@@ -1151,7 +1151,7 @@ DelocalizeContextCallback
 JSContext
 *
 cx
-uintN
+unsigned
 contextOp
 )
 {

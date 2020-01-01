@@ -1830,7 +1830,7 @@ SetTimeout
 JSContext
 *
 aCx
-uintN
+unsigned
 aArgc
 jsval
 *

@@ -1321,7 +1321,7 @@ ntokens
 ;
 static
 const
-uintN
+unsigned
 ntokensMask
 =
 ntokens
@@ -1363,7 +1363,7 @@ const
 char
 *
 filename
-uintN
+unsigned
 lineno
 JSVersion
 version
@@ -1496,7 +1496,7 @@ return
 filename
 ;
 }
-uintN
+unsigned
 getLineno
 (
 )
@@ -1801,9 +1801,9 @@ reportCompileErrorNumberVA
 ParseNode
 *
 pn
-uintN
+unsigned
 flags
-uintN
+unsigned
 errorNumber
 va_list
 ap
@@ -1841,7 +1841,7 @@ TokenStream
 const
 parent
 ;
-uintN
+unsigned
 flags
 ;
 public
@@ -1851,7 +1851,7 @@ Flagger
 TokenStream
 *
 parent
-uintN
+unsigned
 withFlags
 )
 :
@@ -1989,7 +1989,7 @@ getTokenInternal
 TokenKind
 getToken
 (
-uintN
+unsigned
 withFlags
 )
 {
@@ -2087,7 +2087,7 @@ tt
 TokenKind
 peekToken
 (
-uintN
+unsigned
 withFlags
 )
 {
@@ -2107,7 +2107,7 @@ peekToken
 TokenKind
 peekTokenSameLine
 (
-uintN
+unsigned
 withFlags
 =
 0
@@ -2231,7 +2231,7 @@ matchToken
 (
 TokenKind
 tt
-uintN
+unsigned
 withFlags
 )
 {
@@ -2671,7 +2671,7 @@ c
 bool
 peekChars
 (
-intN
+int
 n
 jschar
 *
@@ -2803,7 +2803,7 @@ c
 void
 skipChars
 (
-intN
+int
 n
 )
 {
@@ -2837,16 +2837,16 @@ tokens
 ntokens
 ]
 ;
-uintN
+unsigned
 cursor
 ;
-uintN
+unsigned
 lookahead
 ;
-uintN
+unsigned
 lineno
 ;
-uintN
+unsigned
 flags
 ;
 const
@@ -2970,9 +2970,9 @@ ts
 ParseNode
 *
 pn
-uintN
+unsigned
 flags
-uintN
+unsigned
 errorNumber
 .
 .
@@ -2994,7 +2994,7 @@ tc
 ParseNode
 *
 pn
-uintN
+unsigned
 errorNumber
 .
 .

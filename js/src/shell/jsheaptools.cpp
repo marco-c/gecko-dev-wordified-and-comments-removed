@@ -1924,7 +1924,7 @@ FindReferences
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *

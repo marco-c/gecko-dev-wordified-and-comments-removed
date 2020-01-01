@@ -261,7 +261,7 @@ construct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -275,7 +275,7 @@ get
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -289,7 +289,7 @@ has
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -303,7 +303,7 @@ set
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -317,7 +317,7 @@ delete_
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -413,7 +413,7 @@ construct
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -427,7 +427,7 @@ has
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -441,7 +441,7 @@ add
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *
@@ -455,7 +455,7 @@ delete_
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 Value
 *

@@ -1462,7 +1462,7 @@ CallOrConstructBoundFunction
 (
 JSContext
 *
-uintN
+unsigned
 js
 :
 :
@@ -1731,9 +1731,9 @@ jsid
 id
 StrictPropertyOp
 op
-uintN
+unsigned
 attrs
-uintN
+unsigned
 shortid
 JSBool
 strict
@@ -1999,7 +1999,7 @@ true
 ;
 }
 inline
-uintN
+unsigned
 JSContext
 :
 :
@@ -2021,7 +2021,7 @@ findVersion
 ;
 }
 inline
-uintN
+unsigned
 JSContext
 :
 :
@@ -2047,7 +2047,7 @@ JSContext
 :
 setCompileOptions
 (
-uintN
+unsigned
 newcopts
 )
 {
@@ -2109,7 +2109,7 @@ JSContext
 :
 assertValidStackDepth
 (
-uintN
+unsigned
 depth
 )
 {
