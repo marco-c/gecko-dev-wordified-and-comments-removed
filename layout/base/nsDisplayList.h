@@ -361,6 +361,15 @@ PR_TRUE
 ;
 }
 PRBool
+IsIgnoringPaintSuppression
+(
+)
+{
+return
+mIgnoreSuppression
+;
+}
+PRBool
 GetHadToIgnorePaintSuppression
 (
 )
