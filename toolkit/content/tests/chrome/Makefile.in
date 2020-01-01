@@ -385,6 +385,10 @@ test_bug585946
 .
 xul
 \
+test_bug792324
+.
+xul
+\
 test_button
 .
 xul
