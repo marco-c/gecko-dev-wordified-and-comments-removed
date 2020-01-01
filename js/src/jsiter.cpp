@@ -898,7 +898,7 @@ JSID_IS_DEFAULT_XML_NAMESPACE
 (
 shape
 .
-id
+propid
 )
 &
 &
@@ -918,7 +918,7 @@ obj
 pobj
 shape
 .
-id
+propid
 shape
 .
 enumerable
@@ -7169,6 +7169,13 @@ NULL
 }
 #
 endif
+MarkStandardClassInitializedNoProto
+(
+obj
+&
+js_StopIterationClass
+)
+;
 proto
 =
 js_InitClass
@@ -7189,12 +7196,8 @@ NULL
 ;
 if
 (
-!
 proto
 )
-return
-NULL
-;
 cx
 -
 >

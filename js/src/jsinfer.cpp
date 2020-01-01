@@ -11016,7 +11016,7 @@ lastProperty
 )
 -
 >
-id
+propid
 )
 ^
 obj
@@ -11132,7 +11132,7 @@ JSID_IS_EMPTY
 shape
 -
 >
-id
+propid
 )
 )
 {
@@ -11141,7 +11141,7 @@ if
 shape
 -
 >
-id
+propid
 !
 =
 v
@@ -11433,7 +11433,7 @@ JSID_IS_EMPTY
 shape
 -
 >
-id
+propid
 )
 )
 {
@@ -11462,7 +11462,7 @@ object
 shape
 -
 >
-id
+propid
 TYPE_DOUBLE
 )
 ;
@@ -11756,7 +11756,7 @@ JSID_IS_EMPTY
 shape
 -
 >
-id
+propid
 )
 )
 {
@@ -11771,7 +11771,7 @@ slot
 shape
 -
 >
-id
+propid
 ;
 types
 [
@@ -11805,7 +11805,7 @@ objType
 shape
 -
 >
-id
+propid
 types
 [
 shape
@@ -12639,7 +12639,7 @@ JSID_IS_EMPTY
 shape
 -
 >
-id
+propid
 )
 )
 {
@@ -12652,7 +12652,7 @@ cx
 shape
 -
 >
-id
+propid
 )
 ;
 if

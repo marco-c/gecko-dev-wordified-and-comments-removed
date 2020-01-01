@@ -3379,7 +3379,7 @@ getType
 shape
 -
 >
-id
+propid
 pic
 .
 rhsTypes
@@ -3530,7 +3530,7 @@ getType
 shape
 -
 >
-id
+propid
 pic
 .
 rhsTypes
@@ -9417,7 +9417,7 @@ cx
 shape
 -
 >
-id
+propid
 false
 )
 ;

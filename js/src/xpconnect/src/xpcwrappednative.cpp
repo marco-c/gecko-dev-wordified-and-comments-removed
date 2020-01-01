@@ -9247,7 +9247,7 @@ mOptArgcIndex
 js
 :
 :
-LazilyConstructed
+Maybe
 <
 nsAutoString
 >

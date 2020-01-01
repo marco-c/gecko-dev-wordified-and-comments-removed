@@ -368,7 +368,7 @@ include
 "
 mozilla
 /
-Monitor
+ReentrantMonitor
 .
 h
 "
@@ -1260,7 +1260,7 @@ typedef
 mozilla
 :
 :
-Monitor
+ReentrantMonitor
 XPCLock
 ;
 static
@@ -1347,7 +1347,7 @@ new
 mozilla
 :
 :
-Monitor
+ReentrantMonitor
 (
 name
 )

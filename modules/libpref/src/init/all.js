@@ -387,7 +387,7 @@ sessionhistory
 .
 optimize_eviction
 "
-false
+true
 )
 ;
 pref

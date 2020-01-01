@@ -764,7 +764,7 @@ shape
 shape
 -
 >
-shape
+shapeid
 )
 {
 JS_ASSERT
@@ -801,7 +801,7 @@ previous
 )
 -
 >
-shape
+shapeid
 ;
 vshape
 =

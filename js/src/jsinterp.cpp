@@ -23858,7 +23858,7 @@ obj
 shape
 -
 >
-id
+propid
 )
 ;
 break
@@ -31621,7 +31621,7 @@ obj
 shape
 -
 >
-id
+propid
 rval
 )
 ;
@@ -31652,7 +31652,7 @@ lastProperty
 )
 -
 >
-shape
+shapeid
 )
 ;
 obj
