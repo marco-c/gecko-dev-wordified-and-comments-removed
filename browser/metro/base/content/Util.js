@@ -1077,9 +1077,7 @@ nsIDOMHTMLPreElement
 |
 aElement
 instanceof
-Ci
-.
-nsIDOMHTMLHeadingElement
+HTMLHeadingElement
 |
 |
 aElement
