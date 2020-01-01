@@ -13786,9 +13786,10 @@ GetWindow
 )
 )
 ;
-MOZ_ASSERT
+NS_ENSURE_TRUE
 (
 win
+JS_TRUE
 )
 ;
 if
