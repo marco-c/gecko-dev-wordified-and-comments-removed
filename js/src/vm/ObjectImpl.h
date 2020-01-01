@@ -5187,6 +5187,7 @@ VALUES_PER_HEADER
 extern
 HeapSlot
 *
+const
 emptyObjectElements
 ;
 struct

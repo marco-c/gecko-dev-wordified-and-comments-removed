@@ -38,6 +38,7 @@ js
 :
 Class
 *
+const
 )
 FunctionClassPtr
 ;

@@ -256,6 +256,7 @@ char
 Screen
 ;
 STATIC
+CONST
 char
 NEWLINE
 [
@@ -300,6 +301,7 @@ int
 Signal
 ;
 FORWARD
+CONST
 KEYMAP
 Map
 [
@@ -307,6 +309,7 @@ Map
 ]
 ;
 FORWARD
+CONST
 KEYMAP
 MetaMap
 [
@@ -3416,6 +3419,7 @@ unsigned
 int
 c
 ;
+CONST
 KEYMAP
 *
 kp
@@ -3662,6 +3666,7 @@ c
 STATUS
 s
 ;
+const
 KEYMAP
 *
 kp
@@ -4349,6 +4354,7 @@ line
 TTYputs
 (
 (
+CONST
 CHAR
 *
 )
@@ -5626,6 +5632,7 @@ s
 ;
 }
 STATIC
+CONST
 KEYMAP
 Map
 [
@@ -5900,6 +5907,7 @@ NULL
 }
 ;
 STATIC
+CONST
 KEYMAP
 MetaMap
 [
