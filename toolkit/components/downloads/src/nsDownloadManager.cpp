@@ -8904,6 +8904,8 @@ if
 fileURL
 &
 &
+NS_SUCCEEDED
+(
 fileURL
 -
 >
@@ -8912,6 +8914,7 @@ GetFile
 getter_AddRefs
 (
 file
+)
 )
 )
 &

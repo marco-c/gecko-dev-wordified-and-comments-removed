@@ -481,6 +481,7 @@ gDownloadCount
 function
 addDownload
 (
+aResultFileName
 )
 {
 const
@@ -552,6 +553,9 @@ destFile
 .
 append
 (
+aResultFileName
+|
+|
 "
 download
 .
