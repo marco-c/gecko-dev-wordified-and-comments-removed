@@ -3789,7 +3789,7 @@ rt
 >
 atomState
 .
-nullAtom
+null
 )
 ;
 else
