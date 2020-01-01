@@ -748,7 +748,7 @@ OS
 X
 10
 .
-4
+5
 and
 if
 that
@@ -823,7 +823,7 @@ noErr
 |
 response
 <
-0x00001040
+0x00001050
 )
 {
 NSLog
@@ -836,7 +836,7 @@ X
 version
 10
 .
-4
+5
 or
 newer
 "
