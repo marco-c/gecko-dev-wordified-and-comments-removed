@@ -42,7 +42,9 @@ user
 foo
 Testing
 INFO
-Retrieving
+HTTP
+GET
+from
 meta
 /
 version
@@ -51,7 +53,9 @@ status
 200
 Testing
 INFO
-Retrieving
+HTTP
+GET
+from
 private
 /
 privkey

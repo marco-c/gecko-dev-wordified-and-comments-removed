@@ -932,7 +932,9 @@ getTestLogger
 info
 (
 "
-Putting
+HTTP
+PUT
+to
 "
 +
 path
@@ -1020,7 +1022,9 @@ getTestLogger
 info
 (
 "
-Retrieving
+HTTP
+GET
+from
 "
 +
 path
@@ -1064,8 +1068,9 @@ getTestLogger
 info
 (
 "
-Creating
-dir
+HTTP
+MKCOL
+on
 "
 +
 path
