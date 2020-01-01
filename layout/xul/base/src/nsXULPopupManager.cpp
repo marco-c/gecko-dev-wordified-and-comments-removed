@@ -925,6 +925,7 @@ Frame
 SetPopupPosition
 (
 nsnull
+PR_TRUE
 )
 ;
 item

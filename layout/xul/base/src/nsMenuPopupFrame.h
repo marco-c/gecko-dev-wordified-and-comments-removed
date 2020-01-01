@@ -401,6 +401,10 @@ SetPopupPosition
 nsIFrame
 *
 aAnchorFrame
+PRBool
+aIsMove
+=
+PR_FALSE
 )
 ;
 PRBool
@@ -632,6 +636,8 @@ PRInt32
 aLeft
 PRInt32
 aTop
+PRBool
+aUpdateAttrs
 )
 ;
 PRBool
@@ -697,15 +703,6 @@ aSize
 }
 protected
 :
-void
-MoveToInternal
-(
-PRInt32
-aLeft
-PRInt32
-aTop
-)
-;
 virtual
 void
 GetLayoutFlags
