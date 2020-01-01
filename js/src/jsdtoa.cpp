@@ -1638,7 +1638,7 @@ dval
 di
 )
 =
-fd_floor
+floor
 (
 dval
 (
