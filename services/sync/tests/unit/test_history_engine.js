@@ -122,6 +122,8 @@ SyncTestingInfrastructure
 (
 )
 ;
+add_test
+(
 function
 test_processIncoming_mobile_history_batched
 (
@@ -434,10 +436,6 @@ handler
 (
 )
 }
-)
-;
-do_test_pending
-(
 )
 ;
 let
@@ -1018,6 +1016,8 @@ clearCache
 ;
 }
 }
+)
+;
 function
 run_test
 (
@@ -1027,7 +1027,7 @@ generateNewKeys
 (
 )
 ;
-test_processIncoming_mobile_history_batched
+run_next_test
 (
 )
 ;
