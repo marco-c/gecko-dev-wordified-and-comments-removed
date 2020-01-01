@@ -77,6 +77,7 @@ hb_shaper_pair_t
 static_shapers
 ;
 static
+inline
 void
 free_static_shapers
 (

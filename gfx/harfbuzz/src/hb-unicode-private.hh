@@ -358,6 +358,17 @@ hb_codepoint_t
 unicode
 )
 {
+if
+(
+unicode
+=
+=
+0x1037
+)
+unicode
+=
+0x103A
+;
 return
 _hb_modified_combining_class
 [

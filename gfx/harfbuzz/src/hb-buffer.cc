@@ -3242,7 +3242,7 @@ reset
 ;
 }
 void
-hb_buffer_clear
+hb_buffer_clear_contents
 (
 hb_buffer_t
 *

@@ -691,7 +691,7 @@ normalization_preference_default
 NULL
 compose_default
 NULL
-true
+HB_OT_SHAPE_ZERO_WIDTH_MARKS_BY_UNICODE
 true
 }
 ;

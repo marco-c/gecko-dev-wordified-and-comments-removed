@@ -520,8 +520,6 @@ font
 hb_buffer_t
 *
 buffer
-hb_bool_t
-zero_width_attached_marks
 )
 ;
 namespace
