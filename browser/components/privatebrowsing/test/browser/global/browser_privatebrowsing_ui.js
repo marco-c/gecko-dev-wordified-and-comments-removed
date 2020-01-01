@@ -286,16 +286,6 @@ false
 ;
 OpenBrowserWindow
 (
-{
-private
-:
-PrivateBrowsingUtils
-.
-isWindowPrivate
-(
-window
-)
-}
 )
 ;
 }
