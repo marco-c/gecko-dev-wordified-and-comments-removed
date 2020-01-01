@@ -310,9 +310,6 @@ JSPackedBool
 onTrace
 ;
 JSPackedBool
-prohibitRecording
-;
-JSPackedBool
 useReservedObjects
 ;
 CLS
@@ -361,6 +358,9 @@ vmfragments
 [
 FRAGMENT_TABLE_SIZE
 ]
+;
+uintN
+prohibitFlush
 ;
 JSBool
 needFlush
