@@ -486,6 +486,14 @@ PRUint8
 aAttrEnum
 )
 ;
+virtual
+void
+DidAnimateNumber
+(
+PRUint8
+aAttrEnum
+)
+;
 void
 GetAnimatedLengthValues
 (

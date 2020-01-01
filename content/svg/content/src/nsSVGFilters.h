@@ -656,6 +656,14 @@ GetLengthInfo
 (
 )
 ;
+virtual
+void
+DidAnimateNumber
+(
+PRUint8
+aAttrEnum
+)
+;
 enum
 {
 X

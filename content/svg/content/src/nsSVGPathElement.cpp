@@ -2035,6 +2035,15 @@ nsGkAtoms
 :
 :
 d
+|
+|
+aName
+=
+=
+nsGkAtoms
+:
+:
+pathLength
 )
 return
 PR_TRUE
