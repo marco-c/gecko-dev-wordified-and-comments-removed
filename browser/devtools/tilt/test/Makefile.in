@@ -602,6 +602,10 @@ browser_tilt_picking_highlight03
 .
 js
 \
+browser_tilt_picking_miv
+.
+js
+\
 browser_tilt_utils01
 .
 js
