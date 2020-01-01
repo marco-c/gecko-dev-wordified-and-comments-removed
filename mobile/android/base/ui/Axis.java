@@ -78,7 +78,7 @@ SNAP_LIMIT
 =
 0
 .
-75f
+3f
 ;
 private
 static
