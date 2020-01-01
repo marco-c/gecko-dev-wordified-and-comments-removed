@@ -561,10 +561,14 @@ SunOS
 )
 ifneq
 (
+86
+(
+findstring
+86
 (
 OS_TEST
 )
-i86pc
+)
 )
 ifdef
 HAVE_64BIT_OS
