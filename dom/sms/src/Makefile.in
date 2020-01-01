@@ -187,10 +187,6 @@ SmsMessage
 .
 h
 \
-SmsRequestManager
-.
-h
-\
 SmsRequest
 .
 h
@@ -238,10 +234,6 @@ SmsChild
 cpp
 \
 SmsRequest
-.
-cpp
-\
-SmsRequestManager
 .
 cpp
 \

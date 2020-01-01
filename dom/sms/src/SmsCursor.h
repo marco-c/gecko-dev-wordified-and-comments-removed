@@ -38,7 +38,7 @@ class
 nsIDOMMozSmsMessage
 ;
 class
-nsIDOMMozSmsRequest
+nsISmsRequest
 ;
 namespace
 mozilla
@@ -72,7 +72,7 @@ SmsCursor
 (
 int32_t
 aListId
-nsIDOMMozSmsRequest
+nsISmsRequest
 *
 aRequest
 )
@@ -102,7 +102,7 @@ mListId
 ;
 nsCOMPtr
 <
-nsIDOMMozSmsRequest
+nsISmsRequest
 >
 mRequest
 ;

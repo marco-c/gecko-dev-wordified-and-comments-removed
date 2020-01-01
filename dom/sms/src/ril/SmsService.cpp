@@ -201,10 +201,9 @@ const
 nsAString
 &
 aMessage
-int32_t
-aRequestId
-uint64_t
-aProcessId
+nsISmsRequest
+*
+aRequest
 )
 {
 if
@@ -224,8 +223,7 @@ SendSMS
 (
 aNumber
 aMessage
-aRequestId
-aProcessId
+aRequest
 )
 ;
 return

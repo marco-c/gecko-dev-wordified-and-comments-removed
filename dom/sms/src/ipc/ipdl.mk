@@ -56,7 +56,15 @@ MPL
 IPDLSRCS
 =
 \
+SmsTypes
+.
+ipdlh
+\
 PSms
+.
+ipdl
+\
+PSmsRequest
 .
 ipdl
 \

@@ -125,7 +125,7 @@ nsISmsDatabaseService
 .
 idl
 \
-nsISmsRequestManager
+nsISmsRequest
 .
 idl
 \
