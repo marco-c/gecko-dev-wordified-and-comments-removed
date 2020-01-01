@@ -901,6 +901,8 @@ uint32_t
 aAppId
 bool
 aInBrowserElement
+bool
+aIsPrivate
 nsCString
 &
 aCookie
@@ -948,6 +950,8 @@ uint32_t
 aAppId
 bool
 aInBrowserElement
+bool
+aIsPrivate
 )
 ;
 bool
