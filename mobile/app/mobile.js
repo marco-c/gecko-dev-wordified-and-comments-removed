@@ -6045,3 +6045,15 @@ site
 ;
 #
 endif
+pref
+(
+"
+content
+.
+ime
+.
+strict_policy
+"
+true
+)
+;
