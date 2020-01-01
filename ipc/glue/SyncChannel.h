@@ -126,6 +126,8 @@ SyncChannel
 (
 )
 ;
+NS_OVERRIDE
+virtual
 bool
 Send
 (
@@ -144,6 +146,7 @@ msg
 )
 ;
 }
+virtual
 bool
 Send
 (

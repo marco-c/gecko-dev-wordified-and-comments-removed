@@ -209,6 +209,7 @@ Close
 (
 )
 ;
+virtual
 bool
 Send
 (
