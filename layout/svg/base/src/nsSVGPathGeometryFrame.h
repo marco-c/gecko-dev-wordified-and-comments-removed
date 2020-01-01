@@ -227,16 +227,6 @@ nsIDOMSVGMatrix
 aCTM
 )
 ;
-virtual
-nsresult
-UpdateGraphic
-(
-PRBool
-suppressInvalidation
-=
-PR_FALSE
-)
-;
 protected
 :
 NS_IMETHOD

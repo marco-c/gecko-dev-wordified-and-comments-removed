@@ -58,7 +58,7 @@ aContext
 {
 }
 void
-UpdateGraphic
+NotifyGlyphMetricsChange
 (
 )
 ;

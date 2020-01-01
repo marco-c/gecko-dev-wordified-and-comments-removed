@@ -172,7 +172,7 @@ aStateMask
 mTextPathFrame
 -
 >
-UpdateGraphic
+NotifyGlyphMetricsChange
 (
 )
 ;
@@ -917,7 +917,7 @@ nsGkAtoms
 startOffset
 )
 {
-UpdateGraphic
+NotifyGlyphMetricsChange
 (
 )
 ;
@@ -944,7 +944,7 @@ mPathListener
 =
 nsnull
 ;
-UpdateGraphic
+NotifyGlyphMetricsChange
 (
 )
 ;

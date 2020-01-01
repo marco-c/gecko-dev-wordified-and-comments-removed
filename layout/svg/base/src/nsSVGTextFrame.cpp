@@ -1004,6 +1004,11 @@ mPositioningDirty
 =
 PR_TRUE
 ;
+UpdateGlyphPositioning
+(
+PR_FALSE
+)
+;
 }
 static
 void
@@ -1149,6 +1154,10 @@ node
 )
 return
 ;
+mPositioningDirty
+=
+PR_FALSE
+;
 PRUint8
 baseline
 ;
@@ -1288,10 +1297,6 @@ if
 firstFragment
 )
 {
-mPositioningDirty
-=
-PR_FALSE
-;
 return
 ;
 }
@@ -1690,8 +1695,4 @@ firstFragment
 fragment
 ;
 }
-mPositioningDirty
-=
-PR_FALSE
-;
 }

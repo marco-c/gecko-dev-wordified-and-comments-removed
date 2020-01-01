@@ -243,7 +243,7 @@ dy
 )
 )
 {
-UpdateGraphic
+NotifyGlyphMetricsChange
 (
 )
 ;

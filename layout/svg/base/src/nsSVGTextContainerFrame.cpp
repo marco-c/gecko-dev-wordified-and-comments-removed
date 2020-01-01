@@ -77,7 +77,7 @@ void
 nsSVGTextContainerFrame
 :
 :
-UpdateGraphic
+NotifyGlyphMetricsChange
 (
 )
 {
@@ -435,7 +435,7 @@ aPrevFrame
 aFrameList
 )
 ;
-UpdateGraphic
+NotifyGlyphMetricsChange
 (
 )
 ;
