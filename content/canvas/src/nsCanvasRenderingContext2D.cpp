@@ -6605,6 +6605,7 @@ Length
 (
 )
 tightBoundingBox
+mThebesContext
 nsnull
 )
 ;
