@@ -229,11 +229,13 @@ uint32
 nargs
 )
 ;
+inline
 void
 pushSynced
 (
 )
 ;
+inline
 void
 pushSyncedType
 (
@@ -241,6 +243,7 @@ uint32
 tag
 )
 ;
+inline
 void
 push
 (
@@ -250,6 +253,7 @@ Value
 v
 )
 ;
+inline
 void
 push
 (
@@ -257,6 +261,7 @@ Address
 address
 )
 ;
+inline
 void
 pushTypedPayload
 (
@@ -266,11 +271,13 @@ RegisterID
 payload
 )
 ;
+inline
 void
 pop
 (
 )
 ;
+inline
 void
 popn
 (
@@ -278,6 +285,7 @@ uint32
 n
 )
 ;
+inline
 RegisterID
 tempRegForType
 (
@@ -286,6 +294,7 @@ FrameEntry
 fe
 )
 ;
+inline
 void
 freeReg
 (
@@ -293,11 +302,13 @@ RegisterID
 reg
 )
 ;
+inline
 RegisterID
 allocReg
 (
 )
 ;
+inline
 FrameEntry
 *
 peek
@@ -325,6 +336,7 @@ uint32
 mask
 )
 ;
+inline
 void
 forgetEverything
 (
@@ -374,11 +386,13 @@ const
 endif
 private
 :
+inline
 RegisterID
 alloc
 (
 )
 ;
+inline
 RegisterID
 alloc
 (
@@ -394,6 +408,7 @@ bool
 weak
 )
 ;
+inline
 void
 forgetReg
 (
@@ -406,12 +421,14 @@ evictSomething
 (
 )
 ;
+inline
 FrameEntry
 *
 rawPush
 (
 )
 ;
+inline
 FrameEntry
 *
 addToTracker
@@ -420,6 +437,7 @@ uint32
 index
 )
 ;
+inline
 void
 syncType
 (
@@ -433,6 +451,7 @@ masm
 )
 const
 ;
+inline
 void
 syncData
 (

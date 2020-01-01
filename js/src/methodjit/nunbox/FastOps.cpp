@@ -28,6 +28,17 @@ h
 #
 include
 "
+methodjit
+/
+FrameState
+-
+inl
+.
+h
+"
+#
+include
+"
 jsautooplen
 .
 h
