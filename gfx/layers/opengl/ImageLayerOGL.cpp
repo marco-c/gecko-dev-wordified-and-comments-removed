@@ -1125,9 +1125,6 @@ GetFormat
 )
 !
 =
-ImageFormat
-:
-:
 REMOTE_IMAGE_BITMAP
 "
 Remote
@@ -1176,9 +1173,6 @@ GetFormat
 )
 =
 =
-ImageFormat
-:
-:
 PLANAR_YCBCR
 )
 {
@@ -1598,9 +1592,6 @@ GetFormat
 )
 =
 =
-ImageFormat
-:
-:
 CAIRO_SURFACE
 )
 {
@@ -2061,9 +2052,6 @@ GetFormat
 )
 =
 =
-ImageFormat
-:
-:
 MAC_IO_SURFACE
 )
 {
@@ -2413,9 +2401,6 @@ GetFormat
 )
 =
 =
-ImageFormat
-:
-:
 GONK_IO_SURFACE
 )
 {
@@ -3553,9 +3538,6 @@ GetFormat
 )
 !
 =
-ImageFormat
-:
-:
 CAIRO_SURFACE
 )
 {

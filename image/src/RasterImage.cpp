@@ -3200,9 +3200,6 @@ CreateImageContainer
 ImageFormat
 cairoFormat
 =
-ImageFormat
-:
-:
 CAIRO_SURFACE
 ;
 nsRefPtr

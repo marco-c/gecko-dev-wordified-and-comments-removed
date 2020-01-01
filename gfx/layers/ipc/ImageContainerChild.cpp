@@ -394,9 +394,6 @@ GetFormat
 )
 =
 =
-ImageFormat
-:
-:
 PLANAR_YCBCR
 )
 &
@@ -728,9 +725,6 @@ GetFormat
 )
 =
 =
-ImageFormat
-:
-:
 PLANAR_YCBCR
 )
 {
@@ -1096,9 +1090,6 @@ GetFormat
 )
 =
 =
-ImageFormat
-:
-:
 GONK_IO_SURFACE
 )
 {
@@ -1266,9 +1257,6 @@ GetFormat
 )
 {
 case
-ImageFormat
-:
-:
 PLANAR_YCBCR
 :
 {

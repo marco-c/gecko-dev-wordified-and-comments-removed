@@ -318,9 +318,6 @@ aStream
 ImageFormat
 format
 =
-ImageFormat
-:
-:
 PLANAR_YCBCR
 ;
 mImageContainer
