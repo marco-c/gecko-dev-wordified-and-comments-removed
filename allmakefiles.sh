@@ -635,6 +635,15 @@ if
 "
 MOZ_MEMORY
 "
+-
+a
+"
+LIBXUL_SDK
+"
+-
+eq
+"
+"
 ]
 ;
 then
