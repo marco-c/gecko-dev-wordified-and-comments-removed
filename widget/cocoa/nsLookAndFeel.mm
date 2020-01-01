@@ -1851,6 +1851,15 @@ OnLionOrLater
 break
 ;
 case
+eIntID_AlertNotificationOrigin
+:
+aResult
+=
+NS_ALERT_TOP
+;
+break
+;
+case
 eIntID_TabFocusModel
 :
 {

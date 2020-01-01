@@ -94,6 +94,10 @@ nsAlertsService
 .
 cpp
 \
+nsXULAlerts
+.
+cpp
+\
 (
 NULL
 )
