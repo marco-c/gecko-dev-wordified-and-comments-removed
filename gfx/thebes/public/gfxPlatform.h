@@ -477,6 +477,11 @@ DownloadableFontsEnabled
 (
 )
 ;
+PRInt8
+UseHarfBuzzLevel
+(
+)
+;
 virtual
 PRBool
 IsFontFormatSupported
@@ -788,6 +793,9 @@ sDPI
 ;
 PRBool
 mAllowDownloadableFonts
+;
+PRInt8
+mUseHarfBuzzLevel
 ;
 private
 :

@@ -1325,6 +1325,10 @@ return
 rv
 ;
 }
+mHasCmapTable
+=
+PR_TRUE
+;
 /
 /
 for

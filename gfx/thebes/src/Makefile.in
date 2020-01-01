@@ -130,6 +130,10 @@ gfxScriptItemizer
 .
 cpp
 \
+gfxHarfBuzzShaper
+.
+cpp
+\
 GLContext
 .
 cpp

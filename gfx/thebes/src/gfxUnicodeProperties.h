@@ -56,6 +56,14 @@ PRUint32
 aCh
 )
 ;
+static
+PRInt32
+ScriptShapingLevel
+(
+PRInt32
+aScriptCode
+)
+;
 }
 ;
 #
