@@ -861,10 +861,6 @@ mTagStackIndex
 PRUint32
 mIgnoreAboveIndex
 ;
-PRInt32
-*
-mOLStack
-;
 PRUint32
 mOLStackIndex
 ;
