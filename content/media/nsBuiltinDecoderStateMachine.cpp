@@ -2437,12 +2437,7 @@ aAudio
 -
 >
 mFrames
-nsAudioStream
-:
-:
-Format
-(
-)
+AUDIO_OUTPUT_FORMAT
 )
 ;
 LOG
