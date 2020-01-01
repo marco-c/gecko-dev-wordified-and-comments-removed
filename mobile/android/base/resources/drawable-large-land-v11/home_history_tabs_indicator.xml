@@ -202,7 +202,7 @@ drawable
 "
 color
 /
-highlight_dark_focused
+background_normal
 "
 /
 >
@@ -270,7 +270,7 @@ drawable
 "
 color
 /
-highlight_dark
+background_normal
 "
 /
 >
@@ -304,7 +304,7 @@ drawable
 "
 color
 /
-highlight_dark
+background_normal
 "
 /
 >
@@ -338,7 +338,7 @@ drawable
 "
 color
 /
-highlight_dark
+background_normal
 "
 /
 >
@@ -372,7 +372,7 @@ drawable
 "
 color
 /
-highlight_dark
+background_normal
 "
 /
 >
