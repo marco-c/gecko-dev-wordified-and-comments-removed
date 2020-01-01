@@ -404,12 +404,6 @@ Play
 )
 ;
 virtual
-nsresult
-PlaybackRateChanged
-(
-)
-;
-virtual
 void
 Pause
 (
