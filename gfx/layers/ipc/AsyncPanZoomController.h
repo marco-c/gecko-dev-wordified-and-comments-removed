@@ -286,10 +286,7 @@ GetDPI
 ;
 static
 const
-gfx
-:
-:
-Rect
+CSSRect
 CalculatePendingDisplayPort
 (
 const

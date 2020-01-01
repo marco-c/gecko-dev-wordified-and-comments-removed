@@ -805,10 +805,7 @@ ProgressiveUpdateCallback
 bool
 aHasPendingNewThebesContent
 const
-gfx
-:
-:
-Rect
+LayerRect
 &
 aDisplayPort
 float
@@ -1773,10 +1770,7 @@ aCssPageRect
 bool
 aLayersUpdated
 const
-gfx
-:
-:
-Rect
+CSSRect
 &
 aDisplayPort
 float

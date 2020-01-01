@@ -436,10 +436,7 @@ aCssPageRect
 bool
 aLayersUpdated
 const
-gfx
-:
-:
-Rect
+CSSRect
 &
 aDisplayPort
 float
