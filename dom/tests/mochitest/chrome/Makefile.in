@@ -496,6 +496,14 @@ test_geolocation
 .
 xul
 \
+test_activation
+.
+xul
+\
+window_activation
+.
+xul
+\
 (
 NULL
 )
