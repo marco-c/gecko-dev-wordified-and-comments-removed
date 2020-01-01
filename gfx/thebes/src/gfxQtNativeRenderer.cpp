@@ -1,5 +1,10 @@
 #
 include
+<
+QWidget
+>
+#
+include
 "
 gfxQtNativeRenderer
 .
@@ -26,11 +31,6 @@ cairo
 .
 h
 "
-#
-include
-<
-QWidget
->
 typedef
 struct
 {

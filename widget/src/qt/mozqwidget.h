@@ -6,13 +6,6 @@ define
 MOZQWIDGET_H
 #
 include
-"
-nsIWidget
-.
-h
-"
-#
-include
 <
 QtGui
 /
@@ -32,6 +25,13 @@ QtGui
 /
 QGraphicsWidget
 >
+#
+include
+"
+nsIWidget
+.
+h
+"
 class
 QEvent
 ;

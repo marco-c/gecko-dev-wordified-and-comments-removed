@@ -6,6 +6,13 @@ define
 NSFILEPICKER_H
 #
 include
+<
+qfiledialog
+.
+h
+>
+#
+include
 "
 nsBaseFilePicker
 .
@@ -39,13 +46,6 @@ nsCOMArray
 .
 h
 "
-#
-include
-<
-qfiledialog
-.
-h
->
 class
 nsIWidget
 ;

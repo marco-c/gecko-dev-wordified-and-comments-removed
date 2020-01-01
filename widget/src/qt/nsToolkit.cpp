@@ -1,14 +1,14 @@
 #
 include
 "
-nscore
+nsToolkit
 .
 h
 "
 #
 include
 "
-nsToolkit
+nscore
 .
 h
 "

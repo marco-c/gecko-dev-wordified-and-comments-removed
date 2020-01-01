@@ -1,12 +1,5 @@
 #
 include
-"
-nsBidiKeyboard
-.
-h
-"
-#
-include
 <
 Qt
 >
@@ -15,6 +8,13 @@ include
 <
 QApplication
 >
+#
+include
+"
+nsBidiKeyboard
+.
+h
+"
 NS_IMPL_ISUPPORTS1
 (
 nsBidiKeyboard

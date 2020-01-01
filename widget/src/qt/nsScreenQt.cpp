@@ -1,12 +1,5 @@
 #
 include
-"
-nsScreenQt
-.
-h
-"
-#
-include
 <
 qcolor
 .
@@ -40,6 +33,13 @@ qapplication
 .
 h
 >
+#
+include
+"
+nsScreenQt
+.
+h
+"
 nsScreenQt
 :
 :

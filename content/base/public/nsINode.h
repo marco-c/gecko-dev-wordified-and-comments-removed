@@ -1735,7 +1735,7 @@ FlagsAsSlots
 }
 nsSlots
 *
-slots
+newSlots
 =
 CreateSlots
 (
@@ -1743,7 +1743,7 @@ CreateSlots
 ;
 if
 (
-slots
+newSlots
 )
 {
 mFlagsOrSlots
@@ -1753,12 +1753,12 @@ reinterpret_cast
 PtrBits
 >
 (
-slots
+newSlots
 )
 ;
 }
 return
-slots
+newSlots
 ;
 }
 nsTObserverArray

@@ -6,6 +6,11 @@ define
 nsToolkit_h__
 #
 include
+<
+QPixmap
+>
+#
+include
 "
 nsIToolkit
 .
@@ -18,11 +23,6 @@ nsString
 .
 h
 "
-#
-include
-<
-QPixmap
->
 class
 nsToolkit
 :
