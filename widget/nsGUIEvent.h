@@ -290,10 +290,6 @@ NS_EVENT_FLAG_EXCEPTION_THROWN
 0x10000
 #
 define
-NS_EVENT_FLAG_PREVENT_MULTIPLE_ACTIONS
-0x20000
-#
-define
 NS_EVENT_RETARGET_TO_NON_NATIVE_ANONYMOUS
 0x40000
 #
@@ -1884,6 +1880,11 @@ mDefaultPrevented
 ;
 bool
 mDefaultPreventedByContent
+:
+1
+;
+bool
+mMultipleActionsPrevented
 :
 1
 ;
