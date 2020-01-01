@@ -314,6 +314,8 @@ _notifyOutput
 false
 ;
 }
+this
+.
 Input
 .
 quickNavMode
@@ -650,6 +652,8 @@ getWeakReference
 stylesheet
 )
 ;
+this
+.
 Input
 .
 start
@@ -854,6 +858,8 @@ mm
 )
 ;
 }
+this
+.
 Input
 .
 stop
@@ -1180,6 +1186,8 @@ AccessFu
 Input
 '
 :
+this
+.
 Input
 .
 setEditState
@@ -1537,6 +1545,8 @@ Accessibility
 NextObject
 '
 :
+this
+.
 Input
 .
 moveCursor
@@ -1561,6 +1571,8 @@ Accessibility
 PreviousObject
 '
 :
+this
+.
 Input
 .
 moveCursor
@@ -1684,6 +1696,8 @@ case
 quicknav_modes
 '
 :
+this
+.
 Input
 .
 quickNavMode
@@ -4355,4 +4369,10 @@ _currentIndex
 1
 }
 }
+;
+AccessFu
+.
+Input
+=
+Input
 ;
