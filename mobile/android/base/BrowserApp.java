@@ -4388,7 +4388,7 @@ getInstance
 (
 )
 .
-getCount
+getDisplayCount
 (
 )
 =

@@ -2617,7 +2617,7 @@ getInstance
 (
 )
 .
-getCount
+getDisplayCount
 (
 )
 )
@@ -2676,7 +2676,7 @@ getInstance
 (
 )
 .
-getCount
+getDisplayCount
 (
 )
 )
@@ -6787,7 +6787,7 @@ getInstance
 (
 )
 .
-getCount
+getDisplayCount
 (
 )
 )
