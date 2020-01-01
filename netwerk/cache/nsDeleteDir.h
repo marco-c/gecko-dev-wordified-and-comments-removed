@@ -27,6 +27,10 @@ PRBool
 moveToTrash
 PRBool
 sync
+PRUint32
+delay
+=
+0
 )
 ;
 NS_HIDDEN_

@@ -4275,6 +4275,7 @@ DeleteDir
 mCacheDirectory
 PR_TRUE
 PR_FALSE
+60000
 )
 ;
 if
@@ -4439,6 +4440,7 @@ exists
 &
 exists
 )
+{
 DeleteDir
 (
 trashDir
@@ -4446,6 +4448,7 @@ PR_FALSE
 PR_FALSE
 )
 ;
+}
 }
 }
 return
