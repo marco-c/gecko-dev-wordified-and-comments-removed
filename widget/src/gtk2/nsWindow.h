@@ -249,6 +249,9 @@ args
 #
 endif
 class
+nsShmImage
+;
+class
 nsWindow
 :
 public
@@ -1525,6 +1528,17 @@ mTransparencyBitmapWidth
 PRInt32
 mTransparencyBitmapHeight
 ;
+#
+ifdef
+MOZ_X11
+nsRefPtr
+<
+nsShmImage
+>
+mShmImage
+;
+#
+endif
 nsRefPtr
 <
 gfxASurface
