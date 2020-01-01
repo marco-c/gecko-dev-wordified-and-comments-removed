@@ -138,14 +138,9 @@ NS_DECL_QUERYFRAME
 NS_IMETHOD
 CharacterDataChanged
 (
-nsPresContext
+CharacterDataChangeInfo
 *
-aPresContext
-nsIContent
-*
-aChild
-PRBool
-aAppend
+aInfo
 )
 ;
 virtual

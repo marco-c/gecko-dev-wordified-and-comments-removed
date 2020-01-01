@@ -623,14 +623,9 @@ aFrame
 NS_IMETHOD
 CharacterDataChanged
 (
-nsPresContext
+CharacterDataChangeInfo
 *
-aPresContext
-nsIContent
-*
-aChild
-PRBool
-aAppend
+aInfo
 )
 ;
 NS_IMETHOD

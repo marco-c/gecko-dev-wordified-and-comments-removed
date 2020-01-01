@@ -150,6 +150,9 @@ nsSize
 struct
 nsMargin
 ;
+struct
+CharacterDataChangeInfo
+;
 typedef
 class
 nsIFrame
@@ -2189,14 +2192,9 @@ aBits
 NS_IMETHOD
 CharacterDataChanged
 (
-nsPresContext
+CharacterDataChangeInfo
 *
-aPresContext
-nsIContent
-*
-aChild
-PRBool
-aAppend
+aInfo
 )
 =
 0
