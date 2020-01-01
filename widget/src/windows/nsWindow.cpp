@@ -2766,7 +2766,7 @@ wc
 }
 }
 return
-className
+kClassNameDropShadow
 ;
 }
 #
