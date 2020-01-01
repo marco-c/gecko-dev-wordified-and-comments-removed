@@ -4545,6 +4545,8 @@ aInvalidRect
 bottom
 }
 ;
+:
+:
 InvalidateRect
 (
 mPluginWindowHWND
