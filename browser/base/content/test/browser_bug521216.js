@@ -38,9 +38,7 @@ function
 )
 gBrowser
 .
-tabContainer
-.
-childNodes
+tabs
 [
 tabIndex
 ]
@@ -59,9 +57,9 @@ tabIndex
 =
 gBrowser
 .
-tabContainer
+tabs
 .
-childElementCount
+length
 ;
 gBrowser
 .

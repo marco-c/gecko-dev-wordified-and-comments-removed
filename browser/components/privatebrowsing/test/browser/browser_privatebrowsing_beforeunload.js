@@ -335,9 +335,7 @@ is
 (
 gBrowser
 .
-tabContainer
-.
-childNodes
+tabs
 .
 length
 3
@@ -519,9 +517,7 @@ is
 (
 gBrowser
 .
-tabContainer
-.
-childNodes
+tabs
 .
 length
 1
@@ -720,9 +716,7 @@ is
 (
 gBrowser
 .
-tabContainer
-.
-childNodes
+tabs
 .
 length
 2
@@ -870,9 +864,7 @@ is
 (
 gBrowser
 .
-tabContainer
-.
-childNodes
+tabs
 .
 length
 3

@@ -136,9 +136,7 @@ pickOne
 (
 gBrowser
 .
-tabContainer
-.
-childNodes
+tabs
 )
 ;
 return
@@ -150,9 +148,7 @@ indexOf
 (
 gBrowser
 .
-tabContainer
-.
-childNodes
+tabs
 tab
 )
 ]

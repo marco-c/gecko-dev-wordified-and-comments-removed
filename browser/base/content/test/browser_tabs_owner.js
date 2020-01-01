@@ -26,9 +26,7 @@ tabs
 =
 gBrowser
 .
-tabContainer
-.
-childNodes
+tabs
 ;
 var
 owner
