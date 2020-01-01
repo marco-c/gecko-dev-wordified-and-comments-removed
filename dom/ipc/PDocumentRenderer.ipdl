@@ -423,6 +423,9 @@ include
 protocol
 PBrowser
 ;
+using
+nsIntSize
+;
 namespace
 mozilla
 {
@@ -454,10 +457,8 @@ data
 .
 __delete__
 (
-PRUint32
-w
-PRUint32
-h
+nsIntSize
+renderedSize
 nsCString
 data
 )
