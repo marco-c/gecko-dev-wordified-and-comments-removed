@@ -362,7 +362,10 @@ void
 ScrollBy
 (
 const
-nsIntPoint
+gfx
+:
+:
+Point
 &
 aOffset
 )
