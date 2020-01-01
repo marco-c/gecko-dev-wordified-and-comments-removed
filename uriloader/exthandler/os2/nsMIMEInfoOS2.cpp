@@ -2735,9 +2735,6 @@ application
 return
 rv
 ;
-PRUint32
-pid
-;
 if
 (
 NS_FAILED
@@ -2752,8 +2749,6 @@ Run
 PR_FALSE
 params
 numParams
-&
-pid
 )
 )
 )
