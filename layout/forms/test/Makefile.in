@@ -538,6 +538,10 @@ test_bug377624
 .
 html
 \
+test_bug571352
+.
+html
+\
 test_bug572406
 .
 html
