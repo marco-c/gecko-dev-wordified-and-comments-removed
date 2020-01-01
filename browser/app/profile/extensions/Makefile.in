@@ -72,11 +72,9 @@ DISTROEXT
 call
 core_abspath
 (
-DIST
+FINAL_TARGET
 )
 )
-/
-bin
 /
 distribution
 /
