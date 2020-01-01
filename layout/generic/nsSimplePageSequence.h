@@ -73,8 +73,7 @@ nsSharedPageData
 (
 )
 ;
-PRUnichar
-*
+nsString
 mDateTimeStr
 ;
 nsFont
@@ -411,8 +410,9 @@ aPageNumOnly
 void
 SetDateTimeStr
 (
-PRUnichar
-*
+const
+nsAString
+&
 aDateTimeStr
 )
 ;
