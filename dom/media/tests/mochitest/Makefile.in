@@ -113,6 +113,10 @@ test_peerConnection_basicVideo
 .
 html
 \
+test_peerConnection_bug827843
+.
+html
+\
 head
 .
 js
