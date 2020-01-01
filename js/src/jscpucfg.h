@@ -51,10 +51,6 @@ define
 JS_BITS_PER_WORD_LOG2
 6
 #
-define
-JS_ALIGN_OF_POINTER
-8
-#
 else
 #
 error
@@ -106,10 +102,6 @@ JS_BYTES_PER_WORD
 define
 JS_BITS_PER_WORD_LOG2
 5
-#
-define
-JS_ALIGN_OF_POINTER
-4
 #
 elif
 defined

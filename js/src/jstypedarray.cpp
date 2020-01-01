@@ -14730,7 +14730,11 @@ Min
 size_t
 >
 (
-JS_ALIGN_OF_POINTER
+MOZ_ALIGNOF
+(
+void
+*
+)
 sizeof
 (
 DataType
@@ -14820,7 +14824,11 @@ Min
 size_t
 >
 (
-JS_ALIGN_OF_POINTER
+MOZ_ALIGNOF
+(
+void
+*
+)
 sizeof
 (
 DataType
