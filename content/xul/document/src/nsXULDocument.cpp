@@ -1371,6 +1371,10 @@ mStillWalking
 =
 PR_TRUE
 ;
+mMayStartLayout
+=
+PR_FALSE
+;
 mDocumentLoadGroup
 =
 do_GetWeakReference
@@ -7422,6 +7426,10 @@ NS_VMREFRESH_IMMEDIATE
 }
 }
 }
+mMayStartLayout
+=
+PR_TRUE
+;
 nsCOMPtr
 <
 nsIPresShell
@@ -7449,13 +7457,6 @@ NS_ENSURE_SUCCESS
 (
 rv
 rv
-)
-;
-shell
--
->
-BeginObservingDocument
-(
 )
 ;
 }

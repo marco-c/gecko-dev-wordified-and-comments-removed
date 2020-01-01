@@ -5609,6 +5609,10 @@ PR_FALSE
 )
 ;
 }
+mMayStartLayout
+=
+PR_FALSE
+;
 if
 (
 aReset

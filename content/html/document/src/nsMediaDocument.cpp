@@ -827,6 +827,10 @@ StartLayout
 (
 )
 {
+mMayStartLayout
+=
+PR_TRUE
+;
 nsPresShellIterator
 iter
 (
@@ -852,13 +856,6 @@ GetNextShell
 )
 )
 {
-shell
--
->
-BeginObservingDocument
-(
-)
-;
 nsRect
 visibleArea
 =
