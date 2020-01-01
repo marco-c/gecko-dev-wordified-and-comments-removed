@@ -132,13 +132,6 @@ about
 :
 blank
 "
-{
-sandboxName
-:
-'
-aboutSessionRestore
-'
-}
 )
 ;
 gStateObject
