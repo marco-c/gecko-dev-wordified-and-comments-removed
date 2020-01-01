@@ -3849,6 +3849,9 @@ SetDocumentDirectionality
 mozilla
 :
 :
+directionality
+:
+:
 Directionality
 aDir
 )

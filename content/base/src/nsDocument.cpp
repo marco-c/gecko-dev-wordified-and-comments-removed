@@ -999,6 +999,13 @@ mozilla
 :
 dom
 ;
+using
+namespace
+mozilla
+:
+:
+directionality
+;
 typedef
 nsTArray
 <
