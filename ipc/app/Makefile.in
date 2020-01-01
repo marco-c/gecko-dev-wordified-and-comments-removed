@@ -640,6 +640,12 @@ usp10
 msimg32
 )
 endif
+LIBS
++
+=
+(
+JEMALLOC_LIBS
+)
 include
 (
 topsrcdir
