@@ -1924,6 +1924,10 @@ libmozsqlite3
 .
 so
 \
+libsoundtouch
+.
+so
+\
 libnssutil3
 .
 so
