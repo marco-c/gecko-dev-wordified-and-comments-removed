@@ -84,6 +84,12 @@ bool
 EnumerateProperties
 )
 (
+JSContext
+*
+cx
+JSObject
+*
+wrapper
 JS
 :
 :
@@ -96,7 +102,13 @@ struct
 NativePropertyHooks
 {
 ResolveProperty
+mResolveOwnProperty
+;
+ResolveProperty
 mResolveProperty
+;
+EnumerateProperties
+mEnumerateOwnProperties
 ;
 EnumerateProperties
 mEnumerateProperties
