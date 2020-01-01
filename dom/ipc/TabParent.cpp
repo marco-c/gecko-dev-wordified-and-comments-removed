@@ -115,13 +115,6 @@ h
 #
 include
 "
-nsIIdentityInfo
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h
