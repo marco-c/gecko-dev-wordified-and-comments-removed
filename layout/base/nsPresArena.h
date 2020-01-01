@@ -9,15 +9,6 @@ include
 "
 mozilla
 /
-MemoryChecking
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MemoryReporting
 .
 h

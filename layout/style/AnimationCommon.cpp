@@ -102,6 +102,13 @@ Preferences
 .
 h
 "
+#
+include
+"
+RestyleManager
+.
+h
+"
 using
 namespace
 mozilla

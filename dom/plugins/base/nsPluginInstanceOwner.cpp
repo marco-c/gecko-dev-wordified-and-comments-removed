@@ -311,6 +311,13 @@ h
 #
 include
 "
+nsIDOMHTMLCollection
+.
+h
+"
+#
+include
+"
 nsContentCID
 .
 h

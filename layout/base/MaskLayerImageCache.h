@@ -7,7 +7,7 @@ MASKLAYERIMAGECACHE_H_
 #
 include
 "
-FrameLayerBuilder
+gfxMatrix
 .
 h
 "

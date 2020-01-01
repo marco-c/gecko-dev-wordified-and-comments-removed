@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIStyleSheet
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -48,6 +41,9 @@ nsISimpleEnumerator
 ;
 class
 nsICategoryManager
+;
+class
+nsIStyleSheet
 ;
 #
 define
