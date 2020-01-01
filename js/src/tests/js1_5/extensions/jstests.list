@@ -386,6 +386,7 @@ x86_64
 )
 )
 silentfail
+slow
 script
 regress
 -
@@ -424,6 +425,7 @@ shell
 Android
 )
 silentfail
+slow
 script
 regress
 -
@@ -493,6 +495,7 @@ WINNT
 )
 )
 silentfail
+slow
 script
 regress
 -
@@ -607,6 +610,7 @@ Linux
 )
 )
 silentfail
+slow
 script
 regress
 -
