@@ -544,8 +544,6 @@ maxPageUse
 NJ_LOG2_PAGE_SIZE
 ;
 }
-private
-:
 void
 clearFragment
 (
@@ -554,6 +552,8 @@ Fragment
 f
 )
 ;
+private
+:
 void
 pagesGrow
 (
@@ -757,6 +757,11 @@ root
 this
 ;
 }
+void
+onDestroy
+(
+)
+;
 verbose_only
 (
 uint32_t
