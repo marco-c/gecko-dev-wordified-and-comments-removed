@@ -445,6 +445,12 @@ SIMPLE_PROGRAMS
 SIMPLE_PROGRAMS
 '
             
+SSRCS
+=
+'
+SSRCS
+'
+            
 XPIDL_FLAGS
 =
 '
