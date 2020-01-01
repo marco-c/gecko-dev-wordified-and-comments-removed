@@ -1609,6 +1609,14 @@ n
 )
 )
 ;
+mGtkPageSetup
+=
+nsnull
+;
+mGtkPrintSettings
+=
+nsnull
+;
 }
 nsDeviceContextSpecGTK
 :
@@ -1645,10 +1653,6 @@ g_object_unref
 mGtkPageSetup
 )
 ;
-mGtkPageSetup
-=
-NULL
-;
 }
 if
 (
@@ -1659,10 +1663,6 @@ g_object_unref
 (
 mGtkPrintSettings
 )
-;
-mGtkPrintSettings
-=
-NULL
 ;
 }
 }
@@ -2889,7 +2889,7 @@ mSpoolName
 get
 (
 )
-NULL
+nsnull
 )
 )
 return
