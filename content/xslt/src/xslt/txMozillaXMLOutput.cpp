@@ -1151,8 +1151,12 @@ if
 element
 -
 >
-IsHTML
+IsNodeOfType
 (
+nsINode
+:
+:
+eHTML
 )
 )
 {
@@ -1190,8 +1194,12 @@ script
 element
 -
 >
-IsHTML
+IsNodeOfType
 (
+nsINode
+:
+:
+eHTML
 )
 |
 |

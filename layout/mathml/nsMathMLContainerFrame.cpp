@@ -4881,8 +4881,12 @@ if
 content
 -
 >
-IsMathML
+IsNodeOfType
 (
+nsINode
+:
+:
+eMATHML
 )
 )
 return

@@ -1344,8 +1344,12 @@ if
 selContent
 -
 >
-IsHTML
+IsNodeOfType
 (
+nsINode
+:
+:
+eHTML
 )
 )
 {

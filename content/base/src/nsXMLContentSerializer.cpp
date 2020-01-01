@@ -3086,8 +3086,12 @@ isHtml
 aContent
 -
 >
-IsHTML
+IsNodeOfType
 (
+nsINode
+:
+:
+eHTML
 )
 ;
 if

@@ -2024,8 +2024,12 @@ rootContent
 rootContent
 -
 >
-IsXUL
+IsNodeOfType
 (
+nsINode
+:
+:
+eXUL
 )
 )
 {

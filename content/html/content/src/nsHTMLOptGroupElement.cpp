@@ -415,8 +415,9 @@ GetParent
 parent
 -
 >
-IsHTML
+IsNodeOfType
 (
+eHTML
 )
 )
 {

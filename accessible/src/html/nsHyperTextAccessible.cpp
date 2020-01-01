@@ -2741,8 +2741,12 @@ if
 findContent
 -
 >
-IsHTML
+IsNodeOfType
 (
+nsINode
+:
+:
+eHTML
 )
 &
 &

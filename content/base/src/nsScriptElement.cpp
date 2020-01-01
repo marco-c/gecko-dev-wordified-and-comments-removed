@@ -426,7 +426,7 @@ static
 PRBool
 InNonScriptingContainer
 (
-nsIContent
+nsINode
 *
 aNode
 )
@@ -436,7 +436,7 @@ aNode
 aNode
 -
 >
-GetParent
+GetNodeParent
 (
 )
 ;
@@ -450,8 +450,12 @@ if
 aNode
 -
 >
-IsHTML
+IsNodeOfType
 (
+nsINode
+:
+:
+eHTML
 )
 )
 {
@@ -459,7 +463,14 @@ nsIAtom
 *
 localName
 =
+static_cast
+<
+nsIContent
+*
+>
+(
 aNode
+)
 -
 >
 Tag
@@ -505,7 +516,7 @@ aNode
 aNode
 -
 >
-GetParent
+GetNodeParent
 (
 )
 ;

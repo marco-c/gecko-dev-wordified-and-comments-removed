@@ -3862,8 +3862,12 @@ if
 child
 -
 >
-IsHTML
+IsNodeOfType
 (
+nsINode
+:
+:
+eHTML
 )
 )
 {
@@ -4517,8 +4521,12 @@ a
 aContent
 -
 >
-IsHTML
+IsNodeOfType
 (
+nsINode
+:
+:
+eHTML
 )
 &
 &

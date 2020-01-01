@@ -326,8 +326,12 @@ if
 child
 -
 >
-IsXUL
+IsNodeOfType
 (
+nsINode
+:
+:
+eXUL
 )
 )
 {

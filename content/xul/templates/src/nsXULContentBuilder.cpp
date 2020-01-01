@@ -4124,8 +4124,12 @@ if
 aElement
 -
 >
-IsXUL
+IsNodeOfType
 (
+nsINode
+:
+:
+eXUL
 )
 )
 return

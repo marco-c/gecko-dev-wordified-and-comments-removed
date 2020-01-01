@@ -1634,8 +1634,12 @@ source
 child
 -
 >
-IsHTML
+IsNodeOfType
 (
+nsINode
+:
+:
+eHTML
 )
 )
 {
@@ -6565,6 +6569,8 @@ eCONTENT
 |
 eELEMENT
 |
+eHTML
+|
 eMEDIA
 )
 )
@@ -6836,8 +6842,12 @@ source
 child
 -
 >
-IsHTML
+IsNodeOfType
 (
+nsINode
+:
+:
+eHTML
 )
 )
 {

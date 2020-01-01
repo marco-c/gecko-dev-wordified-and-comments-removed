@@ -1996,6 +1996,8 @@ aFlags
 eCONTENT
 |
 eELEMENT
+|
+eMATHML
 )
 )
 ;

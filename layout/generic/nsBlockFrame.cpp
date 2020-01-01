@@ -30020,8 +30020,12 @@ content
 content
 -
 >
-IsHTML
+IsNodeOfType
 (
+nsINode
+:
+:
+eHTML
 )
 )
 return

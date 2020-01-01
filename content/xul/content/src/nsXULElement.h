@@ -1450,8 +1450,9 @@ if
 aContent
 -
 >
-IsXUL
+IsNodeOfType
 (
+eXUL
 )
 )
 return
