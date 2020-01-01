@@ -7224,12 +7224,12 @@ nsWifiWorker
 manifest
 components
 /
-nsDOMWifiManager
+DOMWifiManager
 .
 js
 components
 /
-nsDOMWifiManager
+DOMWifiManager
 .
 manifest
 #

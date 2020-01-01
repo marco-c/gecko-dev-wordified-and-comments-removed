@@ -467,11 +467,11 @@ nsWifiWorker
 .
 manifest
 \
-nsDOMWifiManager
+DOMWifiManager
 .
 js
 \
-nsDOMWifiManager
+DOMWifiManager
 .
 manifest
 \

@@ -1,5 +1,5 @@
 #
-nsDOMWifiManager
+DOMWifiManager
 .
 js
 component
@@ -14,7 +14,7 @@ component
 -
 323c42e076da
 }
-nsDOMWifiManager
+DOMWifiManager
 .
 js
 contract

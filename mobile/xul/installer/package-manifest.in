@@ -2398,14 +2398,14 @@ BINPATH
 /
 components
 /
-nsDOMWifiManager
+DOMWifiManager
 .
 js
 BINPATH
 /
 components
 /
-nsDOMWifiManager
+DOMWifiManager
 .
 manifest
 #
