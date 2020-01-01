@@ -2677,7 +2677,7 @@ prefix
 )
 )
 {
-NS_RUNTIMEABORT
+NS_ERROR
 (
 "
 OpenGL
@@ -2813,7 +2813,7 @@ prefix
 )
 )
 {
-NS_RUNTIMEABORT
+NS_ERROR
 (
 "
 Desktop
@@ -3211,7 +3211,7 @@ prefix
 )
 )
 {
-NS_RUNTIMEABORT
+NS_ERROR
 (
 "
 GL
@@ -3291,7 +3291,7 @@ prefix
 )
 )
 {
-NS_RUNTIMEABORT
+NS_ERROR
 (
 "
 GL
@@ -3389,7 +3389,7 @@ prefix
 )
 )
 {
-NS_RUNTIMEABORT
+NS_ERROR
 (
 "
 GL
@@ -3478,7 +3478,7 @@ prefix
 )
 )
 {
-NS_RUNTIMEABORT
+NS_ERROR
 (
 "
 GL
