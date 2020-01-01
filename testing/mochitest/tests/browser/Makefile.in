@@ -447,6 +447,15 @@ rules
 mk
 _BROWSER_TEST_FILES
 =
+\
+head
+.
+js
+\
+browser_head
+.
+js
+\
 browser_pass
 .
 js
