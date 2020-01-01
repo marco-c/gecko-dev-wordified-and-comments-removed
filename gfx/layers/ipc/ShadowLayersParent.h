@@ -169,6 +169,9 @@ ContainerLayer
 >
 mRoot
 ;
+bool
+mDestroyed
+;
 }
 ;
 }
