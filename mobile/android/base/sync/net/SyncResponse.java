@@ -331,6 +331,7 @@ body
 null
 )
 {
+return
 ExtendedJSONObject
 .
 parse
@@ -371,6 +372,8 @@ getContent
 (
 )
 ;
+try
+{
 return
 ExtendedJSONObject
 .
@@ -379,6 +382,16 @@ parse
 content
 )
 ;
+}
+finally
+{
+content
+.
+close
+(
+)
+;
+}
 }
 public
 ExtendedJSONObject
