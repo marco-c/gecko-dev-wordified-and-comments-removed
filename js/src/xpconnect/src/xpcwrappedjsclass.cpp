@@ -5912,6 +5912,13 @@ param
 IsOut
 (
 )
+|
+|
+param
+.
+IsDipper
+(
+)
 )
 {
 JSObject
