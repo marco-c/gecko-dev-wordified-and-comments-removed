@@ -5525,6 +5525,7 @@ IsExtensionEnabled
 WebGLExtensionID
 ext
 )
+const
 ;
 bool
 IsExtensionSupported
@@ -5532,6 +5533,7 @@ IsExtensionSupported
 WebGLExtensionID
 ext
 )
+const
 ;
 nsTArray
 <
