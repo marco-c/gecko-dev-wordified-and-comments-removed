@@ -505,10 +505,6 @@ test_bug465448
 .
 xul
 \
-test_bug471126
-.
-html
-\
 (
 NULL
 )

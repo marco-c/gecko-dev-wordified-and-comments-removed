@@ -323,7 +323,8 @@ nsITimer
 >
 mUpdateTimer
 ;
-nsWeakPtr
+nsIDOMWindow
+*
 mDOMWindow
 ;
 nsWeakPtr
