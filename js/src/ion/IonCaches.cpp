@@ -8348,16 +8348,6 @@ attachedStub
 true
 ;
 }
-if
-(
-!
-attachedStub
-)
-{
-return
-TP_RETRY_SEQUENTIALLY
-;
-}
 }
 }
 return
