@@ -545,9 +545,7 @@ to
 get
 identity
 mode
-:
 "
-+
 e
 )
 ;
@@ -704,9 +702,7 @@ to
 get
 identity
 data
-:
 "
-+
 e
 )
 ;
