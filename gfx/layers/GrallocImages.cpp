@@ -435,7 +435,7 @@ yStride
 *
 ySize
 .
-width
+height
 )
 ;
 }
@@ -510,7 +510,7 @@ uvStride
 *
 uvSize
 .
-width
+height
 )
 ;
 memcpy
@@ -523,7 +523,7 @@ uvStride
 *
 uvSize
 .
-width
+height
 )
 ;
 }
