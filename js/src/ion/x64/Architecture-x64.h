@@ -652,7 +652,7 @@ JSC
 X86Registers
 :
 :
-ecx
+eax
 )
 ;
 typedef
