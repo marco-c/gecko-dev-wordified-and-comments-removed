@@ -2036,6 +2036,12 @@ if
 mUseAcceleratedRendering
 )
 {
+if
+(
+!
+sFramebufferOpen
+)
+{
 sFramebufferOpen
 =
 Framebuffer
@@ -2100,6 +2106,7 @@ fb0
 ;
 }
 }
+}
 nsWindow
 *
 topWindow
@@ -2156,6 +2163,12 @@ fbBounds
 =
 gScreenBounds
 ;
+if
+(
+!
+sGLContext
+)
+{
 sGLContext
 =
 GLContextProvider
@@ -2166,6 +2179,7 @@ CreateForWindow
 this
 )
 ;
+}
 MOZ_ASSERT
 (
 fbBounds
