@@ -1656,6 +1656,10 @@ mThread
 =
 nsnull
 ;
+ClearObservers
+(
+)
+;
 #
 ifdef
 DEBUG
