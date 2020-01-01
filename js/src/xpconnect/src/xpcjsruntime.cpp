@@ -5,6 +5,13 @@ xpcprivate
 .
 h
 "
+#
+include
+"
+dom_quickstubs
+.
+h
+"
 const
 char
 *
@@ -2309,6 +2316,10 @@ DetachedWrappedNativeProtoMarker
 nsnull
 )
 ;
+DOM_MarkInterfaces
+(
+)
+;
 if
 (
 !
@@ -3314,6 +3325,10 @@ JSContext
 cx
 )
 {
+DOM_ClearInterfaces
+(
+)
+;
 if
 (
 mDetachedWrappedNativeProtoMap
@@ -4207,6 +4222,10 @@ JSDHashEntryStub
 ;
 #
 endif
+DOM_InitInterfaces
+(
+)
+;
 mStrIDs
 [
 0

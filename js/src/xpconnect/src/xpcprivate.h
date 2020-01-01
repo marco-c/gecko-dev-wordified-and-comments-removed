@@ -10691,6 +10691,9 @@ const
 nsID
 *
 iid
+XPCNativeInterface
+*
+Interface
 JSObject
 *
 scope
