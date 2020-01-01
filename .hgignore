@@ -21,6 +21,12 @@ appear
 \
 .
 pyc
+(
+^
+|
+/
+)
+TAGS
 #
 User
 files
@@ -62,6 +68,8 @@ config
 \
 .
 log
+^
+ID
 #
 Empty
 marker
