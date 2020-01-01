@@ -175,6 +175,11 @@ CanReuse
 (
 )
 ;
+PRUint32
+TimeToLive
+(
+)
+;
 void
 DontReuse
 (
