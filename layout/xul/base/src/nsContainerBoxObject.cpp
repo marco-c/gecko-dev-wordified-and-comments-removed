@@ -71,7 +71,7 @@ h
 #
 include
 "
-nsIFrameFrame
+nsSubDocumentFrame
 .
 h
 "
@@ -162,9 +162,9 @@ if
 frame
 )
 {
-nsIFrameFrame
+nsSubDocumentFrame
 *
-frame_frame
+subDocFrame
 =
 do_QueryFrame
 (
@@ -173,11 +173,11 @@ frame
 ;
 if
 (
-frame_frame
+subDocFrame
 )
 {
 return
-frame_frame
+subDocFrame
 -
 >
 GetDocShell

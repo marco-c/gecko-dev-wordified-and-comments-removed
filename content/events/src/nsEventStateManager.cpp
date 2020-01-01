@@ -559,7 +559,7 @@ h
 #
 include
 "
-nsIFrameFrame
+nsSubDocumentFrame
 .
 h
 "
@@ -16100,7 +16100,7 @@ if
 mLastMouseOverFrame
 )
 {
-nsIFrameFrame
+nsSubDocumentFrame
 *
 subdocFrame
 =

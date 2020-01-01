@@ -43,7 +43,7 @@ h
 #
 include
 "
-nsIFrameFrame
+nsSubDocumentFrame
 .
 h
 "
@@ -5433,7 +5433,7 @@ child
 childList
 )
 {
-nsIFrameFrame
+nsSubDocumentFrame
 *
 subdocumentFrame
 =

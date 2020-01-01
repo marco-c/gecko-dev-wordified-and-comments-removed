@@ -459,10 +459,6 @@ nsIFrame
 .
 h
 \
-nsIFrameFrame
-.
-h
-\
 nsIFrameUtil
 .
 h
@@ -492,6 +488,10 @@ nsIStatefulFrame
 h
 \
 nsFrameSelection
+.
+h
+\
+nsSubDocumentFrame
 .
 h
 \

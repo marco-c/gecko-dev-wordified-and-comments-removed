@@ -240,7 +240,7 @@ h
 #
 include
 "
-nsIFrameFrame
+nsSubDocumentFrame
 .
 h
 "
@@ -2507,7 +2507,7 @@ PRInt32
 scrollbarPrefX
 PRInt32
 scrollbarPrefY
-nsIFrameFrame
+nsSubDocumentFrame
 *
 frame
 )
@@ -2970,7 +2970,7 @@ nsFrameLoader
 :
 ShowRemoteFrame
 (
-nsIFrameFrame
+nsSubDocumentFrame
 *
 frame
 nsIView
@@ -3033,11 +3033,6 @@ size
 GetSubDocumentSize
 (
 frame
--
->
-GetFrame
-(
-)
 )
 ;
 if
@@ -4128,7 +4123,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-nsIFrameFrame
+nsSubDocumentFrame
 *
 ourFrameFrame
 =

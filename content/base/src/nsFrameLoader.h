@@ -60,7 +60,7 @@ class
 nsIURI
 ;
 class
-nsIFrameFrame
+nsSubDocumentFrame
 ;
 class
 nsIView
@@ -337,7 +337,7 @@ PRInt32
 scrollbarPrefX
 PRInt32
 scrollbarPrefY
-nsIFrameFrame
+nsSubDocumentFrame
 *
 frame
 )
@@ -526,7 +526,7 @@ TryNewProcess
 bool
 ShowRemoteFrame
 (
-nsIFrameFrame
+nsSubDocumentFrame
 *
 frame
 nsIView
