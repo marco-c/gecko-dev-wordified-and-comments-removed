@@ -57,7 +57,7 @@ h
 #
 include
 "
-nsCRT
+nsCRTGlue
 .
 h
 "
@@ -6217,10 +6217,7 @@ mType
 =
 eStyleImageType_Element
 )
-nsCRT
-:
-:
-free
+NS_Free
 (
 mElementId
 )
@@ -6527,10 +6524,7 @@ aElementId
 {
 mElementId
 =
-nsCRT
-:
-:
-strdup
+NS_strdup
 (
 aElementId
 )
@@ -7292,10 +7286,7 @@ mType
 eStyleImageType_Element
 )
 return
-nsCRT
-:
-:
-strcmp
+NS_strcmp
 (
 mElementId
 aOther
@@ -10396,10 +10387,7 @@ mContent
 mCounters
 ;
 return
-nsCRT
-:
-:
-strcmp
+NS_strcmp
 (
 mContent
 .
