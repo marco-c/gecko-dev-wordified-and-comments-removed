@@ -8223,7 +8223,7 @@ aContent
 nsAccessibilityAtoms
 :
 :
-aria_grab
+aria_grabbed
 )
 |
 |
