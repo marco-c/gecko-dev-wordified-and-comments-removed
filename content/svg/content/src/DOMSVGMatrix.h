@@ -40,6 +40,15 @@ nsIDOMSVGMatrix
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 MOZILLA_DOMSVGMATRIX_IID
 \
@@ -64,6 +73,7 @@ mozilla
 {
 class
 DOMSVGMatrix
+MOZ_FINAL
 :
 public
 nsIDOMSVGMatrix

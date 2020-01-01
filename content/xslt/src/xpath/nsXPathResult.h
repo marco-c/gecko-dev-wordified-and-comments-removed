@@ -61,6 +61,15 @@ nsCycleCollectionParticipant
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_IXPATHRESULT_IID
 \
@@ -140,6 +149,7 @@ NS_IXPATHRESULT_IID
 )
 class
 nsXPathResult
+MOZ_FINAL
 :
 public
 nsIDOMXPathResult

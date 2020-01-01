@@ -18,8 +18,18 @@ nsDOMEvent
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsDOMDeviceRotationRate
+MOZ_FINAL
 :
 public
 nsIDOMDeviceRotationRate
@@ -56,6 +66,7 @@ mGamma
 ;
 class
 nsDOMDeviceAcceleration
+MOZ_FINAL
 :
 public
 nsIDOMDeviceAcceleration
@@ -92,6 +103,7 @@ mZ
 ;
 class
 nsDOMDeviceMotionEvent
+MOZ_FINAL
 :
 public
 nsDOMEvent

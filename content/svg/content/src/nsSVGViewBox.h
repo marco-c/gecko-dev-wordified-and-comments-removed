@@ -60,6 +60,15 @@ nsSVGElement
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsISMILAnimationElement
 ;
@@ -346,6 +355,7 @@ mHasBaseVal
 ;
 struct
 DOMBaseVal
+MOZ_FINAL
 :
 public
 nsIDOMSVGRect
@@ -513,6 +523,7 @@ aHeight
 ;
 struct
 DOMAnimVal
+MOZ_FINAL
 :
 public
 nsIDOMSVGRect
@@ -726,6 +737,7 @@ public
 :
 struct
 DOMAnimatedRect
+MOZ_FINAL
 :
 public
 nsIDOMSVGAnimatedRect

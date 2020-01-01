@@ -60,6 +60,15 @@ SVGPathData
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIDOMSVGPathSeg
 ;
@@ -74,6 +83,7 @@ SVGAnimatedPathSegList
 ;
 class
 DOMSVGPathSegList
+MOZ_FINAL
 :
 public
 nsIDOMSVGPathSegList

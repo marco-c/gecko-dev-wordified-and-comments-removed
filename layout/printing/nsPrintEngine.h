@@ -44,6 +44,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h
@@ -88,6 +97,7 @@ nsIWeakReference
 ;
 class
 nsPrintEngine
+MOZ_FINAL
 :
 public
 nsIObserver

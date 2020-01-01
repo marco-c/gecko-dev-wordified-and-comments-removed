@@ -92,6 +92,15 @@ SVGAnimatedPreserveAspectRatio
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIDOMSVGMatrix
 ;
@@ -245,6 +254,7 @@ private
 :
 struct
 DOMVal
+MOZ_FINAL
 :
 public
 nsIDOMSVGPoint

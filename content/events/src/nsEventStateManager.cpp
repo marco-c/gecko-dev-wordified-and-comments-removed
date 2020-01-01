@@ -574,6 +574,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 sampler
 .
 h
@@ -1310,6 +1319,7 @@ item
 endif
 class
 nsUITimerCallback
+MOZ_FINAL
 :
 public
 nsITimerCallback

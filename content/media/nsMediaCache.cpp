@@ -109,6 +109,15 @@ FileBlockCache
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -179,6 +188,7 @@ gMediaCache
 ;
 class
 nsMediaCacheFlusher
+MOZ_FINAL
 :
 public
 nsIObserver

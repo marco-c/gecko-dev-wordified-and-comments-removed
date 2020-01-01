@@ -110,6 +110,7 @@ mValue
 }
 protected
 :
+virtual
 ~
 nsDOMTokenList
 (

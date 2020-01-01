@@ -46,6 +46,15 @@ nsSVGElement
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIAtom
 ;
@@ -233,6 +242,7 @@ public
 :
 struct
 DOMAnimatedEnum
+MOZ_FINAL
 :
 public
 nsIDOMSVGAnimatedEnumeration

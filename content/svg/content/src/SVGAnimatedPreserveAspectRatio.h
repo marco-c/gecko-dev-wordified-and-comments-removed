@@ -60,6 +60,15 @@ nsSVGElement
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsISMILAnimationElement
 ;
@@ -592,6 +601,7 @@ public
 :
 struct
 DOMBaseVal
+MOZ_FINAL
 :
 public
 nsIDOMSVGPreserveAspectRatio
@@ -723,6 +733,7 @@ mSVGElement
 ;
 struct
 DOMAnimVal
+MOZ_FINAL
 :
 public
 nsIDOMSVGPreserveAspectRatio
@@ -854,6 +865,7 @@ NS_ERROR_DOM_NO_MODIFICATION_ALLOWED_ERR
 ;
 struct
 DOMAnimPAspectRatio
+MOZ_FINAL
 :
 public
 nsIDOMSVGAnimatedPreserveAspectRatio
@@ -937,6 +949,7 @@ mSVGElement
 ;
 struct
 SMILPreserveAspectRatio
+MOZ_FINAL
 :
 public
 nsISMILAttr

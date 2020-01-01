@@ -210,6 +210,15 @@ nsHTMLFormElement
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -1885,6 +1894,7 @@ widget
 }
 class
 nsTextStateManager
+MOZ_FINAL
 :
 public
 nsISelectionListener

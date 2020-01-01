@@ -60,6 +60,15 @@ nsSVGElement
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsISMILAnimationElement
 ;
@@ -364,6 +373,7 @@ public
 :
 struct
 DOMBaseVal
+MOZ_FINAL
 :
 public
 nsIDOMSVGAngle
@@ -590,6 +600,7 @@ mSVGElement
 ;
 struct
 DOMAnimVal
+MOZ_FINAL
 :
 public
 nsIDOMSVGAngle
@@ -774,6 +785,7 @@ NS_ERROR_DOM_NO_MODIFICATION_ALLOWED_ERR
 ;
 struct
 DOMAnimatedAngle
+MOZ_FINAL
 :
 public
 nsIDOMSVGAnimatedAngle
@@ -857,6 +869,7 @@ mSVGElement
 ;
 struct
 SMILOrient
+MOZ_FINAL
 :
 public
 nsISMILAttr

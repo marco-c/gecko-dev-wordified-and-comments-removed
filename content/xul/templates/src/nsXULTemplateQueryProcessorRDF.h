@@ -161,6 +161,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 prlog
 .
 h
@@ -183,6 +192,7 @@ nsXULTemplateResultRDF
 ;
 class
 nsXULTemplateQueryProcessorRDF
+MOZ_FINAL
 :
 public
 nsIXULTemplateQueryProcessor

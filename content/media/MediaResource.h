@@ -75,6 +75,15 @@ nsMediaCache
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 static
 const
 PRInt64
@@ -1058,6 +1067,7 @@ IsSuspended
 ;
 class
 Listener
+MOZ_FINAL
 :
 public
 nsIStreamListener

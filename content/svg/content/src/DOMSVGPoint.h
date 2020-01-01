@@ -60,6 +60,15 @@ SVGPoint
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsSVGElement
 ;
@@ -92,6 +101,7 @@ mozilla
 {
 class
 DOMSVGPoint
+MOZ_FINAL
 :
 public
 nsIDOMSVGPoint

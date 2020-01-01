@@ -53,6 +53,15 @@ SVGTransformList
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIDOMSVGTransform
 ;
@@ -67,6 +76,7 @@ DOMSVGTransform
 ;
 class
 DOMSVGTransformList
+MOZ_FINAL
 :
 public
 nsIDOMSVGTransformList

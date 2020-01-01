@@ -25,8 +25,18 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsPrivateTextRange
+MOZ_FINAL
 :
 public
 nsIPrivateTextRange
@@ -99,6 +109,7 @@ mRangeStyle
 ;
 class
 nsPrivateTextRangeList
+MOZ_FINAL
 :
 public
 nsIPrivateTextRangeList

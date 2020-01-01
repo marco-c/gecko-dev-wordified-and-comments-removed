@@ -89,6 +89,15 @@ txXPathObjectAdaptor
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 NS_IMPL_ISUPPORTS1
 (
 txXPathObjectAdaptor
@@ -96,6 +105,7 @@ txIXPathObject
 )
 class
 txFunctionEvaluationContext
+MOZ_FINAL
 :
 public
 txIFunctionEvaluationContext

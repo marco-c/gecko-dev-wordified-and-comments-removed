@@ -53,6 +53,15 @@ SVGLength
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsSVGElement
 ;
@@ -92,6 +101,7 @@ mozilla
 {
 class
 DOMSVGLength
+MOZ_FINAL
 :
 public
 nsIDOMSVGLength

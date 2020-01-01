@@ -53,6 +53,15 @@ nsSVGElement
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsISMILAnimationElement
 ;
@@ -190,6 +199,7 @@ public
 :
 struct
 DOMAnimatedBoolean
+MOZ_FINAL
 :
 public
 nsIDOMSVGAnimatedBoolean

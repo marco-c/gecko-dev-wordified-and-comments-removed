@@ -413,6 +413,15 @@ TimeStamp
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 XML_DECLARATION_BITS_DECLARATION_EXISTS
 (
@@ -1156,6 +1165,7 @@ mDocument
 ;
 class
 nsOnloadBlocker
+MOZ_FINAL
 :
 public
 nsIRequest
@@ -1389,6 +1399,7 @@ PendingLoad
 ;
 class
 LoadgroupCallbacks
+MOZ_FINAL
 :
 public
 nsIInterfaceRequestor
@@ -1431,6 +1442,7 @@ _i
 #
 #
 Shim
+MOZ_FINAL
 :
 public
 nsIInterfaceRequestor

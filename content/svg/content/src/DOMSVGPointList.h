@@ -60,6 +60,15 @@ SVGPointList
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIDOMSVGPoint
 ;
@@ -74,6 +83,7 @@ SVGAnimatedPointList
 ;
 class
 DOMSVGPointList
+MOZ_FINAL
 :
 public
 nsIDOMSVGPointList

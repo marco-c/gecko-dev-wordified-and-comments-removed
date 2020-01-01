@@ -328,6 +328,15 @@ Element
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -873,6 +882,7 @@ kNumElements
 ;
 class
 nsXBLStreamListener
+MOZ_FINAL
 :
 public
 nsIStreamListener

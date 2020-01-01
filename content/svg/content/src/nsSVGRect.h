@@ -18,6 +18,15 @@ nsIDOMSVGRect
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 nsresult
 NS_NewSVGRect
 (
@@ -66,6 +75,7 @@ rect
 ;
 class
 nsSVGRect
+MOZ_FINAL
 :
 public
 nsIDOMSVGRect

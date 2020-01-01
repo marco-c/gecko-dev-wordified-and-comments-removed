@@ -53,6 +53,15 @@ txStack
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIContent
 ;
@@ -88,6 +97,7 @@ nsINode
 ;
 class
 txTransformNotifier
+MOZ_FINAL
 :
 public
 nsIScriptLoaderObserver

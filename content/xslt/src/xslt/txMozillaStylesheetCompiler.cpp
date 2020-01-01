@@ -261,6 +261,15 @@ Element
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -339,6 +348,7 @@ aSpec
 }
 class
 txStylesheetSink
+MOZ_FINAL
 :
 public
 nsIXMLContentSink
@@ -1570,6 +1580,7 @@ NS_ERROR_NO_INTERFACE
 }
 class
 txCompileObserver
+MOZ_FINAL
 :
 public
 txACompileObserver
@@ -2676,6 +2687,7 @@ NS_OK
 }
 class
 txSyncCompileObserver
+MOZ_FINAL
 :
 public
 txACompileObserver

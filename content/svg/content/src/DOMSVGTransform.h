@@ -60,6 +60,15 @@ SVGTransform
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsSVGElement
 ;
@@ -106,6 +115,7 @@ DOMSVGMatrix
 ;
 class
 DOMSVGTransform
+MOZ_FINAL
 :
 public
 nsIDOMSVGTransform

@@ -191,6 +191,15 @@ nsDOMEventTargetHelper
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -2637,6 +2646,7 @@ healthOfRequestResult
 }
 class
 AsyncVerifyRedirectCallbackFwr
+MOZ_FINAL
 :
 public
 nsIAsyncVerifyRedirectCallback

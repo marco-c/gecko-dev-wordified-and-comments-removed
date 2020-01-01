@@ -81,6 +81,15 @@ nsDOMFile
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsITransferable
 ;
@@ -106,6 +115,7 @@ mData
 ;
 class
 nsDOMDataTransfer
+MOZ_FINAL
 :
 public
 nsIDOMDataTransfer

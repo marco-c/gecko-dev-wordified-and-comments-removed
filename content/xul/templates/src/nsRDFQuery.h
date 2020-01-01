@@ -26,6 +26,15 @@ nsCycleCollectionParticipant
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_ITEMPLATERDFQUERY_IID
 \
@@ -99,6 +108,7 @@ ClearCachedResults
 ;
 class
 nsRDFQuery
+MOZ_FINAL
 :
 public
 nsITemplateRDFQuery

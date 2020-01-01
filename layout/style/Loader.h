@@ -74,6 +74,15 @@ nsURIHashKey
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIAtom
 ;
@@ -394,6 +403,7 @@ eSheetComplete
 ;
 class
 Loader
+MOZ_FINAL
 {
 public
 :
