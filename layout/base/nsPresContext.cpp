@@ -7834,13 +7834,6 @@ if
 mUserFontSetDirty
 )
 {
-#
-ifdef
-DEBUG
-{
-PRBool
-inReflow
-;
 NS_ASSERTION
 (
 !
@@ -7864,9 +7857,6 @@ first
 "
 )
 ;
-}
-#
-endif
 FlushUserFontSet
 (
 )
