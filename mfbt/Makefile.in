@@ -86,14 +86,6 @@ FORCE_STATIC_LIB
 1
 STL_FLAGS
 =
-TEST_DIRS
-=
-\
-tests
-\
-(
-NULL
-)
 #
 exported_headers
 .
