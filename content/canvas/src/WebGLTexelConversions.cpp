@@ -1220,7 +1220,7 @@ dstStride
 signedDstStride
 =
 -
-dstStride
+signedDstStride
 ;
 }
 WebGLImageConverter
