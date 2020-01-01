@@ -216,9 +216,7 @@ bool
 mDriverInfoObserverInitialized
 ;
 virtual
-const
-nsAString
-&
+nsString
 Model
 (
 )
@@ -231,9 +229,7 @@ EmptyString
 ;
 }
 virtual
-const
-nsAString
-&
+nsString
 Hardware
 (
 )
@@ -246,9 +242,7 @@ EmptyString
 ;
 }
 virtual
-const
-nsAString
-&
+nsString
 Product
 (
 )
@@ -261,9 +255,7 @@ EmptyString
 ;
 }
 virtual
-const
-nsAString
-&
+nsString
 Manufacturer
 (
 )

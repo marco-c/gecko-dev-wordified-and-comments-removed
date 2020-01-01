@@ -1591,9 +1591,7 @@ NS_OK
 }
 #
 endif
-const
-nsAString
-&
+nsString
 GfxInfo
 :
 :
@@ -1606,9 +1604,7 @@ return
 mModel
 ;
 }
-const
-nsAString
-&
+nsString
 GfxInfo
 :
 :
@@ -1621,9 +1617,7 @@ return
 mHardware
 ;
 }
-const
-nsAString
-&
+nsString
 GfxInfo
 :
 :
@@ -1636,9 +1630,7 @@ return
 mProduct
 ;
 }
-const
-nsAString
-&
+nsString
 GfxInfo
 :
 :
