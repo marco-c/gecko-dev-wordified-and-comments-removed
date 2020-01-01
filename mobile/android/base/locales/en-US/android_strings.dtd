@@ -1858,13 +1858,13 @@ x00A0
 <
 !
 ENTITY
-abouthome_about_apps2
+abouthome_about_apps3
 "
 Get
 apps
 from
 the
-Mozilla
+Firefox
 Marketplace
 and
 discover
@@ -1947,9 +1947,9 @@ Sync
 <
 !
 ENTITY
-abouthome_apps_bold_name
+abouthome_apps_bold_name2
 "
-Mozilla
+Firefox
 Marketplace
 "
 >
