@@ -637,11 +637,9 @@ a
 searchable
 index
 .
-Insert
-your
+Enter
 search
 keywords
-here
 :
 "
 .
