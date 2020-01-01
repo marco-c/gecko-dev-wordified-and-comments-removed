@@ -1559,7 +1559,7 @@ cx
 nsContentUtils
 :
 :
-GetCurrentJSContext
+GetSafeJSContext
 (
 )
 ;
