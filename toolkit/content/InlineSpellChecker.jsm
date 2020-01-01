@@ -100,6 +100,12 @@ function
 {
 this
 .
+mEditor
+=
+null
+;
+this
+.
 mInlineSpellChecker
 =
 null
