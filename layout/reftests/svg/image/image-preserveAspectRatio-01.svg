@@ -152,17 +152,6 @@ appendChild
 grid
 )
 ;
-document
-.
-documentElement
-.
-removeAttribute
-(
-"
-class
-"
-)
-;
 <
 /
 script
