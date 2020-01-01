@@ -4115,6 +4115,14 @@ status
 slots
 .
 SLOT_LOGGED_IN
+|
+|
+status
+=
+=
+slots
+.
+SLOT_UNINITIALIZED
 )
 return
 false
