@@ -1344,7 +1344,7 @@ PUIU__reportDeprecatedAddBookmarkMethod
 let
 oldFuncName
 =
-arugments
+arguments
 .
 callee
 .
