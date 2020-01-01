@@ -806,13 +806,6 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-mBodyContent
-=
-do_QueryInterface
-(
-body
-)
-;
 root
 -
 >

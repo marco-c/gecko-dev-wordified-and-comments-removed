@@ -709,15 +709,12 @@ rv
 rv
 )
 ;
-nsCOMPtr
-<
 nsIContent
->
+*
 body
 =
-do_QueryInterface
+GetBodyContent
 (
-mBodyContent
 )
 ;
 if

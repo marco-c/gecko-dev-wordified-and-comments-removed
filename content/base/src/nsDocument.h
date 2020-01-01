@@ -1283,6 +1283,14 @@ aDocument
 const
 ;
 virtual
+nsIContent
+*
+GetRootContentInternal
+(
+)
+const
+;
+virtual
 PRInt32
 GetNumberOfStyleSheets
 (
