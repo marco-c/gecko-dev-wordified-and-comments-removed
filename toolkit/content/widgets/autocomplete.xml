@@ -8093,6 +8093,19 @@ body
 [
 CDATA
 [
+if
+(
+!
+this
+.
+hasAttribute
+(
+"
+height
+"
+)
+)
+{
 /
 /
 collapsed
@@ -8161,6 +8174,7 @@ adjustHeight
 this
 )
 ;
+}
 /
 /
 make
