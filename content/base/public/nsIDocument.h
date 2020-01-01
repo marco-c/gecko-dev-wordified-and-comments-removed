@@ -5849,6 +5849,9 @@ mHaveInputEncoding
 bool
 mHasHadDefaultView
 ;
+bool
+mStyleSheetChangeEventsEnabled
+;
 nsCOMPtr
 <
 nsIScriptGlobalObject
