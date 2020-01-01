@@ -891,6 +891,7 @@ mLocationHighAccuracy
 =
 false
 ;
+public
 static
 ActivityHandlerHelper
 sActivityHelper

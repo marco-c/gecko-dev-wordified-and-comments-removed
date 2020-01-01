@@ -165,6 +165,7 @@ concurrent
 .
 TimeUnit
 ;
+public
 class
 ActivityHandlerHelper
 {
@@ -211,6 +212,7 @@ final
 CameraVideoResultHandler
 mCameraVideoResultHandler
 ;
+public
 ActivityHandlerHelper
 (
 )
@@ -264,6 +266,7 @@ mFilePickerResult
 )
 ;
 }
+public
 int
 makeRequestCodeForAwesomebar
 (
@@ -278,6 +281,7 @@ mAwesomebarResultHandler
 )
 ;
 }
+public
 int
 makeRequestCode
 (

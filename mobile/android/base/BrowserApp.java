@@ -109,6 +109,17 @@ UiAsyncTask
 import
 org
 .
+mozilla
+.
+gecko
+.
+widget
+.
+AboutHomeContent
+;
+import
+org
+.
 json
 .
 JSONArray

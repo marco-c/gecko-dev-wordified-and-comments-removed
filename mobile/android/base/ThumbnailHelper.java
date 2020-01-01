@@ -84,6 +84,7 @@ atomic
 .
 AtomicInteger
 ;
+public
 final
 class
 ThumbnailHelper
