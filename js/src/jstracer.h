@@ -6393,6 +6393,10 @@ TypeCompatibilityVisitor
 ;
 friend
 class
+ImportFrameSlotsVisitor
+;
+friend
+class
 SlotMap
 ;
 friend
