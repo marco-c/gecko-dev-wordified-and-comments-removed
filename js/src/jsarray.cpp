@@ -4384,14 +4384,6 @@ isDenseArray
 )
 )
 ;
-obj
--
->
-traceProtoAndParent
-(
-trc
-)
-;
 if
 (
 !
