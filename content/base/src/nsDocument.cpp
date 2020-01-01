@@ -18160,7 +18160,12 @@ return
 NS_NewElement
 (
 aReturn
-ns
+nodeInfo
+-
+>
+NamespaceID
+(
+)
 nodeInfo
 .
 forget
