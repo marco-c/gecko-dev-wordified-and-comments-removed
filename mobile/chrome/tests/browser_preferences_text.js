@@ -625,9 +625,6 @@ Preferences
 and
 Text
 "
-_currentTab
-:
-null
 run
 :
 function
@@ -1777,15 +1774,6 @@ should
 be
 closed
 "
-)
-;
-Browser
-.
-closeTab
-(
-gCurrentTest
-.
-_currentTab
 )
 ;
 runNextTest

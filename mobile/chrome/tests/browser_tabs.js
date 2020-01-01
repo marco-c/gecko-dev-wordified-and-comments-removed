@@ -429,6 +429,12 @@ closeTab
 new_tab_03
 )
 ;
+Browser
+.
+hideSidebars
+(
+)
+;
 finish
 (
 )
