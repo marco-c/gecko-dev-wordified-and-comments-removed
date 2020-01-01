@@ -812,6 +812,10 @@ browser_webconsole_bug_642108_pruneTest
 .
 js
 \
+browser_webconsole_bug_595223_file_uri
+.
+js
+\
 head
 .
 js
