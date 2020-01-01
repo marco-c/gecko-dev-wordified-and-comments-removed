@@ -802,6 +802,7 @@ nsAttrValue
 aResult
 )
 ;
+static
 PRBool
 ParseTableCellHAlignValue
 (
@@ -813,7 +814,6 @@ nsAttrValue
 &
 aResult
 )
-const
 ;
 static
 PRBool
