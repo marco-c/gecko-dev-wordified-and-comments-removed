@@ -200,6 +200,13 @@ nsIAccessibleRole
 ROLE_COMBOBOX_OPTION
 ;
 const
+ROLE_DOCUMENT
+=
+nsIAccessibleRole
+.
+ROLE_DOCUMENT
+;
+const
 ROLE_LABEL
 =
 nsIAccessibleRole
