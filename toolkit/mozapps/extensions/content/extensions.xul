@@ -2841,7 +2841,7 @@ center
 "
 >
 <
-description
+hbox
 >
 <
 image
@@ -2854,7 +2854,7 @@ previewImage
 >
 <
 /
-description
+hbox
 >
 <
 /
