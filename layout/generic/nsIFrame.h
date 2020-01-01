@@ -2098,6 +2098,12 @@ this
 )
 ;
 }
+nsIFrame
+*
+GetTailContinuation
+(
+)
+;
 virtual
 nsIFrame
 *

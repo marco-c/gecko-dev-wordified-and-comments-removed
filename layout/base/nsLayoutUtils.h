@@ -256,6 +256,16 @@ nsnull
 static
 nsIFrame
 *
+GetLastContinuationWithChild
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
+nsIFrame
+*
 GetLastSibling
 (
 nsIFrame
