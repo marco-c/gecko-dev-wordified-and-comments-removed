@@ -7108,6 +7108,10 @@ IsEmpty
 mGeneratedChildren
 )
 {
+EnsureWidget
+(
+)
+;
 PresContext
 (
 )
