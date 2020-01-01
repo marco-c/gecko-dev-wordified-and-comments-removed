@@ -1552,6 +1552,9 @@ inherits
 label
 =
 button
+hidden
+=
+hidebutton
 "
 oncommand
 =
