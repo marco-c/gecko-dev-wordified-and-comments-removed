@@ -1108,6 +1108,16 @@ runTests
 (
 )
 ;
+finish
+(
+)
+;
+window
+.
+close
+(
+)
+;
 }
 window
 .
