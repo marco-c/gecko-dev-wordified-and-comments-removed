@@ -2747,10 +2747,6 @@ gl
 >
 ReadPixelsIntoImageSurface
 (
-0
-0
-mWidth
-mHeight
 surf
 )
 ;

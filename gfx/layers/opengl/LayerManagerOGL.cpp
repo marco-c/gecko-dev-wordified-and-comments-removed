@@ -5364,10 +5364,6 @@ mGLContext
 >
 ReadPixelsIntoImageSurface
 (
-0
-0
-width
-height
 imageSurface
 )
 ;
