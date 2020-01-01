@@ -702,7 +702,16 @@ i
 )
 ;
 void
-poisonDefinitionParseNode
+setAliased
+(
+unsigned
+i
+bool
+aliased
+)
+;
+bool
+isAliased
 (
 unsigned
 i

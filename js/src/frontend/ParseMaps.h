@@ -1373,9 +1373,7 @@ NULL
 }
 Definition
 *
-operator
-(
-)
+next
 (
 )
 {

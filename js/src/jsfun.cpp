@@ -5648,7 +5648,7 @@ native
 fun
 -
 >
-script
+mutableScript
 (
 )
 .
@@ -6046,7 +6046,7 @@ compartment
 clone
 -
 >
-script
+mutableScript
 (
 )
 .
