@@ -506,8 +506,14 @@ ret
 __thread
 int
 foo
+;
+__thread
+long
+long
+int
+bar
 [
-1024
+512
 ]
 ;
 void
