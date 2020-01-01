@@ -409,7 +409,7 @@ JSStackFrame
 *
 findFrame
 (
-void
+jsval
 *
 p
 )
@@ -418,7 +418,7 @@ const
 bool
 onFrame
 (
-void
+jsval
 *
 p
 )
@@ -427,7 +427,7 @@ const
 bool
 isGlobal
 (
-void
+jsval
 *
 p
 )
@@ -448,7 +448,7 @@ const
 size_t
 nativeFrameOffset
 (
-void
+jsval
 *
 p
 )
@@ -499,7 +499,7 @@ cond
 void
 set
 (
-void
+jsval
 *
 p
 nanojit
@@ -1089,7 +1089,7 @@ LIns
 *
 get
 (
-void
+jsval
 *
 p
 )
