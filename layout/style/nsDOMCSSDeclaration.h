@@ -201,14 +201,6 @@ aParentRule
 =
 0
 ;
-virtual
-void
-DropReference
-(
-)
-=
-0
-;
 protected
 :
 virtual

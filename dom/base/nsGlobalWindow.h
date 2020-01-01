@@ -2539,11 +2539,6 @@ class
 PostMessageEvent
 ;
 static
-nsIFactory
-*
-sComputedDOMStyleFactory
-;
-static
 nsIDOMStorageList
 *
 sGlobalStorageList

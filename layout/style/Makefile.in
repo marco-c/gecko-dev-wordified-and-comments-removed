@@ -601,10 +601,6 @@ nsICSSStyleSheet
 .
 h
 \
-nsIComputedDOMStyle
-.
-h
-\
 nsIHTMLCSSStyleSheet
 .
 h
