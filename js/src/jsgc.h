@@ -4774,9 +4774,6 @@ SystemAllocPolicy
 WrapperMap
 ;
 class
-AutoValueVector
-;
-class
 AutoIdVector
 ;
 }
