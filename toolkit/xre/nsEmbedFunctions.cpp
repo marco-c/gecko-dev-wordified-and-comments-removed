@@ -1248,6 +1248,10 @@ aArgv
 ]
 )
 ;
+TriggerQuirks
+(
+)
+;
 sChildProcessType
 =
 aProcess
