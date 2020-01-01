@@ -200,12 +200,8 @@ nsString
 aObjectStoreNames
 PRUint16
 aMode
-PRUint32
-aTimeout
 bool
 aDispatchDelayed
-=
-false
 )
 ;
 virtual
@@ -461,9 +457,6 @@ PRUint16
 mMode
 ;
 PRUint32
-mTimeout
-;
-PRUint32
 mPendingRequests
 ;
 PRUint32
@@ -486,12 +479,6 @@ nsRefPtr
 nsDOMEventListenerWrapper
 >
 mOnAbortListener
-;
-nsRefPtr
-<
-nsDOMEventListenerWrapper
->
-mOnTimeoutListener
 ;
 nsInterfaceHashtable
 <
