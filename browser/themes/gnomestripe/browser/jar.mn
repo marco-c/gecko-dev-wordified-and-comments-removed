@@ -340,9 +340,13 @@ pref
 .
 css
 )
+.
+/
 icon
 .
 png
+.
+/
 preview
 .
 png
