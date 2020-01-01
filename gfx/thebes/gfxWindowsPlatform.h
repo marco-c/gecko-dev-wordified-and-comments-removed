@@ -20,6 +20,8 @@ endif
 include
 "
 cairo
+-
+win32
 .
 h
 "
