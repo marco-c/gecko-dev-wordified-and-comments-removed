@@ -251,13 +251,6 @@ char
 aFeatures
 uint32_t
 aFeatureCount
-const
-char
-*
-*
-aThreadNameFilters
-uint32_t
-aFilterCount
 )
 {
 mozilla_sampler_start
@@ -266,8 +259,6 @@ aProfileEntries
 aInterval
 aFeatures
 aFeatureCount
-aThreadNameFilters
-aFilterCount
 )
 ;
 }

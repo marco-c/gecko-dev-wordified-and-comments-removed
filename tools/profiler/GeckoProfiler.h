@@ -146,13 +146,6 @@ char
 aFeatures
 uint32_t
 aFeatureCount
-const
-char
-*
-*
-aThreadNameFilters
-uint32_t
-aFilterCount
 )
 {
 }

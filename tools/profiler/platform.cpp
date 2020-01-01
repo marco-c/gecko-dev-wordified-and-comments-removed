@@ -1792,8 +1792,6 @@ const
 char
 *
 )
-NULL
-0
 )
 ;
 LOG
@@ -2157,13 +2155,6 @@ char
 aFeatures
 uint32_t
 aFeatureCount
-const
-char
-*
-*
-aThreadNameFilters
-uint32_t
-aFilterCount
 )
 {
 if
@@ -2211,8 +2202,6 @@ aProfileEntries
 PROFILE_DEFAULT_ENTRY
 aFeatures
 aFeatureCount
-aThreadNameFilters
-aFilterCount
 )
 ;
 if
