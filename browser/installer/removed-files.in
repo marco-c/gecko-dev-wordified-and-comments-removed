@@ -374,6 +374,11 @@ components
 nsBackgroundUpdateService
 .
 js
+components
+/
+nsCloseAllWindows
+.
+js
 #
 ifndef
 XP_MACOSX
