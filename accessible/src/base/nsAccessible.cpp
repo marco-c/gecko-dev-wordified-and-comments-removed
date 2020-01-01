@@ -11726,7 +11726,7 @@ NS_ENSURE_STATE
 parent
 )
 ;
-PRInt32
+PRUint32
 characterCount
 =
 0
@@ -11793,16 +11793,6 @@ return
 NS_OK
 ;
 }
-if
-(
-nsAccUtils
-:
-:
-IsText
-(
-sibling
-)
-)
 characterCount
 +
 =
@@ -11813,11 +11803,6 @@ TextLength
 (
 sibling
 )
-;
-else
-+
-+
-characterCount
 ;
 }
 return

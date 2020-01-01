@@ -575,10 +575,10 @@ ROLE_STATICTEXT
 ;
 }
 static
-PRInt32
+PRUint32
 TextLength
 (
-nsIAccessible
+nsAccessible
 *
 aAccessible
 )
