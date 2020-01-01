@@ -10148,7 +10148,7 @@ return
 res
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsEditor
 :
 :
@@ -10164,7 +10164,7 @@ aTextNode
 PRInt32
 aOffset
 PRBool
-suppressIME
+aSuppressIME
 )
 {
 nsRefPtr
@@ -10178,6 +10178,11 @@ result
 =
 NS_OK
 ;
+PRBool
+isIMETransaction
+=
+PR_FALSE
+;
 if
 (
 mIMETextRangeList
@@ -10187,7 +10192,7 @@ mInIMEMode
 &
 &
 !
-suppressIME
+aSuppressIME
 )
 {
 if
@@ -10400,6 +10405,10 @@ txn
 =
 imeTxn
 ;
+isIMETransaction
+=
+PR_TRUE
+;
 }
 else
 {
@@ -10529,10 +10538,7 @@ result
 ;
 if
 (
-mInIMEMode
-&
-&
-mIMETextNode
+isIMETransaction
 )
 {
 PRUint32
