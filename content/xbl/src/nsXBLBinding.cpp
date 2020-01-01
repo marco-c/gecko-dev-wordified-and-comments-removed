@@ -4293,6 +4293,10 @@ pusher
 Push
 (
 cx
+nsCxPusher
+:
+:
+ASSERT_SCRIPT_CONTEXT
 )
 ;
 JSObject
