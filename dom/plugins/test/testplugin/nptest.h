@@ -320,6 +320,9 @@ std
 string
 lastKeyText
 ;
+bool
+wantsAllStreams
+;
 }
 InstanceData
 ;

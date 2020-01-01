@@ -870,9 +870,6 @@ PRPackedBool
 mCached
 ;
 PRPackedBool
-mWantsAllNetworkStreams
-;
-PRPackedBool
 mUsesDOMForCursor
 ;
 public

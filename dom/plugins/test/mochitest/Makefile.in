@@ -682,6 +682,10 @@ test_zero_opacity
 .
 html
 \
+test_NPPVpluginWantsAllNetworkStreams
+.
+html
+\
 (
 NULL
 )
