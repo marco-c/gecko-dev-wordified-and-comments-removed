@@ -959,15 +959,6 @@ SetInitialPrincipalToSubject
 0
 ;
 virtual
-nsIPrincipal
-*
-GetOpenerScriptPrincipal
-(
-)
-=
-0
-;
-virtual
 PopupControlState
 PushPopupControlState
 (
