@@ -461,6 +461,7 @@ callback
 )
 ;
 yield
+undefined
 ;
 }
 }

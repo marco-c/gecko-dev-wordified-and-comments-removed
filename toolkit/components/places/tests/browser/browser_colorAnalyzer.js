@@ -124,6 +124,7 @@ shift
 )
 ;
 yield
+undefined
 ;
 }
 }
