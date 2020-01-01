@@ -102,6 +102,13 @@ nsRefreshDriver
 .
 h
 "
+#
+include
+"
+nsChangeHint
+.
+h
+"
 class
 nsIContent
 ;
@@ -977,6 +984,8 @@ dom
 Element
 *
 aElement
+nsRestyleHint
+aHint
 )
 ;
 virtual

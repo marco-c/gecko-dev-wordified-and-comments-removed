@@ -251,6 +251,7 @@ PresShell
 RestyleForAnimation
 (
 element
+eRestyle_Self
 )
 ;
 }

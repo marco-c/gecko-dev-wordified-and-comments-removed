@@ -15072,6 +15072,8 @@ RestyleForAnimation
 Element
 *
 aElement
+nsRestyleHint
+aHint
 )
 {
 FrameConstructor
@@ -15082,7 +15084,7 @@ FrameConstructor
 PostAnimationRestyleEvent
 (
 aElement
-eRestyle_Self
+aHint
 NS_STYLE_HINT_NONE
 )
 ;
