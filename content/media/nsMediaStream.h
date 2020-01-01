@@ -1192,6 +1192,16 @@ PRUint32
 aWriteCount
 )
 ;
+void
+PossiblySuspend
+(
+)
+;
+void
+PossiblyResume
+(
+)
+;
 PRInt64
 mOffset
 ;
@@ -1232,6 +1242,9 @@ mChannelStatistics
 ;
 PRUint32
 mCacheSuspendCount
+;
+PRPackedBool
+mIgnoreResume
 ;
 }
 ;
