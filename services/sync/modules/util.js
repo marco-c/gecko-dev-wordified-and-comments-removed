@@ -4140,7 +4140,7 @@ service
 1
 "
 "
-nsINavHistoryService
+nsPIPlacesDatabase
 "
 ]
 [
