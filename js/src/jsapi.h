@@ -6474,7 +6474,6 @@ JSCLASS_NO_INTERNAL_MEMBERS
 0
 0
 0
-0
 }
 #
 define
