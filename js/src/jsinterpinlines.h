@@ -330,6 +330,9 @@ guard_jsdouble_is_int_and_int_fits_in_jsval
 JSContext
 *
 cx
+JSFrameRegs
+&
+regs
 jsdouble
 &
 d
@@ -419,6 +422,9 @@ guard_int_fits_in_jsval
 JSContext
 *
 cx
+JSFrameRegs
+&
+regs
 jsint
 &
 i
@@ -469,6 +475,9 @@ guard_uint_fits_in_jsval
 JSContext
 *
 cx
+JSFrameRegs
+&
+regs
 uint32
 &
 u
@@ -546,6 +555,9 @@ guard_jsval_is_int
 JSContext
 *
 cx
+JSFrameRegs
+&
+regs
 jsval
 &
 v
@@ -596,6 +608,9 @@ guard_jsval_is_double
 JSContext
 *
 cx
+JSFrameRegs
+&
+regs
 jsval
 &
 v
@@ -676,6 +691,9 @@ guard_jsval_is_null
 JSContext
 *
 cx
+JSFrameRegs
+&
+regs
 jsval
 &
 v
@@ -807,6 +825,9 @@ guard_jsval_is_boolean
 JSContext
 *
 cx
+JSFrameRegs
+&
+regs
 jsval
 &
 v
@@ -884,6 +905,9 @@ guard_jsval_is_primitive
 JSContext
 *
 cx
+JSFrameRegs
+&
+regs
 jsval
 &
 v
@@ -935,6 +959,9 @@ guard_obj_is_null
 JSContext
 *
 cx
+JSFrameRegs
+&
+regs
 JSObject
 *
 &
@@ -1660,6 +1687,9 @@ guard_boolean_is_true
 JSContext
 *
 cx
+JSFrameRegs
+&
+regs
 JSBool
 &
 cond
@@ -2024,6 +2054,9 @@ guard_both_jsvals_are_int
 JSContext
 *
 cx
+JSFrameRegs
+&
+regs
 jsval
 &
 a
@@ -2053,6 +2086,9 @@ guard_both_jsvals_are_string
 JSContext
 *
 cx
+JSFrameRegs
+&
+regs
 jsval
 &
 a
@@ -2085,6 +2121,9 @@ guard_can_do_fast_inc_dec
 JSContext
 *
 cx
+JSFrameRegs
+&
+regs
 jsval
 &
 v

@@ -1228,6 +1228,10 @@ jskeyword
 .
 tbl
 \
+builtins
+.
+tbl
+\
 (
 NULL
 )

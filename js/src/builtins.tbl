@@ -12,7 +12,7 @@ BUILTIN1
 DOUBLE_IS_INT
 F
 LO
-bool
+uint64
 jsdouble
 )
 BUILTIN1
