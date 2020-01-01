@@ -12729,14 +12729,10 @@ size_t
 argc
 <
 =
-sizeof
+JS_ARRAY_LENGTH
+(
 smallv
-/
-sizeof
-smallv
-[
-0
-]
+)
 )
 {
 atomv

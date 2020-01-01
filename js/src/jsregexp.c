@@ -20355,14 +20355,9 @@ empty_regexp_ucstr
 ;
 length
 =
-sizeof
+JS_ARRAY_LENGTH
 (
 empty_regexp_ucstr
-)
-/
-sizeof
-(
-jschar
 )
 -
 1
