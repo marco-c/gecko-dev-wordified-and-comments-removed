@@ -4192,7 +4192,7 @@ mFrameLoaderRunner
 ;
 nsRevocableEventPtr
 <
-nsRunnableMethod
+nsNonOwningRunnableMethod
 <
 nsDocument
 >
