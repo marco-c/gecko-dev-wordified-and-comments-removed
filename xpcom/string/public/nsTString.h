@@ -742,7 +742,7 @@ const
 {
 aCount
 =
-NS_MIN
+XPCOM_MIN
 (
 mLength
 aCount

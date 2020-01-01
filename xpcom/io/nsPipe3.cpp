@@ -3339,7 +3339,7 @@ cursor2
 uint32_t
 lim
 =
-NS_MIN
+XPCOM_MIN
 (
 strLen
 len2

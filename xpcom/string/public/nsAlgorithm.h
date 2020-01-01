@@ -74,7 +74,7 @@ inline
 const
 T
 &
-NS_MIN
+XPCOM_MIN
 (
 const
 T
@@ -105,7 +105,7 @@ inline
 const
 T
 &
-NS_MAX
+XPCOM_MAX
 (
 const
 T
@@ -221,9 +221,9 @@ min
 )
 ;
 return
-NS_MIN
+XPCOM_MIN
 (
-NS_MAX
+XPCOM_MAX
 (
 a
 min

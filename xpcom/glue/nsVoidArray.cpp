@@ -1121,7 +1121,7 @@ GetArraySize
 (
 )
 +
-NS_MAX
+XPCOM_MAX
 (
 kMaxGrowArrayBy
 aGrowBy

@@ -807,7 +807,7 @@ mFd
 buf
 +
 totalRead
-NS_MIN
+XPCOM_MIN
 (
 len
 -

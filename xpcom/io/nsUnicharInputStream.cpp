@@ -296,7 +296,7 @@ rv
 ;
 aCount
 =
-NS_MIN
+XPCOM_MIN
 (
 mString
 .

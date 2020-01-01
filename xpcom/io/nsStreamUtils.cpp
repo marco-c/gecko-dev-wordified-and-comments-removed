@@ -2169,7 +2169,7 @@ avail
 (
 uint32_t
 )
-NS_MIN
+XPCOM_MIN
 <
 uint64_t
 >

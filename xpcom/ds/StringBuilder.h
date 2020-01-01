@@ -149,7 +149,7 @@ mCapacity
 {
 mCapacity
 =
-NS_MAX
+XPCOM_MAX
 (
 capacity
 mCapacity

@@ -308,7 +308,7 @@ n
 difference_type
 step
 =
-NS_MIN
+XPCOM_MIN
 (
 n
 size_forward
@@ -355,7 +355,7 @@ n
 difference_type
 step
 =
-NS_MAX
+XPCOM_MAX
 (
 n
 -
@@ -665,7 +665,7 @@ n
 difference_type
 step
 =
-NS_MIN
+XPCOM_MIN
 (
 n
 size_forward
@@ -712,7 +712,7 @@ n
 difference_type
 step
 =
-NS_MAX
+XPCOM_MAX
 (
 n
 -

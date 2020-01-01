@@ -1023,7 +1023,7 @@ es
 ;
 r
 =
-NS_MIN
+XPCOM_MIN
 (
 pa
 -
@@ -1048,7 +1048,7 @@ r
 ;
 r
 =
-NS_MIN
+XPCOM_MIN
 <
 size_t
 >

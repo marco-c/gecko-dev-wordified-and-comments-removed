@@ -236,7 +236,7 @@ temp
 ;
 NS_ASSERTION
 (
-NS_MIN
+XPCOM_MIN
 (
 temp
 kMaxCapacity
@@ -259,7 +259,7 @@ top
 ;
 capacity
 =
-NS_MIN
+XPCOM_MIN
 (
 temp
 kMaxCapacity
@@ -1596,7 +1596,7 @@ c
 {
 cutStart
 =
-NS_MIN
+XPCOM_MIN
 (
 cutStart
 Length
@@ -1704,7 +1704,7 @@ return
 }
 cutStart
 =
-NS_MIN
+XPCOM_MIN
 (
 cutStart
 Length
@@ -1810,7 +1810,7 @@ return
 endif
 cutStart
 =
-NS_MIN
+XPCOM_MIN
 (
 cutStart
 Length
@@ -1901,7 +1901,7 @@ Length
 ;
 cutStart
 =
-NS_MIN
+XPCOM_MIN
 (
 cutStart
 Length
@@ -2037,7 +2037,7 @@ false
 size_type
 newLen
 =
-NS_MIN
+XPCOM_MIN
 (
 mLength
 capacity

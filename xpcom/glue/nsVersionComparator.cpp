@@ -1062,7 +1062,7 @@ strB
 v2
 .
 strB
-NS_MIN
+XPCOM_MIN
 (
 v1
 .

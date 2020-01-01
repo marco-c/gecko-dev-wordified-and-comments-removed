@@ -1589,7 +1589,7 @@ rv
 int64_t
 newPos
 =
-NS_MIN
+XPCOM_MIN
 (
 remaining
 streamPos
@@ -1749,7 +1749,7 @@ rv
 int64_t
 seek
 =
-NS_MIN
+XPCOM_MIN
 (
 (
 int64_t
@@ -1873,7 +1873,7 @@ rv
 int64_t
 seek
 =
-NS_MIN
+XPCOM_MIN
 (
 pos
 remaining
@@ -2208,7 +2208,7 @@ newPos
 =
 streamPos
 +
-NS_MIN
+XPCOM_MIN
 (
 avail
 std

@@ -83,7 +83,7 @@ size_forward
 size_type
 lengthToCompare
 =
-NS_MIN
+XPCOM_MIN
 (
 lLength
 rLength

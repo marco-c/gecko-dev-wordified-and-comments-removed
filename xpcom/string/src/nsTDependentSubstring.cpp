@@ -8,9 +8,9 @@ const
 substring_type
 &
 str
-PRUint32
+uint32_t
 startPos
-PRUint32
+uint32_t
 length
 )
 {
@@ -56,7 +56,7 @@ startPos
 ;
 mLength
 =
-NS_MIN
+XPCOM_MIN
 (
 length
 strLength
