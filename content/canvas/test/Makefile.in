@@ -413,6 +413,10 @@ test_drawImage_document_domain
 .
 html
 \
+test_mozDashOffset
+.
+html
+\
 file_drawImage_document_domain
 .
 html
