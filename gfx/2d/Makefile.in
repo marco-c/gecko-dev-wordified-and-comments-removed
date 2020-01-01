@@ -146,6 +146,10 @@ Rect
 .
 h
 \
+Scale
+.
+h
+\
 Types
 .
 h
@@ -205,6 +209,10 @@ DrawEventRecorder
 cpp
 \
 Blur
+.
+cpp
+\
+Scale
 .
 cpp
 \
@@ -305,6 +313,14 @@ DrawTargetSkia
 cpp
 \
 PathSkia
+.
+cpp
+\
+convolver
+.
+cpp
+\
+image_operations
 .
 cpp
 \
