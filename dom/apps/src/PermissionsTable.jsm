@@ -119,7 +119,7 @@ privileged
 PROMPT_ACTION
 certified
 :
-ALLOW_ACTION
+PROMPT_ACTION
 }
 camera
 :
