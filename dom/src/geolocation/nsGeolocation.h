@@ -413,11 +413,6 @@ GetCachedPosition
 (
 )
 ;
-PRBool
-HasGeolocationProvider
-(
-)
-;
 nsresult
 StartDevice
 (
