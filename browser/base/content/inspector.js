@@ -1032,7 +1032,6 @@ this
 .
 closeInspectorUI
 (
-true
 )
 ;
 }
@@ -2847,7 +2846,7 @@ closeInspectorUI
 function
 IUI_closeInspectorUI
 (
-aClearStore
+aKeepStore
 )
 {
 if
@@ -2880,7 +2879,8 @@ true
 ;
 if
 (
-aClearStore
+!
+aKeepStore
 )
 {
 InspectorStore
@@ -4127,7 +4127,7 @@ this
 .
 closeInspectorUI
 (
-false
+true
 )
 ;
 inspectorClosed
