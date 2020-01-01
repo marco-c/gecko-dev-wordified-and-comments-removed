@@ -467,14 +467,6 @@ test_progressmeter
 .
 xul
 \
-test_radio
-.
-xul
-\
-xul_selectcontrol
-.
-js
-\
 #
 Disabled
 until
