@@ -1,16 +1,6 @@
 <
 !
 ENTITY
-browser
-.
-title
-"
-Firefox
-"
->
-<
-!
-ENTITY
 cut
 .
 label
