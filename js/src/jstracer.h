@@ -252,9 +252,6 @@ globalSlots
 unsigned
 numGlobalSlots
 ;
-unsigned
-maxGlobalSlots
-;
 uint8
 *
 typeMap
