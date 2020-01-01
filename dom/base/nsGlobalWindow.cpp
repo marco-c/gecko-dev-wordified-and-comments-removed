@@ -30038,7 +30038,7 @@ NS_IMETHODIMP
 nsGlobalWindow
 :
 :
-GetMozIndexedDB
+GetMoz_indexedDB
 (
 nsIIndexedDatabaseRequest
 *
