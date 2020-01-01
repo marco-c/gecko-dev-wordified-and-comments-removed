@@ -435,6 +435,15 @@ BLOCK
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsPrintDialogX
 .
 h
@@ -511,6 +520,10 @@ nsObjCExceptions
 .
 h
 "
+using
+namespace
+mozilla
+;
 NS_IMPL_ISUPPORTS1
 (
 nsPrintDialogServiceX
@@ -2252,7 +2265,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sHeaderFooterTags
 )
@@ -3376,7 +3389,7 @@ index
 <
 NSInteger
 (
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sHeaderFooterTags
 )

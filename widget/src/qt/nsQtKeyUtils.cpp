@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsWindow
 .
 h
@@ -19,6 +28,10 @@ nsGUIEvent
 .
 h
 "
+using
+namespace
+mozilla
+;
 struct
 nsKeyConverter
 {
@@ -894,7 +907,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 nsKeycodes
 )
@@ -1052,7 +1065,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 nsKeycodes
 )

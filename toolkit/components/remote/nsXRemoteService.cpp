@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsXRemoteService
 .
 h
@@ -172,6 +181,10 @@ Xatom
 .
 h
 >
+using
+namespace
+mozilla
+;
 #
 define
 MOZILLA_VERSION_PROP
@@ -1730,7 +1743,7 @@ DefaultXDisplay
 (
 )
 XAtomNames
-NS_ARRAY_LENGTH
+ArrayLength
 (
 XAtomNames
 )

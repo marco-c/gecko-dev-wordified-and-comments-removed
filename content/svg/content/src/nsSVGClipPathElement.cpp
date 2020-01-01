@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsSVGClipPathElement
 .
 h
@@ -12,6 +21,10 @@ nsGkAtoms
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsSVGElement
 :
 :
@@ -138,7 +151,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sEnumInfo
 )

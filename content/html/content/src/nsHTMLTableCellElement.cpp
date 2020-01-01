@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLTableCellElement
 .
 h
@@ -96,6 +105,10 @@ celldata
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsHTMLTableCellElement
 :
@@ -1952,7 +1965,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )

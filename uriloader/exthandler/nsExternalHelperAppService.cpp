@@ -1,4 +1,13 @@
 #
+include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
 ifdef
 MOZ_LOGGING
 #
@@ -3202,7 +3211,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 nonDecodableExtensions
 )
@@ -4869,7 +4878,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 unsafeBidiCharacters
 )
@@ -10353,7 +10362,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 defaultMimeEntries
 )
@@ -11165,7 +11174,7 @@ MIMEType
 PRInt32
 numEntries
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 extraMimeEntries
 )
@@ -11327,7 +11336,7 @@ iter
 PRInt32
 numEntries
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 extraMimeEntries
 )

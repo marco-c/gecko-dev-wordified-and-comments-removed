@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -90,6 +99,10 @@ h
 "
 #
 endif
+using
+namespace
+mozilla
+;
 struct
 TestEntry
 {
@@ -612,7 +625,7 @@ test
 ;
 test
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 testList
 )

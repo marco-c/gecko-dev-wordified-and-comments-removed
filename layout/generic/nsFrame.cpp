@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -42118,7 +42127,7 @@ disp
 mDisplay
 >
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 displayTypes
 )
@@ -42224,7 +42233,7 @@ if
 bareType
 >
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 cssFrameTypes
 )

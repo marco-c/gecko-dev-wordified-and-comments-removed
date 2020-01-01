@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 GfxInfoBase
 .
 h
@@ -122,6 +131,10 @@ h
 "
 #
 endif
+using
+namespace
+mozilla
+;
 extern
 "
 C
@@ -2801,7 +2814,7 @@ if
 (
 mFailureCount
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 mFailures
 )

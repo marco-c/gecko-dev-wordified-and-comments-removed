@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 gfxFontUtils
 .
 h
@@ -6808,7 +6817,7 @@ NAME_ID_POSTSCRIPT
 PRUint16
 nameCount
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 neededNameIDs
 )

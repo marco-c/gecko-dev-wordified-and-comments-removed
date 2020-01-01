@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsHTMLTags
 .
 h
@@ -40,6 +49,10 @@ nsUnicharUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 static
 const
 PRUnichar
@@ -3844,7 +3857,7 @@ gTableRefCount
 NS_RegisterStaticAtoms
 (
 sTagAtoms_info
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sTagAtoms_info
 )

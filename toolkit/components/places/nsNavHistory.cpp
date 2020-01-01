@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsNavHistory
 .
 h
@@ -1351,7 +1360,7 @@ aDBConn
 ExecuteAsync
 (
 stmts
-NS_ARRAY_LENGTH
+ArrayLength
 (
 stmts
 )
@@ -23527,7 +23536,7 @@ mDBConn
 ExecuteAsync
 (
 stmts
-NS_ARRAY_LENGTH
+ArrayLength
 (
 stmts
 )
@@ -29947,7 +29956,7 @@ mDBConn
 ExecuteAsync
 (
 stmts
-NS_ARRAY_LENGTH
+ArrayLength
 (
 stmts
 )
@@ -30527,7 +30536,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 stmts
 )

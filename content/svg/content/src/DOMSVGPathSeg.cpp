@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 DOMSVGPathSeg
 .
 h
@@ -576,7 +585,7 @@ segType
 \
 NS_ABORT_IF_FALSE
 (
-NS_ARRAY_LENGTH
+ArrayLength
 (
 mArgs
 )

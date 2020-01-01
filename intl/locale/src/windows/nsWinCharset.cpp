@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsIPlatformCharset
 .
 h
@@ -75,6 +84,10 @@ nsEncoderDecoderUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 static
 const
 char
@@ -187,7 +200,7 @@ nsUConvPropertySearch
 SearchPropertyValue
 (
 kWinCharsets
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kWinCharsets
 )
@@ -307,7 +320,7 @@ GetLocaleInfoW
 localeAsLCID
 LOCALE_IDEFAULTANSICODEPAGE
 acp_name
-NS_ARRAY_LENGTH
+ArrayLength
 (
 acp_name
 )

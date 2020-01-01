@@ -7,6 +7,15 @@ nsCSSPropertySet_h__
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCSSProperty
 .
 h
@@ -219,7 +228,10 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+mozilla
+:
+:
+ArrayLength
 (
 mProperties
 )

@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsClipboard
 .
 h
@@ -143,6 +152,10 @@ unistd
 .
 h
 >
+using
+namespace
+mozilla
+;
 void
 clipboard_get_cb
 (
@@ -2314,7 +2327,7 @@ ptrPrimitive
 &
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 imageMimeTypes
 )

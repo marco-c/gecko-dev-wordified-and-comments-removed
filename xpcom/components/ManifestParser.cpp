@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 ManifestParser
 .
 h
@@ -148,6 +157,10 @@ nsIXULRuntime
 .
 h
 "
+using
+namespace
+mozilla
+;
 struct
 ManifestDirective
 {
@@ -2303,9 +2316,7 @@ kParsingTable
 ;
 d
 <
-kParsingTable
-+
-NS_ARRAY_LENGTH
+ArrayEnd
 (
 kParsingTable
 )

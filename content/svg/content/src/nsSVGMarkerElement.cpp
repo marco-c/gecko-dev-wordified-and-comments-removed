@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
@@ -810,7 +819,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )
@@ -1074,7 +1083,7 @@ LengthAttributesInfo
 (
 mLengthAttributes
 sLengthInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sLengthInfo
 )
@@ -1097,7 +1106,7 @@ AngleAttributesInfo
 (
 mAngleAttributes
 sAngleInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sAngleInfo
 )
@@ -1120,7 +1129,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sEnumInfo
 )

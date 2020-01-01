@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsWidgetAtoms
 .
 h
@@ -120,7 +129,10 @@ RegisterAtoms
 NS_RegisterStaticAtoms
 (
 widget_atoms
-NS_ARRAY_LENGTH
+mozilla
+:
+:
+ArrayLength
 (
 widget_atoms
 )

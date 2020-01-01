@@ -1,4 +1,13 @@
 #
+include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
 define
 PANGO_ENABLE_BACKEND
 #
@@ -229,6 +238,10 @@ math
 .
 h
 >
+using
+namespace
+mozilla
+;
 #
 define
 FLOAT_PANGO_SCALE
@@ -1125,7 +1138,7 @@ XXXX
 FcChar8
 otCap
 [
-NS_ARRAY_LENGTH
+ArrayLength
 (
 otCapTemplate
 )
@@ -1135,7 +1148,7 @@ memcpy
 (
 otCap
 otCapTemplate
-NS_ARRAY_LENGTH
+ArrayLength
 (
 otCapTemplate
 )
@@ -1145,7 +1158,7 @@ const
 PRUint32
 scriptOffset
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 otCapTemplate
 )

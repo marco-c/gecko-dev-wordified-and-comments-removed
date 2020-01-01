@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCache
 .
 h
@@ -175,6 +184,10 @@ FunctionTimer
 .
 h
 "
+using
+namespace
+mozilla
+;
 static
 const
 char
@@ -5234,7 +5247,7 @@ rv
 &
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 prepared
 )

@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsGSettingsService
 .
 h
@@ -56,6 +65,10 @@ object
 .
 h
 >
+using
+namespace
+mozilla
+;
 typedef
 struct
 _GSettings
@@ -1191,7 +1204,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kGSettingsSymbols
 )

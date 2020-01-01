@@ -3,6 +3,15 @@ include
 "
 mozilla
 /
+Util
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ContentChild
@@ -4615,7 +4624,7 @@ pref_LoadPrefsInDir
 (
 defaultPrefDir
 specialFiles
-NS_ARRAY_LENGTH
+ArrayLength
 (
 specialFiles
 )

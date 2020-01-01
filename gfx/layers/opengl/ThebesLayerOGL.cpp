@@ -3,6 +3,15 @@ include
 "
 mozilla
 /
+Util
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 PLayers
@@ -3070,7 +3079,7 @@ new
 gfxTeeSurface
 (
 surfaces
-NS_ARRAY_LENGTH
+ArrayLength
 (
 surfaces
 )

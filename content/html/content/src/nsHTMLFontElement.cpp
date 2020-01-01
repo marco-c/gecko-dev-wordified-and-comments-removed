@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -68,6 +77,10 @@ nsIDocument
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsHTMLFontElement
 :
@@ -1360,7 +1373,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )

@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsICharsetAlias
 .
 h
@@ -47,6 +56,10 @@ nsCharsetAlias
 .
 h
 "
+using
+namespace
+mozilla
+;
 NS_IMPL_THREADSAFE_ISUPPORTS1
 (
 nsCharsetAlias2
@@ -138,7 +151,7 @@ nsUConvPropertySearch
 SearchPropertyValue
 (
 kAliases
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kAliases
 )

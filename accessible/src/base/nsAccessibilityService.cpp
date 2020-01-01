@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsAccessibilityService
 .
 h
@@ -418,6 +427,10 @@ Element
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -2903,7 +2916,7 @@ if
 aRole
 >
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kRoleNames
 )
@@ -4080,7 +4093,7 @@ nsIAccessibleEvent
 EVENT_LAST_ENTRY
 =
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kEventTypeNames
 )
@@ -4101,7 +4114,7 @@ if
 aEventType
 >
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kEventTypeNames
 )
@@ -4151,7 +4164,7 @@ if
 aRelationType
 >
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kRelationTypeNames
 )

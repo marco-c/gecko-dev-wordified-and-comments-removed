@@ -1,4 +1,13 @@
 #
+include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
 if
 defined
 (
@@ -274,6 +283,10 @@ h
 >
 #
 endif
+using
+namespace
+mozilla
+;
 #
 ifdef
 PR_LOGGING
@@ -4587,7 +4600,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStandardFonts
 )

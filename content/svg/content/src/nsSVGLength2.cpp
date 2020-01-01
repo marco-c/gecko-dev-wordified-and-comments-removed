@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsSVGLength2
 .
 h
@@ -73,6 +82,10 @@ h
 "
 #
 endif
+using
+namespace
+mozilla
+;
 NS_SVG_VAL_IMPL_CYCLE_COLLECTION
 (
 nsSVGLength2
@@ -431,7 +444,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 unitMap
 )

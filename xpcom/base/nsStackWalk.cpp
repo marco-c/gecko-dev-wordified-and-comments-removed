@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsStackWalk
 .
 h
@@ -122,6 +131,10 @@ USING_WXP_VERSION
 endif
 #
 endif
+using
+namespace
+mozilla
+;
 PR_BEGIN_EXTERN_C
 typedef
 DWORD
@@ -2638,7 +2651,7 @@ data
 .
 pc_size
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 local_pcs
 )
@@ -2854,7 +2867,7 @@ data
 .
 pc_size
 >
-NS_ARRAY_LENGTH
+ArrayLength
 (
 local_pcs
 )

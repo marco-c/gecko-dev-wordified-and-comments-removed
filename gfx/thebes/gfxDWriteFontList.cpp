@@ -1,4 +1,13 @@
 #
+include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
 ifdef
 MOZ_LOGGING
 #
@@ -4741,7 +4750,7 @@ aliasName
 ;
 lenAlias
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 aliasName
 )
@@ -5024,7 +5033,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sDirectWriteSubs
 )

@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 prenv
 .
 h
@@ -2560,7 +2569,7 @@ i
 (
 PRInt32
 )
-NS_ARRAY_LENGTH
+ArrayLength
 (
 cndMs
 )
@@ -2584,7 +2593,7 @@ for
 PRInt32
 i
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 cndMs
 )
@@ -2643,7 +2652,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 cndMs
 )
@@ -2684,7 +2693,7 @@ i
 (
 PRInt32
 )
-NS_ARRAY_LENGTH
+ArrayLength
 (
 threads
 )
@@ -2716,7 +2725,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 threads
 )
@@ -2742,7 +2751,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 cndMs
 )

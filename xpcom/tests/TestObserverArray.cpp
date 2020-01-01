@@ -12,13 +12,10 @@ nsTObserverArray
 .
 h
 "
-#
-include
-"
-nsMemory
-.
-h
-"
+using
+namespace
+mozilla
+;
 typedef
 nsTObserverArray
 <
@@ -70,7 +67,7 @@ HasMore
 count
 !
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 _exp
 )
@@ -185,7 +182,7 @@ if
 count
 !
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 _exp
 )

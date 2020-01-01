@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsBaseWidget
 .
 h
@@ -4588,7 +4597,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 debug_PrefValues
 )
@@ -4666,7 +4675,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 debug_PrefValues
 )
@@ -4839,7 +4848,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 debug_PrefValues
 )

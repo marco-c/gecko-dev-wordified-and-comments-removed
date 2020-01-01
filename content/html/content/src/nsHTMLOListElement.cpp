@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLOListElement
 .
 h
@@ -61,6 +70,10 @@ nsRuleData
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsHTMLSharedListElement
 :
@@ -834,7 +847,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )

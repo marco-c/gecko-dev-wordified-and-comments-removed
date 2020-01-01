@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsSVGAElement
 .
 h
@@ -61,6 +70,10 @@ nsContentUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsSVGElement
 :
 :
@@ -460,7 +473,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )
@@ -1048,7 +1061,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )

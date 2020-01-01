@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsHTMLEditUtils
 .
 h
@@ -82,6 +91,10 @@ nsHTMLTags
 .
 h
 "
+using
+namespace
+mozilla
+;
 bool
 nsHTMLEditUtils
 :
@@ -3720,7 +3733,7 @@ j
 ;
 j
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kButtonExcludeKids
 )

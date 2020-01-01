@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -596,7 +605,7 @@ eXBL_PROPERTIES
 TooDeepBindingRecursion
 "
 params
-NS_ARRAY_LENGTH
+ArrayLength
 (
 params
 )
@@ -4205,7 +4214,7 @@ eXBL_PROPERTIES
 InvalidExtendsBinding
 "
 params
-NS_ARRAY_LENGTH
+ArrayLength
 (
 params
 )
@@ -4419,7 +4428,7 @@ eXBL_PROPERTIES
 CircularExtendsBinding
 "
 params
-NS_ARRAY_LENGTH
+ArrayLength
 (
 params
 )
