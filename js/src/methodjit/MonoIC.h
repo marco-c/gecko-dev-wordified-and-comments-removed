@@ -236,6 +236,13 @@ jumpTargetPC
 ;
 #
 endif
+void
+*
+traceData
+;
+uintN
+traceEpoch
+;
 bool
 hasSlowTraceHint
 :

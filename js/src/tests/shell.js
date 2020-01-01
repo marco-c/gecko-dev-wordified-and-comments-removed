@@ -3047,6 +3047,14 @@ optionName
 "
 tracejit
 "
+&
+&
+optionName
+!
+=
+"
+profiling
+"
 )
 {
 options
