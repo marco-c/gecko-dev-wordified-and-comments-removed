@@ -129,6 +129,7 @@ if
 (
 aIsDeadKey
 )
+{
 mIsDeadKey
 |
 =
@@ -137,7 +138,9 @@ mIsDeadKey
 <
 aShiftState
 ;
+}
 else
+{
 mIsDeadKey
 &
 =
@@ -149,6 +152,7 @@ mIsDeadKey
 aShiftState
 )
 ;
+}
 }
 public
 :
