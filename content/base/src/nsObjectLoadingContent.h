@@ -564,6 +564,11 @@ mNetworkCreated
 :
 1
 ;
+bool
+mHasBeenClickedToPlay
+:
+1
+;
 PluginSupportState
 mFallbackReason
 ;

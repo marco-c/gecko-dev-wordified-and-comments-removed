@@ -343,6 +343,10 @@ const
 char
 *
 aMimeType
+bool
+aHasBeenClickedToPlay
+=
+false
 )
 ;
 nsresult
@@ -357,6 +361,10 @@ char
 *
 &
 aMimeType
+bool
+aHasBeenClickedToPlay
+=
+false
 )
 ;
 nsresult
