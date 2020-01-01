@@ -536,7 +536,7 @@ OnStatusChange
 (
 nullptr
 nullptr
-0
+NS_OK
 m_pendingStatus
 .
 get
