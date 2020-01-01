@@ -740,7 +740,7 @@ Ci
 nsIFile
 .
 DIRECTORY_TYPE
-0600
+0755
 )
 ;
 do_check_true
