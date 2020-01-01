@@ -7180,14 +7180,14 @@ refillFreeList
 (
 ThreadSafeContext
 *
-tcx
+cx
 AllocKind
 thingKind
 )
 {
 JS_ASSERT
 (
-tcx
+cx
 -
 >
 allocator
@@ -7211,7 +7211,7 @@ Zone
 *
 zone
 =
-tcx
+cx
 -
 >
 allocator
@@ -7264,7 +7264,7 @@ zone
 gcTriggerBytes
 &
 &
-tcx
+cx
 -
 >
 allowGC
@@ -7296,7 +7296,7 @@ thing
 =
 RunLastDitchGC
 (
-tcx
+cx
 -
 >
 asJSContext
@@ -7327,7 +7327,7 @@ void
 *
 thing
 =
-tcx
+cx
 -
 >
 allocator
@@ -7353,7 +7353,7 @@ thing
 )
 |
 |
-tcx
+cx
 -
 >
 isForkJoinSlice
@@ -7405,12 +7405,7 @@ allowGC
 ;
 js_ReportOutOfMemory
 (
-tcx
--
->
-asJSContext
-(
-)
+cx
 )
 ;
 return

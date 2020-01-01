@@ -120,7 +120,7 @@ js
 :
 ThreadSafeContext
 *
-tcx
+cx
 unsigned
 argc
 JS

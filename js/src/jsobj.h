@@ -2249,7 +2249,7 @@ js
 :
 ThreadSafeContext
 *
-tcx
+cx
 uint32_t
 newcap
 )
@@ -2637,7 +2637,7 @@ js
 :
 ThreadSafeContext
 *
-tcx
+cx
 js
 :
 :
@@ -2657,7 +2657,7 @@ js
 :
 ThreadSafeContext
 *
-tcx
+cx
 uint32_t
 requiredCapacity
 uint32_t
@@ -6396,7 +6396,7 @@ GetPropertyPure
 (
 ThreadSafeContext
 *
-tcx
+cx
 JSObject
 *
 obj
@@ -6413,7 +6413,7 @@ GetPropertyPure
 (
 ThreadSafeContext
 *
-tcx
+cx
 JSObject
 *
 obj
@@ -6428,7 +6428,7 @@ vp
 return
 GetPropertyPure
 (
-tcx
+cx
 obj
 NameToId
 (
@@ -6573,7 +6573,7 @@ GetObjectElementOperationPure
 (
 ThreadSafeContext
 *
-tcx
+cx
 JSObject
 *
 obj
