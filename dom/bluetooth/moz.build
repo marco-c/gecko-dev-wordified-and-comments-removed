@@ -272,6 +272,11 @@ BluetoothUnixSocketConnector
 cpp
 '
 '
+BluetoothA2dpManager
+.
+cpp
+'
+'
 BluetoothHfpManager
 .
 cpp
