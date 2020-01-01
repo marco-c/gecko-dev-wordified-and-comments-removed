@@ -1508,7 +1508,8 @@ const
 Value
 &
 idval
-HandlePropertyName
+PropertyName
+*
 name
 )
 ;
