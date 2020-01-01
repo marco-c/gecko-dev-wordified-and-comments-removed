@@ -129,16 +129,9 @@ height
 nullptr
 )
 *
-SnapTransform
+SnapTransformTranslation
 (
 aTransformToSurface
-gfxRect
-(
-0
-0
-0
-0
-)
 nullptr
 )
 ;
