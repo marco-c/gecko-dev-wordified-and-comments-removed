@@ -1467,6 +1467,10 @@ LegacyIntTypes
 .
 h
 \
+MemoryMetrics
+.
+h
+\
 TemplateLib
 .
 h
