@@ -621,9 +621,15 @@ MOZ_IPC
 {
 EXPORTS_NAMESPACES
 =
+IPC
 mozilla
 /
 layers
+EXPORTS_IPC
+=
+ShadowLayerUtils
+.
+h
 EXPORTS_mozilla
 /
 layers
