@@ -577,6 +577,12 @@ exthandler
 \
 dom
 /
+src
+/
+geolocation
+\
+dom
+/
 plugins
 \
 dom
@@ -608,6 +614,10 @@ ipc
 js
 /
 jetpack
+\
+layout
+/
+ipc
 \
 netwerk
 /

@@ -50,6 +50,14 @@ now
 "
 )
 ;
+PLayersChild
+:
+:
+Send__delete__
+(
+this
+)
+;
 }
 PLayerChild
 *
