@@ -462,10 +462,6 @@ browser_Bookmarks
 .
 js
 \
-browser_Extensions
-.
-js
-\
 ContentA
 .
 html
