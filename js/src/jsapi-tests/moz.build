@@ -225,6 +225,11 @@ testFunctionProperties
 cpp
 '
 '
+testGCExactRooting
+.
+cpp
+'
+'
 testGCFinalizeCallback
 .
 cpp
