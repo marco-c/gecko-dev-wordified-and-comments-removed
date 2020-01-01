@@ -1565,6 +1565,17 @@ branding
 license
 .
 r
+MOZ_PKG_MAC_EXTRA
+=
+-
+-
+symlink
+"
+/
+Applications
+:
+/
+"
 endif
 PACKAGER_NO_LIBS
 =
