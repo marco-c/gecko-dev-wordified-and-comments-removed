@@ -473,9 +473,6 @@ mPlayState
 PlayState
 mNextState
 ;
-PRPackedBool
-mResourceLoaded
-;
 }
 ;
 #

@@ -530,10 +530,6 @@ test_onloadedmetadata
 .
 html
 \
-test_progress1
-.
-html
-\
 test_seek1
 .
 html
@@ -612,10 +608,6 @@ _TEST_FILES
 +
 =
 \
-big
-.
-wav
-\
 test_bug463162
 .
 xhtml
@@ -629,10 +621,6 @@ test_wav_8bit
 html
 \
 test_wav_ended1
-.
-html
-\
-test_progress2
 .
 html
 \
