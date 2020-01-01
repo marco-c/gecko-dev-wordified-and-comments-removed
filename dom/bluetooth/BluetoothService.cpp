@@ -147,6 +147,14 @@ mEnabled
 gInShutdown
 )
 {
+if
+(
+gBluetoothService
+-
+>
+mBluetoothCommandThread
+)
+{
 nsCOMPtr
 <
 nsIThread
@@ -170,6 +178,7 @@ Shutdown
 (
 )
 ;
+}
 }
 if
 (
