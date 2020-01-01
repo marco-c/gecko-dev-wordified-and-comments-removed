@@ -1476,7 +1476,7 @@ SkMatrix
 .
 cpp
 \
-SkMemory_mozalloc
+SkMemory_malloc
 .
 cpp
 \
