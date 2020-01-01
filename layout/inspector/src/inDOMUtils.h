@@ -29,6 +29,9 @@ class
 nsRuleNode
 ;
 class
+nsStyleContext
+;
+class
 inDOMUtils
 :
 public
@@ -57,6 +60,10 @@ GetRuleNodeForContent
 nsIContent
 *
 aContent
+nsStyleContext
+*
+*
+aStyleContext
 nsRuleNode
 *
 *
