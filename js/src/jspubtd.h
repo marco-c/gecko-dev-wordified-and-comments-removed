@@ -705,6 +705,11 @@ JSRuntime
 const
 runtime
 ;
+JSCompartment
+*
+compartment
+;
+explicit
 ContextFriendFields
 (
 JSRuntime
@@ -715,6 +720,10 @@ rt
 runtime
 (
 rt
+)
+compartment
+(
+NULL
 )
 {
 }

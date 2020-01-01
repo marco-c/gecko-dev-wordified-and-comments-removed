@@ -4288,10 +4288,6 @@ resolvingList
 bool
 generatingError
 ;
-JSCompartment
-*
-compartment
-;
 inline
 void
 setCompartment
