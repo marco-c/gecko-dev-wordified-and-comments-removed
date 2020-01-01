@@ -1220,7 +1220,14 @@ aCallback
 >
 NoteXPCOMChild
 (
+static_cast
+<
+nsIDOMNodeList
+*
+>
+(
 mNameContentList
+)
 )
 ;
 }

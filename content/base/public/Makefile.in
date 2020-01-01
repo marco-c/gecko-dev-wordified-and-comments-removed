@@ -475,6 +475,10 @@ nsINodeInfo
 .
 h
 \
+nsINodeList
+.
+h
+\
 nsIRange
 .
 h
