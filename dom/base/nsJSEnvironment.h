@@ -543,7 +543,7 @@ virtual
 nsresult
 InitClasses
 (
-void
+JSObject
 *
 aGlobalObj
 )
