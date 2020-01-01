@@ -66,6 +66,12 @@ start
 (
 )
 ;
+"
+)
+;
+sendCommand
+(
+"
 observer
 .
 status
