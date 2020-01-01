@@ -648,14 +648,9 @@ test_events_caretmove
 .
 html
 \
-(
-warning
 test_events_coalescence
 .
 html
-temporarily
-disabled
-)
 \
 (
 warning
