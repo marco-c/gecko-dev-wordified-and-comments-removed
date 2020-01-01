@@ -82,9 +82,6 @@ mk
 LIBRARY_NAME
 =
 gkmathml_s
-LIBXUL_LIBRARY
-=
-1
 LOCAL_INCLUDES
 =
 \

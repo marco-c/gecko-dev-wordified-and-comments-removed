@@ -153,3 +153,6 @@ LIBRARY_NAME
 '
 nkdashmpd_s
 '
+LIBXUL_LIBRARY
+=
+True

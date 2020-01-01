@@ -166,3 +166,6 @@ LIBRARY_NAME
 '
 nkconv_s
 '
+LIBXUL_LIBRARY
+=
+True

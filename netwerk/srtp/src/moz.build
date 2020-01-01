@@ -228,3 +228,6 @@ ut_sim
 c
 '
 ]
+LIBXUL_LIBRARY
+=
+True

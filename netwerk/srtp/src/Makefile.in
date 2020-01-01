@@ -128,9 +128,6 @@ mk
 LIBRARY_NAME
 =
 nksrtp_s
-LIBXUL_LIBRARY
-=
-1
 LOCAL_INCLUDES
 =
 \

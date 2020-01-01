@@ -128,3 +128,6 @@ prefread
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True

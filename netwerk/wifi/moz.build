@@ -288,3 +288,6 @@ LIBRARY_NAME
 '
 neckowifi_s
 '
+LIBXUL_LIBRARY
+=
+True
