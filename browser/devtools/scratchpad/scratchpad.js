@@ -5712,6 +5712,9 @@ ToolSidebar
 (
 tabbox
 this
+"
+scratchpad
+"
 )
 ;
 this
