@@ -397,6 +397,14 @@ GetPreviewStreamVideoModeTask
 aGetPreviewStreamVideoMode
 )
 ;
+nsresult
+ReleaseHardwareImpl
+(
+ReleaseHardwareTask
+*
+aReleaseHardware
+)
+;
 already_AddRefed
 <
 RecorderProfileManager
