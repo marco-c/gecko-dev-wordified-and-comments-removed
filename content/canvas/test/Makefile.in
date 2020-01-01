@@ -4582,6 +4582,14 @@ composite
 .
 html
 \
+test_2d
+.
+drawImage
+.
+self
+.
+html
+\
 (
 NULL
 )

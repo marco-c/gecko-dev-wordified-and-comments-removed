@@ -11458,6 +11458,12 @@ sourceSurface
 ;
 if
 (
+sourceSurface
+=
+=
+mThebesSurface
+|
+|
 NS_FAILED
 (
 rv
