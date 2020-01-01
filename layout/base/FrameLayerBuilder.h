@@ -548,6 +548,15 @@ aFrame
 ;
 static
 void
+InvalidateThebesLayersInSubtreeWithUntrustedFrameGeometry
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
+void
 InvalidateAllLayers
 (
 LayerManager

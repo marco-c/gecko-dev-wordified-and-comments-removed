@@ -3524,7 +3524,7 @@ rootFrame
 FrameLayerBuilder
 :
 :
-InvalidateThebesLayersInSubtree
+InvalidateThebesLayersInSubtreeWithUntrustedFrameGeometry
 (
 rootFrame
 )
