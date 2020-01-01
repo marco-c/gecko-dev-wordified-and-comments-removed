@@ -464,9 +464,12 @@ txXSLKey
 >
 mKeys
 ;
-nsTPtrArray
+nsTArray
+<
+nsAutoPtr
 <
 txStripSpaceTest
+>
 >
 mStripSpaceTests
 ;
