@@ -443,6 +443,12 @@ dataAlloc
 ;
 CLS
 (
+VMAllocator
+)
+tempAlloc
+;
+CLS
+(
 nanojit
 :
 :
@@ -541,6 +547,12 @@ CLS
 REHashMap
 )
 reFragments
+;
+CLS
+(
+VMAllocator
+)
+reTempAlloc
 ;
 CLS
 (
