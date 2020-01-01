@@ -2701,9 +2701,11 @@ hook
 "
 )
 ;
-JSObject
-*
+RootedObject
 holder
+(
+cx
+)
 ;
 JSProperty
 *
@@ -3672,8 +3674,7 @@ JSContext
 *
 cx
 ;
-JSObject
-*
+RootedObject
 obj
 ;
 RootedPropertyName
@@ -3687,8 +3688,7 @@ VMFrame
 &
 f
 ;
-JSObject
-*
+RootedObject
 holder
 ;
 JSProperty
@@ -3725,6 +3725,7 @@ cx
 )
 obj
 (
+cx
 obj
 )
 name
@@ -3742,7 +3743,7 @@ f
 )
 holder
 (
-NULL
+cx
 )
 prop
 (

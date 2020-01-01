@@ -24270,9 +24270,11 @@ prop
 =
 NULL
 ;
-JSObject
-*
+RootedObject
 pobj
+(
+cx
+)
 ;
 for
 (

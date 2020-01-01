@@ -16166,9 +16166,11 @@ REJOIN_FALLTHROUGH
 return
 ;
 }
-JSObject
-*
+RootedObject
 holder
+(
+cx
+)
 ;
 JSProperty
 *

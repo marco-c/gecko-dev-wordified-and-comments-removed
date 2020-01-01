@@ -1421,9 +1421,7 @@ JSHandleId
 id
 unsigned
 flags
-JSObject
-*
-*
+JSMutableHandleObject
 objp
 )
 ;
@@ -2900,9 +2898,7 @@ JSHandleId
 id
 unsigned
 flags
-JSObject
-*
-*
+JSMutableHandleObject
 objp
 )
 ;
@@ -2961,9 +2957,7 @@ JSHandleId
 id
 unsigned
 flags
-JSObject
-*
-*
+JSMutableHandleObject
 objp
 )
 ;
@@ -2980,9 +2974,7 @@ JSHandleId
 id
 unsigned
 flags
-JSObject
-*
-*
+JSMutableHandleObject
 objp
 )
 ;

@@ -3061,9 +3061,13 @@ id
 )
 )
 {
-JSObject
-*
+RootedObject
 obj2
+(
+context
+(
+)
+)
 ;
 JSProperty
 *

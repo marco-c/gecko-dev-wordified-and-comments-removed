@@ -6178,15 +6178,6 @@ ObjectValue
 oldTarget
 )
 ;
-Value
-targetv
-=
-ObjectValue
-(
-*
-newTarget
-)
-;
 AutoValueVector
 toTransplant
 (

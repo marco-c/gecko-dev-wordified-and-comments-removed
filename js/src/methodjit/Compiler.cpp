@@ -29205,9 +29205,11 @@ getProto
 )
 ;
 }
-JSObject
-*
+RootedObject
 holder
+(
+cx
+)
 ;
 JSProperty
 *
@@ -29598,11 +29600,8 @@ js_GetClassPrototype
 cx
 globalObj
 key
+&
 proto
-.
-address
-(
-)
 NULL
 )
 )

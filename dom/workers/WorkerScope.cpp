@@ -3698,9 +3698,7 @@ JSHandleId
 aId
 unsigned
 aFlags
-JSObject
-*
-*
+JSMutableHandleObject
 aObjp
 )
 {
@@ -3724,9 +3722,10 @@ return
 false
 ;
 }
-*
 aObjp
-=
+.
+set
+(
 resolved
 ?
 aObj
@@ -3736,6 +3735,7 @@ value
 )
 :
 NULL
+)
 ;
 return
 true

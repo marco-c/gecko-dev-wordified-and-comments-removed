@@ -171,9 +171,7 @@ JSHandleId
 aId
 unsigned
 aFlags
-JSObject
-*
-*
+JSMutableHandleObject
 aObjp
 )
 ;
