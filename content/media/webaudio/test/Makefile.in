@@ -239,6 +239,10 @@ test_gainNode
 .
 html
 \
+test_gainNodeInLoop
+.
+html
+\
 test_mediaDecoding
 .
 html
