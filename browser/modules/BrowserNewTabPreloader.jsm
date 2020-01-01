@@ -855,6 +855,13 @@ function
 (
 )
 {
+if
+(
+this
+.
+_browsers
+)
+{
 this
 .
 _topics
@@ -887,13 +894,6 @@ this
 _updateTimer
 )
 ;
-if
-(
-this
-.
-_browsers
-)
-{
 for
 (
 let
