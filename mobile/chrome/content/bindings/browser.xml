@@ -1540,6 +1540,11 @@ function
 aListener
 )
 {
+let
+self
+=
+this
+;
 function
 hasFilter
 (
@@ -1555,7 +1560,7 @@ listener
 =
 aListener
 )
-this
+self
 .
 _browser
 .
