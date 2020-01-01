@@ -577,8 +577,6 @@ components
 /
 sidebar
 /
-src
-/
 Makefile
 browser
 /
