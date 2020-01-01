@@ -1101,6 +1101,15 @@ aNode
 ;
 }
 }
+nsContentUtils
+:
+:
+ReleaseWrapper
+(
+aNode
+aNode
+)
+;
 delete
 aNode
 ;

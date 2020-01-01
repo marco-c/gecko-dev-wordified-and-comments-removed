@@ -498,11 +498,13 @@ rv
 return
 rv
 ;
-aBoundElement
--
->
+nsContentUtils
+:
+:
 PreserveWrapper
 (
+aBoundElement
+aBoundElement
 )
 ;
 wrapper

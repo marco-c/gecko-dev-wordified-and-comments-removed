@@ -1726,7 +1726,7 @@ wrappedNative
 XPCWrappedNative
 :
 :
-GetWrappedNativeOfJSObject
+GetAndMorphWrappedNativeOfJSObject
 (
 cx
 nativeObj
@@ -3517,7 +3517,7 @@ parent_wrapper
 XPCWrappedNative
 :
 :
-GetWrappedNativeOfJSObject
+GetAndMorphWrappedNativeOfJSObject
 (
 cx
 wn_parent
@@ -3842,7 +3842,7 @@ wrappedNative
 XPCWrappedNative
 :
 :
-GetWrappedNativeOfJSObject
+GetAndMorphWrappedNativeOfJSObject
 (
 cx
 nativeObj
