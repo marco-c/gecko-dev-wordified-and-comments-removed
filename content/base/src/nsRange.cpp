@@ -1820,7 +1820,7 @@ nsnull
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -1848,7 +1848,7 @@ aStartParent
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -1876,7 +1876,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -1904,7 +1904,7 @@ aEndParent
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -1932,7 +1932,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -1969,7 +1969,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -2244,7 +2244,7 @@ return
 root
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -2384,7 +2384,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -2447,7 +2447,7 @@ aSibling
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -2512,7 +2512,7 @@ aSibling
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -2654,7 +2654,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -2717,7 +2717,7 @@ aSibling
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -2782,7 +2782,7 @@ aSibling
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -2834,7 +2834,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -2930,7 +2930,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -4204,7 +4204,7 @@ aEndNode
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 PrependChild
 (
 nsIDOMNode
@@ -5230,7 +5230,7 @@ return
 rv
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -5245,7 +5245,7 @@ nsnull
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -5740,7 +5740,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -6612,7 +6612,7 @@ aReturn
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -6953,7 +6953,7 @@ tResultNode
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -7304,7 +7304,7 @@ aNewParent
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
@@ -7724,7 +7724,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsRange
 :
 :
