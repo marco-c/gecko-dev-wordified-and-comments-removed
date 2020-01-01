@@ -13,7 +13,7 @@ ContactDB
 '
 ]
 ;
-let
+const
 DEBUG
 =
 false
@@ -4496,10 +4496,6 @@ aSuccessCb
 aErrorCb
 )
 {
-DEBUG
-=
-true
-;
 this
 .
 newTxn
@@ -5354,10 +5350,6 @@ aFailureCb
 aOptions
 )
 {
-DEBUG
-=
-false
-;
 if
 (
 DEBUG

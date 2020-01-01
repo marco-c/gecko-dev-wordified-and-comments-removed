@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+const
 DEBUG
 =
 false
@@ -4053,10 +4053,6 @@ function
 aOptions
 )
 {
-DEBUG
-=
-false
-;
 if
 (
 DEBUG
@@ -4588,10 +4584,6 @@ function
 (
 )
 {
-DEBUG
-=
-true
-;
 if
 (
 DEBUG
