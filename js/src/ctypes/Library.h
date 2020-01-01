@@ -38,7 +38,7 @@ Name
 JSContext
 *
 cx
-unsigned
+uintN
 argc
 jsval
 *
@@ -71,6 +71,9 @@ PRLibrary
 *
 GetLibrary
 (
+JSContext
+*
+cx
 JSObject
 *
 obj
@@ -82,7 +85,7 @@ Open
 JSContext
 *
 cx
-unsigned
+uintN
 argc
 jsval
 *

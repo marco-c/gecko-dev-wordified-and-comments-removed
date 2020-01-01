@@ -401,9 +401,8 @@ JS_FALSE
 }
 while
 (
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 !
@@ -463,9 +462,8 @@ CheckPropertyAccess
 (
 cx
 obj
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 -

@@ -4254,9 +4254,8 @@ JSClass
 *
 clazz
 =
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 ;
@@ -4561,9 +4560,8 @@ while
 obj
 &
 &
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 !
@@ -5676,9 +5674,8 @@ while
 obj
 &
 &
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 !
@@ -7107,9 +7104,8 @@ cx
 js_GetErrorMessage
 NULL
 JSMSG_CANT_CONVERT_TO
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 -
@@ -8484,9 +8480,8 @@ obj
 {
 if
 (
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 proto
 )
 =
@@ -8899,9 +8894,8 @@ npv
 ;
 while
 (
-JS_GET_CLASS
+JS_GetClass
 (
-cx
 obj
 )
 !
