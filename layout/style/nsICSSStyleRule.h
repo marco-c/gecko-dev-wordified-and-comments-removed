@@ -683,6 +683,14 @@ aIsNegated
 )
 const
 ;
+PRBool
+CanBeNamespaced
+(
+PRBool
+aIsNegated
+)
+const
+;
 public
 :
 PRInt32
