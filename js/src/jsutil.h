@@ -5,9 +5,6 @@ jsutil_h___
 define
 jsutil_h___
 JS_BEGIN_EXTERN_C
-#
-ifdef
-DEBUG
 extern
 JS_PUBLIC_API
 (
@@ -27,6 +24,9 @@ JSIntn
 ln
 )
 ;
+#
+ifdef
+DEBUG
 #
 define
 JS_ASSERT
