@@ -61,10 +61,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 nsDOMDeviceStorage
 nsDOMEventTargetHelper
 )
-NS_DECL_EVENT_HANDLER
-(
-change
-)
 nsDOMDeviceStorage
 (
 )
