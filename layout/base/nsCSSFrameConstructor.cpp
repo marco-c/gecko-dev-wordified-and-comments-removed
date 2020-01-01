@@ -45146,7 +45146,7 @@ state
 (
 mPresShell
 aParentFrame
-mInitialContainingBlock
+nsnull
 mInitialContainingBlock
 )
 ;

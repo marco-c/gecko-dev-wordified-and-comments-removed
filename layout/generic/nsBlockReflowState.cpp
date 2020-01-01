@@ -702,9 +702,13 @@ BRS_UNCONSTRAINEDHEIGHT
 ?
 NS_UNCONSTRAINEDSIZE
 :
+PR_MAX
+(
+0
 mBottomEdge
 -
 mY
+)
 ;
 const
 nsMargin
