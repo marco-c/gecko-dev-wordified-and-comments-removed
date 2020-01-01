@@ -506,6 +506,10 @@ nsClientRect
 .
 cpp
 \
+nsHTMLDNSPrefetch
+.
+cpp
+\
 nsGenericHTMLElement
 .
 cpp

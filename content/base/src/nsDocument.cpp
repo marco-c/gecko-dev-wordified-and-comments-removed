@@ -26213,6 +26213,15 @@ disposition
 "
 refresh
 "
+"
+x
+-
+dns
+-
+prefetch
+-
+control
+"
 0
 }
 ;

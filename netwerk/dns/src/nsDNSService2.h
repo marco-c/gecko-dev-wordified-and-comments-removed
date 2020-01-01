@@ -103,5 +103,8 @@ mIPv4OnlyDomains
 PRBool
 mDisableIPv6
 ;
+PRBool
+mDisablePrefetch
+;
 }
 ;
