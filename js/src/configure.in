@@ -20507,7 +20507,6 @@ localtime_r
 lstat64
 memmove
 random
-rint
 sbrk
 snprintf
 \
@@ -20582,8 +20581,14 @@ dnl
 =
 =
 =
+AC_CHECK_LIB
+(
+m
+sin
+)
 AC_CHECK_FUNCS
 (
+[
 log2
 log1p
 expm1
@@ -20594,6 +20599,7 @@ atanh
 hypot
 trunc
 cbrt
+]
 )
 dnl
 check
