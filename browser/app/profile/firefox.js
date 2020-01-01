@@ -2125,7 +2125,7 @@ urlbar
 .
 autoFill
 "
-true
+false
 )
 ;
 pref
@@ -2175,7 +2175,7 @@ urlbar
 .
 delay
 "
-0
+50
 )
 ;
 pref
