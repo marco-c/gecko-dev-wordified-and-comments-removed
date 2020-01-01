@@ -21303,9 +21303,15 @@ sn
 =
 SRC_INITPROP
 )
+{
+atom
+=
+NULL
+;
 goto
 do_initprop
 ;
+}
 todo
 =
 Sprint
