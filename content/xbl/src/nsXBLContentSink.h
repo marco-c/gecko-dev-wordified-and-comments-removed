@@ -264,6 +264,8 @@ endif
 nsresult
 ConstructBinding
 (
+PRUint32
+aLineNumber
 )
 ;
 void
