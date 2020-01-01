@@ -19,6 +19,15 @@ include
 "
 vm
 /
+RegExpStatics
+.
+h
+"
+#
+include
+"
+vm
+/
 StringBuffer
 .
 h
