@@ -4407,7 +4407,7 @@ NS_ERROR_FAILURE
 mGeolocation
 =
 new
-nsGeolocation
+Geolocation
 (
 )
 ;

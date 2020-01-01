@@ -224,7 +224,7 @@ namespace
 dom
 {
 class
-nsGeolocation
+Geolocation
 ;
 typedef
 CallbackObjectHolder
@@ -272,7 +272,7 @@ mozilla
 dom
 :
 :
-nsGeolocation
+Geolocation
 *
 locator
 const
@@ -487,7 +487,7 @@ mozilla
 dom
 :
 :
-nsGeolocation
+Geolocation
 >
 mLocator
 ;
@@ -566,7 +566,7 @@ mozilla
 dom
 :
 :
-nsGeolocation
+Geolocation
 *
 locator
 )
@@ -580,7 +580,7 @@ mozilla
 dom
 :
 :
-nsGeolocation
+Geolocation
 *
 locator
 )
@@ -666,7 +666,7 @@ mozilla
 dom
 :
 :
-nsGeolocation
+Geolocation
 *
 >
 mGeolocators
@@ -689,7 +689,7 @@ namespace
 dom
 {
 class
-nsGeolocation
+Geolocation
 MOZ_FINAL
 :
 public
@@ -702,10 +702,10 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-nsGeolocation
+Geolocation
 )
 NS_DECL_NSIDOMGEOGEOLOCATION
-nsGeolocation
+Geolocation
 (
 )
 ;
@@ -856,7 +856,7 @@ ServiceReady
 private
 :
 ~
-nsGeolocation
+Geolocation
 (
 )
 ;
@@ -1016,14 +1016,14 @@ PositionError
 NS_DECL_NSIDOMGEOPOSITIONERROR
 PositionError
 (
-nsGeolocation
+Geolocation
 *
 aParent
 int16_t
 aCode
 )
 ;
-nsGeolocation
+Geolocation
 *
 GetParentObject
 (
@@ -1091,7 +1091,7 @@ mCode
 ;
 nsRefPtr
 <
-nsGeolocation
+Geolocation
 >
 mParent
 ;
