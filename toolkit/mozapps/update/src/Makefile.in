@@ -430,7 +430,7 @@ autoconf
 mk
 MODULE
 =
-extensions
+update
 ifdef
 MOZ_UPDATER
 DIRS
