@@ -861,6 +861,16 @@ SanitizeDownloadedFonts
 (
 )
 ;
+virtual
+bool
+FontHintingEnabled
+(
+)
+{
+return
+true
+;
+}
 #
 ifdef
 MOZ_GRAPHITE
