@@ -24224,7 +24224,7 @@ document
 getElementById
 (
 "
-navigator
+browser
 -
 toolbox
 "
