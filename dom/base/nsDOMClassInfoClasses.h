@@ -1389,7 +1389,7 @@ DesktopNotificationCenter
 )
 DOMCI_CLASS
 (
-WebSocket
+MozWebSocket
 )
 DOMCI_CLASS
 (

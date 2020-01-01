@@ -2410,7 +2410,7 @@ upload
 #
 WebSocket
 '
-nsIWebSocket
+nsIMozWebSocket
 .
 *
 '

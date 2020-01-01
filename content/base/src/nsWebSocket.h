@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsIWebSocket
+nsIMozWebSocket
 .
 h
 "
@@ -143,7 +143,7 @@ nsWebSocket
 public
 nsDOMEventTargetWrapperCache
 public
-nsIWebSocket
+nsIMozWebSocket
 public
 nsIJSNativeInitializer
 {
@@ -177,7 +177,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 nsWebSocket
 nsDOMEventTargetWrapperCache
 )
-NS_DECL_NSIWEBSOCKET
+NS_DECL_NSIMOZWEBSOCKET
 NS_IMETHOD
 Initialize
 (
