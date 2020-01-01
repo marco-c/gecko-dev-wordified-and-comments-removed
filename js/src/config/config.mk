@@ -4296,6 +4296,10 @@ MDDEPDIR
 )
 /
 (
+dir
+)
+/
+(
 F
 )
 .
@@ -4325,6 +4329,10 @@ if
 depend
 (
 MDDEPDIR
+)
+/
+(
+dir
 )
 /
 (

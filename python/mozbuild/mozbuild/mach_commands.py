@@ -3246,6 +3246,27 @@ tbpl_parser
 )
 :
         
+self
+.
+_run_make
+(
+directory
+=
+"
+testing
+/
+gtest
+"
+target
+=
+'
+gtest
+'
+ensure_exit_code
+=
+True
+)
+        
 app_path
 =
 self
@@ -3267,6 +3288,19 @@ GTEST_FILTER
 :
 gtest_filter
 }
+        
+gtest_env
+[
+b
+"
+MOZ_RUN_GTEST
+"
+]
+=
+b
+"
+True
+"
         
 if
 shuffle
