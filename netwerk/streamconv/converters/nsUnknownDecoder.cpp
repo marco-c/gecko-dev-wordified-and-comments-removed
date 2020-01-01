@@ -134,7 +134,7 @@ h
 #
 define
 MAX_BUFFER_SIZE
-1024
+512
 nsUnknownDecoder
 :
 :
@@ -898,18 +898,6 @@ PDF
 -
 "
 APPLICATION_PDF
-)
-SNIFFER_ENTRY
-(
-"
-%
-!
-PS
--
-Adobe
--
-"
-APPLICATION_POSTSCRIPT
 )
 SNIFFER_ENTRY
 (
