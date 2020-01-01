@@ -180,6 +180,11 @@ CancelDefaultPanZoom
 )
 ;
 void
+DetectScrollableSubframe
+(
+)
+;
+void
 ZoomToRect
 (
 const
@@ -714,6 +719,9 @@ mDisableNextTouchBatch
 ;
 bool
 mHandlingTouchQueue
+;
+bool
+mDelayPanning
 ;
 friend
 class

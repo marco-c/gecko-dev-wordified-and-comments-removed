@@ -329,6 +329,11 @@ CancelDefaultPanZoom
 )
 ;
 async
+DetectScrollableSubframe
+(
+)
+;
+async
 __delete__
 (
 )
