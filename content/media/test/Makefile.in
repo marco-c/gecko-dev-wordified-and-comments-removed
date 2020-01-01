@@ -753,6 +753,10 @@ test_streams_srcObject
 .
 html
 \
+test_reset_src
+.
+html
+\
 test_streams_gc
 .
 html
