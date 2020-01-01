@@ -93,6 +93,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 AsyncFaviconHelpers
 .
 h
@@ -183,6 +192,7 @@ created
 ;
 class
 nsFaviconService
+MOZ_FINAL
 :
 public
 nsIFaviconService

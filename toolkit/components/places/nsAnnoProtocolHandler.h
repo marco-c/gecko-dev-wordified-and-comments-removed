@@ -47,6 +47,15 @@ nsWeakReference
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_ANNOPROTOCOLHANDLER_CID
 \
@@ -67,6 +76,7 @@ NS_ANNOPROTOCOLHANDLER_CID
 }
 class
 nsAnnoProtocolHandler
+MOZ_FINAL
 :
 public
 nsIProtocolHandler

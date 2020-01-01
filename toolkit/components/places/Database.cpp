@@ -131,6 +131,15 @@ Services
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 RECENT_BACKUP_TIME_MICROSEC
 (
@@ -877,6 +886,7 @@ JOURNAL_DELETE
 }
 class
 BlockingConnectionCloseCallback
+MOZ_FINAL
 :
 public
 mozIStorageCompletionCallback

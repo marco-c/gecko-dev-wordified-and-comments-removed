@@ -53,6 +53,15 @@ StatementCache
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 DATABASE_SCHEMA_VERSION
 21
@@ -148,6 +157,7 @@ JOURNAL_WAL
 ;
 class
 Database
+MOZ_FINAL
 :
 public
 nsIObserver

@@ -11,6 +11,15 @@ mozIStorageFunction
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 mozIStorageConnection
 ;
@@ -22,6 +31,7 @@ places
 {
 class
 MatchAutoCompleteFunction
+MOZ_FINAL
 :
 public
 mozIStorageFunction
@@ -225,6 +235,7 @@ _fixedSpec
 ;
 class
 CalculateFrecencyFunction
+MOZ_FINAL
 :
 public
 mozIStorageFunction
@@ -246,6 +257,7 @@ aDBConn
 ;
 class
 GenerateGUIDFunction
+MOZ_FINAL
 :
 public
 mozIStorageFunction
@@ -267,6 +279,7 @@ aDBConn
 ;
 class
 GetUnreversedHostFunction
+MOZ_FINAL
 :
 public
 mozIStorageFunction
@@ -288,6 +301,7 @@ aDBConn
 ;
 class
 FixupURLFunction
+MOZ_FINAL
 :
 public
 mozIStorageFunction

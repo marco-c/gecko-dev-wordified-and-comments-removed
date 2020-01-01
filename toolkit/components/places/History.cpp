@@ -166,6 +166,15 @@ nsIMemoryReporter
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 VISIT_OBSERVERS_INITIAL_CACHE_SIZE
 128
@@ -4811,6 +4820,7 @@ mHistory
 ;
 class
 SetDownloadAnnotations
+MOZ_FINAL
 :
 public
 mozIVisitInfoCallback
