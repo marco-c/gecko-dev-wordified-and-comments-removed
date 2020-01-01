@@ -805,11 +805,6 @@ nsIDOMText
 splitText
 '
 '
-nsIDOMDOMImplementation
-.
-*
-'
-'
 nsIDOMDOMStringList
 .
 *
