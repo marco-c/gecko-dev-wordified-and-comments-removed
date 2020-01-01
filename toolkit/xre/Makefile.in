@@ -749,8 +749,6 @@ SHARED_LIBRARY_LIBS
 /
 profile
 /
-src
-/
 (
 LIB_PREFIX
 )
@@ -1481,8 +1479,6 @@ srcdir
 .
 /
 profile
-/
-src
 \
 -
 I

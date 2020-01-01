@@ -487,8 +487,6 @@ srcdir
 .
 /
 downloads
-/
-src
 \
 -
 I
@@ -500,8 +498,6 @@ srcdir
 .
 /
 feeds
-/
-src
 \
 -
 I
@@ -513,8 +509,6 @@ srcdir
 .
 /
 find
-/
-src
 \
 -
 I
@@ -537,8 +531,6 @@ srcdir
 .
 /
 startup
-/
-src
 \
 -
 I
@@ -561,8 +553,6 @@ srcdir
 .
 /
 typeaheadfind
-/
-src
 \
 -
 I
@@ -576,8 +566,6 @@ srcdir
 url
 -
 classifier
-/
-src
 \
 (
 NULL
@@ -598,8 +586,6 @@ srcdir
 .
 /
 alerts
-/
-src
 \
 (
 NULL
@@ -639,8 +625,6 @@ SHARED_LIBRARY_LIBS
 /
 find
 /
-src
-/
 (
 LIB_PREFIX
 )
@@ -655,8 +639,6 @@ LIB_SUFFIX
 /
 typeaheadfind
 /
-src
-/
 (
 LIB_PREFIX
 )
@@ -670,8 +652,6 @@ LIB_SUFFIX
 .
 /
 startup
-/
-src
 /
 (
 LIB_PREFIX
@@ -716,8 +696,6 @@ SHARED_LIBRARY_LIBS
 /
 parentalcontrols
 /
-src
-/
 (
 LIB_PREFIX
 )
@@ -740,8 +718,6 @@ srcdir
 .
 /
 parentalcontrols
-/
-src
 \
 (
 NULL
@@ -758,8 +734,6 @@ SHARED_LIBRARY_LIBS
 .
 /
 downloads
-/
-src
 /
 (
 LIB_PREFIX
@@ -798,8 +772,6 @@ SHARED_LIBRARY_LIBS
 /
 alerts
 /
-src
-/
 (
 LIB_PREFIX
 )
@@ -819,8 +791,6 @@ SHARED_LIBRARY_LIBS
 /
 alerts
 /
-src
-/
 mac
 /
 (
@@ -838,8 +808,6 @@ SHARED_LIBRARY_LIBS
 .
 /
 alerts
-/
-src
 /
 mac
 /
@@ -866,8 +834,6 @@ url
 -
 classifier
 /
-src
-/
 (
 LIB_PREFIX
 )
@@ -892,8 +858,6 @@ SHARED_LIBRARY_LIBS
 .
 /
 feeds
-/
-src
 /
 (
 LIB_PREFIX

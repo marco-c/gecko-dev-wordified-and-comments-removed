@@ -408,9 +408,14 @@ config
 autoconf
 .
 mk
-DIRS
+MODULE
 =
-src
+microformats
+EXTRA_JS_MODULES
+=
+Microformats
+.
+js
 ifdef
 ENABLE_TESTS
 DIRS
