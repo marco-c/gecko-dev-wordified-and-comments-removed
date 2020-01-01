@@ -266,6 +266,11 @@ tu
 =
 TranslationUnit
 (
+'
+(
+none
+)
+'
 )
         
 self
@@ -1229,6 +1234,26 @@ assert
 (
 0
 )
+    
+tu
+.
+namespaces
+=
+tu
+.
+protocol
+.
+namespaces
+    
+tu
+.
+name
+=
+tu
+.
+protocol
+.
+name
     
 p
 [

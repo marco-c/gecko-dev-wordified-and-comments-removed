@@ -230,8 +230,6 @@ ns
 in
 ast
 .
-protocol
-.
 namespaces
 ]
 +

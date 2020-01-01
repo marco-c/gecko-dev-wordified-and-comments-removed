@@ -825,7 +825,7 @@ namespaces
 class
 TranslationUnit
 (
-Node
+NamespacedNode
 )
 :
     
@@ -833,14 +833,18 @@ def
 __init__
 (
 self
+name
 )
 :
         
-Node
+NamespacedNode
 .
 __init__
 (
 self
+name
+=
+name
 )
         
 self
