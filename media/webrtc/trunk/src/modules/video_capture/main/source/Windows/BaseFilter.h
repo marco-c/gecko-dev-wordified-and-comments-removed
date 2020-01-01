@@ -6,6 +6,13 @@ define
 WEBRTC_MODULES_VIDEO_CAPTURE_MAIN_SOURCE_WINDOWS_BASEFILTER_H_
 #
 include
+<
+assert
+.
+h
+>
+#
+include
 "
 dshow
 .
