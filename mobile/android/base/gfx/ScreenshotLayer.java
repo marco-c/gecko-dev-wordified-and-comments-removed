@@ -846,6 +846,8 @@ limit
 end
 )
 ;
+try
+{
 dst
 .
 put
@@ -853,6 +855,18 @@ put
 src
 )
 ;
+}
+catch
+(
+java
+.
+lang
+.
+OutOfMemoryError
+e
+)
+{
+}
 }
 synchronized
 void
