@@ -1130,9 +1130,9 @@ aWillSendDidPaint
 NS_IMETHOD
 HandleEvent
 (
-nsIView
+nsIFrame
 *
-aView
+aFrame
 nsGUIEvent
 *
 aEvent
@@ -2200,9 +2200,6 @@ HandleRetargetedEvent
 nsEvent
 *
 aEvent
-nsIView
-*
-aView
 nsEventStatus
 *
 aStatus
@@ -2238,7 +2235,6 @@ rv
 HandleEventInternal
 (
 aEvent
-aView
 aStatus
 )
 ;
@@ -2921,9 +2917,6 @@ HandleEventInternal
 nsEvent
 *
 aEvent
-nsIView
-*
-aView
 nsEventStatus
 *
 aStatus
@@ -2932,9 +2925,6 @@ aStatus
 nsresult
 HandlePositionedEvent
 (
-nsIView
-*
-aView
 nsIFrame
 *
 aTargetFrame

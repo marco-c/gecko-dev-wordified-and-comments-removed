@@ -4104,7 +4104,7 @@ vis
 =
 %
 d
-clientData
+frame
 =
 %
 p
@@ -4114,7 +4114,7 @@ n
 "
 mZIndex
 mVis
-mClientData
+mFrame
 )
 ;
 for

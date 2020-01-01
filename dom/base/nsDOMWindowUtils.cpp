@@ -2116,6 +2116,11 @@ vo
 HandleEvent
 (
 view
+-
+>
+GetFrame
+(
+)
 &
 event
 false
