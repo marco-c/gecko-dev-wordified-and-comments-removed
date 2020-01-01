@@ -4042,7 +4042,6 @@ tempGlobal
 >
 getCompartment
 (
-cx
 )
 ;
 js

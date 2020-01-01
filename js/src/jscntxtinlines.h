@@ -39,6 +39,13 @@ jsregexp
 .
 h
 "
+#
+include
+"
+jsgc
+.
+h
+"
 inline
 js
 :
@@ -2801,7 +2808,6 @@ obj
 >
 getCompartment
 (
-context
 )
 )
 ;

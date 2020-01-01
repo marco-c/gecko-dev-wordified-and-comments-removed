@@ -5460,7 +5460,6 @@ flat
 >
 getCompartment
 (
-cx
 )
 =
 =
@@ -5474,7 +5473,6 @@ GetGlobalJSObject
 >
 getCompartment
 (
-cx
 )
 )
 {

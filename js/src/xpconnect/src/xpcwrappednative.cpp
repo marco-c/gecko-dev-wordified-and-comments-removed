@@ -2065,7 +2065,6 @@ obj
 >
 getCompartment
 (
-ccx
 )
 )
 &
@@ -2089,7 +2088,6 @@ GetGlobalJSObject
 >
 getCompartment
 (
-ccx
 )
 )
 )

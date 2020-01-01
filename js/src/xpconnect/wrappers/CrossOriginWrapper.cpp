@@ -132,7 +132,6 @@ wrapper
 >
 getCompartment
 (
-cx
 )
 )
 ;

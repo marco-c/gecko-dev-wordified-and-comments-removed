@@ -571,9 +571,8 @@ if
 obj
 -
 >
-getCompartment
+compartment
 (
-cx
 )
 =
 =
