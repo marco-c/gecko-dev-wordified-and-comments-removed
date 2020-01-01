@@ -279,4 +279,10 @@ wipeLocal
 throws
 Exception
 ;
+public
+Integer
+getStorageVersion
+(
+)
+;
 }

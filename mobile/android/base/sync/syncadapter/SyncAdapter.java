@@ -1134,6 +1134,12 @@ public
 Account
 localAccount
 ;
+protected
+boolean
+thisSyncIsForced
+=
+false
+;
 public
 long
 delayMilliseconds
@@ -1187,6 +1193,15 @@ shouldBackOff
 (
 )
 {
+if
+(
+thisSyncIsForced
+)
+{
+return
+false
+;
+}
 if
 (
 wantNodeAssignment
@@ -1246,8 +1261,7 @@ localAccount
 =
 account
 ;
-boolean
-force
+thisSyncIsForced
 =
 (
 extras
@@ -1285,7 +1299,7 @@ delay
 {
 if
 (
-force
+thisSyncIsForced
 )
 {
 Log

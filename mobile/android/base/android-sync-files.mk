@@ -1049,6 +1049,15 @@ sync
 /
 repositories
 /
+domain
+/
+VersionConstants
+.
+java
+sync
+/
+repositories
+/
 HashSetStoreTracker
 .
 java

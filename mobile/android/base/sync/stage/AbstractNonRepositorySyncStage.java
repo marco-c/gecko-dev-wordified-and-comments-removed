@@ -62,4 +62,14 @@ wipeLocal
 )
 {
 }
+public
+Integer
+getStorageVersion
+(
+)
+{
+return
+null
+;
+}
 }
