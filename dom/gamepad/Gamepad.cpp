@@ -124,7 +124,6 @@ InsertElementsAt
 (
 0
 aNumButtons
-0
 )
 ;
 mAxes
@@ -177,6 +176,8 @@ SetButton
 (
 uint32_t
 aButton
+bool
+aPressed
 double
 aValue
 )
@@ -196,6 +197,17 @@ mButtons
 [
 aButton
 ]
+.
+pressed
+=
+aPressed
+;
+mButtons
+[
+aButton
+]
+.
+value
 =
 aValue
 ;
@@ -350,6 +362,8 @@ mButtons
 [
 i
 ]
+.
+value
 ;
 }
 nsresult
