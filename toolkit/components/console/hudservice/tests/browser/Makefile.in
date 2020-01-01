@@ -688,6 +688,10 @@ browser_webconsole_bug_592442_closing_brackets
 .
 js
 \
+browser_webconsole_bug_597460_filter_scroll
+.
+js
+\
 head
 .
 js
