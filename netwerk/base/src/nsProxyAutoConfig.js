@@ -293,7 +293,6 @@ e
 )
 {
 throw
-new
 XPCSafeJSObjectWrapper
 (
 e
@@ -313,7 +312,6 @@ msg
 {
 msg
 =
-new
 XPCSafeJSObjectWrapper
 (
 msg
@@ -437,7 +435,6 @@ host
 {
 host
 =
-new
 XPCSafeJSObjectWrapper
 (
 host
