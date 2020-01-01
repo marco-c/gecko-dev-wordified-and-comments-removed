@@ -428,6 +428,14 @@ PANNING
 PINCHING
 }
 ;
+enum
+ContentPainterStatus
+{
+CONTENT_IDLE
+CONTENT_PAINTING
+CONTENT_PAINTING_AND_PAINT_PENDING
+}
+;
 nsRefPtr
 <
 CompositorParent
@@ -451,6 +459,9 @@ mFrameMetrics
 ;
 FrameMetrics
 mLastContentPaintMetrics
+;
+FrameMetrics
+mLastPaintRequestMetrics
 ;
 AxisX
 mX
@@ -478,6 +489,9 @@ mState
 ;
 int
 mDPI
+;
+ContentPainterStatus
+mContentPainterStatus
 ;
 friend
 class
