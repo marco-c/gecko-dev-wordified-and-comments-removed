@@ -1582,7 +1582,6 @@ _transportLayer
 .
 connect
 (
-host
 )
 ;
 this
