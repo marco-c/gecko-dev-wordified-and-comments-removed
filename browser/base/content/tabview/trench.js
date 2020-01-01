@@ -1,7 +1,5 @@
-var
-Trench
-=
 function
+Trench
 (
 element
 xory

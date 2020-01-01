@@ -1,8 +1,5 @@
-window
-.
-Item
-=
 function
+Item
 (
 )
 {
@@ -86,8 +83,6 @@ false
 ;
 }
 ;
-window
-.
 Item
 .
 prototype
@@ -96,6 +91,7 @@ prototype
 _init
 :
 function
+Item__init
 (
 container
 )
@@ -697,6 +693,7 @@ null
 getBounds
 :
 function
+Item_getBounds
 (
 )
 {
@@ -732,6 +729,7 @@ bounds
 overlapsWithOtherItems
 :
 function
+Item_overlapsWithOtherItems
 (
 )
 {
@@ -802,6 +800,7 @@ bounds
 setPosition
 :
 function
+Item_setPosition
 (
 left
 top
@@ -854,6 +853,7 @@ immediately
 setSize
 :
 function
+Item_setSize
 (
 width
 height
@@ -906,6 +906,7 @@ immediately
 setUserSize
 :
 function
+Item_setUserSize
 (
 )
 {
@@ -957,6 +958,7 @@ save
 getZ
 :
 function
+Item_getZ
 (
 )
 {
@@ -969,6 +971,7 @@ zIndex
 setRotation
 :
 function
+Item_setRotation
 (
 degrees
 )
@@ -1021,6 +1024,7 @@ value
 setParent
 :
 function
+Item_setParent
 (
 parent
 )
@@ -1047,6 +1051,7 @@ save
 pushAway
 :
 function
+Item_pushAway
 (
 )
 {
@@ -2057,6 +2062,7 @@ bounds
 _updateDebugBounds
 :
 function
+Item__updateDebugBounds
 (
 )
 {
@@ -2087,6 +2093,7 @@ css
 setTrenches
 :
 function
+Item_setTrenches
 (
 rect
 )
@@ -2275,6 +2282,7 @@ rect
 removeTrenches
 :
 function
+Item_removeTrenches
 (
 )
 {
@@ -2407,6 +2415,7 @@ defaultRadius
 draggable
 :
 function
+Item_draggable
 (
 )
 {
@@ -3212,6 +3221,7 @@ e
 droppable
 :
 function
+Item_droppable
 (
 value
 )
@@ -3287,6 +3297,7 @@ e
 resizable
 :
 function
+Item_resizable
 (
 value
 )
@@ -3784,8 +3795,7 @@ e
 }
 }
 ;
-window
-.
+let
 Items
 =
 {
@@ -3795,6 +3805,7 @@ defaultGutter
 item
 :
 function
+Items_item
 (
 el
 )
@@ -3816,6 +3827,7 @@ item
 getTopLevelItems
 :
 function
+Items_getTopLevelItems
 (
 )
 {
@@ -3904,6 +3916,7 @@ items
 getPageBounds
 :
 function
+Items_getPageBounds
 (
 )
 {
@@ -3947,6 +3960,7 @@ height
 getSafeWindowBounds
 :
 function
+Items_getSafeWindowBounds
 (
 )
 {
@@ -3988,6 +4002,7 @@ topGutter
 arrange
 :
 function
+Items_arrange
 (
 items
 bounds
@@ -4465,6 +4480,7 @@ rects
 unsquish
 :
 function
+Items_unsquish
 (
 pairs
 ignore

@@ -1,10 +1,4 @@
-(
-function
-(
-)
-{
-window
-.
+let
 Keys
 =
 {
@@ -13,8 +7,8 @@ meta
 false
 }
 ;
-var
-UIManager
+let
+UI
 =
 {
 _frameInitalized
@@ -47,6 +41,7 @@ _eventListeners
 init
 :
 function
+UI_init
 (
 )
 {
@@ -850,6 +845,7 @@ e
 uninit
 :
 function
+UI_uninit
 (
 )
 {
@@ -905,6 +901,7 @@ null
 getActiveTab
 :
 function
+UI_getActiveTab
 (
 )
 {
@@ -917,6 +914,7 @@ _activeTab
 setActiveTab
 :
 function
+UI_setActiveTab
 (
 tab
 )
@@ -1014,6 +1012,7 @@ makeActive
 _isTabViewVisible
 :
 function
+UI__isTabViewVisible
 (
 )
 {
@@ -1029,6 +1028,7 @@ selectedIndex
 showTabView
 :
 function
+UI_showTabView
 (
 zoomOut
 )
@@ -1261,6 +1261,7 @@ resumePainting
 hideTabView
 :
 function
+UI_hideTabView
 (
 )
 {
@@ -1404,6 +1405,7 @@ XP_MACOSX
 _setActiveTitleColor
 :
 function
+UI__setActiveTitleColor
 (
 set
 )
@@ -1457,6 +1459,7 @@ endif
 _addTabActionHandlers
 :
 function
+UI__addTabActionHandlers
 (
 )
 {
@@ -1711,6 +1714,7 @@ name
 _removeTabActionHandlers
 :
 function
+UI__removeTabActionHandlers
 (
 )
 {
@@ -1740,6 +1744,7 @@ name
 onTabSelect
 :
 function
+UI_onTabSelect
 (
 tab
 )
@@ -1915,6 +1920,7 @@ true
 setReorderTabsOnHide
 :
 function
+UI_setReorderTabsOnHide
 (
 groupItem
 )
@@ -1962,6 +1968,7 @@ groupItem
 setReorderTabItemsOnShow
 :
 function
+UI_setReorderTabItemsOnShow
 (
 groupItem
 )
@@ -2010,6 +2017,7 @@ groupItem
 _setTabViewFrameKeyHandlers
 :
 function
+UI__setTabViewFrameKeyHandlers
 (
 )
 {
@@ -2037,8 +2045,6 @@ event
 .
 metaKey
 )
-window
-.
 Keys
 .
 meta
@@ -2066,8 +2072,6 @@ event
 .
 metaKey
 )
-window
-.
 Keys
 .
 meta
@@ -2797,6 +2801,7 @@ preventDefault
 _createGroupItemOnDrag
 :
 function
+UI__createGroupItemOnDrag
 (
 e
 )
@@ -3484,6 +3489,7 @@ false
 _resize
 :
 function
+UI__resize
 (
 force
 )
@@ -3963,6 +3969,7 @@ _save
 _addDevMenu
 :
 function
+UI__addDevMenu
 (
 )
 {
@@ -4280,6 +4287,7 @@ e
 _reset
 :
 function
+UI__reset
 (
 )
 {
@@ -4300,6 +4308,7 @@ href
 _storageSanity
 :
 function
+UI__storageSanity
 (
 data
 )
@@ -4363,6 +4372,7 @@ true
 _save
 :
 function
+UI__save
 (
 )
 {
@@ -4407,6 +4417,7 @@ data
 _saveAll
 :
 function
+UI__saveAll
 (
 )
 {
@@ -4432,6 +4443,7 @@ saveAll
 _arrangeBySite
 :
 function
+UI__arrangeBySite
 (
 )
 {
@@ -4701,22 +4713,9 @@ arrange
 }
 }
 ;
-window
-.
-UI
-=
-UIManager
-;
-window
-.
 UI
 .
 init
-(
-)
-;
-}
-)
 (
 )
 ;

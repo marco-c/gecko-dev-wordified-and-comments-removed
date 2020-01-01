@@ -1,13 +1,5 @@
-(
 function
-(
-)
-{
-window
-.
 InfoItem
-=
-function
 (
 bounds
 options
@@ -329,8 +321,6 @@ e
 }
 }
 ;
-window
-.
 InfoItem
 .
 prototype
@@ -351,6 +341,7 @@ Subscribable
 getStorageData
 :
 function
+InfoItem_getStorageData
 (
 )
 {
@@ -404,6 +395,7 @@ data
 save
 :
 function
+InfoItem_save
 (
 )
 {
@@ -445,6 +437,7 @@ e
 setBounds
 :
 function
+InfoItem_setBounds
 (
 rect
 immediately
@@ -716,6 +709,7 @@ e
 setZ
 :
 function
+InfoItem_setZ
 (
 value
 )
@@ -803,6 +797,7 @@ e
 close
 :
 function
+InfoItem_close
 (
 )
 {
@@ -872,6 +867,7 @@ e
 html
 :
 function
+InfoItem_html
 (
 value
 )
@@ -923,10 +919,5 @@ e
 }
 }
 }
-)
-;
-}
-)
-(
 )
 ;

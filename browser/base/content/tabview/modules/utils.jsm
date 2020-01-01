@@ -133,6 +133,7 @@ prototype
 distance
 :
 function
+Point_distance
 (
 point
 )
@@ -353,6 +354,7 @@ bottom
 intersects
 :
 function
+Rect_intersects
 (
 rect
 )
@@ -399,6 +401,7 @@ bottom
 intersection
 :
 function
+Rect_intersection
 (
 rect
 )
@@ -492,6 +495,7 @@ null
 contains
 :
 function
+Rect_contains
 (
 rect
 )
@@ -538,6 +542,7 @@ bottom
 center
 :
 function
+Rect_center
 (
 )
 {
@@ -573,6 +578,7 @@ height
 size
 :
 function
+Rect_size
 (
 )
 {
@@ -592,6 +598,7 @@ height
 position
 :
 function
+Rect_position
 (
 )
 {
@@ -611,6 +618,7 @@ top
 area
 :
 function
+Rect_area
 (
 )
 {
@@ -627,6 +635,7 @@ height
 inset
 :
 function
+Rect_inset
 (
 a
 b
@@ -691,6 +700,7 @@ b
 offset
 :
 function
+Rect_offset
 (
 a
 b
@@ -746,6 +756,7 @@ b
 equals
 :
 function
+Rect_equals
 (
 rect
 )
@@ -796,6 +807,7 @@ height
 union
 :
 function
+Rect_union
 (
 a
 )
@@ -883,6 +895,7 @@ newRect
 copy
 :
 function
+Rect_copy
 (
 a
 )
@@ -923,6 +936,7 @@ height
 css
 :
 function
+Rect_css
 (
 )
 {
@@ -1056,6 +1070,7 @@ min
 contains
 :
 function
+Range_contains
 (
 value
 )
@@ -1121,6 +1136,7 @@ false
 proportion
 :
 function
+Range_proportion
 (
 value
 smooth
@@ -1228,6 +1244,7 @@ proportion
 scale
 :
 function
+Range_scale
 (
 value
 )
@@ -1287,6 +1304,7 @@ prototype
 addSubscriber
 :
 function
+Subscribable_addSubscriber
 (
 refObject
 eventName
@@ -1491,6 +1509,7 @@ callback
 removeSubscriber
 :
 function
+Subscribable_removeSubscriber
 (
 refObject
 eventName
@@ -1604,6 +1623,7 @@ refObject
 _sendToSubscribers
 :
 function
+Subscribable__sendToSubscribers
 (
 eventName
 eventInfo
@@ -1738,6 +1758,7 @@ false
 log
 :
 function
+Utils_log
 (
 )
 {
@@ -1805,6 +1826,7 @@ n
 error
 :
 function
+Utils_error
 (
 )
 {
@@ -1882,6 +1904,7 @@ n
 trace
 :
 function
+Utils_trace
 (
 )
 {
@@ -2035,6 +2058,7 @@ text
 assertThrow
 :
 function
+Utils_assertThrow
 (
 condition
 label
@@ -2114,6 +2138,7 @@ text
 expandObject
 :
 function
+Utils_expandObject
 (
 obj
 )
@@ -2243,6 +2268,7 @@ s
 expandArgumentsForLog
 :
 function
+Utils_expandArgumentsForLog
 (
 args
 )
@@ -2295,6 +2321,7 @@ join
 isRightClick
 :
 function
+Utils_isRightClick
 (
 event
 )
@@ -2311,6 +2338,7 @@ button
 isDOMElement
 :
 function
+Utils_isDOMElement
 (
 object
 )
@@ -2326,6 +2354,7 @@ nsIDOMElement
 isNumber
 :
 function
+Utils_isNumber
 (
 n
 )
@@ -2350,6 +2379,7 @@ n
 isRect
 :
 function
+Utils_isRect
 (
 r
 )
@@ -2403,6 +2433,7 @@ height
 isRange
 :
 function
+Utils_isRange
 (
 r
 )
@@ -2436,6 +2467,7 @@ max
 isPoint
 :
 function
+Utils_isPoint
 (
 p
 )
@@ -2469,6 +2501,7 @@ y
 isPlainObject
 :
 function
+Utils_isPlainObject
 (
 obj
 )
@@ -2593,6 +2626,7 @@ key
 isEmptyObject
 :
 function
+Utils_isEmptyObject
 (
 obj
 )
@@ -2614,6 +2648,7 @@ true
 copy
 :
 function
+Utils_copy
 (
 value
 )
@@ -2669,6 +2704,7 @@ value
 merge
 :
 function
+Utils_merge
 (
 first
 second
@@ -2699,6 +2735,7 @@ first
 extend
 :
 function
+Utils_extend
 (
 )
 {

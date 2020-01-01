@@ -10,10 +10,8 @@ zIndex
 100
 }
 ;
-var
-Drag
-=
 function
+Drag
 (
 item
 event
@@ -950,6 +948,7 @@ false
 drag
 :
 function
+Drag_drag
 (
 event
 )
@@ -1031,6 +1030,7 @@ collapse
 stop
 :
 function
+Drag_stop
 (
 )
 {

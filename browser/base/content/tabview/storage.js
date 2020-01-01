@@ -33,6 +33,7 @@ ui
 init
 :
 function
+Storage_init
 (
 )
 {
@@ -66,6 +67,7 @@ nsISessionStore
 uninit
 :
 function
+Storage_uninit
 (
 )
 {
@@ -79,6 +81,7 @@ null
 wipe
 :
 function
+Storage_wipe
 (
 )
 {
@@ -186,6 +189,7 @@ e
 saveTab
 :
 function
+Storage_saveTab
 (
 tab
 data
@@ -223,6 +227,7 @@ data
 getTabData
 :
 function
+Storage_getTabData
 (
 tab
 )
@@ -299,6 +304,7 @@ existingData
 saveGroupItem
 :
 function
+Storage_saveGroupItem
 (
 win
 data
@@ -350,6 +356,7 @@ existingData
 deleteGroupItem
 :
 function
+Storage_deleteGroupItem
 (
 win
 id
@@ -393,6 +400,7 @@ existingData
 readGroupItemData
 :
 function
+Storage_readGroupItemData
 (
 win
 )
@@ -452,6 +460,7 @@ existingData
 saveGroupItemsData
 :
 function
+Storage_saveGroupItemsData
 (
 win
 data
@@ -472,6 +481,7 @@ data
 readGroupItemsData
 :
 function
+Storage_readGroupItemsData
 (
 win
 )
@@ -491,6 +501,7 @@ GROUPS_DATA_IDENTIFIER
 saveUIData
 :
 function
+Storage_saveUIData
 (
 win
 data
@@ -511,6 +522,7 @@ data
 readUIData
 :
 function
+Storage_readUIData
 (
 win
 )
@@ -530,6 +542,7 @@ UI_DATA_IDENTIFIER
 saveData
 :
 function
+Storage_saveData
 (
 win
 id
@@ -579,6 +592,7 @@ e
 readData
 :
 function
+Storage_readData
 (
 win
 id

@@ -85,10 +85,8 @@ s
 ?
 /
 ;
-let
-iQClass
-=
 function
+iQClass
 (
 selector
 context
@@ -622,6 +620,7 @@ length
 each
 :
 function
+iQClass_each
 (
 callback
 )
@@ -694,6 +693,7 @@ this
 addClass
 :
 function
+iQClass_addClass
 (
 value
 )
@@ -802,6 +802,7 @@ this
 removeClass
 :
 function
+iQClass_removeClass
 (
 value
 )
@@ -925,6 +926,7 @@ this
 hasClass
 :
 function
+iQClass_hasClass
 (
 singleClassName
 )
@@ -979,6 +981,7 @@ false
 find
 :
 function
+iQClass_find
 (
 selector
 )
@@ -1148,6 +1151,7 @@ ret
 remove
 :
 function
+iQClass_remove
 (
 )
 {
@@ -1204,6 +1208,7 @@ this
 empty
 :
 function
+iQClass_empty
 (
 )
 {
@@ -1260,6 +1265,7 @@ this
 width
 :
 function
+iQClass_width
 (
 )
 {
@@ -1281,6 +1287,7 @@ width
 height
 :
 function
+iQClass_height
 (
 )
 {
@@ -1302,6 +1309,7 @@ height
 position
 :
 function
+iQClass_position
 (
 )
 {
@@ -1330,6 +1338,7 @@ top
 bounds
 :
 function
+iQClass_bounds
 (
 )
 {
@@ -1413,6 +1422,7 @@ height
 data
 :
 function
+iQClass_data
 (
 key
 value
@@ -1548,6 +1558,7 @@ this
 html
 :
 function
+iQClass_html
 (
 value
 )
@@ -1613,6 +1624,7 @@ this
 text
 :
 function
+iQClass_text
 (
 value
 )
@@ -1701,6 +1713,7 @@ value
 val
 :
 function
+iQClass_val
 (
 value
 )
@@ -1768,6 +1781,7 @@ this
 appendTo
 :
 function
+iQClass_appendTo
 (
 selector
 )
@@ -1815,6 +1829,7 @@ this
 append
 :
 function
+iQClass_append
 (
 selector
 )
@@ -1881,6 +1896,7 @@ this
 attr
 :
 function
+iQClass_attr
 (
 key
 value
@@ -1991,6 +2007,7 @@ this
 css
 :
 function
+iQClass_css
 (
 a
 b
@@ -2262,6 +2279,7 @@ this
 animate
 :
 function
+iQClass_animate
 (
 css
 options
@@ -2603,6 +2621,7 @@ this
 fadeOut
 :
 function
+iQClass_fadeOut
 (
 callback
 )
@@ -2700,6 +2719,7 @@ this
 fadeIn
 :
 function
+iQClass_fadeIn
 (
 )
 {
@@ -2738,6 +2758,7 @@ this
 hide
 :
 function
+iQClass_hide
 (
 )
 {
@@ -2764,6 +2785,7 @@ this
 show
 :
 function
+iQClass_show
 (
 )
 {
@@ -2789,6 +2811,7 @@ this
 bind
 :
 function
+iQClass_bind
 (
 type
 func
@@ -2909,6 +2932,7 @@ this
 one
 :
 function
+iQClass_one
 (
 type
 func
@@ -2979,6 +3003,7 @@ handler
 unbind
 :
 function
+iQClass_unbind
 (
 type
 func
