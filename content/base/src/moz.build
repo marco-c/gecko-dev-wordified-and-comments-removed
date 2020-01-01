@@ -328,6 +328,11 @@ DOMImplementation
 h
 '
 '
+DOMParser
+.
+h
+'
+'
 DocumentFragment
 .
 h
@@ -394,6 +399,11 @@ cpp
 '
 '
 DocumentType
+.
+cpp
+'
+'
+DOMParser
 .
 cpp
 '
@@ -559,11 +569,6 @@ cpp
 '
 '
 nsDOMMutationObserver
-.
-cpp
-'
-'
-nsDOMParser
 .
 cpp
 '
