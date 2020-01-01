@@ -993,6 +993,8 @@ browsers
 .
 push
 (
+this
+.
 getBrowserForDisplay
 (
 this
