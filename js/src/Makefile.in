@@ -2162,6 +2162,7 @@ ifeq
 filter
 arm
 %
+sparc
 %
 86
 x86_64

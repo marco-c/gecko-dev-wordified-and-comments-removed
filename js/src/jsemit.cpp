@@ -20810,8 +20810,6 @@ pn_atom
 ;
 if
 (
-!
-(
 (
 pnid
 -
@@ -20830,6 +20828,7 @@ atomState
 protoAtom
 )
 ?
+!
 js_SetPropertyHelper
 (
 cx
@@ -20841,7 +20840,8 @@ value
 strictChecks
 )
 :
-js_DefineNativeProperty
+!
+DefineNativeProperty
 (
 cx
 obj
@@ -20852,9 +20852,6 @@ NULL
 JSPROP_ENUMERATE
 0
 0
-NULL
-0
-)
 )
 )
 {
@@ -32078,7 +32075,7 @@ inDictionaryMode
 if
 (
 !
-js_DefineNativeProperty
+DefineNativeProperty
 (
 cx
 obj
@@ -32097,12 +32094,11 @@ NULL
 JSPROP_ENUMERATE
 0
 0
-NULL
 )
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 if
