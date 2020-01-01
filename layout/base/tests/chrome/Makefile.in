@@ -253,6 +253,10 @@ passpointerevents_window
 .
 html
 \
+test_bug812817
+.
+xul
+\
 (
 NULL
 )
