@@ -478,6 +478,10 @@ runxpcshelltests
 .
 py
 \
+remotexpcshelltests
+.
+py
+\
 head
 .
 js
