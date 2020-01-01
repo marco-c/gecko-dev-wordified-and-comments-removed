@@ -567,6 +567,12 @@ ScriptDidExecute
 (
 )
 ;
+virtual
+PRBool
+CanInterrupt
+(
+)
+;
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
 void
