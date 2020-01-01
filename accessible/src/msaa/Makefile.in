@@ -514,6 +514,10 @@ CAccessibleImage
 .
 cpp
 \
+CAccessibleComponent
+.
+cpp
+\
 CAccessibleText
 .
 cpp
@@ -593,6 +597,10 @@ CAccessibleAction
 h
 \
 CAccessibleImage
+.
+h
+\
+CAccessibleComponent
 .
 h
 \
