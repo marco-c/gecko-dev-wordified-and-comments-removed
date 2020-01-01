@@ -9692,6 +9692,14 @@ types
 return
 AmbiguousDoubleConversion
 ;
+types
+-
+>
+addFreeze
+(
+cx
+)
+;
 if
 (
 !
