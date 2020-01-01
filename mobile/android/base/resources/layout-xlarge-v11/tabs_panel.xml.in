@@ -335,13 +335,6 @@ fill_parent
 "
 android
 :
-choiceMode
-=
-"
-singleChoice
-"
-android
-:
 visibility
 =
 "
@@ -394,13 +387,6 @@ layout_height
 =
 "
 fill_parent
-"
-android
-:
-choiceMode
-=
-"
-singleChoice
 "
 android
 :

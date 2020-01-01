@@ -138,7 +138,7 @@ background
 "
 drawable
 /
-action_bar_button
+tabs_tray_default_selector
 "
 android
 :
@@ -186,7 +186,7 @@ style
 "
 style
 /
-TabRowTextAppearance
+RemoteTabRowTextAppearance
 "
 android
 :
@@ -228,7 +228,7 @@ style
 "
 style
 /
-TabRowTextAppearance
+RemoteTabRowTextAppearance
 .
 Url
 "
