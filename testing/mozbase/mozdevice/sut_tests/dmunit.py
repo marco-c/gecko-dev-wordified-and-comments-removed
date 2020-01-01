@@ -1,3 +1,9 @@
+import
+types
+import
+unittest
+import
+mozlog
 from
 mozdevice
 import
@@ -6,10 +12,6 @@ from
 mozdevice
 import
 devicemanagerSUT
-import
-types
-import
-unittest
 ip
 =
 '
@@ -20,6 +22,11 @@ port
 heartbeat_port
 =
 0
+log_level
+=
+mozlog
+.
+ERROR
 class
 DeviceManagerTestCase
 (
@@ -125,6 +132,10 @@ ip
 port
 =
 port
+                                                    
+logLevel
+=
+log_level
 )
         
 self

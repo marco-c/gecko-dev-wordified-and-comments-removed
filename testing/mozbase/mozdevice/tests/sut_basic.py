@@ -563,6 +563,12 @@ True
         
 a
 .
+should_stop
+=
+True
+        
+a
+.
 wait
 (
 )
