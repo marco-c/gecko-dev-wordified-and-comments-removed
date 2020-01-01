@@ -626,10 +626,6 @@ nsPresShell
 .
 cpp
 \
-nsPresState
-.
-cpp
-\
 nsQuoteList
 .
 cpp
