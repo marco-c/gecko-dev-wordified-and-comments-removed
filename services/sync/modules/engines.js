@@ -2236,6 +2236,16 @@ local
 parentid
 &
 &
+item
+.
+sortindex
+=
+=
+local
+.
+sortindex
+&
+&
 Utils
 .
 deepEquals
