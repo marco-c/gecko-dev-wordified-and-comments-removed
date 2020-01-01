@@ -58,8 +58,6 @@ import
 utils
 import
 ffprocess
-import
-config
 if
 platform
 .
@@ -778,6 +776,7 @@ InitializeNewProfile
 (
 firefox_path
 profile_dir
+init_url
 )
 :
   
@@ -900,9 +899,7 @@ GenerateFirefoxCommandLine
 (
 firefox_path
 profile_dir
-config
-.
-INIT_URL
+init_url
 )
   
 (

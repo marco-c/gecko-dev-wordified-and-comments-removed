@@ -7,13 +7,27 @@ functions
 "
 "
 import
-config
-import
 os
+DEBUG
+=
+0
 saved_environment
 =
 {
 }
+def
+setdebug
+(
+val
+)
+:
+  
+global
+DEBUG
+  
+DEBUG
+=
+val
 def
 debug
 (
@@ -39,10 +53,22 @@ is
 turned
 on
      
-in
-config
-.
-py
+debug
+switch
+is
+controlled
+through
+command
+line
+switch
+(
+-
+d
+or
+-
+-
+debug
+)
      
 Args
 :
@@ -60,8 +86,6 @@ statement
 "
   
 if
-config
-.
 DEBUG
 =
 =
@@ -93,12 +117,15 @@ of
 variables
    
 from
-config
+sample
 .
-py
+config
 "
 "
 "
+   
+global
+saved_environment
    
 env
 =
@@ -180,6 +207,9 @@ called
 "
 "
 "
+  
+global
+saved_environment
   
 for
 var

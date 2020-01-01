@@ -38,8 +38,6 @@ import
 time
 import
 subprocess
-import
-config
 if
 platform
 .
