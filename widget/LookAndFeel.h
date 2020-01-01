@@ -155,6 +155,7 @@ eIntID_ShowCaretDuringSelection
 eIntID_SelectTextfieldsOnKeyFocus
 eIntID_SubmenuDelay
 eIntID_MenusCanOverlapOSBar
+eIntID_UseOverlayScrollbars
 eIntID_ShowHideScrollbars
 eIntID_SkipNavigatingDisabledMenuItem
 eIntID_DragThresholdX
