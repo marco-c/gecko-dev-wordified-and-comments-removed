@@ -5142,6 +5142,16 @@ type
 "
 resize
 "
+&
+&
+aEvent
+.
+eventPhase
+=
+=
+aEvent
+.
+AT_TARGET
 )
 {
 this

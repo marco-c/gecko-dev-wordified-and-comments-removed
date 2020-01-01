@@ -145,6 +145,10 @@ browser_social_chatwindow
 .
 js
 \
+browser_social_chatwindow_resize
+.
+js
+\
 browser_social_chatwindowfocus
 .
 js
