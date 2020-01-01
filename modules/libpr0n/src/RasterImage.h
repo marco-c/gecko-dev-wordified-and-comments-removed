@@ -488,6 +488,14 @@ PRUint32
 aMaxMS
 )
 ;
+static
+void
+SetMaxBytesForSyncDecode
+(
+PRUint32
+aMaxBytes
+)
+;
 private
 :
 struct
