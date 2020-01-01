@@ -336,7 +336,15 @@ PRInt32
 aModType
 )
 ;
-nsresult
+void
+InvalidateCoveredRegion
+(
+nsIFrame
+*
+aFrame
+)
+;
+void
 InvalidateRect
 (
 nsRect

@@ -633,6 +633,15 @@ nsIFrame
 aFrame
 )
 ;
+static
+void
+NotifyAncestorsOfFilterRegionChange
+(
+nsIFrame
+*
+aFrame
+)
+;
 enum
 ctxDirection
 {
