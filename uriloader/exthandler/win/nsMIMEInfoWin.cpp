@@ -331,13 +331,13 @@ rv
 rv
 )
 ;
-nsCAutoString
+nsAutoString
 path
 ;
 aFile
 -
 >
-GetNativePath
+GetPath
 (
 path
 )

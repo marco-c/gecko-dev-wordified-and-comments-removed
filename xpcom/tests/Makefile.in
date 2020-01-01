@@ -491,6 +491,10 @@ TestArguments
 .
 cpp
 \
+TestUnicodeArguments
+.
+cpp
+\
 (
 NULL
 )
