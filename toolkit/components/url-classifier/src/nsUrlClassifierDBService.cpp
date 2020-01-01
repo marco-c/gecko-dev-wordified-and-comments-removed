@@ -2039,6 +2039,14 @@ mCachedListsTable
 (
 PR_UINT32_MAX
 )
+mHaveCachedAddChunks
+(
+PR_FALSE
+)
+mHaveCachedSubChunks
+(
+PR_FALSE
+)
 mPendingLookupLock
 (
 nsnull
