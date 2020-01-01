@@ -132,15 +132,11 @@ this
 .
 _timer
 .
-delay
-=
-this
-.
-_delay
+cancel
+(
+)
 ;
 }
-else
-{
 this
 .
 _timer
@@ -184,7 +180,6 @@ nsITimer
 TYPE_ONE_SHOT
 )
 ;
-}
 }
 flush
 :
