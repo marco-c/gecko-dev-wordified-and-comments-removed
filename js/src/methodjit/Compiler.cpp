@@ -11358,14 +11358,6 @@ uint32
 atomIndex
 )
 {
-jsop_setprop_slow
-(
-atomIndex
-)
-;
-#
-if
-0
 FrameEntry
 *
 lhs
@@ -12174,8 +12166,6 @@ append
 pic
 )
 ;
-#
-endif
 }
 #
 else
