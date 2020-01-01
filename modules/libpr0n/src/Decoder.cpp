@@ -39,6 +39,10 @@ Decoder
 (
 )
 :
+mDecodeFlags
+(
+0
+)
 mFrameCount
 (
 0

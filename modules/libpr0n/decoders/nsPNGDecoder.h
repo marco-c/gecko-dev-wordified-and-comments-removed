@@ -172,6 +172,12 @@ mFrameHasNoAlpha
 PRPackedBool
 mFrameIsHidden
 ;
+PRUint32
+mCMSMode
+;
+PRPackedBool
+mDisablePremultipliedAlpha
+;
 static
 void
 PNGAPI
