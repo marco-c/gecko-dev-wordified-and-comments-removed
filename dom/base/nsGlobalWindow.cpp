@@ -6362,8 +6362,11 @@ if
 f
 )
 {
+DebugOnly
+<
 JSObject
 *
+>
 o
 =
 f
