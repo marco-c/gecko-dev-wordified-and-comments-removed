@@ -1769,6 +1769,16 @@ longName
 )
 ;
 my
+oldAppVersion
+=
+config
+-
+>
+GetOldAppVersion
+(
+)
+;
+my
 oldLongVersion
 =
 config
@@ -2613,7 +2623,7 @@ release
 "
 '
 .
-oldVersion
+oldAppVersion
 .
 '
 "
