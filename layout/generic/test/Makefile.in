@@ -606,6 +606,10 @@ file_bug514732_window
 .
 xul
 \
+test_selection_preventDefault
+.
+html
+\
 (
 NULL
 )
