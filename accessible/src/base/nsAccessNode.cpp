@@ -1101,6 +1101,7 @@ nsAccessNode
 GetFrame
 (
 )
+const
 {
 return
 mContent

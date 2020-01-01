@@ -3117,6 +3117,7 @@ nsHTMLComboboxListAccessible
 GetFrame
 (
 )
+const
 {
 nsIFrame
 *

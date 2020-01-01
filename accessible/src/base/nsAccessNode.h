@@ -271,6 +271,7 @@ nsIFrame
 GetFrame
 (
 )
+const
 ;
 already_AddRefed
 <
