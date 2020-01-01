@@ -2907,7 +2907,7 @@ ic
 .
 frameSize
 .
-staticFrameDepth
+staticLocalSlots
 (
 )
 )
@@ -3696,7 +3696,7 @@ ic
 .
 frameSize
 .
-staticFrameDepth
+staticLocalSlots
 (
 )
 )

@@ -137,7 +137,7 @@ frameDepth_
 ;
 }
 uint32
-staticFrameDepth
+staticLocalSlots
 (
 )
 const

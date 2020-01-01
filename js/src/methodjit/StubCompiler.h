@@ -244,13 +244,6 @@ JSScript
 script
 )
 ;
-bool
-init
-(
-uint32
-nargs
-)
-;
 size_t
 size
 (

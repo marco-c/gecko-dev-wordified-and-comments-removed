@@ -2371,7 +2371,7 @@ __LINE__
 \
 #
 define
-OOL_STUBCALL_SLOTS
+OOL_STUBCALL_LOCAL_SLOTS
 (
 stub
 slots

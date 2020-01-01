@@ -5558,7 +5558,7 @@ Uses
 (
 frame
 .
-frameDepth
+frameSlots
 (
 )
 )
@@ -5737,7 +5737,7 @@ ic
 .
 stubCall
 =
-OOL_STUBCALL_SLOTS
+OOL_STUBCALL_LOCAL_SLOTS
 (
 ic
 :
@@ -5768,7 +5768,7 @@ if
 (
 needStub
 )
-OOL_STUBCALL_SLOTS
+OOL_STUBCALL_LOCAL_SLOTS
 (
 stub
 frame
@@ -7911,7 +7911,7 @@ Uses
 (
 frame
 .
-frameDepth
+frameSlots
 (
 )
 )
@@ -8040,7 +8040,7 @@ Uses
 (
 frame
 .
-frameDepth
+frameSlots
 (
 )
 )
