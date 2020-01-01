@@ -141,6 +141,7 @@ resource
 :
 /
 /
+gre
 /
 modules
 /
@@ -163,6 +164,7 @@ resource
 :
 /
 /
+gre
 /
 modules
 /
@@ -172,7 +174,8 @@ jsm
 "
 )
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -181,6 +184,10 @@ DebuggerUI
 "
 ]
 ;
+this
+.
+DebuggerUI
+=
 function
 DebuggerUI
 (
@@ -200,6 +207,7 @@ listenToTabs
 )
 ;
 }
+;
 DebuggerUI
 .
 prototype

@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -47733,7 +47734,8 @@ n
 "
 )
 ;
-const
+this
+.
 gcli
 =
 require

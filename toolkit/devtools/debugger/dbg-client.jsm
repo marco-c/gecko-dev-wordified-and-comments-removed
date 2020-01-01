@@ -31,7 +31,8 @@ Components
 .
 results
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -734,6 +735,10 @@ ROOT_ACTOR_NAME
 root
 "
 ;
+this
+.
+DebuggerClient
+=
 function
 DebuggerClient
 (
@@ -4352,6 +4357,10 @@ BreakpointClient
 prototype
 )
 ;
+this
+.
+debuggerSocketConnect
+=
 function
 debuggerSocketConnect
 (
