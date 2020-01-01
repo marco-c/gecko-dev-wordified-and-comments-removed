@@ -36692,6 +36692,12 @@ private
 "
 )
 ;
+gBrowser
+.
+updateTitlebar
+(
+)
+;
 }
 setTimeout
 (
