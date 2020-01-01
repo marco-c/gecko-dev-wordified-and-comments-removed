@@ -274,9 +274,9 @@ prefs
 getBranch
 (
 "
-extensions
+services
 .
-weave
+sync
 .
 log
 .

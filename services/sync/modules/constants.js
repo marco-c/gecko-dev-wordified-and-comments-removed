@@ -59,9 +59,9 @@ http
 PREFS_BRANCH
 :
 "
-extensions
+services
 .
-weave
+sync
 .
 "
 PWDMGR_HOST
