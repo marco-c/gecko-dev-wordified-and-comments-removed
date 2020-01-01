@@ -200,7 +200,7 @@ ctxt
 ;
 }
 return
-NS_OK
+NS_BINDING_ABORTED
 ;
 }
 NS_IMETHODIMP
