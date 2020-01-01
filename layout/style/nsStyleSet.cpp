@@ -183,7 +183,7 @@ mRuleWalker
 (
 nsnull
 )
-mDestroyedCount
+mUnusedRuleNodeCount
 (
 0
 )
@@ -4203,7 +4203,7 @@ const
 PRInt32
 kGCInterval
 =
-1000
+300
 ;
 void
 nsStyleSet
@@ -4270,9 +4270,7 @@ return
 ;
 if
 (
-+
-+
-mDestroyedCount
+mUnusedRuleNodeCount
 =
 =
 kGCInterval
@@ -4292,7 +4290,7 @@ GCRuleTrees
 (
 )
 {
-mDestroyedCount
+mUnusedRuleNodeCount
 =
 0
 ;

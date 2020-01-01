@@ -254,6 +254,13 @@ shifted
 #
 undef
 eStyleStruct_LastItem
+mRuleNode
+-
+>
+AddRef
+(
+)
+;
 }
 nsStyleContext
 :
@@ -295,6 +302,13 @@ mRuleNode
 -
 >
 GetPresContext
+(
+)
+;
+mRuleNode
+-
+>
+Release
 (
 )
 ;
