@@ -465,6 +465,10 @@ BaseSize
 .
 h
 \
+Blur
+.
+h
+\
 PathHelpers
 .
 h
@@ -504,6 +508,10 @@ DrawTargetCairo
 cpp
 \
 SourceSurfaceCairo
+.
+cpp
+\
+Blur
 .
 cpp
 \
