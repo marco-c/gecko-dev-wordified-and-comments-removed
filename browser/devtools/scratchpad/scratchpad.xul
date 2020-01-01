@@ -818,7 +818,7 @@ close
 oncommand
 =
 "
-window
+Scratchpad
 .
 close
 (

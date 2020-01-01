@@ -506,6 +506,10 @@ head
 .
 js
 \
+browser_scratchpad_bug_653427_confirm_close
+.
+js
+\
 libs
 :
 :
