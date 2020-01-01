@@ -20658,6 +20658,12 @@ encodingDeclarationHandler
 encodingDeclarationHandler
 ;
 }
+void
+destructor
+(
+)
+{
+}
 public
 void
 setTransitionBaseOffset
