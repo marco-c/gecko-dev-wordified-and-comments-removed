@@ -110,12 +110,15 @@ mCacheEntry
 nsnull
 ;
 }
-void
+nsresult
 CloseOutput
 (
 void
 )
 {
+nsresult
+rv
+=
 InternalCleanup
 (
 mOutput
@@ -125,10 +128,13 @@ mOutput
 =
 nsnull
 ;
+return
+rv
+;
 }
 private
 :
-void
+nsresult
 InternalCleanup
 (
 nsIOutputStream
@@ -157,6 +163,7 @@ if
 (
 tmp
 )
+return
 tmp
 -
 >
@@ -165,6 +172,7 @@ CloseInternal
 )
 ;
 else
+return
 stream
 -
 >
@@ -173,6 +181,9 @@ Close
 )
 ;
 }
+return
+NS_OK
+;
 }
 class
 nsInputStreamWrapper
