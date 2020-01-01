@@ -105,6 +105,11 @@ nsSMILAnimationController
 (
 )
 ;
+void
+Disconnect
+(
+)
+;
 virtual
 void
 Pause
