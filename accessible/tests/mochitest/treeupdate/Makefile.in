@@ -463,6 +463,10 @@ test_list
 .
 html
 \
+test_menu
+.
+xul
+\
 test_recreation
 .
 html
