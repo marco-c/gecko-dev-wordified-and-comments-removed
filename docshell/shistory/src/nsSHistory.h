@@ -295,6 +295,13 @@ aHistCmd
 ;
 protected
 :
+PRBool
+RemoveDuplicate
+(
+PRInt32
+aIndex
+)
+;
 nsCOMPtr
 <
 nsISHTransaction
