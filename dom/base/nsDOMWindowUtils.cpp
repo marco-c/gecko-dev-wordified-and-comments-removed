@@ -4826,6 +4826,14 @@ PR_IntervalNow
 (
 )
 ;
+event
+.
+mFlags
+.
+mIsSynthesizedForTests
+=
+true
+;
 if
 (
 aAdditionalFlags
