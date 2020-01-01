@@ -3664,16 +3664,6 @@ aChangedSomething
 =
 PR_TRUE
 ;
-DispatchDOMEvent
-(
-NS_LITERAL_STRING
-(
-"
-selectedItemChanged
-"
-)
-)
-;
 }
 return
 NS_OK
