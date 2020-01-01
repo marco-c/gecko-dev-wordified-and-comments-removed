@@ -1463,11 +1463,6 @@ NS_CERT_TRAILER_LEN
 {
 certend
 =
-(
-unsigned
-char
-*
-)
 cp
 ;
 break
@@ -1558,6 +1553,10 @@ bincert
 =
 ATOB_AsciiToData
 (
+(
+char
+*
+)
 certbegin
 &
 binLen

@@ -617,10 +617,6 @@ secport
 .
 c
 \
-secinit
-.
-c
-\
 templates
 .
 c

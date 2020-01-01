@@ -145,13 +145,6 @@ char
 ;
 #
 endif
-extern
-void
-SEC_Init
-(
-void
-)
-;
 static
 void
 Usage

@@ -1007,7 +1007,11 @@ global
 :
 SSL_ConfigServerSessionIDCacheWithOpt
 ;
+SSL_GetImplementedCiphers
+;
 SSL_GetNegotiatedHostInfo
+;
+SSL_GetNumImplementedCiphers
 ;
 SSL_HandshakeNegotiatedExtension
 ;

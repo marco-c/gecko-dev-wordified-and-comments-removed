@@ -2005,10 +2005,6 @@ JAR_Metainfo
 if
 (
 !
-x_name
-|
-|
-!
 *
 x_name
 )

@@ -2567,6 +2567,11 @@ derVal
 .
 data
 =
+(
+unsigned
+char
+*
+)
 valBuf
 ;
 derVal
@@ -4820,6 +4825,10 @@ len
 :
 cert_RFC1485_GetRequiredLen
 (
+(
+char
+*
+)
 avaValue
 -
 >
@@ -5834,6 +5843,10 @@ valueLen
 =
 cert_RFC1485_GetRequiredLen
 (
+(
+char
+*
+)
 avaValue
 -
 >

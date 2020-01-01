@@ -1551,8 +1551,7 @@ NSS
 .
 12
 .
-5
-Beta
+6
 can
 '
 t
@@ -1576,7 +1575,7 @@ comment
 DEFAULT_GMAKE_FLAGS
 +
 =
-USE_SYSTEM_ZLIB
+NSS_ENABLE_ZLIB
 =
 #
 Disable

@@ -183,12 +183,17 @@ item
 ;
 while
 (
+(
 nextItem
 =
 list
 -
 >
 next
+)
+!
+=
+NULL
 )
 {
 list

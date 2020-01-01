@@ -174,6 +174,7 @@ SEC_SignData
 SECItem
 *
 result
+const
 unsigned
 char
 *
@@ -450,15 +451,18 @@ extern
 SECStatus
 VFY_VerifyData
 (
+const
 unsigned
 char
 *
 buf
 int
 len
+const
 SECKEYPublicKey
 *
 key
+const
 SECItem
 *
 sig

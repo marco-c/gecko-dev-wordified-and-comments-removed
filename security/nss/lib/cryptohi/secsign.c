@@ -1029,6 +1029,7 @@ SEC_SignData
 SECItem
 *
 res
+const
 unsigned
 char
 *

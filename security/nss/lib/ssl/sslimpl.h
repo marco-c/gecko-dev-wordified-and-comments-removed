@@ -385,18 +385,6 @@ b
 #
 endif
 #
-ifdef
-macintosh
-#
-include
-"
-pprthred
-.
-h
-"
-#
-else
-#
 include
 "
 private
@@ -405,8 +393,6 @@ pprthred
 .
 h
 "
-#
-endif
 #
 define
 ssl_InMonitor

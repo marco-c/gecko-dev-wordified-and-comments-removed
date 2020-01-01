@@ -5885,6 +5885,10 @@ CERT_RFC1485_EscapeAndQuote
 (
 cn
 cnBufLen
+(
+char
+*
+)
 current
 -
 >
@@ -5946,6 +5950,10 @@ CERT_RFC1485_EscapeAndQuote
 (
 cn
 cnBufLen
+(
+char
+*
+)
 current
 -
 >

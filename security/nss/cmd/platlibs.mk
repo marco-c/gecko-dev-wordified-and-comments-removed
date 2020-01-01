@@ -2186,11 +2186,3 @@ jar
 (
 LIB_SUFFIX
 )
-\
-(
-ZLIB_LIBS
-)
-\
-(
-NULL
-)

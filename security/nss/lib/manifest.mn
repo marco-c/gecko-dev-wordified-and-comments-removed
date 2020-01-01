@@ -486,6 +486,9 @@ crmf
 jar
 \
 ckfw
+(
+SYSINIT_SRCDIR
+)
 \
 (
 NULL

@@ -73,9 +73,6 @@ NSS_VERSION
 "
 _NSS_ECC_STRING
 _NSS_CUSTOMIZED
-"
-Beta
-"
 #
 define
 NSS_VMAJOR
@@ -95,7 +92,7 @@ NSS_VBUILD
 #
 define
 NSS_BETA
-PR_TRUE
+PR_FALSE
 #
 ifndef
 RC_INVOKED
@@ -250,18 +247,6 @@ NSS_INIT_NOPK11FINALIZE
 \
 NSS_INIT_RESERVED
 #
-ifdef
-macintosh
-#
-define
-SECMOD_DB
-"
-Security
-Modules
-"
-#
-else
-#
 define
 SECMOD_DB
 "
@@ -269,8 +254,6 @@ secmod
 .
 db
 "
-#
-endif
 typedef
 struct
 NSSInitContextStr

@@ -1184,13 +1184,6 @@ raw
 )
 ;
 extern
-void
-SEC_Init
-(
-void
-)
-;
-extern
 char
 *
 SECU_SECModDBName
