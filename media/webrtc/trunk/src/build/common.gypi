@@ -500,7 +500,7 @@ include_pulse_audio
 %
 '
 :
-1
+0
 '
 include_internal_audio_device
 %
