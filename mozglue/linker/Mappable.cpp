@@ -1488,6 +1488,7 @@ _MappableBuffer
 :
 munmap
 (
+*
 this
 +
 (
