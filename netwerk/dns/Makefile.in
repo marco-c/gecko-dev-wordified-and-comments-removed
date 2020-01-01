@@ -256,6 +256,13 @@ DEFINES
 =
 -
 DIMPL_NS_NET
+\
+-
+DHB_DONT_DEFINE_STDINT
+\
+(
+NULL
+)
 #
 Generate
 the
