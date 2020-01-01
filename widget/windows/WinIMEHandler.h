@@ -231,7 +231,7 @@ SetInputScopesFunc
 )
 (
 HWND
-aindowHandle
+windowHandle
 const
 InputScope
 *
