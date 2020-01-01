@@ -776,6 +776,7 @@ modes
 acc
 opFunction
 cmpFunction
+expect
 )
 {
 if
@@ -787,6 +788,19 @@ cmpFunction
 cmpFunction
 =
 assertStructuralEq
+;
+}
+if
+(
+!
+expect
+)
+{
+expect
+=
+"
+success
+"
 ;
 }
 modes
@@ -809,9 +823,7 @@ mode
 mode
 expect
 :
-"
-success
-"
+expect
 }
 )
 ;
@@ -1059,6 +1071,7 @@ jsarray
 opname
 func
 cmpFunction
+expect
 )
 {
 var
@@ -1141,6 +1154,7 @@ result
 ;
 }
 cmpFunction
+expect
 )
 ;
 }

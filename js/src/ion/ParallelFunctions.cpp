@@ -1647,8 +1647,13 @@ res
 )
 ;
 }
+*
+res
+=
+false
+;
 return
-TP_RETRY_SEQUENTIALLY
+TP_SUCCESS
 ;
 }
 ParallelResult
