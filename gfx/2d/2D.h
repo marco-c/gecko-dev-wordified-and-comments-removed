@@ -180,7 +180,7 @@ mCompositionOp
 AntialiasMode
 mAntialiasMode
 :
-2
+3
 ;
 Snapping
 mSnapping
