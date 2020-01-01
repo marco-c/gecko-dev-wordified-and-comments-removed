@@ -6228,13 +6228,6 @@ obj
 )
 &
 &
-js_InitCallClass
-(
-cx
-obj
-)
-&
-&
 js_InitExceptionClasses
 (
 cx
@@ -6623,13 +6616,6 @@ js_InitStringClass
 EAGER_ATOM_AND_CLASP
 (
 String
-)
-}
-{
-js_InitCallClass
-EAGER_ATOM_AND_CLASP
-(
-Call
 )
 }
 {

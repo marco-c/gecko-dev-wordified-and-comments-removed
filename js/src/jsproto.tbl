@@ -623,9 +623,9 @@ js_InitBooleanClass
 )
 JS_PROTO
 (
-Call
+JSON
 5
-js_InitCallClass
+js_InitJSONClass
 )
 JS_PROTO
 (
@@ -788,12 +788,6 @@ JS_PROTO
 NoSuchMethod
 32
 NO_SUCH_METHOD_INIT
-)
-JS_PROTO
-(
-JSON
-33
-js_InitJSONClass
 )
 #
 undef

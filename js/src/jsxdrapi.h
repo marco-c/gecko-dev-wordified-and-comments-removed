@@ -682,7 +682,7 @@ JSXDR_BYTECODE_VERSION
 (
 0xb973c0de
 -
-46
+47
 )
 extern
 JSBool

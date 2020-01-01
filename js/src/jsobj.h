@@ -3072,7 +3072,7 @@ propp
 )
 ;
 extern
-int
+JSBool
 js_FindPropertyHelper
 (
 JSContext
