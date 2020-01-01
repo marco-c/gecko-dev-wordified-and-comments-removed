@@ -362,6 +362,12 @@ browser_dbg_iframes
 .
 js
 \
+browser_dbg_pause
+-
+exceptions
+.
+js
+\
 head
 .
 js
@@ -445,6 +451,12 @@ html
 browser_dbg_with
 -
 frame
+.
+html
+\
+browser_dbg_pause
+-
+exceptions
 .
 html
 \
