@@ -18,9 +18,7 @@ icc
 =
 navigator
 .
-mozMobileConnection
-.
-icc
+mozIccManager
 ;
 ok
 (
