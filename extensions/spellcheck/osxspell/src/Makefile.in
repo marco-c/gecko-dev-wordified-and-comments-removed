@@ -420,7 +420,7 @@ autoconf
 mk
 MODULE
 =
-myspell
+hunspell
 LIBRARY_NAME
 =
 osxspell_s

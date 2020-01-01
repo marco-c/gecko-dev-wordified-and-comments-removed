@@ -42,7 +42,7 @@ org
 /
 spellchecker
 /
-myspell
+hunspell
 ;
 1
 "

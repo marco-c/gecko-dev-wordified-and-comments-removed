@@ -437,7 +437,7 @@ else
 DIRS
 +
 =
-myspell
+hunspell
 endif
 DIRS
 +

@@ -417,7 +417,7 @@ autoconf
 mk
 MODULE
 =
-myspell
+hunspell
 DIRS
 =
 src

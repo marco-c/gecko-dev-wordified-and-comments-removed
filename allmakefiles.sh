@@ -4375,6 +4375,13 @@ extensions
 /
 spellcheck
 /
+hunspell
+/
+Makefile
+extensions
+/
+spellcheck
+/
 idl
 /
 Makefile
@@ -4383,13 +4390,6 @@ extensions
 spellcheck
 /
 locales
-/
-Makefile
-extensions
-/
-spellcheck
-/
-myspell
 /
 Makefile
 extensions

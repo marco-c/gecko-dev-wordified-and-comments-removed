@@ -461,7 +461,7 @@ wildcard
 LOCALE_SRCDIR
 )
 /
-myspell
+hunspell
 /
 *
 .
@@ -473,7 +473,7 @@ wildcard
 LOCALE_SRCDIR
 )
 /
-myspell
+hunspell
 /
 *
 .

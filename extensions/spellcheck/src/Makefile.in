@@ -562,14 +562,14 @@ SHARED_LIBRARY_LIBS
 .
 .
 /
-myspell
+hunspell
 /
 src
 /
 (
 LIB_PREFIX
 )
-myspell_s
+hunspell_s
 .
 (
 LIB_SUFFIX
@@ -586,7 +586,7 @@ srcdir
 .
 .
 /
-myspell
+hunspell
 /
 src
 endif

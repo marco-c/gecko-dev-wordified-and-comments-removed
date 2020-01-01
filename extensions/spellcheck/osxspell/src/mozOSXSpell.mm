@@ -432,7 +432,7 @@ does
 not
 use
 any
-MySpell
+Hunspell
 technology
 or
 rely
@@ -922,7 +922,7 @@ nor
 is
 it
 in
-MySpell
+Hunspell
 impl
 )
 /
@@ -960,7 +960,7 @@ nor
 is
 it
 in
-MySpell
+Hunspell
 impl
 )
 /
