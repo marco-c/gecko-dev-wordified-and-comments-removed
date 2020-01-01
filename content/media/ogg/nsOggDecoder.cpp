@@ -5666,15 +5666,6 @@ mon
 .
 Wait
 (
-PR_MillisecondsToInterval
-(
-PRInt64
-(
-mCallbackPeriod
-*
-500
-)
-)
 )
 ;
 if
