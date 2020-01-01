@@ -3386,6 +3386,7 @@ if
 NPERR_NO_ERROR
 =
 =
+*
 result
 )
 {
