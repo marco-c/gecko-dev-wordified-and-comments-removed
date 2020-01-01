@@ -203,6 +203,12 @@ data
 text
 /
 html
+;
+charset
+=
+utf
+-
+8
 <
 body
 style
