@@ -1059,6 +1059,7 @@ frontend
 :
 :
 CompileError
+*
 >
 errors
 ;
