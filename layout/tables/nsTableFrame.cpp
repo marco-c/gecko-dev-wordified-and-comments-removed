@@ -18581,6 +18581,16 @@ Fixed
 return
 PR_TRUE
 ;
+if
+(
+aColIndex
+=
+=
+0
+)
+return
+PR_TRUE
+;
 nsTableCellMap
 *
 cellMap
