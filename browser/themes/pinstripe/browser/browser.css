@@ -17448,6 +17448,12 @@ height
 :
 18px
 ;
+padding
+-
+right
+:
+16px
+;
 }
 #
 addon
@@ -17482,6 +17488,12 @@ moz
 appearance
 :
 none
+;
+padding
+-
+right
+:
+0
 ;
 }
 #
