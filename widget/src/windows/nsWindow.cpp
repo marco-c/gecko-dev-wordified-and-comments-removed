@@ -6103,6 +6103,12 @@ mode
 =
 =
 SW_MAXIMIZE
+|
+|
+mode
+=
+=
+SW_SHOW
 )
 DispatchFocusToTopLevelWindow
 (
