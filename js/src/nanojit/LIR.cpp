@@ -288,7 +288,7 @@ jf
 label
 "
 "
-25
+ldcs
 "
 "
 feq
@@ -3235,7 +3235,7 @@ return
 op
 >
 =
-LIR_feq
+LIR_ldcs
 &
 &
 op
@@ -11777,6 +11777,9 @@ LIR_ldqc
 :
 case
 LIR_ldcb
+:
+case
+LIR_ldcs
 :
 sprintf
 (

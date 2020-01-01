@@ -5927,6 +5927,9 @@ LIR_ldc
 case
 LIR_ldcb
 :
+case
+LIR_ldcs
+:
 {
 countlir_ld
 (

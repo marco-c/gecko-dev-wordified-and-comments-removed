@@ -109,6 +109,9 @@ LIR_label
 LIR_ji
 =
 25
+LIR_ldcs
+=
+25
 LIR_feq
 =
 26
@@ -730,6 +733,12 @@ op
 =
 =
 LIR_ldqc
+|
+|
+op
+=
+=
+LIR_ldcs
 ;
 }
 class
