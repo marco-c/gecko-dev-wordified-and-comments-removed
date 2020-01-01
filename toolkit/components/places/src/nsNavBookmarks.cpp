@@ -3927,9 +3927,6 @@ aEndIndex
 )
 ;
 }
-nsBookmarksUpdateBatcher
-batch
-;
 nsresult
 rv
 =
