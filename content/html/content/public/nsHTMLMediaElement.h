@@ -284,7 +284,7 @@ aState
 )
 ;
 PRBool
-IsActivelyPlaying
+IsPotentiallyPlaying
 (
 )
 const

@@ -4498,7 +4498,7 @@ ChangeReadyState
 nsIDOMHTMLMediaElement
 :
 :
-DATA_UNAVAILABLE
+HAVE_CURRENT_DATA
 )
 ;
 }
@@ -4532,7 +4532,7 @@ ChangeReadyState
 nsIDOMHTMLMediaElement
 :
 :
-CAN_SHOW_CURRENT_FRAME
+HAVE_FUTURE_DATA
 )
 ;
 }
