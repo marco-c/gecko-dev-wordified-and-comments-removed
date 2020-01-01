@@ -3117,7 +3117,7 @@ NULL
 ;
 cairo_surface_t
 *
-_cairo_null_surface_create
+cairo_null_surface_create
 (
 cairo_content_t
 content

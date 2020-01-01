@@ -806,7 +806,7 @@ mime_data
 }
 static
 void
-_cairo_surface_detach_snapshots
+cairo_surface_detach_snapshots
 (
 cairo_surface_t
 *
@@ -821,7 +821,7 @@ surface
 )
 )
 {
-_cairo_surface_detach_snapshot
+cairo_surface_detach_snapshot
 (
 cairo_list_first_entry
 (
@@ -838,7 +838,7 @@ snapshot
 }
 }
 void
-_cairo_surface_detach_snapshot
+cairo_surface_detach_snapshot
 (
 cairo_surface_t
 *
@@ -897,7 +897,7 @@ snapshot
 ;
 }
 void
-_cairo_surface_attach_snapshot
+cairo_surface_attach_snapshot
 (
 cairo_surface_t
 *
@@ -943,7 +943,7 @@ snapshot_of
 =
 NULL
 )
-_cairo_surface_detach_snapshot
+cairo_surface_detach_snapshot
 (
 snapshot
 )
@@ -1119,7 +1119,7 @@ snapshot_of
 NULL
 )
 ;
-_cairo_surface_detach_snapshots
+cairo_surface_detach_snapshots
 (
 surface
 )
@@ -2133,7 +2133,7 @@ finished
 )
 return
 ;
-_cairo_surface_detach_snapshots
+cairo_surface_detach_snapshots
 (
 surface
 )
@@ -2148,7 +2148,7 @@ snapshot_of
 =
 NULL
 )
-_cairo_surface_detach_snapshot
+cairo_surface_detach_snapshot
 (
 surface
 )
@@ -3105,7 +3105,7 @@ finished
 )
 return
 ;
-_cairo_surface_detach_snapshots
+cairo_surface_detach_snapshots
 (
 surface
 )
@@ -4501,7 +4501,7 @@ return
 status
 ;
 }
-_cairo_surface_attach_snapshot
+cairo_surface_attach_snapshot
 (
 src
 similar

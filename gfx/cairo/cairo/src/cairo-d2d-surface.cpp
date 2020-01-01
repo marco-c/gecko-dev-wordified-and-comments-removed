@@ -8752,7 +8752,7 @@ cairo_surface_t
 *
 nullSurf
 =
-_cairo_null_surface_create
+cairo_null_surface_create
 (
 CAIRO_CONTENT_COLOR_ALPHA
 )
@@ -8780,7 +8780,7 @@ cachebitmap
 NULL
 )
 ;
-_cairo_surface_attach_snapshot
+cairo_surface_attach_snapshot
 (
 surfacePattern
 -
@@ -9049,7 +9049,7 @@ cairo_surface_t
 *
 nullSurf
 =
-_cairo_null_surface_create
+cairo_null_surface_create
 (
 CAIRO_CONTENT_COLOR_ALPHA
 )
@@ -9063,7 +9063,7 @@ cachebitmap
 NULL
 )
 ;
-_cairo_surface_attach_snapshot
+cairo_surface_attach_snapshot
 (
 surfacePattern
 -

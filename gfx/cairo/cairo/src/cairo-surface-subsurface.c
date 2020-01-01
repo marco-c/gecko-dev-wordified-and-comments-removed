@@ -1386,7 +1386,7 @@ base
 surface
 )
 ;
-_cairo_surface_attach_snapshot
+cairo_surface_attach_snapshot
 (
 &
 surface
