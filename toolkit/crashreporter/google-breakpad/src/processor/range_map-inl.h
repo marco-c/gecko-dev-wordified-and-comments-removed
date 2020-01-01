@@ -6,6 +6,11 @@ define
 PROCESSOR_RANGE_MAP_INL_H__
 #
 include
+<
+cassert
+>
+#
+include
 "
 processor
 /

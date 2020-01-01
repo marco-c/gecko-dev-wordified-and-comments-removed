@@ -203,9 +203,11 @@ InternalWriteMinidump
 (
 int
 signo
-const
+uintptr_t
+sighandler_ebp
 struct
 sigcontext
+*
 *
 sig_ctx
 )

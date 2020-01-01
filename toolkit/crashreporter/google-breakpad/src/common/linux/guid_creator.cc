@@ -169,7 +169,6 @@ guid
 )
 ;
 }
-;
 bool
 GUIDToString
 (
