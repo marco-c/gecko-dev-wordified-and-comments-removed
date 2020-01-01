@@ -645,10 +645,6 @@ nsIDOMSerializer
 .
 idl
 \
-nsISelection2
-.
-idl
-\
 nsISelectionController
 .
 idl

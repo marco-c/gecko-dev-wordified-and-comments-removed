@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsISelection2
-.
-h
-"
-#
-include
-"
 nsISelectionPrivate
 .
 h
