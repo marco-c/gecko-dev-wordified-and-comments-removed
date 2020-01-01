@@ -1671,6 +1671,13 @@ report
 )
 )
 ;
+addNode
+(
+HR
+(
+)
+)
+;
 }
 ;
 SimpleTest
