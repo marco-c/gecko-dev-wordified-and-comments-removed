@@ -320,9 +320,11 @@ final
 String
 USER_AGENT
 =
-GeckoApp
+GeckoAppShell
 .
-mAppContext
+getGeckoInterface
+(
+)
 .
 getDefaultUAString
 (

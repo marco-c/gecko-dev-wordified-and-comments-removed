@@ -1138,9 +1138,11 @@ heightMeasureSpec
 if
 (
 !
-GeckoApp
+GeckoAppShell
 .
-mAppContext
+getGeckoInterface
+(
+)
 .
 hasTabsSideBar
 (

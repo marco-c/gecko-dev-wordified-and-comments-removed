@@ -5006,9 +5006,11 @@ DataReportingNotification
 .
 checkAndNotifyPolicy
 (
-BrowserApp
+GeckoAppShell
 .
-mAppContext
+getContext
+(
+)
 )
 ;
 }

@@ -1633,9 +1633,7 @@ this
 LayerView
 v
 =
-GeckoApp
-.
-mAppContext
+GeckoAppShell
 .
 getLayerView
 (
@@ -3676,9 +3674,7 @@ syncWithGecko
 LayerView
 v
 =
-GeckoApp
-.
-mAppContext
+GeckoAppShell
 .
 getLayerView
 (

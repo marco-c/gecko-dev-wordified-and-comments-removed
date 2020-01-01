@@ -6038,9 +6038,11 @@ mHasSoftMenuButton
 return
 false
 ;
-GeckoApp
+GeckoAppShell
 .
-mAppContext
+getGeckoInterface
+(
+)
 .
 invalidateOptionsMenu
 (

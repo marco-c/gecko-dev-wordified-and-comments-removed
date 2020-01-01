@@ -167,9 +167,11 @@ run
 (
 BrowserApp
 )
-GeckoApp
+GeckoAppShell
 .
-mAppContext
+getContext
+(
+)
 )
 .
 refreshToolbarHeight

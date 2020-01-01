@@ -100,9 +100,11 @@ getInstance
 return
 getInstance
 (
-GeckoApp
+GeckoAppShell
 .
-mAppContext
+getContext
+(
+)
 )
 ;
 }

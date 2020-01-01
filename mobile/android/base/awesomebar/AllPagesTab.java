@@ -3583,9 +3583,13 @@ mSuggestClient
 new
 SuggestClient
 (
-GeckoApp
+getView
+(
+)
 .
-mAppContext
+getContext
+(
+)
 suggestTemplate
 SUGGESTION_TIMEOUT
 SUGGESTION_MAX

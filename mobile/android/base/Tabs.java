@@ -82,6 +82,13 @@ OnAccountsUpdateListener
 import
 android
 .
+app
+.
+Activity
+;
+import
+android
+.
 content
 .
 ContentResolver
@@ -339,7 +346,7 @@ boolean
 mInitialTabsAdded
 ;
 private
-GeckoApp
+Activity
 mActivity
 ;
 private
@@ -583,7 +590,7 @@ synchronized
 void
 attachToActivity
 (
-GeckoApp
+Activity
 activity
 )
 {
@@ -688,7 +695,7 @@ synchronized
 void
 detachFromActivity
 (
-GeckoApp
+Activity
 activity
 )
 {
@@ -1693,7 +1700,11 @@ mOrder
 }
 private
 synchronized
-GeckoApp
+android
+.
+app
+.
+Activity
 getActivity
 (
 )

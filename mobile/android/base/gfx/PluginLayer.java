@@ -14,7 +14,7 @@ mozilla
 .
 gecko
 .
-GeckoApp
+GeckoAppShell
 ;
 import
 org
@@ -190,9 +190,11 @@ view
 ;
 mContainer
 =
-GeckoApp
+GeckoAppShell
 .
-mAppContext
+getGeckoInterface
+(
+)
 .
 getPluginContainer
 (

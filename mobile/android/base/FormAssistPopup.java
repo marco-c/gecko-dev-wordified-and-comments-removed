@@ -1069,9 +1069,11 @@ imm
 (
 InputMethodManager
 )
-GeckoApp
+GeckoAppShell
 .
-mAppContext
+getContext
+(
+)
 .
 getSystemService
 (
@@ -1201,9 +1203,11 @@ validation_message_height
 ImmutableViewportMetrics
 viewportMetrics
 =
-GeckoApp
+GeckoAppShell
 .
-mAppContext
+getGeckoInterface
+(
+)
 .
 getLayerView
 (
