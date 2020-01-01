@@ -4344,7 +4344,7 @@ scrollTo
 (
 enum
 IA2ScrollType
-scrollType
+aScrollType
 )
 {
 if
@@ -4353,7 +4353,7 @@ NS_SUCCEEDED
 (
 ScrollTo
 (
-PR_TRUE
+aScrollType
 )
 )
 )
