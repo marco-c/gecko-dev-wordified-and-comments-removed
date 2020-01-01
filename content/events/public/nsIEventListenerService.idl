@@ -655,6 +655,9 @@ getListenerInfoFor
 in
 nsIDOMEventTarget
 aEventTarget
+[
+optional
+]
 out
 unsigned
 long
@@ -743,6 +746,9 @@ getEventTargetChainFor
 in
 nsIDOMEventTarget
 aEventTarget
+[
+optional
+]
 out
 unsigned
 long

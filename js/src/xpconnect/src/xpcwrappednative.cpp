@@ -10058,6 +10058,7 @@ JSVAL_NULL
 ;
 if
 (
+(
 JSVAL_IS_PRIMITIVE
 (
 arg
@@ -10085,6 +10086,12 @@ IDX_VALUE
 &
 src
 )
+)
+&
+&
+i
+<
+argc
 )
 {
 ThrowBadParam
@@ -10769,6 +10776,7 @@ JSVAL_NULL
 ;
 if
 (
+(
 JSVAL_IS_PRIMITIVE
 (
 arg
@@ -10796,6 +10804,12 @@ IDX_VALUE
 &
 src
 )
+)
+&
+&
+i
+<
+argc
 )
 {
 ThrowBadParam
