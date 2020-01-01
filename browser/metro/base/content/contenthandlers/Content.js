@@ -1814,7 +1814,7 @@ BUBBLING_PHASE
 )
 this
 .
-_onClick
+_onClickBubble
 (
 aEvent
 )
@@ -1822,7 +1822,7 @@ aEvent
 else
 this
 .
-_genericMouseClick
+_onClickCapture
 (
 aEvent
 )
@@ -1836,7 +1836,7 @@ DOMContentLoaded
 :
 this
 .
-_maybeNotifyErroPage
+_maybeNotifyErrorPage
 (
 )
 ;
@@ -1883,7 +1883,7 @@ changedTouches
 ;
 this
 .
-_genericMouseDown
+_onTouchStart
 (
 touch
 .
@@ -2168,10 +2168,10 @@ break
 ;
 }
 }
-_genericMouseDown
+_onTouchStart
 :
 function
-_genericMouseDown
+_onTouchStart
 (
 x
 y
@@ -2233,10 +2233,10 @@ element
 )
 ;
 }
-_genericMouseClick
+_onClickCapture
 :
 function
-_genericMouseClick
+_onClickCapture
 (
 aEvent
 )
@@ -2352,10 +2352,10 @@ focusSync
 false
 ;
 }
-_onClick
+_onClickBubble
 :
 function
-_onClick
+_onClickBubble
 (
 aEvent
 )
@@ -2912,10 +2912,10 @@ return
 result
 ;
 }
-_maybeNotifyErroPage
+_maybeNotifyErrorPage
 :
 function
-_maybeNotifyErroPage
+_maybeNotifyErrorPage
 (
 )
 {
