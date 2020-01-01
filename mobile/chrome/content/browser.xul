@@ -4129,6 +4129,17 @@ selectedItem
 )
 ;
 "
+onclosetab
+=
+"
+BrowserUI
+.
+closeTab
+(
+this
+)
+;
+"
 /
 >
 <
