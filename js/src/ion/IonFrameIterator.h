@@ -193,12 +193,9 @@ const
 {
 JS_ASSERT
 (
-type
+isScripted
 (
 )
-=
-=
-IonFrame_OptimizedJS
 )
 ;
 return
