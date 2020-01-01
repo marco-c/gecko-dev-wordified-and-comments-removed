@@ -179,10 +179,3 @@ uninitialized
 test
 .
 html
-conformance
-/
-webgl
--
-specific
-.
-html
