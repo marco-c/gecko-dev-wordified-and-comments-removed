@@ -1367,6 +1367,12 @@ if
 doSyncDraw
 )
 {
+GeckoAppShell
+.
+scheduleRedraw
+(
+)
+;
 Object
 syncDrawObject
 =
