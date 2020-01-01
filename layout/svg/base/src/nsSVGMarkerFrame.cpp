@@ -775,6 +775,10 @@ mInUse
 return
 nsRect
 (
+0
+0
+0
+0
 )
 ;
 AutoMarkerReferencer

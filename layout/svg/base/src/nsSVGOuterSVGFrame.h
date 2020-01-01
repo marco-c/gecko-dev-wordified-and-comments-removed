@@ -228,8 +228,11 @@ nsDidReflowStatus
 aStatus
 )
 ;
+NS_IMETHOD_
+(
 nsIFrame
 *
+)
 GetFrameForPoint
 (
 const
@@ -350,13 +353,6 @@ UpdateAndInvalidateCoveredRegion
 nsIFrame
 *
 aFrame
-)
-;
-void
-InvalidateRect
-(
-nsRect
-aRect
 )
 ;
 PRBool
