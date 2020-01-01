@@ -30206,15 +30206,6 @@ requestDepth
 ;
 #
 endif
-LIns
-*
-exit
-=
-snapshot
-(
-BRANCH_EXIT
-)
-;
 if
 (
 PCVCAP_TAG
@@ -30285,7 +30276,7 @@ kshape
 )
 "
 )
-exit
+MISMATCH_EXIT
 )
 ;
 }
@@ -30410,7 +30401,7 @@ kobj
 )
 "
 )
-exit
+MISMATCH_EXIT
 )
 ;
 }
@@ -30492,7 +30483,7 @@ ins_eq0
 (
 obj2_ins
 )
-exit
+MISMATCH_EXIT
 )
 ;
 }
@@ -30586,7 +30577,7 @@ vshape
 )
 "
 )
-exit
+MISMATCH_EXIT
 )
 ;
 }
