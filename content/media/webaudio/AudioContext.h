@@ -74,6 +74,8 @@ AudioContext
 MOZ_FINAL
 :
 public
+nsISupports
+public
 nsWrapperCache
 public
 EnableWebAudioCheck
@@ -94,11 +96,8 @@ AudioContext
 (
 )
 ;
-NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
-(
-AudioContext
-)
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 AudioContext
 )
