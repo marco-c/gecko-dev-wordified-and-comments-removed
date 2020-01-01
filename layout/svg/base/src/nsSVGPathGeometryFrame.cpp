@@ -2371,12 +2371,6 @@ Fill
 (
 )
 ;
-CleanupCairoFill
-(
-gfx
-closure
-)
-;
 }
 if
 (
@@ -2398,12 +2392,6 @@ gfx
 >
 Stroke
 (
-)
-;
-CleanupCairoStroke
-(
-gfx
-closure
 )
 ;
 }
