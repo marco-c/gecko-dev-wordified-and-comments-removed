@@ -319,6 +319,10 @@ HTMLPropertiesCollection
 .
 webidl
 \
+HTMLSpanElement
+.
+webidl
+\
 HTMLTitleElement
 .
 webidl
