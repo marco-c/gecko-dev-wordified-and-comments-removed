@@ -30,13 +30,6 @@ background
 /
 announcements
 /
-AnnouncementsConstants
-.
-java
-background
-/
-announcements
-/
 AnnouncementsFetchDelegate
 .
 java

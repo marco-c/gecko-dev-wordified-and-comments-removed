@@ -8,3 +8,10 @@ sync
 SyncConstants
 .
 java
+background
+/
+announcements
+/
+AnnouncementsConstants
+.
+java

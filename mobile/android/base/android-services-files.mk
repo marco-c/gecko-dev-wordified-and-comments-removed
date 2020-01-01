@@ -111,13 +111,6 @@ background
 /
 announcements
 /
-AnnouncementsConstants
-.
-java
-background
-/
-announcements
-/
 AnnouncementsFetchDelegate
 .
 java
@@ -1965,6 +1958,13 @@ java
 sync
 /
 SyncConstants
+.
+java
+background
+/
+announcements
+/
+AnnouncementsConstants
 .
 java
 SYNC_THIRDPARTY_JAVA_FILES
