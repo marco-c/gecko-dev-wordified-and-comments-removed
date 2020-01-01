@@ -40,6 +40,16 @@ DisableBatteryNotifications
 (
 )
 ;
+void
+EnableNetworkNotifications
+(
+)
+;
+void
+DisableNetworkNotifications
+(
+)
+;
 }
 }
 #
