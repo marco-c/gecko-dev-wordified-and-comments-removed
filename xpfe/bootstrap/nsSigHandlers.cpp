@@ -619,8 +619,11 @@ eAttemptQuit
 #
 endif
 #
-ifdef
+if
+defined
+(
 MOZ_WIDGET_GTK2
+)
 &
 &
 (
@@ -1098,8 +1101,11 @@ beos_signal_handler
 #
 endif
 #
-ifdef
+if
+defined
+(
 MOZ_WIDGET_GTK2
+)
 &
 &
 (
