@@ -34,6 +34,13 @@ imgFrame
 .
 h
 "
+#
+include
+"
+nsISupportsImpl
+.
+h
+"
 namespace
 mozilla
 {
@@ -371,6 +378,10 @@ FrameSequence
 (
 )
 ;
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+FrameSequence
+)
 const
 FrameDataPair
 &
