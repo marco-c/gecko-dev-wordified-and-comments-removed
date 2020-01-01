@@ -37813,7 +37813,7 @@ stubs
 :
 :
 InvokeTracer
-REJOIN_NONE
+REJOIN_FINISH_FRAME
 )
 ;
 PC
