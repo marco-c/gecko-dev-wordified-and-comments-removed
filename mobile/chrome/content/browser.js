@@ -1343,6 +1343,7 @@ _tabbrowser
 .
 updateCanvasState
 (
+true
 )
 ;
 }
@@ -1539,7 +1540,6 @@ _tabbrowser
 .
 updateCanvasState
 (
-true
 )
 ;
 }
