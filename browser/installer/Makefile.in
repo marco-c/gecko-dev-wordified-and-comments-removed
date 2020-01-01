@@ -583,8 +583,6 @@ MOZ_OPTIONAL_PKG_LIST
 \
 adt
 \
-talkback
-\
 (
 NULL
 )
