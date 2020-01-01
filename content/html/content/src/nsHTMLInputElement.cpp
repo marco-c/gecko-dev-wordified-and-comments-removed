@@ -9951,9 +9951,6 @@ NS_FORM_INPUT_TEL
 case
 NS_FORM_INPUT_PASSWORD
 :
-case
-NS_FORM_INPUT_EMAIL
-:
 {
 PRUnichar
 crlf
@@ -9988,6 +9985,9 @@ crlf
 }
 break
 ;
+case
+NS_FORM_INPUT_EMAIL
+:
 case
 NS_FORM_INPUT_URL
 :
