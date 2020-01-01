@@ -6053,7 +6053,10 @@ nsDependentCString
 (
 ctype
 )
-atoi
+nsCRT
+:
+:
+atoll
 (
 clen
 )
