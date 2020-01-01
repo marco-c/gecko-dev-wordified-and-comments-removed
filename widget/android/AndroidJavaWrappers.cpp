@@ -5890,10 +5890,10 @@ ToUnknownPoint
 LayerIntRect
 dp
 =
-LayerRect
+gfx
 :
 :
-RoundToInt
+RoundedToInt
 (
 dpUnrounded
 )
