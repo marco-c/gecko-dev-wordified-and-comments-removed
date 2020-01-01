@@ -336,7 +336,8 @@ X
 if
 (
 isOSXLion
-or
+|
+|
 isOSXMtnLion
 )
 {
