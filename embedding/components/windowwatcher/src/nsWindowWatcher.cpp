@@ -2454,7 +2454,7 @@ chromeFlags
 nsIWebBrowserChrome
 :
 :
-CHROME_DEPENDENT
+CHROME_MODAL
 )
 )
 {
