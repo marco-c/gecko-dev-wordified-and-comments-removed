@@ -126,6 +126,10 @@ resource
 .
 xul
 \
+test_bug775972
+.
+xul
+\
 (
 NULL
 )
