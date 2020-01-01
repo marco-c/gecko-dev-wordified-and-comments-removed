@@ -1998,11 +1998,15 @@ FieldSetDisabledChanged
 (
 PRInt32
 aStates
+PRBool
+aNotify
 )
 ;
 void
 FieldSetFirstLegendChanged
 (
+PRBool
+aNotify
 )
 {
 UpdateFieldSet
@@ -2012,6 +2016,7 @@ UpdateFieldSet
 FieldSetDisabledChanged
 (
 0
+aNotify
 )
 ;
 }

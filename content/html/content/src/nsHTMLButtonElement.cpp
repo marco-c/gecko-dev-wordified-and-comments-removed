@@ -366,6 +366,8 @@ FieldSetDisabledChanged
 (
 PRInt32
 aStates
+PRBool
+aNotify
 )
 ;
 PRInt32
@@ -2740,6 +2742,8 @@ FieldSetDisabledChanged
 (
 PRInt32
 aStates
+PRBool
+aNotify
 )
 {
 UpdateBarredFromConstraintValidation
@@ -2759,6 +2763,7 @@ nsGenericHTMLFormElement
 FieldSetDisabledChanged
 (
 aStates
+aNotify
 )
 ;
 }

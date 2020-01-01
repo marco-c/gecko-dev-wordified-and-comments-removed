@@ -200,6 +200,8 @@ private
 void
 NotifyElementsForFirstLegendChange
 (
+PRBool
+aNotify
 )
 ;
 static
