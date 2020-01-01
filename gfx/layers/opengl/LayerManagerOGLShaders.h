@@ -948,7 +948,7 @@ uMaskTexture
 vMaskCoord
 )
 .
-a
+r
 ;
 \
 n
@@ -1232,7 +1232,7 @@ uMaskTexture
 maskCoords
 )
 .
-a
+r
 ;
 \
 n
