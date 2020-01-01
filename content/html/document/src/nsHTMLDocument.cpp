@@ -10240,9 +10240,8 @@ if
 aContent
 -
 >
-HasFlag
+HasName
 (
-NODE_HAS_NAME
 )
 )
 {

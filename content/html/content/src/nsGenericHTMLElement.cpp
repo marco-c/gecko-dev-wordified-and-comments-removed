@@ -3921,9 +3921,8 @@ aDocument
 {
 if
 (
-HasFlag
+HasName
 (
-NODE_HAS_NAME
 )
 )
 {
@@ -5037,9 +5036,8 @@ RemoveFromNameTable
 (
 )
 ;
-UnsetFlags
+ClearHasName
 (
-NODE_HAS_NAME
 )
 ;
 }
@@ -5342,9 +5340,8 @@ IsEmpty
 )
 )
 {
-UnsetFlags
+ClearHasName
 (
-NODE_HAS_NAME
 )
 ;
 return
@@ -5368,9 +5365,8 @@ Tag
 )
 )
 {
-SetFlags
+SetHasName
 (
-NODE_HAS_NAME
 )
 ;
 AddToNameTable
