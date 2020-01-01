@@ -1702,17 +1702,6 @@ branding
 disk
 .
 icns
-MOZ_PKG_MAC_RSRC
-=
-(
-_ABS_DIST
-)
-/
-branding
-/
-license
-.
-r
 MOZ_PKG_MAC_EXTRA
 =
 -
