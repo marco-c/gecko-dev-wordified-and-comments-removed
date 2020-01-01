@@ -340,12 +340,11 @@ put
 (
 "
 AwesomeBarTabs
-.
-Background
+BackgroundLayout
 "
 AwesomeBarTabs
 .
-Background
+BackgroundLayout
 .
 class
 .
