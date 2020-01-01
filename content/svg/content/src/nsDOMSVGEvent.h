@@ -22,9 +22,9 @@ class
 nsDOMSVGEvent
 :
 public
-nsIDOMSVGEvent
-public
 nsDOMEvent
+public
+nsIDOMSVGEvent
 {
 public
 :

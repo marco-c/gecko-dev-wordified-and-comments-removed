@@ -22,9 +22,9 @@ class
 nsDOMKeyboardEvent
 :
 public
-nsIDOMKeyEvent
-public
 nsDOMUIEvent
+public
+nsIDOMKeyEvent
 {
 public
 :

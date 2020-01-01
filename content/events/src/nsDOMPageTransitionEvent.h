@@ -22,9 +22,9 @@ class
 nsDOMPageTransitionEvent
 :
 public
-nsIDOMPageTransitionEvent
-public
 nsDOMEvent
+public
+nsIDOMPageTransitionEvent
 {
 public
 :

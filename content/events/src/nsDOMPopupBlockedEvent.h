@@ -29,9 +29,9 @@ class
 nsDOMPopupBlockedEvent
 :
 public
-nsIDOMPopupBlockedEvent
-public
 nsDOMEvent
+public
+nsIDOMPopupBlockedEvent
 {
 public
 :

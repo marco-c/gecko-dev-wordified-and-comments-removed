@@ -22,9 +22,9 @@ class
 nsDOMMouseScrollEvent
 :
 public
-nsIDOMMouseScrollEvent
-public
 nsDOMMouseEvent
+public
+nsIDOMMouseScrollEvent
 {
 public
 :

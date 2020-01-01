@@ -29,9 +29,9 @@ class
 nsDOMSVGZoomEvent
 :
 public
-nsIDOMSVGZoomEvent
-public
 nsDOMUIEvent
+public
+nsIDOMSVGZoomEvent
 {
 public
 :

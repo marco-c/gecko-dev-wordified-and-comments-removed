@@ -35,9 +35,9 @@ class
 nsDOMDragEvent
 :
 public
-nsIDOMDragEvent
-public
 nsDOMMouseEvent
+public
+nsIDOMDragEvent
 {
 public
 :

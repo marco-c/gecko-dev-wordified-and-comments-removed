@@ -43,13 +43,13 @@ class
 nsDOMUIEvent
 :
 public
+nsDOMEvent
+public
 nsIDOMUIEvent
 public
 nsIDOMNSUIEvent
 public
 nsIPrivateCompositionEvent
-public
-nsDOMEvent
 {
 public
 :

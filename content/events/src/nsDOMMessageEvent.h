@@ -29,9 +29,9 @@ class
 nsDOMMessageEvent
 :
 public
-nsIDOMMessageEvent
-public
 nsDOMEvent
+public
+nsIDOMMessageEvent
 {
 public
 :
