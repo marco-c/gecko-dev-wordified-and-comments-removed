@@ -998,6 +998,15 @@ non
 extensible
 .
 js
+skip
+-
+if
+(
+!
+xulRuntime
+.
+shell
+)
 script
 freeze
 -
@@ -1008,3 +1017,6 @@ eval
 const
 .
 js
+#
+uses
+evalcx
