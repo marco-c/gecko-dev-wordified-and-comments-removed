@@ -295,18 +295,6 @@ jsval
 )
 )
 ;
-static
-JSBool
-MakeArraySlow
-(
-JSContext
-*
-cx
-JSObject
-*
-obj
-)
-;
 #
 define
 ENSURE_SLOW_ARRAY
@@ -327,7 +315,7 @@ obj
 js_SlowArrayClass
 |
 |
-MakeArraySlow
+js_MakeArraySlow
 (
 cx
 obj
@@ -1632,7 +1620,7 @@ index
 if
 (
 !
-MakeArraySlow
+js_MakeArraySlow
 (
 cx
 obj
@@ -3408,7 +3396,7 @@ i
 if
 (
 !
-MakeArraySlow
+js_MakeArraySlow
 (
 cx
 obj
@@ -5050,9 +5038,8 @@ NULL
 NULL
 }
 ;
-static
 JSBool
-MakeArraySlow
+js_MakeArraySlow
 (
 JSContext
 *
@@ -9386,7 +9373,7 @@ length
 if
 (
 !
-MakeArraySlow
+js_MakeArraySlow
 (
 cx
 obj
