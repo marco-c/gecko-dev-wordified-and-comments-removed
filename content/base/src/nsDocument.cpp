@@ -35776,6 +35776,15 @@ nsContentUtils
 IsFullScreenApiEnabled
 (
 )
+|
+|
+nsContentUtils
+:
+:
+HasPluginWithUncontrolledEventDispatch
+(
+this
+)
 )
 {
 return

@@ -1520,6 +1520,12 @@ api
 .
 html
 \
+file_fullscreen
+-
+plugins
+.
+html
+\
 test_li_attributes_reflection
 .
 html
