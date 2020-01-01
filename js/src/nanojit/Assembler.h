@@ -415,7 +415,7 @@ endif
 Assembler
 (
 CodeAlloc
-*
+&
 codeAlloc
 AvmCore
 *
@@ -838,11 +838,8 @@ AvmCore
 *
 core
 ;
-DWB
-(
 CodeAlloc
-*
-)
+&
 _codeAlloc
 ;
 avmplus

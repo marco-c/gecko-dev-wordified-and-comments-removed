@@ -34802,10 +34802,6 @@ tm
 codeAlloc
 =
 new
-(
-&
-gc
-)
 CodeAlloc
 (
 )
@@ -34830,6 +34826,7 @@ gc
 )
 Assembler
 (
+*
 tm
 -
 >
@@ -35091,10 +35088,6 @@ tm
 reCodeAlloc
 =
 new
-(
-&
-gc
-)
 CodeAlloc
 (
 )
@@ -35119,6 +35112,7 @@ gc
 )
 Assembler
 (
+*
 tm
 -
 >

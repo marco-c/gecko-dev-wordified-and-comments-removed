@@ -157,9 +157,6 @@ p
 ;
 class
 CodeAlloc
-:
-public
-GCFinalizedObject
 {
 static
 const
