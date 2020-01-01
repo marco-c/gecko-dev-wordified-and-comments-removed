@@ -687,6 +687,13 @@ readyState
 "
 complete
 "
+|
+|
+browser
+.
+webProgress
+.
+isLoadingDocument
 )
 {
 stillToLoad
