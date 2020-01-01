@@ -726,6 +726,9 @@ mCurrentRequestRegistered
 bool
 mPendingRequestRegistered
 ;
+uint32_t
+mVisibleCount
+;
 }
 ;
 #
