@@ -1217,10 +1217,7 @@ JSContext
 *
 cx
 ;
-Vector
-<
-Value
->
+AutoValueVector
 &
 values
 ;
@@ -1229,10 +1226,7 @@ AppendWrappedArg
 JSContext
 *
 cx
-Vector
-<
-Value
->
+AutoValueVector
 &
 values
 )
@@ -1379,10 +1373,7 @@ frames
 cx
 )
 ;
-Vector
-<
-Value
->
+AutoValueVector
 values
 (
 cx
