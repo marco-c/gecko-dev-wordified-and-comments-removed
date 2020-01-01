@@ -754,6 +754,10 @@ AppendPrintf
 p
 "
 procHandle
+.
+Get
+(
+)
 )
 ;
 commandLine

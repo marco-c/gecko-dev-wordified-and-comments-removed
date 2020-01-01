@@ -1093,6 +1093,15 @@ mMainThread
 }
 }
 }
+#
+ifdef
+__MINGW32__
+extern
+"
+C
+"
+#
+endif
 int
 wmain
 (
