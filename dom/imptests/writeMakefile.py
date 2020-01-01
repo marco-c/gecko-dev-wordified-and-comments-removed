@@ -77,7 +77,7 @@ makefileString
 entries
 )
 :
-  
+    
 if
 not
 len
@@ -85,14 +85,14 @@ len
 entries
 )
 :
-    
+        
 return
 "
 (
 NULL
 )
 "
-  
+    
 return
 "
 \
@@ -133,7 +133,7 @@ variable
 entries
 )
 :
-  
+    
 return
 "
 %
@@ -163,7 +163,7 @@ subdirs
 files
 )
 :
-  
+    
 return
 string
 .
@@ -175,13 +175,13 @@ makefileTemplate
 substitute
 (
 {
-    
+      
 "
 caller
 "
 :
 caller
-    
+      
 "
 dirs
 "
@@ -193,7 +193,7 @@ DIRS
 "
 subdirs
 )
-    
+      
 "
 files
 "
@@ -210,6 +210,6 @@ files
 else
 "
 "
-  
+    
 }
 )
