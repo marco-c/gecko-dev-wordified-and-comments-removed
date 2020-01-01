@@ -44,11 +44,6 @@ i
 {
 }
 }
-dis
-(
-testReallyDeepNestedExit
-)
-;
 assertEq
 (
 testReallyDeepNestedExit
