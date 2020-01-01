@@ -207,6 +207,10 @@ mScrollPositionY
 (
 0
 )
+mParent
+(
+nsnull
+)
 mURIWasModified
 (
 other
@@ -1404,9 +1408,6 @@ aResult
 *
 aResult
 =
-mShared
--
->
 mParent
 ;
 NS_IF_ADDREF
@@ -1430,9 +1431,6 @@ nsISHEntry
 aParent
 )
 {
-mShared
--
->
 mParent
 =
 aParent
