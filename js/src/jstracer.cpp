@@ -63002,7 +63002,6 @@ return
 ARECORD_STOP
 ;
 }
-static
 JSBool
 JS_FASTCALL
 DeleteIntKey
@@ -63119,7 +63118,6 @@ BOOL
 0
 ACCSET_STORE_ANY
 )
-static
 JSBool
 JS_FASTCALL
 DeleteStrKey
