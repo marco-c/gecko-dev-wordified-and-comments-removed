@@ -326,15 +326,6 @@ aMimeType
 )
 ;
 bool
-IsPluginClickToPlayForType
-(
-const
-char
-*
-aMimeType
-)
-;
-bool
 IsPluginPlayPreviewForType
 (
 const
