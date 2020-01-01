@@ -170,7 +170,7 @@ mPluginContent
 ;
 }
 void
-SkippedInstantiation
+AllowNormalInstantiation
 (
 )
 {
@@ -328,7 +328,7 @@ shell
 mPluginDoc
 -
 >
-SkippedInstantiation
+AllowNormalInstantiation
 (
 )
 ;
@@ -365,7 +365,7 @@ frame
 mPluginDoc
 -
 >
-SkippedInstantiation
+AllowNormalInstantiation
 (
 )
 ;
@@ -393,7 +393,7 @@ objFrame
 mPluginDoc
 -
 >
-SkippedInstantiation
+AllowNormalInstantiation
 (
 )
 ;
@@ -441,6 +441,13 @@ return
 rv
 ;
 }
+mPluginDoc
+-
+>
+AllowNormalInstantiation
+(
+)
+;
 NS_ASSERTION
 (
 mNextStream
