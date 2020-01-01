@@ -86,6 +86,16 @@ value
 "
 )
 ;
+if
+(
+id
+=
+=
+"
+"
+)
+return
+;
 litmus
 .
 getTestrun
