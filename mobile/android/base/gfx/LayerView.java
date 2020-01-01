@@ -836,7 +836,7 @@ inputConnectionHandler
 ;
 mLayerClient
 .
-setForceRedraw
+forceRedraw
 (
 )
 ;

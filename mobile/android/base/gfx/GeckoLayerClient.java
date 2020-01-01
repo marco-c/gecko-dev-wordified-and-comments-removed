@@ -2506,7 +2506,7 @@ pageRectTop
 }
 public
 void
-setForceRedraw
+forceRedraw
 (
 )
 {

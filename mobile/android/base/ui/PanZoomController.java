@@ -1032,7 +1032,7 @@ getValidViewportMetrics
 ;
 mTarget
 .
-setForceRedraw
+forceRedraw
 (
 )
 ;
@@ -1197,7 +1197,7 @@ ANIMATED_ZOOM
 :
 mTarget
 .
-setForceRedraw
+forceRedraw
 (
 )
 ;
@@ -3089,7 +3089,7 @@ stopAnimationTimer
 ;
 mTarget
 .
-setForceRedraw
+forceRedraw
 (
 )
 ;
@@ -4151,7 +4151,7 @@ getEventTime
 ;
 mTarget
 .
-setForceRedraw
+forceRedraw
 (
 )
 ;

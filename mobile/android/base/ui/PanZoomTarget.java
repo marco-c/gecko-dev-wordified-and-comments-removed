@@ -74,7 +74,7 @@ viewport
 ;
 public
 void
-setForceRedraw
+forceRedraw
 (
 )
 ;
