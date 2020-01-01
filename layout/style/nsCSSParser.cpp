@@ -24587,7 +24587,7 @@ case
 eCSSProperty_box_ordinal_group
 :
 return
-ParseNonNegativeVariant
+ParsePositiveNonZeroVariant
 (
 aValue
 VARIANT_HI
