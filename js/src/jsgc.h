@@ -91,11 +91,11 @@ thing
 ;
 JSRuntime
 *
-js_GetGCStringRuntime
+js_GetGCThingRuntime
 (
-JSString
+void
 *
-str
+thing
 )
 ;
 #
