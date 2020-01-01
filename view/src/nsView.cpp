@@ -4254,6 +4254,13 @@ devContext
 )
 )
 ;
+devContext
+-
+>
+CheckDPIChange
+(
+)
+;
 int32_t
 p2a
 =
