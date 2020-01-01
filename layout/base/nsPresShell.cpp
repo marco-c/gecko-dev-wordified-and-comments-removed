@@ -4683,7 +4683,7 @@ PrepareToUseCaretPosition
 nsIWidget
 *
 aEventWidget
-nsPoint
+nsIntPoint
 &
 aTargetPt
 )
@@ -4698,7 +4698,7 @@ nsIContent
 *
 *
 aTargetToUse
-nsPoint
+nsIntPoint
 &
 aTargetPt
 )
@@ -25112,7 +25112,7 @@ y
 =
 0
 ;
-nsPoint
+nsIntPoint
 caretPoint
 ;
 if
