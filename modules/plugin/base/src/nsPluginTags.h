@@ -35,6 +35,13 @@ h
 #
 include
 "
+nsCOMArray
+.
+h
+"
+#
+include
+"
 nsIPluginTag
 .
 h
@@ -368,9 +375,9 @@ mInstance
 PRBool
 mDefaultPlugin
 ;
-nsCOMPtr
+nsCOMArray
 <
-nsISupportsArray
+nsIPluginStreamInfo
 >
 mStreams
 ;
