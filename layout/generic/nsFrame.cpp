@@ -30557,6 +30557,18 @@ bounds
 )
 ;
 }
+if
+(
+!
+nsLayoutUtils
+:
+:
+IsPopup
+(
+this
+)
+)
+{
 nsRect
 marginBounds
 (
@@ -30600,6 +30612,7 @@ so
 marginBounds
 )
 ;
+}
 }
 if
 (
