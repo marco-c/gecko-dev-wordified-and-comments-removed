@@ -1880,8 +1880,11 @@ JSMSG_MORE_ARGS_NEEDED
 "
 findReferences
 "
-1
 "
+0
+"
+"
+s
 "
 )
 ;
