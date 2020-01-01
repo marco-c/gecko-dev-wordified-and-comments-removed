@@ -1434,7 +1434,6 @@ lt
 then
 BUILD_ARM_NEON
 =
-0
 else
 BUILD_ARM_NEON
 =

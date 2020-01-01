@@ -204,3 +204,16 @@ CXXFLAGS
 (
 GSTREAMER_CFLAGS
 )
+AudioNodeEngineNEON
+.
+(
+OBJ_SUFFIX
+)
+:
+CXXFLAGS
++
+=
+-
+mfpu
+=
+neon
