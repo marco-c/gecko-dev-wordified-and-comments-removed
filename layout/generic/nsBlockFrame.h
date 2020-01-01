@@ -1778,6 +1778,16 @@ nsLineList
 aOverflowLines
 )
 ;
+nscoord
+GetEffectiveComputedHeight
+(
+const
+nsHTMLReflowState
+&
+aReflowState
+)
+const
+;
 struct
 nsAutoOOFFrameList
 {
