@@ -2704,6 +2704,9 @@ sGeoEnabled
 return
 NS_ERROR_NOT_AVAILABLE
 ;
+#
+ifdef
+MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -2736,6 +2739,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 nsresult
 rv
 =
@@ -2899,6 +2904,9 @@ mDisconnectTimer
 nsnull
 ;
 }
+#
+ifdef
+MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -2930,6 +2938,8 @@ SendGeolocationStop
 return
 ;
 }
+#
+endif
 for
 (
 PRUint32
