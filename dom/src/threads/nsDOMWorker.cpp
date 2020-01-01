@@ -5343,7 +5343,7 @@ aType
 aListener
 aUseCapture
 PR_FALSE
-0
+1
 )
 ;
 }
@@ -10995,7 +10995,7 @@ aType
 aListener
 aUseCapture
 PR_FALSE
-0
+1
 )
 ;
 }

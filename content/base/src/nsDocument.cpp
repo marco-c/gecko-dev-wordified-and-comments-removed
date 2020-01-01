@@ -26001,7 +26001,7 @@ aWantsUntrusted
 |
 optional_argc
 >
-0
+1
 "
 Won
 '
@@ -26067,9 +26067,8 @@ aWantsUntrusted
 |
 (
 optional_argc
-=
-=
-0
+<
+2
 &
 &
 !

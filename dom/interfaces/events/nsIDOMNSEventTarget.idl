@@ -631,6 +631,9 @@ type
 in
 nsIDOMEventListener
 listener
+[
+optional
+]
 in
 boolean
 useCapture
