@@ -472,6 +472,8 @@ it
 AddStateBits
 (
 aStateFlags
+|
+NS_BLOCK_MARGIN_ROOT
 )
 ;
 }
@@ -2897,6 +2899,10 @@ desiredSize
 d
 %
 d
+CarriedOutBottomMargin
+=
+%
+d
 \
 n
 "
@@ -2913,6 +2919,13 @@ width
 kidDesiredSize
 .
 height
+kidDesiredSize
+.
+mCarriedOutBottomMargin
+.
+get
+(
+)
 )
 ;
 #
