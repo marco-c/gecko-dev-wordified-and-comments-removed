@@ -1069,6 +1069,11 @@ forStatement
 )
 ;
 Node
+labeledStatement
+(
+)
+;
+Node
 tryStatement
 (
 )
