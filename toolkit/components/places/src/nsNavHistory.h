@@ -1061,6 +1061,14 @@ InitStatements
 (
 )
 ;
+nsresult
+MigrateFromVnToV1
+(
+mozIStorageConnection
+*
+aDBConn
+)
+;
 #
 ifdef
 IN_MEMORY_LINKS
