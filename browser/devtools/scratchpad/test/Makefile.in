@@ -169,6 +169,10 @@ browser_scratchpad_bug756681_display_non_error_exceptions
 .
 js
 \
+browser_scratchpad_bug_751744_revert_to_saved
+.
+js
+\
 head
 .
 js
