@@ -3675,6 +3675,8 @@ GarbageCollect
 nsICycleCollectorListener
 *
 aListener
+PRInt32
+aExtraForgetSkippableCalls
 )
 {
 SAMPLE_LABEL
@@ -3724,6 +3726,7 @@ nsJSContext
 CycleCollectNow
 (
 aListener
+aExtraForgetSkippableCalls
 )
 ;
 return
@@ -3739,6 +3742,8 @@ CycleCollect
 nsICycleCollectorListener
 *
 aListener
+PRInt32
+aExtraForgetSkippableCalls
 )
 {
 #
@@ -3764,6 +3769,7 @@ nsJSContext
 CycleCollectNow
 (
 aListener
+aExtraForgetSkippableCalls
 )
 ;
 return

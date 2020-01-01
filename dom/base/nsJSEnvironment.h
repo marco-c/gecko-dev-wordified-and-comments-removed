@@ -685,6 +685,10 @@ nsICycleCollectorListener
 aListener
 =
 nsnull
+PRInt32
+aExtraForgetSkippableCalls
+=
+0
 )
 ;
 static
@@ -721,12 +725,6 @@ KillShrinkGCBuffersTimer
 ;
 static
 void
-PokeCC
-(
-)
-;
-static
-void
 MaybePokeCC
 (
 )
@@ -749,6 +747,12 @@ gcreason
 :
 Reason
 aReason
+)
+;
+static
+bool
+CleanupSinceLastGC
+(
 )
 ;
 nsIScriptGlobalObject
