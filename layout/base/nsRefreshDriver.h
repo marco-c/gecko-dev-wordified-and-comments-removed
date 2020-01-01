@@ -764,6 +764,11 @@ const
 double
 GetRegularTimerInterval
 (
+bool
+*
+outIsDefault
+=
+nullptr
 )
 const
 ;
