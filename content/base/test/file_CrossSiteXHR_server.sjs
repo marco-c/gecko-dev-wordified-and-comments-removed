@@ -58,6 +58,7 @@ function
 val
 )
 {
+var
 [
 name
 value
@@ -578,6 +579,7 @@ function
 val
 )
 {
+var
 [
 name
 value
@@ -622,6 +624,7 @@ function
 val
 )
 {
+var
 [
 name
 value
