@@ -80,6 +80,7 @@ char
 *
 location
 ;
+const
 char
 *
 proxy

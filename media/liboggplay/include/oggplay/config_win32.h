@@ -51,11 +51,9 @@ VERSION
 "
 0
 .
+2
+.
 0
-.
-1
-.
-svn
 "
 #
 define
@@ -69,3 +67,7 @@ __inline
 define
 snprintf
 _snprintf
+#
+define
+ATTRIBUTE_ALIGNED_MAX
+16
