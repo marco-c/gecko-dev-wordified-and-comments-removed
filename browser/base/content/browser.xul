@@ -1601,7 +1601,7 @@ undoCloseTab
 accesskey
 ;
 "
-command
+observes
 =
 "
 History
