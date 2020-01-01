@@ -655,10 +655,6 @@ nsCharSeparatedTokenizer
 .
 h
 \
-CheckedInt
-.
-h
-\
 (
 NULL
 )

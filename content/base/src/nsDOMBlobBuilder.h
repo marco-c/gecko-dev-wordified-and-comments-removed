@@ -14,16 +14,9 @@ h
 #
 include
 "
-CheckedInt
-.
-h
-"
-#
-include
-"
 mozilla
 /
-StandardInteger
+CheckedInt
 .
 h
 "
@@ -381,7 +374,7 @@ while
 (
 bufferLen
 .
-valid
+isValid
 (
 )
 &
@@ -406,7 +399,7 @@ if
 !
 bufferLen
 .
-valid
+isValid
 (
 )
 )

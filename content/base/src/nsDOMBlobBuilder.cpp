@@ -184,7 +184,7 @@ NS_ENSURE_TRUE
 (
 length
 .
-valid
+isValid
 (
 )
 NS_ERROR_FAILURE

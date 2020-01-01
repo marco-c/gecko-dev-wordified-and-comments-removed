@@ -450,6 +450,10 @@ BloomFilter
 .
 h
 \
+CheckedInt
+.
+h
+\
 FloatingPoint
 .
 h
