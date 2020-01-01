@@ -23,7 +23,7 @@ failure1
 trap
 (
 parent
-11
+10
 "
 success
 (
@@ -47,7 +47,7 @@ failure2
 trap
 (
 parent
-1
+0
 "
 child
 (

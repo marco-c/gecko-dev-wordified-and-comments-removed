@@ -26,7 +26,7 @@ x
 trap
 (
 caller
-9
+7
 "
 var
 x

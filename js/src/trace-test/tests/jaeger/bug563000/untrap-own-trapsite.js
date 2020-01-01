@@ -17,7 +17,7 @@ child
 untrap
 (
 parent
-11
+10
 )
 ;
 x
@@ -42,7 +42,7 @@ failure
 trap
 (
 parent
-11
+10
 "
 child
 (

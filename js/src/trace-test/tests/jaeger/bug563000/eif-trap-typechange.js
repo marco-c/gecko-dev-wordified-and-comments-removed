@@ -39,7 +39,7 @@ x
 trap
 (
 caller
-22
+20
 "
 x
 =

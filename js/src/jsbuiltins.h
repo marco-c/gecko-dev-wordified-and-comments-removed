@@ -3133,10 +3133,6 @@ js_NewNullClosure
 )
 JS_DECLARE_CALLINFO
 (
-js_PopInterpFrame
-)
-JS_DECLARE_CALLINFO
-(
 js_AllocFlatClosure
 )
 JS_DECLARE_CALLINFO

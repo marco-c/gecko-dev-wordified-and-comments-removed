@@ -15,7 +15,7 @@ return
 trap
 (
 main
-2
+1
 "
 0
 "
