@@ -437,6 +437,10 @@ selfTest
 .
 cpp
 \
+testArgumentsObject
+.
+cpp
+\
 testBug604087
 .
 cpp
