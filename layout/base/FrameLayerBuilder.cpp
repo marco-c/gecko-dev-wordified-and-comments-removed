@@ -13333,6 +13333,15 @@ entry
 mContainerLayerFrame
 ;
 }
+if
+(
+!
+containerLayerFrame
+)
+{
+return
+;
+}
 ThebesDisplayItemLayerUserData
 *
 userData
