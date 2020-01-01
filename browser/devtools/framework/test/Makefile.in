@@ -121,6 +121,10 @@ browser_toolbox_sidebar
 .
 js
 \
+browser_toolbox_window_shortcuts
+.
+js
+\
 (
 NULL
 )
