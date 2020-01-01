@@ -11384,7 +11384,7 @@ lir
 >
 ins2
 (
-LIR_plt
+LIR_ltp
 pos
 cpend
 )
@@ -11413,7 +11413,7 @@ lir
 >
 insLoad
 (
-LIR_ldzs
+LIR_ldus2ui
 pos
 0
 ACC_READONLY
@@ -11502,7 +11502,7 @@ lir
 >
 ins2
 (
-LIR_or
+LIR_ori
 text_ch
 lir
 -
@@ -11984,7 +11984,7 @@ lir
 >
 ins2
 (
-LIR_eq
+LIR_eqi
 text_ch
 lir
 -
@@ -12042,7 +12042,7 @@ lir
 >
 ins2
 (
-LIR_eq
+LIR_eqi
 text_ch
 lir
 -
@@ -12090,7 +12090,7 @@ lir
 >
 ins2
 (
-LIR_piadd
+LIR_addp
 pos
 lir
 -
@@ -12408,14 +12408,14 @@ lir
 >
 ins2
 (
-LIR_plt
+LIR_ltp
 pos
 lir
 -
 >
 ins2
 (
-LIR_piadd
+LIR_addp
 cpend
 lir
 -
@@ -12452,7 +12452,7 @@ lir
 >
 insLoad
 (
-LIR_ld
+LIR_ldi
 pos
 0
 ACC_OTHER
@@ -12469,7 +12469,7 @@ lir
 >
 ins2
 (
-LIR_or
+LIR_ori
 text_word
 lir
 -
@@ -12502,7 +12502,7 @@ lir
 >
 ins2
 (
-LIR_eq
+LIR_eqi
 comp_word
 lir
 -
@@ -12525,7 +12525,7 @@ lir
 >
 ins2
 (
-LIR_piadd
+LIR_addp
 pos
 lir
 -
@@ -13055,7 +13055,7 @@ lir
 >
 ins2
 (
-LIR_plt
+LIR_ltp
 pos
 cpend
 )
@@ -13084,7 +13084,7 @@ lir
 >
 insLoad
 (
-LIR_ldzs
+LIR_ldus2ui
 pos
 0
 ACC_READONLY
@@ -13108,7 +13108,7 @@ lir
 >
 ins2
 (
-LIR_le
+LIR_lei
 text_ch
 lir
 -
@@ -13144,7 +13144,7 @@ lir
 >
 ins2
 (
-LIR_rsh
+LIR_rshi
 text_ch
 lir
 -
@@ -13177,13 +13177,13 @@ lir
 >
 insLoad
 (
-LIR_ldzb
+LIR_lduc2ui
 lir
 -
 >
 ins2
 (
-LIR_piadd
+LIR_addp
 bitmap
 byteIndex
 )
@@ -13203,7 +13203,7 @@ lir
 >
 ins2
 (
-LIR_lsh
+LIR_lshi
 lir
 -
 >
@@ -13216,7 +13216,7 @@ lir
 >
 ins2
 (
-LIR_and
+LIR_andi
 text_ch
 lir
 -
@@ -13237,13 +13237,13 @@ lir
 >
 ins2
 (
-LIR_eq
+LIR_eqi
 lir
 -
 >
 ins2
 (
-LIR_and
+LIR_andi
 byte
 bitMask
 )
@@ -13289,7 +13289,7 @@ lir
 >
 ins2
 (
-LIR_piadd
+LIR_addp
 pos
 lir
 -
@@ -13353,7 +13353,7 @@ lir
 >
 ins2
 (
-LIR_lsh
+LIR_lshi
 chr
 sizeLog2
 )
@@ -13368,7 +13368,7 @@ lir
 >
 ins2
 (
-LIR_piadd
+LIR_addp
 lir
 -
 >
@@ -13391,7 +13391,7 @@ lir
 >
 insLoad
 (
-LIR_ldzb
+LIR_lduc2ui
 addr
 0
 ACC_READONLY
@@ -13431,7 +13431,7 @@ lir
 >
 ins2
 (
-LIR_plt
+LIR_ltp
 pos
 cpend
 )
@@ -13451,7 +13451,7 @@ lir
 >
 insLoad
 (
-LIR_ldzs
+LIR_ldus2ui
 pos
 0
 ACC_READONLY
@@ -13478,7 +13478,7 @@ lir
 >
 ins2
 (
-LIR_eq
+LIR_eqi
 chr
 lir
 -
@@ -13522,7 +13522,7 @@ lir
 >
 ins2
 (
-LIR_eq
+LIR_eqi
 chr
 lir
 -
@@ -13566,7 +13566,7 @@ lir
 >
 ins2
 (
-LIR_eq
+LIR_eqi
 chr
 lir
 -
@@ -13607,7 +13607,7 @@ lir
 >
 ins2
 (
-LIR_eq
+LIR_eqi
 chr
 lir
 -
@@ -13655,7 +13655,7 @@ lir
 >
 ins2
 (
-LIR_ge
+LIR_gei
 chr
 lir
 -
@@ -13698,7 +13698,7 @@ lir
 >
 ins2
 (
-LIR_le
+LIR_lei
 chr
 lir
 -
@@ -13748,7 +13748,7 @@ lir
 >
 ins2
 (
-LIR_ge
+LIR_gei
 chr
 lir
 -
@@ -13770,7 +13770,7 @@ lir
 >
 ins2
 (
-LIR_le
+LIR_lei
 chr
 lir
 -
@@ -13792,7 +13792,7 @@ lir
 >
 ins2
 (
-LIR_and
+LIR_andi
 ge
 le
 )
@@ -13840,7 +13840,7 @@ lir
 >
 ins2
 (
-LIR_ult
+LIR_ltui
 chr
 lir
 -
@@ -13925,7 +13925,7 @@ lir
 >
 ins2
 (
-LIR_uge
+LIR_geui
 chr
 lir
 -
@@ -14026,7 +14026,7 @@ lir
 >
 ins2
 (
-LIR_ule
+LIR_leui
 chr
 lir
 -
@@ -14060,7 +14060,7 @@ lir
 >
 ins2
 (
-LIR_ult
+LIR_ltui
 chr
 lir
 -
@@ -14094,7 +14094,7 @@ lir
 >
 ins2
 (
-LIR_ult
+LIR_ltui
 chr
 lir
 -
@@ -14128,7 +14128,7 @@ lir
 >
 ins2
 (
-LIR_ugt
+LIR_gtui
 chr
 lir
 -
@@ -14196,7 +14196,7 @@ lir
 >
 ins2
 (
-LIR_eq
+LIR_eqi
 chr
 lir
 -
@@ -14230,7 +14230,7 @@ lir
 >
 ins2
 (
-LIR_eq
+LIR_eqi
 chr
 lir
 -
@@ -14264,7 +14264,7 @@ lir
 >
 ins2
 (
-LIR_eq
+LIR_eqi
 chr
 lir
 -
@@ -14332,7 +14332,7 @@ lir
 >
 ins2
 (
-LIR_eq
+LIR_eqi
 chr
 lir
 -
@@ -14366,7 +14366,7 @@ lir
 >
 ins2
 (
-LIR_eq
+LIR_eqi
 chr
 lir
 -
@@ -14400,7 +14400,7 @@ lir
 >
 ins2
 (
-LIR_eq
+LIR_eqi
 chr
 lir
 -
@@ -14434,7 +14434,7 @@ lir
 >
 ins2
 (
-LIR_eq
+LIR_eqi
 chr
 lir
 -
@@ -14468,7 +14468,7 @@ lir
 >
 ins2
 (
-LIR_eq
+LIR_eqi
 chr
 lir
 -
@@ -14814,7 +14814,7 @@ lir
 >
 ins2
 (
-LIR_piadd
+LIR_addp
 pos
 lir
 -
@@ -15546,7 +15546,7 @@ lir
 >
 ins2
 (
-LIR_peq
+LIR_eqp
 iterBegin
 iterEnd
 )
@@ -15603,7 +15603,7 @@ lir
 >
 ins1
 (
-LIR_plive
+LIR_livep
 state
 )
 ;
@@ -15612,7 +15612,7 @@ lir
 >
 ins1
 (
-LIR_plive
+LIR_livep
 cpend
 )
 ;
@@ -15621,7 +15621,7 @@ lir
 >
 ins1
 (
-LIR_plive
+LIR_livep
 start
 )
 ;
@@ -15880,7 +15880,7 @@ lir
 >
 ins1
 (
-LIR_ret
+LIR_reti
 lir
 -
 >
@@ -15913,7 +15913,7 @@ lir
 >
 ins1
 (
-LIR_ret
+LIR_reti
 lir
 -
 >
@@ -15970,7 +15970,7 @@ lir
 >
 ins1
 (
-LIR_ret
+LIR_reti
 lir
 -
 >
@@ -16013,7 +16013,7 @@ lir
 >
 ins2
 (
-LIR_ple
+LIR_lep
 start
 cpend
 )
@@ -16043,7 +16043,7 @@ lir
 >
 ins2
 (
-LIR_piadd
+LIR_addp
 start
 lir
 -
@@ -16157,7 +16157,7 @@ lir
 >
 ins1
 (
-LIR_plive
+LIR_livep
 lirbuf
 -
 >
@@ -16169,7 +16169,7 @@ lir
 >
 ins1
 (
-LIR_plive
+LIR_livep
 lirbuf
 -
 >
