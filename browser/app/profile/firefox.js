@@ -9475,7 +9475,7 @@ gcli
 .
 enable
 "
-false
+true
 )
 ;
 pref
