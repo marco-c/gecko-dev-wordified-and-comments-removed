@@ -2052,12 +2052,9 @@ typedef
 struct
 cc_feature_session_t_
 {
-unsigned
-int
-sessionid
-;
-cc_boolean
-has_constraints
+cc_media_constraints_t
+*
+constraints
 ;
 }
 cc_feature_session_t

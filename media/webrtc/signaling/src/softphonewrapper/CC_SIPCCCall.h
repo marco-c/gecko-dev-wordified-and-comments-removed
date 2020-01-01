@@ -580,7 +580,6 @@ virtual
 void
 createOffer
 (
-const
 cc_media_constraints_t
 *
 constraints
@@ -590,7 +589,6 @@ virtual
 void
 createAnswer
 (
-const
 cc_media_constraints_t
 *
 constraints

@@ -2413,7 +2413,6 @@ CC_SIPCCCall
 :
 createOffer
 (
-const
 cc_media_constraints_t
 *
 constraints
@@ -2432,7 +2431,6 @@ CC_SIPCCCall
 :
 createAnswer
 (
-const
 cc_media_constraints_t
 *
 constraints

@@ -852,7 +852,6 @@ gsmsdp_process_cap_constraints
 fsmdef_dcb_t
 *
 dcb
-const
 cc_media_constraints_t
 *
 constraints
