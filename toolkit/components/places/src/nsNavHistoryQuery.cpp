@@ -1689,6 +1689,14 @@ folders
 )
 ;
 }
+nsMemory
+:
+:
+Free
+(
+folders
+)
+;
 }
 PRUint32
 groupCount
