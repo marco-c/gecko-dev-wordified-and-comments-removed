@@ -81,8 +81,7 @@ Mappable
 {
 }
 virtual
-void
-*
+MemoryRange
 mmap
 (
 const
@@ -226,8 +225,7 @@ path
 )
 ;
 virtual
-void
-*
+MemoryRange
 mmap
 (
 const
@@ -474,8 +472,7 @@ stream
 )
 ;
 virtual
-void
-*
+MemoryRange
 mmap
 (
 const
@@ -592,8 +589,7 @@ stream
 )
 ;
 virtual
-void
-*
+MemoryRange
 mmap
 (
 const
