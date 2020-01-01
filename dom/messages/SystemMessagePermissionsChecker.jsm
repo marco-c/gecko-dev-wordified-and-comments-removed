@@ -313,6 +313,12 @@ bluetooth
 ]
 }
 "
+connection
+"
+:
+{
+}
+"
 headset
 -
 button
