@@ -1067,14 +1067,6 @@ script
 argsObjAliasesFormals
 (
 )
-&
-&
-fp
--
->
-hasArgsObj
-(
-)
 )
 setArg
 (
@@ -1103,7 +1095,6 @@ fp
 unaliasedFormal
 (
 i
-DONT_CHECK_ALIASING
 )
 DONT_CHECK_ALIASING
 )
@@ -6074,14 +6065,6 @@ script
 argsObjAliasesFormals
 (
 )
-&
-&
-maybefp
--
->
-hasArgsObj
-(
-)
 )
 {
 if
@@ -6140,7 +6123,6 @@ maybefp
 unaliasedFormal
 (
 i
-DONT_CHECK_ALIASING
 )
 ;
 else
@@ -6150,7 +6132,6 @@ maybefp
 unaliasedFormal
 (
 i
-DONT_CHECK_ALIASING
 )
 =
 *

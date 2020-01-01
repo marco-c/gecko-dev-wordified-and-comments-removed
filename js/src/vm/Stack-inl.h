@@ -1238,8 +1238,6 @@ unaliasedActual
 (
 unsigned
 i
-MaybeCheckAliasing
-checkAliasing
 )
 {
 JS_ASSERT
@@ -1251,16 +1249,8 @@ numActualArgs
 )
 )
 ;
-JS_ASSERT_IF
+JS_ASSERT
 (
-checkAliasing
-&
-&
-i
-<
-numFormalArgs
-(
-)
 !
 script
 (
