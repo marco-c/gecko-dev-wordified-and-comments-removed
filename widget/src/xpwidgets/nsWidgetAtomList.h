@@ -352,6 +352,13 @@ parentfocused
 )
 WIDGET_ATOM
 (
+progress
+"
+progress
+"
+)
+WIDGET_ATOM
+(
 radio
 "
 radio

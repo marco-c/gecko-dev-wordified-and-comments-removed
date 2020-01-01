@@ -11298,6 +11298,7 @@ macRect
 IsIndeterminateProgress
 (
 aFrame
+eventState
 )
 PR_TRUE
 GetProgressValue
@@ -11323,6 +11324,7 @@ macRect
 IsIndeterminateProgress
 (
 aFrame
+eventState
 )
 PR_FALSE
 GetProgressValue
