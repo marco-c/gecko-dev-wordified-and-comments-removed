@@ -452,10 +452,12 @@ GetDPI
 (
 )
 *
-AsyncPanZoomController
-:
-:
-TOUCH_START_TOLERANCE
+mAsyncPanZoomController
+-
+>
+GetTouchStartTolerance
+(
+)
 )
 {
 HandleTapCancel

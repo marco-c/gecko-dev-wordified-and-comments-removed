@@ -127,9 +127,10 @@ USE_GESTURE_DETECTOR
 }
 ;
 static
-const
 float
-TOUCH_START_TOLERANCE
+GetTouchStartTolerance
+(
+)
 ;
 AsyncPanZoomController
 (
