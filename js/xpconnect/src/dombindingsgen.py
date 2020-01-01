@@ -5027,7 +5027,7 @@ readonly
 setterName
 =
 '
-xpc_qsGetterOnlyPropertyStub
+xpc_qsGetterOnlyNativeStub
 '
     
 else
