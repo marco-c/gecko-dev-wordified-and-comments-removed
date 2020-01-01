@@ -824,12 +824,6 @@ java
 \
 gfx
 /
-ViewportMetrics
-.
-java
-\
-gfx
-/
 VirtualLayer
 .
 java
