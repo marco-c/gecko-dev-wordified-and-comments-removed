@@ -917,6 +917,10 @@ Promise
 .
 webidl
 \
+PushManager
+.
+webidl
+\
 Range
 .
 webidl
