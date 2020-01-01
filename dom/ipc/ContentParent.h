@@ -817,6 +817,8 @@ MarkAsDead
 void
 ShutDownProcess
 (
+bool
+aFromActorDestroyed
 )
 ;
 PCompositorParent
