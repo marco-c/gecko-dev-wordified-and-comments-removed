@@ -119,9 +119,23 @@ warnings_path
 )
 :
             
+try
+:
+                
 warnings_database
 .
 load_from_file
+(
+warnings_path
+)
+            
+except
+ValueError
+:
+                
+os
+.
+remove
 (
 warnings_path
 )
