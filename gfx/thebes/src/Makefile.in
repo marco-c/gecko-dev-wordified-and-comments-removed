@@ -126,6 +126,10 @@ gfxUnicodeProperties
 .
 cpp
 \
+gfxScriptItemizer
+.
+cpp
+\
 GLContext
 .
 cpp
