@@ -80,11 +80,14 @@ log
 '
 '
 ;
-assertThrowsValue
+assertEq
 (
+typeof
 newGlobal
+(
+)
 '
-fit
+object
 '
 )
 ;

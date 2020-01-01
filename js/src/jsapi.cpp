@@ -14349,9 +14349,6 @@ global
 return
 NULL
 ;
-if
-(
-!
 Debugger
 :
 :
@@ -14360,9 +14357,6 @@ onNewGlobalObject
 cx
 global
 )
-)
-return
-NULL
 ;
 return
 global
