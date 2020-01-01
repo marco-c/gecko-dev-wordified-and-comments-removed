@@ -7626,6 +7626,12 @@ wipeClient
 (
 )
 ;
+this
+.
+persistLogin
+(
+)
+;
 }
 )
 )
