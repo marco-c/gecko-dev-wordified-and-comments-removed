@@ -8826,8 +8826,6 @@ REGISTER
 )
 ;
 }
-return
-;
 }
 bool
 fixedOpIsHint
