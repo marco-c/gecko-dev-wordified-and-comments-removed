@@ -5228,17 +5228,6 @@ rowNode
 ;
 nsCOMPtr
 <
-nsIDOMElement
->
-rowElement
-=
-do_QueryInterface
-(
-rowNode
-)
-;
-nsCOMPtr
-<
 nsIDOMCSSStyleDeclaration
 >
 styleDecl
@@ -5248,7 +5237,7 @@ GetComputedStyleDeclaration
 EmptyString
 (
 )
-rowElement
+rowNode
 getter_AddRefs
 (
 styleDecl

@@ -575,6 +575,10 @@ test_nsIAccessibleTable_listboxes
 .
 xul
 \
+test_nsIAccessNode_utils
+.
+html
+\
 test_nsOuterDocAccessible
 .
 html
