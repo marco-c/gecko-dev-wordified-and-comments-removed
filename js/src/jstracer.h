@@ -45,9 +45,9 @@ rt
 uint32
 js_AllocateLoopTableSlot
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 )
 ;
 JSBool
