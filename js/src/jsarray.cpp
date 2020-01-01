@@ -15888,7 +15888,7 @@ if
 site
 -
 >
-compileAndGo
+hasGlobal
 (
 )
 )
@@ -16167,7 +16167,7 @@ if
 site
 -
 >
-compileAndGo
+hasGlobal
 (
 )
 )
@@ -16966,7 +16966,7 @@ if
 site
 -
 >
-compileAndGo
+hasGlobal
 (
 )
 )

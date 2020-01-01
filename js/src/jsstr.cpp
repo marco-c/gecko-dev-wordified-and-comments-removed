@@ -17020,7 +17020,7 @@ if
 site
 -
 >
-compileAndGo
+hasGlobal
 (
 )
 )

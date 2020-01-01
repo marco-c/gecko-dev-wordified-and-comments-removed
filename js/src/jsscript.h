@@ -1203,7 +1203,10 @@ JSFunction
 *
 fun
 ;
-JSObject
+js
+:
+:
+GlobalObject
 *
 global
 ;
