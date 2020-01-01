@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsISupportsArray
+nsCOMArray
 .
 h
 "
@@ -60,9 +60,9 @@ EnsureInit
 void
 )
 ;
-nsCOMPtr
+nsCOMArray
 <
-nsISupportsArray
+nsIScreen
 >
 mCachedScreenArray
 ;
