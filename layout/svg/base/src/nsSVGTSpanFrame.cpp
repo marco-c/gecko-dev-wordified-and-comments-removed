@@ -298,6 +298,14 @@ rotate
 )
 )
 {
+nsSVGUtils
+:
+:
+InvalidateAndScheduleBoundsUpdate
+(
+this
+)
+;
 NotifyGlyphMetricsChange
 (
 )

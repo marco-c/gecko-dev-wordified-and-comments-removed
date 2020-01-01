@@ -395,6 +395,12 @@ GetStringInfo
 (
 )
 ;
+bool
+OurWidthAndHeightAreUsed
+(
+)
+const
+;
 void
 SyncWidthOrHeight
 (
