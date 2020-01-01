@@ -5651,10 +5651,6 @@ NULL
 return
 JS_FALSE
 ;
-scopeobj
-=
-NULL
-;
 if
 (
 argc
