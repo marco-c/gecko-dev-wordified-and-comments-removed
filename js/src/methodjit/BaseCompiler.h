@@ -1125,7 +1125,7 @@ __masm
 )
 AutoReserveICSpace
 <
-128
+256
 >
 arics
 (
@@ -1149,7 +1149,7 @@ __masm
 )
 AutoReserveICSpace
 <
-256
+2048
 >
 arics_ool
 (

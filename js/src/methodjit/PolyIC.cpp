@@ -7189,10 +7189,10 @@ void
 )
 JSID_BITS
 (
+SHAPE_USERID
+(
 shape
--
->
-propid
+)
 )
 )
 )

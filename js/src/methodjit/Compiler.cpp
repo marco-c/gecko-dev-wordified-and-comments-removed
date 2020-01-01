@@ -25376,6 +25376,10 @@ inlineShapeJump
 ;
 #
 endif
+CHECK_IC_SPACE
+(
+)
+;
 pic
 .
 objReg
@@ -25957,6 +25961,10 @@ inlineShapeJump
 ;
 #
 endif
+CHECK_IC_SPACE
+(
+)
+;
 frame
 .
 pop
@@ -26607,6 +26615,10 @@ pic
 objReg
 =
 objReg
+;
+CHECK_IC_SPACE
+(
+)
 ;
 frame
 .
@@ -29844,6 +29856,10 @@ fastPathStart
 inlineJump
 )
 ;
+CHECK_IC_SPACE
+(
+)
+;
 JSObject
 *
 singleton
@@ -30322,6 +30338,10 @@ pic
 fastPathStart
 inlineJump
 )
+)
+;
+CHECK_IC_SPACE
+(
 )
 ;
 frame
@@ -33736,6 +33756,10 @@ loadValueWithAddressOffsetPatch
 address
 treg
 dreg
+)
+;
+CHECK_IC_SPACE
+(
 )
 ;
 frame

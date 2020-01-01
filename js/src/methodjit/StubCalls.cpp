@@ -3540,7 +3540,6 @@ else
 {
 if
 (
-!
 f
 .
 script
