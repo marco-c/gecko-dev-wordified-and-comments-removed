@@ -2057,17 +2057,6 @@ GetGroupInfo
 (
 )
 ;
-virtual
-nsresult
-FirePlatformEvent
-(
-AccEvent
-*
-aEvent
-)
-=
-0
-;
 nsRefPtr
 <
 Accessible

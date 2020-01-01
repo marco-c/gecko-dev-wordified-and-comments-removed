@@ -204,15 +204,6 @@ const
 ;
 protected
 :
-virtual
-nsresult
-FirePlatformEvent
-(
-AccEvent
-*
-aEvent
-)
-;
 bool
 AncestorIsFlat
 (

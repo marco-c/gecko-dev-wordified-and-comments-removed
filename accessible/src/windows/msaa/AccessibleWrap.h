@@ -766,15 +766,6 @@ aXPAccessible
 ;
 protected
 :
-virtual
-nsresult
-FirePlatformEvent
-(
-AccEvent
-*
-aEvent
-)
-;
 static
 ITypeInfo
 *
