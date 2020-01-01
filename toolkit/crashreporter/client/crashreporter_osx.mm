@@ -2729,7 +2729,7 @@ NSApplication
 theApplication
 {
 return
-YES
+NO
 ;
 }
 end
