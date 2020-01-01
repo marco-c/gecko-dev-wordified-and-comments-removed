@@ -1515,8 +1515,10 @@ popup
 <
 =
 val
-&
-&
+)
+{
+if
+(
 val
 <
 popup
@@ -1536,6 +1538,7 @@ childNodes
 val
 ]
 ;
+}
 else
 this
 .
