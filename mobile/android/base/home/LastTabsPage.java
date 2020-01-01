@@ -763,7 +763,7 @@ emptyViewStub
 (
 ViewStub
 )
-getActivity
+getView
 (
 )
 .
