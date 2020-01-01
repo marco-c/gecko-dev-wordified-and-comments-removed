@@ -2263,6 +2263,12 @@ mode
 ~
 HILDON_GTK_INPUT_MODE_AUTOCAP
 ;
+mode
+&
+=
+~
+HILDON_GTK_INPUT_MODE_DICTIONARY
+;
 g_object_set
 (
 G_OBJECT
