@@ -1173,6 +1173,14 @@ v
 )
 ;
 }
+void
+CheckWindow
+(
+XPCWrappedNative
+*
+wn
+)
+;
 JSBool
 RewrapObject
 (
