@@ -1424,13 +1424,6 @@ file
 "
 filename
     
-make_targets
-.
-append
-(
-filename
-)
-    
 headerMacro
 =
 '
