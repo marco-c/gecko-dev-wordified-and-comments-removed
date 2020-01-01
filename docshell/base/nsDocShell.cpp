@@ -25183,6 +25183,8 @@ aPrincipal
 nsIURI
 *
 aBaseURI
+PRBool
+aTryToSaveOldPresentation
 )
 {
 nsCOMPtr
@@ -25276,6 +25278,9 @@ NS_ERROR_FAILURE
 }
 mSavingOldViewer
 =
+aTryToSaveOldPresentation
+&
+&
 CanSavePresentation
 (
 LOAD_NORMAL
@@ -38061,6 +38066,10 @@ CreateAboutBlankContentViewer
 (
 prin
 nsnull
+aEntry
+!
+=
+mOSHE
 )
 ;
 if

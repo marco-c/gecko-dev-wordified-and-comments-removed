@@ -818,6 +818,10 @@ aPrincipal
 nsIURI
 *
 aBaseURI
+PRBool
+aTryToSaveOldPresentation
+=
+PR_TRUE
 )
 ;
 NS_IMETHOD
