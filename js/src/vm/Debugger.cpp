@@ -5905,8 +5905,6 @@ markAllIteratively
 GCMarker
 *
 trc
-JSGCInvocationKind
-gckind
 )
 {
 bool

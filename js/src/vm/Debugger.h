@@ -954,8 +954,6 @@ markAllIteratively
 GCMarker
 *
 trc
-JSGCInvocationKind
-gckind
 )
 ;
 static
