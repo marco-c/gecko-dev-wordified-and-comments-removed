@@ -2693,11 +2693,14 @@ button
 .
 text
 (
+tabviewString
+(
 "
-Undo
-Close
-Group
+groupItem
+.
+undoCloseGroup
 "
+)
 )
 .
 appendTo

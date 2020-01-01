@@ -8520,6 +8520,9 @@ false
 let
 consoleEnabled
 =
+true
+|
+|
 gPrefService
 .
 getBoolPref
