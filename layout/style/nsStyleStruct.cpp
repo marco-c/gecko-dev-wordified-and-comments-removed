@@ -13329,14 +13329,14 @@ const
 {
 if
 (
-NewlineIsSignificant
+WhiteSpaceOrNewlineIsSignificant
 (
 )
 !
 =
 aOther
 .
-NewlineIsSignificant
+WhiteSpaceOrNewlineIsSignificant
 (
 )
 )

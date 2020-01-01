@@ -22393,7 +22393,7 @@ GetStyleText
 )
 -
 >
-NewlineIsSignificant
+WhiteSpaceOrNewlineIsSignificant
 (
 )
 &
