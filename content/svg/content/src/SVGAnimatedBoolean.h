@@ -1,6 +1,9 @@
 #
-pragma
-once
+ifndef
+mozilla_dom_SVGAnimatedBoolean_h
+#
+define
+mozilla_dom_SVGAnimatedBoolean_h
 #
 include
 "
@@ -42,12 +45,13 @@ SVGAnimatedBoolean
 MOZ_FINAL
 :
 public
-nsISupports
-public
 nsWrapperCache
 {
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
+NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
+(
+SVGAnimatedBoolean
+)
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
 SVGAnimatedBoolean
 )
@@ -181,3 +185,5 @@ mSVGElement
 ;
 }
 }
+#
+endif
