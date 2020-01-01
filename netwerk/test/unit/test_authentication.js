@@ -2271,6 +2271,7 @@ Authenticate
 "
 NTLM
 "
+false
 )
 ;
 var

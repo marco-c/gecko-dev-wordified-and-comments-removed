@@ -902,6 +902,7 @@ foo
 "
 bar
 "
+false
 )
 ;
 do_check_true
@@ -954,6 +955,7 @@ f
 "
 bar
 "
+false
 )
 ;
 do_check_true
