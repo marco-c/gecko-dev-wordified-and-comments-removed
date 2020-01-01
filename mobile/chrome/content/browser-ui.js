@@ -2231,6 +2231,12 @@ init
 (
 )
 ;
+PreferencesView
+.
+init
+(
+)
+;
 }
 uninit
 :
