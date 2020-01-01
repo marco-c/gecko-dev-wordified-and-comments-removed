@@ -1283,10 +1283,6 @@ test_bug745685
 .
 html
 \
-test_bug660238
-.
-html
-\
 test_input_file_picker
 .
 html

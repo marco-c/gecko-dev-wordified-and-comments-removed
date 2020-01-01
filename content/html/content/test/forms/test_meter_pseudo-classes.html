@@ -193,6 +193,8 @@ expectedResult
 var
 errorString
 =
+expectedResult
+?
 "
 value
 attribute
@@ -203,15 +205,7 @@ the
 optimum
 region
 "
-;
-if
-(
-!
-expectedResult
-)
-{
-errorString
-=
+:
 "
 value
 attribute
@@ -224,7 +218,6 @@ optimum
 region
 "
 ;
-}
 aElement
 .
 setAttribute
@@ -1407,11 +1400,10 @@ false
 ]
 ;
 for
-each
 (
 var
 test
-in
+of
 tests
 )
 {
