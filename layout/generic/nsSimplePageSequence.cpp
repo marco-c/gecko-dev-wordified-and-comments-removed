@@ -2571,6 +2571,14 @@ mYSelOffset
 )
 )
 ;
+nsContainerFrame
+:
+:
+PositionChildViews
+(
+conFrame
+)
+;
 }
 nsPageFrame
 *
