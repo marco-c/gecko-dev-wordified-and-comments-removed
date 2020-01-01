@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsUnitConversion
-.
-h
-"
-#
-include
-"
 nsSystemFontsBeOS
 .
 h

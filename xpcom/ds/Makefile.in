@@ -621,10 +621,6 @@ nsTime
 .
 h
 \
-nsUnitConversion
-.
-h
-\
 nsVariant
 .
 h

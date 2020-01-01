@@ -19,13 +19,6 @@ nsCoord
 h
 "
 #
-include
-"
-nsUnitConversion
-.
-h
-"
-#
 define
 MG_2DIDENTITY
 0

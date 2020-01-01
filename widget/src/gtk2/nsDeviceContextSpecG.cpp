@@ -1644,13 +1644,6 @@ gfxPSSurface
 .
 h
 "
-#
-include
-"
-nsUnitConversion
-.
-h
-"
 NS_IMETHODIMP
 nsDeviceContextSpecGTK
 :
