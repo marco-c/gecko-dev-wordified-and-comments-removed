@@ -500,6 +500,12 @@ nsJSEnvironment
 .
 h
 "
+extern
+void
+NS_ShutdownChainItemPool
+(
+)
+;
 static
 nsrefcnt
 sLayoutStaticRefcnt
@@ -1586,6 +1592,10 @@ nsHtml5Module
 :
 :
 ReleaseStatics
+(
+)
+;
+NS_ShutdownChainItemPool
 (
 )
 ;
