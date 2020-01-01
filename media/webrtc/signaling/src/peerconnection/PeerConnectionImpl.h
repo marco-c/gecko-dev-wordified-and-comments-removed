@@ -874,6 +874,8 @@ aConstraints
 nsresult
 InitializeDataChannel
 (
+int
+track_id
 uint16_t
 aLocalport
 uint16_t
