@@ -247,6 +247,10 @@ MediaBufferDecoder
 .
 h
 \
+ThreeDPoint
+.
+h
+\
 (
 NULL
 )
