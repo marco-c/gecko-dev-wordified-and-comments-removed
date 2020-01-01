@@ -462,6 +462,8 @@ js
 \
 xpconnect
 \
+intl
+\
 (
 NULL
 )
@@ -522,6 +524,10 @@ LIBS_DIR
 \
 (
 EXTRA_DSO_LIBS
+)
+\
+(
+MOZ_UNICHARUTIL_LIBS
 )
 \
 (
