@@ -25895,8 +25895,9 @@ aNewSize
 hasOutlineOrEffects
 )
 ;
-if
-(
+PRBool
+hasTransform
+=
 (
 mState
 &
@@ -25912,6 +25913,10 @@ GetStyleDisplay
 HasTransform
 (
 )
+;
+if
+(
+hasTransform
 )
 {
 nsRect
@@ -26020,7 +26025,12 @@ if
 overflowChanged
 &
 &
+(
 hasOutlineOrEffects
+|
+|
+hasTransform
+)
 )
 {
 Invalidate
