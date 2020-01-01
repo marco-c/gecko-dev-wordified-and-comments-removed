@@ -422,15 +422,12 @@ DIRS
 =
 public
 src
-#
 ifdef
 ENABLE_TESTS
-#
 DIRS
 +
 =
 test
-#
 endif
 include
 (

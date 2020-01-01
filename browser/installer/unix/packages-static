@@ -1247,6 +1247,13 @@ bin
 /
 components
 /
+zipwriter
+.
+xpt
+bin
+/
+components
+/
 shellservice
 .
 xpt
