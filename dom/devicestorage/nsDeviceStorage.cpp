@@ -2577,7 +2577,7 @@ dirService
 >
 Get
 (
-NS_WIN_PERSONAL_DIR
+NS_WIN_PICTURES_DIR
 NS_GET_IID
 (
 nsIFile
@@ -2681,7 +2681,7 @@ dirService
 >
 Get
 (
-NS_WIN_PERSONAL_DIR
+NS_WIN_VIDEOS_DIR
 NS_GET_IID
 (
 nsIFile
@@ -2785,7 +2785,7 @@ dirService
 >
 Get
 (
-NS_WIN_PERSONAL_DIR
+NS_WIN_MUSIC_DIR
 NS_GET_IID
 (
 nsIFile
