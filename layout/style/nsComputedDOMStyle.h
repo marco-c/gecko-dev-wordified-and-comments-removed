@@ -388,7 +388,6 @@ STYLE_STRUCT
 (
 name_
 checkdata_cb_
-ctor_args_
 )
 \
 const

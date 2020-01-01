@@ -21,7 +21,6 @@ STYLE_STRUCT_INHERITED
 (
 name
 checkdata_cb
-ctor_args
 )
 \
 eStyleStruct_
@@ -34,7 +33,6 @@ STYLE_STRUCT_RESET
 (
 name
 checkdata_cb
-ctor_args
 )
 #
 include
@@ -61,7 +59,6 @@ STYLE_STRUCT_RESET
 (
 name
 checkdata_cb
-ctor_args
 )
 \
 eStyleStruct_
@@ -74,7 +71,6 @@ STYLE_STRUCT_INHERITED
 (
 name
 checkdata_cb
-ctor_args
 )
 #
 include

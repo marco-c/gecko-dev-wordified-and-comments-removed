@@ -8169,7 +8169,6 @@ STYLE_STRUCT
 (
 name
 checkdata_cb
-ctor_args
 )
 \
 g
@@ -8205,7 +8204,6 @@ STYLE_STRUCT
 (
 name
 checkdata_cb
-ctor_args
 )
 \
 checkdata_cb
@@ -9575,7 +9573,6 @@ STYLE_STRUCT
 (
 name
 checkdata_cb
-ctor_args
 )
 \
 res
@@ -39479,7 +39476,6 @@ STYLE_STRUCT
 (
 name_
 checkdata_cb_
-ctor_args_
 )
 \
 const
