@@ -150,6 +150,16 @@ aIsMedia
 nsnull
 )
 ;
+static
+PRInt32
+CheckForNegativeNumber
+(
+const
+nsAString
+&
+aStr
+)
+;
 private
 :
 static
