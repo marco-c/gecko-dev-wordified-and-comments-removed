@@ -16922,6 +16922,7 @@ isCall
 )
 |
 |
+(
 isFunction
 (
 )
@@ -16934,6 +16935,7 @@ getFunctionPrivate
 >
 isBound
 (
+)
 )
 )
 ;

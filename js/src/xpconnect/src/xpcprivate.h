@@ -1753,8 +1753,8 @@ p
 ;
 #
 endif
-unsigned
-GetOutstandingRequests
+PRInt32
+GetRequestDepth
 (
 JSContext
 *
@@ -13768,7 +13768,7 @@ frame
 (
 nsnull
 )
-suspendDepth
+requestDepth
 (
 0
 )
@@ -13783,7 +13783,7 @@ JSStackFrame
 frame
 ;
 jsrefcount
-suspendDepth
+requestDepth
 ;
 }
 ;

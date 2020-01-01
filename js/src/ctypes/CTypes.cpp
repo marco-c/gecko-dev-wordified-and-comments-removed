@@ -25202,9 +25202,10 @@ obj
 )
 )
 ;
-{
-JSAutoSuspendRequest
-suspend
+jsrefcount
+rc
+=
+JS_SuspendRequest
 (
 cx
 )
@@ -25238,7 +25239,12 @@ begin
 )
 )
 ;
-}
+JS_ResumeRequest
+(
+cx
+rc
+)
+;
 switch
 (
 typeCode

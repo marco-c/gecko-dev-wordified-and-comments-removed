@@ -12030,7 +12030,6 @@ vp
 )
 ;
 }
-inline
 bool
 JSFunction
 :
