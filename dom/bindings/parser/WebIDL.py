@@ -5326,6 +5326,14 @@ identifier
 "
 JSImplementation
 "
+or
+                  
+identifier
+=
+=
+"
+HeaderFile
+"
 )
 :
                 
