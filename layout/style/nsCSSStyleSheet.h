@@ -1161,8 +1161,10 @@ ImportRule
 *
 mOwnerRule
 ;
+nsRefPtr
+<
 CSSRuleListImpl
-*
+>
 mRuleCollection
 ;
 nsIDocument
