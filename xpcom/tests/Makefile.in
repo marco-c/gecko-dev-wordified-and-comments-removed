@@ -552,6 +552,10 @@ TestCRT
 .
 cpp
 \
+TestEncoding
+.
+cpp
+\
 TestPermanentAtoms
 .
 cpp
@@ -730,6 +734,8 @@ TestArray
 TestAutoLock
 \
 TestCRT
+\
+TestEncoding
 \
 TestExpirationTracker
 \
