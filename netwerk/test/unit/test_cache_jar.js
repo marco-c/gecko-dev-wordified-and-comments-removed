@@ -451,6 +451,7 @@ null
 )
 ;
 yield
+undefined
 ;
 }
 let
@@ -579,6 +580,7 @@ null
 )
 ;
 yield
+undefined
 ;
 }
 subject
@@ -666,6 +668,7 @@ null
 )
 ;
 yield
+undefined
 ;
 }
 }
