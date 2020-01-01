@@ -2434,14 +2434,6 @@ frame
 =
 this
 ;
-nsPresContext
-*
-presContext
-=
-PresContext
-(
-)
-;
 PRUint32
 flags
 =

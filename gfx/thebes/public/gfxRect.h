@@ -393,6 +393,16 @@ aRect
 )
 const
 ;
+PRBool
+Contains
+(
+const
+gfxPoint
+&
+aPoint
+)
+const
+;
 gfxPoint
 TopLeft
 (

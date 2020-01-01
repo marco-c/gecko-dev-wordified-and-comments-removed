@@ -233,7 +233,13 @@ nsSVGUtils
 SetClipRect
 (
 gfx
+nsSVGUtils
+:
+:
+ConvertSVGMatrixToThebes
+(
 aMatrix
+)
 maskArea
 )
 ;
