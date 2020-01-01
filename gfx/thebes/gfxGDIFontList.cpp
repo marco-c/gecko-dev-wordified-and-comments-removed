@@ -607,6 +607,8 @@ aStretch
 gfxUserFontData
 *
 aUserFontData
+bool
+aFamilyHasItalicFace
 )
 :
 gfxFontEntry
@@ -628,6 +630,10 @@ aFontType
 mForceGDI
 (
 false
+)
+mFamilyHasItalicFace
+(
+aFamilyHasItalicFace
 )
 mCharset
 (
@@ -1858,6 +1864,8 @@ aStretch
 gfxUserFontData
 *
 aUserFontData
+bool
+aFamilyHasItalicFace
 )
 {
 GDIFontEntry
@@ -1873,6 +1881,7 @@ aItalic
 aWeight
 aStretch
 aUserFontData
+aFamilyHasItalicFace
 )
 ;
 return
@@ -2208,6 +2217,7 @@ lfWeight
 )
 0
 nsnull
+false
 )
 ;
 if
@@ -3485,6 +3495,17 @@ aProxyEntry
 >
 mStretch
 nsnull
+lookup
+-
+>
+Family
+(
+)
+-
+>
+HasItalicFace
+(
+)
 )
 ;
 if
@@ -4576,6 +4597,7 @@ aProxyEntry
 >
 mStretch
 winUserFontData
+false
 )
 ;
 if
