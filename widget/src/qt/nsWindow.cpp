@@ -2452,6 +2452,18 @@ break
 case
 nsSizeMode_Fullscreen
 :
+XSync
+(
+QX11Info
+(
+)
+.
+display
+(
+)
+False
+)
+;
 widget
 -
 >
@@ -3468,9 +3480,6 @@ SetupPluginPort
 ;
 break
 ;
-#
-ifdef
-Q_WS_X11
 case
 NS_NATIVE_DISPLAY
 :
@@ -3502,8 +3511,6 @@ nsnull
 }
 break
 ;
-#
-endif
 case
 NS_NATIVE_GRAPHIC
 :
@@ -8732,9 +8739,6 @@ GetBrandName
 brandName
 )
 ;
-#
-ifdef
-Q_WS_X11
 XClassHint
 *
 class_hint
@@ -9016,8 +9020,6 @@ XFree
 class_hint
 )
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -9521,9 +9523,6 @@ mSizeMode
 =
 nsSizeMode_Fullscreen
 ;
-#
-ifdef
-Q_WS_X11
 XSync
 (
 QX11Info
@@ -9536,8 +9535,6 @@ display
 False
 )
 ;
-#
-endif
 widget
 -
 >
@@ -9693,9 +9690,6 @@ PR_TRUE
 )
 ;
 }
-#
-ifdef
-Q_WS_X11
 QWidget
 *
 widget
@@ -9725,8 +9719,6 @@ display
 False
 )
 ;
-#
-endif
 return
 NS_OK
 ;

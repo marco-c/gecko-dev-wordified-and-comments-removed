@@ -971,7 +971,7 @@ defined
 MOZ_CRASHREPORTER
 )
 PRBool
-XRE_GetMinidumpForChild
+XRE_TakeMinidumpForChild
 (
 PRUint32
 aChildPid
@@ -985,7 +985,7 @@ return
 CrashReporter
 :
 :
-GetMinidumpForChild
+TakeMinidumpForChild
 (
 aChildPid
 aDump
