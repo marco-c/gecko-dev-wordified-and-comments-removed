@@ -34,9 +34,6 @@ y
 )
 const
 {
-#
-ifdef
-HAVE_ANDROID_OS
 return
 touchableRegion
 .
@@ -46,13 +43,6 @@ x
 y
 )
 ;
-#
-else
-return
-false
-;
-#
-endif
 }
 bool
 InputWindowInfo
