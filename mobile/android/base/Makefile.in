@@ -8349,6 +8349,14 @@ res
 /
 menu
 /
+tabs_switcher_menu
+.
+xml
+\
+res
+/
+menu
+/
 titlebar_contextmenu
 .
 xml
