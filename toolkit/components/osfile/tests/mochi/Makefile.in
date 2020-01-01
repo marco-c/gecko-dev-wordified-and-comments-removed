@@ -113,6 +113,14 @@ worker_test_osfile_comms
 .
 js
 \
+test_osfile_async
+.
+xul
+\
+main_test_osfile_async
+.
+js
+\
 (
 NULL
 )
