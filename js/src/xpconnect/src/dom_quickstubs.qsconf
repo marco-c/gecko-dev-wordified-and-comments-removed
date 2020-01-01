@@ -4659,8 +4659,6 @@ self
 GetElementById
 (
 arg0
-&
-rv
 )
 ;
 '
