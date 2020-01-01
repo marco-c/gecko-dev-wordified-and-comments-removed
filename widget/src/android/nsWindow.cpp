@@ -2240,10 +2240,7 @@ event
 (
 PR_TRUE
 NS_DEACTIVATE
-gTopLevelWindows
-[
-0
-]
+oldTop
 )
 ;
 DispatchEvent
