@@ -1506,6 +1506,8 @@ JSContext
 cx
 bool
 noScriptRval
+JSVersion
+version
 )
 ;
 bool
@@ -1534,8 +1536,6 @@ uint16_t
 nClosedVars
 uint32_t
 nTypeSets
-JSVersion
-version
 )
 ;
 bool
@@ -1544,8 +1544,6 @@ fullyInitTrivial
 JSContext
 *
 cx
-JSVersion
-version
 )
 ;
 bool

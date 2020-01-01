@@ -439,6 +439,7 @@ Create
 (
 cx
 true
+JSVERSION_DEFAULT
 )
 ;
 if
@@ -454,7 +455,6 @@ script
 fullyInitTrivial
 (
 cx
-JSVERSION_DEFAULT
 )
 )
 return

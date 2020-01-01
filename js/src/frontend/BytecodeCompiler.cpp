@@ -549,6 +549,7 @@ Create
 (
 cx
 noScriptRval
+version
 )
 ;
 if
@@ -1098,18 +1099,6 @@ JSOP_STOP
 return
 NULL
 ;
-JS_ASSERT
-(
-bce
-.
-version
-(
-)
-=
-=
-version
-)
-;
 if
 (
 !
@@ -1273,6 +1262,7 @@ Create
 (
 cx
 false
+version
 )
 ;
 if

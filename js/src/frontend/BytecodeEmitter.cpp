@@ -24233,6 +24233,15 @@ Create
 (
 cx
 false
+bce
+-
+>
+script
+-
+>
+getVersion
+(
+)
 )
 ;
 if
