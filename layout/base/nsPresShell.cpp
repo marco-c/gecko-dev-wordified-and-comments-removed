@@ -618,17 +618,12 @@ h
 #
 endif
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsSMILAnimationController
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -4832,9 +4827,6 @@ paintFrameCounts
 }
 #
 endif
-#
-ifdef
-MOZ_SMIL
 if
 (
 mDocument
@@ -4872,8 +4864,6 @@ RefreshDriver
 )
 ;
 }
-#
-endif
 QueryIsActive
 (
 )
@@ -5318,9 +5308,6 @@ DeleteShell
 (
 )
 ;
-#
-ifdef
-MOZ_SMIL
 if
 (
 mDocument
@@ -5345,8 +5332,6 @@ rd
 )
 ;
 }
-#
-endif
 }
 rd
 -
@@ -17122,9 +17107,6 @@ FlushUserFontSet
 (
 )
 ;
-#
-ifdef
-MOZ_SMIL
 if
 (
 mDocument
@@ -17148,8 +17130,6 @@ FlushResampleRequests
 )
 ;
 }
-#
-endif
 nsAutoScriptBlocker
 scriptBlocker
 ;

@@ -27,9 +27,6 @@ nsSVGAttrTearoffTable
 h
 "
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsSMILValue
@@ -43,8 +40,6 @@ SVGNumberListSMILType
 .
 h
 "
-#
-endif
 namespace
 mozilla
 {
@@ -347,9 +342,6 @@ aAttrEnum
 )
 ;
 }
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 SVGAnimatedNumberList
@@ -661,6 +653,4 @@ mAttrEnum
 ;
 }
 }
-#
-endif
 }

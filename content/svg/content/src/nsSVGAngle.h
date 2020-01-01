@@ -229,9 +229,6 @@ nsSVGElement
 aSVGElement
 )
 ;
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 ToSMILAttr
@@ -241,8 +238,6 @@ nsSVGElement
 aSVGElement
 )
 ;
-#
-endif
 static
 float
 GetDegreesPerUnit
@@ -821,9 +816,6 @@ mSVGElement
 }
 }
 ;
-#
-ifdef
-MOZ_SMIL
 struct
 SMILOrient
 :
@@ -917,8 +909,6 @@ aValue
 ;
 }
 ;
-#
-endif
 }
 ;
 nsresult

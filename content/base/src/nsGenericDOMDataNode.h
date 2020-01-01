@@ -54,17 +54,12 @@ nsDOMMemoryReporter
 h
 "
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsISMILAttr
 .
 h
 "
-#
-endif
 #
 define
 NS_CREATE_FRAME_IF_NON_WHITESPACE
@@ -913,9 +908,6 @@ SaveSubtreeState
 (
 )
 ;
-#
-ifdef
-MOZ_SMIL
 virtual
 nsISMILAttr
 *
@@ -967,8 +959,6 @@ bool
 aNotify
 )
 ;
-#
-endif
 #
 ifdef
 DEBUG

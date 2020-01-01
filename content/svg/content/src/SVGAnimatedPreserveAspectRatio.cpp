@@ -22,9 +22,6 @@ nsWhitespaceTokenizer
 h
 "
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsSMILValue
@@ -38,8 +35,6 @@ SMILEnumType
 .
 h
 "
-#
-endif
 using
 namespace
 mozilla
@@ -841,9 +836,6 @@ mAnimVal
 mBaseVal
 ;
 }
-#
-ifdef
-MOZ_SMIL
 else
 {
 aSVGElement
@@ -854,8 +846,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;
@@ -999,9 +989,6 @@ DidChangePreserveAspectRatio
 true
 )
 ;
-#
-ifdef
-MOZ_SMIL
 if
 (
 mIsAnimated
@@ -1015,8 +1002,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;
@@ -1070,9 +1055,6 @@ DidChangePreserveAspectRatio
 true
 )
 ;
-#
-ifdef
-MOZ_SMIL
 if
 (
 mIsAnimated
@@ -1086,8 +1068,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;
@@ -1210,9 +1190,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 SVGAnimatedPreserveAspectRatio
@@ -1527,5 +1504,3 @@ return
 NS_OK
 ;
 }
-#
-endif

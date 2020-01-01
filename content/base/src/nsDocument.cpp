@@ -804,9 +804,6 @@ nsEventStateManager
 h
 "
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsSMILAnimationController
@@ -827,8 +824,6 @@ nsSVGUtils
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -6621,9 +6616,6 @@ Disconnect
 )
 ;
 }
-#
-ifdef
-MOZ_SMIL
 if
 (
 mAnimationController
@@ -6637,8 +6629,6 @@ Disconnect
 )
 ;
 }
-#
-endif
 mParentDocument
 =
 nsnull
@@ -7920,9 +7910,6 @@ i
 )
 ;
 }
-#
-ifdef
-MOZ_SMIL
 if
 (
 tmp
@@ -7944,8 +7931,6 @@ cb
 )
 ;
 }
-#
-endif
 if
 (
 tmp
@@ -8245,9 +8230,6 @@ Clear
 (
 )
 ;
-#
-ifdef
-MOZ_SMIL
 if
 (
 tmp
@@ -8267,8 +8249,6 @@ Unlink
 )
 ;
 }
-#
-endif
 tmp
 -
 >
@@ -15757,9 +15737,6 @@ window
 }
 #
 endif
-#
-ifdef
-MOZ_SMIL
 NS_ABORT_IF_FALSE
 (
 aScriptGlobalObject
@@ -15795,8 +15772,6 @@ unpaused
 "
 )
 ;
-#
-endif
 if
 (
 mScriptGlobalObject
@@ -23101,9 +23076,6 @@ aData
 )
 ;
 }
-#
-ifdef
-MOZ_SMIL
 nsSMILAnimationController
 *
 nsDocument
@@ -23225,8 +23197,6 @@ return
 mAnimationController
 ;
 }
-#
-endif
 struct
 DirTable
 {
@@ -30361,9 +30331,6 @@ mIsShowing
 true
 ;
 }
-#
-ifdef
-MOZ_SMIL
 if
 (
 mAnimationController
@@ -30377,8 +30344,6 @@ OnPageShow
 )
 ;
 }
-#
-endif
 if
 (
 aPersisted
@@ -30660,9 +30625,6 @@ mIsShowing
 false
 ;
 }
-#
-ifdef
-MOZ_SMIL
 if
 (
 mAnimationController
@@ -30676,8 +30638,6 @@ OnPageHide
 )
 ;
 }
-#
-endif
 if
 (
 aPersisted

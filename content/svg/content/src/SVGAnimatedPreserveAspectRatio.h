@@ -365,9 +365,6 @@ nsSVGElement
 aSVGElement
 )
 ;
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 ToSMILAttr
@@ -377,8 +374,6 @@ nsSVGElement
 aSVGElement
 )
 ;
-#
-endif
 private
 :
 SVGPreserveAspectRatio
@@ -599,9 +594,6 @@ PRUint16
 aAlign
 )
 {
-#
-ifdef
-MOZ_SMIL
 mSVGElement
 -
 >
@@ -609,8 +601,6 @@ FlushAnimations
 (
 )
 ;
-#
-endif
 *
 aAlign
 =
@@ -648,9 +638,6 @@ PRUint16
 aMeetOrSlice
 )
 {
-#
-ifdef
-MOZ_SMIL
 mSVGElement
 -
 >
@@ -658,8 +645,6 @@ FlushAnimations
 (
 )
 ;
-#
-endif
 *
 aMeetOrSlice
 =
@@ -774,9 +759,6 @@ mSVGElement
 }
 }
 ;
-#
-ifdef
-MOZ_SMIL
 struct
 SMILPreserveAspectRatio
 :
@@ -859,8 +841,6 @@ aValue
 ;
 }
 ;
-#
-endif
 }
 ;
 }

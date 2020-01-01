@@ -801,14 +801,6 @@ SVGTransformListParser
 .
 cpp
 \
-(
-NULL
-)
-ifdef
-MOZ_SMIL
-CPPSRCS
-+
-=
 nsSVGAnimateElement
 .
 cpp
@@ -888,7 +880,6 @@ cpp
 (
 NULL
 )
-endif
 include
 (
 topsrcdir
@@ -1199,15 +1190,6 @@ xbl
 /
 src
 \
-(
-NULL
-)
-ifdef
-MOZ_SMIL
-INCLUDES
-+
-=
-\
 -
 I
 (
@@ -1228,7 +1210,6 @@ smil
 (
 NULL
 )
-endif
 DEFINES
 +
 =

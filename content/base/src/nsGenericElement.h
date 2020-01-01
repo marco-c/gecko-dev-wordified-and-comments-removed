@@ -163,17 +163,12 @@ nsIInlineEventHandlers
 h
 "
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsISMILAttr
 .
 h
 "
-#
-endif
 class
 nsIDOMAttr
 ;
@@ -1037,9 +1032,6 @@ SaveSubtreeState
 (
 )
 ;
-#
-ifdef
-MOZ_SMIL
 virtual
 nsISMILAttr
 *
@@ -1091,8 +1083,6 @@ bool
 aNotify
 )
 ;
-#
-endif
 #
 ifdef
 DEBUG

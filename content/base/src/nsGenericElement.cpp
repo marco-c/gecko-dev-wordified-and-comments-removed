@@ -9845,9 +9845,6 @@ get
 )
 )
 ;
-#
-ifdef
-MOZ_SMIL
 NS_CYCLE_COLLECTION_NOTE_EDGE_NAME
 (
 cb
@@ -9870,8 +9867,6 @@ get
 )
 )
 ;
-#
-endif
 NS_CYCLE_COLLECTION_NOTE_EDGE_NAME
 (
 cb
@@ -9959,15 +9954,10 @@ mStyle
 =
 nsnull
 ;
-#
-ifdef
-MOZ_SMIL
 mSMILOverrideStyle
 =
 nsnull
 ;
-#
-endif
 if
 (
 mAttributeMap
@@ -10707,9 +10697,6 @@ true
 ;
 }
 }
-#
-ifdef
-MOZ_SMIL
 else
 if
 (
@@ -10760,8 +10747,6 @@ true
 ;
 }
 }
-#
-endif
 return
 NS_OK
 ;
@@ -14700,9 +14685,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_SMIL
 nsIDOMCSSStyleDeclaration
 *
 nsGenericElement
@@ -14876,8 +14858,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 css
 :
 :

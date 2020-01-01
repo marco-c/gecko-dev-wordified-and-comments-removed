@@ -352,9 +352,6 @@ stdarg
 h
 >
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsSMILMappedAttribute
@@ -368,8 +365,6 @@ SVGMotionSMILAttr
 .
 h
 "
-#
-endif
 using
 namespace
 mozilla
@@ -3576,9 +3571,6 @@ mContentStyleRule
 )
 ;
 }
-#
-ifdef
-MOZ_SMIL
 nsIDocument
 *
 doc
@@ -3697,8 +3689,6 @@ animContentStyleRule
 ;
 }
 }
-#
-endif
 return
 NS_OK
 ;
@@ -4925,9 +4915,6 @@ CreateStyleRule
 )
 ;
 }
-#
-ifdef
-MOZ_SMIL
 static
 void
 ParseMappedAttrAnimValueCallback
@@ -5311,8 +5298,6 @@ nsnull
 )
 ;
 }
-#
-endif
 nsIAtom
 *
 nsSVGElement
@@ -5437,9 +5422,6 @@ nsGkAtoms
 :
 onSVGZoom
 ;
-#
-ifdef
-MOZ_SMIL
 if
 (
 aAttr
@@ -5488,8 +5470,6 @@ nsGkAtoms
 :
 onendEvent
 ;
-#
-endif
 return
 aAttr
 ;
@@ -9504,9 +9484,6 @@ true
 ;
 }
 }
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 nsSVGElement
@@ -10551,5 +10528,3 @@ FlushResampleRequests
 ;
 }
 }
-#
-endif

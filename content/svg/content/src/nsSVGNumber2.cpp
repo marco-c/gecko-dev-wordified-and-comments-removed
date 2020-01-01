@@ -41,9 +41,6 @@ nsContentUtils
 h
 "
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsSMILValue
@@ -57,8 +54,6 @@ nsSMILFloatType
 .
 h
 "
-#
-endif
 class
 DOMSVGNumber
 :
@@ -389,9 +384,6 @@ mAnimVal
 mBaseVal
 ;
 }
-#
-ifdef
-MOZ_SMIL
 else
 {
 aSVGElement
@@ -402,8 +394,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;
@@ -465,9 +455,6 @@ mAnimVal
 mBaseVal
 ;
 }
-#
-ifdef
-MOZ_SMIL
 else
 {
 aSVGElement
@@ -478,8 +465,6 @@ AnimationNeedsResample
 )
 ;
 }
-#
-endif
 aSVGElement
 -
 >
@@ -564,9 +549,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 nsSVGNumber2
@@ -827,5 +809,3 @@ return
 NS_OK
 ;
 }
-#
-endif

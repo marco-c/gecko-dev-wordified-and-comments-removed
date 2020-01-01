@@ -40,17 +40,12 @@ nsDOMError
 h
 "
 #
-ifdef
-MOZ_SMIL
-#
 include
 "
 nsISMILAttr
 .
 h
 "
-#
-endif
 class
 nsSVGStylableElement
 ;
@@ -145,9 +140,6 @@ nsSVGStylableElement
 aSVGElement
 )
 ;
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 ToSMILAttr
@@ -157,8 +149,6 @@ nsSVGStylableElement
 aSVGElement
 )
 ;
-#
-endif
 private
 :
 nsAutoPtr
@@ -264,9 +254,6 @@ aResult
 ;
 }
 ;
-#
-ifdef
-MOZ_SMIL
 struct
 SMILString
 :
@@ -349,8 +336,6 @@ aValue
 ;
 }
 ;
-#
-endif
 }
 ;
 #

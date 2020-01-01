@@ -166,9 +166,6 @@ nsSVGElement
 aSVGElement
 )
 ;
-#
-ifdef
-MOZ_SMIL
 nsISMILAttr
 *
 ToSMILAttr
@@ -178,8 +175,6 @@ nsSVGElement
 aSVGElement
 )
 ;
-#
-endif
 private
 :
 nsSVGEnumValue
@@ -297,9 +292,6 @@ PRUint16
 aResult
 )
 {
-#
-ifdef
-MOZ_SMIL
 mSVGElement
 -
 >
@@ -307,8 +299,6 @@ FlushAnimations
 (
 )
 ;
-#
-endif
 *
 aResult
 =
@@ -325,9 +315,6 @@ NS_OK
 }
 }
 ;
-#
-ifdef
-MOZ_SMIL
 struct
 SMILEnum
 :
@@ -410,8 +397,6 @@ aValue
 ;
 }
 ;
-#
-endif
 }
 ;
 #
