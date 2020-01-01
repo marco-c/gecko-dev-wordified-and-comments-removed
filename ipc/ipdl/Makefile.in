@@ -440,6 +440,12 @@ ipc
 \
 ipc
 /
+test
+-
+harness
+\
+ipc
+/
 testshell
 \
 (

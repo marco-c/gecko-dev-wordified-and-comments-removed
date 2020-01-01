@@ -1,0 +1,10 @@
+IPDLSRCS
+=
+\
+Test
+.
+ipdl
+\
+(
+NULL
+)

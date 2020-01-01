@@ -2715,6 +2715,10 @@ if
 iparam
 .
 type
+and
+iparam
+.
+type
 .
 isIPDL
 (
@@ -2743,6 +2747,10 @@ outParams
 :
                 
 if
+oparam
+.
+type
+and
 oparam
 .
 type
@@ -3608,6 +3616,20 @@ i
 ]
 =
 pdecl
+            
+else
+:
+                
+md
+.
+inParams
+[
+i
+]
+.
+type
+=
+None
         
 for
 i
@@ -3654,6 +3676,20 @@ i
 ]
 =
 pdecl
+            
+else
+:
+                
+md
+.
+outParams
+[
+i
+]
+.
+type
+=
+None
         
 self
 .

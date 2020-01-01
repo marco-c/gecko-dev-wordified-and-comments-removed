@@ -421,6 +421,9 @@ DIRS
 ipdl
 chromium
 glue
+test
+-
+harness
 testshell
 TOOL_DIRS
 =

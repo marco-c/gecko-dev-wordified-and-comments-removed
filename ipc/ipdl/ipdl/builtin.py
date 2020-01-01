@@ -3,6 +3,10 @@ Types
 (
     
 '
+bool
+'
+    
+'
 char
 '
     
