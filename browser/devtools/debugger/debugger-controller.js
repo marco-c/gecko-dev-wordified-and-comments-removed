@@ -1936,6 +1936,14 @@ this
 pageSize
 )
 ;
+DebuggerView
+.
+editor
+.
+focus
+(
+)
+;
 }
 _onResume
 :
