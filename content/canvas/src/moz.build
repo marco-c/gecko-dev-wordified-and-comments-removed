@@ -210,11 +210,6 @@ WebGLContext
 cpp
 '
 '
-WebGLContextAsyncQueries
-.
-cpp
-'
-'
 WebGLContextGL
 .
 cpp
@@ -336,11 +331,6 @@ cpp
 '
 '
 WebGLProgram
-.
-cpp
-'
-'
-WebGLQuery
 .
 cpp
 '

@@ -1597,10 +1597,6 @@ webidl_files
 +
 =
 \
-WebGL2Objects
-.
-webidl
-\
 WebGL2RenderingContext
 .
 webidl
