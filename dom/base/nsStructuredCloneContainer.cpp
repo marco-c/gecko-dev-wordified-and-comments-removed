@@ -201,16 +201,6 @@ ar
 aCx
 )
 ;
-JSAutoCompartment
-ac
-(
-aCx
-JS_GetGlobalObject
-(
-aCx
-)
-)
-;
 JS_WrapValue
 (
 aCx
