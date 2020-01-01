@@ -2216,6 +2216,15 @@ nsHTMLCanvasElement
 aArr
 )
 {
+if
+(
+!
+aFrame
+)
+{
+return
+;
+}
 for
 (
 nsIFrame
