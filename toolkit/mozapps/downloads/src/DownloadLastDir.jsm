@@ -379,6 +379,15 @@ val
 )
 ;
 else
+if
+(
+prefSvc
+.
+prefHasUserValue
+(
+LAST_DIR_PREF
+)
+)
 prefSvc
 .
 clearUserPref
