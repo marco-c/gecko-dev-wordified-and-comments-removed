@@ -9675,7 +9675,7 @@ sheet
 }
 }
 }
-nsresult
+void
 nsDocument
 :
 :
@@ -9686,16 +9686,9 @@ nsIURI
 aURI
 )
 {
-NS_PRECONDITION
+MOZ_ASSERT
 (
 aURI
-"
-Null
-URI
-passed
-to
-ResetStylesheetsToURI
-"
 )
 ;
 mozAutoDocUpdate
@@ -9945,9 +9938,6 @@ StyleSet
 )
 ;
 }
-return
-NS_OK
-;
 }
 static
 bool

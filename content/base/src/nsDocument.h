@@ -4241,7 +4241,7 @@ sheetType
 aType
 )
 ;
-nsresult
+void
 ResetStylesheetsToURI
 (
 nsIURI
