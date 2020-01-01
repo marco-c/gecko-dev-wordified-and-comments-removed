@@ -6697,15 +6697,10 @@ titlebar
 -
 close
 "
-oncommand
+command
 =
 "
-window
-.
-close
-(
-)
-;
+cmd_closeWindow
 "
 /
 >
