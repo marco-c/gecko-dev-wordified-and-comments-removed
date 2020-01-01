@@ -1656,6 +1656,10 @@ mLockCursor
 nsIntPoint
 mPreLockPoint
 ;
+static
+nsIntPoint
+sSynthCenteringPoint
+;
 nsWeakFrame
 mCurrentTarget
 ;
