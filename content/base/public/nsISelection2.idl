@@ -557,7 +557,7 @@ in
 PRInt32
 endOffset
 in
-PRBool
+boolean
 allowAdjacent
 out
 PRUint32
@@ -594,7 +594,7 @@ in
 PRInt32
 endOffset
 in
-PRBool
+boolean
 allowAdjacent
 in
 RangeArray

@@ -988,7 +988,7 @@ getAsDouble
 [
 noscript
 ]
-PRBool
+boolean
 getAsBool
 (
 )
@@ -1253,7 +1253,7 @@ nsIWritableVariant
 nsIVariant
 {
 attribute
-PRBool
+boolean
 writable
 ;
 void
@@ -1340,7 +1340,7 @@ void
 setAsBool
 (
 in
-PRBool
+boolean
 aValue
 )
 ;

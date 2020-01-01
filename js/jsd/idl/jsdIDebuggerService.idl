@@ -1627,7 +1627,7 @@ in
 JSCompartment
 comp
 in
-PRBool
+boolean
 mode
 )
 ;
@@ -6544,7 +6544,7 @@ void
 enableSingleStepInterrupts
 (
 in
-PRBool
+boolean
 mode
 )
 ;

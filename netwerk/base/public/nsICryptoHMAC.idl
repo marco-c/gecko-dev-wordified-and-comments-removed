@@ -1018,7 +1018,7 @@ ACString
 finish
 (
 in
-PRBool
+boolean
 aASCII
 )
 ;

@@ -583,7 +583,7 @@ boolean
 .
 *
 /
-PRBool
+boolean
 readBoolean
 (
 )

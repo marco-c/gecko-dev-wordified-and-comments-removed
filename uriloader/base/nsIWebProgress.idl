@@ -1139,7 +1139,7 @@ instance
 /
 readonly
 attribute
-PRBool
+boolean
 isLoadingDocument
 ;
 }

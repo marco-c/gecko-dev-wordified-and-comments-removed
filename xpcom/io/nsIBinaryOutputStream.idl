@@ -600,7 +600,7 @@ void
 writeBoolean
 (
 in
-PRBool
+boolean
 aBoolean
 )
 ;

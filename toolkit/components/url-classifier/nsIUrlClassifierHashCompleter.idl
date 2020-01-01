@@ -543,7 +543,7 @@ in
 PRUint32
 chunkId
 in
-PRBool
+boolean
 trusted
 )
 ;

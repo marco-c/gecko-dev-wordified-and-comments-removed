@@ -530,7 +530,7 @@ in
 nsIDOMNode
 linkNode
 in
-PRBool
+boolean
 isAppTab
 )
 ;

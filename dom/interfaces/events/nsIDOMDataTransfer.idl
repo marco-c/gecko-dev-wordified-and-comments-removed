@@ -1549,7 +1549,7 @@ in
 PRUint32
 aEventType
 in
-PRBool
+boolean
 aUserCancelled
 )
 ;

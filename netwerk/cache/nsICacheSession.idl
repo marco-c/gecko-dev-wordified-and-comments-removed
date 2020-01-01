@@ -548,7 +548,7 @@ true
 *
 /
 attribute
-PRBool
+boolean
 doomEntriesIfExpired
 ;
 /
@@ -797,7 +797,7 @@ exist
 .
 *
 /
-PRBool
+boolean
 isStorageEnabled
 (
 )

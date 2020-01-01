@@ -705,7 +705,7 @@ void
 lockFactory
 (
 in
-PRBool
+boolean
 lock
 )
 ;

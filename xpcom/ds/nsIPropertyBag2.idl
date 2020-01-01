@@ -611,7 +611,7 @@ key
 .
 *
 /
-PRBool
+boolean
 hasKey
 (
 in

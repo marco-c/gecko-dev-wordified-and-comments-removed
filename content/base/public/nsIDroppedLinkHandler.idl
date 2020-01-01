@@ -514,7 +514,7 @@ in
 nsIDOMDragEvent
 aEvent
 in
-PRBool
+boolean
 aAllowSameDocument
 )
 ;

@@ -3431,7 +3431,7 @@ in
 PRUint16
 aMethodIndex
 out
-PRBool
+boolean
 aHideFirstParamFromJS
 out
 nsIIDPtr
@@ -4731,13 +4731,13 @@ void
 debugDumpJSStack
 (
 in
-PRBool
+boolean
 showArgs
 in
-PRBool
+boolean
 showLocals
 in
-PRBool
+boolean
 showThisProps
 )
 ;
@@ -4981,7 +4981,7 @@ in
 JSContextPtr
 aJSContext
 in
-PRBool
+boolean
 noGC
 )
 ;
@@ -5302,7 +5302,7 @@ in
 nsIXPConnectJSObjectHolder
 sandbox
 in
-PRBool
+boolean
 returnStringOnly
 )
 ;
@@ -5673,7 +5673,7 @@ returns
 noscript
 notxpcom
 ]
-PRBool
+boolean
 defineDOMQuickStubs
 (
 in
@@ -5942,7 +5942,7 @@ void
 setDebugModeWhenPossible
 (
 in
-PRBool
+boolean
 mode
 )
 ;

@@ -816,7 +816,7 @@ void
 setPageMode
 (
 in
-PRBool
+boolean
 aPageMode
 in
 nsIPrintSettings

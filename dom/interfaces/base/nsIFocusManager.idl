@@ -1426,7 +1426,7 @@ in
 nsIDOMWindow
 aWindow
 in
-PRBool
+boolean
 aDeep
 out
 nsIDOMWindow
@@ -2062,7 +2062,7 @@ in
 nsIDOMWindow
 aWindow
 in
-PRBool
+boolean
 aNeedsFocus
 )
 ;

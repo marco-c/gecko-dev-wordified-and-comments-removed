@@ -2545,7 +2545,7 @@ false
 otherwise
 *
 /
-PRBool
+boolean
 remove
 (
 in
@@ -2611,7 +2611,7 @@ port
 number
 *
 /
-PRBool
+boolean
 has
 (
 in

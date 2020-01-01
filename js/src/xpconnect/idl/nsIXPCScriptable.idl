@@ -1065,7 +1065,7 @@ JSObjectPtr
 obj
 )
 ;
-PRBool
+boolean
 addProperty
 (
 in
@@ -1085,7 +1085,7 @@ JSValPtr
 vp
 )
 ;
-PRBool
+boolean
 delProperty
 (
 in
@@ -1122,7 +1122,7 @@ method
 does
 something
 .
-PRBool
+boolean
 getProperty
 (
 in
@@ -1159,7 +1159,7 @@ method
 does
 something
 .
-PRBool
+boolean
 setProperty
 (
 in
@@ -1179,7 +1179,7 @@ JSValPtr
 vp
 )
 ;
-PRBool
+boolean
 enumerate
 (
 in
@@ -1193,7 +1193,7 @@ JSObjectPtr
 obj
 )
 ;
-PRBool
+boolean
 newEnumerate
 (
 in
@@ -1216,7 +1216,7 @@ jsid
 idp
 )
 ;
-PRBool
+boolean
 newResolve
 (
 in
@@ -1239,7 +1239,7 @@ JSObjectPtr
 objp
 )
 ;
-PRBool
+boolean
 convert
 (
 in
@@ -1273,7 +1273,7 @@ JSObjectPtr
 obj
 )
 ;
-PRBool
+boolean
 checkAccess
 (
 in
@@ -1296,7 +1296,7 @@ JSValPtr
 vp
 )
 ;
-PRBool
+boolean
 call
 (
 in
@@ -1319,7 +1319,7 @@ JSValPtr
 vp
 )
 ;
-PRBool
+boolean
 construct
 (
 in
@@ -1342,7 +1342,7 @@ JSValPtr
 vp
 )
 ;
-PRBool
+boolean
 hasInstance
 (
 in
@@ -1358,7 +1358,7 @@ in
 jsval
 val
 out
-PRBool
+boolean
 bp
 )
 ;
@@ -1376,7 +1376,7 @@ JSObjectPtr
 obj
 )
 ;
-PRBool
+boolean
 equality
 (
 in

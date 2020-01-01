@@ -519,7 +519,7 @@ in
 AString
 fragment
 in
-PRBool
+boolean
 isXML
 in
 nsIURI

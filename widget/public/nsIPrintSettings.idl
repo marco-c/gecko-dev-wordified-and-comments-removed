@@ -1063,7 +1063,7 @@ in
 PRInt32
 aType
 in
-PRBool
+boolean
 aTurnOnOff
 )
 ;
@@ -1075,7 +1075,7 @@ Get
 PrintOptions
 *
 /
-PRBool
+boolean
 GetPrintOptions
 (
 in

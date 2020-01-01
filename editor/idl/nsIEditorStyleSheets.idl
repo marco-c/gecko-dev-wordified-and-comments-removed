@@ -945,7 +945,7 @@ in
 AString
 aURL
 in
-PRBool
+boolean
 aEnable
 )
 ;

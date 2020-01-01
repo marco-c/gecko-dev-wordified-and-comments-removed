@@ -515,7 +515,7 @@ void
 onRedirectResult
 (
 in
-PRBool
+boolean
 proceeding
 )
 ;

@@ -799,7 +799,7 @@ nsISupportsPRBool
 nsISupportsPrimitive
 {
 attribute
-PRBool
+boolean
 data
 ;
 string

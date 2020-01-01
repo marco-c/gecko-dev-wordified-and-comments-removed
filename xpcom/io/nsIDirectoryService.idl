@@ -586,7 +586,7 @@ in
 string
 prop
 out
-PRBool
+boolean
 persistent
 )
 ;

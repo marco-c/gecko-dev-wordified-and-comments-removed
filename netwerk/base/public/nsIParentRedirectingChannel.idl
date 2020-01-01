@@ -624,7 +624,7 @@ void
 completeRedirect
 (
 in
-PRBool
+boolean
 succeeded
 )
 ;

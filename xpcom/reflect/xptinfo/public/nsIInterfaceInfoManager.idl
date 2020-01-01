@@ -576,7 +576,7 @@ nsIInterfaceInfoManager
 manager
 )
 ;
-PRBool
+boolean
 hasAdditionalManagers
 (
 )

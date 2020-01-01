@@ -617,7 +617,7 @@ in
 nsISupports
 aObject
 in
-PRBool
+boolean
 aIsStrongRef
 )
 ;
@@ -757,7 +757,7 @@ in
 nsIIDRef
 aIID
 in
-PRBool
+boolean
 aIsStrongRef
 )
 ;
