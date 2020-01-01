@@ -14188,7 +14188,7 @@ jumpTable
 interruptJumpTable
 )
 \
-js_EnterTraceVisState
+EnterTraceVisState
 (
 cx
 S_RECORD
@@ -14205,7 +14205,7 @@ MONITOR_BRANCH_TRACEVIS
 \
 JS_BEGIN_MACRO
 \
-js_EnterTraceVisState
+EnterTraceVisState
 (
 cx
 S_RECORD

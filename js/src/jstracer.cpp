@@ -82824,7 +82824,7 @@ JS_FRIEND_API
 (
 bool
 )
-JS_StartTraceVis
+StartTraceVis
 (
 const
 char
@@ -82843,7 +82843,7 @@ if
 traceVisLogFile
 )
 {
-JS_StopTraceVis
+StopTraceVis
 (
 )
 ;
@@ -82874,7 +82874,7 @@ JS_FRIEND_API
 (
 JSBool
 )
-StartTraceVis
+StartTraceVisNative
 (
 JSContext
 *
@@ -82954,7 +82954,7 @@ error
 ;
 ok
 =
-JS_StartTraceVis
+StartTraceVis
 (
 filename
 )
@@ -82972,7 +82972,7 @@ else
 {
 ok
 =
-JS_StartTraceVis
+StartTraceVis
 (
 )
 ;
@@ -83020,7 +83020,7 @@ JS_FRIEND_API
 (
 bool
 )
-JS_StopTraceVis
+StopTraceVis
 (
 )
 {
@@ -83049,7 +83049,7 @@ JS_FRIEND_API
 (
 JSBool
 )
-StopTraceVis
+StopTraceVisNative
 (
 JSContext
 *
@@ -83070,7 +83070,7 @@ rval
 JSBool
 ok
 =
-JS_StopTraceVis
+StopTraceVis
 (
 )
 ;

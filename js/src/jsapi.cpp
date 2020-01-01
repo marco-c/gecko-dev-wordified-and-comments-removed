@@ -3583,7 +3583,7 @@ void
 #
 ifdef
 MOZ_TRACEVIS
-JS_StopTraceVis
+StopTraceVis
 (
 )
 ;
