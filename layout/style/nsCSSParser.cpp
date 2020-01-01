@@ -1726,6 +1726,8 @@ aPropID
 PRBool
 aIsImportant
 PRBool
+aOverrideImportant
+PRBool
 aMustCallValueAppended
 PRBool
 *
@@ -1742,6 +1744,8 @@ nsCSSProperty
 aPropID
 PRBool
 aIsImportant
+PRBool
+aOverrideImportant
 PRBool
 aMustCallValueAppended
 PRBool
@@ -4665,6 +4669,7 @@ TransferTempData
 aDeclaration
 aPropID
 aIsImportant
+PR_TRUE
 PR_FALSE
 aChanged
 )
@@ -17116,6 +17121,7 @@ TransferTempData
 aDeclaration
 propID
 isImportant
+PR_FALSE
 aMustCallValueAppended
 aChanged
 )
@@ -17244,6 +17250,7 @@ TransferTempData
 aDeclaration
 propID
 isImportant
+PR_FALSE
 aMustCallValueAppended
 aChanged
 )
@@ -17281,6 +17288,7 @@ TransferTempData
 aDeclaration
 propID
 isImportant
+PR_FALSE
 aMustCallValueAppended
 aChanged
 )
@@ -17314,6 +17322,7 @@ TransferTempData
 aDeclaration
 propID
 isImportant
+PR_FALSE
 aMustCallValueAppended
 aChanged
 )
@@ -17424,6 +17433,8 @@ aPropID
 PRBool
 aIsImportant
 PRBool
+aOverrideImportant
+PRBool
 aMustCallValueAppended
 PRBool
 *
@@ -17453,6 +17464,7 @@ aDeclaration
 *
 p
 aIsImportant
+aOverrideImportant
 aMustCallValueAppended
 aChanged
 )
@@ -17466,6 +17478,7 @@ DoTransferTempData
 aDeclaration
 aPropID
 aIsImportant
+aOverrideImportant
 aMustCallValueAppended
 aChanged
 )
@@ -17491,6 +17504,8 @@ nsCSSProperty
 aPropID
 PRBool
 aIsImportant
+PRBool
+aOverrideImportant
 PRBool
 aMustCallValueAppended
 PRBool
@@ -17551,6 +17566,12 @@ aPropID
 )
 )
 {
+if
+(
+!
+aOverrideImportant
+)
+{
 mTempData
 .
 ClearProperty
@@ -17559,6 +17580,19 @@ aPropID
 )
 ;
 return
+;
+}
+*
+aChanged
+=
+PR_TRUE
+;
+mData
+.
+ClearImportantBit
+(
+aPropID
+)
 ;
 }
 }
