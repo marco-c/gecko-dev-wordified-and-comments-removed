@@ -563,6 +563,10 @@ browser_selectTabAtIndex
 .
 js
 \
+browser_gestureSupport
+.
+js
+\
 (
 NULL
 )
