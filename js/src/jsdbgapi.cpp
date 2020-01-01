@@ -8539,9 +8539,11 @@ obj
 )
 {
 return
-STOBJ_IS_SYSTEM
-(
 obj
+-
+>
+isSystem
+(
 )
 ;
 }
@@ -8589,9 +8591,11 @@ obj
 &
 system
 )
-STOBJ_SET_SYSTEM
-(
 obj
+-
+>
+setSystem
+(
 )
 ;
 return

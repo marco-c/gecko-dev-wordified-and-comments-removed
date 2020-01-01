@@ -25882,8 +25882,6 @@ NULL
 xml_hasInstance
 js_TraceObject
 xml_clear
-NULL
-NULL
 }
 ;
 static

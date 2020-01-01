@@ -870,9 +870,11 @@ clasp
 ;
 clasp
 =
-LOCKED_OBJ_GET_CLASS
-(
 obj
+-
+>
+getClass
+(
 )
 ;
 JAVASCRIPT_OBJECT_FINALIZE

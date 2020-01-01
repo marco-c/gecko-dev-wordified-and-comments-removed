@@ -9219,9 +9219,11 @@ JS_ASSERT
 (
 !
 (
-LOCKED_OBJ_GET_CLASS
-(
 obj
+-
+>
+getClass
+(
 )
 -
 >
@@ -16895,9 +16897,11 @@ JS_ASSERT
 (
 !
 (
-LOCKED_OBJ_GET_CLASS
-(
 obj
+-
+>
+getClass
+(
 )
 -
 >
