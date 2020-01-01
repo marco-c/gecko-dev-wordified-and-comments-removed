@@ -71,15 +71,6 @@ line
 html
 conformance
 /
-programs
-/
-program
--
-test
-.
-html
-conformance
-/
 textures
 /
 texture
