@@ -244,7 +244,7 @@ ap
 ;
 MessageBoxW
 (
-NULL
+nullptr
 msg
 L
 "

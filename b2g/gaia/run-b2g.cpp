@@ -115,7 +115,7 @@ msg
 {
 MessageBoxW
 (
-NULL
+nullptr
 msg
 L
 "
@@ -161,7 +161,7 @@ buffer
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -194,7 +194,7 @@ buffer
 ;
 buffer
 =
-NULL
+nullptr
 ;
 }
 PathRemoveFileSpecW
@@ -232,7 +232,7 @@ buffer
 ;
 buffer
 =
-NULL
+nullptr
 ;
 }
 return
@@ -294,12 +294,12 @@ CreateProcessW
 (
 binary_path
 args
-NULL
-NULL
+nullptr
+nullptr
 FALSE
 cp_flags
-NULL
-NULL
+nullptr
+nullptr
 &
 si
 &
@@ -523,6 +523,6 @@ b2g_path
 =
 args
 =
-NULL
+nullptr
 ;
 }
