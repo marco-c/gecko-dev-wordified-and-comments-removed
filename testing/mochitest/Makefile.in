@@ -833,6 +833,8 @@ D
 PKG_STAGE
 )
 /
+bin
+/
 plugins
 (
 cd
@@ -1003,6 +1005,8 @@ cd
 (
 PKG_STAGE
 )
+/
+bin
 /
 plugins
 &

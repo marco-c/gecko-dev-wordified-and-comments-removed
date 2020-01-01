@@ -764,7 +764,7 @@ fileLocator
 get
 (
 "
-XCurProcD
+GreD
 "
 AUS_Ci
 .
