@@ -566,14 +566,14 @@ return
 a11y
 :
 :
-eHTMLButtonAccessible
+eHTMLButton
 ;
 }
 return
 a11y
 :
 :
-eNoAccessible
+eNoType
 ;
 }
 #

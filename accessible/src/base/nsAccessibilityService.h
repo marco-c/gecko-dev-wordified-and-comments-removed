@@ -143,7 +143,7 @@ already_AddRefed
 <
 Accessible
 >
-CreateHTMLObjectFrameAccessible
+CreatePluginAccessible
 (
 nsObjectFrame
 *

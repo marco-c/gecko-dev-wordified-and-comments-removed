@@ -511,14 +511,14 @@ return
 a11y
 :
 :
-eHTMLCaptionAccessible
+eHTMLCaption
 ;
 }
 return
 a11y
 :
 :
-eNoAccessible
+eNoType
 ;
 }
 #
@@ -635,7 +635,7 @@ return
 a11y
 :
 :
-eHTMLTableAccessible
+eHTMLTable
 ;
 }
 #

@@ -1374,7 +1374,7 @@ return
 a11y
 :
 :
-eHTMLComboboxAccessible
+eHTMLCombobox
 ;
 }
 #

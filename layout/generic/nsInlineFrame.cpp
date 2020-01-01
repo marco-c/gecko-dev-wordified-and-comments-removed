@@ -3918,7 +3918,7 @@ return
 a11y
 :
 :
-eHTMLButtonAccessible
+eHTMLButton
 ;
 if
 (
@@ -3934,7 +3934,7 @@ return
 a11y
 :
 :
-eImageAccessible
+eImage
 ;
 if
 (
@@ -3950,13 +3950,13 @@ return
 a11y
 :
 :
-eHTMLLabelAccessible
+eHTMLLabel
 ;
 return
 a11y
 :
 :
-eNoAccessible
+eNoType
 ;
 }
 #

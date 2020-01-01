@@ -1261,7 +1261,7 @@ return
 a11y
 :
 :
-eHTMLObjectFrameAccessible
+ePlugin
 ;
 }
 #

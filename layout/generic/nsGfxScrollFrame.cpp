@@ -3748,14 +3748,14 @@ return
 a11y
 :
 :
-eNoAccessible
+eNoType
 ;
 }
 return
 a11y
 :
 :
-eHyperTextAccessible
+eHyperText
 ;
 }
 #

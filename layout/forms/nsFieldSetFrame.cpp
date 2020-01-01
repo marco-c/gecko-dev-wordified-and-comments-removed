@@ -2676,7 +2676,7 @@ return
 a11y
 :
 :
-eHTMLGroupboxAccessible
+eHTMLGroupbox
 ;
 }
 #

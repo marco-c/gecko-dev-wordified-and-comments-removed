@@ -4499,7 +4499,7 @@ return
 a11y
 :
 :
-eHTMLTableCellAccessible
+eHTMLTableCell
 ;
 }
 #

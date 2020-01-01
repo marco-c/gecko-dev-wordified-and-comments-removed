@@ -1629,7 +1629,7 @@ return
 a11y
 :
 :
-eHTMLCanvasAccessible
+eHTMLCanvas
 ;
 }
 #

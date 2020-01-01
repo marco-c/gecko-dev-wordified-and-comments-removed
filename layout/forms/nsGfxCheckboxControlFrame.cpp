@@ -437,7 +437,7 @@ return
 a11y
 :
 :
-eHTMLCheckboxAccessible
+eHTMLCheckbox
 ;
 }
 #

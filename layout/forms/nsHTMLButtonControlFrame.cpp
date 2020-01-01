@@ -348,7 +348,7 @@ return
 a11y
 :
 :
-eHTMLButtonAccessible
+eHTMLButton
 ;
 }
 #

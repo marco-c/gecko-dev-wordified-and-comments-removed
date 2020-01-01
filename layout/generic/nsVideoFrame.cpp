@@ -2179,7 +2179,7 @@ return
 a11y
 :
 :
-eHTMLMediaAccessible
+eHTMLMedia
 ;
 }
 #
