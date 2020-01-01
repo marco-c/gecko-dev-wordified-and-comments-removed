@@ -1913,11 +1913,6 @@ fullZoom
 accesskey
 ;
 "
-observes
-=
-"
-isImage
-"
 >
 <
 menupopup
