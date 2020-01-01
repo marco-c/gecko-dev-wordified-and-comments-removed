@@ -4670,7 +4670,7 @@ LIR_HEADER
 #
 include
 "
-IonLIR
+LIR
 -
 inl
 .
