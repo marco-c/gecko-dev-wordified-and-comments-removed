@@ -1050,7 +1050,7 @@ sOnhashchange_id
 ;
 static
 jsid
-sOnpageshow_id
+sOnreadystatechange_id
 ;
 static
 jsid

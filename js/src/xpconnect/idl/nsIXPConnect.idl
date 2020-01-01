@@ -5581,6 +5581,12 @@ XPC_XOW_CLEARSCOPE
 =
 1
 ;
+const
+PRUint32
+XPC_XOW_NAVIGATED
+=
+2
+;
 /
 *
 *
