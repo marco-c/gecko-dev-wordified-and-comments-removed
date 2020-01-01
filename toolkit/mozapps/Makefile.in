@@ -457,6 +457,10 @@ WINCE_WINDOWS_MOBILE
 DIRS
 +
 =
+readstrings
+DIRS
++
+=
 installer
 /
 wince
