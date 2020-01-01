@@ -12,7 +12,7 @@ version
 '
 0
 .
-1b2
+1
 '
 assert
 sys
@@ -29,7 +29,7 @@ deps
 [
 "
 ManifestDestiny
-=
+>
 =
 0
 .

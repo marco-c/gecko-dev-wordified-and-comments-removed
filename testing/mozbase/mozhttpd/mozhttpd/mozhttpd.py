@@ -216,6 +216,9 @@ os
 getcwd
 (
 )
+handler_class
+=
+MozRequestHandler
 )
 :
         
@@ -245,6 +248,25 @@ self
 httpd
 =
 None
+        
+class
+MozRequestHandlerInstance
+(
+handler_class
+)
+:
+            
+docroot
+=
+self
+.
+docroot
+        
+self
+.
+handler_class
+=
+MozRequestHandlerInstance
     
 def
 start
@@ -306,19 +328,6 @@ stop
 "
 "
         
-class
-MozRequestHandlerInstance
-(
-MozRequestHandler
-)
-:
-            
-docroot
-=
-self
-.
-docroot
-        
 self
 .
 httpd
@@ -333,7 +342,9 @@ self
 .
 port
 )
-MozRequestHandlerInstance
+self
+.
+handler_class
 )
         
 if

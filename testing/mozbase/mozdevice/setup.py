@@ -5,9 +5,13 @@ setuptools
 import
 setup
 find_packages
-try
-:
-    
+version
+=
+'
+0
+.
+1
+'
 here
 =
 os
@@ -25,6 +29,8 @@ abspath
 __file__
 )
 )
+try
+:
     
 description
 =
@@ -49,29 +55,22 @@ read
 (
 )
 except
+(
+OSError
 IOError
+)
 :
     
 description
 =
-None
-version
-=
 '
-0
-.
-1
 '
-deps
-=
-[
-]
 setup
 (
 name
 =
 '
-mozhttpd
+mozdevice
 '
       
 version
@@ -81,12 +80,11 @@ version
 description
 =
 "
-basic
-python
-webserver
-tested
-with
-talos
+Mozilla
+-
+authored
+device
+management
 "
       
 long_description
@@ -101,14 +99,16 @@ classifiers
 keywords
 =
 '
-mozilla
 '
       
 author
 =
 '
-Joel
-Maher
+Mozilla
+Automation
+and
+Testing
+Team
 '
       
 author_email
@@ -119,13 +119,13 @@ lists
 .
 mozilla
 .
-org
+com
 '
       
 url
 =
 '
-https
+http
 :
 /
 /
@@ -136,12 +136,6 @@ com
 mozilla
 /
 mozbase
-/
-tree
-/
-master
-/
-mozhttpd
 '
       
 license
@@ -149,14 +143,6 @@ license
 '
 MPL
 '
-      
-py_modules
-=
-[
-'
-mozhttpd
-'
-]
       
 packages
 =
@@ -187,7 +173,8 @@ False
       
 install_requires
 =
-deps
+[
+]
       
 entry_points
 =
@@ -205,16 +192,6 @@ points
 -
 *
 -
-      
-[
-console_scripts
-]
-      
-mozhttpd
-=
-mozhttpd
-:
-main
       
 "
 "
