@@ -15,7 +15,7 @@ bindings
 id
 =
 "
-PreferencesSkinBindings
+filefieldBindings
 "
 xmlns
 =
@@ -82,7 +82,7 @@ binding
 id
 =
 "
-fileField
+filefield
 "
 extends
 =
@@ -101,9 +101,7 @@ general
 .
 xml
 #
-control
--
-item
+basetext
 "
 >
 <
@@ -125,13 +123,11 @@ chrome
 :
 /
 /
-mozapps
+global
 /
 locale
 /
-preferences
-/
-preferences
+filefield
 .
 properties
 "
