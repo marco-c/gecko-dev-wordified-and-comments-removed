@@ -25869,6 +25869,11 @@ statuspanel
 -
 label
 "
+role
+=
+"
+status
+"
 xbl
 :
 inherits
