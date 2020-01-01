@@ -55,6 +55,14 @@ p
 =
 0
 ;
+virtual
+void
+SuspectExtraPointers
+(
+)
+=
+0
+;
 #
 endif
 }
