@@ -129,11 +129,6 @@ height
 ;
 #
 endif
-cairo_surface_mark_dirty
-(
-surf
-)
-;
 Init
 (
 surf
@@ -330,11 +325,6 @@ cairo_os2_surface_set_hwnd
 (
 surf
 aWnd
-)
-;
-cairo_surface_mark_dirty
-(
-surf
 )
 ;
 Init
