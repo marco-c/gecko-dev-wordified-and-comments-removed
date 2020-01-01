@@ -5,6 +5,13 @@ nsDOMCompositionEvent
 .
 h
 "
+#
+include
+"
+prtime
+.
+h
+"
 nsDOMCompositionEvent
 :
 :

@@ -5,6 +5,13 @@ nsDOMKeyboardEvent
 .
 h
 "
+#
+include
+"
+prtime
+.
+h
+"
 nsDOMKeyboardEvent
 :
 :
