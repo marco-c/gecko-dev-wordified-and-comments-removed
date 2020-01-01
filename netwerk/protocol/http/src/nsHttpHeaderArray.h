@@ -168,6 +168,7 @@ visitor
 void
 ParseHeaderLine
 (
+const
 char
 *
 line

@@ -393,6 +393,7 @@ nsHttpHeaderArray
 :
 ParseHeaderLine
 (
+const
 char
 *
 line

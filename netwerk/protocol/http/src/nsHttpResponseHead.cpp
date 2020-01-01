@@ -587,6 +587,7 @@ nsHttpResponseHead
 :
 ParseStatusLine
 (
+const
 char
 *
 line
@@ -784,6 +785,7 @@ nsHttpResponseHead
 :
 ParseHeaderLine
 (
+const
 char
 *
 line

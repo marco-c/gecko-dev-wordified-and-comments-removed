@@ -346,6 +346,7 @@ block
 void
 ParseStatusLine
 (
+const
 char
 *
 line
@@ -354,6 +355,7 @@ line
 void
 ParseHeaderLine
 (
+const
 char
 *
 line
