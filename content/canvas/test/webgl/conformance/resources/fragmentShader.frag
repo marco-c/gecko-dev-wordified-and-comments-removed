@@ -100,8 +100,6 @@ INC
 .
 AS
 IS
-'
-'
 AND
 ANY
 EXPRESS
