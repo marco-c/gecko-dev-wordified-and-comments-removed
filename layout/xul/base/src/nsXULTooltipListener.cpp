@@ -1884,6 +1884,9 @@ ifdef
 MOZ_XUL
 if
 (
+mIsSourceTree
+&
+&
 mNeedTitletip
 )
 {
