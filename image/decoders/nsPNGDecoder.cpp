@@ -438,15 +438,11 @@ nsPNGDecoder
 RasterImage
 &
 aImage
-imgDecoderObserver
-*
-aObserver
 )
 :
 Decoder
 (
 aImage
-aObserver
 )
 mPNG
 (

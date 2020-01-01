@@ -312,9 +312,6 @@ nsJPEGDecoder
 RasterImage
 &
 aImage
-imgDecoderObserver
-*
-aObserver
 Decoder
 :
 :
@@ -325,7 +322,6 @@ aDecodeStyle
 Decoder
 (
 aImage
-aObserver
 )
 mDecodeStyle
 (

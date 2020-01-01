@@ -14,13 +14,6 @@ h
 #
 include
 "
-imgDecoderObserver
-.
-h
-"
-#
-include
-"
 gfxColor
 .
 h
@@ -61,9 +54,6 @@ nsBMPDecoder
 RasterImage
 &
 aImage
-imgDecoderObserver
-*
-aObserver
 )
 ;
 ~

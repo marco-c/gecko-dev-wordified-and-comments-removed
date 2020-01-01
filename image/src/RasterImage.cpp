@@ -10350,7 +10350,6 @@ nsPNGDecoder
 (
 *
 this
-observer
 )
 ;
 break
@@ -10365,7 +10364,6 @@ nsGIFDecoder2
 (
 *
 this
-observer
 )
 ;
 break
@@ -10380,7 +10378,6 @@ nsJPEGDecoder
 (
 *
 this
-observer
 mHasBeenDecoded
 ?
 Decoder
@@ -10406,7 +10403,6 @@ nsBMPDecoder
 (
 *
 this
-observer
 )
 ;
 break
@@ -10421,7 +10417,6 @@ nsICODecoder
 (
 *
 this
-observer
 )
 ;
 break
@@ -10436,7 +10431,6 @@ nsIconDecoder
 (
 *
 this
-observer
 )
 ;
 break
@@ -10451,7 +10445,6 @@ nsWBMPDecoder
 (
 *
 this
-observer
 )
 ;
 break
@@ -10472,6 +10465,14 @@ here
 )
 ;
 }
+mDecoder
+-
+>
+SetObserver
+(
+observer
+)
+;
 mDecoder
 -
 >

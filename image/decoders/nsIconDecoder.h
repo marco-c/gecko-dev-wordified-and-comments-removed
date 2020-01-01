@@ -18,13 +18,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
-imgDecoderObserver
-.
-h
-"
 namespace
 mozilla
 {
@@ -47,9 +40,6 @@ nsIconDecoder
 RasterImage
 &
 aImage
-imgDecoderObserver
-*
-aObserver
 )
 ;
 virtual

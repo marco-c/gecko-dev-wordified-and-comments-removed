@@ -76,9 +76,6 @@ nsWBMPDecoder
 RasterImage
 &
 aImage
-imgDecoderObserver
-*
-aObserver
 )
 ;
 virtual

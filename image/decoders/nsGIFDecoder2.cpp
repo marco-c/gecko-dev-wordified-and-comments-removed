@@ -119,15 +119,11 @@ nsGIFDecoder2
 RasterImage
 &
 aImage
-imgDecoderObserver
-*
-aObserver
 )
 :
 Decoder
 (
 aImage
-aObserver
 )
 mCurrentRow
 (

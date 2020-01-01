@@ -14,13 +14,6 @@ h
 #
 include
 "
-imgDecoderObserver
-.
-h
-"
-#
-include
-"
 gfxASurface
 .
 h
@@ -68,9 +61,6 @@ nsPNGDecoder
 RasterImage
 &
 aImage
-imgDecoderObserver
-*
-aObserver
 )
 ;
 virtual
