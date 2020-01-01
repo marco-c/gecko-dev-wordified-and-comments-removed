@@ -1085,14 +1085,6 @@ isLive
 {
 this
 .
-Dialog
-.
-abortPrompt
-(
-)
-;
-this
-.
 shutdownPrompt
 (
 )
