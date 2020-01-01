@@ -3409,6 +3409,9 @@ rv
 ;
 if
 (
+migrated
+&
+&
 *
 aMadeChanges
 !
