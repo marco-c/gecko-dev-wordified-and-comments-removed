@@ -626,7 +626,11 @@ FORCE_STATIC_LIB
 EXPORTS
 =
 \
-nsSVGEffects
+nsSVGIntegrationUtils
+.
+h
+\
+nsSVGUtils
 .
 h
 \
@@ -635,14 +639,6 @@ nsSVGFilterInstance
 h
 \
 nsSVGForeignObjectFrame
-.
-h
-\
-nsSVGIntegrationUtils
-.
-h
-\
-nsSVGUtils
 .
 h
 \

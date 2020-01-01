@@ -205,9 +205,6 @@ nsIDOMSVGMatrix
 >
 mClipParentMatrix
 ;
-PRPackedBool
-mInUse
-;
 virtual
 already_AddRefed
 <
@@ -216,6 +213,9 @@ nsIDOMSVGMatrix
 GetCanvasTM
 (
 )
+;
+PRPackedBool
+mInUse
 ;
 }
 ;
