@@ -164,7 +164,7 @@ ClearAll
 ;
 mDocument
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -242,7 +242,7 @@ FrameSet
 *
 frameSet
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -309,7 +309,7 @@ RequestSet
 *
 requestSet
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -484,7 +484,7 @@ mRequests
 .
 GetWeak
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -577,13 +577,13 @@ FrameSet
 *
 frameSet
 =
-nsnull
+nullptr
 ;
 RequestSet
 *
 requestSet
 =
-nsnull
+nullptr
 ;
 MOZ_ASSERT
 (
@@ -731,7 +731,7 @@ DeregisterImageRequest
 (
 presContext
 aRequest
-nsnull
+nullptr
 )
 ;
 }
@@ -774,7 +774,7 @@ RequestSet
 *
 requestSet
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1080,8 +1080,8 @@ mRequests
 .
 Put
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -1126,7 +1126,7 @@ aURI
 mDocument
 aOriginPrincipal
 aReferrer
-nsnull
+nullptr
 nsIRequest
 :
 :
@@ -1193,7 +1193,7 @@ mRequests
 .
 Put
 (
-nsnull
+nullptr
 request
 )
 ;
@@ -1315,7 +1315,7 @@ mDocument
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIPresShell
@@ -1336,7 +1336,7 @@ shell
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1622,7 +1622,7 @@ RegisterImageRequest
 (
 presContext
 aRequest
-nsnull
+nullptr
 )
 ;
 }
@@ -1664,7 +1664,7 @@ FrameSet
 *
 frameSet
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1744,7 +1744,7 @@ FrameSet
 *
 frameSet
 =
-nsnull
+nullptr
 ;
 if
 (
