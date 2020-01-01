@@ -1584,7 +1584,7 @@ open
 (
 destPath
 {
-write
+trunc
 :
 true
 }
