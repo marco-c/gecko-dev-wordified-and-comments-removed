@@ -182,7 +182,7 @@ SVG_TAG
 undef
 SVG_FROM_PARSER_TAG
 nsresult
-NS_NewSVGUnknownElement
+NS_NewSVGElement
 (
 nsIContent
 *
@@ -592,7 +592,7 @@ aFromParser
 ;
 }
 return
-NS_NewSVGUnknownElement
+NS_NewSVGElement
 (
 aResult
 aNodeInfo
