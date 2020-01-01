@@ -10662,12 +10662,6 @@ nsFrameMessageManager
 (
 mTabChild
 nullptr
-mTabChild
--
->
-GetJSContext
-(
-)
 MM_CHILD
 )
 ;
