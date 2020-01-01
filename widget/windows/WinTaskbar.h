@@ -25,6 +25,15 @@ nsIWinTaskbar
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -33,6 +42,7 @@ widget
 {
 class
 WinTaskbar
+MOZ_FINAL
 :
 public
 nsIWinTaskbar

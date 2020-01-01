@@ -18,6 +18,15 @@ nsTArray
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 FormatEtc
 {
@@ -219,6 +228,7 @@ mFormat
 ;
 class
 CEnumFormatEtc
+MOZ_FINAL
 :
 public
 IEnumFORMATETC

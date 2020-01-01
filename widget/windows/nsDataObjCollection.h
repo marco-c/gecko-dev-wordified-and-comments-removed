@@ -39,6 +39,15 @@ nsDataObj
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 CEnumFormatEtc
 ;
@@ -67,6 +76,7 @@ public
 ;
 class
 nsDataObjCollection
+MOZ_FINAL
 :
 public
 nsIDataObjCollection

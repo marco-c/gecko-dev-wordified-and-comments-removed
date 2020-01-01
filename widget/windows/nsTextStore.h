@@ -41,6 +41,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 msctf
 .
@@ -81,6 +90,7 @@ WM_USER
 )
 class
 nsTextStore
+MOZ_FINAL
 :
 public
 ITextStoreACP

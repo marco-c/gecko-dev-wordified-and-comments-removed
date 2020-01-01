@@ -32,6 +32,15 @@ nsTArray
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIScreen
 ;
@@ -73,6 +82,7 @@ mScreen
 ;
 class
 nsScreenManagerWin
+MOZ_FINAL
 :
 public
 nsIScreenManager

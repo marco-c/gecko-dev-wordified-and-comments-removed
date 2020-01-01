@@ -84,6 +84,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 objbase
 .
@@ -97,6 +106,7 @@ widget
 {
 class
 AudioSession
+MOZ_FINAL
 :
 public
 IAudioSessionEvents
