@@ -23,7 +23,7 @@ final
 long
 PAINT_CLEAR_DELAY
 =
-10000
+3000
 ;
 /
 /
@@ -51,10 +51,6 @@ expectPaint
 loadUrl
 (
 url
-)
-;
-verifyHomePagerHidden
-(
 )
 ;
 paintExpecter
