@@ -3231,6 +3231,10 @@ mFrameMetrics
 mCSSContentRect
 )
 ;
+RequestContentRepaint
+(
+)
+;
 }
 else
 if
