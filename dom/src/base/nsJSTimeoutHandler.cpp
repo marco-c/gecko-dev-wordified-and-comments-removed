@@ -223,6 +223,7 @@ nsIScriptContext
 *
 aContext
 PRBool
+*
 aIsInterval
 PRInt32
 *
@@ -575,6 +576,7 @@ nsIScriptContext
 *
 aContext
 PRBool
+*
 aIsInterval
 PRInt32
 *
@@ -729,6 +731,7 @@ least
 1
 parameter
 "
+*
 aIsInterval
 ?
 kSetIntervalStr
@@ -804,6 +807,20 @@ PR_TRUE
 ;
 return
 NS_ERROR_DOM_TYPE_ERR
+;
+}
+if
+(
+argc
+=
+=
+1
+)
+{
+*
+aIsInterval
+=
+PR_FALSE
 ;
 }
 switch
@@ -894,6 +911,7 @@ argument
 ?
 )
 "
+*
 aIsInterval
 ?
 kSetIntervalStr
@@ -1311,6 +1329,7 @@ nsIScriptContext
 *
 aContext
 PRBool
+*
 aIsInterval
 PRInt32
 *

@@ -26108,6 +26108,11 @@ interval
 =
 0
 ;
+PRBool
+isInterval
+=
+aIsInterval
+;
 nsCOMPtr
 <
 nsIScriptTimeoutHandler
@@ -26122,7 +26127,8 @@ NS_CreateJSTimeoutHandler
 GetContextInternal
 (
 )
-aIsInterval
+&
+isInterval
 &
 interval
 getter_AddRefs
@@ -26155,7 +26161,7 @@ SetTimeoutOrInterval
 (
 handler
 interval
-aIsInterval
+isInterval
 aReturn
 )
 ;

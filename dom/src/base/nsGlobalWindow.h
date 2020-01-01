@@ -436,6 +436,7 @@ nsIScriptContext
 *
 aContext
 PRBool
+*
 aIsInterval
 PRInt32
 *
