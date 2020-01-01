@@ -563,6 +563,11 @@ ice_handler_
 nullptr
 )
 {
+(
+void
+)
+offerer_
+;
 }
 DISALLOW_COPY_ASSIGN
 (

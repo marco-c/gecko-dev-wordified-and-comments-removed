@@ -331,6 +331,11 @@ stream_
 nullptr
 )
 {
+(
+void
+)
+components_
+;
 }
 DISALLOW_COPY_ASSIGN
 (
