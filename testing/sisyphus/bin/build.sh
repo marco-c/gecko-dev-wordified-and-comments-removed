@@ -518,7 +518,6 @@ OSID
 "
 in
 mac
-*
 )
 if
 [

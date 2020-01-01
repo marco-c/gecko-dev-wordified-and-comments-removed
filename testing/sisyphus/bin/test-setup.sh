@@ -1675,7 +1675,6 @@ OSID
 "
 in
 mac
-*
 )
 if
 [

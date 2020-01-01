@@ -1030,7 +1030,6 @@ fi
 ;
 ;
 mac
-*
 )
 #
 answer

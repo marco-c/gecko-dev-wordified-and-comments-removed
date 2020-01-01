@@ -1415,7 +1415,6 @@ fullcircle
 ;
 ;
 mac
-*
 )
 #
 hack
@@ -1633,7 +1632,6 @@ buildid
 linux
 |
 mac
-*
 )
 talkbackinidir
 =
@@ -1762,7 +1760,6 @@ ini
 ;
 ;
 mac
-*
 )
 sed
 -

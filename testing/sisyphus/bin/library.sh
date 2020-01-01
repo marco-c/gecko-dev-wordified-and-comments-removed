@@ -999,7 +999,6 @@ OSID
 "
 in
 mac
-*
 )
 get_executable_filter
 =
@@ -1261,9 +1260,6 @@ then
 OSID
 =
 mac
-uname
--
-p
 EXE_EXT
 =
 else
