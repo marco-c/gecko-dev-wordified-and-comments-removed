@@ -408,6 +408,8 @@ ID
 PrototypeID
 class
 T
+typename
+U
 >
 inline
 nsresult
@@ -419,9 +421,8 @@ cx
 JSObject
 *
 obj
-T
-*
-*
+U
+&
 value
 )
 {
@@ -560,7 +561,6 @@ Depth
 PrototypeID
 )
 {
-*
 value
 =
 UnwrapDOMObject
@@ -780,6 +780,8 @@ template
 <
 class
 T
+typename
+U
 >
 inline
 nsresult
@@ -791,9 +793,8 @@ cx
 JSObject
 *
 obj
-T
-*
-*
+U
+&
 value
 )
 {

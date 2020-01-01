@@ -9184,6 +9184,9 @@ UnwrapObject
 {
 protoID
 }
+{
+type
+}
 >
 (
 cx
@@ -10814,15 +10817,6 @@ else
 declType
 =
 typePtr
-            
-target
-=
-"
-&
-{
-declName
-}
-"
         
 else
 :
@@ -10858,18 +10852,6 @@ typeName
 +
 "
 >
-"
-            
-target
-=
-"
-{
-declName
-}
-.
-Slot
-(
-)
 "
         
 templateBody
@@ -10911,7 +10893,11 @@ toObject
 )
 "
                         
-target
+"
+{
+declName
+}
+"
                         
 failureCode
 )
@@ -10941,7 +10927,11 @@ toObject
 )
 "
                         
-target
+"
+{
+declName
+}
+"
 )
 )
         
@@ -15305,7 +15295,7 @@ inner
                                                         
 descriptorProvider
                                                         
-False
+resultAlreadyAddRefed
 )
         
 result
@@ -19293,7 +19283,6 @@ descriptor
 obj
 "
 "
-&
 self
 "
 )
