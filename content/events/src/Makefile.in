@@ -494,6 +494,10 @@ nsDOMDeviceProximityEvent
 .
 cpp
 \
+nsDOMDeviceLightEvent
+.
+cpp
+\
 nsDOMDeviceOrientationEvent
 .
 cpp

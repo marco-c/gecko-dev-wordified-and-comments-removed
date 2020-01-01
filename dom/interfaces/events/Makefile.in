@@ -530,6 +530,10 @@ nsIDOMMozTouchEvent
 .
 idl
 \
+nsIDOMDeviceLightEvent
+.
+idl
+\
 nsIDOMDeviceProximityEvent
 .
 idl

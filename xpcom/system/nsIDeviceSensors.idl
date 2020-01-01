@@ -464,6 +464,13 @@ TYPE_GYROSCOPE
 =
 4
 ;
+const
+unsigned
+long
+TYPE_LIGHT
+=
+5
+;
 readonly
 attribute
 unsigned

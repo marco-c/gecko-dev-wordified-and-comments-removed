@@ -1518,6 +1518,12 @@ case
 hal
 :
 :
+SENSOR_LIGHT
+:
+case
+hal
+:
+:
 SENSOR_PROXIMITY
 :
 values

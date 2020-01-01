@@ -156,6 +156,10 @@ PopupBlockedEvent
 )
 DOMCI_CLASS
 (
+DeviceLightEvent
+)
+DOMCI_CLASS
+(
 DeviceProximityEvent
 )
 DOMCI_CLASS

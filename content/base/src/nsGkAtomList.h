@@ -11833,6 +11833,13 @@ ondeviceproximity
 )
 GK_ATOM
 (
+ondevicelight
+"
+ondevicelight
+"
+)
+GK_ATOM
+(
 cdataTagName
 "
 #
