@@ -184,7 +184,7 @@ T
 ENTITY
 editBookmarkOverlay
 .
-tagsEmptyText
+tagsEmptyDesc
 .
 label
 "
@@ -192,7 +192,6 @@ Separate
 tags
 with
 commas
-.
 "
 >
 <
