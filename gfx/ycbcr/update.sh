@@ -152,3 +152,10 @@ p3
 bug572034_mac_64bit
 .
 patch
+patch
+-
+p3
+<
+bug577645_movntq
+.
+patch
