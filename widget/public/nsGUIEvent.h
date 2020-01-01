@@ -2490,10 +2490,6 @@ willSendDidPaint
 (
 false
 )
-didSendWillPaint
-(
-false
-)
 {
 }
 nsIntRegion
@@ -2501,9 +2497,6 @@ region
 ;
 bool
 willSendDidPaint
-;
-bool
-didSendWillPaint
 ;
 }
 ;

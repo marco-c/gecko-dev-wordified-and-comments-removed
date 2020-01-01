@@ -466,6 +466,8 @@ NS_IMETHOD
 Invalidate
 (
 bool
+aIsSynchronous
+bool
 aEraseBackground
 =
 false
@@ -486,6 +488,13 @@ const
 nsIntRect
 &
 aRect
+bool
+aIsSynchronous
+)
+;
+NS_IMETHOD
+Update
+(
 )
 ;
 virtual

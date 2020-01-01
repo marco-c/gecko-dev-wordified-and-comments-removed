@@ -1267,6 +1267,8 @@ const
 nsIntRect
 *
 aRect
+bool
+aIsSynchronous
 const
 nsCAutoString
 &

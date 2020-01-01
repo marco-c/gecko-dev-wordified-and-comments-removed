@@ -1215,12 +1215,6 @@ DidPaint
 ;
 virtual
 void
-ScheduleViewManagerFlush
-(
-)
-;
-virtual
-void
 DispatchSynthMouseMove
 (
 nsGUIEvent

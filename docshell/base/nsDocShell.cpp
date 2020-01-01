@@ -19004,8 +19004,9 @@ NS_ENSURE_SUCCESS
 viewManager
 -
 >
-InvalidateAllViews
+UpdateAllViews
 (
+0
 )
 NS_ERROR_FAILURE
 )
@@ -28543,9 +28544,10 @@ newRootView
 newVM
 -
 >
-InvalidateView
+UpdateView
 (
 newRootView
+NS_VMREFRESH_NO_SYNC
 )
 ;
 }
