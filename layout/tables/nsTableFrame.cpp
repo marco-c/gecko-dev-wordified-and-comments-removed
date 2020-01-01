@@ -16193,7 +16193,14 @@ d
 p
 "
 colIndex
+static_cast
+<
+void
+*
+>
+(
 childFrame
+)
 )
 ;
 }
