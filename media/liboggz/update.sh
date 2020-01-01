@@ -820,3 +820,10 @@ p3
 faster_seek
 .
 patch
+patch
+-
+p3
+<
+bug516847
+.
+patch

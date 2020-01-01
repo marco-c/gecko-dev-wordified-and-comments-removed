@@ -153,3 +153,17 @@ faster
 over
 HTTP
 .
+bug516847
+.
+patch
+:
+Fix
+for
+bug
+516847
+(
+duplicate
+frame
+handling
+)
+.
