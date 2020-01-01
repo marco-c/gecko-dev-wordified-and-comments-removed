@@ -1873,14 +1873,14 @@ MOZ_IPC
 PRPackedBool
 mIPC
 ;
+PRPackedBool
+mIsBackSurfaceReadable
+;
 nsRefPtr
 <
 gfxASurface
 >
 mBackSurface
-;
-PRPackedBool
-mIsBackSurfaceReadable
 ;
 #
 endif
