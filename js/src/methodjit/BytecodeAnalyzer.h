@@ -53,6 +53,9 @@ exceptionEntry
 bool
 safePoint
 ;
+bool
+inTryBlock
+;
 uint32
 nincoming
 ;

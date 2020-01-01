@@ -2567,6 +2567,15 @@ safePoint
 =
 true
 ;
+frame
+.
+setInTryBlock
+(
+opinfo
+.
+inTryBlock
+)
+;
 jumpMap
 [
 uint32
@@ -16016,7 +16025,7 @@ linkExit
 shapeGuard
 Uses
 (
-1
+2
 )
 )
 ;
