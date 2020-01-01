@@ -2138,7 +2138,7 @@ numSuccessorsWithPhis
 JS_ASSERT
 (
 numSuccessorsWithPhis
-=
+<
 =
 1
 )
