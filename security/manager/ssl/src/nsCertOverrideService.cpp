@@ -2131,15 +2131,14 @@ nsscert
 ;
 if
 (
+!
 nickname
 .
 IsEmpty
 (
 )
 )
-return
-NS_ERROR_FAILURE
-;
+{
 PK11SlotInfo
 *
 slot
@@ -2194,6 +2193,7 @@ SECSuccess
 return
 NS_ERROR_FAILURE
 ;
+}
 nsCAutoString
 fpStr
 ;
