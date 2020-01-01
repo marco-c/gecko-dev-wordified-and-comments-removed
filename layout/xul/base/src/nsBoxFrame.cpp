@@ -443,7 +443,6 @@ PresContext
 ;
 CheckBoxOrder
 (
-state
 )
 ;
 if
@@ -4166,7 +4165,6 @@ newFrames
 ;
 CheckBoxOrder
 (
-state
 )
 ;
 #
@@ -4289,7 +4287,6 @@ newFrames
 ;
 CheckBoxOrder
 (
-state
 )
 ;
 #
@@ -8140,9 +8137,6 @@ nsIFrame
 *
 SortedMerge
 (
-nsBoxLayoutState
-&
-aState
 nsIFrame
 *
 aLeft
@@ -8179,7 +8173,6 @@ aLeft
 >
 GetOrdinal
 (
-aState
 )
 <
 =
@@ -8188,7 +8181,6 @@ aRight
 >
 GetOrdinal
 (
-aState
 )
 )
 {
@@ -8277,7 +8269,6 @@ aLeft
 >
 GetOrdinal
 (
-aState
 )
 <
 =
@@ -8286,7 +8277,6 @@ aRight
 >
 GetOrdinal
 (
-aState
 )
 )
 {
@@ -8379,9 +8369,6 @@ nsIFrame
 *
 MergeSort
 (
-nsBoxLayoutState
-&
-aState
 nsIFrame
 *
 aSource
@@ -8483,7 +8470,6 @@ current
 =
 SortedMerge
 (
-aState
 *
 left
 current
@@ -8555,7 +8541,6 @@ result
 ?
 SortedMerge
 (
-aState
 *
 left
 result
@@ -8576,9 +8561,6 @@ nsBoxFrame
 :
 CheckBoxOrder
 (
-nsBoxLayoutState
-&
-aState
 )
 {
 nsIFrame
@@ -8615,7 +8597,6 @@ child
 >
 GetOrdinal
 (
-aState
 )
 ;
 child
@@ -8650,7 +8631,6 @@ child
 >
 GetOrdinal
 (
-aState
 )
 ;
 if
@@ -8679,7 +8659,6 @@ head
 =
 MergeSort
 (
-aState
 mFrames
 .
 FirstChild
@@ -8821,7 +8800,6 @@ aChild
 >
 GetOrdinal
 (
-aState
 )
 ;
 nsIFrame
@@ -8854,7 +8832,6 @@ child
 >
 GetOrdinal
 (
-aState
 )
 )
 {

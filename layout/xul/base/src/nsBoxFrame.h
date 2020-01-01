@@ -831,9 +831,6 @@ void
 )
 CheckBoxOrder
 (
-nsBoxLayoutState
-&
-aState
 )
 ;
 private
