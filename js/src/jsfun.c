@@ -5252,7 +5252,7 @@ names
 *
 name
 ;
-uint32
+JSLocalKind
 localKind
 ;
 mark
