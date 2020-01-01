@@ -2555,6 +2555,17 @@ true
 :
 not
 (
+[
+open
+=
+"
+true
+"
+]
+)
+:
+not
+(
 :
 active
 )
