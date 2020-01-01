@@ -285,6 +285,11 @@ application
 ini
 bin
 \
+platform
+.
+ini
+bin
+\
 plugins
 \
 npnul32
