@@ -1131,12 +1131,6 @@ mDeferTimeout
 bool
 mTimerRunning
 ;
-nsCOMPtr
-<
-nsIThread
->
-mConnectThread
-;
 }
 ;
 #
@@ -1783,6 +1777,8 @@ DataChannelConnection
 aConnection
 bool
 aResult
+=
+true
 )
 :
 mType
@@ -2042,13 +2038,6 @@ NotifyConnection
 )
 ;
 }
-mConnection
--
->
-mConnectThread
-=
-nullptr
-;
 break
 ;
 case
