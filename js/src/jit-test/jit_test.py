@@ -303,6 +303,9 @@ jitflags
 self
 .
 jitflags
+[
+:
+]
         
 t
 .
