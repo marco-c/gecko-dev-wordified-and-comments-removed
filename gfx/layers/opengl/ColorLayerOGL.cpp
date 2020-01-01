@@ -153,16 +153,6 @@ GetEffectiveTransform
 program
 -
 >
-SetTextureTransform
-(
-gfx3DMatrix
-(
-)
-)
-;
-program
--
->
 SetRenderOffset
 (
 aOffset
