@@ -3165,6 +3165,10 @@ needs_focus
 =
 true
 ;
+cond
+=
+false
+;
 }
 else
 if
