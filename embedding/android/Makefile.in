@@ -1522,7 +1522,13 @@ RES_DRAWABLE
 (
 RES_VALUES
 )
-chrome
+res
+/
+values
+/
+strings
+.
+xml
 FORCE
 (
 AAPT
