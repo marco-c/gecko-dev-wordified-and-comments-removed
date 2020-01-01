@@ -242,6 +242,13 @@ nsIFile
 .
 path
 ;
+DOMApplicationRegistry
+.
+confirmInstall
+(
+config
+)
+;
 delete
 WebappRT
 .
@@ -252,13 +259,6 @@ WebappRT
 config
 =
 deepFreeze
-(
-config
-)
-;
-DOMApplicationRegistry
-.
-confirmInstall
 (
 config
 )
