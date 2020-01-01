@@ -50,9 +50,9 @@ var
 expect
 =
 '
-s
-.
+"
 length
+"
 is
 read
 -

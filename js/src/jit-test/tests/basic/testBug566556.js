@@ -57,10 +57,7 @@ msg
 "
 TypeError
 :
-(
-void
-0
-)
+undefined
 is
 not
 an
