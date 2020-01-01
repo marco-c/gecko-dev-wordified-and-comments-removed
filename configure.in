@@ -66602,11 +66602,11 @@ OS2
 -
 o
 "
-OS_TARGET
+MOZ_WIDGET_TOOLKIT
 "
 =
 "
-Android
+android
 "
 ;
 then
