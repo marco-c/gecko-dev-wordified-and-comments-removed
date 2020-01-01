@@ -1913,6 +1913,10 @@ shared
 .
 cpp
 \
+TypePolicy
+.
+cpp
+\
 (
 NULL
 )

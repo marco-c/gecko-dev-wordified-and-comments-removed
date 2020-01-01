@@ -4,6 +4,13 @@ js_ion_type_oracle_h__
 #
 define
 js_ion_type_oracle_h__
+#
+include
+"
+jsscript
+.
+h
+"
 namespace
 js
 {
