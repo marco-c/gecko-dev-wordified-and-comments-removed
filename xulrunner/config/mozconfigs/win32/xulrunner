@@ -32,12 +32,6 @@ ac_add_options
 -
 disable
 -
-installer
-ac_add_options
--
--
-disable
--
 tests
 mk_add_options
 MOZ_MAKE_FLAGS
