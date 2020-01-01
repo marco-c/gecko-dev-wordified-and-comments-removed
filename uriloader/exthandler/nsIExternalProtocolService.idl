@@ -1078,6 +1078,7 @@ url
 to
 load
 *
+*
 deprecated
 Use
 LoadURI
@@ -1091,6 +1092,9 @@ removal
 )
 *
 /
+[
+deprecated
+]
 void
 loadUrl
 (
