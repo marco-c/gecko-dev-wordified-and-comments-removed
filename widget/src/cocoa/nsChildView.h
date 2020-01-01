@@ -261,6 +261,9 @@ mPendingDirtyRects
 BOOL
 mPendingFullDisplay
 ;
+BOOL
+mPendingDisplay
+;
 nsIDragService
 *
 mDragService
