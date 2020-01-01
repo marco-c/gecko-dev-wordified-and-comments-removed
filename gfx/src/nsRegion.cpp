@@ -6636,7 +6636,7 @@ const
 PRInt64
 kVeryLargeNegativeNumber
 =
-0xffff000000000000
+0xffff000000000000ll
 ;
 PRInt64
 MaxSum1D
@@ -7256,6 +7256,13 @@ bottom
 ;
 }
 bestRectIndices
+=
+{
+0
+0
+0
+0
+}
 ;
 for
 (
