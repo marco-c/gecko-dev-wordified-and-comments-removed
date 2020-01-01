@@ -161,10 +161,13 @@ isFree
 )
 ;
 return
+uint16
+(
 value
 >
 >
 16
+)
 ;
 }
 uint16
