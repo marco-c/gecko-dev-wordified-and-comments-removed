@@ -563,13 +563,6 @@ h
 #
 include
 "
-nsIXPCScriptNotify
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h

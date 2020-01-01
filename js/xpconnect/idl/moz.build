@@ -118,11 +118,6 @@ nsIScriptError
 idl
 '
 '
-nsIXPCScriptNotify
-.
-idl
-'
-'
 nsIXPCScriptable
 .
 idl
