@@ -44,7 +44,7 @@ p
 }
 ;
 NS_COM
-void
+PRBool
 nsCycleCollector_suspect
 (
 nsISupports
