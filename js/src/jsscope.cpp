@@ -6212,9 +6212,6 @@ Shape
 initial
 )
 {
-js
-:
-:
 BaseShape
 base
 (
@@ -6243,6 +6240,15 @@ entry
 )
 return
 NULL
+;
+BaseShape
+*
+nbase
+=
+entry
+-
+>
+base
 ;
 if
 (
@@ -6343,10 +6349,7 @@ shape
 )
 EmptyShape
 (
-entry
--
->
-base
+nbase
 gc
 :
 :
