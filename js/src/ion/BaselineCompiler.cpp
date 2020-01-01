@@ -3512,7 +3512,7 @@ if
 type
 )
 return
-NULL
+false
 ;
 }
 masm
