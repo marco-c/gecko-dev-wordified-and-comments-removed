@@ -88,7 +88,7 @@ struct
 ClonedTypeSet
 ;
 typedef
-jsword
+jsuword
 jstype
 ;
 const
