@@ -1793,9 +1793,6 @@ aDOMDoc
 nsIWidget
 *
 aParentWindow
-nsIDocShell
-*
-aDocShell
 )
 {
 nsCOMPtr
@@ -1921,7 +1918,6 @@ MenuConstruct
 fake
 aParentWindow
 menubarNode
-aDocShell
 )
 ;
 }
@@ -2272,15 +2268,12 @@ if
 (
 menubarDOMDoc
 )
-{
 LoadNativeMenus
 (
 menubarDOMDoc
 mWindow
-mDocShell
 )
 ;
-}
 #
 endif
 OnChromeLoaded

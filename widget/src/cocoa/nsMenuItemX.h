@@ -66,9 +66,6 @@ class
 nsIMenu
 ;
 class
-nsIDocShell
-;
-class
 nsMenuItemIconX
 ;
 class
@@ -291,10 +288,7 @@ nsIWidget
 aParentWindow
 void
 *
-menuNode
-void
-*
-aDocShell
+aMenuNode
 )
 ;
 nsEventStatus

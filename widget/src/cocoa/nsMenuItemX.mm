@@ -550,13 +550,6 @@ h
 #
 include
 "
-nsIDocShell
-.
-h
-"
-#
-include
-"
 nsMenuItemIconX
 .
 h
@@ -1562,10 +1555,7 @@ nsIWidget
 aParentWindow
 void
 *
-menuNode
-void
-*
-aDocShell
+aMenuNode
 )
 {
 return

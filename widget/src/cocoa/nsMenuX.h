@@ -78,9 +78,6 @@ class
 nsIMenuListener
 ;
 class
-nsIDocShell
-;
-class
 nsMenuX
 ;
 class
@@ -185,10 +182,7 @@ nsIWidget
 aParentWindow
 void
 *
-menuNode
-void
-*
-aDocShell
+aMenuNode
 )
 ;
 nsEventStatus
