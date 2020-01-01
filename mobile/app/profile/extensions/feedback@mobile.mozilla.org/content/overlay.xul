@@ -855,6 +855,13 @@ bool
 >
 <
 setting
+id
+=
+"
+feedback
+-
+checkCompatibility
+"
 title
 =
 "
