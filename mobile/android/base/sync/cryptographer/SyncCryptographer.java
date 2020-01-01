@@ -1432,6 +1432,8 @@ KeyBundle
 getCryptoKeysBundleKeys
 (
 )
+throws
+CryptoException
 {
 return
 new

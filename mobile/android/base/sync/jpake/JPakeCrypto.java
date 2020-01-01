@@ -93,6 +93,13 @@ util
 .
 Log
 ;
+import
+java
+.
+security
+.
+InvalidKeyException
+;
 public
 class
 JPakeCrypto
@@ -566,6 +573,8 @@ jp
 )
 throws
 IncorrectZkpException
+NoSuchAlgorithmException
+InvalidKeyException
 {
 Log
 .
@@ -1550,6 +1559,9 @@ byte
 ]
 hmacOut
 )
+throws
+NoSuchAlgorithmException
+InvalidKeyException
 {
 byte
 [
