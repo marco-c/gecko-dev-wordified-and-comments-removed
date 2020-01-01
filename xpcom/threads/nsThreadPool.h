@@ -39,13 +39,6 @@ nsCOMArray
 .
 h
 "
-#
-include
-"
-nsCOMPtr
-.
-h
-"
 class
 nsThreadPool
 :
@@ -107,12 +100,6 @@ mIdleThreadTimeout
 ;
 PRUint32
 mIdleCount
-;
-nsCOMPtr
-<
-nsIThreadPoolListener
->
-mListener
 ;
 PRBool
 mShutdown
