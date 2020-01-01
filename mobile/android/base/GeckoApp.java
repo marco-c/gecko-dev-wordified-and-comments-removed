@@ -3078,15 +3078,6 @@ outState
 ;
 if
 (
-!
-isApplicationInBackground
-(
-)
-)
-return
-;
-if
-(
 outState
 =
 =
