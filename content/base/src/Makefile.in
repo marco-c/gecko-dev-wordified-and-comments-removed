@@ -508,6 +508,10 @@ nsXMLNameSpaceMap
 .
 cpp
 \
+FragmentOrElement
+.
+cpp
+\
 Link
 .
 cpp

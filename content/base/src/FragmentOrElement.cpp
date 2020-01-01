@@ -10,7 +10,11 @@ h
 #
 include
 "
-nsGenericElement
+mozilla
+/
+dom
+/
+FragmentOrElement
 .
 h
 "
@@ -713,9 +717,6 @@ mozilla
 :
 dom
 ;
-#
-if
-0
 NS_DEFINE_IID
 (
 kThisPtrOffsetsSID
@@ -976,7 +977,7 @@ NODE_IS_EDITABLE
 ;
 }
 void
-nsGenericElement
+FragmentOrElement
 :
 :
 UpdateEditableState
@@ -2775,7 +2776,7 @@ aNamespaceURI
 }
 nsIContent
 *
-nsGenericElement
+FragmentOrElement
 :
 :
 GetFirstElementChild
@@ -2845,7 +2846,7 @@ nullptr
 }
 nsIContent
 *
-nsGenericElement
+FragmentOrElement
 :
 :
 GetLastElementChild
@@ -2908,7 +2909,7 @@ nullptr
 }
 nsIContent
 *
-nsGenericElement
+FragmentOrElement
 :
 :
 GetPreviousElementSibling
@@ -2973,7 +2974,7 @@ children
 =
 static_cast
 <
-nsGenericElement
+FragmentOrElement
 *
 >
 (
@@ -3053,7 +3054,7 @@ nullptr
 }
 nsIContent
 *
-nsGenericElement
+FragmentOrElement
 :
 :
 GetNextElementSibling
@@ -3118,7 +3119,7 @@ children
 =
 static_cast
 <
-nsGenericElement
+FragmentOrElement
 *
 >
 (
@@ -3210,7 +3211,7 @@ nullptr
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetChildElementCount
@@ -3238,7 +3239,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetChildElements
@@ -3264,7 +3265,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetFirstElementChild
@@ -3301,7 +3302,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetLastElementChild
@@ -3338,7 +3339,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetPreviousElementSibling
@@ -3375,7 +3376,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetNextElementSibling
@@ -3413,14 +3414,14 @@ NS_OK
 }
 nsContentList
 *
-nsGenericElement
+FragmentOrElement
 :
 :
 GetChildrenList
 (
 )
 {
-nsGenericElement
+FragmentOrElement
 :
 :
 nsDOMSlots
@@ -3471,7 +3472,7 @@ mChildrenList
 }
 nsDOMTokenList
 *
-nsGenericElement
+FragmentOrElement
 :
 :
 GetClassList
@@ -3486,7 +3487,7 @@ aResult
 =
 NS_ERROR_OUT_OF_MEMORY
 ;
-nsGenericElement
+FragmentOrElement
 :
 :
 nsDOMSlots
@@ -3557,7 +3558,7 @@ mClassList
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetClassList
@@ -3605,7 +3606,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 SetCapture
@@ -3648,7 +3649,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 ReleaseCapture
@@ -3684,7 +3685,7 @@ NS_OK
 }
 nsIFrame
 *
-nsGenericElement
+FragmentOrElement
 :
 :
 GetStyledFrame
@@ -3715,7 +3716,7 @@ nullptr
 ;
 }
 void
-nsGenericElement
+FragmentOrElement
 :
 :
 GetOffsetRect
@@ -3857,7 +3858,7 @@ height
 ;
 }
 nsIntSize
-nsGenericElement
+FragmentOrElement
 :
 :
 GetPaddingRectSize
@@ -3946,7 +3947,7 @@ height
 }
 nsIScrollableFrame
 *
-nsGenericElement
+FragmentOrElement
 :
 :
 GetScrollFrame
@@ -4130,7 +4131,7 @@ nullptr
 ;
 }
 PRInt32
-nsGenericElement
+FragmentOrElement
 :
 :
 GetScrollTop
@@ -4167,7 +4168,7 @@ y
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetScrollTop
@@ -4189,7 +4190,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 SetScrollTop
@@ -4247,7 +4248,7 @@ NS_OK
 ;
 }
 PRInt32
-nsGenericElement
+FragmentOrElement
 :
 :
 GetScrollLeft
@@ -4284,7 +4285,7 @@ x
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetScrollLeft
@@ -4306,7 +4307,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 SetScrollLeft
@@ -4364,7 +4365,7 @@ NS_OK
 ;
 }
 PRInt32
-nsGenericElement
+FragmentOrElement
 :
 :
 GetScrollHeight
@@ -4434,7 +4435,7 @@ height
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetScrollHeight
@@ -4456,7 +4457,7 @@ NS_OK
 ;
 }
 PRInt32
-nsGenericElement
+FragmentOrElement
 :
 :
 GetScrollWidth
@@ -4526,7 +4527,7 @@ width
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetScrollWidth
@@ -4682,7 +4683,7 @@ NS_OK
 ;
 }
 nsRect
-nsGenericElement
+FragmentOrElement
 :
 :
 GetClientAreaRect
@@ -4777,7 +4778,7 @@ nsRect
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetClientTop
@@ -4799,7 +4800,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetClientLeft
@@ -4821,7 +4822,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetClientHeight
@@ -4843,7 +4844,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetClientWidth
@@ -4865,7 +4866,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetBoundingClientRect
@@ -4947,7 +4948,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetElementsByClassName
@@ -4975,7 +4976,7 @@ aReturn
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetClientRects
@@ -5340,7 +5341,7 @@ nsIContent
 *
 result
 =
-nsGenericElement
+FragmentOrElement
 :
 :
 doQuerySelector
@@ -5380,7 +5381,7 @@ aReturn
 )
 {
 return
-nsGenericElement
+FragmentOrElement
 :
 :
 doQuerySelectorAll
@@ -5441,7 +5442,7 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 nsInlineEventHandlersTearoff
 )
-nsGenericElement
+FragmentOrElement
 :
 :
 nsDOMSlots
@@ -5467,7 +5468,7 @@ nullptr
 )
 {
 }
-nsGenericElement
+FragmentOrElement
 :
 :
 nsDOMSlots
@@ -5506,7 +5507,7 @@ DropReference
 }
 }
 void
-nsGenericElement
+FragmentOrElement
 :
 :
 nsDOMSlots
@@ -5658,7 +5659,7 @@ get
 ;
 }
 void
-nsGenericElement
+FragmentOrElement
 :
 :
 nsDOMSlots
@@ -5726,12 +5727,10 @@ nullptr
 ;
 }
 }
-#
-endif
-nsGenericElement
+FragmentOrElement
 :
 :
-nsGenericElement
+FragmentOrElement
 (
 already_AddRefed
 <
@@ -5740,20 +5739,72 @@ nsINodeInfo
 aNodeInfo
 )
 :
-FragmentOrElement
+Element
 (
 aNodeInfo
 )
 {
+NS_ABORT_IF_FALSE
+(
+mNodeInfo
+-
+>
+NodeType
+(
+)
+=
+=
+nsIDOMNode
+:
+:
+ELEMENT_NODE
+|
+|
+(
+mNodeInfo
+-
+>
+NodeType
+(
+)
+=
+=
+nsIDOMNode
+:
+:
+DOCUMENT_FRAGMENT_NODE
+&
+&
+mNodeInfo
+-
+>
+Equals
+(
+nsGkAtoms
+:
+:
+documentFragmentNodeName
+kNameSpaceID_None
+)
+)
+"
+Bad
+NodeType
+in
+aNodeInfo
+"
+)
+;
+SetIsElement
+(
+)
+;
 }
-#
-if
-0
-nsGenericElement
+FragmentOrElement
 :
 :
 ~
-nsGenericElement
+FragmentOrElement
 (
 )
 {
@@ -5789,7 +5840,7 @@ mParent
 }
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetNodeName
@@ -5810,7 +5861,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetLocalName
@@ -5831,7 +5882,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetNodeValue
@@ -5851,7 +5902,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 SetNodeValue
@@ -5867,7 +5918,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetNodeType
@@ -5889,7 +5940,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetNamespaceURI
@@ -5910,7 +5961,7 @@ aNamespaceURI
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetPrefix
@@ -5933,7 +5984,7 @@ NS_OK
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 InternalIsSupported
@@ -6426,7 +6477,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 IsSupported
@@ -6455,7 +6506,7 @@ aReturn
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 HasAttributes
@@ -6484,7 +6535,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetAttributes
@@ -6557,7 +6608,7 @@ NS_OK
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 HasChildNodes
@@ -6583,7 +6634,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetTagName
@@ -6604,7 +6655,7 @@ NS_OK
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 GetAttribute
@@ -6686,7 +6737,7 @@ NS_OK
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 SetAttribute
@@ -6789,7 +6840,7 @@ true
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 RemoveAttribute
@@ -6847,7 +6898,7 @@ true
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 GetAttributeNode
@@ -6965,7 +7016,7 @@ rv
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 SetAttributeNode
@@ -7075,7 +7126,7 @@ rv
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 RemoveAttributeNode
@@ -7207,7 +7258,7 @@ rv
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 GetElementsByTagName
@@ -7247,7 +7298,7 @@ NS_OK
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 GetAttributeNS
@@ -7336,7 +7387,7 @@ NS_OK
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 SetAttributeNS
@@ -7420,7 +7471,7 @@ true
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 RemoveAttributeNS
@@ -7486,7 +7537,7 @@ NS_OK
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 GetAttributeNodeNS
@@ -7538,7 +7589,7 @@ aReturn
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 GetAttributeNodeNSInternal
@@ -7626,7 +7677,7 @@ rv
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 SetAttributeNodeNS
@@ -7736,7 +7787,7 @@ rv
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 GetElementsByTagNameNS
@@ -7836,7 +7887,7 @@ NS_OK
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 HasAttribute
@@ -7880,7 +7931,7 @@ NS_OK
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 HasAttributeNS
@@ -8217,7 +8268,7 @@ NS_OK
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 BindToTree
@@ -9169,7 +9220,7 @@ mBindingParent
 }
 ;
 void
-nsGenericElement
+FragmentOrElement
 :
 :
 UnbindFromTree
@@ -9562,7 +9613,7 @@ already_AddRefed
 <
 nsINodeList
 >
-nsGenericElement
+FragmentOrElement
 :
 :
 GetChildren
@@ -10579,7 +10630,7 @@ NS_OK
 const
 nsAttrValue
 *
-nsGenericElement
+FragmentOrElement
 :
 :
 DoGetClasses
@@ -10604,7 +10655,7 @@ nullptr
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 WalkContentStyleRules
@@ -10620,14 +10671,14 @@ NS_OK
 }
 nsICSSDeclaration
 *
-nsGenericElement
+FragmentOrElement
 :
 :
 GetSMILOverrideStyle
 (
 )
 {
-nsGenericElement
+FragmentOrElement
 :
 :
 nsDOMSlots
@@ -10672,14 +10723,14 @@ css
 :
 StyleRule
 *
-nsGenericElement
+FragmentOrElement
 :
 :
 GetSMILOverrideStyleRule
 (
 )
 {
-nsGenericElement
+FragmentOrElement
 :
 :
 nsDOMSlots
@@ -10706,7 +10757,7 @@ nullptr
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 SetSMILOverrideStyleRule
@@ -10721,7 +10772,7 @@ bool
 aNotify
 )
 {
-nsGenericElement
+FragmentOrElement
 :
 :
 nsDOMSlots
@@ -10792,7 +10843,7 @@ NS_OK
 ;
 }
 bool
-nsGenericElement
+FragmentOrElement
 :
 :
 IsLabelable
@@ -10809,7 +10860,7 @@ css
 :
 StyleRule
 *
-nsGenericElement
+FragmentOrElement
 :
 :
 GetInlineStyleRule
@@ -10821,7 +10872,7 @@ nullptr
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 SetInlineStyleRule
@@ -10843,7 +10894,7 @@ aNotify
 NS_NOTYETIMPLEMENTED
 (
 "
-nsGenericElement
+FragmentOrElement
 :
 :
 SetInlineStyleRule
@@ -10858,7 +10909,7 @@ NS_IMETHODIMP_
 (
 bool
 )
-nsGenericElement
+FragmentOrElement
 :
 :
 IsAttributeMapped
@@ -10875,7 +10926,7 @@ false
 ;
 }
 nsChangeHint
-nsGenericElement
+FragmentOrElement
 :
 :
 GetAttributeChangeHint
@@ -10898,7 +10949,7 @@ nsChangeHint
 }
 nsIAtom
 *
-nsGenericElement
+FragmentOrElement
 :
 :
 GetClassAttributeName
@@ -10911,7 +10962,7 @@ nullptr
 ;
 }
 bool
-nsGenericElement
+FragmentOrElement
 :
 :
 FindAttributeDependence
@@ -10995,7 +11046,7 @@ already_AddRefed
 <
 nsINodeInfo
 >
-nsGenericElement
+FragmentOrElement
 :
 :
 GetExistingAttrNameFromQName
@@ -11092,7 +11143,7 @@ nodeInfo
 ;
 }
 bool
-nsGenericElement
+FragmentOrElement
 :
 :
 IsLink
@@ -11114,7 +11165,7 @@ false
 ;
 }
 bool
-nsGenericElement
+FragmentOrElement
 :
 :
 ShouldBlur
@@ -11220,7 +11271,7 @@ contentToBlur
 }
 nsIContent
 *
-nsGenericElement
+FragmentOrElement
 :
 :
 GetBindingParent
@@ -11253,7 +11304,7 @@ nullptr
 ;
 }
 bool
-nsGenericElement
+FragmentOrElement
 :
 :
 IsNodeOfType
@@ -11274,7 +11325,7 @@ eCONTENT
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 InsertChildAt
@@ -11308,7 +11359,7 @@ mAttrsAndChildren
 ;
 }
 void
-nsGenericElement
+FragmentOrElement
 :
 :
 RemoveChildAt
@@ -11365,7 +11416,7 @@ mAttrsAndChildren
 }
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetTextContent
@@ -11390,7 +11441,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 SetTextContent
@@ -11414,7 +11465,7 @@ false
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 DispatchEvent
@@ -11531,7 +11582,7 @@ aStatus
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 DispatchClickEvent
@@ -11750,7 +11801,7 @@ aStatus
 }
 nsIFrame
 *
-nsGenericElement
+FragmentOrElement
 :
 :
 GetPrimaryFrame
@@ -11792,7 +11843,7 @@ GetPrimaryFrame
 ;
 }
 void
-nsGenericElement
+FragmentOrElement
 :
 :
 DestroyContent
@@ -11878,7 +11929,7 @@ DestroyContent
 }
 }
 void
-nsGenericElement
+FragmentOrElement
 :
 :
 SaveSubtreeState
@@ -11925,7 +11976,7 @@ SaveSubtreeState
 }
 }
 void
-nsGenericElement
+FragmentOrElement
 :
 :
 FireNodeInserted
@@ -12036,7 +12087,7 @@ RunDOMEventWhenSafe
 }
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
-nsGenericElement
+FragmentOrElement
 )
 #
 define
@@ -12124,13 +12175,13 @@ DOCUMENT_FRAGMENT_NODE
 return
 ;
 }
-nsGenericElement
+FragmentOrElement
 *
 container
 =
 static_cast
 <
-nsGenericElement
+FragmentOrElement
 *
 >
 (
@@ -12521,7 +12572,7 @@ sContentUnbinder
 nullptr
 ;
 void
-nsGenericElement
+FragmentOrElement
 :
 :
 ClearContentUnbinder
@@ -12538,7 +12589,7 @@ UnbindAll
 }
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
-nsGenericElement
+FragmentOrElement
 )
 nsINode
 :
@@ -12846,7 +12897,7 @@ doc
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN
 (
-nsGenericElement
+FragmentOrElement
 )
 nsINode
 :
@@ -12860,7 +12911,7 @@ aClosure
 ;
 NS_IMPL_CYCLE_COLLECTION_TRACE_END
 void
-nsGenericElement
+FragmentOrElement
 :
 :
 MarkUserData
@@ -12908,7 +12959,7 @@ gen
 ;
 }
 void
-nsGenericElement
+FragmentOrElement
 :
 :
 MarkUserDataHandler
@@ -12941,7 +12992,7 @@ aChild
 ;
 }
 void
-nsGenericElement
+FragmentOrElement
 :
 :
 MarkNodeChildren
@@ -13023,7 +13074,7 @@ DOM_USER_DATA
 Enumerate
 (
 aNode
-nsGenericElement
+FragmentOrElement
 :
 :
 MarkUserData
@@ -13046,7 +13097,7 @@ DOM_USER_DATA_HANDLER
 Enumerate
 (
 aNode
-nsGenericElement
+FragmentOrElement
 :
 :
 MarkUserDataHandler
@@ -13212,7 +13263,7 @@ nullptr
 ;
 }
 bool
-nsGenericElement
+FragmentOrElement
 :
 :
 CanSkipInCC
@@ -13999,7 +14050,7 @@ AsElement
 ;
 }
 bool
-nsGenericElement
+FragmentOrElement
 :
 :
 CanSkip
@@ -14611,7 +14662,7 @@ true
 ;
 }
 bool
-nsGenericElement
+FragmentOrElement
 :
 :
 CanSkipThis
@@ -14699,7 +14750,7 @@ aNode
 ;
 }
 void
-nsGenericElement
+FragmentOrElement
 :
 :
 InitCCCallbacks
@@ -14719,10 +14770,10 @@ ClearBlackMarkedNodes
 }
 NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_BEGIN
 (
-nsGenericElement
+FragmentOrElement
 )
 return
-nsGenericElement
+FragmentOrElement
 :
 :
 CanSkip
@@ -14734,10 +14785,10 @@ aRemovingAllowed
 NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_END
 NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_IN_CC_BEGIN
 (
-nsGenericElement
+FragmentOrElement
 )
 return
-nsGenericElement
+FragmentOrElement
 :
 :
 CanSkipInCC
@@ -14748,10 +14799,10 @@ tmp
 NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_IN_CC_END
 NS_IMPL_CYCLE_COLLECTION_CAN_SKIP_THIS_BEGIN
 (
-nsGenericElement
+FragmentOrElement
 )
 return
-nsGenericElement
+FragmentOrElement
 :
 :
 CanSkipThis
@@ -14836,7 +14887,7 @@ Events
 ;
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INTERNAL
 (
-nsGenericElement
+FragmentOrElement
 )
 if
 (
@@ -15074,7 +15125,7 @@ sizeof
 name
 )
 "
-nsGenericElement
+FragmentOrElement
 %
 s
 %
@@ -15129,7 +15180,7 @@ get
 )
 sizeof
 (
-nsGenericElement
+FragmentOrElement
 )
 name
 )
@@ -15139,7 +15190,7 @@ else
 {
 NS_IMPL_CYCLE_COLLECTION_DESCRIBE
 (
-nsGenericElement
+FragmentOrElement
 tmp
 -
 >
@@ -15565,12 +15616,12 @@ IsXUL
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_INTERFACE_MAP_BEGIN
 (
-nsGenericElement
+FragmentOrElement
 )
 NS_WRAPPERCACHE_INTERFACE_MAP_ENTRY
 NS_INTERFACE_MAP_ENTRIES_CYCLE_COLLECTION
 (
-nsGenericElement
+FragmentOrElement
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -15641,11 +15692,11 @@ nsIContent
 NS_INTERFACE_MAP_END
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
-nsGenericElement
+FragmentOrElement
 )
 NS_IMPL_CYCLE_COLLECTING_RELEASE_WITH_DESTROY
 (
-nsGenericElement
+FragmentOrElement
 nsNodeUtils
 :
 :
@@ -15655,7 +15706,7 @@ this
 )
 )
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 PostQueryInterface
@@ -15688,7 +15739,7 @@ aInstancePtr
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 LeaveLink
@@ -15729,7 +15780,7 @@ OnLeaveLink
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 AddScriptEventListener
@@ -15841,7 +15892,7 @@ NS_OK
 const
 nsAttrName
 *
-nsGenericElement
+FragmentOrElement
 :
 :
 InternalGetExistingAttrNameFromQName
@@ -15863,12 +15914,12 @@ aStr
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 CopyInnerTo
 (
-nsGenericElement
+FragmentOrElement
 *
 aDst
 )
@@ -15975,7 +16026,7 @@ NS_OK
 ;
 }
 bool
-nsGenericElement
+FragmentOrElement
 :
 :
 MaybeCheckSameAttrVal
@@ -16163,7 +16214,7 @@ false
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 SetAttr
@@ -16334,7 +16385,7 @@ kCallAfterSetAttr
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 SetParsedAttr
@@ -16478,7 +16529,7 @@ kCallAfterSetAttr
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 SetAttrAndNotify
@@ -16922,7 +16973,7 @@ NS_OK
 ;
 }
 bool
-nsGenericElement
+FragmentOrElement
 :
 :
 ParseAttribute
@@ -16946,7 +16997,7 @@ false
 ;
 }
 bool
-nsGenericElement
+FragmentOrElement
 :
 :
 SetMappedAttribute
@@ -16976,7 +17027,7 @@ false
 }
 nsEventListenerManager
 *
-nsGenericElement
+FragmentOrElement
 :
 :
 GetEventListenerManagerForAttr
@@ -17001,11 +17052,11 @@ true
 )
 ;
 }
-nsGenericElement
+FragmentOrElement
 :
 :
 nsAttrInfo
-nsGenericElement
+FragmentOrElement
 :
 :
 GetAttrInfo
@@ -17095,7 +17146,7 @@ nullptr
 ;
 }
 bool
-nsGenericElement
+FragmentOrElement
 :
 :
 GetAttr
@@ -17184,7 +17235,7 @@ true
 ;
 }
 bool
-nsGenericElement
+FragmentOrElement
 :
 :
 HasAttr
@@ -17242,7 +17293,7 @@ aNameSpaceID
 ;
 }
 bool
-nsGenericElement
+FragmentOrElement
 :
 :
 AttrValueIs
@@ -17313,7 +17364,7 @@ aCaseSensitive
 ;
 }
 bool
-nsGenericElement
+FragmentOrElement
 :
 :
 AttrValueIs
@@ -17393,7 +17444,7 @@ aCaseSensitive
 ;
 }
 PRInt32
-nsGenericElement
+FragmentOrElement
 :
 :
 FindAttrValueIn
@@ -17510,7 +17561,7 @@ ATTR_MISSING
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 UnsetAttr
@@ -17923,7 +17974,7 @@ NS_OK
 const
 nsAttrName
 *
-nsGenericElement
+FragmentOrElement
 :
 :
 GetAttrNameAt
@@ -17943,7 +17994,7 @@ aIndex
 ;
 }
 PRUint32
-nsGenericElement
+FragmentOrElement
 :
 :
 GetAttrCount
@@ -17962,7 +18013,7 @@ AttrCount
 const
 nsTextFragment
 *
-nsGenericElement
+FragmentOrElement
 :
 :
 GetText
@@ -17974,7 +18025,7 @@ nullptr
 ;
 }
 PRUint32
-nsGenericElement
+FragmentOrElement
 :
 :
 TextLength
@@ -17986,7 +18037,7 @@ NS_NOTREACHED
 (
 "
 called
-nsGenericElement
+FragmentOrElement
 :
 :
 TextLength
@@ -17998,7 +18049,7 @@ return
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 SetText
@@ -18017,7 +18068,7 @@ NS_ERROR
 (
 "
 called
-nsGenericElement
+FragmentOrElement
 :
 :
 SetText
@@ -18029,7 +18080,7 @@ NS_ERROR_FAILURE
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 AppendText
@@ -18048,7 +18099,7 @@ NS_ERROR
 (
 "
 called
-nsGenericElement
+FragmentOrElement
 :
 :
 AppendText
@@ -18060,7 +18111,7 @@ NS_ERROR_FAILURE
 ;
 }
 bool
-nsGenericElement
+FragmentOrElement
 :
 :
 TextIsOnlyWhitespace
@@ -18072,7 +18123,7 @@ false
 ;
 }
 void
-nsGenericElement
+FragmentOrElement
 :
 :
 AppendTextTo
@@ -18086,7 +18137,7 @@ NS_NOTREACHED
 (
 "
 called
-nsGenericElement
+FragmentOrElement
 :
 :
 TextLength
@@ -18098,7 +18149,7 @@ TextLength
 ifdef
 DEBUG
 void
-nsGenericElement
+FragmentOrElement
 :
 :
 ListAttributes
@@ -18271,7 +18322,7 @@ out
 }
 }
 void
-nsGenericElement
+FragmentOrElement
 :
 :
 List
@@ -18575,13 +18626,13 @@ n
 out
 )
 ;
-nsGenericElement
+FragmentOrElement
 *
 nonConstThis
 =
 const_cast
 <
-nsGenericElement
+FragmentOrElement
 *
 >
 (
@@ -18961,7 +19012,7 @@ out
 }
 }
 void
-nsGenericElement
+FragmentOrElement
 :
 :
 DumpContent
@@ -19175,7 +19226,7 @@ out
 #
 endif
 PRUint32
-nsGenericElement
+FragmentOrElement
 :
 :
 GetChildCount
@@ -19193,7 +19244,7 @@ ChildCount
 }
 nsIContent
 *
-nsGenericElement
+FragmentOrElement
 :
 :
 GetChildAt
@@ -19216,7 +19267,7 @@ nsIContent
 *
 const
 *
-nsGenericElement
+FragmentOrElement
 :
 :
 GetChildArray
@@ -19237,7 +19288,7 @@ aChildCount
 ;
 }
 PRInt32
-nsGenericElement
+FragmentOrElement
 :
 :
 IndexOf
@@ -19262,7 +19313,7 @@ nsINode
 :
 nsSlots
 *
-nsGenericElement
+FragmentOrElement
 :
 :
 CreateSlots
@@ -19277,7 +19328,7 @@ nsDOMSlots
 ;
 }
 bool
-nsGenericElement
+FragmentOrElement
 :
 :
 CheckHandleEventForLinksPrecondition
@@ -19382,7 +19433,7 @@ aURI
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 PreHandleEventForLinks
@@ -19602,7 +19653,7 @@ rv
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 PostHandleEventForLinks
@@ -20120,7 +20171,7 @@ rv
 ;
 }
 void
-nsGenericElement
+FragmentOrElement
 :
 :
 FireNodeRemovedForChildren
@@ -20209,7 +20260,7 @@ doc
 }
 }
 void
-nsGenericElement
+FragmentOrElement
 :
 :
 GetLinkTarget
@@ -20850,7 +20901,7 @@ mElement
 ;
 nsIContent
 *
-nsGenericElement
+FragmentOrElement
 :
 :
 doQuerySelector
@@ -20901,7 +20952,7 @@ mElement
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 doQuerySelectorAll
@@ -20968,7 +21019,7 @@ contentList
 ;
 }
 bool
-nsGenericElement
+FragmentOrElement
 :
 :
 MozMatchesSelector
@@ -21059,7 +21110,7 @@ matches
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 MozMatchesSelector
@@ -21102,7 +21153,7 @@ rv
 ;
 }
 size_t
-nsGenericElement
+FragmentOrElement
 :
 :
 SizeOfExcludingThis
@@ -21160,7 +21211,7 @@ CORS_USE_CREDENTIALS
 }
 ;
 void
-nsGenericElement
+FragmentOrElement
 :
 :
 ParseCORSValue
@@ -21201,7 +21252,7 @@ success
 ;
 }
 CORSMode
-nsGenericElement
+FragmentOrElement
 :
 :
 StringToCORSMode
@@ -21228,7 +21279,7 @@ CORS_NONE
 nsAttrValue
 val
 ;
-nsGenericElement
+FragmentOrElement
 :
 :
 ParseCORSValue
@@ -21249,7 +21300,7 @@ GetEnumValue
 ;
 }
 CORSMode
-nsGenericElement
+FragmentOrElement
 :
 :
 AttrValueToCORSMode
@@ -21283,7 +21334,7 @@ GetEnumValue
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetOnmouseenter
@@ -21311,7 +21362,7 @@ vp
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 SetOnmouseenter
@@ -21340,7 +21391,7 @@ v
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 GetOnmouseleave
@@ -21368,7 +21419,7 @@ vp
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 SetOnmouseleave
@@ -21397,7 +21448,7 @@ v
 ;
 }
 NS_IMETHODIMP
-nsGenericElement
+FragmentOrElement
 :
 :
 MozRequestPointerLock
@@ -21506,7 +21557,7 @@ nullptr
 ;
 }
 nsresult
-nsGenericElement
+FragmentOrElement
 :
 :
 MozRequestFullScreen
@@ -21599,5 +21650,3 @@ return
 NS_OK
 ;
 }
-#
-endif

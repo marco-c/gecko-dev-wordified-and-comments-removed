@@ -201,7 +201,13 @@ aResult
 ;
 friend
 class
-nsGenericElement
+mozilla
+:
+:
+dom
+:
+:
+FragmentOrElement
 ;
 nsresult
 ReparseStyleAttribute
