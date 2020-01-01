@@ -488,10 +488,6 @@ nsEditorEventListeners
 .
 cpp
 \
-nsWrapUtils
-.
-cpp
-\
 nsInternetCiter
 .
 cpp
