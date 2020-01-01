@@ -489,9 +489,6 @@ NS_ERROR_FAILURE
 mozilla
 :
 :
-AndroidBridge
-:
-:
 AutoLocalJNIFrame
 autoFrame
 (
