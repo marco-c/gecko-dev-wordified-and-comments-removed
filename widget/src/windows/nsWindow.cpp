@@ -14972,6 +14972,9 @@ PR_TRUE
 break
 ;
 case
+WM_MOUSEWHEEL
+:
+case
 WM_SETFOCUS
 :
 case
