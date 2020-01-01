@@ -113,6 +113,16 @@ r
 )
 ;
 }
+static
+bool
+IsAsciiCompatible
+(
+const
+nsACString
+&
+aPreferredName
+)
+;
 private
 :
 EncodingUtils
