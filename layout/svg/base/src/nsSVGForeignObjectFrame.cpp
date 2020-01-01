@@ -262,6 +262,17 @@ aPrevInFlow
 AddStateBits
 (
 NS_STATE_SVG_PROPAGATE_TRANSFORM
+|
+(
+aParent
+-
+>
+GetStateBits
+(
+)
+&
+NS_STATE_SVG_NONDISPLAY_CHILD
+)
 )
 ;
 if
@@ -618,9 +629,6 @@ aFlags
 {
 if
 (
-mParent
--
->
 GetStateBits
 (
 )
@@ -1221,9 +1229,6 @@ aOut
 {
 if
 (
-mParent
--
->
 GetStateBits
 (
 )
@@ -1552,9 +1557,6 @@ UpdateCoveredRegion
 {
 if
 (
-mParent
--
->
 GetStateBits
 (
 )
@@ -1921,9 +1923,6 @@ if
 (
 !
 (
-mParent
--
->
 GetStateBits
 (
 )
@@ -2031,9 +2030,6 @@ nsnull
 ;
 if
 (
-mParent
--
->
 GetStateBits
 (
 )
@@ -2595,9 +2591,6 @@ return
 ;
 if
 (
-mParent
--
->
 GetStateBits
 (
 )
