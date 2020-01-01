@@ -970,6 +970,16 @@ msse2
 '
 ]
 '
+cflags_mozilla
+'
+:
+[
+'
+-
+msse2
+'
+]
+'
 xcode_settings
 '
 :

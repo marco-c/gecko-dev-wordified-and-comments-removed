@@ -27,10 +27,7 @@ DEFS_Debug
 DWEBRTC_SVNREVISION
 =
 "
-Unavailable
-(
-issue687
-)
+Unavailable_issue687
 "
 '
 \
@@ -592,10 +589,7 @@ DEFS_Release
 DWEBRTC_SVNREVISION
 =
 "
-Unavailable
-(
-issue687
-)
+Unavailable_issue687
 "
 '
 \

@@ -1037,10 +1037,7 @@ WEBRTC_SVNREVISION
 \
 \
 "
-Unavailable
-(
-issue687
-)
+Unavailable_issue687
 \
 \
 \
