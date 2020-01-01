@@ -124,14 +124,14 @@ h
 '
 compiler
 /
-debug
+compilerdebug
 .
 cpp
 '
 '
 compiler
 /
-debug
+compilerdebug
 .
 h
 '

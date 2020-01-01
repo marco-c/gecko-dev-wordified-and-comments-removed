@@ -554,7 +554,7 @@ VariableInfo
 .
 cpp
 \
-debug
+compilerdebug
 .
 cpp
 \
