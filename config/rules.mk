@@ -5091,7 +5091,7 @@ autoconf
 .
 mk
 (
-DEPTH
+topsrcdir
 )
 /
 config
