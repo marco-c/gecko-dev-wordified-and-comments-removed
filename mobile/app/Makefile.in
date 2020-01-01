@@ -1406,6 +1406,10 @@ APP_BINARY
 )
 ifdef
 MOZ_FASTSTART
+ifdef
+_MSC_VER
+ifdef
+WINCE
 cp
 (
 LIBXUL_DIST
@@ -1426,6 +1430,8 @@ bin
 (
 APP_BINARY_FASTSTART
 )
+endif
+endif
 endif
 ifndef
 SKIP_COPY_XULRUNNER
