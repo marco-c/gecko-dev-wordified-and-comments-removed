@@ -1455,6 +1455,9 @@ uint32_t
 lineno
 ;
 uint32_t
+column
+;
+uint32_t
 mainOffset
 ;
 uint32_t
@@ -1470,9 +1473,6 @@ private
 :
 uint32_t
 useCount
-;
-uint32_t
-PADDING32
 ;
 #
 ifdef
@@ -2491,6 +2491,17 @@ scr
 bool
 *
 worked
+)
+;
+void
+setSourceObject
+(
+js
+:
+:
+ScriptSourceObject
+*
+object
 )
 ;
 js

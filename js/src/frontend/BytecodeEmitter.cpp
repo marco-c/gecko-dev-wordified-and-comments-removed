@@ -12563,7 +12563,6 @@ switchToProlog
 ;
 if
 (
-!
 Emit1
 (
 cx
