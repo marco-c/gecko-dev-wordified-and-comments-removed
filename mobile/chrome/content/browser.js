@@ -4611,10 +4611,6 @@ nsIDOMHTMLMediaElement
 {
 title
 =
-state
-.
-mediaURL
-=
 (
 popupNode
 .
