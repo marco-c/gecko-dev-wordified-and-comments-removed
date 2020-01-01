@@ -103,7 +103,7 @@ Welcome
 LOCALIZATION
 NOTE
 (
-bookmarks_about
+bookmarks_aboutBrowser
 )
 :
 #
@@ -115,10 +115,12 @@ about
 fennec
 #
 define
-bookmarks_about
+bookmarks_aboutBrowser
 Firefox
 :
 About
+your
+browser
 #
 LOCALIZATION
 NOTE
