@@ -133,6 +133,16 @@ aboutReader
 .
 css
 )
+skin
+/
+aboutReaderContent
+.
+css
+(
+aboutReaderContent
+.
+css
+)
 *
 skin
 /
