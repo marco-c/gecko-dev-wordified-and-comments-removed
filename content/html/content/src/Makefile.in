@@ -187,6 +187,10 @@ HTMLImageElement
 .
 h
 \
+HTMLInputElement
+.
+h
+\
 HTMLLabelElement
 .
 h
@@ -449,7 +453,7 @@ HTMLImageElement
 .
 cpp
 \
-nsHTMLInputElement
+HTMLInputElement
 .
 cpp
 \

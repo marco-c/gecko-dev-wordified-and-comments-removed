@@ -1,9 +1,9 @@
 #
 ifndef
-nsHTMLInputElement_h__
+mozilla_dom_HTMLInputElement_h
 #
 define
-nsHTMLInputElement_h__
+mozilla_dom_HTMLInputElement_h
 #
 include
 "
@@ -110,6 +110,12 @@ nsIRadioGroupVisitor
 class
 nsIRadioVisitor
 ;
+namespace
+mozilla
+{
+namespace
+dom
+{
 class
 UploadLastDir
 MOZ_FINAL
@@ -149,7 +155,7 @@ aDomFile
 }
 ;
 class
-nsHTMLInputElement
+HTMLInputElement
 :
 public
 nsGenericHTMLFormElement
@@ -174,7 +180,7 @@ nsIConstraintValidation
 :
 GetValidationMessage
 ;
-nsHTMLInputElement
+HTMLInputElement
 (
 already_AddRefed
 <
@@ -193,13 +199,13 @@ aFromParser
 ;
 virtual
 ~
-nsHTMLInputElement
+HTMLInputElement
 (
 )
 ;
 NS_IMPL_FROMCONTENT_HTML_WITH_TAG
 (
-nsHTMLInputElement
+HTMLInputElement
 input
 )
 NS_DECL_ISUPPORTS_INHERITED
@@ -217,9 +223,6 @@ virtual
 void
 Focus
 (
-mozilla
-:
-:
 ErrorResult
 &
 aError
@@ -810,7 +813,7 @@ FireAsyncClickHandler
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
-nsHTMLInputElement
+HTMLInputElement
 nsGenericHTMLFormElement
 )
 static
@@ -2086,7 +2089,7 @@ public
 :
 AsyncClickHandler
 (
-nsHTMLInputElement
+HTMLInputElement
 *
 aInput
 )
@@ -2100,7 +2103,7 @@ protected
 :
 nsRefPtr
 <
-nsHTMLInputElement
+HTMLInputElement
 >
 mInput
 ;
@@ -2119,7 +2122,7 @@ public
 :
 nsFilePickerShownCallback
 (
-nsHTMLInputElement
+HTMLInputElement
 *
 aInput
 nsIFilePicker
@@ -2154,7 +2157,7 @@ mFilePicker
 ;
 nsRefPtr
 <
-nsHTMLInputElement
+HTMLInputElement
 >
 mInput
 ;
@@ -2165,5 +2168,7 @@ mMulti
 ;
 }
 ;
+}
+}
 #
 endif
