@@ -824,6 +824,17 @@ if
 actor
 )
 {
+this
+.
+_tabActors
+.
+delete
+(
+actor
+.
+browser
+)
+;
 actor
 .
 exit
