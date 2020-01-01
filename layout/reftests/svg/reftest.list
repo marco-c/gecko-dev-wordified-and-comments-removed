@@ -1456,6 +1456,15 @@ svg
 pass
 .
 svg
+#
+Bug
+588684
+fails
+-
+if
+(
+gtk2Widget
+)
 =
 =
 objectBoundingBox
