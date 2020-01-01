@@ -644,6 +644,10 @@ browser_webconsole_bug_583816_tab_focus
 .
 js
 \
+browser_webconsole_bug_594477_clickable_output
+.
+js
+\
 head
 .
 js

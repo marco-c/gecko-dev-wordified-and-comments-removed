@@ -1726,6 +1726,15 @@ accesskey
 |
 "
 "
+class
+:
+button
+.
+class
+|
+|
+"
+"
 }
 )
 ;
