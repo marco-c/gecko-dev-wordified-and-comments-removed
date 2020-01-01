@@ -16,7 +16,7 @@ void
 EventTarget
 :
 :
-_Trace
+_trace
 (
 JSTracer
 *
@@ -25,7 +25,7 @@ aTrc
 {
 mListenerManager
 .
-_Trace
+_trace
 (
 aTrc
 )
@@ -33,7 +33,7 @@ aTrc
 DOMBindingBase
 :
 :
-_Trace
+_trace
 (
 aTrc
 )
@@ -43,7 +43,7 @@ void
 EventTarget
 :
 :
-_Finalize
+_finalize
 (
 JSFreeOp
 *
@@ -52,7 +52,7 @@ aFop
 {
 mListenerManager
 .
-_Finalize
+_finalize
 (
 aFop
 )
@@ -60,7 +60,7 @@ aFop
 DOMBindingBase
 :
 :
-_Finalize
+_finalize
 (
 aFop
 )

@@ -803,7 +803,7 @@ already_AddRefed
 <
 nsXMLHttpRequest
 >
-_Constructor
+Constructor
 (
 nsISupports
 *

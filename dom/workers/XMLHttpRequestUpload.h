@@ -79,7 +79,7 @@ aXHR
 ;
 virtual
 void
-_Trace
+_trace
 (
 JSTracer
 *
@@ -89,7 +89,7 @@ MOZ_OVERRIDE
 ;
 virtual
 void
-_Finalize
+_finalize
 (
 JSFreeOp
 *

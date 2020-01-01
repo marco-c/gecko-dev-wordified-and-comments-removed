@@ -96,7 +96,7 @@ void
 DOMBindingBase
 :
 :
-_Trace
+_trace
 (
 JSTracer
 *
@@ -132,7 +132,7 @@ void
 DOMBindingBase
 :
 :
-_Finalize
+_finalize
 (
 JSFreeOp
 *

@@ -129,7 +129,7 @@ DOMBindingBase
 ;
 virtual
 void
-_Trace
+_trace
 (
 JSTracer
 *
@@ -138,7 +138,7 @@ aTrc
 ;
 virtual
 void
-_Finalize
+_finalize
 (
 JSFreeOp
 *

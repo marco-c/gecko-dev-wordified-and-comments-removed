@@ -67,7 +67,7 @@ EventListenerManager
 #
 endif
 void
-_Trace
+_trace
 (
 JSTracer
 *
@@ -93,7 +93,7 @@ aTrc
 }
 }
 void
-_Finalize
+_finalize
 (
 JSFreeOp
 *
