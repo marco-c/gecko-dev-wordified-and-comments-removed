@@ -873,12 +873,6 @@ CreateFrame
 AndroidLayerRendererFrame
 &
 aFrame
-float
-aXOffset
-float
-aYOffset
-float
-aZoomFactor
 )
 ;
 void

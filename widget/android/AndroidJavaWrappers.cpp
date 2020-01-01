@@ -2779,7 +2779,6 @@ createFrame
 "
 "
 (
-FFF
 )
 Lorg
 /
@@ -5579,12 +5578,6 @@ CreateFrame
 AndroidLayerRendererFrame
 &
 aFrame
-float
-aXOffset
-float
-aYOffset
-float
-aZoomFactor
 )
 {
 JNIEnv
@@ -5629,9 +5622,6 @@ CallObjectMethod
 (
 wrapped_obj
 jCreateFrameMethod
-aXOffset
-aYOffset
-aZoomFactor
 )
 ;
 NS_ABORT_IF_FALSE
