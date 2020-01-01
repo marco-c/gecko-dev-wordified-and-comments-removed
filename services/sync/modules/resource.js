@@ -2177,7 +2177,7 @@ debug
 (
 Utils
 .
-stackTrace
+exceptionStr
 (
 ex
 )
