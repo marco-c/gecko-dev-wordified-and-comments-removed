@@ -114,7 +114,7 @@ resource
 #
 include
 "
-afxres
+winresrc
 .
 h
 "
@@ -421,7 +421,7 @@ BEGIN
 include
 "
 "
-afxres
+winresrc
 .
 h
 "
