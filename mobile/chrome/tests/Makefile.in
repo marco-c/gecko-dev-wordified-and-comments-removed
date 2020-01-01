@@ -478,6 +478,10 @@ browser_rect
 .
 js
 \
+browser_click_content
+.
+js
+\
 browser_FormAssistant
 .
 js
@@ -495,6 +499,10 @@ browser_blank_02
 html
 \
 browser_select
+.
+html
+\
+browser_click_content
 .
 html
 \
