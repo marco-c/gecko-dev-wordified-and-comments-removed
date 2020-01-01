@@ -9353,6 +9353,14 @@ jsval
 )
 slot
 ;
+JS_ASSERT
+(
+v
+!
+=
+JSVAL_ERROR_COOKIE
+)
+;
 debug_only_v
 (
 printf
