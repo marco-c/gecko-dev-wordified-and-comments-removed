@@ -1720,6 +1720,13 @@ break
 case
 TOOLBARSTATE_LOADING
 :
+this
+.
+show
+(
+UIMODE_URLVIEW
+)
+;
 toolbar
 .
 setAttribute
@@ -1730,13 +1737,6 @@ mode
 "
 loading
 "
-)
-;
-this
-.
-show
-(
-UIMODE_URLVIEW
 )
 ;
 ws
