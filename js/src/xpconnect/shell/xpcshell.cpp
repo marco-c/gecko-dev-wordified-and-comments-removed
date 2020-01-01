@@ -6703,17 +6703,6 @@ rt
 ContextCallback
 )
 ;
-JS_SetGCParameter
-(
-rt
-JSGC_TRIGGER_FACTOR
-(
-uint32
-)
--
-1
-)
-;
 cx
 =
 JS_NewContext
