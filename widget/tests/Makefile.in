@@ -619,6 +619,10 @@ bug586713_window
 .
 xul
 \
+test_key_event_counts
+.
+xul
+\
 (
 NULL
 )
