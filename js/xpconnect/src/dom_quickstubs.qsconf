@@ -377,11 +377,6 @@ canvas
 canvas
 friends
 '
-nsIDOMTextMetrics
-.
-*
-'
-'
 nsIDOMCanvasGradient
 .
 *
@@ -815,13 +810,6 @@ irregularFilenames
 {
 #
 stowaways
-'
-nsIDOMTextMetrics
-'
-:
-'
-nsIDOMCanvasRenderingContext2D
-'
 '
 nsIDOMCanvasGradient
 '
