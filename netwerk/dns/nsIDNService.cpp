@@ -3364,11 +3364,16 @@ savedNumberingSystem
 =
 0
 ;
+#
+if
+0
 HanVariantType
 savedHanVariant
 =
 HVT_NotHan
 ;
+#
+endif
 int32_t
 savedScript
 =
@@ -3605,6 +3610,9 @@ return
 false
 ;
 }
+#
+if
+0
 HanVariantType
 hanVariant
 =
@@ -3654,6 +3662,8 @@ false
 ;
 }
 }
+#
+endif
 previousChar
 =
 ch
