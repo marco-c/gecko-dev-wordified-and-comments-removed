@@ -214,6 +214,11 @@ buttons
 accept
 cancel
 "
+defaultButton
+=
+"
+cancel
+"
 buttonlabelaccept
 =
 "
