@@ -18,6 +18,13 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+nsRefreshDriver
+.
+h
+"
 class
 nsAccessible
 ;
