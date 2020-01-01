@@ -31,6 +31,9 @@ ipc
 ;
 BEGIN_BLUETOOTH_NAMESPACE
 class
+BluetoothSocket
+;
+class
 BluetoothSocketObserver
 {
 public
