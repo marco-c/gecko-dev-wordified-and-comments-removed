@@ -17523,6 +17523,7 @@ CloneFunctionObjectIfNotSingleton
 cx
 fun
 scopeChain
+TenuredObject
 )
 ;
 if
