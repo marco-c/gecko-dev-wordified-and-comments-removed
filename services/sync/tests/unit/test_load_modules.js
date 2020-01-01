@@ -3,11 +3,6 @@ modules
 =
 [
 "
-async
-.
-js
-"
-"
 auth
 .
 js
@@ -246,11 +241,6 @@ js
 "
 "
 util
-.
-js
-"
-"
-wrap
 .
 js
 "
