@@ -12722,7 +12722,6 @@ JS_TRACER
 define
 MONITOR_BRANCH
 (
-oldpc
 )
 \
 JS_BEGIN_MACRO
@@ -12741,7 +12740,6 @@ ENABLE_TRACER
 js_MonitorLoopEdge
 (
 cx
-oldpc
 inlineCallCount
 )
 )
@@ -12818,7 +12816,6 @@ else
 define
 MONITOR_BRANCH
 (
-oldpc
 )
 (
 (
@@ -12902,11 +12899,6 @@ CHECK_BRANCH
 \
 MONITOR_BRANCH
 (
-regs
-.
-pc
--
-n
 )
 ;
 \
@@ -15556,9 +15548,6 @@ cx
 js_AbortRecording
 (
 cx
-regs
-.
-pc
 "
 Untraceable
 for
@@ -23122,7 +23111,6 @@ cx
 js_AbortRecording
 (
 cx
-NULL
 "
 SetPropUncached
 "
@@ -33816,7 +33804,7 @@ kind
 )
 {
 case
-JSTRY_CATCH
+JSTN_CATCH
 :
 JS_ASSERT
 (
@@ -33859,7 +33847,7 @@ len
 )
 ;
 case
-JSTRY_FINALLY
+JSTN_FINALLY
 :
 PUSH
 (
@@ -33891,7 +33879,7 @@ len
 )
 ;
 case
-JSTRY_ITER
+JSTN_ITER
 :
 JS_ASSERT
 (
@@ -34104,9 +34092,6 @@ cx
 js_AbortRecording
 (
 cx
-regs
-.
-pc
 "
 recording
 out

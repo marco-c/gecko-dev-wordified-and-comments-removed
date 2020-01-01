@@ -2267,7 +2267,6 @@ args
 js_AbortRecording
 (
 cx
-NULL
 #
 x
 )
@@ -2377,9 +2376,6 @@ js_MonitorLoopEdge
 JSContext
 *
 cx
-jsbytecode
-*
-oldpc
 uintN
 &
 inlineCallCount
@@ -2401,9 +2397,6 @@ js_AbortRecording
 JSContext
 *
 cx
-jsbytecode
-*
-abortpc
 const
 char
 *
