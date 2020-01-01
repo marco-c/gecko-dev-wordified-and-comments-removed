@@ -2792,9 +2792,11 @@ ROLE
 geckoRole
 stringRole
 atkRole
+\
 macRole
 msaaRole
 ia2Role
+nameRule
 )
 \
 case

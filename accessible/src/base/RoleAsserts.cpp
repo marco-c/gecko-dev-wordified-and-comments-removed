@@ -38,6 +38,7 @@ atkRole
 macRole
 msaaRole
 ia2Role
+nameRule
 )
 \
 MOZ_STATIC_ASSERT
