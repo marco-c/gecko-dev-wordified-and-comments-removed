@@ -233,6 +233,9 @@ class
 MediaError
 ;
 class
+MediaSource
+;
+class
 HTMLMediaElement
 :
 public
@@ -2065,6 +2068,12 @@ nsRefPtr
 StreamListener
 >
 mSrcStreamListener
+;
+nsRefPtr
+<
+MediaSource
+>
+mMediaSource
 ;
 nsCOMPtr
 <
