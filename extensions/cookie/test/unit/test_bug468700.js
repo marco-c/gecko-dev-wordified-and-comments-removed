@@ -136,6 +136,12 @@ nsIPrefBranch
 var
 pb
 =
+null
+;
+try
+{
+pb
+=
 Cc
 [
 "
@@ -156,6 +162,13 @@ Ci
 nsIPrivateBrowsingService
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 var
 spec
 =
