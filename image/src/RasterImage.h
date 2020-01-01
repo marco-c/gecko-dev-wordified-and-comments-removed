@@ -1476,6 +1476,10 @@ imgFrame
 >
 mFrames
 ;
+imgFrame
+*
+mMultipartDecodedFrame
+;
 nsCOMPtr
 <
 nsIProperties
