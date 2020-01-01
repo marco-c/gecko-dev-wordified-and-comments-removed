@@ -6679,6 +6679,23 @@ DOUBLE
 "
 ]
     
+'
+octet
+'
+:
+        
+[
+"
+uint32
+"
+"
+UINT32
+"
+"
+0
+"
+]
+    
 }
 traceTypeMap
 =
