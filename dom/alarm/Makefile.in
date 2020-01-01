@@ -137,6 +137,10 @@ AlarmDB
 .
 jsm
 \
+AlarmService
+.
+jsm
+\
 (
 NULL
 )
