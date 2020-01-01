@@ -1757,11 +1757,12 @@ NULL
 addr
 !
 =
+JS_FUNC_TO_DATA_PTR
 (
 void
 *
-)
 JaegerTrampolineReturn
+)
 )
 {
 PatchableAddress
@@ -2513,11 +2514,12 @@ if
 addr
 =
 =
+JS_FUNC_TO_DATA_PTR
 (
 void
 *
-)
 JaegerTrampolineReturn
+)
 )
 {
 }
