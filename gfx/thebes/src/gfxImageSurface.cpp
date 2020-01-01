@@ -75,12 +75,11 @@ unsigned
 char
 *
 )
-malloc
+calloc
 (
 mSize
 .
 height
-*
 mStride
 )
 ;
