@@ -810,7 +810,7 @@ JSContext
 *
 cx
 JSObject
-*
+&
 aIID
 ErrorResult
 &

@@ -329,7 +329,7 @@ JSContext
 *
 aCx
 JSObject
-*
+&
 aBlob
 ErrorResult
 &
@@ -345,6 +345,7 @@ file
 :
 GetDOMBlobFromJSObject
 (
+&
 aBlob
 )
 ;
@@ -545,7 +546,7 @@ FileReaderSync
 ReadAsBinaryString
 (
 JSObject
-*
+&
 aBlob
 nsAString
 &
@@ -564,6 +565,7 @@ file
 :
 GetDOMBlobFromJSObject
 (
+&
 aBlob
 )
 ;
@@ -727,7 +729,7 @@ FileReaderSync
 ReadAsText
 (
 JSObject
-*
+&
 aBlob
 const
 Optional
@@ -753,6 +755,7 @@ file
 :
 GetDOMBlobFromJSObject
 (
+&
 aBlob
 )
 ;
@@ -998,7 +1001,7 @@ FileReaderSync
 ReadAsDataURL
 (
 JSObject
-*
+&
 aBlob
 nsAString
 &
@@ -1017,6 +1020,7 @@ file
 :
 GetDOMBlobFromJSObject
 (
+&
 aBlob
 )
 ;
