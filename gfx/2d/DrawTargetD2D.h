@@ -893,7 +893,7 @@ aAlpha
 ;
 TemporaryRef
 <
-ID3D10Texture2D
+ID3D10Texture1D
 >
 CreateGradientTexture
 (
@@ -924,7 +924,7 @@ ID2D1Bitmap
 >
 CreatePartialBitmapForSurface
 (
-DataSourceSurface
+SourceSurfaceD2D
 *
 aSurface
 Matrix

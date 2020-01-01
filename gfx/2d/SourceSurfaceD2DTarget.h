@@ -200,7 +200,8 @@ GetFormat
 const
 ;
 virtual
-uint8_t
+unsigned
+char
 *
 GetData
 (
