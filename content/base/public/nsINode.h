@@ -874,10 +874,6 @@ PRUint32
 aIndex
 PRBool
 aNotify
-PRBool
-aMutationEvent
-=
-PR_TRUE
 )
 =
 0
@@ -3129,8 +3125,6 @@ aKid
 nsAttrAndChildArray
 &
 aChildArray
-PRBool
-aMutationEvent
 )
 ;
 nsresult

@@ -110,7 +110,7 @@ PRBool
 aNotify
 )
 {
-nsAutoRemovableScriptBlocker
+nsAutoScriptBlocker
 scriptBlocker
 ;
 PRBool
