@@ -359,9 +359,8 @@ jsdc
 #
 endif
 return
-(
-JSBool
-)
+!
+!
 jsdc
 -
 >
