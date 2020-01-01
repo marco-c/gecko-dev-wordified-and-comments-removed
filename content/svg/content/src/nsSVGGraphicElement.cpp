@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsIDOMSVGFitToViewBox
-.
-h
-"
-#
-include
-"
 nsSVGUtils
 .
 h

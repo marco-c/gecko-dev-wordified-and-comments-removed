@@ -155,13 +155,6 @@ h
 #
 include
 "
-nsIDOMSVGFitToViewBox
-.
-h
-"
-#
-include
-"
 nsISVGChildFrame
 .
 h
