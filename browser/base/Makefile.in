@@ -432,14 +432,11 @@ mk
 abs_srcdir
 =
 (
-shell
-cd
+call
+core_abspath
 (
 srcdir
 )
-&
-&
-pwd
 )
 CHROME_DEPS
 +

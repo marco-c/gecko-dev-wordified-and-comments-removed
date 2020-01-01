@@ -1050,7 +1050,7 @@ PP_LOCALIZED_FILES
 do
 \
 (
-PERL
+PYTHON
 )
 (
 topsrcdir
@@ -1058,9 +1058,9 @@ topsrcdir
 /
 config
 /
-preprocessor
+Preprocessor
 .
-pl
+py
 (
 DEFINES
 )
@@ -1082,7 +1082,7 @@ i
 \
 done
 (
-PERL
+PYTHON
 )
 (
 topsrcdir
@@ -1090,9 +1090,9 @@ topsrcdir
 /
 config
 /
-preprocessor
+Preprocessor
 .
-pl
+py
 -
 Fsubstitution
 (
@@ -1395,7 +1395,7 @@ PP_LOCALIZED_FILES
 do
 \
 (
-PERL
+PYTHON
 )
 (
 topsrcdir
@@ -1403,9 +1403,9 @@ topsrcdir
 /
 config
 /
-preprocessor
+Preprocessor
 .
-pl
+py
 (
 DEFINES
 )
@@ -1474,7 +1474,7 @@ files
 log
 endif
 (
-PERL
+PYTHON
 )
 (
 topsrcdir
@@ -1482,9 +1482,9 @@ topsrcdir
 /
 config
 /
-preprocessor
+Preprocessor
 .
-pl
+py
 -
 Fsubstitution
 (

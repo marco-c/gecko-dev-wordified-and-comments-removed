@@ -700,8 +700,7 @@ CWD
 :
 =
 (
-shell
-pwd
+CURDIR
 )
 ifneq
 (
