@@ -713,11 +713,11 @@ endif
 endif
 EXPORTS_NAMESPACES
 =
-IPC
+gfxipc
 mozilla
 /
 layers
-EXPORTS_IPC
+EXPORTS_gfxipc
 =
 ShadowLayerUtils
 .

@@ -76,6 +76,8 @@ h
 #
 include
 "
+gfxipc
+/
 ShadowLayerUtils
 .
 h
