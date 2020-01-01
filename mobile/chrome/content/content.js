@@ -2538,14 +2538,6 @@ clear
 (
 )
 ;
-this
-.
-_overlayTimeout
-.
-clear
-(
-)
-;
 let
 element
 =
