@@ -4848,9 +4848,11 @@ JSProtoKey
 key
 Native
 construct
+const
 JSPropertySpec
 *
 properties
+const
 JSFunctionSpec
 *
 methods
