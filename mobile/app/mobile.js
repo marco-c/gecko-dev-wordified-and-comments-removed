@@ -213,16 +213,6 @@ pref
 "
 ui
 .
-use_native_popup_windows
-"
-true
-)
-;
-pref
-(
-"
-ui
-.
 scrollbarsCanOverlapContent
 "
 1

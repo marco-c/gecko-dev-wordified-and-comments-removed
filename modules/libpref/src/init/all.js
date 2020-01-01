@@ -335,16 +335,6 @@ pref
 "
 ui
 .
-use_native_popup_windows
-"
-false
-)
-;
-pref
-(
-"
-ui
-.
 click_hold_context_menus
 "
 false

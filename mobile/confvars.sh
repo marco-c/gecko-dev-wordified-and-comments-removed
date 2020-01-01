@@ -481,3 +481,14 @@ MOZ_APP_COMPONENT_INCLUDE
 nsBrowserComponents
 .
 h
+#
+use
+custom
+widget
+for
+html
+:
+select
+MOZ_USE_NATIVE_POPUP_WINDOWS
+=
+1
