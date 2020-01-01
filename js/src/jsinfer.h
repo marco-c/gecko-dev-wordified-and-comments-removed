@@ -3331,6 +3331,14 @@ pc
 )
 ;
 bool
+UseNewTypeForClone
+(
+JSFunction
+*
+fun
+)
+;
+bool
 ArrayPrototypeHasIndexedProperty
 (
 JSContext

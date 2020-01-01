@@ -61,7 +61,7 @@ ptr
 JS_ASSERT
 (
 !
-IsInsideNursery
+UninlinedIsInsideNursery
 (
 GetIonContext
 (

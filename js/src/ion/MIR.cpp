@@ -103,6 +103,13 @@ h
 #
 include
 "
+jsinferinlines
+.
+h
+"
+#
+include
+"
 vm
 /
 Shape

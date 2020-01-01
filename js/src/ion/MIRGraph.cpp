@@ -1,6 +1,13 @@
 #
 include
 "
+jsanalyze
+.
+h
+"
+#
+include
+"
 ion
 /
 Ion
@@ -40,6 +47,13 @@ include
 ion
 /
 IonBuilder
+.
+h
+"
+#
+include
+"
+jsinferinlines
 .
 h
 "
