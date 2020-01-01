@@ -571,6 +571,17 @@ the
 cookie
 *
 param
+aPath
+The
+path
+for
+which
+the
+cookie
+was
+set
+*
+param
 aBlocked
 Indicates
 if
