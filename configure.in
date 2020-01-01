@@ -18023,6 +18023,10 @@ lwinmm
 lwsock32
 -
 luserenv
+-
+lsecur32
+-
+lnetapi32
 "
 MOZ_FIX_LINK_PATHS
 =
@@ -18500,6 +18504,12 @@ wsock32
 .
 lib
 advapi32
+.
+lib
+secur32
+.
+lib
+netapi32
 .
 lib
 "
