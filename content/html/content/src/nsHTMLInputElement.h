@@ -632,10 +632,8 @@ NS_IMETHOD_
 (
 void
 )
-SetPlaceholderVisibility
+UpdatePlaceholderVisibility
 (
-bool
-aVisible
 bool
 aNotify
 )

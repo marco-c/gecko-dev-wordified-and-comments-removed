@@ -370,10 +370,8 @@ GetRows
 ;
 }
 void
-SetPlaceholderVisibility
+UpdatePlaceholderVisibility
 (
-bool
-aVisible
 bool
 aNotify
 )
