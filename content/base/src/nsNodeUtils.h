@@ -73,9 +73,15 @@ static
 void
 AttributeWillChange
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
-aContent
+aElement
 PRInt32
 aNameSpaceID
 nsIAtom
