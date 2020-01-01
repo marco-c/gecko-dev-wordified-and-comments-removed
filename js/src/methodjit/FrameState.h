@@ -251,8 +251,6 @@ RematInfo
 :
 RematType
 type
-bool
-weak
 )
 :
 fe
@@ -262,10 +260,6 @@ fe
 type
 (
 type
-)
-weak
-(
-weak
 )
 {
 }
@@ -282,9 +276,6 @@ RematInfo
 :
 RematType
 type
-;
-bool
-weak
 ;
 }
 ;
@@ -993,8 +984,6 @@ RematInfo
 :
 RematType
 type
-bool
-weak
 )
 ;
 inline

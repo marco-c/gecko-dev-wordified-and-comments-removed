@@ -307,8 +307,6 @@ RematInfo
 :
 RematType
 type
-bool
-weak
 )
 {
 RegisterID
@@ -347,7 +345,6 @@ RegisterState
 (
 fe
 type
-weak
 )
 ;
 return
@@ -980,7 +977,6 @@ RematInfo
 :
 :
 DATA
-true
 )
 ;
 }
@@ -1045,7 +1041,6 @@ RematInfo
 :
 :
 DATA
-true
 )
 ;
 masm
@@ -1088,7 +1083,6 @@ RematInfo
 :
 :
 TYPE
-true
 )
 ;
 masm
@@ -1190,7 +1184,6 @@ RematInfo
 :
 :
 TYPE
-true
 )
 ;
 regstate
@@ -1205,7 +1198,6 @@ RematInfo
 :
 :
 DATA
-true
 )
 ;
 }
@@ -1278,7 +1270,6 @@ RematInfo
 :
 :
 DATA
-true
 )
 ;
 }
@@ -1441,7 +1432,6 @@ RematInfo
 :
 :
 DATA
-true
 )
 ;
 }
@@ -1525,7 +1515,6 @@ RematInfo
 :
 :
 TYPE
-true
 )
 ;
 fe
@@ -1609,7 +1598,6 @@ RematInfo
 :
 :
 TYPE
-true
 )
 ;
 masm
@@ -1717,7 +1705,6 @@ RematInfo
 :
 :
 DATA
-true
 )
 ;
 masm
@@ -1824,7 +1811,6 @@ RematInfo
 :
 :
 DATA
-true
 )
 ;
 masm
@@ -2041,7 +2027,6 @@ RematInfo
 :
 :
 DATA
-true
 )
 ;
 fe

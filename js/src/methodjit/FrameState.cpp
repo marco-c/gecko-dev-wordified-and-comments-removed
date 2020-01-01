@@ -954,7 +954,6 @@ RematInfo
 :
 :
 DATA
-true
 )
 ;
 masm
@@ -1083,7 +1082,6 @@ RematInfo
 :
 :
 TYPE
-true
 )
 ;
 masm
