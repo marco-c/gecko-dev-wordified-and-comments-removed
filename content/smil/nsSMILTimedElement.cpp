@@ -7294,7 +7294,7 @@ aRepeatIteration
 nsSMILTime
 result
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 mSimpleDur
 .
@@ -7310,7 +7310,7 @@ ActiveTimeToSimpleTime
 "
 )
 ;
-NS_ASSERTION
+NS_ABORT_IF_FALSE
 (
 aActiveTime
 >
