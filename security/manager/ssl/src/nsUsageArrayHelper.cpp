@@ -61,11 +61,6 @@ nsNSSCertHeader
 .
 h
 "
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -73,7 +68,10 @@ secerr
 .
 h
 "
-}
+using
+namespace
+mozilla
+;
 static
 NS_DEFINE_CID
 (
@@ -646,7 +644,7 @@ certificateUsageObjectSigner
 certificateUsageSSLCA
 |
 certificateUsageStatusResponder
-NULL
+nullptr
 &
 usages
 )
@@ -684,7 +682,7 @@ inss
 return
 nsrv
 ;
-nsRefPtr
+RefPtr
 <
 nsCERTValInParamWrapper
 >
@@ -773,7 +771,7 @@ GetRawPointerForNSS
 (
 )
 cvout
-NULL
+nullptr
 )
 ;
 err

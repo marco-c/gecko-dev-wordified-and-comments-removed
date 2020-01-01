@@ -23,6 +23,15 @@ h
 #
 include
 "
+mozilla
+/
+RefPtr
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestor
 .
 h
@@ -389,7 +398,10 @@ mHostName
 PRErrorCode
 mIsCertIssuerBlacklisted
 ;
-nsRefPtr
+mozilla
+:
+:
+RefPtr
 <
 nsSSLStatus
 >

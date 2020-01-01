@@ -103,11 +103,6 @@ nspr
 .
 h
 "
-extern
-"
-C
-"
-{
 #
 include
 "
@@ -157,7 +152,6 @@ secder
 .
 h
 "
-}
 #
 include
 "
@@ -269,7 +263,7 @@ PLArenaPool
 *
 arena
 =
-NULL
+nullptr
 ;
 CERTCertificate
 *
@@ -280,7 +274,7 @@ derName
 =
 {
 siBuffer
-NULL
+nullptr
 0
 }
 ;
@@ -860,10 +854,8 @@ else
 {
 if
 (
+!
 crlKey
-=
-=
-nullptr
 )
 {
 return
@@ -1568,9 +1560,6 @@ head
 first
 ;
 node
-!
-=
-nullptr
 ;
 node
 =
@@ -1712,9 +1701,6 @@ head
 first
 ;
 node
-!
-=
-nullptr
 ;
 i
 +

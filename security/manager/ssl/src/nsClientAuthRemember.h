@@ -37,13 +37,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsNSSCertificate
 .
 h
