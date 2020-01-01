@@ -924,7 +924,7 @@ data
 container
 -
 >
-SetCurrentImage
+SetCurrentImageInTransaction
 (
 img
 )
@@ -8686,7 +8686,7 @@ data
 container
 -
 >
-SetCurrentImage
+SetCurrentImageInTransaction
 (
 img
 )
@@ -18477,7 +18477,7 @@ endif
 container
 -
 >
-SetCurrentImage
+SetCurrentImageInTransaction
 (
 nsnull
 )

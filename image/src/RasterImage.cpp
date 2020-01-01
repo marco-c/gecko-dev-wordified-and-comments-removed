@@ -3424,7 +3424,7 @@ cairoData
 mImageContainer
 -
 >
-SetCurrentImage
+SetCurrentImageInTransaction
 (
 image
 )
