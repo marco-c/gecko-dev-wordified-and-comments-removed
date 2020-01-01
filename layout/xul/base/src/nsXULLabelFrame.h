@@ -45,8 +45,6 @@ aPresShell
 nsStyleContext
 *
 aContext
-PRUint32
-aFlags
 )
 ;
 NS_IMETHOD
@@ -137,8 +135,6 @@ aPresShell
 nsStyleContext
 *
 aContext
-PRUint32
-aFlags
 )
 ;
 #

@@ -120,11 +120,6 @@ aPresShell
 nsStyleContext
 *
 aContext
-PRBool
-aIsRoot
-nsIBoxLayout
-*
-aLayoutManager
 )
 {
 return
@@ -136,8 +131,6 @@ nsTreeColFrame
 (
 aPresShell
 aContext
-aIsRoot
-aLayoutManager
 )
 ;
 }

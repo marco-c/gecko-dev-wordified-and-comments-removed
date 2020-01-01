@@ -30,9 +30,6 @@ aPresShell
 nsStyleContext
 *
 aContext
-nsIBoxLayout
-*
-aLayoutManager
 )
 ;
 #

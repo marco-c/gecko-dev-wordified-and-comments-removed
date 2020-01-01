@@ -2021,8 +2021,6 @@ nsFrameItems
 &
 aFrameItems
 PRBool
-aXBLBaseTag
-PRBool
 aHasPseudoParent
 PRBool
 *
