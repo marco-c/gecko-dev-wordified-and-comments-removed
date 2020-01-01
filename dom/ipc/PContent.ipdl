@@ -2157,6 +2157,13 @@ nsString
 volumeName
 )
 ;
+async
+RecordingDeviceEvents
+(
+nsString
+recordingStatus
+)
+;
 both
 :
 AsyncMessage
