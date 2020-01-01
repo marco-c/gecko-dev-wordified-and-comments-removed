@@ -1234,6 +1234,11 @@ camera
 =
 null
 ;
+int
+cameraId
+=
+0
+;
 AndroidVideoCaptureDevice
 deviceToUse
 =
@@ -1308,6 +1313,13 @@ SDK_INT
 >
 8
 )
+{
+cameraId
+=
+device
+.
+index
+;
 camera
 =
 Camera
@@ -1319,7 +1331,9 @@ device
 index
 )
 ;
+}
 else
+{
 camera
 =
 Camera
@@ -1328,6 +1342,7 @@ open
 (
 )
 ;
+}
 }
 }
 }
@@ -1364,6 +1379,7 @@ id
 context
 camera
 deviceToUse
+cameraId
 )
 ;
 }

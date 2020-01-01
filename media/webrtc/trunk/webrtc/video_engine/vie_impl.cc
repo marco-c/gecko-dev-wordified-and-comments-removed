@@ -994,6 +994,9 @@ return
 1
 ;
 }
+#
+ifdef
+WEBRTC_INCLUDE_INTERNAL_VIDEO_RENDER
 if
 (
 SetRenderAndroidVM
@@ -1025,6 +1028,8 @@ return
 1
 ;
 }
+#
+endif
 return
 0
 ;

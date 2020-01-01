@@ -316,7 +316,7 @@ voice_engine
 .
 gyp
 :
-voice_engine_core
+voice_engine
 '
 '
 <

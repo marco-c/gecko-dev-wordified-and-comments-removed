@@ -29,6 +29,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -2632,7 +2634,7 @@ webrtc
 VideoCodec
 vie_codec
 ;
-WebRtc_Word32
+int32_t
 err
 ;
 if

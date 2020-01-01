@@ -342,14 +342,6 @@ trunk
 trunk
 /
 webrtc
-'
-'
-.
-.
-/
-trunk
-/
-webrtc
 /
 video_engine
 /
