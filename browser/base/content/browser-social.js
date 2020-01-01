@@ -739,6 +739,12 @@ populate
 (
 )
 ;
+SocialChatBar
+.
+update
+(
+)
+;
 this
 .
 updateActiveBroadcaster
