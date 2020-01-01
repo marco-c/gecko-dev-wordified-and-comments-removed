@@ -2542,11 +2542,9 @@ seenURIs
 var
 tabs
 =
-TabCandy
+gBrowser
 .
-getVisibleTabs
-(
-)
+visibleTabs
 ;
 for
 (

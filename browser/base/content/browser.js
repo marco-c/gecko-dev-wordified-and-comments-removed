@@ -35270,11 +35270,9 @@ aTabClose
 var
 numTabs
 =
-TabCandy
+gBrowser
 .
-getVisibleTabs
-(
-)
+visibleTabs
 .
 length
 ;
@@ -40318,11 +40316,9 @@ selectedTab
 var
 disabled
 =
-TabCandy
+gBrowser
 .
-getVisibleTabs
-(
-)
+visibleTabs
 .
 length
 =
