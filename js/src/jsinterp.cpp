@@ -12455,6 +12455,9 @@ advance_pc_by_one
 ;
 #
 endif
+#
+ifdef
+JS_TRACER
 TraceRecorder
 *
 tr
@@ -12488,6 +12491,8 @@ recorder
 NULL
 ;
 }
+#
+endif
 JS_CHECK_RECURSION
 (
 cx
@@ -34003,6 +34008,9 @@ cx
 >
 interpLevel
 ;
+#
+ifdef
+JS_TRACER
 if
 (
 tr
@@ -34025,6 +34033,8 @@ deepAbort
 )
 ;
 }
+#
+endif
 return
 ok
 ;
