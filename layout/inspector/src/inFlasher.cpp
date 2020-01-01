@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsIWidget
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h

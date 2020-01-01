@@ -16,13 +16,6 @@ h
 #
 include
 "
-gfxPoint
-.
-h
-"
-#
-include
-"
 nsTHashtable
 .
 h
@@ -115,6 +108,13 @@ h
 include
 "
 nsChangeHint
+.
+h
+"
+#
+include
+"
+nsGUIEvent
 .
 h
 "
@@ -300,9 +300,6 @@ dom
 {
 class
 Element
-;
-class
-Touch
 ;
 }
 namespace
