@@ -5300,7 +5300,7 @@ promise
 .
 enabled
 "
-true
+false
 )
 ;
 pref
