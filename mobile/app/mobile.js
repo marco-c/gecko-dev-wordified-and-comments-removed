@@ -2286,3 +2286,13 @@ mode
 0
 )
 ;
+pref
+(
+"
+dom
+.
+disable_window_move_resize
+"
+true
+)
+;
