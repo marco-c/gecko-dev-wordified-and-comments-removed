@@ -236,6 +236,8 @@ GtkWidgetState
 state
 gint
 flags
+GtkTextDirection
+direction
 )
 ;
 gint
@@ -255,6 +257,8 @@ right
 gint
 *
 bottom
+GtkTextDirection
+direction
 gboolean
 inhtml
 )
