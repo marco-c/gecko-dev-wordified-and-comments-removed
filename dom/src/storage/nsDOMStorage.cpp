@@ -522,10 +522,10 @@ nsContentUtils
 GetIntPref
 (
 kOfflineAppQuota
-DEFAULT_OFFLINE_WARN_QUOTA
+DEFAULT_OFFLINE_APP_QUOTA
+)
 *
 1024
-)
 )
 ;
 if
