@@ -4047,6 +4047,9 @@ GetPlatformCMSOutputProfile
 (
 )
 {
+#
+ifndef
+WINCE
 WCHAR
 str
 [
@@ -4140,6 +4143,13 @@ endif
 return
 profile
 ;
+#
+else
+return
+nsnull
+;
+#
+endif
 }
 PRBool
 gfxWindowsPlatform
