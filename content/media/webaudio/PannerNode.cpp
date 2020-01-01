@@ -2221,12 +2221,7 @@ aElevation
 *
 acos
 (
-sourceListener
-.
-DotProduct
-(
-up
-)
+upProjection
 )
 /
 M_PI
