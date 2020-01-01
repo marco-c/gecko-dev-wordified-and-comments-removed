@@ -586,6 +586,11 @@ mGLContext
 (
 aContext
 )
+mUpdateOffset
+(
+0
+0
+)
 {
 }
 virtual
@@ -640,6 +645,9 @@ mUpdateContext
 ;
 nsIntRect
 mUpdateRect
+;
+nsIntPoint
+mUpdateOffset
 ;
 }
 ;
