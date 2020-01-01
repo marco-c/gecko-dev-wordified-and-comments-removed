@@ -364,14 +364,14 @@ length
 ;
 upper
 =
-ceil
+ceilf
 (
 value
 )
 ;
 lower
 =
-floor
+floorf
 (
 value
 )
