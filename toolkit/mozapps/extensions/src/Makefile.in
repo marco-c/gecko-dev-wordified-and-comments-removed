@@ -422,6 +422,11 @@ EXTRA_COMPONENTS
 nsExtensionManager
 .
 js
+EXTRA_PP_COMPONENTS
+=
+nsBlocklistService
+.
+js
 GARBAGE
 +
 =

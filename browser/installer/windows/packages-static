@@ -1401,6 +1401,13 @@ bin
 \
 components
 \
+nsBlocklistService
+.
+js
+bin
+\
+components
+\
 nsUpdateService
 .
 js
