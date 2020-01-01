@@ -3541,9 +3541,7 @@ IsWin
 )
 &
 &
-IsPrintableKey
-(
-)
+mIsPrintableKey
 )
 {
 return
@@ -3560,9 +3558,7 @@ defaultPrevented
 }
 if
 (
-IsDeadKey
-(
-)
+mIsDeadKey
 )
 {
 return
@@ -4370,9 +4366,7 @@ false
 ;
 }
 return
-IsPrintableKey
-(
-)
+mIsPrintableKey
 ;
 }
 const
@@ -5590,9 +5584,7 @@ ifdef
 DEBUG
 if
 (
-IsPrintableKey
-(
-)
+mIsPrintableKey
 )
 {
 nsPrintfCString
@@ -6167,9 +6159,7 @@ virtualKey
 =
 aNativeKey
 .
-GetOriginalVirtualKeyCode
-(
-)
+mOriginalVirtualKeyCode
 ;
 int32_t
 virtualKeyIndex
