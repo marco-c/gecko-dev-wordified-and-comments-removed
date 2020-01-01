@@ -4498,7 +4498,7 @@ favicon
 let
 [
 url
-style
+action
 ]
 =
 this
@@ -4527,7 +4527,8 @@ action
 :
 [
 escapedEntryURL
-style
+"
+"
 ]
 ;
 this
@@ -4538,6 +4539,8 @@ entryId
 url
 title
 entryFavicon
+action
++
 style
 )
 ;
