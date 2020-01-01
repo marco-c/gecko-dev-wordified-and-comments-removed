@@ -111,6 +111,10 @@ newBaseValue
 )
 ;
 }
+mIsBaseSet
+=
+PR_TRUE
+;
 rv
 =
 mBaseVal
@@ -187,6 +191,10 @@ mBaseVal
 Clear
 (
 )
+;
+mIsBaseSet
+=
+PR_FALSE
 ;
 }
 nsresult

@@ -112,6 +112,10 @@ if
 aDoSetAttr
 )
 {
+mIsBaseSet
+=
+PR_TRUE
+;
 aSVGElement
 -
 >

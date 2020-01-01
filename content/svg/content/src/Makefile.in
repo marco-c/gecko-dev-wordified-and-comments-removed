@@ -597,6 +597,10 @@ nsSVGInteger
 .
 cpp
 \
+nsSVGIntegerPair
+.
+cpp
+\
 nsSVGLength2
 .
 cpp
@@ -622,6 +626,10 @@ nsSVGMetadataElement
 cpp
 \
 nsSVGNumber2
+.
+cpp
+\
+nsSVGNumberPair
 .
 cpp
 \
@@ -829,6 +837,10 @@ nsSVGTransformSMILAttr
 .
 cpp
 \
+SVGIntegerPairSMILType
+.
+cpp
+\
 SVGLengthListSMILType
 .
 cpp
@@ -850,6 +862,10 @@ SVGMotionSMILPathUtils
 cpp
 \
 SVGNumberListSMILType
+.
+cpp
+\
+SVGNumberPairSMILType
 .
 cpp
 \
