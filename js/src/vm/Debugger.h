@@ -1713,6 +1713,14 @@ gcGrayLinkSlot
 )
 ;
 static
+bool
+isDebugWrapper
+(
+RawObject
+o
+)
+;
+static
 void
 findCompartmentEdges
 (
