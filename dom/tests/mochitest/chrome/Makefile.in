@@ -250,6 +250,14 @@ test_sandbox_eventhandler
 .
 xul
 \
+test_DOM_element_instanceof
+.
+xul
+\
+file_DOM_element_instanceof
+.
+xul
+\
 (
 NULL
 )
