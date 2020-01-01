@@ -8,6 +8,13 @@ h
 #
 include
 "
+WebGLObjectModel
+.
+h
+"
+#
+include
+"
 WebGLExtensions
 .
 h

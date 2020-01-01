@@ -225,6 +225,10 @@ WebGLFramebuffer
 .
 cpp
 \
+WebGLObjectModel
+.
+cpp
+\
 WebGLProgram
 .
 cpp
