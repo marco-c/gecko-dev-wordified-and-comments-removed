@@ -206,6 +206,7 @@ Bug
 863402
 serializer
 support
+workaround
 /
 /
 serializer
@@ -213,6 +214,11 @@ serializer
 {
 attribute
 }
+;
+object
+toJSON
+(
+)
 ;
 }
 ;

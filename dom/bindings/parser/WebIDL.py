@@ -1931,9 +1931,6 @@ iterator
 "
 toString
 "
-"
-toJSON
-"
 ]
 and
 not
