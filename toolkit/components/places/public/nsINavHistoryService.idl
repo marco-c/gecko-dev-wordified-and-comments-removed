@@ -7357,6 +7357,12 @@ page
 )
 .
 *
+Ignored
+for
+queries
+over
+history
+.
 Defaults
 to
 false

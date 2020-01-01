@@ -483,10 +483,6 @@ browser_history_sidebar_search
 .
 js
 \
-browser_library_left_pane_migration
-.
-js
-\
 (
 NULL
 )
