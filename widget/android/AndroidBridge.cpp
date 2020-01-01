@@ -10938,6 +10938,8 @@ const
 nsIntRect
 &
 aDisplayPort
+float
+aDisplayResolution
 nsIntPoint
 &
 aScrollOffset
@@ -10968,6 +10970,7 @@ client
 SyncViewportInfo
 (
 aDisplayPort
+aDisplayResolution
 aScrollOffset
 aScaleX
 aScaleY

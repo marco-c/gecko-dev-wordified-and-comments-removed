@@ -289,11 +289,6 @@ TransformShadowTree
 #
 ifdef
 MOZ_WIDGET_ANDROID
-void
-SyncViewportInfo
-(
-)
-;
 Layer
 *
 GetPrimaryScrollableLayer

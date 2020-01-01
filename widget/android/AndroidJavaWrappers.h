@@ -651,6 +651,8 @@ const
 nsIntRect
 &
 aDisplayPort
+float
+aDisplayResolution
 nsIntPoint
 &
 aScrollOffset
