@@ -69,13 +69,6 @@ GetInstance
 (
 )
 ;
-private
-:
-static
-const
-nsSimpleUnicharStreamFactory
-kInstance
-;
 }
 ;
 #

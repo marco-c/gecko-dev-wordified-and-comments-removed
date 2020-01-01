@@ -171,12 +171,6 @@ return
 PL_DHASH_REMOVE
 ;
 }
-nsThreadManager
-nsThreadManager
-:
-:
-sInstance
-;
 NS_IMETHODIMP_
 (
 nsrefcnt

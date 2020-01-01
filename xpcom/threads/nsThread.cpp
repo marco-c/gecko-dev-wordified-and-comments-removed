@@ -332,10 +332,6 @@ nsThreadClassInfo
 }
 }
 ;
-static
-nsThreadClassInfo
-sThreadClassInfo
-;
 NS_IMETHODIMP_
 (
 nsrefcnt
@@ -588,6 +584,10 @@ nsIClassInfo
 )
 )
 {
+static
+nsThreadClassInfo
+sThreadClassInfo
+;
 foundInterface
 =
 static_cast
