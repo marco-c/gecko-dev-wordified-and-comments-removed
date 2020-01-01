@@ -505,6 +505,10 @@ D_IMPL_NS_LAYOUT
 _TEST_FILES
 =
 \
+border_radius_hit_testing_iframe
+.
+html
+\
 bug369950
 -
 subframe
@@ -518,6 +522,10 @@ rdf
 decoration_line_rendering
 .
 js
+\
+test_border_radius_hit_testing
+.
+html
 \
 test_bug66619
 .
