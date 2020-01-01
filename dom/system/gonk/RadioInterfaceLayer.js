@@ -13910,7 +13910,7 @@ Ci
 nsINetworkInterface
 Ci
 .
-nsIRIODataCallback
+nsIRILDataCallback
 ]
 }
 )
