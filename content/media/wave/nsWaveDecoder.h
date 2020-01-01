@@ -329,6 +329,11 @@ DecodeError
 (
 )
 ;
+nsresult
+StartStateMachineThread
+(
+)
+;
 float
 mInitialVolume
 ;

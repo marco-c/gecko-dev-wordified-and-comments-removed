@@ -769,6 +769,11 @@ DecodeError
 (
 )
 ;
+nsresult
+StartStateMachineThread
+(
+)
+;
 PRInt64
 mDecoderPosition
 ;
