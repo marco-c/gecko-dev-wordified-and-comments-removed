@@ -10727,6 +10727,13 @@ Directives
 newDirectives
 )
 {
+context
+-
+>
+maybePause
+(
+)
+;
 Node
 prelude
 =

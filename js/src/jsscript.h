@@ -1127,7 +1127,7 @@ xdr
 bool
 setFilename
 (
-JSContext
+ExclusiveContext
 *
 cx
 const
@@ -1151,7 +1151,7 @@ filename_
 bool
 setSourceMap
 (
-JSContext
+ExclusiveContext
 *
 cx
 jschar
@@ -1303,7 +1303,7 @@ ScriptSourceObject
 *
 create
 (
-JSContext
+ExclusiveContext
 *
 cx
 ScriptSource

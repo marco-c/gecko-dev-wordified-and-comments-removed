@@ -472,6 +472,11 @@ isHeapBusy
 )
 )
 ;
+if
+(
+!
+usedByExclusiveThread
+)
 gcScheduled
 =
 true
@@ -618,6 +623,9 @@ gcHeapGrowthFactor
 ;
 bool
 isSystem
+;
+bool
+usedByExclusiveThread
 ;
 bool
 scheduledForDestruction

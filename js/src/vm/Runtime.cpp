@@ -95,6 +95,13 @@ h
 #
 include
 "
+jscntxtinlines
+.
+h
+"
+#
+include
+"
 jsgcinlines
 .
 h
@@ -233,6 +240,12 @@ RuntimeSizes
 rtSizes
 )
 {
+AutoLockForExclusiveAccess
+lock
+(
+this
+)
+;
 rtSizes
 -
 >

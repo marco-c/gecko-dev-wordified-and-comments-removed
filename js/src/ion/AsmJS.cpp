@@ -29391,7 +29391,7 @@ true
 }
 #
 ifdef
-JS_PARALLEL_COMPILATION
+JS_WORKER_THREADS
 struct
 ParallelGroupState
 {
@@ -38008,7 +38008,7 @@ false
 ;
 #
 ifdef
-JS_PARALLEL_COMPILATION
+JS_WORKER_THREADS
 if
 (
 OffThreadCompilationEnabled
@@ -38349,7 +38349,7 @@ support
 ;
 #
 ifdef
-JS_PARALLEL_COMPILATION
+JS_WORKER_THREADS
 if
 (
 OffThreadCompilationEnabled
@@ -38361,7 +38361,7 @@ cx
 if
 (
 !
-EnsureParallelCompilationInitialized
+EnsureWorkerThreadsInitialized
 (
 cx
 -

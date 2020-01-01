@@ -1360,6 +1360,11 @@ c
 NULL
 )
 ;
+WaitForOffThreadParsingToFinish
+(
+rt
+)
+;
 FinishCommonNames
 (
 rt
@@ -4993,6 +4998,10 @@ perThreadData
 (
 pt
 )
+allocator_
+(
+NULL
+)
 {
 }
 bool
@@ -5083,10 +5092,6 @@ NULL
 generatingError
 (
 false
-)
-enterCompartmentDepth_
-(
-0
 )
 savedFrameChains_
 (

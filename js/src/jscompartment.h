@@ -1925,7 +1925,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 class
 AutoCompartment
 {
-JSContext
+ExclusiveContext
 *
 const
 cx_
@@ -1940,7 +1940,7 @@ public
 inline
 AutoCompartment
 (
-JSContext
+ExclusiveContext
 *
 cx
 JSObject
@@ -1965,7 +1965,7 @@ AutoCompartment
 (
 )
 ;
-JSContext
+ExclusiveContext
 *
 context
 (

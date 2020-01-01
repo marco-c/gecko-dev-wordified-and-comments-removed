@@ -1579,6 +1579,13 @@ frontend
 CompileScript
 (
 cx
+&
+cx
+-
+>
+tempLifoAlloc
+(
+)
 scopeobj
 callerScript
 options
@@ -1909,6 +1916,13 @@ frontend
 CompileScript
 (
 cx
+&
+cx
+-
+>
+tempLifoAlloc
+(
+)
 scopeobj
 callerScript
 options

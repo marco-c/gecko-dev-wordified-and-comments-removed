@@ -64,7 +64,7 @@ inline
 void
 setLength
 (
-JSContext
+ExclusiveContext
 *
 cx
 Handle

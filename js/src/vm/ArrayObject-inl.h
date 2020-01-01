@@ -39,7 +39,7 @@ ArrayObject
 :
 setLength
 (
-JSContext
+ExclusiveContext
 *
 cx
 Handle
@@ -69,9 +69,6 @@ length
 INT32_MAX
 )
 {
-js
-:
-:
 types
 :
 :
@@ -79,9 +76,6 @@ MarkTypeObjectFlags
 (
 cx
 arr
-js
-:
-:
 types
 :
 :
@@ -91,9 +85,6 @@ OBJECT_FLAG_LENGTH_OVERFLOW
 jsid
 lengthId
 =
-js
-:
-:
 NameToId
 (
 cx
@@ -106,9 +97,6 @@ names
 length
 )
 ;
-js
-:
-:
 types
 :
 :
@@ -117,9 +105,6 @@ AddTypePropertyId
 cx
 arr
 lengthId
-js
-:
-:
 types
 :
 :
