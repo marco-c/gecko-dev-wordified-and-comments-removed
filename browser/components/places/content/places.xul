@@ -4758,6 +4758,11 @@ value
 Debug
 :
 "
+control
+=
+"
+placeURI
+"
 /
 >
 <
@@ -4877,6 +4882,11 @@ value
 "
 Loaded
 :
+"
+control
+=
+"
+loadedURI
 "
 /
 >

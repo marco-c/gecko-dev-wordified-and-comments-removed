@@ -415,6 +415,11 @@ match
 label
 ;
 "
+control
+=
+"
+advancedSearchType
+"
 /
 >
 <

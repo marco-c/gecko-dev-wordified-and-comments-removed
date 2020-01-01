@@ -1341,7 +1341,7 @@ label
 control
 =
 "
-tagsField
+editBMPanel_tagsField
 "
 observes
 =
