@@ -537,6 +537,12 @@ test_bug391777
 .
 html
 \
+test_form
+-
+parsing
+.
+html
+\
 (
 NULL
 )
