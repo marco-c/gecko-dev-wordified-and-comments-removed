@@ -15728,11 +15728,6 @@ Debugger
 .
 Frame
 "
-fnname
-"
-stack
-frame
-"
 )
 ;
 return

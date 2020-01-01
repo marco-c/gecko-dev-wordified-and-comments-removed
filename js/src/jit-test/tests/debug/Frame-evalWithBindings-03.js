@@ -139,13 +139,6 @@ f
 (
 )
 {
-eval
-(
-'
-arguments
-'
-)
-;
 debugger
 ;
 }
