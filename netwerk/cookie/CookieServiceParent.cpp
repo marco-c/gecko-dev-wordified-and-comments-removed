@@ -16,7 +16,7 @@ mozilla
 /
 dom
 /
-PBrowserParent
+PContentParent
 .
 h
 "
@@ -77,7 +77,7 @@ mozilla
 dom
 :
 :
-PBrowserParent
+PContentParent
 ;
 using
 mozilla
@@ -95,8 +95,10 @@ namespace
 net
 {
 MOZ_WARN_UNUSED_RESULT
-static
 bool
+CookieServiceParent
+:
+:
 GetAppInfoFromParams
 (
 const
@@ -106,9 +108,6 @@ IPC
 SerializedLoadContext
 &
 aLoadContext
-PBrowserParent
-*
-aBrowser
 uint32_t
 &
 aAppId
@@ -143,7 +142,14 @@ NeckoParent
 GetValidatedAppInfo
 (
 aLoadContext
-aBrowser
+Manager
+(
+)
+-
+>
+Manager
+(
+)
 &
 aAppId
 &
@@ -290,9 +296,6 @@ IPC
 SerializedLoadContext
 &
 aLoadContext
-PBrowserParent
-*
-aBrowser
 nsCString
 *
 aResult
@@ -338,7 +341,6 @@ valid
 GetAppInfoFromParams
 (
 aLoadContext
-aBrowser
 appId
 isInBrowserElement
 isPrivate
@@ -406,9 +408,6 @@ IPC
 SerializedLoadContext
 &
 aLoadContext
-PBrowserParent
-*
-aBrowser
 )
 {
 if
@@ -451,7 +450,6 @@ valid
 GetAppInfoFromParams
 (
 aLoadContext
-aBrowser
 appId
 isInBrowserElement
 isPrivate
