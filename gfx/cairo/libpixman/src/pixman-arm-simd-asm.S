@@ -386,7 +386,7 @@ maintainability
 *
 /
 pixman_asm_function
-pixman_composite_add_8000_8000_asm_armv6
+pixman_composite_add_8_8_asm_armv6
 push
 {
 r4

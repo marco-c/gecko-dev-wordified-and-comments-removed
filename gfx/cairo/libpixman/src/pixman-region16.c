@@ -42,6 +42,10 @@ pixman_region16_t
 region_type_t
 ;
 typedef
+int32_t
+overflow_int_t
+;
+typedef
 struct
 {
 int
@@ -61,6 +65,14 @@ pixman_region
 #
 #
 x
+#
+define
+PIXMAN_REGION_MAX
+INT16_MAX
+#
+define
+PIXMAN_REGION_MIN
+INT16_MIN
 #
 include
 "

@@ -34,7 +34,7 @@ h
 if
 0
 void
-pixman_composite_add_8000_8000_asm_armv6
+pixman_composite_add_8_8_asm_armv6
 (
 int32_t
 width
@@ -1940,7 +1940,7 @@ endif
 PIXMAN_ARM_BIND_FAST_PATH_SRC_DST
 (
 armv6
-add_8000_8000
+add_8_8
 uint8_t
 1
 uint8_t
@@ -2051,7 +2051,7 @@ ADD
 a8
 null
 a8
-armv6_composite_add_8000_8000
+armv6_composite_add_8_8
 )
 PIXMAN_STD_FAST_PATH
 (

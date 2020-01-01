@@ -39,8 +39,6 @@ const
 uint32_t
 *
 mask
-uint32_t
-mask_bits
 )
 {
 uint32_t
@@ -99,8 +97,6 @@ const
 uint32_t
 *
 mask
-uint32_t
-mask_bits
 )
 {
 uint64_t
