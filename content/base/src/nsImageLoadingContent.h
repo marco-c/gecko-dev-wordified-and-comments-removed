@@ -178,6 +178,13 @@ return
 mLoadingEnabled
 ;
 }
+void
+SetBlockingOnload
+(
+PRBool
+aBlocking
+)
+;
 private
 :
 struct
@@ -426,6 +433,11 @@ mUserDisabled
 ;
 PRPackedBool
 mSuppressed
+:
+1
+;
+PRPackedBool
+mBlockingOnload
 :
 1
 ;
