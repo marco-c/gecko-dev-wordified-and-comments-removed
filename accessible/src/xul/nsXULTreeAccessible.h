@@ -309,10 +309,8 @@ nsITreeBoxObject
 >
 mTree
 ;
-nsCOMPtr
-<
 nsITreeView
->
+*
 mTreeView
 ;
 nsAccessibleHashtable
@@ -613,10 +611,8 @@ nsITreeBoxObject
 >
 mTree
 ;
-nsCOMPtr
-<
 nsITreeView
->
+*
 mTreeView
 ;
 PRInt32
