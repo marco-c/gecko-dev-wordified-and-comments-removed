@@ -139,6 +139,14 @@ nsCString
 aURI
 )
 ;
+NS_IMETHOD
+GetDefaultDescription
+(
+nsAString
+&
+aDefaultDescription
+)
+;
 }
 ;
 #
