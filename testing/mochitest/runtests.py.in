@@ -654,7 +654,7 @@ else
 :
 SERVER_STARTUP_TIMEOUT
 =
-45
+90
 oldcwd
 =
 os
