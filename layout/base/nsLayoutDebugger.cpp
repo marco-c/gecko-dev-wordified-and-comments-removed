@@ -909,8 +909,9 @@ Next
 )
 )
 {
-printf
+fprintf
 (
+aOutput
 "
 (
 opaque
@@ -943,6 +944,14 @@ height
 )
 ;
 }
+i
+-
+>
+WriteDebugInfo
+(
+aOutput
+)
+;
 if
 (
 aDumpHtml
