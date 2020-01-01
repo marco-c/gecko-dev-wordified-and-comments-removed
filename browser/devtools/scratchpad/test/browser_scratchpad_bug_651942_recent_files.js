@@ -103,6 +103,9 @@ let
 gFileName02
 =
 "
+file02_ForBug651942
+.
+tmp
 "
 let
 gFileName03
