@@ -3413,6 +3413,15 @@ aColor
 )
 ;
 virtual
+PRBool
+IsFixedAndCoveringViewport
+(
+nsDisplayListBuilder
+*
+aBuilder
+)
+;
+virtual
 nsRect
 GetBounds
 (
