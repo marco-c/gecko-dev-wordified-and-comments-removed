@@ -582,12 +582,6 @@ QCMS_LIBS
 (
 NULL
 )
-ifdef
-ENABLE_TESTS
-HAS_EXTRAEXPORTS
-=
-1
-endif
 include
 (
 topsrcdir

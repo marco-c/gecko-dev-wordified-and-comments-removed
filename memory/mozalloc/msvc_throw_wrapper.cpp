@@ -16,13 +16,6 @@ defined
 (
 XP_OS2
 )
-&
-&
-defined
-(
-__declspec
-)
-)
 #
 define
 MOZALLOC_EXPORT
