@@ -958,7 +958,7 @@ font
 =
 [
 NSFont
-menuFontOfSize
+menuBarFontOfSize
 :
 0
 .
