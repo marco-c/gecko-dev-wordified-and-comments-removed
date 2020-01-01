@@ -233,6 +233,9 @@ uint32
 pow
 (
 10
+(
+double
+)
 bin
 )
 ;
@@ -276,6 +279,9 @@ ceil
 (
 log10
 (
+(
+double
+)
 val
 )
 )
@@ -929,6 +935,9 @@ ceil
 (
 log10
 (
+(
+double
+)
 cnt
 )
 )

@@ -32431,6 +32431,9 @@ siter
 ;
 op
 =
+(
+JSOp
+)
 pc
 [
 -
