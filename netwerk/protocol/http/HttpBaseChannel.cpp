@@ -210,10 +210,6 @@ mSuspendCount
 (
 0
 )
-mRedirectedCachekeys
-(
-nsnull
-)
 {
 LOG
 (
@@ -6269,11 +6265,11 @@ httpInternal
 SetCacheKeysRedirectChain
 (
 mRedirectedCachekeys
+.
+forget
+(
 )
-;
-mRedirectedCachekeys
-=
-nsnull
+)
 ;
 }
 }
