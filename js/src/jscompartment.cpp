@@ -2643,6 +2643,14 @@ endif
 #
 ifdef
 JS_METHODJIT
+js
+:
+:
+CheckCompartmentScripts
+(
+this
+)
+;
 for
 (
 JSScript

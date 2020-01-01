@@ -4498,7 +4498,7 @@ toString
 )
 ;
 \
-JSBool
+int32
 cmp
 ;
 \
@@ -12577,6 +12577,8 @@ IterNext
 VMFrame
 &
 f
+int32
+offset
 )
 {
 JS_ASSERT
@@ -12587,7 +12589,7 @@ regs
 .
 sp
 -
-1
+offset
 >
 =
 f
@@ -12611,7 +12613,7 @@ regs
 sp
 [
 -
-1
+offset
 ]
 .
 isObject
@@ -12631,7 +12633,7 @@ regs
 sp
 [
 -
-1
+offset
 ]
 .
 toObject

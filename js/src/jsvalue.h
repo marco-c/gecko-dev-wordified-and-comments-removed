@@ -3921,6 +3921,9 @@ void
 *
 unused
 ;
+bool
+isWrappedNative
+;
 }
 ;
 #
@@ -3932,6 +3935,7 @@ NULL
 NULL
 NULL
 NULL
+false
 }
 struct
 ObjectOps
