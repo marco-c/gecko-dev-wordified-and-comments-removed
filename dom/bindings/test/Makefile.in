@@ -400,6 +400,10 @@ test_queryInterface
 .
 html
 \
+test_exceptionThrowing
+.
+html
+\
 (
 NULL
 )
