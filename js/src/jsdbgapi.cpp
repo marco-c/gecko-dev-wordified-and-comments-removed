@@ -4905,6 +4905,14 @@ rt
 debuggerMutations
 ;
 }
+obj
+-
+>
+watchpointOwnShapeChange
+(
+cx
+)
+;
 wp
 -
 >
