@@ -670,7 +670,7 @@ test_jsctypes
 .
 js
 (
-TEST_INSTALLER
+INSTALL
 )
 (
 SHARED_LIBRARY
@@ -679,7 +679,7 @@ SHARED_LIBRARY
 xpctestdir
 )
 (
-TEST_INSTALLER
+INSTALL
 )
 (
 SHARED_LIBRARY
@@ -698,7 +698,7 @@ chrome
 /
 libraries
 (
-TEST_INSTALLER
+INSTALL
 )
 (
 xpctestdir
@@ -711,7 +711,7 @@ js
 chrometestdir
 )
 (
-TEST_INSTALLER
+INSTALL
 )
 (
 xpctestdir
