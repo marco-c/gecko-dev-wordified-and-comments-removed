@@ -10532,6 +10532,16 @@ if
 gURLBar
 .
 value
+&
+&
+gURLBar
+.
+hasAttribute
+(
+"
+focused
+"
+)
 )
 gURLBar
 .
