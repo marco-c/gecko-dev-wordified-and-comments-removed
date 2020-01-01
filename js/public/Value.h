@@ -1426,9 +1426,6 @@ u32
 JSWhyMagic
 why
 ;
-uintptr_t
-word
-;
 }
 payload
 ;
