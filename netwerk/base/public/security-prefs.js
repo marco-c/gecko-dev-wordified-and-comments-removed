@@ -708,8 +708,9 @@ security
 default_personal_cert
 "
 "
-Select
-Automatically
+Ask
+Every
+Time
 "
 )
 ;
