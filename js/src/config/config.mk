@@ -4865,9 +4865,9 @@ RUN_TEST_PROGRAM
 topsrcdir
 )
 /
-testing
+build
 /
-xpcshell
+os2
 /
 test_os2
 .
