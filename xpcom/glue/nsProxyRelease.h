@@ -206,7 +206,6 @@ ptr
 )
 ;
 }
-virtual
 ~
 nsMainThreadPtrHolder
 (
