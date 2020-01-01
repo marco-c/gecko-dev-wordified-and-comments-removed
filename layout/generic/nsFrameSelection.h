@@ -61,6 +61,26 @@ nsIRange
 h
 "
 #
+define
+NS_FRAME_SELECTION_IID
+\
+{
+0x3c6ae2d0
+0x4cf1
+0x44a1
+\
+{
+0x9e
+0x9d
+0x24
+0x11
+0x86
+0x7f
+0x19
+0xc6
+}
+}
+#
 ifdef
 IBMBIDI
 #
@@ -377,6 +397,7 @@ nsMouseEvent
 aMouseEvent
 )
 ;
+virtual
 nsresult
 SelectCellElement
 (
@@ -385,6 +406,7 @@ nsIContent
 aCell
 )
 ;
+virtual
 nsresult
 AddCellsToSelection
 (
@@ -401,6 +423,7 @@ PRInt32
 aEndColumnIndex
 )
 ;
+virtual
 nsresult
 RemoveCellsFromSelection
 (
@@ -417,6 +440,7 @@ PRInt32
 aEndColumnIndex
 )
 ;
+virtual
 nsresult
 RestrictCellsToSelection
 (
@@ -535,6 +559,7 @@ aType
 )
 const
 ;
+virtual
 nsIFrame
 *
 GetFrameForNodeOffset
@@ -589,6 +614,7 @@ mHint
 #
 ifdef
 IBMBIDI
+virtual
 void
 SetCaretBidiLevel
 (
@@ -596,12 +622,14 @@ PRUint8
 aLevel
 )
 ;
+virtual
 PRUint8
 GetCaretBidiLevel
 (
 )
 const
 ;
+virtual
 void
 UndefineCaretBidiLevel
 (
@@ -755,6 +783,7 @@ return
 mMouseDoubleDownState
 ;
 }
+virtual
 nsPrevNextBidiLevels
 GetPrevNextBidiLevels
 (
