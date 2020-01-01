@@ -453,6 +453,8 @@ js
 \
 layout
 \
+necko
+\
 pref
 \
 string
@@ -478,6 +480,10 @@ nsDOMWorkerBase
 cpp
 \
 nsDOMWorkerPool
+.
+cpp
+\
+nsDOMWorkerScriptLoader
 .
 cpp
 \
