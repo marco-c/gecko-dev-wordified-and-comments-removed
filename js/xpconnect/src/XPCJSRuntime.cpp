@@ -2474,6 +2474,14 @@ lock
 mMapLock
 )
 ;
+dom
+:
+:
+TraverseOuterWindows
+(
+cb
+)
+;
 XPCWrappedNativeScope
 :
 :
