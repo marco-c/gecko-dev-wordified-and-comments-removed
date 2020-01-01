@@ -603,14 +603,6 @@ iframe_bug599584
 .
 html
 \
-test_bug579846
-.
-html
-\
-sub_bug579846
-.
-sjs
-\
 (
 NULL
 )

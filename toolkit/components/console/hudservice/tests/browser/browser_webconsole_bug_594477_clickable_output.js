@@ -118,12 +118,6 @@ tabLoad2
 true
 )
 ;
-executeSoon
-(
-function
-(
-)
-{
 browser
 .
 contentWindow
@@ -132,9 +126,6 @@ location
 .
 reload
 (
-)
-;
-}
 )
 ;
 log
