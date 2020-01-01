@@ -6169,7 +6169,7 @@ NS_OK
 }
 nsRefPtr
 <
-gfxImageFrame
+gfxImageSurface
 >
 frame
 ;
