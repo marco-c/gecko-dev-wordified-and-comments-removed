@@ -165,6 +165,16 @@ html
 .
 json
 \
+test_Range
+-
+intersectsNode
+-
+binding
+.
+html
+.
+json
+\
 test_attributes
 .
 html

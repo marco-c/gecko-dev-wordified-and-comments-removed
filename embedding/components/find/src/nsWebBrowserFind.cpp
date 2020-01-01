@@ -3337,7 +3337,6 @@ nsFind
 :
 CreateRange
 (
-theDoc
 )
 ;
 NS_ENSURE_ARG_POINTER
@@ -3356,7 +3355,6 @@ nsFind
 :
 CreateRange
 (
-theDoc
 )
 ;
 NS_ENSURE_ARG_POINTER
@@ -3375,7 +3373,6 @@ nsFind
 :
 CreateRange
 (
-theDoc
 )
 ;
 NS_ENSURE_ARG_POINTER

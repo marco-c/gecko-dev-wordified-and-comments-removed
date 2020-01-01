@@ -237,11 +237,6 @@ nsINode
 aRoot
 )
 {
-NS_ENSURE_ARG_POINTER
-(
-aRoot
-)
-;
 NS_ENSURE_TRUE
 (
 mPreIterator
@@ -271,7 +266,6 @@ mRange
 new
 nsRange
 (
-aRoot
 )
 ;
 nsCOMPtr

@@ -13964,7 +13964,6 @@ mSourcePointer
 new
 nsRange
 (
-this
 )
 ;
 rv

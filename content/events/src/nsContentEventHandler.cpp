@@ -2901,7 +2901,6 @@ range
 new
 nsRange
 (
-mRootContent
 )
 ;
 rv
@@ -3197,7 +3196,6 @@ range
 new
 nsRange
 (
-mRootContent
 )
 ;
 rv
@@ -4051,7 +4049,6 @@ range
 new
 nsRange
 (
-mRootContent
 )
 ;
 rv
@@ -5134,11 +5131,6 @@ uint32_t
 aNativeOffset
 )
 {
-NS_ENSURE_STATE
-(
-aRootContent
-)
-;
 NS_ASSERTION
 (
 aNativeOffset
@@ -5158,7 +5150,6 @@ prev
 new
 nsRange
 (
-aRootContent
 )
 ;
 nsCOMPtr
@@ -5941,7 +5932,6 @@ range
 new
 nsRange
 (
-mRootContent
 )
 ;
 NS_ENSURE_TRUE

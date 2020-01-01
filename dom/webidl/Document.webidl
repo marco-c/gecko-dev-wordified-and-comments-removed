@@ -325,6 +325,9 @@ interface
 Comment
 ;
 interface
+Range
+;
+interface
 StyleSheetList
 ;
 interface
