@@ -1335,7 +1335,7 @@ topsrcdir
 relative_topsrcdir
 relative_srcdir
 output_dir
-topsrcdir_header
+flavor
 )
 :
     
@@ -1415,9 +1415,9 @@ output_dir
     
 self
 .
-topsrcdir_header
+flavor
 =
-topsrcdir_header
+flavor
     
 self
 .
@@ -2624,11 +2624,31 @@ else
 return
 False
     
+if
+self
+.
+flavor
+=
+=
+'
+win
+'
+:
+      
 top
 =
 self
 .
-topsrcdir_header
+relative_topsrcdir
+    
+else
+:
+      
+top
+=
+self
+.
+topsrcdir
     
 WriteMakefile
 (
@@ -2749,38 +2769,6 @@ else
 '
 )
   
-topsrcdir_header
-=
-generator_flags
-[
-'
-TOPSRCDIR
-'
-]
-if
-'
-TOPSRCDIR
-'
-in
-generator_flags
-else
-topsrcdir
-  
-topsrcdir_header
-=
-topsrcdir_header
-[
-1
-:
-3
-]
-+
-topsrcdir_header
-[
-4
-:
-]
-  
 relative_topsrcdir
 =
 gyp
@@ -2849,7 +2837,7 @@ objdir
   
 abs_srcdir
 =
-topsrcdir_header
+topsrcdir
 +
 "
 /
@@ -3042,7 +3030,7 @@ topsrcdir
 relative_topsrcdir
 relative_srcdir
 output_dir
-topsrcdir_header
+flavor
 )
   
 generator
@@ -3081,6 +3069,34 @@ generator
 .
 parallel_dirs
   
+if
+flavor
+=
+=
+'
+win
+'
+:
+    
+top
+=
+relative_topsrcdir
+    
+src
+=
+srcdir
+  
+else
+:
+    
+top
+=
+topsrcdir
+    
+src
+=
+abs_srcdir
+  
 WriteMakefile
 (
 makefile_path
@@ -3099,12 +3115,12 @@ depth
                 
 swapslashes
 (
-topsrcdir_header
+top
 )
                 
 swapslashes
 (
-abs_srcdir
+src
 )
                 
 swapslashes
