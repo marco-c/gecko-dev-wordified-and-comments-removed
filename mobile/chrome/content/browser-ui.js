@@ -13905,7 +13905,7 @@ null
 SaveLinkTitle
 "
 false
-false
+true
 browser
 .
 documentURI
@@ -13940,7 +13940,7 @@ null
 SaveImageTitle
 "
 false
-false
+true
 browser
 .
 documentURI
