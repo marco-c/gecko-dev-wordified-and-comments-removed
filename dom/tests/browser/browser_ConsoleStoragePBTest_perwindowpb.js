@@ -353,8 +353,7 @@ true
 ;
 storageShouldOccur
 =
-!
-aIsPrivateMode
+true
 ;
 innerID
 =

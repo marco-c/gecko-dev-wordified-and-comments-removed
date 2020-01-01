@@ -1046,7 +1046,7 @@ let
 metaForCall
 =
 {
-isPrivate
+private
 :
 PrivateBrowsingUtils
 .
@@ -1305,6 +1305,11 @@ timeStamp
 arguments
 :
 args
+private
+:
+meta
+.
+private
 }
 ;
 switch
@@ -1492,9 +1497,6 @@ notifyObservers
 (
 method
 consoleEvent
-meta
-.
-isPrivate
 )
 ;
 }
@@ -1505,7 +1507,6 @@ CA_notifyObservers
 (
 aLevel
 aConsoleEvent
-aPrivate
 )
 {
 aConsoleEvent
@@ -1514,12 +1515,6 @@ wrappedJSObject
 =
 aConsoleEvent
 ;
-if
-(
-!
-aPrivate
-)
-{
 ConsoleAPIStorage
 .
 recordEvent
@@ -1530,7 +1525,6 @@ _innerID
 aConsoleEvent
 )
 ;
-}
 Services
 .
 obs
