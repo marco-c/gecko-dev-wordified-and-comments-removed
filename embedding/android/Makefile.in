@@ -473,6 +473,10 @@ DatabaseHelper
 .
 java
 \
+SessionHistory
+.
+java
+\
 (
 NULL
 )
