@@ -24940,6 +24940,13 @@ NS_FRAME_SELECTED_CONTENT
 ;
 }
 }
+if
+(
+aType
+&
+SelectionTypesWithDecorations
+)
+{
 PRBool
 didHaveOverflowingSelection
 =
@@ -25011,6 +25018,7 @@ eStyleChange
 NS_FRAME_IS_DIRTY
 )
 ;
+}
 }
 f
 -
