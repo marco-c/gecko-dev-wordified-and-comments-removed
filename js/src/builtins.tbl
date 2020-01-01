@@ -456,8 +456,8 @@ BUILTIN1
 (
 UnboxInt32
 LO
-LO
-jsint
+Q
+uint64
 jsval
 *
 1
