@@ -25,7 +25,6 @@ mach
 base
 import
 Command
-CommandProvider
 class
 Settings
 (

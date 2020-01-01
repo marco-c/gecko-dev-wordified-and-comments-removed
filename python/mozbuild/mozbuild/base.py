@@ -1121,30 +1121,6 @@ filename
 )
         
 if
-allow_parallel
-:
-            
-args
-.
-append
-(
-'
--
-j
-%
-d
-'
-%
-self
-.
-settings
-.
-build
-.
-threads
-)
-        
-if
 ignore_errors
 :
             
