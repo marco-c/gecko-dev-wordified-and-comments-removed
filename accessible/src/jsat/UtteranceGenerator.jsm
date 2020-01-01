@@ -1575,6 +1575,13 @@ stateUnavailable
 }
 if
 (
+Utils
+.
+AndroidSdkVersion
+<
+16
+&
+&
 aStates
 .
 base
