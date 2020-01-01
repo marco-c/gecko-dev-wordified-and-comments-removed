@@ -1415,7 +1415,6 @@ if
 entry
 )
 {
-return
 EncryptDataUCS2
 (
 aPassword
@@ -1424,6 +1423,14 @@ entry
 >
 passValue
 )
+;
+WritePasswords
+(
+mSignonFile
+)
+;
+return
+NS_OK
 ;
 }
 }
@@ -2515,6 +2522,11 @@ passField
 Assign
 (
 aPassFieldName
+)
+;
+WritePasswords
+(
+mSignonFile
 )
 ;
 return
