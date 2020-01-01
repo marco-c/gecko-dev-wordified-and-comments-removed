@@ -3015,6 +3015,14 @@ ComponentAlphaEnabled
 )
 )
 ;
+MOZ_ASSERT
+(
+mAttachments
+-
+>
+mComponentBlendState
+)
+;
 EffectComponentAlpha
 *
 effectComponentAlpha
