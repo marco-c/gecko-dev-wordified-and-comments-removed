@@ -422,10 +422,6 @@ canvas
 \
 interfaces
 /
-contacts
-\
-interfaces
-/
 core
 \
 interfaces
@@ -435,6 +431,10 @@ html
 interfaces
 /
 events
+\
+interfaces
+/
+contacts
 \
 interfaces
 /
