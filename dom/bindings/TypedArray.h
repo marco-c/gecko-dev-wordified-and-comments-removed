@@ -27,6 +27,17 @@ jsapi
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+BindingDeclarations
+.
+h
+"
 namespace
 mozilla
 {
@@ -52,6 +63,8 @@ T
 >
 struct
 TypedArray_base
+:
+AllTypedArraysBase
 {
 TypedArray_base
 (

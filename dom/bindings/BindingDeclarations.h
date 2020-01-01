@@ -80,6 +80,11 @@ DictionaryBase
 }
 ;
 struct
+AllTypedArraysBase
+{
+}
+;
+struct
 MainThreadDictionaryBase
 :
 public
