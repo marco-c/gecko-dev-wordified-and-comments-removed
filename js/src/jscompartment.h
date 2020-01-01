@@ -439,10 +439,6 @@ maxCodeCacheBytes
 JSBool
 needFlush
 ;
-REHashMap
-*
-reFragments
-;
 TypeMap
 *
 cachedTempTypeMap
