@@ -68,13 +68,6 @@ h
 #
 include
 "
-imgCache
-.
-h
-"
-#
-include
-"
 imgContainer
 .
 h
@@ -198,10 +191,6 @@ h
 "
 #
 endif
-NS_GENERIC_FACTORY_CONSTRUCTOR
-(
-imgCache
-)
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 imgContainer
@@ -665,7 +654,7 @@ components
 image
 cache
 "
-NS_IMGCACHE_CID
+NS_IMGLOADER_CID
 "
 mozilla
 .
@@ -677,7 +666,7 @@ cache
 ;
 1
 "
-imgCacheConstructor
+imgLoaderConstructor
 }
 {
 "
@@ -1197,10 +1186,10 @@ nsIModule
 aSelf
 )
 {
-imgCache
+imgLoader
 :
 :
-Init
+InitCache
 (
 )
 ;
@@ -1219,7 +1208,7 @@ nsIModule
 aSelf
 )
 {
-imgCache
+imgLoader
 :
 :
 Shutdown
