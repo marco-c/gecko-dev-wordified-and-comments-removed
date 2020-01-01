@@ -1242,10 +1242,6 @@ base_paths_linux
 .
 cc
 \
-data_pack
-.
-cc
-\
 file_util_linux
 .
 cc
