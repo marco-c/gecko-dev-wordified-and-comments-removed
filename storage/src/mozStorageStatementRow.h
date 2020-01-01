@@ -76,11 +76,13 @@ GetNativeStatementPointer
 )
 ;
 }
-nsRefPtr
-<
 mozStorageStatement
->
+*
 mStatement
+;
+friend
+class
+mozStorageStatement
 ;
 }
 ;
