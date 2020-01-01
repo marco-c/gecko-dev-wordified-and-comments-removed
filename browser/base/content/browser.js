@@ -2051,6 +2051,15 @@ cloneNode
 true
 )
 ;
+popup
+.
+removeAttribute
+(
+"
+id
+"
+)
+;
 var
 backButton
 =
