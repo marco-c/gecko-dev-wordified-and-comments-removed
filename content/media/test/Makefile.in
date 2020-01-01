@@ -569,6 +569,10 @@ test_loop
 .
 html
 \
+test_metadata
+.
+html
+\
 test_mozLoadFrom
 .
 html
