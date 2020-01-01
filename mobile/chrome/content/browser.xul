@@ -2866,6 +2866,16 @@ selectedItem
 )
 ;
 "
+onmouseup
+=
+"
+BrowserUI
+.
+hideTabs
+(
+)
+;
+"
 onclosetab
 =
 "
