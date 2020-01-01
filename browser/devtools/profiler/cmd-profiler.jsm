@@ -413,7 +413,7 @@ gcli
 lookup
 (
 "
-profilerAlradyFinished
+profilerAlreadyFinished
 "
 )
 ;
