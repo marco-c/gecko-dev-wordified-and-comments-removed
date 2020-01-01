@@ -1401,6 +1401,7 @@ PRUint32
 aIndexInParent
 )
 ;
+virtual
 void
 UnbindFromParent
 (
