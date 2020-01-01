@@ -4682,6 +4682,8 @@ iftrue
 LIns
 *
 iffalse
+bool
+use_cmov
 )
 ;
 LIns

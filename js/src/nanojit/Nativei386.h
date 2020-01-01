@@ -842,7 +842,6 @@ bool
 isValidDisplacement
 (
 int32_t
-d
 )
 {
 return
