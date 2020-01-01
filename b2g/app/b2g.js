@@ -129,6 +129,10 @@ localhost
 :
 7777
 /
+data
+/
+local
+/
 apps
 /
 dialer
