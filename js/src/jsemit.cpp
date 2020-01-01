@@ -13784,7 +13784,7 @@ pn_type
 =
 TOK_DEFAULT
 )
-CHECK_AND_SET_JUMP_OFFSET_AT
+CHECK_AND_SET_JUMP_OFFSET_AT_CUSTOM
 (
 cx
 cg
@@ -13792,6 +13792,8 @@ pn3
 -
 >
 pn_offset
+goto
+bad
 )
 ;
 pn4
