@@ -119,6 +119,10 @@ gfxPoint
 .
 h
 \
+gfxPoint3D
+.
+h
+\
 gfxRect
 .
 h
