@@ -9387,9 +9387,8 @@ NS_EVENT_STATE_HOVER
 aElement
 -
 >
-SetFlags
+SetHasRelevantHoverRules
 (
-NODE_HAS_RELEVANT_HOVER_RULES
 )
 ;
 }
@@ -11194,9 +11193,8 @@ aData
 mElement
 -
 >
-HasFlag
+HasRelevantHoverRules
 (
-NODE_HAS_RELEVANT_HOVER_RULES
 )
 |
 |

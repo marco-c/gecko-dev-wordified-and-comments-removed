@@ -13126,9 +13126,8 @@ Click
 {
 if
 (
-HasFlag
+HandlingClick
 (
-NODE_HANDLING_CLICK
 )
 )
 return
@@ -13185,9 +13184,8 @@ GetPresContext
 ;
 }
 }
-SetFlags
+SetHandlingClick
 (
-NODE_HANDLING_CLICK
 )
 ;
 nsMouseEvent
@@ -13227,9 +13225,8 @@ context
 event
 )
 ;
-UnsetFlags
+ClearHandlingClick
 (
-NODE_HANDLING_CLICK
 )
 ;
 }
