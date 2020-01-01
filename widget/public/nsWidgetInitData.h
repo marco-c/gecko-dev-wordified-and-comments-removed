@@ -20,7 +20,6 @@ eWindowType_popup
 eWindowType_child
 eWindowType_invisible
 eWindowType_plugin
-eWindowType_java
 eWindowType_sheet
 }
 ;

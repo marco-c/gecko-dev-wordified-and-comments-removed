@@ -2846,6 +2846,12 @@ initData
 ;
 initData
 .
+mWindowType
+=
+eWindowType_plugin
+;
+initData
+.
 mUnicode
 =
 PR_FALSE

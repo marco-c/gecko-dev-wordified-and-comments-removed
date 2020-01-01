@@ -1813,9 +1813,6 @@ PRPackedBool
 mDrawing
 ;
 PRPackedBool
-mIsPluginView
-;
-PRPackedBool
 mPluginDrawing
 ;
 PRPackedBool
