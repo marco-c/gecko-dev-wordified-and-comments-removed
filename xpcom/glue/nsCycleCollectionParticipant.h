@@ -361,6 +361,10 @@ langID
 void
 *
 p
+const
+char
+*
+name
 void
 *
 closure
@@ -1890,6 +1894,7 @@ NS_IMPL_CYCLE_COLLECTION_TRACE_CALLBACK
 (
 _langID
 _object
+_name
 )
 \
 if
@@ -1901,6 +1906,7 @@ aCallback
 (
 _langID
 _object
+_name
 aClosure
 )
 ;
@@ -1919,12 +1925,15 @@ tmp
 -
 >
 _field
+#
+_field
 )
 #
 define
 NS_IMPL_CYCLE_COLLECTION_TRACE_JS_CALLBACK
 (
 _object
+_name
 )
 \
 NS_IMPL_CYCLE_COLLECTION_TRACE_CALLBACK
@@ -1935,6 +1944,7 @@ nsIProgrammingLanguage
 JAVASCRIPT
 \
 _object
+_name
 )
 #
 define
@@ -1948,6 +1958,8 @@ NS_IMPL_CYCLE_COLLECTION_TRACE_JS_CALLBACK
 tmp
 -
 >
+_field
+#
 _field
 )
 #

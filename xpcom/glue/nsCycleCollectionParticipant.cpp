@@ -21,6 +21,10 @@ aLangID
 void
 *
 aScriptThing
+const
+char
+*
+name
 void
 *
 aClosure
@@ -37,6 +41,13 @@ nsCycleCollectionTraversalCallback
 >
 (
 aClosure
+)
+;
+NS_CYCLE_COLLECTION_NOTE_EDGE_NAME
+(
+*
+cb
+name
 )
 ;
 cb

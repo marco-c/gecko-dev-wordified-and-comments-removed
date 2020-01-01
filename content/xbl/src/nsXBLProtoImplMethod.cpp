@@ -989,6 +989,9 @@ nsIProgrammingLanguage
 :
 JAVASCRIPT
 mJSMethodObject
+"
+mJSMethodObject
+"
 aClosure
 )
 ;

@@ -5825,6 +5825,12 @@ nsIProgrammingLanguage
 :
 JAVASCRIPT
 aData
+"
+Cached
+XBL
+prototype
+handler
+"
 data
 -
 >
