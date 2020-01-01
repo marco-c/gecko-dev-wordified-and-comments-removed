@@ -711,9 +711,6 @@ Value
 *
 nativeVp
 ;
-JSFrameRegs
-bailedSlowNativeRegs
-;
 TracerState
 (
 JSContext

@@ -35525,10 +35525,6 @@ nativeVp
 (
 NULL
 )
-bailedSlowNativeRegs
-(
-bailedSlowNativeRegs
-)
 {
 JS_ASSERT
 (
