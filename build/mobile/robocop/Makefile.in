@@ -418,6 +418,14 @@ robocop_autophone
 ini
 \
 (
+srcdir
+)
+/
+parse_ids
+.
+py
+\
+(
 NULL
 )
 robocop
