@@ -1131,7 +1131,7 @@ selectedNode
 )
 )
 {
-PlacesUtils
+PlacesUIUtils
 .
 openContainerNodeInTabs
 (
