@@ -273,8 +273,8 @@ CKM_RSA_PKCS_KEY_PAIR_GEN
 rsaparams
 &
 pubkey
-PR_FALSE
-PR_TRUE
+false
+true
 nullptr
 )
 ;

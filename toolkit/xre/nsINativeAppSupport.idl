@@ -308,7 +308,7 @@ returned
 boolean
 result
 is
-PR_FALSE
+false
 then
 the
 *
@@ -363,7 +363,7 @@ function
 will
 return
 *
-PR_FALSE
+false
 and
 nsresult
 =
@@ -426,7 +426,7 @@ boolean
 *
 value
 is
-PR_FALSE
+false
 then
 the
 application
@@ -488,7 +488,7 @@ function
 will
 *
 return
-PR_FALSE
+false
 .
 *
 *

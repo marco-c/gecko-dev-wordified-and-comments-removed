@@ -513,7 +513,7 @@ Boolean
 A
 value
 of
-PR_TRUE
+true
 makes
 the
 browser
@@ -524,7 +524,7 @@ wrapper
 *
 Default
 is
-PR_FALSE
+false
 .
 *
 *
@@ -624,9 +624,9 @@ object
 .
 *
 Only
-PR_TRUE
+true
 and
-PR_FALSE
+false
 are
 legal
 boolean

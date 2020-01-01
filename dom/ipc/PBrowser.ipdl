@@ -658,7 +658,7 @@ etc
 *
 *
 focus
-PR_TRUE
+true
 if
 editable
 object
@@ -666,7 +666,7 @@ is
 receiving
 focus
 *
-PR_FALSE
+false
 if
 losing
 focus
@@ -736,7 +736,7 @@ called
 when
 NotifyIMEFocus
 returns
-PR_TRUE
+true
 for
 mWantUpdates
 *
@@ -809,7 +809,7 @@ called
 when
 NotifyIMEFocus
 returns
-PR_TRUE
+true
 for
 mWantUpdates
 *
@@ -865,7 +865,7 @@ called
 when
 NotifyIMEFocus
 returns
-PR_TRUE
+true
 for
 mWantHints
 *
@@ -900,7 +900,7 @@ composition
 *
 *
 cancel
-PR_TRUE
+true
 if
 composition
 should
@@ -920,7 +920,7 @@ composition
 if
 cancel
 is
-PR_TRUE
+true
 *
 widget
 should
@@ -933,7 +933,7 @@ composition
 if
 cancel
 is
-PR_FALSE
+false
 *
 widget
 should

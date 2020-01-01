@@ -259,7 +259,7 @@ calls
 that
 pass
 *
-PR_TRUE
+true
 is
 subtracted
 from
@@ -269,7 +269,7 @@ of
 calls
 that
 pass
-PR_FALSE
+false
 is
 *
 greater
@@ -297,7 +297,7 @@ when
 favorPerfOverStarvation
 is
 *
-PR_FALSE
+false
 .
 It
 is
@@ -312,7 +312,7 @@ wait
 before
 the
 *
-PR_FALSE
+false
 actually
 takes
 effect

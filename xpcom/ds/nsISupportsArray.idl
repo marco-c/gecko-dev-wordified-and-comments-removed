@@ -336,7 +336,7 @@ callback
 function
 .
 Return
-PR_FALSE
+false
 to
 stop
 typedef

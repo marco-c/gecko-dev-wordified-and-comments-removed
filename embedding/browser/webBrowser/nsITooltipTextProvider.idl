@@ -275,7 +275,7 @@ return
 <
 CODE
 >
-PR_TRUE
+true
 <
 /
 CODE
@@ -301,7 +301,7 @@ argument
 <
 CODE
 >
-PR_FALSE
+false
 <
 /
 CODE

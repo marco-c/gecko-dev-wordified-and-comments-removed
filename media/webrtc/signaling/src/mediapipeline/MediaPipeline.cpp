@@ -2809,7 +2809,7 @@ yet
 ;
 MOZ_ASSERT
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -2948,7 +2948,7 @@ default
 :
 MOZ_ASSERT
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -3093,7 +3093,7 @@ video
 ;
 MOZ_ASSERT
 (
-PR_FALSE
+false
 )
 ;
 return

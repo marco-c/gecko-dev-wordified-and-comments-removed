@@ -230,7 +230,7 @@ check
 Set
 this
 to
-PR_TRUE
+true
 only
 if
 you

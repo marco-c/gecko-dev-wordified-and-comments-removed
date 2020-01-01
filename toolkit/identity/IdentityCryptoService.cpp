@@ -1537,8 +1537,8 @@ slot
 mechanism
 params
 publicKey
-PR_FALSE
-PR_TRUE
+false
+true
 NULL
 )
 ;

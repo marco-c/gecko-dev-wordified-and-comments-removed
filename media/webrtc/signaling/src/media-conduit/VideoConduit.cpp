@@ -931,7 +931,7 @@ __FUNCTION__
 ;
 MOZ_ASSERT
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -1048,7 +1048,7 @@ __FUNCTION__
 ;
 MOZ_ASSERT
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -2066,7 +2066,7 @@ __FUNCTION__
 ;
 MOZ_ASSERT
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -2099,7 +2099,7 @@ __FUNCTION__
 ;
 MOZ_ASSERT
 (
-PR_FALSE
+false
 )
 ;
 return

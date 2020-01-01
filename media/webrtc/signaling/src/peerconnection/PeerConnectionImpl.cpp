@@ -1175,7 +1175,7 @@ supported
 ;
 MOZ_ASSERT
 (
-PR_FALSE
+false
 )
 ;
 }

@@ -1151,7 +1151,7 @@ should
 set
 this
 to
-PR_TRUE
+true
 if
 they
 *

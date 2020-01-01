@@ -101,7 +101,7 @@ context
 PK11_DestroyContext
 (
 context
-PR_TRUE
+true
 )
 ;
 }

@@ -139,7 +139,7 @@ a
 *
 boolean
 to
-PR_TRUE
+true
 before
 making
 the
@@ -158,7 +158,7 @@ they
 want
 to
 return
-PR_FALSE
+false
 .
 *
 /

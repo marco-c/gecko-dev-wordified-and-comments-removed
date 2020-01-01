@@ -638,7 +638,7 @@ partlyContained
 is
 set
 to
-PR_TRUE
+true
 the
 function
 returns
@@ -661,7 +661,7 @@ partlyContained
 is
 set
 to
-PR_FALSE
+false
 the
 *
 function
@@ -834,7 +834,7 @@ direction
 param
 langRTL
 is
-PR_TRUE
+true
 if
 the
 new
@@ -847,7 +847,7 @@ to
 left
 or
 *
-PR_FALSE
+false
 if
 the
 new

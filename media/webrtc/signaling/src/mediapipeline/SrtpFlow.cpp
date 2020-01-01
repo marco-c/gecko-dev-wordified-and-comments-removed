@@ -1061,7 +1061,7 @@ SRTP
 ;
 MOZ_ASSERT
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -1102,7 +1102,7 @@ handler
 ;
 MOZ_ASSERT
 (
-PR_FALSE
+false
 )
 ;
 return

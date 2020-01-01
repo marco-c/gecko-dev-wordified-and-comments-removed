@@ -255,7 +255,7 @@ textsimple
 param
 aMakeWholeDocumentEditable
 if
-PR_TRUE
+true
 make
 the
 whole
@@ -289,7 +289,7 @@ editable
 param
 aInteractive
 if
-PR_FALSE
+false
 turn
 off
 scripting

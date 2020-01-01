@@ -600,7 +600,7 @@ load
 )
 mylistener
 *
-PR_FALSE
+false
 )
 *
 *

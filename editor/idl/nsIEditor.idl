@@ -1131,7 +1131,7 @@ off
 param
 aEnable
 if
-PR_TRUE
+true
 the
 undo
 system
@@ -1142,7 +1142,7 @@ if
 available
 *
 if
-PR_FALSE
+false
 the
 undo
 system
@@ -1160,7 +1160,7 @@ return
 if
 aEnable
 is
-PR_TRUE
+true
 returns
 NS_OK
 if
@@ -1176,7 +1176,7 @@ properly
 if
 aEnable
 is
-PR_FALSE
+false
 returns
 NS_OK
 .
@@ -1339,7 +1339,7 @@ aIsEnabled
 [
 OUT
 ]
-PR_TRUE
+true
 if
 undo
 is
@@ -1350,7 +1350,7 @@ aCanUndo
 [
 OUT
 ]
-PR_TRUE
+true
 if
 at
 least
@@ -1497,7 +1497,7 @@ aIsEnabled
 [
 OUT
 ]
-PR_TRUE
+true
 if
 redo
 is
@@ -1508,7 +1508,7 @@ aCanRedo
 [
 OUT
 ]
-PR_TRUE
+true
 if
 at
 least
@@ -1773,11 +1773,11 @@ to
 reset
 back
 to
-PR_TRUE
+true
 after
 *
 setting
-PR_FALSE
+false
 else
 selection
 /
@@ -2609,10 +2609,10 @@ valid
 if
 aResultIsSet
 is
-PR_TRUE
+true
 *
 return
-PR_TRUE
+true
 if
 aAttribute
 is
@@ -2622,7 +2622,7 @@ the
 current
 node
 *
-PR_FALSE
+false
 if
 it
 is

@@ -709,7 +709,7 @@ aFirst
 [
 OUT
 ]
-PR_TRUE
+true
 if
 the
 first
@@ -728,7 +728,7 @@ aAny
 [
 OUT
 ]
-PR_TRUE
+true
 if
 any
 of
@@ -748,7 +748,7 @@ aAll
 [
 OUT
 ]
-PR_TRUE
+true
 if
 all
 of
@@ -1504,7 +1504,7 @@ inserting
 If
 aDeleteSelection
 is
-PR_FALSE
+false
 then
 the
 element

@@ -238,7 +238,7 @@ JS
 call
 SetIsVoid
 (
-PR_TRUE
+true
 )
 in
 C
