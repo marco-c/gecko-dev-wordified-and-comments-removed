@@ -4832,14 +4832,6 @@ state
 "
 )
 ;
-mBegun
-=
-PR_FALSE
-;
-mPaused
-=
-PR_TRUE
-;
 DispatchAsyncSimpleEvent
 (
 NS_LITERAL_STRING
