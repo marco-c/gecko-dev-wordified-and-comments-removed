@@ -5747,11 +5747,6 @@ urlbar
 -
 icon
 "
-hidden
-=
-"
-true
-"
 onclick
 =
 "

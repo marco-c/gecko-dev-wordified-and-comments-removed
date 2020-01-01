@@ -5097,9 +5097,7 @@ _itemIds
 ;
 this
 .
-_starIcon
-.
-hidden
+_ignoreClicks
 =
 true
 ;
@@ -5201,9 +5199,7 @@ ex
 }
 this
 .
-_starIcon
-.
-hidden
+_ignoreClicks
 =
 false
 ;
@@ -5347,6 +5343,12 @@ button
 =
 =
 0
+&
+&
+!
+this
+.
+_ignoreClicks
 )
 {
 PlacesCommandHook
