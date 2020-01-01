@@ -1403,6 +1403,17 @@ localProfile
 =
 None
     
+testDir
+=
+'
+/
+data
+/
+local
+/
+tests
+'
+    
 def
 __init__
 (
@@ -1486,19 +1497,6 @@ local
 user
 .
 js
-'
-        
-self
-.
-testDir
-=
-'
-/
-data
-/
-local
-/
-tests
 '
         
 self
@@ -3178,6 +3176,14 @@ adbPath
 options
 .
 adbPath
+              
+'
+deviceRoot
+'
+:
+B2GMochitest
+.
+testDir
 }
     
 if
@@ -3288,15 +3294,6 @@ B2GMochitest
 auto
 dm
 options
-)
-    
-dm
-.
-mkDirs
-(
-mochitest
-.
-testDir
 )
     
 options
