@@ -181,6 +181,9 @@ IsVaryingRelativeToMovingFrame
 nsDisplayListBuilder
 *
 aBuilder
+nsIFrame
+*
+aFrame
 )
 ;
 virtual

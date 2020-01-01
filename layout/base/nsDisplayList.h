@@ -1165,6 +1165,9 @@ IsVaryingRelativeToMovingFrame
 nsDisplayListBuilder
 *
 aBuilder
+nsIFrame
+*
+aFrame
 )
 {
 return
@@ -3376,6 +3379,9 @@ IsVaryingRelativeToMovingFrame
 nsDisplayListBuilder
 *
 aBuilder
+nsIFrame
+*
+aFrame
 )
 ;
 virtual
@@ -3883,6 +3889,9 @@ IsVaryingRelativeToMovingFrame
 nsDisplayListBuilder
 *
 aBuilder
+nsIFrame
+*
+aFrame
 )
 ;
 virtual
