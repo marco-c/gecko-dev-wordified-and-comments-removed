@@ -602,6 +602,8 @@ options
 tinderbox
 :
                 
+self
+.
 print_tinderbox_result
 (
 '
@@ -945,6 +947,8 @@ RANDOM
 )
 '
                         
+self
+.
 print_tinderbox_result
 (
 label
@@ -963,6 +967,8 @@ message
 msg
 )
                 
+self
+.
 print_tinderbox_result
 (
 self
@@ -1387,6 +1393,16 @@ all_passed
 )
 :
                   
+if
+'
+REGRESSIONS
+'
+in
+self
+.
+groups
+:
+                      
 for
 path
 in
@@ -1398,7 +1414,27 @@ groups
 REGRESSIONS
 '
 ]
-+
+:
+                          
+print
+>
+>
+failure_file
+path
+                  
+if
+'
+TIMEOUTS
+'
+in
+self
+.
+groups
+:
+                      
+for
+path
+in
 self
 .
 groups
@@ -1408,7 +1444,7 @@ TIMEOUTS
 '
 ]
 :
-                      
+                          
 print
 >
 >
