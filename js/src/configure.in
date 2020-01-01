@@ -34996,16 +34996,10 @@ then
 _DEPEND_CFLAGS
 =
 '
-(
-filter
--
-out
-%
-/
-.
-pp
 -
 MD
+-
+MP
 -
 MF
 (
@@ -35017,7 +35011,6 @@ F
 )
 .
 pp
-)
 '
 dnl
 Sun

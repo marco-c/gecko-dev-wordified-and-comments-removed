@@ -174,8 +174,6 @@ write
 '
 \
 n
-\
-n
 '
 )
             
@@ -216,4 +214,25 @@ targets
 ]
 )
 )
+)
+            
+for
+filename
+in
+dependencies
+:
+                
+f
+.
+write
+(
+'
+%
+s
+:
+\
+n
+'
+%
+filename
 )
