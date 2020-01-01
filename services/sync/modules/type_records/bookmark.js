@@ -438,6 +438,9 @@ bmkUri
 description
 "
 "
+loadInSidebar
+"
+"
 tags
 "
 "
