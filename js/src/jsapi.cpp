@@ -3286,10 +3286,6 @@ false
 ;
 #
 endif
-debugMode
-=
-JS_FALSE
-;
 return
 propertyTree
 .
