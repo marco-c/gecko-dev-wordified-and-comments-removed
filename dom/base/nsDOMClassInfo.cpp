@@ -28941,12 +28941,6 @@ if
 script_cx
 )
 {
-JSAutoSuspendRequest
-asr
-(
-cx
-)
-;
 rv
 =
 script_cx

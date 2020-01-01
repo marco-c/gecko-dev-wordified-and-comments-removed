@@ -5568,15 +5568,6 @@ JS_ASSERT
 rt
 -
 >
-suspendCount
-)
-;
-JS_ASSERT
-(
-!
-rt
--
->
 requestDepth
 )
 ;

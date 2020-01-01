@@ -13948,10 +13948,6 @@ savedFrameChain
 (
 false
 )
-suspendDepth
-(
-0
-)
 {
 }
 JSContext
@@ -13960,9 +13956,6 @@ cx
 ;
 bool
 savedFrameChain
-;
-unsigned
-suspendDepth
 ;
 }
 ;
