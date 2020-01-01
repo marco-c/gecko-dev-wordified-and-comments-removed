@@ -746,15 +746,6 @@ INSTALL
 CONFIG_DIR
 )
 /
-removed
--
-files
-.
-log
-(
-CONFIG_DIR
-)
-/
 setup
 .
 exe
