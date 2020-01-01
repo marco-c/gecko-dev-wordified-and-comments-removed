@@ -416,6 +416,9 @@ earlyformsubmit
 false
 )
 ;
+var
+prefBranch
+=
 Services
 .
 prefs
@@ -427,6 +430,8 @@ signon
 .
 "
 )
+;
+prefBranch
 .
 addObserver
 (
