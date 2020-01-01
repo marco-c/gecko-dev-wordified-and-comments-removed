@@ -560,6 +560,10 @@ file_moving_nodeList
 .
 html
 \
+test_performance_now
+.
+html
+\
 (
 NULL
 )

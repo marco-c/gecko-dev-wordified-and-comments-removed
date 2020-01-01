@@ -480,6 +480,10 @@ long
 long
 DOMTimeMilliSec
 ;
+typedef
+double
+DOMHighResTimeStamp
+;
 /
 /
 Core
