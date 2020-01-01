@@ -3744,11 +3744,6 @@ type
 "
 content
 "
-remote
-=
-"
-true
-"
 style
 =
 "
@@ -3790,11 +3785,6 @@ type
 =
 "
 content
-"
-remote
-=
-"
-true
 "
 style
 =
