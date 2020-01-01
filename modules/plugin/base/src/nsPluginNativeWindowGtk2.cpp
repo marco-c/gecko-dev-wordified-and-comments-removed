@@ -613,7 +613,7 @@ NULL
 ;
 g_signal_connect
 (
-mGtkSocket
+mSocketWidget
 "
 destroy
 "
@@ -622,7 +622,7 @@ GTK_SIGNAL_FUNC
 gtk_widget_destroyed
 )
 &
-mGtkSocket
+mSocketWidget
 )
 ;
 gpointer
