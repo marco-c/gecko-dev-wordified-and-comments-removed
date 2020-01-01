@@ -2005,6 +2005,16 @@ rv
 NS_ERROR_NOT_AVAILABLE
 )
 ;
+if
+(
+!
+widget
+)
+{
+return
+NS_OK
+;
+}
 rv
 =
 widget
