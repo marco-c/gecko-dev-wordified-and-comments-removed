@@ -2514,14 +2514,6 @@ fc
 ;
 if
 (
-mReflowState
-.
-availableHeight
-!
-=
-NS_UNCONSTRAINEDSIZE
-|
-|
 aPlaceholder
 -
 >
