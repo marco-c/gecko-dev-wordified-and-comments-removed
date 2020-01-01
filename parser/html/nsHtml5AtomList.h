@@ -125,13 +125,6 @@ nobr
 )
 HTML5_ATOM
 (
-button
-"
-button
-"
-)
-HTML5_ATOM
-(
 input
 "
 input
@@ -6131,6 +6124,13 @@ HTML5_ATOM
 approx
 "
 approx
+"
+)
+HTML5_ATOM
+(
+button
+"
+button
 "
 )
 HTML5_ATOM
