@@ -55,6 +55,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsAutoPtr
+.
+h
+"
 class
 nsWrapperCache
 ;
