@@ -57,9 +57,17 @@ TypedArray
 .
 h
 "
+#
+include
+<
+utility
+>
 namespace
 mozilla
 {
+class
+MediaDecoderReader
+;
 namespace
 dom
 {

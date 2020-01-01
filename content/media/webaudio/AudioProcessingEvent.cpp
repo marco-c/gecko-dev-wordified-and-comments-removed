@@ -16,13 +16,6 @@ AudioProcessingEventBinding
 .
 h
 "
-#
-include
-"
-AudioContext
-.
-h
-"
 namespace
 mozilla
 {

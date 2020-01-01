@@ -14,6 +14,9 @@ h
 namespace
 mozilla
 {
+class
+DOMMediaStream
+;
 namespace
 dom
 {

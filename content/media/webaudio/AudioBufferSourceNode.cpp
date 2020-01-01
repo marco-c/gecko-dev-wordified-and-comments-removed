@@ -47,7 +47,7 @@ h
 #
 include
 "
-AudioParamTimeline
+PannerNode
 .
 h
 "

@@ -19,6 +19,17 @@ mozilla
 /
 dom
 /
+AudioStreamTrack
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MediaStreamAudioDestinationNodeBinding
 .
 h

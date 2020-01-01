@@ -21,11 +21,17 @@ h
 namespace
 mozilla
 {
+class
+AudioNodeStream
+;
 namespace
 dom
 {
 class
 AudioContext
+;
+class
+ScriptProcessorNodeEngine
 ;
 class
 SharedBuffers

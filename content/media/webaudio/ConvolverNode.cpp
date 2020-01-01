@@ -41,8 +41,13 @@ h
 "
 #
 include
+<
+cmath
+>
+#
+include
 "
-PlayingRefChangeHandler
+nsMathUtils
 .
 h
 "
