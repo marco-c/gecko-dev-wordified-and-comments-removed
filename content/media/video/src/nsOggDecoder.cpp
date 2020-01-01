@@ -2730,9 +2730,9 @@ Enter
 if
 (
 mState
+!
 =
-=
-DECODER_STATE_SHUTDOWN
+DECODER_STATE_DECODING
 )
 continue
 ;
@@ -3207,9 +3207,9 @@ DECODER_STATE_COMPLETED
 while
 (
 mState
-!
 =
-DECODER_STATE_SHUTDOWN
+=
+DECODER_STATE_COMPLETED
 &
 &
 !
@@ -3252,9 +3252,9 @@ mCallbackPeriod
 if
 (
 mState
+!
 =
-=
-DECODER_STATE_SHUTDOWN
+DECODER_STATE_COMPLETED
 )
 continue
 ;
