@@ -1933,6 +1933,17 @@ imacpc
 return
 JS_FALSE
 ;
+cx
+-
+>
+fp
+-
+>
+putActivationObjects
+(
+cx
+)
+;
 if
 (
 cx
