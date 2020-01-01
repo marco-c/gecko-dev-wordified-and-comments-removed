@@ -11560,6 +11560,9 @@ toString
 ;
 if
 (
+0
+&
+&
 pic
 .
 shouldGenerate
