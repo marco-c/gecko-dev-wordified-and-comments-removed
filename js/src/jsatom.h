@@ -868,6 +868,10 @@ arityAtom
 ;
 JSAtom
 *
+BYTES_PER_ELEMENTAtom
+;
+JSAtom
+*
 callAtom
 ;
 JSAtom
@@ -1629,6 +1633,13 @@ extern
 const
 char
 js_arity_str
+[
+]
+;
+extern
+const
+char
+js_BYTES_PER_ELEMENT_str
 [
 ]
 ;
