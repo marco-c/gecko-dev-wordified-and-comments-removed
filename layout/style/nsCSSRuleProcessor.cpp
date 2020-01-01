@@ -4598,11 +4598,10 @@ curChildPtr
 1
 ;
 curChildPtr
-+
 =
+stopPtr
++
 childCount
--
-1
 ;
 increment
 =
