@@ -786,7 +786,7 @@ JSAtom
 atom
 )
 ;
-bool
+void
 jsop_callprop_slow
 (
 JSAtom
@@ -794,7 +794,7 @@ JSAtom
 atom
 )
 ;
-bool
+void
 jsop_callprop
 (
 JSAtom
@@ -802,16 +802,8 @@ JSAtom
 atom
 )
 ;
-bool
+void
 jsop_callprop_obj
-(
-JSAtom
-*
-atom
-)
-;
-bool
-jsop_callprop_str
 (
 JSAtom
 *
