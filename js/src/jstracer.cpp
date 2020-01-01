@@ -10428,6 +10428,12 @@ lir
 insLoad
 (
 LIR_ld
+lir
+-
+>
+ins2
+(
+LIR_add
 dslots_ins
 lir
 -
@@ -10448,6 +10454,8 @@ jsval
 :
 3
 )
+)
+0
 )
 ;
 if
