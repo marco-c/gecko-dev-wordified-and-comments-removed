@@ -3417,6 +3417,13 @@ mFirstSearchResult
 =
 PR_TRUE
 ;
+mInput
+-
+>
+OnSearchBegin
+(
+)
+;
 PRUint32
 searchesFailed
 =
