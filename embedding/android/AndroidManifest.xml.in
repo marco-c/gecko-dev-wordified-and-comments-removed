@@ -560,6 +560,17 @@ android
 scheme
 =
 "
+file
+"
+/
+>
+<
+data
+android
+:
+scheme
+=
+"
 http
 "
 /
