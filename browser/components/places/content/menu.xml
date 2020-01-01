@@ -3686,6 +3686,8 @@ PlacesUtils
 .
 getConcreteItemId
 (
+this
+.
 selectedNode
 )
 ;
