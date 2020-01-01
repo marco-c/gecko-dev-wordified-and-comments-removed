@@ -5597,11 +5597,6 @@ testing
 firebug
 /
 Makefile
-testing
-/
-peptest
-/
-Makefile
 toolkit
 /
 components
