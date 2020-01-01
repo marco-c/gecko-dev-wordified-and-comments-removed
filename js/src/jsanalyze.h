@@ -4458,6 +4458,17 @@ uint32
 offset
 )
 ;
+void
+checkAliasedName
+(
+JSContext
+*
+cx
+jsbytecode
+*
+pc
+)
+;
 inline
 void
 addVariable
