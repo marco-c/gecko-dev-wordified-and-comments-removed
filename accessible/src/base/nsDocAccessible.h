@@ -820,9 +820,9 @@ aTextNode
 void
 RecreateAccessible
 (
-nsINode
+nsIContent
 *
-aNode
+aContent
 )
 ;
 void
