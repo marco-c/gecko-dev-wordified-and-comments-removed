@@ -122,13 +122,6 @@ h
 #
 include
 "
-NSThreadUtils
-.
-h
-"
-#
-include
-"
 nsGeoPosition
 .
 h
