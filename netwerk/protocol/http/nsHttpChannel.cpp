@@ -8045,6 +8045,16 @@ nsHttp
 :
 Head
 )
+&
+&
+(
+!
+(
+mLoadFlags
+&
+FORCE_OPEN_CACHE_ENTRY
+)
+)
 )
 {
 return
