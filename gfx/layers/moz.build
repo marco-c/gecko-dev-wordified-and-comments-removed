@@ -472,12 +472,12 @@ ContentHost
 h
 '
 '
-Effects
+D3D9SurfaceImage
 .
 h
 '
 '
-D3D9SurfaceImage
+Effects
 .
 h
 '
