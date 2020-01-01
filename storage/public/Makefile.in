@@ -512,6 +512,10 @@ mozIStorageAsyncStatement
 .
 idl
 \
+mozIStorageServiceQuotaManagement
+.
+idl
+\
 (
 NULL
 )

@@ -48,6 +48,13 @@ mozIStorageService
 .
 h
 "
+#
+include
+"
+mozIStorageServiceQuotaManagement
+.
+h
+"
 class
 nsIXPConnect
 ;
@@ -64,6 +71,8 @@ public
 mozIStorageService
 public
 nsIObserver
+public
+mozIStorageServiceQuotaManagement
 {
 public
 :
@@ -97,6 +106,7 @@ getSingleton
 NS_DECL_ISUPPORTS
 NS_DECL_MOZISTORAGESERVICE
 NS_DECL_NSIOBSERVER
+NS_DECL_MOZISTORAGESERVICEQUOTAMANAGEMENT
 static
 already_AddRefed
 <

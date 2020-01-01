@@ -105,6 +105,13 @@ h
 #
 include
 "
+mozIStorageServiceQuotaManagement
+.
+h
+"
+#
+include
+"
 mozStorageHelper
 .
 h

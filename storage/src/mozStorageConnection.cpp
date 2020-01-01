@@ -1367,6 +1367,10 @@ initialize
 nsIFile
 *
 aDatabaseFile
+const
+char
+*
+aVFSName
 )
 {
 NS_ASSERTION
@@ -1435,7 +1439,7 @@ get
 &
 mDBConn
 mFlags
-NULL
+aVFSName
 )
 ;
 }
@@ -1455,7 +1459,7 @@ memory
 &
 mDBConn
 mFlags
-NULL
+aVFSName
 )
 ;
 }
