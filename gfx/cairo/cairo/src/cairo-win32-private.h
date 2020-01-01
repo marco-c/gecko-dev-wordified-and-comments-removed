@@ -396,5 +396,13 @@ char
 header
 )
 ;
+cairo_bool_t
+_cairo_win32_scaled_font_is_type1
+(
+cairo_scaled_font_t
+*
+scaled_font
+)
+;
 #
 endif
