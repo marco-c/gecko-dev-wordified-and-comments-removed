@@ -188,13 +188,13 @@ DeviceDelta
 )
 -
 (
-float
+CGFloat
 )
 deviceDeltaX
 ;
 -
 (
-float
+CGFloat
 )
 deviceDeltaY
 ;
