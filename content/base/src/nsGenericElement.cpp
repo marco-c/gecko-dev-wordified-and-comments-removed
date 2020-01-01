@@ -6577,14 +6577,14 @@ nsDOMEventRTTearoff
 :
 nsDOMEventRTTearoff
 (
-nsIContent
+nsINode
 *
-aContent
+aNode
 )
 :
-mContent
+mNode
 (
-aContent
+aNode
 )
 {
 }
@@ -6600,7 +6600,7 @@ nsDOMEventRTTearoff
 NS_IMPL_CYCLE_COLLECTION_1
 (
 nsDOMEventRTTearoff
-mContent
+mNode
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
@@ -6620,7 +6620,7 @@ nsIDOMNSEventTarget
 )
 NS_INTERFACE_MAP_END_AGGREGATED
 (
-mContent
+mNode
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF_AMBIGUOUS
 (
@@ -6642,9 +6642,9 @@ nsDOMEventRTTearoff
 :
 Create
 (
-nsIContent
+nsINode
 *
-aContent
+aNode
 )
 {
 if
@@ -6666,9 +6666,9 @@ mCachedEventTearoffCount
 tearoff
 -
 >
-mContent
+mNode
 =
-aContent
+aNode
 ;
 return
 tearoff
@@ -6678,7 +6678,7 @@ return
 new
 nsDOMEventRTTearoff
 (
-aContent
+aNode
 )
 ;
 }
@@ -6731,7 +6731,7 @@ this
 ;
 nsCOMPtr
 <
-nsIContent
+nsINode
 >
 kungFuDeathGrip
 ;
@@ -6739,7 +6739,7 @@ kungFuDeathGrip
 .
 swap
 (
-mContent
+mNode
 )
 ;
 mRefCnt
@@ -6774,7 +6774,7 @@ listener_manager
 nsresult
 rv
 =
-mContent
+mNode
 -
 >
 GetListenerManager
@@ -6814,7 +6814,7 @@ aLang
 *
 aLang
 =
-mContent
+mNode
 -
 >
 GetScriptTypeID
@@ -6836,7 +6836,7 @@ aLang
 )
 {
 return
-mContent
+mNode
 -
 >
 SetScriptTypeID
@@ -6874,7 +6874,7 @@ nsContentUtils
 :
 IsChromeDoc
 (
-mContent
+mNode
 -
 >
 GetOwnerDoc
@@ -6934,7 +6934,7 @@ listener_manager
 nsresult
 rv
 =
-mContent
+mNode
 -
 >
 GetListenerManager
@@ -7157,7 +7157,7 @@ listener_manager
 nsresult
 rv
 =
-mContent
+mNode
 -
 >
 GetListenerManager
