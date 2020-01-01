@@ -477,10 +477,6 @@ browser_privatebrowsing_transition
 .
 js
 \
-browser_privatebrowsing_import
-.
-js
-\
 (
 NULL
 )
