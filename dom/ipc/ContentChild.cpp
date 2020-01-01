@@ -400,13 +400,13 @@ nsString
 aData
 )
 :
-mData
-(
-aData
-)
 mObserver
 (
 aObserver
+)
+mData
+(
+aData
 )
 {
 }

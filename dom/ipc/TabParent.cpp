@@ -294,11 +294,11 @@ TabParent
 (
 )
 :
-mIMECompositionEnding
+mIMEComposing
 (
 PR_FALSE
 )
-mIMEComposing
+mIMECompositionEnding
 (
 PR_FALSE
 )
