@@ -6611,7 +6611,7 @@ plugins
 .
 enabled
 "
-false
+true
 )
 ;
 pref
