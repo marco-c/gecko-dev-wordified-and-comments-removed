@@ -678,9 +678,12 @@ nsILocalFile
 >
 pluginFile
 ;
-NS_NewNativeLocalFile
+NS_NewLocalFile
+(
+NS_ConvertUTF8toUTF16
 (
 mPluginFilename
+)
 PR_TRUE
 getter_AddRefs
 (
