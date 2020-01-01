@@ -837,6 +837,10 @@ test_bug403852
 .
 html
 \
+test_fileapi
+.
+html
+\
 test_bug403868
 .
 xml
