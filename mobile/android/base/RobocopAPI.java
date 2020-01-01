@@ -184,7 +184,7 @@ DrawListener
 listener
 )
 {
-mGeckoApp
+GeckoAppShell
 .
 getLayerView
 (
