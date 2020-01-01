@@ -1068,12 +1068,6 @@ EndDrawPlugin
 )
 ;
 virtual
-void
-CalcWindowRegions
-(
-)
-;
-virtual
 PRBool
 PointInWidget
 (

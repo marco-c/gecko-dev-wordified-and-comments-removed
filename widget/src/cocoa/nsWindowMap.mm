@@ -726,8 +726,6 @@ inWindow
 end
 /
 /
-/
-/
 TopLevelWindowData
 /
 /
@@ -761,8 +759,6 @@ already
 have
 one
 .
-/
-/
 implementation
 TopLevelWindowData
 -
