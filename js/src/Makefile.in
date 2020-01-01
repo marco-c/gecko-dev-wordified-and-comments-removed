@@ -1903,7 +1903,7 @@ LinearScan
 .
 cpp
 \
-MoveGroupResolver
+MoveResolver
 .
 cpp
 \
@@ -1947,7 +1947,7 @@ cpp
 CPPSRCS
 +
 =
-MoveResolver
+MoveEmitter
 -
 x86
 -

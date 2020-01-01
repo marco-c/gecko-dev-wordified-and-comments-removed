@@ -9,7 +9,7 @@ include
 "
 ion
 /
-MoveGroupResolver
+MoveResolver
 .
 h
 "
@@ -32,17 +32,17 @@ class
 CodeGenerator
 ;
 class
-MoveResolverX86
+MoveEmitterX86
 {
 typedef
-MoveGroupResolver
+MoveResolver
 :
 :
 Move
 Move
 ;
 typedef
-MoveGroupResolver
+MoveResolver
 :
 :
 MoveOperand
@@ -211,7 +211,7 @@ move
 ;
 public
 :
-MoveResolverX86
+MoveEmitterX86
 (
 MacroAssembler
 &
@@ -219,7 +219,7 @@ masm
 )
 ;
 ~
-MoveResolverX86
+MoveEmitterX86
 (
 )
 ;
@@ -227,7 +227,7 @@ void
 emit
 (
 const
-MoveGroupResolver
+MoveResolver
 &
 moves
 const
@@ -242,6 +242,10 @@ finish
 )
 ;
 }
+;
+typedef
+MoveEmitterX86
+MoveEmitter
 ;
 }
 }

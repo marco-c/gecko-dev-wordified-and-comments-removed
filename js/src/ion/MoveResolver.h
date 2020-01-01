@@ -18,7 +18,7 @@ namespace
 ion
 {
 class
-MoveGroupResolver
+MoveResolver
 {
 public
 :
@@ -555,7 +555,7 @@ true
 typedef
 InlineList
 <
-MoveGroupResolver
+MoveResolver
 :
 :
 PendingMove
@@ -593,14 +593,6 @@ PendingMove
 >
 pending_
 ;
-bool
-buildWorklist
-(
-LMoveGroup
-*
-group
-)
-;
 PendingMove
 *
 findBlockingMove
@@ -613,7 +605,7 @@ last
 ;
 public
 :
-MoveGroupResolver
+MoveResolver
 (
 )
 ;

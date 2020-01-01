@@ -197,7 +197,7 @@ output
 )
 ;
 }
-MoveGroupResolver
+MoveResolver
 :
 :
 MoveOperand

@@ -50,11 +50,9 @@ h
 #
 include
 "
-MoveResolver
--
-x86
--
-shared
+ion
+/
+MoveEmitter
 .
 h
 "
@@ -706,7 +704,7 @@ true
 ;
 }
 typedef
-MoveGroupResolver
+MoveResolver
 :
 :
 MoveOperand
@@ -819,7 +817,7 @@ LMoveGroup
 group
 )
 {
-MoveGroupResolver
+MoveResolver
 &
 resolver
 =
@@ -924,7 +922,7 @@ isDouble
 )
 )
 ;
-MoveGroupResolver
+MoveResolver
 :
 :
 Move
@@ -940,7 +938,7 @@ isDouble
 (
 )
 ?
-MoveGroupResolver
+MoveResolver
 :
 :
 Move
@@ -948,7 +946,7 @@ Move
 :
 GENERAL
 :
-MoveGroupResolver
+MoveResolver
 :
 :
 Move
@@ -990,7 +988,7 @@ resolve
 return
 false
 ;
-MoveResolverX86
+MoveEmitter
 emitter
 (
 masm

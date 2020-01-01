@@ -41,7 +41,7 @@ endif
 #
 include
 "
-MoveGroupResolver
+MoveResolver
 .
 h
 "
@@ -57,12 +57,12 @@ MacroAssembler
 public
 MacroAssemblerSpecific
 {
-MoveGroupResolver
+MoveResolver
 moveResolver_
 ;
 public
 :
-MoveGroupResolver
+MoveResolver
 &
 moveResolver
 (
