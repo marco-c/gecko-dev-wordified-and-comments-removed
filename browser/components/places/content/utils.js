@@ -1766,6 +1766,12 @@ type
 PlacesUtils
 .
 TYPE_UNICODE
+|
+|
+type
+=
+=
+TAB_DROP_TYPE
 )
 {
 var
@@ -1773,11 +1779,11 @@ title
 =
 (
 type
-=
+!
 =
 PlacesUtils
 .
-TYPE_X_MOZ_URL
+TYPE_UNICODE
 )
 ?
 data
