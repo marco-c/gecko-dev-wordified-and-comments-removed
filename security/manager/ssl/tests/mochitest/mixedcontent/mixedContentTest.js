@@ -387,9 +387,7 @@ http
 :
 /
 /
-mochi
-.
-test
+localhost
 :
 8888
 "
