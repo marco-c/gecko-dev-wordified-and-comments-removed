@@ -2375,6 +2375,13 @@ BINPATH
 /
 components
 /
+ColorAnalyzer
+.
+js
+BINPATH
+/
+components
+/
 PageThumbsProtocol
 .
 js
