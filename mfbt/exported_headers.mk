@@ -450,6 +450,10 @@ GuardObjects
 .
 h
 \
+LinkedList
+.
+h
+\
 MSStdInt
 .
 h
