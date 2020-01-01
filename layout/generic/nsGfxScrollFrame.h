@@ -1266,6 +1266,11 @@ mShouldBuildLayer
 :
 1
 ;
+bool
+mHasBeenScrolled
+:
+1
+;
 protected
 :
 void
