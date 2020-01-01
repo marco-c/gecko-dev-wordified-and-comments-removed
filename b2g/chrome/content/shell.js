@@ -378,11 +378,6 @@ content
 camera
 '
 '
-webcontacts
--
-manage
-'
-'
 wifi
 -
 manage
