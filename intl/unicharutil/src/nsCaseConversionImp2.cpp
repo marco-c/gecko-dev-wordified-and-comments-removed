@@ -714,11 +714,10 @@ if
 !
 gCaseConv
 )
-gCaseConv
-=
-new
-nsCaseConversionImp2
+NS_NEWXPCOM
 (
+gCaseConv
+nsCaseConversionImp2
 )
 ;
 return

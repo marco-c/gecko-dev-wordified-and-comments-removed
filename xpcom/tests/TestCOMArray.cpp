@@ -400,8 +400,10 @@ mRefCnt
 =
 1
 ;
-delete
+NS_DELETEXPCOM
+(
 this
+)
 ;
 return
 0

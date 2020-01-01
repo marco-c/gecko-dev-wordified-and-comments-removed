@@ -2552,10 +2552,11 @@ mFocusListener
 nsDocViewerFocusListener
 *
 focusListener
-=
-new
-nsDocViewerFocusListener
+;
+NS_NEWXPCOM
 (
+focusListener
+nsDocViewerFocusListener
 )
 ;
 NS_ENSURE_TRUE

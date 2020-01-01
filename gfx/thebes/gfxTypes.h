@@ -198,8 +198,10 @@ stabilize
 *
 /
 \
-delete
+NS_DELETEXPCOM
+(
 this
+)
 ;
 \
 return

@@ -194,10 +194,11 @@ aResult
 nsXBLContentSink
 *
 it
-=
-new
-nsXBLContentSink
+;
+NS_NEWXPCOM
 (
+it
+nsXBLContentSink
 )
 ;
 NS_ENSURE_TRUE
