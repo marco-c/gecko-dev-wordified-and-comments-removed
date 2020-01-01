@@ -5,12 +5,8 @@ js_cpucfg___
 define
 js_cpucfg___
 #
-include
-"
-jsosdep
-.
-h
-"
+define
+JS_HAVE_LONG_LONG
 #
 if
 defined

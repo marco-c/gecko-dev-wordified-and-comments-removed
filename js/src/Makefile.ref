@@ -1006,10 +1006,6 @@ jslong
 .
 h
 \
-jsosdep
-.
-h
-\
 jstypes
 .
 h

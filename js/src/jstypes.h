@@ -853,13 +853,6 @@ jsautocfg
 h
 "
 #
-include
-"
-jsosdep
-.
-h
-"
-#
 else
 #
 error
