@@ -1080,6 +1080,12 @@ browser_aboutCrashes
 .
 js
 \
+browser
+/
+browser_bug471404
+.
+js
+\
 (
 NULL
 )
