@@ -453,6 +453,10 @@ browser_viewsourceprefs
 .
 js
 \
+browser_viewsourceprefs_nonhtml
+.
+js
+\
 head
 .
 js

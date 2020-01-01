@@ -2,9 +2,14 @@ let
 source
 =
 "
-about
+data
 :
-robots
+text
+/
+plain
+hello
++
+world
 "
 ;
 let
@@ -532,7 +537,7 @@ set
 checkHighlight
 (
 mWindow
-true
+false
 )
 ;
 closeViewSourceWindow
