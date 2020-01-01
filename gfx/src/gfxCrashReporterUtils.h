@@ -80,6 +80,9 @@ mStatusChar
 '
 ;
 }
+class
+AppNoteWritingRunnable
+;
 protected
 :
 const
