@@ -92,9 +92,6 @@ MPL
 *
 /
 interface
-HTMLHeadElement
-;
-interface
 Selection
 ;
 interface
