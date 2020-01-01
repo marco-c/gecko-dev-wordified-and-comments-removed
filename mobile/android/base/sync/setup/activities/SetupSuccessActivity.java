@@ -304,15 +304,6 @@ GlobalConstants
 BROWSER_INTENT_CLASS
 )
 ;
-intent
-.
-setFlags
-(
-Intent
-.
-FLAG_ACTIVITY_NEW_TASK
-)
-;
 startActivity
 (
 intent

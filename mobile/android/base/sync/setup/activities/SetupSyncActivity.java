@@ -731,12 +731,6 @@ return
 ;
 }
 }
-final
-Activity
-setupActivity
-=
-this
-;
 runOnUiThread
 (
 new
@@ -789,13 +783,6 @@ toast
 .
 show
 (
-)
-;
-SyncAccounts
-.
-openSyncSettings
-(
-setupActivity
 )
 ;
 finish
