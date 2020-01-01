@@ -5892,6 +5892,15 @@ id
 &
 deleted
 )
+|
+|
+!
+js_SuppressDeletedProperty
+(
+cx
+obj
+id
+)
 )
 return
 false
