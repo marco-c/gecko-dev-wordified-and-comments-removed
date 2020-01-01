@@ -131,8 +131,6 @@ bool
 EnableSmartCardEvents
 (
 )
-=
-0
 ;
 virtual
 void
@@ -144,8 +142,6 @@ ErrorResult
 &
 aRv
 )
-=
-0
 ;
 virtual
 void
@@ -155,8 +151,6 @@ nsString
 &
 aVersion
 )
-=
-0
 ;
 virtual
 already_AddRefed
@@ -202,8 +196,6 @@ ErrorResult
 &
 aRv
 )
-=
-0
 ;
 virtual
 void
@@ -226,8 +218,6 @@ ErrorResult
 &
 aRv
 )
-=
-0
 ;
 virtual
 void
@@ -244,8 +234,6 @@ ErrorResult
 &
 aRv
 )
-=
-0
 ;
 virtual
 void
@@ -260,8 +248,6 @@ ErrorResult
 &
 aRv
 )
-=
-0
 ;
 virtual
 void
@@ -289,8 +275,6 @@ nsAString
 &
 aReturn
 )
-=
-0
 ;
 virtual
 void
@@ -300,8 +284,6 @@ ErrorResult
 &
 aRv
 )
-=
-0
 ;
 virtual
 void
@@ -311,8 +293,6 @@ ErrorResult
 &
 aRv
 )
-=
-0
 ;
 #
 endif
