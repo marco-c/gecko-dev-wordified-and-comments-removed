@@ -1039,6 +1039,10 @@ done
 (
 false
 )
+stopped
+(
+false
+)
 {
 MOZ_ASSERT
 (
@@ -1515,6 +1519,9 @@ dstLocked
 bool
 done
 ;
+bool
+stopped
+;
 }
 ;
 enum
@@ -1660,7 +1667,7 @@ aSubimage
 )
 ;
 void
-SetScaleResult
+ScalingStart
 (
 ScaleRequest
 *
@@ -1668,11 +1675,13 @@ request
 )
 ;
 void
-SetResultPending
+ScalingDone
 (
 ScaleRequest
 *
 request
+ScaleStatus
+status
 )
 ;
 bool
@@ -2167,6 +2176,10 @@ aScale
 ;
 ScaleResult
 mScaleResult
+;
+ScaleRequest
+*
+mScaleRequest
 ;
 enum
 eShutdownIntent
