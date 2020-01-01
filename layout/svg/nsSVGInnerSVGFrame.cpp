@@ -604,7 +604,7 @@ widthOrHeightIsPercentage
 svg
 -
 >
-HasViewBox
+HasViewBoxRect
 (
 )
 )
@@ -622,7 +622,7 @@ if
 svg
 -
 >
-HasViewBox
+HasViewBoxRect
 (
 )
 |

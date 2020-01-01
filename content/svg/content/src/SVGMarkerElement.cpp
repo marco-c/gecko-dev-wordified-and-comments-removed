@@ -1290,7 +1290,7 @@ if
 (
 mViewBox
 .
-IsExplicitlySet
+HasRect
 (
 )
 )

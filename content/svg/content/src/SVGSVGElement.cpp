@@ -3335,7 +3335,7 @@ viewElement
 >
 mViewBox
 .
-IsExplicitlySet
+HasRect
 (
 )
 )
@@ -3355,7 +3355,7 @@ if
 (
 mViewBox
 .
-IsExplicitlySet
+HasRect
 (
 )
 )
@@ -3482,7 +3482,7 @@ viewElement
 >
 mViewBox
 .
-IsExplicitlySet
+HasRect
 (
 )
 )
@@ -3490,7 +3490,7 @@ IsExplicitlySet
 |
 mViewBox
 .
-IsExplicitlySet
+HasRect
 (
 )
 )
@@ -3582,7 +3582,7 @@ viewElement
 >
 mViewBox
 .
-IsExplicitlySet
+HasRect
 (
 )
 )
@@ -3605,7 +3605,7 @@ if
 (
 mViewBox
 .
-IsExplicitlySet
+HasRect
 (
 )
 )
@@ -4163,7 +4163,7 @@ bool
 SVGSVGElement
 :
 :
-HasViewBox
+HasViewBoxRect
 (
 )
 const
@@ -4186,7 +4186,7 @@ viewElement
 >
 mViewBox
 .
-IsExplicitlySet
+HasRect
 (
 )
 )
@@ -4198,7 +4198,7 @@ true
 return
 mViewBox
 .
-IsExplicitlySet
+HasRect
 (
 )
 ;
@@ -4215,7 +4215,7 @@ const
 NS_ABORT_IF_FALSE
 (
 !
-HasViewBox
+HasViewBoxRect
 (
 )
 "
@@ -4492,16 +4492,16 @@ images
 #
 endif
 bool
-hasViewBox
+hasViewBoxRect
 =
-HasViewBox
+HasViewBoxRect
 (
 )
 ;
 if
 (
 !
-hasViewBox
+hasViewBoxRect
 &
 &
 ShouldSynthesizeViewBox
@@ -4521,7 +4521,7 @@ true
 if
 (
 !
-hasViewBox
+hasViewBoxRect
 )
 {
 return
@@ -4599,7 +4599,7 @@ false
 if
 (
 !
-HasViewBox
+HasViewBoxRect
 (
 )
 &

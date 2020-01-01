@@ -567,7 +567,7 @@ mCtxType
 )
 ;
 bool
-HasViewBox
+HasViewBoxRect
 (
 )
 const
@@ -585,7 +585,7 @@ HasViewBoxOrSyntheticViewBox
 const
 {
 return
-HasViewBox
+HasViewBoxRect
 (
 )
 |
