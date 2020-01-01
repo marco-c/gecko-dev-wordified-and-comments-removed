@@ -605,7 +605,7 @@ compareFile
 null
 originalPerms
 :
-null
+0644
 comparePerms
 :
 0644
@@ -678,7 +678,7 @@ png
 "
 originalPerms
 :
-null
+0644
 comparePerms
 :
 0644
@@ -751,7 +751,7 @@ png
 "
 originalPerms
 :
-null
+0644
 comparePerms
 :
 0644
@@ -813,7 +813,7 @@ originalPerms
 0755
 comparePerms
 :
-null
+0755
 }
 {
 description
@@ -874,7 +874,7 @@ originalPerms
 0755
 comparePerms
 :
-null
+0755
 }
 {
 description
@@ -931,7 +931,7 @@ originalPerms
 0644
 comparePerms
 :
-null
+0644
 }
 {
 description
@@ -1579,11 +1579,18 @@ checkFilesAfterUpdateSuccess
 (
 )
 ;
+if
+(
+!
+IS_UNIX
+)
+{
 checkUpdateLogContents
 (
 LOG_PARTIAL_SUCCESS
 )
 ;
+}
 logTestInfo
 (
 "

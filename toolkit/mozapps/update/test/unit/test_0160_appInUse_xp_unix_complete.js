@@ -1352,7 +1352,7 @@ b
 /
 "
 +
-CALLBACK_BIN_FILE
+gCallbackBinFile
 )
 ;
 callbackApp
