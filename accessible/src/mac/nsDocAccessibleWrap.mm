@@ -459,7 +459,7 @@ aShell
 nsDocAccessible
 (
 aDocument
-aContent
+aRootContent
 aShell
 )
 {
