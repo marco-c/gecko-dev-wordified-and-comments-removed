@@ -112,6 +112,11 @@ TestNonCastableInterface
 {
 }
 ;
+interface
+TestRenamedInterface
+{
+}
+;
 callback
 interface
 TestCallbackInterface
@@ -2299,6 +2304,13 @@ readonly
 attribute
 long
 unforgeableAttr2
+;
+void
+passRenamedInterface
+(
+TestRenamedInterface
+arg
+)
 ;
 /
 /

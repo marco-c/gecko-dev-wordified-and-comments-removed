@@ -2209,6 +2209,13 @@ attribute
 long
 unforgeableAttr2
 ;
+void
+passRenamedInterface
+(
+TestRenamedInterface
+arg
+)
+;
 /
 /
 If

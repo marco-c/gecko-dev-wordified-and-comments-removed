@@ -47895,16 +47895,29 @@ s
             
 return
 (
+(
 typeDecl
 %
+                     
+self
+.
+descriptor
+.
+getDescriptor
+(
 iface
 .
 identifier
 .
 name
 )
+.
+nativeType
+)
+                    
 False
 False
+)
         
 if
 type
