@@ -685,7 +685,12 @@ BLUETOOTH_SCO_STATUS_CHANGED
 {
 if
 (
+NS_strlen
+(
 aData
+)
+>
+0
 )
 {
 String8
