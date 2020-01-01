@@ -514,6 +514,15 @@ int
 aNewEnd
 )
 ;
+static
+void
+RemovePluginView
+(
+void
+*
+surface
+)
+;
 nsresult
 TakeScreenshot
 (
@@ -1995,6 +2004,9 @@ jMarkUriVisited
 ;
 jmethodID
 jEmitGeckoAccessibilityEvent
+;
+jmethodID
+jRemovePluginView
 ;
 jmethodID
 jNumberOfMessages
