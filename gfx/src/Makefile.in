@@ -465,10 +465,6 @@ nsColor
 .
 cpp
 \
-nsDeviceContext
-.
-cpp
-\
 nsFont
 .
 cpp
