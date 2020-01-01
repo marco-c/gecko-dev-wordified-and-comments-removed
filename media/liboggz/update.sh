@@ -869,3 +869,10 @@ p3
 bug523335
 .
 patch
+patch
+-
+p3
+<
+bug533822
+.
+patch

@@ -351,6 +351,15 @@ OGGZ
 oggz
 )
 {
+oggz_dlist_deliter
+(
+oggz
+-
+>
+packet_buffer
+oggz_read_free_pbuffers
+)
+;
 oggz_vector_foreach
 (
 oggz
