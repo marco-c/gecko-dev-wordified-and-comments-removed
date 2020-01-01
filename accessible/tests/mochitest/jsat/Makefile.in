@@ -86,7 +86,15 @@ jsatcommon
 .
 js
 \
+utterance
+.
+js
+\
 test_alive
+.
+html
+\
+test_explicit_names
 .
 html
 \
