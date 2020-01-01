@@ -1,0 +1,11 @@
+protocol
+empty
+{
+child
+:
+Msg
+(
+)
+;
+}
+;

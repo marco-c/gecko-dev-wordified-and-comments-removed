@@ -1,0 +1,13 @@
+protocol
+actorparam
+{
+child
+:
+Msg
+(
+actorparam
+p
+)
+;
+}
+;

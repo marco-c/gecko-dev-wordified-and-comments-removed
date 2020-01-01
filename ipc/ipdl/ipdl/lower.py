@@ -1691,7 +1691,11 @@ ud
 .
 decl
 .
+type
+.
 fullname
+(
+)
 +
 '
 :
