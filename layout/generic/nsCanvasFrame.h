@@ -397,6 +397,7 @@ nsDisplayBackground
 aBuilder
 aFrame
 aLayer
+true
 )
 {
 mExtraBackgroundColor
