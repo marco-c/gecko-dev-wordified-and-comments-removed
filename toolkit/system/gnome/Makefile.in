@@ -473,6 +473,10 @@ NULL
 )
 ifdef
 MOZ_ENABLE_LIBNOTIFY
+REQUIRES
++
+=
+thebes
 CPPSRCS
 +
 =
