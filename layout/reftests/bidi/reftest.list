@@ -640,7 +640,7 @@ html
 #
 bug
 712600
-fails
+fuzzy
 -
 if
 (
@@ -670,6 +670,8 @@ layersGPUAccelerated
 &
 !
 azureSkia
+73
+1
 )
 =
 =
@@ -689,11 +691,6 @@ plaintext
 ref
 .
 html
-#
-sub
--
-pixel
-AA
 =
 =
 unicode
@@ -938,7 +935,7 @@ html
 ref
 .
 html
-fails
+fuzzy
 -
 if
 (
@@ -968,6 +965,8 @@ layersGPUAccelerated
 &
 !
 azureSkia
+111
+7
 )
 =
 =
@@ -983,10 +982,7 @@ html
 ref
 .
 html
-#
-bug
-696671
-fails
+fuzzy
 -
 if
 (
@@ -1016,6 +1012,8 @@ layersGPUAccelerated
 &
 !
 azureSkia
+111
+7
 )
 =
 =
@@ -1031,10 +1029,7 @@ html
 ref
 .
 html
-#
-bug
-696671
-fails
+fuzzy
 -
 if
 (
@@ -1064,6 +1059,8 @@ layersGPUAccelerated
 &
 !
 azureSkia
+111
+7
 )
 =
 =
@@ -1079,9 +1076,6 @@ html
 ref
 .
 html
-#
-bug
-696671
 =
 =
 115921
@@ -1768,7 +1762,7 @@ html
 ref
 .
 html
-fails
+fuzzy
 -
 if
 (
@@ -1798,6 +1792,8 @@ layersGPUAccelerated
 &
 !
 azureSkia
+36
+2
 )
 =
 =
@@ -1813,9 +1809,6 @@ html
 ref
 .
 html
-#
-bug
-696672
 fuzzy
 -
 if
@@ -1824,7 +1817,7 @@ Android
 24
 1
 )
-fails
+fuzzy
 -
 if
 (
@@ -1854,6 +1847,8 @@ layersGPUAccelerated
 &
 !
 azureSkia
+36
+2
 )
 =
 =
@@ -1869,9 +1864,6 @@ html
 ref
 .
 html
-#
-bug
-696672
 =
 =
 613157
@@ -1886,7 +1878,7 @@ html
 ref
 .
 html
-fails
+fuzzy
 -
 if
 (
@@ -1916,6 +1908,8 @@ layersGPUAccelerated
 &
 !
 azureSkia
+255
+6
 )
 =
 =
@@ -1931,9 +1925,6 @@ html
 ref
 .
 html
-#
-bug
-696673
 =
 =
 662288

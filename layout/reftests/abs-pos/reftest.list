@@ -42,7 +42,7 @@ margin
 ref
 .
 html
-fails
+fuzzy
 -
 if
 (
@@ -72,6 +72,8 @@ layersGPUAccelerated
 &
 !
 azureSkia
+73
+1
 )
 =
 =

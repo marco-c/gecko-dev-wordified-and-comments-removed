@@ -134,7 +134,7 @@ bug608373
 ref
 .
 html
-fails
+fuzzy
 -
 if
 (
@@ -164,6 +164,8 @@ layersGPUAccelerated
 &
 !
 azureSkia
+73
+1
 )
 =
 =
@@ -183,9 +185,6 @@ bug482921
 ref
 .
 html
-#
-bug
-703201
 =
 =
 view
