@@ -208,11 +208,9 @@ PRBool
 aCBWidthChanged
 PRBool
 aCBHeightChanged
-nsRect
+nsOverflowAreas
 *
-aChildBounds
-=
-nsnull
+aOverflowAreas
 )
 ;
 void
@@ -288,9 +286,9 @@ aKidFrame
 nsReflowStatus
 &
 aStatus
-nsRect
+nsOverflowAreas
 *
-aChildBounds
+aOverflowAreas
 )
 ;
 void

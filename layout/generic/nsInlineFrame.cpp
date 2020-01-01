@@ -5312,7 +5312,7 @@ PR_TRUE
 &
 aDesiredSize
 .
-mOverflowArea
+mOverflowAreas
 )
 ;
 }
