@@ -781,12 +781,10 @@ LL_INIT
 0xffffffff
 )
 ;
-LL_AND
-(
 l64
-l64
+&
+=
 t
-)
 ;
 int32_t
 h32
