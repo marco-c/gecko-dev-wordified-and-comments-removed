@@ -2930,6 +2930,10 @@ elt
 RenderContexts
 (
 ctx
+gfxPattern
+:
+:
+FILTER_NEAREST
 )
 ;
 if

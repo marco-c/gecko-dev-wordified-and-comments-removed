@@ -1075,6 +1075,13 @@ canvas
 RenderContexts
 (
 ctx
+nsLayoutUtils
+:
+:
+GetGraphicsFilterForFrame
+(
+this
+)
 )
 ;
 ctx
