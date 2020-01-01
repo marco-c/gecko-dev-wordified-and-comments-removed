@@ -77,13 +77,6 @@ nsUnicharUtils
 .
 h
 "
-#
-include
-"
-nsSetDllDirectory
-.
-h
-"
 using
 namespace
 mozilla
@@ -1232,10 +1225,7 @@ if
 protectCurrentDirectory
 )
 {
-mozilla
-:
-:
-NS_SetDllDirectory
+SetDllDirectory
 (
 NULL
 )
@@ -1269,10 +1259,7 @@ if
 protectCurrentDirectory
 )
 {
-mozilla
-:
-:
-NS_SetDllDirectory
+SetDllDirectory
 (
 L
 "

@@ -128,12 +128,6 @@ aHeight
 )
 ;
 static
-bool
-IsCursorTranslucencySupported
-(
-)
-;
-static
 HBITMAP
 DataToBitmap
 (

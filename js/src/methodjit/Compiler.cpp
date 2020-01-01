@@ -39958,6 +39958,9 @@ true
 }
 }
 }
+RegExpGuard
+g
+;
 if
 (
 !
@@ -39967,6 +39970,8 @@ reobj
 getShared
 (
 cx
+&
+g
 )
 )
 return

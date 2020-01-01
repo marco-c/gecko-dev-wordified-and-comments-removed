@@ -647,6 +647,11 @@ data
 )
 )
 ;
+if
+(
+data
+)
+{
 nsAutoString
 insertText
 ;
@@ -680,6 +685,10 @@ aDestinationNode
 aDestOffset
 aDoDeleteSelection
 )
+;
+}
+return
+NS_OK
 ;
 }
 nsresult

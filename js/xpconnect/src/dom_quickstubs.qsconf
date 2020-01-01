@@ -2818,6 +2818,13 @@ nsIWebGLExtensionStandardDerivatives
 nsIDOMWebGLRenderingContext
 '
 '
+nsIWebGLExtensionTextureFilterAnisotropic
+'
+:
+'
+nsIDOMWebGLRenderingContext
+'
+'
 nsIWebGLExtensionLoseContext
 '
 :

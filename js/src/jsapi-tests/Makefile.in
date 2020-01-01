@@ -509,6 +509,10 @@ testGCOutOfMemory
 .
 cpp
 \
+testOOM
+.
+cpp
+\
 testGetPropertyDefault
 .
 cpp

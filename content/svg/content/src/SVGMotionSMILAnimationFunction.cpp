@@ -1825,7 +1825,7 @@ UnsetKeyPoints
 (
 )
 {
-mKeyTimes
+mKeyPoints
 .
 Clear
 (

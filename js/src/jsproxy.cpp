@@ -1539,8 +1539,7 @@ indent
 )
 ;
 }
-RegExpShared
-*
+bool
 ProxyHandler
 :
 :
@@ -1552,6 +1551,9 @@ cx
 JSObject
 *
 proxy
+RegExpGuard
+*
+g
 )
 {
 JS_NOT_REACHED
@@ -1568,11 +1570,7 @@ regexp
 )
 ;
 return
-(
-RegExpShared
-*
-)
-NULL
+false
 ;
 }
 bool
@@ -5801,8 +5799,7 @@ indent
 )
 ;
 }
-RegExpShared
-*
+bool
 Proxy
 :
 :
@@ -5814,6 +5811,9 @@ cx
 JSObject
 *
 proxy
+RegExpGuard
+*
+g
 )
 {
 JS_CHECK_RECURSION
@@ -5841,6 +5841,7 @@ regexp_toShared
 (
 cx
 proxy
+g
 )
 ;
 }

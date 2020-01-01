@@ -22808,6 +22808,12 @@ if
 dragSession
 )
 {
+mSynthMouseMoveEvent
+.
+Forget
+(
+)
+;
 return
 ;
 }

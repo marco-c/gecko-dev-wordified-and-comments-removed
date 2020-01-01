@@ -32,6 +32,7 @@ shell
 .
 xul
 )
+*
 content
 /
 shell
@@ -73,6 +74,9 @@ commandUtil
 .
 js
 )
+#
+ifndef
+MOZ_WIDGET_GONK
 content
 /
 httpd
@@ -85,6 +89,8 @@ httpd
 .
 js
 )
+#
+endif
 content
 /
 webapi

@@ -3789,6 +3789,12 @@ OwnerDoc
 )
 )
 ;
+NS_ENSURE_TRUE
+(
+contentDocAcc
+fallbackAnswer
+)
+;
 nsAccessible
 *
 accessible

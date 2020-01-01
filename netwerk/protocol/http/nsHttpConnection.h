@@ -382,7 +382,7 @@ afterMilliseconds
 void
 SetIdleTimeout
 (
-PRUint16
+PRIntervalTime
 val
 )
 {
@@ -457,6 +457,13 @@ return
 mUsingSpdy
 ;
 }
+void
+ReadTimeoutTick
+(
+PRIntervalTime
+now
+)
+;
 private
 :
 nsresult
@@ -483,6 +490,11 @@ OnSocketReadable
 ;
 nsresult
 SetupProxyConnect
+(
+)
+;
+PRIntervalTime
+IdleTime
 (
 )
 ;
@@ -595,10 +607,10 @@ mConnInfo
 PRUint32
 mLastReadTime
 ;
-PRUint16
+PRIntervalTime
 mMaxHangTime
 ;
-PRUint16
+PRIntervalTime
 mIdleTimeout
 ;
 PRIntervalTime
