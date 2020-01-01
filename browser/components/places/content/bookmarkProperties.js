@@ -4594,12 +4594,9 @@ return
 var
 folderId
 =
-asFolder
-(
 selectedNode
-)
 .
-folderId
+itemId
 ;
 var
 oldSelectedItem
