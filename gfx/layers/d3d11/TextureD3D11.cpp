@@ -359,8 +359,8 @@ Width
 aSize
 .
 width
-|
-|
+&
+&
 desc
 .
 Height
