@@ -7998,6 +7998,14 @@ if
 childFrame
 &
 &
+childFrame
+-
+>
+GetParent
+(
+)
+&
+&
 (
 childFrame
 -
