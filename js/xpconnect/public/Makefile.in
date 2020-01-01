@@ -95,6 +95,10 @@ nsTArrayHelpers
 .
 h
 \
+SandboxPrivate
+.
+h
+\
 (
 NULL
 )
