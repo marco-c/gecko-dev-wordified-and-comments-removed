@@ -930,6 +930,17 @@ append
 return
 NULL
 ;
+if
+(
+buf
+.
+empty
+(
+)
+)
+return
+NULL
+;
 fun
 -
 >
