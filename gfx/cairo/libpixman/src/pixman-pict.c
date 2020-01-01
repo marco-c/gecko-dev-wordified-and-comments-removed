@@ -8816,12 +8816,9 @@ initialized
 TRUE
 ;
 }
-else
-{
 return
 have_arm_simd
 ;
-}
 #
 else
 return
