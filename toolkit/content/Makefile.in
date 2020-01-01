@@ -699,10 +699,6 @@ debug
 .
 js
 \
-LightweightThemeConsumer
-.
-jsm
-\
 WindowDraggingUtils
 .
 jsm
