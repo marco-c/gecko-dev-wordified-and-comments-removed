@@ -573,6 +573,10 @@ nsDoubleHashtable
 .
 h
 \
+nsExpirationTracker
+.
+h
+\
 nsFixedSizeAllocator
 .
 h
