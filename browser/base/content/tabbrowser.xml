@@ -9642,9 +9642,8 @@ length
 =
 =
 1
-)
-{
-if
+&
+&
 (
 !
 TabView
@@ -9655,6 +9654,7 @@ TabView
 .
 isVisible
 (
+)
 )
 )
 {
@@ -9755,7 +9755,6 @@ newTab
 =
 true
 ;
-}
 }
 this
 .
