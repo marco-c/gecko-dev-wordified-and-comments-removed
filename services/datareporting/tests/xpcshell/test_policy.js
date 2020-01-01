@@ -4580,7 +4580,7 @@ POLL_INTERVAL_MSEC
 {
 value
 :
-1000
+250
 }
 )
 ;
@@ -4595,7 +4595,7 @@ IMPLICIT_ACCEPTANCE_INTERVAL_MSEC
 {
 value
 :
-3000
+700
 }
 )
 ;
@@ -4708,7 +4708,13 @@ delta
 <
 =
 (
-4000
+policy
+.
+IMPLICIT_ACCEPTANCE_INTERVAL_MSEC
++
+policy
+.
+POLL_INTERVAL_MSEC
 )
 )
 {
