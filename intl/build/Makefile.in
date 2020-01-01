@@ -470,9 +470,9 @@ else
 ifeq
 (
 (
-MOZ_WIDGET_TOOLKIT
+OS_ARCH
 )
-cocoa
+Darwin
 )
 LOCALE_DIR
 =
