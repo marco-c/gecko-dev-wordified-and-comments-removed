@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsGenericFactory
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

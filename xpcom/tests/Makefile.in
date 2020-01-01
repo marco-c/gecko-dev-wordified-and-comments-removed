@@ -420,8 +420,6 @@ MOZILLA_INTERNAL_API
 endif
 DIRS
 =
-dynamic
-services
 external
 ifdef
 MOZ_ENABLE_LIBXUL
@@ -554,10 +552,6 @@ TestCOMPtrEq
 .
 cpp
 \
-TestFactory
-.
-cpp
-\
 TestFile
 .
 cpp
@@ -583,10 +577,6 @@ TestPipe
 cpp
 \
 TestRefPtr
-.
-cpp
-\
-TestServMgr
 .
 cpp
 \

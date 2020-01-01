@@ -252,7 +252,7 @@ NS_IMPL_ISUPPORTS1
 nsErrorService
 nsIErrorService
 )
-NS_METHOD
+nsresult
 nsErrorService
 :
 :

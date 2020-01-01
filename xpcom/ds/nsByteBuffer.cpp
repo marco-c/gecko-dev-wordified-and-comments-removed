@@ -127,7 +127,7 @@ mLength
 0
 ;
 }
-NS_METHOD
+nsresult
 ByteBufferImpl
 :
 :

@@ -2203,7 +2203,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 NS_NewJSON
 (
 nsISupports

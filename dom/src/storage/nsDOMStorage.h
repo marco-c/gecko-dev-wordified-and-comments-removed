@@ -1252,7 +1252,7 @@ mDomain
 ;
 }
 ;
-NS_IMETHODIMP
+nsresult
 NS_NewDOMStorage
 (
 nsISupports
@@ -1266,7 +1266,7 @@ void
 aResult
 )
 ;
-NS_IMETHODIMP
+nsresult
 NS_NewDOMStorage2
 (
 nsISupports

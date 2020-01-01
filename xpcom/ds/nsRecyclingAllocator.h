@@ -26,13 +26,6 @@ nsIRecyclingAllocator
 h
 "
 #
-include
-"
-nsIGenericFactory
-.
-h
-"
-#
 define
 NS_DEFAULT_RECYCLE_TIMEOUT
 10

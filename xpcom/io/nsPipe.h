@@ -61,7 +61,7 @@ b3ae97a7c758
 }
 \
 }
-NS_METHOD
+nsresult
 NS_HIDDEN
 nsPipeConstructor
 (

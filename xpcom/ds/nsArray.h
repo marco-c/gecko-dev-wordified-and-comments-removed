@@ -140,7 +140,7 @@ nsArrayCC
 )
 }
 ;
-NS_METHOD
+nsresult
 nsArrayConstructor
 (
 nsISupports

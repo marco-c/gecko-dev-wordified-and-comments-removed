@@ -73,7 +73,7 @@ b4cef17e568d
 \
 }
 extern
-NS_METHOD
+nsresult
 nsMultiplexInputStreamConstructor
 (
 nsISupports

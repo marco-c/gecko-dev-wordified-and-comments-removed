@@ -2653,7 +2653,7 @@ PR_FALSE
 )
 {
 }
-NS_METHOD
+nsresult
 nsLocalFile
 :
 :

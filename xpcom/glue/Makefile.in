@@ -568,10 +568,6 @@ nsEnumeratorUtils
 .
 h
 \
-nsGenericFactory
-.
-h
-\
 nsHashKeys
 .
 h
@@ -581,14 +577,6 @@ nsIClassInfoImpl
 h
 \
 nsID
-.
-h
-\
-nsIGenericFactory
-.
-h
-\
-nsIGenericFactory
 .
 h
 \

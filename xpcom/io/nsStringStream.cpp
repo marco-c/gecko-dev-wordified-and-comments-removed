@@ -199,6 +199,15 @@ NS_IMPL_THREADSAFE_RELEASE
 (
 nsStringInputStream
 )
+NS_IMPL_CLASSINFO
+(
+nsStringInputStream
+NULL
+nsIClassInfo
+:
+:
+THREADSAFE
+)
 NS_IMPL_QUERY_INTERFACE4_CI
 (
 nsStringInputStream
@@ -1181,7 +1190,7 @@ NS_ASSIGNMENT_COPY
 )
 ;
 }
-NS_METHOD
+nsresult
 nsStringInputStreamConstructor
 (
 nsISupports

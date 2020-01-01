@@ -248,13 +248,11 @@ localFile
 ;
 rv
 =
-XRE_InitEmbedding
+XRE_InitEmbedding2
 (
 localFile
 localFile
 nsnull
-nsnull
-0
 )
 ;
 if

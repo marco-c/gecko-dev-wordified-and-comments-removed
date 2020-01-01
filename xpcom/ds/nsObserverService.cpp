@@ -204,7 +204,7 @@ Clear
 )
 ;
 }
-NS_METHOD
+nsresult
 nsObserverService
 :
 :

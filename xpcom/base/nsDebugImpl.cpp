@@ -1983,7 +1983,7 @@ const
 nsDebugImpl
 kImpl
 ;
-NS_METHOD
+nsresult
 nsDebugImpl
 :
 :

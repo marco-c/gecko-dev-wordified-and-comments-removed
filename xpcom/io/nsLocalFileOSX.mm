@@ -1518,7 +1518,7 @@ nsILocalFile
 nsIFile
 nsIHashable
 )
-NS_IMETHODIMP
+nsresult
 nsLocalFile
 :
 :

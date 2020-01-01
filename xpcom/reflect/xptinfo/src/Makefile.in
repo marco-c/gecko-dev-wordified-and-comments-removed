@@ -435,10 +435,6 @@ xptiInterfaceInfoManager
 .
 cpp
 \
-xptiMisc
-.
-cpp
-\
 xptiTypelibGuts
 .
 cpp

@@ -134,7 +134,7 @@ nsLocalFile
 )
 ;
 static
-NS_METHOD
+nsresult
 nsLocalFileConstructor
 (
 nsISupports

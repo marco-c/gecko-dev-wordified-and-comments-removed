@@ -63,7 +63,7 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSIENVIRONMENT
 static
-NS_METHOD
+nsresult
 Create
 (
 nsISupports

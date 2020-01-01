@@ -120,6 +120,15 @@ NS_IMPL_THREADSAFE_RELEASE
 (
 nsThreadPool
 )
+NS_IMPL_CLASSINFO
+(
+nsThreadPool
+NULL
+nsIClassInfo
+:
+:
+THREADSAFE
+)
 NS_IMPL_QUERY_INTERFACE3_CI
 (
 nsThreadPool

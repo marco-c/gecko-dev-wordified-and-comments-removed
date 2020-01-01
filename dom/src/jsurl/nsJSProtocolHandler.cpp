@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsIGenericFactory
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h
@@ -3735,7 +3728,7 @@ NS_IMPL_ISUPPORTS1
 nsJSProtocolHandler
 nsIProtocolHandler
 )
-NS_METHOD
+nsresult
 nsJSProtocolHandler
 :
 :

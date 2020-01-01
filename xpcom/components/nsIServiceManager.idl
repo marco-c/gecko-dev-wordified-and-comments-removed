@@ -788,14 +788,14 @@ h
 #
 include
 "
-nsServiceManagerUtils
+nsComponentManagerUtils
 .
 h
 "
 #
 include
 "
-nsIServiceManagerObsolete
+nsServiceManagerUtils
 .
 h
 "

@@ -226,7 +226,7 @@ mURI
 ;
 }
 ;
-NS_IMETHODIMP
+nsresult
 NS_NewJSON
 (
 nsISupports

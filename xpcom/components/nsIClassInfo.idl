@@ -923,15 +923,6 @@ PLUGIN_OBJECT
 <
 4
 ;
-const
-PRUint32
-EAGER_CLASSINFO
-=
-1
-<
-<
-5
-;
 /
 *
 *

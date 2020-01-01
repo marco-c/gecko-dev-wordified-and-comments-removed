@@ -85,6 +85,12 @@ mValue
 )
 ;
 }
+NS_IMPL_CLASSINFO
+(
+nsSampleImpl
+NULL
+0
+)
 NS_IMPL_ISUPPORTS1_CI
 (
 nsSampleImpl
