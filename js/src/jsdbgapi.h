@@ -7,13 +7,6 @@ jsdbgapi_h___
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jsprvtd
 .
 h

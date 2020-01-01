@@ -48,6 +48,9 @@ h
 namespace
 js
 {
+struct
+AsmJSParallelTask
+;
 namespace
 ion
 {

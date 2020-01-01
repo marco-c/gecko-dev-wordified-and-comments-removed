@@ -48,13 +48,6 @@ Assertions
 h
 "
 #
-include
-"
-jsnum
-.
-h
-"
-#
 define
 ASSEMBLER_HAS_CONSTANT_POOL
 1

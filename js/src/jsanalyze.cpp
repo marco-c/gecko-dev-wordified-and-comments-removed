@@ -26,13 +26,6 @@ h
 #
 include
 "
-jsautooplen
-.
-h
-"
-#
-include
-"
 jscompartment
 .
 h

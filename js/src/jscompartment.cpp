@@ -38,13 +38,6 @@ h
 #
 include
 "
-jsmath
-.
-h
-"
-#
-include
-"
 jsproxy
 .
 h

@@ -7,15 +7,6 @@ ScopeObject_h___
 #
 include
 "
-mozilla
-/
-GuardObjects
-.
-h
-"
-#
-include
-"
 jscntxt
 .
 h

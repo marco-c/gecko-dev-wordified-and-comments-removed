@@ -15,6 +15,13 @@ DebugOnly
 h
 "
 #
+include
+"
+prmjtime
+.
+h
+"
+#
 ifdef
 JS_PARALLEL_COMPILATION
 #

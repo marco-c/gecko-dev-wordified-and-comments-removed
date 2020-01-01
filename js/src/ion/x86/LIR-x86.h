@@ -4,15 +4,6 @@ jsion_lir_x86_h__
 #
 define
 jsion_lir_x86_h__
-#
-include
-"
-ion
-/
-LIR
-.
-h
-"
 namespace
 js
 {

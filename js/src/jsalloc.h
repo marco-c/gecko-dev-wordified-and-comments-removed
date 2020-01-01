@@ -13,13 +13,6 @@ Utility
 .
 h
 "
-#
-include
-"
-jstypes
-.
-h
-"
 struct
 JSContext
 ;

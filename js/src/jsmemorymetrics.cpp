@@ -12,15 +12,6 @@ include
 "
 mozilla
 /
-Assertions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 DebugOnly
 .
 h
