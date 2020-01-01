@@ -112,10 +112,6 @@ test_mousecapture_area
 .
 html
 \
-test_popupanchor
-.
-xul
-\
 popup_shared
 .
 js
