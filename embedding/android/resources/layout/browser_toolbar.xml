@@ -134,6 +134,13 @@ Left
 "
 android
 :
+scaleType
+=
+"
+fitXY
+"
+android
+:
 src
 =
 "
