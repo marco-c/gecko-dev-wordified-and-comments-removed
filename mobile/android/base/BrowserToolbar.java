@@ -5597,6 +5597,10 @@ mForwardAnim
 new
 PropertyAnimator
 (
+mSwitchingTabs
+?
+10
+:
 FORWARD_ANIMATION_DURATION
 )
 ;
