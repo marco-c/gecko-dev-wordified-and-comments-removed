@@ -2920,6 +2920,10 @@ nsIDocShell
 :
 APP_TYPE_UNKNOWN
 )
+mLoadType
+(
+0
+)
 mMarginWidth
 (
 -
@@ -2938,10 +2942,6 @@ mPreviousTransIndex
 (
 -
 1
-)
-mLoadType
-(
-0
 )
 mLoadedTransIndex
 (
