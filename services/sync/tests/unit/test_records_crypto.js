@@ -517,7 +517,7 @@ auth
 ;
 PubKeys
 .
-defaultKeyUrl
+defaultKeyUri
 =
 "
 http
