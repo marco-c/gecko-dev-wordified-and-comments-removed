@@ -686,6 +686,9 @@ Installer
 "
 !
 insertmacro
+GetLongPath
+!
+insertmacro
 RegCleanMain
 !
 insertmacro

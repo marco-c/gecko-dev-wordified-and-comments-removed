@@ -636,6 +636,9 @@ Helper
 "
 !
 insertmacro
+GetLongPath
+!
+insertmacro
 AddHandlerValues
 !
 insertmacro
@@ -655,6 +658,11 @@ WriteRegStr2
 !
 insertmacro
 WriteRegDWORD2
+!
+insertmacro
+un
+.
+GetLongPath
 !
 insertmacro
 un
