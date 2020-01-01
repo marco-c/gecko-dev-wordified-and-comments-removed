@@ -3498,7 +3498,7 @@ offs
 )
 )
 ;
-asm_output1
+asm_output
 (
 "
 b
@@ -3566,7 +3566,7 @@ PC
 )
 )
 ;
-asm_output1
+asm_output
 (
 "
 b
@@ -3663,7 +3663,7 @@ offs
 )
 )
 ;
-asm_output1
+asm_output
 (
 "
 bl
@@ -3777,7 +3777,7 @@ LR
 )
 )
 ;
-asm_output1
+asm_output
 (
 "
 bl
@@ -3861,7 +3861,7 @@ offset
 )
 )
 ;
-asm_output2
+asm_output
 (
 "
 (
@@ -4273,7 +4273,7 @@ PC
 )
 ;
 }
-asm_output2
+asm_output
 (
 "
 %
@@ -4514,7 +4514,7 @@ rot
 immval
 )
 ;
-asm_output3
+asm_output
 (
 "
 add
@@ -4588,7 +4588,7 @@ Scratch
 )
 )
 ;
-asm_output3
+asm_output
 (
 "
 add

@@ -5395,7 +5395,7 @@ offset
 )
 )
 ;
-asm_output2
+asm_output
 (
 "
 bl
@@ -5513,7 +5513,7 @@ br_off
 )
 )
 ;
-asm_output2
+asm_output
 (
 "
 b
@@ -5646,7 +5646,7 @@ NIns
 mask
 )
 ;
-asm_output1
+asm_output
 (
 "
 push
@@ -5726,7 +5726,7 @@ r
 )
 )
 ;
-asm_output1
+asm_output
 (
 "
 pop
@@ -5820,7 +5820,7 @@ NIns
 mask
 )
 ;
-asm_output1
+asm_output
 (
 "
 pop
@@ -5879,7 +5879,7 @@ r
 v
 )
 ;
-asm_output2
+asm_output
 (
 "
 mov
@@ -6117,7 +6117,7 @@ tt
 0xFF
 )
 ;
-asm_output3
+asm_output
 (
 "
 b
@@ -6178,7 +6178,7 @@ c
 1
 )
 ;
-asm_output2
+asm_output
 (
 "
 b
@@ -6266,7 +6266,7 @@ reg
 off
 )
 ;
-asm_output3
+asm_output
 (
 "
 str
@@ -6342,7 +6342,7 @@ reg
 )
 )
 ;
-asm_output3
+asm_output
 (
 "
 str
@@ -6447,7 +6447,7 @@ base
 reg
 )
 ;
-asm_output3
+asm_output
 (
 "
 str
@@ -6531,7 +6531,7 @@ base
 regs
 )
 ;
-asm_output2
+asm_output
 (
 "
 ldmia
@@ -6610,7 +6610,7 @@ base
 regs
 )
 ;
-asm_output2
+asm_output
 (
 "
 stmia
@@ -6852,7 +6852,7 @@ r
 i
 )
 ;
-asm_output2
+asm_output
 (
 "
 add
@@ -6964,7 +6964,7 @@ i
 2
 )
 ;
-asm_output2
+asm_output
 (
 "
 add
@@ -7094,7 +7094,7 @@ r
 i
 )
 ;
-asm_output2
+asm_output
 (
 "
 sub
@@ -7206,7 +7206,7 @@ i
 2
 )
 ;
-asm_output2
+asm_output
 (
 "
 sub
@@ -7390,7 +7390,7 @@ offset
 )
 )
 ;
-asm_output2
+asm_output
 (
 "
 call
@@ -7657,7 +7657,7 @@ Scratch
 )
 )
 ;
-asm_output2
+asm_output
 (
 "
 call
@@ -7867,7 +7867,7 @@ data_off
 2
 )
 ;
-asm_output3
+asm_output
 (
 "
 ldr
