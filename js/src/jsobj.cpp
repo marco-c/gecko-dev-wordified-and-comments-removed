@@ -16624,7 +16624,7 @@ if
 sprop
 )
 goto
-bad
+error
 ;
 }
 else
@@ -16710,7 +16710,7 @@ if
 scope
 )
 goto
-bad
+error
 ;
 added
 =
@@ -16757,7 +16757,7 @@ if
 sprop
 )
 goto
-bad
+error
 ;
 added
 =
@@ -16800,7 +16800,7 @@ id
 )
 ;
 goto
-bad
+error
 )
 ;
 if
@@ -16861,7 +16861,7 @@ obj
 return
 JS_TRUE
 ;
-bad
+error
 :
 JS_UNLOCK_OBJ
 (
@@ -19970,6 +19970,11 @@ sprop
 ;
 return
 JS_TRUE
+;
+error
+:
+return
+JS_FALSE
 ;
 }
 flags
