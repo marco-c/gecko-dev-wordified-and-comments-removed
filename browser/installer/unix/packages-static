@@ -1616,6 +1616,13 @@ bin
 /
 components
 /
+aboutCertError
+.
+js
+bin
+/
+components
+/
 nsBadCertHandler
 .
 js

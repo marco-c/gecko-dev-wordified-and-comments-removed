@@ -6752,7 +6752,7 @@ browser
 .
 ssl_override_behavior
 "
-1
+2
 )
 ;
 pref
@@ -6882,6 +6882,18 @@ OS
 LOCALE
 %
 /
+"
+)
+;
+pref
+(
+"
+security
+.
+alternate_certificate_error_page
+"
+"
+certerror
 "
 )
 ;
