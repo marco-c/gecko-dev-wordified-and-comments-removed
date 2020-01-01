@@ -8750,7 +8750,7 @@ mMinWidth
 ;
 if
 (
-eStyleUnit_Null
+eStyleUnit_None
 =
 =
 mStylePosition
@@ -8855,7 +8855,7 @@ GetUnit
 ;
 if
 (
-eStyleUnit_Null
+eStyleUnit_None
 =
 =
 maxHeightUnit

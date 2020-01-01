@@ -682,7 +682,7 @@ return
 aUnit
 =
 =
-eStyleUnit_Null
+eStyleUnit_None
 |
 |
 aUnit
@@ -826,7 +826,7 @@ GetUnit
 )
 =
 =
-eStyleUnit_Null
+eStyleUnit_None
 |
 |
 IsFixedWidth

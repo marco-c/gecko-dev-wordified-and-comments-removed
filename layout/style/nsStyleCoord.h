@@ -47,6 +47,9 @@ eStyleUnit_Normal
 eStyleUnit_Auto
 =
 2
+eStyleUnit_None
+=
+3
 eStyleUnit_Percent
 =
 10
@@ -249,6 +252,12 @@ void
 ;
 void
 SetAutoValue
+(
+void
+)
+;
+void
+SetNoneValue
 (
 void
 )

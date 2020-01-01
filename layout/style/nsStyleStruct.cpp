@@ -3697,7 +3697,7 @@ SetCoordValue
 ;
 mMaxWidth
 .
-Reset
+SetNoneValue
 (
 )
 ;
@@ -3716,7 +3716,7 @@ SetCoordValue
 ;
 mMaxHeight
 .
-Reset
+SetNoneValue
 (
 )
 ;
