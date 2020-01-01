@@ -458,6 +458,12 @@ NS_SUCCEEDED
 (
 rv
 )
+|
+|
+rv
+=
+=
+NS_NOINTERFACE
 )
 return
 rv
