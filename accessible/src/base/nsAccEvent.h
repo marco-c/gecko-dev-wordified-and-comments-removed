@@ -293,9 +293,9 @@ mAccessible
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
-mDOMNode
+mNode
 ;
 nsCOMPtr
 <
