@@ -925,9 +925,6 @@ nsIFrame
 aParentFrame
 nsIFrame
 *
-aPrevInFlow
-nsIFrame
-*
 aNewFrame
 bool
 aAllowCounters
