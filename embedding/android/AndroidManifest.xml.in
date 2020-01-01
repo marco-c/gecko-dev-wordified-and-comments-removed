@@ -137,11 +137,6 @@ xlargeScreens
 "
 true
 "
-android
-:
-resizeable
-=
-true
 /
 >
 #
