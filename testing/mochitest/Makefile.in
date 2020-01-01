@@ -232,6 +232,10 @@ runtestsvmware
 .
 py
 \
+manifest
+.
+webapp
+\
 (
 topsrcdir
 )
