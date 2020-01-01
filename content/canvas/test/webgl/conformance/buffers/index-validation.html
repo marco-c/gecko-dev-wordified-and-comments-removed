@@ -898,6 +898,18 @@ UNSIGNED_SHORT
 '
 )
 ;
+debug
+(
+"
+Pass
+large
+negative
+index
+to
+vertexAttribPointer
+"
+)
+;
 gl
 .
 vertexAttribPointer
@@ -932,7 +944,7 @@ glErrorShouldBe
 gl
 gl
 .
-NO_ERROR
+INVALID_VALUE
 )
 ;
 shouldBeUndefined
