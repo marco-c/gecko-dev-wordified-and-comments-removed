@@ -894,7 +894,7 @@ HTTP_PARTIAL_RESPONSE_CODE
 )
 )
 {
-PRInt32
+PRInt64
 cl
 =
 -

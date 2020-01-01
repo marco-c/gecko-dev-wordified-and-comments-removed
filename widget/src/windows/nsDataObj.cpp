@@ -1143,7 +1143,7 @@ statstg
 >
 mtime
 ;
-PRInt32
+PRInt64
 nLength
 =
 0
@@ -1176,11 +1176,8 @@ statstg
 >
 cbSize
 .
-LowPart
+QuadPart
 =
-(
-DWORD
-)
 nLength
 ;
 statstg
@@ -1361,8 +1358,9 @@ return
 S_OK
 ;
 }
-static
+EXTERN_C
 GUID
+CDECL
 CLSID_nsDataObj
 =
 {
@@ -5301,6 +5299,11 @@ Reset
 (
 )
 ;
+PRBool
+found
+=
+PR_FALSE
+;
 while
 (
 NOERROR
@@ -6410,6 +6413,11 @@ if
 mCachedTempFile
 )
 {
+PRUint32
+len
+=
+0
+;
 nsCOMPtr
 <
 nsIFile

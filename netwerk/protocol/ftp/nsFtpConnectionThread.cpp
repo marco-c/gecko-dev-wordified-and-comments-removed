@@ -4095,10 +4095,11 @@ mFileSize
 mChannel
 -
 >
-SetContentLength64
+ContentLength
 (
-mFileSize
 )
+=
+mFileSize
 ;
 }
 return

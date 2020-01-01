@@ -5628,10 +5628,7 @@ mNextItem
 -
 1
 aProgress
-PRUint64
-(
 mContentLength
-)
 )
 ;
 }

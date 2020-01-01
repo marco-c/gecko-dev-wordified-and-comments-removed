@@ -294,7 +294,7 @@ mState
 ;
 protected
 :
-PRInt32
+PRInt64
 mBytesRead
 ;
 }

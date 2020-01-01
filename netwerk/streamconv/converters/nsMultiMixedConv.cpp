@@ -89,6 +89,13 @@ nsIStreamConverterService
 .
 h
 "
+#
+include
+"
+prprf
+.
+h
+"
 static
 PRUint32
 LengthToToken

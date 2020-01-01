@@ -242,7 +242,7 @@ if
 chan
 )
 {
-PRInt32
+PRInt64
 contentLength
 =
 -
@@ -265,6 +265,17 @@ contentLength
 0
 )
 {
+if
+(
+contentLength
+>
+PR_UINT32_MAX
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
+;
+}
 mData
 =
 static_cast
