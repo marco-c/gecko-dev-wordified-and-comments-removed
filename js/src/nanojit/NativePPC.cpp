@@ -5428,7 +5428,6 @@ asm_dasq
 (
 LIns
 *
-ins
 )
 {
 TODO
@@ -5445,7 +5444,6 @@ asm_qasd
 (
 LIns
 *
-ins
 )
 {
 TODO
