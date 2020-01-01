@@ -2996,6 +2996,14 @@ aShell
 )
 ;
 nsresult
+ShowResizersInner
+(
+nsIDOMElement
+*
+aResizedElement
+)
+;
+nsresult
 GetElementOrigin
 (
 nsIDOMElement
