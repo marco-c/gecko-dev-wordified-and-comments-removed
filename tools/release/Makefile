@@ -20,10 +20,15 @@ pm
 "
 ;
 do
+\
 perl
 -
 c
 f
+|
+|
+exit
+?
 ;
 done
 if
