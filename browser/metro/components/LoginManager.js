@@ -530,8 +530,6 @@ changed
 {
 this
 .
-_pwmgr
-.
 _debug
 =
 Services
@@ -548,8 +546,6 @@ debug
 )
 ;
 this
-.
-_pwmgr
 .
 _remember
 =
@@ -590,8 +586,6 @@ null
 else
 {
 this
-.
-_pwmgr
 .
 log
 (
