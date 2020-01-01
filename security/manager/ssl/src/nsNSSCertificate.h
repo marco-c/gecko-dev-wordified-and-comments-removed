@@ -149,11 +149,6 @@ nsNSSCertificate
 CERTCertificate
 *
 cert
-SECOidTag
-*
-evOidPolicy
-=
-nullptr
 )
 ;
 nsNSSCertificate
@@ -189,11 +184,6 @@ Create
 CERTCertificate
 *
 cert
-=
-nullptr
-SECOidTag
-*
-evOidPolicy
 =
 nullptr
 )

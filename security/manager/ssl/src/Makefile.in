@@ -105,7 +105,7 @@ JARSignatureVerification
 .
 cpp
 \
-CertVerifier
+nsCERTValInParamWrapper
 .
 cpp
 \
