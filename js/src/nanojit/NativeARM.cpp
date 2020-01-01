@@ -487,12 +487,6 @@ BX
 LR
 )
 ;
-MR
-(
-R0
-R2
-)
-;
 RegisterMask
 savingMask
 =
@@ -509,6 +503,12 @@ LR
 POP_mask
 (
 savingMask
+)
+;
+MR
+(
+R0
+R2
 )
 ;
 return
