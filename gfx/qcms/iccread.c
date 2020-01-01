@@ -851,6 +851,7 @@ index
 NULL
 }
 ;
+unsigned
 int
 i
 ;
@@ -1441,6 +1442,7 @@ uint32_t
 tag_id
 )
 {
+unsigned
 int
 i
 ;
@@ -1555,6 +1557,8 @@ XYZNumber
 num
 =
 {
+0
+0
 0
 }
 ;
@@ -1730,6 +1734,7 @@ offset
 8
 )
 ;
+unsigned
 int
 i
 ;
