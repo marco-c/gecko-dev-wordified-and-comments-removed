@@ -307,6 +307,16 @@ name
 placeholder
 "
 ]
+style
+:
+[
+"
+media
+"
+"
+type
+"
+]
 }
 ;
 if
