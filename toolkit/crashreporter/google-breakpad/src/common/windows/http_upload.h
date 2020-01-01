@@ -179,7 +179,7 @@ request_body
 )
 ;
 static
-void
+bool
 GetFileContents
 (
 const
