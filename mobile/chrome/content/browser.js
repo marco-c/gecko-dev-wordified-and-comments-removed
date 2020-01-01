@@ -4280,7 +4280,7 @@ this
 .
 setPluginState
 (
-true
+false
 )
 ;
 }
