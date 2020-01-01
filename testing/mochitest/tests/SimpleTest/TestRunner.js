@@ -123,7 +123,7 @@ deferred
 =
 callLater
 (
-120
+180
 TestRunner
 .
 _checkForHangs
