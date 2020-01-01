@@ -316,6 +316,10 @@ Errors
 .
 msg
 \
+NonRefcountedDOMObject
+.
+h
+\
 Nullable
 .
 h
