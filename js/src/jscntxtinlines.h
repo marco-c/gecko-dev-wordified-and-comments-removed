@@ -1229,14 +1229,6 @@ c
 void
 check
 (
-JSPrincipals
-*
-)
-{
-}
-void
-check
-(
 JSObject
 *
 obj
