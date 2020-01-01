@@ -1,3 +1,8 @@
+function
+_execute_test
+(
+)
+{
 try
 {
 do_test_pending
@@ -72,3 +77,4 @@ n
 "
 )
 ;
+}
