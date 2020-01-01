@@ -953,6 +953,16 @@ FactoryReset
 (
 )
 ;
+void
+StartMonitoringGamepadStatus
+(
+)
+;
+void
+StopMonitoringGamepadStatus
+(
+)
+;
 }
 }
 #

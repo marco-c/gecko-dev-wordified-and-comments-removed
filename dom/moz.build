@@ -139,6 +139,9 @@ smil
 '
 apps
 '
+'
+gamepad
+'
 ]
 PARALLEL_DIRS
 +
