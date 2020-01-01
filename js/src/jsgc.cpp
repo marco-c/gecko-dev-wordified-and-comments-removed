@@ -299,6 +299,9 @@ IonCode
 h
 "
 #
+ifdef
+JS_ION
+#
 include
 "
 ion
@@ -307,6 +310,8 @@ IonMacroAssembler
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1938,6 +1943,9 @@ break
 case
 FINALIZE_IONCODE
 :
+#
+ifdef
+JS_ION
 FinalizeTypedArenas
 <
 ion
@@ -1951,6 +1959,8 @@ al
 thingKind
 )
 ;
+#
+endif
 break
 ;
 }

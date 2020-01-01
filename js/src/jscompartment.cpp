@@ -2726,6 +2726,9 @@ initialStringShape
 =
 NULL
 ;
+#
+ifdef
+JS_ION
 if
 (
 ionCompartment_
@@ -2738,6 +2741,8 @@ sweep
 cx
 )
 ;
+#
+endif
 sweepBreakpoints
 (
 cx
