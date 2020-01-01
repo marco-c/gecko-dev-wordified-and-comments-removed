@@ -12,6 +12,13 @@ nsQuickSort
 .
 h
 "
+#
+include
+"
+nsIPresShell
+.
+h
+"
 SpanningCellSorter
 :
 :

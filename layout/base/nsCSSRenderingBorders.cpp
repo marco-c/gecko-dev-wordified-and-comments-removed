@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsFrameManager
 .
 h

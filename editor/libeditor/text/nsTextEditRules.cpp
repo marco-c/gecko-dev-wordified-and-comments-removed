@@ -197,13 +197,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsFrameSelection
 .
 h

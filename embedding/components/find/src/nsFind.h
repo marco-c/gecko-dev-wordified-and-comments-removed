@@ -54,9 +54,6 @@ nsIWordBreaker
 h
 "
 class
-nsIPresShell
-;
-class
 nsIAtom
 ;
 class

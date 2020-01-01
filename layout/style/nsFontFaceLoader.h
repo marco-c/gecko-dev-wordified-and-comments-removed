@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsIStreamLoader
 .
 h
@@ -65,9 +58,6 @@ nsIRequest
 ;
 class
 nsISupports
-;
-class
-nsIPresShell
 ;
 class
 nsPresContext

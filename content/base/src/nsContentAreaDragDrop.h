@@ -58,9 +58,6 @@ class
 nsITransferable
 ;
 class
-nsIPresShell
-;
-class
 nsPresContext
 ;
 class

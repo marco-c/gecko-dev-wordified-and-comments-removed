@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsIXBLService
 .
 h

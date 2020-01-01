@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h
@@ -103,6 +96,9 @@ nsISound
 .
 h
 "
+class
+nsIPresShell
+;
 #
 define
 TYPEAHEADFIND_NOTFOUND_WAV_URL

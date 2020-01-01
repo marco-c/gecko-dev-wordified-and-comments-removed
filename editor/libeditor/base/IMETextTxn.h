@@ -67,9 +67,6 @@ IME_TEXT_TXN_CID
 }
 }
 class
-nsIPresShell
-;
-class
 IMETextTxn
 :
 public

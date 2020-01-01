@@ -70,6 +70,9 @@ struct
 nsIntRect
 ;
 class
+nsIPresShell
+;
+class
 nsBoxObject
 :
 public

@@ -110,13 +110,6 @@ nsITextControlFrame
 .
 h
 "
-#
-include
-"
-nsIPresShell
-.
-h
-"
 nsXULButtonAccessible
 :
 :

@@ -25,13 +25,7 @@ NS_PIBOXOBJECT_IID
 }
 }
 class
-nsIPresShell
-;
-class
 nsIContent
-;
-class
-nsIDocument
 ;
 class
 nsPIBoxObject

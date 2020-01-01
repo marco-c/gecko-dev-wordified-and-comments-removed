@@ -89,9 +89,6 @@ nsStyleConsts
 h
 "
 class
-nsIPresShell
-;
-class
 nsMenuFrame
 ;
 class

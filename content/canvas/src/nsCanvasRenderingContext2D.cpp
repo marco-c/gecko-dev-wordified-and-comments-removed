@@ -240,13 +240,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h

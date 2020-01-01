@@ -28,9 +28,6 @@ class
 nsBoxLayoutState
 ;
 class
-nsIPresShell
-;
-class
 nsGrid
 ;
 class
