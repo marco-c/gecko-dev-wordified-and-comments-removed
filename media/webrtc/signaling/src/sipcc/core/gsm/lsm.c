@@ -272,10 +272,6 @@ cc_action_data_tone_t
 data
 )
 ;
-extern
-cc_media_cap_table_t
-g_media_table
-;
 static
 lsm_lcb_t
 *
