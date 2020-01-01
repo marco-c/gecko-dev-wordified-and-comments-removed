@@ -14,6 +14,15 @@ Assertions
 h
 "
 #
+include
+"
+mozilla
+/
+Types
+.
+h
+"
+#
 ifdef
 __cplusplus
 #
@@ -26,7 +35,10 @@ namespace
 detail
 {
 class
+MFBT_API
+(
 GuardObjectNotifier
+)
 {
 private
 :
@@ -73,7 +85,10 @@ statementIsDone
 }
 ;
 class
+MFBT_API
+(
 GuardObjectNotificationReceiver
+)
 {
 private
 :
