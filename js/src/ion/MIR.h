@@ -277,6 +277,13 @@ _
 (
 DOMFunction
 )
+\
+\
+\
+_
+(
+UseRemoved
+)
 class
 MDefinition
 ;
