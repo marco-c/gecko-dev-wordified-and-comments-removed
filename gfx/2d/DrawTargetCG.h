@@ -35,6 +35,13 @@ SourceSurfaceCG
 .
 h
 "
+#
+include
+"
+GLDefs
+.
+h
+"
 namespace
 mozilla
 {
@@ -349,11 +356,7 @@ GetType
 (
 )
 const
-{
-return
-BACKEND_COREGRAPHICS
 ;
-}
 virtual
 TemporaryRef
 <
@@ -421,6 +424,8 @@ DrawOptions
 bool
 Init
 (
+BackendType
+aType
 const
 IntSize
 &
@@ -432,6 +437,8 @@ SurfaceFormat
 bool
 Init
 (
+BackendType
+aType
 unsigned
 char
 *
@@ -462,8 +469,7 @@ void
 Flush
 (
 )
-{
-}
+;
 virtual
 void
 DrawSurfaceWithShadow
@@ -782,6 +788,9 @@ mColorSpace
 CGContextRef
 mCg
 ;
+GLuint
+mIOSurfaceTexture
+;
 void
 *
 mData
@@ -791,7 +800,7 @@ mFormat
 ;
 RefPtr
 <
-SourceSurfaceCGBitmapContext
+SourceSurfaceCGContext
 >
 mSnapshot
 ;

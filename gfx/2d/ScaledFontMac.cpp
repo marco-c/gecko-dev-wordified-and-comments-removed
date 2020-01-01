@@ -199,6 +199,17 @@ GetType
 =
 =
 BACKEND_COREGRAPHICS
+|
+|
+aTarget
+-
+>
+GetType
+(
+)
+=
+=
+BACKEND_COREGRAPHICS_ACCELERATED
 )
 {
 CGMutablePathRef

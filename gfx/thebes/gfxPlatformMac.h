@@ -314,6 +314,11 @@ OSXVersion
 (
 )
 ;
+bool
+UseAcceleratedCanvas
+(
+)
+;
 PRUint32
 GetAntiAliasingThreshold
 (
