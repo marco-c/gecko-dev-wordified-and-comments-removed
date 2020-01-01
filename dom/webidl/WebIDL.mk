@@ -387,10 +387,6 @@ Function
 .
 webidl
 \
-Future
-.
-webidl
-\
 GainNode
 .
 webidl
@@ -896,6 +892,10 @@ PositionError
 webidl
 \
 ProcessingInstruction
+.
+webidl
+\
+Promise
 .
 webidl
 \

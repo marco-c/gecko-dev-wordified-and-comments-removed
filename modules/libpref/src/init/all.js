@@ -13572,7 +13572,7 @@ pref
 "
 dom
 .
-future
+promise
 .
 enabled
 "
@@ -13586,7 +13586,7 @@ pref
 "
 dom
 .
-future
+promise
 .
 enabled
 "

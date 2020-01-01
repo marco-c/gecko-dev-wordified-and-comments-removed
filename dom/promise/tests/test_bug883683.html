@@ -7,7 +7,7 @@ head
 <
 title
 >
-Future
+Promise
 -
 bug
 883683
@@ -149,7 +149,7 @@ runTest
 .
 reduce
 (
-Future
+Promise
 .
 reject
 )
@@ -181,7 +181,7 @@ reject
 .
 reduce
 (
-Future
+Promise
 .
 resolve
 )
@@ -223,7 +223,7 @@ d
 {
 return
 new
-Future
+Promise
 (
 function
 (
@@ -276,7 +276,7 @@ d
 {
 return
 new
-Future
+Promise
 (
 function
 (
@@ -297,7 +297,7 @@ No
 leaks
 with
 empty
-future
+promise
 ?
 "
 )
@@ -329,7 +329,7 @@ set
 "
 dom
 .
-future
+promise
 .
 enabled
 "
