@@ -683,6 +683,10 @@ test_windowed_invalidate
 .
 html
 \
+test_positioning
+.
+html
+\
 (
 NULL
 )
