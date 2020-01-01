@@ -8650,7 +8650,7 @@ flex
 "
 >
 <
-scrollbox
+vbox
 id
 =
 "
@@ -8851,17 +8851,8 @@ this
 vbox
 >
 <
-separator
-flex
-=
-"
-1
-"
 /
->
-<
-/
-scrollbox
+vbox
 >
 <
 hbox
