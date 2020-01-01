@@ -68,13 +68,6 @@ nsProxyRelease
 .
 h
 "
-#
-include
-"
-nsThreadUtils
-.
-h
-"
 class
 nsWyciwygAsyncEvent
 :

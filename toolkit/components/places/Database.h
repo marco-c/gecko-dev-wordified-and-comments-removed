@@ -7,7 +7,7 @@ mozilla_places_Database_h_
 #
 include
 "
-MainThreadUtils
+nsThreadUtils
 .
 h
 "
@@ -58,13 +58,6 @@ include
 mozilla
 /
 Attributes
-.
-h
-"
-#
-include
-"
-nsIEventTarget
 .
 h
 "
@@ -144,9 +137,6 @@ closed
 "
 class
 nsIStringBundle
-;
-class
-nsIRunnable
 ;
 namespace
 mozilla
