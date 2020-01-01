@@ -1,12 +1,5 @@
 conformance
 /
-canvas
--
-test
-.
-html
-conformance
-/
 gl
 -
 getshadersource
