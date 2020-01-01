@@ -24565,6 +24565,8 @@ function
 homeButton
 )
 {
+return
+;
 if
 (
 !
