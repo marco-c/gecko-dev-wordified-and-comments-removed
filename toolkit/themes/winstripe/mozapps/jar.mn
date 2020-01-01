@@ -833,6 +833,7 @@ aero
 .
 png
 )
+*
 skin
 /
 classic
@@ -850,6 +851,8 @@ css
 downloads
 /
 downloads
+-
+aero
 .
 css
 )
