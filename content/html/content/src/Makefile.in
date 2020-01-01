@@ -218,15 +218,15 @@ HTMLOptGroupElement
 .
 h
 \
-HTMLOutputElement
-.
-h
-\
 HTMLParagraphElement
 .
 h
 \
 HTMLPreElement
+.
+h
+\
+HTMLProgressElement
 .
 h
 \
@@ -456,7 +456,7 @@ HTMLOptGroupElement
 .
 cpp
 \
-HTMLOutputElement
+nsHTMLOutputElement
 .
 cpp
 \
@@ -468,7 +468,7 @@ HTMLPreElement
 .
 cpp
 \
-nsHTMLProgressElement
+HTMLProgressElement
 .
 cpp
 \
