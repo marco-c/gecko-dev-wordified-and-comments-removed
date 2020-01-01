@@ -3141,7 +3141,7 @@ cinst
 .
 minBitrate
 =
-50
+200
 ;
 cinst
 .
