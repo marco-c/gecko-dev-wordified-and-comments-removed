@@ -23609,6 +23609,9 @@ JSCompartment
 c
 )
 {
+#
+ifdef
+JS_METHODJIT
 mjit
 :
 :
@@ -23722,6 +23725,9 @@ purgeCaches
 ;
 }
 }
+#
+ifdef
+JS_ION
 if
 (
 script
@@ -23741,7 +23747,11 @@ purgeCaches
 (
 )
 ;
+#
+endif
 }
+#
+endif
 }
 }
 JS_PUBLIC_API
