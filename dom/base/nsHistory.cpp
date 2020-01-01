@@ -960,9 +960,6 @@ len
 =
 0
 ;
-nsresult
-rv
-=
 session_history
 -
 >
@@ -972,8 +969,6 @@ GetIndex
 curIndex
 )
 ;
-rv
-=
 session_history
 -
 >
