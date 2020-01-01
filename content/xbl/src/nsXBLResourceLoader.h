@@ -54,6 +54,9 @@ struct
 nsXBLResource
 ;
 class
+nsIObjectOutputStream
+;
+class
 nsXBLResourceLoader
 :
 public

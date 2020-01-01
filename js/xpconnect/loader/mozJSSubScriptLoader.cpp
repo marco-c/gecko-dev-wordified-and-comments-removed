@@ -141,6 +141,13 @@ h
 #
 include
 "
+xpcpublic
+.
+h
+"
+#
+include
+"
 mozilla
 /
 scache

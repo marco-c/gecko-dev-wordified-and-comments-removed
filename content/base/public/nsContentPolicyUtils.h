@@ -42,6 +42,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h

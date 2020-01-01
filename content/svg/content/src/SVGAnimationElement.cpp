@@ -51,6 +51,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 prtime
 .
 h
