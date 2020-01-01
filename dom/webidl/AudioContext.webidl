@@ -223,6 +223,7 @@ createGain
 ;
 [
 Creator
+Throws
 ]
 DelayNode
 createDelay
