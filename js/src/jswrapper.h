@@ -241,6 +241,15 @@ CrossCompartmentWrapper
 ;
 virtual
 bool
+finalizeInBackground
+(
+HandleValue
+priv
+)
+MOZ_OVERRIDE
+;
+virtual
+bool
 getPropertyDescriptor
 (
 JSContext
