@@ -1701,7 +1701,7 @@ NS_ERROR_FAILURE
 ;
 #
 if
-not
+!
 defined
 WINCE
 struct
