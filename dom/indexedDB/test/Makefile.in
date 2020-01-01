@@ -336,10 +336,6 @@ test_leaving_page
 .
 html
 \
-test_lowDiskSpace
-.
-html
-\
 test_multientry
 .
 html
@@ -524,6 +520,11 @@ infinite
 loops
 bug
 595368
+#
+test_lowDiskSpace
+.
+html
+disabled
 ifeq
 (
 browser
