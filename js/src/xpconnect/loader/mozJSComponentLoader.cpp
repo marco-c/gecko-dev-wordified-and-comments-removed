@@ -7307,6 +7307,11 @@ Cancel
 )
 ;
 }
+JS_GC
+(
+mContext
+)
+;
 CloseFastLoad
 (
 )
