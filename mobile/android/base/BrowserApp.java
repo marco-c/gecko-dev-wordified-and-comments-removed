@@ -93,6 +93,17 @@ gecko
 .
 util
 .
+HardwareUtils
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
 ThreadUtils
 ;
 import
@@ -3277,6 +3288,8 @@ SDK_INT
 &
 &
 !
+HardwareUtils
+.
 isTablet
 (
 )
@@ -3447,6 +3460,8 @@ hasPermanentMenuKey
 )
 |
 |
+HardwareUtils
+.
 isTablet
 (
 )
@@ -3569,7 +3584,7 @@ boolean
 isSideBar
 =
 (
-GeckoAppShell
+HardwareUtils
 .
 isTablet
 (
@@ -7156,6 +7171,8 @@ instanceof
 GeckoMenu
 &
 &
+HardwareUtils
+.
 isTablet
 (
 )
@@ -7555,8 +7572,9 @@ SDK_INT
 14
 |
 |
-!
-isTouchDevice
+HardwareUtils
+.
+isTelevision
 (
 )
 )

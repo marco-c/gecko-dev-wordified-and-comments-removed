@@ -299,6 +299,17 @@ gecko
 .
 R
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+util
+.
+HardwareUtils
+;
 public
 class
 WebApp
@@ -1238,7 +1249,7 @@ Mobile
 ;
 if
 (
-GeckoAppShell
+HardwareUtils
 .
 isTablet
 (
