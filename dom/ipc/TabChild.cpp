@@ -3641,6 +3641,12 @@ cx
 JSVERSION_LATEST
 )
 ;
+JS_SetErrorReporter
+(
+cx
+ContentScriptErrorReporter
+)
+;
 xpc_LocalizeContext
 (
 cx
