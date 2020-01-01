@@ -594,9 +594,14 @@ DEFAULT_APP
 __BROWSER_PATH__
 #
 expand
-CERTS_DIR
+PROFILE_DIR
 =
-__CERTS_DIR__
+__PROFILE_DIR__
+#
+expand
+CERTS_SRC_DIR
+=
+__CERTS_SRC_DIR__
 #
 expand
 IS_TEST_BUILD
@@ -2999,7 +3004,7 @@ path
 .
 join
 (
-CERTS_DIR
+PROFILE_DIR
 "
 ssltunnel
 .
@@ -3040,7 +3045,7 @@ s
 n
 "
 %
-CERTS_DIR
+CERTS_SRC_DIR
 )
 sslTunnelConfig
 .
@@ -3382,7 +3387,7 @@ os
 .
 listdir
 (
-CERTS_DIR
+CERTS_SRC_DIR
 )
 for
 item
@@ -3427,7 +3432,7 @@ path
 .
 join
 (
-CERTS_DIR
+CERTS_SRC_DIR
 item
 )
 "
@@ -3484,7 +3489,7 @@ path
 .
 join
 (
-CERTS_DIR
+CERTS_SRC_DIR
 item
 )
 "
@@ -3717,7 +3722,7 @@ path
 .
 join
 (
-CERTS_DIR
+PROFILE_DIR
 "
 ssltunnel
 .
