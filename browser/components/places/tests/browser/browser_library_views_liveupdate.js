@@ -1316,9 +1316,6 @@ break
 ;
 }
 case
-type
-=
-=
 PlacesUtils
 .
 bookmarks
