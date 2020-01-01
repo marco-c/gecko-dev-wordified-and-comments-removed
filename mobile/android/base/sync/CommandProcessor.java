@@ -426,6 +426,9 @@ public
 void
 processCommand
 (
+final
+GlobalSession
+session
 ExtendedJSONObject
 unparsedCommand
 )
@@ -527,6 +530,7 @@ executableCommand
 .
 executeCommand
 (
+session
 command
 .
 getArgsList

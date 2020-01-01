@@ -1810,6 +1810,7 @@ processor
 .
 processCommand
 (
+session
 new
 ExtendedJSONObject
 (

@@ -58,6 +58,17 @@ gecko
 .
 sync
 .
+GlobalSession
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+sync
+.
 Logger
 ;
 import
@@ -364,6 +375,7 @@ false
 ;
 }
 private
+static
 void
 registerDisplayURICommand
 (
@@ -397,6 +409,9 @@ public
 void
 executeCommand
 (
+final
+GlobalSession
+session
 List
 <
 String
@@ -409,7 +424,9 @@ CommandProcessor
 displayURI
 (
 args
-getApplicationContext
+session
+.
+getContext
 (
 )
 )
