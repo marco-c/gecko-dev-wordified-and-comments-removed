@@ -242,9 +242,6 @@ gCSPEnabled
 return
 NS_OK
 ;
-nsresult
-rv
-;
 nsCOMPtr
 <
 nsINode
@@ -454,9 +451,6 @@ gCSPEnabled
 )
 return
 NS_OK
-;
-nsresult
-rv
 ;
 nsCOMPtr
 <
