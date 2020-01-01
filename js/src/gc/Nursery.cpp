@@ -66,6 +66,13 @@ h
 #
 include
 "
+jsobjinlines
+.
+h
+"
+#
+include
+"
 gc
 /
 Barrier
