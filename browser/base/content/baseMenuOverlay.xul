@@ -1104,6 +1104,9 @@ updateSeparator
 >
 #
 ifdef
+XP_MACOSX
+#
+ifdef
 MOZ_UPDATER
 <
 menuitem
@@ -1138,6 +1141,8 @@ checkForUpdates
 "
 /
 >
+#
+endif
 #
 endif
 <
