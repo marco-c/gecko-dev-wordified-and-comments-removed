@@ -385,7 +385,7 @@ cachePath
 cachePath
 )
 {
-log
+LOG
 (
 "
 Warning
@@ -493,7 +493,7 @@ zipStat
 st_mtime
 )
 {
-debug
+DEBUG_LOG
 (
 "
 Reusing
@@ -521,7 +521,7 @@ path
 ;
 }
 }
-debug
+DEBUG_LOG
 (
 "
 Extracting
@@ -568,7 +568,7 @@ fd
 1
 )
 {
-log
+LOG
 (
 "
 Couldn
@@ -640,7 +640,7 @@ GetUncompressedSize
 1
 )
 {
-log
+LOG
 (
 "
 Couldn
@@ -699,7 +699,7 @@ buffer
 MAP_FAILED
 )
 {
-log
+LOG
 (
 "
 Couldn
@@ -748,7 +748,7 @@ MAX_WBITS
 Z_OK
 )
 {
-log
+LOG
 (
 "
 inflateInit
@@ -779,7 +779,7 @@ Z_FINISH
 Z_STREAM_END
 )
 {
-log
+LOG
 (
 "
 inflate
@@ -809,7 +809,7 @@ zStream
 Z_OK
 )
 {
-log
+LOG
 (
 "
 inflateEnd
@@ -842,7 +842,7 @@ GetUncompressedSize
 )
 )
 {
-log
+LOG
 (
 "
 File
@@ -924,7 +924,7 @@ GetSize
 )
 )
 {
-log
+LOG
 (
 "
 Couldn
@@ -960,7 +960,7 @@ GetUncompressedSize
 1
 )
 {
-log
+LOG
 (
 "
 Couldn
@@ -1017,7 +1017,7 @@ buffer
 MAP_FAILED
 )
 {
-log
+LOG
 (
 "
 Couldn
@@ -1058,7 +1058,7 @@ GetUncompressedSize
 )
 )
 {
-log
+LOG
 (
 "
 %
@@ -1275,7 +1275,7 @@ MAP_ANONYMOUS
 0
 )
 ;
-debug
+DEBUG_LOG
 (
 "
 Decompression
@@ -1395,7 +1395,7 @@ buf
 MAP_FAILED
 )
 {
-debug
+DEBUG_LOG
 (
 "
 Decompression
@@ -1806,7 +1806,7 @@ Z_OK
 )
 )
 {
-log
+LOG
 (
 "
 inflateInit
@@ -1841,7 +1841,7 @@ ret
 0
 )
 {
-log
+LOG
 (
 "
 inflate
@@ -1867,7 +1867,7 @@ ret
 Z_NEED_DICT
 )
 {
-log
+LOG
 (
 "
 zstream
@@ -1919,7 +1919,7 @@ zStream
 Z_OK
 )
 {
-log
+LOG
 (
 "
 inflateEnd
@@ -1952,7 +1952,7 @@ GetLength
 )
 )
 {
-log
+LOG
 (
 "
 File
@@ -2009,7 +2009,7 @@ prot
 PROT_EXEC
 )
 {
-debug
+DEBUG_LOG
 (
 "
 cacheflush
@@ -2660,7 +2660,7 @@ void
 addr
 )
 {
-debug
+DEBUG_LOG
 (
 "
 ensure
@@ -2956,7 +2956,7 @@ prot
 PROT_EXEC
 )
 {
-debug
+DEBUG_LOG
 (
 "
 cacheflush
@@ -3149,7 +3149,7 @@ uintptr_t
 start
 )
 ;
-debug
+DEBUG_LOG
 (
 "
 mprotect
@@ -3197,7 +3197,7 @@ prot
 return
 true
 ;
-log
+LOG
 (
 "
 mprotect
@@ -3235,7 +3235,7 @@ GetChunksNum
 (
 )
 ;
-debug
+DEBUG_LOG
 (
 "
 %
@@ -3378,7 +3378,7 @@ j
 0
 '
 ;
-debug
+DEBUG_LOG
 (
 "
 %

@@ -1058,7 +1058,7 @@ F_OK
 )
 )
 {
-debug
+DEBUG_LOG
 (
 "
 dlopen
@@ -1100,7 +1100,7 @@ path
 flags
 )
 ;
-debug
+DEBUG_LOG
 (
 "
 dlopen
@@ -1184,7 +1184,7 @@ dlhandle
 )
 return
 ;
-debug
+DEBUG_LOG
 (
 "
 dlclose
@@ -1258,7 +1258,7 @@ dlhandle
 symbol
 )
 ;
-debug
+DEBUG_LOG
 (
 "
 dlsym
@@ -1751,7 +1751,7 @@ delete
 ]
 abs_path
 ;
-debug
+DEBUG_LOG
 (
 "
 ElfLoader
@@ -2229,7 +2229,7 @@ end
 )
 )
 {
-debug
+DEBUG_LOG
 (
 "
 ElfLoader
@@ -2302,7 +2302,7 @@ it
 }
 else
 {
-debug
+DEBUG_LOG
 (
 "
 ElfLoader
@@ -2532,7 +2532,7 @@ IsSystemElf
 )
 )
 {
-debug
+DEBUG_LOG
 (
 "
 ElfLoader
@@ -2597,7 +2597,7 @@ refCount
 }
 else
 {
-debug
+DEBUG_LOG
 (
 "
 ElfLoader
@@ -2904,7 +2904,7 @@ if
 destructor
 )
 {
-debug
+DEBUG_LOG
 (
 "
 ElfLoader
@@ -3196,7 +3196,7 @@ if
 phdrs
 )
 {
-debug
+DEBUG_LOG
 (
 "
 Couldn
@@ -3262,7 +3262,7 @@ fd
 1
 )
 {
-debug
+DEBUG_LOG
 (
 "
 Failed
@@ -3304,7 +3304,7 @@ mem
 base
 )
 {
-debug
+DEBUG_LOG
 (
 "
 Couldn
@@ -3335,7 +3335,7 @@ base
 )
 )
 {
-debug
+DEBUG_LOG
 (
 "
 Couldn
@@ -3452,7 +3452,7 @@ if
 dyns
 )
 {
-debug
+DEBUG_LOG
 (
 "
 Failed
@@ -3532,7 +3532,7 @@ break
 ;
 }
 }
-debug
+DEBUG_LOG
 (
 "
 DT_DEBUG
@@ -4751,7 +4751,7 @@ void
 context
 )
 {
-debug
+DEBUG_LOG
 (
 "
 Caught
@@ -4813,7 +4813,7 @@ IsSystemElf
 )
 )
 {
-debug
+DEBUG_LOG
 (
 "
 Within
@@ -4886,7 +4886,7 @@ sa_flags
 SA_SIGINFO
 )
 {
-debug
+DEBUG_LOG
 (
 "
 Redispatching
@@ -4931,7 +4931,7 @@ sa_handler
 SIG_DFL
 )
 {
-debug
+DEBUG_LOG
 (
 "
 Redispatching
@@ -4970,7 +4970,7 @@ sa_handler
 SIG_IGN
 )
 {
-debug
+DEBUG_LOG
 (
 "
 Redispatching
@@ -5002,7 +5002,7 @@ signum
 }
 else
 {
-debug
+DEBUG_LOG
 (
 "
 Ignoring

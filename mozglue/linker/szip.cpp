@@ -659,7 +659,7 @@ size
 )
 return
 ;
-debug
+DEBUG_LOG
 (
 "
 Creating
@@ -1132,7 +1132,7 @@ SeekableZStreamHeader
 )
 )
 {
-log
+LOG
 (
 "
 %
@@ -1185,7 +1185,7 @@ size
 )
 )
 {
-log
+LOG
 (
 "
 Error
@@ -1265,7 +1265,7 @@ origSize
 0
 )
 {
-log
+LOG
 (
 "
 Won
@@ -1298,7 +1298,7 @@ origBuf
 )
 )
 {
-log
+LOG
 (
 "
 Skipping
@@ -1324,7 +1324,7 @@ compressed
 =
 false
 ;
-log
+LOG
 (
 "
 Size
@@ -1346,7 +1346,7 @@ origSize
 )
 )
 {
-log
+LOG
 (
 "
 Couldn
@@ -1478,7 +1478,7 @@ SeekableZStream
 NONE
 )
 {
-debug
+DEBUG_LOG
 (
 "
 Applying
@@ -1542,7 +1542,7 @@ filteredTmp
 break
 ;
 }
-debug
+DEBUG_LOG
 (
 "
 Compressing
@@ -1704,7 +1704,7 @@ d
 4096
 )
 {
-debug
+DEBUG_LOG
 (
 "
 Compressing
@@ -1797,7 +1797,7 @@ Fill
 origBuf
 )
 ;
-log
+LOG
 (
 "
 Not
@@ -1824,7 +1824,7 @@ dictSize
 =
 0
 ;
-debug
+DEBUG_LOG
 (
 "
 Used
@@ -1849,7 +1849,7 @@ filter
 dictSize
 )
 ;
-log
+LOG
 (
 "
 Compressed
@@ -1907,7 +1907,7 @@ size
 origSize
 )
 {
-log
+LOG
 (
 "
 Compression
@@ -1954,7 +1954,7 @@ size
 )
 )
 {
-log
+LOG
 (
 "
 Compression
@@ -2069,7 +2069,7 @@ origSize
 )
 )
 {
-log
+LOG
 (
 "
 Couldn
@@ -2444,7 +2444,7 @@ offset
 )
 )
 {
-log
+LOG
 (
 "
 Error
@@ -2720,7 +2720,7 @@ maxChunkSize
 )
 )
 {
-log
+LOG
 (
 "
 Invalid
@@ -2846,7 +2846,7 @@ if
 matched
 )
 {
-log
+LOG
 (
 "
 Invalid
@@ -2945,7 +2945,7 @@ dictSize
 )
 )
 {
-log
+LOG
 (
 "
 Invalid
@@ -2975,7 +2975,7 @@ firstArg
 ]
 )
 {
-log
+LOG
 (
 "
 usage
@@ -3036,7 +3036,7 @@ if
 chunkSize
 )
 {
-log
+LOG
 (
 "
 -
@@ -3058,7 +3058,7 @@ if
 dictSize
 )
 {
-log
+LOG
 (
 "
 -
@@ -3147,7 +3147,7 @@ firstArg
 )
 )
 {
-log
+LOG
 (
 "
 Couldn
@@ -3196,7 +3196,7 @@ ret
 1
 )
 {
-log
+LOG
 (
 "
 Couldn
@@ -3241,7 +3241,7 @@ origSize
 )
 )
 {
-log
+LOG
 (
 "
 Couldn
@@ -3287,7 +3287,7 @@ true
 )
 )
 {
-log
+LOG
 (
 "
 Couldn

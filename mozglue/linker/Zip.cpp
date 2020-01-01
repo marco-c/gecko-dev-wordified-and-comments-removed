@@ -98,7 +98,7 @@ fd
 1
 )
 {
-log
+LOG
 (
 "
 Error
@@ -138,7 +138,7 @@ st
 1
 )
 {
-log
+LOG
 (
 "
 Error
@@ -178,7 +178,7 @@ CentralDirectoryEnd
 )
 )
 {
-log
+LOG
 (
 "
 Error
@@ -218,7 +218,7 @@ mapped
 MAP_FAILED
 )
 {
-log
+LOG
 (
 "
 Error
@@ -240,7 +240,7 @@ return
 NULL
 ;
 }
-debug
+DEBUG_LOG
 (
 "
 Mapped
@@ -318,7 +318,7 @@ zip
 entries
 )
 {
-log
+LOG
 (
 "
 %
@@ -439,7 +439,7 @@ mapped
 size
 )
 ;
-debug
+DEBUG_LOG
 (
 "
 Unmapped
@@ -478,7 +478,7 @@ out
 )
 const
 {
-debug
+DEBUG_LOG
 (
 "
 %
@@ -525,7 +525,7 @@ compressedSize
 )
 )
 {
-debug
+DEBUG_LOG
 (
 "
 %
@@ -694,7 +694,7 @@ GetFirstEntry
 (
 )
 ;
-debug
+DEBUG_LOG
 (
 "
 %
@@ -753,7 +753,7 @@ if
 nextDir
 )
 {
-debug
+DEBUG_LOG
 (
 "
 %
@@ -803,7 +803,7 @@ if
 nextFile
 )
 {
-log
+LOG
 (
 "
 %
@@ -996,7 +996,7 @@ if
 end
 )
 {
-log
+LOG
 (
 "
 %
@@ -1048,7 +1048,7 @@ if
 entries
 )
 {
-log
+LOG
 (
 "
 %
@@ -1211,7 +1211,7 @@ Zip
 zip
 )
 {
-debug
+DEBUG_LOG
 (
 "
 ZipCollection
@@ -1291,7 +1291,7 @@ it
 }
 else
 {
-debug
+DEBUG_LOG
 (
 "
 ZipCollection

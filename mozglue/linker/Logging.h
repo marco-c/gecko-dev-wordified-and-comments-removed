@@ -18,7 +18,7 @@ h
 >
 #
 define
-log
+LOG
 (
 .
 .
@@ -149,7 +149,7 @@ MOZ_MACRO_GLUE
 (
 MOZ_CONCAT
 (
-log
+LOG
 MOZ_ONE_OR_MORE_ARGS
 (
 __VA_ARGS__
@@ -162,7 +162,7 @@ __VA_ARGS__
 )
 #
 define
-log1
+LOG1
 (
 format
 )
@@ -177,7 +177,7 @@ n
 )
 #
 define
-logm
+LOGm
 (
 format
 .
@@ -196,7 +196,7 @@ __VA_ARGS__
 )
 #
 define
-log
+LOG
 (
 .
 .
@@ -213,13 +213,13 @@ ifdef
 MOZ_DEBUG_LINKER
 #
 define
-debug
-log
+DEBUG_LOG
+LOG
 #
 else
 #
 define
-debug
+DEBUG_LOG
 (
 .
 .
