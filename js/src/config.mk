@@ -821,7 +821,14 @@ USE_MSVC
 OPTIMIZER
 =
 -
-O1
+O2
+-
+GL
+LDFLAGS
++
+=
+-
+LTCG
 else
 OPTIMIZER
 =
