@@ -1991,7 +1991,7 @@ mask
 ;
 switch
 (
-GetStyleSVG
+GetStyleVisibility
 (
 )
 -
@@ -2006,6 +2006,9 @@ break
 ;
 case
 NS_STYLE_POINTER_EVENTS_VISIBLEPAINTED
+:
+case
+NS_STYLE_POINTER_EVENTS_AUTO
 :
 if
 (

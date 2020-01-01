@@ -4072,6 +4072,9 @@ nsIAtom
 >
 mLangGroup
 ;
+PRUint8
+mPointerEvents
+;
 PRBool
 IsVisible
 (
@@ -6880,9 +6883,6 @@ mFillRule
 ;
 PRUint8
 mImageRendering
-;
-PRUint8
-mPointerEvents
 ;
 PRUint8
 mShapeRendering

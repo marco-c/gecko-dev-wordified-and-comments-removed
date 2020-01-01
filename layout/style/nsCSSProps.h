@@ -675,13 +675,6 @@ kImageRenderingKTable
 static
 const
 PRInt32
-kPointerEventsKTable
-[
-]
-;
-static
-const
-PRInt32
 kShapeRenderingKTable
 [
 ]
@@ -951,6 +944,13 @@ static
 const
 PRInt32
 kPitchKTable
+[
+]
+;
+static
+const
+PRInt32
+kPointerEventsKTable
 [
 ]
 ;

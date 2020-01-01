@@ -3471,10 +3471,6 @@ mImageRendering
 =
 NS_STYLE_IMAGE_RENDERING_AUTO
 ;
-mPointerEvents
-=
-NS_STYLE_POINTER_EVENTS_VISIBLEPAINTED
-;
 mShapeRendering
 =
 NS_STYLE_SHAPE_RENDERING_AUTO
@@ -3672,12 +3668,6 @@ mImageRendering
 aSource
 .
 mImageRendering
-;
-mPointerEvents
-=
-aSource
-.
-mPointerEvents
 ;
 mShapeRendering
 =
@@ -8534,6 +8524,10 @@ mVisible
 =
 NS_STYLE_VISIBILITY_VISIBLE
 ;
+mPointerEvents
+=
+NS_STYLE_POINTER_EVENTS_AUTO
+;
 }
 nsStyleVisibility
 :
@@ -8568,6 +8562,12 @@ mLangGroup
 aSource
 .
 mLangGroup
+;
+mPointerEvents
+=
+aSource
+.
+mPointerEvents
 ;
 }
 nsChangeHint
