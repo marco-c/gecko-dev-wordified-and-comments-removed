@@ -63,7 +63,7 @@ pop
 ;
 assertEq
 (
-x
+z
 .
 source
 "
