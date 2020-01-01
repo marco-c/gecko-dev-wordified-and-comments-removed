@@ -1300,7 +1300,6 @@ hobj
 =
 static_cast
 <
-const
 HandleParent
 *
 >
@@ -1351,7 +1350,6 @@ hobj
 =
 static_cast
 <
-const
 HandleChild
 *
 >
