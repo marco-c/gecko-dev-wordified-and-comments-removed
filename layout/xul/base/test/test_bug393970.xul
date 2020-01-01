@@ -76,11 +76,11 @@ text
 css
 description
 {
-border
+min
+-
+width
 :
 1px
-solid
-black
 ;
 padding
 :

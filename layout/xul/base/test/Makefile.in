@@ -433,13 +433,6 @@ config
 rules
 .
 mk
-ifneq
-(
-(
-OS_ARCH
-)
-Linux
-)
 _TEST_FILES
 =
 test_bug393970
@@ -474,4 +467,3 @@ tests
 (
 relativesrcdir
 )
-endif
