@@ -14271,6 +14271,14 @@ this
 _scrollableElement
 =
 =
+null
+|
+|
+this
+.
+_scrollableElement
+=
+=
 doc
 .
 body
