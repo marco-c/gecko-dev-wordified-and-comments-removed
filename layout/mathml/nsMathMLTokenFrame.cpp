@@ -1014,12 +1014,7 @@ PresContext
 )
 -
 >
-PresShell
-(
-)
--
->
-FrameConstructor
+RestyleManager
 (
 )
 -

@@ -1967,7 +1967,12 @@ GetShell
 )
 -
 >
-FrameConstructor
+GetPresContext
+(
+)
+-
+>
+RestyleManager
 (
 )
 -

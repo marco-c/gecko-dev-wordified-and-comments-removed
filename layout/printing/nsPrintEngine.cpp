@@ -10926,12 +10926,7 @@ po
 mPresContext
 -
 >
-PresShell
-(
-)
--
->
-FrameConstructor
+RestyleManager
 (
 )
 -

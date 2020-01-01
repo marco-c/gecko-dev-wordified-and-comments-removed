@@ -619,12 +619,7 @@ PresContext
 )
 -
 >
-PresShell
-(
-)
--
->
-FrameConstructor
+RestyleManager
 (
 )
 -
