@@ -301,6 +301,12 @@ op
 =
 =
 JSOP_NEG
+|
+|
+op
+=
+=
+JSOP_POS
 )
 {
 res
@@ -542,6 +548,12 @@ op
 =
 =
 JSOP_NEG
+|
+|
+op
+=
+=
+JSOP_POS
 )
 {
 res
