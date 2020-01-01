@@ -777,6 +777,15 @@ res
 NR_STUN_ATTR_XOR_MAPPED_ADDRESS
 0
 )
+&
+&
+!
+nr_stun_message_has_attribute
+(
+res
+NR_STUN_ATTR_MAPPED_ADDRESS
+0
+)
 )
 {
 r_log
@@ -790,6 +799,8 @@ XOR
 MAPPED
 -
 ADDRESS
+and
+MAPPED_ADDRESS
 "
 )
 ;

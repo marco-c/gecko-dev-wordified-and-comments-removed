@@ -2996,7 +2996,7 @@ u
 srvrflx
 .
 stun
-NR_STUN_CLIENT_MODE_BINDING_REQUEST_STUND_0_96
+NR_STUN_CLIENT_MODE_BINDING_REQUEST_NO_AUTH
 nr_ice_srvrflx_stun_finished_cb
 cand
 )
@@ -3654,7 +3654,7 @@ stun
 >
 results
 .
-stun_binding_response_stund_0_96
+stun_binding_response
 .
 mapped_addr
 )
