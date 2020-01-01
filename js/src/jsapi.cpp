@@ -11775,9 +11775,10 @@ value
 rt
 -
 >
-gcTriggerFactor
-=
+SetGCTriggerFactor
+(
 value
+)
 ;
 return
 ;
