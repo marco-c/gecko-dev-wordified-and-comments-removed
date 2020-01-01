@@ -7152,6 +7152,9 @@ expanded
 1
 ;
 }
+alwaysExpand
+:
+true
 get
 expanded
 (
@@ -7451,7 +7454,14 @@ resultsContainer
 ;
 if
 (
+(
 aExpandFlag
+|
+|
+this
+.
+alwaysExpand
+)
 &
 &
 aMatchCount

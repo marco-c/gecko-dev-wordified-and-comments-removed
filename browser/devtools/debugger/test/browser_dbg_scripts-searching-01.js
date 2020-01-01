@@ -83,6 +83,16 @@ contentWindow
 ;
 gDebugger
 .
+SourceResults
+.
+prototype
+.
+alwaysExpand
+=
+false
+;
+gDebugger
+.
 DebuggerController
 .
 activeThread
