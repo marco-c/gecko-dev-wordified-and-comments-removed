@@ -1846,8 +1846,10 @@ JS_NUNBOX32
 TYPE
 PAYLOAD
 #
-endif
+else
 BOX
+#
+endif
 }
 ;
 void
