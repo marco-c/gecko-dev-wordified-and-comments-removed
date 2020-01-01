@@ -1,9 +1,9 @@
 #
 ifndef
-nsLocalFileMac_h__
+nsLocalFileMac_h_
 #
 define
-nsLocalFileMac_h__
+nsLocalFileMac_h_
 #
 include
 "
