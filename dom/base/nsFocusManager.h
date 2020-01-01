@@ -219,6 +219,11 @@ mMouseDownEventHandlingDocument
 aDocument
 ;
 }
+void
+UpdateCaretForCaretBrowsingMode
+(
+)
+;
 static
 nsIContent
 *
