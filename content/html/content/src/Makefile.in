@@ -166,6 +166,10 @@ HTMLHeadingElement
 .
 h
 \
+HTMLHRElement
+.
+h
+\
 HTMLImageElement
 .
 h
@@ -344,7 +348,7 @@ HTMLFrameSetElement
 .
 cpp
 \
-nsHTMLHRElement
+HTMLHRElement
 .
 cpp
 \
