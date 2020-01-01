@@ -1451,7 +1451,7 @@ selection
 "
 any
 "
-hideifnoinsetionpoint
+hideifnoinsertionpoint
 =
 "
 true
@@ -1501,7 +1501,7 @@ selection
 "
 any
 "
-hideifnoinsetionpoint
+hideifnoinsertionpoint
 =
 "
 true
@@ -1556,7 +1556,7 @@ selection
 "
 any
 "
-hideifnoinsetionpoint
+hideifnoinsertionpoint
 =
 "
 true
@@ -1709,7 +1709,7 @@ selection
 "
 any
 "
-hideifnoinsetionpoint
+hideifnoinsertionpoint
 =
 "
 true

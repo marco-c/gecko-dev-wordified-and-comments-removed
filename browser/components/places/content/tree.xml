@@ -3101,7 +3101,7 @@ method
 name
 =
 "
-getDragableSelection
+getDraggableSelection
 "
 >
 <

@@ -2492,7 +2492,7 @@ item
 getAttribute
 (
 "
-hideifnoinsetionpoint
+hideifnoinsertionpoint
 "
 )
 =
@@ -4677,7 +4677,7 @@ this
 .
 _view
 .
-getDragableSelection
+getDraggableSelection
 (
 )
 ;
