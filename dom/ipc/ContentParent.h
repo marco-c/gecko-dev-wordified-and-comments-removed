@@ -693,7 +693,7 @@ Init
 )
 ;
 void
-SetProcessInitialPriority
+SetProcessPriority
 (
 hal
 :
@@ -711,6 +711,16 @@ aFrameElement
 )
 ;
 bool
+SetPriorityAndCheckIsAlive
+(
+hal
+:
+:
+ProcessPriority
+aPriority
+)
+;
+bool
 TransformPreallocatedIntoApp
 (
 const
@@ -719,11 +729,6 @@ nsAString
 aAppManifestURL
 ChildPrivileges
 aPrivs
-hal
-:
-:
-ProcessPriority
-aInitialPriority
 )
 ;
 void
