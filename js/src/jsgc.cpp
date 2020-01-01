@@ -12548,9 +12548,6 @@ cx
 )
 )
 ;
-js
-:
-:
 PropertyTree
 :
 :
@@ -12960,9 +12957,6 @@ sweepShapes
 cx
 )
 ;
-js
-:
-:
 PropertyTree
 :
 :
