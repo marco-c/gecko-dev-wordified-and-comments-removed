@@ -2449,10 +2449,14 @@ sortSeparators
 "
 true
 "
+primary
+=
+"
+true
+"
 persist
 =
 "
-hidden
 width
 "
 flex
