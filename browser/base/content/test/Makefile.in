@@ -1121,10 +1121,6 @@ dummy_page
 .
 html
 \
-browser_tabMatchesInAwesomebar
-.
-js
-\
 file_bug550565_popup
 .
 html
@@ -1375,6 +1371,10 @@ browser_save_private_link_perwindowpb
 .
 js
 \
+browser_tabMatchesInAwesomebar_perwindowpb
+.
+js
+\
 (
 NULL
 )
@@ -1396,6 +1396,10 @@ browser_save_link
 js
 \
 browser_save_private_link
+.
+js
+\
+browser_tabMatchesInAwesomebar
 .
 js
 \
