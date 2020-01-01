@@ -374,7 +374,7 @@ gBrowser
 .
 selectedTab
 '
-current
+tab
 '
 )
 ;

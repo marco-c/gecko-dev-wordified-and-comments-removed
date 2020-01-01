@@ -71,6 +71,9 @@ false
 _storageBusyCount
 :
 0
+isDOMWindowClosing
+:
+false
 init
 :
 function
@@ -703,6 +706,12 @@ subject
 gWindow
 )
 {
+self
+.
+isDOMWindowClosing
+=
+true
+;
 if
 (
 self
