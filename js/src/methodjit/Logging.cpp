@@ -48,6 +48,13 @@ Logging
 h
 "
 #
+include
+"
+jsobjinlines
+.
+h
+"
+#
 if
 defined
 (

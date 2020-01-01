@@ -1276,6 +1276,14 @@ JSContext
 cx
 )
 ;
+bool
+shouldUpdate
+(
+JSContext
+*
+cx
+)
+;
 }
 ;
 struct

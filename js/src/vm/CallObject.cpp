@@ -108,7 +108,7 @@ type
 return
 NULL
 ;
-Value
+HeapValue
 *
 slots
 ;
@@ -368,7 +368,7 @@ asCall
 ;
 callobj
 .
-setCallee
+initCallee
 (
 callee
 )

@@ -28184,7 +28184,7 @@ if
 (
 enableDisassemblyDumps
 )
-JS_DumpCompartmentBytecode
+JS_DumpCompartmentPCCounts
 (
 cx
 )

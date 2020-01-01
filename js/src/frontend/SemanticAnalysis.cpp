@@ -39,6 +39,13 @@ jsobjinlines
 .
 h
 "
+#
+include
+"
+jsfuninlines
+.
+h
+"
 using
 namespace
 js
