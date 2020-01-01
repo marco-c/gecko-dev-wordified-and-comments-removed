@@ -401,6 +401,13 @@ pBits
 mGLContext
 -
 >
+MakeCurrent
+(
+)
+;
+mGLContext
+-
+>
 fFlush
 (
 )
