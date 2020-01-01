@@ -1319,6 +1319,9 @@ uploadsymbols
 ifdef
 MOZ_CRASHREPORTER
 (
+SHELL
+)
+(
 topsrcdir
 )
 /
