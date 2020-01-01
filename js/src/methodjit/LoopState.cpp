@@ -7704,7 +7704,7 @@ JSFrameReg
 StackFrame
 :
 :
-offsetOfArgs
+offsetOfNumActual
 (
 )
 )
