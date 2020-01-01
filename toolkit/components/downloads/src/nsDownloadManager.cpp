@@ -6837,7 +6837,6 @@ file
 >
 GetPath
 (
-&
 path
 )
 ;
