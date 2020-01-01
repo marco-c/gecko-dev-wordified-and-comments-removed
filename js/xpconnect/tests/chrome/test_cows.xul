@@ -870,13 +870,7 @@ foo
 bar
 '
 '
-__proto__
-'
-'
 prototype
-'
-'
-constructor
 '
 ]
 ;
