@@ -70,6 +70,16 @@ name
 .
 js
 script
+primitive
+-
+this
+-
+boxing
+-
+behavior
+.
+js
+script
 string
 -
 literal
