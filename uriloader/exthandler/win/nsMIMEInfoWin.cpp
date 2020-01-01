@@ -1009,7 +1009,7 @@ sinfo
 0
 sizeof
 (
-SHELLEXECUTEINFO
+sinfo
 )
 )
 ;
@@ -1019,7 +1019,7 @@ cbSize
 =
 sizeof
 (
-SHELLEXECUTEINFO
+sinfo
 )
 ;
 sinfo
@@ -1099,11 +1099,11 @@ NS_ERROR_FAILURE
 }
 else
 {
-LONG
+int
 r
 =
 (
-LONG
+int
 )
 :
 :
