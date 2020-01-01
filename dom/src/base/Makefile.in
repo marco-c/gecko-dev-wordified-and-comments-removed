@@ -453,6 +453,8 @@ oji
 \
 necko
 \
+nkcache
+\
 mimetype
 \
 java
@@ -641,6 +643,17 @@ srcdir
 .
 /
 storage
+\
+-
+I
+(
+srcdir
+)
+/
+.
+.
+/
+offline
 \
 -
 I

@@ -266,6 +266,9 @@ mCurrentChannel
 PRInt32
 mStopCount
 ;
+PRInt32
+mHaveProcessed
+;
 PRBool
 mDisabled
 ;

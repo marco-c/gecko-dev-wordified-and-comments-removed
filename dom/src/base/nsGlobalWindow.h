@@ -336,6 +336,13 @@ h
 #
 include
 "
+nsIDOMOfflineResourceList
+.
+h
+"
+#
+include
+"
 nsPIDOMEventTarget
 .
 h
@@ -407,6 +414,9 @@ nsGlobalWindowObserver
 ;
 class
 nsGlobalWindow
+;
+class
+nsDOMOfflineResourceList
 ;
 enum
 OpenAllowValue
@@ -2324,6 +2334,12 @@ nsRefPtr
 nsPluginArray
 >
 mPlugins
+;
+nsRefPtr
+<
+nsDOMOfflineResourceList
+>
+mOfflineResources
 ;
 nsIDocShell
 *
