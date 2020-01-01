@@ -1014,6 +1014,9 @@ getContentHandlers
 in
 AString
 contentType
+[
+optional
+]
 out
 unsigned
 long

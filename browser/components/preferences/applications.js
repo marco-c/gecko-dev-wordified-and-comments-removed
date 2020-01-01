@@ -2112,8 +2112,6 @@ getContentHandlers
 this
 .
 type
-{
-}
 )
 ;
 for
