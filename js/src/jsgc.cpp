@@ -11633,17 +11633,6 @@ TIMESTAMP
 sweepObjectEnd
 )
 ;
-rt
--
->
-deflatedStringCache
--
->
-sweep
-(
-cx
-)
-;
 for
 (
 JSCompartment

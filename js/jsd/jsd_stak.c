@@ -1276,8 +1276,7 @@ return
 jsdval
 ;
 }
-const
-char
+JSString
 *
 jsd_GetNameForStackFrame
 (
@@ -1292,8 +1291,7 @@ JSDStackFrameInfo
 jsdframe
 )
 {
-const
-char
+JSString
 *
 rv
 =
@@ -1336,7 +1334,7 @@ fun
 )
 rv
 =
-JS_GetFunctionName
+JS_GetFunctionId
 (
 fun
 )
