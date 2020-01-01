@@ -89,9 +89,15 @@ static
 void
 AttributeChanged
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
-aContent
+aElement
 PRInt32
 aNameSpaceID
 nsIAtom
