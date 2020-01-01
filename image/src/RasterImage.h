@@ -1547,6 +1547,11 @@ mInUpdateImageContainer
 :
 1
 ;
+bool
+mWantFullDecode
+:
+1
+;
 nsresult
 WantDecodedFrames
 (
