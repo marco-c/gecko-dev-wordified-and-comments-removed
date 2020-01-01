@@ -514,7 +514,7 @@ IsHistoryDisabled
 )
 {
 return
-mExpireDays
+mExpireDaysMax
 =
 =
 0
@@ -2022,10 +2022,13 @@ DoneSearching
 )
 ;
 PRInt32
-mExpireDays
+mExpireDaysMin
 ;
 PRInt32
-mExpireVisits
+mExpireDaysMax
+;
+PRInt32
+mExpireSites
 ;
 nsresult
 TokensToQueries
