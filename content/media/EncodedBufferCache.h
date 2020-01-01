@@ -126,7 +126,6 @@ mFD
 Mutex
 mMutex
 ;
-;
 uint64_t
 mDataSize
 ;
