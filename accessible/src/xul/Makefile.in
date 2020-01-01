@@ -514,6 +514,10 @@ nsXULTreeAccessible
 .
 cpp
 \
+nsXULTreeGridAccessible
+.
+cpp
+\
 (
 NULL
 )
