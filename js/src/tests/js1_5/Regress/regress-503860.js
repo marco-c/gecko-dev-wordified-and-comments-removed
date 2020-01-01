@@ -92,11 +92,10 @@ b
 ]
 ;
 for
-each
 (
 var
 obj
-in
+of
 arr
 )
 obj

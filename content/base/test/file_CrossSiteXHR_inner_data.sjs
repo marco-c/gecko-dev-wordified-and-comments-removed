@@ -114,10 +114,9 @@ XMLHttpRequest
 n
 \
 for
-each
 (
 type
-in
+of
 [
 "
 load

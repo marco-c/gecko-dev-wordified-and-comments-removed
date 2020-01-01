@@ -615,10 +615,9 @@ a
 [
 a
 for
-each
 (
 a
-in
+of
 this
 .
 result
@@ -798,10 +797,9 @@ a
 [
 a
 for
-each
 (
 a
-in
+of
 this
 .
 result

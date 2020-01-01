@@ -724,11 +724,10 @@ length
 )
 {
 for
-each
 (
 var
 host
-in
+of
 disabledHosts
 )
 pwmgr

@@ -397,10 +397,9 @@ app
 [
 a
 for
-each
 (
 a
-in
+of
 this
 .
 result

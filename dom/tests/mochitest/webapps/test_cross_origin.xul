@@ -676,10 +676,9 @@ app1
 [
 a
 for
-each
 (
 a
-in
+of
 this
 .
 result
@@ -720,10 +719,9 @@ app2
 [
 a
 for
-each
 (
 a
-in
+of
 this
 .
 result
@@ -795,10 +793,9 @@ app1
 [
 a
 for
-each
 (
 a
-in
+of
 this
 .
 result
@@ -841,10 +838,9 @@ app2
 [
 a
 for
-each
 (
 a
-in
+of
 this
 .
 result
