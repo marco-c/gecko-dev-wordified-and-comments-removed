@@ -259,8 +259,8 @@ xpcshell
 tests
 :
 (
-DIR_INSTALL
-)
+call
+install_cmd
 (
 wildcard
 (
@@ -291,6 +291,7 @@ relativesrcdir
 /
 (
 XPCSHELL_TESTS
+)
 )
 libs
 -

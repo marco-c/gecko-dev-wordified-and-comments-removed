@@ -102,8 +102,8 @@ endif
 define
 _INSTALL_TESTS
 (
-DIR_INSTALL
-)
+call
+install_cmd
 (
 wildcard
 (
@@ -126,6 +126,7 @@ relativesrcdir
 /
 (
 dir
+)
 )
 endef
 #
