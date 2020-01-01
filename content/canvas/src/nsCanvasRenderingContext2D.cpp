@@ -18417,6 +18417,10 @@ mThebes
 mSurfaceCreated
 )
 {
+MarkContextClean
+(
+)
+;
 return
 nullptr
 ;
@@ -18501,6 +18505,10 @@ returned
 null
 !
 "
+)
+;
+MarkContextClean
+(
 )
 ;
 return
