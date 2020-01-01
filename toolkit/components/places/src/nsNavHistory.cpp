@@ -888,11 +888,11 @@ URIProperties
 characterSet
 "
 )
-NS_IMPL_ADDREF
+NS_IMPL_THREADSAFE_ADDREF
 (
 nsNavHistory
 )
-NS_IMPL_RELEASE
+NS_IMPL_THREADSAFE_RELEASE
 (
 nsNavHistory
 )
