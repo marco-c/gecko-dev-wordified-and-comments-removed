@@ -797,12 +797,6 @@ unsigned
 slot
 )
 ;
-unsigned
-getCallDepth
-(
-)
-const
-;
 nanojit
 :
 :
@@ -1637,6 +1631,12 @@ GuardRecord
 *
 lr
 )
+;
+unsigned
+getCallDepth
+(
+)
+const
 ;
 bool
 record_EnterFrame
