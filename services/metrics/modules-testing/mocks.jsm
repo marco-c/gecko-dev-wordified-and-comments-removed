@@ -143,6 +143,12 @@ constantMeasurementName
 DummyMeasurement
 "
 ;
+this
+.
+collectConstantCount
+=
+0
+;
 }
 DummyProvider
 .
@@ -161,6 +167,12 @@ collectConstantMeasurements
 (
 )
 {
+this
+.
+collectConstantCount
++
++
+;
 let
 result
 =
