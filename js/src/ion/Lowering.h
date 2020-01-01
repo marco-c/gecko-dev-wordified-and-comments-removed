@@ -415,6 +415,14 @@ test
 )
 ;
 bool
+visitInlineFunctionGuard
+(
+MInlineFunctionGuard
+*
+test
+)
+;
+bool
 visitCompare
 (
 MCompare

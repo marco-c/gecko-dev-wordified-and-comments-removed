@@ -198,6 +198,11 @@ TestVAndBranch
 \
 _
 (
+InlineFunctionGuard
+)
+\
+_
+(
 Compare
 )
 \
