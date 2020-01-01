@@ -987,6 +987,7 @@ return
 res
 ;
 }
+}
 LRESULT
 CALLBACK
 NeuteredWindowProc
@@ -1049,6 +1050,8 @@ lParam
 )
 ;
 }
+namespace
+{
 static
 bool
 WindowIsDeferredWindow
@@ -1530,7 +1533,7 @@ oldWndProc
 (
 LONG_PTR
 )
-RemoveProp
+GetProp
 (
 hWnd
 kOldWndProcProp
@@ -1595,6 +1598,12 @@ us
 )
 ;
 }
+RemoveProp
+(
+hWnd
+kOldWndProcProp
+)
+;
 }
 LRESULT
 CALLBACK
