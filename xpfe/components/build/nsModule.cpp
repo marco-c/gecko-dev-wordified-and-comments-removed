@@ -70,6 +70,9 @@ nsDocShellCID
 h
 "
 #
+ifdef
+SUITE_USING_XPFE_DM
+#
 include
 "
 nsDownloadManager
@@ -83,6 +86,8 @@ nsDownloadProxy
 .
 h
 "
+#
+endif
 #
 if
 !
@@ -239,6 +244,9 @@ NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 RelatedLinksHandlerImpl
 Init
 )
+#
+ifdef
+SUITE_USING_XPFE_DM
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
 nsDownloadManager
@@ -248,6 +256,8 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsDownloadProxy
 )
+#
+endif
 #
 if
 !
@@ -530,6 +540,9 @@ endif
 #
 ifdef
 MOZ_SUITE
+#
+ifdef
+SUITE_USING_XPFE_DM
 {
 "
 Download
@@ -547,6 +560,8 @@ NS_DOWNLOAD_CID
 NS_TRANSFER_CONTRACTID
 nsDownloadProxyConstructor
 }
+#
+endif
 {
 "
 Related

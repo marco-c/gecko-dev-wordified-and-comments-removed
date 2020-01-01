@@ -69,7 +69,7 @@ h
 endif
 #
 ifndef
-MOZ_SUITE
+SUITE_USING_XPFE_DM
 #
 ifdef
 MOZ_RDF
@@ -189,7 +189,7 @@ nsAlertsService
 endif
 #
 ifndef
-MOZ_SUITE
+SUITE_USING_XPFE_DM
 #
 ifdef
 MOZ_RDF
@@ -383,7 +383,7 @@ nsParentalControlsServiceWinConstructor
 endif
 #
 ifndef
-MOZ_SUITE
+SUITE_USING_XPFE_DM
 #
 ifdef
 MOZ_RDF

@@ -621,17 +621,7 @@ endif
 #
 MOZ_THUNDERBIRD
 ifndef
-MOZ_SUITE
-#
-XXX
-Suite
-doesn
-'
-t
-want
-these
-just
-yet
+SUITE_USING_XPFE_DM
 ifdef
 MOZ_RDF
 DIRS
@@ -641,7 +631,7 @@ downloads
 endif
 endif
 #
-MOZ_SUITE
+SUITE_USING_XPFE_DM
 ifdef
 MOZ_URL_CLASSIFIER
 DIRS
