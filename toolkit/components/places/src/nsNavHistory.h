@@ -2148,6 +2148,11 @@ const
 PRInt32
 kAutoCompleteIndex_VisitCount
 ;
+static
+const
+PRInt32
+kAutoCompleteIndex_Typed
+;
 nsCOMPtr
 <
 mozIStorageStatement
@@ -2159,6 +2164,12 @@ nsCOMPtr
 mozIStorageStatement
 >
 mDBAutoCompleteQuery
+;
+nsCOMPtr
+<
+mozIStorageStatement
+>
+mDBAutoCompleteTypedQuery
 ;
 mozIStorageStatement
 *
@@ -2284,6 +2295,9 @@ mAutoCompleteMatchTitle
 nsString
 mAutoCompleteMatchUrl
 ;
+nsString
+mAutoCompleteRestrictTyped
+;
 PRInt32
 mAutoCompleteSearchChunkSize
 ;
@@ -2320,6 +2334,11 @@ static
 const
 PRInt32
 kAutoCompleteBehaviorUrl
+;
+static
+const
+PRInt32
+kAutoCompleteBehaviorTyped
 ;
 PRInt32
 mAutoCompleteDefaultBehavior
