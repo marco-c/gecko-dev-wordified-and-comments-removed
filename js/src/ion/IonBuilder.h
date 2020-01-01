@@ -2480,6 +2480,10 @@ MInstruction
 *
 lazyArguments_
 ;
+MCallee
+*
+callee_
+;
 }
 ;
 }

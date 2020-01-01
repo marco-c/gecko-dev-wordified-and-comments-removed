@@ -2633,6 +2633,10 @@ setResultType
 MIRType_Object
 )
 ;
+setMovable
+(
+)
+;
 }
 public
 :
