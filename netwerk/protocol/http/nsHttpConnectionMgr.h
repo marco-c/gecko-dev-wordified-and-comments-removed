@@ -1466,6 +1466,14 @@ void
 )
 ;
 void
+OnMsgShutdownConfirm
+(
+int32_t
+void
+*
+)
+;
+void
 OnMsgNewTransaction
 (
 int32_t
