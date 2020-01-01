@@ -2386,6 +2386,7 @@ MemoryReporter_
 #
 #
 _classname
+MOZ_FINAL
 :
 public
 nsIMemoryReporter
