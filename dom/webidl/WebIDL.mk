@@ -287,6 +287,10 @@ HTMLLabelElement
 .
 webidl
 \
+HTMLLIElement
+.
+webidl
+\
 HTMLOListElement
 .
 webidl
