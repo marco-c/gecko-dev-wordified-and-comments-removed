@@ -5,6 +5,15 @@ nsGenericDOMDataNode_h___
 define
 nsGenericDOMDataNode_h___
 #
+define
+FRAMETREE_DEPENDS_ON_CHARS
+(
+1
+<
+<
+NODE_TYPE_SPECIFIC_BITS_OFFSET
+)
+#
 include
 "
 nsIDOMCharacterData

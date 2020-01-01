@@ -2402,6 +2402,11 @@ PRBool
 aNullParent
 )
 {
+UnsetFlags
+(
+FRAMETREE_DEPENDS_ON_CHARS
+)
+;
 nsIDocument
 *
 document
