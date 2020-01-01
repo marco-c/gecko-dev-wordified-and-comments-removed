@@ -726,7 +726,9 @@ false
 }
 mFocusWnd
 =
-CreateWindow
+:
+:
+CreateWindowW
 (
 kClassName
 L
