@@ -599,6 +599,10 @@ test_autocomplete4
 .
 xul
 \
+test_autocomplete5
+.
+xul
+\
 test_autocomplete_delayOnPaste
 .
 xul
