@@ -651,6 +651,10 @@ nsISyncStreamListener
 .
 idl
 \
+nsISystemProxySettings
+.
+idl
+\
 nsIUnicharStreamLoader
 .
 idl
