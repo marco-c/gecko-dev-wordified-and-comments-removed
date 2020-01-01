@@ -5043,10 +5043,7 @@ nsStyleUtil
 :
 AppendEscapedCSSIdent
 (
-nsDependentString
-(
 tmpStr
-)
 aResult
 )
 ;

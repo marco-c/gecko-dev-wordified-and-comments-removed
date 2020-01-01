@@ -263,10 +263,7 @@ bridge
 >
 GetExtensionFromMimeType
 (
-nsDependentCString
-(
 aMimeType
-)
 fileExt
 )
 ;

@@ -1478,15 +1478,12 @@ if
 (
 ResolveFontName
 (
-nsDependentString
-(
 NS_LITERAL_STRING
 (
 "
 Droid
 Sans
 "
-)
 )
 resolvedName
 )

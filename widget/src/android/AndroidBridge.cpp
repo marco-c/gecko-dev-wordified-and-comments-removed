@@ -3292,7 +3292,7 @@ AndroidBridge
 GetExtensionFromMimeType
 (
 const
-nsCString
+nsACString
 &
 aMimeType
 nsACString
