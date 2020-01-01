@@ -1340,6 +1340,17 @@ Makefile
 /
 or
 makefile
+=
+~
+/
+^
+\
+.
+\
+/
+/
+or
+makefile
 .
 =
 "
