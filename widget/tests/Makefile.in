@@ -490,6 +490,12 @@ cpp
 NULL
 )
 endif
+CPP_UNIT_TESTS
++
+=
+TestAppShellSteadyState
+.
+cpp
 include
 (
 topsrcdir
