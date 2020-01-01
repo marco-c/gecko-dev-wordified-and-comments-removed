@@ -69,6 +69,17 @@ description
 deps
 =
 [
+'
+manifestdestiny
+'
+'
+mozhttpd
+>
+=
+0
+.
+3
+'
 ]
 setup
 (
