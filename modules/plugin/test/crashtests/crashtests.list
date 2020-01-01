@@ -20,6 +20,13 @@ skip
 -
 if
 (
+!
+haveTestPlugin
+)
+skip
+-
+if
+(
 cocoaWidget
 )
 script
@@ -28,6 +35,13 @@ script
 1
 .
 html
+skip
+-
+if
+(
+!
+haveTestPlugin
+)
 script
 540114
 -

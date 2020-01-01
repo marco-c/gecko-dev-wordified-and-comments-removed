@@ -1014,6 +1014,7 @@ _shmemAlloc
 (
 size
 type
+unsafe
 )
 :
     
@@ -1038,6 +1039,7 @@ _shmemBackstagePass
 )
 size
 type
+unsafe
 ]
 )
 def
@@ -21393,6 +21395,15 @@ type
 '
 )
         
+unsafevar
+=
+ExprVar
+(
+'
+unsafe
+'
+)
+        
 listenertype
 =
 Type
@@ -21608,6 +21619,16 @@ _shmemTypeType
 (
 )
 typevar
+.
+name
+)
+                     
+Decl
+(
+Type
+.
+BOOL
+unsafevar
 .
 name
 )
@@ -22069,6 +22090,7 @@ _shmemAlloc
 (
 sizevar
 typevar
+unsafevar
 )
 ]
 )
@@ -23138,6 +23160,7 @@ name
 [
 sizevar
 typevar
+unsafevar
 idvar
 ]
 )
@@ -23687,17 +23710,23 @@ rawmem
 '
 )
         
-allocShmem
+def
+allocShmemMethod
+(
+name
+unsafe
+)
+:
+            
+method
 =
 MethodDefn
 (
 MethodDecl
 (
-            
-'
-AllocShmem
-'
-            
+                
+name
+                
 params
 =
 [
@@ -23710,7 +23739,7 @@ sizevar
 .
 name
 )
-                     
+                         
 Decl
 (
 _shmemTypeType
@@ -23720,7 +23749,7 @@ typevar
 .
 name
 )
-                     
+                         
 Decl
 (
 _shmemType
@@ -23734,7 +23763,7 @@ memvar
 name
 )
 ]
-            
+                
 ret
 =
 Type
@@ -23742,7 +23771,7 @@ Type
 BOOL
 )
 )
-        
+            
 ifallocfails
 =
 StmtIf
@@ -23752,7 +23781,7 @@ ExprNot
 rawvar
 )
 )
-        
+            
 ifallocfails
 .
 addifstmt
@@ -23761,13 +23790,32 @@ StmtReturn
 .
 FALSE
 )
-        
-allocShmem
+            
+if
+unsafe
+:
+                
+unsafe
+=
+ExprLiteral
+.
+TRUE
+            
+else
+:
+                
+unsafe
+=
+ExprLiteral
+.
+FALSE
+            
+method
 .
 addstmts
 (
 [
-            
+                
 StmtDecl
 (
 Decl
@@ -23780,7 +23828,7 @@ idvar
 name
 )
 )
-            
+                
 StmtDecl
 (
 Decl
@@ -23795,7 +23843,7 @@ rawvar
 .
 name
 )
-                     
+                         
 initargs
 =
 [
@@ -23814,6 +23862,8 @@ sizevar
                                                 
 typevar
                                                 
+unsafe
+                                                
 ExprAddrOf
 (
 idvar
@@ -23822,18 +23872,18 @@ idvar
 )
 ]
 )
-            
+                
 ifallocfails
-            
+                
 Whitespace
 .
 NL
-            
+                
 StmtExpr
 (
 ExprAssn
 (
-                
+                    
 ExprDeref
 (
 memvar
@@ -23848,12 +23898,35 @@ idvar
 )
 )
 )
-            
+                
 StmtReturn
 .
 TRUE
-        
+            
 ]
+)
+            
+return
+method
+        
+allocShmem
+=
+allocShmemMethod
+(
+'
+AllocShmem
+'
+False
+)
+        
+allocUnsafeShmem
+=
+allocShmemMethod
+(
+'
+AllocUnsafeShmem
+'
+True
 )
         
 adoptShmem
@@ -24195,6 +24268,12 @@ indent
 )
                  
 allocShmem
+                 
+Whitespace
+.
+NL
+                 
+allocUnsafeShmem
                  
 Whitespace
 .
