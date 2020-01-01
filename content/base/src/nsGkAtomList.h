@@ -85,6 +85,13 @@ _moz_generated_content_image
 )
 GK_ATOM
 (
+mozquote
+"
+_moz_quote
+"
+)
+GK_ATOM
+(
 _moz_original_size
 "
 _moz_original_size
