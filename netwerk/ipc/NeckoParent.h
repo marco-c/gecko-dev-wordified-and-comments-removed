@@ -114,6 +114,9 @@ CreateChannelLoadContext
 PBrowserParent
 *
 aBrowser
+PContentParent
+*
+aContent
 const
 SerializedLoadContext
 &
