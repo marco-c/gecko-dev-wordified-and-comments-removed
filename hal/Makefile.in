@@ -559,7 +559,7 @@ Power
 .
 cpp
 \
-FallbackSensor
+GonkSensor
 .
 cpp
 \
@@ -692,3 +692,5 @@ CXXFLAGS
 (
 MOZ_DBUS_GLIB_CFLAGS
 )
+-
+DHAVE_PTHREADS
