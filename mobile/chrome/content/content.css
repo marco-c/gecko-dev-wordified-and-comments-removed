@@ -827,9 +827,11 @@ radius
 :
 0
 ;
--
-moz
--
+color
+:
+#
+414141
+;
 background
 -
 size
@@ -838,11 +840,6 @@ size
 %
 90
 %
-;
-color
-:
-#
-414141
 ;
 background
 -
