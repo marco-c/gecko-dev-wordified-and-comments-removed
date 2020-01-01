@@ -842,6 +842,7 @@ customizeInitialized
 function
 toolboxChanged
 (
+aEvent
 )
 {
 gToolboxChanged
@@ -860,6 +861,7 @@ gToolbox
 .
 customizeChange
 (
+aEvent
 )
 ;
 }
@@ -3309,6 +3311,9 @@ wrapToolbarItems
 ;
 toolboxChanged
 (
+"
+reset
+"
 )
 ;
 }
