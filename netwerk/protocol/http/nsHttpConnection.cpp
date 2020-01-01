@@ -4387,6 +4387,11 @@ gHttpHandler
 GetPipelineRescheduleTimeout
 (
 )
+&
+&
+pipelineDepth
+>
+1
 )
 {
 LOG
@@ -4416,13 +4421,6 @@ pipelineDepth
 )
 )
 ;
-if
-(
-pipelineDepth
->
-1
-)
-{
 nsHttpPipeline
 *
 pipeline
@@ -4486,7 +4484,6 @@ exceeded
 )
 )
 ;
-}
 }
 }
 if
