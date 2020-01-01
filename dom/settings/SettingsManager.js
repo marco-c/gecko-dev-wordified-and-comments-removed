@@ -2328,11 +2328,9 @@ Services
 .
 perms
 .
-testExactPermission
+testExactPermissionFromPrincipal
 (
 principal
-.
-URI
 "
 websettings
 -
@@ -2362,11 +2360,9 @@ Services
 .
 perms
 .
-testExactPermission
+testExactPermissionFromPrincipal
 (
 principal
-.
-URI
 "
 websettings
 -

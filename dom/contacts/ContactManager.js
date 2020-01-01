@@ -3138,11 +3138,9 @@ Services
 .
 perms
 .
-testExactPermission
+testExactPermissionFromPrincipal
 (
 principal
-.
-URI
 "
 webcontacts
 -
