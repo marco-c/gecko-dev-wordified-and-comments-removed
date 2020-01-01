@@ -316,6 +316,10 @@ SendBufferParameterToStream
 aCx
 )
 ;
+SendLoopParametersToStream
+(
+)
+;
 }
 AudioParam
 *

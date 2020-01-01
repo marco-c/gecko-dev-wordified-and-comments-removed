@@ -191,6 +191,10 @@ test_singleSourceDest
 .
 html
 \
+test_audioBufferSourceNodeLazyLoopParam
+.
+html
+\
 ting
 .
 ogg
