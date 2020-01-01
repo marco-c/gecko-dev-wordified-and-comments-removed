@@ -519,11 +519,6 @@ return
 mSessionOnly
 ;
 }
-bool
-CanUseChromePersist
-(
-)
-;
 static
 PRBool
 CanUseStorage
@@ -706,9 +701,6 @@ mSecurityChecker
 nsPIDOMStorage
 *
 mEventBroadcaster
-;
-bool
-mCanUseChromePersist
 ;
 public
 :
