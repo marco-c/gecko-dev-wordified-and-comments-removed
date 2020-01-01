@@ -3970,10 +3970,13 @@ fcd
 (
 this
 aContext
-style
+!
+mFont
 -
 >
-kerning
+KerningDisabled
+(
+)
 )
 ;
 hb_font_t

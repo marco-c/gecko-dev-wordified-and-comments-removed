@@ -23913,10 +23913,6 @@ printerFont
 (
 false
 )
-kerning
-(
-true
-)
 style
 (
 NS_FONT_STYLE_NORMAL
@@ -23985,10 +23981,6 @@ aSystemFont
 printerFont
 (
 aPrinterFont
-)
-kerning
-(
-true
 )
 style
 (
@@ -24171,12 +24163,6 @@ printerFont
 aStyle
 .
 printerFont
-)
-kerning
-(
-aStyle
-.
-kerning
 )
 style
 (
