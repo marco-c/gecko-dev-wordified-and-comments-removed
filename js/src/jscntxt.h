@@ -2968,9 +2968,6 @@ propertyCache
 #
 ifdef
 JS_TRACER
-unsigned
-iterationCounter
-;
 uint32
 maxCodeCacheBytes
 ;
