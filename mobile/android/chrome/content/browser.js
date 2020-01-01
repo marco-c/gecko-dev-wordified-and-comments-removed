@@ -37523,7 +37523,7 @@ result
 )
 ;
 }
-_dowloadDocument
+_downloadDocument
 :
 function
 Reader_downloadDocument
@@ -37770,7 +37770,7 @@ browser
 =
 this
 .
-_dowloadDocument
+_downloadDocument
 (
 url
 function

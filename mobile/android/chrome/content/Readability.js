@@ -6101,7 +6101,6 @@ bind
 (
 this
 )
-.
 (
 nextPageLink
 articlePage
