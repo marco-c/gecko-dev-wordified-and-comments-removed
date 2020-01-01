@@ -641,10 +641,10 @@ return
 0
 ;
 return
+js_DoubleToECMAInt32
 (
-int32
-)
 d
+)
 ;
 }
 jsval
