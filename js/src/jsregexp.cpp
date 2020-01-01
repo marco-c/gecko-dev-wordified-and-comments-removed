@@ -10746,6 +10746,10 @@ GuardRecord
 *
 guard
 ;
+RESideExit
+*
+exit
+;
 LIns
 *
 skip
@@ -11140,8 +11144,6 @@ guard
 )
 )
 ;
-RESideExit
-*
 exit
 =
 (
