@@ -343,12 +343,7 @@ background
 -
 color
 :
--
-moz
--
-mac
--
-alternateprimaryhighlight
+Highlight
 ;
 }
 treechildren
@@ -372,8 +367,7 @@ selected
 {
 color
 :
-#
-FFFFFF
+HighlightText
 !
 important
 ;
