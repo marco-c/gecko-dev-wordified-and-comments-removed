@@ -346,7 +346,7 @@ GetUserFontSet
 )
 ;
 }
-uint32_t
+int32_t
 AppUnitsPerDevPixel
 (
 )
@@ -387,7 +387,7 @@ nsDeviceContext
 *
 mDeviceContext
 ;
-uint32_t
+int32_t
 mP2A
 ;
 bool

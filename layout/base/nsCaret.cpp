@@ -1063,7 +1063,7 @@ caretWidth
 bidiIndicatorSize
 )
 ;
-uint32_t
+int32_t
 tpp
 =
 aFrame

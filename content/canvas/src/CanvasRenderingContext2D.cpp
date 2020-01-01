@@ -10639,7 +10639,7 @@ numRuns
 )
 ;
 const
-uint32_t
+int32_t
 appUnitsPerDevUnit
 =
 mAppUnitsPerDevPixel
@@ -11397,7 +11397,7 @@ gfxFontGroup
 *
 mFontgrp
 ;
-uint32_t
+int32_t
 mAppUnitsPerDevPixel
 ;
 CanvasRenderingContext2D

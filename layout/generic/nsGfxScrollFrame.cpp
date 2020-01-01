@@ -10261,7 +10261,7 @@ min_line_scroll_amount
 )
 ;
 }
-uint32_t
+int32_t
 appUnitsPerDevPixel
 =
 mOuter

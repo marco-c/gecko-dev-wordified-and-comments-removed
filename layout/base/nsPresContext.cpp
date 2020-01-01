@@ -7151,10 +7151,7 @@ CheckDPIChange
 ;
 if
 (
-uint32_t
-(
 mCurAppUnitsPerDevPixel
-)
 !
 =
 AppUnitsPerDevPixel
