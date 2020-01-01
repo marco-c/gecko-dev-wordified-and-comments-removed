@@ -408,7 +408,6 @@ nsHTMLReflowState
 :
 CalcLineHeight
 (
-mPresContext
 aReflowState
 .
 rendContext
