@@ -37,6 +37,13 @@ gfxImageSurface
 .
 h
 "
+#
+include
+"
+gfxPlatform
+.
+h
+"
 namespace
 mozilla
 {
@@ -789,6 +796,14 @@ nullptr
 else
 if
 (
+gfxPlatform
+:
+:
+UseReusableTileStore
+(
+)
+&
+&
 !
 mReusableTileStore
 &
@@ -805,7 +820,7 @@ ReusableTileStoreOGL
 gl
 (
 )
-2
+1
 )
 ;
 }
