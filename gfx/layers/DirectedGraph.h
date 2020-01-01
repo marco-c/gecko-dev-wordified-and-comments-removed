@@ -99,7 +99,7 @@ RemoveEdgesToComparator
 {
 public
 :
-PRBool
+bool
 Equals
 (
 const
