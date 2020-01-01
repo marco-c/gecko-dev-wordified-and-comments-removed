@@ -944,10 +944,6 @@ test_bug556645
 .
 html
 \
-test_bug559284
-.
-html
-\
 test_bug551670
 .
 html
