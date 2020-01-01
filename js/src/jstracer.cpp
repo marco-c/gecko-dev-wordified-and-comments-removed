@@ -5645,11 +5645,12 @@ lir
 >
 ins2i
 (
-LIR_not
+LIR_and
 v_ins
-8
+~
+JSVAL_TRUE
 )
-6
+JSVAL_BOOLEAN
 )
 )
 ;
