@@ -2616,6 +2616,9 @@ isNative
 if
 (
 !
+CallJSNative
+(
+cx
 ucr
 -
 >
@@ -2627,8 +2630,6 @@ u
 n
 .
 native
-(
-cx
 argc
 vp
 )

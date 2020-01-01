@@ -964,6 +964,13 @@ endif
 }
 }
 ;
+STATIC_POSTCONDITION_ASSUME
+(
+return
+>
+=
+x
+)
 JS_ALWAYS_INLINE
 size_t
 RoundUpPow2

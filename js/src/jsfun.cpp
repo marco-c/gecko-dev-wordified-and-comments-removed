@@ -920,6 +920,7 @@ argsobj
 namespace
 {
 struct
+STATIC_SKIP_INFERENCE
 PutArg
 {
 PutArg
@@ -11364,6 +11365,7 @@ ok
 namespace
 {
 struct
+STATIC_SKIP_INFERENCE
 CopyNonHoleArgs
 {
 CopyNonHoleArgs
