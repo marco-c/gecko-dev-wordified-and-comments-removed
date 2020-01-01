@@ -151,8 +151,11 @@ BEGIN_TEST
 testIsAboutToBeFinalized_bug528645
 )
 {
+CHECK
+(
 createAndTestRooted
 (
+)
 )
 ;
 NativeFrameCleaner
@@ -519,5 +522,8 @@ checkPointers
 i
 ]
 )
+;
+return
+true
 ;
 }
