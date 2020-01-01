@@ -5260,6 +5260,10 @@ InitTabChildGlobalInternal
 nsISupports
 *
 aScope
+const
+nsACString
+&
+aID
 )
 {
 nsCOMPtr
@@ -5454,6 +5458,15 @@ JS_SetGlobalObject
 (
 cx
 global
+)
+;
+xpc
+:
+:
+SetLocationForGlobal
+(
+global
+aID
 )
 ;
 DidCreateCx
