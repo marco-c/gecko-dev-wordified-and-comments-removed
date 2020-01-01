@@ -31969,3 +31969,15 @@ enabled
 true
 )
 ;
+pref
+(
+"
+dom
+.
+battery
+.
+enabled
+"
+true
+)
+;
