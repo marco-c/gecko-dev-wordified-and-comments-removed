@@ -13847,7 +13847,7 @@ tree
 #
 endif
 }
-PRBool
+bool
 nsAccessible
 :
 :
@@ -13867,7 +13867,7 @@ mChildrenFlags
 eChildrenUninitialized
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -13878,7 +13878,7 @@ mChildrenFlags
 eChildrenUninitialized
 )
 return
-PR_FALSE
+false
 ;
 mChildrenFlags
 =
@@ -13921,7 +13921,7 @@ this
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsAccessible

@@ -413,7 +413,7 @@ EnsureChildren
 )
 ;
 }
-PRBool
+bool
 EnsureChildren
 (
 )
@@ -648,6 +648,8 @@ IsBoundToParent
 const
 {
 return
+!
+!
 mParent
 ;
 }
