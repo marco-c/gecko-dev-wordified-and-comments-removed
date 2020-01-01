@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsDOMError
-.
-h
-"
-#
-include
-"
 nsError
 .
 h

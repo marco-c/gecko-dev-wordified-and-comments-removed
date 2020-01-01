@@ -131,7 +131,7 @@ h
 #
 include
 "
-nsDOMError
+nsError
 .
 h
 "
@@ -160,13 +160,6 @@ h
 include
 "
 nsSVGSVGElement
-.
-h
-"
-#
-include
-"
-nsContentErrors
 .
 h
 "

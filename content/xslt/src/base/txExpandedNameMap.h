@@ -7,7 +7,7 @@ TRANSFRMX_EXPANDEDNAMEMAP_H
 #
 include
 "
-txError
+nsError
 .
 h
 "

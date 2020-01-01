@@ -43,7 +43,7 @@ h
 #
 include
 "
-nsDOMError
+nsError
 .
 h
 "
@@ -4313,7 +4313,7 @@ NS_NewDOMStorageEvent
 (
 aDOMEvent
 aPresContext
-nullptr
+nsnull
 )
 ;
 }

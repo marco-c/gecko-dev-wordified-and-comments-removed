@@ -17,7 +17,7 @@ h
 #
 include
 "
-nsDOMError
+nsError
 .
 h
 "
@@ -395,13 +395,6 @@ h
 include
 "
 nsEventDispatcher
-.
-h
-"
-#
-include
-"
-nsContentErrors
 .
 h
 "

@@ -103,10 +103,6 @@ nsIContentIterator
 .
 h
 \
-nsContentErrors
-.
-h
-\
 nsContentPolicyUtils
 .
 h

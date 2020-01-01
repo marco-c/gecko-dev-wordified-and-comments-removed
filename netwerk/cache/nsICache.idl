@@ -1480,7 +1480,7 @@ C
 #
 include
 "
-nsNetError
+nsError
 .
 h
 "

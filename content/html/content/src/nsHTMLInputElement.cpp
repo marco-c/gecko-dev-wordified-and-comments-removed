@@ -213,7 +213,7 @@ h
 #
 include
 "
-nsDOMError
+nsError
 .
 h
 "
@@ -256,13 +256,6 @@ h
 include
 "
 nsPresState
-.
-h
-"
-#
-include
-"
-nsLayoutErrors
 .
 h
 "

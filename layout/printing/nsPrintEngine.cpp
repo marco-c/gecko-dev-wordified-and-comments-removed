@@ -78,7 +78,7 @@ h
 #
 include
 "
-nsContentErrors
+nsError
 .
 h
 "

@@ -183,7 +183,7 @@ h
 #
 include
 "
-nsPluginError
+nsError
 .
 h
 "

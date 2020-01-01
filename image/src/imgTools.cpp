@@ -22,7 +22,7 @@ h
 #
 include
 "
-ImageErrors
+nsError
 .
 h
 "

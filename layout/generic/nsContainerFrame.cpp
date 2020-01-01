@@ -155,7 +155,7 @@ h
 #
 include
 "
-nsLayoutErrors
+nsError
 .
 h
 "
@@ -163,13 +163,6 @@ h
 include
 "
 nsDisplayList
-.
-h
-"
-#
-include
-"
-nsContentErrors
 .
 h
 "

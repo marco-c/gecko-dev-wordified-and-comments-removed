@@ -383,7 +383,7 @@ endif
 #
 include
 "
-nsDOMError
+nsError
 .
 h
 "

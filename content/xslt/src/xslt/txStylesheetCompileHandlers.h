@@ -7,7 +7,7 @@ TRANSFRMX_TXSTYLESHEETCOMPILEHANDLERS_H
 #
 include
 "
-txError
+nsError
 .
 h
 "

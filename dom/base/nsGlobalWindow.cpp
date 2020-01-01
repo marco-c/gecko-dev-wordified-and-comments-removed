@@ -82,7 +82,7 @@ h
 #
 include
 "
-nsDOMError
+nsError
 .
 h
 "
@@ -797,13 +797,6 @@ h
 include
 "
 nsDOMCID
-.
-h
-"
-#
-include
-"
-nsDOMError
 .
 h
 "
@@ -37368,8 +37361,8 @@ getter_AddRefs
 (
 domEvent
 )
-nullptr
-nullptr
+nsnull
+nsnull
 )
 ;
 aEvent

@@ -1,7 +1,7 @@
 #
 include
 "
-nsDOMError
+nsError
 .
 h
 "

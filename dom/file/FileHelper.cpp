@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsNetError
+nsError
 .
 h
 "
@@ -51,13 +51,6 @@ h
 include
 "
 nsIRequest
-.
-h
-"
-#
-include
-"
-nsDOMError
 .
 h
 "

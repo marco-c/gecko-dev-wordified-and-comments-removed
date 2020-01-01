@@ -515,10 +515,6 @@ netCore
 .
 h
 \
-nsNetError
-.
-h
-\
 nsNetUtil
 .
 h

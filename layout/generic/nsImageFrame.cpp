@@ -351,7 +351,7 @@ h
 #
 include
 "
-nsLayoutErrors
+nsError
 .
 h
 "

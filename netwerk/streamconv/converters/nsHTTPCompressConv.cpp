@@ -50,7 +50,7 @@ h
 #
 include
 "
-nsNetError
+nsError
 .
 h
 "

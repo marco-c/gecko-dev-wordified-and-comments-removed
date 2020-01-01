@@ -28,7 +28,7 @@ h
 #
 include
 "
-mozStorage
+nsError
 .
 h
 "

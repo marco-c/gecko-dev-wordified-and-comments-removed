@@ -414,14 +414,7 @@ h
 #
 include
 "
-nsLayoutErrors
-.
-h
-"
-#
-include
-"
-nsContentErrors
+nsError
 .
 h
 "

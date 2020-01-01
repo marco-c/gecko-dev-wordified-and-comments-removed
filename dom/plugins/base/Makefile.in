@@ -165,10 +165,6 @@ nsPluginLogging
 .
 h
 \
-nsPluginError
-.
-h
-\
 nsPluginNativeWindow
 .
 h

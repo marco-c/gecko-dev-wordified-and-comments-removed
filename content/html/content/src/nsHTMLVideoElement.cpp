@@ -52,7 +52,7 @@ h
 #
 include
 "
-nsDOMError
+nsError
 .
 h
 "
