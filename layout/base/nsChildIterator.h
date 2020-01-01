@@ -343,7 +343,7 @@ this
 ;
 }
 PRUint32
-index
+position
 (
 )
 {
