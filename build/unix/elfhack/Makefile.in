@@ -505,8 +505,11 @@ c
 inject
 .
 c
-|
+(
+call
+mkdir_deps
 inject
+)
 cp
 <
 GARBAGE_DIRS
