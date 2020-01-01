@@ -17093,9 +17093,7 @@ JS_ASSERT
 script
 -
 >
-hasIonScript
-(
-)
+ion
 )
 ;
 uint32

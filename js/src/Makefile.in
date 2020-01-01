@@ -489,10 +489,6 @@ jsweakmap
 .
 cpp
 \
-jsworkers
-.
-cpp
-\
 jswrapper
 .
 cpp

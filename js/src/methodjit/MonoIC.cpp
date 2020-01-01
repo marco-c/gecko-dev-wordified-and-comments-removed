@@ -3192,7 +3192,7 @@ BelowOrEqual
 ionScript
 ImmPtr
 (
-ION_COMPILING_SCRIPT
+ION_DISABLED_SCRIPT
 )
 )
 ;

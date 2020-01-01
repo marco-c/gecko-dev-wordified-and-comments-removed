@@ -25,9 +25,6 @@ namespace
 ion
 {
 class
-LIRGraph
-;
-class
 IonBuilder
 :
 public
@@ -2053,17 +2050,6 @@ JSScript
 *
 const
 script
-;
-types
-:
-:
-RecompileInfo
-const
-recompileInfo
-;
-LIRGraph
-*
-lir
 ;
 void
 clearForBackEnd
