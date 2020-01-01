@@ -1281,6 +1281,16 @@ reset
 (
 )
 ;
+curWindow
+=
+content
+;
+curWindow
+.
+focus
+(
+)
+;
 try
 {
 importedScripts
@@ -1433,7 +1443,7 @@ marionetteTimeout
 =
 null
 ;
-curWin
+curWindow
 =
 content
 ;
