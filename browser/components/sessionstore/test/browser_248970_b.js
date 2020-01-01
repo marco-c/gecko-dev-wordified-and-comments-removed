@@ -71,6 +71,7 @@ interfaces
 nsIFile
 )
 ;
+var
 filePath
 =
 file

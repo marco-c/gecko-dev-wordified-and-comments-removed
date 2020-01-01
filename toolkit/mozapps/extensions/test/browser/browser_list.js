@@ -1,3 +1,9 @@
+let
+tempScope
+=
+{
+}
+;
 Components
 .
 utils
@@ -17,7 +23,15 @@ LightweightThemeManager
 .
 jsm
 "
+tempScope
 )
+;
+let
+LightweightThemeManager
+=
+tempScope
+.
+LightweightThemeManager
 ;
 var
 gProvider

@@ -1,3 +1,9 @@
+let
+tempScope
+=
+{
+}
+;
 Components
 .
 utils
@@ -17,7 +23,15 @@ AddonUpdateChecker
 .
 jsm
 "
+tempScope
 )
+;
+let
+AddonUpdateChecker
+=
+tempScope
+.
+AddonUpdateChecker
 ;
 const
 updaterdf

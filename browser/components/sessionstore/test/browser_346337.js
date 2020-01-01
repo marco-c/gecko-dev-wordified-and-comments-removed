@@ -69,6 +69,7 @@ NORMAL_FILE_TYPE
 0666
 )
 ;
+var
 filePath1
 =
 file
@@ -140,6 +141,7 @@ NORMAL_FILE_TYPE
 0666
 )
 ;
+var
 filePath2
 =
 file
