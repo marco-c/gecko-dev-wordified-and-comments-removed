@@ -653,6 +653,12 @@ destructor
 [
 CDATA
 [
+this
+.
+_result
+=
+null
+;
 ]
 ]
 >

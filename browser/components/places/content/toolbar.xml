@@ -934,6 +934,12 @@ this
 genericAnnoObserver
 )
 ;
+this
+.
+_result
+=
+null
+;
 ]
 ]
 >
