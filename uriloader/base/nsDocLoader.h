@@ -541,6 +541,7 @@ aChild
 ;
 DocLoaderIsEmpty
 (
+PR_TRUE
 )
 ;
 }
@@ -558,9 +559,6 @@ mParent
 ;
 nsVoidArray
 mListenerInfoList
-;
-PRBool
-mIsLoadingDocument
 ;
 nsCOMPtr
 <
@@ -589,8 +587,14 @@ mMaxTotalProgress
 PLDHashTable
 mRequestInfoHash
 ;
-PRBool
+PRPackedBool
+mIsLoadingDocument
+;
+PRPackedBool
 mIsRestoringDocument
+;
+PRPackedBool
+mIsFlushingLayout
 ;
 private
 :
@@ -603,6 +607,8 @@ mChildrenInOnload
 void
 DocLoaderIsEmpty
 (
+PRBool
+aFlushLayout
 )
 ;
 nsListenerInfo
