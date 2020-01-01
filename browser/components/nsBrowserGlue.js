@@ -3901,7 +3901,7 @@ true
 )
 ;
 var
-notification
+box
 =
 notifyBox
 .
@@ -3920,12 +3920,11 @@ PRIORITY_INFO_LOW
 buttons
 )
 ;
-notification
+box
 .
 persistence
 =
--
-1
+3
 ;
 }
 _showUpdateNotification
@@ -4392,7 +4391,7 @@ url
 ]
 ;
 let
-notification
+box
 =
 notifyBox
 .
@@ -4413,12 +4412,11 @@ PRIORITY_INFO_LOW
 buttons
 )
 ;
-notification
+box
 .
 persistence
 =
--
-1
+3
 ;
 }
 if
@@ -4998,8 +4996,7 @@ notification
 .
 persistence
 =
--
-1
+6
 ;
 let
 XULNS
@@ -5114,6 +5111,7 @@ notification
 true
 )
 ;
+var
 notifyBox
 =
 browser
@@ -5122,8 +5120,6 @@ getNotificationBox
 (
 )
 ;
-notification
-=
 notifyBox
 .
 appendNotification
@@ -5138,13 +5134,6 @@ notifyBox
 PRIORITY_INFO_LOW
 buttons
 )
-;
-notification
-.
-persistence
-=
--
-1
 ;
 }
 false
@@ -6396,7 +6385,7 @@ getNotificationBox
 )
 ;
 var
-notification
+box
 =
 notifyBox
 .
@@ -6411,7 +6400,7 @@ PRIORITY_CRITICAL_MEDIUM
 buttons
 )
 ;
-notification
+box
 .
 persistence
 =
