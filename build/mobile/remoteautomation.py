@@ -1486,7 +1486,7 @@ proc
 try
 :
                     
-t
+newLogContent
 =
 self
 .
@@ -1497,6 +1497,9 @@ pullFile
 self
 .
 proc
+self
+.
+stdoutlen
 )
                 
 except
@@ -1507,23 +1510,14 @@ return
 '
 '
                 
-newLogContent
-=
-t
-[
 self
 .
 stdoutlen
-:
-]
-                
-self
-.
-stdoutlen
++
 =
 len
 (
-t
+newLogContent
 )
                 
 testStartFilenames
@@ -1617,7 +1611,7 @@ timer
             
 interval
 =
-5
+20
             
 if
 timeout
@@ -1649,12 +1643,21 @@ procName
 )
 :
                 
+if
+timer
+%
+60
+=
+=
+0
+:
+                    
 t
 =
 self
 .
 stdout
-                
+                    
 if
 t
 !
@@ -1662,6 +1665,7 @@ t
 '
 '
 :
+                        
 print
 t
                 
