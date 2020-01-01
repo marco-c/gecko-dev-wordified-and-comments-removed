@@ -830,7 +830,7 @@ getAccessible
 (
 parentOfDocAcc
 .
-accessibleDocument
+document
 [
 nsIAccessible
 ]

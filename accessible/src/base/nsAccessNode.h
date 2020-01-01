@@ -350,6 +350,13 @@ GetApplicationAccessible
 (
 )
 ;
+nsDocAccessible
+*
+GetDocAccessible
+(
+)
+const
+;
 already_AddRefed
 <
 nsRootAccessible
@@ -491,13 +498,6 @@ nsPresContext
 GetPresContext
 (
 )
-;
-nsDocAccessible
-*
-GetDocAccessible
-(
-)
-const
 ;
 void
 LastRelease
