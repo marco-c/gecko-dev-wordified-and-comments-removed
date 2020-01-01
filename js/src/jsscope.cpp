@@ -5996,7 +5996,7 @@ id
 {
 n
 =
-js_PutEscapedString
+PutEscapedString
 (
 buf
 bufsize
@@ -6153,7 +6153,7 @@ id
 ;
 n
 =
-js_PutEscapedString
+PutEscapedString
 (
 buf
 bufsize

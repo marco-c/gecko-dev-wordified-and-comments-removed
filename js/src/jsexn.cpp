@@ -5246,10 +5246,11 @@ GetExceptionProtoKey
 i
 )
 ;
-JSAtom
-*
-atom
+jsid
+id
 =
+ATOM_TO_JSID
+(
 cx
 -
 >
@@ -5262,6 +5263,7 @@ classAtoms
 [
 protoKey
 ]
+)
 ;
 JSFunction
 *
@@ -5271,7 +5273,7 @@ js_DefineFunction
 (
 cx
 obj
-atom
+id
 Exception
 3
 JSFUN_CONSTRUCTOR
@@ -5337,9 +5339,9 @@ proto
 js_name_str
 STRING_TO_JSVAL
 (
-ATOM_TO_STRING
+JSID_TO_STRING
 (
-atom
+id
 )
 )
 NULL

@@ -2153,7 +2153,7 @@ fp
 )
 ;
 else
-js_FileEscapedString
+FileEscapedString
 (
 fp
 str

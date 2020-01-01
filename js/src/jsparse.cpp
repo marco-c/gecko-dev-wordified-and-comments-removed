@@ -40609,7 +40609,7 @@ if
 (
 accum
 )
-js_FileEscapedString
+FileEscapedString
 (
 stdout
 accum
@@ -40839,7 +40839,7 @@ i
 j
 )
 ;
-js_FileEscapedString
+FileEscapedString
 (
 stdout
 str
