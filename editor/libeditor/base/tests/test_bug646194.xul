@@ -385,6 +385,13 @@ focus
 )
 ;
 var
+win
+=
+i
+.
+contentWindow
+;
+var
 doc
 =
 i
@@ -417,6 +424,8 @@ caret
 at
 the
 end
+win
+.
 getSelection
 (
 )
