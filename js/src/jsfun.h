@@ -248,7 +248,7 @@ script_
 ;
 JSObject
 *
-scope
+env
 ;
 }
 i
@@ -577,14 +577,14 @@ JSFUN_JOINABLE
 inline
 JSObject
 *
-callScope
+environment
 (
 )
 const
 ;
 inline
 void
-setCallScope
+setEnvironment
 (
 JSObject
 *
@@ -594,7 +594,7 @@ obj
 static
 inline
 size_t
-offsetOfCallScope
+offsetOfEnvironment
 (
 )
 {
@@ -606,7 +606,7 @@ u
 .
 i
 .
-scope
+env
 )
 ;
 }

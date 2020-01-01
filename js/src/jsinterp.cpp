@@ -19724,7 +19724,6 @@ regs
 args
 *
 fun
-fun
 newScript
 initial
 )
@@ -22494,7 +22493,7 @@ toFunction
 )
 -
 >
-callScope
+environment
 (
 )
 !
@@ -23122,7 +23121,7 @@ toFunction
 )
 -
 >
-callScope
+environment
 (
 )
 !

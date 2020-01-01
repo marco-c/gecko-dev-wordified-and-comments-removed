@@ -3205,7 +3205,7 @@ fp
 initCallFrame
 (
 cx
-callee
+*
 fun
 script
 args

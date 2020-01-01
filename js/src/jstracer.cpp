@@ -29702,7 +29702,6 @@ regs
 args
 *
 newfun
-newfun
 newscript
 InitialFrameFlagsFromConstructing
 (

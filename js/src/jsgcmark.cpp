@@ -4170,7 +4170,9 @@ if
 script
 -
 >
-function_
+function
+(
+)
 )
 MarkObject
 (
@@ -4179,7 +4181,9 @@ trc
 script
 -
 >
-function_
+function
+(
+)
 "
 function
 "

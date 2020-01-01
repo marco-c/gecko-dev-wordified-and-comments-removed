@@ -446,9 +446,10 @@ functionProto
 script
 -
 >
-function_
-=
+setFunction
+(
 functionProto
+)
 ;
 if
 (

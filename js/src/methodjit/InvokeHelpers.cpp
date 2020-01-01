@@ -1621,7 +1621,6 @@ regs
 args
 *
 newfun
-newfun
 newscript
 initial
 &
