@@ -7798,7 +7798,7 @@ option
 nsTextEquivUtils
 :
 :
-GetNameFromSubtree
+GetTextEquivFromSubtree
 (
 option
 aValue
