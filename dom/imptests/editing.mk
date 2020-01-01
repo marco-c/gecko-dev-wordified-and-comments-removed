@@ -3,7 +3,6 @@ DIRS
 =
 \
 editing
-/
 \
 (
 NULL
