@@ -329,6 +329,16 @@ JSOP_SETELEM
 \
 _
 (
+JSOP_GETGNAME
+)
+\
+_
+(
+JSOP_CALLGNAME
+)
+\
+_
+(
 JSOP_GETLOCAL
 )
 \

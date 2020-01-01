@@ -366,7 +366,7 @@ valueReg
 ;
 masm
 .
-boxValue
+tagValue
 (
 JSVAL_TYPE_INT32
 R0
@@ -375,10 +375,6 @@ valueReg
 (
 )
 R0
-.
-valueReg
-(
-)
 )
 ;
 break
