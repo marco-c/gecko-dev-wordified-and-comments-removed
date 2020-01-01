@@ -20335,9 +20335,6 @@ AC_DEFINE
 (
 JS_METHODJIT
 )
-else
-ENABLE_TRACEJIT
-=
 fi
 if
 test

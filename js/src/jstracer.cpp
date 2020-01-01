@@ -14251,6 +14251,9 @@ TIMEOUT_EXIT
 )
 )
 ;
+#
+ifdef
+JS_METHODJIT
 if
 (
 cx
@@ -14364,6 +14367,8 @@ LIR_label
 )
 ;
 }
+#
+endif
 }
 if
 (
@@ -24825,18 +24830,10 @@ cx
 if
 (
 !
-(
 cx
 -
 >
 traceJitEnabled
-|
-|
-cx
--
->
-methodJitEnabled
-)
 )
 return
 ;
@@ -36858,6 +36855,9 @@ throwing
 ok
 )
 ;
+#
+ifdef
+JS_METHODJIT
 if
 (
 cx
@@ -36929,6 +36929,8 @@ ip
 ;
 }
 }
+#
+endif
 return
 ok
 ;
