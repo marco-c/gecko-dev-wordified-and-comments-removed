@@ -1054,6 +1054,9 @@ h
 #
 endif
 #
+ifndef
+JS_64BIT
+#
 ifdef
 _MSC_VER
 #
@@ -1115,6 +1118,8 @@ error
 Implement
 me
 "
+#
+endif
 #
 endif
 #

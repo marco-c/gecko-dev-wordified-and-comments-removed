@@ -4859,7 +4859,7 @@ JS_ASSERT
 fe
 -
 >
-getKnownTag
+getKnownType
 (
 )
 =
@@ -4867,7 +4867,7 @@ getKnownTag
 original
 -
 >
-getKnownTag
+getKnownType
 (
 )
 )

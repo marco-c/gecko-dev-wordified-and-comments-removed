@@ -172,6 +172,10 @@ sInvalidPC
 ;
 #
 endif
+void
+*
+ncode
+;
 #
 if
 defined
@@ -184,10 +188,6 @@ defined
 (
 JS_CPU_ARM
 )
-void
-*
-ncode
-;
 void
 *
 align_
@@ -1207,7 +1207,7 @@ argv
 }
 extern
 JSBool
-HasInstance
+js_HasInstance
 (
 JSContext
 *
