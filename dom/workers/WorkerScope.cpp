@@ -4094,8 +4094,6 @@ false
 &
 sNativePropertyHooks
 }
--
-1
 }
 ;
 JSPropertySpec

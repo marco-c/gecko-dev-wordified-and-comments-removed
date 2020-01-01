@@ -159,10 +159,6 @@ mBase
 DOMClass
 mClass
 ;
-const
-int16_t
-mGetWrapperCacheVTableOffset
-;
 static
 DOMJSClass
 *
