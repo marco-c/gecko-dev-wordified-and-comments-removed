@@ -538,6 +538,14 @@ MultiChoicePreference
 .
 java
 \
+NotificationService
+.
+java
+\
+NotificationServiceClient
+.
+java
+\
 NSSBridge
 .
 java
