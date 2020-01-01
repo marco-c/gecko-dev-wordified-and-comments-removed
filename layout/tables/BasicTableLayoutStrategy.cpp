@@ -53,6 +53,13 @@ nsTableFrame
 aTableFrame
 )
 :
+nsITableLayoutStrategy
+(
+nsITableLayoutStrategy
+:
+:
+Auto
+)
 mTableFrame
 (
 aTableFrame
@@ -1842,7 +1849,7 @@ if
 mTableFrame
 -
 >
-GetNumCellsOriginatingInCol
+ColumnHasCellSpacingBefore
 (
 col
 )
@@ -2781,7 +2788,7 @@ if
 mTableFrame
 -
 >
-GetNumCellsOriginatingInCol
+ColumnHasCellSpacingBefore
 (
 col
 )
@@ -3088,7 +3095,7 @@ BTLS_FINAL_WIDTH
 mTableFrame
 -
 >
-GetNumCellsOriginatingInCol
+ColumnHasCellSpacingBefore
 (
 col
 )
@@ -4156,7 +4163,7 @@ GetHasSpecifiedCoord
 mTableFrame
 -
 >
-GetNumCellsOriginatingInCol
+ColumnHasCellSpacingBefore
 (
 col
 )
