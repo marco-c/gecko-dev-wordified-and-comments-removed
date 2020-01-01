@@ -1075,6 +1075,11 @@ global
 (
 )
 ;
+JS_ASSERT
+(
+global
+)
+;
 if
 (
 vp

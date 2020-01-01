@@ -14189,6 +14189,17 @@ runtime
 atomsCompartment
 )
 ;
+JS_ASSERT
+(
+!
+cx
+-
+>
+isExceptionPending
+(
+)
+)
+;
 JSRuntime
 *
 rt
