@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIIncrementalDownload
 .
 h
@@ -391,6 +400,7 @@ end
 }
 class
 nsIncrementalDownload
+MOZ_FINAL
 :
 public
 nsIIncrementalDownload

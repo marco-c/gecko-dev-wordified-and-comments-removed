@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Mutex
 .
 h
@@ -22,6 +31,7 @@ h
 "
 class
 nsUUIDGenerator
+MOZ_FINAL
 :
 public
 nsIUUIDGenerator
