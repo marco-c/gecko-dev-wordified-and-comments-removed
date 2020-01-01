@@ -78,7 +78,7 @@ void
 ScheduleDelayedWork
 (
 const
-Time
+TimeTicks
 &
 delayed_work_time
 )
@@ -91,7 +91,7 @@ keep_running_
 WaitableEvent
 event_
 ;
-Time
+TimeTicks
 delayed_work_time_
 ;
 private

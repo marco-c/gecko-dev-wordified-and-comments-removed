@@ -86,7 +86,7 @@ void
 scheduleDelayedIfNeeded
 (
 const
-Time
+TimeTicks
 &
 delayed_work_time
 )
@@ -157,7 +157,7 @@ void
 ScheduleDelayedWork
 (
 const
-Time
+TimeTicks
 &
 delayed_work_time
 )
@@ -188,7 +188,7 @@ RunState
 *
 state_
 ;
-Time
+TimeTicks
 delayed_work_time_
 ;
 MessagePumpQt

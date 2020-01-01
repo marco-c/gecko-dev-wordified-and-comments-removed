@@ -265,7 +265,7 @@ Observer
 >
 observers_
 ;
-Time
+TimeTicks
 delayed_work_time_
 ;
 LONG
@@ -306,7 +306,7 @@ void
 ScheduleDelayedWork
 (
 const
-Time
+TimeTicks
 &
 delayed_work_time
 )
@@ -457,7 +457,7 @@ void
 ScheduleDelayedWork
 (
 const
-Time
+TimeTicks
 &
 delayed_work_time
 )

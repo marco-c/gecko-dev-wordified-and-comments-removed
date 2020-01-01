@@ -302,7 +302,7 @@ void
 ScheduleDelayedWork
 (
 const
-Time
+TimeTicks
 &
 delayed_work_time
 )
@@ -320,7 +320,7 @@ keep_running_
 bool
 in_run_
 ;
-Time
+TimeTicks
 delayed_work_time_
 ;
 event_base

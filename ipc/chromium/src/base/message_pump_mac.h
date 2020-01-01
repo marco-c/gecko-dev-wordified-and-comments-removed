@@ -51,7 +51,7 @@ namespace
 base
 {
 class
-Time
+TimeTicks
 ;
 class
 MessagePumpCFRunLoopBase
@@ -106,7 +106,7 @@ void
 ScheduleDelayedWork
 (
 const
-Time
+TimeTicks
 &
 delayed_work_time
 )

@@ -613,7 +613,7 @@ task
 base
 :
 :
-Time
+TimeTicks
 delayed_run_time
 ;
 int
@@ -837,7 +837,7 @@ DoDelayedWork
 base
 :
 :
-Time
+TimeTicks
 *
 next_delayed_work_time
 )

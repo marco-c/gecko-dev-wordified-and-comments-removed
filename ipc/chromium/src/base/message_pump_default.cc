@@ -171,7 +171,7 @@ delay
 =
 delayed_work_time_
 -
-Time
+TimeTicks
 :
 :
 Now
@@ -199,7 +199,7 @@ else
 {
 delayed_work_time_
 =
-Time
+TimeTicks
 (
 )
 ;
@@ -246,7 +246,7 @@ MessagePumpDefault
 ScheduleDelayedWork
 (
 const
-Time
+TimeTicks
 &
 delayed_work_time
 )

@@ -187,7 +187,7 @@ void
 ScheduleDelayedWork
 (
 const
-Time
+TimeTicks
 &
 delayed_work_time
 )
@@ -283,7 +283,7 @@ GMainContext
 *
 context_
 ;
-Time
+TimeTicks
 delayed_work_time_
 ;
 GSource
