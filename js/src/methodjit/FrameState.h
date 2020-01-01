@@ -545,6 +545,12 @@ dup
 (
 )
 ;
+inline
+void
+dup2
+(
+)
+;
 uint32
 stackDepth
 (
