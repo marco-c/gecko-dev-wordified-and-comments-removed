@@ -501,6 +501,12 @@ nsString
 reason
 )
 ;
+virtual
+bool
+RecvActivateA11y
+(
+)
+;
 #
 ifdef
 ANDROID
