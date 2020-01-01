@@ -79,14 +79,6 @@ config
 autoconf
 .
 mk
-PARALLEL_DIRS
-=
-\
-SimpleTest
-\
-(
-NULL
-)
 include
 (
 topsrcdir
