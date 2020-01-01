@@ -240,16 +240,6 @@ fill_parent
 "
 android
 :
-layout_below
-=
-"
-+
-id
-/
-toolbar_spacer
-"
-android
-:
 layout_above
 =
 "
