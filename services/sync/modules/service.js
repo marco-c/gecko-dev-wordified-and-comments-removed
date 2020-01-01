@@ -4785,6 +4785,7 @@ register
 )
 ;
 return
+null
 ;
 }
 if
