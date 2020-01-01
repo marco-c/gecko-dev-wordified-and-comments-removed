@@ -4575,3 +4575,16 @@ the
 handler
 "
 )
+MSG_DEF
+(
+JSMSG_INVALID_EVAL_SCOPE_ARG
+250
+0
+JSEXN_EVALERR
+"
+invalid
+eval
+scope
+argument
+"
+)
