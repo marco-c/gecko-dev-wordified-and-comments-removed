@@ -2739,6 +2739,9 @@ EnsureContentProcess
 (
 )
 {
+#
+ifdef
+MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -2773,6 +2776,13 @@ NS_ERROR_NOT_AVAILABLE
 return
 NS_OK
 ;
+#
+else
+return
+NS_ERROR_NOT_AVIALABLE
+;
+#
+endif
 }
 NS_IMETHODIMP
 nsXULAppInfo
