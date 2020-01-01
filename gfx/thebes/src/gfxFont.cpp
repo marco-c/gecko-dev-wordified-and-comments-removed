@@ -1420,6 +1420,16 @@ Length
 )
 >
 4
+|
+|
+mAvailableFonts
+.
+Length
+(
+)
+=
+=
+0
 )
 {
 return
