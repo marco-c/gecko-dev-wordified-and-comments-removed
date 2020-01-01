@@ -3917,6 +3917,10 @@ gcIncrementalLimit
 )
 #
 endif
+gcValidate
+(
+true
+)
 gcCallback
 (
 NULL
