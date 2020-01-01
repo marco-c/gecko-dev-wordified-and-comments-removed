@@ -1264,6 +1264,8 @@ use
 ;
 }
 }
+#
+endif
 NS_IF_RELEASE
 (
 mXPC
