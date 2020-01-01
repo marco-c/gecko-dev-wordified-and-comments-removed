@@ -812,11 +812,7 @@ html
 "
 contributionAmount
 :
-"
-11
-.
-11
-"
+null
 repositoryStatus
 :
 4
