@@ -490,6 +490,10 @@ browser_scratchpad_restore
 .
 js
 \
+browser_scratchpad_bug_679467_falsy
+.
+js
+\
 libs
 :
 :
