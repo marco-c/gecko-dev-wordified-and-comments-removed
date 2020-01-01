@@ -135,10 +135,7 @@ NS_LITERAL_STRING
 return
 ;
 }
-already_AddRefed
-<
-nsDOMMediaStream
->
+nsresult
 MediaEngineDefaultVideoSource
 :
 :
@@ -155,7 +152,7 @@ kReleased
 )
 {
 return
-NULL
+NS_ERROR_FAILURE
 ;
 }
 mState
@@ -163,12 +160,7 @@ mState
 kAllocated
 ;
 return
-nsDOMMediaStream
-:
-:
-CreateInputStream
-(
-)
+NS_OK
 ;
 }
 nsresult
@@ -911,10 +903,7 @@ B7CBD7C1
 return
 ;
 }
-already_AddRefed
-<
-nsDOMMediaStream
->
+nsresult
 MediaEngineDefaultAudioSource
 :
 :
@@ -931,7 +920,7 @@ kReleased
 )
 {
 return
-NULL
+NS_ERROR_FAILURE
 ;
 }
 mState
@@ -939,12 +928,7 @@ mState
 kAllocated
 ;
 return
-nsDOMMediaStream
-:
-:
-CreateInputStream
-(
-)
+NS_OK
 ;
 }
 nsresult
@@ -1003,7 +987,7 @@ kAllocated
 )
 {
 return
-NULL
+NS_ERROR_FAILURE
 ;
 }
 mTimer
@@ -1020,7 +1004,7 @@ mTimer
 )
 {
 return
-NULL
+NS_ERROR_FAILURE
 ;
 }
 mSource

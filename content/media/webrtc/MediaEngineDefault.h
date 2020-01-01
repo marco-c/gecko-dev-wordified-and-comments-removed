@@ -161,10 +161,7 @@ GetOptions
 )
 ;
 virtual
-already_AddRefed
-<
-nsDOMMediaStream
->
+nsresult
 Allocate
 (
 )
@@ -288,10 +285,7 @@ nsAString
 )
 ;
 virtual
-already_AddRefed
-<
-nsDOMMediaStream
->
+nsresult
 Allocate
 (
 )
