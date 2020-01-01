@@ -117,7 +117,7 @@ HTTP_REQUESTED_RANGE_NOT_SATISFIABLE_CODE
 416
 ;
 class
-nsMediaDecoder
+nsBuiltinDecoder
 ;
 namespace
 mozilla
@@ -546,7 +546,7 @@ MediaResource
 *
 CloneData
 (
-nsMediaDecoder
+nsBuiltinDecoder
 *
 aDecoder
 )
@@ -745,7 +745,7 @@ MediaResource
 *
 Create
 (
-nsMediaDecoder
+nsBuiltinDecoder
 *
 aDecoder
 nsIChannel
@@ -804,7 +804,7 @@ protected
 :
 MediaResource
 (
-nsMediaDecoder
+nsBuiltinDecoder
 *
 aDecoder
 nsIChannel
@@ -845,7 +845,7 @@ nsLoadFlags
 aFlags
 )
 ;
-nsMediaDecoder
+nsBuiltinDecoder
 *
 mDecoder
 ;
@@ -876,7 +876,7 @@ public
 :
 ChannelMediaResource
 (
-nsMediaDecoder
+nsBuiltinDecoder
 *
 aDecoder
 nsIChannel
@@ -1006,7 +1006,7 @@ MediaResource
 *
 CloneData
 (
-nsMediaDecoder
+nsBuiltinDecoder
 *
 aDecoder
 )

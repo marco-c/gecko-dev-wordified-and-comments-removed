@@ -6442,7 +6442,7 @@ mPositionChangeQueued
 false
 ;
 }
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 NextFrameStatus
@@ -6477,7 +6477,7 @@ IsSeeking
 )
 {
 return
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 NEXT_FRAME_UNAVAILABLE_BUFFERING
@@ -6492,14 +6492,14 @@ HaveNextFrameData
 )
 {
 return
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 NEXT_FRAME_AVAILABLE
 ;
 }
 return
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 NEXT_FRAME_UNAVAILABLE
@@ -12120,7 +12120,7 @@ GetNextFrameStatus
 )
 {
 case
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 NEXT_FRAME_UNAVAILABLE_BUFFERING
@@ -12140,7 +12140,7 @@ NextFrameUnavailableBuffering
 break
 ;
 case
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 NEXT_FRAME_AVAILABLE
@@ -12160,7 +12160,7 @@ NextFrameAvailable
 break
 ;
 case
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 NEXT_FRAME_UNAVAILABLE
@@ -12348,7 +12348,7 @@ ToSeconds
 #
 ifdef
 PR_LOGGING
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 Statistics

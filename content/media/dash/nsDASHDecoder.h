@@ -131,7 +131,7 @@ nsDASHDecoder
 (
 )
 ;
-nsMediaDecoder
+nsBuiltinDecoder
 *
 Clone
 (
@@ -157,7 +157,7 @@ nsIStreamListener
 *
 *
 aListener
-nsMediaDecoder
+nsBuiltinDecoder
 *
 aCloneDonor
 )
@@ -255,7 +255,7 @@ CreateAudioSubResource
 nsIURI
 *
 aUrl
-nsMediaDecoder
+nsBuiltinDecoder
 *
 aAudioDecoder
 )
@@ -267,7 +267,7 @@ CreateVideoSubResource
 nsIURI
 *
 aUrl
-nsMediaDecoder
+nsBuiltinDecoder
 *
 aVideoDecoder
 )

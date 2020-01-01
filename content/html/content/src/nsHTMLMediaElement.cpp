@@ -1,6 +1,13 @@
 #
 include
 "
+nsHTMLMediaElement
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Util
@@ -27,13 +34,6 @@ h
 include
 "
 nsIDOMHTMLSourceElement
-.
-h
-"
-#
-include
-"
-nsHTMLMediaElement
 .
 h
 "
@@ -8825,7 +8825,7 @@ aType
 if
 (
 !
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 IsRawEnabled
@@ -8976,7 +8976,7 @@ aType
 if
 (
 !
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 IsOggEnabled
@@ -9110,7 +9110,7 @@ aType
 if
 (
 !
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 IsWaveEnabled
@@ -9236,7 +9236,7 @@ aType
 if
 (
 !
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 IsWebMEnabled
@@ -9513,7 +9513,7 @@ aType
 if
 (
 !
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 IsOmxEnabled
@@ -9586,7 +9586,7 @@ aType
 if
 (
 !
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 IsMediaPluginsEnabled
@@ -9708,7 +9708,7 @@ aType
 if
 (
 !
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 IsDASHEnabled
@@ -9827,7 +9827,7 @@ aMIMEType
 *
 aCodecList
 =
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 IsOpusEnabled
@@ -9974,7 +9974,7 @@ ifdef
 MOZ_MEDIA_PLUGINS
 if
 (
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 IsMediaPluginsEnabled
@@ -10114,7 +10114,7 @@ ifdef
 MOZ_MEDIA_PLUGINS
 if
 (
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 IsMediaPluginsEnabled
@@ -10467,7 +10467,7 @@ aMimeType
 if
 (
 !
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 IsGStreamerEnabled
@@ -10546,7 +10546,7 @@ false
 endif
 already_AddRefed
 <
-nsMediaDecoder
+nsBuiltinDecoder
 >
 nsHTMLMediaElement
 :
@@ -10784,7 +10784,7 @@ ifdef
 MOZ_MEDIA_PLUGINS
 if
 (
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 IsMediaPluginsEnabled
@@ -10936,7 +10936,7 @@ nsHTMLMediaElement
 :
 InitializeDecoderAsClone
 (
-nsMediaDecoder
+nsBuiltinDecoder
 *
 aOriginal
 )
@@ -10990,7 +10990,7 @@ NS_ERROR_FAILURE
 ;
 nsRefPtr
 <
-nsMediaDecoder
+nsBuiltinDecoder
 >
 decoder
 =
@@ -11247,7 +11247,7 @@ Type
 ;
 nsRefPtr
 <
-nsMediaDecoder
+nsBuiltinDecoder
 >
 decoder
 =
@@ -11383,7 +11383,7 @@ nsHTMLMediaElement
 :
 FinishDecoderSetup
 (
-nsMediaDecoder
+nsBuiltinDecoder
 *
 aDecoder
 MediaResource
@@ -11393,7 +11393,7 @@ nsIStreamListener
 *
 *
 aListener
-nsMediaDecoder
+nsBuiltinDecoder
 *
 aCloneDonor
 )
@@ -11752,12 +11752,12 @@ UpdateReadyStateForData
 (
 mBlocked
 ?
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 NEXT_FRAME_UNAVAILABLE_BUFFERING
 :
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 NEXT_FRAME_AVAILABLE
@@ -13567,7 +13567,7 @@ nsHTMLMediaElement
 :
 UpdateReadyStateForData
 (
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 NextFrameStatus
@@ -13628,7 +13628,7 @@ if
 aNextFrame
 !
 =
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 NEXT_FRAME_AVAILABLE
@@ -13651,7 +13651,7 @@ mWaitingFired
 aNextFrame
 =
 =
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 NEXT_FRAME_UNAVAILABLE_BUFFERING
@@ -13696,7 +13696,7 @@ HAVE_ENOUGH_DATA
 return
 ;
 }
-nsMediaDecoder
+nsBuiltinDecoder
 :
 :
 Statistics

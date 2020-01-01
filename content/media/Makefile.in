@@ -143,10 +143,6 @@ nsMediaCache
 .
 h
 \
-nsMediaDecoder
-.
-h
-\
 SharedBuffer
 .
 h
@@ -218,10 +214,6 @@ nsDOMMediaStream
 cpp
 \
 nsMediaCache
-.
-cpp
-\
-nsMediaDecoder
 .
 cpp
 \

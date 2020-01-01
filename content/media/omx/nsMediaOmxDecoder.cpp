@@ -31,7 +31,7 @@ nsBuiltinDecoder
 )
 {
 }
-nsMediaDecoder
+nsBuiltinDecoder
 *
 nsMediaOmxDecoder
 :

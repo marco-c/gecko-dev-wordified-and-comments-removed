@@ -140,7 +140,7 @@ nsDASHRepDecoder
 ;
 }
 virtual
-nsMediaDecoder
+nsBuiltinDecoder
 *
 Clone
 (
@@ -199,7 +199,7 @@ nsIStreamListener
 aListener
 =
 nullptr
-nsMediaDecoder
+nsBuiltinDecoder
 *
 aCloneDonor
 =

@@ -47,6 +47,12 @@ nsDASHRepDecoder
 .
 h
 "
+using
+mozilla
+:
+:
+ReentrantMonitor
+;
 #
 ifdef
 PR_LOGGING
@@ -293,7 +299,7 @@ nsIStreamListener
 *
 *
 aListener
-nsMediaDecoder
+nsBuiltinDecoder
 *
 aCloneDonor
 )
