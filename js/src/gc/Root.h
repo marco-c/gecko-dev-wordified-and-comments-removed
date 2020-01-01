@@ -746,6 +746,11 @@ JSObject
 *
 RawObject
 ;
+typedef
+JSString
+*
+RawString
+;
 template
 <
 typename
