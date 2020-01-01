@@ -218,6 +218,10 @@ h
 "
 #
 endif
+using
+namespace
+js
+;
 #
 define
 JS_KEYWORD
@@ -2487,12 +2491,9 @@ warning
 false
 ;
 }
-memset
+PodZero
 (
 &
-report
-0
-sizeof
 report
 )
 ;

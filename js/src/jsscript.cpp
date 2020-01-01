@@ -3886,14 +3886,9 @@ script
 return
 NULL
 ;
-memset
+PodZero
 (
 script
-0
-sizeof
-(
-JSScript
-)
 )
 ;
 script

@@ -34,6 +34,13 @@ jsutil
 h
 "
 #
+include
+"
+jstl
+.
+h
+"
+#
 ifdef
 WIN32
 #
@@ -54,6 +61,10 @@ h
 >
 #
 endif
+using
+namespace
+js
+;
 JS_STATIC_ASSERT
 (
 sizeof
@@ -473,11 +484,8 @@ newhist
 ]
 newbin
 ;
-memset
+PodArrayZero
 (
-newhist
-0
-sizeof
 newhist
 )
 ;
