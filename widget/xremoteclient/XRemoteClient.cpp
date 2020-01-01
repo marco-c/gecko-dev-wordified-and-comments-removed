@@ -417,6 +417,7 @@ Shutdown
 ;
 }
 static
+const
 char
 *
 XAtomNames
@@ -494,7 +495,15 @@ NS_ERROR_FAILURE
 XInternAtoms
 (
 mDisplay
+const_cast
+<
+char
+*
+*
+>
+(
 XAtomNames
+)
 ARRAY_LENGTH
 (
 XAtomNames
