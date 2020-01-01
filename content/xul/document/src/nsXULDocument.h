@@ -951,11 +951,6 @@ nsIRDFResource
 kNC_value
 ;
 static
-nsXULPrototypeCache
-*
-gXULCache
-;
-static
 PRLogModuleInfo
 *
 gXULLog

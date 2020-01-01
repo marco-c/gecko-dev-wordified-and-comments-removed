@@ -1677,6 +1677,17 @@ GetJSRuntime
 )
 JSGC_NUMBER
 )
+self
+-
+>
+GetXPConnect
+(
+)
+-
+>
+IsShuttingDown
+(
+)
 )
 ;
 }
