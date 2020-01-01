@@ -475,7 +475,6 @@ DOMApplicationRegistry
 confirmInstall
 (
 data
-false
 localDir
 null
 function

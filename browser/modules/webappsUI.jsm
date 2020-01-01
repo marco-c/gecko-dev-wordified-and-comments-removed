@@ -945,7 +945,6 @@ DOMApplicationRegistry
 confirmInstall
 (
 aData
-false
 localDir
 null
 (
