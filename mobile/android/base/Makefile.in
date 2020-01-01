@@ -186,10 +186,6 @@ NULL
 FENNEC_JAVA_FILES
 =
 \
-AboutHomeContent
-.
-java
-\
 AboutHomePromoBox
 .
 java
@@ -858,6 +854,10 @@ FENNEC_PP_JAVA_FILES
 =
 \
 App
+.
+java
+\
+AboutHomeContent
 .
 java
 \
