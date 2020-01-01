@@ -1872,6 +1872,14 @@ Begin
 this
 )
 ;
+if
+(
+onBlack
+&
+&
+onWhite
+)
+{
 FillSurface
 (
 onBlack
@@ -1964,6 +1972,7 @@ SetAllowUseAsSource
 PR_FALSE
 )
 ;
+}
 break
 ;
 }
