@@ -709,13 +709,6 @@ getZoomFactor
 )
 )
 ;
-mRootLayer
-.
-performUpdates
-(
-null
-)
-;
 Log
 .
 e
