@@ -10419,11 +10419,6 @@ RecompileInfo
 info
 )
 {
-bool
-hasJITCode
-=
-false
-;
 #
 if
 defined
@@ -10449,8 +10444,8 @@ info
 constructing
 )
 ;
+bool
 hasJITCode
-|
 =
 jit
 &
