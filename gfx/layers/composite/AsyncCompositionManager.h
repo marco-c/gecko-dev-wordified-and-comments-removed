@@ -513,7 +513,7 @@ aOffset
 )
 ;
 void
-AlignFixedLayersForAnchorPoint
+AlignFixedAndStickyLayers
 (
 Layer
 *
