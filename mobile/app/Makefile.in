@@ -1395,6 +1395,8 @@ bin
 (
 APP_BINARY
 )
+ifndef
+SKIP_COPY_XULRUNNER
 (
 NSINSTALL
 )
@@ -1440,6 +1442,9 @@ tar
 xf
 -
 )
+endif
+#
+SKIP_COPY_XULRUNNER
 (
 NSINSTALL
 )
