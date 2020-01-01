@@ -927,7 +927,7 @@ stype
 )
 ;
 }
-int32
+int32_t
 NP_LOADDS
 NPP_WriteReady
 (
@@ -988,7 +988,7 @@ return
 1L
 ;
 }
-int32
+int32_t
 NP_LOADDS
 NPP_Write
 (
@@ -997,9 +997,9 @@ pInstance
 NPStream
 *
 stream
-int32
+int32_t
 offset
-int32
+int32_t
 len
 void
 *
