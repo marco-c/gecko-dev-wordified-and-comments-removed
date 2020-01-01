@@ -779,7 +779,7 @@ return
 mShell
 -
 >
-AllocateFrame
+AllocateMisc
 (
 aSize
 )
@@ -815,7 +815,7 @@ mShell
 mShell
 -
 >
-FreeFrame
+FreeMisc
 (
 aSize
 aFreeChunk
