@@ -9105,7 +9105,7 @@ updates
 i
 ]
 .
-version
+extensionVersion
 gApp
 .
 version
@@ -12391,7 +12391,7 @@ if
 (
 update
 .
-version
+extensionVersion
 &
 &
 vc
@@ -12400,7 +12400,7 @@ compare
 (
 update
 .
-version
+extensionVersion
 ai
 .
 version
@@ -12430,7 +12430,7 @@ version
 +
 update
 .
-version
+extensionVersion
 )
 ;
 cleanupActiveUpdate
