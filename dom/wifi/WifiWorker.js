@@ -628,17 +628,6 @@ unloadDriver
 callback
 )
 {
-if
-(
-device
-=
-=
-=
-"
-otoro
-"
-)
-{
 callback
 (
 0
@@ -646,7 +635,6 @@ callback
 ;
 return
 ;
-}
 voidControlMessage
 (
 "
