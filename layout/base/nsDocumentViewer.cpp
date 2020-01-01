@@ -6155,6 +6155,11 @@ bool
 aForceReuseInnerWindow
 )
 {
+MOZ_ASSERT
+(
+aDocument
+)
+;
 nsCOMPtr
 <
 nsISupports
