@@ -223,10 +223,11 @@ mChannels
 uint32_t
 mFrameSize
 ;
-nsAudioStream
-:
-:
-SampleFormat
+enum
+{
+FORMAT_U8
+FORMAT_S16
+}
 mSampleFormat
 ;
 int64_t

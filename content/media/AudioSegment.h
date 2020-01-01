@@ -284,15 +284,6 @@ case
 nsAudioStream
 :
 :
-FORMAT_U8
-:
-return
-1
-;
-case
-nsAudioStream
-:
-:
 FORMAT_S16
 :
 return

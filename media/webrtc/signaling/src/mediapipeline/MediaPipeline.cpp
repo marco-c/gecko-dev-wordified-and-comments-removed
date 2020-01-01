@@ -2780,12 +2780,6 @@ case
 nsAudioStream
 :
 :
-FORMAT_U8
-:
-case
-nsAudioStream
-:
-:
 FORMAT_FLOAT32
 :
 MOZ_MTLOG

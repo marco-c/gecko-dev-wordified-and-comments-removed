@@ -47,7 +47,6 @@ public
 enum
 SampleFormat
 {
-FORMAT_U8
 FORMAT_S16
 FORMAT_FLOAT32
 }
