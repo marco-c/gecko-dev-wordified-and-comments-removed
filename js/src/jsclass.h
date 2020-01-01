@@ -18,9 +18,6 @@ jsprvtd
 .
 h
 "
-#
-ifdef
-__cplusplus
 namespace
 js
 {
@@ -1812,7 +1809,5 @@ id
 }
 ;
 }
-#
-endif
 #
 endif

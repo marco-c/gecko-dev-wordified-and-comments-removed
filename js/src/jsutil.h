@@ -132,9 +132,6 @@ len
 )
 ;
 }
-#
-ifdef
-__cplusplus
 namespace
 js
 {
@@ -1234,8 +1231,6 @@ outlen
 #
 endif
 }
-#
-endif
 #
 ifdef
 DEBUG
