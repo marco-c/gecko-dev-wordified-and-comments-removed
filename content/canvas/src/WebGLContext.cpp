@@ -236,10 +236,6 @@ include
 "
 mozilla
 /
-dom
-/
-ipc
-/
 ProcessPriorityManager
 .
 h
@@ -261,16 +257,6 @@ mozilla
 :
 :
 dom
-;
-using
-namespace
-mozilla
-:
-:
-dom
-:
-:
-ipc
 ;
 using
 namespace
@@ -341,6 +327,9 @@ mContext
 mCanLoseContextInForeground
 &
 &
+ProcessPriorityManager
+:
+:
 CurrentProcessIsForeground
 (
 )
