@@ -2118,7 +2118,7 @@ rv
 ;
 dbSchemaVersion
 =
-PR_UINT32_MAX
+PR_INT32_MAX
 ;
 }
 }
