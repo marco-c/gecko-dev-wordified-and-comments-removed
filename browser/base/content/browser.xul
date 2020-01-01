@@ -2855,9 +2855,9 @@ button
 class
 =
 "
-toolbarbutton
+bookmark
 -
-1
+item
 chromeclass
 -
 toolbar
