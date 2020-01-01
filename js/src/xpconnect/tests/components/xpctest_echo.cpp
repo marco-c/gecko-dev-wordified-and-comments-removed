@@ -1706,9 +1706,10 @@ type
 void
 "
 ;
-printf
+fputs
 (
 type
+stdout
 )
 ;
 if

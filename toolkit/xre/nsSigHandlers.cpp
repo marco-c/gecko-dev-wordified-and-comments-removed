@@ -452,10 +452,10 @@ buf
 )
 )
 ;
-fprintf
+fputs
 (
-stdout
 buf
+stdout
 )
 ;
 }

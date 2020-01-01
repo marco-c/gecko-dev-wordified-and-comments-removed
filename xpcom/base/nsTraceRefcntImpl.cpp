@@ -4409,10 +4409,10 @@ buf
 )
 )
 ;
-fprintf
+fputs
 (
-stream
 buf
+stream
 )
 ;
 }
