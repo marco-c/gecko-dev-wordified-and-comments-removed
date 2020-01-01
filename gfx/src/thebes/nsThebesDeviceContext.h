@@ -550,8 +550,10 @@ nsHashtable
 *
 mFontAliasTable
 ;
+nsCOMPtr
+<
 nsIWidget
-*
+>
 mWidget
 ;
 private
