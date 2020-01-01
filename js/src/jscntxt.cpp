@@ -6909,6 +6909,18 @@ regExpPool
 )
 ;
 }
+#
+if
+defined
+(
+JS_TRACER
+)
+|
+|
+defined
+(
+JS_METHODJIT
+)
 static
 bool
 ComputeIsJITBroken
@@ -7272,6 +7284,8 @@ return
 isBroken
 ;
 }
+#
+endif
 void
 JSContext
 :

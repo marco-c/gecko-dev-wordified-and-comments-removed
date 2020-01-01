@@ -3885,7 +3885,7 @@ monoICSectionsLimit
 const
 {
 return
-nmapSectionsLimit
+nmapSectionLimit
 (
 )
 ;
