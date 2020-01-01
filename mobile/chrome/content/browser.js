@@ -13741,12 +13741,6 @@ Browser
 selectedTab
 )
 {
-bv
-.
-simulateMozAfterSizeChange
-(
-)
-;
 let
 restoringPage
 =
@@ -13885,6 +13879,14 @@ Browser
 _browserView
 .
 beginBatchOperation
+(
+)
+;
+Browser
+.
+_browserView
+.
+invalidateEntireView
 (
 )
 ;
