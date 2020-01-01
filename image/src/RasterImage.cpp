@@ -11511,6 +11511,8 @@ GraphicsFilter
 aFilter
 gfxSize
 aScale
+uint32_t
+aFlags
 )
 {
 #
@@ -11544,6 +11546,16 @@ mMultipart
 CanQualityScale
 (
 aScale
+)
+&
+&
+(
+aFlags
+&
+imgIContainer
+:
+:
+FLAG_HIGH_QUALITY_SCALING
 )
 )
 {
@@ -11790,6 +11802,8 @@ const
 nsIntRect
 &
 aSubimage
+uint32_t
+aFlags
 )
 {
 imgFrame
@@ -11845,6 +11859,7 @@ CanScale
 (
 aFilter
 scale
+aFlags
 )
 )
 {
@@ -12295,6 +12310,7 @@ aFilter
 aUserSpaceToImageSpace
 aFill
 aSubimage
+aFlags
 )
 ;
 if

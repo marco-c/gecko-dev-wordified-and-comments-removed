@@ -81,6 +81,9 @@ enum
 FLAG_SYNC_DECODE_IMAGES
 =
 0x01
+FLAG_PAINTING_TO_WINDOW
+=
+0x02
 }
 ;
 nsImageRenderer
