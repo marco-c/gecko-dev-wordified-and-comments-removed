@@ -2780,7 +2780,7 @@ MOZ_DELETE
 }
 ;
 inline
-nsresult
+void
 CreateNeededTablePseudos
 (
 nsFrameConstructorState
