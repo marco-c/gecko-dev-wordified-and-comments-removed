@@ -39473,7 +39473,7 @@ sNestingLevel
 +
 1
 ;
-int32_t
+uint32_t
 realInterval
 =
 interval
@@ -39494,8 +39494,11 @@ realInterval
 NS_MAX
 (
 realInterval
+uint32_t
+(
 DOMMinTimeoutValue
 (
+)
 )
 )
 ;
