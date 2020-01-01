@@ -349,6 +349,16 @@ mSpecifiedUnitType
 ;
 }
 bool
+HasBaseVal
+(
+)
+const
+{
+return
+mIsBaseSet
+;
+}
+bool
 IsExplicitlySet
 (
 )
