@@ -1556,6 +1556,7 @@ size
 ;
 if
 (
+!
 JS_XDRScript
 (
 xdr
@@ -1563,6 +1564,11 @@ script
 )
 )
 {
+rv
+=
+NS_ERROR_FAILURE
+;
+}
 uint32
 length
 ;
@@ -1600,14 +1606,6 @@ JS_XDRDestroy
 xdr
 )
 ;
-}
-else
-{
-rv
-=
-NS_ERROR_FAILURE
-;
-}
 if
 (
 data
