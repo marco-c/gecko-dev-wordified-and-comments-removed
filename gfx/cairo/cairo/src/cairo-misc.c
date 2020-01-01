@@ -1293,6 +1293,16 @@ _cairo_win32_tmpfile
 void
 )
 {
+#
+ifdef
+WINCE
+return
+tmpfile
+(
+)
+;
+#
+else
 DWORD
 path_len
 ;
@@ -1458,6 +1468,8 @@ NULL
 return
 fp
 ;
+#
+endif
 }
 #
 endif

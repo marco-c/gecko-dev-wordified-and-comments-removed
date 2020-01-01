@@ -1003,12 +1003,6 @@ CSRCS
 cairo
 -
 win32
-.
-c
-\
-cairo
--
-win32
 -
 font
 .
