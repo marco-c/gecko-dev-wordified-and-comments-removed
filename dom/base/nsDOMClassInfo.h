@@ -1155,10 +1155,6 @@ sDocument_id
 ;
 static
 jsid
-sWindow_id
-;
-static
-jsid
 sFrames_id
 ;
 static

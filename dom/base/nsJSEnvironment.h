@@ -999,7 +999,7 @@ nsCOMPtr
 <
 nsISupports
 >
-mGlobalWrapperRef
+mGlobalObjectRef
 ;
 static
 int
