@@ -2473,6 +2473,12 @@ aDeselectMenu
 if
 (
 mCloseTimer
+&
+&
+mTimerMenu
+=
+=
+aPopupFrame
 )
 {
 mCloseTimer
