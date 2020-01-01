@@ -19,3 +19,11 @@ DeleteBuffer
 (
 )
 ;
+void
+Swap
+(
+nsHtml5UTF16Buffer
+*
+aOther
+)
+;
