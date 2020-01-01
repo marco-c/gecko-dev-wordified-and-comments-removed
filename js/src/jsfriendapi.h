@@ -154,7 +154,8 @@ JS_FindCompilationScope
 JSContext
 *
 cx
-JSRawObject
+JSObject
+*
 obj
 )
 ;
@@ -166,7 +167,8 @@ JSFunction
 )
 JS_GetObjectFunction
 (
-JSRawObject
+JSObject
+*
 obj
 )
 ;
@@ -3622,7 +3624,8 @@ double
 )
 js_DateGetMsecSinceEpoch
 (
-JSRawObject
+JSObject
+*
 obj
 )
 ;
