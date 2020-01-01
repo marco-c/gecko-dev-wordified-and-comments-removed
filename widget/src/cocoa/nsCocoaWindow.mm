@@ -10157,6 +10157,13 @@ delegate
 geckoWidget
 ]
 ;
+if
+(
+!
+geckoWindow
+)
+return
+;
 nsEventStatus
 status
 =
