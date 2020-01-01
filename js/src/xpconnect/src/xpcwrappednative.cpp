@@ -11757,7 +11757,14 @@ val
 .
 u8
 =
+NS_MIN
+<
+PRUint32
+>
+(
 mArgc
+paramCount
+)
 -
 requiredArgs
 ;
