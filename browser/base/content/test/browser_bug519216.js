@@ -218,6 +218,12 @@ removeProgressListener
 this
 )
 ;
+executeSoon
+(
+function
+(
+)
+{
 gBrowser
 .
 addTab
@@ -232,6 +238,9 @@ removeCurrentTab
 ;
 finish
 (
+)
+;
+}
 )
 ;
 }
