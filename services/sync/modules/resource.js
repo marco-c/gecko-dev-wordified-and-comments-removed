@@ -520,6 +520,9 @@ Net
 .
 Resource
 "
+serverTime
+:
+null
 _userAgent
 :
 Services
@@ -2008,9 +2011,6 @@ __proto__
 AsyncResource
 .
 prototype
-serverTime
-:
-null
 _request
 :
 function
@@ -2384,7 +2384,7 @@ nsIHttpChannel
 ;
 try
 {
-Resource
+AsyncResource
 .
 serverTime
 =

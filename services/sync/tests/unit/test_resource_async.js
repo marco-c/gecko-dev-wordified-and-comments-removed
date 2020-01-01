@@ -3032,7 +3032,7 @@ Weave
 Timestamp
 header
 updates
-Resource
+AsyncResource
 .
 serverTime
 "
@@ -3044,7 +3044,7 @@ do_test_pending
 ;
 do_check_eq
 (
-Resource
+AsyncResource
 .
 serverTime
 null
@@ -3089,7 +3089,7 @@ null
 ;
 do_check_eq
 (
-Resource
+AsyncResource
 .
 serverTime
 TIMESTAMP
