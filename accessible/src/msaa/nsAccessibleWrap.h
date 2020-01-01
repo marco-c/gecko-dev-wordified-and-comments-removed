@@ -972,6 +972,11 @@ nsIAccessible
 aXPAccessible
 )
 ;
+void
+UnattachIEnumVariant
+(
+)
+;
 protected
 :
 virtual
@@ -983,7 +988,7 @@ nsIAccessibleEvent
 aEvent
 )
 ;
-PRUint16
+PRInt32
 mEnumVARIANTPosition
 ;
 enum

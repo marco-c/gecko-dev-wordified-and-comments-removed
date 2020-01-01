@@ -8683,12 +8683,6 @@ containerAccessible
 ;
 if
 (
-!
-isShowing
-)
-{
-if
-(
 childAccessible
 )
 {
@@ -8724,7 +8718,6 @@ FireDelayedAccessibleEvent
 reorderEvent
 )
 ;
-}
 }
 return
 NS_OK
