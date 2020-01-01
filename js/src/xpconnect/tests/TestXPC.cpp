@@ -4280,11 +4280,12 @@ jscontext
 ;
 glob
 =
-JS_NewGlobalObject
+JS_NewCompartmentAndGlobalObject
 (
 jscontext
 &
 global_class
+NULL
 )
 ;
 if
@@ -4301,6 +4302,13 @@ create
 global
 object
 "
+)
+;
+JSAutoEnterCompartment
+autoCompartment
+(
+jscontext
+glob
 )
 ;
 if

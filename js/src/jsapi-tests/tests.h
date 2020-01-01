@@ -1459,6 +1459,13 @@ global
 return
 NULL
 ;
+JSAutoEnterCompartment
+enter
+(
+cx
+global
+)
+;
 if
 (
 !
