@@ -520,12 +520,21 @@ prefix_command
 dirname
 )
         
+if
+self
+.
+debugMode
+:
+            
 cmd
 +
 =
-self
-.
-options
+[
+'
+-
+d
+'
+]
         
 cmd
 +
@@ -535,6 +544,11 @@ cmd
 -
 f
 '
+'
+.
+/
+'
++
 self
 .
 path
@@ -623,6 +637,11 @@ __init__
 (
 self
 path
+enable
+expect
+random
+slow
+debugMode
 )
 :
         
@@ -638,32 +657,31 @@ self
 .
 enable
 =
-True
+enable
         
 self
 .
 expect
 =
-True
+expect
         
 self
 .
 random
 =
-False
+random
         
 self
 .
 slow
 =
-False
+slow
         
 self
 .
-options
+debugMode
 =
-[
-]
+debugMode
         
 self
 .
@@ -751,14 +769,9 @@ slow
 '
         
 if
-'
--
-d
-'
-in
 self
 .
-options
+debugMode
 :
             
 ans
