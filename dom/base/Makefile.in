@@ -560,6 +560,10 @@ nsStructuredCloneContainer
 .
 h
 \
+nsDOMMemoryReporter
+.
+h
+\
 (
 NULL
 )
