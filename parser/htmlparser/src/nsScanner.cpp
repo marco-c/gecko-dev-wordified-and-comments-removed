@@ -4022,6 +4022,11 @@ mSlidingBuffer
 nsnull
 ;
 }
+PRUint32
+countRemaining
+=
+mCountRemaining
+;
 if
 (
 !
@@ -4145,6 +4150,8 @@ mFirstInvalidPosition
 .
 advance
 (
+countRemaining
++
 aErrorPos
 )
 ;
