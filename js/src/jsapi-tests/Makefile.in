@@ -445,6 +445,10 @@ testXDR
 .
 cpp
 \
+testIntString
+.
+cpp
+\
 (
 NULL
 )
