@@ -694,14 +694,6 @@ nsIDOMHTMLCanvasElement
 .
 idl
 \
-nsIDOMNSHTMLAnchorElement
-.
-idl
-\
-nsIDOMNSHTMLAnchorElement2
-.
-idl
-\
 nsIDOMNSHTMLDocument
 .
 idl

@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLAnchorElement2
-.
-h
-"
-#
-include
-"
 nsGenericHTMLElement
 .
 h
@@ -111,8 +104,6 @@ nsGenericHTMLElement
 public
 nsIDOMHTMLAnchorElement
 public
-nsIDOMNSHTMLAnchorElement2
-public
 nsILink
 public
 Link
@@ -166,8 +157,6 @@ nsGenericHTMLElement
 :
 )
 NS_DECL_NSIDOMHTMLANCHORELEMENT
-NS_DECL_NSIDOMNSHTMLANCHORELEMENT
-NS_DECL_NSIDOMNSHTMLANCHORELEMENT2
 NS_IMETHOD
 LinkAdded
 (
@@ -452,12 +441,10 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLAnchorElement
 )
-NS_HTML_CONTENT_INTERFACE_TABLE5
+NS_HTML_CONTENT_INTERFACE_TABLE3
 (
 nsHTMLAnchorElement
 nsIDOMHTMLAnchorElement
-nsIDOMNSHTMLAnchorElement
-nsIDOMNSHTMLAnchorElement2
 nsILink
 Link
 )
