@@ -18,6 +18,15 @@ stdio
 .
 h
 >
+#
+include
+"
+js
+/
+TypeDecls
+.
+h
+"
 namespace
 JS
 {
