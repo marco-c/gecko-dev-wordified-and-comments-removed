@@ -2591,7 +2591,6 @@ for
 (
 let
 [
-_
 item
 ]
 of
@@ -3690,7 +3689,6 @@ for
 (
 let
 [
-_
 item
 ]
 of

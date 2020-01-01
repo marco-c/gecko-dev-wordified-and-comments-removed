@@ -4072,7 +4072,6 @@ instance
 .
 expand
 (
-true
 )
 ;
 this
@@ -4280,7 +4279,6 @@ instance
 .
 expand
 (
-true
 )
 ;
 }
@@ -5099,7 +5097,6 @@ this
 .
 expand
 (
-true
 )
 ;
 }
@@ -5891,7 +5888,6 @@ for
 (
 let
 [
-_
 item
 ]
 of
