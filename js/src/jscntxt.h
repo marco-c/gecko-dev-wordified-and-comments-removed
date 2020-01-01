@@ -291,9 +291,6 @@ uint16
 >
 SlotList
 ;
-class
-TypeMap
-;
 #
 define
 CLS
@@ -353,12 +350,6 @@ CLS
 SlotList
 )
 globalSlots
-;
-CLS
-(
-TypeMap
-)
-globalTypeMap
 ;
 jsval
 *
