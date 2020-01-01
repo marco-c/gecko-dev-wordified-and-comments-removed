@@ -55,6 +55,11 @@ verbose
 1
 )
 ;
+var
+gAddedObserver
+=
+false
+;
 function
 onLoad
 (
@@ -119,6 +124,10 @@ update
 false
 )
 ;
+gAddedObserver
+=
+true
+;
 update
 (
 )
@@ -127,6 +136,11 @@ update
 function
 onUnload
 (
+)
+{
+if
+(
+gAddedObserver
 )
 {
 var
@@ -170,6 +184,7 @@ update
 "
 )
 ;
+}
 }
 function
 ChildMemoryListener
