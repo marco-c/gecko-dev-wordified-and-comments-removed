@@ -23,6 +23,8 @@ browser
 element
 -
 parent
+-
+factory
 ;
 1
 {
@@ -40,7 +42,7 @@ category
 app
 -
 startup
-BrowserElementParent
+BrowserElementParentFactory
 service
 mozilla
 .
@@ -51,5 +53,7 @@ browser
 element
 -
 parent
+-
+factory
 ;
 1
