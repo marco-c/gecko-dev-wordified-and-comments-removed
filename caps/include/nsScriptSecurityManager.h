@@ -1495,14 +1495,6 @@ aCapability
 )
 ;
 nsresult
-SavePrincipal
-(
-nsIPrincipal
-*
-aToSave
-)
-;
-nsresult
 CheckXPCPermissions
 (
 JSContext
