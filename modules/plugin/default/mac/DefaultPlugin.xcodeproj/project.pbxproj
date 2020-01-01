@@ -1258,8 +1258,6 @@ HEADER_SEARCH_PATHS
 dist
 /
 include
-/
-plugin
 ;
 INFOPLIST_FILE
 =
@@ -1345,8 +1343,6 @@ HEADER_SEARCH_PATHS
 dist
 /
 include
-/
-plugin
 ;
 INFOPLIST_FILE
 =
@@ -1446,8 +1442,6 @@ HEADER_SEARCH_PATHS
 dist
 /
 include
-/
-plugin
 ;
 ONLY_ACTIVE_ARCH
 =
@@ -1534,8 +1528,6 @@ HEADER_SEARCH_PATHS
 dist
 /
 include
-/
-plugin
 ;
 PREBINDING
 =

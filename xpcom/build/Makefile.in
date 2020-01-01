@@ -927,6 +927,9 @@ src
 (
 NULL
 )
+EXPORTS_NAMESPACES
+=
+mozilla
 SDK_HEADERS
 =
 \
@@ -945,6 +948,16 @@ EXPORTS
 =
 \
 nsXPCOMCIDInternal
+.
+h
+\
+(
+NULL
+)
+EXPORTS_mozilla
+=
+\
+XPCOM
 .
 h
 \

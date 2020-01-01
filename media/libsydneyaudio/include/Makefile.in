@@ -420,10 +420,10 @@ config
 autoconf
 .
 mk
-MODULE
+EXPORTS_NAMESPACES
 =
 sydneyaudio
-EXPORTS
+EXPORTS_sydneyaudio
 =
 \
 sydney_audio

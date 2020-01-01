@@ -913,7 +913,10 @@ c
 (
 NULL
 )
-EXPORTS
+EXPORTS_NAMESPACES
+=
+cairo
+EXPORTS_cairo
 =
 cairo
 .

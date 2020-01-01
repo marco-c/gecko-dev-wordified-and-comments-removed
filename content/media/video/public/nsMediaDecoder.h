@@ -11,7 +11,9 @@ nsMediaDecoder_h_
 #
 include
 "
-nsIObserver
+mozilla
+/
+XPCOM
 .
 h
 "
@@ -54,13 +56,6 @@ h
 include
 "
 nsITimer
-.
-h
-"
-#
-include
-"
-nsTimeStamp
 .
 h
 "

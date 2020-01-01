@@ -423,10 +423,10 @@ config
 autoconf
 .
 mk
-MODULE
+EXPORTS_NAMESPACES
 =
 fishsound
-EXPORTS
+EXPORTS_fishsound
 =
 \
 comments

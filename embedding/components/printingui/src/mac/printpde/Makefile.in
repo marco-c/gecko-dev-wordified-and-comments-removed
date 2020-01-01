@@ -418,6 +418,9 @@ config
 autoconf
 .
 mk
+MODULE
+=
+printpde
 include
 (
 topsrcdir
@@ -475,9 +478,6 @@ PBBUILD_ARG
 (
 PBBUILD_SETTINGS
 )
-MODULE
-=
-printpde
 unexport
 CC
 CXX

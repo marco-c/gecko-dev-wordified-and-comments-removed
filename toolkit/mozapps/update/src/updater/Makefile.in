@@ -574,6 +574,10 @@ dir
 srcdir
 )
 endif
+REQUIRES
++
+=
+string
 endif
 ifneq
 (
@@ -939,10 +943,6 @@ topsrcdir
 toolkit
 /
 xre
-REQUIRES
-+
-=
-string
 endif
 CXXFLAGS
 +
