@@ -505,6 +505,10 @@ browser_privatebrowsing_pageinfo
 .
 js
 \
+browser_privatebrowsing_popupmode
+.
+js
+\
 (
 NULL
 )
