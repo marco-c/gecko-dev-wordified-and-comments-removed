@@ -2306,6 +2306,10 @@ nsnull
 )
 ;
 }
+EvaluateAnimation
+(
+)
+;
 return
 rv
 ;
