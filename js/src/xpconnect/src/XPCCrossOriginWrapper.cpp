@@ -4544,7 +4544,7 @@ nsnull
 nsresult
 rv
 =
-IsWrapperSameOrigin
+CanAccessWrapper
 (
 cx
 wrappedObj
