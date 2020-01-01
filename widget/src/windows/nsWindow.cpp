@@ -6515,6 +6515,9 @@ mSizeMode
 return
 NS_OK
 ;
+#
+ifdef
+WINCE
 if
 (
 mWindowType
@@ -6534,6 +6537,8 @@ aMode
 nsSizeMode_Maximized
 ;
 }
+#
+endif
 rv
 =
 nsBaseWidget
