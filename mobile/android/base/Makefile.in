@@ -921,6 +921,10 @@ GlobalHistory
 .
 java
 \
+GeckoViewsFactory
+.
+java
+\
 LinkPreference
 .
 java
