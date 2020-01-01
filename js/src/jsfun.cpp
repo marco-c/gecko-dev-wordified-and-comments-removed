@@ -659,16 +659,6 @@ script
 (
 )
 ;
-if
-(
-!
-script
--
->
-hasAnyIonScript
-(
-)
-)
 ion
 :
 :
