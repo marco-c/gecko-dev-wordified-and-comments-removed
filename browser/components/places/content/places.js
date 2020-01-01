@@ -1513,13 +1513,11 @@ collection
 var
 folderId
 =
-content
+PlacesOrganizer
 .
-getResult
-(
-)
+_places
 .
-root
+selectedNode
 .
 itemId
 ;
