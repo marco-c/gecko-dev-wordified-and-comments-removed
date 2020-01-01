@@ -8541,8 +8541,8 @@ getBrowserURL
 )
 )
 {
-newWindow
-=
+window
+.
 openDialog
 (
 getBrowserURL
