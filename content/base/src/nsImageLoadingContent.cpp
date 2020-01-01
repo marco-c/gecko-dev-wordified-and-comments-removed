@@ -966,6 +966,14 @@ NS_FRAME_FIRST_REFLOW
 mVisibleCount
 >
 0
+|
+|
+shell
+-
+>
+AssumeAllImagesVisible
+(
+)
 )
 {
 if
