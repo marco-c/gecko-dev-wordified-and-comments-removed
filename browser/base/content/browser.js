@@ -16834,9 +16834,6 @@ location
 loadInSidebar
 "
 "
-folderPicker
-"
-"
 keyword
 "
 ]
@@ -30699,9 +30696,6 @@ description
 location
 "
 "
-folderPicker
-"
-"
 keyword
 "
 ]
@@ -36142,10 +36136,13 @@ hiddenRows
 location
 "
 "
+description
+"
+"
+tags
+"
+"
 loadInSidebar
-"
-"
-folderPicker
 "
 ]
 }
