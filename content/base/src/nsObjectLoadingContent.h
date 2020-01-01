@@ -657,7 +657,14 @@ mIsLoading
 1
 ;
 bool
+mScriptRequested
+:
+1
+;
+bool
 mSrcStreamLoading
+:
+1
 ;
 nsWeakFrame
 mPrintFrame
