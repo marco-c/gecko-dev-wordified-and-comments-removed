@@ -415,13 +415,6 @@ gtk
 h
 >
 #
-include
-"
-gfxXlibNativeRenderer
-.
-h
-"
-#
 endif
 #
 ifdef
@@ -14886,10 +14879,7 @@ gdkVisual
 )
 ;
 #
-endif
-#
-ifdef
-MOZ_WIDGET_QT
+else
 Display
 *
 dpy
