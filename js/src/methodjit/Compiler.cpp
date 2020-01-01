@@ -14473,7 +14473,7 @@ prepareStubCall
 (
 Uses
 (
-1
+0
 )
 )
 ;
@@ -14494,12 +14494,6 @@ ArgReg1
 stubCall
 (
 stub
-)
-;
-frame
-.
-pop
-(
 )
 ;
 frame
