@@ -7661,6 +7661,15 @@ return
 nsGkAtoms
 :
 :
+tableOuterFrame
+=
+=
+aParentType
+|
+|
+nsGkAtoms
+:
+:
 tableFrame
 =
 =
