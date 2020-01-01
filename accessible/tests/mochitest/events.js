@@ -6466,8 +6466,6 @@ is
 aEvent
 .
 isInserted
-(
-)
 aIsInserted
 "
 Text
@@ -6684,8 +6682,6 @@ is
 event
 .
 isExtraState
-(
-)
 aIsExtraState
 "
 Wrong
@@ -6723,8 +6719,6 @@ is
 event
 .
 isEnabled
-(
-)
 aIsEnabled
 "
 Wrong
@@ -6999,8 +6993,6 @@ is
 event
 .
 isExtraState
-(
-)
 false
 "
 Wrong
@@ -7020,8 +7012,6 @@ is
 event
 .
 isEnabled
-(
-)
 aIsEnabled
 "
 Wrong
@@ -7304,8 +7294,6 @@ length
 event
 .
 isInserted
-(
-)
 ?
 "
 inserted

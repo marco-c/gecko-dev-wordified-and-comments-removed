@@ -741,8 +741,6 @@ STATE_CHECKED
 event
 .
 isExtraState
-(
-)
 )
 )
 {
@@ -760,8 +758,6 @@ accessible
 event
 .
 isEnabled
-(
-)
 ?
 '
 check

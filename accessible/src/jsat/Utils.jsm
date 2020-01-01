@@ -1222,13 +1222,9 @@ nsIAccessibleStateChangeEvent
 let
 stateStrings
 =
-(
 event
 .
 isExtraState
-(
-)
-)
 ?
 Utils
 .
