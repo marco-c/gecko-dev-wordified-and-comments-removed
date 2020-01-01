@@ -1944,6 +1944,14 @@ nsIFrameLoader
 aFrameLoader
 )
 ;
+already_AddRefed
+<
+nsFrameLoader
+>
+GetFrameLoader
+(
+)
+;
 nsresult
 SwapFrameLoaders
 (
