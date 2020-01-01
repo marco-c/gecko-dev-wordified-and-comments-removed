@@ -648,3 +648,16 @@ menu
 )
 ;
 }
+#
+clearDownloadsButton
+>
+.
+toolbarbutton
+-
+icon
+{
+display
+:
+none
+;
+}
