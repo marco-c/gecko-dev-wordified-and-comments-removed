@@ -158,13 +158,6 @@ DISPATCH_NORMAL
 }
 }
 ;
-function
-run_test
-(
-)
-{
-return
-;
 os
 .
 addObserver
@@ -174,6 +167,11 @@ NS_PLACES_INIT_COMPLETE_TOPIC
 false
 )
 ;
+function
+run_test
+(
+)
+{
 remove_bookmarks_html
 (
 )
