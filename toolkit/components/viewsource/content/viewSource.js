@@ -1493,6 +1493,7 @@ SaveLinkTitle
 "
 null
 null
+gDocument
 null
 gPageLoader
 )

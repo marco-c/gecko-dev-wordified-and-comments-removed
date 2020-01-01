@@ -6314,6 +6314,7 @@ false
 doc
 .
 documentURIObject
+doc
 )
 ;
 }

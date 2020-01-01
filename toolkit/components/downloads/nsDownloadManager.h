@@ -817,6 +817,9 @@ mSpeed
 bool
 mHasMultipleFiles
 ;
+bool
+mPrivate
+;
 enum
 AutoResume
 {

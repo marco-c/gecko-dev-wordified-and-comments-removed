@@ -601,6 +601,13 @@ aPostData
 referrerURI
 :
 aReferrerURI
+initiatingDoc
+:
+event
+.
+target
+.
+ownerDocument
 }
 ;
 }
@@ -942,6 +949,13 @@ params
 .
 isUTF8
 ;
+var
+aInitiatingDoc
+=
+params
+.
+initiatingDoc
+;
 if
 (
 where
@@ -960,6 +974,7 @@ null
 true
 null
 aReferrerURI
+aInitiatingDoc
 )
 ;
 return

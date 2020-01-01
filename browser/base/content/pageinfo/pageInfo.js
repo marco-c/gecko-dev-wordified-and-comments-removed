@@ -4938,6 +4938,7 @@ item
 .
 baseURI
 )
+gDocument
 )
 ;
 }
@@ -4979,6 +4980,7 @@ SaveImageTitle
 "
 aChosenData
 aBaseURI
+gDocument
 )
 ;
 }

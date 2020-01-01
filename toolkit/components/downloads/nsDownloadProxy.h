@@ -115,6 +115,8 @@ aTempFile
 nsICancelable
 *
 aCancelable
+bool
+aIsPrivate
 )
 {
 nsresult
@@ -167,6 +169,7 @@ aMIMEInfo
 aStartTime
 aTempFile
 aCancelable
+aIsPrivate
 getter_AddRefs
 (
 mInner

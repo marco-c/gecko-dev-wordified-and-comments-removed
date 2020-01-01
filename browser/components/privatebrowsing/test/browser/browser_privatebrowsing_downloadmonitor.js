@@ -165,6 +165,13 @@ addDownload
 (
 dm
 {
+isPrivate
+:
+window
+.
+gPrivateBrowsingUI
+.
+privateWindow
 resultFileName
 :
 "
@@ -296,6 +303,13 @@ addDownload
 (
 dm
 {
+isPrivate
+:
+window
+.
+gPrivateBrowsingUI
+.
+privateWindow
 resultFileName
 :
 "
@@ -789,6 +803,9 @@ now
 )
 null
 persist
+aParams
+.
+isPrivate
 )
 ;
 let

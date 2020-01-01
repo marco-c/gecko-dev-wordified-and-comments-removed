@@ -673,6 +673,9 @@ now
 )
 null
 persist
+aParams
+.
+isPrivate
 )
 ;
 var
