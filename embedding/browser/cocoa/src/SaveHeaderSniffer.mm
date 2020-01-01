@@ -2715,11 +2715,7 @@ SaveDocument
 domDoc
 destFile
 filesFolder
-mContentType
-.
-get
-(
-)
+null
 encodingFlags
 80
 )
