@@ -4461,7 +4461,7 @@ false
 atomsCompartment
 -
 >
-isSystemCompartment
+isSystem
 =
 true
 ;
