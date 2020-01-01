@@ -144,6 +144,10 @@ final
 int
 mMaxResults
 ;
+private
+boolean
+mCheckNetwork
+;
 public
 SuggestClient
 (
@@ -172,6 +176,10 @@ suggestTemplate
 mTimeout
 =
 timeout
+;
+mCheckNetwork
+=
+true
 ;
 }
 public
@@ -249,6 +257,9 @@ if
 isNetworkConnected
 (
 )
+&
+&
+mCheckNetwork
 )
 {
 Log
