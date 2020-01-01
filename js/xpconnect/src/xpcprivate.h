@@ -13885,7 +13885,7 @@ cx
 bool
 savedFrameChain
 ;
-jsrefcount
+unsigned
 suspendDepth
 ;
 }

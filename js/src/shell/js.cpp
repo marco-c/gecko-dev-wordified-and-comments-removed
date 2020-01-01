@@ -7838,7 +7838,7 @@ vp
 ;
 }
 static
-jsrefcount
+unsigned
 finalizeCount
 =
 0
