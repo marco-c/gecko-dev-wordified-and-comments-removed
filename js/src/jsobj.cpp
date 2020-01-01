@@ -5710,10 +5710,10 @@ JSScript
 *
 compiled
 =
-BytecodeCompiler
+frontend
 :
 :
-compileScript
+CompileScript
 (
 cx
 &

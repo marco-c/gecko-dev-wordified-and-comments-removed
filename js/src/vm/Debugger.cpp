@@ -15304,10 +15304,10 @@ JSScript
 *
 script
 =
-BytecodeCompiler
+frontend
 :
 :
-compileScript
+CompileScript
 (
 cx
 scobj

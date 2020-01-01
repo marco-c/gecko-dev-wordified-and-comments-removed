@@ -909,10 +909,13 @@ global
 code
 (
 see
-BytecodeCompiler
+js
 :
 :
-compileScript
+frontend
+:
+:
+CompileScript
 )
 *
 /

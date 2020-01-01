@@ -10899,10 +10899,10 @@ cx
 bool
 ok
 =
-BytecodeCompiler
+frontend
 :
 :
-compileFunctionBody
+CompileFunctionBody
 (
 cx
 fun
