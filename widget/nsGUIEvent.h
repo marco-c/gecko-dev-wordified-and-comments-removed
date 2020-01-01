@@ -1895,6 +1895,11 @@ mNoCrossProcessBoundaryForwarding
 1
 ;
 bool
+mNoContentDispatch
+:
+1
+;
+bool
 InTargetPhase
 (
 )
