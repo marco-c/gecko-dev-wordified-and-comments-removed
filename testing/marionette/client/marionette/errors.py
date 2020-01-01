@@ -101,14 +101,6 @@ INVALID_RESPONSE
 =
 53
     
-FRAME_SEND_NOT_INITIALIZED_ERROR
-=
-54
-    
-FRAME_SEND_FAILURE_ERROR
-=
-55
-    
 MARIONETTE_ERROR
 =
 500
@@ -409,22 +401,6 @@ MarionetteException
 pass
 class
 MoveTargetOutOfBoundsException
-(
-MarionetteException
-)
-:
-    
-pass
-class
-FrameSendNotInitializedError
-(
-MarionetteException
-)
-:
-    
-pass
-class
-FrameSendFailureError
 (
 MarionetteException
 )
