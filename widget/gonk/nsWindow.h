@@ -392,6 +392,14 @@ NeedsPaint
 (
 )
 ;
+virtual
+Composer2D
+*
+GetComposer2D
+(
+)
+MOZ_OVERRIDE
+;
 protected
 :
 nsWindow

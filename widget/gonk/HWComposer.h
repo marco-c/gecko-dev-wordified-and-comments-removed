@@ -57,7 +57,7 @@ surf
 )
 const
 ;
-private
+protected
 :
 struct
 cb_context

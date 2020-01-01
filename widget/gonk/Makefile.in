@@ -196,6 +196,10 @@ HWComposer
 .
 cpp
 \
+HwcComposer2D
+.
+cpp
+\
 nsAppShell
 .
 cpp
