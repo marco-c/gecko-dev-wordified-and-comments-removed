@@ -1,6 +1,13 @@
 #
 include
 "
+nsMemory
+.
+h
+"
+#
+include
+"
 nsXPIDLString
 .
 h
@@ -636,7 +643,7 @@ cmsMsg
 =
 NSS_CMSMessage_Create
 (
-nullptr
+NULL
 )
 ;
 if
@@ -1639,7 +1646,7 @@ char
 )
 data
 dataLen
-nullptr
+NULL
 )
 ;
 if
@@ -1767,7 +1774,7 @@ PL_Base64Decode
 (
 data
 len
-nullptr
+NULL
 )
 ;
 if

@@ -99,6 +99,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nspr
 .
 h
@@ -2296,7 +2303,7 @@ char
 *
 dbkey
 =
-nullptr
+NULL
 ;
 rv
 =
@@ -3064,7 +3071,7 @@ char
 *
 dbkey
 =
-nullptr
+NULL
 ;
 nsresult
 rv

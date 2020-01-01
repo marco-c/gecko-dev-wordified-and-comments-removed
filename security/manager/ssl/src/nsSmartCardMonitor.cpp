@@ -294,6 +294,11 @@ nullptr
 head
 )
 ;
+if
+(
+current
+)
+{
 return
 thread
 -
@@ -301,6 +306,10 @@ thread
 Start
 (
 )
+;
+}
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
 }
 static
@@ -885,8 +894,10 @@ PR_SecondsToInterval
 ;
 if
 (
-!
 slot
+=
+=
+nullptr
 )
 {
 break

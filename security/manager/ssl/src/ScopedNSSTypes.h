@@ -13,6 +13,11 @@ Scoped
 .
 h
 "
+extern
+"
+C
+"
+{
 #
 include
 "
@@ -55,6 +60,7 @@ sechash
 .
 h
 "
+}
 MOZ_TYPE_SPECIFIC_SCOPED_POINTER_TEMPLATE
 (
 ScopedPRFileDesc
