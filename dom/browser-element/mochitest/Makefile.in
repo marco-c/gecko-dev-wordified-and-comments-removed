@@ -694,6 +694,14 @@ test_browserElement_inproc_PurgeHistory
 .
 html
 \
+browserElement_DocumentFirstPaint
+.
+js
+\
+test_browserElement_inproc_DocumentFirstPaint
+.
+html
+\
 (
 NULL
 )
@@ -984,6 +992,10 @@ test_browserElement_oop_ReloadPostRequest
 html
 \
 test_browserElement_oop_PurgeHistory
+.
+html
+\
+test_browserElement_oop_DocumentFirstPaint
 .
 html
 \
