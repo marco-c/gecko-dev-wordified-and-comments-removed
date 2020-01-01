@@ -22,7 +22,7 @@ tabview
 /
 AllTabs
 .
-js
+jsm
 "
 )
 ;
@@ -45,7 +45,7 @@ tabview
 /
 groups
 .
-js
+jsm
 "
 )
 ;
@@ -68,7 +68,7 @@ tabview
 /
 utils
 .
-js
+jsm
 "
 )
 ;
