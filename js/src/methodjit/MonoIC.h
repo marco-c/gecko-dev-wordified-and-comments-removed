@@ -315,6 +315,11 @@ shapeReg
 :
 5
 ;
+bool
+hasExtraStub
+:
+1
+;
 int
 fastRejoinOffset
 :
