@@ -395,6 +395,10 @@ param
 "
 )
 ;
+NS_IMPL_QUERY_CYCLE_COLLECTION
+(
+nsXTFElementWrapper
+)
 if
 (
 aIID
