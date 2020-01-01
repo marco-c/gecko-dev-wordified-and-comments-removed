@@ -1320,6 +1320,10 @@ nsIURI
 aPreviousURI
 PRUint32
 aChannelRedirectFlags
+PRUint32
+aResponseStatus
+=
+0
 )
 ;
 nsresult
