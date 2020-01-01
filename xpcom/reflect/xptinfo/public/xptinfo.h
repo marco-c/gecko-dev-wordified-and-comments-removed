@@ -730,7 +730,6 @@ GetResult
 const
 {
 return
-*
 result
 ;
 }
