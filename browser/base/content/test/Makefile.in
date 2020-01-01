@@ -579,6 +579,10 @@ browser_bug455852
 .
 js
 \
+browser_bug462673
+.
+js
+\
 browser_discovery
 .
 js
@@ -590,6 +594,10 @@ html
 moz
 .
 png
+\
+test_bug462673
+.
+html
 \
 browser_getshortcutoruri
 .
