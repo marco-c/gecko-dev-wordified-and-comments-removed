@@ -1088,7 +1088,7 @@ defineProperty
 (
 this
 "
-nationalNumber
+internationalNumber
 "
 {
 value
