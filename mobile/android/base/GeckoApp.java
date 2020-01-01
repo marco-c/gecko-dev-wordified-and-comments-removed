@@ -9933,10 +9933,6 @@ mLayerController
 getView
 (
 )
-.
-getAndroidView
-(
-)
 0
 )
 ;

@@ -1809,7 +1809,7 @@ public
 void
 beginTransaction
 (
-AbstractLayerView
+LayerView
 aView
 )
 {

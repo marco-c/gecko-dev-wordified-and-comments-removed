@@ -47,7 +47,7 @@ gecko
 .
 gfx
 .
-AbstractLayerView
+LayerView
 ;
 import
 java
@@ -3056,7 +3056,7 @@ getLayerController
 (
 )
 ;
-AbstractLayerView
+LayerView
 v
 =
 layerController
@@ -3450,7 +3450,7 @@ boolean
 enable
 )
 {
-AbstractLayerView
+LayerView
 v
 =
 GeckoApp
@@ -6898,7 +6898,7 @@ getLayerController
 (
 )
 ;
-AbstractLayerView
+LayerView
 layerView
 =
 layerController
@@ -6908,10 +6908,6 @@ getView
 )
 ;
 layerView
-.
-getAndroidView
-(
-)
 .
 performHapticFeedback
 (
@@ -6945,7 +6941,7 @@ getLayerController
 (
 )
 ;
-AbstractLayerView
+LayerView
 layerView
 =
 layerController
@@ -10843,7 +10839,7 @@ getLayerController
 (
 )
 ;
-AbstractLayerView
+LayerView
 layerView
 =
 layerController

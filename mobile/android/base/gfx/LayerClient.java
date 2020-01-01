@@ -76,7 +76,7 @@ mLayerController
 null
 )
 {
-AbstractLayerView
+LayerView
 view
 =
 mLayerController

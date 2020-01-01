@@ -943,12 +943,6 @@ java
 \
 gfx
 /
-AbstractLayerView
-.
-java
-\
-gfx
-/
 BitmapUtils
 .
 java
