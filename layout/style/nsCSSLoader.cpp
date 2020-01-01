@@ -6324,6 +6324,15 @@ rv
 )
 )
 {
+#
+ifdef
+DEBUG
+mSyncCallback
+=
+PR_FALSE
+;
+#
+endif
 LOG_ERROR
 (
 (
