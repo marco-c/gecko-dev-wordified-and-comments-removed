@@ -8273,9 +8273,11 @@ PRInt32
 aStartLine
 )
 {
-NS_ENSURE_ARG_POINTER
+NS_ENSURE_TRUE
 (
 aFrame
+-
+1
 )
 ;
 nsTableRowFrame
