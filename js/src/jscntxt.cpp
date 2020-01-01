@@ -120,6 +120,13 @@ h
 #
 include
 "
+jsmath
+.
+h
+"
+#
+include
+"
 jsnum
 .
 h
@@ -262,6 +269,11 @@ traceMonitor
 ;
 #
 endif
+js_InitRandom
+(
+data
+)
+;
 }
 static
 void
