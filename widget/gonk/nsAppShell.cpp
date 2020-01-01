@@ -2721,12 +2721,12 @@ mNativeCallbackRequest
 (
 false
 )
-mHandlers
-(
-)
 mEnableDraw
 (
 false
+)
+mHandlers
+(
 )
 {
 gAppShell
