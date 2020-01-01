@@ -2224,6 +2224,12 @@ shouldShow
 this
 .
 _hasMultipleBGImages
+&
+&
+!
+this
+.
+inSyntheticDoc
 )
 ;
 this
@@ -2244,6 +2250,12 @@ shouldShow
 this
 .
 _hasMultipleBGImages
+&
+&
+!
+this
+.
+inSyntheticDoc
 )
 ;
 document
@@ -3005,6 +3017,11 @@ onVideo
 this
 .
 onAudio
+|
+|
+this
+.
+inSyntheticDoc
 )
 |
 |
