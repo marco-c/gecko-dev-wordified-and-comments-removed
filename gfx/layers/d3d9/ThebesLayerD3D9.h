@@ -104,6 +104,11 @@ IDirect3DTexture9
 >
 mTexture
 ;
+void
+VerifyContentType
+(
+)
+;
 nsRefPtr
 <
 gfxASurface
