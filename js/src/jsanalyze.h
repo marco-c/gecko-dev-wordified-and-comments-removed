@@ -1244,6 +1244,10 @@ next
 struct
 LifetimeLoop
 {
+LifetimeLoop
+*
+parent
+;
 uint32
 head
 ;
