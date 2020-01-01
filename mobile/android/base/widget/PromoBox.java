@@ -181,7 +181,7 @@ Random
 ;
 public
 class
-AboutHomePromoBox
+PromoBox
 extends
 TextView
 implements
@@ -478,7 +478,7 @@ Context
 mContext
 ;
 public
-AboutHomePromoBox
+PromoBox
 (
 Context
 context
@@ -748,7 +748,7 @@ return
 }
 if
 (
-AboutHomePromoBox
+PromoBox
 .
 sTypeIndex
 =
@@ -757,7 +757,7 @@ sTypeIndex
 1
 |
 |
-AboutHomePromoBox
+PromoBox
 .
 sTypeIndex
 >
@@ -769,7 +769,7 @@ size
 )
 )
 {
-AboutHomePromoBox
+PromoBox
 .
 sTypeIndex
 =
@@ -794,7 +794,7 @@ types
 .
 get
 (
-AboutHomePromoBox
+PromoBox
 .
 sTypeIndex
 )

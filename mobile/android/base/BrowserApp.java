@@ -120,6 +120,17 @@ AboutHomeContent
 import
 org
 .
+mozilla
+.
+gecko
+.
+widget
+.
+TopSitesView
+;
+import
+org
+.
 json
 .
 JSONArray
@@ -7965,7 +7976,7 @@ mAboutHomeContent
 unpinSite
 (
 info
-AboutHomeContent
+TopSitesView
 .
 UnpinFlags
 .
@@ -8004,7 +8015,7 @@ mAboutHomeContent
 unpinSite
 (
 info
-AboutHomeContent
+TopSitesView
 .
 UnpinFlags
 .
