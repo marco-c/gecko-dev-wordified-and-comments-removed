@@ -9639,6 +9639,13 @@ sheet
 "
 )
 ;
+mPostedEvents
+.
+RemoveElement
+(
+aEvent
+)
+;
 if
 (
 !
@@ -9660,13 +9667,6 @@ NS_OK
 )
 ;
 }
-mPostedEvents
-.
-RemoveElement
-(
-aEvent
-)
-;
 if
 (
 mDocument
