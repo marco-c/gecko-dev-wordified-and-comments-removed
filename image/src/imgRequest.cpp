@@ -2660,11 +2660,6 @@ count
 out
 )
 ;
-#
-ifdef
-DEBUG
-#
-endif
 nsCOMPtr
 <
 nsIChannel
