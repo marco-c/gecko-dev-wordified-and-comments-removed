@@ -1226,17 +1226,6 @@ GpRegs
 |
 FpRegs
 ;
-debug_only
-(
-a
-.
-managed
-=
-a
-.
-free
-;
-)
 }
 void
 Assembler

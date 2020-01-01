@@ -857,7 +857,17 @@ void
 evictAllActiveRegs
 (
 )
+{
+evictSomeActiveRegs
+(
+~
+RegisterMask
+(
+0
+)
+)
 ;
+}
 void
 evictSomeActiveRegs
 (
