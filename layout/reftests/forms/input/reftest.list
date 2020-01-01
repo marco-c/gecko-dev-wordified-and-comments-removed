@@ -1,4 +1,10 @@
 include
+email
+/
+reftest
+.
+list
+include
 tel
 /
 reftest

@@ -13304,6 +13304,9 @@ GetType
 )
 {
 case
+NS_FORM_INPUT_EMAIL
+:
+case
 NS_FORM_INPUT_SEARCH
 :
 case
