@@ -537,6 +537,10 @@ browser_bug_865288_repeat_different_objects
 .
 js
 \
+browser_jsterm_inspect
+.
+js
+\
 head
 .
 js
