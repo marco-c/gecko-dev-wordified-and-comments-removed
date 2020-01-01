@@ -881,6 +881,10 @@ test_bug414796
 .
 html
 \
+test_bug527896
+.
+html
+\
 test_bug416317
 -
 1

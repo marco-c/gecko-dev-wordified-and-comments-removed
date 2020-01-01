@@ -597,7 +597,7 @@ treeOp
 >
 Init
 (
-eTreeOpSetScriptLineNumber
+eTreeOpSetScriptLineNumberAndFreeze
 content
 tokenizer
 -
@@ -975,7 +975,7 @@ treeOp
 >
 Init
 (
-eTreeOpSetScriptLineNumber
+eTreeOpSetScriptLineNumberAndFreeze
 content
 tokenizer
 -
@@ -1232,7 +1232,7 @@ treeOp
 >
 Init
 (
-eTreeOpSetScriptLineNumber
+eTreeOpSetScriptLineNumberAndFreeze
 content
 tokenizer
 -

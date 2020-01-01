@@ -3011,7 +3011,7 @@ rv
 ;
 }
 case
-eTreeOpSetScriptLineNumber
+eTreeOpSetScriptLineNumberAndFreeze
 :
 {
 nsIContent
@@ -3057,6 +3057,13 @@ sele
 SetScriptLineNumber
 (
 mInt
+)
+;
+sele
+-
+>
+FreezeUriAsyncDefer
+(
 )
 ;
 return

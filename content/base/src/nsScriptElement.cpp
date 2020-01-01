@@ -593,6 +593,10 @@ return
 NS_OK
 ;
 }
+FreezeUriAsyncDefer
+(
+)
+;
 if
 (
 InNonScriptingContainer

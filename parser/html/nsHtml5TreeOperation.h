@@ -67,7 +67,7 @@ eTreeOpProcessOfflineManifest
 eTreeOpMarkMalformedIfScript
 eTreeOpStreamEnded
 eTreeOpSetStyleLineNumber
-eTreeOpSetScriptLineNumber
+eTreeOpSetScriptLineNumberAndFreeze
 eTreeOpStartLayout
 }
 ;
