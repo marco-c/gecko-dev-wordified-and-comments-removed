@@ -2228,7 +2228,7 @@ xHeight
 ;
 #
 if
-0
+1
 FT_Face
 face
 =
