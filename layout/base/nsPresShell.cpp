@@ -21111,7 +21111,7 @@ GetPresContext
 )
 -
 >
-IsRootContentDocument
+IsCrossProcessRootContentDocument
 (
 )
 &
