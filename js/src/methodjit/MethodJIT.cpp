@@ -3967,7 +3967,6 @@ execPools
 }
 #
 endif
-}
 cx
 -
 >
@@ -3979,6 +3978,7 @@ script
 jit
 )
 ;
+}
 }
 #
 ifdef

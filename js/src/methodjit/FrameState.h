@@ -1343,7 +1343,7 @@ n
 )
 ;
 inline
-void
+bool
 addEscaping
 (
 uint32
