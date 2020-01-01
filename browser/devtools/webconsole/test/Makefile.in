@@ -585,6 +585,10 @@ browser_console_clear_on_reload
 .
 js
 \
+browser_console_keyboard_accessibility
+.
+js
+\
 head
 .
 js
