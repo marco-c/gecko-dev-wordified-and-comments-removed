@@ -1891,13 +1891,6 @@ PRInt32
 aTarget
 )
 ;
-virtual
-PRBool
-ParentDisablesSelection
-(
-)
-const
-;
 static
 void
 FillCursorInformationFromStyle

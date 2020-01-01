@@ -24167,17 +24167,6 @@ return
 ;
 if
 (
-aSelected
-&
-&
-ParentDisablesSelection
-(
-)
-)
-return
-;
-if
-(
 aType
 =
 =

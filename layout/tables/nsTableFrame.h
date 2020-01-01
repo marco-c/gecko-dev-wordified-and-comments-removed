@@ -1429,13 +1429,6 @@ GetSkipSides
 )
 const
 ;
-virtual
-PRBool
-ParentDisablesSelection
-(
-)
-const
-;
 public
 :
 PRBool

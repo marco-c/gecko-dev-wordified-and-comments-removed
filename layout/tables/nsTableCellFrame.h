@@ -547,13 +547,6 @@ GetSkipSides
 const
 ;
 virtual
-PRBool
-ParentDisablesSelection
-(
-)
-const
-;
-virtual
 void
 GetSelfOverflow
 (
