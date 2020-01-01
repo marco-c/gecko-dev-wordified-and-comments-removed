@@ -123,6 +123,10 @@ _seekTarget
 =
 target
 ;
+seekedNonZero
+=
+true
+;
 }
 }
 function
@@ -179,10 +183,6 @@ v
 .
 currentTime
 )
-;
-seekedNonZero
-=
-true
 ;
 v
 .

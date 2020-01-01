@@ -594,9 +594,6 @@ PRUint32
 mFrameDuration
 ;
 float
-mFrameRate
-;
-float
 mPixelAspectRatio
 ;
 }

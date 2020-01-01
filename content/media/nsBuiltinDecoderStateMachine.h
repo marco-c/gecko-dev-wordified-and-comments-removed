@@ -545,6 +545,13 @@ FindEndTime
 )
 ;
 void
+UpdatePlaybackPositionInternal
+(
+PRInt64
+aTime
+)
+;
+void
 RenderVideoFrame
 (
 VideoData

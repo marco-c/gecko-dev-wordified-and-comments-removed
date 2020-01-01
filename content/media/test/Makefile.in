@@ -793,6 +793,14 @@ seek11
 .
 js
 \
+seek12
+.
+js
+\
+seek13
+.
+js
+\
 test_access_control
 .
 html
