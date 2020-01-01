@@ -2132,6 +2132,11 @@ boolean
 aSuppress
 )
 ;
+void
+clearMozAfterPaintEvents
+(
+)
+;
 /
 *
 *
