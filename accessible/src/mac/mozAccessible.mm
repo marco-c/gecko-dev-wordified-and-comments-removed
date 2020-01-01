@@ -2019,7 +2019,6 @@ if
 (
 nativeParent
 )
-{
 return
 mParent
 =
@@ -2028,7 +2027,6 @@ GetClosestInterestingAccessible
 nativeParent
 )
 ;
-}
 }
 /
 /
@@ -2151,15 +2149,13 @@ for
 self
 )
 ;
+return
 mParent
 =
 GetClosestInterestingAccessible
 (
 nativeParent
 )
-;
-return
-mParent
 ;
 NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;

@@ -641,7 +641,6 @@ isEqualToString
 NSAccessibilityMainAttribute
 ]
 )
-{
 return
 [
 NSNumber
@@ -656,7 +655,6 @@ isMainWindow
 ]
 ]
 ;
-}
 if
 (
 [
@@ -666,7 +664,6 @@ isEqualToString
 NSAccessibilityMinimizedAttribute
 ]
 )
-{
 return
 [
 NSNumber
@@ -681,7 +678,6 @@ isMiniaturized
 ]
 ]
 ;
-}
 return
 [
 super
