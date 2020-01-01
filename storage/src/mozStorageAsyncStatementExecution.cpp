@@ -475,9 +475,10 @@ getAsyncExecutionTarget
 (
 )
 ;
-MOZ_ASSERT
+NS_ENSURE_TRUE
 (
 target
+NS_ERROR_NOT_AVAILABLE
 )
 ;
 nsresult
