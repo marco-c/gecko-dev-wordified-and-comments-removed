@@ -6206,6 +6206,14 @@ replacedContent
 ;
 if
 (
+aBuilder
+-
+>
+IsForPainting
+(
+)
+&
+&
 mInstanceOwner
 &
 &
