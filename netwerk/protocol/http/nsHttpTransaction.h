@@ -217,9 +217,6 @@ SetSecurityCallbacks
 nsIInterfaceRequestor
 *
 aCallbacks
-nsIEventTarget
-*
-aCallbackTarget
 )
 ;
 nsHttpResponseHead

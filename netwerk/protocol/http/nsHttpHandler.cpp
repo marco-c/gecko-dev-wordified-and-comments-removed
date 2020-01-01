@@ -8385,9 +8385,6 @@ aURI
 nsIInterfaceRequestor
 *
 aCallbacks
-nsIEventTarget
-*
-aTarget
 )
 {
 nsIStrictTransportSecurityService
@@ -8642,7 +8639,6 @@ SpeculativeConnect
 (
 ci
 aCallbacks
-aTarget
 )
 ;
 }

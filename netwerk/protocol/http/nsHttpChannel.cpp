@@ -2275,9 +2275,6 @@ SpeculativeConnect
 (
 mConnectionInfo
 callbacks
-NS_GetCurrentThread
-(
-)
 )
 ;
 }
@@ -24810,6 +24807,9 @@ NS_NewNotificationCallbacksAggregation
 (
 mCallbacks
 mLoadGroup
+NS_GetCurrentThread
+(
+)
 getter_AddRefs
 (
 callbacks
@@ -24822,9 +24822,6 @@ mTransaction
 SetSecurityCallbacks
 (
 callbacks
-NS_GetCurrentThread
-(
-)
 )
 ;
 }

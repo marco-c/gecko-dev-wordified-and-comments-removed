@@ -4815,9 +4815,6 @@ IOServiceProxyCallback
 nsIInterfaceRequestor
 *
 aCallbacks
-nsIEventTarget
-*
-aTarget
 nsIOService
 *
 aIOService
@@ -4826,10 +4823,6 @@ aIOService
 mCallbacks
 (
 aCallbacks
-)
-mTarget
-(
-aTarget
 )
 mIOService
 (
@@ -4844,12 +4837,6 @@ nsRefPtr
 nsIInterfaceRequestor
 >
 mCallbacks
-;
-nsRefPtr
-<
-nsIEventTarget
->
-mTarget
 ;
 nsRefPtr
 <
@@ -5008,7 +4995,6 @@ SpeculativeConnect
 (
 aURI
 mCallbacks
-mTarget
 )
 ;
 return
@@ -5027,9 +5013,6 @@ aURI
 nsIInterfaceRequestor
 *
 aCallbacks
-nsIEventTarget
-*
-aTarget
 )
 {
 nsresult
@@ -5074,7 +5057,6 @@ new
 IOServiceProxyCallback
 (
 aCallbacks
-aTarget
 this
 )
 ;

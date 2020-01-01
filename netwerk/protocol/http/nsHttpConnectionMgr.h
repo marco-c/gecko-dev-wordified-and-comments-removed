@@ -244,8 +244,6 @@ nsHttpConnectionInfo
 *
 nsIInterfaceRequestor
 *
-nsIEventTarget
-*
 )
 ;
 nsresult

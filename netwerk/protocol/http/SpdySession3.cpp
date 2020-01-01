@@ -10467,9 +10467,6 @@ GetSecurityCallbacks
 nsIInterfaceRequestor
 *
 *
-nsIEventTarget
-*
-*
 )
 {
 NS_ABORT_IF_FALSE

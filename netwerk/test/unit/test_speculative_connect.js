@@ -242,7 +242,6 @@ speculativeConnect
 (
 URI
 null
-null
 )
 ;
 do_test_pending

@@ -4207,7 +4207,6 @@ speculativeConnect
 (
 searchURI
 null
-null
 )
 ;
 if
@@ -4251,7 +4250,6 @@ connector
 speculativeConnect
 (
 suggestURI
-null
 null
 )
 ;
