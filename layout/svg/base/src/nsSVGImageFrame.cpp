@@ -1951,7 +1951,7 @@ return
 ;
 }
 gfxContext
-context
+tmpCtx
 (
 gfxPlatform
 :
@@ -1972,7 +1972,7 @@ identity
 GeneratePath
 (
 &
-context
+tmpCtx
 &
 identity
 )
@@ -1980,7 +1980,7 @@ identity
 gfxRect
 extent
 =
-context
+tmpCtx
 .
 GetUserPathExtent
 (

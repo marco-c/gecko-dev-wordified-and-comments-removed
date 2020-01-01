@@ -82,6 +82,15 @@ nsCycleCollectionParticipant
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_SAXXMLREADER_CONTRACTID
 "
@@ -125,6 +134,7 @@ NS_SAXXMLREADER_CID
 }
 class
 nsSAXXMLReader
+MOZ_FINAL
 :
 public
 nsISAXXMLReader

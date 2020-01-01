@@ -93,6 +93,9 @@ nsIInProcessContentFrameMessageManager
 class
 AutoResetInShow
 ;
+class
+nsITabParent
+;
 namespace
 mozilla
 {
@@ -698,6 +701,14 @@ return
 mClampScrollPosition
 ;
 }
+void
+SetRemoteBrowser
+(
+nsITabParent
+*
+aTabParent
+)
+;
 private
 :
 void

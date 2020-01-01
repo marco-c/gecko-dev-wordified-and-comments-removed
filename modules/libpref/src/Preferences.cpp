@@ -14,6 +14,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -492,6 +501,7 @@ mCallback
 ;
 class
 ValueObserver
+MOZ_FINAL
 :
 public
 nsIObserver

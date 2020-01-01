@@ -65,6 +65,15 @@ nsIClassInfoImpl
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 ifdef
 MOZ_WIDGET_COCOA
 #
@@ -290,6 +299,7 @@ lstat
 endif
 class
 nsLocalFile
+MOZ_FINAL
 :
 #
 ifdef

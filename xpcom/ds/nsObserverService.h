@@ -26,6 +26,15 @@ nsTHashtable
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_OBSERVERSERVICE_CLASSNAME
 "
@@ -53,6 +62,7 @@ NS_OBSERVERSERVICE_CID
 }
 class
 nsObserverService
+MOZ_FINAL
 :
 public
 nsIObserverService

@@ -632,7 +632,6 @@ GetNameFromBytecode
 cx
 pc
 op
-cs
 )
 ;
 #
@@ -769,7 +768,6 @@ GetNameFromBytecode
 cx
 pc
 op
-cs
 )
 ;
 }
@@ -944,7 +942,6 @@ GetNameFromBytecode
 cx
 pc
 op
-cs
 )
 ;
 JS_ASSERT
@@ -986,7 +983,6 @@ GetNameFromBytecode
 cx
 pc
 op
-cs
 )
 ;
 }

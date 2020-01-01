@@ -68,6 +68,15 @@ nsAutoPtr
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_MULTIMIXEDCONVERTER_CID
 \
@@ -106,6 +115,7 @@ A175
 }
 class
 nsPartChannel
+MOZ_FINAL
 :
 public
 nsIChannel

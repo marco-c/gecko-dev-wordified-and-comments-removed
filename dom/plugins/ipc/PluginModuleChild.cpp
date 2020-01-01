@@ -548,17 +548,6 @@ here
 "
 )
 ;
-if
-(
-mLibrary
-)
-{
-PR_UnloadLibrary
-(
-mLibrary
-)
-;
-}
 DeinitGraphics
 (
 )

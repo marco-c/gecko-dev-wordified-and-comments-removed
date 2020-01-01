@@ -123,6 +123,15 @@ prio
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 typedef
 nsDataHashtable
 <
@@ -139,6 +148,7 @@ nsProtocolInfo
 ;
 class
 nsProtocolProxyService
+MOZ_FINAL
 :
 public
 nsIProtocolProxyService2

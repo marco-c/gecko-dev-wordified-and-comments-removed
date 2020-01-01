@@ -32,6 +32,15 @@ nsClassHashtable
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -40,6 +49,7 @@ net
 {
 class
 RedirectChannelRegistrar
+MOZ_FINAL
 :
 public
 nsIRedirectChannelRegistrar

@@ -12,6 +12,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 HashFunctions
 .
 h
@@ -277,6 +286,7 @@ const
 ;
 class
 PermanentAtomImpl
+MOZ_FINAL
 :
 public
 AtomImpl

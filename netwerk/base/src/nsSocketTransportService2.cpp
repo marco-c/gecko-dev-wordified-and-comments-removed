@@ -2483,6 +2483,14 @@ Run
 (
 )
 {
+PR_SetCurrentThreadName
+(
+"
+Socket
+Thread
+"
+)
+;
 SOCKET_LOG
 (
 (

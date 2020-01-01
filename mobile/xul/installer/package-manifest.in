@@ -924,6 +924,13 @@ BINPATH
 /
 components
 /
+dom_browserelement
+.
+xpt
+BINPATH
+/
+components
+/
 dom_json
 .
 xpt

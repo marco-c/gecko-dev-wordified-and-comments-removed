@@ -10,6 +10,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCache
 .
 h
@@ -1037,6 +1046,7 @@ Reset
 }
 class
 nsOfflineCacheDeviceInfo
+MOZ_FINAL
 :
 public
 nsICacheDeviceInfo
@@ -1328,6 +1338,7 @@ NS_OK
 }
 class
 nsOfflineCacheBinding
+MOZ_FINAL
 :
 public
 nsISupports
@@ -2000,6 +2011,7 @@ entry
 }
 class
 nsOfflineCacheEntryInfo
+MOZ_FINAL
 :
 public
 nsICacheEntryInfo

@@ -3410,8 +3410,12 @@ if
 (
 NS_FAILED
 (
-NS_NewThread
+NS_NewNamedThread
 (
+"
+DOM
+Worker
+"
 getter_AddRefs
 (
 thread

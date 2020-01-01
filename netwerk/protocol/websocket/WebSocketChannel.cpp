@@ -190,6 +190,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 plbase64
 .
 h
@@ -256,6 +265,7 @@ SEC_WEBSOCKET_VERSION
 "
 class
 CallOnMessageAvailable
+MOZ_FINAL
 :
 public
 nsIRunnable
@@ -364,6 +374,7 @@ nsIRunnable
 )
 class
 CallOnStop
+MOZ_FINAL
 :
 public
 nsIRunnable
@@ -452,6 +463,7 @@ nsIRunnable
 )
 class
 CallOnServerClose
+MOZ_FINAL
 :
 public
 nsIRunnable
@@ -539,6 +551,7 @@ nsIRunnable
 )
 class
 CallAcknowledge
+MOZ_FINAL
 :
 public
 nsIRunnable
@@ -634,6 +647,7 @@ nsIRunnable
 )
 class
 CallOnTransportAvailable
+MOZ_FINAL
 :
 public
 nsIRunnable
@@ -1208,6 +1222,7 @@ mLength
 ;
 class
 OutboundEnqueuer
+MOZ_FINAL
 :
 public
 nsIRunnable
@@ -4289,6 +4304,13 @@ mListener
 {
 nsCString
 utf8Data
+;
+if
+(
+!
+utf8Data
+.
+Assign
 (
 (
 const
@@ -4297,7 +4319,16 @@ char
 )
 payload
 payloadLength
+mozilla
+:
+:
+fallible_t
+(
 )
+)
+)
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
 if
 (

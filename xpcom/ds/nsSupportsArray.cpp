@@ -3157,6 +3157,7 @@ rv
 }
 class
 nsArrayEnumerator
+MOZ_FINAL
 :
 public
 nsISimpleEnumerator

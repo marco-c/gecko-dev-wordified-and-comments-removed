@@ -46,6 +46,15 @@ zlib
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsHttpConnection
 ;
@@ -63,6 +72,7 @@ SpdyStream2
 ;
 class
 SpdySession2
+MOZ_FINAL
 :
 public
 ASpdySession

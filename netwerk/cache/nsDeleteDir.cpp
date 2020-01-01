@@ -580,8 +580,12 @@ NS_OK
 nsresult
 rv
 =
-NS_NewThread
+NS_NewNamedThread
 (
+"
+Cache
+Deleter
+"
 getter_AddRefs
 (
 mThread

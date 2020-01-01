@@ -110,6 +110,15 @@ nsISSLStatusProvider
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 static
 const
 char
@@ -990,6 +999,7 @@ isTrustedHost
 }
 class
 nsNTLMSessionState
+MOZ_FINAL
 :
 public
 nsISupports

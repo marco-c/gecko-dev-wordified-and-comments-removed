@@ -60,6 +60,15 @@ nsISimpleEnumerator
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 struct
 ObserverRef
 {
@@ -328,6 +337,7 @@ mObservers
 ;
 class
 nsObserverEnumerator
+MOZ_FINAL
 :
 public
 nsISimpleEnumerator

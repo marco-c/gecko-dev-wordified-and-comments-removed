@@ -10696,7 +10696,7 @@ if
 textstr
 )
 return
-NULL
+false
 ;
 JS_ASSERT
 (

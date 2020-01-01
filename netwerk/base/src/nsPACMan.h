@@ -60,6 +60,15 @@ prclist
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 NS_NO_VTABLE
 nsPACManCallback
@@ -87,6 +96,7 @@ pacString
 ;
 class
 nsPACMan
+MOZ_FINAL
 :
 public
 nsIStreamLoaderObserver

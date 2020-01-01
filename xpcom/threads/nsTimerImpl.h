@@ -49,6 +49,15 @@ TimeStamp
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 if
 defined
 (
@@ -138,6 +147,7 @@ CALLBACK_TYPE_OBSERVER
 ;
 class
 nsTimerImpl
+MOZ_FINAL
 :
 public
 nsITimer

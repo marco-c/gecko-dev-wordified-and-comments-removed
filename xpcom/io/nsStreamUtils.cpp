@@ -10,6 +10,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsStreamUtils
 .
 h
@@ -62,6 +71,7 @@ mozilla
 ;
 class
 nsInputStreamReadyEvent
+MOZ_FINAL
 :
 public
 nsIRunnable
@@ -310,6 +320,7 @@ nsIInputStreamCallback
 )
 class
 nsOutputStreamReadyEvent
+MOZ_FINAL
 :
 public
 nsIRunnable
@@ -1504,6 +1515,7 @@ nsIRunnable
 )
 class
 nsStreamCopierIB
+MOZ_FINAL
 :
 public
 nsAStreamCopier
@@ -1684,6 +1696,7 @@ n
 ;
 class
 nsStreamCopierOB
+MOZ_FINAL
 :
 public
 nsAStreamCopier

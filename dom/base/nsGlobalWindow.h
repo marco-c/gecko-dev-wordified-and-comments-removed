@@ -1194,6 +1194,15 @@ aEventName
 virtual
 NS_HIDDEN_
 (
+void
+)
+RefreshCompartmentPrincipal
+(
+)
+;
+virtual
+NS_HIDDEN_
+(
 nsresult
 )
 SetFullScreenInternal

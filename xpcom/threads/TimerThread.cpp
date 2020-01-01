@@ -850,6 +850,13 @@ Run
 (
 )
 {
+PR_SetCurrentThreadName
+(
+"
+Timer
+"
+)
+;
 MonitorAutoLock
 lock
 (

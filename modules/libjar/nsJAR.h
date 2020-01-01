@@ -160,6 +160,15 @@ nsIObserver
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIInputStream
 ;
@@ -485,6 +494,7 @@ mIsSynthetic
 ;
 class
 nsJAREnumerator
+MOZ_FINAL
 :
 public
 nsIUTF8StringEnumerator

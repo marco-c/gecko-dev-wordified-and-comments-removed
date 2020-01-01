@@ -9,6 +9,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 sys
 /
@@ -455,6 +464,7 @@ NS_ERROR_NOT_INITIALIZED
 PR_END_MACRO
 class
 nsDirEnumeratorUnix
+MOZ_FINAL
 :
 public
 nsISimpleEnumerator

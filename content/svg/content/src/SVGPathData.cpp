@@ -2793,7 +2793,7 @@ nsRefPtr
 <
 gfxContext
 >
-ctx
+tmpCtx
 =
 new
 gfxContext
@@ -2811,7 +2811,7 @@ ScreenReferenceSurface
 )
 )
 ;
-ctx
+tmpCtx
 -
 >
 SetMatrix
@@ -2821,10 +2821,10 @@ aMatrix
 ;
 ConstructPath
 (
-ctx
+tmpCtx
 )
 ;
-ctx
+tmpCtx
 -
 >
 IdentityMatrix
@@ -2832,7 +2832,7 @@ IdentityMatrix
 )
 ;
 return
-ctx
+tmpCtx
 -
 >
 GetFlattenedPath

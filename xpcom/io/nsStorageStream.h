@@ -26,6 +26,15 @@ nsMemory
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_STORAGESTREAM_CID
 \
@@ -86,6 +95,7 @@ nsSegmentedBuffer
 ;
 class
 nsStorageStream
+MOZ_FINAL
 :
 public
 nsIStorageStream

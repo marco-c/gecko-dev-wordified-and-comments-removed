@@ -27,6 +27,15 @@ BindingUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 NS_IMPL_THREADSAFE_ISUPPORTS1
 (
 nsJSID
@@ -771,6 +780,7 @@ idObj
 }
 class
 SharedScriptableHelperForJSIID
+MOZ_FINAL
 :
 public
 nsIXPCScriptable

@@ -1737,6 +1737,12 @@ message
 =
 NS_SIMPLE_GESTURE_TAP
 ;
+evt
+.
+clickCount
+=
+1
+;
 }
 break
 ;
@@ -1749,6 +1755,12 @@ evt
 message
 =
 NS_SIMPLE_GESTURE_PRESSTAP
+;
+evt
+.
+clickCount
+=
+1
 ;
 }
 break

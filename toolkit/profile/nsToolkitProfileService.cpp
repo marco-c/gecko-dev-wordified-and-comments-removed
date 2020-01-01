@@ -3245,9 +3245,6 @@ nsIFile
 >
 file
 ;
-bool
-dummy
-;
 rv
 =
 gDirServiceProvider

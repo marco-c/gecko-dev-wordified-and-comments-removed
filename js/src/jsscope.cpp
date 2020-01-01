@@ -7028,6 +7028,9 @@ removeFront
 }
 else
 {
+#
+ifdef
+DEBUG
 DebugOnly
 <
 JSObject
@@ -7068,6 +7071,8 @@ getObjectParent
 )
 )
 ;
+#
+endif
 InitialShapeEntry
 newKey
 (

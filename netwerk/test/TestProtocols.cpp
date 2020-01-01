@@ -231,6 +231,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsISimpleEnumerator
 .
 h
@@ -2964,6 +2973,7 @@ NS_OK
 }
 class
 NotificationCallbacks
+MOZ_FINAL
 :
 public
 nsIInterfaceRequestor

@@ -2323,8 +2323,17 @@ curLength
 +
 lengthInc
 )
+#
+ifdef
+DEBUG
+JS_NEVER_INLINE
+bool
+#
+else
 inline
 bool
+#
+endif
 Vector
 <
 T

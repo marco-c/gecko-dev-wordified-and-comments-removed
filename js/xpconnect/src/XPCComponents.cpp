@@ -160,6 +160,15 @@ nsPrincipal
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -12267,6 +12276,7 @@ vp
 }
 class
 Identity
+MOZ_FINAL
 :
 public
 nsISupports
@@ -14645,12 +14655,6 @@ nsCOMPtr
 nsISupports
 >
 prinOrSop
-;
-nsISupports
-*
-identity
-=
-nsnull
 ;
 if
 (

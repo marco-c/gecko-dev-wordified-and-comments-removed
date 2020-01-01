@@ -864,10 +864,6 @@ cx
 (
 aCx
 )
-mThrow
-(
-aThrow
-)
 {
 mStr
 =
@@ -994,9 +990,6 @@ cx
 JSString
 *
 mStr
-;
-bool
-mThrow
 ;
 JSAutoByteString
 mBytes
@@ -15410,6 +15403,14 @@ void
 arg
 )
 {
+PR_SetCurrentThreadName
+(
+"
+JS
+Watchdog
+"
+)
+;
 JSRuntime
 *
 rt

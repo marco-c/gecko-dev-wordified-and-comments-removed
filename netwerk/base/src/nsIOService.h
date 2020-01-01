@@ -147,6 +147,15 @@ nsISpeculativeConnect
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_N
 (
@@ -214,6 +223,7 @@ nsIPrefBranch
 ;
 class
 nsIOService
+MOZ_FINAL
 :
 public
 nsIIOService2

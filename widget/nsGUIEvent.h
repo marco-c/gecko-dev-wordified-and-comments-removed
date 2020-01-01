@@ -1728,6 +1728,14 @@ NS_SIMPLE_GESTURE_EVENT_START
 )
 #
 define
+NS_SIMPLE_GESTURE_EDGEUI
+(
+NS_SIMPLE_GESTURE_EVENT_START
++
+9
+)
+#
+define
 NS_PLUGIN_EVENT_START
 3600
 #
@@ -5575,6 +5583,10 @@ delta
 (
 deltaArg
 )
+clickCount
+(
+0
+)
 {
 }
 nsSimpleGestureEvent
@@ -5617,6 +5629,10 @@ other
 .
 delta
 )
+clickCount
+(
+0
+)
 {
 }
 PRUint32
@@ -5624,6 +5640,9 @@ direction
 ;
 PRFloat64
 delta
+;
+PRUint32
+clickCount
 ;
 }
 ;

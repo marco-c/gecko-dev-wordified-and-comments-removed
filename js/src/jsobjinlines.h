@@ -8201,9 +8201,6 @@ Class
 clasp
 )
 {
-#
-ifdef
-JS_THREADSAFE
 JS_ASSERT
 (
 kind
@@ -8215,7 +8212,7 @@ gc
 FINALIZE_OBJECT_LAST
 )
 ;
-if
+return
 (
 !
 gc
@@ -8233,13 +8230,6 @@ clasp
 >
 finalize
 )
-return
-true
-;
-#
-endif
-return
-false
 ;
 }
 JSObject
@@ -8718,9 +8708,6 @@ numFixedSlots
 )
 )
 ;
-#
-ifdef
-JS_THREADSAFE
 kind
 =
 gc
@@ -8731,8 +8718,6 @@ GetBackgroundAllocKind
 kind
 )
 ;
-#
-endif
 JS_ASSERT
 (
 kind

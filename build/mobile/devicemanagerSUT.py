@@ -1724,8 +1724,13 @@ sendCmds
 [
 '
 exec
+su
+-
+c
+"
 %
 s
+"
 '
 %
 cmdline

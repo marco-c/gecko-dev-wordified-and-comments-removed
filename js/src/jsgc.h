@@ -414,9 +414,6 @@ arenaLists
 FINALIZE_LIMIT
 ]
 ;
-#
-ifdef
-JS_THREADSAFE
 enum
 BackgroundFinalizeState
 {
@@ -432,8 +429,6 @@ backgroundFinalizeState
 FINALIZE_LIMIT
 ]
 ;
-#
-endif
 public
 :
 ArenaLists
@@ -465,9 +460,6 @@ initAsEmpty
 (
 )
 ;
-#
-ifdef
-JS_THREADSAFE
 for
 (
 size_t
@@ -491,8 +483,6 @@ i
 =
 BFS_DONE
 ;
-#
-endif
 }
 ~
 ArenaLists
@@ -516,9 +506,6 @@ FINALIZE_LIMIT
 i
 )
 {
-#
-ifdef
-JS_THREADSAFE
 JS_ASSERT
 (
 backgroundFinalizeState
@@ -530,8 +517,6 @@ i
 BFS_DONE
 )
 ;
-#
-endif
 ArenaHeader
 *
 *
@@ -638,9 +623,6 @@ FINALIZE_LIMIT
 i
 )
 {
-#
-ifdef
-JS_THREADSAFE
 if
 (
 backgroundFinalizeState
@@ -654,8 +636,6 @@ BFS_DONE
 return
 false
 ;
-#
-endif
 if
 (
 arenaLists
@@ -695,9 +675,6 @@ FINALIZE_LIMIT
 i
 )
 {
-#
-ifdef
-JS_THREADSAFE
 JS_ASSERT
 (
 backgroundFinalizeState
@@ -718,8 +695,6 @@ i
 BFS_JUST_FINISHED
 )
 ;
-#
-endif
 for
 (
 ArenaHeader
@@ -777,9 +752,6 @@ uintptr_t
 }
 }
 }
-#
-ifdef
-JS_THREADSAFE
 bool
 doneBackgroundFinalize
 (
@@ -798,8 +770,6 @@ kind
 BFS_DONE
 ;
 }
-#
-endif
 void
 purge
 (
@@ -1276,9 +1246,6 @@ FreeOp
 fop
 )
 ;
-#
-ifdef
-JS_THREADSAFE
 static
 void
 backgroundFinalize
@@ -1291,8 +1258,6 @@ ArenaHeader
 listHead
 )
 ;
-#
-endif
 private
 :
 inline
@@ -1870,9 +1835,6 @@ JSTraceCallback
 callback
 )
 ;
-#
-ifdef
-JS_THREADSAFE
 class
 GCHelperThread
 {
@@ -2281,8 +2243,6 @@ prepareForBackgroundSweep
 ;
 }
 ;
-#
-endif
 struct
 GCChunkHasher
 {

@@ -18522,13 +18522,6 @@ framebuffer
 )
 ;
 }
-else
-{
-EnsureBackbufferClearedAsNeeded
-(
-)
-;
-}
 if
 (
 width

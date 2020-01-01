@@ -30,6 +30,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIDNSListener
 .
 h
@@ -42,6 +51,7 @@ nsIDNSService
 ;
 class
 nsDNSPrefetch
+MOZ_FINAL
 :
 public
 nsIDNSListener

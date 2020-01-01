@@ -46,6 +46,15 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 struct
 LiveEphemeral
 {
@@ -73,6 +82,7 @@ line
 ;
 class
 jsdObject
+MOZ_FINAL
 :
 public
 jsdIObject

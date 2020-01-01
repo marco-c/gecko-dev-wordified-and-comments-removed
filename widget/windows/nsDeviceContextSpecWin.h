@@ -46,6 +46,15 @@ windows
 .
 h
 >
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIWidget
 ;
@@ -252,6 +261,7 @@ mPrintSettings
 ;
 class
 nsPrinterEnumeratorWin
+MOZ_FINAL
 :
 public
 nsIPrinterEnumerator

@@ -44,6 +44,15 @@ h
 >
 #
 endif
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIDragService
 ;
@@ -55,6 +64,7 @@ IDataObject
 ;
 class
 nsNativeDragTarget
+MOZ_FINAL
 :
 public
 IDropTarget

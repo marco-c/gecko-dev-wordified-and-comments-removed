@@ -240,6 +240,14 @@ nsIURI
 aBaseURI
 )
 ;
+void
+RemoveAllAttributes
+(
+nsIContent
+*
+aElement
+)
+;
 static
 nsTHashtable
 <

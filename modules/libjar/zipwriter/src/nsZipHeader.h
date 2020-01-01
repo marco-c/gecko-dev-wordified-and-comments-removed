@@ -40,6 +40,15 @@ nsAutoPtr
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 ZIP_ATTRS_FILE
 0x80000000
@@ -76,6 +85,7 @@ p
 a
 class
 nsZipHeader
+MOZ_FINAL
 :
 public
 nsIZipEntry
