@@ -17,15 +17,6 @@ include
 "
 yarr
 /
-jswtfbridge
-.
-h
-"
-#
-include
-"
-yarr
-/
 ASCIICType
 .
 h
