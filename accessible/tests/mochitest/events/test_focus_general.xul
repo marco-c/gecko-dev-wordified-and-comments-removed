@@ -785,6 +785,7 @@ nofocusChecker
 ;
 if
 (
+!
 MAC
 )
 {
