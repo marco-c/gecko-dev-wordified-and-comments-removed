@@ -3605,9 +3605,6 @@ i
 void
 set
 (
-GC
-*
-gc
 int
 bitNbr
 )
@@ -3635,7 +3632,6 @@ capacity
 )
 grow
 (
-gc
 index
 +
 1
@@ -3843,9 +3839,6 @@ private
 void
 grow
 (
-GC
-*
-gc
 int
 newCapacity
 )
