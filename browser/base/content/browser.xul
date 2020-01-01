@@ -4587,9 +4587,6 @@ titlebar
 content
 "
 >
-#
-ifdef
-MENUBAR_CAN_AUTOHIDE
 <
 hbox
 id
@@ -4652,8 +4649,6 @@ button
 /
 hbox
 >
-#
-endif
 <
 spacer
 id
