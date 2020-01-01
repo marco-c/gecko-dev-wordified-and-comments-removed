@@ -14191,7 +14191,7 @@ ExecuteScript
 nsIScriptContext
 *
 aContext
-void
+JSScript
 *
 aScriptObject
 )
