@@ -3231,9 +3231,6 @@ aChangedSomething
 PR_FALSE
 ;
 }
-nsresult
-rv
-;
 if
 (
 !
