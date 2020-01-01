@@ -9460,6 +9460,9 @@ ins
 break
 ;
 case
+LIR_callv
+:
+case
 LIR_calli
 :
 CASE64

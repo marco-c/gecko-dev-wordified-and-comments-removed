@@ -3571,6 +3571,18 @@ LIns
 ins
 )
 {
+if
+(
+!
+ins
+-
+>
+isop
+(
+LIR_callv
+)
+)
+{
 Register
 retReg
 =
@@ -3600,6 +3612,7 @@ retReg
 )
 )
 ;
+}
 evictScratchRegsExcept
 (
 0
