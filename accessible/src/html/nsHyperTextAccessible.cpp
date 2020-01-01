@@ -7022,6 +7022,10 @@ IsContent
 )
 ?
 mContent
+.
+get
+(
+)
 :
 nsnull
 ;
