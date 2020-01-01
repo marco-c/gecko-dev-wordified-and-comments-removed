@@ -82,6 +82,9 @@ nsICacheEntryDescriptor
 class
 nsIAssociatedContentSecurity
 ;
+class
+nsHttpHandler
+;
 namespace
 mozilla
 {
@@ -443,6 +446,12 @@ nsCOMPtr
 nsILoadContext
 >
 mLoadContext
+;
+nsRefPtr
+<
+nsHttpHandler
+>
+mHttpHandler
 ;
 }
 ;
