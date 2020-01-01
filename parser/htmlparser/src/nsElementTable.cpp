@@ -2710,7 +2710,7 @@ gPAutoClose
 0
 0
 0
-kNone
+kSpecial
 kNone
 kNone
 kNonContainer
