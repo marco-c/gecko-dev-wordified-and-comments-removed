@@ -532,7 +532,7 @@ Services
 .
 volumeService
 .
-getVolumeByPath
+createOrGetVolumeByPath
 (
 volumePath
 )
@@ -1153,7 +1153,7 @@ Services
 .
 volumeService
 .
-getVolumeByPath
+createOrGetVolumeByPath
 (
 path
 )

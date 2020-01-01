@@ -363,7 +363,7 @@ nsString
 type
 ;
 nsString
-fullpath
+relpath
 ;
 }
 ;
@@ -374,7 +374,7 @@ nsString
 type
 ;
 nsString
-fullpath
+relpath
 ;
 }
 ;
@@ -385,7 +385,7 @@ nsString
 type
 ;
 nsString
-fullpath
+relpath
 ;
 }
 ;
@@ -395,14 +395,11 @@ DeviceStorageAddParams
 nsString
 type
 ;
+nsString
+relpath
+;
 PBlob
 blob
-;
-nsString
-name
-;
-nsString
-fullpath
 ;
 }
 ;
@@ -413,10 +410,10 @@ nsString
 type
 ;
 nsString
-name
+rootDir
 ;
 nsString
-fullpath
+relpath
 ;
 }
 ;
@@ -427,7 +424,7 @@ nsString
 type
 ;
 nsString
-fullpath
+relpath
 ;
 }
 ;
@@ -438,7 +435,7 @@ nsString
 type
 ;
 nsString
-fullpath
+relpath
 ;
 uint64_t
 since

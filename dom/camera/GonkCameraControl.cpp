@@ -4560,7 +4560,10 @@ NS_LITERAL_STRING
 videos
 "
 )
-filename
+aStartRecording
+-
+>
+mFilename
 )
 ;
 nsAutoCString
