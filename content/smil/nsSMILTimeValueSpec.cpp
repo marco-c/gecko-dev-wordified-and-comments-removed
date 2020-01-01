@@ -678,7 +678,7 @@ if
 (
 newTime
 .
-IsResolved
+IsDefinite
 (
 )
 )
@@ -813,7 +813,7 @@ if
 (
 updatedTime
 .
-IsResolved
+IsDefinite
 (
 )
 )
@@ -1965,7 +1965,7 @@ if
 !
 aSrcTime
 .
-IsResolved
+IsDefinite
 (
 )
 )
@@ -2038,7 +2038,7 @@ NS_ABORT_IF_FALSE
 (
 docTime
 .
-IsResolved
+IsDefinite
 (
 )
 "

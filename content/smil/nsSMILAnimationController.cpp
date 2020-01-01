@@ -1790,7 +1790,7 @@ if
 !
 containerTimeValue
 .
-IsResolved
+IsDefinite
 (
 )
 )
