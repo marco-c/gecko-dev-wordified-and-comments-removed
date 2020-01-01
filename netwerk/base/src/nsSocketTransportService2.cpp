@@ -2563,13 +2563,6 @@ SetObserver
 this
 )
 ;
-srand
-(
-PR_Now
-(
-)
-)
-;
 for
 (
 ;
