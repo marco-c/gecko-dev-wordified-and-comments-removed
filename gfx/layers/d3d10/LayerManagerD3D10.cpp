@@ -2273,7 +2273,7 @@ SetOperator
 gfxContext
 :
 :
-OPERATOR_SOURCE
+OPERATOR_OVER
 )
 ;
 mTarget
@@ -2281,6 +2281,14 @@ mTarget
 >
 Paint
 (
+)
+;
+readTexture
+-
+>
+Unmap
+(
+0
 )
 ;
 }

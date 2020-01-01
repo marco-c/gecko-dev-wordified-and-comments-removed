@@ -65,6 +65,7 @@ nsIntRegion
 aRegion
 )
 ;
+virtual
 Layer
 *
 GetLayer

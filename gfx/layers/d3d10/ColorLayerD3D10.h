@@ -41,6 +41,7 @@ LayerManagerD3D10
 aManager
 )
 ;
+virtual
 Layer
 *
 GetLayer
