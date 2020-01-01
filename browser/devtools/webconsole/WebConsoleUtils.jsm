@@ -2951,6 +2951,16 @@ trim
 ;
 if
 (
+!
+prop
+)
+{
+return
+null
+;
+}
+if
+(
 typeof
 obj
 =
