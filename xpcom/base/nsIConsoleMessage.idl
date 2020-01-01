@@ -485,6 +485,12 @@ nsIConsoleMessage
 :
 nsISupports
 {
+[
+binaryname
+(
+MessageMoz
+)
+]
 readonly
 attribute
 wstring

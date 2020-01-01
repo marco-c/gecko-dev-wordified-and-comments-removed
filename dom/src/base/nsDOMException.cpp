@@ -769,7 +769,7 @@ NS_IMETHODIMP
 nsBaseDOMException
 :
 :
-GetMessage
+GetMessageMoz
 (
 char
 *

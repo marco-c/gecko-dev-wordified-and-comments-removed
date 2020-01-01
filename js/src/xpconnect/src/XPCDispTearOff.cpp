@@ -206,7 +206,7 @@ msg
 exception
 -
 >
-GetMessage
+GetMessageMoz
 (
 getter_Copies
 (

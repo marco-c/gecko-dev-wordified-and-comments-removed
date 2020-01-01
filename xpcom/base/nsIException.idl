@@ -598,6 +598,12 @@ by
 the
 thrower
 .
+[
+binaryname
+(
+MessageMoz
+)
+]
 readonly
 attribute
 string

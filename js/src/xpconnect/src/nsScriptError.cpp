@@ -57,7 +57,7 @@ NS_IMETHODIMP
 nsScriptError
 :
 :
-GetMessage
+GetMessageMoz
 (
 PRUnichar
 *

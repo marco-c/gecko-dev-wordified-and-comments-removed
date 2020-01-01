@@ -6056,7 +6056,7 @@ NS_SUCCEEDED
 errorObject
 -
 >
-GetMessage
+GetMessageMoz
 (
 getter_Copies
 (

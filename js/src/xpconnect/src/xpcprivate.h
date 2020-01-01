@@ -529,9 +529,6 @@ GetClassInfo
 undef
 GetClassName
 #
-undef
-GetMessage
-#
 endif
 #
 if

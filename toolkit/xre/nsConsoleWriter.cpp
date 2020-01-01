@@ -382,7 +382,7 @@ i
 ]
 -
 >
-GetMessage
+GetMessageMoz
 (
 getter_Copies
 (
