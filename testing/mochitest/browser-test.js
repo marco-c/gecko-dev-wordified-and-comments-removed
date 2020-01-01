@@ -1995,6 +1995,13 @@ this
 done
 )
 {
+if
+(
+window
+.
+gBrowser
+)
+{
 gBrowser
 .
 addTab
@@ -2007,6 +2014,7 @@ removeCurrentTab
 (
 )
 ;
+}
 Cu
 .
 schedulePreciseGC
