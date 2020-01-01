@@ -6089,7 +6089,7 @@ stream
 -
 deflate
 "
-false
+true
 )
 ;
 pref
