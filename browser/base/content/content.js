@@ -425,6 +425,13 @@ BLOCK
 *
 *
 const
+Ci
+=
+Components
+.
+interfaces
+;
+const
 webNavigation
 =
 docShell
