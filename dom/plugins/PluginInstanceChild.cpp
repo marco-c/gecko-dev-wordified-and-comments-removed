@@ -4594,16 +4594,6 @@ this
 return
 false
 ;
-printf
-(
-"
-setting
-DefWindowProcA
-\
-n
-"
-)
-;
 SetWindowLongPtrA
 (
 mPluginWindowHWND
