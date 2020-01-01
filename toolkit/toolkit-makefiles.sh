@@ -3487,13 +3487,6 @@ appshell
 public
 /
 Makefile
-xpfe
-/
-bootstrap
-/
-appleevents
-/
-Makefile
 extensions
 /
 spellcheck
