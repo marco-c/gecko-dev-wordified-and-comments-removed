@@ -1002,10 +1002,6 @@ browser_visibleTabs_bookmarkAllPages
 .
 js
 \
-browser_visibleTabs_tabPreview
-.
-js
-\
 discovery
 .
 html
