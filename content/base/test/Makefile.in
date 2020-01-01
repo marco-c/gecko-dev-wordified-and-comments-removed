@@ -606,6 +606,14 @@ test_bug343596
 .
 html
 \
+test_bug345339
+.
+html
+\
+345339_iframe
+.
+html
+\
 test_bug352728
 .
 html
