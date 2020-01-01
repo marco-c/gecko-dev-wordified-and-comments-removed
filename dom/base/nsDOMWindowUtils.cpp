@@ -3686,8 +3686,9 @@ else
 doc
 -
 >
-UnsuppressEventHandling
+UnsuppressEventHandlingAndFireEvents
 (
+PR_TRUE
 )
 ;
 }
