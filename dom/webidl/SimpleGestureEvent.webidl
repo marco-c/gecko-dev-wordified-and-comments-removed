@@ -151,6 +151,11 @@ ROTATION_CLOCKWISE
 =
 2
 ;
+attribute
+unsigned
+long
+allowedDirections
+;
 readonly
 attribute
 unsigned
@@ -207,6 +212,9 @@ buttonArg
 EventTarget
 ?
 relatedTargetArg
+unsigned
+long
+allowedDirectionsArg
 unsigned
 long
 directionArg

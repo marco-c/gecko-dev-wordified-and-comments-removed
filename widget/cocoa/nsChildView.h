@@ -764,9 +764,13 @@ mWaitingForPaint
 #
 ifdef
 __LP64__
-BOOL
-*
-mSwipeAnimationCancelled
+void
+(
+^
+mCancelSwipeAnimation
+)
+(
+)
 ;
 #
 endif

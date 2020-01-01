@@ -151,9 +151,12 @@ o
 /
 #
 Bug
-856349
-broke
-Windows
-b2g
-builds
+678392
+-
+Added
+new
+attribute
+to
+nsIDOMSimpleGestureEvent
+interface
 .
