@@ -2217,6 +2217,15 @@ true
 ;
 }
 get
+isPlatformCompatible
+(
+)
+{
+return
+true
+;
+}
+get
 scope
 (
 )
