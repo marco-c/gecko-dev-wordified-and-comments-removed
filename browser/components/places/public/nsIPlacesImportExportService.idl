@@ -457,9 +457,9 @@ data
 scriptable
 uuid
 (
-212fd626
+21c00314
 -
-e07e
+fa63
 -
 11db
 -
@@ -502,6 +502,9 @@ importHTMLFromFile
 in
 nsILocalFile
 aFile
+in
+boolean
+aIsInitialImport
 )
 ;
 /
@@ -533,6 +536,9 @@ aFile
 in
 PRInt64
 aFolder
+in
+boolean
+aIsInitialImport
 )
 ;
 /

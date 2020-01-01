@@ -1035,6 +1035,7 @@ importer
 importHTMLFromFile
 (
 bookmarksFile
+true
 )
 ;
 }

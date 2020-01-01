@@ -1,4 +1,4 @@
-clearDB
+cleanUp
 (
 )
 ;
