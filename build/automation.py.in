@@ -2059,6 +2059,16 @@ false
 user_pref
 (
 "
+dom
+.
+min_background_timeout_value
+"
+1000
+)
+;
+user_pref
+(
+"
 test
 .
 mousescroll
