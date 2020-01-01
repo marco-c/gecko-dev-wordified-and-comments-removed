@@ -32,6 +32,9 @@ XULListboxAccessible
 .
 h
 "
+class
+nsTreeBodyFrame
+;
 namespace
 mozilla
 {
@@ -72,6 +75,9 @@ aContent
 DocAccessible
 *
 aDoc
+nsTreeBodyFrame
+*
+aTreeframe
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
