@@ -372,6 +372,9 @@ PopupControlState
 >
 mPopupStates
 ;
+nsMIMEType
+mMIMEType
+;
 }
 ;
 #

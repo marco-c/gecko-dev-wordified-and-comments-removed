@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsIPluginInstancePeer2
+nsIPluginInstancePeer
 .
 h
 "

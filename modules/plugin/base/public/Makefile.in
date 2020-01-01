@@ -495,10 +495,6 @@ nsIPluginInstancePeer
 .
 idl
 \
-nsIPluginInstancePeer2
-.
-idl
-\
 nsIPluginInstanceOwner
 .
 idl
