@@ -1449,10 +1449,12 @@ public
 static
 native
 void
-notifySmsDelivered
+notifySmsDelivery
 (
 int
 aId
+int
+aDeliveryStatus
 String
 aReceiver
 String
@@ -1483,6 +1485,8 @@ notifyGetSms
 (
 int
 aId
+int
+aDeliveryStatus
 String
 aReceiver
 String
@@ -1561,6 +1565,8 @@ int
 aListId
 int
 aMessageId
+int
+aDeliveryStatus
 String
 aReceiver
 String
@@ -1583,6 +1589,8 @@ notifyGotNextMessage
 (
 int
 aMessageId
+int
+aDeliveryStatus
 String
 aReceiver
 String
