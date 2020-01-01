@@ -549,6 +549,10 @@ vol
 NameStr
 (
 )
+.
+get
+(
+)
 )
 ;
 nsString
@@ -1467,6 +1471,10 @@ mVolume
 -
 >
 NameStr
+(
+)
+.
+get
 (
 )
 mVolume
