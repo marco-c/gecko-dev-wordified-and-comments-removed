@@ -72,10 +72,11 @@ expect
 '
 SyntaxError
 :
-invalid
-for
-each
-loop
+let
+is
+a
+reserved
+identifier
 '
 ;
 try

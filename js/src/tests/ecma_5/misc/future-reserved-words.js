@@ -45,6 +45,9 @@ extends
 import
 "
 "
+let
+"
+"
 super
 "
 ]
@@ -58,9 +61,6 @@ implements
 "
 "
 interface
-"
-"
-let
 "
 "
 package
