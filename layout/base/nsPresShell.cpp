@@ -11180,6 +11180,14 @@ if
 mIgnoreFrameDestruction
 )
 {
+mPresContext
+-
+>
+StopImagesFor
+(
+aFrame
+)
+;
 mFrameConstructor
 -
 >

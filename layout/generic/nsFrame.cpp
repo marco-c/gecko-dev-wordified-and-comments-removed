@@ -1751,14 +1751,6 @@ this
 )
 ;
 }
-presContext
--
->
-StopImagesFor
-(
-this
-)
-;
 if
 (
 view
