@@ -1993,7 +1993,7 @@ aMidPoint
 .
 y
 -
-aP1
+aP0
 .
 y
 )
