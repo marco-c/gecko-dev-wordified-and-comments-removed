@@ -938,12 +938,12 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 nsRefPtr
 <
-mozStorageRow
+Row
 >
 row
 (
 new
-mozStorageRow
+Row
 (
 )
 )

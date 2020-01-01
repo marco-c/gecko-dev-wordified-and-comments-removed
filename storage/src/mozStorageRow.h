@@ -31,8 +31,14 @@ nsIVariant
 struct
 sqlite3_stmt
 ;
+namespace
+mozilla
+{
+namespace
+storage
+{
 class
-mozStorageRow
+Row
 :
 public
 mozIStorageRow
@@ -70,5 +76,7 @@ mNameHashtable
 ;
 }
 ;
+}
+}
 #
 endif
