@@ -748,6 +748,13 @@ nsIStyleSheet
 aReferenceSheet
 )
 ;
+nsresult
+DirtyRuleProcessors
+(
+sheetType
+aType
+)
+;
 bool
 GetAuthorStyleDisabled
 (
