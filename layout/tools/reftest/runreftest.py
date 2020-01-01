@@ -500,29 +500,12 @@ close
 (
 )
     
-profileExtensionsPath
-=
-os
+self
 .
-path
+automation
 .
-join
+installExtension
 (
-profileDir
-"
-extensions
-"
-)
-    
-os
-.
-mkdir
-(
-profileExtensionsPath
-)
-    
-reftestExtensionPath
-=
 os
 .
 path
@@ -534,41 +517,15 @@ SCRIPT_DIRECTORY
 reftest
 "
 )
-    
-extFile
-=
-open
-(
-os
-.
-path
-.
-join
-(
-profileExtensionsPath
+                                                  
+profileDir
+                                                  
 "
 reftest
 mozilla
 .
 org
 "
-)
-"
-w
-"
-)
-    
-extFile
-.
-write
-(
-reftestExtensionPath
-)
-    
-extFile
-.
-close
-(
 )
   
 def
@@ -1111,6 +1068,12 @@ automation
 )
 :
     
+self
+.
+_automation
+=
+automation
+    
 OptionParser
 .
 __init__
@@ -1133,20 +1096,26 @@ dict
 (
 zip
 (
-automation
+self
+.
+_automation
 .
 __all__
                             
 [
 getattr
 (
-automation
+self
+.
+_automation
 x
 )
 for
 x
 in
-automation
+self
+.
+_automation
 .
 __all__
 ]
@@ -1154,7 +1123,9 @@ __all__
 )
 )
     
-automation
+self
+.
+_automation
 .
 addCommonOptions
 (
@@ -1414,7 +1385,9 @@ utilityPath
                     
 default
 =
-automation
+self
+.
+_automation
 .
 DIST_BIN
                     
@@ -1446,7 +1419,9 @@ utilityPath
 "
 ]
 =
-automation
+self
+.
+_automation
 .
 DIST_BIN
     
