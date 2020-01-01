@@ -344,9 +344,6 @@ TreeContext
 :
 init
 (
-JSContext
-*
-cx
 )
 {
 return

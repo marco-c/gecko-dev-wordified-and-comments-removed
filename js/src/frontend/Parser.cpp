@@ -1267,7 +1267,6 @@ globaltc
 .
 init
 (
-context
 )
 )
 return
@@ -7381,7 +7380,6 @@ funtc
 .
 init
 (
-context
 )
 )
 return
@@ -25145,7 +25143,6 @@ gentc
 .
 init
 (
-context
 )
 )
 return
@@ -29932,7 +29929,6 @@ xmltc
 .
 init
 (
-context
 )
 )
 return
