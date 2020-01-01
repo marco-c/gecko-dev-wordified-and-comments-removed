@@ -16920,6 +16920,7 @@ function
 subject
 topic
 data
+msg
 )
 {
 const
@@ -17198,6 +17199,20 @@ e
 }
 )
 ;
+ppmm
+.
+broadcastAsyncMessage
+(
+"
+Webapps
+:
+ClearBrowserData
+:
+Return
+"
+msg
+)
+;
 }
 registerBrowserElementParentForApp
 :
@@ -17278,6 +17293,9 @@ _clearPrivateData
 (
 appId
 true
+message
+.
+data
 )
 ;
 break
@@ -17290,6 +17308,7 @@ function
 (
 appId
 browserOnly
+msg
 )
 {
 let
@@ -17329,6 +17348,7 @@ clear
 data
 "
 null
+msg
 )
 ;
 }
