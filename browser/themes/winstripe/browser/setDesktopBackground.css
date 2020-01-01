@@ -27,6 +27,16 @@ xul
 )
 ;
 #
+monitor
+{
+margin
+:
+12px
+11px
+32px
+;
+}
+#
 monitorImage
 {
 list
