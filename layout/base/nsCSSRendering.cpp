@@ -5413,7 +5413,7 @@ NS_STYLE_BORDER_STYLE_RIDGE
 :
 numBorderPasses
 =
-4
+2
 ;
 break
 ;
