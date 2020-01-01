@@ -1189,6 +1189,11 @@ tokenEnd
 ;
 if
 (
+!
+needUnquote
+&
+&
+(
 (
 *
 cp
@@ -1212,6 +1217,7 @@ tokenStart
 paramLen
 +
 1
+)
 )
 )
 {
