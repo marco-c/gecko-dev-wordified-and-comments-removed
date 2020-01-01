@@ -33,13 +33,6 @@ AEWordClass
 .
 h
 "
-#
-include
-"
-nsGfxUtils
-.
-h
-"
 UInt32
 AEWordIterator
 :
