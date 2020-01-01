@@ -173,12 +173,6 @@ aEvent
 )
 ;
 virtual
-PRBool
-Init
-(
-)
-;
-virtual
 void
 Shutdown
 (
