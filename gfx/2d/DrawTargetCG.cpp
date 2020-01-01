@@ -510,9 +510,8 @@ GetImage
 (
 )
 ;
-assert
+abort
 (
-0
 )
 ;
 }
