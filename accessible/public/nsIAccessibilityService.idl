@@ -449,7 +449,6 @@ interface
 nsIContent
 ;
 [
-scriptable
 uuid
 (
 e4cdb7c5
@@ -533,9 +532,6 @@ nsISupports
 aFrame
 )
 ;
-[
-noscript
-]
 nsIAccessible
 createHTMLAccessibleByMarkup
 (
@@ -707,9 +703,6 @@ nsISupports
 aFrame
 )
 ;
-[
-noscript
-]
 nsIAccessible
 getAccessible
 (
@@ -738,9 +731,6 @@ gtk
 native
 window
 accessible
-[
-noscript
-]
 nsIAccessible
 addNativeRootAccessible
 (
@@ -749,9 +739,6 @@ voidPtr
 aAtkAccessible
 )
 ;
-[
-noscript
-]
 void
 removeNativeRootAccessible
 (
@@ -865,9 +852,6 @@ hide
 )
 *
 /
-[
-noscript
-]
 void
 invalidateSubtreeFor
 (

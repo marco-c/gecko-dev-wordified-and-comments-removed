@@ -864,15 +864,15 @@ Components
 .
 classes
 [
-'
+"
 mozilla
 .
 org
 /
-accessibilityService
+accessibleRetrieval
 ;
 1
-'
+"
 ]
 .
 getService
@@ -881,7 +881,7 @@ Components
 .
 interfaces
 .
-nsIAccessibilityService
+nsIAccessibleRetrieval
 )
 ;
 return

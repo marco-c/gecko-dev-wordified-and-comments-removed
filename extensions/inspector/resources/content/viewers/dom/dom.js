@@ -1430,7 +1430,7 @@ mozilla
 .
 org
 /
-accessibilityService
+accessibleRetrieval
 ;
 1
 "
