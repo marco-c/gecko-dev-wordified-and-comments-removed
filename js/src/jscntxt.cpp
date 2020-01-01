@@ -1412,7 +1412,7 @@ cx
 uintN
 vplen
 uintN
-nfixed
+nslots
 FrameGuard
 *
 fg
@@ -1436,7 +1436,7 @@ vplen
 +
 VALUES_PER_STACK_FRAME
 +
-nfixed
+nslots
 ;
 if
 (
@@ -1702,7 +1702,7 @@ cx
 script
 -
 >
-nfixed
+nslots
 fg
 )
 ;
@@ -1918,7 +1918,7 @@ cx
 uintN
 vplen
 uintN
-nfixed
+nslots
 GeneratorFrameGuard
 *
 fg
@@ -1929,7 +1929,7 @@ getSegmentAndFrame
 (
 cx
 vplen
-nfixed
+nslots
 fg
 )
 ;
