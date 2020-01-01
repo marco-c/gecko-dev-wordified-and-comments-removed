@@ -136,10 +136,6 @@ nsIDOMSVGLength
 .
 idl
 \
-nsIDOMSVGMarkerElement
-.
-idl
-\
 nsIDOMSVGNumber
 .
 idl
