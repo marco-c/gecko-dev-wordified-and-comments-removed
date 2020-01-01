@@ -135,6 +135,10 @@ IndexedDBHelper
 .
 jsm
 \
+ObjectWrapper
+.
+jsm
+\
 (
 NULL
 )
