@@ -289,6 +289,9 @@ GetBaseValue
 )
 const
 {
+nsSMILValue
+baseValue
+;
 if
 (
 nsCSSProps
@@ -300,8 +303,8 @@ mPropID
 )
 )
 {
-return
 nsSMILValue
+tmpVal
 (
 &
 nsSMILCSSValueType
@@ -309,6 +312,16 @@ nsSMILCSSValueType
 :
 sSingleton
 )
+;
+baseValue
+.
+Swap
+(
+tmpVal
+)
+;
+return
+baseValue
 ;
 }
 nsCOMPtr
@@ -415,9 +428,6 @@ cachedOverrideStyleVal
 )
 ;
 }
-nsSMILValue
-baseValue
-;
 if
 (
 didGetComputedVal
