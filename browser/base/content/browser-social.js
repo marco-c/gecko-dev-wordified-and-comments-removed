@@ -520,6 +520,12 @@ _updateMenuItems
 (
 )
 ;
+SocialFlyout
+.
+unload
+(
+)
+;
 SocialChatBar
 .
 update
