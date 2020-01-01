@@ -492,9 +492,11 @@ MOZ_OMX_PLUGIN
 '
 ]
 :
-external_dirs
-+
-=
+add_tier_dir
+(
+'
+platform
+'
 [
 '
 media
@@ -664,6 +666,7 @@ jb
 htc
 '
 ]
+)
 if
 CONFIG
 [
