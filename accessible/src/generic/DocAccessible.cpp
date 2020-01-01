@@ -2479,6 +2479,11 @@ RemoveEventListeners
 (
 )
 ;
+mFlags
+|
+=
+eIsDefunct
+;
 nsCOMPtr
 <
 nsIDocument
