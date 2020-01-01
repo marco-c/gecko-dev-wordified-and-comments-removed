@@ -53,7 +53,7 @@ h
 endif
 extern
 const
-int
+PKIX_Int32
 PKIX_PLErrorIndex
 [
 ]

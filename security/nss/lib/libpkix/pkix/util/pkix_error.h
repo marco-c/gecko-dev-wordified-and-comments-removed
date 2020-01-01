@@ -30,7 +30,7 @@ errCode
 PKIX_ERRORCLASS
 errClass
 ;
-PKIX_UInt32
+PKIX_Int32
 plErr
 ;
 PKIX_Error
