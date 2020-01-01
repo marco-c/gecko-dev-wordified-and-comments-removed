@@ -31,6 +31,14 @@ acc
 )
 return
 ;
+var
+txtID
+=
+prettyName
+(
+aAccOrElmOrID
+)
+;
 try
 {
 is
@@ -50,7 +58,7 @@ accessible
 for
 "
 +
-aAccOrElmOrID
+txtID
 )
 ;
 }
@@ -76,7 +84,7 @@ accessible
 for
 "
 +
-aAccOrElmOrID
+txtID
 )
 ;
 }
