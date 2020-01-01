@@ -39,7 +39,12 @@ iframe
 '
 )
 ;
+SpecialPowers
+.
+wrap
+(
 iframe1
+)
 .
 mozbrowser
 =
@@ -66,7 +71,12 @@ iframe
 '
 )
 ;
+SpecialPowers
+.
+wrap
+(
 iframe2
+)
 .
 mozbrowser
 =

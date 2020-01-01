@@ -23,7 +23,7 @@ true
 ;
 browserElementTestHelpers
 .
-addToWhitelist
+addPermission
 (
 )
 ;
@@ -39,7 +39,12 @@ iframe
 '
 )
 ;
+SpecialPowers
+.
+wrap
+(
 iframe
+)
 .
 mozbrowser
 =
@@ -150,7 +155,9 @@ detail
 .
 features
 "
-features
+dialog
+=
+1
 "
 )
 ;
