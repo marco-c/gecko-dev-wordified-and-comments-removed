@@ -622,6 +622,11 @@ mDecoded
 ;
 }
 ;
+double
+GetFrameDelay
+(
+)
+;
 virtual
 Statistics
 GetStatistics
@@ -807,6 +812,8 @@ aPixelAspectRatio
 Image
 *
 aImage
+TimeStamp
+aTarget
 )
 ;
 virtual
@@ -873,6 +880,12 @@ mRGBHeight
 ;
 FrameStatistics
 mFrameStats
+;
+TimeStamp
+mPaintTarget
+;
+TimeDuration
+mPaintDelay
 ;
 nsRefPtr
 <

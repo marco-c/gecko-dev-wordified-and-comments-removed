@@ -557,6 +557,8 @@ RenderVideoFrame
 VideoData
 *
 aData
+TimeStamp
+aTarget
 )
 ;
 void
