@@ -337,7 +337,7 @@ testdata
 /
 dump_syms_regtest
 .
-out
+sym
 >
 \
 testdata

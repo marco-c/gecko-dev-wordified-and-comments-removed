@@ -5,7 +5,7 @@ PROCESSOR_LINKED_PTR_H__
 define
 PROCESSOR_LINKED_PTR_H__
 namespace
-google_airbag
+google_breakpad
 {
 class
 linked_ptr_internal

@@ -21,7 +21,7 @@ h
 #
 include
 "
-google_airbag
+google_breakpad
 /
 processor
 /
@@ -30,7 +30,7 @@ memory_region
 h
 "
 namespace
-google_airbag
+google_breakpad
 {
 using
 std

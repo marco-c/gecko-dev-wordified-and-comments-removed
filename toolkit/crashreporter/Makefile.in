@@ -419,7 +419,7 @@ LIBXUL_LIBRARY
 1
 LIBRARY_NAME
 =
-airbagexception_s
+exception_handler_s
 REQUIRES
 =
 \

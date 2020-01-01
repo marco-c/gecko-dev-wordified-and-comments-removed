@@ -72,7 +72,7 @@ e2
 namespace
 {
 using
-google_airbag
+google_breakpad
 :
 :
 PathnameStripper

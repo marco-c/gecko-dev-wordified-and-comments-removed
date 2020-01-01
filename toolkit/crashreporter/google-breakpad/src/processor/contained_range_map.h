@@ -10,7 +10,7 @@ include
 map
 >
 namespace
-google_airbag
+google_breakpad
 {
 template
 <

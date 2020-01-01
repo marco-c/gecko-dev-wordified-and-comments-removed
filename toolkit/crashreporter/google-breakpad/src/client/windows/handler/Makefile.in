@@ -142,7 +142,7 @@ Original
 Code
 is
 Mozilla
-Airbag
+Breakpad
 integration
 #
 #
@@ -431,7 +431,7 @@ MODULE
 handler
 LIBRARY_NAME
 =
-exception_handler
+exception_handler_s
 XPI_NAME
 =
 crashreporter

@@ -20,7 +20,7 @@ include
 vector
 >
 namespace
-google_airbag
+google_breakpad
 {
 using
 std
