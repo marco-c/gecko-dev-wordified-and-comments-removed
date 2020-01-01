@@ -10939,6 +10939,11 @@ defined
 (
 MOZ_WIDGET_GTK2
 )
+g_thread_init
+(
+NULL
+)
+;
 if
 (
 CheckArg
