@@ -1321,6 +1321,12 @@ this
 .
 _request
 ;
+request
+.
+mozBackgroundRequest
+=
+true
+;
 var
 callbackObj
 =
