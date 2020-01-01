@@ -259,8 +259,7 @@ define
 JSContext
 *
 cx
-PropertyName
-*
+HandlePropertyName
 name
 ParseNode
 *
