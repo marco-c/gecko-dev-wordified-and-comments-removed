@@ -229,10 +229,6 @@ nsSVGFilters
 .
 cpp
 \
-nsSVGForeignObjectElement
-.
-cpp
-\
 nsSVGGElement
 .
 cpp
@@ -489,6 +485,10 @@ SVGDescElement
 .
 cpp
 \
+SVGForeignObjectElement
+.
+cpp
+\
 SVGIntegerPairSMILType
 .
 cpp
@@ -655,6 +655,10 @@ SVGDefsElement
 h
 \
 SVGDescElement
+.
+h
+\
+SVGForeignObjectElement
 .
 h
 \
