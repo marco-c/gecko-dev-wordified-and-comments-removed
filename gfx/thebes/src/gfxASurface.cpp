@@ -42,6 +42,9 @@ gfxXlibSurface
 h
 "
 #
+undef
+Status
+#
 endif
 #
 ifdef
