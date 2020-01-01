@@ -362,6 +362,10 @@ ClickableWhenDisabledEditText
 .
 java
 \
+ContactService
+.
+java
+\
 ContextGetter
 .
 java
@@ -601,10 +605,6 @@ PrivateDataPreference
 java
 \
 PrivateTab
-.
-java
-\
-ProfileMigrator
 .
 java
 \
