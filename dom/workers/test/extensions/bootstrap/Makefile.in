@@ -463,6 +463,11 @@ testing
 mochitest
 /
 extensions
+GENERATED_DIRS
+=
+(
+TEST_EXTENSIONS_DIR
+)
 include
 (
 topsrcdir
@@ -476,14 +481,6 @@ mk
 libs
 :
 :
-(
-MKDIR
-)
--
-p
-(
-TEST_EXTENSIONS_DIR
-)
 (
 cd
 (

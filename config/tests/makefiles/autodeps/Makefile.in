@@ -119,10 +119,6 @@ config
 autoconf
 .
 mk
-#
-INCLUDED_CONFIG_MK
-=
-1
 include
 (
 topsrcdir
@@ -264,14 +260,6 @@ makefiles
 autotargets
 .
 mk
-echo
-"
-MAKECMD
-=
-(
-MAKE
-)
-"
 MAKECMD
 =
 (

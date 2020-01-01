@@ -447,9 +447,8 @@ ifdef
 INCLUDED_CONFIG_MK
 (
 error
-Don
-'
-t
+Do
+not
 include
 config
 .
