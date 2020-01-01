@@ -76,12 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-jar
-(
-VERSION_NUMBER
-)
 EXPORT_LIBRARY
 =
 1

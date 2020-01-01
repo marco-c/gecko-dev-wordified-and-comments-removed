@@ -172,9 +172,6 @@ ifneq
 MOZ_B2G_BT
 )
 )
-LIBRARY_NAME
-=
-dombluetooth_s
 ifeq
 (
 gonk

@@ -133,6 +133,11 @@ True
 MSVC_ENABLE_PGO
 =
 True
+LIBRARY_NAME
+=
+'
+places
+'
 XPIDL_SOURCES
 +
 =

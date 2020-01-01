@@ -81,9 +81,6 @@ autoconf
 mk
 ifdef
 NECKO_COOKIES
-LIBRARY_NAME
-=
-neckocookie_s
 LOCAL_INCLUDES
 =
 \

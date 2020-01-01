@@ -841,9 +841,6 @@ i18n
 chardet
 \
 jar
-(
-VERSION_NUMBER
-)
 \
 startupcache
 \

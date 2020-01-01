@@ -76,16 +76,6 @@ config
 autoconf
 .
 mk
-ifdef
-MOZ_ENABLE_GTK2
-LIBRARY_NAME
-=
-widget_gtk2
-else
-LIBRARY_NAME
-=
-widget_gtk3
-endif
 EXPORT_LIBRARY
 =
 1

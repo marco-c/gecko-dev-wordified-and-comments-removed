@@ -180,6 +180,11 @@ MODULE
 '
 dom
 '
+LIBRARY_NAME
+=
+'
+dombluetooth_s
+'
 XPIDL_MODULE
 =
 '

@@ -147,6 +147,11 @@ MODULE
 '
 jar
 '
+LIBRARY_NAME
+=
+'
+jar
+'
 EXPORTS
 +
 =

@@ -77,9 +77,6 @@ autoconf
 mk
 ifdef
 MOZ_PLACES
-LIBRARY_NAME
-=
-places
 EXPORT_LIBRARY
 =
 1
