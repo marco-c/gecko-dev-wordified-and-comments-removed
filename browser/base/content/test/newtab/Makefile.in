@@ -119,6 +119,10 @@ browser_newtab_tabsync
 .
 js
 \
+browser_newtab_undo
+.
+js
+\
 browser_newtab_unpin
 .
 js

@@ -225,6 +225,13 @@ _link
 )
 )
 {
+gUndoDialog
+.
+show
+(
+this
+)
+;
 gBlockedLinks
 .
 block
