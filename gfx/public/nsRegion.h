@@ -19,6 +19,9 @@ nsPoint
 h
 "
 class
+nsIntRegion
+;
+class
 NS_GFX
 nsRegion
 {
@@ -786,6 +789,14 @@ return
 mBoundRect
 ;
 }
+nsIntRegion
+ToOutsidePixels
+(
+nscoord
+aAppUnitsPerPixel
+)
+const
+;
 void
 SimplifyOutward
 (

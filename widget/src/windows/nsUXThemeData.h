@@ -1,4 +1,10 @@
 #
+ifndef
+__UXThemeData_h__
+#
+define
+__UXThemeData_h__
+#
 include
 <
 windows
@@ -740,3 +746,5 @@ compositionIsEnabled
 endif
 }
 ;
+#
+endif
