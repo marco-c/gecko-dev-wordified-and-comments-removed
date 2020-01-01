@@ -539,6 +539,13 @@ h
 #
 include
 "
+Role
+.
+h
+"
+#
+include
+"
 nsAccessNode
 .
 h
@@ -1157,10 +1164,10 @@ NS_ASSERTION
 [
 AXRoles
 [
-nsIAccessibleRole
+roles
 :
 :
-ROLE_LAST_ENTRY
+LAST_ENTRY
 ]
 isEqualToString
 :

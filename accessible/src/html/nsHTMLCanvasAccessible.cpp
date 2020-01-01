@@ -5,6 +5,13 @@ nsHTMLCanvasAccessible
 .
 h
 "
+#
+include
+"
+Role
+.
+h
+"
 using
 namespace
 mozilla
@@ -32,7 +39,7 @@ aShell
 )
 {
 }
-PRUint32
+role
 nsHTMLCanvasAccessible
 :
 :
@@ -41,9 +48,9 @@ NativeRole
 )
 {
 return
-nsIAccessibleRole
+roles
 :
 :
-ROLE_CANVAS
+CANVAS
 ;
 }

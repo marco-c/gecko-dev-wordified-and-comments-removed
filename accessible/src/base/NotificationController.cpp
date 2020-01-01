@@ -57,6 +57,13 @@ h
 #
 include
 "
+Role
+.
+h
+"
+#
+include
+"
 TextUpdater
 .
 h
@@ -2996,10 +3003,10 @@ Role
 )
 =
 =
-nsIAccessibleRole
+roles
 :
 :
-ROLE_WHITESPACE
+WHITESPACE
 )
 {
 nsCOMPtr

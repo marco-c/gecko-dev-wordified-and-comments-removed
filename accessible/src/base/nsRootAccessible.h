@@ -172,7 +172,13 @@ aType
 )
 ;
 virtual
-PRUint32
+mozilla
+:
+:
+a11y
+:
+:
+role
 NativeRole
 (
 )

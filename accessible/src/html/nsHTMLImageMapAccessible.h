@@ -48,7 +48,13 @@ aMapElm
 ;
 NS_DECL_ISUPPORTS_INHERITED
 virtual
-PRUint32
+mozilla
+:
+:
+a11y
+:
+:
+role
 NativeRole
 (
 )
