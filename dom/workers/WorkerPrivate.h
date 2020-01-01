@@ -1337,6 +1337,12 @@ JSContext
 *
 mJSContext
 ;
+nsRefPtr
+<
+WorkerCrossThreadDispatcher
+>
+mCrossThreadDispatcher
+;
 nsTArray
 <
 ParentType
@@ -1900,6 +1906,12 @@ const
 }
 #
 endif
+WorkerCrossThreadDispatcher
+*
+GetCrossThreadDispatcher
+(
+)
+;
 private
 :
 WorkerPrivate
