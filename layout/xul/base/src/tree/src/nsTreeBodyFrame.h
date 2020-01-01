@@ -1396,6 +1396,9 @@ mUpdateBatchNest
 PRInt32
 mRowCount
 ;
+PRInt32
+mMouseOverRow
+;
 class
 Slots
 {
