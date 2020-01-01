@@ -20807,7 +20807,11 @@ mTabstrip
 .
 _scrollButtonDown
 .
-scrollWidth
+getBoundingClientRect
+(
+)
+.
+width
 ;
 let
 paddingStart
@@ -20857,7 +20861,11 @@ width
 =
 tab
 .
-scrollWidth
+getBoundingClientRect
+(
+)
+.
+width
 ;
 tab
 .

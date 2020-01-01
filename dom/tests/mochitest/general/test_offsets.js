@@ -529,10 +529,6 @@ paddingLeft
 width
 +
 paddingRight
-+
-borderLeft
-+
-borderRight
 ;
 scrollHeight
 =
@@ -541,10 +537,6 @@ paddingTop
 height
 +
 paddingBottom
-+
-borderTop
-+
-borderBottom
 ;
 clientWidth
 =
