@@ -309,15 +309,6 @@ assertTabs
 2
 )
 ;
-ctrlTabTest
-(
-[
-1
-]
-1
-0
-)
-;
 gBrowser
 .
 removeTab
