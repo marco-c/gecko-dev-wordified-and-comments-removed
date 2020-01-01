@@ -50,7 +50,7 @@ android
 launchMode
 =
 "
-singleInstance
+singleTask
 "
 android
 :
