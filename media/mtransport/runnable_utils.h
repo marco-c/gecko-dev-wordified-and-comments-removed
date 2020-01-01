@@ -210,7 +210,7 @@ flags
 }
 #
 ifdef
-MOZ_DEBUG
+DEBUG
 #
 define
 ASSERT_ON_THREAD
