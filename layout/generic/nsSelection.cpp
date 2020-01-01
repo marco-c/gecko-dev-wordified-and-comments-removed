@@ -7318,6 +7318,9 @@ offset
 ;
 if
 (
+frame
+&
+&
 amount
 =
 =
