@@ -706,6 +706,10 @@ flow_
 =
 nullptr
 ;
+ice_ctx_
+=
+nullptr
+;
 }
 void
 SetDtlsAllowAll
