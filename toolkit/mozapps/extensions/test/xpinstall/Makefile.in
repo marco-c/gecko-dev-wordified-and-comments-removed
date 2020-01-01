@@ -596,6 +596,10 @@ browser_relative
 .
 js
 \
+browser_cancel
+.
+js
+\
 unsigned
 .
 xpi
@@ -633,6 +637,14 @@ xpi
 signed
 -
 tampered
+.
+xpi
+\
+restartless
+.
+xpi
+\
+incompatible
 .
 xpi
 \
