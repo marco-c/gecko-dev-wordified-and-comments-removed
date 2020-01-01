@@ -578,6 +578,10 @@ JSContext
 cx
 )
 {
+cachedIteratorObject
+=
+NULL
+;
 purgeGCFreeLists
 (
 )
