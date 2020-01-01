@@ -1007,6 +1007,10 @@ aFlag
 const
 {
 return
+static_cast
+<
+ChildrenFlags
+>
 (
 mFlags
 &
