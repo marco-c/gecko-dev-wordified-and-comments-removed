@@ -1,6 +1,13 @@
 #
 include
 "
+prlog
+.
+h
+"
+#
+include
+"
 nsStyleSheetService
 .
 h
@@ -105,7 +112,7 @@ nsStyleSheetService
 (
 )
 {
-NS_ASSERTION
+PR_STATIC_ASSERT
 (
 0
 =
@@ -117,14 +124,6 @@ AGENT_SHEET
 =
 =
 USER_SHEET
-"
-Invalid
-value
-for
-USER_SHEET
-or
-AGENT_SHEET
-"
 )
 ;
 NS_ASSERTION
