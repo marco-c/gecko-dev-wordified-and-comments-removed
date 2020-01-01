@@ -1244,9 +1244,9 @@ frameSize_
 }
 static
 inline
-IonScript
+JSScript
 *
-GetTopIonFrame
+GetTopIonJSScript
 (
 JSContext
 *
@@ -1348,9 +1348,6 @@ fun
 script
 (
 )
--
->
-ion
 ;
 }
 case
@@ -1366,9 +1363,6 @@ calleeToken
 (
 )
 )
--
->
-ion
 ;
 default
 :

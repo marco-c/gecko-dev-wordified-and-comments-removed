@@ -10949,12 +10949,6 @@ setScriptedLocation
 mir
 -
 >
-script
-(
-)
-mir
--
->
 pc
 (
 )

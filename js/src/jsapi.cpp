@@ -3716,6 +3716,13 @@ ionActivation
 (
 NULL
 )
+ionReturnOverride_
+(
+MagicValue
+(
+JS_ARG_POISON
+)
+)
 {
 JS_INIT_CLIST
 (
