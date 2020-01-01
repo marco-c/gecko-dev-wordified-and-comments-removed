@@ -1286,14 +1286,6 @@ res
 /
 layout
 /
-activity_list
-.
-xml
-\
-res
-/
-layout
-/
 abouthome_addon_list_item
 .
 xml
