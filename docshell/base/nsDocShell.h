@@ -1999,7 +1999,13 @@ nsIDocShellTreeOwner
 *
 mTreeOwner
 ;
-nsIDOMEventTarget
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
 *
 mChromeEventHandler
 ;
