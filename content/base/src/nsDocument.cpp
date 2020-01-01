@@ -1316,6 +1316,13 @@ h
 #
 include
 "
+nsIDOMLocation
+.
+h
+"
+#
+include
+"
 nsIHttpChannelInternal
 .
 h

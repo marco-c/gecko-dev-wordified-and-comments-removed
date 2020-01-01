@@ -1,5 +1,12 @@
 #
 include
+"
+nsGlobalWindow
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -18,13 +25,6 @@ include
 mozilla
 /
 Util
-.
-h
-"
-#
-include
-"
-nsGlobalWindow
 .
 h
 "

@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsIDOMDocument
+.
+h
+"
+#
+include
+"
 nsIDOMNodeList
 .
 h

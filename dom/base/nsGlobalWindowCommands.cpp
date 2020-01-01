@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsIDOMElement
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestor
 .
 h

@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsIDOMDocument
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h

@@ -31,6 +31,13 @@ h
 #
 include
 "
+nsIDOMDocument
+.
+h
+"
+#
+include
+"
 nsIServiceManager
 .
 h

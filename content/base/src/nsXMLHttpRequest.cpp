@@ -51,6 +51,13 @@ h
 #
 include
 "
+nsIDOMDocument
+.
+h
+"
+#
+include
+"
 nsIDOMProgressEvent
 .
 h

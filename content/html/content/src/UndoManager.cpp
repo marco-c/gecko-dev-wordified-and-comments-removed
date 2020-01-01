@@ -44,6 +44,13 @@ h
 #
 include
 "
+nsIDOMDocument
+.
+h
+"
+#
+include
+"
 nsIXPCScriptable
 .
 h
