@@ -22312,7 +22312,7 @@ aOwner
 if
 (
 !
-outerWindow
+currentInner
 |
 |
 (
