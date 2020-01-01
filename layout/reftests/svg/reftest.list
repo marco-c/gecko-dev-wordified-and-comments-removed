@@ -3331,9 +3331,9 @@ suspend
 01
 .
 svg
-about
-:
-blank
+pass
+.
+svg
 =
 =
 suspend
@@ -3344,7 +3344,6 @@ svg
 pass
 .
 svg
-fails
 =
 =
 suspend
@@ -3355,9 +3354,6 @@ svg
 pass
 .
 svg
-#
-bug
-724242
 =
 =
 suspend

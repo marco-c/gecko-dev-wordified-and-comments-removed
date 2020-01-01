@@ -147,12 +147,6 @@ PRUint32
 aFlags
 )
 ;
-virtual
-void
-NotifyRedrawUnsuspended
-(
-)
-;
 NS_IMETHOD
 PaintSVG
 (

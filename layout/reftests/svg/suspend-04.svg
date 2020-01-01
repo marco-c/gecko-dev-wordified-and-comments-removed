@@ -71,7 +71,16 @@ title
 Test
 that
 suspendRedraw
-works
+doesn
+'
+t
+apply
+after
+the
+end
+of
+a
+script
 <
 /
 title
@@ -227,7 +236,7 @@ setAttribute
 fill
 "
 "
-red
+lime
 "
 )
 ;
@@ -276,7 +285,7 @@ height
 fill
 =
 "
-lime
+red
 "
 /
 >

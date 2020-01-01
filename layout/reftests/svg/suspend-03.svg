@@ -78,7 +78,16 @@ title
 Test
 that
 suspendRedraw
-works
+doesn
+'
+t
+apply
+after
+the
+end
+of
+a
+script
 <
 /
 title
@@ -103,7 +112,7 @@ cgi
 ?
 id
 =
-615146
+734079
 -
 -
 >
@@ -194,7 +203,7 @@ height
 fill
 =
 "
-red
+lime
 "
 /
 >
@@ -220,7 +229,7 @@ height
 fill
 =
 "
-lime
+red
 "
 /
 >
