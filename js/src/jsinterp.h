@@ -736,6 +736,9 @@ JSContext
 cx
 JSBool
 gcLocked
+JSScopeProperty
+*
+sprop
 )
 ;
 struct

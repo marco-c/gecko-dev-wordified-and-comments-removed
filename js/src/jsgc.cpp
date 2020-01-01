@@ -16674,8 +16674,11 @@ rt
 -
 >
 shapeGen
-&
+>
+=
 SHAPE_OVERFLOW_BIT
+-
+1
 )
 {
 js_DisablePropertyCache
