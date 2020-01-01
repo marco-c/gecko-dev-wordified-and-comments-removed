@@ -108,13 +108,6 @@ h
 #
 include
 "
-nsNetUtil
-.
-h
-"
-#
-include
-"
 plstr
 .
 h
@@ -123,13 +116,6 @@ h
 include
 "
 nsIContent
-.
-h
-"
-#
-include
-"
-nsIDOMElement
 .
 h
 "

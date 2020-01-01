@@ -620,13 +620,6 @@ h
 #
 include
 "
-nsIDOMXPathEvaluator
-.
-h
-"
-#
-include
-"
 nsDOMCID
 .
 h

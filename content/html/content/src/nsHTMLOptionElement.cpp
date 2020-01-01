@@ -134,13 +134,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsIDOMDocument
 .
 h

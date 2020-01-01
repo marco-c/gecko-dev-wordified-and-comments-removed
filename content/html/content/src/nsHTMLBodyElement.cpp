@@ -143,13 +143,6 @@ h
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
 nsRuleWalker
 .
 h

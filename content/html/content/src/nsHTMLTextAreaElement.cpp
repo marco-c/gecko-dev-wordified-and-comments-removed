@@ -185,13 +185,6 @@ h
 #
 include
 "
-nsIFormControlFrame
-.
-h
-"
-#
-include
-"
 nsIPrivateDOMEvent
 .
 h
@@ -200,13 +193,6 @@ h
 include
 "
 nsGUIEvent
-.
-h
-"
-#
-include
-"
-nsLinebreakConverter
 .
 h
 "

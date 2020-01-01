@@ -87,13 +87,6 @@ h
 #
 include
 "
-nsContentCreatorFunctions
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLOptGroupElement
 .
 h

@@ -126,13 +126,6 @@ h
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-#
-include
-"
 nsLayoutUtils
 .
 h
