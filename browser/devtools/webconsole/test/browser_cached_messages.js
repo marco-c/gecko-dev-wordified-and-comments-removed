@@ -94,6 +94,7 @@ aTestReopen
 {
 openConsole
 (
+null
 function
 (
 hud

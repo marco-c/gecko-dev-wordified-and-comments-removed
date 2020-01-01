@@ -73,6 +73,7 @@ true
 ;
 openConsole
 (
+null
 function
 (
 )

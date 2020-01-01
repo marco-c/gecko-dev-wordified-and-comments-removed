@@ -63,6 +63,7 @@ true
 ;
 openConsole
 (
+null
 consoleOpened
 )
 ;

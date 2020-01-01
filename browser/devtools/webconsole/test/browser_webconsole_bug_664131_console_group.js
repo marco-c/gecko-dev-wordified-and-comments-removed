@@ -71,6 +71,7 @@ true
 ;
 openConsole
 (
+null
 function
 (
 aHud

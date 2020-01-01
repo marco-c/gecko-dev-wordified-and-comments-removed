@@ -62,6 +62,7 @@ true
 ;
 openConsole
 (
+null
 testTextNodeInsertion
 )
 ;

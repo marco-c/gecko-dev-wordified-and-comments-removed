@@ -244,6 +244,7 @@ true
 ;
 openConsole
 (
+null
 consoleOpened
 )
 ;
