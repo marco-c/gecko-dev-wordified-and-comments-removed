@@ -4243,10 +4243,6 @@ masm
 >
 actualOffset
 (
-(
-uint8
-*
-)
 osiReturnPointOffset_
 )
 ;
@@ -4257,10 +4253,6 @@ masm
 >
 actualOffset
 (
-(
-uint8
-*
-)
 safepointOffset_
 )
 ;

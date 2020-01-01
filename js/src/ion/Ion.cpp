@@ -2376,10 +2376,6 @@ masm
 .
 actualOffset
 (
-(
-uint8
-*
-)
 table
 [
 i

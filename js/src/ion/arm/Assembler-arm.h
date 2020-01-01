@@ -4562,11 +4562,10 @@ resetCounter
 (
 )
 ;
-ptrdiff_t
+uint32
 actualOffset
 (
-uint8
-*
+uint32
 )
 const
 ;
