@@ -2229,7 +2229,7 @@ aOptions
 JSContext
 *
 aCx
-nsIIDBObjectStore
+nsISupports
 *
 *
 _retval

@@ -377,14 +377,6 @@ nsIIDBIndex
 ;
 exports
 .
-IDBObjectStore
-=
-Ci
-.
-nsIIDBObjectStore
-;
-exports
-.
 IDBRequest
 =
 Ci

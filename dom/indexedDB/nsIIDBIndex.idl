@@ -119,9 +119,6 @@ nsISupports
 idl
 "
 interface
-nsIIDBObjectStore
-;
-interface
 nsIIDBRequest
 ;
 /
@@ -211,9 +208,15 @@ attribute
 boolean
 multiEntry
 ;
+/
+/
+This
+is
+a
+IDBObjectStore
 readonly
 attribute
-nsIIDBObjectStore
+nsISupports
 objectStore
 ;
 [

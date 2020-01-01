@@ -160,9 +160,6 @@ def
 IDBTransactionMode
 *
 /
-interface
-IDBObjectStore
-;
 enum
 IDBTransactionMode
 {

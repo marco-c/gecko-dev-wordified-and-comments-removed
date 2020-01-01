@@ -3364,7 +3364,7 @@ forget
 }
 already_AddRefed
 <
-nsIIDBObjectStore
+IDBObjectStore
 >
 IDBTransaction
 :

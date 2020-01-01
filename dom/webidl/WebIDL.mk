@@ -689,6 +689,10 @@ HTMLVideoElement
 .
 webidl
 \
+IDBCursor
+.
+webidl
+\
 IDBDatabase
 .
 webidl
@@ -698,6 +702,14 @@ IDBFactory
 webidl
 \
 IDBFileHandle
+.
+webidl
+\
+IDBIndex
+.
+webidl
+\
+IDBObjectStore
 .
 webidl
 \

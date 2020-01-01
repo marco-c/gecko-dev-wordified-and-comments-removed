@@ -119,9 +119,6 @@ nsISupports
 idl
 "
 interface
-nsIIDBObjectStore
-;
-interface
 nsIIDBRequest
 ;
 interface
@@ -216,7 +213,10 @@ objectStoreNames
 [
 implicit_jscontext
 ]
-nsIIDBObjectStore
+nsISupports
+/
+/
+IDBObjectStore
 createObjectStore
 (
 [

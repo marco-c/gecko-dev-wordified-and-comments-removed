@@ -139,11 +139,6 @@ nsIIDBKeyRange
 idl
 '
 '
-nsIIDBObjectStore
-.
-idl
-'
-'
 nsIIDBOpenDBRequest
 .
 idl

@@ -547,11 +547,6 @@ nsIIDBKeyRange
 *
 '
 '
-nsIIDBObjectStore
-.
-*
-'
-'
 nsIIDBRequest
 .
 *
