@@ -8987,6 +8987,11 @@ page_url
 "
 )
 ;
+NS_ENSURE_STATE
+(
+stmt
+)
+;
 rv
 =
 URIBinder
@@ -9041,6 +9046,11 @@ guid
 "
 )
 ;
+NS_ENSURE_STATE
+(
+stmt
+)
+;
 rv
 =
 stmt
@@ -9066,12 +9076,6 @@ rv
 )
 ;
 }
-NS_ENSURE_TRUE
-(
-stmt
-rv
-)
-;
 mozStorageStatementScoper
 scoper
 (
