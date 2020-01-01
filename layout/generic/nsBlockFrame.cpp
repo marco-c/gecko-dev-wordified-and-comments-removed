@@ -4526,10 +4526,9 @@ needSpaceManager
 )
 autoSpaceManager
 .
-CreateSpaceManagerFor
+CreateSpaceManager
 (
 aPresContext
-this
 )
 ;
 ClearLineCursor
