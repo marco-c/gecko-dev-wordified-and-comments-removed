@@ -419,7 +419,7 @@ change
 "
 profile
 -
-after
+do
 -
 change
 "
@@ -1452,7 +1452,7 @@ strcmp
 "
 profile
 -
-after
+do
 -
 change
 "
