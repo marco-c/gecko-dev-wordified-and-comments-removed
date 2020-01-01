@@ -72,6 +72,15 @@ gfxPangoFonts
 h
 "
 #
+include
+<
+pango
+/
+pangocairo
+.
+h
+>
+#
 ifdef
 MOZ_ENABLE_GLITZ
 #
