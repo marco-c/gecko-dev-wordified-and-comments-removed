@@ -2008,6 +2008,13 @@ BINPATH
 /
 components
 /
+nsPlacesDBFlush
+.
+js
+BINPATH
+/
+components
+/
 nsPlacesAutoComplete
 .
 manifest

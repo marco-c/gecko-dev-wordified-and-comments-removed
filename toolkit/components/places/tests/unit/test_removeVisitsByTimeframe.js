@@ -2312,7 +2312,7 @@ sql
 SELECT
 frecency
 FROM
-moz_places
+moz_places_view
 WHERE
 url
 =
@@ -2382,7 +2382,7 @@ sql
 SELECT
 id
 FROM
-moz_places
+moz_places_view
 WHERE
 url
 =
