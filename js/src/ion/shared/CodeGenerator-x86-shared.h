@@ -450,6 +450,15 @@ ins
 ;
 virtual
 bool
+visitModPowTwoI
+(
+LModPowTwoI
+*
+ins
+)
+;
+virtual
+bool
 visitBitNotI
 (
 LBitNotI

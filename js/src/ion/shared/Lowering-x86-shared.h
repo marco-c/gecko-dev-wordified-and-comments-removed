@@ -82,6 +82,14 @@ MDefinition
 rhs
 )
 ;
+bool
+lowerModI
+(
+MMod
+*
+mod
+)
+;
 }
 ;
 }

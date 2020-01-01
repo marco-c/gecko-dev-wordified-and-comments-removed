@@ -40,5 +40,10 @@ _
 (
 ModI
 )
+\
+_
+(
+ModPowTwoI
+)
 #
 endif
