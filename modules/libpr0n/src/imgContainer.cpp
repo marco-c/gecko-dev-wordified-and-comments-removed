@@ -155,7 +155,7 @@ PR_LOG_ERROR
 \
 (
 "
-ImgContainer
+RasterImage
 :
 [
 this
@@ -332,18 +332,24 @@ return
 enabled
 ;
 }
+namespace
+mozilla
+{
+namespace
+imagelib
+{
 NS_IMPL_ISUPPORTS4
 (
-imgContainer
+RasterImage
 imgIContainer
 nsITimerCallback
 nsIProperties
 nsISupportsWeakReference
 )
-imgContainer
+RasterImage
 :
 :
-imgContainer
+RasterImage
 (
 )
 :
@@ -454,11 +460,11 @@ num_containers
 +
 ;
 }
-imgContainer
+RasterImage
 :
 :
 ~
-imgContainer
+RasterImage
 (
 )
 {
@@ -522,7 +528,7 @@ PR_LOG_DEBUG
 CompressedImageAccounting
 :
 destroying
-imgContainer
+RasterImage
 %
 p
 .
@@ -622,7 +628,7 @@ Length
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 Init
@@ -825,7 +831,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 ExtractFrame
@@ -887,12 +893,12 @@ NS_ERROR_FAILURE
 ;
 nsRefPtr
 <
-imgContainer
+RasterImage
 >
 img
 (
 new
-imgContainer
+RasterImage
 (
 )
 )
@@ -1109,7 +1115,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 GetWidth
@@ -1143,7 +1149,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 GetHeight
@@ -1178,7 +1184,7 @@ NS_OK
 }
 imgFrame
 *
-imgContainer
+RasterImage
 :
 :
 GetImgFrame
@@ -1276,7 +1282,7 @@ nsnull
 }
 imgFrame
 *
-imgContainer
+RasterImage
 :
 :
 GetDrawableImgFrame
@@ -1314,7 +1320,7 @@ frame
 ;
 }
 PRUint32
-imgContainer
+RasterImage
 :
 :
 GetCurrentImgFrameIndex
@@ -1338,7 +1344,7 @@ return
 }
 imgFrame
 *
-imgContainer
+RasterImage
 :
 :
 GetCurrentImgFrame
@@ -1356,7 +1362,7 @@ GetCurrentImgFrameIndex
 }
 imgFrame
 *
-imgContainer
+RasterImage
 :
 :
 GetCurrentDrawableImgFrame
@@ -1373,7 +1379,7 @@ GetCurrentImgFrameIndex
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 GetCurrentFrameIsOpaque
@@ -1466,7 +1472,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 GetCurrentFrameRect
@@ -1528,7 +1534,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 GetCurrentFrameIndex
@@ -1562,7 +1568,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 GetNumFrames
@@ -1598,7 +1604,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 GetAnimated
@@ -1652,7 +1658,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 CopyFrame
@@ -1889,7 +1895,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 GetFrame
@@ -2114,7 +2120,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 GetDataSize
@@ -2194,7 +2200,7 @@ NS_OK
 ;
 }
 PRUint32
-imgContainer
+RasterImage
 :
 :
 GetDecodedDataSize
@@ -2267,7 +2273,7 @@ val
 ;
 }
 PRUint32
-imgContainer
+RasterImage
 :
 :
 GetSourceDataSize
@@ -2283,7 +2289,7 @@ Length
 ;
 }
 void
-imgContainer
+RasterImage
 :
 :
 DeleteImgFrame
@@ -2324,7 +2330,7 @@ nsnull
 ;
 }
 nsresult
-imgContainer
+RasterImage
 :
 :
 InternalAddFrameHelper
@@ -2439,7 +2445,7 @@ NS_OK
 ;
 }
 nsresult
-imgContainer
+RasterImage
 :
 :
 InternalAddFrame
@@ -2755,7 +2761,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 AppendFrame
@@ -2821,7 +2827,7 @@ nsnull
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 AppendPalettedFrame
@@ -2906,7 +2912,7 @@ paletteLength
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 SetSize
@@ -3032,7 +3038,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 EnsureCleanFrame
@@ -3257,7 +3263,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 FrameUpdated
@@ -3345,7 +3351,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 SetFrameDisposalMethod
@@ -3439,7 +3445,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 SetFrameTimeout
@@ -3533,7 +3539,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 SetFrameBlendMethod
@@ -3627,7 +3633,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 SetFrameHasNoAlpha
@@ -3718,7 +3724,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 EndFrameDecode
@@ -3750,12 +3756,11 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 DecodingComplete
 (
-void
 )
 {
 if
@@ -3872,7 +3877,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 GetAnimationMode
@@ -3904,7 +3909,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 SetAnimationMode
@@ -4046,7 +4051,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 StartAnimation
@@ -4211,7 +4216,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 StopAnimation
@@ -4271,7 +4276,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 ResetAnimation
@@ -4401,7 +4406,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 GetLoopCount
@@ -4433,7 +4438,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 SetLoopCount
@@ -4458,7 +4463,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 AddSourceData
@@ -4500,7 +4505,7 @@ on
 uninitialized
 "
 "
-imgContainer
+RasterImage
 !
 "
 )
@@ -4649,7 +4654,7 @@ Added
 compressed
 data
 to
-imgContainer
+RasterImage
 %
 p
 (
@@ -4810,7 +4815,7 @@ i
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 SourceDataComplete
@@ -4955,7 +4960,7 @@ PR_LOG_DEBUG
 "
 CompressedImageAccounting
 :
-imgContainer
+RasterImage
 :
 :
 SourceDataComplete
@@ -5040,7 +5045,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 NewSourceData
@@ -5172,7 +5177,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 SetSourceSizeHint
@@ -5202,7 +5207,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 Notify
@@ -5228,7 +5233,7 @@ timer
 =
 timer
 "
-imgContainer
+RasterImage
 :
 :
 Notify
@@ -5499,7 +5504,7 @@ else
 NS_WARNING
 (
 "
-imgContainer
+RasterImage
 :
 :
 Notify
@@ -5655,7 +5660,7 @@ nextFrameIndex
 NS_WARNING
 (
 "
-imgContainer
+RasterImage
 :
 :
 Notify
@@ -5723,7 +5728,7 @@ NS_OK
 ;
 }
 nsresult
-imgContainer
+RasterImage
 :
 :
 DoComposite
@@ -6858,7 +6863,7 @@ NS_OK
 ;
 }
 void
-imgContainer
+RasterImage
 :
 :
 ClearFrame
@@ -6942,7 +6947,7 @@ UnlockImageData
 ;
 }
 void
-imgContainer
+RasterImage
 :
 :
 ClearFrame
@@ -7066,7 +7071,7 @@ UnlockImageData
 ;
 }
 PRBool
-imgContainer
+RasterImage
 :
 :
 CopyFrameImage
@@ -7188,7 +7193,7 @@ PR_TRUE
 ;
 }
 nsresult
-imgContainer
+RasterImage
 :
 :
 DrawFrameTo
@@ -7243,7 +7248,7 @@ y
 NS_WARNING
 (
 "
-imgContainer
+RasterImage
 :
 :
 DrawFrameTo
@@ -7380,7 +7385,7 @@ dstRect
 height
 )
 "
-imgContainer
+RasterImage
 :
 :
 DrawFrameTo
@@ -7411,7 +7416,7 @@ aSrcRect
 height
 )
 "
-imgContainer
+RasterImage
 :
 :
 DrawFrameTo
@@ -7855,7 +7860,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 Get
@@ -7895,7 +7900,7 @@ result
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 Set
@@ -7949,7 +7954,7 @@ value
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 Has
@@ -7995,7 +8000,7 @@ _retval
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 Undefine
@@ -8025,7 +8030,7 @@ prop
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 GetKeys
@@ -8072,7 +8077,7 @@ keys
 ;
 }
 void
-imgContainer
+RasterImage
 :
 :
 Discard
@@ -8205,7 +8210,7 @@ image
 "
 data
 from
-imgContainer
+RasterImage
 %
 p
 (
@@ -8273,7 +8278,7 @@ discardable_source_bytes
 ;
 }
 PRBool
-imgContainer
+RasterImage
 :
 :
 CanDiscard
@@ -8306,7 +8311,7 @@ mDecoded
 ;
 }
 PRBool
-imgContainer
+RasterImage
 :
 :
 DiscardingActive
@@ -8329,7 +8334,7 @@ next
 ;
 }
 PRBool
-imgContainer
+RasterImage
 :
 :
 StoringSourceData
@@ -8346,7 +8351,7 @@ mDiscardable
 ;
 }
 nsresult
-imgContainer
+RasterImage
 :
 :
 InitDecoder
@@ -8499,7 +8504,7 @@ NS_OK
 ;
 }
 nsresult
-imgContainer
+RasterImage
 :
 :
 ShutdownDecoder
@@ -8748,7 +8753,7 @@ NS_OK
 ;
 }
 nsresult
-imgContainer
+RasterImage
 :
 :
 WriteToDecoder
@@ -8882,7 +8887,7 @@ NS_OK
 ;
 }
 nsresult
-imgContainer
+RasterImage
 :
 :
 WantDecodedFrames
@@ -8940,7 +8945,7 @@ RequestDecode
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 RequestDecode
@@ -9126,7 +9131,7 @@ Dispatch
 ;
 }
 nsresult
-imgContainer
+RasterImage
 :
 :
 SyncDecode
@@ -9289,7 +9294,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 Draw
@@ -9443,7 +9448,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 LockImage
@@ -9475,7 +9480,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-imgContainer
+RasterImage
 :
 :
 UnlockImage
@@ -9564,7 +9569,7 @@ NS_OK
 ;
 }
 nsresult
-imgContainer
+RasterImage
 :
 :
 DecodeSomeData
@@ -9635,7 +9640,7 @@ rv
 ;
 }
 PRBool
-imgContainer
+RasterImage
 :
 :
 IsDecodeFinished
@@ -9717,7 +9722,7 @@ decodeFinished
 ;
 }
 void
-imgContainer
+RasterImage
 :
 :
 DoError
@@ -9839,13 +9844,13 @@ iContainer
 return
 NS_OK
 ;
-imgContainer
+RasterImage
 *
 container
 =
 static_cast
 <
-imgContainer
+RasterImage
 *
 >
 (
@@ -10030,7 +10035,7 @@ container
 >
 ShutdownDecoder
 (
-imgContainer
+RasterImage
 :
 :
 eShutdownIntent_Done
@@ -10109,13 +10114,13 @@ iContainer
 return
 NS_OK
 ;
-imgContainer
+RasterImage
 *
 container
 =
 static_cast
 <
-imgContainer
+RasterImage
 *
 >
 (
@@ -10162,7 +10167,7 @@ this
 ;
 }
 NS_METHOD
-imgContainer
+RasterImage
 :
 :
 WriteToContainer
@@ -10186,13 +10191,13 @@ PRUint32
 writeCount
 )
 {
-imgIContainer
+RasterImage
 *
 container
 =
 static_cast
 <
-imgIContainer
+RasterImage
 *
 >
 (
@@ -10219,4 +10224,6 @@ count
 return
 NS_OK
 ;
+}
+}
 }

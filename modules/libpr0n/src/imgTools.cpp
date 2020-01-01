@@ -117,6 +117,13 @@ imgContainer
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+imagelib
+;
 NS_IMPL_ISUPPORTS1
 (
 imgTools
@@ -177,7 +184,7 @@ aContainer
 aContainer
 =
 new
-imgContainer
+RasterImage
 (
 )
 ;
@@ -308,7 +315,7 @@ inStream
 >
 ReadSegments
 (
-imgContainer
+RasterImage
 :
 :
 WriteToContainer
