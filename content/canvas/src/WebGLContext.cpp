@@ -5309,7 +5309,7 @@ nsITimerCallback
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-nsIDOMWebGLRenderingContext
+nsICanvasRenderingContextInternal
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
