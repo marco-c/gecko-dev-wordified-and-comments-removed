@@ -687,6 +687,7 @@ _publicDownloadList
 new
 DownloadList
 (
+true
 )
 ;
 }
@@ -726,6 +727,7 @@ _privateDownloadList
 new
 DownloadList
 (
+false
 )
 ;
 }
