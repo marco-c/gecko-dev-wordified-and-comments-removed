@@ -291,7 +291,7 @@ changedIDs
 ]
 .
 length
-1
+2
 )
 ;
 _
@@ -345,7 +345,7 @@ changedIDs
 ]
 .
 length
-2
+3
 )
 ;
 _
