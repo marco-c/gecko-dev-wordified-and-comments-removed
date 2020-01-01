@@ -516,6 +516,10 @@ NULL
 EXTRA_JS_MODULES
 =
 \
+ChromeManifestParser
+.
+jsm
+\
 LightweightThemeManager
 .
 jsm
