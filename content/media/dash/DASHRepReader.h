@@ -157,6 +157,14 @@ aNextReader
 =
 0
 ;
+virtual
+bool
+IsDataCachedAtEndOfSubsegments
+(
+)
+=
+0
+;
 }
 ;
 }

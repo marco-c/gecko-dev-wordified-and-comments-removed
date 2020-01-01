@@ -722,6 +722,12 @@ uint32_t
 aIdx
 )
 ;
+bool
+IsDataCachedAtEndOfSubsegments
+(
+)
+MOZ_OVERRIDE
+;
 #
 endif
 protected

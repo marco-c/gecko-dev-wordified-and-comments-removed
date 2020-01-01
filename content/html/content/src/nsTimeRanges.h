@@ -54,6 +54,11 @@ double
 aEnd
 )
 ;
+double
+GetFinalEndTime
+(
+)
+;
 void
 Normalize
 (

@@ -243,6 +243,16 @@ NetworkError
 (
 )
 ;
+void
+SetMediaDuration
+(
+int64_t
+aDuration
+)
+MOZ_OVERRIDE
+{
+}
+;
 virtual
 void
 SetDuration
