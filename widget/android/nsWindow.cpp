@@ -5465,11 +5465,6 @@ ae
 Action
 (
 )
-&
-AndroidMotionEvent
-:
-:
-ACTION_MASK
 )
 {
 #
@@ -5910,11 +5905,6 @@ ae
 Action
 (
 )
-&
-AndroidMotionEvent
-:
-:
-ACTION_MASK
 )
 {
 case
