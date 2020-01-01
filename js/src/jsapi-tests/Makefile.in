@@ -517,7 +517,7 @@ testScriptObject
 .
 cpp
 \
-testSetPropertyWithNativeGetterStubSetter
+testSetProperty
 .
 cpp
 \
