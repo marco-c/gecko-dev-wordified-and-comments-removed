@@ -1541,6 +1541,8 @@ urlbar
 hideProtocols
 "
 "
+http
+https
 "
 )
 ;
