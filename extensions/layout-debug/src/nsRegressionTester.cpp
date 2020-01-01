@@ -373,14 +373,10 @@ GetRootFrame
 nsIFrameDebug
 *
 fdbg
-;
-rv
 =
-CallQueryInterface
+do_QueryFrame
 (
 root
-&
-fdbg
 )
 ;
 if
