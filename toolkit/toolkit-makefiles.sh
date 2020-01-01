@@ -5068,11 +5068,6 @@ themes
 Makefile
 themes
 /
-modern
-/
-Makefile
-themes
-/
 classic
 /
 Makefile
