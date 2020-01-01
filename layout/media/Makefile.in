@@ -750,7 +750,6 @@ EXTRA_DSO_LDOPTS
 call
 EXPAND_LIBNAME
 winmm
-ksguid
 )
 endif
 DEFFILE
