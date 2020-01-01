@@ -1649,7 +1649,7 @@ data
 =
 frame
 .
-copyData
+copyDataIntoReg
 (
 fe
 )
@@ -2437,7 +2437,7 @@ reg
 =
 frame
 .
-copyData
+copyDataIntoReg
 (
 lhs
 )
@@ -5540,7 +5540,7 @@ objReg
 =
 frame
 .
-copyData
+copyDataIntoReg
 (
 obj
 )
@@ -5845,7 +5845,7 @@ idReg
 =
 frame
 .
-copyData
+copyDataIntoReg
 (
 id
 )
@@ -6249,7 +6249,7 @@ objReg
 =
 frame
 .
-copyData
+copyDataIntoReg
 (
 obj
 )
@@ -6482,7 +6482,7 @@ idReg
 =
 frame
 .
-copyData
+copyDataIntoReg
 (
 id
 )

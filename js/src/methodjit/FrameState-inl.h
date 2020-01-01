@@ -210,7 +210,7 @@ takeAnyReg
 else
 reg
 =
-evictSomething
+evictSomeReg
 (
 )
 ;
@@ -268,7 +268,7 @@ mask
 else
 reg
 =
-evictSomething
+evictSomeReg
 (
 mask
 )
@@ -334,7 +334,7 @@ takeAnyReg
 else
 reg
 =
-evictSomething
+evictSomeReg
 (
 )
 ;
@@ -386,7 +386,7 @@ fe
 )
 return
 ;
-forgetRegs
+forgetAllRegs
 (
 fe
 )
@@ -2645,7 +2645,7 @@ void
 FrameState
 :
 :
-forgetRegs
+forgetAllRegs
 (
 FrameEntry
 *
@@ -2999,7 +2999,7 @@ FrameEntry
 fe
 )
 {
-forgetRegs
+forgetAllRegs
 (
 fe
 )
