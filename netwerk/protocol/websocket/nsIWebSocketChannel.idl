@@ -418,11 +418,8 @@ to
 call
 at
 least
-onStart
-and
 onStop
-of
-*
+on
 the
 listener
 .
