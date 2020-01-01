@@ -799,6 +799,7 @@ NS_CANVASGRADIENT_PRIVATE_IID
 }
 class
 nsCanvasGradient
+MOZ_FINAL
 :
 public
 nsIDOMCanvasGradient
@@ -988,6 +989,7 @@ NS_CANVASPATTERN_PRIVATE_IID
 }
 class
 nsCanvasPattern
+MOZ_FINAL
 :
 public
 nsIDOMCanvasPattern
