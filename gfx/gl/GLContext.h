@@ -1992,12 +1992,14 @@ VendorIntel
 VendorNVIDIA
 VendorATI
 VendorQualcomm
+VendorImagination
 VendorOther
 }
 ;
 enum
 {
 RendererAdreno200
+RendererSGX540
 RendererOther
 }
 ;
@@ -2023,6 +2025,11 @@ mRenderer
 }
 bool
 CanUploadSubTextures
+(
+)
+;
+bool
+WantsSmallTiles
 (
 )
 ;
