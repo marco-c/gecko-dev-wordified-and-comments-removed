@@ -44,9 +44,6 @@ writeArgs
 GLOBAL
 asmXPTC_InvokeByIndex
 asmXPTC_InvokeByIndex
-mov
-r12
-sp
 stmdb
 sp
 !
@@ -54,7 +51,6 @@ sp
 r4
 -
 r6
-r12
 lr
 }
 ;
@@ -392,7 +388,6 @@ sp
 r4
 -
 r6
-sp
 pc
 }
 ;
