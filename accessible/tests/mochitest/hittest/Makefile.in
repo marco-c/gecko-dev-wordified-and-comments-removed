@@ -92,6 +92,10 @@ test_general
 .
 html
 \
+test_zoom_text
+.
+html
+\
 test_zoom_tree
 .
 xul
