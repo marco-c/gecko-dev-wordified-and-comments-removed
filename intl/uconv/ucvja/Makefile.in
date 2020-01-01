@@ -451,14 +451,6 @@ nsUnicodeToSJIS
 .
 cpp
 \
-nsCP932ToUnicode
-.
-cpp
-\
-nsUnicodeToCP932
-.
-cpp
-\
 nsUnicodeToEUCJP
 .
 cpp

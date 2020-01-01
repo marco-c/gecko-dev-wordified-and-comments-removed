@@ -456,14 +456,6 @@ nsUnicodeToHKSCS
 .
 cpp
 \
-nsCP950ToUnicode
-.
-cpp
-\
-nsUnicodeToCP950
-.
-cpp
-\
 (
 NULL
 )
