@@ -15955,13 +15955,6 @@ alloc
 len
 )
 ;
-memset
-(
-guard
-0
-len
-)
-;
 VMSideExit
 *
 exit
