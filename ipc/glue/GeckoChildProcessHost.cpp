@@ -1979,6 +1979,8 @@ base
 :
 ProcessHandle
 process
+=
+0
 ;
 char
 pidstring
