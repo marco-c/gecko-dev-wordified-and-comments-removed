@@ -1033,6 +1033,11 @@ RemoveWyciwygChannel
 void
 )
 ;
+PRBool
+IsEditingOnAfterFlush
+(
+)
+;
 void
 *
 GenerateParserKey
