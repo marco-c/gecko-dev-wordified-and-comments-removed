@@ -2034,12 +2034,6 @@ nsStubMutationObserver
 {
 public
 :
-using
-nsINode
-:
-:
-GetScriptTypeID
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 virtual
 void

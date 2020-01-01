@@ -36,12 +36,6 @@ nsAccessibleWrap
 {
 public
 :
-using
-nsAccessible
-:
-:
-GetChildAtPoint
-;
 nsLeafAccessible
 (
 nsIDOMNode

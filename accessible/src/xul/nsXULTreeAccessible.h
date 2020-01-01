@@ -89,12 +89,6 @@ nsXULSelectableAccessible
 {
 public
 :
-using
-nsAccessible
-:
-:
-GetChildAtPoint
-;
 nsXULTreeAccessible
 (
 nsIDOMNode
