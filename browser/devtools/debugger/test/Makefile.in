@@ -311,16 +311,6 @@ reexpand
 .
 js
 \
-(
-filter
-disabled
--
-temporarily
--
--
-bug
--
-782179
 browser_dbg_reload
 -
 same
@@ -328,7 +318,6 @@ same
 script
 .
 js
-)
 \
 browser_dbg_reload
 -
