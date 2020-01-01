@@ -441,6 +441,16 @@ manifest
 (
 NULL
 )
+EXTRA_JS_MODULES
+=
+\
+CommonDialog
+.
+jsm
+\
+(
+NULL
+)
 include
 (
 topsrcdir
