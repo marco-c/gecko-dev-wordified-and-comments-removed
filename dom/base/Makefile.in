@@ -175,6 +175,10 @@ nsIDOMScriptObjectFactory
 .
 h
 \
+nsIGlobalObject
+.
+h
+\
 nsIJSEventListener
 .
 h

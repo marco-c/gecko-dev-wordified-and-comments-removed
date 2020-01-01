@@ -230,8 +230,6 @@ nsXBLDocGlobalObject
 :
 public
 nsIScriptGlobalObject
-public
-nsIScriptObjectPrincipal
 {
 public
 :
@@ -243,6 +241,13 @@ aGlobalObjectOwner
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+virtual
+JSObject
+*
+GetGlobalJSObject
+(
+)
+;
 virtual
 nsresult
 EnsureScriptEnvironment
@@ -263,13 +268,6 @@ virtual
 nsIScriptContext
 *
 GetContext
-(
-)
-;
-virtual
-JSObject
-*
-GetGlobalJSObject
 (
 )
 ;
@@ -799,6 +797,10 @@ nsIScriptGlobalObject
 NS_INTERFACE_MAP_ENTRY
 (
 nsIScriptObjectPrincipal
+)
+NS_INTERFACE_MAP_ENTRY
+(
+nsIGlobalObject
 )
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (

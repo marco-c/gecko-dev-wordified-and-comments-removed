@@ -220,8 +220,6 @@ nsXULPDGlobalObject
 :
 public
 nsIScriptGlobalObject
-public
-nsIScriptObjectPrincipal
 {
 public
 :
@@ -233,6 +231,13 @@ owner
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+virtual
+JSObject
+*
+GetGlobalJSObject
+(
+)
+;
 virtual
 void
 OnFinalize
@@ -250,13 +255,6 @@ bool
 aEnabled
 bool
 aFireTimeouts
-)
-;
-virtual
-JSObject
-*
-GetGlobalJSObject
-(
 )
 ;
 virtual
@@ -2867,6 +2865,10 @@ nsIScriptGlobalObject
 NS_INTERFACE_MAP_ENTRY
 (
 nsIScriptObjectPrincipal
+)
+NS_INTERFACE_MAP_ENTRY
+(
+nsIGlobalObject
 )
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
