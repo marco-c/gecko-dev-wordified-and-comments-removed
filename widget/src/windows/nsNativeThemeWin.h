@@ -33,12 +33,6 @@ windows
 .
 h
 >
-struct
-nsIntRect
-;
-struct
-nsIntSize
-;
 class
 nsNativeThemeWin
 :
@@ -82,7 +76,7 @@ nsIFrame
 aFrame
 PRUint8
 aWidgetType
-nsIntMargin
+nsMargin
 *
 aResult
 )
@@ -99,7 +93,7 @@ nsIFrame
 aFrame
 PRUint8
 aWidgetType
-nsIntMargin
+nsMargin
 *
 aResult
 )
@@ -132,7 +126,7 @@ nsIFrame
 aFrame
 PRUint8
 aWidgetType
-nsIntSize
+nsSize
 *
 aResult
 PRBool
@@ -285,7 +279,7 @@ nsIFrame
 aFrame
 PRUint8
 aWidgetType
-nsIntMargin
+nsMargin
 *
 aResult
 )
@@ -301,7 +295,7 @@ nsIFrame
 aFrame
 PRUint8
 aWidgetType
-nsIntSize
+nsSize
 *
 aResult
 PRBool

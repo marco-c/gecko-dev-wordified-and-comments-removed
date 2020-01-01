@@ -2381,7 +2381,7 @@ nsAString
 &
 aStr
 const
-nsIntRect
+nsRect
 &
 aRect
 )
@@ -2523,7 +2523,7 @@ char
 *
 aStr
 const
-nsIntRect
+nsRect
 &
 aRect
 )
@@ -2568,7 +2568,7 @@ nsAString
 &
 aStr
 const
-nsIntRect
+nsRect
 &
 aRect
 )
@@ -3165,7 +3165,7 @@ left
 -
 5
 ;
-nsIntRect
+nsRect
 rect
 ;
 rect

@@ -357,7 +357,7 @@ nsnull
 ;
 mFormRect
 =
-nsIntRect
+nsRect
 (
 0
 0

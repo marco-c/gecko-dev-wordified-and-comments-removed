@@ -1146,7 +1146,7 @@ ConstructDragImage
 nsIDOMNode
 *
 aDOMNode
-nsIntRect
+nsRect
 *
 aDragRect
 nsIScriptableRegion
@@ -1866,7 +1866,7 @@ aTransferableArray
 return
 NS_ERROR_FAILURE
 ;
-nsIntRect
+nsRect
 dragRect
 (
 0

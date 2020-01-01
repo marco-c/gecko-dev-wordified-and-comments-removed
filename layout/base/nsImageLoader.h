@@ -78,7 +78,7 @@ aContainer
 gfxIImageFrame
 *
 newframe
-nsIntRect
+nsRect
 *
 dirtyRect
 )

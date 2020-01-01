@@ -3392,7 +3392,7 @@ nsIFrame
 aFrame
 PRUint8
 aWidgetType
-nsIntMargin
+nsMargin
 *
 aResult
 )
@@ -3620,7 +3620,7 @@ nsIFrame
 aFrame
 PRUint8
 aWidgetType
-nsIntMargin
+nsMargin
 *
 aResult
 )
@@ -3891,7 +3891,7 @@ nsIFrame
 aFrame
 PRUint8
 aWidgetType
-nsIntSize
+nsSize
 *
 aResult
 PRBool
@@ -4535,7 +4535,7 @@ dc
 )
 )
 ;
-nsIntMargin
+nsMargin
 border
 ;
 nsNativeThemeGTK

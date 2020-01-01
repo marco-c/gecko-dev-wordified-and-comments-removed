@@ -1234,7 +1234,7 @@ mAppearance
 )
 )
 {
-nsIntMargin
+nsMargin
 margin
 (
 0
@@ -1394,7 +1394,7 @@ mAppearance
 )
 )
 {
-nsIntMargin
+nsMargin
 margin
 (
 0
@@ -2853,7 +2853,7 @@ mAppearance
 )
 )
 {
-nsIntSize
+nsSize
 size
 ;
 nsIRenderingContext

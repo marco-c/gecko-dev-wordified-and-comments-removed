@@ -6297,7 +6297,7 @@ if
 contextMenuKey
 )
 {
-nsIntPoint
+nsPoint
 caretPoint
 ;
 if
@@ -6434,7 +6434,7 @@ if
 currentFocus
 )
 {
-nsIntPoint
+nsPoint
 targetPt
 ;
 GetCoordinatesFor
@@ -6512,7 +6512,7 @@ aEventWidget
 nsIPresShell
 *
 aShell
-nsIntPoint
+nsPoint
 &
 aTargetPt
 )
@@ -6933,7 +6933,7 @@ aPresContext
 nsIPresShell
 *
 aPresShell
-nsIntPoint
+nsPoint
 &
 aTargetPt
 )

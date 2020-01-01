@@ -1510,7 +1510,7 @@ mRangeParent
 PRInt32
 mRangeOffset
 ;
-nsIntPoint
+nsPoint
 mCachedMousePoint
 ;
 nsMenuBarFrame

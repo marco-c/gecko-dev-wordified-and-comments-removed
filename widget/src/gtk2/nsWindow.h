@@ -187,7 +187,7 @@ nsIWidget
 *
 aParent
 const
-nsIntRect
+nsRect
 &
 aRect
 EVENT_CALLBACK
@@ -212,7 +212,7 @@ Create
 nsNativeWidget
 aParent
 const
-nsIntRect
+nsRect
 &
 aRect
 EVENT_CALLBACK
@@ -327,7 +327,7 @@ PR_FALSE
 NS_IMETHOD
 GetScreenBounds
 (
-nsIntRect
+nsRect
 &
 aRect
 )
@@ -385,7 +385,7 @@ NS_IMETHOD
 Invalidate
 (
 const
-nsIntRect
+nsRect
 &
 aRect
 PRBool
@@ -423,7 +423,7 @@ PRInt32
 aDx
 PRInt32
 aDy
-nsIntRect
+nsRect
 *
 aClipRect
 )
@@ -440,7 +440,7 @@ aDy
 NS_IMETHOD
 ScrollRect
 (
-nsIntRect
+nsRect
 &
 aSrcRect
 PRInt32
@@ -511,10 +511,10 @@ NS_IMETHOD
 WidgetToScreen
 (
 const
-nsIntRect
+nsRect
 &
 aOldRect
-nsIntRect
+nsRect
 &
 aNewRect
 )
@@ -523,10 +523,10 @@ NS_IMETHOD
 ScreenToWidget
 (
 const
-nsIntRect
+nsRect
 &
 aOldRect
-nsIntRect
+nsRect
 &
 aNewRect
 )
@@ -901,7 +901,7 @@ aParent
 nsNativeWidget
 aNativeParent
 const
-nsIntRect
+nsRect
 &
 aRect
 EVENT_CALLBACK
@@ -954,12 +954,10 @@ aAction
 )
 ;
 virtual
-nsIntSize
+nsSize
 GetSafeWindowSize
 (
-const
-nsIntSize
-&
+nsSize
 aSize
 )
 ;
@@ -1337,7 +1335,7 @@ nsresult
 UpdateTranslucentWindowAlphaInternal
 (
 const
-nsIntRect
+nsRect
 &
 aRect
 PRUint8
@@ -1364,7 +1362,7 @@ GdkDrawable
 *
 aDrawable
 const
-nsIntSize
+nsSize
 &
 aSize
 )

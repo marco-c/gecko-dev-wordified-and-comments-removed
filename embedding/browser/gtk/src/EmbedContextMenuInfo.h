@@ -231,7 +231,7 @@ nsIDOMDocument
 >
 mCtxDocument
 ;
-nsIntRect
+nsRect
 mFormRect
 ;
 nsCOMPtr

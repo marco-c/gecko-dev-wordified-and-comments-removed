@@ -102,7 +102,7 @@ nsPoint
 aPt
 )
 ;
-nsIntSize
+nsSize
 GetCanvasSize
 (
 )

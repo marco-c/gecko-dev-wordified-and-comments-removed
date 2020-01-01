@@ -501,9 +501,9 @@ types
 ref
 ]
 native
-nsNativeIntMarginRef
+nsNativeMarginRef
 (
-nsIntMargin
+nsMargin
 )
 ;
 interface
@@ -530,15 +530,15 @@ UNDER_REVIEW
 scriptable
 uuid
 (
-343700dd
+5af07661
 -
-078b
+6477
 -
-42b6
+4235
 -
-a809
+8814
 -
-b9c1d7e951d0
+4a45215855b8
 )
 ]
 interface
@@ -1969,7 +1969,7 @@ void
 SetMarginInTwips
 (
 in
-nsNativeIntMarginRef
+nsNativeMarginRef
 aMargin
 )
 ;
@@ -1980,7 +1980,7 @@ void
 SetEdgeInTwips
 (
 in
-nsNativeIntMarginRef
+nsNativeMarginRef
 aEdge
 )
 ;
@@ -2003,7 +2003,7 @@ void
 GetMarginInTwips
 (
 in
-nsNativeIntMarginRef
+nsNativeMarginRef
 aMargin
 )
 ;
@@ -2014,7 +2014,7 @@ void
 GetEdgeInTwips
 (
 in
-nsNativeIntMarginRef
+nsNativeMarginRef
 aEdge
 )
 ;
@@ -2176,7 +2176,7 @@ void
 SetUnwriteableMarginInTwips
 (
 in
-nsNativeIntMarginRef
+nsNativeMarginRef
 aEdge
 )
 ;
@@ -2187,7 +2187,7 @@ void
 GetUnwriteableMarginInTwips
 (
 in
-nsNativeIntMarginRef
+nsNativeMarginRef
 aEdge
 )
 ;

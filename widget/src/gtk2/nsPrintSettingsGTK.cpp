@@ -2043,7 +2043,7 @@ nsPrintSettingsGTK
 :
 SetUnwriteableMarginInTwips
 (
-nsIntMargin
+nsMargin
 &
 aUnwriteableMargin
 )

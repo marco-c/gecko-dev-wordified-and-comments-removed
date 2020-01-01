@@ -1902,7 +1902,7 @@ nsMargin
 TwipsToAppUnits
 (
 const
-nsIntMargin
+nsMargin
 &
 marginInTwips
 )

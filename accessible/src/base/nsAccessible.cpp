@@ -5749,7 +5749,7 @@ unionRectTwips
 height
 )
 ;
-nsIntRect
+nsRect
 orgRectPixels
 =
 aBoundingFrame
