@@ -14994,6 +14994,61 @@ is
 not
 None
 .
+          
+{
+obj
+}
+replaced
+by
+an
+object
+which
+when
+unwrapped
+tells
+us
+which
+                 
+compartment
+we
+really
+want
+to
+be
+working
+with
+here
+in
+case
+                 
+that
+matters
+for
+our
+conversion
+.
+This
+is
+allowed
+to
+be
+null
+if
+                 
+we
+just
+want
+to
+work
+with
+the
+compartment
+we
+'
+re
+already
+in
+.
     
 2
 )
@@ -16273,6 +16328,16 @@ AppendElement
 )
 "
                         
+"
+obj
+"
+:
+"
+{
+obj
+}
+"
+                        
 }
                     
 )
@@ -16519,6 +16584,9 @@ s
 (
 cx
 {
+obj
+}
+{
 val
 }
 {
@@ -16657,6 +16725,9 @@ TrySetTo
 s
 (
 cx
+{
+obj
+}
 {
 val
 }
@@ -16930,6 +17001,9 @@ TrySetTo
 s
 (
 cx
+{
+obj
+}
 {
 val
 }
@@ -17513,6 +17587,9 @@ TrySetTo
 s
 (
 cx
+{
+obj
+}
 {
 val
 }
@@ -20944,6 +21021,9 @@ s
 Init
 (
 cx
+{
+obj
+}
 %
 s
 )
@@ -22537,6 +22617,14 @@ index
 +
 "
 _holder
+"
+            
+"
+obj
+"
+:
+"
+obj
 "
             
 }
@@ -28234,6 +28322,14 @@ val
 "
 :
 distinguishingArg
+                        
+"
+obj
+"
+:
+"
+obj
+"
                         
 }
 )
@@ -34151,6 +34247,14 @@ name
 Holder
 "
                 
+"
+obj
+"
+:
+"
+scopeObj
+"
+                
 }
             
 )
@@ -34201,6 +34305,9 @@ name
 JSContext
 *
 cx
+JSObject
+*
+scopeObj
 const
 JS
 :
@@ -39775,6 +39882,14 @@ desc
 -
 >
 value
+"
+                
+"
+obj
+"
+:
+"
+obj
 "
             
 }
@@ -46870,6 +46985,9 @@ Init
 JSContext
 *
 cx
+JSObject
+*
+scopeObj
 const
 JS
 :
@@ -47002,6 +47120,7 @@ return
 Init
 (
 cx
+nullptr
 json
 )
 ;
@@ -47214,6 +47333,7 @@ n
 Init
 (
 nullptr
+nullptr
 JS
 :
 :
@@ -47322,6 +47442,7 @@ s
 Init
 (
 cx
+scopeObj
 val
 )
 )
@@ -47837,6 +47958,9 @@ Init
 JSContext
 *
 cx
+JSObject
+*
+scopeObj
 const
 JS
 :
@@ -48499,6 +48623,14 @@ holderName
 :
 "
 holder
+"
+                         
+"
+obj
+"
+:
+"
+scopeObj
 "
 }
         
@@ -55471,6 +55603,14 @@ declName
 :
 "
 rvalDecl
+"
+            
+"
+obj
+"
+:
+"
+nullptr
 "
             
 }
