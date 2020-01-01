@@ -1421,6 +1421,11 @@ const
 {
 return
 !
+mErrorFlags
+&
+&
+(
+!
 (
 IsAdditive
 (
@@ -1444,6 +1449,7 @@ mIsFrozen
 &
 !
 mHasChanged
+)
 )
 ;
 }
