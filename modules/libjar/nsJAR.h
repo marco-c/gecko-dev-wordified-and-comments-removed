@@ -207,6 +207,10 @@ friend
 class
 nsJARInputStream
 ;
+friend
+class
+nsZipReaderCache
+;
 public
 :
 nsJAR
@@ -296,6 +300,9 @@ nsCOMPtr
 nsIFile
 >
 mZipFile
+;
+nsCString
+mOuterZipEntry
 ;
 nsZipArchive
 mZip
