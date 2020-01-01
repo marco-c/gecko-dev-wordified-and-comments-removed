@@ -329,6 +329,17 @@ commands
 said
 so
 "
+NO_SYNC_NODE_FOUND
+:
+"
+error
+.
+sync
+.
+reason
+.
+no_node_found
+"
 ENGINE_UPLOAD_FAIL
 :
 "
