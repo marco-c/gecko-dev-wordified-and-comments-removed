@@ -843,11 +843,7 @@ fi
 if
 [
 "
-MOZ_WIDGET_TOOLKIT
-"
-=
-"
-windows
+MAKENSISU
 "
 ]
 ;

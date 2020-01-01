@@ -442,13 +442,8 @@ examples
 (
 NULL
 )
-ifeq
-(
-(
-OS_ARCH
-)
-WINNT
-)
+ifdef
+MAKENSISU
 DIRS
 +
 =
