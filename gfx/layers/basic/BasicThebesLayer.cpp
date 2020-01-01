@@ -2435,10 +2435,13 @@ aType
 )
 )
 ;
-NS_RUNTIMEABORT
+NS_ERROR
 (
 buf
 )
+;
+return
+nullptr
 ;
 }
 NS_ABORT_IF_FALSE
