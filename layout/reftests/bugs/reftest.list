@@ -5888,12 +5888,6 @@ html
 ref
 .
 html
-random
--
-if
-(
-gtk2Widget
-)
 =
 =
 333970
@@ -5908,9 +5902,6 @@ html
 ref
 .
 html
-#
-bug
-333970
 =
 =
 334829
