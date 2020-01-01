@@ -808,9 +808,6 @@ ParseNode
 list
 bool
 &
-hasDefaults
-bool
-&
 hasRest
 )
 ;
