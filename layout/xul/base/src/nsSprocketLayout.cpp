@@ -1494,6 +1494,10 @@ childBoxSize
 >
 next
 ;
+if
+(
+child
+)
 child
 =
 child
