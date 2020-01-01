@@ -1038,6 +1038,10 @@ NS_ERROR_INVALID_ARG
 }
 else
 {
+interval
+=
+0
+;
 aIsInterval
 =
 PR_FALSE
