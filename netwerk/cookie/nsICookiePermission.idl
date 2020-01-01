@@ -1013,6 +1013,16 @@ originating
 URI
 .
 *
+*
+status
+DEPRECATED
+-
+-
+use
+mozIThirdPartyUtil
+instead
+.
+*
 /
 nsIURI
 getOriginatingURI

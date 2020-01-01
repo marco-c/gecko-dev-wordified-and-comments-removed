@@ -807,6 +807,10 @@ nsInProcessTabChildGlobal
 .
 cpp
 \
+ThirdPartyUtil
+.
+cpp
+\
 (
 NULL
 )

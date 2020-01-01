@@ -799,6 +799,10 @@ nsIRedirectResultListener
 .
 idl
 \
+mozIThirdPartyUtil
+.
+idl
+\
 (
 NULL
 )
