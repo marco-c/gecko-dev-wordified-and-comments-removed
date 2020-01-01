@@ -1110,6 +1110,8 @@ JS_SetOptions
 (
 cx
 JSOPTION_VAROBJFIX
+|
+JSOPTION_JIT
 )
 ;
 JS_SetVersion
