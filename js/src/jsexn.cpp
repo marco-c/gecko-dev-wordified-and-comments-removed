@@ -1259,7 +1259,7 @@ cx
 ;
 for
 (
-ScriptFrameIter
+NonBuiltinScriptFrameIter
 i
 (
 cx
@@ -2866,7 +2866,7 @@ message
 NULL
 ;
 }
-ScriptFrameIter
+NonBuiltinScriptFrameIter
 iter
 (
 cx

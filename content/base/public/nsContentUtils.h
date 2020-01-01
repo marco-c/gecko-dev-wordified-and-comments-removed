@@ -1850,6 +1850,16 @@ nsXPIDLString
 aResult
 )
 ;
+static
+PRUint32
+ParseSandboxAttributeToFlags
+(
+const
+nsAString
+&
+aSandboxAttr
+)
+;
 private
 :
 static
@@ -3337,6 +3347,8 @@ aPrincipal
 nsIChannel
 *
 aChannel
+bool
+aAllowIfInheritsPrincipal
 )
 ;
 static
@@ -3850,6 +3862,10 @@ nsIURI
 aURI
 bool
 aSetUpForAboutBlank
+bool
+aForceOwner
+=
+false
 )
 ;
 static

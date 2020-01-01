@@ -573,8 +573,11 @@ DidBuildModelImpl
 aTerminated
 |
 |
+NS_FAILED
+(
 IsBroken
 (
+)
 )
 )
 ;
@@ -1968,8 +1971,11 @@ return
 }
 if
 (
+NS_FAILED
+(
 IsBroken
 (
+)
 )
 )
 {
@@ -3604,8 +3610,10 @@ mReadingFromStage
 ;
 MOZ_ASSERT
 (
-!
+NS_SUCCEEDED
+(
 mBroken
+)
 )
 ;
 }

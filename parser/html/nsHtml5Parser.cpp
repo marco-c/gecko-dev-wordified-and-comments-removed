@@ -2295,11 +2295,14 @@ IsComplete
 )
 |
 |
+NS_FAILED
+(
 mExecutor
 -
 >
 IsBroken
 (
+)
 )
 )
 {

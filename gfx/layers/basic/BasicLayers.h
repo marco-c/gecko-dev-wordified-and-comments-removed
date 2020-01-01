@@ -90,6 +90,9 @@ class
 ReadbackProcessor
 ;
 class
+ImageFactory
+;
+class
 THEBES_API
 BasicLayerManager
 :

@@ -6558,11 +6558,14 @@ mode
 ;
 if
 (
+NS_FAILED
+(
 mExecutor
 -
 >
 IsBroken
 (
+)
 )
 )
 {

@@ -4907,6 +4907,13 @@ UIStateChangeType
 aShowFocusRings
 )
 {
+if
+(
+!
+mWidgetListener
+)
+return
+;
 nsIPresShell
 *
 presShell
@@ -4974,6 +4981,12 @@ GetAccessible
 (
 )
 {
+NS_ENSURE_TRUE
+(
+mWidgetListener
+nullptr
+)
+;
 nsIPresShell
 *
 presShell

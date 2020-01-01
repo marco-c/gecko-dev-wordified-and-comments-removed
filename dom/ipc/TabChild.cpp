@@ -620,6 +620,10 @@ mIsBrowserElement
 (
 aIsBrowserElement
 )
+mNotified
+(
+false
+)
 mAppId
 (
 aAppId
@@ -6005,6 +6009,10 @@ if
 UseDirectCompositor
 (
 )
+&
+&
+!
+mNotified
 )
 {
 mRemoteFrame
@@ -6013,6 +6021,10 @@ mRemoteFrame
 SendNotifyCompositorTransaction
 (
 )
+;
+mNotified
+=
+true
 ;
 }
 }

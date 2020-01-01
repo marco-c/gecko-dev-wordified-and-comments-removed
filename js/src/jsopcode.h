@@ -2175,6 +2175,10 @@ HandleValue
 v
 HandleString
 fallback
+int
+skipStackHits
+=
+0
 )
 ;
 class

@@ -1449,12 +1449,12 @@ ic
 tempReg
 ;
 Imm32
-atomMask
+atomBit
 (
 JSString
 :
 :
-ATOM_MASK
+ATOM_BIT
 )
 ;
 masm
@@ -1488,9 +1488,9 @@ branchTest32
 Assembler
 :
 :
-NonZero
+Zero
 tmp
-atomMask
+atomBit
 )
 ;
 linkToStub
@@ -1539,9 +1539,9 @@ branchTest32
 Assembler
 :
 :
-NonZero
+Zero
 tmp
-atomMask
+atomBit
 )
 ;
 linkToStub
@@ -5557,7 +5557,7 @@ cx
 compartment
 -
 >
-needsBarrier
+compileBarriers
 (
 )
 )

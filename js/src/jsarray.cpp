@@ -6088,7 +6088,7 @@ NULL
 }
 }
 ;
-static
+JS_ALWAYS_INLINE
 bool
 IsArray
 (
@@ -6117,7 +6117,7 @@ isArray
 )
 ;
 }
-static
+JS_ALWAYS_INLINE
 bool
 array_toSource_impl
 (
@@ -6446,7 +6446,6 @@ return
 true
 ;
 }
-static
 JSBool
 array_toSource
 (
@@ -6478,10 +6477,12 @@ vp
 ;
 return
 CallNonGenericMethod
-(
-cx
+<
 IsArray
 array_toSource_impl
+>
+(
+cx
 args
 )
 ;

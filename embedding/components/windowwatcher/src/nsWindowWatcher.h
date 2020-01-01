@@ -289,6 +289,9 @@ static
 PRUint32
 CalculateChromeFlags
 (
+nsIDOMWindow
+*
+aParent
 const
 char
 *

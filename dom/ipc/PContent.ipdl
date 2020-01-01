@@ -426,7 +426,7 @@ DeviceStorageEnumerationParams
 nsString
 fullpath
 ;
-PRUint32
+PRUint64
 since
 ;
 }
@@ -1247,18 +1247,6 @@ PrivateDocShellsExist
 (
 bool
 aExist
-)
-;
-AddFileWatch
-(
-nsString
-filepath
-)
-;
-RemoveFileWatch
-(
-nsString
-filepath
 )
 ;
 both

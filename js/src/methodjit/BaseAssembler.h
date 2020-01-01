@@ -7678,7 +7678,7 @@ spsUpdatePCIdx
 SPSProfiler
 *
 p
-uint32_t
+int32_t
 idx
 RegisterID
 reg
@@ -7809,7 +7809,10 @@ store32
 (
 Imm32
 (
-0
+ProfileEntry
+:
+:
+NullPCIndex
 )
 Address
 (
@@ -8284,7 +8287,10 @@ masm
 spsUpdatePCIdx
 (
 profiler_
-0
+ProfileEntry
+:
+:
+NullPCIndex
 scratch
 )
 ;
@@ -8413,7 +8419,10 @@ masm
 spsUpdatePCIdx
 (
 profiler_
-0
+ProfileEntry
+:
+:
+NullPCIndex
 scratch
 )
 ;

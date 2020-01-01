@@ -192,7 +192,7 @@ endif
 if
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 #
 define

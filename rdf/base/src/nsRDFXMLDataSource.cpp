@@ -3201,6 +3201,7 @@ CheckMayLoad
 (
 newURI
 false
+false
 )
 ;
 if
@@ -3225,6 +3226,7 @@ oldPrincipal
 CheckMayLoad
 (
 newOriginalURI
+false
 false
 )
 ;

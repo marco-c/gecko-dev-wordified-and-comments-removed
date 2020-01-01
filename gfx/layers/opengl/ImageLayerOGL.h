@@ -43,6 +43,13 @@ h
 #
 include
 "
+ImageContainer
+.
+h
+"
+#
+include
+"
 yuv_convert
 .
 h
@@ -62,6 +69,12 @@ mozilla
 namespace
 layers
 {
+class
+CairoImage
+;
+class
+PlanarYCbCrImage
+;
 class
 GLTexture
 {
@@ -650,6 +663,9 @@ mInverted
 ;
 GLuint
 mTexture
+;
+GLTexture
+mExternalBufferTexture
 ;
 GLTexture
 mYUVTexture

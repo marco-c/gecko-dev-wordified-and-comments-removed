@@ -2035,6 +2035,9 @@ mPreviousTransIndex
 PRInt32
 mLoadedTransIndex
 ;
+PRUint32
+mSandboxFlags
+;
 bool
 mCreated
 ;

@@ -265,6 +265,8 @@ JS_TELEMETRY_GC_MMU_50
 JS_TELEMETRY_GC_RESET
 JS_TELEMETRY_GC_INCREMENTAL_DISABLED
 JS_TELEMETRY_GC_NON_INCREMENTAL
+JS_TELEMETRY_GC_SCC_SWEEP_TOTAL_MS
+JS_TELEMETRY_GC_SCC_SWEEP_MAX_PAUSE_MS
 }
 ;
 typedef
@@ -2380,7 +2382,7 @@ JSScript
 volatile
 script_
 ;
-uint32_t
+int32_t
 volatile
 idx
 ;
@@ -2618,6 +2620,14 @@ script_
 )
 ;
 }
+static
+const
+int32_t
+NullPCIndex
+=
+-
+1
+;
 }
 ;
 JS_FRIEND_API

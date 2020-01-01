@@ -362,6 +362,9 @@ mGenericID
 PRInt8
 mScriptLevel
 ;
+bool
+mExplicitLanguage
+;
 nscoord
 mScriptUnconstrainedSize
 ;

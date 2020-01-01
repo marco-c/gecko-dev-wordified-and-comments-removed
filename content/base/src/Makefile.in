@@ -184,6 +184,10 @@ nsStyledElement
 .
 h
 \
+nsSandboxFlags
+.
+h
+\
 (
 NULL
 )

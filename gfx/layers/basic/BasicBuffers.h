@@ -117,6 +117,9 @@ nsIntPoint
 aRotation
 )
 {
+#
+ifdef
+DEBUG
 gfxIntSize
 prevSize
 =
@@ -168,6 +171,8 @@ s
 "
 )
 ;
+#
+endif
 nsRefPtr
 <
 gfxASurface

@@ -1901,6 +1901,15 @@ DeleteShell
 ;
 virtual
 nsresult
+GetAllowPlugins
+(
+bool
+*
+aAllowPlugins
+)
+;
+virtual
+nsresult
 SetSubDocumentFor
 (
 Element

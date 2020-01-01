@@ -176,13 +176,6 @@ h
 #
 include
 "
-nsIImageLoadingContent
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h
