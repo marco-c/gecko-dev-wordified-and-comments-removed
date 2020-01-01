@@ -427,12 +427,6 @@ LogControl
 logc
 )
 ;
-~
-Assembler
-(
-)
-{
-}
 void
 endAssembly
 (
