@@ -179,7 +179,7 @@ Function
 (
 )
 ;
-nsresult
+bool
 Init
 (
 JSContext
@@ -210,7 +210,7 @@ Function
 (
 )
 ;
-PRBool
+bool
 Execute
 (
 JSContext

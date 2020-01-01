@@ -66,7 +66,7 @@ Library
 (
 )
 ;
-PRBool
+bool
 IsOpen
 (
 )
