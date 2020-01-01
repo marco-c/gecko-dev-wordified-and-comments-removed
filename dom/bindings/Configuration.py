@@ -1214,7 +1214,22 @@ headerFile
 headerDefault
 )
         
+self
+.
+skipGen
+=
+desc
+.
+get
+(
+'
+skipGen
+'
+False
+)
+        
 if
+(
 self
 .
 interface
@@ -1229,6 +1244,12 @@ interface
 .
 isExternal
 (
+)
+or
+            
+self
+.
+skipGen
 )
 :
             
@@ -1250,16 +1271,19 @@ is
 external
 or
 callback
+or
+skipGen
 but
 has
-a
-castable
 "
                                 
 "
+a
+castable
 setting
 "
 %
+                                
 self
 .
 interface

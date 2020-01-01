@@ -22970,6 +22970,11 @@ interface
 isExternal
 (
 )
+and
+not
+descriptor
+.
+skipGen
 :
             
 if
@@ -48409,6 +48414,10 @@ webIDLFile
 hasInterfaceOrInterfacePrototypeObject
 =
 True
+                                            
+skipGen
+=
+False
 )
         
 dictionaries
