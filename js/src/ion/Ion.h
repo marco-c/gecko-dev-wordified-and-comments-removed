@@ -11,6 +11,13 @@ jscntxt
 .
 h
 "
+#
+include
+"
+IonCode
+.
+h
+"
 namespace
 js
 {
