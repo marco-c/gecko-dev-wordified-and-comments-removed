@@ -58,6 +58,13 @@ ion
 class
 TempAllocator
 ;
+enum
+IonRegisterAllocator
+{
+RegisterAllocator_LSRA
+RegisterAllocator_Stupid
+}
+;
 struct
 IonOptions
 {
@@ -76,8 +83,8 @@ osr
 bool
 limitScriptSize
 ;
-bool
-lsra
+IonRegisterAllocator
+registerAllocator
 ;
 bool
 inlining
@@ -179,9 +186,9 @@ limitScriptSize
 (
 true
 )
-lsra
+registerAllocator
 (
-true
+RegisterAllocator_LSRA
 )
 inlining
 (
