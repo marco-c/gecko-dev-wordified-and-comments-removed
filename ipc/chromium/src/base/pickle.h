@@ -413,7 +413,7 @@ alignment
 =
 sizeof
 (
-uint32_t
+memberAlignmentType
 )
 )
 const
@@ -748,7 +748,7 @@ alignment
 =
 sizeof
 (
-uint32_t
+memberAlignmentType
 )
 )
 ;
@@ -937,6 +937,10 @@ end_of_payload
 )
 ;
 }
+typedef
+uint32_t
+memberAlignmentType
+;
 protected
 :
 uint32_t
@@ -1143,7 +1147,7 @@ ConstantAligner
 <
 sizeof
 (
-uint32_t
+memberAlignmentType
 )
 >
 :
