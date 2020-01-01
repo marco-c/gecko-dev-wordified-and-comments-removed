@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIDOMHTMLTableSectionElement
-.
-h
-"
-#
-include
-"
 nsAttrValueInlines
 .
 h
