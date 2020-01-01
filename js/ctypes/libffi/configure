@@ -30,7 +30,7 @@ libffi
 .
 0
 .
-9
+10rc0
 .
 #
 #
@@ -4980,7 +4980,7 @@ PACKAGE_VERSION
 .
 0
 .
-9
+10rc0
 '
 PACKAGE_STRING
 =
@@ -4990,7 +4990,7 @@ libffi
 .
 0
 .
-9
+10rc0
 '
 PACKAGE_BUGREPORT
 =
@@ -11303,7 +11303,7 @@ libffi
 .
 0
 .
-9
+10rc0
 to
 adapt
 to
@@ -11984,7 +11984,7 @@ libffi
 .
 0
 .
-9
+10rc0
 :
 "
 ;
@@ -12872,7 +12872,7 @@ configure
 .
 0
 .
-9
+10rc0
 generated
 by
 GNU
@@ -12967,7 +12967,7 @@ as_me
 .
 0
 .
-9
+10rc0
 which
 was
 generated
@@ -21006,7 +21006,7 @@ VERSION
 .
 0
 .
-9
+10rc0
 '
 cat
 >
@@ -87069,6 +87069,22 @@ TARGETDIR
 x86
 ;
 ;
+amd64
+-
+*
+-
+freebsd
+*
+)
+TARGET
+=
+X86_64
+;
+TARGETDIR
+=
+x86
+;
+;
 avr32
 *
 -
@@ -109858,7 +109874,7 @@ as_me
 .
 0
 .
-9
+10rc0
 which
 was
 generated
@@ -110175,7 +110191,7 @@ status
 .
 0
 .
-9
+10rc0
 configured
 by
 0

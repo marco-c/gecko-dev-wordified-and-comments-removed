@@ -82,6 +82,9 @@ c
 1996
 1998
 2005
+2007
+2009
+2010
 Red
 Hat
 Inc
@@ -404,7 +407,7 @@ FFI_SIZEOF_ARG
 )
 #
 ifdef
-linux
+__GNUC__
 .
 abicalls
 #
@@ -2608,7 +2611,7 @@ end
 ffi_closure_N32
 #
 ifdef
-linux
+__GNUC__
 .
 section
 .
@@ -2981,7 +2984,7 @@ LEFDE3
 endif
 /
 *
-linux
+__GNUC__
 *
 /
 #

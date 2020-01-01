@@ -2391,6 +2391,15 @@ libffi_convenience_la_SOURCES
 )
 INFO_DEPS
 =
+(
+srcdir
+)
+/
+doc
+/
+libffi
+.
+info
 am__TEXINFO_TEX_DIR
 =
 (
@@ -4420,6 +4429,9 @@ srcdir
 libtool
 -
 version
+(
+LTLDFLAGS
+)
 (
 AM_LTLDFLAGS
 )

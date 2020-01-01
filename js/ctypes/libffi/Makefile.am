@@ -1654,6 +1654,9 @@ libtool
 -
 version
 (
+LTLDFLAGS
+)
+(
 AM_LTLDFLAGS
 )
 AM_CPPFLAGS
