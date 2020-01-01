@@ -8438,10 +8438,7 @@ continue
 else
 {
 return
-(
-nsresult
-)
-PAGE_SYNC_ERROR
+NS_OK
 ;
 }
 }
