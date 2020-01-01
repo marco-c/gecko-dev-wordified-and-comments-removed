@@ -3,6 +3,15 @@ include
 "
 mozilla
 /
+DebugOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -12479,7 +12488,10 @@ GlobalInit
 (
 )
 {
+DebugOnly
+<
 nsresult
+>
 rv
 =
 NS_CreateShortcutResolver

@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIScriptableBase64Encoder
 .
 h
@@ -478,6 +487,7 @@ nullptr
 ;
 class
 FakeInputStream
+MOZ_FINAL
 :
 public
 nsIInputStream

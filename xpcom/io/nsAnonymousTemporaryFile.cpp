@@ -371,6 +371,7 @@ shutdown
 "
 class
 nsAnonTempFileRemover
+MOZ_FINAL
 :
 public
 nsIObserver

@@ -367,6 +367,7 @@ x
 )
 {
 const
+unsigned
 int
 max_len
 =
@@ -402,9 +403,8 @@ max_len
 2
 ;
 i
->
-=
-0
+<
+max_len
 &
 &
 x
@@ -1243,6 +1243,7 @@ NS_OK
 ;
 class
 NumLowVirtualMemoryEventsMemoryReporter
+MOZ_FINAL
 :
 public
 NumLowMemoryEventsReporter
@@ -1468,6 +1469,7 @@ nsIMemoryReporter
 )
 class
 NumLowCommitSpaceEventsMemoryReporter
+MOZ_FINAL
 :
 public
 NumLowMemoryEventsReporter
@@ -1679,6 +1681,7 @@ nsIMemoryReporter
 )
 class
 NumLowPhysicalMemoryEventsMemoryReporter
+MOZ_FINAL
 :
 public
 NumLowMemoryEventsReporter

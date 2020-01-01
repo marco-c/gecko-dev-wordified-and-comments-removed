@@ -550,6 +550,7 @@ mSection
 ;
 class
 StandbyObserver
+MOZ_FINAL
 :
 public
 nsIObserver
