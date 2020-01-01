@@ -538,16 +538,6 @@ MOZILLA_VERSION
 (
 NULL
 )
-#
-ifdef
-MOZ_THUNDERBIRD
-RCFLAGS
-+
-=
--
-DMOZ_THUNDERBIRD
-#
-endif
 endif
 include
 (
