@@ -784,6 +784,11 @@ newlines
 <
 xul
 :
+box
+>
+<
+xul
+:
 button
 class
 =
@@ -933,6 +938,12 @@ menupopup
 xul
 :
 button
+>
+<
+/
+xul
+:
+box
 >
 <
 xul
