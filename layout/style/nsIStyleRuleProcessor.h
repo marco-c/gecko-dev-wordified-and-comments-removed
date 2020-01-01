@@ -145,6 +145,17 @@ aData
 #
 endif
 virtual
+PRBool
+HasDocumentStateDependentStyle
+(
+StateRuleProcessorData
+*
+aData
+)
+=
+0
+;
+virtual
 nsReStyleHint
 HasStateDependentStyle
 (

@@ -258,6 +258,11 @@ ContentState
 (
 )
 ;
+PRUint32
+DocumentState
+(
+)
+;
 PRBool
 IsLink
 (
