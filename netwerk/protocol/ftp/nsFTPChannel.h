@@ -144,6 +144,13 @@ nsHashPropertyBag
 .
 h
 "
+#
+include
+"
+nsFtpProtocolHandler
+.
+h
+"
 class
 nsFtpChannel
 :
