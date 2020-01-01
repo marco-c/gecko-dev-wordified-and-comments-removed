@@ -98,15 +98,6 @@ GetNativeType
 (
 )
 ;
-void
-GetNativeWindow
-(
-void
-*
-*
-aOutNativeWindow
-)
-;
 virtual
 void
 Shutdown

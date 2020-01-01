@@ -391,6 +391,14 @@ mIsLoaded
 PR_TRUE
 ;
 }
+virtual
+void
+*
+GetNativeWindow
+(
+)
+const
+;
 nsDocAccessible
 *
 ParentDocument
@@ -732,10 +740,6 @@ aAccessible
 ;
 nsAccessibleHashtable
 mAccessibleCache
-;
-void
-*
-mWnd
 ;
 nsCOMPtr
 <
