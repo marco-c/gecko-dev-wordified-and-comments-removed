@@ -77,7 +77,7 @@ aTargetContent
 ;
 NSString
 *
-CreateTruncatedCocoaLabel
+GetTruncatedCocoaLabel
 (
 const
 nsString

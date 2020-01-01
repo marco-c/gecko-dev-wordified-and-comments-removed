@@ -1182,7 +1182,7 @@ newCocoaLabelString
 nsMenuUtilsX
 :
 :
-CreateTruncatedCocoaLabel
+GetTruncatedCocoaLabel
 (
 mLabel
 )
@@ -1204,11 +1204,6 @@ keyEquivalent
 :
 "
 "
-]
-;
-[
-newCocoaLabelString
-release
 ]
 ;
 [
@@ -4722,7 +4717,7 @@ newCocoaLabelString
 nsMenuUtilsX
 :
 :
-CreateTruncatedCocoaLabel
+GetTruncatedCocoaLabel
 (
 mLabel
 )
@@ -4732,11 +4727,6 @@ mNativeMenu
 setTitle
 :
 newCocoaLabelString
-]
-;
-[
-newCocoaLabelString
-release
 ]
 ;
 }

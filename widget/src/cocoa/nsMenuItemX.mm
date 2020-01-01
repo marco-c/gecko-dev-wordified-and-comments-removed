@@ -955,7 +955,7 @@ newCocoaLabelString
 nsMenuUtilsX
 :
 :
-CreateTruncatedCocoaLabel
+GetTruncatedCocoaLabel
 (
 aLabel
 )
@@ -977,11 +977,6 @@ keyEquivalent
 :
 "
 "
-]
-;
-[
-newCocoaLabelString
-release
 ]
 ;
 [
