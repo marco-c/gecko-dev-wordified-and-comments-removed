@@ -441,6 +441,9 @@ X64_mulsd
 X64_addsd
 =
 0xC0580F40F2000005LL
+X64_idiv
+=
+0xF8F7400000000003LL
 X64_imul
 =
 0xC0AF0F4000000004LL
@@ -1412,6 +1415,15 @@ LIns
 *
 NIns
 *
+)
+;
+\
+void
+asm_div_mod
+(
+LIns
+*
+i
 )
 ;
 \
