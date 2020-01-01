@@ -309,6 +309,7 @@ return
 obj
 &
 &
+(
 isSameOrigin
 (
 wrapper
@@ -322,6 +323,14 @@ obj
 >
 compartment
 (
+)
+)
+|
+|
+documentDomainMakesSameOrigin
+(
+cx
+obj
 )
 )
 ;
