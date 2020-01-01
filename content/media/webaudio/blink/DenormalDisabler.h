@@ -16,6 +16,13 @@ namespace
 WebCore
 {
 #
+include
+<
+float
+.
+h
+>
+#
 if
 defined
 (
@@ -27,13 +34,6 @@ defined
 (
 _MSC_VER
 )
-#
-include
-<
-float
-.
-h
->
 #
 define
 HAVE_DENORMAL
