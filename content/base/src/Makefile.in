@@ -728,10 +728,6 @@ nsObjectLoadingContent
 .
 cpp
 \
-nsParserUtils
-.
-cpp
-\
 nsPlainTextSerializer
 .
 cpp

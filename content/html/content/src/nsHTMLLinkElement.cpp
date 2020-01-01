@@ -127,13 +127,6 @@ h
 #
 include
 "
-nsParserUtils
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -1635,7 +1628,7 @@ type
 aType
 )
 ;
-nsParserUtils
+nsContentUtils
 :
 :
 SplitMimeType

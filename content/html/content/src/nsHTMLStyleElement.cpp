@@ -85,13 +85,6 @@ h
 #
 include
 "
-nsParserUtils
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
@@ -1192,7 +1185,7 @@ mimeType
 nsAutoString
 notUsed
 ;
-nsParserUtils
+nsContentUtils
 :
 :
 SplitMimeType

@@ -190,13 +190,6 @@ h
 #
 include
 "
-nsParserUtils
-.
-h
-"
-#
-include
-"
 nsXPIDLString
 .
 h
@@ -4313,7 +4306,7 @@ aAttributes
 ;
 if
 (
-nsParserUtils
+nsContentUtils
 :
 :
 IsJavaScriptLanguage

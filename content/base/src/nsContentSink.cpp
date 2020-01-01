@@ -271,13 +271,6 @@ h
 #
 include
 "
-nsParserUtils
-.
-h
-"
-#
-include
-"
 nsCRT
 .
 h
@@ -2975,7 +2968,7 @@ mimeType
 nsAutoString
 params
 ;
-nsParserUtils
+nsContentUtils
 :
 :
 SplitMimeType
