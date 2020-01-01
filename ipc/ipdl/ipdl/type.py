@@ -4413,7 +4413,7 @@ str
 (
 f
 .
-type
+typespec
 )
 )
             
@@ -4458,7 +4458,7 @@ str
 (
 f
 .
-type
+typespec
 )
 )
                 
@@ -4490,7 +4490,7 @@ ftypedecl
 type
 f
 .
-type
+typespec
 )
                 
 shortname
