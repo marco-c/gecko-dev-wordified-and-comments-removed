@@ -111,6 +111,10 @@ browser_thumbnails_capture
 .
 js
 \
+browser_thumbnails_privacy
+.
+js
+\
 browser_thumbnails_redirect
 .
 js
@@ -136,6 +140,10 @@ background_red
 html
 \
 background_red_redirect
+.
+sjs
+\
+privacy_cache_control
 .
 sjs
 \
