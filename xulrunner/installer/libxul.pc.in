@@ -53,12 +53,9 @@ sdkdir
 }
 /
 lib
--
-lxpcomglue_s
--
-lxul
--
-lxpcom
+%
+MOZ_XUL_LINK
+%
 Cflags
 :
 -

@@ -46,8 +46,9 @@ sdkdir
 }
 /
 lib
--
-lmozjs
+%
+MOZ_JS_LINK
+%
 Cflags
 :
 -
