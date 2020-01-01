@@ -448,6 +448,13 @@ get
 )
 ;
 }
+void
+toggleBaselineStubBarriers
+(
+bool
+enabled
+)
+;
 public
 :
 IonCompartment

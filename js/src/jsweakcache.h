@@ -335,7 +335,7 @@ HashPolicy
 AllocPolicy
 >
 {
-private
+public
 :
 typedef
 HashMap
@@ -363,8 +363,6 @@ Base
 Enum
 Enum
 ;
-public
-:
 explicit
 WeakValueCache
 (
