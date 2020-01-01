@@ -313,3 +313,14 @@ LIBRARY_NAME
 '
 domfile_s
 '
+LOCAL_INCLUDES
++
+=
+[
+'
+.
+.
+/
+base
+'
+]
