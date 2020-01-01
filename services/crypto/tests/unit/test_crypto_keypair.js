@@ -18,7 +18,7 @@ services
 -
 crypto
 /
-WeaveCrypto
+threaded
 .
 js
 "
@@ -27,7 +27,7 @@ js
 cryptoSvc
 =
 new
-WeaveCrypto
+ThreadedCrypto
 (
 )
 ;

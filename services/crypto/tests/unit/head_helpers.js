@@ -77,6 +77,10 @@ catch
 ex
 )
 {
+do_get_profile
+(
+)
+;
 let
 OS
 =
