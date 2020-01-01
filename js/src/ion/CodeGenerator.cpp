@@ -56,7 +56,11 @@ h
 #
 include
 "
-jsinterpinlines
+vm
+/
+Interpreter
+-
+inl
 .
 h
 "

@@ -108,13 +108,6 @@ h
 #
 include
 "
-jsinterp
-.
-h
-"
-#
-include
-"
 jsiter
 .
 h
@@ -328,13 +321,6 @@ h
 include
 "
 jscntxtinlines
-.
-h
-"
-#
-include
-"
-jsinterpinlines
 .
 h
 "

@@ -403,10 +403,6 @@ jsinfer
 .
 cpp
 \
-jsinterp
-.
-cpp
-\
 jsiter
 .
 cpp
@@ -556,6 +552,10 @@ BytecodeEmitter
 cpp
 \
 FoldConstants
+.
+cpp
+\
+Interpreter
 .
 cpp
 \
@@ -5249,7 +5249,6 @@ addsuffix
 OBJ_SUFFIX
 )
 jsprobes
-jsinterp
 jsobj
 )
 :

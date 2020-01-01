@@ -138,13 +138,6 @@ h
 #
 include
 "
-jsinterp
-.
-h
-"
-#
-include
-"
 jsiter
 .
 h
@@ -316,13 +309,6 @@ include
 ion
 /
 IonFrameIterator
-.
-h
-"
-#
-include
-"
-jsinterpinlines
 .
 h
 "
