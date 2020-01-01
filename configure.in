@@ -33771,7 +33771,7 @@ confvars
 sh
 ]
 )
-source
+.
 "
 {
 srcdir

@@ -8113,7 +8113,7 @@ sh
 ]
 ;
 then
-source
+.
 "
 {
 srcdir
@@ -8431,7 +8431,7 @@ sh
 "
 ;
 then
-source
+.
 "
 {
 srcdir
