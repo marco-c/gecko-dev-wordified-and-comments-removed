@@ -750,7 +750,7 @@ aTextRange
 =
 0
 ;
-nsresult
+void
 EndIMEComposition
 (
 )
