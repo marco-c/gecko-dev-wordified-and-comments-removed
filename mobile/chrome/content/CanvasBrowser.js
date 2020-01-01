@@ -375,14 +375,6 @@ ws
 .
 viewingRect
 ;
-visibleBounds
-=
-visibleBounds
-.
-intersect
-(
-bounds
-)
 pageBounds
 .
 top
@@ -544,6 +536,7 @@ this
 _visibleBounds
 =
 visibleBounds
+;
 let
 dx
 =
