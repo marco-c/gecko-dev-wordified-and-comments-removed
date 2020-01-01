@@ -2522,7 +2522,7 @@ counter_increment
 CounterIncrement
 Content
 mCounterIncrement
-eCSSType_CounterData
+eCSSType_ValuePairList
 nsnull
 )
 CSS_PROP_CONTENT
@@ -2534,7 +2534,7 @@ counter_reset
 CounterReset
 Content
 mCounterReset
-eCSSType_CounterData
+eCSSType_ValuePairList
 nsnull
 )
 CSS_PROP_SHORTHAND
@@ -3605,7 +3605,7 @@ quotes
 Quotes
 Content
 mQuotes
-eCSSType_Quotes
+eCSSType_ValuePairList
 nsnull
 )
 CSS_PROP_BACKENDONLY
