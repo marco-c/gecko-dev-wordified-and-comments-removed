@@ -224,7 +224,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -391,7 +391,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -567,7 +567,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -677,7 +677,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -815,7 +815,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -977,7 +977,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -1084,7 +1084,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -1190,7 +1190,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -1296,7 +1296,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -1402,7 +1402,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -1508,7 +1508,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -1616,7 +1616,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -1754,7 +1754,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -1916,7 +1916,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -2221,7 +2221,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -2330,7 +2330,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -2441,7 +2441,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -2543,7 +2543,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -2622,7 +2622,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -2701,7 +2701,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -2780,7 +2780,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -2899,7 +2899,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -3231,7 +3231,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -3445,7 +3445,7 @@ nsIAccessibleTable
 >
 tableAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )

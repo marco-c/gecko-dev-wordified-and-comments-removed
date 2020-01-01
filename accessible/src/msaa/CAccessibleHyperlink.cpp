@@ -108,7 +108,7 @@ nsIAccessibleHyperLink
 >
 acc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -192,7 +192,7 @@ nsIAccessibleHyperLink
 >
 acc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -369,7 +369,7 @@ nsIAccessibleHyperLink
 >
 acc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -574,7 +574,7 @@ nsIAccessibleHyperLink
 >
 acc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -674,7 +674,7 @@ nsIAccessibleHyperLink
 >
 acc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -774,7 +774,7 @@ nsIAccessibleHyperLink
 >
 acc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )

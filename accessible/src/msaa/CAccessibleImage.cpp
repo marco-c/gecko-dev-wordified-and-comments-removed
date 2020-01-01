@@ -87,7 +87,7 @@ nsIAccessibleImage
 >
 imageAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -162,7 +162,7 @@ nsIAccessible
 >
 acc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -320,7 +320,7 @@ nsIAccessibleImage
 >
 imageAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -439,7 +439,7 @@ nsIAccessibleImage
 >
 imageAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )

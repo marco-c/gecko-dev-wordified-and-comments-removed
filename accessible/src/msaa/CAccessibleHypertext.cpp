@@ -52,7 +52,7 @@ nsIAccessibleHyperText
 >
 hyperAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -350,7 +350,7 @@ nsIAccessibleHyperText
 >
 hyperAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )

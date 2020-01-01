@@ -92,7 +92,7 @@ nsIAccessibleText
 >
 textAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -159,7 +159,7 @@ nsIAccessibleText
 >
 textAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )

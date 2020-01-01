@@ -50,7 +50,7 @@ nsIAccessibleEditableText
 >
 textAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
@@ -117,7 +117,7 @@ nsIAccessibleEditableText
 >
 editTextAcc
 (
-do_QueryInterface
+do_QueryObject
 (
 this
 )
