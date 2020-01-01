@@ -67,10 +67,30 @@ h
 define
 IPFX
 "
+%
+s
+"
+#
+define
+ISPFX
+"
 "
 #
 ifdef
 JS_METHODJIT_SPEW
+#
+define
+MAYBE_PAD
+(
+isOOLPath
+?
+"
+>
+"
+:
+"
+"
+)
 #
 define
 PRETTY_PRINT_OFFSET
@@ -128,7 +148,7 @@ js
 :
 JSpew_Insns
 \
-IPFX
+ISPFX
 "
 FIXME
 insn
@@ -154,6 +174,11 @@ while
 )
 #
 else
+#
+define
+MAYBE_PAD
+"
+"
 #
 define
 FIXME_INSN_PRINTING
@@ -1255,6 +1280,14 @@ X86InstructionFormatter
 ;
 public
 :
+#
+ifdef
+DEBUG
+bool
+isOOLPath
+;
+#
+endif
 class
 JmpSrc
 {
@@ -1458,6 +1491,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 reg
@@ -1497,6 +1531,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 reg
@@ -1568,6 +1603,7 @@ s
 \
 n
 "
+MAYBE_PAD
 PRETTY_PRINT_OFFSET
 (
 offset
@@ -1702,6 +1738,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 4
@@ -1801,6 +1838,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 nameIReg
 (
@@ -1890,6 +1928,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 PRETTY_PRINT_OFFSET
 (
@@ -2002,6 +2041,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 nameIReg
 (
@@ -2092,6 +2132,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 PRETTY_PRINT_OFFSET
 (
@@ -2240,6 +2281,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 4
@@ -2339,6 +2381,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 nameIReg
 (
@@ -2483,6 +2526,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 8
@@ -2541,6 +2585,7 @@ s
 \
 n
 "
+MAYBE_PAD
 PRETTY_PRINT_OFFSET
 (
 offset
@@ -2604,6 +2649,7 @@ s
 \
 n
 "
+MAYBE_PAD
 PRETTY_PRINT_OFFSET
 (
 offset
@@ -2660,6 +2706,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 nameIReg
 (
@@ -2839,6 +2886,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 4
@@ -2906,6 +2954,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 4
@@ -3005,6 +3054,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 nameIReg
 (
@@ -3149,6 +3199,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 8
@@ -3200,6 +3251,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 nameIReg
 (
@@ -3277,6 +3329,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 8
@@ -3383,6 +3436,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 4
@@ -3482,6 +3536,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 nameIReg
 (
@@ -3572,6 +3627,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 PRETTY_PRINT_OFFSET
 (
@@ -3684,6 +3740,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 nameIReg
 (
@@ -3826,6 +3883,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 4
@@ -3984,6 +4042,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 nameIReg
 (
@@ -4089,6 +4148,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 nameIReg
 (
@@ -4172,6 +4232,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 nameIReg
 (
@@ -4243,6 +4304,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 4
@@ -4350,6 +4412,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 nameIReg
 (
@@ -4421,6 +4484,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 4
@@ -4488,6 +4552,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 nameIReg
 (
@@ -4560,6 +4625,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 nameIReg
 (
@@ -4728,6 +4794,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 4
@@ -4786,6 +4853,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 4
@@ -4848,6 +4916,7 @@ s
 \
 n
 "
+MAYBE_PAD
 PRETTY_PRINT_OFFSET
 (
 offset
@@ -4903,6 +4972,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 nameIReg
 (
@@ -4985,6 +5055,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 nameIReg
 (
@@ -5047,6 +5118,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 PRETTY_PRINT_OFFSET
 (
@@ -5212,6 +5284,7 @@ d
 \
 n
 "
+MAYBE_PAD
 imm
 offset
 nameIReg
@@ -5340,6 +5413,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 8
@@ -5438,6 +5512,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 nameIReg
 (
@@ -5849,6 +5924,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 4
@@ -5900,6 +5976,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 nameIReg
 (
@@ -5961,6 +6038,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 PRETTY_PRINT_OFFSET
 (
@@ -6122,6 +6200,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 8
@@ -6209,6 +6288,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 PRETTY_PRINT_OFFSET
 (
@@ -6334,6 +6414,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 nameIReg
 (
@@ -6387,6 +6468,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameCC
 (
 cond
@@ -6537,6 +6619,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 4
@@ -6590,6 +6673,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 8
@@ -6642,6 +6726,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 4
@@ -6700,6 +6785,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 4
@@ -6792,6 +6878,7 @@ d
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 4
@@ -6909,6 +6996,7 @@ s
 \
 n
 "
+MAYBE_PAD
 PRETTY_PRINT_OFFSET
 (
 offset
@@ -7001,6 +7089,7 @@ s
 \
 n
 "
+MAYBE_PAD
 offset
 nameIReg
 (
@@ -7060,6 +7149,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 nameIReg
 (
@@ -7120,6 +7210,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 PRETTY_PRINT_OFFSET
 (
@@ -7192,6 +7283,7 @@ d
 \
 n
 "
+MAYBE_PAD
 imm
 offset
 nameIReg
@@ -7307,6 +7399,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 8
@@ -7365,6 +7458,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 8
@@ -7455,6 +7549,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 8
@@ -7581,6 +7676,7 @@ s
 \
 n
 "
+MAYBE_PAD
 PRETTY_PRINT_OFFSET
 (
 offset
@@ -7671,6 +7767,7 @@ s
 \
 n
 "
+MAYBE_PAD
 PRETTY_PRINT_OFFSET
 (
 offset
@@ -7741,6 +7838,7 @@ s
 \
 n
 "
+MAYBE_PAD
 offset
 nameIReg
 (
@@ -7806,6 +7904,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 PRETTY_PRINT_OFFSET
 (
@@ -7875,6 +7974,7 @@ s
 \
 n
 "
+MAYBE_PAD
 imm
 PRETTY_PRINT_OFFSET
 (
@@ -7935,6 +8035,7 @@ s
 \
 n
 "
+MAYBE_PAD
 (
 unsigned
 long
@@ -7993,6 +8094,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 4
@@ -8087,6 +8189,7 @@ s
 \
 n
 "
+MAYBE_PAD
 addr
 nameIReg
 (
@@ -8188,6 +8291,7 @@ s
 \
 n
 "
+MAYBE_PAD
 PRETTY_PRINT_OFFSET
 (
 offset
@@ -8272,6 +8376,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 4
@@ -8336,6 +8441,7 @@ s
 \
 n
 "
+MAYBE_PAD
 offset
 nameIReg
 (
@@ -8401,6 +8507,7 @@ s
 \
 n
 "
+MAYBE_PAD
 PRETTY_PRINT_OFFSET
 (
 offset
@@ -8466,6 +8573,7 @@ s
 \
 n
 "
+MAYBE_PAD
 PRETTY_PRINT_OFFSET
 (
 offset
@@ -8536,6 +8644,7 @@ d
 \
 n
 "
+MAYBE_PAD
 r
 .
 m_offset
@@ -8591,6 +8700,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 dst
@@ -8665,6 +8775,7 @@ d
 \
 n
 "
+MAYBE_PAD
 r
 .
 m_offset
@@ -8702,6 +8813,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 dst
@@ -9146,6 +9258,7 @@ d
 \
 n
 "
+MAYBE_PAD
 nameCC
 (
 cond
@@ -9187,6 +9300,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameFPReg
 (
 src
@@ -9256,6 +9370,7 @@ s
 \
 n
 "
+MAYBE_PAD
 PRETTY_PRINT_OFFSET
 (
 offset
@@ -9319,6 +9434,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameIReg
 (
 src
@@ -9385,6 +9501,7 @@ s
 \
 n
 "
+MAYBE_PAD
 PRETTY_PRINT_OFFSET
 (
 offset
@@ -9453,6 +9570,7 @@ s
 \
 n
 "
+MAYBE_PAD
 address
 nameFPReg
 (
@@ -9510,6 +9628,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameFPReg
 (
 src
@@ -9568,6 +9687,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameFPReg
 (
 src
@@ -9629,6 +9749,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameFPReg
 (
 src
@@ -9687,7 +9808,8 @@ s
 \
 n
 "
-nameFPReg
+MAYBE_PAD
+nameIReg
 (
 src
 )
@@ -9755,6 +9877,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameFPReg
 (
 src
@@ -9826,6 +9949,7 @@ s
 \
 n
 "
+MAYBE_PAD
 PRETTY_PRINT_OFFSET
 (
 offset
@@ -9889,6 +10013,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameFPReg
 (
 src
@@ -9956,6 +10081,7 @@ s
 \
 n
 "
+MAYBE_PAD
 address
 nameFPReg
 (
@@ -10013,6 +10139,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameFPReg
 (
 src
@@ -10082,6 +10209,7 @@ s
 \
 n
 "
+MAYBE_PAD
 PRETTY_PRINT_OFFSET
 (
 offset
@@ -10188,6 +10316,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameFPReg
 (
 src
@@ -10257,6 +10386,7 @@ s
 \
 n
 "
+MAYBE_PAD
 PRETTY_PRINT_OFFSET
 (
 offset
@@ -10320,6 +10450,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameFPReg
 (
 src
@@ -10389,6 +10520,7 @@ s
 \
 n
 "
+MAYBE_PAD
 PRETTY_PRINT_OFFSET
 (
 offset
@@ -10452,6 +10584,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameFPReg
 (
 src
@@ -10521,6 +10654,7 @@ s
 \
 n
 "
+MAYBE_PAD
 PRETTY_PRINT_OFFSET
 (
 offset
@@ -10584,6 +10718,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameFPReg
 (
 src
@@ -10645,6 +10780,7 @@ s
 \
 n
 "
+MAYBE_PAD
 nameFPReg
 (
 src
@@ -10698,6 +10834,7 @@ int3
 \
 n
 "
+MAYBE_PAD
 )
 ;
 m_formatter
@@ -10728,6 +10865,7 @@ ret
 \
 n
 "
+MAYBE_PAD
 )
 ;
 m_formatter
@@ -10792,6 +10930,7 @@ d
 \
 n
 "
+MAYBE_PAD
 r
 .
 m_offset
@@ -10920,6 +11059,7 @@ d
 \
 n
 "
+MAYBE_PAD
 from
 .
 m_offset
@@ -10985,7 +11125,42 @@ m_offset
 1
 )
 ;
-FIXME_INSN_PRINTING
+js
+:
+:
+JaegerSpew
+(
+js
+:
+:
+JSpew_Insns
+ISPFX
+"
+#
+#
+link
+(
+(
+%
+d
+)
+)
+jumps
+to
+(
+(
+%
+p
+)
+)
+\
+n
+"
+from
+.
+m_offset
+to
+)
 ;
 setRel32
 (
@@ -11137,7 +11312,7 @@ js
 :
 :
 JSpew_Insns
-IPFX
+ISPFX
 "
 #
 #
@@ -11183,7 +11358,42 @@ int32_t
 value
 )
 {
-FIXME_INSN_PRINTING
+js
+:
+:
+JaegerSpew
+(
+js
+:
+:
+JSpew_Insns
+ISPFX
+"
+#
+#
+relinkInt32
+(
+(
+where
+=
+%
+p
+)
+)
+(
+(
+value
+=
+%
+d
+)
+)
+\
+n
+"
+where
+value
+)
 ;
 setInt32
 (
@@ -11213,7 +11423,7 @@ js
 :
 :
 JSpew_Insns
-IPFX
+ISPFX
 "
 #
 #
@@ -11572,7 +11782,7 @@ js
 :
 :
 JSpew_Insns
-IPFX
+ISPFX
 "
 #
 #
@@ -11698,7 +11908,7 @@ js
 :
 :
 JSpew_Insns
-IPFX
+ISPFX
 "
 #
 #
