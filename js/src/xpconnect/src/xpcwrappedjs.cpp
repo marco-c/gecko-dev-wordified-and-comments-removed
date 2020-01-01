@@ -965,6 +965,8 @@ rootJSObj
 nsXPCWrappedJS
 *
 root
+=
+nsnull
 ;
 nsXPCWrappedJS
 *
