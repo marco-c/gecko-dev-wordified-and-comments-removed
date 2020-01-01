@@ -2762,6 +2762,9 @@ true
 postData
 :
 postData
+initiatingDoc
+:
+document
 }
 ;
 if
