@@ -28705,10 +28705,9 @@ GetScriptGlobalObject
 true
 )
 ;
-JSContext
-*
+AutoPushJSContext
 cx
-=
+(
 aDocument
 -
 >
@@ -28724,6 +28723,7 @@ GetContext
 >
 GetNativeContext
 (
+)
 )
 ;
 NS_ENSURE_TRUE

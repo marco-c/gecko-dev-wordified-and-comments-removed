@@ -415,12 +415,12 @@ return
 NS_OK
 ;
 }
-JSContext
-*
+AutoPushJSContext
 cx
-=
+(
 GetJSContext
 (
+)
 )
 ;
 if
