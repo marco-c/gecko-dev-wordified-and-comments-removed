@@ -678,7 +678,7 @@ callback
 Context
 context
 Bundle
-persisted
+extras
 )
 throws
 SyncConfigurationException
@@ -740,7 +740,7 @@ with
 bundle
 "
 +
-persisted
+extras
 )
 ;
 URI
@@ -864,14 +864,6 @@ config
 syncKeyBundle
 =
 syncKeyBundle
-;
-assert
-(
-null
-=
-=
-persisted
-)
 ;
 prepareStages
 (
