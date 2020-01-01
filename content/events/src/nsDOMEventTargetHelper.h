@@ -56,7 +56,7 @@ h
 #
 include
 "
-nsThreadUtils
+MainThreadUtils
 .
 h
 "

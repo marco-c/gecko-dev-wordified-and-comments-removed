@@ -74,10 +74,13 @@ h
 #
 include
 "
-nsThreadUtils
+MainThreadUtils
 .
 h
 "
+class
+nsIRunnable
+;
 namespace
 mozilla
 {
