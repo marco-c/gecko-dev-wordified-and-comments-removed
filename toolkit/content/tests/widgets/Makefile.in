@@ -567,6 +567,10 @@ test_hiddenpaging
 .
 xul
 \
+test_popup_tree
+.
+xul
+\
 (
 NULL
 )
