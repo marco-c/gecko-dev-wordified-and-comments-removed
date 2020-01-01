@@ -138,8 +138,10 @@ html
 /
 java
 /
-.
-*
-\
-.
-class
+(
+html
+|
+java
+)
+parser
+/
