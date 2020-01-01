@@ -2025,6 +2025,10 @@ test_createHTMLDocument
 .
 html
 \
+test_bug578096
+.
+html
+\
 (
 NULL
 )
