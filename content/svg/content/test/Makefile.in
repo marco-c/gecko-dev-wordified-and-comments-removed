@@ -667,6 +667,10 @@ test_SVGStyleElement
 .
 xhtml
 \
+test_SVGStringList
+.
+xhtml
+\
 test_SVGTransformList
 .
 xhtml
