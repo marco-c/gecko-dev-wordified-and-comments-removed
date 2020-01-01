@@ -250,8 +250,6 @@ inspectDOMDocument
 content
 .
 document
-.
-wrappedJSObject
 )
 ;
 "
