@@ -4676,15 +4676,6 @@ CharacterDataChangeInfo
 aInfo
 )
 {
-InvalidateCacheSubtree
-(
-aContent
-nsIAccessibleEvent
-:
-:
-EVENT_REORDER
-)
-;
 }
 void
 nsDocAccessible
