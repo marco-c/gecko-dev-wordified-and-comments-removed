@@ -671,6 +671,10 @@ MutationObserver
 .
 webidl
 \
+NetDashboard
+.
+webidl
+\
 Node
 .
 webidl
