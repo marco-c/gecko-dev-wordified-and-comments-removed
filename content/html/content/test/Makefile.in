@@ -1592,6 +1592,12 @@ inner
 .
 html
 \
+file_fullscreen
+-
+rollback
+.
+html
+\
 test_li_attributes_reflection
 .
 html
