@@ -177,10 +177,6 @@ PRInt32
 >
 QUIRKY_PUBLIC_IDS
 ;
-nsHtml5StackNode
-*
-MARKER
-;
 static
 nsIAtom
 *
