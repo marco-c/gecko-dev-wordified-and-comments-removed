@@ -4279,8 +4279,6 @@ class
 global
 -
 info
--
-plugincheck
 "
 flex
 =
@@ -4292,12 +4290,6 @@ align
 "
 center
 "
-tooltiptext
-=
-"
-Update
-plugins
-"
 >
 <
 button
@@ -4307,6 +4299,11 @@ class
 button
 -
 link
+global
+-
+info
+-
+plugincheck
 "
 label
 =
