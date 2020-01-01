@@ -3435,7 +3435,7 @@ withcontrolkey
 .
 action
 "
-5
+3
 )
 ;
 pref
@@ -5752,6 +5752,18 @@ identity
 ssl_domain_display
 "
 0
+)
+;
+pref
+(
+"
+browser
+.
+zoom
+.
+full
+"
+true
 )
 ;
 pref
