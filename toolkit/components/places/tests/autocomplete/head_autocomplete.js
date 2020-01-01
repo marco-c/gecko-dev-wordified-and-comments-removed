@@ -1526,10 +1526,14 @@ func
 (
 )
 ;
-ensure_results
+waitForAsyncUpdates
 (
+ensure_results
+this
+[
 search
 expected
+]
 )
 ;
 }
