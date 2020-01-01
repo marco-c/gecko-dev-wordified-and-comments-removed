@@ -136,14 +136,14 @@ GetLooseValues
 ;
 DCHECK
 (
-1
-=
-=
 values
 .
 size
 (
 )
+>
+=
+1
 )
 ;
 std
