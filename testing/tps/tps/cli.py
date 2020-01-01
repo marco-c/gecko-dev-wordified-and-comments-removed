@@ -796,6 +796,12 @@ options
 .
 mobile
                       
+resultfile
+=
+options
+.
+resultfile
+                      
 ignore_unused_engines
 =
 options
