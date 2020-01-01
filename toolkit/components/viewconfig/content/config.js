@@ -3072,6 +3072,12 @@ null
 var
 prefCol
 =
+(
+view
+.
+selection
+&
+&
 view
 .
 selection
@@ -3079,6 +3085,7 @@ selection
 currentIndex
 <
 0
+)
 ?
 null
 :
