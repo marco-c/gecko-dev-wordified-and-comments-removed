@@ -14981,6 +14981,9 @@ JS_THREADED_INTERP
 endif
 error
 :
+#
+ifdef
+JS_TRACER
 if
 (
 fp
@@ -15103,6 +15106,8 @@ atomMap
 vector
 ;
 }
+#
+endif
 JS_ASSERT
 (
 (
