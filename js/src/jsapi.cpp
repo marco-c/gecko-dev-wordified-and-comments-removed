@@ -8648,6 +8648,13 @@ TYPE_UINT8_CLAMPED
 )
 }
 {
+js_InitWeakMapClass
+EAGER_ATOM_AND_CLASP
+(
+WeakMap
+)
+}
+{
 js_InitProxyClass
 EAGER_ATOM_AND_CLASP
 (
