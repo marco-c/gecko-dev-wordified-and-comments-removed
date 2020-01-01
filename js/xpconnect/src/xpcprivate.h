@@ -14125,11 +14125,6 @@ ccx
 XPCWrappedNativeScope
 *
 aScope
-JSObject
-*
-aTarget
-=
-NULL
 )
 ;
 void

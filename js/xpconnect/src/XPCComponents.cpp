@@ -20686,9 +20686,6 @@ ccx
 XPCWrappedNativeScope
 *
 aScope
-JSObject
-*
-aTarget
 )
 {
 JSObject
@@ -20734,15 +20731,6 @@ ccx
 )
 )
 ;
-if
-(
-!
-aTarget
-)
-aTarget
-=
-global
-;
 jsid
 id
 =
@@ -20781,7 +20769,7 @@ return
 JS_DefinePropertyById
 (
 ccx
-aTarget
+global
 id
 js
 :
