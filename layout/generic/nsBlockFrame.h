@@ -359,6 +359,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendFrames
@@ -369,6 +370,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InsertFrames
@@ -382,6 +384,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveFrame
@@ -392,6 +395,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 const
@@ -403,6 +407,7 @@ ChildListID
 aListID
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -416,6 +421,7 @@ ChildList
 aLists
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -441,6 +447,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSplittableType
@@ -448,6 +455,7 @@ GetSplittableType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -455,6 +463,7 @@ IsFloatContainingBlock
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -481,6 +490,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -490,6 +500,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsContainerFrame
@@ -523,6 +534,7 @@ aDisplayItemKey
 =
 0
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -537,6 +549,7 @@ aDisplayItemKey
 =
 0
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -555,6 +568,7 @@ aFlags
 0
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -564,6 +578,7 @@ GetDebugStateBits
 (
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetFrameName
@@ -573,6 +588,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -620,6 +636,7 @@ nsIFrame
 *
 aChild
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -629,24 +646,28 @@ nsISelection
 *
 aSelection
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsEmpty
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 CachedIsEmpty
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsSelfEmpty
 (
 )
+MOZ_OVERRIDE
 ;
 bool
 BulletIsEmpty
@@ -744,6 +765,7 @@ void
 MarkIntrinsicWidthsDirty
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -762,6 +784,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -771,6 +794,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsRect
@@ -781,6 +805,7 @@ gfxContext
 aContext
 )
 const
+MOZ_OVERRIDE
 ;
 void
 ComputeFinalHeight
@@ -822,6 +847,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttributeChanged
@@ -834,12 +860,14 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 DrainSelfOverflowList
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -856,6 +884,7 @@ aForceNormal
 =
 false
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -870,6 +899,7 @@ aNextInFlow
 bool
 aDeletingEmptyFrames
 )
+MOZ_OVERRIDE
 ;
 bool
 CheckForCollapsedBottomMarginFromClearanceLine
@@ -1400,6 +1430,7 @@ bool
 UpdateOverflow
 (
 )
+MOZ_OVERRIDE
 ;
 static
 void
@@ -2125,6 +2156,7 @@ nsILineIterator
 GetLineIterator
 (
 )
+MOZ_OVERRIDE
 ;
 public
 :
