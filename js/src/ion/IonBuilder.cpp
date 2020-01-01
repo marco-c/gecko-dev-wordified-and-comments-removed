@@ -1015,6 +1015,18 @@ appendOk
 }
 else
 {
+targets
+.
+clear
+(
+)
+;
+return
+true
+;
+#
+if
+0
 types
 :
 :
@@ -1106,6 +1118,8 @@ gotLambda
 =
 true
 ;
+#
+endif
 }
 }
 if
