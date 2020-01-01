@@ -12,7 +12,7 @@ version
 .
 5
 .
-6
+7
 '
 try
 :
@@ -207,6 +207,24 @@ tests
 '
 ]
 )
+      
+package_data
+=
+{
+'
+marionette
+'
+:
+[
+'
+touch
+/
+*
+.
+js
+'
+]
+}
       
 include_package_data
 =
