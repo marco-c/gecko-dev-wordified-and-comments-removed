@@ -911,6 +911,34 @@ debuggerInteractive
 '
 :
 debuggerInteractive
+            
+'
+on_message
+'
+:
+(
+lambda
+obj
+msg
+:
+xpcshell
+.
+log
+.
+info
+(
+msg
+)
+)
+\
+                            
+if
+test_path
+is
+not
+None
+else
+None
         
 }
         
