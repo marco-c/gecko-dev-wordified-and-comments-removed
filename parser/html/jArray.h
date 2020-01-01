@@ -1,9 +1,9 @@
 #
 ifndef
-jArray_h_
+jArray_h
 #
 define
-jArray_h_
+jArray_h
 #
 include
 "

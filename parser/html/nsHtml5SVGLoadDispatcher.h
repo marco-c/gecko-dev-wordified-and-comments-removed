@@ -1,9 +1,9 @@
 #
 ifndef
-nsHtml5SVGLoadDispatcher_h_
+nsHtml5SVGLoadDispatcher_h
 #
 define
-nsHtml5SVGLoadDispatcher_h_
+nsHtml5SVGLoadDispatcher_h
 #
 include
 "

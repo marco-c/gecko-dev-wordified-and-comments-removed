@@ -1,9 +1,9 @@
 #
 ifndef
-nsHtml5Portability_h__
+nsHtml5Portability_h
 #
 define
-nsHtml5Portability_h__
+nsHtml5Portability_h
 #
 include
 "

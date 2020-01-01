@@ -1,9 +1,9 @@
 #
 ifndef
-nsHtml5PlainTextUtils_h_
+nsHtml5PlainTextUtils_h
 #
 define
-nsHtml5PlainTextUtils_h_
+nsHtml5PlainTextUtils_h
 #
 include
 "

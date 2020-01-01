@@ -1,9 +1,9 @@
 #
 ifndef
-nsHtml5TreeBuilder_h__
+nsHtml5TreeBuilder_h
 #
 define
-nsHtml5TreeBuilder_h__
+nsHtml5TreeBuilder_h
 #
 include
 "

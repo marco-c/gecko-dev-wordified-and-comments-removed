@@ -1,9 +1,9 @@
 #
 ifndef
-nsHtml5Macros_h_
+nsHtml5Macros_h
 #
 define
-nsHtml5Macros_h_
+nsHtml5Macros_h
 #
 define
 NS_HTML5_CONTINUE

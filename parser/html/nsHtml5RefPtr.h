@@ -1,9 +1,9 @@
 #
 ifndef
-nsHtml5RefPtr_h___
+nsHtml5RefPtr_h
 #
 define
-nsHtml5RefPtr_h___
+nsHtml5RefPtr_h
 #
 include
 "

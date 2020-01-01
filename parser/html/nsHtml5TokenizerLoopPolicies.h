@@ -1,9 +1,9 @@
 #
 ifndef
-nsHtml5TokenizerLoopPolicies_h_
+nsHtml5TokenizerLoopPolicies_h
 #
 define
-nsHtml5TokenizerLoopPolicies_h_
+nsHtml5TokenizerLoopPolicies_h
 struct
 nsHtml5SilentPolicy
 {

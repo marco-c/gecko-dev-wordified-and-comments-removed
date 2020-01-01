@@ -1,9 +1,9 @@
 #
 ifndef
-nsHtml5HtmlAttributes_h__
+nsHtml5HtmlAttributes_h
 #
 define
-nsHtml5HtmlAttributes_h__
+nsHtml5HtmlAttributes_h
 #
 include
 "

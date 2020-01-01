@@ -1,9 +1,9 @@
 #
 ifndef
-nsHtml5ViewSourceUtils_h_
+nsHtml5ViewSourceUtils_h
 #
 define
-nsHtml5ViewSourceUtils_h_
+nsHtml5ViewSourceUtils_h
 #
 include
 "

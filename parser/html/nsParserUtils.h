@@ -1,9 +1,9 @@
 #
 ifndef
-nsParserUtils_h_
+nsParserUtils_h
 #
 define
-nsParserUtils_h_
+nsParserUtils_h
 #
 include
 "

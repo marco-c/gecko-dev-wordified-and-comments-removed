@@ -1,9 +1,9 @@
 #
 ifndef
-nsAHtml5TreeBuilderState_h___
+nsAHtml5TreeBuilderState_h
 #
 define
-nsAHtml5TreeBuilderState_h___
+nsAHtml5TreeBuilderState_h
 class
 nsAHtml5TreeBuilderState
 {

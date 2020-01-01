@@ -1,9 +1,9 @@
 #
 ifndef
-nsHtml5ByteReadable_h__
+nsHtml5ByteReadable_h
 #
 define
-nsHtml5ByteReadable_h__
+nsHtml5ByteReadable_h
 class
 nsHtml5ByteReadable
 {

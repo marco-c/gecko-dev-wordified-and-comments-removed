@@ -1,9 +1,9 @@
 #
 ifndef
-nsHtml5StateSnapshot_h__
+nsHtml5StateSnapshot_h
 #
 define
-nsHtml5StateSnapshot_h__
+nsHtml5StateSnapshot_h
 #
 include
 "

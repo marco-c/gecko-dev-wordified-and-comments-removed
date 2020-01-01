@@ -1,9 +1,9 @@
 #
 ifndef
-nsHtml5ArrayCopy_h__
+nsHtml5ArrayCopy_h
 #
 define
-nsHtml5ArrayCopy_h__
+nsHtml5ArrayCopy_h
 #
 include
 "

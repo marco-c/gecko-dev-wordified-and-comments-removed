@@ -1,9 +1,9 @@
 #
 ifndef
-nsHtml5UTF16Buffer_h__
+nsHtml5UTF16Buffer_h
 #
 define
-nsHtml5UTF16Buffer_h__
+nsHtml5UTF16Buffer_h
 #
 include
 "

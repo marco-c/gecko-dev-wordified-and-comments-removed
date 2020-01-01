@@ -1,9 +1,9 @@
 #
 ifndef
-nsHtml5MetaScanner_h__
+nsHtml5MetaScanner_h
 #
 define
-nsHtml5MetaScanner_h__
+nsHtml5MetaScanner_h
 #
 include
 "

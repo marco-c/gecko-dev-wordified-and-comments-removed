@@ -1,9 +1,9 @@
 #
 ifndef
-nsHtml5StringParser_h_
+nsHtml5StringParser_h
 #
 define
-nsHtml5StringParser_h_
+nsHtml5StringParser_h
 #
 include
 "

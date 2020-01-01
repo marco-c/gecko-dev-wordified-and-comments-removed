@@ -1,9 +1,9 @@
 #
 ifndef
-nsHtml5Atom_h_
+nsHtml5Atom_h
 #
 define
-nsHtml5Atom_h_
+nsHtml5Atom_h
 #
 include
 "

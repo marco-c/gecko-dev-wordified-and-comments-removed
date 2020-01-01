@@ -1,9 +1,9 @@
 #
 ifndef
-nsHtml5Highlighter_h_
+nsHtml5Highlighter_h
 #
 define
-nsHtml5Highlighter_h_
+nsHtml5Highlighter_h
 #
 include
 "

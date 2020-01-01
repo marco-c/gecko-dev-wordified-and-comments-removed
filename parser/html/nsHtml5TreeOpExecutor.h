@@ -1,9 +1,9 @@
 #
 ifndef
-nsHtml5TreeOpExecutor_h__
+nsHtml5TreeOpExecutor_h
 #
 define
-nsHtml5TreeOpExecutor_h__
+nsHtml5TreeOpExecutor_h
 #
 include
 "

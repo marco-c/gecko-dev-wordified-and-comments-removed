@@ -1,9 +1,9 @@
 #
 ifndef
-nsHtml5Speculation_h__
+nsHtml5Speculation_h
 #
 define
-nsHtml5Speculation_h__
+nsHtml5Speculation_h
 #
 include
 "

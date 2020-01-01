@@ -1,9 +1,9 @@
 #
 ifndef
-nsHtml5Module_h__
+nsHtml5Module_h
 #
 define
-nsHtml5Module_h__
+nsHtml5Module_h
 #
 include
 "

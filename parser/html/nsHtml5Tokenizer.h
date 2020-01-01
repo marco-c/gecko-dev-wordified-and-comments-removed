@@ -1,9 +1,9 @@
 #
 ifndef
-nsHtml5Tokenizer_h__
+nsHtml5Tokenizer_h
 #
 define
-nsHtml5Tokenizer_h__
+nsHtml5Tokenizer_h
 #
 include
 "
