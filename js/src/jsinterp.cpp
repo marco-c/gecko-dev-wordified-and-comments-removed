@@ -1761,6 +1761,9 @@ cx
 JSScript
 *
 script
+JSFunction
+*
+fun
 JSObject
 *
 scopeChain
@@ -1798,6 +1801,7 @@ CanMethodJIT
 (
 cx
 script
+fun
 scopeChain
 )
 ;
@@ -3083,6 +3087,7 @@ RunScript
 (
 cx
 script
+fun
 fp
 -
 >
@@ -4122,6 +4127,10 @@ RunScript
 (
 cx
 script
+fp
+-
+>
+fun
 fp
 -
 >
