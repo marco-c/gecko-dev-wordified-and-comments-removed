@@ -153,6 +153,13 @@ nsIAccessibleEvent
 EVENT_TEXT_REMOVED
 ;
 const
+EVENT_TEXT_SELECTION_CHANGED
+=
+nsIAccessibleEvent
+.
+EVENT_TEXT_SELECTION_CHANGED
+;
+const
 EVENT_VALUE_CHANGE
 =
 nsIAccessibleEvent
