@@ -3496,6 +3496,17 @@ dateFormatted
 {
 }
 ;
+}
+if
+(
+!
+(
+dateFormatted
+in
+dayVersions
+)
+)
+{
 dayVersions
 [
 dateFormatted
