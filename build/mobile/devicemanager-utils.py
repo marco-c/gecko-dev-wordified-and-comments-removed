@@ -4,6 +4,8 @@ import
 sys
 import
 os
+import
+devicemanagerSUT
 def
 copy
 (
