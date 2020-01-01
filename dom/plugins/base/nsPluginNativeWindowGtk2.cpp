@@ -523,6 +523,10 @@ return
 NS_ERROR_FAILURE
 ;
 }
+SetAllocation
+(
+)
+;
 if
 (
 GTK_IS_XTBIN
@@ -531,13 +535,6 @@ mSocketWidget
 )
 )
 {
-gtk_xtbin_resize
-(
-mSocketWidget
-width
-height
-)
-;
 SetWindow
 (
 GTK_XTBIN
@@ -552,10 +549,6 @@ xtwindow
 }
 else
 {
-SetAllocation
-(
-)
-;
 SetWindow
 (
 gtk_socket_get_id
