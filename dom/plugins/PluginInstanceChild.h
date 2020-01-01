@@ -1507,14 +1507,6 @@ nsIntRect
 mSurfaceDifferenceRect
 ;
 #
-ifdef
-MOZ_X11
-bool
-mFlash10Quirks
-;
-#
-endif
-#
 if
 (
 MOZ_PLATFORM_MAEMO
