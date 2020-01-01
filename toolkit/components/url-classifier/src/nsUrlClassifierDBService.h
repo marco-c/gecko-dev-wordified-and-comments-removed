@@ -134,6 +134,12 @@ nsUrlClassifierDBServiceWorker
 >
 mWorker
 ;
+nsCOMPtr
+<
+nsUrlClassifierDBServiceWorker
+>
+mWorkerProxy
+;
 PRBool
 mCheckMalware
 ;
