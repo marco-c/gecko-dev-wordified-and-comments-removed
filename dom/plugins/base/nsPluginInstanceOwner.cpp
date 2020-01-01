@@ -3210,9 +3210,6 @@ nsIWidget
 >
 widget
 ;
-nsresult
-rv
-=
 vm
 -
 >
@@ -3271,7 +3268,7 @@ handle
 ;
 }
 return
-rv
+NS_OK
 ;
 #
 elif
