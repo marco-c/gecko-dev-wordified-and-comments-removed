@@ -30853,6 +30853,7 @@ mOutHWND
 typedef
 DWORD
 (
+WINAPI
 *
 GetProcessImageFileNameProc
 )
