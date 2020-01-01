@@ -4213,6 +4213,10 @@ doc
 RemoveImage
 (
 mCurrentRequest
+nsIDocument
+:
+:
+REQUEST_DISCARD
 )
 ;
 if
@@ -4227,6 +4231,10 @@ doc
 RemoveImage
 (
 mPendingRequest
+nsIDocument
+:
+:
+REQUEST_DISCARD
 )
 ;
 }
@@ -4410,6 +4418,10 @@ doc
 RemoveImage
 (
 aImage
+nsIDocument
+:
+:
+REQUEST_DISCARD
 )
 ;
 return

@@ -35766,6 +35766,8 @@ RemoveImage
 imgIRequest
 *
 aImage
+uint32_t
+aFlags
 )
 {
 NS_ENSURE_ARG_POINTER
@@ -35906,6 +35908,13 @@ rv2
 rv
 ;
 }
+if
+(
+aFlags
+&
+REQUEST_DISCARD
+)
+{
 aImage
 -
 >
@@ -35913,6 +35922,7 @@ RequestDiscard
 (
 )
 ;
+}
 return
 rv
 ;
