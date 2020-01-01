@@ -5595,6 +5595,9 @@ while
 (
 limit
 <
+(
+PRInt32
+)
 mTextRun
 -
 >
