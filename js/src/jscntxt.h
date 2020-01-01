@@ -9759,6 +9759,7 @@ newLength
 =
 oldLength
 )
+{
 vector
 .
 shrinkBy
@@ -9768,6 +9769,10 @@ oldLength
 newLength
 )
 ;
+return
+true
+;
+}
 if
 (
 !
@@ -10099,6 +10104,7 @@ newLength
 =
 oldLength
 )
+{
 vector
 .
 shrinkBy
@@ -10108,6 +10114,10 @@ oldLength
 newLength
 )
 ;
+return
+true
+;
+}
 if
 (
 !
