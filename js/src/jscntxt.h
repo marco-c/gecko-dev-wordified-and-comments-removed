@@ -3711,6 +3711,16 @@ JSStackFrame
 fp
 )
 ;
+extern
+jsbytecode
+*
+js_GetCurrentBytecodePC
+(
+JSContext
+*
+cx
+)
+;
 #
 ifdef
 JS_TRACER
