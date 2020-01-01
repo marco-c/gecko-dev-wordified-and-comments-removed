@@ -222,10 +222,6 @@ frame
 nsnull
 ;
 }
-PushState
-(
-)
-;
 UpdateFrame
 (
 PR_TRUE
@@ -829,6 +825,10 @@ parent
 mState
 .
 domNode
+)
+;
+PushState
+(
 )
 ;
 GetKids

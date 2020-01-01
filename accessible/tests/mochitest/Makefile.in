@@ -588,6 +588,10 @@ test_elm_media
 .
 html
 \
+test_elm_txtcntnr
+.
+html
+\
 test_events_caretmove
 .
 html
