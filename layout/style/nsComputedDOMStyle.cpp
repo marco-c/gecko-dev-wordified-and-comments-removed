@@ -2167,7 +2167,7 @@ mExposeVisitedStyle
 nsContentUtils
 :
 :
-CallerHasUniversalXPConnect
+IsCallerChrome
 (
 )
 "

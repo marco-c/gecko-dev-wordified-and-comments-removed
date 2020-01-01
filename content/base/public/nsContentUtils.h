@@ -611,12 +611,6 @@ IsCallerTrustedForWrite
 ;
 static
 bool
-CallerHasUniversalXPConnect
-(
-)
-;
-static
-bool
 IsImageSrcSetDisabled
 (
 )

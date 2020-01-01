@@ -11178,7 +11178,7 @@ IsNull
 nsContentUtils
 :
 :
-CallerHasUniversalXPConnect
+IsCallerChrome
 (
 )
 )

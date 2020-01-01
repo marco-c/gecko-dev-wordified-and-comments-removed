@@ -7603,20 +7603,6 @@ ShutDown
 )
 ;
 }
-bool
-nsContentUtils
-:
-:
-CallerHasUniversalXPConnect
-(
-)
-{
-return
-IsCallerChrome
-(
-)
-;
-}
 nsresult
 nsContentUtils
 :
@@ -7828,7 +7814,7 @@ true
 ;
 }
 return
-CallerHasUniversalXPConnect
+IsCallerChrome
 (
 )
 ;
@@ -8522,7 +8508,7 @@ IsCallerTrustedForRead
 )
 {
 return
-CallerHasUniversalXPConnect
+IsCallerChrome
 (
 )
 ;
@@ -8536,7 +8522,7 @@ IsCallerTrustedForWrite
 )
 {
 return
-CallerHasUniversalXPConnect
+IsCallerChrome
 (
 )
 ;

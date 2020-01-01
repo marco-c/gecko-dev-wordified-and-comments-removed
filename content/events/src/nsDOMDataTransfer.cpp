@@ -1959,7 +1959,7 @@ NS_DRAGDROP_DRAGDROP
 nsContentUtils
 :
 :
-CallerHasUniversalXPConnect
+IsCallerChrome
 (
 )
 )
@@ -2352,7 +2352,7 @@ file
 nsContentUtils
 :
 :
-CallerHasUniversalXPConnect
+IsCallerChrome
 (
 )
 )
