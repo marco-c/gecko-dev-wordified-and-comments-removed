@@ -34,10 +34,10 @@ W
 LOCALIZATION
 NOTE
 (
-tellMaybeForgery
+blockWebForgeries
 .
 label
-tellMaybeAttackSite
+blockAttackSites
 .
 label
 )
@@ -108,7 +108,7 @@ known
 <
 !
 ENTITY
-tellMaybeAttackSite2
+blockAttackSites
 .
 label
 "
@@ -121,7 +121,7 @@ sites
 <
 !
 ENTITY
-tellMaybeAttackSite
+blockAttackSites
 .
 accesskey
 "
@@ -131,7 +131,7 @@ k
 <
 !
 ENTITY
-tellMaybeForgery2
+blockWebForgeries
 .
 label
 "
@@ -144,7 +144,7 @@ forgeries
 <
 !
 ENTITY
-tellMaybeForgery
+blockWebForgeries
 .
 accesskey
 "
