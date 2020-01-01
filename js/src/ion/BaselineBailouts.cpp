@@ -2702,6 +2702,11 @@ offset
 %
 d
 (
+op
+%
+s
+)
+(
 line
 %
 d
@@ -2726,6 +2731,10 @@ at
 int
 )
 pcOff
+js_CodeName
+[
+op
+]
 PCToLineNumber
 (
 script
@@ -4892,6 +4901,7 @@ failedBoundsCheck
 =
 true
 ;
+}
 IonSpew
 (
 IonSpew_BaselineBailouts
@@ -4911,10 +4921,6 @@ Invalidate
 cx
 outerScript
 )
-;
-}
-return
-true
 ;
 }
 static
