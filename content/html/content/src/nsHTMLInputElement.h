@@ -563,6 +563,17 @@ GetRows
 ;
 NS_IMETHOD_
 (
+void
+)
+GetDefaultValueFromContent
+(
+nsAString
+&
+aValue
+)
+;
+NS_IMETHOD_
+(
 bool
 )
 ValueChanged
