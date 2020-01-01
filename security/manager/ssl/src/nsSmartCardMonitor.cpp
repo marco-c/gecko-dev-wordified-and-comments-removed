@@ -1063,6 +1063,13 @@ void
 arg
 )
 {
+PR_SetCurrentThreadName
+(
+"
+SmartCard
+"
+)
+;
 (
 (
 SmartCardMonitoringThread

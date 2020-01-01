@@ -12522,6 +12522,14 @@ Run
 (
 )
 {
+PR_SetCurrentThreadName
+(
+"
+XPCOM
+CC
+"
+)
+;
 #
 ifdef
 XP_WIN

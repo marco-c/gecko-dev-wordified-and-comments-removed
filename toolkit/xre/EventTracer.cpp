@@ -111,6 +111,14 @@ void
 arg
 )
 {
+PR_SetCurrentThreadName
+(
+"
+Event
+Tracer
+"
+)
+;
 PRIntervalTime
 threshold
 =

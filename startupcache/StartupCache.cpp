@@ -2315,6 +2315,13 @@ void
 aClosure
 )
 {
+PR_SetCurrentThreadName
+(
+"
+StartupCache
+"
+)
+;
 gStartupCache
 -
 >

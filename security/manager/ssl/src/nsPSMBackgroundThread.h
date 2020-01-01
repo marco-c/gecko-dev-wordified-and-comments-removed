@@ -141,6 +141,9 @@ ePSMThreadStopped
 }
 mExitState
 ;
+nsCString
+mName
+;
 public
 :
 nsPSMBackgroundThread
@@ -156,6 +159,10 @@ nsPSMBackgroundThread
 nsresult
 startThread
 (
+const
+nsCSubstring
+&
+name
 )
 ;
 void

@@ -1595,6 +1595,13 @@ mCertVerificationThread
 >
 startThread
 (
+NS_LITERAL_CSTRING
+(
+"
+Cert
+Verify
+"
+)
 )
 ;
 if

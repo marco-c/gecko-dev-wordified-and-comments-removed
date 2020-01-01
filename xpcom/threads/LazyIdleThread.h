@@ -70,6 +70,13 @@ nsTArray
 h
 "
 #
+include
+"
+nsString
+.
+h
+"
+#
 define
 IDLE_THREAD_TOPIC
 "
@@ -115,6 +122,10 @@ LazyIdleThread
 (
 PRUint32
 aIdleTimeoutMS
+const
+nsCSubstring
+&
+aName
 ShutdownMethod
 aShutdownMethod
 =
@@ -256,6 +267,9 @@ mThreadIsShuttingDown
 ;
 bool
 mIdleTimeoutEnabled
+;
+nsCString
+mName
 ;
 }
 ;

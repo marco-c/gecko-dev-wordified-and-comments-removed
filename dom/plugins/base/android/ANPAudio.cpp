@@ -539,6 +539,14 @@ Run
 (
 )
 {
+PR_SetCurrentThreadName
+(
+"
+Android
+Audio
+"
+)
+;
 JNIEnv
 *
 jenv

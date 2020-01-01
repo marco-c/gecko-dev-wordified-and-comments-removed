@@ -80,6 +80,14 @@ void
 arg
 )
 {
+PR_SetCurrentThreadName
+(
+"
+Protected
+Auth
+"
+)
+;
 nsProtectedAuthThread
 *
 self

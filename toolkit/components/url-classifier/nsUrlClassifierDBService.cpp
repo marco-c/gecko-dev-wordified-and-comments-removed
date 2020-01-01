@@ -18283,8 +18283,12 @@ UPDATE_DELAY_TIME_DEFAULT
 }
 rv
 =
-NS_NewThread
+NS_NewNamedThread
 (
+"
+URL
+Classifier
+"
 &
 gDbBackgroundThread
 )

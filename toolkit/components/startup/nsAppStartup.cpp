@@ -2941,6 +2941,14 @@ void
 aClosure
 )
 {
+PR_SetCurrentThreadName
+(
+"
+Startup
+Timer
+"
+)
+;
 PRTime
 now
 =

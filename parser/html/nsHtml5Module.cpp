@@ -556,8 +556,12 @@ if
 sStreamParserThread
 )
 {
-NS_NewThread
+NS_NewNamedThread
 (
+"
+HTML5
+Parser
+"
 &
 sStreamParserThread
 )

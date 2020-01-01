@@ -1432,6 +1432,14 @@ appFileLocationProvider
 {
 NS_TIME_FUNCTION
 ;
+PR_SetCurrentThreadName
+(
+"
+Main
+Thread
+"
+)
+;
 nsresult
 rv
 =
