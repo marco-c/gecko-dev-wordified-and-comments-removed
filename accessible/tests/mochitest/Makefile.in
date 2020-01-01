@@ -462,6 +462,10 @@ events
 .
 js
 \
+layout
+.
+js
+\
 namerules
 .
 xml
@@ -521,6 +525,10 @@ html
 test_bug420863
 .
 html
+\
+test_childAtPoint
+.
+xul
 \
 test_cssattrs
 .
