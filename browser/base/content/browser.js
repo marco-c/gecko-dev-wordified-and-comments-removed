@@ -22897,6 +22897,9 @@ aStateFlags
 aStatus
 )
 {
+#
+ifdef
+MOZ_CRASHREPORTER
 if
 (
 !
@@ -22948,6 +22951,8 @@ spec
 )
 ;
 }
+#
+endif
 }
 onLocationChange
 :
