@@ -311,6 +311,14 @@ mAsciiHost
 nsCAutoString
 mDynamicOwnerSpec
 ;
+char
+*
+*
+mCachedKeys
+;
+PRUint32
+mCachedKeysCount
+;
 nsCOMArray
 <
 nsIDOMEventListener
