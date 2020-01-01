@@ -11606,10 +11606,13 @@ reset
 (
 )
 ;
+delete
 codeAlloc
--
->
-sweep
+;
+codeAlloc
+=
+new
+CodeAlloc
 (
 )
 ;
