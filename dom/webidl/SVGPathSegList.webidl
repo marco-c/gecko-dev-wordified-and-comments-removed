@@ -140,9 +140,6 @@ apply
 *
 /
 interface
-SVGPathSeg
-;
-interface
 SVGPathSegList
 {
 readonly

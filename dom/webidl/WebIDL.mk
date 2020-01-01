@@ -339,6 +339,10 @@ SVGNumberList
 .
 webidl
 \
+SVGPathSeg
+.
+webidl
+\
 SVGPathSegList
 .
 webidl
