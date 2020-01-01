@@ -133,6 +133,10 @@ nsIAudioManager
 .
 idl
 \
+nsINetworkManager
+.
+idl
+\
 nsIRadioInterfaceLayer
 .
 idl
