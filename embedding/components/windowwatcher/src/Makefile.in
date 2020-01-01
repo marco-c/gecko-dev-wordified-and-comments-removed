@@ -480,6 +480,10 @@ nsWindowWatcher
 .
 cpp
 \
+nsAutoWindowStateHelper
+.
+cpp
+\
 (
 NULL
 )
