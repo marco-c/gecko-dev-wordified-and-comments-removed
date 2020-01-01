@@ -757,12 +757,11 @@ whence
 NS_SEEK_SET
 &
 &
-LL_EQ
-(
 offset
+=
+=
 LL_Zero
 (
-)
 )
 )
 {
