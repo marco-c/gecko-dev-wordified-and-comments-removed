@@ -51038,6 +51038,7 @@ WINNT
 ;
 then
 if
+test
 "
 MOZ_CRASHREPORTER
 "
