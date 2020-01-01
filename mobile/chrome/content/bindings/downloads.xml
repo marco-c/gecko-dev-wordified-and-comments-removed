@@ -118,13 +118,11 @@ chrome
 :
 /
 /
-global
+browser
 /
 content
 /
 bindings
-/
-richlistbox
 .
 xml
 #
