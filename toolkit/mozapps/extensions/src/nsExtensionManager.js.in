@@ -59324,6 +59324,10 @@ if
 forceReplace
 |
 |
+!
+oldLocation
+|
+|
 newLocation
 .
 priority
@@ -60016,6 +60020,14 @@ getInstallLocation
 (
 id
 )
+;
+if
+(
+!
+installLocation
+)
+return
+fallbackURL
 ;
 var
 file
