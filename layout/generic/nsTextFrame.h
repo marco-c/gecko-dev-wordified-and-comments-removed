@@ -1039,7 +1039,7 @@ aOverrideColor
 nsnull
 )
 ;
-PRBool
+bool
 PaintTextWithSelection
 (
 gfxContext
@@ -1076,7 +1076,7 @@ ClipEdges
 aClipEdges
 )
 ;
-void
+bool
 PaintTextWithSelectionColors
 (
 gfxContext
