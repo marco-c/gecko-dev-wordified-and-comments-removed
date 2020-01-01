@@ -3454,6 +3454,7 @@ outOfFlow
 }
 while
 (
+(
 outOfFlow
 =
 outOfFlow
@@ -3461,6 +3462,7 @@ outOfFlow
 >
 GetNextContinuation
 (
+)
 )
 )
 ;
@@ -6280,6 +6282,7 @@ aVisibleKidsOfHiddenElement
 }
 while
 (
+(
 outOfFlowFrame
 =
 outOfFlowFrame
@@ -6287,6 +6290,7 @@ outOfFlowFrame
 >
 GetNextContinuation
 (
+)
 )
 )
 ;

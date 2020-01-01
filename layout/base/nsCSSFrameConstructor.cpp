@@ -30788,6 +30788,7 @@ aChange
 }
 while
 (
+(
 outOfFlowFrame
 =
 outOfFlowFrame
@@ -30795,6 +30796,7 @@ outOfFlowFrame
 >
 GetNextContinuation
 (
+)
 )
 )
 ;
