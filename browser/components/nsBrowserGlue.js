@@ -2832,6 +2832,9 @@ shown
 true
 )
 ;
+var
+box
+=
 notifyBox
 .
 appendNotification
@@ -2848,6 +2851,12 @@ notifyBox
 PRIORITY_INFO_LOW
 buttons
 )
+;
+box
+.
+persistence
+=
+3
 ;
 }
 get
