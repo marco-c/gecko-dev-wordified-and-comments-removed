@@ -577,10 +577,6 @@ nsXPathResult
 .
 cpp
 \
-nsXPath1Scheme
-.
-cpp
-\
 txMozillaXPathTreeWalker
 .
 cpp
