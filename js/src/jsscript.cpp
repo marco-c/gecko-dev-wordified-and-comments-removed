@@ -5891,7 +5891,7 @@ PR_Lock
 lock
 )
 ;
-if
+while
 (
 state
 =
