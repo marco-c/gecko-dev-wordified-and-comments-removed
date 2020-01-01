@@ -10701,9 +10701,6 @@ const
 nsID
 *
 iid
-XPCNativeInterface
-*
-interface
 JSObject
 *
 scope
@@ -10760,7 +10757,6 @@ v
 nsnull
 src
 iid
-nsnull
 scope
 allowNativeWrapper
 isGlobal

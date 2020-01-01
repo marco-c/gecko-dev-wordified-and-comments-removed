@@ -1244,9 +1244,6 @@ wrapper
 {
 if
 (
-Interface
-&
-&
 !
 wrapper
 -
@@ -1301,9 +1298,6 @@ NS_OK
 JSBool
 isClassInfo
 =
-Interface
-&
-&
 Interface
 -
 >
@@ -1587,9 +1581,6 @@ wrapper
 {
 if
 (
-Interface
-&
-&
 !
 wrapper
 -
@@ -1815,9 +1806,6 @@ NS_ERROR_FAILURE
 }
 if
 (
-Interface
-&
-&
 !
 wrapper
 -
@@ -2407,9 +2395,6 @@ rv
 ;
 if
 (
-Interface
-&
-&
 !
 wrapper
 -

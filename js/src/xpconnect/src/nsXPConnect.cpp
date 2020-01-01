@@ -4294,7 +4294,6 @@ holder
 aCOMObj
 &
 aIID
-nsnull
 tempGlobal
 PR_FALSE
 OBJ_IS_GLOBAL
@@ -4664,7 +4663,6 @@ WrapNativeToJSVal
 aJSContext
 aScope
 aCOMObj
-&
 aIID
 &
 v
@@ -4689,7 +4687,7 @@ nsISupports
 aCOMObj
 const
 nsIID
-*
+&
 aIID
 jsval
 *
@@ -4773,8 +4771,8 @@ ccx
 aVal
 aHolder
 aCOMObj
+&
 aIID
-nsnull
 aScope
 PR_FALSE
 OBJ_IS_NOT_GLOBAL

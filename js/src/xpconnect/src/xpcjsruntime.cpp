@@ -5,13 +5,6 @@ xpcprivate
 .
 h
 "
-#
-include
-"
-dom_quickstubs
-.
-h
-"
 const
 char
 *
@@ -2454,10 +2447,6 @@ DetachedWrappedNativeProtoMarker
 nsnull
 )
 ;
-DOM_MarkInterfaces
-(
-)
-;
 if
 (
 !
@@ -4101,10 +4090,6 @@ XPCConvert
 :
 :
 RemoveXPCOMUCStringFinalizer
-(
-)
-;
-DOM_ClearInterfaces
 (
 )
 ;
