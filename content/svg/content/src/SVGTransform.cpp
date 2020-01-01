@@ -74,12 +74,10 @@ if
 (
 mMatrix
 .
-x0
+y0
 !
 =
-mMatrix
-.
-y0
+0
 )
 nsTextFormatter
 :
