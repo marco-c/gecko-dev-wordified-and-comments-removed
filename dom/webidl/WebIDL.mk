@@ -467,6 +467,10 @@ SVGForeignObjectElement
 .
 webidl
 \
+SVGGElement
+.
+webidl
+\
 SVGGraphicsElement
 .
 webidl
