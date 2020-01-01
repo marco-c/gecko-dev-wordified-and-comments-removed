@@ -3277,6 +3277,7 @@ mTitle
 getAndProcessThumbnailForTab
 (
 tab
+true
 )
 ;
 }
@@ -3288,6 +3289,8 @@ getAndProcessThumbnailForTab
 final
 Tab
 tab
+boolean
+forceBigSceenshot
 )
 {
 boolean
@@ -3368,7 +3371,7 @@ null
 int
 sw
 =
-isSelectedTab
+forceBigSceenshot
 ?
 mSoftwareLayerClient
 .
@@ -3385,7 +3388,7 @@ getMinScreenshotWidth
 int
 sh
 =
-isSelectedTab
+forceBigSceenshot
 ?
 mSoftwareLayerClient
 .
@@ -3402,7 +3405,7 @@ getMinScreenshotHeight
 int
 dw
 =
-isSelectedTab
+forceBigSceenshot
 ?
 sw
 :
@@ -3415,7 +3418,7 @@ getThumbnailWidth
 int
 dh
 =
-isSelectedTab
+forceBigSceenshot
 ?
 sh
 :
