@@ -393,10 +393,12 @@ GetBackendType
 BACKEND_CAIRO
 ;
 }
-}
+default
+:
 return
 true
 ;
+}
 }
 static
 cairo_pattern_t

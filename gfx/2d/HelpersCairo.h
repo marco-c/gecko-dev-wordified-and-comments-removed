@@ -214,10 +214,12 @@ FORMAT_A8
 return
 CAIRO_FORMAT_A8
 ;
-}
+default
+:
 return
 CAIRO_FORMAT_ARGB32
 ;
+}
 }
 static
 inline
@@ -251,10 +253,12 @@ FORMAT_A8
 return
 CAIRO_CONTENT_ALPHA
 ;
-}
+default
+:
 return
 CAIRO_CONTENT_COLOR_ALPHA
 ;
+}
 }
 static
 inline
