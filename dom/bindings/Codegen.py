@@ -16263,7 +16263,12 @@ self
 .
 descriptor
 .
-workers
+nativeOwnership
+=
+=
+'
+worker
+'
 :
             
 return

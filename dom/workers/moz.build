@@ -260,11 +260,6 @@ FileReaderSync
 cpp
 '
 '
-ImageData
-.
-cpp
-'
-'
 Location
 .
 cpp
