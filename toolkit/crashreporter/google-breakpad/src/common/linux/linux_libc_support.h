@@ -326,7 +326,7 @@ inline
 unsigned
 my_int_len
 (
-int
+intmax_t
 i
 )
 {
@@ -370,7 +370,7 @@ my_itos
 char
 *
 output
-int
+intmax_t
 i
 unsigned
 i_len
