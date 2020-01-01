@@ -437,7 +437,7 @@ interface
 nsIHttpRequestHandler
 ;
 interface
-nsIHttpRequestMetadata
+nsIHttpRequest
 ;
 interface
 nsIHttpResponse
@@ -2099,11 +2099,11 @@ be
 the
 value
 of
-nsIHttpRequestMetadata
+nsIHttpRequest
 .
 scheme
-*
 for
+*
 HTTP
 /
 1
@@ -2198,11 +2198,11 @@ be
 the
 value
 of
-nsIHttpRequestMetadata
+nsIHttpRequest
 .
 host
-*
 for
+*
 HTTP
 /
 1
@@ -2300,7 +2300,7 @@ the
 value
 of
 *
-nsIHttpRequestMetadata
+nsIHttpRequest
 .
 port
 for
@@ -3128,7 +3128,7 @@ void
 handle
 (
 in
-nsIHttpRequestMetadata
+nsIHttpRequest
 metadata
 in
 nsIHttpResponse
@@ -3170,7 +3170,7 @@ dc51
 )
 ]
 interface
-nsIHttpRequestMetadata
+nsIHttpRequest
 :
 nsIPropertyBag
 {
