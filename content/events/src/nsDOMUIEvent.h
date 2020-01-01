@@ -662,6 +662,7 @@ return
 y
 ;
 }
+virtual
 uint32_t
 Which
 (
