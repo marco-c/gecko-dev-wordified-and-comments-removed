@@ -1521,11 +1521,7 @@ if
 (
 aFlags
 &
-(
 JSRESOLVE_ASSIGNING
-|
-JSRESOLVE_DECLARING
-)
 )
 {
 *
