@@ -965,6 +965,16 @@ IconLoad
 (
 )
 ;
+~
+IconLoad
+(
+)
+{
+Shutdown
+(
+)
+;
+}
 void
 Shutdown
 (
@@ -1079,6 +1089,9 @@ mPrefForceInlineAltText
 ;
 PRPackedBool
 mPrefShowPlaceholders
+;
+PRPackedBool
+mHasShutdown
 ;
 }
 ;
