@@ -457,6 +457,10 @@ browser_contextmenu
 .
 js
 \
+browser_gotoline
+.
+js
+\
 browser_viewsourceprefs
 .
 js
