@@ -63,11 +63,11 @@ gwm32inc
 ;
 const
 LPCWSTR
-kNVDAModuleHandle
+kDolphnModuleHandle
 =
 L
 "
-VBufBackend_gecko_ia2
+dolwinhk
 "
 ;
 class
