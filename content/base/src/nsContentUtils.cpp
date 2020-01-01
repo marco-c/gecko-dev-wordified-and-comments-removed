@@ -17289,6 +17289,9 @@ document
 "
 )
 ;
+#
+ifdef
+MOZ_XUL
 nsXULPopupManager
 *
 pm
@@ -17342,6 +17345,8 @@ docShellToHide
 )
 ;
 }
+#
+endif
 }
 void
 nsAutoGCRoot
