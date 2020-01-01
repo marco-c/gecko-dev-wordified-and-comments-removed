@@ -82,6 +82,14 @@ aColumnIndex
 ;
 virtual
 void
+SelectRow
+(
+PRUint32
+aRowIdx
+)
+;
+virtual
+void
 UnselectRow
 (
 PRUint32
