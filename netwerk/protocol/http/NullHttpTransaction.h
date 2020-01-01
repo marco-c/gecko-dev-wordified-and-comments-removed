@@ -102,6 +102,15 @@ return
 mConnectionInfo
 ;
 }
+bool
+IsNullTransaction
+(
+)
+{
+return
+true
+;
+}
 private
 :
 nsresult

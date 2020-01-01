@@ -261,6 +261,16 @@ return
 nsnull
 ;
 }
+virtual
+bool
+IsNullTransaction
+(
+)
+{
+return
+false
+;
+}
 enum
 Classifier
 {
