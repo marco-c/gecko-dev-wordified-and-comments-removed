@@ -33315,8 +33315,12 @@ op
 =
 x
 ;
+switchOp
+=
+x
+;
 goto
-do_op
+do_switch
 ;
 #
 endif
