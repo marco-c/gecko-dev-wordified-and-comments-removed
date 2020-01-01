@@ -188,7 +188,10 @@ PRUint32
 aLineNo
 PRUint32
 aVersion
-void
+JS
+:
+:
+Value
 *
 aRetValue
 bool
