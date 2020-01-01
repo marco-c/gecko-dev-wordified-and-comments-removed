@@ -1341,7 +1341,7 @@ eScopedDocSheet
 {
 for
 (
-int
+uint32_t
 i
 =
 0
@@ -1529,7 +1529,7 @@ count
 ;
 for
 (
-int32_t
+uint32_t
 i
 =
 0
@@ -4673,7 +4673,7 @@ Length
 ;
 for
 (
-int32_t
+uint32_t
 i
 =
 0
@@ -5470,7 +5470,7 @@ IsElementInStyleScope
 {
 for
 (
-int32_t
+uint32_t
 i
 =
 0
