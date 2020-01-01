@@ -2090,6 +2090,15 @@ AllocPolicy
 (
 rhs
 )
+#
+ifdef
+DEBUG
+entered
+(
+false
+)
+#
+endif
 {
 mLength
 =

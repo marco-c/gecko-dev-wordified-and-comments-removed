@@ -3099,6 +3099,7 @@ getDenseArrayCapacity
 HashSet
 <
 jsid
+JsidHasher
 >
 idSet
 (
@@ -3292,6 +3293,7 @@ continue
 HashSet
 <
 jsid
+JsidHasher
 >
 :
 :

@@ -159,14 +159,8 @@ id
 )
 ;
 }
-template
-<
->
 struct
-DefaultHasher
-<
-jsid
->
+JsidHasher
 {
 typedef
 jsid
