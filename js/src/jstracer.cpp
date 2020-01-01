@@ -61921,7 +61921,7 @@ if
 scope
 -
 >
-branded
+brandedOrHasMethodBarrier
 (
 )
 &
