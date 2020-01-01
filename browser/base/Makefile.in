@@ -580,13 +580,6 @@ MOZ_WIDGET_TOOLKIT
 )
 )
 )
-ifneq
-(
-(
-OS_ARCH
-)
-WINCE
-)
 DEFINES
 +
 =
@@ -594,7 +587,6 @@ DEFINES
 DCONTEXT_COPY_IMAGE_CONTENTS
 =
 1
-endif
 endif
 ifneq
 (

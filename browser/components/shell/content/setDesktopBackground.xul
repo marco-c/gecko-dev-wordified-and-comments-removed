@@ -858,9 +858,6 @@ TILE
 "
 /
 >
-#
-ifndef
-WINCE
 <
 menuitem
 label
@@ -879,8 +876,6 @@ STRETCH
 "
 /
 >
-#
-endif
 <
 /
 menupopup

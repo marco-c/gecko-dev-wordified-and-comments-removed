@@ -63,9 +63,6 @@ h
 #
 endif
 #
-ifndef
-WINCE
-#
 include
 "
 nsProfileMigrator
@@ -170,8 +167,6 @@ nsICabProfileMigrator
 .
 h
 "
-#
-endif
 #
 endif
 #
@@ -260,9 +255,6 @@ Init
 )
 #
 endif
-#
-ifndef
-WINCE
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsDogbertProfileMigrator
@@ -337,8 +329,6 @@ nsICabProfileMigrator
 )
 #
 endif
-#
-endif
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsFeedSniffer
@@ -387,9 +377,6 @@ NS_DEFINE_NAMED_CID
 NS_BROWSER_ABOUT_REDIRECTOR_CID
 )
 ;
-#
-ifndef
-WINCE
 NS_DEFINE_NAMED_CID
 (
 NS_FIREFOX_PROFILEMIGRATOR_CID
@@ -480,8 +467,6 @@ NS_DEFINE_NAMED_CID
 NS_SEAMONKEYPROFILEMIGRATOR_CID
 )
 ;
-#
-endif
 NS_DEFINE_NAMED_CID
 (
 NS_PRIVATE_BROWSING_SERVICE_WRAPPER_CID
@@ -553,9 +538,6 @@ AboutRedirector
 :
 Create
 }
-#
-ifndef
-WINCE
 {
 &
 kNS_FIREFOX_PROFILEMIGRATOR_CID
@@ -670,8 +652,6 @@ false
 NULL
 nsSeamonkeyProfileMigratorConstructor
 }
-#
-endif
 {
 &
 kNS_PRIVATE_BROWSING_SERVICE_WRAPPER_CID
@@ -816,9 +796,6 @@ home
 &
 kNS_BROWSER_ABOUT_REDIRECTOR_CID
 }
-#
-ifndef
-WINCE
 {
 NS_PROFILEMIGRATOR_CONTRACTID
 &
@@ -939,8 +916,6 @@ seamonkey
 &
 kNS_SEAMONKEYPROFILEMIGRATOR_CID
 }
-#
-endif
 {
 NS_PRIVATE_BROWSING_SERVICE_CONTRACTID
 &
