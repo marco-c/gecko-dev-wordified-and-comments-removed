@@ -4,9 +4,3 @@ deleteDatabase
 (
 )
 ;
-ContentPrefTest
-.
-__dirSvc
-=
-null
-;
