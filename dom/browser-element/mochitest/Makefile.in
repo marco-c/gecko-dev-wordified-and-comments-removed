@@ -309,7 +309,7 @@ file_browserElement_SecurityChange
 .
 html
 \
-browserElement_CanGoBack
+browserElement_BackForward
 .
 js
 \
@@ -341,7 +341,7 @@ no
 inproc
 equivalent
 of
-CanGoBack
+BackForward
 ;
 that
 '
@@ -419,7 +419,7 @@ test_browserElement_oop_SecurityChange
 .
 html
 \
-test_browserElement_oop_CanGoBack
+test_browserElement_oop_BackForward
 .
 html
 \
