@@ -1383,6 +1383,10 @@ EventHandlingSuppressed
 )
 ?
 doc
+.
+get
+(
+)
 :
 nsnull
 ;
