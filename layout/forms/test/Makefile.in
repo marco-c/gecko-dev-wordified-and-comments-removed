@@ -554,6 +554,10 @@ test_bug36619
 .
 html
 \
+test_bug620936
+.
+html
+\
 (
 NULL
 )

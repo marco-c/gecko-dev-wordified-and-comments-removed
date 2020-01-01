@@ -4636,7 +4636,11 @@ firstNode
 *
 aPosition
 =
+PR_MIN
+(
 aOffset
+textLength
+)
 ;
 }
 }
