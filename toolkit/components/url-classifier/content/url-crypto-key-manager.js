@@ -1026,6 +1026,8 @@ key
 {
 return
 key
+?
+key
 .
 replace
 (
@@ -1046,6 +1048,9 @@ _
 /
 "
 )
+:
+"
+"
 ;
 }
 PROT_UrlCryptoKeyManager
