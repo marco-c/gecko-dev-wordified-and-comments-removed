@@ -390,9 +390,9 @@ Layer
 *
 aLayer
 const
-gfx3DMatrix
+LayoutDeviceToLayerScale
 &
-aRootTransform
+aResolution
 )
 ;
 bool
