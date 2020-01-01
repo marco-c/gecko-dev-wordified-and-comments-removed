@@ -7345,6 +7345,16 @@ popn
 ;
 frame
 .
+takeReg
+(
+Registers
+:
+:
+ReturnReg
+)
+;
+frame
+.
 syncAndForgetEverything
 (
 )
