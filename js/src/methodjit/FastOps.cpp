@@ -2247,6 +2247,10 @@ lhs
 getValue
 (
 )
+(
+uint32_t
+*
+)
 &
 unsignedL
 )
