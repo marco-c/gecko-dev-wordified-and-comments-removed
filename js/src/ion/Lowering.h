@@ -695,6 +695,14 @@ ins
 )
 ;
 bool
+visitMonitorTypes
+(
+MMonitorTypes
+*
+ins
+)
+;
+bool
 visitArrayLength
 (
 MArrayLength

@@ -355,6 +355,14 @@ lir
 )
 ;
 bool
+visitMonitorTypes
+(
+LMonitorTypes
+*
+lir
+)
+;
+bool
 visitCallNative
 (
 LCallNative

@@ -50,6 +50,7 @@ BailoutKind
 Bailout_Normal
 Bailout_ArgumentCheck
 Bailout_TypeBarrier
+Bailout_Monitor
 Bailout_RecompileCheck
 }
 ;
@@ -58,7 +59,7 @@ const
 uint32
 BAILOUT_KIND_BITS
 =
-2
+3
 ;
 static
 const
@@ -105,9 +106,16 @@ BAILOUT_RETURN_TYPE_BARRIER
 static
 const
 uint32
-BAILOUT_RETURN_RECOMPILE_CHECK
+BAILOUT_RETURN_MONITOR
 =
 4
+;
+static
+const
+uint32
+BAILOUT_RETURN_RECOMPILE_CHECK
+=
+5
 ;
 class
 BailoutClosure

@@ -309,6 +309,11 @@ TypeBarrier
 \
 _
 (
+MonitorTypes
+)
+\
+_
+(
 GetPropertyCache
 )
 \
