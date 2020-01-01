@@ -569,6 +569,17 @@ PNecko
 /
 Services
 remoting
+async
+VisitURI
+(
+URI
+uri
+URI
+referrer
+PRUint32
+flags
+)
+;
 /
 /
 PrefService
