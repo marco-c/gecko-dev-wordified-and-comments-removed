@@ -53,6 +53,7 @@ nsOverflowType
 {
 eVisualOverflow
 eScrollableOverflow
+eOverflowType_LENGTH
 }
 ;
 #
