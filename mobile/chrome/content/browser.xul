@@ -846,7 +846,7 @@ browser
 /
 content
 /
-CanvasBrowser
+WidgetStack
 .
 js
 "
@@ -874,7 +874,7 @@ browser
 /
 content
 /
-WidgetStack
+CanvasBrowser
 .
 js
 "
