@@ -218,6 +218,14 @@ test_sandbox_bindings
 .
 xul
 \
+test_selectAtPoint
+.
+html
+\
+selectAtPoint
+.
+html
+\
 (
 NULL
 )
