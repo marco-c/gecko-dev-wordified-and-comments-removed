@@ -1069,6 +1069,13 @@ FONT_STYLE_OBLIQUE
 =
 0
 ;
+mIsUserFont
+=
+aUserFontData
+!
+=
+nsnull
+;
 mTraits
 =
 (

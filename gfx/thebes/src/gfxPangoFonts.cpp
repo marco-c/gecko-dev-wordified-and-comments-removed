@@ -553,6 +553,10 @@ aProxyEntry
 .
 mStretch
 ;
+mIsUserFont
+=
+PR_TRUE
+;
 }
 void
 AdjustPatternToCSS

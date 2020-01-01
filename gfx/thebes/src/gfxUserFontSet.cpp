@@ -176,6 +176,10 @@ FONT_STYLE_OBLIQUE
 =
 0
 ;
+mIsUserFont
+=
+PR_TRUE
+;
 }
 gfxProxyFontEntry
 :
