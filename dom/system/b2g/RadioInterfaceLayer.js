@@ -91,7 +91,7 @@ DEBUG
 true
 ;
 const
-TELEPHONYWORKER_CID
+RADIOINTERFACELAYER_CID
 =
 Components
 .
@@ -142,11 +142,11 @@ Ci
 nsIAudioManager
 ;
 const
-nsITelephone
+nsIRadioInterfaceLayer
 =
 Ci
 .
-nsITelephone
+nsIRadioInterfaceLayer
 ;
 const
 kSmsReceivedObserverTopic
@@ -205,7 +205,7 @@ RIL
 CALL_STATE_ACTIVE
 :
 return
-nsITelephone
+nsIRadioInterfaceLayer
 .
 CALL_STATE_CONNECTED
 ;
@@ -215,7 +215,7 @@ RIL
 CALL_STATE_HOLDING
 :
 return
-nsITelephone
+nsIRadioInterfaceLayer
 .
 CALL_STATE_HELD
 ;
@@ -225,7 +225,7 @@ RIL
 CALL_STATE_DIALING
 :
 return
-nsITelephone
+nsIRadioInterfaceLayer
 .
 CALL_STATE_DIALING
 ;
@@ -235,7 +235,7 @@ RIL
 CALL_STATE_ALERTING
 :
 return
-nsITelephone
+nsIRadioInterfaceLayer
 .
 CALL_STATE_RINGING
 ;
@@ -245,7 +245,7 @@ RIL
 CALL_STATE_INCOMING
 :
 return
-nsITelephone
+nsIRadioInterfaceLayer
 .
 CALL_STATE_INCOMING
 ;
@@ -255,7 +255,7 @@ RIL
 CALL_STATE_WAITING
 :
 return
-nsITelephone
+nsIRadioInterfaceLayer
 .
 CALL_STATE_HELD
 ;
@@ -477,7 +477,7 @@ nsIDataCallInfo
 }
 ;
 function
-nsTelephonyWorker
+RadioInterfaceLayer
 (
 )
 {
@@ -563,14 +563,14 @@ null
 }
 ;
 }
-nsTelephonyWorker
+RadioInterfaceLayer
 .
 prototype
 =
 {
 classID
 :
-TELEPHONYWORKER_CID
+RADIOINTERFACELAYER_CID
 classInfo
 :
 XPCOMUtils
@@ -580,11 +580,11 @@ generateCI
 {
 classID
 :
-TELEPHONYWORKER_CID
+RADIOINTERFACELAYER_CID
 classDescription
 :
 "
-Telephone
+RadioInterfaceLayer
 "
 interfaces
 :
@@ -594,7 +594,7 @@ Ci
 nsIWorkerHolder
 Ci
 .
-nsITelephone
+nsIRadioInterfaceLayer
 ]
 }
 )
@@ -610,7 +610,7 @@ Ci
 nsIWorkerHolder
 Ci
 .
-nsITelephone
+nsIRadioInterfaceLayer
 ]
 )
 onerror
@@ -940,7 +940,7 @@ state
 )
 {
 case
-nsITelephone
+nsIRadioInterfaceLayer
 .
 CALL_STATE_INCOMING
 :
@@ -969,12 +969,12 @@ PHONE_STATE_RINGTONE
 break
 ;
 case
-nsITelephone
+nsIRadioInterfaceLayer
 .
 CALL_STATE_DIALING
 :
 case
-nsITelephone
+nsIRadioInterfaceLayer
 .
 CALL_STATE_CONNECTED
 :
@@ -1057,7 +1057,7 @@ call
 state
 =
 =
-nsITelephone
+nsIRadioInterfaceLayer
 .
 CALL_STATE_CONNECTED
 )
@@ -1157,7 +1157,7 @@ callStateChanged
 call
 .
 callIndex
-nsITelephone
+nsIRadioInterfaceLayer
 .
 CALL_STATE_DISCONNECTED
 call
@@ -2608,7 +2608,7 @@ XPCOMUtils
 generateNSGetFactory
 (
 [
-nsTelephonyWorker
+RadioInterfaceLayer
 ]
 )
 ;
@@ -2633,8 +2633,7 @@ dump
 -
 *
 -
-TelephonyWorker
-component
+RadioInterfaceLayer
 :
 "
 +

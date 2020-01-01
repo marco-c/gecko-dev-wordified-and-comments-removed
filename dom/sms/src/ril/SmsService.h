@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsITelephone
+nsIRadioInterfaceLayer
 .
 h
 "
@@ -52,7 +52,7 @@ protected
 :
 nsCOMPtr
 <
-nsITelephone
+nsIRadioInterfaceLayer
 >
 mRIL
 ;

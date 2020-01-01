@@ -80,7 +80,7 @@ SystemWorkerManager
 )
 ;
 nsresult
-InitTelephone
+InitRIL
 (
 JSContext
 *
@@ -99,7 +99,7 @@ nsCOMPtr
 <
 nsIWorkerHolder
 >
-mTelephoneWorker
+mRILWorker
 ;
 nsCOMPtr
 <
