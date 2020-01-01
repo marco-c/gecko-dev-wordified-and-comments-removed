@@ -15916,16 +15916,6 @@ deltas
 )
 )
 {
-NS_NOTREACHED
-(
-"
-unexpected
-result
-from
-ResolvePositions
-"
-)
-;
 mPositions
 .
 Clear
