@@ -4568,10 +4568,10 @@ aValue
 ;
 if
 (
+IsExperimentalMobileType
+(
 mType
-=
-=
-NS_FORM_INPUT_NUMBER
+)
 )
 {
 SanitizeValue
@@ -10377,10 +10377,10 @@ NS_BLUR_CONTENT
 {
 if
 (
+IsExperimentalMobileType
+(
 mType
-=
-=
-NS_FORM_INPUT_NUMBER
+)
 )
 {
 nsAutoString
