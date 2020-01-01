@@ -621,6 +621,10 @@ TestTextFormatter
 .
 cpp
 \
+TestCheckedInt
+.
+cpp
+\
 TestTArray
 .
 cpp

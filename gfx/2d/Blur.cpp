@@ -31,8 +31,6 @@ h
 #
 include
 "
-mozilla
-/
 CheckedInt
 .
 h
@@ -149,11 +147,11 @@ aRows
 return
 ;
 }
-uint32_t
+PRUint32
 reciprocal
 =
 (
-uint64_t
+PRUint64
 (
 1
 )
@@ -434,7 +432,7 @@ x
 ]
 =
 (
-uint64_t
+PRUint64
 (
 alphaSum
 )
@@ -551,11 +549,11 @@ aRows
 return
 ;
 }
-uint32_t
+PRUint32
 reciprocal
 =
 (
-uint64_t
+PRUint64
 (
 1
 )
@@ -836,7 +834,7 @@ x
 ]
 =
 (
-uint64_t
+PRUint64
 (
 alphaSum
 )
@@ -1865,7 +1863,7 @@ if
 (
 stride
 .
-isValid
+valid
 (
 )
 )
@@ -1906,7 +1904,7 @@ if
 (
 size
 .
-isValid
+valid
 (
 )
 )

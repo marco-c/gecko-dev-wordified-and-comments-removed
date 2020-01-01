@@ -778,7 +778,7 @@ if
 !
 xLimit
 .
-isValid
+valid
 (
 )
 |
@@ -802,7 +802,7 @@ mStride
 !
 yLimit
 .
-isValid
+valid
 (
 )
 |
@@ -1822,7 +1822,7 @@ if
 !
 startFrame
 .
-isValid
+valid
 (
 )
 |
@@ -1830,7 +1830,7 @@ isValid
 !
 targetFrame
 .
-isValid
+valid
 (
 )
 )
@@ -2094,7 +2094,7 @@ if
 !
 duration
 .
-isValid
+valid
 (
 )
 )
