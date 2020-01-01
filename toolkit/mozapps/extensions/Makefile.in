@@ -122,7 +122,7 @@ DEFINES
 -
 DMOZ_EXTENSIONS_DB_SCHEMA
 =
-15
+14
 #
 Additional
 debugging
