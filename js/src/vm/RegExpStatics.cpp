@@ -331,14 +331,6 @@ RegExpRunStatus_Error
 return
 false
 ;
-JS_ASSERT
-(
-status
-=
-=
-RegExpRunStatus_Success
-)
-;
 pendingLazyEvaluation
 =
 false
