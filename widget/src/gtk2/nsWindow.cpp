@@ -28110,6 +28110,12 @@ mode
 =
 HILDON_GTK_INPUT_MODE_INVISIBLE
 ;
+mode
+&
+=
+~
+HILDON_GTK_INPUT_MODE_AUTOCAP
+;
 g_object_set
 (
 G_OBJECT
