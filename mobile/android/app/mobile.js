@@ -4114,7 +4114,7 @@ app
 privacyURL
 "
 "
-http
+https
 :
 /
 /
@@ -4124,12 +4124,13 @@ mozilla
 .
 org
 /
-%
-LOCALE
-%
+legal
 /
 privacy
 /
+firefox
+.
+html
 "
 )
 ;
