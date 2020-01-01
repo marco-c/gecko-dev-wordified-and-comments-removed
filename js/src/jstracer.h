@@ -1483,6 +1483,10 @@ nanojit
 :
 SideExit
 {
+JSScript
+*
+script
+;
 jsbytecode
 *
 pc
