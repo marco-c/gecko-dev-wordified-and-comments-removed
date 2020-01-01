@@ -3291,8 +3291,6 @@ certList
 )
 ;
 }
-else
-{
 nsNSSSocketInfo
 *
 infoObject
@@ -3364,7 +3362,6 @@ nsNSSCertificate
 serverCert
 )
 ;
-}
 }
 }
 return
