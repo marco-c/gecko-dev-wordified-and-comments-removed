@@ -849,7 +849,7 @@ this
 .
 _tabbrowser
 .
-mTabs
+tabs
 ;
 for
 (
@@ -1057,7 +1057,7 @@ this
 .
 _tabbrowser
 .
-mTabs
+tabs
 ;
 return
 tabs

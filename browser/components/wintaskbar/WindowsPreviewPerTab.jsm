@@ -1610,7 +1610,7 @@ this
 .
 tabbrowser
 .
-mTabs
+tabs
 ;
 for
 (
@@ -1695,7 +1695,7 @@ this
 .
 tabbrowser
 .
-mTabs
+tabs
 ;
 for
 (
