@@ -3221,7 +3221,7 @@ hasImacropc
 )
 )
 return
-false
+NULL
 ;
 JSScript
 *

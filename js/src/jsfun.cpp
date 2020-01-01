@@ -5274,7 +5274,7 @@ if
 callobj
 )
 return
-false
+NULL
 ;
 callobj
 -
@@ -12719,7 +12719,7 @@ funobj
 )
 )
 return
-false
+NULL
 ;
 shape
 =

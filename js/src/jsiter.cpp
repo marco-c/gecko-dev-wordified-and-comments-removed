@@ -2106,7 +2106,7 @@ if
 obj
 )
 return
-false
+NULL
 ;
 EmptyShape
 *

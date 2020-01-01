@@ -696,7 +696,6 @@ JSVAL_PAYLOAD_MASK
 )
 ;
 asm
-volatile
 (
 "
 .
@@ -947,7 +946,6 @@ n
 )
 ;
 asm
-volatile
 (
 "
 .
@@ -1109,7 +1107,6 @@ n
 )
 ;
 asm
-volatile
 (
 "
 .
@@ -1338,7 +1335,6 @@ fp
 )
 ;
 asm
-volatile
 (
 "
 .
@@ -1542,7 +1538,6 @@ n
 )
 ;
 asm
-volatile
 (
 "
 .
@@ -1689,7 +1684,6 @@ n
 )
 ;
 asm
-volatile
 (
 "
 .
@@ -2117,7 +2111,6 @@ FUNCTION_HEADER_EXTRA
 #
 endif
 asm
-volatile
 (
 "
 .
@@ -2286,7 +2279,6 @@ n
 )
 ;
 asm
-volatile
 (
 "
 .
@@ -2409,7 +2401,6 @@ n
 )
 ;
 asm
-volatile
 (
 "
 .
@@ -2552,7 +2543,6 @@ n
 )
 ;
 asm
-volatile
 (
 "
 .
