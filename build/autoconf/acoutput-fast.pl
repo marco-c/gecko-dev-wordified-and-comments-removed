@@ -923,7 +923,7 @@ ac_file_in
 )
 or
 (
-warn
+die
 "
 can
 '
@@ -939,8 +939,6 @@ directory
 \
 n
 "
-and
-next
 )
 ;
 open
