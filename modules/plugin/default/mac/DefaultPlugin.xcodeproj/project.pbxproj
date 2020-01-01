@@ -1459,9 +1459,8 @@ NO
 ;
 SDKROOT
 =
-macosx10
-.
-5
+"
+"
 ;
 WRAPPER_EXTENSION
 =
@@ -1544,9 +1543,8 @@ NO
 ;
 SDKROOT
 =
-macosx10
-.
-5
+"
+"
 ;
 SEPARATE_SYMBOL_EDIT
 =
