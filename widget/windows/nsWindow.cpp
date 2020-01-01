@@ -30251,9 +30251,6 @@ NOTIFY_IME_OF_BLUR
 )
 ;
 }
-#
-ifdef
-NS_ENABLE_TSF
 NS_IMETHODIMP
 nsWindow
 :
@@ -30269,10 +30266,10 @@ aNewEnd
 )
 {
 return
-nsTextStore
+IMEHandler
 :
 :
-OnTextChange
+NotifyIMEOfTextChange
 (
 aStart
 aOldEnd
@@ -30280,8 +30277,6 @@ aNewEnd
 )
 ;
 }
-#
-endif
 NS_IMETHODIMP
 nsWindow
 :
