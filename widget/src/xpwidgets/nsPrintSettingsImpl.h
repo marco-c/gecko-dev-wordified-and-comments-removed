@@ -144,6 +144,9 @@ mSession
 nsMargin
 mMargin
 ;
+nsMargin
+mEdge
+;
 PRInt32
 mPrintOptions
 ;
