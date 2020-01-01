@@ -1088,15 +1088,6 @@ owner
 =
 do_QueryInterface
 (
-doc
-?
-doc
--
->
-NodePrincipal
-(
-)
-:
 secMan
 -
 >
