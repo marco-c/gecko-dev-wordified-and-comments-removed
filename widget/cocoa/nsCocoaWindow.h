@@ -1205,11 +1205,6 @@ GetMenuBar
 (
 )
 ;
-NS_IMETHOD
-ResetInputState
-(
-)
-;
 NS_IMETHOD_
 (
 void
