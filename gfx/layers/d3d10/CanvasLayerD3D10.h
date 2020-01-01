@@ -165,6 +165,9 @@ mNeedsYFlip
 PRPackedBool
 mIsD2DTexture
 ;
+PRPackedBool
+mUsingSharedTexture
+;
 }
 ;
 }
