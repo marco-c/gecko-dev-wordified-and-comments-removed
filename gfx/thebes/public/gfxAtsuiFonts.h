@@ -372,6 +372,13 @@ ATSUFontID
 fid
 )
 ;
+PRBool
+HasFont
+(
+ATSUFontID
+fid
+)
+;
 protected
 :
 static
