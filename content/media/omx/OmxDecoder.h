@@ -675,7 +675,10 @@ aAudioSampleRate
 )
 ;
 bool
-mPaused
+mAudioPaused
+;
+bool
+mVideoPaused
 ;
 public
 :
