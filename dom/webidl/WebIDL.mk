@@ -463,6 +463,10 @@ SVGPreserveAspectRatio
 .
 webidl
 \
+SVGStopElement
+.
+webidl
+\
 SVGTitleElement
 .
 webidl
