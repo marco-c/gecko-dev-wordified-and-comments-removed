@@ -6612,7 +6612,6 @@ if
 flavor
 )
 return
-false
 ;
 let
 data
