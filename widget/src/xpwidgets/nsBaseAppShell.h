@@ -157,6 +157,9 @@ mRunWasCalled
 PRPackedBool
 mExiting
 ;
+PRPackedBool
+mBlockNativeEvent
+;
 }
 ;
 #
