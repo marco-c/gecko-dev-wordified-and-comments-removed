@@ -2405,8 +2405,10 @@ char
 *
 linebytes
 ;
-JSBool
+bool
 warning
+;
+JSBool
 ok
 ;
 JSTokenPos
@@ -2554,7 +2556,7 @@ ok
 {
 warning
 =
-JS_FALSE
+false
 ;
 goto
 out
@@ -2686,7 +2688,7 @@ linechars
 {
 warning
 =
-JS_FALSE
+false
 ;
 goto
 out
@@ -2733,7 +2735,7 @@ linebytes
 {
 warning
 =
-JS_FALSE
+false
 ;
 goto
 out

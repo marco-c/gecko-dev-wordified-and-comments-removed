@@ -460,7 +460,7 @@ js
 class
 TraceRecorder
 ;
-class
+struct
 TraceMonitor
 ;
 class

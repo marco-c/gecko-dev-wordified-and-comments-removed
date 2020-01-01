@@ -938,9 +938,11 @@ JSObject
 *
 proto
 =
-STOBJ_GET_PROTO
-(
 obj
+-
+>
+getProto
+(
 )
 ;
 if
@@ -1578,9 +1580,12 @@ x
 {
 val
 =
+uint8
+(
 js_TypedArray_uint8_clamp_double
 (
 x
+)
 )
 ;
 return
@@ -2090,9 +2095,11 @@ JSObject
 *
 proto
 =
-STOBJ_GET_PROTO
-(
 obj
+-
+>
+getProto
+(
 )
 ;
 if
@@ -6298,6 +6305,8 @@ TypedArray
 TYPE_INT8
 :
 return
+!
+!
 Int8Array
 :
 :
@@ -6320,6 +6329,8 @@ TypedArray
 TYPE_UINT8
 :
 return
+!
+!
 Uint8Array
 :
 :
@@ -6342,6 +6353,8 @@ TypedArray
 TYPE_INT16
 :
 return
+!
+!
 Int16Array
 :
 :
@@ -6364,6 +6377,8 @@ TypedArray
 TYPE_UINT16
 :
 return
+!
+!
 Uint16Array
 :
 :
@@ -6386,6 +6401,8 @@ TypedArray
 TYPE_INT32
 :
 return
+!
+!
 Int32Array
 :
 :
@@ -6408,6 +6425,8 @@ TypedArray
 TYPE_UINT32
 :
 return
+!
+!
 Uint32Array
 :
 :
@@ -6430,6 +6449,8 @@ TypedArray
 TYPE_FLOAT32
 :
 return
+!
+!
 Float32Array
 :
 :
@@ -6452,6 +6473,8 @@ TypedArray
 TYPE_FLOAT64
 :
 return
+!
+!
 Float64Array
 :
 :
@@ -6474,6 +6497,8 @@ TypedArray
 TYPE_UINT8_CLAMPED
 :
 return
+!
+!
 Uint8ClampedArray
 :
 :

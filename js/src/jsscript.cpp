@@ -5075,10 +5075,13 @@ script
 >
 staticLevel
 =
+uint16
+(
 cg
 -
 >
 staticLevel
+)
 ;
 script
 -
