@@ -11,13 +11,6 @@ nsSVGElement
 .
 h
 "
-#
-include
-"
-nsIDOMSVGMetadataElement
-.
-h
-"
 nsresult
 NS_NewSVGMetadataElement
 (
@@ -49,7 +42,7 @@ MOZ_FINAL
 public
 SVGMetadataElementBase
 public
-nsIDOMSVGMetadataElement
+nsIDOMSVGElement
 {
 protected
 :
@@ -106,7 +99,6 @@ Init
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGMETADATAELEMENT
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 NS_FORWARD_NSIDOMSVGELEMENT
@@ -128,13 +120,6 @@ nsINode
 aResult
 )
 const
-;
-virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
 ;
 virtual
 nsIDOMNode
