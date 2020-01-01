@@ -532,6 +532,10 @@ test_popup_blocker_chrome
 .
 xul
 \
+test_moving_xhr
+.
+xul
+\
 (
 NULL
 )

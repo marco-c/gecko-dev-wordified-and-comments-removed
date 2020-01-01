@@ -528,6 +528,10 @@ test_focusrings
 .
 xul
 \
+file_moving_xhr
+.
+html
+\
 (
 NULL
 )
