@@ -383,7 +383,7 @@ param
 "
 "
         
-if
+while
 isinstance
 (
 type
