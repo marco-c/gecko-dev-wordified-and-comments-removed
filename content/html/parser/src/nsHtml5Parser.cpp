@@ -1561,9 +1561,14 @@ CancelParsingEvents
 (
 )
 ;
+#
+ifdef
+DEBUG
 PRBool
 ready
 =
+#
+endif
 ReadyToCallDidBuildModelImpl
 (
 PR_TRUE
