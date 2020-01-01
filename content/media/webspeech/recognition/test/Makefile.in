@@ -130,6 +130,10 @@ test_preference_enable
 .
 html
 \
+test_nested_eventloop
+.
+html
+\
 hello
 .
 ogg
