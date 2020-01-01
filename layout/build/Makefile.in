@@ -2506,6 +2506,16 @@ content
 /
 src
 \
+-
+I
+(
+topsrcdir
+)
+/
+extensions
+/
+cookie
+\
 (
 NULL
 )

@@ -257,6 +257,10 @@ test_permissionmanager_app_isolation
 .
 html
 \
+test_app_uninstall
+.
+html
+\
 (
 NULL
 )
