@@ -2733,7 +2733,7 @@ nsFrameList
 *
 list
 =
-GetFloatContinuations
+GetPushedFloats
 (
 )
 ;
@@ -2842,7 +2842,7 @@ NS_CONTAINER_LIST_COUNT_INCL_OC
 )
 #
 define
-NS_BLOCK_FRAME_FLOAT_CONTINUATIONS_LIST_INDEX
+NS_BLOCK_FRAME_PUSHED_FLOATS_LIST_INDEX
 (
 NS_CONTAINER_LIST_COUNT_INCL_OC
 +
@@ -2917,7 +2917,7 @@ nsGkAtoms
 absoluteList
 ;
 case
-NS_BLOCK_FRAME_FLOAT_CONTINUATIONS_LIST_INDEX
+NS_BLOCK_FRAME_PUSHED_FLOATS_LIST_INDEX
 :
 return
 nsGkAtoms
@@ -4891,7 +4891,7 @@ mOverflowTracker
 &
 tracker
 ;
-DrainFloatContinuations
+DrainPushedFloats
 (
 state
 )
@@ -4906,7 +4906,7 @@ NS_FRAME_COMPLETE
 ;
 rv
 =
-ReflowFloatContinuations
+ReflowPushedFloats
 (
 state
 fcBounds
@@ -5044,7 +5044,7 @@ GetOverflowLines
 )
 |
 |
-GetFloatContinuations
+GetPushedFloats
 (
 )
 )
@@ -8613,7 +8613,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_IS_FLOAT_CONTINUATION
+NS_FRAME_IS_PUSHED_FLOAT
 )
 ;
 PRBool
@@ -17889,7 +17889,7 @@ SetSplitRightFloatAcrossBreak
 }
 aState
 .
-AppendFloatContinuation
+AppendPushedFloat
 (
 nextInFlow
 )
@@ -18008,7 +18008,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_IS_FLOAT_CONTINUATION
+NS_FRAME_IS_PUSHED_FLOAT
 )
 "
 float
@@ -20298,7 +20298,7 @@ void
 nsBlockFrame
 :
 :
-DrainFloatContinuations
+DrainPushedFloats
 (
 nsBlockReflowState
 &
@@ -20334,7 +20334,7 @@ list
 prevBlock
 -
 >
-RemoveFloatContinuations
+RemovePushedFloats
 (
 )
 ;
@@ -20956,7 +20956,7 @@ nsFrameList
 nsBlockFrame
 :
 :
-GetFloatContinuations
+GetPushedFloats
 (
 )
 const
@@ -20969,7 +20969,7 @@ GetStateBits
 (
 )
 &
-NS_BLOCK_HAS_FLOAT_CONTINUATIONS
+NS_BLOCK_HAS_PUSHED_FLOATS
 )
 )
 {
@@ -20993,7 +20993,7 @@ Properties
 .
 Get
 (
-FloatContinuationProperty
+PushedFloatProperty
 (
 )
 )
@@ -21025,7 +21025,7 @@ nsFrameList
 nsBlockFrame
 :
 :
-EnsureFloatContinuations
+EnsurePushedFloats
 (
 )
 {
@@ -21033,7 +21033,7 @@ nsFrameList
 *
 result
 =
-GetFloatContinuations
+GetPushedFloats
 (
 )
 ;
@@ -21055,7 +21055,7 @@ Properties
 .
 Set
 (
-FloatContinuationProperty
+PushedFloatProperty
 (
 )
 result
@@ -21063,7 +21063,7 @@ result
 ;
 AddStateBits
 (
-NS_BLOCK_HAS_FLOAT_CONTINUATIONS
+NS_BLOCK_HAS_PUSHED_FLOATS
 )
 ;
 return
@@ -21075,7 +21075,7 @@ nsFrameList
 nsBlockFrame
 :
 :
-RemoveFloatContinuations
+RemovePushedFloats
 (
 )
 {
@@ -21087,7 +21087,7 @@ GetStateBits
 (
 )
 &
-NS_BLOCK_HAS_FLOAT_CONTINUATIONS
+NS_BLOCK_HAS_PUSHED_FLOATS
 )
 )
 {
@@ -21111,7 +21111,7 @@ Properties
 .
 Remove
 (
-FloatContinuationProperty
+PushedFloatProperty
 (
 )
 )
@@ -21119,7 +21119,7 @@ FloatContinuationProperty
 ;
 RemoveStateBits
 (
-NS_BLOCK_HAS_FLOAT_CONTINUATIONS
+NS_BLOCK_HAS_PUSHED_FLOATS
 )
 ;
 NS_ASSERTION
@@ -22684,8 +22684,8 @@ not
 be
 called
 on
-float
-continuations
+pushed
+floats
 .
 "
 )
@@ -25059,7 +25059,7 @@ nsFrameList
 *
 list
 =
-GetFloatContinuations
+GetPushedFloats
 (
 )
 ;
@@ -26377,7 +26377,7 @@ nsresult
 nsBlockFrame
 :
 :
-ReflowFloatContinuations
+ReflowPushedFloats
 (
 nsBlockReflowState
 &
@@ -26420,7 +26420,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_IS_FLOAT_CONTINUATION
+NS_FRAME_IS_PUSHED_FLOAT
 )
 ;
 f
@@ -28192,7 +28192,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_IS_FLOAT_CONTINUATION
+NS_FRAME_IS_PUSHED_FLOAT
 )
 BuildDisplayListForChild
 (
@@ -30946,7 +30946,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_IS_FLOAT_CONTINUATION
+NS_FRAME_IS_PUSHED_FLOAT
 )
 {
 if
@@ -30966,7 +30966,7 @@ nsFrameList
 *
 list
 =
-GetFloatContinuations
+GetPushedFloats
 (
 )
 ;
@@ -31288,7 +31288,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_IS_FLOAT_CONTINUATION
+NS_FRAME_IS_PUSHED_FLOAT
 )
 continue
 ;

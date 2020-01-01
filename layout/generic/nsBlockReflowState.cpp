@@ -125,7 +125,7 @@ mReflowState
 (
 aReflowState
 )
-mFloatContinuations
+mPushedFloats
 (
 nsnull
 )
@@ -1669,7 +1669,7 @@ void
 nsBlockReflowState
 :
 :
-SetupFloatContinuationList
+SetupPushedFloatList
 (
 )
 {
@@ -1683,7 +1683,7 @@ BRS_PROPTABLE_FLOATCLIST
 =
 =
 !
-mFloatContinuations
+mPushedFloats
 "
 flag
 mismatch
@@ -1699,12 +1699,12 @@ BRS_PROPTABLE_FLOATCLIST
 )
 )
 {
-mFloatContinuations
+mPushedFloats
 =
 mBlock
 -
 >
-EnsureFloatContinuations
+EnsurePushedFloats
 (
 )
 ;
@@ -2240,7 +2240,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_IS_FLOAT_CONTINUATION
+NS_FRAME_IS_PUSHED_FLOAT
 )
 "
 float
@@ -2256,8 +2256,8 @@ marked
 as
 "
 "
+pushed
 float
-continuation
 "
 )
 ;
@@ -2270,7 +2270,7 @@ GetStateBits
 (
 )
 &
-NS_FRAME_IS_FLOAT_CONTINUATION
+NS_FRAME_IS_PUSHED_FLOAT
 )
 {
 nsBlockFrame
@@ -2305,7 +2305,7 @@ aFloat
 >
 RemoveStateBits
 (
-NS_FRAME_IS_FLOAT_CONTINUATION
+NS_FRAME_IS_PUSHED_FLOAT
 )
 ;
 mBlock
@@ -3892,7 +3892,7 @@ succeed
 "
 )
 ;
-AppendFloatContinuation
+AppendPushedFloat
 (
 aFloat
 )
