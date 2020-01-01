@@ -173,7 +173,7 @@ flex
 >
 <
 hbox
-id
+class
 =
 "
 controlBar
@@ -181,7 +181,7 @@ controlBar
 >
 <
 image
-id
+class
 =
 "
 playButton
@@ -215,7 +215,7 @@ togglePause
 >
 <
 box
-id
+class
 =
 "
 controlsMiddle
@@ -229,7 +229,7 @@ flex
 >
 <
 image
-id
+class
 =
 "
 muteButton
@@ -1506,7 +1506,7 @@ getAnonymousElementByAttribute
 (
 this
 "
-id
+class
 "
 "
 controlBar
@@ -1525,7 +1525,7 @@ getAnonymousElementByAttribute
 (
 this
 "
-id
+class
 "
 "
 playButton
@@ -1544,7 +1544,7 @@ getAnonymousElementByAttribute
 (
 this
 "
-id
+class
 "
 "
 muteButton

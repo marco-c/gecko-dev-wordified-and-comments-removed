@@ -26,7 +26,7 @@ xul
 "
 )
 ;
-#
+.
 controlBar
 {
 height
@@ -41,7 +41,7 @@ color
 656363
 ;
 }
-#
+.
 playButton
 {
 list
@@ -83,7 +83,7 @@ rect
 )
 ;
 }
-#
+.
 playButton
 [
 paused
@@ -109,7 +109,7 @@ rect
 )
 ;
 }
-#
+.
 muteButton
 {
 list
@@ -151,7 +151,7 @@ rect
 )
 ;
 }
-#
+.
 muteButton
 [
 muted
