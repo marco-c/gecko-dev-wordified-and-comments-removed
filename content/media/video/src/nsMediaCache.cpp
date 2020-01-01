@@ -4268,7 +4268,7 @@ stream
 ;
 enableReading
 =
-PR_FALSE
+PR_TRUE
 ;
 }
 else

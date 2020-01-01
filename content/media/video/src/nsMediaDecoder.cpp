@@ -597,14 +597,8 @@ STALL_MS
 mElement
 -
 >
-DispatchAsyncProgressEvent
+DownloadStalled
 (
-NS_LITERAL_STRING
-(
-"
-stalled
-"
-)
 )
 ;
 mDataTime
