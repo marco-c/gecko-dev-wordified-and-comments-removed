@@ -324,9 +324,6 @@ cr
 GdkRectangle
 *
 rect
-GdkRectangle
-*
-cliprect
 GtkWidgetState
 *
 state
