@@ -178,7 +178,13 @@ condition
 +
 "
 was
-false
+"
++
+!
+!
+condition
++
+"
 expected
 true
 "
