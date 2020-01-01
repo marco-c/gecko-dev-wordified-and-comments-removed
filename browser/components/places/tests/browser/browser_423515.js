@@ -181,7 +181,7 @@ is
 (
 PlacesControllerDragHelper
 .
-canMoveContainerNode
+canMoveNode
 (
 rootNode
 .
@@ -423,7 +423,7 @@ is
 (
 PlacesControllerDragHelper
 .
-canMoveContainerNode
+canMoveNode
 (
 shortcutNode
 )
@@ -614,7 +614,7 @@ is
 (
 PlacesControllerDragHelper
 .
-canMoveContainerNode
+canMoveNode
 (
 queryNode
 )
@@ -879,7 +879,7 @@ is
 (
 PlacesControllerDragHelper
 .
-canMoveContainerNode
+canMoveNode
 (
 node
 )
@@ -984,7 +984,7 @@ is
 (
 PlacesControllerDragHelper
 .
-canMoveContainerNode
+canMoveNode
 (
 shortcutNode
 )
@@ -1138,7 +1138,7 @@ is
 (
 PlacesControllerDragHelper
 .
-canMoveContainerNode
+canMoveNode
 (
 tagNode
 )
@@ -1275,7 +1275,7 @@ is
 (
 PlacesControllerDragHelper
 .
-canMoveContainerNode
+canMoveNode
 (
 readOnlyFolder
 )
@@ -1345,7 +1345,7 @@ is
 (
 PlacesControllerDragHelper
 .
-canMoveContainerNode
+canMoveNode
 (
 childFolder
 )
