@@ -199,6 +199,10 @@ MemoryReporting
 .
 h
 \
+MSIntTypes
+.
+h
+\
 Move
 .
 h
