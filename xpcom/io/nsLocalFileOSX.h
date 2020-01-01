@@ -129,10 +129,6 @@ GetFSRefInternal
 FSRef
 &
 aFSSpec
-PRBool
-bForceUpdateCache
-=
-PR_TRUE
 )
 ;
 nsresult
@@ -149,8 +145,6 @@ EqualsInternal
 nsISupports
 *
 inFile
-PRBool
-aUpdateCache
 PRBool
 *
 _retval
@@ -209,12 +203,6 @@ mBaseRef
 ;
 CFURLRef
 mTargetRef
-;
-FSRef
-mCachedFSRef
-;
-PRPackedBool
-mCachedFSRefValid
 ;
 PRPackedBool
 mFollowLinks
