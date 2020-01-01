@@ -617,6 +617,14 @@ if
 aNotify
 &
 &
+IsInDoc
+(
+)
+&
+&
+mIsDoneAddingChildren
+&
+&
 aNameSpaceID
 =
 =
