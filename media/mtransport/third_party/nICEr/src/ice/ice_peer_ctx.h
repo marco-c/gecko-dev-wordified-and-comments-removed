@@ -62,6 +62,10 @@ active_streams
 int
 waiting_pairs
 ;
+void
+*
+done_cb_timer
+;
 STAILQ_ENTRY
 (
 nr_ice_peer_ctx_
