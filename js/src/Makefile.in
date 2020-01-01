@@ -4119,6 +4119,16 @@ merge
 time
 .
 endif
+ifndef
+MOZ_ASAN
+JITTESTPARAMS
+=
+"
+-
+-
+valgrind
+"
+endif
 check
 -
 jit
@@ -4149,9 +4159,6 @@ jit_test
 .
 py
 \
--
--
-valgrind
 -
 -
 no

@@ -2577,7 +2577,12 @@ copyFlags
 nsIContentViewerEdit
 :
 :
-COPY_IMAGE_ALL
+COPY_IMAGE_DATA
+|
+nsIContentViewerEdit
+:
+:
+COPY_IMAGE_HTML
 ;
 if
 (

@@ -5814,12 +5814,8 @@ pf
 (
 JSContext
 *
-const
-Value
-&
-const
-Value
-&
+HandleValue
+HandleValue
 Value
 *
 )
@@ -14724,8 +14720,7 @@ pf
 JSContext
 *
 size_t
-JSObject
-*
+HandleObject
 )
 ;
 static

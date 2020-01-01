@@ -339,11 +339,6 @@ JSObject
 outObject
 )
 ;
-nsresult
-DefineJavaProperties
-(
-)
-;
 bool
 ShouldCache
 (

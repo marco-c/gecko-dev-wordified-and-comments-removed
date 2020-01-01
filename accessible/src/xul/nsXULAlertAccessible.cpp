@@ -88,13 +88,13 @@ states
 ALERT
 ;
 }
-NS_IMETHODIMP
+ENameValueFlag
 nsXULAlertAccessible
 :
 :
-GetName
+Name
 (
-nsAString
+nsString
 &
 aName
 )
@@ -106,7 +106,7 @@ Truncate
 )
 ;
 return
-NS_OK
+eNameOK
 ;
 }
 bool

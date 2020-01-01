@@ -311,7 +311,13 @@ fp
 scopeChain
 (
 )
+RootedVarPropertyName
+(
+f
+.
+cx
 name
+)
 )
 ;
 if

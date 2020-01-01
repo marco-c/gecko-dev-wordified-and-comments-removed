@@ -332,6 +332,9 @@ mSubRequestsBrokenSecurity
 PRInt32
 mSubRequestsNoSecurity
 ;
+bool
+mRestoreSubrequests
+;
 #
 ifdef
 DEBUG

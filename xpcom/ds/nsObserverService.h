@@ -91,6 +91,11 @@ void
 aInstancePtr
 )
 ;
+NS_IMETHOD
+UnmarkGrayStrongObservers
+(
+)
+;
 private
 :
 ~

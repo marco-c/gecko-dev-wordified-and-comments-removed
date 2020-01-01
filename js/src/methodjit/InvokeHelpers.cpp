@@ -249,15 +249,11 @@ script
 if
 (
 !
-JSScript
-:
-:
-isValidOffset
-(
 script
 -
 >
-trynotesOffset
+hasTrynotes
+(
 )
 )
 return

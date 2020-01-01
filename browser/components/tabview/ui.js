@@ -170,6 +170,12 @@ init
 (
 )
 ;
+Telemetry
+.
+init
+(
+)
+;
 this
 .
 _currentTab
@@ -849,6 +855,12 @@ uninit
 )
 ;
 Storage
+.
+uninit
+(
+)
+;
+Telemetry
 .
 uninit
 (

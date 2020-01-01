@@ -224,6 +224,17 @@ MOZ_OVERRIDE
 endif
 protected
 :
+nsresult
+SetCanEnableCapability
+(
+const
+char
+*
+capability
+PRInt16
+canEnable
+)
+;
 nsTArray
 <
 nsAutoPtr

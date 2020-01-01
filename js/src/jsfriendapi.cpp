@@ -615,8 +615,7 @@ DefineHelpProperty
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 const
 char
@@ -768,8 +767,12 @@ atom
 return
 false
 ;
-JSFunction
-*
+RootedVarFunction
+fun
+(
+cx
+)
+;
 fun
 =
 js_DefineFunction

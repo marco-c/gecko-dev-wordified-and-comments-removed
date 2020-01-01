@@ -4577,8 +4577,7 @@ JSContext
 cx
 size_t
 cacheIndex
-JSObject
-*
+HandleObject
 scopeChain
 )
 {
@@ -4612,8 +4611,7 @@ toBindName
 (
 )
 ;
-PropertyName
-*
+HandlePropertyName
 name
 =
 cache

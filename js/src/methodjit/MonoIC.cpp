@@ -6153,10 +6153,10 @@ false
 )
 ;
 }
-JSObject
-*
+RootedVarObject
 aobj
-=
+(
+cx
 &
 args
 [
@@ -6165,6 +6165,7 @@ args
 .
 toObject
 (
+)
 )
 ;
 uint32_t

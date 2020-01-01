@@ -324,6 +324,15 @@ nsCacheStoragePolicy
 policy
 )
 ;
+nsresult
+GetOfflineDevice
+(
+nsOfflineCacheDevice
+*
+*
+aDevice
+)
+;
 static
 void
 ReleaseObject_Locked

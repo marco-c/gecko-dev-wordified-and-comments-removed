@@ -441,9 +441,6 @@ class
 nsGlobalWindow
 ;
 class
-nsDummyJavaPluginOwner
-;
-class
 PostMessageEvent
 ;
 class
@@ -1573,11 +1570,6 @@ NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 nsGlobalWindow
 nsIScriptGlobalObject
 )
-void
-InitJavaProperties
-(
-)
-;
 virtual
 NS_HIDDEN_
 (
@@ -2755,11 +2747,6 @@ mIsFrozen
 1
 ;
 bool
-mDidInitJavaProperties
-:
-1
-;
-bool
 mFullScreen
 :
 1
@@ -3023,12 +3010,6 @@ nsRefPtr
 nsHistory
 >
 mHistory
-;
-nsRefPtr
-<
-nsDummyJavaPluginOwner
->
-mDummyJavaPluginOwner
 ;
 nsCOMPtr
 <
