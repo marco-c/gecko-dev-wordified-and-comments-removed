@@ -653,8 +653,6 @@ NULL
 )
 ifdef
 BUILD_CTYPES
-ifndef
-_MSC_VER
 tier_platform_staticdirs
 +
 =
@@ -668,7 +666,6 @@ libffi
 (
 NULL
 )
-endif
 endif
 ifdef
 MOZ_ENABLE_GTK2
