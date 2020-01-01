@@ -1443,8 +1443,14 @@ type
 =
 JSTYPE_XML
 )
+{
+ok
+=
+JS_FALSE
+;
 break
 ;
+}
 JSString
 *
 s

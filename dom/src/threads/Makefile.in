@@ -469,6 +469,8 @@ string
 \
 thebes
 \
+uconv
+\
 widget
 \
 xpcom
@@ -542,6 +544,18 @@ dom
 src
 /
 base
+\
+-
+I
+(
+topsrcdir
+)
+/
+dom
+/
+src
+/
+json
 \
 -
 I
