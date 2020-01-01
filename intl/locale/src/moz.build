@@ -215,3 +215,6 @@ PluralForm
 jsm
 '
 ]
+LIBXUL_LIBRARY
+=
+True

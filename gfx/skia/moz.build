@@ -3391,3 +3391,6 @@ LIBRARY_NAME
 '
 skia
 '
+LIBXUL_LIBRARY
+=
+True

@@ -1183,3 +1183,6 @@ atomicops_internals_mutex
 cc
 '
 ]
+LIBXUL_LIBRARY
+=
+True

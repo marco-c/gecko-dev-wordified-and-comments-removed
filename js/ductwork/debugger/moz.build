@@ -145,3 +145,6 @@ jsdebugger
 jsm
 '
 ]
+LIBXUL_LIBRARY
+=
+True

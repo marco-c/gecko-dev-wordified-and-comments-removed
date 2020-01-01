@@ -118,3 +118,6 @@ LIBRARY_NAME
 '
 strres_s
 '
+LIBXUL_LIBRARY
+=
+True

@@ -98,3 +98,6 @@ Nfc
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True

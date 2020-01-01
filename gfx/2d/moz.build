@@ -558,3 +558,6 @@ QuartzSupport
 mm
 '
 ]
+LIBXUL_LIBRARY
+=
+True

@@ -123,3 +123,6 @@ LIBRARY_NAME
 '
 hyphenation_s
 '
+LIBXUL_LIBRARY
+=
+True

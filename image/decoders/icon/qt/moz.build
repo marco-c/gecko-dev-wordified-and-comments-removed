@@ -141,3 +141,6 @@ LIBRARY_NAME
 '
 imgiconqt_s
 '
+LIBXUL_LIBRARY
+=
+True

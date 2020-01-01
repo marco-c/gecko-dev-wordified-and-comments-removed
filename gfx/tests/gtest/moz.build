@@ -231,3 +231,6 @@ TestScaling
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True

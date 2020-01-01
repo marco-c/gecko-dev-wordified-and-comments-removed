@@ -399,3 +399,6 @@ LIBRARY_NAME
 '
 ycbcr
 '
+LIBXUL_LIBRARY
+=
+True

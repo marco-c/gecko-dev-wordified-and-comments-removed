@@ -79,9 +79,6 @@ mk
 LIBRARY_NAME
 =
 imglib2_s
-LIBXUL_LIBRARY
-=
-1
 #
 We
 need

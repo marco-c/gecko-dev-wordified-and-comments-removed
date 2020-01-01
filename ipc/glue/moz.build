@@ -535,3 +535,6 @@ URIParams
 ipdlh
 '
 ]
+LIBXUL_LIBRARY
+=
+True

@@ -113,3 +113,6 @@ LIBRARY_NAME
 '
 i18n
 '
+LIBXUL_LIBRARY
+=
+True

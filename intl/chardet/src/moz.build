@@ -118,3 +118,6 @@ LIBRARY_NAME
 '
 chardet
 '
+LIBXUL_LIBRARY
+=
+True

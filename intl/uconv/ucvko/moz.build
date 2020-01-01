@@ -143,3 +143,6 @@ LIBRARY_NAME
 '
 ucvko_s
 '
+LIBXUL_LIBRARY
+=
+True

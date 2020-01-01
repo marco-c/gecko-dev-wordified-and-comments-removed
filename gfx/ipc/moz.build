@@ -181,3 +181,6 @@ SharedDIB
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True

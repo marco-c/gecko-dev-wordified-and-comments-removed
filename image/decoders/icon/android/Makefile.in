@@ -78,9 +78,6 @@ mk
 LIBRARY_NAME
 =
 imgiconandroid_s
-LIBXUL_LIBRARY
-=
-1
 include
 (
 topsrcdir

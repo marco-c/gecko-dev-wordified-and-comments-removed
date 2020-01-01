@@ -211,3 +211,6 @@ LIBRARY_NAME
 '
 jsd
 '
+LIBXUL_LIBRARY
+=
+True

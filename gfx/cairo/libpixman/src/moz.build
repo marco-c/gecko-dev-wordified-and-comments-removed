@@ -260,3 +260,6 @@ asm
 S
 '
 ]
+LIBXUL_LIBRARY
+=
+True

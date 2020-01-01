@@ -1512,3 +1512,6 @@ PLayerTransaction
 ipdl
 '
 ]
+LIBXUL_LIBRARY
+=
+True

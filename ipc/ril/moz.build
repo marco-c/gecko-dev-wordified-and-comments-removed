@@ -122,3 +122,6 @@ Ril
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True

@@ -118,3 +118,6 @@ LIBRARY_NAME
 '
 mozqcms
 '
+LIBXUL_LIBRARY
+=
+True

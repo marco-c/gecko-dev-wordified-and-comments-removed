@@ -114,3 +114,6 @@ MODULE
 '
 ipdlgen
 '
+LIBXUL_LIBRARY
+=
+True

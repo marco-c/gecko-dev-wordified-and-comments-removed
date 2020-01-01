@@ -20,9 +20,6 @@ config
 autoconf
 .
 mk
-LIBXUL_LIBRARY
-=
-1
 EXPORT_LIBRARY
 =
 1

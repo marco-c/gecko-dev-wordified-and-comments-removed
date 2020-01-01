@@ -142,3 +142,6 @@ RawDBusConnection
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True
