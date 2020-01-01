@@ -245,6 +245,11 @@ NetworkError
 )
 ;
 void
+DecodeError
+(
+)
+;
+void
 PlaybackEnded
 (
 )
@@ -550,7 +555,7 @@ aURI
 )
 ;
 void
-NoSupportedMediaError
+NoSupportedMediaSourceError
 (
 )
 ;

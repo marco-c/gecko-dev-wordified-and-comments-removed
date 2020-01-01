@@ -296,7 +296,7 @@ PlaybackEnded
 )
 ;
 void
-MediaErrorDecode
+DecodeError
 (
 )
 ;

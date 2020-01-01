@@ -488,6 +488,11 @@ UnregisterShutdownObserver
 (
 )
 ;
+void
+DecodeError
+(
+)
+;
 PRInt64
 mDecoderPosition
 ;

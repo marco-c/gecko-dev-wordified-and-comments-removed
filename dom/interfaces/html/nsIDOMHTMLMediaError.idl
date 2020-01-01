@@ -569,7 +569,7 @@ found
 const
 unsigned
 short
-MEDIA_ERR_NONE_SUPPORTED
+MEDIA_ERR_SRC_NOT_SUPPORTED
 =
 4
 ;
