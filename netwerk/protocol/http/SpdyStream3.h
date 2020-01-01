@@ -544,7 +544,7 @@ mSetTCPSocketBuffer
 ;
 nsAutoArrayPtr
 <
-char
+uint8_t
 >
 mTxInlineFrame
 ;
