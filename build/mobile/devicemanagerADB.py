@@ -1783,34 +1783,6 @@ False
 )
 :
     
-if
-cmd
-[
-0
-]
-=
-=
-"
-am
-"
-:
-      
-self
-.
-checkCmd
-(
-[
-"
-shell
-"
-]
-+
-cmd
-)
-      
-return
-outputFile
-    
 acmd
 =
 [
@@ -2065,6 +2037,7 @@ acmd
     
 return
 outputFile
+;
   
 def
 killProcess
@@ -2642,7 +2615,6 @@ def
 getAppRoot
 (
 self
-packageName
 )
 :
     
@@ -2668,41 +2640,51 @@ None
     
 if
 (
-packageName
-and
 self
 .
 dirExists
 (
-'
-/
-data
-/
-data
-/
-'
+devroot
 +
-packageName
+'
+/
+fennec
+'
 )
 )
 :
       
+return
+devroot
++
+'
+/
+fennec
+'
+    
+elif
+(
 self
 .
-packageName
-=
-packageName
+dirExists
+(
+devroot
++
+'
+/
+firefox
+'
+)
+)
+:
       
 return
-'
-/
-data
-/
-data
-/
-'
+devroot
 +
-packageName
+'
+/
+firefox
+'
     
 elif
 (

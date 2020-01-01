@@ -737,7 +737,7 @@ SUTAgentAndroid
 Version
 1
 .
-04
+03
 "
 ;
 public
@@ -6849,11 +6849,9 @@ sRet
 =
 appCtxW
 .
-getApplicationInfo
+getPackageResourcePath
 (
 )
-.
-dataDir
 ;
 appCtxW
 =

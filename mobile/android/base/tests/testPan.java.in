@@ -251,7 +251,7 @@ stopFrameRecording
 (
 )
 ;
-mAsserter
+mDriver
 .
 dumpLog
 (
@@ -280,7 +280,7 @@ currentTimeMillis
 (
 )
 ;
-mAsserter
+mDriver
 .
 dumpLog
 (
