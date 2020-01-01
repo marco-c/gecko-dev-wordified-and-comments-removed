@@ -294,7 +294,7 @@ JavaScript
 global
 -
 constructor
-FeedWriter
+BrowserFeedWriter
 mozilla
 .
 org
