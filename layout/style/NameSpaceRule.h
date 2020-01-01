@@ -168,7 +168,6 @@ mURLSpec
 ;
 }
 virtual
-NS_MUST_OVERRIDE
 size_t
 SizeOfIncludingThis
 (
@@ -176,6 +175,7 @@ nsMallocSizeOfFun
 aMallocSizeOf
 )
 const
+MOZ_MUST_OVERRIDE
 ;
 NS_DECL_NSIDOMCSSRULE
 private

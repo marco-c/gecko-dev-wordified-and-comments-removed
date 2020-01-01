@@ -211,7 +211,6 @@ aKey
 =
 0
 ;
-NS_MUST_OVERRIDE
 size_t
 SizeOfExcludingThis
 (

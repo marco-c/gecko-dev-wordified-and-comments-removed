@@ -325,7 +325,6 @@ aPresContext
 MOZ_OVERRIDE
 ;
 virtual
-NS_MUST_OVERRIDE
 size_t
 SizeOfExcludingThis
 (
@@ -333,10 +332,10 @@ nsMallocSizeOfFun
 mallocSizeOf
 )
 const
+MOZ_MUST_OVERRIDE
 MOZ_OVERRIDE
 ;
 virtual
-NS_MUST_OVERRIDE
 size_t
 SizeOfIncludingThis
 (
@@ -344,6 +343,7 @@ nsMallocSizeOfFun
 mallocSizeOf
 )
 const
+MOZ_MUST_OVERRIDE
 MOZ_OVERRIDE
 ;
 bool

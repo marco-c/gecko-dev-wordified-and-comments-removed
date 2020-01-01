@@ -847,7 +847,6 @@ MOZ_OVERRIDE
 #
 endif
 virtual
-NS_MUST_OVERRIDE
 size_t
 SizeOfExcludingThis
 (
@@ -855,10 +854,10 @@ nsMallocSizeOfFun
 aMallocSizeOf
 )
 const
+MOZ_MUST_OVERRIDE
 MOZ_OVERRIDE
 ;
 virtual
-NS_MUST_OVERRIDE
 size_t
 SizeOfIncludingThis
 (
@@ -866,6 +865,7 @@ nsMallocSizeOfFun
 aMallocSizeOf
 )
 const
+MOZ_MUST_OVERRIDE
 MOZ_OVERRIDE
 ;
 virtual
