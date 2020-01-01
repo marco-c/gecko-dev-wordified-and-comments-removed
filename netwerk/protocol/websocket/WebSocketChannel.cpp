@@ -776,6 +776,8 @@ result
 =
 fail
 ;
+break
+;
 }
 else
 if
