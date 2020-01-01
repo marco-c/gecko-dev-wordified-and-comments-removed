@@ -1294,13 +1294,6 @@ bin
 /
 components
 /
-extApplication
-.
-js
-bin
-/
-components
-/
 fuelApplication
 .
 js
