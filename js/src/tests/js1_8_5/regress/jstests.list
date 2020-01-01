@@ -660,3 +660,9 @@ regress
 624547
 .
 js
+script
+regress
+-
+626436
+.
+js
