@@ -429,6 +429,23 @@ split
 file
 )
     
+if
+path
+=
+=
+'
+'
+or
+filename
+=
+=
+'
+'
+:
+        
+return
+file
+    
 cvsdir
 =
 os
