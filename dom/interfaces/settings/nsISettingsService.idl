@@ -67,13 +67,13 @@ idl
 scriptable
 uuid
 (
-aad47850
+83d67430
 -
-2e87
+8516
 -
-11e2
+11e1
 -
-81c1
+b0c4
 -
 0800200c9a66
 )
@@ -83,6 +83,9 @@ nsISettingsServiceCallback
 :
 nsISupports
 {
+[
+implicit_jscontext
+]
 void
 handle
 (
@@ -94,6 +97,9 @@ jsval
 aResult
 )
 ;
+[
+implicit_jscontext
+]
 void
 handleError
 (
