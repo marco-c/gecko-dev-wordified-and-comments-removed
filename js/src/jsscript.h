@@ -1268,11 +1268,6 @@ failedBoundsCheck
 #
 endif
 bool
-callDestroyHook
-:
-1
-;
-bool
 isGenerator
 :
 1
