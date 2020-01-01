@@ -196,6 +196,12 @@ AsElement
 )
 ;
 virtual
+bool
+PassesConditionalProcessingTests
+(
+)
+;
+virtual
 const
 nsAttrValue
 *
