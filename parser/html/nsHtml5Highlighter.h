@@ -322,6 +322,9 @@ PRInt32
 mPos
 ;
 PRInt32
+mLineNumber
+;
+PRInt32
 mInlinesOpen
 ;
 bool
