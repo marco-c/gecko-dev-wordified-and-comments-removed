@@ -90,6 +90,13 @@ if
 aAccChildCount
 !
 =
+0
+&
+&
+*
+aAccChildCount
+!
+=
 eChildCountUninitialized
 )
 {
