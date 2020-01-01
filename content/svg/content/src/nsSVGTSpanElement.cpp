@@ -31,7 +31,7 @@ h
 #
 include
 "
-nsSVGTextPositioningElement
+SVGTextPositioningElement
 .
 h
 "
@@ -47,7 +47,10 @@ namespace
 mozilla
 ;
 typedef
-nsSVGTextPositioningElement
+dom
+:
+:
+SVGTextPositioningElement
 nsSVGTSpanElementBase
 ;
 class

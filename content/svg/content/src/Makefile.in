@@ -297,10 +297,6 @@ nsSVGTextElement
 .
 cpp
 \
-nsSVGTextPositioningElement
-.
-cpp
-\
 nsSVGUnknownElement
 .
 cpp
@@ -545,6 +541,10 @@ SVGTextPathElement
 .
 cpp
 \
+SVGTextPositioningElement
+.
+cpp
+\
 SVGTitleElement
 .
 cpp
@@ -751,6 +751,10 @@ SVGTextContentElement
 h
 \
 SVGTextPathElement
+.
+h
+\
+SVGTextPositioningElement
 .
 h
 \
