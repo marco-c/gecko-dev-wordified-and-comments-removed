@@ -836,10 +836,10 @@ IsTextEmpty
 )
 )
 {
-nsSVGUtils
+nsSVGEffects
 :
 :
-InvalidateBounds
+InvalidateRenderingObservers
 (
 this
 )

@@ -31260,13 +31260,12 @@ needInvalidatingPaint
 =
 true
 ;
-nsSVGUtils
+nsSVGEffects
 :
 :
-InvalidateBounds
+InvalidateRenderingObservers
 (
 aFrame
-false
 )
 ;
 nsSVGUtils
