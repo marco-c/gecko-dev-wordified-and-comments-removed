@@ -1265,12 +1265,6 @@ _rebuildTagsSelectorList
 (
 )
 ;
-this
-.
-_initialized
-=
-true
-;
 }
 this
 .
@@ -1330,6 +1324,12 @@ _observersAdded
 true
 ;
 }
+this
+.
+_initialized
+=
+true
+;
 }
 _getCommonTags
 :
@@ -4543,10 +4543,6 @@ folder
 =
 "
 +
-window
-.
-top
-.
 PlacesUIUtils
 .
 allBookmarksFolderId

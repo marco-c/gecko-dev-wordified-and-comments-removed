@@ -463,6 +463,10 @@ tag
 .
 xul
 \
+test_bug427633_no_newfolder_if_noip
+.
+xul
+\
 (
 NULL
 )
