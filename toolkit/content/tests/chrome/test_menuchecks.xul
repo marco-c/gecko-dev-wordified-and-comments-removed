@@ -555,15 +555,12 @@ navigator
 .
 platform
 .
-indexOf
+startsWith
 (
 "
 Mac
 "
 )
-=
-=
-0
 )
 {
 SimpleTest

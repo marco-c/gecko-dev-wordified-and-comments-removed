@@ -284,15 +284,12 @@ navigator
 .
 platform
 .
-indexOf
+startsWith
 (
 "
 Linux
 "
 )
-=
-=
-0
 )
 {
 SimpleTest

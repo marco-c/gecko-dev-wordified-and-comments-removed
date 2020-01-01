@@ -343,15 +343,12 @@ navigator
 .
 platform
 .
-indexOf
+startsWith
 (
 "
 Win
 "
 )
-=
-=
-0
 )
 {
 SimpleTest
