@@ -1394,6 +1394,12 @@ hidden
 =
 false
 ;
+aEvent
+.
+stopPropagation
+(
+)
+;
 ]
 ]
 >
@@ -1822,6 +1828,12 @@ true
 "
 )
 ;
+aEvent
+.
+stopPropagation
+(
+)
+;
 ]
 ]
 >
@@ -1913,6 +1925,12 @@ onDrop
 dropPoint
 .
 ip
+)
+;
+aEvent
+.
+stopPropagation
+(
 )
 ;
 ]
@@ -3923,7 +3941,7 @@ handler
 event
 =
 "
-dragdrop
+drop
 "
 action
 =
