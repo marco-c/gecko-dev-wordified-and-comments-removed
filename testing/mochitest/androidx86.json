@@ -29,8 +29,6 @@ html
 "
 :
 "
-fails
-on
 x86
 only
 "
@@ -1623,8 +1621,6 @@ html
 "
 :
 "
-fails
-on
 x86
 only
 "
@@ -1641,8 +1637,6 @@ html
 "
 :
 "
-fails
-on
 x86
 only
 "
@@ -1776,8 +1770,6 @@ opener
 html
 "
 "
-fails
-on
 x86
 only
 "
