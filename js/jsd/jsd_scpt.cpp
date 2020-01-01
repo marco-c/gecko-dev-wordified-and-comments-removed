@@ -3893,7 +3893,7 @@ JS_ClearScriptTraps
 jsdc
 -
 >
-dumbContext
+jsrt
 jsdscript
 -
 >
