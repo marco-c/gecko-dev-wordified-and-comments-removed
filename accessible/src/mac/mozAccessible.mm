@@ -1480,6 +1480,10 @@ if
 attribute
 isEqualToString
 :
+(
+NSString
+*
+)
 kInstanceDescriptionAttribute
 ]
 )
@@ -1545,6 +1549,10 @@ if
 attribute
 isEqualToString
 :
+(
+NSString
+*
+)
 kTopLevelUIElementAttribute
 ]
 )
@@ -2701,6 +2709,10 @@ should
 #
 endif
 return
+(
+NSString
+*
+)
 AXRoles
 [
 mRole

@@ -41,8 +41,7 @@ nsRootAccessibleWrap
 (
 )
 ;
-objc_class
-*
+Class
 GetNativeType
 (
 )

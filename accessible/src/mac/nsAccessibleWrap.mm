@@ -668,8 +668,7 @@ mozAccessible
 '
 node
 .
-objc_class
-*
+Class
 nsAccessibleWrap
 :
 :

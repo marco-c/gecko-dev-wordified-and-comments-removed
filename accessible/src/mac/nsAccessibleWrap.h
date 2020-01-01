@@ -6,6 +6,15 @@ define
 _nsAccessibleWrap_H_
 #
 include
+<
+objc
+/
+objc
+.
+h
+>
+#
+include
 "
 nsAccessible
 .
@@ -56,9 +65,6 @@ h
 struct
 AccessibleWrapper
 ;
-struct
-objc_class
-;
 class
 nsAccessibleWrap
 :
@@ -99,8 +105,7 @@ aOutAccessible
 )
 ;
 virtual
-objc_class
-*
+Class
 GetNativeType
 (
 )

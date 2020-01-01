@@ -516,8 +516,7 @@ nsRootAccessibleWrap
 )
 {
 }
-objc_class
-*
+Class
 nsRootAccessibleWrap
 :
 :
