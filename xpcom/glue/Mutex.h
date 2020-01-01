@@ -137,12 +137,14 @@ void
 AssertCurrentThreadOwns
 (
 )
+const
 {
 }
 void
 AssertNotCurrentThreadOwns
 (
 )
+const
 {
 }
 #
@@ -161,6 +163,7 @@ void
 AssertCurrentThreadOwns
 (
 )
+const
 {
 PR_ASSERT_CURRENT_THREAD_OWNS_LOCK
 (
@@ -172,6 +175,7 @@ void
 AssertNotCurrentThreadOwns
 (
 )
+const
 {
 }
 #
