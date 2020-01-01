@@ -324,8 +324,6 @@ SK_HAS_COMPILER_FEATURE
 (
 attribute_analyzer_noreturn
 )
-namespace
-{
 inline
 void
 SkNO_RETURN_HINT
@@ -344,7 +342,6 @@ SkNO_RETURN_HINT
 (
 )
 {
-}
 }
 #
 else
