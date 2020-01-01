@@ -398,10 +398,6 @@ sh
 set
 -
 x
-mkdir
--
-p
-mnt
 .
 /
 installdmg
