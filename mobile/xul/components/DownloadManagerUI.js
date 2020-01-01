@@ -86,6 +86,7 @@ show
 aWindowContext
 aID
 aReason
+aUsePrivateUI
 )
 {
 if
