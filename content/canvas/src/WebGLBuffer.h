@@ -160,7 +160,7 @@ return
 mGLName
 ;
 }
-GLuint
+WebGLsizeiptr
 ByteLength
 (
 )
@@ -183,7 +183,7 @@ mTarget
 void
 SetByteLength
 (
-GLuint
+WebGLsizeiptr
 byteLength
 )
 {
@@ -298,7 +298,7 @@ mGLName
 bool
 mHasEverBeenBound
 ;
-GLuint
+WebGLsizeiptr
 mByteLength
 ;
 GLenum
