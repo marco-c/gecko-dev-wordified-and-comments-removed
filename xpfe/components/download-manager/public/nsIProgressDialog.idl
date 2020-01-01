@@ -527,11 +527,9 @@ to
 the
 dialog
 via
-it
-'
-s
+its
 *
-nsIWebProgressListener
+nsIDownloadProgressListener
 methods
 .
 *
