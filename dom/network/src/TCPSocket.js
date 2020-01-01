@@ -1546,6 +1546,8 @@ ts_initWindowless
 (
 )
 {
+try
+{
 return
 Services
 .
@@ -1562,6 +1564,16 @@ enabled
 "
 )
 ;
+}
+catch
+(
+e
+)
+{
+return
+false
+;
+}
 }
 init
 :
