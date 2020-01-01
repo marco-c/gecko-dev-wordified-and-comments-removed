@@ -3093,6 +3093,15 @@ if
 mSurface
 |
 |
+cairo_status
+(
+mCairo
+)
+!
+=
+CAIRO_STATUS_SUCCESS
+|
+|
 cairo_surface_status
 (
 mSurface
