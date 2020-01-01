@@ -1270,6 +1270,9 @@ aLayer
 nsIntRegion
 &
 aScreenRegion
+nsIntRegion
+&
+aLowPrecisionScreenRegion
 const
 gfx3DMatrix
 &
