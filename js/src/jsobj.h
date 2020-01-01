@@ -1322,15 +1322,8 @@ size_t
 )
 sizeOfSlotsArray
 (
-size_t
-(
-*
-mus
-)
-(
-void
-*
-)
+JSUsableSizeFun
+usf
 )
 ;
 JSObject

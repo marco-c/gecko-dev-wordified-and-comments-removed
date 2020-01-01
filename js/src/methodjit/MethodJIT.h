@@ -2336,15 +2336,8 @@ trc
 size_t
 scriptDataSize
 (
-size_t
-(
-*
-mus
-)
-(
-void
-*
-)
+JSUsableSizeFun
+usf
 )
 ;
 jsbytecode

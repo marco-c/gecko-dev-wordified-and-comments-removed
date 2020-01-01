@@ -644,6 +644,9 @@ PRInt64
 propertyTables
 ;
 PRInt64
+shapeKids
+;
+PRInt64
 scriptData
 ;
 #

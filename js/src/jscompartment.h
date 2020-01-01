@@ -593,6 +593,8 @@ size_t
 )
 getVMAllocatorsMainSize
 (
+JSUsableSizeFun
+usf
 )
 const
 ;
@@ -602,6 +604,8 @@ size_t
 )
 getVMAllocatorsReserveSize
 (
+JSUsableSizeFun
+usf
 )
 const
 ;
@@ -611,6 +615,8 @@ size_t
 )
 getTraceMonitorSize
 (
+JSUsableSizeFun
+usf
 )
 const
 ;

@@ -13093,15 +13093,8 @@ JSObject
 :
 sizeOfSlotsArray
 (
-size_t
-(
-*
-mus
-)
-(
-void
-*
-)
+JSUsableSizeFun
+usf
 )
 {
 if
@@ -13117,7 +13110,7 @@ return
 size_t
 usable
 =
-mus
+usf
 (
 (
 void
