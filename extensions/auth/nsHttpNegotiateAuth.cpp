@@ -422,6 +422,14 @@ return
 NS_ERROR_ABORT
 ;
 }
+req_flags
+|
+=
+nsIAuthModule
+:
+:
+REQ_PROXY_AUTH
+;
 nsCOMPtr
 <
 nsIProxyInfo
