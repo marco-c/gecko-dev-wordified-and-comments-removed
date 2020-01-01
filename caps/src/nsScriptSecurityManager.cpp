@@ -14642,9 +14642,7 @@ prop
 '
 '
 ;
-prop
-.
-AppendWithConversion
+LossyAppendUTF16toASCII
 (
 (
 PRUnichar
@@ -14657,6 +14655,7 @@ pp
 >
 key
 )
+prop
 )
 ;
 prop

@@ -5023,11 +5023,10 @@ formatType
 NS_DOC_ENCODER_CONTRACTID_BASE
 )
 ;
-formatType
-.
-AppendWithConversion
+LossyAppendUTF16toASCII
 (
 aFormatType
+formatType
 )
 ;
 nsCOMPtr
