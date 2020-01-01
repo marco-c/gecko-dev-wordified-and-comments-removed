@@ -2163,13 +2163,6 @@ mParent
 .
 mLirbuf
 ;
-mFragment
--
->
-root
-=
-mFragment
-;
 mParent
 .
 mFragments

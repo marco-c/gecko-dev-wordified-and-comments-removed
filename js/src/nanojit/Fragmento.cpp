@@ -31,10 +31,6 @@ profFragID
 )
 )
 :
-root
-(
-NULL
-)
 lirbuf
 (
 NULL
@@ -52,10 +48,6 @@ recordAttempts
 0
 )
 fragEntry
-(
-NULL
-)
-vmprivate
 (
 NULL
 )
