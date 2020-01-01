@@ -140,9 +140,6 @@ apply
 *
 /
 interface
-SVGMatrix
-;
-interface
 SVGPoint
 {
 [

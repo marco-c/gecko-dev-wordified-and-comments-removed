@@ -140,9 +140,6 @@ apply
 *
 /
 interface
-SVGMatrix
-;
-interface
 SVGTransform
 ;
 interface
@@ -231,9 +228,6 @@ SVGTransform
 newItem
 )
 ;
-[
-Throws
-]
 SVGTransform
 createSVGTransformFromMatrix
 (

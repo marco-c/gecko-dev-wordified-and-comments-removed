@@ -315,6 +315,10 @@ SVGLengthList
 .
 webidl
 \
+SVGMatrix
+.
+webidl
+\
 SVGNumberList
 .
 webidl

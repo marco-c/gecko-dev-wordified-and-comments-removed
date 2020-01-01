@@ -102,9 +102,6 @@ Attributes
 h
 "
 class
-nsIDOMSVGMatrix
-;
-class
 nsSMILTimeContainer
 ;
 class
@@ -113,6 +110,9 @@ nsSVGViewElement
 namespace
 mozilla
 {
+class
+DOMSVGMatrix
+;
 class
 SVGFragmentIdentifier
 ;
@@ -362,8 +362,11 @@ nsISVGPoint
 >
 MatrixTransform
 (
-nsIDOMSVGMatrix
-*
+mozilla
+:
+:
+DOMSVGMatrix
+&
 matrix
 )
 ;

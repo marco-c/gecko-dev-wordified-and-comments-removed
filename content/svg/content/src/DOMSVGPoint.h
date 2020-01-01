@@ -107,6 +107,9 @@ namespace
 mozilla
 {
 class
+DOMSVGMatrix
+;
+class
 DOMSVGPoint
 MOZ_FINAL
 :
@@ -417,8 +420,8 @@ nsISVGPoint
 >
 MatrixTransform
 (
-nsIDOMSVGMatrix
-*
+DOMSVGMatrix
+&
 matrix
 )
 ;
