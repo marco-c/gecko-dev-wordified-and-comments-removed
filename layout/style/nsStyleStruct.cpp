@@ -5203,8 +5203,9 @@ SetAutoValue
 ;
 mMinHeight
 .
-SetAutoValue
+SetCoordValue
 (
+0
 )
 ;
 mMaxHeight

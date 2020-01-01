@@ -10580,16 +10580,6 @@ mMinHeight
 ;
 if
 (
-eStyleUnit_Auto
-=
-=
-minHeight
-.
-GetUnit
-(
-)
-|
-|
 (
 NS_AUTOHEIGHT
 =
