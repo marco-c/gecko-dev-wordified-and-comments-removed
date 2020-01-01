@@ -6887,7 +6887,7 @@ cx
 extern
 JS_PUBLIC_API
 (
-unsigned
+jsrefcount
 )
 JS_SuspendRequest
 (
@@ -6906,7 +6906,7 @@ JS_ResumeRequest
 JSContext
 *
 cx
-unsigned
+jsrefcount
 saveDepth
 )
 ;
@@ -7060,7 +7060,7 @@ JSContext
 *
 mContext
 ;
-unsigned
+jsrefcount
 mSaveDepth
 ;
 JS_DECL_USE_GUARD_OBJECT_NOTIFIER
@@ -7176,7 +7176,7 @@ JSContext
 *
 mContext
 ;
-unsigned
+jsrefcount
 mSaveDepth
 ;
 JS_DECL_USE_GUARD_OBJECT_NOTIFIER
@@ -13331,7 +13331,7 @@ char
 *
 codebase
 ;
-unsigned
+jsrefcount
 refcount
 ;
 void
@@ -13391,7 +13391,7 @@ principals
 extern
 JS_PUBLIC_API
 (
-unsigned
+jsrefcount
 )
 JS_HoldPrincipals
 (
@@ -13406,7 +13406,7 @@ principals
 extern
 JS_PUBLIC_API
 (
-unsigned
+jsrefcount
 )
 JS_DropPrincipals
 (
