@@ -11,13 +11,6 @@ nsHashSets
 .
 h
 "
-#
-include
-<
-stdint
-.
-h
->
 class
 nsCheapStringSet
 {
@@ -396,9 +389,6 @@ mValOrHash
 (
 void
 *
-)
-(
-intptr_t
 )
 (
 (
