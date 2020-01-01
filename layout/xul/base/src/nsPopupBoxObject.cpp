@@ -82,6 +82,13 @@ nsClientRect
 .
 h
 "
+#
+include
+"
+nsView
+.
+h
+"
 class
 nsPopupBoxObject
 :
