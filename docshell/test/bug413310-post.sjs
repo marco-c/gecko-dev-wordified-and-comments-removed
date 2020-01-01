@@ -49,10 +49,15 @@ method
 "
 "
 +
+Math
+.
+floor
+(
 Date
 .
 now
 (
+)
 )
 +
 "

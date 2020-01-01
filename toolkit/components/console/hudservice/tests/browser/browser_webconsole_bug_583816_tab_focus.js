@@ -245,10 +245,15 @@ setInputValue
 foobarbaz
 "
 +
+Math
+.
+floor
+(
 Date
 .
 now
 (
+)
 )
 )
 ;

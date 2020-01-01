@@ -56,10 +56,15 @@ b
 >
 "
 +
+Math
+.
+floor
+(
 Date
 .
 now
 (
+)
 )
 ;
 var
