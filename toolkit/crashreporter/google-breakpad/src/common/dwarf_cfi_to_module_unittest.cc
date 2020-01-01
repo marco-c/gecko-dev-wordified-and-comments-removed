@@ -52,36 +52,6 @@ google_breakpad
 DwarfCFIToModule
 ;
 using
-google_breakpad
-:
-:
-ToUniqueString
-;
-using
-google_breakpad
-:
-:
-UniqueString
-;
-using
-google_breakpad
-:
-:
-ustr__ZDcfa
-;
-using
-google_breakpad
-:
-:
-ustr__ZDra
-;
-using
-google_breakpad
-:
-:
-ustr__empty
-;
-using
 testing
 :
 :
@@ -219,7 +189,7 @@ register_names
 .
 push_back
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg0
@@ -231,7 +201,7 @@ register_names
 .
 push_back
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg1
@@ -243,7 +213,7 @@ register_names
 .
 push_back
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg2
@@ -255,7 +225,7 @@ register_names
 .
 push_back
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg3
@@ -267,7 +237,7 @@ register_names
 .
 push_back
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg4
@@ -279,7 +249,7 @@ register_names
 .
 push_back
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg5
@@ -291,7 +261,7 @@ register_names
 .
 push_back
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg6
@@ -303,7 +273,7 @@ register_names
 .
 push_back
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg7
@@ -315,7 +285,7 @@ register_names
 .
 push_back
 (
-ToUniqueString
+toUniqueString
 (
 "
 sp
@@ -327,7 +297,7 @@ register_names
 .
 push_back
 (
-ToUniqueString
+toUniqueString
 (
 "
 pc
@@ -769,7 +739,7 @@ reporter
 UndefinedNotSupported
 (
 _
-ToUniqueString
+toUniqueString
 (
 "
 reg7
@@ -861,7 +831,7 @@ reporter
 UndefinedNotSupported
 (
 _
-ToUniqueString
+toUniqueString
 (
 "
 unnamed_register10
@@ -976,7 +946,7 @@ UniqueString
 *
 reg6
 =
-ToUniqueString
+toUniqueString
 (
 "
 reg6
@@ -1214,7 +1184,7 @@ Module
 :
 Expr
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg4
@@ -1331,7 +1301,7 @@ Module
 :
 Expr
 (
-ToUniqueString
+toUniqueString
 (
 "
 unnamed_register11
@@ -1410,7 +1380,7 @@ Module
 :
 Expr
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg3
@@ -1464,7 +1434,7 @@ reporter
 ExpressionsNotSupported
 (
 _
-ToUniqueString
+toUniqueString
 (
 "
 reg2
@@ -1555,7 +1525,7 @@ reporter
 ExpressionsNotSupported
 (
 _
-ToUniqueString
+toUniqueString
 (
 "
 reg0
@@ -1693,7 +1663,7 @@ Module
 :
 Expr
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg2
@@ -1705,7 +1675,7 @@ false
 ;
 expected_initial
 [
-ToUniqueString
+toUniqueString
 (
 "
 reg0
@@ -1718,7 +1688,7 @@ Module
 :
 Expr
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg1
@@ -1817,7 +1787,7 @@ Module
 :
 Expr
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg1
@@ -1918,7 +1888,7 @@ Module
 :
 Expr
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg2
@@ -1966,7 +1936,7 @@ Module
 :
 Expr
 (
-ToUniqueString
+toUniqueString
 (
 "
 reg1
@@ -2018,7 +1988,7 @@ I386
 ;
 EXPECT_EQ
 (
-ToUniqueString
+toUniqueString
 (
 "
 eax
@@ -2032,7 +2002,7 @@ names
 ;
 EXPECT_EQ
 (
-ToUniqueString
+toUniqueString
 (
 "
 ecx
@@ -2046,7 +2016,7 @@ names
 ;
 EXPECT_EQ
 (
-ToUniqueString
+toUniqueString
 (
 "
 esp
@@ -2060,7 +2030,7 @@ names
 ;
 EXPECT_EQ
 (
-ToUniqueString
+toUniqueString
 (
 "
 eip
@@ -2099,7 +2069,7 @@ ARM
 ;
 EXPECT_EQ
 (
-ToUniqueString
+toUniqueString
 (
 "
 r0
@@ -2113,7 +2083,7 @@ names
 ;
 EXPECT_EQ
 (
-ToUniqueString
+toUniqueString
 (
 "
 r10
@@ -2127,7 +2097,7 @@ names
 ;
 EXPECT_EQ
 (
-ToUniqueString
+toUniqueString
 (
 "
 sp
@@ -2141,7 +2111,7 @@ names
 ;
 EXPECT_EQ
 (
-ToUniqueString
+toUniqueString
 (
 "
 lr
@@ -2155,7 +2125,7 @@ names
 ;
 EXPECT_EQ
 (
-ToUniqueString
+toUniqueString
 (
 "
 pc
@@ -2194,7 +2164,7 @@ X86_64
 ;
 EXPECT_EQ
 (
-ToUniqueString
+toUniqueString
 (
 "
 rax
@@ -2208,7 +2178,7 @@ names
 ;
 EXPECT_EQ
 (
-ToUniqueString
+toUniqueString
 (
 "
 rdx
@@ -2222,7 +2192,7 @@ names
 ;
 EXPECT_EQ
 (
-ToUniqueString
+toUniqueString
 (
 "
 rbp
@@ -2236,7 +2206,7 @@ names
 ;
 EXPECT_EQ
 (
-ToUniqueString
+toUniqueString
 (
 "
 rsp
@@ -2250,7 +2220,7 @@ names
 ;
 EXPECT_EQ
 (
-ToUniqueString
+toUniqueString
 (
 "
 rip

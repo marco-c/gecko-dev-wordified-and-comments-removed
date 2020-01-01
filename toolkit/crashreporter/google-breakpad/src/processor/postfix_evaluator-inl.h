@@ -681,7 +681,7 @@ ustr__empty
 )
 |
 |
-Index
+index
 (
 identifier
 0
@@ -834,7 +834,7 @@ else
 {
 PushIdentifier
 (
-ToUniqueString
+toUniqueString
 (
 token
 )
@@ -1251,7 +1251,7 @@ Identifier
 "
 <
 <
-FromUniqueString
+fromUniqueString
 (
 expr
 .
@@ -1563,7 +1563,7 @@ Identifier
 "
 <
 <
-FromUniqueString
+fromUniqueString
 (
 token
 )

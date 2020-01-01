@@ -141,13 +141,13 @@ cfi_register_map_
 =
 {
 {
-ToUniqueString
+toUniqueString
 (
 "
 eip
 "
 )
-ToUniqueString
+toUniqueString
 (
 "
 .
@@ -166,13 +166,13 @@ MDRawContextX86
 eip
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 esp
 "
 )
-ToUniqueString
+toUniqueString
 (
 "
 .
@@ -191,7 +191,7 @@ MDRawContextX86
 esp
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 ebp
@@ -210,7 +210,7 @@ MDRawContextX86
 ebp
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 eax
@@ -229,7 +229,7 @@ MDRawContextX86
 eax
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 ebx
@@ -248,7 +248,7 @@ MDRawContextX86
 ebx
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 ecx
@@ -267,7 +267,7 @@ MDRawContextX86
 ecx
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 edx
@@ -286,7 +286,7 @@ MDRawContextX86
 edx
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 esi
@@ -305,7 +305,7 @@ MDRawContextX86
 esi
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 edi

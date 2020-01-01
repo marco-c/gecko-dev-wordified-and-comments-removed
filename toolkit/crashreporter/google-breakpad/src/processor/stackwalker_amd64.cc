@@ -105,7 +105,7 @@ cfi_register_map_
 =
 {
 {
-ToUniqueString
+toUniqueString
 (
 "
 rax
@@ -124,7 +124,7 @@ MDRawContextAMD64
 rax
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 rdx
@@ -143,7 +143,7 @@ MDRawContextAMD64
 rdx
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 rcx
@@ -162,7 +162,7 @@ MDRawContextAMD64
 rcx
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 rbx
@@ -181,7 +181,7 @@ MDRawContextAMD64
 rbx
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 rsi
@@ -200,7 +200,7 @@ MDRawContextAMD64
 rsi
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 rdi
@@ -219,7 +219,7 @@ MDRawContextAMD64
 rdi
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 rbp
@@ -238,13 +238,13 @@ MDRawContextAMD64
 rbp
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 rsp
 "
 )
-ToUniqueString
+toUniqueString
 (
 "
 .
@@ -263,7 +263,7 @@ MDRawContextAMD64
 rsp
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 r8
@@ -282,7 +282,7 @@ MDRawContextAMD64
 r8
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 r9
@@ -301,7 +301,7 @@ MDRawContextAMD64
 r9
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 r10
@@ -320,7 +320,7 @@ MDRawContextAMD64
 r10
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 r11
@@ -339,7 +339,7 @@ MDRawContextAMD64
 r11
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 r12
@@ -358,7 +358,7 @@ MDRawContextAMD64
 r12
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 r13
@@ -377,7 +377,7 @@ MDRawContextAMD64
 r13
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 r14
@@ -396,7 +396,7 @@ MDRawContextAMD64
 r14
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 r15
@@ -415,13 +415,13 @@ MDRawContextAMD64
 r15
 }
 {
-ToUniqueString
+toUniqueString
 (
 "
 rip
 "
 )
-ToUniqueString
+toUniqueString
 (
 "
 .
