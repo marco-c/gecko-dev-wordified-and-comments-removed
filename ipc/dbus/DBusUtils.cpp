@@ -1241,7 +1241,7 @@ DBusMessage
 *
 msg
 =
-NULL
+nullptr
 ;
 msg
 =
@@ -1258,7 +1258,7 @@ if
 msg
 =
 =
-NULL
+nullptr
 )
 {
 LOG
@@ -2068,7 +2068,7 @@ dbus_func_args_timeout_valist
 conn
 -
 1
-NULL
+nullptr
 path
 ifc
 func

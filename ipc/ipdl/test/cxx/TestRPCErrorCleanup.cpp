@@ -86,7 +86,7 @@ gSubprocess
 ;
 gSubprocess
 =
-NULL
+nullptr
 ;
 cvar
 -
@@ -113,7 +113,7 @@ gParentActor
 ;
 gParentActor
 =
-NULL
+nullptr
 ;
 Mutex
 mutex

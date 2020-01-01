@@ -242,7 +242,7 @@ DEBUG_bent
 )
 MessageBox
 (
-NULL
+nullptr
 L
 "
 Hi

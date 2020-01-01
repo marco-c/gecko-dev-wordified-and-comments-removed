@@ -110,7 +110,7 @@ TestShellCommandParent
 :
 mCx
 (
-NULL
+nullptr
 )
 {
 }
