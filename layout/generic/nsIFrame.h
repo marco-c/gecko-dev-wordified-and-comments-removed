@@ -6645,13 +6645,6 @@ ifdef
 DEBUG
 public
 :
-enum
-{
-TRAVERSE_SUBDOCUMENT_FRAMES
-=
-0x01
-}
-;
 NS_IMETHOD
 List
 (
@@ -6660,10 +6653,6 @@ FILE
 out
 int32_t
 aIndent
-uint32_t
-aFlags
-=
-0
 )
 const
 =
