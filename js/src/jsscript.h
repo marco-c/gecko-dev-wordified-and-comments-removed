@@ -545,6 +545,13 @@ lastShape
 )
 const
 ;
+enum
+{
+BINDING_COUNT_LIMIT
+=
+0xFFFF
+}
+;
 bool
 add
 (
