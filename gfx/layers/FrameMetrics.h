@@ -410,7 +410,7 @@ height
 LayerIntRect
 mCompositionBounds
 ;
-nsIntRect
+LayerIntRect
 mContentRect
 ;
 gfx

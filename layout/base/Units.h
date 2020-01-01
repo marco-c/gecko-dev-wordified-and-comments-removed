@@ -571,6 +571,16 @@ typedef
 gfx
 :
 :
+IntSizeTyped
+<
+LayerPixel
+>
+LayerIntSize
+;
+typedef
+gfx
+:
+:
 RectTyped
 <
 LayerPixel

@@ -5388,7 +5388,7 @@ aOffset
 float
 aZoom
 const
-nsIntRect
+LayerIntRect
 &
 aPageRect
 const
