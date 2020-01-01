@@ -172,6 +172,7 @@ MOZ_GTK_TABPANELS
 MOZ_GTK_TREEVIEW
 MOZ_GTK_TREE_HEADER_CELL
 MOZ_GTK_TREE_HEADER_SORTARROW
+MOZ_GTK_EXPANDER
 MOZ_GTK_MENUBAR
 MOZ_GTK_MENUPOPUP
 MOZ_GTK_MENUITEM
@@ -309,6 +310,14 @@ width
 gint
 *
 height
+)
+;
+gint
+moz_gtk_get_expander_size
+(
+gint
+*
+size
 )
 ;
 GtkWidget
