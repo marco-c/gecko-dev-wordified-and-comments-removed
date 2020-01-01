@@ -502,14 +502,13 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLLinkElement
 )
-NS_HTML_CONTENT_INTERFACE_TABLE5
+NS_HTML_CONTENT_INTERFACE_TABLE4
 (
 nsHTMLLinkElement
 nsIDOMHTMLLinkElement
 nsIDOMLinkStyle
 nsILink
 nsIStyleSheetLinkingElement
-Link
 )
 NS_HTML_CONTENT_INTERFACE_TABLE_TO_MAP_SEGUE
 (
@@ -1418,10 +1417,7 @@ aIsInline
 PR_FALSE
 ;
 return
-Link
-:
-:
-GetURI
+GetHrefURIForAnchors
 (
 )
 ;
