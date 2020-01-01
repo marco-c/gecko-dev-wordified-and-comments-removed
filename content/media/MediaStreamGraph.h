@@ -993,9 +993,6 @@ bool
 mIsConsumed
 ;
 bool
-mKnowIsConsumed
-;
-bool
 mInBlockingSet
 ;
 bool
