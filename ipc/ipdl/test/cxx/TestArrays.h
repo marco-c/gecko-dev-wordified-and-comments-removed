@@ -67,7 +67,7 @@ public
 :
 TestArraysSub
 (
-uint32_t
+uint32
 i
 )
 :
@@ -84,7 +84,7 @@ TestArraysSub
 )
 {
 }
-uint32_t
+uint32
 mI
 ;
 }
