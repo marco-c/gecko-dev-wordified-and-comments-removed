@@ -472,6 +472,10 @@ browser_tabview_undo_group
 .
 js
 \
+browser_tabview_exit_button
+.
+js
+\
 (
 NULL
 )
