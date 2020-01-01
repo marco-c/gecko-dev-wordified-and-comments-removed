@@ -1418,17 +1418,6 @@ share
 +
 folderGuid
 ;
-if
-(
-!
-server
-.
-exists
-(
-serverPath
-)
-)
-{
 DAV
 .
 MKCOL
@@ -1477,7 +1466,6 @@ done
 false
 )
 ;
-}
 }
 let
 ans
