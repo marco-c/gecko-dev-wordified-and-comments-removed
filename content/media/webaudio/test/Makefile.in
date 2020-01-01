@@ -131,6 +131,10 @@ test_AudioParam
 .
 html
 \
+test_audioBufferSourceNode
+.
+html
+\
 test_badConnect
 .
 html
@@ -160,6 +164,10 @@ test_gainNode
 html
 \
 test_pannerNode
+.
+html
+\
+test_scriptProcessorNode
 .
 html
 \
