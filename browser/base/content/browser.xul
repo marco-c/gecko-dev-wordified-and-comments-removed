@@ -9021,9 +9021,10 @@ statusbar
 -
 display
 "
-label
+inactive
 =
 "
+true
 "
 /
 >
