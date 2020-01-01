@@ -2469,6 +2469,15 @@ SkXfermode
 cpp
 \
 (
+NULL
+)
+ifdef
+MOZ_ENABLE_SKIA_GPU
+CPPSRCS
++
+=
+\
+(
 GPU_CPPSRCS
 )
 \
@@ -2479,6 +2488,7 @@ GPU_GL_CPPSRCS
 (
 NULL
 )
+endif
 ifeq
 (
 cocoa

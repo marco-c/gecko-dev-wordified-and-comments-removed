@@ -3193,7 +3193,7 @@ kCanvasMaxInvalidateCount
 ;
 #
 ifdef
-USE_SKIA
+USE_SKIA_GPU
 nsRefPtr
 <
 gl

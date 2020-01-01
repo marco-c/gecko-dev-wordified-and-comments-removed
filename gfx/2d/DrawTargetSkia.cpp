@@ -29,6 +29,9 @@ SkDevice
 h
 "
 #
+ifdef
+USE_SKIA_GPU
+#
 include
 "
 skia
@@ -37,6 +40,8 @@ SkGpuDevice
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -3452,6 +3457,9 @@ return
 true
 ;
 }
+#
+ifdef
+USE_SKIA_GPU
 void
 DrawTargetSkia
 :
@@ -3587,6 +3595,8 @@ mFormat
 aFormat
 ;
 }
+#
+endif
 void
 DrawTargetSkia
 :

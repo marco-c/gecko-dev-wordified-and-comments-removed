@@ -317,7 +317,7 @@ h
 endif
 #
 ifdef
-USE_SKIA
+USE_SKIA_GPU
 #
 include
 "
@@ -3675,7 +3675,7 @@ backend
 ;
 #
 ifdef
-USE_SKIA
+USE_SKIA_GPU
 if
 (
 mPreferredCanvasBackend

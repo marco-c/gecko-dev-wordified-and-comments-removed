@@ -1915,7 +1915,7 @@ CleanupD2D
 endif
 #
 ifdef
-USE_SKIA
+USE_SKIA_GPU
 TemporaryRef
 <
 DrawTarget
