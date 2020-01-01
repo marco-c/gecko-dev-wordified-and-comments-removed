@@ -192,6 +192,11 @@ type
 xul
 :
 vbox
+flex
+=
+"
+1
+"
 >
 <
 xul
