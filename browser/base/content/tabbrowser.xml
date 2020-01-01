@@ -11079,13 +11079,6 @@ mCurrentBrowser
 =
 null
 ;
-var
-wasPinned
-=
-aTab
-.
-pinned
-;
 /
 /
 Invalidate
@@ -11179,10 +11172,6 @@ this
 _windowIsClosing
 )
 {
-if
-(
-wasPinned
-)
 this
 .
 tabContainer
