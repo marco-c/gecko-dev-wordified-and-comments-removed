@@ -810,7 +810,7 @@ stride
 )
 size
 (
-0
+4
 )
 byteOffset
 (
@@ -818,7 +818,7 @@ byteOffset
 )
 type
 (
-0
+LOCAL_GL_FLOAT
 )
 enabled
 (
