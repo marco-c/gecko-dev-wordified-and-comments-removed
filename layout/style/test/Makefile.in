@@ -872,6 +872,10 @@ test_bug534804
 .
 html
 \
+test_bug573255
+.
+html
+\
 test_cascade
 .
 html
