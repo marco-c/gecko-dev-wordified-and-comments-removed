@@ -1639,7 +1639,7 @@ hasSharps
 (
 )
 ?
-2
+SHARP_NSLOTS
 :
 0
 ;

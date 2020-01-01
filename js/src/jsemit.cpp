@@ -5849,6 +5849,14 @@ ensureSharpSlots
 #
 if
 JS_HAS_SHARP_VARS
+JS_STATIC_ASSERT
+(
+SHARP_NSLOTS
+=
+=
+2
+)
+;
 if
 (
 sharpSlotBase
