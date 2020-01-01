@@ -4170,6 +4170,14 @@ id
 "
 menuWebDeveloperPopup
 "
+onpopupshowing
+=
+"
+onWebDeveloperMenuShowing
+(
+)
+;
+"
 >
 <
 menuitem

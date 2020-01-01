@@ -1476,6 +1476,14 @@ id
 "
 appmenu_webDeveloper_popup
 "
+onpopupshowing
+=
+"
+onWebDeveloperMenuShowing
+(
+)
+;
+"
 >
 <
 menuitem
