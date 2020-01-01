@@ -48,7 +48,6 @@ TlsAlloc
 )
 ;
 }
-;
 #
 else
 #
