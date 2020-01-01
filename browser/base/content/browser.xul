@@ -5497,13 +5497,13 @@ menuitem
 id
 =
 "
-appmenu_organizeBookmarks
+appmenu_showAllBookmarks
 "
 label
 =
 "
 &
-organizeBookmarks
+showAllBookmarks
 .
 label
 ;
@@ -8878,7 +8878,7 @@ label
 =
 "
 &
-organizeBookmarks
+showAllBookmarks
 .
 label
 ;

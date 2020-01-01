@@ -4638,7 +4638,7 @@ label
 =
 "
 &
-organizeBookmarks
+showAllBookmarks
 .
 label
 ;

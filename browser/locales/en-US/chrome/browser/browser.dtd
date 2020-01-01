@@ -997,11 +997,12 @@ Tabs
 <
 !
 ENTITY
-organizeBookmarks
+showAllBookmarks
 .
 label
 "
-Organize
+Show
+All
 Bookmarks
 "
 >
