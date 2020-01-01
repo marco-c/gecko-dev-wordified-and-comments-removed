@@ -2442,10 +2442,6 @@ e
 }
 }
 ;
-nsCycleCollectorParams
-&
-mParams
-;
 uint32_t
 mCount
 ;
@@ -2460,14 +2456,6 @@ public
 :
 nsPurpleBuffer
 (
-nsCycleCollectorParams
-&
-params
-)
-:
-mParams
-(
-params
 )
 {
 InitBlocks
@@ -3528,9 +3516,6 @@ nsCycleCollector
 friend
 class
 GCGraphBuilder
-;
-CCThreadingModel
-mModel
 ;
 bool
 mCollectionInProgress
@@ -10344,10 +10329,6 @@ CCThreadingModel
 aModel
 )
 :
-mModel
-(
-aModel
-)
 mCollectionInProgress
 (
 false
@@ -10401,10 +10382,6 @@ nullptr
 mReporter
 (
 nullptr
-)
-mPurpleBuf
-(
-mParams
 )
 mUnmergedNeeded
 (
