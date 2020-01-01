@@ -42,7 +42,6 @@ rgba
 35
 31
 32
-0
 .
 74
 )
@@ -83,11 +82,11 @@ none
 ;
 margin
 :
-0px
+0
 ;
 padding
 :
-0px
+0
 ;
 min
 -
@@ -182,11 +181,11 @@ none
 ;
 margin
 :
-0px
+0
 ;
 padding
 :
-0px
+0
 ;
 min
 -
@@ -255,7 +254,6 @@ rgba
 35
 31
 32
-0
 .
 74
 )
@@ -353,9 +351,7 @@ volumeBackgroundBar
 {
 margin
 :
-0px
-10px
-0px
+0
 10px
 ;
 background
@@ -367,7 +363,6 @@ rgba
 255
 255
 255
-0
 .
 5
 )
@@ -425,7 +420,6 @@ rgba
 255
 255
 255
-0
 .
 75
 )
@@ -453,8 +447,6 @@ margin
 :
 10px
 22px
-10px
-22px
 ;
 background
 -
@@ -465,7 +457,6 @@ rgba
 255
 255
 255
-0
 .
 5
 )
@@ -478,7 +469,6 @@ border
 radius
 :
 4px
-4px
 ;
 }
 .
@@ -488,8 +478,6 @@ progressBar
 {
 margin
 :
-10px
-22px
 10px
 22px
 ;
@@ -504,7 +492,7 @@ min
 -
 width
 :
-0px
+0
 ;
 }
 .
@@ -523,7 +511,6 @@ rgba
 255
 255
 255
-0
 .
 5
 )
@@ -535,7 +522,6 @@ border
 -
 radius
 :
-4px
 4px
 ;
 }
@@ -560,8 +546,8 @@ border
 radius
 :
 4px
-0px
-0px
+0
+0
 4px
 ;
 }
@@ -730,7 +716,6 @@ rgba
 255
 255
 255
-0
 .
 75
 )
@@ -756,7 +741,6 @@ shadow
 :
 rgba
 (
-0
 0
 0
 0
@@ -800,7 +784,6 @@ color
 :
 rgba
 (
-0
 0
 0
 0
@@ -933,8 +916,6 @@ fadeout
 opacity
 :
 0
-.
-0
 ;
 }
 .
@@ -979,14 +960,12 @@ fadeout
 opacity
 :
 0
-.
-0
 ;
 margin
 -
 top
 :
-0px
+0
 ;
 }
 .
@@ -1035,8 +1014,6 @@ fadeout
 {
 opacity
 :
-0
-.
 0
 ;
 }
