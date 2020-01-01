@@ -142,7 +142,7 @@ h
 #
 include
 "
-nsInspectorCSSUtils
+nsComputedDOMStyle
 .
 h
 "
@@ -8032,7 +8032,7 @@ IsInDoc
 {
 parentContext
 =
-nsInspectorCSSUtils
+nsComputedDOMStyle
 :
 :
 GetStyleContextForContent
@@ -9500,7 +9500,7 @@ nsStyleContext
 >
 canvasStyle
 =
-nsInspectorCSSUtils
+nsComputedDOMStyle
 :
 :
 GetStyleContextForContent
