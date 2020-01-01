@@ -12022,7 +12022,7 @@ dialog
 ;
 }
 function
-showDownloadsManager
+showDownloadManager
 (
 aWindowContext
 aID
@@ -12031,14 +12031,7 @@ aReason
 {
 BrowserUI
 .
-show
-(
-UIMODE_PANEL
-)
-;
-BrowserUI
-.
-switchPane
+showPanel
 (
 "
 downloads
