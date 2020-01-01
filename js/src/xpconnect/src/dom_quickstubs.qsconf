@@ -2825,13 +2825,13 @@ update
 -
 nsIIDBIndexRequest
 .
-get
+openCursor
 '
 '
 -
 nsIIDBIndexRequest
 .
-getObject
+openObjectCursor
 '
 ]
 #

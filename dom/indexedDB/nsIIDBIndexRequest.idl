@@ -522,8 +522,11 @@ nsIIDBIndexRequest
 :
 nsIIDBIndex
 {
+[
+optional_argc
+]
 nsIIDBRequest
-openObjectCursor
+openCursor
 (
 [
 optional
@@ -564,8 +567,11 @@ boolean
 preload
 )
 ;
+[
+optional_argc
+]
 nsIIDBRequest
-openCursor
+openObjectCursor
 (
 [
 optional

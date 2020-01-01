@@ -782,7 +782,6 @@ NULL
 "
 "
 value
-TEXT
 NOT
 NULL
 "
@@ -910,7 +909,6 @@ NULL
 "
 "
 value
-TEXT
 NOT
 NULL
 "
@@ -1008,7 +1006,6 @@ NULL
 "
 "
 value
-TEXT
 NOT
 NULL
 "
@@ -1131,7 +1128,6 @@ NULL
 "
 "
 value
-TEXT
 NOT
 NULL
 "
