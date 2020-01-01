@@ -1973,7 +1973,6 @@ GeneratePath
 (
 &
 tmpCtx
-&
 identity
 )
 ;
