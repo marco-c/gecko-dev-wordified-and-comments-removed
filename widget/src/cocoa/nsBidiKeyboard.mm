@@ -437,6 +437,13 @@ nsBidiKeyboard
 h
 "
 #
+include
+"
+nsObjCExceptions
+.
+h
+"
+#
 import
 <
 Carbon
@@ -482,6 +489,8 @@ PRBool
 aIsRTL
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 *
 aIsRTL
 =
@@ -640,6 +649,8 @@ NS_OK
 }
 return
 rv
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 NS_IMETHODIMP

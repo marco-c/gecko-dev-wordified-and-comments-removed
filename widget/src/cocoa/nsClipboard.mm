@@ -520,6 +520,13 @@ nsPrintfCString
 .
 h
 "
+#
+include
+"
+nsObjCExceptions
+.
+h
+"
 /
 /
 Screenshots
@@ -733,6 +740,8 @@ PRInt32
 aWhichClipboard
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 (
@@ -915,6 +924,8 @@ PR_FALSE
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 NS_IMETHODIMP
 nsClipboard
@@ -929,6 +940,8 @@ PRInt32
 aWhichClipboard
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 (
@@ -1969,6 +1982,8 @@ continue
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 /
@@ -2008,6 +2023,8 @@ PRBool
 outResult
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 *
 outResult
 =
@@ -2343,6 +2360,8 @@ break
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 /
@@ -2386,6 +2405,8 @@ nsITransferable
 aTransferable
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 !
@@ -3507,5 +3528,7 @@ it
 }
 return
 pasteboardOutputDict
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
