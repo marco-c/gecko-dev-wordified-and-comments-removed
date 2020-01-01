@@ -156,9 +156,13 @@ nsOggDecoder
 (
 )
 ;
+virtual
 PRBool
 Init
 (
+nsHTMLMediaElement
+*
+aElement
 )
 ;
 virtual
