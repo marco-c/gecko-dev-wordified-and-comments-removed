@@ -548,6 +548,16 @@ nsISystemProxySettings
 idl
 '
 '
+nsIThreadRetargetableRequest
+.
+idl
+'
+'
+nsIThreadRetargetableStreamListener
+.
+idl
+'
+'
 nsITimedChannel
 .
 idl
