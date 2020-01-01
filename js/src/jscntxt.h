@@ -380,6 +380,9 @@ class
 JaegerCompartment
 ;
 }
+class
+WeakMapBase
+;
 struct
 GSNCache
 {
@@ -1127,7 +1130,10 @@ volatile
 bool
 gcIsNeeded
 ;
-JSObject
+js
+:
+:
+WeakMapBase
 *
 gcWeakMapList
 ;
