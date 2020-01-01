@@ -480,6 +480,13 @@ Webapps
 .
 jsm
 \
+(
+NULL
+)
+endif
+EXTRA_JS_MODULES
++
+=
 DOMRequestHelper
 .
 jsm
@@ -487,7 +494,6 @@ jsm
 (
 NULL
 )
-endif
 XPIDLSRCS
 =
 \
