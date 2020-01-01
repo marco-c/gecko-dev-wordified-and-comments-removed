@@ -23,6 +23,11 @@ in
 Iterator
 (
 {
+WEAVE_CHANNEL
+:
+"
+xpi_type
+"
 WEAVE_VERSION
 :
 "
@@ -41,6 +46,11 @@ DEFAULT_SERVER
 "
 server_url
 "
+UPDATED_URL
+:
+"
+https
+:
 PREFS_BRANCH
 :
 "
@@ -54,6 +64,10 @@ PWDMGR_HOST
 "
 chrome
 :
+/
+/
+weave
+"
 SINGLE_USER_SYNC
 :
 24
