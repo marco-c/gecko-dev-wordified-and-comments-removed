@@ -1364,8 +1364,13 @@ nsresult
 nsComputedDOMStyle
 :
 :
-DeclarationChanged
+SetCSSDeclaration
 (
+css
+:
+:
+Declaration
+*
 )
 {
 NS_RUNTIMEABORT
@@ -1375,7 +1380,7 @@ called
 nsComputedDOMStyle
 :
 :
-DeclarationChanged
+SetCSSDeclaration
 "
 )
 ;
@@ -1422,9 +1427,6 @@ nsIURI
 nsIPrincipal
 *
 *
-mozilla
-:
-:
 css
 :
 :

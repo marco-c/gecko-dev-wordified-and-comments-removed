@@ -434,8 +434,9 @@ result
 ;
 }
 return
-DeclarationChanged
+SetCSSDeclaration
 (
+decl
 )
 ;
 }
@@ -1004,8 +1005,9 @@ result
 ;
 }
 return
-DeclarationChanged
+SetCSSDeclaration
 (
+decl
 )
 ;
 }
@@ -1060,8 +1062,9 @@ aPropID
 )
 ;
 return
-DeclarationChanged
+SetCSSDeclaration
 (
+decl
 )
 ;
 }

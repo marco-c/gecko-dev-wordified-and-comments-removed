@@ -209,8 +209,14 @@ nsresult
 nsDOMCSSAttributeDeclaration
 :
 :
-DeclarationChanged
+SetCSSDeclaration
 (
+css
+:
+:
+Declaration
+*
+aDecl
 )
 {
 NS_ASSERTION
@@ -276,6 +282,7 @@ oldRule
 >
 DeclarationChanged
 (
+aDecl
 PR_FALSE
 )
 ;

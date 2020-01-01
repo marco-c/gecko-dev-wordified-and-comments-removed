@@ -244,8 +244,16 @@ PRBool
 ;
 virtual
 nsresult
-DeclarationChanged
+SetCSSDeclaration
 (
+mozilla
+:
+:
+css
+:
+:
+Declaration
+*
 )
 ;
 virtual
