@@ -14976,8 +14976,7 @@ vp
 ;
 #
 if
-defined
-JS_POLYIC_TYPED_ARRAY
+0
 if
 (
 js_IsTypedArray
@@ -17297,8 +17296,7 @@ key
 ;
 #
 if
-defined
-JS_POLYIC_TYPED_ARRAY
+0
 if
 (
 js_IsTypedArray
