@@ -151,6 +151,13 @@ cancel
 (
 )
 {
+if
+(
+!
+thread
+)
+return
+;
 PR_Lock
 (
 lock
