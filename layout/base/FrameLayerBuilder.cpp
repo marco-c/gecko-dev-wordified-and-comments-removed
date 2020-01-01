@@ -5754,6 +5754,16 @@ Clip
 aClip
 )
 {
+SAMPLE_LABEL
+(
+"
+ContainerState
+"
+"
+ProcessDisplayItems
+"
+)
+;
 for
 (
 nsDisplayItem
