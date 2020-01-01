@@ -114,6 +114,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsIIDBKeyRange
+.
+idl
+'
+'
 nsIIndexedDatabaseManager
 .
 idl

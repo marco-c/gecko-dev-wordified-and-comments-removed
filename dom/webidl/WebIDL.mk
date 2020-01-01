@@ -709,10 +709,6 @@ IDBIndex
 .
 webidl
 \
-IDBKeyRange
-.
-webidl
-\
 IDBObjectStore
 .
 webidl
