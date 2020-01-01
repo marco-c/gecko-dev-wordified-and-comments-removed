@@ -763,9 +763,11 @@ gfxFontEntry
 *
 aProxyEntry
 const
-gfxDownloadedFontData
+PRUint8
 *
 aFontData
+PRUint32
+aLength
 )
 ;
 private
