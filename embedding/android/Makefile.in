@@ -481,7 +481,7 @@ Tabs
 .
 java
 \
-ShowTabs
+GeckoEventListener
 .
 java
 \
@@ -1012,7 +1012,15 @@ res
 /
 layout
 /
-show_tabs
+tabs_tray
+.
+xml
+\
+res
+/
+layout
+/
+tabs_row
 .
 xml
 \
