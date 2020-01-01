@@ -486,6 +486,14 @@ FrameEntry
 fe
 )
 ;
+RegisterID
+copyTypeIntoReg
+(
+FrameEntry
+*
+fe
+)
+;
 inline
 bool
 shouldAvoidTypeRemat
