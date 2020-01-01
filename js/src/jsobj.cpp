@@ -15980,9 +15980,8 @@ return
 JS_FALSE
 ;
 }
-static
 void
-PurgeScopeChain
+js_PurgeScopeChainHelper
 (
 JSContext
 *
@@ -15994,16 +15993,14 @@ jsid
 id
 )
 {
-if
+JS_ASSERT
 (
-!
 OBJ_IS_DELEGATE
 (
 cx
 obj
 )
 )
-return
 ;
 js_LeaveTrace
 (
@@ -16084,7 +16081,7 @@ JSScopeProperty
 *
 sprop
 ;
-PurgeScopeChain
+js_PurgeScopeChain
 (
 cx
 obj
@@ -16584,7 +16581,7 @@ NULL
 }
 #
 endif
-PurgeScopeChain
+js_PurgeScopeChain
 (
 cx
 obj
@@ -19586,7 +19583,7 @@ if
 sprop
 )
 {
-PurgeScopeChain
+js_PurgeScopeChain
 (
 cx
 obj

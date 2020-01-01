@@ -23311,6 +23311,16 @@ cx
 scope
 )
 ;
+js_PurgeScopeChain
+(
+cx
+obj
+sprop
+-
+>
+id
+)
+;
 TRACE_2
 (
 SetPropHit
