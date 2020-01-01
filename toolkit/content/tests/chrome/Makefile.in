@@ -744,12 +744,13 @@ MOCHITEST_CHROME_FILES
 +
 =
 (
-warning
+filter
+disabled
+-
+temporarily
 test_cursorsnap
 .
 xul
-temporarily
-disabled
 )
 \
 window_cursorsnap_dialog
