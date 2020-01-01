@@ -67,9 +67,13 @@ Layers
 .
 h
 "
-class
+#
+include
+"
 nsIContent
-;
+.
+h
+"
 class
 nsIURI
 ;

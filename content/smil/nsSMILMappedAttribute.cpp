@@ -61,6 +61,17 @@ nsCSSProps
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
 static
 void
 ReleaseStringBufferPropertyValue
