@@ -118,9 +118,6 @@ polyInlineMax
 uint32
 inlineMaxTotalBytecodeLength
 ;
-uint32
-inlineUseCountRatio
-;
 bool
 eagerCompilation
 ;
@@ -236,10 +233,6 @@ polyInlineMax
 inlineMaxTotalBytecodeLength
 (
 800
-)
-inlineUseCountRatio
-(
-128
 )
 eagerCompilation
 (
