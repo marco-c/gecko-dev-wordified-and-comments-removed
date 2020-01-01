@@ -1815,8 +1815,9 @@ if
 finalFocusNode
 )
 {
-return
-PR_FALSE
+finalFocusNode
+=
+aNode
 ;
 }
 finalFocusAccessible
