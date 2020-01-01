@@ -3170,8 +3170,11 @@ v
 return
 false
 ;
-jsid
+RootedId
 id
+(
+cx
+)
 ;
 if
 (
@@ -3867,11 +3870,8 @@ IndexToId
 (
 cx
 i
+&
 id
-.
-address
-(
-)
 )
 )
 return

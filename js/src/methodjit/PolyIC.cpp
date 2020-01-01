@@ -8021,8 +8021,11 @@ shapeMismatches
 }
 else
 {
-jsid
+RootedId
 userid
+(
+cx
+)
 ;
 if
 (
@@ -15787,11 +15790,8 @@ InternNonIntElementId
 cx
 obj
 idval
+&
 id
-.
-address
-(
-)
 )
 )
 THROW

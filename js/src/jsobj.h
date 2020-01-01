@@ -5930,8 +5930,7 @@ strict
 js
 :
 :
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -6018,8 +6017,7 @@ HandleObject
 obj
 HandleId
 id
-Value
-*
+MutableHandleValue
 vp
 )
 ;
@@ -6033,8 +6031,7 @@ const
 PropertyDescriptor
 *
 desc
-Value
-*
+MutableHandleValue
 vp
 )
 ;
