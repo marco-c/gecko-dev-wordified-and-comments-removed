@@ -225,6 +225,11 @@ type
 "
 content
 "
+disablehistory
+=
+"
+true
+"
 flex
 =
 "
