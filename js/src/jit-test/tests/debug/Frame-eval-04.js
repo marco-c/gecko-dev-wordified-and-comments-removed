@@ -81,7 +81,7 @@ assertEq
 (
 exc
 .
-prototype
+proto
 SEp
 )
 ;
