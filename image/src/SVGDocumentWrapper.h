@@ -7,6 +7,15 @@ mozilla_imagelib_SVGDocumentWrapper_h_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -92,6 +101,7 @@ imagelib
 {
 class
 SVGDocumentWrapper
+MOZ_FINAL
 :
 public
 nsIStreamListener

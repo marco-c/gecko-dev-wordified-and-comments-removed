@@ -1,7 +1,9 @@
 #
 include
 "
-imgIEncoder
+mozilla
+/
+Attributes
 .
 h
 "
@@ -11,6 +13,13 @@ include
 mozilla
 /
 ReentrantMonitor
+.
+h
+"
+#
+include
+"
+imgIEncoder
 .
 h
 "
@@ -80,6 +89,7 @@ B6123BCEAF21
 }
 class
 nsICOEncoder
+MOZ_FINAL
 :
 public
 imgIEncoder

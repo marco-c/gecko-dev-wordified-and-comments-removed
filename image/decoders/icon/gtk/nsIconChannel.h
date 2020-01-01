@@ -7,6 +7,15 @@ nsIconChannel_h_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIChannel
 .
 h
@@ -41,6 +50,7 @@ h
 "
 class
 nsIconChannel
+MOZ_FINAL
 :
 public
 nsIChannel

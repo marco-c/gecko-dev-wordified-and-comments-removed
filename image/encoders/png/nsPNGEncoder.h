@@ -1,7 +1,9 @@
 #
 include
 "
-imgIEncoder
+mozilla
+/
+Attributes
 .
 h
 "
@@ -11,6 +13,13 @@ include
 mozilla
 /
 ReentrantMonitor
+.
+h
+"
+#
+include
+"
+imgIEncoder
 .
 h
 "
@@ -67,6 +76,7 @@ b81e
 }
 class
 nsPNGEncoder
+MOZ_FINAL
 :
 public
 imgIEncoder
