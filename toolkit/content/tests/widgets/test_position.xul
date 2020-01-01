@@ -385,6 +385,11 @@ maxwidth
 "
 100
 "
+minheight
+=
+"
+25
+"
 height
 =
 "
@@ -398,6 +403,12 @@ maxheight
 style
 =
 "
+min
+-
+width
+:
+80px
+;
 margin
 :
 5px
