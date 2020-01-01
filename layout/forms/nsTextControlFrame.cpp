@@ -3642,6 +3642,15 @@ rootElement
 )
 )
 ;
+NS_ENSURE_TRUE
+(
+rootNode
+&
+&
+rootContent
+NS_ERROR_FAILURE
+)
+;
 PRInt32
 numChildren
 =
