@@ -217,6 +217,7 @@ ifneq
 (
 filter
 windows
+cocoa
 (
 MOZ_WIDGET_TOOLKIT
 )

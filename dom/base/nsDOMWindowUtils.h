@@ -135,6 +135,9 @@ short
 aInputSourceArg
 bool
 aToWindow
+bool
+*
+aPreventDefault
 )
 ;
 static
