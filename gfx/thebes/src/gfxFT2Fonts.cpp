@@ -1139,6 +1139,9 @@ NS_SUCCEEDED
 rv
 )
 ;
+return
+rv
+;
 }
 FontEntry
 *
