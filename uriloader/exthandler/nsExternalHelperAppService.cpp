@@ -5178,6 +5178,10 @@ mDataBuffer
 (
 nsnull
 )
+mKeepRequestAlive
+(
+PR_FALSE
+)
 mRequest
 (
 nsnull
@@ -7006,6 +7010,10 @@ mReceivedDispositionInfo
 =
 PR_FALSE
 ;
+mKeepRequestAlive
+=
+PR_TRUE
+;
 mDialog
 =
 do_CreateInstance
@@ -8012,6 +8020,11 @@ mStopRequestIssued
 =
 PR_TRUE
 ;
+if
+(
+!
+mKeepRequestAlive
+)
 mRequest
 =
 nsnull
@@ -8498,6 +8511,10 @@ SetWebProgressListener
 (
 tr
 )
+;
+mRequest
+=
+nsnull
 ;
 return
 rv
@@ -9723,6 +9740,10 @@ mCanceled
 PR_TRUE
 ;
 mDialog
+=
+nsnull
+;
+mRequest
 =
 nsnull
 ;

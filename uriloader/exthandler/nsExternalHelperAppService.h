@@ -696,6 +696,9 @@ nsIHelperAppLauncherDialog
 >
 mDialog
 ;
+PRBool
+mKeepRequestAlive
+;
 nsIRequest
 *
 mRequest
