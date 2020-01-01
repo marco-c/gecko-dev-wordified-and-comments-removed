@@ -195,6 +195,11 @@ nsIMobileConnectionProvider
 .
 idl
 '
+'
+nsINetworkStatsServiceProxy
+.
+idl
+'
 ]
 XPIDL_MODULE
 =

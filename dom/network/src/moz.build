@@ -243,6 +243,16 @@ NetworkStatsManager
 .
 manifest
 '
+'
+NetworkStatsServiceProxy
+.
+js
+'
+'
+NetworkStatsServiceProxy
+.
+manifest
+'
 ]
 IPDL_SOURCES
 +
