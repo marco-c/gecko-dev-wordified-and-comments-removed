@@ -525,6 +525,14 @@ nsCSSPseudoElements
 .
 h
 \
+nsCSSRuleProcessor
+.
+h
+\
+nsCSSStyleSheet
+.
+h
+\
 nsCSSStruct
 .
 h

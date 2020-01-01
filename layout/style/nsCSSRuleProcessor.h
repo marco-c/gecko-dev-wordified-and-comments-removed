@@ -59,7 +59,7 @@ ClearRuleCascades
 ;
 static
 void
-Shutdown
+FreeSystemMetrics
 (
 )
 ;

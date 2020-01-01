@@ -288,6 +288,13 @@ h
 #
 include
 "
+nsCSSRuleProcessor
+.
+h
+"
+#
+include
+"
 nsStyleChangeList
 .
 h
@@ -5747,6 +5754,13 @@ sLookAndFeelChanged
 PR_FALSE
 ;
 }
+nsCSSRuleProcessor
+:
+:
+FreeSystemMetrics
+(
+)
+;
 RebuildAllStyleData
 (
 NS_STYLE_HINT_REFLOW

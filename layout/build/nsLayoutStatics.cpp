@@ -1174,7 +1174,7 @@ Shutdown
 nsCSSRuleProcessor
 :
 :
-Shutdown
+FreeSystemMetrics
 (
 )
 ;
