@@ -175,6 +175,10 @@ WIN2K3_VERSION
 define
 VISTA_VERSION
 0x600
+#
+define
+WIN7_VERSION
+0x601
 PRInt32
 GetWindowsVersion
 (
@@ -284,7 +288,7 @@ nsIWidget
 *
 aParent
 const
-nsIntRect
+nsRect
 &
 aRect
 EVENT_CALLBACK
@@ -315,7 +319,7 @@ Create
 nsNativeWidget
 aParent
 const
-nsIntRect
+nsRect
 &
 aRect
 EVENT_CALLBACK
@@ -348,7 +352,7 @@ nsIWidget
 *
 aParent
 const
-nsIntRect
+nsRect
 &
 aRect
 EVENT_CALLBACK
@@ -519,7 +523,7 @@ aRaise
 NS_IMETHOD
 GetBounds
 (
-nsIntRect
+nsRect
 &
 aRect
 )
@@ -527,7 +531,7 @@ aRect
 NS_IMETHOD
 GetClientBounds
 (
-nsIntRect
+nsRect
 &
 aRect
 )
@@ -535,7 +539,7 @@ aRect
 NS_IMETHOD
 GetScreenBounds
 (
-nsIntRect
+nsRect
 &
 aRect
 )
@@ -591,7 +595,7 @@ NS_IMETHOD
 Invalidate
 (
 const
-nsIntRect
+nsRect
 &
 aRect
 PRBool
@@ -649,7 +653,7 @@ PRInt32
 aDx
 PRInt32
 aDy
-nsIntRect
+nsRect
 *
 aClipRect
 )
@@ -666,7 +670,7 @@ aDy
 NS_IMETHOD
 ScrollRect
 (
-nsIntRect
+nsRect
 &
 aRect
 PRInt32
@@ -720,10 +724,10 @@ NS_IMETHOD
 WidgetToScreen
 (
 const
-nsIntRect
+nsRect
 &
 aOldRect
-nsIntRect
+nsRect
 &
 aNewRect
 )
@@ -732,10 +736,10 @@ NS_IMETHOD
 ScreenToWidget
 (
 const
-nsIntRect
+nsRect
 &
 aOldRect
-nsIntRect
+nsRect
 &
 aNewRect
 )
@@ -1069,7 +1073,7 @@ nsIAccessible
 *
 *
 aAccessible
-nsIntPoint
+nsPoint
 *
 aPoint
 =
@@ -1092,7 +1096,7 @@ AutoErase
 (
 )
 ;
-nsIntPoint
+nsPoint
 *
 GetLastPoint
 (
@@ -1122,7 +1126,7 @@ InitEvent
 nsGUIEvent
 &
 event
-nsIntPoint
+nsPoint
 *
 aPoint
 =
@@ -1445,7 +1449,7 @@ virtual
 PRBool
 OnResize
 (
-nsIntRect
+nsRect
 &
 aWindowRect
 )
@@ -1651,13 +1655,13 @@ ResolveIMECaretPos
 nsIWidget
 *
 aReferenceWidget
-nsIntRect
+nsRect
 &
 aCursorRect
 nsIWidget
 *
 aNewOriginWidget
-nsIntRect
+nsRect
 &
 aOutRect
 )
@@ -1796,7 +1800,7 @@ lParam
 void
 GetNonClientBounds
 (
-nsIntRect
+nsRect
 &
 aRect
 )
@@ -2009,7 +2013,7 @@ static
 TriStateBool
 sCanQuit
 ;
-nsIntSize
+nsSize
 mLastSize
 ;
 static
@@ -2017,7 +2021,7 @@ nsWindow
 *
 gCurrentWindow
 ;
-nsIntPoint
+nsPoint
 mLastPoint
 ;
 HWND
