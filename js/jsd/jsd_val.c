@@ -3122,10 +3122,7 @@ jsdc
 -
 >
 dumbContext
-jsdc
--
->
-glob
+obj
 )
 ;
 if
