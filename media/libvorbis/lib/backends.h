@@ -374,6 +374,9 @@ int
 partitions
 ;
 int
+partvals
+;
+int
 groupbook
 ;
 int

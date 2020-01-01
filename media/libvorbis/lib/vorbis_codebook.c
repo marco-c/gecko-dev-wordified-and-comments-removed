@@ -1035,6 +1035,15 @@ num
 goto
 _eofout
 ;
+if
+(
+length
+>
+32
+)
+goto
+_errout
+;
 for
 (
 j
