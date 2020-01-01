@@ -968,6 +968,16 @@ NextElem
 (
 )
 ;
+nsIContent
+*
+GetElem
+(
+const
+nsDependentSubstring
+&
+aID
+)
+;
 private
 :
 nsString
