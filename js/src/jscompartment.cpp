@@ -356,6 +356,10 @@ gcIncomingGrayPointers
 (
 NULL
 )
+gcLiveArrayBuffers
+(
+NULL
+)
 gcMallocBytes
 (
 0

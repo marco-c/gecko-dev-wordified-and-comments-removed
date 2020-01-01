@@ -1329,6 +1329,10 @@ js
 RawObject
 gcIncomingGrayPointers
 ;
+JSObject
+*
+gcLiveArrayBuffers
+;
 private
 :
 ptrdiff_t

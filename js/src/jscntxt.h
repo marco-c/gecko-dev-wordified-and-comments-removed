@@ -2624,10 +2624,6 @@ DebugScopes
 *
 debugScopes
 ;
-JSObject
-*
-liveArrayBuffers
-;
 void
 *
 data
