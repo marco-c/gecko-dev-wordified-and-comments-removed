@@ -63,6 +63,9 @@ pc
 MacroAssembler
 masm
 ;
+bool
+ionCompileable_
+;
 FrameInfo
 frame
 ;
