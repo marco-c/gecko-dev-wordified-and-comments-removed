@@ -941,6 +941,15 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHOD
+Reset
+(
+)
+{
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
+}
+NS_IMETHOD
 Render
 (
 gfxContext

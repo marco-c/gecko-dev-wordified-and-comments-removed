@@ -1634,6 +1634,11 @@ PRBool
 isOpaque
 )
 ;
+NS_IMETHOD
+Reset
+(
+)
+;
 already_AddRefed
 <
 CanvasLayer
@@ -1749,11 +1754,6 @@ sPremultiplyTable
 [
 256
 ]
-;
-void
-Destroy
-(
-)
 ;
 nsresult
 SetStyleFromStringOrInterface
@@ -2924,7 +2924,7 @@ nsCanvasRenderingContext2D
 (
 )
 {
-Destroy
+Reset
 (
 )
 ;
@@ -3023,11 +3023,11 @@ nsnull
 ;
 }
 }
-void
+nsresult
 nsCanvasRenderingContext2D
 :
 :
-Destroy
+Reset
 (
 )
 {
@@ -3125,6 +3125,9 @@ PR_FALSE
 mIsEntireFrameInvalid
 =
 PR_FALSE
+;
+return
+NS_OK
 ;
 }
 nsresult
@@ -3992,7 +3995,7 @@ PRInt32
 height
 )
 {
-Destroy
+Reset
 (
 )
 ;
@@ -4363,7 +4366,7 @@ PRInt32
 height
 )
 {
-Destroy
+Reset
 (
 )
 ;

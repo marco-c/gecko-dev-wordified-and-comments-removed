@@ -7863,7 +7863,7 @@ previews
 .
 cachetime
 "
-20
+5
 )
 ;
 pref
