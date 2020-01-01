@@ -116,6 +116,12 @@ only
 xul
 "
 ;
+var
+_richgridTileSizes
+=
+{
+}
+;
 window
 .
 sizeToContent
