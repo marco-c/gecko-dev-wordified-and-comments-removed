@@ -524,6 +524,10 @@ nsresult
 status
 )
 ;
+EnteringErrorState
+(
+)
+;
 }
 ;
 }
