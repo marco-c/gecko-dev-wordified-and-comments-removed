@@ -473,10 +473,6 @@ nsIAccessibleSelectable
 .
 idl
 \
-nsIAccessNode
-.
-idl
-\
 nsIAccessibleCursorable
 .
 idl
