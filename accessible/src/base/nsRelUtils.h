@@ -99,6 +99,10 @@ aContent
 nsIAtom
 *
 aAttr
+PRBool
+aMayBeAnon
+=
+PR_FALSE
 )
 ;
 static

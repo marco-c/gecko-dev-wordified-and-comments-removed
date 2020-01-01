@@ -462,6 +462,7 @@ nsAccessibilityAtoms
 :
 :
 linkedPanel
+PR_TRUE
 )
 ;
 NS_ENSURE_SUCCESS
