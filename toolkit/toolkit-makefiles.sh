@@ -6688,13 +6688,6 @@ WINNT
 then
 add_makefiles
 "
-intl
-/
-chardet
-/
-tests
-/
-Makefile
 toolkit
 /
 xre
