@@ -16215,15 +16215,6 @@ nsIWidget
 >
 widgetChain
 ;
-gRollupListener
--
->
-GetSubmenuWidgetChain
-(
-&
-widgetChain
-)
-;
 PRUint32
 sameTypeCount
 =
