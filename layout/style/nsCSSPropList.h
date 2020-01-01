@@ -1352,7 +1352,7 @@ BackgroundPosition
 Color
 mBackPosition
 eCSSType_ValuePair
-nsnull
+kBackgroundPositionKTable
 )
 CSS_PROP_BACKGROUND
 (
