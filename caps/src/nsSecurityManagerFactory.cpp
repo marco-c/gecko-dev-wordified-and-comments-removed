@@ -197,6 +197,7 @@ jsval
 vp
 )
 {
+return
 xpc
 :
 :
@@ -204,9 +205,6 @@ EnableUniversalXPConnect
 (
 cx
 )
-;
-return
-JS_TRUE
 ;
 }
 static
