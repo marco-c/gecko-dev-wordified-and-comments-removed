@@ -82,9 +82,6 @@ _initFrameCallbacks
 :
 [
 ]
-_lastSessionGroupName
-:
-null
 PREF_BRANCH
 :
 "
