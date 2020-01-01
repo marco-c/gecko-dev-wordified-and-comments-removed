@@ -509,6 +509,10 @@ RuntimeAllocPolicy
 RegExpPrivateCache
 ;
 typedef
+JSObject
+Env
+;
+typedef
 JSNative
 Native
 ;
