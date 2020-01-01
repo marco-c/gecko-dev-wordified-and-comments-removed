@@ -359,6 +359,10 @@ nsFrameLoader
 .
 cpp
 \
+Element
+.
+cpp
+\
 nsFormData
 .
 cpp
@@ -368,10 +372,6 @@ nsGenConImageContent
 cpp
 \
 nsGenericDOMDataNode
-.
-cpp
-\
-nsGenericElement
 .
 cpp
 \
