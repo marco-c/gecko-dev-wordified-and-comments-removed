@@ -3324,8 +3324,7 @@ arrayLength
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -3395,8 +3394,7 @@ arrayLength
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -3656,8 +3654,7 @@ dim
 ;
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -3933,8 +3930,7 @@ location
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )

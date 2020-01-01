@@ -4,6 +4,13 @@ WEBGLTYPES_H_
 #
 define
 WEBGLTYPES_H_
+#
+include
+"
+GLTypes
+.
+h
+"
 typedef
 int64_t
 WebGLsizeiptr

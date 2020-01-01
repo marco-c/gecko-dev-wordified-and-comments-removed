@@ -594,8 +594,7 @@ rv
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -1084,8 +1083,7 @@ SetNull
 ;
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )

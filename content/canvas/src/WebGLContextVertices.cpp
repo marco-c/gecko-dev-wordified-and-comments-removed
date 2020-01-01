@@ -97,8 +97,7 @@ x0
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -189,8 +188,7 @@ x1
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -285,8 +283,7 @@ x2
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -385,8 +382,7 @@ x3
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -923,8 +919,7 @@ index
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -984,8 +979,7 @@ index
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -1068,8 +1062,7 @@ rv
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -1496,8 +1489,7 @@ pname
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -1574,8 +1566,7 @@ byteOffset
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -1900,8 +1891,7 @@ divisor
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -2321,8 +2311,7 @@ count
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -2395,8 +2384,7 @@ primcount
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -3143,8 +3131,7 @@ byteOffset
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
@@ -3228,8 +3215,7 @@ primcount
 {
 if
 (
-!
-IsContextStable
+IsContextLost
 (
 )
 )
