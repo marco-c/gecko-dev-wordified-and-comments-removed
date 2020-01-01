@@ -854,8 +854,8 @@ lockFileName
 get
 (
 )
-obscureValue
 PR_TRUE
+obscureValue
 PR_TRUE
 )
 ;
@@ -1072,10 +1072,10 @@ const
 char
 *
 aFileName
-PRInt32
-obscureValue
 PRBool
 isEncoded
+PRInt32
+obscureValue
 PRBool
 isBinDir
 )
