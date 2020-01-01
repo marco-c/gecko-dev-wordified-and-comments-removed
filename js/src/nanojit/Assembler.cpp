@@ -159,6 +159,10 @@ _labels
 (
 alloc
 )
+_noise
+(
+NULL
+)
 #
 if
 NJ_USES_IMMD_POOL
