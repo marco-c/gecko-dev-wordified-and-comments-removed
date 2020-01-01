@@ -3211,9 +3211,12 @@ result
 {
 NS_ASSERTION
 (
-NS_IsMainThread
+PR_GetCurrentThread
 (
 )
+!
+=
+gSocketThread
 "
 wrong
 thread
