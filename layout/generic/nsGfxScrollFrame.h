@@ -1176,7 +1176,7 @@ AsyncScroll
 >
 mAsyncScroll
 ;
-nsCOMPtr
+nsRefPtr
 <
 ScrollbarActivity
 >
