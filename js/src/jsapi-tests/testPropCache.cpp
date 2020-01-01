@@ -51,7 +51,7 @@ Counter
 "
 0
 CounterAdd
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub

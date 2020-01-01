@@ -30,10 +30,14 @@ i
 +
 +
 )
+assertEq
+(
 delete
 a
 .
 length
+false
+)
 ;
 assertEq
 (

@@ -65,8 +65,7 @@ p
 3
 )
 ;
-assertEq
-(
+assertThrowsInstanceOf
 (
 function
 fun
@@ -85,9 +84,6 @@ x
 p
 ;
 }
-)
-(
-)
-false
+TypeError
 )
 ;

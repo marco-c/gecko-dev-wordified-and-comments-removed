@@ -220,7 +220,7 @@ JSCLASS_HAS_CACHED_PROTO
 JSProto_JSON
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -3884,6 +3884,9 @@ isUndefined
 )
 )
 {
+JSBool
+succeeded
+;
 if
 (
 !
@@ -3899,8 +3902,7 @@ IdToValue
 id
 )
 &
-newElement
-false
+succeeded
 )
 )
 return
@@ -4023,6 +4025,9 @@ isUndefined
 )
 )
 {
+JSBool
+succeeded
+;
 if
 (
 !
@@ -4038,8 +4043,7 @@ IdToValue
 id
 )
 &
-newElement
-false
+succeeded
 )
 )
 return

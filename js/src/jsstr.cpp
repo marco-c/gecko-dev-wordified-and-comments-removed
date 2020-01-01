@@ -2171,7 +2171,7 @@ JSCLASS_HAS_CACHED_PROTO
 JSProto_String
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 str_enumerate

@@ -4643,7 +4643,7 @@ JSCLASS_HAS_PRIVATE
 |
 JSCLASS_BACKGROUND_FINALIZE
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -5129,7 +5129,7 @@ ElementIteratorObject
 NumSlots
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -6710,7 +6710,7 @@ JSProto_StopIteration
 |
 JSCLASS_FREEZE_PROTO
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -7091,7 +7091,7 @@ JSCLASS_HAS_PRIVATE
 |
 JSCLASS_IMPLEMENTS_BARRIERS
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub

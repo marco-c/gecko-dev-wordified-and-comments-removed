@@ -2997,7 +2997,7 @@ JSCLASS_HAS_CACHED_PROTO
 JSProto_Function
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 fun_enumerate

@@ -1366,7 +1366,7 @@ CallObject
 RESERVED_SLOTS
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -1395,7 +1395,7 @@ JSCLASS_HAS_CACHED_PROTO
 JSProto_Object
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -2775,10 +2775,9 @@ HandleObject
 obj
 HandlePropertyName
 name
-MutableHandleValue
-rval
 JSBool
-strict
+*
+succeeded
 )
 {
 RootedObject
@@ -2807,8 +2806,7 @@ deleteProperty
 cx
 actual
 name
-rval
-strict
+succeeded
 )
 ;
 }
@@ -2823,10 +2821,9 @@ HandleObject
 obj
 uint32_t
 index
-MutableHandleValue
-rval
 JSBool
-strict
+*
+succeeded
 )
 {
 RootedObject
@@ -2855,8 +2852,7 @@ deleteElement
 cx
 actual
 index
-rval
-strict
+succeeded
 )
 ;
 }
@@ -2871,10 +2867,9 @@ HandleObject
 obj
 HandleSpecialId
 sid
-MutableHandleValue
-rval
 JSBool
-strict
+*
+succeeded
 )
 {
 RootedObject
@@ -2903,8 +2898,7 @@ deleteSpecial
 cx
 actual
 sid
-rval
-strict
+succeeded
 )
 ;
 }
@@ -3002,7 +2996,7 @@ RESERVED_SLOTS
 |
 JSCLASS_IS_ANONYMOUS
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -3723,7 +3717,7 @@ RESERVED_SLOTS
 |
 JSCLASS_IS_ANONYMOUS
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub

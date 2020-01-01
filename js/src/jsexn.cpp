@@ -315,7 +315,7 @@ JSCLASS_HAS_CACHED_PROTO
 JSProto_Error
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub

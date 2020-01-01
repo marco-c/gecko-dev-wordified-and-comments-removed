@@ -2250,7 +2250,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 COLLATOR_SLOTS_COUNT
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -4839,7 +4839,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 NUMBER_FORMAT_SLOTS_COUNT
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -7231,7 +7231,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 DATE_TIME_FORMAT_SLOTS_COUNT
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -9750,7 +9750,7 @@ JSCLASS_HAS_CACHED_PROTO
 JSProto_Intl
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub

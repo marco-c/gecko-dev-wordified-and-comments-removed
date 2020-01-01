@@ -35,7 +35,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 |
 JSCLASS_IS_ANONYMOUS
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub

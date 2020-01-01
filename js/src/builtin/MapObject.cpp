@@ -3880,7 +3880,7 @@ MapIteratorObject
 SlotCount
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -4700,7 +4700,7 @@ JSCLASS_HAS_CACHED_PROTO
 JSProto_Map
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -7078,7 +7078,7 @@ SetIteratorObject
 SlotCount
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
@@ -7686,7 +7686,7 @@ JSCLASS_HAS_CACHED_PROTO
 JSProto_Set
 )
 JS_PropertyStub
-JS_PropertyStub
+JS_DeletePropertyStub
 JS_PropertyStub
 JS_StrictPropertyStub
 JS_EnumerateStub
