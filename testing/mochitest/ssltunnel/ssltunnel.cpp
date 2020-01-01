@@ -925,14 +925,7 @@ s
 \
 n
 "
-si
--
->
-cert_nickname
-.
-c_str
-(
-)
+certnick
 )
 ;
 return
