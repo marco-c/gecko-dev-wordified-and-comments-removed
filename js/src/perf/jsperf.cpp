@@ -725,7 +725,7 @@ mask
 return
 JS_FALSE
 ;
-js
+JS
 :
 :
 RootedObject
@@ -982,9 +982,6 @@ JSRawObject
 global
 )
 {
-js
-:
-:
 RootedObject
 prototype
 (
@@ -1016,9 +1013,6 @@ prototype
 return
 0
 ;
-js
-:
-:
 RootedObject
 ctor
 (

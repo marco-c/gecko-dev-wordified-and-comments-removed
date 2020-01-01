@@ -48,7 +48,7 @@ BEGIN_TEST
 testSetProperty_NativeGetterStubSetter
 )
 {
-js
+JS
 :
 :
 RootedObject
@@ -69,7 +69,7 @@ CHECK
 obj
 )
 ;
-js
+JS
 :
 :
 RootedValue

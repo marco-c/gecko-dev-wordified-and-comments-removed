@@ -39,7 +39,7 @@ BEGIN_TEST
 testDefineGetterSetterNonEnumerable
 )
 {
-js
+JS
 :
 :
 RootedValue
@@ -48,7 +48,7 @@ vobj
 cx
 )
 ;
-js
+JS
 :
 :
 RootedObject
@@ -97,7 +97,7 @@ CHECK
 funGet
 )
 ;
-js
+JS
 :
 :
 RootedObject
@@ -110,7 +110,7 @@ funGet
 )
 )
 ;
-js
+JS
 :
 :
 RootedValue
@@ -144,7 +144,7 @@ CHECK
 funSet
 )
 ;
-js
+JS
 :
 :
 RootedObject
@@ -157,7 +157,7 @@ funSet
 )
 )
 ;
-js
+JS
 :
 :
 RootedValue
@@ -170,7 +170,7 @@ funSetObj
 )
 )
 ;
-js
+JS
 :
 :
 RootedObject

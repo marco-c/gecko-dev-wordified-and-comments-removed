@@ -24273,9 +24273,6 @@ Value
 vp
 )
 {
-js
-:
-:
 RootedObject
 obj
 (
@@ -24402,9 +24399,6 @@ Value
 vp
 )
 {
-js
-:
-:
 RootedObject
 obj
 (
@@ -24569,9 +24563,6 @@ Value
 vp
 )
 {
-js
-:
-:
 RootedObject
 obj
 (

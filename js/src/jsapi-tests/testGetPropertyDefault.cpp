@@ -102,7 +102,7 @@ testGetPropertyDefault_bug594060
 )
 {
 {
-js
+JS
 :
 :
 RootedObject
@@ -123,7 +123,7 @@ CHECK
 obj
 )
 ;
-js
+JS
 :
 :
 RootedValue
@@ -150,7 +150,7 @@ address
 )
 )
 ;
-js
+JS
 :
 :
 RootedValue
@@ -185,7 +185,7 @@ v1
 )
 )
 ;
-js
+JS
 :
 :
 RootedValue
@@ -222,7 +222,7 @@ v2
 ;
 }
 {
-js
+JS
 :
 :
 RootedObject
@@ -275,7 +275,7 @@ nothereid
 )
 )
 ;
-js
+JS
 :
 :
 RootedValue
@@ -300,7 +300,7 @@ address
 )
 )
 ;
-js
+JS
 :
 :
 RootedValue
@@ -333,7 +333,7 @@ v1
 )
 )
 ;
-js
+JS
 :
 :
 RootedValue

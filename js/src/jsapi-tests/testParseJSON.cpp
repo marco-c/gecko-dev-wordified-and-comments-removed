@@ -355,7 +355,7 @@ infinity
 )
 )
 ;
-js
+JS
 :
 :
 Rooted
@@ -599,7 +599,7 @@ str
 )
 )
 ;
-js
+JS
 :
 :
 RootedValue
@@ -612,7 +612,7 @@ v2
 cx
 )
 ;
-js
+JS
 :
 :
 RootedObject
@@ -990,7 +990,7 @@ str
 cx
 )
 ;
-js
+JS
 :
 :
 RootedValue
@@ -1483,7 +1483,7 @@ CHECK
 fun
 )
 ;
-js
+JS
 :
 :
 RootedValue
@@ -1639,7 +1639,7 @@ str
 cx
 )
 ;
-js
+JS
 :
 :
 RootedValue

@@ -123,7 +123,7 @@ resolveExitCount
 =
 0
 ;
-js
+JS
 :
 :
 RootedValue
@@ -287,7 +287,7 @@ CHECK
 str
 )
 ;
-js
+JS
 :
 :
 RootedValue

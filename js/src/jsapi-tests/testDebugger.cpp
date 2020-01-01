@@ -60,7 +60,7 @@ before
 +
 +
 ;
-js
+JS
 :
 :
 RootedValue
@@ -239,7 +239,7 @@ bool
 )
 closure
 ;
-js
+JS
 :
 :
 RootedValue
@@ -532,7 +532,7 @@ bool
 )
 closure
 ;
-js
+JS
 :
 :
 RootedValue
@@ -791,7 +791,7 @@ called
 =
 true
 ;
-js
+JS
 :
 :
 RootedObject
@@ -994,7 +994,7 @@ global
 )
 )
 ;
-js
+JS
 :
 :
 RootedObject
@@ -1043,7 +1043,7 @@ debuggee
 )
 ;
 }
-js
+JS
 :
 :
 RootedObject
@@ -1066,7 +1066,7 @@ address
 )
 )
 ;
-js
+JS
 :
 :
 RootedValue
@@ -1257,7 +1257,7 @@ global
 )
 )
 ;
-js
+JS
 :
 :
 RootedObject
@@ -1297,7 +1297,7 @@ g
 )
 ;
 }
-js
+JS
 :
 :
 RootedObject
@@ -1320,7 +1320,7 @@ address
 )
 )
 ;
-js
+JS
 :
 :
 RootedValue
@@ -1520,7 +1520,7 @@ v
 )
 ;
 }
-js
+JS
 :
 :
 RootedValue
