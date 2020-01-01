@@ -506,9 +506,6 @@ if
 oldZoomAndPan
 !
 =
-nsIDOMSVGZoomAndPan
-:
-:
 SVG_ZOOMANDPAN_UNKNOWN
 )
 {
