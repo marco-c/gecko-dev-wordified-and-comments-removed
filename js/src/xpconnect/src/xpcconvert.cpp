@@ -6388,7 +6388,7 @@ NS_ASSERTION
 flat
 -
 >
-getCompartment
+compartment
 (
 )
 =

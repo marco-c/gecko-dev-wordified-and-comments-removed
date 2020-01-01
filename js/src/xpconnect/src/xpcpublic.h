@@ -371,7 +371,7 @@ wrapper
 wrapper
 -
 >
-getCompartment
+compartment
 (
 )
 =

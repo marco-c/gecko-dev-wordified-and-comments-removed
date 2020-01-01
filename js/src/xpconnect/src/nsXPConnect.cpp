@@ -3832,7 +3832,7 @@ compartment
 tempGlobal
 -
 >
-getCompartment
+compartment
 (
 )
 ;

@@ -417,7 +417,7 @@ wrapper
 )
 -
 >
-getCompartment
+compartment
 (
 )
 )

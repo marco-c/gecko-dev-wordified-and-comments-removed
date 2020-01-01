@@ -14824,7 +14824,7 @@ cx
 sandbox
 -
 >
-getCompartment
+compartment
 (
 )
 )
