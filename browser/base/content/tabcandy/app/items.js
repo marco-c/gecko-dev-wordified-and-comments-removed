@@ -412,6 +412,7 @@ cancelClass
 :
 '
 close
+stackExpander
 '
 start
 :
