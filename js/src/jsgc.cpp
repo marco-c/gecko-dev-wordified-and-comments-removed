@@ -14163,7 +14163,10 @@ JS_THREADSAFE
 namespace
 js
 {
+JS_FRIEND_API
+(
 void
+)
 BackgroundSweepTask
 :
 :

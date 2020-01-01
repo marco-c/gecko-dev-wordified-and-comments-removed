@@ -1024,7 +1024,10 @@ void
 *
 freeCursorEnd
 ;
+JS_FRIEND_API
+(
 void
+)
 replenishAndFreeLater
 (
 void
