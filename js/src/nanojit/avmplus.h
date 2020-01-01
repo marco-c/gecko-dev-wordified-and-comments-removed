@@ -130,6 +130,10 @@ JSUint32
 uint32_t
 ;
 typedef
+JSInt32
+int32_t
+;
+typedef
 JSUint64
 uint64_t
 ;
