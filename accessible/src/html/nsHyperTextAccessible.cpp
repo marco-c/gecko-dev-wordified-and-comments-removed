@@ -4155,7 +4155,7 @@ aType
 eGetBefore
 )
 {
-endOffset
+finalEndOffset
 =
 aOffset
 ;
