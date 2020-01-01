@@ -9929,6 +9929,10 @@ nsINavHistoryQueryOptions
 :
 :
 RESULTS_AS_TAG_CONTENTS
+&
+&
+!
+mExpanded
 )
 return
 NS_OK
