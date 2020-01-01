@@ -9036,6 +9036,10 @@ status
 =
 nsEventStatus_eConsumeNoDefault
 )
+{
+PRBool
+dragStarted
+=
 DoDefaultDragStart
 (
 aPresContext
@@ -9045,6 +9049,21 @@ targetContent
 isSelection
 )
 ;
+if
+(
+dragStarted
+)
+{
+aEvent
+-
+>
+flags
+|
+=
+NS_EVENT_FLAG_STOP_DISPATCH
+;
+}
+}
 mCurrentTargetContent
 =
 targetBeforeEvent
@@ -9394,7 +9413,7 @@ aTargetNode
 ;
 }
 }
-void
+PRBool
 nsEventStateManager
 :
 :
@@ -9443,6 +9462,7 @@ if
 dragService
 )
 return
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -9466,6 +9486,7 @@ if
 dragSession
 )
 return
+PR_TRUE
 ;
 PRUint32
 count
@@ -9491,6 +9512,7 @@ if
 count
 )
 return
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -9541,6 +9563,7 @@ if
 dragTarget
 )
 return
+PR_FALSE
 ;
 }
 PRUint32
@@ -9687,6 +9710,7 @@ if
 transArray
 )
 return
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -9877,6 +9901,9 @@ aDataTransfer
 )
 ;
 }
+return
+PR_TRUE
+;
 }
 nsresult
 nsEventStateManager

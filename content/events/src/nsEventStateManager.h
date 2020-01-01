@@ -810,7 +810,7 @@ nsIContent
 aTargetNode
 )
 ;
-void
+PRBool
 DoDefaultDragStart
 (
 nsPresContext
