@@ -949,7 +949,13 @@ IsDone
 )
 =
 =
+static_cast
+<
+nsresult
+>
+(
 NS_ENUMERATOR_FALSE
+)
 ;
 domInterfaces
 -

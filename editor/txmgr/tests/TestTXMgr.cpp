@@ -26143,7 +26143,7 @@ simple_test
 NS_ENSURE_SUCCESS
 (
 result
-result
+1
 )
 ;
 result
@@ -26155,7 +26155,7 @@ aggregation_test
 NS_ENSURE_SUCCESS
 (
 result
-result
+1
 )
 ;
 result
@@ -26167,7 +26167,7 @@ simple_batch_test
 NS_ENSURE_SUCCESS
 (
 result
-result
+1
 )
 ;
 result
@@ -26179,7 +26179,7 @@ aggregation_batch_test
 NS_ENSURE_SUCCESS
 (
 result
-result
+1
 )
 ;
 result
@@ -26191,7 +26191,7 @@ simple_stress_test
 NS_ENSURE_SUCCESS
 (
 result
-result
+1
 )
 ;
 result
@@ -26203,7 +26203,7 @@ aggregation_stress_test
 NS_ENSURE_SUCCESS
 (
 result
-result
+1
 )
 ;
 result
@@ -26215,10 +26215,10 @@ aggregation_batch_stress_test
 NS_ENSURE_SUCCESS
 (
 result
-result
+1
 )
 ;
 return
-NS_OK
+0
 ;
 }

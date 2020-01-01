@@ -482,6 +482,14 @@ EDirection
 aAction
 )
 ;
+bool
+IsSafeToInsertData
+(
+nsIDOMDocument
+*
+aSourceDoc
+)
+;
 static
 void
 GetDefaultEditorPrefs

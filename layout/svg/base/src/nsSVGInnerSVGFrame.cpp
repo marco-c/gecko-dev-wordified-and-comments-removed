@@ -1137,6 +1137,16 @@ aNameSpaceID
 =
 =
 kNameSpaceID_None
+&
+&
+!
+(
+GetStateBits
+(
+)
+&
+NS_STATE_SVG_NONDISPLAY_CHILD
+)
 )
 {
 nsSVGSVGElement

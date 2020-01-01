@@ -145,12 +145,6 @@ using
 NPNVariable
 ;
 using
-base
-:
-:
-FileDescriptor
-;
-using
 mozilla
 :
 :

@@ -4755,7 +4755,7 @@ nsISerializable
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIIPCSerializable
+nsIIPCSerializableObsolete
 )
 NS_INTERFACE_MAP_ENTRY
 (

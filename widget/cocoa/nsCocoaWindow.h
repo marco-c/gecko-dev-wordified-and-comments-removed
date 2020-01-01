@@ -510,17 +510,6 @@ aNotification
 ;
 -
 (
-void
-)
-sendFocusEvent
-:
-(
-PRUint32
-)
-eventType
-;
--
-(
 nsCocoaWindow
 *
 )
@@ -715,8 +704,6 @@ const
 nsIntRect
 &
 aRect
-EVENT_CALLBACK
-aHandleEventFunction
 nsDeviceContext
 *
 aContext
@@ -1286,8 +1273,6 @@ const
 nsIntRect
 &
 aRect
-EVENT_CALLBACK
-aHandleEventFunction
 nsDeviceContext
 *
 aContext

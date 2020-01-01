@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsIIPCSerializable
+nsIIPCSerializableObsolete
 .
 h
 "
@@ -105,7 +105,7 @@ nsIURI
 public
 nsISerializable
 public
-nsIIPCSerializable
+nsIIPCSerializableObsolete
 public
 nsIClassInfo
 public
@@ -118,7 +118,7 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSIURI
 NS_DECL_NSISERIALIZABLE
-NS_DECL_NSIIPCSERIALIZABLE
+NS_DECL_NSIIPCSERIALIZABLEOBSOLETE
 NS_DECL_NSICLASSINFO
 NS_DECL_NSIMUTABLE
 nsSimpleURI

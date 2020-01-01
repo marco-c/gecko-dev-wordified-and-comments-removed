@@ -516,6 +516,9 @@ setFailureFile
 params
 .
 failureFile
+[
+0
+]
 )
 ;
 }
@@ -535,6 +538,9 @@ SpecialPowersLogger
 params
 .
 logFile
+[
+0
+]
 )
 ;
 TestRunner

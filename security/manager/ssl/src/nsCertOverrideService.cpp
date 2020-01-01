@@ -1197,7 +1197,10 @@ portParseError
 ;
 if
 (
+NS_FAILED
+(
 portParseError
+)
 )
 continue
 ;

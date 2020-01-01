@@ -291,7 +291,7 @@ nsWindow
 (
 )
 ;
-nsEventStatus
+bool
 DoPaint
 (
 QPainter
@@ -339,8 +339,6 @@ const
 nsIntRect
 &
 aRect
-EVENT_CALLBACK
-aHandleEventFunction
 nsDeviceContext
 *
 aContext
@@ -360,8 +358,6 @@ const
 nsIntRect
 &
 aRect
-EVENT_CALLBACK
-aHandleEventFunction
 nsDeviceContext
 *
 aContext

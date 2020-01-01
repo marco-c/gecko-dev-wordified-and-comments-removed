@@ -4129,7 +4129,11 @@ GetStateBits
 (
 )
 &
+(
 NS_FRAME_FIRST_REFLOW
+|
+NS_STATE_SVG_NONDISPLAY_CHILD
+)
 )
 )
 {

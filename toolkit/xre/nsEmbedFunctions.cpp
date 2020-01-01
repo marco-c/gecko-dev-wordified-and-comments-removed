@@ -1961,7 +1961,7 @@ NS_LogInit
 (
 )
 ;
-int
+nsresult
 rv
 =
 XRE_InitCommandLine
@@ -2344,7 +2344,7 @@ gArgv
 =
 aArgv
 ;
-int
+nsresult
 rv
 =
 XRE_InitCommandLine

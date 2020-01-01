@@ -1721,7 +1721,13 @@ err
 -
 >
 setjmp_buffer
+static_cast
+<
+int
+>
+(
 NS_ERROR_OUT_OF_MEMORY
+)
 )
 ;
 }
@@ -1921,7 +1927,13 @@ err
 -
 >
 setjmp_buffer
+static_cast
+<
+int
+>
+(
 error_code
+)
 )
 ;
 }

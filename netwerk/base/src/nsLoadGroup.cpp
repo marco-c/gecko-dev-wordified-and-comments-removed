@@ -2859,6 +2859,11 @@ arg
 bool
 ok
 =
+static_cast
+<
+bool
+>
+(
 array
 -
 >
@@ -2868,6 +2873,7 @@ e
 -
 >
 mKey
+)
 )
 ;
 if

@@ -1616,6 +1616,10 @@ BeginTransaction
 (
 )
 {
+mInTransaction
+=
+true
+;
 }
 void
 LayerManagerOGL
@@ -1628,6 +1632,10 @@ gfxContext
 aTarget
 )
 {
+mInTransaction
+=
+true
+;
 #
 ifdef
 MOZ_LAYERS_HAVE_LOG
@@ -1686,6 +1694,10 @@ EndTransactionFlags
 aFlags
 )
 {
+mInTransaction
+=
+false
+;
 if
 (
 !
@@ -1720,6 +1732,10 @@ EndTransactionFlags
 aFlags
 )
 {
+mInTransaction
+=
+false
+;
 #
 ifdef
 MOZ_LAYERS_HAVE_LOG
