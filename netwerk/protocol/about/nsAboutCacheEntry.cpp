@@ -8,13 +8,6 @@ h
 #
 include
 "
-NSPRFormatTime
-.
-h
-"
-#
-include
-"
 nsAboutCacheEntry
 .
 h
