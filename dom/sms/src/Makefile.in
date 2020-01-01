@@ -593,6 +593,10 @@ SmsRequestManager
 .
 cpp
 \
+SmsFilter
+.
+cpp
+\
 (
 NULL
 )

@@ -1256,6 +1256,10 @@ MozSmsRequest
 )
 DOMCI_CLASS
 (
+MozSmsFilter
+)
+DOMCI_CLASS
+(
 CSSFontFaceRule
 )
 DOMCI_CLASS

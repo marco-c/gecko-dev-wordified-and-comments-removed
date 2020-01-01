@@ -469,6 +469,10 @@ nsIDOMSmsRequest
 .
 idl
 \
+nsIDOMSmsFilter
+.
+idl
+\
 (
 NULL
 )
