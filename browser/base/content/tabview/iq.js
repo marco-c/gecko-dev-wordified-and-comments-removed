@@ -4977,14 +4977,12 @@ focus
 '
 ]
 ;
-iQ
-.
-each
-(
 events
+.
+forEach
+(
 function
 (
-index
 event
 )
 {
