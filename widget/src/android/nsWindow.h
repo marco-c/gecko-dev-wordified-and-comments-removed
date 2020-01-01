@@ -132,6 +132,17 @@ ae
 )
 ;
 void
+OnMultitouchEvent
+(
+mozilla
+:
+:
+AndroidGeckoEvent
+*
+ae
+)
+;
+void
 OnKeyEvent
 (
 mozilla
@@ -730,6 +741,9 @@ mChildren
 nsWindow
 *
 mParent
+;
+double
+mStartDist
 ;
 nsCOMPtr
 <
