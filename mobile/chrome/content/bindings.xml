@@ -528,11 +528,6 @@ types
 "
 link
 -
-saveable
-"
-"
-link
--
 shareable
 "
 ]
@@ -3555,11 +3550,6 @@ types
 edit
 -
 bookmark
-"
-"
-link
--
-saveable
 "
 "
 link
