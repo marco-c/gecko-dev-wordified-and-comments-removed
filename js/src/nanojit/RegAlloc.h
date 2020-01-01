@@ -16,7 +16,10 @@ r
 )
 {
 return
+RegisterMask
+(
 1
+)
 <
 <
 r
