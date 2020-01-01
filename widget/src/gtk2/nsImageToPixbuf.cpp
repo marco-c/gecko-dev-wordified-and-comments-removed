@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsIGdkPixbufImage
+nsIImage
 .
 h
 "

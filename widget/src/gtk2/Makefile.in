@@ -694,10 +694,6 @@ NULL
 EXPORTS
 =
 \
-nsIGdkPixbufImage
-.
-h
-\
 nsGTKToolkit
 .
 h
