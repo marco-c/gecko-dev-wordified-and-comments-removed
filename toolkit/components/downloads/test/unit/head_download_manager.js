@@ -685,6 +685,13 @@ aParams
 isPrivate
 )
 ;
+if
+(
+!
+aParams
+.
+isPrivate
+)
 var
 test
 =

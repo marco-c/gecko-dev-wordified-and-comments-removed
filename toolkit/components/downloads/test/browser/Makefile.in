@@ -99,6 +99,10 @@ MOCHITEST_BROWSER_FILES
 +
 =
 \
+browser_private_resume
+.
+js
+\
 browser_privatebrowsing
 .
 js
