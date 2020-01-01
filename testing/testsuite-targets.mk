@@ -2588,7 +2588,7 @@ _tests
 /
 xpcshell
 /
-xpcshell
+xpcshell_android
 .
 ini
 \
