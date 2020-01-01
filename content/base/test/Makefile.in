@@ -2288,6 +2288,10 @@ test_bug626262
 .
 html
 \
+test_plugin_freezing
+.
+html
+\
 (
 NULL
 )
@@ -2323,16 +2327,6 @@ html
 NULL
 )
 endif
-#
-Disabled
-;
-see
-bug
-492181
-#
-test_plugin_freezing
-.
-html
 #
 Disabled
 for
