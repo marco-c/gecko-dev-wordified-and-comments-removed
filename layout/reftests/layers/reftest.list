@@ -20,14 +20,6 @@ background
 ref
 .
 html
-fuzzy
--
-if
-(
-cocoaWidget
-2
-6
-)
 random
 -
 if
