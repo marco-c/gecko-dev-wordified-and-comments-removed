@@ -120,13 +120,6 @@ h
 #
 include
 "
-nsIPref
-.
-h
-"
-#
-include
-"
 nsIPresShell
 .
 h
@@ -1353,7 +1346,7 @@ kIsHorizontal
 nsMouseScrollEvent
 :
 :
-kIsPixels
+kHasPixels
 ;
 mViewManager
 -
@@ -1419,7 +1412,7 @@ kIsVertical
 nsMouseScrollEvent
 :
 :
-kIsPixels
+kHasPixels
 ;
 mViewManager
 -
