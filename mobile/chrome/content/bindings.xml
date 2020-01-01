@@ -12179,6 +12179,11 @@ json
 types
 :
 [
+"
+input
+-
+text
+"
 ]
 string
 :
