@@ -8167,7 +8167,7 @@ interfaces
 .
 nsIAccessibleProvider
 .
-XULTreeColumnitem
+XULTreeColumnItem
 ;
 ]
 ]
