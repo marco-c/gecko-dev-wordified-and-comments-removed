@@ -808,7 +808,7 @@ OBJECT
 )
 BUILTIN2
 (
-extern
+FRIEND
 BOOL
 js_CloseIterator
 CONTEXT
