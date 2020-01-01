@@ -1969,6 +1969,7 @@ synthesizeDrop
 (
 element
 dragData
+dropEffect
 aWindow
 )
 {
@@ -2063,6 +2064,17 @@ i
 ;
 }
 }
+dataTransfer
+.
+dropEffect
+=
+dropEffect
+|
+|
+"
+move
+"
+;
 event
 .
 preventDefault
