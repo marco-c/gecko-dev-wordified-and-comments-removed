@@ -436,6 +436,12 @@ NSUInteger
 aModifiers
 )
 ;
+static
+NSUInteger
+GetCurrentModifiers
+(
+)
+;
 }
 ;
 #
