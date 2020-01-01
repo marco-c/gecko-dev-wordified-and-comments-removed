@@ -471,7 +471,7 @@ aIMEEnabled
 int32_t
 *
 aIMEOpen
-int64_t
+intptr_t
 *
 aNativeIMEContext
 )

@@ -966,7 +966,7 @@ int32_t
 IMEEnabled
 int32_t
 IMEOpen
-int64_t
+intptr_t
 NativeIMEContext
 )
 ;
