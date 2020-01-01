@@ -36,3 +36,15 @@ finish
 )
 ;
 }
+function
+description
+(
+str
+)
+{
+info
+(
+str
+)
+;
+}

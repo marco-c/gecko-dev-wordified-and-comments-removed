@@ -253,6 +253,10 @@ test_convolverNode
 .
 html
 \
+test_convolverNode_mono_mono
+.
+html
+\
 test_currentTime
 .
 html
