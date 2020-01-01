@@ -26280,9 +26280,10 @@ objectSet
 =
 NULL
 ;
-objectCount
-=
+setBaseObjectCount
+(
 0
+)
 ;
 }
 }
