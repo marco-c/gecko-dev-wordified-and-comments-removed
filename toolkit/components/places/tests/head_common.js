@@ -2004,7 +2004,7 @@ url
 ;
 stmt
 .
-bindUTF8StringParameter
+bindByIndex
 (
 0
 url
@@ -2097,7 +2097,7 @@ url
 ;
 stmt
 .
-bindUTF8StringParameter
+bindByIndex
 (
 0
 url

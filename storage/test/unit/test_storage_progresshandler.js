@@ -74,7 +74,7 @@ i
 {
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 i
@@ -82,7 +82,7 @@ i
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 1
 Math

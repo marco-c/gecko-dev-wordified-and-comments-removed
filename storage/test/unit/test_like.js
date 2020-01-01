@@ -486,7 +486,7 @@ LIKE
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 '
@@ -609,7 +609,7 @@ LIKE
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 '
@@ -732,7 +732,7 @@ LIKE
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 '
@@ -855,7 +855,7 @@ LIKE
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 '
@@ -1043,7 +1043,7 @@ LIKE
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 '
@@ -1166,7 +1166,7 @@ LIKE
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 '
@@ -1291,7 +1291,7 @@ LIKE
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 '
@@ -1479,7 +1479,7 @@ LIKE
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 '

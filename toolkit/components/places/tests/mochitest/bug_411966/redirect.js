@@ -973,7 +973,7 @@ sql
 ;
 stmt
 .
-bindUTF8StringParameter
+bindByIndex
 (
 0
 typedURI

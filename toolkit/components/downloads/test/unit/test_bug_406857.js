@@ -91,7 +91,7 @@ VALUES
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 "
@@ -171,7 +171,7 @@ NORMAL_FILE_TYPE
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 1
 Cc
@@ -208,7 +208,7 @@ spec
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 2
 dm
@@ -233,7 +233,7 @@ here
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 3
 referrer

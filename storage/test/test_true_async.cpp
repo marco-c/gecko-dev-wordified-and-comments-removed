@@ -686,7 +686,7 @@ stmt
 stmt
 -
 >
-BindInt32Parameter
+BindInt32ByIndex
 (
 0
 1

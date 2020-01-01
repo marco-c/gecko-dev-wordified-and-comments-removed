@@ -92,7 +92,7 @@ VALUES
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 "
@@ -186,7 +186,7 @@ _baz
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 "
@@ -303,7 +303,7 @@ _ba
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 "

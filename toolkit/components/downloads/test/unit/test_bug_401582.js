@@ -72,7 +72,7 @@ state
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 nsIDownloadManager

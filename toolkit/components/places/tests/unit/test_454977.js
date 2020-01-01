@@ -109,7 +109,7 @@ sql
 ;
 stmt
 .
-bindInt64Parameter
+bindByIndex
 (
 0
 visitId

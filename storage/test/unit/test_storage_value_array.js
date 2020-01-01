@@ -62,7 +62,7 @@ VALUES
 ;
 stmt
 .
-bindUTF8StringParameter
+bindByIndex
 (
 0
 "
@@ -72,7 +72,7 @@ foo
 ;
 stmt
 .
-bindDoubleParameter
+bindByIndex
 (
 1
 2
@@ -82,7 +82,7 @@ bindDoubleParameter
 ;
 stmt
 .
-bindBlobParameter
+bindBlobByIndex
 (
 2
 [
@@ -98,7 +98,7 @@ execute
 ;
 stmt
 .
-bindStringParameter
+bindByIndex
 (
 0
 "
@@ -107,7 +107,7 @@ bindStringParameter
 ;
 stmt
 .
-bindDoubleParameter
+bindByIndex
 (
 1
 1
@@ -117,7 +117,7 @@ bindDoubleParameter
 ;
 stmt
 .
-bindBlobParameter
+bindBlobByIndex
 (
 2
 [
@@ -172,7 +172,7 @@ id
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 1
@@ -246,7 +246,7 @@ id
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 2
@@ -319,7 +319,7 @@ id
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 1
@@ -387,7 +387,7 @@ id
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 1
@@ -455,7 +455,7 @@ id
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 1
@@ -523,7 +523,7 @@ id
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 1
@@ -591,7 +591,7 @@ id
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 2
@@ -659,7 +659,7 @@ id
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 2
@@ -720,7 +720,7 @@ id
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 2
@@ -781,7 +781,7 @@ id
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 2
@@ -856,7 +856,7 @@ id
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 2
@@ -922,7 +922,7 @@ id
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 1
@@ -988,7 +988,7 @@ id
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 2
@@ -1053,7 +1053,7 @@ id
 ;
 stmt
 .
-bindInt32Parameter
+bindByIndex
 (
 0
 2

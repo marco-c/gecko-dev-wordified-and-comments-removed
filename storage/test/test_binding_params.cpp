@@ -140,7 +140,7 @@ NS_SUCCEEDED
 insert
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 0
 inserted
@@ -417,7 +417,7 @@ NS_SUCCEEDED
 insert
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 0
 inserted
@@ -720,7 +720,7 @@ NS_SUCCEEDED
 insert
 -
 >
-BindUTF8StringParameter
+BindUTF8StringByIndex
 (
 0
 insertedUTF8
@@ -898,7 +898,7 @@ NS_SUCCEEDED
 insert
 -
 >
-BindStringParameter
+BindStringByIndex
 (
 0
 insertedUTF16
