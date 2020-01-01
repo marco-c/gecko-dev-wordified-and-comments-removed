@@ -161,7 +161,7 @@ sec
 "
 mPPTimeTotal
 .
-ToSeconds
+ToSecondsSigDigits
 (
 )
 /
@@ -171,7 +171,7 @@ double
 NR_TRIALS
 mPP5TimeTotal
 .
-ToSeconds
+ToSecondsSigDigits
 (
 )
 /
