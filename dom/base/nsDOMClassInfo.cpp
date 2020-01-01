@@ -30238,6 +30238,15 @@ GetPrimaryFrameFor
 aContent
 )
 )
+|
+|
+!
+aContent
+-
+>
+IsXUL
+(
+)
 )
 {
 *
