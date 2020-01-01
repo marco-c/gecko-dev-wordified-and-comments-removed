@@ -14,6 +14,9 @@ h
 class
 nsPresContext
 ;
+struct
+nsIntPoint
+;
 namespace
 mozilla
 {

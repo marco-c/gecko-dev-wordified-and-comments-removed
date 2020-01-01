@@ -19,6 +19,13 @@ ShadowLayers
 .
 h
 "
+#
+include
+"
+nsDebug
+.
+h
+"
 namespace
 mozilla
 {

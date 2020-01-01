@@ -1,13 +1,6 @@
 #
 include
 "
-Layers
-.
-h
-"
-#
-include
-"
 RenderTrace
 .
 h
@@ -15,6 +8,13 @@ h
 #
 ifdef
 MOZ_RENDERTRACE
+#
+include
+"
+Layers
+.
+h
+"
 namespace
 mozilla
 {

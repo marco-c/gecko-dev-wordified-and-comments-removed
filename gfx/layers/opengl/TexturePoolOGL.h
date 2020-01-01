@@ -7,7 +7,7 @@ GFX_TEXTUREPOOLOGL_H
 #
 include
 "
-GLContext
+GLContextTypes
 .
 h
 "
@@ -17,6 +17,9 @@ mozilla
 namespace
 gl
 {
+class
+GLContext
+;
 class
 TexturePoolOGL
 {
