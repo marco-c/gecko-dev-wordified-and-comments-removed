@@ -1576,7 +1576,7 @@ _retval
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 xpctest
 :
 :

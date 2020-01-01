@@ -498,7 +498,7 @@ NS_OK
 }
 #
 endif
-NS_IMETHODIMP
+nsresult
 xpctest
 :
 :

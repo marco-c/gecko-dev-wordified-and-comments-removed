@@ -561,7 +561,7 @@ xpctest
 public
 :
 static
-NS_METHOD
+nsresult
 ConstructEcho
 (
 nsISupports
@@ -576,7 +576,7 @@ aResult
 )
 ;
 static
-NS_METHOD
+nsresult
 ConstructChild
 (
 nsISupports
@@ -591,7 +591,7 @@ aResult
 )
 ;
 static
-NS_METHOD
+nsresult
 ConstructNoisy
 (
 nsISupports
@@ -606,7 +606,7 @@ aResult
 )
 ;
 static
-NS_METHOD
+nsresult
 ConstructStringTest
 (
 nsISupports
@@ -621,7 +621,7 @@ aResult
 )
 ;
 static
-NS_METHOD
+nsresult
 ConstructOverloaded
 (
 nsISupports
@@ -636,7 +636,7 @@ aResult
 )
 ;
 static
-NS_METHOD
+nsresult
 ConstructXPCTestObjectReadOnly
 (
 nsISupports
@@ -651,7 +651,7 @@ aResult
 )
 ;
 static
-NS_METHOD
+nsresult
 ConstructXPCTestObjectReadWrite
 (
 nsISupports
@@ -666,7 +666,7 @@ aResult
 )
 ;
 static
-NS_METHOD
+nsresult
 ConstructXPCTestIn
 (
 nsISupports
@@ -681,7 +681,7 @@ aResult
 )
 ;
 static
-NS_METHOD
+nsresult
 ConstructXPCTestOut
 (
 nsISupports
@@ -696,7 +696,7 @@ aResult
 )
 ;
 static
-NS_METHOD
+nsresult
 ConstructXPCTestInOut
 (
 nsISupports
@@ -711,7 +711,7 @@ aResult
 )
 ;
 static
-NS_METHOD
+nsresult
 ConstructXPCTestConst
 (
 nsISupports
@@ -726,7 +726,7 @@ aResult
 )
 ;
 static
-NS_METHOD
+nsresult
 ConstructXPCTestCallJS
 (
 nsISupports
@@ -741,7 +741,7 @@ aResult
 )
 ;
 static
-NS_METHOD
+nsresult
 ConstructXPCTestParentOne
 (
 nsISupports
@@ -756,7 +756,7 @@ aResult
 )
 ;
 static
-NS_METHOD
+nsresult
 ConstructXPCTestParentTwo
 (
 nsISupports
@@ -771,7 +771,7 @@ aResult
 )
 ;
 static
-NS_METHOD
+nsresult
 ConstructXPCTestChild2
 (
 nsISupports
@@ -786,7 +786,7 @@ aResult
 )
 ;
 static
-NS_METHOD
+nsresult
 ConstructXPCTestChild3
 (
 nsISupports
@@ -801,7 +801,7 @@ aResult
 )
 ;
 static
-NS_METHOD
+nsresult
 ConstructXPCTestChild4
 (
 nsISupports
@@ -816,7 +816,7 @@ aResult
 )
 ;
 static
-NS_METHOD
+nsresult
 ConstructXPCTestChild5
 (
 nsISupports
@@ -831,7 +831,7 @@ aResult
 )
 ;
 static
-NS_METHOD
+nsresult
 ConstructArrayTest
 (
 nsISupports
@@ -846,7 +846,7 @@ aResult
 )
 ;
 static
-NS_METHOD
+nsresult
 ConstructXPCTestDOMString
 (
 nsISupports
@@ -861,7 +861,7 @@ aResult
 )
 ;
 static
-NS_METHOD
+nsresult
 ConstructXPCTestVariant
 (
 nsISupports
