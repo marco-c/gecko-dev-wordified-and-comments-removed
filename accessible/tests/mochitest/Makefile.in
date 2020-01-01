@@ -518,15 +518,6 @@ test_aria_token_attrs
 .
 html
 \
-(
-warning
-test_bug368835
-.
-xul
-temporarily
-disabled
-)
-\
 test_bug420863
 .
 html
@@ -542,6 +533,10 @@ html
 test_events_mutation
 .
 html
+\
+test_events_tree
+.
+xul
 \
 test_groupattrs
 .
@@ -724,6 +719,10 @@ test_textboxes
 xul
 \
 testTextboxes
+.
+js
+\
+treeview
 .
 js
 \
