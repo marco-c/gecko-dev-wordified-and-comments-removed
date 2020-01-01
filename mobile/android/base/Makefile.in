@@ -203,6 +203,12 @@ BookmarksTab
 .
 java
 \
+awesomebar
+/
+HistoryTab
+.
+java
+\
 AwesomeBarTabs
 .
 java
