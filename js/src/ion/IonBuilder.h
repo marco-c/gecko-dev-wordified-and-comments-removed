@@ -902,6 +902,11 @@ right
 )
 ;
 bool
+jsop_pos
+(
+)
+;
+bool
 jsop_neg
 (
 )
