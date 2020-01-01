@@ -1768,7 +1768,7 @@ returning
 protected
 final
 void
-loadUrl
+inputAndLoadUrl
 (
 String
 url
@@ -3945,7 +3945,7 @@ url
 in
 it
 .
-loadUrl
+inputAndLoadUrl
 (
 url
 )

@@ -212,7 +212,7 @@ blockForGeckoReady
 (
 )
 ;
-loadUrl
+inputAndLoadUrl
 (
 blankPageURL
 )
@@ -432,7 +432,7 @@ engine
 to
 add
 .
-loadUrl
+inputAndLoadUrl
 (
 searchEngineURL
 )

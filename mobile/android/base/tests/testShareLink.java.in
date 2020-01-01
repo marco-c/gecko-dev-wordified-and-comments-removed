@@ -214,7 +214,7 @@ blockForGeckoReady
 (
 )
 ;
-loadUrl
+inputAndLoadUrl
 (
 url
 )

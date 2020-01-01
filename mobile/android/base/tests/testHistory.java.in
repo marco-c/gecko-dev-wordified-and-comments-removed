@@ -122,7 +122,7 @@ html
 "
 )
 ;
-loadUrl
+inputAndLoadUrl
 (
 url
 )
@@ -137,7 +137,7 @@ Page
 "
 )
 ;
-loadUrl
+inputAndLoadUrl
 (
 url2
 )
@@ -152,7 +152,7 @@ Page
 "
 )
 ;
-loadUrl
+inputAndLoadUrl
 (
 url3
 )

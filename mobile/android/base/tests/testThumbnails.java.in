@@ -344,7 +344,7 @@ with
 a
 green
 background
-loadUrl
+inputAndLoadUrl
 (
 site1Url
 )
@@ -356,7 +356,7 @@ sleep
 thumbnailDelay
 )
 ;
-loadUrl
+inputAndLoadUrl
 (
 site2Url
 )
@@ -368,7 +368,7 @@ sleep
 thumbnailDelay
 )
 ;
-loadUrl
+inputAndLoadUrl
 (
 "
 about
@@ -464,7 +464,7 @@ will
 return
 HTTP
 404
-loadUrl
+inputAndLoadUrl
 (
 site1Url
 )
@@ -476,7 +476,7 @@ sleep
 thumbnailDelay
 )
 ;
-loadUrl
+inputAndLoadUrl
 (
 site2Url
 )
@@ -488,7 +488,7 @@ sleep
 thumbnailDelay
 )
 ;
-loadUrl
+inputAndLoadUrl
 (
 "
 about
