@@ -100,6 +100,10 @@ XPCShell
 "
 )
 ;
+startupManager
+(
+)
+;
 do_test_pending
 (
 )

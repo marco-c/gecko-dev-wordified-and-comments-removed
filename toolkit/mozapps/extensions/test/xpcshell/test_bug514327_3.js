@@ -603,6 +603,10 @@ start
 4444
 )
 ;
+startupManager
+(
+)
+;
 var
 blocklistFile
 =
