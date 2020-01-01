@@ -499,6 +499,10 @@ nsGfxRadioControlFrame
 .
 cpp
 \
+nsProgressFrame
+.
+cpp
+\
 nsTextControlFrame
 .
 cpp
