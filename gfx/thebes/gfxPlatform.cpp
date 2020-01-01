@@ -3722,10 +3722,8 @@ false
 ;
 }
 return
+SupportsAzureContentForType
 (
-1
-<
-<
 aTarget
 -
 >
@@ -3733,8 +3731,6 @@ GetType
 (
 )
 )
-&
-mContentBackendBitmask
 ;
 }
 bool

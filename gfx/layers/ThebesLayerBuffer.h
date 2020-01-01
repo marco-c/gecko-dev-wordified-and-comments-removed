@@ -712,6 +712,11 @@ aMaskTransform
 ;
 protected
 :
+bool
+IsAzureBuffer
+(
+)
+;
 already_AddRefed
 <
 gfxASurface
