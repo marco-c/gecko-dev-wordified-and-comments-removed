@@ -695,6 +695,10 @@ MaybeCC
 (
 PRBool
 aHigherProbability
+PRBool
+aForceGC
+=
+PR_FALSE
 )
 ;
 static

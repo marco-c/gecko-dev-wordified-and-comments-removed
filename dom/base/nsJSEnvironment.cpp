@@ -806,6 +806,7 @@ nsJSContext
 MaybeCC
 (
 PR_FALSE
+PR_TRUE
 )
 ;
 return
@@ -13993,6 +13994,8 @@ MaybeCC
 (
 PRBool
 aHigherProbability
+PRBool
+aForceGC
 )
 {
 +
@@ -14192,6 +14195,7 @@ NS_MAX_SUSPECT_CHANGES
 return
 IntervalCC
 (
+aForceGC
 )
 ;
 }
@@ -14214,6 +14218,7 @@ sUserIsActive
 {
 MaybeCC
 (
+PR_TRUE
 PR_TRUE
 )
 ;
