@@ -711,6 +711,14 @@ ins
 )
 ;
 bool
+visitSetInitializedLength
+(
+MSetInitializedLength
+*
+ins
+)
+;
+bool
 visitNot
 (
 MNot

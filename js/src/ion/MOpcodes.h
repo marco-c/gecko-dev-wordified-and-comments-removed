@@ -334,6 +334,11 @@ InitializedLength
 \
 _
 (
+SetInitializedLength
+)
+\
+_
+(
 Not
 )
 \

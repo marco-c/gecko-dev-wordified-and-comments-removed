@@ -411,6 +411,14 @@ lir
 )
 ;
 bool
+visitSetInitializedLength
+(
+LSetInitializedLength
+*
+lir
+)
+;
+bool
 visitNotV
 (
 LNotV
