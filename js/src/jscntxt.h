@@ -726,6 +726,9 @@ TracerState
 ;
 }
 ;
+#
+ifdef
+JS_METHODJIT
 namespace
 mjit
 {
@@ -799,6 +802,8 @@ cx
 }
 ;
 }
+#
+endif
 struct
 TraceNativeStorage
 {
