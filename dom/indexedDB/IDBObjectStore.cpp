@@ -348,7 +348,6 @@ const
 fallible_t
 fallible
 =
-new
 fallible_t
 (
 )
