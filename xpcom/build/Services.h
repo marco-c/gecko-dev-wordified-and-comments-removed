@@ -20,9 +20,6 @@ h
 "
 #
 define
-MOZ_USE_NAMESPACE
-#
-define
 MOZ_SERVICE
 (
 NAME
@@ -42,9 +39,6 @@ h
 #
 undef
 MOZ_SERVICE
-#
-undef
-MOZ_USE_NAMESPACE
 namespace
 mozilla
 {
