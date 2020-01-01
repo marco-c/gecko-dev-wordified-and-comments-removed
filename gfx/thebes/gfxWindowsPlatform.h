@@ -116,6 +116,13 @@ windows
 .
 h
 >
+#
+include
+<
+objbase
+.
+h
+>
 struct
 DCFromContext
 {
