@@ -1,4 +1,10 @@
 #
+ifndef
+nsSaveAsCharset_h__
+#
+define
+nsSaveAsCharset_h__
+#
 include
 "
 nsIFactory
@@ -272,3 +278,5 @@ mCharsetListIndex
 ;
 }
 ;
+#
+endif

@@ -1,4 +1,10 @@
 #
+ifndef
+nsEntityConverter_h__
+#
+define
+nsEntityConverter_h__
+#
 include
 "
 nsIEntityConverter
@@ -167,3 +173,5 @@ mVersionListLength
 ;
 }
 ;
+#
+endif
