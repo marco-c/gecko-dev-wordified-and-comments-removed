@@ -4479,10 +4479,7 @@ aPermissions
 )
 {
 return
-SetPermissions
-(
-aPermissions
-)
+NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
