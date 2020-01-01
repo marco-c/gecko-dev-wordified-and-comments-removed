@@ -3819,7 +3819,11 @@ command
 "
 "
 "
+\
+"
 8
+\
+"
 "
 WriteRegStr
 {
@@ -5024,6 +5028,8 @@ WriteRegStr2
 UninstallString
 "
 "
+\
+"
 8
 \
 uninstall
@@ -5031,6 +5037,8 @@ uninstall
 helper
 .
 exe
+\
+"
 "
 0
 {
