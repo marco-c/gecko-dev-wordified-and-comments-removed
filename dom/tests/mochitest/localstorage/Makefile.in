@@ -445,6 +445,10 @@ mk
 _TEST_FILES
 =
 \
+frameBug624047
+.
+html
+\
 frameChromeSlave
 .
 html
@@ -500,6 +504,10 @@ js
 test_brokenUTF
 -
 16
+.
+html
+\
+test_bug624047
 .
 html
 \
