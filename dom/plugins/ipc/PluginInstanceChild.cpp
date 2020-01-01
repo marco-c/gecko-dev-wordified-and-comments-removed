@@ -1121,6 +1121,8 @@ currentResult
 PPluginScriptableObjectChild
 *
 currentActor
+=
+nsnull
 ;
 switch
 (
