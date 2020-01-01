@@ -129,10 +129,6 @@ XPathGenerator
 .
 jsm
 \
-_SessionFile
-.
-jsm
-\
 (
 NULL
 )
