@@ -768,7 +768,7 @@ QueryInterface
 (
 Ci
 .
-nsICookie
+nsICookie2
 )
 )
 {
@@ -947,7 +947,7 @@ QueryInterface
 (
 Ci
 .
-nsICookie
+nsICookie2
 )
 )
 {
