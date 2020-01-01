@@ -790,9 +790,8 @@ aConstructorCID
 )
 ;
 }
-static
 nsresult
-GetJSRuntime
+NS_GetJSRuntime
 (
 nsIScriptRuntime
 *
@@ -868,7 +867,7 @@ NS_ERROR_FAILURE
 )
 ;
 return
-GetJSRuntime
+NS_GetJSRuntime
 (
 aLanguage
 )
@@ -903,7 +902,7 @@ NS_ERROR_FAILURE
 )
 ;
 return
-GetJSRuntime
+NS_GetJSRuntime
 (
 aLanguage
 )

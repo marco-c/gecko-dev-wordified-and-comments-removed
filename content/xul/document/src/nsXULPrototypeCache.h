@@ -105,9 +105,6 @@ nsCSSStyleSheet
 struct
 CacheScriptEntry
 {
-PRUint32
-mScriptTypeID
-;
 JSScript
 *
 mScriptObject
@@ -181,9 +178,6 @@ GetScript
 nsIURI
 *
 aURI
-PRUint32
-*
-langID
 )
 ;
 nsresult
@@ -192,8 +186,6 @@ PutScript
 nsIURI
 *
 aURI
-PRUint32
-langID
 JSScript
 *
 aScriptObject

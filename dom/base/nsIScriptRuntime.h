@@ -99,6 +99,15 @@ nsIScriptRuntime
 NS_ISCRIPTRUNTIME_IID
 )
 nsresult
+NS_GetJSRuntime
+(
+nsIScriptRuntime
+*
+*
+aLanguage
+)
+;
+nsresult
 NS_GetScriptRuntime
 (
 const
