@@ -489,7 +489,7 @@ BrowserStartup
 .
 js
 \
-GeolocationPrompt
+ContentPermissionPrompt
 .
 js
 \

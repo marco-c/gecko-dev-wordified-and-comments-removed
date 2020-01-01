@@ -585,7 +585,7 @@ cursor
 .
 css
 #
-GeolocationPrompt
+ContentPermissionPrompt
 .
 js
 component
@@ -600,7 +600,7 @@ BCC0
 -
 76E38A8310F5
 }
-GeolocationPrompt
+ContentPermissionPrompt
 .
 js
 contract
