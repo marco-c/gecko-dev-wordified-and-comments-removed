@@ -590,6 +590,10 @@ browser_webconsole_block_mixedcontent_securityerrors
 .
 js
 \
+browser_webconsole_output_copy_newlines
+.
+js
+\
 head
 .
 js
