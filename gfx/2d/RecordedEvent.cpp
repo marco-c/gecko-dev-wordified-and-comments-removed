@@ -1070,7 +1070,10 @@ aStrokeOptions
 .
 mDashLength
 =
+size_t
+(
 dashLength
+)
 ;
 aStrokeOptions
 .
