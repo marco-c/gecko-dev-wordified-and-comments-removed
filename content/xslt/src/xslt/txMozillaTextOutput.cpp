@@ -717,7 +717,7 @@ mDocument
 >
 CreateElem
 (
-nsDependentAtomString
+nsAtomString
 (
 nsGkAtoms
 :

@@ -15155,7 +15155,7 @@ document
 >
 CreateElem
 (
-nsDependentAtomString
+nsAtomString
 (
 nsGkAtoms
 :
