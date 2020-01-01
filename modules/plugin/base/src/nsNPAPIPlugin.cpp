@@ -6261,13 +6261,9 @@ ToNewUTF8String
 (
 nsDependentString
 (
-(
-PRUnichar
-*
-)
 :
 :
-JS_GetStringChars
+JS_GetInternedStringChars
 (
 str
 )

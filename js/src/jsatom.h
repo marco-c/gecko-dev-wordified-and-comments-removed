@@ -159,12 +159,15 @@ ATOM_TO_STRING
 atom
 )
 (
+JS_ASSERT_STRING_IS_FLAT
+(
 (
 JSString
 *
 )
 (
 atom
+)
 )
 )
 #

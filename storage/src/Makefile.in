@@ -550,6 +550,9 @@ cpp
 (
 NULL
 )
+#
+For
+nsDependentJSString
 LOCAL_INCLUDES
 =
 \
@@ -568,6 +571,16 @@ db
 sqlite3
 /
 src
+\
+-
+I
+(
+topsrcdir
+)
+/
+dom
+/
+base
 \
 (
 NULL

@@ -14537,7 +14537,7 @@ fun
 >
 atom
 )
-JS_PutEscapedString
+JS_PutEscapedFlatString
 (
 funName
 sizeof
@@ -15754,7 +15754,7 @@ fun
 >
 atom
 )
-JS_PutEscapedString
+JS_PutEscapedFlatString
 (
 funName
 sizeof

@@ -806,7 +806,7 @@ else
 n
 +
 =
-JS_PutEscapedString
+JS_PutEscapedFlatString
 (
 Buf
 +
@@ -817,7 +817,10 @@ Buf
 )
 -
 n
+JS_ASSERT_STRING_IS_FLAT
+(
 fun
+)
 0
 )
 ;

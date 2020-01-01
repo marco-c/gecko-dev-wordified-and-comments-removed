@@ -25,6 +25,13 @@ jsobj
 .
 h
 "
+#
+include
+"
+jsstr
+.
+h
+"
 const
 uintN
 MIN_SPARSE_INDEX

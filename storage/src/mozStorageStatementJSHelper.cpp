@@ -854,11 +854,11 @@ Native
 )
 )
 ;
-JSString
+JSFlatString
 *
 str
 =
-JSID_TO_STRING
+JSID_TO_FLAT_STRING
 (
 aId
 )
@@ -867,7 +867,7 @@ if
 (
 :
 :
-JS_MatchStringAndAscii
+JS_FlatStringEqualsAscii
 (
 str
 "
@@ -888,7 +888,7 @@ if
 (
 :
 :
-JS_MatchStringAndAscii
+JS_FlatStringEqualsAscii
 (
 str
 "
@@ -952,9 +952,9 @@ if
 (
 :
 :
-JS_MatchStringAndAscii
+JS_FlatStringEqualsAscii
 (
-JSID_TO_STRING
+JSID_TO_FLAT_STRING
 (
 aId
 )
