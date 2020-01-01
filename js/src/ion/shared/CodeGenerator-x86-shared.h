@@ -484,15 +484,6 @@ ins
 ;
 virtual
 bool
-visitCallGeneric
-(
-LCallGeneric
-*
-call
-)
-;
-virtual
-bool
 visitBoundsCheck
 (
 LBoundsCheck
