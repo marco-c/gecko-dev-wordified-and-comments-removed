@@ -3742,7 +3742,7 @@ width
 gAndroidBounds
 .
 height
-true
+false
 )
 ;
 }
