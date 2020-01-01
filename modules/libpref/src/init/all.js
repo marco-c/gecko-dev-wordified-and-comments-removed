@@ -28043,7 +28043,7 @@ serif
 el
 "
 "
-Droid
+Open
 Sans
 "
 )
@@ -28082,6 +28082,8 @@ serif
 el
 "
 "
+Open
+Sans
 Roboto
 Droid
 Sans
@@ -28119,7 +28121,7 @@ serif
 he
 "
 "
-Droid
+Open
 Sans
 "
 )
@@ -28161,6 +28163,8 @@ he
 Droid
 Sans
 Hebrew
+Open
+Sans
 Droid
 Sans
 "
@@ -28178,8 +28182,9 @@ serif
 ja
 "
 "
-Droid
-Serif
+Charis
+SIL
+Compact
 "
 )
 ;
@@ -28197,7 +28202,7 @@ serif
 ja
 "
 "
-Droid
+Open
 Sans
 "
 )
@@ -28234,6 +28239,8 @@ serif
 ja
 "
 "
+Open
+Sans
 Roboto
 Droid
 Sans
@@ -28279,8 +28286,9 @@ serif
 ko
 "
 "
-Droid
-Serif
+Charis
+SIL
+Compact
 "
 )
 ;
@@ -28298,7 +28306,7 @@ serif
 ko
 "
 "
-Droid
+Open
 Sans
 "
 )
@@ -28333,8 +28341,9 @@ serif
 th
 "
 "
-Droid
-Serif
+Charis
+SIL
+Compact
 "
 )
 ;
@@ -28352,7 +28361,7 @@ serif
 th
 "
 "
-Droid
+Open
 Sans
 "
 )
@@ -28394,6 +28403,8 @@ th
 Droid
 Sans
 Thai
+Open
+Sans
 Droid
 Sans
 "
@@ -28411,8 +28422,9 @@ serif
 tr
 "
 "
-Droid
-Serif
+Charis
+SIL
+Compact
 "
 )
 ;
@@ -28430,7 +28442,7 @@ serif
 tr
 "
 "
-Droid
+Open
 Sans
 "
 )
@@ -28469,6 +28481,8 @@ serif
 tr
 "
 "
+Open
+Sans
 Roboto
 Droid
 Sans
@@ -28489,8 +28503,9 @@ x
 baltic
 "
 "
-Droid
-Serif
+Charis
+SIL
+Compact
 "
 )
 ;
@@ -28510,7 +28525,7 @@ x
 baltic
 "
 "
-Droid
+Open
 Sans
 "
 )
@@ -28553,6 +28568,8 @@ x
 baltic
 "
 "
+Open
+Sans
 Roboto
 Droid
 Sans
@@ -28575,8 +28592,9 @@ central
 euro
 "
 "
-Droid
-Serif
+Charis
+SIL
+Compact
 "
 )
 ;
@@ -28598,7 +28616,7 @@ central
 euro
 "
 "
-Droid
+Open
 Sans
 "
 )
@@ -28645,6 +28663,8 @@ central
 euro
 "
 "
+Open
+Sans
 Roboto
 Droid
 Sans
@@ -28665,8 +28685,9 @@ x
 cyrillic
 "
 "
-Droid
-Serif
+Charis
+SIL
+Compact
 "
 )
 ;
@@ -28686,7 +28707,7 @@ x
 cyrillic
 "
 "
-Droid
+Open
 Sans
 "
 )
@@ -28729,6 +28750,8 @@ x
 cyrillic
 "
 "
+Open
+Sans
 Roboto
 Droid
 Sans
@@ -28749,8 +28772,9 @@ x
 unicode
 "
 "
-Droid
-Serif
+Charis
+SIL
+Compact
 "
 )
 ;
@@ -28770,7 +28794,7 @@ x
 unicode
 "
 "
-Droid
+Open
 Sans
 "
 )
@@ -28813,6 +28837,8 @@ x
 unicode
 "
 "
+Open
+Sans
 Roboto
 Droid
 Sans
@@ -28835,8 +28861,9 @@ user
 def
 "
 "
-Droid
-Serif
+Charis
+SIL
+Compact
 "
 )
 ;
@@ -28858,7 +28885,7 @@ user
 def
 "
 "
-Droid
+Open
 Sans
 "
 )
@@ -28905,6 +28932,8 @@ user
 def
 "
 "
+Open
+Sans
 Roboto
 Droid
 Sans
@@ -28925,8 +28954,9 @@ x
 western
 "
 "
-Droid
-Serif
+Charis
+SIL
+Compact
 "
 )
 ;
@@ -28946,7 +28976,7 @@ x
 western
 "
 "
-Droid
+Open
 Sans
 "
 )
@@ -28989,6 +29019,8 @@ x
 western
 "
 "
+Open
+Sans
 Roboto
 Droid
 Sans
@@ -29009,8 +29041,9 @@ zh
 CN
 "
 "
-Droid
-Serif
+Charis
+SIL
+Compact
 "
 )
 ;
@@ -29030,7 +29063,7 @@ zh
 CN
 "
 "
-Droid
+Open
 Sans
 "
 )
@@ -29069,8 +29102,9 @@ zh
 HK
 "
 "
-Droid
-Serif
+Charis
+SIL
+Compact
 "
 )
 ;
@@ -29090,7 +29124,7 @@ zh
 HK
 "
 "
-Droid
+Open
 Sans
 "
 )
@@ -29129,8 +29163,9 @@ zh
 TW
 "
 "
-Droid
-Serif
+Charis
+SIL
+Compact
 "
 )
 ;
@@ -29150,7 +29185,7 @@ zh
 TW
 "
 "
-Droid
+Open
 Sans
 "
 )
