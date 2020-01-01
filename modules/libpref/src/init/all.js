@@ -308,7 +308,7 @@ cache
 .
 compression_level
 "
-0
+5
 )
 ;
 pref
