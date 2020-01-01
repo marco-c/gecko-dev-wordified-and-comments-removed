@@ -793,6 +793,16 @@ renderRequested
 (
 )
 ;
+void
+compositionPauseRequested
+(
+)
+;
+void
+compositionResumeRequested
+(
+)
+;
 }
 public
 static
