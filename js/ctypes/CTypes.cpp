@@ -4464,7 +4464,7 @@ jsuint
 radix
 )
 {
-jschar
+PRUnichar
 buffer
 [
 sizeof
@@ -4477,7 +4477,7 @@ IntegerType
 1
 ]
 ;
-jschar
+PRUnichar
 *
 cp
 =
@@ -4490,7 +4490,7 @@ buffer
 /
 sizeof
 (
-jschar
+PRUnichar
 )
 ;
 bool
@@ -4607,7 +4607,7 @@ buffer
 /
 sizeof
 (
-jschar
+PRUnichar
 )
 -
 cp
@@ -15943,10 +15943,18 @@ JS_DefineUCProperty
 (
 cx
 fieldObj
+reinterpret_cast
+<
+const
+jschar
+*
+>
+(
 name
 .
 get
 (
+)
 )
 name
 .
@@ -16468,6 +16476,13 @@ instanceProp
 >
 name
 =
+reinterpret_cast
+<
+const
+jschar
+*
+>
+(
 info
 -
 >
@@ -16475,6 +16490,7 @@ mName
 .
 get
 (
+)
 )
 ;
 instanceProp
