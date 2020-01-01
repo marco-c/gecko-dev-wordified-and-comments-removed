@@ -572,7 +572,8 @@ effectChain
 LayerManagerComposite
 :
 :
-AddMaskEffect
+AutoAddMaskEffect
+autoMaskEffect
 (
 mMaskLayer
 effectChain
@@ -696,14 +697,6 @@ tiledLayerProps
 mValidRegion
 ;
 }
-LayerManagerComposite
-:
-:
-RemoveMaskEffect
-(
-mMaskLayer
-)
-;
 mCompositeManager
 -
 >
