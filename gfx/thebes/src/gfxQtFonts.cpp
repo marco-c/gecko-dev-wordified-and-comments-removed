@@ -3560,6 +3560,8 @@ cairo_scaled_font_create
 (
 CairoFontFace
 (
+&
+aQFont
 )
 &
 fontMatrix
