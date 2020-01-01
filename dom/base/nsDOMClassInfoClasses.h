@@ -591,10 +591,6 @@ SVGAElement
 )
 DOMCI_CLASS
 (
-SVGMpathElement
-)
-DOMCI_CLASS
-(
 TimeEvent
 )
 DOMCI_CLASS

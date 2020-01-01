@@ -160,10 +160,6 @@ nsIDOMSVGMaskElement
 .
 idl
 \
-nsIDOMSVGMpathElement
-.
-idl
-\
 nsIDOMSVGNumber
 .
 idl
