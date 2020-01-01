@@ -851,7 +851,7 @@ get
 #
 ifndef
 WINCE
-try
+MOZ_SEH_TRY
 {
 #
 endif
@@ -1110,11 +1110,9 @@ mode
 ifndef
 WINCE
 }
-catch
+MOZ_SEH_EXCEPT
 (
-.
-.
-.
+PR_TRUE
 )
 {
 MessageBoxW

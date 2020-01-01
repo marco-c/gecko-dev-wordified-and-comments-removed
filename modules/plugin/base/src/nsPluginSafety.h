@@ -157,7 +157,7 @@ else
 \
 {
 \
-try
+MOZ_SEH_TRY
 \
 {
 \
@@ -168,11 +168,9 @@ fun
 \
 }
 \
-catch
+MOZ_SEH_EXCEPT
 (
-.
-.
-.
+PR_TRUE
 )
 \
 {
@@ -271,7 +269,7 @@ else
 \
 {
 \
-try
+MOZ_SEH_TRY
 \
 {
 \
@@ -280,11 +278,9 @@ fun
 \
 }
 \
-catch
+MOZ_SEH_EXCEPT
 (
-.
-.
-.
+PR_TRUE
 )
 \
 {
