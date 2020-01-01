@@ -65,6 +65,9 @@ srcdir
 VPATH
 =
 srcdir
+relativesrcdir
+=
+relativesrcdir
 include
 (
 DEPTH
@@ -75,14 +78,9 @@ config
 autoconf
 .
 mk
-PARALLEL_DIRS
+MODULE
 =
-interfaces
-src
-TEST_DIRS
-+
-=
-tests
+test_dom_icc
 include
 (
 topsrcdir
