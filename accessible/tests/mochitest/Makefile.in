@@ -579,9 +579,14 @@ test_bug420863
 .
 html
 \
+(
+warning
 test_childAtPoint
 .
 html
+temporarily
+disabled
+)
 \
 (
 warning
