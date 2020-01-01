@@ -407,6 +407,11 @@ endif
 bool
 mProbedMaxCount
 ;
+void
+ClosePrivateConnections
+(
+)
+;
 }
 ;
 extern

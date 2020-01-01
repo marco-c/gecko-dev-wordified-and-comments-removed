@@ -8715,6 +8715,15 @@ mConnectionFlags
 =
 value
 ;
+mIsPrivate
+=
+value
+&
+nsISocketTransport
+:
+:
+NO_PERMANENT_STORAGE
+;
 return
 NS_OK
 ;

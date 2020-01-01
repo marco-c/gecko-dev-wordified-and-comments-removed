@@ -28,6 +28,10 @@ mPollTimeout
 (
 UINT16_MAX
 )
+mIsPrivate
+(
+false
+)
 {
 }
 nsresult
@@ -38,6 +42,9 @@ mPollFlags
 ;
 uint16_t
 mPollTimeout
+;
+bool
+mIsPrivate
 ;
 virtual
 void
