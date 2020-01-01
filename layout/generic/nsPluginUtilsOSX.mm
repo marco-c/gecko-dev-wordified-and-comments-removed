@@ -470,6 +470,9 @@ nsObjCExceptions
 .
 h
 "
+#
+ifndef
+__LP64__
 void
 NS_NPAPI_CarbonWindowFrame
 (
@@ -541,6 +544,8 @@ windowRect
 top
 ;
 }
+#
+endif
 void
 NS_NPAPI_CocoaWindowFrame
 (

@@ -1,4 +1,7 @@
 #
+ifndef
+__LP64__
+#
 import
 <
 Carbon
@@ -7,6 +10,8 @@ Carbon
 .
 h
 >
+#
+endif
 #
 include
 "
@@ -28,6 +33,9 @@ npapi
 .
 h
 "
+#
+ifndef
+__LP64__
 void
 NS_NPAPI_CarbonWindowFrame
 (
@@ -38,6 +46,8 @@ nsRect
 outRect
 )
 ;
+#
+endif
 void
 NS_NPAPI_CocoaWindowFrame
 (
