@@ -504,6 +504,10 @@ browser_addons
 .
 js
 \
+browser_appmenu
+.
+js
+\
 browser_autocomplete
 .
 html
