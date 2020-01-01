@@ -988,6 +988,13 @@ BINPATH
 /
 components
 /
+dom_browserelement
+.
+xpt
+BINPATH
+/
+components
+/
 dom_power
 .
 xpt

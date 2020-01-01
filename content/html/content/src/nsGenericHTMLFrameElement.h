@@ -83,6 +83,10 @@ mBrowserFrameListenersRegistered
 (
 false
 )
+mFrameLoaderCreationDisallowed
+(
+false
+)
 {
 }
 virtual
@@ -309,6 +313,9 @@ mNetworkCreated
 ;
 bool
 mBrowserFrameListenersRegistered
+;
+bool
+mFrameLoaderCreationDisallowed
 ;
 }
 ;

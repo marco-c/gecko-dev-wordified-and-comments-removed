@@ -33799,16 +33799,8 @@ nsIDocShell
 >
 docShell
 =
-do_QueryInterface
-(
 mDocShell
-)
 ;
-if
-(
-docShell
-)
-{
 docShell
 .
 forget
@@ -33816,7 +33808,6 @@ forget
 aSink
 )
 ;
-}
 }
 #
 ifdef
