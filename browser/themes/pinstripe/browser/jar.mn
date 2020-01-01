@@ -220,6 +220,17 @@ browser
 /
 hud
 -
+panel
+.
+png
+skin
+/
+classic
+/
+browser
+/
+hud
+-
 style
 -
 button
