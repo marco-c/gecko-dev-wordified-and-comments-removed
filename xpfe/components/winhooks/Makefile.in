@@ -478,8 +478,6 @@ NULL
 FORCE_STATIC_LIB
 =
 1
-ifdef
-MOZ_XUL_APP
 LOCAL_INCLUDES
 +
 =
@@ -492,7 +490,6 @@ topsrcdir
 toolkit
 /
 xre
-endif
 include
 (
 topsrcdir

@@ -48,9 +48,6 @@ nsCRT
 h
 "
 #
-ifdef
-MOZ_XUL_APP
-#
 include
 "
 nsICommandLineRunner
@@ -64,17 +61,6 @@ nsXULAppAPI
 .
 h
 "
-#
-else
-#
-include
-"
-nsISuiteRemoteService
-.
-h
-"
-#
-endif
 #
 include
 <

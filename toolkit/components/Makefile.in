@@ -470,8 +470,6 @@ only
 for
 XUL
 apps
-ifdef
-MOZ_XUL_APP
 DIRS
 +
 =
@@ -659,9 +657,6 @@ EXTRA_PP_COMPONENTS
 nsDefaultCLH
 .
 js
-endif
-#
-MOZ_XUL_APP
 ifeq
 (
 (

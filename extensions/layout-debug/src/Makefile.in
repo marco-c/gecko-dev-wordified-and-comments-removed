@@ -464,13 +464,6 @@ toolkitcomps
 (
 NULL
 )
-ifndef
-MOZ_XUL_APP
-REQUIRES
-+
-=
-appcomps
-endif
 XPIDLSRCS
 =
 \

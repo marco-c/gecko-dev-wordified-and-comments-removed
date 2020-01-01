@@ -482,6 +482,10 @@ mozHunspell
 .
 cpp
 \
+mozHunspellDirProvider
+.
+cpp
+\
 (
 NULL
 )
@@ -521,15 +525,6 @@ cpp
 (
 NULL
 )
-endif
-ifdef
-MOZ_XUL_APP
-CPPSRCS
-+
-=
-mozHunspellDirProvider
-.
-cpp
 endif
 EXTRA_DSO_LDOPTS
 =

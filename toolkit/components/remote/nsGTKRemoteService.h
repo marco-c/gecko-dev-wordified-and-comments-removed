@@ -148,9 +148,6 @@ PRUint32
 aTimestamp
 )
 ;
-#
-ifdef
-MOZ_XUL_APP
 static
 const
 char
@@ -167,8 +164,6 @@ PRUint32
 aTimestamp
 )
 ;
-#
-endif
 static
 gboolean
 HandlePropertyChange

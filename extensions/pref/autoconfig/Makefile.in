@@ -425,7 +425,6 @@ autoconfig
 DIRS
 =
 public
-resources
 src
 include
 (

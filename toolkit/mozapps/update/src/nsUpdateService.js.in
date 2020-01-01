@@ -18805,9 +18805,6 @@ this
 }
 }
 ;
-#
-ifdef
-MOZ_XUL_APP
 /
 *
 *
@@ -20628,8 +20625,6 @@ this
 }
 }
 ;
-#
-endif
 var
 gModule
 =
@@ -20944,9 +20939,6 @@ makeFactory
 Checker
 )
 }
-#
-ifdef
-MOZ_XUL_APP
 prompt
 :
 {
@@ -20998,8 +20990,6 @@ makeFactory
 UpdatePrompt
 )
 }
-#
-endif
 timers
 :
 {
@@ -21256,9 +21246,6 @@ isCompatible
 update
 )
 {
-#
-ifdef
-MOZ_XUL_APP
 var
 em
 =
@@ -21315,13 +21302,6 @@ length
 =
 0
 ;
-#
-else
-return
-true
-;
-#
-endif
 }
 /
 *
@@ -21444,9 +21424,6 @@ update
 )
 ;
 }
-#
-ifdef
-MOZ_XUL_APP
 /
 *
 *
@@ -22228,8 +22205,6 @@ listener
 ;
 }
 else
-#
-endif
 showPrompt
 (
 update

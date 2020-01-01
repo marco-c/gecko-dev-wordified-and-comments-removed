@@ -415,7 +415,6 @@ MODULE
 pipnss
 DIRS
 =
-resources
 src
 public
 XPCSHELL_TESTS

@@ -547,8 +547,6 @@ EXTRA_DSO_LIBS
 (
 STATIC_EXTRA_LIBS
 )
-ifdef
-MOZ_XUL_APP
 EXTRA_LIBS
 +
 =
@@ -566,9 +564,6 @@ xulapp_s
 (
 LIB_SUFFIX
 )
-endif
-#
-MOZ_XUL_APP
 DEFINES
 +
 =

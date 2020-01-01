@@ -892,9 +892,6 @@ tier_toolkit_dirs
 +
 =
 chrome
-tier_toolkit_dirs
-+
-=
 profile
 #
 This
@@ -943,13 +940,6 @@ components
 (
 NULL
 )
-ifndef
-MOZ_XUL_APP
-tier_toolkit_dirs
-+
-=
-themes
-endif
 ifdef
 MOZ_ENABLE_XREMOTE
 tier_toolkit_dirs
@@ -970,13 +960,10 @@ extensions
 /
 spellcheck
 endif
-ifdef
-MOZ_XUL_APP
 tier_toolkit_dirs
 +
 =
 toolkit
-endif
 ifdef
 MOZ_XPINSTALL
 tier_toolkit_dirs
@@ -1043,8 +1030,6 @@ src
 endif
 ifndef
 BUILD_STATIC_LIBS
-ifdef
-MOZ_XUL_APP
 ifneq
 (
 (
@@ -1061,9 +1046,6 @@ browser
 gtk
 endif
 endif
-endif
-ifdef
-MOZ_XUL_APP
 ifndef
 BUILD_STATIC_LIBS
 tier_toolkit_dirs
@@ -1072,7 +1054,6 @@ tier_toolkit_dirs
 toolkit
 /
 library
-endif
 endif
 ifdef
 MOZ_ENABLE_LIBXUL

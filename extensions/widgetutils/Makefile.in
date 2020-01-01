@@ -30,8 +30,6 @@ widgetutils
 XPI_NAME
 =
 widgetutils
-ifdef
-MOZ_XUL_APP
 INSTALL_EXTENSION_ID
 =
 widgetutils
@@ -100,7 +98,6 @@ _
 (
 TARGET_XPCOM_ABI
 )
-endif
 endif
 DIRS
 =
