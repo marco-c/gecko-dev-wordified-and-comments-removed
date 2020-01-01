@@ -369,7 +369,7 @@ aLengthUnit
 nsresult
 GetCSSEquivalentToHTMLInlineStyleSet
 (
-nsIDOMNode
+nsINode
 *
 aNode
 nsIAtom
@@ -602,7 +602,13 @@ aGetOrRemoveRequest
 void
 GenerateCSSDeclarationsFromHTMLStyle
 (
-nsIDOMNode
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 aNode
 nsIAtom
