@@ -541,13 +541,6 @@ browser
 /
 installer
 /
-unix
-/
-Makefile
-browser
-/
-installer
-/
 windows
 /
 Makefile
