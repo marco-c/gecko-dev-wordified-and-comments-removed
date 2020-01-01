@@ -1186,6 +1186,11 @@ OpenTypeSVGEnabled
 (
 )
 ;
+uint32_t
+WordCacheCharLimit
+(
+)
+;
 bool
 UseGraphiteShaping
 (
@@ -1875,6 +1880,9 @@ mFallbackUsesCmaps
 ;
 int32_t
 mUseHarfBuzzScripts
+;
+int32_t
+mWordCacheCharLimit
 ;
 private
 :
