@@ -113,9 +113,9 @@ mCopyUnused
 (
 aCopyUnused
 )
-mNumConsumed
+mTransferBufferSize
 (
-0
+eTransferBufferSize
 )
 {
 MOZ_COUNT_CTOR

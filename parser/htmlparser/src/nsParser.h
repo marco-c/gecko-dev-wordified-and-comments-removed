@@ -131,9 +131,6 @@ nsScanner
 class
 nsIProgressEventSink
 ;
-class
-nsSpeculativeScriptThread
-;
 #
 ifdef
 _MSC_VER
@@ -649,11 +646,6 @@ nsresult
 anErrorCode
 )
 ;
-void
-SpeculativelyParse
-(
-)
-;
 private
 :
 PRBool
@@ -704,12 +696,6 @@ mSink
 nsIRunnable
 *
 mContinueEvent
-;
-nsRefPtr
-<
-nsSpeculativeScriptThread
->
-mSpeculativeScriptThread
 ;
 nsCOMPtr
 <
