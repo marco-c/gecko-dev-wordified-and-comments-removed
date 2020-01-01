@@ -226,6 +226,13 @@ _getFallbackService
 return
 fallback
 .
+QueryInterface
+(
+Ci
+.
+nsIPromptFactory
+)
+.
 getPrompt
 (
 domWin
