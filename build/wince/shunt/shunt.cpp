@@ -587,6 +587,11 @@ DeleteFileW
 (
 wname
 )
+?
+0
+:
+-
+1
 ;
 }
 void
