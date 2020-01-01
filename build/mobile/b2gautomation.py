@@ -1400,6 +1400,9 @@ B2GInstance
 self
 .
 _devicemanager
+env
+=
+env
 )
         
 time
@@ -1761,6 +1764,9 @@ __init__
 (
 self
 dm
+env
+=
+None
 )
 :
             
@@ -1769,6 +1775,15 @@ self
 dm
 =
 dm
+            
+self
+.
+env
+=
+env
+or
+{
+}
             
 self
 .
@@ -1828,6 +1843,37 @@ append
 '
 shell
 '
+)
+            
+for
+k
+v
+in
+self
+.
+env
+.
+iteritems
+(
+)
+:
+                
+cmd
+.
+append
+(
+"
+%
+s
+=
+%
+s
+"
+%
+(
+k
+v
+)
 )
             
 cmd
