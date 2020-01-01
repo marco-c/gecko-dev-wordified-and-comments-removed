@@ -4069,5 +4069,14 @@ modules
 WebappRT
 .
 jsm
+BINPATH
+/
+webapprt
+/
+modules
+/
+WebappsHandler
+.
+jsm
 #
 endif
