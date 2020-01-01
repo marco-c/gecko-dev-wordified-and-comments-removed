@@ -1367,7 +1367,9 @@ scale
 (
 metrics
 .
-mZoom
+CalculateResolution
+(
+)
 .
 scale
 *
