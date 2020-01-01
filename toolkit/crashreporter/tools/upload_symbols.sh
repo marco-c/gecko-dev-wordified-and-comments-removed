@@ -562,6 +562,9 @@ set
 -
 e
 ;
+umask
+0022
+;
 cd
 {
 SYMBOL_SERVER_PATH
