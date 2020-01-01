@@ -415,17 +415,10 @@ JSObject
 aScope
 )
 {
-JS
-:
-:
-Rooted
-<
 JSObject
 *
->
 obj
-(
-aCx
+=
 SVGDocumentBinding
 :
 :
@@ -434,7 +427,6 @@ Wrap
 aCx
 aScope
 this
-)
 )
 ;
 if
