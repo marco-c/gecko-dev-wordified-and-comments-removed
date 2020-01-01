@@ -729,17 +729,6 @@ nsRect
 aDirtyRect
 )
 ;
-FrameLayerBuilder
-*
-LayerBuilder
-(
-)
-{
-return
-&
-mLayerBuilder
-;
-}
 const
 nsRegion
 *
@@ -1334,9 +1323,6 @@ Length
 ]
 ;
 }
-FrameLayerBuilder
-mLayerBuilder
-;
 nsIFrame
 *
 mReferenceFrame
