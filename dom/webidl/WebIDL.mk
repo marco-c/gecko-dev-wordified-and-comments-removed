@@ -1299,6 +1299,10 @@ VideoStreamTrack
 .
 webidl
 \
+WaveShaperNode
+.
+webidl
+\
 Window
 .
 webidl

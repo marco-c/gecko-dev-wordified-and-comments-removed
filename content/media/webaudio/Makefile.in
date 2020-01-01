@@ -181,6 +181,10 @@ ThreeDPoint
 .
 cpp
 \
+WaveShaperNode
+.
+cpp
+\
 WebAudioUtils
 .
 cpp

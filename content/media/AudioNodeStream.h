@@ -254,6 +254,17 @@ aBuffer
 )
 ;
 void
+SetRawArrayData
+(
+nsTArray
+<
+float
+>
+&
+aData
+)
+;
+void
 SetChannelMixingParameters
 (
 uint32_t

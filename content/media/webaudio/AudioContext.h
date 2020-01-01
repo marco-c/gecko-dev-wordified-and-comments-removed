@@ -181,6 +181,9 @@ class
 ScriptProcessorNode
 ;
 class
+WaveShaperNode
+;
+class
 AudioContext
 MOZ_FINAL
 :
@@ -416,6 +419,14 @@ already_AddRefed
 GainNode
 >
 CreateGain
+(
+)
+;
+already_AddRefed
+<
+WaveShaperNode
+>
+CreateWaveShaper
 (
 )
 ;

@@ -318,6 +318,14 @@ createBiquadFilter
 [
 Creator
 ]
+WaveShaperNode
+createWaveShaper
+(
+)
+;
+[
+Creator
+]
 PannerNode
 createPanner
 (
