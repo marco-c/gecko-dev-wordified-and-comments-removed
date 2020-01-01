@@ -1553,7 +1553,6 @@ __FUNCTION__
 ;
 CloseInt
 (
-false
 )
 ;
 #
@@ -5496,8 +5495,6 @@ PeerConnectionImpl
 :
 Close
 (
-bool
-aIsSynchronous
 )
 {
 CSFLogDebug
@@ -5517,7 +5514,6 @@ PC_AUTO_ENTER_API_CALL_NO_CHECK
 return
 CloseInt
 (
-aIsSynchronous
 )
 ;
 }
@@ -5527,8 +5523,6 @@ PeerConnectionImpl
 :
 CloseInt
 (
-bool
-aIsSynchronous
 )
 {
 PC_AUTO_ENTER_API_CALL_NO_CHECK
@@ -5590,7 +5584,6 @@ nullptr
 endif
 ShutdownMedia
 (
-aIsSynchronous
 )
 ;
 return
@@ -5603,8 +5596,6 @@ PeerConnectionImpl
 :
 ShutdownMedia
 (
-bool
-aIsSynchronous
 )
 {
 PC_AUTO_ENTER_API_CALL_NO_CHECK

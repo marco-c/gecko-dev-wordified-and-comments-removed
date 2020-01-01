@@ -1110,8 +1110,6 @@ aNumstreams
 nsresult
 CloseInt
 (
-bool
-aIsSynchronous
 )
 ;
 void
@@ -1198,8 +1196,6 @@ endif
 void
 ShutdownMedia
 (
-bool
-isSynchronous
 )
 ;
 nsresult

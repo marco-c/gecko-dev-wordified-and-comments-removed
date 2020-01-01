@@ -651,7 +651,6 @@ _pc
 .
 close
 (
-false
 )
 ;
 delete
@@ -768,7 +767,6 @@ _pc
 .
 close
 (
-true
 )
 ;
 delete

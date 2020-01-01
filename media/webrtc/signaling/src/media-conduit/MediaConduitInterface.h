@@ -281,6 +281,14 @@ aRenderer
 0
 ;
 virtual
+void
+DetachRenderer
+(
+)
+=
+0
+;
+virtual
 MediaConduitErrorCode
 SendVideoFrame
 (

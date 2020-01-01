@@ -178,6 +178,7 @@ WebrtcAudioConduit
 aConduit
 )
 ;
+virtual
 MediaConduitErrorCode
 AttachRenderer
 (
@@ -189,6 +190,12 @@ RefPtr
 VideoRenderer
 >
 aVideoRenderer
+)
+;
+virtual
+void
+DetachRenderer
+(
 )
 ;
 virtual
@@ -352,10 +359,6 @@ mEngineTransmitting
 false
 )
 mEngineReceiving
-(
-false
-)
-mEngineRendererStarted
 (
 false
 )
@@ -564,9 +567,6 @@ mEngineTransmitting
 ;
 bool
 mEngineReceiving
-;
-bool
-mEngineRendererStarted
 ;
 int
 mChannel

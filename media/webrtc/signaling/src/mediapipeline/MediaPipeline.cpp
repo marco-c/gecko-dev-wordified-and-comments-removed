@@ -547,6 +547,12 @@ ASSERT_ON_THREAD
 sts_thread_
 )
 ;
+MOZ_ASSERT
+(
+!
+stream_
+)
+;
 disconnect_all
 (
 )
