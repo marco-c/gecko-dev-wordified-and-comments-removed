@@ -843,6 +843,13 @@ aspect_ratio
 patch
 patch
 -
+p3
+<
+bug493678
+.
+patch
+patch
+-
 p1
 <
 bug493224
