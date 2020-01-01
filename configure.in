@@ -42318,6 +42318,10 @@ pangoft2
 >
 =
 PANGO_VERSION
+pangocairo
+>
+=
+PANGO_VERSION
 ]
 [
 AC_SUBST
