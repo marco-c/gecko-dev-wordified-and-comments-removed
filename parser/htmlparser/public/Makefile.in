@@ -463,10 +463,6 @@ nsIDTD
 .
 h
 \
-nsIParserFilter
-.
-h
-\
 nsIElementObserver
 .
 h

@@ -59,13 +59,6 @@ h
 #
 include
 "
-nsIParserFilter
-.
-h
-"
-#
-include
-"
 nsIHTMLContentSink
 .
 h
