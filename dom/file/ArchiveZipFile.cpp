@@ -26,6 +26,15 @@ zlib
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 USING_FILE_NAMESPACE
 #
 define
@@ -33,6 +42,7 @@ ZIP_CHUNK
 16384
 class
 ArchiveInputStream
+MOZ_FINAL
 :
 public
 nsIInputStream
