@@ -11825,6 +11825,7 @@ offsets
 GetContentOffsetsFromPoint
 (
 pt
+SKIP_HIDDEN
 )
 ;
 if
@@ -12411,6 +12412,7 @@ offsets
 GetContentOffsetsFromPoint
 (
 pt
+SKIP_HIDDEN
 )
 ;
 if
@@ -13433,6 +13435,7 @@ offsets
 GetContentOffsetsFromPoint
 (
 pt
+SKIP_HIDDEN
 )
 ;
 handleTableSelection
