@@ -1204,7 +1204,7 @@ label
 =
 "
 &
-save
+saveFile
 .
 label
 ;
@@ -1213,7 +1213,7 @@ accesskey
 =
 "
 &
-save
+saveFile
 .
 accesskey
 ;
