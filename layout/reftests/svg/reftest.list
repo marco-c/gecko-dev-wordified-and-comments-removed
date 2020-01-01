@@ -16,6 +16,12 @@ sizing
 reftest
 .
 list
+include
+filters
+/
+reftest
+.
+list
 #
 Mozilla
 only
