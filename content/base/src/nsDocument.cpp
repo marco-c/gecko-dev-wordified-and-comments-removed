@@ -23515,16 +23515,6 @@ k
 mozAutoRemovableBlockerRemover
 blockerRemover
 ;
-if
-(
-nsContentUtils
-:
-:
-IsSafeToRunScript
-(
-)
-)
-{
 nsMutationEvent
 mutation
 (
@@ -23546,7 +23536,6 @@ nsnull
 mutation
 )
 ;
-}
 }
 }
 }
