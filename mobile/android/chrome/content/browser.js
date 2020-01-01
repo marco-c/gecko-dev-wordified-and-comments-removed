@@ -17105,14 +17105,6 @@ this
 .
 browser
 .
-blur
-(
-)
-;
-this
-.
-browser
-.
 docShellIsActive
 =
 false
