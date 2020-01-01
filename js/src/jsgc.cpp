@@ -13582,14 +13582,6 @@ acx
 -
 >
 globalObject
-&
-&
-!
-JS_HAS_OPTION
-(
-acx
-JSOPTION_UNROOTED_GLOBAL
-)
 )
 JS_CALL_OBJECT_TRACER
 (
@@ -13954,6 +13946,12 @@ acx
 -
 >
 sharpObjectMap
+)
+;
+js_TraceRegExpStatics
+(
+trc
+acx
 )
 ;
 }
