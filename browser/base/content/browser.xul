@@ -3090,15 +3090,6 @@ button
 onclick
 =
 "
-if
-(
-event
-.
-button
-=
-=
-0
-)
 PlacesStarButton
 .
 onClick
