@@ -70,7 +70,7 @@ h
 endif
 #
 ifdef
-_MSC_VER
+_WIN32
 typedef
 __int32
 Atomic32
