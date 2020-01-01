@@ -841,7 +841,7 @@ operator
 [
 ]
 (
-int
+size_t
 i
 )
 {
@@ -872,7 +872,7 @@ operator
 [
 ]
 (
-int
+size_t
 i
 )
 const

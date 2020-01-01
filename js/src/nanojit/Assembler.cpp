@@ -7587,6 +7587,12 @@ i
 )
 ;
 }
+pending_lives
+.
+clear
+(
+)
+;
 }
 void
 Assembler
