@@ -2539,7 +2539,6 @@ mCatalogSheets
 nsTObserverArray
 <
 nsIDocumentObserver
-*
 >
 mObservers
 ;

@@ -1150,7 +1150,6 @@ mDatasToNotifyOn
 nsTObserverArray
 <
 nsICSSLoaderObserver
-*
 >
 mObservers
 ;

@@ -25,7 +25,6 @@ private
 nsTObserverArray
 <
 nsIPresShell
-*
 >
 :
 :
@@ -43,7 +42,6 @@ aDoc
 nsTObserverArray
 <
 nsIPresShell
-*
 >
 :
 :
@@ -81,11 +79,6 @@ mDoc
 -
 >
 ShellsAreHidden
-(
-)
-&
-&
-HasMore
 (
 )
 )

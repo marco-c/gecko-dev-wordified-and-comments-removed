@@ -1,13 +1,6 @@
 #
 include
 <
-stdlib
-.
-h
->
-#
-include
-<
 string
 .
 h
@@ -156,7 +149,7 @@ Header
 *
 >
 (
-malloc
+NS_Alloc
 (
 sizeof
 (
@@ -225,20 +218,6 @@ size
 "
 )
 ;
-if
-(
-capacity
-<
-8
-)
-{
-capacity
-=
-8
-;
-}
-else
-{
 size_type
 temp
 =
@@ -263,7 +242,6 @@ capacity
 =
 temp
 ;
-}
 Header
 *
 header
@@ -283,7 +261,7 @@ Header
 *
 >
 (
-malloc
+NS_Alloc
 (
 sizeof
 (
@@ -343,7 +321,7 @@ Header
 *
 >
 (
-realloc
+NS_Realloc
 (
 mHdr
 size
@@ -467,7 +445,7 @@ length
 elemSize
 )
 ;
-free
+NS_Free
 (
 mHdr
 )
@@ -503,7 +481,7 @@ elements
 "
 )
 ;
-free
+NS_Free
 (
 mHdr
 )
@@ -532,7 +510,7 @@ void
 *
 ptr
 =
-realloc
+NS_Realloc
 (
 mHdr
 size
@@ -1092,7 +1070,7 @@ Header
 *
 >
 (
-malloc
+NS_Alloc
 (
 size
 )
