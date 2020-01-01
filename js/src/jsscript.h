@@ -689,6 +689,9 @@ ARGUMENT
 BindingKind
 lookup
 (
+JSContext
+*
+cx
 JSAtom
 *
 name
@@ -701,6 +704,9 @@ const
 bool
 hasBinding
 (
+JSContext
+*
+cx
 JSAtom
 *
 name
@@ -710,6 +716,7 @@ const
 return
 lookup
 (
+cx
 name
 NULL
 )

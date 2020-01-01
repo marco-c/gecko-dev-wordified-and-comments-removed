@@ -13310,6 +13310,7 @@ bindings
 .
 lookup
 (
+context
 funAtom
 &
 index
@@ -16877,6 +16878,7 @@ bindings
 .
 lookup
 (
+cx
 atom
 NULL
 )
