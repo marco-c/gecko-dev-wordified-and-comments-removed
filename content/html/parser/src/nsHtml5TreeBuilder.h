@@ -91,13 +91,6 @@ h
 #
 include
 "
-nsHtml5StringLiterals
-.
-h
-"
-#
-include
-"
 nsHtml5Atoms
 .
 h
@@ -181,7 +174,8 @@ ISINDEX_PROMPT
 static
 jArray
 <
-nsString
+const
+char
 *
 PRInt32
 >
@@ -1207,7 +1201,8 @@ ifdef
 nsHtml5TreeBuilder_cpp__
 jArray
 <
-nsString
+const
+char
 *
 PRInt32
 >

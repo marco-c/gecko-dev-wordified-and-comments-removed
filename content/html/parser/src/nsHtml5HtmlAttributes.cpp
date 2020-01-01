@@ -88,13 +88,6 @@ h
 #
 include
 "
-nsHtml5StringLiterals
-.
-h
-"
-#
-include
-"
 nsHtml5Atoms
 .
 h

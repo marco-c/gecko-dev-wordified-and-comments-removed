@@ -502,10 +502,6 @@ nsHtml5NamedCharacters
 .
 cpp
 \
-nsHtml5StringLiterals
-.
-cpp
-\
 nsHtml5Tokenizer
 .
 cpp
